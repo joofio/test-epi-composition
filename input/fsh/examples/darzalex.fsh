@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d365d405c4186be4b5c62f68568d4862
 InstanceOf: CompositionUvEpi
 Title: "Composition for darzalex Package Leaflet"
@@ -393,12 +396,620 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-d365d405c4186be4b5c62f68568d4862
+InstanceOf: CompositionUvEpi
+Title: "Composition for darzalex Package Leaflet"
+Description:  "Composition for darzalex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp25577a81a5a7da97b837c7adf55fde7f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp25577a81a5a7da97b837c7adf55fde7f
+* title = "TEST PURPOSES ONLY - darzalex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du får DARZALEX
+3. Sådan får du DARZALEX
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What darzalex is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What darzalex is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er DARZALEX
+DARZALEX er et lægemiddel mod kræft, som indeholder det aktive stof daratumumab. Det tilhører 
+en gruppe lægemidler, som kaldes monoklonale antistoffer. Monoklonale antistoffer er proteiner, som 
+er designet til at genkende og koble sig fast bestemte steder i kroppen. Daratumumab er designet til at 
+koble sig fast på bestemte kræftceller i din krop, så dit immunsystem kan ødelægge kræftcellerne.
+Hvad anvendes DARZALEX til
+DARZALEX anvendes til voksne på 18 år og derover, som har en type kræft, der hedder 
+myelomatose. Det er kræft i knoglemarven.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take darzalex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take darzalex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Du må ikke få DARZALEX</h2>
+<p>hvis du er allergisk over for daratumumab eller et af de øvrige indholdsstoffer i DARZALEX 
+(angivet i afsnit 6).
+Du må ikke få DARZALEX, hvis ovenstående gælder for dig. Hvis du ikke er sikker, så tal med lægen 
+eller sygeplejersken, før du får DARZALEX.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sygeplejersken, før du får DARZALEX.
+Infusionsrelaterede reaktioner
+DARZALEX gives som en infusion (et drop) i en vene. Før og efter hver infusion af DARZALEX vil 
+du få lægemidler, som kan hjælpe med at mindske risikoen for reaktioner på infusionen (se 
+”Lægemidler, der gives under behandling med DARZALEX” i afsnit 3). Disse reaktioner kan opstå 
+under infusionen eller i løbet af 3 dage efter infusionen.
+I visse tilfælde kan den allergiske reaktion være alvorlig og omfatte hævelser af ansigtet, læberne, 
+munden, tungen eller svælget, synke- eller vejrtrækningsbesvær eller kløende udslæt (nældefeber).
+Nogle alvorlige allergiske reaktioner og andre alvorlige infusionsrelaterede reaktioner har haft dødelig 
+udgang.
+89
+Fortæl det straks til lægen eller sygeplejersken, hvis du får en af de infusionsrelaterede reaktioner eller 
+tilknyttede symptomer, der er nævnt øverst i afsnit 4. Hvis du får infusionsrelaterede reaktioner, kan du have brug for andre lægemidler, eller det kan være
+nødvendigt at give infusionen langsommere eller stoppe den. Når disse reaktioner er forsvundet eller 
+blevet bedret, kan infusionen startes igen.
+Der er størst risiko for disse reaktioner efter den første infusion. Hvis du har haft en infusionsrelateret 
+reaktion én gang, er det mindre sandsynligt, at den opstår igen. Din læge kan beslutte, at du ikke skal 
+have DARZALEX, hvis du reagerer kraftigt på infusionen.
+Nedsat antal blodlegemer
+DARZALEX kan nedsætte antallet af hvide blodlegemer, som hjælper med at bekæmpe infektioner, 
+og blodplader, som hjælper blodet med at størkne. Tal med lægen eller sygeplejersken, hvis du får 
+symptomer på infektion som f.eks. feber, eller symptomer på nedsat antal blodplader som f.eks. blå 
+mærker eller blødning.
+Blodtransfusioner
+Hvis du skal have en blodtransfusion, vil du få taget en blodprøve først for at matche din blodtype. 
+DARZALEX kan påvirke resultatet af denne blodprøve. Fortæl det til den person, der tager 
+blodprøven, at du får DARZALEX.
+Hepatitis B
+Fortæl det til lægen, hvis du nogensinde har haft en hepatitis B-infektion eller måske har det nu. Dette
+skyldes, at DARZALEX kan medføre, at hepatitis B-virussen bliver aktiv igen. Lægen vil kontrollere 
+dig for tegn på denne infektion før, under og i nogen tid efter behandlingen med DARZALEX. 
+Kontakt omgående lægen, hvis du oplever tiltagende træthed eller gulfarvning af huden eller det hvide 
+i øjnene.
+Børn og unge
+DARZALEX må ikke gives til børn og unge under 18 år. Det skyldes, at det ikke vides, hvordan 
+medicinen påvirker dem.
+Brug af anden medicin sammen med DARZALEX
+Fortæl det altid til lægen eller sygeplejersken, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept, og naturlægemidler.
+Graviditet
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge til råds, før du får dette lægemiddel.
+Hvis du bliver gravid, mens du er i behandling med dette lægemiddel, skal du fortælle det til lægen 
+eller sygeplejersken med det samme. Du og din læge vil beslutte, om fordelen for dig ved at få 
+lægemidlet er større end risikoen for barnet.
+Prævention
+Kvinder, der får DARZALEX, skal bruge sikker prævention under behandlingen og i 3 måneder efter 
+afsluttet behandling.
+Amning
+Du og din læge skal beslutte, om fordelene for barnet ved amning er større end risikoen. Det skyldes, 
+at medicinen kan udskilles i mælken, og at det ikke vides, hvordan det kan påvirke barnet.
+Trafik- og arbejdssikkerhed
+Du kan føle dig træt, når du har fået DARZALEX, og det kan påvirke din evne til at føre motorkøretøj
+og betjene maskiner.
+90
+DARZALEX indeholder sorbitol
+Sorbitol er en kilde til fructose. Hvis du har arvelig fructoseintolerans (HFI), en sjælden genetisk 
+lidelse, må du ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde fructose, hvilket kan 
+medføre alvorlige bivirkninger.
+Inden du får dette lægemiddel, skal du fortælle din læge, hvis du har HFI.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take darzalex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take darzalex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Så meget vil du få
+Lægen fastsætter den rette dosis DARZALEX og en doseringsplan. Dosen af DARZALEX afhænger 
+af din vægt.
+Den sædvanlige startdosis af DARZALEX er 16 mg pr. kg legemsvægt. DARZALEX kan gives enten
+alene eller sammen med andre lægemidler, som anvendes til at behandle myelomatose.
+Når DARZALEX gives alene, gives det på følgende måde:
+
+en gang om ugen i de første 8 uger
+
+derefter hver 2. uge i 16 uger
+
+herefter hver 4. uge, så længe din tilstand ikke bliver værre.
+Når DARZALEX gives sammen med andre lægemidler, kan din læge ændre perioderne mellem doser 
+og antallet af behandlinger.
+I den første uge kan lægen beslutte at give dig dosen af DARZALEX fordelt over to dage i træk.
+Sådan får du lægemidlet
+Du vil få DARZALEX af en læge eller sygeplejerske. Medicinen indgives som et drop i en vene 
+(intravenøs infusion) over flere timer.
+Lægemidler, der gives under behandling med DARZALEX
+Du kan få andre lægemidler for at nedsætte risikoen for at få helvedesild.
+Før hver infusion af DARZALEX vil du få lægemidler, som kan hjælpe med at mindske risikoen for 
+infusionsrelaterede reaktioner. Disse kan omfatte:
+
+lægemidler mod en allergisk reaktion (antihistaminer)
+
+lægemidler mod inflammation (kortikosteroider)
+
+lægemidler mod feber (f.eks. paracetamol).
+Efter hver infusion af DARZALEX vil du få lægemidler (f.eks. kortikosteroider) for at mindske 
+risikoen for infusionsrelaterede reaktioner.
+Patienter med vejrtrækningsproblemer
+Hvis du har vejrtrækningsproblemer som f.eks. astma eller KOL (kronisk obstruktiv lungesygdom), vil 
+du få lægemidler til inhalation, som kan afhjælpe dine vejrtrækningsproblemer:
+
+lægemidler, der hjælper dine luftveje med at holde sig åbne (bronkodilatorer)
+
+lægemidler, der mindsker hævelse og irritation i dine lunger (kortikosteroider).
+Hvis du får for meget DARZALEX
+Du får dette lægemiddel af en læge eller sygeplejerske. Hvis du mod al forventning skulle få for meget 
+(en overdosis), vil din læge undersøge dig for bivirkninger.
+Hvis du har glemt en aftale, hvor du skulle have DARZALEX
+Det er meget vigtigt, at du kommer til alle dine aftaler for at sikre, at behandlingen virker. Hvis du 
+udebliver fra en aftale, skal du aftale en ny tid hurtigst muligt.
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.
+91</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Infusionsrelaterede reaktioner
+Fortæl det straks til lægen eller sygeplejersken, hvis du får et af følgende tegn på en infusionsrelateret 
+reaktion under infusionen eller i løbet af de 3 efterfølgende dage. Du kan have brug for andre 
+lægemidler, eller infusionshastigheden skal muligvis nedsættes eller infusionen stoppes.
+Disse reaktioner inkluderer følgende symptomer:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter):
+
+kulderystelser
+
+ondt i halsen, hoste
+
+kvalme
+
+opkastning
+
+kløende, løbende eller tilstoppet næse
+
+kortåndethed eller andre vejrtrækningsproblemer.
+Almindelige (kan forekomme hos op til 1 ud af 10 patienter):
+
+ubehag i brystet
+
+svimmelhed (på grund af lavt blodtryk)
+
+kløe
+
+hvæsende vejrtrækning.
+Sjældne (kan forekomme hos op til 1 ud af 1 000 patienter):
+
+alvorlig allergisk reaktion, som kan vise sig ved hævelser af ansigtet, læberne, munden, tungen
+eller svælget, synke- eller vejrtrækningsbesvær eller kløende udslæt (nældefeber). Se afsnit 2. 
+øjensmerter.
+
+sløret syn.
+Hvis du får en af de infusionsrelaterede reaktioner, der er nævnt ovenfor, skal du straks fortælle det til 
+lægen eller sygeplejersken.
+Andre bivirkninger
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter):
+
+feber
+
+udpræget træthedsfølelse
+
+diarré
+
+forstoppelse
+
+nedsat appetit
+
+hovedpine
+
+nerveskader, som kan medføre en snurrende fornemmelse i huden, følelsesløshed eller smerter
+
+forhøjet blodtryk
+
+muskelsammentrækninger
+
+hævede hænder, ankler eller fødder
+
+svaghedsfornemmelse
+
+rygsmerter
+
+kulderystelser
+
+lungebetændelse
+
+bronchitis
+
+luftvejsinfektioner, f.eks. i næse, bihuler eller hals
+
+lavt antal røde blodlegemer, som transporterer ilt rundt i blodet (anæmi)
+92
+
+lavt antal hvide blodlegemer, som er med til at bekæmpe infektioner (neutropeni, lymfopeni, 
+leukopeni)
+
+lavt antal blodplader, en type blodlegemer, som hjælper blodet med at størkne (trombocytopeni)
+
+unormal fornemmelse i huden (for eksempel en prikkende eller kriblende fornemmelse).
+Almindelige (kan forekomme hos op til 1 ud af 10 patienter):
+
+uregelmæssig hjerterytme (atrieflimren)
+
+ophobning af væske i lungerne, så du bliver kortåndet
+
+influenza
+
+urinvejsinfektion
+
+alvorlig infektion i hele kroppen (blodforgiftning/sepsis)
+
+dehydrering
+
+besvimelse
+
+højt indhold af sukker i blodet
+
+lavt indhold af calcium i blodet
+
+lavt indhold af antistoffer kaldet "immunglobuliner" i blodet, som hjælper med at bekæmpe 
+infektioner (hypogammaglobulinæmi)
+
+betændelse i bugspytkirtlen
+
+en type herpesvirus-infektion (cytomegalovirus-infektion)
+
+COVID-19. Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter):
+
+leverbetændelse (hepatitis).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store darzalex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store darzalex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DARZALEX opbevares på hospitalet.
+Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten på hætteglasset efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.
+Opbevares i den originale yderpakning for at beskytte mod lys.
+Sundhedspersoner vil bortskaffe eventuelle medicinrester, der ikke længere skal bruges. Af hensyn til 
+miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DARZALEX indeholder:
+
+Aktivt stof: daratumumab. En ml koncentrat indeholder 20 mg daratumumab. Hvert hætteglas 
+med 5 ml koncentrat indeholder 100 mg daratumumab. Hvert hætteglas med 20 ml koncentrat 
+indeholder 400 mg daratumumab.
+93
+
+Øvrige indholdsstoffer: L-histidin, L-histidinhydrochlorid-monohydrat, L-methionin, 
+polysorbat 20, sorbitol (E420) og vand til injektionsvæsker (se ”DARZALEX indeholder 
+sorbitol” i afsnit 2).
+Udseende og pakningsstørrelser
+DARZALEX er et koncentrat til infusionsvæske, opløsning og er en farveløs til gul væske.
+DARZALEX leveres i en karton, der indeholder 1 hætteglas af glas.
+DARZALEX leveres også som en startpakke, der indeholder 11 hætteglas (6 x 5 ml 
+hætteglas + 5 x 20 ml hætteglas).
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Biologics B.V.
+Einsteinweg 101
+NL-2333 CB Leiden
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България” ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+94
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale:
+Dette lægemiddel er kun til engangsbrug.
+95
+Infusionsvæsken skal klargøres med aseptisk teknik på følgende måde:
+
+Beregn dosis (mg), samlet volumen (ml) af DARZALEX-koncentrat og det nødvendige antal 
+DARZALEX-hætteglas ud fra patientens vægt.
+
+Kontroller, at DARZALEX-koncentratet er farveløst til gult. Koncentratet må ikke bruges, hvis 
+det indeholder uigennemsigtige partikler, er misfarvet, eller hvis det indeholder andre 
+fremmedlegemer.
+
+Ved hjælp af aseptisk teknik fjernes et volumen natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske, opløsning fra infusionsposen/-beholderen svarende til det volumen 
+DARZALEX-koncentrat, der skal bruges.
+
+Træk det nødvendige volumen DARZALEX-koncentrat op og fortynd det til det ønskede 
+volumen ved at tilsætte det til en infusionspose/-beholder med natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske, opløsning. Infusionsposer/-beholdere skal være fremstillet af polyvinylchlorid 
+(PVC), polypropylen (PP), polyethylen (PE) eller en polyolefinblanding (PP+PE). Fortynding 
+skal foretages under passende aseptiske forhold. Ikke anvendt lægemiddel i hætteglasset skal 
+bortskaffes.
+
+Vend forsigtigt posen/beholderen på hovedet for at blande opløsningen. Må ikke omrystes.
+
+Parenterale lægemidler skal inspiceres visuelt for partikler og misfarvning før administration. 
+Der kan dannes meget små, gennemsigtige til hvide proteinagtige partikler i den fortyndede 
+opløsning, da daratumumab er et protein. Infusionsvæsken må ikke bruges, hvis den indeholder 
+synlige, uigennemsigtige partikler, er misfarvet, eller hvis der ses fremmedlegemer.
+
+Da DARZALEX ikke indeholder konserveringsmiddel, skal den fremstillede infusionsvæske 
+administreres inden for 15 timer (inklusiv infusionstid), opbevaret ved stuetemperatur 
+(15 °C - 25 °C) og almindelig belysning.
+
+Hvis infusionsvæsken ikke anvendes med det samme, kan den opbevares i op til 24 timer på køl 
+(2 °C - 8 °C) og beskyttet mod lys før administration. Må ikke nedfryses.
+
+Administrer infusionsvæsken via intravenøs infusion med et infusionssæt, hvor der er påsat en 
+flow-regulator og et indlejret sterilt, ikke-pyrogent polyethersulfon-filter (PES) med lav 
+proteinbinding (porestørrelse 0,22 eller 0,2 mikrometer). Der skal anvendes et 
+administrationssæt af polyurethan (PU), polybutadien (PBD), PVC, PP eller PE.
+
+DARZALEX må ikke infunderes sammen med andre midler i den samme intravenøse slange.
+
+Ikke anvendt infusionsvæske må ikke gemmes til senere brug. Ikke anvendt lægemiddel samt 
+affald heraf skal bortskaffes i henhold til lokale retningslinjer.
+Sporbarhed
+For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres.
+96
+Indlægsseddel: Information til patienten
+DARZALEX 1 800 mg injektionsvæske, opløsning
+daratumumab
+Læs denne indlægsseddel grundigt, inden du får dette lægemiddel, da den indeholder vigtige 
+oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide.
+-
+Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
+nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d365d405c4186be4b5c62f68568d4862
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for darzalex Package Leaflet for language en"
+Description: "ePI document Bundle for darzalex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d365d405c4186be4b5c62f68568d4862"
+* entry[0].resource = composition-en-d365d405c4186be4b5c62f68568d4862
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd365d405c4186be4b5c62f68568d4862"
+* entry[=].resource = mpd365d405c4186be4b5c62f68568d4862
+                            
+                    
+Instance: bundlepackageleaflet-da-d365d405c4186be4b5c62f68568d4862
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for darzalex Package Leaflet for language da"
+Description: "ePI document Bundle for darzalex Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d365d405c4186be4b5c62f68568d4862"
+* entry[0].resource = composition-da-d365d405c4186be4b5c62f68568d4862
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd365d405c4186be4b5c62f68568d4862"
+* entry[=].resource = mpd365d405c4186be4b5c62f68568d4862
+                            
+                    
+
+
+
+Instance: mpd365d405c4186be4b5c62f68568d4862
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product DARZALEX 20 mg/mL concentrate for solution for infusion"
-Description: "DARZALEX 20 mg/mL concentrate for solution for infusion"
+Title: "Medicinal Product darzalex"
+Description: "darzalex"
 Usage: #inline
 
  
@@ -418,7 +1029,7 @@ Usage: #inline
 
 
 * name
-  * productName = "DARZALEX 20 mg/mL concentrate for solution for infusion"
+  * productName = "darzalex"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -445,29 +1056,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d365d405c4186be4b5c62f68568d4862
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for darzalex Package Leaflet for language en"
-Description: "ePI document Bundle for darzalex Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d365d405c4186be4b5c62f68568d4862ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/16/1101/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "darzalex"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d365d405c4186be4b5c62f68568d4862"
-* entry[0].resource = composition-en-d365d405c4186be4b5c62f68568d4862
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp25577a81a5a7da97b837c7adf55fde7f"
-* entry[=].resource = mp25577a81a5a7da97b837c7adf55fde7f
-                            
-                      
+* title = "List of all ePIs associated with darzalex"
+
+* subject = Reference(mp25577a81a5a7da97b837c7adf55fde7f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#darzalex "darzalex"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d365d405c4186be4b5c62f68568d4862) // darzalex en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d365d405c4186be4b5c62f68568d4862) // darzalex da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d365d405c4186be4b5c62f68568d4862
+InstanceOf: List
+
+* insert d365d405c4186be4b5c62f68568d4862ListRuleset
+    

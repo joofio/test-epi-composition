@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-4c889264e6df1e0383b0ef68358c4009
 InstanceOf: CompositionUvEpi
 Title: "Composition for sivextro Package Leaflet"
@@ -361,12 +364,570 @@ not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-4c889264e6df1e0383b0ef68358c4009
+InstanceOf: CompositionUvEpi
+Title: "Composition for sivextro Package Leaflet"
+Description:  "Composition for sivextro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp46f820f4ed55a5408360fa9c2e65bd6e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp46f820f4ed55a5408360fa9c2e65bd6e
+* title = "TEST PURPOSES ONLY - sivextro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Sivextro
+3. Sådan skal du tage Sivextro
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sivextro is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sivextro is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sivextro er et antibiotikum, der indeholder det aktive stof tedizolidphosphat. Det tilhører en gruppe
+lægemidler, der kaldes "oxazolidinoner".
+Det anvendes til at behandle infektioner i hud og hudstrukturer hos voksne og unge i alderen 12 år og
+derover.
+Det virker ved at standse væksten af bestemte bakterier, der kan give alvorlige infektioner. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sivextro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sivextro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Sivextro</p>
+<ul>
+<li>
+<p>hvis du er allergisk over for tedizolidphosphat eller et af de øvrige indholdsstoffer i Sivextro
+(angivet i punkt 6). 
+Advarsler og forsigtighedsregler
+Din læge vil tage stilling til, om Sivextro er egnet til at behandle din infektion.
+Kontakt lægen eller sygeplejersken, før du tager Sivextro, hvis noget af nedenstående gælder for dig:</p>
+</li>
+<li>
+<p>hvis du har diarré, eller hvis du tidligere har fået diarré, når du har taget antibiotika (eller op til
+2 måneder efter, at du har fået antibiotika). </p>
+</li>
+<li>hvis du er allergisk over for andre lægemidler, der tilhører oxazolidinon-gruppen (f.eks.
+linezolid eller cycloserin).</li>
+<li>hvis du tidligere har haft tilbøjelighed til at bløde eller få blå mærker (hvilket kan være et tegn
+på et lavt antal blodplader, de små celler, der har betydning for blodets evne til at størkne).</li>
+<li>hvis du har nyreproblemer.</li>
+<li>hvis du tager lægemidler til behandling af depression af typen tricykliske antidepressiva, SSRI
+(selektive serotonin-genoptagelseshæmmere), opioider eller MAO-hæmmere
+(monoaminooxidasehæmmere). Anvendelse af disse lægemidler sammen med tedizolidphosphat
+kan medføre serotoninsyndrom, en potentielt livstruende tilstand (med symptomer som
+40
+forvirring, koncentrationsbesvær, høj feber, reflekser, der er kraftigere end normalt
+(hyperrefleksi), tab af muskelkoordination). Se Brug af andre lægemidler sammen med Sivextro
+for eksempler.</li>
+<li>
+<p>hvis du tager lægemidler til behandling af migræne af typen "triptaner". Se Brug af andre
+lægemidler sammen med Sivextro for eksempler.
+Spørg din læge eller apotekspersonalet, hvis du ikke er sikker på, om du tager denne type lægemiddel.
+Diarré
+Kontakt lægen med det samme, hvis du får diarré under eller efter behandlingen. Du må ikke tage
+medicin mod diarré, før du har talt med lægen.
+Resistens over for antibiotika
+Bakterier kan med tiden blive resistente over for antibiotika. Det vil sige, at antibiotika ikke kan
+standse bakteriernes vækst og behandle infektionen. Din læge vurderer, om du skal have Sivextro til
+behandling af din infektion. 
+Mulige bivirkninger
+Der er set en række bivirkninger ved brug af Sivextro eller et andet lægemiddel i oxazolidinon-klassen
+over en længere periode end den, der anbefales for Sivextro. Fortæl det straks til lægen, hvis en eller
+flere af nedenstående tilstande gælder for dig, mens du tager Sivextro:</p>
+</li>
+<li>
+<p>lavt antal hvide blodlegemer</p>
+</li>
+<li>
+<p>blodmangel (lavt antal røde blodlegemer; også kaldet anæmi)</p>
+</li>
+<li>
+<p>tilbøjelighed til at bløde eller få blå mærker</p>
+</li>
+<li>
+<p>manglende følsomhed i hænder og/eller fødder (f.eks. følelsesløshed, prikkende/snurrende
+fornemmelse eller stikkende smerter)</p>
+</li>
+<li>
+<p>problemer med øjnene, f.eks. sløret syn, ændret farveopfattelse, udviskede detaljer eller nedsat
+synsfelt.
+Børn
+Dette lægemiddel må ikke bruges til børn under 12 år, da det ikke er undersøgt tilstrækkeligt hos
+denne population.
+Brug af andre lægemidler sammen med Sivextro
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget
+andre lægemidler eller planlægger at tage andre lægemidler. Det er især vigtigt, at du siger det til
+lægen, hvis du også tager:</p>
+</li>
+<li>
+<p>amitriptylin, citalopram, clomipramin, dosulepin, doxepin, fluoxetin, fluvoxamin, imipramin,
+isocarboxazid, lofepramin, moclobemid, paroxetin, phenelzin, selegilin, sertralin, duloxetin og
+venlafaxin (til behandling af depression). Der er en risiko for at tedizolidphosphat kan påvirke
+virkningen af visse lægemidler, inklusive de lægemidler, der er nævnt her, og forårsage
+bivirkninger såsom ændringer i blodtrykket eller temperatur.</p>
+</li>
+<li>
+<p>sumatriptan, zolmitriptan (til behandling af migræne)</p>
+</li>
+<li>
+<p>opioider (såsom fentanyl)</p>
+</li>
+<li>
+<p>imatinib, lapatinib (til behandling af kræft)</p>
+</li>
+<li>
+<p>methotrexat (til behandling af kræft, leddegigt eller psoriasis)</p>
+</li>
+<li>
+<p>sulfasalazin (til behandling af inflammatoriske (betændelsesagtige) tarmsygdomme)</p>
+</li>
+<li>
+<p>topotecan (til behandling af kræft)</p>
+</li>
+<li>
+<p>statiner som f.eks. pitavastatin, rosuvastatin (mod forhøjet kolesterol)
+Sivextro kan have indvirkning på disse lægemidlers effekt. Din læge vil fortælle dig mere om det.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal
+du spørge lægen eller apotekspersonalet til råds, før du tager dette lægemiddel.
+41
+Det er ukendt, om Sivextro udskilles i mælken hos mennesker. Spørg din læge til råds, før du ammer
+dit barn.
+Trafik- og arbejdssikkerhed
+Du må ikke køre bil eller betjene maskiner, hvis du føler dig svimmel eller træt efter at have taget
+dette lægemiddel. </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sivextro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sivextro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller
+apotekspersonalet.
+Den anbefalede dosis er en 200 mg tablet en gang dagligt i 6 dage. Tabletterne synkes hele og kan
+tages med eller uden mad og drikke. 
+Kontakt lægen, hvis du ikke får det bedre, eller hvis du får det værre efter 6 dage.
+Hvis du har taget for meget Sivextro
+Kontakt lægen, apotekspersonalet eller den nærmeste skadestue så hurtigt som muligt, hvis du har
+taget for mange tabletter, og medbring medicinen.
+Hvis du har glemt at tage Sivextro
+Hvis du har glemt at tage din dosis, skal du tage den manglende dosis så hurtigt som muligt, hvis der
+er mere end 8 timer til den næste planlagte dosis. Hvis der er under 8 timer til den næste planlagte
+dosis, skal du vente til den næste dosis. Du må ikke tage en dobbeltdosis som erstatning for den glemte
+dosis. Spørg apotekspersonalet, hvis der er noget, du er tvivl om.
+Du skal tage alle 6 tabletter for at gennemføre hele behandlingsforløbet, også hvis du har glemt en
+dosis.
+Hvis du holder op med at tage Sivextro
+Hvis du holder op med at tage Sivextro uden at rådføre dig med lægen, kan dine symptomer blive
+værre. Kontakt lægen eller apotekspersonalet, før du holder op med at tage dette lægemiddel.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Kontakt lægen med det samme, hvis du får diarré under eller efter behandlingen.
+Andre bivirkninger:
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter)</p>
+<ul>
+<li>
+<p>Kvalme</p>
+</li>
+<li>
+<p>Opkastning</p>
+</li>
+<li>
+<p>Hovedpine</p>
+</li>
+<li>
+<p>Kløe over hele kroppen</p>
+</li>
+<li>
+<p>Træthed</p>
+</li>
+<li>
+<p>Svimmelhed.
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter)</p>
+</li>
+<li>
+<p>Svampeinfektion i huden, munden og/eller skeden</p>
+</li>
+<li>
+<p>Kløe (herunder kløe, der skyldes en overfølsomhedsreaktion), hårtab, bumser (akne), rødt
+og/eller kløende udslæt eller nældefeber, øget svedtendens </p>
+</li>
+<li>
+<p>Nedsættelse eller tab af følsomheden i huden, stikkende/prikkende fornemmelse i huden 
+42</p>
+</li>
+<li>
+<p>Hedeture eller rødme i ansigtet eller på halsen og den øvre del af brystkassen </p>
+</li>
+<li>
+<p>Byld (hævet, pusfyldt bule) </p>
+</li>
+<li>
+<p>Infektion, irritation eller kløe i skeden </p>
+</li>
+<li>
+<p>Angst, irritabilitet, rysten eller skælven </p>
+</li>
+<li>
+<p>Luftvejsinfektion (bihuler, hals og brystkasse)</p>
+</li>
+<li>
+<p>Næsetørhed, slim i lungerne, hoste </p>
+</li>
+<li>
+<p>Søvnighed, unormalt søvnmønster, søvnbesvær, mareridt (ubehagelige/forstyrrende drømme)</p>
+</li>
+<li>
+<p>Mundtørhed, forstoppelse, fordøjelsesbesvær, smerter/ubehag i maven,
+opkastningsfornemmelse, frisk rødt blod i afføringen</p>
+</li>
+<li>
+<p>Mavesyre-refluks (halsbrand, smerter ved synkning eller synkebesvær), luft i tarmene </p>
+</li>
+<li>
+<p>Ledsmerter, muskelspasmer, rygsmerter, nakkesmerter, smerter/ubehag i lemmerne, nedsat
+gribestyrke</p>
+</li>
+<li>
+<p>Sløret syn, "flyvende fluer" (små partikler i synsfeltet)</p>
+</li>
+<li>
+<p>Hævede eller forstørrede lymfeknuder </p>
+</li>
+<li>
+<p>Overfølsomhedsreaktion </p>
+</li>
+<li>
+<p>Dehydrering (væsketab) </p>
+</li>
+<li>
+<p>Dårlig regulering af sukkersyge (diabetes)</p>
+</li>
+<li>
+<p>Smagsforstyrrelser </p>
+</li>
+<li>
+<p>Langsom hjerterytme (puls)</p>
+</li>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Hævede ankler og/eller fødder </p>
+</li>
+<li>
+<p>Unormal urinlugt, unormale blodprøver. 
+Hyppighed "Ikke kendt" (hyppigheden kan ikke vurderes ud fra tilgængelige data)</p>
+</li>
+<li>
+<p>Tilbøjelighed til at bløde eller få blå mærker (på grund af et lavt antal blodplader, de små celler,
+der har betydning for blodets evne til at størkne).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. Dette gælder også mulige
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om
+sikkerheden af dette lægemiddel.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sivextro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sivextro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på karton eller blister efter EXP. Udløbsdatoen er
+den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sivextro indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: tedizolidphosphat. Hver filmovertrukket tablet indeholder 200 mg
+tedizolidphosphat.</p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, mannitol, povidon, crospovidon og
+magnesiumstearat i selve tabletkernen. Tablettens filmovertræk indeholder polyvinylalkohol,
+titandioxid (E171), macrogol, talcum og gul jernoxid (E172).
+43
+Udseende og pakningsstørrelser
+Sivextro er en oval, gul filmovertrukket tablet præget med "TZD" på den ene side og ’200’ på den
+anden side.
+Sivextro-tabletterne fås i perforeret enkeltdosisblister med 6 x 1 tabletter.
+Indehaver af markedsføringstilladelsen og fremstiller
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com
+България 
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf.: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+44
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+Ιtalia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.
+45
+Indlægsseddel: Information til patienten
+Sivextro 200 mg pulver til koncentrat til infusionsvæske, opløsning
+tedizolidphosphat
+Læs denne indlægsseddel grundigt, inden du får dette lægemiddel, da den indeholder vigtige
+oplysninger.</p>
+</li>
+<li>Gem indlægssedlen. Du kan få brug for at læse den igen.</li>
+<li>Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide.</li>
+<li>Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er
+nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-4c889264e6df1e0383b0ef68358c4009
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sivextro Package Leaflet for language en"
+Description: "ePI document Bundle for sivextro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4c889264e6df1e0383b0ef68358c4009"
+* entry[0].resource = composition-en-4c889264e6df1e0383b0ef68358c4009
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4c889264e6df1e0383b0ef68358c4009"
+* entry[=].resource = mp4c889264e6df1e0383b0ef68358c4009
+                            
+                    
+Instance: bundlepackageleaflet-da-4c889264e6df1e0383b0ef68358c4009
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sivextro Package Leaflet for language da"
+Description: "ePI document Bundle for sivextro Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-4c889264e6df1e0383b0ef68358c4009"
+* entry[0].resource = composition-da-4c889264e6df1e0383b0ef68358c4009
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4c889264e6df1e0383b0ef68358c4009"
+* entry[=].resource = mp4c889264e6df1e0383b0ef68358c4009
+                            
+                    
+
+
+
+Instance: mp4c889264e6df1e0383b0ef68358c4009
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Sivextro 200 mg film-coated tablets"
-Description: "Sivextro 200 mg film-coated tablets"
+Title: "Medicinal Product sivextro"
+Description: "sivextro"
 Usage: #inline
 
  
@@ -386,7 +947,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Sivextro 200 mg film-coated tablets"
+  * productName = "sivextro"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -413,29 +974,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-4c889264e6df1e0383b0ef68358c4009
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sivextro Package Leaflet for language en"
-Description: "ePI document Bundle for sivextro Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 4c889264e6df1e0383b0ef68358c4009ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/991/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sivextro"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-4c889264e6df1e0383b0ef68358c4009"
-* entry[0].resource = composition-en-4c889264e6df1e0383b0ef68358c4009
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp46f820f4ed55a5408360fa9c2e65bd6e"
-* entry[=].resource = mp46f820f4ed55a5408360fa9c2e65bd6e
-                            
-                      
+* title = "List of all ePIs associated with sivextro"
+
+* subject = Reference(mp46f820f4ed55a5408360fa9c2e65bd6e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sivextro "sivextro"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-4c889264e6df1e0383b0ef68358c4009) // sivextro en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-4c889264e6df1e0383b0ef68358c4009) // sivextro da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-4c889264e6df1e0383b0ef68358c4009
+InstanceOf: List
+
+* insert 4c889264e6df1e0383b0ef68358c4009ListRuleset
+    

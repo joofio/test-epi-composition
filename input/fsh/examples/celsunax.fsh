@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f364d278d54ddbe0f130b25e10418f63
 InstanceOf: CompositionUvEpi
 Title: "Composition for celsunax Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp02bad2ac5e3e95ddaf286368bc6cde78)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -290,9 +293,338 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-f364d278d54ddbe0f130b25e10418f63
+InstanceOf: CompositionUvEpi
+Title: "Composition for celsunax Package Leaflet"
+Description:  "Composition for celsunax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp02bad2ac5e3e95ddaf286368bc6cde78)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - celsunax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal De vide, før De bliver undersøgt med Celsunax </li>
+<li>Sådan skal Celsunax bruges </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger  </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What celsunax is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What celsunax is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Celsunax er et radioaktivt lægemiddel, der kun er til diagnostisk brug. Det anvendes kun som hjælp til 
+at stille en diagnose. Celsunax indeholder det aktive stof ioflupan (123I), der anvendes som hjælp til at 
+identificere (diagnosticere) sygdomme i hjernen. Det tilhører en gruppe lægemidler, der 
+kaldes ”radioaktive lægemidler”, som indeholder en lille mængde radioaktivitet. </p>
+<ul>
+<li>
+<p>Når et radioaktivt lægemiddel, injiceres, samler det sig sammen i et specifikt organ eller 
+bestemte dele af kroppen i kort tid.  </p>
+</li>
+<li>
+<p>Da det indeholder en lille mængde radioaktivitet, kan det påvises udefra ved anvendelse af 
+specielle kameraer. </p>
+</li>
+<li>
+<p>Der kan tages et billede, der kaldes en scanning. Dette scanningsbillede vil vise præcist, hvor 
+radioaktiviteten befinder sig inden i organet eller i kroppen. Dette kan give lægen værdifuld 
+information om, hvorledes organet fungerer. </p>
+</li>
+</ul>
+<p>Når en voksen får injiceret Celsunax, bliver det ført rundt i kroppen med blodet. Det samler sig i et 
+lille område af Deres hjerne. Forandringer i denne del af hjernen forekommer ved: </p>
+<ul>
+<li>
+<p>parkinsonisme (herunder Parkinsons sygdom) og  </p>
+</li>
+<li>
+<p>demens med Lewy-legemer  </p>
+</li>
+</ul>
+<p>En scanning vil give Deres læge information om enhver ændring i dette område af Deres hjerne. 
+Deres læge kan synes, at den viden, scanningen har givet, kan hjælpe med til at finde ud af mere om 
+Deres tilstand og ved beslutningen om mulig behandling. </p>
+<p>Når De får Celsunax, eksponeres De for en lille mængde radioaktivitet. Denne eksponering er mindre 
+end under visse former for røntgenundersøgelser. Deres læge og den nuklearmedicinske læge har 
+vurderet at de kliniske fordele ved denne undersøgelse med det "radioaktive lægemiddel", overstiger 
+risikoen for at blive udsat for disse små mængder stråling. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take celsunax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take celsunax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Celsunax må ikke bruges  </p>
+<ul>
+<li>
+<p>hvis De er allergisk over for ioflupan eller et af de øvrige indholdsstoffer i Celsunax (angivet 
+i afsnit 6). </p>
+</li>
+<li>
+<p>hvis De er gravid. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Tal med den nuklearmedicinske læge, før dette lægemiddel bliver givet til Dem, hvis De har 
+moderate eller svære problemer med nyrer eller lever. </p>
+<p>Inden De får Celsunax, skal De drikke masser af vand for at kunne tisse så ofte som muligt i de 
+første timer efter undersøgelsen. </p>
+<p>Børn og unge 
+Celsunax anbefales ikke til børn og unge under 18 år.  </p>
+<p>Brug af anden medicin sammen med Celsunax 
+Fortæl det altid til den nuklearmedicinske læge, hvis De bruger anden medicin eller har gjort det for 
+nylig. Nogle lægemidler og præparater kan påvirke den måde, dette lægemiddel virker på.<br />
+De omfatter: </p>
+<ul>
+<li>
+<p>buproprion (anvendes til at behandle depression (nedtrykthed)) </p>
+</li>
+<li>
+<p>benzatropin (anvendes til at behandle Parkinsons sygdom) </p>
+</li>
+<li>
+<p>mazindol (nedsætter appetitten, et middel til at behandle fedme) </p>
+</li>
+<li>
+<p>sertralin (anvendes til at behandle depression (nedtrykthed)) </p>
+</li>
+<li>
+<p>methylphenidat (anvendes til at behandle hyperaktivitet hos børn og narkolepsi (overdreven 
+søvnighed)) </p>
+</li>
+<li>
+<p>phentermin (nedsætter appetitten, et middel til at behandle fedme) </p>
+</li>
+<li>
+<p>amphetamin (anvendes til at behandle hyperaktivitet hos børn og narkolepsi (overdreven 
+søvnighed), også et stof til misbrug) </p>
+</li>
+<li>
+<p>cocain (anvendes til tider som et anæstetikum ved næsekirurgi; også et misbrugsstof) </p>
+</li>
+</ul>
+<p>Visse lægemidler kan reducere den opnåede billedkvalitet. Lægen vil eventuelt bede Dem om at holde 
+op med at tage dem i en kort periode, inden De får Celsunax. </p>
+<p>Graviditet og amning 
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge den nuklearmedicinske læge til råds, før De får dette lægemiddel. </p>
+<p>De må ikke få Celsunax, hvis De er gravid eller tror, at De muligvis kan være gravid. Dette er, fordi 
+barnet muligvis kan få tilført noget af radioaktiviteten. Andre teknikker, som ikke involverer 
+radioaktivitet, skal overvejes. </p>
+<p>Hvis De ammer, kan den nuklearmedicinske læge eventuelt udsætte anvendelsen af Celsunax eller 
+bede Dem om at ophøre med at amme. Det vides ikke, om ioflupan (123I) går over i brystmælken. </p>
+<ul>
+<li>
+<p>De bør ikke amme Deres barn de første 3 dage efter, at der er givet Celsunax. </p>
+</li>
+<li>
+<p>Brug i stedet modermælkserstatning til barnet. Malk regelmæssigt brystmælken ud og kasser al 
+den udmalkede mælk. </p>
+</li>
+<li>
+<p>De skal fortsætte med at gøre dette i 3 dage, indtil der ikke længere er radioaktivitet tilbage i 
+kroppen. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Celsunax har ingen kendt indflydelse på evnen til at føre motorkøretøj og betjene maskiner. </p>
+<p>Celsunax indeholder alkohol (ethanol): op til 197 mg alkohol i hver dosis, svarende til 39,5 mg/ml 
+(5 volumen%). Mængden i 5 ml af lægemidlet svarer til 5 ml øl eller 2 ml vin. Den lille mængde 
+alkohol, der er i dette lægemiddel, vil ikke have nogen mærkbar effekt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take celsunax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take celsunax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Der er streng lovgivning om anvendelse, håndtering og bortskaffelse af radioaktive lægemidler. Celsunax 
+vil altid blive anvendt på et hospital eller et lignende sted. Det vil kun blive håndteret og givet til Dem af 
+personer med træning og kvalifikationer i at anvende det sikkert. De vil fortælle Dem alt, hvad De skal 
+gøre for sikker brug af denne medicin.  </p>
+<p>Deres nuklearmedicinske læge vil fastsætte den dosis Celsunax, der passer bedst til Dem. Mængden vil 
+være så lille som muligt til at opnå de ønskede data. 
+Før De får Celsunax, vil Deres nuklearmedicinske læge bede Dem om at tage tabletter eller væske, der 
+indeholder jod. Det vil standse ophobningen af radioaktivitet i Deres skjoldbruskkirtel. Det er vigtigt, at 
+De tager tabletterne eller væsken, som lægen giver Dem besked om. </p>
+<p>Indgivelse af Celsunax og gennemførelse af undersøgelsen 
+De vil få Celsunax som en injektion, sædvanligvis i en blodåre i armen. Den anbefalede radioaktivitet 
+ved en enkelt injektion er mellem 110 og 185 MBq (megabequerel eller MBq er en enhed, som 
+anvendes til at måle radioaktivitet). En enkelt injektion er nok.  </p>
+<p>Procedurens varighed 
+Kamerabillederne bliver normalt taget 3-6 timer efter injektion af lægemidlet. Den nuklearmedicinske 
+læge vil fortælle Dem, hvor lang tid proceduren tager. </p>
+<p>Efter indgivelse af Celsunax bør De tisse ofte, så lægemidlet kan blive udskilt fra kroppen. </p>
+<p>Den nuklearmedicinske læge vil fortælle Dem, om De skal tage særlige forholdsregler, når De har fået 
+dette lægemiddel. Kontakt den nuklearmedicinske læge, hvis De har nogen spørgsmål. </p>
+<p>Hvis De har fået for meget Celsunax 
+Eftersom Celsunax gives af en læge under kontrollerede forhold, er det usandsynligt, at De vil få en 
+overdosis. Deres nuklearmedicinske læge vil foreslå, at De drikker meget væske for at hjælpe 
+kroppen med at slippe af med medicinen. De skal være omhyggelig med det vand (urin), De lader – 
+Deres læge vil fortælle Dem, hvad De skal gøre. Dette er normal praksis for lægemidler som 
+Celsunax. Det ioflupan (123I), som forbliver i Deres krop, vil naturligt miste dets radioaktivitet. </p>
+<p>Hvis De har flere spørgsmål til brugen af dette lægemiddel, kan De spørge Deres nuklearmedicinske 
+læge. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.<br />
+Hyppigheden af bivirkninger er: </p>
+<p>Almindelig: kan forekomme hos op til 1 ud af 10 behandlede 
+-  Hovedpine </p>
+<p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 behandlede 
+-  Øget appetit 
+-  Svimmelhed 
+-  Smagsforstyrrelser 
+-  Kvalme 
+-  Mundtørhed 
+-  Svimmelhed 
+-  En let irriterende følelse af, at der er myrer, der kravler på Deres hud (myrekryb) 
+-  Intens smerte (eller brændende fornemmelse) ved injektionsstedet. Dette er blevet rapporteret<br />
+    hos patienter, der får Celsunax i en lille blodåre.  </p>
+<p>Ikke kendt: hyppigheden kan ikke estimeres ud fra forhåndenværende data. 
+- Overfølsomhed (allergi) 
+- Åndenød 
+- Rødme af huden 
+- Kløe 
+- Udslæt 
+- Nældefeber (urtikarielt) 
+- Overdreven svedtendens 
+- Opkastning 
+- Lavt blodtryk 
+- Varmefølelse </p>
+<p>Mængden af radioaktivitet i kroppen fra Celsunax er meget lille. Den lille mængde ioniserende stråling 
+er forbundet med en meget lille risiko for kræft og arvelige anomalier. 
+Den vil blive udskilt af kroppen i løbet af nogle få dage, uden at De behøver at tage særlige 
+forholdsregler. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres nuklearmedicinske læge. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store celsunax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store celsunax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>De skal ikke opbevare dette lægemiddel. Dette lægemiddel opbevares på en dertil bestemt lokalitet 
+under ansvar af specialisten. Opbevaring af radioaktive lægemidler foregår i henhold til nationale 
+bestemmelser vedrørende radioaktive materialer. Hospitalets personale sørger for, at produktet 
+opbevares og bortskaffes korrekt og ikke anvendes efter udløbsdatoen angivet på etiketten. </p>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale:</p>
+<ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglasset efter EXP, dvs. 
+24 timer efter det tidspunkt for syntesens afslutning, der er angivet på etiketten.  </li>
+<li>Må ikke opbevares ved temperaturer over 25 ºC. </li>
+<li>Må ikke nedfryses.  </li>
+<li>Opbevares i den originale blybeholder. Opbevares i overensstemmelse med den nationale 
+lovgivning for radioaktive materialer. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Celsunax indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: ioflupan (123I). Hver ml opløsning indeholder 74 MBq ioflupan (123I) på 
+referencetidspunktet for aktivitet (0,07 til 0,13 μg/ml ioflupan).<br />
+Hvert 2,5 ml-enkeltdosishætteglas indeholder 185 MBq ioflupan (123I) (interval for specifik 
+aktivitet 2,5-4,5 x 1014 Bq/mmol) på referencetidspunktet. 
+Hvert 5 ml-enkeltdosishætteglas indeholder 370 MBq ioflupan (123I) (interval for specifik 
+aktivitet 2,5-4,5 x 1014 Bq/mmol) på referencetidspunktet. 
+Jod-123 har en fysisk halveringstid på 13,2 time. Det henfalder under udsendelse af 
+gammastråling med en dominerende energi på 159 keV og røntgenstråling på 27 keV. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: iseddikesyre (E260), natriumacetattrihydrat (E262), ethanol (96 %) 
+(E1510) og vand til injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningstørrelser 
+Celsunax er en 2,5 eller 5 ml farveløs injektionsvæske, opløsning, leveret i et 10 ml-hætteglas (type I) 
+med gummiprop og afrivelig hætte. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Pinax Pharma GmbH 
+Lausitz Mühlenweg 5 
+04924 Bad Liebenwerda 
+Tyskland </p>
+<p>Fremstiller 
+Seibersdorf Labor GmbH 
+Grundstück Nr. 482/2 EZ 98 KG 
+2444 Seibersdorf 
+Østrig </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-f364d278d54ddbe0f130b25e10418f63
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for celsunax Package Leaflet for language en"
@@ -311,5 +643,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-f364d278d54ddbe0f130b25e10418f63"
 * entry[0].resource = composition-en-f364d278d54ddbe0f130b25e10418f63
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf364d278d54ddbe0f130b25e10418f63"
+* entry[=].resource = mpf364d278d54ddbe0f130b25e10418f63
+                            
+                    
+Instance: bundlepackageleaflet-da-f364d278d54ddbe0f130b25e10418f63
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for celsunax Package Leaflet for language da"
+Description: "ePI document Bundle for celsunax Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f364d278d54ddbe0f130b25e10418f63"
+* entry[0].resource = composition-da-f364d278d54ddbe0f130b25e10418f63
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf364d278d54ddbe0f130b25e10418f63"
+* entry[=].resource = mpf364d278d54ddbe0f130b25e10418f63
+                            
+                    
+
+
+
+Instance: mpf364d278d54ddbe0f130b25e10418f63
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product celsunax"
+Description: "celsunax"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/21/1560/001 (2.5 mL)"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "This medicinal product is for diagnostic use only."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "celsunax"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: f364d278d54ddbe0f130b25e10418f63ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "celsunax"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with celsunax"
+
+* subject = Reference(mp02bad2ac5e3e95ddaf286368bc6cde78)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#celsunax "celsunax"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f364d278d54ddbe0f130b25e10418f63) // celsunax en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f364d278d54ddbe0f130b25e10418f63) // celsunax da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f364d278d54ddbe0f130b25e10418f63
+InstanceOf: List
+
+* insert f364d278d54ddbe0f130b25e10418f63ListRuleset
+    

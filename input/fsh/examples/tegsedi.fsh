@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-bb91b33a725934383f978ba47cb95161
 InstanceOf: CompositionUvEpi
 Title: "Composition for tegsedi Package Leaflet"
@@ -515,12 +518,602 @@ Austria </p>
 
 
 
+Instance: composition-da-bb91b33a725934383f978ba47cb95161
+InstanceOf: CompositionUvEpi
+Title: "Composition for tegsedi Package Leaflet"
+Description:  "Composition for tegsedi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8c07981e58f7b2a1247ef18f2c8fb201)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8c07981e58f7b2a1247ef18f2c8fb201
+* title = "TEST PURPOSES ONLY - tegsedi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at bruge Tegsedi   </li>
+<li>Sådan skal du bruge Tegsedi </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring   </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tegsedi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tegsedi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tegsedi indeholder det aktive stof inotersen. Inotersen bruges til behandling af voksne med hereditær 
+transthyretin amyloidose. Hereditær transthyretin amyloidose er en genetisk sygdom, der medfører 
+akkumulering af små fibre af et protein, der hedder transthyretin, i kroppens organer, så de ikke 
+fungerer ordentligt. Tegsedi bruges, hvis sygdommen giver symptomer på polyneuropati 
+(nervebeskadigelse). </p>
+<p>Inotersen er en type medicin, som kaldes for en antisense-oligonukleotid-hæmmer. Det virker ved at 
+nedsætte leverens produktion af transthyretin og mindsker dermed risikoen for, at der aflejres fibre af 
+transthyretin i kroppens organer og forårsager symptomer. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tegsedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tegsedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Tegsedi:</p>
+<ul>
+<li>hvis du er allergisk over for inotersen eller et af de øvrige indholdsstoffer (angivet i afsnit 6). </li>
+<li>hvis du har fået taget prøver, der viser usædvanligt lavt antal blodplader, som er de celler i 
+blodet, der klæber sammen for at få blodet til at størkne </li>
+<li>hvis undersøgelser af nyrefunktionen eller protein i urinen viser tegn på alvorlige 
+nyreproblemer </li>
+<li>hvis du har svært nedsat leverfunktion (leverinsufficiens). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Inden du starter i behandling med Tegsedi, vil din læge måle dine blodceller, leverfunktion, 
+nyrefunktion, vitamin A og proteinniveauerne i din urin. Du kan også blive testet for at sikre, at du 
+ikke er gravid. Medmindre din læge udtrykkeligt tilråder det, vil du kun blive behandlet med Tegsedi, 
+hvis alle disse resultater er på acceptable niveauer, og resultatet af din graviditetstest er negativt. Din 
+læge vil gentage disse målinger regelmæssigt under behandlingen. Det er vigtigt, at du får foretaget 
+disse regelmæssige blod- og urinundersøgelser, så længe du tager Tegsedi. </p>
+<p>Trombocytopeni 
+Tegsedi kan reducere antallet af de celler i blodet, som størkner blodet (blodplader). Det kan resultere i 
+en tilstand, som kaldes for trombocytopeni, på et hvilket som helst tidspunkt under behandlingen med 
+Tegsedi (se afsnit 4). Hvis man ikke har nok blodplader, som ved trombocytopeni, kan blodet muligvis 
+ikke størkne tilstrækkeligt hurtigt til at standse en blødning. Det kan føre til blå mærker og andre mere 
+alvorlige problemer, for eksempel kraftige blødninger og indre blødninger. Din læge vil kontrollere 
+dine niveauer af blodplader i blodet inden behandlingen og regelmæssigt under hele behandlingen med 
+Tegsedi. Det er vigtigt, at du får udført disse regelmæssige kontroller af blodet, så længe du tager 
+Tegsedi, på grund af risikoen for alvorlig blødning forårsaget af lave blodpladetal. Hvis du holder op 
+med at tage Tegsedi, skal dine blodniveauer kontrolleres 8 uger efter behandlingens ophør.  </p>
+<p>Kontakt straks din læge, hvis du får uforklarlige blå mærker eller udslæt med små røde pletter på 
+huden (kaldes for petekkier), blødning fra hudrifter, der ikke standser, eller som det siver fra, blødning 
+fra tandkød eller næse, blod i urinen eller afføringen eller blødning i det hvide i øjnene. Søg 
+øjeblikkeligt lægehjælp, hvis du får nakkestivhed eller en unormal og kraftig hovedpine, da disse 
+symptomer kan skyldes blødning i hjernen.  </p>
+<p>Glomerulonefritis, nyreproblemer 
+Glomerulonefritis er en tilstand i nyrerne, hvor de ikke fungerer ordentligt på grund af betændelse og 
+nyreskade. Nogle patienter, der er blevet behandlet med inotersen, har udviklet denne tilstand. 
+Symptomerne på glomerulonefritis er skummende urin, lyserød eller brunlig urin, blod i urinen og 
+mindre mængder urin end normalt.   <br />
+Nogle patienter, der blev behandlet med inotersen, har også udviklet forringet nyrefunktion, uden at de 
+havde glomerulonefritis. 
+Din læge vil kontrollere din nyrefunktion inden behandlingen og regelmæssigt under behandling med 
+Tegsedi. Det er vigtigt, at du får udført disse regelmæssige kontroller af blodet, så længe du tager 
+Tegsedi, på grund af risikoen for nyreproblemer. Hvis du holder op med at tage Tegsedi, skal din 
+nyrefunktion kontrolleres 8 uger efter behandlingens ophør. Hvis du får glomerulonefritis, vil din læge 
+behandle dig for denne tilstand.  </p>
+<p>Vitamin A-mangel 
+Tegsedi kan sænke niveauerne af vitamin A (også kaldet for retinol) i kroppen. Din læge vil måle disse 
+niveauer, og hvis de allerede er lave, skal dette korrigeres, og eventuelle symptomer skal være 
+forsvundet, inden du starter i behandling med Tegsedi. Symptomerne på lave niveauer af vitamin A 
+kan være: </p>
+<ul>
+<li>Øjentørhed, dårligt syn, nedsat nattesyn, sløret eller uklart syn  </li>
+</ul>
+<p>Fortæl det til din læge, hvis du har problemer med synet eller andre øjenproblemer, mens du får 
+Tegsedi. Om nødvendigt vil din læge henvise dig til kontrol hos en øjenlæge. </p>
+<p>Din læge vil bede dig om at tage et dagligt tilskud af vitamin A under behandlingen med Tegsedi.   </p>
+<p>Både for høje og for lave niveauer af vitamin A kan skade fosterets udvikling. Kvinder i den fertile 
+alder skal derfor have udelukket graviditet, inden behandling med Tegsedi starter, og skal anvende 
+sikker prævention (se afsnittet "Graviditet og amning" herunder). </p>
+<p>Hvis du planlægger at blive gravid, skal du holde op med at tage inotersen og tilskud af vitamin A og 
+sørge for, at dine niveauer af vitamin A igen er normale, inden du forsøger at blive gravid.  </p>
+<p>Hvis du uplanlagt bliver gravid, skal du holde op med at tage inotersen. På grund af Tegsedis 
+langvarige aktivitet kan de reducerede niveauer af vitamin A dog vare ved. Det vides ikke, om det er 
+skadeligt for fosteret i graviditetens første trimester, hvis du fortsætter med tilskud af vitamin A på 
+3 000 IE om dagen, men denne dosis må ikke overskrides. Du bør genoptage tilskud af vitamin A i 
+graviditetens andet og tredje trimester, hvis niveauerne af vitamin A endnu ikke er normale igen, på 
+grund af den forhøjede risiko for vitamin A-mangel i tredje trimester. </p>
+<p>Leverskade og overvågning af leveren </p>
+<p>Tegsedi kan give alvorlige leverproblemer. Du skal have taget en blodprøve, før du begynder at tage 
+inotersen, for at tjekke om din lever fungerer korrekt. Du skal endvidere have taget disse blodprøver 
+regelmæssigt, mens du tager dette lægemiddel. Det er vigtigt, at du får taget disse blodprøver 
+regelmæssigt, så længe du tager Tegsedi. </p>
+<p>Afstødning af levertransplantat 
+Kontakt lægen, før du bruger Tegsedi, hvis du tidligere har fået en levertransplantation. Der er 
+rapporteret om tilfælde af afstødning af et levertransplantat hos patienter, som blev behandlet med 
+Tegsedi. Din læge vil kontrollere dig regelmæssigt for dette under behandling med Tegsedi. </p>
+<p>Børn og unge 
+Tegsedi må ikke anvendes til børn og unge under 18 år.  </p>
+<p>Brug af anden medicin sammen med Tegsedi 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
+nylig. Det er vigtigt, at du fortæller det til din læge, hvis du allerede behandles med et eller flere af 
+følgende:</p>
+<ul>
+<li>Medicin til forebyggelse af blodpropper, eller som sænker antallet af blodplader i blodet, for 
+eksempel acetylsalicylsyre, heparin, warfarin, clopidogrel, rivoraxaban og dabigatran. </li>
+<li>Medicin, som kan ændre nyrefunktionen eller skade nyrerne, for eksempel sulfonamider (et 
+antibakterielt middel), anilider (til behandling af feber, ømhed og smerter), 
+aldosteronantagonister (et vanddrivende middel) samt naturlige opiumalkaloider og andre 
+opioider (til smertelindring).  </li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel.  </p>
+<p>Kvinder i den fertile alder 
+Tegsedi vil reducere niveauet af vitamin A i kroppen, som er vigtig for fosterets udvikling under en 
+graviditet. Det vides ikke, om tilskud af vitamin A kan kompensere for risikoen for vitamin A-mangel, 
+som kan påvirke barnet (se “Advarsler og forsigtighedsregler" ovenfor). Hvis du er kvinde og i den 
+fertile alder, skal du bruge sikker prævention, og graviditet skal udelukkes, inden behandling med 
+Tegsedi starter. </p>
+<p>Graviditet 
+Du bør ikke anvende Tegsedi, hvis du er gravid, medmindre din læge udtrykkeligt har sagt, at du skal. </p>
+<p>Amning 
+Inotersen kan passere over i modermælken. En risiko for det ammede spædbarn kan ikke udelukkes. 
+Spørg din læge, om du skal holde op med at amme eller afbryde behandlingen med Tegsedi. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er ikke observeret, at anvendelse af Tegsedi påvirker evnen til at føre motorkøretøj eller anvende 
+maskiner. </p>
+<p>Tegsedi indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 1,5 ml, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tegsedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tegsedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis Tegsedi er én dosis på 284 mg inotersen.  </p>
+<p>Doserne skal gives én gang om ugen. Alle efterfølgende doser skal injiceres én gang om ugen på den 
+samme dag hver uge.  </p>
+<p>Administration og metode<br />
+Tegsedi er kun beregnet til injektion under huden (subkutan anvendelse). </p>
+<p>Instruktioner til anvendelsen 
+Inden du bruger den fyldte injektionssprøjte, skal din læge vise dig eller plejepersonalet, hvordan den 
+bruges korrekt. Er du eller plejepersonalet i tvivl, så spørg lægen. </p>
+<p>Læs instruktionerne for anvendelsen, inden du begynder at bruge den fyldte injektionssprøjte og hver 
+gang, du får en ny recept. Der kan være nye oplysninger. </p>
+<p>Oversigt over dele </p>
+<p>Hver fyldt injektionssprøjte indeholder én dosis og er kun beregnet til engangsbrug. </p>
+<p>Inden brug 
+Efter brug 
+Stempel 
+Fingergreb 
+Sikkerhedsfjeder 
+(inde i 
+sprøjtecylinderen) 
+Sprøjtecylinder </p>
+<p>Kanylehætte 
+Efter brug aktiveres 
+sikkerhedsfjederen 
+automatisk og trækker 
+kanylen tilbage. 
+Kanyle 
+Inspektions-
+område </p>
+<p>ADVARSLER 
+Tag ikke kanylehætten af, før du er nået til trin 6 i disse instruktioner og er klar til at injicere Tegsedi. 
+Du må ikke dele din injektionssprøjte med andre personer eller genbruge sprøjten. 
+Brug ikke injektionssprøjten, hvis den har været tabt på en hård flade eller er beskadiget. 
+Den fyldte injektionssprøjte må ikke nedfryses. 
+Kassér den fyldte injektionssprøjte i en kanylebøtte, hvis noget af ovenstående sker, og brug en ny, fyldt 
+injektionssprøjte. 
+KLARGØRING 
+1. Indsamling af materialer 
+- 1 fyldt injektionssprøjte fra køleskabet 
+- 1 alkoholserviet (følger ikke med) 
+- 1 stykke gaze eller en tot vat (følger ikke med) 
+- 1 kanylebøtte (følger ikke med) </p>
+<p>Du må ikke injicere medicinen, før du har indsamlet de anførte materialer. </p>
+<ol>
+<li>
+<p>Forberedelse til anvendelse af den fyldte injektionssprøjte 
+• Tag plastbakken ud af æsken, og kontrollér udløbsdatoen. Brug ikke injektionssprøjten, hvis 
+udløbsdatoen er passeret.  </p>
+</li>
+<li>
+<p>Lad den fyldte injektionssprøjte opnå stuetemperatur (20 °C til 25 °C) i 30 minutter, inden den 
+bruges. Den fyldte injektionssprøjte må ikke opvarmes på andre måder. Den må for eksempel ikke 
+opvarmes i mikrobølgeovn eller varmt vand eller tæt på andre varmekilder. 
+• Tag den fyldte injektionssprøjte ud af bakken ved at holde på sprøjten. </p>
+</li>
+</ol>
+<p>Bevæg ikke stemplet.  </p>
+<ol>
+<li>Kontrollér medicinen i den fyldte injektionssprøjte </li>
+</ol>
+<p>Se efter i inspektionsområdet, at 
+opløsningen er klar og farveløs eller 
+lysegul. Det er normalt, at der er 
+luftbobler i opløsningen. Det behøver 
+du ikke gøre noget ved.<br />
+Brug ikke opløsningen, hvis den er 
+grumset eller misfarvet eller 
+indeholder partikler.<br />
+Kassér den fyldte injektionssprøjte i 
+en kanylebøtte, hvis opløsningen er 
+grumset, misfarvet eller indeholder 
+partikler, og brug en ny, fyldt 
+injektionssprøjte. </p>
+<ol>
+<li>Vælg injektionssted </li>
+</ol>
+<p>Vælg et injektionssted på maven eller 
+foran på dit lår. 
+Injektionsstedet kan også være på 
+ydersiden af overarmen, hvis Tegsedi 
+gives af plejepersonale.<br />
+Du må ikke injicere inden for et 
+område på 3 cm omkring navlen. 
+Du må ikke injicere det samme sted 
+hver gang. 
+Du må ikke injicere på steder, hvor 
+huden har blå mærker, er øm, rød 
+eller hård. 
+Du må ikke injicere i tatoveringer, ar 
+eller ødelagt hud. 
+Du må ikke injicere gennem tøjet. </p>
+<ol>
+<li>Afrensning af injektionsstedet </li>
+</ol>
+<p>Vask dine hænder med sæbe og vand. 
+Afrens injektionsstedet med en 
+alkoholserviet. Brug runde 
+bevægelser. Lad huden lufttørre. 
+Rør ikke dette område af huden igen, 
+før du injicerer. </p>
+<p>INJEKTION 
+6. Tag kanylehætten af </p>
+<p>Hold den fyldte injektionssprøjte på 
+sprøjtecylinderen. Kanylen skal vende 
+væk fra dig.<br />
+Fjern kanylehætten ved at trække den 
+lige af. Den må ikke drejes af.<br />
+Du vil muligvis kunne se en dråbe 
+væske i enden af kanylen. Det er 
+normalt.<br />
+Hold hænderne på afstand af stemplet, 
+så du undgår at skubbe stemplet ind 
+ved en fejl, før du er klar til at injicere.<br />
+Du må ikke tage kanylehætten af, før 
+umiddelbart inden du injicerer.<br />
+Hold ikke på den fyldte 
+injektionssprøjtes stempel, mens du 
+trækker hætten af. Du skal altid holde 
+på sprøjtecylinderen.<br />
+Lad ikke kanylen berøre nogen 
+overflader.<br />
+Fjern ikke eventuelle luftbobler i den 
+fyldte injektionssprøjte.<br />
+Sæt ikke kanylehætten på den fyldte 
+injektionssprøjte igen. 
+7. Indføring af kanylen </p>
+<p>Hold den fyldte injektionssprøjte i den 
+ene hånd. 
+Hold fast i huden omkring 
+injektionsstedet, som 
+sundhedspersonalet har vist dig det. Du 
+skal enten klemme forsigtigt sammen 
+om huden på injektionsstedet eller give 
+injektionen uden at klemme huden 
+sammen. 
+Før langsomt kanylen ind i det valgte 
+injektionssted i en vinkel på 90 °, indtil 
+den er ført helt ind. 
+Du må ikke holde på den fyldte 
+injektionssprøjtes stempel eller skubbe 
+på stemplet for at føre kanylen ind. </p>
+<ol>
+<li>Injektion </li>
+</ol>
+<p>Tryk langsomt og fast stemplet helt i 
+bund, indtil al medicin er injiceret. 
+Sørg for, at kanylen hele tiden er ført 
+helt ind i injektionsstedet, mens du 
+injicerer medicinen.<br />
+Det er vigtigt, at stemplet trykkes helt 
+i bund.<br />
+Den fyldte injektionssprøjte kan give 
+en klikke lyd, når stemplet trykkes 
+ned. Det er normalt. Det betyder ikke, 
+at injektionen er færdig.<br />
+Stemplet kan føles stramt i den sidste 
+del af injektionen. Du skal muligvis 
+trykke lidt hårdere på stemplet for at 
+sikre, at du har trykket det helt i bund.<br />
+Slip ikke stemplet. </p>
+<p>Tryk stemplet 
+langsomt og fast<br />
+ned </p>
+<ol>
+<li>Tryk stemplet ned </li>
+</ol>
+<p>Tryk hårdt ned på stemplet, når 
+injektionen er færdig. Hold stemplet 
+helt i bund, og vent 5 sekunder. Hvis 
+du slipper stemplet for hurtigt, kan du 
+miste noget af medicinen.<br />
+Stemplet begynder automatisk at løfte 
+sig, og det betyder, at det har været 
+trykket helt i bund.<br />
+Tryk ned på stemplet igen, hvis det 
+ikke begynder at løfte sig automatisk. 
+10. Afslutning af injektionen </p>
+<p>Løft langsomt op i stemplet, og lad 
+sikkerhedsfjederen skubbe stemplet op 
+automatisk.<br />
+Kanylen bør nu være trukket sikkert 
+op og ind i den fyldte 
+injektionssprøjte, og 
+sikkerhedsfjederen bør være synlig på 
+ydersiden af stemplet.<br />
+Injektionen er færdig, når stemplet 
+stopper.<br />
+Hvis stemplet ikke automatisk løfter 
+sig, når du slipper trykket, betyder det, 
+at sikkerhedsfjederen ikke er aktiveret, 
+og at du skal trykke på stemplet igen, 
+men denne gang hårdere.<br />
+Træk ikke stemplet op manuelt. Løft 
+hele den fyldte injektionssprøjte lige 
+op.<br />
+Forsøg ikke at sætte hætten på den 
+tilbagetrukne kanyle igen.<br />
+Gnid ikke på injektionsstedet. 
+BORTSKAFFELSE OG SIKKERHED 
+Bortskaffelse af den brugte, fyldte injektionssprøjte </p>
+<p>Kassér den brugte, fyldte 
+injektionssprøjte i en kanylebøtte straks 
+efter brug. Smid ikke den fyldte 
+injektionssprøjte ud sammen med 
+husholdningsaffaldet.  </p>
+<p>Løft 
+tommelfingeren 
+langsomt op igen </p>
+<p>Hold 
+stemplet 
+helt ned, 
+og vent<br />
+5 sekunder </p>
+<p>Vent 
+5 
+sekunder </p>
+<p>Kanylebøtte </p>
+<p>Hvis du har brugt for meget Tegsedi 
+Kontakt straks din læge eller apotekspersonalet eller tag på skadestuen, også selvom du ikke har nogen 
+symptomer. </p>
+<p>Hvis du har glemt at bruge Tegsedi<br />
+Hvis du har glemt din dosis af Tegsedi, skal du have næste dosis hurtigst muligt, medmindre den 
+næste planlagte dosis er inden for 2 dage, i hvilket tilfælde den glemte dosis springes over, og den 
+næste dosis gives på det planlagte tidspunkt. </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at bruge Tegsedi 
+Du må ikke holde op med at bruge Tegsedi, medmindre din læge har sagt, at du skal. </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Stop med at bruge Tegsedi og kontakt straks din læge, hvis du får en eller flere af følgende 
+bivirkninger:</p>
+<ul>
+<li>Symptomer, som kan være tegn på glomerulonefritis (hvor nyrerne ikke virker, som de skal), for 
+eksempel skummende urin, lyserød eller brunlig urin, blod i urinen eller mindre mængder urin 
+end normalt. Glomerulonefritis er en almindelig bivirkning af inotersen (kan forekomme hos op 
+til 1 ud af 10 personer). </li>
+<li>Symptomer, der kan være tegn på trombocytopeni (hvor blodet som følge af lave niveauer af 
+blodplader ikke størkner), for eksempel uforklarlige blå mærker eller udslæt med små røde 
+pletter på huden (kaldes for petekkier), blødning fra hudrifter, der ikke standser, eller som det 
+siver fra, blødning fra tandkød eller næse, blod i urinen eller i afføringen eller blødning i det 
+hvide i øjnene. Et lavt niveau af blodplader er en meget almindelig bivirkning af inotersen (kan 
+forekomme hos flere end 1 ud af 10 personer). </li>
+<li>Symptomer, der kan være tegn på leverskade, for eksempel gulfarvning af øjnene eller huden 
+eller mørk urin, eventuelt ledsaget af kløe i huden, smerter i øverste højre side af maven, 
+appetitløshed, større tilbøjelighed til blødning eller blå mærker end normalt eller træthed. 
+Søg straks hjælp ved nakkestivhed eller usædvanlig og kraftig hovedpine, da disse symptomer kan 
+skyldes en blødning i hjernen. </li>
+</ul>
+<p>Andre bivirkninger 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) 
+- Fald i antallet af røde blodlegemer, hvilket kan gøre huden bleg og medføre afkræftelse eller 
+stakåndethed (anæmi)<br />
+- Hovedpine 
+- Opkastning eller kvalme<br />
+- Forhøjet legemstemperatur 
+- Kuldefølelse (kulderystelser) eller skælven 
+- Smerter, rødme, kløe eller blå mærker på injektionsstedet 
+- Hævede ankler, fødder eller fingre (perifert ødem) </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
+- En stigning i antallet af hvide blodlegemer, der kaldes for eosinofiler, i blodet (eosinofili) 
+- Nedsat appetit<br />
+- En følelse af at skulle besvime eller svimmelhed, især når du rejser dig op (lavt blodtryk) 
+- Blå mærker<br />
+- Ansamling af blod i vævet, som kan ligne kraftige blå mærker (hæmatom) 
+- Kløe<br />
+- Udslæt<br />
+- Nyreskade, som kan føre til dårlig nyrefunktion eller nyresvigt 
+- Ændringer i resultater af blod- og urinprøver. Dette kan være tegn på lever- eller nyreskade 
+- Influenzalignende symptomer, for eksempel forhøjet temperatur, ømhed og kulderystelser 
+(influenzalignende sygdom) 
+- Hævelse eller misfarvning af huden på injektionsstedet </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) 
+- Allergisk reaktion </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apotekspersonalet. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tegsedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tegsedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen, bakken og den fyldte 
+injektionssprøjte efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C).<br />
+Må ikke nedfryses. 
+Tegsedi kan opbevares uden for køleskab i op til 6 uger ved en temperatur under 30 °C. Hvis dette 
+lægemiddel er blevet opbevaret uden for køleskab og ikke er brugt inden for 6 uger, skal det kasseres.<br />
+Opbevares i den originale pakning for at beskytte mod lys. </p>
+<p>Brug ikke lægemidlet, hvis du kan se, at indholdet er grumset eller indeholder partikler. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tegsedi indeholder:</p>
+<ul>
+<li>Aktivt stof: inotersen.  </li>
+<li>Hver ml indeholder 189 mg inotersen (som inotersennatrium). Hver fyldt injektionssprøjte 
+indeholder 284 mg inotersen (som inotersennatrium) i 1,5 ml opløsning.  </li>
+<li>Øvrige indholdsstoffer: vand til injektionsvæsker, natriumhydroxid og saltsyre (se “Tegsedi 
+indeholder natrium" i pkt. 2. Udseende og pakningsstørrelser </li>
+</ul>
+<p>Tegsedi er en klar, farveløs til lysegul injektionsvæske, opløsning til injektion i en fyldt 
+injektionssprøjte (injektionsvæske).<br />
+Tegsedi fås i pakningsstørrelser med enten 1 eller 4 fyldte injektionssprøjter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen  </p>
+<p>Akcea Therapeutics Ireland Ltd 
+St. James House 
+72 Adelaide Road, Dublin 2 
+D02 Y017, Irland </p>
+<p>Fremstiller </p>
+<p>ABF Pharmaceutical Services GmbH 
+Brunnerstraße 63/18-1230 Wien 
+Østrig </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-bb91b33a725934383f978ba47cb95161
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tegsedi Package Leaflet for language en"
+Description: "ePI document Bundle for tegsedi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bb91b33a725934383f978ba47cb95161"
+* entry[0].resource = composition-en-bb91b33a725934383f978ba47cb95161
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbb91b33a725934383f978ba47cb95161"
+* entry[=].resource = mpbb91b33a725934383f978ba47cb95161
+                            
+                    
+Instance: bundlepackageleaflet-da-bb91b33a725934383f978ba47cb95161
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tegsedi Package Leaflet for language da"
+Description: "ePI document Bundle for tegsedi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-bb91b33a725934383f978ba47cb95161"
+* entry[0].resource = composition-da-bb91b33a725934383f978ba47cb95161
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbb91b33a725934383f978ba47cb95161"
+* entry[=].resource = mpbb91b33a725934383f978ba47cb95161
+                            
+                    
+
+
+
+Instance: mpbb91b33a725934383f978ba47cb95161
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Tegsedi 284 mg solution for injection in pre-filled syringe"
-Description: "Tegsedi 284 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product tegsedi"
+Description: "tegsedi"
 Usage: #inline
 
  
@@ -540,7 +1133,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Tegsedi 284 mg solution for injection in pre-filled syringe"
+  * productName = "tegsedi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -567,29 +1160,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-bb91b33a725934383f978ba47cb95161
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tegsedi Package Leaflet for language en"
-Description: "ePI document Bundle for tegsedi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: bb91b33a725934383f978ba47cb95161ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1296/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tegsedi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-bb91b33a725934383f978ba47cb95161"
-* entry[0].resource = composition-en-bb91b33a725934383f978ba47cb95161
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8c07981e58f7b2a1247ef18f2c8fb201"
-* entry[=].resource = mp8c07981e58f7b2a1247ef18f2c8fb201
-                            
-                      
+* title = "List of all ePIs associated with tegsedi"
+
+* subject = Reference(mp8c07981e58f7b2a1247ef18f2c8fb201)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tegsedi "tegsedi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-bb91b33a725934383f978ba47cb95161) // tegsedi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-bb91b33a725934383f978ba47cb95161) // tegsedi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-bb91b33a725934383f978ba47cb95161
+InstanceOf: List
+
+* insert bb91b33a725934383f978ba47cb95161ListRuleset
+    

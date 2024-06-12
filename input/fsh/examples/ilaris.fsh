@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-943ee66eb6c14bbfb08d263a24ef8bd8
 InstanceOf: CompositionUvEpi
 Title: "Composition for ilaris Package Leaflet"
@@ -658,12 +661,857 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-943ee66eb6c14bbfb08d263a24ef8bd8
+InstanceOf: CompositionUvEpi
+Title: "Composition for ilaris Package Leaflet"
+Description:  "Composition for ilaris Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe8a0dd7d966e221068dba006e5a6fff3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe8a0dd7d966e221068dba006e5a6fff3
+* title = "TEST PURPOSES ONLY - ilaris"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Ilaris 
+3. Sådan skal du tage Ilaris 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ilaris is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ilaris is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Ilaris 
+Ilaris indeholder det aktive stof canakinumab, et monoklonalt antistof, der tilhører en 
+lægemiddelgruppe, der hedder interleukinhæmmere. Det blokerer aktiviteten af et stof i kroppen, der 
+kaldes interleukin-1 beta (IL-1 beta). IL-1 beta er til stede i en højere koncentration ved 
+betændelsessygdomme. </p>
+<p>Hvad anvendes Ilaris til 
+Ilaris anvendes til behandling af følgende inflammatoriske sygdomme (betændelseslignende tilstande):</p>
+<ul>
+<li>
+<p>Periodiske febersyndromer: </p>
+</li>
+<li>
+<p>Kryopyrin-associerede periodiske syndromer (CAPS), </p>
+</li>
+<li>
+<p>Tumornekrosefaktor-receptor-associeret periodisk syndrom (TRAPS), </p>
+</li>
+<li>
+<p>Hyperimmunglobulin D-syndrom (HIDS)/mevalonatkinase-mangel (MKD), </p>
+</li>
+<li>
+<p>Familiær middelhavsfeber (FMF). </p>
+</li>
+<li>Stills sygdom, inkl. Stills sygdom hos voksne (AOSD) og systemisk juvenil idiopatisk artritis 
+(SJIA) </li>
+<li>Urinsyregigt </li>
+</ul>
+<p>Du kan se mere information om de enkelte sygdomme nedenfor. </p>
+<p>Periodiske feber-syndromer 
+Ilaris anvendes til voksne og børn på 2 år og derover til behandling af følgende:</p>
+<ul>
+<li>
+<p>Kryopyrin-associerede periodiske syndromer (CAPS) - dette er en gruppe af 
+autoinflammatoriske sygdomme, der omfatter: </p>
+</li>
+<li>
+<p>Muckle-Wells syndrom (MWS), </p>
+</li>
+<li>
+<p>Systemisk inflammatorisk sygdom med neonatal debut (NOMID) også kaldet kronisk 
+infantil neurologisk hud- og ledsyndrom (CINCA), </p>
+</li>
+<li>
+<p>Alvorlige former for familiært kulde autoinflammatorisk syndrom (FCAS)/familiært 
+kulde-urticaria (FCU), som viser sig ved tegn og symptomer ud over nældefeber 
+fremkaldt af kulde. </p>
+</li>
+<li>Tumornekrosefaktor-receptor-associeret periodisk syndrom (TRAPS) </li>
+<li>Hyperimmunglobulin D-syndrom (HIDS) − også kendt som mevalonat-kinase-mangel (MKD) </li>
+<li>Familiær middelhavsfeber (FMF): Ilaris anvendes til behandling af FMF. Ilaris kan anvendes 
+sammen med colchicin, hvis det er relevant. </li>
+</ul>
+<p>Hos patienter med periodiske febersyndromer (CAPS, TRAPS, HIDS/MKD og FMF) danner kroppen 
+for meget IL-1 beta. Dette kan forårsage feber, hovedpine, træthed, hududslæt eller led- og 
+muskelsmerter. Ilaris kan lindre disse symptomer ved at blokere aktiviteten af IL-1 beta. </p>
+<p>Stills sygdom 
+Ilaris anvendes til voksne, unge og børn til behandling af aktiv Stills sygdom, herunder Stills sygdom 
+hos voksne (AOSD) og systemisk juvenil idiopatisk artritis (SJIA) hos patienter på 2 år og derover, 
+som ikke har haft tilstrækkelig virkning af anden behandling. Ilaris kan anvendes alene eller sammen 
+med methotrexat. </p>
+<p>Stills sygdom, herunder SJIA og AOSD, er en inflammatorisk (betændelseslignende) sygdom, der 
+forårsager smerte, hævelse og inflammation i et eller flere led, samt udslæt og feber. Et protein kaldet 
+IL-1 beta spiller en vigtig rolle ved inflammation i forbindelse med Stills sygdom. Ilaris blokkerer 
+aktiviteten af IL-1 beta, hvilket kan lindre symptomerne på Stills sygdom. </p>
+<p>Urinsyregigt 
+Ilaris anvendes til behandling af symptomer ved hyppige anfald af urinsyregigt hos voksne, som ikke 
+har haft tilstrækkelig virkning af anden behandling. </p>
+<p>Urinsyregigt er forårsaget af dannelse af uratkrystaller. Disse krystaller forårsager overdreven 
+produktion af IL-1 beta, som til gengæld kan medføre pludselig, kraftig smerte, rødme, varme og 
+hævelse i et led (kendt som podagra). Ved at blokkere aktiviteten af IL-1 beta kan Ilaris lindre disse 
+symptomer. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ilaris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ilaris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ilaris 
+− 
+hvis du er allergisk over for canakinumab eller et af de øvrige indholdsstoffer (angivet i 
+punkt 6). 
+− 
+hvis du har eller har en mistanke om, at du har en aktiv og alvorlig infektion. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Ilaris, hvis noget af nedenstående gælder for dig: 
+− 
+hvis du i øjeblikket har en infektion eller tidligere har haft tilbagevendende infektioner, eller 
+hvis du fx har et nedsat antal hvide blodlegemer, hvilket gør dig mere modtagelig for 
+infektioner. 
+− 
+hvis du har eller har haft tuberkulose eller direkte kontakt med en person med aktiv tuberkulose. 
+Din læge vil muligvis kontrollere, om du har tuberkulose, ved brug af en specifik test. 
+− 
+hvis du har symptomer på en leversygdom som fx gul hud og øjne, kvalme, appetitløshed, mørk 
+urin og lys afføring. 
+− 
+hvis du skal vaccineres. Det anbefales, at du undgår at blive vaccineret med en type vacciner, 
+der kaldes levende vacciner, mens du bliver behandlet med Ilaris (se også "Brug af anden 
+medicin sammen med Ilaris"). </p>
+<p>Kontakt straks lægen 
+− 
+hvis du tidligere har oplevet atypisk, udbredt udslæt eller hudafskalning efter at have taget 
+Ilaris. 
+Der er i sjældne tilfælde rapporteret om den alvorlige hudreaktion DRESS (medikamentelt 
+udslæt med eosinofili og systemiske symptomer) ved behandling med Ilaris, fortrinsvis hos 
+patienter med systemisk juvenil idiopatisk artritis (sJIA). Søg straks læge, hvis du bemærker 
+atypisk, udbredt udslæt, evt. ledsaget af feber og hævede lymfeknuder. </p>
+<p>Stills sygdom 
+− 
+Patienter med Stills sygdom kan udvikle en tilstand, der kaldes makrofag-aktiverings-syndrom 
+(MAS), som kan være livstruende. Din læge vil overvåge dig for mulige faktorer, der kan 
+udløse MAS, fx infektioner og reaktivering af Stills sygdom (udbrud). </p>
+<p>Børn og unge 
+− 
+CAPS, TRAPS, HIDS/MKD, FMF og SJIA: Ilaris kan bruges til børn på 2 år og derover. 
+− 
+Urinsyregigt: Ilaris frarådes til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Ilaris 
+Fortæl altid lægen, apotekspersonalet eller sygeplejersken, hvis du bruger anden medicin, for nylig har 
+brugt anden medicin eller planlægger at bruge anden medicin. 
+− 
+Levende vacciner: Det anbefales, at du undgår at blive vaccineret med en type vacciner, der 
+kaldes "levende vacciner", mens du bliver behandlet med Ilaris. Din læge vil muligvis 
+kontrollere, hvilke vaccinationer du tidligere har fået og give dig de vaccinationer, du måtte 
+mangle, inden din behandling med Ilaris begynder. Tal med din læge, hvis det er nødvendigt, at 
+du bliver vaccineret med en levende vaccine, efter du er startet på behandling med Ilaris. 
+Levende vacciner bør normalt gives 3 måneder efter din sidste injektion med Ilaris og 
+3 måneder før den næste. 
+− 
+En type af medicin, der kaldes tumor-nekrose faktor (TNF)-hæmmere fx etanercept, 
+adalimumab eller infliximab. Disse bruges hovedsageligt til gigtsygdomme og autoimmune 
+sygdomme. De må ikke tages sammen med Ilaris, da dette kan øge risikoen for infektioner. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørger din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. 
+− 
+Du frarådes at blive gravid og skal anvende sikker prævention, mens du tager Ilaris og i mindst 
+3 måneder efter den sidste Ilaris-behandling. Det er vigtigt, at du fortæller det til lægen, hvis du 
+er gravid, hvis du tror, at du kan være gravid, eller hvis du har planer om at blive gravid. Din 
+læge vil tale med dig om de mulige risici, der er ved at tage Ilaris under graviditeten. 
+− 
+Hvis du har været i behandling med canakinumab under din graviditet, er det vigtigt, at du 
+informerer barnets læge eller sygeplejerske, før dit barn skal vaccineres. Dit barn må ikke få 
+levende vacciner før mindst 16 uger efter, at du har fået din sidste dosis af canakunimab før 
+fødslen. 
+− 
+Det vides ikke, om Ilaris udskilles i mælken hos mennesker. Din læge vil tale med dig om de 
+mulige risici, der er ved at tage Ilaris, før du begynder at amme. </p>
+<p>Trafik- og arbejdssikkerhed 
+Ilaris-behandling kan give dig en fornemmelse af, at alting snurrer rundt eller kræftesløshed og 
+umådelig svaghed. Dette kan påvirke din evne til at føre motorkøretøj eller betjene værktøj eller 
+maskiner. Hvis du føler, at alting snurrer rundt, eller du føler dig træt, må du ikke føre motorkøretøj 
+eller bruge nogen som helst form for værktøj eller maskiner, før du føler dig normal igen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ilaris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ilaris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hold din læge informeret om din tilstand og dine symptomer, før du tager eller får Ilaris (se punkt 2). 
+Lægen kan beslutte at udsætte eller afbryde din behandling, men kun hvis det er nødvendigt. </p>
+<p>Ilaris er beregnet til subkutan anvendelse. Det betyder, at det bliver sprøjtet ind i fedtvævet lige under 
+huden med en kort kanyle. </p>
+<p>Hvis du har urinsyregigt, vil din behandling blive overvåget af en læge med specialviden. Ilaris må 
+kun indsprøjtes af sundhedspersonale. </p>
+<p>Hvis du har CAPS, TRAPS, HIDS/MKD, FMF eller Stills sygdom (AOSD eller SJIA), kan du selv 
+foretage indsprøjtningen af Ilaris efter grundig undervisning, eller en pårørende/omsorgsperson kan 
+give dig indsprøjtningen. </p>
+<p>Hvor meget Ilaris skal du bruge? 
+Kryopyrin-associerede periodiske syndromer (CAPS) 
+Den anbefalede startdosis Ilaris er:</p>
+<ul>
+<li>
+<p>Voksne og børn fra 4 år eller derover </p>
+</li>
+<li>
+<p>150 mg til patienter, som vejer over 40 kg </p>
+</li>
+<li>
+<p>2 mg/kg til patienter, som vejer mellem 15 kg og 40 kg </p>
+</li>
+<li>
+<p>4 mg/kg til patienter, som vejer mellem 7,5 kg og mindre end 15 kg </p>
+</li>
+<li>
+<p>Børn på 2 eller 3 år </p>
+</li>
+<li>
+<p>4 mg/kg til patienter, som vejer 7,5 kg og derover </p>
+</li>
+</ul>
+<p>Ilaris indsprøjtes hver 8. uge som en enkelt dosis. </p>
+<ul>
+<li>Hvis du ikke har reageret godt nok på behandlingen efter 7 dage, vil din læge måske give dig 
+endnu en dosis på 150 mg eller 2 mg/kg. </li>
+<li>Hvis du reagerer godt på den anden dosis, vil du fortsætte med at få 300 mg eller 4 mg/kg hver </li>
+<li>uge.  </li>
+<li>Hvis du ikke reagerer godt nok på den anden dosis, kan en tredje dosis Ilaris på 300 mg eller 
+4 mg/kg gives. </li>
+<li>Hvis du reagerer godt på den tredje dosis, vil du fortsætte med at få 600 mg eller 8 mg/kg hver </li>
+<li>uge. </li>
+</ul>
+<p>Hos børn, der får en startdosis på 4 mg/kg, og hvor kroppen ikke har reageret godt nok efter 7 dage, 
+kan lægen give endnu en dosis på 4 mg/kg. Hvis barnet reagerer godt på denne dosis, kan 
+behandlingen fortsættes med en dosis på 8 mg/kg hver 8. uge. </p>
+<p>Tumornekrosefaktor-receptor-associerede periodiske syndromer (TRAPS), hyperimmunglobulin D-
+syndrom (HIDS)/mevalonat-kinase-mangel (MKD) og familiær middelhavsfeber (FMF) 
+Den anbefalede startdosis er:</p>
+<ul>
+<li>
+<p>Voksne og børn på 2 år og derover </p>
+</li>
+<li>
+<p>150 mg til patienter, som vejer over 40 kg </p>
+</li>
+<li>
+<p>2 mg/kg til patienter, som vejer mellem 7,5 kg og mindre end 40 kg </p>
+</li>
+</ul>
+<p>Ilaris indsprøjtes hver 4. uge som en enkelt dosis. </p>
+<ul>
+<li>Hvis du ikke har reageret godt nok på behandlingen efter 7 dage, vil din læge måske give dig 
+endnu en dosis på 150 mg eller 2 mg/kg. </li>
+<li>Hvis du reagerer godt på den anden dosis, vil du fortsætte med at få 300 mg eller 4 mg/kg hver </li>
+<li>uge. </li>
+</ul>
+<p>Stills sygdom (SJIA og AOSD) 
+Den anbefalede dosis Ilaris til patienter med Stills sygdom, der vejer 7,5 kg eller derover, er 4 mg/kg 
+(op til højst 300 mg). Ilaris indsprøjtes hver 4. uge som en enkelt dosis. </p>
+<p>Urinsyregigt 
+Din læge vil tale med dig om behovet for at starte eller justere en urat-sænkende behandling for at 
+sænke urinsyreniveauet i din krop. </p>
+<p>Den anbefalede dosis af Ilaris til voksne gigtpatienter er 150 mg givet som en enkelt dosis på det 
+tidspunkt, hvor du har et anfald af urinsyregigt. </p>
+<p>Hvis du har behov for yderligere behandling med Ilaris og fik lindring ved den sidste dosis, skal du 
+vente mindst 12 uger inden næste dosis. </p>
+<p>Hvis du giver dig selv indsprøjtning af Ilaris eller giver en patient Ilaris 
+Hvis du er patient med CAPS, TRAPS, HIDS/MKD, FMF eller Stills sygdom (AOSD eller SJIA) eller 
+omsorgsperson for en patient med en af disse sygdomme, kan du give indsprøjtninger med Ilaris efter 
+grundig undervisning i korrekt indsprøjtningsteknik. 
+− 
+Patienten, plejepersonen og lægen bør i fællesskab beslutte, hvem der skal indsprøjte Ilaris. 
+− 
+Lægen eller sygeplejersken vil vise dig, hvordan indsprøjtninger med Ilaris skal gives. 
+− 
+Forsøg ikke selv at give indsprøjtninger, hvis du ikke har fået grundig undervisning i det, eller 
+hvis du er i tvivl om, hvordan du skal gøre. 
+− 
+Ilaris 150 mg pulver til injektionsvæske leveres som et engangshætteglas til individuel brug. 
+− 
+Genbrug aldrig rester af injektionsvæsken. </p>
+<p>I punktet "Brugsvejledning" til sidst i denne indlægsseddel er der en vejledning i, hvordan 
+indsprøjtninger med Ilaris skal gives. Spørg lægen, på apoteket eller sundhedspersonalet, hvis der er 
+mere, du vil vide. </p>
+<p>Hvor længe skal du tage Ilaris? 
+− 
+CAPS, TRAPS, HIDS/MKD, FMF eller Stills sygdom (AOSD eller SJIA): Du skal fortsætte 
+med at tage Ilaris, så længe lægen fortæller dig, at du skal. </p>
+<p>− 
+Urinsyregigt: Hvis du har et anfald af urinsyregigt, vil du få en enkelt dosis Ilaris. Hvis du får 
+et nyt anfald, kan din læge overveje at give dig en ny dosis Ilaris, men ikke tidligere end 12 uger 
+efter sidste behandling. </p>
+<p>Hvis du har taget for meget Ilaris 
+Hvis du kommer til at indsprøjte mere Ilaris end den anbefalede dosis, er det sandsynligvis ikke 
+alvorligt, men du bør hurtigst muligt fortælle det til lægen, apotekspersonalet eller til sygeplejersken. </p>
+<p>Hvis du har glemt at tage Ilaris 
+Hvis du har CAPS, TRAPS, HIDS/MKD, FMF eller Stills sygdom (AOSD eller SJIA) og har glemt at 
+indsprøjte en dosis Ilaris, skal du tage den næste indsprøjtning, så snart du kommer i tanke om det. 
+Dernæst kontakt lægen for at drøfte, hvornår du skal indsprøjte den næste dosis. Derefter skal du 
+fortsætte med indsprøjtningerne med det anbefalede mellemrum som før. </p>
+<p>Hvis du holder op med at bruge Ilaris 
+Hvis du stopper behandlingen med Ilaris, kan din tilstand forværres. Hold ikke op med at tage Ilaris, 
+medmindre lægen siger det. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige. Fortæl det straks til din læge, hvis du oplever nogen af 
+disse bivirkninger: 
+− 
+Feber, der varer i mere end 3 dage, eller andre symptomer, som tyder på en alvorlig infektion. 
+Dette omfatter kulderystelser, forkølelse, utilpashed, appetitløshed, smerter i kroppen, typisk i 
+forbindelse med pludselig sygdom, ondt i halsen eller mundsår, hoste, slim, brystsmerter, 
+vejrtrækningsproblemer, øresmerter, langvarig hovedpine eller lokal rødme, varme eller hævelse 
+i huden eller betændelse i bindevæv (cellulitis). Disse symptomer kan skyldes en alvorlig 
+infektion, en usædvanlig infektion (opportunistisk infektion) eller kan skyldes et lavt antal hvide 
+blodlegemer (kaldet leukopeni eller neutropeni). Din læge vil undersøge dit blod regelmæssigt, 
+hvis det er nødvendigt. 
+− 
+Allergiske reaktioner med udslæt og kløe og muligvis også nældefeber, besvær med 
+vejrtrækningen eller med at synke, svimmelhed, hjertebanken eller lavt blodtryk. </p>
+<p>Andre bivirkninger for Ilaris omfatter: 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter):</p>
+<ul>
+<li>
+<p>Enhver form for infektion. Dette kan omfatte: </p>
+</li>
+<li>
+<p>Luftvejsinfektioner, som fx infektion i brystkassen, influenza, ondt i halsen, løbende 
+næse, stoppet næse, nysen, følelse af trykken eller smerte i kinderne eller panden med 
+eller uden feber (lungebetændelse, bronkitis, influenza, bihulebetændelse, snue, 
+halsbetændelse, næse- og svælgkatar, infektion i de øvre luftveje). </p>
+</li>
+<li>
+<p>Andre infektioner, som fx ørebetændelse, hudinfektion (cellulitis), mavesmerter og 
+kvalme (mavetarmkatar) og smertefuld og hyppig vandladning med eller uden feber 
+(blærebetændelse). 
+− 
+Smerter i den øvre del af maven. 
+− 
+Smerter i leddene (artralgi). 
+− 
+Nedsat antal hvide blodlegemer (leukopeni). 
+− 
+Unormale prøveresultater for nyrefunktionen (nedsat kreatininclearance, proteinuri). 
+− 
+Reaktioner på indsprøjtningsstedet (fx rødme, hævelse, varme og kløe). </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter): 
+− 
+Svampeinfektion i skeden (vulvovaginal candidiasis). 
+− 
+Svimmelhed, fornemmelse af at snurre rundt. 
+− 
+Rygsmerter eller muskelsmerter. 
+− 
+Føle sig afkræftet eller meget træt (energiløshed, kraftesløshed). 
+− 
+Nedsat antal hvide blodlegemer, som forebygger infektioner (neutropeni). 
+− 
+Unormalt niveau af triglycerider i blodet (forstyrrelser i lipidstofskiftet). 
+− 
+Unormale resultater af blodprøver for leverfunktionen (forhøjede aminotransferaser) eller højt 
+indhold af galdefarvestof i blodet, med eller uden gulfarvning af hud og øjne 
+(hyperbilirubinæmi). </p>
+<p>Ikke almindelige (kan forekomme hos 1 ud af 100 patienter): 
+− 
+Halsbrand (gastroøsofageal reflukssygdom). 
+− 
+Nedsat antal blodplader, som er med til at forebygge blødning. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ilaris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ilaris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
+</li>
+<li>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Injektionsvæsken skal anvendes straks efter fremstilling af medicinen. Hvis injektionsvæsken 
+ikke anvendes straks, skal den opbevares  i køleskab (2 C - 8 C) og anvendes indenfor 
+24 timer. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet, hvis du bemærker, at injektionsvæsken ikke er klar til opaliserende, eller 
+hvis den indeholder partikler. </p>
+</li>
+<li>
+<p>Eventuelle medicinrester skal kasseres efter, at lægemidlet er blevet indsprøjtet. </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ilaris indeholder 
+− 
+Aktivt stof: canakinumab. Et hætteglas med pulver indeholder 150 mg canakinumab. Efter 
+opløsning indeholder hver ml opløsning 150 mg canakinumab. 
+- Øvrige indholdsstoffer: saccharose, histidin, histidinhydrochloridmonohydrat, polysorbat 80. Udseende og pakningsstørrelser 
+- Ilaris leveres som et pulver til injektionsvæske, opløsning (150 mg i et 6 ml hætteglas). 
+- Pulveret er hvidt. 
+- Ilaris fås i pakninger med ét hætteglas eller multipakninger bestående af fire delpakninger, der 
+hver indeholder et hætteglas. Begge pakningsstørrelser er ikke nødvendigvis markedsført i dit 
+land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+Brugervejledning til Ilaris pulver til injektionsvæske, opløsning </p>
+<p>Bemærk, at forberedelserne til indsprøjtningen tager omkring 30 minutter. 
+Se også punkt 3, "Hvis du giver dig selv indsprøjtning af Ilaris eller giver en patient Ilaris". </p>
+<p>Læs hele denne vejledning igennem, inden du begynder indsprøjtningen. </p>
+<p>Nødvendig forberedelse 
+− 
+Find et rent sted, hvor du kan forberede og foretage indsprøjtningen. 
+− 
+Vask hænderne med vand og sæbe. 
+− 
+Kontrollér udløbsdatoen på hætteglasset og sprøjterne. Anvend ikke medicinen efter den 
+udløbsdato, der er anført på etiketten og æsken. Udløbsdatoen henviser til den sidste dag i den 
+pågældende måned. 
+− 
+Brug altid nye, uåbnede kanyler og sprøjter. Undgå at berøre kanylerne og toppen af 
+hætteglassene. </p>
+<p>Find de nødvendige ting frem 
+Pakningen indeholder 
+- et hætteglas med Ilaris pulver til injektionsvæske, opløsning (opbevares i køleskab) </p>
+<p>Pakningen indeholder ikke 
+− 
+et hætteglas (eller ampul) med sterilt vand til injektionsvæsker ("vand") (opbevares ved 
+stuetemperatur) 
+− 
+en 1,0 ml sprøjte 
+− 
+en 18 G x 2 tommer (50 mm) kanyle til opløsning af pulveret ("overførselskanyle") 
+− 
+en 27 G x 0,5 tommer (13 mm) kanyle til indsprøjtning ("indsprøjtningskanyle") 
+− 
+spritservietter 
+− 
+rene, tørre bomuldsservietter 
+− 
+et hæfteplaster 
+− 
+en passende affaldsbeholder til brugte kanyler, sprøjte og hætteglas (kanyleboks) </p>
+<p>Blanding af Ilaris </p>
+<ol>
+<li>Fjern hætten fra hætteglasset med Ilaris og 
+hætteglasset med vand. Undgå at berøre 
+hætteglassenes propper. Rens propperne med en 
+spritserviet. </li>
+<li>Åbn pakningerne, der indeholder sprøjten og 
+overførselskanylen (50 mm nålen), og sæt kanylen 
+på sprøjten. </li>
+<li>Tag forsigtigt hætten af overførselskanylen, og læg 
+hætten til side. Træk stemplet helt ned til 
+markeringen ved 1,0 ml, så sprøjten fyldes med luft. 
+Indfør kanylen i hætteglasset med vand gennem 
+midten af gummiproppen. </li>
+<li>
+<p>Skub forsigtigt stemplet hele vejen ned, indtil der er 
+luft i hætteglasset. </p>
+</li>
+<li>
+<p>Vend hætteglas og sprøjte på hovedet, og hold dem 
+op i øjenhøjde. </p>
+</li>
+<li>Sørg for, at vandet dækker overførselskanylens 
+spids, og træk langsomt sprøjtestemplet tilbage og 
+en anelse forbi 1,0 ml-mærket. Hvis du kan se 
+bobler i sprøjten, skal du fjerne boblerne som anvist 
+af lægen, sygeplejersken eller apoteket. </li>
+<li>
+<p>Kontrollér, at der er 1,0 ml vand i sprøjten, og træk 
+så kanylen ud af hætteglasset. (Der vil være vand 
+tilbage i hætteglasset). </p>
+</li>
+<li>
+<p>Indfør overførselskanylen gennem midten af 
+proppen i hætteglasset med Ilaris-pulver. Vær 
+omhyggelig med ikke at berøre kanylen eller 
+proppen. Sprøjt langsomt vandet ind i hætteglasset 
+med Ilaris-pulver. </p>
+</li>
+<li>
+<p>Fjern forsigtigt overførselskanylen fra hætteglasset, 
+og sæt hætten på kanylen igen som anvist af lægen, 
+sygeplejersken eller apoteket. </p>
+</li>
+<li>
+<p>Sving langsomt hætteglasset rundt (det må ikke 
+rystes), uden at berøre gummiproppen, i en vinkel på 
+omkring 45 grader i ca. 1 minut. Lad det stå i 
+5 minutter. </p>
+</li>
+<li>
+<p>Vend nu forsigtigt hætteglasset på hovedet og 
+tilbage igen ti gange. Vær igen omhyggelig med 
+ikke at berøre gummiproppen. </p>
+</li>
+<li>Lad hætteglasset stå i omkring 15 minutter ved 
+stuetemperatur, indtil opløsningen er klar til 
+opaliserende. Må ikke omrystes. Må ikke anvendes, 
+hvis der er partikler i opløsningen. </li>
+<li>Kontrollér, at al opløsningen er i bunden af 
+hætteglasset. Hvis der sidder dråber tilbage på 
+proppen, skal du fjerne dem ved at banke let på 
+siden af hætteglasset. Opløsningen skal være klar til 
+opaliserende og fri for synlige partikler. 
+Opløsningen skal være farveløs eller kan have et 
+svagt brun-gult skær. </li>
+<li>Hvis injektionsvæsken ikke anvendes straks 
+efter fremstilling, skal den opbevares i 
+køleskab (2 °C til 8 °C) og anvendes inden 
+for 24 timer. </li>
+</ol>
+<p>Forberedelse af indsprøjtningen </p>
+<ol>
+<li>Rens gummiproppen fra hætteglasset, der indeholder 
+Ilaris-opløsningen, med en ny spritserviet. </li>
+<li>
+<p>Tag hætten af overførselskanylen igen. Træk 
+sprøjtens stempel helt tilbage til 1,0 ml-mærket, så 
+sprøjten fyldes med luft. Indfør sprøjtens kanyle i 
+hætteglasset med Ilaris-injektionsvæsken gennem 
+midten af gummiproppen. Nålen skal ikke være 
+nede i injektionsvæsken på dette tidspunkt. Skub 
+forsigtigt stemplet hele vejen ned, indtil alt luften er 
+sprøjtet ind i hætteglasset. Der må ikke sprøjtes luft 
+ned i væsken. </p>
+</li>
+<li>
+<p>Hætteglas og sprøjte må ikke vendes på hovedet, 
+hætteglasset skal holdes oprejst. Før kanylen hele 
+vejen ned i hætteglasset, indtil den når bunden. </p>
+</li>
+<li>
+<p>Vip hætteglasset for at sikre, at den nødvendige 
+mængde injektionsvæske kan trækkes ind i sprøjten.  </p>
+</li>
+<li>BEMÆRK: Den nødvendige mængde afhænger af, 
+hvilken dosis der skal indsprøjtes. Lægen, 
+sygeplejersken eller apoteket vil fortælle dig, 
+hvilken mængde der er den rigtige for dig. </li>
+<li>Træk langsomt sprøjtestemplet op til det rigtige 
+mærke (den mængde, der skal gives), så sprøjten 
+fyldes med Ilaris-injektionsvæske. Hvis der er 
+luftbobler i sprøjten, skal du fjerne boblerne som 
+anvist af lægen, sygeplejersken eller apoteket. 
+Kontrollér, at der er den rigtige mængde opløsning i 
+sprøjten. </li>
+<li>Tag sprøjten og kanylen ud af hætteglasset. (Der kan 
+være opløsning tilbage i hætteglasset). Sæt hætten 
+på overførselskanylen igen som anvist af lægen, 
+sygeplejersken eller apoteket. Tag 
+overførselskanylen af sprøjten. Læg 
+overførselskanylen i kanyleboksen. </li>
+<li>Åbn pakningen med indsprøjtningskanylen, og sæt 
+kanylen på sprøjten. Læg sprøjten til side. </li>
+</ol>
+<p>Selve indsprøjtningen </p>
+<ol>
+<li>Vælg et indsprøjtningssted på det øverste af låret, 
+maven, overarmen eller balden. Anvend ikke et 
+område, hvor der er udslæt, hul på huden, blå 
+mærker, eller som er ujævn. Indsprøjtningen må ikke 
+gives i arvæv, da det kan betyde, at du ikke får al din 
+medicin. Undgå at give indsprøjtningen i en blodåre. </li>
+<li>Rens indsprøjtningsstedet med en ny spritserviet. 
+Lad området tørre. Tag hætten af 
+indsprøjtningskanylen. </li>
+<li>
+<p>Klem forsigtigt huden sammen omkring 
+indsprøjtningsstedet. Hold sprøjten vinkelret på 
+huden, og skub med en enkelt, jævn bevægelse 
+kanylen lige ned og helt ind i huden. </p>
+</li>
+<li>
+<p>Hold kanylen helt nede i huden, mens du langsomt 
+skubber sprøjtestemplet ned, indtil sprøjten er tom. 
+Giv slip på huden, og træk kanylen lige ud. Smid 
+kanylen og sprøjten i kanyleboksen uden at sætte 
+hætte på eller fjerne kanylen. </p>
+</li>
+</ol>
+<p>Efter indsprøjtningen </p>
+<ol>
+<li>
+<p>Lad være med at gnide på indsprøjtningsstedet. Hvis 
+det bløder, kan du lægge en ren, tør bomuldsserviet 
+over området og trykke blidt i 1 til 2 minutter, eller 
+indtil blødningen holder op. Sæt derefter 
+hæfteplaster på. </p>
+</li>
+<li>
+<p>Smid på sikker vis kanylerne og sprøjten i 
+kanyleboksen eller som anvist af lægen, 
+sygeplejersken eller apoteket. Genbrug aldrig 
+sprøjter eller kanyler. </p>
+</li>
+<li>Bortskaf på passende vis hætteglassene med rester af 
+vand og eventuel Ilaris-opløsning som anvist af 
+lægen, sygeplejersken eller apoteket. Ubrugt 
+medicin samt evt. affald bør destrueres i henhold til 
+lokale retningslinjer. </li>
+</ol>
+<p>Opbevar kanyleboksen utilgængeligt for børn. </p>
+<p>Bortskaf den som anvist af lægen, sygeplejersken eller 
+apoteket. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Ilaris 150 mg/ml injektionsvæske, opløsning 
+canakinumab </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+− 
+Gem indlægssedlen. Du kan få brug for at læse den igen. 
+− 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+− 
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+− 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-943ee66eb6c14bbfb08d263a24ef8bd8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ilaris Package Leaflet for language en"
+Description: "ePI document Bundle for ilaris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-943ee66eb6c14bbfb08d263a24ef8bd8"
+* entry[0].resource = composition-en-943ee66eb6c14bbfb08d263a24ef8bd8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp943ee66eb6c14bbfb08d263a24ef8bd8"
+* entry[=].resource = mp943ee66eb6c14bbfb08d263a24ef8bd8
+                            
+                    
+Instance: bundlepackageleaflet-da-943ee66eb6c14bbfb08d263a24ef8bd8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ilaris Package Leaflet for language da"
+Description: "ePI document Bundle for ilaris Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-943ee66eb6c14bbfb08d263a24ef8bd8"
+* entry[0].resource = composition-da-943ee66eb6c14bbfb08d263a24ef8bd8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp943ee66eb6c14bbfb08d263a24ef8bd8"
+* entry[=].resource = mp943ee66eb6c14bbfb08d263a24ef8bd8
+                            
+                    
+
+
+
+Instance: mp943ee66eb6c14bbfb08d263a24ef8bd8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ilaris 150 mg powder for solution for injection"
-Description: "Ilaris 150 mg powder for solution for injection"
+Title: "Medicinal Product ilaris"
+Description: "ilaris"
 Usage: #inline
 
  
@@ -683,7 +1531,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ilaris 150 mg powder for solution for injection"
+  * productName = "ilaris"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -710,29 +1558,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-943ee66eb6c14bbfb08d263a24ef8bd8
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ilaris Package Leaflet for language en"
-Description: "ePI document Bundle for ilaris Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 943ee66eb6c14bbfb08d263a24ef8bd8ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/564/001-002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ilaris"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-943ee66eb6c14bbfb08d263a24ef8bd8"
-* entry[0].resource = composition-en-943ee66eb6c14bbfb08d263a24ef8bd8
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe8a0dd7d966e221068dba006e5a6fff3"
-* entry[=].resource = mpe8a0dd7d966e221068dba006e5a6fff3
-                            
-                      
+* title = "List of all ePIs associated with ilaris"
+
+* subject = Reference(mpe8a0dd7d966e221068dba006e5a6fff3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ilaris "ilaris"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-943ee66eb6c14bbfb08d263a24ef8bd8) // ilaris en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-943ee66eb6c14bbfb08d263a24ef8bd8) // ilaris da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-943ee66eb6c14bbfb08d263a24ef8bd8
+InstanceOf: List
+
+* insert 943ee66eb6c14bbfb08d263a24ef8bd8ListRuleset
+    

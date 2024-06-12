@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a8827a69a4f2a8d5bccee719c4738936
 InstanceOf: CompositionUvEpi
 Title: "Composition for cufence Package Leaflet"
@@ -237,12 +240,307 @@ Germany  </p>
 
 
 
+Instance: composition-da-a8827a69a4f2a8d5bccee719c4738936
+InstanceOf: CompositionUvEpi
+Title: "Composition for cufence Package Leaflet"
+Description:  "Composition for cufence Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc0028cb0d3397ea4065a3d3cc7305a60)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc0028cb0d3397ea4065a3d3cc7305a60
+* title = "TEST PURPOSES ONLY - cufence"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Cufence </li>
+<li>Sådan skal du tage Cufence </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cufence is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cufence is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cufence er et lægemiddel til behandling af Wilsons sygdom hos voksne, unge og børn i alderen 5 år 
+og derover. Det bruges af patienter, som ikke kan tage anden medicin (D-penicillamin) på grund af 
+bivirkninger. </p>
+<p>Cufence indeholder det aktive stof trientin, der er et kobber-chelatdannende stof, der bruges til at 
+fjerne overskydende kobber fra kroppen. Cufence binder sig til kobberet, der derefter udskilles fra 
+kroppen.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cufence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cufence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Cufence 
+Hvis du er allergisk over for trientin eller et af de øvrige indholdsstoffer (angivet i afsnit 6).  </p>
+<p>Tegn på en allergisk reaktion omfatter hududslæt, kløe, hævelse i ansigtet, besvimelse og 
+vejrtrækningsproblemer. </p>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Din læge skal regelmæssigt kontrollere dig for symptomer på sygdommen og kobberniveauerne i dit 
+blod og din urin. Regelmæssig overvågning er især vigtig i starten af behandlingen, eller når din dosis 
+ændres, hos børn i vækst og gravide kvinder for at sikre, at kobberniveauerne holdes på et passende 
+niveau. Lægen skal eventuelt justere din dosis af Cufence op eller ned.  </p>
+<p>Der kan forekomme problemer med nervesystemet (f.eks. rysten, manglende koordination, sløret tale, 
+muskelstivhed og forværring af muskelspasmer), særligt hos patienter, som starter behandling med 
+Cufence. Hvis du bemærker dette, mens du tager Cufence, skal du straks fortælle det til din læge. </p>
+<p>Lupuslignende reaktioner (symptomer kan omfatte vedvarende hududslæt, feber, ledsmerter og 
+træthed) er rapporteret hos nogle patienter, som er gået over til et lægemiddel, der indeholder trientin 
+efter brug af et lægemiddel, der indeholder penicillamin. Det har dog ikke været muligt at afgøre, om 
+reaktionen skyldtes trientin eller tidligere behandling med penicillamin. </p>
+<p>Brug af andre lægemidler sammen med Cufence </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager eller planlægger at tage andre 
+lægemidler, eller har gjort det for nylig. </p>
+<p>Hvis du tager jerntabletter eller mavesyreneutraliserende lægemidler, skal der gå mindst 2 timer, før 
+eller efter du har taget Cufence, fordi de kan nedsætte virkningen af Cufence. Det anbefales at trientin 
+tages mindst en time før eller efter eventuelle andre lægemidler. </p>
+<p>Brug af Cufence sammen med mad og drikke </p>
+<p>Tag kun dette lægemiddel sammen med vand. Tag det ikke sammen med andet, hverken drikkevarer, 
+mælk eller mad, eftersom dette kan nedsætte lægemidlets virkning. Undgå at spise eller drikke 
+(undtagen vand) i 2 timer før og 1 time, efter du tager Cufence. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. Det er meget vigtigt 
+at fortsætte behandlingen for at opretholde normale kobberniveauer under graviditeten. Du og din læge 
+skal tale om alle de mulige fordele ved behandlingen og tage højde for eventuelle mulige risici. Lægen 
+vil rådgive dig om, hvilken behandling og hvilken dosis der er bedst i din situation. Tal med lægen, 
+hvis du bliver gravid, mens du tager Cufence. </p>
+<p>Hvis du er gravid og tager Cufence, vil du blive overvåget gennem hele graviditeten med hensyn til 
+eventuel påvirkning af barnet eller ændringer i dine kobberniveauer.  </p>
+<p>De begrænsede tilgængelige oplysninger tyder på, at Cufence ikke udskilles i modermælk, men det er 
+ikke sikkert, at der ikke er nogen risiko for barnet. Det er vigtigt at fortælle lægen, om du ammer eller 
+har til hensigt at gøre det. Lægen vil så hjælpe dig med at afgøre, om du skal holde op med at amme 
+eller holde op med at tage Cufence, ud fra fordelen ved amning for barnet og fordelen ved Cufence for 
+dig. Lægen vil afgøre, hvilken behandling og hvilken dosis der er bedst i din situation. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Trientin vil sandsynligvis ikke påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cufence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cufence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Voksne (herunder ældre patienter) </p>
+<p>Den anbefalede dosis er mellem 800 og 1 600 mg dagligt, og skal tages gennem munden. </p>
+<p>Brug til børn og unge (5-17 år) </p>
+<p>Hos børn og unge afhænger dosis af alder og legemsvægt, og den justeres af lægen. I starten af 
+behandlingen varierer dosis mellem 400 og 1 000 mg dagligt. </p>
+<p>Administration </p>
+<p>Din læge fastsætter den rette dosis til dig. 
+Den samlede daglige dosis kan deles i 2 til 4 mindre doser efter lægens anvisning. Kapslerne skal 
+synkes hele med et glas vand på tom mave mindst 1 time før eller 2 timer efter et måltid.  </p>
+<p>Patienter, som har svært ved at synke, skal kontakte deres læge. </p>
+<p>Hvis du har taget for meget Cufence </p>
+<p>Hvis du tager mere lægemiddel, end du skal, kan du få kvalme, kaste op eller blive svimmel. Du skal 
+straks kontakte lægen eller andet sundhedspersonale. </p>
+<p>Hvis du har glemt at tage Cufence </p>
+<p>Hvis du har glemt at tage en dosis, skal du tage din næste dosis til den planlagte tid. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Cufence </p>
+<p>Dette lægemiddel er til langtidsbehandling, fordi Wilsons sygdom er en livsvarig sygdom. Stop ikke 
+behandlingen uden at tale med lægen om det, heller ikke selvom du får det bedre. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Undertiden (hyppighed ukendt; kan ikke estimeres ud fra de foreliggende data) kan behandling med 
+dette lægemiddel forårsage inflammation i tyndtarmen eller endetarmen. Hvis du får nogen af følgende 
+bivirkninger, skal du øjeblikkeligt kontakte lægen:</p>
+<ul>
+<li>Stærke mavesmerter </li>
+<li>Vedvarende diarré </li>
+<li>Problemer med nervesystemet (f.eks. rysten, manglende koordination, sløret tale, muskelstivhed, 
+forværring af muskelspasmer).  </li>
+</ul>
+<p>Andre bivirkninger kan omfatte: 
+Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
+- Kvalme (især i starten af behandlingen) </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) 
+- Hududslæt 
+- Anæmi (du kan føle dig usædvanlig træt) </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cufence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cufence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.  </p>
+<p>Anvendes senest 3 måneder efter anbrud. Hold flasken tæt tillukket for at beskytte mod fugt. Tag ikke 
+kapslerne, hvis de er klæbrige eller våde. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cufence indeholder: </p>
+<p>Aktivt stof: trientin.<br />
+- Hver hårde kapsel Cufence 100 mg indeholder 150 mg trientindihydrochlorid svarende til 100 mg 
+trientin. 
+- Hver hårde kapsel Cufence 200 mg indeholder 300 mg trientindihydrochlorid svarende til 200 mg 
+trientin. </p>
+<p>Øvrige indholdsstoffer:</p>
+<ul>
+<li>Kapslens indhold: Magnesiumstearat, colloid vandfri silica </li>
+<li>Kapslens skal: Gelatine, titandioxid (E171) </li>
+<li>Trykfarve: Shellac, propylenglykol (E1520), titandioxid (E171), sort jernoxid (E 172), gul 
+jernoxid (E172) </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Cufence 100 mg hårde kapsler 
+Hvid, uigennemsigtig HDPE-flaske med børnesikret HDPE-skruelåg og varmeinduceret 
+forseglingsindsats med en pose tørret silicagel som tørremiddel. Hver hård kapsel er hvid, oval, 
+størrelse 3 (15,8 mm x 5,85 mm) med ’Cufence 100’ trykt med gråt blæk. </p>
+<p>Pakningsstørrelser: En beholder med 200 hårde kapsler.  </p>
+<p>Cufence 200 mg hårde kapsler 
+Gul glasflaske med polypropylenhætte og varmeinduceret forseglingsindsats med en pose tørret 
+silicagel som tørremiddel. Hver hård kapsel er hvid, oval, størrelse 0 (21,8 mm x 7,66 mm) med 
+’Cufence’ trykt med gråt blæk. </p>
+<p>Pakningsstørrelser: En beholder med 100 hårde kapsler.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Univar Solutions BV 
+Schouwburgplein 3012 CL Rotterdam 
+Holland </p>
+<p>Fremstiller 
+Aesica Pharmaceuticals GmbH 
+Alfred-Nobel Strasse 40789 Monheim 
+Tyskland  </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu<br />
+Der er også links til andre websteder om sjældne sygdomme og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a8827a69a4f2a8d5bccee719c4738936
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cufence Package Leaflet for language en"
+Description: "ePI document Bundle for cufence Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a8827a69a4f2a8d5bccee719c4738936"
+* entry[0].resource = composition-en-a8827a69a4f2a8d5bccee719c4738936
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa8827a69a4f2a8d5bccee719c4738936"
+* entry[=].resource = mpa8827a69a4f2a8d5bccee719c4738936
+                            
+                    
+Instance: bundlepackageleaflet-da-a8827a69a4f2a8d5bccee719c4738936
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cufence Package Leaflet for language da"
+Description: "ePI document Bundle for cufence Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a8827a69a4f2a8d5bccee719c4738936"
+* entry[0].resource = composition-da-a8827a69a4f2a8d5bccee719c4738936
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa8827a69a4f2a8d5bccee719c4738936"
+* entry[=].resource = mpa8827a69a4f2a8d5bccee719c4738936
+                            
+                    
+
+
+
+Instance: mpa8827a69a4f2a8d5bccee719c4738936
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cufence 100 mg hard capsules"
-Description: "Cufence 100 mg hard capsules"
+Title: "Medicinal Product cufence"
+Description: "cufence"
 Usage: #inline
 
  
@@ -262,7 +560,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cufence 100 mg hard capsules"
+  * productName = "cufence"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -289,29 +587,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a8827a69a4f2a8d5bccee719c4738936
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cufence Package Leaflet for language en"
-Description: "ePI document Bundle for cufence Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a8827a69a4f2a8d5bccee719c4738936ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1365/002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cufence"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a8827a69a4f2a8d5bccee719c4738936"
-* entry[0].resource = composition-en-a8827a69a4f2a8d5bccee719c4738936
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc0028cb0d3397ea4065a3d3cc7305a60"
-* entry[=].resource = mpc0028cb0d3397ea4065a3d3cc7305a60
-                            
-                      
+* title = "List of all ePIs associated with cufence"
+
+* subject = Reference(mpc0028cb0d3397ea4065a3d3cc7305a60)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cufence "cufence"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a8827a69a4f2a8d5bccee719c4738936) // cufence en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a8827a69a4f2a8d5bccee719c4738936) // cufence da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a8827a69a4f2a8d5bccee719c4738936
+InstanceOf: List
+
+* insert a8827a69a4f2a8d5bccee719c4738936ListRuleset
+    

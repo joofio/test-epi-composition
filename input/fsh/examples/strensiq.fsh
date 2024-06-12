@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-028530430ed7d9b47cd8ba73da175d72
 InstanceOf: CompositionUvEpi
 Title: "Composition for strensiq Package Leaflet"
@@ -544,12 +547,665 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-028530430ed7d9b47cd8ba73da175d72
+InstanceOf: CompositionUvEpi
+Title: "Composition for strensiq Package Leaflet"
+Description:  "Composition for strensiq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8f52c9f86e88b83be58cf0f3359b579f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8f52c9f86e88b83be58cf0f3359b579f
+* title = "TEST PURPOSES ONLY - strensiq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Strensiq </li>
+<li>Sådan skal du bruge Strensiq </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What strensiq is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What strensiq is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Strensiq er et lægemiddel, der anvendes til at behandle den arvelige sygdom hypophosphatasi, som 
+begyndte i barndommen. Det indeholder det aktive stof asfotase alfa. </p>
+<p>Hypophosphatasi 
+Patienter med hypophosphatasi har lave niveauer af et enzym, der kaldes basisk phosphatase, som er 
+vigtigt for forskellige kropsfunktioner, herunder den korrekte hærdning af knogler og tænder. 
+Patienterne har problemer med knoglevæksten og knoglernes styrke, hvilket kan føre til knoglebrud, 
+knoglesmerter og gangbesvær samt vejrtrækningsbesvær og risiko for krampeanfald. </p>
+<p>Anvendelse 
+Det aktive stof i Strensiq kan erstatte det manglende enzym (basisk phosphatase) ved 
+hypophosphatasi. Det anvendes til langvarig enzym-erstatningsbehandling for at behandle 
+symptomerne. </p>
+<p>Fordele ved Strensiq påvist i kliniske studier 
+Strensiq har vist sig at gavne patienternes mineralisering af skelettet og vækst. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take strensiq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take strensiq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Strensiq 
+Hvis du er svært allergisk over for asfotase alfa (se punktet "Advarsler og forsigtighedsregler" 
+nedenfor) eller et af de øvrige indholdsstoffer i Strensiq (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du bruger Strensiq. </p>
+<ul>
+<li>
+<p>Patienter, der får asfotase alfa, har oplevet allergiske reaktioner, herunder behandlingskrævende, 
+livstruende allergiske reaktioner svarende til anafylaksi. Patienter, der oplevede anafylaksi-
+lignende symptomer, havde vejrtrækningsbesvær, kvælningsfornemmelser, kvalme, hævelse 
+omkring øjenene og svimmelhed. Reaktionerne optrådte inden for minutter efter indtagelse af 
+asfotase alfa og kan forekomme hos patienter, der har taget asfotase alfa i mere end et år. Hvis du 
+oplever et eller flere af disse symptomer, skal du straks holde op med at tage Strensiq og søge 
+læge. 
+Hvis du oplever en anafylaktisk reaktion eller en bivirkning med tilsvarende symptomer, vil din 
+læge tale med dig om de næste trin og muligheden for at starte behandlingen med Strensiq igen 
+under lægeligt tilsyn. Følg altid de anvisninger, du får af lægen. </p>
+</li>
+<li>
+<p>Der kan forekomme udvikling af proteiner i blodet mod Strensiq, også kaldet antistoffer mod 
+lægemidlet, under behandlingen. Kontakt lægen, hvis du oplever en nedsat virkning af Strensiq. </p>
+</li>
+<li>
+<p>Der er rapporteret fedtknuder eller mindre fedtvæv på hudoverfladen (lokal lipodystrofi) på 
+injektionsstedet efter flere måneder hos patienter, der bruger Strensiq. Læs omhyggeligt 
+anbefalingerne vedrørende injektion i pkt. 3. For at nedsætte risikoen for lipodystrofi er det vigtigt 
+at skifte mellem følgende injektionssteder: maven, låret eller deltamusklen. </p>
+</li>
+<li>
+<p>Der er i studier blevet rapporteret visse bivirkninger relateret til øjnene (f.eks. calciumophobning 
+på øjet [konjunktival og korneal forkalkning]), både hos patienter, der brugte Strensiq og hos 
+patienter, der ikke gjorde det. Disse bivirkninger er sandsynligvis forbundet med hypophosphatasi. 
+Kontakt lægen i tilfælde af problemer med synet. </p>
+</li>
+<li>
+<p>Tidlig sammenvoksning af knoglerne i hovedet (kraniosynostose) hos børn under 5 år er blevet 
+rapporteret i kliniske studier med spædbørn, der lider af hypophosphatasi, med og uden 
+anvendelse af Strensiq. Kontakt lægen, hvis du bemærker en ændring af dit spædbarns hovedform. </p>
+</li>
+<li>
+<p>Hvis du er i behandling med Strensiq, kan du opleve en reaktion på injektionsstedet (smerter, små 
+knuder, udslæt, misfarvning), når medicinen injiceres, eller i timerne efter injektionen. Hvis du 
+oplever en alvorlig reaktion på injektionsstedet, skal du straks fortælle det til lægen. </p>
+</li>
+<li>
+<p>Der er i studier blevet rapporteret en øget koncentration af paratyroideahormon og lave 
+calciumniveauer. Som følge heraf kan din læge bede dig om at tage tilskud med calcium eller oralt 
+D-vitamin, hvis nødvendigt. </p>
+</li>
+<li>
+<p>Der kan opstå en vægtøgning under din behandling med Strensiq. Din læge vil give kostvejledning 
+efter behov. </p>
+</li>
+</ul>
+<p>Brug af anden medicin sammen med Strensiq 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin.  </p>
+<p>Hvis du skal have foretaget laboratorieanalyser (taget blodprøver), skal du fortælle lægen, at du bliver 
+behandlet med Strensiq. Strensiq kan føre til, at nogle prøver viser højere eller lavere resultater, end 
+hvad der er korrekt. Derfor kan det være nødvendigt at anvende en anden type test, hvis du bliver 
+behandlet med Strensiq. </p>
+<p>Graviditet 
+Strensiq bør ikke anvendes under graviditet eller amning. Det bør overvejes at bruge sikker 
+prævention under behandlingen for kvinder, der kan blive gravide. </p>
+<p>Amning<br />
+Det er ukendt, om Strensiq kan udskilles i modermælk. Fortæl det til lægen, hvis du ammer eller 
+planlægger at amme. Lægen vil så hjælpe dig med at beslutte, om du skal holde op med at amme eller 
+stoppe med at tage Strensiq, idet der tages hensyn til fordelene ved amning for barnet og fordelene ved 
+Strensiq for moderen. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel forventes ikke at have nogen virkning på evnen til at føre motorkøretøj eller betjene 
+maskiner. </p>
+<p>Strensiq indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take strensiq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take strensiq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt som beskrevet i denne indlægsseddel eller efter lægens, 
+apotekspersonalets eller sygeplejerskens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet 
+eller sygeplejersken. 
+En læge med erfaring i behandling af patienter med metaboliske eller knoglerelaterede sygdomme vil 
+forklare dig, hvordan du skal bruge Strensiq. Du kan selv injicere Strensiq hjemme, efter lægen eller 
+en specialsygeplejerske har lært dig det. </p>
+<p>Dosis </p>
+<ul>
+<li>
+<p>Den dosis, du får, afhænger af din legemsvægt. </p>
+</li>
+<li>
+<p>Din læge vil beregne den korrekte dosis, som indeholder i alt 6 mg asfotase alfa pr. kg 
+legemsvægt hver uge, der gives enten som en injektion af 1 mg/kg asfotase alfa 6 gange 
+ugentligt eller som 2 mg/kg asfotase alfa 3 gange ugentligt afhængig af din læges anbefaling. 
+Hver dosis vil blive administreret via injektion under huden (subkutant), (se det nedenstående 
+doseringsskema for detaljerede oplysninger om det volumen, der skal injiceres, og det type 
+hætteglas, der skal anvendes, baseret på din vægt). </p>
+</li>
+<li>
+<p>Doserne skal justeres regelmæssigt af din læge i takt med, at legemsvægten ændrer sig. </p>
+</li>
+<li>
+<p>Det maksimale volumen pr. injektion må ikke overskride 1 ml. Hvis der behøves mere end 1 ml, 
+skal du have flere injektioner lige efter hinanden. </p>
+</li>
+</ul>
+<p>Ved injektion 3 gange ugentligt </p>
+<p>Legems-
+vægt 
+(kg) 
+Volumen, 
+der skal 
+injiceres 
+Farvekode 
+for det 
+hætteglas, 
+der skal 
+anvendes 
+3 
+0,15 ml 
+Mørkeblå<br />
+4 
+0,20 ml 
+Mørkeblå<br />
+5 
+0,25 ml 
+Mørkeblå<br />
+6 
+0,30 ml 
+Mørkeblå<br />
+7 
+0,35 ml 
+Orange 
+8 
+0,40 ml 
+Orange 
+9 
+0,45 ml 
+Orange 
+0,50 ml 
+Lyseblå 
+0,55 ml 
+Lyseblå 
+0,60 ml 
+Lyseblå 
+0,65 ml 
+Lyseblå 
+0,70 ml 
+Lyseblå 
+0,75 ml 
+Lyserød 
+0,80 ml 
+Lyserød 
+0,85 ml 
+Lyserød 
+0,90 ml 
+Lyserød 
+0,95 ml 
+Lyserød 
+1 ml 
+Lyserød 
+0,50 ml 
+Grøn 
+0,60 ml 
+Grøn 
+0,70 ml 
+Grøn 
+0,80 ml 
+Grøn 
+Ved injektion 6 gange ugentligt </p>
+<p>Legems-
+vægt 
+(kg) 
+Volumen, 
+der skal 
+injiceres 
+Farvekode 
+for det 
+hætteglas, 
+der skal 
+anvendes 
+6 
+0,15 ml 
+Mørkeblå<br />
+7 
+0,18 ml 
+Mørkeblå<br />
+8 
+0,20 ml 
+Mørkeblå<br />
+9 
+0,23 ml 
+Mørkeblå<br />
+0,25 ml 
+Mørkeblå<br />
+0,28 ml 
+Mørkeblå<br />
+0,30 ml 
+Mørkeblå<br />
+0,33 ml 
+Orange 
+0,35 ml 
+Orange 
+0,38 ml 
+Orange 
+0,40 ml 
+Orange 
+0,43 ml 
+Orange 
+0,45 ml 
+Orange 
+0,48 ml 
+Lyseblå 
+0,50 ml 
+Lyseblå 
+0,63 ml 
+Lyseblå 
+0,75 ml 
+Lyserød 
+0,88 ml 
+Lyserød 
+1 ml 
+Lyserød 
+0,50 ml 
+Grøn 
+0,60 ml 
+Grøn 
+0,70 ml 
+Grøn 
+0,80 ml 
+Grøn 
+0,90 ml 
+Grøn (x 2) 
+1 ml 
+Grøn (x 2) </p>
+<p>Injektionsanbefalinger </p>
+<ul>
+<li>
+<p>Du kan opleve en reaktion på injektionsstedet. Læs nøje punkt 4, så du ved, hvilke bivirkninger, 
+der kan opstå, før du bruger dette lægemiddel. </p>
+</li>
+<li>
+<p>Hvis du injicerer regelmæssigt, skal der ændres injektionssted mellem forskellige områder på 
+kroppen, så mulige smerter og irritation mindskes. </p>
+</li>
+<li>
+<p>Områder med mere fedtvæv under huden (lårene, armene (deltamusklerne), maven eller 
+balderne) er de mest egnede områder til injektion. Diskuter med lægen eller sygeplejersken, 
+hvilke steder er de bedste for dig. </p>
+</li>
+</ul>
+<p>Læs venligst de følgende anvisninger grundigt, før du injicerer Strensiq </p>
+<ul>
+<li>
+<p>Hvert hætteglas er til engangsbrug og må kun punkteres én gang. Strensiq-væsken skal være 
+klar, let opaliserende eller opaliserende, farveløs til let gullig og kan indeholde nogle få, små 
+gennemskinnelige eller hvide partikler. Må ikke anvendes, hvis væsken er misfarvet eller 
+indeholder klumper eller store partikler. Tag i så fald et nyt hætteglas. Ikke anvendt lægemiddel 
+samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+</li>
+<li>
+<p>Hvis du selv injicerer dette lægemiddel, vil lægen, apotekspersonalet eller sygeplejersken vise 
+dig, hvordan du skal forberede og injicere lægemidlet. Du må ikke injicere dette lægemiddel 
+selv, medmindre du har fået oplæring og forstår proceduren. </p>
+</li>
+</ul>
+<p>Sådan injicerer du Strensiq </p>
+<p>Trin 1: Klargøring af Strensiq-dosen </p>
+<ol>
+<li>Vask dine hænder grundigt med sæbe og vand. </li>
+<li>Tag de(t) uåbnede hætteglas med Strensiq ud af køleskabet 15 til 30 minutter før injektion, så 
+væsken kan opnå rumtemperatur. Strensiq må ikke opvarmes på anden måde (det må for 
+eksempel ikke varmes i en mikroovn eller i varmt vand). Når hætteglasset (hætteglassene) er 
+taget ud af køleskabet, skal Strensiq anvendes inden for maks 3 timer. </li>
+<li>Fjern den beskyttende hætte fra hætteglasset/-glassene med Strensiq. Fjern den beskyttende 
+plastik fra den injektionssprøjte, der skal anvendes. </li>
+<li>Brug altid en ny injektionssprøjte indpakket i beskyttende plastik. </li>
+<li>Sæt en relativt tyk kanyle (f.eks. 25 G) på den tomme sprøjte. Lad beskyttelseshætten sidde 
+på, og tryk kanylen ned på sprøjten, idet den drejes med uret, til den sidder fast. </li>
+<li>Fjern den plasthætte, der dækker kanylen. Sørg for, at du ikke kommer til skade med kanylen. </li>
+<li>Træk stemplet ud, så der trækkes en mængde luft ind i sprøjten, der svarer til din dosis. </li>
+</ol>
+<p>Trin 2: Udtrækning af Strensiq-opløsning fra hætteglasset </p>
+<ol>
+<li>Hold på sprøjten og hætteglasset, og stik 
+kanylen igennem den sterile 
+gummimembran og ind i hætteglasset. </li>
+<li>
+<p>Tryk stemplet helt i bund, så luften 
+sprøjtes ind i hætteglasset. </p>
+</li>
+<li>
+<p>Vend sprøjten og hætteglasset om. Træk i 
+stemplet, mens kanylen er i opløsningen, 
+og træk den korrekte dosis ind i sprøjten. </p>
+</li>
+<li>
+<p>Før kanylen fjernes fra hætteglasset, skal 
+du kontrollere, at det korrekte volumen er 
+blevet trukket op, samt kontrollere 
+sprøjten for luftbobler. Hvis du kan se 
+luftbobler i sprøjten, skal du holde 
+sprøjten med kanylen pegende opad og 
+forsigtigt banke på siden af sprøjten, 
+indtil boblerne stiger op til toppen. </p>
+</li>
+<li>
+<p>Når alle boblerne er i toppen af sprøjten, 
+skal du forsigtigt trykke stemplet ind, så 
+boblerne tvinges ud af sprøjten, og ind i 
+hætteglasset igen. </p>
+</li>
+<li>
+<p>Når boblerne er fjernet, skal du igen kontrollere dosen af medicin, der er i sprøjten, for at 
+sikre, at den korrekte mængde er trukket op. Det kan være nødvendigt at anvende flere 
+hætteglas til at trække hele den nødvendige mængde op for at få den korrekte dosis. </p>
+</li>
+</ol>
+<p>Trin 3: Placering af kanylen til injektion på sprøjten 
+1. Tag kanylen ud af hætteglasset. Sæt hætten på igen med den ene hånd ved at placere hætten på 
+en flad overflade, føre kanylen ind i hætten, løfte den op og klikke den sikkert på plads ved 
+kun at anvende en hånd. 
+2. Fjern forsigtigt den relativt tykke kanyle ved at trykke den ned og dreje mod uret. Smid 
+kanylen med beskyttelseshætten i din beholder til skarpt affald. 
+3. Sæt en tyndere kanyle (f.eks. 27 eller 29 G) på den fyldte sprøjte. Lad beskyttelseshætten 
+sidde på, og tryk kanylen ned på sprøjten, idet den drejes med uret, til den sidder fast. Træk 
+hætten lige af kanylen. 
+4. Hold sprøjten med kanylen pegende opad, og bank let på sprøjtecylinderen med din finger for 
+at fjerne eventuelle luftbobler. </p>
+<p>Kontroller visuelt, at mængden i injektionssprøjten er korrekt. 
+Mængden pr. injektion må ikke overskride 1 ml. Hvis det er tilfældet, skal der udføres flere injektioner 
+på forskellige steder. 
+Du er nu klar til at injicere den korrekte dosis. </p>
+<p>Trin 4: Injektion af Strensiq </p>
+<ol>
+<li>Vælg et injektionssted (lår, mave, arme 
+(deltamuskler), bagdel). De mest egnede 
+injektionssteder er mærket med gråt på 
+billedet. Din læge vil rådgive dig om mulige 
+injektionssteder. </li>
+</ol>
+<p>BEMÆRK: må ikke anvendes på områder, hvor du 
+kan mærke ujævnheder, faste knuder eller har 
+smerter. Kontakt lægen, hvis du finder noget. </p>
+<ol>
+<li>
+<p>Knib forsigtigt huden sammen mellem 
+tommel- og pegefinger på det valgte 
+injektionssted.</p>
+</li>
+<li>
+<p>Hold injektionssprøjten, som du holder en 
+blyant eller en dartpil, og stik kanylen ind i 
+den løftede hud med en vinkel på 45º til 90º 
+med hudoverfladen. </p>
+</li>
+</ol>
+<p>For patienter, som kun har lidt fedtvæv under huden, 
+eller som har tynd hud, kan en vinkel på 45º være at 
+foretrække.  </p>
+<ol>
+<li>Mens du stadig holder fast i huden, trykker 
+du stemplet på injektionssprøjten ned, så 
+lægemidlet injiceres langsomt og jævnt hele 
+vejen ind. </li>
+<li>Fjern kanylen, slip hudfolden, og placer 
+forsigtigt en vattot eller et stykke gaze på 
+injektionsstedet i nogle få sekunder. 
+Dette vil hjælpe med at lukke det punkterede væv og 
+forhindre udsivning. Gnid ikke på injektionsstedet 
+efter injektion.  </li>
+</ol>
+<p>Hvis du har behov for endnu en injektion for at opnå din ordinerede dosis, skal du tage et nyt hætteglas 
+med Strensiq og gentage trin 1 til og med 4. Trin 5: Bortskaffelse af materialer 
+Sørg for at indsamle dine injektionssprøjter, hætteglas og kanyler i en beholder til skarpt affald. Din 
+læge, apotekspersonalet eller sygeplejersken vil rådgive dig om, hvordan du kan få en beholder til 
+skarpt affald. </p>
+<p>Hvis du har brugt for meget Strensiq 
+Hvis du har mistanke om, at du utilsigtet har fået en højere dosis Strensiq end ordineret, skal du 
+kontakte lægen for rådgivning. </p>
+<p>Hvis du har glemt at bruge Strensiq 
+Du må ikke injicere en dobbeltdosis som erstatning for den glemte dosis. Kontakt lægen for at få råd. </p>
+<p>For yderligere oplysninger, se: asfotasealfa-patient.dk </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis du er i tvivl om, hvad nedenstående bivirkninger er, skal du bede lægen om at forklare dem for 
+dig. </p>
+<p>De mest alvorlige bivirkninger observeret hos patienter, der har fået asfotase alfa, er allergiske 
+reaktioner, herunder livstruende allergiske reaktioner, der krævede medicinsk behandling, svarende til 
+anafylaksi. Denne bivirkning er almindelig (kan forekomme hos op til 1 ud af 10 personer). Patienter, 
+der oplevede disse alvorlige allergiske reaktioner, havde vejrtrækningsbesvær, kvælningsfornemmelse, 
+kvalme, hævelse omkring øjnene og svimmelhed. Reaktionerne opstod i løbet af minutter efter brug af 
+asfotase alfa, og de kan opstå hos patienter, der har brugt asfotase alfa i over et år. Hvis du oplever 
+nogen af disse symptomer, skal du straks afbryde behandlingen med Strensiq og søge lægehjælp.  </p>
+<p>Desuden kan der forekomme andre allergiske reaktioner (overfølsomhed), der kan vise sig som røde 
+plamager (erytem), feber (pyreksi), udslæt, kløe (pruritus), irritabilitet, kvalme, opkastning, smerter, 
+kulderystelser (rigor), følelsesløshed i munden (oral hypoæstesi), hovedpine, rødmen, hurtig puls 
+(takykardi) og hoste med en hyppighed på almindelig. Hvis du oplever nogle af disse symptomer, 
+skal du straks afbryde behandlingen med Strensiq og søge lægehjælp. </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer 
+Reaktioner på injektionsstedet ved injektion af lægemidlet eller i timerne efter injektionen (hvilket kan 
+føre til rødme, misfarvning, kløe, smerter, fedtknuder eller mindre fedtvæv på hudoverfladen, 
+hypopigmentering af huden og/eller hævelse) 
+Feber (pyreksi)<br />
+Irritabilitet 
+Hudrødme (erytem) 
+Smerter i hænder og fødder (smerter i ekstremiteter) 
+Blå mærker (kontusion) 
+Hovedpine </p>
+<p>Almindelig: kan forekomme hos op til 1 ud af 10 personer 
+Strakt hud, misfarvning af hud 
+Kvalme 
+Følelsesløshed i munden (oral hypæstesi) 
+Smertende muskler (myalgi) 
+Ar 
+Øget tendens til blå mærker 
+Hedeture 
+Hudinfektion på injektionsstedet (cellulitis på injektionsstedet) 
+Nedsat calciumniveau i blodet (hypocalcæmi) 
+Nyresten </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store strensiq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store strensiq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og etiketten på hætteglasset efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). 
+Må ikke nedfryses. 
+Opbevares i den originale yderpakning for at beskytte mod lys. 
+Efter åbning af hætteglasset skal præparatet straks anvendes (inden for maks. 3 timer ved 
+stuetemperatur fra 23 °C til 27 °C). </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Strensiq indeholder: 
+Aktivt stof: asfotase alfa. Hver ml opløsning indeholder 40 mg asfotase alfa. 
+Hvert hætteglas med 0,3 ml opløsning (40 mg/ml) indeholder 12 mg asfotase alfa. 
+Hvert hætteglas med 0,45 ml opløsning (40 mg/ml) indeholder 18 mg asfotase alfa. 
+Hvert hætteglas med 0,7 ml opløsning (40 mg/ml) indeholder 28 mg asfotase alfa. 
+Hvert hætteglas med 1 ml opløsning (40 mg/ml) indeholder 40 mg asfotase alfa. </p>
+<p>Øvrige indholdsstoffer: Natriumchlorid, natriumphosphat monobasisk monohydrat, natriumphosphat 
+dibasisk heptahydrat og vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser 
+Strensiq fås som en klar, let opaliserende eller opaliserende, farveløs til let gullig vandig 
+injektionsvæske, opløsning, i hætteglas indeholdende 0,3 ml, 0,45 ml, 0,7 ml og 1 ml opløsning. Der 
+kan være nogle få, små gennemskinnelige eller hvide partikler til stede. </p>
+<p>Pakningsstørrelser på 1 eller 12 hætteglas. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Alexion Europe SAS 
+103-105 rue Anatole France 
+92300 Levallois-Perret 
+Frankrig </p>
+<p>Fremstiller 
+Alexion Pharma International Operations Limited<br />
+College Business and Technology Park, Blanchardstown 
+Dublin Irland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Dette lægemiddel er godkendt under "særlige vilkår". 
+Det betyder, at det grundet sygdommens sjældenhed ikke har været muligt at opnå fuldstændig 
+dokumentation for lægemidlet. Det Europæiske Lægemiddelagentur vil hvert år vurdere nye 
+oplysninger om lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Strensiq 100 mg/ml injektionsvæske, opløsning 
+(80 mg/0,8 ml) 
+asfotase alfa </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-028530430ed7d9b47cd8ba73da175d72
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for strensiq Package Leaflet for language en"
+Description: "ePI document Bundle for strensiq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-028530430ed7d9b47cd8ba73da175d72"
+* entry[0].resource = composition-en-028530430ed7d9b47cd8ba73da175d72
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp028530430ed7d9b47cd8ba73da175d72"
+* entry[=].resource = mp028530430ed7d9b47cd8ba73da175d72
+                            
+                    
+Instance: bundlepackageleaflet-da-028530430ed7d9b47cd8ba73da175d72
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for strensiq Package Leaflet for language da"
+Description: "ePI document Bundle for strensiq Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-028530430ed7d9b47cd8ba73da175d72"
+* entry[0].resource = composition-da-028530430ed7d9b47cd8ba73da175d72
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp028530430ed7d9b47cd8ba73da175d72"
+* entry[=].resource = mp028530430ed7d9b47cd8ba73da175d72
+                            
+                    
+
+
+
+Instance: mp028530430ed7d9b47cd8ba73da175d72
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Strensiq 40 mg/ml solution for injection"
-Description: "Strensiq 40 mg/ml solution for injection"
+Title: "Medicinal Product strensiq"
+Description: "strensiq"
 Usage: #inline
 
  
@@ -569,7 +1225,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Strensiq 40 mg/ml solution for injection"
+  * productName = "strensiq"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -596,29 +1252,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-028530430ed7d9b47cd8ba73da175d72
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for strensiq Package Leaflet for language en"
-Description: "ePI document Bundle for strensiq Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 028530430ed7d9b47cd8ba73da175d72ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Strensiq 40 mg/ml solution for injection"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "strensiq"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-028530430ed7d9b47cd8ba73da175d72"
-* entry[0].resource = composition-en-028530430ed7d9b47cd8ba73da175d72
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8f52c9f86e88b83be58cf0f3359b579f"
-* entry[=].resource = mp8f52c9f86e88b83be58cf0f3359b579f
-                            
-                      
+* title = "List of all ePIs associated with strensiq"
+
+* subject = Reference(mp8f52c9f86e88b83be58cf0f3359b579f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#strensiq "strensiq"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-028530430ed7d9b47cd8ba73da175d72) // strensiq en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-028530430ed7d9b47cd8ba73da175d72) // strensiq da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-028530430ed7d9b47cd8ba73da175d72
+InstanceOf: List
+
+* insert 028530430ed7d9b47cd8ba73da175d72ListRuleset
+    

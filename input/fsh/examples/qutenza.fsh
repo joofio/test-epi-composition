@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d8316d32320ec41a5ee7a0d849b593ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for qutenza Package Leaflet"
@@ -257,12 +260,344 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-d8316d32320ec41a5ee7a0d849b593ef
+InstanceOf: CompositionUvEpi
+Title: "Composition for qutenza Package Leaflet"
+Description:  "Composition for qutenza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp37098ea04c02f5caf03ed16a617f0d7c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp37098ea04c02f5caf03ed16a617f0d7c
+* title = "TEST PURPOSES ONLY - qutenza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge Qutenza
+3. Sådan skal du bruge Qutenza
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What qutenza is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What qutenza is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qutenza indeholder capsaicin og tilhører en gruppe af lægemidler som kaldes anæstetika.
+Qutenza bruges til behandling af perifere neuropatiske smerter hos voksne, enten alene eller sammen 
+med andre lægemidler til behandling af smerter.
+Qutenza anvendes til at lindre nervesmerter på grund af beskadigede nerver i huden. Beskadigede 
+nerver i din hud kan skyldes mange forskellige sygdomme såsom helvedesild, hiv-infektion, diabetes, 
+visse lægemidler og andre lidelser. Der kan gå op til 1-3 uger, før du oplever smertelindring af 
+Qutenza.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take qutenza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take qutenza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Qutenza
+
+hvis du er allergisk over for capsaicin (også til stede i chilipeber) eller andre indholdsstoffer i 
+denne medicin (angivet i punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du bruger Qutenza.
+Brug ikke Qutenza på noget som helst sted på dit hoved eller i ansigtet.
+Brug ikke Qutenza på beskadiget hud eller åbne sår.
+Rør ikke Qutenza eller andre materialer, der har været i kontakt med de behandlede områder, da dette 
+kan medføre en brændende og stikkende fornemmelse. Rør ikke dine øjne, mund eller andre følsomme 
+steder da det kan medføre irritation og smerte. Hvis dette sker, skal der skylles eller spules med koldt 
+vand. Snusen eller inhalering tæt på Qutenza-plastre kan medføre hoste, halsirritation eller nysen.
+26
+Behandling med Qutenza-plastret medfører normalt en kortvarig rødme af huden eller en brændende 
+eller sviende fornemmelse under og efter behandlingen. Dit blodtryk kan stige på grund af smerten, og 
+derfor vil lægen måle dit blodtryk flere gange under behandlingen. Hvis du oplever mange smerter, vil 
+lægen behandle dig med lokal kulde eller give dig et smertestillende lægemiddel. Hvis du oplever 
+voldsomme smerter, skal du bede lægen om at fjerne plastret.
+Der er set ændringer i evnen til at føle varme eller skarpe genstande efter brugen af capsaicin. Disse 
+ændringer er normalt små og kortvarige.
+Hvis du har ustabilt eller dårligt kontrolleret forhøjet blodtryk eller har haft hjerteproblemer, vil lægen 
+vurdere risikoen for bivirkninger på dit hjerte eller blodtryk, inden du behandles med Qutenza, da 
+behandlingen kan fremkalde stress.
+Børn og unge
+Qutenza frarådes til behandling af patienter under 18 år.
+Brug af anden medicin sammen med Qutenza
+Fortæl altid lægen, hvis du bruger anden medicin eller har gjort det for nylig. Qutenza virker lokalt på 
+huden og forventes ikke at have nogen indvirkning på andre lægemidler.
+Graviditet og amning
+Qutenza skal anvendes med forsigtighed, hvis du er gravid. Du skal holde op med at amme, inden 
+behandling med Qutenza påbegyndes. Hvis du er gravid eller ammer, har mistanke om, at du er gravid, 
+eller planlægger at blive gravid, skal du spørge din læge til råds, før du bruger dette lægemiddel.
+Trafik- og arbejdssikkerhed
+Der er ikke foretaget undersøgelser af Qutenzas virkning på evnen til at føre motorkøretøj og betjene 
+maskiner. Ved behandling med Qutenza vil kun meget små mængder af det aktive stof være til stede i 
+blodbanen og kun i meget kort tid. Det er derfor usandsynligt, at Qutenza vil have nogen direkte 
+indvirkning på din koncentrationsevne eller din evne til at føre motorkøretøj eller betjene maskiner.
+Rensegelen til Qutenza indeholder butylhydroxyanisol
+Rensegelen til Qutenza indeholder butylhydroxyanisol, som kan give lokale hudreaktioner (f.eks. 
+kontakteksem) eller irritation af øjne og slimhinder.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take qutenza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take qutenza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qutenza må kun påføres af lægen eller af en sygeplejerske under supervision af lægen.
+Der må ikke anvendes mere end 4 plastre på samme tid.
+Qutenza skal bruges på huden.
+Lægen eller sygeplejersken vil markere de mest smertefulde områder på din hud med en kuglepen eller 
+tusch.
+Før påsætningen af Qutenza-plastre på huden vaskes behandlingsområdet med vand og sæbe, og det 
+tørres derefter. Behåring i behandlingsområdet vil blive klippet.
+Før påsætningen af Qutenza-plastre på huden kan lægen eller sygeplejersken smøre en bedøvende gel 
+eller creme på behandlingsområdet eller give dig smertestillende medicin til indtagelse gennem 
+27
+munden for at mindske den mulige sviende fornemmelse. Gelen eller cremen skal fjernes inden 
+påsætning af Qutenza, og huden skal vaskes og tørres grundigt.
+Lægen eller sygeplejersken vil bære handsker og sommetider maske og beskyttelsesbriller under 
+håndteringen af Qutenza-plastrene. Du må ikke snøfte eller inhalere i nærheden af Qutenza-plastrene, 
+da dette kan medføre hoste eller nysen.
+Qutenza kan klippes i mindre stykker, så det passer til behandlingsområdet. Lægen eller 
+sygeplejersken fjerner plastrene efter 30 minutter, hvis du behandles for nervesmerter i fødderne, eller 
+60 minutter, hvis du behandles for nervesmerter i andre dele af kroppen.
+Der kan gå mellem 1 og 3 uger, før du oplever smertelindring med Qutenza. Hvis du efter den tid 
+stadig har mange smerter, skal du kontakte lægen.
+Qutenza-behandlingen kan om nødvendigt gentages med intervaller på 90 dage. Kontakt lægen hvis 
+du oplever utilstrækkelig smertelindring, eller hvis smerten vender tilbage tidligere.<br />
+Du kan få ordineret smertestillende medicin mod de smerter, du føler ved behandling med Qutenza.
+Det er normalt, at huden svier eller bliver rød og brænder efter behandling med Qutenza.
+Du kan anvende engangssokker oven på Qutenza-plastrene, hvis dine fødder behandles.
+I nogle tilfælde vil lægen eller sygeplejersken komme en bandage oven på Qutenza-plastret for at 
+holde plastret fast mod huden.
+Forsøg ikke at fjerne plastret selv. Lægen eller sygeplejersken vil fjerne det for dig. 
+Når behandlingen med Qutenza er færdig, vil lægen eller sygeplejersken rense det behandlede område 
+med rensegel fra den tube, der leveres med sættet. Rensegelen vil blive påført din hud i ét minut og 
+derefter tørret bort for at fjerne eventuelle medicinrester, der er tilbage på huden efter behandlingen.
+Når rensegelen er fjernet, vaskes området forsigtigt med vand og sæbe.
+Rør ikke ved plastret med hænderne. 
+Rør ikke dine øjne, mund eller andre følsomme steder. Hvis du kommer til at røre Qutenza-plastret 
+eller det behandlede område, før rensegelen er påført, kan du opleve en brændende og/eller sviende 
+fornemmelse. Kontakt straks lægen.
+Qutenza-plastret må ikke fjernes fra klinikken.
+Brug ikke Qutenza-plastrene hjemme.
+Hvis Qutenza anvendes længere end det burde 
+Overdosering er usandsynlig. Hvis der går længere tid, end der burde, før Qutenza fjernes, kan du 
+opleve alvorlige bivirkninger på applikationsstedet såsom smerte, rødme og kløe.
+Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
+Kontakt straks din læge, hvis følgende bivirkninger opstår:
+
+Hvis du føler, at dit hjerte slår for hurtigt, for langsomt eller slår unormalt .<em> Ikke almindelig: forekommer hos op til 1 ud af 100 mennesker
+28
+
+Dyb rødmen på det område, hvor plastret er blevet påført, blærer/sivning på huden, hud, der bliver 
+meget smertefuld at røre ved, hævet, våd eller skinnende. I et mindre antal tilfælde, kan disse være 
+tegn på en forbrænding og har brug for øjeblikkelig medicinsk behandling.</em> Ikke kendt hyppighed: hyppigheden kan ikke estimeres ud fra forhåndenværende data
+Fortæl din læge, hvis de følgende bivirkninger forekommer eller bliver værre:
+Meget almindelig: Kan forekomme hos flere end 1 ud af 10 personer
+
+Rødme eller smerte på det område, hvor plastret er blevet påført, som varer mere end en dag.
+Almindelig: Kan forekomme hos op til 1 ud af 10 personer
+
+Kløe, buler, blærer, hævelse, tørhed på det område, hvor plastret er blevet påsat.
+
+Brændende fornemmelse, forhøjet blodtryk, hoste, kvalme, kløe, smerter i arme og ben, 
+muskelkramper, hævede arme og ben. 
+Ikke almindelig: Kan forekomme hos op 1 ud af 100 personer
+
+Hævelse, prikkende fornemmelse, betændelse, øget eller nedsat følelse i huden, hudreaktion, 
+irritation, blå mærker på området, hvor plastret er blevet påført .
+
+Nedsat smag, nedsat følelse i arme og ben, irritation af øjene, halsirritation, helvedesild.
+Hyppighed ikke kendt (kan ikke estimeres uf fra forhåndenværende data).
+
+Utilsigtet eksponering (herunder smerte i øjet, irritation af øjene, halsirritation og hoste).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store qutenza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store qutenza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er den 
+sidste dag i den nævnte måned.
+Qutenza-kutanplaster: Opbevar plastret fladt i det originale brev og den originale æske. Opbevares ved 
+temperaturer under 25°C.
+Rensegel: Opbevares ved temperaturer under 25°C.
+Efter åbning af brevet skal Qutenza påsættes inden for 2 timer.
+Bortskaffelse af brugte og ubrugte Qutenza-plastre.
+Hvis du rører disse materialer med fingrene, kan du opleve en sviende fornemmelse. Lægen eller 
+sygeplejersken vil anbringe dem i en polyethylen-pose, inden de bortskaffes på sikker vis. Qutenza-
+plastre og behandlingsrelaterede materialer skal bortskaffes på passende vis.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qutenza indeholder:
+Aktivt stof: capsaicin. Hvert plaster på 280 cm2 indeholder i alt 179 mg capsaicin svarende til 
+640 mikrogram capsaicin pr. cm2 plaster (8 % w/w).
+29
+Øvrige indholdsstoffer: 
+Matrix
+silikoneklæbestof
+diethylenglycolmonoethylether
+siliconeolie
+ethylcellulose N50 (E462)
+Bagsidelag
+Polyethylenterephthalat (PET) film, silikoniseret inderside
+printblæk indeholdende Pigment White 6
+Beskyttelsesfilm (aftagelig)
+polyesterfilm, fluoropolymerbelagt
+Qutenza-plastret leveres med en tube rensegel, der ikke indeholder aktivt stof.
+Rensegel:
+macrogol 300
+carbomer
+renset vand
+natriumhydroxid (E524)
+dinatriumedetat
+butylhydroxyanisol (E320)
+Udseende og pakningsstørrelser
+Qutenza er et plaster, der skal bruges på huden (kutanplaster).
+Hvert plaster er 14 cm x 20 cm (280 cm2) og består af et klæbende lag med det aktive stof og et ydre 
+bagsidelag. Det klæbende lag er dækket af en klar beskyttelsesfilm, der er diagonalt skåret, som ikke 
+har noget påtryk, og som kan fjernes. Den ydre overflade af bagsidelaget har påtrykt ’capsaicin 8%’.
+Hver Qutenza-æske indeholder 1 eller 2 breve, der hver især indeholder 1 kutanplaster, samt 1 tube 
+rensegel (50 g). Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+Grünenthal GmbH
+Zieglerstraße 6
+52078 Aachen
+Tyskland
+Denne indlægsseddel blev senest ændret
+Andre informationskilder
+Du kan finde yderligere oplysninger om Qutenza på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+Nedenstående oplysninger er til læger og sundhedspersonale:
+Et komplet produktresumé (SPC) følger med denne indlægsseddel.
+30</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d8316d32320ec41a5ee7a0d849b593ef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qutenza Package Leaflet for language en"
+Description: "ePI document Bundle for qutenza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d8316d32320ec41a5ee7a0d849b593ef"
+* entry[0].resource = composition-en-d8316d32320ec41a5ee7a0d849b593ef
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd8316d32320ec41a5ee7a0d849b593ef"
+* entry[=].resource = mpd8316d32320ec41a5ee7a0d849b593ef
+                            
+                    
+Instance: bundlepackageleaflet-da-d8316d32320ec41a5ee7a0d849b593ef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qutenza Package Leaflet for language da"
+Description: "ePI document Bundle for qutenza Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d8316d32320ec41a5ee7a0d849b593ef"
+* entry[0].resource = composition-da-d8316d32320ec41a5ee7a0d849b593ef
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd8316d32320ec41a5ee7a0d849b593ef"
+* entry[=].resource = mpd8316d32320ec41a5ee7a0d849b593ef
+                            
+                    
+
+
+
+Instance: mpd8316d32320ec41a5ee7a0d849b593ef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Qutenza 179 mg cutaneous patch"
-Description: "Qutenza 179 mg cutaneous patch"
+Title: "Medicinal Product qutenza"
+Description: "qutenza"
 Usage: #inline
 
  
@@ -282,7 +617,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Qutenza 179 mg cutaneous patch"
+  * productName = "qutenza"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -309,29 +644,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d8316d32320ec41a5ee7a0d849b593ef
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for qutenza Package Leaflet for language en"
-Description: "ePI document Bundle for qutenza Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d8316d32320ec41a5ee7a0d849b593efListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/524/001-002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "qutenza"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d8316d32320ec41a5ee7a0d849b593ef"
-* entry[0].resource = composition-en-d8316d32320ec41a5ee7a0d849b593ef
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp37098ea04c02f5caf03ed16a617f0d7c"
-* entry[=].resource = mp37098ea04c02f5caf03ed16a617f0d7c
-                            
-                      
+* title = "List of all ePIs associated with qutenza"
+
+* subject = Reference(mp37098ea04c02f5caf03ed16a617f0d7c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#qutenza "qutenza"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d8316d32320ec41a5ee7a0d849b593ef) // qutenza en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d8316d32320ec41a5ee7a0d849b593ef) // qutenza da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d8316d32320ec41a5ee7a0d849b593ef
+InstanceOf: List
+
+* insert d8316d32320ec41a5ee7a0d849b593efListRuleset
+    

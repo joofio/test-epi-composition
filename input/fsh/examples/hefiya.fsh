@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1cf3225341c0e6fa2558014a933b7feb
 InstanceOf: CompositionUvEpi
 Title: "Composition for hefiya Package Leaflet"
@@ -844,12 +847,1680 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-1cf3225341c0e6fa2558014a933b7feb
+InstanceOf: CompositionUvEpi
+Title: "Composition for hefiya Package Leaflet"
+Description:  "Composition for hefiya Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe6d4da5ab635930b04fee27e3b3e7953)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe6d4da5ab635930b04fee27e3b3e7953
+* title = "TEST PURPOSES ONLY - hefiya"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Brugsvejledning </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Hefiya </li>
+<li>Sådan skal du bruge Hefiya </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What hefiya is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What hefiya is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hefiya indeholder det aktive stof adalimumab, et lægemiddel, som virker på din krops immunforsvar. </p>
+<p>Hefiya er beregnet til behandling af inflammatoriske sygdomme beskrevet nedenfor: </p>
+<ul>
+<li>
+<p>reumatoid artrit </p>
+</li>
+<li>
+<p>polyartikulær juvenil idiopatisk artrit </p>
+</li>
+<li>
+<p>entesopatirelateret artrit </p>
+</li>
+<li>
+<p>ankyloserende spondylitis </p>
+</li>
+<li>
+<p>aksial spondyloartritis uden radiografiske tegn på AS </p>
+</li>
+<li>
+<p>psoriasisartrit </p>
+</li>
+<li>
+<p>psoriasis </p>
+</li>
+<li>
+<p>hidrosadenitis suppurativa </p>
+</li>
+<li>
+<p>Crohns sygdom </p>
+</li>
+<li>
+<p>colitis ulcerosa og </p>
+</li>
+<li>
+<p>ikke-infektiøs uveitis. </p>
+</li>
+</ul>
+<p>Det aktive stof i Hefiya, adalimumab, er et monoklonalt antistof. Monoklonale antistoffer er proteiner, 
+som binder til et bestemt mål i kroppen. </p>
+<p>Målet for adalimumab er et andet protein kaldet tumornekrosefaktor (TNFα) som er involveret i 
+immun (forsvars) systemet og er til stede i øgede mængder ved de inflammatoriske sygdomme nævnt 
+ovenfor. Ved at binde sig til TNFα blokerer Hefiya dets virkning og reducerer den inflammatoriske 
+proces ved disse sygdomme. </p>
+<p>Reumatoid artrit </p>
+<p>Reumatoid artrit er en betændelsessygdom i leddene. </p>
+<p>Hefiya bruges til at behandle reumatoid artrit hos voksne. Hvis du har moderat til alvorlig aktiv 
+reumatoid artrit, vil du evt. først få andre sygdomsmodificerende antireumatiske lægemidler, såsom 
+methotrexat. Hvis du ikke responderer tilstrækkeligt på disse lægemidler, kan du få Hefiya til 
+behandling af din reumatoide artrit. </p>
+<p>Hefiya kan også anvendes til behandling af alvorlig aktiv og progressiv reumatoid artrit, der ikke 
+tidligere er behandlet med methotrexat. </p>
+<p>Hefiya har vist sig at kunne nedsætte hastigheden for ødelæggelse af brusk og knogler i leddene 
+forårsaget af sygdommen og at kunne forbedre de fysiske funktioner. </p>
+<p>Normalt gives Hefiya sammen med methotrexat. Hvis din læge ikke mener, at behandling med 
+methotrexat er hensigtsmæssig, kan Hefiya anvendes alene. </p>
+<p>Polyartikulær juvenil idiopatisk artrit og entesopatirelateret artrit </p>
+<p>Polyartikulær juvenil idiopatisk artrit og entesopatirelateret artrit er sygdomme med 
+betændelseslignende (inflammatoriske) reaktioner i leddene, som oftest viser sig første gang i 
+barndommen. </p>
+<p>Hefiya bruges til at behandle polyartikulær juvenil idiopatisk artrit hos børn og unge i alderen 
+fra 2 til 17 år og entesopatirelateret artrit hos og unge børn i alderen 6-17 år. Patienter skal først 
+behandles med anden sygdomsdæmpende lægemidler såsom methotrexat. Hvis disse lægemidler ikke 
+virker godt nok, vil patienterne få Hefiya til behandling af deres polyartikulær juvenil idiopatisk artrit 
+eller entesopatirelateret artrit. </p>
+<p>Ankyloserende spondylitis og aksial spondyloartritis uden radiografiske tegn på ankyloserende 
+spondylitis </p>
+<p>Ankyloserende spondylitis og aksial spondyloartritis uden radiografiske tegn på ankyloserende 
+spondylitis er en inflammatorisk (betændelseslignende) sygdom i rygsøjlen. </p>
+<p>Hefiya bruges til at behandle disse sygdomme hos voksne. Hvis du har ankyloserende spondylitis eller 
+aksial spondyloartritis uden radiografiske tegn på ankyloserende spondylitis, vil du først få andre 
+lægemidler. Hvis disse andre lægemidler ikke virker godt nok, kan du få Hefiya for at mindske 
+symptomerne på din sygdom. </p>
+<p>Plaque-psoriasis hos voksne og børn </p>
+<p>Plaque-psoriasis er en inflammatorisk hudlidelse, som forårsager røde, skællende, skorpede pletter på 
+huden dækket med sølvfarvede skæl. Plaque-psoriasis kan også påvirke neglene. Det får dem til at 
+smuldre, blive fortykkede og løfte sig fra neglelejet, hvilket kan være smertefuldt. Psoriasis formodes 
+at være forårsaget af et problem med kroppens immunsystem, som fører til øget produktion af 
+hudceller. </p>
+<p>Hefiya bruges også til at behandle moderat til alvorlig plaque-psoriasis hos voksne. Hefiya bruges 
+også til at behandle alvorlig plaque-psoriasis hos børn og unge i alderen 4 til 17 år, hos hvem 
+lægemidler påført huden og lysbehandlinger enten ikke har virket godt nok eller ikke er egnet. </p>
+<p>Psoriasisartrit </p>
+<p>Psoriasisartrit er en betændelsessygdom i leddene, som er forbundet med psoriasis. </p>
+<p>Hefiya bruges til at behandle psoriasisartrit hos voksne. Hefiya kan nedsætte hastigheden for 
+ødelæggelse af brusk og knogler i leddene forårsaget af sygdommen og kan forbedre den fysiske 
+funktion. </p>
+<p>Hidrosadenitis suppurativa hos voksne og unge </p>
+<p>Hidrosadenitis suppurativa (kaldes somme tider svedkirtelbetændelse) er en langvarig, ofte smertefuld 
+betændelseslignende (inflammatorisk) hudsygdom. Symptomerne kan være ømme knuder i huden 
+(noduli) og abscesser (bylder), som kan udtømme pus.<br />
+Sygdommen påvirker oftest bestemte områder af huden, såsom under brystet, i armhulerne, på 
+inderlårene, i lyskeområdet og på balderne. Der kan også forekomme ar i de berørte områder. </p>
+<p>Hefiya bruges til at behandle hidrosadenitis suppurativa hos voksne og unge fra 12 år. Hefiya kan 
+nedsætte antallet af knuder og bylder og lindre den smerte, som ofte er forbundet med sygdommen. Du 
+kan blive tilbudt andre lægemidler først. Hvis disse andre lægemidler ikke virker godt nok, vil du blive 
+tilbudt Hefiya. </p>
+<p>Crohns sygdom hos voksne og børn </p>
+<p>Crohns sygdom er en inflammatorisk sygdom i tarmen. </p>
+<p>Hefiya bruges til at behandle Crohns sygdom hos voksne og børn i alderen 6-17 år. Hvis du har 
+Crohns sygdom, vil du først få andre lægemidler. Hvis du ikke har tilstrækkelig effekt af disse 
+lægemidler, vil du blive tilbudt Hefiya for at mindske sygdomstegn og symptomer på din Crohns 
+sygdom. </p>
+<p>Colitis ulcerosa hos voksne og børn </p>
+<p>Colitis ulcerosa er en inflammatorisk (betændelseslignende) sygdom i tyktarmen. </p>
+<p>Hefiya bruges til at behandle moderat til alvorlig colitis ulcerosa hos voksne og børn i alderen 6 til 
+17 år. Hvis du har colitis ulcerosa, vil du måske først få andre lægemidler. Hvis disse andre 
+lægemidler ikke virker godt nok, kan du få Hefiya for at mindske symptomerne på din sygdom. </p>
+<p>Ikke-infektiøs uveitis hos voksne og børn </p>
+<p>Ikke-infektiøs uveitis er en betændelseslignende (inflammatorisk) sygdom, som påvirker bestemte dele 
+af øjet. Inflammationen kan føre til nedsat syn og/eller fluer i øjet (sorte pletter eller sværm af 
+uklarheder i øjet, som bevæger sig i synsfeltet). Hefiya virker ved at reducere denne inflammation. </p>
+<p>Hefiya bruges til at behandle </p>
+<ul>
+<li>
+<p>voksne med ikke-infektiøs uveitis (regnbuehindebetændelse), som påvirker den bagerste del af 
+øjet. </p>
+</li>
+<li>
+<p>børn fra 2 år med kronisk ikke-infektiøs uveitis med inflammation, som påvirker forreste del af 
+øjet. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take hefiya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take hefiya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Hefiya </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for adalimumab eller et af de øvrige indholdsstoffer i Hefiya (angivet i 
+punkt 6). </p>
+</li>
+<li>
+<p>hvis du har en alvorlig infektion, herunder tuberkulose, sepsis (blodforgiftning) eller andre 
+opportunistiske infektioner (usædvanlige infektioner, som er forbundet med et svækket 
+immunforsvar). Det er vigtigt, at du informerer lægen, hvis du har symptomer på infektioner, 
+f.eks. feber, sår, træthedsfornemmelse, tandproblemer (se ”Advarsler og forsigtighedsregler”). </p>
+</li>
+<li>
+<p>hvis du lider af moderat eller alvorlig hjertesvigt. Det er vigtigt at informere lægen, hvis du har 
+eller har haft en alvorlig hjertesygdom (se ”Advarsler og forsigtighedsregler”). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet før anvendelse af Hefiya. </p>
+<p>Allergiske reaktioner </p>
+<ul>
+<li>Hvis du får allergiske reaktioner med symptomer som trykken for brystet, hvæsende 
+vejrtrækning, svimmelhed, hævelser eller udslæt, så undlad at injicere mere Hefiya, og kontakt 
+straks lægen, da disse reaktioner i sjældne tilfælde kan være livstruende. </li>
+</ul>
+<p>Infektioner </p>
+<ul>
+<li>
+<p>Hvis du har en infektion, herunder langvarig eller lokaliseret infektion (f.eks. bensår), bør du 
+kontakte din læge, før du begynder at bruge Hefiya. Kontakt lægen, hvis du er i tvivl. </p>
+</li>
+<li>
+<p>Infektioner kan opstå lettere under behandling med Hefiya. Risikoen kan stige, hvis din 
+lungefunktion er nedsat. Disse infektioner kan være alvorlige og inkluderer tuberkulose, 
+infektioner forårsaget af virus, svampe, parasitter eller bakterier eller andre usædvanlige 
+infektionsorganismer og sepsis (blodforgiftning).  </p>
+</li>
+<li>
+<p>I sjældne tilfælde kan disse infektioner være livstruende. Det er vigtigt at informere lægen, hvis 
+du får symptomer som feber, sår, træthedsfornemmelse eller tandproblemer. Din læge kan 
+anbefale midlertidig afbrydelse af behandling med Hefiya. </p>
+</li>
+</ul>
+<p>Tuberkulose </p>
+<ul>
+<li>Eftersom der har været rapporteret tilfælde af tuberkulose hos patienter i behandling med 
+adalimumab, vil lægen undersøge dig for tegn og symptomer på tuberkulose, før behandling 
+med Hefiya påbegyndes. Dette vil omfatte en omhyggelig gennemgang af din sygdomshistorie 
+og screeningstests (f.eks. røntgenundersøgelse af lunger og en tuberkulintest). Disse 
+undersøgelser og resultaterne heraf bør registreres på dit patientkort. Det er meget vigtigt at 
+informere lægen, hvis du nogensinde selv har haft tuberkulose, eller hvis du har været i tæt 
+kontakt med nogen, som har haft tuberkulose. Tuberkulose kan udvikles under behandlingen, 
+også selv om du har fået forebyggende behandling mod tuberkulose. Hvis der viser sig 
+symptomer på tuberkulose (vedvarende hoste, vægttab, sløvhed, let feber) eller anden form for 
+infektion under eller efter behandlingen, bør lægen straks informeres. </li>
+</ul>
+<p>Rejse/gentagne infektioner </p>
+<ul>
+<li>
+<p>Fortæl din læge, hvis du har haft fast bopæl eller rejst i områder, hvor svampeinfektioner som 
+histoplasmose, kokcidioidomyse eller blastomykose er almindelige. </p>
+</li>
+<li>
+<p>Fortæl din læge, hvis du har en sygdomshistorie med gentagne infektioner eller andre tilfælde, 
+der forøger risikoen for infektioner. </p>
+</li>
+</ul>
+<p>Hepatitis B-virus </p>
+<ul>
+<li>Fortæl din læge, hvis du er bærer af hepatitis B-virus (HBV), hvis du har aktiv HBV-infektion 
+eller, hvis du tror, du kan have risiko for at få HBV. Lægen vil teste dig for HBV. Adalimumab 
+kan reaktivere HBV-infektion hos mennesker, der bærer denne virus. I sjældne tilfælde, specielt 
+hvis du tager andre lægemidler, der undertrykker immunsystemet, kan reaktivering af 
+HBV-infektion blive livstruende. </li>
+</ul>
+<p>Over 65 år  </p>
+<ul>
+<li>Hvis du er over 65 år, kan du være mere modtagelig for infektioner, mens du bruger Hefiya. Du 
+og din læge bør være særligt opmærksomme på tegn på infektion mens du er i behandling med 
+Hefiya. Det er vigtigt, at du fortæller lægen, hvis du får symptomer på infektion såsom feber, 
+sår, træthedsfornemmelse eller problemer med tænderne. </li>
+</ul>
+<p>Operation eller tandbehandling </p>
+<ul>
+<li>Hvis du skal opereres eller have tandbehandling, skal du fortælle din læge, at du bruger Hefiya. 
+Din læge kan anbefale midlertidig afbrydelse af Hefiya. </li>
+</ul>
+<p>Demyeliniserende sygdom </p>
+<ul>
+<li>Hvis du har eller udvikler demyeliniserende sygdom (en sygdom, der påvirker det isolerende lag 
+rundt om nerverne som dissemineret sklerose) vil din læge afgøre, om du skal have eller 
+fortsætte med at få Hefiya. Fortæl straks din læge, hvis du får ændringer i dit syn, svaghed i 
+arme eller ben eller følelsesløshed eller en snurrende fornemmelse et sted i kroppen. </li>
+</ul>
+<p>Vacciner </p>
+<ul>
+<li>Visse vacciner indeholder levende men svage former for sygdomsfremkaldende bakterier eller 
+vira og infektioner og bør ikke gives under Hefiya-behandling i tilfælde af, at de giver 
+infektioner. Tal venligst med lægen, før du får nogen form for vaccine. Det anbefales, at børn så 
+vidt som muligt får alle vaccinationer i overensstemmelse med gældende retningslinjer for deres 
+alder, før behandlingen med Hefiya indledes. Hvis du har fået Hefiya, mens du var gravid, kan 
+dit spædbarn have en højere risiko for at få en infektion i op til ca. fem måneder efter din sidste 
+dosis under graviditeten. Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner, 
+at du fik Hefiya under graviditeten, så de kan beslutte, hvornår dit spædbarn bør vaccineres. </li>
+</ul>
+<p>Hjertesvigt </p>
+<ul>
+<li>Det er vigtigt at informere lægen, hvis du har eller har haft en alvorlig hjertesygdom. Hvis du 
+har lettere hjertesvigt og bliver behandlet med Hefiya, skal status for dit hjertesvigt følges nøje 
+af din læge. Hvis du udvikler nye eller får forværrede symptomer på hjertesvigt (f.eks. 
+stakåndethed eller hævede fødder), skal du kontakte din læge øjeblikkeligt. </li>
+</ul>
+<p>Feber, blå mærker, blødning eller bleghed </p>
+<ul>
+<li>Hos nogle patienter vil kroppen ikke producere tilstrækkeligt af de blodlegemer, som hjælper 
+kroppen med at bekæmpe infektioner eller hjælper med at stoppe blødninger. Hvis du får feber, 
+som ikke vil forsvinde, blå mærker eller bløder meget let eller er meget bleg, skal du omgående 
+henvende dig til din læge. Din læge kan eventuelt beslutte at afbryde behandlingen. </li>
+</ul>
+<p>Kræft </p>
+<ul>
+<li>
+<p>Der er set meget sjældne tilfælde af visse kræfttyper hos patienter, som brugeradalimumab eller 
+andre TNFα-hæmmere. Patienter med mere alvorlig reumatoid artrit, som har haft sygdommen i 
+lang tid, kan have øget risiko i forhold til gennemsnittet for at få lymfomer og leukæmi 
+(kræfttyper, som påvirker blodlegemer og knoglemarv). Når du bruger Hefiya, kan risikoen for 
+at få et lymfom, leukæmi eller andre former for kræft øges. I sjældne tilfælde er der set en 
+alvorlig type af lymfom hos patienter, som tog adalimumab. Nogle af disse patienter blev også 
+behandlet med lægemidlerne azathioprin eller mercaptopurin. Fortæl din læge, hvis du får 
+lægemidlerne azathioprin eller mercaptopurin sammen med Hefiya.  </p>
+</li>
+<li>
+<p>Derudover er der set tilfælde af ikke-melanom hudkræft hos patienter, der brugeradalimumab. 
+Hvis der kommer nye områder med beskadiget hud under eller efter behandlingen, eller hvis de 
+nuværende beskadigede områder forandrer sig, skal du fortælle det til din læge. </p>
+</li>
+<li>
+<p>Der har været tilfælde af kræft, der er forskellig fra lymfom hos patienter med en specifik 
+lungesygdom kaldet kronisk obstruktiv lungesygdom (KOL), der var i behandling med en anden 
+TNFα-hæmmer. Hvis du har KOL, eller ryger meget, bør du diskutere med din læge, om 
+behandling med en TNFα-hæmmer er passende for dig. </p>
+</li>
+</ul>
+<p>Autoimmune sygdomme </p>
+<ul>
+<li>I sjældne tilfælde kan behandling med Hefiya resultere i lupus-lignende syndrom. Fortæl din 
+læge hvis der opstår symptomer såsom vedvarende uforklarligt udslæt, feber, ledsmerter eller 
+træthed. </li>
+</ul>
+<p>Børn og unge </p>
+<ul>
+<li>
+<p>Giv ikke Hefiya til børn under 2 år med polyartikulær juvenil idiopatisk artrit. </p>
+</li>
+<li>
+<p>Giv ikke Hefiya til børn under 4 år med pædiatrisk plaque-psoriasis eller pædiatrisk colitis 
+ulcerosa </p>
+</li>
+<li>
+<p>Giv ikke Hefiya til børn under 6 år med pædiatrisk Crohns sygdom  </p>
+</li>
+<li>
+<p>Brug ikke 40 mg fyldt pen, hvis det anbefales at bruge andre doser end 40 mg </p>
+</li>
+</ul>
+<p>Brug af andre lægemidler sammen med Hefiya </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Hefiya kan anvendes sammen med methotrexat eller visse sygdomsmodificerende antireumatiske 
+lægemidler (sulfasalazin, hydroxychloroquin, leflunomid og guldpræparater til injektion), 
+kortikosteroider eller smertemedicin, herunder non-steroide anti-inflammatoriske lægemidler 
+(NSAID’er). </p>
+<p>På grund af øget risiko for alvorlig infektion, må du ikke bruge Hefiya sammen med lægemidler, der 
+indeholder de aktive stoffer anakinra eller abatacept. Det anbefales ikke at kombinere adalimumab 
+såvel som andre TNF-antagonister og anakira eller abatacept, grundet den mulige øgede risiko for 
+infektion som for eksempel alvorlige infektioner og andre mulige farmakologiske interaktioner 
+(lægemidlers påvirkning på hinanden). Hvis du har spørgsmål, skal du tale med din læge. </p>
+<p>Graviditet og amning </p>
+<ul>
+<li>
+<p>Du bør overveje brugen af passende prævention for at forhindre graviditet og fortsætte brugen 
+mindst 5 måneder efter den sidste behandling med Hefiya. </p>
+</li>
+<li>
+<p>Hvis du er gravid, har mistanke, om at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du bruger dette lægemiddel. </p>
+</li>
+<li>
+<p>Hefiya bør kun anvendes under graviditet, hvis det er tydeligvis er nødvendigt. </p>
+</li>
+<li>
+<p>Der var ifølge et graviditetsstudie ikke højere risiko for misdannelser, når moderen havde fået 
+adalimumab under graviditeten, ved sammenligning med mødre med samme sygdom, som ikke 
+havde fået adalimumab. </p>
+</li>
+<li>
+<p>Hefiya kan anvendes under amning. </p>
+</li>
+<li>
+<p>Hvis du får Hefiya, mens du er gravid, kan dit spædbarn have en højere risiko for at få en 
+infektion.  </p>
+</li>
+<li>
+<p>Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner om din brug af Hefiya 
+under graviditeten, før dit barn får nogen vaccinationer. For mere information om vacciner, se 
+afsnittet ”Advarsler og forsigtighedsregler”. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Hefiya kan i mindre grad påvirke din evne til at færdes i trafikken, cykle eller betjene maskiner. Du 
+kan få synsforstyrrelser og en fornemmelse af, at rummet drejer rundt (svimmelhed), efter du har brugt 
+Hefiya. </p>
+<p>Hefiya indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 0,8 ml dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take hefiya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take hefiya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtig efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.  </p>
+<p>Hefiya fås som en 40 mg pen samt som 20 mg og 40 mg fyldte injektionssprøjter, så patienter kan 
+administrere en fuld dosis på 20 mg eller 40 mg  </p>
+<p>Reumatoid artrit, psoriasisartrit, ankyloserende spondylitis eller aksial spondyloartritis uden 
+radiografiske tegn på ankyloserende spondylitis 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Voksne 
+40 mg hver anden uge som en 
+enkelt dosis 
+Ved reumatoid artrit fortsættes 
+methotrexat mens Hefiya 
+bruges. Hvis din læge beslutter, 
+at methotrexat ikke er passende, 
+kan Hefiya gives alene. </p>
+<p>Hvis du har reumatoid artrit, og 
+du ikke får methotrexat 
+sammen med din 
+Hefiya-behandling, kan lægen 
+beslutte at give dig 40 mg 
+Hefiya hver uge eller 80 mg 
+hver anden uge. </p>
+<p>Polyartikulær juvenil idiopatisk artrit 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Børn, unge og voksne fra 2 år, 
+som vejer 30 kg eller mere 
+40 mg hver anden uge 
+Ikke relevant 
+Børn og unge fra 2 år, som 
+vejer 10 kg til under 30 kg 
+20 mg hver anden uge 
+Ikke relevant </p>
+<p>Entesopatirelateret artrit 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Børn, unge og voksne fra 6 år, 
+som vejer 30 kg eller mere 
+40 mg hver anden uge 
+Ikke relevant 
+Børn og unge fra 6 år, som 
+vejer 15 kg til under 30 kg 
+20 mg hver anden uge 
+Ikke relevant </p>
+<p>Psoriasis 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Voksne 
+Første dosis er 80 mg (som to 
+40 mg injektioner på én dag), 
+efterfulgt af 40 mg givet hver 
+anden uge med begyndelse én 
+uge efter den første dosis.  </p>
+<p>Du skal fortsætte med at 
+injicere Hefiya så længe, som 
+din læge har fortalt dig. Hvis 
+denne dosis ikke virker godt 
+nok, kan din læge øge dosis til 
+40 mg hver uge eller 80 mg 
+hver anden uge. </p>
+<p>Plaque-psoriasis 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Børn og unge fra 4 til 17 år, 
+som vejer 30 kg eller mere 
+Første dosis er 40 mg, 
+efterfulgt af 40 mg én uge 
+senere.  </p>
+<p>Derefter er den sædvanlige 
+dosis 40 mg hver anden uge. 
+Ikke relevant 
+Børn og unge fra 4 til 17 år, 
+som vejer 15 kg til under 30 kg 
+Første dosis er 20 mg, 
+efterfulgt af 20 mg én uge 
+senere. </p>
+<p>Derefter er den sædvanlige 
+dosis 20 mg hver anden uge. 
+Ikke relevant </p>
+<p>Hidradenitis suppurativa 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Voksne<br />
+Første dosis er 160 mg (som 
+fire 40 mg injektioner på én 
+dag eller to 40 mg injektioner 
+pr. dag i to fortløbende dage), 
+efterfulgt af en 80 mg dosis 
+(som to 40 mg injektioner på 
+samme dag) to uger senere.  </p>
+<p>Efter yderligere to uger 
+fortsættes med en dosis på 
+40 mg hver uge eller 80 mg 
+hver anden uge som ordineret 
+af din læge. 
+Det anbefales, at du dagligt 
+bruger et antiseptisk 
+vaskemiddel på de berørte 
+områder. 
+Unge fra 12 til 17 år, der vejer 
+30 kg eller mere 
+Første dosis er 80 mg (som to 
+40 mg injektioner på én dag), 
+efterfulgt af 40 mg hver anden 
+uge med begyndelse én uge 
+senere. 
+Hvis denne dosis ikke virker 
+godt nok, kan din læge øge 
+dosis til 40 mg hver uge eller 
+80 mg hver anden uge. </p>
+<p>Det anbefales, at du dagligt 
+bruger et antiseptisk 
+vaskemiddel på de berørte 
+områder. </p>
+<p>Crohns sygdom 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Voksne 
+Første dosis er 80 mg (som to 
+40 mg injektioner på én dag), 
+efterfulgt af 40 mg hver anden 
+uge med begyndelse to uger 
+senere.  </p>
+<p>Hvis der er brug for et 
+hurtigere respons, kan lægen 
+ordinere en første dosis på 
+160 mg (som fire 40 mg 
+injektioner på én dag eller to 
+40 mg injektioner pr. dag i to 
+fortløbende dage), efterfulgt af 
+80 mg (som to 40 mg 
+injektioner på én dag) to uger 
+senere. </p>
+<p>Derefter er den sædvanlige 
+dosis 40 mg hver anden uge. 
+Hvis denne dosis ikke virker 
+godt nok, kan din læge øge 
+dosis til 40 mg hver uge eller 
+80 mg hver anden uge. </p>
+<p>Crohns sygdom hos børn 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Børn og unge fra 6 til 17 år, 
+som vejer 40 kg eller mere 
+Første dosis er 80 mg (som to 
+40 mg injektioner på én dag), 
+efterfulgt af 40 mg hver anden 
+uge med begyndelse to uger 
+senere.  </p>
+<p>Hvis der er brug for et 
+hurtigere respons, kan lægen 
+ordinere en første dosis på 
+160 mg (som fire 40 mg 
+injektioner på én dag eller to 
+40 mg injektioner pr. dag i to 
+fortløbende dage), efterfulgt af 
+80 mg (som to 40 mg 
+injektioner på én dag) to uger 
+senere. </p>
+<p>Derefter er den sædvanlige 
+dosis 40 mg hver anden uge. 
+Hvis denne dosis ikke virker 
+godt nok, kan dit barns læge 
+øge dosis til 40 mg hver uge 
+eller 80 mg hver anden uge. 
+Børn og unge fra 6 til 17 år, 
+som vejer under 40 kg 
+Første dosis er 40 mg, 
+efterfulgt af 20 mg hver anden 
+uge med begyndelse to uger 
+senere.  </p>
+<p>Hvis der er brug for et 
+hurtigere respons, kan lægen 
+ordinere en første dosis på 
+80 mg (som to 40 mg 
+injektioner på én dag), 
+efterfulgt af 40 mg to uger 
+senere. </p>
+<p>Derefter er den sædvanlige 
+dosis 20 mg hver anden uge. 
+Hvis denne dosis ikke virker 
+godt nok, kan dit barns læge 
+øge hyppigheden af dosis til 
+20 mg hver uge. </p>
+<p>Colitis ulcerosa 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Voksne 
+Første dosis er 160 mg (som 
+fire 40 mg injektioner på én 
+dag eller som to 40 mg 
+injektioner pr. dag i to 
+fortløbende dage), efterfulgt af 
+80 mg (som to 40 mg 
+injektioner på én dag) to uger 
+senere. </p>
+<p>Derefter er den sædvanlige 
+dosis 40 mg hver anden uge. 
+Hvis denne dosis ikke virker 
+godt nok, kan din læge øge 
+dosis til 40 mg hver uge eller 
+80 mg hver anden uge. </p>
+<p>Pædiatrisk colitis ulcerosa 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Børn og unge fra 6 år, som 
+vejer 40 kg eller mere 
+Første dosis er 160 mg (som 
+fire 40 mg injektioner på én 
+dag eller som to 40 mg 
+injektioner pr. dag i to 
+fortløbende dage), efterfulgt af 
+80 mg (som to 40 mg 
+injektioner på én dag) to uger 
+senere. </p>
+<p>Derefter er den sædvanlige 
+dosis 80 mg hver anden uge 
+(som to 40 mg injektioner på 
+én dag). 
+Patienter, der fylder 18 år, 
+mens de får 80 mg hver anden 
+uge, skal fortsætte med deres 
+ordinerede dosis. 
+Børn og unge fra 6 år, som 
+vejer under 40 kg 
+Første dosis er 80 mg (som to 
+40 mg injektioner på én dag), 
+efterfulgt af 40 mg (som én 
+40 mg injektion) to uger 
+senere. </p>
+<p>Derefter er den sædvanlige 
+dosis 40 mg hver anden uge. 
+Patienter, der fylder 18 år, 
+mens de får 40 mg hver anden 
+uge, skal fortsætte med deres 
+ordinerede dosis. </p>
+<p>Ikke-infektiøs uveitis 
+Alder og kropsvægt 
+Hvor meget og hvor ofte skal 
+det tages? 
+Bemærkninger 
+Voksne 
+Første dosis er 80 mg (som to 
+40 mg injektioner), efterfulgt af 
+40 mg hver anden uge med 
+begyndelse én uge efter den 
+første dosis. 
+Ved ikke-infektiøs uveitis kan 
+behandling med 
+kortikosteroider eller andre 
+lægemidler, der påvirker 
+immunsystemet, fortsættes 
+under behandling med Hefiya. 
+Hefiya kan også gives alene. </p>
+<p>Du skal fortsætte med at 
+injicere Hefiya så længe, som 
+din læge har fortalt dig. 
+Børn og unge fra 2 år, som 
+vejer 30 kg eller mere 
+40 mg hver anden uge sammen 
+med methotrexat 
+Lægen kan også ordinere en 
+første dosis på 80 mg, som kan 
+gives én uge før start af den 
+sædvanlige dosis. 
+Børn og unge fra 2 år, som 
+vejer under 30 kg 
+20 mg hver anden uge sammen 
+med methotrexat 
+Lægen kan også ordinere en 
+første dosis på 40 mg, som kan 
+gives én uge før start af den 
+sædvanlige dosis. </p>
+<p>Metode og indgivelsesvej </p>
+<p>Hefiya indgives ved injektion under huden (subkutan injektion). </p>
+<p>Detaljeret vejledning om, hvordan Hefiya injiceres, gives i punkt 7 ”Brugsvejledning”. </p>
+<p>Hvis du har brugt for meget Hefiya </p>
+<p>Hvis du ved en fejltagelse injicerer Hefiya hyppigere end forskrevet, skal du kontakte lægen eller 
+apotekspersonalet og forklare, at du har brugt mere lægemiddel end nødvendigt. Tag altid lægemidlets 
+ydre karton med, også selvom den er tom. </p>
+<p>Hvis du har glemt at bruge Hefiya </p>
+<p>Hvis du glemmer at give dig selv en injektion, skal du injicere den næste dosis af Hefiya, så snart du 
+kommer i tanke om det. Fortsæt dernæst med at injicere næste dosis som planlagt på den oprindeligt 
+fastlagte dag, som om du ikke havde glemt en dosis. </p>
+<p>Hvis du holder op med at bruge Hefiya </p>
+<p>Beslutningen om at stoppe med at bruge Hefiya skal diskuteres med din læge. Dine symptomer kan 
+komme igen efter ophør af behandlingen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger er af let til moderat grad. Der kan dog forekomme mere alvorlige bivirkninger, som 
+kræver behandling. Bivirkninger kan forekomme op til 4 måneder eller mere efter den sidste 
+Hefiya-injektion. </p>
+<p>Søg straks lægehjælp, hvis du bemærker følgende tegn på en allergisk reaktion eller hjertesvigt: </p>
+<ul>
+<li>
+<p>alvorligt udslæt eller nældefeber </p>
+</li>
+<li>
+<p>hævelser i ansigt, hænder eller fødder </p>
+</li>
+<li>
+<p>besvær med at trække vejret eller synke </p>
+</li>
+<li>
+<p>stakåndethed ved fysisk anstrengelse eller når du ligger ned, eller hævede fødder. </p>
+</li>
+</ul>
+<p>Kontakt lægen så hurtigt som muligt, hvis du bemærker et eller flere af følgende symptomer: </p>
+<ul>
+<li>
+<p>tegn og symptomer på infektion, såsom feber, følelse af sygdom, sår, tandproblemer eller 
+smerter ved vandladning, følelse af svaghed eller træthed eller hoste; </p>
+</li>
+<li>
+<p>symptomer på nerveproblemer som snurren og prikken, følelsesløshed, dobbeltsyn eller svaghed 
+i arme og ben; </p>
+</li>
+<li>
+<p>tegn på hudkræft som en bule eller åbent sår, som ikke vil hele </p>
+</li>
+<li>
+<p>tegn og symptomer, som kan tyde på blodsygdomme såsom vedvarende feber, blå mærker, 
+blødning, bleghed. </p>
+</li>
+</ul>
+<p>Følgende bivirkninger er observeret ved brug af adalimumab:  </p>
+<p>Meget almindelige (kan påvirke flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>reaktioner ved injektionsstedet (herunder smerter, hævelse, rødme eller kløe) </p>
+</li>
+<li>
+<p>luftvejsinfektioner (inklusive forkølelse, løbende næse, bihulebetændelse, lungebetændelse) </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>kvalme og opkastning </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>muskelsmerter. </p>
+</li>
+</ul>
+<p>Almindelige (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>alvorlige infektioner (inklusive blodforgiftning og influenza) </p>
+</li>
+<li>
+<p>tarminfektioner (inklusive betændelse i mave og tarm) </p>
+</li>
+<li>
+<p>hudinfektioner (inklusive bindevævsbetændelse og helvedessild) </p>
+</li>
+<li>
+<p>øreinfektioner </p>
+</li>
+<li>
+<p>infektioner i munden (inklusive tandinfektioner og forkølelsessår) </p>
+</li>
+<li>
+<p>infektioner i kønsvejene </p>
+</li>
+<li>
+<p>urinvejsinfektion </p>
+</li>
+<li>
+<p>svampeinfektioner </p>
+</li>
+<li>
+<p>ledinfektioner </p>
+</li>
+<li>
+<p>godartede svulster </p>
+</li>
+<li>
+<p>hudkræft </p>
+</li>
+<li>
+<p>allergiske reaktioner (inklusive sæsonbestemt allergi) </p>
+</li>
+<li>
+<p>dehydrering (væskemangel) </p>
+</li>
+<li>
+<p>humørsvingninger (inklusive depression) </p>
+</li>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>søvnbesvær </p>
+</li>
+<li>
+<p>følelsesforstyrrelser såsom snurren, prikken eller følelsesløshed </p>
+</li>
+<li>
+<p>migræne </p>
+</li>
+<li>
+<p>symptomer på nerverodskompression (inklusive smerter i den nederste del af ryggen og 
+bensmerter) </p>
+</li>
+<li>
+<p>synsforstyrrelser </p>
+</li>
+<li>
+<p>betændelse i øjet </p>
+</li>
+<li>
+<p>betændelse i øjenlåget og hævede øjne </p>
+</li>
+<li>
+<p>vertigo (fornemmelse af at snurre rundt) </p>
+</li>
+<li>
+<p>fornemmelse af hurtige hjerteslag </p>
+</li>
+<li>
+<p>højt blodtryk </p>
+</li>
+<li>
+<p>rødme </p>
+</li>
+<li>
+<p>blodansamling </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>astma </p>
+</li>
+<li>
+<p>kortåndethed </p>
+</li>
+<li>
+<p>blødning i mave-tarm-kanalen </p>
+</li>
+<li>
+<p>sure opstød (fordøjelsesbesvær, oppustethed, halsbrand) </p>
+</li>
+<li>
+<p>syrereflukssygdom </p>
+</li>
+<li>
+<p>Sjøgrens syndrom (inklusive tørre øjne og tør mund) </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>kløende udslæt </p>
+</li>
+<li>
+<p>blå mærker </p>
+</li>
+<li>
+<p>inflammation i huden (såsom eksem) </p>
+</li>
+<li>
+<p>fingernegle og tånegle knækker </p>
+</li>
+<li>
+<p>øget svedtendens </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>nye udbrud eller forværring af psoriasis </p>
+</li>
+<li>
+<p>muskelspasmer </p>
+</li>
+<li>
+<p>blod i urinen </p>
+</li>
+<li>
+<p>nyreproblemer </p>
+</li>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>ødem (væskeophobning i kroppen, som får det påvirkede væv til at hæve) </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>nedsat antal blodplader med forøget risiko for blødning eller blå mærker </p>
+</li>
+<li>
+<p>forringet sårheling. </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan påvirke op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>usædvanlige infektioner (som inkluderer tuberkulose og andre infektioner), som forekommer, 
+når modstandskraften mod sygdom er nedsat) </p>
+</li>
+<li>
+<p>neurologiske infektioner (inklusive viral meningitis) </p>
+</li>
+<li>
+<p>øjeninfektioner </p>
+</li>
+<li>
+<p>bakterieinfektioner </p>
+</li>
+<li>
+<p>irritation og infektion i tyktarmen (diverticulitis) </p>
+</li>
+<li>
+<p>kræft inklusive kræft, der rammer lymfesystemet (lymfom) og modermærkekræft </p>
+</li>
+<li>
+<p>sygdomme i immunsystemet, som kan påvirke lungerne, huden og lymfeknuderne (viser sig 
+oftest som en sygdom, der kaldes sarkoidose) </p>
+</li>
+<li>
+<p>vaskulitis (betændelse i blodkar) </p>
+</li>
+<li>
+<p>rysten </p>
+</li>
+<li>
+<p>neuropati (nerveskade) </p>
+</li>
+<li>
+<p>slagtilfælde </p>
+</li>
+<li>
+<p>dobbeltsyn </p>
+</li>
+<li>
+<p>høretab, summen for ørerne </p>
+</li>
+<li>
+<p>fornemmelse af uregelmæssige hjerteslag såsom oversprungne slag </p>
+</li>
+<li>
+<p>hjerteproblemer, som kan forårsage kortåndethed og hævede ankler </p>
+</li>
+<li>
+<p>hjertetilfælde </p>
+</li>
+<li>
+<p>sæklignende udposning på væggen af en større pulsåre (aneurisme), betændelse og blodprop i 
+en blodåre, tilstopning af et blodkar </p>
+</li>
+<li>
+<p>lungesygdom, som forårsager kortåndethed (inklusive inflammation) </p>
+</li>
+<li>
+<p>blodprop i lungerne (lungeemboli) </p>
+</li>
+<li>
+<p>unormal ophobning af væske mellem lungehinderne (pleuraeffusion) </p>
+</li>
+<li>
+<p>inflammation i bugspytkirtlen, som kan give alvorlige smerter i maven og ryggen </p>
+</li>
+<li>
+<p>synkebesvær </p>
+</li>
+<li>
+<p>hævelse i ansigtet </p>
+</li>
+<li>
+<p>inflammation i galdeblæren, galdesten </p>
+</li>
+<li>
+<p>fedtlever (ophobning af fedt i levercellerne) </p>
+</li>
+<li>
+<p>nattesved </p>
+</li>
+<li>
+<p>ar </p>
+</li>
+<li>
+<p>unormal muskelnedbrydning </p>
+</li>
+<li>
+<p>systemisk lupus erythematosus (en immunforstyrrelse, der indbefatter betændelse i huden, 
+hjertet, lungerne, leddene og andre organsystemer) </p>
+</li>
+<li>
+<p>søvnafbrydelser </p>
+</li>
+<li>
+<p>impotens </p>
+</li>
+<li>
+<p>inflammationer. </p>
+</li>
+</ul>
+<p>Sjældne (kan påvirke op til 1 ud af 1 000 personer) </p>
+<ul>
+<li>
+<p>leukæmi (kræft, som påvirker blod og knoglemarv) </p>
+</li>
+<li>
+<p>alvorlig allergisk reaktion med shock </p>
+</li>
+<li>
+<p>dissemineret sklerose </p>
+</li>
+<li>
+<p>nerveforstyrrelser (såsom inflammation (betændelse) i synsnerven og Guillain-Barré syndrom, 
+en sygdom, som kan forårsage muskelsvaghed, unormal følesans, prikken i arme og overkrop) </p>
+</li>
+<li>
+<p>hjertestop </p>
+</li>
+<li>
+<p>lungefibrose (dannelse af arvæv i lungerne) </p>
+</li>
+<li>
+<p>perforering af tarmen (hul i tarmvæggen) </p>
+</li>
+<li>
+<p>hepatit (leverbetændelse) </p>
+</li>
+<li>
+<p>genopblussen af hepatitis B-infektion </p>
+</li>
+<li>
+<p>autoimmun hepatit (leverbetændelse forårsaget af kroppens eget immunsystem) </p>
+</li>
+<li>
+<p>inflammation/betændelse i hudens blodkar (kutan vaskulitis) </p>
+</li>
+<li>
+<p>Stevens-Johnsons syndrom (livstruende reaktion med influenza-lignende symptomer og udslæt 
+med blærer) </p>
+</li>
+<li>
+<p>ødem (hævelse) i ansigtet forbundet med allergiske reaktioner </p>
+</li>
+<li>
+<p>betændelseslignende hududslæt (erythema multiforme) </p>
+</li>
+<li>
+<p>lupus-lignende syndrom </p>
+</li>
+<li>
+<p>angioødem (lokal hævelse af huden) </p>
+</li>
+<li>
+<p>lichenoid hudreaktion (kløende rødligt-lilla hududslæt). </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>hepatosplenisk T-cellelymfom (en sjælden form for blodkræft, som ofte er dødelig) </p>
+</li>
+<li>
+<p>Merkelcellekarcinom (en type hudkræft) </p>
+</li>
+<li>
+<p>Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant herpesvirus </p>
+</li>
+<li>
+<p>Kaposis sarkom forekommer oftest som lilla læsioner på huden </p>
+</li>
+<li>
+<p>leversvigt </p>
+</li>
+<li>
+<p>forværring af en tilstand, som kaldes dermatomyositis (ses som hududslæt ledsaget af 
+muskelsvaghed) </p>
+</li>
+<li>
+<p>vægtforøgelse (for de fleste patienters vedkommende var vægtforøgelsen lille). </p>
+</li>
+</ul>
+<p>Nogle bivirkninger, som er set med adalimumab har ikke symptomer og kan kun opdages ved 
+blodprøver. Disse inkluderer: </p>
+<p>Meget almindelige (kan påvirke flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>nedsat antal hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer </p>
+</li>
+<li>
+<p>forhøjede lipider i blodet </p>
+</li>
+<li>
+<p>forhøjede leverenzymer. </p>
+</li>
+</ul>
+<p>Almindelige (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>forhøjet antal hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat antal blodplader </p>
+</li>
+<li>
+<p>forhøjet urinsyre i blodet </p>
+</li>
+<li>
+<p>unormale blodmålinger af natrium </p>
+</li>
+<li>
+<p>lave blodmålinger af calcium </p>
+</li>
+<li>
+<p>lave blodmålinger af fosfat </p>
+</li>
+<li>
+<p>højt blodsukker </p>
+</li>
+<li>
+<p>høje blodmålinger af lactatdehydrogenase </p>
+</li>
+<li>
+<p>tilstedeværelse af autoantistoffer i blodet </p>
+</li>
+<li>
+<p>lavt kalium i blodet. </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan påvirke op til 1 ud af 100 personer): </p>
+<ul>
+<li>forhøjede bilirubinmålinger (leverblodtest) </li>
+</ul>
+<p>Sjældne (kan påvirke op til 1 ud af 1 000 personer): </p>
+<ul>
+<li>nedsat antal hvide blodlegemer, røde blodlegemer og blodplader. </li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen (se detaljer nedenfor). Ved at indrapportere 
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store hefiya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store hefiya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten/blisterpakningen/pakningen efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 – 8°C). Må ikke nedfryses.  </p>
+<p>Opbevar den fyldte pen i den ydre karton for at beskytte mod lys. </p>
+<p>Alternativ opbevaring: </p>
+<p>Hvis det er nødvendigt (f.eks. når du rejser), kan Hefiya opbevares ved stuetemperatur (op til 25°C) i 
+en periode på højst 21 dage – sørg for at beskytte det mod lys. Når din fyldte pen er taget ud af 
+køleskabet og opbevaret ved stuetemperatur, skal pennen bruges indenfor 21 dage eller kasseres, 
+også selv om den senere lægges tilbage i køleskabet. Du skal registrere den dato, hvor din fyldte pen 
+først tages ud af køleskabet, og den dato efter hvilken, den skal kasseres. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hefiya indeholder </p>
+<ul>
+<li>
+<p>Aktivt stof: adalimumab. Hver fyldt pen indeholder 40 mg adalimumab i 0,8 ml opløsning. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: adipinsyre, citronsyremonohydrat, natriumchlorid, mannitol (E 421), 
+polysorbat 80 (E 433), saltsyre (E 507), natriumhydroxid (E 524) og vand til injektionsvæsker 
+(se punkt 2 "Hefiya indeholder natrium"). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Hefiya 40 mg injektionsvæske, opløsning (injektion) i fyldt pen leveres som en 0,8 ml klar til lettere 
+opaliserende, farveløs eller let gullig injektionsvæske. </p>
+<p>Hefiya leveres i en fyldt engangssprøjte samlet til en trekantformet pen med transparent vindue og 
+etiket. Sprøjten inden i pennen er lavet af type I-glas med en 29 G kanyle i rustfrit stål og en indre 
+kanylehætte i gummi (termoplastisk elastomer) indeholdende 0,8 ml injektionsvæske. </p>
+<p>Pakningerne indeholder 1 og 2 fyldte penne med Hefiya. 
+Multipakninger indeholder 6 (3 pakninger a 2) fyldte penne med Hefiya. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. 
+Hefiya findes som en fyldt injektionssprøjte og en fyldt pen. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Sandoz GmbH 
+Biochemiestr. 6250 Kundl 
+Østrig </p>
+<p>Fremstiller </p>
+<p>Sandoz GmbH Schaftenau 
+Biochemiestr. 6336 Langkampfen 
+Østrig </p>
+<p>Novartis Pharmaceutical Manufacturing GmbH 
+Biochemiestrasse 6336 Langkampfen 
+Østrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen </p>
+<p>België/Belgique/Belgien 
+Sandoz nv/sa 
+Tél/Tel: +32 2 722 97<br />
+Lietuva 
+Sandoz Pharmaceuticals d.d filialas 
+Tel: +370 5 2636 България 
+Сандоз България КЧТ 
+Тел.: +359 2 970 47<br />
+Luxembourg/Luxemburg 
+Sandoz nv/sa 
+Tél/Tel.: +32 2 722 97<br />
+Česká republika 
+Sandoz s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Sandoz Hungária Kft. 
+Tel.: +36 1 430 2 
+Danmark/Norge/Ísland/Sverige 
+Sandoz A/S 
+Tlf: +45 63 95 10<br />
+Malta 
+Sandoz Pharmaceuticals d.d. 
+Tel: +356 99644Deutschland 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Nederland 
+Sandoz B.V. 
+Tel: +31 36 52 41<br />
+Eesti 
+Sandoz d.d. Eesti filiaal 
+Tel: +372 665 2 
+Österreich 
+Sandoz GmbH 
+Tel: +43 5338 2Ελλάδα 
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε. 
+Τηλ: +30 216 600 5 
+Polska 
+Sandoz Polska Sp. z o.o. 
+Tel.: +48 22 209 70<br />
+España 
+Sandoz Farmacéutica, S.A. 
+Tel: +34 900 456<br />
+Portugal 
+Sandoz Farmacêutica Lda. 
+Tel: +351 21 000 86<br />
+France 
+Sandoz SAS 
+Tél: +33 1 49 64 48<br />
+România 
+Terapia S.A. 
+Tel: +40 264 50 15<br />
+Hrvatska 
+Sandoz d.o.o. 
+Tel: +385 1 23 53 111  </p>
+<p>Slovenija 
+Sandoz farmacevtska družba d.d. 
+Tel: +386 1 580 29 Ireland 
+Rowex Ltd. 
+Tel: + 353 27 50 
+Slovenská republika 
+Sandoz d.d. - organizačná zložka 
+Tel: +421 2 50 70 6 
+Italia 
+Sandoz S.p.A. 
+Tel: +39 02 96 
+Suomi/Finland 
+Sandoz A/S 
+Puh/Tel: +358 10 6133<br />
+Κύπρος 
+Sandoz Pharmaceuticals d.d. 
+Τηλ: +357 22 69 0 
+United Kingdom (Northern Ireland) 
+Sandoz GmbH 
+Tel: +43 5338 2Latvija 
+Sandoz d.d. Latvia filiāle 
+Tel: +371 67 892  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<ol>
+<li>Brugsvejledning </li>
+</ol>
+<p>For at undgå infektioner og for at sikre, at du bruger lægemidlet korrekt, er det vigtigt, at du følger 
+denne vejledning.  </p>
+<p>Sørg for at læse, forstå og følge denne brugsvejledning, før du injicerer Hefiya. Din læge viser dig, 
+hvordan du skal forberede og injicere Hefiya korrekt med den fyldte pen, inden du bruger den for 
+første gang. Tal med din læge, hvis du har nogen spørgsmål. </p>
+<p>Din Hefiya fyldte pen til engangsbrug  </p>
+<p>Figur A: Delene i Hefiya pen  </p>
+<p>I Figur A er pennen vist med hætten fjernet. Fjern ikke hætten, før du er klar til at injicere.  </p>
+<p>Det er vigtigt, at du: </p>
+<ul>
+<li>
+<p>ikke åbner den ydre emballage, før du er klar til at bruge pennen </p>
+</li>
+<li>
+<p>ikke bruger pennen, hvis enten forseglingen på den ydre emballage eller 
+sikkerhedsforseglingen på pennen er itu. </p>
+</li>
+<li>
+<p>aldrig efterlader pennen uden opsyn, hvor andre kan komme i kontakt med den. </p>
+</li>
+<li>
+<p>hvis du taber pennen, så brug den ikke, hvis den ser ud til at være beskadiget, eller hvis du 
+tabte den, uden at hætten var på. </p>
+</li>
+<li>
+<p>injicer Hefiya 15-30 minutter efter, at du har taget det ud af køleskabet for at få en mere 
+behagelig injektion. </p>
+</li>
+<li>
+<p>smid den brugte pen bort, straks efter at du har brugt den. Brug ikke pennen igen. Se ”8. Bortskaffelse af brugte penne” i slutningen af denne brugsvejledning. </p>
+</li>
+</ul>
+<p>Sådan skal du opbevare din pen: </p>
+<ul>
+<li>
+<p>Opbevar din pen i pakningen i et køleskab, mellem 2 °C og 8 °C. </p>
+</li>
+<li>
+<p>Hvis det er nødvendigt (f.eks. når du rejser), kan Hefiya opbevares ved stuetemperatur (op 
+til 25 °C) i en periode på højst 21 dage – sørg for at beskytte den mod lys. Når pennen er taget 
+ud af køleskabet og har været opbevaret ved stuetemperatur, skal pennen bruges 
+indenfor 21 dage eller kasseres, også selv om den senere lægges tilbage i køleskabet. Du skal 
+registrere den dato, hvor pennen først tages ud af køleskabet, og den dato efter hvilken, den skal 
+kasseres. </p>
+</li>
+<li>
+<p>Opbevar din pen i den originale pakning, indtil du er klar til at bruge den, for at beskytte den 
+mod lys. </p>
+</li>
+<li>
+<p>Opbevar ikke din pen i ekstrem varme eller kulde. </p>
+</li>
+<li>
+<p>Din pen må ikke nedfryses.  </p>
+</li>
+</ul>
+<p>Hefiya og andre lægemidler skal opbevares uden for børns rækkevidde. </p>
+<p>Hvad skal du bruge til din injektion? </p>
+<p>Læg følgende ting på et rent og fladt underlag. </p>
+<p>I din pakning finder du: </p>
+<ul>
+<li>Hefiya fyldt(e) pen(ne) (se Figur A). Hver pen indeholder 40 mg/0,8 ml Hefiya. </li>
+</ul>
+<p>Følgende er ikke inkluderet i din pakning (se Figur B): </p>
+<ul>
+<li>
+<p>Alkoholserviet </p>
+</li>
+<li>
+<p>Bomuldsvatkugle eller gazebind </p>
+</li>
+<li>
+<p>Kanyleboks </p>
+</li>
+</ul>
+<p>Figur B: ting, der ikke er inkluderet i pakningen </p>
+<p>Se ”8. Bortskaffelse af brugte penne” i slutningen af denne brugsvejledning. </p>
+<p>Før injektion </p>
+<p>Forberedelse af pennen </p>
+<ul>
+<li>
+<p>For at få en mere behagelig injektion, kan du tage Hefiyapennen ud af køleskabet 15-
+30 minutter før, du injicerer Hefiya, så det kan nå at få stuetemperatur. </p>
+</li>
+<li>
+<p>Se godt efter i vinduet. Opløsningen skal være farveløs eller let gullig og klar til let 
+opaliserende. Brug den ikke, hvis du ser partikler og/eller misfarvning. Hvis du er bekymret 
+over, hvordan opløsningen ser ud, så kontakt apotekspersonalet for at få hjælp. </p>
+</li>
+</ul>
+<p>Figur C: Sikkerhedstjek før injektion  </p>
+<ul>
+<li>
+<p>Kontroller udløbsdatoen (EXP) på din pen. Brug den ikke efter den angivne udløbsdato.  </p>
+</li>
+<li>
+<p>Brug den ikke, hvis sikkerhedsforseglingen er brudt. </p>
+</li>
+</ul>
+<p>Kontakt dit apotekspersonale, hvis pennen ikke kan klare alle ovenstående tjek. </p>
+<ol>
+<li>
+<p>Valg af injektionsstedet:  </p>
+</li>
+<li>
+<p>Anbefalet injektionssted er på forsiden af dine lår. Du kan 
+også bruge nederste del af maven men ikke i et område i en 
+omkreds på 5 cm rundt om din navle (se Figur D). </p>
+</li>
+<li>
+<p>Vælg et andet område, hver gang du giver dig selv en 
+injektion. </p>
+</li>
+<li>
+<p>Injicer ikke i et område, hvor huden er øm, har blå mærker, 
+er rød, skæller eller er hård. Undgå områder med ar eller 
+strækmærker. Hvis du har psoriasis, skal du IKKE injicere 
+direkte i områder med plaque-psoriasis. </p>
+</li>
+</ol>
+<p>Figur D: vælg dit injektionssted </p>
+<ol>
+<li>
+<p>Rensning af injektionsstedet:  </p>
+</li>
+<li>
+<p>Vask dine hænder grundigt med sæbe og vand. </p>
+</li>
+<li>
+<p>Rens injektionsstedet med en alkoholserviet ved hjælp af 
+cirklende bevægelser. Lad det tørre, før du injicerer<br />
+(se Figur E). </p>
+</li>
+<li>
+<p>Rør ikke ved det rensede område, før du injicerer. </p>
+</li>
+</ol>
+<p>Figur E: rens dit injektionssted </p>
+<ol>
+<li>
+<p>Aftagning af pennens hætte:  </p>
+</li>
+<li>
+<p>Fjern først hætten, når du er klar til at bruge pennen. </p>
+</li>
+<li>
+<p>Drej hætten af i pilenes retning (se Figur F). </p>
+</li>
+<li>
+<p>Når hætten er fjernet, så smid den bort. Prøv ikke at sætte 
+hætten på igen.  </p>
+</li>
+<li>
+<p>Brug pennen inden for 5 minutter efter, at du har fjernet 
+hætten. </p>
+</li>
+<li>
+<p>Måske ser du et par dråber væske komme ud af kanylen.<br />
+Det er normalt. </p>
+</li>
+</ol>
+<p>Figur F: fjern hætten </p>
+<ol>
+<li>
+<p>Sådan holdes pennen:  </p>
+</li>
+<li>
+<p>Hold din pen i en vinkel på 90° mod det rensede 
+injektionssted (se Figur G). </p>
+<p>Korrekt         Forkert  </p>
+</li>
+</ol>
+<p>Figur G: hold din pen  </p>
+<p>Din injektion </p>
+<p>Læs dette, før du injicerer </p>
+<p>Mens du injicerer, vil du høre 2 høje klik: 
+ * 
+Det første klik betyder, at injektionen er begyndt.  * 
+Flere sekunder senere vil det andet klik betyde, at injektionen næsten er færdig.  </p>
+<p>Du skal holde pennen fast mod huden, indtil du ser en grøn indikator fylde vinduet og holde op 
+med at bevæge sig. </p>
+<ol>
+<li>
+<p>Påbegynd din injektion: </p>
+</li>
+<li>
+<p>Tryk din pen fast mod huden for at påbegynde injektionen 
+(se Figur H).  </p>
+</li>
+<li>
+<p>Det første klik betyder, at injektionen er begyndt. </p>
+</li>
+<li>
+<p>Bliv ved med at holde pennen fast mod huden. </p>
+</li>
+<li>
+<p>Den grønne indikator viser, hvordan injektionen skrider 
+frem. </p>
+</li>
+</ol>
+<p>Figur H: påbegynd din injektion </p>
+<ol>
+<li>
+<p>Afslut din injektion: </p>
+</li>
+<li>
+<p>Lyt efter det andet klik. Det indikerer, at injektionen 
+næsten er færdig. </p>
+</li>
+<li>
+<p>Kontroller, at den grønne indikator fylder vinduet og er 
+holdt op med at bevæge sig (se Figur I). </p>
+</li>
+<li>
+<p>Pennen kan nu fjernes. </p>
+</li>
+</ol>
+<p>Figur I: afslut din injektion </p>
+<p>Efter din injektion </p>
+<ol>
+<li>
+<p>Kontroller, at den grønne indikator fylder vinduet (se Figur J): </p>
+</li>
+<li>
+<p>Det betyder, at lægemidlet er indgivet. Kontakt din læge, 
+hvis du ikke kan se den grønne indikator. </p>
+</li>
+<li>
+<p>Der kan være en lille smule blod på injektionsstedet. Du kan 
+presse en vatkugle eller et gazebind på injektionsstedet og 
+holde det fast i 10 sekunder. Gnid ikke på injektionsstedet. 
+Du kan dække injektionsstedet med et lille plaster, hvis det 
+er nødvendigt.  </p>
+</li>
+</ol>
+<p>Figure J: tjek den grønne indikator </p>
+<ol>
+<li>
+<p>Bortskaffelse af brugte penne: </p>
+</li>
+<li>
+<p>De brugte penne bortskaffes i en kanyleboks (lukkelig, 
+brudfast beholder). Pennene må aldrig genbruges af hensyn 
+til sikkerheden for dig og andre. </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe 
+lægemiddelrester. Af hensyn til miljøet må du ikke smide 
+lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ol>
+<p>Hvis du har nogen spørgsmål, så tal med en læge, apotekspersonalet eller en sygeplejerske, som 
+kender Hefiya.  </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Hefiya 40 mg injektionsvæske, opløsning i fyldt injektionssprøjte 
+adalimumab 
+40 mg/0,4 ml </p>
+<p>Læs hele denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Din læge vil også udlevere et patientkort, der indeholder vigtige sikkerhedsinformationer, som 
+du skal være opmærksom på før og under din behandling med Hefiya. Opbevar patientkortet 
+på dig under din behandling og i 4 måneder efter din (eller dit barns) sidste injektion af Hefiya. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
+<p>Oversigt over indlægssedlen: </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1cf3225341c0e6fa2558014a933b7feb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hefiya Package Leaflet for language en"
+Description: "ePI document Bundle for hefiya Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1cf3225341c0e6fa2558014a933b7feb"
+* entry[0].resource = composition-en-1cf3225341c0e6fa2558014a933b7feb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1cf3225341c0e6fa2558014a933b7feb"
+* entry[=].resource = mp1cf3225341c0e6fa2558014a933b7feb
+                            
+                    
+Instance: bundlepackageleaflet-da-1cf3225341c0e6fa2558014a933b7feb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hefiya Package Leaflet for language da"
+Description: "ePI document Bundle for hefiya Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1cf3225341c0e6fa2558014a933b7feb"
+* entry[0].resource = composition-da-1cf3225341c0e6fa2558014a933b7feb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1cf3225341c0e6fa2558014a933b7feb"
+* entry[=].resource = mp1cf3225341c0e6fa2558014a933b7feb
+                            
+                    
+
+
+
+Instance: mp1cf3225341c0e6fa2558014a933b7feb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Hefiya 20 mg solution for injection in pre-filled syringe"
-Description: "Hefiya 20 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product hefiya"
+Description: "hefiya"
 Usage: #inline
 
  
@@ -869,7 +2540,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Hefiya 20 mg solution for injection in pre-filled syringe"
+  * productName = "hefiya"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -896,29 +2567,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1cf3225341c0e6fa2558014a933b7feb
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for hefiya Package Leaflet for language en"
-Description: "ePI document Bundle for hefiya Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1cf3225341c0e6fa2558014a933b7febListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Hefiya 20 mg solution for injection in pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "hefiya"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1cf3225341c0e6fa2558014a933b7feb"
-* entry[0].resource = composition-en-1cf3225341c0e6fa2558014a933b7feb
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe6d4da5ab635930b04fee27e3b3e7953"
-* entry[=].resource = mpe6d4da5ab635930b04fee27e3b3e7953
-                            
-                      
+* title = "List of all ePIs associated with hefiya"
+
+* subject = Reference(mpe6d4da5ab635930b04fee27e3b3e7953)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#hefiya "hefiya"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1cf3225341c0e6fa2558014a933b7feb) // hefiya en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1cf3225341c0e6fa2558014a933b7feb) // hefiya da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1cf3225341c0e6fa2558014a933b7feb
+InstanceOf: List
+
+* insert 1cf3225341c0e6fa2558014a933b7febListRuleset
+    

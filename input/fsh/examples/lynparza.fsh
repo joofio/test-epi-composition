@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-4dbf28ef3bd2d6f9dcbec498df8a6133
 InstanceOf: CompositionUvEpi
 Title: "Composition for lynparza Package Leaflet"
@@ -430,12 +433,624 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-4dbf28ef3bd2d6f9dcbec498df8a6133
+InstanceOf: CompositionUvEpi
+Title: "Composition for lynparza Package Leaflet"
+Description:  "Composition for lynparza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp96a828564f16df7c242a9c91ffc970f8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp96a828564f16df7c242a9c91ffc970f8
+* title = "TEST PURPOSES ONLY - lynparza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Lynparza
+3. Sådan skal du tage Lynparza
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lynparza is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lynparza is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Lynparza er, og hvordan det virker
+Lynparza indeholder det aktive stof olaparib. Olaparib er en type kræftmedicin, der kaldes en 
+PARP-inhibitor (poly [adenosindifosfatribose] polymerase inhibitor).
+PARP-inhibitorer kan ødelægge kræftceller, der ikke er gode til at reparere DNA-skader. Disse 
+specifikke kræftceller kan identificeres ved:
+
+at de reagerer på platinbaseret kemoterapi, eller
+
+at de har beskadigede DNA-reparationsgener, såsom BRCA-gener (brystcancergener).
+Når Lynparza anvendes sammen med abirateron (en androgenreceptor-signalerende hæmmer) kan 
+kombinationen bidrage til at forstærke virkningen mod kræft i prostatakræftceller med eller uden 
+beskadigede DNA-reparationsgener (fx BRCA-gener).
+Hvad Lynparza anvendes til
+Lynparza anvendes til behandling af
+
+en type kræft i æggestokkene (BRCA-muteret), som har reageret på den første behandling 
+med platinbaseret standardkemoterapi.  * Der bruges en test til at bestemme, om du har BRCA-muteret kræft i æggestokkene.
+
+kræft i æggestokkene, som er vendt tilbage. Det kan anvendes efter kræften har reageret på 
+tidligere behandling med standard kemoterapi baseret på platin.
+
+en type kræft i æggestokkene (HRD-positiv, som defineret ved en BRCA-mutation eller 
+genomisk ustabilitet), som har reageret på den første behandling med platinbaseret 
+75
+standardkemoterapi og bevacizumab. Lynparza bruges sammen med bevacizumab.
+
+en type brystkræft (BRCA-muteret, HER2-negativ), når kræften ikke har spredt sig til 
+andre dele af kroppen, og behandlingen vil blive givet efter operationen (behandling efter 
+operationen kaldes adjuverende terapi). Du skal have modtaget kemoterapi før eller efter 
+operationen. Hvis din kræftsygdom er hormon-receptor-positiv, kan din læge også 
+ordinere hormonbehandling.<em> Der bruges en test til at finde ud af, om du har BRCA-muteret brystkræft.
+
+en type brystkræft (BRCA-muteret, HER2-negativ), som har spredt sig ud over den 
+oprindelige tumor. Du skal have modtaget kemoterapi enten før eller efter din kræft har spredt 
+sig.</em> Der bruges en test til at finde ud af, om du har BRCA-muteret brystkræft.
+
+en type kræft i bugspytkirtlen (BRCA-muteret), som har reageret på den første 
+behandling med platinbaseret standardkemoterapi.<em> Der bruges en test til at finde ud af, om du har BRCA-muteret bugspytkirtelkræft.
+
+en type prostatakræft (BRCA-muteret), som har spredt sig ud over den oprindelige tumor 
+og ikke længere reagerer på medicinsk eller kirurgisk behandling på at sænke 
+testosteronniveauet. Du skal have modtaget visse hormonbehandlinger, såsom enzalutamid 
+eller abirateronacetat.</em> Der bruges en test til at finde ud af, om du har BRCA-muteret prostatakræft.
+
+en type prostatakræft, der har spredt sig til andre dele af kroppen (metastatisk) væk fra 
+den oprindelige tumor og ikke længere reagerer på medicinsk eller kirurgisk behandling, 
+som reducerer testosteron. Lynparza anvendes i kombination med et andet lægemiddel mod 
+kræft, der kaldes abirateron, sammen med steroidmedicin, prednison eller prednisolon.
+Når Lynparza gives i kombination med andre lægemidler mod kræft, er det vigtigt, at du også læser 
+indlægssedlerne for disse andre lægemidler. Hvis du har spørgsmål om disse lægemidler, så spørg din 
+læge.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lynparza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lynparza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Lynparza
+
+hvis du er allergisk over for olaparib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6).
+
+hvis du ammer (se punkt 2 nedenfor for yderligere oplysninger).
+Du må ikke tage Lynparza, hvis noget af det ovenstående gælder for dig. Hvis du er i tvivl, skal du tale 
+med lægen, apotekspersonalet eller sundhedspersonalet, inden du tager Lynparza.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før eller under behandlingen med 
+Lynparza
+
+hvis du har lavt antal blodlegemer i en blodprøve. Dette kan være lavt antal røde eller hvide 
+blodlegemer eller lavt antal blodplader. Se punkt 4 for mere information om disse bivirkninger, 
+herunder tegn og symptomer, som du skal holde øje med (for eksempel feber eller infektion, blå 
+mærker eller blødning). I sjældne tilfælde kan dette være et tegn på mere alvorlige problemer 
+med knoglemarven, såsom "myelodysplastisk syndrom" (MDS) eller "akut myeloid leukæmi" 
+(AML).
+
+hvis du oplever nye eller forværrede symptomer på kortåndethed, hoste eller hvæsen. Et lille 
+antal patienter, som blev behandlet med Lynparza, rapporterede om lungebetændelse 
+76
+(pneumonitis). Lungebetændelse er en alvorlig tilstand, der ofte kræver behandling på 
+hospitalet.
+
+hvis du oplever nye eller forværrede symptomer på smerter eller hævelser i arme eller ben,
+kortåndethed, brystsmerter, hurtigere vejrtrækning end normalt eller hurtigere hjerteslag end 
+normalt. Nogle få patienter, som er blevet behandlet med Lynparza, har rapporteret at have 
+udviklet en blodprop i en dyb vene, normalt i benet (venetrombose) eller en blodprop i lungerne 
+(lungeemboli).
+
+Kontakt straks lægen hvis du bemærker gulfarvning af din hud eller det hvide af øjnene, 
+mørkere urin end normalt (brun farve), smerter i højre side af maven, træthed, manglende 
+sultfølelse, eller uforklarlig kvalme og opkastning. Dette kan være tegn på leverproblemer.
+Tal med lægen, apotekspersonalet eller sundhedspersonalet, hvis du tror, at noget af dette gælder for 
+dig, før eller under behandling med Lynparza.
+Tests og undersøgelser
+Din læge vil undersøge dit blod inden og under behandlingen med Lynparza.
+Du vil få taget en blodprøve
+
+inden behandling
+
+hver måned i det første års behandling
+
+i regelmæssige intervaller, som bestemmes af din læge efter det første års behandling. 
+Hvis dit blodtal falder til et lavt niveau, kan du have behov for at få en blodtransfusion (hvor du vil få 
+nyt blod eller blodbaserede produkter fra en donor).
+Brug af anden medicin sammen med Lynparza
+Fortæl det altid til lægen, apotekspersonalet eller sundhedspersonalet, hvis du tager anden medicin 
+eller har gjort det for nylig. Dette gælder også medicin, som ikke er købt på recept og naturlægemidler. 
+Det er fordi Lynparza kan påvirke den måde, hvorpå noget anden medicin virker, og noget anden 
+medicin kan påvirke den måde, hvorpå Lynparza virker.
+Fortæl det til din læge, apotekspersonalet eller sundhedspersonalet, hvis du tager eller planlægger at 
+tage noget af følgende medicin
+
+anden medicin mod kræft
+
+en vaccine eller en medicin, der undertrykker immunsystemet, da du i så fald kan have brug for 
+at blive fulgt nøje
+
+itraconazol, fluconazol - anvendes mod svampeinfektioner
+
+telithromycin, clarithromycin, erythromycin - anvendes til bakterieinfektioner
+
+proteaseinhibitorer boostet med ritonavir eller cobicistat, boceprevir, telaprevir, nevirapin, 
+efavirenz - anvendes mod virusinfektioner, herunder hiv
+
+rifampicin, rifapentin, rifabutin - anvendes mod bakterieinfektioner, herunder tuberkulose (TB)
+
+phenytoin, carbamazepin, phenobarbital - anvendes som beroligende middel eller til at behandle 
+kramper (krampeanfald) og epilepsi
+
+naturlægemidler, der indeholder perikon (Hypericum perforatum) -  anvendes hovedsageligt 
+mod depression
+
+digoxin, diltiazem, furosemid, verapamil, valsartan - anvendes til behandling af hjertelidelser 
+eller forhøjet blodtryk
+
+bosentan - anvendes til behandling af forhøjet blodtryk i lungerne
+
+statiner, for eksempel simvastatin, pravastatin, rosuvastatin  - anvendes til at nedsætte 
+kolesterolniveauet i blodet
+
+dabigatran - anvendes til at fortynde blodet
+
+glibenclamid, metformin, repaglinid - anvendes til behandling af sukkersyge
+
+sekalealkaloider - anvendes til behandling af migræne og hovedpine
+
+fentanyl - anvendes til behandling af smerter i forbindelse med kræft
+
+pimozid, quetiapin -  anvendes til behandling af psykiske lidelser
+77
+
+cisaprid - anvendes til behandling af maveproblemer
+
+colchicin - anvendes til behandling af urinsyregigt
+
+ciclosporin, sirolimus, tacrolimus - anvendes til undertrykkelse af immunsystemet
+
+methotrexat - anvendes til behandling af kræft, leddegigt og psoriasis.
+Fortæl det til lægen, apotekspersonalet eller sundhedspersonalet, hvis du tager noget af ovenstående, 
+eller hvis du tager anden medicin. De ovennævnte typer medicin er måske ikke de eneste, der kan 
+påvirke Lynparza.
+Brug af Lynparza sammen med drikke
+Du må ikke drikke grapefrugtjuice, mens du er i behandling med Lynparza. Det kan påvirke den måde, 
+hvorpå medicinen virker.
+Prævention, graviditet og amning 
+Kvindelige patienter
+
+Du bør ikke tage Lynparza, hvis du er gravid eller måske bliver gravid. Det er fordi, det kan 
+skade et ufødt barn.
+
+Du må ikke blive gravid, mens du tager denne medicin. Hvis du dyrker sex, skal du anvende to 
+effektive former for beskyttelse mod graviditet, mens du tager denne medicin og i 6 måneder
+efter du har taget den sidste dosis af Lynparza. Det vides ikke, om Lynparza kan påvirke 
+effekten af visse hormonelle præventionsmidler. Fortæl det til lægen, hvis du tager et hormonelt 
+præventionsmiddel, da din læge kan anbefale at supplere med en ikke-hormonel beskyttelse 
+mod graviditet.
+
+Du skal tage en graviditetstest, inden du påbegynder behandling med Lynparza, regelmæssigt 
+under behandlingen samt 6 måneder efter du har taget din sidste dosis af Lynparza. Hvis du 
+bliver gravid i dette tidsrum, skal du straks tale med din læge. 
+
+Det vides ikke, om Lynparza går over i modermælken. Du må ikke amme, hvis du tager 
+Lynparza og indtil 1 måned efter du har taget din sidste dosis af Lynparza. Hvis du har planer 
+om at amme, skal du tale med lægen.
+Mandlige patienter
+
+Du skal bruge kondom, når du har sex med en kvindelig partner, også selvom hun er gravid, mens 
+du tager Lynparza og i 3 måneder efter at have taget den sidste dosis. Det vides ikke, om 
+Lynparza overføres til sæd.
+
+Din kvindelige partner skal også bruge en passende præventionsmetode.
+
+Du må ikke donere sæd, mens du tager Lynparza og i 3 måneder efter at have taget den sidste 
+dosis.
+Trafik- og arbejdssikkerhed
+Lynparza kan påvirke din evne til at føre motorkøretøj og betjene maskiner. Hvis du føler dig 
+svimmel, svag eller træt mens du tager Lynparza, må du ikke føre motorkøretøj eller bruge værktøj 
+eller maskiner.
+Lynparza indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg eller 150 mg tablet, dvs. 
+det er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lynparza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lynparza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens, apotekspersonalets eller sundhedspersonalets anvisning. 
+Er du i tvivl, så spørg lægen, apotekspersonalet eller sundhedspersonalet.
+Sådan skal du tage medicinen
+
+Synk Lynparza tabletter hele, med eller uden mad.
+
+Tag Lynparza én gang om morgenen og én gang om aftenen.
+78
+
+Du må ikke tygge, knuse, opløse eller dele tabletterne, da det kan påvirke, hvor hurtigt 
+medicinen bliver optaget i din krop.
+Så meget skal du tage
+
+Lægen vil fortælle dig, hvor mange tabletter Lynparza, du skal tage. Det er vigtigt, at du tager 
+den fulde anbefalede dosis hver dag. Bliv ved med det så længe din læge, apotekspersonalet 
+eller sundhedspersonalet siger, du skal.
+
+Den normale anbefalede dosis er 300 mg (2 x 150 mg tabletter) to gange dagligt - i alt 
+4 tabletter hver dag.
+Lægen kan udskrive en anden dosis, hvis
+
+du har problemer med nyrerne. Du vil blive bedt om at tage 200 mg (2 x 100 mg tabletter) to 
+gange dagligt - i alt 4 tabletter hver dag.
+
+du tager visse lægemidler, der kan påvirke Lynparza (se punkt 2).
+
+du har visse bivirkninger, mens du tager Lynparza (se punkt 4). Lægen kan reducere din dosis 
+eller stoppe behandlingen, enten i kortere tid eller permanent.
+Hvis du har taget for meget Lynparza
+Hvis du tager mere Lynparza end din normale dosis, skal du straks kontakte din læge eller det 
+nærmeste hospital.
+Hvis du har glemt at tage Lynparza
+Hvis du glemmer at tage Lynparza, skal du tage din næste normale dosis på det planlagte tidspunkt. 
+Du må ikke tage en dobbeltdosis (to doser samtidig) som erstatning for den glemte dosis.
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
+Fortæl det straks til lægen, hvis du bemærker noget af følgende
+Meget almindelig (kan forekomme hos mere end 1 ud af 10 personer)
+
+en følelse af åndenød, en følelse af ekstrem træthed, bleg hud eller hurtigt puls - dette kan være 
+symptomer på et fald i antallet af røde blodlegemer (anæmi).
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer)
+
+allergiske reaktioner (fx nældefeber, vejrtrækningsbesvær eller synkebesvær, svimmelhed, som 
+alle er tegn og symptomer på overfølsomhedsreaktioner).
+
+kløende udslæt eller hævet, rød hud (dermatitis).
+
+alvorlige problemer med knoglemarv (myelodysplastisk syndrom eller akut myeloid leukæmi). 
+Se punkt 2. Andre bivirkninger omfatter
+Meget almindelig (kan forekomme hos mere end 1 ud af 10 personer)
+79
+
+kvalme
+
+opkastning
+
+træthed eller svaghed (fatigue)
+
+fordøjelsesbesvær eller halsbrand (dyspepsi)
+
+appetitløshed
+
+hovedpine
+
+ændring af hvordan mad smager (dysgeusi)
+
+svimmelhed
+
+hoste
+
+stakåndethed (dyspnø)
+
+diarré - hvis den bliver voldsom, skal du straks fortælle det til lægen.
+Meget almindelige bivirkninger, der kan ses i blodprøver
+
+lavt antal hvide blodlegemer (leukopeni eller neutropeni), som kan nedsætte din evne til at 
+bekæmpe infektioner, og som kan være forbundet med feber.
+Almindelig (kan forekomme hos op til 1 ud af 10 personer)
+
+udslæt
+
+ømhed i munden (mundbetændelse)
+
+smerter i maveområdet under ribbenene (øvre abdominalsmerter).
+
+blodprop i en dyb vene, normalt i benet (venetrombose), der kan give symptomer som smerter 
+eller hævelse af benene, eller en blodprop i lungerne (lungeemboli), der kan give symptomer 
+som kortåndethed, brystsmerter, hurtigere vejrtrækning end normalt eller hurtigere hjerteslag 
+end normalt.
+Almindelige bivirkninger, der kan ses i blodprøver
+
+lavt antal hvide blodlegemer (lymfopeni), som kan nedsætte din evne til at bekæmpe 
+infektioner, og som kan være forbundet med feber
+
+fald i antallet af blodplader i blodet (trombocytopeni) - du kan få følgende symptomer* blå mærker eller blødning i længere tid end normalt, hvis du kommer til skade
+
+stigning i blodkreatinin - denne test bruges til at undersøge, hvordan dine nyrer fungerer.
+
+unormale leverfunktionsprøver.
+Ikke almindelige bivirkninger, der kan ses i blodprøver
+
+øgning i størrelsen af de røde blodlegemer (ikke forbundet med nogen symptomer).
+Sjælden (kan forekomme hos op til 1 ud af 1 000 personer)
+
+hævelse i ansigtet (angioødem)
+
+smertefuld betændelse i fedtvævet under huden (erythema nodosum).
+Ikke kendt (kan ikke estimeres ud fra forhåndenværende data)
+
+tegn på leverproblemer, f.eks. gulfarvning af huden eller af det hvide i øjnene (gulsot), kvalme 
+eller opkastning, smerter i højre side af maven, mørk (brun) urin, manglende sultfølelse, 
+træthed.
+Lægen vil undersøge dit blod hver måned i det første år af behandlingen og regelmæssigt derefter. 
+Lægen vil fortælle dig, hvis der sker nogen ændringer i dine blodprøver, som kan kræve behandling.
+Kontakt straks lægen, hvis du får bivirkninger, som ikke er nævnt her.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.
+80</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lynparza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lynparza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken samt blisterpakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.
+Opbevares i den originale pakning for at beskytte mod fugt.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lynparza indeholder
+Aktivt stof: olaparib
+
+Hver Lynparza 100 mg filmovertrukket tablet indeholder 100 mg olaparib.
+
+Hver Lynparza 150 mg filmovertrukket tablet indeholder 150 mg olaparib.
+Øvrige indholdsstoffer (hjælpestoffer)
+
+Tabletkerne: copovidon, kolloid vandfri silica, mannitol, natriumstearylfumarat.
+
+Tabletovertræk: hypromellose, macrogol 400, titandioxid (E171), jernoxid; gul (E172), 
+jernoxid; sort (E172) (kun 150 mg tabletter).
+Se punkt 2 "Lynparza indeholder natrium".
+Udseende og pakningsstørrelser
+Lynparza 100 mg tabletter er gule til mørkegule, ovale, bikonvekse filmovertrukne tabletter markeret 
+med "OP100" på den ene side og ingenting på den anden side. 
+Lynparza 150 mg tabletter er grønne til grågrønne, ovale, bikonvekse filmovertrukne tabletter 
+markeret med "OP150" på den ene side og ingenting på den anden side. 
+Lynparza leveres i pakninger indeholdende 56 filmovertrukne tabletter (7 blisterkort med 8 tabletter i 
+hver), eller multipakninger indeholdende 112 (2 pakninger a 56) filmovertrukne tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Sverige
+AstraZeneca UK Limited
+81
+Silk Road Business Park
+Macclesfield, Cheshire, SK10 2NA
+Storbritannien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Suomi/Finland
+AstraZeneca Oy
+82
+Tel: +39 02 00704500
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-4dbf28ef3bd2d6f9dcbec498df8a6133
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lynparza Package Leaflet for language en"
+Description: "ePI document Bundle for lynparza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4dbf28ef3bd2d6f9dcbec498df8a6133"
+* entry[0].resource = composition-en-4dbf28ef3bd2d6f9dcbec498df8a6133
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4dbf28ef3bd2d6f9dcbec498df8a6133"
+* entry[=].resource = mp4dbf28ef3bd2d6f9dcbec498df8a6133
+                            
+                    
+Instance: bundlepackageleaflet-da-4dbf28ef3bd2d6f9dcbec498df8a6133
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lynparza Package Leaflet for language da"
+Description: "ePI document Bundle for lynparza Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-4dbf28ef3bd2d6f9dcbec498df8a6133"
+* entry[0].resource = composition-da-4dbf28ef3bd2d6f9dcbec498df8a6133
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4dbf28ef3bd2d6f9dcbec498df8a6133"
+* entry[=].resource = mp4dbf28ef3bd2d6f9dcbec498df8a6133
+                            
+                    
+
+
+
+Instance: mp4dbf28ef3bd2d6f9dcbec498df8a6133
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Lynparza 100 mg film-coated tablets"
-Description: "Lynparza 100 mg film-coated tablets"
+Title: "Medicinal Product lynparza"
+Description: "lynparza"
 Usage: #inline
 
  
@@ -455,7 +1070,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Lynparza 100 mg film-coated tablets"
+  * productName = "lynparza"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -482,29 +1097,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-4dbf28ef3bd2d6f9dcbec498df8a6133
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lynparza Package Leaflet for language en"
-Description: "ePI document Bundle for lynparza Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 4dbf28ef3bd2d6f9dcbec498df8a6133ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/959/002 56 film-coated tablets (100 mg)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lynparza"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-4dbf28ef3bd2d6f9dcbec498df8a6133"
-* entry[0].resource = composition-en-4dbf28ef3bd2d6f9dcbec498df8a6133
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp96a828564f16df7c242a9c91ffc970f8"
-* entry[=].resource = mp96a828564f16df7c242a9c91ffc970f8
-                            
-                      
+* title = "List of all ePIs associated with lynparza"
+
+* subject = Reference(mp96a828564f16df7c242a9c91ffc970f8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lynparza "lynparza"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-4dbf28ef3bd2d6f9dcbec498df8a6133) // lynparza en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-4dbf28ef3bd2d6f9dcbec498df8a6133) // lynparza da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-4dbf28ef3bd2d6f9dcbec498df8a6133
+InstanceOf: List
+
+* insert 4dbf28ef3bd2d6f9dcbec498df8a6133ListRuleset
+    

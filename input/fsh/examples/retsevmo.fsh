@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8662bc57cc6dd8ed253b99e206e17747
 InstanceOf: CompositionUvEpi
 Title: "Composition for retsevmo Package Leaflet"
@@ -378,12 +381,454 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-8662bc57cc6dd8ed253b99e206e17747
+InstanceOf: CompositionUvEpi
+Title: "Composition for retsevmo Package Leaflet"
+Description:  "Composition for retsevmo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2ddecfc311bf3194890e20e6477c87f7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2ddecfc311bf3194890e20e6477c87f7
+* title = "TEST PURPOSES ONLY - retsevmo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Retsevmo 
+3. Sådan skal du tage Retsevmo 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What retsevmo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What retsevmo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Retsevmo er et lægemiddel mod kræft, der indeholder det aktive stof selpercatinib.  </p>
+<p>Det bruges til at behandle følgende kræftformer, der er forårsaget af visse unormale forandringer i 
+RET-genet, og som har spredt sig og/eller ikke kan fjernes kirurgisk:</p>
+<ul>
+<li>En type lungekræft kaldet ikke-småcellet lungekræft hos voksne, som ikke tidligere er blevet 
+behandlet med et RET-hæmmer medikament.  </li>
+<li>Skjoldbruskkirtelkræft (samtlige typer) hos voksne og unge på 12 år og ældre når radioaktiv 
+jodbehandling, hvis relevant, ikke har kunnet kontrollere din kræft. </li>
+<li>En sjælden type skjoldbruskkirtelkræft kaldet medullær skjoldbruskkirtelkræft hos voksne og 
+unge på 12 år og ældre. </li>
+<li>Solide tumorer (kræft) i andre dele af kroppen hos voksne, hvis tidligere behandlinger ikke har 
+kunnet kontrollere kræften. </li>
+</ul>
+<p>Din læge vil udføre en test for at kontrollere, om din kræft har en ændring i RET-genet for at sikre, at 
+Retsevmo er egnet til dig. </p>
+<p>Virkning 
+Hos patienter, hvis kræftsygdom har et ændret RET-gen, får ændringen i genet kroppen til at 
+producere et unormalt RET-protein, hvilket kan medføre ukontrolleret cellevækst og kræft. Retsevmo 
+blokerer virkningen af det unormale RET-protein og kan således sinke eller stoppe væksten af 
+kræftsvulsten, og kan bidrage til at mindske kræftsvulsten.  </p>
+<p>Hvis du har spørgsmål om, hvordan Retsevmo virker, eller hvorfor dette lægemiddel er blevet 
+ordineret til dig, skal du spørge din læge. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take retsevmo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take retsevmo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Retsevmo<br />
+- hvis du er allergisk over for selpercatinib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6).  </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, før du tager Retsevmo:</p>
+<ul>
+<li>Hvis du har lungeproblemer eller vejrtrækningsproblemer, andre end lungekræft. </li>
+<li>Hvis du har forhøjet blodtryk </li>
+<li>Hvis du efter et elektrokardiogram (EKG) har fået at vide, at du har en abnormitet i dit hjertes 
+aktivitet kaldet forlænget QT-interval.  </li>
+<li>Hvis du har problemer med din skjoldbruskkirtel eller niveauer af thyreoideahormon. </li>
+<li>Retsevmo kan påvirke fertiliteten hos kvinder og mænd, som kan påvirke din evne til at få børn. 
+Tal med lægen, hvis dette bekymrer dig. </li>
+<li>Hvis du for nylig har oplevet væsentlig blødning. </li>
+</ul>
+<p>Retsevmo kan forårsage overfølsomhedsreaktioner som f.eks. feber, udslæt og smerter. Tal med 
+lægen, hvis du oplever en eller flere af disse reaktioner. Efter at have undersøgt dine symptomer kan 
+lægen bede dig om at tage kortikosteroider indtil bedring af symptomerne. </p>
+<p>En hurtig nedbrydning af kræftceller (tumor lysis syndrom, TLS) kan forekomme, når du tager 
+Retsevmo. Dette kan forårsage uregelmæssig hjerterytme, nyresvigt eller unormale 
+blodprøveresultater. Tal med lægen hvis du tidligere har haft nyreproblemer eller lavt blodtryk, da 
+dette kan øge risikoen forbundet med TLS. </p>
+<p>Se afsnit 4 "Bivirkninger", og kontakt lægen, hvis du får nogen symptomer.  </p>
+<p>Kontrol hos lægen før og under behandling 
+- Retsevmo kan forårsage alvorlig, livstruende eller dødelig betændelse i lungerne. Din læge vil 
+overvåge dig før og under behandling med Retsevmo for symptomer. Fortæl din læge med det 
+samme, hvis du bemærker symptomer på lungeproblemer, herunder åndenød, hoste og forhøjet 
+temperatur. 
+- Retsevmo kan påvirke dit blodtryk. Du vil få målt dit blodtryk inden og under behandlingen 
+med Retsevmo.<br />
+- Retsevmo kan påvirke din leverfunktion. Fortæl straks lægen, hvis du udvikler symptomer på 
+leverproblemer, herunder gulsot (gulfarvning af huden og øjnene), tab af appetit, kvalme eller 
+opkastning eller smerter i øverste højre side af maven. 
+- Retsevmo kan medføre unormale EKG'er. Du vil få taget et EKG inden og under behandlingen 
+med Retsevmo. Fortæl lægen, hvis du besvimer, da det kan være et symptom på unormalt EKG.<br />
+- Retsevmo kan påvirke, hvordan din skjoldbruskkirtel virker. Din læge vil overvåge din 
+skjoldbruskkirtelfunktion før og under behandling med Retsevmo.<br />
+- Du vil få taget regelmæssige blodprøver inden og under behandlingen med Retsevmo for at 
+kontrollere din leverfunktion og elektrolytter (såsom natrium, kalium, magnesium og calcium) i 
+blodet.<br />
+- Hvis du er 12-18 år, kan din læge overvåge din vækst under behandling. </p>
+<p>Børn og unge 
+Retsevmo er ikke beregnet til patienter under 18 år ved lungekræft. 
+Indikationen på skjoldbruskkirtelkræft (herunder medullær skjoldbruskkirtelkræft) omfatter ikke børn 
+under 12 år.  </p>
+<p>Brug af andre lægemidler sammen med Retsevmo 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Det er særligt vigtigt, at du fortæller det til lægen eller apotekspersonalet, hvis du tager nedenstående:</p>
+<ul>
+<li>Lægemidler, der kan øge indholdet af Retsevmo i blodet: * Clarithromycin (anvendes til behandling af bakterieinfektioner) * Itraconazol,  ketoconazol, posaconazol, voriconazol (anvendes til behandling af 
+svampeinfektioner) * Atazanavir, ritonavir, cobicistat (anvendes til behandling af hiv-infektioner/AIDS) </li>
+<li>Lægemidler, der kan nedsætte virkningen af Retsevmo: * Carbamazepin ( anvendes til behandling af epilepsi, nervesmerter, bipolar lidelse) * Rifampicin (anvendes til behandling af tuberkulose (TB) og nogle andre infektioner) * Perikon (et naturlægemiddel, der anvendes til behandling af mild depression og angst) * Omeprazol, lansoprazol, eller andre protonpumpehæmmere, der bruges til behandling 
+af halsbrand, mavesår og syrerefluks. Hvis du tager et eller flere af disse lægemidler, 
+skal du tage Retsevmo sammen med et helt måltid * Ranitidin, famotidine eller andre H2 blokkere, der bruges til at behandle mavesår og 
+syrerefluks. Hvis du tager et eller flere af disse lægemidler, skal du tage dem 2 timer 
+efter Retsevmo </li>
+<li>Lægemidler hvor indholdet i blodet kan øges af Retsevmo: * Repaglinid (bruges til behandling af type 2 diabetes og kontrol med blodsukker) * Dasabuvir (bruges til at behandle hepatitis C) * Selexipag (bruges til behandling af pulmonal arteriel hypertension)  * Digoxin (bruges til at behandle hjertesygdomme) * Lovastatin og simvastatin (bruges til at behandle højt kolesterol)  * Dabigatran (bruges til at forhindre samt behandle blodpropper)  </li>
+<li>Medicin, der kan være mindre effektiv, når det tages sammen med Retsevmo: * Levothyroxin (bruges til at behandle hypothyroidisme) </li>
+</ul>
+<p>Graviditet, amning og frugtbarhed<br />
+Graviditet 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge til råds, før du tager dette lægemiddel. </p>
+<p>Du må ikke tage Retsevmo under graviditet, da virkningen af Retsevmo på et ufødt barn ikke kendes.  </p>
+<p>Amning 
+Du må ikke amme under behandlingen med Retsevmo, da Retsevmo muligvis kan skade et barn, der 
+ammes. Det vides ikke, om Retsevmo går over i modermælken. Du må ikke amme i mindst én uge 
+efter din sidste dosis Retsevmo. </p>
+<p>Prævention 
+Det anbefales, at kvinder undgår at blive gravide, og at mænd ikke bliver far til et barn under 
+behandlingen med Retsevmo, da dette lægemiddel kan skade barnet. Hvis der er en risiko for, at den 
+person, der tager dette lægemiddel, kan blive gravid eller kan blive far til et barn, skal personen bruge 
+sikker prævention under behandlingen og i mindst én uge efter sidste dosis Retsevmo. </p>
+<p>Frugtbarhed 
+Retsevmo kan påvirke din evne til at få børn. Tal med lægen for at søge råd omkring bevarelse af 
+fertiliteten inden behandlingen. </p>
+<p>Trafik- og arbejdssikkerhed<br />
+Du skal udvise særlig forsigtighed, når du fører motorkøretøj og betjener maskiner, da du kan føle dig 
+træt eller svimmel, mens du tager Retsevmo. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take retsevmo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take retsevmo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Hvor meget skal du tage 
+Din læge vil ordinere den rigtige dosis til dig. Den maksimale anbefalede dosis er som følger:</p>
+<ul>
+<li>
+<p>Mindre end 50 kg kropsvægt: 120 mg to gange dagligt. </p>
+</li>
+<li>
+<p>50 kg kropsvægt eller derover: 160 mg to gange dagligt. </p>
+</li>
+</ul>
+<p>Retsevmo skal tages to gange dagligt på omtrent samme tidspunkt hver dag, helst om morgenen og 
+aftenen.<br />
+Hvis du får visse bivirkninger under behandlingen med Retsevmo, vil lægen eventuelt nedsætte din 
+dosis eller stoppe behandlingen midlertidigt eller permanent. </p>
+<p>Du kan tage kapslerne enten med eller uden mad. Slug kapslerne hele med et glas vand. Du må ikke 
+tygge, knuse eller dele kapslerne, før du synker dem. </p>
+<p>Retsevmo kan fås i blisterpakker og i tabletbeholdere. Tabletbeholderen er beskyttet af et 
+plastikskruelåg:  </p>
+<p>For at åbne tabletbeholderenskal du trykke plastikskruelåget ned og samtidig dreje det mod uret 
+som vist på billedet.  </p>
+<p>Drej låget med uret, indtil det slutter helt tæt, for at lukke tabletbeholderen. </p>
+<p>Hvis du har taget for meget Retsevmo<br />
+Kontakt lægen eller hospitalet for at få rådgivning, hvis du har taget for mange kapsler, eller hvis en 
+anden har taget dit lægemiddel. Lægebehandling kan være nødvendig. </p>
+<p>Hvis du har glemt at tage Retsevmo<br />
+Hvis du kaster op, efter du har taget en dosis, eller hvis du glemmer en dosis, skal du tage den næste 
+dosis på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte 
+eller opkastede dosis. </p>
+<p>Hvis du holder op med at tage Retsevmo<br />
+Hold ikke op med at tage Retsevmo, medmindre lægen har bedt dig om det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Kontakt lægen omgående, hvis du oplever noget af nedenstående:</p>
+<ul>
+<li>Lungeproblemer eller vejrtrækningsproblemer, andre end lungekræft såsom åndenød, hoste og 
+forhøjet temperatur (som kan forekomme hos flere end 1 ud af 10 personer) </li>
+<li>Leverproblemer (som kan forekomme hos flere end 1 ud af 10 personer og kan være forbundet 
+med unormale værdier i leverblodprøver som f.eks. forhøjede leverenzymer), herunder 
+gulfarvning af huden og øjnene (gulsot), mørk urin, tab af appetit, kvalme eller opkastning eller 
+smerter i den øverste højre del af maven.   </li>
+<li>Allergisk reaktion typisk vist ved feber og muskel- og ledsmerter efterfulgt af udslæt (som kan 
+forekomme hos op til 1 ud af 10 personer) </li>
+<li>Forhøjet blodtryk (som kan forekomme hos flere end 1 ud af 10 personer).  </li>
+<li>Blødning med symptomer som f.eks. ophostning af blod  </li>
+</ul>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får en eller flere af følgende 
+bivirkninger: </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) 
+- Nedsat antal hvide blodlegemer (f.eks. lymfocytter, neutrofiler osv.) 
+- Væskeophobning, der kan medføre hævelse af hænder eller ankler (ødem) 
+- Forhøjede koncentrationer i blodet af kreatinin i test, som kan være tegn på nedsat nyrefunktion 
+(nyresygdomme) 
+- Diarré 
+- Træthed 
+- Mundtørhed 
+- Nedsat antal blodplader, hvilket kan medføre blødning og blodudtrædning 
+- Udslæt 
+- Mavesmerter 
+- Lavt magnesiumindhold i blodet 
+- Forstoppelse<br />
+- Kvalme (føler sig syg) 
+- Lave niveauer af hæmoglobin, som kan forårsage anæmi 
+- Hovedpine 
+- Opkastning<br />
+- Nedsat appetit 
+- Svimmelhed 
+- Unormalt EKG<br />
+- Feber eller høj temperatur<br />
+- Nedsat skjoldbruskkirtelaktivitet 
+- Blødningssymptomer </p>
+<p>Almindelig (kan forekomme hos mere end 1 ud af 100 personer) 
+- Lymfevæske kan ophobes i slimhinden i dine lunger eller i mavehulen, hvilket kan forårsage 
+vejrtrækningsproblemer eller forstørrelse af maven </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store retsevmo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store retsevmo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på tabletbeholderetiketten eller blisterkort og 
+karton efter "EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at den indvendige forsegling er brudt eller ved synlige tegn 
+på nedbrydning. </p>
+<p>Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet eller skraldespanden. Spørg 
+apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester.   </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Retsevmo indeholder:<br />
+Aktivt stof: selpercatinib. Hver hård kapsel indeholder 40 eller 80 mg selpercatinib. </p>
+<p>Øvrige indholdsstoffer:</p>
+<ul>
+<li>Kapselindhold: kolloid vandfri silica, mikrokrystallinsk cellulose </li>
+<li>Kapselskal 40 mg: gelatine, titandioxid (E171) og jernoxid (E172). </li>
+<li>Kapselskal 80 mg: gelatine, titandioxid (E171) og brilliant blue FCF (E133). </li>
+<li>Sort blæk: shellac, ethanol (96 %), isopropylalkohol, butanol, propylenglycol, renset vand, 
+ammoniakopløsning (koncentreret), kaliumhydroxid, sort jernoxid </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Retsevmo 40 mg leveres som grå, uigennemsigtige, hårde gelatinekapsler med sort påskrift “Lilly", 
+“3977" og “40 mg".  </p>
+<p>Retsevmo 80 mg leveres som blå, uigennemsigtige, hårde gelatinekapsler med sort påskrift “Lilly", 
+“2980" og “80 mg".  </p>
+<p>Retsevmo fås i en hvid, uigennemsigtig tabletbeholder med et plastikskruelåg, indeholdende 60 hårde 
+kapsler á 40 mg og enten 60 eller 120 hårde kapsler á 80 mg. Hver karton indeholder én 
+tabletbeholder.  </p>
+<p>Retsevmo fås i blisterpakker af 14, 42, 56 eller 168 hårde kapsler af 40 mg og 14, 28, 56 eller hårde kapsler af 80 mg.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Eli Lilly Nederland B.V., Papendorpseweg 83, 3528BJ Utrecht, Holland. </p>
+<p>Fremstiller 
+Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spanien. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41 Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664 Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60 Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V.<br />
+Tel: +372 6 817 Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18 Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Lilly S.A. 
+Tel: + 34-91 663 50 Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France 
+Tél: +33-(0) 1 55 49 34 Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350 România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00 Ísland 
+Icepharma hf. 
+Sími + 354 540 8Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā<br />
+Tel: +371 67364United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 </p>
+<p>Denne indlægsseddel blev senest ændret i.  </p>
+<p>Dette lægemiddel er godkendt under "betingede omstændigheder". Det betyder, at der forventes 
+yderligere dokumentation for lægemidlet. 
+Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
+lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8662bc57cc6dd8ed253b99e206e17747
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for retsevmo Package Leaflet for language en"
+Description: "ePI document Bundle for retsevmo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8662bc57cc6dd8ed253b99e206e17747"
+* entry[0].resource = composition-en-8662bc57cc6dd8ed253b99e206e17747
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8662bc57cc6dd8ed253b99e206e17747"
+* entry[=].resource = mp8662bc57cc6dd8ed253b99e206e17747
+                            
+                    
+Instance: bundlepackageleaflet-da-8662bc57cc6dd8ed253b99e206e17747
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for retsevmo Package Leaflet for language da"
+Description: "ePI document Bundle for retsevmo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8662bc57cc6dd8ed253b99e206e17747"
+* entry[0].resource = composition-da-8662bc57cc6dd8ed253b99e206e17747
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8662bc57cc6dd8ed253b99e206e17747"
+* entry[=].resource = mp8662bc57cc6dd8ed253b99e206e17747
+                            
+                    
+
+
+
+Instance: mp8662bc57cc6dd8ed253b99e206e17747
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Retsevmo 40 mg hard capsules"
-Description: "Retsevmo 40 mg hard capsules"
+Title: "Medicinal Product retsevmo"
+Description: "retsevmo"
 Usage: #inline
 
  
@@ -403,7 +848,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Retsevmo 40 mg hard capsules"
+  * productName = "retsevmo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -430,29 +875,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8662bc57cc6dd8ed253b99e206e17747
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for retsevmo Package Leaflet for language en"
-Description: "ePI document Bundle for retsevmo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8662bc57cc6dd8ed253b99e206e17747ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1527/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "retsevmo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8662bc57cc6dd8ed253b99e206e17747"
-* entry[0].resource = composition-en-8662bc57cc6dd8ed253b99e206e17747
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2ddecfc311bf3194890e20e6477c87f7"
-* entry[=].resource = mp2ddecfc311bf3194890e20e6477c87f7
-                            
-                      
+* title = "List of all ePIs associated with retsevmo"
+
+* subject = Reference(mp2ddecfc311bf3194890e20e6477c87f7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#retsevmo "retsevmo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8662bc57cc6dd8ed253b99e206e17747) // retsevmo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8662bc57cc6dd8ed253b99e206e17747) // retsevmo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8662bc57cc6dd8ed253b99e206e17747
+InstanceOf: List
+
+* insert 8662bc57cc6dd8ed253b99e206e17747ListRuleset
+    

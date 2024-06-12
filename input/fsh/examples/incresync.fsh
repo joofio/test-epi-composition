@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9cd7665100fd3b81b318cbcb65d45fef
 InstanceOf: CompositionUvEpi
 Title: "Composition for incresync Package Leaflet"
@@ -455,12 +458,561 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-9cd7665100fd3b81b318cbcb65d45fef
+InstanceOf: CompositionUvEpi
+Title: "Composition for incresync Package Leaflet"
+Description:  "Composition for incresync Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp68827712567396d9a6ef98491439d4b6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp68827712567396d9a6ef98491439d4b6
+* title = "TEST PURPOSES ONLY - incresync"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Incresync
+3. Sådan skal du tage Incresync
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger.</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What incresync is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What incresync is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Incresync er
+Incresync indeholder to forskellige lægemidler, alogliptin og pioglitazon, i én tablet:
+-
+alogliptin tilhører en gruppe af lægemidler, der kaldes DPP-4-hæmmere 
+(dipeptidyl peptidase-4-hæmmere). Alogliptin virker ved at øge insulinniveauet i kroppen efter 
+et måltid og sænke mængden af sukker i kroppen. 
+-
+pioglitazon tilhører en gruppe af lægemidler, der kaldes thiazolidindioner. Pioglitazon hjælper 
+din krop med bedre at udnytte den insulin, den producerer.
+Begge disse grupper af lægemidler er såkaldte orale antidiabetika (diabetesmedicin til at indtage 
+gennem munden).
+Hvad Incresync bruges til
+Incresync sænker blodsukkeret hos voksne med type 2-diabetes. Type 2-diabetes kaldes også 
+ikke-insulinkrævende diabetes mellitus eller gammelmandssukkersyge.
+Du kan tage Incresync, hvis dit blodsukker ikke kan styres godt nok gennem kost, motion og andre 
+orale antidiabetika såsom pioglitazon eller pioglitazon og metformin taget samtidigt. Din læge tjekker, 
+om Incresync virker tilfredsstillende, 3 til 6 måneder efter du er startet med at tage det.
+Hvis du allerede tager både alogliptin og pioglitazon som separate tabletter, kan Incresync erstatte dem 
+begge.
+Det er vigtigt, at du bliver ved med at følge de råd om kost og motion, som din læge eller 
+sygeplejerske har givet dig.
+44</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take incresync"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take incresync"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Incresync</h2>
+<p>hvis du er allergisk over for alogliptin, pioglitazon eller et af de øvrige indholdsstoffer i 
+Incresync (angivet i punkt 6).
+-
+hvis du har haft en alvorlig allergisk reaktion over for andre lignende lægemidler, som du tager 
+for at styre dit blodsukker. Tegn på en alvorlig allergisk reaktion kan være udslæt, hævede røde 
+områder på huden (nældefeber) og hævelse af ansigt, læber, tunge eller svælg, som kan gøre det 
+svært for dig at trække vejret eller synke. De tegn, du skal være opmærksom på, er kløe, en 
+følelse af varme især i hovedbund, mund, hals, håndflader og fodsåler (Stevens-Johnsons 
+syndrom).
+-
+hvis du lider af hjertesvigt eller tidligere har haft hjertesvigt.
+-
+hvis du har en leversygdom.
+-
+hvis du lider af diabetisk ketoacidose (en alvorlig komplikation ved dårligt reguleret diabetes). 
+De symptomer, du skal være opmærksom på, er udtalt tørst, hyppig vandladning, appetitløshed, 
+kvalme eller opkastning og hurtigt vægttab.
+-
+hvis du lider af eller tidligere har haft blærecancer.
+-
+hvis du har blod i urinen, som din læge ikke har undersøgt. Undlad at tage Incresync, og få din 
+læge til at tjekke din urin hurtigst muligt. 
+Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Incresync:
+-
+hvis du har type 1-diabetes (din krop kan ikke producere insulin).
+-
+hvis du tager diabetesmedicin af typen sulfonylurinstof (f.eks. glipizid, tolbutamid, 
+glibenclamid) eller insulin. 
+-
+hvis du lider af en hjertesygdom eller af væskeophobning. Hvis du tager antiinflammatorisk 
+medicin, som også kan forårsage væskeophobning og hævelse, skal du også fortælle din læge 
+det.
+-
+hvis du er ældre og tager insulin, fordi du kan have en øget risiko for hjerteproblemer.
+-
+hvis du har problemer med lever eller nyrer. Før du begynder at tage Incresync, vil du få taget 
+en blodprøve til kontrol af lever- og nyrefunktion. Denne kontrol skal måske udføres løbende. 
+Hvis du har en nyresygdom, vil din læge muligvis nedsætte dosen af Incresync.
+-
+hvis du lider af en særlig diabetisk øjenlidelse, som hedder makulaødem (væskeansamling i det 
+bagerste af øjet).
+-
+hvis du har cyster på æggestokkene (polycystisk ovariesyndrom). Der kan være større 
+sandsynlighed for at blive gravid, fordi du kan få ægløsning igen, når du tager Incresync. Hvis 
+dette er relevant for dig, skal du anvende sikker prævention, så du undgår uønsket graviditet.
+-
+hvis du har eller har haft sygdom i bugspytkirtlen.
+Blodprøverne kan vise små ændringer i dine blodværdier. Din læge vil muligvis tale med dig om det. 
+Der er set et øget antal knoglebrud hos patienter, især kvinder, der tager pioglitazon. Din læge vil tage 
+dette i betragtning ved planlægning af din behandling.
+Kontakt lægen, hvis du får blærer på huden, da det kan være tegn på en sygdom, der hedder bulløs 
+pemfigoid. Din læge vil muligvis bede dig om at holde op med at tage alogliptin.
+Børn og unge
+Incresync anbefales ikke til børn og unge under 18 år, da der ikke foreligger tilstrækkelige data for 
+denne aldersgruppe. 
+Brug af anden medicin sammen med Incresync
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin for, nylig har taget
+anden medicin eller planlægger at tage anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept, f.eks. naturlægemidler og vitaminer og mineraler.
+45
+Det er især vigtigt, at du fortæller det til lægen, hvis du i forvejen tager et af disse lægemidler:
+-
+gemfibrozil (bruges til at sænke kolesterol)
+-
+rifampicin (bruges til at behandle tuberkulose og andre infektionssygdomme). 
+Du vil få kontrolleret blodsukkeret for at se, om du skal have ændret doseringen af Incresync.
+Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. 
+Der er ingen erfaringer med brug af Incresync til gravide eller ammende kvinder. Du må ikke tage 
+Incresync, hvis du er gravid eller ammer. 
+Trafik- og arbejdssikkerhed
+Du kan opleve synsforstyrrelser, når du tager Incresync. Hvis dette sker, må du ikke køre bil eller 
+betjene værktøj eller maskiner. Hvis du tager Incresync samtidig med anden diabetesmedicin, kan du 
+få for lavt blodsukker (hypoglykæmi), hvilket kan påvirke din evne til at køre bil og betjene maskiner.
+Incresync indeholder lactose
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke kan tåle visse 
+sukkerarter.
+Incresync indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take incresync"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take incresync"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens, eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen, eller apotekspersonalet.
+Lægen fortæller dig, hvor meget Incresync du skal tage, og om du skal ændre mængden af andre 
+lægemidler, du tager.
+Den højeste anbefalede dosis er én 25 mg/45 mg-tablet dagligt.
+Incresync skal tages én gang dagligt. Synk tabletten hel sammen med vand. Du kan tage Incresync 
+med eller uden et måltid.
+Hvis du har nyreproblemer, vil din læge muligvis ordinere en lavere dosis til dig.
+Hvis du følger en diabetesdiæt, skal du fortsætte med denne, mens du tager Incresync.
+Din vægt bør tjekkes med jævne mellemrum, og hvis den stiger, skal du kontakte din læge. 
+Hvis du har taget for meget Incresync
+Hvis du har taget flere tabletter, end du skulle, eller hvis en anden person, f.eks. et barn, tager dine 
+tabletter, skal du kontakte læge eller søge til den nærmeste skadestue med det samme. Tag denne 
+indlægsseddel eller nogle tabletter med, så lægen nøjagtigt ved, hvad der er indtaget.
+Hvis du har glemt at tage Incresync
+Hvis du har glemt at tage en dosis, skal du tage den så snart, du kommer i tanke om det. Du må ikke 
+tage en dobbeltdosis som erstatning for den glemte dosis.
+46
+Hvis du holder op med at tage Incresync
+Hold ikke op med at tage Incresync uden at tale med din læge først. Dit blodsukker kan blive højere, 
+når du holder op med at tage Incresync.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+STOP med at tage Incresync, og kontakt lægen med det samme, hvis du får en eller flere af de 
+følgende alvorlige bivirkninger:
+Almindelige bivirkninger (forekommer hos op til 1 ud af 10 personer):
+-
+Pludselige og stærke knoglesmerter eller ubevægelighed (særligt hos kvinder).
+Ikke almindelige bivirkninger (forekommer hos op til 1 ud af 100 personer):
+-
+Symptomer på blærecancer, herunder blod i urinen, smerter ved vandladning og pludselig 
+vandladningstrang.
+Bivirkninger med ukendt hyppighed (hyppigheden kan ikke bestemmes ud fra de foreliggende
+data):
+-
+En allergisk reaktion. Tegnene kan være udslæt, nældefeber, synke- eller åndedrætsbesvær, 
+opsvulmede læber, ansigt, svælg eller tunge og besvimelsesfornemmelse. 
+-
+En alvorlig allergisk reaktion: hudlæsioner eller pletter på huden, der kan udvikle sig til et sår 
+omgivet af blege eller røde ringe, blæredannelse og/eller afskalning af huden eventuelt med 
+symptomer som kløe, feber, generel utilpashed, smertende led, synsforstyrrelser, brændende 
+smertefuld eller kløende øjne og sår i munden (Steven-Johnson syndrome og erythema 
+multiforme).
+-
+Stærke og vedvarende smerter i maven, som kan stråle ud i ryggen, samt kvalme og 
+opkastning. Det kan være tegn på betændelse i bugspytkirtlen (pancreatitis).
+Du skal også fortælle din læge, hvis du får følgende bivirkninger: 
+Almindelige bivirkninger:
+-
+Tegn på lavt blodsukker (hypoglykæmi), som kan opstå, hvis Incresync tages i kombination 
+med insulin eller sulfonylurinstof (f.eks. glipizid, tolbutamid eller glibenclamid). Tegnene kan 
+være rysten, svedtendens, angst, sløret syn, prikkende fornemmelse i læber, bleghed, 
+humørsvingninger eller forvirring. Blodsukkeret kan falde til under det normale niveau, men kan 
+bringes til at stige igen, hvis du indtager sukker. Det anbefales, at du altid medbringer lidt 
+sukkerknalder, slik, kiks eller sukkerholdig frugtjuice.
+-
+forkølelse eller influenzalignende symptomer som ondt i halsen og tilstoppet næse
+-
+bihulebetændelse (sinusitis)
+-
+hudkløe
+-
+hovedpine
+-
+mavesmerter
+-
+diarré 
+-
+fordøjelsesbesvær, opstød 
+-
+almen sygdomsfornemmelse
+-
+muskelsmerter
+-
+følelsesløshed i en del af kroppen
+-
+sløret eller forvrænget syn
+-
+vægtforøgelse
+-
+hævede hænder eller fødder
+-
+udslæt
+47
+Ikke almindelige bivirkninger:
+-
+søvnbesvær
+Bivirkninger med ukendt hyppighed: 
+-
+synsforstyrrelser (forårsaget af en diabetisk øjenlidelse kaldet makulaødem)
+-
+leverproblemer, der viser sig som kvalme, opkastning, mavesmerter, usædvanlig eller 
+uforklarlig træthed, manglende appetit, mørkfarvet urin eller gulfarvning af huden eller det 
+hvide i øjnene
+-
+betændelse i bindevævet i nyrerne (interstitiel nefritis)
+-
+blærer på huden (bulløs pemfigoid).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store incresync"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store incresync"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke Incresync efter den udløbsdato, der står på æsken og blisterkortet efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned.
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i den 
+originale yderpakning for at beskytte mod fugt.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Incresync indeholder:</h2>
+<p>Aktive stoffer: alogliptin og pioglitazon.
+Hver 25 mg/30 mg filmovertrukken tablet indeholder alogliptinbenzoat og pioglitazonhydrochlorid
+svarende til 25 mg alogliptin og 30 mg pioglitazon.
+-
+Øvrige indholdsstoffer: mannitol, mikrokrystallinsk cellulose, hydroxypropylcellulose, 
+croscarmelosenatrium, magnesiumstearat, lactosemonohydrat, hypromellose, talkum, 
+titandioxid (E171), gul jernoxid (E172), rød jernoxid (E172), macrogol 8000, shellac, og sort 
+jernoxid (E172). Se punkt 2 "Incresync indeholder lactose".
+Hver 25 mg/45 mg filmovertrukken tablet indeholder alogliptinbenzoat og pioglitazonhydrochlorid
+svarende til 25 mg alogliptin og 45 mg pioglitazon.
+-
+Øvrige indholdsstoffer: mannitol, mikrokrystallinsk cellulose, hydroxypropylcellulose, 
+croscarmelosenatrium, magnesiumstearat, lactosemonohydrat, hypromellose, talkum, 
+titandioxid (E171), rød jernoxid (E172), macrogol 8000, shellac, og sort jernoxid (E172). Se 
+punkt 2 "Incresync indeholder lactose".
+Hver 12,5 mg/30 mg filmovertrukken tablet indeholder alogliptinbenzoat og pioglitazonhydrochlorid
+svarende til 12,5 mg alogliptin og 30 mg pioglitazon.
+-
+Øvrige indholdsstoffer: mannitol, mikrokrystallinsk cellulose, hydroxypropylcellulose, 
+croscarmelosenatrium, magnesiumstearat, lactosemonohydrat, hypromellose, talkum, 
+titandioxid (E171), gul jernoxid (E172), rød jernoxid (E172), macrogol 8000, shellac, 
+carnaubavoks og glycerol mono-oleat. Se punkt 2 "Incresync indeholder lactose".
+48
+Udseende og pakningstørrelser
+-
+Incresync 25 mg/30 mg filmovertrukne tabletter (tabletter) er ferskenfarvede, runde (ca. 8,7 mm 
+i diameter), bikonvekse, filmovertrukne tabletter med både "A/P" og"25/30" trykt i gråt på den 
+ene side.
+-
+Incresync 25 mg/45 mg filmovertrukne tabletter (tabletter) er røde, runde (ca. 8,7 mm i 
+diameter), bikonvekse, filmovertrukne tabletter med både "A/P" og"25/45" trykt i gråt på den 
+ene side.
+-
+Incresync 12,5 mg/30 mg filmovertrukne tabletter (tabletter) er svagt ferskenfarvede, runde (ca. 
+8,7 mm i diameter), bikonvekse, filmovertrukne tabletter med både "A/P" og"12.5/30" trykt i 
+rødt på den ene side.
+Incresync fås i blisterpakninger indeholdende 10, 14, 28, 30, 56, 60, 90, 98 eller 100 tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Takeda Pharma A/S
+Delta Park 45
+2665 Vallensbæk Strand
+Danmark
+Fremstiller
+Takeda Ireland Limited
+Bray Business Park
+Kilruddery
+Co. Wicklow
+Irland
+Hvis du ønsker yderligere oplysninger om Incresync, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Takeda Belgium NV
+Tel/Tél: +32 2 464 06 11
+medinfoEMEA@takeda.com
+Lietuva
+Takeda, UAB
+Tel: +370 521 09 070
+medinfoEMEA@takeda.com
+България
+Такеда България ЕООД
+Тел.: +359 2 958 27 36
+medinfoEMEA@takeda.com
+Luxembourg/Luxemburg
+Takeda Belgium NV
+Tel/Tél: +32 2 464 06 11
+medinfoEMEA@takeda.com
+Česká republika
+Takeda Pharmaceuticals Czech Republic s.r.o.
+Tel: +420 234 722 722
+medinfoEMEA@takeda.com
+Magyarország
+Takeda Pharma Kft.
+Tel: +36 1 270 7030
+medinfoEMEA@takeda.com
+Danmark
+Takeda Pharma A/S
+Tlf: +45 46 77 10 10
+medinfoEMEA@takeda.com
+Malta
+Takeda HELLAS S.A.
+Tel: +30 210 6387800
+medinfoEMEA@takeda.com
+49
+Deutschland
+Takeda GmbH
+Tel: +49 (0)800 825 3325
+medinfoEMEA@takeda.com
+Nederland
+Takeda Nederland B.V.
+Tel: +31 20 203 5492
+medinfoEMEA@takeda.com
+Eesti
+Takeda Pharma AS
+Tel: +372 6177 669
+medinfoEMEA@takeda.com
+Norge
+Takeda AS
+Tlf: +47 800 800 30
+medinfoEMEA@takeda.com
+Ελλάδα
+Takeda ΕΛΛΑΣ Α.Ε.
+Τηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Österreich
+Takeda Pharma Ges. m.b.H.
+Tel: +43 (0) 800-20 80 50
+medinfoEMEA@takeda.com 
+España
+Laboratorios Menarini, S.A
+Tel: +34 934 628 800
+info@menarini.es
+Polska
+Takeda Pharma Sp. z o.o.
+tel: +48223062447
+medinfoEMEA@takeda.com 
+France
+Takeda France SAS
+Tel: + 33 1 40 67 33 00
+medinfoEMEA@takeda.com
+Portugal
+Tecnimede - Sociedade Técnico-Medicinal, S.A 
+Tel: +351 21 041 41 dmed.fv@tecnimede.pt 
+Hrvatska
+Takeda Pharmaceuticals Croatia d.o.o
+Tel: +385 1 377 88 96
+medinfoEMEA@takeda.com
+România
+Takeda Pharmaceuticals SRL
+Tel: +40 21 335 03 91
+medinfoEMEA@takeda.com
+Ireland
+Takeda Products Ireland Ltd
+Tel: 1800 937 970
+medinfoEMEA@takeda.com
+Slovenija
+Takeda Pharmaceuticals farmacevtska družba d.o.o..
+Tel: +386 (0) 59 082 480
+medinfoEMEA@takeda.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+medinfoEMEA@takeda.com
+Slovenská republika
+Takeda Pharmaceuticals Slovakia s.r.o.
+Tel: +421 (2) 20 602 600
+medinfoEMEA@takeda.com
+Italia
+Takeda Italia S.p.A.
+Tel: +39 06 502601
+medinfoEMEA@takeda.com
+Suomi/Finland
+Takeda Oy
+Puh/Tel: 0800 774 051
+medinfoEMEA@takeda.com
+Κύπρος
+Takeda ΕΛΛΑΣ Α.Ε.
+Τηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Sverige
+Takeda Pharma AB
+Tel: 020 795 079
+medinfoEMEA@takeda.com
+Latvija
+Takeda Latvia SIA
+Tel: +371 67840082
+medinfoEMEA@takeda.com
+United Kingdom (Northern Ireland)
+Takeda UK Ltd
+Tel: +44 (0) 2830 640 902
+medinfoEMEA@takeda.com
+50
+Denne indlægsseddel blev senest ændret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9cd7665100fd3b81b318cbcb65d45fef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for incresync Package Leaflet for language en"
+Description: "ePI document Bundle for incresync Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9cd7665100fd3b81b318cbcb65d45fef"
+* entry[0].resource = composition-en-9cd7665100fd3b81b318cbcb65d45fef
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9cd7665100fd3b81b318cbcb65d45fef"
+* entry[=].resource = mp9cd7665100fd3b81b318cbcb65d45fef
+                            
+                    
+Instance: bundlepackageleaflet-da-9cd7665100fd3b81b318cbcb65d45fef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for incresync Package Leaflet for language da"
+Description: "ePI document Bundle for incresync Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9cd7665100fd3b81b318cbcb65d45fef"
+* entry[0].resource = composition-da-9cd7665100fd3b81b318cbcb65d45fef
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9cd7665100fd3b81b318cbcb65d45fef"
+* entry[=].resource = mp9cd7665100fd3b81b318cbcb65d45fef
+                            
+                    
+
+
+
+Instance: mp9cd7665100fd3b81b318cbcb65d45fef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Incresync 12.5 mg/30 mg film-coated tablets"
-Description: "Incresync 12.5 mg/30 mg film-coated tablets"
+Title: "Medicinal Product incresync"
+Description: "incresync"
 Usage: #inline
 
  
@@ -480,7 +1032,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Incresync 12.5 mg/30 mg film-coated tablets"
+  * productName = "incresync"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -507,29 +1059,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9cd7665100fd3b81b318cbcb65d45fef
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for incresync Package Leaflet for language en"
-Description: "ePI document Bundle for incresync Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9cd7665100fd3b81b318cbcb65d45fefListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/842/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "incresync"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9cd7665100fd3b81b318cbcb65d45fef"
-* entry[0].resource = composition-en-9cd7665100fd3b81b318cbcb65d45fef
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp68827712567396d9a6ef98491439d4b6"
-* entry[=].resource = mp68827712567396d9a6ef98491439d4b6
-                            
-                      
+* title = "List of all ePIs associated with incresync"
+
+* subject = Reference(mp68827712567396d9a6ef98491439d4b6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#incresync "incresync"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9cd7665100fd3b81b318cbcb65d45fef) // incresync en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9cd7665100fd3b81b318cbcb65d45fef) // incresync da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9cd7665100fd3b81b318cbcb65d45fef
+InstanceOf: List
+
+* insert 9cd7665100fd3b81b318cbcb65d45fefListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-7aec1315865776793cc9c31ea9e857c4
 InstanceOf: CompositionUvEpi
 Title: "Composition for fasenra Package Leaflet"
@@ -304,12 +307,611 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-7aec1315865776793cc9c31ea9e857c4
+InstanceOf: CompositionUvEpi
+Title: "Composition for fasenra Package Leaflet"
+Description:  "Composition for fasenra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8ad65858f04704dcc6aa8a713ec17f99)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8ad65858f04704dcc6aa8a713ec17f99
+* title = "TEST PURPOSES ONLY - fasenra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Fasenra
+3. Sådan skal du bruge Fasenra
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What fasenra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What fasenra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Fasenra
+Fasenra indeholder det aktive stof benralizumab, som er et monoklonalt antistof, en type protein, som 
+genkender og binder sig til et specielt målrettet stof i kroppen. Formålet med benralizumab er et 
+protein kaldet interleukin 5-receptor, som især findes på en type hvide blodlegemer, der hedder 
+eosinofile celler.
+Hvad bruges Fasenra til
+Fasenra bruges til at behandle alvorlig eosinofil astma hos voksne. Eosinofil astma er en type astma, 
+hvor patienterne har et unormalt højt antal eosinofile celler i blodet eller lungerne.
+Fasenra bruges sammen med andre lægemidler til behandling af astma (høje doser af "kortikosteroide
+inhalatorer" og anden astmamedicin), når sygdommen ikke er tilstrækkelig reguleret af disse alene.
+Hvordan virker Fasenra
+Eosinofile celler er hvide blodlegemer, der medvirker til astma og inflammation. Ved at binde sig til 
+de eosinofile celler hjælper Fasenra med at nedsætte deres antal og reducere inflammation.
+Hvad er fordelene ved brug af Fasenra
+Fasenra kan reducere antallet af astmaanfald, som du får, hjælpe dig til en bedre vejrtrækning og 
+mindske astmasymptomerne. Hvis du tager medicin, som kaldes "orale kortikosteroider", kan brug af 
+Fasenra også lade dig reducere den daglige dosis eller stoppe med de orale kortikosteroider, som du 
+har brug for til at regulere din astma.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take fasenra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take fasenra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Fasenra:
+
+hvis du er allergisk over for benralizumab eller et af de øvrige indholdsstoffer i Fasenra
+(angivet i afsnit 6). Rådfør dig med lægen, apotekspersonalet eller sygeplejersken, hvis du 
+tror at det gælder for dig.
+32
+Advarsler og forsigtighedsregler
+Kontakt lægen, sygeplejersken eller apotekspersonalet før du får Fasenra:
+
+hvis du har en parasitinfektion eller hvis du bor i et område, hvor parasitinfektioner er 
+almindelige, eller hvis du rejser til en sådan region. Dette lægemiddel kan svække din evne til at 
+bekæmpe visse typer parasitinfektioner.
+
+hvis du tidligere har haft en allergisk reaktion på en injektion eller medicin (se afsnit 4 for 
+symptomer på en allergisk reaktion).
+Kontakt også lægen, sygeplejersken eller apotekspersonalet, når du får Fasenra:
+
+hvis din astma forbliver ukontrolleret eller forværres under behandling med dette 
+lægemiddel.
+
+hvis du har symptomer på en allergisk reaktion (se afsnit 4). Allergiske reaktioner er 
+forekommet hos patienter, der får denne medicin.
+Fasenra er ikke anfaldsmedicin. Brug det ikke til at behandle et pludseligt astmaanfald.
+Vær opmærksom på tegn på alvorlige, allergiske reaktioner
+Fasenra kan potentielt forårsage alvorlige, allergiske reaktioner. Du skal være opmærksom på tegn på 
+disse reaktioner (såsom nældefeber, udslæt, vejrtrækningsbesvær, besvimelse, svimmelhed, en følelse 
+af uklarhed og/eller hævelse af dit ansigt, tunge eller mund), når du tager Fasenra.
+Det er vigtigt, at du snakker med din læge om, hvordan du genkender tidlige symptomer på alvorlige 
+allergiske reaktioner, og hvordan du håndterer disse reaktioner, hvis de opstår.
+Brug af anden medicin mod astma
+Stop ikke pludseligt med at bruge og ændr ikke pludselig dosis af dine forebyggende lægemidler mod 
+astma, når du er startet med Fasenra.
+Hvis din reaktion på behandlingen tillader det, kan lægen forsøge at reducere dosis af nogle af disse 
+lægemidler, især dem, der kaldes "kortikosteroider". Dette skal ske gradvist og under direkte 
+overvågning af din læge.
+Børn og unge
+Giv ikke dette lægemiddel til børn og unge under 18 år, da dette lægemiddels sikkerhed og virkning
+ikke er kendt i denne population.
+Brug af anden medicin sammen med Fasenra
+Fortæl det altid til lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller 
+planlægger at bruge anden medicin før du får Fasenra.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel.
+Brug ikke Fasenra, hvis du er gravid, medmindre din læge siger andet. Det er ukendt, om Fasenra kan 
+skade dit ufødte barn.
+Det vides ikke, om indholdsstofferne i Fasenra kan passere over i modermælk. Hvis du ammer eller 
+planlægger at amme, skal du kontakte din læge, inden du bruger Fasenra.
+Trafik- og arbejdssikkerhed
+Det er usandsynligt, at Fasenra vil påvirke din evne til at køre og betjene maskiner.
+33</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take fasenra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take fasenra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, sygeplejersken
+eller apotekspersonalet.
+Den anbefalede dosis er en injektion på 30 mg. De første 3 injektioner gives hver 4. uge. Derefter er 
+dosis af injektionen 30 mg hver 8. uge.
+Fasenra gives som en injektion lige under huden (subkutant). Du og din læge eller sygeplejerske skal 
+beslutte, om du skal injicere Fasenra selv. Du må ikke selv injicere Fasenra, hvis du ikke tidligere har 
+fået behandling med Fasenra, og hvis du tidligere har haft en allergisk reaktion i forbindelse med 
+Fasenra.
+Du eller din omsorgsperson skal oplæres i den rigtige måde at injicere Fasenra. Læs 
+brugervejledningen for den fyldte injektionssprøjte omhyggeligt, inden du bruger Fasenra.
+Hvis du har glemt at tage Fasenra
+Hvis du har glemt at injicere en dosis Fasenra, skal du straks tale med din læge, apotekspersonalet
+eller sygeplejersken.
+Hvis du holder op med at bruge Fasenra
+Stop ikke behandling med Fasenra, medmindre din læge råder dig til det. Afbrydelse eller standsning 
+af behandlingen med Fasenra kan medføre, at dine astmasymptomer og anfald kommer tilbage.
+Hvis dine astmasymptomer bliver værre, mens du får injektioner af Fasenra, skal du kontakte lægen.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige allergiske reaktioner
+Søg straks lægehjælp, hvis du tror, at du har fået en allergisk reaktion. Sådanne reaktioner kan 
+forekomme inden for timer eller dage efter injektionen.
+Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data):
+
+anafylaksi
+Symptomer herpå omfatter:<em> hævelse af ansigt, tunge eller mund</em> åndedrætsbesvær* besvimelse, svimmelhed, ørhed (på grund af et fald i blodtrykket)
+Almindelig (kan forekomme hos op til 1 ud af 10 personer)
+
+overfølsomhedsreaktioner (nældefeber, udslæt)
+Andre bivirkninger:
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+
+hovedpine
+
+halsbetændelse (ondt i halsen)
+
+feber (høj temperatur)
+
+reaktion på injektionsstedet (f.eks. smerter, rødme, kløe, hævelse tæt på hvor indsprøjtningen 
+blev givet).
+34
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store fasenra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store fasenra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Fasenra er til éngangsbrug.
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned.
+Opbevares i den originale yderpakning for at beskytte mod lys.
+Opbevares i køleskab (2 °C - 8 °C).
+Injektionssprøjten kan opbevares ved stuetemperatur op til 25 °C i højst 14 dage. Når Fasenra er taget 
+ud af køleskabet, skal det anvendes inden for 14 dage eller kasseres. Dato for kassering skal skrives på 
+kartonen.
+Må ikke omrystes, nedfryses eller udsættes for varme.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Fasenra indeholder:</h2>
+<h2>Aktivt stof: benralizumab. Én fyldt sprøjte med 1 ml indeholder 30 mg benralizumab.</h2>
+<p>Øvrige indholdsstoffer: histidin, histidinhydrochloridmonohydrat, trehalosedihydrat, polysorbat 
+20, vand til injektionsvæsker.
+Udseende og pakningsstørrelser
+Fasenra er en opløsning i en klar glassprøjte. Farven kan variere fra farveløs til gul. Den kan indeholde 
+partikler.
+Fasenra findes i en pakning med 1 fyldt injektionssprøjte.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85
+Södertälje
+Sverige
+Fremstiller
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Sverige
+MedImmune UK Ltd
+6 Renaissance Way
+Liverpool, L24 9JW
+35
+Storbritannien
+AstraZeneca Nijmegen B.V., Nijmegen
+Lagelandseweg 78
+Nijmegen, 6545CG
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+36
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.</p>
+<hr />
+<p>37
+Brugervejledning
+Fasenra 30 mg injektionsvæske, opløsning i fyldt injektionssprøjte
+benralizumab
+Til subkutan injektion
+Fyldt injektionssprøjte til engangsbrug
+Inden du bruger din Fasenra fyldte injektionssprøjte, skal lægen eller din omsorgsperson vise dig, 
+hvordan du bruger den korrekt.
+Læs denne brugervejledning, inden du begynder at bruge din Fasenra fyldte injektionssprøjte, 
+og hver gang du får en ny pakning. Der kan være nye oplysninger. Disse oplysninger erstatter ikke,
+at du taler med lægen om din medicinske tilstand eller din behandling.
+Hvis du eller din omsorgsperson har spørgsmål, skal du kontakte din læge.
+Vigtig information
+Opbevar Fasenra i køleskab mellem 2 °C og 8 °C i kartonen, indtil du er klar til at bruge det.
+Fasenra kan opbevares ved stuetemperatur op til 25 °C i højst 14 dage. Når du har taget Fasenra ud af 
+køleskabet, skal det anvendes inden for 14 dage eller kasseres.
+Brug ikke din Fasenra fyldte injektionssprøjte hvis:
+
+den har været frossen
+
+den har været tabt eller er ødelagt
+
+forseglingen på kartonen er brudt
+
+udløbsdatoen (EXP) er overskredet
+Du må ikke:
+
+omryste din fyldte injektionssprøjte
+
+dele eller genbruge din fyldte 
+injektionssprøjte
+Hvis noget af ovenstående sker, skal du kassere sprøjten i en kanylebeholder og bruge en ny fyldt 
+injektionssprøjte.
+Hver Fasenra fyldt injektionssprøjte indeholder 1 dosis Fasenra, der kun er til engangsbrug.
+Hold Fasenra og alle lægemidler utilgængeligt for børn.
+Din Fasenra fyldte injektionssprøjte
+Tag ikke nålehætten af, før du har nået trin 6 i denne brugervejledning og er klar til at injicere 
+Fasenra.
+Undgå at berøre aktiveringsklipsen til nålesikring for at undgå at aktivere sikkerhedsanordningen 
+(nålesikringen) for tidligt.
+Aktiveringsklips 
+til nålesikring
+Sprøjte-
+cylinder
+Etiket med 
+udløbsdato
+Nålehætte
+Stempelhoved
+Stempel
+Finger-
+flange
+Vindue
+Nål
+38
+Trin 1 - Find delene frem
+
+1 Fasenra fyldt injektionssprøjte fra køleskabet
+
+1 spritserviet
+
+1 bomuldstot eller gaze
+
+1 kanylebeholder.
+(Se trin 9 - Kassér den brugte sprøjte)
+Fyldt injektionssprøjte
+Spritserviet
+Bomuldstot eller gaze
+Kanylebeholder
+Trin 2 - Forberedelse til brug af fyldt injektionssprøjte
+Tjek udløbsdatoen (EXP). Du må ikke bruge den, hvis udløbsdatoen er 
+overskredet.
+Tillad den fyldte sprøjte at opnå stuetemperatur 20°C til 25°C ved at tage 
+kartonen ud af køleskabet ca. 30 minutter før administration.
+Varm ikke den fyldte injektionssprøjte op på nogen anden måde. Varm den for 
+eksempel ikke i en mikrobølgeovn eller i varmt vand, og læg den ikke tæt på 
+andre varmekilder.
+Brug Fasenra inden for 14 dage efter at det er taget ud af køleskabet. 
+Trin 3 - Tjek opløsningen
+Tag fat i sprøjtecylinderen (ikke stemplet) for at tage den fyldte 
+sprøjte.
+Kig på opløsningen gennem vinduet. Opløsningen skal være klar og 
+farveløs til gul. Den kan indeholde små hvide partikler.
+Injicer ikke Fasenra, hvis opløsningen er uklar, misfarvet eller 
+indeholder store partikler.
+Du kan måske se en lille luftboble i opløsningen. Dette er normalt. Du 
+behøver ikke at gøre noget ved det. 
+Trin 4 - Vælg injektionssted
+Det anbefalede injektionssted er foran på låret.
+Du kan også bruge den nederste del af din mave.
+Du må ikke injicere:
+
+inden for et område på 5 cm rundt om navlen
+
+hvor huden er øm, skællet, hård eller har blå mærker
+
+i ar eller beskadiget hud
+
+gennem tøj
+En omsorgsperson kan injicere dig i overarmen, låret eller 
+maven. Forsøg ikke at injicere dig selv i armen.
+30
+min
+Kun 
+omsorgs-
+person her
+39
+For hver injektion skal du vælge et nyt sted, der er mindst 
+3 cm væk fra hvor du sidst fik injektion.
+Trin 5 - Rensning af injektionsstedet
+Vask hænderne grundigt med sæbe og vand.
+Rens injektionsstedet med en spritserviet i en cirkulær bevægelse. 
+Lad det lufttørre.
+Rør ikke det rensede område før injektion.
+Vift eller pust ikke på det rensede område.
+Trin 6 - Træk nålehætten af
+Hold sprøjtecylinderen med én hånd, og træk forsigtigt nålehætten 
+lige af med den anden hånd.
+Hold ikke på stemplet eller stempelhovedet, mens du tager 
+nålehætten af.
+Læg nålehætten til side så du kan smide den ud senere.
+Du kan måske se en dråbe væske ved nålens ende. Dette er normalt.
+Brug ikke sprøjten, hvis den tabes uden nålehætten på, eller hvis 
+nålen er beskadiget eller beskidt.
+Rør ikke ved nålen, og lad den ikke røre ved nogen overflade.
+Gå straks videre til de næste trin uden ophold.
+Trin 7 - Injicer Fasenra
+Hold den fyldte injektionssprøjte i én hånd som vist. 
+Brug den anden hånd til forsigtigt at klemme om og holde det 
+område af huden, hvor du vil injicere. Dette skaber en fastere 
+overflade.
+Tryk ikke på stemplet, før nålen er helt indsat i huden.
+Træk ikke stemplet tilbage på noget tidspunkt.
+Injicer Fasenra ved at følge trinene i figur a, b og c.
+40
+Brug en hurtig, kort bevægelse 
+for at sætte nålen ind i den 
+sammenklemte hud.
+Indsæt nålen i en vinkel på 
+45 grader.
+Brug tommelfingeren til at 
+trykke ned på stempelhovedet.
+Bliv ved med at trykke, indtil 
+det er så langt nede, som det
+kan komme. Dette er for at 
+sikre, at du injicerer alt 
+medicinen.
+Hold tommelfingeren trykket 
+ned på stempelhovedet, når du 
+tager nålen ud af huden.
+Løft langsomt op på stemplet, 
+indtil nålebeskyttelsen dækker 
+nålen.
+Trin 8 - Tjek injektionsstedet
+Der kan være en lille mængde blod eller væske, hvor du injicerede. 
+Dette er normalt.
+Pres forsigtigt på din hud med en bomuldstot eller gaze, indtil
+blødningen stopper.
+Gnid ikke på injektionsstedet.
+Om nødvendigt kan du dække injektionsstedet med et lille plaster.
+Trin 9 - Kassér den brugte injektionssprøjte
+
+Hver fyldt injektionssprøjte indeholder en enkelt dosis Fasenra 
+og kan ikke genbruges.
+
+Kassér den brugte sprøjte i en kanylebeholder umiddelbart efter 
+brug.
+Smid ikke den fyldte sprøjte ud med dit husholdningsaffald.
+Sæt ikke nålehætten tilbage på injektionssprøjten.
+Smid hætten og andre brugte dele ud med dit husholdningsaffald.
+Retningslinjer for bortskaffelse
+Bortskaf den fyldte kanylebeholder som anvist af din læge eller apotekspersonalet.
+Genbrug ikke din brugte kanylebeholder.
+a
+45°
+b
+c
+41
+Indlægsseddel: Information til patienten
+Fasenra 30 mg injektionsvæske, opløsning i fyldt pen
+benralizumab
+Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-7aec1315865776793cc9c31ea9e857c4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fasenra Package Leaflet for language en"
+Description: "ePI document Bundle for fasenra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7aec1315865776793cc9c31ea9e857c4"
+* entry[0].resource = composition-en-7aec1315865776793cc9c31ea9e857c4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7aec1315865776793cc9c31ea9e857c4"
+* entry[=].resource = mp7aec1315865776793cc9c31ea9e857c4
+                            
+                    
+Instance: bundlepackageleaflet-da-7aec1315865776793cc9c31ea9e857c4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fasenra Package Leaflet for language da"
+Description: "ePI document Bundle for fasenra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-7aec1315865776793cc9c31ea9e857c4"
+* entry[0].resource = composition-da-7aec1315865776793cc9c31ea9e857c4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7aec1315865776793cc9c31ea9e857c4"
+* entry[=].resource = mp7aec1315865776793cc9c31ea9e857c4
+                            
+                    
+
+
+
+Instance: mp7aec1315865776793cc9c31ea9e857c4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Fasenra 30 mg solution for injection in pre-filled syringe"
-Description: "Fasenra 30 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product fasenra"
+Description: "fasenra"
 Usage: #inline
 
  
@@ -329,7 +931,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Fasenra 30 mg solution for injection in pre-filled syringe"
+  * productName = "fasenra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -356,29 +958,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-7aec1315865776793cc9c31ea9e857c4
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for fasenra Package Leaflet for language en"
-Description: "ePI document Bundle for fasenra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 7aec1315865776793cc9c31ea9e857c4ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1252/001 1 pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "fasenra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-7aec1315865776793cc9c31ea9e857c4"
-* entry[0].resource = composition-en-7aec1315865776793cc9c31ea9e857c4
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8ad65858f04704dcc6aa8a713ec17f99"
-* entry[=].resource = mp8ad65858f04704dcc6aa8a713ec17f99
-                            
-                      
+* title = "List of all ePIs associated with fasenra"
+
+* subject = Reference(mp8ad65858f04704dcc6aa8a713ec17f99)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#fasenra "fasenra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-7aec1315865776793cc9c31ea9e857c4) // fasenra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-7aec1315865776793cc9c31ea9e857c4) // fasenra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-7aec1315865776793cc9c31ea9e857c4
+InstanceOf: List
+
+* insert 7aec1315865776793cc9c31ea9e857c4ListRuleset
+    

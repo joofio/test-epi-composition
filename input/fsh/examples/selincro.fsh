@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for selincro Package Leaflet"
@@ -358,12 +361,458 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-ae73c4d5c65d453ea1d22b1e78ebf3b3
+InstanceOf: CompositionUvEpi
+Title: "Composition for selincro Package Leaflet"
+Description:  "Composition for selincro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8655bae09295ea090663c2bc8c961e15)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8655bae09295ea090663c2bc8c961e15
+* title = "TEST PURPOSES ONLY - selincro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Selincro </li>
+<li>Sådan skal du tage Selincro </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What selincro is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What selincro is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Selincro indeholder det aktive stof nalmefen. </p>
+<p>Selincro bruges til at nedsætte alkoholforbruget hos voksne patienter med alkoholafhængighed, hvor 
+alkoholforbruget stadig er stort to uger efter den første konsultation hos lægen. </p>
+<p>Der er tale om alkoholafhængighed, når en person har en fysisk eller psykisk afhængighed af 
+indtagelse af alkohol. </p>
+<p>Et stort alkoholforbrug er defineret som indtagelse af mere end 60 g ren alkohol pr. dag for mænds 
+vedkommende og mere end 40 g ren alkohol pr. dag for kvinders vedkommende. En flaske vin 
+(750 ml; 12% alkoholvolumen) indeholder f.eks. ca. 70 g alkohol, og en øl (330 ml; 5% 
+alkoholvolumen) indeholder ca. 13 g alkohol. </p>
+<p>Din læge har ordineret Selincro, fordi du ikke alene kunne nedsætte dit alkoholforbrug. Din læge vil 
+yde rådgivning for at hjælpe dig med at følge din behandling og derved nedsætte dit alkoholforbrug. </p>
+<p>Selincro virker ved at påvirke de processer i hjernen, som er årsagen til din trang til at fortsætte med at 
+drikke. </p>
+<p>Et stort alkoholforbrug er forbundet med en øget risiko for problemer med helbredet og sociale 
+problemer. Selincro kan hjælpe dig med at nedsætte den mængde alkohol, du drikker, og fastholde det 
+nedsatte alkoholforbrug. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take selincro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take selincro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Selincro:</p>
+<ul>
+<li>Hvis du er allergisk over for nalmefen eller et af de øvrige indholdsstoffer i Selincro (angivet i 
+punkt 6). </li>
+<li>Hvis du tager medicin, der indeholder opioider, f.eks. metadon eller buprenorphin eller 
+smertestillende medicin (såsom morfin, oxycodon eller andre opioider). </li>
+<li>Hvis du er eller for nylig har været afhængig af opioider. Du kan opleve akut 
+opioidabstinenssymptomer (såsom kvalme, opkastning, rystelser, svedtendens og angst). </li>
+<li>Hvis du oplever eller mener, du oplever opioidabstinenssymptomer. </li>
+<li>Hvis du har dårlig lever- eller nyrefunktion. </li>
+<li>Hvis du oplever eller for nylig har oplevet flere alkoholabstinenssymptomer (såsom at se, høre 
+eller fornemme ting, som ikke er der, samt kramper og rystelser). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Selincro. Fortæl det til lægen, hvis du har andre 
+sygdomme, f.eks. depression, kramper, lever- eller nyresygdom. </p>
+<p>Du skal ikke tage Selincro, hvis du og din læge har besluttet, at dit umiddelbare mål er afholdenhed 
+(ikke at drikke alkohol overhovedet), fordi Selincro er beregnet til at nedsætte alkoholforbruget. </p>
+<p>Hvis du får brug for akut lægehjælp, skal du fortælle lægen, at du tager Selincro. Din brug af Selincro 
+kan have indflydelse på lægens valg af akutbehandling. </p>
+<p>Hvis du skal opereres, skal du tale med din læge mindst én uge inden operationen. Det kan være 
+nødvendigt midlertidigt at stoppe med at tage Selincro. </p>
+<p>Hvis du føler dig ved siden af dig selv eller ser og hører ting, som ikke er der, og det gentager sig i 
+mere end et par dage, skal du holde op med at tage Selincro og tale med din læge. </p>
+<p>Den øgede selvmordsrisiko hos alkohol- og stofmisbrugere, med eller uden medfølgende depression, 
+reduceres ikke ved indtagelse af nalmefen. </p>
+<p>Hvis du 65 år eller derover, skal du kontakte lægen eller apoteket, før du tager Selincro. </p>
+<p>Børn og unge </p>
+<p>Selincro må ikke bruges til børn eller unge under 18 år, fordi Selincro ikke er afprøvet i denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Selincro </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
+nylig. Du skal være forsigtig, hvis du samtidig med Selincro tager medicin som f.eks. diclofenac 
+(antiinflammatorisk (dvs. betændelseshæmmende) medicin, der bruges til at behandle f.eks. 
+muskelsmerter), fluconazol (et antibiotikum, der bruges til at behandle sygdomme forårsaget af visse 
+svampetyper), omeprazol (medicin, der bruges til at hæmme syreproduktionen i maven) eller 
+rifampicin (et antibiotikum, der bruges til at behandle sygdomme forårsaget af visse typer bakterier). </p>
+<p>Hvis du tager medicin, der indeholder opioider, vil virkningen af denne medicin blive nedsat, eller 
+også virker medicinen slet ikke, hvis du tager den sammen med Selincro. Det gælder f.eks. visse 
+former for medicin mod hoste og forkølelse, visse lægemidler mod diarré og stærk smertestillende 
+medicin. </p>
+<p>Brug af Selincro sammen med mad og alkohol </p>
+<p>Selincro forhindrer ikke alkoholens berusende virkning. </p>
+<p>Graviditet og amning  </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.  </p>
+<p>Det er uvist, om det er sikkert at bruge Selincro under graviditet og amning. </p>
+<p>Du bør ikke tage Selincro, hvis du er gravid. </p>
+<p>Hvis du ammer, skal du og din læge beslutte, om du skal holde op med at amme, eller om du skal 
+stoppe behandlingen med Selincro under hensyntagen til barnets fordele ved amningen og dine fordele 
+ved behandlingen. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Bivirkninger som f.eks. koncentrationsvanskeligheder, nedsat syn, følelse af at være unormal, kvalme, 
+svimmelhed, døsighed, søvnløshed og hovedpine kan forekomme, når man begynder behandling med 
+Selincro. De fleste af bivirkningerne var milde eller moderate, opstod i starten af behandlingen og 
+varede fra nogle få timer til nogle få dage. Bivirkningerne kan påvirke din evne til at køre bil eller lave 
+andet, der kræver, at du er årvågen, herunder betjening af maskiner. </p>
+<p>Selincro indeholder laktose </p>
+<p>Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take selincro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take selincro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller på apoteket. </p>
+<p>Hvor meget Selincro skal du tage </p>
+<ul>
+<li>
+<p>Den anbefalede dosis er én tablet på de dage, hvor du mener, der er en risiko for, at du vil drikke 
+alkohol </p>
+</li>
+<li>
+<p>Den maksimale dosis er én tablet dagligt </p>
+</li>
+</ul>
+<p>Hvordan og hvornår skal du tage Selincro  </p>
+<ul>
+<li>Selincro er til oral brug. </li>
+<li>Du skal tage tabletten 1-2 timer, før du begynder at drikke alkohol. </li>
+<li>Du skal sluge tabletten hel - du må ikke knuse eller dele den, da Selincro kan forårsage 
+hudirritation, når det kommer i direkte kontakt med huden. </li>
+<li>Du kan tage Selincro med eller uden mad. </li>
+<li>Du kan forvente at kunne nedsætte dit alkoholforbrug i løbet af den første måned, efter at du er 
+begyndt på behandlingen med Selincro. </li>
+<li>Din læge vil regelmæssigt lave opfølgende kontrol, f.eks. en gang om måneden, efter du er 
+startet i Selincro behandling. Hyppigheden vil afhænge af dit forløb. I vil sammen beslutte, 
+hvordan behandlingen skal fortsætte. </li>
+</ul>
+<p>Hvis du har taget for mange Selincro </p>
+<p>Hvis du tror, du har taget for mange Selincro tabletter, skal du kontakte din læge eller apoteket. </p>
+<p>Hvis du har glemt at tage Selincro </p>
+<p>Hvis du er begyndt at drikke alkohol uden først at have taget Selincro, skal du tage én tablet så hurtigt 
+som muligt. </p>
+<p>Hvis du holder op med at tage Selincro </p>
+<p>Efter at du er holdt op med Selincro behandlingen, kan du i nogle dage være mindre følsom over for 
+virkningen af lægemidler, der indeholder opioider. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Der er rapporteret få tilfælde af bivirkninger, hvor patienten har set, hørt eller fornemmet ting, som 
+ikke var der eller har følt sig ved siden af sig selv, men hyppigheden af disse bivirkninger kan ikke 
+beregnes ud fra de foreliggende data. </p>
+<p>De bivirkninger, der blev indberettet for Selincro, var for det meste milde eller moderate. De forekom 
+i begyndelsen af behandlingen og varede fra nogle få timer til nogle få dage. </p>
+<p>Hvis du fortsætter behandlingen med Selincro, eller hvis du begynder behandlingen igen efter en 
+pause, vil du sandsynligvis ikke få bivirkninger. </p>
+<p>I nogle tilfælde kan det være svært at skelne mellem bivirkninger og de symptomer, du kan få, når du 
+nedsætter dit alkoholforbrug.  </p>
+<p>Følgende bivirkninger er set med Selincro: </p>
+<p>Meget almindelige (kan påvirke flere end 1 person ud af 10) 
+- Kvalme 
+- Svimmelhed 
+- Søvnløshed 
+- Hovedpine </p>
+<p>Almindelige (kan påvirke op til 1 person ud af 10) 
+- Appetitløshed 
+- Søvnbesvær, forvirring, rastløshed, nedsat sexlyst 
+- Døsighed, sitren i kroppen, nedsat opmærksomhed, underlig fornemmelse i huden - f.eks. 
+prikkende og snurrende fornemmelse, nedsat følesans 
+- Galoperende hjerte, en følelse af hurtige, kraftige eller uregelmæssige hjerteslag 
+- Opkastning, mundtørhed, diarré 
+- Kraftig svedtendens 
+- Muskelkramper 
+- Følelse af udmattelse, svaghed, ubehag eller utilpashed, generelt underlig tilpas 
+- Vægttab </p>
+<p>Ikke almindelige (kan påvirke op til 1 person ud af 100) 
+- Du ser, hører eller fornemmer ting, som ikke er der 
+- Du føler dig ved siden af dig selv </p>
+<p>Andre bivirkninger (kan ikke fastsættes ud fra de eksisterende data) 
+- Nedsat syn (oftest forbigående) 
+- Hævelser i ansigt, læber, tunge eller svælg 
+- Nældefeber 
+- Kløen 
+- Udslæt 
+- Hudrødme 
+- Muskelsmerte 
+- Langvarig rejsning (priapisme) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendix V. Ved at rapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store selincro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store selincro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </li>
+<li>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </li>
+<li>Brug ikke lægemidlet, hvis der er fejl i tabletterne, f.eks. hvis tabletterne ikke er hele eller er 
+knækkede. </li>
+<li>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Selincro indeholder:</p>
+<ul>
+<li>Én filmovertrukket tablet indeholder 18,06 mg nalmefen (som hydrochloriddihydrat) </li>
+<li>Øvrige indholdsstoffer: 
+Tabletkernen: Mikrokrystallinsk cellulose, vandfri laktose, crospovidon (type A), 
+magnesiumstearat. 
+Tablettens filmovertræk indeholder: Hypromellose, macrogol 400, titandioxid (E171). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Selincro er en hvid, oval, bikonveks, 6,0 x 8,75 mm filmovertrukket tablet. 
+Tabletten er præget med "S" på den ene side af tabletten. </p>
+<p>Selincro fås i pakninger med 7, 14, 28, 42, 49 eller 98 tabletter i blisterpakninger.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+H. Lundbeck A/S 
+Ottiliavej 9 
+DK-2500 Valby 
+Danmark </p>
+<p>Fremstiller 
+H. Lundbeck A/S 
+Ottiliavej 9 
+DK-2500 Valby 
+Danmark </p>
+<p>Elaiapharm 
+2881, Route des Crêtes 
+Z.I. Les Bouillides 
+Sophia Antipolis 
+06560 Valbonne 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsførringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Lundbeck S.A./N.V. 
+Tél/Tel: +32 2 535 7 
+Lietuva 
+H. Lundbeck A/S (Danija) 
+Tel: + 45 36301 
+България 
+Lundbeck Export A/S Representative Office 
+Teл.: +359 2 962 4 
+Luxembourg/Luxemburg 
+Lundbeck S.A. 
+Tél/Tel: +32 2 535 7 
+Česká republika 
+Lundbeck Česká republika s.r.o. 
+Tel: +420 225 275<br />
+Magyarország 
+Lundbeck Hungária Kft. 
+Tel.: +36 1 436 9 
+Danmark 
+Lundbeck Pharma A/S 
+Tel: + 45 4371 4 
+Malta 
+Charles de Giorgio Ltd 
+Tel: +356 25600 
+Deutschland 
+Lundbeck GmbH 
+Tel: +49 40 23649 0 </p>
+<p>Nederland 
+Lundbeck B.V. 
+Tel: +31 20 697 1 
+Eesti 
+Lundbeck Eesti AS 
+Tel: + 372 605 9 
+Norge 
+H. Lundbeck AS 
+Tlf: + 47 91 300<br />
+Ελλάδα 
+Lundbeck Hellas S.A. 
+Τηλ: + 30 210 610 5 
+Österreich 
+Lundbeck Austria GmbH 
+Tel: +43 1 253 621 6España 
+Lundbeck España S.A. 
+Tel: +34 93 494 9 
+Polska 
+Lundbeck Poland Sp. z o. o. 
+Tel.: + 48 22 626 93<br />
+France 
+Lundbeck SAS 
+Tél: + 33 1 79 41 29<br />
+Portugal 
+Lundbeck Portugal Lda 
+Tel: +351 21 00 45<br />
+Hrvatska 
+Lundbeck Croatia d.o.o. 
+Tel: + 385 1 644 8România 
+Lundbeck Romania SRL 
+Tel: +40 21319 88<br />
+Ireland 
+Lundbeck (Ireland) Limited 
+Tel: +353 1 468 9 
+Slovenija 
+Lundbeck Pharma d.o.o. 
+Tel.: +386 2 229 4 
+Ísland 
+Vistor hf. 
+Sími: +254 535 7 
+Slovenská republika 
+Lundbeck Slovensko s.r.o. 
+Tel: +421 2 5341 42<br />
+Italia 
+Lundbeck Italia S.p.A. 
+Tel: +39 02 677 4 
+Suomi/Finland 
+Oy H. Lundbeck Ab 
+Puh/Tel: + 358 2 276 5 
+Κύπρος 
+Lundbeck Hellas A.E 
+Τηλ.: + 357 22490 
+Sverige 
+H. Lundbeck AB 
+Tel: +46 40 699 82<br />
+Latvija 
+H. Lundbeck A/S (Dānija) 
+Tel: + 45 36301 
+United Kingdom (Northern Ireland) 
+Lundbeck (Ireland) Limited 
+Tel: +353 1 468 9 </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Denne indlægsseddel blev senest ændret  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for selincro Package Leaflet for language en"
+Description: "ePI document Bundle for selincro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3"
+* entry[0].resource = composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpae73c4d5c65d453ea1d22b1e78ebf3b3"
+* entry[=].resource = mpae73c4d5c65d453ea1d22b1e78ebf3b3
+                            
+                    
+Instance: bundlepackageleaflet-da-ae73c4d5c65d453ea1d22b1e78ebf3b3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for selincro Package Leaflet for language da"
+Description: "ePI document Bundle for selincro Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-ae73c4d5c65d453ea1d22b1e78ebf3b3"
+* entry[0].resource = composition-da-ae73c4d5c65d453ea1d22b1e78ebf3b3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpae73c4d5c65d453ea1d22b1e78ebf3b3"
+* entry[=].resource = mpae73c4d5c65d453ea1d22b1e78ebf3b3
+                            
+                    
+
+
+
+Instance: mpae73c4d5c65d453ea1d22b1e78ebf3b3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Selincro 18 mg film-coated tablets"
-Description: "Selincro 18 mg film-coated tablets"
+Title: "Medicinal Product selincro"
+Description: "selincro"
 Usage: #inline
 
  
@@ -383,7 +832,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Selincro 18 mg film-coated tablets"
+  * productName = "selincro"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -410,29 +859,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for selincro Package Leaflet for language en"
-Description: "ePI document Bundle for selincro Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: ae73c4d5c65d453ea1d22b1e78ebf3b3ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/815/001 7 tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "selincro"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3"
-* entry[0].resource = composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8655bae09295ea090663c2bc8c961e15"
-* entry[=].resource = mp8655bae09295ea090663c2bc8c961e15
-                            
-                      
+* title = "List of all ePIs associated with selincro"
+
+* subject = Reference(mp8655bae09295ea090663c2bc8c961e15)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#selincro "selincro"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-ae73c4d5c65d453ea1d22b1e78ebf3b3) // selincro en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-ae73c4d5c65d453ea1d22b1e78ebf3b3) // selincro da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-ae73c4d5c65d453ea1d22b1e78ebf3b3
+InstanceOf: List
+
+* insert ae73c4d5c65d453ea1d22b1e78ebf3b3ListRuleset
+    

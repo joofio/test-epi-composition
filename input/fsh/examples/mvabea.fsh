@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c9badf491db3dae4a0c364bdfb2e49d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for mvabea Package Leaflet"
@@ -454,12 +457,640 @@ discard date for the different storage conditions.</p>         </div>"""
 
 
 
+Instance: composition-da-c9badf491db3dae4a0c364bdfb2e49d3
+InstanceOf: CompositionUvEpi
+Title: "Composition for mvabea Package Leaflet"
+Description:  "Composition for mvabea Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa071b23e2fe826157677079992b5cb88)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa071b23e2fe826157677079992b5cb88
+* title = "TEST PURPOSES ONLY - mvabea"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du eller dit barn får Mvabea
+3. Sådan gives Mvabea
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What mvabea is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What mvabea is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Mvabea
+Mvabea er en vaccine, der bruges til at beskytte mod Ebola-virussygdom i fremtiden.
+Den gives til personer i alderen fra 1 år og opefter, som har risiko for at komme i kontakt med Ebola-
+virus.
+Mvabea gives som den anden dosis i et 2-dosis-vaccinationsforløb for at beskytte dig mod at få Ebola-
+virussygdom forårsaget af Zaire ebolavirus, som er en type af filovirus. Denne vaccine beskytter ikke 
+mod andre typer af filovirus.
+Da Mvabea ikke indeholder hele Ebola-virussen, kan den ikke udløse Ebola-virussygdom.
+2-dosis-vaccinationsforløbet består af:
+
+en første dosis af Zabdeno-vaccine
+
+efterfulgt af en dosis af Mvabea-vaccine cirka 8 uger senere.
+Selv efter at have fået vaccinationsforløbet med Zabdeno og Mvabea skal du være meget omhyggelig
+med ikke at komme i kontakt med Ebola-virus. Som ved alle vaccinationer beskytter 
+vaccinationsforløbet ikke nødvendigvis alle vaccinerede mod Ebola-virussygdom.
+2-dosis-vaccinationsforløbet med Zabdeno og Mvabea skal anvendes i overensstemmelse med de 
+officielle retningslinjer.
+Hvad er Ebola
+
+Ebola er en alvorlig sygdom forårsaget af en virus. Personer får Ebola fra andre personer eller 
+dyr, som er inficerede med Ebola, eller som er døde af Ebola
+
+Du kan få Ebola fra blod og kropsvæsker såsom urin, afføring, spyt, opkast, sved, brystmælk,
+sæd og vaginalvæsker fra personer, som er inficerede med Ebola-virus
+27
+
+Du kan også få Ebola fra ting, der har været i kontakt med blod eller kropsvæsker fra en person
+eller et dyr med Ebola (såsom tøj eller genstande i direkte kontakt)
+
+Ebola spredes ikke via luft, vand eller mad.
+Ebola-virussygdom giver som regel høj feber - og kan gøre, at blodet ikke kan størkne med svær 
+blødning til følge ("svær hæmoragisk feber"). Dette kan føre til alvorlig sygdom, og i nogle tilfælde 
+død.
+
+De første tegn og symptomer kan være feber, træthed, svaghed eller svimmelhed samt 
+muskelsmerter
+
+Senere tegn og symptomer kan omfatte blødning under huden, i kroppens organer, såsom lever 
+eller nyrer, og fra munden, øjnene eller ørerne. Nogle får svær diarré, pludseligt fald i 
+blodtrykket eller blodforsyningen til kroppens organer (shock), hvilket kan medføre alvorlig og 
+permanent organskade, svær forvirring (delirium), krampeanfald, nyresvigt og koma.
+Tal først med lægen, apotekspersonalet eller sygeplejersken, for at beslutte om du skal have denne 
+vaccine.
+Sådan virker vaccinen
+2-dosis-vaccineforløbet med Zabdeno og Mvabea stimulerer kroppens naturlige forsvar 
+(immunsystemet). Vaccinen virker ved at få kroppen til at producere sin egen beskyttelse (antistoffer) 
+mod den virus, som forårsager Ebola-infektion. Dette hjælper med at beskytte mod Ebola-
+virussygdom i fremtiden.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take mvabea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take mvabea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>For at være sikker på, at vaccinationsforløbet er velegnet til dig eller dit barn, er det vigtigt, at du 
+fortæller det til lægen, apotekspersonalet eller sygeplejersken, hvis et eller flere af nedenstående 
+punkter gør sig gældende for dig eller dit barn. Hvis der er noget, du ikke forstår, så bed lægen, 
+apotekspersonalet eller sygeplejersken om at forklare dig det.
+Vaccinen må ikke gives, hvis
+
+Du eller dit barn nogensinde har haft en svær allergisk reaktion på et af de aktive stoffer eller et 
+af de øvrige indholdsstoffer angivet i afsnit 6
+
+Du eller dit barn nogensinde har haft en svær allergisk reaktion på kylling eller æg, eller 
+antibiotikummet ’gentamicin’.
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før vaccinationen, hvis du er i tvivl.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du eller dit barn får Mvabea, hvis du eller 
+dit barn:
+
+nogensinde har haft en svær allergisk reaktion efter injektion af en hvilken som helst anden
+vaccine
+
+nogensinde er besvimet efter at have fået en injektion
+
+har problemer med blødning eller tendens til blå mærker
+
+pt. har feber eller en infektion
+
+tager lægemidler, der svækker immunsystemet, såsom binyrebarkhormoner i høj dosis (såsom 
+prednison) eller kemoterapi (lægemidler mod kræft)
+
+har et svagt immunsystem - for eksempel på grund af hiv-infektion eller en arvelig sygdom 
+(‘genetisk sygdom’).
+Tal med lægen, apotekspersonalet eller sygeplejersken, hvis noget af ovenstående gælder for dig eller 
+dit barn (eller hvis du er i tvivl), før du eller dit barn får Mvabea.
+Hvis du eller dit barn har høj risiko for at komme i kontakt med Ebola-virussen, anbefales det i nogle 
+tilfælde, at du eller dit barn får en booster-vaccination med Zabdeno. Spørg lægen, apotekspersonalet 
+eller sygeplejersken, om det er relevant for dig eller dit barn.
+28
+Hvis du eller dit barn kun får den ene af vaccinerne, Zabdeno eller Mvabea, kan det give mindre 
+beskyttelse mod Ebola-virussygdom, end hvis du eller dit barn havde fået begge vacciner.
+Som ved alle vacciner beskytter 2-dosis-vaccinationsforløbet med Zabdeno og Mvabea ikke 
+nødvendigvis alle vaccinerede fuldstændigt mod Ebola-virussygdom, og det vides ikke, hvor længe du 
+vil være beskyttet.
+
+Personer, der har fået 2-dosis-vaccinationsforløbet, skal stadig tage forholdsregler for at 
+undgå at komme i kontakt med Ebola-virus.
+Korrekt håndvask er den mest effektive måde at forhindre spredning af farlige mikroorganismer såsom
+Ebola-virus. Det sænker antallet af mikroorganismer på hænderne og begrænser derved risikoen for 
+spredning fra person til person.
+Metoder til korrekt håndvask er beskrevet nedenfor.
+
+Brug sæbe og vand, når hænderne er synligt beskidte med jord, blod eller andre kropsvæsker.
+Det er ikke nødvendigt at bruge antimikrobielle sæber til håndvask
+
+Brug et alkoholbaseret hånddesinfektionsmiddel, når hænderne ikke et synligt beskidte. Brug 
+ikke alkoholbaseret hånddesinfektionsmiddel, når hænderne er synligt beskidte med jord, blod 
+eller andre kropsvæsker.
+Ved ophold i et område, der er berørt af Ebola, er det vigtigt at undgå følgende:
+
+Kontakt med blod og kropsvæsker (såsom urin, afføring, spyt, sved, opkast, brystmælk, sæd og
+vaginalvæsker)
+
+Genstande som kan have været i kontakt med en smittet persons blod eller kropsvæsker (såsom
+tøj, sengetøj, kanyler og medicisk udstyr)
+
+Begravelse eller begravelsesritualer, der kræver håndtering af liget af en person, som er død af 
+Ebola
+
+Kontakt med flagermus, menneskeaber og aber, eller med blod, væsker og råt kød tilberedt fra
+disse dyr ("bushmeat") eller kød fra en ukendt kilde
+
+Kontakt med sæd fra en mand, som har haft Ebola. Du skal følge sikker sex-praksis, indtil
+virussen er forsvundet fra sæden. Tal med lægen, apotekspersonalet eller sygeplejersken for at 
+få råd om, hvor længe du skal følge sikker sex-praksis.
+Børn under 1 år
+Der er ingen anbefalinger for brug af Mvabea hos børn under 1 år.
+Brug af andre lægemidler sammen med Mvabea
+Fortæl lægen eller apotekspersonalet, hvis du eller dit barn tager andre lægmidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler eller andre vacciner.
+Graviditet og amning
+Hvis du eller dit barn er gravid eller ammer, skal du spørge lægen eller apotekspersonalet til råds, før 
+du eller dit barn får denne vaccine. Det samme gælder, hvis du eller dit barn har mistanke om at være 
+gravid eller planlægger at blive gravid.
+Trafik- og arbejdssikkerhed
+Mvabea påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner.
+Mvabea indeholder natrium
+Mvabea indeholder mindre end 1 mmol (23 mg) natrium pr. dosis på 0,5 ml, dvs. det er i det 
+væsentlige natriumfrit.
+29</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take mvabea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take mvabea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaccinen gives af en læge eller sygeplejerske som en injektion i en muskel (intramuskulær injektion) i 
+overarmen eller låret.
+Mvabea må ikke gives i en blodåre.
+2-dosis-vaccinationsforløbet består af:
+
+en dosis af Zabdeno-vaccine
+
+efterfulgt af en dosis af Mvabea-vaccine cirka 8 uger senere.
+Din læge oplyser dig om datoen for den anden vaccine.
+Mængden af vaccine du eller dit barn vil få
+Primær vaccination
+
+Første vaccination med Zabdeno - hætteglas med rødt låg (0,5 ml)
+
+Anden vaccination med Mvabea - hætteglas med gult låg (0,5 ml), som gives cirka 8 uger 
+efter den første vaccination med Zabdeno.
+Boostervaccination med Zabdeno (en ekstra dosis af Zabdeno for at forstærke eller forny 
+virkningen af et tidligere 2-dosis-vaccinationsforløb med Zabdeno og Mvabea)
+
+Boostervaccination anbefales, hvis du eller dit barn har høj risiko for at komme i kontakt 
+med Ebola-virussen og har gennemført 2-dosis-vaccinationsforløbet for mere end 
+4 måneder siden
+
+Spørg lægen, om du eller dit barn bør overveje at få boostervaccinationen.
+Under og efter injektion af vaccinen vil lægen holde dig eller dit barn under opsyn i cirka 15 minutter 
+eller længere efter behov, i tilfælde af en svær allergisk reaktion.
+Vejledning i klargøring af vaccinen - til læger og sundhedspersonale - findes sidst i indlægssedlen.
+Hvis du utilsigtet eller ved en fejl får en injektion med Zabdeno eller Mvabea
+
+Hvis du eller dit barn ved en fejl får Mvabea som den første vaccination: får du eller dit barn 
+Zabdeno som den anden vaccination cirka 8 uger senere
+
+Hvis du eller dit barn ved en fejl får Zabdeno som den første og den anden vaccination: får du 
+eller dit barn Mvabea cirka 8 uger efter den anden vaccination med Zabdeno
+
+Hvis du eller dit barn ved en fejl får Mvabea som den første og den anden vaccination: får du 
+eller dit barn Zabdeno cirka 8 uger efter den anden vaccination med Mvabea
+
+Hvis du eller dit barn ikke har fået Mvabea cirka 8 uger efter vaccination med Zabdeno: Kontakt 
+lægen, apotekspersonalet eller sygeplejersken vedrørende den anden vaccination med Mvabea.
+Hvis du har glemt en aftale om vaccination med Zabdeno eller Mvabea
+
+Kontakt lægen for at få en ny tid, hvis du har glemt en aftale
+
+Hvis du glemmer en planlagt injektion, er du muligvis ikke fuldt beskyttet mod Ebola-virus
+30
+
+Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+De fleste bivirkninger forekommer indenfor 7 dage efter injektionen.
+Følgende bivirkninger kan forekomme hos voksne.
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+smerte, varme eller hævelse på injektionsstedet
+
+udpræget træthed
+
+muskelsmerter
+
+ledsmerter.
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+
+opkastning
+
+kløe på injektionsstedet.
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):
+
+rødme og fortykket hud på injektionsstedet
+
+generaliseret kløe.
+Følgende bivirkninger kan forekomme hos børn og unge i alderen 1 til 17 år.
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+smerte på injektionsstedet
+
+udpræget træthed.
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+
+hævelse, kløe eller rødme på injektionsstedet
+
+feber
+
+kulderystelser
+
+muskelsmerter
+
+ledsmerter
+
+opkastning.
+Følgende bivirkninger kan forekomme hos spædbørn i alderen 4 til 11 måneder.
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+irritabilitet.
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+
+feber
+
+smerte på injektionsstedet
+
+nedsat appetit
+
+opkastning.
+De fleste af disse bivirkninger er af mild til moderat sværhedsgrad og er ikke langvarige.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+31
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store mvabea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mvabea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn.
+Oplysninger om opbevaring, udløb og brug og håndtering er anført i afsnittet til læger og 
+sundhedspersonale sidst i indlægssedlen.
+Lægen eller apotekspersonalet har ansvaret for opbevaring af denne vaccine og korrekt bortskaffelse 
+af ikke anvendt produkt.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mvabea indeholder
+Én dosis (0,5 ml) indeholder:
+
+Aktivt stof: Modificeret Vaccinia Ankara Bavarian Nordic Virus*, der koder:
+
+Zaire ebolavirus Mayinga-variant-glykoprotein (GP)
+
+Sudan ebolavirus Gulu-variant-GP
+
+Taï Forest ebolavirus nukleoprotein
+
+Marburg marburgvirus Musoke-variant-GP.
+Ikke mindre end 0,7 x 108 infektiøse enheder</p>
+<ul>
+<li>Fremstillet i fibroblastceller fra kyllinge-embryoner og ved hjælp af rekombinant 
+DNA teknologi.
+Dette produkt indeholder genetisk modificerede organismer (GMO’er).
+Denne vaccine indeholder sporrester af gentamicin (se pkt. 2).
+
+Øvrige indholdsstoffer (hjælpestoffer): natriumchlorid, trometamol, vand til injektionsvæsker 
+og saltsyre (til pH-justering).
+Udseende og pakningsstørrelser
+Mvabea er en suspension i et enkeltdosishætteglas (0,5 ml) med gummiprop og gult låg.
+Lysegul, klar til mælkeagtig suspension.
+Mvabea fås i pakninger, der indeholder 20 enkeltdosishætteglas.
+Indehaver af markedsføringstilladelsen 
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Biologics B.V.
+Einsteinweg 101
+2333 CB Leiden
+Holland
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+32
+B-2340 Beerse
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+33
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt;&lt;{måned ÅÅÅÅ}&gt;.
+Denne vaccine er godkendt under "særlige vilkår". Det betyder, at det af videnskabelige årsager ikke 
+har været muligt at opnå fuldstændig dokumentation for lægemidlet. Det Europæiske 
+Lægemiddelagentur vil hvert år vurdere nye oplysninger om vaccinen, og denne indlægsseddel vil om 
+nødvendigt blive ajourført.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</li>
+</ul>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner:
+
+Som ved alle injicerbare vacciner, skal der altid være umiddelbar adgang til passende medicinsk 
+behandling og supervision i tilfælde af en sjælden anafylaktisk reaktion efter administration af 
+Mvabea. Den vaccinerede bør holdes under opsyn af en sundhedsperson i mindst 15 minutter 
+efter vaccinationen
+
+Mvabea må ikke blandes med andre lægemidler i samme sprøjte
+
+Mvabea må under ingen omstændigheder administreres via intravaskulær injektion
+
+Immunisering bør ske via intramuskulær (i.m.) injektion, helst i overarmen i deltaregionen eller 
+i låret
+
+Synkope (besvimelse) kan indtræde efter, eller sågar før, enhver vaccination som et psykogent 
+respons på injektion med kanyle. Der skal træffes foranstaltninger til forebyggelse af 
+tilskadekomst som følge af fald og til håndtering af besvimelsesreaktioner.
+34
+Vejledning i administration og håndtering
+Mvabea er en lysegul, klar til mælkeagtig suspension. Vaccinen skal kontrolleres visuelt for partikler 
+og misfarvning før administration. Hætteglasset skal kontrolleres visuelt for revner eller andre 
+uregelmæssigheder, såsom tegn på manipulation, før administration. Hvis der er tegn på noget af dette, 
+må vaccinen ikke administreres.
+Når vaccinen er blevet taget ud af fryseren og er tøet op, skal den administreres med det samme, eller 
+opbevares i køleskab ved 2 °C til 8 °C. Når vaccinen er blevet taget ud af køleskabet for at blive
+administreret, skal den bruges med det samme.
+Hvirvl hætteglasset i 10 sekunder for at blande indholdet. Må ikke omrystes. Brug en steril kanyle og 
+en steril sprøjte til at trække hele indholdet op fra hætteglasset inden administration.
+Brug en separat steril kanyle og sprøjte til hver patient. Det er ikke nødvendigt at udskifte kanylen 
+mellem optrækning af vaccinen fra hætteglasset, og indgivelse til modtageren, medmindre kanylen er 
+blevet beskadiget eller kontamineret. Eventuelt overskydende indhold i hætteglasset skal bortskaffes.
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. I tilfælde 
+af spild bør der desinficeres med midler med virucid virkning mod vacciniavirus.
+Oplysninger om opbevaring
+Brug ikke vaccinen efter den udløbsdato, der står på kartonen efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned.
+Transporteres nedfrosset ved -25 °C til -15 °C. Ved modtagelsen kan produktet opbevares, som anvist 
+nedenfor:
+Opbevares i fryser ved -85 °C til -55 °C hos distributøren i tilfælde af lageropbygning. Udløbsdatoen 
+for opbevaring ved -85 °C til -55 °C er trykt på hætteglasset og yderkartonen efter EXP.
+Distributøren eller slutbrugeren kan også opbevare vaccinen i fryser ved -25 °C til -15 °C i en enkelt 
+periode på op til 7 måneder. Efter udtagning fra fryser ved -85 °C til -55 °C skal distributøren eller 
+slutbrugeren notere den nye udløbsdato på yderkartonen, og vaccinen bør anvendes eller bortskaffes 
+efter 7 måneder. Den nye udløbsdato må ikke overskride den oprindelige udløbsdato (EXP). Den 
+oprindelige udløbsdato bør gøres ulæselig.
+Distributøren eller slutbrugeren kan også opbevare vaccinen i køleskab ved 2 °C til 8 °C i en enkelt 
+periode på op til 1 måned. Efter udtagning til køleskab ved 2 °C til 8 °C skal distributøren eller 
+slutbrugeren notere bortskaffelsesdatoen på yderkartonen, og vaccinen bør anvendes eller bortskaffes 
+efter 1 måned. Bortskaffelsesdatoen må ikke overskride den oprindelige udløbsdato (EXP), eller den
+nye udløbsdato, der er angivet for opbevaring ved -25 °C til -15 °C. Den oprindelige udløbsdato 
+og/eller nye udløbsdato, der er angivet for opbevaring ved -25 °C til -15 °C, bør gøres ulæselig.
+Efter optøning må vaccinen ikke nedfryses igen.
+Hætteglasset skal opbevares i den originale emballage for at beskytte mod lys og for at spore udløbs-
+eller bortskaffelsesdatoen for de forskellige opbevaringsbetingelser.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c9badf491db3dae4a0c364bdfb2e49d3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mvabea Package Leaflet for language en"
+Description: "ePI document Bundle for mvabea Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c9badf491db3dae4a0c364bdfb2e49d3"
+* entry[0].resource = composition-en-c9badf491db3dae4a0c364bdfb2e49d3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc9badf491db3dae4a0c364bdfb2e49d3"
+* entry[=].resource = mpc9badf491db3dae4a0c364bdfb2e49d3
+                            
+                    
+Instance: bundlepackageleaflet-da-c9badf491db3dae4a0c364bdfb2e49d3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mvabea Package Leaflet for language da"
+Description: "ePI document Bundle for mvabea Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c9badf491db3dae4a0c364bdfb2e49d3"
+* entry[0].resource = composition-da-c9badf491db3dae4a0c364bdfb2e49d3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc9badf491db3dae4a0c364bdfb2e49d3"
+* entry[=].resource = mpc9badf491db3dae4a0c364bdfb2e49d3
+                            
+                    
+
+
+
+Instance: mpc9badf491db3dae4a0c364bdfb2e49d3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Mvabea suspension for injection"
-Description: "Mvabea suspension for injection"
+Title: "Medicinal Product mvabea"
+Description: "mvabea"
 Usage: #inline
 
  
@@ -479,7 +1110,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Mvabea suspension for injection"
+  * productName = "mvabea"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -506,29 +1137,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c9badf491db3dae4a0c364bdfb2e49d3
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for mvabea Package Leaflet for language en"
-Description: "ePI document Bundle for mvabea Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c9badf491db3dae4a0c364bdfb2e49d3ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1445/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "mvabea"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c9badf491db3dae4a0c364bdfb2e49d3"
-* entry[0].resource = composition-en-c9badf491db3dae4a0c364bdfb2e49d3
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa071b23e2fe826157677079992b5cb88"
-* entry[=].resource = mpa071b23e2fe826157677079992b5cb88
-                            
-                      
+* title = "List of all ePIs associated with mvabea"
+
+* subject = Reference(mpa071b23e2fe826157677079992b5cb88)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#mvabea "mvabea"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c9badf491db3dae4a0c364bdfb2e49d3) // mvabea en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c9badf491db3dae4a0c364bdfb2e49d3) // mvabea da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c9badf491db3dae4a0c364bdfb2e49d3
+InstanceOf: List
+
+* insert c9badf491db3dae4a0c364bdfb2e49d3ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-227bd9b21ea0c447e44bb88e14511a9d
 InstanceOf: CompositionUvEpi
 Title: "Composition for velcade Package Leaflet"
@@ -613,12 +616,985 @@ Detailed information on this medicine is available on the website of the Europea
 
 
 
+Instance: composition-da-227bd9b21ea0c447e44bb88e14511a9d
+InstanceOf: CompositionUvEpi
+Title: "Composition for velcade Package Leaflet"
+Description:  "Composition for velcade Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc721ccd21a97aa227d1013c6357b116f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc721ccd21a97aa227d1013c6357b116f
+* title = "TEST PURPOSES ONLY - velcade"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge VELCADE
+3. Sådan skal du bruge VELCADE
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What velcade is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What velcade is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VELCADE indeholder det aktive stof bortezomib, som er en såkaldt proteasomhæmmer. Proteasomer 
+spiller en vigtig rolle i reguleringen af cellers funktion og vækst. Ved at påvirke deres funktion kan 
+bortezomib dræbe kræftceller.
+VELCADE bruges til behandling af myelomatose (kræft i knoglemarven) hos patienter over 18 år:
+-
+alene eller sammen med lægemidlerne pegyleret liposomal doxorubicin eller dexamethason til 
+patienter, hvis sygdom forværres (er progressiv) efter mindst én forudgående behandling, og 
+som ikke har haft gavn af eller mulighed for at få en transplantation af blodstamceller 
+(knoglemarvstransplantation).
+-
+sammen med lægemidlerne melphalan og prednison til behandling af patienter, der ikke 
+tidligere er blevet behandlet for sygdommen, og som ikke er egnede til højdosiskemoterapi med 
+transplantation af blodstamceller.
+-
+sammen med lægemidlerne dexamethason eller dexamethason sammen med thalidomid til 
+patienter, hvis sygdom ikke tidligere er blevet behandlet, og før de får højdosis-kemoterapi med 
+transplantation af blodstamceller (induktionsbehandling).
+VELCADE benyttes til behandling af mantle-celle-lymfom (en type kræft, som påvirker 
+lymfeknuderne) i kombination med lægemidlerne rituximab, cyclophosphamid, doxorubicin og 
+prednison, hos patienter på 18 år og derover, hvis sygdom ikke tidligere er blevet behandlet, og som 
+ikke er egnede til at gennemgå en transplantation af blodstamceller.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take velcade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take velcade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke VELCADE:</h2>
+<p>hvis du er allergisk over for bortezomib, bor eller et af de øvrige indholdsstoffer i VELCADE
+(angivet i punkt 6)
+-
+hvis du lider af visse alvorlige lunge- eller hjerteproblemer
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du bruger VELCADE, hvis du lider af noget af det følgende:
+
+lavt antal røde eller hvide blodlegemer
+78
+
+blødningsproblemer og/eller lavt antal blodplader i blodet
+
+diaré, forstoppelse, kvalme eller kaster op
+
+tidligere er besvimet, har været svimmel eller ør i hovedet
+
+problemer med nyrerne
+
+moderate til svære problemer med leveren
+
+tidligere har haft problemer med følelsesløshed, følelse af prikken eller smerte i hænder eller 
+fødder (neuropati)
+
+problemer med hjertet eller blodtrykket
+
+stakåndethed eller hoste
+
+krampeanfald
+
+helvedesild (lokaliseret, også omkring øjnene eller spredt over kroppen)
+
+symptomer på tumorlysesyndrom, som f.eks. muskelkramper, muskelsvaghed, forvirring, 
+synstab eller -forstyrrelser og kortåndethed
+
+hukommelsestab, nedsat tankevirksomhed, gangbesvær eller synstab. Det kan være tegn på en 
+alvorlig infektion i hjernen, og lægen vil muligvis foreslå nærmere undersøgelser og kontrol.
+Det er nødvendigt, at du får taget regelmæssige blodprøver før og under din behandling med 
+VELCADE for at kontrollere niveauet af dine blodlegemer.
+Hvis du har mantle-celle-lymfom og får lægemidlet rituximab sammen med VELCADE, skal du 
+fortælle det til din læge:
+
+hvis du tror, du har hepatitis-infektion nu, eller hvis du har haft det engang. I nogle få tilfælde 
+kan patienter, som har haft hepatitis B, få et nyt anfald af hepatitis, som kan være dødeligt. Hvis 
+du tidligere har haft hepatitis B-infektion, vil din læge undersøge dig omhyggeligt for at se, om 
+du har tegn på aktiv hepatitis B.
+Læs indlægssedlerne for alle de lægemidler, som du skal tage sammen med VELCADE, for at få 
+oplysninger om disse lægemidler, før du begynder på behandlingen med VELCADE. Hvis du får 
+thalidomid, skal du være særlig opmærksom på kravene til graviditetsprøver og prævention (se under 
+"Graviditet og amning" i dette punkt).
+Børn og unge
+VELCADE bør ikke bruges til børn og unge, da det ikke vides, hvordan lægemidlet vil påvirke dem.
+Brug af anden medicin sammen med VELCADE
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin.
+Særligt skal du fortælle lægen, hvis du bruger medicin, som indeholder følgende aktive stoffer:
+-
+ketoconazol, som bruges til behandling af svampeinfektioner
+-
+ritonavir, bruges til behandling af Hiv-infektion
+-
+rifampicin, et antibiotikum, som bruges til at behandle bakterie-infektioner
+-
+carbamazepin, phenytoin eller phenobarbital til behandling af epilepsi
+-
+perikon (Hypericum perforatum), naturmedicin som bruges mod depression eller andre lidelser
+-
+tabletter til behandling af sukkersyge (diabetes)
+Graviditet og amning
+Du må ikke bruge VELCADE hvis du er gravid, medmindre det er absolut nødvendigt.
+Både mænd og kvinder, som er i behandling med VELCADE, skal anvende sikker prævention under 
+og op til 3 måneder efter behandlingen. Hvis du på trods af dette bliver gravid, skal du kontakte lægen 
+med det samme.
+Du må ikke amme, mens du behandles med VELCADE. Tal med lægen om, hvornår det er sikkert at 
+genoptage amningen efter din behandling.
+79
+Thalidomid kan forårsage medfødte misdannelser og fosterdød. Hvis du får VELCADE sammen med 
+thalidomid, skal du benytte effektiv prævention som angivet for thalidomid (se indlægssedlen for 
+thalidomid).
+Trafik- og arbejdssikkerhed
+VELCADE kan forårsage træthed, svimmelhed, besvimelse og uklart/sløret syn. Du må ikke køre bil, 
+motorcykel eller cykle eller arbejde med værktøj eller maskiner, hvis du oplever disse bivirkninger. 
+Selv om du ikke mærker nogen af disse virkninger, skal du alligevel være forsigtig.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take velcade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take velcade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din læge vil bestemme dosis ud fra din højde og vægt (areal af legemsoverflade). Den normale 
+startdosis VELCADE er 1,3 mg/m2 legemsoverflade to gange om ugen.
+Din læge kan vælge at ændre dosis og antallet af behandlingscyklusser afhængigt af, hvordan du 
+reagerer på behandlingen, forekomsten af visse bivirkninger, og hvilke sygdomme du lider af (f.eks. 
+leverproblemer).
+Progressiv myelomatose
+Når VELCADE gives alene, vil du få 4 doser VELCADE intravenøst på dag 1, dag 4, dag 8 og dag 
+11 efterfulgt af en pause på 10 dage uden behandling. Denne periode på 21 dage (3 uger) svarer til én 
+behandlingscyklus. Du kan få op til 8 behandlingscyklusser (24 ugers behandling).
+Du kan ligeledes få VELCADE sammen med lægemidlerne pegyleret liposomal doxorubicin eller 
+dexamethason.
+Når VELCADE gives sammen med pegyleret liposomal doxorubicin, får du VELCADE intravenøst 
+som en 21-dages behandlingscyklus, og pegyleret liposomal doxorubicin gives i en dosis på 30 mg/m2 
+på dag 4 i den 21-dages behandlingscyklus med VELCADE som en intravenøs infusion efter 
+VELCADE-injektionen.
+Du kan få op til 8 behandlingscyklusser (24 ugers behandling).
+Når VELCADE gives sammen med dexamethason, får du VELCADE intravenøst som en 21-dages 
+behandlingscyklus, og dexamethason 20 mg gives gennem munden på dag 1, 2, 4, 5, 8, 9, 11 og 12 i 
+den 21-dages behandlingscyklus med VELCADE.
+Du kan få op til 8 behandlingscyklusser (24 ugers behandling).
+Tidligere ubehandlet myelomatose
+Hvis du ikke er blevet behandlet for myelomatose tidligere, og du ikke er egnet til at få 
+transplantation med blodstamceller, vil du få VELCADE intravenøst samtidig med to andre 
+lægemidler; melphalan og prednison.
+I så fald varer en behandlingscyklus 42 dage (6 uger). Du vil få 9 behandlingscyklusser (54 ugers 
+behandling).
+-
+I cyklus 1 til 4 gives VELCADE to gange om ugen på dag 1, 4, 8, 11, 22, 25, 29 og 32. -
+I cyklus 5 til 9 gives VELCADE en gang om ugen på dag 1, 8, 22 og 29. Melphalan (9 mg/m2) og prednison (60 mg/m2) gives gennem munden på dag 1, 2, 3 og 4 i den første 
+uge af hver behandlingscyklus.
+Hvis du ikke er blevet behandlet for myelomatose tidligere, og du er egnet til at få transplantation med 
+blodstamceller, vil du få VELCADE intravenøst samtidig med lægemidlerne dexamethason, eller 
+dexamethason og thalidomid, som induktionsbehandling.
+Når VELCADE gives sammen med dexamethason, får du VELCADE intravenøst i en 21-dages 
+behandlingscyklus, og dexamethason 40 mg gives gennem munden på dag 1, 2, 3, 4, 8, 9, 10 og 11 i 
+hver VELCADE 21-dages behandlingscyklus.
+Du vil få 4 cyklusser (12 ugers behandling).
+80
+Når VELCADE gives sammen med thalidomid og dexamethason, er varigheden af en 
+behandlingscyklus 28 dage (4 uger).
+Dexamethason gives i en dosis på 40 mg gennem munden på dag 1, 2, 3, 4, 8, 9, 10 og 11 i den 
+28-dages VELCADE-behandlingscyklus, og thalidomid gives dagligt gennem munden i en dosis på 
+50 mg frem til dag 14 i den første cyklus, og hvis du tolererer thalidomiddosen, øges den til 100 mg på 
+dag 15-28 og kan derefter øges igen til 200 mg dagligt fra og med den anden cyklus. Du kan få op til 
+6 cyklusser (24 ugers behandling).
+Tidligere ubehandlet mantle-celle-lymfom
+Hvis du ikke tidligere er blevet behandlet for mantle-celle-lymfom, vil du få VELCADE intravenøst 
+sammen med lægemidlerne rituximab, cyclophosphamid, doxorubicin og prednison. VELCADE gives 
+intravenøst på dag 1, 4, 8 og 11, fulgt af en ‘hvileperiode’ uden behandling. Varigheden af en 
+behandlingscyklus er 21 dage (3 uger). Du kan få op til 8 cyklusser (24 ugers behandling).
+Følgende lægemidler gives som intravenøse infusioner på dag 1 i hver 21-ugers behandlingscyklus 
+med VELCADE:
+Rituximab 375 mg/m2, cyclophosphamid 750 mg/m2 og doxorubicin 50 mg/m2. Prednison gives oralt 100 mg/m2 på dag 1, 2, 3, 4 og 5 i VELCADE-behandlingscyklussen.
+Hvordan VELCADE gives
+Dette lægemiddel er kun til intravenøs anvendelse. VELCADE vil blive givet af sundhedspersonale, 
+som har erfaring med behandling med cytostatika.
+VELCADE pulver skal opløses, før det gives. Dette vil blive gjort af sundhedspersonalet. Opløsningen 
+bliver derefter indsprøjtet i en vene over 3-5 sekunder.
+Hvis du har brugt for meget VELCADE
+Da dette lægemiddel gives af din læge eller sygeplejerske, er det ikke sandsynligt at du vil blive givet 
+for meget. Skulle overdosering mod al forventning ske, vil din læge overvåge dig for tegn på 
+bivirkninger.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Nogle af bivirkningerne kan være alvorlige.
+Hvis du får VELCADE for myelomatose eller mantle-celle-lymfom, skal du straks kontakte din læge, 
+hvis du oplever nogle af nedenstående bivirkninger:
+-
+muskelkramper, muskelsvaghed
+-
+forvirring, synstab eller -forstyrrelser, blindhed, krampeanfald, hovedpiner
+-
+åndenød, hævede fødder eller ændringer i din hjerterytme, højt blodtryk, træthed, besvimelse
+-
+hoste og vejrtrækningsbesvær eller trykken for brystet.
+Behandlingen med VELCADE kan meget ofte forårsage et fald i antal af røde og hvide blodlegemer 
+samt blodplader i blodet. Du vil derfor få taget regelmæssige blodprøver før og under din behandling 
+med VELCADE for at kontrollere niveauet af dine blodlegemer. Du kan opleve et fald i antallet af:
+-
+blodplader, hvilket kan gøre dig mere tilbøjelig til at få blå mærker eller til at bløde uden 
+påviselig skade (f.eks. blødning fra tarmene, maven, munden og gummerne, blødning i hjernen 
+eller blødning fra leveren).
+-
+røde blodlegemer, hvilket kan forårsage blodmangel med symptomer som træthed og bleghed.
+-
+hvide blodlegemer, hvilket kan gøre dig mere tilbøjelig til at få infektioner eller 
+influenzalignende symptomer.
+81
+De bivirkninger, du kan opleve, hvis du får VELCADE til behandling af myelomatose, er angivet 
+nedenfor:
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter)
+
+Følsomhed, følelsesløshed, prikken eller en brændende følelse i huden eller smerter i hænder 
+eller fødder pga. nerveskade
+
+Reduktion i antallet af røde blodlegemer eller hvide blodlegemer (se ovenfor)
+
+Feber
+
+Kvalme og opkastning, nedsat appetit
+
+Forstoppelse med eller uden oppustethed (kan være alvorlig)
+
+Diaré. Hvis du har diaré, er det vigtigt, at du drikker mere vand, end du plejer. Lægen kan give 
+dig medicin til at kontrollere diaréen med
+
+Træthed, svaghed
+
+Muskelsmerter, smerter i knogler
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter)
+
+Lavt blodtryk, pludseligt blodtryksfald i stående stilling, som kan medføre besvimelse
+
+Højt blodtryk
+
+Nedsat nyrefunktion
+
+Hovedpine
+
+Generel følelse af at være syg, smerter, svimmelhed, ør i hovedet, en følelse af afkræftelse eller 
+bevidsthedstab
+
+Kulderystelser
+
+Infektioner inklusive lungebetændelse, luftvejsinfektioner, bronkitis, svampeinfektioner, hoste 
+med slim, influenzalignende sygdom
+
+Helvedesild (lokaliseret, også omkring øjnene eller spredt over kroppen)
+
+Brystsmerter eller stakåndehed ved fysisk udfoldelse
+
+Forskellige typer udslæt
+
+Hudkløe, buler i huden eller tør hud
+
+Ansigtsrødmen eller bittesmå sprængte blodkar
+
+Rødmen af huden
+
+Dehydrering
+
+Halsbrand, oppustethed, ræben, luft i tarmene, mavesmerter, blødning fra mave eller tarm
+
+Leverskader
+
+Øm mund eller læber, tør mund, sår i munden eller halssmerter
+
+Vægttab, tab af smagssans
+
+Muskelkramper, muskelspasmer, muskelsvaghed, smerter i dine lemmer
+
+Sløret syn
+
+Infektion i øjets yderste lag og i indersiden af øjenlåget (conjunctivitis)
+
+Næseblod
+
+Besvær eller problemer med at sove, svedeture eller angst, humørsvingninger, nedsat humør, 
+rastløshed eller ophidselse, ændringer i sindstilstand, desorientering
+
+Hævelser på kroppen, inklusive omkring øjnene og andre steder på kroppen
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter)
+
+Hjertesvigt, hjerteanfald, brystsmerter, ubehag i brystet, øget eller nedsat hjerterytme
+
+Nyresvigt
+
+Betændelse i en vene, blodpropper i vener eller lunger
+
+Problemer med blodets størknen
+
+Nedsat cirkulation
+
+Betændelse i hjertesækken eller væske omkring hjertet
+
+Infektioner, herunder urinvejsinfektioner, influenza, herpes virus infektioner, øreinfektion og 
+cellulitis
+
+Blod i afføringen eller blødning fra slimhinder, f.eks. i munden eller skeden
+
+Blodkarsygdomme, som rammer hjernen
+82
+
+Lammelse, krampeanfald, fald, bevægelsesforstyrrelser, unormale eller forandringer i eller 
+nedsatte sanser (føle-, høre-, smags- eller lugtesans), opmærksomhedsforstyrrelser, skælven, 
+spjætten
+
+Leddegigt, herunder betændelsestilstand i leddene i fingre, tæer og kæben
+
+Sygdomme, der påvirker lungerne og forhindrer kroppen i at få nok ilt. Nogle af disse 
+sygdomme indebærer vejrtrækningsbesvær, kortåndethed, kortåndethed uden fysiske 
+udfoldelser, overfladisk eller besværet vejrtrækning eller stop i vejrtrækningen, hvæsende 
+vejrtrækning
+
+Hikke, taleforstyrrelser
+
+Øget eller nedsat urinproduktion (pga. nyreskade), smerter ved vandladning og blod/protein i 
+urinen, væskeophobning
+
+Forandringer i bevidsthedsniveau, forvirring, nedsat eller tab af hukommelse
+
+Overfølsomhed
+
+Tab af hørelse, døvhed eller ringen for ørene, ubehag i ørerne
+
+Hormonelle uregelmæssigheder, som kan påvirke salt- og vandoptagelsen
+
+Overaktiv skjoldbruskkirtel
+
+Manglende evne til at danne tilstrækkeligt insulin eller resistens mod normale insulinniveauer
+
+Irriterede eller betændte øjne, meget våde øjne, smerter i øjnene, tørre øjne, øjeninfektioner, 
+haglkorn (en knude i øjenlåget), røde og hævede øjenlåg, udflåd fra øjnene, påvirkning af synet, 
+blødning fra øjnene
+
+Hævede lymfekirtler
+
+Stivhed i led og muskler, følelse af tunghed, smerter i skridtet
+
+Hårtab og unormal hårstruktur
+
+Allergiske reaktioner
+
+Rødmen eller smerte på injektionsstedet
+
+Smerter i munden
+
+Infektioner eller betændelse i munden, sår i mund, spiserør, mave og tarm, somme tider 
+forbundet med smerter eller blødning, nedsat tarmbevægelse (herunder blokering), ubehag i 
+maveregionen eller spiserøret, synkebesvær, opkastning af blod
+
+Hudinfektioner
+
+Bakterie- og virusinfektioner
+
+Tandinfektion
+
+Betændelse i bugspytkirtlen, tilstoppelse af galdegangen
+
+Smerter i kønsorganerne, problemer med rejsning af penis
+
+Vægtøgning
+
+Tørst
+
+Leverbetændelse
+
+Forstyrrelser forbundet med injektionsstedet eller -udstyret
+
+Hudreaktioner og hudsygdomme (som kan være alvorlige og livstruende), hudsår
+
+Blodudtrædninger, fald og skader
+
+Betændelse eller blødning i blodkarrene; det kan vise sig som små rødlige eller lilla prikker 
+(sædvanligvis på benene) eller store blå mærker under huden eller vævet.
+
+Godartede cyster
+
+En alvorlig, reversibel tilstand i hjernen, der omfatter krampeanfald, højt blodtryk, hovedpine, 
+træthed, konfusion, blindhed eller andre synsproblemer.
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter)
+
+Hjerteproblemer inklusive hjerteanfald, angina pectoris
+
+Alvorlig nervebetændelse, som kan medføre lammelser og vejrtrækningsbesvær 
+(Guillain-Barrés syndrom)
+
+Blussen
+
+Misfarvning af blodkarrene
+
+Betændelse i rygmarvsnerven
+
+Øreproblemer, blødning fra øre
+
+Nedsat funktion af skjoldbruskkirtlen
+83
+
+Budd–Chiaris syndrom (de kliniske symptomer på blokering af levervenerne)
+
+Forandringer i eller unormalt afføringsmønster
+
+Blødning i hjernen
+
+Gulfarvning af øjne og hud (gulsot)
+
+Alvorlig allergisk reaktion (anafylaktisk shock). Tegnene på en sådan reaktion kan være 
+vejrtrækningsbesvær, smerter i/trykken for brystet og/eller svimmelhed/omtumlethed, voldsom 
+kløe i huden eller hævede områder på huden, hævelser i ansigt, læber, tunge og/eller svælg, der 
+kan give synkebesvær, kollaps
+
+Sygdom i brysterne
+
+Vaginale rifter
+
+Hævelse af kønsorganerne
+
+Kan ikke tåle at drikke alkohol
+
+Hensygnen eller tab af kropsmasse
+
+Øget appetit
+
+Fistler
+
+Ledeffusion
+
+Cyster i ledkapslerne (synoviale cyster)
+
+Brud på knogle eller brusk
+
+Henfald af muskelfibre med følgetilstande
+
+Hævelse af leveren, blødning fra leveren
+
+Nyrekræft
+
+Psoriasislignende hudsygdom
+
+Hudkræft
+
+Bleg hud
+
+Øget antal blodplader eller plasmaceller (en type hvide celler) i blodet
+
+Blodprop i små blodkar (trombotisk mikroangiopati)
+
+Unormal reaktion på blodtransfusioner
+
+Delvist eller totalt synstab
+
+Nedsat sexlyst
+
+Savlen
+
+Udstående øjne
+
+Følsomhed over for lys
+
+Hurtig vejrtrækning
+
+Smerter i endetarmen
+
+Galdesten
+
+Brok
+
+Skader
+
+Skrøbelige eller svage negle
+
+Unormal aflejring af protein i vigtige organer
+
+Koma
+
+Sår i tarmene
+
+Svigt af flere organer
+
+Død
+De bivirkninger, du kan opleve, hvis du får VELCADE sammen med andre lægemidler til behandling 
+af mantle-celle-lymfom, er angivet nedenfor:
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter)
+
+Lungebetændelse
+
+Appetitløshed
+
+Øget følsomhed, følelsesløshed, prikken eller en brændende følelse i huden eller smerter i 
+hænder eller fødder pga. nerveskade
+
+Kvalme og opkastning
+
+Diarré
+84
+
+Mundsår
+
+Forstoppelse
+
+Muskelsmerter, knoglesmerter
+
+Hårtab og unormal hårstruktur
+
+Træthed, svaghed
+
+Feber
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter)
+
+Helvedesild (lokaliseret, også omkring øjnene, eller spredt over kroppen)
+
+Herpes-virusinfektioner
+
+Bakterie- og virusinfektioner
+
+Luftvejsinfektioner, bronkitis, hoste med slim, influenza-lignende sygdom
+
+Svampeinfektioner
+
+Overfølsomhed (allergisk reaktion)
+
+Manglende evne til at danne tilstrækkeligt insulin eller nedsat følsomhed (resistens) for insulin 
+ved normale insulinniveauer
+
+Væskeophobning
+
+Besvær eller problemer med at sove
+
+Bevidsthedstab
+
+Ændret bevidsthedsniveau, forvirring
+
+Svimmelhed
+
+Hurtigere hjerteslag, højt blodtryk, svedtendens
+
+Unormalt syn, sløret syn
+
+Hjertesvigt, hjerteanfald, brystsmerter, ubehag i brystet, øget eller nedsat hjerterytme (puls)
+
+Højt eller lavt blodtryk
+
+Pludseligt fald i blodtrykket, når du rejser dig op, hvilket kan medføre, at du besvimer
+
+Stakåndethed ved fysisk udfoldelse
+
+Hoste
+
+Hikke
+
+Ringen for ørene, ubehag i ørerne
+
+Blødning fra tarm eller mave
+
+Halsbrand
+
+Mavesmerter, oppustethed
+
+Synkebesvær
+
+Infektion eller inflammation (betændelseslignende tilstand) i mave eller tarme
+
+Mavesmerter
+
+Øm mund eller ømme læber, halssmerter
+
+Ændringer i leverfunktion
+
+Hudkløe
+
+Hudrødme
+
+Udslæt
+
+Muskelspasmer
+
+Urinvejsinfektion
+
+Smerter i arme og ben
+
+Hævelser på kroppen, inklusive øjnene og andre steder på kroppen
+
+Kulderystelser
+
+Rødme og smerter på injektionsstedet
+
+Generel følelse af at være syg
+
+Vægttab
+
+Vægtstigning
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter)
+
+Leverbetændelse
+85
+
+Alvorlig allergisk reaktion (anafylaktisk reaktion). Tegnene på en sådan reaktion kan være 
+vejrtrækningsbesvær, smerter i/trykken for brystet og/eller svimmelhed/følelse af at være ved at 
+besvime, voldsom kløe i huden eller hævede områder på huden, hævelser i ansigt, læber, tunge 
+og/eller svælg, hvilket kan give synkebesvær, kollaps
+
+Bevægelsesforstyrrelser, lammelse, spjætten
+
+Fornemmelse af at snurre eller dreje rundt
+
+Høretab, døvhed
+
+Sygdomme, der påvirker lungerne og forhindrer kroppen i at få nok ilt. Nogle af disse 
+sygdomme omfatter vejrtrækningsbesvær, kortåndethed, kortåndethed uden fysiske udfoldelser, 
+overfladisk eller besværet vejrtrækning eller stop i vejrtrækningen, hvæsende vejrtrækning
+
+Blodpropper i lungerne
+
+Gulfarvning af øjne og hud (gulsot)
+
+Haglkorn (en knude i øjenlåget), røde og hævede øjenlåg
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter)
+
+Blodprop i små blodkar (trombotisk mikroangiopati)
+
+Alvorlig nervebetændelse, som kan medføre lammelser og vejrtrækningsbesvær 
+(Guillain-Barrés syndrom)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store velcade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store velcade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på hætteglasset og æsken efter EXP.
+Må ikke opbevares ved over 30 °C. Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
+Den færdigblandede injektionsvæske skal bruges med det samme. Hvis den ikke anvendes med det 
+samme, er opbevaringstider og opbevaringsforhold efter blanding og før brug brugerens ansvar.
+Den færdigblandede injektionsvæske er stabil i 8 timer ved 25 °C ved opbevaring i det originale 
+hætteglas og/eller en sprøjte. Den samlede opbevaringstid for det rekonstituerede lægemiddel må ikke 
+overstige 8 timer inden administration.
+VELCADE er kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i 
+henhold til lokale retningslinjer.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>VELCADE indeholder:</h2>
+<p>Aktivt stof: bortezomib. Hvert hætteglas indeholder 1 mg bortezomib (som mannitol-
+boronsyreester). Efter rekonstitution indeholder 1 ml injektionsvæske 1 mg bortezomib.
+-
+Øvrige indholdsstoffer: Mannitol (E421) og nitrogen.
+Udseende og pakningsstørrelser
+VELCADE pulver til injektionsvæske, opløsning, er en hvid til gullig masse eller et hvidt til gulligt 
+pulver.
+86
+Hver pakning VELCADE 1 mg pulver til injektionsvæske, opløsning, indeholder et hætteglas med 
+grønt låg i en gennemsigtig blisterpakning.
+Indehaver af markedsføringstilladelsen
+JANSSEN-CILAG INTERNATIONAL NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél + 32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: + 32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD.
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: + 31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: + 47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel:+43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: + 48 22 237 60 00
+87
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / + 33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 122
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel. +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tel: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+88
+Nedenstående oplysninger er til læger og sundhedspersonale:
+1. REKONSTITUTION TIL INTRAVENØS INJEKTION
+NB: VELCADE er en cellegift. Derfor skal der udvises forsigtighed ved håndteringen og 
+præparationen. Anvendelse af handsker og anden beskyttelsespåklædning til at beskytte mod kontakt 
+med huden anbefales.
+HÅNDTERINGEN AF VELCADE SKAL SKE UNDER STRENGE ASEPTISKE FORHOLD, DA 
+VELCADE IKKE INDEHOLDER KONSERVERINGSMIDLER.
+1.1
+Præparation af 1 mg hætteglas: tilsæt forsigtigt 1,0 ml steril 9 mg/ml (0,9 %) 
+natriumchlorid-injektionsvæske til hætteglasset, der indeholder VELCADE- pulver ved hjælp af 
+en 1 ml sprøjte og uden at fjerne proppen fra hætteglasset. Opløsning af det frysetørrede pulver 
+sker på mindre end 2 minutter.
+Den færdige koncentration i opløsningen vil være 1 mg/ml. Opløsningen vil blive klar og 
+farveløs med en pH på 4 til 7. Man behøver ikke at tjekke pH-værdien af opløsningen.
+1.2
+Efterse opløsningen for partikler og misfarvning før administration. Hvis der ses nogle partikler 
+eller misfarvning, skal opløsningen bortskaffes. Kontroller koncentrationen på hætteglasset for 
+at sikre, at den korrekte dosis anvendes til intravenøs administration (1 mg/ml).
+1.3
+Den rekonstituerede opløsning er uden konserveringsmidler og skal anvendes umiddelbart efter 
+præparation. Dog er der vist kemisk og fysisk holdbarhed efter rekonstitution på 8 timer ved 
+25 °C opbevaret i det originale hætteglas og/eller en sprøjte. Den samlede opbevaringstid for det 
+rekonstituerede lægemiddel bør ikke overstige 8 timer inden administration. Hvis den 
+rekonstituerede opløsning ikke bliver brugt med det samme, er opbevaringstider og 
+opbevaringsforhold efter rekonstitution før anvendelsen brugerens ansvar.
+Det er ikke nødvendigt at beskytte det rekonstituerede produkt mod lys.
+2. ADMINISTRATION
+
+Når det er opløst, udtrækkes den relevante mængde af den rekonstituerede opløsning i henhold 
+til beregnet dosis ud fra patientens legemsoverflade
+
+Tjek dosis og koncentration i sprøjten før brug (kontroller, at sprøjten er mærket som intravenøs 
+administration).
+
+Sprøjt opløsningen som en 3-5 sek. intravenøs bolusinjektion gennem et perifert eller centralt 
+intravenøst kateter ind i en vene.
+
+Skyl det intravenøse kateter igennem med steril 9 mg/ml (0,9 %) natriumchlorid-
+injektionsvæske.
+VELCADE 1 mg pulver til injektionsvæske, opløsning ER KUN BEREGNET TIL 
+INTRAVENØS ANVENDELSE. Må ikke gives via andre indgiftsveje. Intratekal anvendelse har 
+medført dødsfald.
+3. BORTSKAFFELSE
+Et hætteglas er kun til engangsbrug og resterende opløsning skal bortskaffes.
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
+89
+Indlægsseddel: Information til brugeren
+VELCADE 3,5 mg pulver til injektionsvæske, opløsning
+bortezomib
+Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
+-
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-227bd9b21ea0c447e44bb88e14511a9d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for velcade Package Leaflet for language en"
+Description: "ePI document Bundle for velcade Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-227bd9b21ea0c447e44bb88e14511a9d"
+* entry[0].resource = composition-en-227bd9b21ea0c447e44bb88e14511a9d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp227bd9b21ea0c447e44bb88e14511a9d"
+* entry[=].resource = mp227bd9b21ea0c447e44bb88e14511a9d
+                            
+                    
+Instance: bundlepackageleaflet-da-227bd9b21ea0c447e44bb88e14511a9d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for velcade Package Leaflet for language da"
+Description: "ePI document Bundle for velcade Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-227bd9b21ea0c447e44bb88e14511a9d"
+* entry[0].resource = composition-da-227bd9b21ea0c447e44bb88e14511a9d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp227bd9b21ea0c447e44bb88e14511a9d"
+* entry[=].resource = mp227bd9b21ea0c447e44bb88e14511a9d
+                            
+                    
+
+
+
+Instance: mp227bd9b21ea0c447e44bb88e14511a9d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product VELCADE 1 mg powder for solution for injection"
-Description: "VELCADE 1 mg powder for solution for injection"
+Title: "Medicinal Product velcade"
+Description: "velcade"
 Usage: #inline
 
  
@@ -638,7 +1614,7 @@ Usage: #inline
 
 
 * name
-  * productName = "VELCADE 1 mg powder for solution for injection"
+  * productName = "velcade"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -665,29 +1641,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-227bd9b21ea0c447e44bb88e14511a9d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for velcade Package Leaflet for language en"
-Description: "ePI document Bundle for velcade Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 227bd9b21ea0c447e44bb88e14511a9dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/04/274/002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "velcade"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-227bd9b21ea0c447e44bb88e14511a9d"
-* entry[0].resource = composition-en-227bd9b21ea0c447e44bb88e14511a9d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc721ccd21a97aa227d1013c6357b116f"
-* entry[=].resource = mpc721ccd21a97aa227d1013c6357b116f
-                            
-                      
+* title = "List of all ePIs associated with velcade"
+
+* subject = Reference(mpc721ccd21a97aa227d1013c6357b116f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#velcade "velcade"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-227bd9b21ea0c447e44bb88e14511a9d) // velcade en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-227bd9b21ea0c447e44bb88e14511a9d) // velcade da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-227bd9b21ea0c447e44bb88e14511a9d
+InstanceOf: List
+
+* insert 227bd9b21ea0c447e44bb88e14511a9dListRuleset
+    

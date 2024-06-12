@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-2f63d459fa1a5400e15352b2552fb0ee
 InstanceOf: CompositionUvEpi
 Title: "Composition for lonsurf Package Leaflet"
@@ -462,12 +465,826 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-2f63d459fa1a5400e15352b2552fb0ee
+InstanceOf: CompositionUvEpi
+Title: "Composition for lonsurf Package Leaflet"
+Description:  "Composition for lonsurf Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp68ed7f3855852fdd326ba8c13d491fb9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp68ed7f3855852fdd326ba8c13d491fb9
+* title = "TEST PURPOSES ONLY - lonsurf"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Lonsurf 
+3. Sådan skal du tage Lonsurf 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lonsurf is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lonsurf is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lonsurf er en type kemoterapi mod kræft, som tilhører gruppen af lægemidler, som kaldes "cytostatisk 
+antimetabolit-medicin". </p>
+<p>Lonsurf indeholder 2 forskellige aktive stoffer: Trifluridin og tipiracil. 
+• Trifluridin standser væksten af kræftcellerne. 
+• Tipiracil hindrer, at trifluridin bliver nedbrudt i kroppen og hjælper derved trifluridin til at virke 
+længere.  </p>
+<p>Lonsurf anvendes til at behandle voksne med tyktarms- eller endetarmskræft - sommetider kaldet 
+"kolorektal kræft" og mavekræft (herunder kræft i overgangen mellem spiserøret og mavesækken). 
+• Det anvendes, når kræften har spredt sig til andre steder i kroppen (metastaser).<br />
+• Det anvendes, når andre behandlinger ikke har virket - eller når andre behandlinger ikke er egnede 
+til dig. </p>
+<p>Lonsurf gives muligvis i kombination med bevacizumab. Det er vigtigt, at du også læser 
+indlægssedlen for bevacizumab. Spørg lægen, hvis du har spørgsmål om dette lægemiddel. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lonsurf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lonsurf"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Lonsurf 
+• hvis du er allergisk over for trifluridin eller tipiracil eller et af de øvrige indholdsstoffer i Lonsurf 
+(angivet punkt 6). 
+Tag ikke Lonsurf, hvis ovenstående gælder for dig. Hvis du ikke er sikker, så tal med din læge, før du 
+tager Lonsurf. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Lonsurf hvis: 
+• du har nyreproblemer 
+• du har leverproblemer 
+Hvis du ikke er sikker, så tal med din læge eller apotekspersonalet, før du tager Lonsurf.  </p>
+<p>Behandlingen kan medføre følgende bivirkninger (se punkt 4): </p>
+<ul>
+<li>
+<p>nedsat antal af visse typer hvide blodlegemer (neutropeni), som er vigtige for at beskytte din krop 
+mod bakterie- og svampeinfektioner. Som følge af neutropeni kan der opstå feber (febril 
+neutropeni) og infektion i blodet (septisk shock)  </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer (anæmi)  </p>
+</li>
+<li>
+<p>nedsat antal blodplader (trombocytopeni), som er vigtige for at stoppe blødning. De virker ved at 
+klumpe sig sammen og får blodet til at størkne ved skader på blodkar.  </p>
+</li>
+<li>
+<p>problemer med mave eller tarm. </p>
+</li>
+</ul>
+<p>Laboratorieprøver og kontrol 
+Din læge vil tage blodprøver før hver cyklus med Lonsurf. Du starter en ny cyklus hver 4. uge. Disse 
+prøver er nødvendige, fordi Lonsurf sommetider kan påvirke dine blodlegemer. </p>
+<p>Børn og unge 
+Dette lægemiddel er ikke beregnet til brug hos børn og unge under 18 år. Det skyldes, at det måske 
+ikke virker eller ikke er sikkert. </p>
+<p>Brug af andre lægemidler sammen med Lonsurf 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Dette gælder også medicin, som ikke er 
+købt på recept, og naturlægemidler. Dette skyldes, at Lonsurf kan påvirke den måde, anden medicin 
+virker på, og ligeledes kan visse andre lægemidler påvirke den måde, Lonsurf virker på. 
+Fortæl det især til lægen eller apotekspersonalet, hvis du tager medicin, der bruges til behandling af 
+HIV, såsom zidovudin. Dette skyldes, at zidovudin måske ikke virker så godt, hvis du tager Lonsurf. 
+Tal med din læge, om du skal skifte til anden HIV-medicin. 
+Hvis ovenstående gælder for dig (eller hvis du er i tvivl), så tal med din læge eller apotekspersonalet, 
+før du tager Lonsurf. </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. Lonsurf kan skade 
+dit ufødte barn. 
+Hvis du bliver gravid, vil du og din læge blive nødt til at beslutte, om fordelene ved Lonsurf er større 
+end risikoen for skade på barnet. 
+Du må ikke amme, hvis du tager Lonsurf, da det ikke vides, om Lonsurf udskilles i mælken. </p>
+<p>Prævention 
+Du må ikke blive gravid, mens du tager denne medicin. Dette skyldes, at det kan skade dit ufødte barn. 
+Du og din partner skal anvende effektive præventionsmetoder, mens du tager denne medicin. Du skal 
+også gøre det i 6 måneder, efter du er stoppet med at tage medicinen. Hvis du eller din partner bliver 
+gravid i løbet af den periode, skal du tale med din læge eller apotekspersonalet med det samme. </p>
+<p>Frugtbarhed 
+Lonsurf kan påvirke evnen til at få børn. Søg rådgivning hos lægen, før du bruger denne medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det vides ikke, om Lonsurf ændrer din evne til at køre bil eller betjene maskiner. Hvis du får 
+bivirkninger, der påvirker din evne til at koncentrere dig og reagere, må du ikke køre bil eller betjene 
+værktøj eller maskiner. </p>
+<p>Lonsurf indeholder lactose 
+Hvis din læge har fortalt dig, at du ikke tåler visse sukkerstoffer, skal du kontakte din læge, før du 
+tager denne medicin. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lonsurf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lonsurf"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er </p>
+<ul>
+<li>
+<p>Din læge vil beregne den rigtige dosis til dig - dosis afhænger af din vægt og højde, og om du har 
+nyreproblemer.  </p>
+</li>
+<li>
+<p>Lonsurf fås i to styrker. Din læge kan ordinere begge styrker til din dosis. </p>
+</li>
+<li>
+<p>Din læge vil fortælle dig, hvor mange tabletter du skal tage hver gang. </p>
+</li>
+<li>
+<p>Du skal tage dosis 2 gange dagligt.  </p>
+</li>
+</ul>
+<p>Hvornår skal Lonsurf tages 
+Du skal tage Lonsurf i 10 dage de første 2 uger og derefter have 2 uger uden medicin. Denne 4 ugers 
+periode kaldes en "cyklus". Det specifikke doseringsinterval er således: </p>
+<ul>
+<li>Uge 1  </li>
+<li>tag dosis 2 gange daglig i 5 dage  </li>
+<li>
+<p>derefter 2 dage uden medicin </p>
+</li>
+<li>
+<p>Uge 2  </p>
+</li>
+<li>tag dosis 2 gange daglig i 5 dage  </li>
+<li>
+<p>derefter 2 dage uden medicin </p>
+</li>
+<li>
+<p>Uge 3 </p>
+</li>
+<li>
+<p>Ingen medicin </p>
+</li>
+<li>
+<p>Uge 4 </p>
+</li>
+<li>Ingen medicin 
+Derefter skal du starte forfra med en ny cyklus på 4 uger efter ovenstående mønster. </li>
+</ul>
+<p>Hvordan skal det tages </p>
+<ul>
+<li>
+<p>Tag denne medicin gennem munden. </p>
+</li>
+<li>
+<p>Synk tabletterne hele og drik samtidig et glas vand. </p>
+</li>
+<li>
+<p>Tag tabletterne inden for 1 time efter din morgen- og aftensmad. </p>
+</li>
+<li>
+<p>Vask hænder, efter du har taget medicinen. </p>
+</li>
+</ul>
+<p>Hvis du har taget for meget Lonsurf 
+Hvis du har taget flere Lonsurf, end du skal, skal du tale med en læge eller tage på hospitalet med det 
+samme. Tag din pakning/dine pakninger med medicin med. </p>
+<p>Hvis du har glemt at tage Lonsurf </p>
+<ul>
+<li>
+<p>Hvis du har glemt at tage en dosis, skal du tale med din læge eller apotekspersonalet. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+</li>
+</ul>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Følgende bivirkninger kan forekomme med denne medicin, når den tages alene eller i kombination 
+med bevacizumab: </p>
+<p>Alvorlige bivirkninger 
+Kontakt straks din læge, hvis du bemærker nogen af følgende alvorlige bivirkninger (mange af 
+bivirkningerne ses i laboratorieanalyser - for eksempel dem, der påvirker dine blodlegemer): </p>
+<ul>
+<li>
+<p>Neutropeni (meget almindelig), febril neutropeni (almindelig) og septisk shock (sjælden). 
+Symptomerne inkluderer kulderystelser, feber, sveden eller andre tegn på bakterie- eller 
+svampeinfektion (se punkt 2). </p>
+</li>
+<li>
+<p>Anæmi (meget almindelig). Symptomerne inkluderer kortåndethed, træthed eller bleghed (se 
+punkt 2). </p>
+</li>
+<li>
+<p>Opkastning (meget almindelig) og diarré (meget almindelig), som kan føre til væskemangel 
+(dehydrering), hvis den er svær eller vedvarende. </p>
+</li>
+<li>
+<p>Alvorlige problemer i mave-tarm-kanalen: Mavesmerter (almindelig), ansamling af væske i 
+bughulen (sjælden), tyktarmsbetændelse (ikke almindelig), akut betændelse i bugspytkirtlen 
+(sjælden), tarmslyng (ikke almindelig) og delvist hindret tarmpassage (sjælden). Symptomerne 
+inkluderer intense mavesmerter, som kan være forbundet med opkastning, blokeret eller delvist 
+blokeret tarm, feber eller opsvulmning af maven. </p>
+</li>
+<li>
+<p>Trombocytopeni (meget almindelig). Symptomerne inkluderer usædvanlige blå mærker eller 
+blødning (se punkt 2). </p>
+</li>
+<li>
+<p>Blodpropper i lungerne (ikke almindelig): Symptomerne inkluderer kortåndethed og smerter i 
+brystet eller i benene.  </p>
+</li>
+<li>
+<p>Betændelseslignende reaktioner i lungerne er indberettet hos patienter, der får denne medicin. 
+Symptomerne omfatter vejrtrækningsbesvær og kortåndethed med hoste eller feber. 
+Nogle af disse alvorlige bivirkninger kan være dødelige.  </p>
+</li>
+</ul>
+<p>Andre bivirkninger 
+Fortæl din læge, hvis du bemærker nogle af nedenstående bivirkninger. Mange af bivirkningerne ses i 
+laboratorieanalyser - for eksempel dem, der påvirker dine blodlegemer. Din læge vil se efter disse 
+bivirkninger i dine prøveresultater. </p>
+<p>Meget almindelig: Kan forekomme hos flere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>udpræget træthedsfølelse  </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>nedsat antal af de hvide blodlegemer, der kaldes leukocytter - kan øge din risiko for infektion </p>
+</li>
+<li>
+<p>hævede slimhinder i munden </p>
+</li>
+</ul>
+<p>Almindelig: Kan forekomme hos op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>smagsændringer  </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>generel følelse af utilpashed </p>
+</li>
+<li>
+<p>lavt indhold af albumin i blodet </p>
+</li>
+<li>
+<p>øget indhold af bilirubin i blodet - kan medføre gulfarvning af hud eller øjne </p>
+</li>
+<li>
+<p>nedsat antal af de hvide blodlegemer, som kaldes lymfocytter - kan øge din risiko for infektion </p>
+</li>
+<li>
+<p>hævede hænder, ben eller fødder </p>
+</li>
+<li>
+<p>mundsmerter eller andre problemer fra munden </p>
+</li>
+<li>
+<p>hævede slimhinder - det kan være i næsen, halsen, øjnene, vagina, lunger eller tarme </p>
+</li>
+<li>
+<p>forhøjede leverenzymer </p>
+</li>
+<li>
+<p>protein i urinen </p>
+</li>
+<li>
+<p>udslæt, kløende eller tør hud </p>
+</li>
+<li>
+<p>kortåndethed, infektion i luftveje eller lunger, brystinfektioner </p>
+</li>
+<li>
+<p>virusinfektion </p>
+</li>
+<li>
+<p>smerter i dine led </p>
+</li>
+<li>
+<p>svimmelhed, hovedpine  </p>
+</li>
+<li>
+<p>højt blodtryk </p>
+</li>
+<li>
+<p>mundsår </p>
+</li>
+<li>
+<p>muskelsmerter </p>
+</li>
+</ul>
+<p>Ikke almindelige: Kan forekomme hos op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>lavt blodtryk </p>
+</li>
+<li>
+<p>resultat af blodprøver indikerer problemer med blodets størkning, som gør, at du lettere bløder </p>
+</li>
+<li>
+<p>mere mærkbare hjerteslag, brystsmerter </p>
+</li>
+<li>
+<p>unormal stigning eller fald i hjertefrekvensen (pulsen) </p>
+</li>
+<li>
+<p>øget antal hvide blodlegemer </p>
+</li>
+<li>
+<p>øget antal af de hvide blodlegemer, som kaldes monocytter </p>
+</li>
+<li>
+<p>øget niveau af lactatdehydrogenase i blodet </p>
+</li>
+<li>
+<p>lavt indhold af fosfater, natrium, kalium eller calcium i blodet </p>
+</li>
+<li>
+<p>nedsat antal af de hvide blodlegemer, som kaldes monocytter - kan øge risiko for infektion </p>
+</li>
+<li>
+<p>højt blodsukker (hyperglykæmi), øget indhold af urinstof, kreatinin og kalium i blodet </p>
+</li>
+<li>
+<p>blodprøveresultat, der tyder på inflammation (betændelseslignende reaktion) (øget niveau af C-
+reaktivt protein) </p>
+</li>
+<li>
+<p>følelse af, at alting snurrer rundt (vertigo) </p>
+</li>
+<li>
+<p>løbende næse eller næseblod, problemer med bihulerne </p>
+</li>
+<li>
+<p>ondt i halsen, hæs stemme, problemer med din stemme </p>
+</li>
+<li>
+<p>røde øjne, kløe i øjet, øjeninfektioner, vandige øjne  </p>
+</li>
+<li>
+<p>væskemangel </p>
+</li>
+<li>
+<p>oppustethed, luft fra tarmen, fordøjelsesbesvær </p>
+</li>
+<li>
+<p>betændelse i nedre del af fordøjelseskanalen </p>
+</li>
+<li>
+<p>hævelse eller blødning i indvoldene </p>
+</li>
+<li>
+<p>inflammation eller øget mængde syre i maven eller spiserøret, halsbrand </p>
+</li>
+<li>
+<p>smertefuld tunge, opkastning </p>
+</li>
+<li>
+<p>huller i tænderne, problemer i tænder, infektioner i gummerne </p>
+</li>
+<li>
+<p>hudrødme </p>
+</li>
+<li>
+<p>smerte eller ubehag i dine arme eller ben </p>
+</li>
+<li>
+<p>smerter, herunder cancersmerter  </p>
+</li>
+<li>
+<p>knoglesmerter, muskelsvaghed eller muskelkramper </p>
+</li>
+<li>
+<p>følelse af at være kold </p>
+</li>
+<li>
+<p>helvedesild (smerte og udslæt med små blærer på huden over nervebanerne på grund 
+nervebetændelse forårsaget af herpes zoster virus)  </p>
+</li>
+<li>
+<p>leversygdom </p>
+</li>
+<li>
+<p>inflammation eller betændelse i galdegangene </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+<li>
+<p>hoste, infektion i bihulerne, infektion i halsen </p>
+</li>
+<li>
+<p>betændelse i blæren </p>
+</li>
+<li>
+<p>blod i urinen </p>
+</li>
+<li>
+<p>problemer med at lade vandet (urinretention), manglende blærekontrol (inkontinens) </p>
+</li>
+<li>
+<p>ændringer i menstruationscyklus </p>
+</li>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>ikke-alvorlige neurologiske problemer </p>
+</li>
+<li>
+<p>hævet kløende udslæt, nældefeber, acne </p>
+</li>
+<li>
+<p>svedtendens, negleproblemer </p>
+</li>
+<li>
+<p>problemer med at sove eller falde i søvn </p>
+</li>
+<li>
+<p>følelsesløshed eller prikkende og stikkende fornemmelse i hænder eller fødder </p>
+</li>
+<li>
+<p>rødme, hævelse og smerte i dine håndflader og fodsåler (hånd-fod syndrom) </p>
+</li>
+</ul>
+<p>Sjælden: Kan forekomme hos op til 1 ud af 1 000 personer </p>
+<ul>
+<li>
+<p>inflammation og betændelse i tarmen </p>
+</li>
+<li>
+<p>fodsvamp - svampeinfektion i fødderne, infektioner forårsaget af gærsvampe </p>
+</li>
+<li>
+<p>nedsat antal af de hvide blodlegemer, som kaldes granulocytter - kan øge din risiko for infektion </p>
+</li>
+<li>
+<p>hævelse eller smerter i dine storetæer </p>
+</li>
+<li>
+<p>hævelse i dine led </p>
+</li>
+<li>
+<p>øget indhold af natrium i blodet </p>
+</li>
+<li>
+<p>brændende fornemmelse, ubehagelig øget eller nedsat følesans </p>
+</li>
+<li>
+<p>besvimelse (synkope) </p>
+</li>
+<li>
+<p>synsproblemer som sløret syn, dobbeltsyn, nedsat syn, grå stær </p>
+</li>
+<li>
+<p>tørre øjne </p>
+</li>
+<li>
+<p>øresmerter </p>
+</li>
+<li>
+<p>betændelse i øvre del af fordøjelseskanalen </p>
+</li>
+<li>
+<p>smerte i øvre eller nedre del af fordøjelseskanalen </p>
+</li>
+<li>
+<p>ophobning af væske i lungerne </p>
+</li>
+<li>
+<p>dårlig ånde, problemer i gummer, blødende gummer </p>
+</li>
+<li>
+<p>polypper i munden </p>
+</li>
+<li>
+<p>inflammation eller blødning i indvoldene </p>
+</li>
+<li>
+<p>udspiling af galdegangen </p>
+</li>
+<li>
+<p>hævet rød hud, blister, huden falder af </p>
+</li>
+<li>
+<p>lysfølsomhed </p>
+</li>
+<li>
+<p>inflammation i blæren </p>
+</li>
+<li>
+<p>ændringer i urinprøver </p>
+</li>
+<li>
+<p>blodpropper, f.eks. i hjernen eller benene </p>
+</li>
+<li>
+<p>ændringer i optagelsen af hjertets elektriske aktivitet (EKG - elektrokardiogram) </p>
+</li>
+<li>
+<p>lavt indhold af totalt protein i blodet </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lonsurf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lonsurf"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre pakning eller blisterpakningen efter 
+"EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen specielle opbevaringsbetingelser. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet eller toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lonsurf indeholder: 
+Lonsurf 15 mg/6,14 mg filmovertrukket tablet 
+• Aktive stoffer: Trifluridin og tipiracil. Hver filmovertrukket tablet indeholder 15 mg trifluridin og 
+6,14 mg tipiracil 
+• Øvrige indholdsstoffer:</p>
+<ul>
+<li>Tabletkerne: Lactosemonohydrat, pregelatineret stivelse (majs) og stearinsyre (se punkt 2 
+"Lonsuft indeholder lactose"). </li>
+<li>Filmovertræk: Hypromellose, macrogol (8000), titandioxid (E171) og magnesiumstearat. </li>
+<li>Prægeblæk: Shellac, jernoxid rød (E172), jernoxid gul (E172), titandioxid (E171), 
+indigocarmin (E132), carnaubavoks og talcum. </li>
+</ul>
+<p>Lonsurf 20 mg/8,19 mg filmovertrukket tablet </p>
+<ul>
+<li>
+<p>Aktive stoffer: Trifluridin og tipiracil. Hver filmovertrukket tablet indeholder 20 mg trifluridin og 
+8,19 mg tipiracil. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer er:</p>
+</li>
+<li>
+<p>Tabletkerne: Lactosemonohydrat, pregelatineret stivelse (majs) og stearinsyre (se punkt 2 
+"Lonsurf indeholder lactose"). </p>
+</li>
+<li>Filmovertræk: Hypromellose, macrogol (8000), titandioxid (E171), jernoxid rød (E172) og 
+magnesiumstearat. </li>
+<li>Prægeblæk: Shellac, jernoxid rød (E172), jernoxid gul (E172), titandioxid (E171), 
+indigocarmin (E132), carnaubavoks og talcum. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>Lonsurf 15mg/6,14 mg mg er en hvid, bikonveks, rund, filmovertrukket tablet, præget med “15" 
+på den ene side og “102" og “15 mg" på den anden side med gråt blæk. </p>
+</li>
+<li>
+<p>Lonsurf 20 mg/8,19 mg er en blegrød, bikonveks, rund, filmovertrukket tablet, præget med “20" 
+på den ene side og “102" og “20 mg" på den anden side med gråt blæk. </p>
+</li>
+</ul>
+<p>Hver pakning indeholder 20 filmovertrukne tabletter (2 blisterkort med 10 tabletter i hver), 
+40 filmovertrukne tabletter (4 blisterkort med 10 tabletter i hver) eller 60 filmovertrukne tabletter 
+(6 blisterkort med 10 tabletter i hver). Der er integreret et tørremiddel i hvert blisterfolie. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Les Laboratoires Servier<br />
+50 rue Carnot 
+92284 Suresnes Cedex 
+Frankrig </p>
+<p>Fremstiller 
+Les Laboratoires Servier Industrie 
+905, route de Saran 
+45520 Gidy 
+Frankrig </p>
+<p>Servier (Ireland) Industries Limited 
+Gorey Road 
+Arklow 
+Co. Wicklow 
+Y14 E284, 
+Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Lietuva 
+UAB “SERVIER PHARMA" 
+Tel: +370 (5) 2 63 86<br />
+България 
+Сервие Медикал ЕООД 
+Тел.: +359 2 921 57<br />
+Luxembourg/Luxemburg 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Česká republika 
+Servier s.r.o. 
+Tel: +420 222 118 Magyarország 
+Servier Hungaria Kft. 
+Tel: +36 1 238 7 
+Danmark 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Malta 
+V.J. Salomone Pharma Ltd<br />
+Tel: + 356 21 22 01<br />
+Deutschland 
+Servier Deutschland GmbH 
+Tel: +49 (0)89 57095<br />
+Nederland 
+Servier Nederland Farma B.V. 
+Tel: +31 (0)71 5246 
+Eesti 
+Servier Laboratories OÜ<br />
+Tel:+ 372 664 5 
+Norge 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Ελλάδα 
+ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
+Τηλ: +30 210 939 1 
+Österreich 
+Servier Austria GmbH 
+Tel: +43 (1) 524 39<br />
+España 
+Laboratorios Servier S.L. 
+Tel: +34 91 748 96<br />
+Polska 
+Servier Polska Sp. z o.o. 
+Tel: +48 (0) 22 594 90 France 
+Les Laboratoires Servier 
+Tel: +33 (0)1 55 72 60<br />
+Portugal 
+Servier Portugal, Lda 
+Tel.: +351 21 312 20 Hrvatska 
+Servier Pharma, d. o. o. 
+Tel.: +385 (0)1 3016 România 
+Servier Pharma SRL 
+Tel: +4 021 528 52<br />
+Ireland 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +353 (0)1 663 8 
+Slovenija 
+Servier Pharma d. o. o.<br />
+Tel.: +386 (0)1 563 48 Ísland 
+Servier Laboratories 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Servier Slovensko spol. s r.o. 
+Tel.:+421 (0) 2 5920 41 Italia 
+Servier Italia S.p.A. 
+Tel: +39 06 669Suomi/Finland 
+Servier Finland Oy 
+P. /Tel: +358 (0)9 279 80<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22741 
+Sverige 
+Servier Sverige AB 
+Tel : +46 (0)8 522 508<br />
+Latvija 
+SIA Servier Latvia 
+Tel: +371 67502United Kingdom (Northern Ireland) 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +44 (0)1753 666 
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-2f63d459fa1a5400e15352b2552fb0ee
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lonsurf Package Leaflet for language en"
+Description: "ePI document Bundle for lonsurf Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2f63d459fa1a5400e15352b2552fb0ee"
+* entry[0].resource = composition-en-2f63d459fa1a5400e15352b2552fb0ee
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2f63d459fa1a5400e15352b2552fb0ee"
+* entry[=].resource = mp2f63d459fa1a5400e15352b2552fb0ee
+                            
+                    
+Instance: bundlepackageleaflet-da-2f63d459fa1a5400e15352b2552fb0ee
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lonsurf Package Leaflet for language da"
+Description: "ePI document Bundle for lonsurf Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-2f63d459fa1a5400e15352b2552fb0ee"
+* entry[0].resource = composition-da-2f63d459fa1a5400e15352b2552fb0ee
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2f63d459fa1a5400e15352b2552fb0ee"
+* entry[=].resource = mp2f63d459fa1a5400e15352b2552fb0ee
+                            
+                    
+
+
+
+Instance: mp2f63d459fa1a5400e15352b2552fb0ee
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Lonsurf 15 mg/6.14 mg film-coated tablets"
-Description: "Lonsurf 15 mg/6.14 mg film-coated tablets"
+Title: "Medicinal Product lonsurf"
+Description: "lonsurf"
 Usage: #inline
 
  
@@ -487,7 +1304,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Lonsurf 15 mg/6.14 mg film-coated tablets"
+  * productName = "lonsurf"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -514,29 +1331,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-2f63d459fa1a5400e15352b2552fb0ee
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lonsurf Package Leaflet for language en"
-Description: "ePI document Bundle for lonsurf Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 2f63d459fa1a5400e15352b2552fb0eeListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/16/1096/001-006"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lonsurf"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-2f63d459fa1a5400e15352b2552fb0ee"
-* entry[0].resource = composition-en-2f63d459fa1a5400e15352b2552fb0ee
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp68ed7f3855852fdd326ba8c13d491fb9"
-* entry[=].resource = mp68ed7f3855852fdd326ba8c13d491fb9
-                            
-                      
+* title = "List of all ePIs associated with lonsurf"
+
+* subject = Reference(mp68ed7f3855852fdd326ba8c13d491fb9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lonsurf "lonsurf"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-2f63d459fa1a5400e15352b2552fb0ee) // lonsurf en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-2f63d459fa1a5400e15352b2552fb0ee) // lonsurf da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-2f63d459fa1a5400e15352b2552fb0ee
+InstanceOf: List
+
+* insert 2f63d459fa1a5400e15352b2552fb0eeListRuleset
+    

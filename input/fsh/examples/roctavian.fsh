@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6154ec9930909dd76813cd26c37e2a8e
 InstanceOf: CompositionUvEpi
 Title: "Composition for roctavian Package Leaflet"
@@ -358,12 +361,648 @@ at least every year and this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-6154ec9930909dd76813cd26c37e2a8e
+InstanceOf: CompositionUvEpi
+Title: "Composition for roctavian Package Leaflet"
+Description:  "Composition for roctavian Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfe7b12ef735604f6c512cfd30455a3b8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpfe7b12ef735604f6c512cfd30455a3b8
+* title = "TEST PURPOSES ONLY - roctavian"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får ROCTAVIAN </li>
+<li>Sådan indgives ROCTAVIAN </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What roctavian is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What roctavian is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+ROCTAVIAN er et genterapiprodukt, der indeholder det aktive stof valoctocogene roxaparvovec. Et 
+genterapiprodukt virker ved at levere et gen ind i kroppen for at korrigere en genetisk mangel. </p>
+<p>Anvendelse 
+Dette lægemiddel anvendes til behandling af alvorlig hæmofili A hos voksne, som ikke har nuværende 
+eller tidligere hæmmere (neutraliserende antistoffer) af faktor VIII, og som ikke har antistoffer mod 
+virusvektoren AAV5. Hæmofili A er en tilstand, hvor mennesker arver en ændret form af et gen, der er nødvendigt for at 
+danne faktor VIII, som er et vigtigt protein, der er nødvendigt for, at blodet kan størkne og stoppe 
+blødninger. Personer med hæmofili A kan ikke producere faktor VIII og har tendens til indre eller ydre 
+blødningsepisoder. </p>
+<p>Sådan virker ROCTAVIAN 
+Det aktive stof i ROCTAVIAN er baseret på en virus, som ikke medfører sygdom hos mennesker. 
+Denne virus er blevet modificeret, så den ikke kan sprede sig i kroppen, men kan levere en fungerende 
+kopi af faktor VIII-genet til leverceller. Dette gør levercellerne i stand til at producere 
+faktor VIII-protein og øge niveauet af fungerende faktor VIII i blodet. Samtidig hjælper dette blodet 
+med at størkne mere normalt og forhindrer blødning eller reducerer blødningsepisoder. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take roctavian"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take roctavian"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du kan ikke få ROCTAVIAN 
+- hvis du er allergisk over for valoctocogene roxaparvovec eller et af de øvrige indholdsstoffer i 
+ROCTAVIAN (angivet i afsnit 6). 
+- hvis du har en aktiv infektion, eller hvis du har en kronisk (langvarig) infektion, som ikke 
+kontrolleres af medicin, du tager, eller hvis du har arvæv på leveren (signifikant leverfibrose 
+eller -cirrose), da dette kan påvirke din krops første reaktion på ROCTAVIAN, 
+- hvis du har antistoffer over for den type virus, som bruges til at producere denne medicin. Din 
+læge vil teste dig på forhånd for at undersøge, om det er tilfældet. </p>
+<p>Hvis noget af ovenstående gælder for dig, eller hvis du er usikker på noget af ovenstående, skal du 
+kontakte din læge, før du får ROCTAVIAN. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Vigtigheden af en god leverfunktion </p>
+<ul>
+<li>
+<p>Leveren er det organ, der producerer faktor VIII efter behandling med ROCTAVIAN. Du skal 
+passe på leverens tilstand, så den fungerer så optimalt som muligt, og du kan producere 
+faktor VIII og fortsætte med løbende at producere faktor VIII. </p>
+</li>
+<li>
+<p>Tal med din læge om, hvad du kan gøre for at forbedre og bevare din levers tilstand (se også Du 
+kan ikke få ROCTAVIAN, ovenfor, og Brug af andre lægemidler sammen med 
+ROCTAVIAN samt Brug af ROCTAVIAN sammen med alkohol, nedenfor). </p>
+</li>
+<li>
+<p>Din læge kan fraråde behandling med ROCTAVIAN, hvis du har en leversygdom, der kan 
+forhindre ROCTAVIAN i at fungere godt. </p>
+</li>
+</ul>
+<p>Du skal muligvis tage ekstra medicin </p>
+<ul>
+<li>
+<p>Det kan være nødvendigt for dig at tage anden medicin (kortikosteroider) i en længere periode 
+(2 måneder eller længere) efter du har fået ROCTAVIAN for at håndtere problemer med din 
+lever, som kan ses i prøver. Kortikosteroider kan forårsage bivirkninger, mens du modtager 
+dem. Din læge kan råde dig til at undgå eller udsætte behandling med ROCTAVIAN, hvis det 
+ikke er sikkert for dig at modtage kortikosteroider, og kan også rådgive dig om de skridt, du bør 
+tage for sikker brug, eller kan give dig en anden medicin. Se også afsnit 3. Bivirkninger under eller kort tid efter infusion af ROCTAVIAN </p>
+</li>
+<li>
+<p>Der kan opstå infusionsrelaterede bivirkninger under eller kort tid efter du får 
+ROCTAVIAN-infusionen (drop). Symptomer på sådanne bivirkninger er anført i 
+afsnit 4. Bivirkninger. Fortæl det straks til din læge eller sygeplejerske, hvis du oplever disse 
+eller andre symptomer under eller kort tid efter infusionen. Afhængigt af symptomerne kan 
+infusionen foretages langsommere eller stoppes midlertidigt, eller du kan få medicin til at 
+behandle dem. Inden du bliver udskrevet, vil din læge give dig oplysninger om, hvad du skal 
+gøre, hvis du oplever nye bivirkninger eller bivirkninger, der kommer tilbage, når du har forladt 
+hospitalet. </p>
+</li>
+</ul>
+<p>Risiko for uønskede blodpropper, når faktor VIII-niveauerne forbedres </p>
+<ul>
+<li>Efter behandling med ROCTAVIAN kan dit faktor VIII-proteinniveau stige. Hos nogle 
+patienter kan det stige til niveauer over det normale område i en periode. </li>
+</ul>
+<p>Faktor VIII er det protein, der er nødvendigt for at danne stabile klumper i dit blod. Afhængigt 
+af dine individuelle risikofaktorer kan en forbedring i niveauet af faktor VIII betyde en øget 
+risiko for uønskede blodpropper (såkaldte "tromboser" i enten vener eller arterier). Tal med din 
+læge om generelle risikofaktorer for uønskede blodpropper og hjerte-kar-sygdomme, og hvad 
+du skal gøre ved dem. Spørg også, hvordan du kan genkende symptomer på uønskede 
+blodpropper, og hvad du skal gøre, hvis du tror, at du har en. </p>
+<p>Undgå bloddonationer og donationer til transplantation </p>
+<ul>
+<li>Du må ikke donere blod, organer, væv eller celler til transplantation. </li>
+</ul>
+<p>Immunkompromitterede patienter eller patienter, der modtager immunsuppressiv behandling </p>
+<ul>
+<li>Hvis du er immunkompromitteret (når dit immunsystems evne til at bekæmpe infektioner er 
+nedsat), eller du modtager immunsuppressiv behandling, skal du kontakte lægen, før du 
+påbegynder behandling med ROCTAVIAN. Det kan være nødvendigt at følge dig tættere, hvis 
+dit immunsystem ikke fungerer korrekt, så det sikres, at du kan få behandling og anden medicin 
+såsom kortikosteroider, eller hvis du har behov for at skifte din eksisterende medicin. </li>
+</ul>
+<p>Modtagelse af genterapi igen i fremtiden </p>
+<ul>
+<li>Efter modtagelse af ROCTAVIAN vil dit immunsystem producere antistoffer mod skallen af 
+AAV-vektoren. Det vides endnu ikke, om eller under hvilke betingelser behandling med 
+ROCTAVIAN kan gentages. Det vides heller ikke endnu, om eller under hvilke betingelser 
+efterfølgende brug af en anden genterapi kan være mulig. </li>
+</ul>
+<p>Brug af anden behandling til hæmofili </p>
+<ul>
+<li>Efter brug af ROCTAVIAN skal du tale med lægen, om du skal stoppe med din anden 
+behandling af hæmofili, og udarbejde en behandlingsplan over, hvad du skal gøre i tilfælde af 
+kirurgi, traumer, blødninger eller andre indgreb, der potentielt kan øge risikoen for blødning. 
+Det er meget vigtigt, at du fortsat bliver overvåget og overholder dine lægeaftaler, så det kan 
+bestemmes, om du har behov for anden behandling til håndtering af hæmofili. </li>
+</ul>
+<p>Overvågningsprøver 
+Før behandling med ROCTAVIAN vil lægen tage nogle prøver, så din leverstatus kan vurderes. </p>
+<p>Efter behandling med ROCTAVIAN vil du få taget blodprøver for at kontrollere:</p>
+<ul>
+<li>hvornår leveren begynder at producere faktor VIII, så du kan vide, hvornår du kan stoppe din 
+normale behandling med faktor VIII-produkter, </li>
+<li>hvor meget faktor VIII din lever producerer løbende, </li>
+<li>hvordan levercellerne reagerer på behandlingen med ROCTAVIAN, og </li>
+<li>om du udvikler hæmmere (neutraliserende antistoffer) mod faktor VIII. </li>
+</ul>
+<p>Hvor ofte du skal have taget blodprøver afhænger af, hvordan du reagerer på ROCTAVIAN. Generelt 
+vil der i de første 26 uger efter behandlingen blive taget blodprøver hver uge og derefter hver anden til 
+hver fjerde uge indtil udgangen af det første år. Efter det første år vil der blive taget blodprøver mindre 
+hyppigt efter din læges skøn. Det er vigtigt, at du taler med din læge om planen for disse 
+blodprøver, så de kan udføres efter behov. </p>
+<p>Da ikke alle patienter reagerer på ROCTAVIAN, og grundene til dette ikke er klarlagt, er lægen ikke i 
+stand til at forudsige, om du vil reagere fuldt ud på behandlingen. Derfor er det muligt, at du ikke har 
+gavn af ROCTAVIAN, men at du alligevel vil være udsat for langsigtede risici. </p>
+<p>Hvis du reagerer på behandlingen, er det ikke kendt, hvor længe behandlingen vil vare. En positiv 
+behandlingseffekt på op til fem år er rapporteret hos nogle patienter. </p>
+<p>Der er ingen planer om at administrere medicinen en gang til hos patienter, som ikke opnår respons, 
+eller som ikke længere har respons. </p>
+<p>Der kan være behov for langsigtede opfølgningsprøver for at få bekræftet et fortsat sikkert og effektivt 
+respons på ROCTAVIAN. </p>
+<p>Risiko for malignitet potentielt forbundet med ROCTAVIAN </p>
+<ul>
+<li>ROCTAVIAN kan indsætte sig selv i levercelle-dna, og der er også mulighed for, at det kan 
+indsætte sig selv i dna’et i andre celler i kroppen. Derfor kan ROCTAVIAN bidrage til en risiko 
+for kræft. Selvom der ikke er dokumentation for dette i kliniske forsøg indtil nu, er det stadig 
+muligt på grund af medicinens beskaffenhed. Du bør derfor drøfte dette med lægen. Efter 
+behandling med ROCTAVIAN vil du blive anbefalet at deltage i et register for at hjælpe med at 
+studere den langsigtede sikkerhed af behandlingen i 15 år, hvor godt den fortsætter med at </li>
+</ul>
+<p>fungere og eventuelle bivirkninger, der kan være forbundet med behandlingen. I tilfælde af 
+kræft kan lægen tage en prøve til yderligere vurdering. </p>
+<p>Børn og unge 
+ROCTAVIAN er kun beregnet til voksne. ROCTAVIAN er endnu ikke testet til anvendelse hos børn 
+eller unge. </p>
+<p>Brug af andre lægemidler sammen med ROCTAVIAN 
+Før og efter behandling med ROCTAVIAN skal du fortælle din læge, hvis du bruger andre 
+lægemidler, for nylig har brugt andre lægemidler eller planlægger at bruge andre lægemidler, herunder 
+plantelægemidler eller kosttilskud. Dette er for at sikre, at du så vidt muligt undgår at tage noget, der 
+kan skade leveren eller påvirke responset på kortikosteroider eller ROCTAVIAN (såsom isotretinoin, 
+en medicin, der bruges til behandling af akne) eller nogle lægemidler til behandling af hiv (se afsnittet 
+ovenfor om Immunkompromitterede patienter eller patienter, der modtager immunsuppressiv 
+behandling). Dette er især vigtigt i løbet af det første år efter behandling med ROCTAVIAN (se også 
+Advarsler og forsigtighedsregler). </p>
+<p>Da kortikosteroider kan påvirke kroppens immunsystem (-forsvar), kan lægen justere tidspunktet for 
+vaccinationer og kan anbefale, at du ikke får visse vaccinationer, mens du er i behandling med 
+kortikosteroider. Tal med lægen, hvis du har spørgsmål. </p>
+<p>Brug af ROCTAVIAN sammen med alkohol 
+Indtagelse af alkohol kan påvirke leverens evne til at producere faktor VIII efter behandling med 
+ROCTAVIAN. Du bør undgå alkohol i mindst et år efter behandlingen. Tal med din læge om, hvor 
+meget alkohol der er acceptabelt for dig efter det første år (se også Advarsler og forsigtighedsregler). </p>
+<p>Graviditet, amning og frugtbarhed 
+ROCTAVIAN bør ikke anvendes til kvinder i den fertile alder. Det er endnu ikke kendt, om 
+ROCTAVIAN kan anvendes sikkert til disse patienter, da virkningerne på graviditeten og det ufødte 
+barn ikke er kendt. Det vides heller ikke, om ROCTAVIAN overføres til modermælk. </p>
+<p>Der foreligger ingen oplysninger om ROCTAVIANs påvirkning af den mandlige eller kvindelige 
+frugtbarhed. </p>
+<p>Brug af prævention og undgåelse af graviditet hos partnere i en periode </p>
+<ul>
+<li>Når en mandlig patient er blevet behandlet med ROCTAVIAN, skal patienten og en eventuel 
+kvindelig partner undgå graviditet i 6 måneder. Du skal anvende sikker kontraception (f.eks. 
+prævention med dobbeltbarriere, såsom kondom og pessar). Dette er for at forhindre den 
+teoretiske risiko for, at faktor VIII-genet fra en fars behandling med ROCTAVIAN overføres til 
+et barn med ukendte konsekvenser. Af samme grund må mandlige patienter ikke donere sæd i 
+en periode på 6 måneder. Drøft med din læge, hvilke præventionsmidler der er egnede. </li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Midlertidig ørhed (nær-besvimelse), svimmelhed, træthed og hovedpine er blevet observeret efter 
+infusion af ROCTAVIAN. Hvis du oplever ovenstående, bør du være forsigtig, indtil du er sikker på, 
+at ROCTAVIAN ikke påvirker din evne til at føre motorkøretøj eller betjene maskiner negativt. Tal 
+med din læge om dette. </p>
+<p>ROCTAVIAN indeholder natrium 
+Dette lægemiddel indeholder 29 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
+hætteglas. Dette svarer til 1,5 % af den anbefalede maksimale daglige indtagelse af natrium for en 
+voksen. Den mængde natrium, du vil få, afhænger af antallet af hætteglas med ROCTAVIAN, der 
+anvendes til infusionen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take roctavian"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take roctavian"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ROCTAVIAN gives af en læge, som er specialiseret i håndtering af din sygdom. </p>
+<p>Lægen vil udregne den korrekte dosis til dig på baggrund af din legemsvægt. </p>
+<p>Behandling med ROCTAVIAN består af en enkelt infusion (drop) i en vene. Det kan tage flere timer 
+at gennemføre infusionen. </p>
+<p>Du vil modtage infusionen på et hospital Du vil blive observeret under og efter infusionen for at 
+opdage mulige bivirkninger </p>
+<p>Du vil få lov til at tage hjem (normalt senere samme dag), når det er blevet besluttet, at yderligere 
+observation ikke er nødvendig. </p>
+<p>Yderligere medicin, du kan få brug for </p>
+<p>Du kan måske være nødt til at tage en anden medicin (kortikosteroider) i en længere periode (for 
+eksempel 2 måneder eller længere) efter behandling med ROCTAVIAN for at forbedre dit respons på 
+behandlingen. Det er vigtigt, at du tager denne ekstra medicin i henhold til de givne instruktioner. Du 
+bør læse indlægssedlen for eventuel yderligere medicin, du får ordineret, og tale med din læge om de 
+mulige bivirkninger og eventuel overvågning, der kan være nødvendig. </p>
+<p>Hvis du får indgivet for meget ROCTAVIAN 
+Da denne medicin gives på hospitalet, og dosis udregnes og kontrolleres af dit lægeteam, er det 
+usandsynligt, at du får for meget. Hvis du får for meget ROCTAVIAN, kan du have højere niveauer af 
+faktor VIII end nødvendigt, hvilket teoretisk kan øge risikoen for uønskede blodpropper. Hvis dette 
+sker, vil din læge behandle dig efter behov. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Infusionsrelaterede bivirkninger kan opstå under eller kort tid efter infusionen (almindeligt; kan 
+påvirke op til 1 ud af 10 personer). Fortæl det straks til din læge eller sygeplejerske, hvis du oplever 
+nogen af følgende symptomer eller andre symptomer under eller kort tid efter infusionen: </p>
+<ul>
+<li>
+<p>Nældefeber eller andre udslæt, kløe </p>
+</li>
+<li>
+<p>Problemer med at trække vejret, nysen, hoste, løbende næse, rindende øjne, irriteret hals </p>
+</li>
+<li>
+<p>Kvalme, diarré </p>
+</li>
+<li>
+<p>Højt eller lavt blodtryk, hurtigt hjerteslag, ørhed (nær-besvimelse) </p>
+</li>
+<li>
+<p>Muskelsmerter, rygsmerter </p>
+</li>
+<li>
+<p>Feber, forkølelse, kulderystelser </p>
+</li>
+</ul>
+<p>Sådanne symptomer kan opstå alene eller i kombination. Afhængigt af symptomerne kan infusionen 
+foretages langsommere eller stoppes midlertidigt, eller du kan få medicin til at behandle dem. Inden du 
+bliver udskrevet, vil din læge give dig oplysninger om, hvad du skal gøre, hvis du oplever en ny eller 
+tilbagevendende bivirkning, når du har forladt hospitalet. </p>
+<p>Forhøjede niveauer af leverproteiner er forekommet efter infusion af ROCTAVIAN. I nogle tilfælde 
+skete disse stigninger sammen med et fald i niveauerne af faktor VIII. En stigning af leverproteiner, 
+som kan ses i blodprøver, kan være årsagen til at starte behandlingen med et kortikosteroid. </p>
+<p>Følgende bivirkninger kan forekomme med ROCTAVIAN. Nogle af disse bivirkninger kan opstå 
+under eller kort efter infusion. </p>
+<p>Meget almindelig (kan påvirke mere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Øget indhold af leverproteiner, som kan ses i blodprøver </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Faktor VIII over normale niveauer </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Øget indhold af kreatinfosfokinaseprotein (CPK) (et enzym, der frigives i blodet, når en muskel 
+beskadiges), som kan ses i blodprøver </p>
+</li>
+</ul>
+<p>Almindelig (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Udslæt (herunder nældefeber eller andre former for udslæt) </p>
+</li>
+<li>
+<p>Halsbrand (dyspepsi) </p>
+</li>
+<li>
+<p>Muskelsmerter </p>
+</li>
+<li>
+<p>Influenzalignende symptomer </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Forhøjet blodtryk </p>
+</li>
+<li>
+<p>Allergisk reaktion </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan påvirke op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Ørhed (nær-besvimelse) </p>
+</li>
+<li>
+<p>Problemer med at trække vejret </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført 
+i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store roctavian"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store roctavian"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglasset efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>ROCTAVIAN opbevares af sundhedspersoner på dit hospital. Den skal opbevares opretstående og 
+i den originale karton (for at beskytte den mod lys). </p>
+<p>Den skal opbevares og transporteres nedfrosset ved eller under -60 °C. Når den er optøet, skal den 
+bruges inden for 10 timer ved 25 °C (dette inkluderer holdetid i hætteglas og sprøjte og tid til infusion) 
+eller kasseres. Hvis det er nødvendigt, kan et intakt hætteglas (en prop, der endnu ikke er punkteret), 
+der er optøet, opbevares i køleskab (2 °C - 8 °C) i op til 3 dage, opretstående og beskyttet mod lys 
+(f.eks. i den originale karton). </p>
+<p>Optøet ROCTAVIAN må ikke anvendes, hvis opløsningen ikke er klar og farveløs til lysegul. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ROCTAVIAN indeholder:</p>
+<ul>
+<li>Aktivt stof: valoctocogene roxaparvovec </li>
+<li>Øvrige indholdsstoffer: dinatriumfosfatdodecahydrat (E339), mannitol (E421), poloxamer 188, 
+natriumklorid, natriumdihydrogenfosfat-dihydrat (E339) og vand til injektionsvæsker. 
+Se sidst i afsnit 2 ROCTAVIAN indeholder natrium for at få oplysninger om det samlede 
+indhold af natrium. </li>
+</ul>
+<p>Dette lægemiddel indeholder genetisk modificerede organismer (GMO'er). </p>
+<p>Udseende og pakningsstørrelser 
+Ved optøning er ROCTAVIAN en klar, farveløs til bleggul infusionsvæske, opløsning. Den leveres i 
+et hætteglas. </p>
+<p>Pakningsstørrelse: 1 hætteglas med 8 ml. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+BioMarin International Ltd. 
+Shanbally, Ringaskiddy 
+County Cork 
+P43 RIrland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Dette lægemiddel er godkendt under "betingede omstændigheder". Det betyder, at der forventes 
+yderligere dokumentation for lægemidlet. Det Europæiske Lægemiddelagentur vil mindst en gang om 
+året vurdere nye oplysninger om lægemidlet, og denne indlægsseddel vil om nødvendigt blive 
+ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Vigtigt: Se produktresuméet før anvendelse af ROCTAVIAN. </p>
+<p>Forholdsregler, der skal tages, før håndtering og administration af lægemidlet </p>
+<p>Hvert hætteglas er kun til engangsbrug. </p>
+<p>Dette lægemiddel indeholder genetisk modificerede organismer (GMO'er). </p>
+<p>Under klargøring, administration og bortskaffelse skal der bæres personligt beskyttelsesudstyr 
+(herunder kittel, sikkerhedsbriller, maske og handsker) ved håndtering af opløsningen af 
+valoctocogene roxaparvovec og materialer, der har været i kontakt med opløsningen (fast og flydende 
+affald). </p>
+<p>ROCTAVIAN må ikke udsættes for lys fra en desinfektionslampe med ultraviolet stråling. 
+ROCTAVIAN skal klargøres ved hjælp af aseptisk teknik. </p>
+<p>Ved montering af infusionssystemet skal det sikres, at komponenternes overflade, der er i kontakt med 
+ROCTAVIAN-opløsningen, består af de kompatible materialer, der er anført i produktresuméet. </p>
+<p>Kompatible komponentmaterialer til infusionssystemet </p>
+<p>Komponent 
+Kompatible materialer 
+Sprøjter til infusionspumpe 
+Polypropylentromle med en stempelhætte af syntetisk gummi 
+Sprøjtens låg 
+Polypropylen 
+Infusionsslangea 
+Polyethylen 
+In-line-filter 
+Polyvinylidenfluorid-filter med en kerne af polyvinylklorid 
+Infusionskateter 
+Polyuretan-baseret polymer 
+Stophaner 
+Polykarbonat<br />
+Kanyler til ekstraktion fra hætteglas 
+Rustfrit stål 
+a Slangeforlængerne må ikke være længere end ca. 100 cm. </p>
+<p>ROCTAVIAN skal gives som infusion ved anvendelse af en flowhastighedskontrolleret sprøjtepumpe. </p>
+<p>Følgende sprøjter skal klargøres:</p>
+<ul>
+<li>Sprøjter, der indeholder ROCTAVIAN (antallet af sprøjter afhænger af patientens 
+dosisvolumen). </li>
+<li>Én sprøjte, der indeholder natriumklorid 9 mg/ml (0,9 %) injektionsvæske, opløsning til 
+skylning af infusionsslangen efter fuldførelse af infusionen af ROCTAVIAN. </li>
+</ul>
+<p>Infusionen kræver in-line-, højvolumeninfusionsfiltre med lav proteinbinding og en porestørrelse 
+på 0,22 mikron og et maksimalt driftstryk, der er tilstrækkeligt til sprøjtepumpe- eller 
+pumpeindstillingerne. Tilgængeligheden af et tilstrækkeligt antal udskiftningsfiltre skal sikres i 
+henhold til filterspecifikationerne for maksimalt filtreret væskevolumen. </p>
+<p>Optøning og inspektion </p>
+<ul>
+<li>
+<p>ROCTAVIAN skal optøs ved stuetemperatur. Hætteglas må ikke optøs eller opvarmes på anden 
+måde. Optøningstiden er ca. 2 timer. </p>
+</li>
+<li>
+<p>Opbevar hvert hætteglas i kartonen, indtil det er klar til optøning. ROCTAVIAN er følsomt over 
+for lys. </p>
+</li>
+<li>
+<p>Det antal hætteglas, der skal anvendes, tages ud fra kartonen. </p>
+</li>
+<li>
+<p>Efterse hætteglassene for skader på hætteglas eller låg. Må ikke anvendes, hvis de er 
+beskadigede. </p>
+</li>
+<li>
+<p>Stil hætteglassene oprejst. For at opnå optimal optøning skal de spredes jævnt ud eller placeres i 
+stativer, der har været opbevaret ved stuetemperatur. </p>
+</li>
+<li>
+<p>Kontrollér visuelt, at alle hætteglas er optøet. Der må ikke være synlig is. Vend hvert hætteglas 
+meget forsigtigt 5 gange for at blande. Det er vigtigt at minimere skumdannelse. Lad 
+opløsningen hvile i ca. 5 minutter, før der fortsættes. </p>
+</li>
+<li>
+<p>Kontrollér derefter visuelt de helt optøede hætteglas. Brug ikke et hætteglas, hvis opløsningen 
+ikke er klar, ikke er farveløs til lysegul eller indeholder synlige partikler. </p>
+</li>
+</ul>
+<p>Af hensyn til mikrobiologisk sikkerhed skal den optøede opløsning opbevares i hætteglassene, indtil 
+den skal ekstraheres til infusionssprøjter. </p>
+<p>Tidsvindue til yderligere klargøring og administration </p>
+<p>Efter optøningen skal infusionen af opløsningen udføres inden for 10-timers stabilitetsgrænsen 
+ved 25 °C. Infusionstiden afhænger af infusionsvolumen, hastighed og patientrespons og kan f.eks. 
+være 2 til 5 timer eller længere for en patient, der vejer 100 kg. </p>
+<p>Ekstraktion i sprøjter </p>
+<p>Brug 18- til 21-gauge skarpe kanyler til langsomt at ekstrahere hele det beregnede dosisvolumen af 
+ROCTAVIAN fra hætteglassene ind i sprøjterne. </p>
+<p>Tilføjelse af in-line-filteret og priming af infusionssystemet </p>
+<ul>
+<li>
+<p>Indsæt in-line-filteret tæt på infusionsstedet. </p>
+</li>
+<li>
+<p>Prime slangen og filteret med ROCTAVIAN. </p>
+</li>
+<li>
+<p>Ved udskiftning af filtre under infusionen skal der anvendes 9 mg/ml natriumklorid (0,9 %) 
+injektionsvæske, opløsning til priming og skylning. </p>
+</li>
+</ul>
+<p>Administration </p>
+<ul>
+<li>
+<p>Undlad at administrere dette lægemiddel, før opløsningen har nået stuetemperatur. </p>
+</li>
+<li>
+<p>Infusionsopløsningen skal administreres gennem en egnet perifer vene ved hjælp af et 
+infusionskateter og en programmerbar sprøjtepumpe. </p>
+</li>
+<li>
+<p>Start infusionen med en hastighed på 1 ml/min. Hvis patienten kan tåle det, kan hastigheden 
+øges med 1 ml/min hvert 30. minut op til en maksimal hastighed på 4 ml/min. Hvis det er 
+klinisk indiceret for en infusionsrelateret reaktion, skal infusionshastigheden reduceres, eller 
+infusionen skal stoppes. Der skal om nødvendigt administreres yderligere lægemidler, f.eks. 
+systemiske antihistaminer, kortikosteroider og/eller intravenøse væsker for at håndtere 
+infusionsreaktionen eller før infusionen genstartes. Når infusionen genstartes, skal der startes 
+med en hastighed på 1 ml/min, og det skal overvejes at opretholde et tidligere tolereret niveau 
+for den resterende del af infusionen. </p>
+</li>
+<li>
+<p>For at sikre, at patienten modtager den fulde dosis, efter den sidste sprøjtes volumen med 
+ROCTAVIAN er infunderet, skal der indgives et tilstrækkeligt volumen natriumklorid 9 mg/ml 
+(0,9 %) injektionsvæske, opløsning gennem samme slange og filter og med samme 
+infusionshastighed. </p>
+</li>
+<li>
+<p>Oprethold venøs adgang i den efterfølgende observationsperiode. </p>
+</li>
+</ul>
+<p>Forholdsregler i tilfælde af utilsigtet eksponering </p>
+<p>Alt spild af valoctocogene roxaparvovec skal tørres op med en absorberende gazetampon, og 
+spildområdet skal desinficeres med en blegemiddelopløsning efterfulgt af spritservietter. </p>
+<p>Sikkerhedsforanstaltninger, der skal tages ved bortskaffelse af lægemidlet </p>
+<p>Ikke anvendt lægemiddel og affald, der har været i kontakt med ROCTAVIAN (fast og flydende 
+affald) skal bortskaffes i overensstemmelse med lokale retningslinjer for farmaceutisk affald. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6154ec9930909dd76813cd26c37e2a8e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for roctavian Package Leaflet for language en"
+Description: "ePI document Bundle for roctavian Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6154ec9930909dd76813cd26c37e2a8e"
+* entry[0].resource = composition-en-6154ec9930909dd76813cd26c37e2a8e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6154ec9930909dd76813cd26c37e2a8e"
+* entry[=].resource = mp6154ec9930909dd76813cd26c37e2a8e
+                            
+                    
+Instance: bundlepackageleaflet-da-6154ec9930909dd76813cd26c37e2a8e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for roctavian Package Leaflet for language da"
+Description: "ePI document Bundle for roctavian Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6154ec9930909dd76813cd26c37e2a8e"
+* entry[0].resource = composition-da-6154ec9930909dd76813cd26c37e2a8e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6154ec9930909dd76813cd26c37e2a8e"
+* entry[=].resource = mp6154ec9930909dd76813cd26c37e2a8e
+                            
+                    
+
+
+
+Instance: mp6154ec9930909dd76813cd26c37e2a8e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ROCTAVIAN 2 × 1013 vector genomes/mL solution for infusion"
-Description: "ROCTAVIAN 2 × 1013 vector genomes/mL solution for infusion"
+Title: "Medicinal Product roctavian"
+Description: "roctavian"
 Usage: #inline
 
  
@@ -383,7 +1022,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ROCTAVIAN 2 × 1013 vector genomes/mL solution for infusion"
+  * productName = "roctavian"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -410,29 +1049,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6154ec9930909dd76813cd26c37e2a8e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for roctavian Package Leaflet for language en"
-Description: "ePI document Bundle for roctavian Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6154ec9930909dd76813cd26c37e2a8eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1668/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "roctavian"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6154ec9930909dd76813cd26c37e2a8e"
-* entry[0].resource = composition-en-6154ec9930909dd76813cd26c37e2a8e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpfe7b12ef735604f6c512cfd30455a3b8"
-* entry[=].resource = mpfe7b12ef735604f6c512cfd30455a3b8
-                            
-                      
+* title = "List of all ePIs associated with roctavian"
+
+* subject = Reference(mpfe7b12ef735604f6c512cfd30455a3b8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#roctavian "roctavian"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6154ec9930909dd76813cd26c37e2a8e) // roctavian en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6154ec9930909dd76813cd26c37e2a8e) // roctavian da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6154ec9930909dd76813cd26c37e2a8e
+InstanceOf: List
+
+* insert 6154ec9930909dd76813cd26c37e2a8eListRuleset
+    

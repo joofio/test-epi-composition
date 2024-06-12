@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-515ad355eee6410eab8e10f3744bb3f9
 InstanceOf: CompositionUvEpi
 Title: "Composition for calquence Package Leaflet"
@@ -349,12 +352,510 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-515ad355eee6410eab8e10f3744bb3f9
+InstanceOf: CompositionUvEpi
+Title: "Composition for calquence Package Leaflet"
+Description:  "Composition for calquence Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp411b16c0f2496fffc409c1fb196e9dca)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp411b16c0f2496fffc409c1fb196e9dca
+* title = "TEST PURPOSES ONLY - calquence"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Calquence
+3. Sådan skal du tage Calquence
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What calquence is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What calquence is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Calquence
+Calquence er et lægemiddel til behandling af kræft.
+•
+Calquence indeholder det aktive stof acalabrutinib.
+•
+Det hører til en gruppe lægemidler, som kaldes Brutons tyrosinkinase (BTK)-hæmmere.
+Hvad bruges Calquence til
+Calquence bruges til behandling af voksne med kronisk lymfatisk leukæmi (CLL).
+CLL er en kræftform i de hvide blodlegemer, som kaldes B-lymfocytter (eller B-celler). Disse celler er 
+en del af immunsystemet (kroppens forsvar).
+Hvordan virker Calquence
+Calquence virker ved at blokere BTK, som er et protein i kroppen, der hjælper disse kræftceller med at 
+vokse og overleve. Ved at blokere BTK, hjælper Calquence med at dræbe og kan nedsætte antallet af 
+kræftceller, hvilket kan få sygdommen til at udvikle sig langsommere.
+Er du i tvivl om, hvordan Calquence virker, eller hvorfor lægen har ordineret dette lægemiddel, så 
+spørg lægen, apotekspersonalet eller sygeplejersken.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take calquence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take calquence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Calquence</h2>
+<p>hvis du er allergisk over for acalabrutinib eller et af de øvrige indholdsstoffer (angivet i 
+afsnit 6).
+61
+Er du i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken før du tager Calquence.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Calquence, hvis du:
+
+nogensinde har haft usædvanlige blå mærker eller blødning, eller hvis du får lægemidler, der øger 
+risikoen for blødning (se afsnit 4, ”Bivirkninger”).
+
+har en infektion (se afsnit 4, ”Bivirkninger”).
+
+for nylig har gennemgået en operation eller skal til det. Din læge vil muligvis stoppe behandlingen 
+med Calquence inden eller efter en medicinsk behandling, operation eller en tandbehandling.
+
+nogensinde har haft hepatitis B (en leverinfektion) – dette skyldes, at Calquence kan få hepatitis B 
+til at blive aktiv igen, og så vil din læge skulle kigge efter tegn på, om denne infektion kommer 
+tilbage (se afsnit 4, ”Bivirkninger”).
+
+har eller nogensinde har haft uregelmæssige hjerteslag (se afsnit 4, ”Bivirkninger”).
+Tal med din læge, hvis du udvikler en ny læsion eller nogen som helst ændring i udseendet af 
+områder af din hud, da du har en høj risiko for at udvikle hudkræft, se afsnit 4. Beskyt dig mod 
+solen og foretag regelmæssige undersøgelser af din hud.
+Din læge vil kontrollere mængden af dine blodlegemer efter behov under behandlingen.
+Børn og unge
+Giv ikke dette lægemiddel til børn eller unge under 18 år. Dette skyldes, at det ikke er undersøgt i 
+denne aldersgruppe.
+Brug af andre lægemidler sammen med Calquence
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre lægemidler, for 
+nylig har taget andre lægemidler eller planlægger at tage andre lægemidler, især hvis du tager noget af 
+følgende:
+
+antibiotika mod bakterieinfektioner – såsom clarithromycin
+
+lægemidler mod svampeinfektioner – såsom posaconazol, itraconazol, voriconazol
+
+ketoconazol – et lægemiddel til Cushings syndrom (en sygdom, hvor kroppen 
+producerer for meget af hormonet cortisol)
+
+lægemidler mod hiv-infektioner – såsom indinavir og ritonavir
+
+lægemidler mod hepatitis C – såsom telaprevir
+
+rifampicin – et antibiotikum mod bakterieinfektioner (tuberkulose)
+
+lægemiddel mod migræne – ergotamin
+
+lægemiddel mod lavt natriumindhold i blodet - conivaptan
+
+lægemiddel mod højt blodsukker – metformin
+
+lægemiddel mod afstødning af organer – ciclosporin
+
+lægemidler mod kramper (anfald) eller epilepsi – såsom carbamazepin, phenytoin
+
+pimozid – et lægemiddel, der bruges mod Tourette (en tilstand, der medfører 
+ukontrollerede bevægelser og udbrud af ord og lyde)
+
+perikon (Hypericum perforatum) – et naturlægemiddel mod depression
+
+theofyllin – et lægemiddel, der bruges mod hvæsende vejrtrækning, kortåndethed og 
+trykken for brystet
+
+mavesyrereducerende lægemidler:<em> syreneutraliserende lægemidler – såsom calciumcarbonat
+
+Tag Calquence 2 timer før eller 2 timer efter, du har taget disse 
+lægemidler</em> histamin-2-receptorblokkere – såsom ranitidin eller famotidin
+
+Tag Calquence 2 timer før eller 10 timer efter, du har taget disse 
+lægemidler* protonpumpehæmmere – såsom omeprazol
+
+Undgå at tage disse lægemidler, mens du tager Calquence
+62
+
+methotrexat – et lægemiddel mod sygdomme, såsom reumatoid artritis, psoriasis og 
+ulcerativ colitis, som skyldes, at immunsystemet ikke virker korrekt.
+
+Dette lægemiddel bør tages mindst 6 timer før eller efter Calquence.
+Lægemidler, der øger risikoen for blødning
+Calquence kan få dig til lettere at bløde. Fortæl det til lægen, apotekspersonalet eller sygeplejersken, 
+hvis du tager andre lægemidler, som kan øge risikoen for blødning:
+ lægemidler, der forhindrer blodet i at størkne (trombocythæmmer), såsom acetylsalicylsyre og 
+clopidogrel.
+ blodfortyndende lægemidler (antikoagulantia), såsom warfarin eller enoxaparin.
+Graviditet
+Tal med lægen, før du tager Calquence, hvis du er gravid, har mistanke om, du er gravid eller 
+planlægger at blive gravid. Dette skyldes, at Calquence kan skade dit ufødte barn.
+Amning
+Du må ikke amme under behandling med Calquence og i 2 dage efter din sidste dosis Calquence. Det 
+vides ikke, om Calquence passerer over i modermælk.
+Trafik- og arbejdssikkerhed
+Calquence påvirker sandsynligvis ikke evnen til at føre motorkøretøj eller betjene maskiner. Men hvis 
+du føler dig svimmel, svag eller træt, mens du tager Calquence, må du ikke føre motorkøretøj eller 
+betjene maskiner.
+Calquence indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr dosis, dvs. det er i det væsentlige 
+natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take calquence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take calquence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Calquence vil kun blive ordineret til dig af en læge med erfaring i brug af lægemidler mod kræft. Tag 
+altid Calquence nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet eller 
+sygeplejersken.
+Hvor meget skal du tage
+ Den sædvanlige dosis er én kapsel (100 mg) to gange om dagen. Tag doserne med cirka 12 timers 
+mellemrum.
+Hvordan skal du tage lægemidlet
+ Synk kapslen hel med vand, på omtrent samme tidspunkt hver dag.
+ Du må ikke tygge, opløse eller åbne kapslerne, da dette kan påvirke, hvor hurtigt lægemidlet
+kommer ind i din krop.
+ Du kan tage Calquence med eller uden mad.
+ Du kan kontrollere, hvornår du sidst tog en Calquence kapsel ved at se på blisterpakningen. 
+Billederne på blisterpakningerne vil hjælpe dig med at tage din dosis på det rigtige tidspunkt –
+solen til din morgendosis og månen til din aftendosis.
+Hvis du har taget for meget Calquence
+Hvis du er kommet til at tage mere Calquence end du skulle, skal du kontakte en læge eller straks tage 
+til det nærmeste hospital. Tag kapslerne og denne indlægsseddel med dig.
+Hvis du har glemt at tage Calquence
+ Hvis der er gået mindre end 3 timer siden det sædvanlige tidspunkt for din dosis, skal du tage den 
+glemte dosis med det samme. Tag den næste dosis på dit sædvanlige tidspunkt.
+63
+ Hvis der er gået mere end 3 timer siden det sædvanlige tidspunkt for din dosis, skal du springe den 
+glemte dosis over. Tag den næste dosis på dit sædvanlige tidspunkt.
+ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Stop med at tage Calquence og kontakt en læge eller tag straks til den nærmeste skadestue, hvis 
+du får nogen af følgende symptomer:
+ Blødning. Symptomerne kan være sort afføring eller afføring med blod, lyserød eller brun urin, 
+næseblod, blå mærker, uventet blødning, opkastning eller ophostning af blod, svimmelhed, 
+svaghed, forvirring.
+ Infektioner. Symptomerne kan være feber, kulderystelser, svaghed, forvirring, hoste, åndenød 
+[Lungebetændelse, en meget almindelig bivirkning (kan forekomme hos flere end 1 ud af 
+10 personer) eller Aspergillus-infektioner, en ikke almindelig bivirkning (kan forekomme hos op 
+til 1 ud af 100 personer)].
+Almindelige alvorlige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)
+ Hurtig hjerterytme, oversprungne hjerteslag, svag eller ujævn puls, svimmelhed, en følelse af 
+mathed, ubehag i brystet eller åndenød (tegn på hjerterytmeproblemer, også kendt som atrieflimmer
+og atrieflagren).
+Ikke almindelige alvorlige bivirkninger (kan forekomme hos op til 1 ud af 100 personer)
+ Feber, kulderystelser, kvalme, opkastning, forvirring, åndenød, krampeanfald, uregelmæssig puls, 
+mørk eller uklar urin, usædvanlig træthed eller smerter i muskler eller led. Dette kan være 
+symptomer på tumorlysesyndrom (TLS) – en tilstand, der skyldes den hurtige nedbrydning af 
+kræftceller.
+Andre bivirkninger:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+ muskel- eller ledsmerter
+ hovedpine
+ udslæt
+ en følelse af træthed, svaghed eller mangel på energi
+ kvalme, opkastning, mavesmerter, forstoppelse (sjælden eller hård afføring), diarré (hyppig eller 
+løs afføring)
+ nedsat antal røde blodlegemer, nedsat antal neutrofiler (en type hvide blodlegemer) eller nedsat 
+antal celler, der hjælper blodet med at størkne (blodplader)
+ højt blodtryk
+ svimmelhed
+ hovedpine, trykken for øjnene, næsen eller området ved kinderne (sinuitis)
+ ondt i halsen og løbende næse (nasofaryngitis)
+ infektion i de øvre luftveje
+ urinvejsinfektion (smerte eller brændende fornemmelse ved vandladning)
+ nye kræftformer, herunder hudkræft, kan forekomme under behandling med Calquence (se afsnit 2 
+”Det skal du vide, før du begynder at tage Calquence”)
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+ bronkitis (som ikke umiddelbart kræver behandling)
+ herpes
+64
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):
+ hukommelsestab, problemer med at tænke, vanskeligheder ved at gå eller synstab – det kan være 
+tegn på en alvorlig hjerneinfektion (progressiv multifokal leukoencefalopati eller PML)
+ feber, kulderystelser, svaghed, forvirring, kvalme og gulfarvning af huden eller det hvide i øjnene 
+(gulsot) – dette kan være tegn på, at hepatitis B (en infektion i leveren) er blevet aktiv igen.
+ lymfocytose (en forhøjet mængde lymfocytter, en type hvide blodlegemer, i blodet).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store calquence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store calquence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterfolien og æsken efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Calquence indeholder:</h2>
+<h2>Aktivt stof: acalabrutinib. Hver hård kapsel indeholder 100 mg acalabrutinib.</h2>
+<p>Øvrige indholdsstoffer:
+
+Kapselindhold: mikrokrystallinsk cellulose, kolloid vandfri silica, delvist 
+pregelatineret majsstivelse, magnesiumstearat (E470b) og natriumstivelsesglykolat (se 
+afsnit 2 “Calquence indeholder natrium”).
+
+Kapselskal: gelatine, titandioxid (E171), gul jernoxid (E172), indigocarmin (E132).
+
+Prægeblæk: shellac, sort jernoxid (E172), propylenglycol (E1520), 
+ammoniumhydroxid.
+Udseende og pakningsstørrelser
+Calquence er en hård gelatinekapsel med en gul underdel, blå overdel, 20 mm hård kapsel, markeret 
+med "ACA 100 mg" i sort blæk.
+Calquence leveres i aluminiumsblister indeholdende enten 6 eller 8 hårde kapsler. Hver karton 
+indeholder enten 56 eller 60 hårde kapsler.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+65
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Sverige
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) 
+DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 766
+Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Nothern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu
+67
+Indlægsseddel: Information til patienten
+Calquence 100 mg filmovertrukne tabletter
+acalabrutinib
+Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+afsnit 4, hvordan du indberetter bivirkninger.
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-515ad355eee6410eab8e10f3744bb3f9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for calquence Package Leaflet for language en"
+Description: "ePI document Bundle for calquence Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-515ad355eee6410eab8e10f3744bb3f9"
+* entry[0].resource = composition-en-515ad355eee6410eab8e10f3744bb3f9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp515ad355eee6410eab8e10f3744bb3f9"
+* entry[=].resource = mp515ad355eee6410eab8e10f3744bb3f9
+                            
+                    
+Instance: bundlepackageleaflet-da-515ad355eee6410eab8e10f3744bb3f9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for calquence Package Leaflet for language da"
+Description: "ePI document Bundle for calquence Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-515ad355eee6410eab8e10f3744bb3f9"
+* entry[0].resource = composition-da-515ad355eee6410eab8e10f3744bb3f9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp515ad355eee6410eab8e10f3744bb3f9"
+* entry[=].resource = mp515ad355eee6410eab8e10f3744bb3f9
+                            
+                    
+
+
+
+Instance: mp515ad355eee6410eab8e10f3744bb3f9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Calquence 100 mg hard capsules"
-Description: "Calquence 100 mg hard capsules"
+Title: "Medicinal Product calquence"
+Description: "calquence"
 Usage: #inline
 
  
@@ -374,7 +875,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Calquence 100 mg hard capsules"
+  * productName = "calquence"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -401,29 +902,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-515ad355eee6410eab8e10f3744bb3f9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for calquence Package Leaflet for language en"
-Description: "ePI document Bundle for calquence Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 515ad355eee6410eab8e10f3744bb3f9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1479/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "calquence"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-515ad355eee6410eab8e10f3744bb3f9"
-* entry[0].resource = composition-en-515ad355eee6410eab8e10f3744bb3f9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp411b16c0f2496fffc409c1fb196e9dca"
-* entry[=].resource = mp411b16c0f2496fffc409c1fb196e9dca
-                            
-                      
+* title = "List of all ePIs associated with calquence"
+
+* subject = Reference(mp411b16c0f2496fffc409c1fb196e9dca)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#calquence "calquence"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-515ad355eee6410eab8e10f3744bb3f9) // calquence en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-515ad355eee6410eab8e10f3744bb3f9) // calquence da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-515ad355eee6410eab8e10f3744bb3f9
+InstanceOf: List
+
+* insert 515ad355eee6410eab8e10f3744bb3f9ListRuleset
+    

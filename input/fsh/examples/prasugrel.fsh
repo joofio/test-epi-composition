@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0b50019879610f5c496f0994be72cd16
 InstanceOf: CompositionUvEpi
 Title: "Composition for prasugrel Package Leaflet"
@@ -379,12 +382,546 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-0b50019879610f5c496f0994be72cd16
+InstanceOf: CompositionUvEpi
+Title: "Composition for prasugrel Package Leaflet"
+Description:  "Composition for prasugrel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf7f85707ff633144f1f7e3a6d9033d07)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf7f85707ff633144f1f7e3a6d9033d07
+* title = "TEST PURPOSES ONLY - prasugrel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Prasugrel Viatris 
+3. Sådan tages Prasugrel Viatris 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What prasugrel is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What prasugrel is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prasugrel Viatris indeholder det aktive stof prasugrel og tilhører en lægemiddelgruppe, som kaldes 
+Blodpladehæmmende midler. Blodplader er meget små bestanddele, som cirkulerer i blodet. Når en 
+blodåre bliver beskadiget, for eksempel hvis der skæres i den, klumper blodpladerne sammen for at 
+hjælpe til med at danne en klump af blod, også kaldet en blodprop. Blodpladerne er derfor nødvendige 
+som hjælp til at standse blødning. Hvis blodproppen dannes indeni en forkalket blodåre for eksempel 
+en pulsåre, kan den være meget farlig, da den kan afskære blodforsyningen og forårsage et hjerteanfald 
+(myokardieinfarkt), slagtilfælde eller død. Blodpropper i de blodårer, som fører blod til hjertet, kan 
+også nedsætte blodtilførslen og forårsage ustabil hjertekrampe (angina pectoris, som er alvorlige 
+smerter i brystet). </p>
+<p>Prasugrel Viatris hæmmer sammenklumpningen af blodpladerne, og dermed nedsættes muligheden for 
+dannelse af en blodprop. </p>
+<p>Prasugrel Viatris er blevet ordineret til dig, fordi du allerede har haft et hjerteanfald eller ustabil 
+hjertekrampe og fået en behandling for at åbne blokerede blodårer i hjertet. Du har måske også fået en 
+eller flere stents indsat for at holde en blokeret eller forsnævret blodåre, som forsyner hjertet med blod, 
+åben. Prasugrel Viatris nedsætter risikoen for, at du får yderligere hjerteanfald, et slagtilfælde eller dør 
+af en af disse hændelser, som skyldes forkalkede blodårer. Din læge vil også give dig acetylsalicylsyre 
+(f.eks Aspirin), som er et andet blodfortyndende lægemiddel. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take prasugrel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take prasugrel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Prasugrel Viatris, hvis du 
+- 
+er allergisk over for prasugrel eller et af de øvrige indholdsstoffer i dette lægemiddel (angivet i 
+afsnit 6), En allergisk reaktion kan kendes på hududslæt, kløe, hævelse af ansigtet, hævede 
+læber eller stakåndethed. Fortæl det omgående til din læge, hvis det sker for dig, 
+- 
+har en sygdom, som kan forårsage blødning, f.eks. blødning fra din mave eller tarm, </p>
+<p>41/- 
+på et tidligere tidspunkt har haft et slagtilfælde eller et forbigående tilfælde af sammentrækning 
+af blodårer (iskæmisk tilfælde/TIA), 
+- 
+lider af en alvorlig leversygdom. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<ul>
+<li>Før du tager Prasugrel Viatris </li>
+</ul>
+<p>Kontakt lægen, før du tager Prasugrel Viatris. </p>
+<p>Fortæl det til lægen eller apoteketspersonalet, før du tager Prasugrel Viatris, hvis nogen af 
+nedennævnte situationer gælder for dig: </p>
+<h2>* Hvis du har en øget risiko for blødning, for eksempel fordi:</h2>
+<p>du er 75 år eller ældre. Din læge bør ordinere en daglig dosis på 5 mg, da der er en større 
+risiko for blødning hos patienter, der er ældre end 75 år, 
+- 
+du for nylig har haft en alvorlig kvæstelse, 
+- 
+du for nylig har fået foretaget et kirurgisk indgreb (herunder visse tandoperationer), 
+- 
+du for nylig har haft eller har gentagen blødning fra maven eller tarmen (f.eks. mavesår 
+eller polypper i tyktarmen),<br />
+- 
+du vejer mindre end 60 kg. Din læge bør ordinere en daglig dosis på 5 mg Prasugrel 
+Viatris, hvis din vægt er under 60 kg, 
+- 
+du har en nyresygdom eller moderate leverproblemer, 
+- 
+du tager visse typer lægemidler (se "Brug af andre lægemidler sammen med Prasugrel 
+Viatris" nedenunder), 
+- 
+der er planlagt et kirurgisk indgreb (herunder visse tandoperationer) inden for de næste 
+7 dage. Din læge vil bede dig stoppe med at tage Prasugrel Viatris midlertidigt på grund 
+af øget risiko for blødning. </p>
+<ul>
+<li>
+<p>Hvis du har haft allergiske reaktioner (overfølsomhed) over for clopidogrel eller andre 
+blodfortyndende midler, skal du fortælle det til din læge, inden du påbegynder behandling med 
+Prasugrel Viatris. Hvis du tager Prasugrel Viatris og derefter får allergiske reaktioner, som 
+kendetegnes ved udslæt, kløe, hævelser i ansigtet, opsvulmede læber eller stakåndethed, skal du 
+omgående fortælle det til din læge. </p>
+</li>
+<li>
+<p>Mens du tager Prasugrel Viatris: </p>
+</li>
+</ul>
+<p>Du skal omgående fortælle din læge, hvis du udvikler en tilstand kaldet trombotisk trombocytopenisk 
+purpura (TTP), som viser sig ved feber og blå mærker eller røde nålespidslignende pletter, og som kan 
+være forbundet med uforklarlig, voldsom træthed, forvirring og gulfarvning af hud og øjne (gulsot) (se 
+afsnit 4 "Bivirkninger"). </p>
+<p>Børn og unge 
+Prasugrel Viatris må ikke anvendes af børn og unge under 18 år. </p>
+<p>Brug af andre lægemidler sammen med Prasugrel Viatris 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler eller har gjort det 
+for nylig. Dette gælder også lægemidler, som ikke er købt på recept, f.eks. naturlægemidler og 
+vitaminer og mineraler.  </p>
+<p>Det er især vigtigt at fortælle din læge, hvis du behandles med: 
+ 
+clopidogrel (et blodfortyndende middel),<br />
+ 
+warfarin (forhindrer blodet i at størkne) 
+ 
+"et ikke-steroidt antiinflammatorisk middel" (såsom ibuprofen, naproxen og etoricoxib) mod 
+smerte og feber.<br />
+Hvis disse lægemidler tages sammen med Prasugrel Viatris, kan de øge risikoen for blødning.  </p>
+<p>Fortæl din læge, hvis du tager morfin eller andre opioider (til behandling af stærke smerter). </p>
+<p>42/ 
+Tag kun andre lægemidler, mens du får Prasugrel Viatris, hvis din læge siger, at du kan. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>Fortæl det til din læge, hvis du bliver gravid eller  forsøger at blive gravid, medens du tager Prasugrel 
+Viatris. Du må kun tage Prasugrel Viatris, hvis du har talt med din læge om de mulige fordele og 
+enhver eventuel risiko for dit ufødte barn. </p>
+<p>Hvis du ammer, så spørg din læge eller apotekspersonalet til råds, før du tager nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er usandsynligt, at Prasugrel Viatris påvirker evnen til at køre eller betjene maskiner. </p>
+<p>Prasugrel Viatris 5 mg indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. den er i det 
+væsentlige natrium-fri. </p>
+<p>Prasugrel Viatris 10 mg indeholder sunset yellow FCF aluminium lake (E110) og natrium 
+Sunset yellow FCF aluminium lake er et azo-farvestof, som kan forårsage allergiske reaktioner. 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. den er i det 
+væsentlige natrium-fri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take prasugrel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take prasugrel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den sædvanlige dosis af prasugrel er 10 mg daglig. Du vil begynde behandlingen med en enkelt dosis 
+på 60 mg. Hvis du vejer mindre end 60 kg eller er over 75 år, er daglig dosis 5 mg Prasugrel Viatris. 
+Din læge vil ligeledes sige, at du skal tage acetylsalicylsyre samt fortælle dig den nøjagtige dosis, du 
+skal tage (sædvanligvis mellem 75 mg og 325 mg daglig). </p>
+<p>Du kan tage Prasugrel Viatris med eller uden mad. Tag din dosis på omtrent samme tid hver dag. 
+Tabletten må ikke knækkes eller knuses. </p>
+<p>Det er vigtigt, at du fortæller din læge, tandlæge og på apotekspersonalet, at du tager Prasugrel Viatris. </p>
+<p>Hvis du har tage for meget Prasugrel Viatris 
+Kontakt din læge eller skadestuen øjeblikkeligt på grund af den øgede blødningsrisiko. Du bør vise 
+lægen pakken med Prasugrel Viatris. </p>
+<p>Hvis du har glemt at tage Prasugrel Viatris 
+Hvis du glemmer at tage din daglige dosis, så tag Prasugrel Viatris, så snart du husker det. Hvis du 
+glemmer din dosis en hel dag, så vent til næste dag og tag den sædvanlige dosis af Prasugrel Viatris. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Prasugrel Viatris: 
+Du må ikke holde op med at tage Prasugrel Viatris uden først at have kontaktet din læge. Hvis du 
+stopper for tidligt med at tage Prasugrel Viatris, kan du have højere risiko for at få et hjerteanfald. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>
+<p>43/</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt din læge omgående, hvis du oplever noget af følgende: </p>
+<ul>
+<li>
+<p>Pludselig følelsesløshed eller svaghed i arme, ben eller ansigt, særlig hvis det kun er i den ene 
+side af kroppen </p>
+</li>
+<li>
+<p>Pludselig forvirring, talebesvær eller svært ved at forstå andre </p>
+</li>
+<li>
+<p>Pludseligt besvær med at gå eller problemer med balance og koordination </p>
+</li>
+<li>
+<p>Pludselig svimmelhed eller pludselig, voldsom hovedpine af ukendt årsag </p>
+</li>
+</ul>
+<p>Alt det ovennævnte kan være tegn på et slagtilfælde. Slagtilfælde er en ikke almindelig bivirkning ved 
+Prasugrel Viatris hos patienter, som ikke tidligere har haft et slagtilfælde eller et forbigående tilfælde 
+af sammentrækning af blodårer (iskæmisk tilfælde/TIA). </p>
+<p>Du skal også omgående kontakte din læge, hvis du oplever noget af følgende: </p>
+<ul>
+<li>
+<p>Feber og blå mærker eller røde nålespidslignende pletter, evt. med samtidig uforklarlig, voldsom 
+træthed, forvirring og gulfarvning af hud og øjne (gulsot) (se afsnit 2 "Det skal du vide, før du 
+begynder at tage Prasugrel Viatris"). </p>
+</li>
+<li>
+<p>Udslæt, kløe, hævelser i ansigtet, opsvulmede læber/tunge eller stakåndethed. Dette kan være 
+tegn på en alvorlig allergisk reaktion (se afsnit 2 "Det skal du vide, før du begynder at tage 
+Prasugrel Viatris"). </p>
+</li>
+</ul>
+<p>Fortæl det omgående til din læge, hvis du oplever noget af følgende: </p>
+<ul>
+<li>
+<p>Blod i urinen </p>
+</li>
+<li>
+<p>Blødning fra endetarmen, blod i din afføring eller sort afføring </p>
+</li>
+<li>
+<p>Ukontrolleret blødning fra for eksempel et snitsår </p>
+</li>
+</ul>
+<p>Alt det ovennævnte kan være tegn på blødning, som er den mest almindelige bivirkning ved Prasugrel 
+Viatris. Selvom det ikke er almindeligt, kan voldsom blødning være livstruende. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>Blødning i mave eller tarm </p>
+</li>
+<li>
+<p>Blødning fra et kanyleindstikssted </p>
+</li>
+<li>
+<p>Næseblod </p>
+</li>
+<li>
+<p>Hududslæt </p>
+</li>
+<li>
+<p>Små røde pletter i huden (ekkymoser) </p>
+</li>
+<li>
+<p>Blod i urinen </p>
+</li>
+<li>
+<p>Hæmatom (blødning under huden på et injektionssted eller i en muskel, som forårsager hævelse) </p>
+</li>
+<li>
+<p>Lav hæmoglobinværdi eller antal røde blodlegemer (blodmangel) </p>
+</li>
+<li>
+<p>Blå mærker </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>Allergisk reaktion (udslæt, kløe, opsvulmede læber/tunge eller stakåndethed) </p>
+</li>
+<li>
+<p>Spontan blødning fra øjne, endetarm, tandkød eller i bughulen omkring de indre organer </p>
+</li>
+<li>
+<p>Blødning efter en operation </p>
+</li>
+<li>
+<p>Hoster blod op </p>
+</li>
+<li>
+<p>Blod i afføringen </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter) </p>
+<ul>
+<li>
+<p>Lavt antal blodplader </p>
+</li>
+<li>
+<p>Hæmatomer under huden (blødning under huden som forårsager hævelse) </p>
+</li>
+</ul>
+<p>44/Indberetning af bivirkninger 
+Hvis du oplever bivirkninger,  bør du tale med din læge, apotekspersonalet eller sygeplejersken.  Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystemanført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store prasugrel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store prasugrel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderen og kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Prasugrel Viatris 5 mg: Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale 
+pakning for at beskytte mod fugt. </p>
+<p>Prasugrel Viatris 10 mg: Må ikke opbevares ved temperaturer over 25 °C. Opbevares i den originale 
+pakning for at beskytte mod fugt. 
+Kun blisterpakninger: Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale 
+pakning for at beskytte mod fugt. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Prasugrel Viatris indeholder</h2>
+<p>Aktivt stof: prasugrel. 
+Prasugrel Viatris 5 mg: Hver film-overtrukken tablet indeholder prasugrelbesilat svarende til 5 mg 
+prasugrel. 
+Prasugrel Viatris 10 mg: Hver film-overtrukken tablet indeholder prasugrelbesilat svarende til 10 mg 
+prasugrel. </p>
+<ul>
+<li>Øvrige indholdsstoffer: 
+Prasugrel Viatris 5 mg: mikrokrystallinsk cellulose, mannitol, crospovidon, silica; kolloid vandfri, 
+magnesiumstearat, polyvinylalkohol, talum, titandioxid (E171), glyceryl monocaprylocaprat, 
+natriumlaurylsulfat, gul jernoxid (E172). Se afsnit 2 "Prasugrel Viatris 5 mg indeholder natrium". </li>
+</ul>
+<p>Prasugrel Viatris 10 mg: mikrokrystallinsk cellulose, mannitol, crospovidon, silica; kolloid vandfri,<br />
+magnesiumstearat, polyvinylalkohol, talcum, titandioxid (E171), glyceryl monocaprylocaprat, 
+natriumlaurylsulfat, gul jernoxid (E172), sunset yellow FCF aluminium lake (E110)og rød jernoxid 
+(E172). Se afsnit 2 "Prasugrel Viatris 10 mg indeholder sunset yellow FCF aluminium lake (E110) og 
+natrium". </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Prasugrel Viatris 10 mg filmovertrukne tabletter er beigefarvede filmovertrukne, kapselformede, 
+bikonvekse tabletter med dimensionerne 11,15 mm × 5,15 mm, der er præget med "PH4" på den ene 
+side og "M" på den anden side. 
+Dette lægemiddel er tilgængeligt i plastbeholdere, der indeholder et tørremiddel og 28 eller filmovertrukne tabletter, i blisterpakninger, der indeholder 28, 30, 84, 90, 98 tabletter, og i perforerede 
+blisterpakninger, der indeholder 30x1 og 90x1 filmovertrukne tabletter. </p>
+<p>45/Prasugrel Viatris 5 mg filmovertrukne tabletter er gule filmovertrukne, kapselformede, bikonvekse 
+tabletter med dimensionerne 8,15 mm × 4,15 mm, der er præget med "PH3" på den ene side og "M" 
+på den anden side. 
+Dette lægemiddel er tilgængeligt i plastbeholdere, der indeholder et tørremiddel og 28 eller filmovertrukne tabletter, og i blisterpakninger, der indeholder 28, 30, 84 eller 98 filmovertrukne 
+tabletter. </p>
+<p>Undlad at spise eller fjerne tørremidlet i beholderen. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Mylan Pharmaceuticals Limited,<br />
+Damastown Industrial Park, Mulhuddart, Dublin 15, DUBLIN, Irland </p>
+<p>Fremstiller 
+Mylan Hungary Kft 
+Mylan utca 1, Komárom, 2900, Ungarn </p>
+<p>McDermott Laboratories Limited t/a Gerard Laboratories 
+35/36 Baldoyle Industrial Estate, Grange State, Dublin 13, Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Mylan Healthcare UAB 
+Tel: +370 5 205 1България 
+Майлан ЕООД 
+Тел: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) 
+Česká republika 
+Viatris CZ s.r.o 
+Tel: + 420 222 004<br />
+Magyarország 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69<br />
+Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3 
+Eesti 
+BGP Products Switzerland GmbH 
+Eesti filiaal 
+Tel: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33<br />
+Ελλάδα 
+Viatris Hellas Ltd 
+Τηλ: +30 2100 100<br />
+Österreich 
+Arcana Arzneimittel GmbH 
+Tel: +43 1 416 2 
+46/España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z.o.o. 
+Tel: + 48 22 546 64 France 
+Viatris Santé<br />
+Tél: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 21 412 72 Hrvatska 
+Viatris Hrvatska d.o.o. 
+Tel: +385 1 23 50<br />
+România 
+BGP Products SRL 
+Tel: + 40 372 579 Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63 Ísland 
+Icepharma hf. 
+Sími: +354 540 8 </p>
+<p>Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 02 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: + 358 20 720 9 
+Κύπρος 
+Varnavas Hadjipanayis Ltd <br />
+Τηλ: +357 2220 7 
+Sverige 
+Viatris AB 
+Tel: + 46 (0)8 630 19 Latvija 
+Mylan Healthcare SIA 
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711 
+Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0b50019879610f5c496f0994be72cd16
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prasugrel Package Leaflet for language en"
+Description: "ePI document Bundle for prasugrel Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0b50019879610f5c496f0994be72cd16"
+* entry[0].resource = composition-en-0b50019879610f5c496f0994be72cd16
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0b50019879610f5c496f0994be72cd16"
+* entry[=].resource = mp0b50019879610f5c496f0994be72cd16
+                            
+                    
+Instance: bundlepackageleaflet-da-0b50019879610f5c496f0994be72cd16
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prasugrel Package Leaflet for language da"
+Description: "ePI document Bundle for prasugrel Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0b50019879610f5c496f0994be72cd16"
+* entry[0].resource = composition-da-0b50019879610f5c496f0994be72cd16
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0b50019879610f5c496f0994be72cd16"
+* entry[=].resource = mp0b50019879610f5c496f0994be72cd16
+                            
+                    
+
+
+
+Instance: mp0b50019879610f5c496f0994be72cd16
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Prasugrel Viatris 5 mg film-coated tablets"
-Description: "Prasugrel Viatris 5 mg film-coated tablets"
+Title: "Medicinal Product prasugrel"
+Description: "prasugrel"
 Usage: #inline
 
  
@@ -404,7 +941,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Prasugrel Viatris 5 mg film-coated tablets"
+  * productName = "prasugrel"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -431,29 +968,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0b50019879610f5c496f0994be72cd16
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for prasugrel Package Leaflet for language en"
-Description: "ePI document Bundle for prasugrel Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0b50019879610f5c496f0994be72cd16ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Prasugrel Viatris 5 mg"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "prasugrel"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0b50019879610f5c496f0994be72cd16"
-* entry[0].resource = composition-en-0b50019879610f5c496f0994be72cd16
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf7f85707ff633144f1f7e3a6d9033d07"
-* entry[=].resource = mpf7f85707ff633144f1f7e3a6d9033d07
-                            
-                      
+* title = "List of all ePIs associated with prasugrel"
+
+* subject = Reference(mpf7f85707ff633144f1f7e3a6d9033d07)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#prasugrel "prasugrel"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0b50019879610f5c496f0994be72cd16) // prasugrel en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0b50019879610f5c496f0994be72cd16) // prasugrel da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0b50019879610f5c496f0994be72cd16
+InstanceOf: List
+
+* insert 0b50019879610f5c496f0994be72cd16ListRuleset
+    

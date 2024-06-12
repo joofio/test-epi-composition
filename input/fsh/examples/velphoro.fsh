@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-655cd017d0250a5b169d71fd018fd71c
 InstanceOf: CompositionUvEpi
 Title: "Composition for velphoro Package Leaflet"
@@ -258,12 +261,371 @@ France </p>
 
 
 
+Instance: composition-da-655cd017d0250a5b169d71fd018fd71c
+InstanceOf: CompositionUvEpi
+Title: "Composition for velphoro Package Leaflet"
+Description:  "Composition for velphoro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2702b0106f8d6373cddc4a295b224ba9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2702b0106f8d6373cddc4a295b224ba9
+* title = "TEST PURPOSES ONLY - velphoro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Velphoro 
+3. Sådan skal du tage Velphoro 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What velphoro is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What velphoro is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Velphoro er et lægemiddel, der indeholder det aktive stof sucroferrioxyhydroxid, som består af jern, 
+sukker (saccharose) og stivelse. </p>
+<p>Dette lægemiddel bruges til at regulere høje niveauer af fosfat i blodet (hyperfosfatæmi) hos: </p>
+<ul>
+<li>
+<p>voksne patienter, der skal i hæmodialyse eller peritonealdialyse (procedurer, som fjerner 
+giftstoffer fra blodet) på grund af en kronisk nyresygdom. </p>
+</li>
+<li>
+<p>børn fra 2 år og unge med kronisk leversygdom i stadie 4 og 5 (alvorligt nedsat leverfunktion) 
+eller i dialysebehandling. </p>
+</li>
+</ul>
+<p>For meget fosfat i blodet kan medføre, at der aflejres kalk i vævet (forkalkning). Dette kan gøre dine 
+blodårer stive og gøre det vanskeligere at pumpe blodet rundt i kroppen. Det kan også medføre 
+kalkaflejringer i bløddele og knogler, hvilket kan give symptomer, som f.eks. røde øjne, kløende hud 
+og smerter i knoglerne. </p>
+<p>Dette lægemiddel fungerer ved at binde fosfat fra maden i fordøjelseskanalen (mave og tarme). På den 
+måde reduceres den mængde fosfat, der kan optages i blodbanen, og dermed også mængden af fosfat i 
+blodet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take velphoro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take velphoro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Velphoro </p>
+<p>– 
+hvis du er allergisk over for sucroferrioxyhydroxid eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6); 
+– 
+hvis du tidligere har haft unormal ophobning af jern i kroppens organer (hæmokromatose); 
+– 
+hvis du har andre sygdomme, der skyldes for meget jern. </p>
+<p>Hvis du er i tvivl, skal du kontakte din læge, inden du tager dette lægemiddel. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Velphoro: 
+– 
+hvis du har haft bughindebetændelse (betændelse i det tynde væv, der ligger som en hinde på 
+den indvendige side af bugvæggen) inden for de sidste 3 måneder; 
+– 
+hvis du har alvorlige sygdomme i maven og/eller leveren; 
+– 
+hvis du er blevet opereret i maven og/eller tarmene. </p>
+<p>Hvis du er i tvivl, om det ovenstående gælder for dig, skal du kontakte din læge eller 
+apotekspersonalet, før du tager dette lægemiddel. </p>
+<p>Dette lægemiddel kan forårsage sort afføring. Enhver form for potentiel blødning fra 
+fordøjelseskanalen (mave og tarm) kan skjules af sort afføring. Kontakt øjeblikkeligt lægen, hvis du 
+har sort afføring og også har symptomer som øget træthed og åndenød (se punkt 4). </p>
+<p>Børn og unge 
+Sikkerhed og virkning hos børn under 2 år er endnu ikke klarlagt. Brug af dette lægemiddel anbefales 
+derfor ikke til børn under 2 år. </p>
+<p>Brug af anden medicin sammen med Velphoro 
+Fortæl lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden medicin 
+eller planlægger at tage anden medicin. </p>
+<p>Hvis du tager anden medicin, som bliver påvirket af jern (f.eks. medicin, der indeholder det aktive stof 
+alendronat (bruges til at behandle visse knoglesygdomme) eller doxycyclin (et antibiotikum)), eller 
+hvis du tager anden medicin, som kan blive påvirket af jern (f.eks. medicin, der indeholder det aktive 
+stof levothyroxin (bruges til at behandle sygdomme i skjoldbruskkirtlen)), skal du sørge for at tage 
+dette lægemiddel mindst en time før, du tager Velphoro, eller mindst to timer efter du har taget 
+Velphoro. Kontakt lægen, hvis du er i tvivl. </p>
+<p>Graviditet og amning 
+Der foreligger ikke oplysninger om virkningen af dette lægemiddel, hvis det tages under graviditet 
+eller amning. Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Lægen vil rådgive dig om, hvorvidt du bør bruge Velphoro under graviditet baseret på en vurdering af 
+fordele og risici ved brug under graviditet. </p>
+<p>Hvis du ammer, vil lægen tale med dig om, hvorvidt du bør fortsætte med at amme eller fortsætte 
+behandlingen med Velphoro i lyset af fordelene for dig ved behandling med Velphoro og fordelene 
+ved amning for dit barn. </p>
+<p>Det er usandsynligt, at dette lægemiddel udskilles i modermælk. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj eller betjene 
+maskiner. </p>
+<p>Velphoro indeholder saccharose og stivelse (kulhydrater) </p>
+<p>Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>Dette lægemiddel kan skade tænderne. </p>
+<p>Dette lægemiddel indeholder stivelse. Hvis du har diabetes, skal du være opmærksom på, at én tablet 
+af dette lægemiddel svarer til cirka 1,4 g kulhydrater (svarende til 0,116 brødenheder). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take velphoro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take velphoro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den sædvanlige, anbefalede startdosis: </p>
+<ul>
+<li>
+<p>til børn på 6 til under 9 år er 750 mg jern dagligt*, </p>
+</li>
+<li>
+<p>til børn og unge på 9 til 12 år er 1.000 mg jern (2 tabletter) dagligt, </p>
+</li>
+<li>
+<p>til voksne og unge over 12 år er 1.500 mg jern dagligt (3 tabletter). </p>
+</li>
+</ul>
+<p>Din læge kan justere dosis under behandlingsforløbet i forhold til mængden af fosfor i blodet. </p>
+<p>Den maksimale anbefalede dosis: </p>
+<ul>
+<li>
+<p>til børn på 6 til under 9 år er 2.500 mg jern (5 tabletter) dagligt, 
+til børn og unge på 9 til 18 år og voksne er 3.000 mg jern (6 tabletter) dagligt. </p>
+</li>
+<li>
+<p>Velphoro fås også som oralt pulver i brev (svarende til 125 mg jern) til brug hos børn på 2 til under 
+12 år. </p>
+</li>
+</ul>
+<p>Indtagelse </p>
+<p>– 
+Dette lægemiddel må kun indtages gennem munden. 
+– 
+Tag tabletten i forbindelse med et måltid, og tyg den (tabletten kan om nødvendigt knuses, hvis 
+det gør det nemmere). Den MÅ IKKE sluges hel. 
+– 
+Fordel antallet af tabletter, der tages dagligt, mellem dagens måltider. 
+– 
+Når du tager Velphoro, skal du følge den anbefalede kostplan og de behandlinger, der er 
+ordineret af din læge, såsom calciumtilskud, D3-vitamin eller calcimimetika (bruges til 
+behandling af problemer med biskjoldbruskkirtlerne). </p>
+<p>Gælder kun blisterkort: 
+– 
+Adskil blisterkortet ved perforeringerne. 
+– 
+Træk papirfolien i hjørnet tilbage. 
+– 
+Tryk tabletten ud gennem aluminiumfolien. </p>
+<p>Hvis du har taget for meget Velphoro 
+Hvis du ved en fejl kommer til at tage for mange tabletter, må du ikke tage flere, og du skal 
+øjeblikkeligt kontakte din læge eller apotekspersonalet. </p>
+<p>Hvis du har glemt at tage Velphoro 
+Hvis du har glemt at tage en dosis, skal du tage næste dosis på det sædvanlige tidspunkt i forbindelse 
+med et måltid. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Velphoro 
+Stop ikke med at tage medicinen, før du har talt med din læge eller apotekspersonalet, da 
+fosfatmængden i dit blod kan øges (se punkt 1). </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Det er meget almindeligt, at patienter, der tager Velphoro, får sort afføring. Kontakt øjeblikkeligt 
+lægen, hvis du også har symptomer som øget træthed og åndenød (se pkt. 2, "Advarsler og 
+forsigtighedsregler"). </p>
+<p>Følgende bivirkninger er rapporteret hos patienter, der tager denne medicin: </p>
+<p>Meget almindelig (forekommer hos mere end 1 ud af 10 personer): diarré (opstår normalt tidligt i 
+behandlingsforløbet og bliver bedre med tiden). </p>
+<p>Almindelig (forekommer hos op til 1 ud af 10 personer): kvalme, forstoppelse, opkastning, 
+fordøjelsesbesvær, mavesmerter, luft i maven, misfarvning af tænder, ændret smagssans. </p>
+<p>Ikke almindelig (forekommer hos op til 1 ud af 100 personer): oppustethed (abdominal udspiling), 
+betændelseslignende tilstand i maven, mavebesvær, synkebesvær, tilbageløb af syre fra mavesækken 
+til spiserøret (gastroøsofageal reflukssygdom), misfarvning af tungen, lave eller høje calciumniveauer i 
+blodet påvist ved prøver, træthed, kløe, udslæt, hovedpine, åndenød. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store velphoro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store velphoro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, beholderen eller blisterkortet efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Når flasken er blevet åbnet, har tyggetabletterne en holdbarhed på 90 dage. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Velphoro indeholder: </p>
+<p>– 
+Aktivt stof: sucroferrioxyhydroxid, der består af polynukleært jern(III)-oxyhydroxid, saccharose 
+og stivelse. Hver tyggetablet indeholder sucroferrioxyhydroxid svarende til 500 mg jern. Hver 
+tablet indeholder også 750 mg saccharose og 700 mg stivelse. Se punkt 2 for at få mere 
+information om saccharose og stivelse. 
+– 
+Øvrige indholdsstoffer: skovbærsmag, neohesperidin-dihydrochalcon, magnesiumstearat, 
+kolloid, vandfri silica. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Tyggetabletterne er brune, runde tabletter præget med PA500 på den ene side. Tabletterne har en 
+diameter på 20 mm og en tykkelse på 6,5 mm. </p>
+<p>Tabletterne er pakket i højdensitetspolyethylenflasker med en børnesikret polypropylenlukning og 
+folieforsegling eller i børnesikrede blisterkort af aluminium. </p>
+<p>Velphoro fås i pakninger med 30 eller 90 tyggetabletter. Blisterpakker med 90 tyggetabletter fås som 
+multipakker (3 enkeltpakker med 30 × 1 tyggetabletter). </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Vifor Fresenius Medical Care Renal Pharma France 
+100–101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris la Défense Cedex 
+Frankrig </p>
+<p>Fremstiller 
+Vifor France 
+100–101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris la Défense Cedex 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til indehaveren af 
+markedsføringstilladelsen. </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. 
+Indlægsseddel: Information til brugeren </p>
+<p>Velphoro 125 mg oralt pulver i brev 
+jern i form af sucroferrioxyhydroxid </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+– 
+Gem indlægssedlen. Du kan få brug for at læse den igen. 
+– 
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+– 
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+– 
+Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-655cd017d0250a5b169d71fd018fd71c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for velphoro Package Leaflet for language en"
+Description: "ePI document Bundle for velphoro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-655cd017d0250a5b169d71fd018fd71c"
+* entry[0].resource = composition-en-655cd017d0250a5b169d71fd018fd71c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp655cd017d0250a5b169d71fd018fd71c"
+* entry[=].resource = mp655cd017d0250a5b169d71fd018fd71c
+                            
+                    
+Instance: bundlepackageleaflet-da-655cd017d0250a5b169d71fd018fd71c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for velphoro Package Leaflet for language da"
+Description: "ePI document Bundle for velphoro Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-655cd017d0250a5b169d71fd018fd71c"
+* entry[0].resource = composition-da-655cd017d0250a5b169d71fd018fd71c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp655cd017d0250a5b169d71fd018fd71c"
+* entry[=].resource = mp655cd017d0250a5b169d71fd018fd71c
+                            
+                    
+
+
+
+Instance: mp655cd017d0250a5b169d71fd018fd71c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Velphoro 500 mg chewable tablets"
-Description: "Velphoro 500 mg chewable tablets"
+Title: "Medicinal Product velphoro"
+Description: "velphoro"
 Usage: #inline
 
  
@@ -283,7 +645,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Velphoro 500 mg chewable tablets"
+  * productName = "velphoro"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -310,29 +672,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-655cd017d0250a5b169d71fd018fd71c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for velphoro Package Leaflet for language en"
-Description: "ePI document Bundle for velphoro Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 655cd017d0250a5b169d71fd018fd71cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/943/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "velphoro"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-655cd017d0250a5b169d71fd018fd71c"
-* entry[0].resource = composition-en-655cd017d0250a5b169d71fd018fd71c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2702b0106f8d6373cddc4a295b224ba9"
-* entry[=].resource = mp2702b0106f8d6373cddc4a295b224ba9
-                            
-                      
+* title = "List of all ePIs associated with velphoro"
+
+* subject = Reference(mp2702b0106f8d6373cddc4a295b224ba9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#velphoro "velphoro"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-655cd017d0250a5b169d71fd018fd71c) // velphoro en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-655cd017d0250a5b169d71fd018fd71c) // velphoro da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-655cd017d0250a5b169d71fd018fd71c
+InstanceOf: List
+
+* insert 655cd017d0250a5b169d71fd018fd71cListRuleset
+    

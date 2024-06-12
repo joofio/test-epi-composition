@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3aba64fb4580bb12883e3dc4b001f74a
 InstanceOf: CompositionUvEpi
 Title: "Composition for emtriva Package Leaflet"
@@ -389,12 +392,533 @@ Tel: + 44 (0) 8000 113 This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-3aba64fb4580bb12883e3dc4b001f74a
+InstanceOf: CompositionUvEpi
+Title: "Composition for emtriva Package Leaflet"
+Description:  "Composition for emtriva Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf1531d53d7d88f5f0d26eb83b63b3b5e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf1531d53d7d88f5f0d26eb83b63b3b5e
+* title = "TEST PURPOSES ONLY - emtriva"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Emtriva </li>
+<li>Sådan skal De tage Emtriva </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What emtriva is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What emtriva is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Emtriva anvendes til behandling af human immundefekt virus (hiv) hos voksne og børn på 
+4 måneder og derover. Emtriva 200 mg hårde kapsler er kun egnede til patienter, som vejer mindst 
+33 kg. Emtriva kan fås som oral opløsning til patienter, der har problemer med at synke Emtriva hårde 
+kapsler. </p>
+<p>Emtriva indeholder det aktive stof emtricitabin. Dette aktive stof er en form for antiretroviralt 
+lægemiddel, som anvendes til behandling af hiv-infektion. Emtricitabin hører til en gruppe af 
+lægemidler, der kaldes nukleosid reverse transkriptase-hæmmere (NRTI). De virker ved at gribe ind i 
+den normale måde, som et enzym (reverse transkriptase) arbejder på, og som er nødvendigt for at virus 
+kan reproducere sig selv. Emtriva kan sænke mængden af hiv i blodet (virusmængden). Det kan også 
+bidrage til at øge antallet af de T-celler, der kaldes CD4-celler. Emtriva bør altid kombineres med 
+andre lægemidler til at behandle hiv-infektion. </p>
+<p>Denne form for lægemidler helbreder ikke hiv-infektionen. Mens De tager Emtriva, kan De stadig 
+udvikle infektioner eller andre sygdomme forbundet med hiv-infektionen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take emtriva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take emtriva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Emtriva </p>
+<ul>
+<li>Hvis De er allergisk over for emtricitabin eller et af de øvrige indholdsstoffer i Emtriva 
+(angivet i punkt 6). </li>
+</ul>
+<p> Hvis dette gælder for Dem, skal De omgående fortælle Deres læge det. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<ul>
+<li>
+<p>Fortæl Deres læge det, hvis De tidligere har haft nyresygdomme, eller hvis undersøgelser 
+har vist, at De har nyreproblemer. Før De påbegynder behandlingen, kan Deres læge tage 
+blodprøver for at bedømme nyrefunktionen og råder Dem måske til at tage kapslerne mindre 
+hyppigt eller ordinerer Emtriva oral opløsning til Dem. Deres læge kan også tage blodprøver 
+under behandlingen for at overvåge Deres nyrer. </p>
+</li>
+<li>
+<p>Tal med Deres læge, hvis De er over 65 år. Emtriva er ikke undersøgt hos patienter over 65 år. 
+Hvis De er over 65 år og får ordineret Emtriva, vil Deres læge overvåge Dem nøje. </p>
+</li>
+<li>
+<p>Tal med Deres læge, hvis De tidligere har haft en leversygdom, herunder gulsot (hepatitis). 
+Patienter med leversygdom, inklusive kronisk hepatitis B eller C, som behandles med 
+antiretrovirale midler, har en forhøjet risiko for alvorlige og potentielt livstruende bivirkninger i 
+leveren. Hvis De har en hepatitis B-infektion, vil Deres læge nøje overveje, hvilken behandling, 
+der er den bedste for Dem. Hvis De tidligere har haft en leversygdom eller en kronisk 
+hepatitis B-infektion, vil Deres læge muligvis tage blodprøver for nøje at overvåge 
+leverfunktionen. </p>
+</li>
+<li>
+<p>Vær opmærksom på infektioner. Hvis De har en fremskreden hiv-sygdom (aids) og en anden 
+infektion, kan De udvikle en betændelse eller opleve en forværring af symptomerne på 
+infektionen, når De begynder på behandlingen med Emtriva. Dette kan være tegn på, at 
+kroppens forbedrede immunforsvar bekæmper infektionen. Hvis De bemærker tegn på 
+betændelse eller infektion i den første tid efter, De har påbegyndt behandlingen med Emtriva, 
+skal De omgående fortælle Deres læge det. </p>
+</li>
+</ul>
+<p>Ud over de opportunistiske infektioner kan autoimmune lidelser (skyldes, at immunsystemet 
+angriber sundt kropsvæv) også opstå, efter De er begyndt at tage lægemidler til behandling af 
+Deres hiv-infektion. Autoimmune lidelser kan opstå mange måneder efter, De er påbegyndt 
+behandling. De skal straks informere Deres læge for at få den nødvendige behandling, hvis De 
+bemærker symptomer på infektion eller andre symptomer, såsom muskelsvaghed, svaghed 
+begyndende i hænder og fødder, og som bevæger sig op igennem kroppen, hjertebanken, rysten 
+eller hyperaktivitet. </p>
+<ul>
+<li>Knogleproblemer. Nogle af de patienter, der får flere slags antiretrovirale lægemidler på 
+samme tid, kan udvikle en knoglesygdom, der kaldes knoglenekrose (hvor knoglevævet dør på 
+grund af nedsat blodtilførsel til knoglen). Til de mange risikofaktorer for udvikling af denne 
+sygdom hører blandt andre: Varigheden af den samtidige behandling med flere slags 
+antiretrovirale lægemidler, anvendelse af kortikosteroider, alkoholforbrug, alvorligt nedsat 
+immunforsvar samt overvægt (højt Body Mass Index (BMI)). Stivhed, ømhed og smerter i 
+leddene (især hofte, knæ og skulder) samt bevægelsesbesvær er tegn på knoglenekrose. Hvis De 
+bemærker et eller flere af disse symptomer, bør De fortælle det til Deres læge. </li>
+</ul>
+<p>Børn og unge </p>
+<p>Giv ikke Emtriva til børn under 4 måneder. </p>
+<p>Brug af andre lægemidler sammen med Emtriva </p>
+<p>De må ikke tage Emtriva, hvis De allerede tager andre lægemidler, som indeholder emtricitabin eller 
+lamivudin, som også anvendes til at behandle hiv-infektion, medmindre Deres læge foreskriver dette. </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger andre lægemidler, for nylig har 
+taget andre lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Afbryd ikke behandlingen uden først at kontakte Deres læge. </p>
+<p>Graviditet og amning </p>
+<p>Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<p>Hvis De har taget Emtriva under Deres graviditet, kan Deres læge bede om regelmæssige blodprøver 
+og andre diagnostiske undersøgelser for at overvåge barnets udvikling. For de børn, hvis mødre har 
+taget NRTI'er i løbet af graviditeten, opvejede fordelen ved beskyttelsen mod hiv bivirkningerne. </p>
+<p>De må ikke amme, hvis De tager Emtriva, fordi det aktive stof i dette lægemiddel udskilles i 
+mælken hos mennesker.  </p>
+<p>Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken. </p>
+<p>Hvis De ammer eller påtænker at amme, bør De drøfte det med lægen hurtigst muligt. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Emtriva kan forårsage svimmelhed. Kør ikke bil eller motorcykel og lad være med at cykle, og lad 
+være med at arbejde med værktøj eller maskiner, hvis De bliver svimmel, når De tager Emtriva. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take emtriva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take emtriva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </li>
+</ul>
+<p>Den anbefalede dosis er: </p>
+<ul>
+<li>
+<p>Voksne: Én 200 mg hård kapsel dagligt med eller uden mad. De hårde kapsler skal synkes 
+med et glas vand. </p>
+</li>
+<li>
+<p>Børn og unge under 18 år, som vejer mindst 33 kg og som kan synke hårde kapsler: Én 
+200 mg hård kapsel dagligt med eller uden mad. </p>
+</li>
+</ul>
+<p>Til børn over 4 måneder og patienter, som ikke kan synke hårde kapsler og til patienter med 
+nyreproblemer, kan Emtriva fås i flydende form (en oral opløsning). Hvis De har problemer med at 
+synke kapslerne, skal De sige det til Deres læge. </p>
+<ul>
+<li>
+<p>Tag altid den dosis, Deres læge har anbefalet for at sikre, at lægemidlet er fuldt ud effektivt 
+og for at reducere udviklingen af resistens mod behandlingen. De må ikke ændre Deres dosis, 
+medmindre De får besked på det af Deres læge. </p>
+</li>
+<li>
+<p>Hvis De har problemer med Deres nyrer, kan Deres læge råde Dem til at tage Emtriva mindre 
+hyppigt. </p>
+</li>
+<li>
+<p>Deres læge vil ordinere Emtriva i kombination med andre antiretrovirale lægemidler. De 
+bedes venligst læse indlægssedlerne til de andre slags antiretrovirale lægemidler som vejledning 
+i at indtage lægemidlet korrekt. </p>
+</li>
+</ul>
+<p>Hvis De har taget for meget Emtriva </p>
+<p>Hvis De ved et uheld tager for mange Emtriva hårde kapsler, skal De kontakte lægen eller den 
+nærmeste skadestue for at få råd. Tag æsken med, så De let kan vise, hvad De har taget. </p>
+<p>Hvis De har glemt at tage Emtriva </p>
+<p>Det er vigtigt, at De husker at tage hver dosis af Emtriva. </p>
+<p>Hvis De - inden for 12 timer efter, dosis normalt tages - kommer i tanker om, at De har glemt at 
+tage en dosis, skal De tage den så hurtigt som muligt og derefter tage den næste dosis på det normale 
+tidspunkt. </p>
+<p>Hvis det næsten er tid til (der er mindre end 12 timer til) næste dosis, skal De ikke tage den 
+glemte dosis. Vent og tag den næste dosis på det normale tidspunkt. De må ikke tage en dobbeltdosis 
+som erstatning for den glemte hårde kapsel. </p>
+<p>Hvis De kaster op </p>
+<p>Hvis det er mindre end en time siden, De har taget Emtriva, skal De tage en ny kapsel. De behøver 
+ikke tage en ny kapsel, hvis De kaster op mere end en time efter, De har taget Emtriva. </p>
+<p>Hvis De holder op med at tage Emtriva </p>
+<ul>
+<li>
+<p>Hold ikke op med at tage Emtriva uden at tale med Deres læge. At ophøre med 
+behandlingen med Emtriva kan resultere i nedsat virkning af den kur mod hiv, som Deres læge 
+har anbefalet. Tal med Deres læge, før De ophører med behandlingen, især hvis De oplever 
+bivirkninger eller har en anden sygdom. Kontakt Deres læge, før De igen begynder at tage 
+Emtriva kapslerne. </p>
+</li>
+<li>
+<p>Hvis De har både hiv-infektion og hepatitis B, er det særlig vigtigt ikke at ophøre med 
+behandlingen med Emtriva uden først at tale med Deres læge. Nogle patienter har fået taget 
+blodprøver eller har symptomer, som viser, at deres hepatitis er forværret efter ophør med 
+behandlingen med Emtriva. Det kan være nødvendigt at få taget blodprøver i flere måneder efter 
+ophør med behandlingen. Hos patienter med fremskreden leversygdom eller levercirrose bør 
+behandlingen ikke ophøre, da det hos nogle patienter kan medføre forværring af hepatitis. </p>
+</li>
+</ul>
+<p>Bemærker De nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal De omgående 
+oplyse Deres læge herom, især hvis det drejer sig om symptomer, som De normalt ville forbinde med 
+hepatitis B-infektion. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glucose i 
+blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-lægemidlet. Lægen vil holde øje med disse ændringer. </p>
+<p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl Deres læge det, hvis De får en eller flere af følgende bivirkninger: </p>
+<p>Hyppigste bivirkninger </p>
+<p>Følgende bivirkninger er meget almindelige (de kan opstå hos flere end 10 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>hovedpine, diarré, kvalme </p>
+</li>
+<li>
+<p>muskelsmerter og -svaghed (hvis kreatinkinaseindholdet i blodet er forøget) </p>
+</li>
+</ul>
+<p>Andre bivirkninger </p>
+<p>Følgende bivirkninger er almindelige (de kan opstå hos op til 10 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>svimmelhed, svaghedsfølelse, søvnløshed, unormale drømme </p>
+</li>
+<li>
+<p>opkastning, problemer med fordøjelsen, som resulterer i ubehag efter måltider, mavesmerter </p>
+</li>
+<li>
+<p>udslæt (herunder røde pletter og skjolder undertiden med blærer eller hævelse af huden), som 
+kan være allergiske reaktioner, kløe, ændringer i hudfarven, herunder pletvis mørkfarvning af 
+huden </p>
+</li>
+<li>
+<p>smerter </p>
+</li>
+</ul>
+<p>Prøver kan også vise: </p>
+<ul>
+<li>
+<p>lavt antal af hvide blodlegemer (et fald i antallet af hvide blodlegemer kan gøre Dem mere 
+modtagelig for infektion) </p>
+</li>
+<li>
+<p>forhøjet mængde af fedtsyrer (triglycerider), galde eller sukker i blodet </p>
+</li>
+<li>
+<p>problemer med lever og bugspytkirtel </p>
+</li>
+</ul>
+<p>Følgende bivirkninger er ikke almindelige (de kan opstå hos op til 1 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>lavt antal af røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>hævelse af ansigt, læber, tunge eller svælg </p>
+</li>
+</ul>
+<p>Andre bivirkninger </p>
+<p>Hos børn, som fik emtricitabin, optrådte der desuden ændringer i hudfarven, herunder pletvis 
+mørkfarvning af huden, meget almindeligt og anæmi (lavt antal af røde blodlegemer) almindeligt. 
+Hvis produktionen af røde blodlegemer er nedsat, kan barnet få symptomer som træthed og åndenød. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store emtriva"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store emtriva"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderen, blisterpakningen og kartonen efter 
+„EXP“. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Emtriva indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: emtricitabin. Hver hård kapsel Emtriva indeholder 200 mg emtricitabin. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+</ul>
+<p>Kapslen indeholder: mikrokrystallinsk cellulose (E460), crospovidon, magnesiumstearat 
+(E572), povidon (E1201) </p>
+<p>Kapslens skal: gelatine, indigotin (E132), titandioxid (E171) </p>
+<p>Trykfarven indeholder: sort jernoxid (E172), shellac (E904) </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Emtriva hårde kapsler har en hvid, uigennemsigtig hoveddel med en lyseblå, uigennemsigtig hætte. 
+Hver kapsel er påtrykt „200 mg“ på hætten og „GILEAD“ og [Gilead logo] på hoveddelen med sort 
+farve. Emtriva fås i beholdere eller blisterpakninger, som indeholder 30 kapsler. </p>
+<p>Emtriva kan også fås som oral opløsning til anvendelse hos børn på 4 måneder og derover, patienter, 
+som har problemer med at synke, og patienter med nyreproblemer. Der findes en særskilt 
+indlægsseddel til Emtriva 10 mg/ml oral opløsning. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrland </p>
+<p>Fremstiller </p>
+<p>Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1Danmark 
+Gilead Sciences Sweden AB 
+Tlf.: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Denne indlægsseddel blev senest ændret . </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+Indlægsseddel: Information til brugeren </p>
+<p>Emtriva 10 mg/ml oral opløsning 
+emtricitabin </p>
+<p>Læs denne indlægsseddel grundigt, inden De begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. De kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, De vil vide. 
+- Lægen har ordineret Emtriva til Dem personligt. Lad derfor være med at give lægemidlet til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
+- Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlægssedler.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3aba64fb4580bb12883e3dc4b001f74a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emtriva Package Leaflet for language en"
+Description: "ePI document Bundle for emtriva Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3aba64fb4580bb12883e3dc4b001f74a"
+* entry[0].resource = composition-en-3aba64fb4580bb12883e3dc4b001f74a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3aba64fb4580bb12883e3dc4b001f74a"
+* entry[=].resource = mp3aba64fb4580bb12883e3dc4b001f74a
+                            
+                    
+Instance: bundlepackageleaflet-da-3aba64fb4580bb12883e3dc4b001f74a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emtriva Package Leaflet for language da"
+Description: "ePI document Bundle for emtriva Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3aba64fb4580bb12883e3dc4b001f74a"
+* entry[0].resource = composition-da-3aba64fb4580bb12883e3dc4b001f74a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3aba64fb4580bb12883e3dc4b001f74a"
+* entry[=].resource = mp3aba64fb4580bb12883e3dc4b001f74a
+                            
+                    
+
+
+
+Instance: mp3aba64fb4580bb12883e3dc4b001f74a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Emtriva 200 mg hard capsules"
-Description: "Emtriva 200 mg hard capsules"
+Title: "Medicinal Product emtriva"
+Description: "emtriva"
 Usage: #inline
 
  
@@ -414,7 +938,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Emtriva 200 mg hard capsules"
+  * productName = "emtriva"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -441,29 +965,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3aba64fb4580bb12883e3dc4b001f74a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for emtriva Package Leaflet for language en"
-Description: "ePI document Bundle for emtriva Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3aba64fb4580bb12883e3dc4b001f74aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/03/261/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "emtriva"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3aba64fb4580bb12883e3dc4b001f74a"
-* entry[0].resource = composition-en-3aba64fb4580bb12883e3dc4b001f74a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf1531d53d7d88f5f0d26eb83b63b3b5e"
-* entry[=].resource = mpf1531d53d7d88f5f0d26eb83b63b3b5e
-                            
-                      
+* title = "List of all ePIs associated with emtriva"
+
+* subject = Reference(mpf1531d53d7d88f5f0d26eb83b63b3b5e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#emtriva "emtriva"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3aba64fb4580bb12883e3dc4b001f74a) // emtriva en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3aba64fb4580bb12883e3dc4b001f74a) // emtriva da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3aba64fb4580bb12883e3dc4b001f74a
+InstanceOf: List
+
+* insert 3aba64fb4580bb12883e3dc4b001f74aListRuleset
+    

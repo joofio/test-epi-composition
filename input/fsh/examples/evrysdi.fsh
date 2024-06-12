@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d74c016d307ba635374b9ac3d63d2f85
 InstanceOf: CompositionUvEpi
 Title: "Composition for evrysdi Package Leaflet"
@@ -367,12 +370,933 @@ Tel: +44 (0) 1707 366This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-d74c016d307ba635374b9ac3d63d2f85
+InstanceOf: CompositionUvEpi
+Title: "Composition for evrysdi Package Leaflet"
+Description:  "Composition for evrysdi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd576f3f2c49e8706bb5ba755f5c3253c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd576f3f2c49e8706bb5ba755f5c3253c
+* title = "TEST PURPOSES ONLY - evrysdi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du eller dit barn begynder at tage Evrysdi </li>
+<li>Sådan skal du tage Evrysdi </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What evrysdi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What evrysdi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning </p>
+<p>Evrysdi er et lægemiddel, der indeholder det aktive stof risdiplam.  </p>
+<p>Anvendelse </p>
+<p>Evrysdi bruges til at behandle spinal muskelatrofi (SMA), en genetisk sygdom.  </p>
+<p>Hvad er spinal muskelatrofi? </p>
+<p>SMA skyldes at kroppen mangler et protein, der kaldes "survival motor neuron" (SMN) protein. 
+Mangel på SMN-protein kan forårsage at du eller dit barn mister motoriske neuroner, som er 
+nerveceller, der kontrollerer musklerne. Dette giver muskelsvaghed og muskelsvind, der kan påvirke 
+dagligdags bevægelser som hoved- og nakkekontrol, at kunne sidde, kravle og gå. De muskler, der 
+bruges til at trække vejret og synke, kan også blive svagere. </p>
+<p>Hvordan virker Evrysdi? </p>
+<p>Risdiplam, der er det aktive stof i Evrysdi, virker ved at hjælpe kroppen med at producere mere SMN-
+protein. Det gør, at der går færre motoriske neuroner tabt, og det kan forbedre muskelfunktionen hos 
+mennesker med SMA.  </p>
+<p>Hos spædbørn med SMA-type 1 behandlet i kliniske studier i 1 år, har Evrysdi hjulpet med at: </p>
+<ul>
+<li>
+<p>øge hvor længe de lever og reducere behovet for en respirator for at hjælpe med vejrtrækning 
+sammenlignet med ubehandlede spædbørn med SMA (kun 25% af ubehandlede spædbørn 
+forventes at være i live uden permanent behov for respirator efter 14-måneders alderen, 
+sammenlignet med 85% af patienterne efter 1 års behandling med Evrysdi).  </p>
+</li>
+<li>
+<p>bevare evnen til at spise gennem munden hos 83% af patienterne.  </p>
+</li>
+</ul>
+<p>Hos børn (fra småbørn til unge) og voksne med SMA-type 2 og type 3, kan Evrysdi opretholde eller 
+forbedre muskelkontrollen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take evrysdi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take evrysdi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Evrysdi </p>
+<ul>
+<li>hvis du eller dit barn er allergisk over for risdiplam eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6). </li>
+</ul>
+<p>Hvis du er i tvivl, skal du kontakte lægen eller apotekspersonalet før du eller dit barn tager Evrysdi. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, sygeplejersken eller apotekspersonalet, før du eller dit barn tager Evrysdi. </p>
+<p>Behandling med Evrysdi kan skade dit ufødte barn og kan påvirke mænds evne til at få børn. Se 
+“Graviditet, prævention, amning og mænds fertilitet" for mere information.  </p>
+<p>Brug af anden medicin sammen med Evrysdi </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du eller dit barn tager anden medicin, for nylig 
+har taget anden medicin eller planlægger at tage anden medicin. </p>
+<p>Det er særligt vigtigt at informere lægen, apotekspersonalet eller sygeplejersken, hvis du eller dit barn 
+tager eller tidligere har taget følgende lægemidler: </p>
+<ul>
+<li>
+<p>metformin - et lægemiddel der bruges til behandling af type II diabetes </p>
+</li>
+<li>
+<p>lægemidler til behandling af SMA </p>
+</li>
+</ul>
+<p>Graviditet, prævention, amning og mænds fertilitet </p>
+<p>Graviditet  </p>
+<ul>
+<li>
+<p>Tag ikke Evrysdi, hvis du er gravid. Dette skyldes, at denne medicin kan skade fostret, hvis du 
+tager den, mens du er gravid. </p>
+</li>
+<li>
+<p>Lægen skal foretage en graviditetstest, før du begynder behandlingen med Evrysdi. Det er fordi, 
+Evrysdi kan skade dit ufødte barn.  </p>
+</li>
+<li>
+<p>Hvis du bliver gravid under din behandling med Evrysdi, skal du straks kontakte lægen. Du skal 
+sammen med lægen beslutte, hvad der er bedst for dig og dit ufødte barn. </p>
+</li>
+</ul>
+<p>Prævention </p>
+<p>Kvinder </p>
+<p>Undgå at blive gravid: </p>
+<ul>
+<li>
+<p>mens du er i behandling med Evrysdi og </p>
+</li>
+<li>
+<p>i op til en måned efter du er holdt op med at tage Evrysdi.  </p>
+</li>
+</ul>
+<p>Tal med lægen om sikker prævention der skal anvendes, mens du er i behandling og indtil 1 måned 
+efter behandlingen er afsluttet. </p>
+<p>Mænd </p>
+<p>Hvis din partner kan blive gravid, skal I undgå graviditet. Brug sikker prævention (f.eks. kondom): </p>
+<ul>
+<li>
+<p>mens du er i behandling med Evrysdi og </p>
+</li>
+<li>
+<p>i 4 måneder efter, du er stoppet med at tage Evrysdi. </p>
+</li>
+</ul>
+<p>Tal med sundhedspersoner om hvilken sikker prævention, der skal bruges. </p>
+<p>Amning  </p>
+<p>Du må ikke amme, mens du tager dette lægemiddel. Dette er fordi, lægemidlet kan udskilles i 
+modermælken og derved muligvis kan skade barnet.  </p>
+<p>Snak med lægen om, hvorvidt du skal holde op med at amme eller om du skal stoppe med at bruge 
+Evrysdi. </p>
+<p>Mænds fertilitet </p>
+<p>Der er i dyreforsøg fundet tegn på, at Evrysdi kan nedsætte mænds fertilitet under behandlingen og i 
+op til 4 måneder efter sidste dosis. Spørg lægen til råds, hvis du planlægger at få et barn. Du må ikke 
+være sæddonor, mens du er i behandling med Evrysdi og i 4 måneder efter den sidste dosis. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Det er ikke sandsynligt, at Evrysdi påvirker evnen til at føre motorkøretøj og betjene maskiner. </p>
+<p>Evrysdi indeholder natrium </p>
+<p>Evrysdi indeholder en lille mængde natrium (salt) - der er mindre end 1 mmol (23 mg) natrium i selv 
+den højeste daglige dosis på 5 mg (6,6 ml af den 0,75 mg/ml orale opløsning). Dvs. lægemidlet er i det 
+væsentlige natriumfrit og kan anvendes af patienter på saltfattig kost. </p>
+<p>Evrysdi indeholder 0,375 mg natriumbenzoat per ml. Natriumbenzoat kan øge gulsot (gulning af 
+huden og øjnene) hos nyfødte (op til fire uger). </p>
+<p>Evrysdi indeholder isomalt </p>
+<p>Evrysdi indeholder 2,97 mg isomalt per ml. Kontakt lægen, før du tager dette lægemiddel, hvis lægen 
+har fortalt dig, at du eller dit barn ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take evrysdi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take evrysdi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. Du vil få Evrysdi udleveret som væske i en flaske. Hvis lægemidlet i 
+flasken er et pulver, skal du ikke bruge det, men kontakte apotekspersonalet. </p>
+<p>Du skal også omhyggeligt læse og følge den vedlagte Brugsvejledning i hvordan du tager eller giver 
+Evrysdi. </p>
+<p>Så meget Evrysdi skal du tage </p>
+<ul>
+<li>
+<p>Voksne og unge: Den daglige dosis af Evrysdi er 5 mg (6,6 ml af den orale opløsning). </p>
+</li>
+<li>
+<p>Spædbørn og børn: Din læge vil vælge den rigtige dosis af Evrysdi baseret på dit barns alder 
+og vægt. </p>
+</li>
+</ul>
+<p>Du eller dit barn skal tage den daglige dosis som angivet af lægen. Du må ikke ændre i dosis uden 
+at tale med lægen.  </p>
+<p>Hvornår og hvordan tages Evrysdi </p>
+<ul>
+<li>
+<p>Evrysdi er en væske, der klargøres af apotekspersonalet, og som i denne indlægsseddel omtales 
+som ‘opløsning’ eller ‘lægemiddel’.  </p>
+</li>
+<li>
+<p>Tag Evrysdi én gang dagligt, efter et måltid og på omtrent samme tidspunkt hver dag. Dette 
+hjælper dig til at huske, hvornår du skal tage din medicin. </p>
+</li>
+<li>
+<p>Drik vand efter af have taget medicinen. Bland ikke medicinen med mælk eller modermælk. </p>
+</li>
+<li>
+<p>Tag eller giv Evrysdi straks efter det er trukket op i den orale sprøjte. Hvis det ikke tages inden 
+for 5 minutter, skal den orale sprøjte tømmes for medicin og en ny dosis trækkes op. </p>
+</li>
+<li>
+<p>Hvis Evrysdi kommer i kontakt med huden, skal det berørte område vaskes med vand og sæbe. </p>
+</li>
+</ul>
+<p>Læs folderen "Brugsvejledning" </p>
+<p>En folder med "Brugsvejledning" ligger i pakken. Den viser dig, hvordan du trækker en dosis op med 
+den genanvendelige orale sprøjte, der følger med. Du (eller dit barn) kan tage medicinen, enten: </p>
+<ul>
+<li>
+<p>gennem munden eller </p>
+</li>
+<li>
+<p>gennem en mavesonde eller </p>
+</li>
+<li>
+<p>gennem en næsesonde. </p>
+</li>
+</ul>
+<p>Så længe skal Evrysdi tages </p>
+<p>Lægen vil fortælle dig hvor længe du eller dit barn skal tage Evrysdi. Stop ikke behandlingen med 
+Evrysdi medmindre lægen har sagt det. </p>
+<p>Hvis du eller dit barn har taget for meget Evrysdi </p>
+<p>Hvis du eller dit barn kommer til at tage for meget Evrysdi, skal du straks kontakte lægen eller tage på 
+hospitalet. Tag medicinæsken og denne indlægsseddel med. </p>
+<p>Hvis du eller dit barn har glemt at tage Evrysdi eller kaster op efter en dosis </p>
+<ul>
+<li>
+<p>Hvis der er gået 6 timer eller mindre siden du eller dit barn skulle have taget Evrysdi, skal du 
+tage den glemte dosis, så snart du kommer i tanke om det.  </p>
+</li>
+<li>
+<p>Hvis der er gået mere end 6 timer siden du eller dit barn skulle have taget Evrysdi, springes den 
+glemte dosis over og den næste dosis tages til sædvanlig tid. Tag ikke en dobbeltdosis som 
+erstatning for den glemte dosis. </p>
+</li>
+<li>
+<p>Hvis du eller dit barn kaster op efter at have taget en dosis af Evrysdi, må der ikke tages en 
+ekstra dosis. I stedet skal den næste dosis tages til sædvanlig tid dagen efter. </p>
+</li>
+</ul>
+<p>Hvis du spilder Evrysdi </p>
+<p>Hvis du kommer til at spilde Evrysdi, skal du tørre området af med et stykke tørt køkkenrulle og vaske 
+efter med sæbe og vand. Smid det brugte stykke køkkenrulle i skraldespanden og vask hænderne godt 
+med sæbe og vand. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelige: kan forekomme hos flere end 1 ud af 10 patienter </p>
+<ul>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>hovepine </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+</ul>
+<p>Almindelige: kan forekomme hos op til 1 ud af 10 patienter </p>
+<ul>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>sår i munden </p>
+</li>
+<li>
+<p>infektion i blæren </p>
+</li>
+<li>
+<p>ledsmerter </p>
+</li>
+</ul>
+<p>Følgende bivirkninger er blevet rapporteret efter markedsføring af Evrysdi, men deres hyppighed er 
+ikke kendt: </p>
+<ul>
+<li>betændelse i små blodkar, der hovedsageligt påvirker huden (kutan vaskulitis). </li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller 
+sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
+Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
+nationale rapporteringssystem anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe 
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store evrysdi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store evrysdi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Dette lægemiddel skal opbevares utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Opbevar den orale opløsning i et køleskab (2 til 8˚C). Hvis det er nødvendigt, kan du eller din 
+omsorgsperson opbevare den orale opløsning ved stuetemperatur (under 40 ˚C) i højst 120 timer 
+(5 dage). Sæt den orale opløsning tilbage i køleskabet, når det ikke længere er nødvendigt at 
+opbevare flasken ved stuetemperatur.  </p>
+</li>
+<li>
+<p>Monitorér den samlede tid uden for køleskabet (under 40˚C). Som nævnt ovenfor må det 
+samlede tidsinterval udenfor køleskabet ikke overstige 120 timer.  </p>
+</li>
+<li>
+<p>Den orale opløsning er holdbar i 64 dage efter klargøring af apotekspersonalet, når den 
+opbevares i køleskabet ved 2˚C til 8˚C. Apotekspersonalet skriver udløbsdatoen på flaskens 
+etiket og på æsken efter “Kassér efter". Brug ikke opløsningen efter den dato, der står efter 
+“Kassér efter", eller kassér medicinen, hvis flasken har været opbevaret ved stuetemperatur 
+(under 40 ˚C) i mere end 120 timer (5 dage).  </p>
+</li>
+<li>
+<p>Kassér medicinen, hvis flasken på noget tidspunkt har været opbevaret over 40˚C.  </p>
+</li>
+<li>
+<p>Opbevar medicinen i den originale flaske for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Stil flasken med opløsningen opret og med låget tæt lukket til.  </p>
+</li>
+<li>
+<p>Når medicinen er trukket op i den orale sprøjte, skal den bruges straks. Evrysdi-opløsningen må 
+ikke opbevares i sprøjten. </p>
+</li>
+</ul>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Evrysdi indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof i den orale opløsning: risdiplam.  </p>
+</li>
+<li>
+<p>Én ml oral opløsning indeholder 0,75 mg risdiplam. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: mannitol (E421), isomalt (E953), jordbæraroma, vinsyre (E334), 
+natriumbenzoat (E211), macrogol/polyethylenglycol 6000, sucralose, ascorbinsyre (E300), 
+dinatriumedetatdihydrat (se afsnit 2 ‘Evrysdi indeholder natrium’ og ‘Evrysdi indeholder 
+isomalt’).  </p>
+</li>
+</ul>
+<p>Udsende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>Pulver til oral opløsning, der leveres som en oral opløsning efter klargøring af 
+apotekspersonalet. </p>
+</li>
+<li>
+<p>Opløsningen er en grøn-gul til gul oral opløsning med jordbærsmag. Opløsningens volumen er 
+80 ml. </p>
+</li>
+<li>
+<p>Hver æske indeholder 1 flaske, 1 flaskeadapter, to 1 ml, to 6 ml og én 12 ml genanvendelige, 
+ravfarvede orale sprøjter med markeringer for at hjælpe dig med at trække den korrekte dosis 
+op. </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Roche Registration GmbH 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Tyskland </p>
+<p>Fremstiller </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien<br />
+N.V. Roche S.A.<br />
+Tél/Tel: +32 (0) 2 525 82 11<br />
+Lietuva<br />
+UAB “Roche Lietuva"<br />
+Tel: +370 5 2546799  </p>
+<p>България<br />
+Рош България ЕООД<br />
+Тел: +359 2 474 5 
+Luxembourg/Luxemburg<br />
+(Voir/siehe Belgique/Belgien)  </p>
+<p>Česká republika<br />
+Roche s. r. o.<br />
+Tel: +420 - 2 20382111  </p>
+<p>Magyarország<br />
+Roche (Magyarország) Kft.<br />
+Tel: +36 1 279 4 
+Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99 99  </p>
+<p>Malta<br />
+(see Ireland)  </p>
+<p>Deutschland<br />
+Roche Pharma AG<br />
+Tel: +49 (0) 7624 140  </p>
+<p>Nederland<br />
+Roche Nederland B.V.<br />
+Tel: +31 (0) 348 438050  </p>
+<p>Eesti<br />
+Roche Eesti OÜ<br />
+Tel: + 372 - 6 177 380  </p>
+<p>Norge<br />
+Roche Norge AS<br />
+Tlf: +47 - 22 78 90 00  </p>
+<p>Ελλάδα<br />
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66 100  </p>
+<p>Österreich<br />
+Roche Austria GmbH<br />
+Tel: +43 (0) 1 27739  </p>
+<p>España<br />
+Roche Farma S.A.<br />
+Tel: +34 - 91 324 81 00  </p>
+<p>Polska<br />
+Roche Polska Sp.z o.o.<br />
+Tel: +48 - 22 345 18 88  </p>
+<p>France<br />
+Roche<br />
+Tél: +33 (0) 1 47 61 40 00  </p>
+<p>Portugal<br />
+Roche Farmacêutica Química, Lda<br />
+Tel: +351 - 21 425 70 00  </p>
+<p>Hrvatska<br />
+Roche d.o.o.<br />
+Tel: +385 1 4722 333  </p>
+<p>România<br />
+Roche România S.R.L.<br />
+Tel: +40 21 206 47 01  </p>
+<p>Ireland<br />
+Roche Products (Ireland) Ltd.<br />
+Tel: +353 (0) 1 469 0700  </p>
+<p>Slovenija<br />
+Roche farmacevtska družba d.o.o.<br />
+Tel: +386 - 1 360 26 00  </p>
+<p>Ísland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf<br />
+Sími: +354 540 8  </p>
+<p>Slovenská republika<br />
+Roche Slovensko, s.r.o.<br />
+Tel: +421 - 2 52638201<br />
+Italia<br />
+Roche S.p.A.<br />
+Tel: +39 - 039 2471<br />
+Suomi/Finland<br />
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 500  </p>
+<p>Kύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
+Τηλ: +357 - 22 76 62 76  </p>
+<p>Sverige<br />
+Roche AB<br />
+Tel: +46 (0) 8 726 1200  </p>
+<p>Latvija<br />
+Roche Latvija SIA<br />
+Tel: +371 - 6 7039831  </p>
+<p>United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd.<br />
+Tel: +44 (0) 1707 366000  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk.  </p>
+<p>BRUGSVEJLEDNING - INDGIVELSE  </p>
+<p>Evrysdi 0,75 mg/ml pulver til oral opløsning 
+risdiplam </p>
+<p>Vær omhyggelig med at læse og forstå Brugsvejledningen, inden du begynder at bruge Evrysdi. 
+Denne brugsvejledning beskriver, hvordan Evrysdi klargøres og gives med en oral sprøjte, gennem en 
+mavesonde (G-sonde) eller gennem en næsesonde (NG-sonde).  </p>
+<p>Hvis du har spørgsmål til hvordan du bruger Evrysdi, skal du tale med din læge eller 
+apotekspersonalet. </p>
+<p>Du vil få udleveret Evrysdi som en væske i en flaske. Evrysdi er af apotekspersonalet klargjort til en 
+væske, der indtages gennem munden. Hvis lægemidlet i flasken er et pulver, må du ikke bruge det, 
+men skal kontakte apotekspersonalet. 
+Vigtig information om Evrysdi </p>
+<ul>
+<li>
+<p>Bed lægen eller apotekspersonalet om at vise dig hvilken oral sprøjte du skal bruge og 
+hvordan du opmåler den daglige dosis.  </p>
+</li>
+<li>
+<p>Brug altid de genanvendelige orale sprøjter i pakningen til at opmåle den daglige dosis. </p>
+</li>
+<li>
+<p>Kontakt lægen eller apotekspersonalet, hvis din(e) sprøjte(r) bliver væk eller går i stykker. 
+Lægen eller apotekspersonalet vil rådgive dig om, hvordan du så skal tage medicinen. </p>
+</li>
+<li>
+<p>Se “Sådan vælger du den rigtige orale sprøjte til din dosis Evrysdi". Spørg 
+apotekspersonalet, hvis du har spørgsmål til, hvordan du vælger den rigtige sprøjte. </p>
+</li>
+<li>
+<p>Hvis flaske-adapteren ikke sidder i flasken, må du ikke tage medicinen, men kontakte 
+apotekspersonalet.  </p>
+</li>
+<li>
+<p>Den orale opløsning kan opbevares ved stuetemperatur (under 40˚C) i højst 120 timer (5 
+dage). Monitorér den samlede tid uden for køleskabet (under 40˚C).  </p>
+</li>
+<li>
+<p>Brug ikke Evrysdi efter “Kassér efter"-datoen, der er skrevet på flaskens etiket, eller hvis 
+du eller din omsorgsperson har haft opbevaret flasken ved stuetemperatur (under 40˚C) i 
+mere end 120 timer (5 dage). Spørg apotekspersonalet, hvis du ikke kan se, at de har skrevet 
+en “Kassér efter"-dato på flaskens etiket. </p>
+</li>
+<li>
+<p>Kassér medicinen, hvis flasken på noget tidspunkt har været opbevaret over 40˚C. </p>
+</li>
+<li>
+<p>Evrysdi må ikke blandes med mælk eller modermælkserstatning. </p>
+</li>
+<li>
+<p>Brug ikke Evrysdi, hvis flasken eller de orale sprøjter er beskadigede. </p>
+</li>
+<li>
+<p>Undgå at få Evrysdi på huden. Hvis du får Evrysdi på huden, skal du vaske området med 
+sæbe og vand. </p>
+</li>
+<li>
+<p>Hvis du kommer til at spilde Evrysdi, skal du tørre området af med et stykke tørt 
+køkkenrulle og vaske efter med sæbe og vand. Smid det brugte stykke køkkenrulle i 
+skraldespanden og vask hænderne godt med sæbe og vand. </p>
+</li>
+<li>
+<p>Hvis der ikke er nok Evrysdi tilbage i flasken til en hel dosis, skal du kassere flasken med 
+tiloversbleven Evrysdi samt de brugte orale sprøjter i overensstemmelse med lokale regler 
+for bortskaffelse; tag en ny flaske med Evrysdi og opmål den fulde dosis. Du må ikke 
+blande Evrysdi fra den nye flaske med Evrysdi fra den flaske du allerede bruger. </p>
+</li>
+</ul>
+<p>Hver æske med EVRYSDI indeholder (se figur A):<br />
+1. 1 Evrysdi-flaske med flaske-adapter og låg<br />
+2. 1 oral 12 ml sprøjte (i pose) 
+3. 2 orale 6 ml sprøjter (i poser) 
+4. 2 orale 1 ml sprøjter (i poser)<br />
+5. 1 brugsvejledning (ikke vist) 
+6. 1 indlægsseddel (ikke vist) </p>
+<p>Figur A </p>
+<p>Opbevaring 
+Se afsnit 5 “Opbevaring" i indlægssedlen for fuld information. </p>
+<p>A) Optrækning af dosis </p>
+<p>Sådan vælger du den rigtige orale sprøjte til din dosis af Evrysdi </p>
+<ul>
+<li>
+<p>Hvis din daglige dosis Evrysdi er mellem 0,3 ml og 1 ml, skal du bruge 
+en 1 ml oral sprøjte (gul etiket). </p>
+</li>
+<li>
+<p>Hvis din daglige dosis Evrysdi er mellem 1 ml og 6 ml, skal du bruge en 
+6 ml oral sprøjte (grå etiket). </p>
+</li>
+<li>
+<p>Hvis din daglige dosis Evrysdi er mere end 6 ml, skal du bruge en 12 ml 
+oral sprøjte (brun etiket). </p>
+</li>
+</ul>
+<p>Spørg din læge eller apotekspersonalet om afrunding af din eller dit barns daglige dosis til den 
+nærmeste streg på sprøjten. </p>
+<p>Sådan trækker du en dosis Evrysdi op </p>
+<p>Figur B 
+Trin A1 </p>
+<p>Tag låget af ved at trykke det ned og 
+dreje det mod venstre (mod uret) (se 
+figur B). Smid ikke låget væk. </p>
+<p>Figur C </p>
+<p>Trin A2 </p>
+<p>Tryk den orale sprøjtes stempel helt 
+ned, så du fjerner al luft i sprøjten (se 
+figur C).  </p>
+<p>Figur D </p>
+<p>Trin A3 </p>
+<p>Hold flasken oprejst og sæt sprøjtens 
+spids i flaske-adapteren (se figur D). </p>
+<p>Figur E 
+Trin A4 </p>
+<p>Vend forsigtigt flasken på hovedet 
+med sprøjtespidsen omhyggeligt sat 
+fast i flaske-adapteren (se figur E). </p>
+<p>Figur F </p>
+<p>Trin A5 </p>
+<p>Træk langsomt stemplet tilbage, til du 
+har trukket din dosis af Evrysdi op. 
+Toppen af den sorte stempelstopper 
+skal være på linje med den ml-streg 
+på sprøjten, der svarer til din daglige 
+dosis (se figur F). </p>
+<p>Når du har trukket den rigtige dosis 
+op, skal du holde fast i stemplet for 
+at forhindre, at det bevæger sig. </p>
+<p>Figur G </p>
+<p>Trin A6 </p>
+<p>Bliv ved med at holde fast i 
+stemplet, for at forhindre, at det 
+bevæger sig. Lad sprøjten blive 
+siddende i flaske-adapteren og vend 
+flasken om igen i opretstående 
+stilling. Stil flasken på en plan 
+overflade. Fjern den orale sprøjte fra 
+flaske-adapteren ved forsigtigt at 
+trække den orale sprøjte lige op (se 
+figur G).  </p>
+<p>Figur H </p>
+<p>Trin A7 </p>
+<p>Hold den orale sprøjte med spidsen 
+pegende opad. Tjek medicinen i 
+sprøjten. Hvis der er store luftbobler i 
+sprøjten (se figur H) eller hvis du har 
+trukket en forkert mængde Evrysdi 
+op, kan du sætte sprøjtespidsen 
+tilbage i flaske-adapteren. Tryk 
+stemplet helt ned, så medicinen flyder 
+tilbage i flasken og gentag trin A4 til 
+A7. Tag eller giv Evrysdi med det 
+samme efter det er trukket op i 
+sprøjten.  </p>
+<p>Hvis det ikke tages inden for 5 
+minutter, skal medicinen kasseres og 
+en ny dosis trækkes op.  </p>
+<p>Figur I 
+Trin A8 </p>
+<p>Sæt låget tilbage på flasken. Drej 
+låget mod højre (med uret) for at 
+lukke flasken tæt (se figur I). Fjern 
+ikke flaske-adapteren fra flasken.  </p>
+<p>Hvis du får din dosis Evrysdi gennem munden, skal du følge vejledningen i “B) Sådan tager du en 
+dosis Evrysdi gennem munden". </p>
+<p>Hvis du får din dosis Evrysdi gennem en mavesonde, skal du følge vejledningen i “C) Sådan giver 
+du en dosis Evrysdi gennem en mavesonde (G-tube)". </p>
+<p>Hvis du får din dosis Evrysdi gennem en næsesonde, skal du følge vejledningen i “D) Sådan giver 
+du en dosis Evrysdi gennem en næstesonde (NG-tube)".  </p>
+<p>Evrysdis orale sprøjter er specielt designet til at kunne passe sammen med ENFit®-systemet. Hvis 
+din sonde til sondemad ikke passer sammen med ENFit®, har du muligvis brug for en ENFit®-
+overgangsadaptor for at forbinde Evrysdi-sprøjten til din G-tube eller NG-tube. 
+B) Sådan tager du en dosis Evrysdi gennem munden 
+Du skal sidde opret, når du tager en dosis Evrysdi gennem munden. </p>
+<p>Figur J </p>
+<p>Trin B1 </p>
+<p>Placér sprøjten i munden med 
+spidsen ind mod en af kinderne. 
+Tryk langsomt stemplet helt ned, så 
+hele dosis af Evrysdi gives (se figur 
+J). 
+Hvis Evrysdi gives bagerst i svælget 
+eller for hurtigt, kan det forårsage 
+kvælning. </p>
+<p>Figur K 
+Trin B2 </p>
+<p>Tjek, at der ikke er medicin tilbage i 
+sprøjten (se figur K). </p>
+<p>Figur L 
+Trin B3 </p>
+<p>Drik vand straks efter du har taget 
+Evrysdi (se figur L). </p>
+<p>Gå til trin E for at læse hvordan du 
+rengør sprøjten. 
+C) Sådan giver du en dosis Evrysdi gennem en mavesonde 
+Hvis du giver Evrysdi gennem en mavesonde, skal du spørge din læge eller sygeplejerske, hvordan 
+du tjekker mavesonden, inden du giver Evrysdi.  </p>
+<p>Figur M 
+Trin C1 </p>
+<p>Indfør spidsen af sprøjten i 
+mavesonden. Tryk forsigtigt stemplet 
+helt ned, så hele dosis af Evrysdi 
+gives (se figur M).  </p>
+<p>Figur N 
+Trin C2 </p>
+<p>Tjek, at der ikke er medicin tilbage i 
+sprøjten (se figur N).  </p>
+<p>Figur O 
+Trin C3  </p>
+<p>Skyl mavesonden igennem med 10-
+20 ml vand straks efter en dosis 
+Evrysdi er givet (se figur O). </p>
+<p>Gå til Trin E for at se hvordan du 
+rengør sprøjten. 
+D) Sådan giver du Evrysdi gennem en næsesonde<br />
+Hvis du giver Evrysdi gennem en næsesonde, skal du spørge din læge eller sygeplejerkse, hvordan 
+du tjekker næsesonden, inden du giver Evrysdi. </p>
+<p>Figur P 
+Trin D1 </p>
+<p>Indfør spidsen af sprøjten i 
+næsesonden. Tryk forsigtigt stemplet 
+helt ned, så hele dosis af Evrysdi 
+gives (se figur P).  </p>
+<p>Figur Q 
+Trin D2 </p>
+<p>Tjek, at der ikke er medicin tilbage i 
+sprøjten (se figur Q). </p>
+<p>Figur R 
+Trin D3 </p>
+<p>Skyl næsesonden igennem med 10-ml vand straks efter en dosis Evrysdi 
+er givet (se figur R). </p>
+<p>Gå til Trin E for at se hvordan du 
+rengør sprøjten. 
+E) Sådan rengør du sprøjten efter brug </p>
+<p>Figur S 
+Trin E1  </p>
+<p>Tag stemplet ud af den orale sprøjte. 
+Rengør sprøjtecylinderen grundigt 
+under rent rindende vand (se figur S). </p>
+<p>Figur T 
+Trin E2 </p>
+<p>Rengør stemplet grundigt under rent 
+rindende vand (se figur T). </p>
+<p>Figur U 
+Trin E3 </p>
+<p>Tjek, at sprøjtecylinderen og stemplet 
+er rene. </p>
+<p>Læg sprøjtecylinderen og stemplet på 
+en ren overflade et sikkert sted, så de 
+kan tørre (se figur U).  </p>
+<p>Vask hænder. </p>
+<p>Når sprøjtecylinderen og stemplet er 
+tørre, sættes stemplet tilbage i 
+sprøjtecylinderen, og den samlede 
+sprøjte opbevares sammen med 
+medicinen. 
+Vejledning til rekonstitution  </p>
+<p>Evrysdi 0,75 mg/ml pulver til oral opløsning 
+risdiplam </p>
+<p>Vejledning til rekonstitution 
+(KUN TIL SUNDHEDSFAGLIGT PERSONALE [F.EKS. APOTEKSPERSONALE]) </p>
+<p>Hver Evrysdi-æske indeholder (se figur A):<br />
+1. 1 låg 
+2. 1 Evrysdi-flaske 
+3. 1 oral 12 ml sprøjte (i pose) 
+4. 2 orale 6 ml sprøjter (i poser)<br />
+5. 2 orale 1 ml sprøjter (i poser) 
+6. 1 flaske-adapter 
+7. 1 indlægsseddel (ikke vist) 
+8. 1 vejledning til rekonstitution (ikke vist) 
+9. 1 brugsvejledning (ikke vist) </p>
+<p>Figur A 
+Vigtig information om Evrysdi </p>
+<ul>
+<li>
+<p>Undgå inhalation af Evrysdi pulver.  </p>
+</li>
+<li>
+<p>Brug handsker. </p>
+</li>
+<li>
+<p>Brug ikke pulveret efter udløbsdatoen. Pulverets udløbsdato er trykt på flaskeetiketten. </p>
+</li>
+<li>
+<p>Udlever ikke den rekonstituerede opløsning, hvis opløsningens “Kassér efter"-dato er senere 
+end pulverets udløbsdato. </p>
+</li>
+<li>
+<p>Undgå hudkontakt med lægemidlet. Hvis du får lægemidlet på huden, skal området vaskes 
+med sæbe og vand. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet, hvis en eller flere af delene er beskadigede eller mangler. </p>
+</li>
+<li>
+<p>Brug renset vand eller vand til injektionsvæsker til rekonstitution af lægemidlet. </p>
+</li>
+<li>
+<p>Udlevér ikke andre orale sprøjter end dem, der ligger i æsken. </p>
+</li>
+</ul>
+<p>Opbevaring </p>
+<ul>
+<li>
+<p>Pulveret (ikke-rekonstitueret lægemiddel) opbevares ved stuetemperatur og i æsken. </p>
+</li>
+<li>
+<p>Opløsningen (rekonstitueret lægemiddel) opbevares i køleskab ved (2 til 8 °C) og opretstående 
+i æsken. </p>
+</li>
+<li>
+<p>Opbevar den orale opløsning i den originale flaske og altid opretstående med tætsluttende låg. </p>
+</li>
+</ul>
+<p>Rekonstitution </p>
+<p>Figur B </p>
+<p>Trin 1 </p>
+<p>Bank forsigtigt bunden af flasken mod 
+bordet for at løsne pulveret (se figur B). </p>
+<p>Figur C </p>
+<p>Trin 2 </p>
+<p>Tag låget af ved at trykke det ned og dreje 
+det mod venstre (mod uret) (se figur C). 
+Smid ikke låget væk. </p>
+<p>Figur D </p>
+<p>Trin 3 </p>
+<p>Hæld forsigtigt 79 ml renset vand eller vand 
+til injektionsvæsker i flasken med 
+lægemiddel (se figur D). </p>
+<p>Figur E 
+Trin 4 </p>
+<p>Stil lægemiddelflasken på et bord og hold 
+om den med én hånd. </p>
+<p>Sæt flaske-adapteren i åbningen ved at 
+trykke den ned med den anden hånd. Tjek at 
+den sidder helt i spænd i flaskens åbning (se 
+figur E). </p>
+<p>Figur F 
+Trin 5 </p>
+<p>Sæt låget på flasken igen. Drej låget mod 
+højre (med uret) for at lukke flasken. </p>
+<p>Tjek, at den er helt lukket og ryst så 
+grundigt i 15 sekunder (se figur F). </p>
+<p>Vent i 10 minutter. Så bør produktet være 
+en klar opløsning. </p>
+<p>Herefter rystes den igen grundigt i sekunder. </p>
+<p>Figur G 
+Trin 6 </p>
+<p>Beregn "kassér efter-datoen" som 64 dage 
+efter rekonstitution (NB: 
+rekonstitutionsdagen tælles som dag 0. Det 
+vil sige, hvis rekonstitution finder sted den 
+1. april, vil kassér efter-datoen være 4. juni). </p>
+<p>Skriv "kassér efter-datoen" for 
+opløsningen på flaskens etiket (se figur G) 
+og på æsken. </p>
+<p>Sæt flasken tilbage i den originale æske med 
+sprøjter (i poser), indlægsseddel og 
+brugsvejledning. Æsken skal opbevares i 
+køleskab (2 til 8 °C).  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d74c016d307ba635374b9ac3d63d2f85
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evrysdi Package Leaflet for language en"
+Description: "ePI document Bundle for evrysdi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d74c016d307ba635374b9ac3d63d2f85"
+* entry[0].resource = composition-en-d74c016d307ba635374b9ac3d63d2f85
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd74c016d307ba635374b9ac3d63d2f85"
+* entry[=].resource = mpd74c016d307ba635374b9ac3d63d2f85
+                            
+                    
+Instance: bundlepackageleaflet-da-d74c016d307ba635374b9ac3d63d2f85
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evrysdi Package Leaflet for language da"
+Description: "ePI document Bundle for evrysdi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d74c016d307ba635374b9ac3d63d2f85"
+* entry[0].resource = composition-da-d74c016d307ba635374b9ac3d63d2f85
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd74c016d307ba635374b9ac3d63d2f85"
+* entry[=].resource = mpd74c016d307ba635374b9ac3d63d2f85
+                            
+                    
+
+
+
+Instance: mpd74c016d307ba635374b9ac3d63d2f85
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Evrysdi 0.75 mg/mL powder for oral solution"
-Description: "Evrysdi 0.75 mg/mL powder for oral solution"
+Title: "Medicinal Product evrysdi"
+Description: "evrysdi"
 Usage: #inline
 
  
@@ -392,7 +1316,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Evrysdi 0.75 mg/mL powder for oral solution"
+  * productName = "evrysdi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -419,29 +1343,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d74c016d307ba635374b9ac3d63d2f85
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for evrysdi Package Leaflet for language en"
-Description: "ePI document Bundle for evrysdi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d74c016d307ba635374b9ac3d63d2f85ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1531/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "evrysdi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d74c016d307ba635374b9ac3d63d2f85"
-* entry[0].resource = composition-en-d74c016d307ba635374b9ac3d63d2f85
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd576f3f2c49e8706bb5ba755f5c3253c"
-* entry[=].resource = mpd576f3f2c49e8706bb5ba755f5c3253c
-                            
-                      
+* title = "List of all ePIs associated with evrysdi"
+
+* subject = Reference(mpd576f3f2c49e8706bb5ba755f5c3253c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#evrysdi "evrysdi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d74c016d307ba635374b9ac3d63d2f85) // evrysdi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d74c016d307ba635374b9ac3d63d2f85) // evrysdi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d74c016d307ba635374b9ac3d63d2f85
+InstanceOf: List
+
+* insert d74c016d307ba635374b9ac3d63d2f85ListRuleset
+    

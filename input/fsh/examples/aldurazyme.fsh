@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5ffbf24d0777fe10834621c6432afea6
 InstanceOf: CompositionUvEpi
 Title: "Composition for aldurazyme Package Leaflet"
@@ -339,12 +342,594 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-5ffbf24d0777fe10834621c6432afea6
+InstanceOf: CompositionUvEpi
+Title: "Composition for aldurazyme Package Leaflet"
+Description:  "Composition for aldurazyme Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp660622efa6c9cd5936f5d1d880eb405b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp660622efa6c9cd5936f5d1d880eb405b
+* title = "TEST PURPOSES ONLY - aldurazyme"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du får Aldurazyme 
+3. Sådan får du Aldurazyme 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What aldurazyme is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What aldurazyme is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aldurazyme bruges til at behandle patienter med MPS I (mukopolysakkaridose I). Det gives til 
+behandling af de ikke-neurologiske symptomer på sygdommen. </p>
+<p>Personer med MPS I har et lavt niveau af eller mangler helt et enzym, der hedder α-L-iduronidase, 
+som nedbryder bestemte stoffer (glykosaminoglycaner) i kroppen. Som følge deraf bliver disse stoffer 
+ikke nedbrudt og bearbejdet af kroppen, som de ellers skulle. De samler sig i vævet i store dele af 
+kroppen, hvilket giver symptomerne på MPS I. </p>
+<p>Aldurazyme er et kunstigt enzym, der kaldes for laronidase. Det kan erstatte det naturlige enzym, som 
+mangler i forbindelse med sygdommen MPS I. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take aldurazyme"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take aldurazyme"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Aldurazyme: 
+Hvis du er allergisk over for laronidase eller et af de øvrige indholdsstoffer i dette lægemiddel (angivet 
+i punkt 6).   </p>
+<p>Advarsler og forsigtighedsregler 
+Tal med din læge, før du får Aldurazyme. 
+Kontakt straks din læge, hvis behandlingen med Aldurazyme giver: </p>
+<ul>
+<li>
+<p>Allergiske reaktioner, herunder anafylaksi (en alvorlig allergisk reaktion) – se punkt 4 
+”Bivirkninger”. Nogle af disse reaktioner kan være livstruende. Symptomer kan inkludere 
+respirationssvigt/-besvær (lungernes manglende evne til at fungere korrekt), stridor (høj 
+åndedrætslyd) og andre sygdomme på grund af forsnævringer i luftvejene, hurtig vejrtrækning, 
+overdreven sammentrækning af musklerne i luftvejene, der giver åndedrætsbesvær 
+(bronkospasmer), mangel på ilt i kropsvævet (hypoksi), lavt blodtryk, langsom hjerterytme 
+(puls) eller kløende udslæt (nældefeber). </p>
+</li>
+<li>
+<p>Infusionsrelaterede reaktioner, det vil sige enhver bivirkning, der indtræder under infusionen 
+eller inden infusionsdagen er gået - se punkt 4 “Bivirkninger” nedenfor for symptomer.  </p>
+</li>
+</ul>
+<p>Hvis sådanne reaktioner optræder, skal infusionen af Aldurazyme straks afbrydes, og din læge vil 
+iværksætte en hensigtsmæssig behandling. </p>
+<p>Disse reaktioner kan være særligt alvorlige, hvis du i forvejen har en MPS I-relateret tillukning i de 
+øvre luftveje. </p>
+<p>Du vil muligvis få andre lægemidler for at forebygge allergiske reaktioner, såsom antihistaminer, 
+lægemidler til febernedsættelse (f.eks. paracetamol) og/eller binyrebarkhormoner. </p>
+<p>Din læge vil også beslutte, om du skal fortsætte med at få Aldurazyme. </p>
+<p>Brug af andre lægemidler sammen med Aldurazyme 
+Underret din læge, hvis du anvender lægemidler, der indeholder chloroquin eller procain på grund af 
+en mulig risiko for, at Aldurazymes virkning nedsættes. </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler eller hvis du for 
+nyligt har brugt andre lægemidler, herunder også ikke receptpligtige lægemidler. </p>
+<p>Graviditet, amning og frugtbarhed 
+Der er ikke tilstrækkelig erfaring med brug af Aldurazyme til gravide. Aldurazyme bør ikke anvendes 
+under graviditet, medmindre det er klart nødvendigt. 
+Det vides ikke, om Aldurazyme udskilles i modermælken. Det anbefales at ophøre med amning under 
+behandling med Aldurazyme.<br />
+Der er ingen oplysninger om Aldurazymes indvirkning på frugtbarheden. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Virkningen på evnen til at køre bil eller betjene maskiner er ikke undersøgt. </p>
+<p>Aldurazyme indeholder natrium 
+Dette lægemiddel indeholder 30 mg natrium (hoved komponent af madlavnings-/bordsalt) pr. 
+hætteglas. Dette svarer til 1,5 % af den anbefalede maximale daglige indtagelse af natrium for en 
+voksen.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take aldurazyme"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take aldurazyme"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruktioner vedrørende anvendelsen – opløsning og indgivelse <br />
+Koncentratet til opløsning til infusion skal fortyndes før indgivelse og er beregnet til intravenøs brug 
+(se oplysningerne til sundhedspersoner).<br />
+Indgivelse af Aldurazyme skal udføres i hensigtsmæssige, kliniske omgivelser, hvor der er let adgang 
+til genoplivningsudstyr i akutte nødstilfælde. </p>
+<p>Hjemmeinfusion 
+Din læge kan beslutte, at du kan få infusion af Aldurazyme i hjemmet, hvis det er sikkert og bekvemt 
+at gøre det. Hvis du får en bivirkning under infusionen af Aldurazyme, kan din 
+hjemmeinfusionshjælper stoppe infusionen og påbegynde medicinsk behandling. </p>
+<p>Dosering 
+Den anbefalede dosering for Aldurazyme er 100 E/kg kropsvægt, der indgives én gang om ugen som 
+intravenøs infusion. Den indledende infusionshastighed på 2 E/kg/t kan gradvist øges for hver minutter, hvis det tåles, til maksimalt 43 E/kg/t. Den samlede mængde, der skal indgives, bør indgives 
+i løbet af ca. 3-4 timer.  </p>
+<p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Hvis du har glemt at få Aldurazyme 
+Hvis du er gået glip af en Aldurazyme-infusion, skal du kontakte din læge. </p>
+<p>Hvis du har fået mere Aldurazyme end nødvendigt 
+Hvis der gives en for høj dosis af Aldurazyme eller hvis infusionshastigheden er for høj, kan der opstå 
+bivirkninger. Modtagelse af en for hurtig infusion af Aldurazyme kan medføre kvalme, mavesmerter, 
+hovedpine, svimmelhed og åndedrætsbesvær (dyspnø). I sådanne situationer bør infusionen afbrydes 
+eller infusionshastigheden nedsættes øjeblikkeligt. Din læge vil beslutte om andre indgreb er 
+nødvendige. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Bivirkningerne blev hovedsageligt observeret, mens patienterne fik lægemidlet eller kort tid derefter 
+(infusionsrelaterede reaktioner). Hvis du oplever en sådan reaktion, skal du straks kontakte en læge. 
+Antallet af disse reaktioner faldt, jo længere tid patienterne var i behandling med Aldurazyme. 
+Størstedelen af disse reaktioner var lette eller moderate i styrke. Alvorlige systemiske, allergiske 
+reaktioner (anafylaktisk reaktion) er blevet observeret hos patienter under eller op til 3 timer efter 
+infusion af Aldurazyme. Nogle af symptomerne ved sådanne alvorlige reaktioner var livstruende og 
+inkluderede ekstremt åndedrætsbesvær, hævelse i halsen, lavt blodtryk og lavt iltindhold i kroppen. 
+Nogle få patienter, som havde tidligere tilfælde af alvorlige angreb på øvre luftveje og lunger, som var 
+MPI I-relateret, oplevede alvorlige reaktioner, herunder bronkospasme (forsnævring af luftvejene), 
+åndedrætsstop og hævelse i ansigtet. Hyppigheden af bronkospasme og åndedrætsstop er ikke kendt. 
+Hyppigheden af alvorlige allergiske reaktioner (anafylaktisk reaktion) og hævelse af ansigtet anses for 
+almindelig og kan ramme op til 1 ud af 10 personer. </p>
+<p>Meget almindelige symptomer (kan ramme flere end 1 ud af 10 personer), som ikke var alvorlige, 
+omfatter </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>ledsygdom </p>
+</li>
+<li>
+<p>ledsmerter </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>smerter i arme eller ben </p>
+</li>
+<li>
+<p>ansigtsrødme </p>
+</li>
+<li>
+<p>feber, kulderystelser </p>
+</li>
+<li>
+<p>hurtig hjerterytme (puls) </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+<li>
+<p>reaktioner på infusionsstedet såsom hævelse, rødme, væskeophobning, ubehag, kløende udslæt, 
+bleg farve af huden, misfarvning af huden eller følelse af at være varm. </p>
+</li>
+</ul>
+<p>Andre bivirkninger omfatter følgende: </p>
+<p>Almindelig (kan ramme op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>forhøjet legemstemperatur </p>
+</li>
+<li>
+<p>prikken og snurren </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>åndedrætsbesvær </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>hurtig hævelse under huden i områder såsom ansigt, hals, arme og ben, som kan være 
+livstruende, hvis hævelse af hals blokerer luftvejene </p>
+</li>
+<li>
+<p>nældefeber </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>koldsved, kraftig svedtendens </p>
+</li>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>bleghed </p>
+</li>
+<li>
+<p>kolde hænder eller fødder </p>
+</li>
+<li>
+<p>følelse af varme, følelse af kulde </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>influenzalignende sygdom </p>
+</li>
+<li>
+<p>smerte på injektionsstedet </p>
+</li>
+<li>
+<p>hvileløshed </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>allergiske reaktioner (overfølsomhed) </p>
+</li>
+<li>
+<p>unormal langsom hjerterytme (puls) </p>
+</li>
+<li>
+<p>forhøjet eller unormalt højt blodtryk </p>
+</li>
+<li>
+<p>hævelse af strubehovedet </p>
+</li>
+<li>
+<p>blåfarvning af huden (grundet for lavt indhold af ilt i blodet) </p>
+</li>
+<li>
+<p>hurtig vejrtrækning </p>
+</li>
+<li>
+<p>rødmen af huden </p>
+</li>
+<li>
+<p>udsivning af lægemidlet til det omgivende væv ved infusionsstedet, hvor det kan resultere i 
+skade </p>
+</li>
+<li>
+<p>lungernes manglende evne til at fungere korrekt (respirationssvigt) </p>
+</li>
+<li>
+<p>hævelse i hals </p>
+</li>
+<li>
+<p>høj åndedrætslyd </p>
+</li>
+<li>
+<p>forsnævringer i luftvejene, hvilket giver til åndedrætsbesvær </p>
+</li>
+<li>
+<p>hævelse af læber </p>
+</li>
+<li>
+<p>hævelse af tunge </p>
+</li>
+<li>
+<p>hævelse af især ankler og fødder på grund af væskeophobning </p>
+</li>
+<li>
+<p>lægemiddelspecifikt antistof, et blodprotein produceret som reaktion på lægemidlet </p>
+</li>
+<li>
+<p>antistof, der neutraliserer lægemidlets effekt </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store aldurazyme"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store aldurazyme"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Uåbnede hætteglas: 
+Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aldurazyme indeholder:</p>
+<ul>
+<li>Aktivt stof: laronidase. 1 ml af opløsningen i hætteglasset indeholder 100 E laronidase. Hvert 
+hætteglas på 5 ml indeholder 500 U laronidase. </li>
+<li>Øvrige indholdsstoffer: Natriumchlorid, natriumdihydrogenphosphatmonohydrat, 
+dinatriumphosphatheptahydrat, polysobat 80, vand til injektionsvæsker </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Aldurazyme leveres som et koncentrat til opløsning til infusion. Det er en opløsning, der er klar til let 
+opaliserende og farveløs til lysegul. </p>
+<p>Pakningsstørrelser: 1, 10 og 25 hætteglas pr. karton. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført.   </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Sanofi B.V., Paasheuvelweg 25, 1105 BP Amsterdam, Holland. </p>
+<p>Fremstiller 
+Genzyme Irland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om Aldurazyme, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:  </p>
+<p>België/Belgique/Belgien/ 
+Luxembourg/Luxemburg 
+Sanofi Belgium 
+Tél/Tel: + 32 2 710 54<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel: +36 1 505 0 
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: + 47 67 10 71<br />
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 7 
+Österreich 
+sanofi-aventis GmbH 
+Tel: + 43 1 80 185 - 0 </p>
+<p>Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10 <br />
+Polska 
+sanofi-aventis Sp. z o.o.<br />
+Tel: +48 22 280 00<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE<br />
+Τηλ: +30 210 900 1 
+Portugal 
+Sanofi – Produtos Farmacêuticos, Lda.<br />
+Tel: +351 21 35 89 España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 <br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: + 358 201 200<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800536United Kingdom 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47  </p>
+<p>Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om Aldurazyme på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme, 
+og om, hvordan de behandles.  </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersoner: </p>
+<p>Hvert hætteglas med Aldurazyme er kun beregnet til engangsbrug. Koncentratet til opløsning til 
+infusion skal fortyndes med 9 mg/ml (0,9%) natriumchloridopløsning til infusion med aseptisk teknik. 
+Det anbefales, at den fortyndede Aldurazyme-opløsning indgives til patienterne med et infusionssæt, 
+der er udstyret med et 0,2 µm in-line-filter.  </p>
+<p>Af hensyn til den mikrobiologiske sikkerhed skal produktet anvendes med det samme. Hvis det ikke 
+anvendes med det samme, må det ikke opbevares mere end 24 timer ved 2 °C - 8 °C, forudsat at 
+fortyndingen er sket under kontrollerede og validerede aseptiske betingelser. </p>
+<p>Aldurazyme bør ikke blandes med andre lægemidler i samme infusion.  </p>
+<p>Klargøring af Aldurazyme-infusionen (brug aseptisk teknik) </p>
+<ul>
+<li>
+<p>Beregn det antal hætteglas, der skal fortyndes, på basis af den enkelte patients vægt. Tag det 
+nødvendige antal hætteglas ud af køleskabet ca. 20 minutter før, så de kan opnå stuetemperatur 
+(under 30°C).  </p>
+</li>
+<li>
+<p>Før fortynding efterses hvert hætteglas for fremmedlegemer og misfarvning. Den klare til let 
+opaliserede og farveløse til lysegule opløsning skal være fri for synlige partikler. Brug ikke 
+hætteglas, der udviser partikler eller misfarvning. </p>
+</li>
+<li>
+<p>Beregn den samlede infusionsmængde på basis af den enkelte patients vægt, enten 100 ml (hvis 
+kropsvægten er under eller lig med 20 kg) eller 250 ml (hvis kropsvægten er over 20 kg) 
+9 mg/ml (0,9%) natriumchloridopløsning til infusion.  </p>
+</li>
+<li>
+<p>Udtag og kasser en mængde 9 mg/ml (0,9%) natriumchloridopløsning til infusion fra 
+infusionsposen, der svarer til den samlede mængde Aldurazyme, der skal tilsættes.  </p>
+</li>
+<li>
+<p>Udtag den ønskede mængde fra Aldurazyme-hætteglassene og saml de udtagne mængder.  </p>
+</li>
+<li>
+<p>Tilsæt de samlede mængder Aldurazyme til 9 mg/ml (0,9%) natriumchloridopløsningen til 
+infusion. </p>
+</li>
+<li>
+<p>Bland opløsningen til infusion forsigtigt. </p>
+</li>
+<li>
+<p>Før brugen efterses opløsningen for partikler. Kun klare og farveløse opløsninger uden synlige 
+partikler bør anvendes.  </p>
+</li>
+</ul>
+<p>Ikke anvendte lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinjer.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5ffbf24d0777fe10834621c6432afea6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aldurazyme Package Leaflet for language en"
+Description: "ePI document Bundle for aldurazyme Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5ffbf24d0777fe10834621c6432afea6"
+* entry[0].resource = composition-en-5ffbf24d0777fe10834621c6432afea6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5ffbf24d0777fe10834621c6432afea6"
+* entry[=].resource = mp5ffbf24d0777fe10834621c6432afea6
+                            
+                    
+Instance: bundlepackageleaflet-da-5ffbf24d0777fe10834621c6432afea6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aldurazyme Package Leaflet for language da"
+Description: "ePI document Bundle for aldurazyme Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5ffbf24d0777fe10834621c6432afea6"
+* entry[0].resource = composition-da-5ffbf24d0777fe10834621c6432afea6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5ffbf24d0777fe10834621c6432afea6"
+* entry[=].resource = mp5ffbf24d0777fe10834621c6432afea6
+                            
+                    
+
+
+
+Instance: mp5ffbf24d0777fe10834621c6432afea6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Aldurazyme 100 U/ml concentrate for solution for infusion"
-Description: "Aldurazyme 100 U/ml concentrate for solution for infusion"
+Title: "Medicinal Product aldurazyme"
+Description: "aldurazyme"
 Usage: #inline
 
  
@@ -364,7 +949,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Aldurazyme 100 U/ml concentrate for solution for infusion"
+  * productName = "aldurazyme"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -391,29 +976,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5ffbf24d0777fe10834621c6432afea6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for aldurazyme Package Leaflet for language en"
-Description: "ePI document Bundle for aldurazyme Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5ffbf24d0777fe10834621c6432afea6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/03/253/001-003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "aldurazyme"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5ffbf24d0777fe10834621c6432afea6"
-* entry[0].resource = composition-en-5ffbf24d0777fe10834621c6432afea6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp660622efa6c9cd5936f5d1d880eb405b"
-* entry[=].resource = mp660622efa6c9cd5936f5d1d880eb405b
-                            
-                      
+* title = "List of all ePIs associated with aldurazyme"
+
+* subject = Reference(mp660622efa6c9cd5936f5d1d880eb405b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#aldurazyme "aldurazyme"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5ffbf24d0777fe10834621c6432afea6) // aldurazyme en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5ffbf24d0777fe10834621c6432afea6) // aldurazyme da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5ffbf24d0777fe10834621c6432afea6
+InstanceOf: List
+
+* insert 5ffbf24d0777fe10834621c6432afea6ListRuleset
+    

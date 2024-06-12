@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-27bef6838d192de0f1fa35f67b2e5233
 InstanceOf: CompositionUvEpi
 Title: "Composition for glivec Package Leaflet"
@@ -496,12 +499,820 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-27bef6838d192de0f1fa35f67b2e5233
+InstanceOf: CompositionUvEpi
+Title: "Composition for glivec Package Leaflet"
+Description:  "Composition for glivec Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd280234acf3b2cf9938490916a4849a5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd280234acf3b2cf9938490916a4849a5
+* title = "TEST PURPOSES ONLY - glivec"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Glivec 
+3. Sådan skal du tage Glivec 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What glivec is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What glivec is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Glivec er et lægemiddel, der indeholder et aktivt stof kaldet imatinib. Dette lægemiddel virker ved at 
+hæmme væksten af unormale celler ved de sygdomme, der er nævnt nedenfor. Disse omfatter nogle 
+former for kræft. </p>
+<p>Glivec er en behandling til voksne og børn mod:</p>
+<ul>
+<li>Kronisk myeloid leukæmi (CML). Leukæmi er kræft i de hvide blodlegemer. Hvide 
+blodlegemer hjælper som regel kroppen med at bekæmpe infektioner. Kronisk myeloid leukæmi 
+er en type leukæmi, hvor nogle bestemte unormale hvide blodlegemer (der kaldes myeloide 
+celler) vokser ukontrolleret. </li>
+<li>Philadelphia-kromosom-positiv akut lymfoblastær leukæmi (Ph-positiv ALL). Leukæmi er 
+kræft i de hvide blodlegemer. Hvide blodlegemer hjælper som regel kroppen med at bekæmpe 
+infektioner. Akut lymfoblastær leukæmi er en form af leukæmi, hvor visse abnorme hvide 
+blodlegemer (kaldet lymfoblaster) vokser ukontrolleret. Glivec hæmmer væksten af disse celler. </li>
+</ul>
+<p>Glivec anvendes også til behandling af voksne med:</p>
+<ul>
+<li>Myelodysplastiske/myeloproliferative sygdomme (MDS/MDP). Disse er en gruppe af 
+sygdomme i blodet, hvor nogle blodlegemer begynder at vokse ukontrolleret. Glivec hæmmer 
+væksten af disse blodlegemer i en vis undergruppe af disse sygdomme. </li>
+<li>Hypereosinofil syndrom (HES) og/eller kronisk eosinofil leukæmi (CEL). Disse er 
+sygdomme i blodet, i hvilke visse blodlegemer (kaldet eosinofile celler) begynder at vokse 
+ukontrolleret. Glivec hæmmer væksten af disse celler i en vis undergruppe af disse sygdomme. </li>
+<li>Ondartede bindevævstumorer i mavetarmsystemet (gastrointestinale stromal tumorer 
+(GIST)). GIST er en kræftform i mavesækken og tarmen. Den opstår ved en ukontrolleret 
+cellevækst af disse organers bindevæv. </li>
+<li>Dermatofibrosarkom protuberans (DFSP). DFSP er en kræftform i vævet under huden, hvor 
+visse celler vokser ukontrolleret. Glivec hæmmer væksten af disse celler. 
+I resten af denne indlægsseddel vil vi bruge forkortelserne, når vi omtaler disse sygdomme. </li>
+</ul>
+<p>Hvis du har spørgsmål om, hvordan Glivec virker, eller hvorfor du har fået ordineret dette lægemiddel, 
+kontakt din læge. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take glivec"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take glivec"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Glivec vil kun blive ordineret til dig af en læge med erfaring i behandlingen af kræft i blodet eller 
+kræftknuder. </p>
+<p>Følg omhyggeligt din læges anvisninger, selvom de er forskellige fra den generelle information i 
+denne indlægsseddel. </p>
+<p>Tag ikke Glivec 
+- hvis du er allergisk over for imatinib eller et af de øvrige indholdsstoffer i Glivec (angivet i 
+afsnit 6). 
+Hvis dette gælder for dig, skal du fortælle din læge det, før du tager Glivec. </p>
+<p>Hvis du tror, du er allergisk, men ikke er sikker, skal du kontakte din læge for at få rådgivning. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Glivec:</p>
+<ul>
+<li>hvis du har eller har haft lever-, nyre- eller hjerteproblemer. </li>
+<li>hvis du tager medicin indeholdende levothyroxin, fordi din skjoldbruskkirtel er blevet fjernet. </li>
+<li>hvis du nogensinde har været eller måske er smittet med hepatitis B-virus. Dette skyldes, at 
+Glivec kan forårsage, at hepatitis B-infektionen bliver aktiv igen, hvilket undertiden kan være 
+dødeligt. Lægen vil omhyggeligt kontrollere dig for tegn på denne infektion, før behandlingen 
+påbegyndes. </li>
+<li>hvis du får blå mærker, blødninger, feber, træthed og oplever forvirring, mens du tager Glivec, 
+skal du kontakte din læge. Dette kan være tegn på beskadigelse af dine blodkar, hvilket kaldes 
+trombotisk mikroangiopati (TMA). 
+Hvis noget af det ovenstående gælder for dig, skal du fortælle din læge det, før du tager Glivec. </li>
+</ul>
+<p>Du kan blive mere følsom overfor sollys, når du tager Glivec. Det er vigtigt at dække de områder af 
+huden, som udsættes for solen, og at bruge solcreme med høj solbeskyttelsesfaktor (SPF). Disse 
+forholdsregler gælder også for børn. </p>
+<p>Du skal straks fortælle din læge, hvis du meget hurtigt tager på i vægt, mens du er i behandling 
+med Glivec. Glivec kan forårsage, at din krop begynder at ophobe væske (svær væskeretention). </p>
+<p>Mens du tager Glivec, vil din læge regelmæssigt kontrollere, om lægemidlet virker. Du vil også få 
+taget blodprøver og blive vejet regelmæssigt. </p>
+<p>Børn og unge 
+Glivec bruges også til behandling af børn med CML. Der er ingen erfaring med behandling af CML 
+hos børn under 2 år. Der er begrænset erfaring hos børn og Ph-positiv ALL og meget begrænset 
+erfaring med børn med MDS/MPD, DFSP, GIST og HEL/CEL. </p>
+<p>Nogle børn og unge, der får Glivec, kan vokse langsommere end normalt. Lægen vil kontrollere 
+væksten ved regelmæssige besøg. </p>
+<p>Brug af anden medicin sammen med Glivec 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept (såsom paracetamol), inklusive naturlægemidler (såsom perikon). Nogle lægemidler kan 
+påvirke virkningen af Glivec, når de bruges samtidigt. De kan enten øge eller nedsætte virkningen af 
+Glivec, hvilket kan resultere i enten flere bivirkninger, eller de kan gøre Glivec mindre virksomt. 
+Glivec kan gøre det samme ved andre lægemidler. </p>
+<p>Fortæl din læge, hvis du tager medicin, der forebygger dannelsen af blodpropper. </p>
+<p>Graviditet, amning og frugtbarhed 
+- Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge til råds, før du tager dette lægemiddel. 
+- Glivec anbefales ikke under graviditeten, medmindre det er strengt nødvendigt, da det kan skade 
+din baby. Din læge vil fortælle dig om de mulige risici, der er forbundet med brug af Glivec 
+under graviditeten. 
+- Under behandlingen og i 15 dage efter ophør af behandlingen anbefales det, at kvinder som kan 
+blive gravide, anvender effektiv beskyttelse mod graviditet. 
+- Du må ikke amme, mens du er i behandling og i 15 dage efter ophør af behandling med Glivec, 
+da det kan skade din baby. 
+- Hvis du er bekymret for din frugtbarhed, mens du tager Glivec, skal du kontakte din læge. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan blive svimmel eller søvnig eller få sløret syn, mens du tager dette lægemiddel. Hvis dette sker, 
+bør du ikke køre bil eller bruge værktøj og maskiner, før du føler dig godt tilpas igen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take glivec"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take glivec"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din læge har udskrevet Glivec, fordi du lider af en alvorlig sygdom. Glivec kan hjælpe dig med at 
+bekæmpe denne tilstand. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Det er vigtigt, at du 
+tager det så længe, lægen eller apotekspersonalet fortæller dig, at du skal. Er du i tvivl, så spørg lægen 
+eller apotekspersonalet. </p>
+<p>Du må ikke stoppe med at tage Glivec, medmindre din læge fortæller dig det. Hvis du ikke er i stand 
+til at tage medicinen, som din læge har foreskrevet, eller hvis du føler, at du ikke længere behøver den, 
+skal du kontakte din læge med det samme. </p>
+<p>Den sædvanlige dosis af Glivec er </p>
+<p>Brug til voksne 
+Din læge vil fortælle dig, præcis hvor mange Glivec-kapsler, du skal tage. </p>
+<p>− 
+Hvis du er i behandling for CML: 
+Afhængigt af din tilstand er den almindelige startdosis enten 400 mg eller 600 mg:</p>
+<ul>
+<li>400 mg som skal tages som 4 kapsler én gang daglig. </li>
+<li>600 mg som skal tages som 6 kapsler én gang daglig. </li>
+</ul>
+<p>− 
+Hvis du er i behandling for GIST: 
+Startdosis er 400 mg, som skal tages som 4 kapsler én gang dagligt. </p>
+<p>For CML og GIST kan din læge foreskrive højere eller lavere dosis afhængigt af, hvordan du reagerer 
+på behandlingen. Hvis din daglige dosis er 800 mg (8 kapsler), skal du tage 4 kapsler om morgenen og 
+4 kapsler om aftenen. </p>
+<p>− 
+Hvis du behandles for Ph-positiv ALL: 
+Startdosis er 600 mg, som skal tages som 6 kapsler én gang daglig. </p>
+<p>− 
+Hvis du behandles for MDS/MPD: 
+Startdosis er 400 mg, som skal tages som 4 kapsler én gang daglig. </p>
+<p>− 
+Hvis du behandles for HES/CEL: 
+Startdosis er 100 mg, som skal tages som én kapsel kapsler én gang daglig. Din læge kan 
+beslutte at øge dosis til 400 mg, som skal tages som 4 kapsler én gang daglig afhængig af, 
+hvordan du responderer på behandlingen. </p>
+<p>− 
+Hvis du behandles for DSFP: 
+Dosis er 800 mg pr. dag (8 kapsler). Du skal tage 4 kapsler om morgenen og 4 kapsler om 
+aftenen. </p>
+<p>Brug til børn og unge 
+Lægen vil fortælle dig, hvor mange Glivec-kapsler, du skal give dit barn. Antallet af Glivec-kapsler 
+afhænger af barnets tilstand, kropsvægt og højde. Den totale daglige dosis til børn må ikke overstige 
+800 mg for CML-patienter og 600 mg for Ph+ALL-patienter. Behandlingen kan enten gives til dit 
+barn som én daglig dosis, eller alternativt kan den daglige dosis deles og gives to gange (halvdelen om 
+morgenen og den anden halvdel om aftenen). </p>
+<p>Hvornår og hvordan skal du tage Glivec 
+- Tag Glivec sammen med et måltid. Dette vil hjælpe med at beskytte dig mod maveproblemer, 
+når du tager Glivec. 
+- Synk kapslerne hele med et stort glas vand. Du må ikke åbne eller knuse kapslerne 
+medmindre du ikke er i stand til at synke (for eksempel hos børn). 
+- Hvis du ikke er i stand til at synke kapslerne, kan du åbne dem og opløse pulveret i et glas 
+almindeligt vand eller æblejuice. 
+- Hvis du er kvinde og er gravid eller planlægger at blive gravid, skal du være forsigtig, når du 
+åbner kapslerne og håndterer indholdet for at undgå hud- og øjenkontakt eller indånding af 
+pulveret. Du skal vaske dine hænder straks efter, du har åbnet kapslerne. </p>
+<p>Hvor længe skal du tage Glivec 
+Bliv ved med at tage Glivec hver dag, så længe som din læge har foreskrevet det. </p>
+<p>Hvis du har taget for meget Glivec 
+Hvis du ved et uheld har indtaget for mange kapsler, skal du kontakte din læge med det samme. 
+Lægebehandling kan være nødvendig. Tag pakningen med dig. </p>
+<p>Hvis du har glemt at tage Glivec 
+- Hvis du glemmer at tage en dosis, så tag den, så snart du kommer i tanker om det. Men hvis det 
+næsten er tid til at tage den næste dosis, skal du springe den glemte dosis over. 
+- Fortsæt derefter med den planlagte dosering. 
+- Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+er som regel lette til moderate. </p>
+<p>Nogle bivirkninger kan være alvorlige. Kontakt din læge med det samme, hvis du oplever nogle 
+af de følgende bivirkninger: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter) eller almindelige (kan 
+forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>Hurtig vægtøgning. Glivec kan føre til, at din krop kan begynde at ophobe væske (svære 
+ødemer). </p>
+</li>
+<li>
+<p>Symptomer på infektioner såsom feber, kraftige kulderystelser, ondt i halsen eller sår i munden. 
+Glivec kan nedsætte antallet af hvide blodlegemer, så du lettere kan få infektioner. </p>
+</li>
+<li>
+<p>Hvis du oplever uventede blødninger eller blå mærker (når du ikke er kommet til skade). </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter) til sjældne (kan forekomme hos 
+op til 1 ud af 1.000 patienter): </p>
+<ul>
+<li>
+<p>Brystsmerter, uregelmæssig hjerterytme (tegn på hjerteproblemer). </p>
+</li>
+<li>
+<p>Hoste, åndedrætsbesvær eller smerter ved vejrtrækning (tegn på lungeproblemer). </p>
+</li>
+<li>
+<p>Føle sig svimmel eller besvime (tegn på lavt blodtryk). </p>
+</li>
+<li>
+<p>Have kvalme med tab af appetitten, mørk urin, gul hud eller øjne (tegn på leverproblemer). </p>
+</li>
+<li>
+<p>Udslæt, rød hud med små blærer på læber, øjne, hud eller mund, afskallet hud, feber, hævede 
+røde eller lilla hudområder, kløe, brændende fornemmelse, pustuløst udslæt (tegn på 
+hudproblemer). </p>
+</li>
+<li>
+<p>Kraftige mavesmerter, blod i opkast, afføring eller urin, sortfarvet afføring (tegn på mave-tarm-
+sygdomme). </p>
+</li>
+<li>
+<p>Kraftigt nedsat urinmængde, følelse af tørst (tegn på nyreproblemer). </p>
+</li>
+<li>
+<p>Have kvalme med diarré og opkastning, mavesmerter eller feber (tegn på tarmproblemer). </p>
+</li>
+<li>
+<p>Kraftig hovedpine, svækkelse eller lammelser af lemmer eller ansigt, talebesvær, pludseligt 
+bevidsthedstab (tegn på problemer med nervesystemet såsom blødning eller hævelse i 
+kranie/hjerne). </p>
+</li>
+<li>
+<p>Bleghed, føle sig træt og stakåndet og have mørk urin (tegn på lavt antal røde blodceller). </p>
+</li>
+<li>
+<p>Øjensmerter eller svækkelse af dit syn, blødning i øjnene. </p>
+</li>
+<li>
+<p>Smerte i knogler eller led (tegn på osteonekrose). </p>
+</li>
+<li>
+<p>Blærer på hud eller slimhinder (tegn på pemfigus). </p>
+</li>
+<li>
+<p>Følelsesløse eller kolde tæer og fingre (tegn på Raynaud´s syndrom). </p>
+</li>
+<li>
+<p>Pludselig hævelse og rødme af huden (tegn på en hudinfektion kaldet cellulitis). </p>
+</li>
+<li>
+<p>Hørebesvær. </p>
+</li>
+<li>
+<p>Muskelsvaghed, kramper og en unormal hjerterytme (tegn på ændringer i mængden af kalium i 
+dit blod). </p>
+</li>
+<li>
+<p>Let ved at få blå mærker. </p>
+</li>
+<li>
+<p>Mavesmerter med kvalme. </p>
+</li>
+<li>
+<p>Muskelkramper med feber, rød-brun urin, smerter eller svaghed i dine muskler (tegn på 
+muskelproblemer). </p>
+</li>
+<li>
+<p>Bækkensmerter, nogle gange med kvalme og opkastninger med uventet vaginalblødning, føle 
+sig svimmel eller besvime pga. nedsat blodtryk (tegn på problemer med dine æggestokke eller 
+livmoder). </p>
+</li>
+<li>
+<p>Kvalme, åndenød, uregelmæssig hjerterytme (puls), uklar urin, træthed og/eller ubehag 
+forbundet med abnorme resultater af laboratorieprøver (f.eks. højt indhold af kalium, urinsyre 
+og calcium i blodet og lavt indhold af fosfor i blodet). </p>
+</li>
+<li>
+<p>Blodpropper i små blodkar (trombotisk mirkoangiopati). </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke vurderes ud fra tilgængelige data): </p>
+<ul>
+<li>
+<p>Kombination af omfattende svært udslæt, følelse af at være syg, feber, højt indhold af visse 
+hvide blodlegemer eller gul hud eller øjne (tegn på gulsot) med stakåndethed, 
+brystsmerter/ubehag, svært nedsat urinproduktion og tørst osv. (tegn på en behandlingsrelateret 
+allergisk reaktion). </p>
+</li>
+<li>
+<p>Kronisk nyresvigt. </p>
+</li>
+<li>
+<p>Genopblussen (reaktivering) af hepatitis B-infektion, hvis du tidligere har haft hepatitis B 
+(leverbetændelse type B). </p>
+</li>
+</ul>
+<p>Kontakt din læge med det samme, hvis du oplever en af ovenstående bivirkninger. </p>
+<p>Andre bivirkninger kan omfatte: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>Hovedpine eller følelse af træthed. </p>
+</li>
+<li>
+<p>Kvalme opkastninger, diarré eller fordøjelsesbesvær. </p>
+</li>
+<li>
+<p>Udslæt. </p>
+</li>
+<li>
+<p>Muskelkramper eller led-, muskel- eller knoglesmerter mens du er i behandling med Glivec, 
+eller efter du er stoppet med at tage Glivec. </p>
+</li>
+<li>
+<p>Hævelse, som fx af anklerne eller omkring øjnene. </p>
+</li>
+<li>
+<p>Vægtøgning. 
+Fortæl din læge, hvis du er meget påvirket af nogle af ovenstående symptomer. </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>Appetitløshed, vægttab eller smagsforstyrrelser. </p>
+</li>
+<li>
+<p>Føle sig svimmel eller svag. </p>
+</li>
+<li>
+<p>Svært ved at sove (søvnløshed). </p>
+</li>
+<li>
+<p>Flåd fra øjet med kløe, rødme og hævelse (betændelse af øjets bindehinde), øget tåreflåd eller 
+sløret syn. </p>
+</li>
+<li>
+<p>Næseblod. </p>
+</li>
+<li>
+<p>Smerte eller oppustning af maven, luft i maven, halsbrand eller forstoppelse. </p>
+</li>
+<li>
+<p>Kløe. </p>
+</li>
+<li>
+<p>Usædvanligt hårtab eller udtynding af håret. </p>
+</li>
+<li>
+<p>Følelsesløshed i hænder eller fødder. </p>
+</li>
+<li>
+<p>Sår i munden. </p>
+</li>
+<li>
+<p>Hævede led og ledsmerter </p>
+</li>
+<li>
+<p>Mundtørhed, tør hud eller tørre øjne. </p>
+</li>
+<li>
+<p>Nedsat eller øget følsomhed i huden. </p>
+</li>
+<li>
+<p>Hedeture, kulderystelser eller natlig svedtendens. 
+Fortæl din læge, hvis du er meget påvirket af nogle af ovenstående symptomer. </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>Smertefulde røde knuder/knopper på huden, hudsmerte, rødme af huden (inflammation 
+(betændelse) i fedtvævet under huden). </p>
+</li>
+<li>
+<p>Hoste, løbende eller lukket næse, følelse af tunghed eller smerter, som presser på området over 
+øjnene eller på begge sider af næsen, tilstoppet næse, nysen, ondt i halsen, med eller uden 
+hovedpine (tegn på infektion i de øvre åndedrætsorganer). </p>
+</li>
+<li>
+<p>Svær hovedpine, der føles som en dunkende smerte eller en pulserende følelse, som regel på den 
+ene side af hovedet og ofte ledsaget af kvalme, opkastning og lys- eller lydfølsomhed (tegn på 
+migræne). </p>
+</li>
+<li>
+<p>Influenza-lignende symptomer (influenza). </p>
+</li>
+<li>
+<p>Smerte eller brændende fornemmelse ved vandladning, øget kropstemperatur, smerter i lysken 
+eller bækkenområdet, rød- eller brunfarvet eller uklar urin (tegn på urinvejsinfektion). </p>
+</li>
+<li>
+<p>Smerte i eller hævelse af dine led (tegn på artralgi). </p>
+</li>
+<li>
+<p>En konstant følelse af nedtrykthed og mangel på interesse, hvilket afholder dig fra at udføre 
+dine normale aktiviteter (tegn på depression). </p>
+</li>
+<li>
+<p>En følelse af frygt og bekymring sammen med fysiske symptomer så som et hamrende hjerte, 
+svedudbrud, rystelser, tør mund (tegn på angst). </p>
+</li>
+<li>
+<p>Træthed/døsighed/udtalt søvnbehov. </p>
+</li>
+<li>
+<p>Rystelser og usikre bevægelser (tremor). </p>
+</li>
+<li>
+<p>Nedsat hukommelse. </p>
+</li>
+<li>
+<p>Overvældende trang til at bevæge benene (restless leg syndrome). </p>
+</li>
+<li>
+<p>Høre lyde (fx. ringen eller summen) i ørene, som ikke har nogen kilde udefra (tinnitus). </p>
+</li>
+<li>
+<p>Forhøjet blodtryk (hypertension). </p>
+</li>
+<li>
+<p>Bøvsen/ræben. </p>
+</li>
+<li>
+<p>Betændelse i læberne. </p>
+</li>
+<li>
+<p>Synkebesvær. </p>
+</li>
+<li>
+<p>Øget svedtendens. </p>
+</li>
+<li>
+<p>Misfarvning af huden. </p>
+</li>
+<li>
+<p>Skøre negle. </p>
+</li>
+<li>
+<p>Røde knopper eller bumser med hvid top rundt om hårrødderne, muligvis med smerte, kløe eller 
+brændende fornemmelse (tegn på betændelse i hårsækkene, også kaldet follikulitis). </p>
+</li>
+<li>
+<p>Hudeksem med afskalning i flager eller afskalning af huden (eksfoliativ dermatitis). </p>
+</li>
+<li>
+<p>Brystforstørrelse (kan forekomme både hos mænd og kvinder). </p>
+</li>
+<li>
+<p>Dump smerte og/eller en følelse af tunghed i testiklerne eller den nedre del af maven, smerte 
+ved vandladning, samleje eller udløsning, blod i urinen (tegn på væskeansamling i testiklerne). </p>
+</li>
+<li>
+<p>Besvær med at få eller opretholde en erektion (erektil dysfunktion). </p>
+</li>
+<li>
+<p>Kraftige eller uregelmæssige menstruationer. </p>
+</li>
+<li>
+<p>Besvær med at opnå/opretholde seksuel ophidselse. </p>
+</li>
+<li>
+<p>Nedsat sexlyst. </p>
+</li>
+<li>
+<p>Smerter i brystvorterne. </p>
+</li>
+<li>
+<p>Generel følelse af at føle sig skidt tilpas (utilpashed). </p>
+</li>
+<li>
+<p>Virale infektioner, såsom forkølelsessår. </p>
+</li>
+<li>
+<p>Smerte i lænden som følge af en nyresygdom. </p>
+</li>
+<li>
+<p>Øget vandladning. </p>
+</li>
+<li>
+<p>Øget appetit. </p>
+</li>
+<li>
+<p>Smerte eller brændende fornemmelse i den øvre del af maven og/eller brystet (halsbrand), 
+kvalme, opkastning, sure opstød, følelse af mæthed og oppustethed, sort-farvet afføring (tegn på 
+mavesår). </p>
+</li>
+<li>
+<p>Stivhed i muskler og led. </p>
+</li>
+<li>
+<p>Unormale laboratorie-testresultater. 
+Fortæl din læge, hvis du er meget påvirket af nogle af ovenstående symptomer. </p>
+</li>
+</ul>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1000 patienter): </p>
+<ul>
+<li>
+<p>Forvirring. </p>
+</li>
+<li>
+<p>Tilfælde af kramper og nedsat bevidsthed (krampeanfald). </p>
+</li>
+<li>
+<p>Misfarvning af negle. </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke vurderes ud fra tilgængelige data): </p>
+<ul>
+<li>
+<p>Rødmen og/eller hævelse af håndflader eller fodsåler, hvilket kan være ledsaget af en prikkende 
+følelse eller brændende smerte. </p>
+</li>
+<li>
+<p>Smertefulde og/eller blæredannende hudlæsioner. </p>
+</li>
+<li>
+<p>Langsommere vækst hos børn og unge. 
+Fortæl din læge, hvis du er meget påvirket af nogle af ovenstående symptomer. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store glivec"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store glivec"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. </p>
+</li>
+<li>
+<p>Må ikke opbevares ved temperaturer over 30°C. </p>
+</li>
+<li>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
+</li>
+<li>
+<p>Pakningen må ikke anvendes, hvis den er beskadiget, eller der er tegn på, at pakningen har 
+været åbnet. </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Glivec indeholder:</p>
+<ul>
+<li>Aktivt stof: imatinibmesilat. Hver Glivec-kapsel indeholder 100 mg imatinibmesilat. </li>
+<li>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, crospovidon, magnesiumstearat og vandfri 
+kolloid silica. Kapselskallen består af gelatine, rød jernoxid (E 172), gul jernoxid (E 172) og 
+titandioxid (E 171). Prægeblækket består af rød jernoxid (E 172) og shellac. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Glivec 100 mg kapsler er orange til orange-grålig og præget med ”NVR SI”. De indeholder et hvidt til 
+gulligt pulver. </p>
+<p>De findes i pakninger med 24, 48, 96, 120 eller 180 kapsler, men ikke alle pakningsstørrelser er 
+nødvendigvis tilgængelige i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Sandoz S.R.L. 
+Str. Livezeni nr. 7A 
+540472, Targu Mures 
+Rumænien </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse D-90420 Nürnberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu 
+Indlægsseddel: Information til brugeren </p>
+<p>Glivec 100 mg filmovertrukne tabletter 
+Glivec 400 mg filmovertrukne tabletter </p>
+<p>imatinib </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-27bef6838d192de0f1fa35f67b2e5233
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for glivec Package Leaflet for language en"
+Description: "ePI document Bundle for glivec Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-27bef6838d192de0f1fa35f67b2e5233"
+* entry[0].resource = composition-en-27bef6838d192de0f1fa35f67b2e5233
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27bef6838d192de0f1fa35f67b2e5233"
+* entry[=].resource = mp27bef6838d192de0f1fa35f67b2e5233
+                            
+                    
+Instance: bundlepackageleaflet-da-27bef6838d192de0f1fa35f67b2e5233
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for glivec Package Leaflet for language da"
+Description: "ePI document Bundle for glivec Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-27bef6838d192de0f1fa35f67b2e5233"
+* entry[0].resource = composition-da-27bef6838d192de0f1fa35f67b2e5233
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27bef6838d192de0f1fa35f67b2e5233"
+* entry[=].resource = mp27bef6838d192de0f1fa35f67b2e5233
+                            
+                    
+
+
+
+Instance: mp27bef6838d192de0f1fa35f67b2e5233
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Glivec 100 mg hard capsules"
-Description: "Glivec 100 mg hard capsules"
+Title: "Medicinal Product glivec"
+Description: "glivec"
 Usage: #inline
 
  
@@ -521,7 +1332,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Glivec 100 mg hard capsules"
+  * productName = "glivec"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -548,29 +1359,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-27bef6838d192de0f1fa35f67b2e5233
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for glivec Package Leaflet for language en"
-Description: "ePI document Bundle for glivec Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 27bef6838d192de0f1fa35f67b2e5233ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/01/198/002-006"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "glivec"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-27bef6838d192de0f1fa35f67b2e5233"
-* entry[0].resource = composition-en-27bef6838d192de0f1fa35f67b2e5233
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd280234acf3b2cf9938490916a4849a5"
-* entry[=].resource = mpd280234acf3b2cf9938490916a4849a5
-                            
-                      
+* title = "List of all ePIs associated with glivec"
+
+* subject = Reference(mpd280234acf3b2cf9938490916a4849a5)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#glivec "glivec"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-27bef6838d192de0f1fa35f67b2e5233) // glivec en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-27bef6838d192de0f1fa35f67b2e5233) // glivec da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-27bef6838d192de0f1fa35f67b2e5233
+InstanceOf: List
+
+* insert 27bef6838d192de0f1fa35f67b2e5233ListRuleset
+    

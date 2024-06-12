@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a0f6051c039253e4a1c573c85f53f945
 InstanceOf: CompositionUvEpi
 Title: "Composition for lopinavir Package Leaflet"
@@ -500,12 +503,747 @@ Tel:  +353 18711This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-a0f6051c039253e4a1c573c85f53f945
+InstanceOf: CompositionUvEpi
+Title: "Composition for lopinavir Package Leaflet"
+Description:  "Composition for lopinavir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp443d4e607813f691e64275f5be15ea4a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp443d4e607813f691e64275f5be15ea4a
+* title = "TEST PURPOSES ONLY - lopinavir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du eller dit barn begynder at tage Lopinavir/Ritonavir Mylan 
+3. Sådan skal du tage Lopinavir/Ritonavir Mylan 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lopinavir is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lopinavir is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Din læge har ordineret lopinavir/ritonavir som hjælp til at kontrollere din hiv-infektion (humant 
+immundefektvirus-infektion). Det gør lopinavir/ritonavir ved at nedsætte den hastighed, 
+hvormed infektionen breder sig i kroppen. </li>
+<li>Lopinavir/Ritonavir Mylan helbreder ikke hiv-infektion eller aids. </li>
+<li>Lopinavir/ritonavir kan anvendes af børn fra 2 år, unge og voksne, der er smittet med hiv, som 
+er den virus, der forårsager AIDS. </li>
+<li>Lopinavir/ritonavir indeholder de aktive stoffer lopinavir og ritonavir. Lopinavir/ritonavir er et 
+antiretroviralt lægemiddel. Det tilhører en gruppe af lægemidler, der kaldes proteasehæmmere. </li>
+<li>Lopinavir/ritonavir ordineres til brug i kombination med andre antivirale lægemidler. Din læge 
+vil diskutere med dig og afgøre, hvilke lægemidler der er mest velegnede til dig. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lopinavir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lopinavir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Lopinavir/Ritonavir Mylan hvis:</p>
+<ul>
+<li>du er allergisk over for lopinavir, ritonavir eller et af de øvrige indholdsstoffer i 
+Lopinavir/Ritonavir Mylan (angivet i punkt 6); </li>
+<li>du har alvorlige leverproblemer. </li>
+</ul>
+<p>Tag ikke Lopinavir/Ritonavir Mylan sammen med nogen af følgende lægemidler 
+- astemizol eller terfenadin (bruges normalt til behandling af allergisymptomer - disse lægemidler 
+kan være tilgængelige uden recept); 
+- midazolam, når det tages oralt (gennem munden)eller triazolam (bruges til at lindre angst 
+og/eller afhjælpe søvnbesvær); 
+- pimozid (bruges til behandling af skizofreni); 
+- quetiapin (bruges til behandling af skizofreni, bipolær lidelse (manio-depressiv lidelse) og 
+depression); 
+- lurasidon (bruges til behandling af depression); 
+- ranolazin (bruges til behandling af kronisk smerte i brystet [angina]); 
+- cisaprid (bruges til lindring af visse maveproblemer); 
+- ergotamin, dihydroergotamin, ergonovin og methylergonovin (brugt til behandling af migræne); 
+- amiodaron, dronedaron (brugt til behandling af unormal hjerterytme); 
+- lovastatin, simvastatin (bruges til at sænke kolesterol i blodet); 
+- lomitapid (bruges til at sænke kolesterol i blodet); 
+- alfuzosin (bruges til at behandle symptomer på forstørret blærehalskirtel hos mænd (godartet 
+prostatahyperplasi); 
+- fusidinsyre (brugt til behandling af hudinfektioner forårsaget af Staphylococcus bakterier såsom 
+børnesår og eksem med betændelse. Fusidinsyre brugt til behandling af langvarige infektioner i 
+knogler og led kan tages med rådgivning fra lægen (se Brug af andre lægemidler sammen 
+med Lopinavir/Ritonavir Mylan); 
+- colchicin (brugt til behandling af urinsyregigt), hvis du har problemer med nyre- og/eller lever 
+(se punktet Brug af andre lægemidler sammen med Lopinavir/Ritonavir Mylan); 
+- elbasvir/grazoprevir (bruges til at behandle kronisk hepatitis C-virus [HCV]); 
+- ombitasvir/paritaprevir/ritonavir med eller uden dasabuvir bruges til at behandle kronisk 
+hepatitis C-virus [HCV]); 
+- neratinib (bruges til at behandle brystkræft); 
+- avanafil eller vardenafil (brugt til behandling af potensproblemer); 
+- sildenafil ved brug til behandling af unormalt højt blodtryk i lungernes blodkar (pulmonal 
+arteriel hypertension). Sildenafil brugt til at behandle potensproblemer kan tages efter lægens 
+vejledning (se punktet Brug af andre lægemidler sammen med Lopinavir/Ritonavir Mylan); 
+- naturlægemidler, der indeholder perikon (Hypericum perforatum). </p>
+<p>Se listen med lægemidler nedenfor under ‘Brug af andre lægemidler sammen med 
+Lopinavir/Ritonavir Mylan’ for at få oplysninger om visse andre lægemidler, som kræver, at der 
+udvises særlig forsigtighed. </p>
+<p>Hvis du i øjeblikket tager et af disse lægemidler, skal du bede din læge om at foretage de nødvendige 
+ændringer enten i behandlingen af dine andre sygdomme eller i din antiretrovirale behandling. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Lopinavir/Ritonavir Mylan. </p>
+<p>Vigtig information </p>
+<p>− 
+Personer, der tager lopinavir/ritonavir, kan stadig udvikle infektioner eller andre sygdomme 
+forbundet med hiv og aids. Det er derfor vigtigt, at din læge fortsat overvåger dig, mens du tager 
+lopinavir/ritonavir. </p>
+<p>Fortæl det til lægen, hvis du eller dit barn har eller har haft </p>
+<p>− 
+Hæmofili A og B, da lopinavir/ritonavir kan øge risikoen for blødning. 
+− 
+Diabetes, da der er rapporteret om forhøjet blodsukker hos patienter i behandling med 
+lopinavir/ritonavir. 
+− 
+Tidligere leverproblemer, da patienter, som tidligere har haft en leversygdom, herunder 
+kronisk hepatitis B eller C, har en øget risiko for at få alvorlige og eventuelt dødbringende 
+leverbivirkninger. </p>
+<p>Fortæl det til lægen, hvis du eller dit barn oplever </p>
+<p>− 
+Kvalme, opkastning, mavesmerter, åndedrætsbesvær og svær muskelsvaghed i benene og 
+armene, da disse symptomer kan være tegn på forhøjede mælkesyreniveauer. 
+− 
+Tørst, hyppig vandladning, sløret syn eller vægttab, da disse symptomer kan være tegn på 
+forhøjede blodsukkerniveauer. 
+− 
+Kvalme, opkastning og mavesmerter, da en stor stigning i mængden af triglycerider (fedtstoffer 
+i blodet) anses for at være en risikofaktor for pankreatitis (betændelse i bugspytkirtlen), og disse 
+symptomer kan tyde på denne sygdom. 
+− 
+Hos nogle patienter med fremskreden hiv-infektion, som tidligere har haft opportunistisk 
+infektion, kan tegn og symptomer på betændelse fra tidligere infektioner forekomme kort efter, 
+at anti-hiv-behandlingen er startet. Det antages, at disse symptomer skyldes en forbedring i 
+kroppens immunforsvar, så kroppen bliver i stand til at bekæmpe infektioner, der kan have 
+været til stede uden tydelige symptomer. 
+Foruden opportunistiske infektioner kan autoimmune sygdomme (skyldes, at immunsystemet 
+går til angreb på rask kropsvæv) også forekomme efter, at du er startet på at tage medicin til 
+behandling af din hiv-infektion. Autoimmune sygdomme kan forekomme flere måneder efter 
+påbegyndelsen af behandlingen. Hvis du bemærker nogen symptomer på infektion eller andre 
+symptomer såsom muskelsvaghed, svaghed som starter i hænder og fødder og bevæger sig op 
+gennem kroppen, hjertebanken, rysten eller hyperaktivitet, skal du omgående kontakte din læge 
+for at få den nødvendige behandling. 
+− 
+Stivhed i led, ømhed og smerter (især i hofte, knæ og skulder) og indskrænket bevægelighed, 
+da nogle patienter, som tager disse lægemidler, kan udvikle en knoglesygdom, der kaldes 
+knoglenekrose (hvor knoglevævet dør som følge af nedsat blodtilførsel til knoglen). Længden af 
+antiretroviral kombinationsbehandling, brug af kortikosteroider, indtagelse af alkohol, svær 
+immunsuppression (nedsat aktivitet i immunsystemet), højere legemsmasseindeks (BMI) m.m. 
+kan være nogle af de risikofaktorer, der er, for at udvikle denne sygdom. 
+− 
+Muskelsmerter, ømhed eller svækkelse, især i kombination med disse lægemidler. Disse 
+muskellidelser har i sjældne tilfælde været alvorlige. 
+− 
+Symptomer på svimmelhed, uklarhed, besvimelse eller fornemmelse af unormal hjerterytme. 
+Lopinavir/ritonavir kan forårsage ændringer i din hjerterytme og i den elektriske aktivitet i 
+hjertet. Disse forandringer kan ses på et EKG (elektrokardiogram). </p>
+<p>Brug af andre lægemidler sammen med Lopinavir/Ritonavir Mylan </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du eller dit barn tager andre lægemidler eller 
+har gjort det for nylig. 
+− 
+antibiotika (f.eks. rifabutin, rifampicin, clarithromycin); 
+− 
+medicin mod kræft (f.eks. abemaciclib, afatinib, apalutamid, ceritinib, encorafenib, ibrutinib, 
+venetoclax, de fleste tyrosinkinasehæmmere sådan som dasatinib og nilotinib, også vincristin og 
+vinblastin); 
+− 
+blodfortyndende lægemidler (f.eks. dabigatran etexilat, edoxaban, rivaroxaban, vorapaxar og 
+warfarin); 
+− 
+lægemidler mod depression (f.eks. trazodon, bupropion); 
+− 
+lægemidler mod epilepsi (f.eks. carbamazepin, phenytoin, phenobarbital, lamotrigin og 
+valproat); 
+− 
+lægemidler mod svamp (f.eks. ketoconazol, itraconazol, voriconazol); 
+− 
+lægemidler mod urinsyregigt (f.eks. colchicin). Du må ikke tage Lopinavir/Ritonavir Mylan 
+sammen med colchicin, hvis du har problemer med nyre- og/eller lever (se også punktet "Tag 
+ikke Lopinavir/Ritonavir Mylan" ovenfor); 
+− 
+lægemiddel mod tuberkulose (bedaquilin, delamanid); 
+− 
+antivirale midler, som bruges til at behandle kronisk hepatitis C-virusinfektion hos voksne 
+(f.eks. glecaprevir/pibrentasvir og sofusbuvir/velpastasvir/voxilaprevir); 
+− 
+lægemidler til behandling af rejsningsproblemer (f.eks. sildenafil og tadalafil); 
+− 
+fusidinsyre brugt til behandling af langvarige infektioner i knogler og led (f.eks. osteomyelitis); 
+− 
+hjertemedicin, herunder: 
+− 
+digoxin; 
+− 
+calciumantagonister (f.eks. felodipin, nifedipin, nicardipin); 
+− 
+lægemidler, der anvendes mod uregelmæssig hjerterytme (f.eks. bepridil, systemisk 
+lidocain, quinidin); 
+− 
+hiv-CCR5-antagonister (f.eks. maraviroc); 
+− 
+hiv-1-integrase-hæmmer (f.eks. raltegravir); 
+− 
+lægemidler, der anvendes til behandling af lavt antal blodplader i blodet (f.eks. fostamatinib); 
+− 
+levothyroxin (bruges til at behandle problemer med skjoldbruskkirtlen);<br />
+− 
+lægemidler, der anvendes til at sænke kolesterolniveauet i blodet (f.eks. atorvastatin, lovastatin, 
+rosuvastatin eller simvastatin); 
+− 
+lægemidler mod astma og andre lungesygdomme såsom kronisk obstruktiv lungesygdom (KOL) 
+(f.eks. salmeterol); 
+− 
+lægemidler mod unormalt højt blodtryk i lungernes blodkar (pulmonal arteriel hypertension) 
+(f.eks. bosentan, riociguat, sildenafil, tadalafil); 
+− 
+lægemidler, som påvirker immunsystemet (f.eks. ciclosporin, sirolimus (rapamycin), 
+tacrolimus); 
+− 
+lægemidler, som bruges til rygeophør (f.eks. bupropion); 
+− 
+smertestillende lægemidler (f.eks. fentanyl); 
+− 
+morfinlignende lægemidler (f.eks. methadon); 
+− 
+non-nukleosid revers transkriptasehæmmere (NNRTIs) (f.eks. efavirenz, nevirapin); 
+− 
+oral prævention eller depotplaster til forebyggelse af graviditet (se nedenstående afsnit med 
+overskriften Præventionsmidler); 
+− 
+proteasehæmmere (f.eks. fosamprenavir, indinavir, ritonavir, saquinavir, tipranavir); 
+− 
+beroligende lægemidler (f.eks. midazolam indgivet ved injektion); 
+− 
+steroider (f.eks. budesonid, dexamethason, fluticasonpropionat, ethinylestradiol, triamcinolon). </p>
+<p>Se listen over lægemidler ovenfor ‘Tag ikke Lopinavir/Ritonavir Mylan sammen med nogen af 
+følgende lægemidler’ for at få oplysninger om lægemidler, som du ikke må tage sammen med 
+lopinavir/ritonavir. </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du eller dit barn tager andre lægemidler, for nylig har 
+taget andre lægemidler eller planlægger at tage andre lægemidler. Dette gælder også medicin, som 
+ikke er købt på recept. </p>
+<p>Lægemidler til behandling af rejsningsproblemer (avanafil, vardenafil, sildenafil, tadalafil) 
+− 
+Tag ikke lopinavir/ritonavir, hvis du i øjeblikket tager avanafil eller vardenafil. 
+− 
+Du må ikke tage lopinavir/ritonavir, hvis du tager sildenafil for at behandle unormalt forhøjet 
+blodtryk i lungernes blodkar (pulmonal arteriel hypertension) (se også punktet Tag ikke 
+Lopinavir/ritonavir Mylan ovenfor). 
+− 
+Hvis du tager sildenafil eller tadalafil og lopinavir/ritonavir sammen, kan du risikere at få 
+bivirkninger såsom lavt blodtryk, besvimelse, synsændringer og rejsning af penis, der varer 
+mere end 4 timer. Hvis en rejsning varer mere end 4 timer, skal du søge lægehjælp omgående 
+for at undgå permanent skade af penis. Din læge kan forklare disse symptomer nærmere. </p>
+<p>Præventionsmidler </p>
+<p>− 
+Hvis du i øjeblikket bruger et oralt præventionsmiddel eller et depotplaster til forebyggelse af 
+graviditet, skal du bruge et supplerende eller en anden type præventionsmiddel (f.eks. kondom), 
+da lopinavir/ritonavir kan forringe virkningen af orale præventionsmidler og depotplastre. </p>
+<p>Graviditet og amning </p>
+<p>− 
+Fortæl omgående din læge, hvis du er gravid, har mistanke om, at du er gravid, eller planlægger 
+at blive gravid, eller hvis du ammer. 
+− 
+Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt. 
+− 
+Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Lopinavir/ritonavir er ikke specifikt afprøvet med hensyn til mulige virkninger på evnen til at køre bil 
+eller betjene maskiner. Undlad at køre bil eller betjene maskiner, hvis du får en eller flere bivirkninger 
+(f.eks. kvalme), som påvirker din evne til at gøre dette på forsvarlig vis. Kontakt din læge. </p>
+<p>Lopinavir/Ritonavir Mylan indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lopinavir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lopinavir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det er vigtigt, at Lopinavir/Ritonavir Mylan-tabletter synkes hele og ikke tygges, deles eller knuses. 
+Patienter, som har problemer med at synke tabletterne, skal undersøge om der findes bedre egnede 
+formuleringer. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl om, hvordan du skal tage 
+medicinen, så spørg lægen eller apotekspersonalet. </p>
+<p>Hvor meget Lopinavir/Ritonavir Mylan skal der tages og hvornår? </p>
+<p>Brug til voksne </p>
+<p>− 
+Den sædvanlige voksendosis er 400 mg/100 mg to gange dagligt, dvs. hver 12. time, sammen 
+med andre anti-hiv-lægemidler. Voksne patienter, som ikke tidligere har taget anden antiviral 
+medicin, kan også tage lopinavir/ritonavir-tabletter en gang daglig som en 800 mg/200 mg 
+dosis. Din læge vil fortælle dig, hvor mange tabletter du skal tage. Voksne patienter, som 
+tidligere har taget anden antiviral medicin kan tage lopinavir/ritonavir-tabletter en gang dagligt 
+som en 800 mg/200 mg dosis, hvis deres læge beslutter, at det er hensigtsmæssigt. 
+− 
+Lopinavir/ritonavir må ikke tages en gang daglig med efavirenz, nevirapin, carbamazepin, 
+phenobarbital og phenytoin. 
+− 
+Lopinavir/ritonavir-tabletter kan tages sammen med eller uden mad. </p>
+<p>Brug til børn </p>
+<p>− 
+Til børn vil lægen fastsætte den korrekte dosis (antal tabletter) på baggrund af barnets højde og 
+vægt. 
+− 
+Lopinavir/ritonavir-tabletter kan tages sammen med eller uden mad. </p>
+<p>Lopinavir/ritonavir fås også som 100 mg/25 mg filmovertrukne tabletter.  </p>
+<p>Hvis du eller dit barn har taget for meget Lopinavir/Ritonavir Mylan </p>
+<p>− 
+Hvis du bliver klar over, at du har taget for meget lopinavir/ritonavir, skal du straks kontakte din 
+læge. 
+− 
+Hvis du ikke kan komme i kontakt med din læge, skal du henvende dig på hospitalet. </p>
+<p>Hvis du eller dit barn har glemt at tage Lopinavir/Ritonavir Mylan </p>
+<p>Hvis du tager lopinavir/ritonavir to gange daglig </p>
+<p>− 
+Hvis du opdager, at du har glemt en dosis inden for 6 timer fra det tidspunkt, du skulle 
+have taget din dosis, skal du tage den glemte dosis snarest muligt og derefter fortsætte 
+med at tage din normale dosis til sædvanlig tid, som foreskrevet af din læge. </p>
+<p>− 
+Hvis du opdager, at du har glemt en dosis 6 timer eller længere fra det tidspunkt, du 
+skulle have taget din dosis, skal du ikke tage den glemte dosis. Tag den næste dosis på det 
+sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte 
+dosis. </p>
+<p>Hvis du tager lopinavir/ritonavir en gang dagligt </p>
+<p>− 
+Hvis du opdager, at du har glemt en dosis inden for 12 timer fra det tidspunkt, du skulle 
+have taget din dosis, skal du tage den glemte dosis snarest muligt og derefter fortsætte 
+med at tage din normale dosis til sædvanlig tid, som foreskrevet af din læge. </p>
+<p>− 
+Hvis du opdager, at du har glemt en dosis 12 timer eller længere fra det tidspunkt, du 
+skulle have taget dosis, skal du ikke tage den glemte dosis. Tag den næste dosis på det 
+sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte 
+dosis. </p>
+<p>Hvis du eller dit barn holder op med at tage Lopinavir/Ritonavir Mylan </p>
+<p>− 
+Du må ikke ændre eller holde op med at tage den daglige dosis lopinavir/ritonavir uden først at 
+konsultere din læge. 
+− 
+Du skal altid tage lopinavir/ritonavir to gange dagligt for at bidrage med kontrollere din hiv-
+infektion, lige meget hvor meget bedre du føler dig. 
+− 
+Hvis du tager lopinavir/ritonavir som anbefalet, burde du få de bedste muligheder for at forsinke 
+udvikling af resistens over for medicinen. 
+− 
+Hvis en bivirkning forhindrer dig i at tage lopinavir/ritonavir som anvist, skal du straks 
+informere din læge om det. 
+− 
+Sørg altid for at have tilstrækkeligt med lopinavir/ritonavir på lager, så du ikke løber tør. Når du 
+er på rejse eller skal indlægges på hospital, skal du sørge for at have tilstrækkeligt med 
+lopinavir/ritonavir, indtil du kan få en ny forsyning. 
+− 
+Fortsæt med at tage denne medicin, indtil lægen anbefaler noget andet. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. Det 
+kan være vanskeligt at skelne mellem bivirkninger, der er forårsaget af lopinavir/ritonavir, og 
+bivirkninger, der kan opstå pga. andre lægemidler, som du tager samtidig, eller som skyldes 
+komplikationer forbundet med hiv-infektionen. </p>
+<p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glucose i 
+blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse ændringer. </p>
+<p>Følgende bivirkninger er rapporteret af patienter, som tog denne medicin. Du skal straks 
+underrette din læge om disse eller andre symptomer. Hvis tilstanden varer ved eller forværres, skal du 
+søge lægehjælp. </p>
+<p>Meget almindelige: kan påvirke flere end 1 ud af 10 personer 
+− 
+diarré; 
+− 
+kvalme 
+− 
+øvre luftvejsinfektion. </p>
+<p>Almindelige: kan påvirke op til 1 ud af 10 personer 
+− 
+betændelse i bugspytkirtlen; 
+− 
+opkastning, forstørret mave, smerter i den nederste og øverste del af maven, luft i tarmen, 
+fordøjelsesbesvær, nedsat appetit, tilbageløb af maveindholdet til spiserøret, hvilket kan give 
+smerter; 
+− 
+Fortæl det altid til lægen, hvis du får kvalme, opkastning eller mavesmerter, da dette 
+kan være tegn på pankreatitis (betændelse i bugspytkirtlen). 
+− 
+hævelse eller betændelse i maven eller tarmene; 
+− 
+forhøjet kolesterolniveau i dit blod, forhøjet triglyceridniveau (en slags fedt) i dit blod, højt 
+blodtryk; 
+− 
+nedsættelse af kroppens evne til at forbrænde sukker herunder diabetes mellitus, vægttab; 
+− 
+lavt antal røde blodlegemer, lavt antal hvide blodlegemer, der normalt bruges til at bekæmpe 
+infektioner; 
+− 
+udslæt, eksem, ophobning af skæl af fedtet hud; 
+− 
+svimmelhed, angst, søvnløshed; 
+− 
+følelse af træthed, mangel på kræfter og energi, hovedpine inklusive migræne; 
+− 
+hæmorider; 
+− 
+leverbetændelse inklusive forhøjede leverenzymer; 
+− 
+allergiske reaktioner inklusive udslæt og betændelse i munden; 
+− 
+infektioner I nedre luftveje; 
+− 
+forstørrede lymfeknuder; 
+− 
+impotens, unormalt kraftig menstruation eller manglende menstruation; 
+− 
+muskellidelser så som svaghed eller spasmer, smerter i led, muskler og ryg; 
+− 
+skade på nerver i det perifere nervesystem; 
+− 
+nattesved, kløe, udslæt inklusive hævede buler på huden, infektion i huden, betændelse i hud 
+eller hårsække, ophobning af væske i celler eller væv. </p>
+<p>Ikke almindelige: kan påvirke op til 1 ud af 100 personer<br />
+− 
+unormale drømme 
+− 
+tab eller ændring af smag; 
+− 
+hårtab; 
+− 
+en abnormitet i elektrokardiogrammet (EKG) kaldet atrioventrikulært blok; 
+− 
+belægninger inde i dine arterier, som kan føre til hjerteanfald eller slagtilfælde; 
+− 
+betændelse i blodkar og kapillærer; 
+− 
+betændelse i galdegangen; 
+− 
+ukontrollerede rystelser af kroppen; 
+− 
+forstoppelse; 
+− 
+dyb venebetændelse i forbindelse med en blodprop; 
+− 
+tør mund; 
+− 
+manglende evne til at kontrollere afføring; 
+− 
+betændelse i den første del af tyndtarmen lige efter maven, sår i fordøjelseskanalen, blødning fra 
+fordøjelseskanalen eller endetarmen; 
+− 
+røde blodlegemer i urinen; 
+− 
+gulfarvning af huden og det hvide i øjnene (gulsot); 
+− 
+fedtaflejringer i leveren, forstørret lever; 
+− 
+manglende testikelfunktion; 
+− 
+en opblussen af symptomer relateret til en inaktiv infektion i kroppen (immunrekonstitution); 
+− 
+øget appetit; 
+− 
+unormalt højt niveau af bilirubin (et farvestof, der dannes ved nedbrydelse af de røde 
+blodlegemer) i blodet; 
+− 
+nedsat lyst til sex; 
+− 
+nyrebetændelse; 
+− 
+knogledød forårsaget af dårlig blodtilførsel til området; 
+− 
+sår i munden, betændelse i maven og tarmen; 
+− 
+nyresvigt; 
+− 
+nedbrydelse af muskelfibre, som resulterer i frigivelse af muskelfiberprotein (myoglobin) ind i 
+blodbanen; 
+− 
+en lyd i et eller begge ører som f.eks. en brummen, ringen eller fløjtetone; 
+− 
+skælven; 
+− 
+unormal lukning af en af hjerteklapperne (trikuspidklappen i hjertet); 
+− 
+svimmelhed (følelse af rotation); 
+− 
+øjenforstyrrelser, unormalt syn; 
+− 
+vægtforøgelse. </p>
+<p>Sjælden: kan forekomme hos op til 1 ud af 1.000 personer 
+− 
+alvorlige eller livstruende hududslæt og blister (Stevens-Johnsons syndrom og erythema 
+multiforme)  </p>
+<p>Ikke kendt: kan ikke estimeres ud fra tilgængelige data 
+− 
+nyresten. </p>
+<p>Tal med lægen eller apoteket, hvis en bivirkning er generende eller bliver værre, eller du får 
+bivirkninger, som ikke er nævnt her. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lopinavir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lopinavir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>I tilfælde af plastbeholdere skal indholdet anvendes inden for 120 dage efter anbrud. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelsrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lopinavir/Ritonavir Mylan indeholder:</p>
+<ul>
+<li>Aktive stoffer: Lopinavir og ritonavir. </li>
+<li>Øvrige indholdsstoffer: Sorbitanlaurat, silica, kolloid vandfri, copovidon, 
+natriumstearylfumarat, hypromellose, titandioxid (E171), macrogol, hydroxypropylcellulose, 
+talcum, polysorbat 80. Udseende og pakningsstørrelser </li>
+</ul>
+<p>Lopinavir/Ritonavir Mylan 200 mg/50 mg filmovertrukne tabletter er hvide, ovale, bikonvekse, 
+filmovertrukne tabletter med afskåret kant mærket med “MLR3" på den ene side og uden mærkning på 
+den anden side. </p>
+<p>De findes i blistermultipakninger med 120, 120x1 (4 æsker med 30 eller 30x1) eller 360 (12 æsker 
+med 30) filmovertrukne tabletter og i plastflasker (der indeholder et tørremiddel, som ikke må spises) 
+med 120 filmovertrukne tabletter og en multipakning, der indeholder 360 (3 flasker med 120) 
+filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Mylan Pharmaceuticals Limited 
+Damastown Industrial Park,<br />
+Mulhuddart, Dublin 15,<br />
+DUBLIN 
+Irland </p>
+<p>Fremstillere </p>
+<p>Mylan Hungary Kft 
+H-2900 Komárom, Mylan utca 1 
+Ungarn </p>
+<p>McDermott Laboratories Limited under forretningsnavnet Gerard Laboratories 
+35/36 Baldoyle Industrial Estate, Grange Road, Dublin Irland </p>
+<p>Hvis du vil have yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant: </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Viatris UAB 
+Tel: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел.: +359 2 44 55 Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ s.r.o. 
+Tel: +420 274 770 Magyarország 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2 
+Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69<br />
+Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Mylan Healthcare GmbH<br />
+Tel: +49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3Eesti 
+Viatris OÜ 
+Tel: +372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33  </p>
+<p>Ελλάδα<br />
+Viatris Hellas Ltd 
+Τηλ: +30 2100 100  </p>
+<p>Österreich 
+Arcana Arzneimittel GmbH 
+Tlf: +43 1 416 2 
+España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102 Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64<br />
+France 
+Viatris Santé 
+Tél: +33 4 37 25 75  </p>
+<p>Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127<br />
+Hrvatska 
+Viatris Hrvatska d.o.o. 
+Tel: +385 1 23 50<br />
+România 
+BGP Products SRL 
+Tel: +40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63<br />
+Ísland 
+Icepharma hf. 
+Sími: +354 540 8 
+Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199 Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 (0) 2 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9 
+Κύπρος 
+Varnavas Hadjipanayis Ltd 
+Τηλ: +357 2220 7Sverige 
+Viatris AB<br />
+Tel: + 46 (0)8 630 19<br />
+Latvija 
+Viatris SIA 
+Tel: +371 676 055 United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Lopinavir/Ritonavir Mylan 100 mg/25 mg filmovertrukne tabletter 
+lopinavir/ritonavir </p>
+<p>Læs denne indlægsseddel grundigt, inden du eller dit barn begynder at tage dette lægemiddel, 
+da den indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig eller dit barn personligt. Lad derfor være med at 
+give lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme 
+symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt her. Se punkt. 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a0f6051c039253e4a1c573c85f53f945
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lopinavir Package Leaflet for language en"
+Description: "ePI document Bundle for lopinavir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a0f6051c039253e4a1c573c85f53f945"
+* entry[0].resource = composition-en-a0f6051c039253e4a1c573c85f53f945
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa0f6051c039253e4a1c573c85f53f945"
+* entry[=].resource = mpa0f6051c039253e4a1c573c85f53f945
+                            
+                    
+Instance: bundlepackageleaflet-da-a0f6051c039253e4a1c573c85f53f945
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lopinavir Package Leaflet for language da"
+Description: "ePI document Bundle for lopinavir Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a0f6051c039253e4a1c573c85f53f945"
+* entry[0].resource = composition-da-a0f6051c039253e4a1c573c85f53f945
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa0f6051c039253e4a1c573c85f53f945"
+* entry[=].resource = mpa0f6051c039253e4a1c573c85f53f945
+                            
+                    
+
+
+
+Instance: mpa0f6051c039253e4a1c573c85f53f945
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Lopinavir/Ritonavir Mylan 100 mg/25 mg film-coated tablets"
-Description: "Lopinavir/Ritonavir Mylan 100 mg/25 mg film-coated tablets"
+Title: "Medicinal Product lopinavir"
+Description: "lopinavir"
 Usage: #inline
 
  
@@ -525,7 +1263,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Lopinavir/Ritonavir Mylan 100 mg/25 mg film-coated tablets"
+  * productName = "lopinavir"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -552,29 +1290,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a0f6051c039253e4a1c573c85f53f945
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lopinavir Package Leaflet for language en"
-Description: "ePI document Bundle for lopinavir Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a0f6051c039253e4a1c573c85f53f945ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1067/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lopinavir"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a0f6051c039253e4a1c573c85f53f945"
-* entry[0].resource = composition-en-a0f6051c039253e4a1c573c85f53f945
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp443d4e607813f691e64275f5be15ea4a"
-* entry[=].resource = mp443d4e607813f691e64275f5be15ea4a
-                            
-                      
+* title = "List of all ePIs associated with lopinavir"
+
+* subject = Reference(mp443d4e607813f691e64275f5be15ea4a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lopinavir "lopinavir"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a0f6051c039253e4a1c573c85f53f945) // lopinavir en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a0f6051c039253e4a1c573c85f53f945) // lopinavir da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a0f6051c039253e4a1c573c85f53f945
+InstanceOf: List
+
+* insert a0f6051c039253e4a1c573c85f53f945ListRuleset
+    

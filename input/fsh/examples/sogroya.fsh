@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-21c3d5a66a6d27b5569da6d8c7e6fc48
 InstanceOf: CompositionUvEpi
 Title: "Composition for sogroya Package Leaflet"
@@ -360,12 +363,897 @@ Denmark </p>
 
 
 
+Instance: composition-da-21c3d5a66a6d27b5569da6d8c7e6fc48
+InstanceOf: CompositionUvEpi
+Title: "Composition for sogroya Package Leaflet"
+Description:  "Composition for sogroya Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1e8b747a988867dbb5d4efbd195f1476)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1e8b747a988867dbb5d4efbd195f1476
+* title = "TEST PURPOSES ONLY - sogroya"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at bruge Sogroya 
+3. Sådan skal du bruge Sogroya 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sogroya is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sogroya is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sogroya indeholder det aktive stof somapacitan: en langtidsvirkende form af det naturlige 
+væksthormon, der produceres af kroppen, tilføjet en enkelt udskiftning af en aminosyre. Væksthormon 
+regulerer sammensætningen af fedt, muskler og knogler hos voksne. </p>
+<p>Det aktive stof i Sogroya er fremstillet ved 'rekombinant DNA-teknologi', dvs. fra celler, som har 
+modtaget et gen (DNA), der får dem til at producere væksthormon. I Sogroya er der tilføjet en mindre 
+sidekæde til væksthormonet, som binder Sogroya til proteinet (albumin), som findes naturligt i blodet. 
+Dette sænker hastigheden, hvormed lægemidlet udskilles fra kroppen, så medicinen kan gives mindre 
+hyppigt. </p>
+<p>Sogroya anvendes til at behandle manglende vækst hos børn og unge i alderen 3 år og derover, hvis de 
+har ingen eller meget lav produktion af væksthormon (væksthormonmangel), og voksne med 
+væksthormonmangel. </p>
+<p>Lægen vil ud fra hvordan du reagerer på Sogroya vurdere, om du fortsat skal være i behandling med 
+denne medicin efter et års behandling. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sogroya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sogroya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Sogroya  </p>
+<ul>
+<li>
+<p>hvis du eller barnet, du drager omsorg for, er allergisk over for somapacitan eller et af de øvrige 
+indholdsstoffer i dette lægemiddel (angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du eller barnet, du drager omsorg for, har en godartet eller en ondartet tumor, som vokser. 
+Anti-tumorbehandlingen skal være afsluttet, før behandling med Sogroya startes. Behandlingen 
+med Sogroya skal ophøre, hvis tumoren vokser. </p>
+</li>
+<li>
+<p>hvis du eller barnet, du drager omsorg for, for nylig har fået foretaget åben hjerte- eller 
+mave/tarmoperation, eller har flere utilsigtede skader, alvorlige vejrtrækningsproblemer eller 
+lignende tilstand. </p>
+</li>
+<li>
+<p>til børn og unge, som er stoppet med at vokse på grund af lukkede vækstplader (lukkede 
+epifyser), hvilket betyder, at du eller barnet, du drager omsorg for, har fået at vide af lægen, at 
+knoglerne er stoppet med at vokse. </p>
+</li>
+</ul>
+<p>Er du i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken.  </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Sogroya, hvis: </p>
+<ul>
+<li>
+<p>du eller barnet, du drager omsorg for, nogensinde har haft en tumor. </p>
+</li>
+<li>
+<p>du eller barnet, du drager omsorg for, har højt blodsukker (hyperglykæmi), eftersom det kan 
+være nødvendigt regelmæssigt at kontrollere blodsukkeret, og det kan være nødvendigt at 
+justere dosis af diabetesmedicin. </p>
+</li>
+<li>
+<p>du eller barnet, du drager omsorg for, har været i erstatningsterapi med kortikosteroider, fordi 
+du har fået at vide, at kroppen ikke producerer nok (binyrebark-mangel). Kontakt lægen, da det 
+kan være nødvendigt at regulere den sædvanlige dosis regelmæssigt. </p>
+</li>
+<li>
+<p>du eller barnet, du drager omsorg for, oplever kraftig hovedpine, synsforstyrrelser, kvalme eller 
+opkastning, da det kan være symptomer på øget tryk i hjernen (godartet intrakraniel 
+hypertension), da det kan være nødvendigt at stoppe behandlingen. </p>
+</li>
+<li>
+<p>du eller barnet, du drager omsorg for, har problemer med skjoldbruskkirtlen; 
+skjoldbruskkirtelhormonerne skal undersøges regelmæssigt, og det kan være nødvendigt at 
+justere dosis af skjoldbruskkirtelhormon. </p>
+</li>
+<li>
+<p>du er kvinde og tager oral prævention eller er i erstatningsterapi med østrogen, kan det være at 
+din dosis af Sogroya skal være højere. Hvis du stopper med østrogen, der tages gennem 
+munden, skal din dosis af somapacitan muligvis sættes ned. Din læge kan anbefale dig, at 
+anvende en anden administrationsmetode (f.eks. transdermal (gennem huden), vaginal) eller en 
+anden form for prævention. </p>
+</li>
+<li>
+<p>du eller barnet, du drager omsorg for, er alvorligt syg (for eksempel komplikationer efter åben 
+hjerteoperation, operation i maven, traume efter ulykke, akut vejrtrækningssvigt eller lignende 
+tilstande). Hvis du eller barnet skal have foretaget eller har fået en større operation, eller skal på 
+hospitalet af en af ovenstående årsager, skal du sige det til lægen, samt påminde andre læger, 
+som tilser dig, at du eller barnet bruger væksthormon. </p>
+</li>
+<li>
+<p>du eller barnet, du drager omsorg for, udvikler svære mavesmerter under behandlingen med 
+Sogroya, da dette kan være et symptom på inflammation i bugspytkirtlen, som ses i 
+behandlinger med andre væksthormonprodukter. </p>
+</li>
+</ul>
+<p>Hudforandringer på injektionsstedet 
+Der skal skiftes injektionssted for Sogroya for at forhindre forandringer i fedtvævet under huden, 
+såsom at huden fortykkes, skrumper, eller at der dannes knuder under huden. Skift injektionsstedet på 
+kroppen hver uge. </p>
+<p>Antistoffer 
+Dannelse af antistoffer rettet mod somapacitan forventes ikke. Det sker imidlertid kun i meget sjældne 
+tilfælde, at dit barn udvikler antistoffer. Hvis din behandling med Sogroya ikke virker, kan lægen teste 
+dig for antistoffer over for somapacitan. </p>
+<p>Brug af andre lægemidler sammen med Sogroya<br />
+Fortæl det altid til lægen eller apotekspersonalet, hvis du eller barnet, du drager omsorg for, bruger 
+anden medicin, for nylig har brugt anden medicin eller planlægger at bruge anden medicin. 
+Du skal særligt fortælle lægen, hvis du eller barnet, du drager omsorg for, bruger følgende lægemidler 
+eller har gjort det for nylig. 
+Det skyldes, at det kan være nødvendigt, at lægen justerer doseringen af din medicin: </p>
+<ul>
+<li>
+<p>Kortikosteroider såsom hydrocortison, dexamethason og prednisolon </p>
+</li>
+<li>
+<p>Østrogen som led i oral prævention og/eller erstatningsterapi med østrogen  </p>
+</li>
+<li>
+<p>Mandlige kønshormoner (androgene lægemidler) såsom testosteron  </p>
+</li>
+<li>
+<p>Gonadotropine lægemidler (kønskirtelstimulerende hormon såsom luteiniseringshormon og 
+follikel-stimulerende hormon), der fremmer produktionen af kønshormoner </p>
+</li>
+<li>
+<p>Insulin eller anden diabetesmedicin </p>
+</li>
+<li>
+<p>Skjoldbruskkirtelhormon, såsom levothyroxin </p>
+</li>
+<li>
+<p>Lægemidler til behandling af epilepsi eller anfald (krampeanfald) - såsom carbamazepin  </p>
+</li>
+<li>
+<p>Ciclosporin (immundæmpende medicin) - et lægemiddel, der undertrykker immunforsvaret. </p>
+</li>
+</ul>
+<p>Graviditet  </p>
+<ul>
+<li>Hvis du kan blive gravid, bør du ikke tage Sogroya, medmindre du også bruger sikker 
+prævention. Det skyldes, at det ikke vides, om det kan skade dit ufødte barn. Hvis du bliver 
+gravid, mens du tager Sogroya, skal du straks tale med din læge. Hvis du ønsker at blive gravid, 
+skal du tale med lægen om det, da det kan være nødvendigt, at du stopper med at tage 
+medicinen. </li>
+</ul>
+<p>Amning </p>
+<ul>
+<li>Det vides ikke om Sogroya udskilles i modermælken. Fortæl det til din læge, hvis du ammer, 
+eller har planer om at amme. Din læge vil hjælpe dig med at beslutte, om du skal stoppe med at 
+amme, eller om du skal stoppe med at tage Sogroya, ved at vurdere fordelen ved amning op 
+imod fordelen ved Sogroya til moren. </li>
+</ul>
+<p>Trafik- og arbejdssikkerhed<br />
+Sogroya påvirker ikke evnen til at køre bil og betjene maskiner. </p>
+<p>Natriumindhold 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sogroya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sogroya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. 
+Sogroya gives som en injektion under huden (subkutan injektion) med en fyldt pen. Du kan injicere 
+dig selv. Din læge eller sygeplejerske vil informere dig om den rette dosis og vise dig, hvordan du 
+injicerer, når du eller barnet, du drager omsorg for, starter behandlingen. </p>
+<p>Sådan skal du bruge Sogroya </p>
+<ul>
+<li>
+<p>Du eller barnet, du drager omsorg for, skal bruge Sogroya én gang ugentligt på den samme dag 
+hver uge, hvis det er muligt. </p>
+</li>
+<li>
+<p>Du kan give dig selv injektionen når som helst i løbet af dagen.  </p>
+</li>
+</ul>
+<p>Hvis du eller barnet, du drager omsorg for, skifter fra en anden ugentlig væksthormonbehandling til 
+Sogroya, rådes du til at fortsætte med at injicere på samme ugedag. 
+Hvis du eller barnet, du drager omsorg for, skifter fra daglig væksthormonbehandling til Sogroya, skal 
+du vælge den foretrukne dag til den ugentlige dosis og injicere den sidste dosis af den daglige 
+behandling dagen før (eller mindst 8 timer før) injektion af den første dosis Sogroya. 
+Skift fra en anden type eller et andet mærke væksthormon skal foretages af din læge. </p>
+<p>Hvis det ikke er muligt for dig eller barnet, du drager omsorg for, at injicere Sogroya på den 
+sædvanlige ugedag, kan du injicere Sogroya op til 2 dage før eller 3 dage efter din planlagte 
+doseringsdag. Den næste dosis kan du injicere som sædvanligt i den følgende uge. 
+Hvis det er nødvendigt, kan du ændre dagen for din ugentlige injektion af Sogroya, så længe der er 
+gået mindst 4 dage siden din sidste injektion. Når du har valgt en ny doseringsdag, skal du fortsætte 
+med at injicere dig selv på denne ugedag hver uge.  </p>
+<p>Hvor længe har du brug for behandling<br />
+Du kan have brug for Sogroya lige så længe som din krop ikke producerer nok væksthormon.  </p>
+<ul>
+<li>
+<p>Hvis du eller barnet, du drager omsorg for, bruger Sogroya på grund af manglende vækst, vil I 
+blive ved med at bruge Sogroya, indtil væksten er stoppet. </p>
+</li>
+<li>
+<p>Hvis du eller barnet, du drager omsorg for, stadig mangler væksthormon efter væksten er 
+stoppet, kan det være nødvendigt at fortsætte med Sogroya ind i voksenlivet. </p>
+</li>
+</ul>
+<p>Stop ikke med at bruge Sogroya uden først at tale med lægen om det.  </p>
+<p>Så meget skal du bruge 
+Børn og unge 
+Dosis til børn og unge afhænger af legemsvægten. 
+Den anbefalede dosis af Sogroya er 0,16 mg pr. kg legemsvægt givet én gang om ugen. </p>
+<p>Voksne 
+Den normale startdosis er 1,5 mg én gang om ugen, hvis du er i væksthormonbehandling for første 
+gang. Hvis du tidligere har været i daglig væksthormonbehandling (somatropin), er den normale 
+startdosis 2 mg én gang om ugen.<br />
+Hvis du er kvinde og tager oral østrogen (prævention eller erstatningsterapi med hormoner), kan du 
+have brug for en højere dosis af somapacitan. Hvis du er over 60 år, kan du have brug for en lavere 
+dosis. Se Tabel 1 nedenfor. 
+Din læge kan løbende justere din dosis trinvist op og ned, indtil du får den rette dosis i forhold til dine 
+individuelle behov og dine bivirkninger. </p>
+<ul>
+<li>
+<p>Du må ikke tage mere end højst 8 mg én gang ugentligt.  </p>
+</li>
+<li>
+<p>Du må ikke ændre din dosis, medmindre lægen har bedt dig om det. </p>
+</li>
+</ul>
+<p>Tabel 1 Anbefalet dosis 
+Væksthormonmangel til voksne 
+Anbefalet startdosis 
+Du har ikke tidligere fået daglig væksthormon som 
+lægemiddel 
+Du er ≥18 til &lt;60 år 
+Du er kvinde og tager oral østrogenuanset alder 
+Du er 60 år eller derover </p>
+<p>1,5 mg/uge 
+2 mg/uge </p>
+<p>1 mg/uge<br />
+Du har tidligere fået daglig væksthormon som 
+lægemiddel 
+Du er ≥18 til &lt;60 år 
+Du er kvinde og tager oral østrogen uanset 
+alder 
+Du er 60 år eller derover </p>
+<p>2 mg/uge 
+4 mg/uge </p>
+<p>1,5 mg/uge  </p>
+<p>Når du har nået din rette dosis, vil din læge hvert halve eller hele år vurdere din behandling. Du skal 
+muligvis have kontrolleret dit BMI (body mass index) samt have taget blodprøver. </p>
+<p>Sådan bruges Sogroya 
+Din læge eller sygeplejerske vil vise dig, hvordan du skal injicere Sogroya under huden. 
+De bedste steder til injektion er: </p>
+<ul>
+<li>
+<p>foran på låret </p>
+</li>
+<li>
+<p>i maveskindet </p>
+</li>
+<li>
+<p>balderne </p>
+</li>
+<li>
+<p>overarmene. </p>
+</li>
+</ul>
+<p>Skift injektionsstedet på kroppen hver uge. 
+Der er en detaljeret vejledning til, hvordan du injicerer Sogroya, samt en brugervejledning til sidst i 
+denne indlægsseddel. </p>
+<p>Hvis du har taget for meget Sogroya<br />
+Hvis du eller barnet, du drager omsorg for, kommer til at tage mere Sogroya, end I skal, bør du tale 
+med din læge, da det kan være nødvendigt at kontrollere blodsukkeret.  </p>
+<p>Hvis du har glemt at tage Sogroya<br />
+Hvis du eller barnet, du drager omsorg for, har glemt at injicere en dosis:  </p>
+<ul>
+<li>
+<p>og det er 3 dage eller mindre, siden du eller barnet skulle have taget Sogroya, skal du eller 
+barnet tage det, så snart I kommer i tanke om det. Injicér derefter den næste dosis på den 
+normale injektionsdag. </p>
+</li>
+<li>
+<p>og der er gået mere end 3 dage, siden du skulle have taget Sogroya, skal den glemte dosis 
+springes over. Injicér derefter den næste dosis som sædvanligt på din næste planlagte dag. </p>
+</li>
+</ul>
+<p>Du må ikke tage en dobbeltdosis eller øge dosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at bruge Sogroya<br />
+Du må ikke holde op med at bruge Sogroya uden først at have talt med din læge om det. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Bivirkninger, der ses hos børn og unge 
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>Hovedpine. </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos færre end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Hævede hænder og fødder på grund af væskeophobning under huden (perifert ødem) </p>
+</li>
+<li>
+<p>Binyrerne producerer ikke tilstrækkelige steroidhormoner (binyrebark-insufficiens) </p>
+</li>
+<li>
+<p>Fald i skjoldbruskkirtelhormon (hypothyroidisme) </p>
+</li>
+<li>
+<p>Rødme og smerte i injektionsområdet (reaktioner på injektionsstedet) </p>
+</li>
+<li>
+<p>Ledsmerter (artralgi) </p>
+</li>
+<li>
+<p>Smerter i arme og ben (smerter i ekstremiteterne) </p>
+</li>
+<li>
+<p>Højt blodsukker (hyperglykæmi) </p>
+</li>
+<li>
+<p>Udtalt træthed (fatigue). </p>
+</li>
+</ul>
+<p>Bivirkninger, der ses hos voksne 
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>Hovedpine. </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos færre end 1 ud af 10 personer)  </p>
+<ul>
+<li>
+<p>Binyrerne producerer ikke tilstrækkelige steroidhormoner (binyrebark-insufficiens) </p>
+</li>
+<li>
+<p>Fald i skjoldbruskkirtelhormon (hypothyroidisme) </p>
+</li>
+<li>
+<p>Højt blodsukker (hyperglykæmi) </p>
+</li>
+<li>
+<p>Følelse af ‘prikken og stikken’ hovedsageligt i fingrene (paræstesi) </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Nældefeber (urticaria)  </p>
+</li>
+<li>
+<p>Ledsmerter (artralgi), muskelsmerter (myalgi), muskelstivhed </p>
+</li>
+<li>
+<p>Hævede fingre og fødder på grund af væskeophobning under huden (perifert ødem) </p>
+</li>
+<li>
+<p>Udtalt træthed eller svaghed </p>
+</li>
+<li>
+<p>Rødme og smerte i injektionsområdet (reaktioner på injektionsstedet). </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos færre end 1 ud af 100 personer)  </p>
+<ul>
+<li>
+<p>Fortykkelse af huden på injektionsstedet (lipohypertrofi) </p>
+</li>
+<li>
+<p>Sovende og prikkende fornemmelse i hånd/hænder (karpaltunnelsyndrom) </p>
+</li>
+<li>
+<p>Kløe (pruritus) </p>
+</li>
+<li>
+<p>Ledstivhed. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sogroya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sogroya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pennens etiket og pakningen efter `EXP'. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2°C-8°C). Må ikke fryses. Opbevares på afstand fra køleelementet. </p>
+<p>Efter ibrugtagning 
+Anvendes inden 6 uger efter den første gang er taget i brug. Opbevares i køleskab (2°C-8°C). </p>
+<p>Før og efter ibrugtagning 
+Hvis opbevaring i køleskab ikke er mulig (f.eks. på rejser), kan Sogroya opbevares midlertidigt ved 
+temperaturer op til 30°C i sammenlagt højst 72 timer (3 dage). Sæt Sogroya tilbage i køleskabet efter 
+opbevaring ved denne temperatur. Hvis den bliver opbevaret uden for køleskab og efterfølgende bliver 
+sat tilbage i køleskab, må den totale sammenlagte tid uden for køl ikke overstige 3 dage. Dette skal der 
+føres nøje kontrol med. Pennen med Sogroya kasseres, hvis den har været opbevaret ved 30°C mere 
+end 72 timer, eller på noget tidspunkt har været opbevaret ved temperaturer over 30°C. 
+Notér opbevaringstiden uden for køleskab:<strong><em>_</em></strong><strong><em>_</em></strong>__ </p>
+<p>Opbevar Sogroya i æsken med penhætten påsat for at beskytte mod lys.<br />
+Fjern altid nålen efter hver injektion, og opbevar pennen uden nålen påsat. </p>
+<p>Brug ikke lægemidlet, hvis opløsningen ikke fremstår klar til let opaliserende, farveløs til let gullig og 
+er fri for synlige partikler. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sogroya indeholder:  </p>
+<ul>
+<li>
+<p>Aktivt stof: somapacitan. 1 ml opløsning indeholder 3,3 mg somapacitan. Hver fyldt pen 
+indeholder 5 mg somapacitan i 1,5 ml opløsning.  </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: histidin, mannitol, poloxamer 188, phenol, vand til injektionsvæsker, 
+saltsyre (til pH-justering), natriumhydroxid (til pH-justering). Se også pkt. 2 ’Det skal du vide, 
+før du begynder at bruge Sogroya’ for oplysninger om natrium. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Sogroya er en klar eller let opaliserende, farveløs til lettere gul væske, som er fri for synlige partikler, 
+til injektion i en fyldt pen. </p>
+<p>Sogroya 5 mg/1,5 ml injektionsvæske, opløsning i fyldt pen med en blågrøn dosisknap fås i følgende 
+pakningsstørrelser: en pakning indeholdende 1 fyldt pen eller en multipakning indeholdende 
+5 pakninger med 1 fyldt pen i hver.<br />
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd 
+Danmark </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Oversigt over Sogroya 5 mg/1,5 ml pen 
+Penvindue 
+Penskala 
+Dosisvælger Dosisknap 
+Dosistæller 
+Dosismarkør 
+Sogroya 
+Brugervejledning </p>
+<p>Penhætte </p>
+<p>Nål (eksempel) 
+Ydre 
+nålehætte 
+Nål 
+Papirforsegling 
+Indre 
+nålehætte </p>
+<p>Sådan skal du bruge Sogroya pennen </p>
+<p>5 trin, du skal følge ved injektion af Sogroya:  </p>
+<p>Trin 1. Klargøring af Sogroya pennen ................................................................................................................ Trin 2. Kontrollér gennemløbet for hver ny pen ................................................................................................. Trin 3. Indstil dosis ............................................................................................................................................. Trin 4. Injektion af dosis ..................................................................................................................................... Trin 5. Efter injektionen ......................................................................................................................................  </p>
+<p>For yderligere information om din pen, se punkterne: Kontrollér, hvor meget opløsning af 
+Sogroya der er tilbage, Sådan vedligeholder du pennen, Vigtig information.<br />
+Læs indlægssedlen og denne vejledning omhyggeligt, inden du bruger den fyldte Sogroya pen. </p>
+<p>Vær særligt opmærksom på denne information, da den er vigtig for at kunne anvende pennen 
+sikkert. </p>
+<p>Yderligere information </p>
+<p>Sogroya indeholder 5 mg somapacitan og kan bruges til injicering af doser på 0,025 mg til 2 mg, i 
+trin på 0,025 mg. Sogroya er beregnet til injektion under huden (subkutant). Nåle medfølger ikke og 
+forhandles separat. Sogroya fyldt pen er designet til at blive brugt med engangsnåle i en længde på 
+mellem 4 mm og 8 mm og et mål på mellem 30G og 32G. </p>
+<p>Du må ikke dele din Sogroya pen og nåle med andre. Du kan risikere at smitte andre eller selv få en 
+infektion. </p>
+<p>Tag ikke pennen i brug, før du har fået anvisning i brugen fra lægen eller sygeplejersken. Sørg 
+for, at du er fortrolig med at injicere dig selv med pennen, før du påbegynder behandlingen. Hvis du 
+er blind eller har nedsat syn og ikke kan aflæse dosistælleren på pennen, må du ikke bruge denne pen 
+uden hjælp. Få hjælp af en person med normalt syn, som har fået undervisning i at bruge pennen. </p>
+<p>Trin 1. Klargøring af Sogroya pennen  </p>
+<ul>
+<li>
+<p>Vask hænder med vand og sæbe. </p>
+</li>
+<li>
+<p>Kontrollér navnet, styrken og den farvede etiket på 
+pennen for at sikre dig, at den indeholder Sogroya og 
+den korrekte styrke. </p>
+</li>
+<li>
+<p>Træk penhætten af. </p>
+</li>
+<li>
+<p>Vend pennen på hovedet en eller to gange for at 
+kontrollere, at opløsningen med Sogroya i pennen er 
+klar til let opaliserende eller farveløs til let gullig. Se 
+Figur A. </p>
+</li>
+<li>
+<p>Hvis Sogroya indeholder synlige partikler, må du 
+ikke bruge pennen. </p>
+</li>
+</ul>
+<p>Sørg for at bruge den rigtige pen. Det er især vigtigt, 
+hvis du tager flere typer injicerbar medicin. Det kan 
+skade dit helbred at tage forkert medicin. </p>
+<p>A </p>
+<ul>
+<li>
+<p>Når du er klar til at injicere, skal du tage en ny 
+engangsnål. Riv først papirforseglingen af. </p>
+</li>
+<li>
+<p>Skub derefter nålen lige ind på pennen. Drej nålen i 
+urets retning indtil den sidder godt fast. Se Figur B. </p>
+</li>
+</ul>
+<p>B </p>
+<ul>
+<li>Fjern den ydre nålehætte og gem den til senere brug. Du 
+får brug for den efter injektionen, når du skal fjerne 
+nålen sikkert fra pennen. Se Figur C. </li>
+</ul>
+<p>Nålen er dækket af to nålehætter. Du skal fjerne begge 
+nålehætter. Hvis du glemmer at fjerne begge nålehætter, 
+kan du ikke injicere præparatet. Se Figur C og D. </p>
+<p>C </p>
+<ul>
+<li>Fjern den indre nålehætte og smid den væk. Hvis du 
+forsøger at sætte den på igen, kan du komme til at stikke 
+dig på nålen. Se Figur D. </li>
+</ul>
+<p>En dråbe Sogroya kan komme til syne på nålens spids. 
+Det er normalt, men du skal stadig kontrollere 
+gennemløbet for hver ny pen. Se trin 2.  D </p>
+<p>Brug altid en ny nål til hver injektion. Dette reducerer risikoen for urenheder, infektion, 
+udsivning af Sogroya og tilstoppede nåle, som kan resultere i forkert dosering. </p>
+<p>Brug aldrig en bøjet eller beskadiget nål. </p>
+<p>Trin 2. Kontrollér gennemløbet for hver ny pen  </p>
+<p>Hvis pennen allerede er i brug, skal du fortsætte til </p>
+<p>trin 3. * Før du bruger en ny pen, skal du kontrollere 
+gennemløbet for at sikre, at opløsningen med Sogroya 
+kan løbe igennem pennen og nålen. </p>
+<ul>
+<li>Drej dosisvælgeren ét klik frem i urets retning for at 
+vælge 0,025 mg. Du kan høre et svagt klik. Se Figur E. </li>
+</ul>
+<p>E </p>
+<ul>
+<li>Ét klik svarer til 0,025 mg på dosistælleren. Se 
+Figur F. </li>
+</ul>
+<p>F </p>
+<ul>
+<li>Hold pennen lodret med nålen opad. Tryk på 
+dosisknappen, og hold den inde, indtil dosistælleren er 
+tilbage på 0. 0 skal være lige ud for dosismarkøren. 
+Se Figur G. </li>
+</ul>
+<p>G </p>
+<ul>
+<li>Kontrollér, at en dråbe opløsning med Sogroya kommer 
+til syne på nålens spids. Se Figur H. </li>
+</ul>
+<p>Hvis der ikke kommer en dråbe Sogroya til syne, 
+skal du gentage trin 2 op til 6 gange. </p>
+<p>Hvis der stadig ikke kommer en dråbe Sogroya til syne, 
+skal du skifte nålen én gang som beskrevet i trin 5, og 
+gentag trin 1 og 2 igen. </p>
+<p>H </p>
+<p>Hvis der ikke kommer noget opløsning med Sogroya til syne, når du kontrollerer gennemløbet, 
+kan det være fordi nålen er tilstoppet eller beskadiget. Du må ikke bruge pennen, hvis der 
+stadig ikke kommer noget Sogroya til syne efter at have skiftet nålen. Det kan være, at pennen 
+er defekt. </p>
+<p>Trin 3. Indstil dosis  </p>
+<ul>
+<li>
+<p>Start med at kontrollere, at dosistælleren står på ‘0’. </p>
+</li>
+<li>
+<p>Drej dosisvælgeren frem til den dosis, du har behov for. 
+Se Figur I. </p>
+</li>
+</ul>
+<p>Når du har indstillet dosis, kan du fortsætte til trin 4. Hvis der ikke er tilstrækkelig opløsning med 
+Sogroya tilbage til at vælge en fuld dosis, se 
+Kontrollér, hvor meget opløsning af Sogroya der er 
+tilbage. </p>
+<p>I </p>
+<p>Dosistælleren viser dosis i mg. Se Figur J og K. Brug 
+altid dosismarkøren for at vælge præcis dosis. </p>
+<p>Tæl ikke antal klik. Brug ikke penskalaen (se 
+Oversigt over Sogroya pen) til at måle, hvor meget 
+væksthormon der skal injiceres. Kun dosismarkøren vil 
+vise det præcise antal mg. </p>
+<p>J 
+Eksempel: 1,825 mg valgt 
+Dosismarkør </p>
+<p>K 
+Eksempel: 1,85 mg valgt </p>
+<p>Hvis du indstiller den forkerte dosis, kan du dreje 
+dosisvælgeren frem eller tilbage til den korrekte dosis. 
+Se Figur L. </p>
+<p>Klikket fra pennen lyder og mærkes anderledes, når 
+dosisvælgeren drejes frem eller tilbage, eller hvis du ved 
+en fejl tvinger den forbi det antal mg, der er tilbage. </p>
+<p>L </p>
+<p>Trin 4. Injektion af dosis  </p>
+<ul>
+<li>Stik nålen ind under huden, som lægen eller 
+sygeplejersken har vist dig. Se Figur M.  </li>
+</ul>
+<p>Kontrollér, at du kan se dosistælleren. Du må ikke 
+dække for den med fingrene. Dette kan blokere 
+injektionen. </p>
+<p>Husk at skifte injektionssted hver uge. </p>
+<p>M </p>
+<ul>
+<li>Tryk på dosisknappen, og hold den inde, indtil 
+dosistælleren viser ‘0’ (Se Figur N). 0 skal være lige 
+ud for dosismarkøren. Du kan nu måske høre eller 
+mærke et klik.  </li>
+</ul>
+<p>Fortsæt med at holde dosisknappen inde med nålen i 
+huden.  </p>
+<p>N </p>
+<ul>
+<li>Bliv ved med at holde dosisknappen inde med nålen i 
+huden, og tæl langsomt til 6 for at sikre at den fulde 
+dosis er blevet injiceret (Se Figur O). </li>
+</ul>
+<p>O 
+Tæl langsomt: </p>
+<p>Hvis dosistælleren ikke viser ‘0’, når du bliver ved med at trykke på dosisknappen, kan nålen 
+eller pennen være tilstoppet eller beskadiget, og du har ikke fået noget Sogroya, selvom 
+dosistælleren har bevæget sig fra den oprindelige dosis, du valgte. </p>
+<p>Fjern nålen som beskrevet i trin 5, og gentag trin 1 til 4. * Fjern forsigtigt nålen fra huden. Se Figur P. Hvis der 
+kommer blod til syne ved injektionsstedet, trykker du let 
+på det. Du må ikke gnide på stedet. </p>
+<p>Du vil måske se en dråbe opløsning med Sogroya ved 
+nålens spids efter injektionen. Dette er normalt og har 
+ingen indflydelse på din dosis. </p>
+<p>P </p>
+<p>Trin 5. Efter injektionen  </p>
+<ul>
+<li>Før nålespidsen ind i den ydre nålehætte, mens den 
+ligger på en plan overflade, uden at røre ved nålen eller 
+den ydre nålehætte. Se Figur Q. </li>
+</ul>
+<p>Q </p>
+<ul>
+<li>Når nålen er dækket, skubbes den ydre nålehætte helt 
+på. Se Figur R. </li>
+</ul>
+<p>R </p>
+<ul>
+<li>Skru nålen af, og kassér den i henhold til de 
+anvisninger, du har fået fra lægen, sygeplejersken, 
+apotekspersonalet eller de lokale sundhedsmyndigheder.<br />
+Kassér altid nålen efter hver injektion.  </li>
+</ul>
+<p>Når pennen er tom, skal nålen fjernes og kasseres som 
+beskrevet ovenfor. Smid pennen ud separat som anvist 
+af lægen, sygeplejersken, apotekspersonalet eller de 
+lokale sundhedsmyndigheder. </p>
+<p>Penhætten og den tomme pakning kan smides ud 
+sammen med almindeligt husholdningsaffald. </p>
+<p>S </p>
+<ul>
+<li>Sæt penhætten på pennen efter brug for at beskytte 
+opløsningen med Sogroya mod lys. Se Figur T. </li>
+</ul>
+<p>Læs mere om opbevaring af pennen under Opbevaring i 
+denne brugervejledning. </p>
+<p>T </p>
+<p>Forsøg aldrig at sætte den indre nålehætte på nålen igen.<br />
+Du kan komme til at stikke dig på nålen. </p>
+<p>Fjern altid nålen fra pennen straks efter hver injektion. Dette reducerer risikoen for urenheder, 
+infektion, udsivning af Sogroya og tilstoppede nåle, som kan resultere i forkert dosering. </p>
+<p>Kontrollér, hvor meget opløsning af Sogroya der er tilbage  </p>
+<p>Penskalaen viser, hvor meget opløsning der cirka er tilbage i 
+pennen. Se Figur U. </p>
+<p>U 
+Eksempel: 
+Cirka 
+1 mg 
+tilbage 
+Penskala </p>
+<p>For at se hvor meget opløsning der er tilbage, skal du bruge 
+dosistælleren: Drej dosisvælgeren i urets retning, indtil 
+dosistælleren stopper. Du kan højst vælge en dosis på 2 mg. 
+Hvis den viser ‘2’, er der mindst 2 mg tilbage i pennen. 
+Hvis dosistælleren stopper ved ‘1,2’, er der kun 1,2 mg tilbage 
+i pennen. Se Figur V. </p>
+<p>V 
+Eksempel:<br />
+1,2 mg tilbage </p>
+<p>Hvad hvis jeg har brug for en større 
+dosis, end der er tilbage i pennen? </p>
+<p>Det er ikke muligt at vælge en større dosis, end de mg der er 
+tilbage i pennen. 
+Hvis du har brug for mere Sogroya, end der er tilbage i 
+pennen, skal du bruge en ny pen eller opdele dosis mellem 
+den nuværende pen og en ny pen. Du må kun opdele dosis, 
+hvis din læge eller sygeplejerske har lært eller rådgivet 
+dig derom. Brug en lommeregner til at planlægge doserne 
+efter anvisningerne fra din læge eller sygeplejerske. </p>
+<p>Vær omhyggelig med at regne rigtigt, da det ellers kan 
+resultere i medicineringsfejl. Hvis du ikke er sikker på, 
+hvordan du opdeler dosis mellem to penne, kan du vælge at 
+injicere hele din dosis med en ny pen. </p>
+<p>Sådan vedligeholder du pennen </p>
+<p>Hvordan vedligeholder jeg pennen? </p>
+<p>Undgå at tabe pennen eller slå den mod hårde overflader. 
+Udsæt ikke pennen for støv, snavs, væske eller direkte lys.<br />
+Pennen må ikke genfyldes; den er allerede fyldt og skal 
+kasseres, når den er tom.  </p>
+<p>Hvad sker der, hvis jeg taber 
+pennen? </p>
+<p>Hvis du taber pennen eller tror, at der er noget i vejen med 
+den, skal du påsætte en ny engangsnål og kontrollere 
+gennemløbet, før du injicerer, se trin 1 og 2. Hvis pennen er 
+blevet tabt, skal ampullen kontrolleres, og hvis den er revnet, 
+må pennen ikke bruges.  </p>
+<p>Hvordan rengør jeg pennen?  </p>
+<p>Pennen må ikke vaskes, iblødsættes eller smøres. Den kan 
+rengøres med et mildt rengøringsmiddel på en fugtig klud. </p>
+<p>Vigtig information </p>
+<ul>
+<li>
+<p>Omsorgspersoner skal håndtere brugte nåle meget forsigtigt - for at reducere risikoen for 
+stikuheld og overførsel af en infektion. </p>
+</li>
+<li>
+<p>Opbevar altid pennen og nålene utilgængeligt for andre, især børn. </p>
+</li>
+<li>
+<p>Brug ikke pennen, hvis den er beskadiget. Forsøg ikke at reparere pennen eller skille den ad. </p>
+</li>
+<li>
+<p>Læs mere om opbevaring af pennen under Opbevaring i denne brugervejledning. </p>
+</li>
+</ul>
+<p>Indlægsseddel: Information til brugeren  </p>
+<p>Sogroya 10 mg/1,5 ml injektionsvæske, opløsning i fyldt pen<br />
+somapacitan </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen.  </p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </p>
+</li>
+<li>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-21c3d5a66a6d27b5569da6d8c7e6fc48
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sogroya Package Leaflet for language en"
+Description: "ePI document Bundle for sogroya Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-21c3d5a66a6d27b5569da6d8c7e6fc48"
+* entry[0].resource = composition-en-21c3d5a66a6d27b5569da6d8c7e6fc48
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp21c3d5a66a6d27b5569da6d8c7e6fc48"
+* entry[=].resource = mp21c3d5a66a6d27b5569da6d8c7e6fc48
+                            
+                    
+Instance: bundlepackageleaflet-da-21c3d5a66a6d27b5569da6d8c7e6fc48
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sogroya Package Leaflet for language da"
+Description: "ePI document Bundle for sogroya Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-21c3d5a66a6d27b5569da6d8c7e6fc48"
+* entry[0].resource = composition-da-21c3d5a66a6d27b5569da6d8c7e6fc48
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp21c3d5a66a6d27b5569da6d8c7e6fc48"
+* entry[=].resource = mp21c3d5a66a6d27b5569da6d8c7e6fc48
+                            
+                    
+
+
+
+Instance: mp21c3d5a66a6d27b5569da6d8c7e6fc48
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Sogroya 5 mg/1.5 mL solution for injection in pre-filled pen"
-Description: "Sogroya 5 mg/1.5 mL solution for injection in pre-filled pen"
+Title: "Medicinal Product sogroya"
+Description: "sogroya"
 Usage: #inline
 
  
@@ -385,7 +1273,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Sogroya 5 mg/1.5 mL solution for injection in pre-filled pen"
+  * productName = "sogroya"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -412,29 +1300,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-21c3d5a66a6d27b5569da6d8c7e6fc48
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sogroya Package Leaflet for language en"
-Description: "ePI document Bundle for sogroya Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 21c3d5a66a6d27b5569da6d8c7e6fc48ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1501/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sogroya"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-21c3d5a66a6d27b5569da6d8c7e6fc48"
-* entry[0].resource = composition-en-21c3d5a66a6d27b5569da6d8c7e6fc48
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1e8b747a988867dbb5d4efbd195f1476"
-* entry[=].resource = mp1e8b747a988867dbb5d4efbd195f1476
-                            
-                      
+* title = "List of all ePIs associated with sogroya"
+
+* subject = Reference(mp1e8b747a988867dbb5d4efbd195f1476)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sogroya "sogroya"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-21c3d5a66a6d27b5569da6d8c7e6fc48) // sogroya en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-21c3d5a66a6d27b5569da6d8c7e6fc48) // sogroya da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-21c3d5a66a6d27b5569da6d8c7e6fc48
+InstanceOf: List
+
+* insert 21c3d5a66a6d27b5569da6d8c7e6fc48ListRuleset
+    

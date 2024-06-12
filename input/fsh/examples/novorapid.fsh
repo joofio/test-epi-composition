@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1c483862a2de53c1f77db26617c2401e
 InstanceOf: CompositionUvEpi
 Title: "Composition for novorapid Package Leaflet"
@@ -412,12 +415,600 @@ possible side effects not listed in this leaflet. See section 4.</li>
 
 
 
+Instance: composition-da-1c483862a2de53c1f77db26617c2401e
+InstanceOf: CompositionUvEpi
+Title: "Composition for novorapid Package Leaflet"
+Description:  "Composition for novorapid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe2b94d9e9a0305667aa7e9a1fa873ee6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe2b94d9e9a0305667aa7e9a1fa873ee6
+* title = "TEST PURPOSES ONLY - novorapid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage NovoRapid </li>
+<li>Sådan skal du tage NovoRapid </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What novorapid is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What novorapid is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NovoRapid er et moderne insulin (insulinanalog) med en hurtigvirkende effekt. Moderne 
+insulinpræparater er forbedrede versioner af humaninsuliner. </p>
+<p>NovoRapid anvendes til at sænke det høje blodsukkerniveau hos voksne, unge og børn fra 1 år og 
+derover med sukkersyge (diabetes mellitus). Sukkersyge er en sygdom, hvor kroppen ikke producerer 
+tilstrækkeligt insulin til at kontrollere blodsukkerniveauet. Behandling med NovoRapid kan hjælpe 
+med til at forhindre komplikationer relateret til din diabetes. </p>
+<p>NovoRapid vil begynde at nedsætte dit blodsukker 10-20 minutter efter injektion, maksimal effekt ses 
+mellem 1 og 3 timer efter injektionen, og effekten varer 3-5 timer. På grund af den korte virkning skal 
+NovoRapid normalt gives i kombination med et insulinpræparat med mellemlang eller lang 
+virkningstid. NovoRapid kan også anvendes til kontinuert infusion i et pumpesystem. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take novorapid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take novorapid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke NovoRapid </p>
+<p>► 
+Hvis du er allergisk over for insulin aspart eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (se punkt 6 Pakningsstørrelser og yderligere oplysninger). 
+► 
+Hvis du har mistanke om begyndende hypoglykæmi (for lavt blodsukker) (se a) Oversigt over 
+alvorlige og meget almindelige bivirkninger under punkt 4). 
+► 
+Hvis den beskyttende hætte er løs eller mangler. Hvert hætteglas har en beskyttende, brudsikker 
+plastikhætte. Hvis den ikke er i hel stand, når du får hætteglasset, skal du returnere hætteglasset 
+til apoteket. 
+► 
+Hvis hætteglasset ikke har været opbevaret korrekt, eller hvis det har været frosset (se punkt 5 
+Opbevaring). 
+► 
+Hvis insulinet ikke fremstår klart og farveløst. </p>
+<p>Hvis noget af ovenstående gør sig gældende, må du ikke tage NovoRapid. Tal med din læge, 
+sygeplejerske eller apotekspersonalet. </p>
+<p>Før du tager NovoRapid </p>
+<p>► 
+Kontrollér på etiketten, at det er den rigtige insulintype. 
+► 
+Fjern den beskyttende hætte. 
+► 
+Brug altid en ny nål til hver injektion for at undgå forurening. 
+► 
+Nåle og sprøjter må ikke deles med andre. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Nogle omstændigheder og aktiviteter kan have indflydelse på dit insulinbehov. Tal med din læge: 
+► 
+Hvis du har problemer med nyrer eller lever, eller med binyrer, hypofyse eller skjoldbruskkirtel. 
+► 
+Hvis du dyrker mere motion, end du plejer, eller ønsker at ændre din kost, da dette kan påvirke 
+dit blodsukkerniveau. 
+► 
+Hvis du bliver syg, skal du fortsætte med at tage insulin og kontakte din læge. 
+► 
+Hvis du har planer om at rejse til udlandet, kan en eventuel tidsforskel påvirke insulinbehovet 
+og injektionstidspunkterne. </p>
+<p>Hudforandringer på injektionsstedet </p>
+<p>Injektionsstedet bør løbende skiftes for at hjælpe med at forebygge forandringer i fedtvævet under 
+huden, f.eks. fortykkelse af huden, hud der trækker sig sammen eller knuder under huden. Hvis du 
+injicerer insulinet i et område af huden med knuder, der har trukket sig sammen eller er fortykket, kan 
+det være, at insulinet ikke virker så godt (se punkt 3, Sådan skal du tage NovoRapid). Kontakt lægen, 
+hvis du bemærker forandringer i huden ved injektionsstedet. Kontakt lægen hvis du for øjeblikket 
+injicerer i disse berørte områder, før du begynder at injicere i et andet område. Det kan være, at lægen 
+vil fortælle dig, at du skal kontrollere dit blodsukker oftere og tilpasse insulindosen eller dosen af 
+andre antidiabetiske lægemidler. </p>
+<p>Børn og unge  </p>
+<p>Dette lægemiddel må ikke anvendes til børn under 1 år, da der ikke er blevet udført kliniske studier 
+hos børn under 1 år. </p>
+<p>Brug af anden medicin sammen med NovoRapid </p>
+<p>Fortæl det altid til lægen, sygeplejersken eller apotekspersonalet, hvis du tager anden medicin, for 
+nylig har taget anden medicin eller planlægger at tage anden medicin. 
+Nogle lægemidler påvirker dit blodsukkerniveau og dette kan betyde, at din insulindosis skal ændres. 
+Nedenstående liste omfatter en række almindelige lægemidler, som kan påvirke din insulinbehandling. </p>
+<p>Dit blodsukkerniveau kan falde (hypoglykæmi), hvis du tager: </p>
+<ul>
+<li>
+<p>Andre lægemidler til behandling af diabetes </p>
+</li>
+<li>
+<p>Monoaminoxidasehæmmere (MAO-hæmmere) (til behandling af depression) </p>
+</li>
+<li>
+<p>Betablokkere (til behandling af forhøjet blodtryk) </p>
+</li>
+<li>
+<p>Angiotensin konverteringsenzym (ACE)-hæmmere (til behandling af visse hjertelidelser eller 
+forhøjet blodtryk) </p>
+</li>
+<li>
+<p>Salicylater (smertestillende og febernedsættende) </p>
+</li>
+<li>
+<p>Anabolske steroider (såsom testosteron) </p>
+</li>
+<li>
+<p>Sulfonamider (til behandling af infektioner). </p>
+</li>
+</ul>
+<p>Dit blodsukkerniveau kan stige (hyperglykæmi), hvis du tager: </p>
+<ul>
+<li>
+<p>Oral prævention (p-piller) </p>
+</li>
+<li>
+<p>Thiazider (til behandling af forhøjet blodtryk eller ved væskeophobning) </p>
+</li>
+<li>
+<p>Glukokortikoider (såsom kortison til behandling af betændelse) </p>
+</li>
+<li>
+<p>Skjoldbruskkirtelhormon (til behandling af sygdomme i skjoldbruskkirtlen) </p>
+</li>
+<li>
+<p>Sympatomimetika (såsom adrenalin eller salbutamol og terbutalin til behandling af astma) </p>
+</li>
+<li>
+<p>Væksthormon (lægemiddel til vækststimulering af skelet og legeme med udtalt effekt på 
+kroppens metaboliske processer) </p>
+</li>
+<li>
+<p>Danazol (lægemiddel, der virker på ægløsning). </p>
+</li>
+</ul>
+<p>Octreotid og lanreotid (til behandling af akromegali, en sjælden hormonel sygdom, der sædvanligvis 
+forekommer hos midaldrende voksne og skyldes, at hypofysen danner for meget væksthormon) kan 
+enten øge eller reducere dit blodsukkerniveau. </p>
+<p>Betablokkere (til behandling af forhøjet blodtryk) kan svække eller fuldstændigt undertrykke de første 
+advarselssignaler, der hjælper dig med at opdage lavt blodsukker. </p>
+<p>Pioglitazon (tabletter, der bruges til behandling af type 2-diabetes) 
+Nogle patienter med årelang type 2-diabetes og hjertesygdom eller tidligere slagtilfælde, som er blevet 
+behandlet med pioglitazon og insulin, oplevede hjertesvigt. Fortæl det til din læge hurtigst muligt, hvis 
+du oplever tegn på hjertesvigt, såsom usædvanlig kortåndethed, hurtig vægtstigning eller lokale 
+væskeansamlinger (ødemer). </p>
+<p>Fortæl det til din læge, sygeplejerske eller apotekspersonalet, hvis du tager noget af ovenstående 
+medicin. </p>
+<p>Brug af NovoRapid sammen med alkohol </p>
+<p>► 
+Hvis du drikker alkohol, kan dit behov for insulin ændres, og dit blodsukkerniveau kan enten 
+stige eller falde. Omhyggelig kontrol anbefales. </p>
+<p>Graviditet og amning </p>
+<p>► 
+Hvis du er gravid, tror du er gravid eller planlægger at blive gravid, skal du spørge din læge til 
+råds, før du tager dette lægemiddel. NovoRapid kan anvendes under graviditet. Din insulindosis 
+skal eventuelt ændres under graviditet og efter fødsel. Nøje kontrol med din diabetes, specielt 
+forebyggelse af hypoglykæmi (lavt blodsukker), er vigtigt for dit barns helbred. 
+► 
+Der er ingen begrænsninger ved behandling med NovoRapid under amning. </p>
+<p>Spørg din læge, sygeplejerske eller apotekspersonalet til råds, før du tager nogen form for medicin, 
+mens du er gravid eller ammer. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>► 
+Spørg din læge, om du må køre bil eller arbejde med maskiner: </p>
+<ul>
+<li>
+<p>Hvis du ofte har hypoglykæmi. </p>
+</li>
+<li>
+<p>Hvis du har svært ved at vurdere, om du har hypoglykæmi. </p>
+</li>
+</ul>
+<p>Hvis dit blodsukker er lavt eller højt, kan din koncentrations- og reaktionsevne være påvirket, og 
+dermed også din evne til at køre bil eller arbejde med maskiner. Vær opmærksom på, at du kan bringe 
+dig selv eller andre i fare. </p>
+<p>Den hurtige virkning af NovoRapid betyder, at eventuel hypoglykæmi indtræder hurtigere efter 
+injektion sammenlignet med opløseligt humaninsulin. </p>
+<p>Vigtig information om nogle af indholdsstofferne i NovoRapid </p>
+<p>NovoRapid indeholder mindre end 1 mmol natrium (23 mg) per dosis, dvs. NovoRapid er stort set 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take novorapid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take novorapid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dosis og hvornår du skal tage dit insulin </p>
+<p>Tag altid dit insulin og justér din dosis nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, 
+sygeplejersken eller apotekspersonalet. </p>
+<p>NovoRapid tages som udgangspunkt lige før et måltid. Spis et måltid eller et mellemmåltid inden for 
+10 minutter efter injektionen for at undgå lavt blodsukker. Om nødvendigt kan NovoRapid gives 
+umiddelbart efter et måltid. Se Hvordan og hvor du skal injicere nedenfor for yderligere information. </p>
+<p>Du må ikke skifte insulin, medmindre din læge siger, du skal. Hvis du skifter til en anden insulintype 
+eller et andet insulinmærke, er det muligt, at dosis skal justeres af din læge. </p>
+<p>Børn og unge </p>
+<p>NovoRapid kan anvendes til unge og børn i alderen fra 1 år og opefter i stedet for opløseligt 
+humaninsulin, når en hurtig virkning ønskes, for eksempel når det er svært at dosere barnet i forhold til 
+måltider. </p>
+<p>Anvendelse til særlige patientgrupper </p>
+<p>Hvis du har nedsat nyre- eller leverfunktion, eller hvis du er over 65 år, skal du kontrollere dit 
+blodsukker mere regelmæssigt og diskutere ændringer af din insulindosis med din læge. </p>
+<p>Hvordan og hvor du skal injicere </p>
+<p>NovoRapid er beregnet til injektion under huden (subkutant) eller til kontinuert infusion i et 
+pumpesystem. Indgivelse via et pumpesystem kræver udførlig instruktion af sundhedspersonale. Du 
+må aldrig injicere dig selv direkte ind i en vene (intravenøst) eller muskel (intramuskulært). Om 
+nødvendigt kan NovoRapid indgives direkte i en vene, men dette må kun gøres af læger eller andet 
+sundhedspersonale. </p>
+<p>For hver injektion skal du vælge et nyt injektionssted inden for det bestemte hudområde, som du 
+bruger. Dette kan nedsætte risikoen for at udvikle hudfortykkelse eller sprækker i huden (se punkt 4 
+Bivirkninger). De bedste steder til injektion er: Foran på maven, overarmen eller foran på låret. 
+Insulinet har en hurtigere virkning, hvis der injiceres foran på maven. Du skal altid måle dit 
+blodsukker regelmæssigt. </p>
+<p>NPH (Neutral protamine Hagedom) -insulin er den eneste type insulin, som kan opblandes med 
+NovoRapid. Opblandingen skal straks injiceres under huden (subkutant). NovoRapid skal trækkes ind 
+i sprøjten før du trækker NPH-insulin ind. </p>
+<p>Sådan tages NovoRapid </p>
+<p>Hvis du kun tager én type insulin 
+1. Træk en mængde luft ind i sprøjten, som svarer til den insulindosis, du skal injicere. Injicér 
+luften ind i hætteglasset. 
+2. Vend hætteglasset og sprøjten på hovedet, og træk den korrekte insulindosis ind i sprøjten. Træk 
+nålen ud af hætteglasset. Fjern luften fra sprøjten, og kontrollér, at dosis er korrekt. </p>
+<p>Hvis du skal blande to typer insulin 
+1. Lige før brug rulles NPH-insulinet mellem hænderne, indtil væsken er jævnt hvid og uklar. 
+2. Træk en mængde luft ind i sprøjten, som svarer til den dosis af NPH-insulin, du skal injicere. 
+Injicér luften ind i hætteglasset med NPH-insulinet, og træk nålen ud. 
+3. Træk en mængde luft ind i sprøjten, som svarer til dosis af NovoRapid. Injicér luften ind i 
+hætteglasset med NovoRapid. Vend hætteglasset og sprøjten på hovedet, og træk den ordinerede </p>
+<p>dosis NovoRapid ind i sprøjten. Fjern luften fra sprøjten, og kontrollér, at dosis er korrekt. 
+4. Stik herefter nålen ind i hætteglasset med NPH-insulinet, vend hætteglasset og sprøjten på 
+hovedet, og træk den ordinerede dosis ind i sprøjten. Fjern luften fra sprøjten, og kontrollér 
+dosis. Injicér blandingen straks. 
+5. Bland altid NovoRapid og NPH-insulinet i samme rækkefølge. </p>
+<p>Sådan injiceres NovoRapid </p>
+<p>► 
+Injicér insulinet under huden. Anvend den injektionsteknik, din læge eller sygeplejerske har 
+anbefalet. 
+► 
+Efter injektion skal nålen blive under huden i mindst 6 sekunder for at sikre, at hele insulindosis 
+er injiceret. 
+► 
+Kassér nålen efter hver injektion. </p>
+<p>Til brug i et infusionspumpesystem  </p>
+<p>NovoRapid må aldrig blandes med andre insulintyper, når det anvendes i en pumpe. 
+Følg lægens instruktioner og anbefalinger vedrørende brug af NovoRapid i en pumpe. Før du anvender 
+NovoRapid i et pumpesystem, skal du have modtaget grundig instruktion i brugen og information om 
+forholdsregler i tilfælde af, at du bliver syg, får for højt eller for lavt blodsukker, eller at 
+pumpesystemet svigter. </p>
+<ul>
+<li>
+<p>Før du indfører nålen, skal du vaske injektionsstedet og dine hænder med vand og sæbe for at 
+undgå infektion på infusionsstedet. </p>
+</li>
+<li>
+<p>Når du fylder en ny beholder, skal du kontrollere, at der ikke er store luftbobler i hverken 
+sprøjte eller slange. </p>
+</li>
+<li>
+<p>Skift af infusionssættet (slange og nål) skal ske i overensstemmelse med de instruktioner, som 
+er i brugervejledningen, der følger med infusionssættet. </p>
+</li>
+</ul>
+<p>For at få størst muligt udbytte af insulininfusionen og for at opdage eventuelle pumpesvigt, anbefales 
+det, at du måler dit blodsukker regelmæssigt. </p>
+<p>Forholdsregler ved pumpesvigt  </p>
+<p>Du skal altid medbringe insulin med et alternativt indgivelsessystem, således at injektionen kan 
+udføres under huden, hvis der opstår pumpesvigt. </p>
+<p>Hvis du har taget for meget insulin </p>
+<p>Hvis du har taget for meget insulin, bliver dit blodsukker for lavt (hypoglykæmi). Se a) Oversigt over 
+alvorlige og meget almindelige bivirkninger under punkt 4. Hvis du har glemt at tage insulin </p>
+<p>Hvis du glemmer at tage insulin, kan dit blodsukker blive for højt (hyperglykæmi). Se c) Følger af 
+diabetes under punkt 4. Hvis du holder op med at tage insulin </p>
+<p>Stop ikke med at tage insulin uden først at tale med din læge, der kan fortælle dig, hvad der skal gøres. 
+Dette kan føre til meget højt blodsukker (alvorlig hyperglykæmi) og ketoacidose. Se c) Følger af 
+diabetes under punkt 4. Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>a) 
+Oversigt over alvorlige og meget almindelige bivirkninger </p>
+<p>Lavt blodsukker (hypoglykæmi) er en meget almindelig bivirkning. Det kan forekomme hos flere 
+end 1 ud af 10 behandlede. </p>
+<p>Lavt blodsukker kan forekomme, hvis du: </p>
+<ul>
+<li>
+<p>Injicerer for meget insulin </p>
+</li>
+<li>
+<p>Spiser for lidt eller springer et måltid over </p>
+</li>
+<li>
+<p>Motionerer mere end normalt </p>
+</li>
+<li>
+<p>Drikker alkohol (se Brug af NovoRapid sammen med alkohol under punkt 2). </p>
+</li>
+</ul>
+<p>Tegn på lavt blodsukker: Koldsved, kold og bleg hud, hovedpine, hjertebanken, kvalme, usædvanlig 
+stor sultfornemmelse, midlertidige synsforstyrrelser, døsighed, unormal træthed og svaghed, nervøsitet 
+eller rysten, bekymring, forvirring og koncentrationsbesvær. </p>
+<p>Alvorligt lavt blodsukker kan føre til bevidstløshed. Hvis langvarig alvorligt lavt blodsukker ikke 
+behandles, kan det medføre hjerneskade (midlertidig eller varig) og i værste fald død. Du kan 
+genvinde bevidstheden hurtigere, hvis du får en injektion af hormonet glucagon af en person, der er 
+instrueret i, hvordan det anvendes. Hvis du får glucagon, skal du også have glucose eller et 
+sukkerholdigt produkt at spise, så snart du igen er ved bevidsthed. Hvis du ikke reagerer på 
+glucagonbehandlingen, skal du behandles på hospitalet. </p>
+<p>Du skal gøre følgende, hvis du oplever lavt blodsukker: 
+► 
+Hvis du oplever lavt blodsukker, skal du spise glucosetabletter eller et andet sukkerholdigt 
+produkt (f.eks. slik, kiks, frugtjuice). Mål dit blodsukker, hvis det er muligt, og hvil dig. 
+Medbring for en sikkerheds skyld altid glucosetabletter eller sukkerholdige produkter. 
+► 
+Når symptomerne på lavt blodsukker er forsvundet, eller når dit blodsukkerniveau er 
+stabiliseret, kan du fortsætte med insulinbehandlingen som sædvanligt. 
+► 
+Hvis du får så lavt blodsukker, at du besvimer, hvis du har haft brug for en glucagoninjektion 
+eller hvis du har haft gentagne tilfælde af lavt blodsukker, skal du tale med din læge. Tidspunktet 
+for eller mængden af insulin, kost eller motion skal muligvis ændres. </p>
+<p>Fortæl relevante personer, at du har diabetes, og om hvilke konsekvenser det kan have, herunder 
+risikoen for at besvime på grund af lavt blodsukker. Fortæl dem, at hvis du besvimer, skal du vendes 
+om på siden, og der skal straks tilkaldes lægehjælp. Du må ikke få noget at spise eller drikke, da du 
+kan blive kvalt. </p>
+<p>Alvorlige allergiske reaktioner over for NovoRapid eller et af indholdsstofferne (kaldet systemisk 
+allergisk reaktion) er en meget sjælden bivirkning, men kan være livstruende. Kan forekomme hos 
+færre end 1 ud af 10.000 behandlede. </p>
+<p>Kontakt straks lægen: </p>
+<ul>
+<li>
+<p>Hvis allergisymptomerne spreder sig til andre dele af kroppen. </p>
+</li>
+<li>
+<p>Hvis du pludselig føler dig utilpas, og du: Begynder at svede, kaster op, får åndedrætsbesvær, 
+hjertebanken eller bliver svimmel.<br />
+► 
+Hvis du oplever nogle af disse symptomer, kontakt straks lægen. </p>
+</li>
+</ul>
+<p>Hudforandringer på injektionsstedet: Hvis du injicerer insulin på samme sted, kan fedtvævet enten 
+skrumpe (lipoatrofi) eller fortykkes (lipohypertrofi) (kan forekomme hos færre end 1 ud af behandlede). Knuder under huden kan også skyldes ophobning af et protein, der kaldes amyloid (kutan 
+amyloidose; hvor ofte dette forekommer er ikke kendt). Hvis du injicerer insulinet i et område af 
+huden med knuder, der har trukket sig sammen eller er fortykket, kan det være, at insulinet ikke virker 
+så godt. Skift injektionssted ved hver injektion for at hjælpe med at forebygge disse hudforandringer. </p>
+<p>b) 
+Oversigt over andre bivirkninger </p>
+<p>Ikke almindelige bivirkninger 
+Kan forekomme hos færre end 1 ud af 100 behandlede. </p>
+<p>Symptomer på allergi: Lokale allergiske reaktioner (smerte, rødme, udslæt, inflammation, blå mærker, 
+hævelse og kløe) på injektionsstedet kan forekomme. Symptomerne forsvinder normalt inden for få 
+uger ved fortsat insulinbehandling. Kontakt straks din læge, hvis symptomerne ikke forsvinder, eller 
+hvis de spreder sig til andre dele af kroppen. Se også Alvorlige allergiske reaktioner ovenfor. </p>
+<p>Synsforstyrrelser: Når du påbegynder insulinbehandling, kan du opleve synsforstyrrelser, men 
+forstyrrelsen er normalt midlertidig. </p>
+<p>Hævede led: Når du påbegynder insulinbehandling, kan væskeophobning forårsage hævelse af ankler 
+og andre led. Normalt forsvinder dette hurtigt. Hvis det ikke forsvinder, skal du tale med din læge. </p>
+<p>Diabetisk retinopati (en øjensygdom med relation til sukkersyge, som kan medføre tab af synet): Hvis 
+du har diabetisk retinopati, kan det blive værre, hvis dit blodsukkerniveau forbedres meget hurtigt. Tal 
+med lægen om det. </p>
+<p>Sjældne bivirkninger<br />
+Kan forekomme hos færre end 1 ud af 1.000 behandlede. </p>
+<p>Smertefuld neuropati (smerte på grund af beskadiget nerve): Hvis dit blodsukkerniveau forbedres 
+meget hurtigt, kan du få nerverelateret smerte. Dette kaldes akut smertefuld neuropati og er 
+sædvanligvis forbigående. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>
+<p>c) 
+Følger af diabetes </p>
+<p>Højt blodsukker (hyperglykæmi) </p>
+<p>Højt blodsukker kan forekomme, hvis du: </p>
+<ul>
+<li>
+<p>Ikke har injiceret nok insulin </p>
+</li>
+<li>
+<p>Glemmer at injicere dit insulin eller stopper med at tage insulin </p>
+</li>
+<li>
+<p>Gentagne gange injicerer mindre insulin, end du har brug for </p>
+</li>
+<li>
+<p>Får en infektion og/eller feber </p>
+</li>
+<li>
+<p>Spiser mere, end du plejer </p>
+</li>
+<li>
+<p>Dyrker mindre motion, end du plejer. </p>
+</li>
+</ul>
+<p>Advarselssignaler på højt blodsukker: 
+Advarselssignalerne kommer gradvist. De omfatter: Hyppig vandladning, tørst, nedsat appetit, kvalme 
+eller opkastning, døsighed eller træthed, ansigtsrødme, tør hud, mundtørhed og frugtlugtende 
+(acetonelugtende) ånde. </p>
+<p>Du skal gøre følgende, hvis du får højt blodsukker: 
+► 
+Hvis du oplever nogle af ovennævnte signaler: Mål dit blodsukkerniveau, kontrollér om muligt 
+din urin for ketonstoffer og søg straks lægehjælp. 
+► 
+Disse symptomer kan betyde, at du har en meget alvorlig tilstand kaldet diabetisk ketoacidose 
+(ophobning af syre i blodet, da kroppen nedbryder fedt i stedet for sukker). Denne tilstand kan </p>
+<p>ubehandlet resultere i diabetisk koma og i værste fald død. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store novorapid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store novorapid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. 
+Tag ikke dette lægemiddel efter udløbsdatoen `EXP', der står på etiketten og pakningen med 
+hætteglas. Udløbsdatoen er den sidste dag i den nævnte måned. 
+Opbevar hætteglasset i den ydre karton, for at beskytte mod lys. </p>
+<p>Før ibrugtagning: Opbevares i et køleskab ved 2°C til 8°C, ikke for tæt på køleelementet. Må ikke 
+fryses. </p>
+<p>Under brug eller medbragt som reserve: Lægemidlet må opbevares i højst 4 uger. Opbevares ved 
+temperaturer under 30°C. Må ikke opbevares i køleskab eller fryses. </p>
+<p>Kassér nålen efter hver injektion. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NovoRapid indeholder </p>
+<ul>
+<li>
+<p>Aktivt stof: Insulin aspart. 1 ml indeholder 100 enheder insulin aspart. Hvert hætteglas 
+indeholder 1.000 enheder insulin aspart i 10 ml injektionsvæske, opløsning. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Glycerol, phenol, metacresol, zinkchlorid, dinatriumphosphatdihydrat, 
+natriumchlorid, saltsyre, natriumhydroxid og vand til injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>NovoRapid er en injektionsvæske, opløsning. </p>
+<p>Pakningsstørrelser med 1 eller 5 hætteglas med 10 ml eller en multipakning med 5 pakker med 
+1 x 10 ml hætteglas. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Injektionsvæsken er klar og farveløs. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Danmark </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>NovoRapid Penfill 100 enheder/ml injektionsvæske, opløsning i cylinderampul 
+insulin aspart </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage medicinen, da den indeholder 
+vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </p>
+</li>
+<li>
+<p>Tal med lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1c483862a2de53c1f77db26617c2401e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novorapid Package Leaflet for language en"
+Description: "ePI document Bundle for novorapid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1c483862a2de53c1f77db26617c2401e"
+* entry[0].resource = composition-en-1c483862a2de53c1f77db26617c2401e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1c483862a2de53c1f77db26617c2401e"
+* entry[=].resource = mp1c483862a2de53c1f77db26617c2401e
+                            
+                    
+Instance: bundlepackageleaflet-da-1c483862a2de53c1f77db26617c2401e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novorapid Package Leaflet for language da"
+Description: "ePI document Bundle for novorapid Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1c483862a2de53c1f77db26617c2401e"
+* entry[0].resource = composition-da-1c483862a2de53c1f77db26617c2401e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1c483862a2de53c1f77db26617c2401e"
+* entry[=].resource = mp1c483862a2de53c1f77db26617c2401e
+                            
+                    
+
+
+
+Instance: mp1c483862a2de53c1f77db26617c2401e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product NovoRapid 100 units/ml solution for injection in vial"
-Description: "NovoRapid 100 units/ml solution for injection in vial"
+Title: "Medicinal Product novorapid"
+Description: "novorapid"
 Usage: #inline
 
  
@@ -437,7 +1028,7 @@ Usage: #inline
 
 
 * name
-  * productName = "NovoRapid 100 units/ml solution for injection in vial"
+  * productName = "novorapid"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -464,29 +1055,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1c483862a2de53c1f77db26617c2401e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for novorapid Package Leaflet for language en"
-Description: "ePI document Bundle for novorapid Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1c483862a2de53c1f77db26617c2401eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "NovoRapid vial"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "novorapid"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1c483862a2de53c1f77db26617c2401e"
-* entry[0].resource = composition-en-1c483862a2de53c1f77db26617c2401e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe2b94d9e9a0305667aa7e9a1fa873ee6"
-* entry[=].resource = mpe2b94d9e9a0305667aa7e9a1fa873ee6
-                            
-                      
+* title = "List of all ePIs associated with novorapid"
+
+* subject = Reference(mpe2b94d9e9a0305667aa7e9a1fa873ee6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#novorapid "novorapid"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1c483862a2de53c1f77db26617c2401e) // novorapid en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1c483862a2de53c1f77db26617c2401e) // novorapid da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1c483862a2de53c1f77db26617c2401e
+InstanceOf: List
+
+* insert 1c483862a2de53c1f77db26617c2401eListRuleset
+    

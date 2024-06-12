@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9f9daf83bf13eb0a61dfb2c983d49142
 InstanceOf: CompositionUvEpi
 Title: "Composition for ogluo Package Leaflet"
@@ -414,12 +417,586 @@ Netherlands </p>
 
 
 
+Instance: composition-da-9f9daf83bf13eb0a61dfb2c983d49142
+InstanceOf: CompositionUvEpi
+Title: "Composition for ogluo Package Leaflet"
+Description:  "Composition for ogluo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfd810e702314f2ad8aeff9ee53c669ef)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpfd810e702314f2ad8aeff9ee53c669ef
+* title = "TEST PURPOSES ONLY - ogluo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Ogluo </li>
+<li>Sådan skal du bruge Ogluo </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ogluo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ogluo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ogluo indeholder det aktive stof glucagon, som tilhører en gruppe lægemidler, der kaldes 
+glykogenolytiske hormoner. </p>
+<p>Det anvendes til at behandle alvorlig hypoglykæmi (meget lavt blodsukker) hos personer med 
+diabetes. Det kan anvendes hos voksne, unge og børn fra 2 år. </p>
+<p>Ogluo fås som en brugsklar pen, der indeholder en enkeltdosis af det aktive stof, glucagon. Det gives 
+som en subkutan injektion, dvs. en indsprøjtning under huden, ved hjælp af en kanyle. </p>
+<p>Glucagon er et naturligt hormon, der dannes i bugspytkirtlen, og som har den modsatte effekt af 
+insulin i kroppen. Det hjælper leveren med at omdanne lagret sukker i leveren (såkaldt glykogen) til 
+glukose (sukker). Glukose frigives derefter i blodbanen og får dermed blodsukkeret til at stige, 
+hvorved virkningen af hypoglykæmi mindskes. </p>
+<p>Oplysninger om hypoglykæmi 
+Tidlige symptomer på hypoglykæmi (lavt blodsukker) er bl.a.: </p>
+<ul>
+<li>
+<p>svedtendens </p>
+</li>
+<li>
+<p>døsighed </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>søvnforstyrrelser </p>
+</li>
+<li>
+<p>hjertebanken </p>
+</li>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>rysten </p>
+</li>
+<li>
+<p>sløret syn </p>
+</li>
+<li>
+<p>sult </p>
+</li>
+<li>
+<p>utydelig tale </p>
+</li>
+<li>
+<p>nedtrykthed </p>
+</li>
+<li>
+<p>prikkende fornemmelse i hænder, 
+fødder, læber eller tunge </p>
+</li>
+<li>
+<p>irritabilitet </p>
+</li>
+<li>
+<p>ørhed </p>
+</li>
+<li>
+<p>unormal adfærd </p>
+</li>
+<li>
+<p>koncentrationssvækkelse </p>
+</li>
+<li>
+<p>usikre bevægelser </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>personlighedsændring</p>
+</li>
+</ul>
+<p>Hvis tilstanden ikke behandles, kan den udvikle sig til alvorlig hypoglykæmi, som kan omfatte: </p>
+<ul>
+<li>
+<p>forvirring </p>
+</li>
+<li>
+<p>krampeanfald </p>
+</li>
+<li>
+<p>bevidstløshed </p>
+</li>
+<li>
+<p>dødsfald </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ogluo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ogluo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vigtig information: </p>
+<ul>
+<li>
+<p>Sørg for, at du, din familie, kolleger og nære venner ved, hvordan Ogluo skal anvendes. Fortæl 
+dem, at de skal bruge Ogluo øjeblikkeligt, hvis du har tegn på alvorlig hypoglykæmi, herunder 
+hvis du virker forvirret, får krampeanfald eller besvimer. Du bør altid have Ogluo med dig. </p>
+</li>
+<li>
+<p>Det er vigtigt, at du og personerne omkring dig ved, hvordan Ogluo skal anvendes, før du får 
+brug for det. Vis dine familiemedlemmer og andre, hvor du opbevarer Ogluo, og hvordan de 
+skal bruge det. De skal handle hurtigt, hvis du bliver bevidstløs, fordi det kan være farligt, hvis 
+det står på i længere tid. Du eller den person, der giver dig Ogluo, skal følge instruktionerne i 
+pkt. 3 i denne indlægsseddel: Sådan skal du bruge Ogluo. </p>
+</li>
+<li>
+<p>Det er vigtigt, at du opbevarer Ogluo korrekt, for at sikre, at det kan bruges med det samme, 
+hvis du får brug for det. Se pkt. 5 for yderligere oplysninger om korrekt opbevaring af dette 
+lægemiddel. </p>
+</li>
+</ul>
+<p>Brug ikke Ogluo: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for glucagon eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du har en tumor i binyrerne (fæokromocytom). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Ogluo. </p>
+<p>Ogluo virker måske ikke efter hensigten: </p>
+<ul>
+<li>
+<p>hvis du har fastet eller haft lavt blodsukker i længere tid </p>
+</li>
+<li>
+<p>hvis du har et lavt adrenalinniveau </p>
+</li>
+<li>
+<p>hvis du har lavt blodsukker efter at have drukket for meget alkohol </p>
+</li>
+<li>
+<p>hvis du har en tumor, der frigiver glucagon eller insulin </p>
+</li>
+</ul>
+<p>Tal med lægen eller apotekspersonalet, hvis noget af dette gælder for dig. </p>
+<p>Det skal tages i betragtning, at ca. 15 % af patienterne opnåede glucoserestitution efter 20 minutter 
+eller mere i det centrale studie. </p>
+<p>Efter brug af Ogluo skal du snarest muligt spise for at forebygge et nyt tilfælde af lavt blodsukker. 
+Indtag noget med hurtigtvirkende sukker, f.eks. frugtjuice eller en sukkerholdig sodavand. </p>
+<p>Børn 
+Ogluo anbefales ikke til børn under 2 år, da det ikke er undersøgt hos denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Ogluo 
+Fortæl det altid til lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller 
+planlægger at bruge anden medicin. </p>
+<p>Følgende lægemidler kan påvirke Ogluos effekt: </p>
+<ul>
+<li>
+<p>Insulin - bruges til behandling af diabetes. Insulin har den modsatte effekt af glucagon på 
+blodsukkeret. </p>
+</li>
+<li>
+<p>Indometacin - anvendes til behandling af smerter og stivhed i leddene. Indometacin 
+reducerer virkningen af glucagon. </p>
+</li>
+</ul>
+<p>Ogluo kan påvirke den måde, som følgende lægemidler virker på: </p>
+<ul>
+<li>
+<p>Warfarin - anvendes til at forebygge blodpropper. Ogluo kan øge warfarins 
+blodfortyndende virkning. </p>
+</li>
+<li>
+<p>Betablokkere - anvendes til behandling af forhøjet blodtryk og uregelmæssig hjerterytme. 
+Ogluo kan øge dit blodtryk og puls, men det vil kun være kortvarigt. </p>
+</li>
+</ul>
+<p>Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), skal du tale med lægen eller 
+apotekspersonalet, før du tager Ogluo. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du oplever meget lavt blodsukker, mens du er gravid eller ammer, har mistanke om, at du er 
+gravid, eller planlægger at blive gravid, må du gerne bruge Ogluo. </p>
+<p>Spørg din læge eller apotekspersonalet til råds, inden du tager nogen form for medicin, hvis du er 
+gravid. </p>
+<p>Trafik- og arbejdssikkerhed 
+Efter et tilfælde af alvorlig hypoglykæmi kan din evne til at koncentrere dig og reagere være reduceret, 
+og du bør vente med at føre motorkøretøj eller betjene værktøjer eller maskiner, indtil virkningen af 
+det meget lave blodsukker er aftaget, og du har det bedre. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ogluo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ogluo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag (eller giv) altid dette lægemiddel nøjagtigt som beskrevet i denne indlægsseddel eller efter lægens 
+anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet. </p>
+<p>Ogluo gives som en injektion under huden (subkutant). Det fås som en pen. Injektorpennen indeholder 
+en afmålt mængde medicin. Du skal følge nedenstående instruktioner for at få hele dosen. </p>
+<p>Klargør </p>
+<p>Tjek udløbsdatoen, der er trykt på 
+foliepakningen. </p>
+<p>Vigtigt: 
+Brug ikke dette lægemiddel, hvis 
+udløbsdatoen er overskredet. Hvis 
+udløbsdatoen er overskredet, skal du 
+bortskaffe det i overensstemmelse med de 
+lokale retningslinjer og bruge en ny pen. </p>
+<p>Riv foliepakningen op ved den stiplede linje, 
+og tag pennen ud (se figur 1). </p>
+<p>Figur 1  </p>
+<p>Inspicér opløsningen </p>
+<p>Kontrollér den flydende medicin gennem 
+vinduet. Den skal være klar og farveløs eller 
+bleggul (se figur 2). </p>
+<p>Vigtigt: 
+Du må ikke anvende dette lægemiddel, hvis 
+væsken er misfarvet, eller hvis den indeholder 
+klumper, flager eller partikler. 
+Indsprøjt ikke opløsningen, hvis den ikke er 
+synlig i vinduet. 
+Efter indsprøjtningen skal du straks ringe efter 
+akuthjælp. 
+Hver pen indeholder én dosis glucagon og kan 
+ikke genanvendes. </p>
+<p>Figur 2  </p>
+<p>Træk den røde kanylehætte lige af pennen (se 
+figur 3). </p>
+<p>Vigtigt: 
+For at forhindre utilsigtede stik skal du undgå, 
+at din tommelfinger, øvrige fingre eller hånd 
+kommer for tæt på kanylebeskyttelsen eller 
+kanyleåbningen. </p>
+<p>Figur 3  </p>
+<p>Injicér </p>
+<p>Vælg et injektionssted, og fjern evt. 
+påklædning. </p>
+<p>Vælg et injektionssted på den nedre del af 
+maven, ydre side af låret eller ydre side af 
+overarmen (se figur 4). </p>
+<p>Fjern eventuel påklædning, der dækker 
+injektionsstedet (se figur 5). Injektionen skal 
+udføres lige ind i huden. </p>
+<p>Vigtigt: 
+Du må ikke injicere gennem tøj. </p>
+<p>Figur 4 
+Figur 5 </p>
+<p>Træk den røde 
+hætte af </p>
+<p>Set forfra 
+Set bagfra 
+Injicer ikke gennem tøj </p>
+<p>Tryk og hold pennen lige ned mod 
+injektionsstedet. Lyt efter et "klik". </p>
+<p>Fortsæt med at holde pennen nede, og tæl 
+langsomt til 5 (se figur 6). </p>
+<p>Når injektionen er slut, bliver vinduet rødt (se 
+figur 7). </p>
+<p>Vigtigt: 
+Løft ikke pennen op, før injektionen er slut. </p>
+<p>Figur 6 
+Figur 7 </p>
+<p>Løft pennen lige op fra injektionsstedet (se 
+figur 8). </p>
+<p>Den gule kanylebeskyttelse låses over kanylen. </p>
+<p>Figur 8  </p>
+<p>Hjælp </p>
+<p>Vend patienten om på siden. </p>
+<p>Når en bevidstløs person vågner, kan han/hun 
+kaste op. Hvis patienten er bevidstløs, skal 
+han/hun vendes om på siden for at forebygge 
+kvælning (se figur 9). </p>
+<p>Ring efter akuthjælp, umiddelbart efter Ogluo 
+er indsprøjtet. Når patienten har reageret på 
+behandlingen, skal du give ham/hende noget 
+med hurtigtvirkende sukker, f.eks. frugtjuice 
+eller en sukkerholdig sodavand, for at 
+forebygge et nyt tilfælde af lavt blodsukker. 
+Hvis patienten ikke reagerer inden for 
+15 minutter, kan yderligere en dosis Ogluo fra 
+en ny pen/sprøjte gives, mens der ventes på 
+akuthjælp. </p>
+<p>Figur 9  </p>
+<p>Så meget skal du bruge 
+Dette lægemiddel indeholder enten 0,5 mg eller 1 mg af det aktive stof i en fast dosis. Du får udskrevet 
+den korrekte dosis af lægemidlet til eget brug. </p>
+<p>Den anbefalede dosis til voksne, unge og børn er vist i tabellen nedenfor. For børn under 6 år afhænger 
+den anbefalede dosis af barnets legemsvægt. </p>
+<p>Tryk og hold 
+Hold nede i 
+5 sekunder 
+"Klik" 
+Løft pennen 
+væk fra huden 
+Den gule 
+kanylebeskyttelse 
+låses over kanylen 
+Rul patienten om på 
+siden 
+Alder 
+Vægt 
+Anbefalet dosering af 
+Ogluo<br />
+Børn fra 2 år til under 6 år 
+Under 25 kg 
+0,5 mg 
+Børn fra 2 år til under 6 år 
+25 kg eller derover 
+1 mg 
+Voksne, unge og 
+børn fra 6 år 
+Ikke relevant 
+1 mg 
+Efter brug af dette lægemiddel skal du snarest muligt spise for at forebygge et nyt tilfælde af lavt 
+blodsukker. Indtag noget med hurtigtvirkende sukker, f.eks. frugtjuice eller en sukkerholdig sodavand. 
+Hvis du har brugt for meget Ogluo 
+Hvis du får for meget af lægemidlet, kan det give dig kvalme eller få dig til at kaste op. Det er normalt 
+ikke nødvendigt med specifik behandling. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Kontakt straks din læge eller en sundhedsperson, hvis du får nogen af følgende alvorlige bivirkninger: 
+Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 patienter) 
+•
+allergisk reaktion - tegn kan bl.a. være hvæsende vejrtrækning, svedtendens, hurtig
+hjerterytme, udslæt, hævet ansigt (dvs. hævelse i ansigt, læber, tunge og svælg, hvilket
+kan gøre det vanskeligt at synke eller trække vejret) eller kollaps. Der er ikke rapporteret
+om allergiske reaktioner ved Ogluo, men det er observeret ved andre injicerbare
+glucagon-lægemidler. Du bør søge hjælp øjeblikkeligt, hvis du får symptomer på en
+allergisk reaktion.
+Andre bivirkninger kan omfatte:
+Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 patienter) 
+•
+kvalme
+•
+opkastning
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) 
+•
+hovedpine
+•
+hurtig hjerterytme (takykardi)
+•
+ubehag eller en reaktion ved injektionsstedet
+•
+hævelse ved injektionsstedet
+•
+diarré
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) 
+•
+mavesmerter
+•
+blå mærker ved injektionsstedet
+•
+rødme ved injektionsstedet
+Hos børn kan endvidere ses følgende bivirkninger: 
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) 
+•
+hyperglykæmi
+•
+mavesmerter
+•
+nældefeber (hævelse/rødme)
+•
+hovedskade
+•
+svimmelhed
+Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ogluo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ogluo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke lægemidlet efter den udløbsdato, der står på pennen, foliepakningen og æsken. 
+Udløbsdatoen er den sidste dag i den nævnte måned. 
+Opbevar lægemidlet utilgængeligt for børn. 
+Lægemidlet må ikke opbevares ved temperaturer over 25 °C. 
+Må ikke opbevares i køleskab eller nedfryses. Må ikke opbevares ved temperaturer under 15 °C. 
+Opbevares i foliepakningen for at beskytte mod lys og fugt. 
+Du må ikke anvende dette lægemiddel, hvis du bemærker, at opløsningen er misfarvet eller indeholder 
+partikler. 
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ogluo indeholder: 
+•
+Aktivt stof: glucagon.
+-
+Ogluo 0,5 mg injektionsvæske, opløsning, i fyldt pen
+Hver fyldt pen indeholder 0,5 mg glucagon i 0,1 ml opløsning.
+-
+Ogluo 1 mg injektionsvæske, opløsning, i fyldt pen
+•
+Hver fyldt pen indeholder 1 mg glucagon i 0,2 ml opløsning.
+•
+Øvrige indholdsstoffer: trehalosedihydrat, dimethylsulfoxid (DMSO), svovlsyre og vand
+til injektionsvæsker.
+Udseende og pakningsstørrelser 
+Ogluo er en klar, farveløs til bleggul opløsning. Det fås som en brugsklar fyldt enkeltdosispen med 
+enten 0,5 mg eller 1 mg glucagon. Hver pen er pakket hver for sig i en foliepakning. Nedenfor er der 
+en liste over tilgængelige Ogluo-lægemidler. 
+•
+Ogluo 0,5 mg injektionsvæske, opløsning, i fyldt pen, pakning med 1 eller 2 fyldte
+enkeltdosispenne.
+•
+Ogluo 1 mg injektionsvæske, opløsning, i fyldt pen, pakning med 1 eller 2 fyldte
+enkeltdosispenne.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. 
+Indehaver af markedsføringstilladelsen: 
+Tetris Pharma B.V 
+Bargelaan Element Offices 
+2333 CW Leiden 
+Holland 
+Fremstiller: 
+Manufacturing Packaging Farmaca (MPF) B.V. 
+Neptunus Heerenveen, 8448CN 
+Nederlandene 
+Denne indlægsseddel blev senest ændret: 
+Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Lægemiddelstyrelsen 
+http://www.ema.europa.eu 
+Indlægsseddel: Information til brugeren 
+Ogluo 0,5 mg injektionsvæske, opløsning, i fyldt sprøjte 
+Ogluo 1 mg injektionsvæske, opløsning, i fyldt sprøjte 
+glucagon 
+Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+•
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+•
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
+•
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give
+medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme
+symptomer, som du har.
+•
+Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i
+denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9f9daf83bf13eb0a61dfb2c983d49142
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ogluo Package Leaflet for language en"
+Description: "ePI document Bundle for ogluo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9f9daf83bf13eb0a61dfb2c983d49142"
+* entry[0].resource = composition-en-9f9daf83bf13eb0a61dfb2c983d49142
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9f9daf83bf13eb0a61dfb2c983d49142"
+* entry[=].resource = mp9f9daf83bf13eb0a61dfb2c983d49142
+                            
+                    
+Instance: bundlepackageleaflet-da-9f9daf83bf13eb0a61dfb2c983d49142
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ogluo Package Leaflet for language da"
+Description: "ePI document Bundle for ogluo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9f9daf83bf13eb0a61dfb2c983d49142"
+* entry[0].resource = composition-da-9f9daf83bf13eb0a61dfb2c983d49142
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9f9daf83bf13eb0a61dfb2c983d49142"
+* entry[=].resource = mp9f9daf83bf13eb0a61dfb2c983d49142
+                            
+                    
+
+
+
+Instance: mp9f9daf83bf13eb0a61dfb2c983d49142
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ogluo 0.5 mg solution for injection in pre-filled pen."
-Description: "Ogluo 0.5 mg solution for injection in pre-filled pen."
+Title: "Medicinal Product ogluo"
+Description: "ogluo"
 Usage: #inline
 
  
@@ -439,7 +1016,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ogluo 0.5 mg solution for injection in pre-filled pen."
+  * productName = "ogluo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -466,29 +1043,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9f9daf83bf13eb0a61dfb2c983d49142
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ogluo Package Leaflet for language en"
-Description: "ePI document Bundle for ogluo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9f9daf83bf13eb0a61dfb2c983d49142ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1523/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ogluo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9f9daf83bf13eb0a61dfb2c983d49142"
-* entry[0].resource = composition-en-9f9daf83bf13eb0a61dfb2c983d49142
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpfd810e702314f2ad8aeff9ee53c669ef"
-* entry[=].resource = mpfd810e702314f2ad8aeff9ee53c669ef
-                            
-                      
+* title = "List of all ePIs associated with ogluo"
+
+* subject = Reference(mpfd810e702314f2ad8aeff9ee53c669ef)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ogluo "ogluo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9f9daf83bf13eb0a61dfb2c983d49142) // ogluo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9f9daf83bf13eb0a61dfb2c983d49142) // ogluo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9f9daf83bf13eb0a61dfb2c983d49142
+InstanceOf: List
+
+* insert 9f9daf83bf13eb0a61dfb2c983d49142ListRuleset
+    

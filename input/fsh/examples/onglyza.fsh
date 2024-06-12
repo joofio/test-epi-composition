@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-007d6f1b6943d8c2483d508167f6813d
 InstanceOf: CompositionUvEpi
 Title: "Composition for onglyza Package Leaflet"
@@ -370,12 +373,543 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-007d6f1b6943d8c2483d508167f6813d
+InstanceOf: CompositionUvEpi
+Title: "Composition for onglyza Package Leaflet"
+Description:  "Composition for onglyza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8c2b1ca0f2b9d7cbaae8ed2e7534cee9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8c2b1ca0f2b9d7cbaae8ed2e7534cee9
+* title = "TEST PURPOSES ONLY - onglyza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Onglyza 
+3. Sådan skal du tage Onglyza 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What onglyza is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What onglyza is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Onglyza indeholder det aktive stof saxagliptin, som tilhører en gruppe lægemidler kaldet ’orale 
+antidiabetika’. De hjælper med at kontrollere sukkerindholdet i blodet. </p>
+<p>Onglyza anvendes til voksne patienter på 18 år eller derover med type 2-diabetes, når sygdommen 
+ikke kan kontrolleres tilstrækkeligt med et oralt antidiabetisk lægemiddel, diæt og motion. Onglyza 
+bruges alene eller sammen med insulin eller andre antidiabetiske lægemidler. </p>
+<p>Det er vigtigt, at du fortsætter med at følge de råd om diæt og motion, som din læge eller 
+sygeplejerske har givet dig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take onglyza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take onglyza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Onglyza </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for saxagliptin eller et af de øvrige indholdsstoffer i Onglyza (angivet i 
+punkt 6). </p>
+</li>
+<li>
+<p>hvis du har haft en alvorlig allergisk reaktion over for lignende lægemidler, som du tager for at 
+kontrollere blodsukkeret. Se punkt 4. Advarsler og forsigtighedsregler<br />
+Kontakt lægen eller apotekspersonalet, før du tager Onglyza: </p>
+</li>
+<li>
+<p>hvis du tager insulin. Onglyza må ikke bruges i stedet for insulin. </p>
+</li>
+<li>
+<p>hvis du har type 1-diabetes (din krop producerer ikke noget insulin) eller diabetisk ketoacidose 
+(en følgesygdom til diabetes som medfører højt blodsukker, hurtigt vægttab, kvalme eller 
+opkastning). Onglyza må ikke bruges til behandling af disse tilstande. </p>
+</li>
+<li>
+<p>hvis du har eller har haft en sygdom i bugspytkirtlen. </p>
+</li>
+<li>
+<p>hvis du tager insulin eller et anti-diabetisk lægemiddel kendt som ’sulfonylurinstof’. Din læge 
+vil måske nedsætte din dosis af insulin eller sulfonylurinstof, når du tager et af dem sammen 
+med Onglyza for at undgå lavt blodsukker. </p>
+</li>
+<li>
+<p>hvis du har en sygdom, såsom aids eller tager lægemidler efter en organtransplantation, som 
+nedsætter din modstandsdygtighed over for infektioner. </p>
+</li>
+<li>
+<p>hvis du har hjertesvigt, eller hvis du har risikofaktorer for at udvikle hjertesvigt, såsom 
+problemer med nyrerne. Lægen vil fortælle dig om tegn og symptomer på hjertesvigt. Kontakt 
+straks lægen, apotekspersonalet eller sundhedspersonalet, hvis du oplever nogen af disse 
+symptomer. Symptomerne kan omfatte, men er ikke begrænset til, tiltagende kortåndethed, 
+hurtig vægtstigning og hævede fødder (ødem). </p>
+</li>
+<li>
+<p>hvis du har nedsat nyrefunktion, vil din læge bestemme, om du skal tage en lavere dosis 
+Onglyza. Hvis du er i hæmodialyse, så er Onglyza frarådet til dig. </p>
+</li>
+<li>
+<p>hvis du har moderate til svære leverproblemer. Hvis du har svære leverproblemer frarådes du at 
+anvende Onglyza. </p>
+</li>
+</ul>
+<p>Hudlæsioner er en almindelig komplikation ved diabetes. Udslæt er set ved brug af Onglyza (se 
+punkt 4) og visse anti-diabetiske lægemidler i samme klasse som Onglyza. Du rådes til at følge de 
+anbefalinger for hud- og fodpleje, som din læge eller sygeplejerske har givet dig. Kontakt din læge, 
+hvis du får blærer på huden, da det kan være et tegn på en tilstand, der kaldes pemfigoid. Din læge kan 
+bede dig om at stoppe behandlingen med Onglyza. </p>
+<p>Børn og unge 
+Onglyza frarådes til børn og unge under 18 år.  </p>
+<p>Brug af andre lægemidler sammen med Onglyza 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Du skal især fortælle det til lægen, hvis du bruger lægemidler, som indeholder et af de følgende aktive 
+stoffer: </p>
+<ul>
+<li>
+<p>Carbamazepin, phenobarbital eller phenytoin. Disse kan anvendes til at kontrollere 
+krampeanfald eller kroniske smerter. </p>
+</li>
+<li>
+<p>Dexamethason - et steroid. Dette kan anvendes til at behandle inflammation i forskellige 
+kropsdele og organer. </p>
+</li>
+<li>
+<p>Rifampicin. Dette er et antibiotikum til behandling af infektioner som tuberkulose. </p>
+</li>
+<li>
+<p>Ketoconazol. Dette kan bruges til at behandle svampeinfektioner. </p>
+</li>
+<li>
+<p>Diltiazem. Dette er et blodtrykssænkende lægemiddel. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Tal med din læge, før du tager Onglyza, hvis du er gravid eller planlægger at blive gravid. Du må ikke 
+bruge Onglyza, hvis du er gravid. </p>
+<p>Tal med din læge, hvis du vil amme, mens du tager dette lægemiddel. Det vides ikke, om Onglyza går 
+over i modermælken. Du bør ikke tage dette lægemiddel, hvis du ammer eller planlægger at amme. </p>
+<p>Trafik- og arbejdssikkerhed 
+Kør ikke bil eller motorcykel og lad være med at arbejde med værktøj eller maskiner, hvis du føler dig 
+svimmel, når du tager Onglyza. Lavt blodsukker (hypoglykæmi) kan påvirke evnen til at færdes 
+sikkert i trafikken og betjene maskiner eller arbejde med sikkert fodfæste, og der er risiko, at du får for 
+lavt blodsukker, hvis du tager dette lægemiddel sammen med lægemidler, der er kendt for at medføre 
+lavt blodsukker, som for eksempel insulin og sulfonylurinstoffer. </p>
+<p>Onglyza indeholder lactose<br />
+Tabletterne indeholder lactose (mælkesukker). Kontakt lægen før du tager dette lægemiddel, hvis 
+lægen har fortalt dig, at du ikke kan tåle visse sukkerstoffer. </p>
+<p>Onglyza indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take onglyza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take onglyza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er 5 mg én gang dagligt. </p>
+<p>Hvis du har nedsat nyrefunktion, kan din læge ordinere en lavere dosis. Det er en 2,5 mg tablet én 
+gang om dagen. </p>
+<p>Din læge kan ordinere Onglyza alene eller sammen med insulin eller andre anti-diabetiske lægemidler. 
+Hvis du får andre lægemidler, skal du huske at tage de andre lægemidler på den måde, din læge har 
+instrueret dig i, for at opnå det bedste resultat for dit helbred. </p>
+<p>Sådan tager du Onglyza 
+Tabletterne må ikke deles eller knuses. Synk tabletten hel og drik samtidig et glas vand. Du kan tage 
+tabletten med eller uden mad. Tabletten kan indtages når som helst på dagen, men forsøg at tage 
+tabletten på samme tidspunkt hver dag. Dette vil hjælpe dig til at huske at tage den. </p>
+<p>Hvis du har taget for meget Onglyza 
+Hvis du har taget for mange tabletter, skal du straks tale med lægen. </p>
+<p>Hvis du har glemt at tage Onglyza </p>
+<ul>
+<li>
+<p>Hvis du glemmer at tage en dosis af Onglyza, skal du tage den, så snart du husker det. Hvis det 
+næsten er tid til næste dosis, springer du den glemte dosis over. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. Tag aldrig to doser på 
+samme dag. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Onglyza 
+Bliv ved med at tage Onglyza, indtil lægen siger, du skal stoppe. Det hjælper dig med at holde dit 
+blodsukker under kontrol. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle symptomer kræver øjeblikkelig lægehjælp: 
+Du skal stoppe med at tage Onglyza og straks tage til lægen, hvis du får følgende symptomer på for 
+lavt blodsukker (hypoglykæmi); rysten, svedeture, angst, synsforstyrrelser, prikkende fornemmelse i 
+læberne, bleghed, humørsvingninger, svaghed eller forvirring. Disse bivirkninger er meget 
+almindelige (kan forekomme hos op til 1 ud af 10 behandlede). </p>
+<p>Symptomer på en alvorlig allergisk reaktion (meget sjælden bivirkning: kan forekomme hos op til 1 ud 
+af 1 000 behandlede) kan omfatte: * Udslæt. * Hævede røde pletter på huden (nældefeber). * Hævelse af ansigt, læber, tunge og svælg, som kan forårsage vejrtræknings- eller synkebesvær. </p>
+<p>Hvis du får disse symptomer, skal du stoppe med at tage Onglyza og omgående kontakte lægen eller 
+sundhedspersonalet. Din læge kan ordinere et lægemiddel til behandling af din allergiske reaktion og 
+et andet lægemiddel til behandling af din sukkersyge. </p>
+<p>Du skal stoppe med at tage Onglyza og omgående kontakte din læge, hvis du oplever nogle af de 
+følgende alvorlige bivirkninger: </p>
+<ul>
+<li>kraftige og vedvarende mavesmerter, der eventuelt stråler ud til ryggen, samt kvalme og 
+opkastning, da det kan være tegn på betændelse i bugspytkirtlen (pankreatitis). </li>
+</ul>
+<p>Kontakt lægen, hvis du får følgende bivirkning: </p>
+<ul>
+<li>Svære ledsmerter. </li>
+</ul>
+<p>Nogle patienter har haft følgende bivirkninger, mens de har taget Onglyza og metformin: </p>
+<ul>
+<li>
+<p>Almindelig (kan forekomme hos 1 til 10 ud af 100 behandlede): Infektion i øvre bryst eller 
+lunger, urinvejsinfektion, betændelse i mave eller tarm sædvanligvis forårsaget af en infektion 
+(mave-tarm-katar), infektion af bihulerne med en følelse af smerte og hævelse bag kinder og 
+øjne (sinusitis), betændelse i næse eller svælg (nasofaryngit) (symptomerne på dette kan 
+inkludere forkølelse eller ondt i halsen), hovedpine, muskelsmerter (myalgi), opkastning, 
+inflammation i maven (gastrit), mavepine og fordøjelsesbesvær (dyspepsi). </p>
+</li>
+<li>
+<p>Ikke almindelig (kan forekomme hos 1 til 10 ud af 1 000 behandlede): Ledsmerter (artralgi) og 
+problemer med at opnå og fastholde en erektion (erektil dysfunktion). </p>
+</li>
+</ul>
+<p>Nogle patienter har haft følgende bivirkninger, mens de har taget Onglyza og et sulfonylurinstof: </p>
+<ul>
+<li>
+<p>Meget almindelig: Lavt blodsukker (hypoglykæmi). </p>
+</li>
+<li>
+<p>Almindelig: Infektion af øvre bryst eller lunger, urinvejsinfektion, betændelse i mave eller tarm 
+sædvanligvis forårsaget af en infektion (mave-tarm-katar), infektion af bihulerne med en følelse 
+af smerte og hævelse bag kinder og øjne (sinusitis), hovedpine, mavepine og opkastning. </p>
+</li>
+<li>
+<p>Ikke almindelig: Træthed, unormale lipid (fedtsyre)-niveauer (dyslipidæmi, 
+hypertriglyceridæmi). </p>
+</li>
+</ul>
+<p>Nogle patienter har haft følgende bivirkninger mens de har taget Onglyza og et thiazolidindion: </p>
+<ul>
+<li>Almindelig: Infektion af øvre bryst eller lunger, urinvejsinfektion, betændelse i mave eller tarm 
+sædvanligvis forårsaget af en infektion (mave-tarm-katar), infektion af bihulerne med en følelse 
+af smerte og hævelse bag kinder og øjne (sinusitis), hovedpine, mavepine og opkastning, 
+hævelse af hænder, ankler eller fødder (perifere ødemer). </li>
+</ul>
+<p>Nogle patienter har haft følgende bivirkninger, når de har taget Onglyza og metformin og et 
+sulfonylurinstof: </p>
+<ul>
+<li>Almindelig: Svimmelhed, træthed, mavepine og luft i tarmene. </li>
+</ul>
+<p>Nogle patienter har desuden haft følgende bivirkning, når de har taget Onglyza alene: </p>
+<ul>
+<li>Almindelig: Svimmelhed, diarré og mavepine. </li>
+</ul>
+<p>Nogle patienter har haft følgende bivirkninger, når de har taget Onglyza alene eller i kombination: </p>
+<ul>
+<li>Ikke kendt (kan ikke beregnes ud fra forhåndenværende data): obstipation, blærer i huden 
+(bulløs pemfigoid). </li>
+</ul>
+<p>Nogle patienter har haft en lille reduktion i antallet af en bestemt type hvide blodlegemer (lymfocytter) 
+ved anvendelse af Onglyza alene eller sammen med andre lægemidler. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store onglyza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store onglyza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på at være forsøgt åbnet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Onglyza indeholder:</p>
+<ul>
+<li>Aktivt stof: Saxagliptin. Hver filmovertrukket tablet indeholder 2,5 mg saxagliptin (som 
+hydrochlorid). </li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+<li>
+<p>Tabletkerne: Lactosemonohydrat, mikrokrystallinsk cellulose (E460i), croscarmellose 
+natrium (E468), magnesiumstearat. </p>
+</li>
+<li>
+<p>Filmovertræk: Polyvinylalkohol, macrogol 3350, titandioxid (E171), talcum (E553b) 
+og gul jernoxid (E172). </p>
+</li>
+<li>
+<p>Tryk: Shellac, indigo carmine aluminium lake (E132). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>2,5 mg filmovertrukne tabletter er bleggule til lysegule, dobbelthvælvede og runde. Der er trykt 
+"2.5" på den ene side og "4214" på den anden side med blåt tryk. </p>
+</li>
+<li>
+<p>Tabletterne fås i aluminium-folie-blister. </p>
+</li>
+<li>
+<p>2,5 mg tabletter leveres i pakningsstørrelser med 14, 28 eller 98 filmovertrukne tabletter i 
+ikke-perforerede kalenderblistre og 30x1 eller 90x1 filmovertrukne tabletter i perforerede 
+enkeltdosis-blistre. </p>
+</li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>AstraZeneca AB 
+SE-151 85 Södertälje 
+Sverige </p>
+<p>Fremstiller </p>
+<p>AstraZeneca AB 
+Gärtunavägen<br />
+SE-152 57 Södertälje 
+Sverige </p>
+<p>AstraZeneca UK Limited 
+Silk Road Business Park 
+Macclesfield 
+Cheshire 
+SK10 2NA 
+Storbritannien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+AstraZeneca S.A./N.V. 
+Tel: +32 2 370 48<br />
+Lietuva 
+UAB AstraZeneca Lietuva 
+Tel: +370 5 2660 
+България 
+АстраЗенека България ЕООД 
+Тел.: +359 (2) 44 55<br />
+Luxembourg/Luxemburg 
+AstraZeneca S.A./N.V. 
+Tél/Tel: +32 2 370 48<br />
+Česká republika 
+AstraZeneca Czech Republic s.r.o. 
+Tel: +420 222 807<br />
+Magyarország 
+AstraZeneca Kft. 
+Tel.: +36 1 883 6 
+Danmark 
+AstraZeneca A/S 
+Tlf.: +45 43 66 64<br />
+Malta 
+Associated Drug Co. Ltd 
+Tel: +356 2277 8 
+Deutschland 
+AstraZeneca GmbH 
+Tel: +49 40 809034 
+Nederland 
+AstraZeneca BV 
+Tel: +31 85 808 9 
+Eesti 
+AstraZeneca 
+Tel: +372 6549<br />
+Norge 
+AstraZeneca AS 
+Tlf: +47 21 00 64<br />
+Ελλάδα 
+AstraZeneca A.E. 
+Τηλ: +30 2 106871 
+Österreich 
+AstraZeneca Österreich GmbH 
+Tel: +43 1 711 31 0 </p>
+<p>España 
+AstraZeneca Farmacéutica Spain, S.A. 
+Tel: +34 91 301 91<br />
+Polska 
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel.: +48 22 245 73<br />
+France 
+AstraZeneca 
+Tél: +33 1 41 29 40<br />
+Portugal 
+AstraZeneca Produtos Farmacêuticos, Lda. 
+Tel: +351 21 434 61<br />
+Hrvatska 
+AstraZeneca d.o.o. 
+Tel: +385 1 4628<br />
+România 
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60 41  </p>
+<p>Ireland 
+AstraZeneca Pharmaceuticals (Ireland) DAC 
+Tel: +353 1609 7 
+Slovenija 
+AstraZeneca UK Limited 
+Tel: +386 1 51 35<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7 
+Italia 
+Suomi/Finland 
+AstraZeneca S.p.A. 
+Tel: +39 02 00704 
+AstraZeneca Oy 
+Puh/Tel: +358 10 23<br />
+Κύπρος 
+Αλέκτωρ Φαρµακευτική Λτδ 
+Τηλ: +357 22490 
+Sverige 
+AstraZeneca AB 
+Tel: +46 8 553 26<br />
+Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377 
+United Kingdom (Northern Ireland) 
+AstraZeneca UK Ltd 
+Tel: +44 1582 836  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om Onglyza på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu. 
+Indlægsseddel: Information til patienten </p>
+<p>Onglyza 5 mg filmovertrukne tabletter 
+saxagliptin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give 
+lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
+som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-007d6f1b6943d8c2483d508167f6813d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onglyza Package Leaflet for language en"
+Description: "ePI document Bundle for onglyza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-007d6f1b6943d8c2483d508167f6813d"
+* entry[0].resource = composition-en-007d6f1b6943d8c2483d508167f6813d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp007d6f1b6943d8c2483d508167f6813d"
+* entry[=].resource = mp007d6f1b6943d8c2483d508167f6813d
+                            
+                    
+Instance: bundlepackageleaflet-da-007d6f1b6943d8c2483d508167f6813d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onglyza Package Leaflet for language da"
+Description: "ePI document Bundle for onglyza Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-007d6f1b6943d8c2483d508167f6813d"
+* entry[0].resource = composition-da-007d6f1b6943d8c2483d508167f6813d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp007d6f1b6943d8c2483d508167f6813d"
+* entry[=].resource = mp007d6f1b6943d8c2483d508167f6813d
+                            
+                    
+
+
+
+Instance: mp007d6f1b6943d8c2483d508167f6813d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Onglyza 2.5 mg film-coated tablets"
-Description: "Onglyza 2.5 mg film-coated tablets"
+Title: "Medicinal Product onglyza"
+Description: "onglyza"
 Usage: #inline
 
  
@@ -395,7 +929,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Onglyza 2.5 mg film-coated tablets"
+  * productName = "onglyza"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -422,29 +956,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-007d6f1b6943d8c2483d508167f6813d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for onglyza Package Leaflet for language en"
-Description: "ePI document Bundle for onglyza Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 007d6f1b6943d8c2483d508167f6813dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Onglyza 2.5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "onglyza"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-007d6f1b6943d8c2483d508167f6813d"
-* entry[0].resource = composition-en-007d6f1b6943d8c2483d508167f6813d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8c2b1ca0f2b9d7cbaae8ed2e7534cee9"
-* entry[=].resource = mp8c2b1ca0f2b9d7cbaae8ed2e7534cee9
-                            
-                      
+* title = "List of all ePIs associated with onglyza"
+
+* subject = Reference(mp8c2b1ca0f2b9d7cbaae8ed2e7534cee9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#onglyza "onglyza"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-007d6f1b6943d8c2483d508167f6813d) // onglyza en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-007d6f1b6943d8c2483d508167f6813d) // onglyza da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-007d6f1b6943d8c2483d508167f6813d
+InstanceOf: List
+
+* insert 007d6f1b6943d8c2483d508167f6813dListRuleset
+    

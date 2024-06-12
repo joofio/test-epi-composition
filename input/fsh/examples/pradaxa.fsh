@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-ce87b0e5c83bb784188a7a43affec906
 InstanceOf: CompositionUvEpi
 Title: "Composition for pradaxa Package Leaflet"
@@ -627,12 +630,795 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-ce87b0e5c83bb784188a7a43affec906
+InstanceOf: CompositionUvEpi
+Title: "Composition for pradaxa Package Leaflet"
+Description:  "Composition for pradaxa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe916bdfa0a284c729b9081800160f69d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe916bdfa0a284c729b9081800160f69d
+* title = "TEST PURPOSES ONLY - pradaxa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Pradaxa
+3. Sådan skal du tage Pradaxa
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What pradaxa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What pradaxa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pradaxa indeholder det aktive stof dabigatranetexilat, og hører til en gruppe lægemidler, der kaldes 
+antikoagulantia (blodfortyndende lægemidler). Det virker ved at blokere for et stof i kroppen, som er 
+involveret i dannelsen af blodpropper.
+Pradaxa anvendes til voksne for at:
+-
+forebyggedannelse af blodpropper i venerne efter udskiftning af knæ- eller hofte.
+Pradaxa anvendes til børn for at:
+-
+behandle blodpropper samt forebygge nye blodpropper.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take pradaxa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take pradaxa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Pradaxa</h2>
+<p>hvis du er allergisk over for dabigatranetexilat eller et af de øvrige indholdsstoffer i Pradaxa 
+(angivet i punkt 6)
+-
+hvis du har svært nedsat nyrefunktion
+-
+hvis du aktuelt bløder
+-
+hvis du har en sygdom i et af dine organer, som øger risikoen for alvorlig blødning (f.eks. 
+mavesår, skade eller blødning i hjernen, en nylig operation i hjernen eller øjnene)
+-
+hvis du har øget tendens til at bløde. Denne kan være medfødt, have ukendte årsager eller 
+skyldes andre lægemidler
+-
+hvis du tager anden medicin til at forebygge blodpropper (f.eks. warfarin, rivaroxaban, apixaban 
+eller heparin) bortset fra ved skift til anden blodfortyndende medicin, hvis du samtidig har et 
+venekateter eller arteriekateter, og du får heparin i det kateter for at holde det åbent eller mens 
+dit hjerteslag vender tilbage til normalen ved en procedure kaldet kateterablation for 
+183
+atrieflimren
+-
+hvis du har svært nedsat leverfunktion eller en leversygdom, som kan være livstruende
+-
+hvis du tager ketoconazol eller itraconazol, som er medicin til behandling af svampeinfektioner
+-
+hvis du tager oralt ciclosporin, som er medicin til forebyggelse af organafstødning efter 
+transplantation
+-
+hvis du tager dronedaron, som er medicin til behandling af en unormal hjerterytme
+-
+hvis du tager et kombinationspræparat med glecaprevir og pibrentasvir, et antiviralt lægemiddel, 
+der anvendes til at behandle hepatitis C
+-
+hvis du har en kunstig hjerteklap, der kræver permanent blodfortynding.
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du tager Pradaxa. Det kan også være nødvendigt at kontakte lægen mens du er i 
+behandling med dette lægemiddel, hvis du får symptomer, eller hvis du skal opereres.
+Fortæl det til din læge, hvis du har eller har haft en medicinsk tilstand eller sygdom, især dem, der er 
+nævnt i den følgende liste:
+-
+hvis du har en øget risiko for blødninger, såsom:
+
+hvis du har haft en blødning for nylig
+
+hvis du har fået taget et stykke væv ud (en biopsi) i løbet af den sidste måned
+
+hvis du har haft en alvorlig skade (f.eks. knoglebrud, kvæstelse i hovedet eller en skade, 
+der har krævet operation)
+
+hvis du lider af en betændelseslignende tilstand i spiserøret eller maven
+
+hvis du har problemer med tilbageløb af mavesaft til spiserøret
+
+hvis du får medicin, der kan øge risikoen for blødning. Se ‘Brug af andre lægemidler
+sammen med Pradaxa’ nedenfor
+
+hvis du tager antiinflammatorisk medicin, såsom diclofenac, ibuprofen, piroxicam
+
+hvis du har en betændelsestilstand i hjertet (bakteriel endocardit)
+
+hvis du ved, at du har nedsat nyrefunktion eller du lider af dehydrering (symptomer 
+omfatter tørstfornemmelse og en reduceret mængde mørkfarvet 
+(koncentreret)/skummende urin)
+
+hvis du er over 75 år
+
+hvis du er voksen og vejer 50 kg eller mindre
+
+kun, hvis det anvendes til børn: hvis barnet har en infektion rundt om eller i hjernen.
+-
+hvis du har haft et hjerteanfald, eller du er blevet diagnosticeret med sygdomme, som øger 
+risikoen for at få et hjerteanfald.
+-
+hvis du har en leversygdom, som er forbundet med en påvirkning af blodprøveresultater. Hvis 
+det er tilfældet, kan brugen af dette lægemiddel ikke anbefales.
+Vær særlig forsigtig med Pradaxa
+-
+hvis du har behov for en operation:
+I dette tilfælde skal behandling med Pradaxa midlertidigt stoppes, da der er en øget risiko for 
+blødning under og kort efter en operation. Det er meget vigtigt at tage Pradaxa før og efter 
+operationen nøjagtigt på de tidspunkter, som du har fået fortalt af lægen.
+-
+hvis en operation involverer et kateter eller en injektion i rygmarven (f.eks. for epidural eller 
+spinal anæstesi eller smertelindring):
+
+det er meget vigtigt at tage Pradaxa før og efter operationen nøjagtigt på de tidspunkter, 
+som du har fået fortalt af lægen.
+
+fortæl det straks til lægen, hvis dine ben bliver følelsesløse eller svage, eller du får 
+problemer med tarmen eller blæren efter endt anæstesi, da det er nødvendigt med akut 
+behandling.
+184
+-
+hvis du falder eller kommer til skade, især hvis du slår hovedet, skal du straks søge lægehjælp. 
+Det kan være nødvendigt, at du bliver undersøgt af en læge, da du kan have en øget risiko for 
+blødning.
+-
+hvis du ved, at du har en sygdom, der hedder antifosfolipidsyndrom (en forstyrrelse i 
+immunsystemet, der giver øget risiko for blodpropper), skal du sige det til lægen, som vil 
+vurdere, om behandlingen skal ændres.
+Brug af andre lægemidler sammen med Pradaxa
+Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Fortæl det især til lægen, før du tager 
+Pradaxa, hvis du tager et af de nedenstående lægemidler:
+-
+medicin, der mindsker blodets evne til at størkne (f.eks. warfarin, phenprocoumon, 
+acenocoumarol, heparin, clopidogrel, prasugrel, ticagrelor, rivaroxaban, acetylsalicylsyre)
+-
+medicin til behandling af svampeinfektioner (f.eks. ketoconazol, itraconazol), bortset fra 
+lægemidler til brug på huden
+-
+medicin til behandling af uregelmæssig hjerterytme (f.eks. amiodaron, dronedaron, kinidin, 
+verapamil).
+Hvis du tager medicin, der indeholder amiodaron, kinidin eller verapamil, kan lægen fortælle 
+dig, at du skal bruge en reduceret dosis Pradaxa, afhængig af sygdommen, som du har fået det 
+ordineret mod. Se også punkt 3. -
+medicin til forebyggelse af organafstødning efter transplantation (f.eks. tacrolimus eller 
+ciclosporin)
+-
+et kombinationspræparat med glecaprevir og pibrentasvir (et antiviralt lægemiddel, der 
+anvendes til at behandle hepatitis C)
+-
+antiinflammatorisk og smertelindrende medicin (f.eks. acetylsalicylsyre, ibuprofen, diclofenac)
+-
+perikon, et naturlægemiddel som bruges mod depression
+-
+medicin mod depression, der kaldes selektive serotonin-genoptagelseshæmmere eller serotonin-
+noradrenalin-genoptagelseshæmmere
+-
+rifampicin eller clarithromycin (to antibiotika)
+-
+antiviral medicin mod aids (f.eks. ritonavir)
+-
+visse former for medicin til behandling af epilepsi (f.eks. carbamazepin, phenytoin).
+Graviditet og amning
+Virkningen af Pradaxa på graviditet og et ufødt barn kendes ikke. Du må ikke tage dette lægemiddel, 
+hvis du er gravid, medmindre din læge siger, at det er sikkert nok for dig. Hvis du er kvinde i den 
+fødedygtige alder, bør du undgå graviditet, mens du tager Pradaxa.
+Du må ikke amme, mens du tager Pradaxa.
+Trafik- og arbejdssikkerhed
+Pradaxa påvirker ikke evnen til at køre bil eller betjene maskiner.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pradaxa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pradaxa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pradaxa kapsler kan anvendes til voksne og børn i alderen 8 år eller ældre, som kan sluge kapslerne 
+hele. Fås også som Pradaxa overtrukket granulat til behandling af børn under 12 år, så snart barnet er i 
+stand til at synke blød mad.
+Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+185
+Tag Pradaxa som anbefalet herunder for de forskellige indikationer:
+Forebyggelse af dannelse af blodpropper efter udskiftning af knæ- eller hofte
+Den anbefalede dosis er 220 mg 1 gang om dagen (taget som 2 kapsler på 110 mg).
+Hvis din nyrefunktion er nedsat til mindre end det halve, eller hvis du er 75 år eller ældre, er den 
+anbefalede dosis 150 mg 1 gang dagligt (taget som 2 kapsler på 75 mg).
+Hvis du tager medicin, der indeholder amiodaron, kinidin eller verapamil, er den anbefalede dosis 
+150 mg 1 gang dagligt (taget som 2 kapsler på 75 mg).
+Hvis du tager medicin, der indeholder verapamil, og du har en nedsat nyrefunktion med mere end 
+halvdelen, bør du behandles med en reduceret dosis på 75 mg Pradaxa, fordi din risiko for blødning 
+kan være øget.
+Ved begge slags operationer er det sådan, at behandlingen ikke påbegyndes, hvis det stadig bløder fra 
+operationssåret. Hvis behandlingen først kan begynde dagen efter operationen, skal du begynde 
+doseringen med at tage 2 kapsler 1 gang dagligt.
+Efter udskiftning af knæ
+Du skal begynde behandlingen med Pradaxa, inden for 1-4 timer efter operationen er afsluttet, med 
+1 kapsel. Derefter skal du tage 2 kapsler 1 gang dagligt i totalt 10 dage.
+Efter udskiftning af hofte
+Du skal begynde behandlingen med Pradaxa, inden for 1-4 timer efter operationen er afsluttet, med 
+1 kapsel. Derefter skal du tage 2 kapsler 1 gang dagligt i totalt 28-35 dage.
+Behandling af blodpropper samt forebyggelse af nye blodpropper hos børn
+Pradaxa skal tages to gange dagligt, én dosis om morgenen og én dosis om aftenen, på omtrent 
+samme tidspunkt hver dag. Intervallet mellem doseringer skal være så tæt på 12 timer som muligt.
+Den anbefalede dosis afhænger af vægt og alder. Din læge vil bestemme den korrekte dosis. Din læge 
+kan justere dosis i løbet af behandlingen. Bliv ved med at bruge alle andre lægemidler, medmindre 
+lægen beder dig om at stoppe brugen af nogen af dem.
+Tabel 1 viser den enkelte og den samlede daglige dosis Pradaxa i milligram (mg). Doserne afhænger 
+af patientens vægt i kilo (kg) og alder i år.
+Tabel 1:
+Doseringstabel for Pradaxa kapsler
+Vægt-/alderskombinationer
+Enkeltdosis
+i mg
+Samlet daglig dosis
+i mg
+Vægt i kg
+Alder i år
+11 til under 13 kg
+8 til under 9 år
+75
+150
+13 til under 16 kg
+8 til under 11 år
+110
+220
+16 til under 21 kg
+8 til under 14 år
+110
+220
+21 til under 26 kg
+8 til under 16 år
+150
+300
+26 til under 31 kg
+8 til under 18 år
+150
+300
+31 til under 41 kg
+8 til under 18 år
+185
+370
+41 til under 51 kg
+8 til under 18 år
+220
+440
+51 til under 61 kg
+8 til under 18 år
+260
+520
+61 til under 71 kg
+8 til under 18 år
+300
+600
+71 til under 81 kg
+8 til under 18 år
+300
+600
+81 kg eller derover
+10 til under 18 år
+300
+600
+Enkeltdoser, der kræver kombinationer af flere end én kapsel:
+300 mg:
+to 150 mg kapsler eller
+186
+fire 75 mg kapsler
+260 mg:
+én 110 mg plus én 150 mg kapsel eller
+én 110 mg plus to 75 mg kapsler
+220 mg:
+to 110 mg kapsler
+185 mg:
+én 75 mg plus én 110 mg kapsel
+150 mg:
+én 150 mg kapsel eller
+to 75 mg kapsler
+Sådan skal du tage Pradaxa
+Pradaxa kan tages sammen med eller uden mad. Slug kapslen hel med et glas vand for at lette 
+passagen til mavesækken. Lad være med at knække eller tygge kapslen eller tage indholdet ud, da det 
+kan øge blødningsrisikoen.
+Anvisninger i at åbne blisterne
+Følgende piktogram viser, hvordan du skal tage kapslerne med Pradaxa ud af blisteren
+Afriv en enkelt blister fra blisterkortet langs den perforerede linie.
+Træk bagsidefolien af, og tag kapslen ud.
+
+Tryk ikke kapslen gennem blisterfolien.
+
+Træk først folien af, når der er behov for en kapsel.
+Anvisninger for beholderen
+
+Tryk låget ned og drej for at åbne.
+
+Når du har taget kapslen ud, skal låget sættes på beholderen igen, og straks efter du har taget din 
+dosis, skal beholderen lukkes tæt til.
+Skift i blodfortyndende behandling
+Skift ikke blodfortyndende behandling, uden specifik rådgivning fra lægen.
+Hvis du har taget for meget Pradaxa
+Hvis du har taget for meget af dette lægemiddel, øges risikoen for blødning. Kontakt straks lægen, 
+hvis du har taget for mange kapsler. Specifikke behandlingsmuligheder er tilgængelige.
+Hvis du har glemt at tage Pradaxa
+Forebyggelse af dannelse af blodpropper efter udskiftning af knæ- eller hofte
+Fortsæt næste dag med dine resterende daglige doser Pradaxa på samme tidspunkt, som du plejer.
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+187
+Behandling af blodpropper samt forebyggelse af nye blodpropper hos børn
+En glemt dosis kan stadig tages op til 6 timer før næste dosis skal tages.
+En glemt dosis skal udelades, hvis den resterende tid, før næste dosis skal tages, er under 6 timer.
+Du må ikke tage en dobbelt dosis som erstatning for den glemte dosis.
+Hvis du holder op med at tage Pradaxa
+Tag Pradaxa nøjagtigt som foreskrevet. Du må ikke holde op med at tage dette lægemiddel uden først 
+at tale med lægen, da risikoen for at udvikle en blodprop kan være større, hvis du stopper for tidligt 
+med behandlingen. Kontakt lægen, hvis du oplever fordøjelsesbesvær, efter du har taget Pradaxa.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Pradaxa virker på blodets størkning, så de fleste bivirkninger er tegn på blå mærker eller blødninger. 
+Alvorlig eller svær blødning kan forekomme, de udgør de mest alvorlige bivirkninger og kan, 
+uafhængigt af, hvor blødningen forekommer, være invaliderende, livstruende eller endog med dødelig 
+udgang. Sådanne blødninger er ikke altid synlige.
+Kontakt straks lægen, hvis du får en blødning, som ikke stopper af sig selv eller der opstår tegn på 
+længerevarende eller kraftig blødning (usædvanlig svaghed, træthed, bleghed, svimmelhed, hovedpine 
+eller uforklarlig hævelse). Din læge kan i så fald beslutte at holde dig under nøje observation eller 
+ændre din medicin.
+Kontakt straks lægen, hvis du får en alvorlig allergisk reaktion, som medfører vejrtrækningsbesvær 
+eller svimmelhed.
+De nedenfor anførte mulige bivirkninger er grupperet efter, hvor ofte de kan forekomme:
+Forebyggelse af dannelse af blodpropper efter udskiftning af knæ- eller hofte
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+-
+nedsat indhold af hæmoglobin i blodet (substans i de røde blodlegemer)
+-
+unormale laboratorietestresultater for leverfunktionen.
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):
+-
+blødning kan forekomme fra næsen, i maven eller tarmen, fra penis/vagina eller urinvejene 
+(inkl. blod i urinen der farver urinen pink eller rød), fra hæmorider, fra endetarmen, under 
+huden, i led, fra eller efter et uheld, eller efter en operation
+-
+blodudtrækninger eller blå mærker efter operation
+-
+blod i afføringen fundet ved laboratorieanalyse
+-
+nedsat antal røde blodlegemer
+-
+fald i andelen af blodlegemer
+-
+allergisk reaktion
+-
+opkastning
+-
+hyppig løs eller vandig afføring
+-
+utilpashed
+-
+sårsekret (udsivning af væske fra operationssåret)
+-
+stigning i leverenzymer
+-
+gulfarvning af huden eller af det hvide i øjnene på grund af lever- eller blodproblemer.
+188
+Sjældne (kan forekomme hos op til 1 ud af 1 000 personer):
+-
+blødning
+-
+blødning kan forekomme i hjernen, fra operationssnittet, fra et injektionssted eller fra det sted, 
+hvor et kateter går ind i en vene
+-
+blodigt udflåd fra det sted, hvor et kateter går ind i en vene
+-
+ophostning af blod eller blodigt spyt
+-
+nedsat antal blodplader
+-
+nedsat antal røde blodlegemer efter en operation
+-
+alvorlig allergisk reaktion, som medfører vejrtrækningsbesvær eller svimmelhed
+-
+alvorlig allergisk reaktion, som medfører hævelser i ansigtet eller svælget
+-
+hududslæt fremtrædende som mørkerøde, hævede, kløende buler forårsaget af en allergisk 
+reaktion
+-
+pludselig ændring af hudens farve og udseende
+-
+kløe
+-
+mavesår eller sår i tarmen (inkl. sår i spiserøret)
+-
+betændelseslignende tilstand i spiserør og mave
+-
+tilbageløb af mavesaft til spiserøret
+-
+mavesmerter
+-
+fordøjelsesbesvær
+-
+synkebesvær
+-
+sårvæske
+-
+sårvæske efter operation.
+Ikke kendt (hyppigheden kan ikke beregnes ud fra de tilgængelige data):
+-
+vejrtrækningsbesvær eller hvæsende vejrtrækning
+-
+nedsat antal af eller endog mangel på hvide blodlegemer (disse hjælper med at bekæmpe 
+infektioner)
+-
+hårtab.
+Behandling af blodpropper samt forebyggelse af nye blodpropper hos børn
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+-
+nedsat antal røde blodlegemer
+-
+nedsat antal blodplader
+-
+hududslæt fremtrædende som mørkerøde, hævede, kløende buler forårsaget af en allergisk 
+reaktion
+-
+pludselig ændring af hudens farve og udseende
+-
+blodansamling
+-
+næseblod
+-
+tilbageløb af mavesaft til spiserøret
+-
+opkastning
+-
+kvalme
+-
+hyppig løs eller vandig afføring
+-
+fordøjelsesbesvær
+-
+hårtab
+-
+stigning i leverenzymer.
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):
+-
+nedsat antal hvide blodlegemer (disse hjælper med at bekæmpe infektioner)
+-
+blødning kan forekomme i maven eller tarmen, fra hjernen, fra endetarmen, fra penis/vagina 
+eller urinvejene (inkl. blod i urinen, der farver urinen pink eller rød) eller under huden
+-
+nedsat indhold af hæmoglobin i blodet (substans i de røde blodlegemer)
+-
+fald i andelen af blodlegemer
+-
+kløe
+-
+ophostning af blod eller blodigt spyt
+-
+mavesmerter
+-
+betændelseslignende tilstand i spiserør og mave
+189
+-
+allergisk reaktion
+-
+synkebesvær
+-
+gulfarvning af huden eller af det hvide i øjnene på grund af lever- eller blodproblemer.
+Ikke kendt (hyppigheden kan ikke beregnes ud fra de tilgængelige data):
+-
+mangel på hvide blodlegemer (disse hjælper med at bekæmpe infektioner)
+-
+alvorlig allergisk reaktion, som medfører vejrtrækningsbesvær eller svimmelhed
+-
+alvorlig allergisk reaktion, som medfører hævelser i ansigtet eller svælget
+-
+vejrtrækningsbesvær eller hvæsende vejrtrækning
+-
+blødning
+-
+blødning kan forekomme i et led eller fra et uheld, efter operation, eller fra et injektionssted, 
+eller fra det sted, hvor et kateter går ind i en vene
+-
+blødning kan forekomme fra hæmorider
+-
+mavesår eller sår i tarmen (inkl. sår i spiserøret)
+-
+unormale laboratorietestresultater for leverfunktionen.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pradaxa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pradaxa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken, blisteren eller beholderen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Blister:
+Opbevares i den originale yderpakning for at beskytte mod fugt.
+Beholder:
+Efter åbning skal medicinen anvendes i løbet af højst 4 måneder. Hold beholderen tæt 
+tillukket. Kapslerne skal opbevares i den originale yderpakning for at beskytte mod fugt.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Pradaxa indeholder:</h2>
+<h2>Aktivt stof: dabigatran. Hver hård kapsel indeholder 75 mg dabigatranetexilat (som mesilat).</h2>
+<p>Øvrige indholdsstoffer: vinsyre, akaciegummi, hypromellose, dimeticon 350, talcum og 
+hydroxypropylcellulose.
+-
+Kapselskallen består af carrageenan, kaliumchlorid, titandioxid og hypromellose.
+-
+Den sorte tryksværte består af shellac, sort jernoxid og kaliumhydroxid.
+Udseende og pakningsstørrelser
+Pradaxa 75 mg er hårde kapsler (ca. 18 × 6 mm) med en uigennemsigtig, hvid hætte og en 
+uigennemsigtig, hvid underdel. Boehringer Ingelheims logo er trykt på hætten og “R75" på underdelen 
+190
+af den hårde kapsel.
+Dette lægemiddel fås i pakninger med 10 × 1, 30 × 1 eller 60 × 1 hårde kapsler i perforerede 
+aluminiums-enkeltdosis-blistre. Desuden fås Pradaxa i pakninger med 60 × 1 hårde kapsler i 
+perforerede hvide aluminiums-enkeltdosis-blistre.
+Dette lægemiddel fås også i polypropylen-(plastik-)-beholdere med 60 hårde kapsler.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Boehringer Ingelheim International GmbH
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Fremstiller
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+og
+Boehringer Ingelheim France
+100-104 avenue de France
+75013 Paris
+Frankrig
+191
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Magyarországi Fióktelepe
+Tel: +36 1 299 8900
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti Filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucuresti
+Tel: +40 21 302 2800
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG, 
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+organizačná zložka
+Tel: +421 2 5810 1211
+192
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co. KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu/ og på Lægemiddelstyrelsens hjemmeside 
+https://laegemiddelstyrelsen.dk/.
+193
+Indlægsseddel: Information til patienten
+Pradaxa 110 mg, hårde kapsler
+dabigatranetexilat
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet
+til andre. Det kan være skadeligt for andre, selv om de har de samme symptomer, som du har.
+-
+Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-ce87b0e5c83bb784188a7a43affec906
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pradaxa Package Leaflet for language en"
+Description: "ePI document Bundle for pradaxa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ce87b0e5c83bb784188a7a43affec906"
+* entry[0].resource = composition-en-ce87b0e5c83bb784188a7a43affec906
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpce87b0e5c83bb784188a7a43affec906"
+* entry[=].resource = mpce87b0e5c83bb784188a7a43affec906
+                            
+                    
+Instance: bundlepackageleaflet-da-ce87b0e5c83bb784188a7a43affec906
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pradaxa Package Leaflet for language da"
+Description: "ePI document Bundle for pradaxa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-ce87b0e5c83bb784188a7a43affec906"
+* entry[0].resource = composition-da-ce87b0e5c83bb784188a7a43affec906
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpce87b0e5c83bb784188a7a43affec906"
+* entry[=].resource = mpce87b0e5c83bb784188a7a43affec906
+                            
+                    
+
+
+
+Instance: mpce87b0e5c83bb784188a7a43affec906
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Pradaxa 75 mg hard capsules"
-Description: "Pradaxa 75 mg hard capsules"
+Title: "Medicinal Product pradaxa"
+Description: "pradaxa"
 Usage: #inline
 
  
@@ -652,7 +1438,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Pradaxa 75 mg hard capsules"
+  * productName = "pradaxa"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -679,29 +1465,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-ce87b0e5c83bb784188a7a43affec906
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for pradaxa Package Leaflet for language en"
-Description: "ePI document Bundle for pradaxa Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: ce87b0e5c83bb784188a7a43affec906ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/08/442/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "pradaxa"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-ce87b0e5c83bb784188a7a43affec906"
-* entry[0].resource = composition-en-ce87b0e5c83bb784188a7a43affec906
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe916bdfa0a284c729b9081800160f69d"
-* entry[=].resource = mpe916bdfa0a284c729b9081800160f69d
-                            
-                      
+* title = "List of all ePIs associated with pradaxa"
+
+* subject = Reference(mpe916bdfa0a284c729b9081800160f69d)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#pradaxa "pradaxa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-ce87b0e5c83bb784188a7a43affec906) // pradaxa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-ce87b0e5c83bb784188a7a43affec906) // pradaxa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-ce87b0e5c83bb784188a7a43affec906
+InstanceOf: List
+
+* insert ce87b0e5c83bb784188a7a43affec906ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d7b1f21254cfe6d481d9f6365694f530
 InstanceOf: CompositionUvEpi
 Title: "Composition for apexxnar Package Leaflet"
@@ -315,10 +318,38 @@ Any unused product or waste material should be disposed of in accordance with lo
 
 
 
-Instance: mp7c6242545979211be215443ab2d53c55
+                    
+Instance: bundlepackageleaflet-en-d7b1f21254cfe6d481d9f6365694f530
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for apexxnar Package Leaflet for language en"
+Description: "ePI document Bundle for apexxnar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d7b1f21254cfe6d481d9f6365694f530"
+* entry[0].resource = composition-en-d7b1f21254cfe6d481d9f6365694f530
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd7b1f21254cfe6d481d9f6365694f530"
+* entry[=].resource = mpd7b1f21254cfe6d481d9f6365694f530
+                            
+                    
+
+
+
+Instance: mpd7b1f21254cfe6d481d9f6365694f530
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Apexxnar suspension for injection in pre-filled syringe"
-Description: "Apexxnar suspension for injection in pre-filled syringe"
+Title: "Medicinal Product apexxnar"
+Description: "apexxnar"
 Usage: #inline
 
  
@@ -338,7 +369,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Apexxnar suspension for injection in pre-filled syringe"
+  * productName = "apexxnar"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -365,29 +396,46 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d7b1f21254cfe6d481d9f6365694f530
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for apexxnar Package Leaflet for language en"
-Description: "ePI document Bundle for apexxnar Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d7b1f21254cfe6d481d9f6365694f530ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1612/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "apexxnar"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d7b1f21254cfe6d481d9f6365694f530"
-* entry[0].resource = composition-en-d7b1f21254cfe6d481d9f6365694f530
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7c6242545979211be215443ab2d53c55"
-* entry[=].resource = mp7c6242545979211be215443ab2d53c55
-                            
-                      
+* title = "List of all ePIs associated with apexxnar"
+
+* subject = Reference(mp7c6242545979211be215443ab2d53c55)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#apexxnar "apexxnar"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d7b1f21254cfe6d481d9f6365694f530) // apexxnar en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-d7b1f21254cfe6d481d9f6365694f530
+InstanceOf: List
+
+* insert d7b1f21254cfe6d481d9f6365694f530ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d84b65577b31a872cd6279c4e28cb6f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for erbitux Package Leaflet"
@@ -326,12 +329,550 @@ Germany </p>
 
 
 
+Instance: composition-da-d84b65577b31a872cd6279c4e28cb6f8
+InstanceOf: CompositionUvEpi
+Title: "Composition for erbitux Package Leaflet"
+Description:  "Composition for erbitux Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc3d94ff5660ebc65515442eb85fbc1c6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc3d94ff5660ebc65515442eb85fbc1c6
+* title = "TEST PURPOSES ONLY - erbitux"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du fårbruge Erbitux 
+3. Sådan får du Erbitux 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What erbitux is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What erbitux is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning </p>
+<p>Erbitux indeholder cetuximab, som er et monoklonalt antistof. Monoklonale antistoffer er proteiner, 
+som specifikt genkender og binder sig til andre særlige proteiner kaldet antigener. Cetuximab binder 
+sig til den epidermale vækstfaktorreceptor (EGFR), som er et antigen på overfladen af visse 
+kræftceller. EGFR aktiverer proteiner kaldet RAS. RAS-proteiner spiller en vigtig rolle i EGFR-vejen 
+- en kompleks kaskade af signaler, som er involveret i udvikling og forværring af kræft. På grund af 
+denne binding kan kræftcellen ikke længere modtage de signaler, den har brug for, til vækst og 
+udvikling og til at danne metastaser. </p>
+<p>Anvendelse </p>
+<p>Erbitux bruges i behandlingen af to forskellige former for kræft: </p>
+<ul>
+<li>
+<p>Metastatisk tyktarmskræft. Hos disse patienter anvendes Erbitux alene eller i kombination med 
+andre lægemidler mod kræft. </p>
+</li>
+<li>
+<p>En særlig type kræft i hoved og hals (pladecellekræft). Hos disse patienter anvendes Erbitux i 
+kombination med strålebehandling eller med andre lægemidler mod kræft. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take erbitux"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take erbitux"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Erbitux  </p>
+<p>Brug ikke Erbitux, hvis du har haft svære overfølsomheds- (allergiske) reaktioner over for cetuximab. </p>
+<p>Før du begynder behandling mod metastatisk tyktarmskræft, vil din læge undersøge dine kræftceller 
+for at se, om de indeholder den normale (vildtype) eller den muterede form af RAS. Du må ikke få 
+Erbitux i kombination med oxaliplatinholdig behandling mod kræft, hvis dine kræftceller indeholder 
+den muterede form af RAS. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du bruger Erbitux, hvis nogle af følgende informationer ikke er klare. </p>
+<p>Erbitux kan give infusionsrelaterede bivirkninger. Sådanne bivirkninger kan være af allergisk natur. 
+Du bedes læse "Infusionsrelaterede bivirkninger" i pkt. 4 for at få yderligere oplysninger, da disse 
+bivirkninger kan have alvorlige konsekvenser for dig og endda være livstruende. Disse bivirkninger 
+forekommer normalt under infusionen, inden for 1 time efter infusionen eller somme tider også efter 
+denne tidsperiode. For at konstatere tidlige tegn på bivirkninger vil din helbredstilstand blive 
+kontrolleret regelmæssigt under hver infusion af Erbitux og i mindst en time derefter. 
+Du har større sandsynlighed for at opleve alvorlige allergiske reaktioner, hvis du er allergisk over for 
+rødt kød, skovflåtbid eller havde positive resultater for visse antistoffer (set i en test). Din læge vil tale 
+med dig om passende foranstaltninger. </p>
+<p>Erbitux kan forårsage bivirkninger, der påvirker huden. Din læge vil diskutere med dig, om du har 
+behov for forebyggende eller tidlig behandling. Se også "Bivirkninger, der påvirker huden" i pkt. 4 for 
+detaljer, da nogle hudreaktioner kan have alvorlige konsekvenser for dig, herunder være livstruende. </p>
+<p>Hvis du har hjerteproblemer, vil din læge drøfte med dig, om du kan få Erbitux i kombination med 
+anden medicin mod kræft, især hvis du er 65 år eller ældre. 
+Erbitux kan forårsage bivirkninger fra øjnene. Fortæl lægen, hvis du får akutte eller forværrede 
+øjenproblemer, såsom sløret syn, øjensmerter, røde øjne og/eller meget tørre øjne, hvis du har haft 
+sådanne problemer tidligere, eller hvis du bruger kontaktlinser. Din læge vil drøfte med dig, om du 
+skal kontakte en specialist. </p>
+<p>Hvis du får Erbitux i kombination med anden medicin mod kræft, herunder platin, er der større risiko 
+for, at antallet af de hvide blodlegemer i dit blod nedsættes. Derfor vil lægen undersøge dit blod og 
+overvåge dig for tegn på infektioner (se også "Bivirkninger i kombination med andre behandlinger 
+mod kræft" under pkt. 4). </p>
+<p>Hvis du får Erbitux i kombination med anden medicin mod kræft, herunder fluoropyrimidiner, kan det 
+være mere sandsynligt, at du oplever hjerteproblemer, som kan blive livstruende. Lægen vil diskutere 
+med dig om du har behov for nogen speciel form for overvågning (se også "Bivirkninger i 
+kombination med andre behandlinger mod kræft" under pkt. 4). </p>
+<p>Børn og unge </p>
+<p>Der er ingen relevante indikationer for brug af Erbitux til børn og unge. </p>
+<p>Brug af anden medicin sammen med Erbitux </p>
+<p>Fortæl altid lægen, hvis du tager anden medicin eller har gjort det for nylig. Dette gælder også 
+medicin, som ikke er købt på recept.  </p>
+<p>Graviditet </p>
+<p>Tal med lægen, hvis du er gravid, eller du ikke anvender sikker prævention (tal med lægen, hvis du 
+ikke er sikker). Lægen vil drøfte risici og fordele ved at anvende Erbitux i disse tilfælde.  </p>
+<p>Amning  </p>
+<p>Du må ikke amme dit barn i den periode, hvor du bliver behandlet med Erbitux og to måneder efter 
+sidste dosis.  </p>
+<p>Trafik- og arbejdssikkerhed  </p>
+<p>Du må ikke føre motorkøretøj eller bruge maskiner, hvis du oplever behandlingsrelaterede symptomer, 
+som påvirker din koncentrations- og reaktionsevne.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take erbitux"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take erbitux"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>En læge, som har erfaring med anvendelsen af lægemidler til behandling af cancer, vil overvåge din 
+behandling med Erbitux. Under hver infusion og i mindst 1 time derefter bliver din helbredstilstand 
+kontrolleret regelmæssigt for en eventuel infusionsrelateret bivirkning.  </p>
+<p>Forbehandling </p>
+<p>Før første dosis får du et lægemiddel mod allergi for at nedsætte risikoen for en allergisk reaktion. 
+Lægen vil afgøre, om denne forbehandling er nødvendig ved efterfølgende doser.  </p>
+<p>Dosering og administration </p>
+<p>Erbitux gives normalt som infusion i en åre (som drop) en gang ugentligt. Den korrekte dosis af 
+Erbitux afhænger af legemets overflade. Lægen vil beregne, hvilken dosis der passer til dig. Første 
+dosis (400 mg/m² legemsoverflade) gives som infusion over en periode på cirka 2 timer med en 
+infusionshastighed, der ikke overstiger 5 mg/min. De efterfølgende doser (250 mg/m² legemsoverflade) 
+gives som infusion i løbet af cirka 1 time med en infusionshastighed, der ikke overstiger 10 mg/min. </p>
+<p>I slutningen af denne indlægsseddel findes der detaljerede instruktioner til lægen eller sygeplejersken 
+om, hvordan Erbitux-infusionen forberedes (se "Håndteringsinstruktioner").  </p>
+<p>Behandlingens varighed </p>
+<p>Erbitux gives normalt som infusion én gang ugentligt. Behandlingens varighed kan svinge afhængig af 
+din sygdom samt fra person til person, og lægen vil derfor drøfte med dig, hvor længe du skal have 
+Erbitux. </p>
+<p>Kombination med andre behandlinger mod kræft </p>
+<p>Hvis du får Erbitux i kombination med anden medicin mod kræft, skal denne medicin tidligst gives 
+1 time efter afsluttet Erbitux-infusion.  </p>
+<p>Hvis du får Erbitux i kombination med strålebehandling, indledes behandlingen med Erbitux som 
+regel en uge før strålebehandlingen.  </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>De væsentligste bivirkninger ved Erbitux er infusionsrelaterede bivirkninger samt bivirkninger, der 
+påvirker huden: </p>
+<p>Infusionsrelaterede bivirkninger </p>
+<p>Hos mere end 10 ud af 100 patienter kan der forekomme infusionsrelaterede bivirkninger; hos mere 
+end 1 ud af 100 patienter kan disse bivirkninger være svære. Sådanne reaktioner kan være af allergisk 
+natur. De opstår som regel under infusionen, inden for 1 time efter eller somme tider også efter denne 
+tidsperiode. </p>
+<p>Lette eller moderate infusionsrelaterede bivirkninger omfatter:  </p>
+<ul>
+<li>
+<p>feber  </p>
+</li>
+<li>
+<p>kulderystelser  </p>
+</li>
+<li>
+<p>svimmelhed  </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær<br />
+Hvis disse symptomer opstår, skal du kontakte lægen så hurtigt som muligt. Lægen vil måske 
+overveje at nedsætte infusionshastigheden af Erbitux for at håndtere disse symptomer. </p>
+</li>
+</ul>
+<p>Svære infusionsrelaterede bivirkninger omfatter:  </p>
+<ul>
+<li>
+<p>svære vejrtrækningsproblemer, som udvikler sig hurtigt  </p>
+</li>
+<li>
+<p>nældefeber  </p>
+</li>
+<li>
+<p>besvimelse  </p>
+</li>
+<li>
+<p>brystsmerter (et symptom på bivirkninger i hjertet)<br />
+Hvis disse symptomer opstår, skal du omgående tale med lægen. Disse bivirkninger kan have 
+alvorlige følger, i sjældne tilfælde kan de være livstruende og kræve øjeblikkelig behandling. 
+Behandling med Erbitux skal i så fald stoppes. </p>
+</li>
+</ul>
+<p>Bivirkninger, der påvirker huden </p>
+<p>Hos mere end 80 ud af 100 patienter kan der forekomme bivirkninger, som påvirker huden. Cirka ud af 100 patienter kan få svære hudreaktioner. De fleste bivirkninger udvikles inden for 
+behandlingens tre første uger. De forsvinder som regel med tiden efter afsluttet Erbitux-behandling. </p>
+<p>De væsentligste bivirkninger vedrørende huden omfatter:  </p>
+<ul>
+<li>
+<p>akne-lignende hudforandringer  </p>
+</li>
+<li>
+<p>kløe  </p>
+</li>
+<li>
+<p>tør hud  </p>
+</li>
+<li>
+<p>skaldende hud  </p>
+</li>
+<li>
+<p>øget vækst af hår  </p>
+</li>
+<li>
+<p>neglesygdomme, f.eks.betændelse i negleroden  </p>
+</li>
+</ul>
+<p>Patienter kan i meget sjældne tilfælde (kan forekomme hos op til 1 ud af 10.000 personer) få 
+blæredannelse eller hudafskalning, der kan være tegn på en alvorlig hudreaktion kaldet "Stevens-
+Johnsons syndrom". Hvis du får disse symptomer, skal du omgående kontakte en læge, da disse 
+tegn kan have alvorlige konsekvenser for dig, herunder være livstruende. </p>
+<p>Hvis du bemærker andre udbredte hudforandringer, skal du kontakte lægen så hurtigt som 
+muligt, da det kan være nødvendigt at ændre dosis af Erbitux eller tidsrummet mellem infusionerne. 
+Lægen vil afgøre, om behandlingen skal stoppes, hvis hudreaktionerne kommer igen, efter at dosis er 
+blevet nedsat flere gange. </p>
+<p>Hvis du bemærker, at hudforandringer bliver værre, skal du omgående kontakte en læge, 
+specielt hvis du også oplever generelle tegn på infektion, såsom feber og træthed. Disse tegn kan tyde 
+på en hudinfektion, som kan have alvorlige konsekvenser for dig, herunder være livstruende. </p>
+<p>Bivirkninger, der påvirker lungerne </p>
+<p>Patienter kan i ikke almindelige tilfælde (kan forekomme hos op til 1 ud af 100 personer) få en 
+inflammation (betændelse) i lungerne (kaldes interstitiel lungesygdom), som kan få alvorlige 
+konsekvenser, herunder være livstruende. </p>
+<p>Hvis du bemærker symptomer, såsom vejrtrækningsbesvær eller forværring af 
+vejrtrækningsbesvær, skal du omgående kontakte din læge, især hvis du også hoster eller har 
+feber. Lægen vil afgøre, om behandlingen skal stoppes. </p>
+<p>Andre bivirkninger </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)  </p>
+<ul>
+<li>
+<p>betændelse i slimhinderne i tarmene, munden og næsen (i nogle tilfælde alvorlig), som kan 
+medføre næseblødning hos visse patienter.  </p>
+</li>
+<li>
+<p>fald i indholdet af magnesium i blodet  </p>
+</li>
+<li>
+<p>øget mængde af visse leverenzymer i blodet  </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)  </p>
+<ul>
+<li>
+<p>hovedpine  </p>
+</li>
+<li>
+<p>træthed  </p>
+</li>
+<li>
+<p>irritation og røde øjne  </p>
+</li>
+<li>
+<p>diaré  </p>
+</li>
+<li>
+<p>udtørring, som kan skyldes diaré eller formindsket væskeoptagelse  </p>
+</li>
+<li>
+<p>kvalme  </p>
+</li>
+<li>
+<p>opkastning  </p>
+</li>
+<li>
+<p>manglende appetit, som medfører vægttab  </p>
+</li>
+<li>
+<p>fald i indholdet af kalcium i blodet </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer)  </p>
+<ul>
+<li>
+<p>blodpropper i blodårerne i benene  </p>
+</li>
+<li>
+<p>blodpropper i lungerne  </p>
+</li>
+<li>
+<p>betændelse i øjenlåget eller hornhinden  </p>
+</li>
+</ul>
+<p>Bivirkninger, hvor hyppigheden ikke er kendt (kan ikke vurderes ud fra tilgængelige data) </p>
+<ul>
+<li>Hjernehindebetændelse (aseptisk meningitis) </li>
+</ul>
+<p>Bivirkninger i kombination med andre behandlinger mod kræft </p>
+<p>Hvis du får Erbitux i kombination med anden medicin mod kræft, kan nogle af de bivirkninger, du 
+måske får, også skyldes kombinationen eller den anden medicin. Du bedes derfor sørge for også at 
+læse indlægssedlen til den anden medicin.  </p>
+<p>Hvis du får Erbitux i kombination med andre lægemidler mod kræft, herunder platin, er der større 
+sandsynlighed for, at antallet af de hvide blodlegemer i dit blod er formindsket. Dette kan føre til 
+komplikationer i form af infektioner og kan være livstruende. Dette kan især være tilfældet, hvis du får 
+hudreaktioner, betændelse i slimhinderne i mave-tarm-kanalen eller i munden eller får diaré. Derfor 
+skal du omgående tale med lægen, hvis du får generelle tegn på infektion, som f.eks. feber og 
+træthed.  </p>
+<p>Hvis du får Erbitux i kombination med en anden slags medicin mod kræft, som indeholder 
+fluoropyrimidiner, er det mere sandsynligt at du får følgende bivirkninger af denne medicin: </p>
+<ul>
+<li>
+<p>brystsmerter  </p>
+</li>
+<li>
+<p>hjerteanfald  </p>
+</li>
+<li>
+<p>hjertestop  </p>
+</li>
+<li>
+<p>rødme eller hævelse af håndflader og fodsåler som kan få huden til at skalle (hånd-fod-syndrom) </p>
+</li>
+</ul>
+<p>Hvis du får Erbitux i kombination med strålebehandling, kan nogle af de bivirkninger, du får, også 
+være forbundet med denne kombination, såsom: </p>
+<ul>
+<li>
+<p>betændelse i tarmens og mundhulens slimhinder  </p>
+</li>
+<li>
+<p>hudreaktioner, som er almindelige som følge af strålebehandlingen  </p>
+</li>
+<li>
+<p>synkebesvær  </p>
+</li>
+<li>
+<p>nedsat antal af hvide blodlegemer.  </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store erbitux"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store erbitux"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). 
+Efter åbning er Erbitux beregnet til omgående brug.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Erbitux indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: cetuximab. 
+1 ml infusionsvæske, opløsning indeholder 5 mg cetuximab. 
+Hvert hætteglas med 20 ml indeholder 100 mg cetuximab. 
+Hvert hætteglas med 100 ml indeholder 500 mg cetuximab. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: natriumchlorid, glycin, polysorbat 80, citronsyremonohydrat, 
+natriumhydroxid og vand til injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser  </p>
+<p>Erbitux 5 mg/ml infusionsvæske, opløsning leveres i hætteglas, som indeholder 20 ml eller 100 ml. 
+Hver pakning indeholder 1 hætteglas.  </p>
+<p>Begge størrelser på hætteglas er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Merck Europe B.V. 
+Gustav Mahlerplein 1082 MA Amsterdam 
+Holland </p>
+<p>Fremstiller </p>
+<p>Merck Healthcare KGaA 
+Frankfurter Straße 64293 Darmstadt 
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om Erbitux på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu.  </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale:  </p>
+<p>Håndteringsinstruktioner </p>
+<p>Erbitux kan indgives med almindeligt drop, infusionspumpe eller sprøjtepumpe. Da Erbitux kun er 
+foreneligt med steril natriumchlorid 9 mg/ml (0,9%) opløsning til injektion, må det ikke blandes med 
+andre lægemidler, som gives intravenøst. Der skal anvendes en separat infusionslinje til infusionen, og 
+linjen skal gennemskylles med sterilt natriumchlorid 9 mg/ml (0,9%) injektionsopløsning i slutningen 
+af infusionen. </p>
+<p>Erbitux 5 mg/ml er foreneligt  </p>
+<ul>
+<li>
+<p>med poser af polyetylen (PE), ethylvinylacetat (EVA) eller polyvinylklorid (PVC),  </p>
+</li>
+<li>
+<p>med infusionssæt af polyetylen (PE), polyuretan (PUR), ethylvinylacetat (EVA), termoplastisk 
+polyolefin (TP) eller polyvinylklorid (PVC),  </p>
+</li>
+<li>
+<p>med sprøjter af polypropylen (PP) til sprøjtepumpe. </p>
+</li>
+</ul>
+<p>Erbitux 5 mg/ml er kemisk og fysisk stabilt i op til 48 timer ved 25°C, hvis opløsningen forberedes 
+som beskrevet herunder. Da det imidlertid ikke indeholder noget antimikrobielt konserveringsmiddel 
+eller bakteriehæmmende stof, er det beregnet til omgående brug. Man skal sørge for aseptisk 
+håndtering, mens infusionen forberedes. Erbitux 5 mg/ml skal forberedes som følger: </p>
+<ul>
+<li>
+<p>Indgift med infusionspumpe eller almindeligt drop (fortyndet med steril natriumchlorid 9 mg/ml 
+(0,9%) opløsning): Tag en infusionspose af passende størrelse med steril natriumchlorid 
+9 mg/ml (0,9%) opløsning. Beregn den nødvendige mængde Erbitux. Udtag en tilstrækkelig 
+mængde af natriumchloridopløsningen fra infusionsposen ved hjælp af en egnet steril sprøjte 
+med en kanyle af passende størrelse. Sæt en passende kanyle på en steril sprøjte af passende 
+størrelse. Træk den nødvendige mængde Erbitux op fra et hætteglas. Overfør Erbitux til den 
+klargjorte infusionspose. Gentag proceduren, til den beregnede mængde er nået. Tilslut 
+infusionslinjen og opspæd med fortyndet Erbitux, før infusionen indledes. Anvend almindeligt 
+drop eller infusionspumpe til indgift. Første dosis (400 mg/m² legemsoverflade) gives som 
+infusion over en periode på cirka 2 timer med en infusionshastighed, der ikke overstiger 
+5 mg/min. De efterfølgende doser (250 mg/m² legemsoverflade) gives som infusion i løbet af 
+cirka 1 time med en infusionshastighed, der ikke overstiger 10 mg/min. </p>
+</li>
+<li>
+<p>Indgift med infusionspumpe eller almindeligt drop (ufortyndet): Beregn den nødvendige 
+mængde Erbitux. Sæt en passende kanyle på en steril sprøjte af passende størrelse (minimum 
+50 ml). Træk den nødvendige mængde Erbitux op fra et hætteglas. Overfør Erbitux til en steril, 
+tom beholder eller pose. Gentag proceduren til den beregnede mængde er nået. Tilslut 
+infusionslinjen og opspæd med Erbitux inden infusionen indledes. Første dosis (400 mg/m² 
+legemsoverflade) gives som infusion over en periode på cirka 2 timer med en 
+infusionshastighed, der ikke overstiger 5 mg/min. De efterfølgende doser (250 mg/m² 
+legemsoverflade) gives som infusion i løbet af cirka 1 time med en infusionshastighed, der ikke 
+overstiger 10 mg/min. </p>
+</li>
+<li>
+<p>Indgift med sprøjtepumpe: Beregn den nødvendige mængde Erbitux. Sæt en passende kanyle på 
+en steril sprøjte af passende størrelse. Træk den nødvendige mængde Erbitux op fra et hætteglas. 
+Fjern kanylen og sæt sprøjten i sprøjtepumpen. Tilslut infusionslinjen til sprøjten, og start 
+infusionen efter at have opspædet linjen med Erbitux eller steril natriumchlorid 9 mg/ml (0,9%) 
+opløsning. Gentag proceduren, til den beregnede mængde er infunderet. Første dosis 
+(400 mg/m² legemsoverflade) gives som infusion over en periode på cirka 2 timer med en 
+infusionshastighed, der ikke overstiger 5 mg/min. De efterfølgende doser (250 mg/m² 
+legemsoverflade) gives som infusion i løbet af cirka 1 time med en infusionshastighed, der ikke 
+overstiger 10 mg/min. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d84b65577b31a872cd6279c4e28cb6f8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for erbitux Package Leaflet for language en"
+Description: "ePI document Bundle for erbitux Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d84b65577b31a872cd6279c4e28cb6f8"
+* entry[0].resource = composition-en-d84b65577b31a872cd6279c4e28cb6f8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd84b65577b31a872cd6279c4e28cb6f8"
+* entry[=].resource = mpd84b65577b31a872cd6279c4e28cb6f8
+                            
+                    
+Instance: bundlepackageleaflet-da-d84b65577b31a872cd6279c4e28cb6f8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for erbitux Package Leaflet for language da"
+Description: "ePI document Bundle for erbitux Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d84b65577b31a872cd6279c4e28cb6f8"
+* entry[0].resource = composition-da-d84b65577b31a872cd6279c4e28cb6f8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd84b65577b31a872cd6279c4e28cb6f8"
+* entry[=].resource = mpd84b65577b31a872cd6279c4e28cb6f8
+                            
+                    
+
+
+
+Instance: mpd84b65577b31a872cd6279c4e28cb6f8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Erbitux 5 mg/mL solution for infusion"
-Description: "Erbitux 5 mg/mL solution for infusion"
+Title: "Medicinal Product erbitux"
+Description: "erbitux"
 Usage: #inline
 
  
@@ -351,7 +892,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Erbitux 5 mg/mL solution for infusion"
+  * productName = "erbitux"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -378,29 +919,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d84b65577b31a872cd6279c4e28cb6f8
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for erbitux Package Leaflet for language en"
-Description: "ePI document Bundle for erbitux Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d84b65577b31a872cd6279c4e28cb6f8ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/04/281/003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "erbitux"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d84b65577b31a872cd6279c4e28cb6f8"
-* entry[0].resource = composition-en-d84b65577b31a872cd6279c4e28cb6f8
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc3d94ff5660ebc65515442eb85fbc1c6"
-* entry[=].resource = mpc3d94ff5660ebc65515442eb85fbc1c6
-                            
-                      
+* title = "List of all ePIs associated with erbitux"
+
+* subject = Reference(mpc3d94ff5660ebc65515442eb85fbc1c6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#erbitux "erbitux"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d84b65577b31a872cd6279c4e28cb6f8) // erbitux en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d84b65577b31a872cd6279c4e28cb6f8) // erbitux da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d84b65577b31a872cd6279c4e28cb6f8
+InstanceOf: List
+
+* insert d84b65577b31a872cd6279c4e28cb6f8ListRuleset
+    

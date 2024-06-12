@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-af7ada14ad8929ea357c14ec95ee08dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for nityr Package Leaflet"
@@ -236,12 +239,307 @@ http://www.ema.europa.eu. There are also links to other websites about rare dise
 
 
 
+Instance: composition-da-af7ada14ad8929ea357c14ec95ee08dd
+InstanceOf: CompositionUvEpi
+Title: "Composition for nityr Package Leaflet"
+Description:  "Composition for nityr Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9ee31c82f5b09db836d9b6b2ffc05517)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp9ee31c82f5b09db836d9b6b2ffc05517
+* title = "TEST PURPOSES ONLY - nityr"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Nityr </li>
+<li>Sådan skal De tage Nityr </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What nityr is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What nityr is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nityr indeholder det aktive stof nitisinon. Nityr anvendes til at behandle 
+- en sjælden sygdom, der kaldes arvelig tyrosinæmi type 1 hos voksne, unge og børn. 
+- en sjælden sygdom, der kaldes alkaptonuri (AKU) hos voksne.  </p>
+<p>Disse sygdomme er kendetegnet ved, at kroppen ikke er i stand til fuldstændigt at nedbryde 
+aminosyren tyrosin (aminosyrer er de byggesten, som proteiner består af), hvilket medfører, at der 
+dannes en række skadelige stoffer. Disse stoffer ophobes i kroppen. Nityr blokerer nedbrydningen af 
+tyrosin og de skadelige stoffer dannes derfor ikke.  </p>
+<p>Til behandling af arvelig tyrosinæmi type 1 skal De følge en speciel diæt, når De tager lægemidlet, 
+fordi tyrosin forbliver i kroppen. Denne særlige diæt er baseret på et lavt indhold af tyrosin og 
+fenylalanin (en anden aminosyre). </p>
+<p>Til behandling af AKU kan lægen råde Dem til at indtage en særlig kost. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take nityr"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take nityr"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Nityr 
+- hvis De er allergisk over for nitisinon eller et af de øvrige indholdsstoffer i Nityr (angivet i 
+punkt 6). </p>
+<p>De må ikke amme, mens De tager dette lægemiddel, se punktet "Graviditet og amning". </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De tager Nityr. 
+- Deres øjne vil blive kontrolleret af en oftalmolog inden og med regelmæssige mellemrum under 
+behandlingen med nitisinon. Hvis De får røde øjne eller andre tegn på påvirkninger på øjnene, 
+ skal De straks kontakte Deres læge for at få en øjenundersøgelse. Problemer med øjnene, se 
+punkt 4, kan være et tegn på utilstrækkelig kontrol med kosten. </p>
+<p>Under behandlingen vil der blive taget blodprøver, for at Deres læge kan kontrollere, om behandlingen 
+er tilstrækkelig, og for at sikre, at der ikke er nogen mulige bivirkninger, der medfører sygdomme i 
+blodet. </p>
+<p>Hvis De får Nityr til behandling af arvelig tyrosinæmi type 1 vil Deres lever blive kontrolleret med 
+regelmæssige mellemrum, fordi sygdommen påvirker leveren. </p>
+<p>Opfølgning skal foretages af Deres læge hver 6. måned. Hvis De oplever bivirkninger, anbefales 
+kortere intervaller. </p>
+<p>Brug af anden medicin sammen med Nityr 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De tager anden medicin eller har gjort det for 
+nylig. 
+Nityr kan påvirke virkningen af andre lægemidler såsom:</p>
+<ul>
+<li>Lægemidler mod epilepsi (såsom phenytoin) </li>
+<li>Lægemidler mod blodpropper (såsom warfarin) </li>
+</ul>
+<p>Brug af Nityr sammen med mad 
+Nityr kan tages sammen med eller uden mad igennem hele behandlingsforløbet. </p>
+<p>Graviditet og amning 
+Sikkerheden ved lægemidlet er ikke blevet undersøgt hos gravide og ammende kvinder. 
+Kontakt Deres læge, hvis De planlægger at blive gravid. Hvis De bliver gravid, bør De straks kontakte 
+Deres læge. 
+Lad være med at amme, når De tager dette lægemiddel, se punktet "Tag ikke Nityr". </p>
+<p>Trafik- og arbejdssikkerhed 
+Lægemidlet påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner.<br />
+Hvis De imidlertid oplever bivirkninger, der påvirker synet, bør De ikke køre bil eller betjene 
+maskiner, før synet igen er normalt (se punkt 4 "Bivirkninger"). </p>
+<p>Nityr indeholder Lactose 
+Kontakt lægen, før De tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nityr"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nityr"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>For arvelig tyrosinæmi type 1 skal behandling med lægemidlet startes og overvåges af en læge, der har 
+erfaring med behandling af sygdommen.  </p>
+<p>For arvelig tyrosinæmi type 1 er den anbefalede totale daglige dosis 1 mg/kg legemsvægt taget oralt 
+(gennem munden). Lægen vil justere dosis individuelt. </p>
+<p>Det anbefales at tage dosis én gang dagligt. Da der imidlertid kun foreligger begrænsede data for 
+patienter, der vejer under 20 kg, anbefales det at dele den totale daglige dosis på to daglige doser hos 
+denne patientpopulation. </p>
+<p>For AKU er den anbefalede dosis 10 mg én gang dagligt. </p>
+<p>Til patienter, der har svært ved at synke Nityr-tabletter hele, anbefales det at tage andre formuleringer 
+af nitisinon.   </p>
+<p>Hvis De har taget for meget Nityr 
+Hvis De har taget mere af dette lægemiddel, end De bør, skal De kontakte Deres læge eller apotek så 
+hurtigt som muligt. </p>
+<p>Hvis De har glemt at tage Nityr 
+De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Kontakt Deres læge eller 
+apoteket, hvis De har glemt at tage en dosis. </p>
+<p>Hvis De holder op med at tage Nityr 
+Hvis De har indtryk af, at lægemidlet ikke virker korrekt, så tal med Deres læge. De må ikke ændre 
+dosis eller stoppe behandlingen uden at have talt med Deres læge. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis De bemærker nogen form for bivirkninger med forbindelse til øjnene, skal De straks kontakte 
+Deres læge med henblik på en øjenundersøgelse. Behandling med nitisinon fører til forhøjede 
+tyrosinniveauer i blodet, hvilket kan give anledning til symptomer i forbindelse med øjnene. Hos 
+patienter med arvelig tyrosinæmi type 1 omfatter almindelige øjenrelaterede bivirkninger med 
+forbindelse til øjnene (kan ramme flere end 1 ud af 100 personer), og som skyldes forhøjede 
+tyrosinniveauer, omfatter øjenbetændelse (bindehindebetændelse - konjunktivitis), uklarhed og 
+betændelse i hornhinden (keratitis), lysfølsomhed (fotofobi) og øjensmerter. Øjenlågsbetændelse 
+(blepharitis) er en ikke almindelig bivirkning (kan ramme op til 1 ud af 100 personer). </p>
+<p>Hos patienter med AKU omfatter meget almindelige bivirkninger (kan ramme flere end 1 ud af 
+10 personer) øjenirritation (keratopati) og øjensmerter. </p>
+<p>Andre bivirkninger indberettet hos patienter med arvelig tyrosinæmi type 1 er anført nedenfor: 
+Andre almindelige bivirkninger 
+- Nedsat antal blodplader (trombocytopeni) og hvide blodlegemer (leukopeni), mangel på visse 
+hvide blodlegemer (granulocytopeni). </p>
+<p>Andre ikke almindelige bivirkninger 
+- øget antal hvide blodlegemer (leukocytose) 
+- kløen (pruritus), betændelse i huden (eksfoliativ dermatitis), udslæt. </p>
+<p>Andre bivirkninger indberettet hos patienter med AKU er anført nedenfor: 
+Andre almindelige bivirkninger 
+- bronkitis 
+- lungebetændelse (pneumoni) 
+- kløe (pruritus), udslæt </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store nityr"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nityr"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på karton- og flaskeetiketten efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i den 
+originale beholder for at beskytte mod lys.<br />
+Efter anbrud af beholderen kan lægemidlet opbevares i en periode på 2 måneder, hvorefter det skal 
+kasseres. 
+Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nityr indeholder: 
+Aktivt stof: nitisinon. 
+Hver tablet indeholder 10 mg nitisinon. </p>
+<p>Øvrige indholdsstoffer: glyceroldibehenat og lactosemonohydrat (se pkt. 2 under "Nityr indeholder 
+lactose"). </p>
+<p>Udseende og pakningsstørrelser 
+Nityr er hvide til beige, runde, flade tabletter, som kan have små lysegule til brune prikker, mærket 
+“10" på den ene side og “L" på den anden. 
+Nityr fås i en flaske, der indeholder 60 tabletter. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Cycle Pharmaceuticals (Europe) Limited 
+70 Sir John Rogerson’s Quay<br />
+Dublin 2 
+D02 R296, Irland </p>
+<p>Fremstiller 
+Millmount Healthcare Limited 
+Block-7, City North Business Campus 
+Stamullen, Co. Meath,<br />
+K32 YD60, Irland </p>
+<p>Sciensus International B.V.<br />
+Bijsterhuizen 3142<br />
+6604 LV Wijchen<br />
+Nederlandene (Holland) </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>De kan finde yderligere oplysninger om Nityr på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme og om, 
+hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-af7ada14ad8929ea357c14ec95ee08dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nityr Package Leaflet for language en"
+Description: "ePI document Bundle for nityr Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-af7ada14ad8929ea357c14ec95ee08dd"
+* entry[0].resource = composition-en-af7ada14ad8929ea357c14ec95ee08dd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpaf7ada14ad8929ea357c14ec95ee08dd"
+* entry[=].resource = mpaf7ada14ad8929ea357c14ec95ee08dd
+                            
+                    
+Instance: bundlepackageleaflet-da-af7ada14ad8929ea357c14ec95ee08dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nityr Package Leaflet for language da"
+Description: "ePI document Bundle for nityr Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-af7ada14ad8929ea357c14ec95ee08dd"
+* entry[0].resource = composition-da-af7ada14ad8929ea357c14ec95ee08dd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpaf7ada14ad8929ea357c14ec95ee08dd"
+* entry[=].resource = mpaf7ada14ad8929ea357c14ec95ee08dd
+                            
+                    
+
+
+
+Instance: mpaf7ada14ad8929ea357c14ec95ee08dd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Nityr 10 mg tablets"
-Description: "Nityr 10 mg tablets"
+Title: "Medicinal Product nityr"
+Description: "nityr"
 Usage: #inline
 
  
@@ -261,7 +559,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Nityr 10 mg tablets"
+  * productName = "nityr"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -288,29 +586,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-af7ada14ad8929ea357c14ec95ee08dd
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for nityr Package Leaflet for language en"
-Description: "ePI document Bundle for nityr Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: af7ada14ad8929ea357c14ec95ee08ddListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1290/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "nityr"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-af7ada14ad8929ea357c14ec95ee08dd"
-* entry[0].resource = composition-en-af7ada14ad8929ea357c14ec95ee08dd
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9ee31c82f5b09db836d9b6b2ffc05517"
-* entry[=].resource = mp9ee31c82f5b09db836d9b6b2ffc05517
-                            
-                      
+* title = "List of all ePIs associated with nityr"
+
+* subject = Reference(mp9ee31c82f5b09db836d9b6b2ffc05517)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#nityr "nityr"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-af7ada14ad8929ea357c14ec95ee08dd) // nityr en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-af7ada14ad8929ea357c14ec95ee08dd) // nityr da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-af7ada14ad8929ea357c14ec95ee08dd
+InstanceOf: List
+
+* insert af7ada14ad8929ea357c14ec95ee08ddListRuleset
+    

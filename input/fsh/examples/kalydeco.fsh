@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f7594bb39e512c1a930c8153ce8d7d94
 InstanceOf: CompositionUvEpi
 Title: "Composition for kalydeco Package Leaflet"
@@ -446,12 +449,675 @@ possible side effects not listed in this leaflet. See section 4.</p>         </d
 
 
 
+Instance: composition-da-f7594bb39e512c1a930c8153ce8d7d94
+InstanceOf: CompositionUvEpi
+Title: "Composition for kalydeco Package Leaflet"
+Description:  "Composition for kalydeco Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp73d0df11563aa5cfdc171b4179bcc2c8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp73d0df11563aa5cfdc171b4179bcc2c8
+* title = "TEST PURPOSES ONLY - kalydeco"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Kalydeco </li>
+<li>Sådan skal du tage Kalydeco </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What kalydeco is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What kalydeco is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kalydeco indeholder det aktive stof ivacaftor. Ivacaftor virker på niveauet for cystisk fibrose 
+transmembran-konduktansregulatoren (CFTR), et protein, der danner en kanal ved celleoverfladen, så 
+partikler som chlorid kan føres ind og ud af cellen. På grund af mutationer i CFTR-genet (se nedenfor) 
+er chloridoverførslen nedsat hos personer med cystisk fibrose (CF). Ivacaftor hjælper visse unormale 
+CFTR-proteiner med at åbne kanalerne hyppigere, så chlorid nemmere kan føres ind og ud af cellen.  </p>
+<p>Kalydeco tabletter er indiceret: </p>
+<ul>
+<li>
+<p>Som monoterapi til patienter i alderen 6 år og derover, der vejer 25 kg eller mere, med cystisk 
+fibrose (CF), som har en R117H-CFTR-mutation eller en af de følgende gating-mutationer i 
+CFTR-genet: G551D, G1244E, G1349D, G178R, G551S, S1251N, S1255P, S549N eller S549R.  </p>
+</li>
+<li>
+<p>I kombination med tezacaftor/ivacaftor tabletter til patienter i alderen 6 år og ældre med CF, 
+som har to F508del-mutationer i CFTR-genet (homozygote for F508del-mutationen), eller som 
+har en F508del-mutation og bestemte andre mutationer, der medfører nedsat mængde og/eller 
+funktion af CFTR-proteinet (heterozygote for F508del-mutationen med en resterende funktion 
+(RF)-mutation). Hvis du har fået ordineret Kalydeco, som skal tages sammen med 
+tezacaftor/ivacaftor, skal du læse indlægssedlen for sidstnævnte. Den indeholder vigtige 
+oplysninger om, hvordan disse to lægemidler skal tages. </p>
+</li>
+<li>
+<p>I kombination med ivacaftor/tezacaftor/elexacaftor tabletter til patienter i alderen 6 år og ældre, 
+som har CF, med mindst én F508del-mutation i CFTR-genet. Hvis du har fået ordineret, at 
+Kalydeco skal tages sammen med ivacaftor/tezacaftor/elexacaftor, bør du læse indlægssedlen 
+for sidstnævnte. Den indeholder vigtig information om, hvordan du skal tage disse to 
+lægemidler. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take kalydeco"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take kalydeco"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Kalydeco </p>
+<ul>
+<li>hvis du er allergisk over for ivacaftor eller et af de øvrige indholdsstoffer i Kalydeco (angivet i 
+punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Kalydeco. </p>
+<ul>
+<li>
+<p>Kontakt lægen, hvis du har leverproblemer eller har haft det tidligere. Lægen kan finde det 
+nødvendigt at justere din dosis. </p>
+</li>
+<li>
+<p>Forhøjede niveauer af leverenzymer i blodet er blevet observeret hos nogle personer, der fik 
+Kalydeco (alene eller i kombination med tezacaftor/ivacaftor eller 
+ivacaftor/tezacaftor/elexacaftor). Fortæl det straks til lægen, hvis du har nogle af disse 
+symptomer, da de kan være tegn på leverproblemer: 
+• smerter eller ubehag i den øvre højre del af maven 
+• gulfarvning af huden eller af det hvide i øjnene 
+• appetitløshed 
+• kvalme eller opkastning 
+• mørk urin  </p>
+</li>
+<li>
+<p>Din læge vil tage nogle blodprøver for at kontrollere din lever før og under behandlingen, især i 
+løbet af det første år, og især hvis dine blodprøver tidligere har vist høje leverenzymer. </p>
+</li>
+<li>
+<p>Der er rapporteret depression (herunder selvmordstanker og selvmordsadfærd) hos patienter, 
+mens de har taget Kalydeco, hovedsageligt i et kombinationsregime med tezacaftor/ivacaftor 
+eller ivacaftor/tezacaftor/elexacaftor, som sædvanligvis forekom inden for 3 måneder efter 
+behandlingsstart. Kontakt straks lægen, hvis du (eller en person, som tager dette lægemiddel) 
+oplever et eller flere af de følgende symptomer, som kan være tegn på depression: nedtrykthed 
+eller ændret humør, angst, følelsesmæssig utilpashed eller tanker om at gøre skade på sig selv 
+eller begå selvmord. </p>
+</li>
+<li>
+<p>Kontakt lægen, hvis du har nyreproblemer eller har haft det tidligere. </p>
+</li>
+<li>
+<p>Kalydeco bør ikke anvendes, hvis du har gennemgået en organtransplantation.  </p>
+</li>
+<li>
+<p>Tal med lægen, hvis du bruger hormonbaseret prævention - for eksempel kvinder, der bruger 
+p-piller. Dette kan betyde, at der er større sandsynlighed for, at du får et udslæt, mens du tager 
+Kalydeco i kombination med ivacaftor/tezacaftor/elexacaftor. </p>
+</li>
+<li>
+<p>En unormal tilstand i linsen i øjet (grå stær), der ikke påvirker synet, er blevet bemærket hos 
+nogle børn og unge behandlet med Kalydeco (alene eller i kombination med tezacaftor/ivacaftor 
+eller ivacaftor/tezacaftor/elexacaftor). Din læge kan udføre nogle øjenundersøgelser før og 
+under behandlingen. </p>
+</li>
+<li>
+<p>Kalydeco må kun anvendes, hvis du har en af mutationerne i CFTR-genet, som er anført i punkt 
+1 (Virkning og anvendelse). </p>
+</li>
+</ul>
+<p>Børn og unge </p>
+<p>Dette lægemiddel må ikke gives til børn under 1 måned, da det er ukendt, om ivacaftor er sikkert og 
+effektivt til disse børn.  </p>
+<p>Dette lægemiddel må ikke gives i kombination med tezacaftor/ivacaftor til børn under 6 år eller i 
+kombination med ivacaftor/tezacaftor/elexacaftor til børn under 2 år, da det er ukendt, om det er 
+sikkert og effektivt til dem. </p>
+<p>Brug af andre lægemidler sammen med Kalydeco </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler. Nogle lægemidler kan påvirke den måde, 
+Kalydeco virker på, eller gøre bivirkninger mere sandsynlige. Du skal især fortælle det til lægen, hvis 
+du tager et eller flere af lægemidlerne angivet nedenfor. Lægen kan beslutte at justere din dosis, eller 
+at du har behov for ekstra kontroller. </p>
+<ul>
+<li>
+<p>Antimykotika (anvendes til behandling af svampeinfektioner). Disse indbefatter fluconazol, 
+itraconazol, ketoconazol, posaconazol og voriconazol. </p>
+</li>
+<li>
+<p>Antibiotika (anvendes til behandling af bakterieinfektioner). Disse indbefatter clarithromycin, 
+erythromycin, rifabutin, rifampicin og telithromycin.  </p>
+</li>
+<li>
+<p>Epilepsimedicin (anvendes til behandling af epileptiske krampeanfald). Disse indbefatter 
+carbamazepin, phenobarbital og phenytoin.  </p>
+</li>
+<li>
+<p>Naturlægemidler. Disse indbefatter prikbladet perikon (Hypericum perforatum). </p>
+</li>
+<li>
+<p>Immunundertrykkende midler (anvendes efter en organtransplantation). Disse indbefatter 
+ciclosporin, everolimus, sirolimus og tacrolimus. </p>
+</li>
+<li>
+<p>Hjerteglycosider (anvendes til behandling af visse hjertetilstande). Disse indbefatter digoxin. </p>
+</li>
+<li>
+<p>Antikoagulantia (anvendes til forebyggelse af blodpropper). Disse indbefatter warfarin. </p>
+</li>
+<li>
+<p>Lægemidler mod diabetes. Disse indbefatter glimepirid og glipizid. </p>
+</li>
+<li>
+<p>Lægemidler til sænkning af blodtrykket. Disse indbefatter verapamil. </p>
+</li>
+</ul>
+<p>Brug af Kalydeco sammen med mad og drikke </p>
+<p>Undgå mad og drikke, der indeholder grapefrugt, i løbet af behandlingen, da disse kan forøge 
+bivirkningerne ved Kalydeco ved at øge mængden af ivacaftor i din krop. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. Det kan være bedst at undgå at anvende 
+Kalydeco under graviditeten, hvis det er muligt, og din læge vil hjælpe dig med at beslutte, hvad der er 
+det bedste for dig og dit barn. </p>
+<p>Ivacaftor udskilles i brystmælk. Hvis du planlægger at amme, skal du spørge din læge til råds, før du 
+tager Kalydeco. Din læge vil beslutte, om det er bedst, at du stopper amningen eller behandlingen med 
+ivacaftor. Din læge vil tage højde for fordelene ved amning for barnet i forhold til de terapeutiske 
+fordele for dig. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Kalydeco kan gøre dig svimmel. Hvis du føler dig svimmel, må du ikke føre motorkøretøj, cykle eller 
+betjene maskiner. </p>
+<p>Kalydeco indeholder lactose og natrium </p>
+<p>Kalydeco indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take kalydeco"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take kalydeco"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.  </p>
+<p>Din læge vil bestemme hvilke lægemiddel og hvilken dosis, der er det rigtige til dig. </p>
+<p>Doseringsanbefalinger for Kalydeco er vist i tabel 1. Tabel 1: Doseringsanbefalinger 
+Alder/vægt 
+Morgendosis 
+Aftendosis 
+Kalydeco som monoterapi 
+6 år og ældre, ≥ 25 kg 
+Én Kalydeco 150 mg tablet 
+Én Kalydeco 150 mg 
+tablet 
+Kalydeco i kombination med tezacaftor/ivacaftor 
+6 år til under 12 år, &lt; 30 kg 
+Én tezacaftor 50 mg/ivacaftor 75 mg 
+tablet 
+Én Kalydeco 75 mg tablet 
+6 år til under 12 år, ≥ 30 kg 
+Én tezacaftor 100 mg/ivacaftor 150 mg 
+tablet 
+Én Kalydeco 150 mg 
+tablet 
+12 år og ældre 
+Én tezacaftor 100 mg/ivacaftor 150 mg 
+tablet 
+Én Kalydeco 150 mg 
+tablet 
+Kalydeco i kombination med ivacaftor/tezacaftor/elexacaftor 
+6 år til under 12 år, &lt; 30 kg 
+To ivacaftor 37,5 mg/tezacaftor 
+25 mg/elexacaftor 50 mg tabletter 
+Én Kalydeco 75 mg tablet 
+6 år til under 12 år, ≥ 30 kg 
+To ivacaftor 75 mg/tezacaftor 
+50 mg/elexacaftor 100 mg tabletter 
+Én Kalydeco 150 mg 
+tablet 
+12 år og ældre 
+To ivacaftor 75 mg/tezacaftor 
+50 mg/elexacaftor 100 mg tabletter 
+Én Kalydeco 150 mg 
+tablet </p>
+<p>Morgen- og aftendoserne skal tages med ca. 12 timers mellemrum sammen med mad, der indeholder 
+fedt.  </p>
+<p>Du skal blive ved med at bruge alle andre lægemidler, du bruger, medmindre lægen fortæller dig, at du 
+skal holde op med at bruge et eller flere af dem.  </p>
+<p>Hvis du har leverproblemer, enten moderate eller svære, kan det være nødvendigt, at din læge 
+reducerer dosis af dine tabletter, da din lever ikke vil udskille lægemidlet lige så hurtigt som hos 
+personer med normal leverfunktion. </p>
+<p>Dette lægemiddel er til oral anvendelse.  </p>
+<p>Slug tabletten hel. Tabletterne må ikke knækkes, tygges eller opløses. Tag Kalydeco tabletterne 
+sammen med mad, der indeholder fedt. </p>
+<p>Måltider eller snacks, der indeholder fedt, omfatter måltider og snacks fremstillet med smør eller olie, 
+eller som indeholder æg. Andre fedtholdige madvarer er: </p>
+<ul>
+<li>
+<p>ost, sødmælk, sødmælksprodukter, yoghurt, chokolade </p>
+</li>
+<li>
+<p>kød, fed fisk </p>
+</li>
+<li>
+<p>avocadoer, hummus, sojabaserede produkter (tofu) </p>
+</li>
+<li>
+<p>nødder, fedtholdige energibarer eller -drikke </p>
+</li>
+</ul>
+<p>Hvis du har taget for meget Kalydeco </p>
+<p>Du kan opleve bivirkninger, herunder bivirkninger, som nævnes i punkt 4 nedenfor. Hvis du gør det, 
+skal du spørge lægen eller apotekspersonalet til råds. Hvis det er muligt, skal du medbringe dit 
+lægemiddel og denne indlægsseddel. </p>
+<p>Hvis du har glemt at tage Kalydeco </p>
+<p>Tag den glemte dosis, hvis der er gået under 6 timer fra du skulle have taget en dosis. Ellers skal du 
+vente indtil den næste planlagte dosis, som du normalt ville gøre. Du må ikke tage en dobbeltdosis 
+som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Kalydeco  </p>
+<p>Tag Kalydeco så længe, som lægen anbefaler det. Du må ikke stoppe, medmindre lægen råder dig til 
+det.  </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Alvorlige bivirkninger  </p>
+<p>Mavesmerter og forhøjede niveauer af leverenzymer i blodet.  </p>
+<p>Mulige tegn på leverproblemer </p>
+<p>Forhøjede niveauer af leverenzymer i blodet, som er almindelige hos patienter med CF, er også blevet 
+indberettet hos patienter, der har taget Kalydeco alene eller i kombination med tezacaftor/ivacaftor 
+eller ivacaftor/tezacaftor/elexacaftor. </p>
+<p>Hos patienter, der har taget Kalydeco i kombination med ivacaftor/tezacaftor/elexacaftor, er der 
+blevet indberettet leverskade og forværret leverfunktion hos personer med svær leversygdom. Den 
+forværrede leverfunktion kan være alvorlig og kan kræve transplantation. </p>
+<p>Følgende kan være tegn på leverproblemer:  </p>
+<ul>
+<li>
+<p>smerter eller ubehag i den øvre højre del af maven </p>
+</li>
+<li>
+<p>gulfarvning af huden eller det hvide i øjnene </p>
+</li>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>kvalme eller opkastning </p>
+</li>
+<li>
+<p>mørk urin </p>
+</li>
+</ul>
+<p>Depression 
+Tegn på dette omfatter nedtrykthed eller ændret humør, angst, følelsesmæssig utilpashed. </p>
+<p>Fortæl det straks til lægen, hvis du har en eller flere af disse symptomer. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>infektion i de øvre luftveje (forkølelse), herunder ondt i halsen og tilstoppet næse </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>ændrede bakterietyper i slim </p>
+</li>
+<li>
+<p>forhøjede niveauer af leverenzymer (tegn på belastning af leveren) </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>næseflåd </p>
+</li>
+<li>
+<p>øresmerter, øreproblemer </p>
+</li>
+<li>
+<p>ringen for ørerne </p>
+</li>
+<li>
+<p>rødme i ørerne </p>
+</li>
+<li>
+<p>sygdom i det indre øre (følelse af at være svimmel eller dreje rundt) </p>
+</li>
+<li>
+<p>bihuleproblemer (tilstoppede bihuler) </p>
+</li>
+<li>
+<p>rødme i halsen </p>
+</li>
+<li>
+<p>knude i brystet </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>influenza </p>
+</li>
+<li>
+<p>lavt blodsukker (hypoglykæmi) </p>
+</li>
+<li>
+<p>unormal vejrtrækning (stakåndethed eller vejrtrækningsproblemer) </p>
+</li>
+<li>
+<p>luft i maven (flatulens) </p>
+</li>
+<li>
+<p>bumser (akne) </p>
+</li>
+<li>
+<p>kløende hud </p>
+</li>
+<li>
+<p>forhøjet niveau af kreatinfosfokinase (tegn på muskelnedbrydning) påvist i blodprøver </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>tilstoppede ører </p>
+</li>
+<li>
+<p>brystbetændelse </p>
+</li>
+<li>
+<p>forstørrede bryster hos drenge/mænd </p>
+</li>
+<li>
+<p>ændring af eller smerter i brystvorter  </p>
+</li>
+<li>
+<p>pibende vejrtrækning </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>leverskade </p>
+</li>
+<li>
+<p>forhøjet bilirubinmåling (blodprøve til måling af leverfunktion) </p>
+</li>
+</ul>
+<p>Hos børn og unge kan endvidere ses følgende bivirkninger 
+Bivirkninger, der observeres hos børn og unge, svarer til dem, der observeres hos voksne. Forhøjede 
+niveauer af leverenzymer i blodet observeres dog hyppigere hos små børn. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store kalydeco"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store kalydeco"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, blisteren og flaskeetiketten efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kalydeco indeholder:  </p>
+<p>Aktivt stof: ivacaftor. </p>
+<p>Kalydeco 75 mg filmovertrukne tabletter </p>
+<p>Hver filmovertrukket tablet indeholder 75 mg ivacaftor. </p>
+<p>Kalydeco 150 mg filmovertrukne tabletter </p>
+<p>Hver filmovertrukket tablet indeholder 150 mg ivacaftor. </p>
+<p>Øvrige indholdsstoffer: </p>
+<ul>
+<li>
+<p>Tabletkerne: cellulose, mikrokrystallinsk, lactosemonohydrat, hypromelloseacetatsuccinat, 
+croscarmellosenatrium, natriumlaurilsulfat (E487), silica, kolloid vandfri, og magnesiumsterat. </p>
+</li>
+<li>
+<p>Tabletfilm: polyvinylalkohol, titandioxid (E171), macrogol (PEG3350), talcum, indigocarmin 
+aluminium lake (E132) og carnaubavoks. </p>
+</li>
+<li>
+<p>Prægeblæk: shellac, jernoxid, sort (E172), propylenglycol (E1520) og ammoniakopløsning, 
+koncentreret. </p>
+</li>
+</ul>
+<p>Se sidst i punkt 2 - Kalydeco indeholder lactose og natrium. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Kalydeco 75 mg filmovertrukne tabletter er lyseblå, kapselformede, 12,7 mm × 6,8 mm og præget 
+med “V 75" med sort farve på den ene side og uden præg på den anden side. </p>
+<p>Følgende pakningsstørrelser er tilgængelige: </p>
+<ul>
+<li>Blisterkortpakning med 28 filmovertrukne tabletter </li>
+</ul>
+<p>Kalydeco 150 mg filmovertrukne tabletter er lyseblå, kapselformede, 16,5 mm × 8,4 mm og præget 
+med “V 150" med sort farve på den ene side og uden præg på den anden side. </p>
+<p>Findes i følgende pakningsstørrelser: </p>
+<ul>
+<li>
+<p>Blisterkortpakning med 28 filmovertrukne tabletter </p>
+</li>
+<li>
+<p>Blisterpakning med 56 filmovertrukne tabletter </p>
+</li>
+<li>
+<p>Beholder med 56 filmovertrukne tabletter </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Vertex Pharmaceuticals (Ireland) Limited 
+Unit 49, Block F2, Northwood Court, Santry, 
+Dublin 9, D09 T665, 
+Irland 
+Tlf.: +353 (0)1 761 7 
+Fremstiller </p>
+<p>Almac Pharma Services (Ireland) Limited 
+Finnabair Industrial Estate 
+Dundalk 
+Co. Louth 
+A91 P9KD 
+Irland  </p>
+<p>Almac Pharma Services Limited 
+Seagoe Industrial Estate 
+Craigavon 
+Northern Ireland 
+BT63 5UA 
+Storbritannien </p>
+<p>Millmount Healthcare Limited 
+Block-7, City North Business Campus 
+Stamullen 
+Co. Meath 
+K32 YDIrland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien, България, Česká 
+republika, Danmark, Deutschland, Eesti, 
+France, Hrvatska, Ireland, Ísland, Κύπρος, 
+Latvija, Lietuva, Luxembourg/Luxemburg, 
+Magyarország, Malta, Nederland, Norge, 
+Österreich, Polska, Portugal, România, 
+Slovenija, Slovenská republika, 
+Suomi/Finland, Sverige, United Kingdom 
+(Northern Ireland) 
+Vertex Pharmaceuticals (Ireland) Limited 
+Tél/Tel/Teл/Tlf/Sími/Τηλ/Puh:<br />
++353 (0) 1 761 7 
+España 
+Vertex Pharmaceuticals Spain, S.L. 
+Tel: + 34 91 7892 
+Ελλάδα 
+Vertex Φαρμακευτική Μονοπρόσωπη Ανώνυμη 
+Εταιρία 
+Τηλ: +30 (211) 2120 
+Italia 
+Vertex Pharmaceuticals 
+(Italy) S.r.l. 
+Tel: +39 0697794 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. 
+Indlægsseddel: Information til patienten </p>
+<p>Kalydeco 13,4 mg granulat i brev 
+Kalydeco 25 mg granulat i brev 
+Kalydeco 50 mg granulat i brev 
+Kalydeco 59,5 mg granulat i brev 
+Kalydeco 75 mg granulat i brev 
+ivacaftor </p>
+<p>Læs denne indlægsseddel grundigt, inden dit barn begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Spørg dit barns læge eller apotekspersonalet, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret dette lægemiddel til dit barn. Lad derfor være med at give lægemidlet til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som dit barn har. </p>
+</li>
+<li>
+<p>Kontakt dit barns læge eller apotekspersonalet, hvis dit barn får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f7594bb39e512c1a930c8153ce8d7d94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kalydeco Package Leaflet for language en"
+Description: "ePI document Bundle for kalydeco Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f7594bb39e512c1a930c8153ce8d7d94"
+* entry[0].resource = composition-en-f7594bb39e512c1a930c8153ce8d7d94
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf7594bb39e512c1a930c8153ce8d7d94"
+* entry[=].resource = mpf7594bb39e512c1a930c8153ce8d7d94
+                            
+                    
+Instance: bundlepackageleaflet-da-f7594bb39e512c1a930c8153ce8d7d94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kalydeco Package Leaflet for language da"
+Description: "ePI document Bundle for kalydeco Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f7594bb39e512c1a930c8153ce8d7d94"
+* entry[0].resource = composition-da-f7594bb39e512c1a930c8153ce8d7d94
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf7594bb39e512c1a930c8153ce8d7d94"
+* entry[=].resource = mpf7594bb39e512c1a930c8153ce8d7d94
+                            
+                    
+
+
+
+Instance: mpf7594bb39e512c1a930c8153ce8d7d94
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Kalydeco 75 mg film-coated tablets"
-Description: "Kalydeco 75 mg film-coated tablets"
+Title: "Medicinal Product kalydeco"
+Description: "kalydeco"
 Usage: #inline
 
  
@@ -471,7 +1137,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Kalydeco 75 mg film-coated tablets"
+  * productName = "kalydeco"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -498,29 +1164,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f7594bb39e512c1a930c8153ce8d7d94
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for kalydeco Package Leaflet for language en"
-Description: "ePI document Bundle for kalydeco Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f7594bb39e512c1a930c8153ce8d7d94ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/782/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "kalydeco"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f7594bb39e512c1a930c8153ce8d7d94"
-* entry[0].resource = composition-en-f7594bb39e512c1a930c8153ce8d7d94
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp73d0df11563aa5cfdc171b4179bcc2c8"
-* entry[=].resource = mp73d0df11563aa5cfdc171b4179bcc2c8
-                            
-                      
+* title = "List of all ePIs associated with kalydeco"
+
+* subject = Reference(mp73d0df11563aa5cfdc171b4179bcc2c8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#kalydeco "kalydeco"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f7594bb39e512c1a930c8153ce8d7d94) // kalydeco en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f7594bb39e512c1a930c8153ce8d7d94) // kalydeco da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f7594bb39e512c1a930c8153ce8d7d94
+InstanceOf: List
+
+* insert f7594bb39e512c1a930c8153ce8d7d94ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-08061c368f26d0bb40f900f8c777c70e
 InstanceOf: CompositionUvEpi
 Title: "Composition for icatibant Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp8d45513d7b167866706c5bc9f06bc700)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -447,9 +450,460 @@ http://www.ema.europa.eu. There are also links to other websites about rare dise
 
 
 
+Instance: composition-da-08061c368f26d0bb40f900f8c777c70e
+InstanceOf: CompositionUvEpi
+Title: "Composition for icatibant Package Leaflet"
+Description:  "Composition for icatibant Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8d45513d7b167866706c5bc9f06bc700)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - icatibant"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Icatibant Accord 
+3. Sådan skal du bruge Icatibant Accord 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What icatibant is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What icatibant is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Icatibant Accord indeholder det aktive stof icatibant. </p>
+<p>Icatibant Accord anvendes til behandling af symptomer på arvelig angioødem (HAE) hos voksne, 
+unge og børn i alderen 2 år og opefter. </p>
+<p>Ved HAE er koncentrationen i blodet af et stof, der kaldes bradykinin, øget, og dette fører til 
+symptomer som hævelser, smerter, kvalme og diarré. </p>
+<p>Icatibant Accord blokerer bradykinins aktivitet og standser derfor udviklingen af flere symptomer 
+under et HAE-anfald. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take icatibant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take icatibant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Icatibant Accord 
+- hvis du er allergisk over for icatibant eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i  punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger Icatibant Accord 
+- hvis du lider af angina (nedsat blodgennemstrømning i hjertemusklen). 
+- hvis du for nylig har haft et hjerteanfald. </p>
+<p>Bivirkningerne forbundet med Icatibant Accord minder om dine sygdomssymptomer. Tal straks med 
+din læge, hvis dine anfaldssymptomer bliver værre, efter at du har fået Icatibant Accord </p>
+<p>Derudover:</p>
+<ul>
+<li>
+<p>du eller din omsorgsperson skal oplæres i subkutan injektionsteknik (under huden), før du må 
+medicinere dig selv med eller før omsorgspersonen indgiver Icatibant Accord. </p>
+</li>
+<li>
+<p>hvis du får et laryngealt anfald (blokering af de øvre luftveje) umiddelbart efter, du selv har 
+taget Icatibant Accord, eller en omsorgsperson har givet dig det, skal du søge lægehjælp. </p>
+</li>
+<li>hvis dine symptomer ikke forsvinder efter selvmedicinering af Icatibant Accord, eller efter 
+omsorgspersonen har givet dig injektionen, skal du søge lægehjælp med henblik på yderligere 
+indsprøjtninger af Icatibant Accord. Der kan hos voksne patienter gives yderligere 2 
+indsprøjtninger i løbet af 24 timer. </li>
+</ul>
+<p>Børn og unge 
+Icatibant Accord anbefales ikke til børn under 2 år eller med en vægt på under 12 kg, da det ikke er 
+undersøgt hos disse patienter. </p>
+<p>Brug af anden medicin sammen med Icatibant Accord 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin.  </p>
+<p>Så vidt vides, interagere Icatibant Accord ikke med anden medicin. Hvis du tager medicin, som kaldes 
+ACE- hæmmer (for eksempel: captopril, enalapril, ramipril, quinapril, lisinopril) for at sænke 
+blodtrykket eller af andre grunde, skal du fortælle din læge det, inden du får Icatibant Accord. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger Icatibant Accord. </p>
+<p>Hvis du ammer, må du ikke amme i 12 timer, efter at du sidst har fået Icatibant Accord. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke føre motorkøretøj eller benytte maskiner, hvis du føler dig træt eller svimmel som et 
+resultat af dit HAE-anfald eller efter brug af Icatibant Accord. </p>
+<p>Icatibant Accord indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. sprøjte, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take icatibant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take icatibant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.  </p>
+<p>Hvis du aldrig tidligere har fået Icatibant Accord, så vil din første dosis Icatibant Accord altid blive 
+givet til dig af din læge eller sygeplejersken. Din læge vil fortælle dig, hvornår det er sikkert for dig at 
+tage hjem. Når du har drøftet det med lægen eller sygeplejersken, og du er blevet oplært i subkutan 
+injektionsteknik (under huden), kan du tage Icatibant Accord selv, eller en omsorgsperson kan give dig 
+lægemidlet, når du får et HAE-anfald. Det er vigtigt, at Icatibant Accord indsprøjtes subkutant (under 
+huden), så snart du mærker et angioødem-anfald. Din læge vil oplære dig og din omsorgsperson i, 
+hvordan man sikkert indsprøjter Icatibant Accord ved at følge instruktionerne i indlægssedlen. </p>
+<p>Hvornår og hvor ofte skal du bruge Icatibant Accord? 
+Din læge har bestemt den præcise dosis af Icatibant Accord og vil fortælle dig, hvor ofte den skal 
+bruges. </p>
+<p>Voksne 
+- Den anbefalede dosis af Icatibant Accord er én indsprøjtning (3 ml, 30 mg) givet subkutant 
+(under huden), lige så snart du mærker et angioødem-anfald (for eksempel øget hævelse i huden, 
+særligt i ansigtet og på halsen, eller øgede mavesmerter). 
+- Hvis du stadig ikke føler nogen lindring efter yderligere 6 timer, skal du søge lægehjælp med 
+henblik på yderligere indsprøjtninger af Icatibant Accord. Der kan hos voksne gives op til 2 </p>
+<p>yderligere indsprøjtninger inden for 24 timer. </p>
+<p>Du må ikke få mere end 3 indsprøjtninger i løbet af et døgn, og hvis du har brug for mere end 8 
+indsprøjtninger på en måned, skal du søge lægehjælp. </p>
+<p>Børn og unge i alderen 2-17 år 
+- Den anbefalede dosis Icatibant Accord er én injektion af 1 ml op til maksimalt 3 ml baseret på 
+legemsvægt indsprøjtet subkutant (under huden), så snart du bemærker udviklingen af 
+symptomer på et angioødem-anfald (f.eks. større hævelse i huden, især i ansigtet og på halsen, 
+øgede smerter i maven). </p>
+<ul>
+<li>
+<p>Se afsnittet med brugervejledning vedrørende den dosis, der skal indsprøjtes. </p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du er i tvivl om hvilken dosis, der skal 
+indsprøjtes. </p>
+</li>
+<li>
+<p>Hvis dine symptomer bliver værre, eller hvis du ikke oplever en bedring, skal du straks 
+søge lægehjælp. </p>
+</li>
+</ul>
+<p>Hvordan skal Icatibant Accord indgives? 
+Icatibant Accord er beregnet til subkutan indsprøjtning (under huden). Hver sprøjte må kun bruges én 
+gang.<br />
+ Icatibant Accord indsprøjtes med en kort nål ind i fedtvævet lige under huden på maven. Spørg lægen 
+eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>
+<p>Følgende trin-for-trin-vejledning er udelukkende beregnet til:</p>
+<ul>
+<li>selvmedicinering (voksne) </li>
+<li>indgivelse af en omsorgsperson eller en sundhedsperson til voksne, unge eller  børn i 
+alderen over 2 år (med en legemsvægt på mindst 12 kg). </li>
+</ul>
+<p>Vejledningen omfatter følgende hovedtrin: 
+1. Overordnede oplysninger 
+2a. 
+Klargøring af sprøjten til børn og unge (2-17 år) med en legemsvægt på højst 65 kg<br />
+2b. 
+Klargøring af sprøjten og kanylen til indsprøjtning (alle patienter) 
+3. Forberedelse af indsprøjtningsstedet 
+4. Indsprøjtning af opløsningen 
+5. Bortskaffelse af indsprøjtningsmaterialer </p>
+<p>Trin-for-trin vejledning i indsprøjtning </p>
+<ol>
+<li>
+<p>Overordnede oplysninger </p>
+</li>
+<li>
+<p>Rengør det arbejdsområde (den arbejdsflade), der skal anvendes, inden du starter.  </p>
+</li>
+<li>
+<p>Vask dine hænder med sæbe og vand.  </p>
+</li>
+<li>
+<p>Åbn bakken ved at trække forseglingen af.  </p>
+</li>
+<li>
+<p>Fjern den fyldte sprøjte fra bakken.  </p>
+</li>
+<li>
+<p>Fjern skruelåget fra den fyldte sprøjte ved at skrue skruelåget af.  </p>
+</li>
+<li>
+<p>Læg den fyldte sprøjte fra dig efter at have skruet skruelåget af.  </p>
+</li>
+</ol>
+<p>2a) Klargøring af sprøjten til </p>
+<p>børn og unge (2-17 år), 
+der vejer 65 kg eller derunder: </p>
+<p>Vigtige oplysninger til sundhedspersoner og omsorgspersoner: </p>
+<p>Hvis dosis er mindre end 30 mg (3 ml), er det følgende udstyr nødvendigt for at optrække den 
+relevante dosis (se nedenfor):  </p>
+<p>a) 
+ Fyldt Icatibant Accord-injektionssprøjte (med icatibant-opløsning)  </p>
+<p>b) 
+ Konnektor (adapter)  </p>
+<p>c) 
+ Gradueret 3 ml-sprøjte  </p>
+<p>Den ønskede injektionsmængde i ml bør trækkes op i en tom gradueret 3 ml-sprøjte (se tabellen 
+nedenfor).  </p>
+<p>Tabel 1: Doseringsregimen til børn og unge  </p>
+<p>Patienter, der vejer mere end 65 kg, skal bruge hele indholdet af den fyldte injektionssprøjte (3 ml).  </p>
+<p>Hvis du ikke er sikker på, hvilken mængde opløsning du skal trække op, så spørg 
+lægen, apotekspersonalet eller sygeplejersken.  </p>
+<p>1) 
+ Fjern skruehætterne i hver ende af konnektoren.  </p>
+<p>For at undgå forurening må du ikke røre enderne på konnektoren eller 
+sprøjtespidsen  </p>
+<p>2) 
+Skru konnektoren fast på den fyldte injektionssprøjte.  </p>
+<p>3) 
+Tilslut den graduerede sprøjte til den anden ende af konnektoren og sørg for, at begge 
+forbindelser slutter tæt.<br />
+Legemsvægt 
+Injektionsmængde 
+12 kg til 25 kg 
+1,0 ml 
+26 kg til 40 kg 
+1,5 ml 
+41 kg til 50 kg 
+2,0 ml 
+51 kg til 65 kg 
+2,5 ml </p>
+<p>Overførsel af icatibant-opløsningen til den graduerede sprøjte:  </p>
+<p>1) 
+Tryk på stemplet på den graduerede sprøjte for at påbegynde overførslen af icatibant-
+opløsningen (den yderste venstre side af billedet herunder).  </p>
+<p>2) 
+Hvis icatibant-opløsningen ikke begynder at flyde over i den graduerede sprøjte, skal du 
+trække forsigtigt i stemplet på den graduerede sprøjte, indtil icatibant-opløsningen begynder at 
+flyde ind i den graduerede sprøjte (se billedet herunder).  </p>
+<p>3) 
+Fortsæt med at trykke stemplet på den fyldte injektionssprøjte ned, indtil den ønskede 
+injektionsmængde (dosis) er overført til den graduerede sprøjte. Se doseringsoplysningerne i 
+tabel 1. Hvis der er luft i den graduerede sprøjte:</p>
+<ul>
+<li>
+<p>Vend rundt på de forbundne sprøjter, så den fyldte sprøjte er øverst (se billedet herunder).  </p>
+</li>
+<li>
+<p>Skub den graduerede sprøjtes stempel frem, så eventuel luft presses tilbage i den fyldte 
+injektionssprøjte (dette trin skal muligvis gentages nogle gange).  </p>
+</li>
+<li>
+<p>Træk en mængde icatibant-opløsning op svarende til den ønskede injektionsmængde.  </p>
+</li>
+</ul>
+<p>4) 
+Fjern den fyldte injektionssprøjte og konnektoren fra den graduerede sprøjte.  </p>
+<p>5) 
+Bortskaf den fyldte injektionssprøjte og konnektoren i beholderen til skarpe genstande.  </p>
+<p>2b) Klargøring af sprøjten og kanylen til injektion: 
+Alle patienter (voksne, unge og børn) </p>
+<ul>
+<li>
+<p>Fjern kanylehætten fra blisterpakken.  </p>
+</li>
+<li>
+<p>Fjern forseglingen fra kanylehætten (kanylen skal stadig være i kanylehætten).  </p>
+</li>
+<li>
+<p>Hold fast om sprøjten. Sæt omhyggeligt kanylen på den fyldte sprøjte med den farveløse 
+opløsning.  </p>
+</li>
+<li>
+<p>Skru den fyldte sprøjte fast på kanylen, mens kanylen stadig er i kanylehætten.  </p>
+</li>
+<li>
+<p>Fjern kanylen fra kanylehætten ved at trække i sprøjten. Træk ikke i stemplet.  </p>
+</li>
+<li>
+<p>Sprøjten er nu klar til injektionen.  </p>
+</li>
+</ul>
+<p>Forberedelse af injektionsstedet  </p>
+<ul>
+<li>
+<p>Vælg injektionssted. Injektionsstedet skal være en hudfold på din mave, cirka 5-10 cm under 
+din navle i enten højre eller venstre side. Stedet skal være mindst 5 cm væk fra eventuelle ar. 
+Vælg ikke et sted, hvor der er blå mærker, eller som er hævet eller gør ondt.  </p>
+</li>
+<li>
+<p>Rens injektionsstedet med en spritserviet og lad det tørre.  </p>
+</li>
+</ul>
+<p>4) Injektion af opløsningen </p>
+<ul>
+<li>
+<p>Hold sprøjten i den ene hånd mellem to fingre med din tommelfinger for enden af stemplet.  </p>
+</li>
+<li>
+<p>Sørg for, at der ikke er nogen luftbobler i sprøjten ved at presse stemplet, indtil den første 
+dråbe kommer ud af spidsen af kanylen.  </p>
+</li>
+<li>
+<p>Hold sprøjten i en 45-90 graders vinkel på huden med kanylen ind mod huden.  </p>
+</li>
+<li>
+<p>Hold sprøjten i den ene hånd, mens du bruger den anden hånd til forsigtigt at lave en hudfold 
+mellem din tommelfinger og de øvrige fingre på det sted, du desinficerede tidligere.  </p>
+</li>
+<li>
+<p>Hold fast i hudfolden, placér sprøjten på huden og tryk hurtigt kanylen ind i hudfolden.  </p>
+</li>
+<li>
+<p>Pres forsigtigt sprøjtens stempel med en fast hånd, indtil al væsken er indsprøjtet under huden, 
+og der ikke er mere væske tilbage i sprøjten.  </p>
+</li>
+<li>
+<p>Du skal presse stemplet langsomt, således at det tager ca. 30 sekunder.  </p>
+</li>
+<li>
+<p>Slip hudfolden og træk forsigtigt kanylen ud.  </p>
+</li>
+</ul>
+<p>5) Bortskaffelse af injektionsmaterialer  </p>
+<ul>
+<li>Læg sprøjten, kanylen og kanylehætten i en beholder til skarpe genstande og affald, der kan 
+være farligt for andre personer, hvis det ikke bortskaffes korrekt.  </li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Næsten alle patienter, der får Icatibant Accord, udvikler en reaktion på injektionsstedet (såsom 
+hudirritation, hævelse, smerter, kløe, rødme og en brændende fornemmelse). Disse reaktioner 
+forsvinder sædvanligvis uden behov for yderligere behandling. </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter): </p>
+<p>Yderligere reaktioner på injektionsstedet (en trykkende fornemmelse, blå mærker, nedsat følelse eller 
+følelsesløshed, hævede, kløende hududslæt og varmefornemmelse). </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter): 
+Kvalme 
+Hovedpine 
+Svimmelhed<br />
+Feber 
+Kløe 
+Udslæt<br />
+Rødme 
+Unormale leverfunktionsprøver </p>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data): 
+Nældefeber (urticaria) </p>
+<p>Hvis du bemærker, at dine anfaldssymptomer bliver værre, efter at du har fået Icatibant Accord, skal 
+du straks kontakte en læge. </p>
+<p>Tal med lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke fremgår af denne 
+indlægsseddel. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V.<br />
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
+af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store icatibant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store icatibant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen. Udløbsdatoen (Exp) er den sidste 
+dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. Må ikke nedfryses. </p>
+<p>Brug ikke dette lægemiddel, hvis du bemærker, at pakken med sprøjten eller kanylen er beskadiget, 
+eller hvis der ses tydelige tegn på nedbrydning, for eksempel hvis væsken er uklar, indeholder 
+partikler, eller hvis opløsningens farve er ændret. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Icatibant Accord indeholder:</p>
+<ul>
+<li>Aktivt stof: Icatibant. Hver fyldt injektionssprøjte med 3 ml indeholder icatibantacetat svarende 
+til 30 mg icatibant. Hver ml opløsning indeholder 10 mg icatibant. </li>
+<li>Øvrige indholdsstoffer: natriumchlorid, iseddikesyre, natriumhydroxid og vand til 
+injektionsvæske. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Icatibant Accord er en klar, farveløs opløsning, praktisk taget fri for fremmedlegemer, i en fyldt 
+injektionssprøjte af glas (3 ml). Med pakken følger en hypodermisk kanyle. </p>
+<p>Icatibant Accord fås som en enkeltpakning med én fyldt injektionssprøjte med én kanyle eller tre 
+fyldte injektionssprøjter med tre kanyler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Accord Healthcare S.L.U.<br />
+World Trade Center,<br />
+Moll de Barcelona, s/n,<br />
+Edifici Est 6ª planta,<br />
+08039 Barcelona, 
+Spanien </p>
+<p>Fremstiller: 
+Accord Healthcare Polska Sp.z o.o. 
+ul. Lutomierska 50,<br />
+95-200 Pabianice 
+Polen </p>
+<p>Eller 
+Accord Healthcare B.V. 
+Winthontlaan 200, 3526KV Utrecht 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IE / IS / IT / LT / LV / LX / MT / NL 
+/ NO / PT / PL / RO / SE / SI / SK / UK(NI) / ES 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Win Medica Pharmaceutical S.A.<br />
+Tel: +30 210 7488<br />
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}  </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om Icatibant Accord på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme, 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-08061c368f26d0bb40f900f8c777c70e
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for icatibant Package Leaflet for language en"
@@ -468,5 +922,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-08061c368f26d0bb40f900f8c777c70e"
 * entry[0].resource = composition-en-08061c368f26d0bb40f900f8c777c70e
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp08061c368f26d0bb40f900f8c777c70e"
+* entry[=].resource = mp08061c368f26d0bb40f900f8c777c70e
+                            
+                    
+Instance: bundlepackageleaflet-da-08061c368f26d0bb40f900f8c777c70e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for icatibant Package Leaflet for language da"
+Description: "ePI document Bundle for icatibant Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-08061c368f26d0bb40f900f8c777c70e"
+* entry[0].resource = composition-da-08061c368f26d0bb40f900f8c777c70e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp08061c368f26d0bb40f900f8c777c70e"
+* entry[=].resource = mp08061c368f26d0bb40f900f8c777c70e
+                            
+                    
+
+
+
+Instance: mp08061c368f26d0bb40f900f8c777c70e
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product icatibant"
+Description: "icatibant"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/21/1567/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Icatibant Accord is indicated for symptomatic treatment of acute attacks of hereditary angioedema"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "icatibant"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: 08061c368f26d0bb40f900f8c777c70eListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "icatibant"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with icatibant"
+
+* subject = Reference(mp8d45513d7b167866706c5bc9f06bc700)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#icatibant "icatibant"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-08061c368f26d0bb40f900f8c777c70e) // icatibant en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-08061c368f26d0bb40f900f8c777c70e) // icatibant da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-08061c368f26d0bb40f900f8c777c70e
+InstanceOf: List
+
+* insert 08061c368f26d0bb40f900f8c777c70eListRuleset
+    

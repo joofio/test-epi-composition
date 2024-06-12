@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b6aaef38fe85ec54174ec8e0149fcca6
 InstanceOf: CompositionUvEpi
 Title: "Composition for xerava Package Leaflet"
@@ -317,12 +320,520 @@ Tel: + 49 800 4453 4This leaflet was last revised in. </p>
 
 
 
+Instance: composition-da-b6aaef38fe85ec54174ec8e0149fcca6
+InstanceOf: CompositionUvEpi
+Title: "Composition for xerava Package Leaflet"
+Description:  "Composition for xerava Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfe68b5ee91dfcec88a9945f1a93bce00)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpfe68b5ee91dfcec88a9945f1a93bce00
+* title = "TEST PURPOSES ONLY - xerava"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får Xerava </li>
+<li>Sådan vil du få Xerava </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xerava is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xerava is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning </p>
+<p>Xerava er et antibiotisk lægemiddel, der indeholder det aktive stof eravacyclin. Det tilhører en gruppe 
+af antibiotika, der hedder tetracycliner, som virker ved at stoppe væksten af visse smitsomme 
+bakterier. </p>
+<p>Anvendelse </p>
+<p>Xerava anvendes til at behandle voksne med en kompliceret maveinfektion. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xerava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xerava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Xerava </p>
+<p>− 
+hvis du er allergisk over for eravacyclin eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). 
+− 
+hvis du er allergisk over for tetracyclin-holdige antibiotika (f.eks. minocyclin og doxycyclin), 
+fordi du så også kan være allergisk over for eravacyclin. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Tal med din læge sygeplejersken, før du får Xerava, hvis du er bekymret for noget af følgende: </p>
+<p>Anafylaktiske reaktioner </p>
+<p>Anafylaktiske (allergiske) reaktioner er rapporteret ved behandling med andre tetracyclin-holdige 
+antibiotika. De kan udvikles pludseligt og være livstruende. Søg straks lægehjælp, hvis du tror, at du 
+oplever en anafylaktisk reaktion under behandlingen med Xerava. Symptomerne er udslæt, hævelse i </p>
+<p>ansigtet, ørhed eller svimmelhed, trykken for brystet, vejrtrækningsbesvær, hurtig hjerterytme eller 
+bevidsthedstab (se også pkt. 4). </p>
+<p>Diarré </p>
+<p>Fortæl det til din læge eller sygeplejersken, hvis du har diarré, før du får Xerava. Hvis du får diarré 
+under eller efter behandlingen, skal du straks fortælle det til din læge. Du må ikke tage medicin mod 
+diarré, før du har talt med lægen (se også pkt. 4). </p>
+<p>Reaktioner på infusionsstedet </p>
+<p>Xerava gives som infusionsvæske (drop) i en blodåre. Fortæl det til din læge eller sygeplejersken, 
+hvis du bemærker noget af følgende på infusionsstedet under eller efter behandlingen: rødme, udslæt, 
+betændelse, smerter eller ømhed. </p>
+<p>Ny infektion </p>
+<p>Selvom Xerava slår visse bakterier ihjel, kan andre bakterier og svampe fortsat vokse. Det kaldes 
+'overvækst' eller 'superinfektion'. Din læge vil overvåge dig nøje for nye infektioner eller standse 
+behandlingen med Xerava og om nødvendigt give dig en anden behandling. </p>
+<p>Pankreatitis (betændelse i bugspytkirtlen) </p>
+<p>Kraftige smerter i maven og ryggen med feber kan være tegn på betændelse i bugspytkirtlen. Fortæl 
+det til lægen eller sygeplejersken, hvis du får en eller flere af disse bivirkninger under behandlingen 
+med Xerava. </p>
+<p>Leverproblemer </p>
+<p>Fortæl det til din læge, hvis du har leverproblemer, eller hvis du er overvægtig, især hvis du samtidig 
+tager itraconazol (et lægemiddel til behandling af svampeinfektioner), ritonavir (et lægemiddel til 
+behandling af virusinfektioner) eller clarithromycin (et antibiotikum), da din læge så vil overvåge dig 
+for bivirkninger. </p>
+<p>Børn og unge </p>
+<p>Dette lægemiddel bør ikke bruges til børn og unge under 18 år, da det ikke er undersøgt tilstrækkeligt 
+hos disse grupper. Xerava må ikke anvendes hos børn under 8 år, da det kan medføre varige skader på 
+deres tænder, f.eks. misfarvning. </p>
+<p>Brug af anden medicin sammen med Xerava </p>
+<p>Fortæl det til lægen eller sygeplejersken, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin (herunder rifampicin og clarithromycin (antibiotika), 
+phenobarbital, karbamazepin og phenytoin (mod epilepsi), prikbladet perikon (naturlægemiddel mod 
+depression og angst), itraconazol (mod svampeinfektioner), ritonavir, atazanavir, lopinavir og 
+saquinavir (mod virusinfektioner) og cyclosporin (anvendes til at dæmpe immunforsvaret)). </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får dette lægemiddel. Xerava anbefales ikke under graviditet, da det 
+kan: </p>
+<ul>
+<li>
+<p>give varig misfarvning af dit ufødte barns tænder </p>
+</li>
+<li>
+<p>forsinke den naturlige dannelse af knoglerne hos dit ufødte barn. </p>
+</li>
+</ul>
+<p>Det er ukendt, om Xerava udskilles i human mælk. Længere tids anvendelse af andre lignende 
+antibiotiske lægemidler hos ammende mødre kan give varig misfarvning af børnenes tænder. Spørg 
+din læge til råds, før du ammer dit barn. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Xerava kan påvirke din evne til at føre motorkøretøj eller betjene maskiner. Du må ikke føre 
+motorkøretøj eller betjene maskiner, hvis du føler dig svimmel, ør eller ustabil efter at have fået dette 
+lægemiddel. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xerava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xerava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Xerava indgivet af en læge eller en sygeplejerske. </p>
+<p>Den anbefalede dosis til voksne er baseret på legemsvægt og er 1 mg/kg hver 12. time. 
+Din læge kan øge dosen (1,5 mg/kg hver 12. time), hvis du tager andre lægemidler som f.eks. 
+rifampicin, phenobarbital, karbamazepin, phenytoin eller prikbladet perikon. </p>
+<p>Du vil få det gennem et drop direkte ind i en blodåre (intravenøst) i løbet af ca. 1 time. </p>
+<p>Et behandlingsforløb varer typisk 4-14 dage. Din læge vil beslutte, hvor lang tid du skal behandles. </p>
+<p>Hvis du har fået for meget Xerava </p>
+<p>Du vil få Xerava indgivet på et hospital af en læge eller en sygeplejerske. Det er derfor usandsynligt, 
+at du vil få for meget af det. Kontakt lægen eller sygeplejersken med det samme, hvis du tror, at du 
+måske har fået for meget Xerava. </p>
+<p>Hvis du har glemt en dosis </p>
+<p>Du vil få Xerava indgivet på et hospital af en læge eller en sygeplejerske. Det er derfor usandsynligt, 
+at du vil glemme en dosis. Kontakt lægen eller sygeplejersken med det samme, hvis du tror, at en dosis 
+måske er glemt. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Søg straks lægehjælp, hvis du tror, at du oplever en anafylaktisk reaktion eller får et eller flere af 
+følgende symptomer under behandlingen med Xerava: </p>
+<ul>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>hævelse i ansigtet </p>
+</li>
+<li>
+<p>følelse af uklarhed eller besvimelse </p>
+</li>
+<li>
+<p>trykken for brystet </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>hurtig hjerterytme </p>
+</li>
+<li>
+<p>bevidsthedstab. </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen eller sygeplejersken, hvis du får diarré under eller efter behandlingen. 
+Du må ikke tage medicin mod diarré, før du har talt med lægen. </p>
+<p>Andre bivirkninger: </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>betændelse og smerter forårsaget af blodpropper på injektionsstedet (tromboflebitis) </p>
+</li>
+<li>
+<p>betændelse i en blodåre, der forårsager smerter og hævelse (flebitis) </p>
+</li>
+<li>
+<p>rødme eller hævelse på injektionsstedet. </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>allergisk reaktion </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen, som kan medføre kraftige smerter i maven eller ryggen 
+(pankreatitis) </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>øget svedtendens </p>
+</li>
+<li>
+<p>unormale blodtal i leverfunktionstest. </p>
+</li>
+</ul>
+<p>Fortæl det til din læge eller sundhedspersonalet, hvis du bemærker en eller flere af disse bivirkninger. </p>
+<p>Andre tetracyclin-holdige antibiotika 
+Der er rapporteret om andre bivirkninger ved andre tetracyclin-holdige antibiotika, herunder 
+minocyclin og doxycyclin. Disse omfatter lysfølsomhed, hovedpine, synsforstyrrelser og unormale 
+blodprøver. Fortæl det til lægen eller sygeplejersken, hvis du får en eller flere af disse bivirkninger 
+under behandling med Xerava. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xerava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xerava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og kartonen efter 'EXP'. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C-8 °C). Opbevar hætteglasset i kartonen for at beskytte mod lys. </p>
+<p>Når pulveret er blevet blandet med vand og fortyndet, bør du få infusionsvæsken med det samme. Hvis 
+du ikke får den med det samme, kan den opbevares ved stuetemperatur og anvendes inden for 
+12 timer. </p>
+<p>Rekonstituerete Xerava bør være en klar og bleggul til orange opløsning. Opløsningen bør ikke 
+anvendes, hvis der er synlige partikler i den, eller hvis den er grumset. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xerava indeholder:</p>
+<ul>
+<li>Aktivt stof: eravacyclin. Hvert hætteglas indeholder 50 mg eravacyclin. </li>
+<li>Øvrige indholdsstoffer: mannitol (E421), saltsyre (til justering af pH) og natriumhydroxid (til 
+justering af pH). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Xerava er et bleggult til mørkegult kompakt pulver i et 10 ml-hætteglas. Pulveret til koncentrat til 
+infusionsvæske, opløsning (pulver til koncentrat), vil blive rekonstitueret i hætteglasset med 5 ml vand 
+til injektionsvæsker. Den rekonstituerede opløsning trækkes op af hætteglasset og tilsættes en 
+infusionspose med natriumchlorid 9 mg/ml (0,9 %) infusionsvæske, opløsning (foregår på hospitalet). </p>
+<p>Xerava fås i pakninger med 1 hætteglas eller multipakninger bestående af 12 kartoner med hver 
+1 hætteglas. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>PAION Deutschland GmbH<br />
+Heussstraße 52078 Aachen<br />
+Tyskland </p>
+<p>Fremstiller </p>
+<p>Patheon Italia S.p.A. 
+2° Trav. SX. Via Morolense, 5 
+03013 Ferentino (FR) 
+Italien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Viatris bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61 Lietuva<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4България 
+PAION Deutschland GmbH<br />
+Teл.: + 49 800 4453 4Luxembourg/Luxemburg<br />
+PAION Deutschland GmbH<br />
+Tél/Tel: + 49 800 4453 4Česká republika 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4453&lt;{e-mail}&gt; 
+Magyarország<br />
+PAION Deutschland GmbH<br />
+Tel.: + 49 800 4453 4Danmark<br />
+PAION Deutschland GmbH<br />
+Tlf: + 49 800 4453 4Malta 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Deutschland 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Nederland 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4 
+Eesti 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Norge 
+PAION Deutschland GmbH<br />
+Tlf: + 49 800 4453 4Ελλάδα 
+Viatris Hellas Ltd 
+Τηλ: +30 210 0100Österreich 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102 Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64 France 
+Viatris Santé 
+Tél: +33 4 37 25 75 Portugal 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Hrvatska<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4România 
+BGP Products SRL 
+Tel: +40 372 579 Ireland<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Slovenija 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Ísland 
+PAION Deutschland GmbH<br />
+Sími: + 49 800 4453 4453<br />
+Slovenská republika<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Italia 
+Mylan Italia S.r.l. 
+Tel: + 39 02 612 46Suomi/Finland 
+PAION Deutschland GmbH<br />
+Puh/Tel: + 49 800 4453 4Κύπρος<br />
+PAION Deutschland GmbH<br />
+Τηλ: + 49 800 4453 4Sverige 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Latvija<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4United Kingdom (Northern Ireland) 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4 </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Vigtigt: Se produktresuméet, før lægemidlet ordineres. </p>
+<p>Xerava skal rekonstitueres med vand til injektionsvæsker og fortyndes derefter med natriumchlorid 
+9 mg/ml (0,9 %) injektionsvæske, opløsning. </p>
+<p>Xerava må ikke blandes med andre lægemidler. Hvis den samme intravenøse slange anvendes til 
+sekventiel infusion af forskellige lægemidler, skal den skylles med en natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske, opløsning. </p>
+<p>Dosen bør beregnes på basis af patientens vægt (1 mg/kg legemsvægt). </p>
+<p>Vejledning i rekonstitution </p>
+<p>Der skal anvendes aseptisk teknik, når infusionsvæsken klargøres. Hvert hætteglas bør rekonstitueres 
+med 5 ml vand til injektionsvæsker og omrystes forsigtigt, indtil pulveret er helt opløst. Kraftig 
+omrystning og hurtige bevægelser skal undgås, da der kan dannes skum. </p>
+<p>Rekonstitueret Xerava bør være en klar og bleggul til orange opløsning. Opløsningen bør ikke 
+anvendes, hvis der er synlige partikler i den, eller hvis den er grumset. </p>
+<p>Klargøring af infusionsopløsningen </p>
+<p>Inden administration skal den rekonstituerede opløsning fortyndes yderligere med natriumchlorid 
+9 mg/ml (0,9 %) injektionsvæske, opløsning. Den beregnede mængde rekonstitueret opløsning bør 
+tilsættes til infusionsposen, så der opnås en målkoncentration på 0,3 mg/ml (inden for et interval på 
+0,2-0,6 mg/ml). Se eksempler på beregninger i tabel 1. Vend forsigtigt posen på hovedet for at blande opløsningen. </p>
+<p>Tabel 1 Eksempler på beregninger for legemsvægt i intervallet 40-200 kg1 </p>
+<p>Patientens 
+vægt 
+(kg) 
+Samlet dosis 
+(mg) 
+Antal hætteglas 
+til rekonstitution 
+Samlet volumen, der skal 
+fortyndes (ml) 
+Anbefalet størrelse af 
+infusionsposen 
+1 
+4 
+100 ml 
+2 
+6 
+250 ml 
+2 
+8 
+250 ml 
+2 
+250 ml 
+3 
+500 ml 
+4 
+500 ml 
+1 Den nøjagtige dosis skal beregnes ud fra den enkelte patients vægt. </p>
+<p>For patienter med en legemsvægt på ≥ 40-49 kg: 
+Beregn den ønskede mængde rekonstitueret opløsning ud fra patientens vægt, og injicér opløsningen i en 100 ml-
+infusionspose. </p>
+<p>For patienter med en legemsvægt på 50-100 kg: 
+Beregn den ønskede mængde rekonstitueret opløsning ud fra patientens vægt, og injicér opløsningen i en 250 ml-
+infusionspose. </p>
+<p>For patienter med en legemsvægt på&gt; 100 kg: 
+Beregn den ønskede mængde rekonstitueret opløsning ud fra patientens vægt, og injicér opløsningen i en 500 ml-
+infusionspose. </p>
+<p>Infusion </p>
+<p>Infusionsopløsningen skal kontrolleres for synlige partikler inden administration. </p>
+<p>Rekonstitueret og fortyndet opløsning, der indeholder synlige partikler, eller som er grumset, bør 
+bortskaffes. </p>
+<p>Efter fortynding skal Xerava administreres intravenøst over ca. 1 time. Det anbefalede 
+doseringsregime for Xerava er 1 mg/kg hver 12. time i 4-14 dage. </p>
+<p>Den rekonstituerede og fortyndede opløsning må kun administreres som intravenøs infusion. Den må 
+ikke administreres som intravenøs bolus. </p>
+<p>Kun til engangsbrug; eventuelle rester af opløsningen skal bortskaffes. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Xerava 100 mg pulver til koncentrat til infusionsvæske, opløsning 
+eravacyclin </p>
+<p>Læs denne indlægsseddel grundigt, inden du får dette lægemiddel, da den indeholder vigtige 
+oplysninger. </p>
+<ul>
+<li>Gem indlægssedlen. Du kan få brug for at læse den igen. </li>
+<li>Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide. </li>
+<li>Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
+medtaget i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-b6aaef38fe85ec54174ec8e0149fcca6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xerava Package Leaflet for language en"
+Description: "ePI document Bundle for xerava Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b6aaef38fe85ec54174ec8e0149fcca6"
+* entry[0].resource = composition-en-b6aaef38fe85ec54174ec8e0149fcca6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb6aaef38fe85ec54174ec8e0149fcca6"
+* entry[=].resource = mpb6aaef38fe85ec54174ec8e0149fcca6
+                            
+                    
+Instance: bundlepackageleaflet-da-b6aaef38fe85ec54174ec8e0149fcca6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xerava Package Leaflet for language da"
+Description: "ePI document Bundle for xerava Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-b6aaef38fe85ec54174ec8e0149fcca6"
+* entry[0].resource = composition-da-b6aaef38fe85ec54174ec8e0149fcca6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb6aaef38fe85ec54174ec8e0149fcca6"
+* entry[=].resource = mpb6aaef38fe85ec54174ec8e0149fcca6
+                            
+                    
+
+
+
+Instance: mpb6aaef38fe85ec54174ec8e0149fcca6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Xerava 50 mg powder for concentrate for solution for infusion"
-Description: "Xerava 50 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product xerava"
+Description: "xerava"
 Usage: #inline
 
  
@@ -342,7 +853,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Xerava 50 mg powder for concentrate for solution for infusion"
+  * productName = "xerava"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -369,29 +880,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b6aaef38fe85ec54174ec8e0149fcca6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xerava Package Leaflet for language en"
-Description: "ePI document Bundle for xerava Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b6aaef38fe85ec54174ec8e0149fcca6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1312/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xerava"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b6aaef38fe85ec54174ec8e0149fcca6"
-* entry[0].resource = composition-en-b6aaef38fe85ec54174ec8e0149fcca6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpfe68b5ee91dfcec88a9945f1a93bce00"
-* entry[=].resource = mpfe68b5ee91dfcec88a9945f1a93bce00
-                            
-                      
+* title = "List of all ePIs associated with xerava"
+
+* subject = Reference(mpfe68b5ee91dfcec88a9945f1a93bce00)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xerava "xerava"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b6aaef38fe85ec54174ec8e0149fcca6) // xerava en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-b6aaef38fe85ec54174ec8e0149fcca6) // xerava da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-b6aaef38fe85ec54174ec8e0149fcca6
+InstanceOf: List
+
+* insert b6aaef38fe85ec54174ec8e0149fcca6ListRuleset
+    

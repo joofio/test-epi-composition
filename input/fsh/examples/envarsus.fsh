@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-bfce752a769c6bdf68d02de41c720db5
 InstanceOf: CompositionUvEpi
 Title: "Composition for envarsus Package Leaflet"
@@ -568,12 +571,678 @@ Tel: +39 0521 2This leaflet was last revised in. </p>
 
 
 
+Instance: composition-da-bfce752a769c6bdf68d02de41c720db5
+InstanceOf: CompositionUvEpi
+Title: "Composition for envarsus Package Leaflet"
+Description:  "Composition for envarsus Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp42853163a68be1511d226637b9793983)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp42853163a68be1511d226637b9793983
+* title = "TEST PURPOSES ONLY - envarsus"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Envarsus </li>
+<li>Sådan skal du tage Envarsus </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What envarsus is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What envarsus is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Envarsus indeholder det aktive stof tacrolimus. Det er et immunhæmmende lægemiddel. Efter en nyre- eller levertransplantation vil din krops immunforsvar forsøge at afstøde det nye organ.  </p>
+<p>Envarsus anvendes til at kontrollere kroppens immunreaktion, så kroppen kan acceptere det 
+transplanterede organ. </p>
+<p>Du kan også få Envarsus ved en igangværende afstødning af den transplanterede lever, nyre, hjerte 
+eller andet organ, når din tidligere behandling ikke har kunnet kontrollere immunforsvarets reaktion 
+efter transplantationen. </p>
+<p>Envarsus anvendes til voksne. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take envarsus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take envarsus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Envarsus 
+- hvis du er allergisk over for tacrolimus eller et af de øvrige indholdsstoffer i Envarsus (angivet i 
+punkt 6). 
+- hvis du er allergisk over for sirolimus eller et makrolid-antibiotikum (f.eks. erythromycin, 
+clarithromycin, josamycin). </p>
+<p>Advarsler og forsigtighedsregler<br />
+Envarsus indeholder det aktive stof tacrolimus i en depotformulering (med forlænget udløsning). 
+Envarsus tages én gang dagligt og kan ikke erstattes med andre eksisterende lægemidler, der 
+indeholder tacrolimus (med øjeblikkelig udløsning eller depottabletter) på et tilsvarende dosis-for-
+dosis-grundlag. </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Envarsus:</p>
+<ul>
+<li>hvis du har eller har haft leverproblemer. </li>
+<li>hvis du har diarré i mere end én dag. </li>
+<li>hvis du tager medicin angivet nedenfor under "Brug af anden medicin sammen med Envarsus". </li>
+<li>hvis du har en ændret elektrisk aktivitet i hjertet, der kaldes "QT-forlængelse". </li>
+<li>hvis du får kraftige mavesmerter enten med eller uden andre symptomer, såsom kulderystelser, 
+feber, kvalme og opkastning. </li>
+<li>en infektion, der fører til nyreproblemer eller neurologiske symptomer. </li>
+<li>hovedpine, forandret mentaltilstand, krampeanfald og synsforstyrrelser. </li>
+<li>svaghed, ændret hud- eller øjenfarve, tendens til blå mærker, infektion, hoste, blodmangel 
+(anæmi). </li>
+<li>hvis du har eller har haft beskadigelse af de mindste blodkar, også kendt som trombotisk 
+mikroangiopati/trombotisk trombocytopenisk purpura/hæmolytisk uræmisk syndrom. Fortæl det 
+til læge, hvis du oplever feber, blå mærker under huden (kan vise sig som røde prikker), 
+uforklarlig træthed, forvirring, gulfarvning af huden eller øjnene, lav urinmængde, synstab eller 
+krampeanfald (se punkt 4). Når tacrolimus tages sammen med sirolimus eller everolimus, kan 
+risikoen for at udvikle disse symptomer stige. </li>
+</ul>
+<p>Undlad at tage naturlægemidler, f.eks. perikon (Hypericum perforatum) eller andre naturlægemidler, 
+da dette kan påvirke virkningen og den dosis af Envarsus, som du har brug for. Spørg lægen, før du 
+tager nogen naturlægemidler eller urtemedicin, hvis du er i tvivl. </p>
+<p>Det kan være nødvendigt for lægen at justere din dosis af Envarsus, eller lægen kan beslutte at stoppe 
+behandlingen med tacrolimus. </p>
+<p>Du skal holde regelmæssig kontakt med din læge. Fra tid til anden kan det være nødvendigt for lægen 
+at tage blod- og urinprøver eller at undersøge dit hjerte og dine øjne for at fastslå den korrekte dosis af 
+Envarsus. </p>
+<p>Mens du tager Envarsus, skal du begrænse din udsættelse for sollys og UV- (ultraviolet) lys. Dette 
+skyldes at lægemidlet hæmmer immunforsvaret og derfor kan det øge risikoen for hudkræft. Anvend 
+passende beskyttende beklædning, og brug en solcreme med høj solfaktor. </p>
+<p>Børn og unge 
+Envarsus anbefales ikke til børn og unge under 18 år. </p>
+<p>Brug af andre lægemidler sammen med Envarsus 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin , for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Dette gælder også lægemidler, som ikke 
+er købt på recept samt naturlægemidler. </p>
+<p>Det frarådes at tage Envarsus sammen med ciclosporin (et andet lægemiddel, der anvendes til 
+forebyggelse af afstødning af transplanterede organer). </p>
+<p>Hvis du har brug for at gå til en anden læge end din transplantationsspecialist, skal du fortælle 
+lægen, at du tager tacrolimus. Din læge kan have brug for at kontakte din 
+transplantationsspecialist, hvis du bruger anden medicin, der kan øge eller reducere 
+blodkoncentrationen af tacrolimus. </p>
+<p>Blodkoncentationer af Envarsus kan påvirkes af anden medicin, du tager, og koncentrationer af anden 
+medicin kan påvirkes af at tage Envarsus. Det kan derfor være nødvendigt at afbryde, øge eller sænke 
+dosen af Envarsus.  </p>
+<p>Nogle patienter har oplevet forhøjede blodkoncentrationer af tacrolimus, mens de har taget anden 
+medicin. Dette kan medføre alvorlige bivirkninger, såsom problemer med nyrerne, problemer med 
+nervesystemet og forstyrrelser i hjerterytmen (se punkt 4). 
+Der kan ses en påvirkning af blodkoncentrationen af Envarsus meget kort tid efter, du er begyndt at 
+bruge en anden medicin. Derfor kan det fortsat være nødvendigt med hyppig overvågning af 
+blodkoncentrationen af Envarsus i de første dage efter start på en anden medicin og hyppigt under 
+fortsat behandling med den anden medicin. Nogle andre lægemidler kan få blodkoncentrationen af 
+tacrolimus til at falde, hvilket kan øge risikoen for, at det transplanterede organ afstødes. Du skal især 
+fortælle det til lægen, hvis du tager medicin eller har gjort det fornylig som:</p>
+<ul>
+<li>svampemidler og antibiotika, især såkaldte makrolide antibiotika, der anvendes til behandling af 
+infektioner (f.eks. ketoconazol, fluconazol, itraconazol, posaconazol, voriconazol, clotrimazol, 
+isavuconazol, miconazol, caspofungin, telithromycin, erythromycin, clarithromycin, josamycin, 
+azithromycin, rifampicin, rifabutin, isoniazid og flucloxacillin) </li>
+<li>letermovir, bruges til at forebygge sygdomme forårsaget af CMV (human cytomegalovirus) </li>
+<li>hiv-protease-hæmmere (f.eks. ritonavir, nelfinavir, saquinavir), boostermedicinen cobicistat og 
+kombinationstabletter, eller non-nukleosid revers transkriptase-hæmmere mod hiv (efavirenz, 
+etravirin, nevirapin), der anvendes til behandling af hiv-infektion </li>
+<li>HCV-protease-hæmmere (f.eks. telaprevir, boceprevir, kombinationen 
+ombitasvir/paritaprevir/ritonavir med eller uden dasabuvir, elbasvir/grazoprevir og 
+glecaprevir/pibrentasvir), der anvendes til behandling af hepatitis C </li>
+<li>nilotinib og imatinib, idelalisib, ceritinib, crizotinib, apalutamid, enzalutamid eller mitotan 
+(bruges til behandling af visse typer cancer) </li>
+<li>mycophenolsyre, der bruges til at undertrykke immunsystemet for at forhindre afstødning af et 
+transplantat </li>
+<li>lægemidler mod mavesår og halsbrand (f.eks. omeprazol, lansoprazol eller cimetidin) </li>
+<li>antiemetika, der anvendes til behandling af kvalme og opkastning (f.eks. metoclopramid) </li>
+<li>cisaprid eller magnesium-aluminium-hydroxid, et syreneutraliserende middel, der anvendes til 
+behandling af halsbrand </li>
+<li>p-piller eller anden hormonbehandling med ethinylestradiol, hormonbehandling med danazol </li>
+<li>lægemidler, der anvendes til at behandle forhøjet blodtryk eller hjerteproblemer (f.eks. 
+nifedipin, nicardipin, diltiazem og verapamil) </li>
+<li>lægemidler mod arytmi (f.eks. amiodaron), der anvendes til behandling af rytmeforstyrrelser 
+(ujævnt hjerteslag) </li>
+<li>lægemidler kendt som “statiner", der anvendes til behandling af forhøjet kolesteroltal og 
+triglycerider </li>
+<li>carbamazepin, fenytoin eller fenobarbital, der anvendes til behandling af epilepsi </li>
+<li>metamizol, som bruges til behandling af smerter og feber </li>
+<li>kortikosteroiderne prednisolon og methylprednisolon, der tilhører gruppen af kortikosteroider 
+og anvendes til at behandle betændelse og undertrykke immunforsvaret (f.eks. mod afstødning 
+af transplantat) </li>
+<li></li>
+<li>nefazodon, der anvendes til behandling af depression </li>
+<li>naturlægemidler, der indeholder prikbladet perikum (Hypericum perforatum) eller ekstrakt af 
+Schisandra sphenanthera. </li>
+<li>cannabidiol (anvendes bl.a. til behandling af krampeanfald) </li>
+</ul>
+<p>Du skal fortælle det til lægen, hvis du får behandling mod hepatitis C. Behandlingen med medicin mod 
+hepatitis C kan ændre din leverfunktion og kan påvirke blodkoncentrationen af tacrolimus. 
+Blodkoncentrationen af tacrolimus kan falde eller stige afhængigt af, hvilken medicin der er udskrevet 
+mod hepatitis C. Det kan være nødvendigt, at lægen overvåger blodkoncentrationen af tacrolimus tæt 
+og foretager nødvendige justeringer af din Envarsus dosis, efter du er startet på behandling af hepatitis 
+C. </p>
+<p>Fortæl det til din læge, hvis du tager eller har brug for at tage ibuprofen (der anvendes til behandling af 
+feber, betændelse og smerter), antibiotika (cotrimoxazol, vancomycin eller aminoglykosid-antibiotika, 
+såsom gentamicin), amphotericin B (der anvendes til behandling af svampeinfektioner) eller 
+virusmidler (der anvendes til behandling af virusinfektioner, f.eks. aciclovir, ganciclovir, cidofovir, 
+foscarnet). Disse midler kan forværre problemer med nyrerne eller nervesystemet, hvis de tages 
+sammen med Envarsus. </p>
+<p>Fortæl det til læge, hvis du tager sirolimus eller everolimus. Når tacrolimus tages sammen med 
+sirolimus eller everolimus, kan risikoen for at udvikle trombotisk mikroangiopati, trombotisk 
+trombocytopenisk purpura og hæmolytisk uræmisk syndrom stige (se punkt 4).  </p>
+<p>Mens du tager Envarsus, skal din læge også vide det, hvis du tager kaliumtilskud eller visse typer 
+vanddrivende medicin, der anvendes mod hjertesvigt, forhøjet blodtryk eller nyresygdom (f.eks. 
+amilorid, triamteren eller spironolakton), eller antibiotikaene trimethoprim eller cotrimoxazol, der kan 
+øge niveauet af kalium i dit blod, ikke-steroide betændelseshæmmende lægemidler (NSAID'er, f.eks. 
+ibuprofen), der anvendes mod feber, betændelse og smerter, blodfortyndende lægemidler 
+(antikoagulantia) eller orale lægemidler mod sukkersyge. </p>
+<p>Hvis du har behov for at blive vaccineret, skal din læge oplyses herom, inden det sker. </p>
+<p>Brug af Envarsus sammen med mad og drikke 
+Undgå grapefrugt (også grapefrugtjuice), mens du behandles med Envarsus, da det kan påvirke 
+koncentrationerne af Envarsus i blodet. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. 
+Tacrolimus udskilles i modermælk. Derfør bør du ikke amme, mens du tager Envarsus. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke føre motorkøretøj, arbejde med værktøj eller betjene maskiner, hvis du føler dig svimmel 
+eller søvnig eller har problemer med at se klart, efter du har taget Envarsus. Disse virkninger ses 
+oftere, hvis du også drikker alkohol. </p>
+<p>Envarsus indeholder lactose 
+Envarsus indeholder lactose (mælkesukker).  </p>
+<ul>
+<li>
+<p>Envarsus 0,75 mg tabletter:<br />
+41,7 mg </p>
+</li>
+<li>
+<p>Envarsus 1 mg tabletter:<br />
+41,7 mg </p>
+</li>
+<li>
+<p>Envarsus 4 mg tabletter:<br />
+104 mg 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take envarsus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take envarsus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.<br />
+Dette lægemiddel må kun ordineres til dig af en læge med erfaring i behandling af transplanterede 
+patienter. </p>
+<p>Vigtig information 
+Sørg for, at du får samme tacrolimus-medicin hver gang du henter din recept, medmindre speciallægen 
+i transplantation har aftalt at skifte over til en anden type tacrolimus-medicin.<br />
+Denne medicin skal tages én gang om dagen. Hvis dette lægemiddel ikke ser ud som normalt, eller 
+hvis dosisvejledningen er ændret, skal du tale med din læge eller apotekspersonalet hurtigst muligt for 
+at sikre, at du har fået den korrekte medicin. </p>
+<p>Hvor meget Envarsus skal jeg tage? 
+Din læge vil beregne den rigtige startdosis for at forebygge afstødning af det transplanterede organ ud 
+fra din kropsvægt. </p>
+<p>Den første daglige dosis efter transplantationen vil generelt være inden for området:<br />
+0,11 - 0,17 mg pr. kg kropsvægt pr. dag,<br />
+afhængigt af hvilket organ der er transplanteret. Ved behandling af afstødning kan samme doser 
+anvendes. </p>
+<p>Din dosis afhænger af din almene tilstand og hvilke andre immunhæmmende lægemidler du tager. 
+Efter begyndelsen af din behandling med dette lægemiddel vil din læge hyppigt tage blodprøver for at 
+bestemme den korrekte dosis. Herefter vil din læge jævnligt tage blodprøver for at bestemme den 
+korrekte dosis og justere dosen fra tid til anden. Din læge vil som regel reducere din Envarsus-dosis, 
+når din tilstand har stabiliseret sig.  </p>
+<p>Hvordan skal jeg tage Envarsustabletterne? 
+Envarsus tages gennem munden én gang dagligt, sædvanligvis på tom mave.  </p>
+<p>Tag tabletterne, lige efter de er taget ud af blisteren. Tabletterne skal sluges hele med et glas vand. 
+Tørremidlet i alufoliepakningen må ikke indtages. </p>
+<p>Hvor længe skal jeg tage Envarsustabletterne? 
+Du skal tage Envarsus hver dag, så længe du har brug for immundæmpende lægemidler for at 
+forebygge afstødning af dit transplanterede organ. Du skal være i regelmæssig kontakt med din læge.  </p>
+<p>Hvis du har taget for meget Envarsus-tabletter 
+Hvis du ved en fejltagelse har taget for mange Envarsus-tabletter, skal du straks kontakte din læge 
+eller nærmeste skadestue.  </p>
+<p>Hvis du har glemt at tage Envarsus 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. Tag tabletten så hurtigt som 
+muligt samme dag.  </p>
+<p>Hvis du holder op med at tage Envarsus<br />
+Hvis du ophører med din behandling med Envarsus, kan det øge risikoen for afstødning af det 
+transplanterede organ. Du må ikke ophøre med behandlingen, medmindre din læge siger, at du skal. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Tacrolimus hæmmer kroppens forsvarsmekanisme (immunforsvar), som derefter ikke vil kunne 
+bekæmpe infektioner så godt som normalt. Derfor kan du være mere tilbøjelig til at få infektioner, 
+mens du tager Envarsus. 
+Nogle infektioner kan være alvorlige eller dødelige og kan omfatte infektioner forårsaget af bakterier, 
+vira, svampe, parasitter eller andre infektioner. 
+Fortæl det straks til din læge, hvis du får tegn på en infektion, herunder:</p>
+<ul>
+<li>feber, hoste, ondt i halsen, føler sig svag eller generelt utilpas. </li>
+<li>hukommelsestab, problemer med at tænke, gangbesvær eller synstab - disse kan skyldes en meget 
+sjælden, alvorlig hjerneinfektion, som kan være dødelig (progressiv multifocal leukoencephalopati 
+(PML)). </li>
+</ul>
+<p>Hvis du oplever alvorlige bivirkninger, bør du straks kontakte din læge. 
+Der kan forekomme alvorlige bivirkninger, herunder allergiske og anafylaktiske reaktioner. Der er 
+rapporteret godartede og ondartede svulster efter behandling med Envarsus. </p>
+<p>Fortæl det straks til din læge, hvis du har eller mistænker, at du har nogen af følgende alvorlige 
+bivirkninger: </p>
+<p>Alvorlige almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede):</p>
+<ul>
+<li>Perforation af mave-tarm-kanalen: stærke mavesmerter ledsaget (eller ikke) af andre 
+symptomer, såsom kuldegysninger, feber, kvalme eller opkastning. </li>
+<li>Utilstrækkelig funktion af det transplanterede organ. </li>
+<li>Sløret syn. </li>
+</ul>
+<p>Alvorlige ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 behandlede):</p>
+<ul>
+<li>Trombotisk mikroangiopati (beskadigelse af de mindste blodkar), herunder hæmolytisk 
+uræmisk syndrom, en sygdom med følgende symptomer: lav eller ingen urinmængde (akut 
+nyresvigt), ekstrem træthed, gulfarvning af huden eller øjnene (gulsot) og unormale blå mærker 
+eller blødning og tegn på infektion. </li>
+</ul>
+<p>Alvorlige sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 behandlede):</p>
+<ul>
+<li>Trombotisk trombocytopenisk purpura: en sygdom, der inlvolverer beskadigelse af de mindste 
+blodkar og er kendetegnet ved feber og blå mærker under huden, der kan forekomme som små 
+røde prikker, med eller uden uforklarlig ekstrem træthed, forvirring, gulfarvning af huden eller 
+øjnene (gulsot) med symptomer på akut nyresvigt (lav eller ingen urinmængde), synstab og 
+krampeanfald. </li>
+<li>Toksisk epidermal nekrolyse: nedbrydning af og blæredannelse på huden eller i slimhinder, rød 
+hævet hud, der kan falde af kroppen i store stykker. </li>
+<li>Blindhed. </li>
+</ul>
+<p>Alvorlige meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10 000 behandlede):</p>
+<ul>
+<li>Stevens-Johnson syndrom: uforklarlige udbredte smerter i huden, hævelse i ansigtet, alvorlig 
+sygdom med blærer på huden, i munden, øjnene og på kønsorganerne, nældefeber, hævet tunge, 
+rødt eller lilla hududslæt, der breder sig, afskalning af huden. </li>
+<li>Torsades de pointes: forandringer i hjerterytmen, der kan være ledsaget (eller ikke) af 
+symptomer, såsom brystsmerter (angina), mathed, svimmelhed eller kvalme, hjertebanken (du 
+kan mærke dit hjerteslag) og vejrtrækningsbesvær. </li>
+</ul>
+<p>Alvorlige bivirkninger, hvor hyppigheden ikke er kendt (hyppigheden kan ikke estimeres ud fra 
+forhåndenværende data):</p>
+<ul>
+<li>Opportunistiske infektioner (bakterie-, svampe-, virus- og protozoinfektioner): langvarig diarré, 
+feber og ondt i halsen. </li>
+<li>Godartede og ondartede tumorer er rapporteret efter behandling på grund af immunsuppression. </li>
+<li>Der er rapporteret tilfælde af Pure Red Cell Aplasia (en meget alvorlig reduktion i antallet af 
+røde blodlegemer), hæmolytisk anæmi (nedsat antal røde blodlegemer på grund af unormal 
+nedbrydning ledsaget af træthed) og febril neutropeni (et fald i typen af hvide blodlegemer der 
+bekæmper infektion, ledsaget af feber). Det vides ikke nøjagtigt, hvor ofte disse bivirkninger 
+forekommer. Det kan være, at du ingen symptomer har, eller afhængigt af sygdommens 
+sværhedsgrad kan du opleve: træthed, ligegyldighed, unormalt bleg hud, kortåndethed, 
+svimmelhed, hovedpine, brystsmerter og kolde hænder og fødder. </li>
+<li>Tilfælde af agranulocytose (alvorligt reduceret antal hvide blodlegemer ledsaget af sår i 
+munden, feber og infektion(er)). Det kan være, at du ingen symptomer har, eller du kan få 
+pludselig feber, stivhed og ondt i halsen. </li>
+<li>Allergiske og anafylaktiske reaktioner med følgende symptomer: et pludseligt kløende udslæt 
+(nældefeber), hævelse af hænder, fødder, ankler, ansigt, læber, mund eller hals (som kan 
+forårsage besvær med at synke eller trække vejret), og det kan føles, som om du skal besvime. </li>
+<li>Posterior reversibel encefalopati-syndrom (PRES): hovedpine, forvirring, humørsvingninger, 
+kramper og synsforstyrrelser. Dette kan være tegn på en sygdom, der kaldes posterior reversibel 
+encefalopati-syndrom, som er rapporteret hos nogle patienter, der er behandlet med tacrolimus. </li>
+<li>Optisk neuropati (forandringer i synsnerven): problemer med dit syn såsom sløret syn, 
+ændringer i farvesynet, problemer med at se detaljer eller begrænsning af dit synsfelt. </li>
+</ul>
+<p>Bivirkningerne, der er opstillet nedenfor, kan også forekomme efter, at du har fået Envarsus, og 
+de kan være alvorlige: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 behandlede):</p>
+<ul>
+<li>Forhøjet blodsukker, sukkersyge, øget kalium i blodet </li>
+<li>Søvnproblemer </li>
+<li>Rysten, hovedpine </li>
+<li>Forhøjet blodtryk </li>
+<li>Unormal leverfunktionstest </li>
+<li>Diarré, kvalme </li>
+<li>Nyreproblemer </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede):</p>
+<ul>
+<li>Nedsat antal blodceller (blodplader, røde eller hvide blodlegemer), øget antal hvide 
+blodlegemer, ændret antal røde blodlegemer (set i blodprøver) </li>
+<li>Nedsat indhold af magnesium, fosfat, kalium, calcium eller natrium i blodet, overhydrering, 
+øget urinsyre eller mere fedt i blodet, nedsat appetit, appetitløshed, forhøjet surhed i blodet, 
+andre ændringer i blodsalte (set i blodprøver) </li>
+<li>Angstsymptomer, forvirring og desorientering, depression, humørsvingninger, mareridt, 
+hallucinationer, forstyrret sindstilstand </li>
+<li>Anfald, bevidsthedsforstyrrelser, prikken og følelsesløshed (undertiden smertefuld) i hænder og 
+fødder, svimmelhed, nedsat skriveevne, forstyrrelser i nervesystemet </li>
+<li>Øget lysfølsomhed, problemer med øjnene </li>
+<li>Ringen for øret </li>
+<li>Nedsat blodgennemstrømning i hjertets blodkar, øget puls </li>
+<li>Blødning, delvis eller fuldstændig blokering af blodkar, nedsat blodtryk </li>
+<li>Kortåndethed, forandring i lungevæv, væskeansamling omkring lungen, betændelse i svælget, 
+hoste, influenzalignende symptomer </li>
+<li>Betændelse eller mavesår, der giver mavesmerter eller diarré, maveblødning, betændelse eller 
+sår i munden, væskeansamling i bughulen, opkastning, mavesmerter, fordøjelsesbesvær, 
+forstoppelse, flatulens, oppustethed, løs afføring, maveproblemer </li>
+<li>Galdevejslidelser, gulfarvning af huden på grund af leverproblemer, ødelæggelse af levervæv og 
+leverbetændelse </li>
+<li>Kløe, udslæt, hårtab, akne, øget svedafsondring </li>
+<li>Smerter i led, lemmer eller ryg, muskelkramper </li>
+<li>Utilstrækkelig nyrefunktion, nedsat urindannelse, forringet eller smertefuld vandladning </li>
+<li>Almen svækkelse, feber, væskeansamling i kroppen, smerter og ubehag, stigning i enzymet 
+alkalin-fosfatase i blodet, vægtstigning, ændret opfattelse af legemstemperatur </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 behandlede):</p>
+<ul>
+<li>Ændringer i blodstørkning, nedsat antal af alle typer blodceller (set i blodprøver) </li>
+<li>Dehydrering </li>
+<li>Psykotisk adfærd, såsom vrangforestillinger, hallucinationer og forvirring </li>
+<li>Nedsat protein eller sukker i blodet, øget fosfat i blodet </li>
+<li>Koma, blødning i hjernen, slagtilfælde, lammelse, hjerneforstyrrelse, tale- og sprogforstyrrelser, 
+hukommelsesproblemer </li>
+<li>Uklarhed af øjenlinse, delvist eller helt mistet hørelse </li>
+<li>Uregelmæssigt hjerteslag, hjertestop, hjertesvigt, forstyrrelser i hjertemuskulaturen, forstørret 
+hjertemuskulatur, stærkere puls, unormalt ekg, unormalt hjerteslag og puls </li>
+<li>Blodprop i vene i et lem, shock </li>
+<li>Åndedrætsbesvær, lidelser i luftvejene, astma </li>
+<li>Akut eller kronisk betændelse i bugspytkirtlen, betændelse i bughinden, tarmslyng, øget 
+blodkoncentration af enzymet amylase, tilbageløb af maveindhold i halsen, forsinket tømning af 
+mavesækken </li>
+<li>Hudbetændelse, brændende fornemmelse i sollys </li>
+<li>Ledsygdomme </li>
+<li>Manglende evne til at lade vandet, smertefuld menstruation og unormal menstruationsblødning </li>
+<li>Svigt af flere organer, influenzalignende sygdom, øget følsomhed over for varme og kulde, 
+trykken for brystet, nervøsitet eller unormal følelse, stigning i enzymet laktatdehydrogenase i 
+blodet, vægttab </li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 behandlede):</p>
+<ul>
+<li>Små blødninger i huden på grund af blodpropper </li>
+<li>Øget muskelstivhed </li>
+<li>Døvhed </li>
+<li>Væskeansamling omkring hjertet </li>
+<li>Akut åndenød </li>
+<li>Cystedannelse i bugspytkirtlen, begyndende stadie af tarmblokering </li>
+<li>Problemer med blodomløbet i leveren </li>
+<li>Alvorlig sygdom med blærer i huden, munden, øjnene og kønsorganerne </li>
+<li>Øget behåring </li>
+<li>Tørst, øget tendens til at falde, stramhed i brystet, nedsat bevægelighed, sår </li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10 000 behandlede):</p>
+<ul>
+<li>Muskelsvækkelse </li>
+<li>Nedsat hørelse </li>
+<li>Unormal hjertescanning </li>
+<li>Leversvigt </li>
+<li>Smertefuld vandladning med blod i urinen </li>
+<li>Øget fedtvæv </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store envarsus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store envarsus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, blisteren og pakningen efter “EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p>
+<p>Opbevares i den originale alufoliepakning for at beskytte mod lys. </p>
+<p>Brug alle depottabletterne inden for 45 dage efter åbning af alufoliepakningen. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Envarsus indeholder:</p>
+<ul>
+<li>Aktivt stof: tacrolimus. </li>
+</ul>
+<p>Envarsus 0,75 mg depottabletter 
+Hver depottablet indeholder 0,75 mg tacrolimus (som monohydrat). </p>
+<p>Envarsus 1 mg depottabletter 
+Hver depottablet indeholder 1,0 mg tacrolimus (som monohydrat). </p>
+<p>Envarsus 4 mg depottabletter 
+Hver depottablet indeholder 4,0 mg tacrolimus (som monohydrat). </p>
+<ul>
+<li>Øvrige indholdsstoffer (hjælpestoffer): hypromellose, lactosemonohydrat, macrogol 6000, 
+poloxamer 188, magnesiumstearat, vinsyre (E334), butylhydroxytoluen (E321), dimeticon 350. Udseende og pakningsstørrelser 
+Envarsus 0,75 mg depottabletter er ovale, hvide til grålighvide, uovertrukne tabletter præget med 
+"0.75" på den ene side og "TCS" på den anden side. 
+Envarsus 1 mg depottabletter er ovale, hvide til grålighvide, uovertrukne tabletter præget med "1" på 
+den ene side og "TCS" på den anden side. 
+Envarsus 4 mg depottabletter er ovale, hvide til grålighvide, uovertrukne tabletter præget med "4" på 
+den ene side og "TCS" på den anden side. </li>
+</ul>
+<p>Envarsus leveres i PVC/alu-blisterkort med 10 tabletter. 3 blisterkort er pakket sammen i en 
+alufoliepakning med et tørremiddel. De findes i pakninger med 30, 60 og 90 depottabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo, 26/A 
+43122 Parma 
+Italien </p>
+<p>Fremstiller 
+Rottendorf Pharma GmbH 
+Ostenfelder Straße 51 - 59320 Ennigerloh 
+Tyskland 
+eller 
+Chiesi Farmaceutici S.p.A. 
+Via San Leonardo 43122 Parma 
+Italien 
+eller 
+Chiesi Pharmaceuticals GmbH 
+Gonzagagasse 16/1010 Wien 
+Østrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv 
+Tél/Tel: +32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +43 1 4073 
+България 
+Chiesi Bulgaria EOOD<br />
+Teл.: +359 29201Luxembourg/Luxemburg 
+Chiesi sa/nv 
+Tél/Tel: +32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o. 
+Tel: +420 261221 
+Magyarország 
+Chiesi Hungary Kft. 
+Tel.: +36-1-429 1 
+Danmark 
+Chiesi Pharma AB 
+Tlf: +46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2 
+Deutschland 
+Chiesi GmbH 
+Tel: +49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V. 
+Tel: +31 0 88 5016 
+Eesti 
+Chiesi Pharmaceuticals GmbH 
+Tel: +43 1 4073 
+Norge 
+Chiesi Pharma AB 
+Tlf: +46 8 753 35<br />
+Ελλάδα 
+Chiesi Hellas AEBE 
+Τηλ: +30 210 6179 
+Österreich 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +43 1 4073 
+España 
+Chiesi España, S.A.U. 
+Tel: +34 93 494 8 
+Polska 
+Chiesi Poland Sp. z.o.o. 
+Tel.: +48 22 620 1 
+France 
+Chiesi S.A.S 
+Tél: +33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2Hrvatska 
+Chiesi Pharmaceuticals GmbH 
+Tel: +43 1 4073 
+România 
+Chiesi Romania S.R.L. 
+Tel: +40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2 
+Slovenija 
+CHIESI SLOVENIJA, d.o.o. 
+Tel: +386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB 
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o. 
+Tel: +421 259300 
+Italia 
+Chiesi Italia S.p.A. 
+Tel: +39 0521 2Suomi/Finland 
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Chiesi Farmaceutici S.p.A. 
+Τηλ: +39 0521 2 
+Sverige 
+Chiesi Pharma AB 
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +43 1 4073 
+United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2 </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-bfce752a769c6bdf68d02de41c720db5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for envarsus Package Leaflet for language en"
+Description: "ePI document Bundle for envarsus Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bfce752a769c6bdf68d02de41c720db5"
+* entry[0].resource = composition-en-bfce752a769c6bdf68d02de41c720db5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbfce752a769c6bdf68d02de41c720db5"
+* entry[=].resource = mpbfce752a769c6bdf68d02de41c720db5
+                            
+                    
+Instance: bundlepackageleaflet-da-bfce752a769c6bdf68d02de41c720db5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for envarsus Package Leaflet for language da"
+Description: "ePI document Bundle for envarsus Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-bfce752a769c6bdf68d02de41c720db5"
+* entry[0].resource = composition-da-bfce752a769c6bdf68d02de41c720db5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbfce752a769c6bdf68d02de41c720db5"
+* entry[=].resource = mpbfce752a769c6bdf68d02de41c720db5
+                            
+                    
+
+
+
+Instance: mpbfce752a769c6bdf68d02de41c720db5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Envarsus 0.75 mg prolonged-release tablets"
-Description: "Envarsus 0.75 mg prolonged-release tablets"
+Title: "Medicinal Product envarsus"
+Description: "envarsus"
 Usage: #inline
 
  
@@ -593,7 +1262,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Envarsus 0.75 mg prolonged-release tablets"
+  * productName = "envarsus"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -620,29 +1289,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-bfce752a769c6bdf68d02de41c720db5
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for envarsus Package Leaflet for language en"
-Description: "ePI document Bundle for envarsus Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: bfce752a769c6bdf68d02de41c720db5ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Envarsus 0.75 mg prolonged-release tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "envarsus"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-bfce752a769c6bdf68d02de41c720db5"
-* entry[0].resource = composition-en-bfce752a769c6bdf68d02de41c720db5
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp42853163a68be1511d226637b9793983"
-* entry[=].resource = mp42853163a68be1511d226637b9793983
-                            
-                      
+* title = "List of all ePIs associated with envarsus"
+
+* subject = Reference(mp42853163a68be1511d226637b9793983)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#envarsus "envarsus"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-bfce752a769c6bdf68d02de41c720db5) // envarsus en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-bfce752a769c6bdf68d02de41c720db5) // envarsus da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-bfce752a769c6bdf68d02de41c720db5
+InstanceOf: List
+
+* insert bfce752a769c6bdf68d02de41c720db5ListRuleset
+    

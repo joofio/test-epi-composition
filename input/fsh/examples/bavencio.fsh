@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
 InstanceOf: CompositionUvEpi
 Title: "Composition for bavencio Package Leaflet"
@@ -374,12 +377,689 @@ Italy </p>
 
 
 
+Instance: composition-da-9bd3cc7b420f9f1fa6edcaaaf015de7b
+InstanceOf: CompositionUvEpi
+Title: "Composition for bavencio Package Leaflet"
+Description:  "Composition for bavencio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2bc8f54e28827e9032c4e5dc54f1a1f5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2bc8f54e28827e9032c4e5dc54f1a1f5
+* title = "TEST PURPOSES ONLY - bavencio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Bavencio </li>
+<li>Sådan skal du bruge Bavencio </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What bavencio is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What bavencio is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bavencio indeholder det aktive stof avelumab, et monoklonalt antistof (en form for protein), som 
+binder sig til et specifikt mål i kroppen kaldet PD-L1. PD-L1 findes på overfladen af visse tumorceller, og hjælper med at beskytte dem mod immunsystemet 
+(kroppens naturlige forsvar). Bavencio binder sig til PD-L1, og blokerer denne beskyttende effekt, 
+hvilket giver immunsystemet mulighed for at angribe tumorcellerne. </p>
+<p>Bavencio anvendes hos voksne til at behandle: </p>
+<ul>
+<li>
+<p>Merkelcellekarcinom (MCC), en sjælden form for hudkræft, når det er metastatisk (har spredt 
+sig til andre dele af kroppen). </p>
+</li>
+<li>
+<p>En kræft, der stammer fra urinvejene (urotelialt karcinom (UC)), når denne har spredt sig 
+videre uden for urinblæren eller til andre dele af kroppen (fremskredent eller metastatisk). 
+Bavencio anvendes som vedligeholdelsesbehandling, hvis tumoren ikke er vokset efter såkaldt 
+første behandling med platinbaseret kemoterapi. </p>
+</li>
+<li>
+<p>Renalcellekarcinom (RCC), en type nyrekræft, når det er fremskredent (har spredt sig videre 
+end nyrerne eller til andre dele af kroppen). </p>
+</li>
+</ul>
+<p>For renalcellekræft skal Bavencio anvendes i kombination med axitinib.  </p>
+<p>Det er vigtigt, at du også læser indlægssedlen for lægemidlet, der indeholder axitinib. Spørg lægen, 
+hvis du har spørgsmål om axitinib. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take bavencio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take bavencio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Bavencio 
+hvis du er allergisk over for avelumab eller et af de øvrige indholdsstoffer i Bavencio (angivet i 
+punkt 6). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Blodprøver og vægtkontroller: 
+Lægen vil kontrollere dit generelle helbred før og under behandlingen med Bavencio. 
+Du vil få foretaget blodprøver under behandlingen, og lægen vil overvåge din vægt før og under 
+behandlingen. </p>
+<p>Kontakt lægen, før du får Bavencio:<br />
+Behandling med Bavencio kan føre til bivirkninger (se pkt. 4). Bemærk, at disse symptomer i nogle 
+tilfælde er forsinkede, og kan opstå efter din sidste dosis. Hvis du lider af nogle af disse, skal du søge 
+akut lægehjælp: </p>
+<ul>
+<li>
+<p>infusionsrelaterede reaktioner, </p>
+</li>
+<li>
+<p>problemer på grund af betændelse i lungerne (pneumonitis), </p>
+</li>
+<li>
+<p>leverbetændelse (hepatitis) eller andre leverproblemer, </p>
+</li>
+<li>
+<p>tarmbetændelse (colitis), diarré (vandig, løs eller blød afføring) eller flere afføringer end 
+normalt, </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen (pankreatitis), </p>
+</li>
+<li>
+<p>betændelse i hjertet (myokarditis), </p>
+</li>
+<li>
+<p>problemer med dine hormonproducerende kirtler (skjoldbruskkirtlen, binyrerne og hypofysen), 
+der kan påvirke den måde, disse kirtler virker på, </p>
+</li>
+<li>
+<p>Type 1 diabetes, herunder et alvorligt og nogle gange livstruende problem på grund af syre i 
+blodet fra sukkersyge (diabetisk ketoacidose), </p>
+</li>
+<li>
+<p>problemer med nyrerne, </p>
+</li>
+<li>
+<p>betændelse i musklerne (myositis), </p>
+</li>
+<li>
+<p>problemer på grund af betændelse i lungerne, huden, øjnene og/eller lymfeknuderne 
+(sarkoidose). </p>
+</li>
+</ul>
+<p>Hvis du oplever nogle af disse symptomer, mens du bliver behandlet med Bavencio, må du ikke 
+forsøge at behandle dem selv med andre lægemidler. Kontakt derimod din læge som kan </p>
+<ul>
+<li>
+<p>give dig andre lægemidler, for at undgå komplikationer og reducere dine symptomer, </p>
+</li>
+<li>
+<p>tilbageholde den næste dosis Bavencio, </p>
+</li>
+<li>
+<p>eller stoppe behandlingen med Bavencio helt. </p>
+</li>
+</ul>
+<p>Spørg lægen eller sygeplejersken før du får Bavencio, hvis: </p>
+<ul>
+<li>
+<p>du har en autoimmun sygdom (en tilstand, hvor kroppen angriber sine egne celler), </p>
+</li>
+<li>
+<p>du har en infektion med human immundefektvirus (HIV), eller erhvervet immundefektsyndrom 
+(AIDS), </p>
+</li>
+<li>
+<p>du nogensinde har haft en kronisk virusinfektion i leveren, herunder hepatitis B (HBV) eller 
+hepatitis C (HCV), </p>
+</li>
+<li>
+<p>du får lægemidler, der undertrykker dit immunsystem, </p>
+</li>
+<li>
+<p>du har fået en organtransplantation. </p>
+</li>
+</ul>
+<p>Bavencio virker på dit immunsystem. Det kan forårsage betændelse i dele af din krop. Din risiko for 
+disse bivirkninger kan være større, hvis du allerede har en autoimmun sygdom (en tilstand, hvor 
+kroppen angriber sine egne celler). Du kan også opleve hyppig opblussen af din autoimmune sygdom, 
+som hovedsageligt er af en let sværhedsgrad. </p>
+<p>Børn og unge 
+Bavencio er ikke blevet undersøgt hos børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Bavencio 
+Fortæl altid lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at 
+tage anden medicin. </p>
+<p>Graviditet 
+Bavencio kan forårsage skader på dit ufødte barn. Hvis du er gravid, har mistanke om, at du er gravid, 
+eller planlægger at blive gravid, skal du spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>Du må ikke bruge Bavencio hvis du er gravid, medmindre lægen specifikt anbefaler det. </p>
+<p>Hvis du er en kvinde, som kan blive gravid, skal du bruge sikker prævention, mens du behandles med 
+Bavencio, og i mindst 1 måned efter din sidste dosis. </p>
+<p>Amning 
+Hvis du ammer, skal du fortælle det til lægen. </p>
+<p>Du må ikke amme, mens du får Bavencio, og i mindst 1 måned efter din sidste dosis. </p>
+<p>Det er ukendt, om Bavencio udskilles i brystmælken. En risiko for det ammede barn kan ikke 
+udelukkes. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke føre motorkøretøj eller betjene maskiner, efter du har fået Bavencio, hvis du ikke har det 
+godt nok. Træthed er en meget almindelig bivirkning ved Bavencio, og det kan påvirke din evne til at 
+føre motorkøretøj eller betjene maskiner. </p>
+<p>Bavencio har et lavt natriumindhold 
+Bavencio indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, og derfor er det i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take bavencio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take bavencio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Bavencio på et hospital eller en klinik, overvåget af en erfaren læge. </p>
+<p>Så meget Bavencio vil du modtage 
+Den anbefalede dosis af avelumab er 800 mg hver 2. uge. Lægen vil bestemme, hvor mange 
+behandlinger, du har brug for. </p>
+<p>Sådan vil du få Bavencio 
+Du vil få Bavencio som en infusion (et drop) i en vene (intravenøst) over en periode på 1 time. 
+Bavencio vil blive tilsat i en infusionspose, som indeholder en natriumchloridopløsning inden brug. </p>
+<p>Før du får Bavencio 
+I det mindste for de første 4 behandlinger, vil du få paracetamol og et antihistamin, før du får 
+Bavencio for at hjælpe med at forebygge mulige bivirkninger relateret til infusionen. Afhængigt af, 
+hvordan din krop reagerer på behandlingen, kan din læge beslutte sig for at fortsætte med at give dig 
+disse lægemidler, før alle dine behandlinger med Bavencio. </p>
+<p>Hvis du glemmer en dosis Bavencio 
+Det er meget vigtigt, at du overholder alle dine aftaler for behandling med Bavencio. Hvis du glemmer 
+en aftale, skal du spørge lægen om, hvornår din næste dosis skal planlægges. </p>
+<p>Hvis du holder op med at få Bavencio 
+Du må ikke holde op med behandlingen med Bavencio, medmindre du har diskuteret det med lægen. 
+Hvis du holder op med behandlingen, kan det stoppe lægemidlets virkning. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Nogle bivirkninger kan opstå uger eller måneder efter din sidste dosis. </p>
+<p>Bavencio påvirker dit immunsystem, og kan forårsage betændelse i dele af din krop (se punkt 2). 
+Betændelsen kan forårsage alvorlige skader på kroppen, og nogle betændelsestilstande kan være 
+livstruende og kræve behandling, eller det kan være nødvendigt at stoppe behandlingen med Bavencio.  </p>
+<p>Søg akut lægehjælp, hvis du oplever betændelse et hvilket som helst sted i kroppen, eller hvis du 
+har de følgende tegn eller symptomer, eller hvis de forværres. </p>
+<ul>
+<li>
+<p>Tegn på infusionsrelaterede reaktioner, såsom stakåndethed eller hvæsende vejrtrækning, 
+kulderystelser eller rysten, ujævnt udslæt eller hudvabler, rødmen, lavt blodtryk 
+(svimmelhed, træthed, kvalme), feber, rygsmerter og mavesmerter. Dette er meget 
+almindeligt. </p>
+</li>
+<li>
+<p>Tegn på betændelse i hormonproducerende kirtler (som kan påvirke kirtlernes funktion) kan 
+omfatte ekstrem træthed, hurtig puls, øget svedtendens, humør- eller adfærdsændringer, 
+såsom irritabilitet eller glemsomhed, kuldefølelse, meget lavt blodtryk (besvimelse, 
+svimmelhed, træthed, kvalme), vægtændringer eller hovedpine. Dette er meget almindeligt for 
+skjoldbruskkirtlen, almindeligt for binyrerne og ikke almindeligt for hypofysen. </p>
+</li>
+<li>
+<p>Tegn på betændelse i lungerne (pneumonitis) kan være vejrtrækningsbesvær eller hoste. Dette 
+er almindeligt. </p>
+</li>
+<li>
+<p>Tegn på tarmbetændelse (colitis) kan omfatte diarré (løs afføring) eller flere afføringer end 
+normalt, blod i afføringen eller mørke, tjæreagtige, klæbrige afføringer, eller svære 
+mavesmerter eller ømhed. Dette er almindeligt. </p>
+</li>
+<li>
+<p>Tegn på leverproblemer, herunder leverbetændelse (hepatitis) kan omfatte gulfarvning af 
+huden (gulsot) eller det hvide i øjnene, svær kvalme eller opkastning, smerter i højre side af 
+maveområdet (abdomen), døsighed, mørk urin (tefarvet), større tendens til blødning eller 
+blå mærker end normalt, mindre sultfølelse end normalt, træthed eller unormale 
+leverfunktionsprøver. Dette er almindeligt. </p>
+</li>
+<li>
+<p>Tegn på betændelse i bugspytkirtlen (pankreatitis) kan omfatte mavesmerter, kvalme og 
+opkastning. Dette er ikke almindeligt. </p>
+</li>
+<li>
+<p>Tegn på betændelse i hjertet (myokarditis) kan omfatte vejrtrækningsbesvær, svimmelhed 
+eller besvimelse, feber, brystsmerter og trykken for brystet eller influenzalignende 
+symptomer. Dette er ikke almindeligt. </p>
+</li>
+<li>
+<p>Tegn på type 1 diabetes, herunder diabetisk ketoacidose, kan omfatte en større sult- eller 
+tørstfølelse end normalt, et hyppigere vandladningsbehov, vægttab og træthedsfølelse eller 
+besvær med at tænke klart, en ånde, der lugter sødt eller frugtagtigt, føle sig syg eller være 
+syg, mavesmerter og dyb eller hurtig vejrtrækning. Dette er ikke almindeligt. </p>
+</li>
+<li>
+<p>Tegn på nyrebetændelse kan omfatte unormale nyrefunktionsprøver, mindre hyppigt 
+vandladningsbehov, blod i urinen eller hævede ankler. Dette er ikke almindeligt. </p>
+</li>
+<li>
+<p>Tegn på betændelse i musklerne (myositis) kan omfatte muskelsmerter eller svaghed. Dette er 
+ikke almindeligt. </p>
+</li>
+<li>
+<p>Tegn på betændelse i forbindelse med en ophobning af betændelsesceller i forskellige organer 
+og væv, mest almindeligt lungerne (sarkoidose). Dette er ikke almindeligt. </p>
+</li>
+</ul>
+<p>Du må ikke forsøge at behandle dig selv med andre lægemidler. </p>
+<p>Andre bivirkninger 
+De følgende bivirkninger er blevet indberettet i de kliniske studier med avelumab alene: </p>
+<p>Nogle bivirkninger har måske ikke symptomer, og kan kun opdages ved blodprøver. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Nedsat antal røde blodlegemer </p>
+</li>
+<li>
+<p>Kvalme, løse afføringer, forstoppelse, opkastning </p>
+</li>
+<li>
+<p>Mavesmerter, rygsmerter, ledsmerter </p>
+</li>
+<li>
+<p>Hoste, stakåndethed </p>
+</li>
+<li>
+<p>Følelse af træthed eller svaghed </p>
+</li>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Hævelse i arme, fødder eller ben </p>
+</li>
+<li>
+<p>Vægttab, mindre sultfølelse </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Nedsat antal af en type af hvide blodlegemer (lymfocytter) </p>
+</li>
+<li>
+<p>Nedsat antal blodplader </p>
+</li>
+<li>
+<p>Forhøjet blodtryk </p>
+</li>
+<li>
+<p>Lavt natriumniveau </p>
+</li>
+<li>
+<p>Hovedpine, svimmelhed </p>
+</li>
+<li>
+<p>Kuldefølelse </p>
+</li>
+<li>
+<p>Mundtørhed </p>
+</li>
+<li>
+<p>Øgede leverenzymer i blodet </p>
+</li>
+<li>
+<p>Forhøjet niveau af enzymer fra bugspytkirtlen i blodet </p>
+</li>
+<li>
+<p>Hududslæt, kløe </p>
+</li>
+<li>
+<p>Muskelsmerter </p>
+</li>
+<li>
+<p>Influenzalignende sygdom (herunder feberfornemmelser, muskelsmerter) </p>
+</li>
+<li>
+<p>Følelsesløshed, prikkende fornemmelse, svaghed, brændende fornemmelse i arme eller ben </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Hudrødme </p>
+</li>
+<li>
+<p>Tarmobstruktion </p>
+</li>
+<li>
+<p>Røde, kløende, skællende pletter på huden, tør hud </p>
+</li>
+<li>
+<p>Nedsat blodtryk </p>
+</li>
+<li>
+<p>Forhøjet niveau af muskelenzymer i blodet </p>
+</li>
+<li>
+<p>Forhøjet antal af en type hvide blodlegemer (eosinofiler) </p>
+</li>
+<li>
+<p>Ledbetændelse (reumatoid artritis) </p>
+</li>
+<li>
+<p>Myasthenia gravis, myastent syndrom, en sygdom, der kan forårsage muskelsvaghed </p>
+</li>
+</ul>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1 000 personer) </p>
+<ul>
+<li>Blærebetændelse. Tegn og symptomer kan omfatte hyppig og/eller smertefuld vandladning, 
+trang til at lade vandet, blod i urinen, smerter eller tryk i den nedre del af maven. </li>
+</ul>
+<p>De følgende bivirkninger er blevet indberettet i de kliniske studier med avelumab i kombination med 
+axitinib: </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Løs afføring, kvalme, forstoppelse, opkastning </p>
+</li>
+<li>
+<p>Forhøjet blodtryk </p>
+</li>
+<li>
+<p>Følelse af træthed eller svaghed </p>
+</li>
+<li>
+<p>Hæshed, hoste, stakåndethed </p>
+</li>
+<li>
+<p>Mindre sultfølelse, vægttab </p>
+</li>
+<li>
+<p>Hovedpine, svimmelhed </p>
+</li>
+<li>
+<p>Ledsmerter, rygsmerter, mavesmerter, muskelsmerter </p>
+</li>
+<li>
+<p>Forhøjet niveau af leverenzymer i blodet </p>
+</li>
+<li>
+<p>Kuldefølelse </p>
+</li>
+<li>
+<p>Hududslæt, kløe </p>
+</li>
+<li>
+<p>Feber </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Røde, kløende, skællende pletter på huden, aknelignende udslæt </p>
+</li>
+<li>
+<p>Hævelse i arme, fødder eller ben </p>
+</li>
+<li>
+<p>Tørhed i munden </p>
+</li>
+<li>
+<p>Forhøjet niveau af enzymer fra bugspytkirtlen i blodet </p>
+</li>
+<li>
+<p>Nedsat nyrefunktion </p>
+</li>
+<li>
+<p>Nedsat antal røde blodlegemer </p>
+</li>
+<li>
+<p>Nedsat blodtryk </p>
+</li>
+<li>
+<p>Forhøjet sukkerniveau i blodet </p>
+</li>
+<li>
+<p>Influenzalignende sygdom (herunder feberfornemmelser, muskelsmerter) </p>
+</li>
+<li>
+<p>Forhøjet niveau af muskelenzymer i blodet </p>
+</li>
+<li>
+<p>Nedsat antal blodplader i blodet </p>
+</li>
+<li>
+<p>Følelsesløshed, prikkende fornemmelse, svaghed, brændende fornemmelse i arme eller ben </p>
+</li>
+<li>
+<p>Hudrødme </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Nedsat antal af en type hvide blodlegemer (lymfocytter) </p>
+</li>
+<li>
+<p>Forhøjet antal af en type hvide blodlegemer (eosinofiler) </p>
+</li>
+<li>
+<p>Tarmobstruktion </p>
+</li>
+<li>
+<p>Myasthenia gravis, myastent syndrom, en sygdom, der kan forårsage muskelsvaghed </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store bavencio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store bavencio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og æsken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C til 8 °C). </p>
+<p>Må ikke nedfryses. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Ubrugte dele af koncentratet eller af den fortyndede infusionsopløsning må ikke opbevares til genbrug. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bavencio indeholder: </p>
+<p>Aktivt stof: avelumab. </p>
+<p>Et hætteglas på 10 ml indeholder 200 mg avelumab. Hver ml koncentrat indeholder 20 mg avelumab. </p>
+<p>Øvrige indholdsstoffer: Mannitol, koncentreret eddikesyre, polysorbat 20, natriumhydroxid, vand til 
+injektionsvæsker (se punkt 2 ”Bavencio har et lavt natriumindhold”). </p>
+<p>Udseende og pakningsstørrelser 
+Bavencio er et klart, farveløst til let gulligt koncentrat til infusionsvæske, opløsning (koncentrat, 
+sterilt). </p>
+<p>Pakningsstørrelsen er 1 hætteglas pr. karton. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Merck Europe B.V. 
+Gustav Mahlerplein 1082 MA Amsterdam 
+Holland </p>
+<p>Fremstiller 
+Merck Serono S.p.A. 
+Via Delle Magnolie 15 (loc. frazione Zona Industriale) 
+70026 - Modugno (BA) 
+Italien </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Håndteringsanvisninger </p>
+<p>Forberedelse og administration 
+Anvend aseptisk teknik for at forberede infusionsvæsken, opløsningen. </p>
+<ul>
+<li>
+<p>Hætteglasset skal inspiceres visuelt for partikler og misfarvning. Bavencio er en klar, farveløs til 
+let gullig opløsning. Hvis opløsningen er uklar, misfarvet eller hvis den indeholder partikler, må 
+hætteglasset ikke anvendes. </p>
+</li>
+<li>
+<p>Der skal anvendes en infusionspose af en passende størrelse (helst 250 ml), som indeholder 
+enten 9 mg/ml (0,9 %) natriumchlorid injektionsvæske, opløsning, eller med 4,5 mg/ml 
+(0,45 %) natriumchlorid injektionsvæske, opløsning. Det rette volumen Bavencio skal trækkes 
+up af hætteglasset/hætteglassene, og overføres til infusionsposen. Alle delvist brugte eller 
+tomme hætteglas skal bortskaffes. </p>
+</li>
+<li>
+<p>Den fortyndede opløsning blandes ved at vende posen forsigtigt på hovedet for at undgå 
+skumdannelse eller for kraftig rystning af opløsningen. </p>
+</li>
+<li>
+<p>Opløsningen skal inspiceres for at sikre, at den er klar, farveløs og fri for synlige partikler. Den 
+fortyndede opløsning skal anvendes umiddelbart efter forberedelse. </p>
+</li>
+<li>
+<p>Må ikke administreres sammen med andre lægemidler i den samme intravenøse slange. 
+Infusionen skal administreres med et steril, ikke-pyrogen, lavproteinbindende 0,2 mikrometer 
+in-line- eller add-on-filter. </p>
+</li>
+</ul>
+<p>Efter administration af Bavencio skal slangen skylles med enten 9 mg/ml (0,9 %) natriumchlorid 
+injektionsvæske, opløsning, eller med 4,5 mg/ml (0,45 %) natriumchlorid injektionsvæske, opløsning. </p>
+<p>Den fortyndede opløsning må ikke nedfryses eller omrystes. Hvis opløsningen er afkølet, skal den 
+fortyndede opløsning i de intravenøse poser have stuetemperatur før brug. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>BILAG IV </p>
+<p>VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE </p>
+<p>Videnskabelige konklusioner </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for avelumab er PRAC nået 
+frem til følgende videnskabelige konklusioner: </p>
+<p>Patienter med præeksisterende autoimmun sygdom </p>
+<p>I lyset af foreliggende data for immunrelaterede bivirkninger hos patienter med præeksisterende 
+autoimmun sygdom fra litteraturen og i lyset af en plausibel virkningsmekanisme anser PRAC-
+rapportøren det for i det mindste en rimelig mulighed, at der er et kausalt forhold mellem avelumab og 
+en øget risiko for immunrelaterede bivirkninger hos patienter med præeksisterende autoimmun 
+sygdom. PRAC konkluderede, at produktinformationen for produkter, der indeholder avelumab, bør 
+ændres i overensstemmelse hermed. </p>
+<p>Sarkoidose </p>
+<p>I lyset af foreliggende data for sarkoidose fra kliniske studier, litteraturen og spontane rapporter, 
+inklusive i nogle tilfælde et tæt temporalt forhold, og i lyset af en plausibel virkningsmekanisme, anser 
+PRAC det for i det mindste en rimelig mulighed, at der er et kausalt forhold mellem avelumab og 
+sarkoidose. PRAC konkluderede, at produktinformationen for produkter, der indeholder avelumab, bør 
+ændres i overensstemmelse hermed. </p>
+<p>Efter evaluering af PRAC's anbefaling tilslutter CHMP sig PRAC's samlede konklusioner og 
+begrundelser for anbefalingen. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
+<p>På baggrund af de videnskabelige konklusioner for avelumab er CHMP af den opfattelse, at 
+benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder avelumab, forbliver uændret 
+under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bavencio Package Leaflet for language en"
+Description: "ePI document Bundle for bavencio Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b"
+* entry[0].resource = composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9bd3cc7b420f9f1fa6edcaaaf015de7b"
+* entry[=].resource = mp9bd3cc7b420f9f1fa6edcaaaf015de7b
+                            
+                    
+Instance: bundlepackageleaflet-da-9bd3cc7b420f9f1fa6edcaaaf015de7b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bavencio Package Leaflet for language da"
+Description: "ePI document Bundle for bavencio Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9bd3cc7b420f9f1fa6edcaaaf015de7b"
+* entry[0].resource = composition-da-9bd3cc7b420f9f1fa6edcaaaf015de7b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9bd3cc7b420f9f1fa6edcaaaf015de7b"
+* entry[=].resource = mp9bd3cc7b420f9f1fa6edcaaaf015de7b
+                            
+                    
+
+
+
+Instance: mp9bd3cc7b420f9f1fa6edcaaaf015de7b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Bavencio 20 mg/mL concentrate for solution for infusion"
-Description: "Bavencio 20 mg/mL concentrate for solution for infusion"
+Title: "Medicinal Product bavencio"
+Description: "bavencio"
 Usage: #inline
 
  
@@ -399,7 +1079,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Bavencio 20 mg/mL concentrate for solution for infusion"
+  * productName = "bavencio"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -426,29 +1106,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for bavencio Package Leaflet for language en"
-Description: "ePI document Bundle for bavencio Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9bd3cc7b420f9f1fa6edcaaaf015de7bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1214/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "bavencio"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b"
-* entry[0].resource = composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2bc8f54e28827e9032c4e5dc54f1a1f5"
-* entry[=].resource = mp2bc8f54e28827e9032c4e5dc54f1a1f5
-                            
-                      
+* title = "List of all ePIs associated with bavencio"
+
+* subject = Reference(mp2bc8f54e28827e9032c4e5dc54f1a1f5)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#bavencio "bavencio"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9bd3cc7b420f9f1fa6edcaaaf015de7b) // bavencio en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9bd3cc7b420f9f1fa6edcaaaf015de7b) // bavencio da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9bd3cc7b420f9f1fa6edcaaaf015de7b
+InstanceOf: List
+
+* insert 9bd3cc7b420f9f1fa6edcaaaf015de7bListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-2a6f62e1d5ad7fde088bdbbe5ee1875e
 InstanceOf: CompositionUvEpi
 Title: "Composition for lenvima Package Leaflet"
@@ -518,12 +521,939 @@ Tel: + 49 (0) 69 66 58 (Germany) </p>
 
 
 
+Instance: composition-da-2a6f62e1d5ad7fde088bdbbe5ee1875e
+InstanceOf: CompositionUvEpi
+Title: "Composition for lenvima Package Leaflet"
+Description:  "Composition for lenvima Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa8b394a79cb3543a4e5d8d112c6e120c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa8b394a79cb3543a4e5d8d112c6e120c
+* title = "TEST PURPOSES ONLY - lenvima"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage LENVIMA </li>
+<li>Sådan skal du tage LENVIMA </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lenvima is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lenvima is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+LENVIMA er et lægemiddel, der indeholder det aktive stof lenvatinib. Det anvendes alene til at 
+behandle progressiv eller fremskreden kræft i skjoldbruskkirtlen hos voksne, når radioaktiv 
+jodbehandling ikke har hjulpet med at stoppe sygdommen. </p>
+<p>LENVIMA kan også bruges alene til at behandle leverkræft (hepatocellulært karcionom) hos voksne, 
+der ikke tidligere har været i behandling med en anden kræftmedicin, der bevæger sig gennem 
+blodstrømmen. Patienter får LENVIMA, når deres leverkræft har spredt sig, eller når den ikke kan 
+fjernes ved operation. </p>
+<p>LENVIMA kan også bruges sammen med en anden kræftmedicin, der hedder pembrolizumab, til at 
+behandle fremskreden kræft i livmoderslimhinden (endometriekarcinom) hos voksne, hvor kræften 
+efter tidligere behandling med en anden kræftmedicin har spredt sig via blodbanen og ikke kan fjernes 
+ved operation eller strålebehandling. </p>
+<p>Sådan virker LENVIMA 
+LENVIMA blokerer virkningen af proteiner, der kaldes receptor tyrosinkinaser (RTK'er), som er 
+involveret i udviklingen af nye blodkar, der forsyner cellerne med ilt og næringsstoffer og hjælper dem 
+med at vokse. Disse proteiner kan være til stede i store mængder i kræftceller, og ved at blokere deres 
+virkning kan LENVIMA sænke hastigheden, hvorved kræftcellerne formerer sig, og tumoren vokser, 
+og hjælpe med at afskære den nødvendige blodforsyning for kræften. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lenvima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lenvima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke LENVIMA: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for lenvatinib eller et af de øvrige indholdsstoffer i LENVIMA (angivet 
+i punkt 6) </p>
+</li>
+<li>
+<p>hvis du ammer (se punktet nedenfor om Prævention, graviditet og amning). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager LENVIMA, hvis du: </p>
+<ul>
+<li>
+<p>har højt blodtryk </p>
+</li>
+<li>
+<p>er en kvinde, der kan blive gravid (se punktet nedenfor om Prævention, graviditet og amning) </p>
+</li>
+<li>
+<p>tidligere har haft hjerteproblemer eller slagtilfælde </p>
+</li>
+<li>
+<p>har problemer med lever eller nyrer </p>
+</li>
+<li>
+<p>for nylig har gennemgået en operation eller strålebehandling </p>
+</li>
+<li>
+<p>skal igennem en operation. Lægen kan overveje at stoppe LENVIMA, hvis du skal igennem en 
+større operation, da LENVIMA kan påvirke sårhelingen. LENVIMA kan startes igen, når det 
+vurderes, at såret er helet tilstrækkeligt. </p>
+</li>
+<li>
+<p>er over 75 år </p>
+</li>
+<li>
+<p>tilhører en anden etnisk gruppe end hvide eller asiater </p>
+</li>
+<li>
+<p>vejer under 60 kg </p>
+</li>
+<li>
+<p>tidligere har haft unormale forbindelser (der kaldes fistler) mellem forskellige kropsorganer 
+eller fra et organ til huden. </p>
+</li>
+<li>
+<p>har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i en 
+blodårevæg.  </p>
+</li>
+<li>
+<p>har eller har haft smerter i munden, tænderne og/eller kæben, hævelse eller sår i mundhulen, 
+følelsesløshed eller tyngdefornemmelse i kæben eller tandløsning. Du kan blive rådet til at få 
+foretaget et tandeftersyn, før du begynder på LENVIMA, da der er indberettet knogleskader i 
+kæben (osteonekrose) hos patienter, der blev behandlet med LENVIMA. Hvis du skal have 
+foretaget en invasiv tandbehandling eller tandoperation, skal du fortælle din tandlæge, at du er i 
+behandling med LENVIMA, især når du også modtager eller har modtaget indsprøjtninger af 
+bisfosfonater (bruges til at behandle eller forebygge knoglesygdomme). </p>
+</li>
+<li>
+<p>modtager eller har modtaget visse lægemidler til behandling af knogleskørhed (antiresorptiv 
+medicin) eller kræftmedicin, som ændrer dannelsen af blodkar (såkaldte angiogenese-
+hæmmere), da risikoen for knogleskader i kæben kan være forhøjet. 
+Før du tager LENVIMA kan din læge lave nogle undersøgelser, for eksempel kontrollere dit blodtryk 
+og din lever- eller nyrefunktion og se, om du har et lavt niveau af salt og et højt niveau af 
+skjoldbruskkirtel‑stimulerende hormon. Din læge vil diskutere resultaterne af disse prøver med dig og 
+beslutte, om du kan få LENVIMA. Du kan have behov for at få ekstra behandling med andre 
+lægemidler, tage en lavere dosis LENVIMA eller være ekstra forsigtig på grund af en øget risiko for 
+bivirkninger. </p>
+</li>
+</ul>
+<p>Hvis du ikke er sikker, skal du kontakte lægen, før du tager LENVIMA. </p>
+<p>Børn og unge 
+LENVIMA anbefales i øjeblikket ikke til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med LENVIMA 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette omfatter naturlægemidler og receptfrie 
+lægemidler. </p>
+<p>Prævention, graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<ul>
+<li>
+<p>Hvis du kan blive gravid, skal du anvende meget sikker prævention, mens du tager dette 
+lægemiddel, og i mindst en måned efter du afslutter behandlingen. Da det er ukendt, om 
+LENVIMA kan nedsætte virkningen af p‑piller, hvis det er din normale præventionsmetode, bør 
+du også tilføje en barrieremetode som et pessar eller et kondom, hvis du har sex i løbet af 
+behandlingen med LENVIMA. </p>
+</li>
+<li>
+<p>Tag ikke LENVIMA, hvis du planlægger at blive gravid under behandlingen. Dette skyldes, at 
+det kan skade barnet alvorligt. </p>
+</li>
+<li>
+<p>Hvis du bliver gravid, mens du behandles med LENVIMA, skal du straks fortælle det til lægen. 
+Din læge vil hjælpe dig med at beslutte, om behandlingen skal fortsætte. </p>
+</li>
+<li>
+<p>Du må ikke amme, hvis du tager LENVIMA. Dette skyldes, at lægemidlet udskilles i 
+modermælken og kan skade det ammede barn alvorligt. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+LENVIMA kan forårsage bivirkninger, der kan påvirke din evne til at føre motorkøretøj eller betjene 
+maskiner. Undgå at føre motorkøretøj eller betjene maskiner, hvis du føler dig svimmel eller er træt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lenvima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lenvima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvor meget skal der tages? 
+Skjoldbruskkirtelkræft </p>
+<ul>
+<li>
+<p>Den anbefalede dosis af LENVIMA er normalt 24 mg én gang dagligt (2 kapsler med 10 mg og 
+1 kapsel med 4 mg). </p>
+</li>
+<li>
+<p>Hvis du har svære problemer med lever eller nyrer, er den anbefalede dosis 14 mg én gang 
+dagligt (1 kapsel med 10 mg og 1 kapsel med 4 mg). </p>
+</li>
+<li>
+<p>Din læge kan nedsætte din dosis, hvis du har problemer med bivirkninger. </p>
+</li>
+</ul>
+<p>Leverkræft </p>
+<ul>
+<li>
+<p>Den anbefalede dosis af LENVIMA afhænger af din kropsvægt, når du først starter behandling. 
+Dosis er normalt 12 mg én gang dagligt (3 kapsler med 4 mg), hvis du vejer 60 kg og derover og 
+8 mg én gang dagligt (2 kapsler med 4 mg), hvis du vejer under 60 kg. </p>
+</li>
+<li>
+<p>Din læge kan nedsætte din dosis, hvis du har problemer med bivirkninger. </p>
+</li>
+</ul>
+<p>Livmoderkræft </p>
+<ul>
+<li>
+<p>Den anbefalede dosis af LENVIMA er 20 mg én gang dagligt (2 kapsler med 10 mg) sammen 
+med pembrolizumab. Du vil få pembrolizumab af sundhedspersonalet som en indsprøjtning i en 
+blodåre, enten 200 mg hver 3. uge eller 400 mg hver 6. uge. </p>
+</li>
+<li>
+<p>Sundhedspersonalet kan reducere din dosis, hvis du har problemer med bivirkninger. </p>
+</li>
+</ul>
+<p>Sådan tages dette lægemiddel </p>
+<ul>
+<li>
+<p>Du kan tage kapslerne sammen med mad eller uden mad. </p>
+</li>
+<li>
+<p>For at undgå at blive udsat for indholdet i kapslen, må du ikke åbne kapslerne. </p>
+</li>
+<li>
+<p>Slug kapslerne hele sammen med vand. Hvis du ikke kan sluge kapslerne hele, kan du klargøre 
+en væskeblanding med vand, æblejuice eller mælk. Væskeblandingen kan gives i munden eller 
+ved hjælp af en ernæringssonde. Hvis væskeblandingen gives ved hjælp af en ernæringssonde, 
+skal den klargøres med vand. Hvis væskeblandingen ikke indtages umiddelbart efter klargøring, 
+kan den opbevares i en beholder med låg på køl ved 2 ºC til 8 ºC i højst 24 timer. Ryst 
+væskeblandingen i 30 sekunder, når den fjernes fra køleskabet. Hvis væskeblandingen ikke 
+bruges inden for 24 timer efter klargøring, skal den kasseres. </p>
+</li>
+<li>
+<p>Klargøring og administration af væskeblandingen: * 
+Placer hele kapslen/alle kapslerne, som svarer til den ordinerede dosis (op til 5 kapsler), i 
+en lille beholder (kapacitet på ca. 20 ml (4 tsk.)) eller i en oral sprøjte (20 ml). Kapslerne 
+må ikke deles eller knuses. * 
+Tilføj 3 ml væske til beholderen eller den orale sprøjte. Vent i 10 minutter på, at kapslens 
+skal (udvendige overflade) går i opløsning, og rør eller ryst derefter blandingen i 
+3 minutter, indtil kapslerne er helt opløst. </p>
+</li>
+<li>
+<p>Hvis væskeblandingen er klargjort i en oral sprøjte, skal du sætte hætte på sprøjten, 
+fjerne stemplet og anvende en anden sprøjte eller medicinpipette til at tilføje 
+væsken til den første sprøjte. Sæt derefter stemplet på igen inden blanding. * 
+Drik væskeblandingen fra beholderen, eller brug en oral sprøjte til at tage den direkte ind 
+i munden eller via en ernæringssonde. </p>
+</li>
+<li>
+<p>Tilføj derefter yderligere 2 ml væske til beholderen eller til den orale sprøjte med en anden 
+sprøjte eller medicinpipette, drej den rundt eller ryst, og indtag væskeblandingen. Gentag dette 
+trin mindst to gange, og indtil der ikke er synlige rester, for at sikre, at al medicinen er indtaget. </p>
+</li>
+<li>
+<p>Tag kapslerne på ca. samme tidspunkt hver dag. </p>
+</li>
+</ul>
+<p>Hvor længe skal du tage LENVIMA? 
+Du skal normalt blive ved med at tage dette lægemiddel, så længe du har fordele heraf. </p>
+<p>Hvis du har taget for meget LENVIMA 
+Hvis du har taget for meget LENVIMA, skal du straks kontakte lægen eller apotekspersonalet. 
+Medbring lægemiddelpakningen. </p>
+<p>Hvis du har glemt at tage LENVIMA 
+Du må ikke tage en dobbeltdosis (to doser på samme tid) som erstatning for den glemte dosis. </p>
+<p>Hvad du skal gøre, hvis du har glemt at tage din dosis, afhænger af, hvor længe der er indtil din næste 
+dosis. </p>
+<ul>
+<li>
+<p>Hvis der er 12 timer eller længere indtil din næste dosis: tag den glemte dosis, så snart du husker 
+det. Tag dernæst den næste dosis til normal tid. </p>
+</li>
+<li>
+<p>Hvis der er mindre end 12 timer til din næste dosis: spring den glemte dosis over. Tag dernæst 
+den næste dosis til normal tid. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Fortæl det straks til lægen, hvis du bemærker nogle af de følgende bivirkninger - du kan have 
+behov for akut medicinsk behandling: </p>
+<ul>
+<li>
+<p>følelsesløshed eller svækkelse i den ene side af kroppen, svær hovedpine, krampeanfald, 
+forvirring, talebesvær, synsændringer eller svimmelhedsfølelse - dette kan være tegn på et 
+slagtilfælde, blødning i hjernen eller virkningen af en kraftig stigning i blodtrykket på hjernen. </p>
+</li>
+<li>
+<p>brystsmerter eller trykken for brystet, smerter i dine arme, ryggen, halsen eller kæben, 
+stakåndethed, hurtig eller uregelmæssig puls, hoste, blåfarvning af læber eller fingre, udpræget 
+træthed - dette kan være tegn på et hjerteproblem, en blodprop i lungen eller udsivning af luft 
+fra din lunge og ud i brystet, således at der ikke kan komme luft i lungen. </p>
+</li>
+<li>
+<p>svære mavesmerter - dette kan skyldes et hul i tarmvæggen eller en fistel (et hul i tarmen, der 
+via en rørformet kanal er forbundet med en anden del af kroppen eller huden). </p>
+</li>
+<li>
+<p>sort, tjærefarvet eller blodig afføring eller ophostning af blod - det kan være tegn på en indre 
+blødning. </p>
+</li>
+<li>
+<p>gul hud eller gulfarvning af det hvide i øjnene (gulsot) eller døsighed, forvirring eller dårlig 
+koncentrationsevne - det kan være tegn på leverproblemer.  </p>
+</li>
+<li>
+<p>diarré, kvalme og opkastning - det er meget almindelige bivirkninger, der kan blive alvorlige, 
+hvis de medfører, at du bliver dehydreret, hvilket kan føre til nyresvigt. Din læge kan give dig 
+lægemidler, der kan reducere disse bivirkninger.  </p>
+</li>
+<li>
+<p>smerter i munden, tænderne og/eller kæben, hævelse eller sår i mundhulen, følelsesløshed eller 
+tyngdefornemmelse i kæben eller tandløsning - dette kan være tegn på knogleskader i kæben 
+(osteonekrose). </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du bemærker nogle af de ovenstående bivirkninger. </p>
+<p>Følgende bivirkninger kan forekomme, når denne medicin gives alene: </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>højt eller lavt blodtryk </p>
+</li>
+<li>
+<p>appetitløshed eller vægttab </p>
+</li>
+<li>
+<p>kvalme og opkastning, forstoppelse, diarré, mavesmerter, fordøjelsesbesvær </p>
+</li>
+<li>
+<p>udpræget træthed eller svækkelse </p>
+</li>
+<li>
+<p>hæshed </p>
+</li>
+<li>
+<p>hævede ben </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>tør, øm eller betændt mund, smagsforstyrrelser </p>
+</li>
+<li>
+<p>led- eller muskelsmerter </p>
+</li>
+<li>
+<p>følelse af svimmelhed </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>blødning (mest almindeligt næseblod, men også andre typer blødninger, såsom blod i urinen, blå 
+mærker, blødning fra tandkød eller tarmvæggen) </p>
+</li>
+<li>
+<p>søvnbesvær </p>
+</li>
+<li>
+<p>ændringer i urinprøver for protein (høje) og blærebetændelse (øget vandladningshyppighed og 
+smerter ved vandladning </p>
+</li>
+<li>
+<p>hovedpine  </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>rødme, ømhed og hævelse af huden på hænder og fødder (palmar-plantar erytrodysæstesi) </p>
+</li>
+<li>
+<p>underaktiv skjoldbruskkirtel (træthed, vægtøgning, forstoppelse, kuldefølelse, tør hud) </p>
+</li>
+<li>
+<p>ændringer i blodprøveresultater for kaliumniveauer (lave) og calciumniveauer (lave) </p>
+</li>
+<li>
+<p>nedsat antal hvide blodceller </p>
+</li>
+<li>
+<p>blodprøver viser ændringer i leverfunktionen  </p>
+</li>
+<li>
+<p>lavt antal blodplader, hvilket kan føre til blå mærker og problemer med sårheling </p>
+</li>
+<li>
+<p>ændrede blodprøveresultater for magnesium i blodet (lave), kolesterol (høje) og 
+skjoldbruskkirtel-stimulerende hormon (høje) </p>
+</li>
+<li>
+<p>ændrede blodprøveresultater for nyrefunktionen og nyresvigt </p>
+</li>
+<li>
+<p>forhøjet lipase og amylase (enzymer, som medvirker ved fordøjelsen) </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>tab af kropsvæsker (dehydrering) </p>
+</li>
+<li>
+<p>hjertebanken </p>
+</li>
+<li>
+<p>tør hud, fortykning og kløe af huden </p>
+</li>
+<li>
+<p>oppustet følelse eller luft i tarmen </p>
+</li>
+<li>
+<p>hjerteproblemer eller blodpropper i lungerne (vejrtrækningsbesvær, brystsmerter) eller i andre 
+organer </p>
+</li>
+<li>
+<p>leversvigt </p>
+</li>
+<li>
+<p>døsighed, forvirring, dårlig koncentrationsevne, bevidsthedstab, der kan være tegn på leversvigt </p>
+</li>
+<li>
+<p>utilpashed </p>
+</li>
+<li>
+<p>betændelse i galdeblæren </p>
+</li>
+<li>
+<p>slagtilfælde </p>
+</li>
+<li>
+<p>anal fistel (en lille passage, der dannes mellem endetarmsåbningen og den omgivende hud) </p>
+</li>
+<li>
+<p>et hul (perforation) i maven eller tarmene </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>smertefuld infektion eller irritation nær endetarmsåbningen </p>
+</li>
+<li>
+<p>mini-slagtilfælde </p>
+</li>
+<li>
+<p>leverskade </p>
+</li>
+<li>
+<p>svære smerter i den øvre venstre side af maven, hvilket kan være forbundet med feber, 
+kulderystelser, kvalme og opkastning (miltinfarkt) </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen </p>
+</li>
+<li>
+<p>problemer med sårheling  </p>
+</li>
+<li>
+<p>knogleskader i kæben (osteonekrose) </p>
+</li>
+<li>
+<p>tyktarmsbetændelse (colitis) </p>
+</li>
+<li>
+<p>nedsat sekretion af hormoner produceret af binyrerne </p>
+</li>
+</ul>
+<p>Ikke kendt (de følgende bivirkninger er blevet rapporteret efter markedsføring af LENVIMA, men 
+hyppigheden af dem er ukendt): </p>
+<ul>
+<li>
+<p>andre typer fistler (en unormal forbindelse mellem forskellige kropsorganer eller mellem huden 
+og en underliggende struktur som halsen eller luftrøret). Symptomerne afhænger af, hvor fistlen 
+befinder sig. Kontakt lægen, hvis du oplever nye eller usædvanlige symptomer, såsom hoste, når 
+du synker. </p>
+</li>
+<li>
+<p>en udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner). </p>
+</li>
+</ul>
+<p>Følgende bivirkninger kan forekomme, når denne medicin gives sammen med pembrolizumab: </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>ændringer i urinprøver for protein (høje) og blærebetændelse (øget vandladningshyppighed og 
+smerter ved vandladning) </p>
+</li>
+<li>
+<p>lave niveauer af blodplader, hvilket kan føre til blå mærker og problemer med sårheling </p>
+</li>
+<li>
+<p>nedsat antal hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer </p>
+</li>
+<li>
+<p>underaktiv skjoldbruskkirtel (træthed, vægtøgning, forstoppelse, kuldefølelse, tør hud) og 
+ændringer i blodprøveresultater for skjoldbruskkirtel-stimulerende hormon (høje) </p>
+</li>
+<li>
+<p>overaktiv skjoldbruskkirtel (symptomerne kan blandt andet være hurtig hjerterytme, øget 
+svedtendens og vægttab) </p>
+</li>
+<li>
+<p>ændringer i blodprøveresultater for calciumniveauer (lave) </p>
+</li>
+<li>
+<p>ændringer i blodprøveresultater for kaliumniveauer (høje) </p>
+</li>
+<li>
+<p>ændringer i blodprøveresultater for kolesterolniveauer (høje) </p>
+</li>
+<li>
+<p>ændringer i blodprøveresultater for magnesiumniveauer (lave) </p>
+</li>
+<li>
+<p>appetitløshed eller vægttab </p>
+</li>
+<li>
+<p>følelse af svimmelhed </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>tør, øm eller betændt mund, smagsforstyrrelser </p>
+</li>
+<li>
+<p>blødning (mest almindeligt næseblod, men også andre typer blødninger, såsom blod i urinen, blå 
+mærker, blødning fra tandkød eller tarmvæggen) </p>
+</li>
+<li>
+<p>højt blodtryk </p>
+</li>
+<li>
+<p>hæshed </p>
+</li>
+<li>
+<p>kvalme og opkastning, forstoppelse, diarré, mavesmerter </p>
+</li>
+<li>
+<p>forhøjet amylase (et enzym, som medvirker ved fordøjelsen) </p>
+</li>
+<li>
+<p>forhøjet lipase (et enzym, som medvirker ved fordøjelsen) </p>
+</li>
+<li>
+<p>ændringer i blodprøveresultater for leverfunktionen </p>
+</li>
+<li>
+<p>ændringer i blodprøveresultater for nyrefunktionen </p>
+</li>
+<li>
+<p>rødme, ømhed og hævelse af huden på hænder og fødder (palmar-plantar erytrodysæstesi) </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>led- eller muskelsmerter </p>
+</li>
+<li>
+<p>udpræget træthed eller svækkelse </p>
+</li>
+<li>
+<p>hævede ben </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>tab af kropsvæsker (dehydrering) </p>
+</li>
+<li>
+<p>søvnbesvær </p>
+</li>
+<li>
+<p>hjertebanken </p>
+</li>
+<li>
+<p>lavt blodtryk </p>
+</li>
+<li>
+<p>blodpropper i lungerne (vejrtrækningsbesvær, brystsmerter) </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen </p>
+</li>
+<li>
+<p>oppustet følelse eller luft i tarmen </p>
+</li>
+<li>
+<p>fordøjelsesproblemer </p>
+</li>
+<li>
+<p>betændelse i galdeblæren </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+<li>
+<p>utilpashed </p>
+</li>
+<li>
+<p>tyktarmsbetændelse (colitis) </p>
+</li>
+<li>
+<p>nedsat sekretion af hormoner produceret af binyrerne </p>
+</li>
+<li>
+<p>et hul (perforation) i maven eller tarmene </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>hovedpine, forvirring, krampeanfald og synsforandringer </p>
+</li>
+<li>
+<p>tegn på et slagtilfælde, herunder følelsesløshed eller svækkelse i den ene side af kroppen, kraftig 
+hovedpine, krampeanfald, forvirring, talebesvær, synsforstyrelser eller svimmelhed </p>
+</li>
+<li>
+<p>mini-slagtilfælde </p>
+</li>
+<li>
+<p>tegn på hjerteproblemer, herunder brystsmerter eller trykken for brystet, smerter i arme, ryg, 
+hals eller kæbe, åndenød, hurtig eller uregelmæssig hjerterytme, hoste, blåfarvning af læber 
+eller fingre og udpræget træthed </p>
+</li>
+<li>
+<p>kraftig åndenød og brystsmerter, som skyldes, at der siver luft fra lungerne ind i brystkassen, så 
+lungen ikke kan fyldes med luft </p>
+</li>
+<li>
+<p>smertefuld infektion eller irritation nær endetarmsåbningen </p>
+</li>
+<li>
+<p>anal fistel (en lille passage, der dannes mellem endetarmsåbningen og den omgivende hud) </p>
+</li>
+<li>
+<p>leversvigt eller tegn på leverskade, herunder gulfarvning af huden eller det hvide i øjnene 
+(gulsot) eller døsighed, forvirring, dårlig koncentrationsevne </p>
+</li>
+<li>
+<p>tør hud, fortykning og kløe af huden </p>
+</li>
+<li>
+<p>problemer med sårheling </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lenvima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lenvima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hvert blister efter Exp. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Må ikke opbevares ved temperaturer over 25 °C. Opbevares i det originale blister for at beskytte 
+mod fugt. </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>LENVIMA indeholder: </p>
+<ul>
+<li>Aktivt stof: lenvatinib. </li>
+<li>LENVIMA 4 mg hårde kapsler: Hver hård kapsel indeholder 4 mg lenvatinib (som 
+mesilat). </li>
+<li>
+<p>LENVIMA 10 mg hårde kapsler: Hver hård kapsel indeholder 10 mg lenvatinib (som 
+mesilat). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: calciumcarbonat, mannitol, mikrokrystallinsk cellulose, 
+hydroxypropylcellulose, lavsubstitueret hydroxypropylcellulose, talcum. Kapselskallen 
+indeholder hypromellose, titandioxid (E171), gul jernoxid (E172), rød jernoxid (E172). 
+Prægeblækket indeholder: shellac, sort jernoxid (172), kaliumhydroxid, propylenglycol. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>Kapslen med 4 mg er en gullig, rød underdel og en gullig rød hætte, ca. 14,3 mm lang, præget 
+med sort blæk med "Є" på hætten, og med "LENV 4 mg" på underdelen. </p>
+</li>
+<li>
+<p>Kapslen med 10 mg er en gul underdel og en gullig rød hætte, ca. 14,3 mm lang, præget med 
+sort blæk med "Є" på hætten, og med "LENV 10 mg" på underdelen. </p>
+</li>
+<li>
+<p>De leveres i blister af polyamid/aluminium/PVC i pakninger med 30, 60 eller 90 hårde kapsler 
+med et lag af aluminiumsfolie, hvorigennem kapslerne kan trykkes ud. Ikke alle 
+pakningsstørrelser er nødvendigvis markedsført. </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen 
+Eisai GmbH 
+Edmund-Rumpler-Straße 3 
+60549 Frankfurt am Main 
+Tyskland 
+E-mail: medinfo_de@eisai.net </p>
+<p>Fremstiller 
+Eisai GmbH 
+Edmund-Rumpler-Straße 3 
+60549 Frankfurt am Main 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Eisai SA/NV 
+Tél/Tel: +32 (0) 800 158<br />
+Lietuva 
+Ewopharma AG atstovybė 
+Tel: +370 5 2430 
+България 
+Ewopharma AG 
+Teл.: +359 2 962 12<br />
+Luxembourg/Luxemburg 
+Eisai SA/NV 
+Tél/Tel: +32 (0) 800 158 (Belgique/Belgien) </p>
+<p>Česká republika 
+Eisai GesmbH organizačni složka 
+Tel.: + 420 242 485<br />
+Magyarország 
+Ewopharma Hungary Ltd. 
+Tel.: +36 1 200 46<br />
+Danmark 
+Eisai AB 
+Tlf: + 46 (0) 8 501 01 (Sverige) </p>
+<p>Malta 
+Cherubino LTD 
+Tel.: +356 21343270<br />
+pharmacovigilance@cherubino.com.mt </p>
+<p>Deutschland 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58<br />
+Nederland 
+Eisai B.V. 
+Tel: + 31 (0) 900 575 3 
+Eesti 
+Ewopharma AG Eesti filiaal 
+Tel.: +372 6015 
+Norge 
+Eisai AB 
+Tlf: + 46 (0) 8 501 01 (Sverige) </p>
+<p>Ελλάδα 
+Arriani Pharmaceutical S.A. 
+Τηλ: + 30 210 668 3 
+Österreich 
+Eisai GesmbH 
+Tel: + 43 (0) 1 535 1980-0 </p>
+<p>España 
+Eisai Farmacéutica, S.A. 
+Tel: + (34) 91 455 94<br />
+Polska 
+Ewopharma AG Sp. z o.o 
+Tel.: +48 (22) 620 11<br />
+France 
+Eisai SAS 
+Tél: + (33) 1 47 67 00<br />
+Portugal 
+Eisai Farmacêutica, Unipessoal Lda 
+Tel: + 351 214 875<br />
+Hrvatska 
+Ewopharma d.o.o 
+info@ewopharma.hr 
+Tel.: +385 (0) 1 6646<br />
+România 
+Ewopharma AG 
+Tel.: +40 21 260 13<br />
+Ireland 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Germany) </p>
+<p>Slovenija 
+Ewopharma d.o.o. 
+Tel: +386 590 848 Ísland 
+Eisai AB 
+Sími: + 46 (0) 8 501 01 (Svíþjóð) </p>
+<p>Slovenská republika 
+Eisai GesmbH organizační složka 
+Tel.: +420 242 485 (Česká republika) </p>
+<p>Italia 
+Eisai S.r.l. 
+Tel: + 39 02 5181 
+Suomi/Finland 
+Eisai AB 
+Puh/Tel: + 46 (0) 8 501 01 (Ruotsi/Sverige) </p>
+<p>Κύπρος 
+Arriani Pharmaceuticals S.A. 
+Τηλ: + 30 210 668 3(Ελλάδα) </p>
+<p>Sverige 
+Eisai AB 
+Tel: + 46 (0) 8 501 01<br />
+Latvija 
+Ewopharma AG Pārstāvniecība 
+Tel.: +371 67450 
+United Kingdom (Northern Ireland) 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Germany) </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-2a6f62e1d5ad7fde088bdbbe5ee1875e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lenvima Package Leaflet for language en"
+Description: "ePI document Bundle for lenvima Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2a6f62e1d5ad7fde088bdbbe5ee1875e"
+* entry[0].resource = composition-en-2a6f62e1d5ad7fde088bdbbe5ee1875e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2a6f62e1d5ad7fde088bdbbe5ee1875e"
+* entry[=].resource = mp2a6f62e1d5ad7fde088bdbbe5ee1875e
+                            
+                    
+Instance: bundlepackageleaflet-da-2a6f62e1d5ad7fde088bdbbe5ee1875e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lenvima Package Leaflet for language da"
+Description: "ePI document Bundle for lenvima Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-2a6f62e1d5ad7fde088bdbbe5ee1875e"
+* entry[0].resource = composition-da-2a6f62e1d5ad7fde088bdbbe5ee1875e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2a6f62e1d5ad7fde088bdbbe5ee1875e"
+* entry[=].resource = mp2a6f62e1d5ad7fde088bdbbe5ee1875e
+                            
+                    
+
+
+
+Instance: mp2a6f62e1d5ad7fde088bdbbe5ee1875e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product LENVIMA 4 mg hard capsules"
-Description: "LENVIMA 4 mg hard capsules"
+Title: "Medicinal Product lenvima"
+Description: "lenvima"
 Usage: #inline
 
  
@@ -543,7 +1473,7 @@ Usage: #inline
 
 
 * name
-  * productName = "LENVIMA 4 mg hard capsules"
+  * productName = "lenvima"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -570,29 +1500,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-2a6f62e1d5ad7fde088bdbbe5ee1875e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lenvima Package Leaflet for language en"
-Description: "ePI document Bundle for lenvima Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 2a6f62e1d5ad7fde088bdbbe5ee1875eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Lenvima 4mg hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lenvima"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-2a6f62e1d5ad7fde088bdbbe5ee1875e"
-* entry[0].resource = composition-en-2a6f62e1d5ad7fde088bdbbe5ee1875e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa8b394a79cb3543a4e5d8d112c6e120c"
-* entry[=].resource = mpa8b394a79cb3543a4e5d8d112c6e120c
-                            
-                      
+* title = "List of all ePIs associated with lenvima"
+
+* subject = Reference(mpa8b394a79cb3543a4e5d8d112c6e120c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lenvima "lenvima"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-2a6f62e1d5ad7fde088bdbbe5ee1875e) // lenvima en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-2a6f62e1d5ad7fde088bdbbe5ee1875e) // lenvima da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-2a6f62e1d5ad7fde088bdbbe5ee1875e
+InstanceOf: List
+
+* insert 2a6f62e1d5ad7fde088bdbbe5ee1875eListRuleset
+    

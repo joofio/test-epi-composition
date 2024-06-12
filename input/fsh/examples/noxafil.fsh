@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-23bb5acd65ff17ef75a4158a12199fd2
 InstanceOf: CompositionUvEpi
 Title: "Composition for noxafil Package Leaflet"
@@ -549,12 +552,935 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-23bb5acd65ff17ef75a4158a12199fd2
+InstanceOf: CompositionUvEpi
+Title: "Composition for noxafil Package Leaflet"
+Description:  "Composition for noxafil Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6853bb16c294352f41f85697a386665e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6853bb16c294352f41f85697a386665e
+* title = "TEST PURPOSES ONLY - noxafil"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Noxafil
+3. Sådan skal du tage Noxafil
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What noxafil is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What noxafil is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Noxafil indeholder et lægemiddelstof, der hedder posaconazol. Det hører til en gruppe af lægemidler,
+som kaldes "svampemidler". Det anvendes til at forebygge og behandle mange forskellige
+svampeinfektioner.
+Lægemidlet virker ved at dræbe eller stoppe væksten af nogle typer svampe, som kan forårsage
+infektioner.</p>
+<p>Noxafil kan anvendes hos voksne til behandling af følgende svampeinfektioner, når andre
+svampemidler ikke har virket, eller du var nødt til at stoppe med at tage dem:</p>
+<ul>
+<li>
+<p>infektioner fremkaldt af svampe af Aspergillus-arten, hvis infektionen ikke er behandlet
+tilstrækkeligt med et af svampemidlerne amphotericin B eller itraconazol, eller hvis du var nødt
+til at stoppe behandlingen med disse midler.</p>
+</li>
+<li>
+<p>infektioner fremkaldt af svampe af Fusarium-arten, hvis infektionen ikke er behandlet
+tilstrækkeligt med amphotericin B, eller hvis du var nødt til at stoppe behandlingen med dette
+middel.</p>
+</li>
+<li>
+<p>infektioner fremkaldt af svampe som medfører en tilstand, der kaldes "chromoblastomykose"
+og/eller "mycetoma", hvis infektionen ikke er behandlet tilstrækkeligt med itraconazol, eller
+hvis du var nødt til at stoppe behandlingen med dette middel.</p>
+</li>
+<li>
+<p>infektioner fremkaldt af en svamp kaldet Coccidioides, hvis infektionen ikke er behandlet
+tilstrækkeligt med et eller flere af lægemidlerne amphotericin B, itraconazol og fluconazol, eller
+hvis du var nødt til at stoppe behandlingen med disse midler.</p>
+</li>
+<li>
+<p>infektioner i munden eller svælget (kendt som trøske) forårsaget af svampe kaldet Candida, som
+ikke er behandlet tidligere.
+Dette lægemiddel kan også anvendes til at forebygge svampeinfektioner hos voksne, som har en høj
+risiko for at få en svampeinfektion, f.eks.:</p>
+</li>
+<li>
+<p>patienter, som har et svækket immunforsvar som følge af behandling med kemoterapi for "akut
+myleoid leukæmi" (AML) eller "myelodysplastisk syndrom" (MDS)
+109</p>
+</li>
+<li>
+<p>patienter, som får "højdosis-immunundertrykkende behandling" efter "stamcelletransplantation
+af hæmopoietiske (bloddannende) stamceller" (HSCT).</p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take noxafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take noxafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Noxafil</p>
+<ul>
+<li>
+<p>hvis du er allergisk over for posaconazol eller et af de øvrige indholdsstoffer i dette lægemiddel
+(angivet i punkt 6).</p>
+</li>
+<li>
+<p>hvis du tager: terfenadin, astemizol, cisaprid, pimozid, halofantrin, quinidin, et hvilket som helst
+lægemiddel, som indeholder “sekalealkaloider" (anvendes til behandling af migræne) såsom
+ergotamin eller dihydroergotamin, eller et “statin" (kolesterolsænkende lægemiddel) såsom
+simvastatin, atorvastatin eller lovastatin.</p>
+</li>
+<li>
+<p>hvis du lige er begyndt at tage venetoclax til behandling af kronisk lymfatisk leukæmi (CLL)
+eller hvis din venetoclaxdosis langsomt er ved at blive øget.
+Du må ikke tage Noxafil, hvis noget af ovenstående gælder for dig. Er du i tvivl, så spørg lægen eller
+apotekspersonalet, før du tager Noxafil.
+Læs "Brug af andre lægemidler sammen med Noxafil" nedenfor for information om andre lægemidler,
+som kan påvirke virkningen af Noxafil.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Noxafil, hvis du: </p>
+</li>
+<li>
+<p>har haft en allergisk reaktion over for et andet svampemiddel såsom ketoconazol, fluconazol,
+itaconazol eller voriconazol. </p>
+</li>
+<li>
+<p>har eller nogensinde har haft problemer med leveren. Det kan være nødvendigt, at du får taget
+blodprøver, mens du tager dette lægemiddel.</p>
+</li>
+<li>
+<p>udvikler alvorlig diarré eller kaster op, da disse forhold kan begrænse virkningen af dette
+lægemiddel.</p>
+</li>
+<li>
+<p>har en unormal hjerterytme (ved ekg) i form af et såkaldt langt QTc-interval.</p>
+</li>
+<li>
+<p>har en svaghed i hjertemusklen eller hjertesvigt.</p>
+</li>
+<li>
+<p>har meget langsomme hjerteslag.</p>
+</li>
+<li>
+<p>har hjerterytmeforstyrrelser.</p>
+</li>
+<li>
+<p>har et problem med indholdet af kalium, magnesium eller calcium i dit blod.</p>
+</li>
+<li>
+<p>tager vincristin, vinblastin og andre “vinkaalkaloider" (medicin til behandling af kræft).</p>
+</li>
+<li>
+<p>tager venetoclax (medicin til behandling af kræft).
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Noxafil, hvis noget af ovenstående
+gælder for dig (eller hvis du er i tvivl).
+Tal straks med lægen, apotekspersonalet eller sygeplejersken, hvis du får alvorlig diarré eller kaster
+op, mens du tager Noxafil, da dette kan medføre, at det ikke virker ordentligt. Se punkt 4 for
+yderligere oplysninger.
+Børn
+Noxafil oral suspension må ikke anvendes til børn og unge (17 år eller yngre).
+Brug af andre lægemidler sammen med Noxafil
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt
+andre lægemidler eller planlægger at bruge andre lægemidler. 
+Tag ikke Noxafil, hvis du tager et eller flere af følgende lægemidler:</p>
+</li>
+<li>
+<p>terfenadin (anvendes til behandling af allergier)</p>
+</li>
+<li>
+<p>astemizol (anvendes til behandling af allergier)</p>
+</li>
+<li>
+<p>cisaprid (anvendes til behandling af maveproblemer)
+110</p>
+</li>
+<li>
+<p>pimozid (anvendes til behandling af symptomer ved Tourettes syndrom og psykiske sygdomme) </p>
+</li>
+<li>
+<p>halofantrin (anvendes til behandling af malaria)</p>
+</li>
+<li>
+<p>quinidin (anvendes til behandling af unormal hjerterytme).
+Noxafil kan øge mængden af disse lægemidler i blodet. Dette kan føre til meget alvorlige forstyrrelser
+i hjerterytmen.</p>
+</li>
+<li>
+<p>enhver type medicin som indeholder “sekalealkaloider" såsom ergotamin eller
+dihydroergotamin, der anvendes til behandling af migræne. Noxafil kan øge mængden af disse
+lægemidler i blodet. Dette kan føre til en alvorlig nedsættelse af blodgennemstrømningen til
+dine fingre eller tæer, og dette kan beskadige dem.</p>
+</li>
+<li>
+<p>et “statin" såsom simvastatin, atorvastatin eller lovastatin, der anvendes til behandling af
+forhøjet kolesterol.</p>
+</li>
+<li>
+<p>venetoclax når dette anvendes ved starten af behandlingen af en type kræft, kronisk lymfatisk
+leukæmi (CLL).
+Du må ikke tage Noxafil, hvis noget af ovenstående gælder for dig. Er du i tvivl, så spørg lægen eller
+apotekspersonalet, før du tager dette lægemiddel.
+Anden medicin
+Se de ovenfor nævnte typer medicin, som ikke må anvendes, mens du tager Noxafil. I tillæg til den
+medicin, som er nævnt ovenfor, er der anden medicin, som indebærer en risiko for
+hjerterytmeproblemer, som kan være større, når de tages med Noxafil. Sørg for at fortælle din læge om
+alle de lægemidler, du tager (både receptpligtige og ikke-receptpligtige).
+Visse lægemidler kan muligvis øge risikoen for bivirkninger af Noxafil ved at øge mængden af
+Noxafil i blodet. 
+Følgende lægemidler kan nedsætte virkningen af Noxafil ved at nedsætte mængden af Noxafil i
+blodet:</p>
+</li>
+<li>
+<p>rifabutin og rifampicin (anvendes til behandling af visse infektioner). Hvis du allerede tager
+rifabutin, skal du have taget en blodprøve, og du skal være opmærksom på mulige bivirkninger
+af rifabutin.</p>
+</li>
+<li>
+<p>phenytoin, carbamazepin, phenobarbital eller primidon (anvendes til at behandle eller forebygge
+krampeanfald).</p>
+</li>
+<li>
+<p>efavirenz og fosamprenavir, der anvendes til behandling af hiv-infektion.</p>
+</li>
+<li>
+<p>lægemidler, der anvendes til at nedsætte mavesyre, herunder cimetidin og ranitidin eller
+omeprazol og lignende lægemidler, kaldet protonpumpehæmmere.
+Noxafil kan muligvis øge risikoen for bivirkninger af nogle andre lægemidler ved at forhøje mængden
+af disse lægemidler i blodet. Disse er:</p>
+</li>
+<li>
+<p>vincristin, vinblastin og andre "vinkaalkaloider" (anvendes til behandling af kræft)</p>
+</li>
+<li>
+<p>venetoclax (anvendes til behandling af kræft)</p>
+</li>
+<li>
+<p>ciclosporin (anvendes under og efter transplantationskirurgi)</p>
+</li>
+<li>
+<p>tacrolimus og sirolimus (anvendes under og efter transplantationskirurgi)</p>
+</li>
+<li>
+<p>rifabutin (anvendes til behandling af visse infektioner)</p>
+</li>
+<li>
+<p>lægemidler kaldet proteasehæmmere anvendt i hiv-behandling (inklusive lopinavir og
+atazanavir der gives sammen med ritonavir)</p>
+</li>
+<li>
+<p>midazolam, triazolam, alprazolam og andre "benzodiazepiner" (anvendes som beroligende eller
+muskelafslappende midler)</p>
+</li>
+<li>
+<p>diltiazem, verapamil, nifedipin, nisoldipin eller andre "calciumblokkere" (anvendes til
+behandling af højt blodtryk)</p>
+</li>
+<li>
+<p>digoxin (anvendes til behandling af hjertesvigt)</p>
+</li>
+<li>
+<p>glipizid eller andre "sulfonylurinstoffer" (anvendes til behandling af højt blodsukker)</p>
+</li>
+<li>
+<p>hel-trans-retinsyre (ATRA), også kaldet tretinoin (anvendes til behandling af visse typer
+blodkræft).
+111
+Spørg lægen, apotekspersonalet eller sygeplejersken, før du tager Noxafil, hvis noget af ovenstående
+gælder for dig (eller hvis du er i tvivl).
+Brug af Noxafil sammen med mad og drikke
+For at forbedre absorptionen af posaconazol skal det så vidt muligt tages sammen med eller
+umiddelbart efter et måltid eller et ernæringstilskud (se punkt 3 "Sådan skal du tage Noxafil"). Der er
+ingen information om alkohols effekt på posaconazol.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal
+du spørge lægen til råds, før du tager dette lægemiddel.
+Tag ikke Noxafil under graviditet, medmindre det er foreskrevet af din læge. Hvis du er en kvinde,
+som kan blive gravid, skal du anvende sikker prævention, mens du tager Noxafil. Kontakt straks din
+læge, hvis du bliver gravid, mens du tager Noxafil.
+Undlad at amme, mens du tager Noxafil. Dette skyldes, at små mængder kan udskilles i mælken. 
+Trafik- og arbejdssikkerhed
+Du kan føle dig svimmel, søvnig eller få sløret syn, mens du tager Noxafil, hvilket kan påvirke din
+evne til at køre bil, bruge værktøj eller betjene maskiner. Hvis dette sker, skal du undlade at køre bil,
+bruge værktøj eller betjene maskiner, og du skal kontakte din læge. 
+Noxafil indeholder glucose
+Noxafil indeholder cirka 1,75 g glucose pr. 5 ml suspension. Kontakt lægen, før du tager dette
+lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.
+Noxafil indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 5 ml suspension, dvs. det er i det
+væsentlige natriumfrit.
+Noxafil indeholder natriumbenzoat
+Dette lægemiddel indeholder 10 mg natriumbenzoat (E211) pr. 5 ml suspension.
+Noxafil indeholder benzylalkohol
+Dette lægemiddel indeholder op til 1,25 mg benzylalkohol pr. 5 ml suspension. Benzylalkohol kan
+medføre allergiske reaktioner.
+Noxafil indeholder propylenglycol
+Dette lægemiddel indeholder op til 24,75 mg propylenglycol (E1520) pr. 5 ml suspension.</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take noxafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take noxafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke skifte mellem Noxafil oral suspension og Noxafil tabletter eller Noxafil gastroresistent
+pulver og solvens til oral suspension uden først at tale med lægen eller apotekspersonalet, da dette kan
+medføre manglende virkning eller øge risikoen for bivirkninger.
+Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg
+lægen eller apotekspersonalet. Din læge vil følge virkningen og din tilstand for at bestemme, hvor
+længe Noxafil skal tages, og om det er nødvendigt at ændre din daglige dosis.
+Tabellen nedenfor viser den anbefalede dosis og behandlingsvarighed, som afhænger af den type
+infektion, du har og kan blive justeret af din læge, så den passer til dig. Du må ikke selv tilpasse din
+dosis eller ændre din behandling, før du har talt med din læge.
+Posaconazol skal så vidt muligt tages med eller lige efter et måltid eller en ernæringsdrik. 
+112
+Indikation
+Anbefalet dosis og behandlingsvarighed
+Behandling af refraktære
+svampeinfektioner (invasiv
+aspergillosis, Fusariosis,
+Chromoblastomycosis/Mycetoma,
+Coccidioidomycosis)
+Den anbefalede dosis er 200 mg (5 ml måleske) fire gange
+dagligt. 
+Alternativt, hvis din læge har anbefalet det, kan du tage 400 mg
+(to 5 ml måleskeer) to gange dagligt, forudsat at du er i stand til at
+tage begge doser sammen med eller lige efter et måltid eller en
+ernæringsdrik. 
+Førstegangsbehandling af trøske
+Tag 200 mg (5 ml måleske) en gang den første behandlingsdag.
+Efter den første behandlingsdag skal du tage 100 mg (2,5 ml
+måleske) en gang dagligt.
+Forhindring af alvorlige
+svampeinfektioner
+Tag 200 mg (5 ml måleske) tre gange dagligt.
+Hvis du har taget for meget Noxafil
+Hvis du er bekymret for, at du kan have taget for meget, kontakt straks din læge eller sygeplejersken.
+Hvis du har glemt at tage Noxafil</p>
+<ul>
+<li>
+<p>Hvis du har glemt en dosis, så tag den, så snart du husker det og fortsæt som før. </p>
+</li>
+<li>
+<p>Hvis det imidlertid næsten er tid for din næste dosis, så tag din dosis til tiden. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger
+Fortæl straks lægen, apotekspersonalet eller sygeplejersken, hvis du får en eller flere af følgende
+alvorlige bivirkninger. Du kan have behov for akut behandling:</p>
+<ul>
+<li>
+<p>kvalme eller opkastning (føler dig utilpas), diarré</p>
+</li>
+<li>
+<p>tegn på leverproblemer. Dette kan være gulfarvning af huden eller det hvide i øjnene,
+usædvanlig mørk urin eller lys afføring, føler dig utilpas uden grund, maveproblemer,
+appetitløshed eller usædvanlig træthed eller svaghed, en stigning i leverenzymer fremgår af dine
+blodprøver</p>
+</li>
+<li>
+<p>allergisk reaktion.
+Andre bivirkninger
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du opdager en eller flere af følgende
+bivirkninger:
+Almindelige: følgende tilstande kan berøre op til 1 ud af 10 personer</p>
+</li>
+<li>
+<p>en ændring i saltniveauet i dit blod (fremgår af dine blodprøver) - tegn på dette kan være en
+følelse af forvirring eller svaghed</p>
+</li>
+<li>
+<p>unormale hudreaktioner, f.eks. følelsesløshed, prikkende, kløende, krybende, stikkende eller
+brændende fornemmelse på huden</p>
+</li>
+<li>
+<p>hovedpine</p>
+</li>
+<li>
+<p>lavt kaliumniveau (fremgår af dine blodprøver)</p>
+</li>
+<li>
+<p>lavt magnesiumniveau (fremgår af dine blodprøver)</p>
+</li>
+<li>
+<p>højt blodtryk</p>
+</li>
+<li>
+<p>appetitløshed, mavesmerter eller dårlig mave, luft i maven, mundtørhed, ændret
+smagsfornemmelse</p>
+</li>
+<li>
+<p>halsbrand (svidende eller brændende fornemmelse bag brystbenet, som stråler op mod halsen)</p>
+</li>
+<li>
+<p>neutropeni - lavt indhold af neutrofile granulocytter, en type hvide blodlegemer (fremgår af
+dine blodprøver) - dette kan gøre dig mere modtagelig for infektioner
+113</p>
+</li>
+<li>
+<p>feber</p>
+</li>
+<li>
+<p>følelse af svaghed, svimmelhed, træthed eller søvnighed</p>
+</li>
+<li>
+<p>udslæt</p>
+</li>
+<li>
+<p>kløe</p>
+</li>
+<li>
+<p>forstoppelse</p>
+</li>
+<li>
+<p>endetarmsgener.
+Ikke almindelige: følgende tilstande kan berøre op til 1 ud af 100 personer</p>
+</li>
+<li>
+<p>anæmi og et lavt hæmoglobinniveau (fremgår af dine blodprøver) - tegn på dette kan være
+hovedpine, træthed eller svimmelhed, åndenød eller bleghed</p>
+</li>
+<li>
+<p>trombocytopeni − lavt niveau af blodplader (fremgår af dine blodprøver) − dette kan medføre
+blødning</p>
+</li>
+<li>
+<p>leukopeni − lavt niveau af leukocytter, en type hvide blodlegemer (fremgår af dine blodprøver)</p>
+</li>
+<li>
+<p>dette kan gøre dig mere modtagelig over for infektioner</p>
+</li>
+<li>
+<p>eosinofili − højt niveau af eosinofile granulocytter, en type hvide blodlegemer - dette kan
+forekomme, hvis du har inflammation (en betændelseslignende reaktion)</p>
+</li>
+<li>
+<p>betændelse i blodkarrene</p>
+</li>
+<li>
+<p>hjerterytmeproblemer </p>
+</li>
+<li>
+<p>krampeanfald </p>
+</li>
+<li>
+<p>nerveskader (neuropati)</p>
+</li>
+<li>
+<p>unormal hjerterytme - fremgår af et elektrokardiogram (ekg), hjertebanken (palpitationer),
+hurtig eller langsom puls, højt eller lavt blodtryk</p>
+</li>
+<li>
+<p>lavt blodtryk</p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen (pankreatitis) - dette kan give svære mavesmerter</p>
+</li>
+<li>
+<p>iltforsyningen til milten er afbrudt (miltinfarkt) - dette kan give svære mavesmerter </p>
+</li>
+<li>
+<p>alvorlige nyreproblemer - tegn på dette kan være øget eller nedsat urinmængde, som har en
+anden farve end normalt </p>
+</li>
+<li>
+<p>højt indhold af kreatinin (fremgår af dine blodprøver)</p>
+</li>
+<li>
+<p>hoste, hikke</p>
+</li>
+<li>
+<p>næseblod</p>
+</li>
+<li>
+<p>meget stærke brystsmerter ved indånding (pleurasmerter)</p>
+</li>
+<li>
+<p>hævede lymfekirtler (lymfadenopati)</p>
+</li>
+<li>
+<p>nedsat følefornemmelse især på huden</p>
+</li>
+<li>
+<p>rysten</p>
+</li>
+<li>
+<p>høje eller lave blodsukkerniveauer</p>
+</li>
+<li>
+<p>sløret syn, lysfølsomhed</p>
+</li>
+<li>
+<p>hårtab (alopeci)</p>
+</li>
+<li>
+<p>mundsår</p>
+</li>
+<li>
+<p>skælven, generel følelse af ubehag</p>
+</li>
+<li>
+<p>smerter, ryg- eller nakkesmerter og smerter i arme eller ben</p>
+</li>
+<li>
+<p>væskeophobning (ødemer)</p>
+</li>
+<li>
+<p>menstruationsproblemer (unormal blødning fra skeden)</p>
+</li>
+<li>
+<p>søvnproblemer (søvnmangel)</p>
+</li>
+<li>
+<p>helt eller delvis ude af stand til at tale </p>
+</li>
+<li>
+<p>hævelse i munden</p>
+</li>
+<li>
+<p>unormale drømme eller søvnbesvær</p>
+</li>
+<li>
+<p>koordinationsproblemer eller problemer med balancen</p>
+</li>
+<li>
+<p>slimhindebetændelse</p>
+</li>
+<li>
+<p>tilstoppet næse</p>
+</li>
+<li>
+<p>svært ved at trække vejret</p>
+</li>
+<li>
+<p>trykken for brystet</p>
+</li>
+<li>
+<p>oppustethed</p>
+</li>
+<li>
+<p>let til svær kvalme, opkastning, kramper og diarré, normalt forårsaget af et virus, mavesmerter</p>
+</li>
+<li>
+<p>opstød
+114</p>
+</li>
+<li>
+<p>rastløshed.
+Sjældne: følgende tilstande kan berøre op til 1 ud af 1.000 personer</p>
+</li>
+<li>
+<p>lungebetændelse (pneumoni) - tegn på dette kan være åndenød og misfarvet slim</p>
+</li>
+<li>
+<p>højt blodtryk i blodkarrene i lungerne (pulmonal hypertension). Dette kan medføre alvorlig
+skade på dine lunger og dit hjerte</p>
+</li>
+<li>
+<p>blodproblemer såsom unormal størkning af blodet eller forlænget blødning</p>
+</li>
+<li>
+<p>alvorlige allergiske reaktioner, inklusive udbredt blæredannende udslæt og afskallende hud</p>
+</li>
+<li>
+<p>psykiske problemer såsom at høre stemmer eller at se ting, som ikke er der </p>
+</li>
+<li>
+<p>besvimelse</p>
+</li>
+<li>
+<p>problemer med at tænke eller tale, ufrivillige spjæt af især hænderne</p>
+</li>
+<li>
+<p>slagtilfælde - tegn på dette kan være smerter, svaghed, følelsesløshed eller prikkende
+fornemmelse i hænder og fødder</p>
+</li>
+<li>
+<p>en blind eller mørk plet i synsfeltet</p>
+</li>
+<li>
+<p>hjertesvigt eller hjerteanfald, som kan medføre hjertestop og død og hjerterytmeproblemer med
+pludselig død</p>
+</li>
+<li>
+<p>blodpropper i benene (dyb venetrombose) - tegn på dette kan være intens smerte eller hævelse i
+benene </p>
+</li>
+<li>
+<p>blodpropper i lungerne (lungeemboli) - tegn på dette kan være åndenød eller smerter ved
+vejrtrækning</p>
+</li>
+<li>
+<p>blødning i maven eller tarmen - tegn på dette kan omfatte opkastning af blod eller blod i
+afføringen </p>
+</li>
+<li>
+<p>tarmblokering (mekanisk ileus) især en del af tyndtarmen, som kaldes "ileum". Blokeringen
+forhindrer indholdet af tarmen i at passere til den nedre del af tarmen - tegn på dette kan være
+oppustet mave, opkastning, svær forstoppelse, manglende appetit og kramper</p>
+</li>
+<li>
+<p>“hæmolytisk uræmisk syndrom", når de røde blodlegemer nedbrydes (hæmolyse), hvilket kan
+forekomme med eller uden nyresvigt </p>
+</li>
+<li>
+<p>“pancytopeni" et lavt niveau af alle blodlegemer (røde og hvide blodlegemer samt blodplader)
+fremgår af dine blodprøver</p>
+</li>
+<li>
+<p>store blålige misfarvninger af huden (trombotisk trombocytopenisk purpura) </p>
+</li>
+<li>
+<p>hævelser i ansigt eller af tunge</p>
+</li>
+<li>
+<p>depression</p>
+</li>
+<li>
+<p>dobbeltsyn</p>
+</li>
+<li>
+<p>brystsmerter</p>
+</li>
+<li>
+<p>nedsat funktion af binyren - dette kan medføre svaghed, træthed, appetitløshed, misfarvning af
+huden</p>
+</li>
+<li>
+<p>nedsat funktion af hypofysen - dette kan medføre lave niveauer af nogle hormoner i blodet, som
+påvirker funktionen af mandlige og kvindelige kønsorganer</p>
+</li>
+<li>
+<p>høreproblemer</p>
+</li>
+<li>
+<p>pseudoaldosteronisme som medfører højt blodtryk med et lavt indhold af kalium i blodet (ses i
+blodprøve).
+Ikke kendt: hyppigheden kan ikke beregnes ud fra tilgængelige data</p>
+</li>
+<li>
+<p>nogle patienter har også oplevet at føle sig forvirrede efter brug af Noxafil. 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du oplever en eller flere af ovennævnte
+bivirkninger.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller sygeplejersken. Dette
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
+information om sikkerheden af dette lægemiddel.
+115</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store noxafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store noxafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste
+dag i den nævnte måned.
+Må ikke nedfryses.
+Hvis du fire uger efter åbning af flasken har en rest af suspensionen tilbage, må du ikke anvende denne
+medicinrest. Aflever flasken med medicinresten på apoteket.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Noxafil indeholder:</p>
+<ul>
+<li>Aktivt stof: posaconazol. Hver milliliter oral suspension indeholder 40 milligram posaconazol.</li>
+<li>Øvrige indholdsstoffer i suspensionen: polysorbat 80, simeticon, natriumbenzoat (E211),
+natriumcitratdihydrat, citronsyremonohydrat, glycerol, xanthangummi, flydende glucose,
+titandioxid (E171), kunstig kirsebæraroma med benzylalkohol og propylenglycol (E1520), og
+renset vand.
+Udseende og pakningsstørrelser
+Noxafil er en hvid, 105 ml oral suspension med kirsebæraroma, der er pakket i brune glasflasker. En
+måleske leveres med hver flaske til afmåling af 2,5 ml og 5 ml doser af den orale suspension.
+Indehaver af markedsføringstilladelsen
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Fremstiller
+Organon Heist bv
+Industriepark 30
+2220 Heist-op-den-Berg
+Belgien
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel : +32 (0)2 776 62 11
+dpoc_belux@msd.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel : +32 (0)2 776 62 11
+dpoc_belux@msd.com
+116
+Česká republika
+Merck Sharp &amp; Dohme s.r.o. 
+Tel: +420 233 010 dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf.: + 45 44 82 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited 
+Tel.: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+ 49-(0)89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: + 372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0)1 80 46 40 40
+Portugal
+Merck sharp &amp; Dohme, Lda
+Tel: +351 21 446 5700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel.: + 40 21 529 2900
+msdromania@merck.com
+Ireland
+Merck Sharp and Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+117
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371-67364224msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp and Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}.&gt;
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu. 
+118
+Indlægsseddel: Information til brugeren
+Noxafil 100 mg gastroresistente tabletter
+posaconazol
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den
+indeholder vigtige oplysninger.</li>
+<li>Gem indlægssedlen. Du kan få brug for at læse den igen.</li>
+<li>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.</li>
+<li>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.</li>
+<li>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-23bb5acd65ff17ef75a4158a12199fd2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for noxafil Package Leaflet for language en"
+Description: "ePI document Bundle for noxafil Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-23bb5acd65ff17ef75a4158a12199fd2"
+* entry[0].resource = composition-en-23bb5acd65ff17ef75a4158a12199fd2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp23bb5acd65ff17ef75a4158a12199fd2"
+* entry[=].resource = mp23bb5acd65ff17ef75a4158a12199fd2
+                            
+                    
+Instance: bundlepackageleaflet-da-23bb5acd65ff17ef75a4158a12199fd2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for noxafil Package Leaflet for language da"
+Description: "ePI document Bundle for noxafil Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-23bb5acd65ff17ef75a4158a12199fd2"
+* entry[0].resource = composition-da-23bb5acd65ff17ef75a4158a12199fd2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp23bb5acd65ff17ef75a4158a12199fd2"
+* entry[=].resource = mp23bb5acd65ff17ef75a4158a12199fd2
+                            
+                    
+
+
+
+Instance: mp23bb5acd65ff17ef75a4158a12199fd2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Noxafil 40 mg/mL oral suspension"
-Description: "Noxafil 40 mg/mL oral suspension"
+Title: "Medicinal Product noxafil"
+Description: "noxafil"
 Usage: #inline
 
  
@@ -574,7 +1500,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Noxafil 40 mg/mL oral suspension"
+  * productName = "noxafil"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -601,29 +1527,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-23bb5acd65ff17ef75a4158a12199fd2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for noxafil Package Leaflet for language en"
-Description: "ePI document Bundle for noxafil Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 23bb5acd65ff17ef75a4158a12199fd2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/05/320/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "noxafil"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-23bb5acd65ff17ef75a4158a12199fd2"
-* entry[0].resource = composition-en-23bb5acd65ff17ef75a4158a12199fd2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6853bb16c294352f41f85697a386665e"
-* entry[=].resource = mp6853bb16c294352f41f85697a386665e
-                            
-                      
+* title = "List of all ePIs associated with noxafil"
+
+* subject = Reference(mp6853bb16c294352f41f85697a386665e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#noxafil "noxafil"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-23bb5acd65ff17ef75a4158a12199fd2) // noxafil en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-23bb5acd65ff17ef75a4158a12199fd2) // noxafil da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-23bb5acd65ff17ef75a4158a12199fd2
+InstanceOf: List
+
+* insert 23bb5acd65ff17ef75a4158a12199fd2ListRuleset
+    

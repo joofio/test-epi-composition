@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-91f303ca4d5b29f50d2776105159918a
 InstanceOf: CompositionUvEpi
 Title: "Composition for odefsey Package Leaflet"
@@ -548,12 +551,728 @@ Tel: + 44 (0) 8000 113 This leaflet was last revised in. </p>
 
 
 
+Instance: composition-da-91f303ca4d5b29f50d2776105159918a
+InstanceOf: CompositionUvEpi
+Title: "Composition for odefsey Package Leaflet"
+Description:  "Composition for odefsey Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp79e7f113982071ca94e8de8c5bd768b2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp79e7f113982071ca94e8de8c5bd768b2
+* title = "TEST PURPOSES ONLY - odefsey"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Odefsey </li>
+<li>Sådan skal De tage Odefsey </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What odefsey is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What odefsey is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Odefsey er et antiviralt lægemiddel, som bruges til at behandle infektion med humant 
+immundefektvirus (hiv). Det er en enkelt tablet, som indeholder en kombination af tre aktive stoffer: 
+emtricitabin, rilpivirin og tenofoviralafenamid. Hvert af disse aktive stoffer virker ved at påvirke et 
+enzym, som kaldes "revers transcriptase", der er vigtigt for, at hiv 1-virus kan formere sig. </p>
+<p>Odefsey nedsætter mængden af hiv i Deres krop. Dette vil forbedre Deres immunforsvar og nedsætte 
+risikoen for at De udvikler sygdomme forbundet med hiv-infektionen. </p>
+<p>Odefsey bruges til voksne og unge i alderen 12 år og ældre, der vejer mindst 35 kg. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take odefsey"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take odefsey"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Odefsey </p>
+<ul>
+<li>
+<p>Hvis De er allergisk over for emtricitabin, rilpivirin, tenofoviralafenamid eller et af de 
+øvrige indholdsstoffer i dette lægemiddel (angivet i punkt 6). </p>
+</li>
+<li>
+<p>Hvis De for tiden tager nogen af følgende lægemidler:</p>
+</li>
+<li>
+<p>carbamazepin, oxcarbazepin, phenobarbital og phenytoin (anvendes til at behandle 
+epilepsi og forebygge krampeanfald) </p>
+</li>
+<li>rifabutin, rifampicin og rifapentin (anvendes til at behandle visse bakterieinfektioner 
+som f.eks. tuberkulose) </li>
+<li>omeprazol, dexlansoprazol, lansoprazol, rabeprazol, pantoprazol og esomeprazol 
+(anvendes til at forebygge og behandle mavesår, halsbrand og opstød) </li>
+<li>dexamethason (et kortikosteroid-lægemiddel, som anvendes til at behandle betændelse 
+og undertrykke immunforsvaret), hvis det indtages gennem munden eller indsprøjtes 
+(undtagen hvis behandlingen kun består af en enkelt dosis) </li>
+<li>produkter, der indeholder perikon (Hypericum perforatum) (et naturlægemiddel, der 
+anvendes til depression og angst) </li>
+</ul>
+<p> Hvis dette gælder for Dem, må De ikke tage Odefsey. Fortæl det omgående til Deres læge. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>De skal fortsætte med at være under lægens opsyn, mens De tager Odefsey. 
+Dette lægemiddel helbreder ikke hiv-infektionen. Mens De tager Odefsey, kan De stadig udvikle 
+infektioner eller andre sygdomme, der er forbundet med hiv-infektion. </p>
+<p>Kontakt lægen, før De tager Odefsey: </p>
+<ul>
+<li>Hvis De har leverproblemer, eller hvis De tidligere har haft en leversygdom, herunder 
+hepatitis (gulsot). Patienter med leversygdom, inklusiv kronisk hepatitis B eller C, som 
+behandles med antiretrovirale midler, har en forhøjet risiko for alvorlige og potentielt 
+livstruende bivirkninger i leveren. Hvis De har en hepatitis B-infektion, vil Deres læge nøje 
+overveje, hvilken behandling der er den bedste for Dem. </li>
+</ul>
+<p>Hvis De har en hepatitis B-infektion, kan leverproblemerne blive værre, efter De holder op 
+med at tage Odefsey. Det er vigtigt ikke at holde op med at tage Odefsey uden at tale med 
+lægen: se punkt 3, Hold ikke op med at tage Odefsey. </p>
+<ul>
+<li>
+<p>Hvis De tager lægemidler, der kan medføre livstruende uregelmæssigt hjerteslag (Torsades 
+de Pointes). </p>
+</li>
+<li>
+<p>Hvis De har haft nyresygdom eller hvis prøver har vist problemer med Deres nyrer. Ved 
+påbegyndelse af og under behandling med Odefsey kan Deres læge bestille blodprøver for at 
+overvåge, hvordan Deres nyrer virker. </p>
+</li>
+</ul>
+<p>Mens De tager Odefsey </p>
+<p>Når De begynder med at tage Odefsey, skal De holde øje med: </p>
+<ul>
+<li>
+<p>Tegn på betændelse eller infektion </p>
+</li>
+<li>
+<p>Ledsmerter, stivhed eller knogleproblemer </p>
+</li>
+</ul>
+<p> Hvis De bemærker nogle af disse symptomer, skal De straks fortælle det til lægen. Se punkt 4, 
+Bivirkninger, for yderligere oplysninger. </p>
+<p>Der er en mulighed for, at De kan opleve nyreproblemer, når De tager Odefsey over længere tid (se 
+Advarsler og forsigtighedsregler). </p>
+<p>Børn og unge </p>
+<p>Dette lægemiddel må ikke gives til børn i alderen 11 år eller derunder eller børn, som vejer 
+under 35 kg. Anvendelsen af Odefsey til børn i alderen 11 år eller derunder, eller som vejer under 
+35 kg, er endnu ikke undersøgt. </p>
+<p>Brug af andre lægemidler sammen med Odefsey </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis De tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Odefsey kan påvirke eller blive 
+påvirket af andre lægemidler. Som et resultat heraf kan mængden af Odefsey eller andre lægemidler i 
+Deres blod blive påvirket. Dette kan forhindre, at Deres lægemiddel virker korrekt, eller det kan gøre 
+bivirkninger værre. I nogle tilfælde kan det være nødvendigt, at lægen justerer Deres dosis eller 
+kontrollerer Deres blod. </p>
+<p>Lægemidler, der aldrig må tages sammen med Odefsey:</p>
+<ul>
+<li>carbamazepin, oxcarbazepin, phenobarbital og phenytoin (anvendes til at behandle 
+epilepsi og forebygge krampeanfald) </li>
+<li>rifabutin, rifampicin og rifapentin (anvendes til at behandle visse bakterieinfektioner 
+som f.eks. tuberkulose) </li>
+<li>omeprazol, dexlansoprazol, lansoprazol, rabeprazol, pantoprazol og esomeprazol 
+(anvendes til at forebygge og behandle mavesår, halsbrand og opstød) </li>
+<li>dexamethason (et kortikosteroid-lægemiddel, som anvendes til at behandle betændelse 
+og undertrykke immunforsvaret), hvis det indtages gennem munden eller indsprøjtes 
+(undtagen hvis behandlingen kun består af en enkelt dosis) </li>
+<li>produkter, der indeholder perikon (Hypericum perforatum) (et naturlægemiddel, der 
+anvendes til depression og angst) </li>
+</ul>
+<p> Hvis De tager nogen af disse lægemidler, må De ikke tage Odefsey. Fortæl det straks til lægen. </p>
+<p>Andre former for lægemidler: </p>
+<p>Kontakt lægen, hvis De tager: </p>
+<ul>
+<li>
+<p>Ethvert lægemiddel, der anvendes til behandling af hiv </p>
+</li>
+<li>
+<p>Ethvert lægemiddel, som indeholder:</p>
+</li>
+<li>
+<p>tenofoviralafenamid </p>
+</li>
+<li>tenofovirdisoproxil </li>
+<li>lamivudin </li>
+<li>
+<p>adefovirdipivoxil </p>
+</li>
+<li>
+<p>Antibiotika, der anvendes til at behandle bakterieinfektioner, som indeholder:</p>
+</li>
+<li>
+<p>clarithromycin </p>
+</li>
+<li>
+<p>erythromycin 
+Disse lægemidler kan øge mængden af rilpivirin og tenofoviralafenamid (indholdsstoffer i 
+Odefsey) i Deres blod. Deres læge vil give Dem et andet lægemiddel. </p>
+</li>
+<li>
+<p>Antimykotika, der anvendes til at behandle svampeinfektioner:</p>
+</li>
+<li>
+<p>ketoconazol </p>
+</li>
+<li>fluconazol </li>
+<li>itraconazol </li>
+<li>posaconazol </li>
+<li>
+<p>voriconazol 
+Disse lægemidler kan øge mængden af rilpivirin og tenofoviralafenamid (indholdsstoffer i 
+Odefsey) i Deres blod. Deres læge vil give Dem et andet lægemiddel.  </p>
+</li>
+<li>
+<p>Lægemidler mod mavesår, halsbrand og sure opstød som f.eks.:</p>
+</li>
+<li>
+<p>syreneutraliserende midler (aluminium-/magnesiumhydroxid eller calciumcarbonat) </p>
+</li>
+<li>
+<p>H2-antagonister (famotidin, cimetidin, nizatidin eller ranitidin) 
+Disse lægemidler kan mindske mængden af rilpivirin (et indholdsstof i Odefsey) i Deres blod. 
+Hvis De tager et af disse lægemidler, vil Deres læge enten give Dem et andet lægemiddel eller 
+forklare, hvordan og hvornår De skal tage det pågældende lægemiddel:</p>
+</li>
+<li>
+<p>Hvis De tager et syreneutraliserende middel, skal De tage det mindst 2 timer før eller 
+mindst 4 timer efter Odefsey. </p>
+</li>
+<li>
+<p>Hvis De tager en H2-antagonist, skal De tage den mindst 12 timer før eller mindst 
+4 timer efter Odefsey. H2-antagonister må kun tages en gang om dagen, hvis De tager 
+Odefsey. H2-antagonister må ikke tages i en behandlingsplan med to daglige doser. Tal 
+med lægen om en alternativ doseringsform (se Sådan skal De tage Odefsey). </p>
+</li>
+<li>
+<p>Ciclosporin, et lægemiddel der anvendes til at reducere styrken af kroppens immunsystem: 
+Dette lægemiddel kan øge mængden af rilpivirin og tenofoviralafenamid (indholdsstoffer i 
+Odefsey) i Deres blod. Deres læge vil give Dem et andet lægemiddel. </p>
+</li>
+<li>
+<p>Metadon, et lægemiddel der bruges til at behandle afhængighed af opiater, da det kan være 
+nødvendigt for Deres læge at ændre metadondosis. </p>
+</li>
+<li>
+<p>Dabigatranetexilat, et lægemiddel der bruges til at behandle hjertelidelser, da det kan være 
+nødvendigt for Deres læge at overvåge niveauerne af dette lægemiddel i Deres blod. </p>
+</li>
+</ul>
+<p> Fortæl altid lægen, hvis De tager nogen af disse lægemidler. Afbryd ikke behandlingen uden 
+først at kontakte Deres læge. </p>
+<p>Graviditet og amning </p>
+<ul>
+<li>
+<p>Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive 
+gravid, skal De spørge Deres læge til råds, før De tager dette lægemiddel. </p>
+</li>
+<li>
+<p>Anvend effektiv prævention, mens De tager Odefsey. </p>
+</li>
+</ul>
+<p>Spørg Deres læge eller apotekspersonalet til råds, før De tager nogen form for lægemiddel under 
+graviditet. </p>
+<p>Hvis De har taget Odefsey under graviditeten, kan lægen anmode om regelmæssige blodprøver og 
+andre prøver for at overvåge, hvordan barnet udvikler sig. Hos børn, hvis mødre tog nucleosid-revers 
+transkriptasehæmmeres (NRTI’er) under graviditeten, opvejede fordelen ved beskyttelse mod hiv 
+risikoen for bivirkninger. </p>
+<p>De må ikke amme, mens De er i behandling med Odefsey. Det skyldes, at nogle af de aktive stoffer 
+i dette lægemiddel udskilles i modermælken.  </p>
+<p>Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken. </p>
+<p>Hvis De ammer eller påtænker at amme, bør De drøfte det med lægen hurtigst muligt. </p>
+<p>Trafik- og arbejdssikkerhed 
+Undlad at føre motorkøretøj og betjene maskiner, hvis De bliver træt, søvnig eller svimmel, når De har 
+taget Deres lægemiddel. </p>
+<p>Odefsey indeholder lactose og natrium </p>
+<p>Kontakt lægen, før De tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>
+<p> Hvis noget af dette gælder for Dem, skal De kontakte lægen, før De tager Odefsey. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take odefsey"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take odefsey"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er: </p>
+<p>Voksne: en tablet om dagen sammen med mad 
+Unge i alderen 12 år og ældre, som vejer mindst 35 kg: en tablet om dagen sammen med mad </p>
+<p>Det er vigtigt at tage Odefsey med mad for at få de rette niveauer af det aktive stof i kroppen. En 
+ernæringsdrik alene erstatter ikke mad. </p>
+<p>Det anbefales, at tabletten ikke tygges, knuses eller deles på grund af den bitre smag. </p>
+<p>Hvis De tager et syreneutraliserende middel, som f.eks. aluminiums-/magnesiumhydroxid eller 
+calciumcarbonat, skal De tage det mindst 2 timer før eller mindst 4 timer efter Odefsey. </p>
+<p>Hvis De tager en H2-antagonist, som f.eks. famotidin, cimetidin, nizatidin eller ranitidin, skal De 
+tage den mindst 12 timer før eller mindst 4 timer efter Odefsey. H2-antagonister må kun tages en gang 
+om dagen, hvis De tager Odefsey. H2-antagonister må ikke tages to gange om dagen. Tal med lægen 
+om en alternativ doseringsplan. </p>
+<p>Hvis De er i dialyse, skal De tage Deres daglige dosis Odefsey, efter De har fuldført Deres dialyse. </p>
+<p>Hvis De har taget for meget Odefsey </p>
+<p>Hvis De ved et uheld tager mere end den anbefalede dosis Odefsey, kan De have større risiko for at få 
+bivirkninger med dette lægemiddel (se punkt 4, Bivirkninger). </p>
+<p>Kontakt straks lægen eller den nærmeste skadestue for at få råd. Tag tabletbeholderen med, så De let 
+kan vise, hvad De har taget. </p>
+<p>Hvis De har glemt at tage Odefsey </p>
+<p>Det er vigtigt ikke at komme til at springe en dosis af Odefsey over. </p>
+<p>Hvis De har glemt at tage en dosis: </p>
+<ul>
+<li>
+<p>Hvis De kommer i tanker om det inden for 12 timer efter det tidspunkt, De normalt tager 
+Odefsey på, skal De tage tabletten så hurtigt som muligt. Tag altid tabletten sammen med mad. 
+Derefter tages den næste dosis som sædvanligt. </p>
+</li>
+<li>
+<p>Hvis De kommer i tanker om det 12 timer eller længere efter det tidspunkt, De normalt tager 
+Odefsey på, skal De ikke tage den glemte dosis. Vent, og tag den næste dosis sammen med mad, 
+til sædvanlig tid. </p>
+</li>
+</ul>
+<p>Hvis De kaster op mindre end 4 timer efter, at De har taget Odefsey, skal De tage en ny tablet 
+sammen med mad. Hvis De kaster op mere end 4 timer efter, at De har taget Odefsey, er det ikke 
+nødvendigt at tage en ny tablet før den sædvanlige planlagte tablet. </p>
+<p>Hold ikke op med at tage Odefsey </p>
+<p>Hold ikke op med at tage Odefsey uden at tale med Deres læge. Hvis De holder op med at tage 
+Odefsey, kan det i alvorlig grad påvirke Deres reaktion på fremtidig behandling. Hvis Odefsey stoppes 
+uanset årsagen, skal De tale med Deres læge, før De igen begynder at tage Odefsey tabletter. </p>
+<p>Når De snart ikke har mere af Odefsey, skal De bede om mere fra lægen eller på apoteket. Dette er 
+meget vigtigt, da virusmængden igen kan begynde at stige, hvis lægemidlet stoppes, selv i kort tid. 
+Dette kan gøre det sværere at behandle sygdommen. </p>
+<p>Hvis De har både hiv-infektion og hepatitis B, er det særlig vigtigt ikke at ophøre med behandlingen 
+med Odefsey uden først at konsultere Deres læge. Det kan være nødvendigt at få taget blodprøver i 
+flere måneder efter ophør med behandlingen. Hos nogle patienter med fremskreden leversygdom eller 
+cirrose bør behandlingen ikke ophøre, fordi det kan medføre en forværring af Deres hepatitis, hvilket 
+kan være livstruende. </p>
+<p> Bemærker De nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal De 
+omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, som De normalt 
+ville forbinde med hepatitis B-infektion. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Mulige bivirkninger: Fortæl det straks til lægen </p>
+<ul>
+<li>
+<p>Ethvert tegn på betændelse eller infektion. Hos nogle patienter med fremskreden 
+hiv-infektion (aids) og tidligere opportunistiske infektioner (infektioner, der forekommer hos 
+personer med et svagt immunsystem) kan der forekomme tegn og symptomer på betændelse fra 
+tidligere infektioner kort tid efter hiv-behandlingen startes. Det menes, at disse symptomer 
+skyldes en forbedring af kroppens immunreaktion, hvilket gør kroppen i stand til at bekæmpe 
+infektioner, der kan have været til stede uden nogen tydelige symptomer. </p>
+</li>
+<li>
+<p>Autoimmunsygdomme, når immunsystemet angriber sundt kropsvæv, kan også opstå, efter De 
+begynder at tage lægemidler for hiv-infektion. Autoimmunsygdomme kan opstå mange måneder 
+efter behandlingsstart. Vær opmærksom på symptomer på infektion eller andre symptomer, 
+såsom:</p>
+</li>
+<li>
+<p>muskelsvaghed </p>
+</li>
+<li>svaghed, der begynder i hænder og fødder og bevæger sig op mod selve kroppen </li>
+<li>hjertebanken, rysten eller hyperaktivitet. </li>
+</ul>
+<p> Hvis de bemærker disse eller andre symptomer på betændelse eller infektion, skal De straks 
+fortælle det til Deres læge. </p>
+<p>Meget almindelige bivirkninger 
+(kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>besvær med at falde i søvn </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+</ul>
+<p>Test kan også vise: </p>
+<ul>
+<li>
+<p>forhøjede niveauer af kolesterol og/eller pankreatisk amylase (et fordøjelsesenzym) i blodet </p>
+</li>
+<li>
+<p>forhøjede niveauer af leverenzymer i blodet </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger 
+(kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>depression </p>
+</li>
+<li>
+<p>unormale drømme </p>
+</li>
+<li>
+<p>søvnforstyrrelser </p>
+</li>
+<li>
+<p>sænket stemningsleje </p>
+</li>
+<li>
+<p>træthedsfornemmelse (døsighed) </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>mavesmerter eller ubehag </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>føle sig oppustet </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>afgang af tarmluft (flatulens) </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+</ul>
+<p>Test kan også vise: </p>
+<ul>
+<li>
+<p>et lavt antal hvide blodlegemer (et nedsat antal hvide blodlegemer kan gøre Dem mere 
+modtagelig for infektioner) </p>
+</li>
+<li>
+<p>et lavt antal blodplader (en type blodlegemer, der er med til at få blodet til at størkne) </p>
+</li>
+<li>
+<p>nedsat hæmoglobin i blodet </p>
+</li>
+<li>
+<p>øget antal fedtsyrer (triglycerider), bilirubin eller lipase i blodet </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger 
+(kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>tegn eller symptomer på betændelse eller infektion </p>
+</li>
+<li>
+<p>lavt antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>alvorlige hudreaktioner, herunder udslæt, sammen med feber, hævelser og leverproblemer </p>
+</li>
+<li>
+<p>problemer med fordøjelsen, som resulterer i ubehag efter måltider </p>
+</li>
+<li>
+<p>hævelse af ansigt, læber, tunge eller svælg (angioødem) </p>
+</li>
+<li>
+<p>kløe (pruritus) </p>
+</li>
+<li>
+<p>nældefeber (urticaria) </p>
+</li>
+<li>
+<p>ledsmerter (artralgi) </p>
+</li>
+</ul>
+<p> Hvis nogle af bivirkningerne bliver alvorlige, skal De fortælle det til lægen. </p>
+<p>Andre bivirkninger, der kan ses under hiv-behandling </p>
+<p>Hyppigheden af de følgende bivirkninger er ikke kendt (hyppigheden kan ikke estimeres ud fra 
+forhåndenværende data). </p>
+<ul>
+<li>
+<p>Knogleproblemer. Nogle patienter, der tager antiretrovirale kombinationslægemidler, såsom 
+Odefsey, kan udvikle en knoglesygdom, der kaldes osteonekrose (knoglevævsdød forårsaget af 
+manglende blodforsyning til knoglerne). Indtagelse af denne type lægemiddel i lang tid, 
+indtagelse af binyrebarkhormoner, indtagelse af alkohol, et meget svagt immunsystem og 
+overvægt kan være nogle af de mange risikofaktorer for at udvikle denne sygdom. Tegn på 
+osteonekrose er:</p>
+</li>
+<li>
+<p>stivhed i led </p>
+</li>
+<li>smerter i led (især i hofter, knæ og skuldre) </li>
+<li>bevægelsesbesvær 
+ Hvis De bemærker nogle af disse symptomer, skal De fortælle det til lægen. </li>
+</ul>
+<p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose i 
+blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-lægemidlet. Lægen vil holde øje med disse ændringer. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store odefsey"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store odefsey"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og beholderen efter Exp. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale pakning for at beskytte mod fugt. Hold beholderen tæt tillukket. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Odefsey indeholder: </p>
+<p>Aktive stoffer: emtricitabin, rilpivirin og tenofoviralafenamid. Hver Odefsey tablet indeholder 
+200 mg metricitabin, rilpivirinhydrochlorid svarende til 25 mg rilpivirin og 
+tenofoviralafenamidfumarat svarende til 25 mg tenofoviralafenamid. </p>
+<p>Øvrige indholdsstoffer: </p>
+<p>Tabletkerne: 
+Croscarmellosenatrium, lactose (som monohydrat), magnesiumstearat, mikrokrystallinsk cellulose, 
+polysorbat 20, povidon. </p>
+<p>Filmovertræk: 
+Macrogol, polyvinylalkohol, talcum, titandioxid (E171), jernoxid, sort (E172). </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Odefsey er en grå, kapselformet, filmovertrukken tablet, som er præget med "GSI" på den ene side og 
+tallet "255" på den anden side. Odefsey fås i tabletbeholdere med 30 tabletter samt i pakninger med 
+3 tabletbeholdere hver med 30 tabletter. Hver tabletbeholder indeholder et silicagel-tørremiddel, der 
+skal opbevares i tabletbeholderen for at hjælpe med at beskytte tabletterne. Silicagel-tørremidlet er i et 
+separat brev eller en separat beholder og må ikke sluges. </p>
+<p>Begge pakningsstørrelser er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrland  </p>
+<p>Fremstiller 
+Gilead Sciences Ireland UC 
+IDA Business and Technology Park 
+Carrigtohill 
+County Cork 
+Irland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-91f303ca4d5b29f50d2776105159918a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for odefsey Package Leaflet for language en"
+Description: "ePI document Bundle for odefsey Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-91f303ca4d5b29f50d2776105159918a"
+* entry[0].resource = composition-en-91f303ca4d5b29f50d2776105159918a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp91f303ca4d5b29f50d2776105159918a"
+* entry[=].resource = mp91f303ca4d5b29f50d2776105159918a
+                            
+                    
+Instance: bundlepackageleaflet-da-91f303ca4d5b29f50d2776105159918a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for odefsey Package Leaflet for language da"
+Description: "ePI document Bundle for odefsey Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-91f303ca4d5b29f50d2776105159918a"
+* entry[0].resource = composition-da-91f303ca4d5b29f50d2776105159918a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp91f303ca4d5b29f50d2776105159918a"
+* entry[=].resource = mp91f303ca4d5b29f50d2776105159918a
+                            
+                    
+
+
+
+Instance: mp91f303ca4d5b29f50d2776105159918a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Odefsey 200 mg/25 mg/25 mg film-coated tablets"
-Description: "Odefsey 200 mg/25 mg/25 mg film-coated tablets"
+Title: "Medicinal Product odefsey"
+Description: "odefsey"
 Usage: #inline
 
  
@@ -573,7 +1292,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Odefsey 200 mg/25 mg/25 mg film-coated tablets"
+  * productName = "odefsey"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -600,29 +1319,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-91f303ca4d5b29f50d2776105159918a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for odefsey Package Leaflet for language en"
-Description: "ePI document Bundle for odefsey Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 91f303ca4d5b29f50d2776105159918aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/16/1112/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "odefsey"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-91f303ca4d5b29f50d2776105159918a"
-* entry[0].resource = composition-en-91f303ca4d5b29f50d2776105159918a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp79e7f113982071ca94e8de8c5bd768b2"
-* entry[=].resource = mp79e7f113982071ca94e8de8c5bd768b2
-                            
-                      
+* title = "List of all ePIs associated with odefsey"
+
+* subject = Reference(mp79e7f113982071ca94e8de8c5bd768b2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#odefsey "odefsey"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-91f303ca4d5b29f50d2776105159918a) // odefsey en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-91f303ca4d5b29f50d2776105159918a) // odefsey da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-91f303ca4d5b29f50d2776105159918a
+InstanceOf: List
+
+* insert 91f303ca4d5b29f50d2776105159918aListRuleset
+    

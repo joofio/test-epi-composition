@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-987766e2219c5177d278b3430b3652be
 InstanceOf: CompositionUvEpi
 Title: "Composition for orgovyx Package Leaflet"
@@ -300,12 +303,386 @@ Tel: +30 210 7488 This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-987766e2219c5177d278b3430b3652be
+InstanceOf: CompositionUvEpi
+Title: "Composition for orgovyx Package Leaflet"
+Description:  "Composition for orgovyx Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpba62682d7a134bf3f9e55395558b6846)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpba62682d7a134bf3f9e55395558b6846
+* title = "TEST PURPOSES ONLY - orgovyx"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Orgovyx </li>
+<li>Sådan skal du tage Orgovyx </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What orgovyx is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What orgovyx is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orgovyx indeholder det aktive stof relugolix. Det anvendes til behandling af voksne patienter med 
+fremskreden hormonfølsom prostatakræft, som reagerer på hormonbehandling. </p>
+<p>Relugolix virker ved at blokere et trin i den proces, som sender signal til testiklerne om at producere 
+testosteron (det mandlige kønshormon). Da testosteron kan stimulere væksten af prostatakræft, kan 
+relugolix takket være den kraftige reduktion af testosteronniveauet forhindre prostatakræftcellerne i at 
+vokse og dele sig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take orgovyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take orgovyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Orgovyx 
+- hvis du er allergisk over for relugolix eller et af de øvrige indholdsstoffer i Orgovyx (angivet i 
+punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Orgovyx, hvis noget af følgende gælder for dig:</p>
+<ul>
+<li>Du har en kredsløbssygdom, f.eks. problemer med hjerterytmen (arytmi). Når du bruger 
+Orgovyx, kan det øge risikoen for problemer med hjerterytmen. Din læge vil muligvis 
+kontrollere din krops indhold af forskellige salte (elektrolytter) og dit hjertes elektriske aktivitet 
+under behandlingen med Orgovyx. </li>
+<li>Fortæl det straks til lægen, hvis du oplever tegn eller symptomer som svimmelhed, besvimelse, 
+en følelse af, at dit hjerte banker meget hårdt eller hurtigt (palpitationer), eller smerter i brystet. 
+Dette kan være symptomer på alvorlige problemer med hjerterytmen. </li>
+<li>Leversygdom. Det kan være nødvendigt at overvåge leverfunktionen. Brugen af Orgovyx er 
+ikke blevet undersøgt hos patienter med svær leversygdom. </li>
+<li>Nyresygdom. </li>
+<li>Knogleskørhed (osteoporose) eller andre tilstande, som påvirker knoglestyrken. Nedsatte 
+testosteronniveauer kan føre til tab af knoglemasse. </li>
+<li>Din sygdom bliver overvåget med en blodprøve for prostataspecifikt antigen (PSA). </li>
+</ul>
+<p>Børn og unge 
+Orgovyx er ikke beregnet til brug hos børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Orgovyx 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Dette gælder også medicin, som ikke er købt 
+på recept. </p>
+<p>Orgovyx kan påvirke visse lægemidler, der bruges til behandling af hjerterytmeproblemer (f.eks. 
+quinidin, procainamid, amiodaron og sotalol), og kan øge risikoen for hjerterytmeproblemer, når det 
+anvendes sammen med visse andre lægemidler (f.eks. methadon [til smertelindring og som en del af 
+afvænningsbehandlingen ved stof- eller medicinmisbrug], moxifloxacin [et antibiotikum] eller 
+antipsykotiske lægemidler, der anvendes ved alvorlig mental sygdom). </p>
+<p>Andre lægemidler kan påvirke absorptionen af relugolix og enten føre til en stigning i indholdet i 
+blodet, hvilket kan give flere bivirkninger, eller et fald i indholdet i blodet, hvilket kan reducere 
+Orgovyx' effektivitet. Eksempler på lægemidler, som kan påvirke Orgovyx, omfatter:</p>
+<ul>
+<li>Visse lægemidler, der bruges til behandling af epilepsi (f.eks. carbamazepin, phenytoin, 
+phenobarbital). </li>
+<li>Visse lægemidler, der bruges til behandling af bakterieinfektioner (f.eks. rifampicin, 
+azithromycin, erythromycin, clarithromycin, gentamicin, tetracyclin). </li>
+<li>Visse lægemidler, der bruges til behandling af svampeinfektioner (f.eks. ketoconazol, 
+itraconazol). </li>
+<li>Visse lægemidler, der bruges til behandling af prostatakræft (f.eks. apalutamid). </li>
+<li>Naturmedicin, der indeholder perikon (Hypericum perforatum). </li>
+<li>Visse lægemidler, der bruges til behandling af højt blodtryk (f.eks. carvedilol, verapamil). </li>
+<li>Visse lægemidler, der bruges til behandling af uregelmæssige hjerteslag (f.eks. amiodaron, 
+dronedaron, propafenon, quinidin). </li>
+<li>Visse lægemidler, der bruges til behandling af angina pectoris (f.eks. ranolazin). </li>
+<li>Visse lægemidler, der bruges til at undertrykke immunsystemet (f.eks. ciclosporin). </li>
+<li>Visse lægemidler, der bruges til behandling af hiv-infektioner (f.eks. ritonavir [eller 
+kombinationer, der indeholder ritonavir], efavirenz). </li>
+<li>Visse lægemidler, der bruges til behandling af leverbetændelse (hepatitis C) (f.eks. telaprevir). </li>
+</ul>
+<p>Din læge kan derfor give dig andre lægemidler, ændre det tidspunkt, hvor du skal tage visse 
+lægemidler, doserne af lægemidlerne eller øge din dosis af Orgovyx. </p>
+<p>Graviditet, amning og frugtbarhed 
+Orgovyx er beregnet til brug hos mænd med prostatakræft. Lægemidlet kan muligvis have en 
+indvirkning på mandlig frugtbarhed. 
+Lægemidlet er ikke indiceret til kvinder, som kan blive gravide. Det anvendes ikke til kvinder, som er 
+gravide eller kan være gravide, eller til kvinder, som ammer. </p>
+<ul>
+<li>
+<p>Oplysninger til mænd:</p>
+</li>
+<li>
+<p>Hvis du har samleje med en kvinde, som kan blive gravid, skal du bruge kondom, og din 
+partner skal anvende en anden form for sikker prævention, mens du er i behandling og i 
+2 uger efter behandlingen med denne medicin for at undgå graviditet. </p>
+</li>
+<li>Hvis du har samleje med en gravid kvinde, skal du bruge kondom for at beskytte det 
+ufødte barn. </li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Træthed er en meget almindelig bivirkning, og svimmelhed er en almindelig bivirkning, som begge 
+kan svække din evne til at køre bil og betjene maskiner. Disse bivirkninger kan skyldes behandlingen 
+eller opstå på grund af din underliggende sygdom. </p>
+<p>Orgovyx indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. filmovertrukket tablet, dvs. det 
+er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take orgovyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take orgovyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er: </p>
+<ul>
+<li>
+<p>tre tabletter på førstedagen af behandlingen. </p>
+</li>
+<li>
+<p>én tablet én gang dagligt derefter, som skal tages på cirka samme tidspunkt hver dag. 
+Din læge kan ændre din dosis, hvis det bliver nødvendigt. </p>
+</li>
+</ul>
+<p>Synkes hele. Tabletterne kan tages med eller uden mad og med en smule væske. </p>
+<p>Hvis du har taget for meget Orgovyx 
+Der har ikke været rapporteret om alvorlige bivirkninger efter indtagelse af adskillige doser samtidigt 
+af dette lægemiddel. Hvis du har taget for mange Orgovyx-tabletter, eller hvis du opdager, at et barn 
+har taget nogle tabletter, skal du tale med lægen hurtigst muligt. Tag medicinen med, så du kan vise 
+den til lægen. </p>
+<p>Hvis du har glemt at tage Orgovyx 
+Hvis du kommer i tanke om, at du har glemt at tage en dosis, mindre end 12 timer efter det normale 
+tidspunkt, hvor du skulle have taget den, skal du tage den, så snart du kommer i tanke om det, og 
+derefter fortsætte med at tage de næste tabletter som normalt i dagene derefter. Hvis du kommer i 
+tanke om en glemt dosis, når der er gået mere end 12 timer, siden du skulle have taget den, må du ikke 
+tage den glemte dosis. Du skal blot tage din næste dosis som normalt dagen efter. </p>
+<p>Hvis du holder op med at tage Orgovyx 
+Hvis du ønsker at holde op med at tage dette lægemiddel, skal du først tale med din læge. Lægen vil 
+forklare virkningen af at stoppe behandlingen og diskutere andre muligheder med dig. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige. </p>
+<p>Søg atraks lægehjælp, hvis du får:</p>
+<ul>
+<li>Akut hævelse af ansigt, mund, læber, tunge, svælg, mave eller arme og ben (angioødem) (ikke 
+almindelig: kan forekomme hos op til 1 ud af 100 personer). </li>
+</ul>
+<p>Følgende bivirkninger er blevet rapporteret med Orgovyx og er anført herunder i henhold til den 
+hyppighed, hvormed de kan forekomme. </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>hedeture </li>
+<li>diarré </li>
+<li>forstoppelse </li>
+<li>muskel- og ledsmerter </li>
+<li>træthed </li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer):</p>
+<ul>
+<li>lavt antal røde blodlegemer (blodmangel/anæmi) </li>
+<li>forstørrelse af brystvæv hos mænd (gynækomasti) </li>
+<li>søvnløshed </li>
+<li>depression </li>
+<li>svimmelhed </li>
+<li>hovedpine </li>
+<li>højt blodtryk </li>
+<li>maveproblemer, herunder kvalme </li>
+<li>øget svedtendens </li>
+<li>udslæt </li>
+<li>nedsat sexlyst </li>
+<li>vægtforøgelse </li>
+<li>forhøjet blodsukker </li>
+<li>forhøjet indhold af fedt (triglycerider) i blodet </li>
+<li>forhøjet kolesterol </li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):</p>
+<ul>
+<li>tab af knoglemasse (osteoporose) </li>
+<li>forhøjede leverenzymer </li>
+<li>nældefeber (urticaria) </li>
+</ul>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1000 personer):</p>
+<ul>
+<li>hjerteanfald </li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data):</p>
+<ul>
+<li>ændringer i elektrokardiogram (QT-forlængelse) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store orgovyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store orgovyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på beholderens etiket efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orgovyx indeholder:</p>
+<ul>
+<li>Aktivt stof: relugolix. </li>
+<li>Øvrige indholdsstoffer: mannitol (E421), natriumstivelsesglycolat (E468), 
+hydroxypropylcellulose (E463), magnesiumstearat (E572), hypromellose (E464), titandioxid 
+(E171), rød jernoxid (E172), carnaubavoks (E903). </li>
+</ul>
+<p>Se "Orgovyx indeholder natrium" i punkt 2 for at få flere oplysninger. </p>
+<p>Udseende og pakningsstørrelser 
+Orgovyx filmovertrukne tabletter er lyserøde, mandelformede, filmovertrukne tabletter 
+(11 mm [længde] × 8 mm [bredde]) med "R" på den ene side og "120" på den anden side. Orgovyx 
+leveres i en hvid plastbeholder med 30 filmovertrukne tabletter, i pakninger med 30 filmovertrukne 
+tabletter og 90 filmovertrukne tabletter (3 beholder med 30 filmovertrukne tabletter). Hver beholder 
+indeholder også et tørremiddel, der hjælper med at holde lægemidlet tørt (beskytte det mod fugt). 
+Fjern ikke tørremidlet fra beholderen. Hver beholder er lukket med et induktionsforseglet, børnesikret 
+låg. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona, s/n, 
+Edifici Est 6ª planta, 
+08039 Barcelona, 
+Spanien </p>
+<p>Fremstiller 
+Accord Healthcare Polska Sp.z o.o., 
+ul. Lutomierska 50,95-200 Pabianice, Polen </p>
+<p>Accord Healthcare B.V.,<br />
+Winthontlaan 200,<br />
+3526 KV Utrecht,<br />
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IS / IT / LT / LV / LX / MT / NL / NO 
+/ PT / PL / RO / SE / SI / SK / UK(NI) / ES 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Win Medica Pharmaceutical S.A.<br />
+Tel: +30 210 7488<br />
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-987766e2219c5177d278b3430b3652be
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orgovyx Package Leaflet for language en"
+Description: "ePI document Bundle for orgovyx Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-987766e2219c5177d278b3430b3652be"
+* entry[0].resource = composition-en-987766e2219c5177d278b3430b3652be
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp987766e2219c5177d278b3430b3652be"
+* entry[=].resource = mp987766e2219c5177d278b3430b3652be
+                            
+                    
+Instance: bundlepackageleaflet-da-987766e2219c5177d278b3430b3652be
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orgovyx Package Leaflet for language da"
+Description: "ePI document Bundle for orgovyx Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-987766e2219c5177d278b3430b3652be"
+* entry[0].resource = composition-da-987766e2219c5177d278b3430b3652be
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp987766e2219c5177d278b3430b3652be"
+* entry[=].resource = mp987766e2219c5177d278b3430b3652be
+                            
+                    
+
+
+
+Instance: mp987766e2219c5177d278b3430b3652be
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Orgovyx 120 mg film-coated tablets"
-Description: "Orgovyx 120 mg film-coated tablets"
+Title: "Medicinal Product orgovyx"
+Description: "orgovyx"
 Usage: #inline
 
  
@@ -325,7 +702,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Orgovyx 120 mg film-coated tablets"
+  * productName = "orgovyx"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -352,29 +729,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-987766e2219c5177d278b3430b3652be
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for orgovyx Package Leaflet for language en"
-Description: "ePI document Bundle for orgovyx Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 987766e2219c5177d278b3430b3652beListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1642/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "orgovyx"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-987766e2219c5177d278b3430b3652be"
-* entry[0].resource = composition-en-987766e2219c5177d278b3430b3652be
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpba62682d7a134bf3f9e55395558b6846"
-* entry[=].resource = mpba62682d7a134bf3f9e55395558b6846
-                            
-                      
+* title = "List of all ePIs associated with orgovyx"
+
+* subject = Reference(mpba62682d7a134bf3f9e55395558b6846)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#orgovyx "orgovyx"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-987766e2219c5177d278b3430b3652be) // orgovyx en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-987766e2219c5177d278b3430b3652be) // orgovyx da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-987766e2219c5177d278b3430b3652be
+InstanceOf: List
+
+* insert 987766e2219c5177d278b3430b3652beListRuleset
+    

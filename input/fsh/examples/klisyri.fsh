@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9a837e87c0c475b218e0535edae8bbad
 InstanceOf: CompositionUvEpi
 Title: "Composition for klisyri Package Leaflet"
@@ -257,12 +260,390 @@ Tel.: +351 21 415 57 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-9a837e87c0c475b218e0535edae8bbad
+InstanceOf: CompositionUvEpi
+Title: "Composition for klisyri Package Leaflet"
+Description:  "Composition for klisyri Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbab9e4ee4da4bc5eb4ed9478d7b719d4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbab9e4ee4da4bc5eb4ed9478d7b719d4
+* title = "TEST PURPOSES ONLY - klisyri"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Klisyri </li>
+<li>Sådan skal du bruge Klisyri </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What klisyri is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What klisyri is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Klisyri indeholder det aktive stof tirbanibulin. Det anvendes til behandling af mild aktinisk keratose 
+hos voksne. Aktinisk keratose er et ru hudområde hos personer, der har udviklet sig hos personer, der 
+har været udsat for meget sol i lang tid. Klisyri bør kun anvendes til flad aktinisk keratose i ansigtet og 
+hovedbunden. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take klisyri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take klisyri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Klisyri </p>
+<ul>
+<li>hvis du er allergisk over for tirbanibulin eller et af de øvrige indholdsstoffer (angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du bruger Klisyri </p>
+<ul>
+<li>
+<p>Brug ikke Klisyri, før det område, der skal behandles, er ophelet efter tidligere medicinsk eller 
+kirurgisk behandling. Brug ikke Klisyri på åbne sår eller skadet hud. </p>
+</li>
+<li>
+<p>Vask hænderne, hvis du kommer til at røre ved det område, hvor du har påført salven.  </p>
+</li>
+<li>
+<p>Undgå, at Klisyri får kontakt med øjnene. Hvis det ved et uheld kommer i øjnene, skal du 
+skylle øjet med masser af vand, og søge lægehjælp hurtigst muligt, og tage denne 
+indlægsseddel med. </p>
+</li>
+<li>
+<p>Salven må ikke påføres indvendigt, i næseborene, i ørerne eller på læberne. Hvis salven ved et 
+uheld rører ved nogen af disse områder, skal den vaskes af ved at skylle med vand. </p>
+</li>
+<li>
+<p>Medicinen må ikke sluges. Hvis du kommer til at sluge denne medicin, skal du drikke masser 
+af vand og søge lægehjælp. Medbring denne indlægsseddel. </p>
+</li>
+<li>
+<p>Fortæl lægen det, hvis du har problemer med dit immunsystem. </p>
+</li>
+<li>
+<p>Hold øje med, om der opstår skæl, rødme, åbne sår, hævelse eller vorter omkring 
+behandlingsområdet. Hvis du ser noget, skal du omgående kontakte lægen. </p>
+</li>
+<li>
+<p>Under behandlingen med Klisyri skal du undgå aktiviteter, der kan medføre, at du sveder 
+meget. Du skal også undgå sollys så meget som muligt (inklusive højfjeldssol og solarium). 
+Bær beskyttende tøj og hat med bred skygge, når du er udendørs. </p>
+</li>
+<li>
+<p>Det behandlede område må ikke dækkes med bandage eller plaster, efter du har påført Klisyri. </p>
+</li>
+<li>
+<p>Anvend ikke mere salve end lægen har anvist. </p>
+</li>
+<li>
+<p>Påfør ikke salven mere end én gang om dagen. </p>
+</li>
+<li>
+<p>Lad ikke andre personer eller kæledyr komme i kontakt med det område, hvor du har påført 
+salven, i omkring 8 timer efter påførslen. Hvis en anden person eller et kæledyr kommer i 
+kontakt med behandlingsområdet, skal personen eller kæledyret vaskes. </p>
+</li>
+<li>
+<p>Kontakt lægen, hvis du får hudreaktioner fra denne medicin i det behandlede område, som 
+bliver alvorlige (se pkt. 4). </p>
+</li>
+</ul>
+<p>Børn og unge 
+Denne medicin må ikke gives til børn og unge under 18 år, da de ikke får aktinisk keratose. </p>
+<p>Brug af anden medicin sammen med Klisyri 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. </p>
+<p>Hvis du tidligere har brugt Klisyri eller tilsvarende medicin, skal du oplyse lægen om det, før du 
+starter behandlingen. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. 
+Klisyri bør ikke anvendes under graviditet. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel forventes ikke at have nogen indflydelse på din evne til at køre bil eller bruge 
+maskiner. </p>
+<p>Klisyri indeholder propylenglycol 
+Propylenglycol kan give irritation af huden. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take klisyri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take klisyri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Denne medicin er beregnet til behandling af et område på op til 25 cm2 i et behandlingsforløb på fem 
+dage. Hvis det behandlede område ikke udviser fuld heling cirka 8 uger efter behandlingscyklussen 
+startede, eller hvis der fremkommer nye læsioner i behandlingsområdet, skal behandlingen overvejes 
+af din læge, og andre behandlingsmuligheder bør overvejes. </p>
+<p>Påfør et tyndt lag Klisyri på det angrebne område i ansigtet eller i hovedbunden en gang dagligt i 
+5 dage i træk. Et brev indeholder tilstrækkelig salve til at dække det område, der skal behandles. 
+Brevet må ikke bruges igen efter at have været åbnet, også selvom der stadig er salve tilbage. </p>
+<p>Instruktioner til påføring: 
+1. Vask hænderne med sæbe og vand, før du påfører salven. 
+2. Vask behandlingsområdet med mild sæbe og vand, og tør det. 
+3. Åbn et nyt brev, hver gang du påfører denne medicin.<br />
+4. Åbn brevet langs den perforerede linje (figur 1). 
+5. Tryk lidt salve ud på fingerspidsen (figur 2). 
+6. Påfør et tyndt lag salve jævnt over hele behandlingsområdet (figur 3). 
+7. Vask hænderne med sæbe og vand umiddelbart efter påføring af salven (figur 4). 
+8. Du må ikke vaske eller røre ved det behandlede område i omkring 8 timer. Efter dette tidsrum 
+kan du vaske det behandlede område med mild sæbe og vand. 
+9. Det behandlede område må ikke dækkes med bandage, efter du har påført Klisyri. 
+10. Gentag trinnene ovenfor på hver behandlingsdag på omtrent samme tidspunkt hver dag. </p>
+<p>Hvis du har brugt for meget Klisyri 
+Vask det område, hvor salven blev påført, med mild sæbe og vand. Kontakt lægen eller 
+apotekspersonalet, hvis du får alvorlige hudreaktioner på området. </p>
+<p>Hvis du har glemt at bruge Klisyri 
+Hvis du springer en dosis over, skal du påføre salven, så snart du kommer i tanker om det, og derefter 
+fortsætte med din sædvanlige behandlingsplan. Påfør ikke salven mere end én gang om dagen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Efter brugen af denne medicin kan du opleve bivirkninger på huden, der hvor du påførte salven. Disse 
+bivirkninger kan forværres i op til 8 dage, efter du starter behandlingen, og de forsvinder som regel 
+efter 2 til 3 uger efter ophør med behandlingen. Kontakt lægen, hvis disse bivirkninger bliver 
+alvorlige. </p>
+<p>De hyppigst forekommende bivirkninger i det behandlede område: </p>
+<p>Meget almindelig (kan påvirke mere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>rødme (erytem) </p>
+</li>
+<li>
+<p>afskalning (skældannelse) </p>
+</li>
+<li>
+<p>sår (skorpedannelse) </p>
+</li>
+<li>
+<p>hævelse </p>
+</li>
+<li>
+<p>afstødning af den yderste del af huden (erosion, ulceration) </p>
+</li>
+</ul>
+<p>Andre mulige bivirkninger i det behandlede område: </p>
+<p>Almindelig (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>smerter (ømhed, svie eller brændende fornemmelse)  </p>
+</li>
+<li>
+<p>kløe (pruritus) </p>
+</li>
+<li>
+<p>blærer (blærer eller pustler)  </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
+Du kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store klisyri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store klisyri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Må ikke opbevares i køleskab eller nedfryses. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og etiketten efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Kun til engangsbrug. Brevene må ikke bruges igen, efter at have været åbnet.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Klisyri indeholder:</p>
+<ul>
+<li>Aktivt stof: tirbanibulin. Hvert brev indeholder 2,5 mg tirbanibulin i 250 mg salve. Hvert gram 
+salve indeholder 10 mg tirbanibulin. </li>
+<li>Øvrige indholdsstoffer: propylenglycol og glycerolmonostearat 40-55. Udseende og pakningsstørrelser 
+Hvert brev med Klisyri indeholder 250 mg hvid til let gullig salve. 
+Hver pakning indeholder 5 breve af polyethylen /aluminiumsfolie. </li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen 
+Almirall, S.A. 
+Ronda General Mitre, 08022 Barcelona 
+Spanien </p>
+<p>Fremstiller 
+Almirall Hermal GmbH 
+Scholtzstrasse 3 
+21465 Reinbek 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien/ 
+Luxembourg/Luxemburg<br />
+Almirall N.V. 
+Tél/Tel: +32 (0)2 771 86 37  </p>
+<p>Ísland<br />
+Vistor hf. 
+Sími: +354 535 70 00  </p>
+<p>България/ Česká republika/ Eesti/ Ελλάδα/ 
+España/ Hrvatska/ Κύπρος/ Latvija/ Lietuva/ 
+Magyarország/ Malta/ România/ Slovenija/ 
+Slovenská republika<br />
+Almirall, S.A. 
+Teл./ Tel/ Τηλ: +34 93 291 30 00<br />
+Italia<br />
+Almirall SpA 
+Tel.: +39 02 346181  </p>
+<p>Tel (Česká republika / Slovenská republika): 
++420 220 990 139  </p>
+<p>Danmark/ Norge/ Suomi/Finland/ Sverige<br />
+Almirall ApS 
+Tlf/ Puh/Tel: +45 70 25 75 75  </p>
+<p>Nederland<br />
+Almirall B.V. 
+Tel: +31 (0)307991155  </p>
+<p>Deutschland<br />
+Almirall Hermal GmbH 
+Tel.: +49 (0)40 72704-0  </p>
+<p>Österreich<br />
+Almirall GmbH 
+Tel.: +43 (0)1/595 39 60  </p>
+<p>France<br />
+Almirall SAS, 1 
+Tél.: +33(0)1 46 46 19 20  </p>
+<p>Polska<br />
+Almirall Sp.z o. o. 
+Tel.: +48 22 330 02 57  </p>
+<p>Ireland/ United Kingdom (Northern Ireland) 
+Almirall, S. A. 
+Tel: +353 (0) 1431 9836  </p>
+<p>Portugal<br />
+Almirall - Produtos Farmacêuticos, Lda.<br />
+Tel.: +351 21 415 57  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9a837e87c0c475b218e0535edae8bbad
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for klisyri Package Leaflet for language en"
+Description: "ePI document Bundle for klisyri Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9a837e87c0c475b218e0535edae8bbad"
+* entry[0].resource = composition-en-9a837e87c0c475b218e0535edae8bbad
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9a837e87c0c475b218e0535edae8bbad"
+* entry[=].resource = mp9a837e87c0c475b218e0535edae8bbad
+                            
+                    
+Instance: bundlepackageleaflet-da-9a837e87c0c475b218e0535edae8bbad
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for klisyri Package Leaflet for language da"
+Description: "ePI document Bundle for klisyri Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9a837e87c0c475b218e0535edae8bbad"
+* entry[0].resource = composition-da-9a837e87c0c475b218e0535edae8bbad
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9a837e87c0c475b218e0535edae8bbad"
+* entry[=].resource = mp9a837e87c0c475b218e0535edae8bbad
+                            
+                    
+
+
+
+Instance: mp9a837e87c0c475b218e0535edae8bbad
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Klisyri 10 mg/g ointment"
-Description: "Klisyri 10 mg/g ointment"
+Title: "Medicinal Product klisyri"
+Description: "klisyri"
 Usage: #inline
 
  
@@ -282,7 +663,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Klisyri 10 mg/g ointment"
+  * productName = "klisyri"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -309,29 +690,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9a837e87c0c475b218e0535edae8bbad
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for klisyri Package Leaflet for language en"
-Description: "ePI document Bundle for klisyri Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9a837e87c0c475b218e0535edae8bbadListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1558/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "klisyri"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9a837e87c0c475b218e0535edae8bbad"
-* entry[0].resource = composition-en-9a837e87c0c475b218e0535edae8bbad
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbab9e4ee4da4bc5eb4ed9478d7b719d4"
-* entry[=].resource = mpbab9e4ee4da4bc5eb4ed9478d7b719d4
-                            
-                      
+* title = "List of all ePIs associated with klisyri"
+
+* subject = Reference(mpbab9e4ee4da4bc5eb4ed9478d7b719d4)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#klisyri "klisyri"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9a837e87c0c475b218e0535edae8bbad) // klisyri en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9a837e87c0c475b218e0535edae8bbad) // klisyri da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9a837e87c0c475b218e0535edae8bbad
+InstanceOf: List
+
+* insert 9a837e87c0c475b218e0535edae8bbadListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9aa25859b3b911a1afa24fe9c429ab94
 InstanceOf: CompositionUvEpi
 Title: "Composition for revatio Package Leaflet"
@@ -385,12 +388,463 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-9aa25859b3b911a1afa24fe9c429ab94
+InstanceOf: CompositionUvEpi
+Title: "Composition for revatio Package Leaflet"
+Description:  "Composition for revatio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfc1902d0c92c5877cbf8ae050286c0d7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpfc1902d0c92c5877cbf8ae050286c0d7
+* title = "TEST PURPOSES ONLY - revatio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Revatio </li>
+<li>Sådan skal De tage Revatio </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What revatio is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What revatio is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revatio indeholder sildenafil, der hører til en gruppe af lægemidler, som kaldes fosfodiesterase-type 5-
+(PDE5)-hæmmere.  </p>
+<p>Revatio nedsætter blodtrykket i lungerne ved at udvide blodkarrene i lungerne.  </p>
+<p>Revatio anvendes til at behandle voksne, børn og unge fra 1-17 år med for højt blodtryk i blodkarrene 
+i lungerne (pulmonal arteriel hypertension).  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take revatio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take revatio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Revatio </p>
+<ul>
+<li>
+<p>hvis De er allergisk over for sildenafil eller et af de øvrige indholdsstoffer i Revatio (angivet i 
+afsnit 6). </p>
+</li>
+<li>
+<p>hvis De tager medicin, som indeholder nitrater eller nitrogenoxiddonorer som amylnitrit 
+(“poppers"). Denne type medicin gives ofte til lindring af smerter i brystet (eller “angina 
+pectoris"). Revatio kan øge disse præparaters virkning i uønsket, alvorlig grad. Fortæl Deres 
+læge, hvis De tager nogle af disse præparater. Er De usikker, så spørg lægen eller på apoteket.  </p>
+</li>
+<li>
+<p>hvis De tager riociguat. Dette lægemiddel bruges til at behandle pulmonal arteriel hypertension 
+(højt blodtryk i lungerne) og kronisk tromboembolisk pulmonal hypertension (højt blodtryk i 
+lungerne som følge af blodpropper). PDE5-hæmmere, så som Revatio, har vist sig at øge den 
+blodtrykssænkende virkning af denne medicin. Tal med Deres læge hvis De tager riociguat eller 
+er usikker. </p>
+</li>
+<li>
+<p>hvis De for nylig har haft et slagtilfælde, eller et hjerteanfald, eller hvis De har svær 
+leversygdom eller meget lavt blodtryk (&lt;90/50 mmHg). </p>
+</li>
+<li>
+<p>hvis De tager medicin til behandling af svampeinfektioner som f.eks. ketoconazol eller 
+itraconazol eller medicin som indeholder ritonavir (mod hiv). </p>
+</li>
+<li>
+<p>hvis De på noget tidspunkt tidligere har haft tab af synet på grund af problemer med 
+blodtilførslen til nerven i øjet, tilstanden kaldes non-arteritis anterior iskæmisk opticusneuropati 
+(NAION). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før De tager Revatio, hvis De 
+- har sygdom forårsaget af blokeret eller forsnævret vene i lungerne og ikke en blokeret eller 
+forsnævret arterie. 
+- har et alvorligt hjerteproblem. 
+- har problemer med, at hjertekamrene ikke pumper normalt. 
+- har for højt blodtryk i blodkarrene i lungerne. 
+- har lavt blodtryk i hvile. 
+- har mistet store mængder væske (dehydrering), dette kan ske, hvis De sveder meget, eller hvis 
+De ikke drikker nok væske. Det kan ske, hvis De er syg med feber, kaster op eller har diarré. 
+- har en sjælden, arvelig øjensygdom (retinitis pigmentosa).<br />
+- har unormale røde blodlegemer (seglcelleanæmi), blodkræft (leukæmi), knoglemarvskræft 
+(myelomatose/multipelt myelom) 
+- har en hvilken som helst sygdom eller deformitet af penis. 
+- for tiden har mavesår eller har en blødningsforstyrrelse (som f.eks. hæmofili) eller hyppigt får 
+næseblod. 
+- tager medicin for impotens (erektil dysfunktion). </p>
+<p>Når PDE5-hæmmere, herunder sildenafil, anvendes til behandling af rejsningsproblemer hos mænd, er 
+der med ukendt hyppighed set bivirkninger, der påvirker synet: delvist, pludseligt, midlertidigt eller 
+permanent nedsat syn eller synstab på det ene eller begge øjne. </p>
+<p>Hvis De oplever pludseligt nedsat syn eller synstab, skal De stoppe med at tage Revatio og straks 
+kontakte Deres læge (se også afsnit 4). </p>
+<p>Vedvarende og nogle gange smertefulde erektioner er set hos mænd efter indtagelse af sildenafil. Hvis 
+De får erektion, som varer længere end 4 timer, skal De stoppe med at tage Revatio og straks 
+kontakte Deres læge (se også afsnit 4).  </p>
+<p>Særlige hensyn i forbindelse med patienter med nyre- eller leverproblemer 
+Fortæl lægen, hvis De har nyre- eller leverproblemer, da dosis måske skal justeres.  </p>
+<p>Børn </p>
+<p>Revatio bør ikke gives til børn under 1 år. </p>
+<p>Brug af anden medicin sammen med Revatio </p>
+<p>Fortæl altid lægen eller apoteketspersonalet, hvis De bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin.   </p>
+<ul>
+<li>medicin der indeholder nitrater eller såkaldte nitrogenoxiddonorer som f.eks. amylnitrit 
+(“poppers"). Denne type medicin bruges ofte til lindring af angina pectoris eller “brystsmerter" 
+(se afsnit 2 Før De tager Revatio). </li>
+<li>medicin der indeholder riociguat. </li>
+<li>behandling af pulmonal hypertension (f.eks. bosentan eller iloprost). </li>
+<li>medicin, der indeholder perikon (naturmedicin), rifampicin (mod tuberkulose), carbamazepin, 
+phenytoin og phenobarbital (bruges bl.a. til behandling af epilepsi). </li>
+<li>blodfortyndende medicin (f.eks. warfarin), selv om det ikke resulterede i bivirkninger. </li>
+<li>medicin, der indeholder erythromycin, clarithromycin, telithromycin (antibiotika til at behandle 
+visse typer bakterieinfektioner), saquinavir (mod hiv) eller nefazodon (mod depression), da 
+dosis måske skal justeres. </li>
+<li>alfa-blokker (f.eks. doxazosin) til behandling af for højt blodtryk eller vandladningsbesvær ved 
+forstørret blærehalskirtel (prostata), da kombination af disse to lægemidler kan give symptomer 
+på grund af blodtryksnedsættelse (f.eks. svimmelhed). </li>
+<li>medicin, der indeholder sacubitril/valsartan, som bruges til behandling af hjertesvigt. </li>
+</ul>
+<p>Brug af Revatio sammen med mad og drikke </p>
+<p>De må ikke drikke grapefrugtjuice, mens De er i behandling med Revatio. </p>
+<p>Graviditet og amning </p>
+<p>Hvis De er gravid eller ammer, eller planlægger at blive gravid, skal De spørge Deres læge til råds, før 
+De tager Revatio. Revatio må kun anvendes under graviditet, hvis det er strengt nødvendigt. </p>
+<p>Revatio må ikke gives til kvinder i den fødedygtige alder, medmindre der anvendes sikker prævention. </p>
+<p>Revatio udskilles i modermælken i meget små mængder og forventes ikke at skade barnet.  </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Revatio kan give svimmelhed og kan påvirke synet. Vær opmærksom på, hvordan De reagerer på 
+medicinen, inden bilkørsel eller betjening af maskiner. </p>
+<p>Revatio indeholder lactose </p>
+<p>Kontakt lægen, før De tager denne medicin, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter. </p>
+<p>Revatio indeholder natrium </p>
+<p>Revatio 20 mg tabletter indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take revatio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take revatio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Revatio nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller på apoteket.  </p>
+<p>Til voksne er den sædvanlige dosis 20 mg 3 gange dagligt (taget med 6-8 timers mellemrum). 
+Tabletten tages sammen med eller uden mad. </p>
+<p>Brug til børn og unge </p>
+<p>Den sædvanlige dosis til børn og unge i alderen 1-17 år er 10 mg 3 gange dagligt ved legemsvægt 
+20 kg eller derunder og 20 mg 3 gange dagligt ved legemsvægt over 20 kg. Revatio kan tages sammen 
+med eller uden mad. Der må ikke anvendes højere doser til børn. Denne medicin må kun anvendes i de 
+tilfælde, hvor dosis er 20 mg 3 gange dagligt. Andre lægemiddelformer kan være bedre egnet til 
+patienter ved legemsvægt 20 kg eller derunder og yngre patienter som ikke kan synke tabletter.  </p>
+<p>Hvis De har taget for meget Revatio </p>
+<p>De må ikke tage mere medicin, end Deres læge har foreskrevet. 
+Kontakt straks lægen, hvis De tager mere medicin, end lægen har foreskrevet. Hvis De tager mere 
+Revatio, end De skal, kan det øge risikoen for bivirkninger. </p>
+<p>Hvis De har glemt at tage Revatio </p>
+<p>Hvis De glemmer at tage Revatio, så tag en dosis, så snart De kommer i tanke om det, og fortsæt så 
+med at tage Deres medicin til den sædvanlige tid. De må ikke tage en dobbeltdosis som erstatning for 
+den glemte dosis. </p>
+<p>Hvis De holder op med at tage Revatio </p>
+<p>Hvis De pludseligt stopper med at tage Revatio, kan Deres symptomer blive forværret. Stop ikke med 
+at tage Revatio, medmindre det sker i samråd med lægen. Lægen vil bede Dem om, at nedsætte dosis 
+over nogle få dage, førend De standser behandlingen fuldstændigt. </p>
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis De oplever en af følgende bivirkninger, skal De stoppe med at tage Revatio og straks søge læge 
+(se også afsnit 2):</p>
+<ul>
+<li>pludseligt nedsat syn eller synstab (hyppighed er ukendt) </li>
+<li>erektion, som varer uafbrudt i mere end 4 timer. Vedvarende og til tider smertefulde erektion er 
+set hos mænd efter indtagelse af sildenafil (hyppighed er ukendt). </li>
+</ul>
+<p>Voksne </p>
+<p>Meget almindelige bivirkninger (det sker hos flere end 1 ud af 10 patienter) er hovedpine, rødmen i 
+ansigtet, mavebesvær, diarré og smerter i arme og ben. </p>
+<p>Almindelige bivirkninger (det sker hos mellem 1 og 10 patienter) er: Infektion under huden, 
+influenzalignende symptomer, bihulebetændelse, nedsat antal røde blodlegemer (blodmangel), 
+væskeansamling, søvnbesvær, angst, migræne, rysten, prikkende og stikkende fornemmelse, 
+brændende fornemmelse, nedsat følesans, blødning bag i øjet, påvirkning af synet, sløret syn og 
+lysfølsom, ændret farvesyn, øjenirritation, blodsprængte øjne/røde øjne, svimmelhed, bronkitis, 
+næseblod, løbende næse, hoste, tilstoppet næse, mavekatar, maveonde, hjertebanken, hæmorroider, 
+oppustet mave, mundtørhed, hårtab, rødmen af huden, svedtendens om natten, muskelsmerter, 
+rygsmerter, forhøjet legemstemperatur.  </p>
+<p>Ikke almindelige bivirkninger (det sker hos mellem 1 og 10 ud af 100 patienter) omfatter: nedsat 
+skarpsyn, dobbeltsyn, unormal følelse i øjet, blødning fra penis, blod i sæden og/eller urinen samt 
+forstørrelse af brysterne hos mænd. </p>
+<p>Hududslæt og pludselig hørenedsættelse eller døvhed og for lavt blodtryk er også set (hyppighed er 
+ukendt, kan ikke vurderes ud fra tilgængelige data). </p>
+<p>Børn og unge </p>
+<p>Følgende alvorlige bivirkninger er almindelige (det sker hos mellem 1 og 10 patienter): 
+lungebetændelse, hjertesvigt, højresidigt hjertesvigt, shock pga. hjerteproblemer, højt blodtryk i 
+lungerne, smerter i brystet, besvimelse, infektion i luftvejene, bronkitis, virusinfektion i maven og 
+tarmen, urinvejsinfektion og huller i tænderne. </p>
+<p>Følgende alvorlige bivirkninger betragtes som forbundet med behandlingen og er ikke almindelige 
+(det sker hos mellem 1 og 10 ud af 100 patienter): allergisk reaktion (såsom hududslæt, hævelser i 
+ansigt, læber og tunge, hvæsende vejrtrækning, åndedrætsbesvær og synkebesvær), kramper, 
+uregelmæssig puls, nedsat hørelse, åndenød, betændelseslignende reaktion i mave-tarmkanalen og 
+hvæsende vejrtrækning pga. blokering af luftvejene. </p>
+<p>Meget almindelige bivirkninger (det sker hos flere end 1 ud af 10 patienter): hovedpine, opkastning, 
+halsbetændelse, feber, diarré, influenza og næseblod. </p>
+<p>Almindelige bivirkninger (det sker hos mellem 1 og 10 patienter): kvalme, hyppigere, forlænget eller 
+kraftigere erektion, herunder spontan erektion, lungebetændelse og løbenæse.  </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store revatio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store revatio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen (efter EXP). Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 oC. Opbevares i den originale blisterpakning for at 
+beskytte mod fugt. </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revatio indeholder </p>
+<ul>
+<li>Aktivt stof: sildenafil. Hver tablet indeholder 20 mg sildenafil (som citrat). </li>
+<li>Øvrige indholdsstoffer: </li>
+</ul>
+<p>Tabletkerne: Mikrokrystallinsk cellulose, calciumhydrogenfosfat (vandfrit), 
+croscarmellosenatrium (se afsnit 2 "Revatio indeholder natrium"), magnesiumstearat. </p>
+<p>Filmovertræk: Hypromellose, titandioxid (E171), lactosemonohydrat (se afsnit 2 "Revatio 
+indeholder lactose"), glyceroltriacetat. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Revatio filmovertrukne tabletter er hvide og runde. Tabletterne er mærket “VLE" på den ene side og 
+“RVT 20" på den anden side. Tabletterne findes i blisterpakninger med 90 tabletter, 90 x 1 tablet som 
+perforeret enkeltdosisblister og i blisterpakninger med 300 tabletter. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller: </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Upjohn EESV, Rivium Westlaan 142, 2909 LD Capelle aan den IJssel, Nederlandene. </p>
+<p>Fremstiller 
+Fareva Amboise, Zone Industrielle, 29 route des Industries, 37530 Pocé-sur-Cisse, Frankrig. </p>
+<p>eller </p>
+<p>Mylan Hungary Kft., Mylan utca 1, Komárom 2900, Ungarn. </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: +32 (0)2 658 61 Lietuva 
+Viatris UAB 
+Tel: +370 52051 </p>
+<p>България 
+Luxembourg/Luxemburg 
+Майлан ЕООД 
+Viatris 
+Тел.: +359 2 44 55 Tél/Tel: +32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Magyarország 
+Viatris CZ s.r.o. 
+Viatris Healthcare Kft. 
+Tel: +420 222 004 400<br />
+Tel.: + 36 1 465 2 </p>
+<p>Danmark 
+Malta 
+Viatris ApS 
+V.J. Salomone Pharma Limited 
+Tlf: +45 28 11 69 Tel: (+356) 21 220  </p>
+<p>Deutschland 
+Nederland 
+Viatris Healthcare GmbH 
+Mylan Healthcare BV 
+Tel: +49 (0)800 0700 Tel: +31 (0)20 426 3 </p>
+<p>Eesti 
+Norge 
+Viatris OÜ 
+Viatris AS 
+Tel: +372 6363 Tlf: +47 66 75 33  </p>
+<p>Ελλάδα 
+Österreich 
+Viatris Hellas Ltd 
+Mylan Österreich GmbH 
+Τηλ: +30 2100 100 Tel: +43 1 86390  </p>
+<p>España 
+Polska 
+Viatris Pharmaceuticals, S.L.U. 
+Mylan Healthcare Sp. z o.o. 
+Tel: +34 900 102 Tel.: +48 22 546 64  </p>
+<p>France 
+Portugal 
+Viatris Santé 
+Viatris Healthcare, Lda. 
+Tél: +33 (0)4 37 25 75 Tel: +351 214 127  </p>
+<p>Hrvatska 
+România 
+Viatris Hrvatska d.o.o. 
+BGP Products SRL 
+Tel: +385 1 23 50 Tel: +40 372 579  </p>
+<p>Ireland 
+Slovenija 
+Mylan Ireland Limited<br />
+Viatris d.o.o. 
+Tel: +353 1 8711Tel: + 386 1 236 31 80  </p>
+<p>Ísland 
+Slovenská republika 
+Icepharma hf. 
+Viatris Slovakia s.r.o.<br />
+Sími: + 354 540 8Tel: +421 2 32 199  </p>
+<p>Italia 
+Suomi/Finland 
+Viatris Pharma S.r.l. 
+Viatris Oy 
+Tel: +39 02 612 46Puh/Tel: +358 20 720 9 </p>
+<p>Κύπρος 
+Sverige<br />
+GPA Pharmaceuticals Ltd 
+Viatris AB 
+Τηλ: +357 22863Tel: + 46 (0)8 630 19  </p>
+<p>Latvija 
+United Kingdom (Northern Ireland) 
+Viatris SIA 
+Mylan IRE Healthcare Limited 
+Tel: +371 676 055 Tel: +353 18711 
+Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>De kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Revatio 0,8 mg/ml injektionsvæske, opløsning 
+sildenafil </p>
+<p>Læs denne indlægsseddel grundigt, inden De får medicinen, da den indeholder vigtige 
+oplysninger. </p>
+<ul>
+<li>Gem indlægssedlen. De kan få brug for at læse den igen. </li>
+<li>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, De vil vide. </li>
+<li>Lægen har ordineret dette lægemiddel til Dem personligt. Lad derfor være med at give det til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. </li>
+<li>Kontakt lægen eller sygeplejersken, hvis De får bivirkninger, herunder bivirkninger, som ikke er 
+nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9aa25859b3b911a1afa24fe9c429ab94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for revatio Package Leaflet for language en"
+Description: "ePI document Bundle for revatio Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9aa25859b3b911a1afa24fe9c429ab94"
+* entry[0].resource = composition-en-9aa25859b3b911a1afa24fe9c429ab94
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9aa25859b3b911a1afa24fe9c429ab94"
+* entry[=].resource = mp9aa25859b3b911a1afa24fe9c429ab94
+                            
+                    
+Instance: bundlepackageleaflet-da-9aa25859b3b911a1afa24fe9c429ab94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for revatio Package Leaflet for language da"
+Description: "ePI document Bundle for revatio Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9aa25859b3b911a1afa24fe9c429ab94"
+* entry[0].resource = composition-da-9aa25859b3b911a1afa24fe9c429ab94
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9aa25859b3b911a1afa24fe9c429ab94"
+* entry[=].resource = mp9aa25859b3b911a1afa24fe9c429ab94
+                            
+                    
+
+
+
+Instance: mp9aa25859b3b911a1afa24fe9c429ab94
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Revatio 20 mg film-coated tablets"
-Description: "Revatio 20 mg film-coated tablets"
+Title: "Medicinal Product revatio"
+Description: "revatio"
 Usage: #inline
 
  
@@ -410,7 +864,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Revatio 20 mg film-coated tablets"
+  * productName = "revatio"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -437,29 +891,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9aa25859b3b911a1afa24fe9c429ab94
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for revatio Package Leaflet for language en"
-Description: "ePI document Bundle for revatio Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9aa25859b3b911a1afa24fe9c429ab94ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/05/318/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "revatio"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9aa25859b3b911a1afa24fe9c429ab94"
-* entry[0].resource = composition-en-9aa25859b3b911a1afa24fe9c429ab94
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpfc1902d0c92c5877cbf8ae050286c0d7"
-* entry[=].resource = mpfc1902d0c92c5877cbf8ae050286c0d7
-                            
-                      
+* title = "List of all ePIs associated with revatio"
+
+* subject = Reference(mpfc1902d0c92c5877cbf8ae050286c0d7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#revatio "revatio"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9aa25859b3b911a1afa24fe9c429ab94) // revatio en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9aa25859b3b911a1afa24fe9c429ab94) // revatio da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9aa25859b3b911a1afa24fe9c429ab94
+InstanceOf: List
+
+* insert 9aa25859b3b911a1afa24fe9c429ab94ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9a5ac6d518a24ab2e0257a8b57ce793b
 InstanceOf: CompositionUvEpi
 Title: "Composition for raxone Package Leaflet"
@@ -317,12 +320,414 @@ year and this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-9a5ac6d518a24ab2e0257a8b57ce793b
+InstanceOf: CompositionUvEpi
+Title: "Composition for raxone Package Leaflet"
+Description:  "Composition for raxone Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5febab45c2bf1bcf7ff17b4c97ffe933)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5febab45c2bf1bcf7ff17b4c97ffe933
+* title = "TEST PURPOSES ONLY - raxone"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Raxone  </li>
+<li>Sådan skal du tage Raxone  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What raxone is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What raxone is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Raxone indeholder det aktive stof idebenon.  </p>
+<p>Idebenon anvendes til behandling af synsnedsættelse hos voksne og unge med øjensygdommen Lebers 
+hereditære opticus-neuropati (LHON). 
+- Denne øjensygdom er arvelig. 
+- Den skyldes et problem med generne (en genmutation), der nedsætter øjencellernes evne til at 
+producere den energi, de behøver for at virke normalt. Dette gør dem inaktive. 
+- LHON kan medføre synstab på grund af inaktiviteten af de celler, der er ansvarlige for synet.  </p>
+<p>Behandling med Raxone kan genoprette cellernes evne til at producere energi, så de inaktive 
+øjenceller kan komme til at fungere igen. Dette kan i nogen grad genoprette den tabte synsstyrke.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take raxone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take raxone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Raxone<br />
+- hvis du er allergisk over for idebenon eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i afsnit 6).  </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen eller apotekspersonalet, før du tager Raxone:</p>
+<ul>
+<li>hvis du har blod-, lever- eller nyreproblemer.  </li>
+</ul>
+<p>Ændring af urinens farve<br />
+Raxone kan bevirke, at din urin bliver rødbrun. Denne farveændring er harmløs - den betyder ikke, at 
+din behandling behøver ændres. Farveændringerne kan dog skyldes problemer med nyrerne eller 
+blæren.<br />
+- Tal med lægen, hvis din urin ændrer farve. 
+- Lægen vil muligvis tage en urinprøve for at sikre, at den ændrede farve ikke skyldes andre 
+problemer. </p>
+<p>Prøver 
+Lægen vil kontrollere dit syn, før du begynder at tage dette lægemiddel, og efterfølgende ved de 
+regelmæssige besøg, mens du får lægemidlet.  </p>
+<p>Børn og unge 
+Dette lægemiddel bør ikke anvendes hos børn. Dette skyldes, at det ikke vides, om Raxone er sikkert 
+eller virker hos patienter under 12 år. </p>
+<p>Brug af anden medicin sammen med Raxone 
+Nogle lægemidler kan vekselvirke med Raxone. Fortæl det altid til lægen, hvis du bruger anden 
+medicin, for nylig har taget anden medicin eller planlægger at tage anden medicin, særligt hvis det 
+drejer sig om noget af følgende:</p>
+<ul>
+<li>antihistaminer til behandling af allergi (astemizol, terfenadin) </li>
+<li>lægemidler til behandling af halsbrand (cisaprid) </li>
+<li>lægemidler til behandling af muskulære og vokale tics ved Tourettes syndrom (pimozid) </li>
+<li>lægemidler til behandling af hjerterytmeforstyrrelser (kinidin) </li>
+<li>lægemidler til behandling af migræne (dihydroergotamin, ergotamin) </li>
+<li>lægemidler, som får dig til at sove, kaldet "anæstetiske" lægemidler (alfentanil) </li>
+<li>lægemidler til behandling af betændelse i forbindelse med reumatoid artritis og psoriasis 
+(cyclosporin) </li>
+<li>lægemidler som forebygger afstødningen af et transplanteret organ (sirolimus, tacrolimus) </li>
+<li>lægemidler til behandling af stærke smerter, kaldet "opioider" (fentanyl)  </li>
+</ul>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel.<br />
+- Lægen vil kun ordinere Raxone til dig, hvis fordelene ved behandlingen opvejer risiciene for det 
+ufødte barn. 
+- Raxone kan gå over i modermælken. Hvis du ammer, vil lægen drøfte med dig, om du skal 
+holde op med at amme eller holde op med at tage lægemidlet. Dette vil ske under hensyn til 
+fordelene ved amning for barnet og fordelene ved lægemidlet for dig. </p>
+<p>Trafik- og arbejdssikkerhed 
+Raxone forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner.  </p>
+<p>Raxone indeholder lactose og sunset yellow (E110). 
+- Raxone indeholder sukkerarten lactose. Kontakt lægen, før du tager dette lægemiddel, hvis 
+lægen har fortalt dig, at du ikke tåler visse sukkerarter. 
+- Raxone indeholder farvestoffet sunset yellow (E110). Det kan forårsage allergiske reaktioner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take raxone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take raxone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller på apoteket.  </p>
+<p>Hvor meget skal du tage? 
+Den anbefalede dosis er 2 tabletter tre gange dagligt - i alt 6 tabletter dagligt.  </p>
+<p>Brug af lægemidlet 
+- Tag tabletterne sammen med et måltid - det medvirker til, at en større del af lægemidlet optages 
+i blodet fra maven. 
+- Synk tabletterne hele med et glas vand. 
+- Du må ikke knuse eller tygge tabletterne. 
+- Tag tabletterne på samme klokkeslæt hver dag, f.eks. sammen med morgenmaden, frokosten og 
+aftensmaden. </p>
+<p>Hvis du har taget for meget Raxone 
+Hvis du har taget mere Raxone end du skal, skal du straks tale med lægen. </p>
+<p>Hvis du har glemt at tage Raxone 
+Hvis du glemmer at tage en dosis, skal du springe den glemte dosis over. Tag næste dosis til sædvanlig 
+tid. 
+Du må ikke tage en dobbeltdosis som erstatning for en glemt dosis.  </p>
+<p>Hvis du holder op med at tage Raxone 
+Kontakt lægen, før du holder op med at bruge dette lægemiddel. </p>
+<p>Tal med lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Følgende bivirkninger kan forekomme med dette lægemiddel: </p>
+<p>Meget almindelig (kan forekomme hos mere end 1 ud af 10 behandlede)<br />
+- forkølelse (nasofaryngitis) 
+- hoste </p>
+<p>Almindelig (kan forekomme hos indtil 1 ud af 10 behandlede):</p>
+<ul>
+<li>diarré (let eller moderat, der sædvanligvis ikke kræver, at behandlingen standses) </li>
+<li>rygsmerter </li>
+</ul>
+<p>Ikke kendt (kan ikke beregnes ud fra de foreliggende oplysninger)<br />
+- bronkitis 
+- ændrede resultater af blodprøver: lavt antal hvide blodlegemer, lavt antal røde blodlegemer eller 
+lavt antal blodplader 
+- forhøjet kolesterol eller fedtstof i blodet - påvises gennem prøver 
+- krampeanfald, forvirring, opfattelse af at se eller høre ting, der ikke er virkelige 
+(hallucinationer), opstemthed, manglende evne til at kontrollere bevægelserne, tendens til at 
+strejfe omkring, svimmelhed, hovedpine, rastløshed, omtåget og ude af stand til at handle eller 
+tænke normalt 
+- kvalme, opkastning, nedsat appetit, fordøjelsesbesvær 
+- for højt indhold af visse leverenzymer, hvilket betyder, at du har leverproblemer (påvises ved 
+prøver), højt indhold af bilirubin (dette kan gøre huden og det hvide af øjnene gullige), 
+leverbetændelse 
+- udslæt, kløe 
+- smerter i arme og ben 
+- højt kvælstofindhold i blodet (påvises ved prøver), ændret farve af urinen 
+- generel utilpashed </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store raxone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store raxone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på etiketten og på kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Spørg apotek spersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. Derved skåner du miljøet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Raxone indeholder:</p>
+<ul>
+<li>Aktivt stof: idebenon. Hver filmovertrukken tablet indeholder 150 mg idebenon. </li>
+<li>Øvrige indholdsstoffer: 
+Tabletkerne: Lactosemonohydrat, cellulose, mikrokrystallin, croscarmellosenatrium, povidon 
+K25, magnesiumstearat, silica, vandfri kolloid. 
+Tabletovertræk: macrogol, polyvinylalkohol, talcum, titandioxid, sunset yellow (E110). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>Raxone filmovertrukne tabletter er orange, runde tabletter, diameter 10 mm, med Santheras logo 
+præget på den ene side og "150" på den anden side.  </li>
+<li>Raxone leveres i hvide plastflasker. Hver flaske indeholder 180 tabletter. </li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo 26/A 
+43122 Parma 
+Italien </p>
+<p>Fremstiller 
+Santhera Pharmaceuticals (Deutschland) GmbH 
+Marie-Curie Strasse 8 
+79539 Lörrach 
+Tyskland 
+Tlf.: +49 (0)7621 1690 Email: office@santhera.com </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+България 
+Chiesi Bulgaria EOOD<br />
+Teл.: + 359 29201 
+Luxembourg/Luxemburg 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o.<br />
+Tel: + 420 261221 
+Magyarország 
+Chiesi Hungary Kft.<br />
+Tel.: + 36-1-429 1 
+Danmark 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Deutschland 
+Chiesi GmbH<br />
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V.<br />
+Tel: + 31 88 501 64<br />
+Eesti 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+Norge 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Chiesi Hellas AEBE<br />
+Τηλ: + 30 210 6179 
+Österreich 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+España 
+Chiesi España, S.A.U.<br />
+Tel: + 34 93 494 8 
+Polska 
+Chiesi Poland Sp. z.o.o.<br />
+Tel.: + 48 22 620 1 
+France 
+Chiesi S.A.S.<br />
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Hrvatska 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+România 
+Chiesi Romania S.R.L.<br />
+Tel: + 40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A. <br />
+Tel: + 39 0521 2 
+Slovenija 
+CHIESI SLOVENIJA d.o.o.<br />
+Tel: + 386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB<br />
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o.<br />
+Tel: + 421 259300 
+Italia 
+Chiesi Italia S.p.A.<br />
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB<br />
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Chiesi Farmaceutici S.p.A.<br />
+Τηλ: + 39 0521 2 
+Sverige 
+Chiesi Pharma AB<br />
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+United Kingdom (Northern Ireland)<br />
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Denne indlægsseddel blev senest revideret  </p>
+<p>Dette lægemiddel er godkendt under “særlige vilkår".<br />
+Det betyder, at det ikke har været muligt at opnå fuldstændig dokumentation for lægemidlet, fordi det 
+anvendes til en sjælden sygdom. 
+Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
+indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9a5ac6d518a24ab2e0257a8b57ce793b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for raxone Package Leaflet for language en"
+Description: "ePI document Bundle for raxone Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9a5ac6d518a24ab2e0257a8b57ce793b"
+* entry[0].resource = composition-en-9a5ac6d518a24ab2e0257a8b57ce793b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9a5ac6d518a24ab2e0257a8b57ce793b"
+* entry[=].resource = mp9a5ac6d518a24ab2e0257a8b57ce793b
+                            
+                    
+Instance: bundlepackageleaflet-da-9a5ac6d518a24ab2e0257a8b57ce793b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for raxone Package Leaflet for language da"
+Description: "ePI document Bundle for raxone Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9a5ac6d518a24ab2e0257a8b57ce793b"
+* entry[0].resource = composition-da-9a5ac6d518a24ab2e0257a8b57ce793b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9a5ac6d518a24ab2e0257a8b57ce793b"
+* entry[=].resource = mp9a5ac6d518a24ab2e0257a8b57ce793b
+                            
+                    
+
+
+
+Instance: mp9a5ac6d518a24ab2e0257a8b57ce793b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Raxone 150 mg film-coated tablets"
-Description: "Raxone 150 mg film-coated tablets"
+Title: "Medicinal Product raxone"
+Description: "raxone"
 Usage: #inline
 
  
@@ -342,7 +747,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Raxone 150 mg film-coated tablets"
+  * productName = "raxone"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -369,29 +774,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9a5ac6d518a24ab2e0257a8b57ce793b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for raxone Package Leaflet for language en"
-Description: "ePI document Bundle for raxone Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9a5ac6d518a24ab2e0257a8b57ce793bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1020/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "raxone"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9a5ac6d518a24ab2e0257a8b57ce793b"
-* entry[0].resource = composition-en-9a5ac6d518a24ab2e0257a8b57ce793b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5febab45c2bf1bcf7ff17b4c97ffe933"
-* entry[=].resource = mp5febab45c2bf1bcf7ff17b4c97ffe933
-                            
-                      
+* title = "List of all ePIs associated with raxone"
+
+* subject = Reference(mp5febab45c2bf1bcf7ff17b4c97ffe933)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#raxone "raxone"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9a5ac6d518a24ab2e0257a8b57ce793b) // raxone en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9a5ac6d518a24ab2e0257a8b57ce793b) // raxone da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9a5ac6d518a24ab2e0257a8b57ce793b
+InstanceOf: List
+
+* insert 9a5ac6d518a24ab2e0257a8b57ce793bListRuleset
+    

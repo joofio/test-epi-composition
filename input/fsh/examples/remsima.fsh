@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c29ba23bb04c16ab758f150fe41d6513
 InstanceOf: CompositionUvEpi
 Title: "Composition for remsima Package Leaflet"
@@ -682,12 +685,1263 @@ Tel: +353 1 223 4This leaflet was last revised in {MM/YYYY}. </p>
 
 
 
+Instance: composition-da-c29ba23bb04c16ab758f150fe41d6513
+InstanceOf: CompositionUvEpi
+Title: "Composition for remsima Package Leaflet"
+Description:  "Composition for remsima Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbe76bdf784deea6950583b234f789db2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbe76bdf784deea6950583b234f789db2
+* title = "TEST PURPOSES ONLY - remsima"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Remsima </li>
+<li>Sådan vil du få Remsima  </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What remsima is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What remsima is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remsima indeholder det aktive stof infliximab. Infliximab er et monoklonalt antistof - en type protein, 
+der binder sig til et specifikt mål i kroppen kaldet TNF (tumor nekrose faktor) alfa. </p>
+<p>Remsima tilhører en lægemiddelgruppe kaldet "TNF-blokkere". Det bruges til voksne til behandling 
+af følgende betændelsessygdomme: </p>
+<ul>
+<li>
+<p>Reumatoid arthritis </p>
+</li>
+<li>
+<p>Psoriasis arthritis </p>
+</li>
+<li>
+<p>Ankyloserende spondylitis (Bekhterevs sygdom) </p>
+</li>
+<li>
+<p>Psoriasis. </p>
+</li>
+</ul>
+<p>Remsima bruges også til voksne og børn fra 6 år og opefter til behandling af: </p>
+<ul>
+<li>
+<p>Crohns sygdom </p>
+</li>
+<li>
+<p>Colitis ulcerosa. </p>
+</li>
+</ul>
+<p>Remsima virker ved selektivt at binde sig til TNF-alfa og blokere dets virkning. TNF-alfa er 
+involveret i kroppens betændelsesprocesser, så blokering af dette kan mindske betændelsen i din krop. </p>
+<p>Reumatoid arthritis 
+Reumatoid arthritis er en betændelsessygdom i leddene. Hvis du har aktiv reumatoid arthritis, vil du 
+først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remsima, som du skal 
+tage sammen med et andet lægemiddel, der hedder methotrexat, for at: </p>
+<ul>
+<li>
+<p>reducere tegn og symptomer på din sygdom </p>
+</li>
+<li>
+<p>forsinke skaden i dit led </p>
+</li>
+<li>
+<p>forbedre din fysiske funktionsevne. </p>
+</li>
+</ul>
+<p>Psoriasis arthritis 
+Psoriasis arthritis er en betændelsessygdom i leddene, almindeligvis ledsaget af psoriasis. Hvis du har 
+aktiv psoriasis arthritis, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, 
+vil du få Remsima for at: </p>
+<ul>
+<li>
+<p>reducere tegn og symptomer på din sygdom </p>
+</li>
+<li>
+<p>forsinke skaden i dine led </p>
+</li>
+<li>
+<p>forbedre din fysiske funktionsevne. </p>
+</li>
+</ul>
+<p>Ankyloserende spondylitis (Bekhterevs sygdom) 
+Ankyloserende spondylitis er en betændelsessygdom i rygraden. Hvis du lider af ankyloserende 
+spondylitis, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få 
+Remsima for at: </p>
+<ul>
+<li>
+<p>reducere tegn og symptomer på din sygdom </p>
+</li>
+<li>
+<p>forbedre din fysiske funktionsevne. </p>
+</li>
+</ul>
+<p>Psoriasis 
+Psoriasis er en betændelsessygdom i huden. Hvis du har moderat til svær plaque psoriasis, vil du først 
+få andre lægemidler eller behandlinger, såsom lysterapi. Hvis disse lægemidler eller behandlinger ikke 
+virker godt nok, vil du få Remsima for at reducere tegn og symptomer på din sygdom. </p>
+<p>Colitis ulcerosa 
+Colitis ulcerosa er en betændelsessygdom i tarmen. Hvis du lider af colitis ulcerosa, vil du først få 
+andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remsima til behandling af din 
+sygdom. </p>
+<p>Crohns sygdom 
+Crohns sygdom er en betændelsessygdom i tarmen. Hvis du lider af Crohns sygdom, vil du først få 
+andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remsima for at: </p>
+<ul>
+<li>
+<p>behandle aktiv Crohns sygdom </p>
+</li>
+<li>
+<p>sænke antallet af unormale åbninger (fistler) mellem din tarm og hud, der ikke har kunnet 
+behandles tilfredsstillende med andre lægemidler eller operation. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take remsima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take remsima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Remsima hvis </p>
+<ul>
+<li>
+<p>du er allergisk over for infliximab (det aktive stof i Remsima) eller et af de øvrige 
+indholdsstoffer i Remsima (angivet i punkt 6),  </p>
+</li>
+<li>
+<p>du er allergisk over for proteiner, som stammer fra mus, </p>
+</li>
+<li>
+<p>du har tuberkulose (TB) eller en anden alvorlig infektion, såsom lungebetændelse eller 
+blodforgiftning (sepsis, en alvorlig bakterieinfektion i blodet),  </p>
+</li>
+<li>
+<p>du har hjertesvigt i moderat eller svær grad.  </p>
+</li>
+</ul>
+<p>Du må ikke få Remsima, hvis noget af ovenstående passer på dig. Hvis du er i tvivl, så tal med din 
+læge, før du får Remsima. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før eller under behandlingen med Remsima, hvis du har: </p>
+<p>Været i behandling med lægemidler, der indeholder infliximab tidligere </p>
+<ul>
+<li>
+<p>Fortæl din læge, hvis du tidligere har været i behandling med lægemidler, der indeholder 
+infliximab og nu starter behandling med Remsima igen. </p>
+</li>
+<li>
+<p>Hvis du har holdt pause i behandlingen med infliximab i over 16 uger, er der en højere risiko for 
+at få en allergisk reaktion, når du starter Remsima-behandlingen igen. </p>
+</li>
+</ul>
+<p>Infektioner </p>
+<ul>
+<li>
+<p>Fortæl din læge, før du får Remsima, hvis du har en infektion, også selvom det er en meget let 
+infektion.  </p>
+</li>
+<li>
+<p>Fortæl din læge, før du får Remsima, hvis du nogensinde har boet eller rejst i et område, hvor 
+infektioner kaldet histoplasmose, kokcidioidomykose eller blastomykose er almindelige. Disse 
+infektioner forårsages af særlige svampetyper, som kan påvirke lungerne eller andre dele af 
+kroppen. </p>
+</li>
+<li>
+<p>Du har lettere ved at få infektioner, når du er i behandling med Remsima. Du har en højere 
+risiko, hvis du er 65 år eller derover.  </p>
+</li>
+<li>
+<p>Disse infektioner kan være alvorlige og indbefatter tuberkulose, infektioner forårsaget af virus, 
+svampe, bakterier eller andre organismer i miljøet samt blodforgiftning, som kan være 
+livstruende. 
+Fortæl straks din læge, hvis du får tegn på infektion under behandling med Remsima. Tegn inkluderer 
+feber, hoste, influenzalignende symptomer, utilpashed, rød eller ophedet hud, sår eller problemer med 
+tænderne. Din læge kan anbefale en midlertidig pause med Remsima. </p>
+</li>
+</ul>
+<p>Tuberkulose (TB) </p>
+<ul>
+<li>
+<p>Det er meget vigtigt, at du fortæller din læge, hvis du nogensinde har haft TB, eller hvis du har 
+været i tæt kontakt med en person, som har eller har haft TB. </p>
+</li>
+<li>
+<p>Din læge vil teste dig for at se, om du har TB. Tilfælde af TB har været rapporteret hos patienter 
+i behandling med infliximab, også hos patienter, der allerede har været i behandling med 
+medicin mod TB. Din læge vil notere disse tests på dit patientinformationskort. </p>
+</li>
+<li>
+<p>Hvis din læge tror, at du har risiko for at få TB, kan du blive behandlet med lægemidler mod 
+TB, inden du får Remsima. 
+Fortæl straks din læge, hvis du får tegn på TB under behandlingen med Remsima. Tegn inkluderer 
+vedvarende hoste, vægttab, træthedsfølelse, feber eller natlig svedtendens. </p>
+</li>
+</ul>
+<p>Hepatitis B-virus </p>
+<ul>
+<li>
+<p>Fortæl din læge, før du får Remsima, hvis du er bærer af hepatitis B, eller hvis du nogensinde 
+har haft det. </p>
+</li>
+<li>
+<p>Fortæl din læge, hvis du tror, du kan have en risiko for at blive smittet med hepatitis B. </p>
+</li>
+<li>
+<p>Din læge skal teste dig for hepatitis B. </p>
+</li>
+<li>
+<p>Behandling med TNF-blokkere, såsom Remsima, kan medføre, at hepatitis B igen bliver aktiv 
+hos patienter, som bærer denne virus. Dette kan i nogle tilfælde være livstruende. </p>
+</li>
+<li>
+<p>Hvis du oplever reaktivering af hepatitis B, kan det blive nødvendigt, at lægen stopper din 
+behandling og giver dig medicin som fx effektiv antiviral terapi med understøttende behandling. </p>
+</li>
+</ul>
+<p>Hjerteproblemer </p>
+<ul>
+<li>
+<p>Fortæl din læge, hvis du har nogen form for hjerteproblemer, såsom let hjertesvigt. </p>
+</li>
+<li>
+<p>Din læge vil nøje overvåge dit hjerte.<br />
+Fortæl straks din læge, hvis du får nye eller forværrede tegn på hjertesvigt under behandlingen med 
+Remsima. Tegn inkluderer åndenød eller hævede fødder. </p>
+</li>
+</ul>
+<p>Kræft og lymfom </p>
+<ul>
+<li>
+<p>Fortæl din læge, før du får Remsima, hvis du har eller nogensinde har haft lymfom (en type 
+blodkræft) eller enhver anden form for kræft. </p>
+</li>
+<li>
+<p>Patienter med alvorlig reumatoid arthritis, som har haft sygdommen i lang tid, kan have en 
+større risiko for at udvikle lymfom. </p>
+</li>
+<li>
+<p>Børn og voksne i behandling med Remsima kan have en øget risiko for at udvikle lymfom eller 
+anden form for kræft. </p>
+</li>
+<li>
+<p>Nogle patienter, som har fået TNF-blokerende behandling, herunder infliximab, har udviklet en 
+sjælden kræftform kaldet hepatosplenisk T-celle-lymfom. Af disse patienter var de fleste 
+teenagedrenge eller unge mænd, hvoraf de fleste havde enten Crohns sygdom eller colitis 
+ulcerosa. Denne type kræft har oftest haft dødelig udgang. Næsten alle patienterne havde også 
+fået medicin, der indeholder azathioprin eller mercaptopurin ud over den TNF-blokerende 
+behandling.  </p>
+</li>
+<li>
+<p>Nogle patienter, der er blevet behandlet med infliximab, har udviklet visse former for hudkræft. 
+Hvis der er forandringer i huden eller svulster på huden under eller efter behandlingen, skal du 
+fortælle det til lægen. </p>
+</li>
+<li>
+<p>Nogle kvinder, der er blevet behandlet for reumatoid arthritis med infliximab, har udviklet 
+livmoderhalskræft. Lægen kan tilråde, at kvinder, der får Remsima, herunder kvinder 
+over 60 år, regelmæssigt screenes for livmoderhalskræft. </p>
+</li>
+</ul>
+<p>Lungesygdom eller højt tobaksforbrug </p>
+<ul>
+<li>
+<p>Fortæl din læge, før du får Remsima, hvis du har en lungesygdom kaldet kronisk obstruktiv 
+lungesygdom (KOL, rygerlunger), eller hvis du er storryger. </p>
+</li>
+<li>
+<p>Patienter med KOL og patienter, som er storrygere, kan have en øget risiko for at udvikle kræft 
+under behandling med Remsima. </p>
+</li>
+</ul>
+<p>Sygdom i nervesystemet </p>
+<ul>
+<li>Før du får Remsima, skal du fortælle det til din læge, hvis du har eller nogensinde har haft en 
+lidelse, som påvirker dit nervesystem. Dette inkluderer dissemineret sklerose, Guillain-Barré 
+syndrom, hvis du har krampeanfald eller har fået stillet diagnosen "optisk neuritis" (betændelse 
+i synsnerven). 
+Fortæl straks din læge, hvis du får symptomer på en nervesygdom under behandlingen med Remsima. 
+Tegn inkluderer synsændringer, muskelsvaghed i arme eller ben, følelsesløshed eller prikken et sted i 
+kroppen. </li>
+</ul>
+<p>Unormale hudåbninger </p>
+<ul>
+<li>Fortæl din læge, hvis du har nogen unormale hudåbninger (fistler), før du får Remsima. </li>
+</ul>
+<p>Vaccinationer  </p>
+<ul>
+<li>
+<p>Tal med din læge, hvis du lige er blevet eller har planlagt at blive vaccineret. </p>
+</li>
+<li>
+<p>Du skal have de anbefalede vaccinationer, før du starter behandling med Remsima. Der er visse 
+vaccinationer, du kan få, mens du er i behandling med Remsima, men du må ikke få levende 
+vacciner (vacciner der indeholder et levende men svækket smitstof), da de kan give infektioner. </p>
+</li>
+<li>
+<p>Hvis du har fået Remsima, mens du var gravid, kan dit barn også have en større risiko for at få 
+en infektion som et resultat af at have fået en levende vaccine i løbet af det første leveår. Det er 
+vigtigt, at du fortæller dit barns læger og andet sundhedspersonale, at du får Remsima, så de kan 
+finde frem til, hvornår dit barn skal vaccineres; det gælder også levende vacciner som BCG-
+vaccinen (bruges til at forebygge tuberkulose).  </p>
+</li>
+<li>
+<p>Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet sundhedspersonale, at du 
+har fået Remsima, før barnet bliver vaccineret. Se afsnittet om Graviditet, amning og 
+frugtbarhed for yderligere information. </p>
+</li>
+</ul>
+<p>Terapeutiske smitstoffer </p>
+<ul>
+<li>Tal med din læge, hvis du for nylig har fået eller det er planlagt, at du skal have behandling med 
+et terapeutisk smitstof (f.eks. instillation af BCG til behandling af kræft). </li>
+</ul>
+<p>Operationer eller tandindgreb </p>
+<ul>
+<li>
+<p>Fortæl din læge, hvis du skal have foretaget en operation eller et tandindgreb. </p>
+</li>
+<li>
+<p>Fortæl kirurgen eller tandlægen, at du er i behandling med Remsima ved at vise dem dit 
+patientinformationskort.  </p>
+</li>
+</ul>
+<p>Leverproblemer </p>
+<ul>
+<li>
+<p>Nogle patienter, der får Remsima, har udviklet alvorlige leverproblemer. </p>
+</li>
+<li>
+<p>Fortæl det straks til lægen, hvis du får symptomer på leverproblemer under behandlingen med 
+Remsima. Tegn omfatter gulfarvning af hud og øjne, mørkebrun urin, smerter eller hævelse i 
+øvre højre side af maven, ledsmerter, hududslæt eller feber. </p>
+</li>
+</ul>
+<p>Lave blodtal </p>
+<ul>
+<li>
+<p>Hos nogle patienter, som får Remsima, kan kroppen måske ikke lave nok af de blodlegemer, der 
+skal hjælpe med at bekæmpe infektioner eller stoppe blødning.  </p>
+</li>
+<li>
+<p>Fortæl det straks til lægen, hvis du får symptomer på lave blodtal under behandlingen med 
+Remsima. Tegn omfatter vedvarende feber, større tendens til blødning eller blå mærker, små 
+røde eller lilla pletter, der skyldes blødning under huden, eller bleghed. </p>
+</li>
+</ul>
+<p>Sygdomme i immunsystemet </p>
+<ul>
+<li>
+<p>Nogle patienter, der får Remsima, har udviklet symptomer på en sygdom i immunsystemet 
+kaldet lupus.  </p>
+</li>
+<li>
+<p>Fortæl det straks til lægen, hvis du får symptomer på lupus under behandlingen med Remsima. 
+Tegn omfatter ledsmerter eller udslæt på kinder eller arme, som er følsomme over for solen. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Ovenstående oplysninger gælder også for børn og unge. Derudover gælder, at </p>
+<ul>
+<li>
+<p>Nogle børn og unge, som har fået TNF-blokkere såsom infliximab, har udviklet kræft inklusive 
+usædvanlige typer kræft, som i visse tilfælde har været dødelige. </p>
+</li>
+<li>
+<p>Flere børn end voksne, der får infliximab, fik infektioner. </p>
+</li>
+<li>
+<p>Børn skal have de anbefalede vaccinationer, før behandling med Remsima påbegyndes. Børn 
+kan få visse vacciner under behandlingen med Remsima, men må ikke få levende vacciner, 
+mens de får Remsima. </p>
+</li>
+</ul>
+<p>Remsima bør kun anvendes til børn, hvis de behandles for Crohns sygdom eller colitis ulcerosa. 
+Børnene skal være 6 år eller ældre. </p>
+<p>Hvis du er i tvivl, om noget af ovenstående passer på dig, skal du tale med din læge, før du får 
+Remsima. </p>
+<p>Brug af anden medicin sammen med Remsima 
+Patienter, som har betændelsessygdomme, tager allerede medicin for at behandle deres lidelse. Disse 
+lægemidler kan give bivirkninger. Din læge vil rådgive dig om, hvilke andre lægemidler du skal blive 
+ved med at tage, mens du er i behandling med Remsima.  </p>
+<p>Fortæl altid lægen, hvis du bruger anden medicin , for nylig har brugt anden medicin eller planlægger 
+at bruge anden medicin. Dette gælder også medicin til behandling af Crohns sygdom, colitis ulcerosa, 
+reumatoid arthritis, ankyloserende spondylitis, psoriasis arthritis eller psoriasis eller medicin, som ikke 
+er købt på recept, f.eks. naturlægemidler og vitaminer og mineraler. </p>
+<p>Det er specielt vigtigt, at du fortæller din læge, hvis du får nogen af følgende lægemidler: </p>
+<ul>
+<li>
+<p>Lægemidler som påvirker dit immunsystem. </p>
+</li>
+<li>
+<p>Kineret (som indeholder anakinra). Du må ikke få Remsima og Kineret samtidig. </p>
+</li>
+<li>
+<p>Orencia (som indeholder abatacept). Du må ikke få Remsima og Orencia samtidig. </p>
+</li>
+</ul>
+<p>Du må ikke få levende vacciner, mens du får Remsima. Hvis du har fået Remsima, mens du var 
+gravid, eller hvis du får Remsima, mens du ammer, skal du fortælle dit barns læge og andet 
+sundhedspersonale, der tager sig af dit barn, at du har fået Remsima, før barnet bliver vaccineret.  </p>
+<p>Hvis du er i tvivl, om noget af ovenstående gælder for dig, skal du tale med din læge eller 
+apotekspersonalet, før du får Remsima. </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<ul>
+<li>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge til råds, før du får dette lægemiddel. Du må kun få Remsima 
+under graviditeten, eller mens du ammer, hvis lægen finder det nødvendigt. </p>
+</li>
+<li>
+<p>Du skal undgå at blive gravid, mens Du er i behandling med Remsima, og i mindst 6 måneder 
+efter du er stoppet med behandlingen. Tal med lægen om anvendelse af prævention i denne 
+tidsperiode. </p>
+</li>
+<li>
+<p>Hvis du fik Remsima under graviditeten, kan dit barn have en øget risiko for at få en infektion. </p>
+</li>
+<li>
+<p>Det er vigtigt, at du fortæller dit barns læge og andet sundhedspersonale, at du har fået 
+Remsima, før barnet bliver vaccineret. Hvis du har fået Remsima under graviditeten, kan 
+vaccination af dit barn med BCG-vaccine (bruges til at forebygge tuberkulose) inden 
+for 12 måneder efter fødslen medføre infektion med alvorlige komplikationer herunder død. Dit 
+barn må ikke få levende vacciner som BCG-vaccinen inden for 12 måneder efter fødslen, 
+medmindre barnets læge anbefaler noget andet. For mere information, se afsnit om vaccination. </p>
+</li>
+<li>
+<p>Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet sundhedspersonale, at du 
+har fået Remsima, før barnet bliver vaccineret. Dit barn må ikke få levende vacciner, mens du 
+ammer, medmindre barnets læge anbefaler noget andet. </p>
+</li>
+<li>
+<p>Alvorligt fald i antal hvide blodlegemer er set hos spædbørn født af kvinder, der er blevet 
+behandlet med infliximab under graviditeten. Hvis dit barn hyppigt får feber eller infektioner, 
+skal du omgående kontakte barnets læge. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Remsima påvirker sandsynligvis ikke din evne til at føre motorkøretøj eller betjene værktøj eller 
+maskiner. Hvis du føler dig træt, svimmel eller utilpas efter at have fået Remsima, må du ikke føre 
+motorkøretøj eller betjene nogen form for værktøj eller maskiner. </p>
+<p>Remsima indeholder natrium 
+Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
+natriumfri. Inden du får Remsima, bliver det imidlertid blandet med en opløsning, der indeholder 
+natrium. Fortæl det til lægen, hvis du får en diæt med lavt saltindhold. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take remsima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take remsima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reumatoid arthritis 
+Den sædvanlige dosis er 3 mg pr. kg kropsvægt. </p>
+<p>Psoriasis arthritis, ankyloserende spondylitis (Bekhterevs sygdom), psoriasis, colitis ulcerosa og 
+Crohns sygdom 
+Den sædvanlige dosis er 5 mg pr. kg kropsvægt. </p>
+<p>Sådan skal du bruge Remsima </p>
+<ul>
+<li>
+<p>Du vil få Remsima af din læge eller sygeplejerske. </p>
+</li>
+<li>
+<p>Din læge eller sygeplejerske vil klargøre medicinen til infusion. </p>
+</li>
+<li>
+<p>Medicinen vil blive givet som en infusion (drop) (over 2 timer) i en af dine blodårer (vener), 
+sædvanligvis i armen. Efter den tredje behandling kan din læge beslutte at give dig din dosis 
+Remsima over 1 time. </p>
+</li>
+<li>
+<p>Du vil blive overvåget, mens du får Remsima og i 1-2 timer derefter. </p>
+</li>
+</ul>
+<p>Den sædvanlige dosis </p>
+<ul>
+<li>
+<p>Lægen vil bestemme din dosis og hvor ofte, du skal have Remsima. Dette vil afhænge af din 
+sygdom, vægt og hvor godt, du reagerer på Remsima. </p>
+</li>
+<li>
+<p>Tabellen nedenfor viser, hvor ofte du sædvanligvis vil få denne medicin efter din første dosis. </p>
+</li>
+<li>
+<p>dosis 
+2 uger efter din 1. dosis </p>
+</li>
+<li>dosis 
+6 uger efter din 1. dosis 
+Efterfølgende doser 
+Hver 6. til 8. uge afhængig af din sygdom </li>
+</ul>
+<p>Brug til børn og unge 
+Hos børn (i alderen 6 år eller derover), der behandles for Crohns sygdom eller colitis ulcerosa, er den 
+anbefalede dosis den samme som for voksne. </p>
+<p>Hvis du får for meget Remsima 
+Da du får denne medicin af din læge eller sygeplejerske, er det usandsynligt, at du vil få for meget. 
+Der kendes ikke til nogen bivirkninger efter at have fået for meget Remsima. </p>
+<p>Hvis du har glemt eller kommer for sent til din Remsima-infusion 
+Hvis du glemmer eller kommer for sent til en aftale, hvor Remsima gives, skal du lave en ny aftale så 
+hurtigt som muligt. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger er lette til moderate. Nogle patienter kan dog opleve alvorlige bivirkninger, som 
+kan kræve behandling. Bivirkninger kan også opstå efter ophør af din behandling med Remsima. </p>
+<p>Fortæl straks din læge, hvis du bemærker noget af følgende: </p>
+<ul>
+<li>
+<p>Tegn på en allergisk reaktion såsom hævelse af ansigt, læber, mund eller svælg, som kan 
+forårsage besvær med at synke eller trække vejret, hududslæt, nældefeber, hævelse af 
+hænder, fødder eller ankler. Nogle af disse reaktioner kan være alvorlige eller livstruende. En 
+allergisk reaktion kan opstå inden for 2 timer efter din injektion eller senere. Andre tegn på 
+en allergisk bivirkning, som kan opstå op til 12 dage efter din injektion, inkluderer 
+muskelsmerter, feber, led- eller kæbesmerter, ondt i halsen eller hovedpine. </p>
+</li>
+<li>
+<p>Tegn på hjerteproblemer såsom ubehag i brystkassen eller brystsmerter, armsmerter, 
+mavesmerter, åndenød, angst, ørhed, svimmelhed, besvimelse, svedtendens, kvalme 
+(utilpashed), opkastning, hjertebanken eller trykken i brystet, hurtig eller langsom puls og 
+hævelse af dine fødder. </p>
+</li>
+<li>
+<p>Tegn på infektion (inklusive tuberkulose (TB)) såsom feber, træthedsfølelse, hoste (eventuelt 
+vedvarende), åndenød, influenzalignende symptomer, vægttab, natlig svedtendens, diarré, sår, 
+ansamling af pus i tarmen eller omkring anus (absces), tandproblemer eller brændende smerte, 
+når du lader vandet. </p>
+</li>
+<li>
+<p>Mulige tegn på kræft, inklusive men ikke begrænset til hævede lymfeknuder, vægttab, feber, 
+usædvanlige knuder i huden, ændringer i modermærker eller hudfarven eller usædvanlig 
+blødning fra skeden. </p>
+</li>
+<li>
+<p>Tegn på lungeproblemer såsom hoste, åndedrætsbesvær eller trykken for brystet. </p>
+</li>
+<li>
+<p>Tegn på et problem i nervesystemet (inklusive øjenproblemer) såsom tegn på slagtilfælde 
+(pludselig følelsesløshed eller svaghed i ansigt, arme eller ben, særligt i den ene side af 
+kroppen; pludselig forvirring, besvær med at tale eller forstå; besvær med at se med det ene eller 
+begge øjne, gangbesvær, svimmelhed, tab af balance- eller koordinationsevne eller svær 
+hovedpine), krampeanfald, prikken/følelsesløshed et sted i kroppen, eller svaghed i arme eller 
+ben, ændringer i synet såsom dobbeltsyn eller andre øjenproblemer. </p>
+</li>
+<li>
+<p>Tegn på leverproblemer (inklusive hepatitis B-infektion, hvis du tidligere har haft hepatitis B) 
+såsom gulfarvning af hud eller øjne, mørkebrun urin, smerter eller hævelser i øvre højre side af 
+maven, ledsmerter, hududslæt eller feber. </p>
+</li>
+<li>
+<p>Tegn på en sygdom i immunsystemet kaldet lupus såsom ledsmerter, udslæt på kinder eller 
+arme, som er følsomme over for solen (lupus) eller hoste, åndenød, feber eller hududslæt 
+(sarkoidose). </p>
+</li>
+<li>
+<p>Tegn på lave blodtal såsom vedvarende feber, øget tendens til at få blå mærker eller til at 
+bløde, små røde eller lilla pletter, der skyldes blødning under huden, eller bleghed. </p>
+</li>
+<li>
+<p>Tegn på alvorlige hudproblemer såsom rødlige, målskivelignende pletter eller runde områder 
+ofte med blærer centralt på kroppen, store områder med afskalning (eksfoliation) samt sår i 
+mund, svælg, næse, kønsorganer og øjne eller små pusholdige blærer, som kan sprede sig over 
+hele kroppen. Disse hudreaktioner kan være ledsaget af feber. </p>
+</li>
+</ul>
+<p>Fortæl straks din læge, hvis du bemærker noget af ovenstående.  </p>
+<p>Følgende bivirkninger er observeret med Remsima: </p>
+<p>Meget almindelige: kan forekomme hos flere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Mavesmerter, kvalme </p>
+</li>
+<li>
+<p>Virusinfektioner såsom herpes eller influenza </p>
+</li>
+<li>
+<p>Øvre luftvejsinfektioner såsom bihulebetændelse </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Bivirkninger i forbindelse med infusionen </p>
+</li>
+<li>
+<p>Smerter. </p>
+</li>
+</ul>
+<p>Almindelige: kan forekomme hos op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Ændringer i hvordan din lever fungerer, forhøjede leverenzymer (vist i blodprøver) </p>
+</li>
+<li>
+<p>Infektioner i lunger eller luftveje såsom bronkitis eller lungebetændelse </p>
+</li>
+<li>
+<p>Besværet eller smertefuldt åndedræt, smerter i brystet </p>
+</li>
+<li>
+<p>Blødning i mave eller tarme, diarré, fordøjelsesbesvær, halsbrand, forstoppelse </p>
+</li>
+<li>
+<p>Nældefeber, kløende udslæt eller tør hud </p>
+</li>
+<li>
+<p>Balanceproblemer eller svimmelhed </p>
+</li>
+<li>
+<p>Feber, øget svedtendens </p>
+</li>
+<li>
+<p>Kredsløbsproblemer såsom for lavt eller for højt blodtryk </p>
+</li>
+<li>
+<p>Blå mærker, hedeture eller næseblod, varm, rød hud (rødmen) </p>
+</li>
+<li>
+<p>Trætheds- eller svaghedsfølelse </p>
+</li>
+<li>
+<p>Bakterieinfektioner såsom blodforgiftning, byld eller infektion under huden (cellulitis) </p>
+</li>
+<li>
+<p>Svampeinfektion i huden </p>
+</li>
+<li>
+<p>Blodproblemer såsom blodmangel eller lavt antal hvide blodlegemer </p>
+</li>
+<li>
+<p>Hævede lymfeknuder </p>
+</li>
+<li>
+<p>Depression, problemer med at sove </p>
+</li>
+<li>
+<p>Øjenproblemer inklusive røde øjne og øjeninfektioner </p>
+</li>
+<li>
+<p>Galoperende hjerte (hurtig puls) eller hjertebanken </p>
+</li>
+<li>
+<p>Smerter i leddene, musklerne eller ryggen </p>
+</li>
+<li>
+<p>Urinvejsinfektion </p>
+</li>
+<li>
+<p>Psoriasis, hudproblemer såsom eksem og hårtab </p>
+</li>
+<li>
+<p>Reaktioner på injektionsstedet såsom smerte, hævelse, rødme eller kløe </p>
+</li>
+<li>
+<p>Kulderystelser, hævelse på grund af ophobning af væske under huden </p>
+</li>
+<li>
+<p>Følelsesløshed eller en prikkende fornemmelse. </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Manglende blodtilførsel, hævelse af en blodåre </p>
+</li>
+<li>
+<p>Ansamling af blod uden for blodkarrene (hæmatom) eller blå mærker </p>
+</li>
+<li>
+<p>Hudproblemer såsom blæredannelse, vorter, unormal hudfarve eller pigmentering, eller hævede 
+læber, eller fortykkelse af huden eller rød, skællende hud og afskalning af huden </p>
+</li>
+<li>
+<p>Alvorlige allergiske reaktioner (fx anafylaksi), en sygdom i immunsystemet kaldet lupus, 
+allergiske reaktioner over for fremmede proteiner </p>
+</li>
+<li>
+<p>Længere sårhelingstid </p>
+</li>
+<li>
+<p>Hævelse af leveren (hepatitis) eller galdeblæren, leverskade </p>
+</li>
+<li>
+<p>Glemsomhed, irritabilitet, forvirring, nervøsitet </p>
+</li>
+<li>
+<p>Øjenproblemer inklusive sløret eller nedsat syn, hævede øjne eller bygkorn </p>
+</li>
+<li>
+<p>Debuterende eller forværring af eksisterende hjertesvigt, langsom hjertefrekvens (puls) </p>
+</li>
+<li>
+<p>Besvimelse </p>
+</li>
+<li>
+<p>Kramper, nerveforstyrrelser </p>
+</li>
+<li>
+<p>Hul i tarmen eller blokering af tarmen, mavesmerter eller -kramper </p>
+</li>
+<li>
+<p>Hævelse af bugspytkirtlen (bugspytkirtelbetændelse) </p>
+</li>
+<li>
+<p>Svampeinfektioner, såsom gærsvampeinfektion eller svampeinfektion i neglene </p>
+</li>
+<li>
+<p>Lungeproblemer såsom ødemer </p>
+</li>
+<li>
+<p>Væske rundt om lungerne (pleuraekssudat) </p>
+</li>
+<li>
+<p>Forsnævrede luftveje i lungerne, der giver åndedrætsbesvær </p>
+</li>
+<li>
+<p>Lungehindebetændelse, der giver skarpe brystsmerter, som forværres ved vejrtrækning 
+(pleuritis) </p>
+</li>
+<li>
+<p>Tuberkulose </p>
+</li>
+<li>
+<p>Nyreinfektioner </p>
+</li>
+<li>
+<p>Lavt antal blodplader, for mange hvide blodlegemer </p>
+</li>
+<li>
+<p>Infektioner i skeden </p>
+</li>
+<li>
+<p>Blodprøveresultater, der viser ‘antistoffer’ mod din egen krop. </p>
+</li>
+<li>
+<p>Ændringer i kolesterol- og fedtindholdet i blodet. </p>
+</li>
+</ul>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 personer)  </p>
+<ul>
+<li>
+<p>En type blodkræft (lymfom) </p>
+</li>
+<li>
+<p>Dit blod tilfører ikke nok ilt til kroppen, kredsløbsproblemer såsom indsnævring af et blodkar </p>
+</li>
+<li>
+<p>Betændelse i hjernehinderne (meningitis) </p>
+</li>
+<li>
+<p>Infektioner, som skyldes et nedsat immunforsvar  </p>
+</li>
+<li>
+<p>Hepatitis B-infektion, hvis du tidligere har haft hepatitis B </p>
+</li>
+<li>
+<p>Betændelsestilstand i leveren forårsaget af et problem med immunsystemet (autoimmun 
+hepatitis) </p>
+</li>
+<li>
+<p>Leverproblemer, der giver gulfarvning af hud eller øjne (gulsot) </p>
+</li>
+<li>
+<p>Unormal vævshævelse eller -vækst </p>
+</li>
+<li>
+<p>Alvorlig allergisk reaktion, som kan medføre tab af bevidsthed og kan være livstruende 
+(anafylaktisk shock) </p>
+</li>
+<li>
+<p>Hævelse af små blodkar (blodkarbetændelse) </p>
+</li>
+<li>
+<p>Immunsystemdefekt, som kan påvirke lunger, hud og lymfekirtler (såsom sarkoidose) </p>
+</li>
+<li>
+<p>Ansamling af immunceller som følge af et inflammatorisk respons (granulomatøse læsioner) </p>
+</li>
+<li>
+<p>Mangel på interesse eller følelser </p>
+</li>
+<li>
+<p>Alvorlige hudproblemer såsom toksisk epidermal nekrolyse, Stevens-Johnsons syndrom og akut 
+generaliseret eksantematøs pustulose  </p>
+</li>
+<li>
+<p>Andre hudproblemer såsom erythema multiforme, blærer og afskalning af huden eller bylder 
+(furunkulose) </p>
+</li>
+<li>
+<p>Alvorlige lidelser i nervesystemet såsom transversel myelitis, multipel sklerose-lignende 
+sygdom, optisk neuritis og Guillain-Barré syndrom </p>
+</li>
+<li>
+<p>Øjenbetændelse, der kan forårsage synsforandringer, inklusive blindhed </p>
+</li>
+<li>
+<p>Væske omkring hjertet (perikardial effusion) </p>
+</li>
+<li>
+<p>Alvorlige lungeproblemer (såsom interstitiel lungesygdom) </p>
+</li>
+<li>
+<p>Melanom (en type hudkræft) </p>
+</li>
+<li>
+<p>Livmoderhalskræft </p>
+</li>
+<li>
+<p>Lave blodtal, herunder svært nedsat antal hvide blodlegemer. </p>
+</li>
+<li>
+<p>Små røde eller lilla pletter, der skyldes blødning under huden </p>
+</li>
+<li>
+<p>Unormale værdier for et protein i blodet kaldet ‘komplementfaktor’, som er en del af 
+immunsystemet </p>
+</li>
+<li>
+<p>Lichenoide reaktioner (kløende, rødligt-lilla hududslæt og/eller trådlignende gråhvide linjer på 
+slimhinderne). </p>
+</li>
+</ul>
+<p>Ikke kendt: hyppighed kan ikke estimeres ud fra forhåndenværende data </p>
+<ul>
+<li>
+<p>Kræft hos børn og voksne </p>
+</li>
+<li>
+<p>En sjælden blodkræft, som hovedsageligt rammer teenagedrenge eller unge mænd 
+(hepatosplenisk T-celle-lymfom) </p>
+</li>
+<li>
+<p>Leversvigt </p>
+</li>
+<li>
+<p>Merkelcellekarcinom (en type hudkræft) </p>
+</li>
+<li>
+<p>Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant herpesvirus </p>
+</li>
+<li>
+<p>Kaposis sarkom forekommer oftest som lilla læsioner på huden </p>
+</li>
+<li>
+<p>Forværring af en sygdom, der hedder dermatomyositis (muskelsvaghed med hududslæt som 
+følgetilstand) </p>
+</li>
+<li>
+<p>Hjerteanfald </p>
+</li>
+<li>
+<p>Slagtilfælde </p>
+</li>
+<li>
+<p>Midlertidigt synstab under eller inden for 2 timer efter infusionen </p>
+</li>
+<li>
+<p>Infektion, der skyldes en levende vaccine, som følge af et svækket immunsystem. </p>
+</li>
+</ul>
+<p>Hos børn og unge ses yderligere følgende bivirkninger: 
+De bivirkninger, som børn i behandling med infliximab mod Crohns sygdom fik, var forskellige fra de 
+bivirkninger, som voksne i behandling med infliximab mod Crohns sygdom fik. Følgende bivirkninger 
+forekom hyppigere hos børn: nedsat antal røde blodlegemer (anæmi), blod i afføringen, generelt 
+nedsat samlet indhold af hvide blodlegemer (leukopeni), anfaldsvis ansigtsrødme, virusinfektioner, 
+lavt indhold af hvide blodlegemer, der bekæmper infektion (neutropeni), knoglebrud, bakterieinfektion 
+og allergiske reaktioner i luftvejene. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store remsima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store remsima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remsima opbevares af sundhedspersonalet. Skulle du få brug for information omkring opbevaring, 
+gælder følgende: </p>
+<ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Opbevares i køleskab (2°C - 8°C). </p>
+</li>
+<li>
+<p>Lægemidlet kan også opbevares i den originale pakning uden for køleskab ved højst 25 °C i<br />
+en enkelt periode på op til 6 måneder men den oprindelige udløbsdato må ikke overskrides. I 
+denne situation må det ikke sættes tilbage i køleskab. Skriv den nye udløbsdato på æsken med 
+dag/måned/år. Kasser lægemidlet, hvis det ikke er brugt før den nye udløbsdato eller den 
+udløbsdato, der er trykt på æsken, alt efter, hvilken dato der kommer først. </p>
+</li>
+<li>
+<p>Det anbefales, at Remsima anvendes så hurtigt som muligt (inden for 3 timer), efter det er 
+klargjort til infusion. Hvis opløsningen er klargjort under aseptiske betingelser, kan den dog 
+opbevares i køleskab ved 2°C - 8°C i op til 60 dage og i yderligere 24 timer ved 25 °C efter 
+udtagning fra køleskab. </p>
+</li>
+<li>
+<p>Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remsima indeholder </p>
+<ul>
+<li>
+<p>Aktivt stof: infliximab. Hvert hætteglas indeholder 100 mg infliximab. Efter klargøring 
+indeholder hver ml 10 mg infliximab. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: saccharose, polysorbat 80, natriumdihydrogen-phosphatmonohydrat og 
+dinatriumphosphatdihydrat. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Remsima leveres som et hætteglas (glasflaske) indeholdende et pulver til koncentrat til 
+infusionsvæske, opløsning. Pulveret er hvidt. 
+Remsima fremstilles i pakninger med 1, 2, 3, 4 eller 5 hætteglas. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Celltrion Healthcare Hungary Kft.<br />
+1062 Budapest 
+Váci út 1-3. WestEnd Office Building B torony 
+Ungarn </p>
+<p>Fremstiller 
+Millmount Healthcare Ltd. 
+Block 7 
+City North Business Campus<br />
+Stamullen, Co. Meath K32 YDIrland </p>
+<p>Nuvisan GmbH 
+Wegenerstraße 13,<br />
+89231 Neu Ulm,<br />
+Tyskland </p>
+<p>Nuvisan France SARL 
+2400, Route des Colles,<br />
+06410, Biot,<br />
+Frankrig </p>
+<p>Kymos, SL 
+Ronda De Can Fatjó 7B, Parc Tecnològic del Vallès, 
+Cerdanyola del Vallès,<br />
+Barcelona, 08290, 
+Spanien </p>
+<p>Midas Pharma GmbH 
+Rheinstraße 55218 Ingelheim am Rhein 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Celltrion Healthcare Belgium BVBA 
+Tél/Tel: + 32 1528 7 
+Lietuva 
+Celltrion Healthcare Hungary Kft. 
+Tel: + 36 1 231 0 </p>
+<p>България 
+Celltrion Healthcare Hungary Kft. 
+Teл.: + 36 1 231 0 </p>
+<p>Luxembourg/Luxemburg 
+Celltrion Healthcare Belgium BVBA 
+Tél/Tel: + 32 1528 7Česká republika 
+Celltrion Healthcare Hungary Kft. 
+Tel: + 36 1 231 0 
+Magyarország 
+Celltrion Healthcare Hungary Kft.<br />
+Tel: +36 1 231 0Danmark 
+Orion Pharma A/S 
+Tlf: + 45 86 14 00 Malta 
+Mint Health Ltd. 
+Tel: + 356 2093 9info@mint.com.mt </p>
+<p>Deutschland 
+Celltrion Healthcare Deutschland GmbH 
+Tel: + 49 (0)30 346494infoDE@celltrionhc.com </p>
+<p>Nederland 
+Celltrion Healthcare Netherlands B.V. 
+Tel: +31 20 888 7 
+Eesti 
+Orion Pharma Eesti OÜ 
+Tel: + 372 6 644 550<br />
+Norge 
+Orion Pharma AS 
+Tlf: + 47 40 00 42<br />
+Ελλάδα 
+ΒΙΑΝΕΞ Α.Ε.<br />
+Τηλ: +30 210 8009111 - Österreich 
+Astro-Pharma GmbH 
+Tel.: +43 1 97 99 office@astropharma.at </p>
+<p>España 
+Kern Pharma, S.L. 
+Tel: + 34 93 700 25<br />
+Polska 
+Celltrion Healthcare Hungary Kft.<br />
+Tel.: + 36 1 231 0493  </p>
+<p>France 
+Celltrion Healthcare France SAS 
+Tel: +33 (0)1 71 25 27 Portugal 
+PharmaKERN Portugal - Produtos 
+Farmacêuticos, Sociedade Unipessoal, Lda.<br />
+Tel: + 351 214 200 290  </p>
+<p>Hrvatska 
+OKTAL PHARMA d.o.o.<br />
+Tel: + 385 1 6595 oktal-pharma@oktal-pharma.hr </p>
+<p>Ireland 
+Celltrion Healthcare Ireland Limited 
+Tel: +353 1 223 4România 
+Celltrion Healthcare Hungary Kft. 
+Tel: + 36 1 231 0493  </p>
+<p>Slovenija 
+OPH Oktal Pharma d.o.o. 
+Tel: + 386 1 519 29 info@oktal-pharma.si </p>
+<p>Ísland 
+Slovenská republika 
+Vistor hf. 
+Sími: +354 535 7Celltrion Healthcare Hungary Kft. 
+Tel: + 36 1 231 0 </p>
+<p>Italia 
+Celltrion Healthcare Italy S.r.l. 
+Via Luigi Galvani, 24 - 20124 Milano (MI) 
+Tel: +39 0247 927 
+Suomi/Finland 
+Orion Pharma 
+Puh/Tel: + 358 10 4261  </p>
+<p>Κύπρος 
+C.A. Papaellinas Ltd 
+Τηλ: + 357 22741 
+Sverige 
+Orion Pharma AB 
+Tel: + 46 8 623 64 Latvija 
+Celltrion Healthcare Hungary Kft. 
+Tel: + 36 1 231 0 
+United Kingdom (Northern Ireland) 
+Celltrion Healthcare Ireland Limited 
+Tel: +353 1 223 4 </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.  </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Patientinformationskortet skal udleveres til patienter, som er i behandling med Remsima. </p>
+<p>Instruktioner i anvendelse og håndtering - opbevaring </p>
+<p>Opbevares ved 2 °C - 8 °C. </p>
+<p>Remsima kan opbevares ved temperaturer på op til højst 25 °C i en enkelt periode på op til 6 måneder, 
+men den oprindelige udløbsdato må ikke overskrides. Den nye udløbsdato skal skrives på pakningen. 
+Når Remsima er taget ud af køleskabet, må det ikke sættes tilbage på køl igen. </p>
+<p>Instruktioner i anvendelse og håndtering - rekonstitution, fortynding og administration </p>
+<p>For at øge sporbarheden af biologiske lægemidler skal præparatnavnet og lotnummeret på det 
+administrerede lægemiddel tydeligt noteres. </p>
+<ol>
+<li>
+<p>Dosis og antal af de nødvendige Remsima-hætteglas beregnes. Hvert Remsima-hætteglas 
+indeholder 100 mg infliximab. Det påkrævede samlede volumen rekonstitueret Remsima-
+opløsning beregnes. </p>
+</li>
+<li>
+<p>Under aseptiske forhold rekonstitueres hvert Remsima-hætteglas med 10 ml vand til 
+injektionsvæsker ved hjælp af en sprøjte med en gauge 21 (0,8 mm) kanyle eller med en mindre 
+kanyle. Plastiklåget fra hætteglasset fjernes og toppen tørres med en 70 % alkoholvatpind. 
+Sprøjtekanylen i hætteglasset indsættes i hætteglasset gennem midten af gummiproppen og 
+injektionsvæskestrømmen rettes mod glasvæggen i hætteglasset. Opløsningen blandes forsigtigt 
+ved at vende hætteglasset for at opløse pulveret. For længe eller for kraftig svingning skal 
+undgås. HÆTTEGLASSET MÅ IKKE RYSTES. Opskumning af opløsningen ved 
+rekonstitution kan forekomme. Den rekonstituerede opløsning skal stå i 5 minutter. 
+Opløsningen bør være farveløs til lysegul og opaliserende. Opløsningen kan udvikle nogle få 
+fine gennemsigtige partikler, da infliximab er et protein. Opløsningen må ikke anvendes, hvis 
+det indeholder uigennemsigtige partikler, er misfarvet eller indeholder andre fremmedlegemer. </p>
+</li>
+<li>
+<p>Det påkrævede volumen af den rekonstituerede Remsima-opløsning fortyndes til 250 ml med 
+natriumchlorid 9 mg/ml (0,9 %) infusionsvæske. Fortynd ikke det rekonstituerede Remsima-
+koncentrat med andre fortyndingsmidler’. Fortyndingen kan opnås ved at udtrække et volumen 
+af natriumchlorid 9 mg/ml (0,9 %) infusionsvæske fra 250 ml glasflasken eller infusionsposen 
+svarende til voluminet af det rekonstituerede Remsima. Det påkrævede volumen af 
+rekonstitueret Remsima-opløsning tilføjes langsomt til 250 ml infusionsflasken eller -posen og 
+blandes forsigtigt. Brug enten en større infusionspose (fx 500 ml, 1.000 ml) til voluminer 
+over 250 ml eller brug flere 250 ml infusionsposer for at sikre, at koncentrationen af 
+infusionsvæsken ikke overstiger 4 mg/ml. Hvis infusionsvæsken har været opbevaret i køleskab 
+efter rekonstitution og fortynding, skal den have tid til at opnå stuetemperatur (25 °C) i 3 timer 
+forud for trin 4 (infusion). Opbevaring i mere end 24 timer ved 2 °C - 8 °C gælder udelukkende 
+for klargøring af Remsima i infusionsposen. </p>
+</li>
+<li>
+<p>Infusionsvæsken skal administreres over en periode på ikke mindre end den anbefalede 
+infusionstid (se pkt. 3). Kun et infusionssæt med et in-line, sterilt, ikke-pyrogent, minimalt 
+proteinbindende filter (porestørrelse 1,2 μm eller derunder) bør anvendes. Da der ikke er 
+anvendt konserveringsmiddel, anbefales det, at indgivelsen af infusionsvæsken påbegyndes så 
+hurtigt som muligt og inden for 3 timer efter rekonstitution og fortynding. Hvis infusionsvæsken 
+ikke anvendes straks, er opbevaringstiderne og -betingelserne efter anbrud indtil anvendelse 
+brugerens ansvar, og bør normalt ikke overskride 24 timer ved 2°C - 8°C med mindre 
+rekonstitution/fortynding har fundet sted under kontrollerede og validerede aseptiske forhold (se 
+pkt. 6.3 ovenfor). Rester af den ikke anvendte infusionsopløsning må ikke opbevares til fornyet 
+brug. </p>
+</li>
+<li>
+<p>Remsima bør undersøges visuelt for partikler eller misfarvning før indgivelsen. Hvis der 
+observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegemer må det ikke 
+anvendes. </p>
+</li>
+<li>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. 
+Indlægsseddel: Information til brugeren </p>
+</li>
+</ol>
+<p>Remsima 120 mg injektionsvæske, opløsning i fyldt injektionssprøjte 
+infliximab </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Din læge vil også udlevere et patientinformationskort til dig, som indeholder vigtig 
+sikkerhedsinformation, som du skal være opmærksom på før og under din behandling med 
+Remsima. </p>
+</li>
+<li>
+<p>Behold det gamle kort som reference i 4 måneder efter din sidste Remsima-dosis, når du starter 
+på et nyt kort. </p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </p>
+</li>
+<li>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c29ba23bb04c16ab758f150fe41d6513
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for remsima Package Leaflet for language en"
+Description: "ePI document Bundle for remsima Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c29ba23bb04c16ab758f150fe41d6513"
+* entry[0].resource = composition-en-c29ba23bb04c16ab758f150fe41d6513
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc29ba23bb04c16ab758f150fe41d6513"
+* entry[=].resource = mpc29ba23bb04c16ab758f150fe41d6513
+                            
+                    
+Instance: bundlepackageleaflet-da-c29ba23bb04c16ab758f150fe41d6513
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for remsima Package Leaflet for language da"
+Description: "ePI document Bundle for remsima Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c29ba23bb04c16ab758f150fe41d6513"
+* entry[0].resource = composition-da-c29ba23bb04c16ab758f150fe41d6513
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc29ba23bb04c16ab758f150fe41d6513"
+* entry[=].resource = mpc29ba23bb04c16ab758f150fe41d6513
+                            
+                    
+
+
+
+Instance: mpc29ba23bb04c16ab758f150fe41d6513
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Remsima 100 mg powder for concentrate for solution for infusion"
-Description: "Remsima 100 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product remsima"
+Description: "remsima"
 Usage: #inline
 
  
@@ -707,7 +1961,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Remsima 100 mg powder for concentrate for solution for infusion"
+  * productName = "remsima"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -734,29 +1988,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c29ba23bb04c16ab758f150fe41d6513
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for remsima Package Leaflet for language en"
-Description: "ePI document Bundle for remsima Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c29ba23bb04c16ab758f150fe41d6513ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/853/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "remsima"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c29ba23bb04c16ab758f150fe41d6513"
-* entry[0].resource = composition-en-c29ba23bb04c16ab758f150fe41d6513
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbe76bdf784deea6950583b234f789db2"
-* entry[=].resource = mpbe76bdf784deea6950583b234f789db2
-                            
-                      
+* title = "List of all ePIs associated with remsima"
+
+* subject = Reference(mpbe76bdf784deea6950583b234f789db2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#remsima "remsima"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c29ba23bb04c16ab758f150fe41d6513) // remsima en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c29ba23bb04c16ab758f150fe41d6513) // remsima da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c29ba23bb04c16ab758f150fe41d6513
+InstanceOf: List
+
+* insert c29ba23bb04c16ab758f150fe41d6513ListRuleset
+    

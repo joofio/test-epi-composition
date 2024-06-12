@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9ef90a3b084c8b791046c3e0616188b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for sprycel Package Leaflet"
@@ -381,12 +384,584 @@ Italy </p>
 
 
 
+Instance: composition-da-9ef90a3b084c8b791046c3e0616188b5
+InstanceOf: CompositionUvEpi
+Title: "Composition for sprycel Package Leaflet"
+Description:  "Composition for sprycel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfb4d02f13fb1aa6bcbb8d554f0188eb0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpfb4d02f13fb1aa6bcbb8d554f0188eb0
+* title = "TEST PURPOSES ONLY - sprycel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage SPRYCEL </li>
+<li>Sådan skal du tage SPRYCEL </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sprycel is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sprycel is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SPRYCEL indeholder det aktive stof dasatinib. Denne medicin anvendes til behandling af kronisk 
+myeloid leukæmi (CML) hos voksne, unge og børn på mindst 1 år. Leukæmi er kræft i de hvide 
+blodlegemer. De hvide blodlegemer hjælper sædvanligvis kroppen med at bekæmpe infektioner. Hos 
+patienter med CML er de hvide blodlegemer, der kaldes granulocytter, begyndt at vokse uden kontrol. 
+SPRYCEL hæmmer væksten af disse leukæmiske celler. </p>
+<p>SPRYCEL anvendes også til behandling af Philadelphiakromosom-positiv (Ph+) akut lymfoblastisk 
+leukæmi (ALL) hos voksne, unge og børn i alderen 1 år og derover og CML i lymfoid blastfase hos 
+voksne, som ikke har haft gavn af tidligere behandlinger. Hos mennesker med ALL deler de hvide 
+blodlegemer, der kaldes lymfocytter, sig for hurtigt og lever for længe. SPRYCEL hæmmer væksten 
+af disse leukæmiske celler. </p>
+<p>Spørg lægen, hvis du har spørgsmål om, hvordan SPRYCEL virker, eller hvorfor du har fået ordineret 
+denne medicin. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sprycel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sprycel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke SPRYCEL </p>
+<ul>
+<li>hvis du er allergisk over for dasatinib eller et af de øvrige indholdsstoffer i SPRYCEL (angivet 
+i afsnit 6). 
+Kontakt lægen for råd, hvis du har mistanke om, at du er allergisk. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager SPRYCEL  </p>
+<ul>
+<li>
+<p>hvis du tager blodfortyndende medicin eller medicin, der forebygger blodpropper (se "Brug af 
+anden medicin sammen med SPRYCEL") </p>
+</li>
+<li>
+<p>hvis du har eller tidligere har haft lever- eller hjerteproblemer </p>
+</li>
+<li>
+<p>hvis du får åndedrætsbesvær, brystsmerter eller hoste, mens du tager SPRYCEL: dette kan 
+være et tegn på ophobning af væske i lungerne eller brystet (som kan være mere almindeligt hos 
+patienter over 65 år) eller skyldes ændringer i de blodårer, der forsyner lungerne med blod </p>
+</li>
+<li>
+<p>hvis du nogensinde har været eller måske er smittet med hepatitis B-virus. Dette skyldes, at 
+SPRYCEL kan forårsage, at hepatitis B-infektionen bliver aktiv igen, hvilket undertiden kan 
+være dødeligt. Lægen vil omhyggeligt kontrollere dig for tegn på denne infektion, før 
+behandlingen påbegyndes. </p>
+</li>
+<li>
+<p>hvis du oplever blå mærker, blødning, feber, træthed og forvirring, når du tager SPRYCEL, skal 
+du kontakte din læge. Dette kan være et tegn på skade på blodkarrene kendt som trombotisk 
+mikroangiopati (TMA). </p>
+</li>
+</ul>
+<p>Lægen vil regelmæssigt kontrollere din tilstand for at sikre, at SPRYCEL har den ønskede effekt. Du 
+vil også jævnligt få taget blodprøver, mens du tager SPRYCEL. </p>
+<p>Børn og unge 
+Giv ikke dette lægemiddel til børn under 1 år. Der er begrænset erfaring med brug af SPRYCEL i 
+denne aldersgruppe. Knoglevækst og -udvikling vil blive overvåget tæt hos børn, der tager SPRYCEL. </p>
+<p>Brug af anden medicin sammen med SPRYCEL 
+Fortæl altid lægen, hvis du tager anden medicin eller har gjort det for nylig. </p>
+<p>SPRYCEL nedbrydes hovedsageligt af leveren. Visse andre typer medicin kan påvirke virkningen af 
+SPRYCEL, hvis det tages samtidigt med SPRYCEL. </p>
+<p>Følgende medicin må ikke anvendes sammen med SPRYCEL: </p>
+<ul>
+<li>
+<p>ketoconazol, itraconazol - som er svampemidler </p>
+</li>
+<li>
+<p>erythromycin, clarithromycin, telithromycin - som er antibiotika </p>
+</li>
+<li>
+<p>ritonavir - som er et virusdræbende (antiviralt) lægemiddel </p>
+</li>
+<li>
+<p>phenytoin, carbamazepin, phenobarbital - som er medicin mod epilepsi </p>
+</li>
+<li>
+<p>rifampicin - som er medicin mod tuberkulose </p>
+</li>
+<li>
+<p>famotidin, omeprazol - som er mavesyrehæmmere </p>
+</li>
+<li>
+<p>perikon - et naturlægemiddel der kan købes uden recept og som bruges mod depression og 
+andre lidelser (også kendt som Hypericum perforatum) </p>
+</li>
+</ul>
+<p>Du må ikke tage medicin, som neutraliserer mavesyre (syrehæmmende midler som 
+aluminiumhydroxid eller magnesiumhydroxid) i 2 timer inden eller 2 timer efter SPRYCEL. </p>
+<p>Fortæl det til lægen, hvis du tager blodfortyndende medicin, eller medicin, der forebygger 
+blodpropper. </p>
+<p>Brug af SPRYCEL sammen med mad og drikke 
+Du må ikke tage SPRYCEL sammen med grapefrugt eller grapefrugtjuice. </p>
+<p>Graviditet og amning 
+Hvis du er gravid, eller har mistanke om, at du er gravid, skal du straks informere lægen om dette. 
+SPRYCEL må ikke bruges under graviditet, medmindre det er klart nødvendigt. Lægen vil 
+informere dig om risikoen ved at tage SPRYCEL under graviditet. 
+Både mænd og kvinder, der tager SPRYCEL tilrådes at bruge effektiv beskyttelse mod graviditet 
+under behandling. </p>
+<p>Fortæl det til din læge, hvis du ammer. Du bør stoppe med at amme, mens du tager SPRYCEL. </p>
+<p>Trafik- og arbejdssikkerhed 
+Vær særligt forsigtig når du kører bil eller bruger maskiner, da du kan opleve bivirkninger som for 
+eksempel svimmelhed og sløret syn. </p>
+<p>SPRYCEL indeholder lactose 
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sprycel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sprycel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SPRYCEL ordineres udelukkende af læger, der har erfaring med behandling af leukæmi. Tag altid 
+lægemidlet nøjagtig efter lægens anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet. 
+SPRYCEL udskrives til voksne og børn på 1 år og derover. </p>
+<p>Den anbefalede startdosis til voksne patienter med CML i kronisk fase er 100 mg 1 gang dagligt. </p>
+<p>Den anbefalede startdosis til voksne patienter med accelereret CML eller CML med blastkrise 
+eller Ph+ ALL er 140 mg 1 gang dagligt. </p>
+<p>Dosering til børn med CML eller Ph+ ALL i kronisk fase er baseret på legemsvægt. SPRYCEL 
+skal administreres én gang dagligt gennem munden i form af enten SPRYCEL tabletter eller 
+SPRYCEL pulver til oral suspension. SPRYCEL tabletter anbefales ikke til patienter, der vejer mindre 
+end 10 kg. Pulveret til oral suspension bør bruges til patienter, der vejer mindre end 10 kg og patienter, 
+der ikke er i stand til at synke tabletter. En ændring i dosis kan forekomme når der skiftes mellem 
+formuleringer (dvs. tabletter og pulver til oral suspension), så du bør ikke skifte fra den ene til den 
+anden. </p>
+<p>Din læge vil fastsætte den rigtige formulering og dosis baseret på din vægt, eventuelle bivirkninger og 
+respons på behandlingen. Startdosis af SPRYCEL til børn beregnes efter legemsvægten som vist 
+nedenfor: </p>
+<p>Legemsvægt (kg)a 
+Daglig dosis (mg) 
+10 til mindre end 20 kg 
+40 mg 
+20 til mindre end 30 kg 
+60 mg 
+30 til mindre end 45 kg 
+70 mg 
+mindst 45 kg 
+100 mg 
+a  Tabletten anbefales ikke til patienter, der vejer mindre end 10 kg; pulveret til oral suspension bør bruges til disse patienter. </p>
+<p>Der foreligger ingen dosisanbefalinger for SPRYCEL til børn under 1 år.  </p>
+<p>Afhængigt af hvordan behandlingen virker på dig, kan lægen foreslå en højere eller lavere dosis eller 
+foreslå, at behandlingen afbrydes kortvarigt. For højere eller lavere dosis kan det være nødvendigt, at 
+du tager en kombination af forskellige tabletstyrker. </p>
+<p>Tabletterne kan være pakket i pakninger med kalenderblisterkort. Dette er blisterkort, hvor 
+ugedagene er angivet. Pilene viser, hvilken tablet der skal tages næste gang i dit behandlingsprogram. </p>
+<p>Sådan skal du tage SPRYCEL 
+Tag tabletterne på samme tidspunkt hver dag. Synk tabletterne hele. Tabletterne må ikke knuses, 
+deles eller tygges. Tag ikke opløste tabletter. Du kan ikke være sikker på du får den korrekte dosis, 
+hvis du knuser, deler, tygger eller opløser tabletterne. SPRYCEL tabletter kan tages med eller uden 
+mad. </p>
+<p>Særlig vejledning for, hvordan SPRYCEL skal håndteres 
+Det er ikke særlig sandsynligt, at SPRYCEL tabletterne knækker, men hvis det sker, skal alle undtagen 
+patienten bære handsker ved håndteringen af SPRYCEL. </p>
+<p>Hvor længe skal du tage SPRYCEL 
+Tag SPRYCEL dagligt, indtil lægen giver dig besked på at stoppe. Sørg for at tage SPRYCEL, så 
+længe lægen ordinerer det. </p>
+<p>Hvis du har taget for mange SPRYCEL tabletter 
+Hvis du ved en fejl har taget for mange tabletter, skal du straks kontakte lægen. Du kan have behov 
+for lægehjælp. </p>
+<p>Hvis du har glemt at tage SPRYCEL 
+Du må ikke tage en dobbeltdosis som erstatning for en glemt tablet. Tag næste planlagte dosis, på det 
+planlagte tidspunkt. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Følgende kan alle være tegn på alvorlige bivirkninger: </p>
+<ul>
+<li>
+<p>hvis du har brystsmerter, vejrtrækningsbesvær, hoste, eller hvis du besvimer </p>
+</li>
+<li>
+<p>hvis du får uventet blødning eller blå mærker uden at du har slået dig </p>
+</li>
+<li>
+<p>hvis du har blod i opkast, afføring eller urin, eller sortfarvet afføring </p>
+</li>
+<li>
+<p>hvis du får tegn på infektion, som for eksempel feber eller voldsomme kulderystelser </p>
+</li>
+<li>
+<p>hvis du får feber, ømhed i munden eller halsen, blæredannelse eller afskalning af huden og/eller 
+slimhinderne 
+Kontakt straks lægen, hvis du får en eller flere af ovenstående bivirkninger. </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Infektioner (både infektioner forårsaget af bakterier og af virus samt svampeinfektioner) </p>
+</li>
+<li>
+<p>Hjerte og lunger: åndenød </p>
+</li>
+<li>
+<p>Fordøjelsesproblemer: diarré, kvalme eller opkastning </p>
+</li>
+<li>
+<p>Hud, hår, øjne, generelt: udslæt, feber, hævelse af ansigt, hænder og fødder, hovedpine, 
+følelse af træthed eller svaghed, blødning </p>
+</li>
+<li>
+<p>Smerter: muskelsmerter (under eller efter ophør af behandling), mavesmerter </p>
+</li>
+<li>
+<p>Undersøgelser kan vise: lavt antal blodplader, lavt antal hvide blodlegemer (neutropeni), 
+blodmangel, væske omkring lungerne </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Infektioner: lungebetændelse, herpes virusinfektion (herunder cytomegalovirus (CMV)), 
+infektion i øvre luftveje, alvorlig infektion i blod eller væv (herunder ikke almindelige tilfælde 
+med dødelig udgang) </p>
+</li>
+<li>
+<p>Hjerte og lunger: hjertebanken, uregelmæssig hjerterytme (puls), hjertesvigt med ophobning af 
+blod, svag hjertemuskel, højt blodtryk, forhøjet blodtryk i lungerne, hoste </p>
+</li>
+<li>
+<p>Fordøjelsesproblemer: appetitforstyrrelser, smagsforstyrrelser, opsvulmet eller oppustet mave 
+(abdomen), betændelseslignende tilstand i tarmen, forstoppelse, halsbrand, sår i munden, 
+vægtøgning, vægttab, irriteret maveslimhinde </p>
+</li>
+<li>
+<p>Hud, hår, øjne, generelt: prikken i huden, kløe, tør hud, akne, betændelseslignende tilstand i 
+huden, vedvarende ringen for ørerne, hårtab, voldsom svedtendens, synsforstyrrelser (sløret syn 
+og nedsat syn), tørre øjne, blå mærker, depression, søvnløshed, ansigtsrødme, svimmelhed, sår 
+(blå mærker), appetitmangel, søvnighed, ophobning af vand i kroppen </p>
+</li>
+<li>
+<p>Smerter: ledsmerter, muskelsvaghed, brystsmerter, smerter i hænder og fødder, kulderystelser, 
+stive muskler og led, muskeltrækninger </p>
+</li>
+<li>
+<p>Undersøgelser kan vise: væske omkring hjertet, væske i lungerne, uregelmæssigt hjerteslag, alt 
+for få hvide blodlegemer i blodet forbundet med feber, mave-tarmblødning, stor mængde 
+urinsyre i blodet </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Hjerte og lunger: hjerteanfald (herunder tilfælde med dødelig udgang), betændelse i 
+hjertesækken (de hinder, der omgiver hjertet), uregelmæssig hjerterytme (puls), smerter i brystet 
+pga. manglende blodtilførsel til hjertet (angina pectoris), lavt blodtryk, forsnævring i luftvejene, 
+hvilket kan medføre vejrtrækningsproblemer, astma, øget blodtryk i arterierne (blodårerne) i 
+lungerne </p>
+</li>
+<li>
+<p>Fordøjelsesproblemer: betændelse i bugspytkirtlen, mavesår, betændelse i spiserøret, 
+opsvulmet bughule (mave), rifter i endetarmen, synkebesvær, betændelse i galdeblæren, 
+blokerede galdegange, gastroøsofageal refluks (en tilstand, hvor syre og andet maveindhold 
+løber tilbage op i svælget) </p>
+</li>
+<li>
+<p>Hud, hår, øjne, generelt: allergisk reaktion herunder ømme, røde knuder under huden 
+(erythema nodosum), angst, forvirring, humørsvingninger, nedsat seksuallyst, besvimelse, 
+rysten, øjenbetændelse som medfører røde øjne eller smerter i øjnene, en hudsygdom 
+karakteriseret ved ømt, rødt, afgrænset udslæt med skjolder med pludselig feber og forhøjet 
+antal hvide blodlegemer (neutrofil dermatose), høretab, øget lysfølsomhed, nedsat syn, tåreflåd, 
+misfarvning af huden, betændelse i fedtvævet under huden, sår på huden, blæredannelse på 
+huden, neglesygdom, hårsygdom, hånd-fod-syndrom, nyresvigt, hyppig vandladning, 
+brystforstørrelse hos mænd, menstruationsforstyrrelser, generel svækkelse og utilpashed, nedsat 
+funktion af skjoldbruskkirtlen, balancetab, mens man går, osteonekrose (en sygdom med nedsat 
+blodtilførsel til knoglerne, som kan medføre knogletab og knogledød), leddegigt, hævelse af 
+huden hvor som helst på kroppen </p>
+</li>
+<li>
+<p>Smerter: årebetændelse, som kan medføre rødme, ømhed og hævelse, senebetændelse </p>
+</li>
+<li>
+<p>Hjerne: hukommelsestab </p>
+</li>
+<li>
+<p>Undersøgelser kan vise: unormale blodprøveresultater og risiko for nedsat nyrefunktion på 
+grund af affaldsstoffer fra den døende svulst (tumorlysesyndrom), lavt indhold af albumin i 
+blodet, lavt indhold af lymfocytter (en slags hvide blodceller), højt indhold af kolesterol i 
+blodet, hævede lymfekirtler, blødninger i hjernen, forstyrrelser i hjertets elektriske aktivitet, 
+forstørret hjerte, leverbetændelse, protein i urinen, forhøjet kreatinkinase (et enzym, der 
+hovedsageligt findes i hjertet, hjernen og skeletmusklerne), forhøjet troponin (et enzym, der 
+hovedsageligt findes i hjerte- og skeletmuskulaturen), forhøjet gamma-glutamyltransferase (et 
+enzym, der hovedsageligt findes i leveren), mælkeagtig væske omkring lungerne (chylothorax) </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 personer) </p>
+<ul>
+<li>
+<p>Hjerte og lunger: forstørret højre hjertekammer, betændelse i hjertemusklen, en række 
+tilstande, der skyldes blokering af blodtilførslen til hjertemusklen (akut koronarsyndrom), 
+hjertestop, sygdom i kranspulsåren, betændelse i det væv, der omgiver hjertet og lungerne, 
+blodpropper, blodpropper i lungerne </p>
+</li>
+<li>
+<p>Fordøjelsesproblemer: tab af vigtige næringsstoffer som f.eks. protein fra fordøjelseskanalen, 
+forstoppelse, fistel i endetarmen (unormal åbning fra endetarmen til huden omkring 
+endetarmen), nedsat nyrefunktion, diabetes </p>
+</li>
+<li>
+<p>Hud, hår, øjne, generelt: kramper, betændelse i synsnerven, hvilket kan medføre fuldstændig 
+eller delvis blindhed, blålilla, spættet misfarvning af huden, unormal høj funktion af 
+skjoldbruskkirtlen, betændelse i skjoldbruskkirtlen, ataksi (en tilstand med nedsat 
+muskelkoordinering), vanskelighed ved at gå, spontan abort, betændelse i hudens blodkar, 
+hudfibrose </p>
+</li>
+<li>
+<p>Hjerne: slagtilfælde, midlertidig episode med neurologiske forstyrrelser på grund af nedsat 
+blodtilførsel, lammelse af ansigtsnerverne, demens </p>
+</li>
+<li>
+<p>Immunsystemet: alvorlig allergisk reaktion </p>
+</li>
+<li>
+<p>Knogler, led, muskler og bindevæv: forsinket sammenvoksning af de afrundede ender, der 
+udgør led (epifyser); langsommere eller forsinket vækst. </p>
+</li>
+</ul>
+<p>Andre bivirkninger er blevet rapporteret med ikke kendt frekvens (kan ikke estimeres ud fra 
+forhåndenværende data)) </p>
+<ul>
+<li>
+<p>Lungebetændelse </p>
+</li>
+<li>
+<p>Blødning i maven eller tarmene, som kan forårsage død </p>
+</li>
+<li>
+<p>Genopblussen (reaktivering) af hepatitis B-infektion, hvis du tidligere har haft hepatitis B 
+(leverbetændelse type B) </p>
+</li>
+<li>
+<p>En reaktion med feber, blærer på huden og sår på slimhinderne </p>
+</li>
+<li>
+<p>Sygdom i nyrerne med symptomer, herunder ødem og unormale laboratorietestresultater, såsom 
+protein i urinen og lavt proteinniveau i blodet </p>
+</li>
+<li>
+<p>Skade på blodkar kendt som trombotisk mikroangiopati (TMA), inklusive nedsat antal røde 
+blodlegemer, nedsat antal blodplader og dannelse of blodpropper. </p>
+</li>
+</ul>
+<p>Lægen vil undersøge dig for nogle af disse bivirkninger under behandlingen. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendix 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sprycel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sprycel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på flaskeetiketten, blister eller kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SPRYCEL indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: Dasatinib. Hver filmovertrukken tablet indeholder 20 mg, 50 mg, 70 mg, 80 mg, 
+100 mg eller 140 mg dasatinib (som monohydrat). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+<li>
+<p>Tabletkerne: lactosemonohydrat (se punkt 2 "SPRYCEL indeholder lactose"); 
+mikrokrystallinsk cellulose; croscarmellosenatrium; hydroxypropylcellulose; 
+magnesiumstearat </p>
+</li>
+<li>
+<p>Filmovertræk: hypromellose; titandioxid (E171); macrogol<br />
+Udseende og pakningsstørrelser 
+SPRYCEL 20 mg: Den filmovertrukne tablet er hvid til gråligt hvid, bikonveks, rund med “BMS" 
+printet på den ene side og “527" på den anden. </p>
+</li>
+</ul>
+<p>SPRYCEL 50 mg: Den filmovertrukne tablet er hvid til gråligt hvid, bikonveks, oval med “BMS" 
+printet på den ene side og “528" på den anden. </p>
+<p>SPRYCEL 70 mg: Den filmovertrukne tablet er hvid til gråligt hvid, bikonveks, rund med “BMS" 
+printet på den ene side og “524" på den anden. </p>
+<p>SPRYCEL 80 mg: Den filmovertrukne tablet er hvid til gråligt hvid, bikonveks, trekantet med “BMS 
+80" printet på den ene side og “855" på den anden. </p>
+<p>SPRYCEL 100 mg: Den filmovertrukne tablet er hvid til gråligt hvid, bikonveks, oval med “BMS 
+100" printet på den ene side og “852" på den anden. </p>
+<p>SPRYCEL 140 mg: Den filmovertrukne tablet er hvid til gråligt hvid, bikonveks, rund med “BMS 
+140" printet på den ene side og “857" på den anden. </p>
+<p>SPRYCEL 20 mg, 50 mg eller 70 mg filmovertrukne tabletter fås i æsker med 56 filmovertrukne 
+tabletter i 4 kalender-blisterkort, der hver indeholder 14 filmovertrukne tabletter, samt i æsker med 
+60 × 1 filmovertrukne tabletter i perforerede engangsdosis-blisterkort. De fås også i flasker med 
+børnesikret lukning, der indeholder 60 filmovertrukne tabletter. Hver karton indeholder én flaske. </p>
+<p>SPRYCEL 80 mg, 100 mg eller 140 mg filmovertrukne tabletter fås i æsker med 
+30 × 1 filmovertrukne tabletter i perforerede engangsdosis-blisterkort. De fås også i flasker med 
+børnesikret lukning, der indeholder 30 filmovertrukne tabletter. Hver karton indeholder én flaske. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelse: 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Fremstiller: 
+Swords Laboratories Unlimited Company T/A Bristol-Myers Squibb Pharmaceutical Operations, 
+External Manufacturing 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside <br />
+http://www.emea.europa.eu. Der er også links til andre websteder om sjældne sygdomme og om, 
+hvordan de behandles. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>SPRYCEL 10 mg/ml pulver til oral suspension 
+dasatinib </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret SPRYCEL til dig personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </p>
+</li>
+<li>
+<p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.  </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9ef90a3b084c8b791046c3e0616188b5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sprycel Package Leaflet for language en"
+Description: "ePI document Bundle for sprycel Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9ef90a3b084c8b791046c3e0616188b5"
+* entry[0].resource = composition-en-9ef90a3b084c8b791046c3e0616188b5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9ef90a3b084c8b791046c3e0616188b5"
+* entry[=].resource = mp9ef90a3b084c8b791046c3e0616188b5
+                            
+                    
+Instance: bundlepackageleaflet-da-9ef90a3b084c8b791046c3e0616188b5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sprycel Package Leaflet for language da"
+Description: "ePI document Bundle for sprycel Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9ef90a3b084c8b791046c3e0616188b5"
+* entry[0].resource = composition-da-9ef90a3b084c8b791046c3e0616188b5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9ef90a3b084c8b791046c3e0616188b5"
+* entry[=].resource = mp9ef90a3b084c8b791046c3e0616188b5
+                            
+                    
+
+
+
+Instance: mp9ef90a3b084c8b791046c3e0616188b5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product SPRYCEL 20 mg film-coated tablets"
-Description: "SPRYCEL 20 mg film-coated tablets"
+Title: "Medicinal Product sprycel"
+Description: "sprycel"
 Usage: #inline
 
  
@@ -406,7 +981,7 @@ Usage: #inline
 
 
 * name
-  * productName = "SPRYCEL 20 mg film-coated tablets"
+  * productName = "sprycel"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -433,29 +1008,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9ef90a3b084c8b791046c3e0616188b5
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sprycel Package Leaflet for language en"
-Description: "ePI document Bundle for sprycel Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9ef90a3b084c8b791046c3e0616188b5ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "SPRYCEL 20 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sprycel"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9ef90a3b084c8b791046c3e0616188b5"
-* entry[0].resource = composition-en-9ef90a3b084c8b791046c3e0616188b5
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpfb4d02f13fb1aa6bcbb8d554f0188eb0"
-* entry[=].resource = mpfb4d02f13fb1aa6bcbb8d554f0188eb0
-                            
-                      
+* title = "List of all ePIs associated with sprycel"
+
+* subject = Reference(mpfb4d02f13fb1aa6bcbb8d554f0188eb0)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sprycel "sprycel"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9ef90a3b084c8b791046c3e0616188b5) // sprycel en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9ef90a3b084c8b791046c3e0616188b5) // sprycel da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9ef90a3b084c8b791046c3e0616188b5
+InstanceOf: List
+
+* insert 9ef90a3b084c8b791046c3e0616188b5ListRuleset
+    

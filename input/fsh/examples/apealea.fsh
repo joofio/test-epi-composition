@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-16b17145743fb4005511a462dcbf7da1
 InstanceOf: CompositionUvEpi
 Title: "Composition for apealea Package Leaflet"
@@ -391,12 +394,711 @@ requirements. </p>         </div>"""
 
 
 
+Instance: composition-da-16b17145743fb4005511a462dcbf7da1
+InstanceOf: CompositionUvEpi
+Title: "Composition for apealea Package Leaflet"
+Description:  "Composition for apealea Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp53949a4f7d44321f6550fa4222cb89b0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp53949a4f7d44321f6550fa4222cb89b0
+* title = "TEST PURPOSES ONLY - apealea"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får Apealea </li>
+<li>Sådan får du Apealea </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What apealea is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What apealea is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Apealea er et kræftlægemiddel. Det indeholder det aktive stof paclitaxel, som tilhører en gruppe 
+lægemidler, der kaldes taxaner. Paclitaxel hæmmer eller standser væksten af celler, der deler sig 
+hurtigt, f.eks. tumorceller. </p>
+<p>Apealea anvendes i kombination med et andet lægemiddel (carboplatin) til behandling af følgende 
+kræftsygdomme hos voksne: </p>
+<ul>
+<li>
+<p>epitelial æggestokkræft – en kræftsygdom i æggestokkene, dvs. de organer, der producerer 
+kvindens ægceller  </p>
+</li>
+<li>
+<p>primær bughindekræft – en kræftsygdom i bughindens celler, dvs. den hinde, der beklæder 
+bughulens vægge og de indre organer i bughulen </p>
+</li>
+<li>
+<p>kræft i æggelederne (forbindelsen mellem æggestokkene og livmoderen) 
+Denne behandling anvendes, når andre behandlinger ikke har virket. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take apealea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take apealea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Apealea </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for paclitaxel eller et af de øvrige indholdsstoffer i Apealea (angivet i 
+punkt 6) </p>
+</li>
+<li>
+<p>hvis du ammer </p>
+</li>
+<li>
+<p>hvis dit neutrofil-tal (antallet af en bestemt type hvide blodlegemer) ligger under 1,5 × 109/l inden 
+behandlingsstart </p>
+</li>
+</ul>
+<p>Hvis du er usikker på, om noget af ovenstående gælder for dig, skal du tale med lægen eller 
+sygeplejersken. </p>
+<p>Lægemidlet er ikke længere autoriseret til salg
+Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller sygeplejersken, før du får Apealea: </p>
+<ul>
+<li>
+<p>hvis du har nedsat lever-, nyre- eller hjertefunktion 
+Apealea anbefales ikke til patienter med svært nedsat lever- eller nyrefunktion. </p>
+</li>
+<li>
+<p>hvis du tidligere har haft kvalme, opkastning og diarré i forbindelse med kræftbehandling. 
+Kontakt lægen med det samme, hvis du under behandlingen oplever: </p>
+</li>
+<li>
+<p>feber, smerter, kulderystelser, svaghed eller andre tegn på infektion </p>
+</li>
+<li>
+<p>svær kvalme, opkastning eller diarré </p>
+</li>
+<li>
+<p>svære reaktioner på infusionsstedet </p>
+</li>
+<li>
+<p>en allergisk reaktion </p>
+</li>
+<li>
+<p>følelsesløshed, stikkende/prikkende fornemmelse, berøringsfølsomhed eller muskelsvaghed 
+Du kan få brug for yderligere medicin, hvis du udvikler et eller flere af disse symptomer. Det kan 
+være, lægen vil udskyde den videre behandling med Apealea eller reducere dosen. </p>
+</li>
+</ul>
+<p>Tal med lægen eller sygeplejersken om hårtab og om, hvad man kan gøre for at undgå det. </p>
+<p>Du vil blive fulgt tæt under behandlingen: </p>
+<ul>
+<li>
+<p>regelmæssige blodprøver for at tjekke, at det er sikkert for dig at fortsætte med behandlingen </p>
+</li>
+<li>
+<p>symptomer på allergisk reaktion under infusionen, herunder: 
+− rødme og hævelse på infusionsstedet 
+− lavt blodtryk 
+− vejrtrækningsbesvær 
+− opsvulmet ansigt </p>
+</li>
+</ul>
+<p>Børn og unge </p>
+<p>Apealea anbefales ikke til børn og unge under 18 år, da det ikke er undersøgt i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Apealea </p>
+<p>Fortæl det altid til lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller 
+planlægger at bruge anden medicin. </p>
+<p>Du skal navnlig sige det til lægen eller sygeplejersken, før du får Apealea, hvis du bruger: </p>
+<ul>
+<li>
+<p>ketoconazol eller andre lægemidler mod svampeinfektion </p>
+</li>
+<li>
+<p>erythromycin, rifampicin: lægemidler mod bakterieinfektion </p>
+</li>
+<li>
+<p>fluoxetin: et lægemiddel mod depression </p>
+</li>
+<li>
+<p>gemfibrozil: et lægemiddel til sænkning af fedtindholdet i blodet </p>
+</li>
+<li>
+<p>clopidogrel: et lægemiddel til forebyggelse af blodpropper </p>
+</li>
+<li>
+<p>cimetidin: et lægemiddel mod for meget mavesyre </p>
+</li>
+<li>
+<p>efavirenz, nevirapin, ritonavir, saquinavir, indinavir, nelfinavir: lægemidler til behandling af hiv-
+infektion </p>
+</li>
+<li>
+<p>carbamazepin, phenytoin: lægemidler til behandling af epilepsi og visse smertetilstande </p>
+</li>
+<li>
+<p>cisplatin: et lægemiddel mod kræft </p>
+</li>
+</ul>
+<p>Graviditet og amning </p>
+<p>Sig det til lægen inden behandling, hvis du er gravid, hvis du har mistanke om, at du er gravid, eller 
+hvis du ammer. </p>
+<p>Apealea anbefales ikke under graviditet, da paclitaxel kan medføre alvorlige misdannelser. 
+Patienter, der kan blive gravide, skal bruge sikker prævention under behandling med Apealea og i 
+6 måneder efter behandlingen. </p>
+<p>Lægemidlet er ikke længere autoriseret til salg
+Du skal holde op med at amme, mens du er i behandling, da paclitaxel udskilles i modermælk og kan 
+skade barnet. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Apealea kan give bivirkninger som træthed eller svimmelhed, der kan nedsætte evnen til at føre 
+motorkøretøj og betjene maskiner. Du må ikke føre motorkøretøj og betjene maskiner, hvis du oplever 
+disse symptomer. </p>
+<p>Apealea indeholder natrium </p>
+<p>Efter rekonstitution indeholder dette lægemiddel op til ca.1,6 g natrium (hovedkomponent af 
+madlavnings-/bordsalt) pr. dosis. Det svarer til 80 % af det anbefalede maksimale daglige indtag af 
+natrium for en voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take apealea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take apealea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få indgivet Apealea af en læge eller sygeplejerske via et drop i en blodåre (infusion). Det tager 
+ca. 1 time. Dosen baseres på din legemsoverflade (beregnet ud fra højde og vægt) og dine 
+blodprøveresultater. Den sædvanlige dosis er 250 mg/m2 legemsoverflade indgivet hver 3. uge i op til 
+6 behandlingsserier. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt omgående lægen eller sygeplejersken, hvis du oplever noget af følgende: </p>
+<ul>
+<li>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter): 
+− nerveforstyrrelse i arme og ben, der kan give stikkende fornemmelse, brændende smerte 
+eller følelsesløshed, som kan vare ved udover 6 måneder efter ophør af paclitaxel. </p>
+</li>
+<li>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter): 
+− 
+feber 
+− muskelsvaghed, kramper eller spasmer 
+− allergiske reaktioner, hovedsaligt under selve infusionen, såsom vejrtrækningsbesvær, 
+besvimelse, hævelse i ansigtet, kløe, varmefornemmelse, kulderystelser. Dette kan i nogle 
+tilfælde føre til alvorligt allergisk shock (ikke almindelig bivirkning). </p>
+</li>
+</ul>
+<p>Andre bivirkninger omfatter (angivet med hyppighed): 
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>lavt neutrofil-tal (lavt antal af en bestemt type hvide blodlegemer) </p>
+</li>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>diarré, kvalme, opkastning </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>smerter eller ubehag i led eller muskler </p>
+</li>
+<li>
+<p>svaghed, træthed </p>
+</li>
+<li>
+<p>reaktioner på infusionsstedet, såsom smerter, inflammation, misfarvning, rødme, hævelse, 
+stikkende fornemmelse, udslæt, blødning </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>lavt leukocyt- og granulocyt-tal (lavt antal af bestemte typer hvide blodlegemer) </p>
+</li>
+<li>
+<p>lavt antal blodplader eller røde blodlegemer </p>
+</li>
+<li>
+<p>nedsat berørings- eller følesans 
+Lægemidlet er ikke længere autoriseret til salg</p>
+</li>
+<li>
+<p>føleforstyrrelser, såsom stikkende fornemmelse, brændende fornemmelse, prikkende 
+fornemmelse eller følelsesløshed i huden eller munden </p>
+</li>
+<li>
+<p>svimmelhed eller ørhed </p>
+</li>
+<li>
+<p>smagsforstyrrelser </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>hurtig hjerterytme </p>
+</li>
+<li>
+<p>brystsmerter eller ubehag i brystet </p>
+</li>
+<li>
+<p>lavt blodtryk, rødme, betændelse i blodkar, smerter i blodkar, øget blodtilførsel til nogle dele af 
+kroppen </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær, tilstoppet næse </p>
+</li>
+<li>
+<p>mavesmerter, forstoppelse, luft i maven </p>
+</li>
+<li>
+<p>mundtørhed, betændelse i mundslimhinden </p>
+</li>
+<li>
+<p>hudrødme, udslæt, kløe, nældefeber </p>
+</li>
+<li>
+<p>smerter i f.eks. armene, benene, brystet eller omkring tumoren </p>
+</li>
+<li>
+<p>rygsmerter, knoglesmerter </p>
+</li>
+<li>
+<p>hævelse i ankler, fødder, ansigt eller fingre </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>blodforgiftning </p>
+</li>
+<li>
+<p>pus i kropsvævet </p>
+</li>
+<li>
+<p>lungebetændelse, influenza, betændelse i mandlerne </p>
+</li>
+<li>
+<p>herpes simplex (en virusinfektion), virusinfektion i luftvejene </p>
+</li>
+<li>
+<p>urinvejsinfektion, blærebetændelse </p>
+</li>
+<li>
+<p>hudinfektioner, herunder infektioner på infusionsstedet </p>
+</li>
+<li>
+<p>forstyrrelser i blodets evne til at størkne </p>
+</li>
+<li>
+<p>nedsat antal hvide og røde blodlegemer og blodplader </p>
+</li>
+<li>
+<p>lavt niveau af kalium, magnesium eller natrium i blodet </p>
+</li>
+<li>
+<p>stort væsketab (dehydrering) </p>
+</li>
+<li>
+<p>allergiske reaktioner over for andre lægemidler, f.eks. penicillin </p>
+</li>
+<li>
+<p>depression, søvnløshed, angst </p>
+</li>
+<li>
+<p>epileptisk anfald, der varer mere end fem minutter, eller mere end ét anfald inden for fem 
+minutter </p>
+</li>
+<li>
+<p>koma, voldsom søvnighed, døsighed og/eller manglende responsivitet </p>
+</li>
+<li>
+<p>lav muskelspænding, lammet ansigtsmuskulatur </p>
+</li>
+<li>
+<p>giftig indvirkning på nervesystemet </p>
+</li>
+<li>
+<p>kognitive forstyrrelser (tænkebesvær eller forstyrret tankeproces, hukommelsesbesvær) </p>
+</li>
+<li>
+<p>hjerneskade, unormal væskeophobning i hjernen </p>
+</li>
+<li>
+<p>slagtilfælde </p>
+</li>
+<li>
+<p>sløret syn, ubehag eller irritation i øjnene, rindende øjne </p>
+</li>
+<li>
+<p>døvhed, forstyrrelse i det indre øre, ringen for ørerne </p>
+</li>
+<li>
+<p>forstyrrelser i blodkar, f.eks.: 
+− 
+dannelse af blodpropper 
+− 
+betændelse i blodkar 
+− 
+væskeophobning i vævet på grund af blokerede lymfekar 
+− 
+hedeture 
+− 
+blødning </p>
+</li>
+<li>
+<p>hjertestop, hjertesvigt </p>
+</li>
+<li>
+<p>blåfarvede læber eller blålig hud </p>
+</li>
+<li>
+<p>forstyrret hjerterytme (uregelmæssig, hurtig aktivitet i hjertets forkamre) </p>
+</li>
+<li>
+<p>hjertebanken, langsom hjerterytme </p>
+</li>
+<li>
+<p>nedsat blodcirkulation </p>
+</li>
+<li>
+<p>højt blodtryk, blodtryksændringer, bleghed </p>
+</li>
+<li>
+<p>lungesvigt, forsnævring af luftvejene </p>
+</li>
+<li>
+<p>svær iltmangel på grund af unormal vejrtrækning 
+Lægemidlet er ikke længere autoriseret til salg</p>
+</li>
+<li>
+<p>problemer med stemmen </p>
+</li>
+<li>
+<p>næseblod, allergisk betændelse i næsen, løbende næse </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>smerter eller ubehag i munden og svælget, forstyrrelser i svælget, blødende tandkød </p>
+</li>
+<li>
+<p>betændelse i maveslimhinden, ubehag i maven (oppustethed), smerter i nedre maveregion </p>
+</li>
+<li>
+<p>fordøjelsesbesvær, forstyrret tarmfunktion, meget hård afføring, blodig afføring </p>
+</li>
+<li>
+<p>leverbetændelse eller forstyrret leverfunktion, forhøjede leverenzymer i blodet </p>
+</li>
+<li>
+<p>smertefuld, svær hævelse af de dybe hudlag, navnlig i ansigtet </p>
+</li>
+<li>
+<p>misfarvning af huden, pigmentforstyrrelser </p>
+</li>
+<li>
+<p>betændelse i huden med blister </p>
+</li>
+<li>
+<p>øget svedtendens, koldsved </p>
+</li>
+<li>
+<p>tør hud, negleproblemer </p>
+</li>
+<li>
+<p>blødning i led </p>
+</li>
+<li>
+<p>tyngdefølelse i benene </p>
+</li>
+<li>
+<p>multiorgansvigt, der kan medføre døden </p>
+</li>
+<li>
+<p>hævelse i vævet på grund af væskeophobning </p>
+</li>
+<li>
+<p>brok </p>
+</li>
+<li>
+<p>varmefornemmelse </p>
+</li>
+<li>
+<p>lav kropstemperatur </p>
+</li>
+<li>
+<p>vaginalblødning </p>
+</li>
+<li>
+<p>unormalt højt niveau af kvælstof-holdige forbindelser i blodet </p>
+</li>
+</ul>
+<p>Frekvens ikke kendt (kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>rødme og hævelse af håndfladerne eller fodsålerne, som kan få huden til at skalle af </li>
+</ul>
+<p>Indberetning af bivirkninger  </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store apealea"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store apealea"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Uåbnede hætteglas: Opbevares i køleskab (2 °C – 8 °C). Opbevar hætteglasset i den ydre karton for 
+at beskytte mod lys. </p>
+<p>Det anbefales, at Apealea anvendes med det samme efter åbning. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. Af 
+hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Apealea indeholder </p>
+<ul>
+<li>
+<p>Aktivt stof: paclitaxel Et hætteglas indeholder 60 mg paclitaxel. Efter klargøring indeholder 
+hver milliliter opløsning 1 mg paclitaxel (micellær). 
+Lægemidlet er ikke længere autoriseret til salg</p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: 
+− 
+N-(all-trans-retinoyl)-L-cysteinsyre-methylester-natriumsalt 
+− 
+N-(13-cis-retinoyl)-L-cysteinsyre-methylester-natriumsalt 
+− 
+natriumhydroxid (til justering af pH) </p>
+</li>
+</ul>
+<p>Se punkt. 2 "Apealea indeholder natrium". </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Apealea fås som et grøngult til gult pulver i et hætteglas af glas med gummiprop og 
+aluminiumsforsegling. </p>
+<p>Hver æske indeholder 1 hætteglas med pulver svarende til 60 mg paclitaxel. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Inceptua AB 
+Gustavslundsv. 16751 Bromma 
+Sverige </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til indehaveren af 
+markedsføringstilladelsen. </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Forsigtighedsregler i forbindelse med administration 
+Paclitaxel er et antineoplastisk lægemiddel, og som for andre potentielt toksiske forbindelser skal der 
+udvises forsigtighed ved håndtering af Apealea. Det anbefales at anvende beskyttelseshandsker, 
+beskyttelsesbriller og beskyttelsestøj. Hvis opløsningen kommer i kontakt med huden, skal huden 
+straks vaskes grundigt med vand og sæbe. Hvis opløsningen kommer i kontakt med slimhinderne, skal 
+slimhinderne skylles grundigt med vand. Apealea må kun klargøres og administreres af uddannet 
+personale med erfaring i håndtering af cytotoksiske stoffer. Gravide og ammende medarbejdere må 
+ikke håndtere Apealea. Det rekonstituerede produkt må ikke fortyndes. </p>
+<p>Rekonstitution af lægemidlet 
+Apealea fås som et sterilt pulver, der skal rekonstitueres før anvendelse. Efter rekonstitution 
+indeholder opløsningen 1 mg/ml paclitaxel formuleret som micellære nanopartikler. Den 
+rekonstituerede infusionsvæske er en klar, grøngul opløsning. </p>
+<p>Skal beskyttes mod direkte og/eller kraftigt lys under hele klargøringsprocessen. Produktet/det 
+rekonstituerede produkt kan kun tåle håndtering i kort tid, hvis det ikke beskyttes mod lys. </p>
+<p>Rekonstitution af Apealea må kun ske ved brug af følgende gængse rekonstitutionsopløsninger: </p>
+<ul>
+<li>
+<p>natriumchloridopløsning 9 mg/ml (0,9 %) egnet til infusion, </p>
+</li>
+<li>
+<p>Ringers laktatopløsning egnet til infusion, </p>
+</li>
+<li>
+<p>Ringers acetatopløsning egnet til infusion. </p>
+</li>
+</ul>
+<p>pH-værdien i Ringers laktat- eller acetatopløsning skal ligge inden for et interval på 5,0-7,5, og de 
+acceptable ion-koncentrationer af kalcium og magnesium er angivet nedenfor (tabel 1). </p>
+<p>Lægemidlet er ikke længere autoriseret til salg
+Tabel 1. Acceptable ion-koncentrationer af kalcium og magnesium i Ringers laktat- eller 
+acetatopløsninger til rekonstitution 
+Ion 
+Interval (mmol/l) 
+Ca2+ 
+1,0-3,5<em> 
+Mg2+ 
+0,0-2,5</em> </p>
+<ul>
+<li>Opløsninger med både Ca2+ og Mg2+ skal have en samlet (kombineret) koncentration af Ca2+ og 
+Mg2+, der ligger inden for et interval på 1,0-3,5 mmol/l. </li>
+</ul>
+<p>Apealea skal rekonstitueres ved brug af en af de tre egnede rekonstitutionsopløsninger og i 
+overensstemmelse med følgende trin: </p>
+<ol>
+<li>Tag det antal hætteglas, der skal bruges, ud af køleskabet. Pulveret skal være grøngult til gult. 
+Hvis pulveret er misfarvet (orange), skal hætteglasset kasseres. Lad hætteglassene stå beskyttet 
+mod lys i ca. 15-20 minutter ved højst 25 °C, til de når stuetemperatur. </li>
+<li>Da der er undertryk i hætteglasset, skal trykket udlignes med en kanyle, inden og imens 
+rekonstitutionsvæsken sprøjtes ned i hætteglasset. Med en steril sprøjte sprøjtes 60 ml 
+rekonstitutionsopløsning ned i hvert hætteglas. Opløsningen skal sprøjtes i løbet af ca. et minut 
+med kanylen være rettet mod indersiden af hætteglasvæggen og ikke direkte mod pulveret, da 
+der ellers kan dannes skum. </li>
+<li>Drej hætteglasset i opret stilling frem og tilbage i ca. 20 sekunder. Hætteglasset må ikke rystes, 
+da der ellers kan dannes skum. </li>
+<li>Beskyt mod lys, og lad hætteglasset stå og hvile i 3-5 minutter. </li>
+<li>Drej hætteglasset igen i opret stilling frem og tilbage i ca. 20 sekunder, og vend det dernæst op 
+og ned fem gange. Må ikke rystes. </li>
+<li>Fortsæt med at dreje hætteglasset frem og tilbage, indtil pulveret er helt opløst. Alternativt, kan 
+hætteglasset anbringes på et rysteapparat og roteres i op til 20 minutter, mens det beskyttes mod 
+lys (orbitalt rystemønster: 200-250 rpm). Trin 3 til 6 må ikke vare mere end 30 minutter. </li>
+<li>Opløsningen skal være klar og grøngul og må ikke indeholde synlige partikler eller bundfald. 
+Hvis der ses partikler, bundfald, misfarvning (orange farve) eller uigennemsigtighed, skal 
+opløsningen kasseres. </li>
+<li>Sprøjt den påkrævede mængde rekonstitueret Apealea ned i en tom, steril pose af 
+ethylenvinylacetat (EVA). Kontroller, at opløsningen er klar og anbring den i en pose, der 
+beskytter mod lys, over EVA-infusionsposen. </li>
+</ol>
+<p>Holdbarhed efter rekonstitution 
+Kemisk og fysisk stabilitet fra anbrud til anvendelse er påvist i 24 timer ved temperaturer på 2-8 ºC i 
+Ringers laktat- og acetatopløsning, og i 4 timer ved 2 °C til 8 °C i natriumchloridopløsning 9 mg/ml 
+(0,9 %), og under beskyttelse mod lys. Ud fra et mikrobiologisk synspunkt bør produktet anvendes 
+med det samme, medmindre metoden til åbning og rekonstitution udelukker risiko for kontaminering 
+med mikroorganismer. Hvis produktet ikke anvendes med det samme, er opbevaringstid og 
+opbevaringsforhold fra anbrud til anvendelse brugerens ansvar. </p>
+<p>Intravenøs administration<br />
+Der er påvist kompatibilitet med administrationssæt af DEHP-fri PVC (dvs. polyvinylchlorid uden 
+blødgøringsmidlet di-(2-ethylhexyl)-phthalat). Kompatibilitet med DEHP-holdige administrationssæt 
+er imidlertid ikke påvist. Der skal benyttes administrationssæt med et 15 µm-væskefilter af polyamid. 
+Det er vigtigt at skylle infusionssættet og kateteret/kanylen før og efter administration ved brug af 
+rekonstitutionsvæsken for at undgå utilsigtet indgift i det omgivende væv og for at sikre, at hele dosen 
+indgives. </p>
+<p>Bortskaffelse<br />
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. 
+Lægemidlet er ikke længere autoriseret til salg</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-16b17145743fb4005511a462dcbf7da1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for apealea Package Leaflet for language en"
+Description: "ePI document Bundle for apealea Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-16b17145743fb4005511a462dcbf7da1"
+* entry[0].resource = composition-en-16b17145743fb4005511a462dcbf7da1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp16b17145743fb4005511a462dcbf7da1"
+* entry[=].resource = mp16b17145743fb4005511a462dcbf7da1
+                            
+                    
+Instance: bundlepackageleaflet-da-16b17145743fb4005511a462dcbf7da1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for apealea Package Leaflet for language da"
+Description: "ePI document Bundle for apealea Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-16b17145743fb4005511a462dcbf7da1"
+* entry[0].resource = composition-da-16b17145743fb4005511a462dcbf7da1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp16b17145743fb4005511a462dcbf7da1"
+* entry[=].resource = mp16b17145743fb4005511a462dcbf7da1
+                            
+                    
+
+
+
+Instance: mp16b17145743fb4005511a462dcbf7da1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Apealea 60 mg powder for solution for infusion"
-Description: "Apealea 60 mg powder for solution for infusion"
+Title: "Medicinal Product apealea"
+Description: "apealea"
 Usage: #inline
 
  
@@ -416,7 +1118,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Apealea 60 mg powder for solution for infusion"
+  * productName = "apealea"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -443,29 +1145,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-16b17145743fb4005511a462dcbf7da1
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for apealea Package Leaflet for language en"
-Description: "ePI document Bundle for apealea Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 16b17145743fb4005511a462dcbf7da1ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1292/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "apealea"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-16b17145743fb4005511a462dcbf7da1"
-* entry[0].resource = composition-en-16b17145743fb4005511a462dcbf7da1
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp53949a4f7d44321f6550fa4222cb89b0"
-* entry[=].resource = mp53949a4f7d44321f6550fa4222cb89b0
-                            
-                      
+* title = "List of all ePIs associated with apealea"
+
+* subject = Reference(mp53949a4f7d44321f6550fa4222cb89b0)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#apealea "apealea"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-16b17145743fb4005511a462dcbf7da1) // apealea en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-16b17145743fb4005511a462dcbf7da1) // apealea da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-16b17145743fb4005511a462dcbf7da1
+InstanceOf: List
+
+* insert 16b17145743fb4005511a462dcbf7da1ListRuleset
+    

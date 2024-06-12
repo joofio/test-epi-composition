@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-28d78e4ecee5ce96f67160a74729d480
 InstanceOf: CompositionUvEpi
 Title: "Composition for bimzelx Package Leaflet"
@@ -478,12 +481,742 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-28d78e4ecee5ce96f67160a74729d480
+InstanceOf: CompositionUvEpi
+Title: "Composition for bimzelx Package Leaflet"
+Description:  "Composition for bimzelx Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp78ca7d487eaac4c57c91fac7cec2c47c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp78ca7d487eaac4c57c91fac7cec2c47c
+* title = "TEST PURPOSES ONLY - bimzelx"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Bimzelx </li>
+<li>Sådan skal du bruge Bimzelx </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What bimzelx is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What bimzelx is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Bimzelx er 
+Bimzelx indeholder det aktive stof bimekizumab. </p>
+<p>Hvad Bimzelx bruges til 
+Bimzelx bruges til at behandle følgende inflammatoriske sygdomme: </p>
+<ul>
+<li>
+<p>Plaque psoriasis </p>
+</li>
+<li>
+<p>Psoriasisartritis </p>
+</li>
+<li>
+<p>Aksial spondylartritis, herunder non-radiografisk aksial spondylartritis og 
+ankyloserende spondylitis (radiografisk aksial spondylartritis)  </p>
+</li>
+<li>
+<p>Hidrosadenitis suppurativa </p>
+</li>
+</ul>
+<p>Plaque psoriasis 
+Bimzelx bruges hos voksne til behandling af hudsygdommen plaque psoriasis. Bimzelx reducerer 
+symptomerne, herunder smerter, kløe og afskalning af huden. </p>
+<p>Psoriasisartritis 
+Bimzelx bruges til at behandle voksne med psoriasisartritis. Psoriasisartritis er en sygdom, der 
+forårsager betændte led, ofte ledsaget af plaque psoriasis. Hvis du har aktiv psoriasisartritis, vil du 
+muligvis først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok eller i tilfælde af, at du 
+ikke tåler dem, vil du få Bimzelx enten alene eller i kombination med et andet lægemiddel kaldet 
+methotrexat. </p>
+<p>Bimzelx mindsker inflammation og kan derfor hjælpe med at mindske smerter, stivhed, hævelse i og 
+omkring leddene, psoriasisudslæt, psoriasisnegleskader og bremse skaderne på brusk og knogler i de 
+led, der er involveret i sygdommen. Disse virkninger kan hjælpe dig med at kontrollere tegn og 
+symptomer på sygdommen, gøre det lettere at udføre dine normale, daglige aktiviteter, mindske 
+træthed og forbedre din livskvalitet. </p>
+<p>Aksial spondylartritis, herunder non-radiografisk aksial spondylartritis og ankyloserende spondylitis 
+(radiografisk aksial spondylartritis) 
+Bimzelx bruges til at behandle voksne med en inflammatorisk sygdom, der hovedsageligt påvirker 
+rygsøjlen, hvilket forårsager inflammation af leddene i rygsøjlen, kaldet aksial spondylartritis. Hvis 
+sygdommen ikke kan ses på røntgenbilleder, kaldes den “non-radiografisk aksial spondylartritis”; hvis 
+den forekommer hos patienter med synlige sygdomstegn på røntgenbillederne, kaldes den 
+“ankyloserende spondylitis” eller “radiografisk aksial spondylartritis”.  </p>
+<p>Hvis du har aksial spondylartritis, vil du først få andre lægemidler. Hvis sygdommen ikke responderer 
+godt nok på disse lægemidler, vil du få Bimzelx for at mindske tegnene og symptomerne på 
+sygdommen, dæmpe inflammationen og forbedre din fysiske funktion. Bimzelx kan hjælpe med at 
+mindske rygsmerter, stivhed og træthed, hvilket kan gøre det lettere at udføre dine normale, daglige 
+aktiviteter og forbedre din livskvalitet. </p>
+<p>Hidrosadenitis suppurativa 
+Bimzelx anvendes hos voksne til behandling af en lidelse kaldet hidrosadenitis suppurativa (nogle 
+gange kaldet acne inversa eller Verneuils sygdom). Hidrosadenitis suppurativa er en kronisk 
+inflammatorisk hudsygdom, der forårsager smertefulde læsioner som ømme knuder (buler) og bylder, 
+og læsioner, der kan lække pus. Det påvirker sædvanligvis specifikke områder af huden, såsom under 
+brysterne, i armhulerne, på indersiden af lårene, i lysken og på balderne. Der kan også forekomme 
+ardannelse i berørte områder. Du vil først få anden medicin. Hvis du ikke reagerer godt nok på denne 
+medicin, vil du få Bimzelx. </p>
+<p>Bimzelx reducerer de inflammatoriske knuder (buler), bylder og læsioner, der kan lække pus,   samt 
+smerter forårsaget af hidrosadenitis suppurativa. </p>
+<p>Sådan virker Bimzelx 
+Bimekizumab, det aktive stof i Bimzelx, tilhører en gruppe lægemidler kaldet interleukin-(IL) 
+hæmmere. Bimekizumab virker ved at reducere aktiviteten af to proteiner kaldet IL-17A og IL-17F, 
+som er involveret i forårsagelse af inflammation. Der er højere niveauer af disse proteiner ved 
+inflammatoriske sygdomme såsom psoriasis, psoriasisartritis, aksial spondylartritis og hidrosadenitis 
+suppurativa. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take bimzelx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take bimzelx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Bimzelx </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for bimekizumab eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). </p>
+</li>
+<li>
+<p>hvis du har en infektion, herunder tuberkulose (TB), som lægen mener er af betydning. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Bimzelx, hvis: </p>
+<ul>
+<li>
+<p>du har en infektion eller en infektion, der bliver ved med at komme tilbage. </p>
+</li>
+<li>
+<p>du for nylig har fået eller planlægger at få en vaccination. Du skal undgå visse typer vacciner 
+(levende vacciner), mens du bruger Bimzelx. </p>
+</li>
+<li>
+<p>du nogensinde har haft tuberkulose (TB). </p>
+</li>
+<li>
+<p>du nogensinde har haft inflammatorisk tarmsygdom (Crohns sygdom eller colitis ulcerosa). </p>
+</li>
+</ul>
+<p>Inflammatorisk tarmsygdom (Crohns sygdom eller colitis ulcerosa) 
+Stop med at bruge Bimzelx, og fortæl det straks til din læge eller søg lægehjælp, hvis du bemærker 
+blod i afføringen, har mavekramper, smerter, diarré eller vægttab. Disse kan være tegn på ny eller en 
+forværring af inflammatorisk tarmsygdom (Crohns sygdom eller colitis ulcerosa). </p>
+<p>Hold øje med infektioner og allergiske reaktioner 
+Bimzelx kan i sjældne tilfælde forårsage alvorlige infektioner. </p>
+<p>Fortæl det straks til din læge eller søg lægehjælp, hvis du bemærker tegn på en alvorlig infektion. 
+Sådanne tegn er anført under “Alvorlige bivirkninger” i punkt 4. Bimzelx kan potentielt forårsage alvorlige allergiske reaktioner. Kontakt lægen eller søg straks 
+lægehjælp, hvis du bemærker nogen tegn på en alvorlig allergisk reaktion. Sådanne tegn kan omfatte: </p>
+<ul>
+<li>
+<p>vejrtræknings- eller synkebesvær </p>
+</li>
+<li>
+<p>lavt blodtryk, hvilket kan gøre dig svimmel eller ør </p>
+</li>
+<li>
+<p>hævelse af ansigtet, læberne, tungen eller svælget </p>
+</li>
+<li>
+<p>kraftig hudkløe med rødt udslæt eller knopper. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Dette lægemiddel må ikke anvendes til børn og unge under 18 år. Det skyldes, at det ikke er undersøgt 
+hos denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Bimzelx 
+Fortæl det til lægen, sygeplejersken eller apotekspersonalet, hvis du bruger anden medicin, for nylig 
+har brugt anden medicin eller planlægger at bruge anden medicin. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge til råds, før du bruger dette lægemiddel. Det foretrækkes at undgå brugen af Bimzelx under 
+graviditet. Det skyldes, at det ikke vides, hvordan dette lægemiddel vil påvirke barnet. </p>
+<p>Hvis du er en kvinde, der kan blive gravid, skal du bruge prævention, mens du bruger dette 
+lægemiddel og i mindst 17 uger efter din sidste dosis Bimzelx. </p>
+<p>Hvis du ammer eller planlægger at amme, skal du tale med lægen, før du bruger dette lægemiddel. Du 
+og din læge skal beslutte, om du kan amme, mens du bruger Bimzelx. </p>
+<p>Trafik- og arbejdssikkerhed 
+Bimzelx forventes ikke at påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>
+<p>Bimzelx indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take bimzelx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take bimzelx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller sygeplejerskens anvisning. Er du i tvivl, så spørg 
+lægen, sygeplejersken eller apotekspersonalet. </p>
+<p>Hvor meget Bimzelx gives og i hvor lang tid </p>
+<p>Plaque psoriasis 
+Den anbefalede dosis, givet som injektioner under huden (subkutane injektioner) er som følger: </p>
+<ul>
+<li>
+<p>320 mg (givet som to fyldte injektionssprøjter indeholdende 160 mg hver) i uge 0, 4, 8, 12, 16. * Fra uge 16 skal du bruge 320 mg (to fyldte injektionssprøjter indeholdende 160 mg hver) 
+hver 8. uge. Hvis du vejer mere end 120 kg, kan din læge beslutte at fortsætte dine injektioner 
+hver 4. uge fra uge 16. Psoriasisartritis 
+Den anbefalede dosis, givet som en injektion under huden (subkutane injektioner), er som følger: </p>
+</li>
+<li>
+<p>160 mg (givet som én fyldt injektionssprøjte) hver 4. uge. </p>
+</li>
+<li>
+<p>Hvis du har psoriasisartritis med samtidig moderat til svær plaque psoriasis, er den anbefalede 
+dosis den samme som for plaque psoriasis. Efter uge 16 kan lægen tilpasse dine injektioner til 
+160 mg hver 4. uge, afhængigt af dine ledsymptomer. </p>
+</li>
+</ul>
+<p>Aksial spondylartritis, herunder non-radiografisk aksial spondylartritis og ankyloserende spondylitis 
+(radiografisk aksial spondylartritis) 
+Den anbefalede dosis, givet som injektioner under huden (subkutane injektioner), er 160 mg (givet 
+som én fyldt injektionssprøjte) hver 4. uge. </p>
+<p>Hidrosadenitis suppurativa 
+Den anbefalede dosis,  givet som injektioner under huden (subkutane injektioner), er som følger: </p>
+<ul>
+<li>320 mg (givet som to fyldte sprøjter, der hver indeholder 160 mg) hver 2. uge indtil uge 16. * Fra uge 16 skal du bruge 320 mg (to fyldte sprøjter, der hver indeholder 160 mg) hver 4. uge. </li>
+</ul>
+<p>Lægen eller sygeplejersken vil drøfte med dig, om du selv skal injicere lægemidlet. Du må ikke 
+injicere lægemidlet, medmindre du er blevet oplært af en sundhedsperson. En omsorgsperson, der er 
+blevet oplært i det, kan også give dig injektionerne. </p>
+<p>Læs “Brugsanvisningen” bagerst i indlægssedlen, før du injicerer Bimzelx fyldt injektionssprøjte 
+selv. </p>
+<p>Hvis du har brugt for meget Bimzelx 
+Fortæl det til lægen, hvis du har brugt for meget Bimzelx, eller hvis du har injiceret din dosis, tidligere 
+end du skulle. </p>
+<p>Hvis du har glemt at bruge Bimzelx 
+Tal med lægen, hvis du har glemt at injicere en dosis Bimzelx. </p>
+<p>Hvis du holder op med at bruge Bimzelx 
+Tal med lægen, før du holder op med at bruge Bimzelx. Hvis du stopper behandlingen, kan dine 
+symptomer komme tilbage. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Fortæl det straks til din læge eller søg lægehjælp, hvis du oplever nogen af følgende bivirkninger: </p>
+<p>Mulig alvorlig infektion – tegnene kan omfatte: </p>
+<ul>
+<li>
+<p>feber, influenzalignende symptomer, nattesved </p>
+</li>
+<li>
+<p>træthed eller åndenød, vedblivende hoste </p>
+</li>
+<li>
+<p>varm, rød og øm hud eller smertefuldt hududslæt med blærer </p>
+</li>
+</ul>
+<p>Lægen vil vurdere, om du kan fortsætte med at bruge Bimzelx. </p>
+<p>Andre bivirkninger 
+Tal med lægen, apotekspersonalet eller sygeplejersken, hvis du får en eller flere af nedenstående 
+bivirkninger: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>infektioner i de øvre luftveje med symptomer såsom ondt i halsen og tilstoppet næse </li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>trøske i munden eller svælget med symptomer såsom hvide eller gule belægninger; rød eller øm 
+mund og synkesmerter </p>
+</li>
+<li>
+<p>svampeinfektion i huden såsom fodsvamp mellem tæerne </p>
+</li>
+<li>
+<p>ørebetændelser </p>
+</li>
+<li>
+<p>forkølelsessår (herpes simplex-infektioner) </p>
+</li>
+<li>
+<p>maveonde (gastroenteritis) </p>
+</li>
+<li>
+<p>betændte hårsække, der kan ligne bumser </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>kløende, tør hud eller eksemlignende udslæt nogle gange med hævet og rød hud (dermatitis) </p>
+</li>
+<li>
+<p>akne </p>
+</li>
+<li>
+<p>smerte, rødme eller hævelse på injektionsstedet </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>svampeinfektion i skeden og/eller på ydre kønsorganer (vaginal trøske) </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>lavt niveau af hvide blodlegemer (neutropeni) </p>
+</li>
+<li>
+<p>svampeinfektioner i huden og slimhinderne (herunder svamp i spiserøret) </p>
+</li>
+<li>
+<p>udflåd fra øjet med kløe, rødme og hævelse (konjunktivitis) </p>
+</li>
+<li>
+<p>blod i afføringen, mavekramper og smerter, diarré eller vægttab (tegn på tarmproblemer) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store bimzelx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store bimzelx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab mellem 2 °C og 8 °C. Må ikke nedfryses. </p>
+<p>Opbevar de fyldte sprøjter i den originale karton for at beskytte mod lys. </p>
+<p>Bimzelx kan opbevares uden for køleskabet i op til 25 dage. Dette skal være i den ydre karton, ved 
+temperaturer på højst 25 °C og væk fra direkte lys. Brug ikke de fyldte injektionssprøjter efter denne 
+periode. Der er et felt på kartonen, hvor du kan skrive datoen, hvor den blev taget ud af køleskabet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bimzelx indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: bimekizumab. Hver fyldt injektionssprøjte indeholder 160 mg bimekizumab i 1 ml 
+opløsning. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: glycin, natriumacetattrihydrat, iseddikesyre, polysorbat 80, vand til 
+injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Bimzelx er en klar til let opaliserende væske. Væskens farve kan variere fra farveløs til svagt brun-gul. 
+Det leveres i en fyldt injektionssprøjte til engangsbrug med kanylehætte. </p>
+<p>Bimzelx fås i enhedspakninger med 1 eller 2 fyldte injektionssprøjter og i multipakninger 
+med 3 kartoner, hver med 1 fyldt injektionssprøjte, eller i multipakninger med 2 kartoner, hver 
+med 2 fyldte injektionssprøjter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+UCB Pharma S.A. 
+Allée de la Recherche B-1070 Bruxelles, Belgien </p>
+<p>Fremstiller 
+UCB Pharma S.A. 
+Chemin du Foriest 
+B-1420 Braine-l’Alleud, Belgien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:  </p>
+<p>België/Belgique/Belgien 
+UCB Pharma S.A./NV 
+Tél/Tel: + 32 / (0)2 559 92 Lietuva 
+UCB Pharma Oy Finland 
+Tel: + 358 9 2514 4221 (Suomija) </p>
+<p>България 
+Ю СИ БИ България ЕООД 
+Teл.: + 359 (0) 2 962 30<br />
+Luxembourg/Luxemburg 
+UCB Pharma S.A./NV 
+Tél/Tel: + 32 / (0)2 559 92 (Belgique/Belgien) </p>
+<p>Česká republika 
+UCB s.r.o. 
+Tel: + 420 221 773 Magyarország 
+UCB Magyarország Kft. 
+Tel.: + 36-(1) 391 0Danmark 
+UCB Nordic A/S 
+Tlf.: + 45 / 32 46 24<br />
+Malta 
+Pharmasud Ltd. 
+Tel: + 356 / 21 37 64<br />
+Deutschland 
+UCB Pharma GmbH 
+Tel: + 49 /(0) 2173 48 4 
+Nederland 
+UCB Pharma B.V. 
+Tel.: + 31 / (0)76-573 11<br />
+Eesti 
+UCB Pharma Oy Finland 
+Tel: + 358 9 2514 4221 (Soome) </p>
+<p>Norge 
+UCB Nordic A/S 
+Tlf: + 47 / 67 16 5 
+Ελλάδα 
+UCB Α.Ε. 
+Τηλ: + 30 / 2109974 
+Österreich 
+UCB Pharma GmbH 
+Tel: + 43-(0)1 291 80<br />
+España 
+UCB Pharma, S.A. 
+Tel: + 34 / 91 570 34<br />
+Polska 
+UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
+Tel: + 48 22 696 99<br />
+France 
+UCB Pharma S.A. 
+Tél: + 33 / (0)1 47 29 44<br />
+Portugal 
+UCB Pharma (Produtos Farmacêuticos), Lda 
+Tel: + 351 21 302 5Hrvatska 
+Medis Adria d.o.o. 
+Tel: +385 (0) 1 230 34<br />
+Ireland 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37<br />
+România 
+UCB Pharma Romania S.R.L. 
+Tel: + 40 21 300 29<br />
+Slovenija 
+Medis, d.o.o. 
+Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf. 
+Simi: + 354 535 7 
+Slovenská republika 
+UCB s.r.o., organizačná zložka 
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A. 
+Tel: + 39 / 02 300<br />
+Suomi/Finland 
+UCB Pharma Oy Finland 
+Puh/Tel: + 358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ: + 357 22 056 
+Sverige 
+UCB Nordic A/S 
+Tlf: + 46 / (0) 40 294 Latvija 
+UCB Pharma Oy Finland 
+Tel: + 358 9 2514 4221 (Somija) </p>
+<p>United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37  </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel findes på Det Europæiske 
+Lægemiddelagenturs hjemmeside: http://www.ema.europa.eu </p>
+<p>Brugsanvisning </p>
+<p>Læs alle nedenstående instruktioner, før du bruger Bimzelx fyldt injektionssprøjte. </p>
+<p>Oversigt over Bimzelx fyldt injektionssprøjte (se figur A): </p>
+<p>Vigtig information: </p>
+<ul>
+<li>
+<p>Din læge eller sygeplejersken skal vise dig, hvordan du klargør og injicerer Bimzelx med den 
+fyldte injektionssprøjte. Du må ikke injicere dig selv eller en anden person, før du har fået vist, 
+hvordan du injicerer Bimzelx på den rigtige måde. </p>
+</li>
+<li>
+<p>Du og/eller din omsorgsperson bør læse denne brugsanvisning før hver brug af Bimzelx. </p>
+</li>
+<li>
+<p>Ring til din læge eller sygeplejersken, hvis du eller din omsorgsperson har spørgsmål om, 
+hvordan du injicerer Bimzelx på den rigtige måde. </p>
+</li>
+<li>
+<p>Afhængigt af din ordinerede dosis, skal du bruge 1 eller 2 Bimzelx fyldt(e) 
+injektionssprøjte(r). Du skal bruge 1 fyldt injektionssprøjte til en dosis på 160 mg og 2 fyldte 
+injektionssprøjter (den ene efter den anden) til en dosis på 320 mg. </p>
+</li>
+<li>
+<p>Bimzelx fyldt injektionssprøjte har en kanylesikkerhedsfunktion. Den vil automatisk dække 
+kanylen, når injektionen er fuldført. Kanylesikkerhedsfunktionen vil hjælpe med at forhindre 
+nåleskader hos personer, som håndterer den fyldte injektionssprøjte efter injektion. </p>
+</li>
+</ul>
+<p>Brug ikke dette lægemiddel, og returner det til apoteket eller hospitalet, hvis: </p>
+<ul>
+<li>
+<p>udløbsdatoen (EXP) er overskredet. </p>
+</li>
+<li>
+<p>kartonforseglingen er brudt. </p>
+</li>
+<li>
+<p>den fyldte injektionssprøjte er blevet tabt eller ser beskadiget ud. </p>
+</li>
+<li>
+<p>opløsningen på noget tidspunkt har været frossen (selv efter optøning). </p>
+</li>
+</ul>
+<p>For at gøre injektionen mere behagelig: Tag den/de fyldte injektionssprøjte(r) med Bimzelx ud af 
+køleskabet og lad den/dem stå på en flad overflade ved stuetemperatur i 30 til 45 minutter før 
+injektion. </p>
+<ul>
+<li>
+<p>Må ikke opvarmes på nogen anden måde, såsom i en mikrobølgeovn eller i varmt vand. </p>
+</li>
+<li>
+<p>Undlad at ryste den/de fyldte injektionssprøjte(r). </p>
+</li>
+<li>
+<p>Tag ikke hætten af den/de fyldte injektionssprøjte(r), før du er klar til at injicere. </p>
+</li>
+</ul>
+<p>Kanylehætte 
+Sprøjtecylinder 
+Stempelstang 
+Kanyle 
+Fingergreb 
+Stempelhoved 
+A 
+Følg nedenstående trin, hver gang du bruger Bimzelx. </p>
+<p>Trin 1: Klargøring til din/dine injektion(er) </p>
+<p>Anbring følgende genstande, afhængigt af din ordinerede dosis, på en ren, flad, veloplyst 
+arbejdsflade, som f.eks. et bord: </p>
+<ul>
+<li>1 eller 2 Bimzelx fyldt(e) injektionssprøjte(r) </li>
+</ul>
+<p>Du skal også bruge (ikke vedlagt i kartonen): </p>
+<ul>
+<li>
+<p>1 eller 2 spritserviet(ter) </p>
+</li>
+<li>
+<p>1 eller 2 ren(e) vatkugle(r) </p>
+</li>
+<li>
+<p>1 beholder til skarpe genstande. Se “Bortskaf den brugte Bimzelx fyldte injektionssprøjte” i 
+slutningen af denne brugsanvisning. </p>
+</li>
+</ul>
+<p>Trin 2: Vælg injektionssted og klargør din injektion </p>
+<p>2a: Vælg dit injektionssted </p>
+<ul>
+<li>
+<p>De steder, du kan vælge til din injektion, er: * din mave eller dit lår (se figur B). * bagsiden af din arm kan også bruges, hvis en omsorgsperson giver dig injektionen (se 
+figur C). </p>
+</li>
+<li>
+<p>Injicer ikke i områder, hvor huden er øm, rød, hård, skaller, har blå mærker eller strækmærker, 
+eller ar. </p>
+</li>
+<li>
+<p>Undlad at injicere inden for 5 cm fra navlen. </p>
+</li>
+<li>
+<p>Hvis der er behov for endnu en injektion til din ordinerede dosis (320 mg), skal du bruge et nyt 
+sted til din anden injektion. Brug ikke det samme sted til injektion to gange i træk. </p>
+</li>
+</ul>
+<p>2b: Vask hænderne godt med sæbe og vand, og tør dem med et rent håndklæde </p>
+<p>2c: Klargør din hud </p>
+<ul>
+<li>Rengør injektionsstedet med en spritserviet. Lad området tørre helt. Rør ikke det rengjorte 
+område igen inden injektionen. </li>
+</ul>
+<p>Mave eller 
+lår 
+B 
+Bagsiden af 
+armen 
+C 
+2d: Kontrollér den fyldte injektionssprøjte (se figur D) </p>
+<ul>
+<li>
+<p>Kontrollér, at navnet Bimzelx og udløbsdatoen står på etiketten. </p>
+</li>
+<li>
+<p>Tjek lægemidlet gennem kontrolvinduet. Lægemidlet skal være klart til let opaliserende og uden 
+partikler. Væskens farve kan variere fra farveløs til svagt brun-gul. Du vil muligvis se luftbobler 
+i væsken. Det er normalt. </p>
+</li>
+<li>
+<p>Brug ikke Bimzelx fyldt injektionssprøjte, hvis lægemidlet er uklart, misfarvet eller indeholder 
+partikler. </p>
+</li>
+</ul>
+<p>Trin 3: Injicér Bimzelx </p>
+<p>3a: Tag kanylehætten af den fyldte injektionssprøjte </p>
+<ul>
+<li>Hold i fingergrebet på den fyldte injektionssprøjte med den ene hånd. Træk hætten lige af den 
+fyldte injektionssprøjte med den anden hånd (se figur E). Du vil muligvis se en dråbe væske på 
+spidsen af kanylen, hvilket er normalt. </li>
+<li>Du må ikke røre ved kanylen eller lade kanylen røre nogen overflade. * 
+Hold ikke på stempelstangen, når du tager hætten af. Hvis du ved et uheld fjerner 
+stempelstangen, skal du smide den fyldte injektionssprøjte i beholderen til skarpe 
+genstande og tage en ny. * 
+Du må ikke sætte kanylehætten på igen. Hvis du gør det, kan du beskadige kanylen eller 
+stikke dig selv ved et uheld. </li>
+</ul>
+<p>3b: Klem forsigtigt og hold med den ene hånd en hudfold, som du rengjorde til injektionen. Med 
+den anden hånd føres kanylen ind i huden i en vinkel på ca. 45 grader </p>
+<ul>
+<li>Skub kanylen helt ind. Slip derefter forsigtigt din hud. Sørg for, at kanylen er på plads (se 
+figur F). </li>
+</ul>
+<p>Udløbsdato 
+D 
+E 
+F 
+45° </p>
+<p>3c: Tryk stemplet helt ned, indtil al medicinen er injiceret (se figur G) </p>
+<ul>
+<li>Al medicinen er injiceret, når du ikke kan skubbe stempelhovedet længere (se figur H). </li>
+</ul>
+<p>3d: Flyt tommelfingeren fra stempelhovedet (se figur I). Kanylen vil automatisk trække sig 
+tilbage og låses på plads </p>
+<ul>
+<li>Tryk en tør vatkugle mod injektionsstedet i et par sekunder. Gnid ikke på injektionsstedet. Du 
+vil muligvis se lidt blod eller en dråbe væske. Det er normalt. Du kan dække injektionsstedet 
+med et lille plaster om nødvendigt. </li>
+</ul>
+<p>Trin 4: Kassér den brugte Bimzelx fyldte injektionssprøjte </p>
+<p>Læg den brugte fyldte injektionssprøjte i en beholder til skarpe genstande straks efter brug (se 
+figur J). </p>
+<p>Hvis du skal have en injektion mere, som ordineret af din læge, skal du bruge en ny Bimzelx 
+fyldt injektionssprøjte og gentage trin 2 til 4. Sørg for at vælge et nyt injektionssted til din anden injektion. </p>
+<p>G 
+H 
+I 
+J 
+Indlægsseddel: Information til brugeren </p>
+<p>Bimzelx 160 mg injektionsvæske, opløsning i fyldt pen 
+bimekizumab </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan nye sikkerhedsoplysninger 
+hurtigt tilvejebringes. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i punkt 4, 
+hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-28d78e4ecee5ce96f67160a74729d480
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bimzelx Package Leaflet for language en"
+Description: "ePI document Bundle for bimzelx Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-28d78e4ecee5ce96f67160a74729d480"
+* entry[0].resource = composition-en-28d78e4ecee5ce96f67160a74729d480
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp28d78e4ecee5ce96f67160a74729d480"
+* entry[=].resource = mp28d78e4ecee5ce96f67160a74729d480
+                            
+                    
+Instance: bundlepackageleaflet-da-28d78e4ecee5ce96f67160a74729d480
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bimzelx Package Leaflet for language da"
+Description: "ePI document Bundle for bimzelx Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-28d78e4ecee5ce96f67160a74729d480"
+* entry[0].resource = composition-da-28d78e4ecee5ce96f67160a74729d480
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp28d78e4ecee5ce96f67160a74729d480"
+* entry[=].resource = mp28d78e4ecee5ce96f67160a74729d480
+                            
+                    
+
+
+
+Instance: mp28d78e4ecee5ce96f67160a74729d480
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Bimzelx 160 mg solution for injection in pre-filled syringe"
-Description: "Bimzelx 160 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product bimzelx"
+Description: "bimzelx"
 Usage: #inline
 
  
@@ -503,7 +1236,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Bimzelx 160 mg solution for injection in pre-filled syringe"
+  * productName = "bimzelx"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -530,29 +1263,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-28d78e4ecee5ce96f67160a74729d480
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for bimzelx Package Leaflet for language en"
-Description: "ePI document Bundle for bimzelx Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 28d78e4ecee5ce96f67160a74729d480ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Bimzelx 160 mg solution for injection in pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "bimzelx"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-28d78e4ecee5ce96f67160a74729d480"
-* entry[0].resource = composition-en-28d78e4ecee5ce96f67160a74729d480
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp78ca7d487eaac4c57c91fac7cec2c47c"
-* entry[=].resource = mp78ca7d487eaac4c57c91fac7cec2c47c
-                            
-                      
+* title = "List of all ePIs associated with bimzelx"
+
+* subject = Reference(mp78ca7d487eaac4c57c91fac7cec2c47c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#bimzelx "bimzelx"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-28d78e4ecee5ce96f67160a74729d480) // bimzelx en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-28d78e4ecee5ce96f67160a74729d480) // bimzelx da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-28d78e4ecee5ce96f67160a74729d480
+InstanceOf: List
+
+* insert 28d78e4ecee5ce96f67160a74729d480ListRuleset
+    

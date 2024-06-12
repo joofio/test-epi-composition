@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-ee6aef82d41445c7c0958abae70ec0df
 InstanceOf: CompositionUvEpi
 Title: "Composition for repaglinide Package Leaflet"
@@ -262,12 +265,382 @@ throw away medicines you no longer use. These measures will help protect the env
 
 
 
+Instance: composition-da-ee6aef82d41445c7c0958abae70ec0df
+InstanceOf: CompositionUvEpi
+Title: "Composition for repaglinide Package Leaflet"
+Description:  "Composition for repaglinide Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb7ecd89126619e166f27bc17754463ce)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb7ecd89126619e166f27bc17754463ce
+* title = "TEST PURPOSES ONLY - repaglinide"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Repaglinide Krka
+3. Sådan skal du tage Repaglinide Krka
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What repaglinide is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What repaglinide is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Repaglinide Krka er en tablet, som indeholder repaglinid, til behandling af sukkersyge til oral
+anvendelse, som får bugspytkirtlen til at producere mere insulin og derved sænker dit blodsukker 
+(glukose).
+Type-2 diabetes er en sygdom, hvor bugspytkirtlen ikke producerer tilstrækkelig insulin til at regulere 
+dit blodsukker, eller hvor din krop ikke reagerer normalt på insulinet, den producerer.
+Repaglinide Krka bruges til behandling af type 2-diabetes hos voksne som et supplement til kost og 
+motion: Behandling påbegyndes normalt, hvis diæt, motion og vægttab alene ikke har været 
+tilstrækkeligt til at regulere (eller reducere) blodsukkeret.
+Repaglinide Krka kan også ordineres sammen med metformin, et andet lægemiddel mod sukkersyge.
+Repaglinide Krka er i stand til at sænke blodsukkeret, hvilket kan hjælpe med til at forhindre 
+komplikationer forårsaget af sukkersyge.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take repaglinide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take repaglinide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Repaglinide Krka
+
+Hvis du er allergisk over for repaglinid eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i  punkt 6).
+
+Hvis du har type 1-diabetes.
+
+Hvis syreniveauet i dit blod er forhøjet (diabetisk ketoacidose).
+
+Hvis du har en alvorlig leversygdom.
+
+Hvis du tager gemfibrozil (et lægemiddel der anvendes til at sænke kolesterolniveauet i blodet).
+28
+Advarsler og forsigtighedsregler 
+Kontakt lægen før du tager Repaglinide Krka. 
+
+Hvis du har problemer med din lever. Repaglinide Krka anbefales ikke til patienter med 
+moderat leversygdom. Du må ikke tage Repaglinide Krka, hvis du har en alvorlig leversygdom 
+(se Tag ikke Repaglinide Krka)
+
+Hvis du har problemer med dine nyrer. Repaglinide Krka skal tages med forsigtighed.
+
+Hvis du står over for en stor operation eller lige har overstået en alvorlig sygdom eller 
+infektion. I sådanne tilfælde kan diabetesreguleringen muligvis gå tabt.
+
+Hvis du er under 18 år eller over 75 år gammel, anbefales det ikke at tage Repaglinide Krka, 
+da der ikke er lavet studier med disse aldersgrupper.
+Fortæl det til din læge, hvis noget af ovennævnte gælder for dig. Repaglinide Krka er måske ikke den 
+rigtige løsning for dig. Lægen vil rådgive dig.
+Børn og teenagere 
+Tag ikke dette lægemiddel hvis du er under 18 år.
+Hvis du får hypoglykæmi (lavt blodsukker)
+Du kan få hypoglykæmi, hvis dit blodsukker bliver for lavt. Dette kan ske:
+
+Hvis du tager for mange Repaglinide Krka
+
+Hvis du motionerer mere end normalt
+
+Hvis du tager anden medicin eller lider af lever- eller nyreproblemer (se andre afsnit under 
+punkt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take repaglinide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take repaglinide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Advarselstegn på hypoglykæmi kan opstå pludseligt og kan medføre: koldsved, kold bleg hud,
+hovedpine, hjertebanken, kvalme, stærk fornemmelse af sult, midlertidige synsændringer, døsighed,
+usædvanlig træthed og svaghed, nervøsitet eller rysten, følelse af uro, forvirring,
+koncentrationsbesvær.
+Hvis dit blodsukker er lavt, eller hvis du mærker symptomer på begyndende hypoglykæmi: spis 
+glucosetabletter, tag en snack eller drik noget med et højt sukkerindhold. Hvil derefter.
+Når symptomerne på hypoglykæmi er forsvundet og blodsukkerniveauet er stabiliseret, kan du
+fortsætte behandlingen med repaglinid.
+Fortæl din omgangskreds at du har sukkersyge, og at du - hvis du mister bevidstheden 
+(besvimer) på grund af hypoglykæmi - skal vendes om på siden, og der straks skal tilkaldes lægehjælp. 
+Du må ikke få mad eller drikke, da du kan blive kvalt.
+Hvis alvorlig hypoglykæmi ikke behandles, kan det forårsage hjerneskade (midlertidig eller
+permanent) og endog død.
+Hvis du har hypoglykæmi som får dig til at besvime, eller hvis du har mange tilfælde af
+hypoglykæmi, skal du tale med din læge. Mængden af Repaglinide Krka, mad eller motion skal
+muligvis justeres.
+Hvis dit blodsukker bliver for højt
+Dit blodsukker kan blive for højt (hyperglykæmi). Dette kan ske:
+
+Hvis du har taget for få Repaglinide Krka,
+
+Hvis du har en infektion eller feber,
+
+Hvis du spiser mere end normalt,
+
+Hvis du motionerer mindre end normalt.
+Advarselstegnene på for højt blodsukker optræder gradvist. De inkluderer: øget vandladningstrang; 
+tørstfornemmelse, tør hud og tør mund. Tal med din læge da mængden af Repaglinide Krka, mad eller 
+motion muligvis skal justeres.
+Brug af anden medicin sammen med Repaglinide Krka
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin.
+29
+Du kan tage Repaglinide Krka sammen med metformin, et andet lægemiddel mod sukkersyge, hvis din 
+læge ordinerer det.
+Hvis du tager gemfibrozil (anvendes til at sænke kolesterolniveauet i blodet), må du ikke tage
+Repaglinide Krka.
+Din krops reaktion på Repaglinide Krka kan ændres, hvis du tager anden medicin, især følgende:
+
+Monoaminooxidasehæmmere eller MAO-hæmmere (mod depression).
+
+Betablokkere (mod forhøjet blodtryk eller hjertelidelser).
+
+ACE-hæmmere (mod hjertelidelser).
+
+Salicylater (f.eks. aspirin).
+
+Oktreotid (mod kræft).
+
+Nonsteroide antiinflammatoriske midler (NSAID) (en gruppe af smertestillende midler).
+
+Steroider (anaboliske steroider og kortikosteroider - mod blodmangel eller mod inflammation).
+
+Orale kontraceptiva (p-piller).
+
+Thiazider (vanddrivende tabletter).
+
+Danazol (mod brystcyster og endometriose).
+
+Thyreoideapræparater (mod lavt niveau af skjoldbruskkirtlens hormoner).
+
+Sympatomimetika (mod astma).
+
+Clarithromycin, trimethoprim, rifampicin (antibiotiske lægemidler).
+
+Itraconazol, ketokonazol (svampehæmmende lægemidler).
+
+Gemfibrozil (mod kolesterol blodet).
+
+Ciclosporin (anvendes til at undertrykke immunsystemet).
+
+Deferasirox (anvendes til at mindske kronisk jernoverskud).
+
+Clopidogrel (forebygger blodpropper).
+
+Phenytoin, carbamazepin, phenobarbital (mod epilepsi).
+
+Perikum (naturlægemiddel).
+Brug af Repaglinide Krka sammen med alkohol
+Alkohol kan ændre den virkning, som Repaglinide Krka har til at sænke blodsukkeret. Vær 
+opmærksom på hypoglykæmiske tegn.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Du må ikke tage Repaglinide Krka, hvis du er gravid eller planlægger at blive det.
+Du må ikke tage Repaglinide Krka, hvis du ammer.
+Trafik- og arbejdssikkerhed
+Din evne til at køre bil, motorcykel eller cykle samt arbejde med maskiner, kan muligvis være 
+påvirket, hvis dit blodsukker er for lavt eller for højt. Husk, at du kan bringe dig selv og andre i fare. 
+Spørg venligst din læge om du kan køre bil, hvis du:
+
+Ofte har hypoglykæmi
+
+Har få eller ingen advarselstegn på hypoglykæmi.
+Repaglinide Krka indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+30
+Lægen vil bestemme din dosis.
+
+Den sædvanlige startdosis er 0,5 mg før hvert hovedmåltid. Tabletterne sluges sammen med et 
+glas vand før eller op til 30 minutter før hvert hovedmåltid.
+
+Dosis kan justeres af lægen med op til 4 mg, som skal tages umiddelbart før eller op til minutter før hvert hovedmåltid. Den højeste anbefalede daglige dosis er 16 mg.
+Tag aldrig en større mængde Repaglinide Krka, end lægen har anbefalet.
+Hvis du har taget for meget Repaglinide Krka
+Hvis du tager for mange tabletter, kan det sænke blodsukkerniveauet for meget og medføre 
+hypoglykæmi. Se venligst Hvis du får hypoglykæmi (lavt blodsukker) med hensyn til hvad 
+hypoglykæmi er og hvordan det behandles.
+Hvis du har glemt at tage Repaglinide Krka
+Hvis du glemmer at tage en dosis, skal du tage den næste dosis som sædvanligt.
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du stopper med at tage Repaglinide Krka
+Vær opmærksom på, at den ønskede virkning ikke opnås, hvis du stopper med at tage Repaglinide 
+Krka. Din diabetes kan muligvis forværres. Hvis det er nødvendigt at ændre din behandling, skal du
+først kontakte din læge.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store repaglinide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store repaglinide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Hypoglykæmi
+Hypoglykæmi er den mest almindelige bivirkning og kan forekomme hos mellem 1 og 10 ud af personer (se Hvis du får hypoglykæmi (lavt blodsukker) under punkt 2). Hypoglykæmiske reaktioner er 
+sædvanligvis milde til moderate, men kan i nogle tilfælde udvikle sig til hypoglykæmisk bevidstløshed 
+eller koma. Hvis dette sker, har du brug for øjeblikkelig lægehjælp.
+Allergi
+Allergi er meget sjældent (kan forekomme hos færre end 1 ud af 10.000 personer). Symptomer såsom 
+hævelse, vejrtrækningsbesvær, hjertebanken, svimmelhed, svedeture, kan være tegn på en anafylaktisk 
+reaktion. Kontakt straks en læge.
+Andre bivirkninger
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer):
+
+Mavesmerter
+
+Diarré.
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer):
+
+Akut koronarsyndrom (men det behøver ikke være forårsaget af lægemidlet).
+Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 personer):
+
+Opkastning
+
+Forstoppelse
+
+Synsforstyrrelser
+
+Alvorlige leverproblemer, unormal leverfunktion, såsom stigning af leverenzymer i blodet.
+Ikke kendt (kan ikke estimeres ud fra tilgængeligt data):
+31
+
+Hypersensitivitet (såsom udslæt, kløe, rødmen, hævelse af huden)
+
+Kvalme.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen og den ydre æske. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares i den originale yderpakning for at beskytte mod lys.
+Spørg apotekspersonalet hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-ee6aef82d41445c7c0958abae70ec0df
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for repaglinide Package Leaflet for language en"
+Description: "ePI document Bundle for repaglinide Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ee6aef82d41445c7c0958abae70ec0df"
+* entry[0].resource = composition-en-ee6aef82d41445c7c0958abae70ec0df
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpee6aef82d41445c7c0958abae70ec0df"
+* entry[=].resource = mpee6aef82d41445c7c0958abae70ec0df
+                            
+                    
+Instance: bundlepackageleaflet-da-ee6aef82d41445c7c0958abae70ec0df
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for repaglinide Package Leaflet for language da"
+Description: "ePI document Bundle for repaglinide Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-ee6aef82d41445c7c0958abae70ec0df"
+* entry[0].resource = composition-da-ee6aef82d41445c7c0958abae70ec0df
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpee6aef82d41445c7c0958abae70ec0df"
+* entry[=].resource = mpee6aef82d41445c7c0958abae70ec0df
+                            
+                    
+
+
+
+Instance: mpee6aef82d41445c7c0958abae70ec0df
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Repaglinide Krka 0.5 mg tablets"
-Description: "Repaglinide Krka 0.5 mg tablets"
+Title: "Medicinal Product repaglinide"
+Description: "repaglinide"
 Usage: #inline
 
  
@@ -287,7 +660,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Repaglinide Krka 0.5 mg tablets"
+  * productName = "repaglinide"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -314,29 +687,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-ee6aef82d41445c7c0958abae70ec0df
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for repaglinide Package Leaflet for language en"
-Description: "ePI document Bundle for repaglinide Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: ee6aef82d41445c7c0958abae70ec0dfListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Repaglinide Krka 0.5 mg tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "repaglinide"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-ee6aef82d41445c7c0958abae70ec0df"
-* entry[0].resource = composition-en-ee6aef82d41445c7c0958abae70ec0df
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb7ecd89126619e166f27bc17754463ce"
-* entry[=].resource = mpb7ecd89126619e166f27bc17754463ce
-                            
-                      
+* title = "List of all ePIs associated with repaglinide"
+
+* subject = Reference(mpb7ecd89126619e166f27bc17754463ce)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#repaglinide "repaglinide"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-ee6aef82d41445c7c0958abae70ec0df) // repaglinide en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-ee6aef82d41445c7c0958abae70ec0df) // repaglinide da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-ee6aef82d41445c7c0958abae70ec0df
+InstanceOf: List
+
+* insert ee6aef82d41445c7c0958abae70ec0dfListRuleset
+    

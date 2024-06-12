@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-ba96fb9c0ed4979439bd80d6bde4ba94
 InstanceOf: CompositionUvEpi
 Title: "Composition for caelyx Package Leaflet"
@@ -458,12 +461,591 @@ Tel: +44 (0)1635 206This leaflet was last approved on </p>
 
 
 
+Instance: composition-da-ba96fb9c0ed4979439bd80d6bde4ba94
+InstanceOf: CompositionUvEpi
+Title: "Composition for caelyx Package Leaflet"
+Description:  "Composition for caelyx Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4ce1684f43c4f0c57721c707f502c6bc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4ce1684f43c4f0c57721c707f502c6bc
+* title = "TEST PURPOSES ONLY - caelyx"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Caelyx pegylated liposomal 
+3. Sådan skal du bruge Caelyx pegylated liposomal 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What caelyx is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What caelyx is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Caelyx pegylated liposomal er et lægemiddel mod tumorer/svulster. </p>
+<p>Caelyx pegylated liposomal anvendes til at behandle cancer i brystet hos patienter med risiko for 
+hjerteproblemer. Caelyx pegylated liposomal anvendes også til at behandle cancer i æggestokkene. 
+Det anvendes til at dræbe kræftcellerne, formindske størrelsen af tumoren, forsinke væksten af 
+tumoren og forlænge din overlevelse. </p>
+<p>Caelyx pegylated liposomal anvendes også i kombination med et andet lægemiddel, bortezomib, til 
+behandling af myelomatose (en kræfttype, der kan forekomme i blodet) hos patienter, der har fået 
+mindst 1 tidligere behandling. </p>
+<p>Caelyx pegylated liposomal anvendes også til at give en forbedring af Kaposis sarkom blandt andet 
+ved lindring, lettelse og endog formindskelse af canceren. Andre symptomer på Kaposis sarkom, 
+såsom hævelse omkring tumor, kan også forbedres eller forsvinde. </p>
+<p>Caelyx pegylated liposomal indeholder et lægemiddel, der kan påvirke kroppens celler på en sådan 
+måde, at fortrinsvis kræftceller bliver dræbt. Doxorubicinhydrochlorid i Caelyx pegylated liposomal er 
+indkapslet i fine dråber, der kaldes pegylerede liposomer, der hjælper med at bringe medicinen fra 
+blodbanen til cancervævet i højere grad end til sundt, normalt væv. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take caelyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take caelyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Caelyx pegylated liposomal 
+- hvis du er allergisk over for doxorubicinhydrochlorid, jordnødder eller soja eller et af 
+indholdsstofferne i dette lægemiddel (angivet i afsnit 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Fortæl det til lægen eller apotekspersonalet, hvis noget af følgende passer på dig:</p>
+<ul>
+<li>hvis du er i nogen form for behandling af hjerte- eller leversygdom. </li>
+<li>hvis du har sukkersyge, idet Caelyx pegylated liposomal indeholder sukker hvilket kan 
+nødvendiggøre en ændring af din sukkersygebehandling. </li>
+<li>hvis du har Kaposis sarkom, og du har fået fjernet din milt. </li>
+<li>hvis du bemærker sår, misfarvning eller andre gener i munden. </li>
+</ul>
+<p>Tilfælde af interstitiel lungesygdom er observeret hos patienter, der får pegyleret liposomal 
+doxorubicin, herunder tilfælde med dødelig udgang. Symptomerne på interstitiel lungesygdom er 
+hoste og åndenød, sommetider med feber, som ikke skyldes fysisk aktivitet. Søg straks lægehjælp, hvis 
+du oplever symptomer, som kan være tegn på interstitiel lungesygdom. </p>
+<p>Børn og unge 
+Caelyx pegylated liposomal må ikke anvendes til børn og unge, da det ikke vides, hvordan medicinen 
+vil påvirke dem. </p>
+<p>Brug af anden medicin sammen med Caelyx pegylated liposomal 
+Fortæl altid lægen eller apotekspersonalet 
+- hvis du bruger anden medicin eller for nylig har brugt anden medicin. Dette gælder også 
+medicin, som ikke er købt på recept. 
+- om enhver anden medicin mod kræft, du tager eller har taget, idet særlige hensyn skal tages ved 
+behandlinger, som reducerer antallet af hvide blodlegemer, da det kan forårsage yderligere 
+reduktion i antallet af hvide blodlegemer. Hvis du er i tvivl om, hvilke behandlinger du har fået, 
+eller hvilke sygdomme du har haft, bør du tale med din læge. </p>
+<p>Graviditet og amning 
+Spørg din læge eller apotekspersonalet til råds, inden du tager nogen form for medicin. </p>
+<p>Da det aktive stof doxorubicinhydrochlorid i Caelyx pegylated liposomal kan forårsage misdannelser, 
+er det vigtigt at fortælle din læge, hvis du tror, du er gravid. 
+Kvinder skal undgå at blive gravide og skal anvende prævention, mens de tager Caelyx pegylated 
+liposomal, samt i otte måneder efter afslutning af behandlingen med Caelyx pegylated liposomal. 
+Mænd skal anvende prævention, mens de tager Caelyx pegylated liposomal, samt i seks måneder efter 
+afslutning af behandlingen med Caelyx pegylated liposomal, så deres partner ikke bliver gravid. 
+Da det aktive stof doxorubicinhydrochlorid i Caelyx pegylated liposomal kan være skadeligt for børn 
+der ammes, skal kvinder ophøre med amning før start af behandling med Caelyx pegylated liposomal. 
+Sundhedseksperter anbefaler, at hiv-smittede kvinder ikke ammer deres spædbørn under nogen 
+omstændigheder for at undgå overførsel af hiv. </p>
+<p>Trafik- og arbejdssikkerhed 
+Kør ikke bil og betjen ikke værktøj eller maskiner, hvis du føler dig træt eller søvnig af behandling 
+med Caelyx pegylated liposomal. </p>
+<p>Caelyx pegylated liposomal indeholder sojaolie og natrium 
+Caelyx pegylated liposomal indeholder sojaolie. Du må ikke bruge Caelyx pegylated liposomal, hvis 
+du er overfølsom over for jordnødder eller soja. 
+Caelyx pegylated liposomal indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take caelyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take caelyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Caelyx pegylated liposomal er en unik formulering. Det må ikke ombyttes med andre formuleringer af 
+doxorubicinhydrochlorid. </p>
+<p>Så meget Caelyx pegylated liposomal vil du få 
+Hvis du behandles for brystcancer eller ovariecancer, vil Caelyx pegylated liposomal blive givet i en 
+dosis på 50 mg per kvadratmeter af din legemsoverfladeareal (baseret på din højde og vægt). Dosen 
+gentages hver fjerde uge så længe sygdommen ikke tiltager og du tåler behandlingen. </p>
+<p>Hvis du behandles for myelomatose og allerede har modtaget mindst 1 tidligere behandling, vil Caelyx 
+pegylated liposomal blive givet i en dosis på 30 mg per kvadratmeter af din legemsoverfladeareal 
+(baseret på din højde og vægt). Caelyx pegylated liposomal gives straks efter bortezomibinfusionen 
+som en 1-times intravenøs infusion på dag 4 i 3-ugers behandlingen. Dosis gentages så længe du 
+reagerer tilfredsstillende og tolererer behandlingen. </p>
+<p>Hvis du behandles for Kaposis sarkom, vil Caelyx pegylated liposomal blive givet i en dosis på 20 mg 
+per kvadratmeter af din legemsoverfladeareal (baseret på din højde og vægt). Dosis gentages 
+hver 2. til 3. uge i 2 - 3 måneder og herefter så hyppigt, som det er nødvendigt for at opretholde en 
+bedring i din tilstand. </p>
+<p>Sådan vil du få Caelyx pegylated liposomal 
+Caelyx pegylated liposomal vil blive givet af din læge direkte i en vene gennem et drop (som 
+infusion). Afhængigt af dosis og indikation kan dette tage fra 30 minutter til over en time (dvs. 
+90 minutter). </p>
+<p>Hvis du har fået for meget Caelyx pegylated liposomal 
+Akut overdosering forværrer bivirkninger som sår i munden eller fald i antallet af hvide blodlegemer 
+og blodplader i blodet. Behandling vil omfatte indgift af antibiotika, transfusioner med blodplader, 
+anvendelse af faktorer som stimulerer produktionen af hvide blodlegemer og symptomatisk behandling 
+af mundsår. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Under infusion af Caelyx pegylated liposomal kan følgende reaktioner forekomme:</p>
+<ul>
+<li>alvorlig allergisk reaktion, som kan omfatte hævelser i ansigt, læber, mund, tunge eller svælg, 
+synke- eller vejrtrækningsbesvær, kløende udslæt (nældefeber) </li>
+<li>betændte og forsnævrede luftveje i lungerne, som medfører hoste, hiven efter vejret og åndenød 
+(astma) </li>
+<li>rødme, svedtendens, kulderystelser eller feber </li>
+<li>smerter eller ubehag i brystkassen </li>
+<li>rygsmerter </li>
+<li>højt eller lavt blodtryk </li>
+<li>hurtig hjerterytme </li>
+<li>anfald (kramper) </li>
+</ul>
+<p>Injektionsvæsken kan lække fra venerne til vævet under huden. Hvis droppet svier eller gør ondt, mens 
+du får en dosis Caelyx pegylated liposomal, skal du straks fortælle lægen herom. </p>
+<p>Kontakt straks din læge, hvis du bemærker nogen af følgende alvorlige bivirkninger:</p>
+<ul>
+<li>feber, træthed eller tegn på blå mærker eller blødning (meget almindeligt) </li>
+<li>rødme, hævelser, afskalning eller ømhed, primært på hænder eller fødder ("hånd-fod"-syndrom). 
+Disse reaktioner er set meget almindeligt og er sommetider alvorlige. I alvorlige tilfælde kan 
+disse reaktioner indvirke på visse daglige aktiviteter, og de kan vare i 4 uger eller længere før 
+komplet helbredelse. Lægen kan ønske at udsætte påbegyndelsen og/eller reducere dosis af den 
+næste behandling (se Strategier for at modvirke og behandle hånd-fod-syndrom nedenfor). </li>
+<li>sår i munden, kraftig diarré eller opkastning eller kvalme (meget almindeligt) </li>
+<li>infektioner (almindeligt), herunder lungebetændelse (pneumoni) eller infektioner, som kan 
+påvirke synet </li>
+<li>åndenød (almindeligt) </li>
+<li>kraftige mavesmerter (almindeligt) </li>
+<li>udtalt svaghed (almindeligt) </li>
+<li>alvorlig allergisk reaktion, som kan omfatte hævelser i ansigt, læber, mund, tunge eller svælg, 
+synke- eller vejrtrækningsbesvær, kløende udslæt (nældefeber) (ikke almindeligt) </li>
+<li>hjertestop (hjertet holder op med at slå), hjertesvigt, hvor hjertet ikke pumper nok blod rundt til 
+resten af kroppen, som medfører åndenød og kan medføre hævede ben (ikke almindeligt) </li>
+<li>en blodprop, som vandrer til lungerne, hvilket medfører brystsmerter og åndenød (ikke 
+almindeligt) </li>
+<li>hævelse, varme eller ømhed i det bløde væv på dine ben, nogle gange med smerter, der bliver 
+værre, når du står eller går (sjældent) </li>
+<li>alvorligt eller livstruende udslæt med blærer og afskalning af huden, især omkring mund, næse, 
+øjne og kønsdele (Stevens-Johnsons syndrom) eller over det meste af kroppen (toksisk 
+epidermal nekrolyse) (sjældent) </li>
+</ul>
+<p>Andre bivirkninger 
+Mellem infusioner kan følgende forekomme: </p>
+<p>Meget almindelige bivirkninger (kan berøre flere end 1 ud af 10 personer) 
+- nedsat antal hvide blodlegemer, hvilket kan øge risikoen for infektioner. I sjældne tilfælde kan 
+lavt antal hvide blodlegemer medføre alvorlig infektion. Anæmi (reduktion af røde 
+blodlegemer) kan forårsage træthed, og fald i blodplader kan give øget risiko for blødninger. 
+Det er pga. de mulige ændringer i dine blodtal, at du skal have taget regelmæssige blodprøver. 
+- appetitløshed 
+- forstoppelse 
+- hududslæt, herunder hudrødme, allergisk hududslæt, rødt eller hævet udslæt på huden 
+- hårtab 
+- smerter, herunder i muskler og brystmuskler, led, arme eller ben 
+- udtalt træthed </p>
+<p>Almindelige bivirkninger (kan berøre op til 1 ud af 10 personer) 
+- infektioner, herunder alvorlig infektion i hele kroppen (blodforgiftning/sepsis), 
+lungebetændelse, helvedesild (infektion med herpes zoster-virus), en type bakterieinfektion 
+(infektion med mycobacterium avium complex), urinvejsinfektion, svampeinfektioner (herunder 
+trøske), infektion i hårrødderne, halsbetændelse eller irritation i svælget, infektion i næsen, 
+bihulerne eller svælget (forkølelse) 
+- et lavt antal af en type hvide blodlegemer (neutrofiler) ledsaget af feber 
+- kraftigt vægt- og muskeltab, ikke nok vand i kroppen (dehydrering), lavt indhold af kalium, 
+natrium eller calcium i blodet 
+- forvirring, angst, depression, søvnbesvær 
+- nerveskade, som kan medføre prikken, følelsesløshed, smerter eller manglende smertesans, 
+nervesmerter, en usædvanlig fornemmelse i huden (såsom en prikkende eller kriblende 
+fornemmelse), nedsat følesans eller følsomhed, især i huden 
+- ændret smagssans, hovedpine, udtalt søvnighed med mangel på energi, svimmelhed 
+- øjenbetændelse (konjunktivitis) 
+- hurtig hjerterytme 
+- højt eller lavt blodtryk, rødme 
+- åndenød, som kan udløses af fysisk aktivitet, næseblod, hoste 
+- betændelse i slimhinden i maven eller spiserøret, sår i munden, dårlig fordøjelse, synkebesvær, 
+smerter i munden, mundtørhed 
+- hudproblemer, herunder skællende eller tør hud, hudrødme, blærer eller sår på huden, kløe, 
+mørke områder på huden 
+- overdreven svedtendens 
+- muskelkramper eller -smerter 
+- smerter, herunder i muskler, knogler eller ryggen 
+- smertefuld vandladning 
+- allergisk reaktion overfor infusion af lægemidlet, influenzalignende sygdom, kulderystelser, 
+betændelse i slimhinderne i hulrum og passager i kroppen såsom næsen, munden eller luftrøret, 
+svaghedsfølelse, generel utilpashed, hævelser, der skyldes ophobning af væske i kroppen, 
+hævede hænder, ankler eller fødder 
+- vægttab  </p>
+<p>Når Caelyx pegylated liposomal anvendes alene, forekommer nogle af disse effekter i mindre grad, og 
+nogle er overhovedet ikke forekommet. </p>
+<p>Ikke almindelige bivirkninger (kan berøre op til 1 ud af 100 personer) 
+- forkølelsessår eller herpes på kønsdelene (infektion med herpes simplex-virus), 
+svampeinfektion 
+- et lavt antal af alle typer blodlegemer, forhøjet antal blodplader (som hjælper blodet med at 
+størkne) 
+- allergisk reaktion 
+- højt indhold af kalium i blodet, lavt indhold af magnesium i blodet 
+- nerveskade, som påvirker mere end ét område af kroppen 
+- anfald (kramper), besvimelse 
+- ubehagelig eller smertefuld fornemmelse, især ved berøring, søvnighed 
+- sløret syn, rindende øjne 
+- hurtig eller ujævn hjerterytme (palpitationer), sygdom i hjertemusklen, hjerteskade 
+- vævsskade (nekrose), der hvor injektionen gives, betændte vener, som medfører hævelser og 
+smerter, svimmelhed, når man sætter sig op eller rejser sig 
+- trykken for brystet 
+- luft i tarmen, betændelse i gummerne (gingivitis) 
+- hudproblemer eller -udslæt, herunder skællende eller afskalning af huden, allergisk hududslæt, 
+sår eller nældefeber på huden, misfarvning af huden, ændring i hudens naturlige farve 
+(pigmentering), små røde eller lilla pletter, der skyldes blødninger under huden, negleproblemer, 
+bumser (acne) 
+- muskelsvaghed 
+- brystsmerter 
+- irritation eller smerter, der hvor injektionen gives 
+- hævelser i ansigtet, høj legemstemperatur 
+- symptomer (som f.eks. betændelse, rødme eller smerter), der vender tilbage på et sted på 
+kroppen, som tidligere er blevet behandlet med stråleterapi, eller som tidligere er blevet 
+beskadiget ved injektion af kemoterapi i en vene </p>
+<p>Sjældne bivirkninger (kan berøre op til 1 ud af 1.000 personer) 
+- infektion, som forekommer hos patienter med svækket immunforsvar 
+- lavt antal blodlegemer dannet i knoglemarven 
+- betændelse i nethinden, hvilket kan medføre synsændringer eller blindhed 
+- unormal hjerterytme, unormale kurver på et EKG (elektrokardiogram), eventuelt med langsom 
+hjerterytme, problem med hjertet, som påvirker hjerteslag og -rytme, blåfarvning af huden og 
+slimhinderne, som skyldes lavt iltindhold i blodet 
+- udvidelse af blodkar 
+- sammensnøring i halsen 
+- øm og hævet tunge, sår på spidsen 
+- hududslæt med væskefyldte blærer 
+- infektion i skeden, rødme af pungen 
+- problemer med slimhinderne i kroppens hulrum og passager, som f.eks. næsen, munden eller 
+luftrøret 
+- unormale resultater af leverblodprøver, forhøjet indhold af kreatinin i blodet </p>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) 
+- blodkræft, som udvikler sig hurtigt og påvirker blodlegemerne (akut myeloid leukæmi), 
+knoglemarvssygdom, som påvirker blodlegemerne (myelodysplastisk syndrom), kræft i 
+mundhulen eller læberne 
+- hoste og åndenød, muligvis ledsaget af feber, som ikke skyldes fysisk aktivitet (interstitiel 
+lungesygdom) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>
+<p>Strategier for at modvirke og behandle hånd-fod-syndromet:</p>
+<ul>
+<li>sæt hænder og/eller fødder i blød i koldt vandbad, når det er muligt (f.eks. mens du ser fjernsyn, 
+læser eller hører radio). </li>
+<li>hold hænder og fødder frie (ingen handsker, strømper o.s.v.). </li>
+<li>ophold dig på kølige steder. </li>
+<li>tag kølige bade i varmt vejr. </li>
+<li>undgå kraftig motion, som kan medføre fodskader (f.eks. jogging). </li>
+<li>undgå at udsætte huden for meget varmt vand (f.eks. i jacuzzi, sauna). </li>
+<li>undgå tætsiddende fodtøj og højhælede sko. </li>
+</ul>
+<p>Pyridoxin (vitamin B6):</p>
+<ul>
+<li>vitamin B6 kan fås uden recept. </li>
+<li>tag 50-150 mg dagligt, så snart der er tegn på rødme eller prikken. </li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store caelyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store caelyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Caelyx pegylated liposomal utilgængeligt for børn. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Efter fortynding: 
+Kemisk og fysisk holdbarhed under brug er påvist til 24 timer ved 2°C - 8°C. 
+Fra et mikrobiologisk synspunkt skal præparatet anvendes straks. Hvis det ikke anvendes straks, er 
+opbevaringstider og -betingelser før anvendelse brugerens ansvar og skal ikke være længere end 
+24 timer ved 2°C - 8°C. Delvis brugte hætteglas skal bortkastes. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten eller pakningen efter Exp. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker tegn på bundfældning eller anden partikeldannelse. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Caelyx pegylated liposomal indeholder:</p>
+<ul>
+<li>Aktivt stof: doxorubicinhydrochlorid. En ml Caelyx pegylated liposomal indeholder 2 mg 
+doxorubicinhydrochlorid i en pegyleret liposomal formulering. </li>
+<li>Øvrige indholdsstoffer: α-(2-[1,2-distearoyl-sn-glycero(3)phosphooxy]ethylcarbamoyl) -ω-
+methoxypoly(oxyethylen)-40 natriumsalt (MPEG-DSPE), helhydrogeneret sojafosfatidylcholin 
+(HSPC), kolesterol, ammoniumsulfat, saccharose, histidin, vand til injektion, saltsyre (til 
+justering af pH) og natriumhydroxid (til justering af pH). Se afsnit 2. Caelyx pegylated liposomal koncentrat til infusionsvæske, opløsning: hætteglas indeholdende 10 ml 
+(20 mg) eller 25 ml (50 mg). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Caelyx pegylated liposomal er steril, gennemsigtig og rød. Caelyx pegylated liposomal kan fås som 
+hætteglas i en enkeltpakning eller pakninger med ti hætteglas. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Baxter Holding B.V. 
+Kobaltweg 49, 
+3542 CE Utrecht, 
+Holland </p>
+<p>Fremstiller 
+Janssen Pharmaceutica NV 
+Turnhoutseweg B-2340 Beerse 
+Belgien </p>
+<p>Baxter Oncology GmbH 
+Kantstrasse 2 
+33790 Halle/Westfalen 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om Caelyx pegylated liposomal, skal du henvende dig til den 
+lokale repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Baxter Belgium SPRL/BVBA 
+Tél/Tel: +32 (0)2 386 80 00<br />
+braine_reception@baxter.com </p>
+<p>Lietuva 
+UAB „Baxter Lithuania“ 
+Tel: +37052527 </p>
+<p>България 
+Baxter Holding B.V. 
+Teл.: +31 (0)30 2488 Luxembourg/Luxemburg 
+Baxter Belgium SPRL/BVBA 
+Tél/Tel: +32 (0)2 386 80 00<br />
+braine_reception@baxter.com </p>
+<p>Česká republika 
+BAXTER CZECH spol. s r.o. 
+Tel: +420 225 774 111 <br />
+Magyarország 
+Baxter Hungary Kft. 
+Tel: +36 1 202 1 
+Danmark 
+Baxter A/S 
+Tlf: +45 4816 6 
+Malta 
+Baxter Holding B.V. 
+Tel: +44 (0)1635 206345  </p>
+<p>Deutschland 
+Baxter Deutschland GmbH 
+Tel: +49 (0)89 31701-0<br />
+info_de@baxter.com  </p>
+<p>Nederland 
+Baxter B.V. 
+Tel: +31 (0)30 2488 utrecht_reception@baxter.com </p>
+<p>Eesti 
+OÜ Baxter Estonia<br />
+Tel: +372 651 5Norge 
+Baxter AS 
+Tlf: +47 22 58 48<br />
+Ελλάδα 
+Baxter (Hellas) Ε.Π.Ε.,<br />
+Τηλ: +30 210 28 80 000<br />
+Österreich 
+Baxter Healthcare GmbH 
+Tel: +43 1 71120 0 
+austria_office_healthcare@baxter.com   </p>
+<p>España 
+Baxter S.L. 
+Tel: +34 91 678 93<br />
+Polska 
+Baxter Polska Sp. z o.o. 
+Tel: +48 22 488 37 France 
+Baxter SAS 
+Tél: +33 1 34 61 50<br />
+Portugal 
+Baxter Médico Farmacêutica, Lda.<br />
+Tel: +351 21 925 25 00  </p>
+<p>Hrvatska 
+Baxter Healthcare d.o.o. 
+Tel: +385 1 6610314  </p>
+<p>România 
+BAXTER HEALTHCARE SRL 
+Tel: +40 372 302<br />
+Ireland 
+Baxter Holding B.V. 
+Tel: +44 (0)1635 206345  </p>
+<p>Slovenija 
+Baxter d.o.o.<br />
+Tel: +386 1 420 16 80  </p>
+<p>Ísland 
+Baxter Medical AB 
+Sími: +46 8 632 64<br />
+Slovenská republika 
+Baxter Slovakia s.r.o.<br />
+Tel: +421 2 32 10 11 50  </p>
+<p>Italia 
+Baxter S.p.A.<br />
+Tel: +390632491233  </p>
+<p>Suomi/Finland 
+Baxter Oy 
+Puh/Tel: +358 (09) 862 Κύπρος 
+Baxter Holding B.V. 
+Τηλ: +31 (0)30 2488 <br />
+Sverige 
+Baxter Medical AB 
+Tel: +46 (0)8 632 64 Latvija 
+Baxter Latvia SIA 
+Tel: +371 677 84United Kingdom (Northern Ireland) 
+Baxter Holding B.V. 
+Tel: +44 (0)1635 206345  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om Caelyx pegylated liposomal på Det Europæiske 
+Lægemiddelagenturs hjemmeside http://www.ema.europa.eu.
+Nedenstående oplysninger er til læger og sundhedspersonale (se pkt. 3): </p>
+<p>Der skal udvises forsigtighed ved håndtering af Caelyx pegylated liposomal-dispersion. Anvendelse af 
+handsker er påkrævet. Såfremt Caelyx pegylated liposomal kommer i berøring med hud eller 
+slimhinder, skal man straks vaske området omhyggeligt med vand og sæbe. Caelyx pegylated 
+liposomal skal håndteres og bortskaffes i henhold til retningslinjerne for håndtering af andre 
+lægemidler mod kræft. </p>
+<p>Beregn den dosis Caelyx pegylated liposomal, der skal indgives (baseret på den anbefalede dosis og 
+patientens overfladeareal). Sug den beregnede mængde Caelyx pegylated liposomal op i en steril 
+sprøjte. Aseptisk teknik skal overholdes nøje, da der ikke er konserverende eller bakteriostatiske 
+stoffer i Caelyx pegylated liposomal. Den opsugede dosis af Caelyx pegylated liposomal skal 
+fortyndes i glucose 50 mg/ml (5 %) infusionsvæske, opløsning før indgivelse. For doser &lt; 90 mg, 
+fortyndes Caelyx pegylated liposomal i 250 ml, og for doser ≥ 90 mg, fortyndes Caelyx pegylated 
+liposomal i 500 ml. </p>
+<p>For at minimere risikoen for infusionsreaktioner indgives den initiale dosis med en hastighed på højst 
+1 mg/minut. Hvis der ikke ses infusionsreaktion, kan efterfølgende Caelyx pegylated liposomal 
+infusioner indgives over en 60 minutters periode. </p>
+<p>I undersøgelsesprogrammet for brystcancer var ændring i infusionen tilladt for de patienter, som 
+oplevede en infusionsreaktion som følger: 5 % af den totale dosis blev infunderet langsomt i løbet af 
+de første 15 minutter. Hvis dette blev tålt uden reaktion, blev infusionshastigheden fordoblet i de 
+følgende 15 minutter. Hvis dette blev tålt, blev infusionen afsluttet i løbet af den næste time med en 
+total infusionstid på 90 minutter. </p>
+<p>Hvis patienten oplever tidlige symptomer eller tegn på infusionsreaktion, seponer da øjeblikkeligt 
+infusionen, giv passende præmedicinering (antihistamin og/eller korttidsvirkende kortikosteroid) og 
+start igen med en langsommere hastighed. </p>
+<p>Anvendelse af et andet opløsningsmiddel end glucose 50 mg/ml (5 %) infusionsvæske, opløsning eller 
+tilstedeværelse af bakteriostatiske stoffer som f.eks. benzylalkohol kan forårsage udfældning af Caelyx 
+pegylated liposomal. </p>
+<p>Det anbefales, at Caelyx pegylated liposomal-infusionsslangen forbindes via en sideport til en 
+intravenøs infusion med  glucose 50 mg/ml (5 %). Infusionen kan gives i en perifer vene. Må ikke 
+anvendes sammen med in-line filtre.  </p>
+<p>BILAG IV 
+VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE </p>
+<p>Videnskabelige konklusioner 
+Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for doxorubicin er 
+CHMP nået frem til følgende videnskabelige konklusioner:<br />
+Set i lyset af de tilgængelige data om interstitiel lungesygdom fra litteraturen og spontane rapporter, 
+herunder i nogle tilfælde et tæt tidsmæssigt forhold, anser PRAC en årsagssammenhæng mellem 
+pegyleret liposomal doxorubicin og interstitiel lungesygdom som i det mindste en rimelig mulighed. 
+PRAC konkluderede, at produktinformationen for produkter, der indeholder pegyleret liposomal 
+doxorubicin skal ændres i overensstemmelse hermed. 
+CHMP tilslutter sig PRAC's videnskabelige konklusioner. 
+Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne 
+På baggrund af de videnskabelige konklusioner for doxorubicin er CHMP af den opfattelse, at 
+benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder doxorubicin, forbliver 
+uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. 
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-ba96fb9c0ed4979439bd80d6bde4ba94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for caelyx Package Leaflet for language en"
+Description: "ePI document Bundle for caelyx Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ba96fb9c0ed4979439bd80d6bde4ba94"
+* entry[0].resource = composition-en-ba96fb9c0ed4979439bd80d6bde4ba94
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpba96fb9c0ed4979439bd80d6bde4ba94"
+* entry[=].resource = mpba96fb9c0ed4979439bd80d6bde4ba94
+                            
+                    
+Instance: bundlepackageleaflet-da-ba96fb9c0ed4979439bd80d6bde4ba94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for caelyx Package Leaflet for language da"
+Description: "ePI document Bundle for caelyx Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-ba96fb9c0ed4979439bd80d6bde4ba94"
+* entry[0].resource = composition-da-ba96fb9c0ed4979439bd80d6bde4ba94
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpba96fb9c0ed4979439bd80d6bde4ba94"
+* entry[=].resource = mpba96fb9c0ed4979439bd80d6bde4ba94
+                            
+                    
+
+
+
+Instance: mpba96fb9c0ed4979439bd80d6bde4ba94
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Caelyx pegylated liposomal 2 mg/ml concentrate for solution for infusion"
-Description: "Caelyx pegylated liposomal 2 mg/ml concentrate for solution for infusion"
+Title: "Medicinal Product caelyx"
+Description: "caelyx"
 Usage: #inline
 
  
@@ -483,7 +1065,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Caelyx pegylated liposomal 2 mg/ml concentrate for solution for infusion"
+  * productName = "caelyx"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -510,29 +1092,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-ba96fb9c0ed4979439bd80d6bde4ba94
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for caelyx Package Leaflet for language en"
-Description: "ePI document Bundle for caelyx Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: ba96fb9c0ed4979439bd80d6bde4ba94ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/96/011/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "caelyx"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-ba96fb9c0ed4979439bd80d6bde4ba94"
-* entry[0].resource = composition-en-ba96fb9c0ed4979439bd80d6bde4ba94
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4ce1684f43c4f0c57721c707f502c6bc"
-* entry[=].resource = mp4ce1684f43c4f0c57721c707f502c6bc
-                            
-                      
+* title = "List of all ePIs associated with caelyx"
+
+* subject = Reference(mp4ce1684f43c4f0c57721c707f502c6bc)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#caelyx "caelyx"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-ba96fb9c0ed4979439bd80d6bde4ba94) // caelyx en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-ba96fb9c0ed4979439bd80d6bde4ba94) // caelyx da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-ba96fb9c0ed4979439bd80d6bde4ba94
+InstanceOf: List
+
+* insert ba96fb9c0ed4979439bd80d6bde4ba94ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-4ee3eaba97a2c229abd66d955627a070
 InstanceOf: CompositionUvEpi
 Title: "Composition for xromi Package Leaflet"
@@ -379,12 +382,462 @@ F91 DIreland </p>
 
 
 
+Instance: composition-da-4ee3eaba97a2c229abd66d955627a070
+InstanceOf: CompositionUvEpi
+Title: "Composition for xromi Package Leaflet"
+Description:  "Composition for xromi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpeb139869388b1c28cc6b5ff016676ff2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpeb139869388b1c28cc6b5ff016676ff2
+* title = "TEST PURPOSES ONLY - xromi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Xromi </li>
+<li>Sådan skal du tage Xromi </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xromi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xromi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xromi indeholder hydroxycarbamid, som er et stof, der nedsætter væksten og formeringen af visse 
+celler i knoglemarven. Denne effekt medfører en nedsættelse af cirkulerende røde og hvide 
+blodlegemer samt blodplader. Ved seglcelle-anæmi hjælper hydroxycarbamid også med at forhindre 
+de røde blodlegemer i at antage den unormale segl-form. 
+Seglcelle-anæmi er en nedarvet blodsygdom, der påvirker de skiveformede røde blodlegemer i blodet. 
+Nogle celler bliver unormale og stive og antager form som en halvmåne eller et segl, så der opstår 
+anæmi (blodmangel). 
+Seglceller kan også sætte sig fast i blodkarrene og blokere for blodstrømmen. Det kan give akutte 
+smertefulde kriser og organskade. </p>
+<p>Xromi anvendes til at forebygge komplikationer ved blokerede blodkar, der forårsages af seglcelle- anæmi hos patienter over 9 måneder. Xromi vil nedsætte antallet af smertefulde kriser og behovet for 
+indlæggelse i forbindelse med sygdommen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xromi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xromi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Xromi </p>
+<ul>
+<li>hvis du er allergisk over for hydroxycarbamid eller et af de øvrige indholdsstoffer i Xromi 
+(angivet i punkt 6) </li>
+<li>hvis du har en alvorlig leversygdom </li>
+<li>hvis du har en alvorlig nyresygdom </li>
+<li>hvis du har nedsat produktion af røde og hvide blodlegemer samt blodplader 
+(‘myelosuppression’ se punkt 3 "Sådan skal du tage Xromi" om opfølgning på behandlingen) </li>
+<li>hvis du er gravid eller ammer (se afsnittet "Graviditet, amning og frugtbarhed") </li>
+<li>hvis du tager antiretrovirale lægemidler til behandling af hiv (humant immundefektvirus, dvs. 
+det virus, der giver aids) </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Test og undersøgelser </p>
+<p>Lægen vil tage blodprøver:</p>
+<ul>
+<li>for at tjekke dine blodtal før og under behandlingen med Xromi </li>
+<li>for at overvåge din lever før og under behandlingen med Xromi </li>
+<li>for at overvåge dine nyrer før og under behandlingen med Xromi </li>
+</ul>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Xromi </p>
+<ul>
+<li>hvis du er meget træt, svag og kortåndet, da det kan være tegn på nedsat antal røde blodlegemer 
+(blodmangel). </li>
+<li>hvis du nemt kommer til at bløde eller få blå mærker, da det kan være tegn på lavt antal 
+blodplader i blodet. </li>
+<li>hvis du har en leversygdom (det kan være nødvendigt med ekstra overvågning) </li>
+<li>hvis du har en nyresygdom (din dosis kan blive justeret) </li>
+<li>hvis du har bensår </li>
+<li>hvis du har kendt mangel på B12 -vitamin eller folat </li>
+<li>hvis du tidligere har fået strålebehandling eller kemoterapi eller i øjeblikket tager andre 
+lægemidler til behandling af kræft, navnlig interferonbehandling. </li>
+</ul>
+<p>Hvis du er usikker på, om noget af ovenstående gælder for dig, skal du tale med lægen eller 
+apotekspersonalet, før du tager Xromi. </p>
+<p>Kontakt straks lægen, nå du tager Xromi 
+-  hvis du er træt, er stakåndet, får uforklarlige blå mærker eller blødninger, der kan være 
+symptomer på sekundær leukæmi. Der er indberettet sekundær leukæmi hos patienter, der fik 
+langtidsbehandling med hydroxycarbamid for visse typer blodkræft (myeloproliferative 
+sygdomme såsom polycytæmi). 
+- hvis du har sår, der kan være symptomer på kutane vaskulære toksiciteter. Kutane vaskulære 
+toksiciteter er kutane læsioner, der er indberettet hos patienter med visse typer blodkræft 
+(myeloproliferative sygdomme) under behandling med hydroxycarbamid, hyppigst hos 
+patienter, som tidligere har været eller aktuelt er i behandling med interferon. 
+-   hvis du har mistænkelige hudændringer såsom nye pletter og ændringer af eksisterende fregner 
+eller modermærker, der kan være symptomer på hudkræft. Der er rapporteret om hudkræft hos 
+patienter i længerevarende behandling med hydroxycarbamid. 
+Du skal beskytte din hud mod solen og selv tjekke din hud regelmæssigt under og efter 
+behandlingen med Xromi. Lægen vil også undersøge din hud ved de rutinemæssige 
+opfølgningsbesøg. </p>
+<p>Børn </p>
+<p>Dette lægemiddel må ikke anvendes til børn i alderen 0-9 måneder, da det formodentlig ikke vil være 
+sikkert. </p>
+<p>Brug af andre lægemidler sammen med Xromi </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Det er især vigtigt, at du fortæller det til lægen, sygeplejersken eller apotekspersonalet, hvis du i 
+forvejen får en eller flere af nedenstående behandlinger:</p>
+<ul>
+<li>andre lægemidler, der nedsætter produktionen af røde og hvide blodlegemer samt blodplader  </li>
+<li>strålebehandling eller kemoterapi </li>
+<li>lægemidler mod kræft, navnlig interferon-behandling – ved anvendelse sammen med Xromi er 
+der større risiko for bivirkninger, f.eks. blodmangel </li>
+<li>antiretrovirale lægemidler (dvs. lægemidler, der hæmmer eller ødelægger et retrovirus som 
+f.eks. hiv), herunder didanosin, stavudin og indinavir (kan medføre et fald i antallet af hvide 
+blodlegemer) </li>
+<li>levende vacciner, f.eks. mod mæslinger, fåresyge, røde hunde (MFR) eller skoldkopper </li>
+</ul>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Hvis du planlægger at få et barn, skal du spørge lægen til råds, før du tager Xromi. Dette gælder både 
+mænd og kvinder. Xromi kan være skadeligt for sæd og æg. </p>
+<p>Xromi må ikke anvendes under graviditet. Xromi-behandling bør om muligt ophøre 3-6 måneder, 
+inden du bliver gravid. </p>
+<p>Kontakt lægen med det samme, hvis du tror, du er gravid. </p>
+<p>Du og din partner skal anvende sikker prævention før, under og efter din behandling med Xromi. 
+Brugen af sikker prævention skal fortsættes efter afslutning af din behandling med Xromi i mindst 
+6 måneder for kvindelige og 3 måneder for mandlige patienter. </p>
+<p>Hvis mandlige patienter, der tager Xromi, har en partner, som bliver gravid eller planlægger at blive 
+gravid, skal de tale med lægen om de mulige fordele og risici ved at fortsætte behandling med Xromi. </p>
+<p>Hydroxycarbamid, det aktive stof i Xromi, udskilles i modermælk. Du må ikke amme, mens du tager 
+Xromi. Spørg lægen eller sundhedspersonalet til råds. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Xromi kan gøre dig døsig. Du bør ikke føre motorkøretøj eller betjene maskiner, medmindre du har 
+konstateret, at du ikke føler dig påvirket – tal med lægen om det. </p>
+<p>Xromi indeholder methylparahydroxybenzoat (E218) </p>
+<p>Xromi indeholder methylparahydroxybenzoat (E218), der kan forårsage allergiske reaktioner 
+(eventuelt forsinkede). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xromi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xromi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Xromi må kun ordineres til dig af en speciallæge med erfaring i behandling af blodsygdomme. </p>
+<ul>
+<li>Mens du tager Xromi, vil lægen tage regelmæssige blodprøver for at tjekke antallet og typen af 
+blodlegemer i dit blod og for at holde øje med din lever og dine nyrer. </li>
+<li>Alt efter din dosis vil disse prøver indledningsvis blive taget en gang om måneden og derefter 
+hver 2.-3. måned. </li>
+<li>Ud fra resultaterne kan lægen ændre din dosis af Xromi. </li>
+</ul>
+<p>Er du i tvivl, så spørg lægen eller apotekspersonalet. Den sædvanlige startdosis for voksne, unge og 
+børn over 9 måneder er 15 mg/kg dagligt, og den sædvanlige vedligeholdelsesdosis er 20-25 mg/kg. 
+Lægen vil ordinere den dosis, som du skal have. Nogle gange kan lægen ændre din dosis af Xromi, 
+eksempelvis på baggrund af forskellige testresultater. Hvis du er i tvivl om, hvor meget lægemiddel du 
+skal have, skal du altid spørge lægen eller sygeplejersken. </p>
+<p>Brug af Xromi sammen med mad og drikke 
+Du kan tage dette lægemiddel sammen med mad eller efter et måltid når som helst på dagen. Du skal 
+dog sørge for at gøre det på samme måde og på samme tidspunkt hver dag. </p>
+<p>Anvendelse hos ældre 
+Du kan være mere følsom over for virkningen af Xromi, og lægen vil muligvis give dig en lavere 
+dosis. </p>
+<p>Hvis du har en nyresygdom 
+Lægen vil muligvis give dig en lavere dosis. 
+Du bør ikke tage Xromi, hvis du har en alvorlig nyresygdom. </p>
+<p>Håndtering 
+Xromi-pakningen indeholder en flaske med lægemiddel med låg, en flaskeadapter og to 
+doseringssprøjter (en sprøjte gradueret til 3 ml og en sprøjte gradueret til 10 ml). Brug altid de 
+medfølgende sprøjter til at tage lægemidlet. </p>
+<p>Det er vigtigt, at du bruger den rigtige doseringssprøjte til dit lægemiddel. Lægen eller 
+apotekspersonalet vil fortælle dig, hvilken sprøjte du skal bruge (afhænger af, hvilken dosis du skal 
+have). </p>
+<p>Den lille 3-ml-sprøjte, markeret fra 0,5-3 ml, er til udmåling af doser på 3 ml eller derunder. Du skal 
+bruge den røde sprøjte, hvis den samlede mængde lægemiddel, du skal have, er 3 ml eller mindre (hver 
+markering på 0,1 ml svarer til 10 mg hydroxycarbamid). 
+Den store 10-ml-sprøjte, der er markeret fra 1-10 ml, er til udmåling af doser på mere end 3 ml. Du 
+skal bruge den hvide sprøjte, hvis den samlede mængde lægemiddel, du skal have, er mere end 3 ml 
+(hver markering på 0,5 ml svarer til 50 mg hydroxycarbamid). </p>
+<p>Hvis du som forælder eller omsorgsperson indgiver lægemidlet, skal du vaske hænder før og efter 
+indgivelsen af en dosis. Tør eventuelt spild op med det samme. For at mindske risikoen for 
+eksponering bør der anvendes engangshandsker ved håndtering af Xromi. For at minimere 
+forekomsten af luftbobler må flasken ikke rystes før opmåling af en dosis. </p>
+<p>Hvis Xromi kommer i kontakt med hud, øjne eller næse, skal det eksponerede område straks vaskes 
+grundigt med vand og sæbe. </p>
+<p>Følg nedenstående anvisninger for anvendelsen af lægemidlet: </p>
+<ol>
+<li>Tag engangshandsker på før håndtering af Xromi. </li>
+<li>Tag låget af flasken (figur 1), og sæt adapteren godt fast på flaskens top – lad den sidde med 
+henblik på senere doseringer (figur 2). </li>
+<li>Tryk spidsen af doseringssprøjten ind i hullet i adapteren (figur 3). Lægen eller 
+apotekspersonalet vil fortælle dig, hvilken sprøjte du skal bruge for at indgive den rigtige 
+dosis, dvs. enten den 3 ml eller den 10 ml. </li>
+<li>Vend flasken på hovedet (figur 4). </li>
+<li>Træk sprøjtens stempel tilbage, så lægemidlet trækkes ind i sprøjten. Træk stemplet tilbage til 
+det punkt på skalaen, der svarer til den ordinerede dosis (figur 4). Hvis du er i tvivl om, hvor 
+meget lægemiddel du skal trække ind i sprøjten, skal du altid spørge lægen eller 
+sundhedspersonalet. </li>
+<li>Vend flasken til opret stilling, og fjern forsigtigt sprøjten fra adapteren ved at holde i sprøjtens 
+krop, ikke i stemplet. </li>
+<li>Før forsigtigt spidsen af sprøjten ind i munden, så den er rettet mod indersiden af kinden. </li>
+<li>Tryk langsomt og forsigtigt stemplet i bund, så lægemidlet forsigtigt sprøjtes mod indersiden af 
+kinden; lægemidlet synkes. Du må IKKE trykke for hårdt på stemplet, og du må ikke sprøjte 
+lægemidlet mod det bageste af munden eller svælget, da det kan medføre kvælningsanfald. </li>
+<li>Tag sprøjten ud af munden. </li>
+<li>Synk lægemidlet og drik lidt vand, så der ikke er noget lægemiddel tilbage i munden. </li>
+<li>Sæt låget tilbage på flasken (lad adapteren blive siddende). Låget skal være tæt lukket. </li>
+<li>Skyl sprøjten grundigt med koldt eller varmt postevand. Hold sprøjten under det rindende vand, 
+mens du bevæger stemplet frem og tilbage flere gange for at sikre, at sprøjtens inderside bliver 
+ren. Lad sprøjten tørre helt, før du bruger den til dosering igen. Opbevar sprøjten et hygiejnisk 
+sted sammen med lægemidlet. </li>
+</ol>
+<p>Gentag ovenstående for hver dosis som anvist af lægen eller apotekspersonalet. </p>
+<p>Hvis du har taget for meget Xromi </p>
+<p>Hvis du har taget for meget Xromi, skal du straks sige det til lægen eller tage på skadestuen. Medbring 
+Xromi-pakningen og denne indlægsseddel. De hyppigste symptomer ved overdosering af Xromi er:</p>
+<ul>
+<li>Hudrødme </li>
+<li>Ømhed (ved berøring) og hævelse af håndflader og fodsåler efterfulgt af afskalning på hænder 
+og fødder </li>
+<li>Kraftig pigmentering af huden (lokale farveforandringer) </li>
+<li>Ømhed eller hævelse i munden. </li>
+</ul>
+<p>Hvis du har glemt at tage Xromi </p>
+<p>Sig det til lægen. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Xromi </p>
+<p>Du må ikke holde op med at tage lægemidlet uden at tale med lægen. Spørg lægen eller 
+apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Du skal straks sige det til lægen eller tage på skadestuen, hvis du får en eller flere af følgende 
+alvorlige bivirkninger: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 patienter):</p>
+<ul>
+<li>Svær infektion </li>
+<li>Feber eller kulderystelser </li>
+<li>Træthed og/eller bleghed </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter):</p>
+<ul>
+<li>Uventede blå mærker (blodansamlinger under huden) eller blødning </li>
+<li>Sår i huden (hudinfektion med åbne sår) </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter):</p>
+<ul>
+<li>Gulfarvning af huden eller det hvide i øjnene (gulsot) </li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter):</p>
+<ul>
+<li>Sår på benene </li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 patienter):</p>
+<ul>
+<li>Hudbetændelse, der giver røde afskallende pletter, evt. sammen med ledsmerter </li>
+</ul>
+<p>Andre mulige bivirkninger end de ovenfor nævnte er anført nedenfor. Tal med lægen, hvis du er 
+bekymret over nogen af følgende bivirkninger. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 patienter):</p>
+<ul>
+<li>Lavt antal eller fravær af sædceller i sædvæsken (oligospermi eller azoospermi). </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter):</p>
+<ul>
+<li>Kvalme </li>
+<li>Hovedpine </li>
+<li>Svimmelhed </li>
+<li>Forstoppelse </li>
+<li>Mørkfarvning af hud, negle og mund </li>
+<li>Tør hud </li>
+<li>Hårtab </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter):</p>
+<ul>
+<li>Kløende hududslæt </li>
+<li>Diarré </li>
+<li>Opkastning </li>
+<li>Betændelse eller sårdannelse i munden </li>
+<li>Forhøjede levertal </li>
+</ul>
+<p>Andre bivirkninger (hyppighed ikke kendt):</p>
+<ul>
+<li>Isolerede tilfælde af blodkræft (leukæmi) </li>
+<li>Hudkræft hos ældre patienter </li>
+<li>Mavesmerter eller halsbrand </li>
+<li>Sår i mave-tarm-kanalen </li>
+<li>Feber </li>
+<li>Udebleven menstruation </li>
+<li>Vægtøgning </li>
+<li>Lavt D-vitamin i blodet </li>
+<li>Lavt magnesium i blodet </li>
+<li>Blødning </li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xromi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xromi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. Utilsigtet indtagelse kan være dødeligt for børn. </li>
+<li>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </li>
+<li>Efter første åbning af flasken skal ikke-anvendt lægemiddel kasseres efter 12 uger. </li>
+<li>Opbevares i køleskab (2-8 °C). </li>
+<li>Flasken skal være tæt lukket for at beskytte lægemidlet mod ødelæggelse og nedsætte risikoen 
+for utilsigtet spild. </li>
+</ul>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xromi indeholder: </p>
+<p>Aktivt stof: hydroxycarbamid. Én ml opløsning indeholder 100 mg hydroxycarbamid. </p>
+<p>Øvrige indholdsstoffer: xanthangummi, sucralose (E955), jordbæraroma, methylparahydroxybenzoat 
+(E218), natriumhydroxid og renset vand. Se punkt 2 under "Xromi indeholder 
+methylparahydroxybenzoat". </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Xromi er en klar, farveløs til bleggul oral opløsning. Xromi leveres i en glasflaske a 150 ml med 
+børnesikret låg. Hver pakning indeholder én flaske, en flaskeadapter og 2 doseringssprøjter (en sprøjte 
+gradueret til 3 ml og en sprøjte gradueret til 10 ml). 
+Lægen eller apotekspersonalet vil fortælle dig, hvilken sprøjte du skal bruge (afhænger af, hvilken 
+dosis du skal have). </p>
+<p>Indehaver af markedsføringstilladelsen 
+Nova Laboratories Ireland Limited 
+3rd Floor 
+Ulysses House 
+Foley Street, Dublin 1 
+D01 W2T2 
+Irland </p>
+<p>Fremstiller 
+Pronav Clinical Ltd.<br />
+Unit 5<br />
+Dublin Road Business Park<br />
+Carraroe, Sligo<br />
+F91 D439<br />
+Irland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-4ee3eaba97a2c229abd66d955627a070
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xromi Package Leaflet for language en"
+Description: "ePI document Bundle for xromi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4ee3eaba97a2c229abd66d955627a070"
+* entry[0].resource = composition-en-4ee3eaba97a2c229abd66d955627a070
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4ee3eaba97a2c229abd66d955627a070"
+* entry[=].resource = mp4ee3eaba97a2c229abd66d955627a070
+                            
+                    
+Instance: bundlepackageleaflet-da-4ee3eaba97a2c229abd66d955627a070
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xromi Package Leaflet for language da"
+Description: "ePI document Bundle for xromi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-4ee3eaba97a2c229abd66d955627a070"
+* entry[0].resource = composition-da-4ee3eaba97a2c229abd66d955627a070
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4ee3eaba97a2c229abd66d955627a070"
+* entry[=].resource = mp4ee3eaba97a2c229abd66d955627a070
+                            
+                    
+
+
+
+Instance: mp4ee3eaba97a2c229abd66d955627a070
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Xromi 100 mg/ml oral solution"
-Description: "Xromi 100 mg/ml oral solution"
+Title: "Medicinal Product xromi"
+Description: "xromi"
 Usage: #inline
 
  
@@ -404,7 +857,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Xromi 100 mg/ml oral solution"
+  * productName = "xromi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -431,29 +884,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-4ee3eaba97a2c229abd66d955627a070
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xromi Package Leaflet for language en"
-Description: "ePI document Bundle for xromi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 4ee3eaba97a2c229abd66d955627a070ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1366/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xromi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-4ee3eaba97a2c229abd66d955627a070"
-* entry[0].resource = composition-en-4ee3eaba97a2c229abd66d955627a070
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpeb139869388b1c28cc6b5ff016676ff2"
-* entry[=].resource = mpeb139869388b1c28cc6b5ff016676ff2
-                            
-                      
+* title = "List of all ePIs associated with xromi"
+
+* subject = Reference(mpeb139869388b1c28cc6b5ff016676ff2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xromi "xromi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-4ee3eaba97a2c229abd66d955627a070) // xromi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-4ee3eaba97a2c229abd66d955627a070) // xromi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-4ee3eaba97a2c229abd66d955627a070
+InstanceOf: List
+
+* insert 4ee3eaba97a2c229abd66d955627a070ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-bbd22ba876ae7309a2b1061a1e9bb063
 InstanceOf: CompositionUvEpi
 Title: "Composition for vantavo Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpf5cc6671fc06f50d7ad78bf7f6ef7c3d)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -442,9 +445,569 @@ https://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-bbd22ba876ae7309a2b1061a1e9bb063
+InstanceOf: CompositionUvEpi
+Title: "Composition for vantavo Package Leaflet"
+Description:  "Composition for vantavo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf5cc6671fc06f50d7ad78bf7f6ef7c3d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - vantavo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage VANTAVO 
+3. Sådan skal du tage VANTAVO 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vantavo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vantavo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er VANTAVO? 
+VANTAVO er en tablet, der indeholder to aktive stoffer, alendronsyre (kaldes normalt alendronat) og 
+cholecalciferol, kendt som D3-vitamin. </p>
+<p>Hvad er alendronat? 
+Alendronat tilhører en gruppe ikke-hormonelle lægemidler, som kaldes bisphosphonater. Alendronat 
+hindrer det knogletab, der opstår hos kvinder efter overgangsalderen og bidrager til at genopbygge 
+knoglemassen. Alendronat nedsætter risikoen for hoftebrud samt brud på rygsøjlen.  </p>
+<p>Hvad er D-vitamin? 
+D-vitamin er et vigtigt næringsstof, som er nødvendigt for kalkoptagelsen og sunde knogler. Kroppen 
+kan kun optage kalk ordentligt fra maden, hvis der er nok D-vitamin til stede. Meget få fødevarer 
+indeholder D-vitamin. Den væsentligste kilde er sommerens sollys, som danner D-vitamin i vores hud. 
+Efterhånden som vi bliver ældre, danner vores hud mindre D-vitamin. For lidt D-vitamin kan føre til 
+knogletab og knogleskørhed. Alvorlig D-vitaminmangel kan forårsage muskelsvaghed, som kan føre 
+til fald og større risiko for knoglebrud. </p>
+<p>Hvad anvendes VANTAVO til? 
+Din læge har ordineret VANTAVO til at behandle din knogleskørhed, og fordi du er i risiko for D-
+vitaminmangel. Det nedsætter risikoen for hoftebrud og brud på rygsøjlen hos kvinder efter 
+overgangsalderen. </p>
+<p>Hvad er knogleskørhed? 
+Knogleskørhed medfører tyndere og svagere knogler og er almindeligt hos kvinder efter 
+overgangsalderen. Når menstruationerne ophører, holder æggestokkene op med at producere det 
+kvindelige kønshormon østrogen, som medvirker til at holde kvindens knogler sunde. Som resultat 
+opstår knogletab, og knoglerne bliver svagere. Jo tidligere en kvinde når overgangsalderen, jo større er 
+risikoen for knogleskørhed. </p>
+<p>Tidligt i forløbet har knogleskørhed som regel ingen symptomer. Men hvis det ikke bliver behandlet, 
+kan det resultere i knoglebrud. Selvom knoglebrud sædvanligvis gør ondt, kan knoglebrud i rygsøjlen 
+forblive ubemærket, indtil patienten får sammenfald i ryggen. Knoglebrud kan opstå under normale 
+daglige aktiviteter, såsom løft eller som følge af mindre skader, som ikke sædvanligvis bevirker brud 
+på normale knogler. Knoglebrud opstår som regel i hoften, rygsøjlen eller håndleddet og kan medføre 
+ikke kun smerte, men også betydelige problemer såsom foroverbøjet stilling (pukkelryg) og tab af 
+bevægelighed. </p>
+<p>Hvordan kan knogleskørhed behandles? 
+Såvel som behandling med VANTAVO kan din læge foreslå, at du foretager nogle ændringer i din 
+livsstil, som kan hjælpe dig i din tilstand, for eksempel: </p>
+<p>Rygestop </p>
+<p>Rygning synes at øge hastigheden for knogletabet og kan derfor øge </p>
+<p>risikoen for knoglebrud. </p>
+<p>Motion  </p>
+<p>Ligesom musklerne har knoglerne brug for motion for at forblive stærke og  </p>
+<p>sunde. Kontakt din læge før du begynder på et træningsprogram. </p>
+<p>Afbalanceret kost 
+Din læge kan rådgive dig om kosten eller om, hvorvidt du bør tage  </p>
+<p>kosttilskud. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vantavo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vantavo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke VANTAVO </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for alendronsyre, cholecalciferol eller et af de øvrige indholdsstoffer i 
+VANTAVO (angivet i punkt 6), </p>
+</li>
+<li>
+<p>hvis du har visse problemer med spiserøret (øsofagus – det rør der forbinder din mund med 
+maven), såsom forsnævring eller synkebesvær, </p>
+</li>
+<li>
+<p>hvis du ikke er i stand til at stå eller sidde oprejst i mindst 30 minutter, </p>
+</li>
+<li>
+<p>hvis din læge har fortalt dig, at dit kalkindhold i blodet er lavt. </p>
+</li>
+</ul>
+<p>Tag ikke tabletterne, hvis du mener, at noget af ovenstående passer på dig. Tal med din læge og følg 
+lægens råd. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager VANTAVO hvis: </p>
+<ul>
+<li>
+<p>Du har nyreproblemer, </p>
+</li>
+<li>
+<p>Du har eller for nylig har haft synkebesvær eller fordøjelsesproblemer, </p>
+</li>
+<li>
+<p>Din læge har fortalt dig, at du har Barretts øsofagus (en tilstand med celleforandringer i nederste 
+del af spiserøret), </p>
+</li>
+<li>
+<p>Du har fået at vide, at du har svært ved at optage mineraler i maven eller tarmen 
+(malabsorptionssyndrom), </p>
+</li>
+<li>
+<p>Du har dårlig mundhygiejne, tandkødslidelser, planlagt tandudtrækning, eller hvis du ikke får 
+regelmæssig tandpleje, </p>
+</li>
+<li>
+<p>Du har kræft, </p>
+</li>
+<li>
+<p>Du får kemoterapi eller strålebehandling, </p>
+</li>
+<li>
+<p>Du tager angiogenesehæmmere (hæmmer nydannelse af blod- og lymfekar) (f.eks. bevacizumab 
+eller thalidomid), som anvendes ved behandling af cancer, </p>
+</li>
+<li>
+<p>Du tager kortikosteroider (f.eks. prednison eller dexamethason), som anvendes ved behandling 
+af visse sygdomme såsom astma, reumatoid artrit og svære allergier, </p>
+</li>
+<li>
+<p>Du er eller har været ryger (da det kan øge risikoen for tandproblemer). </p>
+</li>
+</ul>
+<p>Du kan blive rådet til et tandlægebesøg, før du begynder behandling med VANTAVO. </p>
+<p>Det er vigtigt at opretholde en god mundhygiejne, når du er i behandling med VANTAVO. Du bør gå 
+regelmæssigt til tandlægen under din behandling, og du skal kontakte din læge eller tandlæge, hvis du 
+oplever problemer med din mund eller tænder såsom løse tænder, smerter eller hævelser.  </p>
+<p>Irritation, betændelse eller sårdannelse i spiserøret (øsofagus – det rør der forbinder din mund med 
+maven), ofte med symptomer så som brystsmerter, halsbrand, synkebesvær eller synkesmerter opstår 
+især, hvis patienten ikke drikker et helt glas vand, og/eller hvis man lægger sig ned inden 30 minutter, 
+efter man har taget VANTAVO. Disse bivirkninger kan forværres, hvis patienten fortsætter med at 
+tage VANTAVO efter at have udviklet sådanne symptomer. </p>
+<p>Børn og unge 
+VANTAVO bør ikke gives til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med VANTAVO 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at brugen anden medicin.  </p>
+<p>Det er sandsynligt, at kalktilskud, syreneutraliserende midler og nogle andre former for medicin, der 
+tages gennem munden, vil påvirke kroppens optagelse af VANTAVO, hvis det tages samtidigt. Det er 
+derfor vigtigt, at du følger instruktionen i punkt 3 og venter 30 minutter, før du tager anden medicin 
+eller tilskud. </p>
+<p>Visse lægemidler mod gigt eller langvarige smerter, NSAID (f.eks. acetylsalicylsyre eller ibuprofen) 
+kan medføre fordøjelsesproblemer. Derfor bør der udvises forsigtighed, når disse lægemidler tages 
+samtidigt med VANTAVO.  </p>
+<p>Det er sandsynligt, at visse lægemidler eller tilsætningsstoffer i maden kan forhindre optagelsen af D-
+vitaminet i VANTAVO i kroppen. Disse omfatter kunstige fedterstatninger, mineralske olier, 
+slankemidlet orlistat og de kolesterolsænkende lægemidler colestyramin og colestipol. Medicin til 
+krampeanfald (såsom phenytoin eller phenobarbital) kan nedsætte virkningen af D-vitamin. Yderligere 
+D-vitamintilskud kan overvejes for den enkelte patient. </p>
+<p>Brug af VANTAVO sammen med mad og drikke 
+Det er sandsynligt, at mad og drikke (også mineralvand) vil nedsætte virkningen af VANTAVO, hvis 
+det indtages på samme tid. Det er derfor vigtigt, at du følger instruktionen i punkt 3. Du skal vente 
+mindst 30 minutter, før du indtager mad eller drikke, med undtagelse af vand. </p>
+<p>Graviditet og amning 
+VANTAVO er kun beregnet til kvinder efter overgangsalderen. Tag ikke VANTAVO, hvis du er 
+gravid, tror du kan være gravid eller hvis du ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Der er set bivirkninger med VANTAVO (f.eks. sløret syn, svimmelhed og alvorlige knogle-, muskel- eller ledsmerter), som kan påvirke evnen til at køre bil eller betjene maskiner (se punkt 4). Hvis du får 
+nogle af disse bivirkninger, må du ikke køre bil, før du får det bedre. </p>
+<p>VANTAVO indeholder lactose og saccharose. 
+Hvis din læge har fortalt, at der er nogle sukkerarter, du ikke kan tåle, skal du kontakte lægen, før du 
+tager denne medicin. </p>
+<p>VANTAVO indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vantavo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vantavo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>Tag én VANTAVO tablet én gang ugentligt. </p>
+<p>Følg disse instruktioner nøje. </p>
+<ol>
+<li>Vælg den ugedag, der passer dig bedst. Tag én VANTAVO tablet hver uge på den valgte ugedag. </li>
+</ol>
+<p>Det er meget vigtigt, at du følger instruktionerne 2), 3), 4) og -5) for at VANTAVO-tabletten hurtigt 
+kan komme ned i maven og for at nedsætte risikoen for irritation af spiserøret (øsofagus – det rør der 
+forbinder din mund med maven). </p>
+<ol>
+<li>
+<p>Slug VANTAVO tabletten hel med et helt glas postevand (ikke mineralvand), mindst 200 ml, så 
+VANTAVO kan blive ordentligt optaget, efter du er stået op, og før du indtager mad, drikke eller 
+anden medicin. </p>
+</li>
+<li>
+<p>Tag ikke tabletten med mineralvand. </p>
+</li>
+<li>
+<p>Tag ikke tabletten med kaffe eller te. </p>
+</li>
+<li>
+<p>Tag ikke tabletten med juice eller mælk. </p>
+</li>
+</ol>
+<p>Du må ikke knuse eller tygge tabletten eller lade den blive opløst i munden på grund af risikoen for sår 
+i munden. </p>
+<ol>
+<li>Når du har slugt VANTAVO tabletten, må du ikke lægge dig ned – du skal forblive  </li>
+</ol>
+<p>oprejst (siddende, stående eller gående) i mindst 30 minutter. Du må ikke lægge dig ned,  </p>
+<p>før du har indtaget dagens første måltid. </p>
+<ol>
+<li>
+<p>Tag ikke VANTAVO ved sengetid, eller før du står op. </p>
+</li>
+<li>
+<p>Hvis du udvikler synkebesvær, synkesmerter, brystsmerter eller ny/forværret halsbrand,  </p>
+</li>
+</ol>
+<p>skal du stoppe med at tage VANTAVO og kontakte din læge. </p>
+<ol>
+<li>Når du har slugt VANTAVO tabletten, skal du vente mindst 30 minutter, før du indtager<br />
+dagens første måltid, drikke eller anden medicin, også syreneutraliserende midler, kalktilskud og 
+vitaminer. VANTAVO er kun effektivt, hvis det tages på tom mave. </li>
+</ol>
+<p>Hvis du har taget for meget VANTAVO<br />
+Hvis du ved en fejltagelse kommer til at tage for mange tabletter, skal du drikke et helt glas mælk og 
+straks kontakte din læge. Fremkald ikke opkastning og læg dig ikke ned. </p>
+<p>Hvis du har glemt at tage VANTAVO 
+Hvis du glemmer at tage en tablet, skal du blot tage en VANTAVO tablet om morgenen, efter du er 
+kommet i tanke om det. Tag ikke to tabletter på samme dag. Fortsæt med at tage én tablet om ugen, på 
+den ugedag, du oprindeligt har valgt. </p>
+<p>Hvis du holder op med at tage VANTAVO 
+Det er vigtigt, at du tager VANTAVO, så længe din læge foreskriver medicinen. Da det er ukendt, 
+hvor lang tid du skal tage VANTAVO, skal du med jævne mellemrum diskutere behovet for at 
+fortsætte med dette lægemiddel med din læge for at afgøre, om VANTAVO stadig er rigtigt for dig.  </p>
+<p>Der er vedlagt et instruktionskort i VANTAVO pakningen. Det angiver vigtig information, som vil 
+minde dig om, hvordan du skal tage VANTAVO korrekt. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Kontakt straks lægen, hvis du bemærker en eller flere af følgende bivirkninger, som kan være 
+alvorlige, og som kan kræve akut lægehjælp: 
+Almindelige (kan berøre op til 1 person ud af 10): </p>
+<ul>
+<li>Halsbrand, synkebesvær, synkesmerter, sårdannelse i spiserøret (øsofagus – det rør der forbinder 
+din mund med maven), som kan medføre smerter i brystet, halsbrand eller 
+synkebesvær/synkesmerter. </li>
+</ul>
+<p>Sjældne (kan berøre op til 1 person ud af 1 000): </p>
+<ul>
+<li>
+<p>Allergiske reaktioner som nældefeber; hævelse af ansigt, læber, tunge og/eller svælg, som 
+muligvis kan medføre vejrtræknings- og synkebesvær; svære hudreaktioner. </p>
+</li>
+<li>
+<p>Smerter i munden og/eller kæben, hævelser eller sår inde i munden, følelsesløshed eller 
+tyngdefornemmelse i kæben eller løse tænder. Dette kan være tegn på knogleskade i kæben 
+(knoglenekrose), der generelt er forbundet med forsinket sårheling og infektion, ofte efter 
+tandudtrækning. Kontakt din læge eller tandlæge, hvis du oplever disse symptomer.  </p>
+</li>
+<li>
+<p>Usædvanlige brud på lårbensknoglen, primært hos patienter i langtidsbehandling for 
+knogleskørhed, kan forekomme i sjældne tilfælde. Kontakt lægen hvis du får smerter, svaghed 
+eller ubehag i låret, hoften eller lysken, idet det kan være tidlige tegn på et muligt brud på 
+lårbensknoglen. </p>
+</li>
+<li>
+<p>Svære knogle- muskel- og/eller ledsmerter. </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>Usædvanlige brud andre steder end på lårbensknoglen. </li>
+</ul>
+<p>Andre bivirkninger 
+Meget almindelige (kan berøre mere end 1 person ud af 10):  </p>
+<ul>
+<li>Knogle- muskel- og/eller ledsmerter, som kan være voldsomme.  </li>
+</ul>
+<p>Almindelige (kan berøre op til 1 person ud af 10): </p>
+<ul>
+<li>
+<p>Ledhævelse </p>
+</li>
+<li>
+<p>Mavesmerter, ubehagsfølelse i maven eller opstød efter at have spist, forstoppelse, oppustet 
+mave, diarré, øget luftafgang fra tarmen. </p>
+</li>
+<li>
+<p>Hårtab, kløe. </p>
+</li>
+<li>
+<p>Hovedpine, svimmelhed. </p>
+</li>
+<li>
+<p>Træthed, hævede hænder eller ben. </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan berøre op til 1 person ud af 100): </p>
+<ul>
+<li>
+<p>Kvalme, opkastning. </p>
+</li>
+<li>
+<p>Irritation eller betændelse i spiserøret (øsofagus – det rør der forbinder din mund med maven) 
+eller i maven. </p>
+</li>
+<li>
+<p>Sort eller tjærelignende afføring. </p>
+</li>
+<li>
+<p>Sløret syn, smerte eller rødmen i øjet. </p>
+</li>
+<li>
+<p>Udslæt, rødmen af hud. </p>
+</li>
+<li>
+<p>Forbigående influenzalignende symptomer som for eksempel ømme muskler, generel 
+utilpashed og nogle gange feber, sædvanligvis i starten af behandlingen. </p>
+</li>
+<li>
+<p>Smagsforstyrrelser. </p>
+</li>
+</ul>
+<p>Sjældne (kan berøre op til 1 person ud af 1 000): </p>
+<ul>
+<li>
+<p>Symptomer på for lavt indhold af kalk i blodet omfattende muskelkramper eller trækninger 
+og/eller prikkende fornemmelse i fingrene eller omkring munden.  </p>
+</li>
+<li>
+<p>Mavesår eller sår i mave- og tarmkanalen (nogle gange alvorlige eller med blødning). </p>
+</li>
+<li>
+<p>Indsnævring af spiserøret (øsofagus – det rør der forbinder din mund med maven). </p>
+</li>
+<li>
+<p>Udslæt forværret af sollys. </p>
+</li>
+<li>
+<p>Sår i munden. </p>
+</li>
+</ul>
+<p>Meget sjældne (kan berøre op til 1 person ud af 10 000):  </p>
+<ul>
+<li>Sig det til lægen, hvis du får øresmerter, udflåd fra øret og/eller betændelse i øret. Dette kan 
+være tegn på knoglebeskadigelse i øret. </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vantavo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vantavo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakning og blister. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Opbevar lægemidlet i den originale blisterpakning for at beskytte mod fugt og lys. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VANTAVO indeholder: </p>
+<p>Aktive stoffer: Alendronsyre og cholecalciferol (D3-vitamin). Hver VANTAVO 70 mg/2.800 IE tablet<br />
+indeholder 70 mg alendronsyre (som natriumtrihydrat) og 70 mikrogram (2.800 IE) 
+cholecalciferol (D3-vitamin). Hver VANTAVO 70 mg/5.600 IE tablet indeholder 70 mg alendronsyre 
+(som natriumtrihydrat) og 140 mikrogram (5.600 IE) cholecalciferol (D3-vitamin). </p>
+<p>Øvrige indholdsstoffer: Mikrokrystallinsk cellulose (E460); lactose, vandfri (se punkt 2); triglycerider 
+middelkædelængde; gelatine; croscarmellosenatrium; saccharose (se punkt 2); silica, kolloid vandfri; 
+magnesiumstearat (E572); butyl hydroxytoluen (E321); modificeret majsstivelse og 
+natriumaluminiumsilicat (E554). </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>VANTAVO 70 mg/2.800 IE tabletter er modificeret kapselformede hvide/beige tabletter mærket med 
+omridset af en knogle på den ene side og "710" på den anden side. VANTAVO 70 mg/2.800 IE 
+tabletter fås i pakninger med 2, 4, 6 eller 12 tabletter. </p>
+<p>VANTAVO 70 mg/5.600 IE tabletter er modificeret rektangulære, hvide/beige tabletter, der er mærket 
+med omridset af en knogle på den ene side og "270" på den anden side. VANTAVO 70 mg/5.600 IE 
+tabletter fås i pakninger med 2, 4 eller 12 tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+N.V. Organon 
+Kloosterstraat 6 
+5349 AB Oss 
+Fremstiller 
+Merck Sharp &amp; Dohme B.V. 
+Waarderweg 2031 BN Haarlem 
+Holland 
+Holland </p>
+<p>Organon Heist bv<br />
+Industriepark 30<br />
+2220 Heist-op-den-Berg<br />
+Belgien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:  </p>
+<p>België/Belgique/Belgien 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Lietuva 
+Organon Pharma B.V. Lithuania atstovybė 
+Tel.: +370 52041dpoc.lithuania@organon.com </p>
+<p>България 
+Органон (И.А.) Б.В. - клон България 
+Тел.: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>Luxembourg/Luxemburg<br />
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Česká republika 
+Organon Czech Republic s.r.o. 
+Tel: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarország 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS<br />
+Tlf: +45 4484 6info.denmark@organon.com </p>
+<p>Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel: +356 2277 8dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland 
+N.V. Organon 
+Tel.: 00800 66550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>Eλλάδα 
+N.V. Organon 
+Τηλ: + 30-216 6008 
+Österreich 
+Organon Healthcare GmbH<br />
+Tel: +49 (0) 89 2040022 dpoc.austria@organon.com 
+España 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 organon_info@organon.com </p>
+<p>Polska 
+Organon Polska Sp. z o.o. 
+Tel.: +48 22 105 50 organonpolska@organon.com </p>
+<p>France 
+Organon France<br />
+Tél: +33 (0) 1 57 77 32<br />
+Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: +385 1 638 4dpoc.croatia@organon.com </p>
+<p>România 
+Organon Biosciences S.R.L. 
+Tel: +40 21 527 29 dpoc.romania@organon.com<br />
+Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podružnica Ljubljana 
+Tel: +386 1 300 10 dpoc.slovenia@organon.com 
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
+<p>Ιtalia 
+Neopharmed Gentili S.p.A. 
+Tel. + 39 02 89 13 regulatory@neogen.it </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Κύπρος 
+Organon Pharma B.V., Cyprus branch 
+Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
+<p>Latvija 
+Ārvalsts komersanta “Organon Pharma B.V." 
+pārstāvniecība 
+Tel: +371 66968dpoc.latvia@organon.com </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited<br />
+Tel: +44 (0) 208 159 3593<br />
+medicalinformationuk@organon.com  </p>
+<p>Denne indlægsseddel blev senest ændret &lt;{MM/YYYY}&gt; </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-bbd22ba876ae7309a2b1061a1e9bb063
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for vantavo Package Leaflet for language en"
@@ -463,5 +1026,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-bbd22ba876ae7309a2b1061a1e9bb063"
 * entry[0].resource = composition-en-bbd22ba876ae7309a2b1061a1e9bb063
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbbd22ba876ae7309a2b1061a1e9bb063"
+* entry[=].resource = mpbbd22ba876ae7309a2b1061a1e9bb063
+                            
+                    
+Instance: bundlepackageleaflet-da-bbd22ba876ae7309a2b1061a1e9bb063
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vantavo Package Leaflet for language da"
+Description: "ePI document Bundle for vantavo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-bbd22ba876ae7309a2b1061a1e9bb063"
+* entry[0].resource = composition-da-bbd22ba876ae7309a2b1061a1e9bb063
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbbd22ba876ae7309a2b1061a1e9bb063"
+* entry[=].resource = mpbbd22ba876ae7309a2b1061a1e9bb063
+                            
+                    
+
+
+
+Instance: mpbbd22ba876ae7309a2b1061a1e9bb063
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product vantavo"
+Description: "vantavo"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "VANTAVO 70 mg/2,800 IU tablets"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "VANTAVO is indicated for the treatment of postmenopausal osteoporosis in women at risk of"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "vantavo"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: bbd22ba876ae7309a2b1061a1e9bb063ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vantavo"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with vantavo"
+
+* subject = Reference(mpf5cc6671fc06f50d7ad78bf7f6ef7c3d)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vantavo "vantavo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-bbd22ba876ae7309a2b1061a1e9bb063) // vantavo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-bbd22ba876ae7309a2b1061a1e9bb063) // vantavo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-bbd22ba876ae7309a2b1061a1e9bb063
+InstanceOf: List
+
+* insert bbd22ba876ae7309a2b1061a1e9bb063ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8e3f73294a020fb836dccebb0eb47004
 InstanceOf: CompositionUvEpi
 Title: "Composition for firdapse Package Leaflet"
@@ -273,12 +276,341 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-8e3f73294a020fb836dccebb0eb47004
+InstanceOf: CompositionUvEpi
+Title: "Composition for firdapse Package Leaflet"
+Description:  "Composition for firdapse Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3a5921b11535c76765b4b0879a2b5d42)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3a5921b11535c76765b4b0879a2b5d42
+* title = "TEST PURPOSES ONLY - firdapse"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage FIRDAPSE 
+3. Sådan skal du tage FIRDAPSE 
+4. Bivirkninger 
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What firdapse is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What firdapse is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>FIRDAPSE anvendes til behandling af voksne for symptomer på en sygdom, der kaldes 
+Lambert-Eatons syndrom, som påvirker nerver og muskler. Denne sygdom medfører forstyrrelse i 
+overføringen af nerveimpulser til musklerne, hvilket resulterer i muskelsvaghed. Den kan være 
+sammenkoblet med visse tumortyper (paraneoplastisk form af Lambert-Eatons syndrom) eller fravær 
+af sådanne tumorer (ikke-paraneoplastisk form for Lambert-Eatons syndrom). </p>
+<p>Hos patienter, som lider af denne sygdom mindskes frigivelsen af et kemisk stof kaldet acetylcholin, 
+som normalt formidler nerveimpulser til musklerne, og musklerne kan ikke modtage nogle af eller alle 
+signalerne fra nerven.  </p>
+<p>FIRDAPSE virker ved at øge frigivelsen af acetylcholin og hjælper musklen til at modtage 
+nervesignalerne. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take firdapse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take firdapse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke FIRDAPSE 
+Hvis du er allergisk over for amifampridin eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). 
+Hvis du har ukontrolleret astma 
+Hvis du har epilepsi, 
+Sammen med lægemidler, der kan ændre dit hjertes elektriske aktivitet (Forlænget QT-interval - 
+påvises ved elektrokardiogram), såsom: 
+Sultroprid (et lægemiddel til behandling af visse adfærdsforstyrrelser hos voksne) 
+Lægemidler mod hjerterytmeforstyrrelser (f.eks. disopyramid)<br />
+Lægemidler til behandling af fordøjelsesproblemer (f.eks. cisaprid, domperidon) 
+Lægemidler til behandling af infektioner - antibiotika (f.eks. rifampicin) og lægemidler til behandling 
+af svampeinfektioner (f.eks. ketoconazol) 
+Sammen med lægemidler, som har en terapeutisk dosis, som ligger tæt på den maksimale sikre dosis 
+Hvis du har medfødte hjerteproblemer (medfødt QT-syndrom). </p>
+<p>Spørg lægen eller apoteket til råds, hvis du er tvivl. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apoteketspersonalet, før du tager FIRDAPSE. </p>
+<p>Fortæl det til lægen, hvis du har:<br />
+Astma 
+Tidligere har haft anfald (kramper) 
+Nyreproblemer 
+Leverproblemer </p>
+<p>Din læge vil nøje holde øje med, hvordan FIRDAPSE påvirker dig, og vil måske være nødt til at 
+ændre den dosis, du tager. Din læge vil også holde øje med dit hjerte ved behandlingens begyndelse og 
+derefter hvert år. </p>
+<p>Hvis du har Lambert-Eatons syndrom, men ikke har kræft, vil din læge foretage en grundig vurdering 
+af din potentielle risiko for at udvikle kræft ved brug af FIRDAPSE, inden behandlingen indledes. </p>
+<p>Fortæl det til alle læger, du konsulterer, at du tager FIRDAPSE. </p>
+<p>Stop behandlingen og kontakt straks lægen i tilfælde af: 
+Anfald (kramper) 
+Astma </p>
+<p>Brug af anden medicin sammen med FIRDAPSE 
+Fortæl det altid til lægen, hvis du tager anden medicin eller har gjort det for nylig. </p>
+<p>Visse lægemidler kan reagere med FIRDAPSE ved samtidig indtagelse. Følgende lægemidler må ikke 
+tages samtidig med FIRDAPSE:<br />
+Lægemidler, der kan ændre dit hjertes elektriske aktivitet (Forlænget QT-interval - påvises ved 
+elektrokardiogram) f.eks. sultoprid, disopyramid, cisaprid, domperidon, rifampicin, og ketoconazol (se 
+“ Tag ikke FIRDAPSE") </p>
+<p>Det er særlig vigtigt at tale med din læge, hvis du tager et af følgende lægemidler eller har planer om 
+at tage følgende lægemidler: 
+Malariamedicin (f.eks. halofantrin og mefloquin) 
+Tramadol (et smertestillende middel) 
+Antidepressiv medicin - tricykliske antidepressiver (f.eks. clomipramin, amoxapin), selektive 
+serotonin-genoptagelseshæmmere (f.eks. citalopram, dapoxetin) og atypiske antidepressiva (f.eks. 
+bupropion) 
+Lægemidler mod mentale problemer (f.eks. haloperidol, carbamazepin, chlorpromazin, clozapin) 
+Lægemidler til behandling af Parkinsons sygdom - antikolinerge midler (f.eks. trihexylphenidyl, 
+mesylat), MAO-B-hæmmere (f.eks. selegilin, deprenyl), COMT-hæmmere (f.eks. entacapon). 
+Lægemidler til behandling af allergi - antihistaminer (f.eks. terfenadin, astemizol, cimetidin) 
+Muskelafslappende lægemidler (f.eks. mivacurium, pipercurium, suxamethonium) 
+Beroligende midler (f.eks. barbiturater) </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.  </p>
+<p>FIRDAPSE må ikke bruges under graviditet. Du skal bruge sikker prævention under hele 
+behandlingen. Hvis du under behandlingen opdager, at du er gravid, skal du straks fortælle det til din 
+læge.  </p>
+<p>Det vides ikke, om FIRDAPSE udskilles i human brystmælk. Du og din læge bør tale sammen om 
+fordele og ulemper ved fortsat at tage FIRDAPSE, mens du ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Denne medicin kan forårsage døsighed, svimmelhed, anfald (kramper) og sløret syn, som kan påvirke 
+din evne til at føre motorkøretøj eller betjene maskiner. Kør ikke bil eller motorcykel, og lad være med 
+at cykle eller arbejde med værktøj eller maskiner, hvis du oplever disse bivirkninger. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take firdapse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take firdapse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på apoteket. </p>
+<p>Lægen anviser, hvor stor en dosis du skal tage, på baggrund af intensiteten af dine symptomer og visse 
+genetiske faktorer. Denne dosis er tilpasset specielt til dig. </p>
+<p>Startdosis er 5 mg amifampridin (en halv tablet) tre gange dagligt (dvs. 15 mg/dag). Lægen kan øge 
+denne dosis langsomt, først til 5 mg (en halv tablet) fire gange dagligt (dvs. 20 mg/dag), og derefter 
+kan lægen fortsætte med at øge den daglige dosis med 5 mg (en halv tablet) om dagen hver 4. eller 
+hver 5. dag.  </p>
+<p>Den maksimale, anbefalede dosis er 60 mg/dag (dvs. i alt seks tabletter, som tages jævnt fordelt over 
+dagen). Daglige doser på over 20 mg bør opdeles i to til fire separate doser. En enkelt dosis bør ikke 
+overstige 20 mg (to tabletter). </p>
+<p>Tabletterne har en særlig delekærv, så de nemt kan brækkes over i to halvdele. Tabletterne synkes med 
+lidt vand og skal indtages sammen med mad. </p>
+<p>Patienter med lever-/nyreproblemer: 
+FIRDAPSE skal anvendes med forsigtighed til patienter med nyre- eller leverproblemer. Der anbefales 
+en startdosis på 5 mg (en halv tablet) FIRDAPSE dagligt til patienter med moderate eller alvorlige 
+nyre- eller leverproblemer. Der anbefales en startdosis på 10 mg (5 mg to gange dagligt) FIRDAPSE 
+dagligt til patienter med milde nyre- eller leverproblemer. Hos disse patienter bør dosis af FIRDAPSE 
+øges langsommere end hos patienter uden nyre- eller leverproblemer, og doserne bør øges med 5 mg 
+hver 7. dag. Henvend dig straks til lægen, hvis der opstår bivirkninger, da du måske skal stoppe med at 
+øge dosis. </p>
+<p>Hvis du har taget for meget FIRDAPSE 
+Hvis du har taget for meget FIRDAPSE, kan du kaste op eller få ondt i maven. Fortæl det straks til 
+lægen eller apoteket, hvis du oplever et eller flere af disse symptomer. </p>
+<p>Hvis du har glemt at tage FIRDAPSE 
+Hvis du glemmer at tage FIRDAPSE, må du ikke tage en dobbeltdosis som erstatning for den glemte 
+dosis, men skal fortsætte behandlingen som anvist af lægen. </p>
+<p>Hvis du holder op med at tage FIRDAPSE 
+Du kan opleve symptomer som f.eks. træthed, langsomme reflekser og forstoppelse, hvis behandlingen 
+stoppes. Stop ikke behandlingen uden at have talt med din læge. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Stop behandlingen og kontakt straks lægen i tilfælde af: 
+Anfald (kramper) 
+Astma </p>
+<p>Meget almindelige bivirkninger, som kan påvirke mere end 1 ud af 10 personer, er: 
+Snurren og følelsesløshed omkring munden og lemmerne (f.eks. fødder og hænder)<br />
+Reduceret berøringssans eller fornemmelse 
+Kvalme 
+Svimmelhed 
+Øget svedafsondring, koldsved </p>
+<p>Almindelige bivirkninger, som kan påvirke op til 1 ud af 10 personer er: 
+Mavepine 
+Kolde hænder og fødder </p>
+<p>Andre bivirkninger er: 
+Intensiteten og forekomsten af de fleste bivirkninger er afhængig af dosis. Følgende bivirkninger er 
+også set (hyppigheden kan ikke beregnes ud fra de tilgængelige data): 
+Raynauds syndrom (kredsløbslidelse, der rammer fingre og tæer) 
+Diarré 
+Anfald (kramper) 
+Hoste, øget eller viskøs slim i luftvejene, astmaanfald hos astmapatienter eller patienter, der tidligere 
+har haft astma 
+Sløret syn 
+Hjerterytmeforstyrrelser, hurtige eller uregelmæssige hjerteslag (palpitationer) 
+Svaghed, træthed, hovedpine 
+Angst, søvnforstyrrelser, døsighed 
+Chorea (bevægelsesforstyrrelse), myokloni (muskelspasme eller muskeltrækninger) 
+Øget niveau af visse leverenzymer (transaminaser), der ses i blodprøver </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store firdapse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store firdapse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale yderpakning for at 
+beskytte mod lys og fugt. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>FIRDAPSE indeholder<br />
+Aktivt stof: amifampridin. Hver tablet indeholder amifampridinphosphat svarende til 10 mg 
+amifampridin. 
+Øvrige indholdsstoffer: mikrokrystallinsk cellulose, kolloid vandfri silica og calciumstearat. 
+Udseende og pakningsstørrelse 
+Hvid, rund tablet med én flad side og delekærv på den anden side. 
+Tabletterne kan deles i to lige store halvdele. 
+Perforerede, termoformede dosisblisterplader (termoformede aluminium/PVC/PVDC laminatplader) 
+indeholdende 10 tabletter. 
+En æske indeholdende 100 tabletter bestående af 10 plader med hver 10 tabletter. 
+Indehaver af markedsføringstilladelsen 
+SERB S.A.<br />
+Avenue Louise 480 <br />
+1050 Bruxelles 
+Belgien 
+Fremstiller 
+EXCELLA GmbH &amp; Co. KG 
+Nürnberger Strasse 90537 Feucht 
+Tyskland 
+SERB S.A.<br />
+Avenue Louise 480<br />
+1050 Bruxelles 
+Belgien 
+Denne indlægsseddel blev senest ændret 
+Dette lægemiddel er godkendt under “særlige omstændigheder". Det betyder, at det ikke har været 
+muligt at opnå fuldstændig dokumentation for lægemidlet, fordi det anvendes til en sjælden sygdom. 
+Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
+indlægsseddel vil om nødvendigt blive ajourført. 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8e3f73294a020fb836dccebb0eb47004
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for firdapse Package Leaflet for language en"
+Description: "ePI document Bundle for firdapse Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8e3f73294a020fb836dccebb0eb47004"
+* entry[0].resource = composition-en-8e3f73294a020fb836dccebb0eb47004
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e3f73294a020fb836dccebb0eb47004"
+* entry[=].resource = mp8e3f73294a020fb836dccebb0eb47004
+                            
+                    
+Instance: bundlepackageleaflet-da-8e3f73294a020fb836dccebb0eb47004
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for firdapse Package Leaflet for language da"
+Description: "ePI document Bundle for firdapse Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8e3f73294a020fb836dccebb0eb47004"
+* entry[0].resource = composition-da-8e3f73294a020fb836dccebb0eb47004
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e3f73294a020fb836dccebb0eb47004"
+* entry[=].resource = mp8e3f73294a020fb836dccebb0eb47004
+                            
+                    
+
+
+
+Instance: mp8e3f73294a020fb836dccebb0eb47004
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product FIRDAPSE 10 mg tablets"
-Description: "FIRDAPSE 10 mg tablets"
+Title: "Medicinal Product firdapse"
+Description: "firdapse"
 Usage: #inline
 
  
@@ -298,7 +630,7 @@ Usage: #inline
 
 
 * name
-  * productName = "FIRDAPSE 10 mg tablets"
+  * productName = "firdapse"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -325,29 +657,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8e3f73294a020fb836dccebb0eb47004
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for firdapse Package Leaflet for language en"
-Description: "ePI document Bundle for firdapse Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8e3f73294a020fb836dccebb0eb47004ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/601/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "firdapse"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8e3f73294a020fb836dccebb0eb47004"
-* entry[0].resource = composition-en-8e3f73294a020fb836dccebb0eb47004
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3a5921b11535c76765b4b0879a2b5d42"
-* entry[=].resource = mp3a5921b11535c76765b4b0879a2b5d42
-                            
-                      
+* title = "List of all ePIs associated with firdapse"
+
+* subject = Reference(mp3a5921b11535c76765b4b0879a2b5d42)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#firdapse "firdapse"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8e3f73294a020fb836dccebb0eb47004) // firdapse en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8e3f73294a020fb836dccebb0eb47004) // firdapse da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8e3f73294a020fb836dccebb0eb47004
+InstanceOf: List
+
+* insert 8e3f73294a020fb836dccebb0eb47004ListRuleset
+    

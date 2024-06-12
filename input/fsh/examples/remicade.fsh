@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0c99db4eccd07c1cf26c691487dc71e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for remicade Package Leaflet"
@@ -648,12 +651,985 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-0c99db4eccd07c1cf26c691487dc71e8
+InstanceOf: CompositionUvEpi
+Title: "Composition for remicade Package Leaflet"
+Description:  "Composition for remicade Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp55dd88a6a3c7ff2aa8fe7a55cc4dc096)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp55dd88a6a3c7ff2aa8fe7a55cc4dc096
+* title = "TEST PURPOSES ONLY - remicade"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du får Remicade
+3. Sådan får du Remicade
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What remicade is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What remicade is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remicade indeholder det aktive stof infliximab. Infliximab er et monoklonalt antistof - en type 
+protein, der binder sig til et specifikt mål i kroppen kaldet TNF (tumor nekrose faktor) alfa.
+Remicade tilhører en medicingruppe kaldet "TNF-blokkere". Det bruges til voksne til behandling af 
+følgende betændelsessygdomme:
+
+Reumatoid arthritis
+
+Psoriasisarthritis
+
+Ankyloserende spondylitis (Bekhterevs sygdom)
+
+Psoriasis.
+Remicade bruges også til voksne og børn fra 6 år og opefter til behandling af:
+
+Crohns sygdom
+
+Colitis ulcerosa.
+Remicade virker ved selektivt at binde sig til TNF alfa og blokere dets virkning. TNF alfa er 
+involveret i kroppens betændelsesprocesser, så blokering af dette kan mindske betændelsen i din krop.
+Reumatoid arthritis
+Reumatoid arthritis er en betændelsessygdom i leddene. Hvis du har aktiv reumatoid arthritis, vil du
+først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remicade, som du
+skal tage sammen med et andet lægemiddel, der hedder methotrexat, for at:
+
+Reducere tegn og symptomer på din sygdom
+
+Forsinke skaden i dine led
+
+Forbedre din fysiske funktionsevne.
+48
+Psoriasisarthritis
+Psoriasisarthritis er en betændelsessygdom i leddene, almindeligvis ledsaget af psoriasis. Hvis du har 
+aktiv psoriasisarthritis, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, 
+vil du få Remicade for at:
+
+Reducere tegn og symptomer på din sygdom
+
+Forsinke skaden i dine led
+
+Forbedre din fysiske funktionsevne.
+Ankyloserende spondylitis (Bekhterevs sygdom)
+Ankyloserende spondylitis er en betændelsessygdom i rygraden. Hvis du lider af ankyloserende 
+spondylitis, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få 
+Remicade for at:
+
+Reducere tegn og symptomer på din sygdom
+
+Forbedre din fysiske funktionsevne.
+Psoriasis
+Psoriasis er en betændelsessygdom i huden. Hvis du har moderat til svær plaque psoriasis, vil du først 
+få andre lægemidler eller behandlinger, såsom lysterapi. Hvis disse lægemidler eller behandlinger ikke 
+virker godt nok, vil du få Remicade for at reducere tegn og symptomer på din sygdom.
+Colitis ulcerosa
+Colitis ulcerosa er en betændelsessygdom i tarmen. Hvis du lider af colitis ulcerosa, vil du først få 
+andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remicade til behandling af din
+sygdom.
+Crohns sygdom
+Crohns sygdom er en betændelsessygdom i tarmen. Hvis du lider af Crohns sygdom, vil du først få 
+andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remicade for at:
+
+Behandle aktiv Crohns sygdom
+
+Sænke antallet af unormale åbninger (fistler) mellem din tarm og hud, der ikke har kunnet 
+behandles tilfredsstillende med andre lægemidler eller operation.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take remicade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take remicade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Remicade
+
+hvis du er allergisk over for infliximab eller et af de øvrige indholdsstoffer i Remicade (angivet 
+i punkt 6).
+
+hvis du er allergisk over for proteiner, som stammer fra mus.
+
+hvis du har tuberkulose (TB) eller en anden alvorlig infektion, såsom lungebetændelse eller 
+blodforgiftning (sepsis).
+
+hvis du har hjertesvigt i moderat eller svær grad.
+Du må ikke få Remicade, hvis noget af ovenstående passer på dig. Hvis du er i tvivl, så tal med din
+læge, før du får Remicade.
+Advarsler og forsigtighedsregler
+Kontakt lægen, før eller under behandlingen med Remicade, hvis du har:
+Været i behandling med Remicade tidligere
+
+Fortæl din læge, hvis du tidligere har været i behandling med Remicade og nu starter 
+behandling med Remicade igen.
+Hvis du har holdt pause i Remicade-behandlingen i over 16 uger, er der en højere risiko for at få 
+en allergisk reaktion, når du starter behandlingen igen.
+49
+Infektioner
+
+Fortæl din læge, før du får Remicade, hvis du har en infektion, også selvom det er en 
+meget let infektion.
+
+Fortæl din læge, før du får Remicade, hvis du nogensinde har boet eller rejst i et område, 
+hvor infektioner kaldet histoplasmose, kokcidioidomykose eller blastomykose er 
+almindelige. Disse infektioner forårsages af særlige svampetyper, som kan påvirke 
+lungerne eller andre dele af kroppen.
+
+Du har lettere ved at få infektioner, når du er i behandling med Remicade. Du har en 
+højere risiko, hvis du er 65 år eller derover.
+
+Disse infektioner kan være alvorlige og indbefatter tuberkulose, infektioner forårsaget af 
+virus, svampe, bakterier eller andre organismer i miljøet samt blodforgiftning, som kan 
+være livstruende.
+Fortæl straks din læge, hvis du får tegn på infektion under behandling med Remicade. Tegn 
+inkluderer feber, hoste, influenzalignende symptomer, utilpashed, rød eller ophedet hud, sår 
+eller problemer med tænderne. Din læge kan anbefale en midlertidig pause med Remicade.
+Tuberkulose (TB)
+
+Det er meget vigtigt, at du fortæller din læge, hvis du nogensinde har haft TB, eller hvis 
+du har været i tæt kontakt med en person, som har eller har haft TB.
+
+Din læge vil teste dig for at se, om du har TB. Tilfælde af TB har været rapporteret hos 
+patienter i behandling med Remicade, også hos patienter, der allerede har været i 
+behandling med medicin mod TB. Din læge vil notere disse tests på dit
+patientinformationskort.
+
+Hvis din læge tror, at du har risiko for at få TB, kan du blive behandlet med lægemidler 
+mod TB, inden du får Remicade.
+Fortæl straks din læge, hvis du får tegn på TB under behandlingen med Remicade. Tegn 
+inkluderer vedvarende hoste, vægttab, træthedsfølelse, feber eller natlig svedtendens.
+Hepatitis B-virus
+
+Fortæl din læge, før du får Remicade, hvis du er bærer af hepatitis B, eller hvis du 
+nogensinde har haft det.
+
+Fortæl din læge, hvis du tror, du kan have en risiko for at blive smittet med hepatitis B.
+
+Din læge skal teste dig for hepatitis B.
+
+Behandling med TNF-blokkere, såsom Remicade, kan medføre, at hepatitis B igen bliver 
+aktiv hos patienter, som bærer denne virus. Dette kan i nogle tilfælde være livstruende.
+Hjerteproblemer
+
+Fortæl din læge, hvis du har nogen form for hjerteproblemer, såsom let hjertesvigt.
+
+Din læge vil nøje overvåge dit hjerte.
+Fortæl straks din læge, hvis du får nye eller forværrede tegn på hjertesvigt under behandlingen 
+med Remicade. Tegn inkluderer åndenød eller hævede fødder.
+Kræft og lymfom
+
+Fortæl din læge, før du får Remicade, hvis du har eller nogensinde har haft lymfom (en 
+type blodkræft) eller enhver anden form for kræft.
+
+Patienter med alvorlig reumatoid arthritis, som har haft sygdommen i lang tid, kan have 
+en større risiko for at udvikle lymfom.
+
+Børn og voksne i behandling med Remicade kan have en øget risiko for at udvikle 
+lymfom eller anden form for kræft.
+
+Nogle patienter, som har fået TNF-blokerende behandling, herunder Remicade, har 
+udviklet en sjælden kræftform kaldet hepatosplenisk T-celle-lymfom. Af disse patienter 
+var de fleste teenagedrenge eller unge mænd, hvoraf de fleste havde enten Crohns 
+sygdom eller colitis ulcerosa. Denne type kræft har oftest haft dødelig udgang. Næsten 
+alle patienterne havde også fået medicin, der indeholder azathioprin eller 6-
+mercaptopurin ud over den TNF-blokerende behandling.
+50
+
+Nogle patienter, der er blevet behandlet med infliximab, har udviklet visse former for 
+hudkræft. Hvis der er forandringer i huden eller svulster på huden under eller efter 
+behandlingen, skal du fortælle det til lægen.
+
+Nogle kvinder, der er blevet behandlet for reumatoid arthritis med Remicade, har udviklet 
+livmoderhalskræft. Lægen kan tilråde, at kvinder, der får Remicade, herunder kvinder 
+over 60 år, bliver regelmæssigt screenet for livmoderhalskræft.
+Lungesygdom eller højt tobaksforbrug
+
+Fortæl din læge, før du får Remicade, hvis du har en lungesygdom kaldet kronisk 
+obstruktiv lungesygdom (KOL, rygerlunger), eller hvis du er storryger.
+
+Patienter med KOL og patienter, som er storrygere, kan have en øget risiko for at udvikle 
+kræft under behandling med Remicade.
+Sygdom i nervesystemet
+
+Fortæl din læge, hvis du har eller nogensinde har haft en lidelse, som påvirker dit
+nervesystem, før du får Remicade. Dette inkluderer dissemineret sklerose, Guillain-Barré 
+syndrom, hvis du har krampeanfald eller har fået stillet diagnosen "optisk neuritis" 
+(betændelse i synsnerven).
+Fortæl straks din læge, hvis du får symptomer på en nervesygdom under behandlingen med 
+Remicade. Tegn inkluderer synsændringer, muskelsvaghed i arme eller ben, følelsesløshed eller 
+prikken et sted i kroppen.
+Unormale hudåbninger
+
+Fortæl din læge, hvis du har unormale hudåbninger (fistler), før du får Remicade.
+Vaccinationer
+
+Tal med din læge, hvis du lige er blevet eller har planlagt at blive vaccineret.
+
+Du skal have de anbefalede vaccinationer, før du starter behandling med Remicade. Der 
+er visse vaccinationer, du kan få, mens du er i behandling med Remicade, men du må 
+ikke få levende vacciner (vacciner der indeholder et levende men svækket smitstof), da de 
+kan give infektioner.
+
+Hvis du har fået Remicade, mens du var gravid, kan dit barn også have en større risiko for 
+at få en infektion som et resultat af at have fået en levende vaccine i løbet af det første 
+leveår. Det er vigtigt, at du fortæller dit barns læger og andet sundhedspersonale, at du får
+Remicade, så de kan finde frem til, hvornår dit barn skal vaccineres; det gælder også 
+levende vacciner som BCG-vaccinen (bruges til at forebygge tuberkulose).
+
+Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet
+sundhedspersonale, at du har fået Remicade, før barnet bliver vaccineret. Se afsnittet om 
+Graviditet, amning og frugtbarhed for yderligere information.
+Terapeutiske smitstoffer
+
+Tal med din læge, hvis du fornylig har fået eller det er planlagt, at du skal have 
+behandling med et terapeutisk smitstof (fx instillation af BCG til behandling af kræft).
+Operationer eller tandindgreb
+
+Fortæl din læge, hvis du skal have foretaget en operation eller et tandindgreb.
+
+Fortæl kirurgen eller tandlægen, at du er i behandling med Remicade ved at vise dem dit
+patientinformationskort.
+Leverproblemer
+
+Nogle patienter, der får Remicade, har udviklet alvorlige leverproblemer.
+Fortæl det straks til lægen, hvis du får symptomer på leverproblemer under behandlingen med 
+Remicade. Tegn omfatter gulfarvning af hud og øjne, mørkebrun urin, smerter eller hævelse i 
+øvre højre side af maven, ledsmerter, hududslæt eller feber.
+51
+Lave blodtal
+
+Hos nogle patienter, som får Remicade, kan kroppen måske ikke lave nok af de 
+blodlegemer, der skal hjælpe med at bekæmpe infektioner eller stoppe blødning.
+Fortæl det straks til lægen, hvis du får symptomer på lave blodtal under behandlingen med 
+Remicade. Tegn omfatter vedvarende feber, større tendens til blødning eller blå mærker, små 
+røde eller lilla pletter, der skyldes blødning under huden, eller bleghed.
+Sygdomme i immunsystemet
+
+Nogle patienter, der får Remicade, har udviklet symptomer på en sygdom i 
+immunsystemet kaldet lupus.
+Fortæl det straks til lægen, hvis du får symptomer på lupus under behandlingen med Remicade. 
+Tegn omfatter ledsmerter eller udslæt på kinder eller arme, som er følsomme over for solen.
+Børn og unge
+Ovenstående oplysninger gælder også for børn og unge. Derudover gælder, at:
+
+Nogle børn og unge, som har fået TNF-blokkere såsom Remicade, har udviklet kræft inklusive 
+usædvanlige typer kræft, som i visse tilfælde har været dødelige.
+
+Flere børn end voksne, der får Remicade, fik infektioner.
+
+Børn skal have de anbefalede vaccinationer, før behandling med Remicade påbegyndes.
+Børn kan få visse vacciner under behandlingen med Remicade, men må ikke få levende 
+vacciner, mens de får Remicade.
+Hvis du er i tvivl, om noget af ovenstående passer på dig, skal du tale med din læge, før du får 
+Remicade.
+Brug af andre lægemidler sammen med Remicade
+Patienter, som har betændelsessygdomme, tager allerede lægemidler for at behandle deres lidelse. 
+Disse lægemidler kan give bivirkninger. Din læge vil rådgive dig om, hvilke andre lægemidler du skal 
+blive ved med at tage, mens du er i behandling med Remicade.
+Fortæl altid lægen, hvis du bruger andre lægemidler, for nylig har brugt andre lægemidler eller 
+planlægger at bruge andre lægemidler. Dette gælder også lægemidler til behandling af Crohns 
+sygdom, colitis ulcerosa, reumatoid arthritis, ankyloserende spondylitis, psoriasisarthritis eller 
+psoriasis eller lægemidler, som ikke er købt på recept, fx naturlægemidler og vitaminer og mineraler.
+Det er specielt vigtigt, at du fortæller din læge, hvis du får nogen af følgende lægemidler:
+
+Lægemidler som påvirker dit immunsystem.
+
+Kineret (anakinra). Du må ikke få Remicade og Kineret samtidig.
+
+Orencia (abatacept). Du må ikke få Remicade og Orencia samtidig.
+Du må ikke få levende vacciner, mens du får Remicade. Hvis du har fået Remicade, mens du var 
+gravid, eller hvis du får Remicade, mens du ammer, skal du fortælle dit barns læge og andet 
+sundhedspersonale, der tager sig af dit barn, at du har fået Remicade, før barnet bliver vaccineret.
+Hvis du er i tvivl, om noget af ovenstående passer på dig, skal du tale med din læge eller 
+apotekspersonalet, før du får Remicade.
+Graviditet, amning og frugtbarhed
+
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge lægen til råds, før du får dette lægemiddel. Du må kun få Remicade under 
+graviditeten, eller mens du ammer, hvis lægen finder det nødvendigt.
+
+Du skal undgå at blive gravid, mens du er i behandling med Remicade, og i mindst 6 måneder 
+efter du er stoppet med behandlingen. Tal med lægen om anvendelse af prævention i denne 
+tidsperiode.
+
+Hvis du fik Remicade under graviditeten, kan dit barn have en øget risiko for at få en infektion.
+52
+
+Det er vigtigt, at du fortæller dit barns læge og andet sundhedspersonale, at du har fået
+Remicade, før barnet bliver vaccineret. Hvis du har fået Remicade under graviditeten, kan 
+vaccination af dit barn med BCG-vaccine (bruges til at forebygge tuberkulose) inden for 
+12 måneder efter fødslen medføre infektion med alvorlige komplikationer herunder død. Dit 
+barn må ikke få levende vacciner som BCG-vaccinen inden for 12 måneder efter fødslen, 
+medmindre barnets læge anbefaler noget andet. For mere information, se afsnit om vaccination.
+
+Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet sundhedspersonale, at du 
+har fået Remicade, før barnet bliver vaccineret. Dit barn må ikke få levende vacciner, mens du 
+ammer, medmindre barnets læge anbefaler noget andet.
+
+Alvorligt fald i antal hvide blodlegemer er set hos spædbørn født af kvinder, der er blevet 
+behandlet med Remicade under graviditeten. Hvis dit barn hyppigt får feber eller infektioner, 
+skal du omgående kontakte barnets læge.
+Trafik- og arbejdssikkerhed
+Remicade påvirker sandsynligvis ikke arbejdssikkerheden eller evnen til at færdes sikkert i trafikken. 
+Hvis du føler dig træt, svimmel eller utilpas efter at have fået Remicade, må du ikke køre bil eller 
+betjene nogen form for maskiner.
+Remicade indeholder natrium
+Remicade indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det væsentlige 
+"natriumfrit". Men før du får Remicade, blandes det sammen med en opløsning, som indeholder 
+natrium. Tal med din læge, hvis du er på en diæt med et lavt saltindhold.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take remicade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take remicade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reumatoid arthritis
+Den sædvanlige dosis er 3 mg pr. kg kropsvægt.
+Psoriasisarthritis, ankyloserende spondylitis (Bekhterevs sygdom), psoriasis, colitis ulcerosa og 
+Crohns sygdom
+Den sædvanlige dosis er 5 mg pr. kg kropsvægt.
+Sådan får du Remicade
+
+Du vil få Remicade af din læge eller sygeplejerske.
+
+Din læge eller sygeplejerske vil klargøre medicinen til infusion.
+
+Medicinen vil blive givet som en infusion (drop) (over 2 timer) i en af dine blodårer (vener),
+sædvanligvis i armen. Efter den tredje behandling kan din læge beslutte at give dig din dosis 
+Remicade over 1 time.
+
+Du vil blive overvåget, mens du får Remicade og i 1-2 timer derefter.
+Den sædvanlige dosis
+
+Lægen vil bestemme din dosis og hvor ofte, du skal have Remicade. Dette vil afhænge af din
+sygdom, vægt og hvor godt, du reagerer på Remicade.
+
+Tabellen nedenfor viser, hvor ofte du sædvanligvis vil få denne medicin efter din første dosis.
+2. dosis
+2 uger efter din 1. dosis
+3. dosis
+6 uger efter din 1. dosis
+Efterfølgende doser
+Hver 6. til 8. uge afhængig af din sygdom
+Brug til børn og unge
+Remicade må kun anvendes til børn, hvis de behandles for Crohns sygdom eller colitis ulcerosa. 
+Børnene skal være 6 år eller ældre.
+53
+Hvis du får for meget Remicade
+Da du får denne medicin af din læge eller sygeplejerske, er det usandsynligt, at du vil få for meget. 
+Der kendes ikke til bivirkninger efter at have fået for meget Remicade.
+Hvis du har glemt eller kommer for sent til din Remicade-infusion
+Hvis du glemmer eller kommer for sent til en aftale, hvor Remicade gives, skal du lave en ny aftale så 
+hurtigt som muligt.
+Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger er lette til moderate. Nogle patienter kan dog opleve alvorlige bivirkninger, som 
+kan kræve behandling. Bivirkninger kan også opstå efter ophør af din behandling med Remicade.
+Fortæl straks din læge, hvis du bemærker noget af følgende:
+
+Tegn på en allergisk reaktion såsom hævelse af ansigt, læber, mund eller svælg, som kan 
+forårsage besvær med at synke eller trække vejret, kløende udslæt, hævelse af hænder, fødder 
+eller ankler. Nogle af disse reaktioner kan være alvorlige eller livstruende. En allergisk reaktion 
+kan opstå inden for 2 timer efter din injektion eller senere. Yderligere tegn på allergiske 
+bivirkninger, som kan opstå op til 12 dage efter din injektion, inkluderer muskelsmerter, feber, 
+led- eller kæbesmerter, ondt i halsen eller hovedpine.
+
+Tegn på hjerteproblemer såsom ubehag i brystkassen eller brystsmerter, armsmerter, 
+mavesmerter, åndenød, angst, ørhed, svimmelhed, besvimelse, svedtendens, kvalme
+(utilpashed), opkastning, skælven eller banken i brystet, hurtigt eller langsomt hjerteslag og
+hævede fødder.
+
+Tegn på infektion (inklusive tuberkulose (TB)) såsom feber, træthedsfølelse, hoste, der kan 
+være vedvarende, åndenød, influenzalignende symptomer, vægttab, natlig svedtendens, diarré, 
+sår, ansamling af pus i tarmen eller omkring anus (absces), tandproblemer eller brændende 
+smerte, når du lader vandet.
+
+Mulige tegn på kræft, inklusive men ikke begrænset til hævede lymfeknuder, vægttab, feber, 
+usædvanlige knuder i huden, ændringer i modermærker eller hudfarven eller usædvanlig 
+blødning fra skeden.
+
+Tegn på lungeproblemer såsom hoste, åndedrætsbesvær eller trykken for brystet.
+
+Tegn på et problem i nervesystemet (inklusive øjenproblemer) såsom tegn på slagtilfælde 
+(pludselig følelsesløshed eller svaghed i ansigt, arme eller ben, særligt i den ene side af 
+kroppen; pludselig forvirring, besvær med at tale eller forstå; besvær med at se med det ene eller 
+begge øjne, gangbesvær, svimmelhed, tab af balance- eller koordinationsevne eller svær 
+hovedpine), krampeanfald, prikken/følelsesløshed et sted i kroppen, eller svaghed i arme eller 
+ben, ændringer i synet såsom dobbeltsyn eller andre øjenproblemer.
+
+Tegn på leverproblemer (inklusive hepatitis B-infektion, hvis du tidligere har haft hepatitis B)
+såsom gulfarvning af hud eller øjne, mørkebrun urin, smerter eller hævelser i øvre højre side af 
+maven, ledsmerter, hududslæt eller feber.
+
+Tegn på en sygdom i immunsystemet såsom ledsmerter, udslæt på kinder eller arme, som er 
+følsomme over for solen (lupus) eller hoste, åndenød, feber eller hududslæt (sarkoidose).
+
+Tegn på lave blodtal såsom vedvarende feber, blødningstendens, tendens til lettere at få blå 
+mærker, små røde eller lilla pletter, der skyldes blødning under huden, eller bleghed.
+
+Tegn på alvorlige hudproblemer såsom rødlige, målskivelignende pletter eller runde områder 
+ofte med blærer centralt på kroppen, store områder med afskalning (eksfoliation) samt sår i 
+mund, svælg, næse, kønsorganer og øjne eller små pusholdige blærer, som kan sprede sig over 
+hele kroppen. Disse hudreaktioner kan være ledsaget af feber.
+Fortæl straks din læge, hvis du bemærker noget af ovenstående.
+54
+Følgende bivirkninger er observeret med Remicade:
+Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer
+
+Mavesmerter, kvalme
+
+Virusinfektioner såsom herpes eller influenza
+
+Øvre luftvejsinfektioner såsom bihulebetændelse
+
+Hovedpine
+
+Bivirkninger i forbindelse med infusionen
+
+Smerter.
+Almindelig: kan forekomme hos op til 1 ud af 10 personer
+
+Ændringer i hvordan din lever fungerer, forhøjede leverenzymer (vist i blodprøver)
+
+Infektioner i lunger eller luftveje såsom bronkitis eller lungebetændelse
+
+Besværet eller smertefuldt vejrtrækning, smerter i brystet
+
+Blødning i mave eller tarme, diarré, fordøjelsesbesvær, halsbrand, forstoppelse
+
+Nældefeber, kløende udslæt eller tør hud
+
+Balanceproblemer eller svimmelhed
+
+Feber, øget svedtendens
+
+Kredsløbsproblemer såsom for lavt eller for højt blodtryk
+
+Blå mærker, hedeture eller næseblod, varm, rød hud (rødmen)
+
+Trætheds- eller svaghedsfølelse
+
+Bakterieinfektioner såsom blodforgiftning, byld eller infektion under huden (cellulitis)
+
+Svampeinfektion i huden
+
+Blodproblemer såsom blodmangel eller lavt antal hvide blodlegemer
+
+Hævede lymfeknuder
+
+Depression, problemer med at sove
+
+Øjenproblemer inklusive røde øjne og øjeninfektioner
+
+Galoperende hjerte (hurtig puls) eller hjertebanken
+
+Smerter i leddene, musklerne eller ryggen
+
+Urinvejsinfektion
+
+Psoriasis, hudproblemer såsom eksem og hårtab
+
+Reaktioner på injektionsstedet såsom smerte, hævelse, rødme eller kløe
+
+Kuldegysninger, hævelse på grund af ophobning af væske under huden
+
+Følelsesløshed eller en prikkende fornemmelse.
+Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer
+
+Manglende blodtilførsel, hævelse af en blodåre
+
+Ansamling af blod uden for blodkarrene (hæmatom) eller blå mærker
+
+Hudproblemer såsom blæredannelse, vorter, unormal hudfarve eller pigmentering, eller hævede 
+læber, eller fortykkelse af huden eller rød, skællende hud og afskalning af huden
+
+Alvorlige allergiske reaktioner (fx anafylaksi), en sygdom i immunsystemet kaldet lupus, 
+allergiske reaktioner over for fremmede proteiner
+
+Længere sårhelingstid
+
+Hævelse af lever (hepatitis) eller galdeblære, leverskade
+
+Glemsomhed, irritabilitet, forvirring, nervøsitet
+
+Øjenproblemer inklusive sløret eller nedsat syn, hævede øjne eller bygkorn
+
+Debuterende eller forværring af eksisterende hjertesvigt, langsom hjertefrekvens (puls)
+
+Besvimelse
+
+Kramper, nerveforstyrrelser
+
+Hul i tarmen eller blokering af tarmen, mavesmerter eller -kramper
+
+Hævelse af bugspytkirtlen (bugspytkirtelbetændelse)
+
+Svampeinfektioner såsom gærsvampeinfektion eller svampeinfektion i neglene
+
+Lungeproblemer såsom ødemer
+55
+
+Væske rundt om lungerne (pleuraekssudat)
+
+Forsnævrede luftveje i lungerne, der giver åndedrætsbesvær
+
+Lungehindebetændelse, der giver skape smerter, som forværres ved vejrtrækning (pleuritis)
+
+Tuberkulose
+
+Nyreinfektioner
+
+Lavt antal blodplader, for mange hvide blodlegemer
+
+Infektioner i skeden
+
+Blodprøveresultater, der viser ‘antistoffer’ mod din egen krop
+
+Ændringer i kolesterol- og fedtindholdet i blodet
+
+Vægtstigning (for de fleste patienter var vægtstigningen lille).
+Sjælden: kan forekomme hos op til 1 ud af 1.000 personer
+
+En type blodkræft (lymfom)
+
+Blodet tilfører ikke nok ilt til kroppen, kredsløbsproblemer såsom indsnævring af et blodkar
+
+Betændelse i hjernehinderne (meningitis)
+
+Infektioner, som skyldes nedsat immunforsvar
+
+Hepatitis B-infektion, hvis du tidligere har haft hepatitis B
+
+Betændelsestilstand i leveren forårsaget af et problem med immunsystemet (autoimmun 
+hepatitis)
+
+Leverproblemer, der giver gulfarvning af hud eller øjne (gulsot)
+
+Unormal vævshævelse eller -vækst
+
+Alvorlig allergisk reaktion, som kan medføre tab af bevidsthed og kan være livstruende 
+(anafylaktisk shock)
+
+Hævelse af små blodkar (blodkarbetændelse)
+
+Immunsystemdefekt, som kan påvirke lunger, hud og lymfekirtler (såsom sarkoidose)
+
+Ansamling af immunceller som følge af et inflammatorisk respons (granulomatøse læsioner)
+
+Mangel på interesse eller følelser
+
+Alvorlige hudproblemer såsom toksisk epidermal nekrolyse, Stevens-Johnsons syndrom og akut 
+generaliseret eksantematøs pustulose
+
+Andre hudproblemer såsom erythema multiforme, lichenoide reaktioner (kløende, rødligt-lilla 
+hududslæt og/eller trådlignende gråhvide linjer på slimhinderne), blærer og afskalning af huden
+eller bylder (furunkulose)
+
+Alvorlige lidelser i nervesystemet såsom transversal myelitis, multipel sklerose-lignende 
+sygdom, optisk neuritis og Guillain-Barrés syndrom
+
+Øjenbetændelse, der kan forårsage synsforandringer, inklusive blindhed
+
+Væske omkring hjertet (perikardial effusion)
+
+Alvorlige lungeproblemer (såsom interstitiel lungesygdom)
+
+Melanom (en type hudkræft)
+
+Livmoderhalskræft
+
+Lave blodtal, herunder svært nedsat antal hvide blodlegemer
+
+Små røde eller lilla pletter, der skyldes blødning under huden
+
+Unormale værdier for et protein i blodet kaldet ‘komplementfaktor’, som er en del af 
+immunsystemet.
+Ikke kendt: hyppigheden kan ikke estimeres ud fra forhåndenværende data
+
+Kræft hos børn og voksne
+
+En sjælden blodkræft som hovedsageligt rammer teenagedrenge eller unge mænd
+(hepatosplenisk T-celle-lymfom)
+
+Leversvigt
+
+Merkelcellekarcinom (en type hudkræft)
+Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant herpesvirus 8. Kaposis sarkom forekommer oftest som lilla læsioner på huden.
+
+Forværring af en sygdom der hedder dermatomyositis (muskelsvaghed med hududslæt som 
+følgetilstand)
+
+Hjerteanfald
+56
+
+Slagtilfælde
+
+Midlertidigt synstab under eller inden for 2 timer efter infusionen
+
+Infektion, der skyldes en levende vaccine, som følge af et svækket immunsystem.
+Hos børn og unge ses yderligere følgende bivirkninger:
+De bivirkninger, som børn i behandling med Remicade mod Crohns sygdom fik, var forskellige fra de 
+bivirkninger, som voksne i behandling med Remicade mod Crohns sygdom fik. Følgende bivirkninger 
+forekom hyppigere hos børn: nedsat antal røde blodlegemer (anæmi), blod i afføringen, nedsat samlet 
+indhold af hvide blodlegemer (leukopeni), anfaldsvis ansigtsrødme, virusinfektioner, lavt indhold af 
+hvide blodlegemer, der bekæmper infektion (neutropeni), knoglebrud, bakterieinfektion og allergiske
+reaktioner i luftvejene.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store remicade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store remicade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remicade opbevares normalt af sundhedspersonalet. Skulle du få brug for information omkring 
+opbevaring, gælder følgende:
+
+Opbevar lægemidlet utilgængeligt for børn
+
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned
+
+Opbevares i køleskab (2 °C - 8 °C)
+
+Lægemidlet kan også opbevares i den originale karton uden for køleskab ved højst 25 °C i en 
+enkelt periode på op til 6 måneder, men den oprindelige udløbsdato må ikke overskrides. I 
+denne situation må det ikke sættes tilbage i køleskab. Skriv den nye udløbsdato på æsken med 
+dag/måned/år. Kasser lægemidlet, hvis det ikke er brugt før den nye udløbsdato eller den dato, 
+der er trykt på æsken, alt efter, hvilken dato der kommer først.
+
+Det anbefales, at Remicade anvendes så hurtigt som muligt (inden for 3 timer), efter det er 
+klargjort til infusion. Hvis opløsningen er klargjort under aseptiske betingelser, kan den dog 
+opbevares i køleskab ved 2 °C - 8 °C i op til 28 dage og i yderligere 24 timer ved 25 °C efter
+udtagning fra køleskab.
+
+Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remicade indeholder:
+
+Aktivt stof: infliximab. Hvert hætteglas indeholder 100 mg infliximab. Efter klargøring 
+indeholder hver ml 10 mg infliximab.
+
+Øvrige indholdsstoffer: saccharose, polysorbat 80, natriumdihydrogenphosphat og 
+dinatriumphosphatdihydrat.
+Udseende og pakningsstørrelser
+Remicade leveres som et hætteglas (glasflaske) indeholdende et pulver til koncentrat til 
+infusionsvæske, opløsning. Pulveret er en frysetørret hvid pellet.
+Remicade fremstilles i kartoner med 1, 2, 3, 4 eller 5 hætteglas. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført.
+57
+Indehaver af markedsføringstilladelsen og fremstiller
+Janssen Biologics B.V.
+Einsteinweg 101
+2333 CB Leiden
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf.: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000
+(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+58
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health) 
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila 
+d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health) 
+Limited
+Tel: +35312998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.
+59
+Nedenstående oplysninger er kun til sundhedspersoner:
+Patientinformationskortet skal udleveres til patienter, som er i behandling med Remicade.
+Instruktion i anvendelse og håndtering - opbevaring
+Opbevares ved 2 °C - 8 °C.
+Remicade kan opbevares ved temperaturer på op til højst 25 °C i en enkelt periode på op til 
+6 måneder, men den oprindelige udløbsdato må ikke overskrides. Den nye udløbsdato skal skrives på 
+kartonen. Når Remicade er taget ud af køleskabet, må det ikke sættes tilbage på køl igen.
+Instruktion i anvendelse og håndtering - rekonstitution, fortynding og administration
+For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres.
+1. Beregn dosis og det nødvendige antal Remicade-hætteglas. Hvert Remicade-hætteglas 
+indeholder 100 mg infliximab. Beregn det samlede påkrævede volumen rekonstitueret 
+Remicade-koncentrat.
+2. Rekonstituer under aseptiske forhold hvert Remicade-hætteglas med 10 ml vand til 
+injektionsvæsker ved hjælp af en sprøjte med en gauge 21 (0,8 mm) kanyle eller en mindre 
+kanyle. Fjern plastiklåget fra hætteglasset og tør toppen med en 70 % alkoholvatpind. Indsæt 
+sprøjtekanylen i hætteglasset gennem midten af gummiproppen og ret 
+injektionsvæskestrømmen mod glasvæggen i hætteglasset. Bland forsigtigt koncentratet ved at 
+vende hætteglasset for at opløse det lyofiliserede pulver. Undgå at svinge for længe eller for 
+kraftigt. MÅ IKKE RYSTES. Opskumning af koncentratet ved rekonstitution er ikke 
+usædvanlig. Lad det rekonstituerede koncentrat stå i 5 minutter. Kontroller at koncentratet er 
+farveløst til lysegult og opaliserende. Der kan opstå nogle få fine gennemsigtige partikler i 
+koncentratet, da infliximab er et protein. Koncentratet må ikke anvendes, hvis det indeholder 
+uigennemsigtige partikler, er misfarvet eller indeholder andre fremmedlegemer.
+3. Fortynd den samlede dosis (volumen) af det rekonstituerede Remicade-koncentrat til 250 ml 
+med natriumchlorid 9 mg/ml (0,9 %) infusionsvæske. Fortynd ikke det rekonstituerede 
+Remicade-koncentrat med andre infusionsvæsker. Fortyndingen kan opnås ved at udtrække et 
+volumen af natriumchlorid 9 mg/ml (0,9 %) infusionsvæske fra 250 ml glasflasken eller 
+infusionsposen svarende til voluminet af det rekonstituerede Remicade-koncentrat. Tilføj 
+langsomt det samlede volumen af rekonstitueret Remicade-koncentrat til 250 ml 
+infusionsflasken eller -posen. Bland forsigtigt. Brug enten en større infusionspose (fx 500 ml, 
+1.000 ml) til voluminer over 250 ml eller brug flere 250 ml infusionsposer for at sikre, at 
+koncentrationen af infusionsvæsken ikke overstiger 4 mg/ml. Hvis infusionsvæsken har været 
+opbevaret i køleskab efter rekonstitution og fortynding, skal den have tid til at opnå 
+stuetemperatur (25 °C) i 3 timer forud for trin 4 (infusion). Opbevaring i mere end 24 timer ved 
+2 °C - 8 °C gælder udelukkende for klargøring af Remicade i infusionsposen.
+4. Indgiv infusionsvæsken over en periode på ikke mindre end den anbefalede infusionstid. 
+Anvend kun et infusionssæt med et in-line, sterilt, ikke-pyrogent, minimalt proteinbindende 
+filter (porestørrelse 1,2 μm eller derunder). Da der ikke er anvendt konserveringsmiddel, 
+anbefales det, at indgivelsen af infusionsvæsken påbegyndes så hurtigt som muligt og inden for 
+3 timer efter rekonstitution og fortynding. Hvis infusionsvæsken ikke anvendes straks, er 
+opbevaringstider og -forhold efter anbrud indtil anvendelse brugerens ansvar, og de vil normalt 
+ikke overskride 24 timer ved 2 °C - 8 °C, medmindre rekonstitution/fortynding har fundet sted 
+under kontrollerede og validerede aseptiske forhold. Opbevar ikke rester af den ikke anvendte 
+infusionsvæske til fornyet brug.
+60
+5. Der er ikke gennemført biokemiske forligelighedsstudier for at vurdere samtidig indgivelse af 
+Remicade med andre midler. Infunder ikke Remicade i den samme intravenøse slange med 
+andre midler.
+6. Undersøg Remicade visuelt for partikler eller misfarvning før indgivelsen. Anvendes ikke, hvis 
+der observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegemer.
+7. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0c99db4eccd07c1cf26c691487dc71e8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for remicade Package Leaflet for language en"
+Description: "ePI document Bundle for remicade Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0c99db4eccd07c1cf26c691487dc71e8"
+* entry[0].resource = composition-en-0c99db4eccd07c1cf26c691487dc71e8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0c99db4eccd07c1cf26c691487dc71e8"
+* entry[=].resource = mp0c99db4eccd07c1cf26c691487dc71e8
+                            
+                    
+Instance: bundlepackageleaflet-da-0c99db4eccd07c1cf26c691487dc71e8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for remicade Package Leaflet for language da"
+Description: "ePI document Bundle for remicade Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0c99db4eccd07c1cf26c691487dc71e8"
+* entry[0].resource = composition-da-0c99db4eccd07c1cf26c691487dc71e8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0c99db4eccd07c1cf26c691487dc71e8"
+* entry[=].resource = mp0c99db4eccd07c1cf26c691487dc71e8
+                            
+                    
+
+
+
+Instance: mp0c99db4eccd07c1cf26c691487dc71e8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Remicade 100 mg powder for concentrate for solution for infusion."
-Description: "Remicade 100 mg powder for concentrate for solution for infusion."
+Title: "Medicinal Product remicade"
+Description: "remicade"
 Usage: #inline
 
  
@@ -673,7 +1649,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Remicade 100 mg powder for concentrate for solution for infusion."
+  * productName = "remicade"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -700,29 +1676,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0c99db4eccd07c1cf26c691487dc71e8
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for remicade Package Leaflet for language en"
-Description: "ePI document Bundle for remicade Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0c99db4eccd07c1cf26c691487dc71e8ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/99/116/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "remicade"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0c99db4eccd07c1cf26c691487dc71e8"
-* entry[0].resource = composition-en-0c99db4eccd07c1cf26c691487dc71e8
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp55dd88a6a3c7ff2aa8fe7a55cc4dc096"
-* entry[=].resource = mp55dd88a6a3c7ff2aa8fe7a55cc4dc096
-                            
-                      
+* title = "List of all ePIs associated with remicade"
+
+* subject = Reference(mp55dd88a6a3c7ff2aa8fe7a55cc4dc096)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#remicade "remicade"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0c99db4eccd07c1cf26c691487dc71e8) // remicade en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0c99db4eccd07c1cf26c691487dc71e8) // remicade da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0c99db4eccd07c1cf26c691487dc71e8
+InstanceOf: List
+
+* insert 0c99db4eccd07c1cf26c691487dc71e8ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-ef587583f9868c465778255848bcb8dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for imraldi Package Leaflet"
@@ -773,12 +776,1350 @@ Tel: +44 (0)20 360 886 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-ef587583f9868c465778255848bcb8dd
+InstanceOf: CompositionUvEpi
+Title: "Composition for imraldi Package Leaflet"
+Description:  "Composition for imraldi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4bacf250eb9d1bd12f54c13edce23759)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4bacf250eb9d1bd12f54c13edce23759
+* title = "TEST PURPOSES ONLY - imraldi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Brugsanvisning </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Imraldi 
+3. Sådan skal du bruge Imraldi 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What imraldi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What imraldi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Imraldi indeholder det aktive stof adalimumab, som er et lægemiddel, der virker på din krops 
+immunforsvar. </p>
+<p>Imraldi er beregnet til behandling af:  </p>
+<ul>
+<li>
+<p>reumatoid artrit, </p>
+</li>
+<li>
+<p>polyartikulær juvenil idiopatisk artrit, </p>
+</li>
+<li>
+<p>entesopati-relateret artrit, </p>
+</li>
+<li>
+<p>ankyloserende spondylitis, </p>
+</li>
+<li>
+<p>aksial spondyloartritis uden radiografiske tegn på AS, </p>
+</li>
+<li>
+<p>psoriasisartrit, </p>
+</li>
+<li>
+<p>psoriasis, </p>
+</li>
+<li>
+<p>hidrosadenitis suppurativa, </p>
+</li>
+<li>
+<p>Crohns sygdom, </p>
+</li>
+<li>
+<p>colitis ulcerosa og </p>
+</li>
+<li>
+<p>ikke-infektiøs uveitis. </p>
+</li>
+</ul>
+<p>Det aktive stof i Imraldi, adalimumab, er et monoklonalt antistof. Monoklonale antistoffer er proteiner, 
+der binder til et specifikt mål. </p>
+<p>Målet for adalimumab er et protein kaldet tumornekrosefaktor (TNFα), som er til stede i øget mængde 
+ved betændelsessygdommene, der er anført ovenfor. Ved at binde til TNFα reducerer Imraldi 
+betændelsesprocessen ved disse sygdomme. </p>
+<p>Reumatoid artrit </p>
+<p>Reumatoid artrit er en betændelsessygdom i leddene. </p>
+<p>Imraldi bruges til at behandle reumatoid artrit hos voksne. Hvis du har moderat til alvorlig aktiv 
+reumatoid artrit, vil du evt. først få andre sygdomsmodificerende antireumatiske lægemidler, såsom 
+methotrexat. Hvis disse lægemidler ikke har tilstrækkelig effekt, vil du få Imraldi til behandling af din 
+reumatoide artrit. </p>
+<p>Imraldi kan også anvendes til behandling af alvorlig aktiv og progressiv reumatoid artrit, der ikke 
+tidligere er behandlet med methotrexat. </p>
+<p>Imraldi kan nedsætte hastigheden for ødelæggelse af brusk og knogler i leddene forårsaget af 
+sygdommen og forbedre de fysiske funktioner. </p>
+<p>Normalt gives Imraldi sammen med methotrexat. Hvis din læge ikke mener, at behandling med 
+methotrexat er hensigtsmæssig, kan Imraldi anvendes alene. </p>
+<p>Polyartikulær juvenil idiopatisk artrit og entesopati-relateret artrit </p>
+<p>Polyartikulær juvenil idiopatisk artrit og entesopati-relateret artrit er betændelsessygdomme i leddene, 
+som sædvanligvis viser sig i barndommen. </p>
+<p>Imraldi bruges til at behandle polyartikulær juvenil idiopatisk artrit hos børn og unge i alderen fra 2 til 
+17 år og entesopati-relateret artrit hos børn og unge i alderen 6-17 år. Patienterne vil muligvis først få 
+anden sygdomsdæmpende medicin, såsom methotrexat. Hvis disse lægemidler ikke har tilstrækkelig 
+effekt, vil patienterne få Imraldi til behandling af deres polyartikulære juvenile idiopatiske artrit eller 
+entesopati-relaterede artrit. </p>
+<p>Ankyloserende spondylitis og aksial spondyloartritis uden radiografiske tegn på ankyloserende 
+spondylitis. </p>
+<p>Ankyloserende spondylitis og aksial spondyloartritis uden radiografiske tegn på ankyloserende 
+spondylitis er inflammatoriske (betændelseslignende) sygdomme i rygsøjlen. </p>
+<p>Imraldi bruges til at behandle ankyloserende spondylitis og aksial spondyloartritis uden radiografiske 
+tegn på ankyloserende spondylitis hos voksne. Hvis du har ankyloserende spondylitis eller aksial 
+spondyloartritis uden radiografiske tegn på ankyloserende spondylitis, vil du først få andre lægemidler. 
+Hvis disse lægemidler ikke har tilstrækkelig effekt, vil du få Imraldi for at mindske symptomerne på 
+din sygdom. </p>
+<p>Psoriasisartrit </p>
+<p>Psoriasisartrit er en betændelsessygdom i leddene, som er forbundet med psoriasis. </p>
+<p>Imraldi bruges til at behandle psoriasisartrit hos voksne. Imraldi kan nedsætte hastigheden for 
+ødelæggelse af brusk og knogler i leddene forårsaget af sygdommen og forbedre den fysiske funktion. </p>
+<p>Plaque-psoriasis hos voksne og børn  </p>
+<p>Plaque-psoriasis er en betændelsestilstand i huden, som forårsager røde, skællende, skorpede pletter på 
+huden dækket med sølvfarvede skæl. Plaque-psoriasis kan også påvirke neglene. Det får dem til at 
+smuldre, blive fortykket og løftet fra neglelejet, hvilket kan være meget smertefuldt. Psoriasis 
+formodes at være forårsaget af et problem med kroppens immunsystem, som fører til øget produktion 
+af hudceller. </p>
+<p>Imraldi bruges til at behandle moderat til alvorlig plaque-psoriasis hos voksne. Imraldi bruges også til 
+at behandle alvorlig plaque-psoriasis hos børn og unge, der vejer 30 kg eller derover, hos hvem lokal 
+behandling og lysbehandlinger enten ikke har virket godt nok eller ikke er egnede. </p>
+<p>Hidrosadenitis suppurativa hos voksne og unge </p>
+<p>Hidrosadenitis suppurativa (kaldes somme tider svedkirtelbetændelse) er en langvarig, ofte smertefuld 
+betændelseslignende (inflammatorisk) hudsygdom. Symptomerne kan være ømme knuder i huden 
+(noduli) og abscesser (bylder), som kan udtømme pus. Sygdommen påvirker oftest bestemte områder 
+af huden, såsom under brystet, i armhulerne, på inderlårerne, i lyskeområdet og på balderne. Der kan 
+også forekomme ar i de berørte områder. </p>
+<p>Imraldi bruges til at behandle hidrosadenitis suppurativa hos voksne og unge fra 12 år. Imraldi kan 
+nedsætte antallet af knuder og bylder og lindre den smerte, som ofte er forbundet med sygdommen. Du 
+kan muligvis få andre lægemidler først. Hvis disse lægemidler ikke har tilstrækkelig effekt, vil du få 
+Imraldi. </p>
+<p>Crohns sygdom hos voksne og børn  </p>
+<p>Crohns sygdom er en inflammatorisk sygdom i tarmen. </p>
+<p>Imraldi bruges til at behandle Crohns sygdom hos voksne og børn i alderen 6-17 år. Hvis du har 
+Crohns sygdom, vil du først få andre lægemidler. Hvis disse lægemidler ikke har tilstrækkelig effekt, 
+vil du få Imraldi til at mindske symptomerne på din Crohns sygdom. </p>
+<p>Colitis ulcerosa hos voksne og børn </p>
+<p>Colitis ulcerosa er en inflammatorisk (betændelseslignende) sygdom i tyktarmen. </p>
+<p>Imraldi bruges til at behandle moderat til alvorlig colitis ulcerosa hos voksne og børn i alderen 6 til 
+17 år. Hvis du har colitis ulcerosa, vil du måske først få anden medicin. Hvis disse lægemidler ikke har 
+tilstrækkelig effekt, vil du få Imraldi for at mindske symptomerne på din sygdom. </p>
+<p>Ikke-infektiøs uveitis hos voksne og børn </p>
+<p>Ikke-infektiøs uveitis er en betændelseslignende (inflammatorisk) sygdom, som påvirker bestemte dele 
+af øjet. </p>
+<p>Imraldi bruges til at behandle </p>
+<ul>
+<li>
+<p>Voksne med ikke-infektiøs uveitis (regnbuehindebetændelse), som påvirker den bagerste del af 
+øjet. </p>
+</li>
+<li>
+<p>Børn fra 2 år med kronisk ikke-infektiøs uveitis, som påvirker forreste del af øjet. </p>
+</li>
+</ul>
+<p>Inflammationen kan føre til nedsat syn og/eller fluer i øjet (sværm af uklarheder i øjet, som bevæger 
+sig i synsfeltet). Imraldi virker ved at reducere denne inflammation. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take imraldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take imraldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Imraldi<br />
+- Hvis du er allergisk over for adalimumab eller et af de øvrige indholdsstoffer i Imraldi (angivet i 
+punkt 6).<br />
+- Hvis du har en alvorlig infektion, herunder tuberkulose (se "Advarsler og forsigtighedsregler"). 
+Det er vigtigt, at du informerer lægen, hvis du har symptomer på infektioner, f.eks. feber, sår, 
+træthedsfornemmelse, tandproblemer. 
+- Hvis du lider af moderat eller alvorligt hjertesvigt. Det er vigtigt at informere lægen, hvis du har 
+eller har haft en alvorlig hjertesygdom (se "Advarsler og forsigtighedsregler"). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du bruger Imraldi. </p>
+<p>Allergisk reaktion </p>
+<ul>
+<li>Hvis du har allergiske reaktioner med symptomer som trykken i brystet, hvæsende 
+vejrtrækning, svimmelhed, hævelser eller udslæt, så undlad at injicere mere Imraldi, og kontakt 
+straks lægen, da disse reaktioner i sjældne tilfælde kan være livstruende. </li>
+</ul>
+<p>Infektion </p>
+<ul>
+<li>
+<p>Hvis du har en infektion, herunder langvarig eller lokaliseret infektion (f.eks. bensår), bør du 
+kontakte din læge, før du begynder at bruge Imraldi. Kontakt lægen, hvis du er i tvivl.  </p>
+</li>
+<li>
+<p>Infektioner kan opstå lettere under behandling med Imraldi. Risikoen kan stige, hvis din<br />
+lungefunktion er nedsat. Disse infektioner kan være alvorlige og inkluderer tuberkulose, 
+infektioner forårsaget af virus, svampe, parasitter eller bakterier, andre opportunistiske 
+infektioner (usædvanlige infektioner i forbindelse med et svækket immunforsvar) og sepsis 
+(blodforgiftning). Disse infektioner kan i sjældne tilfælde være livstruende. Det er vigtigt at 
+informere lægen, hvis du får symptomer som feber, sår, træthedsfornemmelse eller 
+tandproblemer. Din læge kan anbefale midlertidig afbrydelse af behandling med Imraldi. </p>
+</li>
+</ul>
+<p>Tuberkulose </p>
+<ul>
+<li>Eftersom der har været rapporteret tilfælde af tuberkulose hos patienter i behandling med 
+Imraldi, vil lægen undersøge dig for tegn og symptomer på tuberkulose, før behandling med 
+Imraldi påbegyndes. Dette vil omfatte en omhyggelig gennemgang af din sygdomshistorie og 
+screeningstest (f.eks. røntgenundersøgelse af lunger og en tuberkulintest). Disse undersøgelser 
+og resultaterne heraf bør registreres på dit Patientkort. Det er meget vigtigt at informere lægen, 
+hvis du nogensinde selv har haft tuberkulose, eller hvis du har været i tæt kontakt med nogen, 
+som havde tuberkulose. Tuberkulose kan udvikles under behandlingen, også selv om du har fået 
+forebyggende behandling mod tuberkulose. Hvis der viser sig symptomer på tuberkulose 
+(vedvarende hoste, vægttab, sløvhed, let feber) eller anden form for infektion under eller efter 
+behandlingen, bør lægen straks informeres. </li>
+</ul>
+<p>Rejse/gentagne infektioner </p>
+<ul>
+<li>
+<p>Fortæl lægen, hvis du har haft fast bopæl eller rejst i områder, hvor svampeinfektioner som 
+histoplasmose, kokcidioidomykose eller blastomykose forekommer. </p>
+</li>
+<li>
+<p>Fortæl lægen, hvis du har en sygdomshistorie med gentagne infektioner eller andre tilfælde, der 
+forøger risikoen for infektioner. </p>
+</li>
+</ul>
+<p>Hepatitis B-virus </p>
+<ul>
+<li>Fortæl lægen, hvis du er bærer af hepatitis B-virus (HBV), hvis du har aktiv HBV-infektion, 
+eller hvis du tror, du kan have risiko for at få HBV. Lægen vil teste dig for HBV. Imraldi kan 
+reaktivere HBV-infektion hos mennesker, der bærer denne virus. I sjældne tilfælde, specielt hvis 
+du tager anden medicin, der undertrykker immunsystemet, kan reaktivering af HBV-infektion 
+blive livstruende. </li>
+</ul>
+<p>Over 65 år </p>
+<ul>
+<li>Hvis du er over 65 år, kan du være mere modtagelig for infektioner, mens du tager Imraldi. Du 
+og din læge bør være særligt opmærksomme på tegn på infektion, mens du er i behandling med 
+Imraldi. Det er vigtigt, at du fortæller lægen, hvis du får symptomer på infektion såsom feber, 
+sår, træthedsfornemmelse eller problemer med tænderne. </li>
+</ul>
+<p>Operation eller tandbehandling </p>
+<ul>
+<li>Hvis du skal opereres eller have tandbehandling, skal du fortælle din læge, at du tager 
+Imraldi. Din læge kan anbefale midlertidig afbrydelse afImraldi. </li>
+</ul>
+<p>Demyeliniserende sygdom </p>
+<ul>
+<li>Hvis du har eller udvikler demyeliniserende sygdom (en sygdom, der angriber det isolerende 
+lag omkring nerverne, såsom dissemineret sklerose), vil din læge afgøre, om du skal have eller 
+fortsætte med at få Imraldi. Fortæl straks din læge, hvis du får symptomer som ændringer i dit 
+syn, svaghed i arme eller ben eller følelsesløshed eller en snurrende fornemmelse et sted i 
+kroppen. </li>
+</ul>
+<p>Vaccine </p>
+<ul>
+<li>Visse vacciner indeholder svækkede men levende former af sygdomsfremkaldende bakterier 
+eller vira. Disse vacciner bør ikke gives under Imraldi-behandling. Tal med lægen, før du får 
+nogen form for vaccine. Det anbefales, at børn om muligt får alle de planlagte vaccinationer for 
+deres alder, før de påbegynder behandling med Imraldi. Hvis du får Imraldi, mens du er gravid, 
+kan dit barn have en højere risiko for at få en infektion i op til ca. fem måneder efter din sidste 
+dosis under graviditeten. Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner, 
+at du fik Imraldi under graviditeten, så de kan beslutte, hvornår dit spædbarn bør vaccineres. </li>
+</ul>
+<p>Hjertesvigt </p>
+<ul>
+<li>Hvis du har let hjertesvigt og bliver behandlet med Imraldi, skal status for dit hjertesvigt følges 
+nøje af din læge. Det er vigtigt at informere lægen, hvis du har eller har haft en alvorlig 
+hjertesygdom. Hvis du udvikler nye eller får forværrede symptomer på hjertesvigt (f. eks. 
+stakåndethed eller hævede fødder), skal du kontakte din læge øjeblikkeligt. Din læge vil tage 
+stilling til, om du skal have Imraldi. </li>
+</ul>
+<p>Feber, blå mærker, blødning eller blegt udseende </p>
+<ul>
+<li>Hos nogle patienter vil kroppen ikke producere tilstrækkeligt af de blodlegemer, som bekæmper 
+infektioner eller hjælper dig med at stoppe blødninger. Hvis du får feber, som ikke vil 
+forsvinde, blå mærker eller bløder meget let eller er meget bleg, skal du omgående henvende 
+dig til din læge. Din læge kan eventuelt beslutte at afbryde behandlingen. </li>
+</ul>
+<p>Kræft </p>
+<ul>
+<li>
+<p>Der er set meget sjældne tilfælde af visse kræfttyper hos børn og voksne, som tager Imraldi 
+eller andre TNFα-hæmmere. Patienter med mere alvorlig reumatoid artrit, som har haft 
+sygdommen i lang tid, kan have øget risiko i forhold til gennemsnittet for at få lymfom (kræft, 
+som påvirker lymfesystemet) og leukæmi (kræft, som påvirker blod og knoglemarv). Når du 
+tager Imraldi, kan risikoen for at få et lymfom, leukæmi eller andre former for kræft øges. I 
+sjældne tilfælde er der set en alvorlig type af lymfom hos patienter, som tog Imraldi. Nogle af 
+disse patienter blev også behandlet med lægemidlerne azathioprin eller mercaptopurin. Fortæl 
+din læge, hvis du får azathioprin eller mercaptopurin sammen med Imraldi. </p>
+</li>
+<li>
+<p>Derudover er der set tilfælde af ikke-melanom hudkræft hos patienter, der tager Imraldi. Hvis 
+der kommer nye områder med beskadiget hud under eller efter behandlingen, eller hvis 
+eksisterende mærker eller beskadigede områder ændrer udseende, skal du fortælle det til din 
+læge. </p>
+</li>
+<li>
+<p>Der har været tilfælde af kræft, der er forskellig fra lymfom, hos patienter med en specifik 
+lungesygdom kaldet kronisk obstruktiv lungesygdom (KOL), der var i behandling med en anden 
+TNFα-hæmmer. Hvis du har KOL, eller du ryger meget, bør du diskutere med din læge, om 
+behandling med en TNFα-hæmmer er passende for dig. </p>
+</li>
+</ul>
+<p>Lupus-lignende syndrom </p>
+<ul>
+<li>I sjældne tilfælde kan behandling med Imraldi resultere i lupus-lignende syndrom. Fortæl din 
+læge, hvis du får symptomer såsom vedvarende uforklarligt udslæt, feber, ledsmerter eller 
+træthed </li>
+</ul>
+<p>Børn og unge </p>
+<ul>
+<li>
+<p>Giv ikke Imraldi til børn under 2 år med polyartikulær juvenil idiopatisk artrit. </p>
+</li>
+<li>
+<p>Anvend ikke 40 mg fyldt injektionssprøjte, hvis der anbefales andre doser end 40 mg. </p>
+</li>
+</ul>
+<p>Brug af anden medicin sammen med Imraldi </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin.  </p>
+<p>Imraldi kan anvendes sammen med methotrexat eller visse sygdomsmodificerende antireumatiske 
+lægemidler (sulfasalazin, hydroxychloroquin, leflunomid og guldpræparater til injektion), 
+kortikosteroider eller smertemedicin, herunder non-steroide anti-inflammatoriske lægemidler 
+(NSAID). </p>
+<p>På grund af øget risiko for alvorlig infektion, bør du ikke tage Imraldi sammen med medicin, der 
+indeholder de aktive stoffer anakinra eller abatacept. Hvis du har spørgsmål, skal du tale med din 
+læge. </p>
+<p>Graviditet og amning </p>
+<ul>
+<li>
+<p>Du bør overveje brugen af passende prævention for at forhindre graviditet og fortsætte brugen 
+mindst 5 måneder efter den sidste injektion med Imraldi. </p>
+</li>
+<li>
+<p>Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du tager dette lægemiddel. </p>
+</li>
+<li>
+<p>Imraldi bør kun anvendes under graviditet, hvis det er nødvendigt. </p>
+</li>
+<li>
+<p>Der var i følge et graviditetsstudie ikke højere risiko for misdannelser, når moderen havde fået 
+adalimumab under graviditeten, ved sammenligning med mødre med samme sygdom, som ikke 
+havde fået adalimumab. </p>
+</li>
+<li>
+<p>Imraldi kan anvendes under amning. </p>
+</li>
+<li>
+<p>Hvis du har fået Imraldi, mens du var gravid, kan dit spædbarn have en højere risiko for at få en 
+sådan infektion. </p>
+</li>
+<li>
+<p>Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner, at du fik Imraldi under 
+graviditeten, før dit barn får nogen vaccinationer (for mere information om vacciner, se afsnittet 
+vedrørende "Advarsler og forsigtighedsregler"). </p>
+</li>
+</ul>
+<p>Trafik-og arbejdssikkerhed </p>
+<p>Imraldi kan i mindre grad påvirke din evne til at føre motorkøretøj, cykle eller betjene maskiner. Du 
+kan få en fornemmelse af, at rummet drejer rundt (vertigo), og synsforstyrrelser, efter at have taget 
+Imraldi. </p>
+<p>Imraldi indeholder natrium og sorbitol </p>
+<p>Sorbitol 
+Dette lægemiddel indeholder 20 mg sorbitol pr. fyldt injektionssprøjte. Kontakt lægen, før du tager 
+denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>Natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 0,8 ml-dosis, dvs. det er i det 
+væsentlige natriumfrit.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take imraldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take imraldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Voksne med reumatoid artrit, psoriasisartrit, ankyloserende spondylitis eller aksial spondyloartritis 
+uden radiografiske tegn på ankyloserende spondylitis </p>
+<p>Imraldi fyldt injektionssprøjte og fyldt pen findes kun som en 40 mg-dosis. Det er derfor ikke muligt 
+at anvende Imraldi fyldt injektionssprøjte og fyldt pen til administration til pædiatriske patienter, der 
+har brug for mindre end en fuld 40 mg-dosis. Hvis der er behov for en alternativ dosis, skal der 
+benyttes andre præsentationer, der giver mulighed herfor. </p>
+<p>Imraldi injiceres under huden (subkutan anvendelse). Den almindelige dosis til voksne med reumatoid 
+artrit, ankyloserende spondylitis, aksial spondyloartritis uden radiografiske tegn på ankyloserende 
+spondylitis og til patienter med psoriasisartrit er 40 mg adalimumab hver anden uge som enkeltdosis.  </p>
+<p>Hvis du har reumatoid artrit, kan du fortsætte med methotrexat under behandling med Imraldi. Hvis 
+din læge ikke mener, at behandling med methotrexat er hensigtsmæssig, kan Imraldi anvendes alene.  </p>
+<p>Hvis du har reumatoid artrit og ikke får methotrexat i kombination med din Imraldi-behandling, kan 
+lægen vælge at ordinere 40 mg adalimumab hver uge eller 80 mg hver anden uge. </p>
+<p>Børn, unge og voksne med polyartikulær juvenil idiopatisk artrit </p>
+<p>Børn og unge fra 2 år, der vejer fra 10 kg til mindre end 30 kg </p>
+<p>Den anbefalede dosis Imraldi er 20 mg hver anden uge. </p>
+<p>Børn, unge og voksne fra 2 år, der vejer 30 kg eller mere </p>
+<p>Den anbefalede dosis Imraldi er 40 mg hver anden uge. </p>
+<p>Børn, unge og voksne med entesopatirelateret artrit </p>
+<p>Børn og unge fra 6 år, der vejer fra 15 kg til mindre end 30 kg </p>
+<p>Den anbefalede dosis Imraldi er 20 mg hver anden uge. </p>
+<p>Børn, unge og voksne fra 6 år, der vejer 30 kg eller mere </p>
+<p>Den anbefalede dosis Imraldi er 40 mg hver anden uge. </p>
+<p>Voksne med psoriasis </p>
+<p>Den sædvanlige dosis til voksne med psoriasis er en startdosis på 80 mg (som to 40 mg-injektioner på 
+samme dag), efterfulgt af 40 mg hver anden uge startende en uge efter den første dosis. Du skal 
+fortsætte med at injicere Imraldi så længe, din læge har fortalt dig. Hvis denne dosis ikke virker godt 
+nok, kan din læge øge dosis til 40 mg hver uge eller 80 mg hver anden uge. </p>
+<p>Børn og unge med plaque-psoriasis </p>
+<p>Børn og unge fra 4 til 17 år, der vejer fra 15 kg til mindre end 30 kg </p>
+<p>Den anbefalede startdosis af Imraldi er 20 mg, efterfulgt af 20 mg en uge senere. Herefter er den 
+sædvanlige dosis 20 mg hver anden uge. </p>
+<p>Børn og unge fra 4 til 17 år, der vejer 30 kg eller mere </p>
+<p>Den anbefalede startdosis af Imraldi er 40 mg, efterfulgt af 40 mg en uge senere. Herefter er den 
+sædvanlige dosis 40 mg hver anden uge. </p>
+<p>Voksne med hidrosadenitis suppurativa </p>
+<p>Startdosis ved hidrosadenitis suppurativa er sædvanligvis 160 mg (som fire 40 mg-injektioner på én 
+dag eller to 40 mg-injektioner pr. dag i to på hinanden følgende dage), efterfulgt af en 80 mg-dosis 
+2 uger senere (som to 40 mg-injektioner på én dag). Efter yderligere 2 uger fortsættes med en dosis på 
+40 mg hver uge eller 80 mg hver anden uge, som foreskrevet af din læge. Det anbefales, at du dagligt 
+vasker de berørte områder med et antiseptisk middel. </p>
+<p>Unge med hidrosadenitis suppurativa fra 12 til 17 år, som vejer 30 kg eller mere </p>
+<p>Den anbefalede startdosis af Imraldi er 80 mg (som to 40 mg-injektioner på én dag), efterfulgt af 
+40 mg hver anden uge startende en uge efter den første dosis. Hvis du har utilstrækkeligt respons på 
+Imraldi 40 mg hver anden uge, kan lægen øge dosis til 40 mg hver uge eller 80 mg hver anden uge. </p>
+<p>Det anbefales, at du dagligt vasker de berørte områder med et antiseptisk middel. </p>
+<p>Voksne med Crohns sygdom </p>
+<p>Startdosis for Crohns sygdom er sædvanligvis 80 mg (som to 40 mg-injektioner på én dag), efterfulgt 
+af 40 mg hver anden uge startende 2 uger senere. Hvis en hurtigere virkning er nødvendig, kan din 
+læge ordinere en startdosis på 160 mg (som fire 40 mg-injektioner på én dag eller to 40 mg-injektioner 
+pr. dag i to på hinanden følgende dage), efterfulgt af 80 mg (som to 40 mg-injektioner på én dag) 
+2 uger senere, og derefter 40 mg hver anden uge. Hvis denne dosis ikke har tilstrækkelig virkning, kan 
+din læge øge dosis til 40 mg hver uge eller 80 mg hver anden uge. </p>
+<p>Børn og unge med Crohns sygdom </p>
+<p>Børn og unge fra 6 til 17 år, som vejer mindre end 40 kg  </p>
+<p>Den sædvanlige startdosis er 40 mg efterfulgt af 20 mg to uger senere. Hvis hurtigere 
+behandlingsrespons er nødvendigt, kan din læge ordinere en startdosis på 80 mg (som to 40 mg-
+injektioner på én dag) efterfulgt af 40 mg to uger senere. </p>
+<p>Derefter er den sædvanlige dosis 20 mg hver anden uge. Hvis denne dosis ikke virker godt nok, kan 
+lægen øge dosis til 20 mg hver uge. </p>
+<p>Børn og unge fra 6 til 17 år, som vejer 40 kg eller mere </p>
+<p>Den sædvanlige startdosis er 80 mg (som to 40 mg-injektioner på én dag) efterfulgt af 40 mg to uger 
+senere. Hvis hurtigere behandlingsrespons er nødvendigt, kan lægen ordinere en startdosis på 160 mg 
+(som fire 40 mg-injektioner på én dag eller to 40 mg-injektioner om dagen i to på hinanden følgende 
+dage) efterfulgt af 80 mg (som to 40 mg-injektioner på én dag) to uger senere. </p>
+<p>Derefter er den sædvanlige dosis 40 mg hver anden uge. Hvis denne dosis ikke har tilstrækkelig 
+virkning, kan lægen øge dosis til 40 mg hver uge eller 80 mg hver anden uge. </p>
+<p>Voksne med colitis ulcerosa </p>
+<p>Den anbefalede dosis Imraldi til voksne med colitis ulcerosa er 160 mg indledningsvis (dosen kan 
+gives som fire 40 mg-injektioner på én dag eller to 40 mg-injektioner om dagen i to på hinanden 
+følgende dage), efterfulgt af 80 mg (som to 40 mg-injektioner på én dag) to uger senere og herefter 
+40 mg hver anden uge. Hvis denne dosis ikke har tilstrækkelig virkning, kan lægen øge dosis til 40 mg 
+hver uge eller 80 mg hver anden uge. </p>
+<p>Børn og unge med colitis ulcerosa </p>
+<p>Børn og unge fra 6 år, der vejer mindre end 40 kg </p>
+<p>Den sædvanlige startdosis er 80 mg (som to injektioner på 40 mg på én dag), efterfulgt af 40 mg (som 
+én injektion på 40 mg) to uger senere. Derefter er den sædvanlige dosis 40 mg hver anden uge. </p>
+<p>Patienter, der fylder 18 år, mens de får 40 mg hver anden uge, skal fortsætte med deres ordinerede 
+dosis. </p>
+<p>Børn og unge fra 6 år, der vejer 40 kg eller derover </p>
+<p>Den sædvanlige startdosis er 160 mg (som fire injektioner på 40 mg på én dag eller to injektioner på 
+40 mg pr. dag på to på hinanden følgende dage), efterfulgt af 80 mg (som to injektioner på 40 mg på 
+én dag) to uger senere. Derefter er den sædvanlige dosis 80 mg hver anden uge. </p>
+<p>Patienter, der fylder 18 år, mens de får 80 mg hver anden uge, skal fortsætte med deres ordinerede 
+dosis. </p>
+<p>Voksne med ikke-infektiøs uveitis </p>
+<p>Den sædvanlige dosis for voksne med ikke-infektiøs uveitis er en startdosis på 80 mg (som to 40 mg-
+injektioner på én dag) efterfulgt af 40 mg hver anden uge med start en uge efter den første dosis. Du 
+skal fortsætte med at injicere Imraldi, så længe din læge har sagt. </p>
+<p>Ved ikke-infektiøs uveitis kan du fortsætte med at bruge kortikosteroider eller andre lægemidler, som 
+påvirker immunsystemet, mens du tager Imraldi. Imraldi kan også anvendes alene. </p>
+<p>Børn og unge fra 2 år med kronisk ikke-infektiøs uveitis </p>
+<p>Børn og unge fra 2 år, der vejer mindre end 30 kg </p>
+<p>Den sædvanlige dosis af Imraldi er 20 mg hver anden uge sammen med methotrexat. </p>
+<p>Dit barns læge kan også ordinere en induktionsdosis på 40 mg, som kan gives en uge før start af den 
+sædvanlige dosis. </p>
+<p>Børn og unge fra 2 år, der vejer 30 kg eller mere </p>
+<p>Den sædvanlige dosis af Imraldi er 40 mg hver anden uge med methotrexat. </p>
+<p>Din læge kan også ordinere en induktionsdosis på 80 mg, som kan administreres en uge før start af den 
+sædvanlige dosis. </p>
+<p>Anvendelsesmåde og administrationsvej </p>
+<p>Imraldi gives ved injektion under huden (subkutan injektion). For en brugsanvisning henvises til 
+punkt 7. Hvis du har brugt for meget Imraldi </p>
+<p>Hvis du ved en fejltagelse injicerer Imraldi hyppigere, end du skal, skal du kontakte lægen eller 
+apotekspersonalet og forklare, at du har taget mere medicin end nødvendigt. Tag altid den ydre karton 
+fra medicinen med, også selvom den er tom.  </p>
+<p>Hvis du har glemt at bruge Imraldi </p>
+<p>Hvis du glemmer at give dig selv en injektion, bør du injicere den næste dosis af Imraldi, så snart du 
+kommer i tanke om det. Fortsæt dernæst med at injicere næste dosis som planlagt på den oprindelig 
+fastlagte dag, som om du ikke havde glemt en dosis. </p>
+<p>Hvis du holder op med at bruge Imraldi </p>
+<p>Beslutningen om at stoppe med at bruge Imraldi skal diskuteres med din læge. Dine symptomer kan 
+komme igen, hvis du stopper behandlingen. </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger er af let til moderat grad. Der kan dog forekomme mere alvorlige bivirkninger, som 
+kræver behandling. Bivirkninger kan forekomme op til mindst 4 måneder eller mere efter den sidste 
+Imraldi injektion. </p>
+<p>Søg omgående lægehjælp, hvis du får et eller flere af følgende symptomer:  </p>
+<ul>
+<li>
+<p>kraftigt udslæt, nældefeber eller andre tegn på en allergisk reaktion;  </p>
+</li>
+<li>
+<p>hævelser i ansigt, hænder eller fødder; </p>
+</li>
+<li>
+<p>besvær med at trække vejret eller synke; </p>
+</li>
+<li>
+<p>stakåndethed ved fysisk anstrengelse eller når du ligger ned, eller hævede fødder. </p>
+</li>
+</ul>
+<p>Kontakt lægen så hurtigt som muligt, hvis du får et eller flere af følgende symptomer:  </p>
+<ul>
+<li>
+<p>tegn på infektion, såsom feber, følelse af sygdom, sår, tandproblemer eller smerter ved 
+vandladning; </p>
+</li>
+<li>
+<p>følelse af svaghed eller træthed; </p>
+</li>
+<li>
+<p>hoste; </p>
+</li>
+<li>
+<p>snurren og prikken; </p>
+</li>
+<li>
+<p>følelsesløshed; </p>
+</li>
+<li>
+<p>dobbeltsyn; </p>
+</li>
+<li>
+<p>svaghed i arme og ben; </p>
+</li>
+<li>
+<p>en bule eller åbent sår, som ikke vil hele; </p>
+</li>
+<li>
+<p>tegn og symptomer, som kan tyde på blodsygdomme, såsom vedvarende feber, blå mærker, 
+blødning, bleghed. </p>
+</li>
+</ul>
+<p>Ovennævnte symptomer kan være tegn på følgende bivirkninger, som er observeret ved brug af 
+adalimumab: </p>
+<p>Meget almindelig (kan påvirke flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>reaktioner ved injektionsstedet (herunder smerter, hævelse, rødme eller kløe); </p>
+</li>
+<li>
+<p>luftvejsinfektioner (inklusive forkølelse, løbende næse, bihulebetændelse, lungebetændelse); </p>
+</li>
+<li>
+<p>hovedpine; </p>
+</li>
+<li>
+<p>mavesmerter; </p>
+</li>
+<li>
+<p>kvalme og opkastning; </p>
+</li>
+<li>
+<p>udslæt; </p>
+</li>
+<li>
+<p>smerter i musklerne. </p>
+</li>
+</ul>
+<p>Almindelig (kan påvirke op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>alvorlige infektioner (inklusive blodforgiftning og influenza); </p>
+</li>
+<li>
+<p>tarminfektioner (inklusive betændelse i mave og tarm); </p>
+</li>
+<li>
+<p>hudinfektioner (inklusive bindevævsbetændelse og helvedsild); </p>
+</li>
+<li>
+<p>øreinfektioner; </p>
+</li>
+<li>
+<p>infektioner i munden (inklusive tandinfektioner og forkølelsessår); </p>
+</li>
+<li>
+<p>infektioner i kønsorganerne (indre kønsorganer); </p>
+</li>
+<li>
+<p>urinvejsinfektion; </p>
+</li>
+<li>
+<p>svampeinfektioner; </p>
+</li>
+<li>
+<p>ledinfektioner; </p>
+</li>
+<li>
+<p>godartede svulster; </p>
+</li>
+<li>
+<p>hudkræft; </p>
+</li>
+<li>
+<p>allergiske reaktioner (inklusive sæsonbestemt allergi); </p>
+</li>
+<li>
+<p>dehydrering (væskemangel); </p>
+</li>
+<li>
+<p>humørsvingninger (inklusive depression); </p>
+</li>
+<li>
+<p>angst; </p>
+</li>
+<li>
+<p>søvnbesvær; </p>
+</li>
+<li>
+<p>følelsesforstyrrelser, såsom snurren, prikken eller følelsesløshed; </p>
+</li>
+<li>
+<p>migræne; </p>
+</li>
+<li>
+<p>symptomer på nerverodskompression (inklusive smerter i den nederste del af ryggen og 
+bensmerter); </p>
+</li>
+<li>
+<p>synsforstyrrelser; </p>
+</li>
+<li>
+<p>betændelse i øjet; </p>
+</li>
+<li>
+<p>betændelse i øjenlåget og hævede øjne; </p>
+</li>
+<li>
+<p>vertigo (en fornemmelse af at snurre rundt); </p>
+</li>
+<li>
+<p>fornemmelse af hurtige hjerteslag; </p>
+</li>
+<li>
+<p>højt blodtryk; </p>
+</li>
+<li>
+<p>rødmen; </p>
+</li>
+<li>
+<p>hæmatom (en fast hævelse med størknet blod); </p>
+</li>
+<li>
+<p>hoste; </p>
+</li>
+<li>
+<p>astma; </p>
+</li>
+<li>
+<p>kortåndethed; </p>
+</li>
+<li>
+<p>blødning i mave-tarm kanalen; </p>
+</li>
+<li>
+<p>sure opstød (fordøjelsesbesvær, oppustethed, halsbrand); </p>
+</li>
+<li>
+<p>syrereflukssygdom; </p>
+</li>
+<li>
+<p>Sjøgrens syndrom (inklusive tørre øjne og tør mund); </p>
+</li>
+<li>
+<p>kløe; </p>
+</li>
+<li>
+<p>kløende udslæt; </p>
+</li>
+<li>
+<p>blå mærker; </p>
+</li>
+<li>
+<p>inflammation i huden (såsom eksem); </p>
+</li>
+<li>
+<p>fingernegle og tånegle knækker; </p>
+</li>
+<li>
+<p>øget svedtendens; </p>
+</li>
+<li>
+<p>hårtab; </p>
+</li>
+<li>
+<p>nye udbrud eller forværring af psoriasis; </p>
+</li>
+<li>
+<p>muskelspasmer; </p>
+</li>
+<li>
+<p>blod i urinen; </p>
+</li>
+<li>
+<p>nyreproblemer; </p>
+</li>
+<li>
+<p>brystsmerter; </p>
+</li>
+<li>
+<p>ødem (ophobning af væske i kroppen, der medfører, at det berørte væv hæver); </p>
+</li>
+<li>
+<p>feber; </p>
+</li>
+<li>
+<p>nedsat antal blodplader med forøget risiko for blødning eller blå mærker; </p>
+</li>
+<li>
+<p>forringet sårheling. </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan påvirke op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>opportunistiske infektioner (som inkluderer tuberkulose og andre infektioner, som forekommer, 
+når modstandskraften mod sygdom er nedsat); </p>
+</li>
+<li>
+<p>neurologiske infektioner (inklusive viral meningitis); </p>
+</li>
+<li>
+<p>øjeninfektioner; </p>
+</li>
+<li>
+<p>bakterieinfektioner; </p>
+</li>
+<li>
+<p>irritation og infektion i tyktarmen (diverticulitis); </p>
+</li>
+<li>
+<p>kræft, herunder kræft i lymfesystemet (lymfom) og melanom (en slags hudkræft); </p>
+</li>
+<li>
+<p>sygdomme i immunsystemet, som kan påvirke lungerne, huden og lymfeknuderne (som oftest 
+en tilstand kaldet sarkoidose); </p>
+</li>
+<li>
+<p>vaskulitis (betændelse i blodkar); </p>
+</li>
+<li>
+<p>rysten; </p>
+</li>
+<li>
+<p>neuropati (nervebeskadigelse); </p>
+</li>
+<li>
+<p>slagtilfælde; </p>
+</li>
+<li>
+<p>høretab, summen for ørerne; </p>
+</li>
+<li>
+<p>fornemmelse af uregelmæssige hjerteslag, såsom oversprungne slag; </p>
+</li>
+<li>
+<p>hjerteproblemer, som kan forårsage kortåndethed og hævede ankler; </p>
+</li>
+<li>
+<p>myokardieinfarkt; </p>
+</li>
+<li>
+<p>sæklignende udposning på væggen af en større pulsåre (aneurisme), betændelse og blodprop i 
+en blodåre, tilstopning af et blodkar; </p>
+</li>
+<li>
+<p>lungesygdom som forårsager kortåndethed (inklusive inflammation/vævsirritation); </p>
+</li>
+<li>
+<p>blodprop i lungerne (lungeemboli); </p>
+</li>
+<li>
+<p>unormal ophobning af væske mellem lungehinderne (pleuraeffusion); </p>
+</li>
+<li>
+<p>inflammation i bugspytkirtlen, som kan give alvorlige smerter i maven og ryggen; </p>
+</li>
+<li>
+<p>synkebesvær; </p>
+</li>
+<li>
+<p>hævelse i ansigtet; </p>
+</li>
+<li>
+<p>inflammation i galdeblæren, galdesten; </p>
+</li>
+<li>
+<p>fedtlever (ophobning af fedt i leverceller); </p>
+</li>
+<li>
+<p>nattesved; </p>
+</li>
+<li>
+<p>ar; </p>
+</li>
+<li>
+<p>unormale muskelssvigt; </p>
+</li>
+<li>
+<p>systemisk lupus erythematosus (indbefatter betændelse i huden, hjertet, lungerne, leddene og 
+andre organsystemer); </p>
+</li>
+<li>
+<p>søvnafbrydelser; </p>
+</li>
+<li>
+<p>impotens; </p>
+</li>
+<li>
+<p>inflammationer. </p>
+</li>
+</ul>
+<p>Sjælden (kan påvirke op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>
+<p>leukæmi (kræft som påvirker blod og knoglemarv); </p>
+</li>
+<li>
+<p>alvorlig allergisk reaktion med shock; </p>
+</li>
+<li>
+<p>dissemineret sklerose; </p>
+</li>
+<li>
+<p>nerveforstyrrelser (såsom betændelse i synsnerven til øjet og Guillain-Barré syndrom, en 
+tilstand, som kan forårsage muskelsvaghed, unormal følesans, prikken i arme og overkrop); </p>
+</li>
+<li>
+<p>hjertestop; </p>
+</li>
+<li>
+<p>lungefibrose (dannelse af arvæv i lungerne); </p>
+</li>
+<li>
+<p>perforering af tarmen; </p>
+</li>
+<li>
+<p>hepatit; </p>
+</li>
+<li>
+<p>genopblussen af hepatitis B; </p>
+</li>
+<li>
+<p>autoimmun hepatit (leverbetændelse forårsaget af kroppens eget immunsystem);   </p>
+</li>
+<li>
+<p>inflammation/betændelse i hudens blodkar (kutan vaskulitis); </p>
+</li>
+<li>
+<p>Stevens-Johnsons syndrom (tidlige symptomer inkluderer utilpashed, feber, hovedpine og 
+udslæt); </p>
+</li>
+<li>
+<p>ødem i ansigtet forbundet med allergiske reaktioner; </p>
+</li>
+<li>
+<p>betændelseslignende hududslæt (erythema multiforme) </p>
+</li>
+<li>
+<p>lupus-lignende syndrom; </p>
+</li>
+<li>
+<p>angioødem (lokal hævelse af huden); </p>
+</li>
+<li>
+<p>lichenoid hudreaktion (kløende rødt-lilla hududslæt). </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>hepatosplenisk T-celle lymfom (en sjælden form for blodkræft, som ofte er dødelig); </p>
+</li>
+<li>
+<p>Merkelcelle karcinom (en type hudkræft);  </p>
+</li>
+<li>
+<p>Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant herpesvirus </p>
+</li>
+<li>
+<p>Kaposis sarkom forekommer oftest som lilla læsioner på huden; </p>
+</li>
+<li>
+<p>leversvigt; </p>
+</li>
+<li>
+<p>forværring af en tilstand, som kaldes dermatomyositis (ses som hududslæt ledsaget af 
+muskelsvaghed); </p>
+</li>
+<li>
+<p>vægtforøgelse (for de fleste patienters vedkommende var vægtforøgelsen lille). </p>
+</li>
+</ul>
+<p>Nogle bivirkninger, som er set med adalimumab, har ikke symptomer og kan kun opdages ved 
+blodprøver. Disse inkluderer: </p>
+<p>Meget almindelig (kan påvirke mere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>nedsat antal af hvide blodlegemer; </p>
+</li>
+<li>
+<p>nedsat antal af røde blodlegemer; </p>
+</li>
+<li>
+<p>forhøjede lipider i blodet; </p>
+</li>
+<li>
+<p>forhøjede leverenzymer. </p>
+</li>
+</ul>
+<p>Almindelig (kan påvirke op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>forhøjet antal hvide blodlegemer;   </p>
+</li>
+<li>
+<p>nedsat antal blodplader; </p>
+</li>
+<li>
+<p>forhøjet urinsyre i blodet; </p>
+</li>
+<li>
+<p>unormale blodmålinger af natrium; </p>
+</li>
+<li>
+<p>lave blodmålinger af calcium; </p>
+</li>
+<li>
+<p>lave blodmålinger af fosfat; </p>
+</li>
+<li>
+<p>højt blodsukker; </p>
+</li>
+<li>
+<p>høje blodmålinger af lactatdehydrogenase; </p>
+</li>
+<li>
+<p>tilstedeværelse af autoantistoffer i blodet; </p>
+</li>
+<li>
+<p>lavt kalium i blodet. </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan påvirke op til 1 ud af 100 personer) </p>
+<ul>
+<li>forhøjede bilirubinmålinger (leverblodtest) </li>
+</ul>
+<p>Sjælden (kan påvirke op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>nedsat antal hvide blodlegemer, røde blodlegemer og blodplader. </li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i </p>
+<p>Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store imraldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store imraldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke Imraldi efter den udløbsdato, der står på etiketten på pakningen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 - 8 °C). Må ikke nedfryses. </p>
+<p>Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys. </p>
+<p>Alternativ opbevaring: </p>
+<p>Hvis det er nødvendigt (f.eks. når du rejser), kan en enkelt Imraldi fyldt injektionssprøjte opbevares 
+ved stuetemperatur (op til 25 °C) i en periode på højst 28 dage - vær sikker på at beskytte den mod 
+lys. Når injektionssprøjten er taget ud af køleskabet og har været opbevaret ved stuetemperatur, skal 
+injektionssprøjten bruges indenfor 28 dage eller kasseres, også selv om den lægges tilbage i køleskab. 
+Du skal registrere den dato, hvor injektionssprøjten først tages ud af køleskabet, og den dato efter 
+hvilken, den skal kasseres. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Imraldi indeholder </p>
+<ul>
+<li>Aktivt stof: adalimumab. </li>
+<li>Øvrige indholdsstoffer: natriumcitrat, citronsyremonohydrat, histidin, 
+histidinhydrochloridmonohydrat, sorbitol, polysorbat 20 og vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Imraldi 40 mg injektionsvæske, opløsning i fyldt injektionssprøjte leveres som en 0,8 ml klar til 
+opaliserende og farveløs til lysebrun opløsning. </p>
+<p>Imraldi findes i pakninger, der indeholder 1, 2, 4 eller 6 fyldt(e) injektionssprøjte(r) (type 1-glas) med 
+en kanyle af rustfrit stål, en stiv kanylebeskytter, et gummistempel, en stempelstang, en 
+beskyttelsesskærm, en fingerkrave til patientbrug og 2, 2, 4 eller 6 spritservietter indeholdt i 
+pakningerne. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen: </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+Holland </p>
+<p>Fremstiller: 
+Biogen Netherlands B.V. </p>
+<p>Prins Mauritslaan 1171 LP Badhoevedorp 
+Holland </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien<br />
+Biogen Belgium NV/S.A<br />
+Tél/Tel: + 32 (0)2 808 5Lietuva<br />
+Biogen Lithuania UAB 
+Tel: +370 52 07 91<br />
+България<br />
+Ewopharma AG Representative Office 
+Teл.: + 359 249 176<br />
+Luxembourg/Luxemburg<br />
+Biogen Belgium NV/SA<br />
+Tél/Tel: +35 227 772<br />
+Česká republika<br />
+Biogen (Czech Republic) s.r.o.<br />
+Tel: + 420 228 884<br />
+Magyarország<br />
+Biogen Hungary Kft.<br />
+Tel.: + 36 1 848 04<br />
+Danmark<br />
+Biogen (Denmark) A/S<br />
+Tlf: + 45 78 79 37<br />
+Malta<br />
+Pharma.MT Ltd 
+Tel: + 356 27 78 15<br />
+Deutschland<br />
+Biogen GmbH<br />
+Tel: + 49 (0)89 996 177 Nederland<br />
+Biogen Netherlands B.V.<br />
+Tel: + 31 (0)20 808 02<br />
+Eesti<br />
+Biogen Estonia OÜ 
+Tel: + 372 6 68 30<br />
+Norge<br />
+Biogen Norway AS<br />
+Tlf: + 47 21 93 95<br />
+Ελλάδα<br />
+Genesis Pharma S.A. 
+Τηλ: + 30 211 176 8Österreich<br />
+Biogen Austria GmbH<br />
+Tel: + 43 (0)1 267 51<br />
+España<br />
+Biogen Spain, S.L.<br />
+Tel: + 34 931 790<br />
+Polska<br />
+Biogen Poland Sp. z o.o.<br />
+Tel.: + 48 22 116 86<br />
+France<br />
+Biogen France SAS<br />
+Tél: + 33 (0)1 776 968<br />
+Portugal<br />
+Biogen Portugal Sociedade Farmacêutica,<br />
+Unipessoal, Lda<br />
+Tel: + 351 308 800<br />
+Hrvatska<br />
+Ewopharma d.o.o 
+Tel: + 385 (0)1 777 64<br />
+România<br />
+Ewopharma AG Representative Office 
+Tel: + 40 377 881<br />
+Ireland<br />
+Biogen Idec (Ireland) Ltd.<br />
+Tel: +353 (0)1 513 33<br />
+Slovenija<br />
+Biogen Pharma d.o.o.<br />
+Tel: + 386 (0)1 888 81  </p>
+<p>Ísland<br />
+Icepharma hf. 
+Sími: + 354 800 9 
+Slovenská republika<br />
+Biogen Slovakia s.r.o.<br />
+Tel: + 421 (0)2 333 257<br />
+Italia<br />
+Biogen Italia s.r.l.<br />
+Tel: + 39 (0)6 899 701<br />
+Suomi/Finland<br />
+Biogen Finland Oy<br />
+Puh/Tel: + 358 (0)9 427 041<br />
+Κύπρος<br />
+Genesis Pharma (Cyprus) Ltd 
+Τηλ: + 357 22 00 04<br />
+Sverige<br />
+Biogen Sweden AB<br />
+Tel: +46 (0)8 525 038 Latvija 
+Biogen Latvia SIA 
+Tel: + 371 66 16 40<br />
+United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Ltd. 
+Tel: +44 (0)20 360 886<br />
+Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<ol>
+<li>Brugsanvisning </li>
+</ol>
+<p>Følg omhyggeligt denne brugsanvisning, og du vil hurtigt udvikle en sikker injektionsrutine. </p>
+<ul>
+<li>Før du begynder med at injicere, skal du bede lægen eller sygeplejersken om at vise dig, 
+hvordan du bruger din fyldte injektionssprøjte. Lægen eller sygeplejersken skal sikre sig, at du 
+kan bruge injektionssprøjten korrekt. </li>
+</ul>
+<p>Din fyldte injektionssprøjte med enkeltdosis </p>
+<p>Når du har presset stemplet helt i bund, vil kanylen trække sig tilbage, så stikskade med kanylen 
+forhindres. </p>
+<p>Behandling af din fyldte injektionssprøjte </p>
+<p>Opbevaring af injektionssprøjte </p>
+<ul>
+<li>
+<p>Opbevar sprøjten i køleskabet. Den må ikke nedfryses. </p>
+</li>
+<li>
+<p>Opbevar sprøjten i dens karton og beskyttet mod lys. </p>
+</li>
+<li>
+<p>Opbevar sprøjten utilgængeligt for børn. </p>
+</li>
+</ul>
+<p>Bortskaffelse af injektionssprøjte </p>
+<ul>
+<li>
+<p>Hver sprøjte må kun bruges én gang. Genbrug aldrig en sprøjte. </p>
+</li>
+<li>
+<p>Smid din brugte sprøjte i en specialbeholder som anvist af lægen, sygeplejersken eller 
+apotekspersonalet. </p>
+</li>
+</ul>
+<p>Advarsler </p>
+<ul>
+<li>
+<p>Hvis du taber sprøjten med hætten PÅ, er det okay at anvende sprøjten. 
+Hvis du taber sprøjten med hætte AF, må den ikke anvendes. Kanylen kan være snavset eller 
+beskadiget. </p>
+</li>
+<li>
+<p>Anvend ikke en beskadiget sprøjte. </p>
+</li>
+</ul>
+<p>Behandling af injektionssted </p>
+<ul>
+<li>
+<p>Vælg et fedtholdigt område til injektion: 
+Fedtholdige områder, som din mave, er almindeligvis de bedste injektionssteder. Fedtholdige 
+områder er lettere at klemme sammen og er gode til korrekt indføring af kanylen. </p>
+</li>
+<li>
+<p>Brug forskellige injektionssteder hver gang: 
+Når der skal vælges et injektionssted, skal det være et område, der ikke har været anvendt for 
+nylig, for at undgå ømhed og blåfarvning. </p>
+</li>
+<li>
+<p>Tryk stemplet langsomt ind: 
+Undertiden kan hurtige injektioner være smertefulde. Hvis sprøjtens stempel trykkes langsomt 
+ind, kan det bevirke, at injektionen bliver mindre ubehagelig. </p>
+</li>
+</ul>
+<p>Sådan injiceres med den fyldte injektionssprøjte </p>
+<ol>
+<li>Saml materialerne sammen </li>
+</ol>
+<p>Anbring din fyldte injektionssprøjte og spritservietter på en ren tør overflade.<br />
+ 
+Husk at vaske hænderne! 
+ 
+Hætten må ikke tages af endnu! </p>
+<ol>
+<li>Vent 15-30 minutter </li>
+</ol>
+<p>Vent 15-30 minutter, så din fyldte injektionssprøjte kan nå stuetemperatur, hvilket kan medvirke til at 
+reducere smerterne ved injektionen. 
+ 
+Hætten må ikke tages af endnu! </p>
+<ol>
+<li>Kontrollér medicinen &amp; udløbsdatoen </li>
+</ol>
+<p>Kontrollér altid, at medicinen er klar til opaliserende, farveløs til lysebrun og fri for partikler, og 
+udløbsdatoen ikke er overskredet. Hvis din medicin ikke er klar til opaliserende, farveløs til lysebrun 
+og fri for partikler, eller udløbsdatoen er overskredet, må den ikke anvendes. 
+Du kan måske se en eller flere bobler, og det er okay. Der er ingen grund til at fjerne den. 
+ 
+Hætten må ikke tages af endnu! </p>
+<ol>
+<li>Vælg et injektionssted &amp; rens huden </li>
+</ol>
+<p>Vælg et injektionssted på kroppen. Det bedste sted er maven (bortset fra området omkring navlen) 
+eller lårene.<br />
+Rens injektionsstedet med en spritserviet. Undlad at berøre området igen før injektionen. 
+ 
+Undgå hudområder, der er ømme, blåfarvede, arrede, skællende eller har røde pletter. </p>
+<ol>
+<li>Træk kanylehætten af </li>
+</ol>
+<p>Træk forsigtigt kanylehætten af. 
+Det er normalt, at nogle få dråber væske kommer ud af kanylen. 
+Hvis du tager kanylehætten af, før du er klar til at injicere, må du ikke sætte kanylehætten på igen. 
+Dette kan bøje eller beskadige kanylen. Du kan ved et uheld stikke dig selv eller tabe medicin. </p>
+<ol>
+<li>Klem huden sammen &amp; indfør kanylen </li>
+</ol>
+<p>Klem forsigtigt huden sammen, og før kanylen helt i bund i en vinkel på ca. 45 grader. </p>
+<ol>
+<li>Tryk stemplet helt i bund </li>
+</ol>
+<p>Hold sprøjten fast, og tryk stemplet helt i bund. 
+Løft herefter tommelfingeren, så kanylen kan trække sig tilbage ind i sprøjtelegemet. </p>
+<ol>
+<li>Fjern sprøjten &amp; bortskaf den </li>
+</ol>
+<p>Træk sprøjten væk fra huden.<br />
+Efter injektion af Imraldi skal du kontrollere, at kanylen har trukket sig tilbage, hvorefter den brugte 
+sprøjte straks smides væk i en specialbeholder som anvist af lægen, sygeplejersken eller apoteket. 
+ 
+Er du ikke sikker på, du har fået din dosis? Kontakt lægen, sygeplejersken eller apoteket. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Imraldi 40 mg injektionsvæske, opløsning i fyldt pen 
+adalimumab </p>
+<p>Læs hele denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Din læge vil også udlevere et Patientkort til dig, der indeholder vigtige sikkerhedsinformationer, 
+som du skal være opmærksom på før og under din behandling med Imraldi. Opbevar 
+Patientkortet på dig under din behandling og i 4 måneder efter din (eller dit barns) sidste 
+injektion med Imraldi. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret Imraldi til dig personligt. Lad derfor være med at give medicinen til andre. 
+Det kan være skadeligt for andre, selvom de har samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på http://www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-ef587583f9868c465778255848bcb8dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imraldi Package Leaflet for language en"
+Description: "ePI document Bundle for imraldi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ef587583f9868c465778255848bcb8dd"
+* entry[0].resource = composition-en-ef587583f9868c465778255848bcb8dd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpef587583f9868c465778255848bcb8dd"
+* entry[=].resource = mpef587583f9868c465778255848bcb8dd
+                            
+                    
+Instance: bundlepackageleaflet-da-ef587583f9868c465778255848bcb8dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imraldi Package Leaflet for language da"
+Description: "ePI document Bundle for imraldi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-ef587583f9868c465778255848bcb8dd"
+* entry[0].resource = composition-da-ef587583f9868c465778255848bcb8dd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpef587583f9868c465778255848bcb8dd"
+* entry[=].resource = mpef587583f9868c465778255848bcb8dd
+                            
+                    
+
+
+
+Instance: mpef587583f9868c465778255848bcb8dd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Imraldi 40 mg solution for injection in pre-filled syringe"
-Description: "Imraldi 40 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product imraldi"
+Description: "imraldi"
 Usage: #inline
 
  
@@ -798,7 +2139,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Imraldi 40 mg solution for injection in pre-filled syringe"
+  * productName = "imraldi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -825,29 +2166,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-ef587583f9868c465778255848bcb8dd
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for imraldi Package Leaflet for language en"
-Description: "ePI document Bundle for imraldi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: ef587583f9868c465778255848bcb8ddListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Imraldi 40 mg solution for injection in pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "imraldi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-ef587583f9868c465778255848bcb8dd"
-* entry[0].resource = composition-en-ef587583f9868c465778255848bcb8dd
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4bacf250eb9d1bd12f54c13edce23759"
-* entry[=].resource = mp4bacf250eb9d1bd12f54c13edce23759
-                            
-                      
+* title = "List of all ePIs associated with imraldi"
+
+* subject = Reference(mp4bacf250eb9d1bd12f54c13edce23759)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#imraldi "imraldi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-ef587583f9868c465778255848bcb8dd) // imraldi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-ef587583f9868c465778255848bcb8dd) // imraldi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-ef587583f9868c465778255848bcb8dd
+InstanceOf: List
+
+* insert ef587583f9868c465778255848bcb8ddListRuleset
+    

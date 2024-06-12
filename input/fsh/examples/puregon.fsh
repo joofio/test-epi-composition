@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-cfa624691d24d77fe98aa5c98b02fbeb
 InstanceOf: CompositionUvEpi
 Title: "Composition for puregon Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpea0af89111613ed9622b4949ce8da1c2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -461,9 +464,560 @@ Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 
 
 
+Instance: composition-da-cfa624691d24d77fe98aa5c98b02fbeb
+InstanceOf: CompositionUvEpi
+Title: "Composition for puregon Package Leaflet"
+Description:  "Composition for puregon Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpea0af89111613ed9622b4949ce8da1c2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - puregon"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Puregon 
+3. Sådan skal du tage Puregon 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What puregon is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What puregon is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Puregon injektionsvæske, opløsning indeholder follitropin beta, et hormon kendt som 
+follikelstimulerende hormon (FSH). </p>
+<p>FSH tilhører gruppen af gonadotropiner og spiller en vigtig rolle for frugtbarhed og forplantning hos 
+mennesker. Hos kvinder er FSH nødvendigt for væksten og udviklingen af follikler i æggestokkene. 
+Follikler er små, runde sække, som indeholder ægcellerne. Hos mænd er FSH nødvendigt for 
+sædproduktionen.  </p>
+<p>Puregon anvendes til behandling af barnløshed i følgende situationer:  </p>
+<p>Kvinder 
+Puregon kan stimulere ægløsningen hos kvinder, som ikke har ægløsning, og som ikke reagerer på 
+behandling med clomifencitrat. 
+Puregon kan fremkalde udvikling af mange follikler hos kvinder, som gennemgår 
+reproduktionsbehandling (kunstig befrugtning), inklusive reagensglasbefrugtning (in vitro fertilisation 
+(IVF)) eller andre behandlinger.  </p>
+<p>Mænd 
+Puregon kan stimulere sædproduktionen hos mænd, som er ufrugtbare på grund af nedsat 
+hormonniveau. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take puregon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take puregon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Puregon </p>
+<p>Hvis </p>
+<ul>
+<li>
+<p>du er allergisk over for follitropin beta eller et af de øvrige indholdsstoffer i Puregon (angivet i 
+punkt 6)  </p>
+</li>
+<li>
+<p>du har svulster i æggestokkene, brysterne, livmoderen, testiklerne eller hjernen (hypofysen eller 
+hypotalamus) </p>
+</li>
+<li>
+<p>du har kraftige eller uregelmæssige blødninger, hvor årsagen er ukendt </p>
+</li>
+<li>
+<p>dine æggestokke ikke fungerer pga. en sygdom, som kaldes primær ovarieinsufficiens  </p>
+</li>
+<li>
+<p>du har cyster på æggestokkene eller forstørrede æggestokke, som ikke skyldes sygdommen 
+polycystisk ovariesyndrom (PCOS) </p>
+</li>
+<li>
+<p>du har misdannelser i kønsorganerne, som gør det umuligt at gennemføre en normal graviditet </p>
+</li>
+<li>
+<p>du har muskelknuder (fibromer) i livmoderen, som gør det umuligt at gennemføre en normal 
+graviditet  </p>
+</li>
+<li>
+<p>du er en mand og er ufrugtbar på grund af en testikelsygdom.  </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du tager Puregon, hvis du: </p>
+<ul>
+<li>
+<p>har haft en allergisk reaktion overfor visse antibiotika (neomycin og/eller streptomycin) </p>
+</li>
+<li>
+<p>har sygdomme i hypofyse eller hypotalamus, der ikke er under kontrol </p>
+</li>
+<li>
+<p>har nedsat funktion af skjoldbruskkirtlen (hypotyroidisme) </p>
+</li>
+<li>
+<p>har binyrer, som ikke fungerer ordentligt (adrenokortikal insufficiens) </p>
+</li>
+<li>
+<p>har høj koncentration af prolaktin i blodet (hyperprolaktinæmi) </p>
+</li>
+<li>
+<p>har andre sygdomme (fx sukkersyge (diabetes), hjertesygdom eller anden langvarig sygdom). </p>
+</li>
+</ul>
+<p>Hvis du er en kvinde:  </p>
+<p>Ovarielt overstimulationssyndrom (OHSS) 
+Din læge vil vurdere effekten af din behandling regelmæssigt for at være i stand til at vælge den rette 
+dosis Puregon fra dag til dag. Overvågningen sker ved regelmæssige ultralydsscanninger af 
+æggestokkene. Lægen kan også kontrollere koncentrationen af hormoner i blodet. Dette er meget 
+vigtigt, da en for høj dosis FSH kan medføre sjældne, men alvorlige komplikationer, hvor 
+æggestokkene bliver overstimuleret og de voksende follikler bliver større end normalt. Denne alvorlige 
+lidelse kaldes ovarieoverstimulationssyndrom (OHSS). I sjældne tilfælde kan svær OHSS være 
+livstruende. OHSS medfører, at der pludselig ophobes væske i mave og brystkasse, og OHSS kan 
+medføre, at der dannes blodpropper. Kontakt straks lægen, hvis du oplever stærkt oppustet mave, 
+mavesmerter, kvalme, opkastning, pludselig vægtstigning som følge af væskeophobning, diarré, nedsat 
+vandladning eller vejrtrækningsproblemer (se også punkt 4 "Bivirkninger").<br />
+→ Regelmæssig kontrol af, hvordan du reagerer på FSH-behandlingen kan medvirke til at forhindre 
+overstimulation af æggestokkene. Du skal straks kontakte din læge, hvis du får mavesmerter, også hvis 
+smerterne optræder nogle dage efter, du har fået den sidste injektion. </p>
+<p>Flerfoldsgraviditet og medfødte misdannelser 
+Efter behandling med gonadotropin-præparater er der en øget risiko for flerfoldsgraviditet, selv om 
+kun et fosteranlæg opsættes i livmoderen. Flerfoldsgraviditet medfører en helbredsrisiko for både mor 
+og spædbørn omkring fødselstidspunktet. Desuden kan flerfoldsgraviditet samt egenskaber hos 
+patienten, som gennemgår behandling for barnløshed (f.eks. kvindens alder, mandens sædkvalitet, 
+begge forældres genetiske baggrund), muligvis medføre en øget risiko for medfødte misdannelser.  </p>
+<p>Komplikationer under graviditeten 
+Der er en let øget risiko for graviditet uden for livmoderen (ektopisk graviditet). Lægen vil derfor 
+foretage en tidlig ultralydsscanning for at udelukke muligheden for graviditet uden for livmoderen. 
+Behandling for ufrivillig barnløshed kan medføre en let øget risiko for spontan abort. </p>
+<p>Blodpropper (trombose) 
+Behandling med Puregon kan ligesom graviditet øge risikoen for blodpropper (trombose). Blodpropper 
+bevirker tilstopning af et blodkar.  </p>
+<p>Blodpropper kan medføre alvorlige lidelser såsom: </p>
+<ul>
+<li>
+<p>tilstopning af lungerne (blodprop i lungen) </p>
+</li>
+<li>
+<p>slagtilfælde </p>
+</li>
+<li>
+<p>hjerteanfald </p>
+</li>
+<li>
+<p>problemer i blodkar (tromboflebitis) </p>
+</li>
+<li>
+<p>manglende blodgennemstrømning (dyb venetrombose) som kan medføre, at du mister en arm 
+eller et ben. </p>
+</li>
+</ul>
+<p>Du skal tale med din læge om dette, før du begynder på behandlingen, specielt:  </p>
+<ul>
+<li>
+<p>hvis du allerede ved, at du har en forhøjet risiko for blodpropper </p>
+</li>
+<li>
+<p>hvis du eller nogen i din nærmeste familie har haft en blodprop </p>
+</li>
+<li>
+<p>hvis du er svært overvægtig. </p>
+</li>
+</ul>
+<p>Rotation af æggestokkene (ovarietorsion) 
+Ovarietorsion er opstået efter behandling med gonadotropiner, herunder Puregon. Ovarietorsion er 
+vridning af en æggestok. Vridning af æggestokken kan medføre, at blodgennemstrømningen til 
+æggestokken afskæres.  </p>
+<p>Før du starter med at bruge denne medicin, skal du fortælle lægen, hvis du: </p>
+<ul>
+<li>
+<p>nogensinde har haft ovarielt hyperstimulationssyndrom (OHSS) </p>
+</li>
+<li>
+<p>er gravid eller tror, at du kan være gravid </p>
+</li>
+<li>
+<p>nogensinde har fået foretaget en maveoperation </p>
+</li>
+<li>
+<p>nogensinde har haft vridning af en æggestok </p>
+</li>
+<li>
+<p>har eller har haft cyster i en æggestok. </p>
+</li>
+</ul>
+<p>Tumorer i æggestokkene og andre forplantningsorganer 
+Der er rapporteret tumorer i æggestokke og andre forplantningsorganer hos kvinder, som har været i 
+behandling for barnløshed. Det vides ikke, om behandlingen med fertilitetslægemidler øger risikoen 
+for disse tumorer hos infertile kvinder. </p>
+<p>Andre tilstande 
+Før du starter med at tage dette lægemiddel, skal du desuden fortælle din læge: </p>
+<ul>
+<li>hvis en læge har fortalt dig, at en graviditet vil være farlig for dig. </li>
+</ul>
+<p>Hvis du er en mand:  </p>
+<p>Mænd med for meget FSH i blodet 
+Forhøjet indhold af FSH i blodet er et tegn på, at testiklerne er skadet. Puregon virker normalt ikke i 
+sådanne tilfælde. For at kontrollere effekten af behandlingen vil din læge muligvis bede om en 
+sædprøve til analyse fire til seks måneder efter behandlingens start.  </p>
+<p>Børn og unge 
+Det er ikke relevant at anvende Puregon hos børn og unge. </p>
+<p>Brug af anden medicin sammen med Puregon </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. </p>
+<p>Hvis Puregon anvendes samtidig med clomifencitrat, kan der opstå en øget effekt af Puregon. Hvis du 
+har fået en GnRH agonist (lægemiddel brugt til at forhindre tidlig ægløsning), kan det være 
+nødvendigt at give dig en højere dosis Puregon.  </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager Puregon. </p>
+<p>Puregon kan påvirke mælkeproduktionen. Det er ikke sandsynligt, at Puregon udskilles i mælken.<br />
+Hvis du ammer, skal du fortælle det til din læge inden behandlingen med Puregon påbegyndes. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Det er ikke sandsynligt, at Puregon påvirker din evne til at køre motorkøretøj og betjene maskiner.  </p>
+<p>Puregon indeholder benzylalkohol </p>
+<p>Dette lægemiddel indeholder 10 mg benzylalkohol pr. ml. 
+Benzylalkohol kan medføre allergiske reaktioner.<br />
+Spørg din læge eller apotekspersonalet til råds, hvis du har en lever- eller nyresygdom. Dette skyldes, 
+at store mængder benzylalkohol kan ophobes i din krop og kan medføre bivirkninger (kaldet 
+"metabolisk acidose"). 
+Spørg din læge eller apotekspersonalet til råds, hvis du er gravid eller ammer. Dette skyldes, at store 
+mængder benzylalkohol kan ophobes i din krop og kan medføre bivirkninger (kaldet "metabolisk 
+acidose"). </p>
+<p>Puregon indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. indsprøjtning, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take puregon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take puregon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekespersonalet. </p>
+<p>Dosering til kvinder  </p>
+<p>Din læge vil afgøre din startdosis. Denne dosis kan justeres i løbet af behandlingen.<br />
+Yderligere oplysninger om tidsplanen for behandlingen finder du nedenfor.<br />
+Der er store forskelle på, hvordan æggestokkene reagerer på FSH hos forskellige kvinder. Dette gør 
+det umuligt at opsætte et doseringsskema, som passer på alle patienter. For at finde den rigtige dosis 
+vil din læge undersøge follikelvæksten ved hjælp af ultralydsscanning og måling af estradiolmængden 
+(kvindeligt kønshormon) i blodet.  </p>
+<ul>
+<li>
+<p>Kvinder som ikke har ægløsning 
+Din læge fastsætter en startdosis. Denne dosis gives i mindst 7 dage. Hvis æggestokkene ikke 
+reagerer, øges den daglige dosis gradvist, indtil follikelvæksten og/eller plasmakoncentrationen 
+af estradiol viser en passende reaktion. Derefter vedligeholdes den daglige dosis, indtil der 
+findes en follikel med en passende størrelse. Normalt er 7-14 dages behandling tilstrækkeligt. 
+Herefter afbrydes behandlingen med Puregon, og der fremkaldes ægløsning ved at give 
+hormonet humant choriongonadotropin (hCG).  </p>
+</li>
+<li>
+<p>Medicinsk assisteret reproduktionsbehandling (kunstig befrugtning), f.eks. 
+reagensglasbefrugtning (in vitro fertilisering (IVF)) 
+Din læge fastsætter en startdosis. Denne dosis gives i mindst 4 dage. Herefter kan dosis justeres 
+afhængigt af, hvordan dine æggestokke reagerer. Når der findes et tilstrækkeligt antal follikler 
+med en passende størrelse, fremkaldes den sidste fase af modningen af folliklerne ved 
+indgivelse af hormonet hCG. Ægudtagningen foretages 34-35 timer senere.  </p>
+</li>
+</ul>
+<p>Dosering til mænd  </p>
+<p>Puregon ordineres sædvanligvis i en dosis på 450 IE pr. uge, oftest i 3 doser a 150 IE i kombination 
+med et andet hormon (hCG) i mindst 3 til 4 måneder. Behandlingsperioden svarer til udviklingstiden 
+for sæd samt den tid, hvor forbedringer kan forventes. Hvis din sædproduktion ikke er startet efter 
+denne periode, kan behandlingen fortsættes i mindst 18 måneder.  </p>
+<p>Sådan gives indsprøjtningerne </p>
+<p>Puregon injektionsvæske, opløsning i cylinderampul er udviklet til anvendelse i Puregon Pen. De 
+særlige instruktioner for brugen af pennen skal følges nøje. Anvend ikke cylinderampullen, hvis 
+opløsningen indeholder partikler eller ikke er klar. 
+Du selv eller din partner kan med brug af pennen give injektionen lige under huden (f.eks. i den nedre 
+del af maven). Din læge vil oplyse dig om, hvornår og hvordan du skal gøre dette. Hvis du injicerer 
+dig selv med Puregon så følg instruktionerne nøje, for at indgive Puregon korrekt og med mindst 
+muligt ubehag.<br />
+Den første injektion af Puregon skal gives under overvågning af en læge eller sygeplejerske.<br />
+En lille mængde af lægemidlet kan forblive i cylinderampullen efter at behandlingen med Puregon er 
+afsluttet, selv når alle doser er givet korrekt. Forsøg ikke at bruge eventuelt resterende lægemiddel. 
+Efter administration af den sidste dosis skal cylinderampullen kasseres korrekt. </p>
+<p>Hvis du har taget for meget Puregon </p>
+<p>Informér straks din læge.<br />
+En for høj Puregon dosis kan forårsage overstimulation af æggestokkene. Dette kan opleves som 
+smerter i maven. Hvis du generes af mavesmerter, skal du straks kontakte din læge. Se også punkt 4 
+"Bivirkninger". </p>
+<p>Hvis du har glemt at tage Puregon </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.<br />
+→ Kontakt din læge.  </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger hos kvinder<br />
+Behandling med FSH kan medføre komplikationer pga. overstimulation af æggestokkene. 
+Overstimulation af æggestokkene kan føre til en lidelse kaldet ovarielt 
+hyperstimulationssyndrom (OHSS), som kan være et alvorligt problem. Risikoen kan 
+reduceres ved nøje overvågning af follikeludviklingen under behandlingen. Din læge vil 
+foretage en ultralydsscanning af æggestokkene for omhyggeligt at overvåge antallet af follikler. 
+Lægen kan også kontrollere koncentrationen af hormoner i blodet. Mavesmerter, utilpashed 
+eller diarré er de første symptomer. I mere alvorlige tilfælde kan symptomerne være forstørrelse 
+af æggestokkene, væskeophobning i maven og/eller brystet (som kan medføre pludselig 
+vægtstigning som følge af væskeophobning) og blodpropper i kredsløbet. (Se Advarsler og 
+forsigtighedsregler i punkt 2).<br />
+→ Kontakt straks din læge, hvis du får mavesmerter eller nogle af de andre symptomer på 
+overstimulation af ovarierne, også hvis disse symptomer først opstår nogle dage efter, 
+indsprøjtningen er givet. </p>
+<p>Hvis du er kvinde: 
+Almindelige bivirkninger (kan berøre op til 1 ud af 10 personer):</p>
+<ul>
+<li>Hovedpine </li>
+<li>Reaktioner på injektionsstedet (såsom blå mærker, smerter, rødmen, hævelse og kløe) </li>
+<li>Overstimulation af æggestokkene (OHSS) </li>
+<li>Bækkensmerter </li>
+<li>Mavesmerter og/eller opsvulmethed. </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan berøre op til 1 ud af 100 personer):</p>
+<ul>
+<li>Brystgener (inklusive ømhed) </li>
+<li>Diarré, forstoppelse eller mavegener </li>
+<li>Forstørrelse af livmoderen </li>
+<li>Kvalme </li>
+<li>Overfølsomhedsreaktioner (såsom udslæt, rødmen, nældefeber og kløe) </li>
+<li>Cyster i æggestokkene eller forstørrelse af æggestokkene </li>
+<li>Ovarietorsion (drejning af æggestokkene) </li>
+<li>Blødning fra skeden. </li>
+</ul>
+<p>Sjældne bivirkninger (kan berøre op til 1 ud af 1.000 personer):</p>
+<ul>
+<li>Blodpropper (kan også opstå, selvom æggestokkene ikke er utilsigtet overstimulerede, se 
+Advarsler og forsigtighedsregler i punkt 2). </li>
+</ul>
+<p>Der er også rapporteret om graviditet uden for livmoderen (ektopisk graviditet), abort og 
+flerfoldsgraviditet. Disse bivirkninger anses ikke for at være relateret til behandlingen med Puregon, 
+men til den kunstige befrugtning (assisteret reproduktionsbehandlingsteknologi - ART) eller den 
+efterfølgende graviditet. </p>
+<p>Hvis du er mand:<br />
+Almindelige bivirkninger (kan berøre op til 1 ud af 10 personer):</p>
+<ul>
+<li>Akne </li>
+<li>Reaktioner på indsprøjtningssstedet (såsom forhærdning af huden og smerter) </li>
+<li>Hovedpine  </li>
+<li>Udslæt </li>
+<li>Brystforstørrelse </li>
+<li>Cyster i testiklerne. </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store puregon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store puregon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
+<p>Opbevaring på apoteket<br />
+Opbevares i køleskab (2°C - 8°C). Må ikke nedfryses. </p>
+<p>Opbevaring hos patienten<br />
+Der er to muligheder: 
+1. Opbevares i køleskab (2°C - 8°C). Må ikke nedfryses. 
+2. Opbevares ved temperaturer på eller under 25°C i en enkelt periode, der ikke overstiger 
+3 måneder. 
+Skriv ned, hvilken dag du begynder opbevaring af Puregon uden for køleskabet. </p>
+<p>Opbevar cylinderampullen i den ydre karton. </p>
+<p>Når nålen er stukket igennem gummimembranen i cylinderampullen, må indholdet opbevares i højst 
+28 dage.<br />
+Den dato cylinderampullen tages i brug skrives på doseringskortet som vist i instruktionen for Puregon 
+Pen.  </p>
+<p>Brug ikke Puregon efter den udløbsdato, som er angivet på etiketten og kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Kassér brugte nåle straks efter injektion.<br />
+Bland ikke andre stoffer i cylinderampullen. Tomme cylinderampuller må ikke genfyldes. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Puregon indeholder: </p>
+<ul>
+<li>
+<p>Hver cylinderampul indeholder det aktive stof follitropin beta, et hormon kendt som 
+follikelstimulerende hormon (FSH), i en styrke på 833 IE i 1,0 ml vandig opløsning. </p>
+</li>
+<li>
+<p>De øvrige indholdsstoffer er saccharose, natriumcitrat, L-methionin, polysorbat 20 og 
+benzylalkohol i vand til injektionsvæsker. pH-værdien kan være blevet justeret med 
+natriumhydroxid og/eller saltsyre. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Puregon-injektionsvæske, opløsning (injektionsvæske) er en klar farveløs opløsning, som findes i en 
+glas-cylinderampul. Den fås i en pakke med 1 cylinderampul.  </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+N.V. Organon 
+Kloosterstraat 6 
+5349 AB Oss 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Lietuva 
+Organon Pharma B.V. Lithuania atstovybė 
+Tel.: +370 52041dpoc.lithuania@organon.com </p>
+<p>България 
+Органон (И.А.) Б.В. - клон България 
+Тел.: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>Luxembourg/Luxemburg 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Česká republika 
+Organon Czech Republic s.r.o. 
+Tel: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarország 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS<br />
+Tlf: +45 4484 6info.denmark@organon.com </p>
+<p>Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel: +356 2277 8dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel.: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland 
+N.V. Organon 
+Tel: 00800 66550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>Ελλάδα 
+BIANEΞ Α.Ε. 
+Τηλ: +30 210 80091 Mailbox@vianex.gr </p>
+<p>Österreich 
+Organon Healthcare GmbH 
+Tel: +49 (0) 89 2040022 dpoc.austria@organon.com </p>
+<p>España 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 organon_info@organon.com 
+Polska 
+Organon Polska Sp. z o.o. 
+Tel.: +48 22 105 50 organonpolska@organon.com </p>
+<p>France 
+Organon France 
+Tél: +33 (0) 1 57 77 32<br />
+Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: +385 1 638 4dpoc.croatia@organon.com </p>
+<p>România 
+Organon Biosciences S.R.L. 
+Tel: +40 21 527 29 dpoc.romania@organon.com </p>
+<p>Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podružnica Ljubljana 
+Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
+<p>Italia 
+Organon Italia S.r.l. 
+Tel: +39 06 90259dpoc.italy@organon.com </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Κύπρος 
+Organon Pharma B.V., Cyprus branch 
+Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
+<p>Latvija 
+Ārvalsts komersanta “Organon Pharma B.V." 
+pārstāvniecība 
+Tel: +371 66968dpoc.latvia@organon.com </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited 
+Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
+<p>Denne indlægsseddel blev senest ændret måned ÅÅÅÅ  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-cfa624691d24d77fe98aa5c98b02fbeb
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for puregon Package Leaflet for language en"
@@ -482,5 +1036,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-cfa624691d24d77fe98aa5c98b02fbeb"
 * entry[0].resource = composition-en-cfa624691d24d77fe98aa5c98b02fbeb
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcfa624691d24d77fe98aa5c98b02fbeb"
+* entry[=].resource = mpcfa624691d24d77fe98aa5c98b02fbeb
+                            
+                    
+Instance: bundlepackageleaflet-da-cfa624691d24d77fe98aa5c98b02fbeb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for puregon Package Leaflet for language da"
+Description: "ePI document Bundle for puregon Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-cfa624691d24d77fe98aa5c98b02fbeb"
+* entry[0].resource = composition-da-cfa624691d24d77fe98aa5c98b02fbeb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcfa624691d24d77fe98aa5c98b02fbeb"
+* entry[=].resource = mpcfa624691d24d77fe98aa5c98b02fbeb
+                            
+                    
+
+
+
+Instance: mpcfa624691d24d77fe98aa5c98b02fbeb
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product puregon"
+Description: "puregon"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Puregon 150 IU/0.18 mL solution for injection"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "In adult females:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "puregon"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: cfa624691d24d77fe98aa5c98b02fbebListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "puregon"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with puregon"
+
+* subject = Reference(mpea0af89111613ed9622b4949ce8da1c2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#puregon "puregon"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-cfa624691d24d77fe98aa5c98b02fbeb) // puregon en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-cfa624691d24d77fe98aa5c98b02fbeb) // puregon da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-cfa624691d24d77fe98aa5c98b02fbeb
+InstanceOf: List
+
+* insert cfa624691d24d77fe98aa5c98b02fbebListRuleset
+    

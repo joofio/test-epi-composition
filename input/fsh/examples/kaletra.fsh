@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-315c315768d5cbbf6fd09d8201064f37
 InstanceOf: CompositionUvEpi
 Title: "Composition for kaletra Package Leaflet"
@@ -619,12 +622,906 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-315c315768d5cbbf6fd09d8201064f37
+InstanceOf: CompositionUvEpi
+Title: "Composition for kaletra Package Leaflet"
+Description:  "Composition for kaletra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpcc8069b4052d28a3f7f1540ca3717c59)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpcc8069b4052d28a3f7f1540ca3717c59
+* title = "TEST PURPOSES ONLY - kaletra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du eller dit barn begynder at tage Kaletra
+3. Sådan skal du tage Kaletra
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What kaletra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What kaletra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Din læge har ordineret Kaletra som hjælp til at kontrollere din hiv-infektion (humant 
+immundefektvirus-infektion). Det gør Kaletra ved at nedsætte den hastighed, hvormed 
+infektionen breder sig i kroppen. 
+
+Kaletra helbreder ikke hiv-infektion eller AIDS.
+
+Kaletra kan anvendes af børn fra 14 dage og ældre, unge og voksne, der er smittet med hiv, som 
+er den virus, der forårsager aids. 
+
+Kaletra indeholder de aktive stoffer lopinavir og ritonavir. Kaletra er et antiretroviralt 
+lægemiddel. Det tilhører en gruppe af lægemidler, der kaldes proteasehæmmere.
+
+Kaletra ordineres til brug i kombination med andre antivirale lægemidler. Din læge vil diskutere 
+med dig og afgøre, hvilke lægemidler der er mest velegnede til dig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take kaletra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take kaletra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Kaletra
+
+hvis du er allergisk over for lopinavir, ritonavir eller et af de øvrige indholdsstoffer i Kaletra 
+(angivet i punkt 6). 
+
+hvis du har alvorlige leverproblemer.
+Tag ikke Kaletra sammen med nogen af følgende lægemidler 
+
+astemizol eller terfenadin (bruges normalt til behandling af allergisymptomer - disse lægemidler 
+kan være tilgængelige uden recept);
+
+midazolam, når det tages oralt (gennem munden) eller triazolam (bruges til at lindre angst 
+og/eller afhjælpe søvnbesvær);
+
+pimozid (bruges til behandling af skizofreni);
+
+quetiapin (bruges til behandling af skizofreni, bipolær lidelse (manio-depressiv lidelse) og 
+depression);
+
+lurasidon (bruges til behandling af depression);
+
+ranolazin (bruges til behandling af kronisk smerte i brystet [angina]);
+144
+
+cisaprid (bruges til lindring af visse maveproblemer);
+
+ergotamin, dihydroergotamin, ergonovin og methylergonovin (brugt til behandling af migræne);
+
+amiodaron, dronedaron (brugt til behandling af unormal hjerterytme);
+
+lovastatin, simvastatin (bruges til at sænke kolesterol i blodet);
+
+lomitapid (bruges til at sænke kolesterol i blodet);
+
+alfuzosin (bruges til at behandle symptomer på forstørret blærehalskirtel hos mænd (godartet 
+prostatahyperplasi);
+
+fusidinsyre (brugt til behandling hudinfektioner forårsaget af Staphylococcus bakterier såsom 
+børnesår og eksem med betændelse. Fusidinsyre brugt til behandling af langvarige infektioner i 
+knogler og led kan tages med rådgivning fra lægen (se Brug af anden medicin sammen med 
+Kaletra);
+
+colchicin (brugt til behandling af urinsyregigt), hvis du har problemer med nyre- og/eller lever 
+(se punktet Brug af anden medicin sammen med Kaletra);
+
+elbasvir/grazoprevir (bruges til at behandle kronisk hepatitis C-virus [HCV]);
+
+ombitasvir/paritaprevir/ritonavir med eller uden dasabuvir bruges til at behandle kronisk 
+hepatitis C-virus [HCV]);
+
+neratinib (bruges til at behandle brystkræft);
+
+avanafil eller vardenafil (brugt til behandling af potensproblemer);
+
+sildenafil ved brug til behandling af unormalt højt blodtryk i lungernes blodkar pulmonal 
+arteriel hypertension). Sildenafil brugt til at behandle potensproblemer kan tages efter lægens 
+vejledning (se punktet Brug af anden medicin sammen med Kaletra)
+
+naturlægemidler, der indeholder perikon (Hypericum perforatum).
+Se listen med lægemidler nedenfor, under ‘Brug af anden medicin sammen med Kaletra’ for at 
+få oplysninger om visse andre lægemidler, som kræver, at der udvises særlig forsigtighed. 
+Hvis du i øjeblikket tager et af disse lægemidler, skal du bede din læge om foretage de nødvendige 
+ændringer enten i behandlingen af dine andre sygdom(me) eller i din antiretrovirale behandling.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du tager Kaletra.
+Vigtig information
+
+Personer, der tager Kaletra, kan stadig udvikle infektioner eller andre sygdomme forbundet med 
+hiv og AIDS. Det er derfor vigtigt, at din læge fortsat overvåger dig, mens du tager Kaletra.<br />
+Fortæl det til lægen, hvis du eller dit barn har eller har haft
+
+Hæmofili A og B, da Kaletra kan øge risikoen for blødning.
+
+Diabetes, da der er rapporteret om forhøjet blodsukker hos patienter i behandling med Kaletra.
+
+Tidligere leverproblemer, da patienter, som tidligere har haft en leversygdom, herunder 
+kronisk hepatitis B eller C, har en øget risiko for at få alvorlige  og eventuelt dødbringende 
+leverbivirkninger.
+Fortæl det til lægen, hvis du eller dit barn oplever
+
+Kvalme, opkastning, mavesmerter, åndedrætsbesvær og svær muskelsvaghed i benene og 
+armene, da disse symptomer kan være tegn på forhøjede mælkesyreniveauer.
+
+Tørst, hyppig vandladning, sløret syn eller vægttab, da disse symptomer kan være tegn på 
+forhøjede blodsukkerniveauer.
+
+Kvalme, opkastning og mavesmerter, da en stor stigning i mængden af triglycerider (fedtstoffer 
+i blodet) anses for at være en risikofaktor for pankreatitis (betændelse i bugspytkirtlen), og disse 
+symptomer kan tyde på denne sygdom.
+145
+
+Hos nogle patienter med fremskreden hiv-infektion, som tidligere har haft opportunistisk 
+infektion, kan tegn og symptomer på betændelse fra tidligere infektioner forekomme kort efter, 
+at anti-hiv- behandlingen er startet. Det antages, at disse symptomer skyldes en forbedring i 
+kroppens immunforsvar, så kroppen bliver i stand til at bekæmpe infektioner, der kan have 
+været til stede uden tydelige symptomer. Foruden opportunistiske infektioner kan autoimmune 
+sygdomme (skyldes, at immunsystemet går til angreb på rask kropsvæv) også forekomme efter, 
+at du er startet på at tage medicin til behandling af din hiv-infektion. Autoimmune sygdomme 
+kan forekomme flere måneder efter påbegyndelsen af behandlingen. Hvis du bemærker nogen 
+symptomer på infektion eller andre symptomer såsom muskelsvaghed, svaghed som starter i 
+hænder og fødder og bevæger sig op gennem kroppen, hjertebanken, rysten eller hyperaktivitet,
+skal du omgående kontakte din læge for at få den nødvendige behandling.
+
+Stivhed i led, ømhed og smerter (især i hofte, knæ og skulder) og indskrænket bevægelighed,
+da nogle patienter, som tager disse lægemidler, kan udvikle en knoglesygdom, der kaldes 
+knoglenekrose (hvor knoglevævet dør som følge af nedsat blodtilførsel til knoglen). Længden af 
+antiretroviral kombinationsbehandling, brug af kortikosteroider, indtagelse af alkohol, svær 
+immunsuppresion (nedsat aktivitet i immumsystemet), højere legemsmasseindeks (BMI) m.m. 
+kan være nogle af de risikofaktorer, der er, for at udvikle denne sygdom.<br />
+
+Muskelsmerter, ømhed eller svækkelse, især i kombination med disse lægemidler. Disse 
+muskellidelser har i sjældne tilfælde været alvorlige.
+
+Symptomer på svimmelhed, uklarhed, besvimelse eller fornemmelse af unormal hjerterytme. 
+Kaletra kan forårsage ændringer i din hjerterytme og i den elektriske aktivitet i hjertet. Disse 
+forandringer kan ses på et EKG (elektrokardiogram).<br />
+Brug af anden medicin sammen med Kaletra
+Fortæl altid lægen eller apotekspersonalet, hvis du eller dit barn tager anden medicin eller har 
+gjort det for nylig.
+
+antibiotika (f.eks. rifabutin, rifampicin, clarithromycin);
+
+medicin mod kræft (f.eks. abemaciclib, afatinib, apalutamid, ceritinib, encorafenib, ibrutinib, 
+venetoclax, de fleste tyrosinkinasehæmmere sådan som dasatinib og nilotinib, også vincristin og 
+vinblastin);
+
+blodfortyndende lægemidler (f.eks. dabigatran etexilat, edoxaban, rivaroxaban, vorapaxar og 
+warfarin);
+
+lægemidler mod depression (f.eks. trazodon, bupropion);
+
+lægemidler mod epilepsi (f.eks. carbamazepin, phenytoin, phenobarbital, lamotrigin og 
+valproat);
+
+lægemidler mod svamp (f.eks. ketoconazol, itraconazol, voriconazol);
+
+lægemidler mod urinsyregigt (f.eks. colchicin). Du må ikke tage Kaletra sammen med colchicin, 
+hvis du har problemer med nyre- og/eller lever (se også punktet "Tag ikke Kaletra" ovenfor);
+
+lægemiddel mod tuberkulose (bedaquilin, delamanid);
+
+antivirale midler, som bruges til at behandle kronisk hepatitis C-virusinfektion hos voksne 
+(f.eks. glecaprevir/pibrentasvir, simeprevir og sofosbuvir/velpatasvir/voxilaprevir);
+
+lægemidler til behandling af rejsningsproblemer (f.eks. sildenafil og tadalafil);
+
+fusidinsyre brugt til behandling af langvarige infektioner i knogler og led (f.eks.osteomyelitis);
+
+hjertemedicin, herunder:
+-
+digoxin;
+-
+calciumantagonister (f.eks. felodipin, nifedipin, nicardipin);
+-
+lægemidler, der anvendes mod uregelmæssig hjerterytme (f.eks. bepridil, systemisk 
+lidocain, quinidin);
+
+hiv-CCR5-antagonister (f.eks. maraviroc);
+
+hiv-1-integrase-hæmmer (f.eks. raltegravir);
+
+lægemidler, der anvendes til behandling af lavt antal blodplader i blodet (f.eks. fostamatinib);
+
+levothyroxin (bruges til at behandle problemer med skjoldbruskkirtlen);
+
+lægemidler, der anvendes til at sænke kolesterolniveauet i blodet (f.eks. atorvastatin, lovastatin, 
+rosuvastatin eller simvastatin);
+146
+
+lægemidler mod astma og andre lungesygdomme såsom kronisk obstruktiv lungesygdom (KOL) 
+(f.eks. salmeterol);
+
+lægemidler mod unormalt højt blodtryk i lungernes blodkar (pulmonal arteriel hypertension) 
+(f.eks. bosentan, riociguat, sildenafil, tadalafil);
+
+lægemidler, som påvirker immunsystemet (f.eks. ciclosporin, sirolimus (rapamycin), 
+tracrolimus);
+
+lægemidler, som bruges til rygeophør (f.eks.bupropion);
+
+smertestillende lægemidler (f.eks. fentanyl);
+
+morfinlignende lægemidler (f.eks. methadon);
+
+oral prævention eller depotplaster til forebyggelse af graviditet (se nedenstående afsnit med 
+overskriften Præventionsmidler);
+
+proteasehæmmere (f.eks. fosamprenavir, indinavir, ritonavir, saquinavir, tipranavir);
+
+beroligende lægemidler (f.eks. midazolam indgivet ved injektion);
+
+steroider (f.eks. budesonid, dexamethason, fluticasonpropionat, ethinylestradiol, triamcinolon).
+
+lægemidler, som giver en reaktion med alkohol (f.eks. disulfiram).
+Se listen over lægemidler ovenfor ‘Tag ikke Kaletra sammen med nogen af følgende lægemidler’
+for at få oplysninger om lægemidler, som du ikke må tage sammen med Kaletra.
+Fortæl altid lægen eller apotekspersonalet, hvis du eller dit barn bruger anden medicin eller har gjort 
+det for nylig. Dette gælder også medicin, som ikke er købt på recept. 
+Lægemidler til behandling af rejsningsproblemer (avanafil, vardenafil, sildenafil, tadalafil)
+
+Tag ikke Kaletra, hvis du i øjeblikket tager avanafil eller vardenafil.
+
+Du må ikke tage Kaletra, hvis du tager sildenafil for at behandle unormalt forhøjet blodtryk i 
+lungernes blodkar (pulmonal arteriel hypertension) (se også punktet Tag ikke Kaletra ovenfor).
+
+Hvis du tager sildenafil eller tadalafil og Kaletra sammen, kan du risikere at få bivirkninger 
+såsom lavt blodtryk, besvimelse, synsændringer og rejsning af penis, der varer mere end 4 timer. 
+Hvis en rejsning varer mere end 4 timer, skal du søge lægehjælp omgående for at undgå 
+permanent skade af penis. Din læge kan forklare disse symptomer nærmere.
+Præventionsmidler
+
+Hvis du i øjeblikket bruger et oralt præventionsmiddel eller et depotplaster til forebyggelse af 
+graviditet, skal du bruge et supplerende eller en anden type præventionsmiddel (f.eks. kondom), 
+da Kaletra kan forringe virkningen af orale præventionsmidler og depotplastre.
+Graviditet og amning
+
+Fortæl omgående din læge, hvis du er gravid, har mistanke om, at du er gravid, eller planlægger 
+at blive gravid.
+
+Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.
+
+Tal med din læge eller apotekspersonalet, hvis du er gravid eller ammer, før du tager dette 
+lægemiddel, da det indeholder propylenglykol og alkohol. <br />
+
+Det anbefales, at kvinder, som lever med hiv, ikke ammer deres spædbørn, da der er risiko for, 
+at barnet kan blive smittet med hiv gennem modermælken.
+Trafik- og arbejdssikkerhed
+Kaletra er ikke specifikt afprøvet med hensyn til mulige virkninger på evnen til at køre bil eller betjene 
+maskiner. Undlad at køre bil eller betjene maskiner, hvis du får en eller flere bivirkninger (f.eks. 
+kvalme), som påvirker din evne til at gøre dette på forsvarlig vis.Kontakt din læge. 
+Kaletra indeholder 42 % v/v alkohol. Mængden af alkohol i dette lægemiddel kan have en virkning på 
+din evne til at køre eller betjene maskiner og kan have en virkning på din vurderingsevne og 
+reaktionstid.
+147
+Vigtig information om nogle af de øvrige indholdsstoffer i Kaletra
+Kaletra indeholder 42 % v/v alkohol og 15 % propylenglykol w/v. 1 ml Kaletra oral opløsning 
+indeholder 356,3 mg alkohol og 152,7 mg propylenglykol. Alkohol og propylenglykol er potentielt 
+skadeligt for patienter, der lider af leversygdomme, nyresygdom, alkoholisme, epilepsi, hjerneskader 
+eller hjernesygdomme og ligeledes for gravide og børn. Det kan ændre eller øge virkningen af andre 
+lægemidler.
+Ved den anbefalede dosis til voksne for dette lægemiddel er den estimerede koncentration af alkohol i 
+blodet omkring 0,002 - 0,01 g/dl. For en voksen svarer det til at drikke 4-22 ml øl eller 1-4 ml vin.
+Andre lægemidler kan også indeholde alkohol og alkohol kan indtages med mad og drikke. Den 
+kombinerede effekt kan føre til øgede alkoholmængder i blodet og øge bivirkningerne af alkohol.
+Dette lægemiddel indeholder op til 0,8 g fruktose per dosis, når det indtages ifølge anbefalingerne. 
+Dette kan være uhensigtsmæssigt ved arvelig fruktose intolerans. På grund af uopdaget fruktose 
+intolerans, bør dette lægemiddel kun gives til babyer og børn efter konsultation med en læge.
+Kaletra indeholder glycerol, der er skadeligt ved høje doser. Kan forårsage hovedpine, mavegener og 
+diarré.
+Kaletra indeholder polyxol 40 ricinusolie. Det kan medføre kvalme, opkastning, kolik, effekt som et 
+kraftigt afføringsmiddel ved høje doser. Det må ikke gives, hvis der er passagehindring i tarmen.
+Kaletra indeholder kalium som kaliumacesulfam, hvilket kan være skadeligt for personer på en diæt 
+med lavt kalium indhold. Højt kalium i blodet kan forårsage mavegener og diarré.
+Kaletra indeholder natrium som saccharinnatrium, natriumchlorid og natriumcitrat, hvilket kan være 
+skadeligt for personer på en diæt med lavt natriumindhold.
+Kaletra indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 1 ml, dvs. det er i det væsentlige 
+natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take kaletra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take kaletra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kaletra anbefales til voksne og børn på 14 dage og derover, som har hiv.
+Vær forsigtig med dosering af børn. Dosis skal være mindre end 5 ml to gange dagligt til børn som 
+vejer mindre end 40 kg.
+Kaletra leveres også som filmovertrukne tabletter, der indeholder 200 mg lopinavir og 50 mg ritonavir, 
+og filmovertrukne tabletter der indeholder 100 mg lopinavir og 25 mg ritonavir, hvis du eller dit barn 
+kan sluge tabletter.
+Tag altid Kaletra nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Hvor meget Kaletra skal der tages og hvornår?
+Til børn på 14 dage og ældre der vejer op til 15 kg
+
+Lægen vil fastsætte den korrekte dosis på baggrund af barnets højde og vægt. 
+
+Det er vigtigt at alle doser af Kaletra oral opløsning tages med mad. 
+
+Brug den orale doseringssprøjte på 2 ml til at afmåle dosen.
+148
+Til børn der vejer mere end 15 kg
+ Din læge vil bestemme den rigtige dosis ud fra barnets højde og vægt.
+ Det er vigtigt, at alle doser af Kaletra oral opløsning tages sammen med mad.
+ Brug den orale doseringssprøjte på 5 ml til at afmåle dosen.
+Brug til voksne
+
+Den sædvanlige dosis er 5 ml af den orale opløsning to gange dagligt, f.eks. hver 12. time i 
+kombination med andre lægemidler mod hiv. Din læge vil rådgive dig om hvor meget Kaletra, der 
+skal tages. 
+
+Det er vigtigt, at alle doser af Kaletra oral opløsning tages sammen med mad.
+
+Brug den orale doseringssprøjte på 5 ml til at afmåle dosen.
+Hvordan udmåles den korrekte dosis?
+
+Hvis dosis er på til 2 ml - brug den orale doseringssprøjte på 2 ml til at klargøre dosen.
+
+Hvis dosis er mellem 2 ml og 5 ml - brug den orale doseringssprøjte på 5 ml til at klargøre
+dosen.
+Check med apotekspersonalet, at du har den korrekte sprøjtestørrelse. Spørg din læge, 
+apotekspersonalet eller sygeplejerske, hvis du ikke er sikker på, hvordan du skal bruge den orale 
+doseringssprøjte. De kan fortælle dig, hvordan du skal bruge den korrekt.
+Inden du bruger doseringssprøjten for første gang, vaskes stempel og sprøjte i varmt vand og flydende 
+opvaskemiddel. Skyl med rent vand og lad det lufttørre.
+Ryst ikke flasken - det kan danne luftbobler, som vil have en virkning på, hvor godt du kan afmåle 
+dosen.
+Det børnesikrede låg åbnes ved at trykke det ned med håndfladen og dreje det mod uret, eller i pilens 
+retning på toppen af låget. Tal med apoteket, hvis du har problemer med at åbne flasken.
+Brug doseringssprøjten på 2 ml til doser op til 2 ml
+Sprøjten har to 
+primære dele, et 
+stempel og en sprøjtecylinder. 
+På billedet er stemplet
+trukket ud, så du 
+tydeligt kan se hver del.
+Krave
+Stempel
+Sprøjte
+cylinde
+r
+Sprøjte
+spids
+149
+1. Tryk stemplet hele vejen
+ind i sprøjtecylinderen.
+2. Placer spidsen af sprøjten 
+i væsken.
+3. Træk stemplet ud indtil 
+den korrekte dosis ses på 
+stemplet. Du bør se "ml" 
+markeringen på linje med 
+toppen af sprøjtecylinderens krave.
+4. Vend sprøjten så spidsen peger 
+opad, slå let på den og tryk på stemplet 
+for at fjerne luftbobler.
+5. Check dosismarkeringen, efter du har fjernet luftbobler.
+
+Hvis "ml" markeringen på kraven er højere end den ordinerede dosis, tryk stemplet ind til den 
+ordinerede dosis.
+
+Hvis "ml" markering på kraven er mindre end den ordinerede dosis, træk mere opløsning op, 
+til du rammer den ordinerede dosis.
+6. Placer doseringssprøjten i dit barns mund, ind mod kinden og tryk forsigtigt stemplet ned for at 
+frigøre medicinen.
+Skift flaskens låg efter hver dosis.
+Brug doseringssprøjten på 5 ml til doser på mere end 2 ml
+Sprøjten har to primære dele, et stempel 
+og en sprøjtecylinder.<br />
+På billedet er stemplet
+trukket ud, så du 
+tydeligt at kan hver del.
+1. Tryk stemplet hele vejen ind 
+i sprøjtecylinderen.
+2. Placer spidsen af sprøjten i 
+væsken.
+3. Træk stemplet ud indtil den 
+forhøjede ring er på den 
+korrekte dosis "ml" markering 
+på sprøjtecylinderen.
+4. Vend sprøjten så spidsen 
+peger opad, slå let på den og 
+tryk på stemplet for at fjerne 
+luftbobler.
+5. Check dosis markeringen, efter du har fjernet luftbobler.
+• Hvis "ml" markeringen på den forhøjede ring er højere end den ordinerede dosis, tryk stemplet ind til 
+den ordinerede dosis.
+‘ml’ 
+mærke
+Fingergeb
+Forhøjet ring
+Sprøjtespids
+Sprøjte
+Stempel
+‘ml’ mærke
+150
+• Hvis "ml" markering på den forhøjede ring er mindre end den ordinerede dosis, træk mere opløsning 
+op til du rammer den ordinerede dosis.
+6. Placer doseringssprøjten i dit barns mund, ind mod kinden og tryk forsigtigt stemplet ned for at 
+frigøre medicinen.
+Skift flaskens låg efter hver dosis. Skil sprøjten og pumpestemplet ad efter hver dosis Kaletra. Vask 
+pumpestemplet og sprøjten med opvaskesæbe og varmt vand, så snart du kan komme til det; du kan 
+lægge begge dele i blød i sæbevand i op til 15 minutter. Rengør sprøjten og pumpestemplet med rent 
+vand. Sæt sprøjten sammen igen og sug vandhanevand op og sprøjt det ud igen et par gange for at 
+rense den. Lad sprøjten tørre fuldstændigt, før du anvender den sprøjten til dosering igen. 
+Brug ikke doseringssprøjten, som er leveret sammen med Kaletra oral opløsning til at administrere 
+anden medicin, som du eller dit barn tager.
+Hvis du eller dit barn har taget for meget Kaletra
+
+Hvis du bliver klar over, at du har taget for meget Kaletra, skal du straks kontakte din læge.
+
+Hvis du ikke kan komme i kontakt med din læge, skal du henvende dig på hospitalet.
+Hvis du eller dit barn har glemt at tage Kaletra
+
+Hvis du opdager, at du har glemt en dosis inden for 6 timer fra det tidspunkt, du skulle have 
+taget din dosis, skal du tage den glemte dosis snarest muligt og derefter fortsætte med at tage din 
+normale dosis til sædvanlig tid, som foreskrevet af din læge.
+
+Hvis du opdager, at du har glemt en dosis 6 timer eller længere fra det tidspunkt, du skulle have 
+taget din dosis, skal du ikke tage den glemte dosis. Tag den næste dosis på det sædvanlige 
+tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du eller dit barn holder op med at tage Kaletra
+
+Du må ikke ændre eller holde op med at tage den daglige dosis Kaletra uden først at konsultere 
+din læge.
+
+Du skal altid tage Kaletra to gange dagligt for at bidrage med kontrollere din hiv-infektion, lige 
+meget hvor meget bedre du føler dig.<br />
+
+Hvis du tager Kaletra som anbefalet, burde du få de bedste muligheder for at forsinke udvikling 
+af resistens over for medicinen.
+
+Hvis en bivirkning forhindrer dig i at tage Kaletra som anvist, skal du straks informere din læge 
+om det.
+
+Sørg altid for at have tilstrækkeligt med Kaletra på lager, så du ikke løber tør. Når du er på rejse 
+eller skal indlægges på hospital, skal du sørge for at have tilstrækkeligt med Kaletra, indtil du 
+kan få en ny forsyning.
+
+Fortsæt med at tage denne medicin, indtil lægen anbefaler noget andet.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Det kan 
+være vanskeligt at skelne mellem bivirkninger, der er forårsaget af Kaletra, og bivirkninger, der kan 
+opstå pga. andre lægemidler, som du tager samtidig, eller som skyldes komplikationer forbundet med 
+hiv-infektionen.<br />
+Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose i 
+blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse ændringer.
+151
+Følgende bivirkninger er rapporteret af patienter, som tog denne medicin. Du skal straks 
+underrette din læge om disse eller andre symptomer. Hvis tilstanden varer ved eller forværres, skal du 
+søge lægehjælp.
+Meget almindelige kan påvirke flere end 1 ud af 10 personer
+
+diarré;
+
+kvalme
+
+øvre luftvejsinfektion.
+Almindelige kan påvirke op til 1 ud af 10 personer
+
+betændelse i bugspytkirtlen;
+
+opkastning, forstørret mave, smerter i den nederste og øverste del af maven, luft i tarmen, 
+fordøjelsesbesvær, nedsat appetit, tilbageløb af maveindholdet til spiserøret, hvilket kan give 
+smerter;
+-
+Fortæl din læge, hvis du oplever kvalme, opkastning eller mavesmerter, da dette kan 
+være tegn på pankreatitis (betændelse i bugspytkirtlen).
+
+hævelse eller betændelse i maven eller tarmene;
+
+forhøjet kolesterolniveau i dit blod, forhøjet triglyceridniveau (en slags fedt) i dit blod, højt 
+blodtryk;
+
+nedsættelse af kroppens evne til at forbrænde sukker herunder diabetes mellitus, vægttab;
+
+lavt antal røde blodlegemer, lavt antal hvide blodlegemer, der normalt bruges til at bekæmpe 
+infektioner;
+
+udslæt, eksem, ophobning af skæl af fedtet hud;
+
+svimmelhed, angst, søvnløshed;
+
+følelse af træthed, mangel på kræfter og energi, hovedpine inklusive migræne;
+
+hæmorider;
+
+leverbetændelse inklusive forhøjede leverenzymer;
+
+allergiske reaktioner inklusive udslæt og betændelse i munden;
+
+infektioner i nedre luftveje;
+
+forstørrede lymfeknuder;
+
+impotens, unormalt kraftig menstruation eller manglende menstruation;
+
+muskellidelser så som svaghed eller spasmer, smerter i led, muskler og ryg;
+
+skade på nerver i det perifere nervesystem;
+
+nattesved, kløe, udslæt inklusive hævede buler på huden, infektion i huden, betændelse i hud 
+eller hårsække, ophobning af væske i celler eller væv.
+Ikke almindelige kan påvirke op til 1 ud af 100 personer<br />
+
+unormale drømme
+
+tab eller ændring af smag;
+
+hårtab;
+
+en abnormitet i elektrokardiogrammet (EKG) kaldet atrioventrikulært blok;
+
+belægninger inde i dine arterier, som kan føre til hjerteanfald eller slagtilfælde;
+
+betændelse i blodkar og kapillærer;
+
+betændelse i galdegangen;
+
+ukontrollerede rystelser af kroppen;
+
+forstoppelse;
+
+dyb venebetændelse i forbindelse med en blodprop;
+
+tør mund;
+
+manglende evne til at kontrollere afføring;
+
+betændelse i den første del af tyndtarmen lige efter maven, sår i fordøjelseskanalen, blødning fra 
+fordøjelseskanalen eller endetarmen;
+
+røde blodlegemer i urinen;
+
+gulfarvning af huden eller det hvide i øjnene (gulsot);
+
+fedtaflejringer i leveren, forstørret lever;
+
+manglende testikelfunktion;
+152
+
+en opblussen af symptomer relateret til en inaktiv infektion i din krop (immunrekonstitution);
+
+øget appetit;
+
+unormalt højt niveau af bilirubin (et farvestof, der dannes ved nedbrydelse af de røde 
+blodlegemer) i blodet;
+
+nedsat lyst til sex;
+
+nyrebetændelse;
+
+knogledød forårsaget af dårlig blodtilførsel til området;
+
+sår i munden, betændelse i maven og tarmen;
+
+nyresvigt;
+
+nedbrydelse af muskelfibre, som resulterer i frigivelse af muskelfiberprotein (myoglobin) ind i 
+blodbanen;
+
+en lyd i et eller begge ører som f.eks. en brummen, ringen eller fløjtetone;
+
+skælven;
+
+unormal lukning af en af hjerteklapperne (trikuspidklappen i hjertet);
+
+svimmelhed (følelse af rotation);
+
+øjenforstyrrelser, unormalt syn;
+
+vægtforøgelse.
+Sjælden: kan påvirke op til 1 ud af 1.000 personer)
+
+alvorlige eller livstruende hududslæt og blister (Stevens-Johnsons syndrom og  erythema 
+multiforme).
+Ikke kendt: kan ikke estimeres ud fra tilgængelige data
+
+nyresten.
+Tal med lægen eller apoteket, hvis en bivirkning er generende eller bliver værre, eller du får 
+bivirkninger, som ikke er nævnt her.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store kaletra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store kaletra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Opbevar Kaletra utilgængeligt for børn.
+
+Brug ikke Kaletra efter den udløbsdato, der står på pakningen.
+
+Brug ikke lægemidlet, hvis du bemærker, at opløsningen er misfarvet eller indeholder partikler. 
+Hvordan skal jeg opbevarer Kaletra og hvor længe
+
+Opbevares i køleskab (2°C - 8°C).
+
+Opbevaring efter åbning: Hvis Kaletra opbevares udenfor køleskab, må du ikke opbevare det 
+ved temperaturer over 25°C, og du skal smide al ubrugt indhold ud efter 42 dage (6 uger). Det 
+anbefales at skrive dato på pakningen, når den tages ud af køleskabet.
+
+Det er vigtigt at opbevare Kaletra i den beholder, den kom i og skift flaskens låg efter hver 
+dosis. Hæld den ikke over i en anden beholder.
+Sådan bortskaffer du ubrugt Kaletra
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.
+153</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kaletra indeholder
+Aktive stoffer: lopinavir og ritonavir.
+Hver ml Kaletra oral opløsning indeholder 80 mg lopinavir og 20 mg ritonavir.
+Øvrige indholdsstoffer:<br />
+Alkohol, majssirup med højt fruktoseindhold, propylenglykol, renset vand, glycerol, povidon, 
+magnasweet-110 aroma (blanding af monoammonium glycyrrhizinat og glycerol), vaniljearoma 
+(indeholdende p-hydroxybenzoesyre, p-hydroxybenzaldehyd, vanillinsyre, vanillin, heliotropin, 
+ethylvanillin), polyoxyleret (40) hydrogeneret ricinusolie, sukkervataroma (indeholdende ethylmaltol, 
+ethylvanillin, acetoin, dihydrocoumarin, propylenglycol), kaliumacesulfam, saccharinnatrium, 
+natriumchlorid, pebermynteolie, natriumcitrat, citronsyre, levomenthol.
+Kaletras udseende og pakningstørrelse
+Kaletra oral opløsning leveres i en gulbrun fler-dosis 60 ml flaske. Hver ml af Kaletra indeholder 
+80 mg lopinavir og 20 mg ritonavir.
+Der er to pakningsstørrelser tilgængelige:
+
+120 ml (2 flasker x 60 ml). Pakningen med 2 flasker indeholder også to 2 ml sprøjter med 0,1 ml 
+inddelinger. Til voluminer op til 2 ml. En alternativ pakningsstørrelse er tilgænglig til større 
+voluminer.
+
+300 ml (5 flasker x 60 ml). Pakningen med 5 flasker indeholder også fem 5 ml sprøjter med 0,1 ml 
+inddelinger. Til voluminer større end 2 ml. En alternativ pakningsstørrelse er tilgænglig til mindre
+voluminer.
+Indehaveren af markedsføringstilladelsen:
+AbbVie Deutschland GmbH &amp; Co. KG, Knollstrasse, 67061 Ludwigshafen, Tyskland
+Fremstillere:
+AbbVie Deutschland GmbH &amp; Co. KG, Knollstrasse, 67061 Ludwigshafen, Tyskland
+AbbVie Logistics B.V., Zuiderzeelaan 53, 8017 JV Zwolle, Holland
+Hvis du vil have yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant:
+België/Belgique/Belgien
+AbbVie SA
+Tél/Tel: +32 10 477811
+Lietuva
+AbbVie UAB 
+Tel: +370 5 205 3023
+България
+АбВи ЕООД
+Тел.: +359 2 90 30 430
+Luxembourg/Luxemburg
+AbbVie SA
+Belgique/Belgien
+Tél/Tel: +32 10 477811
+154
+Česká republika
+AbbVie s.r.o. 
+Tel: +420 233 098 111
+Magyarország
+AbbVie Kft.
+Tel.: +36 1 455 8600
+Danmark
+AbbVie A/S
+Tlf: +45 72 30 20 28
+Malta
+V.J.Salomone Pharma Limited 
+Tel: +356 22983201
+Deutschland
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: 00800 222843 33 (gebührenfrei)
+Tel: +49 (0) 611 / 1720-0
+Nederland
+AbbVie B.V.
+Tel: +31 (0)88 322 2843
+Eesti
+AbbVie OÜ
+Tel: +372 623 1011
+Norge
+AbbVie AS
+Tlf: +47 67 81 80 00
+Ελλάδα
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε.
+Τηλ: +30 214 4165 555
+Österreich
+AbbVie GmbH 
+Tel: +43 1 20589-0
+España
+AbbVie Spain, S.L.U. 
+Tel: +34 9 384 0910
+Polska
+AbbVie Sp. z o.o.
+Tel.: +48 22 372 78 France
+AbbVie
+Tél: +33 (0)1 45 60 13 00
+Portugal
+AbbVie, Lda. 
+Tel: +351 (0)21 1908400
+Hrvatska 
+AbbVie d.o.o.
+Tel: +385 (0)1 5625 501
+România
+AbbVie S.R.L.
+Tel: +40 21 529 30 35
+Ireland
+AbbVie Limited 
+Tel: +353 (0)1 4287900
+Slovenija
+AbbVie Biofarmacevtska družba d.o.o.
+Tel: +386 (1)32 08 060
+Ísland
+Vistor hf.
+Tel: +354 535 7000
+Slovenská republika
+AbbVie s.r.o.
+Tel: +421 2 5050 0777
+Italia
+AbbVie S.r.l. 
+Tel: +39 06 928921
+Suomi/Finland
+AbbVie Oy
+Puh/Tel: +358 (0)10 2411 200
+Κύπρος
+Lifepharma (Z.A.M.) Ltd
+Τηλ: +357 22 34 74 40
+Sverige
+AbbVie AB
+Tel: +46 (0)8 684 44 600
+Latvija
+AbbVie SIA 
+Tel: +371 67605000
+United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561090
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+155
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.
+156
+Indlægsseddel: Information til brugeren
+Kaletra 200 mg/50 mg filmovertrukne tabletter
+lopinavir/ritonavir
+Læs denne indlægsseddel grundigt, inden du eller dit barn begynder at tage dette lægemiddel, 
+da den indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
+-
+Lægen har ordineret Kaletra til dig eller dit barn personligt. Lad derfor være med at give 
+medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
+du har.
+-
+Kontakt lægen eller apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, 
+eller du får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-315c315768d5cbbf6fd09d8201064f37
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kaletra Package Leaflet for language en"
+Description: "ePI document Bundle for kaletra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-315c315768d5cbbf6fd09d8201064f37"
+* entry[0].resource = composition-en-315c315768d5cbbf6fd09d8201064f37
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp315c315768d5cbbf6fd09d8201064f37"
+* entry[=].resource = mp315c315768d5cbbf6fd09d8201064f37
+                            
+                    
+Instance: bundlepackageleaflet-da-315c315768d5cbbf6fd09d8201064f37
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kaletra Package Leaflet for language da"
+Description: "ePI document Bundle for kaletra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-315c315768d5cbbf6fd09d8201064f37"
+* entry[0].resource = composition-da-315c315768d5cbbf6fd09d8201064f37
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp315c315768d5cbbf6fd09d8201064f37"
+* entry[=].resource = mp315c315768d5cbbf6fd09d8201064f37
+                            
+                    
+
+
+
+Instance: mp315c315768d5cbbf6fd09d8201064f37
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Kaletra (80 mg + 20 mg) / ml oral solution"
-Description: "Kaletra (80 mg + 20 mg) / ml oral solution"
+Title: "Medicinal Product kaletra"
+Description: "kaletra"
 Usage: #inline
 
  
@@ -644,7 +1541,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Kaletra (80 mg + 20 mg) / ml oral solution"
+  * productName = "kaletra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -671,39 +1568,10 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-315c315768d5cbbf6fd09d8201064f37
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for kaletra Package Leaflet for language en"
-Description: "ePI document Bundle for kaletra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 315c315768d5cbbf6fd09d8201064f37ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/01/172/003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
-
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-315c315768d5cbbf6fd09d8201064f37"
-* entry[0].resource = composition-en-315c315768d5cbbf6fd09d8201064f37
-
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpcc8069b4052d28a3f7f1540ca3717c59"
-* entry[=].resource = mpcc8069b4052d28a3f7f1540ca3717c59
-                            
-                      
-
-
-
-                      RuleSet: 315c315768d5cbbf6fd09d8201064f37ListRuleset
-
-* identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/01/172/003"
+* identifier.value = "None"
 * identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
 * identifier[=].value = "kaletra"
 
@@ -737,9 +1605,21 @@ Usage: #example
 
 
 
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-315c315768d5cbbf6fd09d8201064f37) // kaletra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
 
 Instance: List-315c315768d5cbbf6fd09d8201064f37
 InstanceOf: List
 
 * insert 315c315768d5cbbf6fd09d8201064f37ListRuleset
-
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-febe758b815af2dff26af1acacd31f32
 InstanceOf: CompositionUvEpi
 Title: "Composition for xarelto Package Leaflet"
@@ -485,12 +488,648 @@ effects not listed in this leaflet. See section 4.</p>
 
 
 
+Instance: composition-da-febe758b815af2dff26af1acacd31f32
+InstanceOf: CompositionUvEpi
+Title: "Composition for xarelto Package Leaflet"
+Description:  "Composition for xarelto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf210ba06578fce9e00c5bc51d5188555)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf210ba06578fce9e00c5bc51d5188555
+* title = "TEST PURPOSES ONLY - xarelto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Xarelto
+3. Sådan skal du tage Xarelto
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xarelto is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xarelto is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Du får Xarelto, da</h2>
+<p>du har fået stillet diagnosen akut koronarsyndrom (en samlet betegnelse for akut opstået
+hjertesygdom som hjerteanfald og ustabil angina pectoris, som giver alvorlige smerter i
+brystet), og da du har en unormal stigning i visse blodprøveresultater med relevans for
+hjertet.
+Hos voksne nedsætter Xarelto risikoen for at få endnu et hjerteanfald og for at dø af
+hjerte- og karsygdom.
+Du vil ikke få Xarelto alene. Din læge vil også fortælle dig, at du enten skal tage:
+•
+acetylsalicylsyre eller
+•
+acetylsalicylsyre plus clopidogrel eller ticlopidin.
+eller 
+-
+du har fået stillet diagnosen høj risiko for at få en blodprop på grund af
+koronararteriesygdom eller perifer arteriesygdom, som giver dig symptomer.
+Hos voksne nedsætter Xarelto risikoen for at få blodpropper (aterotrombotiske
+hændelser).
+Du vil ikke få Xarelto alene. Din læge vil også fortælle dig, at du skal tage
+acetylsalicylsyre.
+I nogle tilfælde, hvis du får Xarelto efter et indgreb til at åbne en forsnævret eller lukket
+arterie i benet for at genoprette blodkredsløbet, kan lægen også ordinere clopidogrel, som
+du skal tage i tillæg til acetylsalicylsyre i en kort periode.
+Xarelto indeholder det aktive stof rivaroxaban, og det tilhører en gruppe medicin, der kaldes 
+antitrombotika. Det fungerer ved at blokere en blodstørkningsfaktor i blodet (faktor Xa) og nedsætter 
+således blodets tendens til at klumpe sig sammen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xarelto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xarelto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Xarelto </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for rivaroxaban eller et af de øvrige indholdsstoffer i Xarelto (angivet i 
+punkt 6) </p>
+</li>
+<li>
+<p>hvis du bløder kraftigt </p>
+</li>
+<li>
+<p>hvis du har en sygdom eller tilstand i et af kroppens organer, som øger risikoen for alvorlig 
+blødning (f.eks. mavesår, hjerneskade eller -blødning, nylig operation i hjernen eller øjnene) </p>
+</li>
+<li>
+<p>hvis du tager medicin for at hindre blodpropper (f.eks. warfarin, dabigatran, apixaban eller 
+heparin), bortset fra når du skifter blodfortyndende behandling, eller hvis du får heparin gennem 
+et vene- eller arteriekateter for at holde det åbent </p>
+</li>
+<li>
+<p>hvis du får et akut koronarsyndrom og tidligere har haft en blødning eller blodprop i hjernen 
+(slagtilfælde) </p>
+</li>
+<li>
+<p>hvis du har en koronararteriesygdom eller perifer arteriesygdom eller tidligere havde en 
+hjerneblødning (apopleksi), eller hvor der var en blokering af de små arterier, der forsyner 
+hjernens dybtliggende væv med blod (lakunær apopleksi), eller hvis du havde en blodprop i 
+hjernen (iskæmisk, ikke-lakunær apopleksi) inden for den sidste måned </p>
+</li>
+<li>
+<p>hvis du har en leversygdom, der medfører øget risiko for blødning </p>
+</li>
+<li>
+<p>hvis du er gravid eller ammer. 
+Lad være med at tage Xarelto, og fortæl det til din læge, hvis noget af overstående gælder for dig. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Xarelto. 
+Xarelto må ikke anvendes sammen med visse andre lægemidler, der nedsætter blodets evne til at 
+størkne, f.eks. prasugrel eller ticagrelor. Du må dog gerne tage acetylsalicylsyre og 
+clopidogrel/ticlopidin. </p>
+<p>Vær ekstra forsigtig med at tage Xarelto </p>
+<ul>
+<li>
+<p>hvis du har øget risiko for blødning, som f.eks. i følgende situationer: 
+▪ 
+svær nyresygdom, da din nyrefunktion kan påvirke den mængde lægemiddel, der virker i 
+kroppen 
+▪ 
+hvis du tager anden medicin for at forebygge blodpropper (f.eks. warfarin, dabigatran, 
+apixaban eller heparin), når du skifter blodfortyndende behandling, eller hvis du får heparin 
+gennem et vene- eller arteriekateter for at holde det åbent (se punktet "Brug af anden medicin 
+sammen med Xarelto") 
+▪ 
+blødningsforstyrrelser 
+▪ 
+meget højt blodtryk, som ikke er reguleret med medicin 
+▪ 
+sygdomme i mave eller tarm, der kan give blødninger, f.eks. betændelse i tarmene eller i 
+maven eller irritation i spiserøret f.eks. på grund af sure opstød (sygdom, hvor mavesyren 
+kommer op i spiserøret), eller tumorer, som befinder sig i maven eller tarmen eller i 
+kønsorganerne eller urinvejene 
+▪ 
+et problem med blodkarrene bagerst i øjnene (retinopati) 
+▪ 
+en lungesygdom, hvor dine bronkier er udvidede og fyldt med pus (bronkiektase), eller du 
+tidligere har haft blødning fra lungerne 
+▪ 
+du er over 75 år 
+▪ 
+du vejer under 60 kg 
+▪ 
+du har koronararteriesygdom med alvorlig symptomatisk hjertesvigt </p>
+</li>
+<li>
+<p>hvis du har en kunstig hjerteklap </p>
+</li>
+<li>
+<p>hvis du ved, at du har en sygdom, der hedder antifosfolipidsyndrom (en forstyrrelse i 
+immunsystemet, der giver øget risiko for blodpropper), skal du sige det til lægen, som vil vurdere, 
+om behandlingen skal ændres. </p>
+</li>
+</ul>
+<p>Hvis en eller flere af disse betingelser gælder for dig, skal du fortælle det til lægen, før du tager 
+Xarelto. Lægen vil beslutte, om du skal behandles med dette lægemiddel, og om du skal holdes under 
+nøje observation. </p>
+<p>Hvis du skal opereres </p>
+<ul>
+<li>
+<p>er det yderst vigtigt, at du tager Xarelto før og efter operationen på præcist de tidspunkter, som 
+lægen har angivet </p>
+</li>
+<li>
+<p>hvis du i forbindelse med din operation får indsat et kateter eller får en injektion i rygmarven 
+(f.eks. epidural eller spinal bedøvelse eller smertelindring): 
+▪ 
+er det meget vigtigt, at du tager Xarelto før og efter injektionen eller fjernelsen af katetret 
+på præcist det tidspunkt, som lægen har fortalt dig 
+▪ 
+skal du straks fortælle det til lægen, hvis du bliver følelsesløs eller svag i dine ben, eller 
+hvis du får afførings- eller vandladningsproblemer, når bedøvelsen er afsluttet; du skal 
+straks behandles for dette. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Xarelto 2,5 mg tabletter anbefales ikke til børn og unge under 18 år. Der findes ikke tilstrækkelige 
+oplysninger om anvendelse til børn og unge. </p>
+<p>Brug af anden medicin sammen med Xarelto 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som ikke er købt 
+på recept, f.eks. naturlægemidler og vitaminer og mineraler. </p>
+<ul>
+<li>Hvis du tager 
+▪ 
+visse former for medicin mod svampeinfektioner (f.eks. fluconazol, itraconazol, 
+voriconazol, posaconazol), medmindre de kun smøres på huden 
+▪ 
+ketoconazoltabletter (bruges til at behandle Cushings syndrom – når kroppen producerer 
+for meget kortisol) 
+▪ 
+visse former for medicin mod bakterieinfektioner (f.eks. clarithromycin, erythromycin) 
+▪ 
+visse former for virushæmmende medicin mod HIV/AIDS (f.eks. ritonavir) 
+▪ 
+anden medicin til forebyggelse af blodpropper (f.eks. enoxaparin, clopidogrel eller 
+vitamin K-antagonister som f.eks. warfarin og acenocumarol, prasugrel og ticagrelor (se 
+punktet "Advarsler og forsigtighedsregler")) 
+▪ 
+betændelseshæmmende og smertestillende medicin (f.eks. naproxen eller 
+acetylsalicylsyre) 
+▪ 
+dronedaron, et lægemiddel, der bruges til behandling af unormal hjerterytme 
+▪ 
+visse former for medicin til behandling af depression (selektive serotonin 
+genoptagelseshæmmere (SSRI-præparater) eller serotonin-
+/noradrenalingenoptagelseshæmmere (SNRI-præparater)). </li>
+</ul>
+<p>Hvis du tager et eller flere af disse lægemidler, skal du fortælle det til lægen, før du tager 
+Xarelto, da Xareltos virkning kan blive forstærket. Lægen vil beslutte, om du skal behandles 
+med dette lægemiddel, og om du skal holdes under nøje observation. 
+Hvis din læge tror, at du har øget risiko for at få mavesår, kan han eller hun også ordinere 
+forebyggende behandling. </p>
+<ul>
+<li>Hvis du tager 
+▪ 
+visse former for medicin til behandling af epilepsi (phenytoin, carbamazepin, 
+phenobarbital) 
+▪ 
+perikon (Hypericum perforatum), et naturlægemiddel mod depression 
+▪ 
+rifampicin, et antibiotikum. 
+Hvis du tager et eller flere af disse lægemidler, skal du fortælle det til lægen, før du tager 
+Xarelto, da Xareltos virkning kan blive nedsat. Lægen vil beslutte, om du skal behandles med 
+Xarelto, og om du skal overvåges nøje. </li>
+</ul>
+<p>Graviditet og amning 
+Tag ikke Xarelto, hvis du er gravid eller ammer. Hvis der er mulighed for, at du kan blive gravid, skal 
+du bruge effektiv prævention, mens du tager dette lægemiddel. Hvis du bliver gravid, mens du tager 
+Xarelto, skal du fortælle det til lægen med det samme. Lægen vil så afgøre det videre 
+behandlingsforløb. </p>
+<p>Trafik- og arbejdssikkerhed 
+Xarelto kan medføre svimmelhed (almindelig bivirkning) eller besvimelse (ikke almindelig 
+bivirkning) (se punkt 4 "Bivirkninger"). Du må ikke føre motorkøretøj, cykle eller betjene værktøj og 
+maskiner, hvis du oplever disse symptomer. </p>
+<p>Xarelto indeholder lactose og natrium<br />
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter.<br />
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xarelto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xarelto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Dosis 
+Den anbefalede dosis er én 2,5 mg tablet to gange dagligt. Tag tabletterne på omtrent samme tidspunkt 
+hver dag (for eksempel én tablet om morgenen og én om aftenen). Dette lægemiddel kan tages 
+sammen med eller uden mad. </p>
+<p>Hvis du har problemer med at sluge tabletten hel, skal du tale med din læge om andre måder at tage 
+Xarelto på. Tabletten kan knuses og blandes med vand eller æblemos, umiddelbart før du tager den. 
+Hvis det er nødvendigt, kan du også få den knuste Xarelto-tablet via en mavesonde. </p>
+<p>Du vil ikke få Xarelto alene.<br />
+Din læge vil også fortælle dig, at du skal tage acetylsalicylsyre. Hvis du får Xarelto efter et akut 
+koronarsyndrom, kan din læge fortælle dig, at du også skal tage clopidogrel eller ticlopidin. 
+Hvis du får Xarelto efter et indgreb til at åbne en forsnævret eller lukket arterie i benet for at 
+genoprette blodkredsløbet, kan lægen også ordinere clopidogrel, som du skal tage i tillæg til 
+acetylsalicylsyre i en kort periode. </p>
+<p>Din læge vil fortælle dig, hvor meget du skal tage af disse (normalt mellem 75 og 100 mg 
+acetylsalicylsyre dagligt eller en daglig dosis på 75 til 100 mg acetylsalicylsyre plus en daglig dosis af 
+enten 75 mg clopidogrel eller en daglig standarddosis af ticlopidin). </p>
+<p>Hvornår skal du begynde at tage Xarelto? 
+Behandlingen med Xarelto efter et akut koronarsyndrom skal starte så hurtigt som muligt efter 
+stabilisering af det akutte koronarsyndrom, tidligst 24 timer efter indlæggelse på hospitalet og på det 
+tidspunkt, hvor parenteral (via injektion) antikoagulationsbehandling normalt ville blive stoppet. 
+Din læge vil fortælle dig, hvornår du skal begynde behandlingen med Xarelto, hvis du er blevet 
+diagnosticeret med koronararteriesygdom eller perifer arteriesygdom. 
+Din læge vil fortælle dig, hvor lang tid du skal fortsætte behandlingen. </p>
+<p>Hvis du har taget for meget Xarelto 
+Kontakt lægen øjeblikkeligt, hvis du har taget for mange Xarelto-tabletter. Hvis du tager for meget 
+Xarelto, øges risikoen for blødning. </p>
+<p>Hvis du har glemt at tage Xarelto 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Hvis du glemmer en dosis, skal 
+du tage den næste dosis til sædvanlig tid. </p>
+<p>Hvis du holder op med at tage Xarelto 
+Tag Xarelto regelmæssigt og så længe, som din læge ordinerer det til dig. </p>
+<p>Du må ikke holde op med at tage Xarelto uden først at have talt med din læge. Hvis du holder op med 
+at tage dette lægemiddel, kan det øge risikoen for, at du får endnu et hjerteanfald eller slagtilfælde, 
+eller for, at du dør af en sygdom med relation til dit hjerte eller dine blodkar. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel  kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Som det er tilfældet med lignende medicin, som kan nedsætte dannelsen af blodpropper, kan Xarelto 
+medføre blødninger, der muligvis kan være livstruende. Voldsom blødning kan medføre et pludseligt 
+blodtryksfald (shock). I nogle tilfælde er disse blødninger ikke umiddelbart synlige. </p>
+<p>Fortæl det øjeblikkeligt til lægen, hvis du oplever en eller flere af følgende bivirkninger: </p>
+<ul>
+<li>Tegn på blødning </li>
+<li>blødning i hjernen eller i kraniet (symptomerne kan omfatte hovedpine, svaghed i den ene 
+side, opkast, krampeanfald, nedsat bevidsthedsniveau og nakkestivhed. En alvorlig 
+medicinsk akuttilstand. Søg straks lægehjælp!) </li>
+<li>langvarig eller kraftig blødning </li>
+<li>
+<p>usædvanlig svaghed, træthed, bleghed, svimmelhed, hovedpine, uforklarlig hævelse, 
+åndenød, brystsmerter eller angina pectoris 
+Lægen kan beslutte at holde dig under nøje observation eller ændre behandlingen. </p>
+</li>
+<li>
+<p>Tegn på alvorlige hudreaktioner </p>
+</li>
+<li>kraftigt hududslæt, der breder sig, blisterdannelse eller læsioner af slimhinden, f.eks. i 
+munden eller øjnene (Stevens-Johnsons syndrom/toksisk epidermal nekrolyse).  </li>
+<li>
+<p>en bivirkning, som giver udslæt, feber, betændelse i de indre organer, blodabnormaliteter og 
+systemisk sygdom (DRESS syndrom).<br />
+Hyppigheden af disse bivirkninger er meget sjælden (op til 1 ud af 10.000 behandlede). </p>
+</li>
+<li>
+<p>Tegn på alvorlige allergiske reaktioner </p>
+</li>
+<li>hævelse af ansigt, læber, mund, tunge eller hals, synkebesvær, nældefeber og 
+åndedrætsbesvær, pludseligt blodtryksfald.<br />
+Hyppighederne af alvorlige allergiske bivirkninger er meget sjældne (anafylaktiske reaktioner, 
+herunder anafylaktisk shock, kan påvirke op til 1 ud af 10.000 behandlede) og ikke almindelige 
+(angioødem og allergisk ødem, kan påvirke op til 1 ud af 100 behandlede). </li>
+</ul>
+<p>Samlet liste over bivirkninger 
+Almindelige bivirkninger (forekommer hos op til 1 ud af 10 behandlede) 
+- nedsat antal røde blodlegemer, hvilket kan medføre bleghed og svaghed eller åndenød 
+- blødning i maven eller tarmen, blødning i nyrer, urinveje og kønsorganer (herunder blod i urinen 
+og kraftig menstruationsblødning), næseblødning, blødning fra gummerne 
+- blødning i øjet (herunder blødning fra bindehinden, det hvide i øjet) 
+- blodansamling i væv eller hulrum i kroppen (hæmatom, blå mærker) 
+- ophostning af blod 
+- blødning fra huden eller under huden 
+- blødning efter operation 
+- sivning af blod eller væske fra operationssår 
+- hævede arme og ben 
+- smerter i arme og ben 
+- nedsat nyrefunktion (kan ses i blodprøver) 
+- feber 
+- mavesmerter, fordøjelsesbesvær, kvalme og opkastning, forstoppelse, diarré 
+- lavt blodtryk (symptomerne kan være svimmelhed eller besvimelse, når man rejser sig) 
+- manglende kræfter og energi (svaghed, træthed), hovedpine, svimmelhed 
+- udslæt, kløe 
+- stigning i visse leverenzymer påvist ved blodprøver. </p>
+<p>Ikke almindelige bivirkninger (forekommer hos op til 1 ud af 100 behandlede) 
+- blødning i hjernen eller i kraniet (se ovenfor for tegn på blødning) 
+- blødning i led, så der opstår smerter og hævelse<br />
+- nedsat antal blodplader (trombocytopeni). Blodpladerne hjælper med at stoppe blødning 
+- allergiske reaktioner, herunder allergiske hudreaktioner 
+- nedsat leverfunktion (kan ses i blodprøver)<br />
+- stigning i bilirubin, visse bugspytkirtel- og leverenzymer eller antal blodplader påvist ved 
+blodprøver.<br />
+- besvimelse 
+- utilpashed 
+- hurtigere puls 
+- mundtørhed 
+- nældefeber </p>
+<p>Sjældne bivirkninger (forekommer hos op til 1  ud af 1.000 behandlede) 
+- blødning i en muskel<br />
+- galdeophobning (kolestase), leverbetændelse, herunder skadelig virkning på leverceller </p>
+<p>(betændelse i leveren og leverskade) 
+- gulfarvning af huden og øjnene (gulsot) 
+- lokal hævelse 
+- blodansamling (hæmatom) i lysken på grund af komplikationer i forbindelse med en 
+undersøgelse af hjertet, hvor et kateter bliver ført ind gennem en blodåre i benet (pseudoaneurisme). </p>
+<p>Meget sjælden (forekommer hos op til 1 ud af 10.000 behandlede) 
+- akkumulering af eosinofile leukocytter, en type hvide granulocytiske blodceller, der forårsager 
+betændelse i lungerne (eosinofil pneumoni) </p>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) 
+- nyresvigt efter en alvorlig blødning 
+- blødning i nyren, nogle gange med tilstedeværelse af blod i urinen, hvilket medfører, at nyrerne 
+ikke kan fungere korrekt (antikoagulantia-relateret nefropati) 
+- øget tryk i muskler i ben eller arme efter en blødning, hvilket kan medføre smerter, hævelse, </p>
+<p>ændret følelse, følelsesløshed eller lammelse (kompartmentsyndrom efter en blødning) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xarelto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xarelto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter "EXP" og på det enkelte 
+blisterark eller plastbeholderen efter "EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringsbetingelser for dette lægemiddel.  </p>
+<p>Knuste tabletter 
+Knuste tabletter er stabile i vand og i æblemos i op til 4 timer.  </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xarelto indeholder:</p>
+<ul>
+<li>Aktivt stof: rivaroxaban. Hver tablet indeholder 2,5 mg rivaroxaban. </li>
+<li>Øvrige indholdsstoffer: 
+Tabletkerne: mikrokrystallinsk cellulose, natriumcroscarmellose, lactosemonohydrat, 
+hypromellose (2910), natriumlaurylsulfat, magnesiumstearat. Se punkt 2 "Xarelto indeholder 
+lactose og natrium". 
+Filmovertræk af tablet: macrogol (3350), hypromellose (2910), titandioxid (E 171), gul jernoxid 
+(E 172). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Xarelto 2,5 mg filmovertrukne tabletter er lysegule, runde, bikonvekse og mærket med et Bayer-kors 
+på den ene side og "2,5" samt en trekant på den anden side. 
+De fås<br />
+- i blisterpakninger i æsker med 14, 20, 28, 30, 56, 60, 98, 168 eller 196 filmovertrukne tabletter 
+eller<br />
+- i enkeltdosisblisterpakninger i æsker med 10 × 1 eller 100 × 1, eller<br />
+- i multipakker med 10 æsker, der hver indeholder 10 x 1 filmovertrukne tabletter eller<br />
+- i plastbeholdere med 100 filmovertrukne tabletter.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Bayer AG 
+51368 Leverkusen 
+Tyskland </p>
+<p>Fremstiller </p>
+<p>Fremstilleren kan identificeres ved hjælp af batchnummeret, der er trykt på æskens sideflap og på hver 
+blisterpakning eller plastbeholder: </p>
+<p>Hvis det første og andet tegn er BX, er fremstilleren 
+Bayer AG 
+Kaiser-Wilhelm-Allee 
+51368 Leverkusen 
+Tyskland </p>
+<p>Hvis det første og andet tegn er IT, er fremstilleren 
+Bayer HealthCare Manufacturing Srl. 
+Via delle Groane, 20024 Garbagnate Milanese 
+Italien </p>
+<p>Hvis det første og andet tegn er BT, er fremstilleren 
+Bayer Bitterfeld GmbH 
+Ortsteil Greppin, Salegaster Chaussee 1 
+06803 Bitterfeld-Wolfen 
+Tyskland  </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België / Belgique / Belgien 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63<br />
+Lietuva 
+UAB Bayer 
+Tel: +370-5-233 68 68  </p>
+<p>България 
+Байер България ЕООД 
+Тел: +359-(0)2-424 72<br />
+Luxembourg / Luxemburg 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 11  </p>
+<p>Česká republika 
+Bayer s.r.o. 
+Tel: +420-266 101<br />
+Magyarország 
+Bayer Hungária KFT 
+Tel: +36-1-487 4100  </p>
+<p>Danmark 
+Bayer A/S 
+Tlf: +45-4523 5 
+Malta 
+Alfred Gera and Sons Ltd. 
+Tel: +356-21 44 62 05  </p>
+<p>Deutschland 
+Bayer Vital GmbH 
+Tel: +49-(0)214-30 513<br />
+Nederland 
+Bayer B.V. 
+Tel: +31-23-799 1 
+Eesti 
+Bayer OÜ 
+Tel: +372-655 85<br />
+Norge 
+Bayer AS 
+Tlf: +47-23 13 05<br />
+Ελλάδα 
+Bayer Ελλάς ΑΒΕΕ 
+Τηλ: 
++30-210-618 75<br />
+Österreich 
+Bayer Austria Ges. m. b. H. 
+Tel: +43-(0)1-711<br />
+España 
+Bayer Hispania S.L. 
+Tel: +34-93-495 65<br />
+Polska 
+Bayer Sp. z o.o. 
+Tel: +48-22-572 35<br />
+France 
+Bayer HealthCare 
+Tél (N° vert): +33-(0)800 87 54<br />
+Portugal 
+Bayer Portugal, Lda. 
+Tel: +351-21-416 42<br />
+Hrvatska 
+Bayer d.o.o. 
+Tel: + 385-(0)1-6599<br />
+România 
+SC Bayer SRL<br />
+Tel: +40-(0)21-529 59<br />
+Ireland 
+Bayer Limited 
+Tel: +353 1 216 3 
+Slovenija 
+Bayer d. o. o. 
+Tel: +386-(0)1-58 14<br />
+Ísland 
+Icepharma hf. 
+Sími: +354-540 80<br />
+Slovenská republika 
+Bayer, spol. s r.o. 
+Tel: +421-(0)2-59 21 31<br />
+Italia 
+Bayer S.p.A. 
+Tel: +39-02-3978 1 </p>
+<p>Suomi/Finland 
+Bayer Oy 
+Puh/Tel: +358-(0)20-78 
+Κύπρος 
+NOVAGEM Limited 
+Τηλ: +357-22-48 38<br />
+Sverige 
+Bayer AB 
+Tel: +46-(0)8-580 223<br />
+Latvija 
+SIA Bayer 
+Tel: +371-67 84 55<br />
+United Kingdom (Northern Ireland) 
+Bayer AG 
+Tel: +44-(0)118 206 3 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu . </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Xarelto 10 mg filmovertrukne tabletter 
+rivaroxaban </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give 
+lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
+som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-febe758b815af2dff26af1acacd31f32
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xarelto Package Leaflet for language en"
+Description: "ePI document Bundle for xarelto Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-febe758b815af2dff26af1acacd31f32"
+* entry[0].resource = composition-en-febe758b815af2dff26af1acacd31f32
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfebe758b815af2dff26af1acacd31f32"
+* entry[=].resource = mpfebe758b815af2dff26af1acacd31f32
+                            
+                    
+Instance: bundlepackageleaflet-da-febe758b815af2dff26af1acacd31f32
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xarelto Package Leaflet for language da"
+Description: "ePI document Bundle for xarelto Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-febe758b815af2dff26af1acacd31f32"
+* entry[0].resource = composition-da-febe758b815af2dff26af1acacd31f32
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfebe758b815af2dff26af1acacd31f32"
+* entry[=].resource = mpfebe758b815af2dff26af1acacd31f32
+                            
+                    
+
+
+
+Instance: mpfebe758b815af2dff26af1acacd31f32
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Xarelto 2.5 mg film-coated tablets"
-Description: "Xarelto 2.5 mg film-coated tablets"
+Title: "Medicinal Product xarelto"
+Description: "xarelto"
 Usage: #inline
 
  
@@ -510,7 +1149,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Xarelto 2.5 mg film-coated tablets"
+  * productName = "xarelto"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -537,29 +1176,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-febe758b815af2dff26af1acacd31f32
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xarelto Package Leaflet for language en"
-Description: "ePI document Bundle for xarelto Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: febe758b815af2dff26af1acacd31f32ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/08/472/025-035, EU/1/08/472/041, EU/1/08/472/046-047"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xarelto"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-febe758b815af2dff26af1acacd31f32"
-* entry[0].resource = composition-en-febe758b815af2dff26af1acacd31f32
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf210ba06578fce9e00c5bc51d5188555"
-* entry[=].resource = mpf210ba06578fce9e00c5bc51d5188555
-                            
-                      
+* title = "List of all ePIs associated with xarelto"
+
+* subject = Reference(mpf210ba06578fce9e00c5bc51d5188555)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xarelto "xarelto"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-febe758b815af2dff26af1acacd31f32) // xarelto en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-febe758b815af2dff26af1acacd31f32) // xarelto da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-febe758b815af2dff26af1acacd31f32
+InstanceOf: List
+
+* insert febe758b815af2dff26af1acacd31f32ListRuleset
+    

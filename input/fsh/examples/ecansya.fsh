@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-efa7f0457f33e21d0516b1da0af6e176
 InstanceOf: CompositionUvEpi
 Title: "Composition for ecansya Package Leaflet"
@@ -551,12 +554,653 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-efa7f0457f33e21d0516b1da0af6e176
+InstanceOf: CompositionUvEpi
+Title: "Composition for ecansya Package Leaflet"
+Description:  "Composition for ecansya Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3dae7e326cd016c43bafb6d12fadf61b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3dae7e326cd016c43bafb6d12fadf61b
+* title = "TEST PURPOSES ONLY - ecansya"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Ecansya
+3. Sådan skal du tage Ecansya
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ecansya is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ecansya is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ecansya tilhører en gruppe lægemidler som kaldes “cytostatika", som standser væksten af kræftceller. 
+Ecansya indeholder capecitabin, som i sig selv ikke virker cytostatisk. Kun når det er optaget i 
+kroppen ændres det til et aktivt anti-cancer stof (fortrinsvis i svulstvæv).
+Ecansya bruges til behandling af kræft i tyktarm, endetarm, mave eller bryst.
+Desuden bruges Ecansya til forebyggelse af ny optræden af tyktarmskræft efter fuldstændig fjernelse 
+af svulsten ved operation.
+Ecansya kan anvendes enten alene eller i kombination med andre lægemidler.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ecansya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ecansya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Ecansya</h2>
+<p>hvis du er allergisk over for capecitabin eller et af de øvrige indholdsstoffer i Ecansya (angivet i 
+punkt 6). Du skal fortælle din læge, hvis du er overfølsom over for eller reagerer kraftigt på 
+dette lægemiddel
+-
+hvis du tidligere har haft alvorlige bivirkninger ved fluorpyrimidin-behandling (en gruppe af 
+kræftlægemidler som fluorouracil)
+-
+hvis du er gravid eller ammer
+-
+hvis du har meget få hvide blodlegemer eller blodplader i blodet (leukopeni, neutropeni eller 
+trombocytopeni)
+-
+hvis du har svære lever eller nyreproblemer
+-
+hvis du ved, at du ikke har nogen aktivitet af enzymet dihydropyrimidindehydrogenase (DPD)
+(fuldstændig DPD-mangel), 
+-
+hvis du bliver behandlet på nuværende tidspunkt eller inden for de sidste 4 uger har været 
+behandlet med brivudin som en del af herpes zosterbehandling (skoldkopper eller helvedesild).
+Advarsler og forsigtighedsregler
+46
+Kontakt lægen eller apotekspersonalet, før du tager Ecansya
+-
+hvis du ved, at du har delvis mangel på aktivitet af enzymet dihydropyrimidindehydrogenase 
+(DPD)
+-
+hvis du har et familiemedlem der har delvis eller fuldstændig mangel på enzymet 
+dihydropyrimidindehydrogenase (DPD)
+-
+hvis du har lever- eller nyrelidelser
+-
+hvis du har eller har haft problemer med hjertet (for eksempel uregelmæssig puls eller smerter i 
+brystet eller ryggen i forbindelse med fysisk anstrengelse og på grund af problemer med 
+blodforsyningen til hjertet) 
+-
+hvis du har sygdomme i hjernen (for eksempel kræft, der har spredt sig til hjernen eller 
+nerveskader (neuropati)
+-
+hvis du har forstyrrelser i kalkstofskiftet (kan ses ved blodprøver) 
+-
+hvis du har sukkersyge
+-
+hvis du ikke kan holde på mad eller vand pga. svær kvalme og opkastning
+-
+hvis du har diarré
+-
+hvis du har eller får væskemangel
+-
+hvis du har forstyrrelser i saltbalancen i blodet (elektrolyt-ubalance kan ses ved blodprøver) 
+-
+hvis du tidligere har haft problemer med øjnene, da du herved kan have brug for ekstra kontrol 
+af dine øjne
+-
+hvis du har en alvorlig hudreaktion.
+DPD-mangel
+DPD-mangel er en genetisk tilstand der almindeligvis ikke er forbundet med helbredsproblemer, 
+medmindre man får bestemte lægemidler. Hvis du har DPD-mangel og tager Ecansya, har du en øget 
+risiko for alvorlige bivirkninger (anført i punkt 4 Bivirkninger). Det anbefales at blive testet for DPD-
+mangel, inden behandlingen påbegyndes. Hvis du ikke har nogen aktivitet af enzymet, må du ikke tage 
+Ecansya. Hvis du har reduceret enzymaktivitet (delvis mangel) kan din læge ordinere en reduceret 
+dosis. Hvis du er testet negativ for DPD-mangel, kan alvorlige og livstruende bivirkninger stadig 
+forekomme.
+Børn og unge
+Ecansya er ikke beregnet til børn eller unge. Giv ikke Ecansya til børn eller unge.
+Brug af anden medicin sammen med Ecansya
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, har brugt anden medicin 
+eller planlægger at bruge anden medicin. Det er meget vigtigt, da indtagelse af mere end et 
+lægemiddel på samme tid kan forstærke eller forringe virkningen af lægemidlerne. 
+Du må ikke tage brivudin (et lægemiddel mod virus til behandling af helvedesild eller 
+skoldkopper) samtidig med du får capecitabin-behandling (dette gælder også perioder, hvor du 
+holder pause og ikke tager capecitabin tabletter).
+Hvis du har taget brivudin, skal du vente mindst 4 uger efter endt behandling med brivudin før 
+du må starte behandling med capecitabin. Se også afsnittet ’Tag ikke Ecansya’.
+Du skal også være særlig forsigtig, hvis du tager :
+-
+medicin mod urinsyregigt (allopurinol)
+-
+blodfortyndende medicin (coumarin eller warfarin)
+-
+medicin mod kramper eller rystelser (phenytoin)
+-
+alfa-interferon
+-
+får strålebehandling og bestemte lægemidler mod kræft (folinsyre, oxaliplatin, bevacizumab, 
+cisplatin, irinotecan)
+-
+lægemidler til behandling af folsyremangel.
+Brug af Ecansya sammen med mad og drikke
+Du skal tage Ecansya senest 30 minutter efter et måltid.
+47
+Graviditet og amning
+Hvis du er gravid, tror du er gravid, påtænker at blive gravid eller hvis du ammer, bør du snakke med 
+din læge eller apotekspersonalet inden du tager dette lægemiddel. Du må ikke tage Ecansya, hvis du er 
+gravid eller tror du er det. 
+Du må ikke amme, hvis du tager Ecansya og i 2 uger efter sidste dosis. 
+Hvis du er en kvinde, der kan blive gravid, skal du anvende sikker prævention under behandling med 
+Ecansya og i 6 måneder efter sidste dosis. 
+Hvis du er en mandlig patient og din kvindelige partner kan blive gravid, så skal du anvende sikker 
+prævention under behandling med Ecansya og i 3 måneder efter sidste dosis.
+Trafik- og arbejdssikkerhed
+Ecansya forårsage svimmelhed, kvalme og træthed. Det er derfor muligt, at Ecansya kan påvirke din 
+evne til at køre bil, og betjene maskiner.
+Ecansya indeholder lactose
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ecansya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ecansya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.
+Ecansya må kun ordineres af læger med erfaring i brug af kræftmedicin.
+Din læge vil ordinere en dosis og en behandling som er rigtig for dig. Ecansya-dosis er baseret på 
+arealet af din legemsoverflade. Det beregnes ud fra din højde og vægt. Den normale dosis til voksne er 
+1250 mg/m2 legemsoverflade to gange dagligt (morgen og aften). Her følger to eksempler: En person, 
+som vejer 64 kg, og som er 1,64 m høj, har et legemsoverfladeareal på 1,7 m2 og skal tage 4 tabletter á 
+500 mg og 1 tablet á 150 mg to gange dagligt. En person, som vejer 80 kg, og som er 1,80 m høj, har 
+et legemsoverfladeareal på 2,00 m2 og skal tage 5 tabletter á 500 mg to gange dagligt.
+Din læge vil fortælle dig, hvilken dosis du skal tage, hvornår du skal tage den og hvor længe du skal 
+tage lægemidlet.
+Det kan være din læge vil have at du for hver dosis skal tage en kombination af 150 mg, 300 mg og mg tabletter.
+-
+Tag tabletterne morgen og aften på den måde, som din læge har ordineret til dig.
+-
+Tag tabletterne senest 30 min efter et måltid (morgenmad og aftensmad) og slug dem hele med
+vand. Du må ikke dele eller knuse tabletterne. Hvis du ikke kan sluge Ecansya tabletterne 
+hele, skal du kontakte din læge eller sygeplejerske.
+-
+Det er vigtigt at du tager al din medicin som foreskrevet af din læge.
+Ecansya-tabletter tages normalt i 14 dage efterfulgt af 7 dages pause (hvor der ikke tages tabletter). Denne 
+21 dages periode er en behandlingsserie.
+I kombination med andre lægemidler kan den almindelige dosis for en voksen være mindre end 
+1250 mg/m2 legemsoverfladeareal, og det kan være nødvendigt, at du tager tabletterne i et andet 
+tidsinterval (for eksempel hver dag uden pause).
+Hvis du har taget for meget Ecansya-tabletter
+Hvis du har taget for mange Ecansya-tabletter, skal du kontakte lægen så hurtigt som muligt, før du 
+tager næste dosis.
+Du kan få følgende bivirkninger, hvis du kommer til at tage meget mere capecitabin end du skulle: 
+kvalme, diarré, irritation eller sårdannelse i tarmen eller munden, smerter og blødning fra tarmene eller 
+48
+maven eller påvirkning af knoglemarven (nedsat antal bestemte former for blodlegemer). Kontakt 
+straks lægen, hvis du oplever et eller flere af disse symptomer.
+Hvis du har glemt at tage Ecansya 
+Tag ikke den glemte dosis. Tag ikke dobbeltdosis for at erstatte den glemte dosis. I stedet for skal du 
+fortsætte med at tage medicinen som planlagt og tjekke med din læge.
+Hvis du holder op med at tage Ecansya
+Der er ingen bivirkninger forbundet med at stoppe behandlingen med capecitabin. Hvis du bruger 
+blodfortyndende medicin (antikoagulantia) af coumarintypen (indeholdende f.eks.phenprocoumon) 
+kan det blive nødvendigt, at din læge ændrer dosis af denne medicin, hvis behandlingen med 
+capecitabin stopper.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+STOP øjeblikkeligt med at tage Ecansya og kontakt lægen hvis du får nogle af følgende symptomer:
+-
+Diarré: hvis du har en øgning på 4 eller flere afføringer om dagen sammenlignet med dit 
+normale antal daglige afføringer eller hvis du får diarré om natten.
+-
+Opkastning: hvis du kaster op mere end én gang i løbet af 24 timer.
+-
+Kvalme: hvis du mister appetitten, og hvis du spiser meget mindre hver dag end du plejer.
+-
+Mundbetændelse: hvis du har smerter, rødme, hævelse eller sår i din mund og/eller hals.
+-
+Hudsymptomer på hænder og fødder: hvis du har smerter, hævelse, rødme eller prikken i 
+hænder og/eller fødder. 
+-
+Feber: hvis din temperatur stiger til 38 °C eller derover.
+-
+Infektion: hvis du oplever tegn på infektion forårsaget af bakterier eller virus eller andre 
+organismer.
+-
+Brystsmerter: hvis du får smerter i midten af brystet, specielt hvis det sker under anstrengelse.
+-
+Stevens-Johnsons syndrom: hvis du oplever smertefuldt rødt eller lilla udslæt, der spreder sig 
+og danner blistre og/eller andre læsioner, der opstår i slimhinderne (fx mund eller læber), især 
+hvis du tidligere har været følsom over for lys, haft infektioner i luftvejene (fx bronkitis) 
+og/eller feber.
+-
+DPD-mangel: hvis du ved, at du har DPD-mangel, har du en øget risiko for akut tidlig 
+indtræden af bivirkninger og svære, livstruende eller dødelige bivirkninger forårsaget af 
+Ecansya (f.eks. mundbetændelse, betændelseslignende reaktion (inflammation) i slimhinder, 
+diarré, neutropeni og neurotoksicitet).
+-
+Angioødem: Søg læge med det samme, hvis du bemærker nogen af følgende symptomer, da du 
+kan have brug for hurtig lægebehandling: hævelse i navnlig ansigt, læber, tunge eller svælg, som 
+giver synke- eller vejrtrækningsbesvær, kløe og udslæt. Dette kan være tegn på angioødem.
+Hvis disse bivirkninger opdages hurtigt vil de normalt bedres i løbet af 2 til 3 dage efter, at 
+behandlingen er stoppet. Hvis bivirkningerne alligevel fortsætter skal du straks kontakte lægen. Lægen 
+vil måske bede dig om at begynde behandlingen igen med en lavere dosis.
+Hvis alvorlig stomatitis (sår i munden og/eller halsen), slimhindeinflammation, diarré, neutropeni 
+(øget risiko for infektion) eller neurotoksicitet forekommer under første behandlingsserie, kan en 
+DPD-mangel være involveret (se punkt 2: Advarsler og forsigtighedsregler).
+Hudsymptomer på hænder og fødder kan forårsage, at fingeraftrykket forsvinder, som kan påvirke din 
+identifikation med fingeraftryksscanner.
+Udover dette kan Ecansya, når det anvendes alene, have følgende meget almindelige bivirkninger, 
+som kan påvirke flere end 1 ud af 10 personer:
+49
+-
+mavesmerter
+-
+udslæt, tør eller kløende hud
+-
+træthed
+-
+appetitløshed
+Bivirkningerne kan blive alvorlige. Derfor skal du altid kontakte lægen så snart du får en bivirkning. 
+Lægen vil måske bede dig om at sætte dosis ned og/eller midlertidigt afbryde behandlingen med 
+Ecansya. Dermed nedsættes sandsynligheden for at bivirkningen fortsætter eller forværres. 
+Andre bivirkninger kan være:
+Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer):
+-
+nedsat antal hvide og røde blodlegemer (kan ses i blodprøver)
+-
+væskemangel, vægttab
+-
+søvnløshed, depression
+-
+hovedpine, søvnighed, svimmelhed, abnorm følelse i huden (følelsesløshed eller prikken og 
+stikken), ændret smagssans
+-
+irriterede øjne, tåreflåd, røde øjne (øjenbetændelse)
+-
+betændelse i venerne (tromboflebitis)
+-
+stakåndethed, næseblødning, hoste, løbende næse
+-
+forkølelsessår eller andet herpesudbrud
+-
+betændelse i lunger eller luftveje (fx lungebetændelse eller bronkitis)
+-
+blødning fra tarmen, forstoppelse, smerter i den øverste del af maven, fordøjelsesproblemer, luft 
+i maven, tør mund
+-
+udslæt, hårtab (alopeci), hudrødme, tør hud, kløe, misfarvet hud, hudafskalning, betændelse i 
+huden, negleproblemer
+-
+ledsmerter, smerter i arme, ben, bryst eller ryg
+-
+feber, hævede arme og ben, sygdomsfølelse
+-
+leverproblemer (kan ses i blodprøver) og stigning af bilirubin i blodet (udskilles gennem 
+leveren)
+Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 personer): 
+-
+betændelse i blodet, urinvejsinfektion, betændelse i huden, næse- og halsinfektioner, svamp 
+(også i munden), influenza, maveinfluenza, tandbylder
+-
+knuder under huden (lipom)
+-
+fald i blodtal, inklusive blodplader, fortyndet blod (kan ses i blodprøve)
+-
+allergi
+-
+sukkersyge, nedsat indhold af kalium i blodet, underernæring, øget niveau af triglycerider i 
+blodet
+-
+forvirring, panikanfald, depression, nedsat sexlyst
+-
+talebesvær, dårlig hukommelse, koordinationsforstyrrelser, balanceforstyrrelser, besvimelse, 
+nerveskader (neuropati) og føleforstyrrelser
+-
+sløret syn eller dobbeltsyn
+-
+svimmelhed, øresmerter
+-
+uregelmæssige hjerteslag (arytmi), og hjertebanken brystsmerter og hjertetilfælde (blodprop)
+-
+blodprop i de dybe vener, højt eller lavt blodtryk, hedeture, kolde hænder og fødder, lilla 
+mærker på huden
+-
+blodprop i lungerne, sammenklappede lunger, ophostning af blod, astma, stakåndethed ved 
+anstrengelse
+-
+forstoppelse, væskeansamling i maven, betændelse i tynd- og tyktarm, maven eller spiserøret, 
+smerter i den nederste del af maven, ubehag i maven, halsbrand (tilbageløb af mad fra maven), 
+blod i afføringen
+-
+gulsot (gulfarvning af hud og øje)
+-
+sår og vabler på huden, solfølsom hud, rødme i håndfladerne, hævelse eller smerter i ansigtet,
+-
+hævede og/eller stive led, knoglesmerter, muskelsvaghed eller -stivhed
+-
+væskeansamling i nyrerne, øget vandladning om natten, inkontinens, blod i urinen, stigning i 
+kreatinin i blodet (tegn på nedsat nyrefunktion)
+50
+-
+unormal blødning fra skeden
+-
+hævelse, kulderystelser og stivhed
+Sjældne bivirkninger (kan påvirke op til 1 ud af 1.000 personer):
+-
+angioødem (hævelse af navnlig ansigt, læber, tunge eller svælg, kløe og udslæt)
+Nogle af disse bivirkninger er mere almindelige, når capecitabin bruges sammen med anden 
+kræftmedicin. Andre bivirkninger, der kan ses i den sammenhæng er:
+Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer):
+-
+nedsat indhold af natrium, magnesium og kalk i blodet, stigning i blodsukker,
+-
+nervesmerter,
+-
+ringen eller summen i ørerne (tinnitus), høretab,
+-
+betændelse i venerne,
+-
+hikke, ændret stemme,
+-
+smerter eller ændret/unormal følelse i munden, smerter i kæben,
+-
+sveden, nattesved,
+-
+muskelkramper,
+-
+problemer ved vandladning, blod i urinen, skummende urin (protein i urinen),
+-
+blå mærker eller reaktioner, hvor du får en indsprøjtning (skyldes anden medicin, der gives 
+samtidig via indsprøjtning).
+Sjældne bivirkninger (kan påvirke op til 1 ud af 1.000 personer):
+-
+forsnævring eller blokering af tårekanalen,
+-
+leversvigt,
+-
+betændelse der medfører, at kroppens udskillelse af galde nedsættes eller ophører (kolestatisk
+hepatitis),
+-
+bestemte ændringer i EKG’et (QT-forlængelse),
+-
+bestemte former for forstyrrelser i hjerterytmen (ventrikelflimren, torsades de pointes og 
+bradykardi),
+-
+inflammation i øjet, der medfører smerter i øjet og muligvis problemer med synet,
+-
+inflammation i huden, der medfører røde skællende pletter på grund af en sygdom i 
+immunsystemet.
+Meget sjældne bivirkninger (kan påvirke op til 1 ud af 10.000 personer):
+-
+svære hudreaktioner såsom hududslæt, sårdannelse og blæredannelse, som kan give sår i 
+munden, næsen, kønsorganer, hænder, fødder og øjne (røde og opsvulmede øjne).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ecansya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ecansya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned.
+Aluminium/aluminium-blistere:
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+PVC/PVdC/aluminium-blistere:
+51
+Må ikke opbevares ved temperaturer over 30 °C.
+Spørg apotekspersonalet hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Ecansya indeholder:</h2>
+<p>Aktivt stof: capecitabin. Hver filmovertrukket tablet indeholder 150 mg, 300 mg eller 500 mg 
+capecitabin.
+-
+Øvrige indholdsstoffer (hjælpestoffer):
+Tabletkernen
+Lactose, croscarmellosenatrium, hypromellose (E-5), mikrokrystallinsk cellulose, 
+magnesiumstearat.
+Filmovertrækket
+Ecansya 150 mg filmovertrukne tabletter
+Hypromellose (6cps), titandioxid (E171), gul og rød jernoxid (E172), talcum.
+Ecansya 300 mg filmovertrukne tabletter
+Hypromellose (6cps), titandioxid (E171), talcum.
+Ecansya 500 mg filmovertrukne tabletter
+Hypromellose (6cps), titandioxid (E171), gul og rød jernoxid (E172), talcum.
+Se punkt 2 "Ecansya indeholder lactose".
+Udseende og pakningsstørrelser
+Ecansya 150 mg filmovertrukne tabletter (tabletter) er lyse ferskenfarvede, aflange, bikonvekse 
+tabletter, 11,4 mm lange og 5,3 mm brede, præget med "150" på den ene side og jævne på den anden 
+side.
+Ecansya 300 mg filmovertrukne tabletter (tabletter) er hvide til off-white, aflange, bikonvekse
+tabletter, 14,6 mm lange og 6,7 mm brede, præget med "300" på den ene side og jævne på den anden 
+side.
+Ecansya 500 mg filmovertrukne tabletter (tabletter) er ferskenfarvede, aflange, bikonvekse tabletter, 
+15,9 mm lange og 8,4 mm brede, præget med "500" på den ene side og jævne på den anden side.
+Ecansya fås i blister (aluminium-aluminium eller PVC/PVdC-aluminium) indeholdende 30, 60 eller 
+120 filmovertrukne tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og framstiller
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Slovenien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62
+Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27 40
+България
+КРКА България ЕООД
+Teл.: + 359 (02) 962 34 50
+Luxembourg/Luxemburg
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62 (BE)
+Česká republika
+KRKA ČR, s.r.o.
+Tel: + 420 (0) 221 115 150
+Magyarország
+KRKA Magyarország Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8490
+52
+Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E. J. Busuttil Ltd.
+Tel: + 356 21 445 885
+Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: + 32 (0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 658
+Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Ελλάδα
+KRKA ΕΛΛΑΣ ΕΠΕ
+Τηλ: + 30 2100101613
+Österreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 300
+España
+KRKA Farmacéutica, S.L.
+Tel: + 34 911 61 03 80
+Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7500
+France
+KRKA France Eurl
+Tél: + 33 (0)1 57 40 82 25
+Portugal
+KRKA Farmacêutica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 650
+Hrvatska
+KRKA - FARMA d.o.o.
+Tel: + 385 1 6312 100
+România
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 05
+Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51 100
+Ísland
+LYFIS ehf.
+Sími: + 354 534 3500
+Slovenská republika
+KRKA Slovensko, s.r.o.
+Tel: + 421 (0) 2 571 04 501
+Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8841
+Suomi/Finland
+KRKA Finland Oy
+Puh/Tel: + 358 20 754 5330
+Κύπρος
+KI.PA. (PHARMACAL) LIMITED
+Τηλ: + 357 24 651 882
+Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 10
+United Kingdom (Northern Ireland)
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere information om Ecansya på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-efa7f0457f33e21d0516b1da0af6e176
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ecansya Package Leaflet for language en"
+Description: "ePI document Bundle for ecansya Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-efa7f0457f33e21d0516b1da0af6e176"
+* entry[0].resource = composition-en-efa7f0457f33e21d0516b1da0af6e176
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpefa7f0457f33e21d0516b1da0af6e176"
+* entry[=].resource = mpefa7f0457f33e21d0516b1da0af6e176
+                            
+                    
+Instance: bundlepackageleaflet-da-efa7f0457f33e21d0516b1da0af6e176
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ecansya Package Leaflet for language da"
+Description: "ePI document Bundle for ecansya Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-efa7f0457f33e21d0516b1da0af6e176"
+* entry[0].resource = composition-da-efa7f0457f33e21d0516b1da0af6e176
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpefa7f0457f33e21d0516b1da0af6e176"
+* entry[=].resource = mpefa7f0457f33e21d0516b1da0af6e176
+                            
+                    
+
+
+
+Instance: mpefa7f0457f33e21d0516b1da0af6e176
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ecansya 150 mg film-coated tablets"
-Description: "Ecansya 150 mg film-coated tablets"
+Title: "Medicinal Product ecansya"
+Description: "ecansya"
 Usage: #inline
 
  
@@ -576,7 +1220,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ecansya 150 mg film-coated tablets"
+  * productName = "ecansya"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -603,29 +1247,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-efa7f0457f33e21d0516b1da0af6e176
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ecansya Package Leaflet for language en"
-Description: "ePI document Bundle for ecansya Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: efa7f0457f33e21d0516b1da0af6e176ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Ecansya 150 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ecansya"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-efa7f0457f33e21d0516b1da0af6e176"
-* entry[0].resource = composition-en-efa7f0457f33e21d0516b1da0af6e176
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3dae7e326cd016c43bafb6d12fadf61b"
-* entry[=].resource = mp3dae7e326cd016c43bafb6d12fadf61b
-                            
-                      
+* title = "List of all ePIs associated with ecansya"
+
+* subject = Reference(mp3dae7e326cd016c43bafb6d12fadf61b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ecansya "ecansya"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-efa7f0457f33e21d0516b1da0af6e176) // ecansya en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-efa7f0457f33e21d0516b1da0af6e176) // ecansya da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-efa7f0457f33e21d0516b1da0af6e176
+InstanceOf: List
+
+* insert efa7f0457f33e21d0516b1da0af6e176ListRuleset
+    

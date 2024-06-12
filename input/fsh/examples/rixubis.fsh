@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-efe0db2f668263967f135ff38dffab9d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rixubis Package Leaflet"
@@ -368,12 +371,637 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-efe0db2f668263967f135ff38dffab9d
+InstanceOf: CompositionUvEpi
+Title: "Composition for rixubis Package Leaflet"
+Description:  "Composition for rixubis Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4d614813dce0515758ab3d9c82e0f4b2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4d614813dce0515758ab3d9c82e0f4b2
+* title = "TEST PURPOSES ONLY - rixubis"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge RIXUBIS
+3. Sådan skal du bruge RIXUBIS
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rixubis is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rixubis is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RIXUBIS indeholder det aktive stof nonacog gamma og er et koagulationsfaktor IX-præparat. Faktor 
+IX er en normal bestanddel af menneskers blod og er nødvendig for at blodet kan størkne effektivt. 
+RIXUBIS bruges til patienter med hæmofili B (Christmas' sygdom, en arvelig blodsygdom, der 
+skyldes mangel på faktor IX). Det virker ved at erstatte den manglende faktor IX, så patientens blod 
+kan størkne.
+RIXUBIS bruges til behandling og forebyggelse af blødning hos patienter i alle aldersgrupper med 
+hæmofili B.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rixubis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rixubis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke RIXUBIS</h2>
+<p>hvis du er allergisk over for nonacog gamma eller et af de øvrige indholdsstoffer i RIXUBIS 
+(angivet i punkt 6).
+-
+hvis du er allergisk over for hamsterproteiner
+Advarsler og forsigtighedsregler
+Der kan være risiko for allergilignende overfølsomhedsreaktioner med RIXUBIS. Stop infusionen og 
+kontakt straks lægen eller søg akut lægehjælp, hvis du oplever tidlige tegn på 
+overfølsomhed/allergiske reaktioner som f.eks. nældefeber, udslæt, trykken i brystet, hvæsende 
+vejrtrækning, lavt blodtryk eller anafylaksi (alvorlig allergisk reaktion, der gør det vanskeligt at synke 
+og/eller trække vejret og får ansigt og/eller hænder til at blive røde eller hæve). Lægen kan finde det 
+nødvendigt at behandle dig for disse reaktioner med det samme. Lægen kan også tage en blodprøve for 
+42
+at undersøge, om du har udviklet neutraliserende antistoffer (inhibitorer), der hæmmer aktiviteten af 
+RIXUBIS, da inhibitorer kan udvikles sammen med allergier. Patienter med faktor IX-inhibitorer kan 
+have øget risiko for anafylaksi under fremtidig behandling med faktor IX.
+Kontakt straks lægen, hvis en blødning ikke stopper som forventet, eller hvis du oplever en betydelig 
+stigning i brugen af RIXUBIS for at kontrollere en blødning. Lægen kan tage en blodprøve for at 
+undersøge, om du har udviklet neutraliserende antistoffer (inhibitorer), der hæmmer aktiviteten af 
+RIXUBIS. Risikoen for at udvikle inhibitorer er størst hos patienter, der ikke er blevet behandlet med 
+faktor IX som erstatningsmedicin tidligere, eller som er i behandlingens tidlige fase, dvs. hos mindre 
+børn.
+Produktionen af faktor IX i kroppen styres af faktor IX-genet. Patienter, der har specifikke 
+forandringer (mutationer) i deres faktor IX-gen, for eksempel hvis der mangler et stykke af et 
+kromosom (større deletion), kan have større risiko for at udvikle faktor IX-inhibitorer og få en 
+allergisk reaktion i starten af den periode, hvor de får et faktor IX-koncentrat. Hvis det er kendt, at 
+du har en sådan mutation, vil lægen derfor overvåge dig tættere for tegn på en allergisk reaktion.
+Hvis du lider af en lever- eller hjertesygdom, eller hvis du for nylig har gennemgået en større 
+operation, skal du fortælle det til lægen, da der er en øget risiko for komplikationer med dannelse af 
+blodpropper (koagulation).
+Efter høje doser af faktor IX er der rapporteret nyresygdomme (nefrotisk syndrom) hos hæmofili 
+B-patienter, der har udviklet faktor IX-inhibitorer, og som tidligere har haft allergiske reaktioner.
+Når det er muligt, skal du registrere præparatets navn og batchnummer, hver gang du bruger RIXUBIS 
+(f.eks. i din dagbog) for at holde styr på de præparater og produktionsbatcher, du har brugt.
+Brug af anden medicin sammen med RIXUBIS
+Fortæl det altid til lægen, hvis du bruger anden medicin eller har gjort det for nylig. RIXUBIS har 
+ingen kendte interaktioner med andre lægemidler.
+Graviditet, amning og frugtbarhed
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. Hæmofili B optræder meget sjældent hos 
+kvinder.
+Trafik og arbejdssikkerhed
+RIXUBIS påvirker ikke evnen til at føre motorkøretøj og betjene maskiner.
+RIXUBIS indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas, dvs. det er stort set 
+"natriumfrit". Afhængigt af din kropsvægt og din dosis af RIXUBIS kan du imidlertid få mere end ét 
+hætteglas. Det skal tages i betragtning, hvis du er på en natriumkontrolleret diæt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rixubis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rixubis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med RIXUBIS bliver indledt af en læge, der har erfaring med behandling af patienter med 
+hæmofili B.
+Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+Din læge afgør, hvilken dosis RIXUBIS du skal have. Dosis og behandlingsvarighed afhænger af, 
+hvor alvorlig din faktor IX-mangel er, af blødningsstedet og af, hvor meget det bløder, samt af din 
+kliniske tilstand, alder, og hvor hurtigt din krop bruger faktor IX. Dette skal kontrolleres med jævne 
+mellemrum.
+43
+RIXUBIS skal gives som intravenøs infusion (i.v.), efter at lægen eller sygeplejersken har blandet 
+pulveret med den medfølgende solvens. Du eller en anden person kan også indgive RIXUBIS som 
+injektion, men kun efter at have fået tilstrækkelig oplæring.
+Rekonstitution og indgivelse
+-
+Solvensen og rekonstitutionsenheden (devicet) (BAXJECT II), der følger med i pakken, er kun 
+til brug ved rekonstitution.
+-
+Til administration skal der anvendes en luer-lås-sprøjte.
+-
+BAXJECT II-devicet må ikke anvendes, hvis det sterile filter eller pakningen er beskadiget eller 
+viser tegn på nedbrydning.
+Rekonstitution
+Brug aseptisk teknik.
+1. Hvis præparatet opbevares i køleskab, tages begge RIXUBIS-hætteglassene med henholdsvis 
+pulver og solvens ud af køleskabet. Lad dem antage rumtemperatur (mellem 15 °C og 30 °C).
+2. Vask hænderne grundigt med sæbe og varmt vand.
+3. Tag lågene af hætteglassene med pulver og solvens.
+4. Rens propperne med alkoholrensepinde. Placer hætteglassene på en plan, ren overflade.
+5. Åbn pakken med BAXJECT II-devicet ved at trække papirlåget af uden at røre devicet (fig. a). 
+Lad devicet blive i pakken.
+6. Vend pakken rundt og stik den gennemsigtige plastikspids gennem proppen på 
+solvenshætteglasset. Hold fast i kanten af pakken og fjern emballagen fra BAXJECT II (fig. b). 
+Lad det blå låg blive siddende på BAXJECT II-devicet.
+7. Når BAXJECT II er monteret på solvenshætteglasset, vendes systemet om, så solvensglasset 
+sidder oven på devicet. Stik den hvide plastikspids gennem RIXUBIS-proppen. Vakuummet vil 
+trække solvensen ind i RIXUBIS-hætteglasset (fig. c).
+8. Sving forsigtigt, indtil alt stof er opløst. Præparatet opløses hurtigt (inden for 2 minutter). 
+Kontrollér, at RIXUBIS er fuldstændig opløst, ellers vil ikke al den rekonstituerede opløsning 
+passere gennem enhedens filter. Rekonstituerede lægemidler skal inspiceres visuelt for partikler 
+og misfarvning før administration. Opløsningen skal være klar og let opaliserende. Brug ikke 
+opløsninger, som er uklare eller har udfældninger.
+Fig. a
+Fig. b
+Fig. c
+Præparatet må ikke nedkøles efter rekonstitution.
+Bruges straks.
+Indgivelse
+Brug aseptisk teknik.
+1. Tag det blå låg af BAXJECT II. Undgå at trække luft ind i sprøjten. Tilslut sprøjten til 
+BAXJECT II (fig. d).
+2. Vend systemet om (hætteglasset med den rekonstituerede injektionsvæske skal være øverst). 
+Træk den rekonstituerede injektionsvæske ind i sprøjten ved at trække stemplet langsomt tilbage 
+(fig. e).
+44
+3. Fjern sprøjten fra BAXJECT II.
+4. Sæt en sommerfuglekanyle på sprøjten. Injicer intravenøst. Injektionsvæsken skal administreres 
+langsomt med en hastighed, der er behagelig for patienten, maksimalt 10 ml i minuttet.
+Fig. d
+Fig. e
+Når det er muligt, skal du registrere præparatets navn og batchnummer, hver gang du bruger RIXUBIS 
+(f.eks. i din dagbog) for at holde styr på de præparater og produktionsbatcher, du har brugt.
+Ikke anvendte lægemidler samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
+Hvis du har brugt for meget RIXUBIS
+Brug altid RIXUBIS nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. Hvis du har 
+injiceret mere end den anbefalede dosis RIXUBIS, skal du fortælle det til lægen hurtigst muligt.
+Hvis du har glemt at bruge RIXUBIS
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Fortsæt med den næste injektion 
+som planlagt og fortsæt derefter som anvist af lægen.
+Hvis du holder op med at bruge RIXUBIS
+Du må ikke stoppe med at bruge RIXUBIS uden at have rådført dig med lægen.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
+Der kan være risiko for allergilignende overfølsomhedsreaktioner med RIXUBIS. Sådanne reaktioner 
+kan omfatte brænden og svien på infusionsstedet, kuldegysninger, ansigtsrødme, udtalt træthed, 
+rastløshed, prikkende fornemmelse, nældefeber, kløe og udslæt, lavt blodtryk, hurtig puls, trykken i 
+brystet, hvæsende vejrtræning, hævet hals, anafylaksi (alvorlig allergisk reaktion), hovedpine, kvalme 
+og opkastning. Kontakt straks lægen, hvis du oplever sådanne symptomer. Lægen kan finde det 
+nødvendigt at behandle dig for disse reaktioner med det samme (se punkt 2 ‘Advarsler og 
+forsigtighedsregler’).
+Følgende bivirkninger er set med RIXUBIS:
+Almindelige bivirkninger (kan ses hos op til 1 ud af 10 patienter)
+-
+ændret smagssans
+-
+smerter i arme og ben.
+Bivirkninger, hvor hyppigheden ikke er kendt (hyppigheden kan ikke vurderes ud fra 
+tilgængelige data)
+-
+allergiske reaktioner (overfølsomhed).
+45
+Problemer med overdreven blodstørkning (tromboemboliske episoder) er ikke observeret med dette 
+præparat, men kan forekomme med andre faktor IX-præparater. Disse kan omfatte hjerteanfald, 
+blodpropper i venerne eller blodpropper i lungerne.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rixubis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rixubis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på den ydre pakning og hætteglassets etiket efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares ved temperaturer under 30 °C.
+Må ikke nedfryses.
+Brug den opblandede (rekonstituerede) injektionsvæske straks.
+RIXUBIS må ikke anvendes, hvis opløsningen ikke er klar og farveløs.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>RIXUBIS indeholder:</h2>
+<p>Aktivt stof: nonacog gamma (rekombinant human koagulationsfaktor IX). Hvert 
+pulverhætteglas indeholder nominelt 250, 500, 1.000, 2.000 eller 3.000 IE, svarende til en 
+koncentration på 50, 100, 200, 400 eller 600 IE/ml efter rekonstitution med 5 ml solvens.
+-
+Øvrige indholdsstoffer i pulveret: saccharose, mannitol, natriumchlorid, calciumchlorid, 
+L-histidin og polysorbat 80. Solvenshætteglas: 5 ml vand til injektionsvæsker.
+Udseende og pakningsstørrelser
+RIXUBIS leveres som pulver og solvens til injektionsvæske, opløsning.
+Pakken indeholder:
+
+RIXUBIS 250, 500, 1.000, 2.000 eller 3.000 IE pulver i et hætteglas med gummiprop
+
+5 ml vand til injektionsvæsker i et hætteglas med gummiprop
+
+et BAXJECT II-device (opblandingsenhed uden nål)
+46
+Indehaver af markedsføringstilladelsen
+Baxalta Innovations GmbH
+Industriestrasse 67
+A-1221 Wien
+Østrig
+Fremstiller
+Baxalta Belgium Manufacturing SA
+Boulevard René Branquart, 80
+B-7860 Lessines
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Takeda Belgium NV
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com
+Lietuva
+Takeda, UAB
+Tel: +370 521 09 070
+medinfoEMEA@takeda.com
+България
+Такеда България ЕООД
+Тел.: +359 2 958 27 36
+medinfoEMEA@takeda.com 
+Luxembourg/Luxemburg
+Takeda Belgium NV
+Tél/Tel: +32 2 464 06 11
+medinfoEMEA@takeda.com
+Česká republika
+Takeda Pharmaceuticals Czech Republic s.r.o.
+Tel: +420 234 722 722
+medinfoEMEA@takeda.com
+Magyarország
+Takeda Pharma Kft.
+Tel: +36 1 270 7030
+medinfoEMEA@takeda.com
+Danmark
+Takeda Pharma A/S
+Tlf: +45 46 77 10 10
+medinfoEMEA@takeda.com
+Malta
+Drugsales Ltd 
+Tel: +356 21419safety@drugsalesltd.com
+Deutschland
+Takeda GmbH
+Tel: +49 (0)800 825 3325
+medinfoEMEA@takeda.com
+Nederland
+Takeda Nederland B.V.
+Tel: +31 20 203 5492
+medinfoEMEA@takeda.com
+Eesti
+Takeda Pharma AS
+Tel: +372 6177 669
+medinfoEMEA@takeda.com
+Norge
+Takeda AS
+Tlf: +47 800 800 30
+medinfoEMEA@takeda.com
+Ελλάδα
+Τakeda ΕΛΛΑΣ Α.Ε.
+Tηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Österreich
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com
+47
+España
+Takeda Farmacéutica España S.A
+Tel: +34 917 90 42 22
+medinfoEMEA@takeda.com
+Polska
+Takeda Pharma Sp. z o.o.
+Tel: +48223062447
+medinfoEMEA@takeda.com
+France
+Takeda France SAS
+Tél: + 33 1 40 67 33 00
+medinfoEMEA@takeda.com
+Portugal
+Takeda Farmacêuticos Portugal, Lda.
+Tel: + 351 21 120 1457
+medinfoEMEA@takeda.com
+Hrvatska
+Takeda Pharmaceuticals Croatia d.o.o.
+Tel: +385 1 377 88 96
+medinfoEMEA@takeda.com
+România
+Takeda Pharmaceuticals SRL
+Tel: +40 21 335 03 91
+medinfoEMEA@takeda.com
+Ireland
+Takeda Products Ireland Ltd
+Tel: 1800 937 970
+medinfoEMEA@takeda.com
+Slovenija
+Takeda Pharmaceuticals farmacevtska družba d.o.o.
+Tel: + 386 (0) 59 082 480
+medinfoEMEA@takeda.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+medinfoEMEA@takeda.com
+Slovenská republika
+Takeda Pharmaceuticals Slovakia s.r.o.
+Tel: +421 (2) 20 602 600
+medinfoEMEA@takeda.com
+Italia
+Takeda Italia S.p.A.
+Tel: +39 06 502601
+medinfoEMEA@takeda.com
+Suomi/Finland
+Takeda Oy
+Puh/Tel: 0800 774 051
+medinfoEMEA@takeda.com
+Κύπρος
+Τakeda ΕΛΛΑΣ Α.Ε.
+Τηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Sverige
+Takeda Pharma AB
+Tel: 020 795 079
+medinfoEMEA@takeda.com
+Latvija
+Takeda Latvia SIA
+Tel: +371 67840082
+medinfoEMEA@takeda.com
+United Kingdom (Northern Ireland)
+Takeda UK Ltd
+Tel: +44 (0) 2830 640 902
+medinfoEMEA@takeda.com
+Denne indlægsseddel blev senest ændret .
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale:
+Monitorering af behandlingen
+Under behandlingsforløbet anbefales relevant bestemmelse af faktor IX-niveauet som vejledning til 
+den dosis, der skal administreres, og til doseringsintervallet ved gentagne infusioner. De enkelte 
+patienter kan respondere forskelligt på faktor IX og udvise forskellige halveringstider og 
+bedringsrater. Ved dosering basereret på kropsvægt kan justering være nødvendig hos under- og 
+overvægtige patienter. Ved større kirurgiske indgreb er præcis monitorering af 
+substitutionsbehandlingen ved hjælp af koagulationsanalyse (faktor IX-aktivitet i plasma) uundværlig.
+48
+For at sikre at den ønskede faktor IX-aktivitet nås, anbefales omhyggelig monitorering af 
+plasmakoncentrationen med en relevant faktor IX-aktivitetsanalyse, og om nødvendigt bør der 
+foretages passende justering af dosis og doseringsinterval ved gentagne infusioner. Ved anvendelse 
+af en in vitro tromboplastintid (aPTT)-baseret 1-trins koagulationsanalyse til bestemmelse af faktor 
+IX-aktiviteten i patienternes blodprøver, kan resultaterne af faktor IX-aktiviteten i plasma blive 
+signifikant påvirket både af typen af aPTT-reagens og af den referencestandard, der bruges i analysen. 
+Dette er af særlig vigtighed, når der skiftes laboratorium og/eller ændres på de reagenser, der anvendes 
+i analysen.
+Dosering
+Dosis og substitutionsbehandlingens varighed afhænger af, hvor alvorlig faktor IX-manglen er, af 
+blødningsstedet og -omfanget samt af patientens kliniske tilstand, alder og faktor IX's 
+farmakokinetiske parametre, f.eks. trinvis bedring og halveringstid.
+Antallet af faktor IX-enheder, som administreres, udtrykkes i internationale enheder (IE), der er 
+relateret til den aktuelle WHO-standard for faktor IX-produkter. Faktor IX-aktivitet i plasma 
+udtrykkes enten som en procentdel (i forhold til normalt humant plasma) eller i internationale enheder 
+(i forhold til en international standard for faktor IX i plasma).
+En international enhed faktor IX-aktivitet svarer til mængden af faktor IX i én ml normalt humant 
+plasma.
+Voksen population
+Behandling efter behov:
+Beregning af den nødvendige dosis faktor IX er baseret på det empiriske fund, at 1 international enhed 
+faktor IX pr. kg legemsvægt øger aktiviteten af faktor IX i plasma med 0,9 IE/dl (interval 
+fra 0,5 til 1,4 IE/dl) eller 0,9 % af den normale aktivitet hos patienter på 12 år og derover (se 
+pkt. 5.2 for yderligere oplysninger).
+Den nødvendige dosis bestemmes ud fra følgende formel:
+Krævede 
+enheder
+=
+legemsvægt (kg)
+x
+ønsket faktor 
+IX-forøgelse
+(%) eller (IE/dl)
+x
+den reciprokke værdi af 
+den observerede bedring 
+(dl/kg)
+For at opnå en trinvis bedring på 0,9 IE/dl pr. IE/kg beregnes dosis på følgende måde:
+Krævede 
+enheder
+=
+legemsvægt (kg)
+x
+ønsket faktor 
+IX-forøgelse
+(%) eller (IE/dl)
+x
+1,1 dl/kg
+Den mængde, der skal administreres, og administrationshyppigheden skal altid indrettes efter den 
+kliniske effekt i det enkelte tilfælde.
+49
+I tilfælde af følgende blødningsepisoder må faktor IX-aktiviteten ikke falde under det givne plasma 
+aktivitetsniveau (i % af det normale eller IE/dl) i den tilsvarende periode. Følgende tabel kan bruges 
+som vejledning til dosering ved blødningsepisoder og kirurgiske indgreb:
+Blødningsgrad/type af 
+kirurgisk procedure
+Krævet faktor IX-niveau 
+(%) eller (IE/dl)
+Doseringsfrekvens (timer)/
+Behandlingsvarighed (dage)
+Hæmoragi
+Tidlig hæmartrose, 
+muskelblødning eller oral 
+blødning
+Mere udbredt hæmartrose, 
+muskelblødning eller 
+hæmatom
+Livstruende blødninger
+20-40
+30-60
+60-100
+Gentag hver 24. time. Mindst 1 dag, 
+indtil blødningsepisoden kendetegnet 
+ved smerter er ophørt, eller heling er 
+opnået.
+Gentag infusionen hver 24. time i 
+3-4 dage eller mere, indtil smerte og 
+akut funktionsindskrænkning er 
+forsvundet.
+Gentag infusionen hver 8.-24. time, 
+indtil faren er ovre.
+Kirurgi
+Mindre kirurgiske indgreb 
+inklusive tandudtrækning
+30-60
+Hver 24. time, mindst 1 dag, indtil 
+heling er opnået.
+Større kirurgiske indgreb
+80-100
+(præ- og postoperativt)
+Gentag infusionen hver 8.-24. time, 
+indtil tilstrækkelig sårheling er 
+opnået, derefter behandling i mindst 
+yderligere 7 dage for at opretholde en 
+faktor IX-aktivitet på 30-60 % 
+(IE/dl).
+Omhyggelig monitorering af substitutionsbehandlingen er særlig vigtig ved større kirurgiske indgreb 
+og livstruende blødninger.
+Profylakse
+Til langtidsprofylakse mod blødning hos patienter med svær hæmofili B er de sædvanlige 
+doser 40-60 IE faktor IX pr. kg legemsvægt i intervaller på 3 til 4 dage for patienter på 12 år og 
+derover. I nogle tilfælde kan det - afhængigt af den enkelte patients farmakokinetik, alder, fysiske 
+aktivitet samt resultatet af fænotypeanalysen - være nødvendigt med kortere doseringsintervaller eller 
+højere doser.
+Kontinuerlig infusion
+RIXUBIS må ikke administreres som kontinuerlig infusion.
+Pædiatrisk population
+Patienter i alderen 12 til 17 år:
+Dosering er den samme hos voksen og pædiatrisk population fra 12 til 17 år.
+Patienter under 12 år:
+Behandling efter behov
+Beregningen af den nødvendige dosis faktor IX er baseret på det empiriske fund, at 1 international 
+enhed (IE) faktor IX pr. kg legemsvægt øger plasma faktor IX’s aktivitet med 0,7 IE/dl (interval 
+fra 0,31 til 1,0 IE/dl) eller 0,7 % af den normale aktivitet hos patienter under 12 år (se 
+pkt. 5.2 for yderligere oplysninger).
+50
+Den nødvendige dosis bestemmes ud fra følgende formel:
+Patienter under 12 år:
+Krævede 
+enheder
+=
+legemsvægt (kg)
+x
+ønsket faktor 
+IX-forøgelse
+(%) eller (IE/dl)
+x
+den reciprokke værdi af 
+den observerede bedring 
+(dl/kg)
+For at opnå en trinvis bedring på 0,7 IE/dl pr. IE/kg beregnes dosis på følgende måde:
+Krævede 
+enheder
+=
+legemsvægt (kg)
+x
+ønsket faktor 
+IX-forøgelse
+(%) eller (IE/dl)
+x
+1,4 dl/kg
+Tabellen for voksne kan bruges som vejledning til dosering ved blødningsepisoder og kirurgiske 
+indgreb (se ovenfor).
+Profylakse:
+Det anbefalede dosisområde for pædiatriske patienter under 12 år er 40-80 IE/kg med intervaller 
+på 3 til 4 dage. I nogle tilfælde kan det - afhængigt af den enkelte patients farmakokinetik, alder, 
+fysiske aktivitet samt resultatet af fænotypeanalysen - være nødvendigt med kortere 
+doseringsintervaller eller højere doser.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-efe0db2f668263967f135ff38dffab9d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rixubis Package Leaflet for language en"
+Description: "ePI document Bundle for rixubis Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-efe0db2f668263967f135ff38dffab9d"
+* entry[0].resource = composition-en-efe0db2f668263967f135ff38dffab9d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpefe0db2f668263967f135ff38dffab9d"
+* entry[=].resource = mpefe0db2f668263967f135ff38dffab9d
+                            
+                    
+Instance: bundlepackageleaflet-da-efe0db2f668263967f135ff38dffab9d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rixubis Package Leaflet for language da"
+Description: "ePI document Bundle for rixubis Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-efe0db2f668263967f135ff38dffab9d"
+* entry[0].resource = composition-da-efe0db2f668263967f135ff38dffab9d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpefe0db2f668263967f135ff38dffab9d"
+* entry[=].resource = mpefe0db2f668263967f135ff38dffab9d
+                            
+                    
+
+
+
+Instance: mpefe0db2f668263967f135ff38dffab9d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product RIXUBIS 250 IU powder and solvent for solution for injection"
-Description: "RIXUBIS 250 IU powder and solvent for solution for injection"
+Title: "Medicinal Product rixubis"
+Description: "rixubis"
 Usage: #inline
 
  
@@ -393,7 +1021,7 @@ Usage: #inline
 
 
 * name
-  * productName = "RIXUBIS 250 IU powder and solvent for solution for injection"
+  * productName = "rixubis"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -420,29 +1048,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-efe0db2f668263967f135ff38dffab9d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rixubis Package Leaflet for language en"
-Description: "ePI document Bundle for rixubis Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: efe0db2f668263967f135ff38dffab9dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/970/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rixubis"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-efe0db2f668263967f135ff38dffab9d"
-* entry[0].resource = composition-en-efe0db2f668263967f135ff38dffab9d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4d614813dce0515758ab3d9c82e0f4b2"
-* entry[=].resource = mp4d614813dce0515758ab3d9c82e0f4b2
-                            
-                      
+* title = "List of all ePIs associated with rixubis"
+
+* subject = Reference(mp4d614813dce0515758ab3d9c82e0f4b2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rixubis "rixubis"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-efe0db2f668263967f135ff38dffab9d) // rixubis en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-efe0db2f668263967f135ff38dffab9d) // rixubis da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-efe0db2f668263967f135ff38dffab9d
+InstanceOf: List
+
+* insert efe0db2f668263967f135ff38dffab9dListRuleset
+    

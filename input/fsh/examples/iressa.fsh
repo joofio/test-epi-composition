@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a7a8f3aaed2850db2f524101df25e7ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for iressa Package Leaflet"
@@ -327,12 +330,477 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-a7a8f3aaed2850db2f524101df25e7ab
+InstanceOf: CompositionUvEpi
+Title: "Composition for iressa Package Leaflet"
+Description:  "Composition for iressa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp017e271abdff0c63b509977b9e8acf77)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp017e271abdff0c63b509977b9e8acf77
+* title = "TEST PURPOSES ONLY - iressa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage IRESSA
+3. Sådan skal du tage IRESSA
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What iressa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What iressa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IRESSA indeholder det aktive stof gefitinib. Gefitinib blokerer et protein, der kaldes EGFR 
+(epidermal vækstfaktorreceptor). Dette protein er involveret i vækst og spredning af kræftceller. 
+IRESSA bruges til at behandle voksne med ikke-småcellet lungekræft. Ved denne form for 
+kræftsygdom dannes der ondartede (kræft)celler i lungevævet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take iressa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take iressa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke IRESSA</h2>
+<p>hvis du er allergisk over for gefitinib eller et af de øvrige indholdsstoffer (angivet i punkt 6, 
+"IRESSA indeholder").
+-
+hvis du ammer.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager IRESSA:
+-
+hvis du nogensinde har haft andre problemer med lungerne. Nogle lungeproblemer kan blive 
+værre under behandling med IRESSA.
+-
+hvis du nogensinde har haft problemer med din lever.
+Børn og unge
+IRESSA er ikke beregnet til børn og teenagere under 18 år.
+Brug af anden medicin sammen med IRESSA
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. 
+Hvis du tager nogen af disse lægemidler, skal du især huske at fortælle det til din læge eller på 
+apoteket:
+27
+-
+Phenytoin eller carbamazepin (mod epilepsi)
+-
+Rifampicin (mod tuberkulose)
+-
+Itraconazol (mod svampeinfektion)
+-
+Barbiturater (en type af medicin, der bruges mod søvnproblemer)
+-
+Naturlægemidler, som indeholder perikon (Hypericum Perforatum, mod depression og angst)
+-
+Protonpumpe-hæmmere, H2-antagonister og antacida (mod mavesår, sure opstød, halsbrand og 
+til at mindske syre i maven)
+Disse lægemidler kan påvirke virkningen af IRESSA.
+-
+Warfarin (et såkaldt oralt antikoagulationsmiddel, til forebyggelse af blodpropper). Hvis du 
+tager et lægemiddel, der indeholder dette aktive stof, kan det være, at din læge vil tage 
+blodprøver oftere end normalt.
+Hvis et eller flere af ovennævnte punkter gælder for dig, eller hvis du er i tvivl, skal du spørge din 
+læge eller på apoteket, før du tager IRESSA.
+Graviditet, amning og frugtbarhed
+Spørg din læge eller apoteket til råds, før du tager nogen form for medicin, hvis du er gravid, har 
+chance for at blive gravid, eller hvis du ammer. 
+Det anbefales, at du undgår at blive gravid og/eller at du ammer, mens du er i behandling med 
+IRESSA, fordi IRESSA kan skade dit barn.
+Tag ikke IRESSA hvis du ammer. Dette er af hensyn til dit barns sikkerhed. 
+Trafik- og arbejdssikkerhed
+Du kan føle dig svag, mens du er i behandling med Iressa. Hvis dette sker, må du ikke føre 
+motorkøretøj eller betjene værktøj eller maskiner.
+IRESSA indeholder lactose
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter.
+IRESSA indeholder natrium
+Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
+natriumfri.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take iressa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take iressa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+
+Den sædvanlige dosis er én tablet på 250 mg daglig.
+
+Tag tabletten på ca. samme tidspunkt hver dag.
+
+Du kan tage tabletten sammen med mad eller uden mad.
+
+Tag ikke antacida (for at mindske syre i din mave) 2 timer før og 1 time efter du tager IRESSA.
+Hvis du har problemer med at sluge tabletten, kan den opslæmmes i et halvt glas vand (uden brus). 
+Brug ikke andre væsker. Knus ikke tabletten. Sving forsigtigt glasset rundt, indtil tabletten er 
+opslæmmet. Dette kan tage op til 20 minutter. Drik væsken med det samme. For at være sikker på, at 
+du har drukket al medicinen, skylles glasset omhyggeligt med et halvt glas vand, som drikkes.
+Hvis du har taget for mange IRESSA tabletter
+Kontakt din læge eller apoteket straks, hvis du har taget flere tabletter end du må.
+Hvis du har glemt at tage IRESSA
+Hvis du har glemt at tage en tablet, skal du gøre som beskrevet nedenfor (afhængig af hvor længe, der 
+er til næste dosis):
+
+Hvis der er 12 timer eller mere til din næste dosis: Tag den glemte tablet, så snart du kommer i 
+tanke om det. Tag den næste dosis på samme tid, som du plejer.
+28
+
+Hvis der er mindre end 12 timer til din næste dosis: Spring den glemte tablet over, og tag den 
+næste tablet på samme tid, som du plejer. 
+Du må ikke tage en dobbeltdosis (to tabletter på samme tid) som erstatning for den glemte tablet.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Fortæl det straks til din læge, hvis du oplever en af følgende bivirkninger - det kan være, du 
+behøver akut medicinsk behandling:
+
+Allergisk reaktion (almindelig), specielt hvis du får hævet ansigt, læber, tunge eller hals, du har 
+svært ved at synke, nældefeber og har svært ved at trække vejret.
+
+Svær åndenød eller pludselig forværring af åndenød, muligvis med hoste og feber. Dette kan 
+betyde, at du har en form for betændelse i lungerne, som kaldes ’interstitiel lungesygdom’. 
+Dette kan ramme cirka 1 ud af 100 patienter, som tager IRESSA, og kan være livstruende.
+
+Heftige hudreaktioner (sjælden) på store dele af kroppen. Dette kan også omfatte rødme, 
+smerter, sår, blister og afskalning af huden. Læberne, næsen, øjnene og kønsorganerne kan også 
+være påvirkede.
+
+Dehydrering (almindelig) som følge af længerevarende diarré, opkastning, kvalme eller 
+appetitløshed.
+
+Øjenproblemer (ikke almindelig), såsom smerte, røde øjne, øjne der løber i vand, lysfølsomhed, 
+forandret syn eller indgroede øjenvipper. Dette kan betyde, at du har et sår på overfladen af øjet 
+(hornhinden).
+Fortæl hurtigst muligt din læge, hvis du lægger mærke til en af følgende bivirkninger:
+Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer
+
+Diarré
+
+Opkastning
+
+Kvalme
+
+Hudreaktioner såsom akne-lignende udslæt, som til tider er kløende og med tør og/eller
+sprukken hud
+
+Appetitmangel 
+
+Svaghed
+
+Rød eller øm mund
+
+Forøget antal leverenzymer, som kaldes alanin-aminotransferase, ved en blodprøve; hvis 
+antallet er for højt, vil din læge muligvis fortælle dig, at du skal stoppe med at tage IRESSA. 
+Almindelig: kan forekomme hos op til 1 ud af 10 personer
+
+Tør mund
+
+Tørre, røde og kløende øjne
+
+Røde og ømme øjenlåg
+
+Negleproblemer
+
+Hårtab
+
+Feber
+
+Blødning (såsom næseblod eller blod i urinen)
+
+Protein i urinen (ses ved en urintest)
+
+Forhøjet niveau af bilirubin og det andet leverenzym, som kaldes aspartat-aminotransferase, i en 
+blodprøve; hvis antallet er for højt, vil din læge muligvis fortælle dig, at du skal stoppe med at 
+tage IRESSA.
+
+Forhøjet mængde af stoffet kreatinin i en blodprøve (hænger sammen med nyrefunktionen).
+
+Blærebetændelse (hyppig, sviende vandladning og pludselig vandladningstrang).
+29
+Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer
+
+Betændelse (inflammation) i bugspytkirtlen. Tegn herpå er blandt andre meget stærke smerter i 
+området ved den øverste del af maven, stærk kvalme og opkastning.
+
+Betændelse (inflammation) i leveren. Symptomer herpå kan blandt andet være generel 
+utilpashed med eller uden mulig gulsot (gullig hud og øjne). Denne bivirkning er ikke 
+almindelig, men nogle patienter er døde af den.
+
+Gastrointestinel perforation.
+
+Hudreaktion på håndfladerne og på fodsålerne der kan vise sig som prikken, følelsesløshed, 
+smerter, hævelse eller rødme (kendt som palmoplantar erytrodysæstesi-syndrom eller hånd- og 
+fodsyndrom).
+Sjælden: kan forekomme hos op til 1 ud af 1.000 personer
+
+Betændelse (inflammation) i hudens blodkar. Det kan fremtræde som blå mærker eller plettet 
+hududslæt, der ikke forsvinder ved fingertryk.
+
+Hæmoragisk blærebetændelse (blærebetændelse med blod i urinen).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store iressa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store iressa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar IRESSA utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken, blisterpakningen og folieindpakningen 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares i den originale pakning for at beskytte mod fugt.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IRESSA indeholder
+
+Aktivt stof: gefitinib. Hver tablet indeholder 250 mg gefitinib.
+
+Øvrige indholdsstoffer (hjælpestoffer): lactosemonohydrat; mikrokrystallinsk cellulose (E460); 
+croscarmellosenatrium; povidon (K29-32) (E1201); natriumlaurilsulfat; magnesiumstearat; 
+hypromellose (E464); macrogol 300; titandioxid (E171); jernoxid, gul (E172) og jernoxid, rød 
+(E172).
+Udseende og pakningstørrelser
+IRESSA er en rund brun tablet mærket med "IRESSA 250" på den ene side og uden mærkning på den 
+anden.
+IRESSA findes i en blisterpakning med 30 tabletter. Blisterfolien kan være perforeret eller ikke-
+perforeret. 
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+30
+SE-151 85 Södertälje
+Sverige 
+Fremstiller
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Sverige
+AstraZeneca UK Limited
+Macclesfield 
+Cheshire SK10 2NA
+Storbritannien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 (2) 44 55 000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 79 363 2222
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 2 106871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+31
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a7a8f3aaed2850db2f524101df25e7ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for iressa Package Leaflet for language en"
+Description: "ePI document Bundle for iressa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a7a8f3aaed2850db2f524101df25e7ab"
+* entry[0].resource = composition-en-a7a8f3aaed2850db2f524101df25e7ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa7a8f3aaed2850db2f524101df25e7ab"
+* entry[=].resource = mpa7a8f3aaed2850db2f524101df25e7ab
+                            
+                    
+Instance: bundlepackageleaflet-da-a7a8f3aaed2850db2f524101df25e7ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for iressa Package Leaflet for language da"
+Description: "ePI document Bundle for iressa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a7a8f3aaed2850db2f524101df25e7ab"
+* entry[0].resource = composition-da-a7a8f3aaed2850db2f524101df25e7ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa7a8f3aaed2850db2f524101df25e7ab"
+* entry[=].resource = mpa7a8f3aaed2850db2f524101df25e7ab
+                            
+                    
+
+
+
+Instance: mpa7a8f3aaed2850db2f524101df25e7ab
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product IRESSA 250 mg film-coated tablets"
-Description: "IRESSA 250 mg film-coated tablets"
+Title: "Medicinal Product iressa"
+Description: "iressa"
 Usage: #inline
 
  
@@ -352,7 +820,7 @@ Usage: #inline
 
 
 * name
-  * productName = "IRESSA 250 mg film-coated tablets"
+  * productName = "iressa"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -379,29 +847,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a7a8f3aaed2850db2f524101df25e7ab
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for iressa Package Leaflet for language en"
-Description: "ePI document Bundle for iressa Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a7a8f3aaed2850db2f524101df25e7abListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/526/001 perforated blister"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "iressa"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a7a8f3aaed2850db2f524101df25e7ab"
-* entry[0].resource = composition-en-a7a8f3aaed2850db2f524101df25e7ab
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp017e271abdff0c63b509977b9e8acf77"
-* entry[=].resource = mp017e271abdff0c63b509977b9e8acf77
-                            
-                      
+* title = "List of all ePIs associated with iressa"
+
+* subject = Reference(mp017e271abdff0c63b509977b9e8acf77)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#iressa "iressa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a7a8f3aaed2850db2f524101df25e7ab) // iressa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a7a8f3aaed2850db2f524101df25e7ab) // iressa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a7a8f3aaed2850db2f524101df25e7ab
+InstanceOf: List
+
+* insert a7a8f3aaed2850db2f524101df25e7abListRuleset
+    

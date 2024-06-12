@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-dc231a8d527554079b48b6c9ff637f0d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebvallo Package Leaflet"
@@ -313,12 +316,633 @@ leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-dc231a8d527554079b48b6c9ff637f0d
+InstanceOf: CompositionUvEpi
+Title: "Composition for ebvallo Package Leaflet"
+Description:  "Composition for ebvallo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb2369148831f115303769432cff21d46)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb2369148831f115303769432cff21d46
+* title = "TEST PURPOSES ONLY - ebvallo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du får Ebvallo 
+3. Sådan indgives Ebvallo 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ebvallo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ebvallo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ebvallo indeholder det aktive stof tabelecleucel. </p>
+<p>Tabelecleucel er et allogent T-celle-immunterapi-middel. Det kaldes et allogent immunterapi-middel, 
+fordi de blodceller, der er blevet brugt til at fremstille dette lægemiddel, stammer fra 
+menneskedonorer, som ikke er beslægtet med den patient, der behandles. Ebvallo er fremstillet i et 
+laboratorium af T-celler (en type hvide blodlegemer) fra en rask donor, der er immun over for Epstein-
+Barr-virus. Disse celler er blevet udvalgt specifikt, så de passer til den patient, som får Ebvallo. 
+Ebvallo indgives som en injektion i en vene.  </p>
+<p>Ebvallo anvendes til behandling af en sjælden slags kræft, der kaldes Epstein-Barr-viruspositiv 
+posttransplantations-lymfoproliferativ sygdom (EBV+ PTLD), hos voksne og børn på 2 år og ældre. 
+Nogle personer oplever denne sygdom måneder eller år, efter de har fået en transplantation. 
+Patienterne vil have modtaget behandling af denne sygdom med andre lægemidler, for eksempel 
+monoklonale antistoffer eller kemoterapi, før de får Ebvallo. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ebvallo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ebvallo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Få ikke Ebvallo<br />
+- hvis du er allergisk over for tabelecleucel eller et af de øvrige indholdsstoffer i Ebvello (angivet i 
+afsnit 6). Spørg lægen til råds, hvis du tror, at du muligvis er allergisk.  </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller sygeplejersken, før du får Ebvallo, hvis:  </p>
+<ul>
+<li>
+<p>du har fået en organtransplantation eller knoglemarvstransplantation, så lægen kan overvåge dig 
+for tegn og symptomer på afstødning af transplantatet. </p>
+</li>
+<li>
+<p>du er 65 år eller ældre, så lægen kan overvåge dig for alvorlige bivirkninger. Ebvallo skal 
+anvendes med forsigtighed til ældre patienter. </p>
+</li>
+</ul>
+<p>Kontakt lægen eller sygeplejersken, efter du har fået Ebvallo, hvis: </p>
+<ul>
+<li>
+<p>du har tegn og symptomer på tumor-flare-reaktion. Afhængigt af tumorens placering kan Ebvallo 
+forårsage en bivirkning kaldet tumor-flare-reaktion. Tumoren eller forstørrede lymfeknuder kan 
+pludselig blive smertefulde eller blive større og forårsage problemer for organer ved siden af 
+tumoren. Tumor-flare-reaktion opstår som regel i de første få dage efter indgivelse af Ebvallo. Din 
+læge vil overvåge dig efter de første par doser for at se, om din tumor eller lymfeknuder bliver så 
+store, at de kan forårsage problemer. Din læge kan give dig andre lægemidler til 
+behandling/forebyggelse af tumor-flare-reaktion. </p>
+</li>
+<li>
+<p>du har tegn og symptomer på graft-versus-host-sygdom (GvHD). Sådanne symptomer kan være 
+hududslæt, abnorme leverenzymer i blodet, gulfarvning af huden, kvalme, opkastning, diarré og 
+blodig afføring. </p>
+</li>
+<li>
+<p>du har tegn og symptomer på en alvorlig immunreaktion kaldet cytokinfrigivelsessyndrom (CRS), 
+såsom feber, kuldegysninger, lavt blodtryk og åndenød. </p>
+</li>
+<li>
+<p>du har tegn og symptomer på en alvorlig immunreaktion kaldet immuneffektorcelle-associeret 
+neurotoksicitetssyndrom (ICANS), såsom nedsat bevidsthedsniveau, forvirring, krampeanfald og 
+hævelse i hjernen. </p>
+</li>
+<li>
+<p>du har tegn og symptomer på infusionsrelaterede reaktioner, såsom feber. </p>
+</li>
+</ul>
+<p>Ebvallo indeholder dimethylsulfoxid (DMSO), som kan forårsage en allergisk reaktion. Lægen eller 
+sygeplejersken vil overvåge dig for tegn og symptomer på en allergisk reaktion. Se afsnit 2 “Ebvallo 
+indeholder natrium og dimethylsulfoxid (DMSO)".  </p>
+<p>Ebvallo er blevet testet for smitsomme mikrober, men der er stadig en lille risiko for infektion. Lægen 
+eller sygeplejersken vil overvåge dig for tegn og symptomer på infektioner og give dig behandling 
+efter behov. </p>
+<p>Efter behandling med Ebvallo må du ikke donere blod, organer, væv eller celler.  </p>
+<p>Brug af anden medicin sammen med Ebvallo 
+Fortæl altid lægen eller sygeplejersken, hvis du tager anden medicin, for nylig har taget anden medicin 
+eller planlægger at tage anden medicin. </p>
+<p>Før du får Ebvallo, skal du fortælle det til lægen eller sygeplejersken, hvis du tager medicin såsom 
+kemoterapi eller kortikosteroider, da disse lægemidler kan påvirke Ebvallos virkning. Hvis du får 
+kemoterapi, kan den påvirke, hvor godt Ebvallo virker. Hvis du tager kortikosteroider, skal din læge 
+mindske dosen af kortikosteroider. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får dette lægemiddel. Det skyldes, at lægemidlets virkning hos 
+gravide eller ammende kvinder ikke er klarlagt, og at det muligvis kan skade det ufødte eller ammede 
+barn. Ebvallo bør ikke anvendes under graviditeten og til kvinder i den fertile alder, som ikke 
+anvender kontraception. </p>
+<ul>
+<li>
+<p>Hvis du bliver gravid eller får mistanke om, at du er gravid, efter at du er startet i behandling med 
+Ebvallo, skal du straks kontakte lægen. </p>
+</li>
+<li>
+<p>Tal med lægen om nødvendig prævention. </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du ammer eller planlægger at gøre det. Lægen vil hjælpe dig med at 
+beslutte, om du skal ophøre med amning eller afbryde behandlingen med Ebvallo, idet der tages 
+højde for fordelene ved amning i forhold til fordelene ved behandling for moderen.  </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed<br />
+Ebvallo påvirker i mindre grad evnen til føre motorkøretøj og betjene maskiner. Hvis du oplever 
+ændringer i din tænkeevne eller årvågenhed efter behandling med dette lægemiddel, skal du undlade at 
+føre motorkøretøj og betjene maskiner og informere lægen med det samme. </p>
+<p>Ebvallo indeholder natrium og dimethylsulfoxid (DMSO) 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
+væsentlige natrium-frit.  </p>
+<p>Dette lægemiddel indeholder 100 mg DMSO pr. ml. Se “Advarsler og forsigtighedsregler" under 
+punkt 2. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ebvallo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ebvallo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil altid få indgivet Ebvallo af en læge eller sygeplejerske på hospitalet.  </p>
+<p>Lægen eller sygeplejersken giver dig Ebvallo via injektion i en vene. Det tager som regel 5 til 
+10 minutter pr. injektion. </p>
+<p>Hver behandlingscyklus består af 35 dage. Du vil få 1 injektion om ugen i 3 uger, efterfulgt af cirka 2 
+ugers observation for at se, om du skal have mere end én cyklus. Lægen vil beslutte hvor mange 
+cyklusser, du skal have, afhængigt af hvordan din sygdom reagerer på Ebvallo. </p>
+<p>Før du får Ebvallo 
+Lægen eller sygeplejersken vil kontrollere dine vitalparametre før hver injektion. </p>
+<p>Efter du har fået Ebvallo 
+Lægen eller sygeplejersken vil overvåge dine vitalparametre, herunder dit blodtryk, i cirka 1 time efter 
+injektionen. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Kontakt straks lægen, hvis du får en eller flere af følgende bivirkninger, efter du har fået Ebvallo: </p>
+<ul>
+<li>
+<p>Tumor-flare-reaktion med symptomer såsom åndenød, ændringer i tænkeevne eller årvågenhed, 
+smerter på tumorstedet, hævede og ømme lymfeknuder på tumorstedet, lav feber. </p>
+</li>
+<li>
+<p>Graft-versus-host-sygdom (GvHD) med symptomer såsom hududslæt, abnorme leverenzymer i 
+blodet, gulfarvning af huden, kvalme, opkastning, diarré og blodig afføring. </p>
+</li>
+</ul>
+<p>Øvrige bivirkninger </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Lave niveauer af røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>Nedsat appetit </p>
+</li>
+<li>
+<p>Nedsat natriumindhold i blodet </p>
+</li>
+<li>
+<p>Mavesmerter eller -gener </p>
+</li>
+<li>
+<p>Nedsat antal hvide blodlegemer (herunder neutrofiler)   </p>
+</li>
+<li>
+<p>Øgede leverenzymer i blodet </p>
+</li>
+<li>
+<p>Forstoppelse </p>
+</li>
+<li>
+<p>Øget niveau af enzymet basisk fosfatase i blodet </p>
+</li>
+<li>
+<p>Nedsat iltniveau </p>
+</li>
+<li>
+<p>Dehydrering </p>
+</li>
+<li>
+<p>Lavt blodtryk </p>
+</li>
+<li>
+<p>Tilstoppet næse </p>
+</li>
+<li>
+<p>Hududslæt, som kan være rødt, knudret eller pusfyldt </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Nedsat niveau af magnesium, kalium eller calcium i blodet </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Kuldegysninger </p>
+</li>
+<li>
+<p>Nedsat antal hvide blodlegemer (lymfocytter) </p>
+</li>
+<li>
+<p>Nedsat antal hvide blodlegemer (neutrofiler) med feber </p>
+</li>
+<li>
+<p>Muskelsvaghed </p>
+</li>
+<li>
+<p>Ledsmerter, -hævelse og -stivhed </p>
+</li>
+<li>
+<p>Øget niveau af kreatinin i blodet </p>
+</li>
+<li>
+<p>Pibende vejrtrækning </p>
+</li>
+<li>
+<p>Forvirring og desorientering </p>
+</li>
+<li>
+<p>Rygsmerter </p>
+</li>
+<li>
+<p>Muskelsmerter </p>
+</li>
+<li>
+<p>Næse- og halsinfektion </p>
+</li>
+<li>
+<p>Brystsmerter </p>
+</li>
+<li>
+<p>Øget niveau af laktatdehydrogenase i blodet </p>
+</li>
+<li>
+<p>Tyktarmsbetændelse </p>
+</li>
+<li>
+<p>Smerter </p>
+</li>
+<li>
+<p>Nedsat antal blodplader i blodet </p>
+</li>
+<li>
+<p>Oppustethed </p>
+</li>
+<li>
+<p>Delirium </p>
+</li>
+<li>
+<p>Nedsat bevidsthedsniveau </p>
+</li>
+<li>
+<p>Hedeture </p>
+</li>
+<li>
+<p>Lungebetændelse </p>
+</li>
+<li>
+<p>Søvnighed </p>
+</li>
+<li>
+<p>Hurtigt hjerteslag </p>
+</li>
+<li>
+<p>Tumorsmerter </p>
+</li>
+<li>
+<p>Nedsat niveau af fibrinogen i blodet (et protein, der bidrager til blodstørkning) </p>
+</li>
+<li>
+<p>Tarmluft </p>
+</li>
+<li>
+<p>Hævelse </p>
+</li>
+<li>
+<p>Hudsår </p>
+</li>
+<li>
+<p>Blå hudfarve på grund af lavt iltniveau </p>
+</li>
+<li>
+<p>Svær eller smertefuld afføring </p>
+</li>
+<li>
+<p>Generel forværring af fysisk helbred </p>
+</li>
+<li>
+<p>Følelsesløshed, snurren eller brændende fornemmelse i hænder eller fødder </p>
+</li>
+<li>
+<p>Blødning i lungerne </p>
+</li>
+<li>
+<p>Misfarvning af huden </p>
+</li>
+<li>
+<p>Hudinfektion </p>
+</li>
+<li>
+<p>Nedbrydning af bløddele </p>
+</li>
+<li>
+<p>Vedvarende hoste </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ebvallo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ebvallo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din læge, apotekspersonalet eller en sygeplejerske har ansvaret for opbevaringen af dette lægemiddel 
+og korrekt bortskaffelse af eventuelt ubrugt produkt. Nedenstående oplysninger er til 
+sundhedspersoner. Brug ikke lægemidlet efter udløbsdatoen. Udløbsdatoen er angivet på lot-
+oplysningsarket og æsken.    </p>
+<p>Opvar Ebvallo nedfrosset i dampfasen af flydende nitrogen ved -150 °C eller derunder, indtil det skal 
+optøs og anvendes. Lægemidlet skal optøs og fortyndes inden for 1 time fra optøningens start. 
+Indgivelse skal være afsluttet inden for 3 timer fra optøningens start. </p>
+<p>Opbevares ved temperaturer mellem 15 °C og 25 °C efter optøning og fortynding. Beskyttes mod lys. 
+Må ikke nedfryses igen. Må ikke bestråles. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ebvallo indeholder:</p>
+<ul>
+<li>Ebvallo indeholder tabelecleucel i en koncentration på cirka 2,8 × 107 - 7,3 × 107 celler/ml. </li>
+<li>Øvrige indholdsstoffer (hjælpestoffer): dimethylsulfoxid, humant serumalbumin, 
+phosphatbufferet saltvand. Se afsnit 2, "Ebvallo indeholder natrium og dimethylsulfoxid 
+(DMSO)". </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Ebvallo er en halvgennemsigtig, farveløs til let gul celledispersion til injektion. </p>
+<p>Ebvallo leveres i æsker til den enkelte patient indeholdende 1 hætteglas til 6 hætteglas, alt efter den 
+nødvendige, patientspecifikke dosis. Hvert hætteglas indeholder 1 ml af dette lægemiddel. </p>
+<p>Indehaver af markedsføringstilladelsen 
+PIERRE FABRE MEDICAMENT 
+Les Cauquillous 
+81500 Lavaur 
+Frankrig </p>
+<p>Fremstiller 
+PIERRE FABRE MEDICAMENT PRODUCTION 
+Parc industriel de la Chartreuse 
+81100 Castres 
+Frankrig </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Dette lægemiddel er godkendt under "særlige vilkår". Det betyder, at det grundet sygdommens 
+sjældenhed ikke har været muligt at opnå fuldstændig dokumentation for lægemidlet. Det Europæiske 
+Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne indlægsseddel vil 
+om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Det er vigtigt, at du læser hele denne procedure igennem, før du administrerer Ebvallo. </p>
+<p>Forsigtighedsregler vedrørende håndtering og administration af lægemidlet </p>
+<ul>
+<li>Dette lægemiddel indeholder humane blodceller. Sundhedspersoner, der håndter Ebvallo, skal tage 
+passende forholdsregler (brug af handsker og briller) for at undgå potentiel overførsel af 
+smitsomme sygdomme. </li>
+</ul>
+<p>Klargøring inden administration </p>
+<ul>
+<li>Patientens identitet skal stemme overens med patient-identifikatorerne (PFPIN og institutionens 
+patient-ID) på det medfølgende lot-oplysningsark og æsken. Overensstemmelsen mellem 
+produktet og patienten skal kontrolleres ved at sammenligne oplysningerne på lot-oplysningsarket 
+med oplysningerne på 1) æsken (overensstemmende PFPIN og FDP-nummer) og på 2) etiketten 
+på hætteglasset (overensstemmende lot-nummer og donor-ID). Ebvallo må ikke klargøres eller 
+indgives, hvis patientens identitet eller overensstemmelsen mellem produktet og patienten ikke 
+kan bekræftes. Inden optøning skal det tilsikres, at de nødvendige dosisberegninger er udført, at 
+alle nødvendige materialer til klargøring af dosen forefindes, og at patienten er til stede og er 
+blevet klinisk evalueret. </li>
+</ul>
+<p>Dosisberegning  </p>
+<ul>
+<li>
+<p>Se oplysninger vedrørende cellekoncentrationen pr. hætteglas på det medfølgende lot-
+oplysningsark og æsken. </p>
+</li>
+<li>
+<p>Bemærk: Koncentrationen af levedygtige T-celler på lot-oplysningsarket og æsken er den faktiske 
+koncentration i hvert hætteglas. Den kan være forskellig fra den nominelle koncentration på 
+hætteglasetiketten, som ikke bør anvendes til beregning af dosis i forbindelse med klargøring. 
+Hvert hætteglas indeholder en administrerbar volumen på 1 ml.  </p>
+</li>
+</ul>
+<p>Klargøring af solvens  </p>
+<ul>
+<li>
+<p>Vælg den korrekte volumen af solvens (30 ml for patienter, der vejer ≤ 40 kg; 50 ml for patienter, 
+der vejer &gt; 40 kg) </p>
+</li>
+<li>
+<p>Træk den valgte volumen af solvens op i doseringssprøjten ved aseptisk teknik. </p>
+</li>
+</ul>
+<p>Optøning </p>
+<ul>
+<li>
+<p>Optøningsprocessen for Ebvallo kan startes, når patienten er ankommet og er blevet klinisk 
+evalueret. </p>
+</li>
+<li>
+<p>Tag æsken ud af dampfasen af flydende nitrogen ved ≤ -150 °C. </p>
+</li>
+<li>
+<p>Frosne hætteglas med Ebvallo skal anbringes i en steril pose under optøning for at beskyttte mod 
+kontaminering og optøs opretstående i et 37 °C vandbad eller tøroptøningsskab. </p>
+</li>
+<li>
+<p>Registrer tidspunktet for opstart af optøning. Mens lægemidlet tør op, slynges 
+hætteglasset/hætteglassene med produktet forsigtigt indtil fuldstændig optøning ved inspektion 
+(cirka 2,5 til 15 minutter). Produktet skal fjernes fra optøningsudstyret, så snart optøningen er 
+fuldstændig.  </p>
+</li>
+<li>
+<p>Klargøringen af dosen skal være fuldført senest 1 time efter opstart af optøning.  </p>
+</li>
+<li>
+<p>Optøet eller klargjort produkt må ikke nedfryses igen. Må ikke bestråles. </p>
+</li>
+</ul>
+<p>Fortynding og klargøring af dosis </p>
+<ul>
+<li>
+<p>Hætteglasset/-glassene vendes forsigtigt op og ned, indtil celledispersionen er blandet.  </p>
+</li>
+<li>
+<p>Ved aseptisk teknik trækkes den påkrævede volumen celledispersion op af det/de medfølgende 
+hætteglas og ind i optrækssprøjten ved hjælp af en 18G kanyle uden filter.  </p>
+</li>
+<li>
+<p>Ved aseptisk teknik overføres celledispersionen fra optrækssprøjten til doseringssprøjten (som 
+forinden er blevet tilført solvens). Sørg for, at alt indholdet i optrækssprøjten bliver overført.  </p>
+</li>
+<li>
+<p>Kontrollér den fortyndede Ebvallo i doseringssprøjten: Celledispersionen skal være en 
+halvgennemsigtig, uklar opløsning. Fortsæt med at blande opløsningen forsigtigt, hvis der er 
+synlige klumper. Små klumper af cellemateriale bør opløses ved forsigtig manuel blanding.  </p>
+</li>
+<li>
+<p>Bevar Ebvallo mellem 15 °C og 25 °C under klargøring og administration af dosen. Klargøringen 
+af dosen skal være fuldført senest 1 time efter opstart af optøningen. Administrationen skal være 
+fuldført senest 3 timer efter opstart af optøningen. </p>
+</li>
+</ul>
+<p>Administration </p>
+<ul>
+<li>
+<p>Administrer Ebvallo som en enkelt dosis intravenøst efter fortynding. </p>
+</li>
+<li>
+<p>Tilslut sprøjten med det endelige lægemiddel til patientens intravenøse kateter, og injicer det over 
+5 til 10 minutter. </p>
+</li>
+<li>
+<p>Når al Ebvallo i sprøjten er blevet indgivet, skylles det intravenøse drop med ≥ 10 ml 
+natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning. </p>
+</li>
+</ul>
+<p>Forstaltninger, der skal træffes i tilfælde af utilsigtet eksponering </p>
+<p>I tilfælde af utilsigtet eksponering skal de lokale retningslinjer for håndtering af humanderiveret 
+materiale følges. Dette kan omfatte afvaskning af kontamineret hud og fjernelse af kontamineret 
+beklædning. Arbejdsoverflader og materialer, der potentielt kan have været i kontakt med Ebvallo, 
+skal dekontamineres med et passende desinfektionsmiddel. </p>
+<p>Forsigtighedsregler vedrørende bortskaffelse af lægemidlet </p>
+<p>Ikke anvendt lægemiddel samt alle materialer, der har været i kontakt med Ebvallo (fast og flydende 
+affald), skal håndteres og bortskaffes som potentielt smitsomt affald i henhold til lokale retningslinjer 
+for håndtering af humanderiveret materiale. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-dc231a8d527554079b48b6c9ff637f0d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ebvallo Package Leaflet for language en"
+Description: "ePI document Bundle for ebvallo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-dc231a8d527554079b48b6c9ff637f0d"
+* entry[0].resource = composition-en-dc231a8d527554079b48b6c9ff637f0d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdc231a8d527554079b48b6c9ff637f0d"
+* entry[=].resource = mpdc231a8d527554079b48b6c9ff637f0d
+                            
+                    
+Instance: bundlepackageleaflet-da-dc231a8d527554079b48b6c9ff637f0d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ebvallo Package Leaflet for language da"
+Description: "ePI document Bundle for ebvallo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-dc231a8d527554079b48b6c9ff637f0d"
+* entry[0].resource = composition-da-dc231a8d527554079b48b6c9ff637f0d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdc231a8d527554079b48b6c9ff637f0d"
+* entry[=].resource = mpdc231a8d527554079b48b6c9ff637f0d
+                            
+                    
+
+
+
+Instance: mpdc231a8d527554079b48b6c9ff637f0d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ebvallo 2.8 × 107 – 7.3 × 107 cells/mL dispersion for injection"
-Description: "Ebvallo 2.8 × 107 – 7.3 × 107 cells/mL dispersion for injection"
+Title: "Medicinal Product ebvallo"
+Description: "ebvallo"
 Usage: #inline
 
  
@@ -338,7 +962,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ebvallo 2.8 × 107 – 7.3 × 107 cells/mL dispersion for injection"
+  * productName = "ebvallo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -365,29 +989,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-dc231a8d527554079b48b6c9ff637f0d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ebvallo Package Leaflet for language en"
-Description: "ePI document Bundle for ebvallo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: dc231a8d527554079b48b6c9ff637f0dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1700/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ebvallo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-dc231a8d527554079b48b6c9ff637f0d"
-* entry[0].resource = composition-en-dc231a8d527554079b48b6c9ff637f0d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb2369148831f115303769432cff21d46"
-* entry[=].resource = mpb2369148831f115303769432cff21d46
-                            
-                      
+* title = "List of all ePIs associated with ebvallo"
+
+* subject = Reference(mpb2369148831f115303769432cff21d46)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ebvallo "ebvallo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-dc231a8d527554079b48b6c9ff637f0d) // ebvallo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-dc231a8d527554079b48b6c9ff637f0d) // ebvallo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-dc231a8d527554079b48b6c9ff637f0d
+InstanceOf: List
+
+* insert dc231a8d527554079b48b6c9ff637f0dListRuleset
+    

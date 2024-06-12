@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5caa393121d9756e15d948c90dc0e334
 InstanceOf: CompositionUvEpi
 Title: "Composition for akeega Package Leaflet"
@@ -440,12 +443,669 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-5caa393121d9756e15d948c90dc0e334
+InstanceOf: CompositionUvEpi
+Title: "Composition for akeega Package Leaflet"
+Description:  "Composition for akeega Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9c12e0e835d665005fd33f1c75090629)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp9c12e0e835d665005fd33f1c75090629
+* title = "TEST PURPOSES ONLY - akeega"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Akeega
+3. Sådan skal du tage Akeega
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What akeega is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What akeega is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Akeega er et lægemiddel, som indeholder to aktive stoffer: niraparib og abirateronacetat, der virker på 
+to forskellige måder.
+Akeega anvendes til behandling af voksne mænd med prostatacancer, som har ændringer i visse gener, 
+og hvis prostatacancer har spredt sig til andre dele af kroppen og ikke længere reagerer på medicinsk 
+eller kirurgisk behandling, der sænker testosteron (også kaldet metastatisk kastrationsresistent 
+prostatacancer).
+Niraparib er en type medicin mod cancer kaldet en PARP-hæmmer. PARP-hæmmere blokerer et 
+enzym kaldet poly [adenosin diphosphat-ribose] polymerase (PARP). PARP hjælper cellerne med at 
+reparere beskadiget DNA. Når PARP blokeres, kan kræftcellerne ikke reparere deres DNA, hvilket 
+resulterer i tumorcelledød og bidrager til at kontrollere canceren.
+Abirateron hindrer kroppen i at fremstille testosteron og kan derved nedsætte væksten af 
+prostatacancer.
+Mens du er i behandling med dette lægemiddel, vil din læge også ordinere enten prednison eller 
+prednisolon til dig. Derved nedsættes risikoen for, at du får højt blodtryk, for meget væske i kroppen 
+(væskeretention) eller nedsat indhold af mineralet kalium i blodet.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take akeega"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take akeega"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Akeega:
+
+hvis du er allergisk over for niraparib eller abirateronacetat eller et af de øvrige indholdsstoffer i 
+Akeega – angivet i punkt 6. 
+hvis du er en kvinde, der er eller kan blive gravid. 
+
+hvis du har svære leverskader.
+44
+
+i kombination med Ra-223-behandling (som anvendes til behandling af prostatacancer). Dette 
+skyldes en mulig stigning i risikoen for knoglebrud eller død.
+Tag ikke dette lægemiddel, hvis noget af dette gælder for dig. Hvis du er i tvivl, så spørg din læge eller 
+apotekspersonalet, inden du tager dette lægemiddel.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før eller mens du tager Akeega, hvis du har:
+
+lave blodcelletal. De tegn og symptomer, du skal holde øje med, omfatter træthed, feber eller 
+infektion og unormale blå mærker eller blødninger. Akeega kan også sænke dine blodcelletal. 
+Din læge vil teste dit blod regelmæssigt under hele din behandling.
+
+højt blodtryk eller hjertesvigt eller lavt kaliumindhold i blodet (lavt kaliumindhold i blodet kan 
+øge risikoen for problemer med hjerterytmen), har haft andre problemer med hjertet eller 
+blodkarrene, har en uregelmæssig eller hurtig hjertefrekvens, åndenød, har taget hurtigt på i 
+vægt eller har hævelse i fødder, ankler eller ben. Din læge vil måle dit blodtryk regelmæssigt 
+under hele din behandling.
+
+hovedpine, synsforandringer, føler dig forvirret eller får anfald. Disse symptomer kan være tegn 
+på en sjælden neurologisk bivirkning kaldet posteriort reversibelt encefalopatisk syndrom 
+(PRES), der er blevet forbundet med brug af niraparib, en aktiv ingrediens i Akeega.
+
+høj feber, træthed og andre tegn og symptomer på alvorlig infektion.
+
+blodpropper i lungerne, eller hvis du tidligere har haft sådanne.
+
+leverproblemer.
+
+lavt eller højt indhold af sukker i blodet.
+
+muskelsvaghed og/eller muskelsmerter.
+Tal med lægen eller apotekspersonalet, hvis noget af ovenstående gælder for dig (eller hvis du er 
+usikker), før du tager dette lægemiddel.
+Hvis dine blodcelletal er lave i længere tid, mens du tager Akeega, kan det være et tegn på mere 
+alvorlige problemer med knoglemarven, såsom ”myelodysplastisk syndrom” (MDS) eller ”akut 
+myeloid leukæmi” (AML). Din læge vil måske teste din knoglemarv for at undersøge, om det er 
+tilfældet
+Inden du tager Akeega, skal du også tale med din læge eller apotek om:
+
+den virkning Akeega kan have på dine knogler
+
+at tage prednison eller prednisolon (et andet lægemiddel, du skal tage sammen med Akeega).
+Kontakt lægen eller apotekspersonalet, før du tager dette lægemiddel, hvis du er usikker på, om noget 
+af dette gælder for dig.
+Blodprøvekontrol
+Akeega kan påvirke leveren, men du bemærker muligvis ikke nogen symptomer på leverproblemer. 
+Når du tager dette lægemiddel, skal du derfor jævnligt have taget blodprøver hos lægen for at få 
+kontrolleret, om medicinen påvirker din lever.
+Børn og unge
+Dette lægemiddel er ikke beregnet til børn og unge. Hvis et barn eller en ung person ved et uheld 
+kommer til at sluge Akeega, skal du straks tage vedkommende på hospitalet og medbringe denne 
+indlægsseddel, så I kan vise den til lægen på skadestuen.
+Brug af andre lægemidler sammen med Akeega
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Det skyldes, at Akeega kan påvirke 
+virkningen af visse andre lægemidler. Visse andre lægemidler kan også påvirke den måde, som 
+Akeega virker på.
+45
+Behandling med lægemidler, der standser kroppens testosteronproduktion, kan øge risikoen for 
+problemer med hjerterytmen. Fortæl det til lægen, hvis du får medicin, som:
+
+bruges til at behandle problemer med hjerterytmen (f.eks. kinidin, procainamid, amiodaron 
+og sotalol)
+
+vides at øge risikoen for problemer med hjerterytmen (f.eks. methadon), som anvendes til 
+smertelindring samt i forbindelse med afvænning ved stofmisbrug, moxifloxacin, et 
+antibiotikum, antipsykotika, som anvendes til alvorlige psykiske lidelser.
+Fortæl det til lægen, hvis du tager nogen af de ovenstående lægemidler.
+Brug af Akeega sammen med mad
+
+Dette lægemiddel må ikke tages sammen med mad (se ”Sådan skal du tage medicinen” under 
+punkt 3), eftersom det kan øge risikoen for bivirkninger.
+Graviditet og amning
+Akeega er ikke beregnet til kvinder.
+
+Dette lægemiddel kan skade fostret, hvis det tages af kvinder, som er gravide.
+
+Kvinder, som er gravide, eller kvinder, som planlægger at blive gravide, skal anvende handsker, 
+hvis det er nødvendigt, at de rører ved eller håndterer Akeega.
+Kontraception for mænd, der tager Akeega
+
+Brug kondom og en anden sikker præventionsmetode hvis du dyrker sex med en kvinde, som 
+kan blive gravid. Brug prævention under behandlingen og i 4 måneder efter ophør af 
+behandlingen. Kontakt lægen, hvis du har spørgsmål vedrørende prævention.
+
+Brug kondom for at beskytte fostret, hvis du har sex med en gravid kvinde.
+Trafik- og arbejdssikkerhed
+Du kan føle dig svag, ufokuseret, træt eller svimmel, når du tager Akeega. Dette kan påvirke din evne 
+til at føre motorkøretøj og betjene maskiner. Udvis forsigtighed, når du fører motorkøretøj eller 
+betjener maskiner.
+Akeega indeholder lactose og natrium
+
+Akeega indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt 
+dig, at du ikke tåler visse sukkerarter.
+
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr.dosis, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take akeega"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take akeega"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller
+apotekspersonalet.
+Så meget skal du tage
+Den anbefalede startdosis er 200 mg/1 000 mg en gang dagligt.
+Sådan skal du tage medicinen
+
+Dette lægemiddel skal indtages gennem munden.
+
+Akeega må ikke tages sammen med mad.
+
+Tag Akeega-tabletterne som en enkeltdosis én gang dagligt på tom mave mindst en time før 
+eller mindst to timer efter du har spist (se punkt 2, ”Brug af Akeega sammen med mad”).
+
+Synk tabletterne hele med vand. Tabletterne må ikke deles, knuses eller tygges. Dette sikrer, at 
+medicinen virker så godt som muligt.
+
+Akeega skal tages sammen med lægemidlet prednison eller prednisolon.<em> Tag prednison eller prednisolon nøjagtigt efter lægens anvisning.</em> Du skal tage prednison eller prednisolon dagligt, mens du tager Akeega.
+46* Den mængde prednison eller prednisolon, som du får, skal måske ændres hvis der opstår 
+en akut medicinsk tilstand. Din læge vil give dig besked, hvis du skal ændre din dosis af 
+prednison eller prednisolon. Du må ikke holde op med at tage prednison eller 
+prednisolon, med mindre lægen anbefaler det.
+Lægen kan også foreskrive anden medicin under din behandling med Akeega.
+Hvis du har taget for meget Akeega
+Hvis du har taget flere tabletter end du burde, skal du kontakte lægen. Du kan have en øget risiko for 
+bivirkninger.
+Hvis du har glemt at tage Akeega
+Hvis du glemmer at tage Akeega eller prednison eller prednisolon, skal du tage den sædvanlige dosis, 
+så snart du kommer i tanke om det på den samme dag.
+Hvis du glemmer at tage Akeega eller prednison eller prednisolon i mere end en dag, skal du straks 
+tale med lægen.
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.
+Hvis du holder op med at tage Akeega
+Hold ikke op med at tage Akeega, prednison eller prednisolon, medmindre lægen anbefaler det.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger
+Stop med at tage Akeega, og søg øjeblikkeligt læge, hvis du oplever nogen af følgende 
+symptomer:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+Blå mærker eller blødninger i længere tid end normalt, hvis du kommer til skade – dette kan 
+være tegn på lavt blodpladetal (trombocytopeni).
+
+Åndenød, udpræget træthed, bleg hud eller hurtig hjerterytme – disse kan være tegn på et lavt 
+antal røde blodceller (anæmi).
+
+Feber eller infektion – lavt antal hvide blodceller (neutropeni) kan øge din risiko for infektion. 
+Tegnene kan omfatte feber, kulderystelser, svaghed eller forvirring, hoste, smerte eller 
+brændende fornemmelse ved vandladning. Nogle infektioner kan være alvorlige og kan føre til 
+døden.
+
+Muskelsvaghed, muskeltrækninger eller hjertebanken (palpitationer). Dette kan være tegn på, at 
+blodets indhold af kalium er lavt (hypokaliæmi).
+
+Forhøjet niveau af leverenzymet ”basisk fosfatase” i blodet.
+Ikke kendte (hyppigheden kan ikke estimeres) – ikke rapporteret ved brug af Akeega men rapporteret
+ved brug af niraparib eller abirateronacetat (komponenter i Akeega):
+
+Allergisk reaktion (herunder alvorlig allergisk reaktion, der kan være livstruende). Tegnene 
+omfatter: hævet og kløende udslæt (nældefeber) og hævelse – til tider i ansigtet eller munden 
+(angioødem), som forårsager vejrtrækningsbesvær og kollaps eller tab af bevidsthed.
+
+En pludselig stigning i blodtrykket, som kan være en medicinsk nødsituation, der kan føre til 
+organskader eller kan være livstruende.
+47
+Andre bivirkninger
+Hvis du oplever andre bivirkninger, bør du tale med lægen eller apotekspersonalet. Disse kan omfatte:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+urinvejsinfektion
+
+lavt antal hvide blodlegemer (leukopeni), set i blodprøver
+
+nedsat appetit
+
+søvnbesvær (insomni)
+
+svimmelhed
+
+stakåndethed
+
+forstoppelse
+
+kvalme
+
+opkastning
+
+rygsmerter
+
+ledsmerter
+
+udpræget træthedsfølelse
+
+følelse af svaghed
+
+vægttab
+
+knoglebrud
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+
+lungebetændelse (pneumoni)
+
+lungeinfektion (bronkitis)
+
+infektion i næse og svælg (nasopharyngitis)
+
+lavt antal af en type hvide blodceller (lymfopeni), set i blodprøver
+
+højt indhold af en type fedt i blodet (hypertriglyceridæmi)
+
+depression
+
+angstfølelse
+
+hovedpine
+
+hurtig hjerterytme
+
+hurtig eller ujævn hjerterytme (palpitationer)
+
+uregelmæssig hjerterytme (atrieflimren)
+
+hjertesvigt, som forårsager stakåndethed og hævede ben
+
+hjerteanfald
+
+hoste
+
+blodprop i lungerne, som forårsager brystsmerter og stakåndethed
+
+betændte lunger
+
+mavesmerter
+
+dårlig fordøjelse
+
+diarré
+
+oppustethed
+
+sår i munden
+
+mundtørhed
+
+leverbetændelse (hepatitis) på grundlag af blodprøver
+
+hududslæt
+
+muskelsmerter
+
+blod i urinen
+
+hævede hænder, ankler eller fødder
+
+forhøjet niveau af kreatinin i blodet
+
+forhøjet niveau af enzymet ”aspartataminotransferase” i blodet
+
+forhøjet niveau af enzymet ”alaninaminotransferase” i blodet
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):
+
+alvorlig infektion (sepsis), der spredes fra urinvejene til hele kroppen
+48
+
+øjenbetændelse (konjunktivitis)
+
+forvirring
+
+svært ved at tænke, huske information eller løse problemer (kognitiv svækkelse)
+
+ændringer i smagssansen
+
+ubehag i brystet, ofte forårsaget af fysisk aktivitet
+
+uregelmæssigt EKG (elektrokardiogram), hvilket kan være tegn på hjerteproblemer
+
+næseblod
+
+betændelse i de beskyttende slimhinder i kroppens hulrum, såsom næse, mund eller 
+fordøjelsessystem
+
+pludseligt leversvigt
+
+øget følsomhed i huden over for sollys
+
+forhøjet niveau af ”gammaglutamyltransferase” i blodet
+Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) – ikke rapporteret ved 
+brug af Akeega, men rapporteret ved brug af niraparib eller abirateronacetat (komponenter i Akeega)
+
+lavt antal af alle typer blodceller (pancytopeni)
+
+hjernesygdom med symptomer som kramper (anfald), hovedpine, forvirring og synsforandringer 
+(posteriort reversibelt encefalopatisk syndrom eller PRES), hvilket er en medicinsk 
+nødsituation, der kan føre til organskader eller kan være livstruende
+
+binyreproblemer (relateret til salt- og vandproblemer), hvor der produceres for lidt hormon, 
+hvilket kan forårsage problemer som svaghed, træthed, appetitløshed, kvalme, dehydrering og 
+hudforandringer
+
+betændte lunger forårsaget af en allergisk reaktion (allergisk alveolitis)
+
+muskelsygdom (myopati), som kan forårsage muskelsvækkelse, -stivhed eller -spasmer
+
+nedbrydning af muskelvæv (rabdomyolyse), som kan forårsage muskelkrampe eller -smerter, 
+træthed og mørk urin
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store akeega"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store akeega"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen (blisterfolie, indre etui, ydre etui og 
+æske) efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Akeega indeholder
+
+Aktive stoffer: niraparib og abirateronacetat. Hver filmovertrukket tablet indeholder 50 mg 
+niraparib og 500 mg abirateronacetat.
+
+Øvrige indholdsstoffer: kolloid vandfri silica, crospovidon, hypromellose, lactosemonohydrat, 
+magnesiumstearat, mikrokrystallinsk cellulose, natriumlaurilsulfat. Filmovertrækket indeholder 
+sort jernoxid (E172), rød jernoxid (E172), gul jernoxid (E172), natriumlaurilsulfat, 
+49
+glycerolmonocaprylocaprat, polyvinylalkohol, talkum og titaniumdioxid (E171) (se punkt 2, 
+Akeega indeholder lactose og natrium).
+Udseende og pakningsstørrelser
+Akeega filmovertrukne tabletter er gullig-orange til gullig-brune, ovale tabletter, præget med 
+”N 50 A” på den ene side og intet på den anden side.
+Hver 28-dages æske indeholder 56 filmovertrukne tabletter i to pap-etuier med 28 filmovertrukne 
+tabletter hver.
+Indehaver af markedsføringstilladelsen
+Janssen‑Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Cilag SpA
+Via C. Janssen,
+Borgo San Michele
+Latina 04100
+Italien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България” ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+50
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu
+51
+Indlægsseddel: Information til brugeren
+Akeega 100 mg/500 mg filmovertrukne tabletter
+niraparib/abirateronacetat
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.
+
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+
+Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel (se punkt 4).
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5caa393121d9756e15d948c90dc0e334
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for akeega Package Leaflet for language en"
+Description: "ePI document Bundle for akeega Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5caa393121d9756e15d948c90dc0e334"
+* entry[0].resource = composition-en-5caa393121d9756e15d948c90dc0e334
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5caa393121d9756e15d948c90dc0e334"
+* entry[=].resource = mp5caa393121d9756e15d948c90dc0e334
+                            
+                    
+Instance: bundlepackageleaflet-da-5caa393121d9756e15d948c90dc0e334
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for akeega Package Leaflet for language da"
+Description: "ePI document Bundle for akeega Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5caa393121d9756e15d948c90dc0e334"
+* entry[0].resource = composition-da-5caa393121d9756e15d948c90dc0e334
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5caa393121d9756e15d948c90dc0e334"
+* entry[=].resource = mp5caa393121d9756e15d948c90dc0e334
+                            
+                    
+
+
+
+Instance: mp5caa393121d9756e15d948c90dc0e334
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Akeega 50 mg/500 mg film-coated tablets"
-Description: "Akeega 50 mg/500 mg film-coated tablets"
+Title: "Medicinal Product akeega"
+Description: "akeega"
 Usage: #inline
 
  
@@ -465,7 +1125,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Akeega 50 mg/500 mg film-coated tablets"
+  * productName = "akeega"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -492,29 +1152,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5caa393121d9756e15d948c90dc0e334
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for akeega Package Leaflet for language en"
-Description: "ePI document Bundle for akeega Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5caa393121d9756e15d948c90dc0e334ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1722/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "akeega"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5caa393121d9756e15d948c90dc0e334"
-* entry[0].resource = composition-en-5caa393121d9756e15d948c90dc0e334
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9c12e0e835d665005fd33f1c75090629"
-* entry[=].resource = mp9c12e0e835d665005fd33f1c75090629
-                            
-                      
+* title = "List of all ePIs associated with akeega"
+
+* subject = Reference(mp9c12e0e835d665005fd33f1c75090629)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#akeega "akeega"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5caa393121d9756e15d948c90dc0e334) // akeega en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5caa393121d9756e15d948c90dc0e334) // akeega da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5caa393121d9756e15d948c90dc0e334
+InstanceOf: List
+
+* insert 5caa393121d9756e15d948c90dc0e334ListRuleset
+    

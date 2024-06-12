@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9e5179bf4e803289b510a39f498792d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for genvoya Package Leaflet"
@@ -575,12 +578,762 @@ Tel: + 44 (0) 8000 113 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-9e5179bf4e803289b510a39f498792d0
+InstanceOf: CompositionUvEpi
+Title: "Composition for genvoya Package Leaflet"
+Description:  "Composition for genvoya Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb817018292d3b69c3faf71065f82dcc6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb817018292d3b69c3faf71065f82dcc6
+* title = "TEST PURPOSES ONLY - genvoya"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Deres barn er blevet ordineret Genvoya, skal De bemærke, at alle oplysninger i denne 
+indlægsseddel er henvendt til Deres barn (i dette tilfælde skal det læses som ”Deres barn” i 
+stedet for ”De”). </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Genvoya </li>
+<li>Sådan skal De tage Genvoya </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What genvoya is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What genvoya is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Genvoya indeholder fire aktive stoffer: </p>
+<ul>
+<li>
+<p>elvitegravir, et antiretroviralt lægemiddel, der kaldes en integrasehæmmer </p>
+</li>
+<li>
+<p>cobicistat, en booster (forstærkende stof) af elvitegravirs virkning </p>
+</li>
+<li>
+<p>emtricitabin, et antiretroviralt lægemiddel, der kaldes en nukleosid-revers transkriptase-
+hæmmer (NRTI) </p>
+</li>
+<li>
+<p>tenofoviralafenamid, et antiretroviralt lægemiddel, der kaldes en nukleotid-revers 
+transkriptase-hæmmer (NtRTI) </p>
+</li>
+</ul>
+<p>Genvoya er en enkelt tablet til behandling af infektion med humant immundefekt virus 1 (hiv 1) 
+hos voksne, unge og børn i alderen 2 år og ældre, som vejer mindst 14 kg. </p>
+<p>Genvoya nedsætter mængden af hiv i Deres krop. Dette vil forbedre Deres immunsystem og nedsætte 
+risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take genvoya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take genvoya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Genvoya </p>
+<ul>
+<li>
+<p>Hvis De er allergisk over for elvitegravir, cobicistat, emtricitabin, tenofoviralafenamid 
+eller et af de øvrige indholdsstoffer i Genvoya (angivet i punkt 6 i denne indlægsseddel). </p>
+</li>
+<li>
+<p>Hvis De tager et af disse lægemidler:</p>
+</li>
+<li>
+<p>alfuzosin (anvendes til at behandle en forstørret blærehalskirtel) </p>
+</li>
+<li>dabigatran (anvendes til at forebygge og behandle blodpropper) </li>
+<li>amiodaron, quinidin (anvendes til at korrigere uregelmæssige hjerteslag) </li>
+<li>carbamazepin, phenobarbital, phenytoin (anvendes til at forebygge krampeanfald) </li>
+<li>rifampicin (anvendes til at forebygge og behandle tuberkulose og andre infektioner) </li>
+<li>dihydroergotamin, ergometrin, ergotamin (anvendes til at behandle migræne-
+hovedpine) </li>
+<li>cisaprid (anvendes til at lindre visse maveproblemer) </li>
+<li>perikon (Hypericum perforatum, et naturlægemiddel, der anvendes mod depression og 
+angst) eller lægemiddel, der indeholder det </li>
+<li>lomitapid, lovastatin, simvastatin (anvendes til at sænke kolesterol i blodet) </li>
+<li>lurasidon, pimozid (anvendes til at behandle unormale tanker og følelser) </li>
+<li>sildenafil (når det anvendes til at behandle pulmonal arteriel hypertension – en 
+lungesygdom, der gør det vanskeligt at trække vejret) </li>
+<li>oralt administreret midazolam, triazolam (anvendes til at hjælpe dig med at sove og/eller 
+lindre angst) </li>
+</ul>
+<p> Hvis noget af dette gælder for Dem, må De ikke tage Genvoya. Fortæl det omgående til Deres 
+læge. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>De skal fortsætte med at være under lægens opsyn, mens De tager Genvoya. </p>
+<p>Denne medicin helbreder ikke hiv-infektionen. Mens De tager Genvoya, kan De stadig udvikle 
+infektioner eller andre sygdomme, der er forbundet med hiv-infektion. </p>
+<p>Kontakt lægen, før De tager Genvoya: </p>
+<ul>
+<li>Hvis De har leverproblemer, eller hvis De tidligere har haft en leversygdom, herunder 
+hepatitis (gulsot). Patienter med leversygdom, inklusiv kronisk hepatitis B eller C, som 
+behandles med antiretrovirale midler, har en forhøjet risiko for alvorlige og potentielt 
+livstruende bivirkninger i leveren. Hvis De har en hepatitis B-infektion, vil Deres læge nøje 
+overveje, hvilken behandling, der er den bedste for Dem. </li>
+</ul>
+<p>Hvis De har en hepatitis B-infektion, kan leverproblemerne blive værre, efter De holder op 
+med at tage Genvoya. Det er vigtigt ikke at holde op med at tage Genvoya uden at tale med 
+lægen: se punkt 3, Hold ikke op med at tage Genvoya. </p>
+<ul>
+<li>Hvis De har haft nyresygdom eller hvis prøver har vist problemer med Deres nyrer. Ved 
+påbegyndelse af og under behandling med Genvoya kan Deres læge bestille blodprøver for at 
+overvåge, hvordan Deres nyrer virker. </li>
+</ul>
+<p>Mens De tager Genvoya </p>
+<p>Når De begynder med at tage Genvoya, skal De holde øje med: </p>
+<ul>
+<li>
+<p>Tegn på betændelse eller infektion </p>
+</li>
+<li>
+<p>Ledsmerter, stivhed eller knogleproblemer </p>
+</li>
+</ul>
+<p> Hvis De bemærker nogle af disse symptomer, skal De straks fortælle det til lægen. Se punkt 4, 
+Bivirkninger, for yderligere oplysninger. </p>
+<p>Der er en mulighed for, at De kan opleve nyreproblemer, når De tager Genvoya over længere tid (se 
+Advarsler og forsigtighedsregler). </p>
+<p>Børn og unge </p>
+<p>Denne medicin må ikke gives til børn under 2 år, eller som vejer under 14 kg uanset alder. 
+Anvendelsen af Genvoya til børn under 2 år, eller som vejer under 14 kg er ikke undersøgt endnu. </p>
+<p>Brug af anden medicin sammen med Genvoya </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis De tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Genvoya kan påvirke eller påvirkes af 
+anden medicin. Som et resultat heraf kan mængden af Genvoya eller anden medicin i Deres blod 
+påvirkes. Dette kan forhindre, at Deres medicin virker korrekt, eller det kan gøre bivirkninger værre. I 
+nogle tilfælde kan det være nødvendigt, at lægen justerer Deres dosis eller kontrollerer Deres blod. </p>
+<p>Lægemidler, der aldrig må tages sammen med Genvoya:</p>
+<ul>
+<li>alfuzosin (anvendes til at behandle en forstørret blærehalskirtel) </li>
+<li>amiodaron, quinidin (anvendes til at korrigere uregelmæssige hjerteslag) </li>
+<li>carbamazepin, phenobarbital, phenytoin (anvendes til at forebygge krampeanfald) </li>
+<li>dabigatran (anvendes til at forebygge og behandle blodpropper) </li>
+<li>rifampicin (anvendes til at forebygge og behandle tuberkulose og andre infektioner) </li>
+<li>dihydroergotamin, ergometrin, ergotamin (anvendes til at behandle migræne-
+hovedpine) </li>
+<li>cisaprid (anvendes til at lindre visse maveproblemer) </li>
+<li>perikon (Hypericum perforatum, et naturlægemiddel, der anvendes til depression og 
+angst) eller lægemiddel, der indeholder det </li>
+<li>lomitapid, lovastatin, simvastatin (anvendes til at sænke kolesterol i blodet) </li>
+<li>lurasidon, pimozid (anvendes til at behandle unormale tanker og følelser) </li>
+<li>sildenafil (når det anvendes til at behandle pulmonal arteriel hypertension – en 
+lungesygdom, der gør det vanskeligt at trække vejret) </li>
+<li>oralt administreret midazolam, triazolam (anvendes til at hjælpe dig med at sove og/eller 
+lindre angst) 
+ Hvis De tager nogen af disse lægemidler, må De ikke tage Genvoya. Fortæl det straks til lægen. </li>
+</ul>
+<p>Lægemidler, der anvendes til behandling af infektion med hepatitis B: </p>
+<p>De må ikke tage Genvoya sammen med lægemidler, der indeholder: </p>
+<ul>
+<li>
+<p>tenofoviralafenamid </p>
+</li>
+<li>
+<p>tenofovirdisoproxil </p>
+</li>
+<li>
+<p>lamivudin </p>
+</li>
+<li>
+<p>adefovirdipivoxil </p>
+</li>
+</ul>
+<p> Fortæl altid lægen, hvis De tager nogen af disse lægemidler. </p>
+<p>Andre former for lægemidler: 
+Kontakt lægen, hvis De tager: </p>
+<ul>
+<li>
+<p>antimykotika, anvendes til at behandle svampeinfektioner, såsom:</p>
+</li>
+<li>
+<p>ketoconazol, itraconazol, voriconazol, posaconazol og fluconazol </p>
+</li>
+<li>
+<p>antibiotika, der anvendes til at behandle bakterieinfektioner, herunder tuberkulose, og 
+indeholder:</p>
+</li>
+<li>
+<p>rifabutin, clarithromycin og telithromycin </p>
+</li>
+<li>
+<p>antidepressiva, anvendes til at behandle depression:</p>
+</li>
+<li>
+<p>lægemidler, der indeholder trazodon eller escitalopram </p>
+</li>
+<li>
+<p>sedativa og hypnotika, anvendes til at behandle angst:</p>
+</li>
+<li>
+<p>buspiron, clorazepat, diazepam, estazolam, flurazepam, zolpidem og lorazepam </p>
+</li>
+<li>
+<p>immunundertrykkende midler, anvendes til at kontrollere kroppens immunrespons efter en 
+transplantation, såsom:</p>
+</li>
+<li>
+<p>ciclosporin, sirolimus og tacrolimus  </p>
+</li>
+<li>
+<p>kortikosteroider, herunder:</p>
+</li>
+<li>
+<p>betamethason, budesonid, fluticason, mometason, prednison og triamcinolon. 
+Disse lægemidler anvendes til behandling af allergier, astma, inflammatoriske 
+(betændelseslignende) tarmsygdomme, inflammatoriske tilstande i hud, øjne, led og muskler 
+samt andre inflammatoriske tilstande. Disse lægemidler tages normalt gennem munden, 
+inhaleres, injiceres eller påføres huden eller øjet. De må kun bruge disse lægemidler, hvis andre 
+lægemidler ikke kan anvendes, og kun efter en lægelig vurdering og under tæt lægelig 
+overvågning for kortikosteroid-bivirkninger. </p>
+</li>
+<li>
+<p>lægemidler, der anvendes til at behandle sukkersyge:</p>
+</li>
+<li>
+<p>metformin </p>
+</li>
+<li>
+<p>p-piller, anvendes til at forebygge graviditet </p>
+</li>
+<li>
+<p>lægemidler mod erektionsproblemer, der anvendes til at behandle impotens, såsom:</p>
+</li>
+<li>
+<p>sildenafil, tadalafil og vardenafil </p>
+</li>
+<li>
+<p>hjertemedicin, såsom:</p>
+</li>
+<li>
+<p>digoxin, disopyramid, flecainid, lidocain (injicerbart), mexiletin, propafenon, metoprolol, 
+timolol, amlodipin, diltiazem, felodipin, nicardipin, nifedipin og verapamil </p>
+</li>
+<li>
+<p>lægemidler, der anvendes til at behandle pulmonal arteriel hypertension:</p>
+</li>
+<li>
+<p>bosentan og tadalafil </p>
+</li>
+<li>
+<p>antikoagulantia, anvendes til at forebygge og behandle blodpropper, såsom:</p>
+</li>
+<li>
+<p>apixaban, edoxaban, rivaroxaban og warfarin </p>
+</li>
+<li>
+<p>bronkodilatorer, anvendes til at behandle astma og andre lungerelaterede problemer:</p>
+</li>
+<li>
+<p>salmeterol </p>
+</li>
+<li>
+<p>kolesterolsænkende lægemidler, såsom:</p>
+</li>
+<li>
+<p>atorvastatin og pitavastatin </p>
+</li>
+<li>
+<p>lægemidler, der anvendes til behandling af podagra:</p>
+</li>
+<li>
+<p>colchicin </p>
+</li>
+<li>
+<p>blodpladehæmmere, der anvendes til at nedsætte risikoen for blodpropper, såsom:</p>
+</li>
+<li>
+<p>clopidogrel  </p>
+</li>
+<li>
+<p>lægemidler eller orale tilskud, der indeholder mineraler (såsom magnesium, aluminium, 
+calcium, jern, zink), såsom:</p>
+</li>
+<li>
+<p>mineraltilskud, vitaminer (herunder multivitaminer), syreneutraliserende midler og 
+afføringsmidler 
+ Hvis De tager lægemidler, orale tilskud, syreneutraliserende midler eller afføringsmidler, der 
+indeholder mineraler (såsom magnesium, aluminium, calcium, jern, zink), skal De tage dem 
+mindst 4 timer før eller fire timer efter Genvoya. </p>
+</li>
+</ul>
+<p> Fortæl lægen, hvis De tager disse eller anden medicin. Afbryd ikke behandlingen uden først at 
+kontakte Deres læge. </p>
+<p>Graviditet og amning </p>
+<p>Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<ul>
+<li>
+<p>Fortæl det straks til lægen, hvis De er gravid, har mistanke om, at De er gravid, eller 
+planlægger at blive gravid. Gravide kvinder bør ikke tage Genvoya. Mængden af dette 
+lægemiddel i Deres blod kan falde under graviditet, hvilket kan forhindre det i at virke korrekt. </p>
+</li>
+<li>
+<p>Anvend effektiv prævention, mens De tager Genvoya. </p>
+</li>
+<li>
+<p>De må ikke amme, mens De er i behandling med Genvoya, fordi nogle af de aktive stoffer i 
+denne medicin udskilles i mælken hos mennesker. Amning anbefales ikke hos kvinder, der er 
+hiv-positive, da hiv-infektion kan overføres til barnet gennem modermælken. Hvis du ammer 
+eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Genvoya kan forårsage svimmelhed. Kør ikke motorkøretøj, lad være med at cykle og lad være med at 
+arbejde med værktøj eller maskiner, hvis De bliver svimmel, når De tager Genvoya. </p>
+<p>Genvoya indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>
+<p>Genvoya indeholder lactose </p>
+<p>Kontakt lægen, før De tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter. </p>
+<p> Hvis noget af dette gælder for Dem, skal De kontakte lægen, før De tager Genvoya. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take genvoya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take genvoya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Genvoya-tabletterne findes i to styrker. Lægen vil ordinere den rette tablet til Deres alder og vægt. </p>
+<p>Den anbefalede dosis er: </p>
+<p>Voksne, unge og børn, som vejer mindst 25 kg: en tablet om dagen sammen med mad (én 
+150 mg/150 mg/200 mg/10 mg tablet) </p>
+<p>Børn i alderen 2 år og ældre, som vejer mindst 14 kg, men mindre end 25 kg: én tablet om dagen 
+sammen med mad (én 90 mg/90 mg/120 mg/6 mg tablet) </p>
+<p>På grund af den bitre smag anbefales det, at tabletten ikke tygges eller knuses. </p>
+<p>Hvis det er svært at synke hele tabletten, kan den deles i halve. Tag begge halvdele af tabletten, den 
+ene efter den anden, så De får den fulde dosis. Delte tabletter må ikke gemmes.<br />
+Delekærven på 90 mg/90 mg/120 mg/6 mg tabletten er der kun, for at tabletten kan deles, hvis Deres 
+barn har svært ved at synke den hel. </p>
+<p>Tag altid den dosis, Deres læge har anbefalet for at sikre, at medicinen er fuldt ud effektiv, og for at 
+reducere udviklingen af resistens mod behandlingen. De må ikke ændre Deres dosis, medmindre De 
+har fået besked på det af Deres læge. </p>
+<p>Tag ikke syreneutraliserende midler eller multivitaminer på samme tidspunkt som Genvoya. 
+Hvis De tager lægemidler, orale tilskud, syreneutraliserende midler eller afføringsmidler, der 
+indeholder mineraler (såsom magnesium, aluminium, calcium, jern, zink), skal De tage dem 
+mindst 4 timer før eller mindst 4 timer efter Genvoya. </p>
+<p>Hvis De er i dialyse, skal De tage Deres daglige dosis af Genvoya efter afslutning af dialysen. </p>
+<p>Hvis De har taget for meget Genvoya </p>
+<p>Hvis De ved et uheld tager mere end den anbefalede dosis Genvoya, kan De have større risiko for at få 
+bivirkninger med denne medicin (se punkt 4, Bivirkninger). </p>
+<p>Kontakt straks lægen eller den nærmeste skadestue for at få råd. Tag tabletbeholderen med, så De let 
+kan vise, hvad De har taget. </p>
+<p>Hvis De har glemt at tage Genvoya </p>
+<p>Det er vigtigt, at De husker at tage hver dosis af Genvoya. </p>
+<p>Hvis De har glemt at tage en dosis: </p>
+<ul>
+<li>
+<p>Hvis De kommer i tanker om det inden for 18 timer efter det tidspunkt, De normalt tager 
+Genvoya på, skal De tage tabletten så hurtigt som muligt. Tag altid tabletten sammen med mad. 
+Derefter tages den næste dosis som sædvanligt. </p>
+</li>
+<li>
+<p>Hvis De kommer i tanker om det 18 timer eller længere efter det tidspunkt, De normalt tager 
+Genvoya på, skal De ikke tage den glemte dosis. Vent og tag den næste dosis sammen med 
+mad, til sædvanlig tid. </p>
+</li>
+</ul>
+<p>Hvis De kaster op mindre end 1 time efter, De har taget Genvoya, skal De tage en ny tablet 
+sammen med mad. </p>
+<p>Hold ikke op med at tage Genvoya </p>
+<p>Hold ikke op med at tage Genvoya uden at tale med Deres læge. Hvis De holder op med at tage 
+Genvoya, kan det i alvorlig grad påvirke Deres reaktion på fremtidig behandling. Hvis Genvoya 
+stoppes uanset årsagen, skal De tale med Deres læge, før De igen begynder at tage Genvoya tabletter. </p>
+<p>Når De snart ikke har mere af Genvoya, skal De bede om mere fra lægen eller apotekspersonalet. 
+Dette er meget vigtigt, da virusmængden igen kan begynde at stige, hvis medicinen stoppes, selv i kort 
+tid. Sygdommen kan så blive sværere at behandle. </p>
+<p>Hvis De har både hiv-infektion og hepatitis B, er det særlig vigtigt ikke at ophøre med behandlingen 
+med Genvoya uden først at konsultere Deres læge. Det kan være nødvendigt at få taget blodprøver i 
+flere måneder efter ophør med behandlingen. Hos nogle patienter med fremskreden leversygdom eller 
+cirrose bør behandlingen ikke ophøre, fordi det kan medføre en forværring af Deres hepatitis, hvilket 
+kan være livstruende. </p>
+<p> Bemærker De nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal De 
+omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, som De normalt 
+ville forbinde med hepatitis B-infektion. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger: Fortæl det straks til lægen </p>
+<ul>
+<li>
+<p>Ethvert tegn på betændelse eller infektion. Hos nogle patienter med fremskreden 
+hiv-infektion (aids) og tidligere opportunistiske infektioner (infektioner, der forekommer hos 
+personer med et svagt immunsystem) kan der forekomme tegn og symptomer på betændelse fra 
+tidligere infektioner kort tid efter behandlingen mod hiv startes. Det menes, at disse symptomer 
+skyldes en forbedring af kroppens immunreaktion, hvilket gør kroppen i stand til at bekæmpe 
+infektioner, der kan have været til stede uden nogen tydelige symptomer.  </p>
+</li>
+<li>
+<p>Autoimmunsygdomme, når immunsystemet angriber sundt kropsvæv, kan også opstå, efter De 
+begynder at tage lægemidler for hiv-infektion. Autoimmunsygdomme kan opstå mange måneder 
+efter behandlingsstart. Vær opmærksom på symptomer på infektion eller andre symptomer, 
+såsom:</p>
+</li>
+<li>
+<p>muskelsvaghed </p>
+</li>
+<li>svaghed, der begynder i hænder og fødder og bevæger sig op mod selve kroppen </li>
+<li>hjertebanken, rysten eller hyperaktivitet. </li>
+</ul>
+<p> Hvis De bemærker de ovenstående bivirkninger, skal De straks fortælle det til lægen. </p>
+<p>Meget almindelige bivirkninger 
+(kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>kvalme </li>
+</ul>
+<p>Almindelige bivirkninger 
+(kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>unormale drømme </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>afgang af tarmluft (flatulens) </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger 
+(kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>lavt antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>selvmordstanker og selvmordsforsøg (hos patienter, som tidligere har haft depression eller 
+psykiske problemer), depression </p>
+</li>
+<li>
+<p>problemer med fordøjelsen, som resulterer i ubehag efter måltider (dyspepsi) </p>
+</li>
+<li>
+<p>hævelse af ansigt, læber, tunge eller svælg (angioødem) </p>
+</li>
+<li>
+<p>kløe (pruritus) </p>
+</li>
+<li>
+<p>nældefeber (urticaria) </p>
+</li>
+</ul>
+<p> Hvis nogle af bivirkningerne bliver alvorlige, skal De fortælle det til lægen. </p>
+<p>Andre bivirkninger, der kan observeres under hiv-behandling </p>
+<p>Hyppigheden af de følgende bivirkninger er ikke kendt (hyppigheden kan ikke estimeres ud fra 
+forhåndenværende data). </p>
+<ul>
+<li>
+<p>Knogleproblemer. Nogle patienter, der tager antiretroviral kombinationsmedicin, såsom 
+Genvoya, kan udvikle en knoglesygdom, der kaldes osteonekrose (knoglevævsdød, forårsaget af 
+manglende blodforsyning til knoglerne). Indtagelse af denne type medicin i lang tid, indtagelse 
+af binyrebarkhormoner, indtagelse af alkohol, et meget svagt immunsystem og overvægt kan 
+være nogle af de mange risikofaktorer for at udvikle denne sygdom. Tegn på osteonekrose er:</p>
+</li>
+<li>
+<p>stivhed i led </p>
+</li>
+<li>smerter (især i hofter, knæ og skuldre) </li>
+<li>bevægelsesbesvær 
+ Hvis De bemærker nogle af disse symptomer, skal De fortælle det til lægen. </li>
+</ul>
+<p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose 
+i blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse ændringer. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store genvoya"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store genvoya"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og beholderen efter (EXP). 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. Hold tabletbeholderen tæt tillukket. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Genvoya indeholder: </p>
+<p>Aktive stoffer: elvitegravir, cobicistat, emtricitabin og tenofoviralafenamid.  </p>
+<ul>
+<li>
+<p>Hver Genvoya 150 mg/150 mg/200 mg/10 mg filmovertrukken tablet indeholder 150 mg 
+elvitegravir, 150 mg cobicistat, 200 mg emtricitabin og tenofoviralafenamidfumarat svarende til 
+10 mg tenofoviralafenamid. </p>
+</li>
+<li>
+<p>Hver Genvoya 90 mg/90 mg/120 mg/6 mg filmovertrukken tablet indeholder 90 mg elvitegravir, 
+90 mg cobicistat, 120 mg emtricitabin og tenofoviralafenamidfumarat svarende til 6 mg 
+tenofoviralafenamid. </p>
+</li>
+</ul>
+<p>Øvrige indholdsstoffer: </p>
+<p>Tabletkerne: 
+Lactose (som monohydrat), mikrokrystallinsk cellulose (E460), croscarmellosenatrium, 
+hydroxypropylcellulose (E463), siliciumdioxid (E551), natriumlaurilsulfat, magnesiumstearat. </p>
+<p>Filmovertræk: 
+Polyvinylalkohol (E1203), titandioxid (E171), polyethylenglycol (E1521), talcum (E553b), jernoxid, 
+gul (E172), indigocarmin aluminiumpigment (E132 – kun 150 mg/150 mg/200 mg/10 mg tabletten), 
+jernoxid, sort (E172 – kun 90 mg/90 mg/120 mg/6 mg tabletten). </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Genvoya 150 mg/150 mg/200 mg/10 mg filmovertrukne tabletter er grønne, kapselformede tabletter, 
+på den ene side præget med ”GSI” og tallet ”510”, på den anden side af tabletten. </p>
+<p>Genvoya 90 mg/90 mg/120 mg/6 mg filmovertrukne tabletter er grønne, kapselformede tabletter, på 
+den ene side præget med ”GSI” og med en delekærv på den anden side af tabletten. </p>
+<p>Genvoya leveres i tabletbeholdere, der indeholder 30 tabletter (med et silicagel-tørremiddel, der skal 
+opbevares i beholderen for at hjælpe med at beskytte tabletterne). Silicagel-tørremidlet er i et separat 
+brev eller en separat beholder og må ikke sluges. </p>
+<p>Fås i pakninger, der indeholder 1 tabletbeholder med 30 filmovertrukne tabletter og pakninger, der 
+indeholder 90 (3 tabletbeholdere med 30) filmovertrukne tabletter. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrland  </p>
+<p>Fremstiller 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>De kan finde yderligere oplysninger om Genvoya på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9e5179bf4e803289b510a39f498792d0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for genvoya Package Leaflet for language en"
+Description: "ePI document Bundle for genvoya Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9e5179bf4e803289b510a39f498792d0"
+* entry[0].resource = composition-en-9e5179bf4e803289b510a39f498792d0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9e5179bf4e803289b510a39f498792d0"
+* entry[=].resource = mp9e5179bf4e803289b510a39f498792d0
+                            
+                    
+Instance: bundlepackageleaflet-da-9e5179bf4e803289b510a39f498792d0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for genvoya Package Leaflet for language da"
+Description: "ePI document Bundle for genvoya Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9e5179bf4e803289b510a39f498792d0"
+* entry[0].resource = composition-da-9e5179bf4e803289b510a39f498792d0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9e5179bf4e803289b510a39f498792d0"
+* entry[=].resource = mp9e5179bf4e803289b510a39f498792d0
+                            
+                    
+
+
+
+Instance: mp9e5179bf4e803289b510a39f498792d0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Genvoya 150 mg/150 mg/200 mg/10 mg film-coated tablets"
-Description: "Genvoya 150 mg/150 mg/200 mg/10 mg film-coated tablets"
+Title: "Medicinal Product genvoya"
+Description: "genvoya"
 Usage: #inline
 
  
@@ -600,7 +1353,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Genvoya 150 mg/150 mg/200 mg/10 mg film-coated tablets"
+  * productName = "genvoya"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -627,29 +1380,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9e5179bf4e803289b510a39f498792d0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for genvoya Package Leaflet for language en"
-Description: "ePI document Bundle for genvoya Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9e5179bf4e803289b510a39f498792d0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1061/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "genvoya"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9e5179bf4e803289b510a39f498792d0"
-* entry[0].resource = composition-en-9e5179bf4e803289b510a39f498792d0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb817018292d3b69c3faf71065f82dcc6"
-* entry[=].resource = mpb817018292d3b69c3faf71065f82dcc6
-                            
-                      
+* title = "List of all ePIs associated with genvoya"
+
+* subject = Reference(mpb817018292d3b69c3faf71065f82dcc6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#genvoya "genvoya"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9e5179bf4e803289b510a39f498792d0) // genvoya en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9e5179bf4e803289b510a39f498792d0) // genvoya da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9e5179bf4e803289b510a39f498792d0
+InstanceOf: List
+
+* insert 9e5179bf4e803289b510a39f498792d0ListRuleset
+    

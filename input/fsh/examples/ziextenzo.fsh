@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d32ad2b352bb6245babc6f24db3ed9fa
 InstanceOf: CompositionUvEpi
 Title: "Composition for ziextenzo Package Leaflet"
@@ -341,12 +344,626 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-d32ad2b352bb6245babc6f24db3ed9fa
+InstanceOf: CompositionUvEpi
+Title: "Composition for ziextenzo Package Leaflet"
+Description:  "Composition for ziextenzo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2406a6806b8983c821103b64c1140b8a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2406a6806b8983c821103b64c1140b8a
+* title = "TEST PURPOSES ONLY - ziextenzo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal De vide, før De begynder at bruge Ziextenzo
+3. Sådan skal De bruge Ziextenzo
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ziextenzo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ziextenzo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ziextenzo indeholder det aktive stof pegfilgrastim. Pegfilgrastim er et protein, der produceres ved hjælp 
+af bioteknologi i bakterier, der kaldes for E. coli. Det tilhører en gruppe proteiner, der hedder cytokiner, 
+og ligner meget et naturligt protein (granulocytkoloni-stimulerende faktor), som kroppen selv 
+producerer.
+Ziextenzo anvendes til at reducere varigheden af neutropeni (få hvide blodlegemer) og forekomsten 
+af febergivende neutropeni (få hvide blodlegemer og feber), der kan forårsages af anvendelsen af 
+cytotoksisk kemoterapi (lægemiddel der ødelægger hurtigt voksende celler). Hvide blodlegemer er 
+vigtige, idet de hjælper Deres krop med at bekæmpe infektion. Disse celler er meget modtagelige for 
+effekterne af kemoterapi, hvilket kan medføre, at antallet af disse celler i Deres krop mindsker. Hvis 
+antallet af hvide blodlegemer falder til et lavt niveau, er der risiko for, at der ikke er nok celler tilbage 
+i kroppen til at bekæmpe bakterier, og De kan have en øget risiko for infektion.
+Deres læge har ordineret Ziextenzo til Dem for at støtte Deres knoglemarv (hvor blodceller dannes) til 
+at producere flere hvide blodlegemer, der hjælper Deres krop med at bekæmpe infektion.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ziextenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ziextenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ziextenzo 
+•
+hvis De er allergisk over for pegfilgrastim, filgrastim, eller et af de øvrige indholdsstoffer i 
+Ziextenzo (angivet i afsnit 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før De bruger Ziextenzo, hvis De:
+•
+får en allergisk reaktion, herunder svaghedsfølelse, blodtryksfald, åndedrætsbesvær, hævelse 
+i ansigtet (anafylaksi), rødme, hududslæt og kløende områder på huden.
+•
+får hoste, feber og åndedrætsbesvær. Det kan være et tegn på shocklunge (ARDS).
+25
+•
+får en eller flere af følgende bivirkninger eller en kombination af disse bivirkninger:
+-
+hævelse eller oppustethed, som kan være forbundet med sjældnere vandladning, 
+åndedrætsbesvær, oppustet mave og mæthedsfølelse samt en generel følelse af træthed
+Dette kan være symptomer på en tilstand, der kaldes for “kapillær lækage-syndrom", som får 
+blodet til at lække fra de små blodkar ud i kroppen. Se afsnit 4 i denne indlægsseddel.
+•
+får smerter øverst i maveregionen eller smerter i nederste del af skulderbladet. Det kan være tegn 
+på problemer med milten (forstørret milt).
+•
+for nylig har haft en alvorlig lungebetændelse (pneumoni), væske i lungerne (lungeødem), 
+inflammation (betændelseslignende reaktion) i lungerne (interstitiel lungesygdom) eller fået 
+taget røntgenbilleder af brystet, der viste unormale forhold (lungeinfiltration).
+•
+er klar over, at De har ændrede blodtal (for eksempel en stigning i hvide blodlegemer eller 
+anæmi) eller fald i antallet af blodplader, hvilket reducerer blodets evne til at størkne 
+(trombocytopeni). Deres læge vil muligvis overvåge Dem nøjere.
+•
+har seglcelleanæmi. Deres læge vil muligvis overvåge Deres tilstand nøjere.
+•
+er patient med bryst- eller lungekræft, da Ziextenzo i kombination med kemoterapi og/eller 
+stråleterapi kan øge Deres risiko for en blodsygdom, som er et forstadie til kræft, og som kaldes 
+myelodysplastisk syndrom (MDS), eller en form for blodkræft, som kaldes akut myeloid leukæmi 
+(AML). Symptomerne kan omfatte træthed, feber og tendens til blå mærker eller blødning.
+•
+pludselig får symptomer på allergi, for eksempel udslæt, kløe eller nældefeber på huden, hævelse 
+i ansigt, læber, tunge eller andre dele af kroppen, stakåndethed, hvæsende vejrtrækning eller 
+vejrtrækningsbesvær, kan det være tegn på en alvorlig allergisk reaktion.
+•
+har symptomer på betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i 
+kroppen). Der er indberettet sjældne tilfælde af dette hos kræftpatienter og raske donorer. 
+Symptomerne kan omfatte feber, mavesmerter, utilpashed, rygsmerter og øgede 
+betændelsesmarkører. Fortæl det til lægen, hvis De oplever disse symptomer.
+Deres læge vil regelmæssigt kontrollere Deres blod og urin, da pegfilgrastim kan beskadige de bittesmå 
+filtre i nyrerne (glomerulonefritis).
+Der er rapporteret om alvorlige hudreaktioner (Stevens-Johnsons syndrom) ved brug af Ziextenzo. Hold 
+op med at bruge Ziextenzo, og søg øjeblikkeligt lægehjælp, hvis De bemærker et eller flere af de 
+symptomer, der er beskrevet i afsnit 4. Tal med Deres læge om risikoen for at udvikle kræft i blodet. Hvis De udvikler kræft i blodet, eller det 
+er sandsynligt, at De vil gøre det, bør De ikke bruge Ziextenzo, medmindre Deres læge sagt, at De skal 
+gøre det.
+Manglende virkning af pegfilgrastim
+Hvis De oplever tab af virkningen af pegfilgrastim, eller hvis virkningen ikke opretholdes, vil Deres 
+læge undersøge grunden til det, for eksempel om De har udviklet antistoffer, der kan neutralisere 
+pegfilgrastims aktivitet.
+Brug af andre lægemidler sammen med Ziextenzo
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler.
+Graviditet og amning
+Spørg Deres læge eller apotekspersonalet til råds, før De bruger nogen form for medicin. Pegfilgrastim 
+er ikke blevet testet på gravide kvinder. Det er vigtigt at fortælle Deres læge, hvis De:
+•
+er gravid,
+•
+har mistanke om, at De er gravid, eller
+•
+planlægger at blive gravid.
+26
+De skal informere Deres læge, hvis De bliver gravid, mens De er i behandling med Ziextenzo. 
+Medmindre Deres læge har sagt andet, skal De holde op med at amme, hvis De bruger Ziextenzo.
+Trafik- og arbejdssikkerhed
+Ziextenzo har ingen eller kun ubetydelig virkning på evnen til at køre bil og betjene maskiner.
+Ziextenzo indeholder sorbitol (E 420) og natrium
+Dette lægemiddel indeholder 30 mg sorbitol pr. fyldt injektionssprøjte, svarende til 50 mg/ml.
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 6 mg dosis, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ziextenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ziextenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ziextenzo er beregnet til voksne fra 18 år og opefter.
+Brug altid Ziextenzo nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. Den normale dosis er én 6 mg subkutan indsprøjtning (indsprøjtning under huden) 
+ved hjælp af en fyldt injektionssprøjte. Indsprøjtningen bør gives mindst 24 timer efter Deres sidste 
+dosis kemoterapi ved afslutningen af hver kemoterapi-cyklus.
+Hvis De selv skal foretage indsprøjtning med Ziextenzo
+Deres læge kan beslutte, at det vil være praktisk for Dem, hvis De selv indsprøjter Ziextenzo. Deres 
+læge eller sygeplejerske vil vise Dem, hvordan De tager en indsprøjtning. Prøv ikke selv at indsprøjte, 
+hvis De ikke er blevet undervist heri.
+Læs sidste pkt. i denne indlægsseddel for at få yderligere vejledning i, hvordan De selv indsprøjter 
+Ziextenzo.
+Ryst ikke Ziextenzo kraftigt, da dette kan have negativ indflydelse på dets virkning.
+Hvis De har brugt for meget Ziextenzo
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De har taget mere Ziextenzo, end De skal.
+Hvis De har glemt at bruge Ziextenzo
+Hvis De selv foretager injektionerne og har glemt en dosis Ziextenzo, kontakt da Deres læge for at 
+aftale, hvornår De skal tage den næste dosis.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Fortæl det straks til Deres læge, hvis De får en eller flere af følgende bivirkninger:
+•
+hævelse eller opsvulmethed, der kan være forbundet med mindre hyppig vandladning, 
+åndedrætsbesvær, opsvulmet mave og mæthedsfølelse samt en generel følelse af træthed. Disse 
+symptomer opstår generelt hurtigt.
+27
+Det kan være symptomer på en ikke almindelig tilstand (kan ramme op til 1 ud af 100 personer), der 
+kaldes for “kapillærlækage-syndrom", som medfører, at der siver blod fra de små blodkar ud i kroppen. 
+Denne tilstand kræver øjeblikkelig behandling.
+Meget almindelige bivirkninger (kan ramme flere end 1 ud af 10 personer):
+•
+smerter i knoglerne. Deres læge vil fortælle Dem, hvad De kan tage for at lindre knoglesmerterne.
+•
+kvalme og hovedpine.
+Almindelige bivirkninger (kan ramme op til 1 ud af 10 personer):
+•
+smerte ved injektionsstedet.
+•
+generel ømhed og smerter i led og muskler.
+•
+der kan forekomme forandringer i blodet, men de vil blive opdaget ved de rutinemæssige 
+blodprøver. Antallet af hvide blodlegemer kan blive kortvarigt forøget. Antallet af blodplader kan 
+blive reduceret, hvilket kan medføre blå mærker.
+Ikke almindelige bivirkninger (kan ramme op til 1 ud af 100 personer):
+•
+allergi-lignende reaktioner, herunder rødmen, hududslæt og kløende hævelser af huden.
+•
+alvorlige allergiske reaktioner, herunder anafylaksi (svaghed, blodtryksfald, åndedrætsbesvær, 
+hævelse i ansigtet).
+•
+forstørret milt.
+•
+bristet milt (miltruptur). Nogle tilfælde af miltruptur var dødelige. Det er vigtigt, at De kontakter 
+lægen med det samme, hvis De får smerter i den øverste venstre side af maven eller op mod 
+venstre skulder, da dette kan skyldes problemer med milten.
+•
+åndedrætsproblemer. Hvis De får hoste, feber og åndedrætsbesvær, skal De kontakte lægen.
+•
+Sweets syndrom (blommefarvede, hævede og smertefulde læsioner på lemmer og nogle gange i 
+ansigtet og på halsen i forbindelse med feber) er forekommet, men kan være forårsaget af andre 
+faktorer.
+•
+kutan vaskulitis (irritation eller betændelse i blodkarrene i huden).
+•
+beskadigelse af de bittesmå filtre i nyrerne (glomerulonefritis).
+•
+rødme på injektionsstedet.
+•
+ophostning af blod (hæmoptyse).
+•
+blodsygdomme (myelodysplastisk syndrom [MDS] eller akut myeloid leukæmi [AML]).
+Sjældne bivirkninger (kan ramme op til 1 ud af 1 000 personer):
+•
+betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i kroppen), se afsnit 2. •
+blødning fra lungerne (pulmonal blødning).
+•
+Stevens-Johnsons syndrom, som kan vise sig som rødlige pletter, der ligner målskiver eller cirkler 
+og ofte har blærer i midten, hudafskalning, sår i munden, svælget, næsen, øjnene eller på 
+kønsorganerne, og som eventuelt starter med feber eller influenzalignende symptomer. Hold op 
+med at bruge Ziextenzo, hvis De udvikler disse symptomer, og søg øjeblikkeligt lægehjælp eller 
+kontakt Deres læge. Se også afsnit 2. Indberetning af bivirkninger
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel.
+28</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ziextenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ziextenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og på injektionssprøjtens etiket efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares i køleskab (2 °C-8 °C).
+De må tage Ziextenzo ud af køleskabet og opbevare det ved stuetemperatur (ikke over 35 °C) i højst 
+120 timer. I det øjeblik en injektionssprøjte tages ud af køleskabet, og har nået stuetemperatur (ikke over 
+35 °C), skal den anvendes indenfor 120 timer eller bortskaffes.
+Må ikke nedfryses. Ziextenzo kan anvendes, hvis det ved et uheld har været nedfrosset en enkelt gang 
+i mindre end 24 timer.
+Opbevar beholderen i den ydre karton for at beskytte mod lys.
+Brug ikke lægemidlet, hvis De bemærker, at det er grumset eller at der er partikler i det.
+Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Ziextenzo indeholder</h2>
+<p>Aktivt stof: pegfilgrastim. Hver fyldt injektionssprøjte indeholder 6 mg pegfilgrastim i 0,6 ml 
+opløsning.
+-
+Øvrige indholdsstoffer: iseddike, sorbitol (E 420), polysorbat 20, natriumhydroxid og vand til 
+injektionsvæsker. Se afsnit 2, "Ziextenzo indeholder sorbitol (E 420) og natrium".
+Udseende og pakningsstørrelser
+Ziextenzo er en klar, farveløs til svagt gullig injektionsvæske (injektion), opløsning i en fyldt 
+injektionssprøjte (6 mg/0,6 ml).
+Hver pakning indeholder 1 fyldt injektionssprøjte af glas med en stempelprop af gummi 
+(bromobutylgummi, latex-fri), en stempelstang, en påsat 29 gauge kanyle af rustfrit stål og nålehætte 
+(termoplastisk elatomer, latex-fri). Injektionssprøjterne leveres med automatisk kanylebeskyttelse.
+Indehaver af markedsføringstilladelsen
+Sandoz GmbH
+Biochemiestr. 10
+6250 Kundl
+Østrig
+Fremstiller
+Sandoz GmbH
+Biochemiestr. 10
+6336 Langkampfen
+Østrig
+29
+Novartis Pharmaceutical Manufacturing GmbH
+Biochemiestrasse 10
+6336 Langkampfen
+Østrig
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Sandoz nv/sa
+Tél/Tel: +32 2 722 97 97
+Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636 037
+България
+Сандоз България КЧТ
+Тел.: +359 2 970 47 47
+Luxembourg/Luxemburg
+Sandoz nv/sa
+Tél/Tel.: +32 2 722 97 97
+Česká republika
+Sandoz s.r.o.
+Tel: +420 225 775 111
+Magyarország
+Sandoz Hungária Kft.
+Tel.: +36 1 430 2890
+Danmark/Norge/Ísland/Sverige
+Sandoz A/S
+Tlf: +45 63 95 10 00
+Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644126
+Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 600
+Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2400
+Österreich
+Sandoz GmbH
+Tel: +43 5338 2000
+Ελλάδα
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.
+Τηλ: +30 216 600 5000
+Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 00
+España
+Sandoz Farmacéutica, S.A.
+Tel: +34 900 456 856
+Portugal
+Sandoz Farmacêutica Lda.
+Tel: +351 21 000 86 00
+France
+Sandoz SAS
+Tél: +33 1 49 64 48 00
+România
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 60
+Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska družba d.d.
+Tel: +386 1 580 29 02
+Ireland
+Rowex Ltd.
+Tel: + 353 27 50077
+Slovenská republika
+Sandoz d.d. - organizačná zložka
+Tel: +421 2 48 20 0600
+Italia
+Sandoz S.p.A.
+Tel: +39 02 96541
+Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133 400
+30
+Κύπρος
+Sandoz Pharmaceuticals d.d.
+Τηλ: +357 22 69 0690
+United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2000
+Latvija
+Sandoz d.d. Latvia filiāle
+Tel: +371 67 892 006
+Denne indlægsseddel blev senest ændret.
+Andre informationskilder
+De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside.
+31
+Brugsanvisning til Ziextenzo fyldt injektionssprøjte med kanylebeskyttelse
+Det er vigtigt, at De følger denne brugsanvisning, for at undgå infektioner og sikre, at De bruger 
+lægemidlet korrekt.
+Læs HELE brugsanvisningen, inden De foretager indsprøjtningen. Det er vigtigt, at De ikke forsøger 
+at give Dem selv indsprøjtningen, før De er blevet undervist i dette af lægen, sygeplejersken eller 
+apotekspersonalet. Kartonen indeholder den fyldte injektionssprøjte, der er individuelt forseglet i en 
+blisterpakning af plast.
+Ziextenzo fyldt injektionssprøjte med kanylebeskyttelse
+Når lægemidlet er indsprøjtet, aktiveres kanylebeskyttelsen, så den dækker kanylen. Kanylebeskyttelsen 
+er beregnet til at beskytte sundhedspersonale, omsorgspersoner og patienter mod at stikke sig på kanylen 
+ved et uheld efter indsprøjtningen og komme til skade.
+Yderligere genstande, der er brug for:
+•
+Spritserviet.
+•
+Vattot eller gaze.
+•
+Kanylebøtte.
+Vigtig sikkerhedsinformation
+Forsigtig: Opbevar den fyldte injektionssprøjte utilgængeligt for børn.
+1. Åbn ikke kartonen, før De er klar til at brug den fyldte injektionssprøjte.
+2. Brug ikke den fyldte injektionssprøjte, hvis blisterpakningens forsegling er brudt, da den måske 
+ikke er sikker at bruge.
+3. Brug ikke den fyldte injektionssprøjte, hvis der er væske i blisterpakningen. Brug ikke den fyldte 
+injektionssprøjte, hvis nålehætten mangler eller ikke er ordentligt fastgjort. Hvis noget af dette er 
+tilfældet, skal De returnere hele produktpakken til apoteket.
+4. Efterlad aldrig den fyldte injektionssprøjte uden opsyn, hvor andre kan pille ved den.
+5. Ryst ikke den fyldte injektionssprøjte.
+6. Pas på ikke at røre ved kanylebeskyttelsens vinger inden brug. Kanylebeskyttelsen kan blive 
+aktiveret for tidligt, hvis vingerne berøres.
+7. Tag ikke nålehætten af før umiddelbart inden, De foretager injektionen.
+8. Den fyldte injektionssprøjte kan ikke genbruges. Når De har brugt injektionssprøjten, skal De 
+straks bortskaffe den i en kanylebøtte.
+9. Brug ikke injektionssprøjten, hvis den er blevet tabt på en hård overflade eller tabt efter, at 
+kanylehætten er blevet fjernet.
+Nålehætte
+Kanylebeskyttelse
+Konisk bund på 
+stemplets prop
+Fingergreb
+Stempel
+Stemplets 
+prop
+Vindue til etiket og 
+udløbsdato
+Vinger på 
+kanylebeskyttelse
+Stempelhoved
+32
+Opbevaring af Ziextenzo fyldt injektionssprøjte
+1. Den fyldte injektionssprøjte i blisterpakningen skal opbevares i den tilhørende karton for at 
+beskytte den mod lys. 
+2. Opbevares i køleskab mellem 2 °C og 8 °C. Må ikke nedfryses.
+3. Inden brug skal De tage den fyldte injektionssprøjte ud af køleskabet og lade Ziextenzo få 
+stuetemperatur (op til maksimalt 35 °C) i cirka 15-30 minutter.
+4. Brug ikke den fyldte injektionssprøjte efter den udløbsdato, der står på kartonen eller på 
+injektionssprøjtens etiket. Hvis udløbsdatoen er overskredet, skal De returnere hele pakken 
+til apoteket.
+Injektionsstedet
+Injektionsstedet er det sted på kroppen, hvor De skal bruge 
+den fyldte injektionssprøjte.
+•
+Det anbefalede sted er oversiden af lårene. De kan 
+også bruge den nederste del af maven, men ikke 
+området 5 centimeter omkring navlen. 
+•
+Vælg et nyt sted, hver gang De giver Dem selv en 
+indsprøjtning.
+•
+Giv ikke indsprøjtningen på steder, hvor huden er 
+øm, rød, skællende eller hård eller har blå mærker. 
+Undgå at foretage indsprøjtningen på steder med ar 
+eller strækmærker.
+Hvis en omsorgsperson giver Dem indsprøjtningen, kan den 
+udvendige side af overarmene også bruges.
+Klargøring af brugsklar Ziextenzo fyldt injektionssprøjte
+1. Tag kartonen med den fyldte injektionssprøjte i blisterpakningen ud af køleskabet, og lad den 
+ligge uåbnet i cirka 15-30 minutter, så den får stuetemperatur.
+2. Når De er klar til at bruge den fyldte injektionssprøjte, skal De åbne blisterpakningen og vaske 
+hænderne grundigt med vand og sæbe.
+3. Rengør injektionsstedet med en spritserviet.
+4. Tag den fyldte injektionssprøjte ud af blisterpakningen ved at holde den på midten som vist 
+nedenfor. Tag ikke fat i stemplet. Tag ikke fat i nålehætten.
+5. Kontrollér, at den gennemsigtige kanylebeskyttelse af plast sidder over glassprøjtens cylinder. 
+Hvis den gennemsigtige kanylebeskyttelse dækker nålehætten (som vist nedenfor), er 
+injektionssprøjtens kanylebeskyttelse blevet aktiveret, og denne injektionssprøjte MÅ IKKE 
+bruges. Tag en ny injektionssprøjte. Figuren nedenfor viser en brugsklar injektionssprøjte. 
+33
+Injektionssprøjten AKTIVERET – MÅ 
+IKKE BRUGES
+I denne konfiguration er kanylebeskyttelsen 
+AKTIVERET – BRUG IKKE den fyldte 
+injektionssprøjte
+Injektionssprøjten er KLAR TIL BRUG
+I denne konfiguration er kanylebeskyttelsen IKKE 
+AKTIVERET, og den fyldte injektionssprøjte er 
+klar til brug
+6. Kontroller den fyldte injektionssprøjte. Væsken skal være klar. Farven kan variere fra farveløs 
+til svagt gullig. Der ses måske en lille luftboble i væsken. Det er normalt. Brug ikke den fyldte 
+injektionssprøjte, hvis der er andre synlige partikler og/eller synlig misfarvning. 
+7. Brug ikke injektionssprøjten, hvis den er i stykker eller aktiveret. Returner Ziextenzo fyldt 
+injektionssprøjte og pakningen til apoteket.
+Sådan bruges Ziextenzo fyldt injektionssprøjte
+1
+Tag forsigtigt nålehætten af med en lige 
+bevægelse. Kassér nålehætten. Der ses eventuelt 
+en dråbe væske for enden af kanylen. Det er 
+normalt. 
+2
+Knib forsigtigt fat om huden på injektionsstedet, 
+og indsæt nålen som vist. Tryk kanylen hele vejen 
+ind for at sikre, at alt lægemidlet indsprøjtes.
+34
+3
+Hold den fyldte injektionssprøjte som vist, og tryk 
+langsomt stemplet så langt ned, som det kan komme, 
+så stempelhovedet er helt inde mellem vingerne på 
+kanylebeskyttelsen.
+Hold injektionssprøjten i denne position i 5 sekunder, 
+mens De fortsat holder stemplet helt i bund.
+4
+Hold fortsat stemplet helt i bund, mens De forsigtigt 
+trækker kanylen ud af injektionsstedet med en lige 
+bevægelse og slipper huden.
+5
+Slip langsomt stemplet, så injektionssprøjtens 
+kanylebeskyttelse automatisk dækker den blotlagte 
+kanyle. 
+Der kan være en lille smule blod på injektionsstedet. 
+Tryk eventuelt en vattot eller et stykke gaze mod 
+injektionsstedet, og hold det der i 10 sekunder. Gnid 
+ikke på injektionsstedet. Sæt eventuelt et lille plaster 
+over injektionsstedet.
+6
+Kun for læger og sundhedspersonale 
+Handelsnavnet på det administrerede præparat skal 
+registreres tydeligt i patientjournalen. Tag etiketten på 
+den fyldte injektionssprøjte af og gem den. Drej på 
+stemplet for at få etiketten i en position, hvor den kan 
+tages af.
+35
+7
+Bortskaffelse
+Bortskaf den brugte injektionssprøjte i en kanylebøtte 
+(en beholder, der kan lukkes, og som ikke kan 
+gennembores).
+Spørg apotekspersonalet, hvordan De skal bortskaffe 
+lægemiddelrester. Af hensyn til miljøet må De ikke 
+smide lægemiddelrester i afløbet, toilettet eller 
+skraldespanden. Ikke anvendt lægemiddel samt affald 
+heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d32ad2b352bb6245babc6f24db3ed9fa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ziextenzo Package Leaflet for language en"
+Description: "ePI document Bundle for ziextenzo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d32ad2b352bb6245babc6f24db3ed9fa"
+* entry[0].resource = composition-en-d32ad2b352bb6245babc6f24db3ed9fa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd32ad2b352bb6245babc6f24db3ed9fa"
+* entry[=].resource = mpd32ad2b352bb6245babc6f24db3ed9fa
+                            
+                    
+Instance: bundlepackageleaflet-da-d32ad2b352bb6245babc6f24db3ed9fa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ziextenzo Package Leaflet for language da"
+Description: "ePI document Bundle for ziextenzo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d32ad2b352bb6245babc6f24db3ed9fa"
+* entry[0].resource = composition-da-d32ad2b352bb6245babc6f24db3ed9fa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd32ad2b352bb6245babc6f24db3ed9fa"
+* entry[=].resource = mpd32ad2b352bb6245babc6f24db3ed9fa
+                            
+                    
+
+
+
+Instance: mpd32ad2b352bb6245babc6f24db3ed9fa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ziextenzo 6 mg solution for injection in pre-filled syringe"
-Description: "Ziextenzo 6 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product ziextenzo"
+Description: "ziextenzo"
 Usage: #inline
 
  
@@ -366,7 +983,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ziextenzo 6 mg solution for injection in pre-filled syringe"
+  * productName = "ziextenzo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -393,29 +1010,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d32ad2b352bb6245babc6f24db3ed9fa
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ziextenzo Package Leaflet for language en"
-Description: "ePI document Bundle for ziextenzo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d32ad2b352bb6245babc6f24db3ed9faListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1327/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ziextenzo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d32ad2b352bb6245babc6f24db3ed9fa"
-* entry[0].resource = composition-en-d32ad2b352bb6245babc6f24db3ed9fa
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2406a6806b8983c821103b64c1140b8a"
-* entry[=].resource = mp2406a6806b8983c821103b64c1140b8a
-                            
-                      
+* title = "List of all ePIs associated with ziextenzo"
+
+* subject = Reference(mp2406a6806b8983c821103b64c1140b8a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ziextenzo "ziextenzo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d32ad2b352bb6245babc6f24db3ed9fa) // ziextenzo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d32ad2b352bb6245babc6f24db3ed9fa) // ziextenzo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d32ad2b352bb6245babc6f24db3ed9fa
+InstanceOf: List
+
+* insert d32ad2b352bb6245babc6f24db3ed9faListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-85f7c08e568d2cd0fc2ac32155c57714
 InstanceOf: CompositionUvEpi
 Title: "Composition for novothirteen Package Leaflet"
@@ -225,12 +228,382 @@ Denmark </p>
 
 
 
+Instance: composition-da-85f7c08e568d2cd0fc2ac32155c57714
+InstanceOf: CompositionUvEpi
+Title: "Composition for novothirteen Package Leaflet"
+Description:  "Composition for novothirteen Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2f3198acaeb43f3b0395dfff558ecfc9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2f3198acaeb43f3b0395dfff558ecfc9
+* title = "TEST PURPOSES ONLY - novothirteen"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge NovoThirteen 
+3. Sådan skal du bruge NovoThirteen 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What novothirteen is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What novothirteen is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+NovoThirteen indeholder det aktive stof catridecacog, som er identisk med human koagulationsfaktor 
+XIII, et enzym der er nødvendigt for at blodet kan størkne. NovoThirteen erstatter det manglende 
+faktor XIII og hjælper med at stabilisere en begyndende størkning af blodet, ved at producere et net 
+omkring størkningen. </p>
+<p>Anvendelse 
+NovoThirteen anvendes til at forhindre blødning hos patienter, som ikke har nok eller delvist mangler 
+faktor XIII (kaldet A-subunit). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take novothirteen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take novothirteen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det er vigtigt, at du bruger NovoThirteen injektionsvæske umiddelbart efter opblanding. </p>
+<p>Brug ikke NovoThirteen </p>
+<ul>
+<li>Hvis du er allergisk over for catridecacog eller et af de øvrige indholdsstoffer i lægemidlet 
+(angivet i punkt 6). </li>
+</ul>
+<p>Hvis du ikke er sikker, skal du spørge din læge, før du begynder at bruge lægemidlet. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger NovoThirteen: </p>
+<ul>
+<li>
+<p>Hvis du har eller har haft en forøget risiko for blodpropper (trombose), da NovoThirteen kan 
+forværre en allerede eksisterende blodprop. </p>
+</li>
+<li>
+<p>Hvis du har eller har haft en leverskade. </p>
+</li>
+</ul>
+<p>Kontakt straks lægen: </p>
+<ul>
+<li>
+<p>Hvis du oplever uventet blødning, der opstår spontant og/eller er behandlingskrævende, under 
+behandlingen med NovoThirteen. </p>
+</li>
+<li>
+<p>Hvis du får en allergisk reaktion (er overfølsom) over for NovoThirteen, kan symptomerne 
+være: Nældefeber, kløe, hævelser, vejrtrækningsproblemer, lavt blodtryk (symptomer inkluderer 
+bleg og kold, hurtig hjerterytme), svimmelhed og svedafsondring. </p>
+</li>
+</ul>
+<p>Brug af anden medicin sammen med NovoThirteen 
+Fortæl altid lægen, hvis du bruger anden medicin eller har gjort det for nylig. 
+Det anbefales ikke at bruge NovoThirteen og rekombinant koagulationsfaktor VIIa (en anden 
+koagulationsfaktor) sammen. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. </p>
+<p>NovoThirteen indeholder natrium 
+Denne medicin indeholder mindre end 1 mmol natrium (23 mg) per injektion, hvilket betyder at det 
+stort set er ’natrium-frit’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take novothirteen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take novothirteen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Påbegyndelse af behandling med NovoThirteen skal foretages af en læge, som har erfaring med 
+behandling af sjældne blødersygdomme. 
+Brug altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Før du kan injicere NovoThirteen, skal du opblande produktet. Se NovoThirteen brugervejledningen. </p>
+<p>NovoThirteen gives som en injektion i en vene. Din dosis afhænger af din legemsvægt. Den 
+sædvanlige dosis for at forebygge blødning er 35 IE for hvert kilogram legemsvægt. Injektionerne 
+gives en gang om måneden (hver 28. dag ± 2 dage). 
+Hvis du oplever en blødning skal du kontakte din læge, som vil afgøre, om du har behov for en 
+injektion. NovoThirteen skal injiceres med en hastighed der ikke overstiger 2 ml/minut. </p>
+<p>Baseret på koncentrationen af NovoThirteen opløsning kan dosismængden til injektion (i milliliter) 
+beregnes efter nedenstående formel: 
+Dosismængde i milliliter = 0,042 x personens legemsvægt i kilogram. </p>
+<p>Du må kun bruge den ordinerede dosis, der er beregnet af din læge ud fra denne formel, og hvor det er 
+taget i betragtning, at den sædvanlige dosis og koncentrationen af NovoThirteen er forskellig fra andre 
+produkter der indeholder faktor XIII. 
+Din læge kan tilpasse dosis hvis det er nødvendigt. </p>
+<p>Brug til små børn 
+For børn der vejer under 24 kg, skal det opblandede NovoThirteen fortyndes med yderligere 6 ml 
+0,9% natriumchlorid-injektionsvæske, for at håndtere doseringen til små børn. For yderligere 
+information se ’NovoThirteen Brugervejledning - Vejledning til fortynding af det opblandede 
+NovoThirteen’. </p>
+<p>Dosismængden af det opblandede NovoThirteen der er fortyndet med 6 ml 0,9% natriumchlorid-
+injektionsvæske, kan beregnes ud fra følgende formel: </p>
+<p>Dosismængden i milliliter = 0,117 x legemsvægt i kilogram. </p>
+<p>Brug til børn og teenagere (der vejer over 24 kg) 
+NovoThirteen kan anvendes på samme måde til børn og unge som til voksne både som forebyggende 
+behandling, og hvis du oplever en blødning. </p>
+<p>Hvis du har brugt for meget NovoThirteen 
+Der er begrænsede oplysninger om overdosering med NovoThirteen. Ingen af de rapporterede tilfælde 
+har udvist tegn på sygdom. Kontakt din læge, hvis du har injiceret mere NovoThirteen, end du har fået 
+besked på. </p>
+<p>Hvis du har glemt at bruge Novo Thirteen 
+Kontakt lægen, hvis du har glemt en injektion med NovoThirteen. Du må ikke tage en dobbeltdosis 
+som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at bruge NovoThirteen 
+Hvis du holder op med at bruge NovoThirteen, er du ikke beskyttet mod blødning. Du må ikke holde 
+op med at bruge NovoThirteen uden først at have talt med din læge om det. Din læge vil forklare, hvad 
+der kan ske, hvis du stopper behandlingen, og drøfte andre behandlingsmuligheder med dig. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om i forbindelse med brugen af dette lægemiddel. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Bivirkninger kan være: 
+Almindelige bivirkninger (kan forkomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Hovedpine (mest almindelige bivirkning) </p>
+</li>
+<li>
+<p>Smerter, hvor injektionen bliver givet </p>
+</li>
+<li>
+<p>Smerter i ben og arme </p>
+</li>
+<li>
+<p>Øget mængde af små proteindele forårsaget af opløsning af størknet blod </p>
+</li>
+<li>
+<p>Et fald i antallet af nogle typer hvide blodlegemer. Det betyder, at din krop kan være mere 
+følsom over for infektioner </p>
+</li>
+<li>
+<p>Udvikling af antistoffer mod faktor XIII, som ikke påvirker virkningen af lægemidlet. </p>
+</li>
+</ul>
+<p>Bivirkninger hos børn: 
+Bivirkninger der er blevet observeret hos børn, er de samme som hos voksne, men bivirkningerne kan 
+være mere almindelige hos børn end hos voksne. </p>
+<p>Indberetning af bivirkninger. 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store novothirteen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store novothirteen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. 
+Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen efter ’EXP’. Udløbsdatoen er 
+den sidste dag i den nævnte måned. 
+Opbevares i køleskab (2°C˗8°C). 
+Må ikke fryses. </p>
+<p>Opbevares i den originale pakning for at beskytte mod lys. </p>
+<p>Det anbefales at NovoThirteen til injektion anvendes straks efter klargøring. </p>
+<p>Opløsningen er klar og farveløs. Brug ikke lægemidlet, hvis det indeholder partikler eller er misfarvet 
+efter opblanding. </p>
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg på 
+apoteket, hvordan du skal bortskaffe medicinrester. Dette er med til at beskytte miljøet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NovoThirteen indeholder </p>
+<ul>
+<li>
+<p>Det aktivte stof er catridecacog (rekombinant koagulationsfaktor XIII: 2500 IE/3 ml, efter 
+opblanding, svarende til en koncentration på 833 IE/ml). </p>
+</li>
+<li>
+<p>De øvrige indholdsstoffer i pulveret er natriumchlorid, sakkarose, polysorbat 20, L-histidin, 
+saltsyre (til pH-regulering), natriumhydroxid (til pH-regulering) og i solvensen vand til 
+injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+NovoThirteen leveres som pulver og solvens til injektionsvæske, opløsning (2500 IE pulver i et 
+hætteglas og 3,2 ml solvens i et hætteglas, med en hætteglasadapter). 
+Pakningsstørrelse á 1. Pulveret er hvidt og solvensen er klar og farveløs.  </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd 
+Danmark </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere omlysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>NovoThirteen Brugervejledning </p>
+<p>Til opblanding og indgivelse af dette produkt er følgende redskaber nødvendige: en 10 ml sprøjte eller 
+en sprøjte af passende størrelse til injektionsmængden, alkoholservietter, den medfølgende 
+hætteglasadapter og et infusionssæt (slange, sommerfuglenål). </p>
+<p>Klargøring af opløsningen </p>
+<p>Benyt altid aseptisk teknik. Inden du starter, skal hænderne vaskes. Temperer hætteglassene med 
+pulver og solvens til stuetemperatur, ikke over 25°C, ved at holde hætteglassene i hænderne indtil de 
+føles ligeså varme som dine hænder. Fjern plastikhætterne fra de to hætteglas. Hvis hætterne er løse 
+eller mangler, må hætteglassene ikke anvendes. Rens gummipropperne på hætteglassene med 
+alkoholservietter, og lad dem tørre inden brug. </p>
+<p>Produktet opblandes ved hjælp af den medfølgende hætteglasadapter. 
+Fjern beskyttelsespapiret fra hætteglasadapteren, og lad beskyttelseslåget sidde på hætteglasadapteren. 
+Sæt hætteglasadapteren på hætteglasset med solvens (vand til injektionsvæsker). Vær forsigtig med 
+ikke at røre spidsen på hætteglasadapteren. </p>
+<p>Så snart den er sat på, fjernes beskyttelseshætten fra hætteglasadapteren. </p>
+<p>Træk luft ind i sprøjten ved at trække stemplet tilbage til samme volumen som i hætteglasset med 
+solvens. </p>
+<p>Skru sprøjten godt fast på hætteglasadapteren på hætteglasset med solvens. Sprøjt luft ind i hætteglasset 
+ved at trykke stemplet ind, indtil du møder tydelig modstand. </p>
+<p>Vend sprøjten med hætteglasset med solvens på hovedet. Træk stemplet tilbage for at trække 
+solvensen ind i sprøjten. </p>
+<p>Fjern det tomme hætteglas til solvens ved at vippe sprøjten med hætteglasadapteren. </p>
+<p>Klik hætteglasadapteren fast på hætteglasset med pulver, mens den stadig sidder fast på sprøjten. Hold 
+sprøjten let skråt med hætteglasset nedad. Tryk stemplet langsomt ind for at overføre solvensen til 
+hætteglasset med pulver. Pas på, at solvensen ikke sprøjtes direkte ned i pulveret, da dette vil forårsage 
+skumdannelse. </p>
+<p>Sving hætteglasset forsigtigt rundt, til alt pulveret er opløst. Ryst ikke hætteglasset, da dette vil 
+forårsage skumdannelse. </p>
+<p>NovoThirteen skal efterses for fremmede partikler og misfarvning inden indgivelse. 
+Hvis en af delene observeres, skal lægemidlet kasseres. </p>
+<p>Opblandet NovoThirteen er en klar, farveløs opløsning. 
+Hvis en større dosis er nødvendig, gentages proceduren i en separat sprøjte, indtil den ønskede dosis er 
+opnået. </p>
+<p>Vigtig information </p>
+<p>Når NovoThirteen er klargjort til injektion, skal det anvendes straks. </p>
+<p>I tilfælde af at der er behov for at fortynde det opblandede NovoThirteen, skal du gå videre til afsnittet 
+’Fortynding af det opblandede produkt med 0,9% natriumchlorid-injektionsvæske </p>
+<p>Sørg for, at stemplet er skubbet helt ind, før sprøjten vendes på hovedet (stemplet kan være blevet 
+presset lidt ud af trykket i hætteglasset). Hold sprøjten med hætteglasset opad, og træk stemplet ud for 
+at trække den beregnede injektionsmængde ind i sprøjten. </p>
+<p>Skru hætteglasadapteren med hætteglasset af. </p>
+<p>Produktet er nu klar til injektion i venen. Følg injektionsproceduren efter din læges anvisninger. </p>
+<p>Efter injektionen </p>
+<p>Sprøjte, hætteglasadapter, infusionssæt og hætteglas kasseres på en forsvarlig måde. Ikke anvendt 
+lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Vejledning til fortynding af det opblandede NovoThirteen </p>
+<p>Til fortynding af det opblandede NovoThirteen skal følgende bruges: et hætteglas med 
+0,9% natriumchlorid-injektionsvæske, en 10 ml sprøjte og alkoholservietter. </p>
+<p>Generel vejledning til fortynding 
+Fortyndingen skal udføres i overensstemmelse med en aseptisk fremgangsmåde. 
+Træk omhyggeligt præcist 6 ml 0,9% natriumchlorid-injektionsvæske ind i 10 ml sprøjten. 
+Injicér langsomt de 6 ml 0,9% natriumchlorid-injektionsvæske ned i hætteglasset med det opblandede 
+NovoThirteen. 
+Sving forsigtigt hætteglasset for at opblande opløsningen. 
+Den fortyndede opløsning er klar og farveløs. Kontrollér injektionsvæsken for partikler og 
+misfarvning. Hvis en af delene bemærkes, skal injektionsvæsken kasseres. </p>
+<p>Efter fortynding fortsættes til trin H. </p>
+<p>Eventuelt resterende injektionsvæske skal straks kasseres. </p>
+<p>Hvis du har nogle spørgsmål, skal du kontakte din læge eller sygeplejerske. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-85f7c08e568d2cd0fc2ac32155c57714
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novothirteen Package Leaflet for language en"
+Description: "ePI document Bundle for novothirteen Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-85f7c08e568d2cd0fc2ac32155c57714"
+* entry[0].resource = composition-en-85f7c08e568d2cd0fc2ac32155c57714
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp85f7c08e568d2cd0fc2ac32155c57714"
+* entry[=].resource = mp85f7c08e568d2cd0fc2ac32155c57714
+                            
+                    
+Instance: bundlepackageleaflet-da-85f7c08e568d2cd0fc2ac32155c57714
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novothirteen Package Leaflet for language da"
+Description: "ePI document Bundle for novothirteen Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-85f7c08e568d2cd0fc2ac32155c57714"
+* entry[0].resource = composition-da-85f7c08e568d2cd0fc2ac32155c57714
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp85f7c08e568d2cd0fc2ac32155c57714"
+* entry[=].resource = mp85f7c08e568d2cd0fc2ac32155c57714
+                            
+                    
+
+
+
+Instance: mp85f7c08e568d2cd0fc2ac32155c57714
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product NovoThirteen 2500 IU powder and solvent for solution for injection"
-Description: "NovoThirteen 2500 IU powder and solvent for solution for injection"
+Title: "Medicinal Product novothirteen"
+Description: "novothirteen"
 Usage: #inline
 
  
@@ -250,7 +623,7 @@ Usage: #inline
 
 
 * name
-  * productName = "NovoThirteen 2500 IU powder and solvent for solution for injection"
+  * productName = "novothirteen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -277,29 +650,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-85f7c08e568d2cd0fc2ac32155c57714
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for novothirteen Package Leaflet for language en"
-Description: "ePI document Bundle for novothirteen Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 85f7c08e568d2cd0fc2ac32155c57714ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/775/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "novothirteen"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-85f7c08e568d2cd0fc2ac32155c57714"
-* entry[0].resource = composition-en-85f7c08e568d2cd0fc2ac32155c57714
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2f3198acaeb43f3b0395dfff558ecfc9"
-* entry[=].resource = mp2f3198acaeb43f3b0395dfff558ecfc9
-                            
-                      
+* title = "List of all ePIs associated with novothirteen"
+
+* subject = Reference(mp2f3198acaeb43f3b0395dfff558ecfc9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#novothirteen "novothirteen"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-85f7c08e568d2cd0fc2ac32155c57714) // novothirteen en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-85f7c08e568d2cd0fc2ac32155c57714) // novothirteen da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-85f7c08e568d2cd0fc2ac32155c57714
+InstanceOf: List
+
+* insert 85f7c08e568d2cd0fc2ac32155c57714ListRuleset
+    

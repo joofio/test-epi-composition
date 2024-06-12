@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-008c725c88c429f9cddb37027a290218
 InstanceOf: CompositionUvEpi
 Title: "Composition for xeljanz Package Leaflet"
@@ -529,12 +532,705 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-008c725c88c429f9cddb37027a290218
+InstanceOf: CompositionUvEpi
+Title: "Composition for xeljanz Package Leaflet"
+Description:  "Composition for xeljanz Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp01713f3681916bdf29bfb836dfe9afa2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp01713f3681916bdf29bfb836dfe9afa2
+* title = "TEST PURPOSES ONLY - xeljanz"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage XELJANZ
+3. Sådan skal du tage XELJANZ
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xeljanz is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xeljanz is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>XELJANZ er et lægemiddel, der indeholder det aktive stof tofacitinib.<br />
+XELJANZ bruges til behandling af følgende betændelsessygdomme:
+
+Leddegigt
+
+Psoriasisgigt
+
+Tyktarmsbetændelse
+
+Bechterews sygdom (ankyloserende spondylitis)
+
+Børneleddegigt - polyartikulær børneleddegigt og psoriasisrelateret børneleddegigt
+Leddegigt
+XELJANZ bruges til at behandle voksne patienter med moderat til svær, aktiv leddegigt, en langvarig 
+sygdom som hovedsagelig giver smerter og hævede led.
+XELJANZ bruges sammen med methotrexat, når den forudgående behandling af leddegigt ikke har 
+været tilstrækkelig eller ikke tåles. 
+XELJANZ kan også tages alene i de tilfælde, hvor behandling med methotrexat ikke tåles eller ikke 
+tilrådes. 
+Det er blevet vist, at XELJANZ nedsætter smerte og hævelse i leddene og forbedrer evnen til at udføre 
+daglige aktiviteter, når det tages alene eller sammen med methotrexat.
+Psoriasisgigt
+XELJANZ bruges til at behandle voksne patienter med en sygdom, som kaldes psoriasisgigt. Denne 
+sygdom er en betændelsessygdom i leddene, som ofte er ledsaget af psoriasis. Hvis du har aktiv 
+psoriasisgigt, vil du først få et andet lægemiddel til at behandle din psoriasisgigt. Hvis du ikke reagerer 
+148
+tilstrækkeligt eller ikke kan tåle lægemidlet, vil du muligvis få XELJANZ for at nedsætte tegn og 
+symptomer på aktiv psoriasisgigt og forbedre evnen til at udføre daglige aktiviteter.
+XELJANZ bruges sammen med methotrexat til at behandle voksne patienter med aktiv psoriasisgigt.
+Bechterews sygdom (ankyloserende spondylitis)
+XELJANZ anvendes til at behandle en sygdom ved navn Bechterews sygdom (ankyloserende 
+spondylitis). Denne tilstand er en inflammatorisk sygdom i rygsøjlen.
+Hvis du har ankyloserende spondylitis, vil du måske først få et andet lægemiddel. Hvis du ikke
+reagerer tilstrækkeligt på det lægemiddel, vil du få XELJANZ. XELJANZ kan nedsætte rygsmerter 
+og forbedre fysiske funktioner. Disse virkninger kan gøre dine hverdagsaktiviteter nemmere og
+forbedre din livskvalitet.
+Tyktarmsbetændelse (colitis ulcerosa)
+Blødende tyktarmsbetændelse er en betændelsessygdom i tyktarmen. XELJANZ anvendes hos voksne 
+patienter til at reducere tegn og symptomer på blødende tyktarmsbetændelse, hvis du ikke har reageret 
+godt nok på eller ikke har kunnet tåle tidligere behandling af tyktarmsbetændelse.
+
+Børneleddegigt - polyartikulær børneleddegigt og psoriasisrelateret børneleddegigt
+XELJANZ bruges til at behandle en aktiv polyartikulær børneleddegigt, der er en langvarig sygdom 
+som hovedsagelig giver smerter og hævede led hos patienter, der er 2 år og ældre.
+XELJANZ bruges til at behandle psoriasisrelateret børneleddegigt, en sygdom, der er en 
+betændelsessygdom i leddene, som ofte er ledsaget af psoriasis, hos patienter, der er 2 år og ældre.
+XELJANZ kan bruges sammen med methotrexat, når forudgående behandling af polyartikulær 
+børneleddegigt eller psoriasisrelateret børneleddegigt ikke har været tilstrækkelig eller lægemidlet ikke 
+tåles. 
+XELJANZ kan også tages alene i de tilfælde, hvor behandling med methotrexat ikke tåles eller ikke 
+tilrådes.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xeljanz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xeljanz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke XELJANZ:</h2>
+<p>hvis du er allergisk over for tofacitinib eller et af de øvrige indholdsstoffer i XELJANZ (angivet 
+i afsnit 6).
+-
+hvis du har en alvorlig infektion, såsom blodforgiftning eller aktiv tuberkulose. 
+-
+hvis du har fået at vide, at du har alvorlige leverproblemer inklusive skrumpelever (cirrose, 
+ardannelse i leveren). 
+-
+hvis du er gravid eller ammer.
+Hvis du er i tvivl om noget af ovenstående, skal du kontakte lægen.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager XELJANZ:
+-
+hvis du tror, du har en infektion eller har symptomer på en infektion såsom feber, svedtendens, 
+kuldegysninger, muskelsmerter, hoste, åndenød, slimdannelse eller ændring i slim, vægttab, 
+varm eller rød eller smertefuld hud eller sår på kroppen, synkebesvær eller smerter, når du 
+synker, diarré eller mavesmerter, brændende fornemmelse, når du lader vandet, eller lader 
+vandet hyppigere end normalt, udtalt træthed.
+-
+hvis du har en sygdom, som øger din risiko for at få en infektion (fx sukkersyge, hiv/AIDS eller 
+et svagt immunforsvar).
+-
+hvis du har en infektion, behandles for en infektion, eller hvis du har infektioner, som bliver ved 
+med at komme igen. Fortæl det straks til lægen, hvis du føler dig utilpas. XELJANZ kan 
+149
+nedsætte kroppens evne til at reagere på infektioner og kan forværre en eksisterende infektion 
+eller øge risikoen for at få en ny infektion.
+-
+hvis du har eller har haft tuberkulose eller har været i tæt kontakt med nogen, der har 
+tuberkulose. Din læge vil undersøge, om du har tuberkulose, før du begynder at få XELJANZ 
+og vil måske undersøge dig igen i løbet af behandlingen.
+-
+hvis du har kronisk lungesygdom.
+-
+hvis du har problemer med leveren.
+-
+hvis du har eller har haft hepatitis B eller hepatitis C (virus, som påvirker leveren). Virussen kan 
+blive aktiv, mens du tager XELJANZ. Lægen vil muligvis tage blodprøver og teste dig for 
+hepatitis, før du påbegynder behandling med XELJANZ, og mens du tager XELJANZ.
+-
+hvis du er 65 år eller derover, hvis du nogensinde har haft en eller anden form for kræft, også 
+hvis du ryger eller har røget. XELJANZ kan øge din risiko for visse former for kræft. Der er 
+rapporteret om kræft i de hvide blodlegemer, lungekræft og andre former for kræft (såsom 
+brystkræft, hudkræft, prostatakræft og kræft i bugspytkirtlen) hos patienter, der blev behandlet 
+med XELJANZ. Hvis du får kræft, mens du tager XELJANZ, vil din læge overveje, om 
+behandlingen skal stoppes.
+-
+hvis du har en kendt risiko for knoglebrud, fx hvis du er 65 år eller derover, du er en kvinde,
+eller du tager kortikosteroider (fx prednison).
+-
+Der er set tilfælde af non-melanom hudkræft (hudkræft, som ikke er modermærkekræft) hos 
+patienter, som tager XELJANZ. Lægen vil muligvis anbefale dig, at du jævnligt får huden 
+undersøgt, mens du tager XELJANZ. Du skal fortælle det til lægen, hvis der opstår nye 
+hudlæsioner under eller efter behandlingen, eller hvis eksisterende læsioner ændrer udseende.
+-
+hvis du har haft diverticulitis (en type betændelse i tyktarmen) eller mavesår eller sår i tarmene 
+(se afsnit 4).
+-
+hvis du har problemer med nyrerne.
+-
+hvis du planlægger at blive vaccineret, skal du fortælle det til lægen. Der er visse typer vaccine, 
+du ikke må få, når du tager XELJANZ. Inden du begynder at tage XELJANZ, skal du være 
+ajour med alle anbefalede vaccinationer. Din læge vil afgøre, om du har brug for en vaccine 
+mod herpes zoster.-
+-
+hvis du har problemer med hjertet, forhøjet blodtryk, forhøjet kolesterol, også hvis du ryger eller 
+har røget.
+Der er rapporteret om patienter behandlet med XELJANZ, der har fået blodpropper i lunger eller 
+vener. Din læge vil tage stilling til din risiko for, at du udvikler blodpropper i lungerne eller venerne, 
+og beslutte, om XELJANZ er egnet til dig. Hvis du allerede har haft problemer med blodpropper i 
+lunger og vener eller har en øget risiko for at få dem (fx: Hvis du er svært overvægtig, har kræft, 
+hjerteproblemer, diabetes, har haft et hjerteanfald (inden for de seneste 3 måneder), nylig større 
+operation, hvis du bruger hormonel prævention/hormonerstatningsbehandling, eller hvis du eller et 
+nært familiemedlem har en koagulationsdefekt), hvis du er ældre eller hvis du ryger eller har røget, 
+kan din læge beslutte, at XELJANZ ikke er egnet til dig.
+Tal straks med din læge, hvis du får pludselig åndenød eller vejrtrækningsbesvær, brystsmerter eller 
+smerter i den øvre ryg, hævelse af ben eller arme, smerter eller ømhed i ben eller rødme eller 
+misfarvning på ben eller arme, mens du tager XELJANZ, da dette kan være tegn på en blodprop i 
+lungerne eller venerne.
+Tal straks med din læge, hvis du oplever akutte synsforandringer (sløret syn, delvist eller fuldstændigt 
+synstab), da dette kan være tegn på en blodprop i øjnene.
+Der er rapporteret om patienter behandlet med XELJANZ, der har haft hjerteproblemer, herunder 
+hjerteanfald. Din læge vil tage stilling til din risiko for at udvikle hjerteproblemer og beslutte, om 
+XELJANZ er egnet til dig. Kontakt straks lægen, hvis du udvikler tegn og symptomer på et 
+hjerteanfald, herunder svære brystsmerter eller trykken for brystet (der kan sprede sig til arme, kæbe, 
+hals, ryg), åndenød, koldsved, svimmelhed eller pludselig svimmelhed.
+150
+Yderligere prøver til at overvåge dit helbred
+Din læge vil tage blodprøver, før du begynder at tage XELJANZ, efter 4 til 8 ugers behandling og 
+derefter hver 3. måned for at se, om du har et lavt antal hvide blodlegemer (neutrofiler eller 
+lymfocytter) eller et lavt antal røde blodlegemer (blodmangel, anæmi). 
+Du bør ikke tage XELJANZ, hvis antallet af hvide blodlegemer (neutrofiler eller lymfocytter) eller 
+røde blodlegemer er for lavt. Hvis det er nødvendigt, kan din læge afbryde behandlingen med 
+XELJANZ i et stykke tid for at nedsætte risikoen for infektioner (lavt antal hvide blodlegemer) eller 
+blodmangel (lavt antal røde blodlegemer). 
+Lægen kan også udføre andre tests, såsom at tjekke kolesterolindholdet i dit blod eller undersøge, hvor 
+godt din lever fungerer. Lægen bør tjekke dit kolesteroltal 8 uger efter, du er begyndt at tage 
+XELJANZ. Lægen bør undersøge din leverfunktion med jævne mellemrum.
+Ældre
+Patienter på 65 år og derover får oftere infektioner, hvoraf visse kan være alvorlige. Fortæl det til 
+lægen, så snart du bemærker tegn eller symptomer på en infektion.
+Patienter på 65 år og derover kan have øget risiko for infektioner, hjerteanfald og visse former for 
+kræft. Din læge kan beslutte, at XELJANZ ikke er egnet til dig.
+Asiatiske patienter
+Helvedesild forekommer hyppigere hos japanske og koreanske patienter. Fortæl det til lægen, hvis du 
+får smertefulde blærer på huden. 
+Der kan også være en større risiko for, at du får visse lungeproblemer. Fortæl det til lægen, hvis du får 
+vejrtrækningsproblemer.
+Børn og unge
+Sikkerheden og fordelene ved XELJANZ hos børn, der er under 2 år gamle er endnu ikke blevet 
+fastlagt.
+Brug af andre lægemidler sammen med XELJANZ
+Fortæl lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler.
+Fortæl det til lægen, hvis du har diabetes eller tager lægemidler til behandling af diabetes. Din læge 
+kan beslutte, at du har brug for lavere doser af lægemidler mod diabetes, mens du tager tofacitinib.
+Nogle lægemidler bør ikke tages sammen med XELJANZ. Hvis de tages sammen med XELJANZ, 
+kan de forårsage en ændring af niveauet af XELJANZ i kroppen, og det kan være nødvendigt at justere 
+dosis af XELJANZ. Du skal fortælle det til lægen, hvis du bruger lægemidler, der indeholder et eller 
+flere af følgende aktive stoffer:
+
+antibiotika, såsom rifampicin, der bruges til at behandle bakterie-infektioner
+
+fluconazol, ketoconazol, der bruges til at behandle svampeinfektioner
+Det frarådes, at XELJANZ bruges sammen med lægemidler, der undertrykker immunforsvaret, 
+herunder såkaldte målrettede biologiske behandlinger (antistoffer), som dem, der hæmmer tumor-
+nekrose-faktorer, interleukin-17, interleukin-12/interleukin-23, anti-integriner og stærke kemiske 
+lægemidler, der undertrykker immunforsvaret, herunder azathioprin, mercaptopurin, ciclosporin og 
+tacrolimus. Hvis du tager XELJANZ sammen med disse lægemidler, kan det øge din risiko for 
+bivirkninger herunder infektioner.
+Alvorlige infektioner og knoglebrud kan forekomme oftere hos personer, der også tager 
+kortikosteroider (fx prednison).
+151
+Graviditet og amning
+Hvis du er kvinde i den fødedygtige alder, skal du bruge sikker svangerskabsforebyggelse, mens du er 
+i behandling med XELJANZ og i mindst 4 uger efter den sidste dosis.
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. Du må ikke tage XELJANZ, hvis du er 
+gravid. Fortæl det straks til lægen, hvis du bliver gravid, mens du tager XELJANZ.
+Hvis du tager XELJANZ og ammer, skal du holde op med at amme, indtil du har talt med lægen om at 
+standse behandlingen med XELJANZ.
+Trafik- og arbejdssikkerhed
+XELJANZ påvirker ikke eller kun i mindre grad evnen til at føre motorkøretøj og betjene maskiner.
+XELJANZ indeholder lactose
+Kontakt lægen, inden du tager dette lægemiddel, hvis din læge har fortalt dig, at du ikke kan tåle visse 
+sukkerarter.
+XELJANZ indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xeljanz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xeljanz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du har fået dette lægemiddel af en speciallæge, som overvåger din behandling, og som ved, hvordan 
+din sygdom skal behandles.
+Tag altid lægemidlet nøjagtigt efter lægens anvisning, den anbefalede dosis må ikke overskrides. Er du 
+i tvivl, så spørg lægen eller apotekspersonalet.
+Leddegigt
+
+Den anbefalede dosis er 5 mg 2 gange dagligt.
+Psoriasisgigt
+
+Den anbefalede dosis er 5 mg 2 gange dagligt.
+Hvis du lider af leddegigt eller psoriasisgigt, kan din læge skifte dine tabletter mellem XELJANZ 
+5 mg filmovertrukne tabletter to gange dagligt og XELJANZ 11 mg depottabletter én gang dagligt. Du 
+kan begynde at tage XELJANZ depottabletter én gang dagligt eller XELJANZ filmovertrukne tabletter 
+to gange dagligt dagen efter den sidste dosis af den anden af disse tabletter. Du må ikke skifte mellem 
+XELJANZ filmovertrukne tabletter og XELJANZ depottabletter, medmindre det sker efter lægens 
+anvisninger.
+Bechterews sygdom (ankyloserende spondylitis)
+
+Den anbefalede dosis er 5 mg to gange dagligt.
+
+Din læge vil eventuelt beslutte, at du skal holde op med at tage XELJANZ, hvis XELJANZ 
+ikke virker for dig i løbet af 16 uger.
+Blødende tyktarmsbetændelse
+
+Den anbefalede dosis er 10 mg to gange dagligt i 8 uger, efterfulgt af 5 mg to gange 
+dagligt.
+
+Din læge kan beslutte at forlænge den indledende behandling på 10 mg to gange dagligt 
+med yderligere 8 uger (16 uger i alt) efterfulgt af 5 mg to gange dagligt.
+
+Din læge kan beslutte at stoppebehandlingen med XELJANZ, hvis XELJANZ ikke virker 
+for dig inden for 16 uger.
+152
+
+For patienter, der tidligere har taget biologiske lægemidler til behandling af blødende 
+tyktarmsbetændelse (såsom de lægemidler, der blokerer aktiviteten af tumornekrosefaktor 
+i kroppen), og hvis disse lægemidler ikke virkede, kan lægen beslutte øge din dosis 
+XELJANZ til 10 mg to gange dagligt, hvis du ikke reagerer tilstrækkeligt på 5 mg to 
+gange om dagen. Din læge vil tage de mulige risici, herunder risikoen for blodpropper i 
+lungerne eller venerne, samt mulige fordele for dig i betragtning. Din læge vil fortælle 
+dig, hvis dette gælder for dig.
+
+Hvis din behandling afbrydes, kan din læge beslutte at starte din behandling på ny. 
+Brug til børn og unge
+Børneleddegigt - polyartikulær børneleddegigt og psoriasisrelateret børneleddegigt
+
+Den anbefalede dosis er 5 mg 2 gange dagligt til patienter ≥40 kg.
+Sørg for at tage tabletten på samme tidspunkt hver dag (en tablet om morgenen og en tablet om 
+aftenen).
+Tofacitinib 5 mg tabletter kan knuses og indtages med vand.
+Lægen kan nedsætte din dosis, hvis du har problemer med leveren eller nyrerne, eller hvis du får 
+ordineret visse andre lægemidler. Lægen kan også afbryde behandlingen midlertidigt eller permanent, 
+hvis blodprøver viser et lavt indhold af hvide eller røde blodlegemer. 
+XELJANZ skal tages gennem munden. Du kan tage XELJANZ med eller uden mad.
+Hvis du har taget for meget XELJANZ
+Hvis du har taget for mange tabletter, skal du øjeblikkeligt fortælle det til din læge eller 
+apotekspersonalet.
+Hvis du har glemt at tage XELJANZ
+Du må ikke tage en dobbeltdosis som erstatning for en glemt tablet. Tag den næste tablet på det 
+sædvanlige tidspunkt og fortsæt som før.
+Hvis du holder op med at tage XELJANZ
+Du må ikke holde op med at tage XELJANZ uden først at diskutere det med lægen.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Nogle af bivirkningerne kan være alvorlige og kræve lægehjælp.
+Bivirkninger hos patienter med polyartikulær børneleddegigt og psoriasisrelateret børneleddegigt var 
+tilsvarende dem, der blev set hos voksne patienter med leddegigt bortset fra nogle infektioner 
+(influenza, betændelse i svælget, bihulebetændelse, virusinfektion)) og symptomer i mave-tarm-
+kanalen eller almene sygdomme (mavesmerter, kvalme, opkastning, feber, hovedpine, hoste), som var 
+mere almindelige hos børn med polyartikulær leddegigt.
+Alvorlige bivirkninger
+I sjældne tilfælde kan infektioner være livstruende. Der er også rapporteret om lungekræft, kræft i de 
+hvide blodlegemer og hjerteanfald.
+153
+Hvis du oplever nogen af følgende alvorlige bivirkninger, skal du straks kontakte en læge.
+Tegn på alvorlige infektioner (hyppighed "almindelig") inkluderer
+
+feber og kuldegysninger 
+
+hoste
+
+blærer på huden 
+
+mavesmerter 
+
+vedvarende hovedpine
+Tegn på sår eller huller (perforationer) i mavesækken eller tarmene (ikke almindelige) 
+inkluderer
+
+feber
+
+mavesmerter
+
+blod i afføringen
+
+uforklarlige ændringer i afføringsvaner
+Huller i mavesækken eller tarmene opstår oftest hos patienter, som også tager non-steroide 
+antiinflammatoriske lægemidler (NSAID) eller kortikosteroider (fx prednison).
+Tegn på allergiske reaktioner (hyppighed "sjælden") inkluderer
+
+trykken for brystet
+
+hivende vejrtrækning
+
+alvorlig svimmelhed eller ørhed
+
+hævelse af læber, tunge og svælg
+
+nældefeber (kløe eller hududslæt)
+Tegn på blodpropper i lunger eller vener eller øjne (hyppighed "ikke almindelig": venøs 
+tromboemboli) inkluderer
+
+pludselig åndenød eller vejrtrækningsbesvær
+
+brystsmerter eller smerter øverst i ryggen
+
+hævelse af ben eller arme
+
+smerter eller ømhed i benet
+
+rødme eller misfarvning på ben eller arme
+
+akutte synsforandringer
+Tegn på hjerteanfald (ikke almindelig) omfatter:
+
+alvorlige brystsmerter eller trykken for brystet (der kan brede sig til arme, kæbe, hals, 
+ryg)
+
+åndenød
+
+koldsved
+
+svimmelhed eller pludselig svimmelhed
+Andre bivirkninger, der er blevet observeret med XELJANZ, er anført nedenfor. 
+Almindelig (kan forekomme hos op til 1 ud af 10 personer): 
+lungeinfektion (lungebetændelse og bronkitis), helvedesild (herpes zoster), infektioner i næse, hals 
+eller luftrør (forkølelse), influenza, bihulebetændelse, urinvejsinfektion (blærebetændelse), ondt i 
+halsen (svælgkatar), forhøjede muskelenzymer i blodet (tegn på muskelproblemer), mavesmerter (som 
+kan skyldes betændelse i mavens slimhinde), opkastning, diarré, kvalme, fordøjelsesbesvær, lavt antal 
+hvide blodlegemer, lavt antal røde blodlegemer (blodmangel, anæmi), hævede fødder og hænder, 
+hovedpine, forhøjet blodtryk (hypertension), hoste, udslæt, akne.
+154
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): 
+lungekræft, tuberkulose, nyrebetændelse, betændelse i huden, herpes simplex eller forkølelsessår (oral 
+herpes), forhøjet blodkreatinin (tegn på mulige nyreproblemer), forhøjet kolesterol (herunder forhøjet 
+LDL), feber, udmattelse (træthedsfornemmelse), vægtstigning, væskemangel, forstrækning af muskler, 
+senebetændelse, hævede led, forstrækning af led, føleforstyrrelser, dårlig søvn, tilstoppede bihuler, 
+åndenød eller vejrtrækningsbesvær, hudrødme, kløe, fedtlever, smertefuld betændelse i de små 
+udposninger i tarmen (diverticulitis), virusinfektioner, virusinfektioner, der påvirker mave-tarm-
+kanalen, visse typer hudkræft (ikke-melanom typer).
+Sjælden (kan forekomme hos op til 1 ud af 1.000 personer): 
+blodforgiftning (sepsis), lymfom (kræft i de hvide blodlegemer), tuberkulose i knogler, andre organer 
+samt andre usædvanlige infektioner, ledbetændelse, forhøjede leverenzymer i blodet (tegn på 
+leverproblemer), muskel- og ledsmerter.
+Meget sjælden (kan forekomme hos op til 1 ud af 10.000 personer): tuberkulose som involverer hjerne 
+og rygrad, meningitis, infektion i bløddele og bindevæv.
+Generelt blev der set færre bivirkninger, når XELJANZ blev brugt alene til leddegigt.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xeljanz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xeljanz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen, tabletbeholderen eller 
+kartonen efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.
+Opbevares i den originale pakning for at beskytte med fugt.
+Brug ikke dette lægemiddel, hvis du opdager, at tabletterne udviser tegn på beskadigelse (for eksempel 
+er gået i stykker eller er misfarvede).
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>XELJANZ indeholder:
+XELJANZ 5 mg filmovertrukket tablet
+-
+Aktivt stof: tofacitinib.
+-
+Hver 5 mg filmovertrukken tablet indeholder 5 mg tofacitinib (som tofacitinibcitrat).
+-
+Øvrige indholdsstoffer: mikrokrystallinsk cellulose, lactosemonohydrat (se afsnit 2 "XELJANZ 
+indeholder lactose"), croscarmellosenatrium (se afsnit 2 "XELJANZ indeholder natrium"), 
+magnesiumstearat, hypromellose (E464), titandioxid (E171), macrogol og triacetin .
+155
+XELJANZ 10 mg filmovertrukket tablet
+-
+Aktivt stof: tofacitinib.
+-
+Hver 10 mg filmovertrukket tablet indeholder10 mg tofacitinib (som tofacitinibcitrat).
+-
+Øvrige indholdsstoffer: mikrokrystallinsk cellulose, lactosemonohydrat (se afsnit 2 "Xeljanz 
+indeholder lactose"), croscarmellosenatrium (se afsnit 2 "XELJANZ indeholder natrium"), 
+magnesiumstearat, hypromellose (E464), titanoxid (E171), macrogol, triacetin , Indigotin 
+(indigocarmin) (E132), og Brilliant Blue FCF (E133).
+Udseende og pakningsstørrelser
+XELJANZ 5 mg filmovertrukne tabletter
+XELJANZ 5 mg filmovertrukne tabletter er hvide og runde.
+Tabletterne findes som blisterkort med 14 tabletter. Hver pakning indeholdende 56, 112 eller 
+182 tabletter og i tabletbeholdere indeholdende 60 eller 180 tabletter.
+XELJANZ 10 mg filmovertrukne tabletter
+XELJANZ 10 mg filmovertrukne tabletter er blå og runde.
+
+Tabletterne findes som blisterkort med 14 tabletter. Hver pakning indeholder 56, 112 eller tabletter og i tabletbeholdere indeholdende 60 eller 180 tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller 
+Pfizer Manufacturing Deutschland GmbH
+Betriebsstätte Freiburg
+Mooswaldallee 1
+79090 Freiburg
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België /Belgique / Belgien
+Luxembourg/Luxemburg
+Lietuva
+België /Belgique / Belgien
+Pfizer Luxembourg SARL filialas Lietuvoje
+Pfizer S.A./N.V. 
+Tel. +3705 2514000
+Tél/Tel: +32 (0)2 554 62 11
+Luxembourg/Luxemburg
+Pfizer S.A.
+Tél/Tel: +32 (0)2 554 62 11
+България
+Magyarország
+Пфайзер Люксембург САРЛ, Клон България
+Pfizer Kft.
+Тел.: +359 2 970 4333
+Tel.: +36 1 488 37 00
+Česká republika
+Malta
+Pfizer, spol. s r.o.
+Vivian Corporation Ltd.
+Tel: +420 283 004 111
+Tel: +35621 344610
+156
+Danmark
+Nederland
+Pfizer ApS
+Pfizer bv
+Tlf.: +45 44 20 11 00
+Tel: +31 (0)10 406 43 01
+Deutschland
+Norge
+Pfizer Pharma GmbH
+Pfizer AS
+Tel: +49 (0)30 550055-51000
+Tlf: +47 67 52 61 00
+Eesti
+Österreich
+Pfizer Luxembourg SARL Eesti filiaal
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +372 666 7500
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Polska
+PFIZER ΕΛΛΑΣ A.E.
+Pfizer Polska Sp. z o.o.,
+Τηλ.: +30 210 67 85 800
+Tel.: +48 22 335 61 00
+España
+Portugal
+Pfizer, S.L.
+Laboratórios Pfizer, Lda.
+Tel: +34 91 490 99 00
+Tel: +351 21 423 5500
+France
+România
+Pfizer 
+Pfizer Romania S.R.L.
+Tél: +33 (0)1 58 07 34 40
+Tel: +40 21 207 28 00
+Hrvatska
+Slovenija
+Pfizer Croatia d.o.o.
+Pfizer Luxembourg SARL
+Tel: +385 1 3908 777
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel.: +386 (0) 1 52 11 400
+Ireland
+Slovenská republika
+Pfizer Healthcare Ireland
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: 1800 633 363 (toll free)
+Tel: +421-2-3355 5500
++44 (0)1304 616161
+Ísland
+Suomi/Finland
+Icepharma hf.
+Pfizer Oy
+Sími: +354 540 8000
+Puh/Tel: +358 (0)9 430 040
+Italia
+Sverige 
+Pfizer S.r.l.
+Pfizer AB
+Tel: +39 06 33 18 21
+Tel: +46 (0)8 550 520 00
+Κύπρος
+United Kingdom (Northern Ireland)
+PFIZER ΕΛΛΑΣ Α.Ε. (CYPRUS BRANCH)
+Pfizer Limited
+Τηλ: +357 22 817690
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: +371 670 35 775
+157
+Denne indlægsseddel blev senest ændret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.
+158
+Indlægsseddel: Information til patienten
+XELJANZ 11 mg depottabletter
+tofacitinib
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt i denne indlægsseddel. Se afsnit 4. Udover denne indlægsseddel vil lægen også give dig et patientkort, som indeholder vigtige 
+sikkerhedsoplysninger, som du skal være opmærksom på, før du tager XELJANZ, og så længe du er i 
+behandling med XELJANZ. Du skal altid have dette patientkort på dig.
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-008c725c88c429f9cddb37027a290218
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xeljanz Package Leaflet for language en"
+Description: "ePI document Bundle for xeljanz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-008c725c88c429f9cddb37027a290218"
+* entry[0].resource = composition-en-008c725c88c429f9cddb37027a290218
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp008c725c88c429f9cddb37027a290218"
+* entry[=].resource = mp008c725c88c429f9cddb37027a290218
+                            
+                    
+Instance: bundlepackageleaflet-da-008c725c88c429f9cddb37027a290218
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xeljanz Package Leaflet for language da"
+Description: "ePI document Bundle for xeljanz Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-008c725c88c429f9cddb37027a290218"
+* entry[0].resource = composition-da-008c725c88c429f9cddb37027a290218
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp008c725c88c429f9cddb37027a290218"
+* entry[=].resource = mp008c725c88c429f9cddb37027a290218
+                            
+                    
+
+
+
+Instance: mp008c725c88c429f9cddb37027a290218
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product XELJANZ 5 mg film-coated tablets"
-Description: "XELJANZ 5 mg film-coated tablets"
+Title: "Medicinal Product xeljanz"
+Description: "xeljanz"
 Usage: #inline
 
  
@@ -554,7 +1250,7 @@ Usage: #inline
 
 
 * name
-  * productName = "XELJANZ 5 mg film-coated tablets"
+  * productName = "xeljanz"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -581,29 +1277,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-008c725c88c429f9cddb37027a290218
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xeljanz Package Leaflet for language en"
-Description: "ePI document Bundle for xeljanz Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 008c725c88c429f9cddb37027a290218ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1178/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xeljanz"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-008c725c88c429f9cddb37027a290218"
-* entry[0].resource = composition-en-008c725c88c429f9cddb37027a290218
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp01713f3681916bdf29bfb836dfe9afa2"
-* entry[=].resource = mp01713f3681916bdf29bfb836dfe9afa2
-                            
-                      
+* title = "List of all ePIs associated with xeljanz"
+
+* subject = Reference(mp01713f3681916bdf29bfb836dfe9afa2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xeljanz "xeljanz"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-008c725c88c429f9cddb37027a290218) // xeljanz en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-008c725c88c429f9cddb37027a290218) // xeljanz da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-008c725c88c429f9cddb37027a290218
+InstanceOf: List
+
+* insert 008c725c88c429f9cddb37027a290218ListRuleset
+    

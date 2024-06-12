@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-929afcdc432ad136a892cea5e12c839f
 InstanceOf: CompositionUvEpi
 Title: "Composition for kivexa Package Leaflet"
@@ -497,12 +500,611 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com   </p>
 
 
 
+Instance: composition-da-929afcdc432ad136a892cea5e12c839f
+InstanceOf: CompositionUvEpi
+Title: "Composition for kivexa Package Leaflet"
+Description:  "Composition for kivexa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdde7cef72b843fb58c5e64e5f5f55461)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpdde7cef72b843fb58c5e64e5f5f55461
+* title = "TEST PURPOSES ONLY - kivexa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen<br />
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Kivexa 
+3. Sådan skal du tage Kivexa 
+4. Bivirkninger 
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What kivexa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What kivexa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kivexa anvendes til behandling af hiv-infektioner (humant immundefektvirus) hos voksne, unge og 
+børn, der vejer mindst 25 kg. </p>
+<p>Kivexa indeholder to aktive stoffer, der anvendes til at behandle hiv-infektioner: abacavir og lamivudin. 
+Disse aktive stoffer tilhører en gruppe af lægemidler, der kaldes nukleosidanalog revers 
+transkriptasehæmmere (NRTI'er). </p>
+<p>Kivexa helbreder ikke hiv-infektionen, men nedsætter mængden af virus i kroppen og holder den på et lavt 
+niveau. Kivexa øger også antallet af CD4-celler i dit blod. CD4-celler er en type hvide blodceller, der 
+spiller en vigtig rolle, når kroppen skal bekæmpe infektioner. </p>
+<p>Ikke alle reagerer ens på behandlingen med Kivexa. Din læge vil følge virkningen af din behandling. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take kivexa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take kivexa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Kivexa 
+• hvis du er allergisk (overfølsom) over for abacavir (eller andre lægemidler, der indeholder 
+abacavir f.eks. Trizivir, Triumeq eller Ziagen), lamivudin eller et af de øvrige indholdsstoffer i 
+dette lægemiddel (angivet i punkt 6) 
+ Læs grundigt alle oplysninger om overfølsomhedsreaktioner under punkt 4 </p>
+<p>Tal med lægen, hvis du mener, at noget af ovenstående gælder for dig. Tag ikke Kivexa. 
+Vær ekstra forsigtig med at tage Kivexa 
+Nogle personer, der tager Kivexa eller andre kombinationsbehandlinger mod hiv, har større risiko for at få 
+alvorlige bivirkninger end andre. Vær opmærksom på, at du har en større risiko: 
+• hvis du har en middelsvær eller svær leversygdom 
+• hvis du tidligere har haft en leversygdom, herunder hepatitis B eller C (hvis du har hepatitis B, 
+må du ikke stoppe med at tage Kivexa uden at tale med lægen først, da det kan få din hepatitis til 
+at blusse op igen) 
+• hvis du er svært overvægtig (særligt hvis du er kvinde). 
+• hvis du har en nyresygdom.  </p>
+<p>Tal med lægen, hvis noget af ovenstående gælder for dig, før du tager Kivexa. Det kan være 
+nødvendigt med ekstra kontrolbesøg, herunder blodprøver, mens du er i behandling. Se punkt 4 for 
+yderligere oplysninger.  </p>
+<p>Overfølsomhedsreaktioner over for abacavir 
+Selv patienter, som ikke har genet HLA-B*5701, kan udvikle en overfølsomhedsreaktion (en 
+alvorlig allergisk reaktion). </p>
+<p>Læs alle oplysninger om overfølsomhedsreaktioner grundigt under punkt 4 i denne 
+indlægsseddel. </p>
+<p>Risiko for hjerte-kar-tilfælde 
+Det kan ikke udelukkes, at abacavir kan øge risikoen for at få et hjerte-kar-tilfælde. </p>
+<p>Fortæl det til lægen, hvis du har hjerte-kar-problemer, hvis du ryger eller hvis du har andre 
+sygdomme, der kan øge din risiko for hjerte-kar-sygdomme, såsom forhøjet blodtryk eller 
+sukkersyge. Du må ikke stoppe med at tage Kivexa, medmindre lægen anbefaler dig at gøre det. </p>
+<p>Hold øje med vigtige symptomer 
+Nogle personer, der tager lægemidler mod hiv-infektioner, får andre bivirkninger, der kan være alvorlige. 
+Du skal kende til vigtige tegn og symptomer, du skal holde øje med, mens du tager Kivexa. </p>
+<p>Læs oplysningerne under 'Andre bivirkninger ved kombinationsbehandling af hiv' under 
+punkt 4 i denne indlægsseddel. </p>
+<p>Brug af andre lægemidler sammen med Kivexa 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. Dette gælder også lægemidler, som ikke er 
+købt på recept, f.eks. naturlægemidler og vitaminer og mineraler.<br />
+Husk at fortælle det til lægen eller apotekspersonalet, hvis du begynder at tage andre lægmidler, mens du 
+er i behandling med Kivexa. </p>
+<p>Følgende lægemidler må ikke tages sammen med Kivexa: </p>
+<ul>
+<li>
+<p>emtricitabin, til behandling af hiv-infektion. </p>
+</li>
+<li>
+<p>Andre lægemidler, der indeholder lamivudin, til behandling af hiv-infektion eller hepatitis B-
+infektion. </p>
+</li>
+<li>
+<p>høje doser af sulfamethoxazol/trimethoprim, til behandling af bakterieinfektioner. </p>
+</li>
+<li>
+<p>cladribin (mod hårcelleleukæmi). </p>
+</li>
+</ul>
+<p>Tal med lægen, hvis du tager et eller flere af disse lægemidler. </p>
+<p>Nogle lægemidler kan påvirke Kivexas virkning og omvendt 
+Disse omfatter: </p>
+<ul>
+<li>phenytoin, til behandling af epilepsi.   </li>
+</ul>
+<p>Tal med lægen, hvis du tager phenytoin. Lægen vil eventuelt holde ekstra øje med din behandling, 
+så længe du tager Kivexa. </p>
+<ul>
+<li>methadon, der anvendes som erstatning for heroin. Abacavir øger den hastighed, hvormed 
+methadon udskilles fra kroppen. Hvis du tager methadon, vil lægen holde øje med, om du får 
+abstinenser. Det kan være nødvendigt at ændre dosis af methadon.  </li>
+</ul>
+<p>Tal med lægen, hvis du tager methadon. </p>
+<p>• lægemidler (oftest opløsninger), der indeholder sorbitol eller andre sukkeralkoholer (som 
+f.eks. xylitol, mannitol, lactitol eller maltitol), hvis de anvendes regelmæssigt. </p>
+<p>Tal med lægen eller apotekspersonalet, hvis du tager nogle af disse. </p>
+<p>• riociguat, til behandling af forhøjet blodtryk i blodkarrene (lungearterierne), der fører blodet 
+fra hjertet til lungerne. Din læge kan have brug for at reducere din riociguat-dosis, da abacavir 
+kan øge niveauet af riociguat i blodet. </p>
+<p>Graviditet 
+Det anbefales ikke at tage Kivexa under graviditet. Kivexa og lignende lægemidler kan give fosteret 
+bivirkninger.<br />
+Hvis du har taget Kivexa under din graviditet, kan din læge bede om regelmæssige blodprøver og andre 
+diagnostiske undersøgelser for at overvåge barnets udvikling. For de børn, hvis mødre har taget NRTI'er i 
+løbet af graviditeten, opvejede fordelen ved beskyttelsen mod hiv risikoen ved bivirkningerne. </p>
+<p>Amning 
+Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet gennem 
+modermælken.<br />
+Indholdsstofferne i Kivexa kan også udskilles i små mængder i mælken.<br />
+Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt. </p>
+<p>Trafik- og arbejdssikkerhed 
+Kivexa kan give bivirkninger der kan påvirke din evne til at køre bil eller betjene maskiner.<br />
+Tal med lægen om din evne til at køre bil eller betjene maskiner når du tager Kivexa.  </p>
+<p>Vigtig information om nogle af de øvrige indholdsstoffer i Kivexa tabletter 
+Kivexa indeholder farvestoffet sunset yellow (E110), der kan forårsage overfølsomhedsreaktioner hos 
+nogle mennesker. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take kivexa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take kivexa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den sædvanlige dosis af Kivexa til voksne, unge og børn, som vejer mindst 25 kg, er én tablet én 
+gang daglig.  </p>
+<p>Tabletterne skal synkes hele med vand. Kivexa kan tages med eller uden mad. 
+Hold regelmæssig kontakt med lægen 
+Kivexa hjælper med at holde din sygdom under kontrol. Du skal tage lægemidlet hver dag for at forhindre, 
+at sygdommen forværres. Du kan stadig udvikle andre infektioner og sygdomme, der er forbundet med 
+hiv-infektionen. </p>
+<p>Hold kontakt med lægen, og stop ikke med at tage Kivexa uden at tale med lægen først. </p>
+<p>Hvis du har taget for mange Kivexa tabletter 
+Kontakt lægen, skadestuen eller apotekspersonalet, hvis du har taget mere Kivexa end der står her, eller 
+mere end lægen har foreskrevet.  </p>
+<p>Hvis du har glemt at tage Kivexa 
+Hvis du glemmer at tage en dosis, skal du tage den, så snart du kommer i tanke om det. Fortsæt derefter 
+behandlingen som før.<br />
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.  </p>
+<p>Det er vigtigt, at du tager Kivexa regelmæssigt, da der er større risiko for at få en overfølsomhedsreaktion, 
+hvis du tager lægemidlet uregelmæssigt. </p>
+<p>Hvis du holder op med at tage Kivexa 
+Hvis du er holdt op med at tage Kivexa af en eller anden grund - særligt hvis det er fordi, du mener, at du 
+får bivirkninger, eller fordi du har en anden sygdom: 
+Tal med lægen, inden du begynder at tage Kivexa igen. Lægen vil undersøge, om dine 
+bivirkninger skyldtes en overfølsomhedsreaktion. Hvis lægen mener, de kan være forårsaget af en 
+overfølsomhedsreaktion, vil lægen råde dig til aldrig mere at tage Kivexa eller nogen andre 
+lægemidler, som indeholder abacavir (f.eks. Trizivir, Triumeq eller Ziagen). Det er vigtigt, at 
+du følger lægens råd. </p>
+<p>Hvis lægen vurderer, at du kan begynde at tage Kivexa igen, bliver du muligvis bedt om at tage de første 
+doser på et sted, hvor du hurtigt kan få lægehjælp, hvis det skulle blive nødvendigt. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose i 
+blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-lægemidlet. Lægen vil holde øje med disse ændringer. </p>
+<p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Når du bliver behandlet for hiv, kan det være svært at afgøre, om dine symptomer skyldes Kivexa eller 
+andre lægemidler, eller om de skyldes hiv-sygdommen i sig selv. Det er derfor meget vigtigt, at du 
+fortæller lægen om enhver ændring i dit helbred. </p>
+<p>Selv patienter, som ikke har genet HLA-B*5701, kan udvikle en overfølsomhedsreaktion (en 
+alvorlig allergisk reaktion) beskrevet i denne indlægsseddel under overskriften 
+"Overfølsomhedsreaktioner". </p>
+<p>Det er meget vigtigt, at du læser og forstår oplysningerne om denne alvorlige reaktion. </p>
+<p>Ud over bivirkninger ved Kivexa nævnt nedenfor, kan du få andre sygdomme, når du får 
+kombinationsbehandling mod hiv.<br />
+Det er vigtigt, at du læser oplysningerne under 'Andre bivirkninger ved kombinationsbehandling af 
+hiv' senere i dette afsnit. </p>
+<p>Overfølsomhedsreaktioner 
+Kivexa indeholder abacavir (der også er et aktivt stof i lægemidler som Trizivir, Triumeq og Ziagen). 
+Abacavir kan forårsage en alvorlig allergisk reaktion, kendt som en overfølsomhedsreaktion.<br />
+Disse overfølsomhedsreaktioner er set oftere hos patienter, som tager lægemidler, der indeholder abacavir.  </p>
+<p>Hvem får sådanne reaktioner? 
+Alle, der tager Kivexa, kan få en overfølsomhedsreaktion over for abacavir, der kan være livstruende, hvis 
+de fortsætter med at tage Kivexa. 
+Du har større risiko for at få sådan en overfølsomhedsreaktion, hvis du har et gen, som kaldes HLA-
+B<em>5701 (men du kan også få en reaktion, selvom du ikke har dette gen). Du skal derfor undersøges for, 
+om du har dette gen, inden lægen ordinerer Kivexa. Hvis du ved, at du har genet HLA-B</em>5701, skal du 
+fortælle det til lægen, før du begynder at tage Kivexa. 
+I et klinisk forsøg udviklede 3-4 ud af 100 patienter, der blev behandlet med abacavir, og som ikke havde 
+et gen, som kaldes HLA-B*5701, en overfølsomhedsreaktion. </p>
+<p>Hvad er symptomerne? 
+De almindeligste symptomer er: </p>
+<ul>
+<li>
+<p>feber (høj kropstemperatur) og udslæt. 
+Andre almindelige symptomer: </p>
+</li>
+<li>
+<p>kvalme, opkastning, diarré, mavesmerter, udtalt træthed. 
+Andre symptomer: </p>
+</li>
+</ul>
+<p>Smerter i led og/eller muskler, hævelse af halsen, åndenød, ondt i halsen, hoste, lejlighedsvis hovedpine,<br />
+øjenbetændelse (konjunktivit), mundsår, lavt blodtryk, snurren eller følelsesløshed i hænder og/eller 
+fødder. </p>
+<p>Hvornår optræder symptomerne? 
+En overfølsomhedsreaktion kan opstå på et hvilket som helst tidspunkt under behandling med Kivexa, 
+men optræder normalt i de første 6 uger af behandlingen.  </p>
+<p>Kontakt lægen omgående: 
+1 
+hvis du får udslæt ELLER 
+2 
+hvis du får et eller flere symptomer fra mindst 2 af de følgende grupper:</p>
+<ul>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>åndenød, ondt i halsen eller hoste </p>
+</li>
+<li>
+<p>kvalme, opkastning, diarré eller mavesmerter </p>
+</li>
+<li>
+<p>udtalt træthed eller smerter eller generel følelse af at være syg. 
+Lægen kan råde dig til at stoppe behandlingen med Kivexa. 
+Hvis du holder op med at tage Kivexa 
+Hvis du holder op med at tage Kivexa på grund af en overfølsomhedsreaktion, må du ALDRIG MERE 
+tage Kivexa eller andre lægemidler, der indeholder abacavir (f.eks. Trizivir, Triumeq eller Ziagen). 
+Hvis du gør det, kan du inden for få timer få et alvorligt blodtryksfald, der kan medføre død.<br />
+Hvis du er holdt op med at tage Kivexa af en eller anden grund - særligt hvis det er, fordi du mener, du 
+har bivirkninger, eller fordi du har en anden sygdom: 
+Tal med lægen, inden du begynder at tage Kivexa igen. Lægen vil undersøge, om dine bivirkninger 
+skyldtes en overfølsomhedsreaktion. Hvis lægen mener, de kan være forårsaget af en 
+overfølsomhedsreaktion, vil lægen råde dig til aldrig mere at tage Kivexa eller nogen andre 
+lægemidler, som indeholder abacavir (f.eks. Trizivir, Triumeq eller Ziagen). Det er vigtigt, at du 
+følger lægens råd. </p>
+</li>
+</ul>
+<p>I nogle tilfælde er overfølsomhedsreaktioner opstået hos personer, der genoptog behandling med abacavir, 
+og som kun havde et af symptomerne på oplysningskortet, før de stoppede med at tage lægemidlet. </p>
+<p>I meget sjældne tilfælde er disse overfølsomhedsreaktioner opstået hos personer, der genoptog behandling 
+med abacavir, og som ikke havde nogen symptomer på overfølsomhed, før de stoppede med at tage 
+lægemidlet. </p>
+<p>Hvis lægen vurderer, at du kan begynde at tage Kivexa igen, bliver du muligvis bedt om at tage de første 
+doser på et sted, hvor du hurtigt kan få lægehjælp, hvis det skulle blive nødvendigt. </p>
+<p>Hvis du er overfølsom over for Kivexa, skal du returnere alle dine Kivexa tabletter, så de kan blive 
+destrueret korrekt. Spørg lægen eller apotekspersonalet til råds. 
+Der er vedlagt et oplysningskort i pakningen med Kivexa for at gøre dig og sundhedspersonalet 
+opmærksom på overfølsomhedsreaktioner over for abacavir. Tag kortet ud og hav det altid på dig.   </p>
+<p>Almindelige bivirkninger 
+Disse kan forekomme hos op til 1 ud af 10 personer: 
+• overfølsomhedsreaktioner 
+• hovedpine 
+• opkastning 
+• kvalme 
+• diarré 
+• mavesmerter 
+• appetitløshed 
+• træthed, manglende energi 
+• feber (høj kropstemperatur) 
+• almen utilpashed 
+• søvnproblemer (insomni) 
+• muskelsmerter og ubehag 
+• ledsmerter 
+• hoste 
+• irriteret eller løbende næse 
+• udslæt 
+• hårtab. 
+Ikke almindelige bivirkninger<br />
+Disse kan forekomme hos op til 1 ud af 100 personer og kan ses i blodprøver: 
+• lavt antal røde blodceller (anæmi) eller lavt antal hvide blodceller (neutropeni) 
+• øget niveau af leverenzymer 
+• nedsat antal af de blodceller, der har betydning for blodets evne til at størkne (trombocytopeni). </p>
+<p>Sjældne bivirkninger 
+Disse kan forekomme hos op til 1 ud af 1.000 personer: 
+• leversygdomme som gulsot, forstørret lever eller fedtlever, leverbetændelse (hepatitis) 
+• betændelse i bugspytkirtlen (pankreatitis) 
+• nedbrydning af muskelvæv. </p>
+<p>Sjældne bivirkninger, der kan ses i blodprøver: 
+• stigning i mængden af et enzym, som kaldes amylase. </p>
+<p>Meget sjældne bivirkninger 
+Disse kan forekomme hos op til 1 ud af 10.000 personer: 
+• følelsesløshed, snurrende fornemmelse i huden (prikken og stikken) 
+• en følelse af svaghed i arme og ben 
+• udslæt, der kan danne blister, og som ligner små målskiver (mørk plet i midten omgivet af et 
+lysere område, omsluttet af en mørk ring) (erythema multiforme) 
+• udbredt udslæt med blisterdannelse og hudafskalning, særligt omkring munden, næsen, øjnene 
+og kønsdelene (Stevens-Johnsons syndrom) og i alvorlige tilfælde med hudafskalning på mere 
+end 30 % af kroppens overflade (toksisk epidermal nekrolyse) 
+• for meget mælkesyre i blodet (laktacidose). </p>
+<p>Kontakt straks lægen, hvis du får nogle af disse symptomer. </p>
+<p>Meget sjældne bivirkninger, der kan ses i blodprøver:<br />
+• manglende dannelse af nye røde blodceller i knoglemarven (pure red cell aplasi). </p>
+<p>Hvis du får bivirkninger 
+Tal med lægen eller apotekspersonalet, hvis en bivirkning er generende eller bliver værre, eller 
+hvis du får bivirkninger, som ikke er nævnt her. </p>
+<p>Andre bivirkninger ved kombinationsbehandling af hiv 
+Kombinationsbehandling såsom Kivexa kan forårsage udvikling af andre sygdomme under behandlingen 
+af hiv. </p>
+<p>Symptomer på infektion eller betændelseslignende reaktioner (inflammation) </p>
+<p>Gamle infektioner kan blusse op </p>
+<p>Personer med fremskreden hiv-infektion eller AIDS har et svækket immunforsvar og har større risiko for 
+at udvikle alvorlige infektioner (opportunistiske infektioner). Sådanne infektioner kan have været ’stille’ 
+og ikke opdaget af det svækkede immunforsvar før behandlingens start. Efter start af behandling, bliver 
+immunforsvaret stærkere, og kan angribe infektionerne, hvilket kan give symptomer på infektion og 
+betændelse. Symptomer omfatter som regel feber, samt nogle af følgende:  </p>
+<p>• hovedpine 
+• mavesmerter 
+• åndenød. 
+I sjældne tilfælde kan immunforsvaret, når det bliver stærkere, også angribe raskt kropsvæv (autoimmune 
+forstyrrelser). Symptomer på autoimmune forstyrrelser kan opstå mange måneder efter, at du er startet 
+med at tage lægemidlet til behandling af din hiv-infektion. Symptomerne kan inkludere: </p>
+<p>• hjertebanken (hurtig eller uregelmæssig hjerterytme) eller rysten 
+• hyperaktivitet (voldsom rastløshed og bevægelse)<br />
+• svaghed, der starter i hænderne og fødderne og efterfølgende bevæger sig ind mod kroppen. </p>
+<p>Hvis du får symptomer på infektion og betændelse, eller hvis du bemærker nogle af de ovennævnte 
+symptomer: </p>
+<p>Kontakt straks lægen. Tag ikke andre lægemidler mod infektioner uden at tale med lægen først. </p>
+<p>Du kan få knogleproblemer 
+Nogle personer, der får kombinationsbehandling mod hiv, udvikler en sygdom, der kaldes osteonekrose. 
+Med denne sygdom dør dele af knoglevævet på grund af nedsat blodtilførsel til knoglerne. Du har større 
+risiko for at få denne sygdom: 
+• hvis du har fået kombinationsbehandling i lang tid 
+• hvis du også tager betændelseshæmmende lægemiddel, kaldet kortikosteroider 
+• hvis du drikker alkohol 
+• hvis dit immunsystem er meget svækket 
+• hvis du er overvægtig. 
+Symptomer på osteonekrose omfatter: 
+• stive led 
+• smerter (særligt i hofterne, knæene eller skuldrene) 
+• bevægelsesbesvær. 
+Hvis du bemærker et eller flere af disse symptomer: </p>
+<p>Tal med lægen. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store kivexa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store kivexa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste dag i 
+den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 ◦C. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kivexa indeholder: 
+Aktive stoffer: Hver Kivexa filmovertrukket tablet indeholder 600 mg abacavir (som sulfat) og 300 mg 
+lamivudin. </p>
+<p>Øvrige indholdsstoffer: Tabletkerne: Mikrokrystallinsk cellulose, natriumstivelsesglycolat og 
+magnesiumstearat. Filmovertræk: Opadry Orange YS-1-13065-A indeholdende hypromellose, titandioxid, 
+macrogol 400, polysorbat 80 og sunset yellow FCF (E110). </p>
+<p>Udseende og pakningsstørrelser 
+Kivexa filmovertrukne tabletter er præget med 'GS FC2' på den ene side. Tabletterne er orange og 
+kapselformede. De fås i blisterpakninger med 30 tabletter og i multiblisterpakninger med 90 (3x30) 
+tabletter. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+ViiV Healthcare BV, Van Asch van Wijckstraat 55H, 3811 LP Amersfoort, Holland </p>
+<p>Fremstiller 
+Glaxo Wellcome S.A., Avenida de Extremadura 3, 09400 Aranda de Duero Burgos, Spanien. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+ViiV Healthcare srl/bv 
+Tél/Tel: + 32 (0) 10 85 65 Lietuva 
+ViiV Healthcare BV 
+Tel: + 370 80000 </p>
+<p>България 
+ViiV Healthcare BV </p>
+<p>Teл.: + 359 80018 
+Luxembourg/Luxemburg 
+ViiV Healthcare srl/bv 
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 65<br />
+Česká republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+ViiV Healthcare BV </p>
+<p>Tel.: + 36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+ViiV Healthcare BV </p>
+<p>Tel: + 356 80065Deutschland 
+ViiV Healthcare GmbH<br />
+Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com </p>
+<p>Nederland 
+ViiV Healthcare BV<br />
+Tel: + 31 (0) 33 2081 
+Eesti 
+ViiV Healthcare BV </p>
+<p>Tel: + 372 8002 </p>
+<p>Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20<br />
+Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82 Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+Laboratorios ViiV Healthcare, S.L.<br />
+Tel: +34 900 923 es-ci@viivhealthcare.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9 
+France 
+ViiV Healthcare SAS<br />
+Tél.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
+<p>Portugal 
+VIIVHIV HEALTHCARE, 
+UNIPESSOAL, LDA<br />
+Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com  </p>
+<p>Hrvatska 
+800787Tel: + 385 800787 
+România 
+ViiV Healthcare BV </p>
+<p>Tel: + 4021800672 
+Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955Slovenija 
+ViiV Healthcare BV  </p>
+<p>Tel: + 386 80688 </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7Slovenská republika 
+ViiV Healthcare BV  </p>
+<p>Tel: + 421 800500 </p>
+<p>Italia 
+ViiV Healthcare S.r.l<br />
+Tel: + 39 (0)45 7741Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+ViiV Healthcare BV 
+Τηλ: + 357 80070 </p>
+<p>Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+ViiV Healthcare BV </p>
+<p>Tel: + 371 80205 </p>
+<p>United Kingdom (Northern Ireland) 
+ViiV Healthcare BV<br />
+Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
+<p>Denne indlægsseddel blev senest ændret {MM/YYYY}  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>BILAG IV  </p>
+<p>VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE<br />
+FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE  </p>
+<p>Videnskabelige konklusioner  </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for  abacavir / lamivudin, er 
+PRAC nået frem til følgende videnskabelige konklusioner: </p>
+<p>På baggrund af data for kardiovaskulære hændelser fra litteraturen angående abacavir, herunder en 
+plausibel virkningsmekanisme, mener PRAC, at advarsler og forsigtighedsregler for anvendelse af 
+produkter der indeholder abacavir bør revideres, for tilstrækkeligt at reflektere det gældende 
+informationsniveau for kardiovaskulære bivirkninger samt, i tråd med de gældende terapeutiske 
+retningslinier, at en anbefaling om ikke at anvende produkter, der indeholder abacavir til patienter i høj 
+kardiovaskulær risiko, bør inkluderes i produktinformationen. PRAC konkluderede, at 
+produktinformationen for produkter, der indeholder abacavir /lamivudin, skal ændres i overensstemmelse 
+hermed.  </p>
+<p>Efter at have gennemgået PRAC anbefalingen tilslutter CHMP sig PRAC's overordnede konklusioner og 
+begrundelser for anbefalingen. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne  </p>
+<p>På baggrund af de videnskabelige konklusioner for abacavir / lamivudin er CHMP af den opfattelse, at 
+benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder abacavir / lamivudin forbliver 
+uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-929afcdc432ad136a892cea5e12c839f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kivexa Package Leaflet for language en"
+Description: "ePI document Bundle for kivexa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-929afcdc432ad136a892cea5e12c839f"
+* entry[0].resource = composition-en-929afcdc432ad136a892cea5e12c839f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp929afcdc432ad136a892cea5e12c839f"
+* entry[=].resource = mp929afcdc432ad136a892cea5e12c839f
+                            
+                    
+Instance: bundlepackageleaflet-da-929afcdc432ad136a892cea5e12c839f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kivexa Package Leaflet for language da"
+Description: "ePI document Bundle for kivexa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-929afcdc432ad136a892cea5e12c839f"
+* entry[0].resource = composition-da-929afcdc432ad136a892cea5e12c839f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp929afcdc432ad136a892cea5e12c839f"
+* entry[=].resource = mp929afcdc432ad136a892cea5e12c839f
+                            
+                    
+
+
+
+Instance: mp929afcdc432ad136a892cea5e12c839f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Kivexa 600 mg/300 mg film-coated tablets"
-Description: "Kivexa 600 mg/300 mg film-coated tablets"
+Title: "Medicinal Product kivexa"
+Description: "kivexa"
 Usage: #inline
 
  
@@ -522,7 +1124,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Kivexa 600 mg/300 mg film-coated tablets"
+  * productName = "kivexa"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -549,29 +1151,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-929afcdc432ad136a892cea5e12c839f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for kivexa Package Leaflet for language en"
-Description: "ePI document Bundle for kivexa Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 929afcdc432ad136a892cea5e12c839fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/04/298/002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "kivexa"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-929afcdc432ad136a892cea5e12c839f"
-* entry[0].resource = composition-en-929afcdc432ad136a892cea5e12c839f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpdde7cef72b843fb58c5e64e5f5f55461"
-* entry[=].resource = mpdde7cef72b843fb58c5e64e5f5f55461
-                            
-                      
+* title = "List of all ePIs associated with kivexa"
+
+* subject = Reference(mpdde7cef72b843fb58c5e64e5f5f55461)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#kivexa "kivexa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-929afcdc432ad136a892cea5e12c839f) // kivexa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-929afcdc432ad136a892cea5e12c839f) // kivexa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-929afcdc432ad136a892cea5e12c839f
+InstanceOf: List
+
+* insert 929afcdc432ad136a892cea5e12c839fListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-62c46661f10ee1d05a1ac34b44b4b3a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for moventig Package Leaflet"
@@ -290,12 +293,478 @@ http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-da-62c46661f10ee1d05a1ac34b44b4b3a2
+InstanceOf: CompositionUvEpi
+Title: "Composition for moventig Package Leaflet"
+Description:  "Composition for moventig Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp13787f688cfb67002f7b9e2461aacbec)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp13787f688cfb67002f7b9e2461aacbec
+* title = "TEST PURPOSES ONLY - moventig"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Moventig 
+3. Sådan skal du tage Moventig 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What moventig is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What moventig is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Moventig indeholder det aktive stof naloxegol. Det er et lægemiddel, der anvendes til voksne til 
+behandling af forstoppelse, der er specifikt forårsaget af regelmæssig brug af smertestillende 
+lægemidler, der kaldes opioider (f.eks. morfin, oxycodon, fentanyl, tramadol og kodein). Det 
+anvendes, når afføringsmidler ikke har givet tilfredsstillende lindring af forstoppelse. </p>
+<p>Opioid-relateret forstoppelse kan resultere i symptomer, såsom: </p>
+<ul>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>anstrengelse ved afføring (du skal presse meget hårdt for at få afføringen ud af endetarmen, 
+hvilket også kan forårsage smerter i endetarmsåbningen, når du presser) </p>
+</li>
+<li>
+<p>hård afføring (afføringer, der er "hårde som sten") </p>
+</li>
+<li>
+<p>ufuldstændig tømning af endetarmen (efter en afføring er der en følelse af, at der stadig er 
+afføring i endetarmen, som skal ud) </p>
+</li>
+</ul>
+<p>Det er påvist i kliniske forsøg; at Moventig øger antallet af afføringer og forbedrer opioidforårsagede 
+forstoppelsessymptomer hos patienter, der tager opioider, der forårsager forstoppelse, og som har 
+prøvet mindst et afføringsmiddel uden at opnå komplet lindring af forstoppelse. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take moventig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take moventig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Moventig: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for naloxegol eller lignende lægemidler eller et af de øvrige 
+indholdsstoffer i Moventig (angivet i afsnit 6). </p>
+</li>
+<li>
+<p>hvis dine tarme er, eller der er mistanke om, at de er blokerede, eller hvis du har fået at vide, at 
+du har risiko for, at dine tarme bliver blokeret. </p>
+</li>
+<li>
+<p>hvis du har kræft i tarmen eller ’bughinden’ (en hinde i maveregionen) eller fremskreden eller 
+tilbagevendende kræft i æggestokkene, eller hvis du tager lægemidler, der anvendes til 
+behandling af kræft, såsom "VEGF-hæmmere" (f.eks. bevacizumab). </p>
+</li>
+<li>
+<p>hvis du tager visse andre lægemidler, såsom ketoconazol eller itraconazol (til behandling af 
+svampeinfektioner), clarithromycin eller telithromycin (antibiotika) eller ritonavir, indinavir 
+eller saquinavir (til behandling af hiv). </p>
+</li>
+</ul>
+<p>Brug ikke Moventig, hvis noget af ovenstående gælder for dig. Hvis du er i tvivl, så spørg lægen, 
+apotekspersonalet eller sundhedspersonalet, før du tager Moventig. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du tager Moventig: </p>
+<ul>
+<li>
+<p>hvis du har mavesår, Crohns sygdom (en sygdom med betændelse i tarmen), diverticulitis (en 
+anden sygdom med betændelse i tarmen), kræft i tarmen eller ’bughinden’ (hinden i 
+maveregionen) eller en anden sygdom, som eventuelt kan beskadige tarmvæggen. </p>
+</li>
+<li>
+<p>hvis du for nuværende har usædvanligt stærke, vedvarende eller forværrede mavesmerter. </p>
+</li>
+<li>
+<p>hvis den naturlige beskyttelsesbarriere mellem blodkarrene i hovedet og i hjernen (den såkaldte 
+blod-hjerne-barriere) er beskadiget, for eksempel hvis du har kræft i hjernen eller 
+centralnervesystemet, eller hvis du har en sygdom i centralnervesystemet, såsom multipel 
+sklerose eller Alzheimers sygdom. Kontakt omgående lægen, hvis dine smerter ikke lindres med 
+dine opioider, eller hvis du får opioidabstinens (se afsnit 4). </p>
+</li>
+<li>
+<p>hvis du tager methadon (se afsnittet nedenfor "Brug af anden medicin sammen med Moventig"). </p>
+</li>
+<li>
+<p>hvis du har haft et hjertetilfælde inden for de sidste 6 måneder, hvis du har hjertesvigt med 
+daglig stakåndethed eller andre alvorlige problemer med hjertet, som forårsager daglige 
+symptomer. </p>
+</li>
+<li>
+<p>hvis du har nyreproblemer - Din læge vil eventuelt ordinere en anden dosis (se afsnittet "Sådan 
+skal du tage Moventig" nedenfor). </p>
+</li>
+<li>
+<p>hvis du har en alvorlig leversygdom. </p>
+</li>
+</ul>
+<p>Hvis noget af ovennævnte gælder for dig, eller du er i tvivl, så spørg lægen, apotekspersonalet eller 
+sundhedspersonalet, før du tager Moventig. </p>
+<p>Kontakt lægen, apotekspersonalet eller sundhedspersonalet, mens du tager Moventig: </p>
+<ul>
+<li>
+<p>hvis du får stærke, vedvarende eller forværrede mavesmerter. Det kan være et symptom på 
+beskadigelse af tarmvæggen, som kan være livstruende. Kontakt omgående lægen. Du skal 
+måske have en lavere dosis eller stoppe med at tage Moventig. </p>
+</li>
+<li>
+<p>hvis din behandling med opioider skal afbrydes i mere end 24 timer. </p>
+</li>
+<li>
+<p>hvis du får symptomer på opioidabstinens (se afsnit 4 nedenfor). Kontakt lægen, det kan være 
+nødvendigt at stoppe behandlingen med Moventig. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Moventig er ikke anbefalet til brug hos børn og unge under 18 år, fordi det ikke er blevet undersøgt i 
+disse aldersgrupper. </p>
+<p>Brug af anden medicin sammen med Moventig 
+Fortæl lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. Fortæl 
+lægen, hvilke smertestillende opioider, du tager, og i hvilken dosis. </p>
+<p>Tag ikke Moventig, hvis du tager et eller flere af følgende lægemidler (se afsnittet "Tag ikke 
+Moventig"): </p>
+<ul>
+<li>
+<p>ketoconazol eller itraconazol - til behandling af svampeinfektioner </p>
+</li>
+<li>
+<p>clarithromycin eller telithromycin - antibiotika </p>
+</li>
+<li>
+<p>ritonavir, indinavir eller saquinavir - til behandling af hiv </p>
+</li>
+</ul>
+<p>Tag ikke Moventig, hvis noget af ovenstående gælder for dig. </p>
+<p>Fortæl det til lægen, apotekspersonalet eller sundhedspersonalet, hvis du tager et eller flere af følgende 
+lægemidler: </p>
+<ul>
+<li>
+<p>andre lægemidler mod forstoppelse (et hvilket som helst afføringsmiddel) </p>
+</li>
+<li>
+<p>methadon </p>
+</li>
+<li>
+<p>diltiazem eller verapamil (mod forhøjet blodtryk eller brystsmerter (angina)). Det kan være, at 
+du skal tage en lavere dosis af Moventig. </p>
+</li>
+<li>
+<p>rifampicin (et antibiotikum), carbamazepin (mod epilepsi) eller naturlægemidlet perikon (mod 
+depression). Det kan være, at du skal stoppe med at tage Moventig. </p>
+</li>
+<li>
+<p>lægemidler, der kaldes ‘opioidantagonister’ (såsom naltrexon og naloxon), som anvendes til at 
+modvirke virkningen af opioider. </p>
+</li>
+</ul>
+<p>Hvis noget af ovennævnte gælder for dig, eller du er i tvivl, så spørg lægen, apotekspersonalet eller 
+sundhedspersonalet, før du tager Moventig. </p>
+<p>Brug af Moventig sammen med drikke 
+Du bør ikke drikke store mængder grapefrugtjuice, når du tager Moventig. Det skyldes, at store 
+mængder heraf kan påvirke mængden af medicin (naloxegol), som du får ind i kroppen. </p>
+<p>Graviditet og amning 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge, apotekspersonalet eller sundhedspersonalet til råds, før du tager dette lægemiddel. Da der er 
+yderligere data fra anvendelsen af dette lægemiddel til gravide kvinder, frarådes det at bruge Moventig 
+under graviditeten. </p>
+<p>Da det er ukendt, om dette lægemiddel udskilles i human mælk, må Moventig ikke bruges, hvis du 
+ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Moventig forventes ikke at påvirke din evne til at køre bil og betjene værktøj og maskiner. </p>
+<p>Moventig indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 12,5 mg / 25 mg tablet, dvs. det 
+er i det væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take moventig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take moventig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller på apoteket. </p>
+<p>Den anbefalede dosis er én 25 mg-tablet om dagen. </p>
+<p>Tag Moventig om morgenen for at undgå afføring midt om natten. Moventig skal tages på tom mave 
+mindst 30 minutter før dagens første måltid eller 2 timer efter dagens første måltid. </p>
+<p>Når du begynder på behandlingen med Moventig, behøver du ikke at stoppe med at tage 
+afføringsmidler, medmindre din læge beder dig om at stoppe. Moventig kan bruges med eller uden 
+afføringsmidler. </p>
+<p>Du skal holde op med at tage Moventig, hvis behandlingen med smertestillende opioid bliver stoppet. </p>
+<p>Din læge vil eventuelt anvise en lavere dosis på 12,5 mg </p>
+<ul>
+<li>
+<p>hvis du har nyreproblemer. </p>
+</li>
+<li>
+<p>hvis du tager diltiazem eller verapamil (mod forhøjet blodtryk eller brystsmerter (angina)). </p>
+</li>
+</ul>
+<p>Afhængigt af, hvordan du reagerer på medicinen, vil lægen eventuelt øge din dosis til 25 mg. </p>
+<p>Hvis du har problemer med at synke tabletten 
+Hvis du har problemer med at synke tabletten, kan du knuse den og blande den med vand på denne 
+måde: </p>
+<ul>
+<li>
+<p>Knus tabletten til pulver </p>
+</li>
+<li>
+<p>Hæld pulveret i et halvt glas vand (120 ml) </p>
+</li>
+<li>
+<p>Rør rundt og drik straks vandet </p>
+</li>
+<li>
+<p>For at sikre, at der ikke er noget medicin tilbage, skal du skylle det tomme glas med endnu et 
+halvt glas vand (120 ml) og drikke det. </p>
+</li>
+</ul>
+<p>Hvis du har taget for meget Moventig 
+Kontakt lægen eller tag på skadestuen, hvis du har taget mere af Moventig, end der står i denne 
+information, eller mere end lægen har foreskrevet. </p>
+<p>Hvis du har glemt at tage Moventig </p>
+<ul>
+<li>
+<p>Hvis du glemmer en dosis af Moventig, skal du tage den, så snart du kommer i tanker om det. 
+Hvis der er mindre end 12 timer til din næste dosis, skal du dog springe den glemte dosis over. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+</li>
+</ul>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Stop med at tage lægemidlet, og fortæl det straks til lægen, hvis du udvikler opioidabstinens-
+symptomer (hvis du har en kombination af tre eller flere af følgende symptomer: nedtrykthed, kvalme, 
+opkastning, muskelsmerter, øget tåresekretion, næseflåd, udvidede pupiller, gåsehud, udtalt 
+svedtendens, diarré, gaben, feber eller søvnløshed), hvilket normalt vil indtræde i løbet af de første 
+dage efter opstart af naloxegol. Opioidabstinens-symptomer kan forekomme hos op til 1 ud af 
+100 personer. </p>
+<p>Andre bivirkninger: 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>diarré (hyppige, vandige afføring) </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>luftafgang fra tarmen </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>nasofaryngitis (snue med løbende eller tilstoppet næse) </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>udtalt svedtendens </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>allergisk reaktion </p>
+</li>
+<li>
+<p>gastrointestinal perforation (der udvikles et hul i tarmvæggen) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store moventig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store moventig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter "EXP". Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Moventig indeholder: </p>
+<ul>
+<li>Aktivt stof: naloxegol. </li>
+<li>Hver Moventig 12,5 mg filmovertrukken tablet (tablet) indeholder 12,5 mg naloxegol 
+som naloxegoloxalat. </li>
+<li>
+<p>Hver Moventig 25 mg filmovertrukken tablet (tablet) indeholder 25 mg naloxegol som 
+naloxegoloxalat. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>tabletkerne: mannitol (E421), mikrokrystallinsk cellulose (E460), croscarmellosenatrium 
+(E468) - se afsnit 2 under ’Moventig indeholder natrium’, magnesiumstearat (E470b), 
+propylgallat (E310). </p>
+</li>
+<li>filmovertræk: hypromellose (E464), titandioxid (E171), macrogol (E1521), rød jernoxid 
+(E172) og sort jernoxid (E172). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Moventig 12,5 mg: en lyserød, oval, filmovertrukken tablet, der måler 10,5 x 5,5 mm og er mærket 
+"nGL" på den ene side og "12.5" på den anden side. </p>
+<p>Moventig 25 mg: en lyserød oval, filmovertrukken tablet, der måler 13 x 7 mm og er mærket "nGL" 
+på den ene side og "25" på den anden side. </p>
+<p>Moventig 12,5 mg tabletter fås i aluminiumblistre i pakningsstørrelserne 30 eller 90 filmovertrukne 
+tabletter i blistre uden perforering og 30x1 eller 90x1 tabletter i perforerede enkeltdosisblistre. </p>
+<p>Moventig 25 mg tabletter fås i aluminiumblistre i pakningsstørrelserne 10, 30 eller 90 filmovertrukne 
+tabletter i blistre uden perforering og 10x1, 30x1, 90x1 eller 100x1 tabletter i perforerede 
+enkeltdosisblistre. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Kyowa Kirin Holdings B.V. 
+Bloemlaan 2 
+2132NP Hoofddorp 
+Holland </p>
+<p>Fremstiller 
+Piramal Pharma Solutions (Dutch) B.V. 
+Bargelaan 200 u Leiden 
+2333CW<br />
+Holland </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-62c46661f10ee1d05a1ac34b44b4b3a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for moventig Package Leaflet for language en"
+Description: "ePI document Bundle for moventig Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-62c46661f10ee1d05a1ac34b44b4b3a2"
+* entry[0].resource = composition-en-62c46661f10ee1d05a1ac34b44b4b3a2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp62c46661f10ee1d05a1ac34b44b4b3a2"
+* entry[=].resource = mp62c46661f10ee1d05a1ac34b44b4b3a2
+                            
+                    
+Instance: bundlepackageleaflet-da-62c46661f10ee1d05a1ac34b44b4b3a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for moventig Package Leaflet for language da"
+Description: "ePI document Bundle for moventig Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-62c46661f10ee1d05a1ac34b44b4b3a2"
+* entry[0].resource = composition-da-62c46661f10ee1d05a1ac34b44b4b3a2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp62c46661f10ee1d05a1ac34b44b4b3a2"
+* entry[=].resource = mp62c46661f10ee1d05a1ac34b44b4b3a2
+                            
+                    
+
+
+
+Instance: mp62c46661f10ee1d05a1ac34b44b4b3a2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Moventig 12.5 mg film-coated tablets"
-Description: "Moventig 12.5 mg film-coated tablets"
+Title: "Medicinal Product moventig"
+Description: "moventig"
 Usage: #inline
 
  
@@ -315,7 +784,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Moventig 12.5 mg film-coated tablets"
+  * productName = "moventig"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -342,29 +811,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-62c46661f10ee1d05a1ac34b44b4b3a2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for moventig Package Leaflet for language en"
-Description: "ePI document Bundle for moventig Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 62c46661f10ee1d05a1ac34b44b4b3a2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/962/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "moventig"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-62c46661f10ee1d05a1ac34b44b4b3a2"
-* entry[0].resource = composition-en-62c46661f10ee1d05a1ac34b44b4b3a2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp13787f688cfb67002f7b9e2461aacbec"
-* entry[=].resource = mp13787f688cfb67002f7b9e2461aacbec
-                            
-                      
+* title = "List of all ePIs associated with moventig"
+
+* subject = Reference(mp13787f688cfb67002f7b9e2461aacbec)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#moventig "moventig"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-62c46661f10ee1d05a1ac34b44b4b3a2) // moventig en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-62c46661f10ee1d05a1ac34b44b4b3a2) // moventig da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-62c46661f10ee1d05a1ac34b44b4b3a2
+InstanceOf: List
+
+* insert 62c46661f10ee1d05a1ac34b44b4b3a2ListRuleset
+    

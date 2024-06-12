@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-057978e6508bd77bd6c65ec1f7b062f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for cimzia Package Leaflet"
@@ -553,12 +556,1017 @@ Tel: + 353 / (0)1-46 37 This leaflet was last revised in {MM/YYYY}  </p>
 
 
 
+Instance: composition-da-057978e6508bd77bd6c65ec1f7b062f7
+InstanceOf: CompositionUvEpi
+Title: "Composition for cimzia Package Leaflet"
+Description:  "Composition for cimzia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf95823100718ce3a4084e722875cdcdc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf95823100718ce3a4084e722875cdcdc
+* title = "TEST PURPOSES ONLY - cimzia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen vil også give dig et patient-påmindelseskort, der indeholder vigtig sikkerhedsinformation, som 
+du skal være opmærksom på, før og under behandlingen med Cimzia. Hav altid dette 
+patient-påmindelseskort på dig. </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Cimzia 
+3. Sådan skal du bruge Cimzia 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cimzia is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cimzia is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cimzia indeholder certolizumab pegol, som er et fragment af et humant antistof. Antistoffer er 
+proteiner, der genkender og binder sig til visse andre proteiner. Cimzia bindes til et specielt protein, 
+som kaldes tumornekrosefaktor-alfa (TNF-α). Derved blokeres denne TNFα af Cimzia, og det sænker 
+inflammationssygdomme som f.eks. i reumatoid artritis, aksial spondylartritis, psoriasisartritis og 
+psoriasis. Medicin, som bindes til TNF-α, kaldes også TNF-blokkere.  </p>
+<p>Cimzia anvendes til voksne ved følgende inflammatoriske sygdomme (sygdomme med 
+betændelseslignende reaktioner): </p>
+<ul>
+<li>
+<p>reumatoid artritis, </p>
+</li>
+<li>
+<p>aksial spondyloartritis (herunder ankyloserende spondylitis og aksial spondyloartritis uden 
+tegn på ankyloserende spondylitis ved røntgen), </p>
+</li>
+<li>
+<p>psoriasisartritis, </p>
+</li>
+<li>
+<p>plaque psoriasis. </p>
+</li>
+</ul>
+<p>Reumatoid artritis 
+Cimzia anvendes til behandling af reumatoid artritis. Reumatoid artritis er en sygdom med 
+inflammation i leddene. Hvis du har moderat til alvorlig aktiv reumatoid artritis, er det muligt, at du 
+først får andre lægemidler, sædvanligvis methotrexat. Hvis du ikke reagerer tilfredsstillende på disse 
+lægemidler, vil du få Cimzia i kombination med methotrexat til behandling af din reumatoid artritis. 
+Hvis lægen vurderer, at det er uhensigtsmæssigt at give methrotrexat, kan Cimzia gives alene. </p>
+<p>Cimzia i kombination med methotrexat kan også anvendes til behandling af alvorlig, aktiv og 
+fremadskridende reumatoid artritis uden forudgående behandling med methotrexat eller andre 
+lægemidler. </p>
+<p>Cimzia i kombination med methotrexat anvendes for at: </p>
+<ul>
+<li>
+<p>mindske dine sygdomstegn og -symptomer, </p>
+</li>
+<li>
+<p>bremse skader på brusk og knogler i leddene, som er forårsaget af sygdommen, </p>
+</li>
+<li>
+<p>forbedre din fysiske funktion og formåen i forhold til at varetage daglige gøremål. </p>
+</li>
+</ul>
+<p>Ankyloserende spondylitis og aksial spondyloartritis uden tegn på ankyloserende spondylitis ved 
+røntgen 
+Cimzia anvendes til behandling af alvorlig aktiv ankyloserende spondylitis og aksial spondyloartritis 
+uden tegn på ankyloserende spondylitis ved røntgen (undertiden benævnt som ikke-radiografisk aksial 
+spondyloartritis). Dette er sygdomme med inflammation i rygsøjlen. Hvis du har ankyloserende 
+spondylitis eller ikke-radiografisk aksial spondyloartritis vil du først få andre lægemidler. Hvis du ikke 
+reagerer tilfredsstillende på disse lægemidler, vil du få Cimzia for at: </p>
+<ul>
+<li>
+<p>mindske dine sygdomstegn og -symptomer, </p>
+</li>
+<li>
+<p>forbedre din fysiske funktion og formåen i forhold til at varetage daglige gøremål. </p>
+</li>
+</ul>
+<p>Psoriasisartritis 
+Cimzia anvendes til behandling af aktiv psoriasisartritis. Psoriasisartritis er en sygdom med 
+inflammation i leddene, som regel ledsaget af psoriasis. Hvis du har aktiv psoriasisartritis vil du først 
+få andre lægemidler, sædvanligvis methotrexat. Hvis du ikke reagerer tilfredsstillende på disse 
+lægemidler, vil du få Cimzia samtidig med methotrexat for at: </p>
+<ul>
+<li>
+<p>mindske dine sygdomstegn og -symptomer, </p>
+</li>
+<li>
+<p>forbedre din fysiske funktion og formåen i forhold til at varetage daglige gøremål. 
+Hvis lægen vurderer, at det er uhensigtsmæssigt at give methotrexat, kan Cimzia gives alene. </p>
+</li>
+</ul>
+<p>Plaque psoriasis 
+Cimzia bruges til at behandle moderat til svær plaque psoriasis. Plaque psoriasis er en inflammatorisk 
+sygdom i huden og kan også påvirke din hovedbund og negle.<br />
+Cimzia bruges til at reducere hudinflammation og andre tegn og symptomer på din sygdom.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cimzia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cimzia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug IKKE Cimzia 
+- Hvis du er ALLERGISK over for certolizumab pegol eller et af de øvrige indholdsstoffer i 
+dette lægemiddel (angivet i punkt 6). 
+- Hvis du har en alvorlig infektion, herunder aktiv TUBERKULOSE (TB). 
+- Hvis du har moderat til alvorligt HJERTESVIGT. Fortæl det til lægen, hvis du har eller har 
+haft en alvorlig hjertesygdom. </p>
+<p>Advarsler og forsigtighedsregler 
+Fortæl det til lægen før behandlingen med Cimzia, hvis noget af nedenstående gælder for dig: 
+Allergiske reaktioner 
+- Hvis du oplever ALLERGISKE REAKTIONER, såsom trykken i brystet, hiven efter vejret, 
+svimmelhed, hævelser eller udslæt, skal du stoppe med at bruge Cimzia og STRAKS kontakte 
+lægen. Nogle af disse reaktioner kan opstå efter første indgift af Cimzia. 
+- Hvis du nogensinde har haft en allergisk reaktion over for latex. </p>
+<p>Infektioner 
+- Hvis du har haft TILBAGEVENDENDE eller OPPORTUNISTISKE INFEKTIONER 
+(infektioner som kun fremkommer, hvis du er særligt disponeret) eller andre tilstande, som øger 
+infektionsrisikoen (såsom behandling med immunsuppressive lægemidler, som er medicin, der 
+kan nedsætte din evne til at bekæmpe infektioner). 
+- Hvis du har en infektion, eller hvis du udvikler symptomer, såsom feber, sår, træthed eller 
+tandproblemer. Det er muligt, at du nemmere får en infektion, herunder alvorlige eller i sjældne 
+tilfælde livstruende infektioner, mens du er i behandling med Cimzia. 
+- Der er blevet indberettet tilfælde af TUBERKULOSE (TB) hos patienter, som blev behandlet 
+med Cimzia. Lægen vil undersøge dig for tegn og symptomer på tuberkulose, før du starter 
+behandlingen med Cimzia. Dette vil omfatte en grundig undersøgelse af dine tidligere 
+sygdomme, et røntgenbillede af brystkassen og en tuberkulintest. Udførelsen af disse 
+undersøgelser bør noteres på dit patient-påmindelseskort. Hvis der diagnosticeres inaktiv 
+(latent) tuberkulose, skal du måske have medicin mod tuberkulose, før du begynder på 
+behandling med Cimzia. I sjældne tilfælde kan tuberkulose udvikles under behandlingen, også 
+selv om du har fået forebyggende behandling mod tuberkulose. Det er meget vigtigt, at du 
+fortæller det til lægen, hvis du nogensinde har haft tuberkulose, eller hvis du har været i tæt 
+kontakt med en person, som har haft tuberkulose. Hvis der opstår symptomer på tuberkulose 
+(vedvarende hoste, vægttab, ligegyldighed, mild feber) eller en hvilken som helst anden 
+infektion under eller efter behandlingen med Cimzia, skal du straks fortælle det til lægen. 
+- Hvis du har risiko for at få, er bærer af eller har aktiv HEPATITIS B VIRUS (HBV)-infektion, 
+kan Cimzia forøge risikoen for reaktivering, hos personer der bærer denne virus. Hvis dette 
+gælder for dig, skal du stoppe med at anvende Cimzia. Din læge vil teste dig for HBV, før 
+behandling med Cimzia påbegyndes. </p>
+<p>Hjertesvigt 
+- Hvis du har let HJERTESVIGT og du er i behandling med Cimzia, skal status for dit 
+hjertesvigt følges nøje af lægen. Det er vigtigt, at du fortæller det til lægen, hvis du har eller har 
+haft en alvorlig hjertesygdom. Hvis du udvikler nye eller forværrede symptomer på hjertesvigt 
+(f.eks. åndenød eller opsvulmede fødder), skal du straks kontakte lægen. Lægen kan vælge at 
+stoppe behandlingen. </p>
+<p>Kræft 
+- Det er ualmindeligt, men tilfælde af visse former for KRÆFT er blevet set hos patienter 
+behandlet med Cimzia eller andre TNF-blokkere. Patienter med mere alvorlig reumatoid artritis, 
+som har haft sygdommen i lang tid, kan i forhold til gennemsnittet have øget risiko for at få en 
+kræfttype, som kaldes lymfomer, som påvirker lymfesystemet. Hvis du tager Cimzia, kan 
+risikoen for at få lymfekræft eller andre former for kræft øges. Desuden er der observeret 
+ualmindelige tilfælde af non-melanom hudkræft hos patienter, som tog Cimzia. Du skal fortælle 
+det til lægen, hvis der opstår nye hudlæsioner under eller efter behandlingen med Cimzia, eller 
+hvis eksisterende hudlæsioner forandrer udseende.<br />
+- Hos børn og unge, som tager TNF-blokerende midler, har der været tilfælde af kræft, herunder 
+usædvanlige typer, som undertiden har været dødelige (se nedenfor under "Børn og unge"). </p>
+<p>Andre sygdomme 
+- Patienter med kronisk obstruktiv lungesygdom (KOL) eller storrygere kan have en øget risiko 
+for kræft ved behandling med Cimzia. Hvis du har KOL eller er storryger, skal du drøfte med 
+lægen, om behandling med en TNF-blokker er hensigtsmæssig for dig. 
+- Hvis du har en sygdom i nervesystemet, såsom multipel sklerose, vil din læge beslutte, om du 
+skal bruge Cimzia.<br />
+- Hos nogle patienter producerer kroppen ikke tilstrækkeligt af de blodlegemer, som hjælper 
+kroppen med at bekæmpe infektioner eller stoppe blødninger. Hvis du får feber, som ikke 
+forsvinder, blå mærker, bløder meget let eller er meget bleg, skal du straks kontakte lægen. 
+Lægen kan beslutte, om behandlingen med Cimzia skal stoppe. 
+- Det er ualmindeligt, men symptomer på en sygdom som kaldes lupus (f.eks. vedvarende udslæt, 
+feber, ledsmerter og træthed) kan forekomme. Hvis du får disse symptomer, skal du kontakte 
+lægen. Lægen kan beslutte, om behandlingen med Cimzia skal stoppe. </p>
+<p>Vaccinationer 
+- Tal med lægen hvis du har fået eller skal have en vaccination. Du må ikke få visse (levende) 
+vacciner under behandling med Cimzia. 
+- Visse vaccinationer kan medføre infektion. Hvis du har fået Cimzia, mens du var gravid, kan dit 
+barn have øget risiko for at få en sådan infektion i op til ca. fem måneder efter den sidste dosis, 
+du fik under din graviditet. Det er vigtigt, at du fortæller det til dit barns læge og andet 
+sundhedspersonale, at du har brugt Cimzia, så de kan afgøre, hvornår dit barn kan blive 
+vaccineret. </p>
+<p>Operationer eller tandbehandling 
+- Tal med lægen hvis du skal have foretaget operationer eller tandbehandling. Fortæl det til 
+kirurgen eller tandlægen, som skal udføre behandlingen, at du får behandling med Cimzia ved at 
+vise dem dit patient-påmindelseskort. </p>
+<p>Børn og unge 
+Cimzia anbefales ikke til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Cimzia 
+Du bør IKKE bruge Cimzia, hvis du bruger følgende medicin til behandling af reumatoid artritis:</p>
+<ul>
+<li>anakinra </li>
+<li>abatacept 
+Hvis du har spørgsmål, så kontakt lægen. </li>
+</ul>
+<p>Cimzia kan bruges samtidig med:</p>
+<ul>
+<li>methotrexat, </li>
+<li>kortikosteroider, eller </li>
+<li>smertestillende medicin, herunder non-steroide antiinflammatoriske stoffer (også kaldet 
+NSAIDer). </li>
+</ul>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for nylig. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Der er begrænset erfaring med brug af Cimzia til gravide kvinder.<br />
+Cimzia bør kun anvendes under graviditet, hvis det tydeligvis er nødvendigt. Hvis du er en kvinde i 
+den fødedygtige alder, tal da med din læge om brug af passende prævention under behandlingen med 
+Cimzia. Hos kvinder, som planlægger graviditet, kan prævention overvejes i 5 måneder efter den 
+sidste dosis af Cimzia. </p>
+<p>Hvis du har fået Cimzia, mens du var gravid, kan dit barn have en højere risiko for at få en infektion. 
+Det er vigtigt, at du fortæller det til dit barns læge og andet sundhedspersonale, at du har brugt Cimzia, 
+inden dit barn bliver vaccineret (se afsnittet om vaccinationer for yderligere oplysninger). </p>
+<p>Cimzia kan anvendes under amning. </p>
+<p>Trafik- og arbejdssikkerhed 
+Cimzia kan påvirke evnen til at føre motorkøretøj eller betjene maskiner i mindre grad. Svimmelhed 
+(herunder følelsen af, at rummet drejer rundt, sløret syn eller træthed) kan forekomme, efter du har 
+taget Cimzia. </p>
+<p>Cimzia indeholder natriumacetat og natriumchlorid 
+Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. 400 mg, dvs. den er stort set 
+"natriumfri". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cimzia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cimzia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Reumatoid artritis </p>
+<ul>
+<li>
+<p>Startdosis til voksne med reumatoid artritis er 400 mg ved uge 0, 2 og 4. * Dette efterfølges af en vedligeholdelsesdosis på 200 mg hver 2. uge. Hvis du reagerer på 
+lægemidlet, kan din læge ordinere en alternativ vedligeholdelsesdosis på 400 mg hver 4. uge.  </p>
+</li>
+<li>
+<p>Behandling med methotrexat fortsættes under behandling med Cimzia. Hvis din læge afgør, at 
+behandling med methotrexat er uhensigtsmæssig, kan Cimzia gives alene. </p>
+</li>
+</ul>
+<p>Aksial spondyloartritis </p>
+<ul>
+<li>Startdosis til voksne med aksial spondyloartritis er 400 mg givet ved uge 0, 2 og 4. * Dette efterfølges af en vedligeholdelsesdosis på 200 mg hver 2. uge (fra uge 6) eller 400 mg hver </li>
+<li>uge (fra uge 8), som anvist af lægen. Hvis du har fået Cimzia i mindst et år og responderer på 
+lægemidlet, kan din læge ordinere en reduceret vedligeholdelsesdosis på 200 mg hver 4. uge. </li>
+</ul>
+<p>Psoriasisartritis </p>
+<ul>
+<li>
+<p>Startdosis til voksne med psoriasisartritis er 400 mg ved uge 0, 2 og 4. * Dette efterfølges af en vedligeholdelsesdosis på 200 mg hver 2. uge. Hvis du reagerer på 
+lægemidlet, kan din læge ordinere en alternativ vedligeholdelsesdosis på 400 mg hver 4. uge.  </p>
+</li>
+<li>
+<p>Behandling med methotrexat fortsættes under behandling med Cimzia. Hvis din læge afgør, at 
+behandling med methotrexat er uhensigtsmæssig, kan Cimzia gives alene. </p>
+</li>
+</ul>
+<p>Plaque psoriasis 
+• Startdosis til voksne med plaque psoriasis er 400 mg hver 2. uge givet i uge0, 2 og 4. • Dette efterfølges af en dosis på 200 mg hver 2. uge eller 400 mg hver 2. uge som anvist af lægen. </p>
+<p>Sådan gives Cimzia 
+Cimzia indgives sædvanligvis af en speciallæge eller sundhedspersonale. Cimzia indgives som enten 
+én (200 mg dosis) eller to injektioner (400 mg dosis) under huden (subkutan brug, forkortes s.c.). Der 
+injiceres sædvanligvis i låret eller maven. Du må imidlertid ikke injicere på steder, hvor huden er rød, 
+bekadigeteller er hård. </p>
+<p>Vejledning til selvinjektion af Cimzia 
+Efter passende oplæring kan lægen lade dig injicere Cimzia selv. Læs venligst vejledningen om 
+hvordan Cimzia injiceres i slutningen af denne indlægsseddel. </p>
+<p>Hvis lægen har givet dig tilladelse til selvinjektion, bør du følge op med lægen, før du går videre til at 
+selvinjicere: 
+• efter 12 uger, hvis du har reumatoid artritis, aksial spondyloartritis eller psoriasisartritis, eller<br />
+• efter 16 uger, hvis du har plaque psoriasis. 
+Det er for at give lægen mulighed for at vurdere, om Cimzia virker for dig, eller om der skal overvejes 
+en anden behandling. </p>
+<p>Hvis du har brugt for meget Cimzia 
+Hvis lægen har ladet dig injicere dig selv, og du ved en fejltagelse har injiceret Cimzia hyppigere end 
+ordineret, skal du fortælle det til lægen. Tag altid patient-påmindelseskortet og den ydre æske fra 
+Cimzia-emballagen med dig, også selvom den er tom. </p>
+<p>Hvis du har glemt at bruge Cimzia 
+Hvis lægen har ladet dig injicere dig selv, og du glemmer at tage en injektion, skal du injicere den 
+næste dosis af Cimzia, så snart du kommer i tanke om det. Tal derefter med lægen og injicer følgende 
+doser som anvist. </p>
+<p>Hvis du holder op med at bruge Cimzia 
+Du må ikke stoppe med at bruge Cimzia uden at tale med lægen først. 
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt STRAKS lægen, hvis du får en eller flere af følgende bivirkninger: </p>
+<ul>
+<li>
+<p>alvorligt udslæt, nældefeber eller andre tegn på en allergisk reaktion (urticaria) </p>
+</li>
+<li>
+<p>hævelser i ansigt, hænder, fødder (angioødem) </p>
+</li>
+<li>
+<p>besvær med at trække vejret, synke (adskillige årsager til disse symptomer) </p>
+</li>
+<li>
+<p>åndenød ved fysisk anstrengelse eller når du ligger ned, eller opsvulmede fødder (hjertesvigt) </p>
+</li>
+<li>
+<p>symptomer på blodsygdomme, såsom vedvarende feber, blå mærker, blødning, bleghed 
+(pancytopeni, anæmi, lavt antal af blodplader, lavt antal af hvide blodlegemer) </p>
+</li>
+<li>
+<p>alvorligt hududslæt. Dette kan vise sig som rødlige målskivelignende pletter eller runde områder 
+ofte med centrale blærer på overkroppen, skællende hud, sår i mund, hals, næse, kønsorganer og 
+øjne, som kan komme efter forudgående feber og influenzalignende symptomer. (Stevens-
+Johnsons syndrom) </p>
+</li>
+</ul>
+<p>Kontakt lægen SÅ HURTIGT SOM MULIGT, hvis du får en eller flere af følgende bivirkninger: </p>
+<ul>
+<li>
+<p>tegn på infektion, såsom feber, utilpashed, sår, tandproblemer, smerter ved vandladning </p>
+</li>
+<li>
+<p>følelse af svaghed eller træthed </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>prikkende fornemmelse </p>
+</li>
+<li>
+<p>følelsesløshed </p>
+</li>
+<li>
+<p>dobbeltsyn </p>
+</li>
+<li>
+<p>svaghed i arme og ben </p>
+</li>
+<li>
+<p>bule eller åbent sår, som ikke vil hele </p>
+</li>
+</ul>
+<p>Ovennævnte symptomer kan være tegn på nogle af de nedenstående bivirkninger, som er observeret 
+ved brug af Cimzia: </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>bakterieinfektioner på et hvilket som helst sted (pusansamling) </p>
+</li>
+<li>
+<p>virusinfektioner (herunder forkølelsessår, helvedesild og influenza) </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>højt blodtryk </p>
+</li>
+<li>
+<p>udslæt eller kløe </p>
+</li>
+<li>
+<p>hovedpine (herunder migræne) </p>
+</li>
+<li>
+<p>sanseforstyrrelser, såsom følelsesløshed, snurren, brændende fornemmelse </p>
+</li>
+<li>
+<p>svaghedsfølelse og generel utilpashed </p>
+</li>
+<li>
+<p>smerter </p>
+</li>
+<li>
+<p>blodsygdomme </p>
+</li>
+<li>
+<p>leverproblemer </p>
+</li>
+<li>
+<p>reaktioner på injektionsstedet </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>allergiske tilstande, herunder allergisk snue og allergiske reaktioner over for lægemidlet 
+(herunder anafylaktisk shock) </p>
+</li>
+<li>
+<p>antistof rettet mod normalt væv </p>
+</li>
+<li>
+<p>kræft i blod- og lymfesystemet såsom lymfekræft og leukæmi </p>
+</li>
+<li>
+<p>kræft i faste organer </p>
+</li>
+<li>
+<p>hudkræft, forstadier til hudkræft  </p>
+</li>
+<li>
+<p>benigne (ikke ondartede) tumorer og cyster (herunder dem i huden) </p>
+</li>
+<li>
+<p>hjerteproblemer, herunder svækket hjertemuskel, hjertesvigt, hjertetilfælde, ubehag i brystet 
+eller trykken i brystet, unormal hjerterytme, herunder uregelmæssige hjerteslag </p>
+</li>
+<li>
+<p>ødemer (hævelser i ansigtet eller benene) </p>
+</li>
+<li>
+<p>lupus (immun-/bindevævssygdom)-symptomer (ledsmerter, hududslæt, lysfølsomhed og feber) </p>
+</li>
+<li>
+<p>betændelse i blodårerne </p>
+</li>
+<li>
+<p>blodforgiftning (alvorlig infektion, som kan resultere i organsvigt, shock eller død) </p>
+</li>
+<li>
+<p>tuberkuloseinfektion </p>
+</li>
+<li>
+<p>svampeinfektioner (forekommer når evnen til at bekæmpe infektioner er nedsat) </p>
+</li>
+<li>
+<p>sygdomme og betændelse i luftvejene (herunder astma, åndenød, hoste, stoppede bihuler, 
+lungehindebetændelse eller vejrtrækningsbesvær) </p>
+</li>
+<li>
+<p>maveproblemer, herunder væskeansamling i maven, sår (herunder sår i munden), perforering, 
+oppustethed, betændelse, halsbrand, mavebesvær, mundtørhed </p>
+</li>
+<li>
+<p>galdeproblemer </p>
+</li>
+<li>
+<p>muskelproblemer herunder øgning af niveauet af muskelenzymer </p>
+</li>
+<li>
+<p>ændringer i indholdet af forskellige salte i blodet </p>
+</li>
+<li>
+<p>ændringer i kolesterol- og fedtindholdet i blodet </p>
+</li>
+<li>
+<p>blodpropper i blodårerne eller lungerne </p>
+</li>
+<li>
+<p>blødning eller blå mærker </p>
+</li>
+<li>
+<p>ændringer i antallet af blodlegemer, herunder lavt indhold af røde blodlegemer (anæmi), lavt 
+indhold af blodplader i blodet, højt indhold af blodplader  </p>
+</li>
+<li>
+<p>hævede lymfekirtler </p>
+</li>
+<li>
+<p>influenza-lignende symptomer, kuldegysninger, ændret temperaturopfattelse, nattesved, rødmen </p>
+</li>
+<li>
+<p>angst og humørforstyrrelser såsom depression, appetitforstyrrelser, vægtændring </p>
+</li>
+<li>
+<p>ringen for ørerne (tinnitus) </p>
+</li>
+<li>
+<p>følelse/fornemmelse af at snurre rundt (vertigo) </p>
+</li>
+<li>
+<p>nær-besvimelse, herunder bevidsthedstab </p>
+</li>
+<li>
+<p>nervesygdomme i ekstremiteterne, herunder symptomer på følelsesløshed, snurren, brændende 
+fornemmelse, svimmelhed, skælven </p>
+</li>
+<li>
+<p>hudsygdomme såsom nyopstået eller forværring af psoriasis, betændelse i huden (såsom 
+eksem), sygdomme i svedkirtlerne, sår, lysfølsomhed, acne, hårtab, misfarvning, negleløsning, 
+tør hud og læsioner </p>
+</li>
+<li>
+<p>nedsat sårheling </p>
+</li>
+<li>
+<p>problemer med nyrer og urinveje, herunder svækkelse af nyrefunktionen, blod i urinen og 
+vandladningsforstyrrelser </p>
+</li>
+<li>
+<p>forstyrrelse i menstruationscyklus, herunder udebleven blødning eller kraftig eller uregelmæssig 
+blødning </p>
+</li>
+<li>
+<p>brystlidelser </p>
+</li>
+<li>
+<p>betændelse i øjne eller øjenlåg, synsforstyrrelser, problemer med tårer </p>
+</li>
+<li>
+<p>forhøjede blodværdier (forhøjet indhold af basisk fosfatase i blodet) </p>
+</li>
+<li>
+<p>forlænget koagulationstid (størkning af blodet) </p>
+</li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>
+<p>kræft i mave-tarm-kanalen, melanom </p>
+</li>
+<li>
+<p>lungebetændelse (interstitiel lungesygdom, pneumonitis) </p>
+</li>
+<li>
+<p>slagtilfælde, blokering i blodårerne (arteriosklerose), dårligt blodomløb, hvilket gør tæer og 
+fingre følelsesløse og blege (Raynauds fænomen), lillafarvet spættet misfarvning af huden, små 
+blodårer nær hudens overflade kan blive synlige </p>
+</li>
+<li>
+<p>betændelse i hjertesækken </p>
+</li>
+<li>
+<p>forstyrrelser i hjerterytmen </p>
+</li>
+<li>
+<p>forstørret milt </p>
+</li>
+<li>
+<p>forhøjet indhold af røde blodlegemer i blodet </p>
+</li>
+<li>
+<p>forandringer i de hvide blodlegemer i blodet </p>
+</li>
+<li>
+<p>stendannelse i galdeblæren </p>
+</li>
+<li>
+<p>nyreproblemer (herunder nyrebetændelse) </p>
+</li>
+<li>
+<p>immunsygdomme, såsom sarkoidose (udslæt, ledsmerter, feber), serumsygdom, betændelse i 
+fedtvævet, angioneurotisk ødem (hævelse af læberne, ansigtet, svælget) </p>
+</li>
+<li>
+<p>sygdomme i skjoldbruskkirtlen (struma, træthed, vægttab) </p>
+</li>
+<li>
+<p>forhøjet indhold af jern i kroppen </p>
+</li>
+<li>
+<p>forhøjet indhold af urinsyre i blodet </p>
+</li>
+<li>
+<p>selvmordsforsøg, mental svækkelse, delirium </p>
+</li>
+<li>
+<p>betændelse i hørenerven, synsnerven eller nerverne i ansigtet, dårlig koordinationsevne eller 
+balance </p>
+</li>
+<li>
+<p>øget aktivitet i mave-tarm-kanalen </p>
+</li>
+<li>
+<p>fistel (en forbindelse mellem to organer) (kan opstå hvor som helst) </p>
+</li>
+<li>
+<p>orale forstyrrelser, såsom smerter ved synkning </p>
+</li>
+<li>
+<p>afskalning af huden, dannelse af blærer, forandringer i hårstrukturen </p>
+</li>
+<li>
+<p>seksuel funktionsforstyrrelse </p>
+</li>
+<li>
+<p>kramper </p>
+</li>
+<li>
+<p>forværring af en tilstand kaldet dermatomyositis (ses som hududslæt med muskelsvaghed) </p>
+</li>
+<li>
+<p>Stevens-Johnson syndrom (en alvorlig hudtilstand med tidlige symptomer såsom utilpashed, 
+feber, hovedpine og udslæt) </p>
+</li>
+<li>
+<p>betændt hududslæt (erythema multiforme) </p>
+</li>
+<li>
+<p>Lichenoide reaktioner (kløende, rødligt-lilla hududslæt og/eller trådlignende gråhvide linjer på 
+slimhinderne) </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data): </p>
+<ul>
+<li>
+<p>multipel sclerose* </p>
+</li>
+<li>
+<p>Guillain-Barré syndrom* </p>
+</li>
+<li>
+<p>Merkelcellekarcinom (en type hudkræft)* </p>
+</li>
+<li>
+<p>Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant 
+herpesvirus 8. Kaposis sarkom forekommer oftest som lilla læsioner på huden. </p>
+</li>
+</ul>
+<p>*Disse bivirkninger er blevet forbundet med den type lægemidler, som Cimzia tilhører, men 
+hyppigheden med Cimzia er ikke kendt. </p>
+<p>Andre bivirkninger 
+Følgende ikke almindelige bivirkninger er forekommet, når Cimzia er blevet brugt til behandling af 
+andre sygdomme: </p>
+<ul>
+<li>
+<p>gastrointestinal stenose (forsnævring i en del af fordøjelsessystemet). </p>
+</li>
+<li>
+<p>gastrointestinal obstruktion (blokering i mave-tarm-kanalen). </p>
+</li>
+<li>
+<p>generel svækkelse af den fysiske helbredstilstand. </p>
+</li>
+<li>
+<p>spontan abort. </p>
+</li>
+<li>
+<p>azoospermi (manglende sædproduktion). </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cimzia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cimzia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og sprøjten efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2°C - 8°C). 
+Må ikke fryses. 
+Opbevar den fyldte sprøjte i den ydre karton for at beskytte mod lys. 
+De fyldte sprøjter kan opbevares ved rumtemperatur (op til 25 °C) i en enkelt periode på maksimalt dage beskyttet mod lys. Ved afslutningen af denne periode skal de fyldte sprøjter bruges eller 
+kasseres. </p>
+<p>Brug ikke lægemidlet, hvis opløsningen er misfarvet, uklar eller hvis du kan se partikler i den. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cimzia indeholder:</p>
+<ul>
+<li>Aktivt stof: certolizumab pegol. Hver fyldt injektionssprøjte indeholder 200 mg certolizumab 
+pegol i én ml. </li>
+<li>Øvrige indholdsstoffer: natriumacetat, natriumchlorid og vand til injektionsvæske (se "Cimzia 
+indeholder natriumacetat og natriumchlorid" i punkt 2). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Cimzia leveres som en injektionsvæske, opløsning i en fyldt injektionssprøjte, der er klar til brug. Klar 
+til opaliserende, farveløs til gul opløsning. </p>
+<p>En Cimzia-pakning indeholder: </p>
+<ul>
+<li>
+<p>To fyldte sprøjter med opløsning og </p>
+</li>
+<li>
+<p>To alkoholservietter (til rensning af det valgte injektionsområde). </p>
+</li>
+</ul>
+<p>Fås i pakninger a 2 fyldte sprøjter og 2 alkoholservietter, en multipakning indeholdende 6 (3 pakninger 
+a 2) fyldte sprøjter og 6 (3 pakninger a 2) alkoholservietter, og en multipakning indeholdende 10 (5 
+pakninger a 2) fyldte sprøjter og 10 (5 pakninger a 2) alkoholservietter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+UCB Pharma S.A. 
+Allée de la Recherche B-1070 Bruxelles<br />
+Belgien </p>
+<p>Fremstiller 
+UCB Pharma S.A. 
+Chemin du Foriest 
+B-1420 Braine l'Alleud 
+Belgien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+UCB Pharma S.A./NV 
+Tel/Tél: + 32 / (0)2 559 92<br />
+Lietuva 
+UCB Pharma Oy Finland 
+Tel: + 358 9 2514 4221 (Suomija) 
+България 
+ЮСИБИБългарияЕООД 
+Teл.: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
+UCB Pharma S.A./NV 
+Tél/Tel: + 32 / (0)2 559 92 (Belgique/Belgien) </p>
+<p>Česká republika 
+UCB s.r.o. 
+Tel: + 420 221 773 Magyarország 
+UCB Magyarország Kft. 
+Tel.: + 36-(1) 391 0 
+Danmark 
+UCB Nordic A/S 
+Tlf: + 45 / 32 46 24 Malta 
+Pharmasud Ltd. 
+Tel: + 356 / 21 37 64<br />
+Deutschland 
+UCB Pharma GmbH 
+Tel: + 49 /(0) 2173 48 4Nederland 
+UCB Pharma B.V. 
+Tel.: + 31 / (0)76-573 11<br />
+Eesti 
+UCB Pharma Oy Finland 
+Tel: + 358 9 2514 4221 (Soome) 
+Norge 
+UCB Nordic A/S 
+Tlf: + 47 / 67 16 5 
+Ελλάδα 
+UCB Α.Ε.<br />
+Τηλ: + 30 / 2109974Österreich 
+UCB Pharma GmbH 
+Tel: + 43-(0)1 291 80<br />
+España 
+UCB Pharma S.A. 
+Tel: + 34 / 91 570 34 Polska 
+UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
+Tel.: + 48 22 696 99<br />
+France 
+UCB Pharma S.A. 
+Tél: + 33 / (0)1 47 29 44 Portugal 
+UCB Pharma (Produtos Farmacêuticos), Lda 
+Tel: + 351 / 21 302 5 
+Hrvatska 
+Medis Adria d.o.o. 
+Tel: +385 (0) 1 230 34<br />
+România 
+UCB Pharma Romania S.R.L. 
+Tel: + 40 21 300 29<br />
+Ireland 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37 Slovenija 
+Medis, d.o.o. 
+Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf. 
+Tel: + 354 535 7Slovenská republika 
+UCB s.r.o., organizačná zložka 
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A. 
+Tel: + 39 / 02 300 Suomi/Finland 
+UCB Pharma Oy Finland 
+Puh/Tel: + 358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ: + 357 22 056Sverige 
+UCB Nordic A/S 
+Tel: + 46 / (0) 40 29 49<br />
+Latvija 
+UCB Pharma Oy Finland 
+Tel: + 358 9 2514 4United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37  </p>
+<p>Denne indlægsseddel blev senest ændret { MM/ÅÅÅÅ } </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<hr />
+<p>BRUGERVEJLEDNING TIL CIMZIA INJEKTION MED FYLDT INJEKTIONSSPRØJTE 
+Efter passende oplæring, kan injektionen gives af dig selv eller af en anden person, f.eks. et 
+familiemedlem eller en ven. Nedenstående vejledning forklarer, hvordan Cimzia skal injiceres. Læs 
+venligst vejledningen grundigt, og følg den trin for trin. Din læge eller sundhedspersonale vil instruere 
+dig i selv-injektionsteknik. Forsøg ikke at selv-injicere før du er sikker på, at du er klar over, hvordan 
+du skal forberede og give injektionen. </p>
+<p>Denne injektion bør ikke blandes med anden medicin i samme sprøjte. </p>
+<ol>
+<li>Forberedelse </li>
+</ol>
+<h2>* Tag Cimzia-pakningen ud af køleskabet.</h2>
+<p>Hvis forseglingen mangler eller er brudt - anvend ikke Cimzia, kontakt apotekspersonalet. </p>
+<h2>* Tag følgende ting fra Cimzia-pakningen og læg dem på et rent, jævnt underlag:</h2>
+<h2>En eller to fyldt(e) sprøjte(r), afhængigt af hvilken dosis du har fået ordineret</h2>
+<p>En eller to alkoholserviet(ter) </p>
+<ul>
+<li>
+<p>Se på udløbsdatoen på sprøjten og pakningen. Brug ikke Cimzia efter den udløbsdato, der står 
+på pakningen og sprøjten efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Lad den fyldte sprøjte opnå stuetemperatur. Dette tager 30 minutter. Dette vil være medvirkende 
+til at mindske ubehag under injektionen.  </p>
+</li>
+<li>
+<p>Opvarm ikke den fyldte sprøjte - lad den selv opnå stuetemperatur.  </p>
+</li>
+<li>
+<p>Tag ikke kanylehætten af, før du er klar til at injicere. </p>
+</li>
+<li>
+<p>Vask dine hænder grundigt. </p>
+</li>
+<li>
+<p>Valg og forberedelse af injektionssted </p>
+</li>
+<li>
+<p>Vælg et sted på låret eller maven. </p>
+</li>
+</ul>
+<h2>* Hver ny injektion skal gives på et andet sted end det senest anvendte injektionssted.</h2>
+<h2>Injicer ikke i et område, hvor huden er rød, har blå mærker eller er hård.</h2>
+<p>Tør injektionsstedet med den medfølgende alkoholserviet med en cirkulær bevægelse 
+indefra og ud. 
+- 
+Berør ikke området igen før injektionen. </p>
+<ol>
+<li>
+<p>Injektion </p>
+</li>
+<li>
+<p>Ryst ikke sprøjten. 
+Kontroller medicinen i sprøjten.  </p>
+</li>
+<li>Brug ikke opløsningen, hvis den er misfarvet, uklar eller hvis du kan se partikler i den.  </li>
+<li>
+<p>Der kan være luftbobler. Det er normalt. Subkutan injicering af injektionsvæske med 
+luftbobler er uskadelig. </p>
+</li>
+<li>
+<p>Fjern hætten fra nålen ved at trække den lige af. Vær omhyggelig med ikke at berøre nålen eller 
+lade nålen røre nogen overflade. Buk ikke nålen. </p>
+</li>
+<li>
+<p>Injicér senest 5 minutter efter, kanylehætten er taget af. </p>
+</li>
+<li>
+<p>Klem forsigtigt med én hånd om det rensede hudområde og hold fast. </p>
+</li>
+<li>
+<p>Hold sprøjten med den anden hånd i en vinkel på 45 grader mod huden. </p>
+</li>
+<li>
+<p>Pres nålen med en hurtig, kort bevægelse helt ind i huden. </p>
+</li>
+<li>
+<p>Pres stemplet ned for at injicere opløsningen. Det kan tage op til 10 sekunder at tømme sprøjten. </p>
+</li>
+<li>
+<p>Når sprøjten er tom, trækkes nålen forsigtigt ud af huden i samme vinkel, som da den blev 
+stukket ind. </p>
+</li>
+<li>
+<p>Slip huden med den første hånd. </p>
+</li>
+</ol>
+<h2>* Brug et stykke gaze og pres på injektionsstedet i nogle få sekunder:</h2>
+<h2>Gnid ikke på injektionsstedet.</h2>
+<p>Du kan om nødvendigt dække injektionsstedet med et lille plaster. </p>
+<ol>
+<li>
+<p>Efter anvendelse </p>
+</li>
+<li>
+<p>Genbrug ikke sprøjten og sæt ikke hætten tilbage på nålen. </p>
+</li>
+<li>
+<p>Efter injektion, skal den/de brugte sprøjte(r) straks bortskaffes i en særlig beholder, som angivet 
+af din læge, sygeplejerske eller apotekspersonalet. </p>
+</li>
+<li>
+<p>Opbevar beholderen utilgængeligt for børn.  </p>
+</li>
+<li>
+<p>Hvis den dosis, din læge har ordineret, kræver, at du indgiver endnu en injektion, skal du 
+gentage injektionsproceduren startende fra trin 2. Indlægsseddel: Information til brugeren </p>
+</li>
+</ol>
+<p>Cimzia 200 mg injektionsvæske, opløsning i fyldt injektionssprøjte 
+Fyldt injektionssprøjte med kanylebeskyttelse 
+certolizumab pegol </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret Cimzia til dig personligt. Lad derfor være med at give medicinen til andre. 
+Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-057978e6508bd77bd6c65ec1f7b062f7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cimzia Package Leaflet for language en"
+Description: "ePI document Bundle for cimzia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-057978e6508bd77bd6c65ec1f7b062f7"
+* entry[0].resource = composition-en-057978e6508bd77bd6c65ec1f7b062f7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp057978e6508bd77bd6c65ec1f7b062f7"
+* entry[=].resource = mp057978e6508bd77bd6c65ec1f7b062f7
+                            
+                    
+Instance: bundlepackageleaflet-da-057978e6508bd77bd6c65ec1f7b062f7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cimzia Package Leaflet for language da"
+Description: "ePI document Bundle for cimzia Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-057978e6508bd77bd6c65ec1f7b062f7"
+* entry[0].resource = composition-da-057978e6508bd77bd6c65ec1f7b062f7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp057978e6508bd77bd6c65ec1f7b062f7"
+* entry[=].resource = mp057978e6508bd77bd6c65ec1f7b062f7
+                            
+                    
+
+
+
+Instance: mp057978e6508bd77bd6c65ec1f7b062f7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cimzia 200 mg solution for injection in pre-filled syringe"
-Description: "Cimzia 200 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product cimzia"
+Description: "cimzia"
 Usage: #inline
 
  
@@ -578,7 +1586,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cimzia 200 mg solution for injection in pre-filled syringe"
+  * productName = "cimzia"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -605,29 +1613,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-057978e6508bd77bd6c65ec1f7b062f7
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cimzia Package Leaflet for language en"
-Description: "ePI document Bundle for cimzia Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 057978e6508bd77bd6c65ec1f7b062f7ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/544/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cimzia"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-057978e6508bd77bd6c65ec1f7b062f7"
-* entry[0].resource = composition-en-057978e6508bd77bd6c65ec1f7b062f7
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf95823100718ce3a4084e722875cdcdc"
-* entry[=].resource = mpf95823100718ce3a4084e722875cdcdc
-                            
-                      
+* title = "List of all ePIs associated with cimzia"
+
+* subject = Reference(mpf95823100718ce3a4084e722875cdcdc)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cimzia "cimzia"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-057978e6508bd77bd6c65ec1f7b062f7) // cimzia en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-057978e6508bd77bd6c65ec1f7b062f7) // cimzia da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-057978e6508bd77bd6c65ec1f7b062f7
+InstanceOf: List
+
+* insert 057978e6508bd77bd6c65ec1f7b062f7ListRuleset
+    

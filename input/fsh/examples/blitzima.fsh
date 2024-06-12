@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8efc3218e58b030bcc0685f059870454
 InstanceOf: CompositionUvEpi
 Title: "Composition for blitzima Package Leaflet"
@@ -560,12 +563,830 @@ Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
 
 
 
+Instance: composition-da-8efc3218e58b030bcc0685f059870454
+InstanceOf: CompositionUvEpi
+Title: "Composition for blitzima Package Leaflet"
+Description:  "Composition for blitzima Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7fc8cfe8242eb0119d3b2e1dc1d125b7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7fc8cfe8242eb0119d3b2e1dc1d125b7
+* title = "TEST PURPOSES ONLY - blitzima"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at få Blitzima 
+3. Sådan får du Blitzima 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelse og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What blitzima is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What blitzima is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Blitzima indeholder det aktive indholdsstof rituximab. Det er en type protein, der kaldes et 
+monoklonalt antistof. Det binder sig til overfladen på de hvide blodlegemer, der kaldes B-lymfocytter. 
+Når rituximab bindes til overfladen af denne celle, dør cellen til at dø. </p>
+<p>Anvendelse 
+Blitzima kan anvendes til behandling af flere forskellige tilstande hos voksne og børn. Din læge kan 
+ordinere Blitzima til behandling for: </p>
+<p>a) 
+Non-Hodgkin-lymfom 
+Non-Hodgkin-lymfom er en sygdom i lymfesystemet (en del af immunsystemet), der påvirker de 
+hvide blodlegemer, der kaldes B-lymfocytter. 
+Hos voksne kan Blitzima anvendes alene eller sammen med kemoterapi. 
+Hvis behandlingen virker, kan Blitzima fortsættes i 2 år efter, den første behandling er givet. 
+Hos børn og unge anvendes Blitzima sammen med kemoterapi. </p>
+<p>b) 
+Kronisk lymfatisk leukæmi 
+Kronisk lymfatisk leukæmi (CLL) er den almindeligste form for leukæmi hos voksne. CLL påvirker 
+en bestemt lymfocyt, nemlig B-cellen, som findes i knoglemarven og dannes i lymfeknuderne. 
+Patienter med CLL har for mange unormale lymfocytter, som hovedsageligt ophobes i knoglemarven 
+og blodet. Det er formeringen af disse unormale B-lymfocytter, der er årsagen til de symptomer, du 
+kan have. Blitzima anvendt sammen med kemoterapi ødelægger disse celler, som gradvis fjernes fra 
+kroppen ved biologiske processer. </p>
+<p>c) 
+Granulomatose med polyangiitis eller mikroskopisk polyangiitis 
+Blitzima gives i kombination med binyrebarkhormon, for at behandle sygdommen granulomatose med 
+polyangiitis (blev tidligere kaldt Wegeners granulomatose) og mikroskopisk polyangiitis. 
+Granulomatose med polyangiitis og mikroskopisk polyangiitis er to former for inflammation 
+(betændelse) i blodkarrene. Det er som regel lunger og nyrer, der bliver påvirket, men sygdommene 
+kan også påvirke andre organer. B-lymfocytter er involveret i årsagen til disse tilstande hos voksne og 
+børn på 2 år og opefter. </p>
+<p>d)      Pemfigus vulgaris 
+Blitzima anvendes til behandling af patienter med moderat til svær pemfigus vulgaris. Pemfigus 
+vulgaris er en autoimmun sygdom, der forårsager smertefulde blærer på huden og mundens, næsens, 
+halsens og kønsorganernes slimhinder. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take blitzima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take blitzima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Blitzima, hvis: </p>
+<ul>
+<li>
+<p>du er allergisk over for rituximab, andre proteiner, der ligner rituximab eller et af de øvrige 
+indholdsstoffer i Blitzima (angivet i punkt 6). </p>
+</li>
+<li>
+<p>du i øjeblikket har en aktiv svær infektion </p>
+</li>
+<li>
+<p>du har et svagt immunforsvar. </p>
+</li>
+<li>
+<p>du har svært nedsat hjertefunktion eller svær, ukontrolleret hjertesygdom og har granulomatose 
+med polyangiitis, mikroskopisk polyangiitis eller pemfigus vulgaris. </p>
+</li>
+</ul>
+<p>Du må ikke få Blitzima, hvis ét eller flere af ovenstående punkter gælder for dig. Hvis du er i tvivl, 
+skal du kontakte lægen, apotekspersonalet eller sundhedspersonalet, inden du får Blitzima. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, inden du får Blitzima, hvis: </p>
+<ul>
+<li>
+<p>du nogensinde har haft leverbetændelse eller måske har leverbetændelse nu. Det er vigtigt, fordi 
+Blitzima i enkelte tilfælde har forårsaget, at en tidligere leverbetændelse (hepatitis B) er blevet 
+aktiv igen. Dette kan i sjældne tilfælde være dødeligt. Patienter, som en gang har haft 
+leverbetændelse, vil blive omhyggeligt undersøgt af lægen for tegn på denne infektion </p>
+</li>
+<li>
+<p>du nogensinde har haft hjerteproblemer (f.eks. angina, hjertebanken eller hjertesvigt) eller 
+vejrtrækningsbesvær. </p>
+</li>
+</ul>
+<p>Hvis ét eller flere af ovenstående punkter gælder for dig (eller du er i tvivl), skal du kontakte lægen, 
+apotekspersonalet eller sundhedspersonalet, inden du får Blitzima. Du kan have behov for ekstra 
+overvågning under din behandling med Blitzima. </p>
+<p>Hvis du har granulomatose med polyangiitis, mikroskopisk polyangiitis fortæl da også din læge 
+eller pemfigus vulgaris </p>
+<ul>
+<li>
+<p>hvis du tror, du måske har en infektion, selv en mild form som for eksempel en forkølelse. 
+Cellerne, der påvirkes af Blitzima hjælper med at bekæmpe infektioner, og du bør vente med 
+behandling med Blitzima, indtil infektionen er forsvundet. Fortæl også lægen, hvis du tidligere 
+har haft mange infektioner eller lider af alvorlige infektioner </p>
+</li>
+<li></li>
+</ul>
+<p>Børn og unge 
+Non-Hodgkin-lymfom 
+Blitzima kan bruges til behandling af børn og unge i alderen 6 måneder og derover, som har non-
+Hodgkin-lymfom, særligt CD20 positivt diffust storcellet B-celle lymfom (DLBCL), Burkitt lymfom 
+(BL)/Burkitt leukæmi (akut leukæmi i modne B-celler) (B-ALL) eller Burkitt-lignende lymfom (BLL). 
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, inden medicinen gives, hvis du eller dit 
+barn er under 18 år. </p>
+<p>Granulomatose med polyangiitis eller mikroskopisk polyangiitis 
+Blitzima kan anvendes til behandling af børn og unge på 2 år og opefter, med granulomatose med 
+polyangiitis (tidligere kaldet Wegeners granulomatose) eller mikroskopisk polyangiitis. Der er ikke 
+meget information om brugen af Blitzima hos børn og unge med andre sygdomme. </p>
+<p>Du skal kontakte lægen, apotekspersonalet eller sundhedspersonalet, inden medicinen gives, hvis du 
+eller dit barn er under 18 år. </p>
+<p>Brug af anden medicin sammen med Blitzima 
+Fortæl lægen, apotekspersonalet eller sundhedspersonalet om al medicin du tager i øjeblikket, har taget 
+for nyligt eller planlægger at tage. Det gælder også medicin, der ikke er på recept, og naturlægemidler. 
+Det er vigtigt, da Blitzima kan påvirke virkningen af anden medicin, og anden medicin kan påvirke 
+virkningen af Blitzima. </p>
+<p>Det er særligt vigtigt at fortælle lægen: </p>
+<ul>
+<li>
+<p>om du tager medicin mod forhøjet blodtryk. Du kan blive bedt om ikke at tage denne medicin i 
+12 timer inden, du får Blitzima. Nogle har oplevet, at blodtrykket faldt, mens de fik Blitzima </p>
+</li>
+<li>
+<p>om du nogensinde har fået medicin, der påvirker immunforsvaret, f.eks. kemoterapi eller 
+medicin, der nedsætter immunforsvaret. </p>
+</li>
+</ul>
+<p>Hvis ét eller flere af ovenstående punkter gælder for dig (eller du er i tvivl), skal du kontakte lægen, 
+apotekspersonalet eller sundhedspersonalet, inden du får Blitzima. </p>
+<p>Graviditet og amning 
+Du skal kontakte lægen eller sundhedspersonalet, hvis du er gravid, tror, du måske kan være gravid 
+eller planlægger at blive gravid. Blitzima kan overføres til moderkagen og påvirke barnet. 
+Hvis du er i den fødedygtige alder, skal du og din partner bruge sikker prævention, mens du er i 
+behandling med Blitzima. I skal fortsætte med sikker prævention i 12 måneder efter din sidste 
+behandling med Blitzima. 
+Blitzima udskilles i modermælk i meget små mængder. Idet langtidseffekten på ammende spædbørn er 
+ukendt, anbefales amning, af forsigtighedsmæssige årsager, i ikke under behandling med Blitzima og i 
+op til 6 måneder derefter. </p>
+<p>Trafik og arbejdssikkerhed 
+Rituximab har ingen eller ubetydelig indflydelse på evnen til at føre motorkøretøj og betjene maskiner  </p>
+<p>Blitzima indeholder natrium 
+Denne medicin indeholder 52,6 mg natrium (hovedbestanddelen i køkkensalt/bordsal) i hvert 10 mL 
+hætteglas og 263,2 mg natrium (hovedbestanddelen i køkkensalt/bordsal) i hvert 50 mL hætteglas. 
+Dette svarer til 2,6 % (for 10 mL hætteglas) og 13,2 % (for 50 mL hætteglas) af det anbefalede 
+maksimale daglige indtag af natrium for en voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take blitzima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take blitzima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sådan gives Blitzima </p>
+<p>Du får Blitzima af en læge eller sygeplejerske med erfaring i denne behandling. De vil overvåge dig, 
+mens du får medicinen. Dette er i tilfælde af, at du skulle få bivirkninger. 
+Blitzima gives altid i et drop (intravenøs infusion). </p>
+<p>Medicin, der gives inden hver behandling med Blitzima 
+Inden du får Blitzima, vil du få anden medicin (præmedicin), der forebygger eller mindsker mulige 
+bivirkninger. </p>
+<p>Hvor meget medicin skal du have og hvor ofte? </p>
+<p>a) 
+Hvis du behandles for non-Hodgkin-lymfom </p>
+<ul>
+<li>
+<p>Hvis du får Blitzima alene 
+Blitzima gives en gang ugentligt i 4 uger. Gentagne behandlingsforløb med Blitzima er mulige. </p>
+</li>
+<li>
+<p>Hvis du får Blitzima sammen med kemoterapi 
+Blitzima gives samme dag som kemoterapien. Det vil sædvanligvis sige hver 3. uge, op til 
+8 gange. </p>
+</li>
+<li>
+<p>Hvis medicinen virker godt hos dig, kan du få Blitzima hver 2. eller 3. måned i op til 2 år. 
+Lægen kan ændre dette afhængigt af, hvorledes medicinen virker på dig. </p>
+</li>
+<li>
+<p>Hvis du er under 18 år, vil du få Blitzima sammen med kemoterapi. Du vil få Blitzima op til 6 
+gange i en periode på 3,5 – 5,5 måneder. </p>
+</li>
+</ul>
+<p>b) 
+Hvis du behandles for kronisk lymfatisk leukæmi 
+Hvis du behandles med Blitzima i kombination med kemoterapi, vil du få en infusion med Blitzima på 
+dag 0 i serie 1 og derefter på dag 1 i hver af i alt 6 serier. Hver serie varer 28 dage. Kemoterapien skal 
+gives efter infusionen med Blitzima. Din læge vil tage stilling til, om du samtidig skal have 
+understøttende behandling. </p>
+<p>c) 
+Hvis du behandles for granulomatose med polyangiitis eller mikroskopisk polyangiitis 
+Hvert behandlingsforløb består af fire separate infusioner, der gives med én uges mellemrum. Du vil 
+som regel få en indsprøjtning med binyrebarkhormon, inden behandlingen med Blitzima påbegyndes. 
+Lægen kan give dig binyrebarkhormon-tabletter på et hvilket som helst tidspunkt for at behandle din 
+tilstand. Hvis du er 18 år eller derover og reagerer godt på behandlingen kan du få Blitzima som 
+vedligeholdesesbehandling. Dette vil blive givet som to separate infusioner med to ugers mellemrum, 
+efterfulgt af én infusion hver 6. måned i mindst 2 år. Din læge kan beslutte at behandle dig i længere 
+tid med Blitzima (op til 5 år), alt efter hvor godt du reagerer på medicinen. </p>
+<p>d)        Hvis du behandles for pemfigus vulgaris 
+Hvert behandlingsforløb består af to separate infusioner, der gives med 2 ugers mellemrum. Hvis du 
+reagerer godt på behandlingen, kan du få Blitzima som vedligeholdelsesbehandling. 
+Vedligeholdelsesbehandling vil gives 1 år og 18 måneder efter behandlingens start og herefter hver 6. måned efter behov. Din læge kan ændre dette, afhængigt af hvordan du reagerer på behandlingen. </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis det er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger er lette til moderate men nogle kan være alvorlige og kræve behandling. Sjældent 
+har nogle af disse bivirkninger været dødelige. </p>
+<p>Infusionsreaktioner 
+Under eller inden for de første 24 timer af infusionen kan du få feber, kuldegysninger og rysten. 
+Mindre hyppigt kan nogle patienter opleve smerte ved infusionsstedet, blærer, hudkløe, kvalme, 
+træthed, hovedpine, vejrtrækningsbesvær, øget blodtryk, hvæsen, ubehag i halsen, hævelse af tunge 
+eller hals, kløende eller løbende næse, opkastning, rødme eller hjertebanken, hjerteanfald eller lavt 
+antal blodplader. Hvis du har hjerteproblemer eller angina pectoris kan symptomerne forværres. 
+Fortæl det straks til den person, der giver dig infusionen, hvis du eller dit barn oplever nogle af 
+disse symptomer, da infusionshastigheden måske skal nedsættes eller stoppes. Du kan behøve 
+yderligere behandling som antihistamin eller paracetamol. Når disse symptomer forsvinder eller 
+forbedres, kan infusionen fortsættes. Ved de efterfølgende infusioner vil hyppigheden af disse 
+reaktioner være mindre. Hvis disse reaktioner er alvorlige, kan lægen vælge at stoppe behandlingen 
+med Blitzima. </p>
+<p>Infektioner 
+Kontakt straks lægen, hvis du eller dit barn får tegn på infektion, f.eks.: </p>
+<ul>
+<li>
+<p>feber, hoste, ondt i halsen, brændende smerte ved vandladning eller følelse af svaghed eller 
+almen utilpashed </p>
+</li>
+<li>
+<p>hukommelsestab, koncentrationsbesvær, besvær med at gå eller synstab – dette kan skyldes en 
+meget sjælden, alvorlig hjerneinfektion, der i nogle tilfælde har været dødelig (progressiv 
+multifokal leukoencefalopati eller PML). </p>
+</li>
+<li>
+<p>feber, hovedpine, stiv nakke, usikre bevægelser (ataksi), personlighedsforandringer, 
+hallucinationer, påvirket bevidsthed, kramper eller koma - dette kan skyldes en alvorlig 
+hjerneinfektion (enteroviral meningoencefalitis), der kan være dødelig. </p>
+</li>
+</ul>
+<p>Risikoen for infektioner kan øges under behandling med Blitzima. Det vil ofte dreje sig om forkølelser, 
+men der har været tilfælde af lungebetændelse, urinvejsinfektioner og alvorlige virusinfektioner. <br />
+Disse er angivet under ”Andre bivirkninger”. </p>
+<p>Hvis du behandles for granulomatose med polyangiitis, mikroskopisk polyangiitis eller pemfigus 
+vulgaris vil du også finde denne information i patientkortet, som du har fået af lægen. Det er vigtigt, at 
+du gemmer dette kort og viser det til din partner eller hjælper. </p>
+<p>Hudsygdomme 
+Meget sjældent kan der forekomme alvorlige, eventuelt livstruende hudsygdomme med blærer. Rødme, 
+ofte forbundet med blærer, kan forekomme på hud og slimhinder såsom på indersiden af munden, 
+kønsdele eller øjenlåg og kan være ledsaget af feber. Fortæl det øjeblikkeligt til lægen, hvis du 
+oplever nogen af disse symptomer. </p>
+<p>Andre bivirkninger omfatter: 
+a) 
+Hvis du eller dit barn behandles for non-Hodgkin-lymfom eller kronisk lymfatisk 
+leukæmi 
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>bakterie-eller virusinfektioner, bronkitis </p>
+</li>
+<li>
+<p>lavt antal hvide blodlegemer med eller uden feber eller lavt antal blodplader </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>skaldede pletter i hårbunden, kulderystelser, hovedpine </p>
+</li>
+<li>
+<p>lavt immunforsvar, fordi indholdet af antistoffer i blodet, som beskytter mod infektion, 
+kaldet immunglobuliner (IgG), falder. </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>infektioner i blodet (sepsis), lungebetændelse, helvedesild, forkølelse, infektion i bronkierne, 
+svampeinfektioner, infektioner af ukendt oprindelse, bihulebetændelse, leverbetændelse 
+(hepatitis B) </p>
+</li>
+<li>
+<p>lavt antal røde blodlegemer (anæmi), lavt antal af alle blodlegemer </p>
+</li>
+<li>
+<p>allergiske reaktioner (overfølsomhed) </p>
+</li>
+<li>
+<p>højt blodsukker, vægttab, hævelse i ansigt og krop, høje niveauer af enzymet 
+laktatdehydrogenase (LDH) i blodet, lavt indhold af kalk i blodet </p>
+</li>
+<li>
+<p>usædvanlig følelse i huden, f.eks. følelsesløshed, prikken, stikken, brænden, myrekryb, 
+nedsat følesans </p>
+</li>
+<li>
+<p>rastløshed, søvnproblemer </p>
+</li>
+<li>
+<p>udtalt rødme i ansigtet og andre områder af huden på grund af udvidede blodkar </p>
+</li>
+<li>
+<p>svimmelhed, nervøsitet </p>
+</li>
+<li>
+<p>tåreflåd, problemer med tårekanaler, irriterede øjne (konjunktivitis) </p>
+</li>
+<li>
+<p>ringen for ørerne, øresmerter </p>
+</li>
+<li>
+<p>hjerteproblemer, f.eks. hjerteanfald, uregelmæssig eller hurtig hjerteaktion (puls) </p>
+</li>
+<li>
+<p>højt eller lavt blodtryk (lavt blodtryk særligt når du rejser dig op) </p>
+</li>
+<li>
+<p>sammensnøring af musklerne i luftvejene, som forårsager hvæsende vejrtrækning 
+(bronkospasme), inflammation (betændelseslignende reaktion), irritation i lungerne, halsen 
+eller bihulerne, åndenød, løbende næse </p>
+</li>
+<li>
+<p>opkastning, diarré, mavesmerter, irritation eller sår i svælg eller mund, synkebesvær, 
+forstoppelse, fordøjelsesproblemer </p>
+</li>
+<li>
+<p>spiseforstyrrelser, for lille fødeindtagelse, der medfører vægttab </p>
+</li>
+<li>
+<p>nældefeber, øget svedtendens, nattesved </p>
+</li>
+<li>
+<p>muskelproblemer, f.eks. muskelkramper, led-eller muskelsmerter, ryg-og nakkesmerter </p>
+</li>
+<li>
+<p>almen utilpashed og træthed, rystelser, tegn på influenza </p>
+</li>
+<li>
+<p>svigt af mange organer. </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>blodprop, nedsat produktion og hurtigere ødelæggelse af røde blodlegemer (aplastisk 
+hæmolytisk anæmi), hævede eller forstørrede lymfekirtler </p>
+</li>
+<li>
+<p>dårligt humør og manglende interesse eller glæde ved ting, nervøsitet </p>
+</li>
+<li>
+<p>smagsforstyrrelser, f.eks. at ting smager anderledes, end de plejer </p>
+</li>
+<li>
+<p>hjerteproblemer, f.eks. nedsat hjerteaktion eller brystsmerter (angina) </p>
+</li>
+<li>
+<p>astma, kroppens organer får for lidt ilt </p>
+</li>
+<li>
+<p>opsvulmet mave. </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 patienter): </p>
+<ul>
+<li>
+<p>kortvarig stigning i antallet af bestemte antistoffer kaldet immunglobuliner i blodet (IgM), 
+kemiske forstyrrelser i blodet forårsaget af nedbrydningen af døende kræftceller </p>
+</li>
+<li>
+<p>nerveskader i arme og ben, lammelse af ansigtet </p>
+</li>
+<li>
+<p>hjertesvigt </p>
+</li>
+<li>
+<p>irritation i blodkarrene, der kan medføre hudsymptomer </p>
+</li>
+<li>
+<p>vejrtrækningsstop </p>
+</li>
+<li>
+<p>beskadigelse af tarmvæggen 
+• svære hudproblemer med blister, der kan være livsfarlige. Rødme, ofte forbundet med blærer, 
+kan forekomme på hud og slimhinder, såsom på indersiden af munden, kønsdele eller øjenlåg, 
+og kan være ledsaget af feber </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+<li>
+<p>svært synstab </p>
+</li>
+</ul>
+<p>Ikke kendt (det vides ikke, hvor ofte disse bivirkninger forekommer): </p>
+<ul>
+<li>
+<p>forsinket fald i de hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat antal blodplader umiddelbart efter infusionen; dette kan rette sig, men kan i sjældne 
+tilfælde være dødeligt </p>
+</li>
+<li>
+<p>høretab og tab af andre sanser </p>
+</li>
+<li>
+<p>hjerne- og hjernehinde infektion/betændelse (enteroviral meningoencefalitis) </p>
+</li>
+</ul>
+<p>Børn og unge med non-Hodgkin-lymfom: 
+Generelt svarede bivirkninger hos børn og unge med non-Hodgkin-lymfom til dem, der ses hos voksne 
+med non-Hodgkin-lymfom eller kronisk lymfatisk leukæmi. De mest almindelige bivirkninger var 
+feber med lavt antal af en type hvide blodlegemer (neutrofiler), infektioner eller sår i mundens 
+slimhinder og allergiske reaktioner (overfølsomhed). </p>
+<p>b) 
+Hvis du eller dit barn behandles for granulomatose med polyangiitis eller mikroskopisk 
+polyangiitis </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>infektioner som f.eks. luftvejsinfektioner, urinvejsinfektion (smerter ved vandladning), 
+forkølelse og herpesudbrud </p>
+</li>
+<li>
+<p>allergiske reaktioner, som normalt forekommer under infusionen, men kan forekomme i op 
+til 24 timer efter infusion </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>hoste eller kortåndethed </p>
+</li>
+<li>
+<p>næseblod </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+<li>
+<p>smerter i led eller ryg </p>
+</li>
+<li>
+<p>muskelspasmer eller -rysten </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>rysten (ofte på hænderne) </p>
+</li>
+<li>
+<p>søvnbesvær </p>
+</li>
+<li>
+<p>hævede hænder eller ankler </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>fordøjelsesbesvær </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>udslæt, inklusive akne eller uren hud </p>
+</li>
+<li>
+<p>ansigtsrødme eller rød hud 
+•     feber </p>
+</li>
+<li>
+<p>stoppet eller løbende næse </p>
+</li>
+<li>
+<p>muskelkramper eller ømme muskler </p>
+</li>
+<li>
+<p>smerter i muskler eller hænder og fødder </p>
+</li>
+<li>
+<p>lavt antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>lavt antal blodplader </p>
+</li>
+<li>
+<p>forhøjet kalium i blodet </p>
+</li>
+<li>
+<p>ændringer i hjerterytmen, eller hjertet slår hurtigere end normalt </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 patienter): </p>
+<ul>
+<li>
+<p>alvorlige, eventuelt livstruende hudsygdomme med blærer. Rødme, ofte forbundet med 
+blærer, kan forekomme på hud og slimhinder, såsom på indersiden af munden, kønsdele eller 
+øjenlåg og kan være ledsaget af feber </p>
+</li>
+<li>
+<p>genopblussen af tidligere hepatitis B-infektion </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra tilgængelige data):  </p>
+<ul>
+<li>
+<p>alvorlig virusinfektion </p>
+</li>
+<li>
+<p>hjerne- og hjernehinde infektion/betændelse (enteroviral meningoencefalitis) </p>
+</li>
+</ul>
+<p>Børn og unge med granulomatose med polyangiitis eller mikroskopisk polyangiitis 
+Bivirkninger hos børn og unge med granulomatose med polyangiitis eller mikroskopisk polyangiitis 
+var generelt af samme type som set hos voksne med granulomatose med polyangiitis eller 
+mikroskopisk polyangiitis. De mest almindelige bivirkninger er infektioner, allergiske reaktioner og 
+kvalme. </p>
+<p>c)      Hvis du behandles for pemfigus vulgaris </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter): 
+• allergiske reaktioner, som normalt forekommer under infusionen, men kan forekomme i op til 
+24 timer efter infusion 
+• hovedpine 
+• infektioner såsom infektioner i brystet 
+• langvarig depression 
+• hårtab </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter): 
+• infektioner som f.eks. forkølelse herpesudbrud og øjeninfektion, trøske og  urinvejsinfektioner 
+(smerter ved vandladning) 
+• humørsvingninger såsom irritabilitet og depression 
+• hudsygdomme såsom kløe, nældefeber og godartede knuder 
+• træthed og svimmelhed 
+• feber 
+• led- eller rygsmerter<br />
+• smerter i maven 
+• smerter i musklerne 
+• hjertet slår hurtigere end normalt </p>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra tilgængelige data):<br />
+• alvorlig virusinfektion 
+• hjerne- og hjernehinde infektion/betændelse (enteroviral meningoencefalitis) </p>
+<p>Blitzima kan også ændre resultaterne på de blodprøver, som lægen har bestilt. 
+Hvis du får Blitzima sammen med anden medicin, kan nogle bivirkninger være forårsaget af den 
+anden medicin. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store blitzima"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store blitzima"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og hætteglasset efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Blitzima indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: Rituximab.<br />
+Hætteglasset med 10 mL indeholder 100 mg rituximab (10 mg/mL). 
+Hætteglasset med 50 mL indeholder 500 mg rituximab (10 mg/mL). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Natriumchlorid, trinatriumcitratdihydrat, polysorbat 80 og vand til 
+injektionsvæsker (se afsnit 2 “Blitzima indeholder natrium”). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Blitzima er en klar, farveløs opløsning, leveret som koncentrat til infusionsvæske, opløsning.<br />
+10 mL hætteglas - pakning med 2 hætteglas 
+50 mL hætteglas - pakning med 1 hætteglas </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Celltrion Healthcare Hungary Kft. 
+1062 Budapest 
+Váci út 1-3. WestEnd Office Building B torony<br />
+Ungarn </p>
+<p>Fremstiller </p>
+<p>Millmount Healthcare Ltd. 
+Block 7, City North Business Campus,<br />
+Stamullen, Co. Meath K32 YD60,<br />
+Irland </p>
+<p>Nuvisan GmbH 
+Wegenerstrasse 13, Ludwigsfeld 
+89231 Neu-Ulm, Bavaria 
+Tyskland </p>
+<p>Nuvisan France SARL<br />
+2400, Route des Colles,  06410, Biot,<br />
+Frankrig </p>
+<p>KYMOS S.L. 
+Ronda de Can Fatjó, 7B Parc Tecnològic del Vallès<br />
+08290 – Cerdanyola del Vallès, Barcelona,<br />
+Spanien </p>
+<p>Midas Pharma GmbH<br />
+Rheinstrasse 49, West Ingelheim Am Rhein,<br />
+Rhineland-Palatinate 55218 Ingelheim,<br />
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Celltrion Healthcare Belgium BVBA 
+Tél/Tel: +32 1528 7BEinfo@celltrionhc.com<br />
+Lietuva 
+Celltrion Healthcare Hungary Kft. 
+ Tel: +36 1 231 0 
+България 
+Celltrion Healthcare Hungary Kft. 
+ Tel: +36 1 231 0 
+Luxembourg/Luxemburg 
+Celltrion Healthcare Belgium BVBA 
+Tél/Tel: +32 1528 7BEinfo@celltrionhc.com  </p>
+<p>Česká republika 
+Celltrion Healthcare Hungary Kft. 
+ Tel: +36 1 231 0 
+Magyarország 
+Celltrion Healthcare Hungary Kft. 
+ Tel: +36 1 231 0 </p>
+<p>Danmark 
+Orion Pharma A/S<br />
+Tlf: + 45 86 14 00 Malta 
+Mint Health Ltd. 
+Tel: +356 2093 9800  </p>
+<p>Deutschland 
+Celltrion Healthcare Deutschland GmbH 
+Tel. +49 (0)30 346494 
+infoDE@celltrionhc.com 
+Nederland 
+Celltrion Healthcare Netherlands B.V 
+Tel: +31 20 888 7NLinfo@celltrionhc.com </p>
+<p>Eesti 
+Orion Pharma Eesti OÜ 
+Tel: + 372 6 644<br />
+Norge 
+Orion Pharma AS 
+Tlf: + 47 40 00 42  </p>
+<p>Ελλάδα 
+ΒΙΑΝΕΞ Α.Ε. 
+Τηλ: +30 210 8009111 –<br />
+España 
+Kern Pharma, S.L. 
+Tel: +34 93 700 2Österreich 
+Astro-Pharma GmbH 
+Tel: +43 1 97 99<br />
+Polska 
+Celltrion Healthcare Hungary Kft. 
+ Tel: +36 1 231 0 </p>
+<p>France 
+CELLTRION HEALTHCARE FRANCE SAS 
+Tél: +33 (0)1 71 25 27 Portugal 
+PharmaKERN Portugal – Produtos Farmacêuticos, 
+Sociedade Unipessoal, Lda. 
+Tel: +351 214 200<br />
+Hrvatska 
+Oktal Pharma d.o.o. 
+Tel: +385 1 6595<br />
+România 
+Celltrion Healthcare Hungary Kft. 
+ Tel: +36 1 231 0 
+Ireland 
+Celltrion Healthcare Ireland Limited 
+Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
+<p>Slovenija 
+OPH Oktal Pharma d.o.o.<br />
+Tel: +386 1 519 29  </p>
+<p>Ísland 
+Vistor hf.<br />
+Sími: +354 535 7 
+Slovenská republika 
+Celltrion Healthcare Hungary Kft. 
+ Tel: +36 1 231 0Italia 
+Celltrion Healthcare Italy S.R.L 
+Tel: +39 0247 927celltrionhealthcare_italy@legalmail.it  </p>
+<p>Suomi/Finland 
+Orion Pharma 
+Puh/Tel: + 358 10 4 
+Κύπρος 
+C.A. Papaellinas Ltd 
+Τηλ: +357 22741 
+Sverige 
+Orion Pharma AB 
+Tel: + 46 8 623 64<br />
+Latvija 
+Celltrion Healthcare Hungary Kft. 
+ Tel: +36 1 231 0United Kingdom (Northern Ireland) 
+Celltrion Healthcare Ireland Limited 
+Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8efc3218e58b030bcc0685f059870454
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for blitzima Package Leaflet for language en"
+Description: "ePI document Bundle for blitzima Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8efc3218e58b030bcc0685f059870454"
+* entry[0].resource = composition-en-8efc3218e58b030bcc0685f059870454
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8efc3218e58b030bcc0685f059870454"
+* entry[=].resource = mp8efc3218e58b030bcc0685f059870454
+                            
+                    
+Instance: bundlepackageleaflet-da-8efc3218e58b030bcc0685f059870454
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for blitzima Package Leaflet for language da"
+Description: "ePI document Bundle for blitzima Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8efc3218e58b030bcc0685f059870454"
+* entry[0].resource = composition-da-8efc3218e58b030bcc0685f059870454
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8efc3218e58b030bcc0685f059870454"
+* entry[=].resource = mp8efc3218e58b030bcc0685f059870454
+                            
+                    
+
+
+
+Instance: mp8efc3218e58b030bcc0685f059870454
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Blitzima 100 mg concentrate for solution for infusion"
-Description: "Blitzima 100 mg concentrate for solution for infusion"
+Title: "Medicinal Product blitzima"
+Description: "blitzima"
 Usage: #inline
 
  
@@ -585,7 +1406,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Blitzima 100 mg concentrate for solution for infusion"
+  * productName = "blitzima"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -612,29 +1433,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8efc3218e58b030bcc0685f059870454
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for blitzima Package Leaflet for language en"
-Description: "ePI document Bundle for blitzima Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8efc3218e58b030bcc0685f059870454ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Blitzima 100 mg concentrate for solution for infusion"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "blitzima"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8efc3218e58b030bcc0685f059870454"
-* entry[0].resource = composition-en-8efc3218e58b030bcc0685f059870454
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7fc8cfe8242eb0119d3b2e1dc1d125b7"
-* entry[=].resource = mp7fc8cfe8242eb0119d3b2e1dc1d125b7
-                            
-                      
+* title = "List of all ePIs associated with blitzima"
+
+* subject = Reference(mp7fc8cfe8242eb0119d3b2e1dc1d125b7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#blitzima "blitzima"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8efc3218e58b030bcc0685f059870454) // blitzima en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8efc3218e58b030bcc0685f059870454) // blitzima da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8efc3218e58b030bcc0685f059870454
+InstanceOf: List
+
+* insert 8efc3218e58b030bcc0685f059870454ListRuleset
+    

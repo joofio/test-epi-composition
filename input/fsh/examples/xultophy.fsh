@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-616a2493f2581291ddc019d50fec7c8b
 InstanceOf: CompositionUvEpi
 Title: "Composition for xultophy Package Leaflet"
@@ -429,12 +432,1084 @@ DK-2880 Bagsv rd, Denmark </p>
 
 
 
+Instance: composition-da-616a2493f2581291ddc019d50fec7c8b
+InstanceOf: CompositionUvEpi
+Title: "Composition for xultophy Package Leaflet"
+Description:  "Composition for xultophy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbea79a58e3240f42a7ab54dcfe5b0a9b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbea79a58e3240f42a7ab54dcfe5b0a9b
+* title = "TEST PURPOSES ONLY - xultophy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen  </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at bruge Xultophy </li>
+<li>Sådan skal du bruge Xultophy </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xultophy is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xultophy is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad anvendes Xultophy til 
+Xultophy anvendes til at forbedre niveauet af blodglucose (blodsukker) hos voksne patienter med type 
+2-diabetes mellitus (sukkersyge). Du har diabetes, fordi din krop: </p>
+<ul>
+<li>
+<p>ikke danner insulin nok til at kontrollere blodsukkerniveauet, eller </p>
+</li>
+<li>
+<p>ikke er i stand til at udnytte insulinet ordentligt. </p>
+</li>
+</ul>
+<p>Sådan virker Xultophy<br />
+Xultophy indeholder to aktive stoffer, som hjælper din krop med at kontrollere blodsukkeret:  </p>
+<ul>
+<li>
+<p>insulin degludec – et langtidsvirkende basalinsulin, der sænker blodsukkerniveauet.  </p>
+</li>
+<li>
+<p>liraglutid – en "GLP-1-analog", som hjælper din krop med at danne mere insulin under måltider 
+og sænker den mængde sukker, din krop danner. </p>
+</li>
+</ul>
+<p>Xultophy og orale lægemidler til behandling af diabetes 
+Xultophy anvendes sammen med orale lægemidler til behandling af diabetes (f.eks. metformin, 
+pioglitazon og sulfonylurinstof). Det ordineres, når disse lægemidler (anvendt alene eller med GLP-1 
+behandling eller sammen med basalinsulin) ikke er nok til at kontrollere dit blodsukkerniveau.  </p>
+<p>Hvis du er i behandling med en GLP-1-analog 
+Du skal stoppe behandlingen med GLP-1-analogen, før du begynder at bruge Xultophy. </p>
+<p>Hvis du bruger insulin 
+Du skal stoppe behandlingen med insulin, før du begynder at bruge Xultophy. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xultophy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xultophy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Xultophy  </p>
+<ul>
+<li>hvis du er allergisk over for insulin degludec eller liraglutid eller et af de øvrige indholdsstoffer 
+i Xultophy (angivet under punkt 6).  </li>
+</ul>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Xultophy.  </p>
+<ul>
+<li>
+<p>Hvis du også tager et sulfonylurinstof (såsom glimepirid eller glibenclamid), vil din læge måske 
+bede dig om at reducere din dosis af sulfonylurinstof afhængigt af dit blodsukkerniveau. </p>
+</li>
+<li>
+<p>Brug ikke Xultophy, hvis du har type 1-diabetes mellitus, eller hvis du har ketoacidose (en 
+tilstand, hvor syre ophobes i blodet).  </p>
+</li>
+<li>
+<p>Xultophy anbefales ikke til brug hos patienter med inflammatorisk tarmsygdom eller forsinket 
+tømning af mavesækken (diabetisk gastroparese). </p>
+</li>
+</ul>
+<p>Vær specielt opmærksom på følgende, når du bruger Xultophy: </p>
+<ul>
+<li>
+<p>Lavt blodsukker (hypoglykæmi) – hvis dit blodsukker er lavt, skal du følge rådene under punkt 
+4 "Lavt blodsukker (hypoglykæmi)". </p>
+</li>
+<li>
+<p>Højt blodsukker (hyperglykæmi) – hvis dit blodsukker er højt, skal du følge rådene under punkt 
+4 "Højt blodsukker (hyperglykæmi)". </p>
+</li>
+<li>
+<p>Sikre, at du anvender den rigtige type insulin – kontrollér altid etiketten før hver injektion for at 
+undgå utilsigtet forveksling af Xultophy og andre præparater. </p>
+</li>
+</ul>
+<p>Vigtige ting, du bør vide, før du bruger dette lægemiddel: 
+Fortæl det til lægen, hvis du:  </p>
+<ul>
+<li>
+<p>har øjenproblemer. Hurtigt forbedret blodsukkerkontrol kan gøre diabetiske øjenproblemer 
+værre for en kort periode. Langvarigt forbedret blodsukkerkontrol kan lette øjenproblemerne. </p>
+</li>
+<li>
+<p>har eller har haft en sygdom i skjoldbruskkirtlen.  </p>
+</li>
+</ul>
+<p>Vigtige ting, du bør vide, mens du bruger dette lægemiddel: </p>
+<ul>
+<li>
+<p>Hvis du har alvorlig mavepine, der ikke går væk, skal du fortælle det til lægen – det kan være et 
+tegn på betændelse i bugspytkirtlen (akut pankreatitis).  </p>
+</li>
+<li>
+<p>Dehydrering (tab af kropsvæske) kan forekomme, hvis du har kvalme, kaster op eller har diarré 
+– det er vigtigt at drikke rigeligt med væske for at stoppe væskemangel.  </p>
+</li>
+</ul>
+<p>Hudforandringer på injektionsstedet 
+Injektionsstedet bør løbende skiftes for at hjælpe med at forebygge forandringer i fedtvævet under 
+huden, f.eks. fortykkelse af huden, hud der trækker sig sammen eller knuder under huden. Hvis du 
+injicerer insulinet i et område af huden med knuder, hud, der har trukket sig sammen eller er fortykket, 
+kan det være, at insulinet ikke virker så godt (se punkt 3, Sådan skal du bruge Xultophy). Kontakt 
+lægen, hvis du bemærker forandringer i huden ved injektionsstedet. Kontakt lægen, hvis du for 
+øjeblikket injicerer i disse berørte områder, før du begynder at injicere i et andet område. Det kan 
+være, at lægen vil fortælle dig, at du skal kontrollere dit blodsukker oftere og tilpasse insulindosen 
+eller dosen af andre antidiabetiske lægemidler. </p>
+<p>Børn og unge 
+Giv ikke dette lægemiddel til børn eller unge. Der er ingen erfaring med Xultophy til børn og unge 
+under 18 år. </p>
+<p>Brug af andre lægemidler sammen med Xultophy 
+Fortæl altid lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre lægemidler, for nylig 
+har taget andre lægemidler eller planlægger at tage andre lægemidler. Nogle lægemidler påvirker 
+blodsukkeret – det kan betyde, at din dosis af Xultophy skal ændres. </p>
+<p>Nedenstående liste omfatter de mest kendte lægemidler, som kan påvirke din behandling med 
+Xultophy. </p>
+<p>Dit blodsukkerniveau kan falde, hvis du tager: </p>
+<ul>
+<li>
+<p>andre lægemidler til behandling af diabetes (tabletter eller injektioner) </p>
+</li>
+<li>
+<p>sulfonamider – mod infektioner </p>
+</li>
+<li>
+<p>anabolske steroider – såsom testosteron </p>
+</li>
+<li>
+<p>betablokkere – mod forhøjet blodtryk. De kan gøre det vanskeligere at genkende 
+advarselssignalerne på lavt blodsukker (se punkt 4 "Advarselssignaler på lavt blodsukker – disse 
+kan komme pludseligt") </p>
+</li>
+<li>
+<p>acetylsalicylsyre (og lægemidler, der kaldes salicylater) – mod smerter og mild feber </p>
+</li>
+<li>
+<p>MAO (monoaminoxidase)-hæmmere – mod depression </p>
+</li>
+<li>
+<p>ACE (angiotensin-konverteringsenzym)-hæmmere – mod visse hjertelidelser eller forhøjet 
+blodtryk. </p>
+</li>
+</ul>
+<p>Dit blodsukkerniveau kan stige, hvis du tager: </p>
+<ul>
+<li>
+<p>danazol – et lægemiddel, der påvirker ægløsning </p>
+</li>
+<li>
+<p>oral prævention – p-piller </p>
+</li>
+<li>
+<p>skjoldbruskkirtelhormoner – mod sygdom i skjoldbruskkirtlen </p>
+</li>
+<li>
+<p>væksthormon – mod lavt niveau af væksthormon  </p>
+</li>
+<li>
+<p>lægemidler kaldet "glukokortikoider", såsom kortison – mod betændelse </p>
+</li>
+<li>
+<p>lægemidler kaldet "sympatomimetika", såsom epinefrin (adrenalin), salbutamol eller terbutalin 
+– mod astma </p>
+</li>
+<li>
+<p>vanddrivende tabletter kaldet "thiazider" – mod forhøjet blodtryk eller for meget vand i kroppen 
+(væskeophobning). </p>
+</li>
+</ul>
+<p>Octreotid og lanreotid – til behandling af en sjælden lidelse hvor der produceres for meget 
+væksthormon (akromegali). De kan øge eller reducere dit blodsukkerniveau. </p>
+<p>Pioglitazon – lægemiddel i tabletform til behandling af type 2-diabetes mellitus. Nogle patienter med 
+årelang type 2-diabetes og hjertesygdom eller tidligere slagtilfælde, som er blevet behandlet med 
+pioglitazon og insulin, oplevede hjertesvigt. Fortæl det straks til din læge, hvis du oplever symptomer 
+på hjertesvigt, såsom usædvanlig kortåndethed, hurtig vægtstigning eller lokale væskeansamlinger 
+(ødem). </p>
+<p>Warfarin eller andre blodfortyndende lægemidler – til forebyggelse af blodpropper. Fortæl det til 
+lægen, hvis du tager warfarin eller andre blodfortyndende lægemidler, da du muligvis skal have taget 
+blodprøver oftere for at få målt, hvor tykt dit blod er (kaldet "International Normalised Ratio" eller 
+INR-test). </p>
+<p>Brug af Xultophy sammen med alkohol 
+Hvis du drikker alkohol, kan dit behov for Xultophy ændres. Dit blodsukkerniveau kan enten stige 
+eller falde. Du skal derfor kontrollere dit blodsukkerniveau oftere end normalt. </p>
+<p>Graviditet og amning<br />
+Brug ikke Xultophy, hvis du er gravid eller planlægger at blive gravid. Fortæl det til lægen, hvis du er 
+gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid. Det vides ikke, om Xultophy 
+påvirker barnet. </p>
+<p>Brug ikke Xultophy, hvis du ammer. Det vides ikke, om Xultophy passerer over i modermælken.  </p>
+<p>Trafik- og arbejdssikkerhed<br />
+Hvis dit blodsukker er for lavt eller for højt, kan det påvirke din evne til at køre bil eller arbejde med 
+værktøj eller maskiner. Hvis dit blodsukker er lavt eller højt, kan det påvirke din koncentrations- eller 
+reaktionsevne. Det kan være farligt for dig selv eller andre. Spørg din læge, om du må køre bil: </p>
+<ul>
+<li>
+<p>hvis du ofte har lavt blodsukker </p>
+</li>
+<li>
+<p>hvis du har svært ved at vurdere, om du har lavt blodsukker. </p>
+</li>
+</ul>
+<p>Vigtig information om nogle af indholdsstofferne i Xultophy<br />
+Xultophy indeholder mindre end 1 mmol natrium (23 mg) per dosis, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xultophy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xultophy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet 
+eller sygeplejersken. </p>
+<p>Hvis du er blind eller har nedsat syn og ikke kan aflæse dosistælleren på pennen, må du ikke bruge 
+denne pen uden hjælp. Få hjælp af en person med normalt syn, som har fået undervisning i at bruge 
+den fyldte pen med Xultophy. </p>
+<p>Lægen vil fortælle dig: </p>
+<ul>
+<li>
+<p>hvor meget Xultophy du har behov for hver dag </p>
+</li>
+<li>
+<p>hvornår du skal måle dit blodsukkerniveau </p>
+</li>
+<li>
+<p>hvordan du tilpasser din dosis. </p>
+</li>
+</ul>
+<p>Din dosis af Xultophy indgives som "dosistrin". Dosistælleren på pennen viser antallet af dosistrin. </p>
+<p>Doseringstidspunkt </p>
+<ul>
+<li>
+<p>Brug Xultophy én gang om dagen, fortrinsvis på samme tidspunkt hver dag. Vælg det tidspunkt 
+på dagen, som passer dig bedst. </p>
+</li>
+<li>
+<p>Hvis det ikke er muligt at bruge Xultophy på samme tid hver dag, kan du bruge det på et andet 
+tidspunkt i løbet af dagen. Der skal altid gå mindst 8 timer mellem doserne. </p>
+</li>
+<li>
+<p>Det er ikke nødvendigt at bruge Xultophy sammen med et måltid.  </p>
+</li>
+<li>
+<p>Følg altid lægens råd om dosis og dosisjustering. </p>
+</li>
+<li>
+<p>Hvis du vil ændre din sædvanlige kost, skal du først tale med lægen, apotekspersonalet eller 
+sygeplejersken, da en kostændring kan ændre dit behov for Xultophy. </p>
+</li>
+</ul>
+<p>Sådan skal du bruge Xultophy<br />
+Xultophy er en fyldt pen med dosisindstilling. </p>
+<ul>
+<li>
+<p>Xultophy indgives som "dosistrin". Dosistælleren på pennen viser antallet af dosistrin. </p>
+</li>
+<li>
+<p>Ét dosistrin indeholder 1 enhed insulin degludec og 0,036 mg liraglutid.  </p>
+</li>
+<li>
+<p>Den maksimale daglige dosis Xultophy er 50 dosistrin (50 enheder insulin degludec og 1,8 mg 
+liraglutid). 
+Læs omhyggeligt "Brugervejledning" på den anden side af denne indlægsseddel og brug pennen som 
+beskrevet.<br />
+Kontrollér altid etiketten på pennen, før du injicerer medicinen for at sikre, at du bruger den korrekte 
+pen. </p>
+</li>
+</ul>
+<p>Sådan skal du injicere 
+Før du tager Xultophy første gang, viser lægen eller sygeplejersken dig, hvordan du skal injicere. </p>
+<ul>
+<li>
+<p>Xultophy gives som en injektion under huden (subkutant). Du må ikke injicere i en vene eller en 
+muskel. </p>
+</li>
+<li>
+<p>De bedste steder til injektion er foran på låret, i overarmen eller foran i maveskindet. </p>
+</li>
+<li>
+<p>Skift injektionssted inden for det område, hvor du injicerer, hver dag. Hermed reducerer du 
+risikoen for at udvikle knuder og fordybninger i huden (se punkt 4). </p>
+</li>
+<li>
+<p>Anvend altid en ny nål ved hver injektion. Genbrug af nåle kan øge risikoen for blokerede nåle, 
+hvilket kan føre til upræcis dosering. Kassér nålen sikkert efter brug. </p>
+</li>
+<li>
+<p>For at undgå doseringsfejl og potentiel overdosering, må du aldrig anvende en sprøjte til at 
+udtage lægemidlet fra pennen. </p>
+</li>
+</ul>
+<p>Der er en detaljeret brugervejledning på den anden side af denne indlægsseddel. </p>
+<p>Brug ikke Xultophy: </p>
+<ul>
+<li>
+<p>Hvis pennen er beskadiget eller ikke har været opbevaret korrekt (se punkt 5). </p>
+</li>
+<li>
+<p>Hvis den væske, du kan se gennem pennens vindue, ikke ser klar og farveløs ud. </p>
+</li>
+</ul>
+<p>Brug til ældre (65 år eller derover) 
+Xultophy kan bruges til ældre patienter, men hvis du er ældre, kan det være nødvendigt at kontrollere 
+blodsukkerniveauet oftere. Tal med lægen om ændringer i din dosis. </p>
+<p>Hvis du har nyre- eller leverproblemer 
+Hvis du har nyre- eller leverproblemer, kan det være nødvendigt at kontrollere blodsukkerniveauet 
+oftere. Tal med lægen om ændringer i din dosis. </p>
+<p>Hvis du har brugt for meget Xultophy<br />
+Hvis du bruger mere Xultophy, end du skal, kan dit blodsukker blive lavt (hypoglykæmi), eller du kan 
+få kvalme eller kaste op. Se informationen under punkt 4 "Lavt blodsukker (hypoglykæmi)", hvis dit 
+blodsukker bliver lavt. </p>
+<p>Hvis du har glemt at bruge Xultophy<br />
+Hvis du glemmer en dosis, skal du injicere den glemte dosis, når du opdager forglemmelsen, men med 
+mindst 8 timer mellem doserne. Hvis du opdager, at du har glemt din tidligere dosis, når det er tid til 
+din næste regelmæssige planlagte dosis, må du ikke tage en dobbeltdosis. </p>
+<p>Hvis du holder op med at bruge Xultophy<br />
+Du må ikke holde op med at bruge Xultophy uden først at have talt med din læge om det. Hvis du 
+holder op med at tage Xultophy, kan det føre til et meget højt blodsukkerniveau, se informationen i 
+punkt 4 "Højt blodsukker (hyperglykæmi)". </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Følgende alvorlige bivirkninger kan forekomme ved brug af dette lægemiddel: </p>
+<ul>
+<li>
+<p>Lavt blodsukker (meget almindelig: kan forekomme hos flere end 1 ud af 10 behandlede).<br />
+Hvis dit blodsukkerniveau bliver lavt, kan du besvime (blive bevidstløs). Alvorlig hypoglykæmi 
+kan forårsage hjerneskade og kan være livstruende. Hvis du har symptomer på lavt blodsukker, 
+skal du straks sørge for at øge dit blodsukker. Se informationen i "Lavt blodsukker 
+(hypoglykæmi)" længere nede i dette punkt.  </p>
+</li>
+<li>
+<p>Alvorlig allergisk reaktion (anafylaktisk reaktion) (ikke kendt: hyppigheden kan ikke estimeres 
+ud fra tilgængelige data). </p>
+</li>
+</ul>
+<p>Hvis du får en alvorlig allergisk reaktion over for et af indholdsstofferne i Xultophy, skal du 
+stoppe med at tage Xultophy og straks kontakte lægen. Symptomer på alvorlig allergisk reaktion 
+er: </p>
+<ul>
+<li>
+<p>lokale reaktioner spreder sig til resten af din krop </p>
+</li>
+<li>
+<p>du pludselig føler dig dårlig og sveder </p>
+</li>
+<li>
+<p>du har åndedrætsbesvær </p>
+</li>
+<li>
+<p>du får hjertebanken eller føler dig svimmel. </p>
+</li>
+</ul>
+<p>Hudforandringer på injektionsstedet:<br />
+Hvis du injicerer insulin på samme sted, kan fedtvævet enten skrumpe (lipoatrofi) eller fortykkes 
+(lipohypertrofi) (kan forekomme hos færre end 1 ud af 100 behandlede). Knuder under huden kan også 
+skyldes ophobning af et protein, der kaldes amyloid (kutan amyloidose; hvor ofte dette forekommer er 
+ikke kendt). Hvis du injicerer insulinet i et område med knuder, hud, der har trukket sig sammen eller 
+er fortykket, kan det være, at insulinet ikke virker så godt. Skift injektionssted ved hver injektion for at 
+hjælpe med at forebygge disse hudforandringer. </p>
+<p>Andre bivirkninger inkluderer: 
+Almindelige bivirkninger (kan forekomme hos færre end 1 ud af 10 behandlede) </p>
+<ul>
+<li>
+<p>Svimmelhed. </p>
+</li>
+<li>
+<p>Nedsat appetit, kvalme eller opkastning, diarré, forstoppelse, fordøjelsesproblemer (dyspepsi), 
+betændt slimhinde i maven (gastritis), mavepine, halsbrand eller oppustethed – disse 
+bivirkninger forsvinder normalt efter nogle få dage eller uger. </p>
+</li>
+<li>
+<p>Reaktioner på injektionsstedet. Symptomerne kan omfatte blå mærker, blødning, smerter, 
+rødme, nældefeber, hævelse eller kløe – disse forsvinder normalt efter nogle få dage. Kontakt 
+din læge, hvis reaktionerne ikke er forsvundet efter nogle uger. Hold op med at bruge Xultophy, 
+og søg straks læge, hvis de bliver alvorlige.  </p>
+</li>
+<li>
+<p>Forhøjet niveau af enzymer i bugspytkirtlen, såsom lipase og amylase. </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos færre end 1 ud af 100 behandlede) </p>
+<ul>
+<li>
+<p>Nældefeber (røde hævede områder på huden, der sommetider klør). </p>
+</li>
+<li>
+<p>Allergiske reaktioner (overfølsomhed), såsom udslæt, kløe og hævelse i ansigtet. </p>
+</li>
+<li>
+<p>Dehydrering (tab af kropsvæske) – det er vigtigt at drikke rigeligt med væske for at stoppe 
+dehydrering. </p>
+</li>
+<li>
+<p>Bøvsen (opstød), tarmluft (flatulens). </p>
+</li>
+<li>
+<p>Udslæt. </p>
+</li>
+<li>
+<p>Kløe. </p>
+</li>
+<li>
+<p>Øget hjertefrekvens. </p>
+</li>
+<li>
+<p>Galdesten. </p>
+</li>
+<li>
+<p>Betændelse i galdeblæren. </p>
+</li>
+<li>
+<p>Ændring af hvordan ting smager. </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke beregnes ud fra tilgængelige data) </p>
+<ul>
+<li>
+<p>Betændt bugspytkirtel (pankreatitis). </p>
+</li>
+<li>
+<p>Forsinkelse i tømning af mavesækken. </p>
+</li>
+<li>
+<p>Hævede arme eller ben (perifert ødem) – når du påbegynder behandling med lægemidlet, kan 
+kroppen ophobe mere vand, end den skal. Det giver hævelser omkring ankler og andre led. Det 
+er normalt kun kortvarigt. </p>
+</li>
+</ul>
+<p>Generelle følger af behandling af diabetes </p>
+<p>► 
+Lavt blodsukker (hypoglykæmi) </p>
+<p>Lavt blodsukker kan forekomme, hvis du: </p>
+<ul>
+<li>
+<p>drikker alkohol </p>
+</li>
+<li>
+<p>motionerer mere end normalt </p>
+</li>
+<li>
+<p>spiser for lidt eller springer et måltid over  </p>
+</li>
+<li>
+<p>bruger for meget Xultophy. </p>
+</li>
+</ul>
+<p>Advarselssignaler på lavt blodsukker – disse kan komme pludseligt 
+Hovedpine, sløret tale, hurtig hjertebanken, koldsved, kold og bleg hud, kvalme, usædvanlig stor 
+sultfornemmelse, rysten, nervøsitet eller bekymring, unormal træthed, svaghed og døsighed eller 
+forvirring, koncentrationsbesvær, kortvarige synsforstyrrelser. </p>
+<p>Hvad du skal gøre, hvis du får lavt blodsukker: </p>
+<ul>
+<li>
+<p>Spis glucosetabletter (druesukker) eller et andet meget sukkerholdigt produkt – såsom slik, kiks 
+eller frugtjuice (medbring for en sikkerheds skyld altid glucosetabletter eller et meget 
+sukkerholdigt produkt). </p>
+</li>
+<li>
+<p>Mål dit blodsukker hvis det er muligt, og hvil dig. Det kan være nødvendigt at måle dit 
+blodsukker mere end én gang. Det skyldes, at dit blodsukker måske ikke stiger lige med det 
+samme. </p>
+</li>
+<li>
+<p>Vent indtil symptomerne på lavt blodsukker er forsvundet, eller dit blodsukker er stabiliseret. 
+Derefter kan du fortsætte med din medicin som sædvanlig. </p>
+</li>
+</ul>
+<p>Hvad andre skal gøre, hvis du besvimer:<br />
+Fortæl alle, du er sammen med, at du har diabetes. Fortæl dem, hvad der kan ske, herunder risikoen 
+for, at du besvimer, hvis dit blodsukker bliver lavt. </p>
+<p>Fortæl dem, at hvis du besvimer, skal de: </p>
+<ul>
+<li>
+<p>vende dig om på siden </p>
+</li>
+<li>
+<p>straks tilkalde lægehjælp </p>
+</li>
+<li>
+<p>ikke give dig noget at spise eller drikke, da du kan risikere at blive kvalt. </p>
+</li>
+</ul>
+<p>Du kan genvinde bevidstheden hurtigere, hvis du får glucagon. Det må kun gives af en person, der er 
+instrueret i, hvordan det anvendes. </p>
+<ul>
+<li>
+<p>Hvis du får glucagon, skal du også have glucose eller et sukkerholdigt produkt at spise, så snart 
+du igen er ved bevidsthed. </p>
+</li>
+<li>
+<p>Hvis du ikke reagerer på glucagonbehandlingen, skal du behandles på hospitalet. </p>
+</li>
+<li>
+<p>Hvis alvorligt lavt blodsukker ikke behandles inden for en vis tid, kan det medføre hjerneskade. 
+Dette kan være kort- eller langvarigt. Det kan i værste fald medføre døden. </p>
+</li>
+</ul>
+<p>Tal med din læge, hvis: </p>
+<ul>
+<li>
+<p>dit blodsukker har været så lavt, at du er besvimet </p>
+</li>
+<li>
+<p>du har brugt glucagon </p>
+</li>
+<li>
+<p>du har haft lavt blodsukker nogle gange på det seneste. 
+Det kan nemlig være nødvendigt at ændre din dosis ved injektion af Xultophy, måltider eller motion. </p>
+</li>
+</ul>
+<p>► 
+Højt blodsukker (hyperglykæmi) </p>
+<p>Højt blodsukker kan forekomme, hvis du: </p>
+<ul>
+<li>
+<p>drikker alkohol </p>
+</li>
+<li>
+<p>motionerer mindre end normalt </p>
+</li>
+<li>
+<p>spiser mere end normalt </p>
+</li>
+<li>
+<p>får en infektion eller feber </p>
+</li>
+<li>
+<p>ikke har brugt tilstrækkeligt Xultophy, gentagne gange bruger mindre Xultophy end du har brug 
+for, glemmer at bruge Xultophy, eller stopper med at tage Xultophy uden at tale med din læge. </p>
+</li>
+</ul>
+<p>Advarselssignaler på højt blodsukker – disse kommer normalt gradvist 
+Rødme, tør hud, døsighed eller træthed, mundtørhed, frugtagtig (acetonelugtende) ånde, hyppigere 
+vandladning, tørst, nedsat appetit, kvalme eller opkastning. 
+Disse symptomer kan betyde, at du har en meget alvorlig tilstand kaldet "ketoacidose". Det er en 
+ophobning af syre i blodet, da kroppen nedbryder fedt i stedet for sukker. Denne tilstand kan 
+ubehandlet resultere i diabetisk koma og i værste fald død. </p>
+<p>Hvad du skal gøre, hvis du får højt blodsukker: </p>
+<ul>
+<li>
+<p>Mål dit blodsukkerniveau. </p>
+</li>
+<li>
+<p>Kontrollér blodet eller urinen for ketoner. </p>
+</li>
+<li>
+<p>Søg straks lægehjælp. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xultophy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xultophy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pennens etiket og karton efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Før ibrugtagning 
+Opbevares i køleskab (2°C - 8°C). Må ikke opbevares tæt på køleelementet. Må ikke fryses. </p>
+<p>Under brug 
+Må ikke fryses. Du kan medbringe Xultophy og opbevare det ved stuetemperatur (ikke over 30°C) 
+eller i køleskab (2°C - 8°C) i op til 21 dage. Produktet skal kasseres 21 dage efter ibrugtagning. </p>
+<p>Lad altid hætten sidde på den fyldte pen, når den ikke er i brug, for at beskytte den mod lys.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xultophy indeholder:  </p>
+<ul>
+<li>
+<p>Aktive stoffer: Insulin degludec og liraglutid. Hver ml opløsning indeholder 100 enheder insulin 
+degludec og 3,6 mg liraglutid. Hver ubrugt fyldt pen (3 ml) indeholder 300 enheder insulin 
+degludec og 10,8 mg liraglutid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Glycerol, phenol, zinkacetat, saltsyre og natriumhydroxid (til pH-
+justering) og vand til injektionsvæsker. Se også punkt 2 "Vigtig information om nogle af 
+indholdsstofferne i Xultophy" for yderligere information om natrium. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Xultophy er en klar og farveløs opløsning. 
+Pakningsstørrelser på 1, 3, 5 og en multipakning indeholdende 10 (2 pakker med 5) penne à 3 ml. Ikke 
+alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd, Danmark </p>
+<p>Vend indlægssedlen for at få oplysninger om, hvordan du skal bruge den fyldte pen. </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.  </p>
+<p>Brugervejledning til Xultophy 100 enheder/ml + 3,6 mg/ml injektionsvæske, opløsning </p>
+<p>Læs denne vejledning omhyggeligt, inden du bruger den fyldte Xultophy 
+pen. 
+Tag ikke pennen i brug, før du har fået undervisning af lægen eller 
+sygeplejersken. 
+Begynd med at kontrollere pennen for at sikre dig, at den indeholder 
+Xultophy 100 enheder/ml + 3,6 mg/ml, og se derefter på nedenstående 
+illustrationer, så du kan lære de forskellige dele af pennen og nålen at kende. </p>
+<p>Hvis du er blind eller har nedsat syn og ikke kan aflæse dosistælleren på 
+pennen, må du ikke bruge denne pen uden hjælp. Få hjælp af en person 
+med godt syn, som har fået undervisning i at bruge den fyldte Xultophy pen. </p>
+<p>Xultophy er et lægemiddel, der indeholder insulin degludec og liraglutid. 
+Xultophy indgives som "dosistrin". Ét dosistrin indeholder 1 enhed insulin 
+degludec + 0,036 mg liraglutid. </p>
+<p>Pennen er en fyldt pen med dosisindstilling. Den indeholder 3 ml Xultophy 
+opløsning. Den leverer doser fra:<br />
+– 
+1 dosistrin<br />
+– 
+til maksimalt 50 dosistrin (50 enheder insulin degludec + 1,8 mg 
+liraglutid). </p>
+<p>Pennen leverer doser med en stigning på 1 dosistrin.<br />
+Lav ikke nogen ændring af din dosis. De valgte dosistrin svarer til det tal, der 
+vises i dosistælleren.  </p>
+<p>Pennen er beregnet til anvendelse sammen med NovoTwist eller NovoFine 
+engangsnåle med en længde på op til 8 mm og så tynde som 32G. Nåle 
+medfølger ikke i pakningen. </p>
+<p>Vigtig information 
+Vær særligt opmærksom på denne information, da den er vigtig for at kunne 
+anvende pennen sikkert. </p>
+<p>Xultophy fyldt pen og nål 
+(eksempel) 
+Penhætte 
+Ydre 
+nålehætte 
+Indre 
+nålehætte 
+Nål 
+Papir-
+forsegling 
+Penskala 
+Penvindue 
+Penetiket 
+Dosistæller 
+Dosismarkør 
+Dosis-
+knap 
+med 
+glat 
+over-
+flade 
+Dosis- vælger 
+Dosis- knap </p>
+<p>1 Klargør pennen med en ny nål </p>
+<ul>
+<li>
+<p>Kontrollér navnet og den farvede etiket på pennen for at sikre dig, at 
+den indeholder Xultophy. 
+Det er især vigtigt, hvis du tager flere typer injicerbar medicin. Det kan 
+skade dit helbred at tage den forkerte medicin. </p>
+</li>
+<li>
+<p>Træk penhætten af. 
+ A </p>
+</li>
+<li>
+<p>Kontrollér, at opløsningen i pennen er klar og farveløs. Kig igennem 
+penvinduet. Hvis opløsningen virker uklar, må du ikke bruge pennen. 
+ B </p>
+</li>
+<li>
+<p>Tag en ny nål, og riv papirforseglingen af. </p>
+</li>
+</ul>
+<p>C </p>
+<ul>
+<li>
+<p>Skub nålen lige ind på pennen. Drej, indtil den sidder fast. 
+ D </p>
+</li>
+<li>
+<p>Fjern den ydre nålehætte, og gem den til senere. Du skal bruge den 
+efter injektionen, når du skal fjerne nålen sikkert fra pennen. </p>
+</li>
+</ul>
+<p>E </p>
+<ul>
+<li>Fjern den indre nålehætte, og kassér den. Hvis du forsøger at sætte 
+den på igen, kan du komme til at stikke dig på nålen.<br />
+En dråbe opløsning kan komme til syne på nålens spids. Dette er 
+normalt, men du skal stadig kontrollere insulingennemløbet. 
+Sæt ikke en ny nål på pennen, før du er klar til at tage din injektion. </li>
+</ul>
+<p>Brug altid en ny nål til hver injektion. 
+Derved kan tilstopning af nålene, urenheder, infektion og upræcis 
+dosering undgås. </p>
+<p>Brug aldrig en bøjet eller beskadiget nål. 
+ F </p>
+<p>2 Kontrollér gennemløbet </p>
+<ul>
+<li>Indstil dosisvælgeren på 2 dosistrin. Du skal sikre dig, at dosistælleren 
+viser 2. * Dosistælleren og dosismarkøren viser, hvor mange dosistrin af 
+Xultophy, du vælger. </li>
+</ul>
+<p>A 
+2<br />
+dosistrin 
+valgt </p>
+<ul>
+<li>
+<p>Hold pennen, så nålen vender opad.<br />
+Bank let på toppen af pennen et par gange, så eventuelle luftbobler 
+stiger op til toppen af pennen. 
+ B </p>
+</li>
+<li>
+<p>Tryk på dosisknappen, og hold den inde, indtil dosistælleren er 
+tilbage på 0. 0 skal være lige ud for dosismarkøren. 
+En dråbe opløsning skal komme til syne på nålens spids. </p>
+</li>
+</ul>
+<p>En lille dråbe kan forblive ved nålespidsen, men den injiceres ikke. 
+Hvis der ikke kommer nogen dråbe til syne, gentages trin 2A til 2C 
+op til 6 gange. Hvis der stadig ikke kommer nogen dråbe til syne, skiftes 
+nålen, og trin 2A til 2C gentages én gang mere. 
+Hvis der stadig ikke kommer en dråbe opløsning til syne, skal du 
+kassere pennen og tage en ny i brug. </p>
+<p>Kontrollér altid, at der kommer en dråbe til syne ved nålespidsen, 
+før du injicerer. Dette sikrer gennemløb af opløsningen. 
+Hvis der ikke kommer en dråbe til syne, injicerer du ikke noget 
+medicin, heller ikke selvom dosistælleren måske bevæger sig. Det kan 
+være et tegn på, at nålen er tilstoppet eller beskadiget. </p>
+<p>Det er vigtigt altid at kontrollere gennemløbet, før du injicerer. Hvis 
+du ikke kontrollerer gennemløbet, får du måske for lidt eller slet ikke 
+noget medicin. Det kan føre til et for højt blodsukkerniveau. </p>
+<p>C </p>
+<p>3 Indstil dosis </p>
+<ul>
+<li>Indstil dosisvælgeren til den dosis, du har behov for. 
+Dosistælleren viser dosis i dosistrin. 
+Hvis du vælger en forkert dosis, kan du dreje dosisvælgeren frem eller 
+tilbage til den rigtige dosis. 
+Pennen kan indstilles til højst 50 dosistrin. 
+Dosisvælgeren ændrer antallet af dosistrin. 
+Kun dosistælleren og dosismarkøren viser, hvor mange dosistrin du 
+vælger per dosis. 
+Du kan vælge op til 50 dosistrin per dosis. Når pennen indeholder 
+mindre end 50 dosistrin, stopper dosistælleren ved det antal dosistrin, 
+der er tilbage. 
+Dosisvælgeren klikker forskelligt, når den drejes frem, tilbage eller forbi 
+det antal dosistrin, der er tilbage. Tæl ikke antal klik. </li>
+</ul>
+<p>Brug altid dosistælleren og dosismarkøren til at se, hvor mange 
+dosistrin du har valgt, før du injicerer medicinen. 
+Tæl ikke antal klik. Hvis du vælger og injicerer en forkert dosis, kan dit 
+blodsukkerniveau blive for højt eller for lavt. 
+Du må ikke bruge penskalaen, den viser ikke nøjagtigt hvor meget 
+opløsning, der er tilbage i pennen. </p>
+<p>A 
+Eksempler 
+5 
+dosistrin 
+valgt 
+24<br />
+dosistrin 
+valgt </p>
+<p>Hvor meget opløsning er der tilbage? </p>
+<ul>
+<li>
+<p>Penskalaen viser hvor meget opløsning, der cirka er tilbage i pennen. 
+ A 
+Ca. så 
+meget 
+opløsning 
+tilbage </p>
+</li>
+<li>
+<p>Brug dosistælleren til at se præcis hvor meget opløsning, der er 
+tilbage: 
+Drej dosisvælgeren, indtil dosistælleren stopper. 
+Hvis den viser 50, er der mindst 50 dosistrin tilbage i pennen. Hvis den 
+viser mindre end 50, er det viste tal antallet af dosistrin, der er tilbage i 
+pennen. </p>
+</li>
+<li>
+<p>Hvis du skal bruge mere medicin end det, der er tilbage i pennen, kan du 
+dele din dosis mellem to penne. </p>
+</li>
+</ul>
+<p>Vær omhyggelig med at regne rigtigt, hvis du deler din dosis.<br />
+Hvis du er i tvivl, tager du den fulde dosis med en ny pen. Hvis du deler 
+din dosis forkert, injicerer du for lidt eller for meget medicin. Det kan få 
+dit blodsukkerniveau til at blive højt eller lavt. </p>
+<p>B 
+Eksempel 
+Dosistæller 
+stoppet: dosistrin 
+tilbage </p>
+<p>4 Injicér dosis </p>
+<ul>
+<li>
+<p>Stik nålen ind under huden, som lægen eller sygeplejersken har vist 
+dig. </p>
+</li>
+<li>
+<p>Kontrollér, at du kan se dosistælleren. Du må ikke dække for den 
+med fingrene. Det kan afbryde injektionen. 
+ A </p>
+</li>
+<li>
+<p>Tryk på dosisknappen, og hold den inde, indtil dosistælleren viser 0. 0 skal være lige ud for dosismarkøren. Du kan nu måske høre eller 
+mærke et klik. 
+ B </p>
+</li>
+<li>
+<p>Lad nålen forblive under huden, efter dosistælleren er vendt tilbage 
+på 0, og tæl langsomt til 6. * Hvis nålen fjernes tidligere, vil du måske se en stråle af opløsning, der 
+kommer fra nålens spids. I så fald bliver den fulde dosis ikke leveret, og 
+du skal kontrollere dit blodsukkerniveau hyppigere. 
+ C 
+Tæl langsomt: 
+1-2-3-4-5-6 </p>
+</li>
+<li>
+<p>Fjern nålen fra huden. 
+Hvis der kommer blod til syne ved injektionsstedet, trykker du let på 
+det. Du må ikke gnide på stedet. </p>
+</li>
+</ul>
+<p>Du vil måske se en dråbe opløsning ved nålens spids efter injektionen. 
+Dette er normalt og påvirker ikke din dosis. </p>
+<p>Hold altid øje med dosistælleren, så du ved, hvor mange dosistrin, 
+du injicerer. Hold dosisknappen inde, indtil dosistælleren viser 0. Hvis 
+dosistælleren ikke går tilbage til 0, er den fulde dosis ikke blevet leveret, 
+og det kan føre til for højt blodsukkerniveau. </p>
+<p>Sådan opdager du, om nålen er tilstoppet eller beskadiget </p>
+<ul>
+<li>
+<p>Hvis dosistælleren ikke viser 0, når du bliver ved med at trykke 
+på dosisknappen, har du måske brugt en tilstoppet eller beskadiget 
+nål. </p>
+</li>
+<li>
+<p>I så fald har du ikke modtaget noget medicin, selv om 
+dosistælleren har bevæget sig fra den oprindelige dosis, du valgte. 
+Sådan håndteres en tilstoppet nål 
+Udskift nålen som beskrevet i punkt 5, og gentag alle trin med start fra 
+punkt 1: Klargør pennen med en ny nål. Sørg for, at du vælger den fulde 
+dosis, du har behov for. 
+Rør aldrig ved dosistælleren, når du injicerer. Dette kan afbryde 
+injektionen. </p>
+</li>
+</ul>
+<p>D </p>
+<p>5 Efter injektionen </p>
+<ul>
+<li>Før nålespidsen ind i den ydre nålehætte, mens den ligger på en plan 
+overflade uden at røre ved nålen eller den ydre nålehætte. </li>
+</ul>
+<p>A </p>
+<ul>
+<li>
+<p>Når nålen er dækket, skubbes den ydre nålehætte omhyggeligt helt 
+på. </p>
+</li>
+<li>
+<p>Skru nålen af, og bortskaf den sikkert, som lægen eller sygeplejersken 
+har fortalt dig. 
+ B </p>
+</li>
+<li>
+<p>Sæt penhætten på pennen efter brug for at beskytte opløsningen mod 
+lys. </p>
+</li>
+</ul>
+<p>Kassér altid nålen efter hver injektion for at sikre, at nålen, der 
+bruges, er spids og for at forhindre tilstopning af nålene. Hvis nålen er 
+tilstoppet, injicerer du ikke noget medicin. 
+Når pennen er tom, kasserer du den uden en nål påsat, som anvist af 
+lægen, sygeplejersken, apotekspersonalet eller de lokale 
+sundhedsmyndigheder. </p>
+<p>Forsøg aldrig at sætte den indre nålehætte på nålen igen. Du kan 
+komme til at stikke dig på nålen. </p>
+<p>Fjern altid nålen fra pennen efter hver injektion. 
+Dette kan forhindre tilstopning af nålene, urenheder, infektion, 
+udsivning af opløsning og upræcis dosering. 
+ C </p>
+<p>Yderligere vigtig information </p>
+<ul>
+<li>
+<p>Hav altid en ekstra pen og nye nåle parat i tilfælde af tab eller 
+beskadigelse. </p>
+</li>
+<li>
+<p>Opbevar altid pennen og nålene ude af syne og utilgængeligt for 
+andre, især børn. </p>
+</li>
+<li>
+<p>Du må aldrig dele din pen med andre. Din medicin kan skade deres 
+helbred. </p>
+</li>
+<li>
+<p>Du må aldrig dele dine nåle med andre. Det kan føre til krydsinfektion. </p>
+</li>
+<li>
+<p>Omsorgspersoner skal håndtere brugte nåle meget forsigtigt – for at 
+undgå stikuheld og krydsinfektioner. </p>
+</li>
+</ul>
+<p>Vedligeholdelse af din pen </p>
+<ul>
+<li>
+<p>Du må ikke efterlade pennen i bilen eller andre steder, hvor den kan 
+blive for varm eller for kold. </p>
+</li>
+<li>
+<p>Opbevar ikke din pen ved temperaturer over 30°C. </p>
+</li>
+<li>
+<p>Udsæt ikke din pen for støv, snavs eller væske. </p>
+</li>
+<li>
+<p>Pennen må ikke vaskes, iblødsættes eller smøres. Hvis det er 
+nødvendigt, kan den rengøres med et mildt rengøringsmiddel på en 
+fugtig klud. </p>
+</li>
+<li>
+<p>Undgå at tabe pennen eller slå den mod hårde overflader.  </p>
+</li>
+</ul>
+<p>Hvis du taber den eller har mistanke om et problem, skal du sætte en ny 
+nål på og kontrollere gennemløbet, før du injicerer. </p>
+<ul>
+<li>
+<p>Forsøg ikke at genopfylde din pen. Når den er tom, skal den kasseres. </p>
+</li>
+<li>
+<p>Forsøg ikke at reparere din pen eller skille den ad. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-616a2493f2581291ddc019d50fec7c8b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xultophy Package Leaflet for language en"
+Description: "ePI document Bundle for xultophy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-616a2493f2581291ddc019d50fec7c8b"
+* entry[0].resource = composition-en-616a2493f2581291ddc019d50fec7c8b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp616a2493f2581291ddc019d50fec7c8b"
+* entry[=].resource = mp616a2493f2581291ddc019d50fec7c8b
+                            
+                    
+Instance: bundlepackageleaflet-da-616a2493f2581291ddc019d50fec7c8b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xultophy Package Leaflet for language da"
+Description: "ePI document Bundle for xultophy Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-616a2493f2581291ddc019d50fec7c8b"
+* entry[0].resource = composition-da-616a2493f2581291ddc019d50fec7c8b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp616a2493f2581291ddc019d50fec7c8b"
+* entry[=].resource = mp616a2493f2581291ddc019d50fec7c8b
+                            
+                    
+
+
+
+Instance: mp616a2493f2581291ddc019d50fec7c8b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Xultophy 100 units/mL + 3.6 mg/mL solution for injection."
-Description: "Xultophy 100 units/mL + 3.6 mg/mL solution for injection."
+Title: "Medicinal Product xultophy"
+Description: "xultophy"
 Usage: #inline
 
  
@@ -454,7 +1529,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Xultophy 100 units/mL + 3.6 mg/mL solution for injection."
+  * productName = "xultophy"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -481,29 +1556,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-616a2493f2581291ddc019d50fec7c8b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xultophy Package Leaflet for language en"
-Description: "ePI document Bundle for xultophy Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 616a2493f2581291ddc019d50fec7c8bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/947/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xultophy"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-616a2493f2581291ddc019d50fec7c8b"
-* entry[0].resource = composition-en-616a2493f2581291ddc019d50fec7c8b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbea79a58e3240f42a7ab54dcfe5b0a9b"
-* entry[=].resource = mpbea79a58e3240f42a7ab54dcfe5b0a9b
-                            
-                      
+* title = "List of all ePIs associated with xultophy"
+
+* subject = Reference(mpbea79a58e3240f42a7ab54dcfe5b0a9b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xultophy "xultophy"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-616a2493f2581291ddc019d50fec7c8b) // xultophy en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-616a2493f2581291ddc019d50fec7c8b) // xultophy da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-616a2493f2581291ddc019d50fec7c8b
+InstanceOf: List
+
+* insert 616a2493f2581291ddc019d50fec7c8bListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e2a8db799211e459b47eab2397a33e4f
 InstanceOf: CompositionUvEpi
 Title: "Composition for cubicin Package Leaflet"
@@ -534,12 +537,650 @@ not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-e2a8db799211e459b47eab2397a33e4f
+InstanceOf: CompositionUvEpi
+Title: "Composition for cubicin Package Leaflet"
+Description:  "Composition for cubicin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0503c4f7ea65f5b94c9ca3a324090040)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0503c4f7ea65f5b94c9ca3a324090040
+* title = "TEST PURPOSES ONLY - cubicin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få Cubicin
+3. Sådan får du Cubicin
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cubicin is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cubicin is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Cubicin pulver til injektions- og infusionsvæske, opløsning, er daptomycin.
+Daptomycin er et antibakterielt middel, som kan stoppe væksten af visse bakterier. Cubicin bruges til
+behandling af infektioner i huden eller i vævene under huden hos voksne og hos børn og unge (i
+alderen 1 år til 17 år). Det bruges også til behandling af infektioner i blodet i forbindelse med
+infektion i huden.
+Cubicin bruges også hos voksne til behandling af infektioner i vævene på indersiden af hjertet
+(herunder hjerteklapperne), som er forårsaget af en type bakterie kaldet Staphylococcus aureus. Det
+bruges også til behandling af infektioner i blodet, som er forårsaget af samme type bakterie i
+forbindelse med infektion i hjertet.
+Afhængig af hvilken infektion eller hvilke infektioner du har, vil din læge muligvis også ordinere
+andre antibakterielle midler, mens du er i behandling med Cubicin.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cubicin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cubicin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Cubicin
+Hvis du er allergisk over for daptomycin eller natriumhydroxid eller et af de øvrige indholdsstoffer i
+Cubicin (angivet i punkt 6).
+Fortæl det til din læge eller sygeplejersken, hvis dette gælder for dig. Spørg din læge eller
+sygeplejersken til råds, hvis du tror, du måske er allergisk.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sygeplejersken, før du får Cubicin:</p>
+<ul>
+<li>Hvis du har eller tidligere har haft problemer med nyrerne. Din læge vil muligvis have brug for
+at ændre dosis af Cubicin (se under punkt 3 i denne indlægsseddel).</li>
+<li>Patienter, som behandles med Cubicin, kan af og til få ømme, smertende eller svage muskler (se
+under punkt 4 i denne indlægsseddel for yderligere information). Fortæl det til din læge, hvis
+36
+dette sker for dig. Din læge vil sørge for, at du får taget en blodprøve og vil rådgive dig, om du
+skal fortsætte med Cubicin eller ej. Symptomerne forsvinder som regel i løbet af et par dage,
+når behandlingen med Cubicin er ophørt.</li>
+<li>Hvis du nogensinde har haft et alvorligt hududslæt eller hudafskalning, blæredannelse og/eller
+mundsår, eller alvorlige nyreproblemer efter at have taget daptomycin.</li>
+<li>
+<p>Hvis du er meget overvægtig. Det er muligt, at niveauerne af Cubicin i dit blod er højere end de
+niveauer, der findes hos personer med gennemsnitlig vægt, og det kan være nødvendigt at du
+overvåges nøje i tilfælde af bivirkninger.
+Fortæl det til din læge eller sygeplejersken, før du får Cubicin, hvis noget af dette gælder for dig.
+Fortæl det til din læge eller sygeplejersken med det samme, hvis du udvikler et eller flere af
+følgende symptomer:</p>
+</li>
+<li>
+<p>Alvorlige, akutte allergiske reaktioner er set hos patienter i behandling med stort set alle
+antibiotika inklusive Cubicin. Symptomerne kan omfatte hvæsende vejrtrækning,
+vejrtrækningsbesvær, hævelser i ansigt, hals og svælg, udslæt og nældefeber eller feber.</p>
+</li>
+<li>
+<p>Alvorlige hudlidelser ved brug af Cubicin er blevet indberettet. De symptomer, der forekommer
+med disse hudlidelser, kan omfatte:</p>
+</li>
+<li>
+<p>feber/højere feber,</p>
+</li>
+<li>
+<p>røde hævede eller væskefyldte pletter på huden, som kan starte i armhulen eller på
+brystet eller i lyskenområdet, og som kan sprede sig over et stort område på kroppen,</p>
+</li>
+<li>
+<p>blærer eller sår i munden eller på kønsdelene.</p>
+</li>
+<li>Et alvorligt nyreproblem ved brugen af Cubicin er blevet indberettet. Symptomerne kan omfatte
+feber og udslæt.</li>
+<li>Enhver usædvanlig prikkende eller følelsesløs fornemmelse i hænder eller fødder, følelsestab
+eller bevægelsesproblemer. Fortæl det til din læge, hvis dette sker for dig. Din læge vil beslutte,
+hvorvidt du skal fortsætte behandlingen.</li>
+<li>Diarré, særligt hvis du bemærker blod eller slim, eller hvis diarréen bliver forværret eller er
+vedvarende.</li>
+<li>
+<p>Feber eller højere feber, hoste eller vanskeligheder med at trække vejret. Dette kan være tegn
+på en sjælden, men alvorlig lungesygdom kaldet eosinofil pneumoni. Din læge vil kontrollere
+dine lunger og vurdere, om du skal forsætte behandlingen med Cubicin.
+Cubicin kan have indflydelse på resultaterne af visse laboratorieprøver, der måler, hvor godt dit blod
+størkner. Resultaterne kan vise, at dit blod størkner dårligt, også selv om der ikke er noget i vejen. Det
+er derfor vigtigt, at din læge tager i betragtning, at du behandles med Cubicin. Fortæl din læge, at du
+er i behandling med Cubicin.
+Din læge vil tage blodprøver, før du starter behandlingen og jævnligt under behandlingen med
+Cubicin for at overvåge, om dine muskler tager skade af behandlingen.
+Børn og unge
+Cubicin må ikke bruges til børn under 1 år, da dyreforsøg har vist, at denne aldergruppe kan få
+alvorlige bivirkninger.
+Brug til ældre
+Patienter over 65 år kan få den samme dosis som andre voksne, forudsat deres nyrer fungerer normalt.
+Brug af anden medicin sammen med Cubicin
+Fortæl altid lægen eller sygeplejersken, hvis du bruger anden medicin, for nylig har brugt anden
+medicin eller planlægger at bruge anden medicin.
+Det er særligt vigtigt, at du nævner følgende:</p>
+</li>
+<li>
+<p>lægemidler, der kaldes statiner eller fibrater (til at sænke kolesteroltallet) eller ciclosporin (et
+lægemiddel, der bruges ved transplantation til at undgå afstødning af organer, eller ved andre
+tilstande som fx reumatoid artrit eller atopisk dermatitis). Det er muligt, at risikoen for
+bivirkninger, der har indvirkning på musklerne, er større, hvis du tager nogle af disse
+37
+lægemidler (og nogle andre lægemidler, der kan have indvirkning på musklerne) samtidig med
+behandlingen med Cubicin. Din læge kan beslutte ikke at ordinere Cubicin til dig eller, at du i
+et stykke tid skal holde op med at tage de andre lægemidler.</p>
+</li>
+<li>smertestillende lægemidler, som kaldes non-steroide anti-inflammatoriske lægemidler
+(NSAID'er) eller COX-2 hæmmere (fx celecoxib). Disse har muligvis en indvirkning på
+Cubicins virkning i nyrerne.</li>
+<li>orale blodfortyndende lægemidler (fx warfarin), som er medicin, der forhindrer blodet i at
+størkne. Det kan være nødvendigt, at din læge måler dit blods størkningshastighed.
+Graviditet og amning
+Cubicin gives normalt ikke til gravide kvinder. Hvis du er gravid eller ammer, har mistanke om, at du
+er gravid, eller planlægger at blive gravid, skal du spørge din læge eller apotekspersonalet til råds, før
+du får dette lægemiddel.
+Du må ikke amme, hvis du er i behandling med Cubicin, da det kan udskilles i mælken og påvirke
+barnet.
+Trafik- og arbejdssikkerhed
+Cubicin har ingen kendt indvirkning på evnen til at køre bil eller bruge maskiner.
+Cubicin indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det
+væsentlige natriumfrit.</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cubicin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cubicin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det er normalt en læge eller en sygeplejerske, der giver dig Cubicin.
+Voksne (18 år og derover)
+Dosis er afhængig af, hvor meget du vejer, og hvilken type infektion du behandles for. Den normale
+dosis for voksne er 4 mg for hvert kilo (kg) kropsvægt en gang dagligt ved hudinfektioner eller 6 mg
+for hvert kg kropsvægt en gang dagligt ved infektion i hjertet eller infektion i blodet forbundet med
+hud- eller hjerteinfektion. Hos voksne patienter indgives dosis direkte i blodbanen (i en blodåre) enten
+som en infusion, der varer ca. 30 minutter, eller som en injektion, der varer ca. 2 minutter. Den samme
+dosis anbefales til patienter over 65 år, forudsat at deres nyrer fungerer tilfredsstillende.
+Hvis dine nyrer ikke fungerer tilfredsstillende, kan du få Cubicin mindre hyppigt, fx hver anden dag.
+Hvis du er i dialyse, og hvis din næste Cubicin-dosis skal indgives på en dag, hvor du får
+dialysebehandling, vil du normalt få Cubicin efter dialysebehandlingen.
+Børn og unge (1 år til 17 år)
+Dosis til børn og unge (i alderen 1 år til 17 år) vil afhænge af patientens alder og hvilken type
+infektion, der behandles. Denne dosis gives direkte ind i blodbanen (i en blodåre) som en infusion, der
+tager omkring 30-60 minutter.
+En behandling varer normalt 1 til 2 uger for hudinfektioner. For infektioner i blodet eller hjertet og
+hudinfektioner vil din læge afgøre, hvor lang tid, du skal behandles.
+Detaljeret instruktion i brug og håndtering findes i slutningen af denne indlægsseddel.
+38</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+De alvorligste bivirkninger er beskrevet nedenfor:
+Alvorlige bivirkninger, hvor hyppigheden ikke er kendt (hyppigheden kan ikke estimeres ud fra
+tilgængelige data)
+- Overfølsomhedsreaktion (alvorlig allergisk reaktion, herunder anafylaksi og angioødem) er
+blevet indberettet, i nogle tilfælde under behandling med Cubicin. Denne alvorlige allergiske
+reaktion kræver omgående lægebehandling. Fortæl det straks til en læge eller sygeplejersken,
+hvis du oplever nogle af følgende symptomer:</p>
+<ul>
+<li>Brystsmerter eller brystet snører sig sammen,</li>
+<li>Udslæt eller nældefeber,</li>
+<li>Hævelse omkring halsen,</li>
+<li>Hurtig eller svag puls,</li>
+<li>Hiven efter vejret,</li>
+<li>Feber,</li>
+<li>Kulderystelser eller skælven,</li>
+<li>Hedeture,</li>
+<li>Svimmelhed,</li>
+<li>Besvimelsesanfald,</li>
+<li>
+<p>Metalsmag i munden.
+Du skal med det samme fortælle det til en læge, hvis du får uforklarlige muskelsmerter, -ømhed eller -
+svaghed. Muskelproblemer kan være alvorlige, herunder muskelnedbrydning (rabdomyolyse), som
+kan medføre nyreskade.
+Andre alvorlige bivirkninger, der er blevet indberettet ved brug af Cubicin, er:</p>
+</li>
+<li>
+<p>En sjælden men eventuelt alvorlig lungesygdom, der kaldes eosinofil pneumoni, for det meste 
+efter mere end 2 ugers behandling. Symptomerne kan omfatte vejrtrækningsbesvær,
+hoste/forværret hoste eller feber/højere feber.</p>
+</li>
+<li>
+<p>Alvorlige hudlidelser. Symptomerne kan omfatte:</p>
+</li>
+<li>
+<p>feber/højere feber,</p>
+</li>
+<li>
+<p>røde hævede eller væskefyldte pletter på huden, som kan starte i armhulen eller på
+brystet eller i lyskenområdet, og som kan sprede sig over et stort område på kroppen,</p>
+</li>
+<li>
+<p>blærer eller sår i munden eller på kønsdelene.</p>
+</li>
+<li>Et alvorligt nyreproblem. Symptomerne kan omfatte feber og udslæt.
+Hvis du oplever disse symptomer, skal du straks fortælle det til din læge eller sygeplejersken. Lægen
+vil foretage yderligere undersøgelser for at stille en diagnose.
+De hyppigst indberettede bivirkninger er beskrevet nedenfor:
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter)</li>
+<li>Svampeinfektioner, som fx trøske (gråhvide belægninger på mundslimhinden),</li>
+<li>Urinvejsinfektion,</li>
+<li>Nedsat antal røde blodceller (anæmi),</li>
+<li>Svimmelhed, angst, søvnbesvær,</li>
+<li>Hovedpine,</li>
+<li>Feber, svaghed (asteni),</li>
+<li>Højt eller lavt blodtryk,</li>
+<li>Forstoppelse, mavesmerter,</li>
+<li>Diarré, kvalme eller opkastning,</li>
+<li>Luft i maven,</li>
+<li>Oppustet eller udspilet mave,</li>
+<li>Hududslæt eller kløe,
+39</li>
+<li>Smerter, kløe eller rødme på infusionsstedet,</li>
+<li>Smerter i arme eller ben,</li>
+<li>Blodprøver, der viser forhøjede værdier af leverenzymer eller kreatinkinase (CK).
+Andre bivirkninger, som kan forekomme under behandling med Cubicin, er beskrevet nedenfor:
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter)</li>
+<li>Blodsygdomme (fx forhøjet antal af små blodpartikler, kaldet blodplader, som kan øge
+tendensen til at blodet klumper sammen eller øgede niveauer af visse typer af hvide blodceller),</li>
+<li>Nedsat appetit,</li>
+<li>Prikkende eller følelsesløs fornemmelse i hænder eller fødder, smagsforstyrrelser,</li>
+<li>Rysten,</li>
+<li>Forandringer i hjerterytmen, hedeture,</li>
+<li>Dårlig fordøjelse (dyspepsi), betændelse af tungen,</li>
+<li>Kløende hududslæt,</li>
+<li>Muskelsmerter, muskelkramper eller muskelsvaghed, betændelse i musklerne (myositis),
+ledsmerter,</li>
+<li>Nyreproblemer,</li>
+<li>Betændelse og irritation i skeden,</li>
+<li>Generelle smerter eller svaghedsfornemmelse, træthed,</li>
+<li>Blodprøver, der viser øgede niveauer af blodsukker, serum-kreatinin, myoglobin, eller
+laktatdehydrogenase (LDH), forlænget størkningstid af blodet eller salt-ubalance,</li>
+<li>Kløende øjne.
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter)</li>
+<li>Gulfarvning af hud og øjne,</li>
+<li>Forlænget protrombintid (forlænget størkningstid af blodet).
+Hyppighed ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data)
+Colitis forårsaget af antibakterielle lægemidler, inkl. pseudomembranøs colitis (svær eller vedvarende
+diarré indeholdende blod og/eller slim og forbundet med mavesmerte eller feber), nemt ved at få blå
+mærker, blødning fra tandkødet eller næseblod.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at
+fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cubicin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cubicin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Opbevar lægemidlet utilgængeligt for børn.</li>
+<li>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten efter EXP.
+Udløbsdatoen er den sidste dag i den nævnte måned.</li>
+<li>Opbevares i køleskab (2 C – 8 C).</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cubicin indeholder:</p>
+<ul>
+<li>Aktivt stof: daptomycin. Et hætteglas med pulver indeholder 350 mg daptomycin.</li>
+<li>Øvrige indholdsstoffer: natriumhydroxid.
+40
+Udseende og pakningsstørrelser
+Cubicin pulver til injektions- og infusionsvæske, opløsning, fås som et lysegult til let brunt masse
+eller pulver i et hætteglas. Før brug blandes det med et opløsningsmiddel, så der dannes en væske.
+Cubicin fås i pakninger med 1 hætteglas eller 5 hætteglas.
+Indehaver af markedsføringstilladelsen
+Merck Sharp &amp; Dohme B.V., Waarderweg 39, 2031 BN Haarlem, Holland
+Fremstiller
+FAREVA Mirabel, Route de Marsat, Riom, 63963, Clermont-Ferrand Cedex 9, Frankrig
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+Belgique/België/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com
+България 
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +361 888 53 00
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@ msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp.z o.o.
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+41
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 299 8700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: + 386 1 5204 201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+Ιtalia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 800 00 673 (+357 22866700)
+cyprus_info@merck.com 
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364224
+msd_lv@merck.com.
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}.&gt;
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.
+42
+Nedenstående oplysninger er til læger og sundhedspersonale:
+Vigtigt: læs produktresuméet før ordinering.
+Instruktion i brug og håndtering
+350 mg tilberedning:
+Hos voksne kan daptomycin administreres intravenøst som infusion over 30 minutter eller som
+injektion over 2 minutter. Til forskel fra hos voksne må daptomycin ikke administreres som en 2-
+minutters injektion til pædiatriske patienter. Pædiatriske patienter i alderen 7 til 17 år skal have
+administreret daptomycin som en infusion over 30 minutter. Hos pædiatriske patienter under 7 år, der
+skal have en dosis på 9-12 mg/kg, skal daptomycin administreres over 60 minutter. Fremstilling af
+infusionsvæske kræver et ekstra trin til fortynding, som beskrevet herunder.
+Cubicin givet som 30 eller 60 minutters intravenøs infusion
+En 50 mg/ml koncentration af Cubicin til infusion opnås ved rekonstitution af det lyofiliserede
+produkt med 7 ml natriumchlorid 9 mg/ml (0,9%) injektionsvæske.
+Det tager ca. 15 minutter at opløse det lyofiliserede produkt. Det fuldt rekonstituerede produkt
+fremstår klart, og der er eventuelt et par små bobler eller skum langs kanten på hætteglasset.
+Ved fremstilling af Cubicin til intravenøs infusion skal følgende instruktioner følges:
+Der skal anvendes aseptisk teknik, når lyofiliseret Cubicin rekonstitueres eller fortyndes.
+Til rekonstitution:</li>
+<li>Flip-off låget af polypropylen skal fjernes, så gummiproppens midte kan ses. Tør toppen af
+gummiproppen af med en spritserviet eller et andet desinfektionsmiddel og lad den tørre. Efter
+rensning må gummiproppen ikke berøres eller komme i kontakt med noget andet. Træk 7 ml af
+9 mg/ml (0,9%) natriumchloridinjektionsvæske op i en sprøjte ved anvendelse af en steril
+kanyle på 21G eller mindre i diameter eller anvend en anordning uden kanyle til overførslen og
+injicer derefter injektionsvæsken langsomt gennem gummiproppens centrum ind i hætteglasset.
+Kanylen skal have retning mod hætteglassets væg.</li>
+<li>Hætteglasset skal roteres forsigtigt for at sikre komplet gennemfugtning af pulveret og derefter
+hvile i 10 minutter.</li>
+<li>Til slut skal hætteglasset roteres forsigtigt i et par minutter, så der opnås en klar rekonstitueret
+opløsning. Det bør undgås at ryste kraftigt, så præparatet ikke skummer.</li>
+<li>Den rekonstituerede opløsning skal undersøges nøje for at sikre, at præparatet er opløst og
+inspiceres visuelt for partikler før brug. Rekonstituerede opløsninger af Cubicin har en lysegul
+til let brun farve.</li>
+<li>Den rekonstituerede opløsning skal derefter fortyndes med natriumchlorid 9 mg/ml (0,9%)
+(typisk mængde 50 ml).
+Til fortynding:</li>
+<li>Fjern den rekonstituerede væske (50 mg daptomycin/ml) langsomt fra hætteglasset med en ny
+steril kanyle, som er 21G eller mindre i diameter, ved at vende hætteglasset på hovedet for at
+lade opløsningen løbe mod gummiproppen. Brug en injektionssprøjte og stik kanylen ind i
+hætteglasset. Mens hætteglasset stadig holdes på hovedet, skal du anbringe kanylespidsen i
+bunden af opløsningen i hætteglasset, mens du trækker opløsningen op i injektionssprøjten. Før
+du fjerner kanylen fra hætteglasset, skal du trække stemplet helt tilbage i injektionssprøjten for
+at få den påkrævede mængde opløsning ud af hætteglasset.</li>
+<li>Fjern luft, store luftbobler og eventuel overskydende opløsning for at få den korrekte dosis.</li>
+<li>Overfør den påkrævede rekonstituerede dosis til 50 ml natriumchlorid 9 mg/ml (0,9%).</li>
+<li>Den rekonstituerede og fortyndede opløsning skal gives som intravenøs infusion over 30 eller
+60 minutter.
+43
+Cubicin er hverken fysisk eller kemisk kompatibel med opløsninger, der indeholder glucose. Følgende
+virkestoffer har vist sig at være kompatible, når de tilsættes infusionsopløsninger, der indeholder
+Cubicin: aztreonam, ceftazidim, ceftriaxon, gentamycin, fluconazol, levofloxacin, dopamin, heparin
+og lidocain.
+Den samlede opbevaringstid (rekonstitueret opløsning i hætteglas og fortyndet opløsning i
+infusionsbeholder) ved 25 °C må ikke overstige 12 timer (eller 24 timer ved opbevaring i køleskab).
+Stabilitet af den fortyndede opløsning i infusionsbeholdere er fastsat til 12 timer ved 25 °C eller
+24 timer ved opbevaring i køleskab ved 2 °C – 8 °C.
+Cubicin givet som 2 minutters intravenøs injektion (kun til voksne)
+Vand må ikke anvendes til rekonstitution af Cubicin til intravenøs injektion. Cubicin må kun
+rekonstitueres med natriumchlorid 9 mg/ml (0,9%).
+En 50 mg/ml koncentration af Cubicin til injektion opnås ved rekonstitution af det lyofiliserede
+produkt med 7 ml natriumchlorid 9 mg/ml (0,9%) injektionsvæske.
+Det tager ca. 15 minutter at opløse det lyofiliserede produkt. Det fuldt rekonstituerede produkt
+fremstår klart, og der er eventuelt et par små bobler eller skum langs kanten på hætteglasset.
+Ved fremstilling af Cubicin til intravenøs injektion skal følgende instruktioner følges:
+Der skal anvendes aseptisk teknik, når lyofiliseret Cubicin rekonstitueres.</li>
+<li>Flip-off låget af polypropylen skal fjernes, så gummiproppens midte kan ses. Tør toppen af
+gummiproppen af med en spritserviet eller et andet desinfektionsmiddel og lad den tørre. Efter
+rensning må gummiproppen ikke berøres eller komme i kontakt med noget andet. Træk 7 ml
+natriumchloridinjektionsvæske 9 mg/ml (0,9%) op i en sprøjte ved anvendelse af en steril
+kanyle på 21G eller mindre i diameter eller anvend en anordning uden kanyle til overførslen og
+injicer derefter injektionsvæsken langsomt gennem gummiproppens centrum ind i hætteglasset.
+Kanylen skal have retning mod hætteglassets væg.</li>
+<li>Hætteglasset skal roteres forsigtigt for at sikre komplet gennemfugtning af pulveret og derefter
+hvile i 10 minutter.</li>
+<li>Til slut skal hætteglasset roteres forsigtigt i et par minutter, så der opnås en klar rekonstitueret
+opløsning. Det bør undgås at ryste kraftigt, så præparatet ikke skummer.</li>
+<li>Den rekonstituerede opløsning skal undersøges nøje for at sikre, at præparatet er opløst og
+inspiceres visuelt for partikler før brug. Rekonstituerede opløsninger af Cubicin har en lysegul
+til let brun farve.</li>
+<li>Fjern den rekonstituerede væske (50 mg daptomycin/ml) langsomt fra hætteglasset ved
+anvendelse af en steril kanyle på 21G eller mindre i diameter.</li>
+<li>Vend hætteglasset på hovedet for at lade opløsningen løbe mod gummiproppen. Brug en ny
+sprøjte og stik kanylen ind i hætteglasset. Mens hætteglasset stadig holdes på hovedet, skal du
+anbringe kanylespidsen i bunden af opløsningen i hætteglasset, mens du trækker opløsningen
+op i sprøjten. Før du fjerner kanylen fra hætteglasset, skal du trække stemplet helt tilbage i
+sprøjten for at få al opløsningen ud af hætteglasset.</li>
+<li>Erstat kanylen med en ny kanyle til den intravenøse injektion.</li>
+<li>Fjern luft, store luftbobler og eventuel overskydende opløsning for at få den korrekte dosis.</li>
+<li>Den rekonstituerede opløsning injiceres intravenøst over et tidsrum på 2 minutter.
+Der er påvist kemisk og fysisk stabilitet under brug af den rekonstituerede opløsning i hætteglasset i
+12 timer ved 25 °C og i op til 48 timer ved opbevaring i køleskab (2 °C – 8 °C).
+Ud fra et mikrobiologisk synspunkt skal præparatet dog anvendes med det samme. Anvendes
+opløsningen ikke med det samme, har brugeren ansvar for opbevaringsbetingelser og holdbarhed, som
+normalt kun er 24 timer ved 2 °C – 8 °C, medmindre rekonstitution/fortynding har fundet sted under
+anvendelse af kontrolleret og godkendt aseptisk teknik.
+44
+Dette lægemiddel må ikke blandes med andre end de ovenfor nævnte lægemidler.
+Hætteglas med Cubicin er kun til engangsbrug. Enhver ubrugt rest i hætteglasset skal kasseres.
+45
+Indlægsseddel: Information til brugeren
+Cubicin 500 mg pulver til injektions- og infusionsvæske, opløsning 
+daptomycin
+Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den
+indeholder vigtige oplysninger.</li>
+<li>Gem indlægssedlen. Du kan få brug for at læse den igen.</li>
+<li>Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide.</li>
+<li>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.</li>
+<li>Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er
+nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e2a8db799211e459b47eab2397a33e4f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cubicin Package Leaflet for language en"
+Description: "ePI document Bundle for cubicin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e2a8db799211e459b47eab2397a33e4f"
+* entry[0].resource = composition-en-e2a8db799211e459b47eab2397a33e4f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe2a8db799211e459b47eab2397a33e4f"
+* entry[=].resource = mpe2a8db799211e459b47eab2397a33e4f
+                            
+                    
+Instance: bundlepackageleaflet-da-e2a8db799211e459b47eab2397a33e4f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cubicin Package Leaflet for language da"
+Description: "ePI document Bundle for cubicin Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e2a8db799211e459b47eab2397a33e4f"
+* entry[0].resource = composition-da-e2a8db799211e459b47eab2397a33e4f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe2a8db799211e459b47eab2397a33e4f"
+* entry[=].resource = mpe2a8db799211e459b47eab2397a33e4f
+                            
+                    
+
+
+
+Instance: mpe2a8db799211e459b47eab2397a33e4f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cubicin 350 mg powder for solution for injection or infusion"
-Description: "Cubicin 350 mg powder for solution for injection or infusion"
+Title: "Medicinal Product cubicin"
+Description: "cubicin"
 Usage: #inline
 
  
@@ -559,7 +1200,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cubicin 350 mg powder for solution for injection or infusion"
+  * productName = "cubicin"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -586,29 +1227,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e2a8db799211e459b47eab2397a33e4f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cubicin Package Leaflet for language en"
-Description: "ePI document Bundle for cubicin Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e2a8db799211e459b47eab2397a33e4fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Cubicin 350 mg powder for solution for injection or infusion"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cubicin"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e2a8db799211e459b47eab2397a33e4f"
-* entry[0].resource = composition-en-e2a8db799211e459b47eab2397a33e4f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0503c4f7ea65f5b94c9ca3a324090040"
-* entry[=].resource = mp0503c4f7ea65f5b94c9ca3a324090040
-                            
-                      
+* title = "List of all ePIs associated with cubicin"
+
+* subject = Reference(mp0503c4f7ea65f5b94c9ca3a324090040)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cubicin "cubicin"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e2a8db799211e459b47eab2397a33e4f) // cubicin en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e2a8db799211e459b47eab2397a33e4f) // cubicin da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e2a8db799211e459b47eab2397a33e4f
+InstanceOf: List
+
+* insert e2a8db799211e459b47eab2397a33e4fListRuleset
+    

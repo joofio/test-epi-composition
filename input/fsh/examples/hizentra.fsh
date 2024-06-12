@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5d6f677fa9eaa34be2202ffe566f8e54
 InstanceOf: CompositionUvEpi
 Title: "Composition for hizentra Package Leaflet"
@@ -517,12 +520,705 @@ Tel: +370 5 243 0This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-5d6f677fa9eaa34be2202ffe566f8e54
+InstanceOf: CompositionUvEpi
+Title: "Composition for hizentra Package Leaflet"
+Description:  "Composition for hizentra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb11e87f00199060d4be263db53b9ea01)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb11e87f00199060d4be263db53b9ea01
+* title = "TEST PURPOSES ONLY - hizentra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge Hizentra
+3. Sådan skal du bruge Hizentra 
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What hizentra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What hizentra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Hizentra
+Hizentra tilhører den medicinklasse, der kaldes humant normalt immunglobulin. Immunglobuliner er 
+også kendt som antistoffer og er blodproteiner, som hjælper kroppen med at bekæmpe infektioner.
+Hvordan virker Hizentra
+Hizentra indeholder immunglobuliner, som er fremstillet af blod fra raske personer. Immunglobuliner 
+produceres af immunsystemet i menneskets krop. De hjælper din krop med at bekæmpe infektioner 
+forårsaget af bakterier og virus og opretholder balancen i dit immunsystem (kaldet immunmodulation).
+Medicinen virker på nøjagtigt samme måde som de immunglobuliner, der er naturligt til stede i blodet.
+Hvad anvendes Hizentra til
+Substitutionsterapi
+Hizentra anvendes til at øge unormalt lave koncentrationer af immunglobulin i blodet til normale 
+niveauer (erstatningsterapi). Medicinen anvendes til voksne og børn (0-18 år) i følgende situationer:
+1. Behandling af patienter med medfødt nedsat eller manglende evne til at danne immunglobuliner 
+(primære immundefekter). Dette omfatter lidelser som f.eks.:
+
+lave immunglobulinniveauer (hypogammaglobulinæmi) eller mangel på immunglobuliner 
+(agammaglobulinæmi) i blodet
+
+en kombination af lave immunglobulinniveauer, hyppige infektioner og manglende evne 
+til at producere tilstrækkelige mængder antistoffer efter vaccination (almindelig variabel 
+immundefekt)
+
+en kombination af lave immunglobulinniveauer eller mangel på immunglobuliner og 
+mangel på eller ikke-funktionsdygtige immunceller (svær kombineret immundefekt)
+
+mangel på visse immunglobulin G-subklasser, hvilket giver tilbagevendende infektioner.
+2. Behandling af patienter med lave eller dysfunktionelle immunglobulinniveauer ved erhvervede 
+sygdomme (sekundær immundefekt), som oplever svære eller tilbagevendende infektioner på 
+grund af et svækket immunsystem som følge af andre sygdomme eller behandlinger.
+31
+Immunmodulerende terapi til CIDP-patienter
+Hizentra bruges også til patienter med kronisk inflammatorisk demyeliniserende polyneuropati 
+(CIDP), en form for autoimmun sygdom. CIDP er kendetegnet ved en kronisk betændelsestilstand i de 
+perifere nerver, der forårsager muskelsvaghed og/eller følelsesløshed i ben og arme. Det menes, at 
+kroppens forsvarsangreb understreger en sådan betændelsestilstand, og immunglobulinerne i Hizentra 
+hjælper med til at beskytte nerverne mod angreb (immunmodulerende terapi).</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take hizentra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take hizentra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug IKKE Hizentra:
+►
+hvis du er allergisk over for humane immunglobuliner, polysorbat 80 eller L-prolin.
+
+Fortæl det altid til lægen eller sundhedspersonalet forud for behandling, hvis du tidligere 
+ikke har kunnet tåle et af disse indholdsstoffer.
+►
+Hvis du lider af hyperprolinæmi (en genetisk lidelse, der forårsager høje niveauer af aminosyren 
+prolin i blodet).
+►
+i et blodkar.
+Advarsler og forsigtighedsregler
+
+Kontakt lægen eller sundhedspersonalet, før du bruger Hizentra.
+Du kan være allergisk (overfølsom) over for immunglobuliner uden at være klar over det. Ægte 
+allergiske reaktioner er imidlertid sjældne. De kan forekomme, selv hvis du tidligere har fået humane 
+immunglobuliner og tålte dem godt. Det kan især ske, hvis du ikke har tilstrækkeligt med 
+immunglobuliner af typen IgA i blodet (IgA-defekt).
+ Fortæl det til lægen eller sundhedspersonalet forud for behandling, hvis du lider af en 
+immunglobulindefekt type A (IgA). Hizentra indeholder restmængder af IgA, hvilket kan 
+forvolde en allergisk reaktion.
+I disse sjældne tilfælde kan der forekomme allergiske reaktioner som f.eks. pludseligt blodtryksfald
+eller shock (se også afsnit 4 "Bivirkninger").
+
+Hvis du bemærker sådanne reaktioner under infusion af Hizentra, skal du standse infusionen og 
+straks kontakte din læge eller tage til det nærmeste hospital. 
+ Fortæl det til lægen, hvis du tidligere har haft en hjerte- eller blodkarsygdom eller blodpropper, 
+har fortykket blod eller ikke har været mobil i nogen tid. Disse ting kan øge din risiko for at få 
+en blodprop efter at have brugt Hizentra. Fortæl også lægen, hvilke lægemidler du bruger, da 
+visse lægemidler som f.eks. hormonet østrogen (f.eks. p-piller), kan øge din risiko for at udvikle 
+en blodprop. Kontakt omgående lægen, hvis du oplever tegn og symptomer som f.eks.
+stakåndethed, brystsmerter, smerter eller hævelse i en ekstremitet, svaghed eller følelsesløshed i 
+den ene side af kroppen efter at have fået Hizentra.
+
+Kontakt lægen, hvis du oplever følgende tegn og symptomer: kraftig hovedpine, nakkestivhed, 
+døsighed, feber, lysfølsomme øjne og kvalme og opkastning efter at have fået Hizentra. Lægen 
+vil afgøre, om det er nødvendigt at foretage yderligere undersøgelser, og om behandlingen med 
+Hizentra bør ophøre.
+Sundhedspersonalet vil undgå potentielle komplikationer ved at sikre, at:
+►
+du ikke er overfølsom over for humant normalt immunglobulin.
+Lægemidlet bør indgives langsomt i begyndelsen. Den anbefalede infusionshastighed bør 
+overholdes (se afsnit 3 "Sådan skal du tage Hizentra").
+►
+du overvåges nøje for eventuelle symptomer gennem hele infusionsperioden, særligt hvis:
+
+det er første gang, at du får humant normalt immunglobulin
+
+du har skiftet fra et andet lægemiddel
+
+der har været en lang pause siden den foregående infusion.
+32
+I disse tilfælde bør du overvåges under den første infusion og i en time derefter. Hvis 
+ovennævnte punkter ikke gælder for dig, anbefales det, at du observeres i mindst 20 minutter 
+efter indgivelse.
+Brug af anden medicin sammen med Hizentra
+
+Fortæl altid lægen eller på apoteket, hvis du bruger anden medicin eller har gjort det for nylig.
+
+Du må ikke blande anden medicin med Hizentra.
+
+Før en vaccination skal du fortælle lægen, at du er i behandling med Hizentra. Hizentra kan 
+svække virkningen af nogle levende virusvacciner som f.eks. mæslinger, røde hunde, fåresyge 
+og skoldkopper. Derfor kan du skulle vente op til 3 måneder, efter du har fået dette lægemiddel, 
+inden du får levende, svækket vaccine. I tilfælde af mæslingevaccinationer kan virkningen være 
+nedsat i op til 1 år.
+Graviditet, amning og frugtbarhed
+
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge eller apoteket til råds, før du bruger dette lægemiddel. Lægen vil 
+tage stilling til, om du kan få Hizentra under din graviditet, eller mens du ammer.
+Der er ikke foretaget nogen kliniske undersøgelser med Hizentra hos gravide kvinder. Medicin, der 
+indeholder immunglobuliner, er imidlertid blevet brugt til gravide og ammende kvinder i årevis, og der 
+er ikke observeret nogen skadelige virkninger på graviditetens forløb eller på babyen.
+Hvis du ammer og får Hizentra, er immunglobulinerne i præparatet også at finde i mælken. Derfor kan 
+din baby være beskyttet mod visse infektioner.
+Trafik- og arbejdssikkerhed
+Under behandlingen med Hizentra kan patienterne opleve bivirkninger, såsom svimmelhed eller 
+kvalme, der kan påvirke evnen til at føre motorkøretøj og betjene maskiner. Hvis dette sker for dig, må 
+du ikke føre motorkøretøj eller betjene maskiner, før disse bivirkninger er forsvundet.
+Hizentra indeholder prolin
+Du må ikke tage det, hvis du lider af hyperprolinæmi (se også afsnit 2 "Det skal du vide, før du 
+begynder at bruge Hizentra"). Fortæl det til lægen forud for behandling.
+Anden vigtig information om Hizentra
+Blodprøver
+Efter indgivelse af Hizentra kan resultaterne af visse blodprøver (serologiske test) være påvirket i en 
+vis periode.
+
+Fortæl lægen, at du er i behandling med Hizentra, før der tages blodprøver.
+Information om hvad Hizentra er fremstillet af
+Hizentra er fremstillet af blodplasma (blodets væskedel) fra mennesker. Når lægemidler fremstilles af 
+humant blod eller plasma, træffes visse forholdsregler for at forhindre, at der overføres infektioner til 
+patienterne. Disse omfatter:
+
+Omhyggelig udvælgelse af blod- og plasmadonorer for at sikre, at personer, der er i 
+risikogruppe som bærer af infektioner, udelukkes, og
+
+testning af alle plasmadonationer og -pools for tegn på vira/infektioner.
+Fremstillerne af disse lægemidler indfører også trin i forarbejdningen af blod eller plasma, der kan 
+inaktivere eller fjerne vira. Trods disse forholdsregler kan risikoen for overførsel af infektioner ikke 
+helt udelukkes, når der indgives lægemidler fremstillet fra humant blod eller plasma. Dette gælder 
+også for eventuelle ukendte eller nyopståede vira eller andre infektionstyper.
+De trufne forholdsregler betragtes som effektive for kappevira som f.eks. human immundefektvirus 
+(hiv, aids-virusset), hepatitis B-virus og hepatitis C-virus (leverbetændelse) og for de ikke-
+kappebærende hepatitis A-virus og parvovirus B19. 33
+
+Det anbefales kraftigt, at produktets navn og batchnummer registreres, hver gang du får en dosis 
+Hizentra, så der foreligger en liste over de batches, du har fået (se afsnit 3 "Sådan skal du tage 
+Hizentra").
+Hizentra indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas/injektionssprøjte, dvs. 
+det er i det væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take hizentra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take hizentra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+Dosering
+Lægen vil beregne den korrekte dosis ud fra din vægt og reaktion på behandlingen.
+Lad være med at ændre doseringen eller doseringsintervallet uden at have rådført dig med din læge. 
+Hvis du mener, at du burde have Hizentra hyppigere eller sjældnere, så tal med din læge.
+Hvis du tror, at du har glemt en dosis, så tal med din læge så snart som muligt.
+Substitutionsterapi
+Lægen vil afgøre, om du har brug for en stabiliseringsdosis (mætningdosis) på mindst 1-2,5 ml for 
+hvert kg legemsvægt (til voksne og børn) fordelt over flere dage. Herefter kan der indgives 
+vedligeholdelsesdoser med gentagne intervaller, fra dagligt til én gang hver anden uge, for at opnå en 
+samlet månedlig dosis på cirka 2-4 ml/kg legemsvægt. Lægen kan justere dosis afhængigt af, hvordan 
+du reagerer på behandlingen.
+Immunmodulerende terapi
+Din læge vil indlede behandling med Hizentra 1 uge efter din sidste intravenøse 
+immunglobulininfusion ved at indgive en ugentlig dosis på 1,0-2,0 ml/kg legemsvægt under huden 
+(subkutant). Din læge vil fastsætte din ugentlige Hizentra-dosis. Den ugentlige vedligeholdelsesdosis 
+kan deles i mindre doser og indgives så ofte, som det er nødvendigt, i løbet af ugen. Ved dosering hver 
+anden uge vil din læge fordoble den ugentlige Hizentra-dosis. Din læge vil eventuelt justere din dosis 
+afhængigt af, hvordan du reagerer på behandlingen.
+Indgivelsesmåde og -veje
+Evt. hjemmebehandling iværksættes af en læge eller sundhedspersonale med erfaring i behandlingen 
+af immundefekt/CIDP med SCIg og i at vejlede patienter om hjemmebehandling.
+Du vil blive instrueret og oplært i:
+
+aseptiske infusionsteknikker
+
+at føre en behandlingsdagbog og
+
+hvad du skal gøre i tilfælde af alvorlige bivirkninger.
+Infusionssted(er)
+
+Hizentra må kun indgives under huden (subkutant).
+
+Du kan infundere Hizentra på steder såsom mave, lår, overarm og på siden af hoften. Større 
+doser (&gt; 50 ml) bør fordeles på flere steder.
+
+Du kan bruge et ubegrænset antal infusionssteder på samme tid. Der bør være mindst 5 cm 
+mellem infusionsstederne.
+
+Hvis du giver infusionen ved hjælp af en anordning (f.eks. pumpeassisteret infusion), kan der
+anvendes mere end en infusionsanordning samtidig. 
+
+Hvis du giver infusionen ved at trykke på en sprøjte med hånden, må du kun bruge ét 
+infusionssted pr. sprøjte. Hvis du skal give endnu en sprøjte med Hizentra, skal du bruge en ny 
+steril injektionskanyle og skifte infusionssted.
+
+Mængden af lægemiddel, der infunderes på et bestemt sted, kan variere.
+34
+Infusionshastighed(er)
+Lægen vil vælge den hensigtsmæssige infusionteknik og infusionshastighed for dig under hensyntagen 
+til din individuelle dosis, doseringshyppighed og tolerabilitet over for præparatet.
+Infusion ved hjælp af en anordning:
+Den anbefalede indledende infusionshastighed er op til 20 ml/time/sted. Hvis dette tåles godt, kan du 
+gradvist øge infusionshastigheden til 35 ml/time/sted ved de to efterfølgende infusioner. Derefter kan 
+infusionshastigheden øges yderligere, alt efter hvor godt du tåler behandlingen.
+Manuel trykinfusion:
+Den anbefalede indledende infusionshastighed er op til 0,5 ml/min/sted (30 ml/time/sted). Hvis dette 
+tåles godt, kan du øge infusionshastigheden til 2,0 ml/min/sted (120 ml/time/sted) ved de efterfølgende 
+infusioner. Derefter kan infusionshastigheden øges yderligere, alt efter hvor godt du tåler 
+behandlingen.
+Vejledning i brug
+Følg nedenstående trin og anvend aseptisk teknik, når du indgiver Hizentra.
+1
+Rengør en overflade
+Rengør et bord eller en anden flad overflade grundigt med en desinficerende serviet.
+2
+Klargør udstyr
+Placer Hizentra og øvrigt udstyr, du skal bruge til infusionen, på en ren og flad overflade.
+3
+Vask og tør hænderne grundigt
+4
+Kontrollér hætteglasset
+Gennemse Hizentra-opløsningen for partikler og misfarvning, og kontrollér udløbsdatoen, før du 
+indgiver Hizentra. Brug ikke opløsningen, hvis den er uklar eller indeholder partikler. Anvend ikke 
+opløsninger, der har været nedfrosset. Opløsningen skal have rum- eller kropstemperatur, når den 
+indgives. Opløsningen skal anvendes umiddelbart efter åbning af hætteglasset.
+5
+Klargør Hizentra til infusion
+Rengør proppen på hætteglasset - Fjern beskyttelseshætten fra 
+hætteglasset, så den midterste del af gummiproppen kommer til 
+syne. Rengør proppen med en alkoholserviet eller et 
+desinficerende middel, og lad den tørre.
+Overfør Hizentra til infusionssprøjten - Fastgør et
+overførselssystem eller en nål til en steril sprøjte ved brug af 
+aseptisk teknik. Hvis du anvender et overførselssystem (vented
+spike), skal du følge producentens anvisninger. Hvis du anvender 
+en nål, skal du trække stemplet tilbage for at trække luft ind i 
+sprøjten, svarende til den mængde Hizentra, der skal udtrækkes. 
+Indfør så nålen i midten af proppen på hætteglasset, og sprøjt luft 
+ind i hætteglassets ’luftrum’ (ikke ind i væsken) for at undgå 
+skumdannelse. Udtræk så den ønskede mængde af Hizentra. Hvis 
+du skal bruge flere hætteglas for at opnå den ønskede dosis, 
+gentages dette trin. 
+6
+Klargør slangen
+Forbind administrationsslangen eller nålesættet til sprøjten. Herefter skal slangen tømmes for 
+resterende luft (priming).
+35
+7
+Klargør infusionsstedet/-stederne
+Vælg infusionsstedet/-stederne - Antallet og placeringen af 
+infusionssteder afhænger af mængden af den totale dosis. Der skal 
+være minimum 5 cm imellem infusionsstederne.
+Du kan bruge et ubegrænset antal steder på samme tid.
+Rengør infusionsstedet/-stederne ved brug af et desinficerende
+hudpræparat. Lad stedet tørre, før du fortsætter.
+8
+Indfør nålen
+Tag fat om huden med 2 fingre, og indfør nålen i det subkutane 
+væv.
+Fastgør nålen til huden - Om nødvendigt kan der anvendes gaze 
+og tape eller gennemsigtig bandage for at holde nålen på plads.
+9
+Indgiv Hizentra
+Start infusionen.
+Hvis du anvender en infusionspumpe, skal du følge producentens anvisninger.
+10
+Registrér infusionen
+Registrér følgende oplysninger i din behandlingsdagbog:
+•
+datoen for indgivelsen
+•
+medicinens batchnummer (lot), og
+•
+infusionsvolumen, flowhastigheden, antallet og placeringen af infusionssteder.
+11
+Gør rent
+Bortskaf ikke anvendt lægemiddel og alt anvendt udstyr efter indgivelsen i henhold til lokale 
+retningslinjer.
+Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om.
+Hvis du bruger mere Hizentra, end du skulle
+Tal med lægen snarest muligt, hvis du mener, du har brugt for meget Hizentra.
+Hvis du har glemt at bruge Hizentra
+Tal med lægen snarest, hvis du tror, at du har glemt en dosis.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
+►
+I enkeltstående tilfælde kan du være allergisk (overfølsom) over for immunglobuliner, og 
+allergiske reaktioner såsom et pludseligt fald i blodtrykket eller shock kan forekomme (f.eks. 
+føler du dig måske omtåget, svimmel, som om du skal besvime, når du rejser dig op, du får 
+kolde hænder og fødder, mærker en unormal hjerterytme eller smerter i brystet eller får sløret 
+syn).
+36
+►
+I enkeltstående tilfælde oplever du måske smerte og/eller hævelse i en arm eller et ben med 
+varme i det berørte område, misfarvning af en arm eller et ben, uforklarlig åndenød, smerte eller 
+ubehag i brystet, der bliver værre ved en dyb vejrtrækning, uforklarlig hurtig puls, 
+følelsesløshed eller svaghed i den ene side af kroppen, pludselig forvirring eller problemer med 
+at tale eller forstå, hvilket kan være tegn på en blodprop.
+►
+I enkeltstående tilfælde vil du måske få kraftig hovedpine med kvalme, opkastning, 
+nakkestivhed, feber og lysfølsomhed, hvilket kan være tegn på AMS (aseptisk meningitis-
+syndrom), som er en midlertidig reversibel non-infektiøs betændelse i hinderne, der omgiver 
+hjernen og rygmarven.
+
+Hvis du bemærker sådanne tegn under infusionen med Hizentra, skal du standse 
+infusionen og straks tage til det nærmeste hospital.
+Se også afsnit 2 i denne indlægsseddel vedrørende risikoen for allergiske reaktioner, blodpropper og 
+AMS.
+Bivirkninger, der er observeret i kontrollerede kliniske studier, er opstillet efter, hvor hyppige de er. 
+De hyppigste bivirkninger er anført først. Hyppigheden af de bivirkninger, der er set efter 
+markedsføringen, er ikke kendt.
+Følgende bivirkninger er meget almindelige (påvirker flere end 1 patient ud af 10):
+
+Hovedpine
+
+Udslæt
+
+Reaktioner på infusionsstedet
+Følgende bivirkninger er almindelige (påvirker 1 til 10 patienter ud af 100):
+
+Svimmelhed
+
+Migræne 
+
+Forhøjet blodtryk (hypertension)
+
+Diarré
+
+Mavesmerter
+
+Kvalme
+
+Opkastning
+
+Kløe (pruritus)
+
+Nældefeber (urticaria)
+
+Smerter i muskler og knogler (muskuloskeletale smerter)
+
+Ledsmerter (artralgi)
+
+Feber
+
+Træthed, herunder almen utilpashed (har det dårligt)
+
+Brystsmerter
+
+Influenzalignende symptomer
+
+Smerter
+Følgende bivirkninger er ikke almindelige (påvirker 1 til 10 patienter ud af 1.000):
+
+Overfølsomhed
+
+Ufrivillige rystelser i en eller flere dele af kroppen (tremor, herunder psykomotorisk 
+hyperaktivitet)
+
+Hurtig puls (takykardi)
+
+Blussen
+
+Muskelkramper
+
+Muskelsvaghed
+
+Kuldegysninger, herunder lav kropstemperatur
+
+Unormale resultater af blodprøver, der kan være tegn på nedsat lever- og nyrefunktion
+37
+I enkeltstående tilfælde kan der forekomme sår eller en brændende fornemmelse på infusionsstedet.
+ Du kan reducere mulige bivirkninger ved at infundere Hizentra langsomt.
+Bivirkninger som disse kan forekomme, selv om du tidligere har fået humane immunglobuliner og 
+tålte dem godt.
+Se også pkt. 2 “Det skal du vide, før du begynder at bruge Hizentra" for yderligere oplysninger om 
+forhold, der øger risikoen for bivirkninger.
+Indberetning af bivirkninger
+Tal med lægen eller sundhedspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+fremgår af denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
+Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store hizentra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store hizentra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Opbevar dette lægemiddel utilgængeligt for børn.
+
+Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen og hætteglassets etiket 
+efter EXP.
+
+Da injektionsvæsken ikke indeholder konserveringsmiddel, skal du bruge/infundere Hizentra
+hurtigst muligt efter åbning af hætteglasset.
+
+Må ikke opbevares ved temperaturer over 25 °C.
+
+Må ikke nedfryses.
+
+Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
+
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hizentra indeholder:
+
+Aktivt stof: humant normalt immunglobulin. En ml indeholder 200 mg humant normalt 
+immunglobulin, hvoraf mindst 98 % er immunglobulin type G (IgG).
+Den omtrentlige procentdel af IgG-subklasser er som følger:
+IgG1 ............. 69 %
+IgG2 ............. 26 %
+IgG3 ............. 3 %
+IgG4 ............. 2 %
+Dette præparat indeholder antydninger af IgA (ikke mere end 50 mikrogram/ml).
+
+Øvrige indholdsstoffer (hjælpestoffer): L-prolin, polysorbat 80 og vand til injektionsvæsker.
+Udseende og pakningsstørrelser
+Hizentra er en injektionsvæske til subkutan injektion (200 mg/ml). Farven kan svinge fra bleggul til 
+lysebrun.
+Hizentra fås i hætteglas med 5, 10, 20 eller 50 ml.
+Hizentra fås også i fyldte injektionssprøjter med 5, 10 og 20 ml.
+Pakningsstørrelser
+Pakninger med 1, 10 eller 20 hætteglas
+Hizentra fås også i pakninger med 1, 10 eller 20 fyldte injektionssprøjte(r).
+38
+Bemærk venligst, at pakningen ikke indeholder alkoholservietter, nåle og andet tilbehør eller udstyr.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+CSL Behring GmbH
+Emil-von-Behring-Strasse 76
+35041 Marburg
+Tyskland
+Hvis du vil have yderligere oplysninger om Hizentra, skal du henvende dig til den lokale repræsentant:
+België/Belgique/Belgien
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Luxembourg/Luxemburg
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+България
+МагнаФарм България ЕАД
+Тел: +359 2 810 3949
+Magyarország
+CSL Behring Kft.Tel: +36 1 213 4290
+Česká republika
+CSL Behring s.r.o.
+Tel: + 420 702 137 233
+Malta
+AM Mangion Ltd.
+Tel: +356 2397 6333
+Danmark
+CSL Behring AB
+Tel: +46 8 544 966 70
+Nederland
+CSL Behring BV
+Tel: + 31 85 111 96 00
+Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584437
+Norge
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Eesti
+CentralPharma Communications OÜ
+Tel: +3726015540
+Österreich
+CSL Behring GmbH
+Tel: +43 1 80101 2463
+Ελλάδα
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Polska
+CSL Behring Sp. z o.o.
+Tel: +48 22 213 22 65
+España
+CSL Behring S.A.
+Tel: +34 933 67 1870
+Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 30
+France
+CSL Behring SA
+Tél: + 33 1 53 58 54 00
+România
+Prisum Healthcare S.R.L
+Tel: +40 21 322 01 71
+Hrvatska
+Marti Farm d.o.o
+Tel: +385 1 5588297
+Ireland
+CSL Behring GmbH
+Tel: +49 69 305 17254
+Slovenija
+EMMES BIOPHARMA GLOBAL s.r.o. -
+podružnica v Sloveniji
+Tel: +386 41 42 0002
+Slovenská republika
+CSL Behring Slovakia s.r.o. 
+Tel: +421 911 653 862
+39
+Ísland
+CSL Behring AB
+Sími: +46 8 544 966 70
+Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 70
+Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 200
+Sverige
+CSL Behring AB
+Tel: +46 8 544 966 70
+Κύπρος
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 305 17254
+Latvija
+CentralPharma Communications SIA
+Tel: +371 6 7450497
+Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0444
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere information om Hizentra på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.</p>
+<hr />
+<p>40
+Indlægsseddel: Information til brugeren
+Hizentra 200 mg/ml subkutan injektionsvæske, opløsning i fyldt injektionssprøjte
+Humant normalt immunglobulin (SCIg = subkutant immunglobulin)
+Læs denne indlægsseddel grundigt inden du begynder at bruge medicinen, da den indeholder 
+vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen eller på apoteket, hvis der er mere, du vil vide.
+-
+Lægen har ordineret Hizentra til dig personligt. Lad derfor være med at give det til andre. Det 
+kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Tal med lægen eller sundhedspersonalet, hvis en bivirkning bliver værre, eller du får 
+bivirkninger, som ikke er nævnt her. Se pkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5d6f677fa9eaa34be2202ffe566f8e54
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hizentra Package Leaflet for language en"
+Description: "ePI document Bundle for hizentra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5d6f677fa9eaa34be2202ffe566f8e54"
+* entry[0].resource = composition-en-5d6f677fa9eaa34be2202ffe566f8e54
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5d6f677fa9eaa34be2202ffe566f8e54"
+* entry[=].resource = mp5d6f677fa9eaa34be2202ffe566f8e54
+                            
+                    
+Instance: bundlepackageleaflet-da-5d6f677fa9eaa34be2202ffe566f8e54
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hizentra Package Leaflet for language da"
+Description: "ePI document Bundle for hizentra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5d6f677fa9eaa34be2202ffe566f8e54"
+* entry[0].resource = composition-da-5d6f677fa9eaa34be2202ffe566f8e54
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5d6f677fa9eaa34be2202ffe566f8e54"
+* entry[=].resource = mp5d6f677fa9eaa34be2202ffe566f8e54
+                            
+                    
+
+
+
+Instance: mp5d6f677fa9eaa34be2202ffe566f8e54
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Hizentra 200 mg/ml solution for subcutaneous injection"
-Description: "Hizentra 200 mg/ml solution for subcutaneous injection"
+Title: "Medicinal Product hizentra"
+Description: "hizentra"
 Usage: #inline
 
  
@@ -542,7 +1238,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Hizentra 200 mg/ml solution for subcutaneous injection"
+  * productName = "hizentra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -569,29 +1265,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5d6f677fa9eaa34be2202ffe566f8e54
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for hizentra Package Leaflet for language en"
-Description: "ePI document Bundle for hizentra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5d6f677fa9eaa34be2202ffe566f8e54ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Vials"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "hizentra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5d6f677fa9eaa34be2202ffe566f8e54"
-* entry[0].resource = composition-en-5d6f677fa9eaa34be2202ffe566f8e54
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb11e87f00199060d4be263db53b9ea01"
-* entry[=].resource = mpb11e87f00199060d4be263db53b9ea01
-                            
-                      
+* title = "List of all ePIs associated with hizentra"
+
+* subject = Reference(mpb11e87f00199060d4be263db53b9ea01)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#hizentra "hizentra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5d6f677fa9eaa34be2202ffe566f8e54) // hizentra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5d6f677fa9eaa34be2202ffe566f8e54) // hizentra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5d6f677fa9eaa34be2202ffe566f8e54
+InstanceOf: List
+
+* insert 5d6f677fa9eaa34be2202ffe566f8e54ListRuleset
+    

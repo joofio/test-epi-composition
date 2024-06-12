@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8e72e27852c8a54465539921267947b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for teriparatide Package Leaflet"
@@ -516,12 +519,598 @@ persons without the assistance of a person trained in the proper use of the pre-
 
 
 
+Instance: composition-da-8e72e27852c8a54465539921267947b7
+InstanceOf: CompositionUvEpi
+Title: "Composition for teriparatide Package Leaflet"
+Description:  "Composition for teriparatide Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf1b5efdfdcc45ce6b4bac00ad88f3122)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf1b5efdfdcc45ce6b4bac00ad88f3122
+* title = "TEST PURPOSES ONLY - teriparatide"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Teriparatide SUN 
+3. Sådan skal du bruge Teriparatide SUN 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What teriparatide is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What teriparatide is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Teriparatide SUN indeholder det aktive stof teriparatid, som anvendes til at styrke knoglerne og 
+mindske risikoen for knoglebrud ved at fremme knogledannelse. </p>
+<p>Teriparatide SUN anvendes til behandling af knogleskørhed hos voksne. Knogleskørhed er en 
+sygdom, der gør dine knogler tynde og skrøbelige. Sygdommen er især almindelig hos kvinder efter 
+overgangsalderen, men den kan også forekomme hos mænd. Knogleskørhed er også almindeligt 
+forekommende hos patienter, der får binyrebarkhormoner. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take teriparatide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take teriparatide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Teriparatide SUN 
+- hvis du er allergisk over for teriparatid eller et af de øvrige indholdsstoffer i Teriparatide SUN 
+(angivet i punkt 6) 
+- hvis du har forhøjet calciumniveau (hyperkalcæmi) 
+- hvis du har alvorlige nyreproblemer 
+- hvis du har fået konstateret knoglecancer elle anden cancer, som kan have spredt sig til 
+knoglerne (metastaser) 
+- hvis du har andre knoglesygdomme. Fortæl det til lægen, hvis du har en knoglesygdom 
+- hvis du har et uforklarligt højt niveau i blodet af et bestemt enzym i leveren (basisk fosfatase), 
+hvilket betyder, at du kan have Pagets sygdom (en sygdom med unormale knogleforandringer). 
+Spørg din læge, hvis der er noget, du er i tvivl om 
+- hvis du har fået strålebehandling, som påvirker dine knogler 
+- hvis du er gravid eller ammer. </p>
+<p>Advarsler og forsigtighedsregler 
+Teriparatide SUN kan give forøget indhold af kalk (calcium) i blodet eller urinen. 
+Kontakt lægen eller apotekspersonalet, før du tager Teriparatide SUN, 
+- hvis du lider af vedvarende kvalme, opkastning, forstoppelse, nedsat energi eller 
+muskelsvaghed. Dette kan være tegn på, der er for meget kalk i dit blod 
+- hvis du lider af nyresten eller har haft nyresten 
+- hvis du har nyreproblemer (moderat nedsat nyrefunktion). </p>
+<p>Nogle patienter oplever svimmelhed eller hjertebanken efter de første indsprøjtninger med 
+Teriparatide SUN. Når du injicerer de første doser af Teriparatide SUN, så gør det et sted, hvor du har 
+mulighed for at sidde eller ligge ned, hvis du skulle blive svimmel. 
+Den anbefalede behandlingstid på 24 måneder bør ikke overskrides. </p>
+<p>Teriparatide SUN må ikke bruges af patienter, der stadig vokser. </p>
+<p>Børn og unge<br />
+Teriparatide SUN må ikke bruges til børn og unge (under 18 år). </p>
+<p>Brug af anden medicin sammen med Teriparatide SUN 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. Disse kan af og til påvirke hinanden (f.eks. 
+digoxin/digitalis, medicin til behandling af hjertesygdomme). </p>
+<p>Graviditet og amning 
+Du må ikke anvende Teriparatide SUN, hvis du er gravid eller ammer, har mistanke om, at du er 
+gravid, eller planlægger at blive gravid. 
+Hvis du er kvinde i den fødedygtige alder, skal du anvende sikre præventionsmetoder, når du bruger 
+Teriparatide SUN. Hvis du bliver gravid, skal behandlingen med Teriparatide SUN ophøre. Spørg din 
+læge eller apotekspersonalet til råds, før du tager nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Nogle patienter kan føle sig svimle efter en indsprøjtning med Teriparatide SUN. Hvis du føler dig 
+svimmel, må du ikke køre bil eller betjene værktøj eller maskiner, før du har det bedre. </p>
+<p>Teriparatide SUN indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr dosis, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take teriparatide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take teriparatide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er 20 mikrogram én gang daglig, som gives som indsprøjtning under huden 
+(subkutan injektion) i låret eller maven. Som en hjælp til at huske at tage din medicin, bør du tage 
+indsprøjtningen på omtrent samme tidspunkt hver dag. </p>
+<p>Du skal tage Teriparatide SUN hver dag i så lang tid, som din læge har udskrevet det til dig. Den 
+samlede behandlingstid med Teriparatide SUN bør ikke overskride 24 måneder. Du bør ikke få mere 
+end én behandlingskur på 24 måneder i din levetid. 
+Teriparatide SUN kan indsprøjtes i forbindelse med måltider. </p>
+<p>Læs afsnittet "Brugervejledning til pennen" til sidst i denne indlægsseddel. </p>
+<p>Kanyler følger ikke med pennen. Du kan anvende kanyler på 31 gauge, længde 5 mm. </p>
+<p>Som beskrevet i Brugervejledning til pennen til sidst i denne indlægsseddel skal du foretage 
+Teriparatide SUN-indsprøjtningen kort efter, at du tager pennen ud af køleskabet. For instruktioner til 
+brug af video, scan venligst QR-koden inkluderet i pennens brugermanual eller brug linket: 
+https://www.pharmaqr.info/tptda. 
+Læg pennen tilbage i køleskabet umiddelbart efter brug. Du skal anvende en ny kanyle (31 gauge, 
+længde 5 mm) til hver indsprøjtning og kassere den efter brug. Du må aldrig opbevare din pen med 
+kanylen påsat. Del ikke din Teriparatide SUN-pen med andre. </p>
+<p>Din læge vil måske anbefale dig at anvende Teriparatide SUN sammen med kalk og D-vitamin. Din 
+læge vil fortælle dig, hvor meget du skal tage hver dag. </p>
+<p>Teriparatide SUN kan tages sammen med eller uden mad. </p>
+<p>Hvis du har taget for meget Teriparatide SUN 
+Hvis du ved en fejltagelse har taget mere Teriparatide SUN, end du skulle, skal du kontakte din læge 
+eller apotekspersonalet. Virkningerne af en overdosis kan forventes at omfatte kvalme, opkastning, 
+svimmelhed og hovedpine. </p>
+<p>Hvis du har glemt eller ikke har mulighed for at tage Teriparatide SUN på det sædvanlige 
+tidspunkt, skal du tage det snarest muligt samme dag. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis. Tag ikke mere end én indsprøjtning samme dag. Du må ikke forsøge 
+at erstatte den glemte dosis. </p>
+<p>Hvis du holder op med at bruge Teriparatide SUN 
+Hvis du overvejer at holde op med at bruge Teriparatide SUN, skal du tale med din læge om det først. 
+Din læge kan råde dig og beslutte, hvor længe du skal behandles med Teriparatide SUN. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De mest almindelige bivirkninger er smerter i arme og ben (hyppigheden er meget almindelig, kan 
+forekomme hos flere end 1 ud af 10 personer) samt kvalme, hovedpine og svimmelhed (hyppigheden 
+er almindelig, kan forekomme hos op til 1 ud af 10 personer). Hvis du bliver svimmel efter 
+indsprøjtningen, skal du sætte eller lægge dig ned, indtil du får det bedre. Hvis du ikke får det bedre, 
+skal du kontakte lægen, før du fortsætter med behandlingen. Der er set tilfælde af besvimelse i 
+forbindelse med teriparatid-behandling. </p>
+<p>Hvis du får ubehag i form af rødmen i huden, smerter, hævelser, kløe, blå mærker eller mindre 
+blødninger omkring indsprøjtningsstedet (hyppigheden er almindelig), skal dette aftage i løbet af få 
+dage eller uger. I modsat fald skal du fortælle det til din læge så hurtigt som muligt. </p>
+<p>Nogle patienter har oplevet allergiske reaktioner lige efter indsprøjtningen i form af 
+vejrtrækningsbesvær, hævelse af ansigtet, udslæt og brystsmerter (hyppigheden er sjælden, kan 
+forekomme hos op til 1 ud af 1 000 personer). Der kan i sjældne tilfælde opstå alvorlige og potentielt 
+livstruende allergiske reaktioner, herunder anafylaksi. </p>
+<p>Andre bivirkninger omfatter </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
+- forhøjelse af blodets kolesterolniveau 
+- depression 
+- nervesmerter i benene 
+- mathedsfornemmelse 
+- hjertebanken 
+- åndenød 
+- øget svedtendens 
+- muskelkramper 
+- nedsat energi 
+- træthed 
+- brystsmerter 
+- lavt blodtryk 
+- halsbrand (smertefuld og brændende følelse bag brystbenet) 
+- opkastning 
+- en udposning på spiserøret 
+- lav hæmoglobin eller lavt antal af røde blodlegemer (blodmangel, anæmi). </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) 
+- øget hjertefrekvens (puls) 
+- unormal hjertelyd 
+- stakåndethed 
+- hæmorroider 
+- urininkontinens 
+- øget vandladningstrang 
+- vægtforøgelse 
+- nyresten 
+- smerter i muskler og led. Nogle patienter har oplevet alvorlige rygkramper eller smerter, der 
+medførte indlæggelse 
+- stigning i blodets kalkindhold 
+- stigning i blodets indhold af urinsyre 
+- stigning i et enzym ved navn basisk fosfatase. </p>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1 000 personer) 
+- nedsat nyrefunktion, herunder nyresvigt 
+- hævelser, hovedsagelig af hænder, fødder og ben. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store teriparatide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store teriparatide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og pennen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Teriparatide SUN skal opbevares i køleskab (2°C – 8°C) hele tiden. Du kan anvende Teriparatide 
+SUN-pennen i op til 28 dage efter den første indsprøjtning, så længe pennen opbevares i et køleskab 
+(2°C – 8°C). </p>
+<p>Teriparatide SUN må ikke nedfryses. For at undgå at pennene fryser ned, må de ikke lægges tæt på en 
+eventuel frostboks i køleskabet. Teriparatide SUN må ikke bruges, hvis det er eller har været 
+nedfrosset. </p>
+<p>Hver pen skal bortskaffes på forsvarlig vis efter 28 dage, også selvom den ikke er fuldstændig tom. </p>
+<p>Teriparatide SUN indeholder en klar og farveløs opløsning. Teriparatide SUN må ikke anvendes, hvis 
+opløsningen er uklar, farvet eller indeholder partikler. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Teriparatide SUN indeholder:</p>
+<ul>
+<li>Aktivt stof: Teriparatid. Hver dosis à 80 mikroliter indeholder 20 mikrogram teriparatid. 
+Hver fyldt pen à 2,4 ml indeholder 600 mikrogram teriparatid (svarende til 250 mikrogram pr. 
+ml). </li>
+<li>Øvrige indholdsstoffer: Koncentreret eddikesyre (E 260), vandfrit natriumacetat (E 262), 
+mannitol (E 421), metacresol og vand til injektionsvæsker. Saltsyreopløsning (E 507) og/eller 
+natriumhydroxidopløsning (E 524) kan endvidere være tilsat for at justere pH. (Se punkt 2 
+Teriparatide SUN indeholder natrium). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Teriparatide SUN er en klar og farveløs opløsning. Det fås i en cylinderampul, som er monteret i en 
+fyldt engangspen. Hver pen indeholder 2,4 ml opløsning, svarende til 28 doser. </p>
+<p>Det fås i pakninger med 1 fyldt pen eller 3 fyldte penne. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Sun Pharmaceutical Industries Europe B.V. 
+Polarisavenue 2132 JH Hoofddorp 
+Holland </p>
+<p>Fremstiller 
+Sun Pharmaceutical Industries Europe B.V. 
+Polarisavenue 2132 JH Hoofddorp 
+Holland </p>
+<p>Terapia S.A. 
+Str. Fabricii nr Cluj-Napoca, 400Rumænien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien/България/Česká republika/ 
+Danmark/Eesti/Ελλάδα/Hrvatska/United Kingdom (Northern Ireland)/Ísland/Κύπρος/ 
+Latvija/Lietuva/Luxembourg/Luxemburg/Magyarország/ 
+Malta/Nederland/Norge/Österreich/Portugal/Slovenija/ 
+Slovenská republika/Suomi/Finland/Sverige 
+Sun Pharmaceutical Industries Europe B.V. 
+Polarisavenue 2132 JH Hoofddorp 
+Nederland/Pays-Bas/Niederlande/Нидерландия/Nizozemsko/ 
+Nederlandene/Ολλανδία/Nizozemska/The Netherlands/Holland/ 
+Ολλανδία/Nīderlande/Nyderlandai/Pays-Bas/Niederlande/ 
+Hollandia/L-Olanda/Nederland/Niederlande/Países Baixos/ 
+Nizozemska/Holandsko/Alankomaat/Nederländerna 
+Tel./тел./tlf./τηλ./Sími/τηλ./Tlf./Puh./ 
++31 (0)23 568 5 
+Deutschland 
+Sun Pharmaceuticals Germany GmbH 
+Hemmelrather Weg 51377 Leverkusen 
+Deutschland </p>
+<p>tel. +49 214 403<br />
+España 
+Sun Pharma Laboratorios, S.L.<br />
+Rambla de Catalunya 53-08007 Barcelona 
+España 
+tel. +34 93 342 78<br />
+France 
+Sun Pharma France 
+31 Rue des Poissonniers 
+92200 Neuilly-Sur-Seine<br />
+France 
+tel. +33 1 41 44 44<br />
+Italia 
+Sun Pharma Italia Srl 
+Viale Giulio Richard, 3 
+20143 Milano 
+Italia 
+tel. +39 02 33 49 07<br />
+Polska 
+Ranbaxy (Poland) Sp. Z. o. o. 
+ul. Idzikowskiego 00-710 Warszawa <br />
+Polska 
+tel. +48 22 642 07<br />
+România 
+Terapia S.A. 
+Str. Fabricii nr Cluj-Napoca, 400România 
+tel. +40 (264) 501<br />
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. 
+BRUGERVEJLEDNING TIL PENNEN </p>
+<p>Teriparatide SUN 20 mikrogram/80 mikroliter injektionsvæske, opløsning, i fyldt pen </p>
+<p>Brugervejledning </p>
+<p>Før du begynder at anvende din nye pen, skal du læse denne Brugervejledning omhyggeligt. Følg 
+instruktionerne nøje, når du anvender pennen. Læs også den vedlagte indlægsseddel. </p>
+<p>For instruktioner til brug af video, scan venligst QR-koden eller brug linket: 
+https://www.pharmaqr.info/tptda. </p>
+<p>Du må ikke dele pen eller kanyler med andre, da der er risiko for, at smitsomme stoffer kan overføres. </p>
+<p>Pennen indeholder medicin til 28 dage. </p>
+<p>Teriparatide SUN-pennens opbygning* </p>
+<pre><code>                                *Kanyler medfølger ikke. Der kan anvendes en kanyle på 31 gauge, længde 5 mm. 
+                               Spørg din læge eller apotekspersonalet, hvilken kanylestørrelse der er bedst for dig.
+</code></pre>
+<p>Vask altid dine hænder før en indsprøjtning. Forbered indsprøjtningsstedet som anvist af din læge eller 
+apotekspersonalet. </p>
+<p>Trin 1 Træk den hvide hætte af </p>
+<p>Fjern den hvide hætte ved at trække den lige af pennen </p>
+<p>Gult skaft 
+Rød stribe 
+Grøn krop 
+Cylinderampul 
+Hvid hætte 
+Beskyttelses-
+flig 
+Kanyle 
+Indre kanylehætte 
+Ydre kanylehætte 
+Sort 
+Injektions
+knap </p>
+<p>Trin 2 Påsæt en ny kanyle     </p>
+<p>a)
+         b)
+          c)
+         d)</p>
+<p>Træk beskyttelses-             Skub kanylen lige                     Skrue med uret kanylen på,   Træk den ydre kanyle- fligen af                              ind på cylinderampullen.          indtil den sidder helt fast.      hætte af, og gem den.    </p>
+<p>Step 3 Indstil dosis 
+           e)
+                   f)
+            g)</p>
+<pre><code>          Træk den sorte indsprøjtnings-            Tjek at den røde stribe            Træk den indre kanyle-                knap ud, indtil den stopper.               viser sig.                                  hætte af, og smid den væk.
+</code></pre>
+<p>Hvis du ikke kan trække den sorte indsprøjtnings-          Bemærk: Efter du har taget den indre kanylehætte af 
+knap ud, se Fejlmelding Problem E.                                kan du se en eller flere dråber medicin, der kommer 
+ud af kanylen. 
+                                                                                          Dette er normalt og vil ikke påvirke din dosis. </p>
+<p>Trin 4 Indsprøjt dosis </p>
+<pre><code>        h)
+                    i)
+
+        Lav forsigtigt en fold i huden på låret                       Tryk den sorte indsprøjtningsknap ind, indtil den 
+        eller maven, og tryk kanylen lige ind                         stopper. Hold den inde, og tæl langsomt til 5.             under huden.                                                               Træk kanylen ud af huden.
+</code></pre>
+<p>Rød stribe 
+Indre kanylehætte 
+Ydre kanylehætte 
+VIGTIGT 
+Trin 5 Bekræft dosis 
+                 j)</p>
+<p>Efter afsluttet indsprøjtning 
+Når kanylen er fjernet fra huden, skal du kontrollere, at den sorte indsprøjtningsknap er trykket helt ind. Hvis 
+det gule skaft ikke er synligt, så har du udført indsprøjtningstrinene korrekt. 
+                   k)</p>
+<p>Du må IKKE kunne se noget af det gule skaft. Hvis du kan det og allerede har indsprøjtet, må du ikke give 
+dig selv en yderligere indsprøjtning den samme dag. I stedet SKAL du nulstille Teriparatide SUN-pennen 
+(se Fejlfinding Problem A). </p>
+<p>Trin 6 Fjern kanylen </p>
+<p>l)
+    m)
+       n)
+         o)</p>
+<p>Sæt den ydre kanyle-     Skru kanylen helt                    Træk kanylen af og smid        Sæt den hvide hætte 
+hætte over kanylen.        af ved at give den ydre           den væk, som anvist af            tilbage. Placér 
+                                        kanylehætte 3 til 5 hele          din læge eller apoteks-            Teriparatide SUN-pennen 
+                                        omdrejninger mod uret.         personalet.                                i køleskabet straks efter   <br />
+                                                                                                                                        brug. </p>
+<p>Anvisningerne til håndtering af kanyler bør ikke erstatte lokale retningslinjer eller anvisninger fra din læge 
+eller sygeplejerske. </p>
+<p>Ydre 
+kanyle-
+hætte 
+Fejlfinding 
+Problem 
+A. Det gule skaft er 
+stadigvæk synligt, efter 
+jeg har trykket den 
+sorte indsprøjtnings-
+knap ind. 
+Hvordan kan jeg 
+nulstille min 
+Teriparatide SUN-pen? </p>
+<p>Løsning 
+Følg nedenstående punkter for at nulstille Teriparatide SUN-
+pennen. 
+1) Den anbefalede dosis er 20 mikrogram givet én gang 
+dagligt. Hvis du allerede har fået en indsprøjtning, MÅ 
+DU IKKE indsprøjte en indsprøjtning mere på den samme 
+dag. 
+2) Fjern kanylen. 
+3) Sæt en ny kanyle på, træk den ydre kanylehætte af, og 
+gem den. 
+4) Træk den sorte indsprøjtningsknap ud, indtil den stopper. 
+Kontroller, at den røde stribe viser sig. (Se trin 3) 
+5) Træk den indre kanylehætte af, og smid den ud. 
+6) Lad kanylen pege ned i en tom beholder. Skub den sorte 
+indsprøjtningsknap ind, indtil den stopper. Hold den inde 
+og tæl langsomt til 5. Du kan sikkert se en lille 
+væskestrøm eller dråbe af væske. Når du er færdig, vil 
+den sorte indsprøjtningsknap være fuldstændig i bund. 
+7) Hvis du stadigvæk kan se det gule skaft, skal du kontakte 
+din læge eller apotekspersonalet. 
+8) Sæt den ydre kanylehætte på kanylen. Skru kanylen helt af 
+ved at give kanylehætten 3 til 5 hele omdrejninger. Træk 
+kanylehætten af, og smid det hele ud, som anvist af din 
+læge eller apotekspersonalet. Sæt den hvide hætte tilbage, 
+og læg Teriparatide SUN-pennen i køleskabet. (Se trin 6) </p>
+<p>Du kan forebygge disse problemer ved altid at bruge en NY 
+kanyle til hver indsprøjtning og ved at skubbe den sorte 
+indsprøjtningsknap helt ind og langsomt tælle til 5. B. Hvordan kan jeg 
+vide, at min 
+Teriparatide SUN-pen 
+virker? </p>
+<p>Teriparatide SUN-pennen er fremstillet til at sprøjte den fulde 
+dosis ind, hver gang den anvendes i henhold til anvisningerne 
+i afsnittet Brugsvejledning. Den sorte indsprøjtningsknap vil 
+være fuldstændigt inde for at vise, at den fulde dosis er 
+indsprøjtet fra Teriparatide SUN-pennen. </p>
+<p>Husk at bruge en ny kanyle hver gang du sprøjter ind for at 
+sikre, at din Teriparatide SUN-pen virker rigtigt. </p>
+<p>C. Jeg kan se en 
+luftboble i min 
+Teriparatide SUN-pen. </p>
+<p>En lille luftboble vil ikke påvirke din dosis eller skade dig. 
+Du kan fortsætte med at tage din dosis som sædvanlig. </p>
+<p>D. Jeg kan ikke få 
+kanylen af. </p>
+<p>1) Sæt den ydre kanylehætte på kanylen. (Se trin 6) 
+2) Brug den ydre kanylehætte til at skrue kanyle af med. 
+3) Skru kanylen fuldstændigt af ved at give den ydre 
+kanylehætte 3 til 5 hele omdrejninger. 
+4) Hvis du stadigvæk ikke kan få kanylen af, skal du bede 
+nogen om hjælp. </p>
+<p>E. Hvad skal jeg gøre, 
+hvis jeg ikke kan trække 
+den sorte 
+indsprøjtningsknap ud? </p>
+<p>Skift til en ny Teriparatide SUN-pen for at tage din dosis, 
+som anvist af din læge eller apotekspersonalet. </p>
+<p>Dette viser, at du nu har brugt al den medicin, som kan 
+indsprøjtes nøjagtigt, skønt du af og til kan se noget medicin, der 
+er efterladt i cylinderampullen. </p>
+<p>Rengøring og opbevaring 
+Rengøring af din Teriparatide SUN-pen 
+ 
+Aftør ydersiden af Teriparatide SUN-pennen med en fugtig klud. 
+ 
+Anbring ikke Teriparatide SUN-pennen i vand. Vask eller rengør den ikke med nogen væske. </p>
+<p>Opbevaring af din Teriparatide SUN-pen 
+ 
+Læg Teriparatide SUN-pennen i køleskab straks efter hver brug. Læs og følg instruktionerne i 
+indlægssedlen om, hvorledes du opbevarer pennen. 
+ 
+Opbevar ikke Teriparatide SUN-pennen med påsat kanyle, da dette kan medføre, at der dannes 
+luftbobler i cylinderampullen. 
+ 
+Opbevar Teriparatide SUN-pennen med den hvide hætte på. 
+ 
+Hvis medicinen har været frosset, så kassér pennen og tag en ny Teriparatide SUN-pen i brug. 
+ 
+Hvis Teriparatide SUN-pennen har været efterladt uden for køleskabet, så kassér ikke pennen. Læg 
+pennen tilbage i køleskabet og kontakt din læge eller apotekspersonalet. </p>
+<p>Bortskaffelse af kanyler og pen 
+Bortskaffelse af kanyler og Teriparatide SUN-pennen 
+ 
+Før Teriparatide SUN-pennen kasseres, skal det sikres, at kanylen er fjernet fra pennen. 
+ 
+Kassér brugte kanyler i en engangsbeholder til skarpe genstande eller en hård plastikbeholder med et 
+sikkert låg. Du må ikke smide kanyler ud i dit husholdningsaffald. 
+ 
+Genbrug ikke den fyldte beholder til skarpe genstande. 
+ 
+Spørg sundhedspersonalet til råds om, hvordan du bortskaffer pennen og den fyldte beholder til 
+skarpe genstande. 
+ 
+Vejledningen omkring håndtering af kanyler erstatter ikke de lokale, sundhedspersonalets eller 
+sygehusets retningslinjer. 
+ 
+Kassér pennene 28 dage efter første brug. </p>
+<p>Andre vigtige oplysninger 
+ 
+Teriparatide SUN indeholder medicin til 28 dage. 
+ 
+Overfør ikke medicinen til en sprøjte. 
+ 
+Nedskriv datoen for din første indsprøjtning i en kalender. 
+ 
+Kontroller Teriparatide SUN-etiketten for at sikre, at du har den rigtige medicin, og at den ikke har 
+overskredet udløbsdatoen. 
+ 
+Under indsprøjtning kan du muligvis høre et eller flere klik – dette er normalt for brug af pennen. 
+ 
+Teriparatide SUN frarådes til brug af blinde eller synshæmmede uden hjælp af en person, der er 
+instrueret i rigtig brug af pennen. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8e72e27852c8a54465539921267947b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for teriparatide Package Leaflet for language en"
+Description: "ePI document Bundle for teriparatide Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8e72e27852c8a54465539921267947b7"
+* entry[0].resource = composition-en-8e72e27852c8a54465539921267947b7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e72e27852c8a54465539921267947b7"
+* entry[=].resource = mp8e72e27852c8a54465539921267947b7
+                            
+                    
+Instance: bundlepackageleaflet-da-8e72e27852c8a54465539921267947b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for teriparatide Package Leaflet for language da"
+Description: "ePI document Bundle for teriparatide Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8e72e27852c8a54465539921267947b7"
+* entry[0].resource = composition-da-8e72e27852c8a54465539921267947b7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e72e27852c8a54465539921267947b7"
+* entry[=].resource = mp8e72e27852c8a54465539921267947b7
+                            
+                    
+
+
+
+Instance: mp8e72e27852c8a54465539921267947b7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Teriparatide SUN 20 micrograms/80 microliters solution for injection in pre-filled pen"
-Description: "Teriparatide SUN 20 micrograms/80 microliters solution for injection in pre-filled pen"
+Title: "Medicinal Product teriparatide"
+Description: "teriparatide"
 Usage: #inline
 
  
@@ -541,7 +1130,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Teriparatide SUN 20 micrograms/80 microliters solution for injection in pre-filled pen"
+  * productName = "teriparatide"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -568,29 +1157,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8e72e27852c8a54465539921267947b7
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for teriparatide Package Leaflet for language en"
-Description: "ePI document Bundle for teriparatide Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8e72e27852c8a54465539921267947b7ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1697/001-002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "teriparatide"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8e72e27852c8a54465539921267947b7"
-* entry[0].resource = composition-en-8e72e27852c8a54465539921267947b7
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf1b5efdfdcc45ce6b4bac00ad88f3122"
-* entry[=].resource = mpf1b5efdfdcc45ce6b4bac00ad88f3122
-                            
-                      
+* title = "List of all ePIs associated with teriparatide"
+
+* subject = Reference(mpf1b5efdfdcc45ce6b4bac00ad88f3122)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#teriparatide "teriparatide"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8e72e27852c8a54465539921267947b7) // teriparatide en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8e72e27852c8a54465539921267947b7) // teriparatide da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8e72e27852c8a54465539921267947b7
+InstanceOf: List
+
+* insert 8e72e27852c8a54465539921267947b7ListRuleset
+    

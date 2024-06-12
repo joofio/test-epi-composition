@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0038e5833697485dc38d33d1305d9883
 InstanceOf: CompositionUvEpi
 Title: "Composition for clopidogrelacetylsalicylic Package Leaflet"
@@ -426,12 +429,557 @@ http://www.ema.europa.eu/  </p>         </div>"""
 
 
 
+Instance: composition-da-0038e5833697485dc38d33d1305d9883
+InstanceOf: CompositionUvEpi
+Title: "Composition for clopidogrelacetylsalicylic Package Leaflet"
+Description:  "Composition for clopidogrelacetylsalicylic Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4508a59f31e3d5810d220a288641c8f2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4508a59f31e3d5810d220a288641c8f2
+* title = "TEST PURPOSES ONLY - clopidogrelacetylsalicylic"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Clopidogrel/Acetylsalicylsyre Zentiva 
+3. Sådan skal du tage Clopidogrel/Acetylsalicylsyre Zentiva 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What clopidogrelacetylsalicylic is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What clopidogrelacetylsalicylic is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Clopidogrel/Acetylsalicylsyre Zentiva indeholder clopidogrel og acetylsalicylsyre (ASA) og tilhører 
+en gruppe medicin, der kaldes blodfortyndende medicin. Blodplader er meget små bestanddele i 
+blodet, som klumper sig sammen, når blodet størkner. Ved at forhindre denne sammenklumpning i 
+visse typer blodkar (kaldet arterier) nedsætter et blodfortyndende præparat risikoen for, at der dannes 
+blodpropper (en proces, der kaldes aterotrombose). </p>
+<p>Clopidogrel/Acetylsalicylsyre Zentiva tages af voksne for at forebygge dannelse af blodpropper i 
+blodårer, som er blevet stive. Blodpropper kan føre til f.eks. slagtilfælde, hjerteanfald og død 
+(aterotrombotiske hændelser).  </p>
+<p>Du har fået ordineret Clopidogrel/Acetylsalicylsyre Zentiva i stedet for de to indholdsstoffer 
+clopidogrel og acetylsalicylsyre enkeltvist for at forebygge blodpropper, fordi du har haft en alvorlig 
+form for smerter i brystet (ustabil angina pectoris) eller et hjerteanfald (myokardieinfarkt). For at 
+behandle denne tilstand kan lægen have indopereret en stent (rør) i den blokerede eller forsnævrede 
+blodåre (arterie) for at genoprette en effektiv blodgennemstrømning.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take clopidogrelacetylsalicylic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take clopidogrelacetylsalicylic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Clopidogrel/Acetylsalicylsyre Zentiva: 
+ 
+hvis du er allergisk over for clopidogrel, acetylsalicylsyre eller et af de øvrige indholdsstoffer i 
+dette lægemiddel (angivet i afsnit 6). 
+ 
+hvis du er overfølsom over for medicin, der kaldes non-steroide antiinflammatoriske stoffer 
+(NSAID’er), der sædvanligvis anvendes til behandling af smertefulde og/eller 
+betændelseslignende tilstande i muskler eller led (gigt). 
+ 
+hvis du har en sygdom, der omfatter konbinationen af astma, løbenæse og polypper (en udvækst 
+i næsen). </p>
+<p> 
+hvis du har aktiv blødning såsom et mavesår eller blødning i hjernen. 
+ 
+hvis du lider af en alvorlig nyresygdom. 
+ 
+hvis du lider af en alvorlig leversygdom. 
+ 
+hvis du er gravid i tredje trimester. </p>
+<p>Advarsler og forsigtighedsregler 
+Hvis nogen af følgende situationer gælder for dig, skal du oplyse det til lægen, før du tager 
+Clopidogrel/Acetylsalicylsyre Zentiva: 
+ 
+hvis du har risiko for blødninger f.eks. på grund af:</p>
+<ul>
+<li>en sygdom, der medfører risiko for indre blødninger (såsom et mavesår). </li>
+<li>en blødningsforstyrrelse, der giver tendens til indre blødninger (blødning inde i et af 
+kroppens væv, organer eller led). </li>
+<li>en nylig alvorlig kvæstelse. </li>
+<li>et nyligt kirurgisk indgreb (gælder også tandoperationer). </li>
+<li>et planlagt kirurgisk indgreb (gælder også tandoperationer) inden for de næste 7 dage. 
+ 
+hvis du har haft en blodprop i en åre (arterie) i hjernen (iskæmisk slagtilfælde) inden for de 
+seneste 7 dage. 
+ 
+hvis du lider af en nyre- eller leversygdom. 
+ 
+hvis du har haft tidligere tilfælde af astma eller allergiske reaktioner inklusive allergi mod et 
+lægemiddel, der anvendes til at behandle din sygdom. 
+ 
+hvis du lider af urinsur gigt. 
+ 
+hvis du drikker alkohol, da der er en øget risiko for blødning i eller skader på mave-tarm 
+kanalen 
+ 
+hvis du har en lidelse, der kaldes glucose-6-phosphatdehydrogenase(G6PD)-mangel, da G6PD-
+mangel øger risikoen for en særlig form for anæmi (lavt antal røde blodceller). </li>
+</ul>
+<p>Mens du er i behandling med Clopidogrel/Acetylsalicylsyre Zentiva: 
+ 
+skal du fortælle lægen, at du er i behandling med Clopidogrel/Acetylsalicylsyre Zentiva: 
+ 
+hvis du skal have foretaget en planlagt operation (også hos tandlægen). 
+ 
+hvis du får smerter i maveregionen eller blødning i mave eller tarme (rød eller sort 
+afføring). 
+ 
+skal du også straks kontakte din læge, hvis du udvikler en tilstand kendt som trombotisk 
+trombocytopenisk purpura eller TTP, der giver feber og små blødninger under huden (det kan 
+vise sig som små, røde prikker) med eller uden uforklarlig ekstrem træthed, forvirring, 
+gulfarvning af huden eller øjnene (gulsot) (se afsnit 4). 
+ 
+kan det tage lidt længere end normalt, før blødningen stopper, hvis du skærer dig eller kommer 
+til skade. Dette skyldes medicinens virkemåde, da den forhindrer blodet i at størkne. Ved 
+mindre sår og skader, som hvis du f.eks. skærer dig under barbering, er dette som regel ikke 
+noget problem. Hvis du er bekymret over blødningen, skal du omgående kontakte din læge (se 
+afsnit 4 ’Bivirkninger’). 
+ 
+kan din læge bede om at få taget blodprøver. </p>
+<p>Børn og unge 
+Clopidogrel/Acetylsalicylsyre Zentiva er ikke tiltænkt anvendelse hos børn og unge under 18 år. Der 
+er en mulig sammenhæng mellem acetylsalicylsyre og Reyes syndrom, når lægemidler, der indeholder 
+acetylsalicylsyre, gives til børn og unge med en virusinfektion. Reyes syndrom er en meget sjælden 
+sygdom, der kan være livstruende.  </p>
+<p>Brug af anden medicin sammen med Clopidogrel/Acetylsalicylsyre Zentiva 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
+nyligt.<br />
+Visse andre typer medicin kan påvirke virkningen af Clopidogrel/Acetylsalicylsyre Zentiva eller 
+omvendt. </p>
+<p>Du skal fortælle lægen, hvis du tager 
+ 
+medicin, der kan øge risikoen for blødning såsom: </p>
+<ul>
+<li>medicin, som modvirker blodets størkning (blodfortyndende medicin, orale 
+antikoagulantia) gennem munden. * 
+acetylsalicylsyre eller andre non-steroide antiinflammatoriske stoffer (NSAID’er), der 
+sædvanligvis anvendes til behandling af smertefulde og/eller betændelseslignende tilstande 
+i muskler eller led (gigt). * 
+heparin eller anden medicin til indsprøjtning til at nedsætte dannelse af blodpropper. * 
+ticlopidin, der er anden medicin mod blodpropper  * 
+selektive serotoningenoptagelseshæmmere (inklusive, men ikke begrænset til fluoxetin og 
+fluvoxamin), der normalt anvendes mod depression 
+ 
+omeprazol eller esomeprazol til behandling af for meget mavesyre. 
+ 
+methotrexat, et lægemiddel der anvendes til at behandle alvorlige ledsygdomme (reumatoid artrit) 
+eller hudsygdomme (psoriasis).<br />
+ 
+acetazolamid, et lægemiddel der anvendes til at behandle glaukom (forhøjet tryk i øjet) eller 
+epilepsi eller til at øge urinflow. 
+ 
+probenecid, benzbromaron eller sulfipyrazon, lægemidler til behandling af urinsur gigt. 
+ 
+fluconazol eller voriconazol, der anvendes til behandling af svampeinfektioner.<br />
+ 
+efavirenz eller tenofovir, medicin der anvendes til behandling af HIV- (humant immundefektvirus) 
+infektion 
+ 
+valproinsyre, valproat eller carbamazepin, medicin til behandling af bestemte typer epilepsi. 
+ 
+bliver vaccineret mod skoldkopper eller helvedesild indenfor 6 uger efter brug af 
+Clopidogrel/Acetylsalicylsyre Zentiva, eller hvis du har/får skoldkopper eller helvedsild (se afsnit 
+2 ”Børn og unge”) 
+ 
+moclobemid, medicin mod depression. 
+ 
+repaglinid, medicin til behandling af sukkersyge (diabetes) 
+ 
+paclitaxel, medicin til behandling af kræft. 
+ 
+nicorandil, medicin til behandling af hjerte-relaterede smerter i brystkassen 
+ 
+opioider: mens du er i behandling med clopidogrel, bør du fortælle det til lægen, før du får 
+ordineret enhver form for behandling med opioider. </li>
+</ul>
+<p>Du skal holde op med at tage andre lægemidler, der indeholder clopidogrel, mens du tager 
+Clopidogrel/Acetylsalicylsyre Zentiva. </p>
+<p>Lejlighedsvis anvendelse af acetylsalicylsyre (ikke over 1.000 mg over en periode på 24 timer) burde 
+generelt ikke give problemer, men hvis du tager acetylsalicylsyre gennem længere tid under andre 
+omstændigheder, skal du diskutere det med lægen eller apotekspersonalet. </p>
+<p>Graviditet og amning 
+Du må ikke tage Clopidogrel/Acetylsalicylsyre Zentiva under graviditetens tredje trimester. 
+Det er bedst ikke at tage dette lægemiddel under graviditens første og andet trimester.  </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager Clopidogrel/Acetylsalicylsyre Zentiva.<br />
+Hvis du bliver gravid, mens du tager Clopidogrel/Acetylsalicylsyre Zentiva, skal du omgående 
+kontakte din læge, da det frarådes at tage Clopidogrel/Acetylsalicylsyre Zentiva under graviditet. </p>
+<p>Du bør ikke amme, mens du tager Clopidogrel/Acetylsalicylsyre Zentiva.<br />
+Hvis du ammer eller planlægger at amme, skal du tale med din læge, før du tager dette lægemiddel.  </p>
+<p>Spørg din læge eller apoteket til råds, før du tager nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er usandsynligt, at Clopidogrel/Acetylsalicylsyre Zentiva vil påvirke din evne til at køre bil eller 
+betjene maskiner. </p>
+<p>Clopidogrel/Acetylsalicylsyre Zentiva indeholder lactose 
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse </p>
+<p>sukkerarter. </p>
+<p>Clopidogrel/Acetylsalicylsyre Zentiva indeholder hydrogeneret ricinusolie 
+Clopidogrel/Acetylsalicylsyre Zentiva indeholder hydrogeneret ricinusolie, der kan forårsage 
+mavetilfælde eller diaré.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take clopidogrelacetylsalicylic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take clopidogrelacetylsalicylic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er 1 tablet Clopidogrel/Acetylsalicylsyre Zentiva dagligt, som indtages gennem 
+munden med et glas vand. Clopidogrel/Acetylsalicylsyre Zentiva kan tages i forbindelse med et 
+måltid, men det er ikke nødvendigt.  </p>
+<p>Du skal tage medicinen på samme tid hver dag. </p>
+<p>Ud fra din sygdom vil lægen bestemme, hvor lang tid du skal tage Clopidogrel/Acetylsalicylsyre 
+Zentiva. Hvis du har haft et hjerteanfald, skal medicinen udskrives til mindst fire uger. Under alle 
+omstændigheder skal du fortsætte med at tage Clopidogrel/Acetylsalicylsyre Zentiva, så længe din 
+læge udskriver det til dig. </p>
+<p>Hvis du har taget for mange Clopidogrel/Acetylsalicylsyre Zentiva 
+Kontakt din læge eller tag på den nærmeste skadestue på grund af den øgede blødningsrisiko. </p>
+<p>Hvis du har glemt at tage Clopidogrel/Acetylsalicylsyre Zentiva 
+Hvis du glemmer at tage en dosis Clopidogrel/Acetylsalicylsyre Zentiva til sædvanlig tid, men 
+kommer i tanke om det i løbet af 12 timer, skal du omgående tage tabletten og dernæst tage den næste 
+tablet til sædvanlig tid. </p>
+<p>Hvis du glemmer at tage en tablet i over 12 timer, skal du blot tage den næste enkeltdosis til sædvanlig 
+tid. Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+<p>For pakninger med 14, 28 og 84 stk. tabletter kan du tjekke på hvilken dag, du sidst tog en tablet, ved 
+at se på kalenderen trykt på blisterpakningen. </p>
+<p>Hvis du holder op med at tage Clopidogrel/Acetylsalicylsyre Zentiva 
+Du må ikke stoppe behandlingen, medmindre din læge har bedt dig om det. Kontakt din læge, før 
+du stopper eller genoptager din behandling. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt din læge med det samme, hvis du oplever: 
+ 
+feber, tegn på infektion eller ekstrem træthed. Dette kan ske på grund af et sjældent fald i visse 
+blodlegemer. 
+ 
+tegn på leverproblemer såsom gulfarvning af huden og/eller øjnene (gulsot), uanset om det sker 
+i forbindelse med blødninger, som viser sig under huden som små røde prikker, og/eller 
+forvirring (se afsnit 2 ’Advarsler og forsigtighedsregler’). 
+ 
+hævelser i munden eller hudproblemer såsom udslæt og kløe, blærer på huden. Dette kan være 
+tegn på en allergisk reaktion. </p>
+<p>Den almindeligste bivirkning, der er set med Clopidogrel/Acetylsalicylsyre Zentiva, er blødning. 
+Blødning kan forekomme i form af blødninger fra mave eller tarm, blå mærker, hæmatom (usædvanlig 
+blødning eller blodudtrædning under huden), næseblod eller blod i urinen. I nogle enkelte tilfælde er 
+der indberettet blødning i øjne, i hoved (særligt hos ældre), lunger eller led.  </p>
+<p>Hvis du får langvarige blødninger, mens du tager Clopidogrel/Acetylsalicylsyre Zentiva 
+Hvis du skærer dig eller kommer til skade, kan det tage lidt længere end normalt, før blødningen 
+stopper. Dette skyldes medicinens virkemåde, da den forhindrer blodet i at størkne. Ved mindre sår og 
+skader, som hvis du f.eks. skærer dig under barbering, er dette som regel ikke noget problem. Hvis du 
+er bekymret over blødningen, skal du omgående kontakte din læge (se afsnit 2 ’Advarsler og 
+forsigtighedsregler’). </p>
+<p>Øvrige bivirkninger omfatter: 
+Almindelige bivirkninger (kan påvirke op til 1 ud af 10 patienter):<br />
+Diaré, mavesmerter, fordøjelsesbesvær eller halsbrand. </p>
+<p>Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 patienter):<br />
+Hovedpine, mavesår, opkastninger, kvalme, forstoppelse, luft i maven eller tarmene, udslæt, kløe, 
+svimmelhed, prikkende fornemmelse og følelsesløshed. </p>
+<p>Sjældne bivirkninger (kan påvirke op til 1 ud af 1.000 patienter):<br />
+Svimmelhed (fornemmelse af at snurre rundt), forstørrede bryster hos mænd. </p>
+<p>Meget sjældne bivirkninger (kan påvirke op til 1 ud af 10.000 patienter):<br />
+Gulsot (gulfarvning af hud og/eller øjne); brændende fornemmelse i maven og/eller spiserøret; 
+alvorlige mavesmerter med eller uden rygsmerter; feber, åndedrætsbesvær indimellem i ledsaget af 
+hoste; generelle allergiske reaktioner (f.eks. varmefølelse over hele kroppen med pludselig almen 
+utilpashed og eventuelt besvimelse); hævelse i munden; blærer på huden; allergiske hudreaktioner; 
+ømhed i munden (stomatitis); blodtryksfald; forvirring; hallucinationer; ledsmerter; muskelsmerter; 
+smagsforstyrrelser eller mangel på smagssans, betændelse i små kar. </p>
+<p>Bivirkninger med ikke kendt hyppighed (kan ikke vurderes ud fra forhåndenværende data):<br />
+Perforeret mavesår, ringen for ørerne, nedsat hørelse, pludselige, livstruende allergiske reaktioner eller 
+overfølsomhedsreaktioner med bryst- eller mavesmerter, nyresygdom, lavt blodsukker, urinsur gigt 
+(en tilstand med smertefulde, hævede led forårsaget af urinsyrekrystaller), forværring af madallergi og 
+en særlig form for anæmi (lavt antal røde blodceller) (se afsnit 2 ‘Advarsler og forsigtighedsregler’), 
+hævelse. </p>
+<p>Derudover kan din læge eventuelt finde ændringer i resultaterne af dine blod- eller urinprøver. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store clopidogrelacetylsalicylic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store clopidogrelacetylsalicylic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Opbevares ved temperaturer under 25 ºC. </p>
+<p>Brug ikke lægemidlet, hvis der er synlige tegn på nedbrydning. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Clopidogrel/Acetylsalicylsyre Zentiva indeholder: </p>
+<p>Clopidogrel/Acetylsalicylsyre Zentiva 75 mg/75 mg filmovertrukne tabletter 
+Aktive stoffer: clopidogrel og acetylsalicylsyre (ASA). Hver tablet indeholder 75 mg clopidogrel (som 
+hydrogensulfat) og 75 mg acetylsalicylsyre. </p>
+<p>Øvrige indholdsstoffer:</p>
+<ul>
+<li>Tabletkernen: mannitol (E421), macrogol 6000, mikrokrystallinsk cellulose, lavsubstitueret 
+hydroxypropylcellulose, majsstivelse, hydrogeneret ricinusolie (se afsnit 2 
+‘Clopidogrel/Acetylsalicylsyre Zentiva indeholder hydrogeneret ricinusolie’), stearinsyre og 
+kolloid vandfri silica. </li>
+<li>Tablettens overtræk: lactosemonohydrat (se afsnit 2 ‘Clopidogrel/Acetylsalicylsyre Zentiva 
+indeholder lactose’), hypromellose (E464), titandioxid (E171), triacetin (E1518), gul jernoxid 
+(E172) </li>
+<li>Polérmiddel: carnaubavoks. </li>
+</ul>
+<p>Clopidogrel/Acetylsalicylsyre Zentiva 75 mg/100 mg filmovertrukne tabletter 
+Aktive stoffer: clopidogrel og acetylsalicylsyre (ASA). Hver tablet indeholder 75 mg clopidogrel (som 
+hydrogensulfat) og 100 mg acetylsalicylsyre. </p>
+<p>Øvrige indholdsstoffer:</p>
+<ul>
+<li>Tabletkernen: mannitol (E421), macrogol 6000, mikrokrystallinsk cellulose, lavsubstitueret 
+hydroxypropylcellulose, hydrogeneret ricinusolie (se afsnit 2 ‘Clopidogrel/Acetylsalicylsyre 
+Zentiva indeholder hydrogeneret ricinusolie’), stearinsyre og kolloid vandfri silica. </li>
+<li>Tablettens overtræk: lactosemonohydrat (se afsnit 2 ‘Clopidogrel/Acetylsalicylsyre Zentiva 
+indeholder lactose’), hypromellose (E464), titandioxid (E171), triacetin (E1518), rød jernoxid 
+(E172) </li>
+<li>Polérmiddel: carnaubavoks. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Clopidogrel/Acetylsalicylsyre Zentiva 75 mg/75 mg filmovertrukne tabletter 
+Clopidogrel/Acetylsalicylsyre Zentiva 75 mg/75 mg filmovertrukne tabletter (tabletter) er ovale, let 
+bikonvekse, gule og er præget på den ene side med "C75" og på den anden side med "A75".<br />
+Clopidogrel/Acetylsalicylsyre Zentiva udleveres i pakninger, der indeholder<br />
+- 14, 28, 30 og 84 tabletter i aluminiumblister,<br />
+- 30x1, 50x1, 90x1 eller 100x1 tabletter i perforerede enkeltdosisblister i aluminium. </p>
+<p>Clopidogrel/Acetylsalicylsyre Zentiva 75 mg/100 mg filmovertrukne tabletter 
+Clopidogrel/Acetylsalicylsyre Zentiva 75 mg/100 mg filmovertrukne tabletter (tabletter) er ovale, let 
+bikonvekse, lyserøde og er præget på den ene side med "C75" og på den anden side med "A100".<br />
+Clopidogrel/Acetylsalicylsyre Zentiva udleveres i pakninger, der indeholder:</p>
+<ul>
+<li>14, 28 og 84 tabletter i aluminiumblister,  </li>
+<li>30x1, 50x1, 90x1 eller 100x1 tabletter i perforerede enkeltdosisblister i aluminium. </li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen:<br />
+sanofi-aventis groupe 
+54, rue La Boétie 
+F-75008 Paris 
+Frankrig </p>
+<p>Fremstiller: 
+Sanofi Winthrop Industrie 
+1, rue de la Vierge, Ambarès &amp; Lagrave, F-33565 Carbon Blanc cedex, Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om Clopidogrel/Acetylsalicylsyre Zentiva, skal du henvende 
+dig til den lokale repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+UAB «SANOFI-AVENTIS LIETUVA» 
+Tel: +370 5 2755 
+България 
+SANOFI BULGARIA EOOD 
+Тел: +359 (0)2 970 53<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi Malta Ltd. 
+Tel: +356 21493 
+Deutschland 
+Zentiva Pharma GmbH 
+Tel: +49 (0)180 20 200<br />
+Nederland 
+sanofi-aventis Netherlands B.V. 
+Tel: +31 20 245 4 
+Eesti 
+sanofi-aventis Estonia OÜ 
+Tel: +372 627 3 
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+sanofi-aventis AEBE 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 – 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel: +48 22 280 00<br />
+France 
+sanofi-aventis France 
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89  </p>
+<p>Hrvatska 
+sanofi-aventis Croatia d.o.o. 
+Tel: +385 1 600 34 România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+sanofi-aventis d.o.o. 
+Tel: +386 1 560 48<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+sanofi-aventis Pharma Slovakia s.r.o. 
+Tel: +421 2 33 100<br />
+Italia 
+Sanofi S.p.A. 
+Tel: 800.536<br />
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+sanofi-aventis Cyprus Ltd. 
+Τηλ: +357 22 871 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+sanofi-aventis Latvia SIA 
+Tel: +371 67 33 24<br />
+United Kingdom 
+Sanofi 
+Tel: +44 (0) 845 372 7 </p>
+<p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/ </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0038e5833697485dc38d33d1305d9883
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for clopidogrelacetylsalicylic Package Leaflet for language en"
+Description: "ePI document Bundle for clopidogrelacetylsalicylic Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0038e5833697485dc38d33d1305d9883"
+* entry[0].resource = composition-en-0038e5833697485dc38d33d1305d9883
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0038e5833697485dc38d33d1305d9883"
+* entry[=].resource = mp0038e5833697485dc38d33d1305d9883
+                            
+                    
+Instance: bundlepackageleaflet-da-0038e5833697485dc38d33d1305d9883
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for clopidogrelacetylsalicylic Package Leaflet for language da"
+Description: "ePI document Bundle for clopidogrelacetylsalicylic Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0038e5833697485dc38d33d1305d9883"
+* entry[0].resource = composition-da-0038e5833697485dc38d33d1305d9883
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0038e5833697485dc38d33d1305d9883"
+* entry[=].resource = mp0038e5833697485dc38d33d1305d9883
+                            
+                    
+
+
+
+Instance: mp0038e5833697485dc38d33d1305d9883
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Clopidogrel/Acetylsalicylic acid Zentiva 75 mg/75 mg film-coated tablets"
-Description: "Clopidogrel/Acetylsalicylic acid Zentiva 75 mg/75 mg film-coated tablets"
+Title: "Medicinal Product clopidogrelacetylsalicylic"
+Description: "clopidogrelacetylsalicylic"
 Usage: #inline
 
  
@@ -451,7 +999,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Clopidogrel/Acetylsalicylic acid Zentiva 75 mg/75 mg film-coated tablets"
+  * productName = "clopidogrelacetylsalicylic"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -478,29 +1026,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0038e5833697485dc38d33d1305d9883
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for clopidogrelacetylsalicylic Package Leaflet for language en"
-Description: "ePI document Bundle for clopidogrelacetylsalicylic Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0038e5833697485dc38d33d1305d9883ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Clopidogrel/Acetylsalicylic acid Zentiva 75 mg/75 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "clopidogrelacetylsalicylic"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0038e5833697485dc38d33d1305d9883"
-* entry[0].resource = composition-en-0038e5833697485dc38d33d1305d9883
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4508a59f31e3d5810d220a288641c8f2"
-* entry[=].resource = mp4508a59f31e3d5810d220a288641c8f2
-                            
-                      
+* title = "List of all ePIs associated with clopidogrelacetylsalicylic"
+
+* subject = Reference(mp4508a59f31e3d5810d220a288641c8f2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#clopidogrelacetylsalicylic "clopidogrelacetylsalicylic"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0038e5833697485dc38d33d1305d9883) // clopidogrelacetylsal en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0038e5833697485dc38d33d1305d9883) // clopidogrelacetylsal da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0038e5833697485dc38d33d1305d9883
+InstanceOf: List
+
+* insert 0038e5833697485dc38d33d1305d9883ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-ce5e68a096b816edf5b3a0ff2587822c
 InstanceOf: CompositionUvEpi
 Title: "Composition for glyxambi Package Leaflet"
@@ -459,12 +462,632 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-ce5e68a096b816edf5b3a0ff2587822c
+InstanceOf: CompositionUvEpi
+Title: "Composition for glyxambi Package Leaflet"
+Description:  "Composition for glyxambi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp712ce22a69673dcc17ce3eeb67b1b02f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp712ce22a69673dcc17ce3eeb67b1b02f
+* title = "TEST PURPOSES ONLY - glyxambi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Glyxambi
+3. Sådan skal du tage Glyxambi
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What glyxambi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What glyxambi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
+Glyxambi indeholder to aktive stoffer, der kaldes empagliflozin og linagliptin. De tilhører begge to en 
+gruppe lægemidler, der kaldes ”orale lægemidler mod diabetes”. Disse lægemidler tages via munden 
+for at behandle type 2-diabetes.
+Hvad er type 2-diabetes?
+Type 2-diabetes er en sygdom, der både skyldes dine gener og din livsstil. Hvis du har type 2-diabetes, 
+danner din bugspytkirtel ikke insulin nok til at kontrollere dit blodsukker, og kroppen kan ikke udnytte 
+det dannede insulin effektivt. Det medfører et for højt sukkerindhold i blodet, som kan give 
+helbredsproblemer som hjertesygdom, nyresygdom, blindhed og dårligt blodomløb i dine arme og ben.
+Anvendelse
+Empagliflozin tilhører en gruppe lægemidler, der kaldes natrium-glucose co-transporter-2 (SGLT2)-
+hæmmere. Det virker ved at blokere SGLT2-proteinet i dine nyrer. Dette forårsager, at sukker 
+(glucose) i dit blod fjernes gennem urinen. Linagliptin virker på en anden måde, nemlig ved at aktivere 
+bugspytkirtlen til at danne mere insulin og derved sænke blodsukkeret. Det sker ved at blokere et 
+protein, der kaldes DPP-4. Derved sænker Glyxambi mængden af sukker i dit blod. 
+Hvad bruges Glyxambi til?
+
+Glyxambi bruges som tillæg til metformin og/eller sulfonylurinstof (SU) for at behandle type 2-
+diabetes hos voksne patienter i alderen 18 år og derover, hvis deres diabetes ikke kan 
+kontrolleres ved behandling med metformin og/eller sulfonylurinstof i kombination med 
+empagliflozin, eller ved behandling med metformin og/eller sulfonylurinstof i kombination med 
+linagliptin.
+44
+
+Glyxambi kan også bruges som et alternativ til at tage både empagliflozin-tabletter og 
+linagliptin-tabletter. For at undgå en overdosering, må du ikke tage både Glyxambi og 
+empagliflozin- og linagliptin-tabletter samtidig.
+Det er vigtigt, at du fortsætter med den diæt- og motionsplan, som din læge, apotekspersonalet eller 
+sygeplejersken har anbefalet.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take glyxambi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take glyxambi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Glyxambi</h2>
+<p>hvis du er allergisk over for empagliflozin, linagliptin, en anden SGLT2-hæmmer (f.eks. 
+dapagliflozin, canagliflozin), en anden DPP-4-hæmmer (f.eks. sitagliptin, vildagliptin) eller et af 
+de øvrige indholdsstoffer i Glyxambi (angivet i afsnit 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du tager dette lægemiddel og under behandlingen:
+
+hvis du har “type 1 diabetes”. Denne type starter som regel, når man er ung, og kendetegnes 
+ved, at kroppen slet ikke danner insulin. Du må ikke tage Glyxambi, hvis du har type 1 diabetes.
+
+hvis du oplever hurtigt vægttab, kvalme eller opkastning, mavesmerter, udtalt tørst, hurtig og 
+dyb vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, din ånde lugter sødligt, en sød 
+eller metallisk smag i munden eller en unormal lugt fra urin eller sved. Kontakt straks en læge 
+eller det nærmeste hospital, da disse symptomer kan være tegn på diabetisk ketoacidose – en 
+sjælden, men alvorlig og somme tider livstruende komplikation, du kan få ved diabetes som 
+følge af forhøjet indhold af ketonstoffer i urinen eller blodet, målt ved laboratorieanalyser. 
+Risikoen for at udvikle diabetisk ketoacidose kan være øget ved længerevarende faste, stort 
+alkoholforbrug, væskemangel (dehydrering) eller pludselig nedsættelse af insulindosis eller et 
+større behov for insulin på grund af et større kirurgisk indgreb eller alvorlig sygdom.
+
+hvis du tager lægemidler mod diabetes, der kaldes sulfonylurinstoffer (f.eks. glimepirid, 
+glipizid) og/eller bruger insulin. Lægen vil måske nedsætte dosis af disse lægemidler, når du 
+tager dem sammen med Glyxambi for at undgå, at blodsukkeret bliver for lavt (hypoglykæmi).
+
+hvis du har eller tidligere har haft sygdom i bugspytkirtlen.
+
+hvis du har alvorlige nyreproblemer. Din læge kan begrænse din daglige dosis eller bede dig om 
+at tage et andet lægemiddel (se også afsnit 3 ”Sådan skal du tage Glyxambi”.
+
+hvis du har alvorlige leverproblemer. Lægen kan bede dig om at tage et andet lægemiddel.
+
+hvis du kan have risiko for væsketab (dehydrering), for eksempel:<em> hvis du kaster op, har diarré eller feber, eller hvis du ikke er i stand til at spise eller 
+drikke</em> hvis du tager lægemidler, der øger urinproduktionen [diuretika] eller sænker 
+blodtrykket* hvis du er 75 år eller ældre
+Mulige tegn er anført i afsnit 4 under ”Væsketab (dehydrering)”. Lægen kan bede dig om at 
+holde op med at tage Glyxambi, indtil du er bedre, for at forhindre, at du taber for meget 
+kropsvæske. Spørg om måder at undgå dehydrering på.
+
+hvis du har en forhøjet andel af røde blodlegemer i dit blod (hæmatokrit), observeret i 
+laboratorieprøver af blodet (se også afsnit 4 "Bivirkninger").
+Kontakt lægen, hvis du får en eller flere af følgende bivirkninger under behandling med Glyxambi:
+
+hvis du får symptomer på akut betændelse i bugspytkirtlen (pankreatitis) fx vedvarende, svære 
+mavesmerter. Tegnene er anført i afsnit 4 "Bivirkninger". Lægen vil måske ændre din 
+behandling.
+
+hvis du har en alvorlig nyre- eller urinvejsinfektion med feber. Din læge kan beslutte, at du skal 
+holde pause med at tage Glyxambi, indtil du er rask.
+
+hvis der dannes blistre på din hud, kan det være et tegn på en tilstand, der kaldes bulløs 
+pemfigoid. Din læge kan beslutte, at du skal stoppe med at tage Glyxambi.
+45
+Kontakt øjeblikkeligt lægen, hvis du oplever en kombination af smerter, ømhed, rødme eller hævelse 
+af kønsdelene eller i området mellem kønsdelene og anus med feber eller generel utilpashed. Disse 
+symptomer kan være et tegn på en sjælden, men alvorlig og muligvis livstruende infektion (såkaldt 
+nekrotiserende fasciitis i mellemkødet eller Fourniers gangræn), der ødelægger vævet under huden. 
+Fourniers gangræn skal behandles øjeblikkeligt.
+Fodpleje
+Som det gælder for alle diabetespatienter, er det vigtigt, at du kontrollerer dine fødder regelmæssigt og 
+følger alle råd vedrørende fodpleje, som du får af sundhedspersonerne.
+Nyrefunktion
+Lægen vil kontrollere, hvordan dine nyrer virker, før du begynder behandling med Glyxambi og 
+regelmæssigt under behandlingen.
+Glukose (sukker) i urinen
+På grund af den måde, dette lægemiddel virker på, vil prøver for sukker i urinen være positive, mens 
+du tager lægemidlet.
+Børn og unge
+Dette lægemiddel bør ikke anvendes til børn og unge under 18 år, da linagliptin ikke er effektivt til 
+børn og unge i alderen fra 10 til 17 år. Det er ukendt, om dette lægemiddel er sikkert og effektivt, hvis 
+det anvendes til børn under 10 år.
+Brug af andre lægemidler sammen med Glyxambi
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Hvis du tager følgende lægemidler, er det 
+særligt vigtigt, at du fortæller det til lægen:
+
+Anden antidiabetika, f.eks. insulin eller et sulfonylurinstof. Din læge kan beslutte at nedsætte 
+din dosis af disse lægemidler for at forhindre for lavt blodsukker.
+
+Vanddrivende lægemidler (diuretika). Din læge kan beslutte, at du skal stoppe med at tage 
+Glyxambi.
+
+Rifampicin (et antibiotikum, der bruges til behandling af tuberkulose) og visse lægemidler, der 
+bruges til behandling af krampeanfald (f.eks. carbamazepin, phenobarbital eller phenytoin). 
+Dette er alle lægemidler, der kan påvirke nedbrydningen af empagliflozin eller linagliptin i 
+kroppen. Virkningen af Glyxambi kan blive reduceret.
+
+Lithium, fordi Glyxambi kan sænke niveauet af lithium i dit blod.
+Graviditet, amning og frugtbarhed
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge til råds, før du tager Glyxambi.
+Det vides ikke, om Glyxambi er skadeligt for det ufødte barn. For en sikkerheds skyld tilrådes det at 
+lade være med at tage Glyxambi under graviditet.
+Det vides ikke, om de aktive stoffer i Glyxambi går over i mælken hos mennesker. Lad være med at 
+tage dette lægemiddel, hvis du ammer.
+Det vides ikke, om Glyxambi påvirker menneskers frugtbarhed.
+46
+Trafik- og arbejdssikkerhed
+Glyxambi påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner.
+Hvis du tager dette lægemiddel i kombination med et sulfonylurinstof eller insulin, kan du få for lavt 
+blodsukker (hypoglykæmi), som kan give symptomer som rysteture, svedtendens og synsforstyrrelser, 
+og som kan påvirke din evne til at køre motorkøretøj og betjene maskiner. Du må ikke føre 
+motorkøretøj eller betjene maskiner, hvis du får et eller flere af disse symptomer, mens du tager 
+Glyxambi.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take glyxambi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take glyxambi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Hvor meget skal du tage
+Den sædvanlige startdosis er én filmovertrukken Glyxambi-tablet 10 mg/5 mg (10 mg empagliflozin 
+og 5 mg linagliptin) én gang dagligt.
+Lægen kan beslutte, om din dosis skal øges til én filmovertrukken Glyxambi-tablet 25 mg/5 mg 
+(25 mg empagliflozin og 5 mg linagliptin) én gang dagligt. Hvis du allerede tager 25 mg empagliflozin 
+og 5 mg linagliptin som separate tabletter, og du skifter til Glyxambi, kan du starte direkte med 
+Glyxambi 25 mg/5 mg.
+Nedsat nyrefunktion
+Kontakt lægen, hvis du har problemer med nyrerne. Lægen kan nedsætte dosis eller beslutte at bruge 
+et andet lægemiddel.
+Nedsat leverfunktion
+Kontakt lægen, hvis du har nedsat leverfunktion. Glyxambi anbefales ikke, hvis du har svært nedsat 
+leverfunktion. Lægen kan beslutte at bruge et andet lægemiddel.
+Sådan skal du tage lægemidlet
+
+Synk tabletten hel med vand.
+
+Glyxambi kan tages med eller uden mad.
+
+Du kan tage tabletten på et hvilket som helst tidspunkt på dagen. Prøv imidlertid at tage den på 
+samme tidspunkt hver dag. Det vil gøre det nemmere for dig at huske at tage den.
+Lægen kan ordinere Glyxambi sammen med andre antidiabetika. For at få den bedste virkning skal du 
+tage alle lægemidler som foreskrevet af lægen.
+En passende diæt og motion hjælper din krop med at bruge blodsukkeret bedre. Det er vigtigt, at du 
+overholder det diæt- og motionsprogram, som din læge har anbefalet, mens du tager Glyxambi.
+Hvis du har taget for meget Glyxambi
+Kontakt straks en læge eller et sygehus, hvis du har taget for meget Glyxambi. Tag 
+lægemiddelpakningen med.
+Hvis du har glemt at tage Glyxambi
+Hvad du skal gøre, hvis du har glemt at tage en tablet, afhænger af, hvor lang tid der er til din næste 
+dosis.
+
+Hvis der er 12 timer eller mere til din næste dosis, skal du tage Glyxambi, så snart du kommer i 
+tanker om det. Derefter skal du tage din næste dosis på det sædvanlige tidspunkt.
+
+Hvis der er mindre end 12 timer til næste dosis, så spring den glemte dosis over. Derefter skal 
+du tage din næste dosis på det sædvanlige tidspunkt.
+
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+47
+Hvis du holder op med at tage Glyxambi
+Du må ikke holde op med at tage dette lægemiddel uden først at have rådført dig med din læge. 
+Blodsukkeret kan stige, hvis du holder op med at tage Glyxambi.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Kontakt straks læge eller nærmeste hospital, hvis du får en eller flere af følgende bivirkninger:
+Diabetisk ketoacidose, en sjælden bivirkning (kan forekomme hos op til 1 ud af 1 000 brugere)
+Følgende symptomer er tegn på diabetisk ketoacidose (se også afsnit 2, ”Advarsler og 
+forsigtighedsregler”):
+–
+forhøjet indhold af ketonstoffer i urinen eller blodet
+–
+hurtigt vægttab
+–
+kvalme eller opkastning
+–
+mavesmerter
+–
+udtalt tørst
+–
+hurtig og dyb vejrtrækning
+–
+forvirring
+–
+usædvanlig søvnighed eller træthed
+–
+din ånde lugter sødligt, du har en sød eller metallisk smag i munden, eller der er en unormal lugt 
+fra din urin eller sved.
+Disse symptomer kan forekomme uanset blodsukkerniveau. Lægen kan beslutte at stoppe din 
+behandling med dette lægemiddel midlertidigt eller permanent.
+Kontakt din læge med det samme, hvis du bemærker en eller flere af følgende bivirkninger:
+Allergiske reaktioner – en ikke almindelig bivirkning (kan forekomme hos op til 1 ud af 100 brugere)
+Dette lægemiddel kan give allergiske reaktioner, som kan være alvorlige, herunder nældefeber 
+(urticaria) samt hævelse af ansigt, læber, tunge og svælg, hvilket kan give problemer med at trække 
+vejret eller synke (angioødem).
+Betændelse i bugspytkirtlen (pankreatitis) - en ikke almindelig bivirkning 
+Dette lægemiddel kan give pankreatitis, der normalt viser sig som vedvarende, svære mavesmerter, der 
+kan strække sig bagud til ryggen, og ofte er ledsaget af kvalme og opkastning. Lægen vil måske ændre 
+din behandling.
+Lavt blodsukker (hypoglykæmi) – en almindelig bivirkning (kan forekomme hos op til 1 ud af 
+10 brugere)
+Hvis du tager Glyxambi sammen med andre lægemidler, som for eksempel et sulfonylurinstof eller 
+insulin, kan du få for lavt blodsukker (hypoglykæmi). Tegnene på for lavt blodsukker kan være:
+
+rysteture, svedtendens, ængstelse eller forvirring, hurtig hjerterytme (puls)
+
+overdreven sult, hovedpine
+Din læge vil fortælle dig, hvordan du skal forholde dig ved for lavt blodsukker, og hvad du skal gøre, 
+hvis du mærker et eller flere af ovenstående tegn. Hvis du får tegn på for lavt blodsukker, skal du spise 
+glukose (druesukker), et sukkerrigt mellemmåltid eller drikke frugtjuice. Mål dit blodsukker, hvis det 
+er muligt, og hvil dig.
+48
+Urinvejsinfektion - en almindelig bivirkning
+Tegnene på urinvejsinfektion er:
+
+en sviende fornemmelse ved vandladning
+
+uklar urin
+
+smerter i bækkenet eller midt på ryggen (når nyrerne er påvirket)
+En stærk vandladningstrang eller hyppigere vandladning kan skyldes den måde, dette lægemiddel 
+virker på, men kan også være et tegn på en urinvejsinfektion. Hvis du får de anførte symptomer 
+hyppigere, skal du kontakte lægen.
+Væsketab (dehydrering) – en ikke almindelig bivirkning
+Tegnene på dehydrering er ikke specifikke, men kan omfatte:
+
+usædvanlig tørst
+
+ørhed eller svimmelhed, når du rejser dig op
+
+besvimelse eller bevidsthedstab
+Andre bivirkninger, mens du tager Glyxambi:
+Almindelige
+
+svampeinfektion i kønsorganerne
+
+betændelse i næse eller svælg (nasofaryngit)
+
+hoste
+
+større urinmængde eller hyppigere trang til at lade vandet
+
+kløe
+
+hududslæt
+
+øget indhold af enzymet amylase i blodet
+
+øget indhold af bugspytkirtel-enzymet lipase
+
+tørst
+
+forstoppelse
+Ikke almindelige
+
+anstrengelse eller smerte ved tømning af blæren
+
+blodprøver kan vise ændringer i blodets indhold af fedt, et højere antal røde blodlegemer 
+(forhøjet hæmatokrit) og ændringer i nyrefunktionen (nedsat filtrationshastighed og forhøjet 
+serumkreatinin)
+Sjældne
+
+sår i munden
+
+nekrotiserende fasciitis i mellemkødet (Fourniers gangræn), en alvorlig bløddelsinfektion i 
+kønsdelene eller området mellem kønsdelene og anus
+Meget sjældne
+
+betændelse i nyrerne (tubulointerstitiel nefritis)
+Hyppighed ikke kendt (kan ikke vurderes ud fra tilgængelige data)
+
+blæredannelse på huden (bulløs pemfigoid)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.
+49</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store glyxambi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store glyxambi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på, at nogen har forsøgt at åbne 
+den.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Glyxambi indeholder:
+Glyxambi 10 mg/5 mg filmovertrukne tabletter
+-
+Aktive stoffer: empagliflozin og linagliptin. Hver filmovertrukken tablet indeholder 10 mg 
+empagliflozin og 5 mg linagliptin.
+-
+Øvrige indholdsstoffer:
+Tabletkerne: mannitol (E421), prægelatineret majsstivelse, majsstivelse, copovidon, 
+crospovidon, talcum og magnesiumstearat.
+Filmovertræk: hypromellose, mannitol (E421), talcum, titaniumdioxid (E171), macrogol 6og gul jernoxid (E172).
+Glyxambi 25 mg/5 mg filmovertrukne tabletter
+-
+Aktive stoffer: empagliflozin og linagliptin. Hver filmovertrukken tablet indeholder 25 mg 
+empagliflozin og 5 mg linagliptin.
+-
+Øvrige indholdsstoffer:
+Tabletkerne: mannitol (E421), prægelatineret majsstivelse, majsstivelse, copovidon, 
+crospovidon, talcum og magnesiumstearat.
+Filmovertræk: hypromellose, mannitol (E421), talcum, titaniumdioxid (E171), macrogol 6og rød jernoxid (E172).
+Udseende og pakningsstørrelser
+Glyxambi 10 mg/5 mg er lysegule, trekantede filmovertrukne tabletter på 8 mm, som er plane med 
+buede sider og præget med "10/5" på den ene side og firmalogo på den anden.
+Glyxambi 25 mg/5 mg er blegrosa, trekantede filmovertrukne tabletter på 8 mm, som er plane med 
+buede sider og præget med "25/5" på den ene side og firmalogo på den anden.
+Glyxambi fås i perforerede enkeltdosisblistere af PVC/PVDC/aluminium.
+Pakningsstørrelserne er 7 x 1, 10 x 1, 14 x 1, 28 x 1, 30 x 1, 60 x 1, 70 x 1, 90 x 1 og 
+100 x 1 filmovertrukne tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land.
+50
+Indehaver af markedsføringstilladelsen
+Boehringer Ingelheim International GmbH
+Binger Str. 173
+55216 Ingelheim am Rhein
+Tyskland
+Fremstiller
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Rottendorf Pharma GmbH
+Ostenfelder Strasse 51 – 61
+59320 Ennigerloh
+Tyskland
+51
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Magyarországi Fióktelepe
+Tel: +36 1 299 89 00
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Lilly Deutschland GmbH
+Tel. +49 (0) 6172 273 2222
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Danmark 
+Norwegian branch
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 00
+Lilly S.A.
+Tel: +34 91 663 50 00
+Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Lilly France
+Tél: +33-(0) 1 55 49 34 34
+Portugal
+Boehringer Ingelheim Portugal, Lda. 
+Tel: +351 21 313 53 00
+Lilly Portugal Produtos Farmacêuticos, Lda
+Tel: +351 21 412 66 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 28 00
+52
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Eli Lilly and Company (Ireland) Limited
+Tel: +353-(0) 1 661 4377
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+organizačná zložka
+Tel: +421 2 5810 1211
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Eli Lilly Italia S.p.A.
+Tel: +39 05 5425 71
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Eli Lilly and Company (Ireland) Limited
+Tel: +353-(0) 1 661 4377
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-ce5e68a096b816edf5b3a0ff2587822c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for glyxambi Package Leaflet for language en"
+Description: "ePI document Bundle for glyxambi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ce5e68a096b816edf5b3a0ff2587822c"
+* entry[0].resource = composition-en-ce5e68a096b816edf5b3a0ff2587822c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpce5e68a096b816edf5b3a0ff2587822c"
+* entry[=].resource = mpce5e68a096b816edf5b3a0ff2587822c
+                            
+                    
+Instance: bundlepackageleaflet-da-ce5e68a096b816edf5b3a0ff2587822c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for glyxambi Package Leaflet for language da"
+Description: "ePI document Bundle for glyxambi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-ce5e68a096b816edf5b3a0ff2587822c"
+* entry[0].resource = composition-da-ce5e68a096b816edf5b3a0ff2587822c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpce5e68a096b816edf5b3a0ff2587822c"
+* entry[=].resource = mpce5e68a096b816edf5b3a0ff2587822c
+                            
+                    
+
+
+
+Instance: mpce5e68a096b816edf5b3a0ff2587822c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Glyxambi 10 mg/5 mg film-coated tablets"
-Description: "Glyxambi 10 mg/5 mg film-coated tablets"
+Title: "Medicinal Product glyxambi"
+Description: "glyxambi"
 Usage: #inline
 
  
@@ -484,7 +1107,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Glyxambi 10 mg/5 mg film-coated tablets"
+  * productName = "glyxambi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -511,29 +1134,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-ce5e68a096b816edf5b3a0ff2587822c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for glyxambi Package Leaflet for language en"
-Description: "ePI document Bundle for glyxambi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: ce5e68a096b816edf5b3a0ff2587822cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Glyxambi 10 mg/5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "glyxambi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-ce5e68a096b816edf5b3a0ff2587822c"
-* entry[0].resource = composition-en-ce5e68a096b816edf5b3a0ff2587822c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp712ce22a69673dcc17ce3eeb67b1b02f"
-* entry[=].resource = mp712ce22a69673dcc17ce3eeb67b1b02f
-                            
-                      
+* title = "List of all ePIs associated with glyxambi"
+
+* subject = Reference(mp712ce22a69673dcc17ce3eeb67b1b02f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#glyxambi "glyxambi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-ce5e68a096b816edf5b3a0ff2587822c) // glyxambi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-ce5e68a096b816edf5b3a0ff2587822c) // glyxambi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-ce5e68a096b816edf5b3a0ff2587822c
+InstanceOf: List
+
+* insert ce5e68a096b816edf5b3a0ff2587822cListRuleset
+    

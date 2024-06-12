@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3da56d21dbca77ac4fb1bb4e78b231d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for revinty Package Leaflet"
@@ -429,12 +432,619 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 
 
 
+Instance: composition-da-3da56d21dbca77ac4fb1bb4e78b231d0
+InstanceOf: CompositionUvEpi
+Title: "Composition for revinty Package Leaflet"
+Description:  "Composition for revinty Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2d71420fe71575cbc06cda8f13b204e9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2d71420fe71575cbc06cda8f13b204e9
+* title = "TEST PURPOSES ONLY - revinty"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugervejledning </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen  </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Revinty Ellipta </li>
+<li>Sådan skal du tage Revinty Ellipta </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What revinty is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What revinty is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revinty Ellipta indeholder to aktive stoffer: fluticasonfuroat og vilanterol. Revinty Ellipta findes i to 
+forskellige styrker: 92 mikrogram fluticasonfuroat og 22 mikrogram vilanterol eller 184 mikrogram 
+fluticasonfuroat og 22 mikrogram vilanterol.  </p>
+<p>Styrken på 92/22 mikrogram anvendes til behandling af kronisk obstruktiv lungesygdom (KOL) hos voksne, 
+og til behandling af astma hos voksne og unge fra 12 år og derover. </p>
+<p>Styrken på 184/22 mikrogram anvendes til behandling af astma hos voksne og unge fra 12 år og derover. 
+Styrken på 184/22 mikrogram er ikke godkendt til behandling af KOL. </p>
+<p>Revinty Ellipta skal tages hver dag og ikke kun, når du har problemer med vejrtrækningen eller 
+andre symptomer på KOL og astma. Det kan ikke anvendes til lindring ved pludselige anfald af 
+åndenød eller hvæsende vejrtrækning. Hvis du får et anfald af den type, skal du inhalere et lægemiddel 
+med hurtig virkning (f.eks. salbutamol). Kontakt din læge, hvis du ikke har en hurtigtvirkende inhalator. </p>
+<p>Fluticasonfuroat tilhører en gruppe lægemidler, som hedder kortikosteroider, men som ofte bare kaldes 
+steroider. Kortikosteroider nedsætter inflammation (en betændelseslignende tilstand). De mindsker hævelse 
+og irritation i de små luftveje i lungerne og letter derved gradvist vejrtrækningsproblemer. Kortikosteroider 
+er også med til at forebygge astma-anfald og forværring af KOL. </p>
+<p>Vilanterol tilhører en gruppe lægemidler, der kaldes langtidsvirkende bronkodilatatorer. Det afslapper 
+musklerne i de små luftveje i lungerne, hvilket er med til at åbne luftvejene og gøre det lettere for luften at 
+komme ind og ud af lungerne. Når det tages regelmæssigt, er det med til at holde de små luftveje åbne. </p>
+<p>Når du regelmæssigt tager disse to aktive stoffer sammen, hjælper de med at holde dine 
+vejrtrækningsproblemer under kontrol i højere grad, end hvis du tog de to lægemidler hver for sig. </p>
+<p>Astma er en alvorlig, langvarig lungesygdom, hvor musklerne omkring de små luftveje trækker sig sammen 
+og strammes og dermed besværliggør luftpassage (bronkokonstriktion) samtidigt med, at luftvejene er 
+hævede og irriterede (inflammation). Symptomerne kommer og går og omfatter åndenød, hvæsende 
+vejrtrækning, trykken for brystet og hoste. Det er påvist, at Revinty Ellipta reducerer opblussen af og 
+symptomer på astma. </p>
+<p>Kronisk obstruktiv lungesygdom (KOL) er en alvorlig, langvarig lungesygdom, hvor luftvejene bliver 
+irriterede (inflammation) og fortykkede. Symptomerne omfatter åndenød, hoste, ubehag i brystet og 
+ophostning af slim. Det er påvist, at Revinty Ellipta reducerer opblussen af KOL-symptomer. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take revinty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take revinty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Revinty Ellipta<br />
+- hvis du er allergisk over for fluticasonfuroat, vilanterol eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). 
+- Hvis du tror, at ovenstående gælder for dig, må du ikke tage Revinty Ellipta, før du har talt med 
+lægen. </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, før du tager Revinty Ellipta:</p>
+<ul>
+<li>hvis du har en leversygdom, da det kan øge risikoen for bivirkninger. Hvis du har moderat eller 
+alvorlig leversygdom, vil lægen muligvis ændre din dosis til den laveste styrke af Revinty Ellipta 
+(92/22 mikrogram én gang daglig) </li>
+<li>hvis du har hjerteproblemer eller forhøjet blodtryk </li>
+<li>hvis du har lungetuberkulose eller en anden langvarig eller ubehandlet infektion. </li>
+<li>hvis du på noget tidspunkt har fået konstateret diabetes eller højt blodsukker </li>
+<li>hvis du har problemer med skjoldbruskkirtlen </li>
+<li>hvis du har lavt kaliumindhold i blodet </li>
+<li>hvis du oplever sløret syn eller andre synsforstyrrelser. </li>
+</ul>
+<p>Kontakt lægen, før du begynder at tage dette lægemiddel, hvis du tror, at noget af det<br />
+ovenstående 
+gælder for dig.  </p>
+<p>Mens du bruger Revinty Ellipta </p>
+<p>Akutte vejrtrækningsproblemer 
+Hvis du får trykken for brystet, hoste, hvæsende vejrtrækning eller åndenød, umiddelbart efter at du har brugt 
+din Revinty Ellipta inhalator: 
+Stop med at tage medicinen, og søg omgående lægehjælp, da du kan have en alvorlig tilstand, der kaldes 
+paradoks bronkospasme. </p>
+<ul>
+<li>Kontakt din læge hvis du oplever sløret syn eller andre synsforstyrrelser. </li>
+<li>Kontakt din læge hvis du oplever øget tørst, hypige vandlandninger eller uforklarlig træthed (tegn på 
+højt blodsukker). </li>
+</ul>
+<p>Infektion i lungerne 
+Hvis du tager dette lægemiddel mod KOL, kan du have en øget risiko for at få lungebetændelse. Se punkt 4<br />
+for oplysninger om de symptomer, du skal være opmærksom på, mens du tager dette lægemiddel. Kontakt 
+lægen så hurtigt som muligt, hvis du får et eller flere af disse symptomer. </p>
+<p>Børn og unge 
+Giv ikke denne medicin til behandling af astma hos børn under 12 år eller til behandling af KOL hos børn og 
+unge, uanset alder. </p>
+<p>Brug af anden medicin sammen med Revinty Ellipta 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden medicin 
+eller planlægger at bruge anden medicin. Hvis du ikke er sikker på, hvad din medicin indeholder, så tal med 
+lægen eller apotekspersonalet.  </p>
+<p>Nogle lægemidler kan påvirke virkningen af dette lægemiddel eller gøre det mere sandsynligt, at du får 
+bivirkninger. Disse lægemidler omfatter:</p>
+<ul>
+<li>medicin, som kaldes betablokkere, såsom metoprolol, der bruges til behandling af for højt blodtryk 
+eller hjertesygdom. </li>
+<li>ketoconazol, der bruges til behandling af svampeinfektioner. </li>
+<li>ritonavir eller cobicistat, der bruges til behandling af hiv-infektioner. </li>
+<li>langtidsvirkende beta2-agonister, såsom salmeterol. </li>
+</ul>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis du tager et eller flere af disse lægemidler. Lægen kan 
+vælge at følge dig tæt, hvis du tager et af disse lægemidler, da de kan øge bivirkningerne af Revinty Ellipta. </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du tager dette lægemiddel. Brug ikke dette lægemiddel hvis du er gravid, med 
+mindre din læge siger, at du kan. </p>
+<p>Det vides ikke, om indholdsstofferne i dette lægemiddel kan gå over i modermælken. Hvis du ammer, skal 
+du kontakte din læge, inden du bruger Revinty Ellipta. Brug ikke dette lægemiddel, hvis du ammer, med 
+mindre din læge siger, at du kan. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er ikke sandsynligt, at dette lægemiddel vil påvirke din evne til at føre motorkøretøj eller betjene 
+maskiner. </p>
+<p>Revinty Ellipta indeholder lactose 
+Kontakt lægen, før du tager denne medicin, hvis din læge har fortalt dig, at du ikke tåler visse sukkerarter.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take revinty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take revinty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Astma 
+Den sædvanlige dosis til behandling af astma er en inhalation (92 mikrogram fluticasonfuroat og 
+22 mikrogram vilanterol) én gang dagligt på samme tidspunkt hver dag. </p>
+<p>Hvis du har alvorlig astma, kan lægen ordinere en inhalation med den høje styrke (184 mikrogram 
+fluticasonfuroat og 22 mikrogram vilanterol). Denne dosis skal også tages én gang dagligt på samme 
+tidspunkt hver dag. </p>
+<p>KOL 
+Den sædvanlige dosis til behandling af KOL er en inhalation (92 mikrogram fluticasonfuroat og 
+22 mikrogram vilanterol) én gang dagligt på samme tidspunkt hver dag. </p>
+<p>Den høje styrke af Revinty Ellipta (184 mikrogram fluticasonfuroat og 22 mikrogram vilanterol) er ikke 
+egnet til behandling af KOL. </p>
+<p>Revinty Ellipta er til oral inhalation. </p>
+<p>Tag Revinty Ellipta på samme tidspunkt hver dag, da det virker i 24 timer 
+Det er meget vigtigt, at du tager dette lægemiddel hver dag i henhold til lægens anvisninger. Det vil hjælpe 
+med at holde dig symptomfri hele dagen og hele natten. </p>
+<p>Revinty Ellipta kan ikke anvendes til lindring af pludselige anfald af åndenød eller hvæsende 
+vejrtrækning. Hvis du får et anfald af den type, skal du inhalere et lægemiddel med hurtig virkning (f.eks. 
+salbutamol). </p>
+<p>Kontakt lægen, hvis du føler, at du får åndenød eller hvæsende vejrtrækning hyppigere end normalt, eller 
+hvis du bruger din inhalator med hurtigt virkende lægemiddel oftere end normalt. 
+Sådan skal du tage Revinty Ellipta<br />
+Du kan finde en udførlig beskrivelse i ’Brugervejledning’ efter punkt 6 i denne indlægsseddel. </p>
+<p>Revinty Ellipta er til oral inhalation. Du behøver ikke at klargøre Revinty Ellipta på nogen særlig måde, ikke 
+engang den første gang du skal bruge den. </p>
+<p>Hvis dine symptomer ikke aftager<br />
+Hvis dine symptomer (åndenød, hvæsende vejrtrækning, hoste) ikke aftager, eller hvis de bliver værre, eller 
+hvis du oftere inhalerer et lægemiddel med hurtig virkning, skal du kontakte lægen så hurtigt som muligt. </p>
+<p>Hvis du har taget for meget Revinty Ellipta<br />
+Kontakt lægen eller apoteket, hvis du ved et uheld har taget mere Revinty Ellipta, end lægen har foreskrevet.<br />
+Tag  inhalatoren, pakningen eller denne indlægsseddel med, hvis det er muligt. Du kan opleve, at dit hjerte 
+slår hurtigere end normalt, at du ryster, eller at du får hovedpine.  </p>
+<p>Hvis du har taget mere, end lægen har anvist, i en længere periode, er det særligt vigtigt, at du 
+kontakter lægen eller apoteket med henblik på rådgivning. Det skyldes, at store doser af Revinty 
+Ellipta kan nedsætte mængden af det steroidhormon, du danner naturligt i kroppen.  </p>
+<p>Hvis du har glemt at tage Revinty Ellipta<br />
+Du må ikke inhalere en dobbeltdosis som erstatning for den glemte dosis. Tag blot den næste dosis på 
+det sædvanlige tidspunkt. </p>
+<p>Hvis du får hvæsende vejrtrækning eller åndenød eller udvikler andre symptomer på et astma-anfald, skal du 
+inhalere et lægemiddel med hurtig virkning (f.eks. salbutamol) og derefter søge lægehjælp.  </p>
+<p>Stop ikke med at tage Revinty Ellipta uden lægens anvisning<br />
+Tag dette lægemiddel i den periode, som lægen anbefaler. Medicinen virker kun, så længe du tager den. Du 
+må ikke stoppe behandlingen, medmindre lægen siger det. Heller ikke selvom du får det bedre. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Allergiske reaktioner </p>
+<p>Allergiske reaktioner er sjældne (kan forekomme hos op til 1 ud af 1.000 personer).<br />
+Hvis du oplever nogle af de følgende symptomer efter at have taget Revinty Ellipta, skal du stoppe med at 
+tage medicinen og straks kontakte lægen. 
+• udslæt (nældefeber) eller rødme<br />
+• hævelse, nogle gange i ansigtet eller i munden (angioødem) 
+• meget hvæsende vejrtrækning, hoste eller vejrtrækningsbesvær 
+• pludselig svaghedsfornemmelse eller svimmelhed (kan føre til kollaps eller bevidstløshed). </p>
+<p>Akutte vejrtrækningsproblemer </p>
+<p>Akutte vejrtrækningsproblemer efter brug af Revinty Ellipta er sjældne. 
+Hvis din vejrtrækning eller hvæsen bliver værre umiddelbart efter, at du har taget dette lægemiddel, skal du 
+stoppe med at tage medicinen og søge lægehjælp med det samme. </p>
+<p>Lungebetændelse (pneumoni) (almindelig bivirkning, kan forekomme hos op til 1 ud af 10 personer) 
+Fortæl lægen, hvis du oplever nogle af følgende symptomer, mens du tager Revinty Ellipta - det kan være 
+tegn på lungebetændelse:</p>
+<ul>
+<li>feber eller kulderystelser </li>
+<li>øget slimproduktion, ændring i slimens farve </li>
+<li>tiltagende hoste eller tiltagende vejrtrækningsproblemer. </li>
+</ul>
+<p>Andre bivirkninger: </p>
+<p>Meget almindelige bivirkninger 
+Kan forekomme hos flere end 1 ud af 10 personer:</p>
+<ul>
+<li>hovedpine </li>
+<li>
+<p>almindelig forkølelse.<br />
+Almindelige bivirkninger<br />
+Kan forekomme hos op til 1 ud af 10 personer:</p>
+</li>
+<li>
+<p>ømme, hævede pletter i munden eller svælget på grund af en svampeinfektion (candidiasis). Hvis du 
+skyller munden med vand, og spytter vandet ud, umiddelbart efter, du har taget Revinty Ellipta, kan 
+det være med til at forebygge, at du får denne bivirkning. </p>
+</li>
+<li>bronkitis </li>
+<li>bihulebetændelse eller halsbetændelse </li>
+<li>influenza  </li>
+<li>smerte og irritation bagest i munden og svælget </li>
+<li>pandehulebetændelse </li>
+<li>kløende, løbende eller tilstoppet næse  </li>
+<li>hoste </li>
+<li>ændring af stemme </li>
+<li>svækkelse af knoglerne, hvilket kan medføre knoglebrud </li>
+<li>mavesmerter  </li>
+<li>rygsmerter </li>
+<li>feber </li>
+<li>ledsmerter </li>
+<li>muskelsammentrækninger. </li>
+</ul>
+<p>Ikke almindelige bivirkninger<br />
+Kan forekomme hos op til 1 ud af 100 personer:</p>
+<ul>
+<li>uregelmæssig hjerterytme (puls) </li>
+<li>sløret syn </li>
+<li>stigning i blodsukker (hyperglykæmi).  </li>
+</ul>
+<p>Sjældne bivirkninger 
+Kan forekomme hos op til 1 ud af 1.000 personer:</p>
+<ul>
+<li>hurtigere hjerterytme (takykardi) </li>
+<li>hjertebanken (palpitationer) </li>
+<li>ufrivillige, rystende, rytmiske bevægelser (tremor) </li>
+<li>angst. </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store revinty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store revinty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, bakken og inhalatoren efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Inhalatoren skal opbevares i den forseglede bakke for at beskytte mod fugt, og skal først tages ud 
+umiddelbart før første brug. Når bakken er åbnet, kan inhalatoren anvendes i op til 6 uger fra den dag, hvor 
+bakken blev åbnet. Skriv datoen for, hvornår inhalatoren skal kasseres, i det dertil beregnede felt på etiketten. 
+Datoen skal skrives på etiketten umiddelbart efter, at inhalatoren er taget ud af bakken. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p>
+<p>Hvis inhalatoren opbevares inhalatoren på køl, skal den ligge ved stuetemperatur i mindst én time før 
+brug. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revinty Ellipta indeholder<br />
+- Aktive stoffer: fluticasonfuroat og vilanterol.<br />
+- 92/22 mikrogram dosis: Hver enkelt inhalation afgiver en leveret dosis (den dosis, der afgives fra 
+mundstykket) på 92 mikrogram fluticasonfuroat og 22 mikrogram vilanterol (som trifenatat).<br />
+- 184/22 mikrogram dosis: Hver enkelt inhalation afgiver en leveret dosis (den dosis, der afgives fra 
+mundstykket) på 184 mikrogram fluticasonfuroat og 22 mikrogram vilanterol (som trifenatat). <br />
+- Øvrige indholdsstoffer: lactosemonohydrat (se punkt 2 ‘Revinty Ellipta indeholder lactose’) og 
+magnesiumstearat.  </p>
+<p>Udseende og pakningsstørrelser<br />
+Revinty Ellipta er et afdelt inhalationspulver. 
+Ellipta-inhalatoren består af en lysegrå inhalator med en gul beskyttelseshætte over mundstykket og en 
+dosistæller. Den er pakket i en bakke af laminatfolie med afriveligt folielåg. Bakken indeholder en pose med 
+tørremiddel for at beskytte mod fugt i pakningen. Når du har åbnet låget på bakken, så smid tørremidlet ud - 
+det må ikke spises eller inhaleres. Det er ikke nødvendigt at opbevare inhalatoren i bakken af laminatfolie 
+efter åbning.   </p>
+<p>Revinty Ellipta fås i pakninger med 1 inhalator som indeholder enten 14 eller 30 doser (14 eller 30 dages 
+forbrug) og i multipakninger som indeholder 90 (3 inhalatorer med 30) doser (90 dages forbrug). Ikke alle 
+pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>GlaxoSmithKline (Ireland) Limited<br />
+12 Riverwalk 
+Citywest Business Campus<br />
+Dublin Irland  </p>
+<p>Fremstiller </p>
+<p>Glaxo Wellcome Production 
+Zone Industrielle No.2 
+23 Rue Lavoisier 
+27000 Evreux 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Tél/Tel: + 32 (0) 10 85 52 Lietuva 
+UAB “BERLIN-CHEMIE MENARINI BALTIC" 
+Tel: +370 52 691 lt@berlin-chemie.com </p>
+<p>България 
+“Берлин-Хеми/А. Менарини България" EООД 
+Teл.: +359 2 454 0bcsofia@berlin-chemie.com </p>
+<p>Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Česká republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: +36 23501bc-hu@berlin-chemie.com  </p>
+<p>Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: +356 80065Deutschland 
+BERLIN-CHEMIE AG 
+Tel: + 49 (0) 30 67 
+Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081 
+Eesti 
+OÜ Berlin-Chemie Menarini Eesti<br />
+Tel: +372 667 5ee@berlin-chemie.com </p>
+<p>Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20<br />
+Ελλάδα 
+Guidotti Hellas A.E. 
+Τηλ: +30 210 8316111-Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 </p>
+<p>at.info@gsk.com </p>
+<p>España 
+FAES FARMA, S.A. 
+Tel: + 34 900 460 aweber@faes.es  </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9 
+France 
+MENARINI France 
+Tél : + 33 (0)1 45 60 77<br />
+Portugal<br />
+BIAL, Portela &amp; Ca. SA. 
+Tel: + 351 22 986 61 info@bial.com </p>
+<p>Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: +385 1 4821 361<br />
+office-croatia@berlin-chemie.com </p>
+<p>România 
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: +40 800672 
+Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 </p>
+<p>Slovenija 
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o.<br />
+Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika 
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. 
+Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
+<p>Italia 
+A. Menarini Industrie Farmaceutiche Riunite s.r.l. 
+Tel: +39-055 56 
+Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+GlaxoSmithKline (Ireland) Limited<br />
+Τηλ: +357 80070 
+Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+SIA Berlin-Chemie/Menarini Baltic<br />
+Tel: +371 67103lv@berlin-chemie.com 
+United Kingdom (Northern Ireland) 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
+<p>Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt;  </p>
+<p>Andre informationskilder 
+Du kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu  </p>
+<p>Indlægsseddel 
+Æske 
+Låg til bakke 
+Inhalator 
+Tørremiddel 
+Bakke 
+Brugervejledning 
+Hvad er en Ellipta-inhalator? 
+Det er ikke nødvendigt at kontrollere, om inhalatoren virker korrekt, før du bruger Revinty Ellipta første 
+gang, ligesom det heller ikke er nødvendigt på anden måde at klargøre den til brug. Bare følg denne trinvise 
+brugervejledning. </p>
+<p>Din æske med Revinty Ellipta-inhalator indeholder  </p>
+<p>Inhalatoren er pakket i en bakke. Du må ikke åbne bakken, før du er klar til at begynde at bruge din 
+medicin. Når du er klar til at bruge din inhalator, træk da låget af for at åbne bakken. Bakken indeholder en 
+pose med tørremiddel for at beskytte mod fugt. Smid posen med tørremiddel ud - du må ikke åbne, spise 
+eller inhalere posen med tørremiddel. </p>
+<p>Når du tager inhalatoren ud af bakken, er den i en "lukket" position. Åbn ikke inhalatoren, før du er klar 
+til at inhalere en dosis af medicinen. Skriv dato for "Kasseres senest" i det felt, der er angivet på 
+inhalatorens etiket. Datoen "Kasseres senest" er 6 uger efter den dag, hvor bakken blev åbnet. Efter denne 
+dato må inhalatoren ikke længere anvendes. Bakken kan smides ud efter åbning. 
+Tørremiddel 
+Hvis inhalatoren opbevares på køl, skal den opbevares ved stuetemperatur i mindst én time før brug. 
+Den trinvise brugervejledning, der er vist nedenfor for Ellipta-inhalatoren med 30 doser (30 dages forbrug), 
+gælder også for Ellipta-inhalatoren med 14 doser (14 dages forbrug). 
+1. Læs dette, inden du starter<br />
+Hvis du åbner og lukker beskyttelseshætten, uden at medicinen inhaleres, vil dosis gå tabt.<br />
+En dosis, der er gået tabt, vil blive tilbageholdt i inhalatoren, men den vil ikke længere være tilgængelig. 
+Det er ikke muligt, at komme til at tage for meget medicin eller tage en dobbelt dosis i én inhalation ved et 
+uheld. </p>
+<ol>
+<li>Klargøring af dosis<br />
+Vent med at åbne beskyttelseshætten, til du er klar til at inhalere din dosis. Omryst ikke inhalatoren. 
+Træk beskyttelseshætten ned, indtil du hører et ’klik’. </li>
+</ol>
+<p>Din medicin er nu klar til at blive inhaleret.<br />
+Dosistælleren har talt 1 ned som bekræftelse.  </p>
+<ul>
+<li>Hvis dosistælleren ikke tæller nedad, når du hører ’klikket’, vil inhalatoren ikke afgive medicin. 
+Returnér den til apoteket og bed om hjælp.<br />
+ "Klik" 
+Lufthuller 
+Dosistæller 
+Viser, hvor mange medicindoser, der er 
+tilbage i inhalatoren. 
+Inden brug af inhalatoren viser den 
+nøjagtigt 30 doser. 
+Tæller ned med 1, hver gang du åbner 
+beskyttelseshætten. 
+Når der er under 10 doser tilbage, vises 
+halvdelen af dosistælleren i rødt.<br />
+Når du har taget den sidste dosis, vises 
+halvdelen af dosistælleren i rødt, og 
+tallet 0 vises. Din inhalator er nu tom. 
+Hvis du åbner beskyttelseshætten 
+herefter, vil dosistælleren ændres fra at 
+være halvt rød til at være helt rød. </li>
+</ul>
+<p>Beskyttelseshætte 
+Hver gang du åbner 
+denne, klargør du 
+en dosis medicin. 
+Mundstykke 
+Luftkanaler </p>
+<ol>
+<li>
+<p>Inhalér din medicin </p>
+</li>
+<li>
+<p>Hold inhalatoren væk fra munden og foretag den dybeste udånding, du finder behagelig.  </p>
+<p>Ånd ikke ud i inhalatoren. </p>
+</li>
+<li>
+<p>Placér mundstykket mellem læberne og luk læberne godt sammen omkring mundstykket. </p>
+<p>Spær ikke for luftkanalerne med dine fingre. </p>
+</li>
+<li>
+<p>Foretag en lang, jævn, dyb indånding. Hold vejret så længe som muligt (i mindst 3-4 sekunder). </p>
+</li>
+<li>
+<p>Fjern inhalatoren fra munden. </p>
+</li>
+<li>
+<p>Pust stille og roligt ud. </p>
+</li>
+</ol>
+<p>Det er ikke sikkert, at du kan smage eller mærke medicinen, selvom du bruger inhalatoren korrekt. 
+Hvis du vil rengøre mundstykket, så brug en tør serviet, før du lukker beskyttelseshætten. </p>
+<ol>
+<li>
+<p>Luk inhalatoren og skyl munden </p>
+</li>
+<li>
+<p>Skub beskyttelseshætten så langt tilbage som muligt, så den dækker for mundstykket. </p>
+</li>
+<li>
+<p>Efter brug af inhalatoren skylles munden med vand uden at synke det. </p>
+</li>
+</ol>
+<p>Det nedsætter sandsynligheden for udvikling af bivirkninger i form af ømhed i mund eller hals.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3da56d21dbca77ac4fb1bb4e78b231d0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for revinty Package Leaflet for language en"
+Description: "ePI document Bundle for revinty Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3da56d21dbca77ac4fb1bb4e78b231d0"
+* entry[0].resource = composition-en-3da56d21dbca77ac4fb1bb4e78b231d0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3da56d21dbca77ac4fb1bb4e78b231d0"
+* entry[=].resource = mp3da56d21dbca77ac4fb1bb4e78b231d0
+                            
+                    
+Instance: bundlepackageleaflet-da-3da56d21dbca77ac4fb1bb4e78b231d0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for revinty Package Leaflet for language da"
+Description: "ePI document Bundle for revinty Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3da56d21dbca77ac4fb1bb4e78b231d0"
+* entry[0].resource = composition-da-3da56d21dbca77ac4fb1bb4e78b231d0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3da56d21dbca77ac4fb1bb4e78b231d0"
+* entry[=].resource = mp3da56d21dbca77ac4fb1bb4e78b231d0
+                            
+                    
+
+
+
+Instance: mp3da56d21dbca77ac4fb1bb4e78b231d0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Revinty Ellipta 92 micrograms/22 micrograms inhalation powder, pre-dispensed"
-Description: "Revinty Ellipta 92 micrograms/22 micrograms inhalation powder, pre-dispensed"
+Title: "Medicinal Product revinty"
+Description: "revinty"
 Usage: #inline
 
  
@@ -454,7 +1064,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Revinty Ellipta 92 micrograms/22 micrograms inhalation powder, pre-dispensed"
+  * productName = "revinty"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -481,29 +1091,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3da56d21dbca77ac4fb1bb4e78b231d0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for revinty Package Leaflet for language en"
-Description: "ePI document Bundle for revinty Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3da56d21dbca77ac4fb1bb4e78b231d0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/929/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "revinty"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3da56d21dbca77ac4fb1bb4e78b231d0"
-* entry[0].resource = composition-en-3da56d21dbca77ac4fb1bb4e78b231d0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2d71420fe71575cbc06cda8f13b204e9"
-* entry[=].resource = mp2d71420fe71575cbc06cda8f13b204e9
-                            
-                      
+* title = "List of all ePIs associated with revinty"
+
+* subject = Reference(mp2d71420fe71575cbc06cda8f13b204e9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#revinty "revinty"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3da56d21dbca77ac4fb1bb4e78b231d0) // revinty en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3da56d21dbca77ac4fb1bb4e78b231d0) // revinty da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3da56d21dbca77ac4fb1bb4e78b231d0
+InstanceOf: List
+
+* insert 3da56d21dbca77ac4fb1bb4e78b231d0ListRuleset
+    

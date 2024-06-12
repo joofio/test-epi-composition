@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-802da6d86549eecc6e51c1bae9cf0471
 InstanceOf: CompositionUvEpi
 Title: "Composition for yellox Package Leaflet"
@@ -237,12 +240,310 @@ Germany </p>
 
 
 
+Instance: composition-da-802da6d86549eecc6e51c1bae9cf0471
+InstanceOf: CompositionUvEpi
+Title: "Composition for yellox Package Leaflet"
+Description:  "Composition for yellox Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd8095caef6f374e84a2926eadaf6798b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd8095caef6f374e84a2926eadaf6798b
+* title = "TEST PURPOSES ONLY - yellox"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Yellox 
+3. Sådan skal du bruge Yellox 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What yellox is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What yellox is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yellox indeholder bromfenac og tilhører en gruppe lægemidler, der kaldes non-steroide anti-
+inflammatoriske lægemidler (NSAID’er). Det virker ved at blokere visse stoffer, der er involveret i 
+udviklingen af betændelsen.<br />
+Yellox bruges til at reducere øjenbetændelse efter kataraktoperation hos voksne. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take yellox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take yellox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Yellox<br />
+- Hvis du er allergisk over for bromfenac eller et af de øvrige indholdsstoffer i Yellox (angivet i 
+afsnit 6).<br />
+- Hvis du haft astma, hudallergi eller intens betændelse i næsen ved brug af andre NSAID’er. 
+Eksempler på NSAID’er er: acetylsalicylsyre, ibuprofen, ketoprofen, diclofenac.  </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du bruger dette lægemiddel 
+- Hvis du bruger topiske steroider (f.eks. kortison), da det kan medføre uønskede bivirkninger.<br />
+- Hvis du har blødningsproblemer (f.eks. hæmofili), eller har haft det tidligere, eller hvis du tager 
+anden medicin, som kan forlænge blødningstiden (f.eks. warfarin, clopidogrel, 
+acetylsalicylsyre). 
+- Hvis du har øjenproblemer (f.eks. tørre øjne, problemer med hornhinden). 
+- Hvis du har diabetes. 
+- Hvis du har rheumatoid arthritis (leddegigt). 
+- Hvis du har fået gentagne øjenoperationer inden for et kort tidsrum. </p>
+<p>Det frarådes at bruge kontaktlinser efter en kataraktoperation. Derfor må du ikke bruge kontaktlinser 
+mens du bruger Yellox. </p>
+<p>Børn og unge 
+Yellox bør ikke anvendes til børn og unge. </p>
+<p>Brug af anden medicin sammen med Yellox 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at ta anden medicin.  </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. 
+Yellox bør ikke bruges i de sidste tre måneder af graviditeten. Lægen kan dog ordinere dette 
+lægemiddel til en gravid kvinde, hvis den forventede fordel for moderen opvejer den mulige risiko for 
+barnet. Yellox kan ordineres til kvinder, der ammer, og det har ingen vigtig indflydelse på 
+frugtbarheden. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dit syn kan blive sløret i et kort tidsrum efter brug af disse øjendråber. Hvis du oplever sløret syn efter 
+inddrypning af Yellox, må du ikke føre motorkøretøjer eller betjene maskiner, før dit syn er klart. </p>
+<p>Yellox indeholder benzalkoniumchlorid 
+Dette lægemiddel indeholder 0,00185 mg benzalkoniumchlorid pr. dråbe, svarende til 0,05 mg/ml.<br />
+Benzalkoniumchlorid kan absorberes af bløde kontaktlinser og kan ændre farven af kontaktlinserne. 
+Du skal tage kontaktlinserne ud, inden lægemidlet bruges, og vente mindst 15 minutter, før du sætter 
+kontaktlinserne i igen. 
+Benzalkoniumchlorid kan også give øjenirritation, især hvis du har tørre øjne eller problemer med 
+hornhinderne (det klare lag forrest i øjet). Hvis du har unormale fornemmelser i øjet såsom svie eller 
+smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take yellox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take yellox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.  </p>
+<p>Dosis  </p>
+<p>Den anbefalede dosis er én dråbe Yellox i det/de opererede øje/øjne to gange daglig (morgen og 
+aften). Brug ikke mere end én dråbe i det/de opererede øje/øjne 2 gange daglig. Begynd med at bruge 
+dråberne dagen efter din kataraktoperation.  </p>
+<p>Administration (indgivelse) 
+Yellox er til okulær brug (i øjnene). </p>
+<ul>
+<li>Vask hænderne inden du bruger øjendråberne. </li>
+<li>Find en bekvem og stabil position. </li>
+<li>Drej flaskehætten og åbn den. </li>
+<li>Vend flasken nedad og hold den mellem tommelfingeren og fingrene. </li>
+<li>Bøj hovedet bagover. </li>
+<li>Træk ned i det nederste øjenlåg med en ren finger. </li>
+<li>
+<p>Før flaskespidsen tæt mod øjet. </p>
+</li>
+<li>
+<p>Undgå at berøre øjet eller øjenlåget, de omgivende områder eller andre overflader med 
+dråbetælleren. </p>
+</li>
+<li>Tryk forsigtigt på flasken, så der frigives én dråbe Yellox. </li>
+<li>Luk flaskehætten godt straks efter brug. </li>
+<li>Flasken skal opbevares tæt tillukket, når den ikke er i brug. </li>
+</ul>
+<p>Vent mindst fem minutter mellem brug af Yellox og andre dråber, hvis du bruger andre øjendråber.  </p>
+<p>Behandlingsvarighed 
+Fortsæt med øjendråberne i de første 2 uger efter operationen. Brug ikke Yellox længere end 2 uger. </p>
+<p>Hvis du har brugt for meget Yellox 
+Skyl øjet med varmt vand. Anvend ikke flere dråber, før det er tid for den næste sædvanlige dosis. 
+Hvis Yellox synkes ved et uheld, skal der indtages et glas vand eller anden væske for at fortynde 
+medicinen. </p>
+<p>Hvis du har glemt at bruge Yellox 
+Brug en enkelt dosis, så snart du kommer i tanke om det. Hvis det næsten er tid til den næste dosis, 
+skal du springe den glemte dosis over. Fortsæt med den næste sædvanlige planlagte dosis. Du må ikke 
+bruge en dobbeltdosis som erstatning for den glemte dosis.  </p>
+<p>Hvis du holder op med at bruge Yellox 
+Du må ikke holde op med at bruge Yellox uden at tale med din læge. </p>
+<p>I sjældne tilfælde er der ved behandlingsophør med Yellox blevet observeret en opblussen af det 
+inflammatoriske respons, f.eks. i form af hævelse af nethinden, efter operation for grå stær. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Kontakt 
+din læge øjeblikkeligt, hvis du får nedsat eller sløret syn ugen efter behandlingens afslutning. </p>
+<p>Kontakt straks din læge, hvis du bemærker en af følgende bivirkninger, mens du bruger øjendråberne. </p>
+<p>Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 personer) 
+Følelse af at have et fremmedlegeme i øjet, rødme og betændelse i øjet, skade og betændelse i øjets 
+overflade, pus i øjet, kløe, irritation eller smerte i øjet, hævelse eller blødning i øjenlåget, nedsat syn 
+pga. betændelse, flydere eller bevægende pletter for øjnene eller nedsat syn, der kan være tegn på 
+blødning eller skade på øjets bagside (retina), ubehag i øjet, lysoverfølsomhed, nedsat eller sløret syn, 
+hævelse af ansigtet, hoste, næseblødning eller løbende næse. </p>
+<p>Sjældne bivirkninger (kan påvirke op til 1 ud af 1.000 personer)<br />
+Skade på øjets overflade, rødme i øjet, astma. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V.  </p>
+<p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
+af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store yellox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store yellox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter "EXP". Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p>
+<p>Kasser flasken 4 uger efter første åbning for at forebygge infektion, også selvom opløsningen ikke er 
+opbrugt. 
+Skriv datoen for åbning af kartonetiketten i det dertil beregnede område. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yellox indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: bromfenac. En ml opløsning indeholder 0,9 mg bromfenac (i form af 
+natriumsesquihydrat). En dråbe indeholder ca. 33 mikrogram bromfenac. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: borsyre, borax, vandfrit natriumsulfit (E221), benzalkoniumchlorid (se 
+afsnit 2), tyloxapol, povidon (K30), dinatriumedetat, vand til injektion, natriumhydroxid (for at 
+holde syreniveauerne normale). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Yellox er en klar gul væske (opløsning), der leveres i en pakning med én 5 ml plasticflaske med 
+skruelåg.  </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+BAUSCH + LOMB IRELAND LIMITED 
+3013 Lake Drive 
+Citywest Business Campus 
+Dublin 24, D24PPT3 
+Irland </p>
+<p>Fremstiller 
+Dr. Gerhard Mann 
+Chem.-pharm. Fabrik GmbH 
+Brunbütteler Damm 165/13581 Berlin 
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om Yellox på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-802da6d86549eecc6e51c1bae9cf0471
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yellox Package Leaflet for language en"
+Description: "ePI document Bundle for yellox Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-802da6d86549eecc6e51c1bae9cf0471"
+* entry[0].resource = composition-en-802da6d86549eecc6e51c1bae9cf0471
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp802da6d86549eecc6e51c1bae9cf0471"
+* entry[=].resource = mp802da6d86549eecc6e51c1bae9cf0471
+                            
+                    
+Instance: bundlepackageleaflet-da-802da6d86549eecc6e51c1bae9cf0471
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yellox Package Leaflet for language da"
+Description: "ePI document Bundle for yellox Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-802da6d86549eecc6e51c1bae9cf0471"
+* entry[0].resource = composition-da-802da6d86549eecc6e51c1bae9cf0471
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp802da6d86549eecc6e51c1bae9cf0471"
+* entry[=].resource = mp802da6d86549eecc6e51c1bae9cf0471
+                            
+                    
+
+
+
+Instance: mp802da6d86549eecc6e51c1bae9cf0471
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Yellox 0.9 mg/ml eye drops solution"
-Description: "Yellox 0.9 mg/ml eye drops solution"
+Title: "Medicinal Product yellox"
+Description: "yellox"
 Usage: #inline
 
  
@@ -262,7 +563,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Yellox 0.9 mg/ml eye drops solution"
+  * productName = "yellox"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -289,29 +590,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-802da6d86549eecc6e51c1bae9cf0471
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for yellox Package Leaflet for language en"
-Description: "ePI document Bundle for yellox Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 802da6d86549eecc6e51c1bae9cf0471ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/692/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "yellox"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-802da6d86549eecc6e51c1bae9cf0471"
-* entry[0].resource = composition-en-802da6d86549eecc6e51c1bae9cf0471
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd8095caef6f374e84a2926eadaf6798b"
-* entry[=].resource = mpd8095caef6f374e84a2926eadaf6798b
-                            
-                      
+* title = "List of all ePIs associated with yellox"
+
+* subject = Reference(mpd8095caef6f374e84a2926eadaf6798b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#yellox "yellox"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-802da6d86549eecc6e51c1bae9cf0471) // yellox en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-802da6d86549eecc6e51c1bae9cf0471) // yellox da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-802da6d86549eecc6e51c1bae9cf0471
+InstanceOf: List
+
+* insert 802da6d86549eecc6e51c1bae9cf0471ListRuleset
+    

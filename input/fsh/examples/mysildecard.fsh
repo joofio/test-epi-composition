@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9585e706c3b3ccee22d99123d376fe07
 InstanceOf: CompositionUvEpi
 Title: "Composition for mysildecard Package Leaflet"
@@ -357,12 +360,461 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-9585e706c3b3ccee22d99123d376fe07
+InstanceOf: CompositionUvEpi
+Title: "Composition for mysildecard Package Leaflet"
+Description:  "Composition for mysildecard Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp414a5a7401bb44c5e352c1df87c04c50)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp414a5a7401bb44c5e352c1df87c04c50
+* title = "TEST PURPOSES ONLY - mysildecard"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Mysildecard </li>
+<li>Sådan skal De tage Mysildecard </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What mysildecard is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What mysildecard is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mysildecard indeholder sildenafil, der hører til en gruppe af lægemidler, som kaldes 
+fosfodiesterase-type 5- (PDE5)-hæmmere.  </p>
+<p>Mysildecard nedsætter blodtrykket i lungerne ved at udvide blodkarrene i lungerne.  </p>
+<p>Mysildecard anvendes til at behandle voksne, børn og unge fra 1-17 år med for højt blodtryk i 
+blodkarrene i lungerne (pulmonal arteriel hypertension).  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take mysildecard"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take mysildecard"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Mysildecard 
+ 
+hvis De er allergisk over for sildenafil eller et af de øvrige indholdsstoffer i Mysildecard 
+(angivet i afsnit 6). 
+ 
+hvis De tager medicin, som indeholder nitrater eller nitrogenoxiddonorer som amylnitrit 
+(“poppers"). Denne type medicin gives ofte til lindring af smerter i brystet (eller “angina 
+pectoris"). Mysildecard kan øge disse præparaters virkning i uønsket, alvorlig grad. Fortæl 
+Deres læge, hvis De tager nogle af disse præparater. Er De usikker, så spørg lægen eller på 
+apoteket.<br />
+ 
+hvis De tager riociguat. Dette lægemiddel bruges til at behandle pulmonal arteriel hypertension 
+(højt blodtryk i lungerne) og kronisk tromboembolisk pulmonal hypertension (højt blodtryk i 
+lungerne som følge af blodpropper). PDE5-hæmmere, så som sildenafil, har vist sig at øge den 
+blodtrykssænkende virkning af denne medicin. Tal med Deres læge hvis De tager riociguat eller 
+er usikker. 
+ 
+hvis De for nylig har haft et slagtilfælde, eller et hjerteanfald, eller hvis De har svær 
+leversygdom eller meget lavt blodtryk (&lt;90/50 mmHg). </p>
+<p> 
+hvis De tager medicin til behandling af svampeinfektioner som f.eks. ketoconazol eller 
+itraconazol eller medicin som indeholder ritonavir (mod hiv). 
+ 
+hvis De på noget tidspunkt tidligere har haft tab af synet på grund af problemer med 
+blodtilførslen til nerven i øjet, tilstanden kaldes non-arteritis anterior iskæmisk opticusneuropati 
+(NAION). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før De tager Mysildecard, hvis De </p>
+<p> 
+har sygdom forårsaget af blokeret eller forsnævret vene i lungerne og ikke en blokeret eller 
+forsnævret arterie. 
+ 
+har et alvorligt hjerteproblem. 
+ 
+har problemer med, at hjertekamrene ikke pumper normalt. 
+ 
+har for højt blodtryk i blodkarrene i lungerne. 
+ 
+har lavt blodtryk i hvile. 
+ 
+har mistet store mængder væske (dehydrering), dette kan ske, hvis De sveder meget, eller hvis 
+De ikke drikker nok væske. Det kan ske, hvis De er syg med feber, kaster op eller har diarré. 
+ 
+har en sjælden, arvelig øjensygdom (retinitis pigmentosa).<br />
+ 
+har unormale røde blodlegemer (seglcelleanæmi), blodkræft (leukæmi), knoglemarvskræft 
+(myelomatose/multipelt myelom) 
+ 
+har en hvilken som helst sygdom eller deformitet af penis. 
+ 
+for tiden har mavesår eller har blødningsforstyrrelse (som f.eks. hæmofili) eller hyppigt får 
+næseblod. 
+ 
+tager medicin for impotens (erektil dysfunktion). </p>
+<p>Når PDE5-hæmmere, herunder sildenafil, anvendes til behandling af rejsningsproblemer hos mænd, er 
+der med ukendt hyppighed set bivirkninger, der påvirker synet: delvist, pludseligt, midlertidigt eller 
+permanent nedsat syn eller synstab på det ene eller begge øjne. </p>
+<p>Hvis De oplever pludseligt nedsat syn eller synstab, skal De stoppe med at tage Mysildecard og 
+straks kontakte Deres læge (se også afsnit 4). </p>
+<p>Vedvarende og nogle gange smertefulde erektioner er set hos mænd efter indtagelse af sildenafil. Hvis 
+De får erektion, som varer længere end 4 timer, skal De stoppe med at tage Mysildecard og straks 
+kontakte Deres læge (se også afsnit 4).  </p>
+<p>Særlige hensyn i forbindelse med patienter med nyre- eller leverproblemer 
+Fortæl lægen, hvis De har nyre- eller leverproblemer, da dosis måske skal justeres.  </p>
+<p>Børn 
+Mysildecard bør ikke gives til børn under 1 år. </p>
+<p>Brug af anden medicin sammen med Mysildecard 
+Fortæl altid lægen eller apotekspersonalet, hvis De bruger anden medicin eller har gjort det for nylig.   </p>
+<p> 
+medicin der indeholder nitrater eller såkaldte nitrogenoxiddonorer som f.eks. amylnitrit 
+(“poppers"). Denne type medicin bruges ofte til lindring af angina pectoris eller “brystsmerter" 
+(se afsnit 2 Før De tager Mysildecard). 
+ 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du allerede tager medicin der indeholder 
+riociguat (se afsnit 2). 
+ 
+behandling af pulmonal hypertension (f.eks. bosentan eller iloprost). 
+ 
+medicin, der indeholder perikon (naturmedicin), rifampicin (mod tuberkulose), carbamazepin, 
+phenytoin og phenobarbital (bruges bl.a. til behandling af epilepsi). 
+ 
+blodfortyndende medicin (f.eks. warfarin), selv om det ikke resulterede i bivirkninger. </p>
+<p> 
+medicin, der indeholder erythromycin, clarithromycin, telithromycin (antibiotika til at behandle 
+visse typer bakterieinfektioner), saquinavir (mod hiv) eller nefazodon (mod depression), da 
+dosis måske skal justeres. 
+ 
+alfa-blokker (f.eks. doxazosin) til behandling af for højt blodtryk eller vandladningsbesvær ved 
+forstørret blærehalskirtel (prostata), da kombination af disse to lægemidler kan give symptomer 
+på grund af blodtryksnedsættelse (f.eks. svimmelhed). 
+ 
+medicin, der indeholder sacubitril/valsartan, som bruges til behandling af hjertesvigt. </p>
+<p>Brug af Mysildecard sammen med mad og drikke 
+De må ikke drikke grapefrugtjuice, mens De er i behandling med Mysildecard. </p>
+<p>Graviditet og amning 
+Hvis De er gravid eller ammer, eller planlægger at blive gravid, skal De spørge Deres læge til råds, før 
+De tager Mysildecard. Mysildecard må kun anvendes under graviditet, hvis det er strengt nødvendigt. 
+Mysildecard må ikke gives til kvinder i den fødedygtige alder, medmindre der anvendes sikker 
+prævention. 
+Mysildecard udskilles i modermælken i meget små mængder og forventes ikke at skade barnet.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Mysildecard kan give svimmelhed og kan påvirke synet. Vær opmærksom på, hvordan De reagerer på 
+medicinen, inden bilkørsel eller betjening af maskiner. </p>
+<p>Mysildecard indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take mysildecard"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take mysildecard"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Mysildecard nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller på apoteket.  </p>
+<p>Til voksne er den sædvanlige dosis 20 mg 3 gange dagligt (taget med 6-8 timers mellemrum). 
+Tabletten tages sammen med eller uden mad. </p>
+<p>Brug til børn og unge 
+Den anbefalede dosis til børn og unge i alderen 1-17 år er 10 mg 3 gange dagligt ved legemsvægt 
+20 kg eller derunder og 20 mg 3 gange dagligt ved legemsvægt over 20 kg. Mysildecard kan tages 
+sammen med eller uden mad. Der må ikke anvendes højere doser til børn. Denne medicin må kun 
+anvendes i de tilfælde, hvor dosis er 20 mg 3 gange dagligt. Andre lægemiddelformer kan være bedre 
+egnet til patienter ved legemsvægt 20 kg eller derunder og yngre patienter som ikke kan synke 
+tabletter.  </p>
+<p>Hvis De har taget for meget Mysildecard 
+De må ikke tage mere medicin, end Deres læge har foreskrevet. 
+Kontakt straks lægen, hvis De tager mere medicin, end lægen har foreskrevet. Hvis De tager mere 
+Mysildecard, end De skal, kan det øge risikoen for bivirkninger. </p>
+<p>Hvis De har glemt at tage Mysildecard 
+Hvis De glemmer at tage Mysildecard, så tag en dosis, så snart De kommer i tanke om det, og fortsæt 
+så med at tage Deres medicin til den sædvanlige tid. De må ikke tage en dobbeltdosis som erstatning 
+for den glemte dosis. </p>
+<p>Hvis De holder op med at tage Mysildecard 
+Hvis De pludseligt stopper med at tage Mysildecard, kan Deres symptomer blive forværret. Stop ikke 
+med at tage Mysildecard, medmindre det sker i samråd med lægen. Lægen vil bede Dem om at 
+nedsætte dosis over nogle få dage, førend De standser behandlingen fuldstændigt. </p>
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis De oplever en af følgende bivirkninger, skal De stoppe med at tage Mysildecard og straks søge 
+læge (se også afsnit 2):</p>
+<ul>
+<li>pludseligt nedsat syn eller synstab (hyppighed er ukendt) </li>
+<li>erektion, som varer uafbrudt i mere end 4 timer. Vedvarende og til tider smertefuld erektion er 
+set hos mænd efter indtagelse af sildenafil (hyppighed er ukendt). </li>
+</ul>
+<p>Voksne 
+Meget almindelige bivirkninger (det sker hos flere end 1 ud af 10 patienter) er hovedpine, rødmen i 
+ansigtet, mavebesvær, diarré og smerter i arme og ben. </p>
+<p>Almindelige bivirkninger (det sker hos mellem 1 og 10 patienter) er: Infektion under huden, 
+influenzalignende symptomer, bihulebetændelse, nedsat antal røde blodlegemer (blodmangel), 
+væskeansamling, søvnbesvær, angst, migræne, rysten, prikkende og stikkende fornemmelse, 
+brændende fornemmelse, nedsat følesans, blødning bag i øjet, påvirkning af synet, sløret syn og 
+lysfølsom, ændret farvesyn, øjenirritation, blodsprængte øjne/røde øjne, svimmelhed, bronkitis, 
+næseblod, løbende næse, hoste, tilstoppet næse, mavekatar, maveonde, hjertebanken, hæmorroider, 
+oppustet mave, mundtørhed, hårtab, rødmen af huden, svedtendens om natten, muskelsmerter, 
+rygsmerter, forhøjet legemstemperatur.  </p>
+<p>Ikke almindelige bivirkninger (det sker hos mellem 1 og 10 ud af 100 patienter) omfatter: nedsat 
+skarpsyn, dobbeltsyn, unormal følelse i øjet, blødning fra penis, blod i sæden og/eller urinen samt 
+forstørrelse af brysterne hos mænd. </p>
+<p>Hududslæt og pludselig hørenedsættelse eller døvhed og for lavt blodtryk er også set (hyppighed er 
+ukendt, kan ikke vurderes ud fra tilgængelige data). </p>
+<p>Børn og unge 
+Følgende alvorlige bivirkninger er almindelige (det sker hos mellem 1 og 10 patienter): 
+lungebetændelse, hjertesvigt, højresidigt hjertesvigt, shock pga. hjerteproblemer, højt blodtryk i 
+lungerne, smerter i brystet, besvimelse, infektion i luftvejene, bronkitis, virusinfektion i maven og 
+tarmen, urinvejsinfektion og huller i tænderne. </p>
+<p>Følgende alvorlige bivirkninger betragtes som forbundet med behandlingen og er ikke almindelige 
+(det sker hos mellem 1 og 10 ud af 100 patienter): allergisk reaktion (såsom hududslæt, hævelser i 
+ansigt, læber og tunge, hvæsende vejrtrækning, åndedrætsbesvær og synkebesvær), kramper, 
+uregelmæssig puls, nedsat hørelse, åndenød, betændelseslignende reaktion i mave-tarmkanalen og 
+hvæsende vejrtrækning pga. blokering af luftvejene. </p>
+<p>Meget almindelige bivirkninger (det sker hos flere end 1 ud af 10 patienter): hovedpine, opkastning, 
+halsbetændelse, feber, diarré, influenza og næseblod. </p>
+<p>Almindelige bivirkninger (det sker hos mellem 1 og 10 patienter): kvalme, hyppigere, forlænget eller 
+kraftigere erektion, herunder spontan erektion, lungebetændelse og løbenæse.  </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store mysildecard"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mysildecard"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen (efter EXP). Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige opbevaringsforhold. </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mysildecard indeholder 
+- Aktivt stof: sildenafil. Hver tablet indeholder 20 mg sildenafil (som citrat). 
+- Øvrige indholdsstoffer: </p>
+<p>Tabletkerne: Mikrokrystallinsk cellulose (PH 102), calciumhydrogenfosfat, 
+croscarmellosenatrium (se afsnit 2 "Mysildecard indeholder natrium") og magnesiumstearat. </p>
+<p>Filmovertræk: Hypromellose (6 mPas), titandioxid (E171) og triacetin. </p>
+<p>Udseende og pakningsstørrelse </p>
+<p>Mysildecard filmovertrukne tabletter er hvide og runde. Tabletterne er mærket M på den ene side og 
+SL over 20 på den anden side. Tabletterne findes i blistere i pakninger med 90, 300 og (90 × 1) 
+tabletter. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller: </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Viatris Limited 
+Damastown Industrial Park,<br />
+Mulhuddart, Dublin 15,<br />
+DUBLIN 
+Irland </p>
+<p>Fremstiller : 
+Mylan Hungary Kft. 
+Mylan utca 1, 
+Komárom, 
+2900, 
+Ungarn </p>
+<p>Mylan Germany GmbH 
+Zweigniederlassung Bad Homburg v. d. Hoehe, Benzstrasse 1 
+Bad Homburg v. d. Hoehe 
+Hessen, 61352,<br />
+Tyskland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Mylan bvba/sprl 
+Tél/Tel: + 32 02 658 61<br />
+Lietuva 
+UAB GL Pharma Vilnius 
+Tel: +370 5 261 0България 
+Майлан ЕООД 
+Тел.: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Mylan bvba/sprl 
+Tél/Tel: + 32 02 658 61 (Belgique/Belgien) 
+Česká republika 
+Viatris CZ s.r.o 
+Tel: + 420 222 004<br />
+Magyarország 
+Mylan EPD Kft 
+Tel.: + 36 1 465 2Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69 Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01 Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3Eesti 
+G.L. Pharma Eesti OÜ 
+Tel.: +372 50 87 Norge 
+Viatris AS 
+Tlf: + 47 66 75 33 Ελλάδα 
+Generics Pharma Hellas ΕΠΕ 
+Τηλ: +30 210 993 6Österreich 
+Arcana Arzneimittel GmbH 
+Tel: +43 1 416 2España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z.o.o. 
+Tel.: + 48 22 546 64 France 
+Substipharm 
+Tél: +33 1 43181Portugal 
+Mylan, Lda. 
+Tel: + 351 21 412 72 Hrvatska 
+Mylan Hrvatska d.o.o. 
+Tel: +385 1 23 50<br />
+România 
+Aurobindo Pharma Romania SRL 
+Tel: 004021 361 1Ireland 
+Mylan Ireland Limited 
+Tel:  +353 1 8711Slovenija 
+Mylan Healthcare d.o.o. 
+Tel: + 386 1 23 63 Ísland 
+Icepharma hf<br />
+Sími: +354 540 8000  </p>
+<p>Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199 100  </p>
+<p>Italia 
+Mylan Italia S.r.l 
+Tel: + 39 02 612 46Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9 
+Κύπρος 
+Varnavas Hadjipanayis Ltd<br />
+Τηλ: +357 2220 7 </p>
+<p>Sverige 
+Viatris AB 
+Tel: + 46 (0)8 630 19 Latvija 
+SIA G.L. Pharma Riga 
+Tel: +371 67887United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited<br />
+Tel: +353 18711600  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>De kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9585e706c3b3ccee22d99123d376fe07
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mysildecard Package Leaflet for language en"
+Description: "ePI document Bundle for mysildecard Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9585e706c3b3ccee22d99123d376fe07"
+* entry[0].resource = composition-en-9585e706c3b3ccee22d99123d376fe07
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9585e706c3b3ccee22d99123d376fe07"
+* entry[=].resource = mp9585e706c3b3ccee22d99123d376fe07
+                            
+                    
+Instance: bundlepackageleaflet-da-9585e706c3b3ccee22d99123d376fe07
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mysildecard Package Leaflet for language da"
+Description: "ePI document Bundle for mysildecard Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9585e706c3b3ccee22d99123d376fe07"
+* entry[0].resource = composition-da-9585e706c3b3ccee22d99123d376fe07
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9585e706c3b3ccee22d99123d376fe07"
+* entry[=].resource = mp9585e706c3b3ccee22d99123d376fe07
+                            
+                    
+
+
+
+Instance: mp9585e706c3b3ccee22d99123d376fe07
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Mysildecard 20 mg film-coated tablets"
-Description: "Mysildecard 20 mg film-coated tablets"
+Title: "Medicinal Product mysildecard"
+Description: "mysildecard"
 Usage: #inline
 
  
@@ -382,7 +834,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Mysildecard 20 mg film-coated tablets"
+  * productName = "mysildecard"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -409,29 +861,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9585e706c3b3ccee22d99123d376fe07
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for mysildecard Package Leaflet for language en"
-Description: "ePI document Bundle for mysildecard Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9585e706c3b3ccee22d99123d376fe07ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/16/1134/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "mysildecard"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9585e706c3b3ccee22d99123d376fe07"
-* entry[0].resource = composition-en-9585e706c3b3ccee22d99123d376fe07
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp414a5a7401bb44c5e352c1df87c04c50"
-* entry[=].resource = mp414a5a7401bb44c5e352c1df87c04c50
-                            
-                      
+* title = "List of all ePIs associated with mysildecard"
+
+* subject = Reference(mp414a5a7401bb44c5e352c1df87c04c50)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#mysildecard "mysildecard"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9585e706c3b3ccee22d99123d376fe07) // mysildecard en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9585e706c3b3ccee22d99123d376fe07) // mysildecard da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9585e706c3b3ccee22d99123d376fe07
+InstanceOf: List
+
+* insert 9585e706c3b3ccee22d99123d376fe07ListRuleset
+    

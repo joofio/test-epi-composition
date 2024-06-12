@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-4a0e2349adfb2620b1fba9cd50d81a0a
 InstanceOf: CompositionUvEpi
 Title: "Composition for koselugo Package Leaflet"
@@ -384,12 +387,539 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-4a0e2349adfb2620b1fba9cd50d81a0a
+InstanceOf: CompositionUvEpi
+Title: "Composition for koselugo Package Leaflet"
+Description:  "Composition for koselugo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2e3b72307100ad232acbcbcbf93545d3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2e3b72307100ad232acbcbcbf93545d3
+* title = "TEST PURPOSES ONLY - koselugo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Koselugo
+3. Sådan skal du tage Koselugo
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What koselugo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What koselugo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Koselugo er og hvordan det virker
+Koselugo indeholder det aktive stof selumetinib. 
+Selumetinib er en type medicin, der kaldes en MEK-hæmmer. Det virker ved at blokere visse proteiner, 
+der er involveret i væksten af tumorceller. 
+Koselugo forventes at skrumpe tumorer, der vokser langs nerver, og som kaldes plexiform neurofibromer. 
+Disse tumorer skyldes en genetisk tilstand, der kaldes neurofibromatose type 1 (NF1).
+Hvad Koselugo bruges til
+Koselugo bruges til at behandle børn på 3 år og derover med plexiform neurofibromer, som ikke kan 
+fjernes helt ved en operation.
+Hvis du har spørgsmål til, hvordan Koselugo virker, eller hvorfor denne medicin er blevet ordineret til 
+dig, skal du spørge lægen.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take koselugo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take koselugo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>35
+Tag ikke Koselugo
+
+hvis du er allergisk over for selumetinib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6)
+
+hvis du har en alvorlig leversygdom
+Hvis du er i tvivl, skal du tale med lægen, apotekspersonalet eller sygeplejersken, før du tager Koselugo.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Koselugo, samt under behandlingen:
+
+hvis du har problemer med øjnene
+
+hvis du har problemer med hjertet
+
+hvis du har problemer med leveren
+
+hvis du tager tilskud, der indeholder E-vitamin
+
+hvis du ikke kan synke kapslen i hel tilstand
+Hvis noget af det ovenstående gælder for dig (eller hvis du er i tvivl), skal du tale med lægen, 
+apotekspersonalet eller sygeplejersken, før du tager denne medicin.
+Problemer med øjnene
+Koselugo kan give problemer med øjnene (se punkt 4 "Bivirkninger"). Fortæl det straks til lægen, hvis 
+du får sløret syn, eller hvis der sker andre ændringer i dit syn under behandlingen. Lægen skal undersøge 
+dine øjne, hvis du får nye eller forværrede problemer med synet, mens du tager denne medicin.
+Problemer med hjertet
+Koselugo kan nedsætte den mængde af blod, der pumpes ud af hjertet (se punkt 4 "Bivirkninger"). Lægen 
+vil undersøge, hvor godt dit hjerte virker, før og under behandlingen med Koselugo.
+Problemer med leveren
+Koselugo kan øge mængden af nogle leverenzymer i dit blod (se punkt 4 "Bivirkninger"). Lægen vil tage 
+blodprøver før og under behandlingen for at kontrollere, hvor godt din lever fungerer.
+Tilskud af E vitamin
+Koselugo kapsler indeholder E-vitamin, der kan øge din risiko for blødning. Det betyder, at du skal 
+fortælle lægen, hvis du tager anden medicin, der øger din risiko for blødning, som for eksempel:
+
+smertestillende medicin med acetylsalicylsyre mod smerter og inflammation 
+
+blodfortyndende medicin (antikoagulerende medicin), såsom warfarin eller anden medicin, der 
+bruges til at forebygge blodpropper
+
+tilskud, der kan øge din risiko for blødning, som for eksempel E-vitamin
+Besvær med at synke kapsler
+Tal med lægen, hvis du tror, at du måske vil have besvær med at synke kapslerne hele (se punkt 3 "Sådan 
+skal du tage Koselugo").
+Problemer med hud, negle og hår
+Koselugo kan give udslæt på huden, negleinfektion eller tyndere hår eller ændringer i hårfarven (se 
+punkt 4 "Bivirkninger"). Fortæl det til lægen, hvis nogle af disse symptomer generer dig under 
+behandlingen.
+Børn under 3 år
+36
+Du må ikke give Koselugo til børn under 3 år. Det skyldes, at medicinen ikke er undersøgt hos denne 
+aldersgruppe.
+Brug af andre lægemidler sammen med Koselugo
+Fortæl lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre lægemidler
+eller planlægger at tage andre lægemidler. Dette inkluderer naturmedicin, kosttilskud og medicin, der fås 
+uden recept. 
+Koselugo kan påvirke den måde, hvorpå nogle andre lægemidler virker. Nogle andre lægemidler kan også 
+påvirke, hvordan Koselugo virker. Fortæl det til lægen, hvis du tager nogle af følgende lægemidler:
+
+clarithromycin eller erythromycin (bruges til behandling af bakterieinfektioner)
+
+carbamazepin eller phenytoin (bruges til behandling af krampeanfald og epilepsi)
+
+digoxin (bruges til behandling af hjertesvigt) 
+
+fexofenadin (bruges til behandling af symptomer på allergi) 
+
+fluconazol eller itraconazol (bruges til behandling af svampeinfektioner)
+
+ketoconazol (bruges til behandling af Cushings syndrom)
+
+furosemid (bruges til behandling af væskeophobning ved at øge mængden af urin, du udskiller)
+
+methotrexat (bruges til behandling af nogle typer kræft, psoriasis eller leddegigt)
+
+omeprazol (bruges til behandling af sure opstød og halsbrand eller mavesår)
+
+rifampicin (bruges til behandling af tuberkulose og visse andre bakterieinfektioner)
+
+perikon (Hypericum perforatum), en naturmedicin (bruges til behandling af mild depression og 
+andre tilstande)
+
+ticlopidin (bruges til at forhindre blodpropper)
+Fortæl lægen eller apotekspersonalet, hvis du tager eller for nylig har taget noget af medicinen nævnt 
+ovenfor, også selvom det ikke er ordineret af en læge.
+Brug af Koselugo sammen med mad og drikke
+Du må ikke drikke grapefrugtjuice, mens du tager Koselugo, da det kan påvirke, hvordan medicinen 
+virker.
+Graviditet - information til kvinder
+Koselugo frarådes under graviditeten. Det kan skade det ufødte barn.
+Hvis du har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge til 
+råds, før du tager dette lægemiddel. Lægen kan bede dig om at tage en graviditetstest, før du påbegynder 
+behandlingen. 
+Du må ikke blive gravid, mens du tager dette lægemiddel. Hvis du er seksuelt aktiv og kan blive gravid, 
+skal du bruge effektiv prævention. Se "Prævention - information til kvinder og mænd" nedenfor.
+Hvis du bliver gravid under behandlingen, skal du straks fortælle det til lægen.
+Graviditet - information til mænd
+Hvis din partner bliver gravid, men du tager dette lægemiddel, skal du straks fortælle det til lægen. 
+Prævention - information til kvinder og mænd
+Hvis du er seksuelt aktiv, skal du bruge effektiv prævention, mens du tager dette lægemiddel og i mindst 
+1 uge efter den sidste dosis. Det er ukendt, om Koselugo kan påvirke, hvor godt hormonel prævention 
+37
+virker. Fortæl det til lægen, hvis du tager hormonel prævention (for eksempel p-piller), da lægen kan 
+anbefale, at du bruger en ikke-hormonel præventionsmetode.
+Amning
+Du må ikke amme, mens du tager Koselugo. Det vides ikke, om Koselugo passerer over i modermælken.
+Trafik- og arbejdssikkerhed
+Koselugo kan give bivirkninger, der påvirker din evne til at køre bil eller betjene maskiner. Du må ikke 
+køre bil eller betjene maskiner, hvis du føler dig træt, eller hvis du har problemer med dit syn (for 
+eksempel sløret syn).</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take koselugo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take koselugo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.
+Så meget skal du tage
+Din læge vil udregne den korrekte dosis til dig på baggrund af din højde og vægt. Lægen vil fortælle dig, 
+hvor mange kapsler Koselugo, du skal tage.
+Din læge kan ordinere en lavere dosis, hvis du har problemer med din lever (nedsat leverfunktion).
+Din læge kan nedsætte din dosis, hvis du har visse bivirkninger, mens du tager Koselugo (se punkt 4 
+"Bivirkninger"), eller lægen kan afbryde behandlingen eller stoppe den permanent.
+Sådan tages Koselugo 
+
+Tag Koselugo to gange dagligt med cirka 12 timers mellemrum, med eller uden mad.
+
+Synk kapslerne hele med vand.
+
+Du må ikke tygge, opløse eller åbne kapslerne.
+
+Hvis du har, eller synes, du har svært ved at synke kapsler i hel tilstand, skal du tale med lægen, 
+inden du starter.<br />
+Hvis du kaster op
+Hvis du på noget tidspunkt kaster op efter indtagelse af Koselugo, må du ikke tage en ekstra dosis. Tag 
+den næste dosis på det normale tidspunkt.
+Hvis du har taget for meget Koselugo
+Kontakt straks lægen eller apotekspersonalet, hvis du har taget mere Koselugo, end du skulle.
+Hvis du har glemt at tage Koselugo
+Hvad du skal gøre, hvis du glemmer at tage en dosis Koselugo, afhænger af hvor lang tid, der er til din 
+næste dosis.
+
+Hvis der er mere end 6 timer til din næste dosis, skal du tage den glemte dosis. Tag derefter den 
+næste dosis på det normale tidspunkt.
+
+Hvis der er mindre end 6 timer til din næste dosis, skal du springe den glemte dosis over. Tag 
+derefter den næste dosis på det normale tidspunkt.
+Du må ikke tage en dobbeltdosis (to doser på samme tid) som erstatning for den glemte dosis.
+38
+Hvis du holder op med at tage Koselugo
+Du må ikke stoppe med at tage Koselugo, medmindre lægen beder dig om det.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Mulige alvorlige bivirkninger
+Problemer med øjnene (synet) 
+Koselugo kan forårsage problemer med øjnene. Fortæl det straks til lægen, hvis du får sløret syn (en 
+meget almindelig bivirkning, der kan forekomme hos flere end 1 af 10 personer) eller andre forandringer i 
+synet under behandlingen. Lægen kan bede dig om at stoppe med at tage denne medicin eller henvise dig 
+til en specialist, hvis du udvikler symptomer, der omfatter:
+
+sløret syn
+
+synstab
+
+mørke pletter i synsfeltet (fluer)
+
+andre forandringer i synet (såsom nedsat syn)
+Fortæl det straks til lægen, hvis du bemærker en eller flere af de alvorlige bivirkninger, der er nævnt 
+ovenfor.
+Andre bivirkninger
+Fortæl det til lægen eller apotekspersonalet, hvis du bemærker en eller flere af følgende bivirkninger: 
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer)
+
+opkastning, kvalme
+
+diarré
+
+betændelse i munden (stomatitis)
+
+problemer med hud og negle - tegnene kan omfatte tør hud, udslæt, rødme omkring fingerneglene
+
+hårtab (alopeci), ændret hårfarve
+
+træthed, svaghed eller manglende energi
+
+feber (pyreksi)
+
+hævelse af hænder eller fødder (perifert ødem)
+
+let nedsat evne til at pumpe blod ud af hjertet (nedsat ejektionsfraktion) - tegnene kan omfatte 
+åndenød eller hævelse i ben, ankler og fødder
+
+forhøjet blodtryk (hypertension)
+
+nedsat albuminniveau, et essentielt protein i blodet (kan ses i blodprøver)
+
+nedsat hæmoglobin, det iltbærende protein i røde blodlegemer (kan ses i blodprøver)
+
+forhøjet antal enzymer (kan ses i blodprøver), hvilket tyder på belastning af leveren, nyreskade 
+eller muskelnedbrydning
+Almindelig (kan forekomme hos op til 1 ud af 10 personer)
+
+tør mund
+
+hævelse af ansigtet (ansigtsødem)
+
+kortåndethed (dyspnø)
+Indberetning af bivirkninger
+39
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store koselugo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store koselugo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på flasken og æsken efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned.
+Må ikke opbevares ved temperaturer over 30 °C.
+Opbevares i den originale flaske for at beskytte mod fugt og lys.
+Hold flasken tæt lukket. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Koselugo indeholder:</h2>
+<p>Aktivt stof: selumetinib. Hver Koselugo 10 mg hård kapsel indeholder 10 mg selumetinib (som 
+hydrogensulfat). Hver Koselugo 25 mg hård kapsel indeholder 25 mg selumetinib (som 
+hydrogensulfat).
+-
+Øvrige indholdsstoffer i Koselugo 10 mg hårde kapsler er:
+
+kapselfyld: E-vitamin polyethylenglycolsuccinat (D α-tocopheryl polyethylenglycolsuccinat).
+
+kapselskal: hypromellose (E464), carrageenan (E407), kaliumchlorid (E508), titandioxid (E171), 
+carnaubavoks (E903).
+
+prægeblæk: shellac standard (E904), sort jernoxid (E172), propylenglycol (E1520) 
+ammoniumhydroxid (E527).
+Øvrige indholdsstoffer i Koselugo 25 mg hårde kapsler er:
+
+kapselfyld: E-vitamin polyethylenglycolsuccinat (D α-tocopheryl polyethylenglycosuccinate).
+
+kapselskal: hypromellose (E464), carrageenan (E407), kaliumchlorid (E508), titandioxid (E171), 
+indigotin aluminium lake (E132), gul jernoxid (E172), carnaubavoks (E903), majsstivelse.
+
+prægeblæk: rød jernoxid (E172), gul jernoxid (E172), indigotin aluminium lake (E132), 
+carnaubavoks (E903), shellac, standard (E904), glycerylmonooleat.
+Udseende og pakningsstørrelser
+Koselugo 10 mg hård kapsel er en hvid til offwhite, uigennemsigtig, hård kapsel, som har et midterbånd 
+og er markeret med “SEL 10" med sort blæk.
+Koselugo 25 mg hård kapsel er en blå, uigennemsigtig, hård kapsel, som har et midterbånd og er markeret 
+med “SEL 25" i sort blæk.
+40
+Koselugo leveres i hvide plastflasker, som er lukket med et hvidt (10 mg) eller blåt (25 mg) børnesikret 
+låg, og indeholder 60 hårde kapsler og et silicagel-tørremiddel. Tørremidlet må ikke fjernes fra flasken, 
+og det må ikke indtages.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+AstraZeneca AB
+Karlebyhusentrén Astraallén
+SE-152 57 Södertälje
+Sverige
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Alexion Pharma Belgium
+Tel: +32 800 200 31
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+Alexion Pharma Belgium
+Tél/Tel: +32 800 200 31
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+Alexion Pharma Spain, S.L.
+Tel: +34 93 272 30 05
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+41
+France
+Alexion Pharma France SAS
+Tél: +33 1 47 32 36 21
+Portugal
+Alexion Pharma Spain, S.L. - Sucursal em 
+Portugal
+Tel: +34 93 272 30 05
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) 
+DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+Alexion Pharma Italy srl
+Tel: +39 02 7767 9211
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Dette lægemiddel er godkendt under "betingede omstændigheder". Det betyder, at der forventes 
+yderligere dokumentation for lægemidlet. Det Europæiske Lægemiddelagentur vil mindst en gang om året 
+vurdere nye oplysninger om lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-4a0e2349adfb2620b1fba9cd50d81a0a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for koselugo Package Leaflet for language en"
+Description: "ePI document Bundle for koselugo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4a0e2349adfb2620b1fba9cd50d81a0a"
+* entry[0].resource = composition-en-4a0e2349adfb2620b1fba9cd50d81a0a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4a0e2349adfb2620b1fba9cd50d81a0a"
+* entry[=].resource = mp4a0e2349adfb2620b1fba9cd50d81a0a
+                            
+                    
+Instance: bundlepackageleaflet-da-4a0e2349adfb2620b1fba9cd50d81a0a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for koselugo Package Leaflet for language da"
+Description: "ePI document Bundle for koselugo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-4a0e2349adfb2620b1fba9cd50d81a0a"
+* entry[0].resource = composition-da-4a0e2349adfb2620b1fba9cd50d81a0a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4a0e2349adfb2620b1fba9cd50d81a0a"
+* entry[=].resource = mp4a0e2349adfb2620b1fba9cd50d81a0a
+                            
+                    
+
+
+
+Instance: mp4a0e2349adfb2620b1fba9cd50d81a0a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Koselugo 10 mg hard capsules"
-Description: "Koselugo 10 mg hard capsules"
+Title: "Medicinal Product koselugo"
+Description: "koselugo"
 Usage: #inline
 
  
@@ -409,7 +939,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Koselugo 10 mg hard capsules"
+  * productName = "koselugo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -436,29 +966,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-4a0e2349adfb2620b1fba9cd50d81a0a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for koselugo Package Leaflet for language en"
-Description: "ePI document Bundle for koselugo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 4a0e2349adfb2620b1fba9cd50d81a0aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1552/001 10 mg hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "koselugo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-4a0e2349adfb2620b1fba9cd50d81a0a"
-* entry[0].resource = composition-en-4a0e2349adfb2620b1fba9cd50d81a0a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2e3b72307100ad232acbcbcbf93545d3"
-* entry[=].resource = mp2e3b72307100ad232acbcbcbf93545d3
-                            
-                      
+* title = "List of all ePIs associated with koselugo"
+
+* subject = Reference(mp2e3b72307100ad232acbcbcbf93545d3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#koselugo "koselugo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-4a0e2349adfb2620b1fba9cd50d81a0a) // koselugo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-4a0e2349adfb2620b1fba9cd50d81a0a) // koselugo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-4a0e2349adfb2620b1fba9cd50d81a0a
+InstanceOf: List
+
+* insert 4a0e2349adfb2620b1fba9cd50d81a0aListRuleset
+    

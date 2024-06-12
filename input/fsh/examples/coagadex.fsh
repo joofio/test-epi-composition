@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-acef8cbcdfca211b39877dbdf094e7e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for coagadex Package Leaflet"
@@ -441,12 +444,543 @@ United Kingdom </p>
 
 
 
+Instance: composition-da-acef8cbcdfca211b39877dbdf094e7e6
+InstanceOf: CompositionUvEpi
+Title: "Composition for coagadex Package Leaflet"
+Description:  "Composition for coagadex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp10bd167afc53bad0ebe6f2f458a35915)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp10bd167afc53bad0ebe6f2f458a35915
+* title = "TEST PURPOSES ONLY - coagadex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at bruge Coagadex<br />
+3. Sådan skal du bruge Coagadex 
+4. Bivirkninger<br />
+5. Opbevaring af Coagadex<br />
+6. Pakningsstørrelse og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What coagadex is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What coagadex is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Coagadex er et koncentrat af human koagulationsfaktor X, et protein, der kræves for at blod kan størkne. 
+Faktor X i Coagadex udvindes af humant plasma (den flydende del af blodet). Det anvendes til at 
+behandle og forebygge blødninger hos patienter med arvelig faktor X-mangel, bl.a. under operation.  </p>
+<p>Patienter med faktor X-mangel har ikke tilstrækkelig faktor X i deres blod til, at det kan størkne rigtigt, 
+hvilket fører til overdrevet blødning. Coagadex erstatter den manglende faktor X og gør, at blodet 
+størkner normalt. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take coagadex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take coagadex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Coagadex:</p>
+<ul>
+<li>hvis du er allergisk over for human koagulationsfaktor X eller et af de øvrige indholdsstoffer i 
+dette lægemiddel (angivet i afsnit 6).<br />
+Spørg din læge, hvis du mener, at dette gælder for dig. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Coagadex:</p>
+<ul>
+<li>hvis du har større eller længere blødning end normalt, og blødningen ikke stopper efter injektion af 
+Coagadex. </li>
+<li>hvis du tager medicin til forebyggelse af blodpropper, som virker ved at blokere faktor Xa. Denne 
+medicin kan forhindre Coagadex i at virke. </li>
+</ul>
+<p>Nogle patienter med faktor X-mangel kan udvikle hæmmere (immunstoffer) over for faktor X under 
+behandling. Dette kan betyde, at behandlingen ikke virker efter hensigten. Lægen vil regelmæssigt 
+kontrollere udviklingen af disse immunstoffer – særligt før en operation. Din læge vil sikkert, både før 
+og efter behandling med dette lægemiddel, – særligt ved dit første behandlingsforløb – udføre tests for 
+at kontrollere koncentrationen af faktor X i dit blod. </p>
+<p>Virussikkerhed 
+Når lægemidler fremstilles af humant blod eller plasma, tages der visse forholdsregler for at forhindre, 
+at infektioner overføres til modtageren. Disse omfatter: </p>
+<p>– omhyggelig udvælgelse af blod- og plasmadonorer for at sikre, at de, der risikerer at være inficerede, 
+udelukkes, 
+– testning af doneret plasma for tegn på virus/infektioner, 
+– inklusion af trin i behandlingen af blod eller plasma, som kan inaktivere eller fjerne vira. </p>
+<p>De foranstaltninger, der træffes, anses som effektive over for følgende vira: human immundefekt virus 
+(HIV), hepatitis B-virus, hepatitis C-virus, hepatitis A-virus or parvovirus B19. Trods disse 
+foranstaltninger, kan muligheden for overførsel af en infektion ikke helt udelukkes, når lægemidler, som 
+er fremstillet af humant blod eller plasma, administreres. Dette gælder også for alle ukendte eller nye 
+vira eller andre typer infektioner. </p>
+<p>Det anbefales på det kraftigste, at produktets navn og batchnummer registreres, hver gang du får en 
+dosis Coagadex®, for at føre regnskab med hvilke batch der er brugt. </p>
+<p>Din læge vil eventuelt anbefale, at du overvejer at blive vaccineret mod hepatitis A og B, hvis du 
+regelmæssigt eller gentagne gange får human plasma-afledt faktor X-produkter. </p>
+<p>Børn og unge 
+De anførte advarsler og forholdsregler for voksne gælder også for børn (mellem 2 og 11 år) samt unge 
+(mellem 12 og 18 år). </p>
+<p>Brug af anden medicin sammen med Coagadex 
+Fortæl altid lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at 
+tage anden medicin. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonale til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Der er ingen kendte virkninger af dette lægemiddel på evnen til at køre eller betjene maskiner. </p>
+<p>Coagadex indeholder natrium 
+Dette lægemiddel indeholder op til 9,2 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
+milliliter opløsning. Dette svarer til 0,0046 % af den anbefalede maksimale daglige indtagelse af 
+natrium i kosten for en voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take coagadex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take coagadex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din behandling skal igangsættes af en læge, som har erfaring med behandling af blødningsforstyrrelser. </p>
+<p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>Coagadex skal injiceres direkte ind i en blodåre. Før injektion af denne medicin derhjemme, skal du af 
+sundhedspersonalet have modtaget instrukser i, hvordan man gør det.  </p>
+<p>Lægen vil forklare dig, hvor meget du skal bruge, hvornår du skal bruge det og hvor længe. Lægen vil 
+normalt angive din dosis som det antal hele hætteglas, der giver dig den dosis, der passer bedst til dig. 
+Der må ikke administreres over 60 IE/kg dagligt hos nogen aldersgruppe. </p>
+<p>Brug til voksne </p>
+<p>Hvor meget Coagadex gives til behandling af en blødning eller for at forhindre yderligere 
+blødning? 
+Lægen vil fortælle dig, hvor meget Coagadex du skal administrere, for at behandle en blødning eller 
+forhindre yderligere blødning; den påkrævede dosis vil afhænge af dit blods normale faktor X-niveau </p>
+<p>Hvor meget gives før, under og efter en større operation? 
+Før: Den dosis Coagadex, der anvendes, bør være tilstrækkelig til at hæve blodets faktor X-niveau til 
+mellem 70 og 90 enheder/dl. Den dosis, du har brug for, afhænger af dit blods normale factor X-
+niveau og beregnes af din læge. </p>
+<p>Efter: I løbet af de første par dage efter operationen, vil din plasma faktor X-koncentration blive 
+kontrolleret regelmæssigt. Det anbefales, at dit blods faktor X-niveau holdes over 50 enheder/dl. Den 
+dosis du har brug for, vil blive beregnet af din læge. </p>
+<p>Hvis dit blods faktor X-koncentration er for lav (dette testes af lægen), eller hvis den falder hurtigere 
+end forventet, kan der være en faktor X-hæmmer til stede, som forhindrer medicinen i at virke rigtigt. 
+Din læge vil sørge for de nødvendige laboratorieprøver for at se, om dette er tilfældet. </p>
+<p>Hvor meget gives der regelmæssigt til langtidsforebyggelse af blødninger? 
+Din læge vil fortælle, om dette er passende for dig, og i så fald angive den passende dosis. </p>
+<p>Brug til børn og unge <br />
+Lægen vil anbefale en passende dosis til dig eller dit barn. Doser til børn under 12 år er generelt større 
+end doser til unge og voksne. Doser til unge vil svare til doserne til voksne. </p>
+<p>Hvornår skal Coagadex injiceres? </p>
+<ul>
+<li>
+<p>Lægemidlet bør injiceres ved første tegn på blødning. </p>
+</li>
+<li>
+<p>Injektionen bør gentages efter behov for at stoppe blødningen. </p>
+</li>
+<li>
+<p>Hver enkelt blødning bør bedømmes efter dens individuelle sværhedsgrad. </p>
+</li>
+<li>
+<p>Hvis du benytter lægemidlet for første gang, vil lægen vejlede dig. </p>
+</li>
+</ul>
+<p>Opløsning af medicin før brug 
+Medicinen må kun opløses i opløsningsmidlet, som leveres sammen med produktet. </p>
+<p>Mængde af Coagadex 
+Mængde opløsningsmiddel 
+250 IE 
+2,5 ml 
+500 IE 
+5 ml </p>
+<p>Coagadex leveres med den mængde opløsningsmiddel, der er vist i tabellen. </p>
+<p>Du kan opløse medicinen med den nålefri Mix2Vial-overførselsenhed, som er inkluderet i hver pakke.<br />
+Bring beholderne med Coagadex til stuetemperatur før blanding. </p>
+<p>Bland lægemidlet som følger: </p>
+<p>Trin 1 
+• Fjern hætten fra hætteglasset med pulver og rengør toppen af 
+proppen med en spritserviet. 
+• Gentag dette trin med hætteglasset med opløsningsmidlet. 
+• Pil toppen af pakken af med overførselsenheden men lad enheden blive i 
+pakken. </p>
+<p>Trin 2 
+• Placér den blå ende af overførselsenheden på hætteglasset med 
+opløsningsmiddel og skub lige ned, indtil spidsen trænger igennem 
+gummiproppen og klikker på plads. 
+• Fjern den ydre plastikemballage fra overførselsenheden kassér den og pas på 
+ikke at berøre den eksponerede ende af enheden. </p>
+<p>Trin 3 
+• Vend hætteglasset med opløsningsmiddel på hovedet, mens enheden stadig 
+er fastgjort. 
+• Placér den klare ende af overførselsenheden på pulverhætteglasset og skub 
+lige ned, indtil spidsen trænger igennem gummiproppen og klikker på plads. </p>
+<p>Trin 4 
+• Opløsningsmidlet vil blive trukket ind i pulverhætteglasset vha. vakuummet 
+heri. 
+• Bevæg forsigtigt glasset rundt for at sikre, at pulveret blandes godt. 
+Hætteglasset må ikke rystes. 
+• Der skal opnås en farveløs, klar eller let perlemorslignende opløsning, som 
+regel på omkring 1 minut (maksimalt 5 minutter). </p>
+<p>Trin 5 
+• Adskil det tomme hætteglas med opløsningsmiddel og den blå del af 
+overførselsenheden fra den klare del ved at skrue af mod uret.<br />
+• Tag en tom sprøjte (medfølger ikke i pakningen med Coagadex), og træk 
+luft ind i den ved at trække stemplet tilbage svarende til den krævede mængde 
+vand, der blev tilsat i trin 4. • Tilslut sprøjten til den klare del af overførselsenheden, og pres luften fra 
+sprøjten ind i hætteglasset. </p>
+<p>Trin 6 
+• Vend straks hætteglasset med opløsningen på hovedet. Opløsningen vil 
+blive trukket ind i sprøjten. 
+• Fjern den fyldte sprøjte fra enheden. 
+• Produktet er nu klart til brug. Følg de gængse sikkerhedsforanstaltninger for 
+administration. Sørg for at anvende produktet inden for en time efter, at det er 
+blandet. </p>
+<p>Dette lægemiddel må ikke benyttes, hvis:</p>
+<ul>
+<li>
+<p>opløsningsmidlet ikke trækkes ind i hætteglasset (dette indikerer tab af vakuum i hætteglasset, så 
+pulveret må ikke benyttes). </p>
+</li>
+<li>
+<p>det opløste pulver og opløsningsmidlet danner en gel eller en klump (hvis dette sker, så fortæl det 
+til dit sundhedspersonale og angiv batchnummeret, som er trykt på hætteglasset). </p>
+</li>
+</ul>
+<p>Hvis du har taget for meget Coagadex<br />
+Hvis du tager mere af dette lægemiddel end din læge har ordineret, er det muligt, at du vil danne en 
+blodprop. Hvis du mener, at du tager for meget, skal du stoppe injektionen og fortælle det til lægen, 
+apotekspersonalet eller sundhedspersonalet. Hvis du ved, at du har taget for meget, skal du fortælle det 
+til lægen, apotekspersonalet eller sundhedspersonalet så hurtigt som muligt. </p>
+<p>Hvis du har glemt at tage Coagadex 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Du skal injicere den normale 
+dosis, når du kommer i tanke om det og fortsætte doseringen som anvist af lægen. </p>
+<p>Hvis du holder op med at tage Coagadex 
+Rådfør dig altid med lægen, før du beslutter at stoppe din behandling. </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Allergiske 
+reaktioner 
+(overfølsomhedsreaktioner) 
+ses 
+sjældent 
+hos 
+behandlingen 
+af 
+blødningsforstyrrelser med lignende medicin (påvirker op til 1 ud af 1.000 personer), og udvikler sig 
+nogle gange til chok. Tegn på disse kan omfatte udslæt (herunder nældefeber), prikken, rødmen, kvalme, 
+opkastning, hovedpine, hoste, hvæsen, trykken for brystet, kulderystelser, hurtig puls, svimmelhed, 
+sløvhed, rastløshed, hævelse i ansigtet, stramning i halsen, ubehag omkring injektionsstedet.<br />
+Hvis du oplever nogen af disse, skal du kontakte lægen.  </p>
+<p>Følgende bivirkninger er blevet indberettet med Coagadex. </p>
+<p>Almindelig (kan påvirke op til 1 ud af 10 mennesker): </p>
+<ul>
+<li>
+<p>smerter eller rødmen omkring injektionsstedet </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+</ul>
+<p>Bivirkninger hos børn og unge 
+Bivirkninger hos børn forventes at være de samme som hos voksne. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V.  </p>
+<p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
+af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store coagadex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store coagadex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter ”EXP”. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Må ikke nedfryses. </p>
+<p>Opbevares i den ydre karton for at beskytte mod lys. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker små stykker i det opløste produkt. Når  er blandet, skal det 
+benyttes inden for en time.  </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Behandlingscentret vil give dig en særlig 
+beholder til bortskaffelse af eventuel resterende opløsning, ubrugte sprøjter, kanyler og tomme 
+beholdere. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller 
+skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Coagadex indeholder: 
+– 
+Aktivt stof/aktive stoffer: human koagulationsfaktor X. Et hætteglas indeholder normalt 250 IE 
+eller 500 IE human koagulationsfaktor X. 
+– 
+Øvrige indholdsstoffer: citronsyre, dinatriumfosfatdihydrat, natriumklorid, natriumhydroxid og 
+sakkarose (se afsnit 2 for yderligere information om indholdsstoffer). 
+– 
+Opløsningsmiddel: vand til injektionsvæske.  </p>
+<p>Udseende og pakningsstørrelser 
+Coagadex er en/et hvidt eller råhvidt pulver og er pakket i mængder på 250 IE og 500 IE. Efter blanding 
+er opløsningsmidlet gennemsigtigt eller perleagtigt (opaliserende). Se på opløsningen før injektion. Hvis 
+opløsningen er grumset eller indeholder partikler må den ikke benyttes. </p>
+<p>Der medfølger desuden en overførselsenhed, Mix2Vial. </p>
+<p>Indhold af pakningen med 250 IE 
+1 hætteglas 250 IE pulver 
+1 hætteglas 2,5 ml vand til injektionsvæske 
+1 overførselsenhed (Mix2Vial) </p>
+<p>Indhold af pakningen med 500 IE 
+1 hætteglas 500 IE pulver 
+1 hætteglas 5 ml vand til injektionsvæske 
+1 overførselsenhed (Mix2Vial) </p>
+<p>Begge pakningsstørrelser er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+BPL Bioproducts Laboratory GmbH 
+Dornhofstraße 34, 63263 Neu-Isenburg 
+Tyskland </p>
+<p>Fremstiller 
+PharmaKorell GmbH, Georges-Köhler-Str. 2, 79539 Lörrach, Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Bio Products Laboratory Ltd 
+Tél/Tel: + 44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk<br />
+(Royaume-Uni/Verenigd 
+Koninkrijk/Großbritannien) </p>
+<p>Lietuva 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Jungtinė Karalystė) </p>
+<p>България 
+Bio Products Laboratory Ltd 
+Teл.: + 44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk<br />
+(Обединено кралство) </p>
+<p>Luxembourg/Luxemburg 
+Bio Products Laboratory Ltd 
+Tél/Tel: + 44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk<br />
+(Royaume-Uni/Verenigd 
+Koninkrijk/Großbritannien) </p>
+<p>Česká republika 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Velká Británie) </p>
+<p>Magyarország 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Egyesült Királyság) 
+Danmark 
+Bio Products Laboratory Ltd 
+Tfl: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Storbritannien) </p>
+<p>Malta 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Ir Renju Unit) </p>
+<p>Deutschland 
+BPL Bioproducts Laboratory GmbH<br />
+Tel: +49 (0) 2408 146 0e-mail: bpl@medwiss-extern.de 
+Deutschland </p>
+<p>Nederland 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Verenigd Koninkrijk) </p>
+<p>Eesti 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Ühendkuningriik) </p>
+<p>Norge 
+Bio Products Laboratory Ltd 
+Tlf: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Storbritannia) </p>
+<p>Ελλάδα 
+Bio Products Laboratory Ltd 
+Τηλ: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Ηνωμένο Βασίλειο) </p>
+<p>Österreich 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Großbritannien) 
+España 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Reino Unido) </p>
+<p>Polska 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Wielka Brytania) </p>
+<p>France 
+Laboratoire Cevidra 
+Tel: +33 493705e-mail: contact@cevidra.com 
+France </p>
+<p>Portugal 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Reino Unido) </p>
+<p>Hrvatska 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Ujedinjeno Kraljevstvo) </p>
+<p>România 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Marea Britanie) 
+Ireland 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(United Kingdom) 
+Slovenija 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Združeno kraljestvo) 
+Ísland 
+Bio Products Laboratory Ltd 
+Sími: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Bretland) </p>
+<p>Slovenská republika 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Spojené kráľovstvo) </p>
+<p>Italia 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Regno Unito) </p>
+<p>Suomi/Finland 
+Bio Products Laboratory Ltd 
+Puh/Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Iso-Britannia) </p>
+<p>Κύπρος 
+Bio Products Laboratory Ltd 
+Τηλ: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Ηνωμένο Βασίλειο) </p>
+<p>Sverige 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Storbritannien) </p>
+<p>Latvija 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+(Lielbritānija)<br />
+United Kingdom (Northern Ireland) 
+Bio Products Laboratory Ltd 
+Tel: +44 (0) 20 8957 2e-mail: medinfo@bpl.co.uk 
+United Kingdom </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+http://www.ema.europa.eu hjemmeside og på Sundhedsstyrelsens hjemmeside http://www.sst.dk/ </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-acef8cbcdfca211b39877dbdf094e7e6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for coagadex Package Leaflet for language en"
+Description: "ePI document Bundle for coagadex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-acef8cbcdfca211b39877dbdf094e7e6"
+* entry[0].resource = composition-en-acef8cbcdfca211b39877dbdf094e7e6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpacef8cbcdfca211b39877dbdf094e7e6"
+* entry[=].resource = mpacef8cbcdfca211b39877dbdf094e7e6
+                            
+                    
+Instance: bundlepackageleaflet-da-acef8cbcdfca211b39877dbdf094e7e6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for coagadex Package Leaflet for language da"
+Description: "ePI document Bundle for coagadex Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-acef8cbcdfca211b39877dbdf094e7e6"
+* entry[0].resource = composition-da-acef8cbcdfca211b39877dbdf094e7e6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpacef8cbcdfca211b39877dbdf094e7e6"
+* entry[=].resource = mpacef8cbcdfca211b39877dbdf094e7e6
+                            
+                    
+
+
+
+Instance: mpacef8cbcdfca211b39877dbdf094e7e6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Coagadex 250 IU powder and solvent for solution for injection"
-Description: "Coagadex 250 IU powder and solvent for solution for injection"
+Title: "Medicinal Product coagadex"
+Description: "coagadex"
 Usage: #inline
 
  
@@ -466,7 +1000,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Coagadex 250 IU powder and solvent for solution for injection"
+  * productName = "coagadex"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -493,29 +1027,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-acef8cbcdfca211b39877dbdf094e7e6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for coagadex Package Leaflet for language en"
-Description: "ePI document Bundle for coagadex Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: acef8cbcdfca211b39877dbdf094e7e6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/16/1087/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "coagadex"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-acef8cbcdfca211b39877dbdf094e7e6"
-* entry[0].resource = composition-en-acef8cbcdfca211b39877dbdf094e7e6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp10bd167afc53bad0ebe6f2f458a35915"
-* entry[=].resource = mp10bd167afc53bad0ebe6f2f458a35915
-                            
-                      
+* title = "List of all ePIs associated with coagadex"
+
+* subject = Reference(mp10bd167afc53bad0ebe6f2f458a35915)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#coagadex "coagadex"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-acef8cbcdfca211b39877dbdf094e7e6) // coagadex en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-acef8cbcdfca211b39877dbdf094e7e6) // coagadex da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-acef8cbcdfca211b39877dbdf094e7e6
+InstanceOf: List
+
+* insert acef8cbcdfca211b39877dbdf094e7e6ListRuleset
+    

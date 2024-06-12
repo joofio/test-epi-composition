@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-2dca39e00c4bb300a2d0bc7e52b63f20
 InstanceOf: CompositionUvEpi
 Title: "Composition for trizivir Package Leaflet"
@@ -563,12 +566,676 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com   </p>
 
 
 
+Instance: composition-da-2dca39e00c4bb300a2d0bc7e52b63f20
+InstanceOf: CompositionUvEpi
+Title: "Composition for trizivir Package Leaflet"
+Description:  "Composition for trizivir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp845a9809d9f23c182ab9d0b13f46207c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp845a9809d9f23c182ab9d0b13f46207c
+* title = "TEST PURPOSES ONLY - trizivir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Trizivir 
+3. Sådan skal du tage Trizivir 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What trizivir is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What trizivir is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trizivir bruges til at behandle hiv (humant immundefektvirus)-infektion hos voksne. </p>
+<p>Trizivir indeholder tre aktive stoffer, der bruges til behandling af hiv-infektion: abacavir, lamivudin og 
+zidovudin. Alle disse tilhører en gruppe af antiretrovirale lægemidler, som kaldes nukleosidanalog 
+revers transkriptasehæmmere (NRTI’er). </p>
+<p>Trizivir hjælper med at kontrollere din sygdom. Trizivir helbreder ikke hiv-infektion, men det 
+nedsætter mængden af virus i din krop og holder det på et lavt niveau. Dette hjælper din krop med at 
+øge antallet af CD4-celler i dit blod. CD4-celler er en type hvide blodlegemer, der er vigtige for 
+bekæmpelse af infektion. </p>
+<p>Personer reagerer forskelligt på behandling med Trizivir. Lægen vil følge virkningen af din 
+behandling. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take trizivir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take trizivir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Trizivir<br />
+• hvis du er allergisk (overfølsom) over for abacavir (eller ethvert andet lægemiddel med 
+abacavir – Kivexa, Triumeq eller Ziagen), lamivudin eller zidovudin eller et af de øvrige 
+indholdsstoffer i dette lægemiddel (angivet i punkt 6). 
+Det er vgtigt, at du læser alle oplysningerne om overfølsomhedsreaktioner under punkt 4. • hvis du har alvorlige nyreproblemer<br />
+• hvis du har et meget lavt antal røde blodlegemer (anæmi) eller et meget lavt antal hvide 
+blodlegemer (neutropeni). 
+Tal med lægen, hvis du mener, noget af dette gælder for dig. </p>
+<p>Vær ekstra forsigtig med at tage Trizivir  </p>
+<p>Nogle personer, som tager Trizivir, har større risiko for alvorlige bivirkninger. Du skal derfor være 
+opmærksom på disse ekstra risici:<br />
+• hvis du har en middelsvær eller svær leversygdom<br />
+• hvis du nogensinde har haft en leversygdom, herunder hepatitis B eller C (hvis du har 
+hepatitis B-infektion, må du kun stoppe din Trizivir-behandling efter aftale med lægen, da 
+det kan give tilbagefald af hepatitis)<br />
+• hvis du er meget overvægtig (især hvis du er kvinde).<br />
+Tal med lægen, før du tager Trizivir, hvis noget af ovennævnte gælder for dig.<br />
+Det kan være, du skal komme hyppigere til kontrol og have taget flere blodprøver, mens du 
+tager lægemidlet. Se punkt 4 for flere oplysninger.  </p>
+<p>Overfølsomhedsreaktioner over for abacavir 
+Selv patienter, som ikke har genet HLA-B*5701, kan udvikle en overfølsomhedsreaktion (en alvorlig 
+allergisk reaktion). Læs alle oplysninger om overfølsomhedsreaktioner grundigt under punkt 4 i 
+denne indlægsseddel. </p>
+<p>Risiko for hjerte-kar-tilfælde 
+Det kan ikke udelukkes, at abacavir kan øge risikoen for et hjerte-kar-tilfælde. 
+Fortæl det til lægen, hvis du har hjerte-kar-problemer, hvis du ryger, eller hvis du har andre 
+sygdomme, der kan øge din risiko for hjerte-kar-sygdomme såsom forhøjet blodtryk eller 
+sukkersyge. Du må ikke stoppe med at tage Trizivir, medmindre lægen anbefaler dig at gøre det. </p>
+<p>Hold øje med vigtige symptomer 
+Nogle personer, som tager Trizivir, udvikler andre tilstande, som kan være alvorlige. Du skal derfor 
+kende vigtige tegn og symptomer, som du kan holde øje med, mens du tager Trizivir. 
+Læs om det i "Andre mulige bivirkninger ved Trizivir" under punkt 4 i denne 
+indlægsseddel. </p>
+<p>Brug af andre lægemidler sammen med Trizivir<br />
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. Dette gælder også lægemidler, som ikke 
+er købt på recept, f.eks. naturlægemidler og vitaminer og mineraler.  </p>
+<p>Husk også at fortælle det til lægen eller apotekspersonalet, hvis du begynder at tage et nyt lægemiddel, 
+mens du tager Trizivir.  </p>
+<p>Tag ikke disse lægemidler sammen med Trizivir:<br />
+• stavudin eller emtricitabin, til behandling af hiv-infektion<br />
+• andere lægemidler, der indeholder lamivudin, til behandling af hiv-infektion eller hepatitis 
+B-infektion<br />
+• ribavirin eller ganciclovir-injektioner, til behandling af virusinfektioner<br />
+• høje doser af sulfamethoxazol/trimethoprim, til behandling af bakterieinfektioner<br />
+• cladribin (til behandling af hårcelleleukæmi). 
+Fortæl lægen, hvis du får nogen af disse lægemidler.  </p>
+<p>Nogle lægemidler kan øge risikoen for, at du får bivirkninger, eller de kan forværre 
+bivirkningerne.<br />
+Det gælder:<br />
+• natriumvalproat, til behandling af epilepsi<br />
+• interferon, til behandling af virusinfektioner<br />
+• pyrimethamin, til behandling af malaria og andre parasitinfektioner<br />
+• dapson, til forebyggelse af lungebetændelse og til behandling af hudinfektioner<br />
+• fluconazol eller flucytosin, til behandling af svampeinfektioner som f.eks. candida<br />
+• pentamidin eller atovaquon, til behandling af parasitinfektioner som f.eks. pneumocystis 
+jirovecii lungebetændelse (ofte omtalt som PCP)<br />
+• amphotericin eller sulfatmethoxazol/trimethoprim, til behandling af svampe- og 
+bakterieinfektioner<br />
+• probenecid, til behandling af urinsur gigt (podagra) og lignende tilstande eller til at øge 
+virkningen af visse antibiotika<br />
+• methadon, som anvendes som erstatning for heroin<br />
+• vincristin, vinblastin eller doxorubicin, til behandling af cancer.<br />
+Fortæl lægen, hvis du tager nogen af disse lægemidler.  </p>
+<p>Nogle lægemidler påvirker Trizivir<br />
+Det gælder:<br />
+• clarithromycin, antibiotika<br />
+Hvis du tager clarithromycin, skal dosis tages mindst 2 timer før eller efter du tager Trizivir.<br />
+• phenytoin, som bruges til at behandle epilepsi. 
+Fortæl lægen, hvis du tager phenytoin. Lægen vil muligvis holde ekstra øje med dig, mens du 
+tager Trizivir. </p>
+<p>• lægemidler (oftest opløsninger), der indeholder sorbitol eller andre sukkeralkoholer (som 
+f.eks. xylitol, mannitol, lactitol eller maltitol), hvis de anvendes regelmæssigt. 
+Fortæl lægen eller apotekspersonalet, hvis du tager et eller flere af disse lægemidler.<br />
+• riociguat, til behandling af forhøjet blodtryk i blodkarrene (lungearterierne), der fører 
+blodet fra hjertet til lungerne.<br />
+ Din læge kan have brug for at reducere din riociguat-dosis, da abacavir kan øge niveauet af<br />
+ riociguat i blodet.  </p>
+<p>Methadon og Trizivir<br />
+Abacavir øger den hastighed, hvormed methadon fjernes fra kroppen. Hvis du tager methadon, vil du 
+blive undersøgt for abstinenssymptomer, og du skal måske have ændret din methadondosis.  </p>
+<p>Graviditet<br />
+Hvis du er gravid, bliver gravid eller planlægger at blive gravid, skal du tale med din læge om 
+fordele og risici for dig og dit barn ved at tage Trizivir under graviditeten. </p>
+<p>Trizivir og lignende lægemidler kan give bivirkninger hos det ufødte barn.  </p>
+<p>Hvis du har taget Trizivir under din graviditet, kan din læge bede om regelmæssige blodprøver og 
+andre diagnostiske undersøgelser for at overvåge barnets udvikling. For de børn, hvis mødre har taget 
+NRTI'er i løbet af graviditeten, opvejede fordelen ved beskyttelsen mod hiv risikoen ved 
+bivirkningerne. </p>
+<p>Amning 
+Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken.<br />
+En lille mængde af indholdsstofferne i Trizivir kan overføres til din modermælk.<br />
+Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Trizivir kan gøre dig svimmel og have andre bivirkninger, der gør dig mindre opmærksom. 
+Før ikke motorkøretøjer eller betjen maskiner, medmindre du føler, at du har det godt. </p>
+<p>Vigtig information om nogle af de øvrige indholdsstoffer i Trizivir tabletter<br />
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
+væsentlige natriumfrit.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take trizivir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take trizivir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Sørg for at holde jævnlig kontakt til lægen, og hold ikke op med at tage Trizivir uden at have talt 
+med lægen om det. </p>
+<p>Hvor meget Trizivir skal du tage 
+Den sædvanlige dosis af Trizivir til voksne er 1 tablet 2 gange daglig. </p>
+<p>Tabletterne skal tages regelmæssigt med ca. 12 timers mellemrum.  </p>
+<p>Synk tabletterne hele med et glas vand. Trizivir kan tages med eller uden mad. </p>
+<p>Hvis du har taget for mange Trizivir<br />
+Hvis du ved et uheld tager for mange Trizivir, skal du fortælle det til lægen eller apotekspersonalet 
+eller kontakte nærmeste skadestue for nærmere rådgivning. </p>
+<p>Hvis du har glemt at tage Trizivir<br />
+Hvis du glemmer at tage en dosis, skal du tage den, så snart du husker det. Fortsæt derefter 
+behandlingen som før. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Det er vigtigt at tage Trizivir regelmæssigt, da uregelmæssig indtagelse kan betyde, at lægemidlet ikke 
+virker mod hiv-infektionen og det kan øge risikoen for overfølsomhedsreaktioner. </p>
+<p>Hvis du holder op med at tage Trizivir<br />
+Hvis du af en eller anden grund er holdt op med at tage Trizivir, særligt hvis du mener, at du har 
+bivirkninger eller på grund af anden sygdom: 
+Kontakt lægen, før du starter igen. Lægen vil undersøge, om dine symptomer skyldes en 
+overfølsomhedsreaktion. Hvis lægen mener, at du har en overfølsomhedsreaktion, vil du få 
+besked på aldrig mere at tage Trizivir eller ethvert andet lægemiddel med abacavir 
+(Kivexa, Triumeq eller Ziagen). Det er vigtigt, at du følger lægens råd. </p>
+<p>Hvis lægen foreslår, at du genoptager behandlingen med Trizivir, kan det være, at du bliver rådet til at 
+tage første dosis på et sted, hvor du vil have mulighed for hurtigt at få lægehjælp, hvis det skulle blive 
+nødvendigt. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose 
+i blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-lægemidlet. Lægen vil holde øje med disse ændringer. </p>
+<p>Behandling med Trizivir resulterer ofte i tab af fedt på benene og armene og i ansigtet (lipoatrofi). 
+Dette tab af kropsfedt har vist sig ikke at være fuldt reversibelt, når behandlingen med zidovudin 
+stoppes. Lægen vil undersøge dig for tegn på lipoatrofi. Fortæl det til lægen, hvis du oplever, at du 
+mister fedt på benene eller armene eller i ansigtet. Hvis der ses tegn på lipoatrofi, skal behandlingen 
+med Trizivir stoppes og din hiv-behandling ændres. </p>
+<p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Når du er i behandling for hiv, kan det være svært at afgøre, om et symptom er en bivirkning ved 
+Trizivir eller andre lægemidler, eller om det skyldes selve hiv-infektionen. Derfor er det meget 
+vigtigt, at du fortæller lægen om enhver ændring i dit helbred.  </p>
+<p>Selv patienter, som ikke har genet HLA-B*5701, kan udvikle en overfølsomhedsreaktion (en 
+alvorlig allergisk reaktion) beskrevet i denne indlægsseddel under overskriften 
+"Overfølsomhedsreaktioner". 
+Det er meget vigtigt, at du læser og forstår oplysningerne om denne alvorlige reaktion.  </p>
+<p>Ud over de bivirkninger, der nævnes nedenfor for Trizivir, kan der forekomme andre tilstande i 
+forbindelse med behandlingen. 
+Det er vigtigt at læse afsnittet "Andre mulige bivirkninger ved Trizivir" i denne indlægsseddel.  </p>
+<p>Overfølsomhedsreaktioner </p>
+<p>Trizivir indeholder abacavir (som også er et aktivt stof i Kivexa, Triumeq og Ziagen). 
+Abacavir kan forårsage en alvorlig allergisk reaktion, kendt som en overfølsomhedsreaktion.<br />
+Disse overfølsomhedsreaktioner er set oftere hos patienter, som tager lægemidler, der indeholder 
+abacavir.  </p>
+<p>Hvem får en overfølsomhedsreaktion? 
+Alle, som tager Trizivir, kan udvikle en overfølsomhedsreaktion over for abacavir. Denne kan blive 
+livstruende, hvis man forsætter med at tage Trizivir. </p>
+<p>Du har større risiko for at udvikle en overfølsomhedsreaktion, hvis du har det gen, der hedder HLA-
+B*5701 (men selv hvis du ikke har den gentype, kan du udvikle overfølsomhed). Det er vigtigt, at du 
+er blevet testet for dette gen, før du får Trizivir. Hvis du ved, at du har dette gen, skal du fortælle 
+det til lægen, før du tager Trizivir. </p>
+<p>I et klinisk forsøg udviklede 3-4 ud af 100 patienter, der blev behandlet med abacavir, og som ikke 
+havde et gen, som kaldes HLA-B*5701, en overfølsomhedsreaktion. </p>
+<p>Hvad er symptomerne? 
+De mest almindelige symptomer er:  </p>
+<ul>
+<li>feber (høj temperatur) og udslæt. </li>
+</ul>
+<p>Andre almindelige symptomer er: </p>
+<ul>
+<li>kvalme, opkastning, diarré, mavesmerter og udtalt træthed. </li>
+</ul>
+<p>Andre symptomer: 
+Smerter i led og/eller muskler, hævelse af halsen, åndenød, ondt i halsen, hoste, lejlighedsvis 
+hovedpine, øjenbetændelse (konjunktivit), mundsår, lavt blodtryk, snurren eller følelsesløshed i hænder 
+og/eller fødder. </p>
+<p>Hvornår optræder symptomerne? 
+En overfølsomhedsreaktion kan opstå på et hvilket som helst tidspunkt under behandling med Trizivir, 
+men optræder normalt i de første 6 uger af behandlingen.  </p>
+<p>Kontakt lægen omgående: 
+1)<br />
+hvis du får udslæt ELLER 
+2)<br />
+du får et eller flere symptomer fra mindst 2 af de følgende grupper: </p>
+<ul>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>åndenød, ondt i halsen eller hoste </p>
+</li>
+<li>
+<p>kvalme, opkastning, diarré eller mavesmerter </p>
+</li>
+<li>
+<p>udtalt træthed eller smerter eller generel følelse af at være syg. 
+Lægen kan råde dig til at stoppe behandlingen med Trizivir. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Trizivir 
+Hvis du holder op med at tage Trizivir på grund af en overfølsomhedsreaktion, må du ALDRIG 
+MERE tage Trizivir eller noget andet lægemiddel med abacavir (Kivexa, Triumeq eller Ziagen), 
+da du inden for timer kan risikere et livstruende blodtryksfald, som kan medføre døden. </p>
+<p>Hvis du af en eller anden grund er holdt op med at tage Trizivir, særligt hvis du mener, at du har 
+bivirkninger eller på grund af anden sygdom: </p>
+<p>Kontakt lægen, før du starter igen. Lægen vil undersøge, om dine symptomer skyldes en 
+overfølsomhedsreaktion. Hvis lægen mener, at du har en overfølsomhedsreaktion, vil du få besked på 
+aldrig mere at tage Trizivir eller noget andet lægemiddel med abacavir (Kivexa, Triumeq eller 
+Ziagen). Det er vigtigt, at du følger lægens råd. </p>
+<p>I nogle tilfælde er overfølsomhedsreaktioner opstået hos personer, der genoptog behandling med 
+abacavir, og som kun havde et af symptomerne på oplysningskortet, før de stoppede med at tage 
+lægemidlet. </p>
+<p>I meget sjældne tilfælde er overfølsomhedsreaktioner opstået hos personer, der genoptog behandling 
+med abacavir, og som ikke havde nogen symptomer på overfølsomhed, før de stoppede med at tage 
+lægemidlet. </p>
+<p>Hvis lægen foreslår, at du genoptager behandlingen med Trizivir, kan det være, at du bliver rådet til at 
+tage første dosis på et sted, hvor du vil have mulighed for hurtigt at få lægehjælp, hvis det skulle blive 
+nødvendigt. </p>
+<p>Hvis du er overfølsom over for Trizivir, bør du aflevere alle dine ubrugte Trizivir tabletter til 
+destruktion. Spørg lægen eller apotekspersonalet. </p>
+<p>Der er vedlagt et oplysningskort i pakningen med Trizivir for at gøre dig og sundhedspersonalet 
+opmærksom på overfølsomhedreaktioner over for abacavir. Tag kortet ud og hav det altid på dig.   </p>
+<p>Meget almindelige bivirkninger 
+Kan forekomme hos flere end 1 ud af 10 personer: 
+• hovedpine 
+• kvalme. </p>
+<p>Almindelige bivirkninger 
+Kan forekomme hos op til 1 ud af 10 personer: 
+• overfølsomhedsreaktion 
+• opkastning 
+• diarré 
+• mavesmerter 
+• appetitløshed 
+• svimmelhed 
+• træthed, mangel på energi 
+• feber (høj temperatur) 
+• generel følelse af utilpashed 
+• søvnløshed (insomni) 
+• muskelsmerter og ubehag 
+• ledsmerter 
+• hoste 
+• symptomer fra næsen (irritation, løbenæse) 
+• udslæt 
+• hårtab. </p>
+<p>Almindelige bivirkninger, som kan ses i blodprøver: 
+• nedsat antal af røde blodlegemer (anæmi) eller nedsat antal hvide blodlegemer (neutropeni 
+eller leukopeni) 
+• forhøjet leverenzymtal 
+• øget mængde bilirubin i blodet (et stof, der dannes i leveren), som kan få huden til at se gul 
+ud. </p>
+<p>Ikke almindelige bivirkninger 
+Kan forekomme hos op til 1 ud af 100 personer: 
+• stakåndethed 
+• luft i tarmen 
+• kløe 
+• muskelsvaghed. </p>
+<p>En ikke almindelig bivirkning, som kan ses i blodprøver: 
+• Fald i antallet af celler, der får blodet til at størkne (trombocytopeni) eller i alle slags 
+blodlegemer (pancytopeni). </p>
+<p>Sjældne bivirkninger 
+Kan forekomme hos op til 1 ud af 1000 personer: 
+• sygdom i leveren såsom gulsot, forstørret lever, fedtlever eller leverbetændelse (hepatitis) 
+• for meget mælkesyre i blodet (laktacidose), (se afsnittet "Andre mulige bivirkninger ved 
+Trizivir") 
+• betændelse i bugspytkirtlen 
+• brystsmerter, sygdom i hjertemuskulaturen (kardiomyopati) 
+• krampeanfald 
+• depression eller angst, koncentrationsbesvær, døsighed 
+• fordøjelsesbesvær, smagsforstyrrelser 
+• ændring af farven på neglene, huden eller slimhinden inde i munden 
+• influenzalignende symptomer – kulderystelser og svedeture 
+• prikkende fornemmelse i huden 
+• snurren eller svaghed i arme og ben 
+• nedbrydning af muskelvæv 
+• følelsesløshed 
+• hyppig vandladning 
+• forstørrede bryster hos mænd. </p>
+<p>Sjældne bivirkninger, som kan ses i blodprøver: 
+• Forhøjet koncentration af et enzym, der hedder amylase 
+• Ophævet funktion af knoglemarven til at danne nye røde blodlegemer (pure red cell 
+aplasia). </p>
+<p>Meget sjældne bivirkninger 
+Kan forekomme hos op til 1 ud af 10.000 personer: 
+• Hududslæt i form af blister, som ligner små målskiver (mørk plet omgivet af en næsten 
+farveløs ring med en mørk kant yderst) (erythema multiforme). 
+• Udbredt udslæt af blister og afskalninger af huden særligt omkring munden, næsen, øjnene 
+og kønsdelene (Stevens-Johnsons syndrom), og et alvorligere udslæt, der medfører 
+afskalning af huden på mere end 30 % af kroppens overflade (toksisk epidermal nekrolyse). 
+Kontakt straks lægen, hvis du opdager nogen af disse symptomer. </p>
+<p>En meget sjælden bivirkning, som kan ses i dine blodprøver: 
+• Ophævet funktion af knoglemarven til at danne nye røde og hvide blodlegemer (aplastisk 
+anæmi). </p>
+<p>Hvis du får bivirkninger 
+Tal med lægen eller apotekspersonalet, hvis en bivirkning er generende eller bliver værre, 
+eller hvis du får bivirkninger, som ikke er nævnt her. </p>
+<p>Andre mulige bivirkninger ved Trizivir 
+Trizivir kan medføre andre bivirkninger i forbindelse med hiv-behandling. </p>
+<p>Symptomer på infektion eller betændelseslignende reaktioner (inflammation) </p>
+<p>Gamle infektioner kan blusse op 
+Personer med en fremskreden hiv-infektion (aids) har et svagt immunforsvar og har derfor lettere ved 
+at udvikle alvorlige infektioner (opportunistiske infektioner). Når disse personer begynder på 
+behandlingen, oplever de måske, at gamle skjulte infektioner blusser op og giver tegn og symptomer 
+på betændelse. Disse symptomer skyldes sandsynligvis, at kroppens immunforsvar bliver stærkere, så 
+kroppen begynder at bekæmpe infektionerne. Symptomerne omfatter som regel feber samt nogle af 
+følgende: 
+• hovedpine 
+• mavesmerter 
+• åndenød </p>
+<p>I sjældne tilfælde kan immunforsvaret, når det bliver stærkere, også angribe raskt kropsvæv 
+(autoimmune forstyrrelser). Symptomer på autoimmune forstyrrelser kan opstå mange måneder efter, 
+at du er startet med at tage lægemidlet til behandling af din hiv-infektion. Symptomerne kan inkludere: 
+• hjertebanken (hurtig eller uregelmæssig hjerterytme) eller rysten 
+• hyperaktivitet (voldsom rastløshed og bevægelse)<br />
+• svaghed, der starter i hænderne og fødderne og efterfølgende bevæger sig ind mod kroppen. 
+Hvis du får symptomer på en infektion, mens du tager Trizivir: 
+Fortæl det til lægen med det samme. Tag ikke andre lægemidler mod infektion uden at have 
+talt med lægen om det. </p>
+<p>Laktacidose er en sjælden, men alvorlig bivirkning 
+Nogle personer, der får Trizivir, kan udvikle en tilstand, der kaldes laktacidose, og samtidig en 
+forstørret lever.  </p>
+<p>Laktacidose skyldes ophobning af mælkesyre i kroppen. Det sker sjældent, men hvis det sker, kommer 
+det normalt efter nogle få måneders behandling. Det kan være livstruende, fordi det kan sætte de indre 
+organer ud af funktion.  </p>
+<p>Laktacidose udvikles oftere hos personer, der har en leversygdom, eller er fede (meget overvægtige), 
+især kvinder. 
+Tegnene på laktacidose omfatter: 
+• kvalme, opkastning 
+• mavesmerter 
+• generel følelse af utilpashed 
+• appetitløshed, vægttab 
+• dyb, hurtig, besværet vejrtrækning 
+• følelsesløshed eller svaghed i lemmerne. 
+Undervejs i behandlingen holder lægen øje med tegn på laktacidose. Hvis du får nogen af ovennævnte 
+symptomer eller andre symptomer, som bekymrer dig: 
+Gå til lægen så hurtigt som muligt. </p>
+<p>Problemer med knoglerne 
+Nogle personer, som er i kombinationsbehandling for hiv, udvikler en tilstand, der hedder 
+osteonekrose. Ved denne tilstand dør dele af knoglevævet på grund af nedsat blodforsyning til 
+knoglerne. Der er større risiko for at få denne tilstand: 
+• hvis du har været i kombinationsbehandling i lang tid<br />
+• hvis du tager en slags antiinflammatorisk lægemiddel, der hedder kortikosteroider 
+• hvis du drikker alkohol 
+• hvis dit immunforsvar er stærkt nedsat 
+• hvis du er overvægtig. </p>
+<p>Tegnene på osteonekrose omfatter: 
+• stive led 
+• ømhed og smerter (især i hofte, knæ eller skulder) 
+• bevægelsesbesvær. 
+Hvis du får et af disse symptomer: 
+Fortæl det til lægen. </p>
+<p>Andet, som kan vise sig i blodprøver 
+Trizivir kan også forårsage: 
+• forhøjet niveau af mælkesyre i blodet, som i sjældne tilfælde kan føre til laktacidose. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trizivir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trizivir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trizivir indeholder: 
+De aktive stoffer i hver Trizivir filmovertrukken tablet er 300 mg abacavir (som sulfat), 150 mg 
+lamivudin og 300 mg zidovudin.  </p>
+<p>Øvrige indholdsstoffer: Mikrokrystallinsk cellulose, natriumstivelsesglycolat og magnesiumstearat i 
+tabletkernen. Tabletternes filmovertræk indeholder hypromellose, titandioxid, polyethylenglycol, 
+indigocarmin aluminiumslak og gult jernoxid.  </p>
+<p>Udseende og pakningsstørrelser 
+Trizivir filmovertrukne tabletter er mærket “GX LL1" på den ene side. De er blågrønne og 
+kapselformede. De findes i blisterpakninger med 60 tabletter og beholdere med børnesikret låg med tabletter.  </p>
+<p>Indehaver af markedsføringstilladelsen 
+ViiV Healthcare BV<br />
+Van Asch van Wijckstraat 55H 
+3811 LP Amersfoort 
+Holland </p>
+<p>Fremstiller:<br />
+Delpharm Poznań Spółka Akcyjna, ul. Grunwaldzka 189 , 60-322 Poznan, Polen. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+ViiV Healthcare srl/bv 
+Tél/Tel: + 32 (0) 10 85 65<br />
+Lietuva 
+ViiV Healthcare BV 
+Tel: + 370 80000 </p>
+<p>България 
+ViiV Healthcare BV 
+Teл.: + 359 80018 </p>
+<p>Luxembourg/Luxemburg 
+ViiV Healthcare srl/bv 
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 65<br />
+Česká republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+ViiV Healthcare BV 
+Tel.: + 36 80088 
+Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+ViiV Healthcare BV 
+Tel: + 356 80065 
+Deutschland 
+ViiV Healthcare GmbH 
+Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com </p>
+<p>Nederland 
+ViiV Healthcare BV 
+Tel: + 31 (0) 33 2081 
+Eesti 
+ViiV Healthcare BV<br />
+Tel: + 372 8002 </p>
+<p>Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20<br />
+Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82<br />
+Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com  </p>
+<p>España 
+Laboratorios ViiV Healthcare, S.L. 
+Tel: +34 900 923 es-ci@viivhealthcare.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9 
+France 
+ViiV Healthcare SAS 
+Tél: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
+<p>Portugal 
+VIIVHIV HEALTHCARE,<br />
+UNIPESSOAL, LDA 
+Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
+<p>Hrvatska 
+ViiV Healthcare BV 
+Tel: + 385 800787 
+România 
+ViiV Healthcare BV<br />
+Tel: + 40800672 
+Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 
+Slovenija 
+ViiV Healthcare BV 
+Tel: + 386 80688 </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika 
+ViiV Healthcare BV 
+Tel: + 421 800500 </p>
+<p>Italia 
+ViiV Healthcare S.r.l 
+Tel: + 39 (0)45 7741 
+Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30  </p>
+<p>Κύπρος 
+ViiV Healthcare BV 
+Τηλ: + 357 80070 </p>
+<p>Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0) 8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+ViiV Healthcare BV 
+Tel: + 371 80205 </p>
+<p>United Kingdom (Northern Ireland) 
+ViiV Healthcare UK Limited 
+Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>BILAG IV  </p>
+<p>VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE<br />
+FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE  </p>
+<p>Videnskabelige konklusioner  </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for abacavir / lamivudin / 
+zidovudin er PRAC nået frem til følgende videnskabelige konklusioner: </p>
+<p>På baggrund af data for kardiovaskulære hændelser fra litteraturen angående abacavir, herunder en 
+plausibel virkningsmekanisme, mener PRAC, at advarsler og forsigtighedsregler for anvendelse af 
+produkter der indeholder abacavir bør revideres, for tilstrækkeligt at reflektere det gældende 
+informationsniveau for kardiovaskulære bivirkninger samt, i tråd med de gældende terapeutiske 
+retningslinier, at en anbefaling om ikke at anvende produkter, der indeholder abacavir til patienter i 
+høj kardiovaskulær risiko, bør inkluderes i produktinformationen. PRAC konkluderede, at 
+produktinformationen for produkter, der indeholder abacavir / lamivudin / zidovudin, skal ændres i 
+overensstemmelse hermed.  </p>
+<p>Efter at have gennemgået PRAC anbefalingen tilslutter CHMP sig PRAC's overordnede konklusioner 
+og begrundelser for anbefalingen. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne  </p>
+<p>På baggrund af de videnskabelige konklusioner for abacavir / lamivudin / zidovudin er CHMP af den 
+opfattelse, at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder abacavir / 
+lamivudin / zidovudin forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i 
+produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-2dca39e00c4bb300a2d0bc7e52b63f20
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trizivir Package Leaflet for language en"
+Description: "ePI document Bundle for trizivir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2dca39e00c4bb300a2d0bc7e52b63f20"
+* entry[0].resource = composition-en-2dca39e00c4bb300a2d0bc7e52b63f20
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2dca39e00c4bb300a2d0bc7e52b63f20"
+* entry[=].resource = mp2dca39e00c4bb300a2d0bc7e52b63f20
+                            
+                    
+Instance: bundlepackageleaflet-da-2dca39e00c4bb300a2d0bc7e52b63f20
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trizivir Package Leaflet for language da"
+Description: "ePI document Bundle for trizivir Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-2dca39e00c4bb300a2d0bc7e52b63f20"
+* entry[0].resource = composition-da-2dca39e00c4bb300a2d0bc7e52b63f20
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2dca39e00c4bb300a2d0bc7e52b63f20"
+* entry[=].resource = mp2dca39e00c4bb300a2d0bc7e52b63f20
+                            
+                    
+
+
+
+Instance: mp2dca39e00c4bb300a2d0bc7e52b63f20
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product TRIZIVIR 300 mg/150 mg/300 mg film-coated tablets"
-Description: "TRIZIVIR 300 mg/150 mg/300 mg film-coated tablets"
+Title: "Medicinal Product trizivir"
+Description: "trizivir"
 Usage: #inline
 
  
@@ -588,7 +1255,7 @@ Usage: #inline
 
 
 * name
-  * productName = "TRIZIVIR 300 mg/150 mg/300 mg film-coated tablets"
+  * productName = "trizivir"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -615,29 +1282,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-2dca39e00c4bb300a2d0bc7e52b63f20
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for trizivir Package Leaflet for language en"
-Description: "ePI document Bundle for trizivir Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 2dca39e00c4bb300a2d0bc7e52b63f20ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/00/156/002 – opaque white PCTFE/PVC-Al Blister pack (60 Tablets)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "trizivir"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-2dca39e00c4bb300a2d0bc7e52b63f20"
-* entry[0].resource = composition-en-2dca39e00c4bb300a2d0bc7e52b63f20
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp845a9809d9f23c182ab9d0b13f46207c"
-* entry[=].resource = mp845a9809d9f23c182ab9d0b13f46207c
-                            
-                      
+* title = "List of all ePIs associated with trizivir"
+
+* subject = Reference(mp845a9809d9f23c182ab9d0b13f46207c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#trizivir "trizivir"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-2dca39e00c4bb300a2d0bc7e52b63f20) // trizivir en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-2dca39e00c4bb300a2d0bc7e52b63f20) // trizivir da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-2dca39e00c4bb300a2d0bc7e52b63f20
+InstanceOf: List
+
+* insert 2dca39e00c4bb300a2d0bc7e52b63f20ListRuleset
+    

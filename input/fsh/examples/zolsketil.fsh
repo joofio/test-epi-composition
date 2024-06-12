@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1
 InstanceOf: CompositionUvEpi
 Title: "Composition for zolsketil Package Leaflet"
@@ -389,12 +392,497 @@ Netherlands </p>
 
 
 
+Instance: composition-da-55a0c3e4e0760943cb20f19d7e8a0dd1
+InstanceOf: CompositionUvEpi
+Title: "Composition for zolsketil Package Leaflet"
+Description:  "Composition for zolsketil Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp060f064af38bdc1cbafda75e993e2d14)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp060f064af38bdc1cbafda75e993e2d14
+* title = "TEST PURPOSES ONLY - zolsketil"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at få ZOLSKETIL pegylated liposomal </li>
+<li>Sådan skal du få ZOLSKETIL pegylated liposomal </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zolsketil is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zolsketil is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZOLSKETIL pegylated liposomal er et lægemiddel mod tumorer/svulster. </p>
+<p>ZOLSKETIL pegylated liposomal anvendes til at behandle brystkræft hos patienter med risiko for 
+hjerteproblemer. ZOLSKETIL pegylated liposomal anvendes også til behandling af kræft i 
+æggestokkene. Det anvendes til at dræbe kræftcellerne, formindske størrelsen af tumoren, forsinke 
+væksten af tumoren og forlænge din overlevelse. </p>
+<p>ZOLSKETIL pegylated liposomal anvendes også i kombination med et andet lægemiddel, bortezomib, 
+til behandling af myelomatose (en kræfttype, der kan forekomme i blodet) hos patienter, der har fået 
+mindst 1 tidligere behandling. </p>
+<p>ZOLSKETIL pegylated liposomal anvendes også til at give en forbedring af Kaposis sarkom blandt 
+andet ved lindring, lettelse og endog formindskelse af kræften. Andre symptomer på Kaposis sarkom, 
+såsom hævelse omkring tumor, kan også forbedres eller forsvinde. </p>
+<p>ZOLSKETIL pegylated liposomal indeholder et lægemiddel, der kan påvirke kroppens celler på en 
+sådan måde, at fortrinsvis kræftceller bliver dræbt. Doxorubicinhydrochlorid i ZOLSKETIL pegylated 
+liposomal er indkapslet i fine dråber, der kaldes pegylerede liposomer, der hjælper med at bringe 
+lægemidlet fra blodbanen til kræftvævet i højere grad end til sundt, normalt væv. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zolsketil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zolsketil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få ZOLSKETIL pegylated liposomal 
+- hvis du er allergisk over for doxorubicinhydrochlorid, jordnødder eller soja, eller et af de øvrige 
+indholdsstoffer i ZOLSKETIL pegylated liposomal (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du får ZOLSKETIL pegylated liposomal:</p>
+<ul>
+<li>hvis du er i nogen form for behandling af hjerte- eller leversygdom </li>
+<li>hvis du har sukkersyge, idet ZOLSKETIL pegylated liposomal indeholder sukker, hvilket kan 
+nødvendiggøre en ændring af din sukkersygebehandling </li>
+<li>hvis du har Kaposis sarkom, og du har fået fjernet din milt </li>
+<li>hvis du bemærker sår, misfarvning eller andre gener i munden </li>
+<li>hvis din knoglemarv ikke danner nok blodceller </li>
+<li>hvis du har kræft, hvor knoglemarven danner unormale blodceller </li>
+<li>hvis du har smertefuldt, makulært rødt hududslæt </li>
+<li>hvis du har lækage af blærer eller lægemiddel fra venen og ind i det omgivende væv </li>
+<li>hvis du har hånd-fod-syndrom (rødme, hævelse og blærer (en lomme af væske mellem de 
+øverste hudlag) på håndflader og fodsåler). </li>
+</ul>
+<p>Strategier til at modvirke og behandle hånd-fod-syndromet:</p>
+<ul>
+<li>sæt hænder og/eller fødder i blød i koldt vandbad, når det er muligt (f.eks. mens du ser fjernsyn, 
+læser eller hører radio). </li>
+<li>hold hænder og fødder frie (ingen handsker, strømper o.s.v.). </li>
+<li>ophold dig på kølige steder. </li>
+<li>tag kølige bade i varmt vejr. </li>
+<li>undgå kraftig motion, som kan medføre fodskader (f.eks. jogging). </li>
+<li>undgå at udsætte huden for meget varmt vand (f.eks. i jacuzzi, sauna). </li>
+<li>undgå tætsiddende fodtøj og højhælede sko. </li>
+</ul>
+<p>Pyridoxin (B6-vitamin):</p>
+<ul>
+<li>B6-vitamin kan fås uden recept. </li>
+<li>tag 50-150 mg dagligt, så snart der er tegn på rødme eller prikken. </li>
+</ul>
+<p>Tilfælde af interstitiel lungesygdom er observeret hos patienter, der får pegyleret liposomal 
+doxorubicin, herunder tilfælde med dødelig udgang. Symptomerne på interstitiel lungesygdom er 
+hoste og åndenød, sommetider med feber, som ikke skyldes fysisk aktivitet. Søg straks lægehjælp, hvis 
+du oplever symptomer, som kan være tegn på interstitiel lungesygdom. </p>
+<p>Børn og unge 
+ZOLSKETIL pegylated liposomal må ikke anvendes til børn og unge, da det ikke vides, hvordan 
+lægemidlet vil påvirke dem. </p>
+<p>Brug af andre lægemidler sammen med ZOLSKETIL pegylated liposomal 
+Fortæl altid til lægen eller apotekspersonalet 
+- hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller planlægger at tage 
+andre lægemidler. Dette gælder også lægemidler, der er købt uden recept. 
+- om enhver andet kræftlægemiddel, som du tager eller har taget, idet der skal tages særlige 
+hensyn ved behandlinger, som nedsætter antallet af hvide blodlegemer, da det kan forårsage 
+yderligere nedsættelse i antallet af hvide blodlegemer. Hvis du er i tvivl om, hvilke 
+behandlinger du har fået, eller hvilke sygdomme du har haft, skal du tale med din læge. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge lægen til råds, før du tager dette lægemiddel. </p>
+<p>Da det aktive stof doxorubicinhydrochlorid i ZOLSKETIL pegylated liposomal kan forårsage 
+misdannelser, er det vigtigt at fortælle din læge, hvis du tror, du er gravid. Kvinder skal undgå at blive 
+gravide og skal anvende prævention, mens de tager ZOLSKETIL pegylated liposomal, samt i otte 
+måneder efter afslutning af behandlingen med ZOLSKETIL pegylated liposomal. Mænd skal anvende 
+prævention, mens de tager ZOLSKETIL pegylated liposomal, samt i seks måneder efter endt 
+behandling med ZOLSKETIL pegylated liposomal, så deres partner ikke bliver gravid. </p>
+<p>Da det aktive stof doxorubicinhydrochlorid i ZOLSKETIL pegylated liposomal kan være skadeligt for 
+børn, der ammes, skal kvinder ophøre med amning før start af behandling med ZOLSKETIL pegylated 
+liposomal. Sundhedseksperter anbefaler, at hiv-smittede kvinder ikke ammer deres spædbørn under 
+nogen omstændigheder for at undgå overførsel af hiv. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke føre motorkøretøj eller benytte værktøj eller maskiner, hvis du føler dig træt eller søvnig 
+af behandlingen med ZOLSKETIL pegylated liposomal. </p>
+<p>ZOLSKETIL pegylated liposomal indeholder sojaolie og natrium 
+ZOLSKETIL pegylated liposomal indeholder sojaolie. Du må ikke bruge ZOLSKETIL pegylated 
+liposomal, hvis du er overfølsom over for jordnødder eller soja. 
+ZOLSKETIL pegylated liposomal indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det 
+er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zolsketil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zolsketil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZOLSKETIL pegylated liposomal er en unik formulering. Det må ikke ombyttes med andre 
+formuleringer af doxorubicinhydrochlorid. </p>
+<p>Så meget ZOLSKETIL pegylated liposomal vil du få 
+Hvis du bliver behandlet for brystkræft eller kræft i æggestokkene, vil ZOLSKETIL pegylated 
+liposomal blive givet i en dosis på 50 mg pr. kvadratmeter af dit kropsoverfladeareal (baseret på din 
+højde og vægt). Dosis gentages hver fjerde uge så længe sygdommen ikke tiltager og du kan tåle 
+behandlingen. </p>
+<p>Hvis du behandles for myelomatose og allerede har modtaget mindst 1 tidligere behandling, vil 
+ZOLSKETIL pegylated liposomal blive givet i en dosis på 30 mg pr. kvadratmeter af dit 
+kropsoverfladeareal (baseret på din højde og vægt). ZOLSKETIL pegylated liposomal gives straks 
+efter bortezomib-infusionen som en 1-times intravenøs infusion på dag 4 i 3-ugers behandlingen. 
+Dosis gentages, så længe du reagerer tilfredsstillende og tolererer behandlingen. </p>
+<p>Hvis du behandles for Kaposis sarkom, vil ZOLSKETIL pegylated liposomal blive givet i en dosis på 
+20 mg pr. kvadratmeter af dit kropsoverfladeareal (baseret på din højde og vægt). Dosis gentages hver 
+2. til 3. uge i 2 - 3 måneder og herefter så hyppigt, som det er nødvendigt for at opretholde en bedring i 
+din tilstand. </p>
+<p>Sådan vil du få ZOLSKETIL pegylated liposomal 
+ZOLSKETIL pegylated liposomal vil blive givet af din læge direkte i en vene gennem et drop (som 
+infusion). Afhængigt af dosis og indikation kan dette tage fra 30 minutter til over en time (f.eks. minutter). </p>
+<p>Hvis du har fået for meget ZOLSKETIL pegylated liposomal 
+Akut overdosering forværrer bivirkninger som sår i munden eller fald i antallet af hvide blodlegemer 
+og blodplader i blodet. Behandling vil omfatte administration af antibiotika, transfusioner med 
+blodplader, anvendelse af faktorer som stimulerer produktionen af hvide blodlegemer og 
+symptomatisk behandling af mundsår. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Under infusion af Zolsketil pegylated liposomal kan følgende reaktioner forekomme:</p>
+<ul>
+<li>alvorlig allergisk reaktion, som kan omfatte hævelser i ansigt, læber, mund, tunge eller svælg, 
+synke- eller vejrtrækningsbesvær, kløende udslæt (nældefeber) </li>
+<li>betændte og forsnævrede luftveje i lungerne, som medfører hoste, hiven efter vejret og 
+stakåndethed (astma) </li>
+<li>rødme, svedtendens, kulderystelser eller feber </li>
+<li>smerter eller ubehag i brystkassen </li>
+<li>rygsmerter </li>
+<li>højt eller lavt blodtryk </li>
+<li>hurtig puls </li>
+<li>krampeanfald </li>
+</ul>
+<p>Injektionsvæsken kan lække fra venerne til vævet under huden. Hvis droppet svier eller gør ondt, mens 
+du får en dosis Zolsketil pegylated liposomal, skal du straks fortælle lægen herom. </p>
+<p>Kontakt straks lægen, hvis du bemærker nogen af følgende alvorlige bivirkninger:</p>
+<ul>
+<li>feber, træthed eller tegn på blå mærker eller blødning (meget almindeligt) </li>
+<li>rødme, hævelser, afskalning eller ømhed, især på hænder eller fødder ("hånd-fod"-syndrom). 
+Disse reaktioner er set meget almindeligt og er sommetider alvorlige. I alvorlige tilfælde kan 
+disse reaktioner indvirke på visse daglige aktiviteter, og de kan vare i 4 uger eller længere før 
+komplet helbredelse. Lægen kan ønske at udsætte påbegyndelsen og/eller reducere dosis af den 
+næste behandling (se Strategier for at modvirke og behandle hånd-fod-syndrom nedenfor). </li>
+<li>sår i munden, kraftig diarré eller opkastning eller kvalme (meget almindeligt) </li>
+<li>infektioner (almindeligt), herunder lungebetændelse (pneumoni) eller infektioner, som kan 
+påvirke synet </li>
+<li>stakåndethed (almindeligt) </li>
+<li>kraftige mavesmerter (almindeligt) </li>
+<li>udtalt svaghed (almindeligt) </li>
+<li>alvorlig allergisk reaktion, som kan omfatte hævelser i ansigt, læber, mund, tunge eller svælg, 
+synke- eller vejrtrækningsbesvær, kløende udslæt (nældefeber) (ikke almindeligt) </li>
+<li>hjertestop (hjertet holder op med at slå), hjertesvigt, hvor hjertet ikke pumper nok blod rundt til 
+resten af kroppen, som medfører stakåndethed og kan medføre hævede ben (ikke almindeligt) </li>
+<li>en blodprop, som vandrer til lungerne, hvilket medfører brystsmerter og åndenød (ikke 
+almindeligt) </li>
+<li>hævelse, varme eller ømhed i det bløde væv på dine ben, nogle gange med smerter, der bliver 
+værre, når du står eller går (sjældent) </li>
+<li>alvorligt eller livstruende udslæt med blærer og afskalning af huden, især omkring mund, næse, 
+øjne og kønsdele (Stevens-Johnsons syndrom) eller over det meste af kroppen (toksisk 
+epidermal nekrolyse) (sjældent) </li>
+</ul>
+<p>Andre bivirkninger 
+Mellem infusioner kan følgende forekomme: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter) 
+- nedsat antal hvide blodlegemer, hvilket kan øge risikoen for infektioner. I sjældne tilfælde kan 
+lavt antal hvide blodlegemer medføre alvorlig infektion. Blodmangel (anæmi/nedsat antal røde 
+blodlegemer) kan forårsage træthed, og fald i blodplader kan give øget risiko for blødninger. 
+Det er pga. de mulige ændringer i dine blodlegemer, at du skal have taget regelmæssige 
+blodprøver. 
+- appetitløshed 
+- forstoppelse 
+- hududslæt, herunder hudrødme, allergisk hududslæt, rødt eller hævet udslæt på huden 
+- hårtab 
+- smerter, herunder i muskler og brystmuskler, led, arme eller ben 
+- udtalt træthed </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) 
+- infektioner, herunder alvorlig infektion i hele kroppen (blodforgiftning/sepsis), 
+lungebetændelse, helvedesild (infektion med herpes zoster-virus), en type bakterieinfektion 
+(infektion med mycobacterium avium complex), urinvejsinfektion, svampeinfektioner (herunder 
+trøske), infektion i hårrødderne, halsbetændelse eller irritation i svælget, infektion i næsen, 
+bihulerne eller svælget (forkølelse) 
+- et lavt antal af en type hvide blodlegemer (neutrofiler) ledsaget af feber 
+- kraftigt vægt- og muskeltab, ikke nok vand i kroppen (dehydrering), lavt indhold af kalium, 
+natrium eller calcium i blodet 
+- forvirring, angst, depression, søvnbesvær 
+- nerveskade, som kan medføre prikken, følelsesløshed, smerter eller manglende smertesans, 
+nervesmerter, en usædvanlig fornemmelse i huden (såsom en prikkende eller kriblende 
+fornemmelse), nedsat følesans eller følsomhed, især i huden 
+- ændret smagssans, hovedpine, udtalt søvnighed med mangel på energi, svimmelhed 
+- øjenbetændelse (konjunktivitis) 
+- hurtig puls 
+- højt eller lavt blodtryk, rødmen 
+- stakåndethed, der kan være forårsaget af fysisk aktivitet, næseblod, hoste 
+- betændelse i slimhinden i maven eller spiserøret, sår i munden, dårlig fordøjelse, synkebesvær, 
+smerter i munden, mundtørhed 
+- hudproblemer, herunder skællende eller tør hud, hudrødme, blærer eller sår på huden, kløe, 
+mørke områder på huden 
+- overdreven svedtendens 
+- muskelkramper eller -smerter 
+- smerter, herunder i muskler, knogler eller ryggen 
+- smertefuld vandladning 
+- allergisk reaktion overfor infusion af lægemidlet, influenzalignende sygdom, kulderystelser, 
+betændelse i slimhinderne i hulrum og passager i kroppen såsom næsen, munden eller luftrøret, 
+svaghedsfølelse, generel utilpashed, hævelser, der skyldes ophobning af væske i kroppen, 
+hævede hænder, ankler eller fødder 
+- vægttab </p>
+<p>Når ZOLSKETIL pegylated liposomal anvendes alene, forekommer nogle af disse bivirkninger i 
+mindre grad, og nogle er overhovedet ikke forekommet. </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) 
+- forkølelsessår eller herpes på kønsdelene (infektion med herpes simplex-virus), svampeinfektion 
+- et lavt antal af alle typer blodlegemer, forhøjet antal blodplader (som hjælper blodet med at 
+størkne) 
+- allergisk reaktion 
+- højt indhold af kalium i blodet, lavt indhold af magnesium i blodet 
+- nerveskade, som påvirker mere end ét område af kroppen 
+- krampeanfald, besvimelse 
+- ubehagelig eller smertefuld fornemmelse, især ved berøring, søvnighed 
+- sløret syn, rindende øjne 
+- hurtig eller ujævn puls (hjertebanken), sygdom i hjertemusklen, hjerteskade 
+- vævsskade (nekrose), der hvor injektionen gives, betændte vener, som medfører hævelser og 
+smerter, svimmelhed, når man sætter sig op eller rejser sig 
+- trykken for brystet 
+- luft i tarmen, betændelse i gummerne (gingivitis) 
+- hudproblemer eller -udslæt, herunder skællende eller afskalning af huden, allergisk hududslæt, 
+sår eller nældefeber på huden, misfarvning af huden, ændring i hudens naturlige farve 
+(pigmentering), små røde eller lilla pletter, der skyldes blødninger under huden, negleproblemer, 
+bumser (acne) 
+- muskelsvaghed 
+- brystsmerter 
+- irritation eller smerter, der hvor injektionen gives 
+- hævelser i ansigtet, høj feber 
+- symptomer (som f.eks. betændelse, rødme eller smerter), der vender tilbage på et sted på 
+kroppen, som tidligere er blevet behandlet med stråleterapi, eller som tidligere er blevet 
+beskadiget ved injektion af kemoterapi i en vene. </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter) 
+- infektion, som forekommer hos patienter med svækket immunforsvar 
+- lavt antal blodlegemer dannet i knoglemarven 
+- betændelse i nethinden, hvilket kan medføre synsændringer eller blindhed 
+- unormal hjerterytme, unormale kurver på et EKG (elektrokardiogram), eventuelt med langsom 
+puls, problem med hjertet, som påvirker puls og -rytme, blåfarvning af huden og slimhinderne, 
+som skyldes lavt iltindhold i blodet 
+- udvidelse af blodkar 
+- sammensnøring i halsen 
+- øm og hævet tunge, sår på spidsen 
+- hududslæt med væskefyldte blærer 
+- infektion i skeden, rødme af pungen 
+- problemer med slimhinderne i kroppens hulrum og passager, som f.eks. næsen, munden eller 
+luftrøret 
+- unormale resultater af leverblodprøver, forhøjet indhold af kreatinin i blodet </p>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data) 
+- blodkræft, som udvikler sig hurtigt og påvirker blodlegemerne (akut myeloid leukæmi), 
+knoglemarvssygdom, som påvirker blodlegemerne (myelodysplastisk syndrom), kræft i 
+mundhulen eller læberne 
+- hoste og åndenød, muligvis ledsaget af feber, som ikke skyldes fysisk aktivitet (interstitiel 
+lungesygdom) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zolsketil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zolsketil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Du må ikke få lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. </p>
+<p>Opbevares i køleskab (2ºC til 8ºC). Må ikke nedfryses. </p>
+<p>Efter fortynding: 
+Kemisk og fysisk stabilitet efter åbning er dokumenteret i 24 timer ved 2°C til 8°C. Ud fra et 
+mikrobiologisk synspunkt skal præparatet bruges med det samme. Anvendelse af andre 
+opbevaringstider og -betingelser er på brugerens eget ansvar og må ikke overstige 24 timer ved 2 til 
+8°C. Delvis brugte hætteglas skal bortskaffes. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker tegn på bundfældning eller anden partikeldannelse. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZOLSKETIL pegylated liposomal indeholder:</p>
+<ul>
+<li>Aktivt stof: doxorubicinhydrochlorid. En ml ZOLSKETIL pegylated liposomal indeholder 2 mg 
+doxorubicinhydrochlorid i en pegyleret liposomal formulering. </li>
+<li>Øvrige ingredienser: hydrogeneret sojafosfatidylcholin, N-(carbonylmethoxypolyethylenglycol-
+2000)-1,2-distearoyl-sn-glycero-3-fosfoethanolamin, natriumsalt (MPEG 2000-DSPE), 
+kolesterol, ammoniumsulfat, histidin, saccharose, vand til injektionsvæsker, koncentreret 
+saltsyre (til justering af pH), natriumhydroxid (til justering af pH). Se punkt 2. ZOLSKETIL pegylated liposomal: hætteglas med 10 ml (20 mg) eller 25 ml (50 mg). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Dette lægemiddel er en gennemsigtig og rødlig dispersion, fyldt i et klart hætteglas. ZOLSKETIL 
+pegylated liposomal fås som hætteglas i en enkeltpakning eller pakninger med ti hætteglas. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Accord Healthcare S.L.U.<br />
+World Trade Center, Moll de Barcelona, s/n, Edifici Est 6ª planta,<br />
+Barcelona, 08039, Spanien </p>
+<p>Fremstiller 
+Accord Healthcare Polska Sp. z o.o. 
+ul. Lutomierska 50, Pabianice, 95-Polen </p>
+<p>Accord Healthcare B.V. 
+Winthontlaan 200, Utrecht, 3526KV,<br />
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IE / IS / IT / LT / LV / LX / MT / NL 
+/ NO / PT / PL / RO / SE / SI / SK / UK(NI) / ES 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Win Medica Pharmaceutical S.A.<br />
+Tel: +30 210 7488<br />
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
+<p>Du kan finde yderligere oplysninger om ZOLSKETIL pegylated liposomal på Det Europæiske 
+Lægemiddelagenturs hjemmeside  http://www.ema.europa.eu.  </p>
+<p>Nedenstående oplysninger er kun til sundhedspersoner (se punkt 3): </p>
+<p>Der skal udvises forsigtighed ved håndtering af ZOLSKETIL pegylated liposomal-dispersion. 
+Anvendelse af handsker er påkrævet. Såfremt ZOLSKETIL pegylated liposomal kommer i berøring 
+med hud eller slimhinder, skal man straks vaske området omhyggeligt med vand og sæbe. 
+ZOLSKETIL pegylated liposomal skal håndteres og bortskaffes i henhold til retningslinjerne for 
+håndtering af andre lægemidler mod kræft. </p>
+<p>Beregn den dosis af ZOLSKETIL pegylated liposomal, der skal administreres (baseret på den 
+anbefalede dosis og patientens overfladeareal). Udtag den beregnede mængde ZOLSKETIL pegylated 
+liposomal op i en steril sprøjte. Aseptisk teknik skal nøje oveholdes, da der ikke er konserverende eller 
+bakteriostatiske stoffer i ZOLSKETIL pegylated liposomal. Den beregnede dosis af ZOLSKETIL 
+pegylated liposomal skal fortyndes i glucose 50 mg/ml (5 %) infusionsvæske, opløsning, før 
+administration. For doser &lt;90 mg, fortyndes ZOLSKETIL pegylated liposomal i 250 ml, og for doser 
+≥90 mg, fortyndes ZOLSKETIL pegylated liposomal i 500 ml. </p>
+<p>For at minimere risikoen for infusionsreaktioner administreres den første dosis med en hastighed, som 
+ikke overstiger 1 mg/minut. Hvis der ikke ses en infusionsreaktion, kan efterfølgende infusioner med 
+ZOLSKETIL pegylated liposomal administreres over en 60 minutters periode. </p>
+<p>I undersøgelsesprogrammet for brystcancer var ændring i infusionen tilladt for de patienter, som 
+oplevede en infusionsreaktion som følger: 5 % af den samlede dosis blev infunderet langsomt i løbet 
+af de første 15 minutter. Hvis dette blev tolereret uden reaktion, blev infusionshastigheden fordoblet i 
+de følgende 15 minutter. Hvis dette blev tolereres, blev infusionen afsluttet i løbet af den næste time 
+med en total infusionstid på 90 minutter.  </p>
+<p>Hvis patienten oplever tidlige symptomer eller tegn på infusionsreaktion, seponér da øjeblikkeligt 
+infusionen, giv hensigtsmæssig præmedicinering (antihistamin og/eller korttidsvirkende 
+kortikosteroid) og start igen med en langsommere hastighed. </p>
+<p>Anvendelse af andet opløsningsmiddel end glucose 50 mg/ml (5 %) infusionsvæske, opløsning, eller 
+tilstedeværelse af bakteriostatiske stoffer som f.eks benzylalkohol kan forårsage udfældning af 
+ZOLSKETIL pegylated liposomal. </p>
+<p>Det anbefales, at infusionsslangen med ZOLSKETIL pegylated liposomal forbindes via en sideport 
+til en intravenøs infusion med glucose 50 mg/ml (5 %). Infusionen kan gives i en perifer vene. Må 
+ikke anvendes sammen med in-line filtre. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-55a0c3e4e0760943cb20f19d7e8a0dd1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zolsketil Package Leaflet for language en"
+Description: "ePI document Bundle for zolsketil Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1"
+* entry[0].resource = composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp55a0c3e4e0760943cb20f19d7e8a0dd1"
+* entry[=].resource = mp55a0c3e4e0760943cb20f19d7e8a0dd1
+                            
+                    
+Instance: bundlepackageleaflet-da-55a0c3e4e0760943cb20f19d7e8a0dd1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zolsketil Package Leaflet for language da"
+Description: "ePI document Bundle for zolsketil Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-55a0c3e4e0760943cb20f19d7e8a0dd1"
+* entry[0].resource = composition-da-55a0c3e4e0760943cb20f19d7e8a0dd1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp55a0c3e4e0760943cb20f19d7e8a0dd1"
+* entry[=].resource = mp55a0c3e4e0760943cb20f19d7e8a0dd1
+                            
+                    
+
+
+
+Instance: mp55a0c3e4e0760943cb20f19d7e8a0dd1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ZOLSKETIL pegylated liposomal 2 mg/mL concentrate for dispersion for infusion"
-Description: "ZOLSKETIL pegylated liposomal 2 mg/mL concentrate for dispersion for infusion"
+Title: "Medicinal Product zolsketil"
+Description: "zolsketil"
 Usage: #inline
 
  
@@ -414,7 +902,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ZOLSKETIL pegylated liposomal 2 mg/mL concentrate for dispersion for infusion"
+  * productName = "zolsketil"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -441,29 +929,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-55a0c3e4e0760943cb20f19d7e8a0dd1
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zolsketil Package Leaflet for language en"
-Description: "ePI document Bundle for zolsketil Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 55a0c3e4e0760943cb20f19d7e8a0dd1ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1629/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zolsketil"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1"
-* entry[0].resource = composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp060f064af38bdc1cbafda75e993e2d14"
-* entry[=].resource = mp060f064af38bdc1cbafda75e993e2d14
-                            
-                      
+* title = "List of all ePIs associated with zolsketil"
+
+* subject = Reference(mp060f064af38bdc1cbafda75e993e2d14)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zolsketil "zolsketil"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-55a0c3e4e0760943cb20f19d7e8a0dd1) // zolsketil en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-55a0c3e4e0760943cb20f19d7e8a0dd1) // zolsketil da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-55a0c3e4e0760943cb20f19d7e8a0dd1
+InstanceOf: List
+
+* insert 55a0c3e4e0760943cb20f19d7e8a0dd1ListRuleset
+    

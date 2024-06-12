@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-02b234fa664dab0f39045c8374bebc79
 InstanceOf: CompositionUvEpi
 Title: "Composition for lojuxta Package Leaflet"
@@ -474,12 +477,835 @@ leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-02b234fa664dab0f39045c8374bebc79
+InstanceOf: CompositionUvEpi
+Title: "Composition for lojuxta Package Leaflet"
+Description:  "Composition for lojuxta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe90d4d9295c7cb16ac4740d1f4f0d822)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe90d4d9295c7cb16ac4740d1f4f0d822
+* title = "TEST PURPOSES ONLY - lojuxta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Lojuxta </li>
+<li>Sådan skal du tage Lojuxta </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lojuxta is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lojuxta is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lojuxta indeholder det aktive stof lomitapid. Lomitapid er et “lipidmodificerende middel“, der virker 
+ved at blokere virkningen af "mikrosomalt triglyceridtransferprotein". Dette protein findes i cellerne i 
+leveren og tarmene, hvor det medvirker til at samle fedtstoffer til større partikler, der derefter frigives 
+til blodbanen. Lojuxta blokerer dette protein og nedsætter derved indholdet af fedtstoffer og kolesterol 
+(lipider) i blodet. </p>
+<p>Lojuxta anvendes til behandling af voksne patienter med meget højt kolesterol, der skyldes en arvelig 
+sygdom (homozygot familiær hyperkolesterolæmi eller HoFH). Den arves typisk fra både faderen og 
+moderen, som ligeledes har arvet et højt kolesterolindhold fra deres forældre. Patientens niveau af 
+“skadeligt" kolesterol er meget højt fra en meget tidlig alder. Det “skadelige" kolesterol kan i en tidlig 
+alder medføre hjerteanfald, slagtilfælde eller andre hændelser. Lojuxta anvendes sammen med 
+fedtfattig diæt og anden lipidsænkende behandling til at nedsætte kolesterolniveauet.  </p>
+<p>Lojuxta kan nedsætte blodets indhold af:  </p>
+<ul>
+<li>
+<p>LDL-kolesterol (Low Density Lipoprotein) ("skadeligt" kolesterol) </p>
+</li>
+<li>
+<p>totalkolesterol </p>
+</li>
+<li>
+<p>apolipoprotein-B, et protein, der transporterer “skadeligt kolesterol" i blodet  </p>
+</li>
+<li>
+<p>triglycerider (fedt, der transporteres i blodet)  </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lojuxta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lojuxta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Lojuxta </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for lomitapid eller et af de øvrige indholdsstoffer i Lojuxta (angivet i 
+afsnit 6) </p>
+</li>
+<li>
+<p>hvis du har leverproblemer eller af ukendt årsag har unormale leverprøver  </p>
+</li>
+<li>
+<p>hvis du har tarmproblemer eller ikke kan optage føde fra tarmen </p>
+</li>
+<li>
+<p>hvis du dagligt tager mere end 40 mg simvastatin (et andet kolesterolsænkende lægemiddel, se 
+afsnittet "Brug af andre lægemidler sammen med Lojuxta") </p>
+</li>
+<li>
+<p>hvis du får nogen af følgende lægemidler, som påvirker nedbrydningen af lomitapid i kroppen: * itraconazol, ketoconazol, fluconazol, voriconazol, posaconazol (mod 
+svampeinfektioner) * telithromycin, clarithromycin, erythromycin (mod bakterieinfektioner) * indinavir, nelfinavir, saquinavir, ritonavir (mod hiv-infektion) * diltiazem, verapamil (mod højt blodtryk eller angina) og dronedaron (til regulering af 
+hjerterytmen)  </p>
+</li>
+<li>
+<p>hvis du er gravid, planlægger at blive gravid eller har mistanke om, at du er gravid (se afsnit 2<br />
+"Graviditet og amning"). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Lojuxta:  </p>
+<ul>
+<li>hvis du har leverproblemer, herunder leverproblemer, når du får andre lægemidler. 
+Disse kapsler kan medføre bivirkninger, som også kan være tegn på leverproblemer. Sådanne 
+bivirkninger er anført i afsnit 4, og du skal straks sige det til lægen, hvis du får nogen af disse 
+tegn og symptomer, da de kan skyldes leverskade. Lægen vil tage en blodprøve til kontrol af 
+leveren, før du begynder at tage kapslerne, hver gang din dosis bliver sat op, samt regelmæssigt 
+under behandlingen. Disse blodprøver skal gøre det muligt for lægen at tilpasse din dosis. Hvis 
+blodprøverne viser, at der er leverproblemer, vil lægen muligvis sætte din dosis ned eller stoppe 
+behandlingen. </li>
+</ul>
+<p>Du kan i nogle tilfælde opleve væsketab/dehydrering, f.eks. i tilfælde af opkastning, kvalme og diarré. 
+Det er vigtigt at undgå dehydrering ved at drikke tilstrækkeligt med væske (se afsnit 4). </p>
+<p>Børn og unge 
+Der er ikke udført undersøgelser hos børn og unge under 18 år. Det frarådes derfor at anvende dette 
+lægemiddel til børn og unge. </p>
+<p>Brug af andre lægemidler sammen med Lojuxta 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Andre lægemidler kan ændre den måde, som Lojuxta virker på. Tag ikke nogen af følgende 
+lægemidler, når du får Lojuxta:  </p>
+<ul>
+<li>
+<p>visse lægemidler mod infektioner med bakterier, svampe eller hiv (se afsnit 2"Tag ikke 
+Lojuxta") </p>
+</li>
+<li>
+<p>visse lægemidler mod højt blodtryk eller angina eller til regulering af hjerterytmen (se afsnit 2<br />
+"Tag ikke Lojuxta") </p>
+</li>
+</ul>
+<p>Du skal også fortælle det til lægen eller på apoteket, hvis du tager nogen af følgende lægemidler, da 
+det kan være nødvendigt at ændre din dosis af Lojuxta: </p>
+<ul>
+<li>
+<p>kolesterolsænkende lægemidler (f.eks. atorvastatin) </p>
+</li>
+<li>
+<p>kombinerede orale svangerskabsforebyggende midler (f.eks. ethinylestradiol, norgestimat) </p>
+</li>
+<li>
+<p>glukokortikoider (f.eks. beclometason, prednisolon), som er steroide lægemidler, der anvendes 
+til behandling af inflammation ved tilstande såsom svær astma og arthritis </p>
+</li>
+<li>
+<p>lægemidler til behandling af kræft (f.eks. bicalutamid, lapatinib, methotrexat, nilotinib, 
+pazopanib, tamoxifen) eller kvalmestillende midler ved kræftbehandling (f.eks. fosaprepitant) </p>
+</li>
+<li>
+<p>immunundertrykkende lægemidler (f.eks. ciclosporin, tacrolimus)  </p>
+</li>
+<li>
+<p>lægemidler til behandling af bakterie- og svampeinfektioner (f.eks. nafcillin, azithromycin, 
+roxithromycin, clotrimazol) </p>
+</li>
+<li>
+<p>lægemidler til behandling og forebyggelse af blodpropper (f.eks. cilostazol, ticagrelor) </p>
+</li>
+<li>
+<p>lægemidler til behandling af angina (brystsmerter fra hjertet) (f.eks. ranolazin) </p>
+</li>
+<li>
+<p>lægemidler mod forhøjet blodtryk (f.eks. amlodipin, lacidipin) </p>
+</li>
+<li>
+<p>lægemidler til regulering af hjerterytmen (f.eks. amiodaron) </p>
+</li>
+<li>
+<p>lægemidler til behandling af epilepsi (f.eks. phenobarbital, carbamazepin, fenytoin) </p>
+</li>
+<li>
+<p>lægemidler til behandling af sukkersyge (f.eks. pioglitazon, linagliptin) </p>
+</li>
+<li>
+<p>lægemidler til behandling af tuberkulose (f.eks. isoniazid, rifampicin) </p>
+</li>
+<li>
+<p>tetracyklin-antibiotika til behandling af infektioner såsom urinvejsinfektion </p>
+</li>
+<li>
+<p>lægemidler til behandling af angsttilstande og depression (f.eks. alprazolam, fluoxetin, 
+fluvoxamin) </p>
+</li>
+<li>
+<p>lægemidler mod for megen mavesyre (f.eks. ranitidin, cimetidin) </p>
+</li>
+<li>
+<p>aminoglutethimid (lægemiddel til behandling af Cushings syndrom) </p>
+</li>
+<li>
+<p>lægemidler til behandling af svær acne (f.eks. isotretinoin) </p>
+</li>
+<li>
+<p>paracetamol (smertestillende)  </p>
+</li>
+<li>
+<p>lægemidler til behandling af cystisk fibrose (f.eks. ivacaftor) </p>
+</li>
+<li>
+<p>lægemidler til behandling af ufrivillig vandladning (f.eks. propiverin) </p>
+</li>
+<li>
+<p>lægemidler til behandling af for lavt natriumindhold i blodet (f.eks. tolvaptan) </p>
+</li>
+<li>
+<p>lægemidler til behandling af udtalt søvnighed i dagtimerne (f.eks. modafinil)  </p>
+</li>
+<li>
+<p>visse plantelægemidler: * Perikum (mod depression)  * Ginkgo (til styrkelse af hukommelsen)  * Guldsegl (mod inflammation og infektion) </p>
+</li>
+</ul>
+<p>Lojuxta kan påvirke den måde, andre lægemidler virker på. Sig det til lægen eller på apoteket, hvis du 
+tager nogen af følgende lægemidler:  </p>
+<ul>
+<li>
+<p>orale svangerskabsforebyggende midler (se afsnit 2 "Graviditet og amning")  </p>
+</li>
+<li>
+<p>andre kolesterolsænkende lægemidler såsom: * statiner, f.eks. simvastatin. Risikoen for leverskade er øget, når Lojuxta anvendes 
+sammen med statiner. Muskelømhed og muskelsmerter (myalgi) eller muskelsvaghed 
+(myopati) kan også indtræde. Kontakt straks lægen, hvis du får muskelømhed, 
+muskelsmerter eller muskelsvaghed uden tilsyneladende årsag. Du bør ikke tage 
+mere end 40 mg simvastatin, når du bruger Lojuxta (se afsnit 2 “Tag ikke Lojuxta")  </p>
+</li>
+<li>
+<p>kumarin-antikoagulantia (blodfortyndende lægemidler, f.eks. warfarin) </p>
+</li>
+<li>
+<p>lægemidler til behandling af kræft (f.eks. everolimus, imatinib, lapatinib, nilotinib og 
+topotecan) </p>
+</li>
+<li>
+<p>immunundertrykkende lægemidler (f.eks. sirolimus)  </p>
+</li>
+<li>
+<p>lægemidler til behandling af hiv (f.eks. maraviroc) </p>
+</li>
+<li>
+<p>lægemidler til behandling og forebyggelse af blodpropper (f.eks. dabigatranetexilat) </p>
+</li>
+<li>
+<p>lægemidler til behandling af angina (brystsmerter fra hjertet) (f.eks. ranolazin) </p>
+</li>
+<li>
+<p>lægemidler mod forhøjet blodtryk (f.eks. talinolol, aliskiren, ambrisentan) </p>
+</li>
+<li>
+<p>lægemidler til regulering af hjerterytmen (f.eks. digoxin)  </p>
+</li>
+<li>
+<p>lægemidler til behandling af sukkersyge (f.eks. saxagliptin, sitagliptin) </p>
+</li>
+<li>
+<p>lægemidler til behandling af urinsur gigt (podagra) (f.eks. colchicin)  </p>
+</li>
+<li>
+<p>lægemidler til behandling af lavt natriumindhold i blodet (f.eks. tolvaptan) </p>
+</li>
+<li>
+<p>antihistaminer, som er lægemidler til behandling af høfeber (f.eks. fexofenadin) </p>
+</li>
+</ul>
+<p>Brug af Lojuxta sammen med mad, drikke og alkohol  </p>
+<ul>
+<li>
+<p>Drik ikke nogen form for grapefrugtjuice. </p>
+</li>
+<li>
+<p>Alkoholindtagelse under behandling med Lojuxta frarådes. </p>
+</li>
+<li>
+<p>Det kan være nødvendigt at tilpasse din dosis af Lojuxta, hvis du indtager pebermynteolie 
+eller bitre appelsiner (pomerans).  </p>
+</li>
+<li>
+<p>For at mindske risikoen for problemer med maven skal du holde en fedtfattig diæt, mens du 
+tager dette lægemiddel. Få råd fra en diætist om, hvad du kan spise, mens du tager Lojuxta.  </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Tag ikke dette lægemiddel, hvis du er gravid, planlægger at blive gravid eller har mistanke om, at du 
+er gravid, da der er risiko for, at det kan skade det ufødte barn. Hvis du bliver gravid, mens du tager 
+dette lægemiddel, skal du straks kontakte lægen og holde op med at tage kapslerne.  </p>
+<p>Graviditet </p>
+<ul>
+<li>
+<p>Før påbegyndelse af behandlingen skal du sikre dig, at du ikke er gravid, og du skal bruge 
+effektiv svangerskabsforebyggelse efter lægens råd. Hvis du bruger p-piller og får en episode 
+med diarré eller opkastning af mere end 2 dages varighed, skal du bruge anden 
+svangerskabsforebyggelse (f.eks. kondomer eller pessar) i 7 dage, efter at symptomerne er 
+forsvundet.  </p>
+</li>
+<li>
+<p>Hvis du efter at have påbegyndt behandling med Lojuxta beslutter, at du gerne vil være 
+gravid, skal du sige det til lægen, da din behandling skal ændres. </p>
+</li>
+</ul>
+<p>Amning </p>
+<ul>
+<li>Det vides ikke, om Lojuxta går over i modermælken. Sig det til lægen, hvis du ammer eller 
+planlægger at amme. Lægen vil muligvis bede dig holde op med at tage Lojuxta eller holde op 
+med at amme.  </li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Lojuxta kan påvirke evnen til at føre motorkøretøj og betjene maskiner. Hvis du føler dig svimmel 
+under behandlingen, skal du ikke føre motorkøretøj eller betjene maskiner, før du får det bedre. </p>
+<p>Lojuxta indeholder lactose og natrium 
+Hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter, skal du kontakte lægen, før du tager 
+Lojuxta. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lojuxta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lojuxta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. Kapslerne skal ordineres af en læge, som har erfaring med behandling 
+af forstyrrelser i blodlipiderne, og som også skal kontrollere dig regelmæssigt.  </p>
+<p>Den anbefalede startdosis er en 5 mg kapsel dagligt. Dosen kan af din læge efterhånden langsomt 
+sættes op til højst 60 mg dagligt. Lægen skal rådgive dig om: </p>
+<ul>
+<li>
+<p>hvilken dosis du skal tage, og hvor længe  </p>
+</li>
+<li>
+<p>hvornår din dosis skal sættes op eller ned<br />
+Du skal ikke på egen hånd ændre din dosis. </p>
+</li>
+<li>
+<p>Tag Lojuxta ved sengetid med et glas vand mindst 2 timer efter aftensmåltidet (se afsnit 2 
+“Brug af Lojuxta sammen med mad, drikke og alkohol").  </p>
+</li>
+<li>
+<p>Tag ikke Lojuxta sammen med et måltid, da det kan give maveproblemer (se afsnit 2 “Brug af 
+Lojuxta sammen med mad, drikke og alkohol").  </p>
+</li>
+<li>
+<p>Hvis du tager anden medicin, der sænker kolesterol ved at binde galdesyrerne, såsom 
+colesevelam eller colestyramin, skal du tage den medicin, der binder galdesyrerne, mindst 
+4 timer før eller 4 timer efter at du tager Lojuxta.  </p>
+</li>
+</ul>
+<p>Da Lojuxta kan påvirke virkningen af andre lægemidler og andre lægemidler kan påvirke Lojuxta, vil 
+lægen eventuelt ændre tidspunktet for indtagelse af din medicin. Alternativt kan lægen nedsætte din 
+dosis af Lojuxta. Fortæl lægen om enhver ændring i de lægemidler, du tager. </p>
+<p>Du skal også dagligt have tilskud af vitamin E og essentielle fedtsyrer (omega-3 og omega-6), mens 
+du tager dette lægemiddel. Den dosis, du normalt skal have, er angivet nedenfor. Spørg lægen eller 
+diætisten om, hvor du kan skaffe disse kosttilskud. Se afsnit 2 "Brug af Lojuxta sammen med mad, 
+drikke og alkohol".  </p>
+<p>Daglig dosis<br />
+Vitamin E<br />
+400 IE<em> 
+Omega-3<br />
+Cirka<br />
+EPA<br />
+110 mg</em> 
+DHA 
+80 mg 
+ALA 
+210 mg 
+Omega-6  </p>
+<p>Linolsyre 
+200 mg  </p>
+<ul>
+<li>IE - internationale enheder, mg - milligram </li>
+</ul>
+<p>Hvis du har taget for meget Lojuxta<br />
+Kontakt straks lægen eller apoteket.  </p>
+<p>Hvis du har glemt at tage Lojuxta 
+Tag den næste dosis til sædvanlig tid næste dag. Du må ikke tage en dobbeltdosis som erstatning for 
+den glemte dosis.  </p>
+<p>Hvis du holder op med at tage Lojuxta 
+Hvis du holder op med at tage Lojuxta, kan dit kolesteroltal stige igen. Kontakt lægen, før du holder 
+op med at bruge dette lægemiddel. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger: </p>
+<ul>
+<li>der er ofte blevet indberettet om prøver, der viser unormal leverfunktion (forekommer hos op 
+til 1 ud af 10 behandlede). Tegn og symptomer på leverproblemer er følgende:  * kvalme * opkastning * mavesmerter * muskelømhed eller -smerter  * feber * gulfarvning af huden eller af det hvide i øjnene * unormal træthed * influenzalignende fornemmelse </li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du får nogen af disse symptomer, da lægen muligvis vil stoppe 
+behandlingen. </p>
+<p>Følgende bivirkninger er også forekommet: </p>
+<p>Meget almindelig (forekommer hos mere end 1 ud af 10 behandlede):  </p>
+<ul>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kvalme og opkastning </p>
+</li>
+<li>
+<p>mavesmerter, maveubehag eller oppustet mave </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>fordøjelsesbesvær </p>
+</li>
+<li>
+<p>tarmluft </p>
+</li>
+<li>
+<p>forstoppelse  </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+</ul>
+<p>Almindelig (forekommer hos op til 1 ud af 10 behandlede):  </p>
+<ul>
+<li>
+<p>inflammation af maven og tarmen med diarré og opkastning  </p>
+</li>
+<li>
+<p>opstød </p>
+</li>
+<li>
+<p>bøvsen </p>
+</li>
+<li>
+<p>følelse af ikke at være kommet af med afføringen, tvingende afføringstrang </p>
+</li>
+<li>
+<p>blødning fra endetarmen eller blod i afføringen  </p>
+</li>
+<li>
+<p>svimmelhed, hovedpine, migræne  </p>
+</li>
+<li>
+<p>træthed, manglende energi eller almen svaghed </p>
+</li>
+<li>
+<p>forstørret, beskadiget lever eller fedtlever </p>
+</li>
+<li>
+<p>lilla misfarvning af huden, massive knopper på huden, udslæt, gule knopper på huden </p>
+</li>
+<li>
+<p>ændrede blodkoagulationsprøver </p>
+</li>
+<li>
+<p>ændret blodtælling  </p>
+</li>
+<li>
+<p>fald i blodets indhold af kalium, caroten, vitamin E og vitamin K </p>
+</li>
+<li>
+<p>muskeltrækninger </p>
+</li>
+</ul>
+<p>Ikke almindelig (forekommer hos op til 1 ud af 100 behandlede):  </p>
+<ul>
+<li>
+<p>influenza eller forkølelse, feber, bihulebetændelse, hoste  </p>
+</li>
+<li>
+<p>for lavt antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>dehydrering, mundtørhed </p>
+</li>
+<li>
+<p>øget appetit </p>
+</li>
+<li>
+<p>brændende eller stikkende fornemmelse fra huden </p>
+</li>
+<li>
+<p>hævede øjne  </p>
+</li>
+<li>
+<p>sår eller ømt punkt i halsen </p>
+</li>
+<li>
+<p>blodigt opkast  </p>
+</li>
+<li>
+<p>tør hud </p>
+</li>
+<li>
+<p>blærer </p>
+</li>
+<li>
+<p>svedtendens </p>
+</li>
+<li>
+<p>smertefulde eller hævede led, smerter i hænder eller fødder </p>
+</li>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>blod eller protein i urinen </p>
+</li>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>ændret gang  </p>
+</li>
+<li>
+<p>unormal lungefunktionsprøve </p>
+</li>
+</ul>
+<p>Ikke kendt (frekvens kan ikke fastslås ud fra tilgængelige data) </p>
+<ul>
+<li>
+<p>hårtab (alopeci) </p>
+</li>
+<li>
+<p>muskelsmerter (myalgi) </p>
+</li>
+<li>
+<p>væsketab, der kan forårsage hovedpine, mundtørhed, svimmelhed, træthed eller bevidstløshed 
+(dehydrering) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lojuxta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lojuxta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Lojuxta utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten eller kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares ved temperaturer under 30 ºC.<br />
+Hold flasken tæt tillukket for at beskytte mod fugt.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lojuxta indeholder:  </p>
+<ul>
+<li>
+<p>Aktivt stof: lomitapid.<br />
+Lojuxta 5 mg: Hver hård kapsel indeholder lomitapidmesylat svarende til 5 mg lomitapid. 
+Lojuxta 10 mg: Hver hård kapsel indeholder lomitapidmesylat svarende til 10 mg lomitapid. 
+Lojuxta 20 mg: Hver hård kapsel indeholder lomitapidmesylat svarende til 20 mg lomitapid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: pregelatineret stivelse, natriumstivelsesglycolat (type A), 
+mikrokrystallinsk cellulose, lactosemonohydrat, kolloid vandfri silica og magnesiumstearat (se 
+afsnit 2 “Lojuxta indeholder lactose og natrium").  </p>
+</li>
+</ul>
+<p>Kapselskal: </p>
+<ul>
+<li>
+<p>Kapselskallen til 5 og 10 mg kapsler indeholder gelatine, titandioxid (E171) og jernoxid, rød 
+(E172). </p>
+</li>
+<li>
+<p>Kapselskallen til 20 mg kapsler indeholder gelatine og titandioxid (E171).  </p>
+</li>
+<li>
+<p>Alle kapsler er mærket med spiselig sort trykfarve.  </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>Lojuxta 5 mg har orange overdel og orange underdel, mærket “5 mg" på underdelen og 
+“A733“ på overdelen med sort trykfarve. </p>
+</li>
+<li>
+<p>Lojuxta 10 mg har orange overdel og hvid underdel, mærket “10 mg" på underdelen og 
+“A733“ på overdelen med sort trykfarve.  </p>
+</li>
+<li>
+<p>Lojuxta 20 mg har hvid overdel og hvid underdel, mærket “20 mg" på underdelen og “A733“ 
+på overdelen med sort trykfarve. </p>
+</li>
+</ul>
+<p>Pakningsstørrelser:<br />
+28 kapsler </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Amryt Pharmaceuticals DAC 
+45 Mespil Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller </p>
+<p>Diapharm GmbH &amp; Co. KG 
+Am Mittelhafen 48155 Münster 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Lietuva 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +370 661 663 pv.global@exceedorphan.com </p>
+<p>България 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Teл.: +359 888 918 pv.global@exceedorphan.com  </p>
+<p>Luxembourg/Luxemburg 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +420 724 321 pv.global@exceedorphan.com<br />
+Magyarország 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +36 20 399 4269<br />
+pv.global@exceedorphan.com </p>
+<p>Danmark 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Malta 
+Amryt Pharmaceuticals DAC 
+Tel: +44 1604 549medinfo@amrytpharma.com </p>
+<p>Deutschland 
+Chiesi GmbH<br />
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V.<br />
+Tel: + 31 88 501 64<br />
+Eesti 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +370 661 663 pv.global@exceedorphan.com  </p>
+<p>Norge 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Amryt Pharmaceuticals DAC 
+Tηλ: +800 44 474447<br />
+Tηλ: +44 1604 549medinfo@amrytpharma.com </p>
+<p>Österreich 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+España 
+Chiesi España, S.A.U.<br />
+Tel: + 34 93 494 8 
+Polska 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +48 502 188 pv.global@exceedorphan.com </p>
+<p>France 
+Chiesi S.A.S.<br />
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2  </p>
+<p>Hrvatska 
+ExCEEd Orphan Distribution d.o.o. 
+Savska cesta 32, Zagreb, 100 Croatia<br />
+Tel: +385 99 320 0pv.global@exceedorphan.com 
+România 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +40 744 366 pv.global@exceedorphan.com </p>
+<p>Ireland 
+Chiesi Farmaceutici S.p.A. <br />
+Tel: + 39 0521 2 
+Slovenija 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +386 30 210 pv.global@exceedorphan.com </p>
+<p>Ísland 
+Chiesi Pharma AB<br />
+Sími: +46 8 753 35 Slovenská republika 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +420 608 076 pv.global@exceedorphan.com </p>
+<p>Italia 
+Chiesi Italia S.p.A.<br />
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB<br />
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Amryt Pharmaceuticals DAC 
+Tηλ: +800 44 474447<br />
+Tηλ: +44 1604 549medinfo@amrytpharma.com </p>
+<p>Sverige 
+Chiesi Pharma AB<br />
+Tel: +46 8 753 35  </p>
+<p>Latvija 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +370 661 663 pv.global@exceedorphan.com </p>
+<p>United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
+<p>Dette lægemiddel er godkendt under "særlige vilkår". 
+Det betyder, at det grundet sygdommens sjældenhed ikke har været muligt at opnå fuldstændig 
+dokumentation for lægemidlet. Det Europæiske Lægemiddelagentur vil hvert år vurdere nye 
+oplysninger om lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder 
+Du kan finde yderligere information om dette lægemiddel på Det europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Lojuxta, kapsler, hårde, 30 mg 
+Lojuxta, kapsler, hårde, 40 mg 
+Lojuxta, kapsler, hårde, 60 mg 
+lomitapid  </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes 
+nye oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst 
+i afsnit 4, hvordan du indberetter bivirkninger.  </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-02b234fa664dab0f39045c8374bebc79
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lojuxta Package Leaflet for language en"
+Description: "ePI document Bundle for lojuxta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-02b234fa664dab0f39045c8374bebc79"
+* entry[0].resource = composition-en-02b234fa664dab0f39045c8374bebc79
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp02b234fa664dab0f39045c8374bebc79"
+* entry[=].resource = mp02b234fa664dab0f39045c8374bebc79
+                            
+                    
+Instance: bundlepackageleaflet-da-02b234fa664dab0f39045c8374bebc79
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lojuxta Package Leaflet for language da"
+Description: "ePI document Bundle for lojuxta Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-02b234fa664dab0f39045c8374bebc79"
+* entry[0].resource = composition-da-02b234fa664dab0f39045c8374bebc79
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp02b234fa664dab0f39045c8374bebc79"
+* entry[=].resource = mp02b234fa664dab0f39045c8374bebc79
+                            
+                    
+
+
+
+Instance: mp02b234fa664dab0f39045c8374bebc79
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Lojuxta 5 mg hard capsules"
-Description: "Lojuxta 5 mg hard capsules"
+Title: "Medicinal Product lojuxta"
+Description: "lojuxta"
 Usage: #inline
 
  
@@ -499,7 +1325,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Lojuxta 5 mg hard capsules"
+  * productName = "lojuxta"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -526,29 +1352,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-02b234fa664dab0f39045c8374bebc79
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lojuxta Package Leaflet for language en"
-Description: "ePI document Bundle for lojuxta Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 02b234fa664dab0f39045c8374bebc79ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/851/001 – Lojuxta 5 mg hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lojuxta"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-02b234fa664dab0f39045c8374bebc79"
-* entry[0].resource = composition-en-02b234fa664dab0f39045c8374bebc79
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe90d4d9295c7cb16ac4740d1f4f0d822"
-* entry[=].resource = mpe90d4d9295c7cb16ac4740d1f4f0d822
-                            
-                      
+* title = "List of all ePIs associated with lojuxta"
+
+* subject = Reference(mpe90d4d9295c7cb16ac4740d1f4f0d822)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lojuxta "lojuxta"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-02b234fa664dab0f39045c8374bebc79) // lojuxta en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-02b234fa664dab0f39045c8374bebc79) // lojuxta da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-02b234fa664dab0f39045c8374bebc79
+InstanceOf: List
+
+* insert 02b234fa664dab0f39045c8374bebc79ListRuleset
+    

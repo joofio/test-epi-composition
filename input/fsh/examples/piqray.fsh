@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6b73080af14d1aa8b030e2126902e0b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for piqray Package Leaflet"
@@ -520,12 +523,609 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-6b73080af14d1aa8b030e2126902e0b9
+InstanceOf: CompositionUvEpi
+Title: "Composition for piqray Package Leaflet"
+Description:  "Composition for piqray Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp117d9d9ac74caff6093eafb6b07937dd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp117d9d9ac74caff6093eafb6b07937dd
+* title = "TEST PURPOSES ONLY - piqray"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Piqray </li>
+<li>Sådan skal du tage Piqray </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What piqray is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What piqray is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Piqray er 
+Piqray indeholder det aktive stof alpelisib, der tilhører en gruppe af lægemidler, som kaldes 
+fosfatidylinositol-3-kinase (PI3K)-hæmmere. </p>
+<p>Anvendelse 
+Piqray anvendes til behandling af postmenopausale kvinder, og mænd, med en type brystkræft, der 
+kaldes for fremskreden, hormonreceptor (HR)-positiv, human epidermal vækstfaktorreceptor 2 
+(HER2)-negativ brystkræft. Piqray anvendes i kombination med fulvestrant, en hormonel behandling 
+mod kræft, til patienter med kræft som ikke har reageret på andre hormonbehandlinger, og som har 
+bestemte ændringer (mutationer) i et gen kaldet PIK3CA. </p>
+<p>Lægen vil tage en blodprøve og/eller tumorvævsprøve, som vil blive testet for disse PIK3CA 
+mutationer. Hvis resultatet er positivt, vil behandling med Piqray sandsynligvis have virkning på din 
+kræftsygdom. </p>
+<p>Virkning 
+Piqray virker ved at blokere virkningen af enzymer, der kaldes for fosfatidylinositol-3-kinaser (PI3K). 
+Disse enzymer får kræftceller til at vokse og dele sig. Ved at blokere deres virkning kan Piqray 
+reducere vækst og spredning af kræft og hjælpe med at ødelægge kræftceller. </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du har spørgsmål til, hvordan Piqray 
+virker, eller hvorfor du har fået ordineret dette lægemiddel. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take piqray"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take piqray"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følg nøje alle de anvisninger, du får af lægen, da de kan afvige fra de generelle oplysninger i denne 
+indlægsseddel. Spørg din læge, hvis du er i tvivl. </p>
+<p>Tag ikke Piqray:</p>
+<ul>
+<li>hvis du er allergisk over for alpelisib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i afsnit 6). Spørg lægen til råds, hvis du tror, at du kan være allergisk. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Piqray. </p>
+<p>Hvis noget af det følgende gælder for dig, før du tager Piqray, skal du fortælle det til din læge eller 
+apotekspersonalet:</p>
+<ul>
+<li>Hvis du har eller nogensinde har haft et højt indhold af sukker i blodet eller diabetes (eller tegn 
+på højt blodsukker, såsom udpræget tørst og mundtørhed, hyppigere vandladning, producerer 
+større mængder urin end normalt, træthed, kvalme, øget appetit ledsaget af vægttab). </li>
+<li>Hvis du nogensinde har haft Stevens-Johnsons syndrom (SJS), erythema multiforme (EM), 
+lægemiddelreaktion med eosinofili og systemiske symptomer (DRESS) eller toksisk epidermal 
+nekrolyse (TEN; mulige symptomer omfatter rød hud, blisterdannelse på læberne, omkring 
+øjnene eller i munden, hudafskalning med eller uden feber, udslæt). </li>
+<li>Hvis du har en alvorlig knoglesygdom, som påvirker kæben (osteonekrose af kæben, ONJ). </li>
+</ul>
+<p>Hvis noget af det følgende gælder for dig under din behandling med Piqray, skal du omgående fortælle 
+det til din læge eller apotekspersonalet:</p>
+<ul>
+<li>Udslæt, kløe, nældefeber, stakåndethed, vejrtrækningsbesvær, pibende vejrtrækning, hoste, 
+omtumlethed, svimmelhed, ændret bevidsthedsniveau, lavt blodtryk, hudrødme, hævelse af 
+ansigt eller svælg, blå misfarvning af læberne, tungen eller huden (kan være tegn på alvorlige 
+allergiske reaktioner). </li>
+<li>Nye eller forandrede vejrtrækningsproblemer, såsom besværet eller smertefuld vejrtrækning, 
+hoste, hurtigt åndedræt, blå misfarvning af læberne, tungen eller huden, hikke (kan være tegn på 
+lungebetændelse, som ikke skyldes en infektion (pneumonitis), eller lungebetændelse, som 
+skyldes en infektion (pneumoni)). </li>
+<li>Øget tørst og mundtørhed, hyppigere vandladning, træthed, øget appetit ledsaget af vægttab, 
+forvirring, kvalme, opkastning, frugtagtig ånde, vejrtrækningsbesvær og tør eller rød hud, som 
+kan være tegn på forhøjet blodsukker (hyperglykæmi) og komplikationer heraf. </li>
+<li>Udslæt, hudrødme, blisterdannelse på læberne, omkring øjnene eller i munden, hudafskalning, 
+undertiden ledsaget af feber (kan være tegn på en af de følgende hudsygdomme: 
+Stevens-Johnsons syndrom (SJS), erythema multiforme (EM), lægemiddelreaktion med 
+eosinofili og systemiske symptomer (DRESS) eller toksisk epidermal nekrolyse (TEN)). </li>
+<li>Nye eller forværrende symptomer, som påvirker munden (såsom løse tænder, smerte eller 
+hævelse, manglende heling af mundsår eller udflåd). </li>
+<li>Alvorlig diarré eller svære mavesmerter eller afføring med slim eller blod, som kan være tegn 
+på betændelse i tarmen (colitis). 
+Lægen kan måske blive nødt til at behandle disse symptomer, afbryde behandlingen midlertidigt, 
+nedsætte din dosis eller stoppe behandlingen med Piqray permanent. </li>
+</ul>
+<p>Blodprøver før og under behandling med Piqray 
+Lægen vil tage blodprøver før behandling og regelmæssigt under behandling med Piqray for at 
+kontrollere indholdet af sukker i dit blod. Afhængigt af resultaterne vil lægen iværksætte nødvendige 
+tiltag, såsom at ordinere et lægemiddel til at sænke blodsukkeret. Om nødvendigt kan lægen beslutte at 
+afbryde behandling med Piqray midlertidigt eller nedsætte din dosis af Piqray for at få dit blodsukker 
+til at falde. Lægen kan også beslutte at stoppe behandlingen med Piqray permanent. </p>
+<p>Sørg for at kontrollere dit blodsukker regelmæssigt før, under og efter behandling med Piqray. 
+- Lægen vil fortælle dig, hvornår og hvor du skal have taget blodprøver. Behandling med Piqray 
+må kun påbegyndes, hvis blodprøverne viser, at dit blodsukkerniveau er, som det skal være. 
+Dette er, fordi Piqray kan forårsage forhøjet blodsukker (hyperglykæmi), som kan være en 
+alvorlig tilstand og kræve behandling. Kun ved hjælp af regelmæssige, fastende blodprøver kan 
+lægen vurdere, om du er ved at udvikle hyperglykæmi. 
+- Din læge vil fortælle dig præcis, hvornår og hvor du skal kontrollere dit blodsukker. Det skal 
+kontrolleres oftere i de første 4 uger af behandlingen og især i de første 2 uger af behandlingen 
+med Piqray. Herefter skal du have taget blodprøver mindst én gang om måneden, afhængigt af 
+dine blodsukkerniveauer. </p>
+<p>Børn og unge 
+Piqray må ikke anvendes til børn og unge under 18 år. </p>
+<p>Brug af andre lægemidler sammen med Piqray 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Det gælder især:</p>
+<ul>
+<li>Eltrombopag, et lægemiddel, der anvendes til behandling af nedsat antal blodplader </li>
+<li>Lægemidler til behandling af brystkræft (som fx lapatinib, ribociclib) </li>
+<li>Everolimus, apalutamid, enzalutamid og mitotan, lægemidler, der anvendes til behandling af 
+bestemte typer af kræft </li>
+<li>Pantoprazol, et lægemiddel, der anvendes til behandling af halsbrand og for meget mavesyre </li>
+<li>Midazolam, et lægemiddel, der anvendes som beroligende middel eller mod søvnforstyrrelser </li>
+<li>Rifampicin, et lægemiddel mod tuberkulose og nogle andre alvorlige infektioner </li>
+<li>Carbamazepin og fenytoin, lægemidler, der anvendes til behandling af anfald eller kramper </li>
+<li>Perikon, et naturlægemiddel, der anvendes til behandling af depression og andre tilstande </li>
+<li>Encorafenib, et lægemiddel, der anvendes til behandling af en bestemt type hudkræft </li>
+<li>Warfarin, et lægemiddel, der virker blodfortyndende </li>
+</ul>
+<p>Spørg lægen eller apotekspersonalet, hvis du er i tvivl, om du tager et af de ovennævnte lægemidler. </p>
+<p>Graviditet, amning og frugtbarhed 
+Piqray må ikke bruges af kvinder, som er gravide, har mistanke om at være gravide, eller ammer. 
+Piqray kan skade dit ufødte barn. Hvis du har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. Kvinder 
+må ikke amme under behandlingen og i mindst en uge efter den sidste dosis af Piqray. Lægen vil 
+informere dig om de mulige risici, der er ved at tage Piqray under graviditet eller amning. </p>
+<p>Hvis du er en kvinde, der kan blive gravid, vil lægen ikke sætte gang i behandling med Piqray, før det 
+er blevet udelukket, at du er gravid. Det betyder, at du eventuelt skal have taget en graviditetstest. </p>
+<p>Kvinder, der kan blive gravide, skal anvende en sikker præventionsmetode under behandling og i 
+mindst 1 uge efter afslutning af behandling med Piqray. Spørg lægen til råds om egnede 
+præventionsmetoder. Kontakt straks lægen, hvis du tror, at du blevet gravid under behandlingen med 
+Piqray. </p>
+<p>Under behandling og i mindst 1 uge efter afslutning af behandling skal mandlige patienter bruge 
+kondom, hvis de har samleje med en kvinde, der kan blive gravid. Hvis en mandlig patients partner har 
+mistanke om, at hun er blevet gravid i denne periode, skal hun straks kontakte lægen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Behandlingen med Piqray kan medføre træthed. Du skal derfor være forsigtig, når du fører 
+motorkøretøj eller betjener maskiner under behandling med Piqray. </p>
+<p>Piqray indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
+er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take piqray"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take piqray"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Så meget Piqray skal du tage 
+Den sædvanlige startdosis af Piqray er 300 mg én gang dagligt. Lægen vil fastlægge den korrekte 
+dosis til dig. </p>
+<p>Antallet af tabletter, du skal tage, afhænger af den dosis, du får ordineret:</p>
+<ul>
+<li>Dosis på 300 mg: to tabletter med 150 mg </li>
+<li>Dosis på 250 mg: én tablet med 200 mg og én tablet med 50 mg </li>
+<li>Dosis på 200 mg: én tablet med 200 mg </li>
+</ul>
+<p>Hvis du kaster op, efter at du har taget Piqray-tablet(ter), må du ikke tage flere tabletter, før det er tid 
+til næste planlagte dosis. </p>
+<p>Lægen vil fastsætte, hvilken dosis fulvestrant du får, og hvornår du skal have den. </p>
+<p>Afhængigt af, hvordan din krop reagerer på behandling med Piqray, kan lægen beslutte at ændre din 
+dosis af Piqray. Det er meget vigtigt, at du følger lægens anvisninger. Hvis du får nogle bestemte 
+bivirkninger, kan lægen beslutte, at du skal have en lavere dosis, at behandlingen skal afbrydes i et 
+stykke tid, eller at behandlingen helt skal stoppe. </p>
+<p>Hvornår du skal tage Piqray 
+Piqray-tabletterne udleveres i pakninger med blisterkort. Blisterkortene viser dig, hvilken tablet/hvilke 
+tabletter, du skal tage på hver ugedag. Følg anvisningerne på blisterkortet. </p>
+<p>Piqray skal tages én gang om dagen straks efter et måltid. Når du tager Piqray på samme tidspunkt 
+hver dag, vil det hjælpe dig med at huske at tage dit lægemiddel. </p>
+<p>Sådan skal du tage Piqray 
+Piqray-tabletterne skal synkes hele. De må ikke tygges, knuses eller deles, før de synkes. Tag ikke en 
+tablet, hvis den er knækket, revnet eller på anden måde beskadiget, da du så måske ikke tager den 
+fulde dosis. </p>
+<p>Så længe skal du tage Piqray 
+Bliv ved med at tage Piqray, så længe lægen siger, at du skal. </p>
+<p>Dette er en langtidsbehandling, der muligvis kan vare i måneder eller år. Lægen vil regelmæssigt 
+undersøge din tilstand for at kontrollere, at behandlingen har den ønskede virkning. </p>
+<p>Kontakt lægen eller apotekspersonalet, hvis du har spørgsmål til, hvor længe du skal tage Piqray. </p>
+<p>Hvis du har taget for meget Piqray 
+Personer, der har taget for mange Piqray-tabletter har oplevet bivirkninger, som er kendte bivirkninger 
+ved Piqray, inklusive forhøjede blodsukkerniveauer, kvalme, træthed og udslæt. Kontakt omgående 
+lægen eller hospitalet for at få rådgivning, hvis du ved et uheld har taget for mange tabletter, eller hvis 
+en anden person er kommet til at tage dit lægemiddel. Lægehjælp kan være nødvendig. </p>
+<p>Hvis du har glemt at tage Piqray 
+Hvis du har glemt at tage en dosis af Piqray, kan du stadig tage den straks efter et måltid, hvis det er 
+mindre end 9 timer siden, at du skulle have taget den. Hvis du først kommer i tanker om den glemte 
+dosis mere end 9 timer efter, at du skulle have taget den, skal du springe den over. Tag den næste dosis 
+på dit sædvanlige tidspunkt næste dag. Du må ikke tage en dobbeltdosis som erstatning for den glemte 
+dosis. </p>
+<p>Hvis du holder op med at tage Piqray 
+Hvis du stopper behandlingen med Piqray, kan din sygdom blive værre. Du må ikke stoppe med at 
+tage Piqray, medmindre lægen har bedt dig om det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige 
+Hvis du får alvorlige bivirkninger, skal du stoppe med at tage dette lægemiddel og straks kontakte 
+lægen. </p>
+<p>Meget almindelige bivirkninger: kan forekomme hos flere end 1 ud af 10 behandlede 
+- Udpræget tørst, hyppigere vandladning eller større mængder urin end sædvanligt, øget appetit 
+ledsaget af vægttab (kan være symptomer på højt blodsukker, også kaldet hyperglykæmi). 
+- Feber, hoste, løbende næse, hævede lymfekirtler, ledsmerter, udslæt, nattesved, vægttab (kan 
+være symptomer på nedsat antal lymfocytter, som er en type hvide blodlegemer) </p>
+<p>Almindelige bivirkninger: kan forekomme hos op til 1 ud af 10 behandlede 
+- Udslæt, kløe, nældefeber, stakåndethed, vejrtrækningsbesvær, pibende vejrtrækning, hoste, 
+omtumlethed, svimmelhed, ændret bevidsthedsniveau, lavt blodtryk, hudrødme, hævelse af 
+ansigtet og/eller svælget, blå misfarvning af læberne, tungen eller huden (kan være tegn på 
+alvorlige allergiske reaktioner). 
+- Vejrtrækningsproblemer, herunder besværet eller smertefuld vejrtrækning, hoste, hurtigt 
+åndedræt, blå misfarvning af læberne, tungen eller huden, hikke (kan være tegn på 
+lungebetændelse). 
+- Mindre hyppig vandladning eller mindre mængder urin end normalt, hævelse i ben, ankler og 
+omkring øjnene, træthed, forvirring, kvalme, krampeanfald, brystsmerter (kan være symptomer 
+på akut nyresvigt). 
+- Smerter, hævelse eller følelsesløshed i kæben, tyngdefornemmelse i kæben eller løsning af en 
+tand (kan være symptomer på "død kæbe" (osteonekrose)). 
+- Udslæt, hudrødme, blisterdannelse på læberne, omkring øjnene eller i munden, hudafskalning 
+(kan være symptomer på erythema multiforme). </p>
+<p>Ikke almindelige bivirkninger: kan forekomme hos op til 1 ud af 100 behandlede 
+- Vejrtrækningsbesvær, hovedpine, kvalme, opkastning (kan være tegn på en tilstand, der hedder 
+ketoacidose, som omfatter et højt indhold af syre i blodet). 
+- Kraftige smerter i den øvre del af maven (kan være symptomer på betændelse i bugspytkirtlen). 
+- Udslæt, hudrødme, blisterdannelse på læberne, omkring øjnene eller i munden, hudafskalning, 
+feber (kan være symptomer på Stevens-Johnsons syndrom). </p>
+<p>Ikke kendt: hyppigheden kan ikke beregnes ud fra forhåndenværende data 
+- Diarré, hyppigere afføringer end normalt, blod i afføringen eller mørkere farvet afføring, 
+smerter eller ømhed i maveregionen (kan være symptomer på colitis, betændelse i tarmene). 
+- Forvirring, mundtørhed, tør eller rød hud, kvalme, opkastning, træthed, hyppigere vandladning, 
+tørst (kan være tegn på en alvorlig form for forhøjet blodsukker (hyperosmolær hyperglykæmisk 
+non-ketotisk syndrom (HHNKS)) 
+- Hævelse af ansigtet eller halsen og vejrtrækningsbesvær (kan være symptomer på angioødem, 
+en type af alvorlig allergisk reaktion). 
+- Udslæt, feber (mulige symptomer på lægemiddeludslæt med eosinofili og systemiske 
+symptomer (DRESS)) </p>
+<p>Øvrige bivirkninger 
+Øvrige bivirkninger er anført nedenfor. Hvis disse bivirkninger bliver alvorlige, skal du fortælle det til 
+lægen, apotekspersonalet eller sygeplejersken. </p>
+<p>Meget almindelige bivirkninger:</p>
+<ul>
+<li>Smertefuld og hyppig vandladning (kan være tegn på urinvejsinfektion) </li>
+<li>Træthed, bleg hud (kan være tegn på blodmangel (anæmi), som er en tilstand med lavt antal 
+røde blodlegemer) </li>
+<li>Spontan blødning eller tendens til blå mærker (tegn på lavt antal trombocytter, også kaldet 
+blodplader, i blodet) </li>
+<li>Manglende appetit </li>
+<li>Hovedpine </li>
+<li>Mærkelig smag i munden (dysgeusi) </li>
+<li>Diarré </li>
+<li>Kvalme </li>
+<li>Opkastning </li>
+<li>Mundsår eller sår med tandkødsbetændelse (stomatitis) </li>
+<li>Mavesmerter </li>
+<li>Dårlig mave, fordøjelsesbesvær (dyspepsi) </li>
+<li>Udslæt </li>
+<li>Hårtab eller udtynding af håret (alopeci) </li>
+<li>Kløe (pruritus) </li>
+<li>Tør hud </li>
+<li>Træthed (fatigue) </li>
+<li>Smerte, rødme og hævelse i luftvejenes eller spiserørets, eller i kønsorganernes slimhinder 
+(slimhindebetændelse) </li>
+<li>Hævede hænder, ankler eller fødder (perifert ødem) </li>
+<li>Feber (pyreksi) </li>
+<li>Tørre slimhinder </li>
+<li>Vægttab </li>
+<li>Nedsat indhold af calcium i blodet, hvilket nogle gange kan give kramper (hypokalcæmi) </li>
+<li>Nedsat indhold af kalium i blodet, hvilket er forbundet med muskelsvaghed, muskelkramper 
+og/eller hjerterytmeforstyrrelser (hypokaliæmi) </li>
+</ul>
+<p>Almindelige bivirkninger:</p>
+<ul>
+<li>Dehydrering </li>
+<li>Problemer med at falde i søvn (søvnløshed) </li>
+<li>Tørre øjne </li>
+<li>Sløret syn </li>
+<li>Hovedpine, svimmelhed (kan være symptomer på forhøjet blodtryk) </li>
+<li>Hævelse af en del af eller hele armen (inkl. fingrene) eller benet (inkl. tæerne), 
+tyngdefornemmelse, begrænset bevægelighed, ubehag, fortykkelse af huden og tilbagevendende 
+infektioner (kan være symptomer på lymfødem) </li>
+<li>Tandpine </li>
+<li>Blødende, ømt eller hævet tandkød (tegn på tandkødsbetændelse) </li>
+<li>Revnede, sprukne læber (cheilitis) </li>
+<li>Smerter i tandkødet </li>
+<li>Hudrødme </li>
+<li>Hudbetændelse med udslæt (dermatitis) </li>
+<li>Rødme og/eller hævelse samt eventuel hudafskalning i håndflader eller fodsåler, hvilket kan 
+være ledsaget af en prikkende fornemmelse og brændende smerte (tegn på hånd-fod-syndrom) </li>
+<li>Muskelkramper </li>
+<li>Muskelsmerter (myalgi) </li>
+<li>Generaliseret hævelse (ødem) </li>
+</ul>
+<p>Resultaterne af visse blodprøver kan være unormale under behandling med Piqray: </p>
+<p>Meget almindelige bivirkninger:</p>
+<ul>
+<li>Højt indhold af følgende enzymer i blodet: gamma-glutamyltransferase, alanin-
+aminotransferase, lipase </li>
+<li>Højt indhold af sukker i blodet </li>
+<li>Højt indhold af kreatinin og/eller calcium i blodet </li>
+<li>Lavt indhold af lymfocytter, blodplader, sukker, hæmoglobin og/eller albumin i blodet </li>
+<li>Forlænget aktiveret partiel tromboplastintid (en måling af blodets størkningsevne) </li>
+</ul>
+<p>Almindelige bivirkninger:</p>
+<ul>
+<li>Højt indhold af glykosyleret hæmoglobin (en markør for blodsukkerniveauet over de sidste 8 til 
+12 uger) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store piqray"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store piqray"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængelig for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterkortet efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Tag ikke lægemidlet, hvis du bemærker pakningen er beskadiget, eller hvis der er tegn på, at den har 
+været åbnet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Piqray indeholder:</p>
+<ul>
+<li>Aktivt stof: alpelisib. </li>
+<li>Piqray 50 mg filmovertrukne tabletter: Hver tablet indeholder 50 mg alpelisib. </li>
+<li>Piqray 150 mg filmovertrukne tabletter: Hver tablet indeholder 150 mg alpelisib. </li>
+<li>Piqray 200 mg filmovertrukne tabletter: Hver tablet indeholder 200 mg alpelisib. </li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>Tabletkerne: mikrokrystallinsk cellulose, mannitol, natriumstivelsesglycolat, 
+hypromellose, magnesiumstearat. </p>
+</li>
+<li>Filmovertræk: hypromellose, jernoxid rød og sort (E172), titandioxid (E171), macrogol, 
+talcum. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Piqray 50 mg filmovertrukne tabletter er svagt lyserøde, runde tabletter, der er mærket “L7" på den 
+ene side og “NVR" på den anden side. Omtrentlig diameter: 7,2 mm. </p>
+<p>Piqray 150 mg filmovertrukne tabletter er blegrøde, ovale tabletter, der er mærket “UL7" på den ene 
+side og “NVR" på den anden side. Omtrentlig størrelse: 14,2 mm (længde); 5,7 mm (bredde). </p>
+<p>Piqray 200 mg filmovertrukne tabletter er svagt røde, ovale tabletter, der er mærket “YL7" på den ene 
+side og “NVR" på den anden side. Omtrentlig størrelse: 16,2 mm (længde); 6,5 mm (bredde). </p>
+<p>Piqray filmovertrukne tabletter udleveres i blisterpakninger. Piqray fås i følgende pakningsstørrelser:</p>
+<ul>
+<li>Pakninger med 50 mg og 200 mg filmovertrukne tabletter (til patienter, der får en daglig dosis 
+på 250 mg). </li>
+<li>Pakninger til 14 dages behandling: 28 filmovertrukne tabletter (14 tabletter med 50 mg og 
+14 tabletter med 200 mg). </li>
+<li>Pakninger til 28 dages behandling: 56 filmovertrukne tabletter (28 tabletter med 50 mg og 
+28 tabletter med 200 mg). </li>
+<li>Multipakninger med 168 filmovertrukne tabletter (3 x 56; hver enkeltpakning indeholder 
+28 tabletter med 50 mg og 28 tabletter med 200 mg). </li>
+<li>Pakninger med 150 mg filmovertrukne tabletter (til patienter, der får en daglig dosis på 
+300 mg). </li>
+<li>Pakninger til 14 dages behandling: 28 filmovertrukne tabletter. </li>
+<li>Pakninger til 28 dages behandling: 56 filmovertrukne tabletter. </li>
+<li>Multipakninger med 168 (3 x 56) filmovertrukne tabletter. </li>
+<li>Pakninger med 200 mg filmovertrukne tabletter (til patienter, der får en daglig dosis på 
+200 mg). </li>
+<li>Pakninger til 14 dages behandling: 14 filmovertrukne tabletter. </li>
+<li>Pakninger til 28 dages behandling: 28 filmovertrukne tabletter. </li>
+<li>Multipakninger med 84 (3 x 28) filmovertrukne tabletter. </li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nürnberg 
+Tyskland </p>
+<p>Lek Pharmaceuticals d.d. 
+Verovskova ulica 1526 Ljubljana 
+Slovenien </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova ulica 1000 Ljubljana 
+Slovenien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6b73080af14d1aa8b030e2126902e0b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for piqray Package Leaflet for language en"
+Description: "ePI document Bundle for piqray Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6b73080af14d1aa8b030e2126902e0b9"
+* entry[0].resource = composition-en-6b73080af14d1aa8b030e2126902e0b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6b73080af14d1aa8b030e2126902e0b9"
+* entry[=].resource = mp6b73080af14d1aa8b030e2126902e0b9
+                            
+                    
+Instance: bundlepackageleaflet-da-6b73080af14d1aa8b030e2126902e0b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for piqray Package Leaflet for language da"
+Description: "ePI document Bundle for piqray Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6b73080af14d1aa8b030e2126902e0b9"
+* entry[0].resource = composition-da-6b73080af14d1aa8b030e2126902e0b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6b73080af14d1aa8b030e2126902e0b9"
+* entry[=].resource = mp6b73080af14d1aa8b030e2126902e0b9
+                            
+                    
+
+
+
+Instance: mp6b73080af14d1aa8b030e2126902e0b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Piqray 50 mg film-coated tablets"
-Description: "Piqray 50 mg film-coated tablets"
+Title: "Medicinal Product piqray"
+Description: "piqray"
 Usage: #inline
 
  
@@ -545,7 +1145,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Piqray 50 mg film-coated tablets"
+  * productName = "piqray"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -572,29 +1172,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6b73080af14d1aa8b030e2126902e0b9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for piqray Package Leaflet for language en"
-Description: "ePI document Bundle for piqray Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6b73080af14d1aa8b030e2126902e0b9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1455/001-009"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "piqray"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6b73080af14d1aa8b030e2126902e0b9"
-* entry[0].resource = composition-en-6b73080af14d1aa8b030e2126902e0b9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp117d9d9ac74caff6093eafb6b07937dd"
-* entry[=].resource = mp117d9d9ac74caff6093eafb6b07937dd
-                            
-                      
+* title = "List of all ePIs associated with piqray"
+
+* subject = Reference(mp117d9d9ac74caff6093eafb6b07937dd)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#piqray "piqray"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6b73080af14d1aa8b030e2126902e0b9) // piqray en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6b73080af14d1aa8b030e2126902e0b9) // piqray da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6b73080af14d1aa8b030e2126902e0b9
+InstanceOf: List
+
+* insert 6b73080af14d1aa8b030e2126902e0b9ListRuleset
+    

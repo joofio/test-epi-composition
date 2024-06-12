@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-245a99986bb61c23af35c57856a26746
 InstanceOf: CompositionUvEpi
 Title: "Composition for ifirmasta Package Leaflet"
@@ -354,12 +357,474 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-245a99986bb61c23af35c57856a26746
+InstanceOf: CompositionUvEpi
+Title: "Composition for ifirmasta Package Leaflet"
+Description:  "Composition for ifirmasta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp35471285fadd8ddd93549a7df213273b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp35471285fadd8ddd93549a7df213273b
+* title = "TEST PURPOSES ONLY - ifirmasta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal De vide, før De begynder at tage Ifirmasta
+3. Sådan skal De tage Ifirmasta
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ifirmasta is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ifirmasta is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ifirmasta tilhører en medicingruppe, der kaldes angiotensin-II receptorantagonister. Angiotensin-II er 
+et stof, der produceres i kroppen, og som binder sig til receptorer i blodårerne og får dem til at trække 
+sig sammen. Dette medfører, at blodtrykket øges. Ifirmasta forebygger at angiotensin-II binder sig til 
+disse receptorer. Derved afslappes blodårerne, og blodtrykket falder.
+Ifirmasta mindsker faldende nyrefunktion hos patienter med forhøjet blodtryk og type 2- diabetes 
+(sukkersyge).
+Ifirmasta anvendes til voksne patienter
+-
+til at behandling af forhøjet blodtryk (hypertension).
+-
+til at beskytte nyrerne hos patienter med for højt blodtryk, type 2-diabetes og blodprøver, der 
+viser nedsat nyrefunktion.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ifirmasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ifirmasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Ifirmasta</h2>
+<p>hvis De er allergisk over for irbesartan eller et af de øvrige indholdsstoffer i Ifirmasta (angivet i 
+afsnit 6).
+-
+hvis du er længere end 3 måneder henne i din graviditet. (Det er også bedre at lade være med 
+at tage Ifirmasta i begyndelsen af graviditeten - se afsnittet om graviditet)
+-
+hvis du har sukkersyge eller nedsat nyrefunktion, og du også tager et blodtrykssænkende 
+lægemiddel, der indeholder aliskiren
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apoteketspersonalet, før De tager Ifirmasta, hvis noget af det følgende gælder for 
+dig:
+-
+hvis du får hyppig opkastning eller diarré
+-
+hvis du lider as nyrenproblemer
+-
+hvis du lider af hjerteproblemer
+-
+hvis du får Ifirmasta for diabetisk nyresygdom. I dette tilfælde kan lægen tage regelmæssige 
+blodprøver med særlig henblik på at måle kaliumniveauet i blodet, hvis nyrefunktionen er 
+nedsat
+30
+-
+hvis du udvikler lavt blodsukkerniveau (symptomerne kan inkludere svedtendens, svaghed, 
+sult, svimmelhed, skælven, hovedpine, rødmen eller bleghed, følelsesløshed, hurtige og 
+hamrende hjerteslag), især hvis du er i behandling for diabetes
+-
+hvis du skal opereres eller bedøves
+-
+hvis du samtidig tager et af følgende lægemidler til behandling af for højt blodtryk:
+-
+en ACE-hæmmer (f.eks. enalapril, lisinopril, ramipril), især hvis du har nyrerproblemer 
+i forbindelse med sukkersyge
+-
+aliskiren
+Din læge vil eventuelt måle din nyrefunktion, dit blodtryk og elektrolytter (f.eks. kalium) i dit blod 
+med jævne mellemrum.
+Se også information under overskriften "Tag ikke Ifirmasta".
+Du skal fortælle det til din læge, hvis du tror du er gravid eller planlægger at blive gravid. Ifirmasta 
+bør ikke bruges tidligt i graviditeten, og du må ikke tage Ifirmasta, hvis du er længere end 3 måneder 
+henne i din graviditet, da det kan skade dit barn alvorligt, hvis det bruges i den periode (se afsnittet om 
+graviditet).
+Børn og unge
+Dette lægemiddel bør ikke anvendes til børn og unge (&lt; 18 år), da sikkerhed og virkning ikke er blevet 
+fuldstændig klarlagt.
+Brug af anden medicin sammen med Ifirmasta
+Fortæl det altid til lægen eller apoteket, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin.
+Det er muligt, at lægen er nødt til at ændre din dosis og/eller tage andre forholdsregler:
+-
+Hvis du samtidig tager en ACE-hæmmer eller aliskiren (se også information under 
+overskrifterne "Tag ikke Ifirmasta" og "Advarsler og forsigtighedsregler").
+Det kan være hensigtsmæssigt at tage blodprøver, hvis du tager:
+-
+kaliumtilskud
+-
+salterstatninger, der indeholder kalium
+-
+kaliumsparende medicin (som visse vanddrivende lægemidler)
+-
+medicin, der indeholder lithium
+-
+repaglinid (medicin, der anvendes til at sænke blodsukkerniveauet).
+Hvis du tager en bestemt slags smertestillende medicin, der kaldes non-steroide anti-inflammatoriske 
+lægemidler, kan virkningen af irbesartan nedsættes.
+Graviditet og amning
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel.
+Graviditet
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager Ifirmasta. Din læge vil normalt anbefale, at du stopper med at 
+tage Ifirmasta, inden du bliver gravid, eller så snart du ved, at du er gravid, og anbefale, at du tager 
+anden medicin i stedet for Ifirmasta. 
+Ifirmasta frarådes tidligt i graviditeten,, og du må ikke tage det, hvis du er længere end 3 måneder 
+henne i graviditeten, da det kan skade dit barn alvorligt, hvis du tager det efter tredje måned af 
+graviditeten.
+Amning
+Fortæl det til lægen, hvis du ammer eller skal til at amme. Ifirmasta anbefales ikke til ammende 
+mødre, og lægen vil sædvanligvis vælge en anden behandling til dig, hvis du ønsker at amme dit barn, 
+især hvis dit barn er nyfødt eller født for tidligt.
+31
+Trafik- og arbejdssikkerhed
+Ifirmasta påvirker sandsynligvis ikke Deres evne til at køre bil eller betjene maskiner.
+Men man kan opleve svimmelhed eller træthed, når man behandles for forhøjet blodtryk. Hvis du 
+bliver svimmel eller træt, skal du kontakte lægen, inden du kører bil eller betjener maskiner.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ifirmasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ifirmasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægen eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apoteket.
+Sådan tages tabletterne
+Ifirmasta skal tages gennem munden. Du kan tage Ifirmasta med eller uden mad. Tabletterne skal 
+tages med 1 glas vand. Prøv at tage medicinen på ca. samme tidspunkt hver dag. Det er vigtigt, at du 
+fortsætter med at tage Ifirmasta, indtil lægen siger, at du kan stoppe.
+-
+Patienter med højt blodtryk
+Den sædvanlige dosis er 150 mg 1 gang dagligt (to tabletter dagligt). Dosis kan senere øges til 
+300 mg 1 gang dagligt (fire tabletter dagligt) i henhold til blodtryksmålingerne.
+-
+Patienter med højt blodtryk og type 2-diabetes med nyresygom
+Hos patienter med forhøjet blodtryk og type 2-diabetes, er 300 mg 1 gang dagligt (fire 
+tabletter dagligt) den foretrukne vedligeholdelsesdosis til behandling af ledsagende 
+nyresygdom.
+Lægen kan anbefale en lavere dosis, specielt ved behandlingsstart af patienter, som bliver behandlet 
+med hæmodialyse eller til ældre patienter over 75 år.
+Den maksimale blodtryksnedsættende virkning skal være nået 4-6 uger efter behandlingsstart.
+Børn og unge må ikke få Ifirmasta
+Ifirmasta må ikke gives til børn under 18 år. Hvis et barn sluger en eller flere tabletter, skal du straks 
+kontakte lægen.
+Hvis De har taget for meget Ifirmasta
+Hvis du ved et uheld har taget for mange tabletter, skal du omgående kontakte lægen.
+Hvis De har glemt at tage Ifirmasta
+Hvis du har glemt at tage en dosis, skal du blot tage den næste til sædvanlig tid. Du må ikke tage en 
+dobbeltdosis som erstatning for den glemte dosis.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Nogle af disse bivirkninger kan være alvorlige og kan kræve medicinsk behandling.
+Som ved anden medicin af samme type, er der hos patienter, der har modtaget behandling med 
+irbesartan, rapporteret sjældne tilfælde af allergiske hudreaktioner (udslæt, nældefeber) samt 
+opsvulmet ansigt, læber og/eller tunge. Hvis du får et eller flere af disse symptomer eller hvis du får 
+åndenød, skal du holde op med at tage irbesartan og straks søge lægehjælp.
+Hyppigheden af nedenstående bivirkninger er angivet på følgende måde:
+Meget almindelig: kan påvirke flere end 1 ud af 10 patienter
+32
+Almindelig: kan påvirke op til 1 ud af 10 patienter
+Ikke almindelig: kan påvirke op til 1 ud af 100 patienter
+Følgende bivirkninger blev indberettet i kliniske forsøg med patienter, som fik behandling med
+Irbesartan:
+-
+Meget almindelig (kan påvirke flere end 1 ud af 10 patienter): hvis du har højt blodtryk og 
+type 2 diabetes med nyresygdom, kan blodprøver vise, at du har for meget kalium i blodet.
+-
+Almindelig (kan påvirke op til 1 ud af 10 patienter): Svimmelhed, utilpashed/opkastning, 
+træthed og blodprøver, der viser en forhøjet mængde af et enzym, der måler muskel- og 
+hjertefunktionen (kreatinin-kinase-enzym). Hos patienter med forhøjet blodtryk og type 2-
+diabetes med nyresygdom, blev der også indberettet svimmelhed når man rejser sig op fra 
+liggende eller siddende stilling, lavt blodtryk når man rejser sig op fra liggende eller siddende 
+stilling, led- og muskelsmerter og en nedsat mængde protein i de røde blodlegemer 
+(hæmoglobin).
+-
+Ikke almindelig (kan påvirke op til 1 ud af 100 patienter): Hurtig hjerterytme, rødme, hoste, 
+diarré, fordøjelsesbesvær/halsbrand, seksuelle problemer, brystsmerter.
+Der er indberettet bivirkninger efter markedsføring af irbesartan. Bivirkninger, hvor hyppigheden ikke 
+er kendt: følelse af, at omgivelserne kører rundt, hovedpine, smagsforstyrrelser, ringen for ørerne, 
+muskelkramper, led- og muskelsmerter, nedsat antal røde blodlegemer (blodmangel- symptomerne
+kan inkludere træthed, hovedpine, stakåndethed under motion, svimmelhed og bleghed), nedsat antal 
+blodplader, unormal leverfunktion, forhøjet mængde af kalium i blodet, nedsat nyrefunktion, 
+betændelseslignende tilstand i de små blodkar, der primært påvirker huden (en tilstand der kaldes 
+leukocytoklastisk vaskulitis), alvorlige allergiske reaktioner (anafylaktisk shock) samt lavt
+blodsukkerniveau. Der er i sjældne tilfælde også indberettet gulsot (gulfarvning af huden og/eller det 
+hvide i øjnene).
+Indberetning af bivirkninger
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ifirmasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ifirmasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Ifirmasta utilgængeligt for børn.
+Brug ikke Ifirmasta efter den udløbsdato, der står på pakningen og på blisteren efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Må ikke opbevares over 30 ºC.
+Opbevares i den originale yderpakning for at beskytte mod fugt.
+Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Ifirmasta indeholder:</h2>
+<p>Aktivt stof: Irbesartan. Hver filmovertrukken tablet indeholder 75 mg irbesartan som 
+irbesartanhydrochlorid.
+33
+-
+Øvrige indholdsstoffer: Mannitol, hydroxypropylcellulose, lav-substitueret 
+hydroxypropylcellulose (LH-21), lav-substitueret hydroxypropylcellulose (LH-11), talcum, 
+macrogol 6000, hydrogeneret ricinusolie i tabletkernen og polyvinylalkohol, titandioxid (E171), 
+macrogol 3000 og talcum i filmovertrækket.
+Udseende og pakningsstørrelse
+Ifirmasta 75 mg filmovertrukne tabletter er: hvide, ovale filmovertrukne tabletter.
+Ifirmasta 75 mg filmovertrukne tabletter: leveres i æsker af 14, 28, 30, 56, 84, 90 og 98 filmovertrukne 
+tabletter i blisterlort samt i æsker á 56 x 1 filmovertrukne tabletter i perforerede enkeltdosis-
+blisterkort.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Slovenien
+Fremstiller
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Slovenien
+TAD Pharma GmbH, Heinz-Lohmann-Straße 5, 27472 Cuxhaven, Tyskland
+Hvis De ønsker yderligere oplysninger om Ifirmasta, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62
+Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27 40
+България
+КРКА България ЕООД
+Teл.: + 359 (02) 962 34 50
+Luxembourg/Luxemburg
+KRKA Belgium, SA.
+Tél/Tel: + 32 (0) 487 50 73 62 (BE)
+Česká republika
+KRKA ČR, s.r.o.
+Tel: + 420 (0) 221 115 150
+Magyarország
+KRKA Magyarország Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8490
+Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E. J. Busuttil Ltd.
+Tel: + 356 21 445 885
+Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: + 32 (0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 658
+Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Ελλάδα
+KRKA ΕΛΛΑΣ ΕΠΕ
+Τηλ: + 30 2100101613
+Österreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 300
+España
+KRKA Farmacéutica, S.L.
+Tel: + 34 911 61 03 80
+Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7500
+34
+France
+KRKA France Eurl
+Tél: + 33 (0)1 57 40 82 25
+Portugal
+KRKA Farmacêutica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 650
+Hrvatska
+KRKA - FARMA d.o.o.
+Tel: + 385 1 6312 100
+România
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 05
+Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51 100
+Ísland
+LYFIS ehf.
+Sími: + 354 534 3500
+Slovenská republika
+KRKA Slovensko, s.r.o.
+Tel: + 421 (0) 2 571 04 501
+Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8841
+Suomi/Finland
+KRKA Finland Oy
+Puh/Tel: + 358 20 754 5330
+Κύπρος
+KI.PA. (PHARMACAL) LIMITED
+Τηλ: + 357 24 651 882
+Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 10
+United Kingdom (Northern Ireland)
+Consilient Health Limited
+Tel: + 353 (0)1 2057760
+Denne indlægsseddel blev senest ændret
+De kan finde yderligere oplysninger om Ifirmasta på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.
+35
+Indlægsseddel: Information til brugeren
+Ifirmasta 150 mg filmovertrukne tabletter
+irbesartan
+Læs denne indlægsseddel grundigt, inden De begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. De kan få brug for at læse den igen.
+-
+Spørg lægen eller på apotekspersonalet, hvis der er mere, De vil vide.
+-
+Lægen har ordineret Ifirmasta til Dem personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har.
+-
+Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller De får 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-245a99986bb61c23af35c57856a26746
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ifirmasta Package Leaflet for language en"
+Description: "ePI document Bundle for ifirmasta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-245a99986bb61c23af35c57856a26746"
+* entry[0].resource = composition-en-245a99986bb61c23af35c57856a26746
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp245a99986bb61c23af35c57856a26746"
+* entry[=].resource = mp245a99986bb61c23af35c57856a26746
+                            
+                    
+Instance: bundlepackageleaflet-da-245a99986bb61c23af35c57856a26746
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ifirmasta Package Leaflet for language da"
+Description: "ePI document Bundle for ifirmasta Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-245a99986bb61c23af35c57856a26746"
+* entry[0].resource = composition-da-245a99986bb61c23af35c57856a26746
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp245a99986bb61c23af35c57856a26746"
+* entry[=].resource = mp245a99986bb61c23af35c57856a26746
+                            
+                    
+
+
+
+Instance: mp245a99986bb61c23af35c57856a26746
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ifirmasta 75 mg film-coated tablets"
-Description: "Ifirmasta 75 mg film-coated tablets"
+Title: "Medicinal Product ifirmasta"
+Description: "ifirmasta"
 Usage: #inline
 
  
@@ -379,7 +844,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ifirmasta 75 mg film-coated tablets"
+  * productName = "ifirmasta"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -406,29 +871,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-245a99986bb61c23af35c57856a26746
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ifirmasta Package Leaflet for language en"
-Description: "ePI document Bundle for ifirmasta Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 245a99986bb61c23af35c57856a26746ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Ifirmasta 75 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ifirmasta"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-245a99986bb61c23af35c57856a26746"
-* entry[0].resource = composition-en-245a99986bb61c23af35c57856a26746
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp35471285fadd8ddd93549a7df213273b"
-* entry[=].resource = mp35471285fadd8ddd93549a7df213273b
-                            
-                      
+* title = "List of all ePIs associated with ifirmasta"
+
+* subject = Reference(mp35471285fadd8ddd93549a7df213273b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ifirmasta "ifirmasta"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-245a99986bb61c23af35c57856a26746) // ifirmasta en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-245a99986bb61c23af35c57856a26746) // ifirmasta da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-245a99986bb61c23af35c57856a26746
+InstanceOf: List
+
+* insert 245a99986bb61c23af35c57856a26746ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-98dff93ef4eecdfe1514d96f0f89664a
 InstanceOf: CompositionUvEpi
 Title: "Composition for capecitabine Package Leaflet"
@@ -466,12 +469,714 @@ Tel: +44 2075407This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-98dff93ef4eecdfe1514d96f0f89664a
+InstanceOf: CompositionUvEpi
+Title: "Composition for capecitabine Package Leaflet"
+Description:  "Composition for capecitabine Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp153d09a983afb55ffe88901119992a75)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp153d09a983afb55ffe88901119992a75
+* title = "TEST PURPOSES ONLY - capecitabine"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Capecitabine Teva 
+3. Sådan skal du tage Capecitabine Teva 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What capecitabine is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What capecitabine is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Capecitabine Teva tilhører en gruppe lægemidler som kaldes “cytostatika”, som standser væksten af 
+kræftceller. Capecitabine Teva indeholder capecitabin, som i sig selv ikke virker cytostatisk. Kun når 
+det er optaget i kroppen ændres det til et aktivt anti-cancer stof (fortrinsvis i svulstvæv). </p>
+<p>Capecitabine Teva anvendes til behandling af kræft i tyktarm, endetarm, mave eller bryst. Desuden 
+anvendes Capecitabine Teva til forebyggelse af ny optræden af tyktarmskræft efter fuldstændig 
+fjernelse af svulsten ved operation. </p>
+<p>Capecitabine Teva kan anvendes enten alene eller i kombination med andre lægemidler.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take capecitabine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take capecitabine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Capecitabine Teva 
+- hvis du er allergisk over for capecitabin eller et af de øvrige indholdsstoffer i Capecitabine Teva 
+lægemidlet (angivet i punkt 6). Du skal fortælle din læge, hvis du er overfølsom over for eller 
+reagerer kraftigt på dette lægemiddel, 
+- hvis du tidligere har oplevet svære reaktioner på ‘fluorpyrimidin’-behandling (en gruppe af 
+lægemidler mod kræft, som f.eks. fluoruracil), 
+- hvis du er gravid eller ammer, 
+- hvis du har meget lave tal for hvide blodlegemer eller blodplader (leukopeni, neutropeni eller 
+trombocytopeni), 
+- hvis du har alvorlige leversygdomme eller problemer med nyrerne, 
+- hvis du ved, du ikke har nogen aktivitet af enzymet dihydropyrimidindehydrogenase (DPD) 
+(fuldstændig DPD-mangel), 
+-  hvis du bliver behandlet på nuværende tidspunkt eller inden for de sidste 4 uger har været 
+behandlet med brivudin som en del af herpes zosterbehandling (skoldkopper eller helvedesild). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Capecitabine Teva:</p>
+<ul>
+<li>hvis du ved, at du har delvis mangel på aktivitet af enzymet dihydropyrimidindehydrogenase 
+(DPD)  </li>
+<li>hvis du har et familiemedlem der har delvis eller fuldstændig mangel på enzymet 
+dihydropyrimidindehydrogenase (DPD) </li>
+<li>hvis du har lever- eller nyrelidelser  </li>
+<li>hvis du har eller har haft problemer med hjertet (f.eks. uregelmæssig hjerterytme eller smerter i 
+brystet, kæben og ryggen som følge af fysisk anstrengelse og problemer med 
+blodgennemstrømning til hjertet) </li>
+<li>hvis du har sygdomme i hjernen (f.eks. kræft, som har bredt sig til hjernen eller beskadigede 
+nerver) (neuropati) </li>
+<li>hvis du har kalk-ubalance (ses i blodprøver)  </li>
+<li>hvis du har diabetes </li>
+<li>hvis du ikke kan holde på mad eller vand pga. svær kvalme og opkastning  </li>
+<li>hvis du har diarré </li>
+<li>hvis du er eller bliver dehydreret </li>
+<li>hvis du har ionforstyrrelser i blodet (elektrolytubalance ses i blodprøver) </li>
+<li>hvis du tidligere har haft problemer med øjnene, da du herved kan have brug for ekstra kontrol 
+af dine øjne </li>
+<li>hvis du har en alvorlig hudreaktion.  </li>
+</ul>
+<p>DPD-mangel: DPD-mangel er en genetisk tilstand der almindeligvis ikke er forbundet med 
+helbredsproblemer, medmindre man får bestemte lægemidler. Hvis du har DPD-mangel og tager 
+Capecitabine Teva, har du en øget risiko for alvorlige bivirkninger (anført i punkt 4 Bivirkninger). Det 
+anbefales at blive testet for DPD-mangel, inden behandlingen påbegyndes. Hvis du ikke har nogen 
+aktivitet af enzymet, må du ikke tage Capecitabine Teva. Hvis du har reduceret enzymaktivitet (delvis 
+mangel) kan din læge ordinere en reduceret dosis. Hvis du er testet negativ for DPD-mangel, kan 
+alvorlige og livstruende bivirkninger stadig forekomme. </p>
+<p>Kontakt din læge med det samme, hvis du er bekymret for en eller flere af bivirkningerne, eller hvis du 
+får bivirkninger, som ikke fremgår af denne indlægsseddel (se punkt 4 ”Bivirkninger”). </p>
+<p>Børn og unge 
+Capecitabine Teva er ikke beregnet til børn eller unge. Giv ikke Capecitabine Teva til børn eller unge. </p>
+<p>Brug af anden medicin sammen med Capecitabine Teva 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. 
+Dette gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler og vitaminer og 
+mineraler. Det er meget vigtigt, da indtagelse af mere end et lægemiddel på samme tid kan forstærke 
+eller forringe virkningen af lægemidlerne.  </p>
+<p>Du må ikke tage brivudin (et lægemiddel mod virus til behandling af helvedesild eller 
+skoldkopper) samtidig med du får capecitabin-behandling (dette gælder også perioder, hvor du 
+holder pause og ikke tager capecitabin tabletter). </p>
+<p>Hvis du har taget brivudin, skal du vente mindst 4 uger efter endt behandling med brivudin før 
+du må starte behandling med capecitabin. Se også afsnittet ’Tag ikke Capecitabine Teva. </p>
+<p>Du skal også være særlig forsigtig, hvis du tager:</p>
+<ul>
+<li>medicin mod urinsyregigt (allopurinol), </li>
+<li>blodfortyndende medicin (coumarin, warfarin), </li>
+<li>medicin mod kramper eller rystelser (phenytoin), </li>
+<li>visse lægemidler, der anvendes til at behandle forskellige kræftformer eller virusinfektioner 
+(interferon alfa), </li>
+<li>strålebehandling og visse lægemidler til behandling af kræft (folinsyre, oxaliplatin, 
+bevacizumab, cisplatin, irinotecan), </li>
+<li>lægemidler til behandling af folsyremangel. </li>
+</ul>
+<p>Brug af Capecitabine Teva sammen med mad og drikke 
+Du skal tage Capecitabine Teva senest 30 minutter efter et måltid. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. 
+Du må ikke tage Capecitabine Teva, hvis du er gravid, eller tror du er det. Du må ikke amme, hvis du 
+tager Capecitabine Teva og i 2 uger efter sidste dosis. 
+Hvis du er en kvinde, der kan blive gravid, skal du anvende sikker prævention under behandling med 
+Capecitabine Teva og i 6 måneder efter sidste dosis. 
+Hvis du er en mandlig patient og din kvindelige partner kan blive gravid, så skal du anvende sikker 
+prævention under behandling med Capecitabine Teva og i 3 måneder efter sidste dosis. </p>
+<p>Trafik- og arbejdssikkerhed 
+Capecitabine Teva kan forårsage svimmelhed, kvalme eller træthed. Det er derfor muligt, at 
+Capecitabine Teva kan påvirke din evne til at køre bil og betjene maskiner.  </p>
+<p>Capecitabine Teva indeholder lactose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>Capecitabine Teva indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
+er i det væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take capecitabine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take capecitabine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Capecitabine Teva bør kun ordineres af en læge med erfaring i anvendelsen af lægemidler mod kræft. </p>
+<p>Din læge vil ordinere en dosis og en behandling som er rigtig for dig. Capecitabine Teva-dosis er 
+baseret på arealet af din legemsoverflade. Det beregnes ud fra din højde og vægt. Den normale dosis 
+til voksne er 1250 mg/m2 legemsoverflade to gange dagligt (morgen og aften). Her følger to 
+eksempler: En person, som vejer 64 kg, og som er 1,64 m høj, har et legemsoverfladeareal på 1,7 m2 
+og skal tage 4 tabletter á 500 mg og 1 tablet á 150 mg to gange dagligt. En person, som vejer 80 kg, og 
+som er 1,80 m høj, har et legemsoverfladeareal på 2,00 m2 og skal tage 5 tabletter á 500 mg to gange 
+dagligt. </p>
+<p>Din læge vil fortælle dig, hvilken dosis du skal tage, hvornår du skal tage den og hvor længe du skal 
+tage lægemidlet. </p>
+<p>Det kan være din læge vil have at du for hver dosis skal tage en kombination af 150 mg og 500 mg 
+tabletter. 
+- Tag tabletterne morgen og aften på den måde, som din læge har ordineret til dig. 
+- Tag tabletterne senest 30 min efter et måltid (morgenmad og aftensmad) og slug dem hele 
+med vand. Du må ikke dele eller knuse tabletterne. Hvis du ikke kan sluge Capecitabine 
+Teva tabletterne hele, skal du kontakte din læge eller sygeplejerske. 
+- Det er vigtigt at du tager al din medicin som foreskrevet af din læge. </p>
+<p>Capecitabine Teva-tabletter tages normalt i 14 dage efterfulgt af 7 dages pause (hvor der ikke tages 
+tabletter). Denne 21 dages periode er en behandlingsserie. </p>
+<p>I kombination med andre lægemidler kan den almindelige dosis for en voksen være mindre end 
+1250 mg/m2 legemsoverfladeareal, og det kan være nødvendigt, at du tager tabletterne i et andet 
+tidsinterval (for eksempel hver dag uden pause). </p>
+<p>Hvis du har taget for meget Capecitabine Teva 
+Hvis du har taget for mange Capecitabine Teva-tabletter skal du kontakte lægen så hurtigt som muligt, 
+før du tager næste dosis. 
+Du kan få følgende bivirkninger, hvis du tager meget mere capecitabin, end du skulle: 
+kvalme eller opkastning, diarré, betændelse eller sår i maven eller munden, smerter eller blødning fra 
+tarmene eller knoglemarvsundertrykkelse.  </p>
+<p>Kontakt lægen, skadestuen eller apoteket, hvis du har taget mere af Capecitabine Teva, end der står i 
+denne information, eller mere end lægen har foreskrevet, og du føler dig utilpas. </p>
+<p>Hvis du har glemt at tage Capecitabine Teva 
+Du må ikke tage den glemte dosis. Du må ikke tage en dobbeltdosis som erstatning for den glemte 
+dosis. I stedet skal du fortsætte med din regelmæssige dosisplan og tale med din læge. </p>
+<p>Hvis du holder op med at tage Capecitabine Teva 
+Der er ingen bivirkninger forbundet med at stoppe behandlingen med Capecitabine Teva. Hvis du 
+bruger blodfortyndende medicin af coumarintypen (indeholdende f.eks. phenprocoumon), kan det 
+blive nødvendigt, at din læge ændrer dosis af denne medicin, hvis behandlingen med Capecitabine 
+Teva stopper.  </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>STOP øjeblikkeligt med at tage Capecitabine Teva og kontakt lægen, hvis du får nogle af følgende 
+symptomer: </p>
+<ul>
+<li>
+<p>Diarré: hvis du har en øgning på 4 eller flere afføringer om dagen sammenlignet med det </p>
+</li>
+<li>
+<p>normale antal daglige afføringer, eller hvis du får diarré om natten. </p>
+</li>
+<li>
+<p>Opkastning: hvis du kaster op mere end én gang i løbet af 24 timer. </p>
+</li>
+<li>
+<p>Kvalme: hvis du mister appetitten, og hvis du spiser meget mindre hver dag, end du plejer. </p>
+</li>
+<li>
+<p>Mundbetændelse: hvis du har smerter, rødme, hævelse eller sår i din mund og/eller hals. </p>
+</li>
+<li>
+<p>Hudsymptomer på hænder og fødder: hvis du har smerter, hævelse, rødme eller prikken i </p>
+</li>
+<li>
+<p>hænder og/eller fødder. </p>
+</li>
+<li>
+<p>Feber: hvis din temperatur stiger til 38 °C eller derover. </p>
+</li>
+<li>
+<p>Infektion: hvis du oplever tegn på infektion forårsaget af bakterier eller virus eller andre </p>
+</li>
+<li>
+<p>organismer. </p>
+</li>
+<li>
+<p>Brystsmerter: hvis du får smerter i midten af brystet, specielt hvis det sker under anstrengelse. </p>
+</li>
+<li>
+<p>Stevens-Johnsons syndrom: hvis du oplever smertefuldt rødt eller lilla udslæt, der spreder sig 
+og danner blistre og/eller andre læsioner, der opstår i slimhinderne (f.eks. mund eller læber), 
+især hvis du tidligere har været følsom over for lys, haft infektioner i luftvejene (f.eks. 
+bronkitis) og/eller feber. </p>
+</li>
+<li>
+<p>DPD-mangel: hvis du ved, at du har DPD-mangel, har du en øget risiko for akut tidlig 
+indtræden af bivirkninger og svære, livstruende eller dødelige bivirkninger forårsaget af 
+Capecitabine Teva (f.eks. mundbetændelse, betændelseslignende reaktion (inflammation) i 
+slimhinder, diarré, neutropeni og neurotoksicitet) </p>
+</li>
+<li>
+<p>Angioødem: søg læge med det samme, hvis du bemærker nogle af følgende symptomer, da du 
+kan have brug for hurtig lægebehandling: hævelse i navnlig ansigt, læber, tunge eller svælg, 
+som giver synke- eller vejrtrækningsbesvær, kløe og udslæt. Dette kan være et tegn på 
+angioødem. </p>
+</li>
+</ul>
+<p>Hvis disse bivirkninger opdages hurtigt, vil de normalt bedres i løbet af 2 til 3 dage efter, at 
+behandlingen er stoppet. Hvis bivirkningerne alligevel fortsætter, skal du straks kontakte lægen. 
+Lægen vil måske bede dig om at begynde behandlingen igen med en lavere dosis. </p>
+<p>Hvis alvorlig stomatitis (sår i munden og/eller halsen), slimhindeinflammation, diarré, neutropeni (øget 
+risiko for infektion) eller neurotoksicitet forekommer under første behandlingsserie, kan en DPD-
+mangel være involveret (se punkt 2: ”Advarsler og forsigtighedsregler”). </p>
+<p>Hudsymptomer på hænder og fødder kan forårsage, at fingeraftrykket forsvinder, hvilket kan påvirke 
+din identifikation med fingeraftryksscanner. </p>
+<p>Ud over dette kan Capecitabine Teva når det anvendes alene have følgende meget almindelige 
+bivirkninger, som kan påvirke flere end 1  ud af 10 personer:</p>
+<ul>
+<li>mavesmerter </li>
+<li>udslæt, tør eller kløende hud </li>
+<li>træthed </li>
+<li>appetitløshed </li>
+</ul>
+<p>Bivirkningerne kan blive alvorlige. Derfor skal du altid kontakte lægen, så snart du får en 
+bivirkning. Lægen vil måske bede dig om at sætte dosis ned og/eller midlertidigt afbryde behandlingen 
+med Capecitabine Teva. Dermed nedsættes sandsynligheden for, at bivirkningen fortsætter eller 
+forværres. </p>
+<p>Andre bivirkninger er: </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) omfatter: </p>
+<ul>
+<li>
+<p>fald i antallet af hvide eller røde blodlegemer (ses i blodprøver) </p>
+</li>
+<li>
+<p>dehydrering, vægttab </p>
+</li>
+<li>
+<p>søvnløshed, </p>
+</li>
+<li>
+<p>depression </p>
+</li>
+<li>
+<p>hovedpine, søvnighed </p>
+</li>
+<li>
+<p>svimmelhed, unormal følelse i huden (følelsesløshed eller prikkende fornemmelse) 
+ smagsforandringer </p>
+</li>
+<li>
+<p>øjenirritation, øget tåreflod, røde øjne (konjunktivitis) </p>
+</li>
+<li>
+<p>betændelse i venerne (thromboflebitis) </p>
+</li>
+<li>
+<p>stakåndethed, næseblødninger, hoste, snue </p>
+</li>
+<li>
+<p>forkølelsessår eller andre herpesinfektioner </p>
+</li>
+<li>
+<p>infektioner i lungen eller åndedrætssystemet (f.eks. lungebetændelse eller bronkitis), </p>
+</li>
+<li>
+<p>blødning fra tarmen, forstoppelse, smerter i den øverste del af maven, luft i maven, mundtørhed </p>
+</li>
+<li>
+<p>hududslæt, hårtab (alopeci), rødme i huden, tør hud, kløe (pruritus), misfarvning af huden, tab af 
+hud, betændelse i huden, neglesygdom   </p>
+</li>
+<li>
+<p>smerter i led eller i lemmerne (ekstremiteterne), bryst eller ryg </p>
+</li>
+<li>
+<p>feber, hævede ben og arme, sygdomsfornemmelse </p>
+</li>
+<li>
+<p>problemer med leveren (ses i blodprøver) og forhøjet bilirubin i blodet (udskilles i leveren)  </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) omfatter:  </p>
+<ul>
+<li>
+<p>infektion af blodet, urinvejsinfektion, infektion i huden, infektioner i næsen og halsen, 
+svampeinfektioner (herunder i munden), influenza, mave-tarm-infektion, tandbyld, knuder 
+under huden (lipom) </p>
+</li>
+<li>
+<p>fald i blodlegemer, herunder blodplader, fortynding af blod (ses i blodprøver) </p>
+</li>
+<li>
+<p>allergi </p>
+</li>
+<li>
+<p>diabetes, fald i kalium i blodet, fejlernæring, øgede triglycerider i blodet </p>
+</li>
+<li>
+<p>forvirring, panikanfald, nedtrykt sindsstemning, nedsat sexlyst </p>
+</li>
+<li>
+<p>talebesvær, hukommelsessvigt, tab af bevægelseskoordination, balanceproblemer, besvimelse, 
+nervebeskadigelse (neuropati) og føleproblemer </p>
+</li>
+<li>
+<p>sløret syn eller dobbeltsyn </p>
+</li>
+<li>
+<p>svimmelhed, ørepine </p>
+</li>
+<li>
+<p>uregelmæssig hjerterytme og hjertebanken (arytmier), smerter i brystet og hjerteanfald (infarkt) </p>
+</li>
+<li>
+<p>blodpropper i de dybe vener, højt eller lavt blodtryk, hedestigninger, kolde lemmer 
+(ekstremiteter), lilla pletter på huden  </p>
+</li>
+<li>
+<p>blodpropper i venerne i lungen (lungeemboli), sammenklappet lunge, hosten af blod, astma, 
+stakåndethed ved fysisk anstrengelse </p>
+</li>
+<li>
+<p>blokering af tarmen, ophobning af væske i maven, betændelse i tynd- og tyktarm, maven eller 
+spiserøret, smerter i den nedre del af maven, ubehag i maven, halsbrand (tilbageløb af mad fra 
+maven), blod i afføringen </p>
+</li>
+<li>
+<p>gulsot (gulfarvning af hud og øjne) </p>
+</li>
+<li>
+<p>sår og blæredannelse i huden, reaktion i huden over for sollys, rødmen af håndfladerne, hævelse 
+af eller smerter i ansigtet </p>
+</li>
+<li>
+<p>hævelse af led eller stivhed, knoglesmerter, muskelsvækkelse eller stivhed </p>
+</li>
+<li>
+<p>væskeophobning i nyrerne, øget vandladningshyppighed om natten, inkontinens, blod i urinen, 
+forhøjet kreatinin i blodet (tegn på dårligt fungerende nyre) </p>
+</li>
+<li>
+<p>uforklarlig blødning fra skeden </p>
+</li>
+<li>
+<p>hævelse (ødem) og kulderystelser. </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger omfatter (kan forekomme hos op til 1 ud af 1.000 patienter): </p>
+<ul>
+<li>Angioødem (hævelse af navnlig ansigt, læber, tunge eller svælg, kløe og udslæt) </li>
+</ul>
+<p>Nogle af disse bivirkninger er mere almindelige, når capecitabin bruges sammen med andre 
+lægemidler til behandling af kræft. Andre bivirkninger, der ses i denne forbindelse, er følgende: </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) omfatter: </p>
+<ul>
+<li>
+<p>fald i natrium, magnesium eller kalcium i blodet, forhøjet blodsukker </p>
+</li>
+<li>
+<p>nervesmerter </p>
+</li>
+<li>
+<p>ringen eller summen for ørerne (tinnitus), tab af høreevne </p>
+</li>
+<li>
+<p>betændelse i vener </p>
+</li>
+<li>
+<p>hikke, forandret stemme </p>
+</li>
+<li>
+<p>smerter eller forandret/unormal fornemmelse i munden, smerter i kæben </p>
+</li>
+<li>
+<p>svedtendens, nattesved </p>
+</li>
+<li>
+<p>muskelspasmer </p>
+</li>
+<li>
+<p>vandladningsbesvær, blod eller protein i urinen </p>
+</li>
+<li>
+<p>blå mærker eller reaktion ved indstiksstedet (som skyldes lægemidler, der injiceres samtidig) </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>forsnævring eller blokering af tårekanalen </p>
+</li>
+<li>
+<p>leversvigt </p>
+</li>
+<li>
+<p>betændelse med svigtende eller blokeret udskillelse af galde til følge </p>
+</li>
+<li>
+<p>specifikke forandringer i elektrokardiogram (QT-forlængelse) </p>
+</li>
+<li>
+<p>visse typer arytmier (herunder ventrikelflimren, torsade de pointes og bradykardi) </p>
+</li>
+<li>
+<p>inflammation i øjet, der medfører smerter i øjet og muligvis problemer med synet </p>
+</li>
+<li>
+<p>inflammation i huden, der medfører røde skællende pletter på grund af en sygdom i 
+immunsystemet. </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 personer) 
+- svære hudreaktioner såsom hududslæt, sårdannelse og blæredannelse, som kan give sår i 
+munden, næsen, kønsorganer, hænder, fødder og øjne (røde og opsvulmede øjne). </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store capecitabine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store capecitabine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter Exp. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Opbevares ved temperaturer under 30 °C. 
+Opbevares i den originale pakning som beskyttelse mod fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Capecitabine Teva indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: capecitabin.<br />
+Capecitabine Teva 150 mg filmovertrukne tabletter 
+Hver filmovertrukket tablet indeholder 150 mg capecitabin. 
+Capecitabine Teva 500 mg filmovertrukne tabletter 
+Hver filmovertrukket tablet indeholder 500 mg capecitabin. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: 
+Tabletkernen: lactose, mikrokrystallinsk cellulose, hypromellose, croscarmellosenatrium, 
+magnesiumstearat.<br />
+Tabletovertræk: macrogol 400, hypromellose, titandioxid (E171), gul jernoxid (E172), rød 
+jernoxid (E172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Capecitabine Teva 150 mg filmovertrukne tabletter 
+Ovale, bikonvekse, lys ferskenfarvede filmovertrukne tabletter præget med “C” på den ene side og 
+“150” på den anden. </p>
+<p>Tabletterne fås i blisterpakninger med 10 filmovertrukne tabletter. Hver pakning indeholder tabletter. </p>
+<p>Capecitabine Teva 500 mg filmovertrukne tabletter 
+Ovale, bikonvekse, lys ferskenfarvede filmovertrukne tabletter præget med “C” på den ene side og 
+“500” på den anden. </p>
+<p>Tabletterne fås i blisterpakninger med 10 filmovertrukne tabletter. Hver pakning indeholder tabletter. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Fremstiller </p>
+<p>Teva Czech Industries s.r.o. 
+Ostravska 29, c.p. 305, 74Opava-Komarov 
+Tjekkiet </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Τel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS A.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS A.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 
+Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-98dff93ef4eecdfe1514d96f0f89664a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for capecitabine Package Leaflet for language en"
+Description: "ePI document Bundle for capecitabine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-98dff93ef4eecdfe1514d96f0f89664a"
+* entry[0].resource = composition-en-98dff93ef4eecdfe1514d96f0f89664a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp98dff93ef4eecdfe1514d96f0f89664a"
+* entry[=].resource = mp98dff93ef4eecdfe1514d96f0f89664a
+                            
+                    
+Instance: bundlepackageleaflet-da-98dff93ef4eecdfe1514d96f0f89664a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for capecitabine Package Leaflet for language da"
+Description: "ePI document Bundle for capecitabine Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-98dff93ef4eecdfe1514d96f0f89664a"
+* entry[0].resource = composition-da-98dff93ef4eecdfe1514d96f0f89664a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp98dff93ef4eecdfe1514d96f0f89664a"
+* entry[=].resource = mp98dff93ef4eecdfe1514d96f0f89664a
+                            
+                    
+
+
+
+Instance: mp98dff93ef4eecdfe1514d96f0f89664a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Capecitabine Teva 150 mg film-coated tablets"
-Description: "Capecitabine Teva 150 mg film-coated tablets"
+Title: "Medicinal Product capecitabine"
+Description: "capecitabine"
 Usage: #inline
 
  
@@ -491,7 +1196,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Capecitabine Teva 150 mg film-coated tablets"
+  * productName = "capecitabine"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -518,29 +1223,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-98dff93ef4eecdfe1514d96f0f89664a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for capecitabine Package Leaflet for language en"
-Description: "ePI document Bundle for capecitabine Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 98dff93ef4eecdfe1514d96f0f89664aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Capecitabine Teva 150 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "capecitabine"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-98dff93ef4eecdfe1514d96f0f89664a"
-* entry[0].resource = composition-en-98dff93ef4eecdfe1514d96f0f89664a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp153d09a983afb55ffe88901119992a75"
-* entry[=].resource = mp153d09a983afb55ffe88901119992a75
-                            
-                      
+* title = "List of all ePIs associated with capecitabine"
+
+* subject = Reference(mp153d09a983afb55ffe88901119992a75)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#capecitabine "capecitabine"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-98dff93ef4eecdfe1514d96f0f89664a) // capecitabine en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-98dff93ef4eecdfe1514d96f0f89664a) // capecitabine da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-98dff93ef4eecdfe1514d96f0f89664a
+InstanceOf: List
+
+* insert 98dff93ef4eecdfe1514d96f0f89664aListRuleset
+    

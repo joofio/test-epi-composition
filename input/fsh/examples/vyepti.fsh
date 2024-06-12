@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyepti Package Leaflet"
@@ -290,12 +293,454 @@ Tel: +353 1 468 9This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-fbb3ae3b0ec47d0ddb6ffbdc6984439f
+InstanceOf: CompositionUvEpi
+Title: "Composition for vyepti Package Leaflet"
+Description:  "Composition for vyepti Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb4e8601098de481cc464585774f1ba15)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb4e8601098de481cc464585774f1ba15
+* title = "TEST PURPOSES ONLY - vyepti"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du får VYEPTI  </li>
+<li>Sådan får du VYEPTI  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vyepti is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vyepti is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VYEPTI indeholder det aktive stof eptinezumab, som blokerer aktiviteten af calcitonin-gen-relateret 
+peptid (CGRP), et stof som forekommer naturligt i kroppen. Mennesker med migræne kan have 
+forhøjede niveauer af dette stof. </p>
+<p>VYEPTI anvendes til at forebygge migræne hos voksne, som har mindst 4 migrænedage om 
+måneden. </p>
+<p>VYEPTI kan reducere antallet af dage med migræne og forbedre din livskvalitet. Du vil muligvis 
+opleve, at den forebyggende virkning starter dagen efter, at du får dette lægemiddel. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vyepti"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vyepti"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke VYEPTI </p>
+<ul>
+<li>hvis du er allergisk over for eptinezumab eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen eller sygeplejersken, inden du får VYEPTI, hvis du har sygdomme, som påvirker dit 
+hjerte og blodomløb.  </p>
+<p>VYEPTI kan forårsage alvorlige allergiske reaktioner. Disse reaktioner kan udvikle sig hurtigt, selv 
+mens lægemidlet er ved at blive indgivet. Fortæl det straks til din læge, hvis du får symptomer på en 
+allergisk reaktion, såsom:  </p>
+<ul>
+<li>
+<p>åndedrætsbesvær </p>
+</li>
+<li>
+<p>hurtig eller svag puls eller et hurtigt fald i blodtrykket, som får dig til at føle dig ør eller svimmel </p>
+</li>
+<li>
+<p>hævelser af læberne eller tungen </p>
+</li>
+<li>
+<p>alvorlig kløe eller udslæt på huden, mens du får VYEPTI, eller bagefter </p>
+</li>
+</ul>
+<p>Børn og unge 
+VYEPTI frarådes til børn og unge under 18 år, fordi det ikke er blevet undersøgt for denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med VYEPTI 
+Fortæl det altid til lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller 
+planlægger at bruge anden medicin </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får dette lægemiddel.  </p>
+<p>Du skal helst undgå at bruge af VYEPTI under graviditeten, fordi virkningen af denne medicin hos 
+gravide kvinder ikke kendes. </p>
+<p>Det vides ikke, om VYEPTI går over i brystmælken. Din læge vil hjælpe dig med at beslutte, om du 
+skal holde op med at amme eller stoppe behandlingen med VYEPTI. Hvis du ammer eller planlægger 
+at amme, bør du tale med din læge, inden du bliver behandlet med VYEPTI. Du og din læge skal 
+beslutte, om du skal amme og blive behandlet med VYEPTI. </p>
+<p>Trafik- og arbejdssikkerhed 
+VYEPTI påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj eller betjene 
+maskiner. </p>
+<p>VYEPTI indeholder sorbitol 
+Sorbitol er en kilde til fructose. Hvis du har arvelig fruktoseintolerans (HFI), en sjælden genetisk 
+sygdom, må du ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde fructose, hvilket kan 
+medføre alvorlige bivirkninger. 
+Inden du får dette lægemiddel, skal du fortælle det til din læge, hvis du har HFI. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vyepti"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vyepti"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.  </p>
+<p>VYEPTI gives som et drop (infusion) i en blodåre. Infusionen tager ca. 30 minutter. VYEPTI vil blive 
+givet til dig af en sundhedsfaglig person, som klargør infusionen, inden du får den. Under og efter 
+infusionen vil lægen observere dig i overensstemmelse med normal klinisk praksis for tegn på en 
+allergisk reaktion. </p>
+<p>Den anbefalede dosis er 100 mg givet hver 12. uge. Visse patienter kan have gavn af en dosis på 
+300 mg givet hver 12. uge. Din læge vil afgøre, hvilken dosis er den rigtige til dig, og hvor længe du 
+skal fortsætte behandlingen. </p>
+<p>Hvis du har brugt for meget VYEPTI 
+Medicinen vil blive givet til dig af en læge, så det er usandsynligt, at du vil få for meget VYEPTI. 
+Fortæl det til din læge, hvis du tror, det er sket. </p>
+<p>Hvis du har glemt at bruge VYEPTI 
+Hvis en dosis bliver sprunget over, vil din læge afgøre, hvornår den næste dosis skal gives. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt din læge eller sygeplejersken med det samme, hvis du bemærker nogen af følgende 
+bivirkninger – du kan have brug for akut medicinsk behandling: </p>
+<p>Almindelig: kan påvirke op til 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>allergiske reaktioner og andre reaktioner på grund af infusionen 
+Reaktioner kan udvikle sig hurtigt under infusionen. Symptomer på allergiske reaktioner er:</p>
+</li>
+<li>
+<p>åndedrætsbesvær </p>
+</li>
+<li>hurtig eller svag puls </li>
+<li>pludseligt fald i blodtrykket, som gør dig ør eller svimmel </li>
+<li>hævelser af læberne eller tungen </li>
+<li>alvorlig kløe, udslæt på huden 
+Alvorlige allergiske reaktioner er ikke almindelige (kan påvirke op til 1 ud af 1 00 personer). </li>
+</ul>
+<p>Andre symptomer, der kan opstå på grund af infusionen, omfatter luftvejssymptomer (såsom tilstoppet 
+eller løbende næse, halsirritation, hoste, nysen, åndenød) og træthedsfølelse. Disse symptomer er 
+normalt ikke-alvorlige og af kort varighed. </p>
+<p>Andre bivirkninger kan forekomme med følgende hyppighed: </p>
+<p>Almindelig: kan påvirke op til 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>tilstoppet næse </p>
+</li>
+<li>
+<p>ondt i halsen </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vyepti"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vyepti"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). 
+Må ikke nedfryses eller omrystes. 
+Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+<p>Hvis VYEPTI tages ud af køleskabet, skal det opbevares ved stuetemperatur (under 25 °C) i den 
+originale karton og anvendes inden for 2 dage eller kasseres. Sæt ikke VYEPTI tilbage i køleskabet, 
+når først det er taget ud. </p>
+<p>Efter fortynding kan opløsningen opbevares ved stuetemperatur (under 25 °C) eller nedkølet ved 
+2 °C - 8 °C. Den fortyndede infusionsvæske, opløsning, skal indgives inden for 8 timer. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at opløsningen indeholder synlige partikler eller er uklar 
+eller misfarvet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller toilettet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VYEPTI indeholder:</p>
+<ul>
+<li>Aktivt stof: eptinezumab.  </li>
+<li>Hvert hætteglas med 100 mg koncentrat indeholder 100 mg eptinezumab pr. ml. </li>
+<li>Hvert hætteglas med 300 mg koncentrat indeholder 300 mg eptinezumab pr. 3 ml. </li>
+<li>Øvrige indholdsstoffer: sorbitol (E420), L-histidin, L-histidin-hydrochlorid-monohydrat, 
+polysorbat 80 og vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+VYEPTI koncentrat til infusionsvæske, opløsning, er klart til let mælkeagtigt, farveløst til brungult. 
+Hvert hætteglas indeholder koncentrat i et klart hætteglas af glas med en gummiprop, 
+aluminiumsforsegling og en flip-off-hætte af plast. </p>
+<p>VYEPTI 100 mg koncentrat fås i pakningsstørrelser med 1 og 3 hætteglas til engangsbrug. 
+VYEPTI 300 mg koncentrat fås i en pakningsstørrelse med 1 hætteglas til engangsbrug. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+H. Lundbeck A/S 
+Ottiliavej 9 
+2500 Valby 
+Danmark </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Lundbeck S.A./N.V. 
+Tél/Tel: +32 2 535 7979  </p>
+<p>Lietuva 
+H. Lundbeck A/S 
+Tel: +45 36301311(Danija)<br />
+lietuva@lundbeck.com </p>
+<p>България 
+Lundbeck Export A/S Representative Office 
+Tel: +359 2 962 4 
+Luxembourg/Luxemburg 
+Lundbeck S.A./N.V. 
+Tél: +32 2 535 7 
+Česká republika 
+Lundbeck Česká republika s.r.o. 
+Tel: +420 225 275<br />
+Magyarország 
+Lundbeck Hungaria Kft. 
+Tel: +36 1 4369 
+Danmark 
+Lundbeck Pharma A/S 
+Tlf: +45 4371 4Malta 
+H. Lundbeck A/S 
+Tel: + 45 36301 
+Deutschland 
+Lundbeck GmbH 
+Tel: +49 40 23649 0 
+Nederland 
+Lundbeck B.V. 
+Tel: +31 20 697 1 
+Eesti 
+Lundbeck Eesti AS 
+Tel: + 372 605 9 
+Norge 
+H. Lundbeck AS<br />
+Tlf: +47 91 300<br />
+Ελλάδα 
+Lundbeck Hellas S.A. 
+Τηλ: +30 210 610 5 
+Österreich 
+Lundbeck Austria GmbH 
+Tel: +43 1 253 621 6033  </p>
+<p>España 
+Lundbeck España S.A. 
+Tel: +34 93 494 9Polska 
+Lundbeck Poland Sp. z o. o.<br />
+Tel.: + 48 22 626 93<br />
+France 
+Lundbeck SAS 
+Tél: + 33 1 79 41 29<br />
+Portugal 
+Lundbeck Portugal Lda 
+Tel: +351 21 00 45<br />
+Hrvatska 
+Lundbeck Croatia d.o.o. 
+Tel.: + 385 1 6448 
+Ireland 
+Lundbeck (Ireland) Limited 
+Tel: +353 1 468 9 
+România 
+Lundbeck Romania SRL<br />
+Tel: +40 21319 88<br />
+Slovenija 
+Lundbeck Pharma d.o.o. 
+Tel.: +386 2 229 4Ísland 
+Vistor hf.<br />
+Tel: +354 535 7000  </p>
+<p>Slovenská republika 
+Lundbeck Slovensko s.r.o. 
+Tel: +421 2 5341 42<br />
+Italia 
+Lundbeck Italia S.p.A. 
+Tel: +39 02 677 4 
+Suomi/Finland 
+Oy H. Lundbeck Ab 
+Puh/Tel: +358 2 276 5 
+Κύπρος 
+Lundbeck Hellas A.E 
+Τηλ.: +357 22490 
+Sverige 
+H. Lundbeck AS 
+Tel: +46 40 699 8200  </p>
+<p>Latvija 
+H. Lundbeck A/S 
+Tel: +45 36301311(Dānija) 
+latvia@lundbeck.com </p>
+<p>United Kingdom (Northern Ireland) 
+Lundbeck Ireland Limited 
+Tel: ++353 1 468 9 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.<br />
+&lt;------------------------------------------------------------------------------------------------------------------------&gt; </p>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Anvisninger i fortynding og administration </p>
+<p>Lægemidlet kræver fortynding inden administration. Fortyndingen skal klargøres af en 
+sundhedsperson ved brug af aseptisk teknik for at sikre steriliteten af den fremstillede infusionsvæske, 
+opløsning.  </p>
+<p>Lægemidlet indeholder ingen konserveringsmidler og er udelukkende beregnet til engangsbrug. Ikke 
+anvendt lægemiddel skal bortskaffes. </p>
+<p>Inden fortynding skal lægemidlet (koncentrat i hætteglassene) kontrolleres visuelt. Koncentratet må 
+ikke bruges, hvis det indeholder synlige partikler eller er uklart eller misfarvet (på anden måde end 
+klart til let opaliserende, farveløst til brungult). </p>
+<p>Til både 100 mg- og 300 mg-dosen skal der anvendes en 100 ml-pose med natriumchlorid 9 mg/ml 
+(0,9 %) injektionsvæske, opløsning, til at fremstille VYEPTI infusionsvæske, opløsning, som 
+beskrevet nedenfor. Ingen andre intravenøse fortyndingsmidler og intet andet volumen må anvendes til 
+at fremstille VYEPTI infusionsvæske, opløsning.  </p>
+<p>Vend forsigtigt VYEPTI infusionsvæske, opløsning, op og ned for at blande det helt. Må ikke 
+omrystes. </p>
+<p>Efter fortynding skal VYEPTI infusionsvæske, opløsning, infunderes inden for 8 timer. I dette tidsrum 
+kan VYEPTI infusionsvæske, opløsning, opbevares ved stuetemperatur (under 25 °C) eller nedkølet 
+ved 2 °C - 8 °C. Hvis VYEPTI infusionsvæske, opløsning, opbevares ved 2 °C - 8 °C, skal den have 
+tid til at nå stuetemperatur inden infusion. MÅ IKKE NEDFRYSES.  </p>
+<ul>
+<li>VYEPTI 100 mg-dosis </li>
+</ul>
+<p>Klargør VYEPTI infusionsvæske, opløsning, ved at trække 1,0 ml VYEPTI op fra et 100 mg 
+hætteglas til engangsbrug ved brug af en steril kanyle og sprøjte. Injicer indholdet på 1,0 ml 
+(100 mg) i en 100 ml-pose med 0,9 % natriumchlorid til injektion. </p>
+<ul>
+<li>VYEPTI 300 mg-dosis </li>
+</ul>
+<p>Klargør VYEPTI infusionsvæske, opløsning, ved at trække 1,0 ml VYEPTI op fra tre 100 mg 
+hætteglas til engangsbrug eller 3,0 ml VYEPTI op fra et 300 mg hætteglas til engangsbrug ved 
+brug af en steril kanyle og sprøjte. Injicer det resulterende indhold på 3,0 ml (300 mg) i en 
+100 ml-pose med 0,9 % natriumchlorid til injektion. </p>
+<p>Anvisninger i administration af infusionen  </p>
+<p>Parenterale lægemidler skal kontrolleres visuelt for partikler og misfarvning inden administration, når 
+opløsningen og beholderen tillader det. Må ikke anvendes, hvis væsken indeholder synlige partikler 
+eller er uklar eller misfarvet. </p>
+<p>Infunder VYEPTI 100 mg-dosen eller VYEPTI 300 mg-dosen som foreskrevet efter fortynding af 
+hætteglassets indhold i en 100 ml-pose med 0,9 % natriumchlorid til injektion i løbet af ca. 
+30 minutter. Brug et intravenøst infusionssæt med et 0,2 eller 0,22 μm indbygget eller påsat filter. Når 
+infusionen er fuldført, skylles slangen med 20 ml 0,9 % natriumchlorid til injektion. </p>
+<p>VYEPTI må ikke administreres som en bolusinjektion.  </p>
+<p>Ingen andre lægemidler må administreres gennem infusionssættet eller blandes med VYEPTI. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyepti Package Leaflet for language en"
+Description: "ePI document Bundle for vyepti Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f"
+* entry[0].resource = composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfbb3ae3b0ec47d0ddb6ffbdc6984439f"
+* entry[=].resource = mpfbb3ae3b0ec47d0ddb6ffbdc6984439f
+                            
+                    
+Instance: bundlepackageleaflet-da-fbb3ae3b0ec47d0ddb6ffbdc6984439f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyepti Package Leaflet for language da"
+Description: "ePI document Bundle for vyepti Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-fbb3ae3b0ec47d0ddb6ffbdc6984439f"
+* entry[0].resource = composition-da-fbb3ae3b0ec47d0ddb6ffbdc6984439f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfbb3ae3b0ec47d0ddb6ffbdc6984439f"
+* entry[=].resource = mpfbb3ae3b0ec47d0ddb6ffbdc6984439f
+                            
+                    
+
+
+
+Instance: mpfbb3ae3b0ec47d0ddb6ffbdc6984439f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product VYEPTI 100 mg concentrate for solution for infusion."
-Description: "VYEPTI 100 mg concentrate for solution for infusion."
+Title: "Medicinal Product vyepti"
+Description: "vyepti"
 Usage: #inline
 
  
@@ -315,7 +760,7 @@ Usage: #inline
 
 
 * name
-  * productName = "VYEPTI 100 mg concentrate for solution for infusion."
+  * productName = "vyepti"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -342,29 +787,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vyepti Package Leaflet for language en"
-Description: "ePI document Bundle for vyepti Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: fbb3ae3b0ec47d0ddb6ffbdc6984439fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1599/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vyepti"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f"
-* entry[0].resource = composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb4e8601098de481cc464585774f1ba15"
-* entry[=].resource = mpb4e8601098de481cc464585774f1ba15
-                            
-                      
+* title = "List of all ePIs associated with vyepti"
+
+* subject = Reference(mpb4e8601098de481cc464585774f1ba15)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vyepti "vyepti"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f) // vyepti en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-fbb3ae3b0ec47d0ddb6ffbdc6984439f) // vyepti da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-fbb3ae3b0ec47d0ddb6ffbdc6984439f
+InstanceOf: List
+
+* insert fbb3ae3b0ec47d0ddb6ffbdc6984439fListRuleset
+    

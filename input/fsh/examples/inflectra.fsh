@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-572f3f97f7a7c455dcce693d90f95d77
 InstanceOf: CompositionUvEpi
 Title: "Composition for inflectra Package Leaflet"
@@ -626,12 +629,978 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-572f3f97f7a7c455dcce693d90f95d77
+InstanceOf: CompositionUvEpi
+Title: "Composition for inflectra Package Leaflet"
+Description:  "Composition for inflectra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa78ea129d510d128737f858e649dab81)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa78ea129d510d128737f858e649dab81
+* title = "TEST PURPOSES ONLY - inflectra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få Inflectra
+3. Sådan får du Inflectra
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What inflectra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What inflectra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inflectra indeholder det aktive stof infliximab, der stammer fra mennesker og mus. Infliximab er et 
+monoklonalt antistof - en type protein, der binder sig til et specifikt mål i kroppen kaldet TNF (tumor 
+nekrose faktor) alfa.
+Inflectra tilhører en gruppe af lægemidler kaldet "TNF-blokkere". Det bruges til voksne til behandling 
+af følgende betændelsessygdomme:
+
+Reumatoid arthritis
+
+Psoriasisarthritis
+
+Ankyloserende spondylitis (Bekhterevs sygdom)
+
+Psoriasis
+Inflectra bruges også til voksne og børn fra 6 år og opefter til behandling af:
+
+Crohns sygdom
+
+Colitis ulcerosa.
+Inflectra virker ved at binde sig selektivt til TNF-alfa (tumornekrosefaktor alfa) og blokere dets 
+virkning. TNF-alfa er involveret i kroppens betændelsesprocesser, og blokering af proteinet kan 
+herved mindske betændelsen i din krop.
+52
+Reumatoid arthritis
+Reumatoid arthritis er en betændelsessygdom i leddene. Hvis du har aktiv reumatoid arthritis, vil du 
+først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Inflectra, som du skal 
+have i kombination med et andet lægemiddel, der hedder methotrexat, for at:
+
+reducere tegn og symptomer på din sygdom
+
+forsinke skaden i dit led
+
+forbedre din fysiske funktionsevne.
+Psoriasisarthritis
+Psoriasisarthritis er en betændelsessygdom i leddene, almindeligvis ledsaget af psoriasis. Hvis du har 
+aktiv psoriasisarthritis, vil du først få andre lægemidler. Hvis de ikke virker godt nok, vil du få 
+Inflectra for at:
+
+reducere tegn og symptomer på din sygdom
+
+forsinke skaden i dit led
+
+forbedre din fysiske funktionsevne.
+Ankyloserende spondylitis (Bekhterevs sygdom)
+Ankyloserende spondylitis er en betændelsessygdom i rygraden. Hvis du lider af ankyloserende 
+spondylitis, vil du først få andre lægemidler. Hvis de ikke virker godt nok, vil du få Inflectra for at:
+
+reducere tegn og symptomer på din sygdom
+
+forbedre din fysiske funktionsevne.
+Psoriasis
+Psoriasis er en betændelsessygdom i huden. Hvis du har moderat til svær plaque psoriasis, vil du først 
+få andre lægemidler eller behandlinger, såsom lysterapi. Hvis disse lægemidler eller behandlinger 
+ikke virker godt nok, vil du få Inflectra for at reducere tegn og symptomer på din sygdom.
+Colitis ulcerosa
+Colitis ulcerosa er en betændelsessygdom i tarmen. Hvis du lider af colitis ulcerosa, vil du først få 
+andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Inflectra til behandling af din 
+sygdom.
+Crohns sygdom
+Crohns sygdom er en betændelsessygdom i tarmen. Hvis du lider af Crohns sygdom, vil du først få 
+andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Inflectra for at:
+
+behandle aktiv Crohns sygdom
+
+sænke antallet af unormale åbninger (fistler) mellem din tarm og hud, der ikke har kunnet 
+behandles tilfredsstillende med andre lægemidler eller operation.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take inflectra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take inflectra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Inflectra, hvis
+
+du er allergisk over for infliximab eller over for et af de øvrige indholdsstoffer i Inflectra 
+(angivet i punkt 6), 
+
+du er allergisk (overfølsom) over for proteiner, som stammer fra mus,
+
+du har tuberkulose (TB) eller en anden alvorlig infektion, såsom lungebetændelse eller 
+blodforgiftning (sepsis, en alvorlig bakterieinfektion i blodet), 
+
+du har hjertesvigt i moderat eller svær grad. 
+Du må ikke få Inflectra, hvis noget af ovenstående passer på dig. Hvis du er i tvivl, så tal med din 
+læge, før du får Inflectra.
+53
+Advarsler og forsigtighedsregler
+Kontakt lægen, før eller under behandlingen med Inflectra, hvis du har:
+Været i behandling med lægemidler, der indeholder infliximab tidligere
+
+Fortæl din læge, hvis du tidligere har været i behandling med lægemidler, der indeholder 
+infliximab og nu starter behandling med Inflectra igen.
+
+Hvis du har holdt pause i behandlingen med infliximab i over 16 uger, er der en højere risiko 
+for at få en allergisk reaktion, når du starter Inflectra-behandlingen igen.
+Infektioner
+
+Før du får Inflectra, skal du fortælle det til din læge, hvis du har en infektion, også selvom det 
+er en meget let infektion. 
+
+Før du får Inflectra, skal du fortælle det til din læge, hvis du nogensinde har levet eller rejst i et 
+område, hvor infektioner kaldet histoplasmose, kokcidioidomykose eller blastomykose er 
+almindelige. Disse infektioner forårsages af særlige svampetyper, som kan påvirke lungerne 
+eller andre dele af kroppen.
+
+Du har lettere ved at få infektioner, når du er i behandling med Inflectra. Du har en højere 
+risiko, hvis Du er 65 år eller derover. 
+
+Disse infektioner kan være alvorlige og indbefatte tuberkulose, infektioner forårsaget af virus, 
+svampe, bakterier eller andre organismer, der findes i miljøet (infektioner som kun 
+fremkommer, hvis du er særligt disponeret) samt blodforgiftning, som kan være livstruende.
+
+Fortæl straks din læge, hvis du får tegn på infektion under behandling med Inflectra. Tegn 
+inkluderer feber, hoste, influenzalignende symptomer, utilpashed, rød eller ophedet hud, sår 
+eller problemer med tænderne. Din læge kan anbefale en midlertidig pause med Inflectra.
+Tuberkulose (TB)
+
+Det er meget vigtigt, at du fortæller du læge, hvis du nogensinde har haft TB, eller hvis du har 
+været i tæt kontakt med en person, som har eller har haft TB.
+
+Din læge vil teste dig for at se, om du har TB. Tilfælde af TB har været rapporteret hos 
+patienter i behandling med infliximab, og også hos patienter, som allerede har været i 
+behandling med lægemidler for TB. Din læge vil notere disse tests på dit patientinformations-
+kort.
+
+Hvis din læge tror, at du har risiko for at få TB, kan du blive behandlet med lægemidler mod 
+TB, inden du får Inflectra.
+
+Fortæl straks din læge, hvis du får tegn på TB under behandlingen med Inflectra. Tegn 
+inkluderer vedvarende hoste, vægttab, træthedsfølelse, feber eller natlig svedtendens.
+Hepatitis B-virus
+
+Før du får Inflectra, skal du fortælle din læge, hvis du er bærer af, eller nogensinde har haft 
+hepatitis B.
+
+Fortæl din læge, hvis du tror, du kan have en risiko for at blive smittet med hepatitis B.
+
+Din læge skal teste dig for hepatitis B-virus.
+
+Behandling med TNF-blokkere, såsom Inflectra, kan medføre, at hepatitis B igen bliver aktiv 
+hos patienter, som bærer denne virus. Dette kan i nogle tilfælde være livstruende.
+
+Hvis du oplever reaktivering af hepatitis B, kan det blive nødvendigt, at lægen stopper din 
+behandling og giver dig lægemidler som fx effektiv antiviral terapi med understøttende 
+behandling.
+54
+Hjerteproblemer
+
+Fortæl din læge, hvis du har nogen form for hjerteproblemer, såsom let hjertesvigt.
+
+Din læge vil nøje overvåge dit hjerte. 
+
+Fortæl straks din læge, hvis du får nye eller forværrede tegn på hjertesvigt under behandlingen 
+med Inflectra. Tegn inkluderer kortåndethed eller hævede fødder.
+Kræft og lymfom
+
+Før du får Inflectra, skal du fortælle det til din læge, hvis du har eller nogensinde har haft 
+lymfom (en type blodkræft) eller enhver anden form for kræft.
+
+Patienter med alvorlig reumatoid arthritis, som har haft sygdommen i lang tid, kan have en 
+større risiko for at udvikle lymfom.
+
+Børn og voksne i behandling med Inflectra kan have en øget risiko for at udvikle lymfom eller 
+anden form for kræft.
+
+Nogle patienter, som har fået TNF-blokkere, herunder infliximab, har udviklet en sjælden 
+kræftform kaldet hepatosplenisk T-celle-lymfom. Ud af disse patienter var de fleste 
+teenagedrenge eller unge mænd og de fleste havde enten Crohns sygdom eller colitis ulcerosa. 
+Denne type kræft har oftest haft dødelig udgang. Næsten alle patienterne havde, i tillæg til 
+TNF-blokkere, også fået lægemidler, der indeholder azathioprin eller mercaptopurin. 
+
+Nogle patienter, der er blevet behandlet med infliximab, har udviklet visse former for hudkræft. 
+Hvis der er forandringer i din hud eller svulster på huden under eller efter behandlingen, skal du 
+fortælle det til lægen.
+
+Nogle kvinder, der er blevet behandlet for reumatoid artrit med infliximab, har udviklet 
+livmoderhalskræft. Lægen kan tilråde, at kvinder, der får Inflectra, herunder kvinder over 60 år, 
+regelmæssigt screenes for livmoderhalskræft.
+Lungesygdom eller højt tobaksforbrug
+
+Før du får Inflectra, skal du fortælle det til din læge, hvis du har en lungesygdom kaldet kronisk 
+obstruktiv lungesygdom (KOL, rygerlunger), eller hvis du er storryger.
+
+Patienter med KOL og patienter, som er storrygere, kan have en øget risiko for at udvikle kræft 
+under behandling med Inflectra.
+Sygdom i nervesystemet
+
+Før du får Inflectra, skal du fortælle det til din læge, hvis du har eller nogensinde har haft en 
+lidelse, som påvirker dit nervesystem. Dette inkluderer dissemineret sklerose, Guillain-Barré 
+syndrom, hvis du har krampeanfald eller har fået stillet diagnosen "optisk neuritis" (betændelse 
+i synsnerven).
+Fortæl straks din læge, hvis du får symptomer på en nervesygdom under behandlingen med Inflectra. 
+Tegn inkluderer synsændringer, muskelsvaghed i arme eller ben, følelsesløshed eller prikken et sted i 
+kroppen.
+Unormale hudåbninger
+
+Fortæl din læge, hvis du har nogen unormale hudåbninger (fistler), før du får Inflectra.
+Vaccinationer 
+
+Tal med din læge, hvis du lige er blevet eller har planlagt at blive vaccineret.
+
+Du skal have de anbefalede vaccinationer, før du starter behandling med Inflectra. Under 
+Inflectra behandlingen kan du få nogle vaccinationer, men du må ikke få levende vacciner 
+(vacciner der indeholder et levende men svækket smitstof), da de kan give infektioner.
+55
+
+Hvis du har fået Inflectra, mens du var gravid, kan dit barn også have en større risiko for at få 
+en infektion, som et resultat af at have fået en levende vaccine, i løbet af det første leveår. Det 
+er vigtigt, at du fortæller dit barns læger og andet sundhedspersonale, at du får Inflectra, så de 
+kan finde frem til, hvornår dit barn skal vaccineres; det gælder også levende vacciner som 
+BCG-vaccinen (bruges til at forebygge tuberkulose).
+
+Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet sundhedspersonale, at 
+du har fået Inflectra, før barnet bliver vaccineret. Se afsnittet om Graviditet, amning og 
+frugtbarhed for yderligere information.
+Terapeutiske smitstoffer
+
+Tal med din læge, hvis du fornylig har fået eller det er planlagt, at du skal have behandling med 
+et terapeutisk smitstof (f.eks. instillation af BCG til behandling af cancer).
+Operationer eller tandindgreb
+
+Fortæl din læge, hvis du skal have foretaget en operation eller et tandindgreb.
+
+Fortæl kirurgen eller tandlægen, at du er i behandling med Inflectra ved at vise dem dit 
+patientinformationskort. 
+Leverproblemer
+
+Nogle patienter, som får infliximab, har udviklet alvorlige leverproblemer.
+
+Fortæl det straks til lægen, hvis du får symptomer på leverproblemer under behandlingen med 
+Inflectra. Tegn omfatter gulfarvning af hud og øjne, mørkebrun urin, smerter eller hævelse i 
+øvre højre side af maven, ledsmerter, udslæt eller feber.
+Lave blodtal
+
+Hos nogle patienter, som får infliximab, kan kroppen måske ikke lave nok af de blodlegmer, der 
+skal hjælpe med at bekæmpe infektioner eller stoppe blødninger.
+
+Fortæl det straks til lægen, hvis du får symptomer på lave blodtal under behandlingen med 
+Inflectra. Tegn omfatter vedvarende feber, større tendens til blødning eller blå mærker, små 
+røde eller lilla pletter, der skyldes blødning under huden, eller bleghed.
+Lidelse i immunsystemet
+
+Nogle patienter, som får infliximab, har udviklet symptomer på en sygdom i immunsystemet 
+kaldet lupus.
+
+Fortæl det straks til lægen, hvis du får symptomer på lupus under behandlingen med Inflectra. 
+Tegn omfatter ledsmerter eller udslæt på kinder eller arme, som er følsomme over for solen.
+Børn og unge
+Ovenstående oplysninger gælder også for børn og unge. Derudover gælder, at:
+
+Nogle børn og unge, som har fået TNF-blokkere såsom infliximab, har udviklet kræft inklusive 
+usædvanlige typer kræft, som i visse tilfælde har været dødelige.
+
+Flere børn end voksne, der får infliximab, fik infektioner.
+
+Børn skal have de anbefalede vaccinationer, før behandling med Inflectra påbegyndes.Børn kan 
+få visse vacciner under behandlingen med Inflectra, men må ikke få levende vacciner, mens de 
+får Inflectra.
+Inflectra bør kun anvendes til børn, hvis de behandles for Crohns sygdom eller colitis ulcerosa. 
+Børnene skal være 6 år eller ældre.
+56
+Hvis du er i tvivl, om noget af ovenstående passer på dig, skal du tale med din læge, før du får 
+Inflectra.
+Brug af andre lægemidler sammen med Inflectra
+Patienter, som har betændelsessygdomme, tager allerede lægemidler for at behandle deres lidelse. 
+Disse lægemidler kan give bivirkninger. Din læge vil rådgive dig om, hvilke andre lægemidler du skal 
+blive ved med at tage, mens du er i behandling med Inflectra. 
+Fortæl det altid lægen, hvis du bruger andre lægemidler, for nylig har brugt andre lægemidler eller 
+planlægger at bruge andre lægemidler. Dette gælder også lægemidler til behandling af Crohns 
+sygdom, colitis ulcerosa, reumatoid arthritis, ankyloserende spondylitis, psoriasisarthritis eller 
+psoriasis eller lægemidler, som ikke er købt på recept, f.eks. naturlægemidler og vitaminer og 
+mineraler.
+Det er specielt vigtigt, at du fortæller din læge, hvis du får nogen af følgende lægemidler:
+
+Lægemidler som påvirker dit immunsystem.
+
+Kineret (som indeholder anakinra). Du må ikke få Inflectra og Kineret samtidig.
+
+Orencia (som indeholder abatacept). Du må ikke få Inflectra og Orencia samtidig.
+Du må ikke få levende vacciner, mens du får Inflectra. Hvis du har fået Inflectra, mens du var gravid, 
+eller hvis du får Inflectra, mens du ammer, skal du fortælle dit barns læge og andet 
+sundhedspersonale, der tager sig af dit barn, at du har fået Inflectra, før barnet bliver vaccineret. 
+Hvis du er i tvivl, om noget af ovenstående gælder for dig, skal du kontakte lægen eller 
+apotekspersonalet, før du får Inflectra.
+Graviditet, amning og frugtbarhed
+
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge til råds, før du får dette lægemiddel. Du må kun få Inflectra 
+under graviditeten, eller mens du ammer, hvis lægen finder det nødvendigt.
+
+Du skal undgå at blive gravid, mens du er i behandling med Inflectra, og i mindst 6 måneder 
+efter du er stoppet med behandlingen. Tal med lægen om anvendelse af prævention i denne 
+tidsperiode.
+
+Hvis du fik Inflectra under graviditeten, kan dit barn have en øget risiko for at få en infektion. 
+
+Det er vigtigt, at du fortæller dit barns læge og andet sundhedspersonale, at du får Inflectra, før 
+barnet bliver vaccineret. Hvis du har fået Inflectra under graviditeten, kan vaccination af dit 
+barn med BCG-vaccine (bruges til at forebygge tuberkulose) inden for 12 måneder efter fødslen 
+medføre infektion med alvorlige komplikationer herunder død. Dit barn må ikke få levende 
+vacciner, som BCG-vaccinen, inden for 12 måneder efter fødslen, medmindre barnets læge 
+anbefaler noget andet. For mere information, se afsnit om vaccination.
+
+Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet sundhedspersonale, at 
+du har fået Inflectra, før barnet bliver vaccineret. Dit barn må ikke få levende vacciner, mens du 
+ammer, medmindre barnets læge anbefaler noget andet.
+
+Alvorligt fald i antal hvide blodlegemer er set hos spædbørn født af kvinder, der er blevet 
+behandlet med infliximab under graviditeten. Hvis dit barn hyppigt får feber eller infektioner, 
+skal du omgående kontakte barnets læge.
+Trafik- og arbejdssikkerhed
+Inflectra påvirker sandsynligvis ikke din evne til at føre motorkøretøj eller betjene værktøj eller 
+maskiner. Hvis du føler dig træt, svimmel eller utilpas efter at have fået Inflectra, må du ikke føre 
+motorkøretøj eller betjene værktøj eller maskiner. 
+Inflectra indeholder natrium
+57
+Inflectra indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
+natriumfrit. Inden du får Inflectra, bliver det imidlertid blandet med en opløsning, der indeholder 
+natrium. Fortæl det til lægen, hvis du får en diæt med lavt saltindhold.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take inflectra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take inflectra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvor meget Inflectra får du
+
+Lægen vil bestemme din dosis, og hvor ofte du skal have Inflectra. Dette vil afhænge af din 
+sygdom, vægt, og hvor godt du reagerer på Inflectra.
+
+Tabellen nedenfor viser, hvor ofte du sædvanligvis vil få dette lægemiddel efter din første 
+dosis.
+2. dosis
+2 uger efter din 1. dosis
+3. dosis
+6 uger efter din 1. dosis
+Yderligere doser
+Hver 6.-8. uge, afhængigt af din sygdom
+Rheumatoid artritis
+Den normale dosis er 3 mg for hver kg legemsvægt.
+Psoriasisarthritis, ankyloserende spondylitis (Bechterews sygdom), psoriasis, colitis ulcerosa og 
+Crohns sygdom
+Den normale dosis er 5 mg for hver kg legemsvægt.
+Sådan får du Inflectra
+
+Du vil få Inflectra af din læge eller sygeplejerske på et hospital eller en klinik.
+
+Din læge eller sygeplejerske vil klargøre lægemidlet før infusionen.
+
+Lægemidlet vil blive givet som en infusion (drop) (i løbet af 2 timer) i en af dine blodårer 
+(vener), sædvanligvis i din arm. Efter den tredje behandling kan din læge beslutte at give dig 
+din Inflectra-dosis i løbet af 1 time.
+
+Du vil blive overvåget, mens du får Inflectra og i 1-2 timer derefter.
+Brug til børn og unge
+Hos børn (i alderen 6 år eller derover), der behandles for Crohns sygdom eller colitis ulcerosa, er den 
+anbefalede dosis den samme som for voksne.
+Hvis du har fået for meget Inflectra
+Da du får dette lægemiddel af din læge eller sygeplejerske, er det usandsynligt, at du vil få for meget. 
+Der kendes ikke til nogen bivirkninger efter at have fået for meget Inflectra.
+Hvis du har glemt eller kommer for sent til din Inflectra-infusion
+Hvis du glemmer eller kommer for sent til en aftale, hvor Inflectra gives, skal du lave en ny aftale så 
+hurtigt som muligt.
+Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger er lette til moderate. Nogle patienter kan dog opleve alvorlige bivirkninger, som 
+kan kræve behandling. Bivirkninger kan også opstå efter ophør af din behandling med Inflectra.
+58
+Fortæl straks din læge, hvis du bemærker noget af følgende:
+
+Tegn på en allergisk reaktion såsom hævelse af ansigt, læber, mund eller svælg, som kan 
+forårsage besvær med at synke eller trække vejret, kløende udslæt, hævelse af hænder, fødder 
+eller ankler. Nogle af disse reaktioner kan være alvorlige eller livstruende. En allergisk reaktion 
+kan opstå inden for 2 timer efter din injektion eller senere. Yderligere tegn på allergiske 
+bivirkninger, som kan opstå op til 12 dage efter din injektion, inkluderer muskelsmerter, feber, 
+led- eller kæbesmerter, ondt i halsen eller hovedpine.
+
+Tegn på hjerteproblemer såsom ubehag i brystkassen eller brystsmerter, armsmerter, 
+mavesmerter, åndenød, angst, ørhed, svimmelhed, besvimelse, svedtendens, kvalme
+(utilpashed), opkastning, flakkende hjerte eller trykken i brystet, hurtigt eller langsomt 
+hjerteslag og hævelse af dine fødder.
+
+Tegn på infektion (inklusive tuberkulose (TB) såsom feber, træthedsfølelse, hoste, som kan 
+være vedvarende, åndenød, influenzalignende symptomer, vægttab, natlig svedtendens, diarré, 
+sår, ansamling af pus i tarmen eller omkring anus (absces), tandproblemer eller brændende 
+følelse, når du lader vandet.
+
+Mulige tegn på kræft inklusive, men ikke begrænset til, hævede lymfeknuder, vægttab, feber, 
+usædvanlige knuder i huden, ændringer i modermærker eller hudfarven eller usædvanlig 
+blødning fra skeden. 
+
+Tegn på lungeproblemer såsom hoste, åndedrætsbesvær eller trykken for brystet.
+
+Tegn på et problem i nervesystemet (inklusive øjenproblemer) såsom tegn på slagtilfælde 
+(pludselig følelsesløshed eller svaghed i ansigt, arme eller ben, særligt i den ene side af 
+kroppen; pludselig forvirring, besvær med at tale eller forstå; besvær med at se med det ene 
+eller begge øjne, gangbesvær, svimmelhed, tab af balance- eller koordinationsevne eller svær 
+hovedpine), krampeanfald, prikken/følelsesløshed et sted i kroppen eller svaghed i arme eller 
+ben, ændringer i synet såsom dobbeltsyn eller andre øjenproblemer.
+
+Tegn på leverproblemer (inklusive hepatitis B-infektion, hvis du tidligere har haft hepatitis B) 
+såsom gulfarvning af hud eller øjne, mørkebrun urin, smerte eller hævelse i øvre højre side af 
+maven, ledsmerter, hududslæt eller feber.
+
+Tegn på en sygdom i immunsystemet såsom ledsmerter, udslæt på kinder eller arme, som er 
+følsomme over for solen (lupus) eller hoste, åndenød, feber eller hududslæt (sarkoidose).
+
+Tegn på lave blodtal såsom vedvarende feber, blødningstendens eller tendens til lettere at få 
+blå mærker, små røde eller lilla pletter, der skyldes blødning under huden eller bleghed.
+
+Tegn på alvorlige hudproblemer såsom rødlige, målskivelignende pletter eller runde områder 
+ofte med blærer centralt på kroppen, store områder med afskalning af huden (eksfoliation), sår i 
+mund, svælg, næse, kønsorganer og øjne eller små pusholdige blærer, som kan sprede sig over 
+hele kroppen. Disse hudreaktioner kan være ledsaget af feber.
+Fortæl straks din læge, hvis du bemærker noget af ovenstående. 
+Følgende bivirkninger er observeret med Inflectra: 
+Meget almindelige: kan forekomme hos flere end 1 ud af 10 personer
+
+Mavesmerter, kvalme
+
+Virusinfektioner såsom herpes eller influenza
+
+Øvre luftvejsinfektioner såsom bihulebetændelse
+
+Hovedpine
+
+Bivirkninger i forbindelse med infusionen
+
+Smerter.
+Almindelige: kan forekomme hos op til 1 ud af 10 personer
+
+Ændringer i hvordan din lever fungerer, forhøjede leverenzymer (vist i blodprøver)
+
+Infektioner i lunger eller luftveje såsom bronkitis eller lungebetændelse
+
+Besværet eller smertefuldt åndedræt, smerter i brystet
+
+Blødning i mave eller tarme, diarré, fordøjelsesbesvær, halsbrand, forstoppelse
+59
+
+Nældefeber, kløende udslæt eller tør hud
+
+Balanceproblemer eller svimmelhed
+
+Feber, øget svedtendens
+
+Kredsløbsproblemer såsom for lavt eller for højt blodtryk
+
+Blå mærker, hedeture eller næseblod, varm, rød hud (rødmen)
+
+Trætheds- eller svaghedsfølelse
+
+Bakterieinfektioner såsom blodforgiftning, byld eller infektion under huden (cellulitis)
+
+Svampeinfektion i huden
+
+Blodproblemer såsom blodmangel eller lavt antal hvide blodlegemer
+
+Hævede lymfeknuder
+
+Depression, problemer med at sove
+
+Øjenproblemer inklusive røde øjne og øjeninfektioner
+
+Galoperende hjerte (hurtig puls) eller hjertebanken
+
+Smerter i leddene, musklerne eller ryggen
+
+Urinvejsinfektion
+
+Psoriasis, hudproblemer såsom eksem og hårtab
+
+Reaktioner på injektionsstedet såsom smerte, hævelse, rødme eller kløe
+
+Kulderystelser, hævelse på grund af ophobning af væske under huden
+
+Følelsesløshed eller en prikkende fornemmelse.
+Ikke almindelige: kan forekomme hos op til 1 ud af 100 personer
+
+Manglende blodtilførsel, hævelse af en blodåre
+
+Ansamling af blod uden for blodkarrene (hæmatom) eller blå mærker
+
+Hudproblemer såsom blæredannelse, vorter, unormal hudfarve eller pigmentering, eller hævede 
+læber eller fortykkelse af huden eller rød, skællende hud og afskalning af huden
+
+Alvorlige allergiske reaktioner (f.eks. anafylaktisk shock), en sygdom i immunsystemet kaldet 
+lupus, allergiske reaktioner over for fremmede proteiner
+
+Længere sårhelingstid
+
+Hævelse af lever (hepatitis) eller galdeblæren, leverskade
+
+Glemsomhed, irritabilitet, forvirring, nervøsitet
+
+Øjenproblemer inklusive sløret eller nedsat syn, hævede øjne eller bygkorn
+
+Debuterende eller forværring af eksisterende hjertesvigt, langsom hjertefrekvens (puls)
+
+Besvimelse
+
+Kramper, nerveforstyrrelser
+
+Hul i tarmen eller blokering af tarmen, mavesmerter eller -kramper
+
+Hævelse af bugspytkirtlen (bugspytkirtelbetændelse)
+
+Svampeinfektioner, såsom gærsvampeinfektion eller svampeinfektion i neglene
+
+Lungeproblemer såsom ødemer
+
+Væske rundt om lungerne (pleuraekssudat)
+
+Forsnævrede luftveje i lungerne, der giver vejrtrækningsbesvær
+
+Lungehindebetændelse, der giver skape smerter, som forværres ved vejrtrækning (pleuritis)
+
+Tuberkulose
+
+Nyreinfektioner
+
+Lavt antal blodplader, for mange hvide blodlegemer
+
+Infektioner i skeden
+
+Blodprøveresultater, der viser "antistoffer" mod din egen krop
+
+Ændringer i kolesterol- og fedtindholdet i blodet.
+
+Vægtøgning (for de fleste patienter var vægtøgningen lille).
+Sjældne: kan forekomme hos op til 1 ud af 1.000 personer
+
+En type blodkræft (lymfom)
+
+Dit blod tilfører ikke nok ilt til kroppen, kredsløbsproblemer såsom indsnævring af et blodkar
+60
+
+Betændelse i hjernehinderne (meningitis)
+
+Infektioner, som skyldes et nedsat immunforsvar 
+
+Hepatitis B-infektion, hvis du tidligere har haft hepatitis B
+
+Betændelsestilstand i leveren forårsaget af et problem med immunsystemet (autoimmun 
+hepatitis)
+
+Leverproblem, der giver gulfarvning af hud eller øjne (gulsot)
+
+Unormal vævshævelse eller -vækst
+
+Alvorlig allergisk reaktion, som kan medføre tab af bevidsthed og kan være livstruende 
+(anafylaktisk shock)
+
+Hævelse af små blodkar (blodkarbetændelse)
+
+Immunsystemdefekt, som kan påvirke lunger, hud og lymfekirtler (såsom sarkoidose)
+
+Ansamling af immunceller som følge af et inflammatorisk respons (granulomatøse læsioner)
+
+Mangel på interesse eller følelser
+
+Alvorlige hudproblemer såsom toksisk epidermal nekrolyse, Stevens-Johnsons syndrom og akut 
+generaliseret eksantematøs pustulose
+
+Andre hudproblemer såsom erythema multiforme, blærer og afskalning af huden eller bylder
+(furunkulose)
+
+Alvorlige lidelser i nervesystemet såsom transversel myelitis, multipel sklerose-lignende 
+sygdom, optisk neuritis og Guillain-Barré syndrom
+
+Øjenbetændelse, der kan forårsage synsforandringer, inklusive blindhed
+
+Væske omkring hjertet (perikardial effusion)
+
+Alvorlige lungeproblemer (såsom interstitiel lungesygdom)
+
+Melanom (en type hudkræft).
+
+Livmoderhalskræft
+
+Lavt antal blodceller, herunder svært nedsat antal hvide blodlegemer
+
+Små røde eller lilla pletter, der skyldes blødning under huden
+
+Lichenoide reaktioner (kløende, rødligt-lilla hududslæt og/eller trådlignende gråhvide linjer på 
+slimhinderne)
+
+Unormale værdier for et protein i blodet kaldet ’komplementfaktor’, som er en del af
+immunsystemet.
+Ikke kendt: hyppighed kan ikke estimeres ud fra forhåndenværende data
+
+Kræft hos børn og voksne
+
+En sjælden blodkræft, som hovedsageligt rammer teenagedrenge eller unge mænd 
+(hepatosplenisk T-celle-lymfom)
+
+Leversvigt
+
+Merkelcellekarcinom (en type hudkræft)
+
+Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant herpesvirus 
+8. Kaposis sarkom forekommer oftest som lilla læsioner på huden
+
+Forværring af en sygdom, der hedder dermatomyositis (muskelsvaghed med hududslæt som 
+følgetilstand)
+
+Hjerteanfald
+
+Slagtilfælde
+
+Midlertidigt synstab under eller inden for 2 timer efter infusionen
+
+Infektion, der skyldes en "levende" vaccine, som følge af et svækket immunsystem
+Hos børn og unge ses yderligere følgende bivirkninger:
+De bivirkninger, som børn i behandling med infliximab mod Crohns sygdom fik, var forskellige fra de 
+bivirkninger, som voksne i behandling med infliximab mod Crohns sygdom fik. Følgende bivirkninger 
+forekom hyppigere hos børn: nedsat antal røde blodlegemer (anæmi), blod i afføringen, generelt 
+nedsat antal hvide blodlegemer (leukopeni), anfaldsvis ansigtsrødme, virussinfektioner, lavt antal 
+hvide blodlegemer, der bekæmper infektion (neutropeni), knoglebrud, bakterieinfektion og allergiske 
+reaktioner i luftvejene.
+61
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store inflectra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store inflectra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inflectra opbevares af sundhedspersonalet på hospitalet eller klinikken. Skulle du få brug for 
+information omkring opbevaring, gælder følgende:
+
+Opbevar lægemidlet utilgængeligt for børn.
+
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+
+Opbevares i køleskab (2°C - 8°C). 
+
+Lægemidlet kan også opbevares i den originale pakning uden for køleskab ved højst 25°C i en 
+enkelt periode på op til 6 måneder, men den oprindelige udløbsdato må ikke overskrides. I 
+denne situation må det ikke sættes tilbage i køleskab. Skriv den nye udløbsdato på æsken med 
+dag/måned/år. Kasser lægemidlet, hvis det ikke er brugt før den nye udløbsdato eller den dato, 
+der er trykt på æsken, alt efter, hvilken dato der kommer først.
+
+Det anbefales, at Inflectra anvendes så hurtigt som muligt (inden for 3 timer), efter den er 
+klargjort til infusion. Hvis opløsningen er klargjort under aseptiske betingelser, kan den dog 
+opbevares i køleskab ved 2°C - 8°C i op til 60 dage og i yderligere 24 timer ved 25°C efter 
+udtagning fra køleskab.
+
+Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inflectra indeholder:
+
+Aktivt stof: infliximab. Hvert hætteglas indeholder 100 mg infliximab. Efter klargøring 
+indeholder hver ml 10 mg infliximab.
+
+Øvrige indholdsstoffer: saccharose, polysorbat 80, natriumdihydrogen-phosphatmonohydrat og 
+dinatriumphosphatdihydrat.
+Udseende og pakningsstørrelser
+Inflectra leveres som et hætteglas (glasflaske) indeholdende et pulver til koncentrat til 
+infusionsvæske, opløsning. Pulveret er hvidt.
+Inflectra fremstilles i pakninger med 1, 2, 3, 4 eller 5 hætteglas. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Hospira Zagreb d.o.o.
+Prudnička cesta 60
+62
+10291 Prigorje Brdovečko
+Kroatien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Drugsales Ltd
+Tel: +356 21419070/1/2
+Danmark
+Pfizer ApS
+Tlf.: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: + 33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Suomi/Finland
+63
+Icepharma hf.
+Sími: +354 540 8000
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: + 44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: + 371 670 35 775
+Denne indlægsseddel blev senest ændret {MM/YYYY}.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.
+64</p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner:
+Patientinformationskortet skal udleveres til patienter, som er i behandling med Inflectra.
+Instruktioner i anvendelse og håndtering - opbevaring
+Opbevares ved 2°C - 8°C.
+Inflectra kan opbevares ved temperaturer på op til højst 25°C i en enkelt periode på op til 6 måneder, 
+men den oprindelige udløbsdato må ikke overskrides. Den nye udløbsdato skal skrives på pakningen. 
+Når Inflectra er taget ud af køleskabet, må det ikke sættes tilbage på køl igen.
+Instruktioner i anvendelse og håndtering rekonstitution, fortynding og administration
+For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres i patientjournalen.
+1. Dosis og antal af de nødvendige Inflectra-hætteglas beregnes. Hvert Inflectra-hætteglas 
+indeholder 100 mg infliximab. Det påkrævede samlede volumen rekonstitueret Inflectra-
+opløsning beregnes.
+2. Under aseptiske forhold rekonstitueres hvert Inflectra-hætteglas med 10 ml vand til 
+injektionsvæsker ved hjælp af en sprøjte med en gauge 21 (0,8 mm) kanyle eller med en mindre 
+kanyle. Plastiklåget fra hætteglasset fjernes og toppentørres med en 70% alkoholvatpind. Indsæt 
+sprøjtekanelen i hætteglasset gennem midten af gummiproppen, og ret 
+injektionsvæskestrømmen mod glasvæggen i hætteglasset. Opløsningen blandes forsigtigt ved 
+at vende hætteglasset for at opløse pulveret. For længe eller for kraftig svingning skal undgås. 
+HÆTTEGLASSET MÅ IKKE RYSTES. Opskumning af opløsningen ved rekonstitution kan 
+forekomme. Den rekonstituerede opløsning skal stå i 5 minutter. Opløsningen bør være farveløs 
+til lysegul og opaliserende. Opløsningen kan udvikle nogle få fine gennemsigtige partikler, da 
+infliximab er et protein. Opløsningen må ikke anvendes, hvis den indeholder uigennemsigtige 
+partikler, er misfarvet eller indeholder andre fremmedlegemer.
+3. Det påkrævede volumen af den rekonstituerede Inflectra-opløsning fortyndes til 250 ml med 
+natriumchlorid 9 mg/ml (0,9%) infusionsvæske. Fortynd ikke den rekonstituerede Inflectra-
+opløsning med andre infusionsvæsker. Fortyndingen kan opnås ved at udtrække et volumen af 
+natriumchlorid 9 mg/ml (0,9%) infusionsvæske fra 250 ml glasflasken eller infusionsposen 
+svarende til voluminet af det rekonstituerede Inflectra. Det påkrævede volumen af 
+rekonstitueret Inflectra-opløsning tilføjes langsomt til 250 ml infusionsflasken eller -posen og 
+blandes forsigtigt. Brug enten en større infusionspose (fx 500 ml, 1.000 ml) til volumener over 
+250 ml eller brug flere 250 ml infusionsposer for at sikre, at koncentrationen af 
+infusionsvæsken ikke overstiger 4 mg/ml. Hvis infusionsopløsningen opbevares i køleskab efter 
+rekonstitution og fortynding, skal den stå ved stuetemperatur på 25C i 3 timer inden trin 4 
+(infusion). Opbevaring ud over 24 timer ved 2C - 8C gælder kun for tilberedning af Inflectra i 
+infusionspose.
+4. Infusionsvæsken skal administreres over en periode på ikke mindre end den anbefalede 
+infusionstid (se pkt. 3). Kun et infusionssæt med et in-line, sterilt, ikke-pyrogent, minimalt 
+proteinbindende filter (porestørrelse 1,2 μm eller derunder) bør anvendes. Da der ikke er 
+anvendt konserveringsmiddel, anbefales det, at indgivelsen af infusionsvæsken påbegyndes så 
+hurtigt som muligt og inden for 3 timer efter rekonstitution og fortynding. Hvis 
+infusionsvæsken ikke anvendes straks, er opbevaringstiderne og -betingelserne efter anbrud 
+indtil anvendelse brugerens ansvar, og bør normalt ikke overskride 24 timer ved 2C - 8C med 
+mindre rekonstitution/fortynding har fundet sted under kontrollerede og validerede aseptiske 
+65
+forhold (se pkt. 6.3 ovenfor). Rester af den ikke anvendte infusionsopløsning må ikke 
+opbevares til fornyet brug.
+5. Inflectra bør undersøges visuelt for partikler eller misfarvning før indgivelsen. Hvis der 
+observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegemer må det ikke 
+anvendes.
+6. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-572f3f97f7a7c455dcce693d90f95d77
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inflectra Package Leaflet for language en"
+Description: "ePI document Bundle for inflectra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-572f3f97f7a7c455dcce693d90f95d77"
+* entry[0].resource = composition-en-572f3f97f7a7c455dcce693d90f95d77
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp572f3f97f7a7c455dcce693d90f95d77"
+* entry[=].resource = mp572f3f97f7a7c455dcce693d90f95d77
+                            
+                    
+Instance: bundlepackageleaflet-da-572f3f97f7a7c455dcce693d90f95d77
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inflectra Package Leaflet for language da"
+Description: "ePI document Bundle for inflectra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-572f3f97f7a7c455dcce693d90f95d77"
+* entry[0].resource = composition-da-572f3f97f7a7c455dcce693d90f95d77
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp572f3f97f7a7c455dcce693d90f95d77"
+* entry[=].resource = mp572f3f97f7a7c455dcce693d90f95d77
+                            
+                    
+
+
+
+Instance: mp572f3f97f7a7c455dcce693d90f95d77
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Inflectra 100 mg powder for concentrate for solution for infusion"
-Description: "Inflectra 100 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product inflectra"
+Description: "inflectra"
 Usage: #inline
 
  
@@ -651,7 +1620,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Inflectra 100 mg powder for concentrate for solution for infusion"
+  * productName = "inflectra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -678,29 +1647,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-572f3f97f7a7c455dcce693d90f95d77
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for inflectra Package Leaflet for language en"
-Description: "ePI document Bundle for inflectra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 572f3f97f7a7c455dcce693d90f95d77ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/854/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "inflectra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-572f3f97f7a7c455dcce693d90f95d77"
-* entry[0].resource = composition-en-572f3f97f7a7c455dcce693d90f95d77
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa78ea129d510d128737f858e649dab81"
-* entry[=].resource = mpa78ea129d510d128737f858e649dab81
-                            
-                      
+* title = "List of all ePIs associated with inflectra"
+
+* subject = Reference(mpa78ea129d510d128737f858e649dab81)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#inflectra "inflectra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-572f3f97f7a7c455dcce693d90f95d77) // inflectra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-572f3f97f7a7c455dcce693d90f95d77) // inflectra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-572f3f97f7a7c455dcce693d90f95d77
+InstanceOf: List
+
+* insert 572f3f97f7a7c455dcce693d90f95d77ListRuleset
+    

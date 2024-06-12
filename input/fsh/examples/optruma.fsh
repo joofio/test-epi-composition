@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3fb39d4138ab0b1b436f7dc265a1c128
 InstanceOf: CompositionUvEpi
 Title: "Composition for optruma Package Leaflet"
@@ -306,12 +309,444 @@ site: http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-da-3fb39d4138ab0b1b436f7dc265a1c128
+InstanceOf: CompositionUvEpi
+Title: "Composition for optruma Package Leaflet"
+Description:  "Composition for optruma Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7dd7043ea9dd32e62f35d29ae9722c9c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7dd7043ea9dd32e62f35d29ae9722c9c
+* title = "TEST PURPOSES ONLY - optruma"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Optruma 
+3. Sådan skal De tage Optruma 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What optruma is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What optruma is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Optruma indeholder det aktive indholdsstof raloxifenhydrochlorid. </p>
+<p>Optruma bruges til at behandle og forebygge knogleskørhed hos kvinder, der har passeret overgangs-
+alderen (postmenopausal osteoporose). Optruma nedsætter risikoen for brud på rygsøjlen hos kvinder 
+med knogleskørhed efter overgangsalderen. En nedsat risiko for hoftebrud er ikke set. </p>
+<p>Virkning </p>
+<p>Optruma tilhører en gruppe af ikke-hormonale lægemidler, som kaldes selektive østrogen-receptor 
+modulatorer (SERM). Når en kvinde kommer i overgangsalderen, falder produktionen af det 
+kvindelige kønshormon, østrogen. Optruma efterligner nogle af de gavnlige virkninger af østrogen 
+efter overgangsalderen.  </p>
+<p>Knogleskørhed er en sygdom, som gør Deres knogler tynde og skrøbelige. Denne sygdom er især 
+almindelig hos kvinder efter overgangsalderen. Selvom knogleskørhed i begyndelsen ikke giver 
+symptomer, kan den øge risikoen for, at De brækker Deres knogler, specielt rygsøjlen, hofterne og 
+håndleddene. Knogleskørhed kan også medføre, at De får rygsmerter, bliver lavere og får en rund 
+ryg. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take optruma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take optruma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Optruma </p>
+<ul>
+<li>
+<p>hvis De bliver eller har været behandlet for blodpropper (blodprop i benene, blodprop i 
+lungerne eller blodprop i øjets nethinde). </p>
+</li>
+<li>
+<p>hvis De er allergisk (overfølsom) over for raloxifen eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6).  </p>
+</li>
+<li>
+<p>hvis De stadigvæk har mulighed for at blive gravid. Optruma kan skade det ufødte barn. </p>
+</li>
+<li>
+<p>hvis De har en leversygdom (eksempler på leversygdomme omfatter skrumpelever, let nedsat 
+leverfunktion og gulsot på grund af afløbshindring). </p>
+</li>
+<li>
+<p>hvis De har svære problemer med nyrerne. </p>
+</li>
+<li>
+<p>hvis De af ukendt årsag har blødning fra underlivet. Dette skal undersøges af Deres læge. </p>
+</li>
+<li>
+<p>hvis De har aktiv livmoderkræft, da der er utilstrækkelig erfaring med Optruma hos kvinder 
+med denne sygdom. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apoteketspersonalet, før De tager Optruma  </p>
+<ul>
+<li>
+<p>hvis De ikke kan bevæge Dem normalt i nogen tid, fordi De sidder i kørestol, skal på 
+hospitalet eller ligge i sengen efter en operation eller en uventet sygdom, da dette kan øge 
+Deres risiko for blodpropper (blodprop i benene, blodprop i lungerne eller blodprop i øjets 
+nethinde). </p>
+</li>
+<li>
+<p>Optrumahvis De har haft et slagtilfælde, eller hvis Deres læge har fortalt Dem, at De har høj 
+risiko for at få et. </p>
+</li>
+<li>
+<p>hvis De har en leversygdom </p>
+</li>
+<li>
+<p>hvis De har brystkræft, idet der er begrænset erfaring med brug af Optruma hos kvinder med 
+denne sygdom. </p>
+</li>
+<li>
+<p>hvis De tager hormontabletter med østrogen. </p>
+</li>
+</ul>
+<p>Det er usandsynligt, at Optruma vil give blødning fra underlivet. Enhver form for blødning fra 
+underlivet, mens De tager Optruma, er derfor uventet. De bør have dette undersøgt af Deres læge. </p>
+<p>Optruma kan ikke lindre symptomer, såsom hedestigninger, som opstår i forbindelse med overgangs-
+alderen. </p>
+<p>Optruma sænker det samlede kolesterol og LDL ("farligt") kolesterol. Generelt set påvirker det 
+hverken triglycerider eller HDL ("sundt") kolesterol. Hvis De imidlertid tidligere har taget østrogen, 
+og De har haft voldsomme stigninger i blodets triglycerider, bør De tale med Deres læge, før De 
+tager Optruma.  </p>
+<p>Optruma indeholder lactose 
+Kontakt lægen, før De tager denne medicin, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter,  </p>
+<p>Brug af anden medicin sammen med Optruma 
+Fortæl altid lægen eller apotekspersonalet, hvis De bruger anden medicin eller har gjort det for nylig. 
+Dette gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler, og vitaminer og 
+mineraler. </p>
+<p>Hvis De tager digitalispræparater på grund af Deres hjerte eller antikoagulantia for at fortynde Deres 
+blod (f.eks. warfarin), er Deres læge måske nødt til at justere Deres dosis af denne medicin. </p>
+<p>Fortæl det til Deres læge, hvis De får colestyramin, der hovedsageligt anvendes som lipidsænkede 
+medicin, da Optruma muligvis ikke virker så godt sammen med colestyramin. </p>
+<p>Graviditet og amning 
+Optruma må kun anvendes af kvinder, der har passeret overgangsalderen og må ikke anvendes af 
+kvinder, der stadig kan få børn. Optruma kunne skade det ufødte barn. 
+Anvend ikke Optruma hvis De ammer, da det muligvis udskilles i modermælk. </p>
+<p>Trafik- og arbejdssikkerhed 
+Optruma påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take optruma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take optruma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apoteketspersonalet. </p>
+<p>Doseringen er én tablet daglig. Det er lige meget, hvornår på dagen De tager din tablet, men hvis De 
+tager tabletten på samme tidspunkt hver dag, er det nemmere at huske. De kan tage tabletten med 
+eller uden mad. </p>
+<p>Tabletterne er til oral anvendelse. 
+Synk tabletten hel. De skal synke tabletten med et glas vand eller anden væske. Del eller knus ikke 
+tabletten inden indtagelse. En delt eller knust tablet kan smage dårligt, og der er risiko for, at De får 
+en forkert dosis. </p>
+<p>Deres læge vil fortælle Dem, hvor længe De skal tage Optruma. Deres læge vil måske også råde 
+Dem til at tage kalk- eller vitamin D-tilskud. </p>
+<p>Hvis De har taget for mange Optruma tabletter<br />
+Kontakt lægen eller apoteket.  De kan få kramper i benene eller blive svimmel, hvis De har taget 
+flere Optruma tabletter, end De skal. </p>
+<p>Hvis De har glemt at tage Optruma<br />
+Tag en tablet lige så snart, De husker det, og fortsæt derefter som før. De må ikke tage en 
+dobbeltdosis som erstatning for den glemte. </p>
+<p>Hvis De holder op med at tage Optruma 
+De skal først tale med Deres læge om det. 
+Det er vigtigt, at De fortsætter med at tage Optruma i så lang tid, som lægen har ordineret medicinen. 
+Optruma kan kun behandle eller forebygge knogleskørhed, hvis De fortsætter med at tage tabletterne. </p>
+<p>Spørg lægen eller på apoteket, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
+Størstedelen af de bivirkninger, som er set med Optruma, har været lette. </p>
+<p>Meget almindelig (kan ramme mere end 1 af 10 patienter): </p>
+<ul>
+<li>
+<p>Hedeture </p>
+</li>
+<li>
+<p>Influenzasymptomer </p>
+</li>
+<li>
+<p>Gener fra mave-tarmkanalen såsom kvalme, opkastning, mavesmerter, 
+fordøjelsesbesvær </p>
+</li>
+<li>
+<p>Forhøjet blodtryk </p>
+</li>
+</ul>
+<p>Almindelig (kan ramme 1 til 10 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>Hovedpine herunder migræne </p>
+</li>
+<li>
+<p>Kramper i benene </p>
+</li>
+<li>
+<p>Hævede hænder, fødder og ben (perifer væskeophobning): </p>
+</li>
+<li>
+<p>Galdesten </p>
+</li>
+<li>
+<p>Hududslæt </p>
+</li>
+<li>
+<p>Lette symptomer i brystet, såsom smerter, hævelse, ømhed </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan ramme 1 til 10 ud af 1.000 patienter): </p>
+<ul>
+<li>
+<p>Øget risiko for blodpropper i benene (dyb venetrombose) </p>
+</li>
+<li>
+<p>Øget risiko for blodpropper i lungerne (lungeemboli) </p>
+</li>
+<li>
+<p>Øget risiko for blodproper i øjet (nethinde venetrombose) </p>
+</li>
+<li>
+<p>Rød og smertende hud omkring en vene (årebetændelse med blodprop i huden) </p>
+</li>
+<li>
+<p>Blodprop i en arterie (f.eks. slagtilfælde samt en øget risiko for at dø af et slagtilfælde) </p>
+</li>
+<li>
+<p>Færre blodplader i blodet </p>
+</li>
+</ul>
+<p>I sjældne tilfælde kan blodets indhold af leverenzymer stige under behandling med Optruma. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store optruma"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store optruma"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke Optruma efter den udløbsdato, der står på pakningen. Udløbsdatoen er den sidste dag i den 
+nævnte måned. </p>
+<p>Opbevares i originalemballagen. Må ikke fryses.  </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Optruma indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: raloxifenhydrochlorid. Hver tablet indeholder 60 mg raloxifenhydrochlorid, hvilket 
+svarer til 56 mg raloxifen. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:  </p>
+</li>
+</ul>
+<p>Tabletkerne: Povidon, polysorbat 80, lactose, lactosemonohydrat, crospovidon, 
+magnesiumstearat. </p>
+<p>Tabletovertræk: Titandioxid (E 171), polysorbat 80, hypromellose, macrogol 400, 
+carnaubavoks. </p>
+<p>Blæk: Shellac, propylenglycol, indigotin I (E 132). </p>
+<p>Udseende og pakningsstørrelser 
+Optruma er hvide, ovale tabletter med et filmovertræk. Tabletterne er mærket med nummeret 4165. De fås i blisterpakninger eller i tabletglas af plastic. Blisterpakningerne indeholder 14, 28 eller tabletter. Tabletglassene indeholder 100 tabletter. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført. </p>
+<p>Indehaveren af markedsføringstilladelsen 
+Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ Utrecht, Holland. </p>
+<p>Fremstiller 
+Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas (Madrid), Spanien. </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Lietuva 
+Eli Lilly Lietuva<br />
+Tel. +370 (5) 2649България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41 Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664 Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60 Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH<br />
+Tel. + 49-(0) 6172 273 2Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V. 
+Tel: +372 6 817 280<br />
+Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18 Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε. <br />
+Τηλ: +30 210 629 4Österreich 
+Eli Lilly Ges. m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Lilly S.A. 
+Tel: +34-91-663 50 Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Pierre Fabre Médicament 
+Tél: + 33-(0) 1 49 10 80 Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351 21412 66 Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350 România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited.<br />
+Tel: + 353-(0) 1 661 4 Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00 Ísland 
+Icepharma hf. 
+Sími + 354 540 8Slovenská republika 
+Eli Lilly Slovakia, s.r.o. 
+Tel: + 421 220 663 Italia 
+A. Menarini 
+Industrie Farmaceutiche Riunite s.r.l 
+Tel: +39-055 56Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Tel: +371 67364United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland)Limited 
+Tel: + 353-(0) 1 661 4 
+Denne indlægsseddel blev senest ændret  </p>
+<p>De kan finde yderligere oplysninger om Optruma på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3fb39d4138ab0b1b436f7dc265a1c128
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for optruma Package Leaflet for language en"
+Description: "ePI document Bundle for optruma Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3fb39d4138ab0b1b436f7dc265a1c128"
+* entry[0].resource = composition-en-3fb39d4138ab0b1b436f7dc265a1c128
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3fb39d4138ab0b1b436f7dc265a1c128"
+* entry[=].resource = mp3fb39d4138ab0b1b436f7dc265a1c128
+                            
+                    
+Instance: bundlepackageleaflet-da-3fb39d4138ab0b1b436f7dc265a1c128
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for optruma Package Leaflet for language da"
+Description: "ePI document Bundle for optruma Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3fb39d4138ab0b1b436f7dc265a1c128"
+* entry[0].resource = composition-da-3fb39d4138ab0b1b436f7dc265a1c128
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3fb39d4138ab0b1b436f7dc265a1c128"
+* entry[=].resource = mp3fb39d4138ab0b1b436f7dc265a1c128
+                            
+                    
+
+
+
+Instance: mp3fb39d4138ab0b1b436f7dc265a1c128
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Optruma 60 mg film coated tablets"
-Description: "Optruma 60 mg film coated tablets"
+Title: "Medicinal Product optruma"
+Description: "optruma"
 Usage: #inline
 
  
@@ -331,7 +766,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Optruma 60 mg film coated tablets"
+  * productName = "optruma"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -358,29 +793,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3fb39d4138ab0b1b436f7dc265a1c128
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for optruma Package Leaflet for language en"
-Description: "ePI document Bundle for optruma Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3fb39d4138ab0b1b436f7dc265a1c128ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/98/074/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "optruma"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3fb39d4138ab0b1b436f7dc265a1c128"
-* entry[0].resource = composition-en-3fb39d4138ab0b1b436f7dc265a1c128
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7dd7043ea9dd32e62f35d29ae9722c9c"
-* entry[=].resource = mp7dd7043ea9dd32e62f35d29ae9722c9c
-                            
-                      
+* title = "List of all ePIs associated with optruma"
+
+* subject = Reference(mp7dd7043ea9dd32e62f35d29ae9722c9c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#optruma "optruma"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3fb39d4138ab0b1b436f7dc265a1c128) // optruma en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3fb39d4138ab0b1b436f7dc265a1c128) // optruma da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3fb39d4138ab0b1b436f7dc265a1c128
+InstanceOf: List
+
+* insert 3fb39d4138ab0b1b436f7dc265a1c128ListRuleset
+    

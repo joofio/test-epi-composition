@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d0672eae48edc2b3744742b0b1ff7c9b
 InstanceOf: CompositionUvEpi
 Title: "Composition for karvezide Package Leaflet"
@@ -411,12 +414,628 @@ Tel: +44 (0) 800 035 2This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-d0672eae48edc2b3744742b0b1ff7c9b
+InstanceOf: CompositionUvEpi
+Title: "Composition for karvezide Package Leaflet"
+Description:  "Composition for karvezide Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5d75b07f2973a29dce86d2b54e342ed5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5d75b07f2973a29dce86d2b54e342ed5
+* title = "TEST PURPOSES ONLY - karvezide"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Karvezide 
+3. Sådan skal du tage Karvezide 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What karvezide is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What karvezide is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Karvezide indeholder en kombination af to aktive lægemidler, irbesartan og hydrochlorthiazid. 
+Irbesartan tilhører en medicingruppe der kaldes angiotensin-II receptorantagonister. Angiotensin-II er 
+et stof, der produceres i kroppen, og som binder sig til receptorer i blodårerne og får dem til at trække 
+sig sammen. Det medfører, at blodtrykket øges. Irbesartan forebygger at angiotensin-II binder sig til 
+disse receptorer. Derved afslappes blodårerne, og blodtrykket falder. 
+Hydrochlorthiazid tilhører en medicingruppe, der kaldes thiaziddiuretika. Thiaziddiuretika øger 
+urinudskillelse og sænker derved blodtrykket. 
+Når de to aktive stoffer i Karvezide gives samtidigt, er deres effekt på blodtrykket større, end hvis de 
+blev givet hver for sig. </p>
+<p>Karvezide bruges til at behandle forhøjet blodtryk, når behandling med irbesartan eller 
+hydrochlorthiazid hver for sig ikke har givet tilstrækkelig kontrol over blodtrykket. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take karvezide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take karvezide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Karvezide: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for irbesartan eller et af de øvrige indholdsstoffer i Karvezide (angivet i 
+punkt 6) </p>
+</li>
+<li>
+<p>hvis du er allergisk over for hydrochlorthiazid eller over for sulfonamidholdig medicin </p>
+</li>
+<li>
+<p>hvis du er længere end 3. måned henne i din graviditet. (Du bør heller ikke tage Karvezide i 
+begyndelsen af graviditeten - se afsnittet om graviditet) </p>
+</li>
+<li>
+<p>hvis du har alvorlige lever- eller nyreproblemer (spørg lægen, hvis du er i tvivl) </p>
+</li>
+<li>
+<p>hvis du har problemer med urinproduktionen </p>
+</li>
+<li>
+<p>hvis din læge har konstateret, at du har konstant forhøjet calcium eller lavt kalium i blodet </p>
+</li>
+<li>
+<p>hvis du har diabetes eller nedsat nyrefunktion, og du bliver behandlet med et lægemiddel, 
+der sænker blodtrykket, som indeholder aliskiren  </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Karvezide, hvis du oplever følgende: </p>
+<ul>
+<li>
+<p>hvis du får hyppig opkastning eller diarré </p>
+</li>
+<li>
+<p>hvis du lider af nyreproblemer eller er nyretransplanteret </p>
+</li>
+<li>
+<p>hvis du lider af hjerteproblemer </p>
+</li>
+<li>
+<p>hvis du lider af leverproblemer </p>
+</li>
+<li>
+<p>hvis du lider af diabetes </p>
+</li>
+<li>
+<p>hvis du udvikler lavt blodsukkerniveau (symptomerne kan inkludere svedtendens, svaghed, 
+sult, svimmelhed, skælven, hovedpine, rødmen eller bleghed, følelsesløshed, hurtige og 
+hamrende hjerteslag), især hvis du er i behandling for diabetes </p>
+</li>
+<li>
+<p>hvis du lider af erytematøs lupus (også kaldet lupus eller systemisk lupus erythematosus) </p>
+</li>
+<li>
+<p>hvis du lider af primær aldosteronisme (tilstand med høj produktion af hormonet aldosteron, 
+som gør, at der ophobes natriumsalt i kroppen, og blodtrykket derfor stiger) </p>
+</li>
+<li>
+<p>hvis du tager en af følgende lægemidler, der anvendes til at behandle forhøjet blodtryk: * en ACE-hæmmer (f.eks. enalapril, lisinopril, ramipril) især hvis du har 
+nyreproblemer, der skyldes diabetes. * aliskiren. </p>
+</li>
+<li>
+<p>hvis du har haft hudkræft, eller hvis du udvikler en uventet hudlæsion under behandlingen. 
+Behandling med hydrochlorthiazid, navnlig ved langtidsbrug af høje doser, kan øge risikoen 
+for visse typer hud- og læbekræft (non-melanom hudkræft). Beskyt huden mod sollys og UV- stråler, mens du tager Karvezide. </p>
+</li>
+<li>
+<p>hvis du tidligere har haft vejrtræknings- eller lungeproblemer (herunder betændelse eller 
+væske i lungerne) efter indtagelse af hydrochlorthiazid. Hvis du udvikler alvorlig åndenød 
+eller vejrtrækningsbesvær efter at have taget Karvezide, skal du straks søge lægehjælp. </p>
+</li>
+</ul>
+<p>Din læge vil måske regelmæssigt kontrollere din nyrefunktion, dit blodtryk og mængden af 
+elektrolytter (f.eks. kalium) i dit blod.  </p>
+<p>Se også information under "Tag ikke Karvezide". </p>
+<p>Du skal fortælle det til din læge, hvis du tror du er gravid eller planlægger at blive gravid. Karvezide 
+frarådes tidligt i graviditeten, og du må ikke tage Karvezide, hvis du er længere end 3 måneder henne i 
+din graviditet, da det kan skade dit barn alvorligt, hvis det tages i denne periode (se afsnittet om 
+graviditet). </p>
+<p>Du skal også oplyse lægen om det: </p>
+<ul>
+<li>
+<p>hvis du er på en saltfattig diæt </p>
+</li>
+<li>
+<p>hvis du har symptomer som voldsom tørst, mundtørhed, følelse af svaghed, sløvhed, 
+muskelsmerter eller -kramper, kvalme, opkastning eller en voldsom hjertebanken, som kan 
+være tegn på for kraftig effekt af hydrochlorthiazid (der er indeholdt i Karvezide) </p>
+</li>
+<li>
+<p>hvis du oplever øget følsomhed af huden for sol med solskoldningssymptomer (såsom rødme, 
+kløe, hævelse, blæredannelse), som forekommer hurtigere end normalt </p>
+</li>
+<li>
+<p>hvis du skal opereres eller bedøves </p>
+</li>
+<li>
+<p>hvis du oplever nedsat syn, eller du får smerter i et af eller begge dine øjne, mens du tager 
+Karvezide. Dette kan være symptomer på væskeansamling i det vaskulære lag i øjet (choroidal 
+effusion) eller et øget tryk i øjet (glaukom), og det kan opstå i løbet af timer eller op til en uge 
+efter at have taget Karvezide. Dette kan føre til permanent synstab, hvis det ikke behandles. 
+Hvis du tidligere har haft en penicillin- eller sulfonamidallergi, kan du have en højere risiko for 
+at udvikle dette. Du skal stoppe behandlingen med Karvezide og omgående søge lægehjælp. </p>
+</li>
+</ul>
+<p>Indholdet af hydrochlorthiazid i medicinen kan give et positivt analysesvar ved dopingtest. </p>
+<p>Børn og unge<br />
+Karvezide må ikke gives til børn og unge (under 18 år). </p>
+<p>Brug af anden medicin sammen med Karvezide 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
+nylig.  </p>
+<p>Vanddrivende stoffer som hydrochlorthiazider, der findes i Karvezide, kan påvirke anden medicin. 
+Tag ikke medicin, der indeholder lithium, samtidig med at du tager Karvezide uden grundig vejledning 
+fra lægen. </p>
+<p>Din læge kan blive nødt til at ændre din dosis og/eller tage andre forholdsregler: 
+Hvis du tager en ACE-hæmmer eller aliskiren (se også information under "Tag ikke Karvezide" og 
+"Advarsler og forsigtighedsregler").  </p>
+<p>Det kan være nødvendigt at tage blodprøver, hvis du tager: </p>
+<ul>
+<li>
+<p>kaliumtilskud </p>
+</li>
+<li>
+<p>salterstatninger, der indeholder kalium </p>
+</li>
+<li>
+<p>kalium-besparende medicin eller andre vanddrivende midler </p>
+</li>
+<li>
+<p>visse afføringsmidler </p>
+</li>
+<li>
+<p>medicin til behandling af urinsyregigt </p>
+</li>
+<li>
+<p>terapeutisk vitamin D-tilskud </p>
+</li>
+<li>
+<p>medicin til kontrol af hjerterytmen </p>
+</li>
+<li>
+<p>medicin for diabetes (tabletter såsom repaglinid eller insulin) </p>
+</li>
+<li>
+<p>carbamazepin (medicin, der bruges mod epilepsi) </p>
+</li>
+</ul>
+<p>Det er også vigtigt at fortælle lægen, hvis du tager anden medicin for at nedsætte blodtrykket, 
+steroider, kræftmedicin, smertestillende medicin, gigtmedicin, eller colestyramin og colestipolresiner 
+til at sænke blodets kolesterol. </p>
+<p>Brug af Karvezide sammen med mad og drikke 
+Karvezide kan tages med og uden mad. </p>
+<p>Hvis du drikker alkohol, mens du er i behandling med dette produkt, kan du opleve, at du bliver mere 
+svimmel, især når du rejser dig op fra siddende stilling. Dette skyldes stoffet hydrochlorthiazid, som 
+findes i Karvezide. </p>
+<p>Graviditet, amning og frugtbarhed 
+Graviditet 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager Karvezide.<br />
+Din læge vil normalt anbefale, at du stopper med at tage Karvezide, inden du bliver gravid, eller så 
+snart du ved, at du er gravid. Lægen vil anbefale, at du tager anden medicin i stedet for Karvezide. 
+Karvezide bør ikke tages i den tidlige graviditet og må ikke tages, hvis du er længere end 3 måneder 
+henne i graviditeten, da det kan skade dit barn alvorligt, hvis det tages efter tredje måned af 
+graviditeten. </p>
+<p>Amning 
+Fortæl det til lægen, hvis du ammer eller skal begynde at amme. Karvezide frarådes til ammende 
+mødre, og lægen vil sædvanligvis vælge en anden behandling til dig, hvis du ønsker at amme dit barn, 
+især hvis dit barn er nyfødt eller født for tidligt. </p>
+<p>Trafik- og arbejdssikkerhed 
+Karvezide påvirker sandsynligvis ikke din evne til at køre bil eller betjene maskiner. Men man kan 
+opleve svimmelhed eller træthed, når man behandles for forhøjet blodtryk. Hvis du bliver svimmel 
+eller træt, skal du tale med lægen, inden du kører bil eller betjener maskiner. </p>
+<p>Karvezide indeholder lactose<br />
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>Karvezide indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take karvezide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take karvezide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på 
+apoteket. </p>
+<p>Dosis: 
+Den anbefalede dosis af Karvezide er en eller to tabletter dagligt. Lægen vil sandsynligvis starte 
+behandling med Karvezide, hvis den tidligere behandling ikke sænkede dit blodtryk tilstrækkeligt. 
+Lægen vil forklare, hvordan du skifter fra den tidligere behandling til behandling med Karvezide. </p>
+<p>Sådan tages medicinen 
+Karvezide skal tages gennem munden. Tabletterne skal synkes med en tilstrækkelig mængde væske 
+(for eksempel 1 glas vand). Du kan tage Karvezide med eller uden mad. Prøv at tage medicinen på ca. 
+samme tidspunkt hver dag. Det er vigtigt, at du fortsætter med at tage Karvezide, indtil lægen siger, du 
+kan stoppe. </p>
+<p>Den maksimale blodtrykssænkende effekt nås 6-8 uger efter behandlingen er påbegyndt. </p>
+<p>Hvis du har taget for mange Karvezide 
+Hvis du ved et uheld har taget for mange tabletter, skal du omgående kontakte lægen. </p>
+<p>Børn og unge må ikke få Karvezide 
+Karvezide må ikke gives til børn under 18 år. Hvis et barn sluger en eller flere tabletter, skal du straks 
+kontakte lægen. </p>
+<p>Hvis du har glemt at tage Karvezide 
+Hvis du har glemt at tage en dosis, skal du blot tage den næste til sædvanlig tid. Tag ikke dobbeltdosis 
+som erstatning for den glemte dosis. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
+Nogle af bivirkningerne kan dog være alvorlige og kan kræve medicinsk behandling. </p>
+<p>Der er indberettet sjældne tilfælde af allergiske hudreaktioner (udslæt, nældefeber) samt opsvulmet 
+ansigt, læber og/eller tunge hos patienter, der har modtaget behandling med irbesartan. Hvis du får et 
+eller flere af disse symptomer eller får åndenød, skal du holde op med at tage Karvezide og straks 
+søge lægehjælp. </p>
+<p>Hyppigheden af nedenstående bivirkninger er angivet på følgende måde: 
+Almindelig: kan påvirke op til 1 ud af 10 patienter 
+Ikke almindelig: kan påvirke op til 1 ud af 100 patienter </p>
+<p>Følgende bivirkninger er indberettet i medicinske forsøg med patienter, som fik Karvezide: </p>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10 patienter)  </p>
+<ul>
+<li>
+<p>kvalme/opkastning  </p>
+</li>
+<li>
+<p>unormal vandladning </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>svimmelhed (også når man rejser sig fra liggende eller siddende stilling)  </p>
+</li>
+<li>
+<p>blodprøver, der viser en forhøjet mængde af et enzym, der måler muskel- og hjertefunktionen 
+(kreatinkinase) eller stigning i stoffer, som måler nyrefunktionen (carbamid, kreatinin). 
+Hvis nogen af disse bivirkninger medfører problemer for dig, kontakt da lægen. </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 patienter)  </p>
+<ul>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>lavt blodtryk </p>
+</li>
+<li>
+<p>besvimelse </p>
+</li>
+<li>
+<p>hjertebanken </p>
+</li>
+<li>
+<p>rødmen </p>
+</li>
+<li>
+<p>hævelse </p>
+</li>
+<li>
+<p>problemer med seksuel formåen </p>
+</li>
+<li>
+<p>blodprøver kan vise nedsat mængde af kalium og natrium i blodet. 
+Hvis nogen af disse bivirkninger medfører problemer for dig, kontakt da lægen. </p>
+</li>
+</ul>
+<p>Bivirkninger indberettet efter markedsføring af Karvezide 
+Der er indberettet bivirkninger efter markedsføring af Karvezide. Bivirkninger, hvor hyppigheden ikke 
+er kendt, er: hovedpine, ringen for ørerne, hoste, smagsforstyrrelser, forstoppelse, led- og 
+muskelsmerter, leversygdom og nedsat nyrefunktion, øget mængde af kalium i blodet og allergiske 
+reaktioner såsom udslæt, nældefeber,opsvulmet ansigt, læber, mund, tunge og hals. Der er i sjældne 
+tilfælde også indberettet gulsot (gulfarvning af huden og/eller det hvide i øjnene). </p>
+<p>Som ved al behandling med kombination af 2 aktive stoffer, kan det ikke udelukkes, at der 
+forekommer bivirkninger, som er forårsaget af hvert af de enkelte stoffer. </p>
+<p>Bivirkninger forbundet med irbesartan alene 
+Foruden de ovennævnte bivirkninger er der også indberettet brystsmerter, alvorlige allergiske 
+reaktioner (anafylaktisk shock), nedsat antal røde blodlegemer (blodmangel - symptomerne kan 
+inkludere træthed, hovedpine, stakåndethed under motion, svimmelhed og bleghed), fald i antallet af 
+blodplader (en blodcelle, der er afgørende for størkning af blodet) og lavt blodsukkerniveau. </p>
+<p>Bivirkninger forbundet med hydrochlorthiazid alene 
+Appetitmangel; maveirritation; mavekramper; forstoppelse; gulsot (hvor huden og/eller det hvide i 
+øjnene bliver gulfarvet); bugspytkirtelbetændelse, med stærke smerter i øvre maveregion, ofte 
+forbundet med kvalme og opkastning; søvnproblemer; depression; sløret syn; mangel på hvide 
+blodceller, som kan resultere i hyppige infektioner; feber; nedsat antal blodplader (blodceller, som er 
+nødvendige for, at blodet kan størkne); nedsat antal af røde blodceller (blodmangel), som 
+karakteriseres ved træthed, hovedpine, forpustethed ved motion, svimmelhed og bleghed; nyresygdom; 
+lungeproblemer, inklusive lungebetændelse eller ophobning af væske i lungerne; øget følsomhed af 
+huden for sol; årebetændelse; hudsygdom som karakteriseres ved afskalning af huden over hele 
+kroppen; kutan lupus erythematosus, som ses i form af udslæt i ansigt, hals og hovedbund; allergiske 
+reaktioner; svækkelse og muskelkramper; ændring i puls; nedsat blodtryk efter ændringer i 
+kropsstilling; hævelse af spytkirtler; højt sukkerindhold i blodet; sukker i urinen; øgning i bestemte 
+typer af fedt i blod; høj mængde urinsyre i blodet, som kan lede til urinsyregigt. 
+Meget sjældne bivirkninger (kan påvirke op til 1 ud af 10.000 patienter): Akut åndedrætsbesvær 
+(symptomer omfatter svær åndenød, feber, svaghed og forvirring). 
+Ikke kendt (kan ikke estimeres ud fra forhåndenværende data): Hud- og læbekræft (non-melanom 
+hudkræft), nedsat syn eller øjensmerter som følge af højt tryk (mulige tegn på væskeansamling i det 
+vaskulære lag i øjet (choroidal effusion) eller akut snævervinklet glaukom). </p>
+<p>De bivirkninger, der er forbundet med hydrochlorthiazid, kan blive forstærket ved højere doser. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
+i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store karvezide"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store karvezide"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterpakningen efter Exp. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
+<p>Spørg på apoteket, hvordan  du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet , toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Karvezide indeholder: </p>
+<ul>
+<li>
+<p>Aktive stoffer: irbesartan og hydrochlorthiazid. Hver tablet af Karvezide 150 mg/12,5 mg 
+tabletter indeholder 150 mg irbesartan og 12,5 mg hydrochlorthiazid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, croscarmellosenatrium, lactosemonohydrat, 
+magnesiumstearat, kolloid silica, prægelatineret majsstivelse, rød og gul jernoxid (E172). 
+Se punkt 2 "Karvezide indeholder lactose" </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Karvezide 150 mg/12,5 mg tabletter er ferskenfarvet, bikonvekse, ovalformede med et hjerte præget 
+på den ene side og nummeret 2775 på den anden side. </p>
+<p>Karvezide 150 mg/12,5 mg tabletter leveres i blisterpakninger af 14, 28, 56 eller 98 tabletter. Der fås 
+også enkeltdosisblisterpakninger med 56 x 1 tablet til hospitalsbrug. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Sanofi Winthrop Industrie 
+82 avenue Raspail 
+94250 Gentilly<br />
+Frankrig </p>
+<p>Fremstiller 
+SANOFI WINTHROP INDUSTRIE 
+1, rue de la Vierge 
+Ambarès &amp; Lagrave 
+F-33565 Carbon Blanc Cedex - Frankrig </p>
+<p>SANOFI WINTHROP INDUSTRIE 
+30-36 Avenue Gustave Eiffel 
+37100 Tours - Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91  </p>
+<p>България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+sanofi-aventis zrt., Magyarország 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ 
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél:<br />
+0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800.536 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50  </p>
+<p>Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>
+<p>Indlægsseddel: Information til brugeren 
+Karvezide 300 mg/12,5 mg tabletter 
+irbesartan/hydrochlorthiazid </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide </p>
+</li>
+<li>
+<p>Lægen har ordineret Karvezide til dig personligt. Lad derfor være med at give det til andre. Det 
+kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </p>
+</li>
+<li>
+<p>Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
+som ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d0672eae48edc2b3744742b0b1ff7c9b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for karvezide Package Leaflet for language en"
+Description: "ePI document Bundle for karvezide Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d0672eae48edc2b3744742b0b1ff7c9b"
+* entry[0].resource = composition-en-d0672eae48edc2b3744742b0b1ff7c9b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd0672eae48edc2b3744742b0b1ff7c9b"
+* entry[=].resource = mpd0672eae48edc2b3744742b0b1ff7c9b
+                            
+                    
+Instance: bundlepackageleaflet-da-d0672eae48edc2b3744742b0b1ff7c9b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for karvezide Package Leaflet for language da"
+Description: "ePI document Bundle for karvezide Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d0672eae48edc2b3744742b0b1ff7c9b"
+* entry[0].resource = composition-da-d0672eae48edc2b3744742b0b1ff7c9b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd0672eae48edc2b3744742b0b1ff7c9b"
+* entry[=].resource = mpd0672eae48edc2b3744742b0b1ff7c9b
+                            
+                    
+
+
+
+Instance: mpd0672eae48edc2b3744742b0b1ff7c9b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Karvezide 150 mg/12.5 mg tablets."
-Description: "Karvezide 150 mg/12.5 mg tablets."
+Title: "Medicinal Product karvezide"
+Description: "karvezide"
 Usage: #inline
 
  
@@ -436,7 +1055,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Karvezide 150 mg/12.5 mg tablets."
+  * productName = "karvezide"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -463,29 +1082,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d0672eae48edc2b3744742b0b1ff7c9b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for karvezide Package Leaflet for language en"
-Description: "ePI document Bundle for karvezide Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d0672eae48edc2b3744742b0b1ff7c9bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/98/085/001-003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "karvezide"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d0672eae48edc2b3744742b0b1ff7c9b"
-* entry[0].resource = composition-en-d0672eae48edc2b3744742b0b1ff7c9b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5d75b07f2973a29dce86d2b54e342ed5"
-* entry[=].resource = mp5d75b07f2973a29dce86d2b54e342ed5
-                            
-                      
+* title = "List of all ePIs associated with karvezide"
+
+* subject = Reference(mp5d75b07f2973a29dce86d2b54e342ed5)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#karvezide "karvezide"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d0672eae48edc2b3744742b0b1ff7c9b) // karvezide en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d0672eae48edc2b3744742b0b1ff7c9b) // karvezide da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d0672eae48edc2b3744742b0b1ff7c9b
+InstanceOf: List
+
+* insert d0672eae48edc2b3744742b0b1ff7c9bListRuleset
+    

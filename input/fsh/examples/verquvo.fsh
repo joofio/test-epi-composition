@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-866524cdcbf3627a203df3c620ecce50
 InstanceOf: CompositionUvEpi
 Title: "Composition for verquvo Package Leaflet"
@@ -292,10 +295,38 @@ Tel: +44-(0)118 206 3This leaflet was last revised in  </p>
 
 
 
-Instance: mpaf3a79f053b8b92bbe1944051458f628
+                    
+Instance: bundlepackageleaflet-en-866524cdcbf3627a203df3c620ecce50
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for verquvo Package Leaflet for language en"
+Description: "ePI document Bundle for verquvo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-866524cdcbf3627a203df3c620ecce50"
+* entry[0].resource = composition-en-866524cdcbf3627a203df3c620ecce50
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp866524cdcbf3627a203df3c620ecce50"
+* entry[=].resource = mp866524cdcbf3627a203df3c620ecce50
+                            
+                    
+
+
+
+Instance: mp866524cdcbf3627a203df3c620ecce50
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Verquvo 2.5 mg film-coated tablets"
-Description: "Verquvo 2.5 mg film-coated tablets"
+Title: "Medicinal Product verquvo"
+Description: "verquvo"
 Usage: #inline
 
  
@@ -315,7 +346,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Verquvo 2.5 mg film-coated tablets"
+  * productName = "verquvo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -342,29 +373,46 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-866524cdcbf3627a203df3c620ecce50
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for verquvo Package Leaflet for language en"
-Description: "ePI document Bundle for verquvo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 866524cdcbf3627a203df3c620ecce50ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Verquvo 2.5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "verquvo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-866524cdcbf3627a203df3c620ecce50"
-* entry[0].resource = composition-en-866524cdcbf3627a203df3c620ecce50
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpaf3a79f053b8b92bbe1944051458f628"
-* entry[=].resource = mpaf3a79f053b8b92bbe1944051458f628
-                            
-                      
+* title = "List of all ePIs associated with verquvo"
+
+* subject = Reference(mpaf3a79f053b8b92bbe1944051458f628)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#verquvo "verquvo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-866524cdcbf3627a203df3c620ecce50) // verquvo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-866524cdcbf3627a203df3c620ecce50
+InstanceOf: List
+
+* insert 866524cdcbf3627a203df3c620ecce50ListRuleset
+    

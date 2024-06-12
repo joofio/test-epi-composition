@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-92b31dfcd94fef6128e5d86cc210fa3f
 InstanceOf: CompositionUvEpi
 Title: "Composition for pazenir Package Leaflet"
@@ -412,12 +415,790 @@ Tel: +44 2075407This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-92b31dfcd94fef6128e5d86cc210fa3f
+InstanceOf: CompositionUvEpi
+Title: "Composition for pazenir Package Leaflet"
+Description:  "Composition for pazenir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp12b7a90d92421542740fbce97c9eb3c7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp12b7a90d92421542740fbce97c9eb3c7
+* title = "TEST PURPOSES ONLY - pazenir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at få Pazenir 
+3. Sådan skal du bruge Pazenir 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What pazenir is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What pazenir is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Pazenir indeholder paclitaxel som aktivt stof. Paclitaxel er bundet til det humane protein albumin 
+i form af bittesmå partikler, der kaldes nanopartikler. Paclitaxel hører til en gruppe lægemidler, der 
+kaldes "taxaner", og anvendes til at behandle kræft. </p>
+<ul>
+<li>
+<p>Paclitaxel er den del af lægemidlet, der påvirker kræften. Det virker ved at forhindre, at 
+kræftcellerne deler sig - dette betyder, at de dør. </p>
+</li>
+<li>
+<p>Albumin er den del af lægemidlet, der hjælper paclitaxel med at blive opløst i blodet og med at 
+krydse blodkarrenes vægge og nå ind i tumoren. Dette betyder, at andre kemikalier, der kan 
+forårsage bivirkninger, som kan være livstruende, ikke er nødvendige. Sådanne bivirkninger 
+forekommer meget mindre hyppigt med Pazenir. </p>
+</li>
+</ul>
+<p>Anvendelse 
+Pazenir anvendes til behandling af de følgende kræfttyper: </p>
+<p>Brystkræft </p>
+<ul>
+<li>
+<p>Brystkræft, som har spredt sig til andre dele af kroppen (dette kaldes "metastatisk" brystkræft). </p>
+</li>
+<li>
+<p>Pazenir anvendes til metastatisk brystkræft, når mindst en anden behandlingsmetode er blevet 
+forsøgt, men ikke har hjulpet, og behandling med en gruppe lægemidler, der kaldes 
+"antracykliner", ikke er egnet til dig. </p>
+</li>
+<li>
+<p>Personer med metastatisk brystkræft, der fik paclitaxel bundet til det humane protein albumin, 
+efter en anden behandlingsmetode ikke havde hjulpet, havde større sandsynlighed for at opleve 
+en reduktion i tumorstørrelse og levede længere end personer, der fik en anden behandling. </p>
+</li>
+</ul>
+<p>Kræft i bugspytkirtlen 
+•<br />
+Pazenir anvendes sammen med et lægemiddel, der kaldes gemcitabin, hvis du har metastatisk 
+kræft i bugspytkirtlen. Personer med metastatisk kræft i bugspytkirtlen (kræft i bugspytkirtlen, 
+der har spredt sig til andre dele af kroppen), som fik paclitaxel bundet til det humane protein </p>
+<p>albumin sammen med gemcitabin i et klinisk studie, levede længere end personer, der kun fik 
+gemcitabin. </p>
+<p>Lungekræft </p>
+<ul>
+<li>
+<p>Pazenir anvendes sammen med et lægemiddel, der kaldes carboplatin, hvis du har den mest 
+almindelige type lungekræft, der kaldes "ikke-småcellet lungekræft". </p>
+</li>
+<li>
+<p>Pazenir anvendes til ikke-småcellet lungekræft, hvis operation eller strålebehandling ikke er 
+egnet til at behandle sygdommen. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take pazenir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take pazenir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Pazenir </p>
+<ul>
+<li>
+<p>hvis du er allergisk (overfølsom) over for paclitaxel eller et af de øvrige indholdsstoffer 
+i Pazenir (angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du ammer </p>
+</li>
+<li>
+<p>hvis du har et nedsat antal hvide blodlegemer (neutrofiltal ved baseline &lt; 1.500 celler/mm3 - din 
+læge kan fortælle dig om dette). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller sygeplejersken, før du bruger Pazenir </p>
+<ul>
+<li>
+<p>hvis du har dårlig nyrefunktion </p>
+</li>
+<li>
+<p>hvis du har svære leverproblemer </p>
+</li>
+<li>
+<p>hvis du har problemer med hjertet. </p>
+</li>
+</ul>
+<p>Kontakt lægen eller sygeplejersken, hvis du får nogen af disse tilstande, mens du behandles med 
+Pazenir. Det er muligt, at lægen standser behandlingen eller nedsætter din dosis: </p>
+<ul>
+<li>
+<p>hvis du får unormale blå mærker, blødning, eller infektionstegn såsom ondt i halsen eller feber </p>
+</li>
+<li>
+<p>hvis du oplever følelsesløshed, en stikkende, prikkende fornemmelse, følsomhed over for 
+berøring eller muskelsvaghed </p>
+</li>
+<li>
+<p>hvis du får vejrtrækningsbesvær, f.eks. stakåndethed eller tør hoste. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Dette lægemiddel er kun til voksne og må ikke tages af børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Pazenir 
+Fortæl altid lægen, hvis du tager anden medicin eller for nyligt har taget anden medicin. Dette gælder 
+også medicin, som ikke er købt på recept, f.eks. naturlægemidler og vitaminer og mineraler. Det 
+skyldes, at Pazenir kan påvirke virkningen af andre lægemidler, og andre lægemidler kan påvirke 
+virkningen af Pazenir. </p>
+<p>Vær forsigtig og tal med din læge, hvis du får Pazenir samtidig med nogle af følgende: </p>
+<ul>
+<li>
+<p>medicin til behandling af infektioner (dvs. antibiotika som erythromycin, rifampicin osv. Spørg 
+din læge, sygeplejersken eller apotekspersonalet, hvis du ikke er sikker på, om den medicin, du 
+tager, er et antibiotikum), herunder også medicin til behandling af svampeinfektioner (f.eks. 
+ketoconazol) </p>
+</li>
+<li>
+<p>medicin, der anvendes mod humørsvingninger. De kaldes også antidepressive lægemidler 
+(f.eks. fluoxetin) </p>
+</li>
+<li>
+<p>medicin, der anvendes mod krampeanfald (epilepsi) (f.eks. carbamazepin, phenytoin) </p>
+</li>
+<li>
+<p>medicin, der anvendes til at sænke niveauet af lipider (fedt) i blodet (f.eks. gemfibrozil) </p>
+</li>
+<li>
+<p>medicin, der anvendes mod halsbrand eller mavesår (f.eks. cimetidin) </p>
+</li>
+<li>
+<p>medicin, der anvendes mod hiv og aids (f.eks. ritonavir, sequinavir, indinavir, nelfinavir, 
+efavirenz, nevirapin) </p>
+</li>
+<li>
+<p>et lægemiddel, der kaldes clopidogrel og anvendes til at forebygge blodpropper. </p>
+</li>
+</ul>
+<p>Graviditet, amning og frugtbarhed 
+Paclitaxel kan medføre alvorlige misdannelser, og du bør derfor ikke bruge det, hvis du er gravid. Din </p>
+<p>læge vil sørge for, at du får en graviditetstest, inden du starter på behandlingen med Pazenir. </p>
+<p>Kvinder i den fertile alder skal anvende sikker kontraception under og i op til en måned efter at have 
+fået behandling med Pazenir. </p>
+<p>Du må ikke amme, mens du tager Pazenir, da det er ukendt, om det aktive stof paclitaxel udskilles i 
+mælken. </p>
+<p>Mænd anbefales at anvende sikker prævention samt at undgå frarådes at gøre kvinder gravide under og 
+i op til seks måneder efter behandlingen, og de bør søge rådgivning om opbevaring af sæd forud for 
+behandlingen på grund af risikoen for permanent sterilitet efter behandling med Pazenir. </p>
+<p>Spørg din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Nogle personer kan føle sig trætte eller svimle, efter de har fået Pazenir. Du må ikke køre bil eller 
+betjene værktøj eller maskiner, hvis dette sker for dig. </p>
+<p>Hvis du får andre lægemidler som en del af din behandling, skal du spørge din læge til råds 
+vedrørende kørsel og betjening af maskiner. </p>
+<p>Pazenir indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pazenir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pazenir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>En læge eller en sygeplejerske vil give dig Pazenir i en vene fra et intravenøst drop. Den dosis, du får, 
+er baseret på din legemsoverflade og resultaterne af blodprøverne. Den anbefalede dosis for brystkræft 
+er 260 mg/m2 legemsoverflade, givet i løbet af 30 minutter. Den anbefalede dosis for fremskreden 
+kræft i bugspytkirtlen er 125 mg/m2 legemsoverflade, givet i løbet af 30 minutter. Den anbefalede 
+dosis ved ikke-småcellet lungekræft er 100 mg/m2 legemsoverflade, givet i løbet af 30 minutter. </p>
+<p>Hvor tit skal jeg have Pazenir? 
+Til behandling af metastatisk brystkræft gives Pazenir sædvanligvis én gang hver tredje uge (på dag 1 i 
+en 21-dages cyklus). </p>
+<p>Til behandling af fremskreden kræft i bugspytkirtlen gives Pazenir på dag 1, 8 og 15 i hver 28-dages 
+behandlingscyklus. Gemcitabin gives umiddelbart efter Pazenir. </p>
+<p>Til behandling af ikke-småcellet lungekræft gives Pazenir én gang ugentligt (dvs. på dag 1, 8 og i hver 21-dages cyklus), hvor carboplatin gives en gang hver tredje uge (dvs. kun på dag 1 i hver 
+21-dages cyklus), umiddelbart efter Pazenir-dosis er blevet givet. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Følgende meget almindelige bivirkninger kan forekomme hos flere end 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>Hårtab (de fleste tilfælde af hårtab forekom inden for en måned efter behandlingsstart med 
+paclitaxel. Når hårtab forekommer, er det omfattende (over 50%) hos de fleste patienter) </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Unormalt fald i antallet af nogle typer hvide blodlegemer (neutrofiler, lymfocytter eller </p>
+</li>
+</ul>
+<p>leukocytter) i blodet </p>
+<ul>
+<li>
+<p>Mangel på røde blodlegemer </p>
+</li>
+<li>
+<p>Nedsat antal blodplader i blodet </p>
+</li>
+<li>
+<p>Virkning på perifere nerver (smerter, følelsesløshed, prikkende fornemmelse) </p>
+</li>
+<li>
+<p>Smerter i et eller flere led </p>
+</li>
+<li>
+<p>Smerter i muskler </p>
+</li>
+<li>
+<p>Kvalme, diarré, forstoppelse, ømhed i munden, appetitløshed </p>
+</li>
+<li>
+<p>Opkastninger </p>
+</li>
+<li>
+<p>Svaghed og træthed, feber </p>
+</li>
+<li>
+<p>Dehydrering, smagsforstyrrelser, vægttab </p>
+</li>
+<li>
+<p>Lavt kaliumniveau i blodet </p>
+</li>
+<li>
+<p>Depression, søvnproblemer </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Kulderystelser </p>
+</li>
+<li>
+<p>Åndedrætsbesvær </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Hævede slimhinder og bløddele </p>
+</li>
+<li>
+<p>Forhøjede prøver for leverfunktionen </p>
+</li>
+<li>
+<p>Smerter i arme og ben </p>
+</li>
+<li>
+<p>Hoste </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Næseblod </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger kan forekomme hos op til 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>Kløe, tør hud, neglelidelser </p>
+</li>
+<li>
+<p>Infektion, feber med nedsat antal af en type hvide blodlegemer (neutrofiler) i blodet, blussen, 
+trøske (svampeinfektion), svær infektion i blodet, som kan være forårsaget af et nedsat antal 
+hvide blodlegemer </p>
+</li>
+<li>
+<p>Nedsat antal af alle blodlegemer </p>
+</li>
+<li>
+<p>Bryst- eller halssmerter </p>
+</li>
+<li>
+<p>Fordøjelsesbesvær, maveubehag </p>
+</li>
+<li>
+<p>Tilstoppet næse </p>
+</li>
+<li>
+<p>Smerter i ryggen, knoglesmerter </p>
+</li>
+<li>
+<p>Nedsat muskelkoordinering eller læsebesvær, øget eller mindre tåreflåd, tab af øjenvipper </p>
+</li>
+<li>
+<p>Ændringer i hjertefrekvens eller -rytme, hjerteinsufficiens </p>
+</li>
+<li>
+<p>Nedsat eller forhøjet blodtryk </p>
+</li>
+<li>
+<p>Rødme eller hævelse på indstikstedet </p>
+</li>
+<li>
+<p>Angst </p>
+</li>
+<li>
+<p>Lungeinfektion </p>
+</li>
+<li>
+<p>Urinvejsinfektion </p>
+</li>
+<li>
+<p>Tarmobstruktion, tyktarmsbetændelse, betændelse i galdevejene </p>
+</li>
+<li>
+<p>Akut nyresvigt </p>
+</li>
+<li>
+<p>Forhøjet bilirubin i blodet </p>
+</li>
+<li>
+<p>Ophostning af blod </p>
+</li>
+<li>
+<p>Tør mund, synkebesvær </p>
+</li>
+<li>
+<p>Muskelsvaghed </p>
+</li>
+<li>
+<p>Sløret syn </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger kan forekomme hos op til 1 ud af 100 personer: </p>
+<ul>
+<li>
+<p>Øget vægt, øget mælkesyredehydrogenase i blodet, nedsat nyrefunktion, øget blodsukker, øget 
+fosfor i blodet </p>
+</li>
+<li>
+<p>Svage eller manglende reflekser, ufrivillige bevægelser, smerter langs en nerve, besvimelse, 
+svimmelhed, når du rejser dig, rysten, lammelse af ansigtsnerven </p>
+</li>
+<li>
+<p>Irriterede øjne, smertefulde øjne, røde øjne, kløende øjne, dobbeltsyn, reduceret syn eller det at 
+se blinkende lys, sløret syn på grund af hævelse af nethinden (cystoidt makulaødem) </p>
+</li>
+<li>
+<p>Ørepine, tinnitus </p>
+</li>
+<li>
+<p>Slimfyldt hoste, åndenød ved almindelig gang eller trappegang, løbende næse eller tør næse, </p>
+</li>
+</ul>
+<p>nedsatte vejrtrækningslyde, vand i lungerne, stemmetab, blodprop i lungen, tør hals </p>
+<ul>
+<li>
+<p>Luft i maven, mavekramper, smertefulde eller ømme gummer, rektal blødning </p>
+</li>
+<li>
+<p>Smertefuld vandladning, hyppig vandladning, blod i urinen, blæresvækkelse </p>
+</li>
+<li>
+<p>Fingerneglssmerte, fingerneglsubehag, tab af fingernegle, udslæt, hudsmerte, rød hud fra sollys, 
+hudskjolder, flere svedeture, natlige svedeture, hvide områder på huden, sår, opsvulmet ansigt </p>
+</li>
+<li>
+<p>Nedsat fosfor i blodet, væskeansamling, lavt albumin i blodet, øget tørst, nedsat kalcium i 
+blodet, nedsat blodsukker, nedsat natrium i blodet </p>
+</li>
+<li>
+<p>Smerte og hævelse i næse, hudinfektioner, infektion som følge af det intravenøse kateter </p>
+</li>
+<li>
+<p>Blå mærker </p>
+</li>
+<li>
+<p>Smerter på tumorstedet, tumordød </p>
+</li>
+<li>
+<p>Nedsat blodtryk når du rejser dig op, kolde hænder og fødder </p>
+</li>
+<li>
+<p>Gangbesvær, hævelse </p>
+</li>
+<li>
+<p>Allergisk reaktion </p>
+</li>
+<li>
+<p>Nedsat leverfunktion, øget leverstørrelse </p>
+</li>
+<li>
+<p>Smerte i brystet </p>
+</li>
+<li>
+<p>Rastløshed </p>
+</li>
+<li>
+<p>Små blødninger i huden på grund af blodpropper </p>
+</li>
+<li>
+<p>En sygdom, der omfatter ødelæggelse af røde blodlegemer og akut nyresvigt </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger kan forekomme hos op til 1 ud af 1.000 personer: </p>
+<ul>
+<li>
+<p>Hudreaktion over for andre stoffer eller lungebetændelse efter strålebehandling </p>
+</li>
+<li>
+<p>Blodprop </p>
+</li>
+<li>
+<p>Meget langsom puls, hjerteanfald </p>
+</li>
+<li>
+<p>Udsivning af lægemiddel fra blodåren </p>
+</li>
+<li>
+<p>Forstyrrelse i hjertets rytme på grund af hæmmet impulsledning mellem hjertets kamre 
+(atrioventrikulært blok) </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger kan forekomme hos op til 1 ud af 10.000 personer: </p>
+<ul>
+<li>Svær vævsirritation og udslæt på hud og slimhinder (Stevens-Johnsons syndrom, toksisk 
+epidermal nekrolyse) </li>
+</ul>
+<p>Ikke kendt bivirkninger (hyppigheden kan ikke beregnes ud fra tilgængelige data): </p>
+<ul>
+<li>Hård hud/fortykkelse af huden (sklerodermi) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pazenir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pazenir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglasset efter Exp. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Uåbnede hætteglas: Opbevar beholderen i den ydre karton indtil brug for at beskytte mod lys. </p>
+<p>Efter den første rekonstitution bør dispersionen anvendes med det samme. Hvis ikke den anvendes 
+med det samme, kan dispersionen opbevares i et køleskab (ved temperaturer på 2 °C-8 °C) i op til 
+24 timer i hætteglasset, hvis den opbevares i den ydre karton for at beskytte mod lys. </p>
+<p>Den rekonstituerede dispersion i det intravenøse drop kan opbevares i op til 24 timer ved en 
+temperatur på 2 °-8 °C, beskyttet mod lys, efterfulgt af 4 timer ved en temperatur på 15 °-25 °C. </p>
+<p>Din læge eller apotekspersonalet har ansvaret for at bortskaffe al ubrugt Pazenirpå korrekt vis. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pazenir indeholder: 
+Aktivt stof: paclitaxel. 
+Hvert hætteglas indeholder 100 mg paclitaxel formuleret som albuminbundne nanopartikler. 
+Efter rekonstitution indeholder hver ml dispersion 5 mg paclitaxel formuleret som albuminbundne 
+nanopartikler. 
+Øvrige indholdsstoffer: Humant albumin (indeholder natriumcaprylat og D/L-N-acetyl-tryptophan).se 
+pkt. 2 “Pazenir indeholder natrium". </p>
+<p>Udseende og pakningsstørrelser 
+Pazenir er et hvidt til gult pulver til infusionsvæske, dispersion. Pazenir fås i hætteglas, der indeholder 
+100 mg paclitaxel formuleret som albuminbundne nanopartikler. </p>
+<p>Hver pakning indeholder 1 hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>ratiopharm GmbH 
+Graf-Arco-Straße 3 
+89079 Ulm 
+Tyskland </p>
+<p>Fremstiller </p>
+<p>Merckle GmbH 
+Ludwig-Merckle-Straße 3 
+89143 Blaubeuren 
+Tyskland </p>
+<p>Pharmachemie B.V. 
+Swensweg 5 
+Haarlem 
+2031 GA 
+Holland </p>
+<p>Teva Pharma B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Teva Nederland B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 </p>
+<p>България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Τel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS Α.Ε. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, 
+Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS Α.Ε. 
+Ελλάδα 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Τηλ: +30 2118805 </p>
+<p>Latvija 
+UAB Teva Baltics filiāle Latvijā<br />
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<hr />
+<p>Læger og sundhedspersonale </p>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Brugsanvisning, håndtering og bortskaffelse </p>
+<p>Forholdsregler ved klargøring og administration 
+Paclitaxel er et cytotoksisk lægemiddel mod cancer, og som ved andre potentielt toksiske forbindelser, 
+skal der udvises forsigtighed ved håndtering af Pazenir. Handsker, beskyttelsesbriller og beskyttende 
+beklædning bør anvendes. Hvis Pazenir-dispersionen kommer i kontakt med huden, skal huden straks 
+vaskes grundigt med vand og sæbe. Hvis Pazenir kommer i kontakt med slimhinder, skal der skylles 
+grundigt med vand. Pazenir bør kun klargøres og administreres af personale, der har modtaget 
+passende træning i håndteringen af cytotoksiske midler. Personale, der er gravide, bør ikke håndtere 
+Pazenir. </p>
+<p>Da der er risiko for ekstravasation, tilrådes det at overvåge infusionsstedet nøje for mulige 
+infiltrationer under administration af lægemidlet. Hvis infusionstiden af Pazenir følger anvisningerne 
+og begrænses til 30 minutter, reduceres risikoen for infusionsrelaterede reaktioner. </p>
+<p>Rekonstitution af produktet og administration 
+Pazenir bør gives under overvågning af en kvalificeret onkolog på afdelinger, der er specialiseret 
+i administration af cytotoksiske midler. </p>
+<p>Pazenir leveres som et sterilt, frysetørret pulver til rekonstitution inden brug. Efter rekonstitution 
+indeholder hver ml dispersion 5 mg paclitaxel formuleret som albuminbundne nanopartikler. 
+Administrer den rekonstituerede Pazenir-dispersion intravenøst via et infusionssæt med et indsat 
+15 µm filter. </p>
+<p>Rekonstitution af 100 mg: 
+Ved brug af en steril sprøjte injiceres 20 ml natriumchlorid 9 mg/ml (0,9%) infusionsvæske, 
+opløsning, langsomt (i løbet af mindst et minut) ind i et hætteglas med 100 mg Pazenir. </p>
+<p>Infusionsvæsken bør sprøjtes mod indersiden af hætteglasset. Infusionsvæsken bør ikke sprøjtes 
+direkte på pulveret, da dette kan resultere i skumdannelse. </p>
+<p>Når tilsætningen er fuldført, skal hætteglasset have lov til at stå i mindst 5 minutter for at sikre 
+ordentlig gennemvædning af det faste stof. Derefter bør hætteglasset forsigtigt og langsomt hvirvles 
+og/eller vendes på hovedet i mindst to minutter, indtil alt pulver er fuldstændigt dispergeret. Dannelse 
+af skum bør undgås. Hvis der forekommer skumdannelse eller sammenklumpning, bør dispersionen 
+stå i mindst 15 minutter, indtil skummet lægger sig. </p>
+<p>Den rekonstituerede dispersion skal være mælkeagtig og homogen uden synligt bundfald. En vis 
+bundfældning af den rekonstituerede dispersion kan forekomme. Hvis der er synligt bundfald eller 
+bundfældning, skal hætteglasset forsigtigt vendes på hovedet igen for at sikre fuldstændig redispersion 
+før brug. </p>
+<p>Inspicer dispersionen i hætteglasset for indhold af partikler. Administrer ikke den rekonstituerede 
+dispersion, hvis der ses partikler i hætteglasset. </p>
+<p>Det nøjagtige, totale volumen af 5 mg/ml dispersionen, der kræves til patienten, beregnes, og den 
+korrekte mængde rekonstitueret Pazenir injiceres i en tom, steril (PVC- eller ikke-PVC-type) 
+infusionspose. 
+Anvendelse af medicinsk udstyr med siliconeolie som smøremiddel (f.eks. kanyler og intravenøse 
+(i.v.) infusionsposer) til at rekonstituere og administrere Pazenir kan føre til dannelse af proteinholdige 
+tråde. Administrer Pazenir via et infusionssæt med et indsat 15 µm filter for at undgå administration af 
+disse tråde. Trådene fjernes med et 15 µm filter, og de fysiske eller kemiske egenskaber af det 
+rekonstituerede præparat ændres ikke herved. </p>
+<p>Hvis filtre med en porestørrelse mindre end 15 µm anvendes, kan det medføre, at filteret tilstoppes. </p>
+<p>Det er ikke nødvendigt at anvende specielle DEHP-frie infusionsbeholdere eller administrationssæt til 
+at klargøre eller indgive Pazenir-infusioner. </p>
+<p>Efter administration anbefales det, at den intravenøse slange skylles med natriumchlorid 9 mg/ml 
+(0,9%) injektionsvæske, opløsning, for at sikre administration af hele dosis. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Stabilitet 
+Uåbnede hætteglas med Pazenir er stabile indtil den dato, der er angivet på emballagen, så længe 
+hætteglasset opbevares i den ydre karton for at beskytte mod lys. Hverken frost eller nedkøling 
+påvirker præparatets stabilitet negativt. Der er ingen særlige krav vedrørende opbevaringstemperatur 
+for dette lægemiddel. </p>
+<p>Stabilitet af den rekonstituerede dispersion i hætteglasset 
+Efter den første rekonstitution bør dispersionen fyldes i en infusionspose med det samme. Kemisk og 
+fysisk stabilitet under brug er dog blevet påvist i 24 timer ved 2 °C-8 °C i den originale æske og 
+beskyttet mod stærkt lys. </p>
+<p>Stabilitet af den rekonstituerede dispersion i infusionsposen 
+Efter rekonstitution bør den rekonstituerede dispersion i infusionsposen anvendes med det samme. 
+Kemisk og fysisk stabilitet under brug er dog blevet påvist i 24 timer ved en temperatur på 2 °-8 °C, 
+beskyttet mod lys, efterfulgt af 4 timer ved en temperatur på 15 °-25 °C. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-92b31dfcd94fef6128e5d86cc210fa3f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pazenir Package Leaflet for language en"
+Description: "ePI document Bundle for pazenir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-92b31dfcd94fef6128e5d86cc210fa3f"
+* entry[0].resource = composition-en-92b31dfcd94fef6128e5d86cc210fa3f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp92b31dfcd94fef6128e5d86cc210fa3f"
+* entry[=].resource = mp92b31dfcd94fef6128e5d86cc210fa3f
+                            
+                    
+Instance: bundlepackageleaflet-da-92b31dfcd94fef6128e5d86cc210fa3f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pazenir Package Leaflet for language da"
+Description: "ePI document Bundle for pazenir Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-92b31dfcd94fef6128e5d86cc210fa3f"
+* entry[0].resource = composition-da-92b31dfcd94fef6128e5d86cc210fa3f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp92b31dfcd94fef6128e5d86cc210fa3f"
+* entry[=].resource = mp92b31dfcd94fef6128e5d86cc210fa3f
+                            
+                    
+
+
+
+Instance: mp92b31dfcd94fef6128e5d86cc210fa3f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Pazenir 5 mg/ml powder for dispersion for infusion."
-Description: "Pazenir 5 mg/ml powder for dispersion for infusion."
+Title: "Medicinal Product pazenir"
+Description: "pazenir"
 Usage: #inline
 
  
@@ -437,7 +1218,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Pazenir 5 mg/ml powder for dispersion for infusion."
+  * productName = "pazenir"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -464,29 +1245,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-92b31dfcd94fef6128e5d86cc210fa3f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for pazenir Package Leaflet for language en"
-Description: "ePI document Bundle for pazenir Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 92b31dfcd94fef6128e5d86cc210fa3fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1317/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "pazenir"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-92b31dfcd94fef6128e5d86cc210fa3f"
-* entry[0].resource = composition-en-92b31dfcd94fef6128e5d86cc210fa3f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp12b7a90d92421542740fbce97c9eb3c7"
-* entry[=].resource = mp12b7a90d92421542740fbce97c9eb3c7
-                            
-                      
+* title = "List of all ePIs associated with pazenir"
+
+* subject = Reference(mp12b7a90d92421542740fbce97c9eb3c7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#pazenir "pazenir"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-92b31dfcd94fef6128e5d86cc210fa3f) // pazenir en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-92b31dfcd94fef6128e5d86cc210fa3f) // pazenir da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-92b31dfcd94fef6128e5d86cc210fa3f
+InstanceOf: List
+
+* insert 92b31dfcd94fef6128e5d86cc210fa3fListRuleset
+    

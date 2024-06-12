@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e58616440ae4dbe3d75414bff85541e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tygacil Package Leaflet"
@@ -357,12 +360,462 @@ For single use only, any unused solution should be discarded.</p>         </div>
 
 
 
+Instance: composition-da-e58616440ae4dbe3d75414bff85541e0
+InstanceOf: CompositionUvEpi
+Title: "Composition for tygacil Package Leaflet"
+Description:  "Composition for tygacil Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp367014e4a7c0cf9a38fc1b3b7c77c2ad)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp367014e4a7c0cf9a38fc1b3b7c77c2ad
+* title = "TEST PURPOSES ONLY - tygacil"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal De vide, før De begynder at bruge Tygacil
+3. Sådan skal De bruge Tygacil
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tygacil is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tygacil is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tygacil er et antibiotikum tilhørende glycylcyklingruppen, som virker ved at stoppe den bakterievækst, 
+der forårsager infektioner.
+Deres læge har ordineret Tygacil, fordi De eller Deres barn på mindst 8 år har én af følgende alvorlige 
+infektioner:
+
+Komplicerede infektioner i hud- og bløddele (det væv, som findes under huden) med undtagelse 
+af infektioner i fødderne hos personer med sukkersyge.
+
+Komplicerede maveinfektioner.
+Tygacil anvendes kun, når Deres læge mener, at andre antibiotika er uegnede.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tygacil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tygacil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Tygacil
+
+Hvis De er allergisk over for tigecyclin eller et af de øvrige indholdsstoffer i Tygacil (angivet i 
+afsnit 6).  Hvis De er allergisk over for antibiotika i tetracyklingruppen (f.eks. minocyklin, 
+doxycyklin etc.), er De måske allergisk over for tigecyclin.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sygeplejersken, før De bruger Tygacil
+
+Hvis De har dårlig eller langsom sårheling.
+
+Hvis De lider af diaré, før De får Tygacil. Hvis De får diaré under eller efter behandlingen med 
+Tygacil, skal De straks kontakte lægen. De må ikke tage noget medicin mod diaré uden først at 
+have rådført Dem med lægen. 
+26
+
+Hvis De har eller tidligere har haft bivirkninger som følge af antibiotika tilhørende 
+tetracyklinklassen (f.eks. øget følsomhed i huden over for sollys, misfarvning under 
+tandudviklingen, betændelse i bugspytkirtlen og ændring af visse laboratorieværdier ved måling 
+af blodets størkningsevne).
+
+Hvis De har eller tidligere har haft leverproblemer. Afhængig af leverens tilstand kan lægen 
+eventuelt reducere dosis for at undgå mulige bivirkninger.
+
+Hvis De har en blokering af galdegangene (kolestase).
+
+Hvis De lider af en blødningsforstyrrelse eller er i behandling med blodfortyndende medicin, 
+eftersom dette lægemiddel kan påvirke blodstørkningen.
+Under behandling med Tygacil
+
+Fortæl det straks til lægen, hvis De får symptomer på overfølsomhed.
+
+Fortæl det straks til lægen, hvis De får stærke mavesmerter, kvalme og opkastning. Det kan 
+være symptomer på akut betændelse i bugspytkirtlen.
+
+Ved visse alvorlige infektioner kan lægen overveje at bruge Tygacil i kombination med andre 
+antibiotika.
+
+Lægen vil overvåge Dem nøje for at se, om De udvikler andre infektioner. Hvis De udvikler en 
+anden infektion, vil lægen måske ordinere et andet antibiotikum.
+
+Selv om antibiotika, herunder Tygacil, bekæmper visse bakterier, kan andre bakterier og 
+svampe fortsætte med at vokse. Dette kaldes overvækst. Lægen vil kontrollere, om De har andre 
+infektioner, og behandle Dem, hvis det er nødvendigt.
+Børn
+Børn under 8 år må ikke få Tygacil, da der mangler data om sikkerhed og virkning hos denne 
+aldersgruppe, og fordi det kan medføre permanente skader på tænderne som f.eks. misfarvning af 
+tænder under udvikling.
+Brug af anden medicin sammen med Tygacil
+Fortæl det altid til lægen, hvis De bruger anden medicin, for nylig har brugt anden medicin eller 
+planlægger at bruge anden medicin. 
+Tygacil kan påvirke blodets størkningsevne. Det er vigtigt at fortælle det til lægen, hvis De tager 
+medicin som hindrer for hurtig størkning af blodet (kaldet antikoagulantia). Hvis De gør det, vil lægen 
+undersøge Dem omhyggeligt.
+Tygacil påvirker muligvis effekten af p-piller. Tal med lægen om behovet for anden form for 
+prævention, mens De får Tygacil.
+Tygacil kan øge virkningen af lægemidler, der bruges til at undertrykke immunsystemet (herunder 
+tacrolimus eller cyclosporin). Det er vigtigt, at De fortæller lægen, hvis De tager disse lægemidler, så 
+De kan blive nøje overvåget. 
+Graviditet og amning
+Tygacil forårsager muligvis fosterskader. Hvis De er gravid eller ammer, har mistanke om, at De er 
+gravid, eller planlægger at blive gravid, skal De spørge Deres læge til råds, før De bruger Tygacil.
+Det vides ikke, om Tygacil udskilles i modermælk. Spørg Deres læge, før De ammer Deres spædbarn.
+Trafik- og arbejdssikkerhed
+Tygacil kan forårsage bivirkninger som svimmelhed. Dette kan påvirke Deres evne til at køre bil eller 
+betjene maskiner.
+27
+Tygacil indeholder natrium
+Tygacil indeholder mindre end 1 mmol (23 mg) natrium pr. 5 ml opløsning, dvs. det er i det væsentlige 
+natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tygacil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tygacil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>De vil få Tygacil af en læge eller sygeplejerske.
+Den anbefalede startdosis til voksne er 100 mg og derefter 50 mg hver 12. time. Denne dosis gives 
+intravenøst (direkte ind i blodåren) over et tidsrum på 30-60 minutter.
+Den anbefalede dosis til børn i alderen 8 til &lt;12 år er 1,2 mg/kg, som gives intravenøst hver 12. time 
+op til en maksimumdosis på 50 mg hver 12. time.
+Den anbefalede dosis til unge i alderen 12 til &lt;18 år er 50 mg hver 12. time. 
+En behandling varer almindeligvis 5-14 dage. Lægen vil beslutte, hvor længe De skal behandles.
+Hvis De har brugt for meget Tygacil
+Hvis De tror, at De har fået for meget Tygacil, skal De straks kontakte lægen eller sygeplejersken.
+Hvis De har glemt at bruge Tygacil
+Hvis De tror, at De har glemt at få en dosis, skal De straks kontakte lægen eller sygeplejersken.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Pseudomembranøs kolit kan opstå ved brug af de fleste antibiotika, herunder Tygacil. Det er en tilstand 
+med alvorlig, vedvarende eller blodig diaré ledsaget af mavesmerter eller feber. Det kan være tegn på 
+en alvorlig tarmbetændelse, som kan forekomme under eller efter behandlingen.
+Meget almindelige bivirkninger er (kan påvirke mere end 1 ud af 10 personer):
+
+Kvalme, opkastning, diaré.
+Almindelige bivirkninger er (kan påvirke op til 1 ud af 10 personer):
+
+Bylder, infektioner
+
+Nedsat evne til at få blodet til at størkne (ses ved blodprøver)<br />
+
+Svimmelhed
+
+Irritation i blodårerne pga. injektionen, inkl. smerte, inflammation, hævelse og størkning
+
+Mavemerter, dyspepsi (mavegener og fordøjelsesbesvær), appetitløshed
+
+Forhøjede levertal, hyperbilirubinæmi (unormal høj koncentration af galdefarvestof i blodet)
+
+Kløe, udslæt
+
+Dårlig eller langsom sårheling
+
+Hovedpine
+
+Stigning i amylase, som er et enzym, der findes i spytkirtlerne og bugspytkirtlen, forhøjet 
+urinkvælstof i blodet
+
+Lungebetændelse
+
+Lavt blodsukker
+
+Blodforgiftning (alvorlig infektion i kroppen og blodbanen), septisk shock (alvorlig tilstand som 
+kan føre til svigt af mange organer og død som følge af blodforgiftning)
+
+Reaktioner på injektionsstedet (smerte, rødme, irritation)
+
+Nedsat indhold af protein i blodet.
+28
+Ikke almindelige bivirkninger er (kan påvirke op til 1 ud af 100 personer):
+
+Akut bugspytkirtelbetændelse (betændt bugspytkirtel som kan forårsage svære mavesmerter, 
+kvalme og opkastning)
+
+Gulsot (gulfarvning af huden), betændelse i leveren
+
+Lavt antal blodplader i blodet (hvilket kan medføre øget tendens til blødning og blå 
+mærker/blodansamlinger).
+Sjældne bivirkninger er (kan påvirke op til 1 ud af 1.000 personer):
+
+Lavt indhold af fibrinogen i blodet (et protein, der medvirker til blodets størkning).
+Bivirkninger, hvis hyppighed ikke kendes, er (hyppigheden kan ikke estimeres ud fra de 
+forhåndenværende data):
+
+pludselige overfølsomhedsreaktioner (anafylaktiske/anafylaktoide reaktioner). Disse reaktioner 
+kan variere fra milde til alvorlige og kan omfatte en pludseligt opstået overfølsomhedsreaktion i 
+hele kroppen, hvilket kan føre til livstruende shock (dvs. besvær med vejrtrækningen, 
+blodtryksfald, hurtig puls)
+
+Leversvigt
+
+Udslæt, som kan føre til svær blæredannelse og afskalning af huden (Stevens-Johnsons 
+syndrom)
+Indberetning af bivirkninger
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller sygeplejersken. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tygacil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tygacil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Opbevares ved temperaturer under 25oC. Brug ikke Tygacil efter den udløbsdato, der står på 
+pakningen. Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevaring efter tilberedelse
+Når pulveret er opløst og fortyndet og er klar til brug, skal det anvendes med det samme.
+Tygacil-infusionsvæsken skal være gul til orange efter opløsning. Hvis det ikke er tilfældet, må 
+infusionsvæsken ikke anvendes.
+Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tygacil indeholder
+Aktivt stof: tigecyclin. Hvert hætteglas indeholder 50 mg tigecyclin.
+Øvrige indholdsstoffer: Lactosemonohydrat, saltsyre og natriumhydroxid.
+Udseende og pakningsstørrelse
+Tygacil leveres som et pulver til infusionsopløsning i et hætteglas og ligner et orange pulver eller en 
+orange masse, før det bliver opløst. Disse hætteglas leveres til hospitalet i en pakke med 10 hætteglas. 
+Pulveret skal blandes i hætteglasset med en lille smule opløsning. Hætteglasset skal rystes forsigtigt, 
+indtil pulveret er opløst. Derefter skal opløsningen straks trækkes op af hætteglasset og overføres til en 
+29
+100 ml infusionspose eller anden passende infusionsbeholder på hospitalet.
+Indehaveren af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Wyeth Lederle S.r.l.
+Via Franco Gorgone Z.I.
+95100 Catania (CT)
+Italien
+Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas 
+Lietuvoje
+Tel: + 370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон
+България
+Teл:: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o. 
+Tel: +420-283-004-111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer BV
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA PFE GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel.: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς Α.Ε. 
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.,
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel:+34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: (+351) 21 423 5500
+France
+Pfizer
+Tél +33 (0) 1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s 
+področja
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+30
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0) 1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná 
+zložka 
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Simi: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0) 9 430 040
+Italia
+Pfizer S.r.l. 
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited,
+Tel: +44 (0) 1304 616161
+Latvijā
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Denne indlægsseddel blev senest ændret 
+De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+http://www.ema.europa.eu hjemmeside.
+31
+Nedenstående oplysninger er til læger og sundhedspersonale:
+Instruktioner vedrørende anvendelse og håndtering (se også </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e58616440ae4dbe3d75414bff85541e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tygacil Package Leaflet for language en"
+Description: "ePI document Bundle for tygacil Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e58616440ae4dbe3d75414bff85541e0"
+* entry[0].resource = composition-en-e58616440ae4dbe3d75414bff85541e0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe58616440ae4dbe3d75414bff85541e0"
+* entry[=].resource = mpe58616440ae4dbe3d75414bff85541e0
+                            
+                    
+Instance: bundlepackageleaflet-da-e58616440ae4dbe3d75414bff85541e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tygacil Package Leaflet for language da"
+Description: "ePI document Bundle for tygacil Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e58616440ae4dbe3d75414bff85541e0"
+* entry[0].resource = composition-da-e58616440ae4dbe3d75414bff85541e0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe58616440ae4dbe3d75414bff85541e0"
+* entry[=].resource = mpe58616440ae4dbe3d75414bff85541e0
+                            
+                    
+
+
+
+Instance: mpe58616440ae4dbe3d75414bff85541e0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Tygacil 50 mg powder for solution for infusion"
-Description: "Tygacil 50 mg powder for solution for infusion"
+Title: "Medicinal Product tygacil"
+Description: "tygacil"
 Usage: #inline
 
  
@@ -382,7 +835,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Tygacil 50 mg powder for solution for infusion"
+  * productName = "tygacil"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -409,29 +862,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e58616440ae4dbe3d75414bff85541e0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tygacil Package Leaflet for language en"
-Description: "ePI document Bundle for tygacil Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e58616440ae4dbe3d75414bff85541e0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/06/336/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tygacil"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e58616440ae4dbe3d75414bff85541e0"
-* entry[0].resource = composition-en-e58616440ae4dbe3d75414bff85541e0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp367014e4a7c0cf9a38fc1b3b7c77c2ad"
-* entry[=].resource = mp367014e4a7c0cf9a38fc1b3b7c77c2ad
-                            
-                      
+* title = "List of all ePIs associated with tygacil"
+
+* subject = Reference(mp367014e4a7c0cf9a38fc1b3b7c77c2ad)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tygacil "tygacil"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e58616440ae4dbe3d75414bff85541e0) // tygacil en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e58616440ae4dbe3d75414bff85541e0) // tygacil da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e58616440ae4dbe3d75414bff85541e0
+InstanceOf: List
+
+* insert e58616440ae4dbe3d75414bff85541e0ListRuleset
+    

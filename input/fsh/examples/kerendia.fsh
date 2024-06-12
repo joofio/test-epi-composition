@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-ea2d9477557df2cb8572d829cd765247
 InstanceOf: CompositionUvEpi
 Title: "Composition for kerendia Package Leaflet"
@@ -368,12 +371,440 @@ Tel: +44-(0)118 206 3This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-ea2d9477557df2cb8572d829cd765247
+InstanceOf: CompositionUvEpi
+Title: "Composition for kerendia Package Leaflet"
+Description:  "Composition for kerendia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp337c03febb3cfafda9b162f5687aab5a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp337c03febb3cfafda9b162f5687aab5a
+* title = "TEST PURPOSES ONLY - kerendia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Kerendia </li>
+<li>Sådan skal du tage Kerendia </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What kerendia is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What kerendia is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kerendia indeholder det aktive stof finerenon. Finerenon virker ved at blokere visse hormoners 
+virkning (mineralokortikoider), der kan beskadige dine nyrer og dit hjerte. </p>
+<p>Kerendia anvendes til behandlingen af voksne med kronisk nyresygdom (med unormal 
+tilstedeværelse af proteinet albumin i urinen) forbundet med type 2-diabetes. 
+Kronisk nyresygdom er en langvarig lidelse. Dine nyrer har sværere og sværere ved at fjerne affald og 
+væsker fra blodet. 
+Type 2-diabetes er, når din krop ikke kan opretholde normale blodsukkerniveauer. Din krop 
+producerer ikke nok af hormonet insulin eller kan ikke anvende insulinen korrekt. Dette fører til et højt 
+sukkerniveau i dit blod. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take kerendia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take kerendia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Kerendia 
+- hvis du er allergisk over for finerenon eller et af de øvrige indholdsstoffer i Kerendia (angivet i 
+punkt 6). 
+- hvis du tager lægemidler, der tilhører gruppen af 'stærke CYP3A4-hæmmere', for eksempel 
+- itraconazol eller ketoconazol (til behandling af svampeinfektioner) 
+- ritonavir, nelfinavir eller cobicistat (til behandling af hiv-infektion) 
+- clarithromycin, telithromycin (til behandling af bakterieinfektioner) 
+- nefazodon (til behandling af depression). 
+- hvis du har Addisons sygdom (når din krop ikke producerer nok af hormonerne ‘kortisol’ og 
+‘aldosteron’). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Kerendia. Dette gælder især, hvis du har 
+- fået at vide, at du nogensinde har haft et højt indhold af kalium i blodet. 
+- svært tab af nyrefunktion eller nyresvigt. 
+- moderate eller svære leverproblemer. 
+- mild, moderat eller svær hjertesvigt. Det er, når dit hjerte ikke pumper blodet, så godt som det 
+burde. Det pumper ikke nok blod ud af hjertet med et slag. </p>
+<p>Blodprøver 
+Disse prøver kontrollerer dit kalium niveau og hvordan dine nyrer virker. 
+På baggrund af dine blodprøver beslutter din læge om du kan begynde at tage Kerendia. 
+Når du har taget Kerendia i 4 uger, vil du få taget flere blodprøver. 
+Din læge kan tage flere blodprøver på andre tidspunkter, for eksempel mens du tager andre 
+lægemidler. </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke gives til børn og unge under 18 år, fordi det endnu ikke er kendt, om det er 
+sikkert og virkningsfuldt i denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Kerendia 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Din læge vil fortælle dig, hvilke lægemidler du 
+kan tage. Din læge vil muligvis igen tage flere blodprøver for at være sikker. </p>
+<p>Du må ikke tage lægemidler, der tilhører gruppen af 'stærke CYP3A4-hæmmere', mens du tager 
+Kerendia (se punkt 2 "Tag ikke Kerendia..."). </p>
+<p>Fortæl lægen eller apotekspersonalet, hvis du tager anden medicin, mens du tager Kerendia, særligt 
+- hvis du for eksempel tager 
+- amilorid eller triamteren (for at fjerne overskydende vand fra kroppen i urinen) 
+- eplerenon, esaxerenon, spironolacton eller canrenon (lægemidler, der minder om 
+finerenon) 
+- trimethoprim eller en kombination af trimethoprim og sulfamethoxazol (til 
+behandling af bakterieinfektioner) 
+- kaliumtilskud, herunder visse salterstatninger 
+eller hvis du tager andre lægemidler, der kan øge indholdet af kalium i blodet. Disse lægemidler 
+kan være skadelige for dig. </p>
+<ul>
+<li>hvis du for eksempel tager </li>
+<li>erythromycin (til behandling af bakterieinfektioner) </li>
+<li>verapamil (til behandling af højt blodtryk, brystsmerter og hurtige hjerteslag) </li>
+<li>fluvoxamin (til behandling af depression og OCD (obsessiv-kompulsiv tilstand)) </li>
+<li>rifampicin (til behandling af bakterieinfektioner) </li>
+<li>carbamazepin, phenytoin eller phenobarbital (til behandling af epilepsi) </li>
+<li>prikbladet perikon (Hypericum perforatum) (urtemedicin til behandling af depression) </li>
+<li>
+<p>efavirenz (til behandling af hiv-infektion) 
+eller hvis du tager andre lægemidler, der tilhører samme gruppe af lægemidler som dem, der er anført 
+ovenfor (visse ‘CYP3A4-hæmmere’ og ‘-induktorer’). Du kan få flere bivirkninger, eller Kerendia 
+virker måske ikke så godt som forventet. </p>
+</li>
+<li>
+<p>hvis du tager flere andre blodtrykssænkende præparater. Din læge skal muligvis holde øje 
+med dit blodtryk. </p>
+</li>
+</ul>
+<p>Brug af Kerendia sammen med mad og drikke 
+Du må ikke spise grapefrugt eller drikke grapefrugtjuice, mens du tager Kerendia. 
+Hvis du gør, kan du få for meget finerenon i blodet. Du kan få flere bivirkninger (mulige 
+bivirkninger er anført i punkt 4). </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Graviditet 
+Du bør ikke tage dette lægemiddel under graviditeten, medmindre din læge fortæller dig, at det er 
+helt nødvendigt. Det kan være skadeligt for dit ufødte barn. Din læge vil drøfte det med dig. 
+Du bør anvende pålidelig prævention, hvis du kan blive gravid. Lægen vil forklare for dig, hvilken 
+type prævention, du kan anvende. </p>
+<p>Amning 
+Du bør ikke amme, mens du tager dette lægemiddel. Det kan skade dit barn. </p>
+<p>Trafik- og arbejdssikkerhed 
+Kerendia har ingen virkning på din evne til at føre motorkøretøj eller betjene maskiner. </p>
+<p>Kerendia indeholder lactose 
+Kontakt lægen før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>Kerendia indeholder salt 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take kerendia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take kerendia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
+spørg lægen eller apotekspersonalet. </p>
+<p>Så meget skal du tage 
+Den anbefalede og den maksimale daglige dosis af dette lægemiddel er 1 tablet på 20 mg. </p>
+<ul>
+<li>Tag altid 1 tablet én gang dagligt. Hver tablet indeholder 10 mg eller 20 mg finerenon. </li>
+<li>Startdosis afhænger af, hvor godt dine nyrer fungerer. Din læge kan finde ud af det ved at teste 
+dit blod. Resultaterne hjælper din læge med at beslutte, om du kan starte med 1 tablet på 20 mg 
+eller 10 mg én gang dagligt. </li>
+<li>Efter 4 uger vil din læge teste dit blod igen. Din læge vil bestemme den korrekte dosis for dig. 
+Dette kan være 1 tablet på 20 mg eller 10 mg én gang dagligt. 
+Din læge kan også fortælle dig, at du skal afbryde eller stoppe med at tage Kerendia. </li>
+</ul>
+<p>Din læge kan beslutte sig for at ændre din behandling efter modtagelsen af dine 
+blodprøveresultater. Se "Blodprøver" i punkt 2 for at få yderligere oplysninger. </p>
+<p>Sådan skal du tage Kerendia 
+Kerendia tages gennem munden. Tag Kerendia på samme tidspunkt hver dag. Dette gør det nemmere 
+for dig at huske. </p>
+<p>Synk tabletterne hele. 
+- Du kan tage dem med et glas vand. 
+- Du kan tage dem med eller uden mad. 
+- Du må ikke tage dem med grapefrugtjuice eller grapefrugt. Se "Brug af Kerendia sammen med 
+mad og drikke" i punkt 2 for at få yderligere oplysninger. </p>
+<p>Hvis du ikke kan synke tabletten hel, kan du knuse den. 
+- Bland den med vand eller blød mad som f.eks. æblegrød. 
+- Tag den med det samme. </p>
+<p>Hvis du har taget for meget Kerendia 
+Tal med lægen eller apotekspersonalet, hvis du tror, du har taget for meget af dette lægemiddel. </p>
+<p>Hvis du har glemt at tage Kerendia 
+Hvis du glemmer at tage din tablet på det sædvanlige tidspunkt den dag, 
+►skal du tage tabletten så snart, du opdager det den dag. </p>
+<p>Hvis du har sprunget en dag over 
+►skal du tage den næste tablet den næste dag på det sædvanlige tidspunkt. </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+<p>Hvis du holder op med at tage Kerendia 
+Du må kun holde op med at tage Kerendia, hvis din læge har bedt dig om det. 
+Din læge kan altid beslutte dette efter modtagelsen af dine blodprøveresultater. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Bivirkninger, som din læge kan se i dine blodprøver 
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) 
+- højt kalium niveau (hyperkaliæmi) 
+Mulige tegn på et højt kalium niveau i blodet kan omfatte svækkelse eller træthed, utilpashed 
+(kvalme), følelsesløshed af hænder og læber, muskelkramper, nedsat pulsfrekvens. </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+- lavt natriumniveau (hyponatriæmi) 
+Mulige tegn på et lavt natriumniveau i blodet kan omfatte utilpashed (kvalme), træthed, 
+hovedpine, forvirring, muskelsvækkelse, muskelspasmer eller kramper. 
+- fald i hvor godt nyrerne filtrerer blodet (reduceret glomerulær filtrationsrate). 
+- højt urinsyreniveau (hyperurikæmi) </p>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) 
+- fald i et protein (hæmoglobin), som findes i dine røde blodlegemer. </p>
+<p>Andre bivirkninger 
+Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+- lavt blodtryk (hypotension) 
+Mulige tegn på lavt blodtryk kan omfatte svimmelhed, ørhed, besvimelse. 
+- kløe (pruritus) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store kerendia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store kerendia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på blisteret, beholderetiket og karton efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kerendia indeholder:</p>
+<ul>
+<li>Aktivt stof: finerenon. </li>
+<li>Hver tablet Kerendia 10 mg filmovertrukne tabletter indeholder 10 mg finerenon. </li>
+<li>Hver tablet Kerendia 20 mg filmovertrukne tabletter indeholder 20 mg finerenon. </li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>Tabletkerne: mikrokrystallinsk cellulose, croscarmellosenatrium, hypromellose 2910, 
+lactosemonohydrat, magnesiumstearat, natriumlaurilsulfat, Se "Kerendia indeholder 
+lactose" og "natrium" i punkt 2 for at få yderligere oplysninger. </p>
+</li>
+<li>Tabletovertræk: hypromellose 2910, titandioxid, talk, 
+rød jernoxid (E 172, kun i Kerendia 10 mg filmovertrukne tabletter),<br />
+gul jernoxid (E 172, kun i Kerendia 20 mg filmovertrukne tabletter). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Kerendia 10 mg filmovertrukne tabletter (tabletter) er pink og ovale/aflange, 10 mm lange og 5 mm 
+brede, med ‘10’ præget på den ene side og ‘FI’ på den anden side. </p>
+<p>Kerendia 20 mg filmovertrukne tabletter (tabletter) er gule og ovale/aflange med en længde på 
+10 mm og en bredde på 5 mm, med ‘20’ præget på den ene side og ‘FI’ på den anden side. </p>
+<p>Kerendia fås i karton med 
+- 14, 28, eller 98 filmovertrukne tabletter. </p>
+<p>Hvert gennemsigtigt blister med kalender indeholder 14 filmovertrukne tabletter. </p>
+<ul>
+<li>100 × 1 filmovertrukne tabletter. </li>
+</ul>
+<p>Hvert perforeret, gennemsigtigt enkeltdosisblister indeholder 10 filmovertrukne tabletter. </p>
+<ul>
+<li>100 filmovertrukne tabletter i en plastbøtte. </li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bayer AG 
+51368 Leverkusen 
+Tyskland </p>
+<p>Fremstiller 
+Bayer AG 
+Kaiser-Wilhelm-Allee 
+51368 Leverkusen 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Lietuva 
+UAB Bayer 
+Tel. +37 05 23 36 България 
+Байер България ЕООД 
+Tел.: +359 02 4247Luxembourg/Luxemburg 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Česká republika 
+Bayer s.r.o. 
+Tel: +420 266 101 Magyarország 
+Bayer Hungária KFT 
+Tel: +36 14 87-41 Danmark 
+Bayer A/S 
+Tlf.: +45 45 23 50 Malta 
+Alfred Gera and Sons Ltd. 
+Tel: +35 621 44 62 Deutschland 
+Bayer Vital GmbH 
+Tel: +49 (0)214-30 513 Nederland 
+Bayer B.V. 
+Tel: +31-(0)23-799 1Eesti 
+Bayer OÜ 
+Tel: +372 655 8Norge 
+Bayer AS 
+Tlf: +47 23 13 05 Ελλάδα 
+Bayer Ελλάς ΑΒΕΕ 
+Τηλ: +30-210-61 87 Österreich 
+Bayer Austria Ges.m.b.H. 
+Tel: +43-(0)1-711 46-0 
+España 
+Bayer Hispania S.L. 
+Tel: +34-93-495 65 Polska 
+Bayer Sp. z o.o. 
+Tel: +48 22 572 35 France 
+Bayer HealthCare 
+Tél (N° vert): +33-(0)800 87 54 Portugal 
+Bayer Portugal, Lda. 
+Tel: +351 21 416 42 Hrvatska 
+Bayer d.o.o. 
+Tel: +385-(0)1-6599 România 
+SC Bayer SRL 
+Tel: +40 21 529 59 Ireland 
+Bayer Limited 
+Tel: +353 1 216 3Slovenija 
+Bayer d. o. o. 
+Tel: +386 (0)1 58 14 Ísland 
+Icepharma hf. 
+Sími: +354 540 8Slovenská republika 
+Bayer spol. s r.o. 
+Tel. +421 2 59 21 31 Italia 
+Bayer S.p.A. 
+Tel: +39 02 397 8 1 
+Suomi/Finland 
+Bayer Oy 
+Puh/Tel: +358- 20 785 Κύπρος 
+NOVAGEM Limited 
+Tηλ: +357 22 48 38 Sverige 
+Bayer AB 
+Tel: +46 (0) 8 580 223 Latvija 
+SIA Bayer 
+Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
+Bayer AG 
+Tel: +44-(0)118 206 3 
+Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-ea2d9477557df2cb8572d829cd765247
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kerendia Package Leaflet for language en"
+Description: "ePI document Bundle for kerendia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ea2d9477557df2cb8572d829cd765247"
+* entry[0].resource = composition-en-ea2d9477557df2cb8572d829cd765247
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpea2d9477557df2cb8572d829cd765247"
+* entry[=].resource = mpea2d9477557df2cb8572d829cd765247
+                            
+                    
+Instance: bundlepackageleaflet-da-ea2d9477557df2cb8572d829cd765247
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kerendia Package Leaflet for language da"
+Description: "ePI document Bundle for kerendia Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-ea2d9477557df2cb8572d829cd765247"
+* entry[0].resource = composition-da-ea2d9477557df2cb8572d829cd765247
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpea2d9477557df2cb8572d829cd765247"
+* entry[=].resource = mpea2d9477557df2cb8572d829cd765247
+                            
+                    
+
+
+
+Instance: mpea2d9477557df2cb8572d829cd765247
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Kerendia 10 mg film-coated tablets"
-Description: "Kerendia 10 mg film-coated tablets"
+Title: "Medicinal Product kerendia"
+Description: "kerendia"
 Usage: #inline
 
  
@@ -393,7 +824,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Kerendia 10 mg film-coated tablets"
+  * productName = "kerendia"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -420,29 +851,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-ea2d9477557df2cb8572d829cd765247
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for kerendia Package Leaflet for language en"
-Description: "ePI document Bundle for kerendia Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: ea2d9477557df2cb8572d829cd765247ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Kerendia 10 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "kerendia"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-ea2d9477557df2cb8572d829cd765247"
-* entry[0].resource = composition-en-ea2d9477557df2cb8572d829cd765247
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp337c03febb3cfafda9b162f5687aab5a"
-* entry[=].resource = mp337c03febb3cfafda9b162f5687aab5a
-                            
-                      
+* title = "List of all ePIs associated with kerendia"
+
+* subject = Reference(mp337c03febb3cfafda9b162f5687aab5a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#kerendia "kerendia"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-ea2d9477557df2cb8572d829cd765247) // kerendia en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-ea2d9477557df2cb8572d829cd765247) // kerendia da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-ea2d9477557df2cb8572d829cd765247
+InstanceOf: List
+
+* insert ea2d9477557df2cb8572d829cd765247ListRuleset
+    

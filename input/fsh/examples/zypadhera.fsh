@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-73e905abf90c6054f35e5dd38ca6e3a6
 InstanceOf: CompositionUvEpi
 Title: "Composition for zypadhera Package Leaflet"
@@ -321,12 +324,599 @@ CHEPLAPHARM Registration GmbH, Weiler Stra e 5e, 79540 L rrach, Germany. </p>
 
 
 
+Instance: composition-da-73e905abf90c6054f35e5dd38ca6e3a6
+InstanceOf: CompositionUvEpi
+Title: "Composition for zypadhera Package Leaflet"
+Description:  "Composition for zypadhera Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp035f5164120d2fa6396c408efe0a4c49)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp035f5164120d2fa6396c408efe0a4c49
+* title = "TEST PURPOSES ONLY - zypadhera"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide før du får ZYPADHERA 
+3. Sådan bliver du behandlet med ZYPADHERA 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zypadhera is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zypadhera is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZYPADHERA indeholder det aktive stof olanzapin. ZYPADHERA tilhører en gruppe af lægemidler, 
+der kaldes antipsykotika, og bruges til behandling af skizofreni – en sygdom med symptomer såsom at 
+man hører, ser og mærker ting, som ikke eksisterer, er mistroisk, ualmindelig mistænksom og 
+indesluttet. Mennesker med denne sygdom kan også føle sig deprimerede, angste eller anspændte. </p>
+<p>ZYPADHERA er beregnet til voksne patienter, som er tilstrækkeligt stabiliseret med oral olanzapin. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zypadhera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zypadhera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få ZYPADHERA </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for olanzapin eller et af de øvrige indholdsstoffer (angivet i afsnit 6). 
+En allergisk reaktion kan kendes ved udslæt, kløe, hævelse af ansigt og læber eller 
+stakåndethed. Hvis du har oplevet dette, skal du fortælle det til en sygeplejerske eller læge. </p>
+</li>
+<li>
+<p>hvis du tidligere har fået konstateret øjenproblemer såsom visse former for øget tryk i øjet 
+(glaukom).  </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller sygeplejersken, før du får ZYPADHERA. </p>
+<ul>
+<li>
+<p>En ikke almindelig, men alvorlig reaktion kan opstå efter hver injektion, du får. 
+ZYPADHERA kan nogle gange komme for hurtigt ind i blodbanen. Hvis det sker, kan du få de 
+nedenfor nævnte symptomer efter indsprøjtningen. I nogle tilfælde kan disse symptomer 
+medføre tab af bevidsthed. </p>
+</li>
+<li>
+<p>Usædvanlig stor søvnighed </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Forvirring </p>
+</li>
+<li>
+<p>Desorientering </p>
+</li>
+<li>
+<p>Irritabilitet </p>
+</li>
+<li>
+<p>Angst </p>
+</li>
+<li>
+<p>Aggression </p>
+</li>
+<li>
+<p>Stigning i blodtryk </p>
+</li>
+<li>
+<p>Talebesvær </p>
+</li>
+<li>
+<p>Svaghed </p>
+</li>
+<li>
+<p>Gangbesvær </p>
+</li>
+<li>
+<p>Muskelstivhed eller rysten </p>
+</li>
+<li>
+<p>Kramper </p>
+</li>
+</ul>
+<p>Disse symptomer forsvinder normalt i løbet af 24 til 72 timer efter indsprøjtningen. Efter hver 
+indsprøjtning vil du blive holdt under observation af din læge eller sygeplejerske i mindst 3 timer 
+for symptomerne nævnt ovenfor. </p>
+<p>Selv om det er usandsynligt, kan du få symptomerne efter mere end 3 timer efter indsprøjtningen. 
+Hvis det sker, skal du straks kontakte din sygeplejerske eller læge. På grund af denne risiko, bør 
+du ikke køre bil eller betjene maskiner resten af dagen efter hver injektion. </p>
+<ul>
+<li>
+<p>Fortæl det til din læge eller sygeplejerske, hvis du føler dig svimmel eller svag efter 
+indsprøjtningen. Du vil muligvis have behov for at ligge ned, indtil du får det bedre. Lægen eller 
+sygeplejersken vil måske også måle dit blodtryk og puls. </p>
+</li>
+<li>
+<p>ZYPADHERA anbefales ikke til ældre patienter med demens (konfusion og hukommelsestab), 
+da det kan have alvorlige bivirkninger. </p>
+</li>
+<li>
+<p>Medicin af denne type kan yderst sjældent forårsage usædvanlige bevægelser af især ansigt eller 
+tunge eller en kombination af feber, hurtigere vejrtrækning, svedtendens, muskelstivhed og 
+døsighed/søvnighed. Hvis dette sker efter du har fået ZYPADHERA, skal du omgående kontakte 
+din læge eller sygeplejerske. </p>
+</li>
+<li>
+<p>Vægtstigning er set hos patienter, som tager ZYPADHERA. Du og din læge bør jævnligt 
+kontrollere din vægt. Henvisning til en diætist eller hjælp med at lægge en kostplan bør om 
+nødvendigt overvejes. </p>
+</li>
+<li>
+<p>Højt sukker- og fedtindhold (triglycerider og kolesterol) i blodet er set hos patienter, som tager 
+ZYPADHERA. Inden du påbegynder behandling med ZYPADHERA, samt jævnligt i løbet af 
+behandlingen skal din læge tage blodprøver for at kontrollere indholdet af sukker og fedt i dit 
+blod.  </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du eller nogen i din familie tidligere har haft blodpropper, da denne type 
+medicin kan være forbundet med dannelse af blodpropper. </p>
+</li>
+</ul>
+<p>Hvis du lider af en af de følgende sygdomme, skal du fortælle det til din læge hurtigst muligt: </p>
+<ul>
+<li>
+<p>Slagtilfælde eller forbigående symptomer på slagtilfælde  </p>
+</li>
+<li>
+<p>Parkinsons sygdom </p>
+</li>
+<li>
+<p>Problemer med prostata (blærehalskirtlen) </p>
+</li>
+<li>
+<p>Tarmslyng (paralytisk ileus) </p>
+</li>
+<li>
+<p>Lever- eller nyresygdom </p>
+</li>
+<li>
+<p>Blodsygdomme </p>
+</li>
+<li>
+<p>Hvis du for nylig har haft et hjertetilfælde, hjertesygdom, unormal hjerterytme (syg 
+sinussyndrom), ustabil angina pectoris eller lavt blodtryk </p>
+</li>
+<li>
+<p>Sukkersyge (diabetes mellitus) </p>
+</li>
+<li>
+<p>Krampeanfald  </p>
+</li>
+<li>
+<p>Saltmangel som følge af langvarig alvorlig diarré og opkastning eller brug af vanddrivende 
+medicin (diuretika) </p>
+</li>
+</ul>
+<p>Hvis du er over 65 år, bør du som rutinemæssig foranstaltning have målt dit blodtryk hos din læge. </p>
+<p>ZYPADHERA-behandling bør ikke påbegyndes hvis du er over 75 år. </p>
+<p>Børn og unge 
+ZYPADHERA er ikke beregnet til patienter under 18 år. </p>
+<p>Brug af anden medicin sammen med ZYPADHERA 
+Fortæl altid lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller planlægger 
+at bruge anden medicin.  </p>
+<p>Det er særlig vigtigt, at du fortæller det til din læge, hvis du tager: 
+• Medicin for Parkinsons sygdom. 
+• Carbamazepin (mod epilepsi og stemningsforstyrrelser), fluvoxamin ( mod depression) eller 
+ciprofloxacin (mod infektion) – det kan blive nødvendigt at ændre din dosis af ZYPADHERA. </p>
+<p>Hvis du allerede tager medicin mod depression, medicin mod angst eller søvnløshed (sovemedicin) 
+kan du føle dig døsig, hvis du får ZYPADHERA. </p>
+<p>Brug af ZYPADHERA sammen med alkohol 
+Drik ikke nogen form for alkohol, når du har fået ZYPADHERA, da det  sammen med alkohol kan 
+gøre dig døsig. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel.<br />
+Du bør ikke få denne indsprøjtning, hvis du ammer, da små mængder olanzapin kan overføres til 
+modermælken. </p>
+<p>Følgende symptomer kan forekomme hos nyfødte af mødre, som har taget ZYPADHERA i sidste 
+trimester (de sidste tre måneder af graviditeten): rystelser, muskelstivhed og/eller svaghed, søvnighed, 
+ophidselse, vejrtrækningsbesvær og besvær med at indtage føde. Hvis dit barn får nogle af disse 
+symptomer, bør du kontakte din læge. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke køre eller arbejde med maskiner resten af den dag, du har fået indsprøjtning.  </p>
+<p>ZYPADHERA indeholder natrium 
+Efter rekonstitution indeholder dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 
+hætteglas, dvs. det er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zypadhera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zypadhera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din læge vil beslutte hvor meget ZYPADHERA, du har behov for og hvor ofte, du behøver at få en 
+indsprøjtning. ZYPADHERA gives i doser på 150 mg til 300 mg hver 2. uge eller 300 mg til 405 mg 
+hver 4. uge. </p>
+<p>ZYPADHERA leveres som et pulver. Din læge eller sygeplejerske vil blande det til en suspension, 
+som derpå bliver indsprøjtet i musklen i din endeballe. </p>
+<p>Hvis du har fået for meget ZYPADHERA 
+Denne medicin vil blive givet til dig under lægelig overvågning. Det er derfor usandsynligt, du vil få 
+for meget.  </p>
+<p>Patienter, som har fået for meget olanzapin, har også haft følgende symptomer: </p>
+<ul>
+<li>
+<p>hurtigt hjerteslag, uro/aggressionspræget adfærd, talebesvær, usædvanlige bevægelser (særlig i 
+ansigt og tunge) og nedsat bevidsthedstærskel. 
+Andre symptomer kan omfatte: </p>
+</li>
+<li>
+<p>Akut forvirring, kramper (epileptiske), bevidstløshed, en blanding af feber, hurtigere åndedræt, 
+svedtendens, muskelstivhed og sløvhed eller søvnløshed; langsomt åndedræt, aspiration (som at 
+sluge luft/få noget galt i halsen), højt eller lavt blodtryk, unormal hjerterytme. </p>
+</li>
+</ul>
+<p>Kontakt omgående din læge eller skadestue, hvis du får nogle af ovenstående symptomer. </p>
+<p>Hvis du har glemt af få en indsprøjtning med ZYPADHERA 
+Du må ikke stoppe med din behandling, fordi du føler dig bedre tilpas. Det er vigtigt, at du fortsætter 
+med at få ZYPADHERA, så længe din læge har fortalt dig, at du skal have denne medicin. </p>
+<p>Hvis du har glemt at få en indsprøjtning, skal du kontakte din læge, for at du kan få den næste 
+indsprøjtning så hurtigt som muligt. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl straks lægen, hvis du får: 
+• Udpræget søvnighed, svimmelhed, forvirring, desorientering, talebesvær, gangbesvær, 
+muskelstivhed eller rysten, svaghed, irritabilitet, aggression, angst, stigning i blodtryk eller 
+kramper og kan føre til tab af bevidsthed. Disse tegn og symptomer kan i nogle tilfælde 
+forekomme, hvis ZYPADHERA kommer for hurtigt ind i blodbanen (en almindelig 
+bivirkning, som forekommer hos op til 1 ud af 10 patienter); 
+• Unormale bevægelser særligt i ansigtet eller tungen (grimasser) (en almindelig bivirkning, 
+som forekommer hos op til 1 ud af 10 patienter); 
+• Blodpropper i venerne (en ikke almindelig bivirkning, som forekommer hos op til 1 ud af patienter), særligt i benene (symptomerne omfatter hævelse og smerter i benet samt 
+hudrødmen). Blodproppen kan rive sig løs og flyde med blodet til lungerne og kan dermed 
+forårsage brystsmerter og vejrtrækningsproblemer. Hvis du bemærker nogle af disse 
+symptomer, skal du omgående søge læge; 
+• En kombination af feber, hurtigt åndedræt, svedtendens, muskelstivhed og sløvhed eller 
+søvnighed (hyppigheden af denne bivirkning kan ikke estimeres ud fra tilgængelige data). </p>
+<p>Andre almindelige bivirkninger (forekommer hos op til 1 ud af 10 patienter) ved ZYPADHERA 
+omfatter søvnighed og smerter på injektionsstedet. </p>
+<p>Sjældne bivirkninger (forekommer hos op til 1 ud af 1.000 patienter) ved ZYPADHERA omfatter 
+infektion på injektionsstedet. </p>
+<p>De bivirkninger, som er nævnt nedenstående, er blevet set, når olanzapin er givet via munden (oralt), 
+men kan forekomme efter indsprøjtning af ZYPADHERA. </p>
+<p>Andre meget almindelige bivirkninger (som forekommer hos flere end 1 ud af 10 patienter) omfatter 
+vægtstigning og forhøjede niveauer af prolaktin i blodet. I begyndelsen af behandlingen kan nogle 
+patienter føle svimmelhed eller svaghed (med langsom puls), særligt når de rejser sig fra liggende eller 
+siddende stilling. Det vil sædvanligvis gå over af sig selv, men hvis det ikke gør, så fortæl det til 
+lægen. </p>
+<p>Andre almindelige bivirkninger (som forekommer hos op til 1 ud af 10 patienter) omfatter ændringer i 
+mængden af visse blodceller, fedtstoffer i blodet samt forbigående forhøjede leverenzymer tidligt i 
+behandlingen; forhøjet sukker i blodet og urinen; forhøjet urinsyre og kreatinkinase i blodet; øget 
+sultfornemmelse; svimmelhed; rastløshed; rysten; unormale bevægelser (dyskinesi); forstoppelse; 
+mundtørhed; hududslæt; tab af styrke; udpræget træthed; væskeophobning, som medfører hævede 
+hænder, ankler eller fødder; feber; ledsmerter og seksuelle problemer såsom nedsat sexlyst (libido) hos 
+mænd og kvinder eller rejsningsbesvær hos mænd.  </p>
+<p>Andre ikke almindelige bivirkninger (som forekommer hos op til 1 ud af 100 patienter) omfatter 
+overfølsomhed (f.eks. hævelser i mund og hals, kløe, hududslæt); sukkersyge eller forværring af 
+sukkersyge, af og til ledsaget af syreforgiftning (ketoacidose - ketonstoffer i blod og urin) eller 
+bevidstløshed; krampeanfald, sædvanligvis hos patienter med tidligere krampeanfald (epilepsi); 
+muskelstivhed eller muskelkramper (herunder øjenbevægelser); restless legs-syndrom (stærk uro i 
+underbenene); problemer med at tale; stammen; langsom hjertefrekvens (puls); følsomhed overfor 
+sollys; næseblod; udspilet mave; tendens til at savle; hukommelsestab eller glemsomhed; ufrivillig 
+vandladning (urininkontinens); vandladningsbesvær; hårtab; manglende menstruation eller længere 
+intervaller mellem menstruationerne; samt brystforandringer hos mænd og kvinder, såsom unormal 
+produktion af brystmælk eller unormal vækst. </p>
+<p>Sjældne bivirkninger (forekommer hos op til 1 ud af 1.000 patienter) omfatter nedsat kropstemperatur; 
+unormal hjerterytme; pludselig uforklarlig død; betændelse i bugspytkirtlen, som giver voldsomme 
+mavesmerter, feber og utilpashed; leversygdom, som viser sig ved gulfarvning af huden og af det 
+hvide i øjnene; muskelsygdom, som viser sig med uforklarlig ømhed og smerter; forlænget og/eller 
+pinefuld erektion. </p>
+<p>Meget sjældne bivirkninger omfatter alvorlige allergiske reaktioner såsom lægemiddelfremkaldt 
+udslæt med eosinofili og systemiske symptomer (DRESS). DRESS viser sig først ved influenza-
+lignende symptomer og udslæt i ansigtet, og derefter ved udbredt udslæt, høj feber, hævede 
+lymfekirtler, forhøjede leverenzymer målt ved blodprøver, samt en stigning i antallet af en bestemt 
+type blodceller (eosinofili).  </p>
+<p>Ældre patienter med demens kan under behandling med olanzapin opleve slagtilfælde, 
+lungebetændelse og urininkontinens. De kan også falde, blive voldsomt trætte, få synsbedrag, forhøjet 
+kropstemperatur, rødme i huden og få besvær med at gå. Der er set nogle dødsfald i denne gruppe af 
+patienter.  </p>
+<p>Hos patienter med Parkinsons sygdom kan oral olanzapin forværre symptomerne.  </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zypadhera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zypadhera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Må ikke opbevares i køleskab eller nedfryses. </p>
+<p>Der er vist kemisk og fysisk stabilitet for suspensionen i hætteglasset i 24 timer ved 20 – 25 ºC. Fra et 
+mikrobiologisk synspunkt bør produktet anvendes straks. Hvis det ikke anvendes straks, er<br />
+opbevaringstid og  -forhold forud for anvendelse brugerens ansvar og vil normalt ikke være længere 
+end 24 timer ved 20 - 25 ºC. Brug ikke lægemidlet hvis du bemærker en misfarvning eller andre tegn 
+på nedbrydning. </p>
+<p>Hvis medicinen ikke anvendes straks derefter, skal den rystes kraftigt for at genopblandes. Når 
+suspensionen er trukket op i sprøjten fra hætteglasset, skal den anvendes straks. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZYPADHERA indeholder:</p>
+<ul>
+<li>Aktivt stof: Olanzapin.<br />
+ZYPADHERA 210 mg: Hvert hætteglas indeholder olanzapinpamoatmonohydrat svarende til 
+210 mg olanzapin.<br />
+ZYPADHERA 300 mg: Hvert hætteglas indeholder olanzapinpamoatmonohydrat svarende til 
+300 mg olanzapin.<br />
+ZYPADHERA 405 mg: Hvert hætteglas indeholder olanzapinpamoatmonohydrat svarende til 
+405 mg olanzapin.<br />
+Efter rekonstitution: 1 ml suspension indeholder 150 mg/ml olanzapin. </li>
+<li>Indholdsstoffer i solvens: Carmellosenatrium, mannitol, polysorbat 80, vand til 
+injektionsvæsker, saltsyre, natriumhydroxid. </li>
+</ul>
+<p>Udseende og pakningstørrelser 
+ZYPADHERA pulver til depotinjektionsvæske, suspension er et gult pulver i et klart  hætteglas af 
+glas. Din læge eller sygeplejerske vil tilberede det som en suspension ved at anvende hætteglasset med 
+solvens til ZYPADHERA, der er en klar, farveløs til let gullig opløsning i et klart hætteglas af glas. <br />
+ZYPADHERA er et pulver og solvens til depotinjektionsvæske, suspension. En æske indeholder et 
+hætteglas med pulver til depotinjektionsvæske, suspension, et hætteglas med 3 ml solvens, en sprøjte 
+med fastgjort sikkerhedskanyle, 19-gauge, 38 mm, og tre separate sikkerhedskanyler: én 19-gauge, mm kanyle og to 19 gauge 50 mm kanyler. </p>
+<p>Indehaver af markedsføringstilladelsen 
+CHEPLAPHARM Registration GmbH, Weiler Straße 5e, 79540 Lörrach, Tyskland </p>
+<p>Fremstiller: 
+Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spanien. </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu<br />
+FØLGENDE OPLYSNINGER ER TILTÆNKT LÆGER OG SUNDHEDSPERSONALE </p>
+<p>VEJLEDNING I REKONSTITUTION OG ADMINISTRATION </p>
+<p>ZYPADHERA olanzapin pulver og solvens til depotinjektionsvæske, suspension </p>
+<p>KUN TIL DYB GLUTEAL INTRAMUSKULÆR INJEKTION. 
+MÅ IKKE ADMINISTRERES INTRAVENØST ELLER SUBKUTANT. </p>
+<p>Rekonstitution 
+TRIN 1: Klargøring af injektionsudstyret </p>
+<p>Pakken indeholder: </p>
+<ul>
+<li>
+<p>Hætteglas med ZYPADHERA pulver til depotinjektionsvæske, suspension </p>
+</li>
+<li>
+<p>Hætteglas med solvens til ZYPADHERA </p>
+</li>
+<li>
+<p>En Hypodermic sprøjte og sikkerhedskanyle (Hypodermic kit) </p>
+</li>
+<li>
+<p>En 19-gauge, 38 mm Hypodermic sikkerhedskanyle </p>
+</li>
+<li>
+<p>To 19-gauge, 50 mm Hypodermic sikkerhedskanyler </p>
+</li>
+<li>
+<p>Indlægsseddel til patienten </p>
+</li>
+<li>
+<p>Rekonstitutions- og administrationskort (denne indlægsseddel) </p>
+</li>
+<li>
+<p>Hypodermic sikkerhedsinformation og brugsvejledning  </p>
+</li>
+</ul>
+<p>Det tilrådes at anvende handsker, da ZYPADHERA kan irritere huden. </p>
+<p>Rekonstituer kun ZYPADHERA pulver til depotinjektionsvæske, suspension med det solvent, som er i 
+pakningen under anvendelse af standard aseptisk teknik til rekonstitution af parenterale lægemidler. </p>
+<p>TRIN 2: Bestemmelse af mængden af solvens til rekonstitution 
+Nedenstående tabel angiver mængden af solvens, som er nødvendigt til at rekonstituere 
+ZYPADHERA pulver til depotinjektionsvæske, suspension. </p>
+<p>ZYPADHERA 
+pulver i hætteglas 
+(mg) 
+Mængde solvens til 
+opløsning (ml) 
+1,3 
+1,8 
+2,3 </p>
+<p>Bemærk, at der er mere solvens i hætteglasset, end der er brug for til rekonstitution. </p>
+<p>TRIN 3: Rekonstitution af ZYPADHERA </p>
+<ol>
+<li>Løsgør pulveret ved at banke hætteglasset let. </li>
+<li>Åbn pakken med Hypodermic sprøjten med påsat sikkerhedskanyle. Åbn blisterlommen og 
+fjern udstyret. Fastgør med en let vridende bevægelse en sprøjte (hvis ikke allerede fastgjort) til 
+udstyrets Luer-fatning.  Sæt kanylen fast på udstyret med et tryk og et vrid i urets retning, træk 
+derpå kanylehætten lige af kanylen. Hvis disse instruktioner ikke følges, er der fare for 
+nålestikskade. </li>
+<li>Træk den forudbestemte mængde solvens (Trin 2) op i sprøjten. </li>
+<li>Indsprøjt solvensmængden i hætteglasset med pulver. </li>
+<li>Træk luft ud for at udligne trykket i hætteglasset. </li>
+<li>Fjern kanylen ved at holde hætteglasset opret for at undgå tab af solvens. </li>
+<li>Fastgør sikkerhedskanylens kanylebeskyttelsesudstyr. Pres kanylen ind i hylsteret ved brug af 
+en enhåndsteknik. Udfør enhåndsteknikken ved at presse hylsteret LET mod en flad overflade. 
+NÅR DER TRYKKES PÅ HYLSTERET (Fig. 1), PRESSES KANYLEN FAST IND I 
+HYLSTERET (Fig. 2). </li>
+<li>
+<p>Kontroller visuelt, at kanylen er fuldstændig tilkoblet i kanylebeskyttelsesudstyret. Fjern kun 
+udstyret med den fastgjorte kanyle fra sprøjten, når det kræves ved en særlig medicinsk 
+procedure. Fjernes ved at gribe om Luer-spidsen på kanylebeskyttelsesudstyret med 
+tommelfinger og pegefinger og ved at holde de frie fingre klar af udstyrsenden, som indeholder 
+kanylespidsen (Fig. 3).  </p>
+</li>
+<li>
+<p>Bank hætteglasset fast og gentagne gange mod en hård overflade, indtil der ikke er noget synligt 
+pulver. Beskyt overfladen for tage af for stødene (se Figur A). </p>
+</li>
+</ol>
+<p>Figur A: Bank fast for at blande </p>
+<p>Behold kanylen i 
+synsfeltet </p>
+<ol>
+<li>Kontroller visuelt hætteglasset for klumper. Ikke opslæmmet pulver viser sig som lysegule, 
+tørre klumper, som klæber til hætteglasset. Det kan være nødvendigt at banke yderligere, hvis 
+der stadigvæk er klumper (se Figur B). </li>
+</ol>
+<p>Ikke opslæmmet: Synlige klumper   Opslæmmet: Ingen klumper 
+Figur B: Kontroller for ikke opslæmmet pulver og gentag om nødvendigt ved at banke let. </p>
+<ol>
+<li>Ryst hætteglasset kraftigt indtil suspensionen virker jævn og er ensartet i farve og struktur. Det 
+opslæmmede lægemiddel vil være gult og uigennemsigtigt. (Se Figur C). </li>
+</ol>
+<p>Figur C: Ryst hætteglasset kraftigt 
+Hvis der dannes skum, så lad hætteglasset stå, indtil skummet forsvinder. Hvis lægemidlet 
+ikke anvendes straks, skal det rystes kraftigt for at få det ensartet igen. Rekonstitueret 
+ZYPADHERA er stabilt i op til 24 timer i hætteglasset. </p>
+<p>Administration 
+TRIN 1: Indsprøjtning af ZYPADHERA 
+Denne tabel angiver den mængde ZYPADHERA suspension, som skal indsprøjtes. Suspensionens 
+koncentration er 150 olanzapin/ml. </p>
+<p>Dosis 
+(mg) 
+Slutvolumen, som skal 
+indsprøjtes<br />
+(ml) 
+1,0 
+1,4 
+2,0 
+2,7 </p>
+<ol>
+<li>Bestem hvilken kanylse, som skal bruges ved administration af injektionen til patienten. Til svært 
+overvægtige patienter anbefales 50 mm kanylen til injektion: 
+• Hvis 50 mm kanylen anvendes til injektion, fastgøres 38 mm kanylen til sprøjten for at trække 
+den nødvendige suspension ud. 
+• Hvis 38 mm kanylen anvendes til injektion, fastgøres 50 mm kanylen til sprøjten for at trække 
+den nødvendige mængde suspension ud. </li>
+<li>Træk langsomt den ønskede mængde op. Der vil være overskud af lægemidlet tilbage i<br />
+     hætteglasset. </li>
+<li>Fastgør sikkerhedskanylens kanylebeskyttelsesudstyr og fjern kanylen fra sprøjten. </li>
+<li>Sæt den valgte 50 mm eller 38 mm sikkerhedskanyle på sprøjten forud for indsprøjtning. Når 
+suspensionen er trukket op af hætteglasset, skal den anvendes straks. </li>
+<li>Udvælg og forbered et injektionssted i glutealregionen. INDSPRØJT IKKE INTRAVENØST <br />
+    ELLER SUBKUTANT.  </li>
+<li>Aspirer i nogle sekunder efter inføring af kanylen for at sikre, at der ikke kommer blod til syne. <br />
+    Hvis der trækkes blod op i sprøjten, så kasser sprøjten og dosis og begynd proceduren med   <br />
+    rekonstitution og administration igen. Injektionen skal foretages med et stadigt, kontinuerligt tryk. 
+GNID IKKE PÅ INJEKTIONSSTEDET. </li>
+<li>Fastgør sikkerhedskanylens kanylebeskyttelsesudstyr (Fig. 1 og 2). </li>
+<li>Kasser hætteglas, sprøjter, brugte kanyler, den ekstra kanyle og ikke anvendt solvens i 
+overensstemmelse med de relevante kliniske procedurer. Hætteglasset er kun til engangsbrug. </li>
+</ol>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-73e905abf90c6054f35e5dd38ca6e3a6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zypadhera Package Leaflet for language en"
+Description: "ePI document Bundle for zypadhera Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-73e905abf90c6054f35e5dd38ca6e3a6"
+* entry[0].resource = composition-en-73e905abf90c6054f35e5dd38ca6e3a6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp73e905abf90c6054f35e5dd38ca6e3a6"
+* entry[=].resource = mp73e905abf90c6054f35e5dd38ca6e3a6
+                            
+                    
+Instance: bundlepackageleaflet-da-73e905abf90c6054f35e5dd38ca6e3a6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zypadhera Package Leaflet for language da"
+Description: "ePI document Bundle for zypadhera Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-73e905abf90c6054f35e5dd38ca6e3a6"
+* entry[0].resource = composition-da-73e905abf90c6054f35e5dd38ca6e3a6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp73e905abf90c6054f35e5dd38ca6e3a6"
+* entry[=].resource = mp73e905abf90c6054f35e5dd38ca6e3a6
+                            
+                    
+
+
+
+Instance: mp73e905abf90c6054f35e5dd38ca6e3a6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ZYPADHERA 210 mg powder and solvent for prolonged release suspension for injection"
-Description: "ZYPADHERA 210 mg powder and solvent for prolonged release suspension for injection"
+Title: "Medicinal Product zypadhera"
+Description: "zypadhera"
 Usage: #inline
 
  
@@ -346,7 +936,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ZYPADHERA 210 mg powder and solvent for prolonged release suspension for injection"
+  * productName = "zypadhera"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -373,29 +963,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-73e905abf90c6054f35e5dd38ca6e3a6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zypadhera Package Leaflet for language en"
-Description: "ePI document Bundle for zypadhera Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 73e905abf90c6054f35e5dd38ca6e3a6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/08/479/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zypadhera"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-73e905abf90c6054f35e5dd38ca6e3a6"
-* entry[0].resource = composition-en-73e905abf90c6054f35e5dd38ca6e3a6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp035f5164120d2fa6396c408efe0a4c49"
-* entry[=].resource = mp035f5164120d2fa6396c408efe0a4c49
-                            
-                      
+* title = "List of all ePIs associated with zypadhera"
+
+* subject = Reference(mp035f5164120d2fa6396c408efe0a4c49)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zypadhera "zypadhera"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-73e905abf90c6054f35e5dd38ca6e3a6) // zypadhera en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-73e905abf90c6054f35e5dd38ca6e3a6) // zypadhera da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-73e905abf90c6054f35e5dd38ca6e3a6
+InstanceOf: List
+
+* insert 73e905abf90c6054f35e5dd38ca6e3a6ListRuleset
+    

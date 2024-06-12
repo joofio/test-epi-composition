@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-79284ae9650b8005359d0f56c68b8ad4
 InstanceOf: CompositionUvEpi
 Title: "Composition for procoralan Package Leaflet"
@@ -399,12 +402,493 @@ Tel: +44 (0)1753 666This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-79284ae9650b8005359d0f56c68b8ad4
+InstanceOf: CompositionUvEpi
+Title: "Composition for procoralan Package Leaflet"
+Description:  "Composition for procoralan Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe3cbc8b0e89c67591c44baa1a1390241)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe3cbc8b0e89c67591c44baa1a1390241
+* title = "TEST PURPOSES ONLY - procoralan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Procoralan 
+3. Sådan skal De tage Procoralan 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What procoralan is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What procoralan is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Procoralan (ivabradin) er hjertemedicin, som anvendes til behandling af:</p>
+<ul>
+<li>Symptomerne ved stabil angina pectoris (en lidelse, som forårsager smerter i brystet) hos 
+voksne patienter med en puls på mindst 70 slag i minuttet. Det anvendes til voksne patienter, 
+som ikke kan tåle eller ikke kan anvende hjertemedicin af typen betablokkere. Det anvendes 
+også i kombination med betablokkere til voksne patienter, hvis sygdom ikke er fuldstændigt 
+kontrolleret med en betablokker. </li>
+<li>Kronisk hjertesvigt hos voksne patienter med en puls på mindst 75 slag i minuttet. Procoralan 
+bruges sammen med standardbehandling med betablokker, eller når patienten ikke må få eller 
+ikke kan tåle betablokker. </li>
+</ul>
+<p>Stabil angina pectoris (også kaldet "hjertekrampe"): 
+Stabil hjertekrampe er en hjertesygdom, som opstår, når hjertet ikke får tilstrækkeligt med ilt. De mest 
+almindelige symptomer på hjertekrampe er smerter eller ubehag i brystet.  </p>
+<p>Kronisk hjertesvigt: 
+Kronisk hjertesvigt er en hjertesygdom, der opstår, når hjertet ikke kan pumpe tilstrækkeligt blod 
+rundt til resten af kroppen. De almindeligste symptomer på hjertesvigt er åndenød, træthed, udmattelse 
+og hævede ankler. </p>
+<p>Sådan virker Procoralan 
+Ivabradins specifikke pulsenedsættende virkning hjælper:</p>
+<ul>
+<li>med at kontrollere og mindske antallet af anfald af hjertekrampe ved at nedsætte hjertets 
+behov for ilt, </li>
+<li>med at forbedre hjertefunktionen og prognosen hos patienter med kronisk hjertesvigt. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take procoralan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take procoralan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Procoralan 
+- hvis De er allergisk over for ivabradin eller et af de øvrige indholdsstoffer i Procoralan (angivet 
+i punkt 6) 
+- hvis Deres puls i hvile før behandlingen er for langsom (under 70 slag i minuttet) 
+- hvis De lider af kardiogent shock (en hjertesygdom, som skal behandles på hospital) 
+- hvis De lider af forstyrrelser i hjertets rytme (syg sinus-syndrom, sinoatrialt blok, 3. grads 
+AV-blok) 
+- hvis De får et hjerteanfald 
+- hvis De lider af meget lavt blodtryk 
+- hvis De lider af ustabil hjertekrampe (en alvorlig form med hyppige brystsmerter, der opstår 
+både under hvile og anstrengelse) 
+- hvis De lider af hjertesvigt, og Deres tilstand for nylig er forværret 
+- hvis Deres hjerterytme udelukkende styres af en pacemaker<br />
+- hvis De lider af svære leverproblemer 
+- hvis De allerede tager medicin til behandling af svampeinfektioner (fx ketoconazol, 
+itraconazol), makrolidantibiotika (fx josamycin, clarithromycin, telithromycin eller 
+erythromycin givet oralt) eller medicin til behandling af hiv-infektioner (som fx nelfinavir, 
+ritonavir) eller nefazodon (medicin til behandling af depressioner) eller diltiazem, verapamil 
+(bruges til for højt blodtryk eller angina pectoris) 
+- hvis De er en kvinde i den fødedygtige alder og ikke anvender sikker prævention 
+- hvis De er gravid eller forsøger at blive gravid 
+- hvis De ammer. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De tager Procoralan 
+- hvis De lider af forstyrrelser i hjertets rytme (uregelmæssig puls, hjertebanken, smerter i 
+brystkassen) eller vedvarende hjerteflimmer (hurtig, meget uregelmæssig puls) eller en 
+abnormitet i elektrokardiogrammet (ekg) kaldet "lang QT-syndrom" 
+- hvis De har symptomer som træthed, svimmelhed eller kortåndethed (det kan betyde, at Deres 
+hjerte slår for langsomt) 
+- hvis De lider af symptomer på artrieflimren (hvilepulsen er usædvanlig høj (over 110 slag i 
+minuttet) eller uregelmæssig uden nogen tydelig grund, hvilket gør det vanskeligt at måle 
+pulsen) 
+- hvis De for nylig har haft et slagtilfælde (blodprop i hjernen/hjerneblødning) 
+- hvis De lider af lavt blodtryk i let til moderat grad 
+- hvis Deres blodtryk ikke er under kontrol - især efter en ændring i Deres blodtryksbehandling 
+- hvis De lider af alvorligt hjertesvigt eller hjertesvigt med en abnormitet i ekg kaldet "grenblok" 
+- hvis De lider af en kronisk nethindesygdom i øjet 
+- hvis De lider af moderate leverproblemer 
+- hvis De lider af svære problemer med nyrerne. 
+Hvis noget af ovenstående gælder for Dem, skal De straks tale med Deres læge om det, før eller mens 
+De tager Procoralan. </p>
+<p>Børn 
+Lægemidlet må ikke gives til børn og unge under 18 år. Der findes ikke tilstrækkelige data hos denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Procoralan 
+Fortæl altid lægen eller apotekspersonalet, hvis De tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. </p>
+<p>Det er vigtigt, at De fortæller det til Deres læge, hvis De tager nogle af følgende lægemidler, da det 
+kan blive nødvendigt at justere dosis af Procoralan eller kontrollere Dem nøjere:</p>
+<ul>
+<li>fluconazol (mod svampeinfektioner) </li>
+<li>
+<p>rifampicin (antibiotikum) </p>
+</li>
+<li>
+<p>barbiturater (for søvnforstyrrelser eller epilepsi) </p>
+</li>
+<li>phenytoin (for epilepsi) </li>
+<li>Hypericum perforatum eller perikon (naturmedicin for depression) </li>
+<li>
+<p>medicin, der forlænger QT-intervallet i ekg til behandling af enten hjerterytmeforstyrrelser eller 
+andre sygdomme, som fx:</p>
+</li>
+<li>
+<p>quinidin, disopyramid, ibutilid, sotalol, amiodaron (til behandling af forstyrrelser af hjertets 
+rytme) </p>
+</li>
+<li>bepridil (til behandling af angina pectoris) </li>
+<li>visse lægemidler til behandling af angst, skizofreni eller andre alvorlige sindslidelser (fx 
+pimozid, ziprasidon og sertindol) </li>
+<li>malariamidler (fx mefloquin eller halofantrin) </li>
+<li>intravenøs erythromycin (et antibiotikum) </li>
+<li>pentamidin (et lægemiddel mod parasitter) </li>
+<li>cisaprid (mod mavesyre-reflux fra mavesæk til spiserør)  </li>
+<li>nogle typer vanddrivende medicin (diuretika), der kan medføre nedsat kaliumniveau i blodet, 
+såsom furosemid, hydrochlorthiazid, indapamid (anvendt til at behandle ødemer og højt 
+blodtryk). </li>
+</ul>
+<p>Brug af Procoralan sammen med mad og drikke 
+Undgå grapefrugtjuice under behandling med Procoralan. </p>
+<p>Graviditet og amning 
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. 
+De må ikke tage Procoralan, hvis De er gravid eller planlægger at blive gravid (se under "Tag ikke 
+Procoralan"). 
+Tal med Deres læge, hvis De er gravid og har taget Procoralan.<br />
+Tag ikke Procoralan, hvis De kan blive gravid, medmindre De anvender sikker prævention (se "Tag 
+ikke Procoralan"). 
+De må ikke tage Procoralan, hvis De ammer (se under "Tag ikke Procoralan"). Tal med lægen, hvis 
+De ammer eller ønsker at amme, da amning skal ophøre, hvis De tager Procoralan. </p>
+<p>Trafik- og arbejdssikkerhed 
+Procoralan kan forårsage forbigående lysfænomener (forbigående lysglimt i synsfeltet, se under 
+"Bivirkninger"). Hvis De får det, skal De udvise forsigtighed, når De kører bil eller betjener maskiner, 
+specielt på tidspunkter, hvor der kan forekomme pludselige ændringer i lysintensiteten, især ved 
+nattekørsel.  </p>
+<p>Procoralan indeholder lactose 
+Kontakt lægen, før De tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take procoralan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take procoralan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet.<br />
+Procoralan skal helst tages under et måltid. 
+Procoralan 5 mg tablet kan deles i to lige store doser. </p>
+<p>Hvis De bliver behandlet for stabil angina pectoris 
+Startdosis bør ikke være mere end en Procoralan-tablet på 5 mg to gange dagligt. Hvis De stadig har 
+symptomer på angina og hvis De har tålt dosis på 5 mg to gange dagligt godt, kan dosis øges. 
+Vedligeholdelsesdosis bør ikke være højere end 7,5 mg to gange dagligt. Deres læge vil ordinere den 
+rette dosis til Dem. Den sædvanlige dosis er en tablet om morgenen og en tablet om aftenen. I nogle 
+tilfælde (fx hvis De er  75 år eller derover) kan Deres læge halvere dosis, dvs. en halv Procoralan-
+tablet på 5 mg (svarende til 2,5 mg ivabradin) om morgenen og en halv tablet på 5 mg om aftenen. </p>
+<p>Hvis De bliver behandlet for kronisk hjertesvigt 
+Den sædvanlige startdosis er en Procoralantablet på 5 mg to gange daglig, og den kan om nødvendigt 
+øges til en Procoralantablet på 7,5 mg to gange daglig. Deres læge fastsætter den rette dosis til Dem. 
+Den sædvanlige dosis er en tablet om morgenen og en tablet om aftenen. I nogle tilfælde (fx hvis De 
+er 75 år eller derover) kan Deres læge halvere dosis, dvs. en halv Procoralantablet på 5 mg (svarende 
+til 2,5 mg ivabradin) om morgenen og en halv tablet på 5 mg om aftenen. </p>
+<p>Hvis De har taget for meget Procoralan<br />
+En stor dosis Procoralan kan få Dem til at føle Dem kortåndet eller træt, fordi Deres hjerte slår for 
+langsomt. Hvis det sker, skal De straks kontakte Deres læge.  </p>
+<p>Hvis De har glemt at tage Procoralan 
+Hvis De glemmer at tage en dosis Procoralan, skal De tage den næste dosis til normal tid. De må ikke 
+tage en dobbeltdosis som erstatning for den glemte dosis. 
+Kalenderen på blisteren, som indeholder tabletterne, skal hjælpe Dem med at huske, hvornår De sidst 
+tog en Procoralan tablet. </p>
+<p>Hvis De holder op med at tage Procoralan 
+Behandlingen for angina pectoris og kronisk hjertesvigt er sædvanligvis livslang. Tal med Deres læge, 
+før De holder op med at tage denne medicin. 
+Tal med Deres læge eller apotekspersonalet, hvis De mener, at virkningerne af Procoralan er for 
+kraftige eller for svage. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De almindeligste bivirkninger med dette lægemiddel er dosisafhængige og relaterede til dets 
+virkningsmåde: </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer)<br />
+Lysfænomener (kortvarige lysglimt, der ofte skyldes pludselige forandringer i lysets intensitet). De 
+kan også beskrives som en ring, farvede lysglimt, billedopløsning eller mangfoldige billeder. De 
+forekommer almindeligvis inden for de første to måneder af behandlingen, hvorefter de kan 
+forekomme gentagne gange og forsvinde under eller efter behandlingen.  </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+Forandringer i hjertets funktion (viser sig ved, at pulsen bliver langsommere). De forekommer især 
+inden for de første 2 til 3 måneder efter indledning af behandlingen.  </p>
+<p>Andre bivirkninger er også blevet rapporteret: 
+Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+Uregelmæssig hurtig sammentrækning af hjertet (atrieflimren), unormal fornemmelse af hjerteslag 
+(bradykardi, ventrikulære ekstrasystoler, AV-blok af 1. grad (forlænget PQ-interval på ekg)), 
+ukontrolleret blodtryk, hovedpine, svimmelhed og uskarpt syn (uklart syn). </p>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) 
+Hjertebanken og ekstra hjerteslag, kvalme, forstoppelse, diarré, mavesmerter, fornemmelse af at 
+verden drejer rundt (vertigo), åndedrætsbesvær (kortåndethed), muskelspasmer, forhøjet urinsyre i 
+blodet, for mange hvide blodlegemer (af typen eosinofile granulocytter) og forhøjede blodværdier for 
+kreatinin (et nedbrydningsprodukt, som dannes i musklerne), hududslæt, angioødem (viser sig som 
+hævelser i ansigt, tunge eller hals eller besvær med at trække vejret eller synke), lavt blodtryk, 
+besvimelse, træthed, svaghed, abnorm ekg-diagram, dobbeltsyn, nedsat syn. </p>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1.000 personer) 
+Nældefeber, kløe, rødme af huden, utilpashed. </p>
+<p>Meget sjælden (kan forekomme hos op til 1 ud af 10.000 personer) 
+Uregelmæssig puls (AV-blok af 2. grad, AV-blok af 3. grad, syg sinus-syndrom). </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store procoralan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store procoralan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og blisteren efter Exp. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Procoralan indeholder:</p>
+<ul>
+<li>Aktivt stof: ivabradin (som hydrochlorid) </li>
+</ul>
+<p>Procoralan 5 mg filmovertrukne tabletter: Hver filmovertrukket tablet indeholder 5 mg 
+ivabradin (som hydrochlorid). </p>
+<p>Procoralan 7,5 mg filmovertrukne tabletter: Hver filmovertrukket tablet indeholder 7,5 mg 
+ivabradin (som hydrochlorid). 
+- Øvrige indholdsstoffer:</p>
+<ul>
+<li>tabletkerne : lactosemonohydrat, magnesiumstearat (E 470 B), majsstivelse, maltodextrin, 
+kolloid vandfri silica (E 551) </li>
+<li>filmovertræk: hypromellose (E 464), titandioxid (E 171), macrogol (6000), glycerol (E 422), 
+magnesiumstearat (E 470 B), gul jernoxid (E 172), rød jernoxid (E 172).  </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Procoralan 5 mg tabletter er laksefarvede, aflange filmovertrukne tabletter med delekærv på begge 
+sider, mærket med "5" på den ene side og 
+ på den anden. 
+Procoralan 7,5 mg tabletter er laksefarvede, trekantede filmovertrukne tabletter, mærket med "7.5" på 
+den ene side og 
+ på den anden.  </p>
+<p>Tabletterne fås i kalenderpakninger (blisterkort af aluminium/PVC) med 14, 28, 56, 84, 98, 100 eller 
+112 tabletter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Les Laboratoires Servier 
+50, rue Carnot 
+92284 Suresnes cedex - Frankrig </p>
+<p>Fremstiller 
+Les Laboratoires Servier 
+905 route de Saran 
+F-45520 Gidy 
+Frankrig </p>
+<p>Servier (Ireland) Industries Ltd 
+Gorey Road 
+Arklow - Co. Wicklow 
+Irland </p>
+<p>Przedsiebiorstwo Farmaceutyczne ANPHARM S.A. 
+ul. Annopol 6B -<br />
+PL-03-236 Warszawa 
+Polen </p>
+<p>Laboratorios Servier, S.L. 
+Avda. de los Madroños, 28043 Madrid 
+Spanien </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+S.A. Servier Benelux N.V. 
+Tél/Tel: +32 (0)2 529 43 Lietuva 
+UAB "SERVIER PHARMA" 
+Tel: +370 (5) 2 63 86<br />
+България 
+Сервие Медикал ЕООД 
+Тел.: +359 2 921 57<br />
+Luxembourg/Luxemburg 
+S.A. Servier Benelux N.V. 
+Tél/Tel: +32 (0)2 529 43<br />
+Česká republika 
+Servier s.r.o. 
+Tel: +420 222 118<br />
+Magyarország 
+Servier Hungaria Kft. 
+Tel.: + 36 1 238 77<br />
+Danmark 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Malta 
+V.J. Salomone Pharma Ltd<br />
+Tel: + 356 21 22 01 <br />
+Deutschland 
+Servier Deutschland GmbH 
+Tel: +49 (0)89 57095 Nederland 
+Servier Nederland Farma B.V. 
+Tel: +31 (0)71 5246 
+Eesti 
+Servier Laboratories OÜ<br />
+Tel:+ 372 664 5 
+Norge 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Ελλάδα 
+ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
+Τηλ: +30 210 939 1Österreich 
+Servier Austria GmbH 
+Tel: +43 (1) 524 39  </p>
+<p>España 
+Laboratorios Servier S.L. 
+Tel: +34 91 748 96 Polska 
+Servier Polska SP. Z O.O. 
+Tel.: + 48 (0) 22 594 90<br />
+France 
+Les Laboratoires Servier 
+Tél: +33 (0)1 55 72 60 Portugal 
+Servier Portugal, Lda 
+Tel: +351 21 312 20<br />
+Hrvatska 
+Servier Pharma, d. o. o. 
+Tel.: +385 (0)1 3016<br />
+România 
+Servier Pharma SRL 
+Tel: +4 021 528 52<br />
+Ireland 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +353 (0)1 663 8 
+Slovenija 
+Servier Pharma d.o.o. 
+Tel: + 386 (0)1 563 48 Ísland 
+Servier Laboratories 
+C/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Servier Slovensko spol. s r.o. 
+Tel: +421 (0) 2 5920 41 Italia 
+Servier Italia S.p.A. 
+Tel: +39 06 669 
+Suomi/Finland 
+Servier Finland Oy 
+P./Tel: +358 (0)9 279 80<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22741Sverige 
+Servier Sverige AB 
+Tel: +46(8)5 225 08<br />
+Latvija 
+SIA Servier Latvia 
+Tel: + 371 6750 2United Kingdom (Northern Ireland) 
+Servier Laboratories (Ireland) Ltd 
+Tel: +44 (0)1753 666 
+Denne indlægsseddel blev senest ændret 
+De kan finde yderligere oplysninger om Procoralan på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-79284ae9650b8005359d0f56c68b8ad4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for procoralan Package Leaflet for language en"
+Description: "ePI document Bundle for procoralan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-79284ae9650b8005359d0f56c68b8ad4"
+* entry[0].resource = composition-en-79284ae9650b8005359d0f56c68b8ad4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp79284ae9650b8005359d0f56c68b8ad4"
+* entry[=].resource = mp79284ae9650b8005359d0f56c68b8ad4
+                            
+                    
+Instance: bundlepackageleaflet-da-79284ae9650b8005359d0f56c68b8ad4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for procoralan Package Leaflet for language da"
+Description: "ePI document Bundle for procoralan Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-79284ae9650b8005359d0f56c68b8ad4"
+* entry[0].resource = composition-da-79284ae9650b8005359d0f56c68b8ad4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp79284ae9650b8005359d0f56c68b8ad4"
+* entry[=].resource = mp79284ae9650b8005359d0f56c68b8ad4
+                            
+                    
+
+
+
+Instance: mp79284ae9650b8005359d0f56c68b8ad4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Procoralan 5 mg film-coated tablets"
-Description: "Procoralan 5 mg film-coated tablets"
+Title: "Medicinal Product procoralan"
+Description: "procoralan"
 Usage: #inline
 
  
@@ -424,7 +908,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Procoralan 5 mg film-coated tablets"
+  * productName = "procoralan"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -451,29 +935,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-79284ae9650b8005359d0f56c68b8ad4
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for procoralan Package Leaflet for language en"
-Description: "ePI document Bundle for procoralan Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 79284ae9650b8005359d0f56c68b8ad4ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Procoralan 5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "procoralan"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-79284ae9650b8005359d0f56c68b8ad4"
-* entry[0].resource = composition-en-79284ae9650b8005359d0f56c68b8ad4
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe3cbc8b0e89c67591c44baa1a1390241"
-* entry[=].resource = mpe3cbc8b0e89c67591c44baa1a1390241
-                            
-                      
+* title = "List of all ePIs associated with procoralan"
+
+* subject = Reference(mpe3cbc8b0e89c67591c44baa1a1390241)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#procoralan "procoralan"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-79284ae9650b8005359d0f56c68b8ad4) // procoralan en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-79284ae9650b8005359d0f56c68b8ad4) // procoralan da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-79284ae9650b8005359d0f56c68b8ad4
+InstanceOf: List
+
+* insert 79284ae9650b8005359d0f56c68b8ad4ListRuleset
+    

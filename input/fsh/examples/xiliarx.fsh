@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b681cc309a06b1eb9ced4a87b0d16f81
 InstanceOf: CompositionUvEpi
 Title: "Composition for xiliarx Package Leaflet"
@@ -347,12 +350,500 @@ http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-da-b681cc309a06b1eb9ced4a87b0d16f81
+InstanceOf: CompositionUvEpi
+Title: "Composition for xiliarx Package Leaflet"
+Description:  "Composition for xiliarx Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7569b83863bf481b642203e7a078e950)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7569b83863bf481b642203e7a078e950
+* title = "TEST PURPOSES ONLY - xiliarx"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Xiliarx </li>
+<li>Sådan skal du tage Xiliarx </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xiliarx is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xiliarx is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Xiliarx, vildagliptin, tilhører en gruppe af lægemidler, der hedder "orale 
+antidiabetika". </p>
+<p>Xiliarx bruges til at behandle voksne patienter med type 2-diabetes (sukkersyge). Det bruges, når 
+sukkersygen ikke kan kontrolleres med diæt og motion alene. Det hjælper med at kontrollere 
+blodsukkeret. Din læge kan ordinere Xiliarx enten alene eller sammen med visse andre typer medicin 
+mod sukkersyge, som du allerede tager, hvis disse har vist sig ikke at være tilstrækkeligt effektive til at 
+kontrollere sukkersygen. </p>
+<p>Du får type 2 diabetes, hvis kroppen ikke producerer insulin nok, eller hvis det insulin, kroppen 
+producerer, ikke fungerer så godt, som det skulle. Du kan også få det, hvis kroppen producerer for 
+meget glucagon (et hormon). </p>
+<p>Insulin er et stof, som er med til at sænke blodsukkeret, især efter måltiderne. Glucagon er et stof, som 
+udløser en produktion af sukker i leveren, og det får blodsukkeret til at stige. Bugspytkirtlen 
+producerer begge disse stoffer. </p>
+<p>Hvordan Xiliarx virker 
+Xiliarx virker ved at få bugspytkirtlen til at producere mere insulin og mindre glucagon. Det er med til 
+at regulere blodsukkeret. Dette lægemiddel har vist sig at reducere blodsukkerniveauet, og dette kan 
+medføre, at du undgår komplikationer, som opstår på grund af sukkersyge.<br />
+Selvom du nu begynder at tage medicin for din sukkersyge, er det vigtigt, at du følger den diæt 
+og/eller den motionsplan, du har fået anbefalet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xiliarx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xiliarx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Xiliarx: </p>
+<ul>
+<li>hvis du er allergisk over for vildagliptin eller et af de øvrige indholdsstoffer i Xiliarx (angivet i 
+pkt. 6). Hvis du tror, du er overfølsom over for vildagliptin eller et af de øvrige indholdsstoffer i 
+Xiliarx, må du ikke tage medicinen, men skal henvende dig til din læge. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Xiliarx </p>
+<ul>
+<li>
+<p>hvis du har type 1-diabetes (sukkersyge, hvor din krop ikke producerer insulin), eller hvis du er 
+i en tilstand kaldet diabetisk ketoacidose. </p>
+</li>
+<li>
+<p>hvis du tager medicin mod diabetes, kaldet sulfonylurinstof (for at undgå at du får lavt 
+blodsukker [hypoglykæmi], vil din læge måske nedsætte din dosis af sulfonylurinstoffet, når du 
+tager det sammen med Xiliarx). </p>
+</li>
+<li>
+<p>hvis du har en moderat eller alvorlig nyresygdom (det er nødvendigt, at du tager en lavere dosis 
+af Xiliarx). </p>
+</li>
+<li>
+<p>hvis du er i dialyse. </p>
+</li>
+<li>
+<p>hvis du har en leversygdom. </p>
+</li>
+<li>
+<p>hvis du lider af hjertesvigt. </p>
+</li>
+<li>
+<p>hvis du har eller har haft en sygdom i bugspytkirtlen. </p>
+</li>
+</ul>
+<p>Du må ikke tage denne medicin igen, hvis du tidligere har taget vildagliptin, men blev nødt til at 
+stoppe på grund af leversygdom. </p>
+<p>Diabetiske hudlæsioner er en almindelig komplikation ved diabetes. Du bør følge de anbefalinger for 
+hud- og fodpleje, som du får af din læge eller sygeplejerske. Du bør også være særlig opmærksom på 
+nye vabler eller sår, som du får, mens du tager Xiliarx. Skulle disse forekomme skal du straks kontakte 
+din læge. </p>
+<p>Du vil få taget en blodprøve til undersøgelse af din leverfunktion, før du starter med Xiliarx-
+behandlingen, med tre måneders interval i det første år og derefter regelmæssigt. Dette gøres for at 
+opdage tegn på forhøjede leverenzymer så hurtigt som muligt. </p>
+<p>Børn og unge 
+Xiliarx anbefales ikke til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Xiliarx 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. </p>
+<p>Din læge vil muligvis ønske at ændre din Xiliarx-dosis, hvis du tager anden medicin såsom:</p>
+<ul>
+<li>thiazider eller andre diuretika (også kaldet vanddrivende tabletter) </li>
+<li>kortikosteroider (bruges normalt til at behandle betændelseslignende reaktioner) </li>
+<li>medicin, der påvirker skjoldbruskkirtlen </li>
+<li>visse typer medicin, der påvirker nervesystemet. </li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Du må ikke tage Xiliarx under graviditet. Der er uvist om Xiliarx passerer ind i modermælken. Du må 
+ikke tage Xiliarx, hvis du ammer eller planlægger at amme. </p>
+<p>Trafik- og arbejdssikkerhed 
+Hvis du føler dig svimmel, når du tager Xiliarx, må du ikke køre bil eller betjene maskiner. </p>
+<p>Xiliarx indeholder lactose 
+Xiliarx indeholder lactose (mælkesukker). Kontakt lægen, før du tager dette lægemiddel, hvis lægen 
+har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>Xilarx indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xiliarx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xiliarx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Så meget Xiliarx skal du tage, og hvornår du skal tage det 
+Den mængde Xiliarx, du skal tage, afhænger af din sygdomstilstand. Din læge vil fortælle dig helt 
+nøjagtigt, hvor mange Xiliarx-tabletter du skal tage. Den maksimale daglige dosis er 100 mg. </p>
+<p>Den sædvanlige dosis er: </p>
+<ul>
+<li>
+<p>50 mg daglig, som du tager på én gang om morgenen, hvis du tager Xiliarx sammen med anden 
+medicin, kaldet sulfonylurinstof. </p>
+</li>
+<li>
+<p>100 mg daglig som 50 mg om morgenen og 50 mg om aftenen, hvis du tager Xiliarx alene, 
+sammen med anden medicin kaldet metformin eller et glitazon, sammen med en kombination af 
+metformin og et sulfonylurinstof eller sammen med insulin. </p>
+</li>
+<li>
+<p>50 mg daglig om morgenen, hvis du har moderat eller svær nyresygdom, eller hvis du er i 
+dialyse. </p>
+</li>
+</ul>
+<p>Hvordan du skal tage Xiliarx </p>
+<ul>
+<li>Synk tabletterne hele med lidt vand. </li>
+</ul>
+<p>Så længe skal du tage Xiliarx </p>
+<ul>
+<li>
+<p>Tag Xiliarx hver dag, så længe din læge siger, at du skal gøre det. Det kan være nødvendigt med 
+behandling i lang tid. </p>
+</li>
+<li>
+<p>Din læge holder øje med din sygdomstilstand for at kontrollere, at behandlingen virker, som den 
+skal. </p>
+</li>
+</ul>
+<p>Hvis du har taget for mange Xiliarx tabletter 
+Hvis du tager for mange Xiliarx tabletter, eller hvis en anden har taget din medicin, skal du straks 
+kontakte din læge. Lægebehandling kan være nødvendig. Medbring pakningen, hvis du skal til læge 
+eller på hospitalet. </p>
+<p>Hvis du har glemt at tage Xiliarx 
+Hvis du glemmer at tage en dosis af medicinen, skal du tage den, så snart du husker det. Tag derefter 
+næste dosis til sædvanlig tid. Hvis det næsten er tid til næste dosis, springer du den glemte dosis over. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.  </p>
+<p>Hvis du holder op med at tage Xiliarx 
+Hold ikke op med at tage Xiliarx, medmindre lægen siger det. Tal med din læge, hvis du har 
+spørgsmål til, hvor længe du skal tage medicinen. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle symptomer kræver øjeblikkelig lægelig opmærksomhed: 
+Du bør stoppe med at tage Xiliarx og straks kontakte din læge, hvis du oplever nogle af følgende 
+bivirkninger: </p>
+<ul>
+<li>
+<p>Angioødem (sjælden: kan forekomme hos op til 1 ud af 1 000 patienter): Symptomerne 
+inkluderer hævet ansigt, tunge eller hals, synkebesvær, vejrtrækningsbesvær, pludselig optræden 
+af udslæt eller nældefeber, som kan tyde på en reaktion kaldet "angioødem" </p>
+</li>
+<li>
+<p>Leversygdom (hepatitis) (hyppighed ikke kendt): Symptomerne inkluderer gul hud og øjne, 
+kvalme, nedsat appetit eller mørk urin, hvilket kan tyde på en leversygdom (hepatitis) </p>
+</li>
+<li>
+<p>Betændelse i bugspytkirtlen (pankreatitis) (sjælden: kan forekomme hos op til 1 ud af 
+1 000 patienter): Symptomerne inkluderer stærke og vedvarende smerter i maven, der eventuelt 
+breder sig til ryggen, samt kvalme og opkastning </p>
+</li>
+</ul>
+<p>Andre bivirkninger </p>
+<p>Nogle patienter har oplevet følgende bivirkninger, mens de tog Xiliarx: </p>
+<ul>
+<li>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer): Ondt i halsen, løbende 
+næse, feber. </p>
+</li>
+<li>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer): Kløende udslæt, rysten, 
+hovedpine, svimmelhed, muskelsmerter, ledsmerter, forstoppelse, hævede hænder, ankler eller 
+fødder (ødem), øget svedtendens, opkastninger, smerter i eller omkring maven (mavesmerter), 
+diarré, halsbrand, kvalme, sløret syn. </p>
+</li>
+<li>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer): Vægtøgning, kulderystelser, 
+svaghed, seksuel dysfunktion, lavt blodsukker, luftafgang fra tarmen. </p>
+</li>
+<li>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1 000 personer): Betændelse i bugspytkirtlen. </p>
+</li>
+</ul>
+<p>Siden denne medicin er blevet markedsført er følgende bivirkninger blevet rapporteret: </p>
+<ul>
+<li>Hyppighed ikke kendt (kan ikke estimeres ud fra forhåndenværende data): Områder med 
+afskalning af huden eller blærer i huden, blodkarsbetændelse (vaskulitis), der kan resultere i 
+hududslæt eller udprægede, flade, røde, runde prikker under hudens overflade eller blå mærker. </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xiliarx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xiliarx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og pakningen efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Opbevares i den originale pakning for at beskytte mod fugt. </p>
+</li>
+<li>
+<p>Brug ikke Xiliarx, hvis emballagen er beskadiget eller viser tegn på, at nogen har forsøgt at åbne 
+den.  </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xiliarx indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: vildagliptin. 
+Hver tablet indeholder 50 mg vildagliptin. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: vandfri lactose, mikrokrystallinsk cellulose, natriumstivelseglycolat 
+(type A) og magnesiumstearat. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Xiliarx 50 mg tabletter er runde, hvide til svagt lysegule og flade præget med "NVR" på den ene side 
+og "FB" på den anden side. </p>
+<p>Xiliarx 50 mg tabletter fås i pakninger med 7, 14, 28, 30, 56, 60, 90, 112, 180 eller 336 tabletter samt i 
+multipakninger bestående af 3 pakker, som hver indeholder 112 tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Lek d.d. 
+Verovskova ulica Ljubljana 1Slovenien </p>
+<p>Novartis Farmacéutica S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spanien </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse D-90429 Nürnberg 
+Tyskland </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova ulica Ljubljana 1Slovenien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16 Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Laboratorios Gebro Pharma, S.A. 
+Tel: +34 93 205 86<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Laboratório Normal – Produtos Farmacêuticos 
+Lda. 
+Tel. +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-b681cc309a06b1eb9ced4a87b0d16f81
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xiliarx Package Leaflet for language en"
+Description: "ePI document Bundle for xiliarx Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b681cc309a06b1eb9ced4a87b0d16f81"
+* entry[0].resource = composition-en-b681cc309a06b1eb9ced4a87b0d16f81
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb681cc309a06b1eb9ced4a87b0d16f81"
+* entry[=].resource = mpb681cc309a06b1eb9ced4a87b0d16f81
+                            
+                    
+Instance: bundlepackageleaflet-da-b681cc309a06b1eb9ced4a87b0d16f81
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xiliarx Package Leaflet for language da"
+Description: "ePI document Bundle for xiliarx Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-b681cc309a06b1eb9ced4a87b0d16f81"
+* entry[0].resource = composition-da-b681cc309a06b1eb9ced4a87b0d16f81
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb681cc309a06b1eb9ced4a87b0d16f81"
+* entry[=].resource = mpb681cc309a06b1eb9ced4a87b0d16f81
+                            
+                    
+
+
+
+Instance: mpb681cc309a06b1eb9ced4a87b0d16f81
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Xiliarx 50 mg tablets"
-Description: "Xiliarx 50 mg tablets"
+Title: "Medicinal Product xiliarx"
+Description: "xiliarx"
 Usage: #inline
 
  
@@ -372,7 +863,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Xiliarx 50 mg tablets"
+  * productName = "xiliarx"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -399,29 +890,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b681cc309a06b1eb9ced4a87b0d16f81
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xiliarx Package Leaflet for language en"
-Description: "ePI document Bundle for xiliarx Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b681cc309a06b1eb9ced4a87b0d16f81ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/08/486/001-011"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xiliarx"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b681cc309a06b1eb9ced4a87b0d16f81"
-* entry[0].resource = composition-en-b681cc309a06b1eb9ced4a87b0d16f81
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7569b83863bf481b642203e7a078e950"
-* entry[=].resource = mp7569b83863bf481b642203e7a078e950
-                            
-                      
+* title = "List of all ePIs associated with xiliarx"
+
+* subject = Reference(mp7569b83863bf481b642203e7a078e950)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xiliarx "xiliarx"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b681cc309a06b1eb9ced4a87b0d16f81) // xiliarx en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-b681cc309a06b1eb9ced4a87b0d16f81) // xiliarx da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-b681cc309a06b1eb9ced4a87b0d16f81
+InstanceOf: List
+
+* insert b681cc309a06b1eb9ced4a87b0d16f81ListRuleset
+    

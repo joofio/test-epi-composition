@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3a2e83e300727740331b28eb7f2593e4
 InstanceOf: CompositionUvEpi
 Title: "Composition for cotellic Package Leaflet"
@@ -414,12 +417,561 @@ Tel: +44 (0) 1707 366This leaflet was last revised in {MM/YYYY} </p>
 
 
 
+Instance: composition-da-3a2e83e300727740331b28eb7f2593e4
+InstanceOf: CompositionUvEpi
+Title: "Composition for cotellic Package Leaflet"
+Description:  "Composition for cotellic Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf2027e35e989cc53b2a27be8d290cf0e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf2027e35e989cc53b2a27be8d290cf0e
+* title = "TEST PURPOSES ONLY - cotellic"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Cotellic 
+3. Sådan skal du tage Cotellic 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cotellic is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cotellic is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Cotellic? 
+Cotellic er et lægemiddel mod kræft og indeholder det aktive stof cobimetinib. </p>
+<p>Hvad bruges Cotellic til? 
+Cotellic bruges til at behandle voksne patienter med en bestemt form for hudkræft, melanom, som har 
+spredt sig til andre dele af kroppen eller ikke kan fjernes ved en operation. </p>
+<ul>
+<li>
+<p>Det bruges sammen med et andet lægemiddel mod kræft, der hedder vemurafenib.  </p>
+</li>
+<li>
+<p>Det kan kun bruges af patienter, hvis kræftsygdom har en ændring (mutation) i et protein, der 
+kaldes BRAF. Før du begynder behandling, vil lægen undersøge, om du har denne mutation. 
+Denne mutation kan være skyld i melanomet.  </p>
+</li>
+</ul>
+<p>Hvordan virker Cotellic? 
+Cotellic virker på et protein, der kaldes MEK. Dette protein har stor betydning for kontrollen af 
+kræftcellernes vækst. Når Cotellic tages sammen med vemurafenib (som virker på det muterede 
+BRAF-protein), vil det yderligere nedsætte eller stoppe væksten af kræftcellerne. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cotellic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cotellic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Cotellic: </p>
+<ul>
+<li>hvis du er allergisk over for cobimetinib eller et af de øvrige indholdsstoffer i medicinen 
+(angivet i punkt 6). </li>
+</ul>
+<p>Hvis du ikke er sikker, skal du kontakte lægen, apotekspersonalet eller sundhedspersonalet, inden du 
+tager Cotellic. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du tager Cotellic, hvis du har 
+problemer med </p>
+<ul>
+<li>
+<p>Blødning 
+Cotellic kan forårsage svær blødning, især i hjernen eller maven (se også ”Svær blødning” i afsnit 4). 
+Du skal straks kontakte lægen, hvis du oplever enhver usædvanlig blødning eller nogle af disse 
+symptomer: hovedpine, svimmelhed, følelse af svaghed, blod i afføringen eller sort afføring og 
+opkastning af blod. </p>
+</li>
+<li>
+<p>Øjenproblemer 
+Cotellic kan forårsage problemer med øjnene (Se også ”Problemer med øjnene (synet)” i afsnit 4).<br />
+Du skal straks kontakte lægen, hvis du får følgende symptomer: sløret syn, forvrænget syn, 
+indskrænket synsfelt eller andre ændringer i dit syn under behandlingen. Lægen skal undersøge dine 
+øjne, hvis du får nye problemer eller forværring af dit syn under behandling med Cotellic. </p>
+</li>
+<li>
+<p>Hjerteproblemer 
+Cotellic kan svække hjertets pumpeevne (se også ”Hjerteproblemer” i afsnit 4). Lægen skal lave 
+undersøgelser for at vurdere hjertets pumpeevne før og under din behandling med Cotellic. Du skal 
+straks kontakte lægen, hvis du føler, at dit hjerte slår hårdere, hurtigere eller uregelmæssigt, eller hvis 
+du oplever svimmelhed, stakåndethed, træthed eller hævede ben. </p>
+</li>
+<li>
+<p>Leverproblemer 
+Cotellic kan medføre forhøjede niveauer af nogle leverenzymer i blodet under behandlingen. Lægen 
+vil tage blodprøver for at undersøge disse stigninger for at holde øje med din leverfunktion.  </p>
+</li>
+<li>
+<p>Muskelproblemer 
+Cotellic kan forårsage forhøjede niveauer af kreatinkinase, som er et enzym, der hovedsageligt findes i 
+muskler, hjerte og hjerne. Dette kan være et tegn på muskelbeskadigelse (rabdomyolyse) (se 
+også ”Muskelproblemer” i afsnit 4). Din læge vil tage blodprøver for at monitorere dette. Du skal 
+straks kontakte lægen, hvis du oplever nogle af disse symptomer: muskelømhed, muskelkramper, 
+svaghed eller mørk eller rødfarvet urin.   </p>
+</li>
+<li>
+<p>Diarré 
+Fortæl straks lægen, hvis du får diarré. Svær diarré kan forårsage væsketab (dehydrering). Følg lægens 
+anvisning om, hvordan diarréen kan forhindres eller behandles. </p>
+</li>
+</ul>
+<p>Børn og unge<br />
+Det frarådes at bruge Cotellic til børn og unge. Cotellics sikkerhed og virkning hos personer under år er ikke klarlagt. </p>
+<p>Brug af anden medicin sammen med Cotellic 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. 
+Det er vigtigt, fordi Cotellic kan påvirke virkningen af anden medicin, og anden medicin kan påvirke 
+virkningen af Cotellic. </p>
+<p>Kontakt lægen, inden du tager Cotellic, hvis du får: </p>
+<p>Medicin<br />
+Medicinens formål 
+itraconazol, clarithromycin, erythromycin, 
+telithromycin, voriconazol, rifampicin, 
+posaconazol, fluconazol, miconazol 
+for bestemte svampe- og bakterie-
+infektioner 
+ritonavir, cobicistat, lopinavir, delavirdin, 
+amprenavir, fosamprenavir<br />
+for HIV-infektion 
+telaprevir 
+for hepatitis C 
+nefadozon 
+for depression 
+amiodaron 
+for uregelmæssig hjerterytme 
+diltiazem, verapamil 
+for højt blodtryk 
+imatinib 
+for kræft 
+carbamazepin, phenytoin 
+for kramper<br />
+perikon 
+naturmedicin for depression. Kræver ikke 
+recept. </p>
+<p>Brug af Cotellic sammen med mad og drikke 
+Undgå at drikke grapefrugtjuice, så længe du tager Cotellic. Det kan øge mængden af Cotellic i blodet. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge lægen eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<ul>
+<li>
+<p>Det frarådes at tage Cotellic under graviditet – selvom Cotellic ikke er undersøgt hos gravide 
+kvinder, kan det muligvis skade det ufødte barn og forårsage misdannelser.  </p>
+</li>
+<li>
+<p>Hvis du bliver gravid, mens du er i behandling med Cotellic eller inden for 3 måneder efter din 
+sidste dosis, skal du straks kontakte lægen.   </p>
+</li>
+<li>
+<p>Det vides ikke, om Cotellic udskilles i mælken hos mennesker. Hvis du ammer, vil lægen snakke 
+med dig om fordele og risici ved at tage Cotellic.  </p>
+</li>
+</ul>
+<p>Prævention 
+Kvinder, der kan få børn, bør bruge 2 forskellige former for sikker prævention, såsom kondom eller 
+andre barrieremetoder (med sæddræbende middel, hvis tilgængeligt), under behandlingen og i mindst 
+3 måneder efter, behandlingen er afsluttet. Spørg lægen, hvilken prævention der er bedst for dig. </p>
+<p>Trafik- og arbejdssikkerhed 
+Cotellic kan påvirke din evne til at køre motorkøretøj  eller anvende maskiner. Undgå at køre 
+motorkøretøj eller anvende maskiner, hvis du har problemer med synet eller andre problemer, som kan 
+påvirke din evne, f.eks. hvis du er svimmel eller træt. Tal med lægen, hvis du er usikker. </p>
+<p>Cotellic indeholder lactose og natrium 
+Tabletterne indeholder lactose (en sukkerart). Kontakt lægen, inden du tager denne medicin, hvis 
+lægen har fortalt dig, at du ikke tåler visse former for sukker. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, det vil sige, den er i det 
+væsentlige natrium-fri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cotellic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cotellic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid medicinen nøjagtig efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den sædvanlige dosis er 
+Den anbefalede dosis er 3 tabletter (i alt 60 mg) 1 gang dagligt.  </p>
+<ul>
+<li>
+<p>Tag tabletterne hver dag i 21 dage (kaldes en behandlingsperiode).  </p>
+</li>
+<li>
+<p>Efter de 21 dage skal du ikke tage Cotellic i 7 dage. Mens du holder denne 7 dages pause med 
+Cotellic, skal du fortsætte behandlingen med vemurafenib som foreskrevet af lægen. </p>
+</li>
+<li>
+<p>Start næste behandlingsperiode (21 dage) med Cotellic efter 7 dages pausen. </p>
+</li>
+<li>
+<p>Hvis du får bivirkninger, kan lægen beslutte at nedsætte dosis eller afbryde behandlingen 
+midlertidigt eller permanent. Tag altid Cotellic præcist, som lægen foreskriver. </p>
+</li>
+</ul>
+<p>Sådan tages medicinen: </p>
+<ul>
+<li>
+<p>Synk tabletten hel med vand. </p>
+</li>
+<li>
+<p>Cotellic kan tages sammen med eller uden mad.  </p>
+</li>
+</ul>
+<p>Hvis du kaster op 
+Hvis du kaster op, efter du har taget Cotellic, skal du ikke tage en ny dosis Cotellic samme dag. Tag 
+Cotellic igen næste dag, helt som du plejer. </p>
+<p>Hvis du har taget for meget Cotellic 
+Hvis du har taget flere Cotellic, end du skulle, skal du straks kontakte en læge. Tag medicinpakningen 
+og denne indlægsseddel med. </p>
+<p>Hvis du har glemt at tage Cotellic </p>
+<ul>
+<li>
+<p>Hvis der er mere end 12 timer til næste dosis, skal du tage den glemte dosis, så snart du kommer i 
+tanker om det. </p>
+</li>
+<li>
+<p>Hvis der er mindre end 12 timer til næste dosis, skal du springe den glemte dosis over og tage 
+næste dosis på det planlagte tidspunkt. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Cotellic 
+Det er vigtigt, at du bliver ved med at tage Cotellic lige så længe, lægen har ordineret det.<br />
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Hvis du 
+får bivirkninger, kan lægen beslutte at nedsætte dosis eller afbryde behandlingen midlertidigt eller 
+permanent. </p>
+<p>Læs også indlægssedlen for vemurafenib, som du tager sammen med Cotellic. </p>
+<p>Alvorlige bivirkninger 
+Fortæl straks lægen, hvis du oplever en eller flere af bivirkningerne nedenfor, eller hvis den/disse 
+forværres under behandlingen. </p>
+<p>Svær blødning (almindelige: kan optræde hos op til 1 ud af 10 patienter) 
+Cotellic kan give svær blødning, især i din hjerne eller mave. Afhængig af hvorhenne 
+blødningen opstår, kan symptomer inkludere: 
+• hovedpine, svimmelhed eller svaghed 
+• opkastning af blod 
+• mavesmerter 
+• rød eller sortfarvet afføring </p>
+<p>Øjenproblemer (syn) (meget almindelige: kan optræde hos flere end 1 ud af 10 patienter) 
+Cotellic kan give øjenproblemer. Nogle af disse øjenproblemer kan skyldes ophobning af væske 
+under nethinden i øjet (serøs retinopati). Symptomer af serøs retinopati kan være:<br />
+• sløret syn 
+• forvrænget syn 
+• indskrænket synsfelt 
+• andre ændringer i synet  </p>
+<p>Hjerteproblemer (almindelige: kan optræde hos op til 1 ud af 10 patienter) 
+Cotellic kan nedsætte hjertets pumpeevne. Symptomerne kan være:<br />
+• svimmelhed 
+• ør i hovedet 
+• stakåndethed<br />
+• træthed 
+• følelse af, at hjertet banker hårdere, hurtigere eller uregelmæssigt 
+• hævede ben </p>
+<p>Muskelproblemer (ikke almindelige: kan optræde hos op til 1 ud af 100 patienter) 
+Cotellic kan forårsage muskelbeskadigelse (rabdomyolyse). Symptomer kan omfatte: 
+• muskelømhed 
+• muskelkramper og svaghed 
+• mørk eller rødfarvet urin </p>
+<p>Diarré (meget almindelig: kan optræde hos flere end 1 ud af 10 patienter) 
+Fortæl straks lægen, hvis du får diarré, og følg lægens anvisning om, hvordan diarréen kan 
+forhindres eller behandles. </p>
+<p>Andre bivirkninger 
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du bemærker én eller flere af 
+følgende bivirkninger: 
+Meget almindelige (kan optræde hos flere end 1 ud af 10 patienter) 
+• huden bliver mere følsom for sol<br />
+• udslæt<br />
+• kvalme 
+• feber 
+• kuldegysninger 
+• forhøjede lever-enzymer (ses ved blodprøve)<br />
+• unormale blodprøveresultater for kreatinkinase, som er et enzym, som hovedsageligt<br />
+ findes i hjertet, hjernen og skeletmuskulaturen 
+• opkastning 
+• udslæt med flade misfarvede pletter eller udslæt, der kan ligne bumser som akne 
+• forhøjet blodtryk 
+• anæmi (lavt antal røde blodlegemer) 
+• blødning 
+• unormal fortykkelse af huden 
+• hævelse, sædvanligvis i benene (perifært ødem) 
+• kløende eller tør hud 
+• mundbetændelse eller mundsår, betændelse i slimhinderne (stomatitis) </p>
+<p>Almindelige (kan optræde hos op til 1 ud af 10 patienter) </p>
+<p>• visse former for hudkræft såsom basalcellekræft, pladecellekræft og keratoakantom 
+• dehydrering, hvor kroppen mangler væske 
+• fald i fosfat- eller natriumværdier (ses ved blodprøve) 
+• forhøjede sukkerværdier (ses ved blodprøve) 
+• forhøjet bilirubin (leverpigment) i blodet. Symptomerne inkluderer gulfarvning af hud og øjne 
+• irritation (inflammation) af vævet i lungerne, hvilket kan give vejrtrækningsbesvær og kan 
+være livstruende (kaldes ”pneumonitis”) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cotellic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cotellic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen og kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Dette lægemiddel kræver ikke særlige opbevaringsforhold. </p>
+</li>
+<li>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cotellic indeholder: </p>
+<ul>
+<li>
+<p>Aktivt indholdsstof: cobimetinib. Hver filmovertrukken tablet indeholder 
+cobimetinibhemifumarat svarende til 20 mg cobimetinib. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer (se afsnit 2 ”Cotellic indeholder lactose og natrium”): 
+• lactosemonohydrat, mikrokrystallinsk cellulose, croscarmellosenatrium og  <br />
+  magnesiumstearat i tabletkernen og<br />
+• polyvinylalkohol, titandioxid, macrogol og talcum i filmovertrækket. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Cotellic filmovertrukne tabletter er hvide og runde med “COB” præget på den ene side. Der findes én 
+pakningsstørrelse: 63 tabletter (3 blistere med 21 tabletter). </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Tyskland </p>
+<p>Fremstiller 
+Roche Pharma AG 
+Emil-Barell-Strasse 1 
+70Grenzach-Wyhlen 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A. 
+Tél/Tel: +32 (0) 2 525 82<br />
+Lietuva 
+UAB “Roche Lietuva” 
+Tel: +370 5 2546 
+България 
+Рош България ЕООД 
+Тел: +359 2 818 44<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>Česká republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382 
+Magyarország 
+Roche (Magyarország) Kft. 
+Tel: +36 - 1 279 4 
+Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99<br />
+Malta 
+(see Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624<br />
+Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti OÜ 
+Tel: + 372 - 6 177<br />
+Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90<br />
+Ελλάδα 
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27 
+España 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81<br />
+Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18<br />
+France 
+Roche 
+Tél: +33  (0)1 47 61 40<br />
+Portugal 
+Roche Farmacêutica Química, Lda 
+Tel: +351 - 21 425 70<br />
+Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22<br />
+România 
+Roche România S.R.L. 
+Tel: +40 21 206 47<br />
+Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0 
+Slovenija 
+Roche farmacevtska družba d.o.o. 
+Tel: +386 - 1 360 26<br />
+Ísland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638 
+Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554<br />
+Kύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ. 
+Τηλ: +357 - 22 76 62<br />
+Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039 
+United Kingdom (Nothern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366 </p>
+<p>Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}.&gt; </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3a2e83e300727740331b28eb7f2593e4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cotellic Package Leaflet for language en"
+Description: "ePI document Bundle for cotellic Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3a2e83e300727740331b28eb7f2593e4"
+* entry[0].resource = composition-en-3a2e83e300727740331b28eb7f2593e4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3a2e83e300727740331b28eb7f2593e4"
+* entry[=].resource = mp3a2e83e300727740331b28eb7f2593e4
+                            
+                    
+Instance: bundlepackageleaflet-da-3a2e83e300727740331b28eb7f2593e4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cotellic Package Leaflet for language da"
+Description: "ePI document Bundle for cotellic Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3a2e83e300727740331b28eb7f2593e4"
+* entry[0].resource = composition-da-3a2e83e300727740331b28eb7f2593e4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3a2e83e300727740331b28eb7f2593e4"
+* entry[=].resource = mp3a2e83e300727740331b28eb7f2593e4
+                            
+                    
+
+
+
+Instance: mp3a2e83e300727740331b28eb7f2593e4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cotellic 20 mg film-coated tablets"
-Description: "Cotellic 20 mg film-coated tablets"
+Title: "Medicinal Product cotellic"
+Description: "cotellic"
 Usage: #inline
 
  
@@ -439,7 +991,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cotellic 20 mg film-coated tablets"
+  * productName = "cotellic"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -466,29 +1018,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3a2e83e300727740331b28eb7f2593e4
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cotellic Package Leaflet for language en"
-Description: "ePI document Bundle for cotellic Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3a2e83e300727740331b28eb7f2593e4ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1048/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cotellic"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3a2e83e300727740331b28eb7f2593e4"
-* entry[0].resource = composition-en-3a2e83e300727740331b28eb7f2593e4
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf2027e35e989cc53b2a27be8d290cf0e"
-* entry[=].resource = mpf2027e35e989cc53b2a27be8d290cf0e
-                            
-                      
+* title = "List of all ePIs associated with cotellic"
+
+* subject = Reference(mpf2027e35e989cc53b2a27be8d290cf0e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cotellic "cotellic"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3a2e83e300727740331b28eb7f2593e4) // cotellic en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3a2e83e300727740331b28eb7f2593e4) // cotellic da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3a2e83e300727740331b28eb7f2593e4
+InstanceOf: List
+
+* insert 3a2e83e300727740331b28eb7f2593e4ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1d09f2cdb23b1c4baeb1be5a4de77a38
 InstanceOf: CompositionUvEpi
 Title: "Composition for sibnayal Package Leaflet"
@@ -367,12 +370,434 @@ France </p>
 
 
 
+Instance: composition-da-1d09f2cdb23b1c4baeb1be5a4de77a38
+InstanceOf: CompositionUvEpi
+Title: "Composition for sibnayal Package Leaflet"
+Description:  "Composition for sibnayal Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8ca6f42a1a9bf35ffbb978b77ea08d4a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8ca6f42a1a9bf35ffbb978b77ea08d4a
+* title = "TEST PURPOSES ONLY - sibnayal"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Sibnayal </li>
+<li>Sådan skal du tage Sibnayal </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sibnayal is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sibnayal is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sibnayal indeholder to aktive stoffer, nemlig kaliumcitrat og kaliumhydrogencarbonat (også kaldet 
+kaliumbicarbonat). </p>
+<p>Sibnayal er et alkaliserende lægemiddel, der anvendes til at behandle øget blodsurhed forårsaget af en 
+nyresygdom kaldet distal renal tubulær acidose (dRTA). </p>
+<p>Sibnayal vil være med til at mindske dRTA's indvirkning på din dagligdag. </p>
+<p>Sibnayal anvendes hos voksne, unge og børn over 1 år. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sibnayal"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sibnayal"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Sibnayal:</p>
+<ul>
+<li>hvis du er allergisk over for kaliumcitrat eller kaliumhydrogencarbonat eller et af de øvrige 
+indholdsstoffer i dette lægemiddel (angivet i pkt. 6) </li>
+<li>hvis du har en alvorlig nyresygdom eller nyresvigt </li>
+<li>hvis du har forhøjet kaliumindhold i blodet (hyperkaliæmi). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du tager Sibnayal:</p>
+<ul>
+<li>hvis du har en sygdom eller tager et lægemiddel, der kan øge indholdet af kalium i dit blod (se "Brug 
+af anden medicin sammen med Sibnayal" nedenfor) </li>
+<li>hvis du ofte har gastrointestinale symptomer såsom oppustethed, diarré, kvalme, opkastning </li>
+<li>hvis du lider af en kronisk nyresygdom. </li>
+</ul>
+<p>Sibnayal, depotgranulat, er beregnet til at frigive de aktive stoffer langsomt efter indtagelse. Du kan 
+muligvis se rester af granulatet i din afføring. Dette er normalt og nedsætter ikke lægemidlets virkning. </p>
+<p>Hvis du kaster op inden for to timer efter at have indtaget lægemidlet, bør du tage endnu en dosis. </p>
+<p>Du er nødt til regelmæssigt at se din læge. Det kan sommetider være nødvendigt, at din læge tager 
+blod- eller urinprøver eller tester dit hjerte for at justere dosis af Sibnayal. Din læge vil regelmæssigt 
+kontrollere din nyrefunktion, hvis du er ældre og/eller har forværret nyrefunktion. </p>
+<p>Børn </p>
+<p>Giv ikke dette lægemiddel til børn under 1 år, da der er risiko for kvælning. </p>
+<p>Brug af anden medicin sammen med Sibnayal </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Nogle lægemidler kan påvirke måden, Sibnayal virker på, eller øge sandsynligheden for bivirkninger. 
+Disse omfatter:</p>
+<ul>
+<li>
+<p>lægemidler, der øger kaliumindholdet i blodet, såsom:</p>
+</li>
+<li>
+<p>angiotensinkonvertasehæmmere (ACE-hæmmere) (anvendes til at behandle forhøjet 
+blodtryk, hjertesygdom og nyresygdom hos patienter med type 1-diabetes) </p>
+</li>
+<li>kaliumbesparende diuretika (anvendes til at behandle forhøjet blodtryk, ophobning af 
+væske i vævet (ødem) og hjertesygdomme) </li>
+<li>kaliumtilskud (anvendes til at forebygge eller behandle lavt kaliumindhold i blodet) </li>
+<li>ciclosporin (anvendes til at forebygge eller behandle transplantatafstødning) </li>
+<li>heparinnatrium (anvendes til at forhindre eller forsinke blodpropper) </li>
+<li>nonsteroide antiinflammatoriske lægemidler (NSAID'er) (anvendes til at mindske feber, 
+smerter og betændelsestilstande) </li>
+<li>
+<p>lægemidler, der kan påvirkes af forstyrrelser i blodets kaliumindhold, f.eks.:</p>
+</li>
+<li>
+<p>digitalisglycosider (såsom digoxin, der anvendes til at behandle hjertesvigt og visse 
+hjerterytmeforstyrrelser) </p>
+</li>
+<li>kortikosteroider (anvendes til at behandle betændelsestilstande) </li>
+<li>
+<p>alle andre lægemidler, der kan medføre forstyrrelser i hjerterytmen såsom:</p>
+</li>
+<li>
+<p>amiodaron og kinidin (anvendes til at regulere hjerterytmen) </p>
+</li>
+<li>chlorpromazin (anvendes til at behandle visse psykiske sygdomme) </li>
+<li>cisaprid (anvendes til at behandle halsbrand) </li>
+<li>sparfloxacin (anvendes til at behandle visse bakterielle infektioner). </li>
+</ul>
+<p>Visse lægemidler kan påvirkes af øgede pH-værdier i urinen som følge af behandling med Sibnayal. 
+Disse kan være:</p>
+<ul>
+<li>salicylater (anvendes til at behandle smerter og betændelsestilstande — aspirinlignende 
+lægemidler) </li>
+<li>tetracycliner (anvendes til at behandle visse bakterielle infektioner) </li>
+<li>barbiturater (sovemedicin). </li>
+</ul>
+<p>Brug af Sibnayal sammen med mad, drikke og alkohol </p>
+<p>Undlad at blande Sibnayal med varm mad eller varme væsker. 
+Drik ikke alkohol, mens du tager Sibnayal. </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Sibnayal forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
+<p>Sibnayal indeholder kalium </p>
+<p>Sibnayal 8 mEq indeholder 308 mg kalium pr. brev. Det skal du huske på, hvis du har nedsat 
+nyrefunktion eller er på kaliumreduceret diæt. </p>
+<p>Sibnayal 24 mEq indeholder 924 mg kalium pr. brev. Det skal du huske på, hvis du har nedsat 
+nyrefunktion eller er på kaliumreduceret diæt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sibnayal"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sibnayal"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvor meget Sibnayal du skal tage, afhænger af din alder og vægt og dit helbred. Lægen vil fortælle dig 
+nøjagtigt, hvilken dosis Sibnayal du skal tage. Det vil altid være ét eller flere breve. </p>
+<p>Lægen kan være nødt til at justere dosen af Sibnayal. </p>
+<p>Dette lægemiddel skal bruges under lægeopsyn. </p>
+<p>Dosering </p>
+<p>Lægen tilpasser dosis afhængigt af indholdet af bicarbonat i dit blod. </p>
+<p>Sådan skal du tage Sibnayal </p>
+<p>Sibnayal er til oral anvendelse (dvs. det skal tages gennem munden). 
+Hvis du ikke er sikker på, hvordan du skal bruge Sibnayal, skal du kontakte din læge eller dit apotek. </p>
+<ol>
+<li>
+<p>Hold brevet lodret med fingrene over den punkterede linje. Ryst det fra side til side for at sikre, at 
+indholdet flyttes til bunden af brevet. </p>
+</li>
+<li>
+<p>Klip brevet langs den punkterede linje. Brug en saks, hvis det er nødvendigt. </p>
+</li>
+<li>
+<p>Anbring hele eller en del af brevets indhold direkte i munden på tungen. </p>
+</li>
+<li>
+<p>Synk straks granulatet med et stort glas vand. Undlad at tygge eller knuse granulatet. Gentag punkt 
+1 til 4 efter behov, indtil du har taget den fulde dosis. </p>
+</li>
+</ol>
+<p>Til patienter, der ikke kan synke granulat </p>
+<ol>
+<li>
+<p>Bland Sibnayal med små mængder blød og kold mad (f.eks. frugtmos eller yoghurt) direkte på 
+skeen. Du skal synke den bløde blanding straks. Gem ikke blandingen til senere. </p>
+</li>
+<li>
+<p>Anbring blandingen direkte i munden, og synk den uden at tygge den. Sørg for, at du ikke har rester 
+af Sibnayal i munden. Gentag punkt 1 og 2 efter behov, indtil du har taget den fulde dosis. </p>
+</li>
+</ol>
+<p>Undlad at blande granulatet med væske, før det tages. </p>
+<p>Hvornår Sibnayal skal tages </p>
+<p>Tag Sibnayal morgen og aften sammen med et måltid. Der skal gå ca. 12 timer mellem hver dosis for 
+at dække hele dagen og natten. </p>
+<p>Dosisjustering </p>
+<p>Dosisforøgelse/-nedsættelse bør ske gradvist og over nogle få uger. Lægen vil tilpasse dosis efter din 
+tilstand. Den normale anbefalede dosis er 4 til 6 hele breve a 24 mEq dagligt. </p>
+<p>Tal med din læge, hvis du får bivirkninger, da det kan være nødvendigt at justere dosen af dette 
+lægemiddel. </p>
+<p>Skift fra et andet alkaliserende lægemiddel </p>
+<p>Hvis du skifter fra andre alkaliserende lægemidler til Sibnayal, bør din lægen holde nøje øje med dig i 
+overgangsperioden. </p>
+<p>Hvis du har taget for meget Sibnayal </p>
+<p>Kontakt lægen eller apotekspersonalet, hvis du har taget for meget Sibnayal. 
+Du kan have kvalme, behov for at kaste op, og diarré. 
+Hvis du har taget en stor mængde Sibnayal, kan du føle dig mat eller få uforklarlige 
+muskelspændinger, spasmer (muskelkontraktion), unormale snurrende eller brændende fornemmelser, 
+prikken og stikken eller følelsesløshed, sindsforvirring eller unormal hjertefrekvens. </p>
+<p>Hvis du har glemt at tage Sibnayal </p>
+<p>Tag ikke en dobbeltdosis som erstatning for en glemt dosis. Tag det, så snart du kommer i tanke om 
+det. Hvis den næste dosis er mindre end 6 timer senere, bør du dog springe den glemte dosis over. Tag 
+ikke mere end to doser dagligt. </p>
+<p>Tal med lægen, hvis du har glemt at tage én eller flere doser. </p>
+<p>Hvis du holder op med at tage Sibnayal </p>
+<p>Dette lægemiddel er beregnet til langtidsbehandling. Det vil kun virke, så længe du tager det. 
+Stop ikke, medmindre lægen beder dig om det. Heller ikke selv om du får det bedre. Sygdommen kan 
+nemlig forværres. Hvis du ønsker at stoppe med behandlingen, skal du først tale med din læge. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelige bivirkninger (som kan forekomme hos mere end 1 ud af 10 personer) 
+- mavesmerter </p>
+<p>Almindelige bivirkninger (som kan forekomme hos op til 1 ud af 10 personer) 
+- smerter i den øvre del af maven 
+- gastrointestinale smerter og sygdomme (smerter og sygdomme i mave-tarm-kanalen) 
+- dyspepsi (dårlig fordøjelse), 
+- opkastning 
+- diarré 
+- kvalme, når behandlingen indledes. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også </p>
+<p>indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sibnayal"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sibnayal"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på brevet og kartonen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25°C. </p>
+<p>Når du har åbnet et brev, skal du kassere eventuelt ikke anvendt indhold. </p>
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg 
+apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sibnayal indeholder: </p>
+<p>De aktive stoffer er kaliumcitrat og kaliumhydrogencarbonat (også kaldet kaliumbicarbonat). </p>
+<p>Hvert brev Sibnayal 8 mEq indeholder 282 mg kaliumcitrat og 527 mg kaliumhydrogencarbonat. </p>
+<p>Hvert brev Sibnayal 24 mEq indeholder 847 mg kaliumcitrat og 1.582 mg kaliumhydrogencarbonat. </p>
+<p>De øvrige indholdsstoffer er hydroxypropylmethylcellulose (E464), mikrokrystallinsk cellulose (E(i)), glyceroldibehenat, magnesiumstearat (E470b), silica, kolloid vandfri, magnesiumoxid, tungt 
+(E530), ethylcellulose (E462), chlorophyllin (E140 (ii)), talkum. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Sibnayal er en blanding af grønt og hvidt depotgranulat, der fås i breve. 
+Kartonerne indeholder 60 breve. </p>
+<p>Sibnayal fås i multipakninger, som består af 2, 3, 4, 5 og 6 kartoner, der hver indeholder 60 breve. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>ADVICENNE 
+262 rue du Faubourg Saint Honoré<br />
+75008 Paris 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien - Luxembourg/Luxemburg - Nederland 
+TwinPharma BV 
+Trasmolenlaan 5 
+Italia 
+SPA Società Prodotti Antibiotici S.p.A. 
+Tel: +39 02 891 </p>
+<p>3447 GZ Woerden 
+Nederland 
+Tél/Tel: +31 348 71 24 e-mail: info@twinpharma.com </p>
+<p>България 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Teл.: +359 888 918 pv.global@exceedorphan.com </p>
+<p>Magyarország 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +36 20 399 4pv.global@exceedorphan.com 
+Česká republika 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +420 608 076 pv.global@exceedorphan.com </p>
+<p>Polska 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +48 502 188 pv.global@exceedorphan.com 
+Danmark - Norge - Suomi/Finland - Sverige 
+Frostpharma AB 
+Berga Backe 2 
+18253 Danderyd, Sverige<br />
+Tlf/Puh/Tel: + 46 8 243regulatory@frostpharma.com </p>
+<p>Portugal 
+Prospa - Laboratórios Farmacêuticos, S.A. 
+Tel: +351 214171 
+Deutschland - Eesti - Ελλάδα - France - 
+Ireland - Ísland - Κύπρος - Latvija - Lietuva - Malta - Österreich - United Kingdom 
+(Northern Ireland) 
+ADVICENNE 
+262 rue du Faubourg Saint Honoré<br />
+75008 Paris, France 
+Tel : + 33 1 85 73 36<br />
+România 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +40 744 366 pv.global@exceedorphan.com 
+España 
+SPA farma Ibérica<br />
+Tel: + 34 622 273  </p>
+<p>Slovenija 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +386 30 210 pv.global@exceedorphan.com </p>
+<p>Hrvatska 
+ExCEEd Orphan Distribution d.o.o. 
+Savska cesta 32, Zagreb, 100 Croatia 
+Tel: +385 99 320 0pv.global@exceedorphan.com<br />
+Slovenská republika 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +420 608 076 pv.global@exceedorphan.com </p>
+<p>Fremstiller </p>
+<p>ELAIAPHARM 
+2881 route des Crêtes 
+ZI les Bouillides Sophia Antipolis 
+06560 Valbonne </p>
+<p>Frankrig </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1d09f2cdb23b1c4baeb1be5a4de77a38
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sibnayal Package Leaflet for language en"
+Description: "ePI document Bundle for sibnayal Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1d09f2cdb23b1c4baeb1be5a4de77a38"
+* entry[0].resource = composition-en-1d09f2cdb23b1c4baeb1be5a4de77a38
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1d09f2cdb23b1c4baeb1be5a4de77a38"
+* entry[=].resource = mp1d09f2cdb23b1c4baeb1be5a4de77a38
+                            
+                    
+Instance: bundlepackageleaflet-da-1d09f2cdb23b1c4baeb1be5a4de77a38
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sibnayal Package Leaflet for language da"
+Description: "ePI document Bundle for sibnayal Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1d09f2cdb23b1c4baeb1be5a4de77a38"
+* entry[0].resource = composition-da-1d09f2cdb23b1c4baeb1be5a4de77a38
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1d09f2cdb23b1c4baeb1be5a4de77a38"
+* entry[=].resource = mp1d09f2cdb23b1c4baeb1be5a4de77a38
+                            
+                    
+
+
+
+Instance: mp1d09f2cdb23b1c4baeb1be5a4de77a38
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Sibnayal 8 mEq prolonged-release granules"
-Description: "Sibnayal 8 mEq prolonged-release granules"
+Title: "Medicinal Product sibnayal"
+Description: "sibnayal"
 Usage: #inline
 
  
@@ -392,7 +817,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Sibnayal 8 mEq prolonged-release granules"
+  * productName = "sibnayal"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -419,29 +844,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1d09f2cdb23b1c4baeb1be5a4de77a38
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sibnayal Package Leaflet for language en"
-Description: "ePI document Bundle for sibnayal Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1d09f2cdb23b1c4baeb1be5a4de77a38ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Sibnayal 8 mEq prolonged-release granules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sibnayal"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1d09f2cdb23b1c4baeb1be5a4de77a38"
-* entry[0].resource = composition-en-1d09f2cdb23b1c4baeb1be5a4de77a38
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8ca6f42a1a9bf35ffbb978b77ea08d4a"
-* entry[=].resource = mp8ca6f42a1a9bf35ffbb978b77ea08d4a
-                            
-                      
+* title = "List of all ePIs associated with sibnayal"
+
+* subject = Reference(mp8ca6f42a1a9bf35ffbb978b77ea08d4a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sibnayal "sibnayal"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1d09f2cdb23b1c4baeb1be5a4de77a38) // sibnayal en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1d09f2cdb23b1c4baeb1be5a4de77a38) // sibnayal da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1d09f2cdb23b1c4baeb1be5a4de77a38
+InstanceOf: List
+
+* insert 1d09f2cdb23b1c4baeb1be5a4de77a38ListRuleset
+    

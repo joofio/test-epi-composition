@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-72e5f5398f762b4570a837b92d9db036
 InstanceOf: CompositionUvEpi
 Title: "Composition for viramune Package Leaflet"
@@ -620,12 +623,756 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-72e5f5398f762b4570a837b92d9db036
+InstanceOf: CompositionUvEpi
+Title: "Composition for viramune Package Leaflet"
+Description:  "Composition for viramune Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc77be511e99f9e2be98c1835212a6791)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc77be511e99f9e2be98c1835212a6791
+* title = "TEST PURPOSES ONLY - viramune"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Viramune
+3. Sådan skal du tage Viramune
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What viramune is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What viramune is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Viramune tilhører en gruppe af lægemidler, som kaldes antiretrovirale lægemidler. De bruges i 
+behandlingen af hiv-1 (human immundefekt virussygdom) infektion.
+Det aktive stof i Viramune er nevirapin. Nevirapin tilhører en gruppe af anti-hiv-lægemidler kaldet 
+non-nukleosid revers transkriptasehæmmere (NNRT-hæmmere). Revers transkriptase er et enzym, 
+som hiv har brug for for at kunne formere sig. Viramune hjælper med at kontrollere hiv-1-infektion 
+ved at forhindre enzymet i at arbejde.
+Viramune bruges til behandling af hiv-1-smittede voksne, unge og børn i alle aldre. 
+Du skal tage Viramune sammen med andre antiretrovirale hiv-lægemidler. Din læge vil ordinere den 
+kombination, som er bedst for dig.
+Hvis Viramune er ordineret til dit barn, så bemærk, at denne information er beregnet til dit 
+barn, og du skal erstatte "du" med "dit barn".</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take viramune"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take viramune"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Viramune</h2>
+<p>hvis du er allergisk over for nevirapin eller et af de øvrige indholdsstoffer i Viramune (angivet 
+i punkt 6).
+-
+hvis du tidligere har taget Viramune og måtte stoppe behandlingen, fordi du har fået:
+-
+alvorligt hududslæt
+-
+hududslæt og samtidig har andre symptomer som
+-
+feber
+-
+blæredannelse
+-
+sår i munden
+-
+øjenbetændelse
+-
+hævelse i ansigtet
+101
+-
+generel hævelse
+-
+åndenød
+-
+muskel- eller ledsmerter
+-
+generel følelse af at være syg
+-
+mavesmerter
+-
+overfølsomhedsreaktioner (allergiske)
+-
+leverbetændelse (hepatitis)
+-
+hvis du har en alvorlig leversygdom
+-
+hvis du tidligere har været nødt til at stoppe behandling med Viramune på grund af ændringer 
+i din leverfunktion 
+-
+hvis du tager naturmedicin, som indeholder perikon (Hypericum perforatum). Dette 
+naturlægemiddel kan medføre, at Viramune ikke virker optimalt. 
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager Viramune. 
+I de første 18 uger, hvor du er i behandling med Viramune, er det meget vigtigt, at du og din 
+læge holder øje med, om der er tegn på leverskader eller hududslæt. Sådanne reaktioner kan 
+blive alvorlige og endog livstruende. Der er størst risiko for sådanne reaktioner i de første 6 
+uger af behandlingen.
+Hvis du får alvorlige hududslæt eller overfølsomhedsreaktioner (allergiske reaktioner som kan 
+forekomme i form af hududslæt), samtidig med andre bivirkninger såsom
+-
+feber
+-
+blæredannelse
+-
+sår i munden
+-
+øjenbetændelse
+-
+hævelse i ansigtet
+-
+generel hævelse
+-
+åndenød
+-
+muskel- eller ledsmerter
+-
+generel følelse af at være syg
+-
+eller mavesmerter
+SKAL DU STRAKS STOPPE MED AT TAGE VIRAMUNE OG STRAKS KONTAKTE din læge, da 
+sådanne bivirkninger kan være livstruende eller medføre døden. Hvis du nogensinde får udslæt i mild 
+grad uden nogle af de andre bivirkninger, skal du straks informere lægen om det. Lægen vil råde dig med 
+hensyn til, om du skal stoppe Viramune-behandlingen.
+Hvis du får symptomer, som kan tyde på, at leveren har taget skade såsom
+-
+appetitløshed
+-
+kvalme
+-
+opkastning
+-
+gulsot (huden bliver gul)
+-
+mavesmerter
+skal du stoppe med at tage Viramune og straks kontakte lægen. 
+Hvis du får alvorlige lever-, hud- eller overfølsomhedsreaktioner under behandling med Viramune, må du 
+ALDRIG tage Viramune igen, medmindre det er ordineret af lægen.
+Du bør tage den dosis, som er foreskrevet af lægen. Det er især vigtigt i den første 14 dages periode (se 
+flere informationer under Sådan skal du tage Viramune.)
+102
+Følgende patientgrupper har en forhøjet risiko for at udvikle leverskader:
+-
+kvinder
+-
+patienter, der er smittet med hepatitis B eller hepatitis C
+-
+patienter med unormale leverfunktionsværdier
+-
+tidligere ubehandlede patienter, der har forhøjede CD4-celletal ved starten af behandling med 
+Viramune (kvinder med over 250 celler/mm3, mænd med over 400 celler/mm3)
+-
+tidligere behandlede patienter med påviselig hiv-1-virusbelastning i plasma og forhøjede 
+CD4-celletal ved behandlingsstart med Viramune (kvinder mere end 250 celler/mm3, mænd mere 
+end 400 celler/mm3)
+Hos nogle patienter med fremskreden hiv infektion (aids), som tidligere har haft opportunistisk 
+infektion (sygdom, der tyder på aids), kan tegn og symptomer på betændelse fra tidligere infektioner 
+forekomme kort efter, at anti-hiv behandlingen er startet. Det antages, at disse symptomer skyldes en 
+forbedring i kroppens immunforsvar, som således gør kroppen i stand til at bekæmpe infektioner, der 
+kan have været til stede uden tydelige symptomer. Hvis du bemærker nogen som helst symptomer på 
+infektion, skal du omgående informere din læge.
+Ud over de opportunistiske infektioner kan autoimmune lidelser (skyldes, at immunsystemet angriber 
+sundt kropsvæv) også opstå, efter du er begyndt at tage medicin til behandling af din hiv-infektion. 
+Autoimmune lidelser kan opstå mange måneder efter, du er påbegyndt behandling. Du skal straks 
+informere din læge for at få den nødvendige behandling, hvis du bemærker symptomer på infektion 
+eller andre symptomer, såsom muskelsvaghed, svaghed begyndende i hænder og fødder, og som 
+bevæger sig op igennem kroppen, hjertebanken, rysten eller hyperaktivitet.
+Ændringer af fordelingen af kropsfedt kan forekomme hos patienter, som modtager antiretroviral 
+kombinationsbehandling. Kontakt din læge, hvis du opdager ændringer i kropsfedt (se under punkt 4 
+"Bivirkninger"). 
+Nogle patienter, der får flere antiretrovirale lægemidler på samme tid, kan udvikle en knoglesygdom, 
+som kaldes knoglenekrose (knoglevævet dør på grund af blodmangel til knoglerne). Risikofaktorer for 
+udvikling af denne sygdom er blandt mange: Længden af den tidsperiode, hvor du er blevet behandlet 
+med flere antiretrovirale lægemidler, anvendelse af kortikosteroider, alkoholforbrug, alvorligt nedsat 
+immunforsvar samt højt BMI (body-mass-index). Stivhed, ømhed og smerter i ledene (især hofte, knæ 
+og skulder) samt besvær med at bevæge sig er tegn på knoglenekrose. Hvis du bemærker et eller flere 
+af disse symptomer, bør du fortælle det til din læge.
+Hvis du får nevirapin og zidovudin samtidigt, kan det blive aktuelt, at lægen kontrollerer dine hvide 
+blodlegemer.
+Tag ikke Viramune hvis du er blevet udsat for hiv, med mindre du er blevet diagnosticeret med hiv, og 
+lægen har foreskrevet det.
+Prednison bør ikke anvendes til behandling af udslæt forårsaget af Viramune.
+Hvis du bruger p-piller eller andre hormonelle præventionsmetoder under behandling med Viramune, 
+bør du samtidig bruge kondom for at beskytte mod graviditet og overførsel af smitte. 
+Hvis du bruger post-menopausal hormonbehandling, skal du spørge din læge til råds, før du tager 
+Viramune. 
+Hvis du tager eller får ordineret rifampicin til behandling af tuberkulose, skal du tale med din læge, før 
+du tager Viramune. 
+Børn og unge
+Viramune tabletter kan tages:
+-
+af unge på 16 år eller ældre
+-
+unge under 16 år, som 
+103
+-
+vejer 50 kg eller mere 
+-
+eller har et legemsoverfladeareal på over 1,25 m².
+Til mindre børn findes en oral suspension (flydende form).
+Brug af andre lægemidler sammen med Viramune
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Fortæl lægen om al anden medicin, du 
+tager, før du begynder at tage Viramune. Begrundelsen er, at lægen muligvis bliver nødt til at 
+kontrollere, at den anden medicin stadig virker, som den skal, og evt. ændre på doseringen. Du bør 
+nøje læse indlægssedlerne for de andre typer hiv-medicin, som du skal tage i kombination med 
+Viramune.
+Det er særligt vigtigt, at du fortæller det til din læge, hvis du tager eller for nylig har taget:
+-
+perikon (Hypericum perforatum, naturlægemiddel til behandling af depression)
+-
+rifampicin (mod tuberkulose)
+-
+rifabutin (mod tuberkulose)
+-
+makrolider som clarithromycin (antibiotika)
+-
+flucanozol (mod svampeinfektion)
+-
+ketaconazol (mod svampeinfektion)
+-
+itraconazol (mod svampeinfektion)
+-
+metadon (substitut for heroin eller andre opiater)
+-
+warfarin (antikoagulant-blodfortyndende)
+-
+hormonale antikonceptionsmidler, f.eks. p-piller
+-
+atazanavir (mod hiv-infektion)
+-
+lopinavir/ritonavir (mod hiv-infektion)
+-
+fosamprenavir (mod hiv-infektion)
+-
+efavirenz (mod hiv-infektion)
+-
+etravirin (mod hiv-infektion)
+-
+rilpivirin (mod hiv-infektion)
+-
+zidovudin (mod hiv-infektion)
+-
+elvitegravir/cobicistat (mod hiv-infektion)
+Din læge vil nøje kontrollere virkningen af Viramune og den nævnte medicin ovenfor, hvis du bliver 
+behandlet med flere slags medicin på samme tid.
+Hvis du er i dialysebehandling, vil din læge muligvis justere dosis af Viramune. Årsagen er, at 
+Viramune i en vis udstrækning kan fjernes fra blodet under dialysen.
+Brug af Viramune sammen med mad og drikke
+Du kan tage Viramune sammen med mad og drikke eller uden mad og drikke.
+Graviditet og amning
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken.
+Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.
+Trafik- og arbejdssikkerhed
+Du kan blive træt, når du tager Viramune, og du skal derfor udvise forsigtighed ved bilkørsel, og når 
+du bruger værktøj eller arbejder med maskiner. Hvis du oplever, at du bliver træt, skal du undgå at 
+foretage dig ting, der kan være farlige, såsom bilkørsel eller brug af værktøj eller maskiner.
+104
+Viramune indeholder lactose og natrium
+Viramune tabletter indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har 
+fortalt dig, at du ikke tåler visse sukkerarter.
+Viramune tabletter indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. de er i det 
+væsentlige natrium-frie.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take viramune"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take viramune"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke tage Viramune som den eneste behandling. Du skal tage det med mindst to andre slags 
+antiretrovirale lægemidler. Din læge vil ordinere de lægemidler, som er bedst for dig.
+Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Dosis:
+Den sædvanlige dosis er 1 tablet på 200 mg hver dag i de første 14 dage af behandlingen 
+(optrapningsfase). Efter 14 dage er dosis normalt 1 tablet på 200 mg 2 gange daglig. 
+Det er meget vigtigt, at du kun tager 1 Viramune tablet om dagen i de første 14 dage af behandlingen 
+(optrapningsfasen). Hvis du får nogen form for udslæt i denne periode, må du ikke øge dosis, men 
+skal kontakte din læge i stedet.
+Det har vist sig, at en 14-dages optrapningsperiode mindsker risikoen for hududslæt.
+Da Viramune altid skal tages sammen med andre hiv-antiretrovirale lægemidler, bør du nøje følge 
+instruktionerne for de andre lægemidler. Du bør også læse indlægssedlerne for disse.
+Viramune kan også fås i flydende form som oral suspension. Denne formulering er særligt egnet:
+-
+hvis du har besvær med at sluge tabletter 
+-
+eller du er et barn, der vejer mindre end 50 kg
+-
+eller du er et barn med et legemsoverfladeareal på mindre end 1,25 m² (din læge kan beregne dit 
+legemsoverfladeareal). 
+Du skal fortsætte behandlingen med Viramune så længe, som din læge har foreskrevet. 
+Som forklaret under "Advarsler og forsigtighedsregler" så vil din læge følge dig ved at få undersøgt 
+leverfunktionen eller undersøge dig for bivirkninger såsom hududslæt. Afhængig af resultaterne 
+beslutter lægen, om du skal fortsætte eller afbryde behandlingen. Beslutningen kan også blive, at du 
+skal genstarte behandlingen med en lavere dosis.
+Viramune tabletter skal sluges. Tabletterne må ikke tygges. Viramune kan tages både sammen med 
+mad og alene.
+Hvis du har taget for meget Viramune 
+Tag ikke mere Viramune, end lægen har foreskrevet, og som er beskrevet i denne indlægsseddel. Der 
+er på nuværende tidspunkt kun få oplysninger om virkningerne af Viramune ved overdosering. 
+Konsulter lægen, hvis du har taget mere Viramune, end du skal.
+Hvis du har glemt at tage Viramune
+Undgå at springe en dosis over. Hvis du inden for 8 timer opdager, at du har glemt en dosis, så tag den 
+glemte dosis straks. Hvis der er gået mere end 8 timer, skal du springe den glemte dosis over og tage 
+næste dosis til sædvanlig tid. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+105
+Hvis du holder op med at tage Viramune
+Når man tager alle doser på det rigtige tidspunkt, 
+-
+så øger det i høj grad effekten af kombinationsbehandlingen
+-
+mindsker det risikoen for at hiv-infektionen bliver resistent over for den antiretrovirale 
+behandling.
+Det er vigtigt, at du fortsætter med at tage Viramune-tabletter korrekt som anført ovenfor, medmindre 
+din læge anbefaler dig at stoppe.
+Hvis du afbryder behandlingen med Viramune i mere end 7 dage, vil din læge råde dig til at starte igen 
+med en 14 dages "optrapningsfase" (som beskrevet ovenfor), før du igen går over til behandling 2 
+gange daglig.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om..</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede koncentrationer af lipider og 
+glukose i blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for 
+lipidernes vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse 
+forandringer.
+Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Som nævnt i "Advarsler og forsigtighedsregler" så er de mest alvorlige bivirkninger ved 
+Viramune alvorlige og livstruende hudreaktioner og alvorlige leverskader. Disse reaktioner 
+opstår primært i de første 18 uger af behandlingen med Viramune. Det er derfor en vigtig 
+periode, hvor det kræves, at du følges nøje af din læge.
+Hvis du på noget tidspunkt observerer nogen form for hududslæt, skal du omgående informere din 
+læge.
+Når der kommer et hududslæt, er det normalt mildt til moderat. Hos nogle patienter kan et hududslæt, 
+der viser sig som blærer på huden, være alvorligt og livstruende (Stevens-Johnsons syndrom og 
+toksisk epidermal nekrolyse) og dødsfald har fundet sted. De fleste tilfælde af både alvorligt 
+hududslæt og mildt/moderat hududslæt opstår i de første 6 uger af behandlingen.
+Hvis du får udslæt og du føler dig syg, så skal du stoppe behandlingen og konsultere din læge 
+omgående.
+Overfølsomhedsreaktioner (allergiske) kan forekomme. Sådanne reaktioner kan opstå i form af 
+anafylaksi (en alvorlig form for allergisk reaktion) med symptomer som:
+-
+udslæt
+-
+hævelse i ansigtet
+-
+vejrtrækningsbesvær (bronkospasme – astmalignende gener)
+-
+anafylaktisk shock
+Overfølsomhedsreaktioner kan også forekomme som udslæt med andre bivirkninger såsom:
+-
+feber
+-
+blærer på huden
+-
+sår i munden
+-
+øjenbetændelse
+-
+hævelse i ansigtet
+-
+generel hævelse
+-
+åndenød
+-
+muskel- eller ledsmerter
+-
+nedsat antal hvide blodlegemer (granulocytopeni)
+106
+-
+generel følelse af at være syg
+-
+alvorlige problemer med lever eller nyrer (lever- eller nyresvigt). 
+Kontakt straks lægen hvis du får udslæt og en af de nævnte overfølsomhedsreaktionerne (allergiske 
+reaktioner). Sådanne reaktioner kan være livstruende.
+Unormal leverfunktion har været rapporteret ved behandling med Viramune. Dette inkluderer tilfælde 
+af leverbetændelse (hepatitis), som kan opstå pludseligt og kraftigt (fulminant leverbetændelse) eller 
+leversvigt, som begge kan være dødelige.
+Informer din læge, hvis du oplever nogen af de følgende kliniske symptomer på leverskade
+-
+appetitløshed
+-
+kvalme
+-
+opkastning
+-
+huden bliver gul (gulsot)
+-
+mavesmerter.
+Følgende bivirkninger er set hos patienter, der er behandlet med Viramune:
+Meget almindelig (kan forekomme hos mere end 1 ud af 10 patienter):
+-
+udslæt
+Almindelig (kan forekomme hos op til 1 ud af 10 patienter:
+-
+nedsat antal hvide blodlegemer (granulocytopeni)
+-
+allergiske reaktioner (overfølsomhed)
+-
+hovedpine
+-
+kvalme
+-
+opkastning
+-
+mavesmerter
+-
+løs afføring (diarré)
+-
+leverbetændelse (hepatitis)
+-
+udmattelse
+-
+feber
+-
+leverfunktionsprøver uden for normalområdet
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 patienter):
+-
+allergisk reaktion karakteriseret ved udslæt, hævelse af ansigt, åndenød (sammensnøring af 
+luftvejene) eller anafylaktisk shock
+-
+fald i antallet af røde blodlegemer (anæmi)
+-
+gulsot (huden bliver gul)
+-
+alvorlige og livstruende hudreaktioner (Stevens-Johnsons syndrom/toksisk epidermal nekrolyse)
+-
+nældefeber
+-
+væskedannelse under huden (angioødem)
+-
+ledsmerter 
+-
+muskelsmerter (myalgi)
+-
+nedsat phosphat i blodet
+-
+forhøjet blodtryk
+Sjælden (kan forekomme hos op til 1 ud af 1.000 patienter):
+-
+pludselig og alvorlig leverbetændelse (fulminant leverbetændelse)
+-
+lægemiddelforårsaget udslæt (med eosinofili og systemiske symptomer)
+Følgende tilfælde har også været rapporteret, når Viramune er blevet taget i kombination med andre 
+retrovirale midler: 
+-
+fald i antal røde blodlegemer eller i blodplader
+-
+betændelse i bugspytkirtlen
+-
+nedsat eller abnorm følsomhed i huden 
+107
+Disse tilfælde er normalt forbundet med andre antiretrovirale midler og må forventes at opstå, når 
+Viramune tages i kombination med andre midler; det er dog usandsynligt, at disse tilfælde opstår på 
+grund af behandling med Viramune.
+Hos børn og unge kan endvidere ses følgende bivirkninger
+Den reduktion i antallet af hvide blodlegemer (granulocytopeni), der kan forekomme, ses oftere hos 
+børn. En reduktion af røde blodlegemer (anæmi), der kan være relateret til behandling med nevirapin, 
+forekommer også hyppigere hos børn. Som ved symptomer på udslæt, bør du her informere din læge 
+om enhver bivirkning.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store viramune"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store viramune"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og på blisteren efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Viramune indeholder:</h2>
+<h2>Aktivt stof: Nevirapin</h2>
+<p>Øvrige indholdsstoffer:</p>
+<ul>
+<li>mikrokrystallinsk cellulose,</li>
+<li>lactose (som monohydrat),</li>
+<li>povidon,</li>
+<li>natriumstivelsesglycolat,</li>
+<li>kolloid silica og</li>
+<li>magnesiumstearat.
+Udseende og pakningsstørrelser
+Hvide, ovale, bikonvekse tabletter. Den ene side er mærket "54 193", med en markeringslinje mellem 
+"54" og "193". Den anden side er mærket med firmalogo. Formålet med markeringslinjen er ikke at 
+kunne brække tabletten over. 
+Viramune tabletter er i blisterpakninger med 14, 60 eller 120 tabletter i hver æske. Ikke alle 
+pakningsstørrelser er nødvendigvis markedsført.
+Viramune kan også fås som oral suspension
+108
+Indehaver af markedsføringstilladelsen
+Boehringer Ingelheim International GmbH
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Fremstiller
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+eller
+Boehringer Ingelheim Hellas Single Member S.A.
+5th km Paiania – Markopoulo
+Koropi Attiki, 19441
+Grækenland
+eller
+Boehringer Ingelheim France
+100-104 avenue de France
+75013 Paris
+Frankrig
+109
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко КГ -
+клон България
+Тел: +359 2 958 79 98
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Lietuvos filialas
+Tel.: +370 5 2595942
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf.: +45 39 15 88 88
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Magyarországi Fióktelepe
+Tel.: +36 1 299 8900
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +35 31 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel.: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda 
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucuresti
+Tel: +40 21 302 2800
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+Ísland
+Vistor hf.
+Tel: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+organizačná zložka
+Tel: +421 2 5810 1211
+110
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co. KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+111
+Indlægsseddel: information til brugeren
+Viramune 50 mg/5 ml oral suspension
+nevirapin
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-72e5f5398f762b4570a837b92d9db036
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for viramune Package Leaflet for language en"
+Description: "ePI document Bundle for viramune Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-72e5f5398f762b4570a837b92d9db036"
+* entry[0].resource = composition-en-72e5f5398f762b4570a837b92d9db036
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp72e5f5398f762b4570a837b92d9db036"
+* entry[=].resource = mp72e5f5398f762b4570a837b92d9db036
+                            
+                    
+Instance: bundlepackageleaflet-da-72e5f5398f762b4570a837b92d9db036
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for viramune Package Leaflet for language da"
+Description: "ePI document Bundle for viramune Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-72e5f5398f762b4570a837b92d9db036"
+* entry[0].resource = composition-da-72e5f5398f762b4570a837b92d9db036
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp72e5f5398f762b4570a837b92d9db036"
+* entry[=].resource = mp72e5f5398f762b4570a837b92d9db036
+                            
+                    
+
+
+
+Instance: mp72e5f5398f762b4570a837b92d9db036
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Viramune 200 mg tablets"
-Description: "Viramune 200 mg tablets"
+Title: "Medicinal Product viramune"
+Description: "viramune"
 Usage: #inline
 
  
@@ -645,7 +1392,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Viramune 200 mg tablets"
+  * productName = "viramune"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -672,29 +1419,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-72e5f5398f762b4570a837b92d9db036
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for viramune Package Leaflet for language en"
-Description: "ePI document Bundle for viramune Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 72e5f5398f762b4570a837b92d9db036ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/97/055/001 (60 tablets)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "viramune"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-72e5f5398f762b4570a837b92d9db036"
-* entry[0].resource = composition-en-72e5f5398f762b4570a837b92d9db036
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc77be511e99f9e2be98c1835212a6791"
-* entry[=].resource = mpc77be511e99f9e2be98c1835212a6791
-                            
-                      
+* title = "List of all ePIs associated with viramune"
+
+* subject = Reference(mpc77be511e99f9e2be98c1835212a6791)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#viramune "viramune"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-72e5f5398f762b4570a837b92d9db036) // viramune en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-72e5f5398f762b4570a837b92d9db036) // viramune da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-72e5f5398f762b4570a837b92d9db036
+InstanceOf: List
+
+* insert 72e5f5398f762b4570a837b92d9db036ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b685aeea2bdf7a0921a22706f03b5a68
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontruzant Package Leaflet"
@@ -494,12 +497,874 @@ Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 
 
 
+Instance: composition-da-b685aeea2bdf7a0921a22706f03b5a68
+InstanceOf: CompositionUvEpi
+Title: "Composition for ontruzant Package Leaflet"
+Description:  "Composition for ontruzant Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp791906ed804045b03ebf7b0ab008d923)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp791906ed804045b03ebf7b0ab008d923
+* title = "TEST PURPOSES ONLY - ontruzant"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du får Ontruzant </li>
+<li>Sådan får du Ontruzant </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ontruzant is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ontruzant is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ontruzant indeholder det aktive stof trastuzumab, som er et monoklonalt antistof. Monoklonale 
+antistoffer binder til specifikke proteiner eller antigener. Trastuzumab er designet til at binde selektivt 
+til et antigen kaldet human epidermal vækstfaktorreceptor 2 (HER2). HER2 findes i store mængder på 
+overfladen af nogle kræftceller, hvor det stimulerer deres vækst. Når Ontruzant bindes til HER2 
+stopper det væksten af sådanne celler, hvilket resulterer i, at de dør. </p>
+<p>Din læge kan ordinere Ontruzant til behandling af bryst- og mavekræft, hvis: </p>
+<ul>
+<li>
+<p>Du har tidlig brystkræft med høje koncentrationer af et protein, som kaldes HER2. * Du har metastatisk brystkræft (brystkræft, som har spredt sig ud over den oprindelige tumor) med 
+høje koncentrationer af HER2. Ontruzant kan ordineres i kombination med 
+kemoterapilægemidlerne paclitaxel og docetaxel som første behandling for metastatisk brystkræft, 
+eller det kan ordineres alene, hvis andre behandlinger har vist sig ikke at virke. Det anvendes også 
+i kombination med medicin, som kaldes aromatasehæmmere, til patienter med høje 
+koncentrationer af HER2 samt hormonreceptor-positiv metastatisk brystkræft (brystkræft der er 
+følsom over for tilstedeværelsen af kvindelige kønshormoner).  </p>
+</li>
+<li>
+<p>Du har metastatisk mavekræft med høje koncentrationer af HER2, når det er i kombination med 
+de andre kræftlægemidler, capecitabin eller 5-fluoruracil og cisplatin. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ontruzant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ontruzant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ontruzant </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for trastuzumab, murine (muse) proteiner eller et af de øvrige 
+indholdsstoffer i Ontruzant (angivet i punkt 6). </p>
+</li>
+<li>
+<p>hvis du har svære problemer med at trække vejret i hvile på grund af din kræft, eller hvis du har 
+behov for behandling med ilt. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Din læge vil nøje overvåge din behandling. </p>
+<p>Kontrol af hjertet 
+Behandling med Ontruzant (alene eller sammen med et taxan) kan påvirke hjertet, især hvis du 
+tidligere har fået et antracyklin (taxaner og antracykliner er to andre slags lægemidler, der anvendes til 
+at behandle kræft).<br />
+Virkningerne kan være moderate til svære og kan føre til dødsfald. Derfor vil din hjertefunktion blive 
+kontrolleret før, under (hver 3. måned) og efter (op til 2 til 5 år) behandlingen med Ontruzant. Hvis du 
+udvikler tegn på hjertesvigt (dårlig pumpning af blod fra hjertet), kan det være, at dit hjerte skal 
+kontrolleres hyppigere (hver 6. til 8. uge), du skal have behandling for hjertesvigt, eller du må stoppe 
+behandlingen med Ontruzant. </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får Ontruzant: </p>
+<ul>
+<li>
+<p>hvis du har haft hjertesvigt, kranspulsåresygdom, hjerteklapsygdom (hjertemislyd), forhøjet 
+blodtryk, eller hvis du tager eller har taget medicin mod forhøjet blodtryk. </p>
+</li>
+<li>
+<p>hvis du nogensinde har fået eller på nuværende tidspunkt får medicin kaldet doxorubicin eller 
+epirubicin (medicin til at behandle kræft). Disse lægemidler (og ethvert andet antracyklin) kan 
+skade hjertemusklen og øge risikoen for hjerteproblemer sammen med Ontruzant. </p>
+</li>
+<li>
+<p>hvis du lider af åndenød, særligt hvis du aktuelt får et taxan. Ontruzant kan forårsage 
+vejrtrækningsproblemer, specielt når det gives første gang. Dette kan blive alvorligt, hvis du 
+allerede har åndenød. I meget sjældne tilfælde er det sket, at patienter, som havde svære 
+vejrtrækningsproblemer inden behandlingsstart, døde, da de fik Ontruzant. </p>
+</li>
+<li>
+<p>hvis du nogensinde har fået andre kræftbehandlinger. </p>
+</li>
+</ul>
+<p>Hvis du får Ontruzant sammen med andre lægemidler til at behandle kræft, såsom paclitaxel, docetaxel, en 
+aromatasehæmmer, capecitabin, 5-fluoruracil eller cisplatin, skal du også læse indlægssedlerne for disse 
+lægemidler. </p>
+<p>Børn og unge 
+Ontruzant bør ikke anvendes til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Ontruzant 
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du tager anden medicin, for nylig 
+har  for nylig har taget anden medicin eller planlægger at tage anden medicin. </p>
+<p>Det kan tage op til 7 måneder at udskille Ontruzant fra kroppen. Du bør derfor fortælle din læge, 
+apotekspersonalet eller sygeplejersken, at du har fået Ontruzant, hvis du begynder at anvende et hvilket 
+som helst nyt lægemiddel indenfor 7 måneder efter ophør med Ontruzant-behandlingen. </p>
+<p>Graviditet  </p>
+<ul>
+<li>
+<p>Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge, apotekspersonalet eller sygeplejersken til råds, før du tager dette lægemiddel. </p>
+</li>
+<li>
+<p>Du skal bruge sikker prævention under behandlingen med Ontruzant og i mindst 7 måneder efter, 
+at behandlingen er stoppet. </p>
+</li>
+<li>
+<p>Lægen vil rådgive dig om risici og fordele ved at tage Ontruzant under graviditet. I sjældne 
+tilfælde er der hos gravide kvinder, der får Ontruzant, blevet observeret en nedsat mængde 
+fostervand (den væske, der omgiver barnet i livmoderen). Denne tilstand kan være skadelig for 
+fosteret og er blevet forbundet med ufuldstændig udvikling af lungerne, som resulterede i 
+fosterdød. </p>
+</li>
+</ul>
+<p>Amning 
+Du må ikke amme dit barn, mens du behandles med Ontruzant og i 7 måneder efter, du har fået den 
+sidste dosis, da Ontruzant kan overføres til dit barn gennem mælken. </p>
+<p>Spørg lægen eller apotekspersonalet til råds, før du tager nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Ontruzant kan påvirke din evne til at køre bil, motorcykel, cykle eller betjene maskiner. Hvis du under 
+behandlingen får symptomer såsom svimmelhed, søvnighed, kulderystelser eller feber, må du ikke 
+køre bil, motorcykel, cykle eller betjene maskiner, før symptomerne er forsvundet. </p>
+<p>Natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ontruzant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ontruzant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inden din behandling påbegyndes, vil lægen bestemme mængden af HER2 i din tumor. Kun patienter 
+med en stor mængde HER2 vil blive behandlet med Ontruzant. Ontruzant må kun gives af en læge 
+eller sygeplejerske. Din læge vil ordinere en dosis og en behandlingsplan, som passer til dig. Dosen af 
+Ontruzant afhænger af din legemsvægt. </p>
+<p>Ontruzant gives som en infusion i en vene (intravenøs infusion, "drop"). Denne intravenøse 
+formulering er ikke til subkutan anvendelse (indsprøjtning under huden) og må kun gives som 
+intravenøs infusion. </p>
+<p>Den første dosis af din behandling gives over 90 minutter, og du vil blive observeret af en læge eller 
+sundhedspersonale, mens den indgives, i tilfælde af at du får bivirkninger (se punkt 2 
+under "Advarsler og forsigtighedsregler"). Hvis den første dosis tåles godt, kan de efterfølgende 
+doser gives over 30 minutter. Antallet af infusioner, som du får, vil afhænge af, hvordan du reagerer 
+på behandlingen. Din læge vil drøfte dette med dig.  </p>
+<p>For at undgå fejlmedicinering er det også vigtigt at kontrollere hætteglassets etiket for at sikre, at det 
+lægemiddel, som klargøres og gives, er Ontruzant (trastuzumab) og ikke et andet lægemiddel, der 
+indeholder trastuzumab (eksempelvis trastuzumabemtansin eller trastuzumab deruxtecan). </p>
+<p>Ontruzant gives hver 3. uge ved tidlig brystkræft, metastatisk brystkræft og metastatisk mavekræft. 
+Ontruzant kan også gives én gang om ugen ved metastatisk brystkræft. </p>
+<p>Hvis du holder op med at bruge Ontruzant 
+Du må ikke holde op med at bruge dette lægemiddel uden at tale med din læge først. Du skal tage alle 
+doser på det rigtige tidspunkt hver uge eller hver tredje uge (afhængigt af din doseringsplan). Dette 
+sikrer, at lægemidlet virker bedst muligt. </p>
+<p>Det kan tage op til 7 måneder at udskille Ontruzant fra kroppen. Derfor kan din læge beslutte at 
+fortsætte med at kontrollere din hjertefunktion, efter din behandling er stoppet. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Nogle af bivirkningerne kan være alvorlige og føre til hospitalsindlæggelse. </p>
+<p>Under en Ontruzant-infusion kan der forekomme kulderystelser, feber og andre influenzalignende 
+symptomer. Disse symptomer er meget almindelige (kan forekomme hos mere end 1 ud af personer). Andre symptomer i forbindelse med infusionen er: Utilpashedsfølelse (kvalme), opkastning, 
+smerter, forøget muskelspænding og rysten, hovedpine, svimmelhed, vejrtrækningsbesvær, forhøjet 
+eller lavt blodtryk, forstyrrelser i hjerterytmen (hjertebanken, hjerteflagren eller uregelmæssig 
+hjerterytme), hævelse af ansigt og læber, udslæt og træthedsfølelse. Nogle af disse symptomer kan 
+være alvorlige, og nogle patienter er døde (se punkt 2 under "Advarsler og forsigtighedsregler"). </p>
+<p>Disse reaktioner indtræffer hovedsageligt i forbindelse med den første intravenøse infusion ("drop" i 
+din vene) og i løbet af de første få timer, efter infusionen er påbegyndt. De er for det meste 
+forbigående. Du vil blive observeret af en læge eller sundhedspersonale under infusionen og i mindst 
+6 timer efter påbegyndelse af den første infusion og i 2 timer efter påbegyndelse af de efterfølgende 
+infusioner. Hvis du får en reaktion, vil de nedsætte infusionshastigheden eller stoppe infusionen og 
+muligvis give dig behandling, der modvirker bivirkningerne. Infusionen kan fortsættes, når 
+symptomerne er bedret. </p>
+<p>Lejlighedsvis kan der indtrække symptomer senere end 6 timer, efter infusionen er påbegyndt. Hvis 
+det sker for dig, skal du øjeblikkeligt kontakte lægen. Nogle gange kan symptomerne mindskes og 
+senere igen blive værre.  </p>
+<p>Alvorlige bivirkninger  </p>
+<p>Andre bivirkninger kan indtræffe på et hvilket som helst tidspunkt under behandlingen med Ontruzant 
+og ikke kun i forbindelse med en infusion. Fortæl øjeblikkeligt din læge eller sygeplejerske, hvis du 
+oplever en af følgende bivirkninger: </p>
+<ul>
+<li>Hjerteproblemer kan nogle gange forekomme under behandlingen og lejlighedsvis efter, at 
+behandlingen er stoppet, og kan være alvorlige. De inkluderer svækkelse af hjertemusklen, der 
+muligvis kan føre til hjertesvigt, betændelse  i hinden omkring hjertet og forstyrrelser i 
+hjerterytmen. Dette kan medføre symptomer som åndenød (herunder åndenød om natten), hoste, 
+væskeretention (hævelser) i ben eller arme, og hjertebanken (hjerteflagren eller uregelmæssig 
+hjerterytme) (se pkt. 2 "Kontrol af hjertet"). </li>
+</ul>
+<p>Lægen vil kontrollere dit hjerte regelmæssigt under og efter behandlingen, men du skal straks fortælle 
+lægen, hvis du bemærker et eller flere af ovenstående symptomer. </p>
+<ul>
+<li>Tumorlyse syndrom (en gruppe af metaboliske komplikationer, der sker efter behandling mod 
+kræft, som er karakteriseret ved høje blodværdier af kalium og fosfat og lave blodværdier af 
+kalcium). Symptomerne kan være nyreproblemer (svaghed, åndenød, træthed og forvirring), 
+hjerteproblemer (hjerteflagren eller en hurtigere eller langsommere hjerterytme), krampeanfald, 
+opkast eller diarré, og prikkende fornemmelse i munden, på hænderne eller fødderne.  </li>
+</ul>
+<p>Hvis du får et eller flere af ovenstående symptomer, når behandlingen med Ontruzant er stoppet, skal du 
+kontakte din læge og fortælle, at du tidligere er blevet behandlet med Ontruzant. </p>
+<p>Følgende liste over bivirkninger kan forekomme på et hvilket som helst tidspunkt under behandling 
+med Ontruzant, ikke kun i forbindelse med en infusion. </p>
+<p>Meget almindelige bivirkninger ved Ontruzant (kan forekomme hos mere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>infektioner </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>halsbrand (dyspepsi) </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>hududslæt </p>
+</li>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>ledsmerter </p>
+</li>
+<li>
+<p>lavt antal røde blodceller og hvide blodceller (som hjælper med at bekæmpe infektion) nogle 
+gange med feber  </p>
+</li>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>øjenbetændelse </p>
+</li>
+<li>
+<p>øjnene løber i vand </p>
+</li>
+<li>
+<p>næseblod </p>
+</li>
+<li>
+<p>løbende næse </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>rysten </p>
+</li>
+<li>
+<p>hedeture </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>negleproblemer </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>søvnløshed </p>
+</li>
+<li>
+<p>smagsforstyrrelser </p>
+</li>
+<li>
+<p>lavt antal blodplader </p>
+</li>
+<li>
+<p>blå mærker </p>
+</li>
+<li>
+<p>følelsesløshed eller stikken og prikken i fingre og tæer, som i nogle tilfælde kan brede sig til 
+resten af lemmerne </p>
+</li>
+<li>
+<p>rødme, hævelse eller sår i munden og/eller halsen </p>
+</li>
+<li>
+<p>smerter, hævelse, rødme eller stikken og prikken i hænder og/eller fødder </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger ved Ontruzant (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>allergiske reaktioner </p>
+</li>
+<li>
+<p>halsinfektioner </p>
+</li>
+<li>
+<p>infektioner i blæren og huden </p>
+</li>
+<li>
+<p>betændelse i brystet </p>
+</li>
+<li>
+<p>betændelse i leveren </p>
+</li>
+<li>
+<p>nyreproblemer </p>
+</li>
+<li>
+<p>øget muskeltonus eller muskelspænding  </p>
+</li>
+</ul>
+<p>(hypertoni) </p>
+<ul>
+<li>
+<p>smerter i arme og/eller ben </p>
+</li>
+<li>
+<p>kløende udslæt </p>
+</li>
+<li>
+<p>søvnighed (døsighed) </p>
+</li>
+<li>
+<p>hæmorider </p>
+</li>
+<li>
+<p>kløen </p>
+</li>
+<li>
+<p>krampe i benene </p>
+</li>
+<li>
+<p>mund- og hudtørhed </p>
+</li>
+<li>
+<p>tørre øjne </p>
+</li>
+<li>
+<p>svedtendens </p>
+</li>
+<li>
+<p>svagheds- og utilpashedsfølelse </p>
+</li>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>depression </p>
+</li>
+<li>
+<p>astma </p>
+</li>
+<li>
+<p>lungeinfektion </p>
+</li>
+<li>
+<p>lungeproblemer </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>nakkesmerter </p>
+</li>
+<li>
+<p>knoglesmerter </p>
+</li>
+<li>
+<p>akne </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger ved Ontruzant (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>døvhed </p>
+</li>
+<li>
+<p>ujævnt udslæt </p>
+</li>
+<li>
+<p>hiven efter vejret </p>
+</li>
+<li>
+<p>betændelse eller arvæv i lungerne </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger ved Ontruzant (kan forekomme hos op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>
+<p>gulsot (gulfarvning af hud eller øjne) </p>
+</li>
+<li>
+<p>anafylaktisk reaktion </p>
+</li>
+</ul>
+<p>Andre bivirkninger, som er blevet rapporteret ved brug af Ontruzant (hyppighed kan ikke 
+estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>unormal eller reduceret blodstørkning </p>
+</li>
+<li>
+<p>høje kaliumkoncentrationer </p>
+</li>
+<li>
+<p>hævelse eller blødning bagest i øjenene </p>
+</li>
+<li>
+<p>shock </p>
+</li>
+<li>
+<p>unormal hjerterytme </p>
+</li>
+<li>
+<p>åndedrætsbesvær </p>
+</li>
+<li>
+<p>åndedrætssvigt </p>
+</li>
+<li>
+<p>akut væskeansamling i lungerne </p>
+</li>
+<li>
+<p>akut forsnævring af luftvejene </p>
+</li>
+<li>
+<p>unormalt lave iltkoncentrationer i blodet </p>
+</li>
+<li>
+<p>problemer med at trække vejret i liggende stilling </p>
+</li>
+<li>
+<p>leverskade </p>
+</li>
+<li>
+<p>hævelse af ansigt, læber og hals </p>
+</li>
+<li>
+<p>nyresvigt 
+Under graviditet: </p>
+</li>
+<li>
+<p>unormalt lidt fostervand omkring barnet i livmoderen </p>
+</li>
+<li>
+<p>utilstrækkelig udvikling af fostrets lunger i livmoderen </p>
+</li>
+<li>
+<p>unormal udvikling af fostrets nyrer i livmoderen </p>
+</li>
+</ul>
+<p>Nogle af de bivirkninger, du oplever, kan skyldes din underliggende kræft. Hvis du får Ontruzant i 
+kombination med kemoterapi, kan nogle af bivirkningerne også skyldes kemoterapien. </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ontruzant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ontruzant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ontruzant vil blive opbevaret af sundhedspersoner på hospitalet eller i klinikken.  </p>
+<ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på etiketten på 
+hætteglasset efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Det uåbnede hætteglas skal opbevares i køleskab (2 °C-8 °C). </p>
+</li>
+<li>
+<p>Den rekonstituerede opløsning må ikke nedfryses. </p>
+</li>
+<li>
+<p>Infusionsopløsninger skal anvendes umiddelbart efter fortynding. Hvis produktet ikke anvendes 
+med det samme, er opbevaringstiderne og opbevaringsbetingelserne inden ibrugtagen brugerens 
+ansvar og vil normalt ikke overstige 24 timer ved 2 °C-8 °C. </p>
+</li>
+<li>
+<p>Brug ikke Ontruzant, hvis du bemærker partikler eller misfarvning inden brug. </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ontruzant indeholder  </p>
+<ul>
+<li>
+<p>Aktivt stof: trastuzumab. Hvert hætteglas indeholder enten:</p>
+</li>
+<li>
+<p>150 mg trastuzumab, som skal opløses i 7,2 ml vand til injektionsvæsker, eller </p>
+</li>
+<li>
+<p>420 mg trastuzumab, som skal opløses i 20 ml vand til injektionsvæsker. </p>
+</li>
+<li>
+<p>Den deraf følgende opløsning indeholder ca. 21 mg trastuzumab. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: L-histidinhydrochloridmonohydrat, L-histidin, α,α-trehalosedihydrat, 
+polysorbat 20. Udseende og pakningsstørrelser </p>
+</li>
+</ul>
+<p>Ontruzant er et pulver til koncentrat til intravenøs infusionsvæske, opløsning, som bliver leveret i et 
+hætteglas af glas med en gummiprop, der indeholder enten 150 mg eller 420 mg trastuzumab. Pulveret 
+består af små hvide til svagt gule kugler. Hver pakning indeholder 1 hætteglas med pulver. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+Holland </p>
+<p>Fremstiller </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Organon Belgium<br />
+Tel/Tél:  0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com 
+Lietuva 
+Organon Pharma B.V. Lithuania atstovybė 
+Tel.: + 370 52041dpoc.lithuania@organon.com  </p>
+<p>България 
+Органон (И.А.) Б.В. - клон България 
+Тел.: +359 2 806 3dpoc.bulgaria@organon.com 
+Luxembourg/Luxemburg 
+Organon Belgium<br />
+Tel/Tél:  0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Česká republika 
+Organon Czech Republic s.r.o. 
+Tel.: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarország 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS<br />
+Tlf: + 45 44 84 68 info.denmark@organon.com 
+Malta 
+Organon Pharma B.V., Cyprus branch 
+Τel.: +356 22778dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com 
+Nederland 
+N.V. Organon 
+Tel.: 00800 66550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com 
+Ελλάδα 
+BIANEΞ Α.Ε 
+Τηλ: +30 210 80091 Mailbox@vianex.gr  </p>
+<p>Österreich 
+Organon Austria GmbH 
+Tel: +43 (0) 1  263 28 dpoc.austria@organon.com 
+España 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 Polska 
+Organon Polska Sp. z o.o.<br />
+Tel: +48 22 105 50 01<br />
+organonpolska@organon.com   </p>
+<p>France 
+Organon France<br />
+Tél: + 33 (0) 1 57 77 32 Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com  </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: + 385 1 638 4dpoc.croatia@organon.com </p>
+<p>România 
+Organon Biosciences S.R.L. 
+Tel: + 40 21 527 29 90<br />
+dpoc.romania@organon.com<br />
+Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podružnica Ljubljana 
+Tel: + 386 1 300 10 dpoc.slovenia@organon.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7000<br />
+Slovenská republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com  </p>
+<p>Italia 
+Organon Italia S.r.l. 
+Tel: +39 06 90259dpoc.italy@organon.com </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Κύπρος 
+Organon Pharma B.V., Cyprus branch 
+Τηλ.: +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com<br />
+Latvija 
+Ārvalsts komersanta “Organon Pharma B.V." 
+pārstāvniecība 
+Tel: + 371 66968dpoc.latvia@organon.com  </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited 
+Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Ontruzant leveres i sterile, konserveringsfrie, ikke-pyrogene hætteglas til engangsbrug.  </p>
+<p>For at undgå fejlmedicinering er det vigtigt at kontrollere hætteglassets etiket for at sikre, at det 
+præparat, som klargøres og gives, er Ontruzant (trastuzumab) og ikke et andet lægemiddel, der 
+indeholder trastuzumab (eksempelvis trastuzumabemtansin eller trastuzumab deruxtecan). </p>
+<p>Opbevar altid dette lægemiddel i den lukkede originalpakning i køleskab ved 2 °C-8 °C.  </p>
+<p>Der skal anvendes passende aseptisk teknik til rekonstitution og fortynding. Der skal udvises 
+forsigtighed for at sikre steriliteten af den klargjorte opløsning. Der skal anvendes aseptisk teknik, da 
+lægemidlet ikke indeholder antimikrobielt konserveringsmiddel eller bakteriostatiske midler. </p>
+<p>Et hætteglas med Ontruzant aseptisk rekonstitueret med sterilt vand til injektionsvæsker (følger ikke 
+med) er efter rekonstitution kemisk og fysisk stabilt i 7 dage ved 2 °C-8 °C, og det må ikke nedfryses. </p>
+<p>Efter aseptisk fortynding i polyvinylchlorid-, polyethylen- eller polypropylenposer, som indeholder 
+natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, er fysisk og kemisk stabilitet af Ontruzant 
+blevet påvist i op til 30 dage ved 2 °C - 8 °C og 24 timer ved temperaturer, som ikke overstiger 30 °C. </p>
+<p>Set fra et mikrobiologisk synspunkt skal den rekonstituerede opløsning og Ontruzant-
+infusionsopløsningen anvendes med det samme. Hvis produktet ikke anvendes med det samme, er 
+opbevaringstiderne og opbevaringsbetingelserne inden ibrugtagen brugerens ansvar og vil normalt ikke 
+overstige 24 timer ved 2 °C - 8 °C, medmindre rekonstituering og fortynding har fundet sted under 
+kontrollerede og validerede aseptiske betingelser.  </p>
+<p>Aseptisk klargøring, håndtering og opbevaring </p>
+<p>Aseptisk håndtering skal sikres ved klargøring af infusionen. Klargøring skal:  </p>
+<ul>
+<li>
+<p>Udføres under aseptiske betingelser af uddannet personale i henhold til god klinisk praksis, især i 
+forhold til aseptisk klargøring af parenterale produkter.  </p>
+</li>
+<li>
+<p>Udføres i en LAF-bænk eller i et biologisk sikkerhedsskab under anvendelse af standard 
+forholdsregler til sikker håndtering af intravenøse midler.  </p>
+</li>
+<li>
+<p>Efterfølges af passende opbevaring af den klargjorte intravenøse infusionsvæske, opløsning, for at 
+sikre vedligeholdelse af de aseptiske betingelser. </p>
+</li>
+</ul>
+<p>Ontruzant 150 mg pulver til koncentrat til infusionsvæske, opløsning </p>
+<p>Indeholdet af hvert 150mg Ontruzant hætteglas rekonstitueres med 7,2 ml vand til injektionsvæsker 
+(følger ikke med). Brug af andre rekonstitutionsopløsninger skal undgås. Resultatet er 7,4 ml opløsning 
+til enkeltdosisbrug, som indeholder ca. 21 mg/ml trastuzumab. Et volumenoverskud på 4 % sikrer, at 
+den angivne dosis på 150 mg kan trækkes op af hvert hætteglas. </p>
+<p>Ontruzant 420 mg pulver til koncentrat til infusionsvæske, opløsning </p>
+<p>Indeholdet af hvert 420mg Ontruzant hætteglas rekonstitueres med 20 ml vand til injektionsvæsker 
+(følger ikke med). Brug af andre rekonstitutionsopløsninger skal undgås. Resultatet er 21 ml opløsning 
+til enkeltdosisbrug, som indeholder ca. 21 mg/ml trastuzumab. Et volumenoverskud på 5 % sikrer, at 
+den angivne dosis på 420 mg kan trækkes op af hvert hætteglas. </p>
+<p>Ontruzant hætteglas </p>
+<p>Mængde sterilt vand til 
+injektionsvæsker </p>
+<p>Endelig koncentration 
+150 mg hætteglas 
++ 
+7,2 ml 
+= 
+21 mg/ml 
+420 mg hætteglas 
++ 
+20 ml 
+= 
+21 mg/ml </p>
+<p>Instruktioner for aseptisk rekonstitution </p>
+<p>Ontruzant skal behandles med forsigtighed under rekonstitution. Stærk skumdannelse under 
+rekonstitution eller omrysten af det rekonstituerede Ontruzant kan medføre problemer med hensyn til 
+den mængde Ontruzant, der kan trækkes op af hætteglasset. </p>
+<p> 
+Anvend en steril sprøjte og injicer langsomt den beregnede mængde (som angivet ovenfor) vand 
+til injektionsvæsker i hætteglasset, som indeholder det frysetørrede Ontruzant, idet strålen rettes 
+mod det frysetørrede kompakte pulver. 
+ 
+Hvirvl forsigtigt indholdet i hætteglasset rundt for at understøtte rekonstitueringen. 
+HÆTTEGLASSET MÅ IKKE OMRYSTES! </p>
+<p>Let skumdannelse af præparatet ved rekonstitution er ikke ualmindelig. Lad hætteglasset henstå i ca. 
+5 minutter. Det rekonstituerede Ontruzant resulterer i en farveløs til svagt gul, klar opløsning, som skal 
+være i det væsentlige fri for synlige partikler. </p>
+<p>Instruktioner for aseptisk fortynding af den rekonstituerede opløsning </p>
+<p>Beregn det nødvendige volumen af opløsningen: </p>
+<ul>
+<li>baseret på en støddosis på 4 mg trastuzumab/kg legemsvægt eller en efterfølgende ugentlig dosis 
+på 2 mg trastuzumab/kg legemsvægt: </li>
+</ul>
+<p>Volumen (ml) = 
+Legemsvægt (kg) x dosis (4 mg/kg til støddosis eller 2 mg/kg til vedligeholdelse) 
+21 (mg/ml, koncentration of rekonstitueret opløsning) </p>
+<ul>
+<li>baseret på en støddosis på 8 mg trastuzumab/kg legemsvægt eller en efterfølgende dosis hver 3. uge på 6 mg trastuzumab/kg legemsvægt: </li>
+</ul>
+<p>Volumen (ml) = 
+Legemsvægt (kg) x dosis (8 mg/kg til støddosis eller 6 mg/kg til vedligeholdelse) 
+21 (mg/ml, koncentration af rekonstitueret opløsning) </p>
+<p>Træk den beregnede volumenmængde af opløsningen ud af hætteglasset ved hjælp af en steril kanyle 
+og sprøjte og tilsæt den til en infusionspose af polyvinylchlorid, polyethylen eller polypropylen 
+indeholdende 250 ml 0,9 % natriumchloridopløsning. Der må ikke anvendes glukoseholdige 
+opløsninger. Vend forsigtigt posen op og ned for at blande opløsningen og for at undgå skumdannelse. 
+Parenterale opløsninger skal inspiceres visuelt for partikler og misfarvning før administration. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-b685aeea2bdf7a0921a22706f03b5a68
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ontruzant Package Leaflet for language en"
+Description: "ePI document Bundle for ontruzant Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b685aeea2bdf7a0921a22706f03b5a68"
+* entry[0].resource = composition-en-b685aeea2bdf7a0921a22706f03b5a68
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb685aeea2bdf7a0921a22706f03b5a68"
+* entry[=].resource = mpb685aeea2bdf7a0921a22706f03b5a68
+                            
+                    
+Instance: bundlepackageleaflet-da-b685aeea2bdf7a0921a22706f03b5a68
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ontruzant Package Leaflet for language da"
+Description: "ePI document Bundle for ontruzant Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-b685aeea2bdf7a0921a22706f03b5a68"
+* entry[0].resource = composition-da-b685aeea2bdf7a0921a22706f03b5a68
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb685aeea2bdf7a0921a22706f03b5a68"
+* entry[=].resource = mpb685aeea2bdf7a0921a22706f03b5a68
+                            
+                    
+
+
+
+Instance: mpb685aeea2bdf7a0921a22706f03b5a68
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ontruzant 150 mg powder for concentrate for solution for infusion"
-Description: "Ontruzant 150 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product ontruzant"
+Description: "ontruzant"
 Usage: #inline
 
  
@@ -519,7 +1384,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ontruzant 150 mg powder for concentrate for solution for infusion"
+  * productName = "ontruzant"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -546,29 +1411,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b685aeea2bdf7a0921a22706f03b5a68
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ontruzant Package Leaflet for language en"
-Description: "ePI document Bundle for ontruzant Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b685aeea2bdf7a0921a22706f03b5a68ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1241/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ontruzant"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b685aeea2bdf7a0921a22706f03b5a68"
-* entry[0].resource = composition-en-b685aeea2bdf7a0921a22706f03b5a68
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp791906ed804045b03ebf7b0ab008d923"
-* entry[=].resource = mp791906ed804045b03ebf7b0ab008d923
-                            
-                      
+* title = "List of all ePIs associated with ontruzant"
+
+* subject = Reference(mp791906ed804045b03ebf7b0ab008d923)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ontruzant "ontruzant"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b685aeea2bdf7a0921a22706f03b5a68) // ontruzant en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-b685aeea2bdf7a0921a22706f03b5a68) // ontruzant da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-b685aeea2bdf7a0921a22706f03b5a68
+InstanceOf: List
+
+* insert b685aeea2bdf7a0921a22706f03b5a68ListRuleset
+    

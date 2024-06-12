@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9907a30e9752c1b71142c1d64ee9aa50
 InstanceOf: CompositionUvEpi
 Title: "Composition for kaftrio Package Leaflet"
@@ -390,12 +393,626 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-9907a30e9752c1b71142c1d64ee9aa50
+InstanceOf: CompositionUvEpi
+Title: "Composition for kaftrio Package Leaflet"
+Description:  "Composition for kaftrio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp60dbe64b037a1932ded0ed68785ea208)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp60dbe64b037a1932ded0ed68785ea208
+* title = "TEST PURPOSES ONLY - kaftrio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Kaftrio </li>
+<li>Sådan skal du tage Kaftrio </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What kaftrio is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What kaftrio is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kaftrio indeholder tre aktive stoffer: ivacaftor, tezacaftor og elexacaftor. Lægemidlet hjælper 
+lungecellerne med at virke bedre hos nogle patienter med cystisk fibrose (CF). CF er en arvelig 
+sygdom, hvor lungerne og fordøjelsessystemet kan blive fyldt med tykt, klæbrigt slim. </p>
+<p>Kaftrio, der tages sammen med ivacaftor, er til patienter i alderen 6 år og derover, som har CF 
+med mindst én F508del-mutation i CFTR (cystisk fibrose-transmembran konduktansregulator)-
+genet. Kaftrio er beregnet til at være en langtidsbehandling. </p>
+<p>Kaftrio virker på et protein kaldet CFTR. Proteinet er beskadiget hos nogle personer med CF, hvis de 
+har en mutation i CFTR-genet.  </p>
+<p>Kaftrio tages normalt sammen med et andet lægemiddel, ivacaftor. Ivacaftor får proteinet til at 
+virke bedre, mens tezacaftor og elexacaftor øger mængden af protein på celleoverfladen.  </p>
+<p>Kaftrio (der tages sammen med ivacaftor) hjælper på din vejrtrækning ved at forbedre din 
+lungefunktion. Du kan også bemærke, at du ikke så ofte bliver syg, eller at du måske lettere tager på i 
+vægt. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take kaftrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take kaftrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Kaftrio: </p>
+<ul>
+<li>Hvis du er allergisk over for ivacaftor, tezacaftor, elexacaftor eller et af de øvrige 
+indholdsstoffer i Kaftrio (angivet i punkt 6). 
+Kontakt lægen og tag ikke tabletterne, hvis dette gælder for dig. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<ul>
+<li>
+<p>Kontakt lægen, hvis du har leverproblemer eller har haft det tidligere. Det kan være 
+nødvendigt for lægen at justere din dosis. </p>
+</li>
+<li>
+<p>Lægen vil tage nogle blodprøver for at kontrollere din lever før og under behandlingen med 
+Kaftrio, især hvis dine blodprøver tidligere har vist høje leverenzymer. Leverenzymer i blodet 
+kan blive forhøjet hos patienter, der får Kaftrio. </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du har symptomer på leverproblemer. Disse er anført i punkt 4. * Der er rapporteret depression (herunder selvmordstanker og selvmordsadfærd) hos patienter, 
+mens de har taget Kaftrio, som sædvanligvis forekom inden for 3 måneder efter 
+behandlingsstart. Kontakt straks lægen, hvis du (eller en person, som tager dette lægemiddel) 
+oplever et eller flere af de følgende symptomer, der kan være tegn på en depression: nedtrykthed 
+eller ændret humør, angst, følelsesmæssig utilpashed eller tanker om at gøre skade på sig selv 
+eller begå selvmord. </p>
+<ul>
+<li>
+<p>Kontakt lægen, hvis du har nyreproblemer, eller du har haft det tidligere. </p>
+</li>
+<li>
+<p>Kontakt lægen, før du begynder behandlingen med Kaftrio, hvis du har fået et 
+organtransplantat. </p>
+</li>
+<li>
+<p>Kontakt lægen, hvis du bruger hormonel prævention - for eksempel kvinder, der bruger 
+p-piller. Det kan betyde, at det er mere sandsynligt, at du får et udslæt, når du tager Kaftrio. </p>
+</li>
+<li>
+<p>Lægen kan udføre øjenundersøgelser før og under behandlingen med Kaftrio. Uklarhed af 
+linsen i øjet (grå stær) uden nogen påvirkning af synet er forekommet hos nogle børn og unge, 
+der har fået denne behandling. </p>
+</li>
+</ul>
+<p>Børn under 6 år 
+Undlad at give dette lægemiddel til børn under 6 år, da det er ukendt, om Kaftrio-tabletter er sikre og 
+effektive til denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Kaftrio 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Nogle lægemidler kan påvirke den måde, 
+Kaftrio virker på, eller kan gøre det mere sandsynligt, at du får bivirkninger. Du skal især fortælle det 
+til lægen, hvis du tager et eller flere af de nedenfor angivne lægemidler. Lægen kan ændre dosis af et 
+af lægemidlerne, hvis du tager et eller flere af disse. </p>
+<ul>
+<li>
+<p>Antimykotika (anvendes til behandling af svampeinfektioner). Disse omfatter fluconazol, 
+itraconazol, ketoconazol, posaconazol og voriconazol. </p>
+</li>
+<li>
+<p>Antibiotika (anvendes til behandling af bakterieinfektioner). Disse omfatter clarithromycin, 
+erythromycin, rifampicin, rifabutin og telithromycin. </p>
+</li>
+<li>
+<p>Epilepsimedicin (anvendes til behandling af epileptiske anfald eller krampeanfald). Disse 
+omfatter carbamazepin, phenobarbital og phenytoin. </p>
+</li>
+<li>
+<p>Naturlægemidler. Disse omfatter prikbladet perikon (Hypericum perforatum). </p>
+</li>
+<li>
+<p>Immunsupprimerende midler (anvendes efter en organtransplantation). Disse omfatter 
+ciclosporin, everolimus, sirolimus og tacrolimus. </p>
+</li>
+<li>
+<p>Hjerteglykosider (anvendes til behandling af nogle hjerteproblemer). Disse omfatter digoxin. </p>
+</li>
+<li>
+<p>Antikoagulantia (anvendes til at forhindre blodpropper). Disse omfatter warfarin. </p>
+</li>
+<li>
+<p>Medicin mod sukkersyge. Disse omfatter glimepirid, glipizid, glyburid, nateglinid og repaglinid. </p>
+</li>
+<li>
+<p>Medicin til sænkning af kolesterol i blodet. Disse omfatter pitavastatin og rosuvastatin. </p>
+</li>
+<li>
+<p>Medicin til sænkning af blodtrykket. Disse omfatter verapamil. </p>
+</li>
+</ul>
+<p>Brug af Kaftrio sammen med mad og drikke 
+Undgå mad eller drikkevarer, der indeholder grapefrugt, i løbet af behandlingen, da de kan øge 
+bivirkningerne af Kaftrio ved at øge mængden af Kaftrio i blodet. </p>
+<p>Graviditet og amning </p>
+<ul>
+<li>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, 
+skal du spørge din læge til råds, før du tager dette lægemiddel. </p>
+</li>
+<li>
+<p>Graviditet: Det kan være bedst at undgå at anvende dette lægemiddel under graviditet. Din 
+læge vil hjælpe dig med at beslutte, hvad der er det bedste for dig og dit barn. </p>
+</li>
+<li>
+<p>Amning: Ivacaftor, tezacaftor og elexacaftor udskilles i modermælk. Din læge vil afveje 
+fordelene ved amning for din baby i forhold til de terapeutiske fordele for dig for at hjælpe 
+dig med at beslutte, om du skal stoppe med at amme eller stoppe behandlingen. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Kaftrio kan gøre dig svimmel. Hvis du føler dig svimmel, må du ikke føre motorkøretøj, cykle eller 
+betjene maskiner, medmindre du ikke er påvirket. </p>
+<p>Kaftrio indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take kaftrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take kaftrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Din læge vil bestemme den korrekte dosis til dig. </p>
+<p>Kaftrio tages normalt sammen med ivacaftor. </p>
+<p>Anbefalet dosis til patienter i alderen 6 år og derover<br />
+Alder 
+Vægt 
+Morgendosis 
+Aftendosis 
+6 til &lt; 12 år<br />
+&lt; 30 kg 
+To ivacaftor 37,5 mg/tezacaftor 
+25 mg/elexacaftor 50 mg 
+tabletter 
+Én ivacaftor 75 mg 
+tablet 
+6 til &lt; 12 år 
+≥ 30 kg 
+To ivacaftor 75 mg/tezacaftor 
+50 mg/elexacaftor 100 mg 
+tabletter 
+Én ivacaftor 150 mg 
+tablet 
+12 år og 
+derover 
+- To ivacaftor 75 mg/tezacaftor 
+50 mg/elexacaftor 100 mg 
+tabletter 
+Én ivacaftor 150 mg 
+tablet </p>
+<p>Tag morgen- og aftentabletterne med ca. 12 timers mellemrum. </p>
+<p>Tabletterne er til oral anvendelse. </p>
+<p>Tag både Kaftrio- og ivacaftortabletterne sammen med fedtholdig mad. Fedtholdige måltider og 
+snacks er mad, der laves med smør eller olie eller indeholder æg. Anden fedtholdig mad er: </p>
+<ul>
+<li>
+<p>ost, sødmælk, sødmælksprodukter, yoghurt, chokolade </p>
+</li>
+<li>
+<p>kød, fed fisk </p>
+</li>
+<li>
+<p>avocado, hummus, sojabaserede produkter (tofu) </p>
+</li>
+<li>
+<p>nødder, fedtholdige energibarer eller -drikke </p>
+</li>
+</ul>
+<p>Undgå mad og drikkevarer, der indeholder grapefrugt, mens du tager Kaftrio. Se Brug af Kaftrio 
+sammen med mad og drikke i punkt 2 for flere oplysninger. </p>
+<p>Slug tabletterne hele. Tabletterne må ikke tygges, knuses eller deles, før de sluges. </p>
+<p>Du skal fortsætte med alle dine andre lægemidler, medmindre lægen fortæller dig, at du skal holde op. </p>
+<p>Hvis du har leverproblemer, enten moderate eller svære, kan din læge reducere dosis af dine 
+tabletter eller beslutte at stoppe behandling med Kaftrio. Se også Advarsler og forsigtighedsregler i 
+punkt 2. Hvis du har taget for meget Kaftrio 
+Kontakt lægen eller apotekspersonalet for rådgivning. Hvis det er muligt, skal du medbringe din 
+medicin og denne indlægsseddel. Du kan få bivirkninger, herunder de bivirkninger, som nævnes i 
+punkt 4 nedenfor. </p>
+<p>Hvis du har glemt at tage Kaftrio 
+Hvis du har glemt en dosis, skal du beregne, hvor lang tid der er gået, siden dosen, du glemte. </p>
+<ul>
+<li>
+<p>Hvis der er gået under 6 timer, siden du glemte en dosis, enten morgen eller aften, skal du tage 
+den/ de glemte tablet(ter) så hurtigt som muligt og herefter vende tilbage til dit normale regime. </p>
+</li>
+<li>
+<p>Hvis der er gået over 6 timer: </p>
+</li>
+<li>
+<p>Hvis du har glemt en morgen-dosis af Kaftrio, skal du tage den så snart, du kommer i 
+tanke om det. Undlad at tage aften-dosen af ivacaftor. Tag den næste morgen-dosis på det 
+sædvanlige tidspunkt. </p>
+</li>
+<li>
+<p>Hvis du har glemt en aften-dosis af ivacaftor, skal du ikke tage den glemte dosis. Vent til 
+den næste dag, og tag morgen-dosen af Kaftrio-tabletter som normalt. 
+Du må ikke tage en dobbeltdosis som erstatning for glemte tabletter. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Kaftrio 
+Din læge vil fortælle dig, hvor længe du skal fortsætte med at tage Kaftrio. Det er vigtigt at tage dette 
+lægemiddel regelmæssigt. Du må ikke ændre noget, medmindre din læge fortæller dig det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Mulige tegn på leverproblemer 
+Leverskade og forværret leverfunktion hos personer med svær leversygdom. Den forværrede 
+leverfunktion kan være alvorlig og kan kræve transplantation. 
+Forhøjede leverenzymer i blodet er almindeligt hos patienter med CF. Dette kan være tegn på 
+leverproblemer: </p>
+<ul>
+<li>
+<p>smerter eller ubehag i den øvre højre del af maven </p>
+</li>
+<li>
+<p>gulfarvning af huden eller af det hvide i øjnene </p>
+</li>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>kvalme eller opkastning </p>
+</li>
+<li>
+<p>mørk urin </p>
+</li>
+</ul>
+<p>Depression. Tegn på dette omfatter nedtrykthed eller ændret humør, angst, følelsesmæssig utilpashed. </p>
+<p>Fortæl det straks til lægen, hvis du har et eller flere af disse symptomer. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>udslæt (mere almindeligt hos kvinder end hos mænd) 
+Fortæl det straks til lægen, hvis du bemærker et udslæt. </li>
+</ul>
+<p>Andre bivirkninger observeret med Kaftrio: 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>infektion i de øvre luftveje (forkølelse) </p>
+</li>
+<li>
+<p>orofaryngeale smerter (ondt i halsen) </p>
+</li>
+<li>
+<p>tilstoppet næse </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>forhøjede leverenzymer (tegn på belastning af leveren) </p>
+</li>
+<li>
+<p>ændrede bakterietyper i slim </p>
+</li>
+<li>
+<p>forhøjet kreatinphosphokinase (tegn på muskelnedbrydning) observeret i blodprøver </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>influenza </p>
+</li>
+<li>
+<p>unormal vejrtrækning (stakåndethed eller vejrtrækningsbesvær) </p>
+</li>
+<li>
+<p>lavt blodsukker (hypoglykæmi) </p>
+</li>
+<li>
+<p>løbende næse </p>
+</li>
+<li>
+<p>bihuleproblemer (tilstoppede bihuler) </p>
+</li>
+<li>
+<p>rødme eller ømhed i halsen </p>
+</li>
+<li>
+<p>øreproblemer: ørepine eller -gener, ringen for ørerne, betændt trommehinde </p>
+</li>
+<li>
+<p>snurrende fornemmelse (forstyrrelse i det indre øre) </p>
+</li>
+<li>
+<p>luftafgang fra tarmen (flatulens) </p>
+</li>
+<li>
+<p>uren hud (acne) </p>
+</li>
+<li>
+<p>kløende hud </p>
+</li>
+<li>
+<p>knude i brystet </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>bryst- og brystvorteproblemer: betændelse, smerter </p>
+</li>
+<li>
+<p>forstørret bryst hos mænd </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+<li>
+<p>hvæsende vejrtrækning </p>
+</li>
+<li>
+<p>propper i ørerne </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>Leverskade </p>
+</li>
+<li>
+<p>Forhøjet bilirubinmåling (blodprøve til levertal) </p>
+</li>
+</ul>
+<p>Hos unge kan endvidere ses følgende bivirkninger 
+Bivirkningerne hos unge svarer til bivirkningerne observeret hos voksne. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store kaftrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store kaftrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre æske og på blisteren efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kaftrio indeholder: </p>
+<ul>
+<li>Aktive stoffer: ivacaftor, tezacaftor og elexacaftor.  </li>
+</ul>
+<p>Kaftrio 37,5 mg/25 mg/50 mg filmovertrukne tabletter 
+Hver filmovertrukket tablet indeholder 37,5 mg ivacaftor, 25 mg tezacaftor og 50 mg elexacaftor. </p>
+<p>Kaftrio 75 mg/50 mg/100 mg filmovertrukne tabletter 
+Hver filmovertrukket tablet indeholder 75 mg ivacaftor, 50 mg tezacaftor og 100 mg elexacaftor. </p>
+<ul>
+<li>Øvrige indholdsstoffer: 
+− 
+Tabletkerne: Hypromellose (E464), hypromelloseacetatsuccinat, natriumlaurilsulfat (E487), 
+croscarmellosenatrium (E468), mikrokrystallinsk cellulose (E460(i)) og magnesiumstearat 
+(E470b). 
+− 
+Tabletfilmovertræk: Hypromellose (E464), hydroxypropylcellulose (E463), titandioxid 
+(E171), talcum (E553b), gul jernoxid (E172) og rød jernoxid (E172). </li>
+</ul>
+<p>Se til sidst i punkt 2 for vigtige oplysninger om Kaftrios indhold. </p>
+<p>Udseende og pakningsstørrelser 
+Kaftrio 37,5 mg/25 mg/50 mg filmovertrukne tabletter er lyseorange, kapselformede tabletter, der er 
+præget med "T50" på den ene side og glatte på den anden side. </p>
+<p>Kaftrio 75 mg/50 mg/100 mg filmovertrukne tabletter er orange, kapselformede tabletter, der er 
+præget med "T100" på den ene side og glatte på den anden side. </p>
+<p>Kaftrio fås i pakningsstørrelse med 56 tabletter (4 blisterkort med hver 14 tabletter). </p>
+<p>Indehaver af markedsføringstilladelsen 
+Vertex Pharmaceuticals (Ireland) Limited 
+Unit 49, Block 5, Northwood Court, Northwood Crescent, 
+Dublin 9, D09 T665, 
+Irland 
+Tlf.: +353 (0)1 761 7 
+Fremstiller 
+Almac Pharma Services (Ireland) Limited 
+Finnabair Industrial Estate 
+Dundalk 
+Co. Louth 
+A91 P9KD 
+Irland  </p>
+<p>Almac Pharma Services Limited 
+Seagoe Industrial Estate 
+Craigavon 
+Northern Ireland 
+BT63 5UA 
+Storbritannien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien, България, Česká 
+republika, Danmark, Deutschland, Eesti, 
+France, Hrvatska, Ireland, Ísland, Κύπρος, 
+Latvija, Lietuva, Luxembourg/Luxemburg, 
+Magyarország, Malta, Nederland, Norge, 
+Österreich, Polska, Portugal, România, 
+Slovenija, Slovenská republika, 
+Suomi/Finland, Sverige, United Kingdom 
+(Northern Ireland) 
+Vertex Pharmaceuticals (Ireland) Limited 
+Tél/Tel/Teл/Tlf/Sími/Τηλ/Puh:<br />
++353 (0) 1 761 7 
+España 
+Vertex Pharmaceuticals Spain, S.L. 
+Tel: + 34 91 7892 
+Ελλάδα 
+Vertex Φαρμακευτική Μονοπρόσωπη Ανώνυμη 
+Εταιρία 
+Τηλ: +30 (211) 2120 
+Italia 
+Vertex Pharmaceuticals 
+(Italy) S.r.l. 
+Tel: +39 0697794 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Kaftrio 60 mg/40 mg/80 mg granulat i brev 
+Kaftrio 75 mg/50 mg/100 mg granulat i brev 
+ivacaftor/tezacaftor/elexacaftor </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden dit barn begynder at få dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Spørg dit barns læge eller apotekspersonalet, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret dette lægemiddel til dit barn personligt. Lad derfor være med at give 
+lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
+som dit barn har. </p>
+</li>
+<li>
+<p>Kontakt dit barns læge eller apotekspersonalet, hvis dit barn får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9907a30e9752c1b71142c1d64ee9aa50
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kaftrio Package Leaflet for language en"
+Description: "ePI document Bundle for kaftrio Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9907a30e9752c1b71142c1d64ee9aa50"
+* entry[0].resource = composition-en-9907a30e9752c1b71142c1d64ee9aa50
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9907a30e9752c1b71142c1d64ee9aa50"
+* entry[=].resource = mp9907a30e9752c1b71142c1d64ee9aa50
+                            
+                    
+Instance: bundlepackageleaflet-da-9907a30e9752c1b71142c1d64ee9aa50
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kaftrio Package Leaflet for language da"
+Description: "ePI document Bundle for kaftrio Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9907a30e9752c1b71142c1d64ee9aa50"
+* entry[0].resource = composition-da-9907a30e9752c1b71142c1d64ee9aa50
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9907a30e9752c1b71142c1d64ee9aa50"
+* entry[=].resource = mp9907a30e9752c1b71142c1d64ee9aa50
+                            
+                    
+
+
+
+Instance: mp9907a30e9752c1b71142c1d64ee9aa50
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Kaftrio 37.5 mg/25 mg/50 mg film-coated tablets"
-Description: "Kaftrio 37.5 mg/25 mg/50 mg film-coated tablets"
+Title: "Medicinal Product kaftrio"
+Description: "kaftrio"
 Usage: #inline
 
  
@@ -415,7 +1032,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Kaftrio 37.5 mg/25 mg/50 mg film-coated tablets"
+  * productName = "kaftrio"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -442,29 +1059,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9907a30e9752c1b71142c1d64ee9aa50
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for kaftrio Package Leaflet for language en"
-Description: "ePI document Bundle for kaftrio Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9907a30e9752c1b71142c1d64ee9aa50ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1468/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "kaftrio"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9907a30e9752c1b71142c1d64ee9aa50"
-* entry[0].resource = composition-en-9907a30e9752c1b71142c1d64ee9aa50
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp60dbe64b037a1932ded0ed68785ea208"
-* entry[=].resource = mp60dbe64b037a1932ded0ed68785ea208
-                            
-                      
+* title = "List of all ePIs associated with kaftrio"
+
+* subject = Reference(mp60dbe64b037a1932ded0ed68785ea208)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#kaftrio "kaftrio"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9907a30e9752c1b71142c1d64ee9aa50) // kaftrio en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9907a30e9752c1b71142c1d64ee9aa50) // kaftrio da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9907a30e9752c1b71142c1d64ee9aa50
+InstanceOf: List
+
+* insert 9907a30e9752c1b71142c1d64ee9aa50ListRuleset
+    

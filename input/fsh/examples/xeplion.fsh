@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-492a437b12024dde8d19defc1975028b
 InstanceOf: CompositionUvEpi
 Title: "Composition for xeplion Package Leaflet"
@@ -588,12 +591,826 @@ Any unused product or waste material should be disposed of in accordance with lo
 
 
 
+Instance: composition-da-492a437b12024dde8d19defc1975028b
+InstanceOf: CompositionUvEpi
+Title: "Composition for xeplion Package Leaflet"
+Description:  "Composition for xeplion Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpabd81464c478d2fe1e85fadaf83375e7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpabd81464c478d2fe1e85fadaf83375e7
+* title = "TEST PURPOSES ONLY - xeplion"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få Xeplion
+3. Sådan får du Xeplion
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xeplion is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xeplion is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xeplion indeholder det aktive stof paliperidon, som tilhører klassen antipsykotiske lægemidler og 
+anvendes som vedligeholdelsesbehandling af symptomerne på skizofreni hos voksne patienter, der er 
+stabiliseret på paliperidon eller risperidon.
+Hvis du tidligere har reageret positivt på behandling med paliperidon eller risperidon, og dine 
+symptomer er milde til moderate, kan din læge indlede behandling med Xeplion uden forudgående 
+stabilisering med paliperidon eller risperidon.
+Skizofreni er en sygdom med “positive" og “negative" symptomer. Positive symptomer henviser til en 
+række symptomer, som normalt ikke er til stede. For eksempel kan en person med skizofreni høre 
+stemmer eller se ting, som ikke er der (hvilket kaldes hallucinationer), tro ting, som ikke er rigtige 
+(hvilket kaldes vrangforestillinger), eller føle sig usædvanligt mistænksom over for andre. Negative 
+symptomer henviser til manglende adfærd eller følelser, som normalt er til stede. For eksempel kan en 
+person med skizofreni virke tilbageholdende og reagerer måske slet ikke følelsesmæssigt eller kan 
+have svært ved at tale på en klar og logisk måde. Personer med denne sygdom kan også føle sig 
+deprimerede, angste, have skyldfølelse eller være anspændte.
+Xeplion kan være med til at lindre din sygdom og forhindre den i at komme igen.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xeplion"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xeplion"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Få ikke Xeplion</h2>
+<p>hvis du er allergisk over for paliperidon eller et af de øvrige indholdsstoffer i Xeplion (angivet i 
+afsnit 6).
+-
+hvis du er allergisk over for et andet antipsykotisk lægemiddel, der indeholder stoffet risperidon.
+70
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får Xeplion.
+Dette lægemiddel er ikke undersøgt hos ældre patienter med demens. Ældre patienter med demens, 
+som behandles med andre lignende typer medicin, kan dog have en øget risiko for at få et slagtilfælde 
+eller dø (se afsnit 4, Bivirkninger).
+Alle lægemidler har bivirkninger, og nogle af bivirkningerne ved dette lægemiddel kan forværre 
+symptomerne ved andre medicinske tilstande. Det er derfor vigtigt, at du taler med lægen om følgende 
+tilstande, som kan forværres under behandling med dette lægemiddel:
+-
+hvis du har Parkinsons sygdom
+-
+hvis du nogensinde har fået stillet en diagnose på en tilstand, hvor symptomerne omfatter høj 
+temperatur og muskelstivhed (der også er kendt som malignt neuroleptikasyndrom)
+-
+hvis du nogensinde har oplevet unormale bevægelser af tungen eller ansigtet (tardiv dyskinesi)
+-
+hvis du ved, at du tidligere har haft et lavt niveau af hvide blodlegemer (som måske eller måske 
+ikke var forårsaget af andre lægemidler)
+-
+hvis du har diabetes eller er disponeret for at få diabetes
+-
+hvis du har haft brystkræft eller en tumor i hypofysen i hjernen
+-
+hvis du har en hjertesygdom eller får en behandling mod en hjertesygdom, der gør, at du har 
+tendens til lavt blodtryk
+-
+hvis dit blodtryk falder, når du rejser dig eller sætter dig op pludseligt
+-
+hvis du har epilepsi
+-
+hvis du har nyreproblemer
+-
+hvis du har leverproblemer
+-
+hvis du har langvarig og/eller smertefuld rejsning
+-
+hvis du har problemer med at kontrollere din krops kernetemperatur eller med overophedning
+-
+hvis du har et unormalt højt niveau af hormonet prolaktin i blodet, eller hvis du muligvis har en 
+prolaktinafhængig svulst
+-
+hvis du eller en anden i din familie har haft en eller flere blodpropper, da antipsykotika er sat i 
+forbindelse med dannelse af blodpropper.
+Tal med din læge, hvis du har eller har haft en eller flere af disse tilstande, da lægen kan ønske at 
+ændre din dosis eller overvåge dig i en periode.
+Da et faretruende lavt antal af en bestemt type hvide blodlegemer, som er nødvendige for at bekæmpe 
+infektioner i blodet, er observeret i meget sjældne tilfælde hos patienter, som fik dette lægemiddel, vil
+din læge muligvis kontrollere antallet af hvide blodlegemer i dit blod.
+Selv om du tidligere har kunnet tåle oral (gennen munden) paliperidon eller risperidon, kan der i 
+sjældne tilfælde opstå allergiske reaktioner efter injektion af Xeplion. Du skal straks søge læge, hvis 
+du får udslæt, hævelse i svælg eller hals, kløe eller vejrtrækningsproblemer, da dette kan være tegn på 
+en alvorlig allergisk reaktion.
+Dette lægemiddel kan medføre vægtstigning. Betydelig vægtstigning kan påvirke dit helbred negativt. 
+Din læge bør veje dig regelmæssigt.
+Da der er observeret sukkersyge (diabetes mellitus) eller forværring af allerede eksisterende diabetes 
+mellitus hos patienter, som tager dette lægemiddel, skal din læge tjekke, om der er tegn på højt 
+blodsukker. Hos patienter med allerede eksisterende diabetes mellitus, skal blodsukkeret måles 
+regelmæssigt.
+Da dette lægemiddel kan mindske din trang til at kaste op, er der en risiko for, at dette kan skjule 
+kroppens normale reaktion på indtagelse af giftige stoffer eller andre medicinske tilstande.
+Under operation i øjet for uklarhed af linsen (grå stær) er det muligt, at pupillen (den sorte prik i 
+midten af øjet) ikke forstørres som nødvendigt. Endvidere kan muskelspændingen i iris (den farvede 
+71
+del af øjet) blive nedsat under operation, og dette kan føre til øjenskade. Hvis du planlægger at blive
+opereret i øjet, skal du sørge for at informere øjenlægen om, at du bruger dette lægemiddel.
+Børn og unge
+Dette lægemiddel er ikke til personer under 18 år.
+Brug af andre lægemidler sammen med Xeplion
+Fortæl det altid til lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler.
+Det kan være nødvendigt at ændre dosis af dette lægemiddel, hvis du tager det sammen med 
+carbamazepin (et middel til behandling af epilepsi og humørsvingninger).
+Da dette lægemiddel primært virker i hjernen, kan andre lægemidler, der ligeledes virker i hjernen, 
+medføre en forstærkning af bivirkninger, som f.eks. søvnighed eller andre virkninger på hjernen som 
+f.eks. andre antipsykotika, opioider, antihistaminer og sovemidler.
+Da dette lægemiddel kan sænke blodtrykket, skal du være forsigtig, når du bruger dette lægemiddel 
+sammen med andre lægemidler, der også sænker blodtrykket.
+Dette lægemiddel kan reducere virkningen af lægemidler mod Parkinsons sygdom og uro i benene 
+(f.eks. levodopa).
+Dette lægemiddel kan medføre et unormalt elektrokardiogram (EKG), der viser, at en elektrisk impuls 
+er lang tid om at vandre gennem en bestemt del at hjertet (hvilket er kendt som “QT-forlængelse").
+Andre lægemidler, der har denne virkning, omfatter visse lægemidler, der anvendes til behandling af 
+hjerterytmen eller til behandling af infektion, og andre antipsykotika.
+Hvis du har tendens til at få krampeanfald, kan dette lægemiddel forøge risikoen for, at de 
+forekommer. Andre lægemidler, der har denne virkning, omfatter visse lægemidler, der anvendes til 
+behandling af depression eller til behandling af infektion, og andre antipsykotika.
+Xeplion bør anvendes med forsigtighed sammen med lægemidler, der øger aktiviteten i 
+centralnervesystemet (psykostimulanser som f.eks. methylphenidat).
+Brug af Xeplion sammen med alkohol
+Alkohol bør undgås.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. Du må ikke få
+dette lægemiddel under graviditet, medmindre du har talt med lægen om det. Følgende symptomer kan 
+forekomme hos nyfødte af mødre, som har taget paliperidon i sidste trimester (de sidste tre måneder af 
+graviditeten): rystelser, muskelstivhed og/eller -svaghed, søvnighed, ophidselse, vejrtrækningsbesvær 
+og besvær med at indtage føde. Hvis dit barn får nogle af disse symptomer, bør du kontakte din læge.
+Dette lægemiddel kan videregives fra moderen til barnet gennem mælken og kan skade barnet. Du må
+derfor ikke amme, når du bruger dette lægemiddel.
+Trafik- og arbejdssikkerhed
+Der kan forekomme svimmelhed, ekstrem træthed og synsproblemer under behandling med dette 
+lægemiddel (se pkt. 4). Dette skal du være opmærksom på i situationer, hvor fuld opmærksomhed er 
+påkrævet, f.eks. ved bilkørsel og betjening af maskiner.
+Xeplion indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit.
+72</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xeplion"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xeplion"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel gives af din læge eller anden sundhedsperson. Lægen fortæller dig, hvornår du 
+behøver din næste indsprøjtning. Det er vigtigt, at du ikke går glip af den planlagte dosis. Hvis du ikke 
+kan overholde aftalen, skal du sørge for straks at ringe til lægen, så du kan lave en ny aftale så hurtigt 
+som muligt.
+Du får den første (150 mg) og den anden indsprøjtning (100 mg) af dette lægemiddel i overarmen med 
+ca. 1 uges mellemrum. Derefter vil du få en indsprøjtning (på mellem 25 mg og 150 mg) enten i 
+overarmen eller ballen én gang om måneden.
+Hvis din læge ændrer din medicin fra langtidsvirkende injektion af risperidon til dette lægemiddel, vil
+du få den første injektion af dette lægemiddel (på mellem 25 mg og 150 mg) enten i overarmen eller 
+ballen på den dato, hvor din næste injektion var planlagt. Derefter vil du få en injektion (på mellem
+25 mg og 150 mg) enten i overarmen eller ballen én gang om måneden.
+Afhængigt af dine symptomer kan lægen øge eller reducere den mængde af medicin, du får, med ét 
+dosisniveau på tidspunktet for din planlagte månedlige indsprøjtning.
+Patienter med nyreproblemer
+Lægen kan justere din dosis af dette lægemiddel i henhold til din nyrefunktion. Hvis du har lette 
+nyreproblemer, kan din læge give dig en lavere dosis. Hvis du har moderate eller svære
+nyreproblemer, må du ikke bruge dette lægemiddel.
+Ældre
+Din læge kan reducere din dosis af dette lægemiddel, hvis din nyrefunktion er nedsat.
+Hvis du har fået for meget Xeplion
+Dette lægemiddel vil blive givet til dig under lægelig overvågning. Det er derfor usandsynligt, at du vil 
+få for meget.
+Patienter, der har fået for meget paliperidon, kan muligvis opleve følgende symptomer:
+Døsighed eller sløvhed, hurtige hjerteslag, lavt blodtryk, et unormalt elektrokardiogram (måling af 
+hjertets elektriske aktivitet) eller langsomme eller unormale bevægelser af ansigtet, kroppen, armene 
+eller benene.
+Hvis du holder op med at få Xeplion
+Hvis du holder op med at få indsprøjtningerne, vil du miste virkningerne af lægemidlet. Du bør ikke 
+holde op med at bruge dette lægemiddel, med mindre du får besked på det af lægen, da dine 
+symptomer kan vende tilbage.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Fortæl det straks til din læge, hvis du:
+
+får blodpropper i venerne – særligt i benene (med symptomer som hævelse, smerte og rødmen 
+på benene). Blodpropper kan løsrives og føres med blodet til lungerne, hvor de kan forårsage 
+brystsmerter og åndedrætsbesvær. Hvis du får nogle af disse symptomer, skal du omgående
+søge læge eller skadestue.
+73
+
+er dement og oplever en pludselig forandring i din sindstilstand eller pludselig svækkelse eller 
+følelsesløshed i ansigtet, arme eller ben – især i den ene side – eller taleforstyrrelser, også selv 
+om det er kortvarigt. Disse symptomer kan være tegn på et slagtilfælde.
+
+får feber, muskelstivhed, svedudbrud eller svækket bevidsthed (en tilstand kaldet malignt 
+neuroleptikasyndrom). Du kan have behov for omgående behandling.
+
+er mand og får langvarig eller smertefuld rejsning. Dette kaldes priapisme. Du kan have behov 
+for omgående behandling.
+
+får ufrivillige rytmiske bevægelser af tungen, munden eller ansigtet. Du skal måske holde op 
+med at tage paliperidon.
+
+oplever en svær allergisk reaktion, som er kendetegnet ved feber, hævet mund, ansigt, læbe eller 
+tunge, stakåndethed, kløe, hududslæt og undertiden fald i blodtrykket (hvilket også kaldet en 
+"anafylaktisk reaktion"). Selv om du tidligere har kunnet tåle oral risperidon eller oral 
+paliperidon, er der i sjældne tilfælde forekommet allergiske reaktioner efter injektion af
+paliperidon.
+
+planlægger at få dit øje opereret; hvis det er tilfældet, skal du sørge for at fortælle øjenlægen, at 
+du tager denne medicin. Under en operation i øjet for grå stær (katarakt) kan regnbuehinden 
+(iris, den farvede del af øjet) blive slap (dette kaldes "floppy iris-syndrom"), og det kan medføre 
+beskadigelse af øjet.
+
+ved, at du har et faretruende lavt antal af en bestemt type hvide blodlegemer, som er nødvendige 
+for at bekæmpe infektioner i blodet.
+Følgende bivirkninger kan forekomme:
+Meget almindelige bivirkninger: kan forekomme hos flere end 1 ud af 10 personer
+
+problemer med at falde i søvn eller sove igennem
+Almindelige bivirkninger: kan forekomme hos op til 1 ud af 10 personer
+
+forkølelsessymptomer, urinvejsinfektion, influenza-lignende symptomer
+
+Xeplion kan medføre en stigning i niveauet af et hormon, som kaldes "prolaktin", som påvises 
+ved en blodprøve (medfører ikke altid symptomer). Symptomer på forhøjet prolaktin kan 
+omfatte: Hos mænd: brystforstørrelse, problemer med at få eller opretholde erektioner eller 
+anden seksuel dysfunktion, Hos kvinder: ubehag i brysterne, mælkeflåd fra brysterne, udebleven 
+menstruation eller andre forstyrrelser af menstruationscyklus
+
+højt blodsukker, vægtstigning, vægttab, nedsat appetit
+
+irritabilitet, depression, angst
+
+parkinsonisme: Denne tilstand kan omfatte langsomme eller besværede bevægelser, følelse af at 
+have stive eller stramme muskler (og dermed rykvise bevægelser) og undertiden også en følelse 
+af, at bevægelsen "fryser" og derefter genoptages. Andre tegn på parkinsonisme omfatter en 
+langsom slæbende gang, rystelser i hvile, øget spytproduktion og/eller savlen samt tab af 
+ansigtsmimik
+
+følelse af rastløshed, søvnighed eller af at være mindre kvik
+
+dystoni: Dette er en tilstand, som medfører langsomme eller vedvarende ufrivillige 
+muskelsammentrækninger. Dystoni kan omfatte alle dele af kroppen (og kan medføre en 
+unormal kropsholdning), men involverer dog oftest ansigtsmusklerne, herunder unormale øjen-, 
+mund-, tunge- eller kæbebevægelser (grimasser)
+
+svimmelhed
+
+dyskinesi: Dette er en tilstand, som omfatter ufrivillige muskelbevægelser, og som kan omfatte 
+gentagne, spastiske eller vridende bevægelser eller muskeltrækninger
+
+tremor (rysten)
+
+hovedpine
+
+hurtig hjerterytme
+
+højt blodtryk
+
+hoste, stoppet næse
+
+mavesmerter, opkastning, kvalme, forstoppelse, diarré, fordøjelsesbesvær, tandpine
+
+forhøjede leveraminotransferaser i blodet
+
+knogle- eller muskelsmerter, rygsmerter, ledsmerter
+74
+
+udebleven menstruation
+
+feber, svaghed, træthed
+
+reaktioner på injektionsstedet, herunder kløe, smerter eller hævelse
+Ikke almindelige bivirkninger: kan forekomme hos op til 1 ud af 100 personer
+
+lungebetændelse, infektion i brystet (bronkitis), luftvejsinfektion, bihulebetændelse, 
+blærebetændelse, infektion i øret, svampeinfektion i neglene, halsbetændelse, infektion i huden
+
+nedsat antal hvide blodlegemer, fald i den type hvide blodlegemer, som beskytter dig mod 
+infektion, anæmi
+
+allergisk reaktion
+
+diabetes eller forværring af diabetes, forhøjet insulin (et hormon, som styrer 
+blodsukkerniveauet) i blodet
+
+øget appetit
+
+appetitløshed og deraf følgende underernæring og lav kropsvægt
+
+højt indhold i blodet af triglycerider (et fedtstof), forhøjet kolesterol i blodet
+
+søvnforstyrrelse, opstemthed (mani), nedsat seksualdrift, nervøsitet, mareridt
+
+tardiv dyskinesi (ukontrollerede, rykvise bevægelser, som du ikke kan kontrollere i ansigtet, 
+tungen eller andre dele af kroppen). Fortæl straks din læge, hvis du oplever ufrivillige rytmiske 
+bevægelser af tungen, munden eller ansigtet. Det kan være nødvendigt at ophøre med dette 
+lægemiddel.
+
+besvimelse, rastløs trang til at bevæge kroppen, svimmelhed efter at have rejst sig op, 
+opmærksomhedsforstyrrelse, talebesvær, tab af eller unormal smagssans, nedsat følelse i huden 
+over for smerte og berøring, prikkende eller stikkende fornemmelse i huden eller følelsesløshed
+
+sløret syn, øjeninfektion eller røde øjne, tørre øjne
+
+en følelse af at det hele drejer rundt (vertigo), ringen for ørerne, smerter i ørerne
+
+forstyrrelse i den elektriske overledning mellem den øvre og nedre del af hjertet, unormal 
+elektrisk ledning i hjertet, forlænget QT-interval, hurtig hjerterytme efter at have rejst dig op, 
+langsom hjerterytme, unormalt ekg (elektrokardiogram), en flagrende eller hamrende 
+fornemmelse i brystet (hjertebanken)
+
+lavt blodtryk, blodtryksfald efter at have rejst sig op (derfor kan nogle personer, som tager dette 
+lægemiddel, føle, at de skal besvime, være svimle eller besvime, hvis de rejser sig eller sætter 
+sig op pludseligt)
+
+kortåndethed, ondt i halsen, næseblod
+
+ubehag i maven, mave- eller tarminfektion, problemer med at synke, mundtørhed
+
+voldsom luftafgang fra tarmen
+
+forhøjet GGT (et leverenzym kaldet gammaglutamyltransferase) i blodet, forhøjede 
+leverenzymer i blodet
+
+nældefeber, kløe, udslæt, hårtab, eksem, tør hud, hudrødme, akne, bylder under huden
+
+stigning i CPK (kreatinfosfokinase) i blodet. Dette er et enzym, der undertiden frigives i 
+forbindelse med muskelnedbrydning
+
+muskeltrækninger, stive led, muskelsvaghed
+
+urininkontinens (ufrivillig vandladning), hyppig vandladning, smerter ved vandladning
+
+erektil dysfunktion, ejakulationsforstyrrelse, oversprungen menstruation eller andre problemer 
+med menstruationscyklus (kvinder), brystudvikling hos mænd, seksuel dysfunktion, smerter i 
+brysterne, lækage af mælk fra brysterne
+
+hævelse i ansigtet, munden, øjnene eller læberne, hævelse i kroppen, arme eller ben
+
+forhøjet legemstemperatur
+
+ændret gang
+
+brystsmerter, ubehag i brystet, utilpashed
+
+hård infiltration i huden
+
+fald
+Sjældne bivirkninger: kan forekomme hos op til 1 ud af 1 000 personer
+
+øjeninfektion
+
+betændelse i huden som skyldes mider, afskallende og kløende hovedbund eller hud
+75
+
+stigning i antallet af eosinofile granulocytter (en type af hvide blodlegemer) i blodet
+
+nedsat antal blodplader (blodlegemer, der medvirker til at stoppe blødninger)
+
+hovedrysten
+
+unormal udskillelse af et hormon, som styrer urinmængden
+
+sukker i urinen
+
+livstruende komplikationer ved ukontrolleret diabetes
+
+lavt blodsukker
+
+uforholdsmæssig stor indtagelse af vand
+
+ikke at bevæge sig eller reagere i vågen tilstand (katatoni)
+
+forvirring
+
+søvngængeri
+
+manglende evne til at vise følelser
+
+manglende evne til at opnå orgasme
+
+malignt neuroleptikasyndrom (forvirring, nedsat eller tab af bevidsthed, høj feber og svær
+muskelstivhed), problemer med blodkarrene i hjernen, herunder pludseligt tab af blodforsyning 
+til hjernen (slagtilfælde eller "mini-slagtilfælde"), manglende respons på stimuli, 
+bevidsthedstab, lavt bevidsthedsniveau, krampeanfald, balanceforstyrrelse
+
+unormal koordination
+
+glaukom (øget tryk i øjet)
+
+problemer med øjenbevægelse, rullende øjne, øget følsomhed i øjnene over for lys, øget 
+tåreproduktion, røde øjne
+
+atrieflimren (unormal hjerterytme), uregelmæssig hjerterytme
+
+blodpropper i lungerne, som giver brystsmerter og åndedrætsbesvær. Hvis du bemærker nogle 
+af disse symptomer, skal du øjeblikkeligt søge læge eller skadestue.
+
+blodpropper i blodårerne (venerne), især i benene (symptomerne omfatter hævelse, smerte og 
+rødme i benet). Hvis du bemærker nogle af disse symptomer, skal du øjeblikkeligt søge læge 
+eller skadestue
+
+blussen
+
+vejrtrækningsbesvær under søvn (søvnapnø)
+
+ophobning af væske i lungerne, tilstopning af luftvejene
+
+knitrende lungelyde, hvæsen
+
+betændelse i bugspytkirtlen, opsvulmet tunge, manglende evne til at holde på afføringen, meget 
+hård afføring
+
+forstoppelse af tarmen
+
+sprukne læber
+
+hududslæt relateret til medicin, fortykkelse af huden, skæl
+
+nedbrydelse af muskelfibre og muskelsmerter (rhabdomyolyse)
+
+hævede led
+
+manglende evne til at lade vandet
+
+ubehag i brysterne, forstørrelse af kirtlerne i brysterne, brystforstørrelse
+
+udflåd fra skeden
+
+priapisme (forlænget erektion, som kan kræve kirurgisk behandling)
+
+meget lav kropstemperatur, kulderystelser, tørst
+
+symptomer i forbindelse med ophør af medicin
+
+ophobning af pus på grund af infektion på injektionsstedet, dyb hudinfektion, cyste på 
+injektionsstedet, blodudtrædning på injektionsstedet
+Ikke kendt: hyppigheden kan ikke fastslås ud fra forhåndenværende data
+
+faretruende lavt antal af en vis type af hvide blodlegemer, som er nødvendig for at bekæmpe 
+infektioner i blodet
+
+svær allergisk reaktion kendetegnet ved feber, hævelse af munden, ansigtet, læberne eller 
+tungen, kortåndethed, kløe, udslæt og undertiden blodtryksfald
+
+faretruende stor indtagelse af vand
+
+søvnrelateret spiseforstyrrelse
+76
+
+koma på grund af ukontrolleret diabetes
+
+nedsat iltforsyning til dele af kroppen (på grund af nedsat blodgennemstrømning)
+
+hurtig overfladisk vejrtrækning, lungebetændelse på grund af fejlsynkning af mad, ændret 
+stemme
+
+manglende bevægelse af tarmmuskulaturen, som forårsager forstoppelse
+
+gulfarvning af huden og øjnene (gulsot)
+
+alvorligt eller livstruende udslæt med blærer og afskalning af huden, som kan starte i og 
+omkring munden, næsen, øjnene og kønsdelene og sprede sig til andre dele af kroppen (Stevens-
+Johnsons syndrom eller toksisk epidermal nekrolyse)
+
+alvorlig reaktion med hævelse, som kan omfatte svælget og medføre vejrtrækningsbesvær
+
+misfarvning af huden
+
+unormal kropsholdning
+
+nyfødte af mødre, som har taget Xeplion under graviditeten, kan opleve bivirkninger af 
+lægemidlet og/eller symptomer i forbindelse med ophør af lægemidlet som f.eks. irritabilitet, 
+langsomme eller længerevarende muskelsammentrækninger, rystelser, søvnighed, 
+vejrtrækningsbesvær eller besvær med at indtage føde
+
+fald i kropstemperatur
+
+døde hudceller på injektionsstedet og sår på injektionsstedet
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xeplion"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xeplion"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Få ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste dag 
+i den nævnte måned.
+Må ikke opbevares ved temperaturer over 30 °C.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xeplion indeholder:
+Aktivt stof: paliperidon
+Hver Xeplion 25 mg fyldte sprøjte indeholder 39 mg paliperidonpalmitat i 0,25 ml.
+Hver Xeplion 50 mg fyldte sprøjte indeholder 78 mg paliperidonpalmitat i 0,5 ml.
+Hver Xeplion 75 mg fyldte sprøjte indeholder 117 mg paliperidonpalmitat i 0,75 ml.
+Hver Xeplion 100 mg fyldte sprøjte indeholder 156 mg paliperidonpalmitat i 1 ml.
+Hver Xeplion 150 mg fyldte sprøjte indeholder 234 mg paliperidonpalmitat i 1,5 ml.
+Øvrige indholdsstoffer:
+Polysorbat 20
+Polyethylenglycol 4 000
+Citronsyremonohydrat
+Vandfrit dinatriumhydrogenphosphat
+Natriumdihydrogenphosphatmonohydrat
+77
+Natriumhydroxid (til pH-justering)
+Vand til injektionsvæsker
+Udseende og pakningsstørrelser
+Xeplion er en hvid til off-white depotinjektionsvæske, suspension, i en fyldt injektionssprøjte.
+Hver pakning indeholder 1 fyldt injektionssprøjte og 2 kanyler
+Pakning til behandlingsstart:
+Hver pakning indeholder 1 pakning Xeplion 150 mg og 1 pakning Xeplion 100 mg.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+Lietuva
+UAB “JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+България
+"Джонсън &amp; Джонсън България" ЕООД
+Тел.:+359 2 489 94 00
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+Česká republika
+Janssen-Cilag s.r.o.
+Tel:+420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.:+36 1 884 2858
+Danmark
+Janssen-Cilag A/S
+Tlf.: +45 4594 8282
+Malta
+AM MANGION LTD.
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+Eesti
+UAB “JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel.: +372 617 7410
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+78
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tel: 0 800 25 50 75 / +33 1 55 00 40 03
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf
+Sími: +354 535 7000
+Slovenská republika
+Johnson &amp; Johnson s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Tηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+Latvija
+UAB “JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+79
+Nedenstående oplysninger er kun til sundhedspersoner og skal læses af sundhedspersonen
+sammen med alle ordinationsoplysningerne i produktresuméet.
+Suspensionen til injektion er udelukkende til engangsbrug. Den skal inspiceres visuelt for 
+fremmedlegemer før administration. Må ikke anvendes, hvis sprøjten ikke er visuelt fri for 
+fremmedlegemer.
+Pakningen indeholder en fyldt injektionssprøjte og 2 sikkerhedskanyler (en 1½" 22G-kanyle [38,1 mm 
+x 0,72 mm] og en 1" 23G-kanyle [25,4 mm x 0,64 mm]) til intramuskulær injektion. Xeplion er også 
+tilgængeligt i en pakning til behandlingsstart, som indeholder to fyldte sprøjter (150 mg + 100 mg) og 
+2 ekstra sikkerhedskanyler.
+(1) 22G x 1½" (grå muffe)
+(2) 23G x 1" (blå muffe)
+(3) Fyldt injektionssprøjte
+(4) Muffe
+(5) Spidshætte
+1. Ryst sprøjten kraftigt i minimum 10 sekunder for at sikre en homogen suspension.
+2. Vælg den passende kanyle.
+Den første initieringsdosis af Xeplion (150 mg) skal gives på dag 1 i MUSCULUS 
+DELTOIDEUS med en kanyle til injektion i MUSCULUS DELTOIDEUS. Den anden 
+80
+initieringsdosis af Xeplion (100 mg) skal også gives i MUSCULUS DELTOIDEUS én uge 
+senere (dag 8) med en kanyle til injektion i MUSCULUS DELTOIDEUS.
+Hvis patienten skiftes fra injektion af langtidsvirkende risperidon til Xeplion, kan den første 
+injektion af Xeplion (i intervallet fra 25 mg til 150 mg) gives i enten MUSCULUS 
+DELTOIDEUS eller MUSCULUS GLUTEUS med anvendelse af en kanyle bestemt til 
+injektionsstedet, på tidspunktet for næste planlagte injektion.
+Derefter kan de månedlige vedligeholdelsesinjektioner gives i enten MUSCULUS 
+DELTOIDEUS eller MUSCULUS GLUTEUS med anvendelse af en kanyle bestemt til 
+injektionsstedet.
+Til injektion i MUSCULUS DELTOIDEUS anvendes, hvis patienten vejer &lt; 90 kg, 1" 23G-
+kanylen (25,4 mm x 0,64 mm) (kanyle med blå muffe). Hvis patienten vejer  90 kg, anvendes 
+1½" 22G-kanylen (38,1 mm x 0,72 mm) (kanyle med grå muffe).
+Til injektion i MUSCULUS GLUTEUS MAXIMUS anvendes 1½" 22G-kanylen (38,1 mm x 
+0,72 mm) (kanyle med grå muffe).
+3. Hold sprøjten med spidshætten pegende opad, og fjern gummispidshætten med en let vridende 
+bevægelse.
+4. Træk sikkerhedskanylens blisterpose halvt af. Grib om kanylehylsteret ved brug af posen. Hold 
+sprøjten, så den peger opad. Sæt sikkerhedskanylen på sprøjten ved hjælp af en let vridende 
+bevægelse for at undgå revner i eller beskadigelse af nålemuffen. Kontrollér altid for tegn på 
+skader eller lækage før administrationen
+81
+5. Træk kanylehylsteret af kanylen med et lige træk. Vrid ikke hylsteret, da kanylen herved kan 
+løsnes fra sprøjten.
+6. Hold sprøjten med den monterede kanyle lodret for at fjerne luftbobler. Fjern luftbobler i 
+sprøjten ved at presse stemplet forsigtigt fremad.
+7. Injicer hele sprøjtens indhold intramuskulært langsomt og dybt i den valgte delta- eller 
+glutealmuskel på patienten. Må ikke indgives intravaskulært eller subkutant.
+8. Efter at injektionen er gennemført, anvendes enten tommelfingeren eller en anden finger på den 
+ene hånd (8a, 8b) eller en flad overflade (8c) til at aktivere kanylebeskyttelsessystemet. 
+Systemet er fuldt aktiveret, når der høres et "klik". Bortskaf sprøjten med kanyle på passende 
+vis.
+82
+8a
+8b
+8c
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-492a437b12024dde8d19defc1975028b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xeplion Package Leaflet for language en"
+Description: "ePI document Bundle for xeplion Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-492a437b12024dde8d19defc1975028b"
+* entry[0].resource = composition-en-492a437b12024dde8d19defc1975028b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp492a437b12024dde8d19defc1975028b"
+* entry[=].resource = mp492a437b12024dde8d19defc1975028b
+                            
+                    
+Instance: bundlepackageleaflet-da-492a437b12024dde8d19defc1975028b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xeplion Package Leaflet for language da"
+Description: "ePI document Bundle for xeplion Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-492a437b12024dde8d19defc1975028b"
+* entry[0].resource = composition-da-492a437b12024dde8d19defc1975028b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp492a437b12024dde8d19defc1975028b"
+* entry[=].resource = mp492a437b12024dde8d19defc1975028b
+                            
+                    
+
+
+
+Instance: mp492a437b12024dde8d19defc1975028b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Xeplion 25 mg prolonged release suspension for injection"
-Description: "Xeplion 25 mg prolonged release suspension for injection"
+Title: "Medicinal Product xeplion"
+Description: "xeplion"
 Usage: #inline
 
  
@@ -613,7 +1430,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Xeplion 25 mg prolonged release suspension for injection"
+  * productName = "xeplion"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -640,29 +1457,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-492a437b12024dde8d19defc1975028b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xeplion Package Leaflet for language en"
-Description: "ePI document Bundle for xeplion Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 492a437b12024dde8d19defc1975028bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/672/001 (25 mg)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xeplion"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-492a437b12024dde8d19defc1975028b"
-* entry[0].resource = composition-en-492a437b12024dde8d19defc1975028b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpabd81464c478d2fe1e85fadaf83375e7"
-* entry[=].resource = mpabd81464c478d2fe1e85fadaf83375e7
-                            
-                      
+* title = "List of all ePIs associated with xeplion"
+
+* subject = Reference(mpabd81464c478d2fe1e85fadaf83375e7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xeplion "xeplion"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-492a437b12024dde8d19defc1975028b) // xeplion en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-492a437b12024dde8d19defc1975028b) // xeplion da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-492a437b12024dde8d19defc1975028b
+InstanceOf: List
+
+* insert 492a437b12024dde8d19defc1975028bListRuleset
+    

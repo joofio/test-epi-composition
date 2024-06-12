@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-133076b034a4711dfc1fe81f7acd828f
 InstanceOf: CompositionUvEpi
 Title: "Composition for trecondi Package Leaflet"
@@ -322,12 +325,599 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-133076b034a4711dfc1fe81f7acd828f
+InstanceOf: CompositionUvEpi
+Title: "Composition for trecondi Package Leaflet"
+Description:  "Composition for trecondi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp59881c90ecd8ff3b91250ce75210ae46)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp59881c90ecd8ff3b91250ce75210ae46
+* title = "TEST PURPOSES ONLY - trecondi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at få Trecondi </li>
+<li>Sådan skal du bruge Trecondi </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What trecondi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What trecondi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trecondi indeholder det aktive stof treosulfan, som tilhører en gruppe lægemidler, der kaldes 
+alkylerende stoffer. Treosulfan anvendes til at forberede patienter på en knoglemarvstransplantation 
+(hæmatopoietisk stamcelletransplantation). Treosulfan ødelægger cellerne i knoglemarven og gør det 
+muligt at transplantere nye knoglemarvsceller, som medfører, at der kan produceres raske 
+blodlegemer. </p>
+<p>Trecondi anvendes som en behandling før en blodstamcelletransplantation til voksne og til unge og 
+børn over 1 måned med kræft og sygdomme, som ikke er kræft. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take trecondi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take trecondi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Trecondi 
+ 
+hvis du er allergisk over for treosulfan, 
+ 
+hvis du lider af en aktiv, ukontrolleret infektion, 
+ 
+hvis du lider af svære hjerte-, lunge-, lever- eller nyresygdomme, 
+ 
+hvis du lider af hereditær (arvelig) dna-reparationssygdom, en tilstand, hvor evnen til at reparere 
+dna (som indeholder din genetiske information) er reduceret, 
+ 
+hvis du er gravid eller tror du kan være gravid. </p>
+<p>Advarsler og forsigtighedsregler 
+Trecondi er et celledræbende (cytotoksisk) lægemiddel, der anvendes til at nedsætte antallet af 
+blodlegemer. Ved den anbefalede dosis er det den ønskede virkning. Du vil få taget regelmæssige 
+blodprøver i løbet af behandlingen for at kontrollere, at dine antal af blodlegemer ikke bliver for lave. </p>
+<p>For at forhindre og behandle infektioner vil du få lægemidler, såsom antibiotika, antimykotika 
+(svampedræbende) eller antivirale midler. </p>
+<p>Trecondi kan øge risikoen for at få en anden type kræft i fremtiden. </p>
+<p>Da betændelse af slimhinden i munden er en almindelig bivirkning ved dette lægemiddel, skal du være 
+opmærksom på en tilstrækkelig mundhygiejne. Forebyggende foranstaltninger, såsom brug af 
+mundskylning (f.eks. med barrierebeskyttelse, antimikrobielle midler) eller indsætning af is i 
+mundhulen (som reducerer blodtilførslen til slimhinden i munden og nedsætter mængden af treosulfan, 
+der når cellerne) anbefales. </p>
+<p>Du må ikke få levende vacciner i løbet af behandlingen med treosulfan. </p>
+<p>Trecondi kan forårsage symptomer på overgangsalderen (udeblevne menstruationer). </p>
+<p>Børn og unge 
+Der kan meget sjældent opstå krampeanfald hos spædbørn under 4 måneder. Børn under 1 år kan have 
+sværere bivirkninger, der påvirker vejrtrækningen, end ældre børn. Dit barn vil blive overvåget for 
+tegn på bivirkninger, der påvirker nerverne, og for åndedrætsproblemer. </p>
+<p>Bleeksem med sårdannelse i området rundt om anus (perianalt) kan opstå hos spædbørn, småbørn og 
+blebørn, da treosulfan, som udskilles i urinen, kan skade huden. Derfor skal bleen skiftes hyppigt i 6–
+8 timer efter hver dosis af dette lægemiddel. </p>
+<p>Der er ikke tilstrækkelige oplysninger om anvendelsen af treosulfan til børn under 1 måned. </p>
+<p>Brug af anden medicin sammen med Trecondi 
+Fortæl altid lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at 
+tage anden medicin. Dette gælder også medicin, som ikke er købt på recept. </p>
+<p>Graviditet, amning og frugtbarhed 
+Du må ikke blive gravid under behandlingen med dette lægemiddel, og i op til 6 måneder efter 
+behandlingen. Anvend en sikker præventionsmetode, når enten du eller din partner får dette 
+lægemiddel. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får dette lægemiddel. </p>
+<p>Du skal holde op med at amme, før du påbegynder behandlingen med dette lægemiddel. </p>
+<p>Hvis du er en mand, som bliver behandlet med dette lægemiddel, må du ikke gøre en kvinde gravid i 
+løbet af eller op til 6 måneder efter behandlingen. </p>
+<p>Dette lægemiddel kan gøre dig ufrugtbar, og det kan være, at du ikke kan blive gravid, efter du er 
+blevet behandlet med det. Hvis du er bekymret for din frugtbarhed, skal du diskutere dette med lægen 
+før behandlingen. Mænd skal søge rådgivning om muligheden for sædopbevaring, før de starter 
+behandlingen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel kan give dig kvalme, få dig til at kaste op og gøre dig svimmel, hvilket kan nedsætte 
+din evne til at føre motorkøretøj eller betjene maskiner. Hvis du påvirkes af det, må du ikke føre 
+motorkøretøj eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take trecondi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take trecondi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug til voksne 
+Dette lægemiddel anvendes i kombination med fludarabin. 
+Den anbefalede dosis er 10–14 g/m² legemsoverfladeareal (beregnes ud fra din højde og vægt). </p>
+<p>Brug til børn og unge 
+Dette lægemiddel anvendes i kombination med fludarabin og i de fleste tilfælde også med thiotepa. 
+Den anbefalede dosis er 10–14 g/m² legemsoverfladeareal. </p>
+<p>Sådan gives Trecondi 
+Du vil få givet dette lægemiddel af din læge. Det gives via et drop (infusion) i en vene i løbet af 
+2 timer i 3 dage før en blodstamcelleinfusion. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+De mest alvorlige bivirkninger ved behandlingen med treosulfan eller transplantationsproceduren 
+omfatter: </p>
+<ul>
+<li>
+<p>nedsat antal blodlegemer, hvilket er den tilsigtede virkning af lægemidlet, så du forberedes på 
+din transplantationsinfusion (alle patienter: meget almindelig) </p>
+</li>
+<li>
+<p>infektioner forårsaget af bakterier, vira og svampe (voksne: almindelig, børn og unge: meget 
+almindelig) </p>
+</li>
+<li>
+<p>blokering af en vene til leveren (voksne: ikke almindelig, børn og unge: ikke kendt) </p>
+</li>
+<li>
+<p>betændelse i lungen (pneumonitis) (voksne: ikke almindelig) </p>
+</li>
+</ul>
+<p>Lægen vil overvåge dine blodtal og leverenzymer regelmæssigt for at opdage og behandle disse 
+hændelser. </p>
+<p>Voksne </p>
+<p>En liste over alle andre bivirkninger er opstillet nedenunder i henhold til, hvor almindelige de er. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>nedsat antal hvide blodlegemer med feber (febril neutropeni) </p>
+</li>
+<li>
+<p>betændelse i hinden, der beklæder forskellige dele af kroppen, især i munden (kan give sår), 
+diarré, kvalme, opkastning </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>forhøjet niveau af bilirubin (et leverpigment, ofte et tegn på leverproblemer) i blodet </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>infektion i blodkredsløbet (sepsis) </p>
+</li>
+<li>
+<p>allergiske reaktioner </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>søvnbesvær (søvnløshed) </p>
+</li>
+<li>
+<p>hovedpine, svimmelhed </p>
+</li>
+<li>
+<p>ændring af og unormal hjerterytme (hjertet slår uregelmæssigt, for hurtigt eller for langsomt) </p>
+</li>
+<li>
+<p>højt eller lavt blodtryk, rødme </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær, næseblod </p>
+</li>
+<li>
+<p>mundsmerter, betændelse i maven, mavebesvær, mavesmerter, forstoppelse, synkebesvær, 
+smerter i spiserøret eller maven </p>
+</li>
+<li>
+<p>en slags udslæt med flade eller hævede røde knopper på huden (makulopapuløst udslæt), røde 
+pletter på huden (purpura), hudrødme (erytem), hånd- og fodsyndrom (håndflader og fodsåler 
+prikker, bliver følelsesløse, hæver og gør ondt eller bliver røde), kløe, hårtab </p>
+</li>
+<li>
+<p>smerter i arme eller ben, rygsmerter, knoglesmerter, ledsmerter </p>
+</li>
+<li>
+<p>pludseligt nedsat nyrefunktion, blod i urinen </p>
+</li>
+<li>
+<p>væsketilbageholdelse i kroppen, så den hæver (ødem), feber, kulderystelser </p>
+</li>
+<li>
+<p>forhøjede leverenzymer, forhøjet C-reaktivt protein (en markør for betændelse i kroppen), 
+vægtøgning, vægttab </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>unormal kontrol af sukkerniveauet i blodet, herunder højt eller lavt blodsukkerniveau </p>
+</li>
+<li>
+<p>forvirring </p>
+</li>
+<li>
+<p>hjerneblødning, problemer med nerverne i armene eller benene med symptomer såsom 
+følelsesløshed, nedsat eller øget følsomhed, prikken, brændende smerter (perifer sensorisk 
+neuropati) </p>
+</li>
+<li>
+<p>en snurrende fornemmelse (vertigo) </p>
+</li>
+<li>
+<p>blå mærker </p>
+</li>
+<li>
+<p>væske rundt om lungerne (pleural effusion), betændelse i halsen, betændelse eller smerter i 
+strubehovedet, hikke </p>
+</li>
+<li>
+<p>blødning i munden, oppustet fornemmelse, mundtørhed </p>
+</li>
+<li>
+<p>en type udslæt med røde pletter og nogle gange med violette områder eller områder med blærer i 
+midten (erythema multiforme), akne, udslæt, tør hud </p>
+</li>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>smerter i urinrøret </p>
+</li>
+<li>
+<p>brystsmerter ikke relateret til hjerteproblemer, smerter </p>
+</li>
+<li>
+<p>forhøjet basisk fosfataseniveau i blodet (din læge vil kontrollere dette) </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>livstruende tilstand efter infektion af blodomløbet (septisk shock) </p>
+</li>
+<li>
+<p>en anden kræft forårsaget af kemoterapibehandlingen (sekundær malignitet) </p>
+</li>
+<li>
+<p>øget surhedsgrad i blodet </p>
+</li>
+<li>
+<p>unormal hjernefunktion (encefalopati), rastløse, gentagne eller ufrivillige bevægelser og hurtig 
+tale (ekstrapyramidal sygdom), besvimelse, følelse af prikken, stikken eller følelsesløshed 
+(paræstesi) </p>
+</li>
+<li>
+<p>tørre øjne </p>
+</li>
+<li>
+<p>hjertet pumper ikke nok blod til kroppens behov (hjertesvigt), hjerteanfald, væske i 
+hjertesækken (perikardiel effusion) </p>
+</li>
+<li>
+<p>blokering af en blodåre (embolisme) </p>
+</li>
+<li>
+<p>halssmerter, hæshed, hoste </p>
+</li>
+<li>
+<p>mave-tarm-blødning, betændelse i tyktarmen, betændelse i spiserøret, betændelse i 
+endetarmsåbningen </p>
+</li>
+<li>
+<p>leverskade forårsaget af medicin, forstørret lever </p>
+</li>
+<li>
+<p>betændelse i huden (dermatitis), dødt hudvæv, hudsår, bronzefarvet pigmentering af huden </p>
+</li>
+<li>
+<p>nyresvigt, betændelse i urinblæren med blødning (hæmoragisk cystitis), smerter ved 
+vandladning (dysuri) </p>
+</li>
+<li>
+<p>forhøjet niveau af lactatdehydrogenase i blodet (et stof, der indikerer vævs- eller celleskade) </p>
+</li>
+</ul>
+<p>Børn og unge </p>
+<p>En liste over alle andre bivirkninger er opstillet nedenunder i henhold til, hvor almindelige de er. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>betændelse i slimhinden, især i munden (med sår), diarré, kvalme, opkastning, mavesmerter </p>
+</li>
+<li>
+<p>leverskade </p>
+</li>
+<li>
+<p>kløe, hårtab </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>forhøjet niveau af leverenzym i blodet (ALAT) </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>halssmerter, næseblod </p>
+</li>
+<li>
+<p>synkebesvær, betændelse i endetarmsåbningen, smerter i munden </p>
+</li>
+<li>
+<p>rødme og afskalning af det meste af huden på kroppen (eksfoliativ dermatitis), en type udslæt 
+med flade eller hævede røde knopper på huden (makulopapuløst udslæt), udslæt, rødme af 
+huden (erytem), nældefeber, hudsmerter, bronzefarvet pigmentering af huden </p>
+</li>
+<li>
+<p>kulderystelser </p>
+</li>
+<li>
+<p>forhøjet niveau af leverenzym i blodet (ASAT) og bilirubin (et leverpigment, ofte tegn på 
+leverproblemer) i blodet, forhøjet C-reaktivt protein (en markør for betændelse i kroppen) </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>en anden kræft forårsaget af kemoterapibehandlingen (sekundær malignitet) </p>
+</li>
+<li>
+<p>nedsat antal hvide blodlegemer med feber (febril neutropeni) </p>
+</li>
+<li>
+<p>mindre syre i blodet end normalt (alkalose), unormalt niveau af elektrolytter i blodet, nedsat 
+niveau af magnesium i blodet, nedsat appetit </p>
+</li>
+<li>
+<p>krampeanfald, følelse af prikken, stikken eller følelsesløshed (paræstesi) </p>
+</li>
+<li>
+<p>blødning i øjet, tørre øjne </p>
+</li>
+<li>
+<p>væskeudsivning fra kapillærerne (små blodårer), højt blodtryk, lavt blodtryk </p>
+</li>
+<li>
+<p>nedsat ilttilførsel til dele af kroppen (hypoksi), hoste </p>
+</li>
+<li>
+<p>betændelse i tyktarmen, mavebesvær, betændelse i slimhinden i endetarmen, smerter i 
+tandkødet, smerter i spiserøret, forstoppelse </p>
+</li>
+<li>
+<p>forstørret lever </p>
+</li>
+<li>
+<p>hudsår, en type udslæt med røde pletter og nogle gange områder, der er violette og har blærer i 
+midten (erythema multiforme), hudsygdom med væskefyldte blærer (bulløs dermatitis), akne, 
+hånd- og fodsyndrom (håndflader eller fodsåler prikker, bliver følelsesløse, hæver med smerter 
+eller er røde), bleudslæt med sårdannelse i området rundt om endetarmsåbningen </p>
+</li>
+<li>
+<p>smerter i arme eller ben </p>
+</li>
+<li>
+<p>nedsat nyrefunktion, nyresvigt, betændelse i urinblæren (cystitis), blod i urinen </p>
+</li>
+<li>
+<p>rød hud på pungen, smerter i penis </p>
+</li>
+<li>
+<p>ophobning af væske i vævene, der giver hævelser i ansigtet, træthed, smerter </p>
+</li>
+<li>
+<p>forhøjet niveau af leverenzym i blodet (gamma-glutamyltransferase) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trecondi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trecondi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen efter Exp. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>For opbevaringsbetingelser efter rekonstitution af lægemidlet, se oplysningerne nedenfor til læger og 
+sundhedspersonale. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trecondi indeholder: 
+Aktivt stof: treosulfan. Dette lægemiddel indeholder ingen andre indholdsstoffer. </p>
+<p>Trecondi 1 g pulver til infusionsvæske, opløsning 
+1 hætteglas med pulver indeholder 1 g treosulfan. </p>
+<p>Trecondi 5 g pulver til infusionsvæske, opløsning 
+1 hætteglas med pulver indeholder 5 g treosulfan. </p>
+<p>Efter rekonstitution indeholder 1 ml opløsning 50 mg treosulfan. </p>
+<p>Udseende og pakningsstørrelser 
+Hvidt krystallinsk pulver i et glas-hætteglas med en gummiprop og et aluminiumslåg. 
+Trecondi fås i pakninger, der indeholder 1 eller 5 hætteglas (type I-glas). </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+medac 
+Gesellschaft für klinische Spezialpräparate mbH 
+Theaterstr. 6 
+22880 Wedel 
+Tyskland 
+Tlf.: 
++49 4103 8006-0 
+Fax: 
++49 4103 8006-E-mail: contact@medac.de </p>
+<p>Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt;&lt;{måned ÅÅÅÅ}&gt;. </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Som for alle cytotoksiske stoffer, skal der tages passende forholdsregler, når treosulfan håndteres. </p>
+<p>Trænet personale skal rekonstituere lægemidlet. Når treosulfan håndteres, skal der undgås inhalation, 
+hudkontakt eller kontakt med slimhinder (det anbefales at bruge engangshandsker, øjenværn, dragt og 
+maske, der yder tilstrækkelig beskyttelse). Forurenede legemsdele skal skylles grundigt med vand og 
+sæbe, og øjnene skal skylles med natriumchloridopløsning 9 mg/ml (0,9 %). Hvis det er muligt, 
+anbefales det at arbejde på et specielt sikkerhedsarbejdsbord udstyret med laminært flow og 
+absorberende engangsfolie, som er uigennemtrængeligt for væske. Der skal udvises forsigtighed og 
+tages passende forholdsregler, når dele (sprøjter, kanyler mm.), der anvendes til at rekonstituere 
+cytotoksiske lægemidler, bortskaffes. Anvend Luer-lock-tilslutninger på alle sprøjter og sæt. Kanyler 
+med store huller anbefales for at minimere trykket og den mulige dannelse af aerosoler. Sidstnævnte 
+kan også reduceres ved at anvende en ventilationskanyle. 
+Gravide medarbejdere skal udelukkes fra at håndtere cytotoksiske lægemidler. </p>
+<p>Anvisninger i rekonstitution af treosulfan: 
+1. Treosulfan rekonstitueres i den originale glasbeholder. Rekonstituerede opløsninger med 
+treosulfan kan kombineres i et større glas-hætteglas, en PVC-pose eller PE-pose. 
+2. For at undgå problemer med opløselighed skal solvenset, natriumchloridopløsning 4,5 mg/ml 
+(0,45 %), opvarmes til 25 °C-30 °C (ikke varmere), for eksempel ved hjælp af et vandbad. 
+3. Fjern treosulfan-pulveret omhyggeligt fra indersiden af hætteglasset ved at ryste det. Dette er 
+meget vigtigt, da det kan føre til kagedannelse, hvis pulver, der klæber til overfladen, bliver 
+fugtigt. Hvis dette sker, skal hætteglasset rystes kraftigt for at opløse kagen igen. 
+4. Hvert hætteglas med Trecondi, der indeholder 1 g treosulfan, rekonstitueres i 20 ml forvarmet 
+(maks. 30 °C) natriumchloridopløsning 4,5 mg/ml (0,45 %) ved omrystning. 
+Rekonstituer hvert hætteglas med Trecondi, der indeholder 5 g treosulfan, i 100 ml forvarmet 
+(maks. 30 °C) natriumchloridopløsning 4,5 mg/ml (0,45 %) ved omrystning. </p>
+<p>Natriumchloridopløsningen på 4,5 mg/ml (0,45 %) kan forberedes ved at blande ækvivalente 
+voluminer af natriumchloridopløsning 9 mg/ml (0,9 %) og vand til injektionsvæsker. </p>
+<p>Rekonstitueret infusionsvæske, opløsning 
+Den rekonstituerede opløsning indeholder 50 mg treosulfan pr. ml og fremstår som en klar, farveløs 
+opløsning. 
+Opløsninger, der viser tegn på udfældning, må ikke anvendes. </p>
+<p>Efter rekonstitution med natriumchloridopløsning 0,45 mg/ml (0,45 %) er der blevet vist kemisk og 
+fysisk stabilitet i 3 dage ved 25 °C. </p>
+<p>Fra et mikrobiologisk synspunkt skal produktet anvendes straks, med mindre rekonstitutionsmetoden 
+udelukker risikoen for mikrobiel forurening. Hvis det ikke anvendes straks, er opbevaringstiderne og 
+forholdene under anvendelse brugerens ansvar. 
+Den rekonstituerede opløsning må ikke opbevares i køleskab (2 °C-8 °C), da det kan forårsage 
+udfældning. </p>
+<p>Treosulfan har mutagene og karcinogene egenskaber. Medicinrester samt alle materialer, der er brugt 
+til rekonstitution og administration, skal destrueres i overensstemmelse med standardprocedurer, der 
+gælder for antineoplastiske stoffer, under hensyntagen til gældende lovgivning med relation til 
+bortskaffelse af farligt affald. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-133076b034a4711dfc1fe81f7acd828f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trecondi Package Leaflet for language en"
+Description: "ePI document Bundle for trecondi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-133076b034a4711dfc1fe81f7acd828f"
+* entry[0].resource = composition-en-133076b034a4711dfc1fe81f7acd828f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp133076b034a4711dfc1fe81f7acd828f"
+* entry[=].resource = mp133076b034a4711dfc1fe81f7acd828f
+                            
+                    
+Instance: bundlepackageleaflet-da-133076b034a4711dfc1fe81f7acd828f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trecondi Package Leaflet for language da"
+Description: "ePI document Bundle for trecondi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-133076b034a4711dfc1fe81f7acd828f"
+* entry[0].resource = composition-da-133076b034a4711dfc1fe81f7acd828f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp133076b034a4711dfc1fe81f7acd828f"
+* entry[=].resource = mp133076b034a4711dfc1fe81f7acd828f
+                            
+                    
+
+
+
+Instance: mp133076b034a4711dfc1fe81f7acd828f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Trecondi 1 g powder for solution for infusion"
-Description: "Trecondi 1 g powder for solution for infusion"
+Title: "Medicinal Product trecondi"
+Description: "trecondi"
 Usage: #inline
 
  
@@ -347,7 +937,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Trecondi 1 g powder for solution for infusion"
+  * productName = "trecondi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -374,29 +964,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-133076b034a4711dfc1fe81f7acd828f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for trecondi Package Leaflet for language en"
-Description: "ePI document Bundle for trecondi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 133076b034a4711dfc1fe81f7acd828fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "21"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "trecondi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-133076b034a4711dfc1fe81f7acd828f"
-* entry[0].resource = composition-en-133076b034a4711dfc1fe81f7acd828f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp59881c90ecd8ff3b91250ce75210ae46"
-* entry[=].resource = mp59881c90ecd8ff3b91250ce75210ae46
-                            
-                      
+* title = "List of all ePIs associated with trecondi"
+
+* subject = Reference(mp59881c90ecd8ff3b91250ce75210ae46)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#trecondi "trecondi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-133076b034a4711dfc1fe81f7acd828f) // trecondi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-133076b034a4711dfc1fe81f7acd828f) // trecondi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-133076b034a4711dfc1fe81f7acd828f
+InstanceOf: List
+
+* insert 133076b034a4711dfc1fe81f7acd828fListRuleset
+    

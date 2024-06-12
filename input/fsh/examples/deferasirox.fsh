@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a361de1944c94e68e8ec09dc10081b81
 InstanceOf: CompositionUvEpi
 Title: "Composition for deferasirox Package Leaflet"
@@ -442,12 +445,666 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-a361de1944c94e68e8ec09dc10081b81
+InstanceOf: CompositionUvEpi
+Title: "Composition for deferasirox Package Leaflet"
+Description:  "Composition for deferasirox Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp49e08bd56cbbc631ea7505e4116cf8fa)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp49e08bd56cbbc631ea7505e4116cf8fa
+* title = "TEST PURPOSES ONLY - deferasirox"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Deferasirox Mylan 
+3. Sådan skal du tage Deferasirox Mylan 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What deferasirox is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What deferasirox is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Deferasirox Mylan indeholder et aktivt stof, der kaldes deferasirox. Det er en jernkelator. En 
+jernkelator er et lægemiddel, som anvendes for at fjerne overskud af jern fra kroppen (også kaldet 
+jernophobning). Det binder og fjerner det overskydende jern, som derefter udskilles med afføringen. </p>
+<p>Hvad Deferasirox Mylan anvendes til 
+Gentagne blodtransfusioner kan være nødvendige hos patienter med forskellige slags anæmier 
+(blodmangel) (fx talassæmi, seglcelleanæmi eller myelodysplastiske syndromer (MDS)). Imidlertid 
+kan gentagne blodtransfusioner forårsage ophobning af overskydende jern. Dette skyldes, at blod 
+indeholder jern, og at din krop ikke har en naturlig metode til at fjerne det overskydende jern, du får 
+med blodtransfusionerne. Patienter med ikke-transfusionsafhængige talassæmi-syndromer kan på sigt 
+også udvikle jernophobning. Det skyldes hovedsageligt øget optagelse af jern fra kosten forårsaget af 
+et lavt antal blodceller. På længere sigt kan det overskydende jern ødelægge vigtige organer såsom 
+leveren og hjertet. Lægemidler kaldet jernkelatorer anvendes til at fjerne det overskydende jern. De 
+nedsætter dermed risikoen for, at det overskydende jern forårsager organskader. </p>
+<p>Deferasirox Mylan anvendes til at behandle kronisk jernophobning hos patienter i alderen 6 år og 
+derover med beta-talassæmi major forårsaget af hyppige blodtransfusioner. </p>
+<p>Deferasirox Mylan anvendes også til behandling af kronisk jernophobning, når deferoxamin ikke kan 
+benyttes eller ikke har tilstrækkelig virkning til patienter med beta-talassæmi major med 
+jernophobning forårsaget af sjældne blodtransfusioner, til patienter med andre typer af anæmier og til 
+børn i alderen 2 til 5 år. </p>
+<p>Deferasirox Mylan anvendes også til ikke-transfusionsafhængige patienter i alderen 10 år eller 
+derover, der har fået jernophobning i forbindelse med deres talassæmi-syndromer, når deferoxamin- behandling er kontraindiceret eller utilstrækkelig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take deferasirox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take deferasirox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Deferasirox Mylan 
+– 
+hvis du er allergisk over for deferasirox eller et af de øvrige indholdsstoffer i Deferasirox Mylan 
+(angivet i punkt 6). Hvis dette gælder for dig, skal du fortælle det til lægen, inden du tager 
+Deferasirox Mylan. Hvis du har mistanke om, at du kan være allergisk, skal du spørge lægen til 
+råds. 
+– 
+hvis du har en moderat eller alvorlig nyresygdom. 
+– 
+hvis du for tiden indtager anden jernkelatormedicin. </p>
+<p>Deferasirox Mylan anbefales ikke 
+– 
+hvis du er på et fremskredent stadie af myelodysplastisk syndrom (MDS; nedsat produktion af 
+blodceller i knoglemarven) eller har fremskreden kræft. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Deferasirox Mylan: 
+– 
+hvis du har nyre- eller leverproblemer. 
+– 
+hvis du har hjerteproblemer, der er forårsaget af jernophobning. 
+– 
+hvis du opdager en markant nedsættelse af din urinmængde (tegn på nyreproblem). 
+– 
+hvis du udvikler alvorlige udslæt, vejrtrækningsbesvær og svimmelhed eller oplever hævelse 
+hovedsageligt i ansigtet og på halsen (tegn på alvorlig allergisk reaktion, se også punkt 4 
+”Bivirkninger”). 
+– 
+hvis du oplever en kombination af ethvert af de følgende symptomer: udslæt, rød hud, blærer på 
+læberne, øjne eller mund, hudafskalninger, høj feber, influenzalignende symptomer, forstørrede 
+lymfekirtler (tegn på alvorlig hudreaktion, se også pkt. 4 ”Bivirkninger”). 
+– 
+hvis du oplever en kombination af døsighed, smerter i den øvre højre del af maven, gulfarvning 
+af din hud eller øjne og mørk urin (tegn på leverproblemer). 
+– 
+hvis du oplever problemer med at tænke klart, huske information eller løse opgaver, er mindre 
+opmærksom eller bevidst eller er meget træt og har lavt energiniveau (tegn på et højt niveau af 
+ammoniak i dit blod, hvilket kan være forbundet med nyre- eller leversygdomme, se også 
+afsnit 4 ”Bivirkninger”). 
+– 
+hvis du kaster blod op/eller har sort afføring. 
+– 
+hvis du ofte oplever mavesmerter, specielt efter spisning eller indtagelse af Deferasirox Mylan. 
+– 
+hvis du ofte oplever halsbrand. 
+– 
+hvis du har et lavt antal blodplader eller hvide blodceller i din blodprøve. 
+– 
+hvis du har sløret syn. 
+– 
+hvis du har diarré eller kaster op. 
+Hvis noget af dette gælder for dig, så fortæl det til din læge med det samme. </p>
+<p>Kontrol af din behandling med Deferasirox Mylan 
+Du vil få taget regelmæssige blod- og urinprøver under behandlingen. Lægerne vil kontrollere 
+blodprøvernes mængde af jern, og dermed mængden af jern i kroppen (ferritin-niveau i blodet) for at 
+se, hvor godt Deferasirox Mylan virker. Prøverne vil også vise nyrefunktionen (kreatinin-niveau i 
+blodet, tilstedeværelse af protein i urinen) og leverfunktionen (transaminase-niveau i blodet). Din læge 
+kan kræve, at du får foretaget en nyrebiopsi, hvis han/hun mistænker alvorlig nyreskade. Du får måske 
+også foretaget MR-scanninger (magnetisk resonans) for at bestemme mængden af jern i din lever. Din 
+læge vil tage disse prøver med i betragtning, når han/hun afgør, hvilken dosis Deferasirox Mylan, der 
+passer bedst til dig, og vil også bruge disse prøver til at afgøre, hvornår du skal stoppe med at tage 
+Deferasirox Mylan. </p>
+<p>Som en sikkerhedsforanstaltning vil dit syn og hørelse blive testet hvert år. </p>
+<p>Brug af anden medicin sammen med Deferasirox Mylan 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette gælder specielt: 
+– 
+andre jernkelatorer, som ikke må tages sammen med Deferasirox Mylan, 
+– 
+syreneutraliserende medicin (medicin til behandling af halsbrand), der indeholder aluminium, 
+som du ikke må tage på samme tidspunkt af døgnet som Deferasirox Mylan, </p>
+<p>– 
+ciclosporin (bruges til at forhindre kroppen i at afstøde et transplanteret organ, eller til andre 
+lidelser som gigt og udslæt), 
+– 
+simvastatin (bruges til at sænke kolesterol), 
+– 
+visse smertestillende eller antiinflammatoriske lægemidler (fx acetylsalicylsyre, ibuprofen, 
+kortikosteroider), 
+– 
+orale bisfosfonater (bruges til behandling af osteoporose), 
+– 
+antikoagulerende medicin (bruges til at modvirke eller behandle blodpropper), 
+– 
+hormonelle graviditetsforebyggende midler, 
+– 
+bepridil, ergotamin (bruges til behandling af hjerteproblemer og migræne), 
+– 
+repaglinid (bruges til at behandle sukkersyge), 
+– 
+rifampicin (bruges til at behandle tuberkulose), 
+– 
+phenytoin, phenobarbital, carbamazepin (bruges til at behandle epilepsi), 
+– 
+ritonavir (bruges i behandlingen af HIV-infektion), 
+– 
+paclitaxel (bruges i kræftbehandling), 
+– 
+theofyllin (bruges til at behandle lungesygdomme såsom astma), 
+– 
+clozapin (bruges til at behandle psykiske sygdomme såsom skizofreni), 
+– 
+tizanidin (virker muskelafslappende), 
+– 
+cholestyramin (bruges til at sænke kolesterolniveauet i blodet), 
+– 
+busulfan (bruges som behandling for at ødelægge den originale knoglemarv inden en 
+transplantation), 
+– 
+midazolam (bruges til at lindre angst og/eller søvnbesvær). </p>
+<p>Supplerende undersøgelser kan være nødvendige for at kontrollere blodniveauet af nogle af disse 
+lægemidler. </p>
+<p>Ældre (65 år og derover) 
+Deferasirox Mylan kan anvendes af folk i alderen 65 år og derover med samme dosis som for andre 
+voksne. Ældre patienter kan opleve flere bivirkninger (specielt diarré) end yngre patienter. De skal 
+følges tæt af deres læge for at opdage bivirkninger, der kan kræve dosisjusteringer. </p>
+<p>Børn og unge 
+Deferasirox Mylan kan anvendes til børn og unge i alderen 2 år og derover, der får regelmæssige 
+blodtransfusioner, samt hos børn og unge i alderen 10 år og derover, der ikke får regelmæssige 
+blodtransfusioner. Efterhånden som patienten vokser, vil lægen justere dosis. </p>
+<p>Deferasirox Mylan anbefales ikke til børn under 2 år. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>Deferasirox Mylan frarådes under graviditet, medmindre det er strengt nødvendigt. </p>
+<p>Hvis du i øjeblikket tager et hormonelt præventionsmiddel for at forebygge graviditet, bør du bruge 
+en supplerende eller anden type prævention (fx kondom), da Deferasirox Mylan kan nedsætte 
+virkningen af hormonelle præventionsmidler. </p>
+<p>Amning frarådes under behandling med Deferasirox Mylan. </p>
+<p>Trafik- og arbejdssikkerhed 
+Hvis du føler dig svimmel, efter at du har taget Deferasirox Mylan, må du ikke køre bil eller betjene 
+værktøj eller maskiner før du har det godt igen. </p>
+<p>Deferasirox Mylan indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take deferasirox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take deferasirox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med Deferasirox Mylan vil blive overvåget af en læge, der har erfaring med behandling af 
+jernophobning forårsaget af blodtransfusioner. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvor meget Deferasirox Mylan skal du tage 
+Dosis af Deferasirox Mylan filmovertrukne tabletter afhænger for alle patienter af kropsvægten. Din 
+læge vil beregne den dosis, der passer til dig, og fortælle dig hvor mange tabletter, du skal tage hver 
+dag. </p>
+<ul>
+<li>
+<p>Den sædvanlige dosis af Deferasirox Mylan filmovertrukne tabletter ved behandlingsstart for 
+patienter, der får regelmæssige blodtransfusioner, er 14 mg pr. kg kropsvægt. Det kan være, at 
+lægen – afhængigt af dit behov – anbefaler en højere eller lavere startdosis. </p>
+</li>
+<li>
+<p>Den sædvanlige daglige dosis af Deferasirox Mylan filmovertrukne tabletter ved 
+behandlingsstart for patienter, der ikke får regelmæssige blodtransfusioner, er 7 mg pr. kg 
+kropsvægt. </p>
+</li>
+<li>
+<p>Alt efter hvordan du reagerer på behandlingen, kan din læge senere justere din behandling til 
+højere eller lavere dosis. </p>
+</li>
+<li>
+<p>Den maksimale anbefalede daglige dosis af Deferasirox Mylan filmovertrukne tabletter er: </p>
+</li>
+<li>
+<p>28 mg pr. kg kropsvægt for patienter, der får regelmæssige blodtransfusioner, </p>
+</li>
+<li>
+<p>14 mg pr. kg kropsvægt for voksne patienter, der ikke får regelmæssige blodtransfusioner, </p>
+</li>
+<li>
+<p>7 mg pr. kg kropsvægt for børn og teenagere, der ikke får regelmæssige 
+blodtransfusioner. </p>
+</li>
+</ul>
+<p>Deferasirox fås også som ”dispergible” tabletter. Hvis du skal skifte fra dispergible tabletter til disse 
+filmovertrukne tabletter, skal din dosis justeres. </p>
+<p>Hvornår skal du tage Deferasirox Mylan </p>
+<ul>
+<li>
+<p>Tag Deferasirox Mylan sammen med noget vand, én gang daglig, hver dag, på cirka samme 
+tidspunkt. </p>
+</li>
+<li>
+<p>Tag Deferasirox Mylan filmovertrukne tabletter på tom mave eller med et let måltid. 
+Tag Deferasirox Mylan på samme tidspunkt hver dag. Det vil også gøre det lettere for dig at huske, 
+hvornår du skal tage dine tabletter. </p>
+</li>
+</ul>
+<p>For patienter, som ikke kan sluge hele tabletter, kan Deferasirox Mylan filmovertrukne tabletter knuses 
+og indtages ved at drysse hele dosis over blød mad, som fx yoghurt eller æblemos. Maden skal 
+indtages med det samme og skal spises op. Gem den ikke til senere brug. </p>
+<p>Hvor længe skal du tage Deferasirox Mylan 
+Fortsæt med at tage Deferasirox Mylan hver dag, så længe lægen beder dig om det. Dette er en 
+længerevarende behandling, der muligvis kan vare måneder eller år. Din læge vil regelmæssigt holde 
+øje med din tilstand for at kontrollere, at behandlingen har den ønskede effekt (se også pkt. 2: ”Kontrol 
+af din behandling med Deferasirox Mylan”). </p>
+<p>Hvis du har spørgsmål om, hvor lang tid du skal tage Deferasirox Mylan, så tal med din læge. </p>
+<p>Hvis du har taget for meget Deferasirox Mylan 
+Hvis du har taget for meget Deferasirox Mylan, eller hvis nogen ved et uheld kommer til at tage dine 
+tabletter, så kontakt med det samme din læge eller skadestuen. Vis lægen pakken med tabletter. Akut 
+medicinsk behandling kan være nødvendig. Du kan opleve bivirkninger såsom mavesmerter, diarré, 
+kvalme og opkast og nyre eller lever problemer, som kan være alvorlige. </p>
+<p>Hvis du har glemt at tage Deferasirox Mylan 
+Hvis du glemmer en dosis, så tag den, så snart du husker det den samme dag. Tag din næste dosis som 
+planlagt. Du må ikke tage en dobbeltdosis den næste dag som erstatning for de(n) glemt(e) tablet(ter). </p>
+<p>Hvis du holder op med at tage Deferasirox Mylan 
+Hold ikke op med at tage Deferasirox Mylan, medmindre din læge giver dig besked på det. Hvis du 
+holder op med at tage Deferasirox Mylan, vil det overskydende jern ikke længere blive fjernet fra din 
+krop (se også ovenstående pkt.: ”Hvor længe skal du tage Deferasirox Mylan”). </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+fleste af bivirkningerne er milde til moderate og vil almindeligvis forsvinde efter et par dage til et par 
+ugers behandling. </p>
+<p>Visse bivirkninger kan være alvorlige og kræve omgående lægehjælp. 
+Disse bivirkninger er ikke almindelige (kan påvirke op til 1 ud af 100 patienter) eller sjældne (kan 
+påvirke op til 1 ud af 1.000 patienter). </p>
+<ul>
+<li>
+<p>Hvis du får alvorligt udslæt, besvær med at trække vejret og svimmelhed eller hævelse af 
+hovedsageligt ansigtet og halsen (tegn på alvorlig allergisk reaktion), </p>
+</li>
+<li>
+<p>Hvis du oplever en kombination af ethvert af de følgende symptomer: udslæt, rød hud, blærer på 
+læberne, øjne eller mund, hudafskalninger, høj feber, influenzalignende symptomer, forstørrede 
+lymfekirtler (tegn på alvorlig hudreaktion), </p>
+</li>
+<li>
+<p>Hvis du oplever en kraftig nedsættelse af din urinproduktion (tegn på nyreproblemer), </p>
+</li>
+<li>
+<p>Hvis du oplever en kombination af døsighed, smerter i den øvre højre del af maven, gulfarvning 
+af din hud eller øjne og mørk urin (tegn på leverproblemer), </p>
+</li>
+<li>
+<p>Hvis du oplever problemer med at tænke klart, huske information eller løse opgaver, er mindre 
+opmærksom eller bevidst eller er meget træt og har lavt energiniveau (tegn på et højt niveau af 
+ammoniak i dit blod, hvilket kan være forbundet med nyre- eller leversygdomme og kan 
+medføre ændring i hjernefunktionen), </p>
+</li>
+<li>
+<p>Hvis du kaster blod op/eller har sort afføring, </p>
+</li>
+<li>
+<p>Hvis du ofte oplever mavesmerter, specielt efter spisning eller indtagelse af Deferasirox Mylan, </p>
+</li>
+<li>
+<p>Hvis du ofte oplever halsbrand, </p>
+</li>
+<li>
+<p>Hvis du oplever delvist tab af dit syn, </p>
+</li>
+<li>
+<p>Hvis du oplever voldsomme mavesmerter (pancreatitis), 
+stop med at tage dette lægemiddel og fortæl det til lægen med det samme. </p>
+</li>
+</ul>
+<p>Visse bivirkninger kan blive alvorlige. 
+Disse bivirkninger er ikke almindelige. </p>
+<ul>
+<li>
+<p>Hvis du får utydeligt eller sløret syn, </p>
+</li>
+<li>
+<p>Hvis du får nedsat hørelse, 
+så fortæl det til lægen hurtigst muligt. </p>
+</li>
+</ul>
+<p>Andre bivirkninger 
+Meget almindelige (kan påvirke flere end 1 ud af 10 patienter) </p>
+<ul>
+<li>Forstyrrelse i nyrefunktionstests. </li>
+</ul>
+<p>Almindelige (kan påvirke op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>Mave-tarm-lidelser, såsom kvalme, opkastning, diarré, smerter i mave/underliv, oppustethed, 
+forstoppelse, fordøjelsesbesvær </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Afvigelser i analyser for leverfunktionen </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Afvigelser i urinanalyser (protein i urinen) 
+Hvis nogen af disse bivirkninger påvirker dig alvorligt, så fortæl det til din læge. </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan påvirke op til 1 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Ondt i halsen </p>
+</li>
+<li>
+<p>Hævelse af arme eller ben </p>
+</li>
+<li>
+<p>Ændringer i farven på huden </p>
+</li>
+<li>
+<p>Angst </p>
+</li>
+<li>
+<p>Søvnforstyrrelser </p>
+</li>
+<li>
+<p>Træthed 
+Hvis nogen af disse bivirkninger påvirker dig alvorligt, så fortæl det til din læge. </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>Et fald i antallet af celler, der er involveret i blodets evne til at størkne (trombocytopeni), i 
+antallet af røde blodlegemer (forværret anæmi), i antallet af hvide blodlegemer (neutropeni) eller 
+i antallet af alle slags blodlegemer (pancytopeni) </p>
+</li>
+<li>
+<p>Hårtab </p>
+</li>
+<li>
+<p>Nyresten </p>
+</li>
+<li>
+<p>Nedsat vandladning </p>
+</li>
+<li>
+<p>Flænge i mave eller tarmvæg, som kan være smertefuldt og give kvalme </p>
+</li>
+<li>
+<p>Voldsomme mavesmerter (pancreatitis) </p>
+</li>
+<li>
+<p>Unormalt niveau af syre i blodet </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store deferasirox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store deferasirox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen og æsken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. 
+Brug ikke pakninger, der er beskadiget eller viser tegn på at være i stykker eller at have været åbnet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Deferasirox Mylan indeholder: 
+Aktivt stof: deferasirox. </p>
+<ul>
+<li>
+<p>Hver filmovertrukket tablet af Deferasirox Mylan 90 mg indeholder 90 mg deferasirox. </p>
+</li>
+<li>
+<p>Hver filmovertrukket tablet af Deferasirox Mylan 180 mg indeholder 180 mg deferasirox. </p>
+</li>
+<li>
+<p>Hver filmovertrukket tablet af Deferasirox Mylan 360 mg indeholder 360 mg deferasirox. </p>
+</li>
+</ul>
+<p>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, crospovidon, povidon, magnesiumstearat, kolloid 
+vandfri silica og poloxamerer. Tablettens filmovertræk indeholder: hypromellose, titandioxid (E171), 
+macrogol/PEG (6000), talcum, indigotin (E132). </p>
+<p>Udseende og pakningsstørrelser 
+Deferasirox Mylan udleveres som filmovertrukne tabletter. </p>
+<ul>
+<li>
+<p>Deferasirox Mylan 90 mg filmovertrukne tabletter er blå, filmovertrukne, modificeret 
+kapselformede, bikonvekse tabletter præget med ”    ” på den ene side af tabletten og ”DF” på 
+den anden side. </p>
+</li>
+<li>
+<p>Deferasirox Mylan 180 mg filmovertrukne tabletter er blå, filmovertrukne, modificeret 
+kapselformede, bikonvekse tabletter præget med ”    ” på den ene side af tabletten og ”DF 1” på 
+den anden side. </p>
+</li>
+<li>
+<p>Deferasirox Mylan 360 mg filmovertrukne tabletter er blå, filmovertrukne, modificeret 
+kapselformede, bikonvekse tabletter præget med ”    ” på den ene side af tabletten og ”DF 2” 
+på den anden side. </p>
+</li>
+</ul>
+<p>Deferasirox Mylan fås i klare, transparente PVC/PVDC/aluminium blisterpakninger, der indeholder eller 90 filmovertrukne tabletter, og som enkeltdosisblisterpakninger med 30 tabletter, samt i hvide 
+tabletbeholdere af plastik med hvide, gennemsigtige skruelåg med aluminiumsforsegling, der 
+indeholder 90 og 300 tabletter. 
+Deferasirox Mylan 360 mg filmovertrukne tabletter er også tilgængelige i blisterpakninger med tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Mylan Pharmaceuticals Limited 
+Damastown Industrial Park, Mulhuddart, Dublin 15, DUBLIN, Irland </p>
+<p>Fremstiller 
+Mylan Hungary Kft, Mylan utca 1, Komárom, 2900, Ungarn </p>
+<p>McDermott Laboratories Limited t/a Gerard Laboratories t/a Mylan Dublin, Unit 35/36 Baldoyle 
+Industrial Estate, Grange Road, Dublin 13, Irland </p>
+<p>Mylan Germany GmbH, Zweigniederlassung Bad Homburg v. d. Hoehe 
+Benzstrasse 1, Bad Homburg v. d. Hoehe, Hessen, 61352, Tyskland  </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Mylan bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61 Lietuva 
+Mylan Healthcare UAB<br />
+Tel: +370 5 205 1България 
+Майлан ЕООД 
+Тел.: +359 2 44 55 Luxembourg/Luxemburg 
+Mylan bvba/sprl 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) 
+Česká republika 
+Viatris CZ s.r.o. 
+Tel: + 420 222 004 Magyarország 
+Mylan EPD Kft 
+Tel.: + 36 1 465 2Danmark 
+Viatris ApS<br />
+Tlf: +45 28 11 69<br />
+Malta 
+V.J. Salomone Pharma Ltd<br />
+Tel: + 356 21 22 01 Deutschland 
+Viatris Healthcare GmbH<br />
+Tel: +49 800 0700 Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3Eesti 
+BGP Products Switzerland GmbH Eesti 
+filiaal<br />
+Tel: + 372 6363 Norge 
+Viatris AS<br />
+Tlf: +47 66 75 33<br />
+Ελλάδα 
+Generics Pharma Hellas ΕΠΕ<br />
+Τηλ: +30 210 993 6Österreich 
+Arcana Arzneimittel GmbH<br />
+Tel: +43 1 416 2España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102 Polska 
+Mylan Healthcare Sp. z.o.o.<br />
+Tel.: + 48 22 546 64 France 
+Viatris Santé 
+Tél : +33 4 37 25 75 Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127 Hrvatska 
+Mylan Hrvatska d.o.o.<br />
+Tel: +385 1 23 50 România 
+BGP Products SRL 
+Tel: + 40 372 579 Ireland 
+Mylan Ireland Limited<br />
+Tel: +353 (0) 87 1694Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63 Ísland 
+Icepharma hf 
+Sími: +354 540 8Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199 Italia 
+Mylan Italia S.r.l. 
+Tel: + 39 02 612 46Suomi/Finland 
+Viatris Oy<br />
+Puh/Tel: +358 20 720 9Κύπρος 
+Varnavas Hadjipanayis Ltd 
+Τηλ: + 357 2220 7Sverige 
+Viatris AB 
+Tel: + 46 (0)8 630 19 Latvija 
+Mylan Healthcare SIA<br />
+Tel: +371 676 055 United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited<br />
+Tel: +353 18711 
+Denne indlægsseddel blev senest ændret i {MM/ÅÅÅÅ}. </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a361de1944c94e68e8ec09dc10081b81
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for deferasirox Package Leaflet for language en"
+Description: "ePI document Bundle for deferasirox Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a361de1944c94e68e8ec09dc10081b81"
+* entry[0].resource = composition-en-a361de1944c94e68e8ec09dc10081b81
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa361de1944c94e68e8ec09dc10081b81"
+* entry[=].resource = mpa361de1944c94e68e8ec09dc10081b81
+                            
+                    
+Instance: bundlepackageleaflet-da-a361de1944c94e68e8ec09dc10081b81
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for deferasirox Package Leaflet for language da"
+Description: "ePI document Bundle for deferasirox Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a361de1944c94e68e8ec09dc10081b81"
+* entry[0].resource = composition-da-a361de1944c94e68e8ec09dc10081b81
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa361de1944c94e68e8ec09dc10081b81"
+* entry[=].resource = mpa361de1944c94e68e8ec09dc10081b81
+                            
+                    
+
+
+
+Instance: mpa361de1944c94e68e8ec09dc10081b81
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Deferasirox Mylan 90 mg film-coated tablets"
-Description: "Deferasirox Mylan 90 mg film-coated tablets"
+Title: "Medicinal Product deferasirox"
+Description: "deferasirox"
 Usage: #inline
 
  
@@ -467,7 +1124,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Deferasirox Mylan 90 mg film-coated tablets"
+  * productName = "deferasirox"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -494,29 +1151,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a361de1944c94e68e8ec09dc10081b81
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for deferasirox Package Leaflet for language en"
-Description: "ePI document Bundle for deferasirox Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a361de1944c94e68e8ec09dc10081b81ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Deferasirox Mylan 90 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "deferasirox"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a361de1944c94e68e8ec09dc10081b81"
-* entry[0].resource = composition-en-a361de1944c94e68e8ec09dc10081b81
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp49e08bd56cbbc631ea7505e4116cf8fa"
-* entry[=].resource = mp49e08bd56cbbc631ea7505e4116cf8fa
-                            
-                      
+* title = "List of all ePIs associated with deferasirox"
+
+* subject = Reference(mp49e08bd56cbbc631ea7505e4116cf8fa)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#deferasirox "deferasirox"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a361de1944c94e68e8ec09dc10081b81) // deferasirox en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a361de1944c94e68e8ec09dc10081b81) // deferasirox da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a361de1944c94e68e8ec09dc10081b81
+InstanceOf: List
+
+* insert a361de1944c94e68e8ec09dc10081b81ListRuleset
+    

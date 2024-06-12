@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1e58e95d51201027f560781373a2f270
 InstanceOf: CompositionUvEpi
 Title: "Composition for rebif Package Leaflet"
@@ -415,12 +418,592 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-1e58e95d51201027f560781373a2f270
+InstanceOf: CompositionUvEpi
+Title: "Composition for rebif Package Leaflet"
+Description:  "Composition for rebif Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd80a58cd822963967ed1212d4ccbdb67)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd80a58cd822963967ed1212d4ccbdb67
+* title = "TEST PURPOSES ONLY - rebif"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Rebif </li>
+<li>Sådan skal du bruge Rebif </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rebif is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rebif is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rebif tilhører en gruppe lægemidler, der er kendt som interferoner. Disse er naturlige substanser, der 
+viderefører beskeder mellem celler. Interferoner produceres i kroppen og spiller en vigtig rolle i 
+immunforsvaret. Via en mekanisme, der ikke fuldt ud er forstået, hjælper interferoner med at begrænse 
+de skader på centralnervesystemet, der er forbundet med dissemineret sklerose.  </p>
+<p>Rebif er et højt oprenset opløst protein, der ligner det naturlige interferon beta, der produceres i den 
+menneskelige krop. </p>
+<p>Rebif anvendes til behandling af multipel sklerose. Rebif er vist at nedsætte antallet og 
+sværhedsgraden af attakkerne og forsinke forværringen i førlighed. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rebif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rebif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Rebif </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for naturligt eller rekombinant interferon beta eller et af de øvrige 
+indholdsstoffer i Rebif (angivet i punkt 6), </p>
+</li>
+<li>
+<p>hvis du har en alvorlig depression.  </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet ellersygeplejersken, før du bruger Rebif. </p>
+<ul>
+<li>
+<p>Rebif må kun anvendes under vejledning af din læge. </p>
+</li>
+<li>
+<p>Læs anvisningerne grundigt og følg rådene under “Sådan skal du tage Rebif", før behandling 
+med Rebif påbegyndes. Ved at følge dem nedsætter du risikoen for nekroser på injektionsstedet 
+(ødelæggelse af hud og væv), som er set hos patienter, der er blevet behandlet med Rebif. Hvis 
+du oplever generende lokale reaktioner, skal du kontakte din læge. </p>
+</li>
+<li>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Rebif, hvis du er allergisk (overfølsom) over 
+for nogen som helst anden medicin. </p>
+</li>
+<li>
+<p>Under behandlingen kan der opstå blodpropper i de små blodårer. Disse blodpropper kan 
+påvirke dine nyrer. Dette kan ske flere uger til flere år efter, du er startet på behandlingen med 
+Rebif. Din læge kan ønske at kontrollere dit blodtryk, blod (blodpladetal) og din nyrefunktion. </p>
+</li>
+</ul>
+<p>Fortæl det til din læge, hvis du lider af sygdomme i </p>
+<ul>
+<li>
+<p>knoglemarven </p>
+</li>
+<li>
+<p>nyrerne </p>
+</li>
+<li>
+<p>leveren </p>
+</li>
+<li>
+<p>hjertet </p>
+</li>
+<li>
+<p>skjoldbruskkirtlen </p>
+</li>
+<li>
+<p>eller hvis du har haft en depression </p>
+</li>
+<li>
+<p>eller hvis du tidligere har haft epileptiske anfald 
+så lægen nøje kan overvåge din behandling og eventuel forværring af disse lidelser. </p>
+</li>
+</ul>
+<p>Brug af anden medicin sammen med Rebif 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin , for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin.<br />
+Det er især vigtigt, at du fortæller til din læge, hvis du bruger medicin mod epilepsi eller depression. </p>
+<p>Graviditet og amning 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din 
+læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. 
+Der forventes ingen skadelige virkninger på de ammede nyfødte/spædbørn. Rebif kan anvendes under 
+amning. </p>
+<p>Trafik- og arbejdssikkerhed 
+Både sygdommen selv og behandlingen kan påvirke dine evner til at føre motorkøretøj og betjene 
+maskiner. Du bør diskutere dette med din læge, hvis du er bekymret.  </p>
+<p>Rebif indeholder natrium og benzylalkohol 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>
+<p>Dette lægemiddel indeholder 2,5 mg benzylalkohol pr. dosis. Benzylalkohol kan medføre allergiske 
+reaktioner. </p>
+<p>Benzylalkohol er forbundet med risiko for alvorlige bivirkninger inklusive åndedrætsbesvær (kaldet 
+"gasping syndrome") hos små børn. </p>
+<p>Må ikke anvendes til børn (under 3 år) i mere end én uge uden lægens eller apotekspersonalets 
+anvisning. </p>
+<p>Spørg din læge eller apotekspersonalet til råds, hvis du er gravid eller ammer, eller hvis du har en 
+lever- eller nyresygdom. Dette skyldes, at store mængder benzylalkohol kan ophobes i din krop og kan 
+medføre bivirkninger (kaldet "metabolisk acidose"). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rebif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rebif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Dosis 
+Den sædvanlige dosis er 44 mikrogram (12 millioner IE) tre gange om ugen. Din læge har ordineret en 
+lavere dosis på 22 mikrogram (6 millioner IE) tre gange om ugen til dig. Denne lavere dosis anbefales 
+til patienter, som ikke kan tåle den høje dosis. </p>
+<p>Rebif skal gives tre gange om ugen og om muligt: </p>
+<ul>
+<li>
+<p>på de samme tre dage hver uge (med mindst 48 timers mellemrum, f.eks. mandag, onsdag, 
+fredag). </p>
+</li>
+<li>
+<p>på samme tidspunkt af dagen (fortrinsvis om aftenen). </p>
+</li>
+</ul>
+<p>Brug til børn og unge (2 til 17 år) 
+Der er ikke udført formelle kliniske studier hos børn og unge. Der foreligger dog nogle kliniske data, 
+der tyder på, at sikkerhedsprofilen hos børn og unge, der behandles med Rebif 22 mikrogram eller 
+Rebif 44 mikrogram tre gange om ugen, svarer til sikkerhedsprofilen hos voksne. </p>
+<p>Brug til børn (under 2 år) 
+Rebif bør ikke anvendes til børn under 2 år. </p>
+<p>Administration 
+Rebif er beregnet til subkutan injektion (under huden). 
+Den/de første injektion(er) skal foretages under vejledning af en kvalificeret sundhedsperson. Efter at 
+have fået tilstrækkelig undervisning kan du selv, et familiemedlem, en ven eller plejeperson anvende 
+Rebif injektionssprøjterne til at give medicinen derhjemme. Du kan også anvende en egnet 
+autoinjektor. </p>
+<p>Ved injektion af Rebif skal du læse følgende instruktion omhyggeligt: 
+Denne medicin er til engangsbrug. Der må kun anvendes en klar opløsning uden partikler og uden 
+synlige tegn på forringelse.  </p>
+<p>Sådan indsprøjtes Rebif </p>
+<ul>
+<li>
+<p>Vælg et injektionssted. Din læge/sygeplejerske vil vise dig 
+mulige injektionssteder på kroppen (gode steder er øvre del af 
+låret og nedre del af maven). Hold injektionssprøjten som en 
+blyant eller dartpil. For at minimere risikoen for at der opstår 
+dødt væv på injektionsstedet, anbefales det, at du holder dig 
+ajour med og skifter injektionssted, således at det samme 
+område ikke anvendes for ofte.<br />
+BEMÆRK: Du må ikke injicere på steder, hvor du føler 
+hævelser, hårde knuder eller smerter. Spørg lægen eller 
+sygeplejersken, hvis der er noget, du er i tvivl om. </p>
+</li>
+<li>
+<p>Vask dine hænder grundigt med vand og sæbe. </p>
+</li>
+<li>
+<p>Tag Rebif injektionssprøjten ud af blisterpakningen ved at trække plastikdækket bort. </p>
+</li>
+<li>
+<p>Brug en spritserviet til at rense huden på injektionsstedet før injektionen. Lad huden tørre. Hvis 
+der er lidt sprit tilbage på huden, kan du føle en stikkende fornemmelse. </p>
+</li>
+<li>
+<p>Knib forsigtigt huden sammen omkring injektionsstedet (løft huden 
+lidt op). </p>
+</li>
+<li>
+<p>Hvil håndleddet mod huden i nærheden af injektionsstedet og stik 
+kanylen lodret ind i huden med en hurtig og bestemt bevægelse. </p>
+</li>
+<li>
+<p>Injicér lægemidlet ved at presse langsomt og jævnt på stemplet (pres 
+stemplet helt i bund, til injektionssprøjten er tom). </p>
+</li>
+<li>
+<p>Hold et stykke vat mod injektionsstedet. Træk kanylen ud af huden. </p>
+</li>
+<li>
+<p>Massér forsigtig injektionsstedet med et tørt stykke vat eller gazekompres. </p>
+</li>
+<li>
+<p>Kassér alle anvendte ting: Når du har afsluttet injektionen, skal du øjeblikkeligt kassere 
+injektionssprøjten i en egnet affaldsbeholder. </p>
+</li>
+</ul>
+<p>Hvis du har brugt for meget Rebif 
+I tilfælde af overdosis skal du omgående kontakte din læge. </p>
+<p>Hvis du har glemt at bruge Rebif 
+Hvis du glemmer en injektion, skal du blot tage injektionen den næste fastsatte dag. Du må ikke tage 
+en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at bruge Rebif 
+Du lægger måske ikke mærke til Rebifs virkning med det samme. Du må derfor ikke holde op med at 
+bruge Rebif, men skal fortsætte med at anvende det regelmæssigt for at opnå det ønskede resultat. 
+Hvis du er usikker omkring fordelene, bør du kontakte din læge. </p>
+<p>Du bør ikke afbryde behandlingen uden først at have kontaktet din læge. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Kontakt straks din læge og stop med at tage Rebif, hvis du får nogle af følgende alvorlige 
+bivirkninger:  </p>
+<ul>
+<li>
+<p>Alvorlige allergiske reaktioner (overfølsomhed). Hvis du umiddelbart efter Rebif-injektionen 
+får pludseligt åndedrætsbesvær, eventuelt i forbindelse med hævelse i ansigtet, af læberne, 
+tungen eller i halsen, eller nældefeber, kløe over hele kroppen og en følelse af svaghed eller 
+mathed, skal du straks kontakte læge eller skadestue. Disse reaktioner er sjældne (kan 
+forekomme hos op til 1 ud af 1.000 personer). </p>
+</li>
+<li>
+<p>Kontakt straks din læge, hvis du får nogle af følgende bivirkninger, der kan være symptomer på 
+et leverproblem: gulsot (gulfavning af huden eller det hvide i øjnene), udbredt kløe, 
+appetitløshed ledsaget af kvalme og opkastning og tendens til blå mærker. Svære 
+leverproblemer kan være forbundet med yderligere tegn, f.eks. koncentrationsbesvær, søvnighed 
+og forvirring. </p>
+</li>
+<li>
+<p>Depression er almindelig (kan forekomme hos op til 1 ud af 10 personer) hos behandlede 
+patienter med multipel sklerose. Hvis du føler dig deprimeret eller får selvmordstanker, skal 
+du straks kontakte din læge.  </p>
+</li>
+</ul>
+<p>Fortæl det til lægen, hvis du oplever nogle af de følgende bivirkninger:  </p>
+<ul>
+<li>
+<p>Influenzalignende symptomer, såsom hovedpine, feber, kulderystelser, smerter i muskler og 
+led, træthed og kvalme er meget almindelige (kan forekomme hos flere end 1 ud af 10 personer).<br />
+Disse symptomer er sædvanligvis milde, er mest almindelige i starten af behandlingen og 
+aftager ved fortsat brug.<br />
+For at mindske disse symptomer kan din læge råde dig til at tage febernedsættende, 
+smertestillende medicin før en dosis Rebif og derefter i 24 timer efter hver injektion.  </p>
+</li>
+<li>
+<p>Injektionsstedsreaktioner herunder rødme, hævelse, misfarvning, betændelse, smerte og 
+hudskader er meget almindelige.<br />
+Forekomsten af injektionsstedsreaktioner aftager normalt over tid.<br />
+Vævsdestruktion (nekrose), bylder og ophobning på injektionsstedet er ikke almindelig (kan 
+forekomme hos op til 1 ud af 100 personer).<br />
+Se anbefalingerne i afsnittet "Advarsler og forsigtighedsregler" for at minimere risikoen for 
+injektionsstedsreaktioner.<br />
+Injektionsstedet kan blive betændt (ikke almindelig); huden kan blive hævet, øm og hård, og 
+hele området kan blive meget smertefuldt. Hvis du får nogle af disse symptomer, så kontakt din 
+læge.  </p>
+</li>
+<li>
+<p>Resultater af visse laboratorieprøver kan ændre sig. Du vil normalt ikke bemærke disse 
+ændringer (ingen symptomer). Ændringerne er normalt reversible og milde, og som oftest 
+kræver de ikke særlig behandling.<br />
+Antallet af røde blodlegemer, hvide blodlegemer eller blodplader kan falde, enten hver for sig 
+(meget almindelig) eller alle på én gang (sjælden). Symptomer på disse ændringer kan omfatte 
+træthed, nedsat evne til at bekæmpe infektion, blå mærker eller uforklarlig blødning. Resultater 
+af leverfunktionsprøver kan blive unormale (meget almindelig). Betændelse i leveren er også 
+blevet rapporteret (ikke almindelig). Hvis du oplever symptomer, som tyder på en leversygdom, 
+såsom appetitløshed ledsaget af andre symptomer som kvalme, opkastning eller gulsot, skal du 
+straks kontakte din læge (se ovenfor "Kontakt straks din læge...").  </p>
+</li>
+<li>
+<p>Påvirkning af skjoldbruskkirtlen er en ikke almindelig bivirkning. Funktionen af 
+skjoldbruskkirtlen kan enten være øget eller nedsat. Du vil næsten aldrig mærke disse ændringer 
+i skjoldbruskkirtlens aktivitet, men din læge kan anbefale, at der bliver taget prøver, hvis det er 
+relevant.  </p>
+</li>
+<li>
+<p>MS pseudo-tilbagefald (hyppighed ukendt): Der er en mulighed for, at du i starten af 
+behandlingen med Rebif kan få symptomer, der ligner dem i et multipel sklerose tilbagefald. For 
+eksempel kan dine muskler føles meget spændte eller meget svage og forhindre dig i at bevæge 
+dig, som du ønsker. I nogle tilfælde er sådanne symptomer forbundet med feber eller 
+influenzalignende symptomer som beskrevet ovenfor. Hvis du bemærker nogle af disse 
+bivirkninger, så tal med din læge.  </p>
+</li>
+</ul>
+<p>Andre bivirkninger omfatter:  </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):  </p>
+<ul>
+<li>Hovedpine  </li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer):  </p>
+<ul>
+<li>
+<p>Søvnløshed (svært ved at sove)  </p>
+</li>
+<li>
+<p>Diarré, kvalme, opkastning  </p>
+</li>
+<li>
+<p>Kløe, hududslæt  </p>
+</li>
+<li>
+<p>Smerter i muskler og led  </p>
+</li>
+<li>
+<p>Træthed, feber, kulderystelser  </p>
+</li>
+<li>
+<p>Hårtab </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Nældefeber </p>
+</li>
+<li>
+<p>Epileptiske anfald </p>
+</li>
+<li>
+<p>Leverbetændelse (hepatitis) </p>
+</li>
+<li>
+<p>Åndedrætsbesvær </p>
+</li>
+<li>
+<p>Blodpropper f.eks. i de dybtliggende vener i benene </p>
+</li>
+<li>
+<p>Sygdomme i nethinden (bagsiden af øjet) såsom betændelse eller blodpropper med deraf 
+følgende øjenlidelser (synsforstyrrelser, synstab) </p>
+</li>
+<li>
+<p>Øget svedtendens </p>
+</li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>
+<p>Selvmordsforsøg </p>
+</li>
+<li>
+<p>Alvorlige hudreaktioner - nogle med slimhindelæsioner (sår på slimhinder) </p>
+</li>
+<li>
+<p>Blodpropper i de små blodårer, der kan påvirke dine nyrer (trombotisk trombocytopenisk 
+purpura eller hæmolytisk uræmisk syndrom). Symptomerne kan omfatte øget tendens til blå 
+mærker, blødning, feber, ekstrem svaghed, hovedpine, svimmelhed eller uklarhed. Din læge vil 
+måske finde ændringer i dit blod eller i din nyrefunktion. </p>
+</li>
+<li>
+<p>Lupus erythematosus fremkaldt af lægemidlet er en bivirkning ved langvarig brug af Rebif. 
+Symptomerne kan omfatte muskel- og ledsmerter og hævede led samt hududslæt. Du kan også 
+få andre symptomer, såsom feber, vægttab og træthed. Normalt forsvinder symptomerne i løbet 
+af en til to uger efter, behandlingen er stoppet </p>
+</li>
+<li>
+<p>Nyreproblemer, herunder ardannelse, der kan nedsætte din nyrefunktion 
+Hvis du får nogle eller alle disse symptomer:</p>
+</li>
+<li>
+<p>skummende urin  </p>
+</li>
+<li>træthed  </li>
+<li>hævelse, især af ankler og øjenlåg, og vægtstigning. 
+Fortæl det til lægen, da det kan være tegn på et muligt nyreproblem. </li>
+</ul>
+<p>Følgende bivirkninger blev rapporteret for interferon beta (hyppighed ikke kendt)  </p>
+<ul>
+<li>
+<p>Svimmelhed  </p>
+</li>
+<li>
+<p>Nervøsitet  </p>
+</li>
+<li>
+<p>Appetitløshed  </p>
+</li>
+<li>
+<p>Udvidelse af blodkar og hjertebanken  </p>
+</li>
+<li>
+<p>Uregelmæssigheder og/eller ændringer i menstruationscyklus  </p>
+</li>
+<li>
+<p>Pulmonal arteriel hypertension - en sygdom, der medfører svær forsnævring af blodkarrene i 
+lungerne med deraf følgende højt blodtryk i de blodkar, der fører blodet fra hjertet til lungerne. 
+Pulmonal arteriel hypertension er iagttaget på forskellige tidspunkter under behandlingen, også 
+flere år efter påbegyndelse af behandlingen med Rebif </p>
+</li>
+<li>
+<p>Betændelse i fedtvævet under huden (panniculitis), hvilket kan få huden til at føles hård og evt. 
+udvikle smertefulde røde knuder eller plamager. </p>
+</li>
+</ul>
+<p>Du må kun holde pause, stoppe eller ændre behandlingen efter aftale med din læge. </p>
+<p>Børn og unge 
+Bivirkningerne hos børn og unge svarer til bivirkningerne hos voksne. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rebif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rebif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter Exp. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C).  </p>
+<p>Må ikke nedfryses (for at undgå nedfrysning ved uheld bør Rebif-pakningen ikke placeres ved siden af 
+fryserum i køleskab). </p>
+<p>Ved ambulant anvendelse kan du tage Rebif ud af køleskabet og opbevare den ved temperaturer ikke 
+over 25 °C i en enkelt periode på op til 14 dage. Rebif skal derefter lægges tilbage i køleskabet og 
+anvendes inden udløbsdatoen. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys.  </p>
+<p>Brug ikke lægemidlet, hvis du observerer synlige tegn på nedbrydning af præparatet, for eksempel 
+hvis opløsningen ikke længere er klar, eller hvis den indeholder partikler. </p>
+<p>Spørgapotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rebif indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: Interferon beta-1a. Hver injektionssprøjte indeholder 22 mikrogram, svarende til 
+6 millioner Internationale Enheder (IE) interferon beta-1a. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Mannitol, poloxamer 188, L-methionin, benzylalkohol, natriumacetat, 
+eddikesyre, natriumhydroxid og vand til injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Rebif findes som injektionvæske, opløsning i fyldt injektionssprøjte med en fast kanyle til 
+selvinjektion. Rebif er en klar til opaliserende opløsning. Den fyldte injektionssprøjte er klar til brug 
+og indeholder 0,5 ml injektionvæske.<br />
+Rebif findes i pakninger med 1, 3, 12 og 36 fyldte injektionssprøjter. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført.  </p>
+<p>Indehaver af markedsføringstilladelsen 
+Merck Europe B.V. 
+Gustav Mahlerplein 1082 MA Amsterdam 
+Holland </p>
+<p>Fremstiller 
+Merck Serono S.p.A. 
+Via delle Magnolie I-70026 Modugno (Bari) 
+Italien </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+Indlægsseddel: Information til brugeren </p>
+<p>Rebif 44 mikrogram injektionsvæske, opløsning i fyldt injektionssprøjte 
+interferon beta-1a </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret Rebif til dig personligt. Lad derfor være med at give medicinen til andre. 
+Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1e58e95d51201027f560781373a2f270
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rebif Package Leaflet for language en"
+Description: "ePI document Bundle for rebif Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1e58e95d51201027f560781373a2f270"
+* entry[0].resource = composition-en-1e58e95d51201027f560781373a2f270
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1e58e95d51201027f560781373a2f270"
+* entry[=].resource = mp1e58e95d51201027f560781373a2f270
+                            
+                    
+Instance: bundlepackageleaflet-da-1e58e95d51201027f560781373a2f270
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rebif Package Leaflet for language da"
+Description: "ePI document Bundle for rebif Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1e58e95d51201027f560781373a2f270"
+* entry[0].resource = composition-da-1e58e95d51201027f560781373a2f270
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1e58e95d51201027f560781373a2f270"
+* entry[=].resource = mp1e58e95d51201027f560781373a2f270
+                            
+                    
+
+
+
+Instance: mp1e58e95d51201027f560781373a2f270
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Rebif 22 micrograms solution for injection in pre-filled syringe"
-Description: "Rebif 22 micrograms solution for injection in pre-filled syringe"
+Title: "Medicinal Product rebif"
+Description: "rebif"
 Usage: #inline
 
  
@@ -440,7 +1023,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Rebif 22 micrograms solution for injection in pre-filled syringe"
+  * productName = "rebif"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -467,29 +1050,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1e58e95d51201027f560781373a2f270
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rebif Package Leaflet for language en"
-Description: "ePI document Bundle for rebif Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1e58e95d51201027f560781373a2f270ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/98/063/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rebif"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1e58e95d51201027f560781373a2f270"
-* entry[0].resource = composition-en-1e58e95d51201027f560781373a2f270
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd80a58cd822963967ed1212d4ccbdb67"
-* entry[=].resource = mpd80a58cd822963967ed1212d4ccbdb67
-                            
-                      
+* title = "List of all ePIs associated with rebif"
+
+* subject = Reference(mpd80a58cd822963967ed1212d4ccbdb67)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rebif "rebif"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1e58e95d51201027f560781373a2f270) // rebif en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1e58e95d51201027f560781373a2f270) // rebif da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1e58e95d51201027f560781373a2f270
+InstanceOf: List
+
+* insert 1e58e95d51201027f560781373a2f270ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-96e3a078093b1cdfc599d6c2d6322437
 InstanceOf: CompositionUvEpi
 Title: "Composition for alprolix Package Leaflet"
@@ -259,10 +262,38 @@ Phone: +46 8 697 20 This leaflet was last revised in  </p>
 
 
 
-Instance: mpee5561d765e27d679f137a0cdfcee694
+                    
+Instance: bundlepackageleaflet-en-96e3a078093b1cdfc599d6c2d6322437
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for alprolix Package Leaflet for language en"
+Description: "ePI document Bundle for alprolix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-96e3a078093b1cdfc599d6c2d6322437"
+* entry[0].resource = composition-en-96e3a078093b1cdfc599d6c2d6322437
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp96e3a078093b1cdfc599d6c2d6322437"
+* entry[=].resource = mp96e3a078093b1cdfc599d6c2d6322437
+                            
+                    
+
+
+
+Instance: mp96e3a078093b1cdfc599d6c2d6322437
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ALPROLIX 250 IU powder and solvent for solution for injection"
-Description: "ALPROLIX 250 IU powder and solvent for solution for injection"
+Title: "Medicinal Product alprolix"
+Description: "alprolix"
 Usage: #inline
 
  
@@ -282,7 +313,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ALPROLIX 250 IU powder and solvent for solution for injection"
+  * productName = "alprolix"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -309,29 +340,46 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-96e3a078093b1cdfc599d6c2d6322437
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for alprolix Package Leaflet for language en"
-Description: "ePI document Bundle for alprolix Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 96e3a078093b1cdfc599d6c2d6322437ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/16/1098/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "alprolix"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-96e3a078093b1cdfc599d6c2d6322437"
-* entry[0].resource = composition-en-96e3a078093b1cdfc599d6c2d6322437
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpee5561d765e27d679f137a0cdfcee694"
-* entry[=].resource = mpee5561d765e27d679f137a0cdfcee694
-                            
-                      
+* title = "List of all ePIs associated with alprolix"
+
+* subject = Reference(mpee5561d765e27d679f137a0cdfcee694)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#alprolix "alprolix"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-96e3a078093b1cdfc599d6c2d6322437) // alprolix en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-96e3a078093b1cdfc599d6c2d6322437
+InstanceOf: List
+
+* insert 96e3a078093b1cdfc599d6c2d6322437ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f451f2b898e52e0d41c95e83d0aff4db
 InstanceOf: CompositionUvEpi
 Title: "Composition for qinlock Package Leaflet"
@@ -385,12 +388,466 @@ Tel/ T l/ Te / Tlf/  / S mi/ Puh: +318006333e-mail: medicalinformation@deciphera
 
 
 
+Instance: composition-da-f451f2b898e52e0d41c95e83d0aff4db
+InstanceOf: CompositionUvEpi
+Title: "Composition for qinlock Package Leaflet"
+Description:  "Composition for qinlock Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7fa1b4f26f15e5e34eab7c8e12b54f5b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7fa1b4f26f15e5e34eab7c8e12b54f5b
+* title = "TEST PURPOSES ONLY - qinlock"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage QINLOCK </li>
+<li>Sådan skal du tage QINLOCK </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What qinlock is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What qinlock is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>QINLOCK er et kræftlægemiddel, der indeholder det aktive stof ripretinib, som er en 
+proteinkinasehæmmer. Proteinkinasehæmmere anvendes til behandling af kræft ved at stoppe 
+aktiviteten af visse proteiner, der medvirker til kræftcellers vækst og spredning. </p>
+<p>QINLOCK anvendes til behandling af voksne med gastrointestinal stromal tumor (GIST), som er 
+en sjælden type kræft i fordøjelsessystemet, herunder maven og tarmen, der:</p>
+<ul>
+<li>har spredt sig til andre dele af kroppen, eller som ikke kan fjernes ved operation </li>
+<li>er blevet behandlet med mindst 3 tidligere kræftlægemidler, herunder imatinib. </li>
+</ul>
+<p>Spørg lægen, hvis du har spørgsmål til, hvordan QINLOCK virker, eller hvorfor du har fået ordineret 
+dette lægemiddel. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take qinlock"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take qinlock"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke QINLOCK, hvis du er allergisk over for ripretinib eller et af de øvrige indholdsstoffer i 
+dette lægemiddel (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager QINLOCK, hvis du har eller tidligere har 
+haft:</p>
+<ul>
+<li>
+<p>forhøjet blodtryk. Lægen vil overvåge dit blodtryk før og under behandlingen med QINLOCK 
+og kan om nødvendigt give dig et lægemiddel til behandling af forhøjet blodtryk. </p>
+</li>
+<li>
+<p>hjertesygdomme. Din læge kan foretage yderligere undersøgelser for at vurdere, hvordan dit 
+hjerte fungerer før og under behandlingen med QINLOCK. </p>
+</li>
+<li>
+<p>lever- eller nyreproblemer. </p>
+</li>
+</ul>
+<p>Når du tager QINLOCK, skal du tale med lægen eller apotekspersonalet, hvis:</p>
+<ul>
+<li>
+<p>du bemærker rødme, smerte, hævelse eller blærer på håndfladerne eller fodsålerne. Dette er et 
+hudproblem, der kaldes palmar-plantar erytrodysæstesisyndrom (PPE). Lægen kan fortsætte 
+behandlingen, ændre dosis eller stoppe behandlingen, indtil din tilstand bliver bedre (se punkt 
+4). </p>
+</li>
+<li>
+<p>du bemærker uventede hudforandringer som f.eks. nye vorter, åbne sår eller rødlig bule, som 
+bløder eller ikke heler, eller et modermærke, der ændrer størrelse eller farve. QINLOCK kan 
+øge risikoen for visse typer hudkræft (se punkt 4). Lægen vil tjekke din hud, når du starter 
+behandlingen med QINLOCK, og rutinemæssigt under behandlingen. Det er vigtigt, at du 
+tjekker din hud regelmæssigt. </p>
+</li>
+<li>
+<p>du har sår fra en hvilken som helst operation af nyere dato, der ikke heler som forventet. 
+QINLOCK kan påvirke den måde, hvorpå sår heler. Lægen kan beslutte midlertidigt at stoppe 
+behandlingen med QINLOCK få dage før operationen, og indtil såret er helet efter operationen. 
+Lægen beslutter, hvornår du skal starte QINLOCK igen. Det er vigtigt, at du fortæller det til din 
+læge, hvis du har planer om en fremtidig operation. </p>
+</li>
+<li>
+<p>hvis du føler dig træt, er stakåndet, har fremtrædende vener i halsen eller oppustet mave eller 
+hævede ankler eller underben, mens du tager QINLOCK, kan dette være symptomer på 
+hjertesvigt (se punkt 4). </p>
+</li>
+<li>
+<p>hvis din hud eller dine øjne bliver mere følsomme over for sollys eller andre former for lys. Du 
+må ikke udsætte dig for direkte sollys, sollamper eller andre kilder til ultraviolet stråling, mens 
+du tager dette lægemiddel. Du bør bære beskyttelsestøj og anvende solcreme med høj 
+solbeskyttelsesfaktor, når du udsættes for stærkt sollys. </p>
+</li>
+</ul>
+<p>Vigtig information til mænd og kvinder om prævention 
+QINLOCK kan skade det ufødte barn. Du må ikke blive gravid, mens du tager QINLOCK. Brug 
+sikker prævention under behandlingen og i mindst 1 uge efter den sidste dosis QINLOCK, hvis du er 
+en kvinde i den fødedygtige alder eller mand, der har en kvindelig partner i den fødedygtige alder. 
+Hvis du bruger hormonel prævention, bør du tilføje barriereprævention (f.eks. kondom). Se afsnittet 
+"Prævention, graviditet, amning og frugtbarhed". </p>
+<p>Børn og unge 
+Giv ikke dette lægemiddel til børn eller unge under 18 år, da det ikke er undersøgt i denne 
+aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med QINLOCK 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>QINLOCK kan påvirke den måde, visse lægemidler virker på. Nogle lægemidler kan også påvirke den 
+måde, QINLOCK virker på. </p>
+<p>Det er især vigtigt, at du fortæller det til lægen, hvis du tager et eller flere af følgende lægemidler:</p>
+<ul>
+<li>lægemidler til behandling af svampeinfektioner (såsom ketoconazol, itraconazol, posaconazol, 
+voriconazol) </li>
+<li>lægemidler til behandling af bakterieinfektioner (såsom erythromycin, clarithromycin og 
+rifampicin) </li>
+<li>lægemidler til behandling af hiv (såsom ritonavir, efavirenz, etravirin) </li>
+<li>lægemidler mod epilepsi eller krampeanfald (f.eks. phenytoin, carbamazepin, phenobarbital) </li>
+<li>lægemidler til behandling af uregelmæssig hjerterytme (såsom digoxin) </li>
+<li>lægemidler til forebyggelse af slagtilfælde eller skadelige blodpropper (såsom 
+dabigatranetexilat) </li>
+<li>lægemidler til sænkning af forhøjet kolesterol (såsom rosuvastatin) </li>
+<li>lægemidler, der anvendes til at reducere blodsukker eller til at behandle diabetes (såsom 
+repaglinid eller metformin) </li>
+<li>lægemidler til behandling af svær tarmbetændelse og betændelse i gigtleddene (såsom 
+sulfasalazin) </li>
+<li>lægemidler til behandling af kræft (såsom paclitaxel eller irinotecan) </li>
+<li>lægemidler, der anvendes til at forhindre organafstødning (f.eks. ciclosporin, tacrolimus) </li>
+<li>lægemidler til behandling af lavt antal blodplader (såsom eltrombopag) </li>
+<li>lægemidler til behandling af muskelspasmer (f.eks. tizanidin) </li>
+<li>lægemidler til lindring af angst (f.eks. midazolam) </li>
+<li>naturlægemidler til behandling af depression og angst, der indeholder prikbladet perikum 
+(Hypericum perforatum). </li>
+</ul>
+<p>QINLOCK sammen med mad og drikke 
+Grapefrugtjuice kan ændre mængden af QINLOCK i din krop. Det frarådes at drikke grapefrugtjuice 
+eller spise grapefrugt under behandlingen med dette lægemiddel. </p>
+<p>Prævention, graviditet, amning og frugtbarhed </p>
+<p>Prævention 
+Både kvinder i den fødedygtige alder og mænd bør anvende effektiv prævention under behandlingen 
+og i mindst 1 uge efter behandlingens afslutning. Hvis der anvendes hormonel prævention, bør der 
+tilføjes en barrieremetode (f.eks. kondom). </p>
+<p>Graviditet 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, bør du ikke tage 
+dette lægemiddel, medmindre lægen har afgjort, at behandling med QINLOCK er nødvendig. Spørg 
+lægen eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Du må ikke blive gravid, mens du behandles med QINLOCK. 
+Hvis du er mandlig patient med en partner, som enten er gravid eller kan blive gravid, skal du bruge en 
+barrieremetode (såsom kondom) under samleje, under behandlingen og i mindst 1 uge efter 
+behandlingens afslutning. Dette lægemiddel kan skade det ufødte barn. 
+Hvis du er en mand, og din kvindelige partner bliver gravid under behandlingen med QINLOCK, skal 
+du straks fortælle det til lægen. </p>
+<p>Kvinder i den fødedygtige alder skal have taget en graviditetstest, før behandlingen påbegyndes med 
+QINLOCK, og under behandlingen. </p>
+<p>Amning 
+Du må ikke amme dit barn under behandling med QINLOCK og i mindst 1 uge efter behandlingens 
+afslutning, da dette lægemiddel kan medføre alvorlige bivirkninger hos dit barn. Fortæl det til lægen, 
+hvis du ammer eller planlægger at amme. </p>
+<p>Fertilitet 
+QINLOCK kan påvirke fertiliteten hos mænd og kvinder. Spørg lægen til råds, inden du tager 
+QINLOCK. </p>
+<p>Trafik- og arbejdssikkerhed 
+QINLOCK påvirker ikke direkte din evne til at føre motorkøretøj eller betjene maskiner. Hvis du føler 
+dig utilpas eller meget træt under behandling med QINLOCK, bør du ikke føre motorkøretøj eller 
+betjene maskiner, før du føler dig sikker på at gøre det. </p>
+<p>QINLOCK indeholder lactose 
+Hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter, skal du tale med lægen, før du får dette 
+lægemiddel. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take qinlock"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take qinlock"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>QINLOCK vil blive ordineret til dig af en læge med erfaring i brug af kræftmedicin. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede daglige dosis er tre 50 mg-tabletter (150 mg) én gang dagligt. Tag tabletterne på 
+samme tidspunkt hver dag sammen med eller uden mad. Synk tabletterne hele med et glas vand og 
+lad være med at tygge, dele eller knuse tabletterne. Du må ikke tage tabletter, som er knækket, revnet 
+eller på anden måde beskadiget på grund af ukendte virkninger ved at tage en tablet, der ikke er hel. 
+Hvis du skal tage visse andre lægemidler samtidig med QINLOCK, kan lægen ændre din dosis til tre 
+50 mg tabletter (150 mg) to gange dagligt. </p>
+<p>Du vil normalt tage QINLOCK, så længe du har gavn af det og ikke får uacceptable bivirkninger (se 
+pkt. 4). Lægen kan dog nedsætte dosis eller beslutte at afbryde eller standse behandlingen midlertidigt 
+eller permanent, hvis det er nødvendigt. </p>
+<p>Hvis du har nyre- eller svære leverproblemer 
+Mens du er i behandling med QINLOCK, vil din læge overvåge din nyre- eller leverfunktionmere 
+nøje. </p>
+<p>Hvis du har taget for meget QINLOCK 
+Hvis du ved et uheld har taget for mange tabletter, skal du søge akut lægehjælp. </p>
+<p>Hvis du har glemt at tage QINLOCK 
+Hvad du skal gøre, hvis du glemmer at tage dette lægemiddel, afhænger af, hvornår du kommer i tanke 
+om den glemte dosis. Hvis det er:</p>
+<ul>
+<li>8 timer eller derunder (4 timer eller derunder for doser på 150 mg to gange dagligt) efter det 
+tidspunkt, hvor den skulle have været taget, skal du tage den glemte dosis, så snart du kommer i 
+tanke om det. Tag derefter den næste dosis som sædvanligt. </li>
+<li>mere end 8 timer efter (mere end 4 timer ved 150 mg to gange dagligt) efter det tidspunkt, hvor 
+den skulle have været taget, skal du springe den glemte dosis over. Tag derefter næste dosis til 
+sædvanlig tid. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </li>
+</ul>
+<p>Hvis du bliver syg, når du tager QINLOCK 
+Hvis du kaster op efter at have taget dette lægemiddel, skal du ikke tage en ekstra dosis, men fortsætte 
+som normalt. Tag den næste dosis tabletter næste dag på det sædvanlige tidspunkt, og fortæl det til 
+lægen, hvis du har været syg. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Søg straks lægehjælp, hvis du oplever en eller flere af følgende alvorlige bivirkninger (se punkt 2):</p>
+<ul>
+<li>
+<p>Hudproblemer (kaldet PPE) 
+PPE er en meget almindelig bivirkning ved brug af dette lægemiddel. Hvis du udvikler: </p>
+</li>
+<li>
+<p>rødme, smerte, hævelse eller blærer på håndflader eller fodsåler, 
+kan lægen fortsætte behandlingen, ændre dosis eller stoppe behandlingen, indtil din tilstand bliver 
+bedre. </p>
+</li>
+<li>
+<p>Forhøjet blodtryk 
+Forhøjet blodtryk er en meget almindelig bivirkning ved brug af dette lægemiddel. Hvis du får: </p>
+</li>
+<li>
+<p>hovedpine, bliver uklar eller oplever svimmelhed, kan det være symptomer på forhøjet 
+blodtryk, 
+og lægen kan ændre din dosis eller stoppe behandlingen, indtil din tilstand bliver bedre. </p>
+</li>
+<li>
+<p>Hjerteproblemer (hjertesvigt) 
+Hjertesvigt er en almindelig bivirkning ved brug af dette lægemiddel. Hvis du føler: </p>
+</li>
+<li>
+<p>dig meget træt, hvis du ikke kan få vejret, har hævede fødder og/eller ankler, 
+kan dette kan være symptomer på hjerteproblemer. </p>
+</li>
+</ul>
+<p>Kontakt lægen eller apotekspersonalet, hvis du oplever:</p>
+<ul>
+<li>Hudkræft 
+Behandling med QINLOCK kan medføre visse typer hudkræft, såsom "pladecellekræft i huden" 
+og "melanom". Sig det til lægen, hvis du bemærker hudforandringer under behandlingen som 
+f.eks. nye vorter, åbne sår eller en rødlig bule, som bløder eller ikke heler, eller et modermærke, 
+der ændrer størrelse eller farve. Lægen vil tjekke din hud, når du starter behandlingen med 
+QINLOCK, og rutinemæssigt under behandlingen (se punkt 2). </li>
+</ul>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter):</p>
+<ul>
+<li>kvalme </li>
+<li>forstoppelse </li>
+<li>diarré </li>
+<li>opkastning </li>
+<li>ledsmerter </li>
+<li>hovedpine </li>
+<li>åndenød </li>
+<li>blodprøver, der viser forhøjet indhold af bilirubin, et stof, der produceres af leveren </li>
+<li>blodprøver, der viser forhøjet niveau af lipase, et enzym, der medvirker ved fordøjelsen </li>
+<li>blodprøver, der viser nedsat fosfatindhold </li>
+<li>træthed </li>
+<li>hårtab </li>
+<li>muskelsmerter eller smerter </li>
+<li>vægttab </li>
+<li>muskelspasmer </li>
+<li>tør hud </li>
+<li>rygsmerter </li>
+<li>hoste </li>
+<li>hævelse i hænder og ben </li>
+<li>smerter i hænder eller fødder </li>
+<li>kløe </li>
+<li>godartede hudlæsioner </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter):</p>
+<ul>
+<li>sår i munden </li>
+<li>mavesmerter </li>
+<li>nedsat funktion i perifere nerver (følelsesløshed og prikken i fødder eller hænder, brændende, 
+stikkende eller jagende smerter i berørte områder, tab af balance og koordinationsevne og 
+muskelsvaghed, især i fødderne) </li>
+<li>hudreaktioner som afskalning og betændelse i huden, udslæt med et fladt, rødt hudområde, der 
+er dækket med små buler eller akne </li>
+<li>unormale leverprøver (mulig leverskade påvist ved blodprøve) </li>
+<li>depression </li>
+<li>underaktiv skjoldbruskkirtel </li>
+<li>svaghed </li>
+<li>brystsmerter </li>
+<li>hurtig hjerterytme </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store qinlock"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store qinlock"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og flaskeetiketten efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
+<p>Opbevares i den originale pakning og holdes tæt lukket for at beskytte mod lys og fugt. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på, at der er pillet 
+ved den. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>QINLOCK indeholder:</p>
+<ul>
+<li>Aktivt stof: ripretinib. Hver tablet indeholder 50 mg ripretinib. </li>
+<li>Øvrige indholdsstoffer: crospovidon (E1202), hypromellose, succinat, lactosemonohydrat, 
+magnesiumstearat (E470b), mikrokrystallinsk cellulose (E460) og kolloid hydreret silica (E551) 
+(se punkt 2 "QINLOCK indeholder lactose"). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+QINLOCK-tabletter er hvide til råhvide, ovale i form og præget med "DC1" på den ene side. </p>
+<p>Hver flaske er børnesikret og indeholder 30 eller 90 tabletter og et tørremiddel. Flaskerne er forsynet 
+med en forseglet aluminiumsfolie/polyethylen (PE). Tørremidlet er et fugtabsorberende materiale, der 
+er fyldt i en lille beholder for at beskytte tabletterne mod fugt. Opbevar altid tørreposen i flasken og 
+spis den ikke. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Deciphera Pharmaceuticals (Netherlands) B.V. 
+Atrium Building 4th Floor 
+Strawinskylaan 31077ZX, Amsterdam 
+Nederlandene </p>
+<p>Fremstiller 
+Deciphera Pharmaceuticals (Netherlands) B.V. 
+Atrium Building 4th Floor 
+Strawinskylaan 31077ZX, Amsterdam 
+Nederlandene </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:  </p>
+<p>Deciphera Pharmaceuticals (Netherlands) B.V., NL<br />
+Tél/Tel/Teл/Tlf/Τηλ/Sími/Puh: +318006333e-mail: medicalinformation@deciphera.com </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f451f2b898e52e0d41c95e83d0aff4db
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qinlock Package Leaflet for language en"
+Description: "ePI document Bundle for qinlock Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f451f2b898e52e0d41c95e83d0aff4db"
+* entry[0].resource = composition-en-f451f2b898e52e0d41c95e83d0aff4db
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf451f2b898e52e0d41c95e83d0aff4db"
+* entry[=].resource = mpf451f2b898e52e0d41c95e83d0aff4db
+                            
+                    
+Instance: bundlepackageleaflet-da-f451f2b898e52e0d41c95e83d0aff4db
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qinlock Package Leaflet for language da"
+Description: "ePI document Bundle for qinlock Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f451f2b898e52e0d41c95e83d0aff4db"
+* entry[0].resource = composition-da-f451f2b898e52e0d41c95e83d0aff4db
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf451f2b898e52e0d41c95e83d0aff4db"
+* entry[=].resource = mpf451f2b898e52e0d41c95e83d0aff4db
+                            
+                    
+
+
+
+Instance: mpf451f2b898e52e0d41c95e83d0aff4db
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product QINLOCK 50 mg tablets"
-Description: "QINLOCK 50 mg tablets"
+Title: "Medicinal Product qinlock"
+Description: "qinlock"
 Usage: #inline
 
  
@@ -410,7 +867,7 @@ Usage: #inline
 
 
 * name
-  * productName = "QINLOCK 50 mg tablets"
+  * productName = "qinlock"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -437,29 +894,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f451f2b898e52e0d41c95e83d0aff4db
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for qinlock Package Leaflet for language en"
-Description: "ePI document Bundle for qinlock Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f451f2b898e52e0d41c95e83d0aff4dbListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1569/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "qinlock"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f451f2b898e52e0d41c95e83d0aff4db"
-* entry[0].resource = composition-en-f451f2b898e52e0d41c95e83d0aff4db
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7fa1b4f26f15e5e34eab7c8e12b54f5b"
-* entry[=].resource = mp7fa1b4f26f15e5e34eab7c8e12b54f5b
-                            
-                      
+* title = "List of all ePIs associated with qinlock"
+
+* subject = Reference(mp7fa1b4f26f15e5e34eab7c8e12b54f5b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#qinlock "qinlock"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f451f2b898e52e0d41c95e83d0aff4db) // qinlock en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f451f2b898e52e0d41c95e83d0aff4db) // qinlock da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f451f2b898e52e0d41c95e83d0aff4db
+InstanceOf: List
+
+* insert f451f2b898e52e0d41c95e83d0aff4dbListRuleset
+    

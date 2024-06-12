@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-40c8dbb155810b203735f0693961138c
 InstanceOf: CompositionUvEpi
 Title: "Composition for fampyra Package Leaflet"
@@ -322,12 +325,494 @@ Tel: +44 (0) 1628 50 1This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-40c8dbb155810b203735f0693961138c
+InstanceOf: CompositionUvEpi
+Title: "Composition for fampyra Package Leaflet"
+Description:  "Composition for fampyra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp90321a244b76fb3db95a2d52768fa6a7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp90321a244b76fb3db95a2d52768fa6a7
+* title = "TEST PURPOSES ONLY - fampyra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Fampyra </li>
+<li>Sådan skal du tage Fampyra </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What fampyra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What fampyra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fampyra indeholder det aktive stof fampridin, som tilhører en gruppe lægemidler, der kaldes 
+kaliumkanal-blokkere. Deres funktion er at forhindre kalium i at forlade de nerveceller, som er blevet 
+beskadiget af MS. Det antages, at lægemidlet virker ved at lade signaler passere mere normalt ned 
+gennem nerven, hvilket giver dig mulighed for at gå bedre. </p>
+<p>Fampyra er et lægemiddel, der anvendes til at forbedre gangfunktionen hos voksne (18 år og ældre) 
+med gangproblemer grundet multipel sklerose (MS). Ved multipel sklerose ødelægger en 
+betændelsestilstand den beskyttende hinde omkring nerverne, hvilket medfører muskelsvaghed, 
+muskelstivhed og gangproblemer. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take fampyra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take fampyra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Fampyra </p>
+<p>− 
+hvis du er allergisk over for fampridin eller et af de øvrige indholdsstoffer i Fampyra (angivet i 
+punkt 6) 
+− 
+hvis du har kramper eller nogensinde har haft et krampeanfald (kaldes også anfald eller 
+kramper) 
+− 
+hvis din læge eller sygeplejerske har fortalt dig, at du har moderate eller svære nyreproblemer 
+− 
+hvis du tager et lægemiddel, som hedder cimetidin 
+− 
+hvis du tager andre lægemidler indeholdende fampridin. Det kan øge risikoen for alvorlige 
+bivirkninger </p>
+<p>Tal med din læge og lad være med at tage Fampyra, hvis noget af dette gælder for dig. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apoteket, før du tager Fampyra 
+− 
+hvis du kan mærke dine hjerteslag (har hjertebanken) 
+− 
+hvis du er tilbøjelig til at få infektioner 
+− 
+hvis der er faktorer, eller du får medicin, der påvirker din risiko for at få krampeanfald 
+− 
+hvis en læge har fortalt dig, at du har lette nyreproblemer 
+− 
+hvis du tidligere har haft allergiske reaktioner </p>
+<p>Du skal bruge et hjælpemiddel til at gå, såsom en stok, efter behov. Da dette lægemiddel kan gøre dig 
+svimmel eller usikker på benene, kan det medføre en øget risiko for fald. </p>
+<p>Tal med din læge inden du tager Fampyra, hvis noget af dette gælder for dig. </p>
+<p>Børn og unge </p>
+<p>Giv ikke lægemidlet til børn eller unge under 18 år. </p>
+<p>Ældre </p>
+<p>Inden du starter behandlingen og under behandlingen, vil din læge muligvis undersøge, om dine nyrer 
+fungerer, som de skal. </p>
+<p>Brug af anden medicin sammen med Fampyra </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin.  </p>
+<p>Tag ikke Fampyra såfremt du tager anden medicin som indeholder fampridin. </p>
+<p>Anden medicin, som påvirker nyrerne </p>
+<p>Din læge vil være særlig forsigtig, hvis fampridin gives på samme tid som andre lægemidler, der kan 
+påvirke, hvordan dine nyrer udskiller medicin, eksempelvis carvedilol, propranolol og metformin. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Fampyra anbefales ikke under graviditet. </p>
+<p>Lægen vil overveje fordelene ved at behandle dig med Fampyra i forhold til risikoen for dit barn. </p>
+<p>Du bør ikke amme, mens du tager denne medicin. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Fampyra kan påvirke evnen til at køre eller betjene maskiner, det kan forårsage svimmelhed. Sørg for 
+ikke at være påvirket, før du begynder at køre eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take fampyra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take fampyra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. Fampyra er receptpligtigt og behandlingen skal forestås af læger med erfaring i 
+behandling af MS. </p>
+<p>Din læge vil starte med at udskrive medicin til 2 til 4 uger. Efter 2 til 4 uger vil behandlingen blive 
+revurderet. </p>
+<p>Den anbefalede dosis er </p>
+<p>Én tablet om morgenen og én tablet om aftenen (med 12 timers mellemrum). Tag ikke mere end to 
+tabletter om dagen. Lad der gå 12 timer mellem hver tablet. Tag ikke tabletterne oftere end hver 12. time. </p>
+<p>Fampyra er til oral anvendelse. </p>
+<p>Tabletterne skal synkes hele med lidt vand. Tabletterne må hverken deles, knuses, opløses, suttes 
+eller tygges. Det kan øge bivirkningerne. </p>
+<p>Dette lægemiddel bør indtages uden mad, på tom mave. </p>
+<p>Hvis du får din Fampyra i en beholder, er der også tørremiddel i beholderen. Lad tørremidlet ligge i 
+beholderen, det må ikke indtages. </p>
+<p>Hvis du har taget for meget Fampyra </p>
+<p>Kontakt straks lægen, hvis du har taget for mange tabletter. 
+Tag Fampyra-æsken med til lægen. 
+Ved en overdosis kan du opleve sveden, små ufrivillige, rystende, rytmiske bevægelser (tremor), 
+svimmelhed, forvirring, hukommelsessvigt og krampeanfald. Du kan også opleve andre bivirkninger, 
+som ikke er nævnt her. </p>
+<p>Hvis du har glemt at tage Fampyra </p>
+<p>Hvis du har glemt at tage en tablet, må du ikke tage en dobbeltdosis som erstatning for den glemte 
+dosis. Du skal altid lade 12 timer gå mellem hver tablet. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis du får et krampeanfald, skal du omgående stoppe med at tage Fampyra og informere din 
+læge herom. </p>
+<p>Hvis du oplever et eller flere af følgende symptomer på allergi (overfølsomhed): hævelse af ansigt, 
+mund, læber, hals eller tunge, hudrødme eller hudkløe, trykken for brystet og problemer med 
+vejrtrækningen, skal du stoppe med at tage Fampyra og kontakte en læge med det samme. </p>
+<p>Bivirkninger anføres i det følgende efter hyppighed: </p>
+<p>Meget almindelige bivirkninger </p>
+<p>Kan forekomme hos flere end 1 ud af 10 brugere: </p>
+<ul>
+<li>Urinvejsinfektion </li>
+</ul>
+<p>Almindelige bivirkninger </p>
+<p>Kan forekomme hos op til 1 ud af 10 brugere: </p>
+<ul>
+<li>
+<p>Usikkerhed på benene </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Rundtossethed (vertigo) </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Følelse af svaghed og træthed </p>
+</li>
+<li>
+<p>Søvnproblemer </p>
+</li>
+<li>
+<p>Angst </p>
+</li>
+<li>
+<p>Små ufrivillige, rystende, rytmiske bevægelser (tremor) </p>
+</li>
+<li>
+<p>Følelsesløshed eller prikken i huden </p>
+</li>
+<li>
+<p>Ondt i halsen </p>
+</li>
+<li>
+<p>Forkølelse (nasofaryngitis) </p>
+</li>
+<li>
+<p>Influenza </p>
+</li>
+<li>
+<p>Virusinfektion </p>
+</li>
+<li>
+<p>Åndedrætsbesvær (kortåndethed) </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Opkast </p>
+</li>
+<li>
+<p>Forstoppelse </p>
+</li>
+<li>
+<p>Diaré </p>
+</li>
+<li>
+<p>Rygsmerter </p>
+</li>
+<li>
+<p>Hjertebanken, du kan mærke dine hjerteslag (palpitationer) </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger </p>
+<p>Kan forekomme hos op til 1 ud af 100 brugere </p>
+<ul>
+<li>
+<p>Krampeanfald </p>
+</li>
+<li>
+<p>Allergisk reaktion (overfølsomhed) </p>
+</li>
+<li>
+<p>Svær allergi (anafylaktisk reaktion) </p>
+</li>
+<li>
+<p>Hævelse af ansigt, læber, mund eller tunge (angioødem) </p>
+</li>
+<li>
+<p>Fremkomst af nye eller forværring af nervesmerter i ansigtet (trigeminusneuralgi) </p>
+</li>
+<li>
+<p>Hurtige hjerteslag (takykardi) </p>
+</li>
+<li>
+<p>Svimmelhed eller bevidsthedstab (hypotension) </p>
+</li>
+<li>
+<p>Udslæt/kløende udslæt (urticaria) </p>
+</li>
+<li>
+<p>Brystgener </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store fampyra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store fampyra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Opbevares ved temperaturer under 25 °C. Tabletterne opbevares i den originale yderpakning for at 
+beskytte mod lys og fugt. </p>
+<p>Får du Fampyra i en tabletbeholder, bør du kun åbne én beholder ad gangen. Anvendes inden 7 dage 
+efter første åbning. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fampyra indeholder: </p>
+<p>− 
+Det aktive stof er fampridin. 
+Hver depottablet indeholder 10 mg fampridin 
+− 
+Øvrige indholdsstoffer: 
+Tabletkerne: hypromellose, mikrokrystallinsk cellulose, kolloid vandfri silica, 
+magnesiumstearat; filmovertræk: hypromellose, titandioxid (E-171), polyethylenglykol<br />
+Udseende og pakningsstørrelser </p>
+<p>Fampyra er en cremefarvet, filmovertrukket, oval bikonveks 13 x 8 mm depottablet mærket med Apå den ene side. </p>
+<p>Fampyra leveres enten i tabletbeholdere eller i blisterpakninger </p>
+<p>Beholdere </p>
+<p>Fampyra leveres i HDPE (polyethylen med høj densitet)-beholdere. Hver beholder indeholder depottabletter og en med silicagel-tørremiddel. En pakke indeholder 28 depottabletter (2 beholdere) 
+eller 56 depottabletter (4 beholdere). </p>
+<p>Blistere </p>
+<p>Fampyra leveres i folieblistere med 14 depottabletter i hver. En pakke indeholder 28 depottabletter (2 
+blistere) eller 56 depottabletter (4 blistere). </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+Holland </p>
+<p>Fremstiller </p>
+<p>Alkermes Pharma Ireland Ltd, Monksland, Athlone, Co. Westmeath, Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Biogen Belgium N.V./S.A. 
+Tél/Tel: +32 2 219 12<br />
+Lietuva 
+Biogen Lithuania UAB 
+Tel: +370 5 259 6 
+България 
+ТП ЕВОФАРМА 
+Teл.: +359 2 962 12<br />
+Luxembourg/Luxemburg 
+Biogen Belgium N.V./S.A. 
+Tél/Tel: +32 2 219 12<br />
+Česká republika 
+Biogen (Czech Republic) s.r.o. 
+Tel: +420 255 706<br />
+Magyarország 
+Biogen Hungary Kft. 
+Tel.: +36 (1) 899 9Danmark 
+Biogen (Denmark) A/S 
+Tlf: +45 77 41 57<br />
+Malta 
+Pharma MT limited 
+Tel: +356 213 37008/9 </p>
+<p>Deutschland 
+Biogen GmbH 
+Tel: +49 (0) 89 99 6 
+Nederland 
+Biogen Netherlands B.V. 
+Tel: +31 20 542 2Eesti 
+Biogen Estonia OÜ 
+Tel: +372 618 9 
+Norge 
+Biogen Norway AS 
+Tlf: +47 23 40 01 00<br />
+Ελλάδα 
+Genesis Pharma SA 
+Τηλ: +30 210 8771 
+Österreich 
+Biogen Austria GmbH 
+Tel: +43 1 484 46 España 
+Biogen Spain SL 
+Tel: +34 91 310 7 
+Polska 
+Biogen Poland Sp. z o.o. 
+Tel.: +48 22 351 51<br />
+France 
+Biogen France SAS 
+Tél: +33 (0)1 41 37 95<br />
+Portugal 
+Biogen Portugal Sociedade Farmacêutica 
+Unipessoal, Lda 
+Tel: +351 21 318 8 
+Hrvatska 
+Biogen Pharma d.o.o. 
+Tel: +385 (0) 1 775 73<br />
+România 
+Johnson &amp; Johnson Romania S.R.L. 
+Tel: +40 21 207 18<br />
+Ireland 
+Biogen Idec (Ireland) Ltd. 
+Tel: +353 (0)1 463 7 
+Slovenija 
+Biogen Pharma d.o.o. 
+Tel: +386 1 511 02<br />
+Ísland 
+Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Biogen Slovakia s.r.o. 
+Tel: +421 2 323 340 Italia 
+Biogen Italia s.r.l. 
+Tel: +39 02 584 9 
+Suomi/Finland 
+Biogen Finland Oy 
+Puh/Tel: +358 207 401<br />
+Κύπρος 
+Genesis Pharma (Cyprus) Ltd 
+Τηλ: +357 22765 
+Sverige 
+Biogen Sweden AB 
+Tel: +46 8 594 113<br />
+Latvija 
+Biogen Latvia SIA 
+Tel: +371 68 688<br />
+United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Limited 
+Tel: +44 (0) 1628 50 1 </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Andre informationskilder </p>
+<p>Du kan få en version af denne indlægsseddel med større skrifttype ved at kontakte den lokale 
+repræsentant (se listen herover). </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-40c8dbb155810b203735f0693961138c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fampyra Package Leaflet for language en"
+Description: "ePI document Bundle for fampyra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-40c8dbb155810b203735f0693961138c"
+* entry[0].resource = composition-en-40c8dbb155810b203735f0693961138c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp40c8dbb155810b203735f0693961138c"
+* entry[=].resource = mp40c8dbb155810b203735f0693961138c
+                            
+                    
+Instance: bundlepackageleaflet-da-40c8dbb155810b203735f0693961138c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fampyra Package Leaflet for language da"
+Description: "ePI document Bundle for fampyra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-40c8dbb155810b203735f0693961138c"
+* entry[0].resource = composition-da-40c8dbb155810b203735f0693961138c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp40c8dbb155810b203735f0693961138c"
+* entry[=].resource = mp40c8dbb155810b203735f0693961138c
+                            
+                    
+
+
+
+Instance: mp40c8dbb155810b203735f0693961138c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Fampyra 10 mg prolonged-release tablets"
-Description: "Fampyra 10 mg prolonged-release tablets"
+Title: "Medicinal Product fampyra"
+Description: "fampyra"
 Usage: #inline
 
  
@@ -347,7 +832,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Fampyra 10 mg prolonged-release tablets"
+  * productName = "fampyra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -374,29 +859,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-40c8dbb155810b203735f0693961138c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for fampyra Package Leaflet for language en"
-Description: "ePI document Bundle for fampyra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 40c8dbb155810b203735f0693961138cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/699/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "fampyra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-40c8dbb155810b203735f0693961138c"
-* entry[0].resource = composition-en-40c8dbb155810b203735f0693961138c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp90321a244b76fb3db95a2d52768fa6a7"
-* entry[=].resource = mp90321a244b76fb3db95a2d52768fa6a7
-                            
-                      
+* title = "List of all ePIs associated with fampyra"
+
+* subject = Reference(mp90321a244b76fb3db95a2d52768fa6a7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#fampyra "fampyra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-40c8dbb155810b203735f0693961138c) // fampyra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-40c8dbb155810b203735f0693961138c) // fampyra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-40c8dbb155810b203735f0693961138c
+InstanceOf: List
+
+* insert 40c8dbb155810b203735f0693961138cListRuleset
+    

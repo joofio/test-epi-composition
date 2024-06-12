@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-552224bdd5379f4c4cfefcd5a85f0788
 InstanceOf: CompositionUvEpi
 Title: "Composition for omnitrope Package Leaflet"
@@ -468,12 +471,636 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-552224bdd5379f4c4cfefcd5a85f0788
+InstanceOf: CompositionUvEpi
+Title: "Composition for omnitrope Package Leaflet"
+Description:  "Composition for omnitrope Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpee8e00540014b2b02e2b9e8b02695760)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpee8e00540014b2b02e2b9e8b02695760
+* title = "TEST PURPOSES ONLY - omnitrope"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge Omnitrope 
+3. Sådan skal du bruge Omnitrope 
+4. Bivirkninger
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What omnitrope is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What omnitrope is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Omnitrope er rekombinant humant væksthormon (også kaldet somatropin). Det har den samme 
+struktur som naturligt humant væksthormon, som er nødvendigt, for at knogler og muskler kan vokse. 
+Det hjælper også dit fedt- og muskelvæv til at udvikles i de rette mængder. Det er rekombinant, 
+hvilket betyder, at det ikke er dannet fra væv fra mennesker eller dyr.
+Hos børn anvendes Omnitrope til at behandle følgende vækstforstyrrelser:
+•
+Hvis du ikke vokser nok, og du ikke selv danner tilstrækkeligt meget væksthormon.
+•
+Hvis du har Turners syndrom. Turners syndrom er en genetisk sygdom hos piger, der kan 
+påvirke din vækst - din læge vil have fortalt dig, hvis du lider af det.
+•
+Hvis du har kronisk nedsat nyrefunktion. Når nyrerne mister evnen til at fungere normalt, kan 
+dette påvirke væksten.
+•
+Hvis du var lille eller vejede for lidt ved fødslen. Væksthormon kan hjælpe dig med at vokse, 
+hvis du ikke har været i stand til at indhente eller opretholde den normale vækst ved 4-års 
+alderen eller senere. 
+•
+Hvis du har Prader-Willis syndrom (en kromosomsygdom). Væksthormon vil hjælpe dig med at 
+vokse, hvis du stadig vokser, og det vil også forbedre din kropssammensætning. Dit 
+overskydende fedt vil reduceres, og din reducerede muskelmasse vil forbedres.
+Hos voksne anvendes Omnitrope til at:
+•
+Behandle personer med udtalt væksthormonmangel. Dette kan enten starte i løbet af voksenlivet 
+eller fortsætte fra barndommen. 
+Hvis du er blevet behandlet med Omnitrope for væksthormonmangel i løbet af barndommen, vil 
+din væksthormonstatus blive testet igen, når du er færdig med at vokse. Hvis der bekræftes 
+alvorlig væksthormonmangel, vil din læge foreslå, at du fortsætter behandling med Omnitrope.
+Du bør kun få denne medicin af en læge med erfaring i behandling med væksthormoner, som har 
+bekræftet din diagnose.
+88</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take omnitrope"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take omnitrope"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Omnitrope
+•
+Hvis du er allergisk (overfølsom) over for somatropin eller et af de øvrige indholdsstoffer i 
+Omnitrope.
+•
+Hvis du har aktive svulster (kræft). Svulster skal være inaktive, og du skal have afsluttet din 
+kræftbehandling, før du starter behandling med Omnitrope. Tal med lægen.
+•
+Hvis Omnitrope er blevet ordineret til stimulering af vækst, men du er holdt op med at vokse 
+(lukkede epifyseskiver). Tal med lægen.
+•
+Hvis du er alvorligt syg (for eksempel har komplikationer efter en åben hjerteoperation, 
+maveoperation, tilskadekomst, akut vejrtrækningssvigt eller lignende tilstande). Hvis du skal 
+gennemgå eller har gennemgået en større operation, eller hvis du skal indlægges af en hvilken 
+som helst årsag, skal du fortælle lægen, at du får væksthormon, og sørge for, at de andre læger, 
+der behandler dig, får det at vide.
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du bruger Omnitrope
+•
+Hvis du er i substitutionsbehandling med glukokortikoider, skal du gå regelmæssigt til læge, da 
+det kan være nødvendigt at få justeret din glukokortikoiddosis.
+•
+Hvis du har risiko for at udvikle sukkersyge (diabetes), er det nødvendigt, at lægen måler dit 
+blodsukkerniveau under behandlingen med somatropin.
+•
+Hvis du har diabetes, skal du måle dit blodsukkerniveau nøje under somatropinbehandlingen og 
+diskutere resultaterne med lægen for at finde ud af, om det er nødvendigt, at du ændrer dosis af 
+din diabetesmedicin.
+•
+For nogle patienter, der er påbegyndt behandling med somatropin, har det været nødvendigt at 
+påbegynde substitutionsbehandling med skjoldbruskkirtelhormon.
+•
+Hvis du får behandling med skjoldbruskkirtelhormoner, kan det blive nødvendigt at justere din 
+dosis af skjoldbruskkirtelhormon.
+•
+Hvis du har øget tryk i hjernen (som forårsager symptomer som kraftig hovedpine, 
+synsforstyrrelser eller opkastning), skal du fortælle det til lægen.
+•
+Hvis du halter eller begynder at halte under behandlingen med væksthormon, skal du fortælle 
+det til lægen.
+•
+Hvis du får somatropin for væksthormonmangel på grund af tidligere svulster (kræft), skal du 
+undersøges regelmæssigt for tilbagevenden af svulster eller andre kræftformer.
+•
+Hvis du oplever forværrede mavesmerter, skal du fortælle det til lægen.
+•
+Der er begrænset erfaring hos patienter over 80 år. Ældre personer kan være mere følsomme 
+over for somatropins virkning, og derfor kan de have en større tendens til at få bivirkninger.
+•
+Omnitrope kan forårsage betændelse i bugspytkirtlen, hvilket forårsager alvorlige smerter i 
+maven og ryggen. Kontakt din læge, hvis du eller dit barn udvikler mavesmerter efter at have 
+taget Omnitrope.
+•
+En forværret sidelæns krumning af rygsøjlen (skoliose) kan udvikle sig hos ethvert barn under 
+hurtig vækst. Under behandling med somatropin vil lægen kontrollere dig (eller dit barn) for 
+tegn på skoliose.
+Børn med kronisk nedsat nyrefunktion
+•
+Din læge bør undersøge din nyrefunktion og hvor hurtigt, du vokser, før somatropinbehandling 
+påbegyndes. Den medicinske behandling af din nyresygdom bør fortsætte. Behandling med 
+somatropin skal stoppe ved nyretransplantation.
+Børn med Prader-Willis syndrom
+•
+Din læge vil give dig kostmæssige begrænsninger, som du skal følge for at kontrollere din vægt. 
+•
+Lægen vil undersøge dig for tegn på blokering af de øvre luftveje, søvnapnø (hvor din 
+vejrtrækning afbrydes, når du sover) og luftvejsinfektioner, før du påbegynder behandling med 
+somatropin.
+89
+•
+Fortæl det til lægen, hvis du under behandling med somatropin får tegn på blokering af de øvre 
+luftveje (herunder begynder at snorke, eller din snorken bliver værre). Det er nødvendigt, at 
+lægen undersøger dig, og behandlingen med somatropin skal måske afbrydes.
+•
+Under behandlingen vil din læge kontrollere dig for tegn på rygskævhed (skoliose).
+•
+Under behandlingen skal du fortælle lægen, hvis du får en lungeinfektion, så infektionen kan 
+behandles.
+Børn født små eller med lav fødselsvægt 
+•
+Hvis du var for lille eller vejede for lidt ved fødslen, og du er mellem 9 og 12 år, skal du spørge 
+lægen om specifik rådgivning angående behandling med denne medicin i puberteten.
+•
+Behandlingen bør fortsætte, indtil du er færdig med at vokse.
+•
+Din læge vil måle dit blodsukker og insulinniveau, inden behandlingen påbegyndes og hvert år 
+under behandlingen.
+Brug af anden medicin sammen med Omnitrope
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin..
+Det er særlig vigtigt, at du fortæller lægen, hvis du tager eller for nylig har taget nogle af følgende 
+lægemidler. Det kan være nødvendigt, at lægen justerer dosis af Omnitrope eller af de andre 
+lægemidler:
+•
+Medicin til behandling af sukkersyge (diabetes)
+•
+Skjoldbruskkirtelhormoner
+•
+Medicin til behandling af epilepsi
+•
+Ciclosporin (medicin, der svækker immunsystemet efter transplantation)
+•
+Østrogen taget oralt eller andre kønshormoner
+•
+Syntetiske binyrebarkhormoner (kortikosteroider).
+Det kan være nødvendigt, at lægen justerer dosis af disse lægemidler eller dosis af somatropin.
+Graviditet og amning
+Du må ikke tage Omnitrope, hvis du er gravid eller forsøger at blive gravid.
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Vigtig information om nogle af de øvrige indholdsstoffer i Omnitrope
+Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. ml, dvs. den er i det væsentlige 
+natriumfri.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take omnitrope"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take omnitrope"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens, apotekspersonalets eller sygeplejerskensanvisning. Er du 
+i tvivl, så spørg lægen, sundhedspersonalet eller på apoteket.
+Dosis afhænger af din størrelse, den sygdom du behandles for, og hvor godt væksthormon virker på 
+dig. Alle er forskellige. Din læge vil informere dig om din dosis af Omnitrope i milligram (mg) ud fra 
+enten din legemsvægt i kilo (kg) eller dit legemsoverfladeareal i kvadratmeter (m2) beregnet ud fra din 
+højde og vægt samt din behandlingsplan. Du må ikke ændre dosis eller behandlingsplan uden at 
+kontakte lægen.
+90
+Den anbefalede dosis er til:
+Børn med væksthormonmangel:
+0,025-0,035 mg/kg legemsvægt dagligt eller 0,7-1,0 mg/m2 legemsoverfladeareal dagligt. Højere doser 
+kan anvendes. Hvis væksthormonmanglen fortsætter ind i puberteten, skal Omnitrope fortsættes, indtil 
+den fysiske udvikling er afsluttet.
+Børn med Turners syndrom:
+0,045-0,050 mg/kg legemsvægt dagligt eller 1,4 mg/m2 legemsoverfladeareal dagligt.
+Børn med kronisk nedsat nyrefunktion:
+0,045-0,050 mg/kg legemsvægt dagligt eller 1,4 mg/m2 legemsoverfladeareal dagligt. Højere doser 
+kan være nødvendige, hvis du vokser for langsomt. Doseringsjustering kan være nødvendig efter 
+6 måneders behandling.
+Børn med Prader-Willis syndrom:
+0,035 mg/kg legemsvægt dagligt eller 1,0 mg/m2 legemsoverfladeareal dagligt. Den daglige dosis bør 
+ikke overstige 2,7 mg. Behandlingen bør ikke anvendes til børn, som næsten er færdige med at vokse 
+efter puberteten.
+Børn født mindre eller med lavere vægt end forventet og med vækstforstyrrelser:
+0,035 mg/kg legemsvægt dagligt eller 1,0 mg/m2 legemsoverfladeareal dagligt. Det er vigtigt at 
+fortsætte behandlingen, indtil sluthøjden er nået. Behandlingen bør afsluttes efter det første år, hvis du 
+ikke reagerer på behandlingen, eller hvis du har nået din sluthøjde og er holdt op med at vokse.
+Voksne med væksthormonmangel:
+Hvis du fortsætter med Omnitrope efter behandling i barndommen, skal du starte med 0,2-0,5 mg 
+dagligt. 
+Denne dosis skal øges eller reduceres gradvist i henhold til blodprøveresultater samt efter, hvordan 
+medicinen virker, og hvilke bivirkninger du får.
+Hvis din væksthormonmangel starter i voksenlivet, skal du begynde med 0,15-0,3 mg dagligt. Denne 
+dosis skal forøges gradvist i overensstemmelse med blodprøveresultater samt klinisk respons og 
+bivirkninger. Den daglige vedligeholdelsesdosis overstiger sjældent 1,0 mg. Kvinder kan behøve en 
+højere dosis end mænd. Doseringen skal følges hver 6. måned. Personer over 60 år bør starte med en 
+dosis på 0,1-0,2 mg dagligt, som bør øges langsomt i henhold til individuelle behov. Den laveste 
+effektive dosis skal anvendes. Vedligeholdelsesdosis overskrider sjældent 0,5 mg dagligt. Følg de 
+instruktioner, du får af lægen.
+Injektion af Omnitrope
+Injicer dit væksthormon på ca. samme tidspunkt hver dag. Ved sengetid er et godt tidspunkt, da det er 
+nemt at huske. Det er også naturligt at have et højere niveau af væksthormon om natten.
+Omnitrope er beregnet til subkutan anvendelse. Det betyder, at det injiceres ved hjælp af en kort 
+injektionskanyle i fedtvævet lige under huden. De fleste personer giver sig selv injektionen i låret eller 
+i bagdelen. Giv dig selv injektionen på det sted, din læge har vist dig. Fedtvævet i huden kan skrumpe 
+ind på injektionsstedet. For at undgå dette skal du give injektionen på lidt forskellige steder hver gang. 
+Dette giver huden og området under huden tid til at komme sig efter en injektion, før der gives en til 
+på samme sted.
+Din læge bør allerede have vist dig, hvordan du tager Omnitrope. Injicer altid Omnitrope nøjagtigt 
+efter lægens anvisning. Er du i tvivl, så spørg lægen eller på apoteket.
+91
+Hvordan du injicerer Omnitrope 1,3 mg/ml 
+Den følgende instruktion forklarer, hvordan du selv injicerer Omnitrope 1,3 mg/ml. Læs instruktionen 
+grundigt igennem og følg den trin for trin. Din læge eller sygeplejerske vil vise dig, hvordan du 
+injicerer Omnitrope. Forsøg ikke at injicere, med mindre du er helt sikker på proceduren og kravene 
+for injektionen. 
+-
+Efter tilberedning gives Omnitrope som en injektion under huden.
+-
+Kontroller opløsningen nøje inden injektion og brug den kun, hvis den fremstår klar og farveløs.
+-
+Skift injektionssted for at minimere risikoen for lokal lipoatrofi (nedsat mængde fedtlag under 
+huden). 
+Forberedelse
+Du skal bruge nedenstående, før du begynder:
+-
+Et hætteglas med Omnitrope 1,3 mg/ml pulver til injektionsvæske, 
+opløsning.
+-
+Et hætteglas med solvens (opløsningsmiddel) til Omnitrope 
+1,3 mg/ml.
+-
+En steril engangsinjektionssprøjte (f.eks. 2 ml injektionssprøjte) og 
+kanyle (f.eks. 0,33 mm x 12,7 mm) til udtagelse af solvens fra 
+hætteglasset (medfølger ikke i pakningen).
+-
+Steril engangsinjektionssprøjte i passende størrelse (f.eks. 1 ml 
+injektionssprøjte) og injektionskanyle (f.eks. 0,25 mm x 8 mm) til 
+subkutan injektion (medfølger ikke i pakningen)
+-
+2 spritservietter (medfølger ikke i pakningen).
+Vask dine hænder, før du fortsætter med næste trin.
+Tilberedning af Omnitrope
+-
+Fjern beskyttelseshætterne fra de to hætteglas i æsken. Desinficer 
+gummimembranerne på begge flaskerne med en spritserviet.
+-
+Tag hætteglasset med solvens og den sterile 
+engangsinjektionssprøjte (f.eks. 2 ml injektionssprøjten) og kanylen 
+(f.eks. 0,33 mm x 12,7 mm). Tryk kanylen med injektionssprøjten 
+gennem gummimembranen.
+-
+Vend bunden i vejret på hætteglasset med solvens og træk hele 
+mængden af solvens ud af hætteglasset.
+-
+Tag hætteglasset med pulveret og skub kanylen gennem 
+gummimembranen. Injicer opløsningen langsomt. Prøv at føre 
+strålen langs siden af glasset for at undgå dannelse af skum. Fjern 
+sprøjte og kanyle. 
+-
+Roter forsigtigt blandingen, til der fremkommer en fuldstændig klar 
+opløsning. Må ikke rystes.
+-
+Hvis opløsningen er uklar (og den ikke bliver klar indenfor minutter) eller indeholder partikler, må den ikke bruges. 
+Opløsningen skal være klar og farveløs.
+-
+Brug opløsningen straks.
+Udtagning af dosis
+-
+Tag en steril engangsinjektionssprøjte af passende størrelse (f.eks. 
+1 ml injektionssprøjte) og injektionskanyle (f.eks. 0,25 mm x 
+8 mm). 
+92
+-
+Skub kanylen gennem gummiproppen på hætteglasset med den 
+tilberedte opløsning.
+-
+Vend hætteglasset og injektionssprøjten med bunden opad i én 
+hånd.
+-
+Vær sikker på, at spidsen af kanylen er i den færdigblandede 
+opløsning med Omnitrope. Din anden hånd skal være fri til at 
+bevæge stemplet.
+-
+Træk langsomt stemplet tilbage og udtræk en lille smule mere i 
+injektionssprøjten, end foreskrevet af lægen
+-
+Hold injektionssprøjten med kanylen i hætteglasset med spidsen 
+opad og fjern injektionssprøjten fra hætteglasset.
+-
+Kontroller for luftbobler i injektionssprøjten. Hvis du ser nogen 
+bobler, så træk stemplet langsomt tilbage og bank forsigtigt på 
+injektionssprøjten med kanylen pegende opad, indtil boblerne er 
+forsvundet. Skub langsomt stemplet tilbage til den rette dosis.
+-
+Kontroller den færdigblandede opløsning visuelt forud for 
+injektion.
+Brug ikke opløsningen, hvis den er uklar eller indeholder 
+partikler. Du kan nu injicere dosis.
+Injektion af Omnitrope
+-
+Udvælg et sted på huden til injektionen. Det bedste sted til 
+injektion er væv med et lag fedt mellem hud og muskel som f.eks. 
+låret eller maven (undgå navle og talje).
+-
+Vær sikker på, at du injicerer mindst 1 cm fra sidste injektionssted, 
+og at du ændrer sted, som du har lært det.
+-
+Inden du foretager en injektion, skal du rense huden med en 
+spritserviet. Vent til huden er tør.
+-
+Lav en fold med løs hud med den ene hånd. Med den anden hånd 
+holder du injektionssprøjten, som var det en blyant. Sæt kanylen i 
+huden med en vinkel på 45°-90°. Når kanylen er inde, kan du fjerne 
+hånden, som du holdt huden med, og bruge den til at holde 
+injektionssprøjtens cylinder med. Træk stemplet tilbage meget 
+langsomt med en hånd. Hvis der kommer blod i injektionssprøjten, 
+har kanylen ramt en blodåre. Injicer ikke på dette sted, træk 
+kanylen ud og gentag dette trin. Injicer ved at skubbe stemplet 
+langsomt helt i bund.
+-
+Træk kanylen lige ud af huden.
+Efter injektion
+-
+Pres på injektionsstedet med lidt vat eller gaze i nogle sekunder. 
+Masséra ikke på injektionsstedet.
+-
+Resten af opløsning, hætteglas og injektionsmateriale beregnet til 
+engangsbrug skal kasseres. Brugte kanyler anbringes i en lukket 
+container.
+-
+Hvis du har brugt for meget Omnitrope
+Hvis du injicerer meget mere, end du skal, skal du kontakte lægen eller apoteket snarest muligt. Dit 
+blodsukkerniveau kan blive for lavt og senere for højt. Du kan ryste, svede, føle dig søvnig eller “ikke 
+dig selv", og du kan besvime.
+93
+Hvis du har glemt at bruge Omnitrope
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Det er bedst at tage 
+væksthormon regelmæssigt. Hvis du har glemt at bruge en dosis, skal du tage din næste injektion til 
+sædvanlig tid næste dag. Registrer alle glemte injektioner og fortæl det til lægen ved din næste kontrol.
+Hvis du holder op med at bruge Omnitrope
+Få råd fra lægen, inden du stopper med at tage Omnitrope.
+Spørg lægen, apotekspersonalet eller sygeplejersken , hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+meget almindelige og de almindelige bivirkninger hos voksne kan starte inden for de første måneders 
+behandling og kan enten stoppe spontant, eller hvis din dosis nedsættes.
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) omfatter:
+•
+Ledsmerter
+•
+Væskeophobning (viser sig som opsvulmede fingre eller hævede ankler kortvarigt i begyndelsen 
+af behandlingen)
+•
+Rødme, kløe eller smerter på injektionsstedet
+Almindelige bivirkninger (sandsynlige hos færre end 1 ud af 10 personer) omfatter:
+•
+Hævede kløende knopper på huden.
+•
+Udslæt.
+•
+Følelsesløshed/prikkende fornemmelse.
+•
+Stivhed i arme og ben, muskelsmerter.
+Hos voksne
+•
+Smerter eller brændende fornemmelse i hænder eller på underarme (karpaltunnelsyndrom)
+Ikke almindelige bivirkninger (sandsynlige hos færre end 1 ud af 100 personer) omfatter:
+•
+Brystforstørrelse (gynækomasti)
+•
+Kløe
+Sjældne bivirkninger (sandsynlige hos færre end 1 ud af 1.000 personer) omfatter:
+Hos børn
+•
+Leukæmi (rapporteret hos et lille antal patienter med væksthormonmangel, hvoraf nogle er 
+blevet behandlet med somatropin. Der er imidlertid intet bevis for, at leukæmi forekommer 
+hyppigere hos patienter i behandling med væksthormon, hvis der ikke er andre faktorer, der 
+øger risikoen.)
+•
+Øget tryk i hjernen (forårsager symptomer såsom kraftig hovedpine, synsforstyrrelser eller 
+opkastning)
+Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data):
+•
+Type II diabetes (sukkersyge)
+•
+Et nedsat niveau af hormonet kortisol i blodet
+•
+Hævelse i ansigtet
+94
+•
+Hovedpine
+•
+Hypotyreoidisme
+Hos voksne
+•
+Øget tryk i hjernen (forårsager symptomer såsom kraftig hovedpine, synsforstyrrelser eller 
+opkastning)
+Dannelse af antistoffer mod det injicerede væksthormon, men det virker ikke som om, det får 
+væksthormonet til at holde op med at virke.
+Huden omkring injektionsstedet kan blive ujævn, men det burde ikke ske, hvis du injicerer på 
+forskellige steder hver gang.
+Der har været sjældne tilfælde af pludselig død hos patienter med Prader-Willis syndrom. Der er 
+imidlertid ikke fastlagt nogen forbindelse mellem disse tilfælde og behandlingen med Omnitrope.
+Din læge kan overveje afglidning af lårbenshovedet (epifysiolyse capitis femoris) og Legg-Calvé-
+Perthes sygdom, hvis der opstår besvær eller smerter i hoften eller knæet under behandlingen med 
+Omnitrope.
+Andre bivirkninger med relation til din behandling med væksthormon kan omfatte følgende:
+Du (eller dit barn) kan få højt blodsukker eller nedsat niveau af skjoldbruskkirtelhormon. Dette kan 
+undersøges af lægen, og hvis det er nødvendigt, vil din læge ordinere en hensigtsmæssig behandling. 
+Der er i sjældne tilfælde blevet rapporteret betændelse i bugspytkirtlen hos patienter i behandling med 
+væksthormon.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store omnitrope"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store omnitrope"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevares utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+•
+Opbevares i køleskab og transporteres nedkølet (2 °C - 8 °C).
+•
+Må ikke nedfryses.
+•
+Opbevares i den originale yderpakning for at beskytte mod lys.
+•
+Produktet skal, ud fra et mikrobiologisk synspunkt, bruges straks efter rekonstitution. Det er dog 
+påvist at produktet er stabilt til anvendelse i op til 24 timer ved (2 °C - 8 °C) i den originale 
+yderpakning.
+•
+Kun til engangsbrug.
+Brug ikke Omnitrope, hvis du opdager, at opløsningen er uklar.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.
+95</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Omnitrope indeholder:
+Aktivt stof: somatropin 1,3 mg
+Et hætteglas indeholder 1,3 mg (svarende til 4 IE) somatropin efter rekonstitution med 1 ml 
+opløsningsmiddel.
+Øvrige indholdsstoffer:
+Pulver:
+glycin
+dinatriumhydrogenphosphatheptahydrat
+natriumdihydrogenphosphatdihydrat
+Solvens:
+vand til injektionsvæsker
+Udseende og pakningstørrelser
+Pulver og solvens til injektionsvæske (pulver i et hætteglas (1,3 mg), solvens i et hætteglas (1 ml)).
+Pakningsstørrelse: 1 
+Pulveret er hvidt og solvensen er en klar, farveløs opløsning.
+Indehaver af markedsføringstilladelsen 
+Sandoz GmbH
+Biochemiestr. 10
+A-6250 Kundl
+Østrig
+Fremstiller
+Sandoz GmbH
+Biochemiestr. 10
+A-6336 Langkampfen
+Østrig
+Novartis Pharmaceutical Manufacturing GmbH
+Biochemiestr. 10
+A-6336 Langkampfen
+Østrig
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+Du kan finde yderligere oplysninger om Omnitrope på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.
+96
+Indlægsseddel: Information til brugeren 
+Omnitrope 5 mg/ml pulver og solvens til injektionsvæske, opløsning
+somatropin
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, eller du 
+får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-552224bdd5379f4c4cfefcd5a85f0788
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for omnitrope Package Leaflet for language en"
+Description: "ePI document Bundle for omnitrope Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-552224bdd5379f4c4cfefcd5a85f0788"
+* entry[0].resource = composition-en-552224bdd5379f4c4cfefcd5a85f0788
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp552224bdd5379f4c4cfefcd5a85f0788"
+* entry[=].resource = mp552224bdd5379f4c4cfefcd5a85f0788
+                            
+                    
+Instance: bundlepackageleaflet-da-552224bdd5379f4c4cfefcd5a85f0788
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for omnitrope Package Leaflet for language da"
+Description: "ePI document Bundle for omnitrope Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-552224bdd5379f4c4cfefcd5a85f0788"
+* entry[0].resource = composition-da-552224bdd5379f4c4cfefcd5a85f0788
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp552224bdd5379f4c4cfefcd5a85f0788"
+* entry[=].resource = mp552224bdd5379f4c4cfefcd5a85f0788
+                            
+                    
+
+
+
+Instance: mp552224bdd5379f4c4cfefcd5a85f0788
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Omnitrope 1.3 mg/ml powder and solvent for solution for injection"
-Description: "Omnitrope 1.3 mg/ml powder and solvent for solution for injection"
+Title: "Medicinal Product omnitrope"
+Description: "omnitrope"
 Usage: #inline
 
  
@@ -493,7 +1120,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Omnitrope 1.3 mg/ml powder and solvent for solution for injection"
+  * productName = "omnitrope"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -520,29 +1147,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-552224bdd5379f4c4cfefcd5a85f0788
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for omnitrope Package Leaflet for language en"
-Description: "ePI document Bundle for omnitrope Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 552224bdd5379f4c4cfefcd5a85f0788ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/06/332/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "omnitrope"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-552224bdd5379f4c4cfefcd5a85f0788"
-* entry[0].resource = composition-en-552224bdd5379f4c4cfefcd5a85f0788
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpee8e00540014b2b02e2b9e8b02695760"
-* entry[=].resource = mpee8e00540014b2b02e2b9e8b02695760
-                            
-                      
+* title = "List of all ePIs associated with omnitrope"
+
+* subject = Reference(mpee8e00540014b2b02e2b9e8b02695760)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#omnitrope "omnitrope"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-552224bdd5379f4c4cfefcd5a85f0788) // omnitrope en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-552224bdd5379f4c4cfefcd5a85f0788) // omnitrope da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-552224bdd5379f4c4cfefcd5a85f0788
+InstanceOf: List
+
+* insert 552224bdd5379f4c4cfefcd5a85f0788ListRuleset
+    

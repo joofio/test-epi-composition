@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a2aa072350b7f0283a86de62e6b164d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for vantobra Package Leaflet"
@@ -324,12 +327,512 @@ Germany </p>
 
 
 
+Instance: composition-da-a2aa072350b7f0283a86de62e6b164d2
+InstanceOf: CompositionUvEpi
+Title: "Composition for vantobra Package Leaflet"
+Description:  "Composition for vantobra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp467878fe73b663600c95676366e6ae6c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp467878fe73b663600c95676366e6ae6c
+* title = "TEST PURPOSES ONLY - vantobra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at bruge Vantobra </li>
+<li>Sådan skal du bruge Vantobra </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelse og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vantobra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vantobra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Vantobra er 
+Vantobra indeholder et antibiotisk lægemiddel, der hedder tobramycin. Det hører til en klasse af antibiotiske 
+lægemidler, der kaldes aminoglycosider. </p>
+<p>Hvad Vantobra bruges til 
+Vantobra bruges til patienter med cystisk fibrose i alderen fra 6 år og opefter til at behandle lungeinfektioner, 
+der skyldes bakterier, der hedder Pseudomonas aeruginosa.  </p>
+<p>Pseudomonas aeruginosa er en bakterie, der hyppigt inficerer lungerne hos patienter med cystisk fibrose på 
+nogle tidspunkter i deres liv. Hvis infektionen ikke behandles korrekt, fortsætter den med at beskadige 
+lungerne, hvilket medfører yderligere problemer med vejrtrækningen. </p>
+<p>Hvorledes Vantobra virker 
+Når du inhalerer Vantobra, kan antibiotikummet gå direkte ned i dine lunger for at bekæmpe de bakterier, der 
+medfører infektionen. Det virker ved at afbryde produktionen af proteiner, som bakterierne har brug for til at 
+opbygge deres cellevægge. Dette beskadiger bakterierne og vil med tiden dræbe dem. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vantobra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vantobra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Vantobra: </p>
+<ul>
+<li>Hvis du er allergisk (overfølsom) over for tobramycin, over for nogen type af aminoglycosid antibiotika 
+eller over for nogen af de øvrige indholdsstoffer i Vantobra (angivet i punkt 6).<br />
+Hvis dette gælder for dig, så fortæl det til lægen, inden du bruger Vantobra. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, hvis du nogensinde har haft nogen af de følgende tilstande: </p>
+<ul>
+<li>
+<p>Høreproblemer (inklusive støj i ørene og svimmelhed) </p>
+</li>
+<li>
+<p>Nyreproblemer </p>
+</li>
+<li>
+<p>Stram fornemmelse over brystet </p>
+</li>
+<li>
+<p>Blod i dit spyt (substansen, du hoster op) </p>
+</li>
+<li>
+<p>Muskelsvaghed, der varer ved eller bliver værre med tiden, et symptom oftest relateret til tilstande såsom 
+myastheni (muskelsvækkelse) eller Parkinson’s disease. 
+Vis noget af dette gælder for dig, så fortæl det til lægen, inden du bruger Vantobra. </p>
+</li>
+</ul>
+<p>Hvis du har problemer med din hørelse eller nyrefunktion, kan din læge tage blodprøver for at overvåge 
+mængden af Vantobra i dit system. </p>
+<p>Hvis du eller dine familiemedlemmer på din mors side har en mitokondriemutationssygdom (en genetisk 
+tilstand) eller høretab på grund af antibiotika, anbefales det at informere din læge eller apoteket, før du tager 
+dette lægemiddel. Visse mitokondrielle mutationer kan øge risikoen for høretab ved brug af dette produkt. 
+Din læge kan anbefale genetisk testning før administration af Vantobra. </p>
+<p>Inhalation af lægemidler kan medføre en stram fornemmelse over brystet på grund af tilsnævring af 
+luftvejene, og dette kan forekomme med Vantobra. Din læge vil måske bede dig om at anvende andre 
+passende lægemidler til at udvide luftvejene inden brugen af Vantobra.  </p>
+<p>Stammer af Pseudomonas kan blive resistente over for behandling med et antibiotikum med tiden. Dette 
+betyder, at Vantobra måske ikke vil fungere så godt som det burde med tiden. Tal med din læge, hvis dette 
+bekymrer dig. </p>
+<p>Hvis du også tager tobramycin eller andre aminoglycosid antibiotika som injektion, kan det øge risikoen for 
+bivirkninger, og din læge vil om nødvendigt holde øje med disse. </p>
+<p>Børn<br />
+Denne medicin er ikke beregnet til brug hos børn under 6 år gamle. </p>
+<p>Brug af anden medicin sammen med Vantobra 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig, 
+inklusive lægemidler uden recept. </p>
+<p>Du bør ikke tage følgende lægemidler, mens du bruger Vantobra: </p>
+<ul>
+<li>
+<p>Furosemid, et diuretikum (“vanddrivende tablet") </p>
+</li>
+<li>
+<p>Andre lægemidler med diuretisk potentiale, såsom urea eller mannitol </p>
+</li>
+<li>
+<p>Andre lægemidler, som kan gøre skade på dine nyrer eller hørelse:  * </p>
+</li>
+</ul>
+<p>Amphotericin B, cefalotin, polymyxiner (bruges til at behandle mikrobielle infektioner), 
+ciclosporin, tacrolimus (bruges til at nedsætte immunsystemets aktivitet). Disse lægemidler kan 
+beskadige nyrerne.  * </p>
+<p>Platin-forbindelser, såsom carboplatin og cisplatin (bruges til at behandle visse former for 
+kræft). Disse lægemidler kan beskadige nyrerne eller hørelsen. </p>
+<p>Følgende lægemidler kan øge risikoen for skadelige virkninger, der kan forekomme, hvis de bliver givet til 
+dig, mens du også tager tobramycin eller andre aminoglycosid antibiotika som injektion: </p>
+<ul>
+<li>Anticholinesteraser, såsom neostigmin og pyridostigmin (bruges til at behandle muskelsvækkelse), 
+eller botulinum toxin. Disse lægemidler kan medføre fremkaldelse af muskelsvækkelse eller gøre den 
+værre. 
+Hvis du tager et eller flere af de ovenfor nævnte lægemidler, så fortæl det til din læge, inden du bruger 
+Vantobra. </li>
+</ul>
+<p>Du bør ikke blande eller fortynde Vantobra med noget andet lægemiddel i dit Tolero nebuliser-håndsæt, som 
+du får sammen med Vantobra. </p>
+<p>Hvis du tager flere forskellige behandlinger for cystisk fibrose, bør du tage dem i følgende rækkefølge: </p>
+<ol>
+<li>Bronchodilatator terapi, såsom salbutamol </li>
+<li>Lungefysioterapi </li>
+<li>Andre lægemidler til inhalation </li>
+<li>Vantobra 
+Kontrollér også denne rækkefølge med din læge. </li>
+</ol>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Det vides ikke, om inhalation af dette lægemiddel under graviditet medfører bivirkninger. Når de gives som 
+injektion, kan tobramycin og andre aminoglycosid antibiotika medføre skade på det ufødte barn, såsom døvhed 
+og nyreproblemer. </p>
+<p>Hvis du ammer, bør du tale med din læge, inden du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Vantobra forventes ikke at påvirke evnen til at køre eller bruge maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vantobra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vantobra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.  </p>
+<p>Den sædvanlige dosis er to ampuller hver dag (én om morgenen og én om aftenen) i 28 dage.  </p>
+<ul>
+<li>
+<p>Dosis er den samme for alle personer fra 6 år og opefter. </p>
+</li>
+<li>
+<p>Inhalér gennem munden hele indholdet af én ampul om morgenen, og én ampul om aftenen ved brug 
+af Tolero nebuliser-håndsættet. </p>
+</li>
+<li>
+<p>Det er bedst at have et interval så tæt som muligt på 12 timer mellem doserne, men dette interval skal 
+være mindst 6 timer. </p>
+</li>
+<li>
+<p>Efter at du har brugt din medicin i 28 dage, skal du så have en 28-dages pause, under hvilken du ikke 
+inhalerer noget Vantobra. Derefter starter du efter pausen endnu et forløb (som illustreret). </p>
+</li>
+<li>
+<p>Det er vigtigt, at du bliver ved med at bruge medicinen to gange hver dag under dine 28 dage i 
+behandling, og at du overholder 28-dage "med" / 28-dage "uden" cyklussen. </p>
+</li>
+</ul>
+<p>Med Vantobra<br />
+Uden Vantobra 
+Brug Vantobra to gange daglig i 28 dage Brug ikke noget Vantobra i de næste 28 dage </p>
+<pre><code> Gentag cyklus
+</code></pre>
+<p>Fortsæt med at bruge Vantobra på denne cykliske måde lige så længe, som din læge giver dig besked på.<br />
+Hvis du har spørgsmål om, hvor længe du skal bruge Vantobra, så tal med din læge eller apotekspersonalet. </p>
+<p>Klargøring af Vantobra til inhalation </p>
+<ul>
+<li>
+<p>Brug kun Vantobra sammen med Tolero nebuliser-håndsættet vist på billedet nedenfor for at sikre, at 
+du inhalerer den korrekte dosis. Lad være at bruge Tolero nebuliser-håndsættet til nogen anden 
+medicin.  </p>
+</li>
+<li>
+<p>Læs brugsanvisningen, der kommer med håndsættet, inden brugen.  </p>
+</li>
+<li>
+<p>Vær sikker på, at du har en eTrack eller eBase controller at tilslutte til Tolero nebuliser-håndsættet. 
+Den respektive controller kan ordineres af din læge eller købes separat. </p>
+</li>
+<li>
+<p>Vask dine hænder grundigt med vand og sæbe. </p>
+</li>
+<li>
+<p>Fjern én ampul med Vantobra fra brevet af aluminiumsfolie lige inden inhalationen.  </p>
+</li>
+<li>
+<p>Opbevar resten af medicinen nedkølet i den originale æske. </p>
+</li>
+<li>
+<p>Læg alle stykkerne fra dit Tolero nebuliser-håndsæt ud på et rent, tørt håndklæde af papir eller stof. 
+Kontrollér, at nebuliser-håndsættet er på en flad, stabil overflade. </p>
+</li>
+<li>
+<p>Saml Tolero nebuliser-håndsættet som illustreret i brugsanvisningen for håndsættet.  </p>
+</li>
+<li>
+<p>Hold ampullen opret og bank let på den inden topdelen drejes af, for at undgå at spilde. Tøm indholdet 
+af én ampul over i medicinreservoiret på nebuliser-håndsættet. </p>
+</li>
+<li>
+<p>Begynd din behandling ved at sidde i en opret position, i et velventileret rum. Hold nebuliser-
+håndsættet horisontalt og træk vejret normalt gennem munden. Undgå at trække vejret gennem næsen. 
+Fortsæt med bekvemt at ånde ind og ånde ud, indtil behandlingen er afsluttet. Når al medicinen er 
+blevet afleveret, vil du høre “behandling fuldført" tonen. </p>
+</li>
+<li>
+<p>Hvis du er nødt til at afbryde din behandling af en eller anden grund, så tryk på On/Off knappen og 
+hold den nede ét helt sekund. For at genstarte behandlingen trykkes On/Off knappen igen ned og 
+holdes nede ét fuldt sekund for at genoptage behandlingen. </p>
+</li>
+<li>
+<p>Tolero nebuliser-håndsættet skal rengøres og desinficeres som beskrevet i anordningens 
+brugsanvisning. </p>
+</li>
+<li>
+<p>Brug et nyt Tolero nebuliser-håndsæt til hver behandlingscyklus (28 dagemed behandling) som 
+medfølger med medicinen. </p>
+</li>
+</ul>
+<p>Brug ikke et alternativt, utestet nebuliser-system, da det kan ændre mængden af lægemiddel, der når frem til 
+lungerne. Dette kan igen ændre, hvorledes lægemidlet virker og dets sikkerhed. </p>
+<p>Hvis du har brugt for meget Vantobra 
+Hvis du inhalerer for meget Vantobra, kan du få en meget hæs stemme. Kontakt din læge så snart som 
+muligt. Hvis Vantobra bliver sunket, vil det sandsynligvis ikke medføre større problemer, da tobramycin 
+absorberes dårligt fra maven, men du bør stadigvæk kontakte din læge så snart som muligt. </p>
+<p>Hvis du har glemt at bruge Vantobra<br />
+Hvis du glemmer at bruge Vantobra, og der er mindst 6 timer til din næste dosis, så tag din dosis så snart du 
+kan. Ellers vent til din næste dosis. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at bruge Vantobra<br />
+Lad være med at holde op med at bruge Vantobra, medmindre din læger siger, at du skal, da din 
+lungeinfektion måske ikke bliver kontrolleret tilstrækkeligt og kan blive værre. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige </p>
+<ul>
+<li>
+<p>Stram forrnemmelse  over brystet med åndedrætsbevær (sjælden, påvirker op til 1 ud af 1.mennesker) </p>
+</li>
+<li>
+<p>allergiske reaktioner, inklusive nældefeber og kløe (meget sjælden, påvirker op til 1 ud af 10.mennesker). 
+Hvis du oplever nogen af disse, så hold op med at bruge Vantobra og kontakt din læge med det samme.  </p>
+</li>
+</ul>
+<p>Mennesker med cystisk fibrose kan have mange symptomer af sygdommen. Disse kan stadigvæk forekomme 
+under brugen af Vantobra, men skulle ikke være så hyppige eller værre end før. </p>
+<p>Hvis din underliggende lungesygdom synes at blive værre, mens du bruger Vantobra, så kontakt straks din 
+læge. </p>
+<p>Andre bivirkninger kan omfatte: 
+Ualmindelig (kan påvirke op til 1 ud af 100 mennesker) </p>
+<ul>
+<li>
+<p>kortåndethed </p>
+</li>
+<li>
+<p>ændring af stemmen (hæshed) </p>
+</li>
+<li>
+<p>øget hosten </p>
+</li>
+<li>
+<p>ondt i halsen </p>
+</li>
+</ul>
+<p>Sjælden (kan påvirke op til 1 ud af 1.000 mennesker) </p>
+<ul>
+<li>
+<p>laryngitis (inflammation af stemmebåndene, der kan medføre ændring af stemmen, ondt i halsen og 
+synkebesvær) </p>
+</li>
+<li>
+<p>tab af stemmen </p>
+</li>
+<li>
+<p>hovedpine, svaghed </p>
+</li>
+<li>
+<p>næseblod, løbende næse </p>
+</li>
+<li>
+<p>ringen for ørene (normalt forbigående), høretab, svimmelhed </p>
+</li>
+<li>
+<p>hosten blod op, producerende mere spyt end normalt, ubehag i brystet, astma, feber </p>
+</li>
+<li>
+<p>smagsforstyrrelser, følen sig syg (kvalme), mundsår, værende syg (opkastning), appetitløshed  </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>brystsmerter eller almene smerter </p>
+</li>
+<li>
+<p>forværring af testresultater for lungefunktion </p>
+</li>
+</ul>
+<p>Meget sjælden (kan påvirke op til 1 ud af 10.000 mennesker) </p>
+<ul>
+<li>
+<p>svampeinfektioner i munden eller svælget, såsom trøske </p>
+</li>
+<li>
+<p>hævelse af lymfekirtler </p>
+</li>
+<li>
+<p>søvnighed </p>
+</li>
+<li>
+<p>øresmerter, øreproblemer  </p>
+</li>
+<li>
+<p>hyperventilering, lave iltniveauer i dit blod, sinusitis </p>
+</li>
+<li>
+<p>diarré, smerter i og omkring maven </p>
+</li>
+<li>
+<p>røde blærer, papler på huden </p>
+</li>
+<li>
+<p>nældefeber, kløe </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>generel følelse af ikke at have det godt  </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige bivirkninger, 
+som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte 
+til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere 
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vantobra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vantobra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på ampullen, brevet eller æsken efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). Hvis du ikke har adgang til et køleskab (såsom når du transporterer din 
+medicin), kan du opbevare æsken med medicin (selvom brevene er åbnet) ved under 25°C i op til 4 uger. 
+Hvis produktet har været opbevaret ved stuetemperatur i længere end 4 uger, skal det bortskaffes i henhold til 
+lokale krav. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at det er blevet uklart, eller hvis der er partikler i opløsningen. </p>
+<p>Opbevar aldrig en åbnet ampul. Når den først er åbnet, skal ampullen anvendes med det samme, og 
+tiloversblevet produkt bør kasseres. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vantobra indeholder<br />
+- Aktivt stof er tobramycin. Én ampul indeholder 170 mg tobramycin som en enkelt dosis.<br />
+- Øvrige indholdsstoffer (hjælpestoffer) er: Natriumklorid, calciumklorid, magnesiumsulfat, vand til 
+injektioner, svovlsyre og natriumhydroxid til justering af pH. </p>
+<p>Udseende og pakningsstørrelse 
+Vantobra nebuliser-opløsning leveres i en ampul klar til brug.  </p>
+<p>Vantobra er en klar til let gulfarvet opløsning, der kan variere til en mørkere gul. Dette ændrer ikke, hvordan 
+Vantobra fungerer under forudsætning af, at opbevaringsinstruktionerne er blevet fulgt. </p>
+<p>Ampuller er pakket i breve, hvor ét brev indeholder 8 ampuller, hvilket svarer til 4 dages behandling. </p>
+<p>Vantobra forefindes sammen med et Tolero nebuliser-håndsæt. Det leveres i en æske, der indeholder to indre 
+æsker, den ene med medicinen (56 ampuller med nebuliser-opløsning i 7 breve), og en med nebuliser 
+håndsættet. En pakning er tilstrækkelig til en behandlingscyklus på 28 dage. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>PARI Pharma GmbH 
+Moosstrasse 3 
+D-82319 Starnberg 
+Tyskland </p>
+<p>Tlf.:<br />
+ +49 (0) 89 – 74 28 46 - 10<br />
+Fax:<br />
+ +49 (0) 89 – 74 28 46 E-mail:   info@paripharma.com  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme og om, 
+hvordan de behandles.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a2aa072350b7f0283a86de62e6b164d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vantobra Package Leaflet for language en"
+Description: "ePI document Bundle for vantobra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a2aa072350b7f0283a86de62e6b164d2"
+* entry[0].resource = composition-en-a2aa072350b7f0283a86de62e6b164d2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2aa072350b7f0283a86de62e6b164d2"
+* entry[=].resource = mpa2aa072350b7f0283a86de62e6b164d2
+                            
+                    
+Instance: bundlepackageleaflet-da-a2aa072350b7f0283a86de62e6b164d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vantobra Package Leaflet for language da"
+Description: "ePI document Bundle for vantobra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a2aa072350b7f0283a86de62e6b164d2"
+* entry[0].resource = composition-da-a2aa072350b7f0283a86de62e6b164d2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2aa072350b7f0283a86de62e6b164d2"
+* entry[=].resource = mpa2aa072350b7f0283a86de62e6b164d2
+                            
+                    
+
+
+
+Instance: mpa2aa072350b7f0283a86de62e6b164d2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vantobra 170 mg nebuliser solution"
-Description: "Vantobra 170 mg nebuliser solution"
+Title: "Medicinal Product vantobra"
+Description: "vantobra"
 Usage: #inline
 
  
@@ -349,7 +852,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vantobra 170 mg nebuliser solution"
+  * productName = "vantobra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -376,29 +879,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a2aa072350b7f0283a86de62e6b164d2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vantobra Package Leaflet for language en"
-Description: "ePI document Bundle for vantobra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a2aa072350b7f0283a86de62e6b164d2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1350/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vantobra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a2aa072350b7f0283a86de62e6b164d2"
-* entry[0].resource = composition-en-a2aa072350b7f0283a86de62e6b164d2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp467878fe73b663600c95676366e6ae6c"
-* entry[=].resource = mp467878fe73b663600c95676366e6ae6c
-                            
-                      
+* title = "List of all ePIs associated with vantobra"
+
+* subject = Reference(mp467878fe73b663600c95676366e6ae6c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vantobra "vantobra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a2aa072350b7f0283a86de62e6b164d2) // vantobra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a2aa072350b7f0283a86de62e6b164d2) // vantobra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a2aa072350b7f0283a86de62e6b164d2
+InstanceOf: List
+
+* insert a2aa072350b7f0283a86de62e6b164d2ListRuleset
+    

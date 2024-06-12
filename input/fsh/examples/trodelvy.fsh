@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-27ec6b1f73b141fda5344cc71ceec655
 InstanceOf: CompositionUvEpi
 Title: "Composition for trodelvy Package Leaflet"
@@ -444,12 +447,788 @@ Tel: + 44 (0) 8000 113 This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-27ec6b1f73b141fda5344cc71ceec655
+InstanceOf: CompositionUvEpi
+Title: "Composition for trodelvy Package Leaflet"
+Description:  "Composition for trodelvy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5828fd5a5b27a0ae65064770d41cecf8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5828fd5a5b27a0ae65064770d41cecf8
+* title = "TEST PURPOSES ONLY - trodelvy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at få Trodelvy </li>
+<li>Sådan får du Trodelvy  </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What trodelvy is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What trodelvy is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trodelvy er et kræftlægemiddel der indeholder det aktive stof sacituzumab govitecan. Den ene del af 
+medicinen er et monoklonalt antistof, som binder specifikt til et protein på overfladen af 
+brystkræftceller kaldet Trop2. Trodelvys anden aktive del er SN-38, et stof, der kan dræbe kræftceller. 
+Når medicinen binder til kræftcellerne, bevæger SN-38 sig ind i kræftcellerne og dræber dem, og 
+hjælper dermed med at bekæmpe din kræft. </p>
+<p>Trodelvy anvendes til at behandle en type brystkræft hos voksne kaldet triple-negativ 
+brystkræft. Trodelvy må kun anvendes, efter patienterne har prøvet mindst to andre behandlinger for 
+deres kræft, herunder mindst én af dem for en lokalt fremskreden kræft eller metastaseret kræft. </p>
+<p>Trodelvy anvendes til at behandle en type brystkræft hos voksne kaldet hormonreceptor-positiv 
+(HR+), human epidermal growth factor receptor 2-negativ (HER2-) brystkræft. Trodelvy må kun 
+anvendes, efter patienterne har prøvet en behandling, herunder hormonbehandling, og mindst to andre 
+behandlinger for en lokalt fremskreden kræft eller metastaseret kræft. </p>
+<p>Medicinen anvendes, når det ikke er muligt at fjerne kræften kirurgisk, fordi kræften har spredt sig til 
+områder uden for brystet (lokalt fremskreden), eller har spredt sig til andre steder i kroppen 
+(metastaseret).  </p>
+<p>Tal med lægen eller sygeplejersken, hvis du har spørgsmål om, hvordan Trodelvy virker, eller hvorfor 
+denne medicin er ordineret til dig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take trodelvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take trodelvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Trodelvy, hvis du er allergisk over for sacituzumab govitecan eller et af de øvrige 
+indholdsstoffer i dette lægemiddel (angivet i punkt 6). Hvis du mener, at du er allergisk, skal du bede 
+lægen om vejledning. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Infusionsrelaterede bivirkninger </p>
+<p>Trodelvy gives med drop i en blodåre (vene). Nogle personer kan udvikle infusionsrelaterede 
+bivirkninger, som kan være alvorlige eller livstruende. Søg akut lægehjælp, hvis du bemærker nogen 
+af følgende tegn og symptomer på infusionsrelaterede bivirkninger: </p>
+<ul>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>pludselig udbrud af hævede, svagt røde knopper eller plaque (hævelser) på huden </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>pludselig svær rysten ledsaget af en følelse af at være kold </p>
+</li>
+<li>
+<p>voldsomme svedeture </p>
+</li>
+<li>
+<p>åndedrætsbesvær og hvæsende vejrtrækning </p>
+</li>
+<li>
+<p>brystsmerter, hjertebanken<br />
+Lægen kan give dig noget medicin inden Trodelvy for at lindre symptomerne. Du bliver overvåget 
+nøje for disse tegn og symptomer på infusionsrelaterede bivirkninger under hver infusion og i 
+30 minutter efter. Lægen vil nedsætte infusionshastigheden eller stoppe den, hvis du udvikler en 
+alvorlig infusionsrelateret bivirkning. </p>
+</li>
+</ul>
+<p>Neutropeni </p>
+<p>Denne medicin kan forårsage neutropeni, en tilstand, hvor der er for få hvide blodlegemer i dit blod, 
+hvilket øger risikoen for infektioner. Disse infektioner kan være alvorlige, livstruende og kan føre til 
+død. Søg akut lægehjælp, hvis du bemærker nogen af følgende tegn og symptomer på neutropeni 
+eller infektioner:  </p>
+<ul>
+<li>
+<p>feber (temperatur på 38,5 °C eller højere) </p>
+</li>
+<li>
+<p>kulderystelser eller svedeture  </p>
+</li>
+<li>
+<p>ondt i halsen, sår i munden eller tandpine  </p>
+</li>
+<li>
+<p>mavesmerter  </p>
+</li>
+<li>
+<p>smerter nær anus </p>
+</li>
+<li>
+<p>smerter eller svien, når du lader vandet eller at du lader vandet oftere </p>
+</li>
+<li>
+<p>diarré eller sår omkring anus </p>
+</li>
+<li>
+<p>hoste eller stakåndethed 
+Lægen tager blodprøver for at holde øje med niveauet af hvide blodlegemer i dit blod. Du får ikke 
+Trodelvy, hvis neutrofilerne (antallet af hvide blodlegemer) er under et vist niveau på dag 1 og dag 8 i 
+et behandlingsforløb.<br />
+Lægen vil justere den mængde medicin, du skal have hvis du har svær neutropeni.  </p>
+</li>
+</ul>
+<p>Diarré </p>
+<p>Søg akut lægehjælp, hvis du lider af svær diarré, mens du får Trodelvy. 
+Din behandling med Trodelvy vil blive udsat indtil din diarré er i bedring. Du vil få loperamid til at 
+behandle din diarré, hvis du ikke har en infektion. Du får også væske, hvis relevant. 
+Lægen kan også give dig medicin, såsom atropin, til at hjælpe mod mavekramper, diarré og for meget 
+mundvand, før din næste infusion.<br />
+Din diarré kan medføre dehydrering og pludselig nyreskade. Kontakt lægen, hvis du får mørkfarvet 
+urin eller nedsat urinmængde. </p>
+<p>Kvalme og opkastning </p>
+<p>Denne medicin kan give kvalme og opkastning. Søg akut lægehjælp, hvis du lider af alvorlig kvalme 
+og opkastning, mens du får Trodelvy. 
+Lægen vil give dig noget medicin, før din kræftbehandling og imellem infusionerne, til at lindre 
+kvalme og opkastning. Du vil ikke få Trodelvy, hvis du har alvorlig kvalme og opkastning, og vil 
+kun få Trodelvy, når symptomerne er under kontrol. </p>
+<p>Patienter, som har UGT1A1*28-genet </p>
+<p>Nogle patienter har større risiko for at få visse bivirkninger fra medicinen på grund af deres genetiske 
+sammensætning. Hvis du har UGT1A1*28-genet, nedbryder din krop medicinen langsommere. Det 
+betyder, at du har større risiko for at udvikle visse bivirkninger (såsom neutropeni, med eller uden 
+feber og lavt niveau af røde blodlegemer (anæmi)), end dem, der ikke har genet. Disse patienter vil 
+blive fulgt tæt af lægen. </p>
+<p>Kontakt lægen eller sygeplejersken inden du får Trodelvy, hvis du: </p>
+<ul>
+<li>
+<p>har leverproblemer </p>
+</li>
+<li>
+<p>har nyreproblemer </p>
+</li>
+<li>
+<p>er en kvinde i den fødedygtige alder (se ‘Graviditet’, ’Prævention til mænd og kvinder’ og 
+’Amning’) </p>
+</li>
+<li>
+<p>tager medicin til at behandle anden sygdom (se ‘Brug af anden medicin sammen med 
+Trodelvy’) </p>
+</li>
+<li>
+<p>tidligere har oplevet problemer efter at du har fået infusioner. </p>
+</li>
+</ul>
+<p>Lægen vil overvåge dig nøje for bivirkninger, mens du får Trodelvy. Hvis du får alvorlige 
+bivirkninger, kan lægen give dig anden medicin til at behandle bivirkningerne, og kan ændre hvor 
+meget Trodelvy du får, eller kan helt holde op med at give dig Trodelvy. </p>
+<p>Se punkt 4 for en liste over alle de mulige bivirkninger, der er relateret til Trodelvy. </p>
+<p>Børn og unge </p>
+<p>Trodelvy må ikke gives til børn og unge under 18 år, da der ikke er nogen information om, hvordan 
+det virker hos denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Trodelvy </p>
+<p>Fortæl lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at tage 
+anden medicin. Nogle lægemidler kan påvirke, hvordan Trodelvy virker og kan øge niveauet af 
+Trodelvys aktive stof i dit blod, hvilket øger risikoen for bivirkninger. Disse er:</p>
+<ul>
+<li>propofol, givet som anæstesi ved operation </li>
+<li>ketoconazol, anvendt til at behandle svampeinfektioner </li>
+<li>tyrosinkinasehæmmere, anvendt til at behandle kræft (medicin, der slutter med nib) </li>
+</ul>
+<p>Nogle lægemidler kan nedsætte niveauet af Trodelvys aktive stof i dit blod, hvilket reducerer dets 
+virkning:</p>
+<ul>
+<li>carbamazapin eller phenytoin, anvendt til at behandle epilepsi </li>
+<li>rifampicin, anvendt til at behandle tuberkulose </li>
+<li>ritonavir eller tipranavir, anvendt til at behandle hiv. </li>
+</ul>
+<p>Graviditet </p>
+<p>Trodelvy bør ikke anvendes under graviditet, fordi det kan skade barnet. Hvis du er gravid eller 
+ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge lægen til 
+råds, før du bruger dette lægemiddel.  </p>
+<p>Prævention til mænd og kvinder </p>
+<p>Kvinder, som kan blive gravide, skal benytte sikker prævention under behandlingen med Trodelvy og i 
+6 måneder efter den sidste dosis Trodelvy. 
+Mænd med kvindelige partnere, der kan blive gravide, skal benytte sikker prævention under 
+behandlingen og i 3 måneder efter den sidste dosis Trodelvy. </p>
+<p>Amning </p>
+<p>Du må ikke amme, mens du er i behandling med Trodelvy og i 1 måned efter den sidste dosis. Det er 
+ikke kendt om medicinen udskilles i modermælk og kan påvirke barnet. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Trodelvy kan påvirke evnen til at føre motorkøretøj og betjene maskiner f.eks. svimmelhed, træthed. 
+Du skal derfor udvise forsigtighed, når du kører, benytter værktøj eller betjener maskiner, efter du har 
+fået Trodelvy. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take trodelvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take trodelvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trodelvy bliver kun givet til dig af en læge eller en sygeplejerske med erfaring i kræftbehandlinger. </p>
+<p>Det er vigtigt, at lægen eller sygeplejersken, der er specialiseret i din behandling, har bekræftet, at du 
+kan tåle denne medicin ved at tage blodprøver inden behandlingen. </p>
+<p>Medicin givet før Trodelvy-behandling 
+Du vil få noget medicin, inden du får Trodelvy, til at hjælpe med at stoppe infusionsrelaterede 
+bivirkninger og eventuel kvalme og opkastning. Lægen beslutter, hvilken medicin du har brug for, og 
+hvor meget du skal tage. </p>
+<p>Hvor meget Trodelvy får du 
+Din kræftbehandling vil blive gentaget i cyklusser á 21 dage (3 uger). Den anbefalede dosis Trodelvy 
+er 10 mg for hvert kg af din legemsvægt i starten af hvert cyklus (dag 1 i hvert cyklus) og en uge 
+senere (dag 8 i hvert cyklus). </p>
+<p>Sådan får du din medicin 
+En læge eller sygeplejerske giver medicinen gennem en intravenøs infusion (et drop i en vene). 
+Første infusion: Du får din første infusion med medicin over 3 timer.<br />
+Anden og efterfølgende infusioner: Du får de andre infusioner over 1 til 2 timer, hvis din første 
+infusion var uden problemer.<br />
+Lægen eller sygeplejersken vil overvåge dig under og i 30 minutter efter hver infusion, for tegn og 
+symptomer på infusionsrelaterede bivirkninger. </p>
+<p>Infusionrelaterede bivirkninger 
+Lægen vil sænke infusionshastigheden for din medicin eller stoppe den, hvis du udvikler en alvorlig 
+infusionsrelateret bivirkning. Medicinen bliver stoppet, hvis den infusionsrelaterede bivirkning er 
+livstruende. Se punkt 2. Medicindosis, når du oplever nogle bivirkninger 
+Lægen kan ændre eller stoppe din dosis, hvis du oplever visse bivirkninger. Se punkt 4. Hvis du har fået for meget Trodelvy </p>
+<p>Da infusionen gives af lægen eller andet relevant uddannet personale, er en overdosis usandsynlig. 
+Hvis du utilsigtet får for meget medicin, vil lægen overvåge dig og give dig yderligere behandling 
+efter behov. </p>
+<p>Hvis du har glemt at få Trodelvy </p>
+<p>Hvis du glemmer eller ikke kommer til din aftale, skal du kontakte lægen eller dit hospital for at få en 
+ny tid hurtigst muligt. Vent ikke til dit næste planlagte besøg. For at behandlingen virker bedst muligt, 
+er det meget vigtigt ikke at springe en dosis over. </p>
+<p>Hvis du holder op med at få Trodelvy </p>
+<p>Du bør ikke stoppe behandlingen før tid uden at tale med lægen først. </p>
+<p>Behandlingen mod brystkræft med Trodelvy kræver normalt et antal behandlinger. Antallet af 
+infusioner, som du får, afhænger af, hvordan du reagerer på behandlingen. Derfor skal du fortsætte 
+med at få Trodelvy, selvom du ser, at dine symptomer forbedres og indtil lægen beslutter, at Trodelvy 
+skal stoppes. Hvis behandlingen stoppes før tid, kan dine symptomer komme tilbage.  </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger </p>
+<p>Søg akut lægehjælp, hvis du får nogen af følgende meget almindelige bivirkninger (kan 
+forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Lavt antal hvide blodlegemer (neutropeni), som kan forårsage følgende tegn og symptomer: 
+– 
+feber, som er en kropstemperatur på 38,5 °C eller højere: Dette kaldes febril neutropeni<br />
+– 
+kulderystelser eller svedeture 
+– 
+ondt i halsen, sår i munden eller tandpine 
+– 
+mavesmerter 
+– 
+smerter nær anus eller sår omkring anus 
+– 
+smerter eller svien, når du lader vandet, eller at du lader vandet ofte 
+– 
+diarré 
+– 
+hoste eller stakåndethed </p>
+</li>
+<li>
+<p>Diarré (selv uden andre tegn) </p>
+</li>
+<li>
+<p>Overfølsomhedsreaktioner (herunder infusionsrelaterede reaktioner), som kan forårsage 
+følgende tegn og symptomer: 
+– 
+opsvulmede læber, tunge, øjne, svælg eller ansigt 
+– 
+hævelse eller et hævet, kløende, rødt hududslæt 
+– 
+udbrud af hævede, svagt røde knopper eller plaque (hævelser) på huden, der opstår 
+pludseligt 
+– 
+feber 
+– 
+et pludseligt anfald af svær rysten ledsaget af en følelse af at være kold 
+– 
+voldsomme svedeture 
+– 
+hvæsende vejrtrækning, sammensnørring af bryst eller hals, stakåndethed, svimmelhed, 
+følelse af at besvime, åndenød 
+– 
+brystsmerter, hjertebanken  </p>
+</li>
+<li>
+<p>Kvalme, opkastning </p>
+</li>
+</ul>
+<p>Andre bivirkninger </p>
+<p>Andre bivirkninger er angivet nedenfor. Hvis nogen af dem bliver kraftige eller alvorlige, skal du 
+straks kontakte lægen.  </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>sviende fornemmelse ved vandladning samt hyppig og presserende trang til at lade vandet  </p>
+</li>
+<li>
+<p>hoste, ondt i halsen, løbende næse, hovedpine og nysen  </p>
+</li>
+<li>
+<p>mangel på røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>lavt niveau af hvide blodlegemer (lymfocytter eller leukocytter) </p>
+</li>
+<li>
+<p>manglende appetit </p>
+</li>
+<li>
+<p>lavt niveau af kalium og magnesium i blodet  </p>
+</li>
+<li>
+<p>søvnproblemer </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>forstoppelse, mavesmerter </p>
+</li>
+<li>
+<p>hårtab, udslæt, generel kløe </p>
+</li>
+<li>
+<p>rygsmerter, ledsmerter </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>rysten, feber, generelt ubehag, bleg eller misfarvet hud, åndenød på grund af at blodomløbet er 
+overvældet af bakterier (sepsis) </p>
+</li>
+<li>
+<p>lungeinfektion (pneumoni) </p>
+</li>
+<li>
+<p>tilstoppet næse, smerter i ansigtet, hvæsende vejrtrækning </p>
+</li>
+<li>
+<p>hakkende hoste, som kan forårsage klar, gulgrå eller grønlig slim </p>
+</li>
+<li>
+<p>influenzalignende symptomer, herpesinfektion i munden </p>
+</li>
+<li>
+<p>lavt antal blodplader, der kan mødføre blødning og blå mærker (trombocytopeni) </p>
+</li>
+<li>
+<p>højt niveau af glucose i blodet </p>
+</li>
+<li>
+<p>mangel på vand i kroppen </p>
+</li>
+<li>
+<p>lavt niveau af fosfat, kalcium og natrium i blodet </p>
+</li>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>smagsforstyrrelser </p>
+</li>
+<li>
+<p>lavt blodtryk </p>
+</li>
+<li>
+<p>næseblod, hosterefleksudløst af at slim. der drypper ned i svælget </p>
+</li>
+<li>
+<p>betændelse i tynd- og tyktarmen (colitis) </p>
+</li>
+<li>
+<p>betændelse og ondt i munden, smerter i den øvre del af maveområdet, refluks, oppustet i maven </p>
+</li>
+<li>
+<p>huden bliver mørkere, acne-lignende hudproblemer, tør hud  </p>
+</li>
+<li>
+<p>muskelsmerter i brystet, muskelspasmer  </p>
+</li>
+<li>
+<p>blod i urinen, for megen protein i urinen  </p>
+</li>
+<li>
+<p>kulderystelser </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>forøgelse af et enzym kaldet alkalisk phosphatase eller laktatdehydrogenase, unormale 
+blodprøver relateret til koagulation. </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) 
+• tyndtarmsbetændelse (enteritis) </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trodelvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trodelvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trodelvy opbevares af sundhedspersonalet på hospitalet eller klinikken, hvor du får behandlingen. 
+Oplysninger om opbevaring er som følger: </p>
+<ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten på hætteglasset og æsken efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Opbevares i køleskab (2 °C-8 °C) Må ikke nedfryses.  </p>
+</li>
+<li>
+<p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Efter rekonstitution og fortynding, hvis den ikke anvendes straks, kan infusionsposen med 
+fortyndet opløsning opbevares i køleskab (2 °C-8 °C) i op til 24 timer, beskyttet mod lys. </p>
+</li>
+<li>
+<p>Anvend ikke medicinen, hvis du bemærker, at den rekonstituerede opløsning er uklar eller 
+misfarvet. </p>
+</li>
+</ul>
+<p>Trodelvy er et cytotoksisk lægemiddel. Gældende procedurer for håndtering og bortskaffelse skal 
+følges. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trodelvy indeholder:</p>
+<ul>
+<li>Aktivt stof: Sacituzumab govitecan. Et hætteglas med pulver til koncentrat indeholder 200 mg 
+sacituzumab govitecan. Efter rekonstitution indeholder en ml opløsning 10 mg sacituzumab 
+govitecan. </li>
+<li>Øvrige indholdsstoffer: 2-(N-Morpholin)ethansulfonsyre (MES), polysorbat 80, 
+trehalosedihydrat. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Medicinen er et råhvidt til gulligt pulver til koncentrat til infusionsvæske, opløsning, der leveres i et 
+hætteglas af glas. Hver pakning indeholder 1 hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrland </p>
+<p>Fremstiller 
+Gilead Sciences Ireland UC 
+IDA Business and Technology Park 
+Carrigtohill 
+County Cork, T45 DPIrland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:  </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8 000 113 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Trodelvy er et cytotoksisk lægemiddel. Gældende procedurer for håndtering og bortskaffelse skal 
+følges. </p>
+<p>Dette lægemiddel må ikke blandes med andre lægemidler end dem, der er anført nedenfor. </p>
+<p>Rekonstitution </p>
+<ul>
+<li>
+<p>Beregn den påkrævede dosis (mg) Trodelvy baseret på patientens legemsvægt i begyndelsen af 
+hver behandlingscyklus (eller oftere, hvis patientens legemsvægt er ændret med mere end 10 % 
+siden den seneste administration).  </p>
+</li>
+<li>
+<p>Lad det påkrævede antal hætteglas varme op til stuetemperatur (20 °C til 25 °C). </p>
+</li>
+<li>
+<p>Injicer langsomt 20 ml natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, ind i hvert 
+hætteglas med en steril sprøjte. Den færdige koncentration vil være 10 mg/ml.  </p>
+</li>
+<li>
+<p>Sving forsigtigt væsken rundt i hætteglassene og lad den opløse i op til 15 minutter. Må ikke 
+rystes. Produktet skal inspiceres visuelt for partikler og misfarvning inden administration. 
+Opløsningen skal være fri for synlige partikler, klar og gul. Anvend ikke den rekonstituerede 
+opløsning, hvis den er uklar eller misfarvet. </p>
+</li>
+<li>
+<p>Anvend straks til at klargøre en fortyndet infusionsvæske, opløsning.  </p>
+</li>
+</ul>
+<p>Fortynding </p>
+<ul>
+<li>
+<p>Beregn det påkrævede volumen af den rekonstituerede opløsning, der er nødvendigt for at opnå 
+den passende dosis i henhold til patientens legemsvægt. </p>
+</li>
+<li>
+<p>Fastsæt det endelige volumen infusionsvæske for at administrere den passende dosis i et 
+koncentrationsinterval for sacituzumab govitecan på 1,1 mg/ml til 3,4 mg/ml. </p>
+</li>
+<li>
+<p>Optræk og kassér et volumen natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, fra 
+den endelige infusionspose, svarende til den påkrævede volumen rekonstitueret opløsning. </p>
+</li>
+<li>
+<p>Optræk den beregnede mængde rekonstitueret opløsning fra hætteglasset/hætteglassene med en 
+sprøjte. Kassér eventuelle ubrugte rester, der er tilbage i hætteglasset/hætteglassene. </p>
+</li>
+<li>
+<p>For at minimere skumdannelse skal det påkrævede volumen rekonstitueret opløsning langsomt 
+injiceres ind i en infusionspose af polyvinylchlorid, polyolefin (polypropylen og/eller 
+polyetylen) eller ethylenvinylacetat . Indholdet må ikke rystes.  </p>
+</li>
+<li>
+<p>Juster om nødvendigt volumenet i infusionsposen efter behov med natriumchlorid 9 mg/ml 
+(0,9 %) injektionsvæske, opløsning, for at opnå en koncentration på 1,1 mg/ml til 3,4 mg/ml. 
+Kun natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, må anvendes, da stabiliteten 
+af det rekonstituerede produkt ikke er blevet bestemt med andre infusionsbaserede opløsninger. </p>
+</li>
+<li>
+<p>Hvis den ikke anvendes straks, kan infusionsposen med opløsningen opbevares i køleskab (2 °C 
+til 8 °C) i op til 24 timer, beskyttet mod lys. Må ikke nedfryses. Efter afkøling skal den 
+fortyndede opløsning administreres ved stuetemperatur op til 25 °C inden for 8 timer (inklusive 
+infusionstid).  </p>
+</li>
+</ul>
+<p>Administration </p>
+<ul>
+<li>
+<p>Administrer Trodelvy som en intravenøs infusion. Beskyt infusionsposen mod lys.  </p>
+</li>
+<li>
+<p>Infusionsposen skal være dækket under administration til patienten indtil dosering er færdig. 
+Det er ikke nødvendigt at dække infusionsslangen eller at anvende en lysbeskyttende slange 
+under infusionen. </p>
+</li>
+<li>
+<p>Der kan anvendes en infusionspumpe. </p>
+</li>
+<li>
+<p>Trodelvy må ikke blandes eller administreres som infusion med andre lægemidler. </p>
+</li>
+<li>
+<p>Ved afslutning på infusionen skal infusionsslangen skylles med 20 ml natriumchlorid 9 mg/ml 
+(0,9 %) injektionsvæske, opløsning. </p>
+</li>
+</ul>
+<p>Bortskaffelse </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.  </p>
+<p>BILAG IV 
+KONKLUSIONER VEDRØRENDE ANMODNING OM 
+MARKEDSFØRINGSBESKYTTELSE I ET ÅR FREMLAGT AF DET EUROPÆISKE 
+LÆGEMIDDELAGENTUR  </p>
+<p>Konklusioner fremlagt af Det Europæiske Lægemiddelagentur vedrørende: </p>
+<ul>
+<li>Markedsføringsbeskyttelse i et år 
+CHMP gennemgik de oplysninger, som indehaveren af markedsføringstilladelsen havde indsendt, jf. 
+artikel 14, stk. 11, i forordning (EC) nr. 726/2004, og er af den opfattelse, at den nye terapeutiske 
+indikation giver en væsentlig klinisk fordel sammenlignet med eksisterende behandlinger. Dette er 
+nærmere beskrevet i den europæiske offentlige vurderingsrapport. </li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-27ec6b1f73b141fda5344cc71ceec655
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trodelvy Package Leaflet for language en"
+Description: "ePI document Bundle for trodelvy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-27ec6b1f73b141fda5344cc71ceec655"
+* entry[0].resource = composition-en-27ec6b1f73b141fda5344cc71ceec655
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27ec6b1f73b141fda5344cc71ceec655"
+* entry[=].resource = mp27ec6b1f73b141fda5344cc71ceec655
+                            
+                    
+Instance: bundlepackageleaflet-da-27ec6b1f73b141fda5344cc71ceec655
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trodelvy Package Leaflet for language da"
+Description: "ePI document Bundle for trodelvy Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-27ec6b1f73b141fda5344cc71ceec655"
+* entry[0].resource = composition-da-27ec6b1f73b141fda5344cc71ceec655
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27ec6b1f73b141fda5344cc71ceec655"
+* entry[=].resource = mp27ec6b1f73b141fda5344cc71ceec655
+                            
+                    
+
+
+
+Instance: mp27ec6b1f73b141fda5344cc71ceec655
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Trodelvy 200 mg powder for concentrate for solution for infusion."
-Description: "Trodelvy 200 mg powder for concentrate for solution for infusion."
+Title: "Medicinal Product trodelvy"
+Description: "trodelvy"
 Usage: #inline
 
  
@@ -469,7 +1248,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Trodelvy 200 mg powder for concentrate for solution for infusion."
+  * productName = "trodelvy"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -496,29 +1275,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-27ec6b1f73b141fda5344cc71ceec655
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for trodelvy Package Leaflet for language en"
-Description: "ePI document Bundle for trodelvy Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 27ec6b1f73b141fda5344cc71ceec655ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1592/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "trodelvy"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-27ec6b1f73b141fda5344cc71ceec655"
-* entry[0].resource = composition-en-27ec6b1f73b141fda5344cc71ceec655
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5828fd5a5b27a0ae65064770d41cecf8"
-* entry[=].resource = mp5828fd5a5b27a0ae65064770d41cecf8
-                            
-                      
+* title = "List of all ePIs associated with trodelvy"
+
+* subject = Reference(mp5828fd5a5b27a0ae65064770d41cecf8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#trodelvy "trodelvy"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-27ec6b1f73b141fda5344cc71ceec655) // trodelvy en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-27ec6b1f73b141fda5344cc71ceec655) // trodelvy da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-27ec6b1f73b141fda5344cc71ceec655
+InstanceOf: List
+
+* insert 27ec6b1f73b141fda5344cc71ceec655ListRuleset
+    

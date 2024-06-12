@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f3d8b9999dbf0bb7ed96cabee591db10
 InstanceOf: CompositionUvEpi
 Title: "Composition for caprelsa Package Leaflet"
@@ -464,12 +467,881 @@ Tel. +370 5 236 91 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-f3d8b9999dbf0bb7ed96cabee591db10
+InstanceOf: CompositionUvEpi
+Title: "Composition for caprelsa Package Leaflet"
+Description:  "Composition for caprelsa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp56d019f431941156c9c802f0688e5044)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp56d019f431941156c9c802f0688e5044
+* title = "TEST PURPOSES ONLY - caprelsa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Caprelsa 
+3. Sådan skal du tage Caprelsa 
+4. Bivirkninger 
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What caprelsa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What caprelsa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Caprelsa er en behandling til voksne og børn på 5 år og derover med: </p>
+<p>Type af medullær thyreodeacancer, som kaldes Omlejret under Transkription (RET) mutant, og som 
+ikke kan fjernes med kirurgi, eller som har bredt sig til andre dele af kroppen.  </p>
+<p>Caprelsa virker ved at hæmme væksten af nye blodkar i tumorer (cancer). Det afskærer forsyningen af 
+næring og ilt til tumoren. Caprelsa kan også virke direkte på cancercellerne ved at dræbe dem eller 
+hæmme deres vækst. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take caprelsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take caprelsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Caprelsa:</p>
+<ul>
+<li>hvis du er allergisk over for vandetanib eller et af de øvrige indholdsstoffer i Caprelsa (angivet i 
+punkt 6). </li>
+<li>hvis du er født med et hjerteproblem kaldet ”medfødt langt QTc-syndrom”. Dette kan ses på et 
+elektrokardiogram (EKG). </li>
+<li>hvis du ammer. </li>
+<li>hvis du tager et af følgende lægemidler: arsenik, cisaprid (mod halsbrand), erythromycin som 
+injektion i en vene og moxifloxacin (mod infektion), toremifen (til behandling af brystkræft), 
+mizolastin (mod allergi), klasse IA- og III-antiarytmika (midler til kontrol af hjerterytmen). </li>
+</ul>
+<p>Tag ikke Caprelsa, hvis et eller flere af disse punkter gælder for dig. Spørg lægen, hvis du er i tvivl. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Caprelsa: </p>
+<ul>
+<li>
+<p>Hvis du er følsom over for sollys. Nogle mennesker, som tager Caprelsa, bliver mere følsomme 
+over for solen. Dette kan forårsage solskoldning. Mens du tager Caprelsa, skal du beskytte dig 
+selv, når du går udendørs, ved altid at benytte solcreme og bære tøj for at undgå at udsætte dig 
+for solen. </p>
+</li>
+<li>
+<p>Hvis du har for højt blodtryk. </p>
+</li>
+<li>
+<p>Hvis du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i 
+en blodårevæg. </p>
+</li>
+<li>
+<p>Hvis du skal opereres. Lægen vil muligvis afbryde behandlingen med Caprelsa, hvis du skal 
+gennemgå en større operation, fordi Caprelsa kan påvirke sårhelingen. Behandlingen med 
+Caprelsa kan genoptages, så snart sårhelingen vurderes at være tilfredstillende. </p>
+</li>
+<li>
+<p>Hvis du har problemer med nyrerne. </p>
+</li>
+</ul>
+<p>Der er rapporteret om alvorlige hudreaktioner, herunder Stevens-Johnsons syndrom og toksisk 
+epidermal nekrolyse, i forbindelse med behandling med vandetanib. Stop med at bruge Caprelsa og 
+søg straks lægehjælp, hvis du bemærker et eller flere symptomer på disse alvorlige hudreaktioner, der 
+er beskrevet i punkt 4. Det er nødvendigt at bestemme RET-status af din cancer, før behandling med Caprelsa påbegyndes. </p>
+<p>Monitorering af blod og hjerte: 
+Din læge eller sygeplejerske skal undersøge dit blods indhold af kalium, calcium, magnesium og 
+thyreoideastimulerende hormon (TSH) samt kontrollere dit hjertes elektriske aktivitet med en test 
+kaldet et elektrokardiogram (EKG). Du skal have foretaget disse test: </p>
+<ul>
+<li>
+<p>Før du begynder at tage Caprelsa </p>
+</li>
+<li>
+<p>Regelmæssigt under behandlingen med Caprelsa </p>
+</li>
+<li>
+<p>1, 3 og 6 uger efter start med Caprelsa </p>
+</li>
+<li>
+<p>12 uger efter start med Caprelsa </p>
+</li>
+<li>
+<p>Hver 3. måned derefter </p>
+</li>
+<li>
+<p>Hvis din læge eller apotekspersonalet ændrer din dosis af Caprelsa </p>
+</li>
+<li>
+<p>Hvis du begynder at tage lægemidler, som påvirker dit hjerte </p>
+</li>
+<li>
+<p>Ifølge lægens eller apotekspersonalets instruktioner </p>
+</li>
+</ul>
+<p>Børn 
+Caprelsa må ikke anvendes til børn under 5 år. </p>
+<p>Brug af andre lægemidler sammen med Caprelsa 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Dette gælder også lægemidler som ikke er købt 
+på recept, f.eks. naturlægemidler. Caprelsa kan påvirke virkningen af andre lægemidler, og/eller andre 
+lægemidler kan påvirke virkningen af Caprelsa. </p>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis du tager et eller flere af følgende midler: </p>
+<ul>
+<li>
+<p>itraconazol, ketoconazol, ritonavir, clarithromycin, rifampicin og moxifloxacin (lægemidler til 
+behandling af infektioner) </p>
+</li>
+<li>
+<p>carbamazepin og phenobarbital (til kontrol af epileptiske anfald) </p>
+</li>
+<li>
+<p>ondansetron (mod kvalme og opkastning) </p>
+</li>
+<li>
+<p>cisaprid (mod halsbrand), pimozid (mod gentagne, ufrivillige bevægelser og verbale udbrud) og 
+halofantrin og lumefantrin (mod malaria) </p>
+</li>
+<li>
+<p>metadon (mod stofmisbrug), haloperidol, chlorpromazin, sulpirid, amisulprid og zuclopenthixol 
+(mod psykiske forstyrrelser) </p>
+</li>
+<li>
+<p>pentamidin (mod infektion) </p>
+</li>
+<li>
+<p>såkaldte ’blodfortyndende midler’ såsom vitamin K-antagonister og dabigatran </p>
+</li>
+<li>
+<p>ciclosporin og tacrolimus (til at forhindre afstødning af et organ efter transplantation), digoxin 
+(mod uregelmæssig puls) og metformin (til at kontrollere blodsukkeret) </p>
+</li>
+<li>
+<p>syrepumpehæmmere (mod halsbrand) </p>
+</li>
+</ul>
+<p>Du kan også finde disse oplysninger på det patientinformationskort, du har fået af din læge. Det er 
+vigtigt, at du gemmer dette patientinformationskort og viser det til din partner eller omsorgsperson. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager Caprelsa. Caprelsa kan nemlig skade det ufødte barn. Din læge 
+vil diskutere fordele og risici ved at tage Caprelsa på dette tidspunkt. </p>
+<ul>
+<li>Hvis du er i den fødedygtige alder, skal du anvende et sikkert præventionsmiddel, når du tager 
+Caprelsa, og i mindst fire måneder efter den seneste dosis af Caprelsa. 
+Du må ikke amme under behandling med Caprelsa af hensyn til barnets sikkerhed. </li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Udvis forsigtighed ved kørsel eller arbejde med maskiner. Husk, at Caprelsa kan få dig til at føle dig 
+træt, svag eller forårsage sløret syn. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take caprelsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take caprelsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Voksne 
+Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<ul>
+<li>
+<p>Den anbefalede dosis er 300 mg hver dag. </p>
+</li>
+<li>
+<p>Tag Caprelsa på ca. samme tidspunkt hver dag. </p>
+</li>
+<li>
+<p>Caprelsa kan tages med eller uden mad. </p>
+</li>
+</ul>
+<p>Brug til børn og unge 
+Lægen vil fortælle dig, hvor mange Caprelsa-tabletter dit barn skal have. Antallet afhænger af barnets 
+vægt og højde. Den samlede daglige dosis til børn må ikke overstige 300 mg. Dit barn kan enten få 
+dosis en gang dagligt, hver anden dag eller efter et gentaget 7-dages skema som vist i den 
+doseringsguide, som du har fået af lægen. Det er vigtigt at gemme doseringsguiden og vise den til 
+eventuelle omsorgspersoner. </p>
+<p>Hvis du har svært ved at sluge tabletten 
+Hvis du har problemer med at sluge tabletten, kan du blande den med vand på følgende måde: </p>
+<ul>
+<li>
+<p>Tag et halvt glas postevand (uden brus). Brug kun vand – brug ikke nogen andre væsker. </p>
+</li>
+<li>
+<p>Læg tabletten i vandet. </p>
+</li>
+<li>
+<p>Rør tabletten rundt, indtil den er jævnt fordelt i vandet. Det kan tage ca. 10 minutter. </p>
+</li>
+<li>
+<p>Drik det derpå straks. 
+For at sikre dig at der ikke er noget lægemiddel tilbage, skal du fylde glasset halvt op med vand igen, 
+og drikke det. </p>
+</li>
+</ul>
+<p>Hvis du får bivirkninger 
+Hvis du får bivirkninger, skal du altid fortælle det til lægen. Din læge vil muligvis fortælle dig, at du 
+skal tage Caprelsa i en lavere eller højere dosis (såsom to 100 mg tabletter eller én 100 mg tablet). Din 
+læge kan også ordinere andre lægemidler for at hjælpe med at kontrollere bivirkningerne. 
+Bivirkningerne ved Caprelsa er angivet i punkt 4. Hvis du har taget for meget Caprelsa 
+Hvis du tager mere Caprelsa, end du har fået ordineret, skal du straks tale med lægen eller tage på 
+hospitalet. </p>
+<p>Hvis du har glemt at tage Caprelsa 
+Hvad du skal gøre, hvis du glemmer at tage en tablet afhænger af, hvor lang tid der er indtil din næste 
+dosis: </p>
+<ul>
+<li>
+<p>Hvis der er 12 timer eller mere til din næste dosis: Tag den glemte tablet, så snart du kommer 
+i tanke om det. Tag derpå den næste dosis på det sædvanlige tidspunkt. </p>
+</li>
+<li>
+<p>Hvis der er mindre end 12 timer til den næste dosis: Spring den glemte tablet over. Tag derpå 
+den næste dosis på det sædvanlige tidspunkt. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+</li>
+</ul>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Hvis du får bivirkninger, vil din læge muligvis fortælle dig, at du skal tage Caprelsa ved en lavere 
+dosis. Din læge kan også ordinere andre lægemidler for at hjælpe med at kontrollere bivirkningerne. </p>
+<p>Fortæl det straks til din læge, hvis du oplever en af følgende bivirkninger – det kan være, du 
+behøver akut medicinsk behandling: </p>
+<ul>
+<li>
+<p>Besvimelsesanfald, svimmelhed eller ændringer i hjerterytmen. Dette kan være tegn på en 
+ændring i dit hjertes elektriske aktivitet. Det ses hos 8 % af personer, som tager Caprelsa mod 
+medullær thyreoideacancer. Din læge vil muligvis anbefale, at du tager Caprelsa i en lavere 
+dosis eller holder op med at tage Caprelsa. Caprelsa er i sjældne tilfælde forbundet med 
+livstruende ændringer i hjerterytmen. </p>
+</li>
+<li>
+<p>Stop med at bruge Caprelsa, og søg straks lægehjælp, hvis du oplever et eller flere af følgende 
+symptomer: rødlige, ikke-hævede, målskivelignende eller cirkulære pletter på kroppen, ofte med 
+vabler i midten, hudafskalning, sår i munden, svælget, næsen, kønsorganerne og øjnene. Før 
+disse alvorlige hududslæt ses, kan der forekomme feber og influenzalignende symptomer 
+(Stevens-Johnsons syndrom, toksisk epidermal nekrolyse). </p>
+</li>
+<li>
+<p>Svær diarré. </p>
+</li>
+<li>
+<p>Svær åndenød eller pludselig forværring af åndenød, muligvis med hoste eller høj temperatur 
+(feber). Dette kan betyde, at du har en form for betændelse i lungerne, som kaldes ’interstitiel 
+lungesygdom’. Dette er ikke almindeligt (ses hos mindre end 1 ud af 100 personer), men kan 
+være livstruende. </p>
+</li>
+<li>
+<p>Anfald, hovedpine, forvirring eller koncentrationsbesvær. Dette kan være tegn på en tilstand 
+kaldet RPLS (reversibelt posteriort leukoencefalopati-syndrom). Disse tegn forsvinder 
+sædvanligvis, når der ophøres med Caprelsa. RPLS er ikke almindeligt (ses hos mindre end 1 ud 
+af 100 personer). 
+Fortæl det straks til din læge, hvis du oplever en eller flere af ovenstående bivirkninger. </p>
+</li>
+</ul>
+<p>Andre bivirkninger omfatter: 
+Meget almindelig (ses hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Diarré. Din læge kan ordinere et lægemiddel til at behandle dette. Hvis det bliver alvorligt, skal 
+du straks fortælle lægen det. </p>
+</li>
+<li>
+<p>Mavesmerter. </p>
+</li>
+<li>
+<p>Hududslæt eller akne. </p>
+</li>
+<li>
+<p>Depression. </p>
+</li>
+<li>
+<p>Træthed. </p>
+</li>
+<li>
+<p>Sygdomsfornemmelse (kvalme). </p>
+</li>
+<li>
+<p>Sure opstød/halsbrand. </p>
+</li>
+<li>
+<p>Negleforandringer. </p>
+</li>
+<li>
+<p>Opkastning. </p>
+</li>
+<li>
+<p>Appetitløshed (anoreksi). </p>
+</li>
+<li>
+<p>Svaghed (asteni). </p>
+</li>
+<li>
+<p>Højt blodtryk. Din læge kan ordinere et lægemiddel til at behandle dette. </p>
+</li>
+<li>
+<p>Hovedpine. </p>
+</li>
+<li>
+<p>Udmattelse. </p>
+</li>
+<li>
+<p>Søvnbesvær (søvnmangel). </p>
+</li>
+<li>
+<p>Betændelse i næsen. </p>
+</li>
+<li>
+<p>Betændelse i hovedluftvejene til lungerne. </p>
+</li>
+<li>
+<p>Øvre luftvejsinfektioner. </p>
+</li>
+<li>
+<p>Urinvejsinfektioner. </p>
+</li>
+<li>
+<p>Følelsesløshed eller prikkende fornemmelse i huden. </p>
+</li>
+<li>
+<p>Unormal fornemmelse i huden. </p>
+</li>
+<li>
+<p>Svimmelhed. </p>
+</li>
+<li>
+<p>Smerte. </p>
+</li>
+<li>
+<p>Hævelser, som skyldes overskydende væske (ødem). </p>
+</li>
+<li>
+<p>Sten eller calciumaflejringer i urinrøret (nyresten). </p>
+</li>
+<li>
+<p>Sløret syn, inklusive lette forandringer i øjnene, som kan føre til sløret syn (uklarhed af 
+hornhinden). </p>
+</li>
+<li>
+<p>Hudfølsomhed over for sollys. Mens du tager Caprelsa, skal du beskytte dig selv, når du går 
+udenfor, ved altid at benytte solcreme og bære tøj for at undgå eksponering for solen. </p>
+</li>
+</ul>
+<p>Almindelig (ses hos mindre end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Dehydrering. </p>
+</li>
+<li>
+<p>Svært forhøjet blodtryk. </p>
+</li>
+<li>
+<p>Vægttab. </p>
+</li>
+<li>
+<p>Slagtilfælde eller andre tilstande, hvor hjernen måske ikke får tilstrækkeligt med blod. </p>
+</li>
+<li>
+<p>En type udslæt, som påvirker hænder og fødder (hånd- og fodsyndrom). </p>
+</li>
+<li>
+<p>Mundbetændelse (stomatitis). </p>
+</li>
+<li>
+<p>Mundtørhed. </p>
+</li>
+<li>
+<p>Lungebetændelse. </p>
+</li>
+<li>
+<p>Giftstoffer i blodet som en komplikation til infektion. </p>
+</li>
+<li>
+<p>Influenza. </p>
+</li>
+<li>
+<p>Blærebetændelse. </p>
+</li>
+<li>
+<p>Bihulebetændelse. </p>
+</li>
+<li>
+<p>Strubehovedbetændelse. </p>
+</li>
+<li>
+<p>Betændelse i en follikel, især en hårsæk. </p>
+</li>
+<li>
+<p>Bylder. </p>
+</li>
+<li>
+<p>Svampeinfektion. </p>
+</li>
+<li>
+<p>Nyreinfektion. </p>
+</li>
+<li>
+<p>Tab af kropsvæske (dehydrering). </p>
+</li>
+<li>
+<p>Angst. </p>
+</li>
+<li>
+<p>Rystelser. </p>
+</li>
+<li>
+<p>Døsighed. </p>
+</li>
+<li>
+<p>Besvimelse. </p>
+</li>
+<li>
+<p>Usikker fornemmelse. </p>
+</li>
+<li>
+<p>Øget tryk i øjet (grøn stær). </p>
+</li>
+<li>
+<p>Hoste med blodigt opspyt. </p>
+</li>
+<li>
+<p>Betændelse i lungevævet. </p>
+</li>
+<li>
+<p>Synkebesvær. </p>
+</li>
+<li>
+<p>Forstoppelse. </p>
+</li>
+<li>
+<p>Betændelse i maveslimhinden (gastrit). </p>
+</li>
+<li>
+<p>Blødning i mave-tarmkanalen.  </p>
+</li>
+<li>
+<p>Galdesten. </p>
+</li>
+<li>
+<p>Smerter ved vandladning. </p>
+</li>
+<li>
+<p>Nyresvigt. </p>
+</li>
+<li>
+<p>Hyppig vandladningstrang. </p>
+</li>
+<li>
+<p>Kraftig vandladningstrang. </p>
+</li>
+<li>
+<p>Feber. </p>
+</li>
+<li>
+<p>Næseblod. </p>
+</li>
+<li>
+<p>Tørre øjne. </p>
+</li>
+<li>
+<p>En irritation af øjnene (øjenkatar). </p>
+</li>
+<li>
+<p>Nedsat syn. </p>
+</li>
+<li>
+<p>Synsforstyrrelser (aura). </p>
+</li>
+<li>
+<p>Lysglimt for øjnene (fotopsi). </p>
+</li>
+<li>
+<p>Forandring af øjets hornhinde (keratopati). </p>
+</li>
+<li>
+<p>En bestemt type diarré (colitis). </p>
+</li>
+<li>
+<p>Hårtab på hovedet eller kroppen. </p>
+</li>
+<li>
+<p>Smagsforstyrrelser. </p>
+</li>
+</ul>
+<p>Ikke almindelig (ses hos mindre end 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Hjertesvigt. </p>
+</li>
+<li>
+<p>Blindtarmsbetændelse. </p>
+</li>
+<li>
+<p>Bakterieinfektion. </p>
+</li>
+<li>
+<p>Betændelse i divertikler (små udposninger, der kan dannes i fordøjelsessystemet). </p>
+</li>
+<li>
+<p>Bakterieinfektion i huden. </p>
+</li>
+<li>
+<p>Bylder i bughulen. </p>
+</li>
+<li>
+<p>Fejlernæring. </p>
+</li>
+<li>
+<p>Ufrivillige muskelsammentrækninger (kramper). </p>
+</li>
+<li>
+<p>Hurtigt skiftevis sammentrækning og afslapning af muskler (klonus). </p>
+</li>
+<li>
+<p>Hævelser i hjernen. </p>
+</li>
+<li>
+<p>Uklarheder i linsen i øjet. </p>
+</li>
+<li>
+<p>Forstyrrelser af hjertets hastighed og rytme. </p>
+</li>
+<li>
+<p>Nedsat hjertefunktion. </p>
+</li>
+<li>
+<p>Nedsat lungefunktion. </p>
+</li>
+<li>
+<p>Lungebetændelse grundet indånding af fremmedlegemer. </p>
+</li>
+<li>
+<p>Forstoppelse. </p>
+</li>
+<li>
+<p>Hul i tarmene. </p>
+</li>
+<li>
+<p>Manglende evne til at styre tarmfunktionen. </p>
+</li>
+<li>
+<p>Unormalt farvet urin. </p>
+</li>
+<li>
+<p>Manglende urindannelse. </p>
+</li>
+<li>
+<p>Manglende evne til sårheling. </p>
+</li>
+<li>
+<p>Betændelse i bugspytkirtlen (pancreatitis). </p>
+</li>
+<li>
+<p>Betændelse i huden med blærer (bulløs dermatitis). </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke bestemmes ud fra tilgængelige data) </p>
+<ul>
+<li>
+<p>En udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner). </p>
+</li>
+<li>
+<p>Rødlige, ikke-hævede, målskivelignende eller cirkulære pletter på kroppen, ofte med vabler i 
+midten, hudafskalning, sår i munden, svælget, næsen, kønsorganerne og øjnene, hvilket kan 
+forekomme efter feber og influenzalignende symptomer. Disse alvorlige hududslæt kan 
+potentielt være livstruende (Stevens-Johnsons syndrom, toksisk epidermal nekrolyse). </p>
+</li>
+<li>
+<p>En hudreaktion, der forårsager røde prikker eller pletter på huden, der kan ligne en skydeskive 
+med en mørkerød midte omgivet af svagere røde ringe (erythema multiforme). </p>
+</li>
+</ul>
+<p>Følgende bivirkninger kan påvises i test, som din læge kan udføre: </p>
+<ul>
+<li>
+<p>Protein eller blod i urinen (ses ved en urinprøve). </p>
+</li>
+<li>
+<p>Ændringer i hjerterytmen (ses ved et EKG). Din læge vil muligvis fortælle dig, at du skal holde 
+op med at tage Caprelsa eller tage Caprelsa ved en lavere dosis. </p>
+</li>
+<li>
+<p>Abnormiteter i lever eller bugspytkirtel (ses i blodprøver). Disse forårsager sædvanligvis ikke 
+symptomer, men lægen vil måske ønske at overvåge dem. </p>
+</li>
+<li>
+<p>Nedsat niveau af calcium i blodet. Lægen får måske brug for at ordinere behandling med 
+thyreoideahormon eller ændre din behandling. </p>
+</li>
+<li>
+<p>Nedsat niveau af kalium i blodet. </p>
+</li>
+<li>
+<p>Øget niveau af calcium i blodet. </p>
+</li>
+<li>
+<p>Øget blodsukkerniveau (glucose). </p>
+</li>
+<li>
+<p>Nedsat niveau af natrium i blodet. </p>
+</li>
+<li>
+<p>Nedsat funktion af skjoldbruskkirtlen. </p>
+</li>
+<li>
+<p>Forøget antal røde blodlegemer i blodet. </p>
+</li>
+</ul>
+<p>Kontakt straks lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får 
+bivirkninger, som ikke er nævnt her. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store caprelsa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store caprelsa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på blisteren og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Caprelsa indeholder  </p>
+<ul>
+<li>
+<p>Aktivt stof: vandetanib. Hver tablet indeholder 100 mg eller 300 mg vandetanib. </p>
+</li>
+<li>
+<p>De øvrige indholdsstoffer er calciumhydrogenphosphatdihydrat, mikrokrystallinsk cellulose, 
+crospovidon (type A), povidon (K29-32), magnesiumstearat, hypromellose, macrogol og 
+titandioxid (E171). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Caprelsa 100 mg er en rund, hvid filmovertrukket tablet mærket med ”Z100” på den ene side. 
+Caprelsa 300 mg er en oval, hvid filmovertrukket tablet mærket med ”Z300” på den ene side. </p>
+<p>Caprelsa leveres i blisterpakninger med 30 tabletter. </p>
+<p>Indehaver af markedsføringstilladelse<br />
+Sanofi B.V. 
+Paasheuvelweg 25<br />
+1105 BP Amsterdam<br />
+Holland </p>
+<p>Fremstiller </p>
+<p>Genzyme Ireland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Irland </p>
+<p>Sanofi Winthrop Industrie, 30-36 avenue Gustave Eiffel, 37100 Tours, Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien/ 
+Luxembourg/Luxemburg 
+Sanofi Belgium 
+Tél/Tel: + 32 (0)-2 710 54<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel: +36 1 505 0 
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: + 47 67 10 71  </p>
+<p>Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: + 43 1 80 185 - 0 </p>
+<p>Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10 <br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00  </p>
+<p>Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16 Portugal 
+Sanofi – Produtos Farmacêuticos, Lda. 
+Tel: +351 21 35 89  </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31  </p>
+<p>France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51  </p>
+<p>Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33   </p>
+<p>Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: + 358 (0) 201 200  </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50  </p>
+<p>Italia 
+United Kingdom (Northern Ireland) </p>
+<p>Sanofi S.r.l. 
+Tel: + 800 536<br />
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 </p>
+<p>Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47  </p>
+<p>Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om Caprelsa på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f3d8b9999dbf0bb7ed96cabee591db10
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for caprelsa Package Leaflet for language en"
+Description: "ePI document Bundle for caprelsa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f3d8b9999dbf0bb7ed96cabee591db10"
+* entry[0].resource = composition-en-f3d8b9999dbf0bb7ed96cabee591db10
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf3d8b9999dbf0bb7ed96cabee591db10"
+* entry[=].resource = mpf3d8b9999dbf0bb7ed96cabee591db10
+                            
+                    
+Instance: bundlepackageleaflet-da-f3d8b9999dbf0bb7ed96cabee591db10
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for caprelsa Package Leaflet for language da"
+Description: "ePI document Bundle for caprelsa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f3d8b9999dbf0bb7ed96cabee591db10"
+* entry[0].resource = composition-da-f3d8b9999dbf0bb7ed96cabee591db10
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf3d8b9999dbf0bb7ed96cabee591db10"
+* entry[=].resource = mpf3d8b9999dbf0bb7ed96cabee591db10
+                            
+                    
+
+
+
+Instance: mpf3d8b9999dbf0bb7ed96cabee591db10
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Caprelsa 100 mg film-coated tablets"
-Description: "Caprelsa 100 mg film-coated tablets"
+Title: "Medicinal Product caprelsa"
+Description: "caprelsa"
 Usage: #inline
 
  
@@ -489,7 +1361,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Caprelsa 100 mg film-coated tablets"
+  * productName = "caprelsa"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -516,29 +1388,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f3d8b9999dbf0bb7ed96cabee591db10
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for caprelsa Package Leaflet for language en"
-Description: "ePI document Bundle for caprelsa Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f3d8b9999dbf0bb7ed96cabee591db10ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/749/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "caprelsa"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f3d8b9999dbf0bb7ed96cabee591db10"
-* entry[0].resource = composition-en-f3d8b9999dbf0bb7ed96cabee591db10
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp56d019f431941156c9c802f0688e5044"
-* entry[=].resource = mp56d019f431941156c9c802f0688e5044
-                            
-                      
+* title = "List of all ePIs associated with caprelsa"
+
+* subject = Reference(mp56d019f431941156c9c802f0688e5044)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#caprelsa "caprelsa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f3d8b9999dbf0bb7ed96cabee591db10) // caprelsa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f3d8b9999dbf0bb7ed96cabee591db10) // caprelsa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f3d8b9999dbf0bb7ed96cabee591db10
+InstanceOf: List
+
+* insert f3d8b9999dbf0bb7ed96cabee591db10ListRuleset
+    

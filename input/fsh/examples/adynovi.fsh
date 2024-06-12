@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-02998b2db7fd4b184d980a78d8dee404
 InstanceOf: CompositionUvEpi
 Title: "Composition for adynovi Package Leaflet"
@@ -360,12 +363,571 @@ Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 
 
 
+Instance: composition-da-02998b2db7fd4b184d980a78d8dee404
+InstanceOf: CompositionUvEpi
+Title: "Composition for adynovi Package Leaflet"
+Description:  "Composition for adynovi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3d503de620040896039d016c4247c4a8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3d503de620040896039d016c4247c4a8
+* title = "TEST PURPOSES ONLY - adynovi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at bruge ADYNOVI </li>
+<li>Sådan skal du bruge ADYNOVI </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What adynovi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What adynovi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ADYNOVI indeholder det aktive stof rurioctocog alfa pegol, pegyleret human koagulationsfaktor 
+VIII. Human koagulationsfaktor VIII er modificeret for at forlænge dets virkningsvarighed. Faktor 
+VIII er nødvendigt for, at blodet kan koagulere (størkne) og stoppe blødninger. Hos patienter med 
+hæmofili A (medfødt mangel på faktor VIII) mangler det, eller det fungerer ikke ordentligt. </p>
+<p>ADYNOVI anvendes til behandling og forebyggelse af blødning hos patienter i alderen 12 år og 
+derover med hæmofili A (en arvelig blødersygdom forårsaget af mangel på faktor VIII). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take adynovi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take adynovi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke ADYNOVI </p>
+<ul>
+<li>hvis du er allergisk over for rurioctocog alfa pegol, octocog alfa eller et af de øvrige 
+indholdsstoffer i ADYNOVI (angivet i punkt 6) </li>
+<li>hvis du er allergisk over for muse- eller hamsterproteiner </li>
+</ul>
+<p>Er du i tvivl, så spørg lægen. </p>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Det er vigtigt at registrere batchnummeret på din ADYNOVI. Så hver gang du får en ny pakke 
+ADYNOVI, skal du skrive datoen og batchnummeret (som er på emballagen efter Lot) ned og 
+opbevare denne information et sikkert sted. </p>
+<p>Kontakt lægen, før du bruger ADYNOVI. </p>
+<p>Der er en lille risiko for, at du kan få en anafylaktisk reaktion (en alvorlig, pludselig allergisk reaktion) 
+på ADYNOVI. Du bør være opmærksom på de tidlige tegn på allergiske reaktioner såsom udslæt, 
+nældefeber, blærer, udbredt kløe, hævelse af læber og tunge, vejrtrækningsbesvær, hvæsende 
+åndedræt, trykken for brystet, generel fornemmelse af utilpashed og svimmelhed. Disse symptomer 
+kan være tidlige tegn på et anafylaktisk shock, som yderligere kan omfatte ekstrem svimmelhed, 
+bevidstløshed og voldsomme vejrtrækningsproblemer. 
+Hvis nogen af disse symptomer opstår, skal du stoppe injektionen med det samme og kontakte 
+lægen. Svære symptomer, herunder vejrtrækningsbesvær og (næsten) besvimelse, kræver akut 
+behandling omgående. </p>
+<p>Hvis du lider af en hjertesygdom, bedes du fortælle det til lægen, da der er en øget risiko for 
+komplikationer med koagulation (størkning af blod). </p>
+<p>Patienter, der udvikler faktor VIII-hæmmere 
+Udvikling af inhibitorer (antistoffer) er en kendt komplikation, som kan opstå under behandling med 
+alle faktor VIII lægemidler. Disse inhibitorer stopper behandlingen i at arbejde korrekt, især ved høje 
+niveauer, og du eller dit barn vil blive overvåget nøje for udvikling af disse inhibitorer. Fortæl det 
+straks til lægen, hvis din eller dit barns blødning ikke holdes under kontrol med ADYNOVI. </p>
+<p>Kateterrelaterede komplikationer<br />
+Når det er nødvendigt at anvende et centralt venekateter (CVK), bør risikoen for CVK-relaterede 
+komplikationer inklusive lokale infektioner, forekomst af bakterier i blodet og trombose (blodprop) 
+på kateterstedet tages i betragtning. </p>
+<p>Børn og unge </p>
+<p>ADYNOVI kan kun anvendes hos unge og voksne (i alderen 12 år og derover). De anførte advarsler 
+og forsigtighedsregler gælder også for unge. </p>
+<p>Brug af anden medicin sammen med ADYNOVI </p>
+<p>Fortæl det altid til lægen, hvis du bruger anden medicin eller har gjort det for nylig. </p>
+<p>Graviditet og amning  </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. Hæmofili A forekommer sjældent hos 
+kvinder. Derfor foreligger der ingen erfaringer fra brugen af ADYNOVI under graviditet og amning. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>ADYNOVI påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj eller betjene 
+maskiner. </p>
+<p>ADYNOVI indeholder natrium </p>
+<p>Dette lægemiddel indeholder op til 12,42 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
+hætteglas. Dette svarer til 0,62 % af den anbefalede maksimale daglige indtagelse af natrium for en </p>
+<p>voksen. Afhængigt af din legemsvægt og din dosis af ADYNOVI kan du få flere hætteglas. Dette skal 
+tages i betragtning, hvis du følger en diæt med lavt saltindhold.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take adynovi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take adynovi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med ADYNOVI bliver indledt og overvåget af en læge, der har erfaring med behandling 
+af patienter med hæmofili A. </p>
+<p>Din læge beregner din dosis ADYNOVI afhængigt af din tilstand og legemsvægt, og af om det skal bruges 
+til forebyggelse eller behandling af blødning. Hyppigheden af behandlingen afhænger af, hvor godt 
+ADYNOVI virker for dig. Som regel er substitutionsbehandling med ADYNOVI en livslang behandling. </p>
+<p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Forebyggelse af blødning 
+Den sædvanlige dosis af ADYNOVI er 40 til 50 IE pr. kg legemsvægt 2 gange ugentligt. </p>
+<p>Behandling af blødning 
+Doseringen af ADYNOVI beregnes efter din legemsvægt og det faktor VIII-niveau, der skal opnås. 
+Det ønskede faktor VIII-niveau afhænger af blødningens sværhedsgrad og placering. 
+Hvis du mener, at ADYNOVI har utilstrækkelig virkning, skal du tale med din læge. 
+Din læge tager relevante laboratorieprøver for at sikre, at dit faktor VIII-niveau er tilstrækkelig højt. 
+Det er særlig vigtigt, hvis du skal gennemgå en større operation. </p>
+<p>Brug til børn og unge </p>
+<p>ADYNOVI kan kun anvendes hos unge og voksne (i alderen 12 år og derover). Doseringen til unge 
+beregnes også efter legemsvægt og er den samme dosering som til voksne. </p>
+<p>Sådan gives ADYNOVI </p>
+<p>ADYNOVI injiceres som regel i en vene (intravenøst) af lægen eller sygeplejersken. Du eller en anden 
+person kan også give ADYNOVI som injektion, men kun efter at have fået tilstrækkelig oplæring. 
+Detaljeret instruktion i selv at injicere lægemidlet findes til sidst i denne indlægsseddel. </p>
+<p>Hvis du har brugt for meget ADYNOVI </p>
+<p>Brug altid ADYNOVI nøjagtigt efter lægens anvisning. Du bør konsultere din læge, hvis du er i tvivl. Hvis 
+du har injiceret mere end den anbefalede dosis ADYNOVI, skal du fortælle det til lægen hurtigst muligt. </p>
+<p>Hvis du har glemt at bruge ADYNOVI </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Fortsæt med den næste injektion 
+som planlagt, og fortsæt derefter som anvist af lægen. </p>
+<p>Hvis du holder op med at bruge ADYNOVI </p>
+<p>Du må ikke stoppe med at bruge ADYNOVI uden at have rådført dig med lægen. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis der opstår svære, pludselige allergiske reaktioner (anafylaksi), skal injektionen straks 
+stoppes. Du skal straks kontakte lægen, hvis du får nogen af de følgende tidlige symptomer på 
+allergiske reaktioner:</p>
+<ul>
+<li>udslæt, nældefeber, blærer, udbredt kløe, </li>
+<li>hævelse af læber og tunge, </li>
+<li>vejrtrækningsbesvær, hvæsende åndedræt, trykken for brystet, </li>
+<li>en generel fornemmelse af utilpashed, </li>
+<li>svimmelhed og bevidstløshed. </li>
+</ul>
+<p>Svære symptomer, herunder vejrtrækningsbesvær og (næsten) besvimelse, kræver akut 
+behandling omgående. </p>
+<p>Hos patienter, som tidligere har modtaget behandling med faktor VIII (flere end 150 dages behandling), 
+kan der udvikles inhibitor-antistoffer (se punkt 2) med hyppigheden ikke almindelig (færre end 1 ud af 
+100 patienter). Hvis dette sker, kan din medicin stoppe med at virke korrekt, og du kan opleve 
+vedvarende blødning. Kontakt straks din læge, hvis dette sker. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)<br />
+Hovedpine </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) 
+Kvalme 
+Diarré 
+Udslæt 
+Svimmelhed 
+Nældefeber </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) 
+Rødme, allergiske reaktioner (overfølsomhed) 
+Factor VIII-inhibitorer (hos patienter, som tidligere har modtaget behandling med faktor VIII (flere 
+end 150 dages behandling)) 
+Stigning i antallet af en bestemt type hvide blodlegemer 
+Infusionsreaktioner 
+Røde øjne 
+Lægemiddeludløst hududslæt </p>
+<p>Bivirkninger med ukendt hyppighed (hyppigheden kan ikke estimeres ud fra de tilgængelige data) 
+Muligt livstruende reaktioner (anafylaksi) </p>
+<p>Hos børn kan endvidere ses følgende bivirkninger </p>
+<p>Hyppighed, type og sværhedsgrad af bivirkninger hos børn forventes at være på samme niveau som 
+hos voksne. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Det gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført 
+i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store adynovi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store adynovi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på etiketten og kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). 
+Må ikke nedfryses. 
+Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+<p>I holdbarhedsperioden kan hætteglasset med pulver opbevares ved stuetemperatur (op til 30 °C) i én 
+enkelt periode på maksimalt 3 måneder. I så fald udløber lægemidlet efter denne 3-måneders periode 
+eller efter den udløbsdato, som er trykt på hætteglasset, hvad der end kommer først. Datoen for 
+afslutningen af de 3 måneders opbevaring ved stuetemperatur bør anføres på yderkartonen. Produktet 
+må ikke sættes tilbage på køl igen efter opbevaring ved stuetemperatur. Opløsningen må ikke 
+opbevares i køleskab efter klargøringen. </p>
+<p>Brug produktet inden for 3 timer efter, at pulveret er helt opløst. </p>
+<p>Produktet er kun til engangsbrug. Bortskaf al ubrugt opløsning på en passende måde. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ADYNOVI indeholder </p>
+<ul>
+<li>Aktivt stof: rurioctocog alfa pegol, (pegyleret human koagulationsfaktor VIII) produceret med 
+rekombinant dna-teknologi). Hvert hætteglas med pulver indeholder nominelt 250, 500, 1 000, 
+2 000 eller 3 000 IE rurioctocog alfa pegol. </li>
+<li>Hætteglasset med solvens indeholder 5 ml vand til injektionsvæsker. </li>
+<li>Øvrige indholdsstoffer: mannitol, trehalosedihydrat, histidin, glutathion, natriumchlorid, 
+calciumchloriddihydrat, tris(hydroxymethyl)aminomethan og polysorbat 80. Se punkt 2 
+”ADYNOVI indeholder natrium”. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>ADYNOVI leveres som pulver og solvens til injektionsvæske, opløsning (pulver til injektionsvæske, 
+opløsning). Pulveret er et hvidt til off-white løst pulver. Solvensen er en klar og farveløs væske. Efter 
+rekonstitution er opløsningen klar, farveløs og fri for fremmede partikler. 
+Hver pakning indeholder et hætteglas med pulver, et hætteglas med solvens og udstyr til rekonstitution 
+(BAXJECT II Hi-Flow). </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Baxalta Innovations GmbH 
+Industriestrasse A-1221 Wien </p>
+<p>Fremstiller </p>
+<p>Baxalta Belgium Manufacturing SA 
+Boulevard René Branquart, B-7860 Lessines 
+Belgien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 11<br />
+medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Тел.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>Česká republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Τakeda HELLAS S.A. 
+Tel: +30 210 6387800<br />
+medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Ελλάδα 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Österreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 50<br />
+medinfoEMEA@takeda.com </p>
+<p>España 
+Takeda Farmacéutica España S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmacêuticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>România 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος 
+Proton Medical (Cyprus) Ltd 
+Τηλ: +357 22866admin@protoncy.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/ </p>
+<p>Instruktioner vedrørende klargøring og administration </p>
+<p>Til klargøring af opløsningen må kun anvendes solvens og det rekonstitutionsudstyr, der er leveret 
+i pakningen med ADYNOVI. Pulveret må ikke blandes med andre lægemidler eller solvenser eller 
+anvendes med andet rekonstitutionsudstyr. </p>
+<p>Det anbefales stærkt, at navn og batchnummer på produktet registreres, hver gang du bruger 
+ADYNOVI. Der er aftagelige etiketter på hætteglasset med pulver. </p>
+<p>Instruktion i rekonstitution </p>
+<p> 
+Brug ikke ADYNOVI efter den udløbsdato, der står på etiketterne og æsken. 
+ 
+BAXJECT II Hi-Flow-udstyret må ikke anvendes, hvis dets sterile barrieresystem eller dets 
+pakning er beskadiget eller viser tegn på nedbrydning. </p>
+<ol>
+<li>Anvend antiseptisk teknik (rene forhold med lav forekomst af bakterier) og en jævn 
+arbejdsoverflade under rekonstitutionsproceduren. </li>
+<li>Hætteglas med pulver og solvens skal have stuetemperatur (mellem 15 °C og 25 °C) før brug. </li>
+<li>Tag plastlåget af hætteglassene med pulver og solvens. </li>
+<li>Tør gummipropperne af med en spritserviet, og lad dem tørre inden brug. </li>
+<li>Åbn pakningen med BAXJECT II Hi-Flow-udstyret ved at trække låget af uden at røre 
+indersiden (figur A). Lad udstyret blive i pakningen. </li>
+<li>Vend pakningen om. Tryk lige ned for at stikke den gennemsigtige plastikspids helt gennem 
+proppen på hætteglasset med solvens (figur B).  </li>
+<li>Hold fast i kanten af pakningen med BAXJECT II Hi-Flow, og træk pakningen af udstyret 
+(figur C). Lad det blå låg blive siddende på BAXJECT II Hi-Flow-udstyret. Rør ikke ved den 
+lilla plastikspids. </li>
+<li>
+<p>Vend systemet, så hætteglasset med solvens er øverst. Stik hurtigt den lilla plastikspids helt 
+igennem proppen på hætteglasset med pulver ved at trykke lige ned (figur D). Vakuummet vil 
+trække solvensen ind i hætteglasset med pulver. </p>
+</li>
+<li>
+<p>Sving forsigtigt rundt, indtil alt pulveret er helt opløst. Må ikke opbevares i køleskab 
+efter rekonstitution. </p>
+</li>
+</ol>
+<p>Figur A 
+Figur B 
+Figur C </p>
+<p>Figur D 
+Figur E 
+Figur F </p>
+<p>Instruktion i injektion </p>
+<p>Vigtigt: 
+ 
+Den klargjorte opløsning skal kontrolleres visuelt for partikelmateriale og misfarvning før 
+indgivelse (opløsningen skal være klar, farveløs og uden partikler). 
+ADYNOVI må ikke bruges, hvis opløsningen ikke er helt klar, eller hvis produktet ikke er 
+helt opløst. </p>
+<ol>
+<li>Tag det blå låg af BAXJECT II Hi-Flow-udstyret (figur E). Undgå at trække luft ind 
+i sprøjten. Tilslut sprøjten til BAXJECT II Hi-Flow-udstyret. Det anbefales at anvende en luer-
+lock-sprøjte. </li>
+<li>Vend systemet om (så hætteglasset med pulver er øverst). Træk den rekonstituerede opløsning 
+ind i sprøjten ved at trække stemplet langsomt tilbage (figur F).  </li>
+<li>Frakobl sprøjten, tilslut en egnet nål, og injicer intravenøst. Hvis en patient skal have mere end 
+ét hætteglas med ADYNOVI, kan indholdet af flere hætteglas trækkes op i samme sprøjte.  </li>
+</ol>
+<p>Der skal anvendes separat BAXJECT II Hi-Flow-udstyr til at rekonstituere hvert enkelt 
+hætteglas med ADYNOVI med solvensen. 
+4. Opløsningen skal administreres over en periode på op til 5 minutter (maksimal infusionsrate 
+10 ml i minuttet).<br />
+5. Bortskaf al ubrugt opløsning på en passende måde. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Behandling efter behov 
+I tilfælde af følgende blødningsepisoder må faktor VIII-aktiviteten ikke falde under det givne plasma 
+aktivitetsniveau (i % af det normale eller IE/dl) i den tilsvarende periode. Nedenstående tabel kan 
+bruges som vejledning til dosering ved blødningsepisoder og kirurgiske indgreb: </p>
+<p>Tabel 1: Vejledning til dosering ved blødningsepisoder og kirurgiske indgreb </p>
+<p>Blødningsgrad/type af 
+kirurgisk procedure 
+Nødvendigt faktor VIII-
+niveau (% eller IE/dl) 
+Dosisfrekvens (timer)/behandlingens 
+varighed (dage) 
+Blødning </p>
+<p>Tidlig hæmartrose, 
+muskelblødning eller 
+oral blødning. 
+20 – Injektion gentages hver 12. til 24. time. 
+Mindst 1 dag, indtil blødningsepisoden 
+kendetegnet ved smerter er ophørt, 
+eller heling er opnået. </p>
+<p>Mere udbredt hæmartrose, 
+muskelblødning eller hæmatom 
+30 – Injektion gentages hver 12. til 24. time 
+i 3-4 dage eller mere, indtil smerte og 
+akut funktionsindskrænkning er 
+forsvundet. </p>
+<p>Livstruende blødninger. 
+60 – Injektion gentages hver 8.-24. time, 
+indtil faren er ovre. 
+Kirurgi </p>
+<p>Mindre 
+Inklusive tandudtrækning. 
+30 – Hver 24. time mindst 1 dag, indtil 
+opheling er opnået. </p>
+<p>Større 
+80 –<br />
+(præ- og postoperative) 
+Injektion gentages hver 8. til 24. time, 
+indtil tilstrækkelig sårheling er opnået. 
+Fortsæt derefter behandling i mindst 
+yderligere 7 dage for at opretholde en 
+faktor VIII-aktivitet på 30-60 % (IE/dl). </p>
+<p>Profylakse<br />
+Til langtidsprofylakse er den anbefalede dosis 40 til 50 IE ADYNOVI pr. kg legemsvægt to gange 
+ugentligt i intervaller på 3 til 4 dage. Dosisjusteringer og administrationsintervaller kan overvejes på 
+basis af opnåede FVIII-niveauer og blødningstendensen hos den enkelte patient. </p>
+<p>Pædiatrisk population<br />
+Til behandling ved behov er doseringen til pædiatriske patienter (i alderen 12 til 18 år) den samme 
+som doseringen til voksne patienter. Profylaktisk behandling til patienter fra 12 til &lt;18 år er den 
+samme som behandlingen til voksne patienter. ADYNOVIs langtidssikkerhed hos børn under 12 år er 
+endnu ikke klarlagt. Dosisjusteringer og administrationsintervaller kan overvejes på basis af opnåede 
+FVIII-niveauer og blødningstendensen hos den enkelte patient. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>ADYNOVI 250 IE/5 ml pulver og solvens til injektionsvæske, opløsning 
+ADYNOVI 500 IE/5 ml pulver og solvens til injektionsvæske, opløsning 
+ADYNOVI 1 000 IE/5 ml pulver og solvens til injektionsvæske, opløsning 
+ADYNOVI 2 000 IE/5 ml pulver og solvens til injektionsvæske, opløsning 
+ADYNOVI 3 000 IE/5 ml pulver og solvens til injektionsvæske, opløsning </p>
+<p>rurioctocog alfa pegol (pegyleret rekombinant human koagulationsfaktor VIII) </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst 
+i punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>Gem indlægssedlen. Du kan få brug for at læse den igen.  </li>
+<li>Spørg lægen, hvis der er mere, du vil vide. </li>
+<li>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give det til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.  </li>
+<li>Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt her. 
+Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-02998b2db7fd4b184d980a78d8dee404
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adynovi Package Leaflet for language en"
+Description: "ePI document Bundle for adynovi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-02998b2db7fd4b184d980a78d8dee404"
+* entry[0].resource = composition-en-02998b2db7fd4b184d980a78d8dee404
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp02998b2db7fd4b184d980a78d8dee404"
+* entry[=].resource = mp02998b2db7fd4b184d980a78d8dee404
+                            
+                    
+Instance: bundlepackageleaflet-da-02998b2db7fd4b184d980a78d8dee404
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adynovi Package Leaflet for language da"
+Description: "ePI document Bundle for adynovi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-02998b2db7fd4b184d980a78d8dee404"
+* entry[0].resource = composition-da-02998b2db7fd4b184d980a78d8dee404
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp02998b2db7fd4b184d980a78d8dee404"
+* entry[=].resource = mp02998b2db7fd4b184d980a78d8dee404
+                            
+                    
+
+
+
+Instance: mp02998b2db7fd4b184d980a78d8dee404
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ADYNOVI 250 IU / 5 ml powder and solvent for solution for injection"
-Description: "ADYNOVI 250 IU / 5 ml powder and solvent for solution for injection"
+Title: "Medicinal Product adynovi"
+Description: "adynovi"
 Usage: #inline
 
  
@@ -385,7 +947,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ADYNOVI 250 IU / 5 ml powder and solvent for solution for injection"
+  * productName = "adynovi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -412,29 +974,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-02998b2db7fd4b184d980a78d8dee404
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for adynovi Package Leaflet for language en"
-Description: "ePI document Bundle for adynovi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 02998b2db7fd4b184d980a78d8dee404ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1247/003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "adynovi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-02998b2db7fd4b184d980a78d8dee404"
-* entry[0].resource = composition-en-02998b2db7fd4b184d980a78d8dee404
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3d503de620040896039d016c4247c4a8"
-* entry[=].resource = mp3d503de620040896039d016c4247c4a8
-                            
-                      
+* title = "List of all ePIs associated with adynovi"
+
+* subject = Reference(mp3d503de620040896039d016c4247c4a8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#adynovi "adynovi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-02998b2db7fd4b184d980a78d8dee404) // adynovi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-02998b2db7fd4b184d980a78d8dee404) // adynovi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-02998b2db7fd4b184d980a78d8dee404
+InstanceOf: List
+
+* insert 02998b2db7fd4b184d980a78d8dee404ListRuleset
+    

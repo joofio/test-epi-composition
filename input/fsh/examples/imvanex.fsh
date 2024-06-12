@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-efed70c799d3cf5deb34f761d19e059b
 InstanceOf: CompositionUvEpi
 Title: "Composition for imvanex Package Leaflet"
@@ -280,12 +283,454 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-efed70c799d3cf5deb34f761d19e059b
+InstanceOf: CompositionUvEpi
+Title: "Composition for imvanex Package Leaflet"
+Description:  "Composition for imvanex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7fbc0af6ddd00ea0f5552dedbda50b93)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7fbc0af6ddd00ea0f5552dedbda50b93
+* title = "TEST PURPOSES ONLY - imvanex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at få IMVANEX </li>
+<li>Sådan gives IMVANEX </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What imvanex is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What imvanex is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMVANEX er en vaccine, der anvendes til at forhindre kopper, abekopper og sygdom forårsaget af 
+vacciniavirus hos voksne. </p>
+<p>Når en person får vaccinen, vil immunsystemet (kroppens naturlige forsvarssystem) producere dens 
+egen beskyttelse i form af antistoffer mod kopper, abekopper og vacciniavira. 
+IMVANEX indeholder hverken koppevirus (Variola) eller abekoppevirus eller vacciniavira. Den kan 
+ikke sprede eller forårsage kopper, abekopper eller vacciniainfektion og -sygdom. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take imvanex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take imvanex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få IMVANEX: </p>
+<ul>
+<li>hvis du er allergisk eller tidligere havde en pludselig, livstruende allergisk reaktion over for det 
+aktive stof eller et af de øvrige indholdsstoffer i Imvanex (angivet i punkt 6) eller 
+kyllingeprotein, benzonase, gentamicin eller ciprofloxacin, der kan findes i vaccinen i meget 
+små mængder. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller sygeplejersken, før du får IMVANEX: </p>
+<ul>
+<li>
+<p>hvis du har atopisk dermatitis (se punkt 4). </p>
+</li>
+<li>
+<p>hvis du har hiv-infektion eller har andre sygdomme eller får anden behandling, der fører til et 
+svækket immunsystem </p>
+</li>
+<li>
+<p>hvis du føler dig nervøs for vaccinationsprocessen eller nogensinde er besvimet efter en 
+injektion med en kanyle. </p>
+</li>
+</ul>
+<p>Den beskyttende virkning af IMVANEX mod kopper, abekopper og sygdom forårsaget af 
+vacciniavirus er ikke blevet undersøgt hos mennesker. </p>
+<p>I tilfælde af sygdom med høj feber vil din læge udskyde vaccinationen, indtil du har det bedre. 
+Tilstedeværelsen af en mindre infektion, såsom en forkølelse, bør ikke gøre det nødvendigt at udskyde 
+vaccinationen, men kontakt først lægen eller sygeplejersken. </p>
+<p>Det kan forekomme, at IMVANEX ikke helt beskytter alle personer, der vaccineres. </p>
+<p>Tidligere vaccination med IMVANEX kan modificere det kutane respons (’optagelsen’) af en 
+efterfølgende administreret replikations-kompetent koppevaccine, og føre til en nedsat eller udebleven 
+optagelse. </p>
+<p>Brug af andre lægemidler eller andre vacciner sammen med IMVANEX </p>
+<p>Fortæl altid lægen eller sygeplejersken, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller hvis du for nylig har fået andre vacciner. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds. Denne vaccine bør ikke anvendes under graviditet og amning. Din læge vil 
+imidlertid vurdere, om de mulige fordele med hensyn til at forebygge kopper, abekopper og sygdom 
+forårsaget af vacciniavirus vil opveje de mulige risici for dig og dit foster/spædbarn. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Der er ingen information om virkningen af IMVANEX på din evne til at føre motorkøretøj eller 
+betjene maskiner. Hvis du oplever nogle af de bivirkninger, der er anført i punkt 4, er det dog muligt, 
+at nogle af disse kan påvirke din evne til at føre motorkøretøj eller betjene maskiner (f.eks. 
+svimmelhed). </p>
+<p>IMVANEX indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take imvanex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take imvanex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du kan få denne vaccine uanset om du tidligere har fået koppevaccine. </p>
+<p>Denne vaccine vil indsprøjtes under huden, helst i overarmen, af din læge eller en syeplejerske. Den 
+må ikke indsprøjtes i en blodåre. </p>
+<p>Hvis du aldrig er blevet vaccineret mod kopper, abekopper eller vacciniavira: </p>
+<ul>
+<li>
+<p>Du vil få to injektioner. </p>
+</li>
+<li>
+<p>Den anden injektion vil gives ikke mindre end 28 dage efter den første. </p>
+</li>
+<li>
+<p>Sørg for, at du gennemfører vaccinationsprogrammet med to injektioner. </p>
+</li>
+</ul>
+<p>Hvis du tidligere er blevet vaccineret mod kopper, abekopper eller vacciniavira: </p>
+<ul>
+<li>
+<p>Du vil få én injektion. </p>
+</li>
+<li>
+<p>Hvis dit immunsystem er svækket, vil du få to injektioner, hvor den anden injektion gives ikke 
+mindre end 28 dage efter den første. </p>
+</li>
+</ul>
+<p>Hvis du har glemt at komme til et besøg for at få din injektion med IMVANEX </p>
+<p>Hvis du har glemt en skemalagt injektion, skal du fortælle det til lægen eller sygeplejersken, og 
+arrangere et andet besøg. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Kontakt straks en læge eller tag øjeblikkeligt på skadestuen på dit nærmeste hospital, hvis du oplever 
+nogle af de følgende symptomer: 
+• vejrtrækningsproblemer 
+• svimmelhed 
+• hævelse af ansigt eller hals </p>
+<p>Disse symptomer kan være tegn på en alvorlig allergisk reaktion. </p>
+<p>Andre bivirkninger </p>
+<p>Hvis du allerede har atopisk dermatitis, kan du opleve mere intense lokale hudreaktioner (såsom 
+rødme, hævelse og kløe) samt andre generelle symptomer (såsom hovedpine, muskelsmerter, kvalme 
+eller træthed), eller en opblussen eller forværring af din hudsygdom. </p>
+<p>De mest almindeligt rapporterede bivirkninger var på injektionsstedet. De fleste af dem var lette til 
+moderate og forsvandt uden behandling i løbet af 7 dage. </p>
+<p>Hvis du oplever nogle af følgende bivirkninger, skal du fortælle det til lægen. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>hovedpine, </p>
+</li>
+<li>
+<p>smertende muskler, </p>
+</li>
+<li>
+<p>kvalme, </p>
+</li>
+<li>
+<p>træthed, </p>
+</li>
+<li>
+<p>smerter, rødme, hævelse, hærdning eller kløe på injektionsstedet. </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer): 
+• kulderystelser, 
+• feber, 
+• ledsmerter, smerter i arme og ben, 
+• appetitløshed, 
+• en knude, misfarvning, blå mærker eller varme på injektionsstedet. </p>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>næse- og halsinfektion, infektion af de øvre luftveje, </p>
+</li>
+<li>
+<p>hævede lymfeknuder, </p>
+</li>
+<li>
+<p>unormal søvn, </p>
+</li>
+<li>
+<p>svimmelhed, unormale følelser i hud, </p>
+</li>
+<li>
+<p>muskelstivhed,  </p>
+</li>
+<li>
+<p>ondt i halsen, næseflåd, hoste, </p>
+</li>
+<li>
+<p>diarré, opkastning,  </p>
+</li>
+<li>
+<p>udslæt, kløe, hudbetændelse,  </p>
+</li>
+<li>
+<p>blødning, irritation,  </p>
+</li>
+<li>
+<p>hævelse under armen, utilpashed, rødme, brystsmerter,  </p>
+</li>
+<li>
+<p>forhøjelse af laboratorieprøver for hjertemarkører (såsom troponin I), forhøjede leverenzymer, 
+nedsat eller forhøjet antal hvide blodlegemer, nedsat gennemsnitligt antal blodplader. </p>
+</li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1 000 personer): 
+• sinusinfektion,<br />
+• influenza, 
+• rødme og ubehag i øjet, 
+• nældefeber, 
+• misfarvning af hud, 
+• svedtendens, 
+• blå mærker på huden, 
+• nattesved, 
+• knude i huden 
+• rygsmerter, 
+• nakkesmerter, 
+• muskelkramper, 
+• muskelsmerter, 
+• muskelsvaghed, 
+• hævede ankler, fødder eller fingre,<br />
+• hurtigere puls, 
+• ørepine og ondt i halsen,<br />
+• mavesmerter,<br />
+• mundtørhed, 
+• snurrende fornemmelse (vertigo), 
+• migræne, 
+• nerveforstyrrelser, der forårsager svaghed, prikkende fornemmelse eller følelsesløshed, 
+• døsighed, 
+• skællen, betændelse, unormal følelse i huden, reaktion på injektionsstedet, udslæt, 
+følelsesløshed, tørhed, nedsat bevægelighed, vesikler på injektionsstedet, 
+• svaghed, 
+• influenzalignende sygdom, 
+• hævelse af ansigt, mund og hals, 
+• øget antal hvide blodlegemer, 
+• blå mærker. </p>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>forbigående lammelse af den ene side af ansigtet (Bells parese). </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store imvanex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store imvanex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke vaccinen efter den udløbsdato, der står på etiketten efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Opbevares i dybfryser (ved -20 °C +/-5 °C eller -50 °C +/-10 °C eller -80 °C +/-10 °C). Udløbsdatoen 
+afhænger af opbevaringstemperaturen. Vaccinen må ikke fryses igen, efter den er optøet. Efter 
+optøning kan vaccinen opbevares ved temperaturer på 2 °C- 8 °C i mørke i op til 2 måneder inden for 
+den godkendte opbevaringstid før brug. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMVANEX indeholder: </p>
+<p>En dosis (0,5 ml) indeholder:</p>
+<ul>
+<li>Aktivt stof: modificeret vaccinia Ankara - Bavarian Nordic levende virus1 ikke mindre end 
+5 x 107 Inf.E* </li>
+</ul>
+<p>*infektiøse enheder 
+1Fremstillet i celler fra kyllingeembryoer </p>
+<ul>
+<li>Øvrige indholdsstoffer: trometamol, natriumchlorid og vand til injektionsvæsker. </li>
+</ul>
+<p>Denne vaccine indeholder meget små restmængder af kyllingeprotein, benzonase, gentamicin og 
+ciprofloxacin. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Efter den frosne vaccine er optøet, er IMVANEX en lysegul til off-white, mælket injektionsvæske, 
+suspension. </p>
+<p>IMVANEX leveres som en injektionsvæske, suspension i et hætteglas (0,5 ml). 
+IMVANEX findes i pakninger indeholdende 1 enkeltdosis-hætteglas eller 20 enkeltdosis-hætteglas. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bavarian Nordic A/S 
+Philip Heymans Allé 3 
+DK-2900 Hellerup 
+Danmark 
+tlf. 
++45 3326 8e-mail regulatory@bavarian-nordic.com </p>
+<p>Fremstiller 
+Bavarian Nordic A/S 
+Hejreskovvej 10A, 
+3490 Kvistgaard 
+Danmark </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Dette lægemiddel er godkendt under "særlige vilkår". 
+Det betyder, at det grundet sygdommens sjældenhed ikke har været muligt at opnå fuldstændig 
+dokumentation for lægemidlet. 
+Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
+indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Instruktioner i forberedelse og administration af vaccinen: </p>
+<p>Hætteglasset skal bringes til en temperatur fra 8 °C og 25 °C før brug. Hvirvles forsigtigt rundt før 
+anvendelse. Inspicer suspensionen visuelt før administration. Hvis der er partikler, og/eller hvis 
+suspensionen ser unormal ud, skal vaccinen bortskaffes. 
+Hvert hætteglas er til engangsbrug. </p>
+<p>En dosis på 0,5 ml trækkes op i injektionssprøjten. </p>
+<p>Efter optøning kan vaccinen opbevares ved temperaturer på 2 °C-8 °C i mørke i op til 2 måneder inden 
+for den godkendte opbevaringstid før brug. </p>
+<p>Denne vaccine må ikke fryses igen, efter den er optøet. </p>
+<p>Da der ikke foreligger studier over eventuelle uforligeligheder, må denne vaccine ikke blandes med 
+andre vacciner.  </p>
+<p>Bilag IV 
+Videnskabelige konklusioner og begrundelser for ændring af betingelserne for 
+markedsføringstilladelsen/-tilladelserne </p>
+<p>Videnskabelige konklusioner 
+Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for koppe- og 
+abekoppevaccine (levende modificeret vacciniavirus Ankara) er PRAC nået frem til følgende 
+videnskabelige konklusioner:<br />
+I lyset af tilgængelige data om ansigtslammelse/Bells parese fra spontane indberetninger med et tæt 
+tidsmæssigt forhold og i lyset af en plausibel virkningsmekanisme anser PRAC et kausalt forhold 
+mellem koppe- og abekoppevaccine (levende modificeret vacciniavirus Ankara) og akut perifer 
+ansigtslammelse (Bells parese) for i det mindste en rimelig mulighed. Efter bekræftelsen af signalet 
+om "synkope/bevidstløshed" støttes en særlig advarsel og forsigtighedsregel som almindelig 
+medicinsk praksis for injicerbare vacciner. PRAC konkluderede, at produktinformationen for 
+produkter, der indeholder koppe- og abekoppevaccine (levende modificeret vacciniavirus Ankara), bør 
+ændres i overensstemmelse hermed. 
+CHMP har gennemgået PRAC's anbefaling og er enig i PRAC’s overordnede konklusioner og 
+begrundelser for anbefalingen. 
+Begrundelse for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne 
+På baggrund af de videnskabelige konklusioner for koppe- og abekoppevaccine (levende modificeret 
+vacciniavirus Ankara) er CHMP af den opfattelse, at benefit/risk-forholdet for 
+lægemidlet/lægemidlerne, der indeholder koppe- og abekoppevaccine (levende modificeret 
+vacciniavirus Ankara) forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i 
+produktinformationen 
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-efed70c799d3cf5deb34f761d19e059b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imvanex Package Leaflet for language en"
+Description: "ePI document Bundle for imvanex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-efed70c799d3cf5deb34f761d19e059b"
+* entry[0].resource = composition-en-efed70c799d3cf5deb34f761d19e059b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpefed70c799d3cf5deb34f761d19e059b"
+* entry[=].resource = mpefed70c799d3cf5deb34f761d19e059b
+                            
+                    
+Instance: bundlepackageleaflet-da-efed70c799d3cf5deb34f761d19e059b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imvanex Package Leaflet for language da"
+Description: "ePI document Bundle for imvanex Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-efed70c799d3cf5deb34f761d19e059b"
+* entry[0].resource = composition-da-efed70c799d3cf5deb34f761d19e059b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpefed70c799d3cf5deb34f761d19e059b"
+* entry[=].resource = mpefed70c799d3cf5deb34f761d19e059b
+                            
+                    
+
+
+
+Instance: mpefed70c799d3cf5deb34f761d19e059b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product IMVANEX suspension for injection"
-Description: "IMVANEX suspension for injection"
+Title: "Medicinal Product imvanex"
+Description: "imvanex"
 Usage: #inline
 
  
@@ -305,7 +750,7 @@ Usage: #inline
 
 
 * name
-  * productName = "IMVANEX suspension for injection"
+  * productName = "imvanex"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -332,29 +777,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-efed70c799d3cf5deb34f761d19e059b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for imvanex Package Leaflet for language en"
-Description: "ePI document Bundle for imvanex Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: efed70c799d3cf5deb34f761d19e059bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/855/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "imvanex"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-efed70c799d3cf5deb34f761d19e059b"
-* entry[0].resource = composition-en-efed70c799d3cf5deb34f761d19e059b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7fbc0af6ddd00ea0f5552dedbda50b93"
-* entry[=].resource = mp7fbc0af6ddd00ea0f5552dedbda50b93
-                            
-                      
+* title = "List of all ePIs associated with imvanex"
+
+* subject = Reference(mp7fbc0af6ddd00ea0f5552dedbda50b93)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#imvanex "imvanex"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-efed70c799d3cf5deb34f761d19e059b) // imvanex en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-efed70c799d3cf5deb34f761d19e059b) // imvanex da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-efed70c799d3cf5deb34f761d19e059b
+InstanceOf: List
+
+* insert efed70c799d3cf5deb34f761d19e059bListRuleset
+    

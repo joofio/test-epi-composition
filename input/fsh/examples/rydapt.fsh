@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-00913882b59a9d04c9763a602ce7c1ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for rydapt Package Leaflet"
@@ -515,12 +518,610 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-00913882b59a9d04c9763a602ce7c1ae
+InstanceOf: CompositionUvEpi
+Title: "Composition for rydapt Package Leaflet"
+Description:  "Composition for rydapt Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7abb412b59dd8c5704de90f99e9789ad)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7abb412b59dd8c5704de90f99e9789ad
+* title = "TEST PURPOSES ONLY - rydapt"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Rydapt 
+3. Sådan skal du tage Rydapt 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rydapt is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rydapt is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Rydapt er 
+Rydapt indeholder det aktive stof midostaurin. Det tilhører en klasse af lægemidler, der kaldes 
+proteinkinasehæmmere. </p>
+<p>Anvendelse 
+Rydapt anvendes til behandling af akut myeloid leukæmi (AML) hos voksne, der har en fejl i et gen, 
+som kaldes FLT3. Akut myeloid leukæmi er en kræftform i en bestemt type hvide blodlegemer (kaldet 
+myeloide celler), hvor kroppen overproducerer en unormal type af disse celler. </p>
+<p>Rydapt anvendes også hos voksne til behandling af aggressiv systemisk mastocytose (ASM), 
+systemisk mastocytose i kombination med hæmatologisk neoplasma (SM-AHN) eller 
+mastcelleleukæmi (MCL). Det er sygdomme, hvor kroppen danner for mange mastceller, en type 
+hvide blodlegemer. Symptomerne opstår, når for mange mastceller havner i organer som leveren, 
+knoglemarven eller milten og frigiver stoffer som fx histamin i blodet. </p>
+<p>Virkning 
+Midostaurin blokerer aktiviteten af nogle enzymer (kinaser) i de unormale celler og stopper cellernes 
+deling og vækst. </p>
+<p>Ved AML anvendes Rydapt altid sammen med kemoterapi (lægemidler til behandling af kræft) i 
+starten af behandling. </p>
+<p>Hvis du har spørgsmål til, hvordan Rydapt virker, eller hvorfor dette lægemiddel er blevet ordineret til 
+dig, så tal med lægen, apotekspersonalet eller sygeplejersken. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rydapt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rydapt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følg omhyggeligt lægens anvisninger. De kan måske være forskellige fra de generelle oplysninger i 
+denne indlægsseddel. </p>
+<p>Tag ikke Rydapt 
+- hvis du er allergisk over for midostaurin eller et af de øvrige indholdsstoffer i Rydapt (angivet i 
+punkt 6). Hvis du tror, at du kan være allergisk, så spørg lægen til råds. 
+- hvis du allerede tager nogle af følgende lægemidler:</p>
+<ul>
+<li>lægemidler til behandling af tuberkulose, fx rifampicin; </li>
+<li>lægemidler til behandling af epilepsi, fx carbamazepin eller phenytoin; </li>
+<li>enzalutamid, et lægemiddel til behandling af prostatakræft; </li>
+<li>prikbladet perikon (også kendt som Hypericum perforatum), et naturpræparat til 
+behandling af depression. 
+Disse lægemidler skal undgås under behandling med Rydapt. Tal med din læge, hvis du får at 
+vide, at du skal begynde at tage et af disse lægemidler, imens du er i behandling med Rydapt. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Rydapt:</p>
+<ul>
+<li>hvis du har en infektion. </li>
+<li>hvis du har hjerteproblemer. </li>
+<li>hvis du har lungeproblemer eller vejrtrækningsbesvær. </li>
+<li>hvis du har problemer med nyrerne. </li>
+</ul>
+<p>Fortæl det straks til lægen, apotekspersonalet eller sygeplejersken, hvis du får nogen af disse 
+symptomer under behandling med Rydapt:</p>
+<ul>
+<li>hvis du har feber, ondt i halsen eller mundsår, da disse kan være tegn på, at du har for få hvide 
+blodlegemer. </li>
+<li>hvis du har nye symptomer eller forværring af symptomer som fx feber, hoste med eller uden 
+slim, smerter i brystkassen, vejrtrækningsbesvær eller åndenød, da disse kan være tegn på 
+lungeproblemer. </li>
+<li>hvis du har eller oplever smerter eller ubehag i brystkassen, ørhed, besvimelse, svimmelhed, 
+blåfarvning af læber, hænder eller fødder, åndenød eller hævelse af ben (ødem) eller hud, da 
+disse kan være tegn på hjerteproblemer. 
+Det kan måske være nødvendigt for lægen at justere, midlertidigt afbryde eller helt stoppe din 
+behandling med Rydapt. </li>
+</ul>
+<p>Overvågning under behandling med Rydapt 
+Lægen vil regelmæssigt tage blodprøver under behandlingen med Rydapt for at holde øje med 
+mængden af blodceller (hvide blodlegemer, røde blodlegemer og blodplader) og elektrolytter (fx 
+calcium, kalium, magnesium) i din krop. Din hjerte- og lungefunktion vil også blive undersøgt 
+regelmæssigt. </p>
+<p>Børn og unge 
+Rydapt bør ikke anvendes til børn og unge under 18 år, som også får anden kemoterapi, da det kan 
+medføre en alvorlig reducering af visse typer af blodlegemer. </p>
+<p>Brug af andre lægemidler sammen med Rydapt 
+Fortæl lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Grunden er, at Rydapt kan påvirke virkningen 
+af nogle lægemidler. Andre lægemidler kan også påvirke virkningen af Rydapt. </p>
+<p>Følgende lægemidler skal undgås under behandling med Rydapt:</p>
+<ul>
+<li>lægemidler til behandling af tuberkulose, fx rifampicin; </li>
+<li>lægemidler til behandling af epilepsi, fx carbamazepin eller phenytoin; </li>
+<li>enzalutamid, et lægemiddel til behandling af prostatakræft; </li>
+<li>prikbladet perikon (også kendt som Hypericum perforatum), et naturpræparat til behandling af 
+depression. </li>
+</ul>
+<p>Fortæl din læge eller apotekspersonalet, hvis du tager nogle af følgende lægemidler:</p>
+<ul>
+<li>visse lægemidler til behandling af infektioner, fx ketoconazol eller clarithromycin; </li>
+<li>visse lægemidler til behandling af HIV, fx ritonavir eller efavirenz; </li>
+<li>visse lægemidler til behandling af depression, fx nefazodon eller bupropion; </li>
+<li>visse lægemidler, der anvendes til at kontrollere fedtindholdet i dit blod, fx atorvastatin eller 
+rosuvastatin; </li>
+<li>tizanidine, et lægemiddel, der anvendes til at få musklerne til at slappe af; </li>
+<li>chlorzoxazon, et lægemiddel, der anvendes til behandling af ubehag forårsaget af 
+muskelkramper. </li>
+</ul>
+<p>Hvis du tager nogen af disse lægemidler, kan lægen ordinere et andet lægemiddel til dig i stedet, mens 
+du er i behandling med Rydapt. </p>
+<p>Du bør også fortælle det til lægen, hvis du allerede tager Rydapt og får ordineret et nyt lægemiddel, 
+som du ikke tidligere har fået under behandling med Rydapt. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis du er i tvivl om, hvorvidt dit lægemiddel er et af de 
+ovennævnte lægemidler. </p>
+<p>Graviditet og amning 
+Rydapt kan skade dit ufødte barn og anbefales ikke under graviditet. Hvis du er gravid eller ammer, 
+har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge til råds, før 
+du tager dette lægemiddel. </p>
+<p>Rydapt kan skade din baby. Du bør ikke amme under behandling med Rydapt og i mindst 4 måneder 
+efter behandlingsophør. </p>
+<p>Prævention hos kvinder 
+Hvis du bliver gravid, mens du tager Rydapt, kan det skade dit barn. Lægen vil bede dig om at tage en 
+graviditetstest, før du starter behandling med Rydapt for at være sikker på, at du ikke er gravid. Du 
+skal bruge en sikker svangerskabsforebyggende metode, mens du tager Rydapt, og i mindst 4 måneder 
+efter at du er stoppet med at tage det. Lægen vil tale med dig om, hvilken svangerskabsforebyggende 
+metode der er mest passende for dig at bruge. </p>
+<p>Hvis du bliver gravid eller tror, at du er gravid, skal du straks fortælle det til lægen. </p>
+<p>Frugtbarhed 
+Rydapt kan nedsætte fertiliteten hos mænd og kvinder. Du bør tale med lægen om dette, før du starter 
+med behandlingen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Vær ekstra forsigtig, når du kører og bruger maskiner, da du kan udvikle svimmelhed, mens du tager 
+Rydapt. </p>
+<p>Rydapt indeholder vandfri ethanol (alkohol) 
+Dette lægemiddel indeholder 666 mg alkohol (ethanol) pr. 200 mg dosis (maksimal daglig dosis), 
+svarende til 14 % v/v ethanol, vandfri. Mængden i 200 mg af dette lægemiddel svarer til 17 ml øl eller 
+7 ml vin. Den mindre mængde alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. 
+Alkohol kan have en skadelig virkning, hvis du har alkoholrelaterede problemer, epilepsi eller 
+leverproblemer, eller hvis du er gravid eller ammer. </p>
+<p>Rydapt indeholder ricinusolie, polyoxyleret, hydrogeneret 
+Dette lægemiddel indeholder ricinusolie, polyoxyleret, hydrogeneret, hvilket kan give mavebesvær og 
+diarré. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rydapt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rydapt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Du må ikke overskride den dosis, som lægen har foreskrevet. </p>
+<p>Så meget Rydapt skal du tage 
+Lægen vil fortælle dig, præcis hvor mange kapsler du skal tage. 
+- Patienter med AML 
+Den sædvanlige daglige dosis er 50 mg (2 kapsler) to gange daglig. 
+- Patienter med ASM, SM-AHN eller mastcelleleukæmi 
+Den sædvanlige daglige dosis er 100 mg (4 kapsler) to gange daglig. </p>
+<p>Afhængigt af hvordan du reagerer på behandlingen med Rydapt, kan lægen sætte din dosis ned eller 
+afbryde behandlingen midlertidigt. </p>
+<p>Sådan tager du Rydapt 
+- Hvis du tager Rydapt på samme tidspunkt hver dag, vil det hjælpe dig med at huske at tage din 
+medicin. 
+- Tag Rydapt to gange om dagen med omkring 12 timers mellemrum (for eksempel sammen med 
+morgenmaden og aftensmaden). 
+- Tag Rydapt sammen med mad. 
+- Synk kapslerne hele med et glas vand. For at sikre korrekt dosering og undgå den ubehagelige 
+smag af kapselindholdet må du ikke åbne, knuse eller tygge dem. 
+- For patienter med AML tages Rydapt med kemoterapi i henhold til en fastlagt doseringsplan. 
+Det er meget vigtigt at følge lægens anbefalinger. 
+- Hvis du kaster op efter, at du har sunket kapslerne, må du ikke tage flere kapsler før din næste 
+planlagte dosis. </p>
+<p>Så længe skal du tage Rydapt 
+- Fortsæt med at tage Rydapt, så længe lægen siger, at du skal gøre det. Lægen vil regelmæssigt 
+undersøge din tilstand for at kontrollere, at behandlingen har den ønskede virkning. 
+- Hvis du bliver behandlet for AML, vil du få Rydapt alene i op til 12 måneder efter det tidspunkt, 
+hvor du stopper med at tage Rydapt med kemoterapi. 
+- Hvis du bliver behandlet for ASM, SM-AHN eller mastcelleleukæmi, vil du få Rydapt som en 
+langtidsbehandling, der kan vare i måneder eller år. 
+Hvis du har spørgsmål til, hvor længe du skal tage Rydapt, så tal med lægen eller apotekspersonalet. </p>
+<p>Hvis du har taget for meget Rydapt 
+Hvis du har taget flere kapsler, end du skulle, eller hvis en anden har taget din medicin, skal du 
+omgående kontakte en læge eller tage på hospitalet og tage pakningen med, da lægebehandling kan 
+være nødvendigt. </p>
+<p>Hvis du har glemt at tage Rydapt 
+Hvis du har glemt at tage Rydapt, skal du springe den glemte dosis over og tage din næste dosis på det 
+sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Vent i 
+stedet, til det er tid til din næste dosis. </p>
+<p>Hvis du holder op med at tage Rydapt 
+Hvis du stopper behandlingen med Rydapt, kan din tilstand forværres. Stop ikke med at tage din 
+medicin, medmindre lægen har bedt dig om det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Stop omgående med at tage Rydapt, og fortæl det straks til lægen, hvis du bemærker noget af 
+følgende, da det kan være tegn på en allergisk reaktion:</p>
+<ul>
+<li>vejrtrækningsbesvær eller synkebesvær </li>
+<li>svimmelhed </li>
+<li>hævelse af ansigt, læber, tunge eller svælg </li>
+<li>voldsom hudkløe med rødt udslæt eller hævede knopper </li>
+</ul>
+<p>Nogle bivirkninger hos patienter med AML kan være alvorlige 
+Fortæl det straks til lægen eller sygeplejersken, hvis du bemærker noget af følgende:</p>
+<ul>
+<li>svaghed, spontan blødning eller blå mærker, hyppige infektioner med tegn som fx feber, 
+kulderystelser, ondt i halsen eller mundsår (tegn på et lavt niveau af blodceller) </li>
+<li>feber, hoste med eller uden slim, brystsmerter, problemer med at trække vejret eller åndenød 
+(tegn på en type lungesygdom, som ikke stammer fra en infektion (interstitiel 
+lungesygdom/pneumonitis)) </li>
+<li>voldsom åndenød, besværet og unormalt hurtig vejrtrækning, svimmelhed, ørhed forvirring og 
+ekstrem træthed (tegn på akut lungesvigt) </li>
+<li>infektioner, feber, lavt blodtryk, nedsat vandladning, høj puls, hurtig vejrtrækning (tegn på 
+blodforgiftning eller neutropen blodforgiftning) </li>
+</ul>
+<p>Andre bivirkninger hos patienter med AML 
+Andre bivirkninger omfatter dem, der er anført nedenfor. Hvis nogen af disse bivirkninger bliver 
+alvorlige, skal du fortælle det til lægen eller apotekspersonalet. </p>
+<p>De fleste af bivirkningerne er lette til moderate og vil normalt gå over efter nogle få ugers behandling. </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter) 
+- infektion på stedet, hvor kateteret er anlagt 
+- røde eller blåviolette, flade, punktformede pletter under huden (petekkier) 
+- problemer med at falde i søvn (insomni) 
+- hovedpine 
+- åndenød, vejrtrækningsbesvær (dyspnø) 
+- ændringer i elektrokardiogram (ekg), hvilket kan være en oplysning til din læge om, at du har en 
+uregelmæssighed i dit hjertes elektriske system, også kendt som langt QT-syndrom 
+- svimmelhed, ørhed (lavt blodtryk) 
+- næseblod 
+- ondt i halsen (smerter i struben) 
+- mundsår (stomatitis) 
+- kvalme, opkastning 
+- mavesmerter 
+- hæmorider 
+- udtalt svedtendens 
+- hududslæt med skældannelse eller afskalning (exfoliativ dermatitis) 
+- rygsmerter 
+- ledsmerter (artralgi) 
+- feber 
+- tørst, høj urinproduktion, mørk urin, tør blussende hud (tegn på højt blodsukkerniveau, kendt 
+som hyperglykæmi) 
+- muskelsvaghed, døsighed, forvirring, kramper, nedsat bevidsthedsniveau (tegn på højt niveau af 
+natrium i blodet, kendt som hypernatriæmi) 
+- muskelsvaghed, muskelkramper, unormal hjerterytme (tegn på lavt niveau af kalium i blodet, 
+kendt som hypokaliæmi) 
+- blå mærker og blødning (blodet har problemer med at størkne) 
+- unormale blodprøveresultater, hvilket kan fortælle lægen, hvor godt bestemte dele af din krop 
+fungerer: højt niveau af alaninaminotransferase (ALAT) og/eller aspartataminotransferase 
+(ASAT) (fortæller noget om leverfunktionen) </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter) 
+- infektion i øvre luftveje 
+- kvalme, opkastning, forstoppelse, mavesmerter, hyppig vandladning, tørst, muskelsvaghed og 
+muskeltrækninger (tegn på højt niveau af calcium i blodet, kendt som hypercalcæmi) 
+- besvimelse 
+- ufrivillige rystelser af kroppen 
+- hovedpine, svimmelhed (højt blodtryk) 
+- høj puls (sinustakykardi) 
+- væskeansamling omkring hjertet, hvilket i alvorlig grad kan nedsætte hjertets evne til at pumpe 
+blodet rundt (perikardieekssudat) 
+- væskeansamling i lungerne/brystkassens hulrum, hvilket, hvis det er alvorligt, kan gøre dig 
+stakåndet (pleuraekssudat) 
+- ondt i halsen og løbende næse 
+- hævelse af øjenlåget 
+- ubehag ved endetarmsåbningen og endetarmen 
+- mavesmerter, kvalme, opkastning, forstoppelse (mavebesvær) 
+- tør hud 
+- øjensmerter, sløret syn, lysfølsomhed (hornhindebetændelse) 
+- nakkesmerter 
+- knoglesmerter 
+- smerter i arme og ben 
+- tage på i vægt 
+- størknet blod i kateter 
+- unormale blodprøveresultater, hvilket kan fortælle lægen, hvor godt bestemte dele af din krop 
+fungerer: højt niveau af urinsyre </p>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data) 
+- Hævede, smertefulde, røde til mørke rødlig-lilla hudpletter eller sår, som hovedsageligt 
+forekommer på arme, ben, ansigt og hals, og ledsages af feber (tegn på akut febril neutrofil 
+dermatose) </p>
+<p>Nogle bivirkninger hos patienter med ASM, SM-AHN og mastcelleleukæmi kan være alvorlige. 
+Fortæl det straks til lægen, apotekspersonalet eller sygeplejersken, hvis du bemærker noget af 
+følgende:</p>
+<ul>
+<li>svaghed, spontan blødning eller dannelse af blå mærker, hyppige infektioner med tegn som fx 
+feber, kulderystelser, ondt i halsen eller sår i munden (tegn på et lavt niveau af blodceller) </li>
+<li>feber, hoste, besværet eller smertefuld vejrtrækning, hvæsende vejrtrækning, smerter i brystet 
+ved vejrtrækning (tegn på lungebetændelse) </li>
+<li>feber, hoste med eller uden slim, brystsmerter, problemer med at trække vejret eller åndenød 
+(tegn på en type lungesygdom, som ikke stammer fra en infektion (interstitiel 
+lungesygdom/pneumonitis)) </li>
+<li>infektioner, feber, svimmelhed, ørhed, nedsat vandladning, høj puls, hurtig vejrtrækning (tegn 
+på blodforgiftning [sepsis] eller neutropen sepsis) </li>
+<li>opkastning af blod, sort eller blodig afføring (tegn på blødning i mave eller tarm) </li>
+</ul>
+<p>Andre bivirkninger hos patienter med ASM, SM-AHN og mastcelleleukæmi 
+Andre bivirkninger omfatter dem, der er anført nedenfor. Hvis nogen af disse bivirkninger bliver 
+alvorlige, skal du fortælle det til lægen eller apotekspersonalet. </p>
+<p>De fleste af bivirkningerne er lette til moderate og vil normalt forsvinde efter nogle få ugers 
+behandling. </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) 
+- urinvejsinfektion 
+- infektion i øvre luftveje 
+- hovedpine 
+- svimmelhed 
+- åndenød, vejrtrækningsbesvær (dyspnø) 
+- hoste 
+- væskeansamling i lungerne/brystkassens hulrum, hvilket, hvis det bliver alvorligt, kan gøre dig 
+stakåndet (pleuraekssudat) 
+- ændringer i elektrokardiogram (ekg), hvilket kan være en oplysning til din læge om, at du har en 
+uregelmæssighed i dit hjertes elektriske system, også kendt som langt QT-syndrom 
+- næseblod 
+- kvalme, opkastning 
+- diarré 
+- forstoppelse 
+- hævede ben (lægge, ankler) 
+- ekstrem træthed 
+- feber 
+- tørst, høj urinproduktion, mørk urin, tør, rød hud (tegn på højt blodsukker, kendt som 
+hyperglykæmi) 
+- gulfarvning af huden og af øjnene (tegn på for meget bilirubin i blodet) 
+- unormale blodprøveresultater, hvilket er tegn på mulige problemer med bugspytkirtlen (højt 
+niveau af lipase eller amylase) og lever (højt niveau af alaninaminotransferase (ALAT) eller 
+aspartataminotransferase (ASAT)) </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
+- ufrivillige rystelser af kroppen 
+- hoste med slim, smerter i brystet, feber (bronkitis) 
+- forkølelsessår i munden på grund af virusinfektion (oral herpes) 
+- smertefuld og hyppig vandladning (blærebetændelse) 
+- tryk eller smerter i kinderne og panden (bihulebetændelse) 
+- rødt, hævet, smertefuldt udslæt et vilkårligt sted på huden (rosen) 
+- helvedesild (herpes zoster) 
+- opmærksomhedsforstyrrelse 
+- svimmelhed med en snurrende fornemmelse (vertigo) 
+- blå mærker (hæmatomer) 
+- irriteret mave, fordøjelsesbesvær 
+- svaghed (asteni) 
+- kulderystelser 
+- generaliseret hævelse (ødem) 
+- vægtstigning 
+- kontusion (kvæstelser) 
+- fald 
+- svimmelhed, ørhed (lavt blodtryk) 
+- ondt i halsen 
+- hurtig vægtøgning </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rydapt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rydapt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterfolien efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </li>
+<li>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares 
+i den originale yderpakning for at beskytte mod fugt. </li>
+<li>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget, eller hvis der er tegn på, at 
+den har været åbnet. </li>
+<li>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må 
+du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rydapt indeholder:</p>
+<ul>
+<li>Aktivt stof: midostaurin. Hver blød kapsel indeholder 25 mg midostaurin. </li>
+<li>Øvrige indholdsstoffer: ricinusolie, polyoxyleret, hydrogeneret (se venligst “Rydapt indeholder 
+ricinusolie, polyoxyleret, hydrogeneret" i punkt 2), gelatine, macrogol, glycerol, vandfri ethanol 
+(se venligst “Rydapt indeholder vandfri ethanol (alkohol)" i punkt 2), 
+majsolie-mono-di-triglycerider, titandioxid (E 171), all-rac-alfa-tocopherol, gul jernoxid, 
+(E 172), rød jernoxid (E 172), carminer (E 120), hypromellose, propylenglycol, renset vand. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Rydapt 25 mg bløde kapsler (kapsler) er lysorange, aflange kapsler påtrykt “PKC NVR" med rødt. </p>
+<p>Kapslerne fås i blistre og er tilgængelige i pakninger med 56 kapsler (2 pakninger med 28 kapsler) 
+eller 112 kapsler (4 pakninger med 28 kapsler). Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nürnberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-00913882b59a9d04c9763a602ce7c1ae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rydapt Package Leaflet for language en"
+Description: "ePI document Bundle for rydapt Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-00913882b59a9d04c9763a602ce7c1ae"
+* entry[0].resource = composition-en-00913882b59a9d04c9763a602ce7c1ae
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp00913882b59a9d04c9763a602ce7c1ae"
+* entry[=].resource = mp00913882b59a9d04c9763a602ce7c1ae
+                            
+                    
+Instance: bundlepackageleaflet-da-00913882b59a9d04c9763a602ce7c1ae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rydapt Package Leaflet for language da"
+Description: "ePI document Bundle for rydapt Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-00913882b59a9d04c9763a602ce7c1ae"
+* entry[0].resource = composition-da-00913882b59a9d04c9763a602ce7c1ae
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp00913882b59a9d04c9763a602ce7c1ae"
+* entry[=].resource = mp00913882b59a9d04c9763a602ce7c1ae
+                            
+                    
+
+
+
+Instance: mp00913882b59a9d04c9763a602ce7c1ae
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Rydapt 25 mg soft capsules"
-Description: "Rydapt 25 mg soft capsules"
+Title: "Medicinal Product rydapt"
+Description: "rydapt"
 Usage: #inline
 
  
@@ -540,7 +1141,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Rydapt 25 mg soft capsules"
+  * productName = "rydapt"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -567,29 +1168,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-00913882b59a9d04c9763a602ce7c1ae
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rydapt Package Leaflet for language en"
-Description: "ePI document Bundle for rydapt Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 00913882b59a9d04c9763a602ce7c1aeListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1218/001-002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rydapt"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-00913882b59a9d04c9763a602ce7c1ae"
-* entry[0].resource = composition-en-00913882b59a9d04c9763a602ce7c1ae
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7abb412b59dd8c5704de90f99e9789ad"
-* entry[=].resource = mp7abb412b59dd8c5704de90f99e9789ad
-                            
-                      
+* title = "List of all ePIs associated with rydapt"
+
+* subject = Reference(mp7abb412b59dd8c5704de90f99e9789ad)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rydapt "rydapt"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-00913882b59a9d04c9763a602ce7c1ae) // rydapt en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-00913882b59a9d04c9763a602ce7c1ae) // rydapt da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-00913882b59a9d04c9763a602ce7c1ae
+InstanceOf: List
+
+* insert 00913882b59a9d04c9763a602ce7c1aeListRuleset
+    

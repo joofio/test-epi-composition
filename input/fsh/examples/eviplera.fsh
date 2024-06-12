@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-88027b29b9aee30b33b41e1a72006b30
 InstanceOf: CompositionUvEpi
 Title: "Composition for eviplera Package Leaflet"
@@ -578,12 +581,687 @@ Tel: + 44 (0) 8000 113 This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-88027b29b9aee30b33b41e1a72006b30
+InstanceOf: CompositionUvEpi
+Title: "Composition for eviplera Package Leaflet"
+Description:  "Composition for eviplera Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpedba13f69ff3db66a12d23dc6a988643)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpedba13f69ff3db66a12d23dc6a988643
+* title = "TEST PURPOSES ONLY - eviplera"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Eviplera </li>
+<li>Sådan skal De tage Eviplera </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What eviplera is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What eviplera is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Eviplera indeholder tre aktive stoffer, der anvendes til behandling af infektion med humant 
+immundefektvirus (hiv): </p>
+<p>Emtricitabin, en nukleosid revers transkriptasehæmmer (NRTI). 
+Rilpivirin, en non-nukleosid revers transkriptasehæmmer (NNRTI). 
+Tenofovirdisoproxil, en nukleotid revers transkriptasehæmmer (NtRTI). </p>
+<p>Hvert af disse aktive stoffer, der også kaldes antiretroviral medicin, virker ved at påvirke et enzym 
+(et protein, der kaldes ‘revers transkriptase’), der er essentielt for, at virus kan mangfoldiggøres. </p>
+<p>Eviplera nedsætter mængden af hiv i Deres krop. Dette vil forbedre Deres immunsystem og nedsætte 
+risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p>
+<p>Eviplera anvendes til behandling af infektion med humant immundefektvirus (hiv) hos voksne i 
+alderen 18 år og derover. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take eviplera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take eviplera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Eviplera </p>
+<p>Hvis De er overfølsom over for emtricitabin, rilpivirin, tenofovirdisoproxil, eller et af de øvrige 
+indholdsstoffer i Eviplera (angivet i punkt 6 i denne indlægsseddel). </p>
+<p> Hvis dette gælder for Dem, skal De omgående fortælle Deres læge det. </p>
+<p>Hvis De aktuelt tager nogle af de følgende former for medicin </p>
+<ul>
+<li>
+<p>carbamazepin, oxcarbazepin, phenobarbital og phenytoin (medicin til behandling af 
+epilepsi og til at forebygge krampeanfald) </p>
+</li>
+<li>
+<p>rifampicin og rifapentin (anvendes til behandling af visse bakterieinfektioner, såsom 
+tuberkulose) </p>
+</li>
+<li>
+<p>omeprazol, lansoprazol, rabeprazol, pantoprazol og esomeprazol 
+(protonpumpehæmmere, der er medicin til forebyggelse og behandling af mavesår, 
+halsbrand, sure opstød (reflukssygdom)) </p>
+</li>
+<li>
+<p>dexamethason (et binyrebarkhormon, der anvendes til behandling af betændelse og til 
+undertrykkelse af immunsystemet), når det tages gennem munden eller injiceres 
+(undtagen som en enkeltdosisbehandling). </p>
+</li>
+<li>
+<p>præparater, der indeholder perikon (Hypericum perforatum) (naturmedicin mod 
+depression og angst) </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>De skal fortsætte med at være under lægens opsyn, mens De tager Eviplera. </p>
+<p>Denne medicin kan ikke helbrede hiv-infektion. Mens De tager Eviplera, kan De stadig udvikle 
+infektioner eller andre sygdomme, der er forbundet med hiv-infektion. </p>
+<p>Fortæl Deres læge, hvis De har haft en nyresygdom, eller hvis undersøgelser har vist 
+nyreproblemer. Eviplera kan have indvirkning på Deres nyrer. Før og under behandlingen kan Deres 
+læge bestille blodprøver for at måle nyrefunktionen. Eviplera frarådes, hvis De har moderat til svær 
+nyresygdom. </p>
+<p>Eviplera tages normalt ikke sammen med anden medicin, som kan skade Deres nyrer (se Brug 
+af anden medicin sammen med Eviplera). Hvis dette ikke kan undgås, vil Deres læge overvåge 
+Deres nyrefunktion en gang om ugen. </p>
+<p>Tal med lægen, hvis De har haft en leversygdom, herunder leverbetændelse (hepatitis). Hiv-
+patienter med leversygdom (herunder kronisk hepatitis B eller C), som behandles med antiretrovirale 
+lægemidler, har en højere risiko for alvorlige og potentielt dødelige leverkomplikationer. Hvis De har 
+hepatitis B, vil Deres læge nøje overveje den bedste behandling til Dem. To af de aktive stoffer i 
+Eviplera (tenofovirdisoproxil og emtricitabin) viser nogen aktivitet mod hepatitis B-virus. Hvis De har 
+haft en leversygdom eller kronisk hepatitis B-infektion, kan Deres læge tage blodprøver for at 
+overvåge leverfunktionen. </p>
+<p>Hvis De har en hepatitis B-infektion, kan Deres leverproblemer blive værre, efter De holder op 
+med at tage Eviplera. Det er vigtigt ikke at holde op med at tage Eviplera uden at tale med 
+lægen: se punkt 3, Hold ikke op med at tage Eviplera. </p>
+<p>Fortæl det straks til lægen og hold op med at tage Eviplera, hvis De udvikler hududslæt med 
+følgende symptomer: feber, blærer, røde øjne og hævelse af ansigt, mund eller krop. Dette kan 
+blive alvorligt eller muligvis livstruende. </p>
+<p>Tal med lægen, hvis De er over 65 år. Der er ikke undersøgt tilstrækkeligt mange patienter over 
+65 år. Hvis De er over 65 år og får ordineret Eviplera, vil Deres læge overvåge Dem nøje. </p>
+<p>Mens De tager Eviplera </p>
+<p>Når De begynder med at tage Eviplera, skal De holde øje med: </p>
+<p>ethvert tegn på betændelse eller infektion 
+knogleproblemer (som viser sig som vedvarende eller forværrede knoglesmerter og nogle gange 
+resulterer i knoglebrud) kan også forekomme på grund af skader på celler i nyrerne (de tubulære 
+celler) (se pkt. 4, Bivirkninger). Fortæl Deres læge, hvis De har knoglesmerter eller brud. </p>
+<p>Tenofovirdisoproxil (et indholdsstof i Eviplera) kan også forårsage tab af knoglemasse. 
+Tenofovirdisoproxils virkning på langsigtet knoglesundhed og fremtidig risiko for brud hos 
+voksne patienter er uvis. Fortæl Deres læge, hvis De ved, at De lider af osteoporose. Patienter 
+med osteoporose har højere risiko for brud. </p>
+<p> Hvis De bemærker nogle af disse symptomer, skal De straks fortælle det til lægen. </p>
+<p>Børn og unge </p>
+<p>Denne medicin må ikke gives til børn og teenagere under 18 år. </p>
+<p>Brug af anden medicin sammen med Eviplera </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis De tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Dette gælder også medicin, som ikke er 
+købt på recept, f.eks. naturlægemidler og vitaminer og mineraler. </p>
+<p>Fortæl det til lægen, hvis De tager nogle af de følgende: </p>
+<p>Al anden medicin, der indeholder: </p>
+<ul>
+<li>
+<p>emtricitabin </p>
+</li>
+<li>
+<p>rilpivirin </p>
+</li>
+<li>
+<p>tenofovirdisoproxil </p>
+</li>
+<li>
+<p>tenofoviralafenamid </p>
+</li>
+<li>
+<p>anden antiviral medicin, der indeholder lamivudin eller adefovirdipivoxil </p>
+</li>
+</ul>
+<p>Eviplera kan påvirke anden medicin. Som et resultat heraf kan mængden af Eviplera eller anden 
+medicin i Deres blod påvirkes. Dette kan forhindre, at Deres medicin virker korrekt, eller det kan gøre 
+bivirkninger værre. I nogle tilfælde kan det være nødvendigt, at lægen justerer Deres dosis eller 
+kontrollerer Deres blodniveau. </p>
+<p>Medicin, der kan beskadige Deres nyrer, eksempler herpå omfatter: </p>
+<ul>
+<li>
+<p>aminoglykosider (såsom streptomycin, neomycin og gentamicin), vancomycin (mod 
+bakterieinfektioner) </p>
+</li>
+<li>
+<p>foscarnet, ganciclovir, cidofovir (mod virusinfektioner) </p>
+</li>
+<li>
+<p>amphotericin B, pentamidin (mod svampeinfektioner) </p>
+</li>
+<li>
+<p>interleukin-2 også kaldet aldesleukin (til behandling af kræft) </p>
+</li>
+<li>
+<p>non-steroide antiinflammatoriske midler (NSAID’er, til at lindre knogle- eller 
+muskelsmerter) </p>
+</li>
+</ul>
+<p>Medicin, som indeholder didanosin (mod hiv-infektion): Hvis De tager Eviplera sammen med 
+anden antiviral medicin, som indeholder didanosin, kan det øge indholdet af didanosin i blodet og 
+reducere CD4+-celletallet. Der er rapporteret om sjældne tilfælde af betændelse i bygspytkirtlen og 
+laktatacidose (overskud af mælkesyre i blodet), der somme tider medførte dødsfald, når medicin, der 
+indeholder tenofovirdisoproxil og didanosin, blev indtaget samtidigt. Deres læge vil nøje tage stilling 
+til om, det er nødvendigt at behandle Dem med anden medicin, der anvendes til behandling af hiv-
+infektion (se Anden medicin anvendt til hiv-infektion). </p>
+<p>Anden medicin anvendt til hiv-infektion: Non-nukleoside reverse transkriptasehæmmere 
+(NNRTI’er). Eviplera indeholder en NNRTI (rilpivirin) og derfor må Eviplera ikke kombineres med 
+anden medicin af denne type. Deres læge vil diskutere en anden medicin med Dem, hvis det er 
+nødvendigt. </p>
+<p>Rifabutin, medicin til behandling af visse bakterieinfektioner. Rifabutin kan nedsætte mængden af 
+rilpivirin (et aktivt stof i Eviplera) i Deres blod. Det kan være nødvendigt, at Deres læge giver Dem en 
+yderligere dosis rilpivirin til behandling af Deres hiv-infektion (se punkt 3, Sådan skal De tage 
+Eviplera). </p>
+<p>Antibiotika, der anvendes til at behandle bakterieinfektioner, herunder tuberkulose, indeholdende: </p>
+<ul>
+<li>
+<p>clarithromycin </p>
+</li>
+<li>
+<p>erythromycin 
+Disse former for medicin kan øge mængden af rilpivirin (en komponent i Eviplera) i Deres blod. 
+Det kan være nødvendigt for Deres læge at ændre antibiotika-dosis, eller give Dem et andet 
+antibiotikum. </p>
+</li>
+</ul>
+<p>Medicin mod mavesår, halsbrand eller sure opstød (reflukssygdom), såsom: </p>
+<ul>
+<li>
+<p>syreneutraliserende medicin (aluminium-/magnesiumhydroxid eller calciumcarbonat) </p>
+</li>
+<li>
+<p>H2-antagonister (famotidin, cimetidin, nizatidin eller ranitidin) 
+Disse former for medicin kan nedsætte mængden af rilpivirin (en komponent i Eviplera) i Deres 
+blod. Hvis De tager en af disse former for medicin, vil Deres læge enten give Dem en anden 
+form for medicin mod mavesår, halsbrand eller sure opstød (reflukssygdom), eller anbefale 
+hvordan og hvornår De skal tage den medicin. </p>
+</li>
+</ul>
+<p>Hvis De tager syreneutraliserende medicin (som for eksempel lægemidler, der indeholder 
+magnesium eller kalium), skal De tage den mindst 2 timer før eller mindst 4 timer efter Eviplera (se 
+punkt 3, Sådan skal De tage Eviplera). </p>
+<p>Hvis De tager en H2-antagonist (som også anvendes som behandling mod mavesyre eller sure 
+opstød), skal De tage den mindst 12 timer før eller mindst 4 timer efter Eviplera. H2-antagonister kan 
+kun tages én gang dagligt, hvis De tager Eviplera. H2-antagonister bør ikke tages i et program med 
+indtagelse to gange dagligt. Tal med lægen om et alternativt program (se punkt 3, Sådan skal De tage 
+Eviplera). </p>
+<p>Methadon, medicin til behandling af opiat-afhængighed, da det kan være nødvendigt, at lægen ændrer 
+Deres methadondosis. </p>
+<p>Dabigatranetexilat, medicin, der bruges i forbindelse med behandling af hjertesygdomme, da det kan 
+være nødvendigt, at lægen kontrollerer niveauet af denne medicin i Deres blod. </p>
+<p> Fortæl det til lægen, hvis De tager nogle af disse former for medicin. Afbryd ikke behandlingen 
+uden først at kontakte Deres læge. </p>
+<p>Graviditet og amning </p>
+<p>Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<p>Anvend effektiv prævention mens De tager Eviplera. 
+Fortæl det straks til lægen, hvis De bliver gravid eller planlægger at blive gravid. Gravide 
+kvinder bør drøfte anvendelsen af Eviplera med lægen. Deres læge vil drøfte de potentielle fordele og 
+risici ved at tage Eviplera med Dem og Deres barn. 
+Hvis De har taget Eviplera under Deres graviditet, kan lægen anmode om regelmæssige blodprøver 
+og andre diagnostiske undersøgelser for at overvåge barnets udvikling. For de børn, hvis mødre har 
+taget NRTI’er i løbet af graviditeten, opvejede fordelen ved beskyttelse mod hiv risikoen ved 
+bivirkningerne. </p>
+<p>De må ikke amme, mens De er i behandling med Eviplera. Dette skyldes, at de aktive stoffer i 
+denne medicin udskilles i mælken hos mennesker. </p>
+<p>Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken. </p>
+<p>Hvis De ammer eller påtænker at amme, bør De drøfte det med lægen hurtigst muligt. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Før ikke motorkøretøj og lad være med at betjene maskiner, hvis De bliver træt, søvnig eller svimmel, 
+efter De har taget Deres medicin. </p>
+<p>Eviplera indeholder lactose, Sunset yellow FCF aluminium lak (E110) og natrium </p>
+<p>Kontakt Deres læge før De tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter. 
+Fortæl Deres læge, hvis De lider af allergi over for Sunset yellow FCF aluminium lak (E110). 
+Eviplera indeholder Sunset yellow FCF aluminium lak, som også kaldes „E110", der kan medføre 
+allergiske reaktioner. 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take eviplera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take eviplera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den sædvanlige dosis er en tablet, der tages hver dag gennem munden. Tabletten skal tages 
+sammen med mad. Dette er vigtigt for at opnå det rigtige niveau af de aktive stoffer i kroppen. En 
+ernæringsdrik alene kan ikke erstatte mad. </p>
+<p>Slug tabletten hel med vand. </p>
+<p>Tabletten må ikke tygges, knuses eller deles - hvis De gør det, kan det påvirke den måde, hvorpå 
+medicinen frigives i kroppen. </p>
+<p>Hvis Deres læge beslutter at ophøre med at give et af indholdsstofferne i Eviplera eller ændre 
+Evipleras dosis, kan De få emtricitabin, rilpivirin og/eller tenofovirdisoproxil hver for sig eller 
+sammen med anden medicin til behandling af hiv-infektion. </p>
+<p>Hvis De tager et syreneutraliserende middel som for eksempel lægemidler, der indeholder 
+magnesium eller kalium. Tag det mindst 2 timer før eller mindst 4 timer efter Eviplera. </p>
+<p>Hvis De tager en H2-antagonist, såsom famotidin, cimetidin, nizatidin eller ranitidin. Tag det mindst 
+12 timer før eller mindst 4 timer efter Eviplera. H2-antagonister må kun tages én gang dagligt, hvis De 
+tager Eviplera. H2-antagonister bør ikke tages to gange dagligt. Tal med lægen om et alternativt 
+program. </p>
+<p>Hvis De tager rifabutin. Det kan være nødvendigt, at Deres læge giver Dem en yderligere dosis 
+rilpivirin. Tag rilpivirin-tabletten samtidigt med Eviplera. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvis De har taget for meget Eviplera </p>
+<p>Hvis De ved et uheld tager mere end den anbefalede dosis Eviplera, kan De have større risiko for at få 
+bivirkninger med denne medicin (se pkt. 4, Bivirkninger). </p>
+<p>Kontakt straks lægen eller den nærmeste skadestue for at få råd. Tag tabletbeholderen med, så De let 
+kan vise, hvad De har taget. </p>
+<p>Hvis De har glemt at tage Eviplera </p>
+<p>Det er vigtigt, at De husker at tage hver dosis af Eviplera. </p>
+<p>Hvis De ikke tager en dosis: 
+Hvis De kommer i tanker om det inden for 12 timer efter det tidspunkt, De normalt tager Eviplera 
+på, skal De tage tabletten så hurtigt som muligt. Tag altid tabletten sammen med mad, Derefter tages 
+den næste dosis som sædvanligt. 
+Hvis De kommer i tanker om det efter 12 timer eller længere fra det tidspunkt, De normalt tager 
+Eviplera på, skal De ikke tage den glemte dosis. Vent og tag den næste dosis sammen med mad til 
+sædvanlig tid. </p>
+<p>Hvis De kaster op mindre end 4 timer efter, De har taget Eviplera, skal De tage en ny tablet 
+sammen med mad. Hvis De kaster op mere end 4 timer efter, De har taget Eviplera, behøver De 
+ikke tage en ny tablet, før Deres næste regelmæssigt skemalagte tablet. </p>
+<p>Hold ikke op med at tage Eviplera </p>
+<p>Hold ikke op med at tage Eviplera uden at tale med Deres læge. Hvis De holder op med at tage 
+Eviplera, kan det i alvorlig grad påvirke Deres reaktion på fremtidig behandling. Hvis Eviplera uanset 
+årsagen stoppes, skal De tale med Deres læge, før De igen begynder at tage Eviplera tabletter. Deres 
+læge kan overveje at give Dem komponenterne i Eviplera separat, hvis De har problemer eller har 
+behov for at Deres dosis bliver justeret. </p>
+<p>Når De snart ikke har mere af Eviplera, skal De bede om mere fra lægen eller på apoteket. Dette er 
+meget vigtigt, da virusmængden igen kan begynde at stige, hvis medicinen stoppes, selv i kort tid. 
+Virus kan så blive sværere at behandle. </p>
+<p>Hvis De har hiv-infektion og hepatitis B, er det særlig vigtigt ikke at ophøre med Eviplera-
+behandlingen uden først at konsultere Deres læge. Nogle patienter har fået taget blodprøver eller har 
+symptomer, som viser, at deres hepatitis er forværret efter ophør med emtricitabin eller 
+tenofovirdisoproxil (to af de tre aktive stoffer i Eviplera. Hvis Eviplera stoppes, kan Deres læge 
+anbefale, at De igen påbegynder hepatitis B-behandling. Det kan være nødvendigt at få taget 
+blodprøver for at kontrollere, hvordan Deres lever virker i 4 måneder efter ophør med behandlingen. 
+Hos nogle patienter med fremskreden leversygdom eller cirrose bør behandlingen ikke ophøre, fordi 
+det kan medføre en forværring af Deres hepatitis, hvilket kan være livstruende. </p>
+<p> Bemærker De nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal De 
+omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, som De normalt 
+ville forbinde med hepatitis B-infektion. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Mulige bivirkninger: Fortæl det straks til lægen 
+Laktatacidose (for meget mælkesyre i blodet) er en sjælden, men muligvis livstruende bivirkning ved 
+nogle former for hiv-medicin. Laktatacidose forekommer hyppigere hos kvinder - især hvis de er 
+overvægtige, og hos personer med leversygdom. Følgende kan være tegn på laktatacidose: </p>
+<ul>
+<li>
+<p>Dyb, hurtig vejrtrækning </p>
+</li>
+<li>
+<p>Træthed eller døsighed </p>
+</li>
+<li>
+<p>Kvalme, opkastning </p>
+</li>
+<li>
+<p>Mavesmerter 
+ Hvis De tror, De har laktatacidose, skal De straks fortælle det til lægen. </p>
+</li>
+</ul>
+<p>Ethvert tegn på betændelse eller infektion. Hos nogle patienter med fremskreden hiv-infektion 
+(aids) og tidligere opportunistiske infektioner (infektioner, der forekommer hos personer med et svagt 
+immunsystem) kan der forekomme tegn og symptomer på betændelse fra tidligere infektioner kort tid 
+efter behandlingen mod hiv startes. Det menes, at disse symptomer skyldes en forbedring af kroppens 
+immunreaktion, hvilket gør kroppen i stand til at bekæmpe infektioner, der kan have været til stede 
+uden nogen tydelige symptomer. </p>
+<p>Ud over de opportunistiske infektioner kan autoimmune lidelser (skyldes, at immunsystemet angriber 
+sundt kropsvæv) også opstå, efter du er begyndt at tage medicin til behandling af din hiv-infektion. 
+Autoimmune lidelser kan opstå mange måneder efter, du er påbegyndt behandling. Du skal straks 
+informere din læge for at få den nødvendige behandling, hvis du bemærker symptomer på infektion 
+eller andre symptomer, såsom muskelsvaghed, svaghed begyndende i hænder og fødder, og som 
+bevæger sig op igennem kroppen, hjertebanken, rysten eller hyperaktivitet. 
+ Hvis De bemærker nogle symptomer på betændelse eller infektion, skal De straks fortælle det 
+til lægen. </p>
+<p>Meget almindelige bivirkninger 
+(kan opstå hos mere end 1 ud af 10 personer) 
+Diarré, opkastning, kvalme 
+Søvnbesvær 
+Svimmelhed, hovedpine 
+Udslæt 
+Svaghedsfølelse </p>
+<p>Prøver kan også vise: 
+Fald i phosphatniveauet i blodet 
+Forhøjet kreatinkinase-niveau i blodet, hvilket kan resultere i muskelsmerter og muskelsvaghed 
+Forhøjet kolesterol og/eller pancreas-amylase (fra bugspytkirtlen) i blodet 
+Forhøjede leverenzym-niveauer i blodet 
+ Hvis nogle af bivirkningerne bliver alvorlige, skal De fortælle det til lægen. </p>
+<p>Almindelige bivirkninger 
+(kan opstå hos op til 1 ud af 10 personer) 
+Nedsat appetit 
+Depression og nedtrykthed 
+Træthed, følelse af søvnighed (somnolens) 
+Døsighed 
+Smerter, mavesmerter eller mavebesvær, oppustethed, mundtørhed 
+Unormale drømme, søvnforstyrrelser 
+Problemer med fordøjelsen, som resulterer i ubehag efter måltider, afgang af tarmluft (flatulens) 
+Udslæt (inklusive røde pletter eller skjolder, undertiden med blærer eller hævelse af huden), som kan 
+være allergiske reaktioner, kløe, ændringer i hudfarven, herunder pletvis mørkfarvning af huden 
+Andre allergiske reaktioner som piben i lungerne, hævelser eller følelse af svimmelhed </p>
+<p>Prøver kan også vise: 
+Lavt antal hvide blodlegemer (et nedsat antal hvide blodlegemer kan gøre Dem mere modtagelig over 
+for infektion) 
+Lavt antal blodplader (en type blodceller, der er involveret i blodets størkning) 
+Mindre hæmoglobin i blodet (et lavt antal røde blodlegemer) 
+Forhøjet niveau af fedtsyrer (triglycerider), bilirubin eller sukker i blodet 
+Problemer med bugspytkirtlen 
+ Hvis nogle af bivirkningerne bliver alvorlige, skal De fortælle det til lægen. </p>
+<p>Ikke almindelige bivirkninger 
+(kan opstå hos op til 1 ud af 100 personer) 
+Anæmi (lavt antal røde blodlegemer) 
+Smerter i abdomen (maven), forårsaget af betændelse i bugspytkirtlen 
+Muskelnedbrydning, muskelsmerter eller muskelsvaghed 
+Hævelse af ansigt, læber, tunge eller svælg 
+Tegn eller symptomer på betændelse eller infektion 
+Alvorlige hudreaktioner, herunder udslæt ledsaget af feber, hævelse og leverproblemer 
+Beskadigelse af celler i nyrerne (de tubulære celler) </p>
+<p>Prøver kan også vise: 
+Fald i blodets kaliumniveau 
+Øget kreatinin i blodet 
+Ændringer i urinen 
+ Hvis nogle af bivirkningerne bliver alvorlige, skal De fortælle det til lægen. </p>
+<p>Sjældne bivirkninger 
+(kan opstå hos op til 1 ud af 1.000 personer) 
+Laktatacidose (se Bivirkninger: Fortæl det straks til lægen) 
+Rygsmerter på grund af nyreproblemer, inklusive nyresvigt. Deres læge kan tage blodprøver for at se, 
+om Deres nyrer fungerer ordentligt. 
+Fedtlever 
+Gul hud eller gule øjne, kløe eller mavesmerter på grund af betændelse i leveren 
+Nyrebetændelse, udskillelse af store mængder urin og en fornemmelse af at være tørstig 
+Kalktab fra knoglerne (med knoglesmerter; kan nogle gange resultere i knoglebrud) </p>
+<p>Nedbrydning af muskelvæv, kalktab fra knoglerne (med knoglesmerter; kan nogle gange resultere i 
+knoglebrud), muskelsmerter, muskelsvaghed og fald i blodets kalium- eller phosphatniveau kan 
+indtræde som følge af beskadigelse af de tubulære celler i nyrerne. </p>
+<p> Hvis nogle af bivirkningerne bliver alvorlige, skal De fortælle det til lægen. </p>
+<p>Andre bivirkninger, der kan forekomme under hiv-behandling </p>
+<p>Hyppigheden af de følgende bivirkninger er ikke kendt (hyppigheden kan ikke estimeres ud fra 
+forhåndenværende data). </p>
+<p>Knogleproblemer. Nogle patienter, der tager antiretroviral kombinationsmedicin, såsom Eviplera, kan 
+udvikle en knoglesygdom, der kaldes osteonekrose (knoglevævsdød, forårsaget af manglende 
+blodforsyning til knoglerne). Indtagelse af denne type medicin i lang tid, indtagelse af 
+binyrebarkhormoner, indtagelse af alkohol, et meget svagt immunsystem og overvægt kan være nogle 
+af de mange risikofaktorer for at udvikle denne sygdom. Tegn på osteonekrose er: </p>
+<ul>
+<li>
+<p>Stivhed i led </p>
+</li>
+<li>
+<p>Smerter (især i hofter, knæ og skuldre) </p>
+</li>
+<li>
+<p>Bevægelsesbesvær 
+ Hvis De bemærker nogle af disse symptomer, skal De fortælle det til lægen. </p>
+</li>
+</ul>
+<p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose i 
+blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse ændringer. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store eviplera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store eviplera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på tabletbeholderen og kartonen efter Exp. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. Hold tabletbeholderen tæt tillukket. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Eviplera indeholder: </p>
+<p>Aktive stoffer: emtricitabin, rilpivirin og tenofovirdisoproxil. Hver Eviplera filmovertrukket tablet 
+indeholder 200 mg emtricitabin, 25 mg rilpivirin (som hydrochlorid) og 245 mg tenofovirdisoproxil 
+(som fumarat). </p>
+<p>Øvrige indholdsstoffer: 
+Tabletkerne: 
+Mikrokrystallinsk cellulose, lactosemonohydrat, povidon, pregelatineret majsstivelse, 
+polysorbat 20, croscarmellosenatrium og magnesiumstearat. </p>
+<p>Filmovertræk: 
+Hypromellose, indigocarmin aluminiumpigment, lactosemonohydrat, polyethylenglycol, rød 
+jernoxid, Sunset yellow FCF aluminium lak (E110), titandioxid og triacetin. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Eviplera er en lilla-lyserød, kapselformet filmovertrukket tablet, præget på den ene side med „GSI" og 
+glat på den anden side. Eviplera leveres i tabletbeholdere, der indeholder 30 tabletter, og i pakninger, 
+der består af 3 tabletbeholdere, der hver indeholder 30 tabletter. Hver tabletbeholder indeholder 
+silicagel-tørremiddel, der skal blive i tabletbeholderen, for at beskytte dine tabletter. Silicagel-
+tørremidlet er i et separat brev eller en separat beholder og må ikke sluges. </p>
+<p>Begge pakningsstørrelser er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrland </p>
+<p>Fremstiller 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél : + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18 00  </p>
+<p>Ireland 
+Gilead Sciences Ireland UC 
+Tel: +353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421  232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-88027b29b9aee30b33b41e1a72006b30
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for eviplera Package Leaflet for language en"
+Description: "ePI document Bundle for eviplera Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-88027b29b9aee30b33b41e1a72006b30"
+* entry[0].resource = composition-en-88027b29b9aee30b33b41e1a72006b30
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp88027b29b9aee30b33b41e1a72006b30"
+* entry[=].resource = mp88027b29b9aee30b33b41e1a72006b30
+                            
+                    
+Instance: bundlepackageleaflet-da-88027b29b9aee30b33b41e1a72006b30
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for eviplera Package Leaflet for language da"
+Description: "ePI document Bundle for eviplera Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-88027b29b9aee30b33b41e1a72006b30"
+* entry[0].resource = composition-da-88027b29b9aee30b33b41e1a72006b30
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp88027b29b9aee30b33b41e1a72006b30"
+* entry[=].resource = mp88027b29b9aee30b33b41e1a72006b30
+                            
+                    
+
+
+
+Instance: mp88027b29b9aee30b33b41e1a72006b30
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Eviplera 200 mg/25 mg/245 mg film-coated tablets"
-Description: "Eviplera 200 mg/25 mg/245 mg film-coated tablets"
+Title: "Medicinal Product eviplera"
+Description: "eviplera"
 Usage: #inline
 
  
@@ -603,7 +1281,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Eviplera 200 mg/25 mg/245 mg film-coated tablets"
+  * productName = "eviplera"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -630,29 +1308,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-88027b29b9aee30b33b41e1a72006b30
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for eviplera Package Leaflet for language en"
-Description: "ePI document Bundle for eviplera Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 88027b29b9aee30b33b41e1a72006b30ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/737/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "eviplera"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-88027b29b9aee30b33b41e1a72006b30"
-* entry[0].resource = composition-en-88027b29b9aee30b33b41e1a72006b30
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpedba13f69ff3db66a12d23dc6a988643"
-* entry[=].resource = mpedba13f69ff3db66a12d23dc6a988643
-                            
-                      
+* title = "List of all ePIs associated with eviplera"
+
+* subject = Reference(mpedba13f69ff3db66a12d23dc6a988643)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#eviplera "eviplera"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-88027b29b9aee30b33b41e1a72006b30) // eviplera en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-88027b29b9aee30b33b41e1a72006b30) // eviplera da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-88027b29b9aee30b33b41e1a72006b30
+InstanceOf: List
+
+* insert 88027b29b9aee30b33b41e1a72006b30ListRuleset
+    

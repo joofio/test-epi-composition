@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-29e53310e209535224a929c7efb5c5b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for jayempi Package Leaflet"
@@ -498,12 +501,792 @@ F91 DIreland </p>
 
 
 
+Instance: composition-da-29e53310e209535224a929c7efb5c5b7
+InstanceOf: CompositionUvEpi
+Title: "Composition for jayempi Package Leaflet"
+Description:  "Composition for jayempi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3c522152a0fb4a31a025f0e8faea371b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3c522152a0fb4a31a025f0e8faea371b
+* title = "TEST PURPOSES ONLY - jayempi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Jayempi </li>
+<li>Sådan skal du tage Jayempi </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What jayempi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What jayempi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jayempi 10 mg/ml oral suspension indeholder det aktive stof azathioprin. Det tilhører en gruppe af 
+lægemidler kaldet immunsuppressiva. </p>
+<p>Disse lægemidler reducerer aktiviteten i dit immunsystem (kroppens naturlige forsvar). </p>
+<p>Jayempi anvendes til at: </p>
+<ul>
+<li>
+<p>forhindre, at din krop afstøder et transplanteret organ. Jayempi anvendes typisk sammen med 
+andre immundæmpende lægemidler til dette formål </p>
+</li>
+<li>
+<p>behandle visse langvarige sygdomme, hvor dit immunsystem reagerer mod kroppen. Jayempi 
+anvendes typisk i kombination med steroider eller andre antiinflammatoriske lægemidler. Disse 
+sygdomme omfatter:</p>
+</li>
+<li>
+<p>Svær reumatoid artritis eller kronisk polyartritis (leddegigt med kronisk betændelse i flere 
+led), der ikke kan reguleres med andre lægemidler </p>
+</li>
+<li>Kronisk inflammatorisk tarmsygdom (f.eks. Crohns sygdom og colitis ulcerosa) </li>
+<li>Kronisk hepatitis (autoimmun hepatitis), en leversygdom </li>
+<li>Systemisk lupus erythematosus (en sygdom, hvor immunsystemet angriber forskellige 
+organer) </li>
+<li>Dermatomyositis (tiltagende muskelbetændelse med hududslæt) </li>
+<li>Polyarteritis nodosa (betændelse i pulsårerne) </li>
+<li>Pemfigus vulgaris og bulløs pemfigoid (sygdomme med blæredannelse i huden) </li>
+<li>Behçets sygdom (tilbagevendende betændelse, især i øjne og slimhinder i mund og 
+kønsorganer) </li>
+<li>Refraktær autoimmun hæmolytisk anæmi (en blodsygdom, hvor de røde blodlegemer 
+ødelægges) </li>
+<li>
+<p>Kronisk refraktær idiopatisk trombocytopenisk purpura (blødning under huden forårsaget af 
+skade på blodplader og nedsat antal blodplader) </p>
+</li>
+<li>
+<p>behandle tilbagevendende multipel sklerose </p>
+</li>
+<li>
+<p>behandle generaliseret myasthenia gravis (en sygdom, der påvirker nerverne og giver 
+muskelsvaghed). I nogle tilfælde gives Jayempi sammen med et steroid ved behandlingsstart. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take jayempi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take jayempi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Jayempi </p>
+<ul>
+<li>hvis du er allergisk over for azathioprin, mercaptopurin (et andet lægemiddel) eller et af de 
+øvrige indholdsstoffer i Jayempi (angivet i punkt 6)  </li>
+<li>hvis du ammer </li>
+<li>hvis du for nylig er blevet vaccineret med en levende vaccine mod f.eks. tuberkulose (BCG), 
+skoldkopper, MMR eller gul feber. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du tager Jayempi:</p>
+<ul>
+<li>hvis du har en alvorlig infektion </li>
+<li>hvis du har en alvorlig leversygdom </li>
+<li>hvis du har en sygdom i knoglemarven eller bugspytkirtlen </li>
+<li>hvis du har sygdommen Lesch-Nyhans syndrom (arvelig mangel på enzymet hypoxanthin--
+guanin-fosforibosyltransferase) </li>
+<li>hvis du har en tilstand, hvor kroppen producerer for lidt af enzymet thiopurinmethyltransferase 
+(TPMT) </li>
+<li>hvis du tager lægemidler som f.eks. mesalazin, olsalazin eller sulfasalazin (til behandling af -
+inflammatorisk tarmsygdom) </li>
+<li>hvis du tager lægemidler, der påvirker knoglemarvsfunktionen (dannelse af blodlegemer), f.eks. 
+penicillamin og cytotoksiske lægemidler. </li>
+</ul>
+<p>Hvis du bemærker uforklarlige blå mærker eller blødninger under behandlingen, eller hvis du 
+har tegn på infektion, skal du kontakte lægen med det samme. </p>
+<p>Infektioner </p>
+<p>Behandling med Jayempi øger risikoen for infektioner, og disse infektioner kan blive alvorlige (se 
+også pkt. 4). 
+Da skoldkopper (forårsaget af varicella zoster-virus) kan være alvorligt, når du tager Jayempi, bør du 
+undgå kontakt med personer, der har skoldkopper (varicella) eller helvedesild (herpes zoster). 
+Sig det til lægen, hvis du har kontakt med nogen, der har skoldkopper eller helvedesild. 
+Lægen vil vurdere, om du skal have antiviral behandling, og om du bør holde op med at tage Jayempi. </p>
+<p>Blodprøver </p>
+<p>Du skal have taget en blodprøve for at tjekke dit blodtal mindst en gang om ugen i de første 8 uger af 
+behandlingen. Du skal måske have taget blodprøve oftere, hvis du:</p>
+<ul>
+<li>tager høje doser Jayempi </li>
+<li>er ældre </li>
+<li>har en nyre- eller leversygdom. </li>
+</ul>
+<p>Efter 8 uger skal dit blodtal tjekkes en gang om måneden eller i hvert fald hver 3. måned. </p>
+<p>NUDT15-genmutation 
+Hvis du har en arvelig mutation i NUDT15-genet (et gen, der indgår i nedbrydningen af azathioprin i 
+kroppen), har du højere risiko for infektioner og hårtab, og lægen kan i så fald give dig en lavere dosis. 
+Din læge kan også bede dig om at få taget en blodprøve for at tjekke, hvor godt din krop vil være i 
+stand til at nedbryde lægemidlet. Lægen vil måske ændre din dosis efter disse prøver. </p>
+<p>Behandling med Jayempi kan øge din risiko for:</p>
+<ul>
+<li>udvikling af en alvorlig lidelse kaldet makrofag-aktiveringssyndrom (kraftig aktivering af hvide 
+blodlegemer forbundet med betændelse), der typisk ses hos personer med visse typer af 
+gigtsygdomme </li>
+<li>udvikling af tumorer, navnlig hvis du får immundæmpende behandling i høje doser eller i lang 
+tid </li>
+<li>udvikling af kræftsygdomme som f.eks. hudkræft forårsaget af udsættelse for sollys. Derfor bør 
+du undgå unødvendig udsættelse for sollys og UV-lys, gå med beskyttende påklædning og 
+bruge solcreme (mindst solfaktor (SPF) 30) </li>
+<li>lymfoproliferative sygdomme (når kroppen producerer hvide blodlegemer (lymfocytter) på en 
+ukontrolleret måde). </li>
+<li>Ved behandlinger, der omfatter flere immundæmpende lægemidler (herunder thiopuriner som 
+f.eks. azathioprin), kan tilstanden være dødelig </li>
+<li>virusinfektioner i lymfesystemet (Epstein-Barr-virus-relaterede lymfoproliferative sygdomme), 
+navnlig hvis der gives flere immundæmpende lægemidler samtidigt. </li>
+</ul>
+<p>Brug af andre lægemidler sammen med Jayempi </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Det skal du gøre, fordi Jayempi kan 
+påvirke den måde, visse andre lægemidler virker på. Nogle lægemidler kan også påvirke den måde, 
+Jayempi virker på:</p>
+<ul>
+<li>Ribavirin, til behandling af virusinfektioner </li>
+<li>Allopurinol, oxipurinol eller thiopurinol eller andre xanthinoxidasehæmmere, f.eks. 
+febuxostat (primært til behandling af urinsyregigt) </li>
+<li>Mesalazin, olsalazin og sulfasalazin (til behandling af kronisk inflammatorisk tarmsygdom 
+som f.eks. Crohns sygdom) </li>
+<li>Antikoagulanser, f.eks. warfarin </li>
+<li>ACE-hæmmere (f.eks. enalapril, lisinopril, perindopril og ramipril, til behandling af forhøjet 
+blodtryk eller hjertesvigt) </li>
+<li>Trimethoprim med sulfamethoxazol (antibiotikum) </li>
+<li>Cimetidin (til behandling af sår i fordøjelseskanalen) </li>
+<li>Indometacin (til behandling af leddegigt) </li>
+<li>Penicillamin (primært til behandling af leddegigt) </li>
+<li>Cytotoksiske lægemidler (til behandling af tumorer, f.eks. methotrexat) </li>
+<li>Vaccination med levende vacciner under behandling med Jayempi kan være skadeligt og skal 
+undgås. </li>
+<li>Atracurium eller suxamethoniumchlorid (anvendes som muskelafslappende middel ved 
+kirurgi) </li>
+<li>Infliximab (til behandling af inflammatoriske sygdomme som f.eks. leddegigt, colitis ulcerosa, 
+Crohns sygdom og psoriasis). </li>
+</ul>
+<p>Inden en operation skal du fortælle lægen, at du tager azathioprin, da muskelafslappende 
+midler, der anvendes ved bedøvelse, kan interagere med azathioprin. </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Kvinder, der tager Jayempi, eller som har mandlige partnere, der tager Jayempi, må ikke blive gravide, 
+så længe behandlingen varer og i 6 måneder derefter. Både mænd og kvinder, der tager Jayempi, skal 
+bruge sikker prævention, så længe behandlingen varer og i 6 måneder derefter. Intrauterine indlæg er 
+ikke egnede som prævention hos kvinder, der tager Jayempi (eller hos kvinder, hvis mandlige partnere 
+tager Jayempi). </p>
+<p>Hvis du planlægger at blive gravid, skal du tale med lægen. 
+Hvis du er gravid, bør du kun tage Jayempi, hvis lægen siger det. Hvis du er gravid eller tror, at du 
+er det, skal du fortælle det til lægen med det samme. </p>
+<p>Ændringer i blodtallet kan forekomme hos nyfødte børn af mødre, der fik azathioprin under 
+graviditeten. Det anbefales at tjekke blodtallet regelmæssigt under graviditet. </p>
+<p>Undgå at amme under behandling med Jayempi. Det skyldes, at små mængder lægemiddel kan 
+udskilles i modermælken. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke føre motorkøretøj eller betjene maskiner, hvis du føler sig påvirket eller svimmel, mens du 
+tager dette lægemiddel. </p>
+<p>Jayempi indeholder natriumbenzoat (E211) 
+Dette lægemiddel indeholder 1,5 mg natriumbenzoat (E211) i hver ml. Natriumbenzoat kan medføre 
+øget gulsot (gulfarvning af hud og øjne) hos nyfødte (indtil 4-ugersalderen). </p>
+<p>Jayempi indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis og er således stort set 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take jayempi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take jayempi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Dosis </p>
+<p>Dosen af Jayempi afhænger af din vægt, den behandlede sygdom, hvor godt den reguleres, og dit 
+generelle helbred. Lægen vil vurdere, hvilken dosis, der passer til dig, og kan justere den under 
+behandlingen. Lægen vil fortælle dig, hvor længe du bør fortsætte med at tage lægemidlet. </p>
+<p>Til forebyggelse af organafstødning efter transplantation er den normale startdosis 5 mg pr. kg 
+kropsvægt dagligt, hvorefter dosen reduceres efter et par uger eller måneder til 1-4 mg pr. kg 
+kropsvægt dagligt. 
+Dosen ved andre tilstande er normalt 1-3 mg pr. kg kropsvægt dagligt. </p>
+<p>Nyre-/leversygdom 
+Din dosis kan reduceres, hvis du har nyre- eller leversygdom. </p>
+<p>Brug til børn 
+Dosen hos børn og unge er den samme som hos voksne. 
+Azathioprins sikkerhed og virkning hos børn ved behandling af kronisk ledbetændelse (juvenil 
+idiopatisk artritis) og multipel sklerose er endnu ikke klarlagt. Derfor frarådes det at anvende Jayempi 
+til behandling af disse sygdomme hos børn. </p>
+<p>Ældre patienter 
+Det kan være nødvendigt at reducere dosis. </p>
+<p>Brug af Jayempi sammen med mad og drikke </p>
+<p>Jayempi bør tages mindst 1 time før eller 2 timer efter indtagelse af et måltid eller mælk. Er du i tvivl, 
+så spørg lægen eller apotekspersonalet. </p>
+<p>Du bør drikke vand efter hver dosis Jayempi. Derved sikrer du, at den fulde dosis af lægemidlet 
+kommer ned i dit fordøjelsessystem. </p>
+<p>Håndtering </p>
+<p>Pakningen rummer en flaske med låg indeholdende 200 ml lægemiddel, en flaskeadapter og to 
+doseringssprøjter (en 3 ml-sprøjte og en 10 ml-sprøjte). Brug altid de medfølgende sprøjter til at tage 
+lægemidlet. </p>
+<ul>
+<li>
+<p>Den lille 3 ml-mundsprøjte går fra 0,5 ml til 3 ml med mindstegradueringer på 0,1 ml. Den 
+anvendes til udmåling af doser på op til 30 mg i trin på 1 mg (0,1 ml). 
+Eksempel:</p>
+</li>
+<li>
+<p>Hvis den ordinerede dosis er på 14 mg, skal du bruge 3 ml-sprøjten og trække en mængde på 
+1,4 ml op af flasken. </p>
+</li>
+<li>
+<p>Hvis den ordinerede dosis er på 26 mg, skal du bruge 3 ml-sprøjten og trække en mængde på 
+2,6 ml op af flasken. </p>
+</li>
+<li>
+<p>Den større 10 ml-mundsprøjte går fra 1 ml til 10 ml med en mindstegraduering på 0,25 ml. Den 
+anvendes til udmåling af doser på over 30 mg i trin på 2,5 mg (0,25 ml). 
+Eksempel:</p>
+</li>
+<li>
+<p>Hvis den ordinerede dosis er på 32 mg, skal du bruge 10 ml-sprøjten og trække en mængde 
+på 3,25 ml op af flasken. </p>
+</li>
+<li>Hvis den ordinerede dosis er på 54 mg, skal du bruge 10 ml-sprøjten og trække en mængde 
+på 5,5 ml op af flasken. </li>
+<li>Hvis den ordinerede dosis er på 140 mg, skal du bruge 10 ml-sprøjten to gange og først 
+trække en mængde på 10,0 ml op af flasken og dernæst en mængde på 4,0 ml (14 ml i alt). </li>
+</ul>
+<p>Det er vigtigt, at du bruger den rigtige doseringssprøjte til dit lægemiddel. Lægen eller 
+apotekspersonalet vil ud fra den ordinerede dosis fortælle dig, hvilken sprøjte du skal bruge. </p>
+<p>Vask hænder før og efter, når du tager lægemidlet eller giver det til et barn eller en anden person. Tør 
+eventuelt spild op med det samme. Brug engangshandsker ved håndtering af Jayempi for ikke at 
+komme i kontakt med lægemidlet. </p>
+<p>Vask straks grundigt med vand og sæbe, hvis Jayempi kommer i kontakt med hud, øjne eller næse. </p>
+<p>Følg nedenstående anvisninger for anvendelsen af lægemidlet: </p>
+<p>Figur 1 
+Figur 2 
+Figur 3 
+Figur 4 
+Figur 5 </p>
+<ol>
+<li>Brug engangshandsker, når du håndterer Jayempi. </li>
+<li>Ryst flasken grundigt for at blande lægemidlet (figur 1). </li>
+<li>Tag låget af flasken (figur 2), og sæt adapteren godt fast på flaskens top. Lad den sidde med 
+henblik på senere doseringer (figur 3). </li>
+<li>Tryk spidsen af doseringssprøjten ind i hullet i adapteren (figur 4). Lægen eller 
+apotekspersonalet vil fortælle dig, hvilken sprøjte du skal bruge. </li>
+<li>Vend bunden i vejret på flasken (figur 5). </li>
+<li>Træk sprøjtens stempel tilbage, så lægemidlet trækkes ud af flasken og ind i sprøjten. Træk 
+stemplet tilbage til det punkt på skalaen, der svarer til den ordinerede dosis (figur 5). Hvis du er 
+i tvivl om, hvor meget lægemiddel du skal trække ind i sprøjten, så spørg altid lægen eller 
+sundhedspersonalet. </li>
+<li>Vend flasken til opret stilling, og fjern forsigtigt sprøjten fra adapteren ved at holde i sprøjtens 
+cylinder, ikke i stemplet. </li>
+<li>Før forsigtigt spidsen af sprøjten ind i munden, så den er rettet mod indersiden af kinden. </li>
+<li>Tryk langsomt og forsigtigt stemplet i bund, så lægemidlet forsigtigt sprøjtes mod indersiden af 
+kinden. Synk lægemidlet. Tryk IKKE for hårdt på stemplet, og sprøjt ikke lægemidlet mod det 
+bagerste af munden eller svælget, da du kan få det galt i halsen. </li>
+<li>Tag sprøjten ud af munden. </li>
+<li>Drik lidt vand, når lægemidlet er sunket, så du ikke har rester af det i munden. </li>
+<li>Sæt låget tilbage på flasken (lad adapteren blive siddende). Sørg for, at låget sidder godt fast. </li>
+<li>Skyl sprøjten grundigt med koldt eller varmt postevand. Hold sprøjten under vand, mens du 
+bevæger stemplet frem og tilbage flere gange for at sikre, at sprøjtens inderside bliver ren. Lad 
+sprøjten tørre helt, før du bruger den igen til næste dosering. Opbevar sprøjten et rent sted 
+sammen med lægemidlet. </li>
+</ol>
+<p>Gentag ovenstående for hver dosis som anvist af lægen eller apotekspersonalet. </p>
+<p>Hvis du har taget for meget Jayempi </p>
+<p>Hvis du har taget for meget Jayempi, skal du straks sige det til lægen eller tage på skadestuen. Tag 
+Jayempi-pakningen med. </p>
+<p>Den mest sandsynlige bivirkning ved en overdosis er knoglemarvshæmning, der kulminerer 9-14 dage 
+efter indtagelse. </p>
+<p>Knoglemarvshæmning reducerer blodtallet og kan i svære tilfælde medføre farlige infektioner og 
+andre alvorlige tilstande. Nogle af symptomerne på knoglemarvshæmning omfatter træthed, 
+sårdannelse i mund og svælg, feber og infektion samt uforklarlige blå mærker og blødninger. </p>
+<p>Hvis du har glemt at tage Jayempi </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for en glemt dosis. Tag den næste dosis på det 
+sædvanlige tidspunkt. </p>
+<p>Hvis du har glemt mere end én dosis, skal du tale med lægen. </p>
+<p>Hvis du holder op med at tage Jayempi </p>
+<p>Behandling med Jayempi bør altid ske under tæt lægeligt tilsyn. Tal med lægen, hvis du ønsker at 
+afbryde eller standse behandlingen. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger hos nogle. </p>
+<p>Hvis du får en eller flere af nedenstående alvorlige bivirkninger, skal du straks holde op med at 
+tage Jayempi og tale med lægen eller tage på skadestuen:</p>
+<ul>
+<li>Allergisk reaktion med symptomer som: 
+generel træthed, svimmelhed, kvalme, opkastning eller diarré, feber, rysten eller kulderystelser, 
+hudrødme, hudfortykkelser eller hududslæt, muskel- eller ledsmerter, ændret farve på urinen 
+(nyreproblemer), forvirring, ørhed eller svaghed (på grund af lavt blodtryk). </li>
+</ul>
+<p>Du skal straks sige det til lægen eller tage på skadestuen, hvis du oplever en eller flere af 
+følgende alvorlige bivirkninger:</p>
+<ul>
+<li>hvis du får feber eller tegn på infektion, f.eks. hovedpine og ømhed i kroppen, hoste eller -
+åndedrætsbesvær (som ved en luftvejsinfektion) </li>
+<li>hvis du kommer i kontakt med en person, der har skoldkopper eller helvedesild </li>
+<li>hvis du bemærker nogen af følgende: sort (tjærefarvet) afføring, blodig afføring, mavesmerter 
+eller gulfarvning af huden/det hvide i øjnene </li>
+<li>hvis du let får blå mærker eller bemærker usædvanlig blødning </li>
+<li>hvis du føler dig meget træt </li>
+<li>hvis du bemærker knuder på din krop </li>
+<li>hvis du bemærker forandringer i huden, f.eks. blæredannelse eller afskalning </li>
+<li>hvis dit helbred pludselig forværres. </li>
+</ul>
+<p>Andre bivirkninger: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 personer) </p>
+<ul>
+<li>Nedsat knoglemarvsfunktion, der kan gøre dig utilpas eller fremgå af dine blodprøver </li>
+<li>Nedsat knoglemarvsfunktion vender typisk tilbage til det normale niveau, når dosen justeres. 
+Tegn på unormal knoglemarvsfunktion kan være: øget følsomhed over for infektioner, 
+sårdannelse i mund og svælg, øget blødning, træthed og ringe mental og fysisk ydeevne </li>
+<li>Lavt antal hvide blodlegemer i dine blodprøver (leukopeni), hvilket kan medføre infektion </li>
+<li>Infektioner hos transplanterede patienter, der tager Jayempi i kombination med andre 
+immundæmpende lægemidler </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>Lavt antal blodplader (trombocytopeni), hvilket kan medføre øget tendens til blå mærker og 
+blødning </li>
+<li>Kvalme, indimellem ledsaget af opkastning </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>Lavt antal røde blodlegemer (anæmi), hvilket kan medføre træthed, hovedpine, åndenød ved 
+fysisk aktivitet, svimmelhed og bleghed </li>
+<li>Betændelse i bugspytkirtlen, navnlig hos transplanterede patienter og hos patienter med 
+inflammatorisk tarmsygdom </li>
+<li>Infektioner hos patienter, der ikke har fået andre immundæmpende lægemidler i kombination 
+med azathioprin </li>
+<li>Overfølsomhedsreaktioner. I meget sjældne tilfælde er der set overfølsomhedsreaktioner med 
+dødelig udgang </li>
+<li>Leverproblemer, der kan forårsage bleg afføring, mørk urin, kløe og gulfarvning af hud og øjne </li>
+<li>Tilstoppede galdeveje </li>
+<li>Forværrede leverværdier </li>
+</ul>
+<p>Leverskade og tilstoppede galdeveje er dosisafhængige tilstande, der typisk bedres efter ophør med 
+behandlingen. </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 personer) </p>
+<ul>
+<li>Forskellige typer kræft, herunder blodkræft, lymfekræft og hudkræft (ondartede blodsygdomme 
+som f.eks. akut myeloid leukæmi og myelodysplasi, som er typiske i forbindelse med hæmning 
+af immunsystemet) </li>
+<li>Knoglemarvssvigt, der medfører et nedsat antal af visse hvide eller røde blodlegemer 
+(agranulocytose, aplastisk anæmi), af alle blodlegemer (pancytopeni), øget forekomst af 
+unormale, usædvanligt store umodne røde blodlegemer (megaloblastisk anæmi) og af små røde 
+blodlegemer i blodet </li>
+<li>Selvom ændringer i blodtallet typisk ses i starten af behandlingen, kan de også forekomme 
+senere hen i behandlingen. Ved langvarig behandling anbefales det derfor, at blodtallet 
+kontrolleres regelmæssigt selv hos patienter, der er stabile </li>
+<li>Svær leverskade, der kan være livstruende, navnlig hos transplanterede patienter i langvarig 
+behandling </li>
+<li>I nogle tilfælde kan symptomerne forbedres ved at afbryde behandlingen med Jayempi </li>
+<li>Hårtab. I mange tilfælde forbedres tilstanden, selv om du fortsætter med at tage azathioprin. 
+Forbindelsen mellem hårtab og brug af azathioprin er uklar </li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10 000 personer) </p>
+<ul>
+<li>Anæmi som følge af øget nedbrydning af røde blodlegemer (hæmolytisk anæmi) </li>
+<li>Svære hudreaktioner med blæredannelse og afskalning af huden, navnlig på arme og ben, i 
+munden, i øjnene og omkring kønsorganerne, ledsaget af dårlig almentilstand og feber 
+(Stevens‑Johnsons syndrom, toksisk epidermal nekrolyse) </li>
+<li>Der er rapporteret om en række reaktioner, der muligvis kan skyldes allergi. Tegn på sådanne 
+overfølsomhedsreaktioner kan være utilpashed, svimmelhed, døsighed, kvalme, opkastning, 
+diarré, feber, kulderystelser, hududslæt, karbetændelse, muskel- og ledsmerter, blodtryksfald, 
+nyre- og leverproblemer og blokering af galdevejene (galdevejsobstruktion). I meget sjældne 
+tilfælde er der rapporteret om overfølsomhedsreaktioner med dødelig udgang </li>
+<li>Lungeinfektion, der bedres efter ophør med Jayempi </li>
+<li>Svær betændelse i tyktarmen (colitis, divertikulitis) og tarmperforering hos transplanterede 
+patienter </li>
+<li>Svær diarré hos patienter med inflammatorisk tarmsygdom </li>
+<li>Mave-tarm-besvær med diarré, mavesmerter, forstoppelse, kvalme og opkastning </li>
+<li>En bestemt type lymfom (hepatosplenisk T-cellelymfom) </li>
+<li>En sygdom i den hvide substans i hjernen (PML), der skyldes JC-virus </li>
+</ul>
+<p>Hvis du har kvalme og kaster op indimellem, kan lægen bede dig tage Jayempi efter et måltid 
+for at mindske disse symptomer. Sig det til lægen, hvis du oplever svær diarré eller kvalme og 
+opkastning. </p>
+<p>Ikke kendt (hyppighed kan ikke udledes af de forhåndenværende data) </p>
+<ul>
+<li>Du kan udvikle udslæt (røde, lyserøde eller lilla knopper, der er ømme at røre ved), navnlig på 
+arme, hænder, fingre, ansigt og hals, evt. ledsaget af feber (Sweets syndrom, også kaldet akut 
+febril neutrofil dermatose). </li>
+<li>Følsomhed over for sollys, der kan give misfarvet hud eller udslæt. </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store jayempi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store jayempi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og flasken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </li>
+<li>Må ikke opbevares ved temperaturer over 25 ºC. </li>
+<li>Flasken skal være tæt lukket for at beskytte lægemidlets kvalitet og nedsætte risikoen for 
+utilsigtet spild. </li>
+</ul>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jayempi indeholder: 
+Aktivt stof: azathioprin. Én ml suspension indeholder 10 mg azathioprin </p>
+<p>Øvrige indholdsstoffer: natriumbenzoat (E211), sucralose (E955), bananaroma, citronsyremonohydrat, 
+mikrokrystallinsk cellulose, carmellosenatrium, xanthangummi og renset vand. Se pkt. 2, "Jayempi 
+indeholder natriumbenzoat" og "Jayempi indeholder natrium". </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Jayempi er en gul, tyktflydende oral suspension. Det leveres i en glasflaske a 200 ml med børnesikret 
+låg. Hver pakning indeholder én flaske, en flaskeadapter og to doseringssprøjter (en sprøjte gradueret 
+til 3 ml og en sprøjte gradueret til 10 ml). 
+Lægen eller apotekspersonalet vil ud fra den ordinerede dosis fortælle dig, hvilken sprøjte du skal 
+bruge. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Nova Laboratories Ireland Limited<br />
+3rd Floor 
+Ulysses House 
+Foley Street, Dublin 1 
+D01 W2T2 
+Irland </p>
+<p>Fremstiller 
+Pronav Clinical Ltd. 
+Unit 5 
+Dublin Road Business Park 
+Carraroe, Sligo 
+F91 DIrland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Pakningen indeholder to mundsprøjter: én 3 ml-sprøjte og én 10 ml-sprøjte. Dette muliggør udmåling 
+af dosen i ml i henhold til den ordinerede dosering. Mundsprøjterne er gradueret i hhv. 0,1 ml-trin 
+(1 mg) og 0,25 ml-trin (2,5 mg). </p>
+<p>Tabellen nedenfor viser konverteringen fra dosis (mg) til mængde (ml), i forhold til alder, vægt og 
+dosisstørrelse, under anvendelse af de to mundsprøjter. </p>
+<p>Tabel 1: Konvertering fra dosis (mg) til mængde (ml) vha. de to mundsprøjter </p>
+<p>Alder 
+(år) 
+Vægt 
+(kg) 
+Dosis† 
+1 mg/kg 
+2 mg/kg 
+3 mg/kg 
+4 mg/kg 
+5 mg/kg 
+mg 
+ml 
+mg 
+ml 
+mg 
+ml 
+mg 
+ml 
+mg 
+ml 
+0 
+3,3 
+3,3 
+0,3 
+6,6 
+0,7 
+9,9 
+1,0 
+13,2 
+1,3 
+16,5 
+1,7 
+1 måned 
+4,5 
+4,5 
+0,5 
+9,0 
+0,9 
+13,5 
+1,4 
+18,0 
+1,8 
+22,5 
+2,3 
+2 måneder 
+5,6 
+5,6 
+0,6 
+11,2 
+1,1 
+16,8 
+1,7 
+22,4 
+2,2 
+28,0 
+2,8 
+3 måneder 
+6,4 
+6,4 
+0,6 
+12,8 
+1,3 
+19,2 
+1,9 
+25,6 
+2,6 
+32,0 
+3,4 måneder 
+7,0 
+7,0 
+0,7 
+14,0 
+1,4 
+21,0 
+2,1 
+28,0 
+2,8 
+35,0 
+3,5 måneder 
+7,5 
+7,5 
+0,8 
+15,0 
+1,5 
+22,5 
+2,3 
+30,0 
+3,0 
+37,5 
+3,6 måneder 
+7,9 
+7,9 
+0,8 
+15,8 
+1,6 
+23,7 
+2,4 
+31,6 
+3,39,5 
+4,1,0 
+9,6 
+9,6 
+1,0 
+19,2 
+1,9 
+28,8 
+2,9 
+38,4 
+3,48,0 
+4,1,5 
+10,9 
+10,9 
+1,1 
+21,8 
+2,2 
+32,7 
+3,43,6 
+4,54,5 
+5,2,0 
+12,2 
+12,2 
+1,2 
+24,4 
+2,4 
+36,6 
+3,48,8 
+5,61,0 
+6,3,0 
+14,3 
+14,3 
+1,4 
+28,6 
+2.9 
+42,9 
+4,57,2 
+5,71,5 
+7,4,0 
+16,3 
+16,3 
+1,6 
+32,6 
+3,48,9 
+5,65,2 
+6,81,5 
+8,5,0 
+18,3 
+18,3 
+1,8 
+36,6 
+3,54,9 
+5,73,2 
+7,91,5 
+9,6,0 
+20,5 
+20,5 
+2,1 
+41,0 
+4,61,5 
+6,82,0 
+8,102,5 10,7,0 
+22,9 
+22,9 
+2,3 
+45,8 
+4,68,7 
+7,91,6 
+9,114,5 11,8,0 
+25,4 
+25,4 
+2,5 
+50,8 
+5,76,2 
+7,101,6 10,25 127,0 12,9,0 
+28,1 
+28,1 
+2,8 
+56,2 
+5,84,3 
+8,112,4 11,25 140,5 14,10,0 
+31,2 
+31,2 
+3,0 
+62,4 
+6,93,6 
+9,124,8 12,50 156,0 15,12,0 
+38,2 
+38,2 
+3,76,4 
+7,114,6 11,50 152,8 15,25 191,0 19,15,0 
+55,5 
+55,5 
+5,111,0 11,00 166,5 16,75 222,0 22,25 277,5 27,18,0 
+67,0 
+67,0 
+6,134,0 13,50 201,0 20,00 268,0 26,75 335,0 33,*50. percentil for drenge uddraget af vækstdiagrammer fra WHO (0-10 år) og Det Forenede 
+Kongerige (11-18 år) 
+†Doser op til og med 30 mg trækkes op vha. 3 ml-mundsprøjten med 0,1 ml-gradueringer. Doser over 
+30 mg trækkes op vha. 10 ml-mundsprøjten med 2,5 ml-gradueringer (tonede felter). </p>
+<p>Sundhedspersonen bør vejlede patienten eller omsorgspersonen i, hvilken sprøjte der skal anvendes, så 
+det sikres, at den rigtige mængde administreres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-29e53310e209535224a929c7efb5c5b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jayempi Package Leaflet for language en"
+Description: "ePI document Bundle for jayempi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-29e53310e209535224a929c7efb5c5b7"
+* entry[0].resource = composition-en-29e53310e209535224a929c7efb5c5b7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp29e53310e209535224a929c7efb5c5b7"
+* entry[=].resource = mp29e53310e209535224a929c7efb5c5b7
+                            
+                    
+Instance: bundlepackageleaflet-da-29e53310e209535224a929c7efb5c5b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jayempi Package Leaflet for language da"
+Description: "ePI document Bundle for jayempi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-29e53310e209535224a929c7efb5c5b7"
+* entry[0].resource = composition-da-29e53310e209535224a929c7efb5c5b7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp29e53310e209535224a929c7efb5c5b7"
+* entry[=].resource = mp29e53310e209535224a929c7efb5c5b7
+                            
+                    
+
+
+
+Instance: mp29e53310e209535224a929c7efb5c5b7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Jayempi 10 mg/ml oral suspension"
-Description: "Jayempi 10 mg/ml oral suspension"
+Title: "Medicinal Product jayempi"
+Description: "jayempi"
 Usage: #inline
 
  
@@ -523,7 +1306,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Jayempi 10 mg/ml oral suspension"
+  * productName = "jayempi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -550,29 +1333,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-29e53310e209535224a929c7efb5c5b7
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for jayempi Package Leaflet for language en"
-Description: "ePI document Bundle for jayempi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 29e53310e209535224a929c7efb5c5b7ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1557/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "jayempi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-29e53310e209535224a929c7efb5c5b7"
-* entry[0].resource = composition-en-29e53310e209535224a929c7efb5c5b7
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3c522152a0fb4a31a025f0e8faea371b"
-* entry[=].resource = mp3c522152a0fb4a31a025f0e8faea371b
-                            
-                      
+* title = "List of all ePIs associated with jayempi"
+
+* subject = Reference(mp3c522152a0fb4a31a025f0e8faea371b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#jayempi "jayempi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-29e53310e209535224a929c7efb5c5b7) // jayempi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-29e53310e209535224a929c7efb5c5b7) // jayempi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-29e53310e209535224a929c7efb5c5b7
+InstanceOf: List
+
+* insert 29e53310e209535224a929c7efb5c5b7ListRuleset
+    

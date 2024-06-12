@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6471e64aafea74720593633f2a0cd695
 InstanceOf: CompositionUvEpi
 Title: "Composition for truvada Package Leaflet"
@@ -578,12 +581,871 @@ Tel: + 44 (0) 8000 113 This leaflet was last revised in. </p>
 
 
 
+Instance: composition-da-6471e64aafea74720593633f2a0cd695
+InstanceOf: CompositionUvEpi
+Title: "Composition for truvada Package Leaflet"
+Description:  "Composition for truvada Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9acd46c48ecbc972f712ad86499f0d3f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp9acd46c48ecbc972f712ad86499f0d3f
+* title = "TEST PURPOSES ONLY - truvada"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Truvada 
+3. Sådan skal De tage Truvada 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What truvada is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What truvada is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Truvada indeholder to aktive stoffer, emtricitabin og tenofovirdisoproxil. Begge disse aktive stoffer 
+er antiretroviral medicin, som anvendes til behandling af hiv-infektion. Emtricitabin hører til en 
+gruppe lægemidler, der kaldes nukleosid-revers transkriptase-hæmmere, og tenofovir hører til en 
+gruppe, der kaldes nukleotid-revers transkriptase-hæmmere. De kaldes dog begge generelt for 
+NRTI'er, og de virker ved at gribe ind i den normale måde, som et enzym (revers transkriptase) 
+arbejder på, og som er nødvendigt for at virus kan reproducere sig selv.  </p>
+<ul>
+<li>
+<p>Truvada bruges til at behandle infektion forårsaget af humant immundefektvirus 1 
+(hiv 1-infektion) hos voksne </p>
+</li>
+<li>
+<p>Det bruges også til at behandle hiv hos unge i alderen fra 12 til under 18 år, som vejer 
+mindst 35 kg, og som allerede er blevet behandlet med andre hiv-lægemidler, som ikke længere 
+er effektive, eller som har forårsaget bivirkninger. </p>
+</li>
+</ul>
+<p>− 
+Truvada skal altid anvendes sammen med anden medicin til behandling af hiv-infektion.<br />
+− 
+Truvada kan administreres i stedet for emtricitabin og tenofovirdisoproxil anvendt hver 
+for sig med samme doser. </p>
+<p>Dette lægemiddel helbreder ikke hiv-infektion. De kan stadig få infektioner eller andre sygdomme 
+forbundet med hiv-infektion, mens De tager Truvada. </p>
+<ul>
+<li>Truvada bruges også til at nedsætte risikoen for at få hiv 1-infektion hos voksne og unge i 
+alderen 12 år til under 18 år, som vejer mindst 35 kg, når det bruges dagligt og sammen med 
+udøvelse af sikker sex: 
+Se punkt 2 for en liste over de forholdsregler, der skal tages, for ikke at få hiv-infektion. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take truvada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take truvada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Truvada for at behandle hiv eller nedsætte risikoen for at få hiv, hvis De er allergisk 
+over for emtricitabin, tenofovir, tenofovirdisoproxil, eller et af de øvrige indholdsstoffer (angivet i 
+punkt 6). </p>
+<p> 
+Hvis dette gælder for Dem, skal De omgående fortælle Deres læge det. </p>
+<p>Inden De tager Truvada for at nedsætte risikoen for at få hiv: </p>
+<p>Truvada kan kun hjælpe med at nedsætte Deres risiko for at få hiv, før De bliver smittet. </p>
+<ul>
+<li>
+<p>De skal være hiv-negativ, inden De begynder at tage Truvada for at reducere risikoen for 
+at få hiv. De skal testes for at sikre, at De ikke allerede har hiv-infektion. De må ikke tage 
+Truvada for at nedsætte Deres risiko, medmindre det er bekræftet, at De er hiv-negativ. 
+Personer, der har hiv, skal tage Truvada sammen med andre lægemidler.  </p>
+</li>
+<li>
+<p>Mange hiv-test kan have svært ved at måle en nyligt opstået infektion. Hvis De får en 
+influenzalignende sygdom, kan det betyde, at De for nyligt er blevet smittet med hiv. 
+Følgende kan være tegn på hiv-infektion: </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>led- eller muskelsmerter </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>opkastning eller diarré </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>nattesved </p>
+</li>
+<li>
+<p>forstørrede lymfeknuder i halsen eller lysken 
+ 
+Fortæl Deres læge om al influenzalignende sygdom – enten i måneden, før De starter 
+med Truvada, eller når som helst, mens De tager Truvada. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Hvis De tager Truvada for at reducere risikoen for at få hiv: </p>
+<ul>
+<li>
+<p>Tag Truvada hver dag for at reducere Deres risiko, ikke kun når De mener, at De har været 
+udsat at få for hiv-infektion. Lad være med at springe Truvada-doser over eller holde op med 
+at tage Truvada. Glemte doser kan øge Deres risiko for at få en hiv-infektion. </p>
+</li>
+<li>
+<p>Bliv testet for hiv regelmæssigt. </p>
+</li>
+<li>
+<p>Hvis De mener, at De blev smittet med hiv, skal De straks fortælle Deres læge om det. Lægen 
+vil muligvis udføre flere test for at sikre, at De stadig er hiv-negativ. </p>
+</li>
+<li>
+<p>Det er ikke nødvendigvis nok at tage Truvada for at undgå at få hiv. * 
+Udøv altid sikker sex. Brug kondom for at reducere kontakten med sæd, vaginalvæsker 
+og blod. * 
+Del ikke personlige ting, der kan være forurenet med blod eller kropsvæsker, såsom 
+tandbørster og barberblade, med andre. * 
+Lad være med at dele eller genbruge nåle og andet injektions- eller lægemiddeludstyr. * 
+Bliv testet for andre seksuelt overførbare infektioner, såsom syfilis og gonorré. Disse 
+infektioner gør Dem mere modtagelig for hiv. </p>
+</li>
+</ul>
+<p>Spørg Deres læge, hvis De har flere spørgsmål om, hvordan De kan undgå at få hiv eller sprede hiv til 
+andre mennesker. </p>
+<p>Hvis De tager Truvada for at behandle hiv eller reducere risikoen for at få hiv: </p>
+<ul>
+<li>
+<p>Truvada kan have indvirkning på Deres nyrer. Før og under behandlingen kan Deres læge 
+bestille blodprøver for at kontrollere nyrefunktionen. Fortæl Deres læge, hvis De har haft en 
+nyresygdom, eller hvis en test har vist, at De har problemer med nyrerne. Truvada bør ikke 
+anvendes til unge med eksisterende nyreproblemer. Hvis De har nyreproblemer, vil Deres læge 
+muligvis råde Dem til at holde op med at tage Truvada, eller, hvis De er inficeret med hiv, til at 
+tage Truvada mindre hyppigt. Truvada anbefales ikke, hvis De lider af svære nyresygdomme 
+eller er i dialyse. </p>
+</li>
+<li>
+<p>Fortæl Deres læge, hvis De lider af osteoporose, tidligere har haft knoglebrud, eller hvis 
+De har problemer med Deres knogler. </p>
+</li>
+</ul>
+<p>Knogleproblemer (som viser sig som vedvarende eller forværrede knoglesmerter og nogle 
+gange resulterer i knoglebrud) kan også forekomme på grund af skader på tubulære celler i 
+nyrerne (se punkt 4, Bivirkninger). Fortæl Deres læge, hvis De har knoglesmerter eller -brud. </p>
+<p>Tenofovirdisoproxil kan også forårsage tab af knoglemasse. Det mest udprægede knogletab blev 
+set i kliniske studier, hvor patienter blev behandlet for hiv med tenofovirdisoproxil i 
+kombination med en boostet proteasehæmmer. </p>
+<p>Samlet set er tenofovirdisoproxils virkning på langsigtet knoglesundhed og fremtidig risiko for 
+knoglebrud hos voksne og pædiatriske patienter uvis. </p>
+<ul>
+<li>
+<p>Tal med Deres læge, hvis De tidligere har haft en leversygdom, herunder hepatitis (gulsot). 
+Patienter, som er inficeret med hiv og har leversygdom (inklusive kronisk hepatitis B eller C), 
+og som behandles med antiretrovirale midler, har en forhøjet risiko for alvorlige og potentielt 
+livstruende bivirkninger i leveren. Hvis De har hepatitis B eller C, vil Deres læge nøje overveje, 
+hvilken behandling, der er den bedste for Dem.  </p>
+</li>
+<li>
+<p>Kend Deres status for hepatitis B virus (HBV)-infektion inden De begynder at tage Truvada. 
+Hvis De har hepatitis B, er der en alvorlig risiko for at få leverproblemer, når De holder op med 
+at tage Truvada, uanset om De også har hiv. Det er vigtigt, at De ikke holder op med at tage 
+Truvada uden først at tale med Deres læge. Se punkt 3, Sådan skal De tage Truvada. </p>
+</li>
+<li>
+<p>Tal med Deres læge, hvis De er over 65 år. Truvada er ikke blevet undersøgt hos patienter 
+over 65 år. </p>
+</li>
+<li>
+<p>Tal med Deres læge, hvis De ikke kan tåle lactose (se Truvada indeholder lactose senere i 
+dette afsnit). </p>
+</li>
+</ul>
+<p>Børn og unge </p>
+<p>Truvada må ikke anvendes til børn under 12 år. </p>
+<p>Brug af andre lægemidler sammen med Truvada </p>
+<p>Tag ikke Truvada, hvis De allerede tager andre lægemidler som indeholder indholdsstofferne i 
+Truvada (emtricitabin og tenofovirdisoproxil) eller antivirale lægemidler, som indeholder tenofovir-
+alafenamid, lamivudin eller adefovir-dipivoxil. </p>
+<p>Indtagelse af Truvada samtidig med andre lægemidler, som kan skade Deres nyrer: Det er 
+specielt vigtigt at fortælle Deres læge, hvis De tager nogen af disse lægemidler, herunder </p>
+<ul>
+<li>
+<p>aminoglykosider (mod bakterie-infektion) </p>
+</li>
+<li>
+<p>amphotericin B (mod svampeinfektion) </p>
+</li>
+<li>
+<p>foscarnet (mod virusinfektion) </p>
+</li>
+<li>
+<p>ganciclovir (mod virusinfektion) </p>
+</li>
+<li>
+<p>pentamidin (mod infektioner) </p>
+</li>
+<li>
+<p>vancomycin (mod bakterie-infektion) </p>
+</li>
+<li>
+<p>interleukin-2 (til behandling af kræft) </p>
+</li>
+<li>
+<p>cidofovir (mod virusinfektion) </p>
+</li>
+<li>
+<p>non-steroide antiinflammatoriske lægemidler (NSAID'er, til at lindre knogle- eller 
+muskelsmerter) </p>
+</li>
+</ul>
+<p>Hvis De tager et andet lægemiddel til behandling af hiv-infektion, som kaldes en proteasehæmmer, vil 
+Deres læge muligvis bestille blodprøver for at overvåge nyrefunktionen nøje. </p>
+<p>Det er også vigtigt at fortælle det til lægen, hvis De tager ledipasvir/sofosbuvir, 
+sofosbuvir/velpatasvir eller sofosbuvir/velpatasvir/voxilaprevir til behandling af hepatitis C-infektion. </p>
+<p>Indtagelse af Truvada sammen med lægemidler som indeholder didanosin (til behandling af 
+hiv-infektion): Hvis De tager Truvada sammen med antivirale lægemidler, som indeholder didanosin, 
+kan det øge indholdet af didanosin i blodet og reducere CD4-celletallet. Der er rapporteret om sjældne 
+tilfælde af betændelse i bugspytkirtlen og laktatacidose (overskud af mælkesyre i blodet), der somme 
+tider kan være dødelige, når lægemidler, der indeholder tenofovirdisoproxil og didanosin, blev 
+indtaget samtidigt. Deres læge vil nøje tage stilling til om, det er nødvendigt at behandle Dem med 
+kombinationer af tenofovir og didanosin. </p>
+<p> 
+Fortæl Deres læge, hvis De tager nogen af disse lægemidler. Fortæl lægen eller 
+apotekspersonalet, hvis De tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. </p>
+<p>Brug af Truvada sammen med mad og drikke </p>
+<ul>
+<li>Truvada skal så vidt muligt tages sammen med mad. </li>
+</ul>
+<p>Graviditet og amning </p>
+<p>Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<p>Hvis De har taget Truvada under Deres graviditet, kan lægen anmode om regelmæssige blodprøver og 
+andre diagnostiske undersøgelser for at overvåge barnets udvikling. For de børn, hvis mødre har taget 
+NRTI'er i løbet af graviditeten, opvejede fordelen ved beskyttelse mod hiv-risikoen ved 
+bivirkningerne. </p>
+<ul>
+<li>
+<p>De må ikke amme, mens De er i behandling med Truvada, fordi de aktive stoffer i denne 
+medicin udskilles i mælken hos mennesker. </p>
+</li>
+<li>
+<p>Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken. </p>
+</li>
+<li>
+<p>Hvis De ammer eller påtænker at amme, bør De drøfte det med lægen hurtigst muligt. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Truvada kan forårsage svimmelhed. Kør ikke bil eller motorcykel og lad være med at cykle og lad 
+være med at arbejde med værktøj eller maskiner, hvis De bliver svimmel, når De tager Truvada. </p>
+<p>Truvada indeholder lactose </p>
+<p>Kontakt lægen, før De tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter. </p>
+<p>Truvada indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take truvada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take truvada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De 
+i tvivl, så spørg lægen eller apotekspersonalet. </li>
+</ul>
+<p>Den anbefalede dosis af Truvada til behandling af hiv er: </p>
+<ul>
+<li>
+<p>Voksne: En tablet om dagen, så vidt muligt sammen med mad. </p>
+</li>
+<li>
+<p>Unge i alderen fra 12 til under 18 år, som vejer mindst 35 kg: En tablet om dagen, så vidt 
+muligt sammen med mad. </p>
+</li>
+</ul>
+<p>Den anbefalede dosis af Truvada til at nedsætte risikoen for at få hiv er: </p>
+<ul>
+<li>
+<p>Voksne: En tablet om dagen, så vidt muligt sammen med mad. </p>
+</li>
+<li>
+<p>Unge i alderen 12 år til under 18 år, som vejer mindst 35 kg: En tablet om dagen, så vidt 
+muligt sammen med mad. </p>
+</li>
+</ul>
+<p>Hvis De har problemer med at synke, kan De knuse tabletten med spidsen af en ske og opløse 
+den i ca. 100 mL (et halvt glas) vand, appelsinjuice eller druesaft. Drik det omgående. </p>
+<ul>
+<li>
+<p>Tag altid den dosis, Deres læge har anbefalet. For at sikre, at lægemidlet er fuldt ud effektivt, 
+og for at reducere udviklingen af resistens mod behandlingen. De må ikke ændre Deres dosis 
+medmindre De har fået besked på det af Deres læge. </p>
+</li>
+<li>
+<p>Hvis De bliver behandlet for hiv-infektion, vil Deres læge ordinere Truvada sammen med 
+andre antiretrovirale lægemidler. Se indlægssedlerne for de andre antiretrovirale midler for 
+vejledning i, hvordan disse lægemidler skal tages. </p>
+</li>
+<li>
+<p>Hvis De tager Truvada for at nedsætte risikoen for at få hiv, skal De tage Truvada hver dag 
+og ikke kun, når De mener, at De har været udsat for at blive smittet med hiv. </p>
+</li>
+</ul>
+<p>Spørg Deres læge, hvis De vil vide mere om, hvordan De undgår at få hiv eller forhindrer spredning af 
+hiv til andre mennesker. </p>
+<p>Hvis De har taget for meget Truvada </p>
+<p>Hvis De ved et uheld tager mere end den anbefalede dosis Truvada, skal De kontakte lægen eller den 
+nærmeste skadestue for at få råd. Tag tabletbeholderen med, så De let kan vise, hvad De har taget. </p>
+<p>Hvis De glemmer en dosis </p>
+<p>Det er vigtigt, at De husker at tage alle doser Truvada. </p>
+<ul>
+<li>
+<p>Hvis De kommer i tanke om en glemt dosis inden for 12 timer efter det tidspunkt, hvor De 
+normalt tager Truvada, er det bedst, at De tager tabletten med mad så hurtigt som muligt. Tag 
+derefter den næste dosis på det sædvanlige tidspunkt. </p>
+</li>
+<li>
+<p>Hvis De kommer i tanke om en glemt dosis 12 timer eller mere efter det tidspunkt, hvor De 
+normalt tager Truvada, skal De ikke tage den glemte dosis. Vent og tag den næste dosis, helst 
+med mad, på det sædvanlige tidspunkt. </p>
+</li>
+</ul>
+<p>Hvis De kaster op mindre end en time efter, De har taget Truvada, skal De tage en ny tablet. De 
+behøver ikke tage en ny tablet, hvis De kastede op mere end en time efter, De tog Truvada tabletten. </p>
+<p>Hold ikke op med at tage Truvada </p>
+<ul>
+<li>
+<p>Hvis De tager Truvada for behandling af hiv-infektion, kan det nedsætte effektiviteten af 
+den behandling mod hiv, som Deres læge anbefaler, hvis De stopper med at tage tabletterne.  </p>
+</li>
+<li>
+<p>Hvis De tager Truvada for at nedsætte risikoen for at få hiv, må De ikke holde op med at 
+tage Truvada eller springe en dosis over. Hvis De stopper med at tage Truvada eller springer en 
+dosis over, kan det øge Deres risiko for at blive smittet med hiv. </p>
+</li>
+</ul>
+<p> 
+Hold ikke op med at tage Truvada uden først at have talt med Deres læge.  </p>
+<ul>
+<li>Hvis De har hepatitis B, er det særlig vigtigt ikke at ophøre med behandlingen med Truvada 
+uden først at konsultere Deres læge. Det kan være nødvendigt at få taget blodprøver i flere 
+måneder efter ophør med behandlingen. Hos nogle patienter med fremskreden leversygdom 
+eller cirrose bør behandlingen ikke ophøre, fordi det kan medføre forværring af Deres hepatitis, 
+hvilket kan være livstruende. </li>
+</ul>
+<p> 
+Hvis De lægger mærke til nye eller usædvanlige symptomer efter behandlingens ophør, 
+skal De omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, 
+som De normalt ville forbinde med hepatitis B-infektion. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger:  </p>
+<ul>
+<li>
+<p>Laktatacidose (for meget mælkesyre i blodet) er en sjælden bivirkning, som kan være 
+livstruende. Laktatacidose forekommer oftere hos kvinder, især hvis de er overvægtige, og hos 
+personer med leversygdom. Følgende kan være tegn på laktatacidose: </p>
+</li>
+<li>
+<p>dyb, hurtig vejrtrækning </p>
+</li>
+<li>
+<p>døsighed </p>
+</li>
+<li>
+<p>kvalme, opkastning  </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+</ul>
+<p> 
+Hvis De tror, De har laktatacidose, skal De straks søge læge. </p>
+<ul>
+<li>
+<p>Tegn på inflammation (en betændelseslignende reaktion) eller infektion. Hos nogle 
+patienter med fremskreden hiv-infektion (AIDS) og tidligere tilfælde af opportunistiske 
+infektioner (infektioner, der optræder hos mennesker med et svagt immunforsvar), kan der 
+forekomme tegn og symptomer på inflammation fra tidligere infektioner kort efter, at 
+behandlingen for hiv er startet. Det menes, at disse symptomer skyldes en forbedring i kroppens 
+immunforsvar, så kroppen kan bekæmpe infektioner, der kan have været til stede uden tydelige 
+symptomer.  </p>
+</li>
+<li>
+<p>Autoimmune sygdomme (når immunsystemet angriber sunde væv i kroppen), kan også opstå, 
+efter at De begynder at tage medicin for at behandle hiv-infektion. Autoimmune sygdomme kan 
+forekomme mange måneder efter behandlingsstart. Hold øje med symptomer på infektion eller 
+andre symptomer såsom: </p>
+</li>
+<li>
+<p>muskelsvaghed </p>
+</li>
+<li>
+<p>svaghed, der begynder i hænder og fødder og bevæger sig op mod selve kroppen </p>
+</li>
+<li>
+<p>hjertebanken, rysten (tremor) eller hyperaktivitet </p>
+</li>
+</ul>
+<p> 
+Hvis De ser disse eller andre symptomer på inflammation eller infektion, skal De 
+straks søge læge. </p>
+<p>Bivirkninger: </p>
+<p>Meget almindelige bivirkninger 
+(kan opstå hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>diarré, opkastning, kvalme </p>
+</li>
+<li>
+<p>svimmelhed, hovedpine </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>svaghedsfølelse </p>
+</li>
+</ul>
+<p>Prøver kan også vise: </p>
+<ul>
+<li>
+<p>nedsat indhold af phosphat i blodet </p>
+</li>
+<li>
+<p>forhøjet kreatinkinase </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger 
+(kan opstå hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>smerter, mavesmerter </p>
+</li>
+<li>
+<p>søvnløshed, unormale drømme </p>
+</li>
+<li>
+<p>problemer med fordøjelsen, som resulterer i ubehag efter måltider, oppustethed, afgang af 
+tarmluft (flatulens) </p>
+</li>
+<li>
+<p>udslæt (inklusive røde pletter eller skjolder, undertiden med blærer eller hævelse af huden), 
+som kan være allergiske reaktioner, kløe, ændringer i hudfarven, herunder pletvis mørkfarvning 
+af huden </p>
+</li>
+<li>
+<p>andre allergiske reaktioner som pibende vejrtrækning, hævelser eller følelse af svimmelhed </p>
+</li>
+<li>
+<p>tab af knoglemasse </p>
+</li>
+</ul>
+<p>Prøver kan også vise: </p>
+<ul>
+<li>
+<p>lavt antal hvide blodlegemer (et fald i antallet af hvide blodlegemer kan gøre Dem mere 
+modtagelig for infektion) </p>
+</li>
+<li>
+<p>forhøjet indhold af triglycerider (fedtsyrer), galde eller glucose (sukker) i blodet </p>
+</li>
+<li>
+<p>problemer med lever og bugspytkirtel </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger 
+(kan opstå hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>mavesmerter på grund af betændelse i bugspytkirtlen </p>
+</li>
+<li>
+<p>hævelse i ansigt, læber, tunge eller svælg </p>
+</li>
+<li>
+<p>lavt antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>nedbrydning af muskelvæv, muskelsmerter og muskelsvaghed, hvilket kan forekomme på grund 
+af skader på celler i nyrerne (de tubulære celler) </p>
+</li>
+</ul>
+<p>Prøver kan også vise: </p>
+<ul>
+<li>
+<p>fald i blodets indhold af kalium </p>
+</li>
+<li>
+<p>øget kreatinin i blodet </p>
+</li>
+<li>
+<p>ændringer i urinen </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger<br />
+(kan opstå hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>laktatacidose (se Alvorlige bivirkninger) </p>
+</li>
+<li>
+<p>fedtlever </p>
+</li>
+<li>
+<p>gulfarvning af hud eller øjne, kløe eller mavesmerter på grund af leverbetændelse </p>
+</li>
+<li>
+<p>inflammation i nyrerne, udskillelse af store mængder urin, tørst, nyresvigt, skade på tubulære 
+celler i nyrerne </p>
+</li>
+<li>
+<p>blødgøring af knoglerne (med knoglesmerter og af og til med knoglebrud til følge) </p>
+</li>
+<li>
+<p>rygsmerter på grund af nyreproblemer </p>
+</li>
+</ul>
+<p>Skade på tubulære celler i nyrerne kan være forbundet med nedbrydning af muskelvæv, blødgøring af 
+knogler (med knoglesmerter og af og til med knoglebrud til følge), muskelsmerter, muskelsvaghed og 
+nedsat indhold af kalium eller fosfat i blodet. </p>
+<p> 
+Hvis De bemærker nogen af de ovenfor anførte bivirkninger, eller hvis nogen af 
+bivirkningerne bliver alvorlige, skal De tale med lægen eller apotekspersonalet. </p>
+<p>Hyppigheden af følgende bivirkninger kendes ikke.  </p>
+<ul>
+<li>
+<p>Problemer med knogler. Nogle patienter, der tager antiretroviral kombinationsmedicin såsom 
+Truvada, kan udvikle en knoglesygdom, der hedder knoglenekrose (hvor knoglevævet dør på 
+grund af nedsat blodtilførsel til knoglen). Nogle af de mange risikofaktorer for at udvikle denne 
+sygdom er, hvis De tager denne type medicin i længere tid, tager kortikosteroider, drikker 
+alkohol, hvis De har et meget svagt immunsystem, eller hvis De er overvægtig. Tegn på 
+knoglenekrose er: </p>
+</li>
+<li>
+<p>stivhed i led </p>
+</li>
+<li>
+<p>smerter i led (særligt i hofter, knæ og skuldre) </p>
+</li>
+<li>
+<p>svært ved at bevæge sig 
+ 
+Hvis De bemærker nogen af disse symptomer, skal De søge læge. </p>
+</li>
+</ul>
+<p>Under hiv-behandling kan der forekomme en stigning i legemsvægt og i et forhøjet indhold af lipider 
+og glucose i blodet. Dette skyldes dels forbedret sundhedstilstand og livsstil og med hensyn til lipider i 
+blodet undertiden selve hiv-medicinen. Lægen vil teste Dem for at vurdere disse ændringer. </p>
+<p>Andre bivirkninger hos børn  </p>
+<ul>
+<li>
+<p>Hos børn, der får emtricitabin, er det meget almindeligt at opleve ændringer i hudfarven, 
+herunder  </p>
+</li>
+<li>
+<p>Pletvis mørkfarvning af huden </p>
+</li>
+<li>
+<p>Hos børn er det almindeligt at opleve et lavt antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>Dette kan forårsage, at barnet bliver træt eller stakåndet 
+ 
+Hvis De bemærker nogen af disse symptomer, skal De fortælle det til lægen. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store truvada"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store truvada"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på tabletbeholderen og pakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. Hold tabletbeholderen tæt tillukket. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Truvada indeholder </p>
+<ul>
+<li>
+<p>Aktive stoffer: emtricitabin og tenofovirdisoproxil. Hver Truvada filmovertrukken tablet 
+indeholder 200 mg emtricitabin og 245 mg tenofovirdisoproxil (svarende til 300 mg 
+tenofovirdisoproxilfumarat eller 136 mg tenofovir). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: croscarmellosenatrium (E468), glyceroltriacetat (E1518), 
+hypromellose (E464), indigocarmin aluminiumpigment (E132), lactosemonohydrat, 
+magnesiumstearat (E572), mikrokrystallinsk cellulose (E460), pregelatineret stivelse (glutenfri) 
+og titandioxid (E171). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Truvada filmovertrukne tabletter er blå, kapselformede tabletter, på den ene side præget med ordet 
+„GILEAD“ og på den anden side med tallet „701“. Truvada leveres i tabletbeholder, der indeholder 
+30 tabletter. Hver tabletbeholder indeholder silicagel-tørremiddel, der skal blive i tabletbeholderen, for 
+at beskytte dine tabletter. Silicagel-tørremidlet er i en separat pose eller beholder og må ikke sluges. </p>
+<p>Fås i pakninger, der indeholder 1 tabletbeholder med 30 filmovertrukne tabletter og 
+60 (2 tabletbeholdere med 30) filmovertrukne tabletter og 90 (3 tabletbeholdere med 30) 
+filmovertrukne tabletter. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrland </p>
+<p>Fremstiller: 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>BILAG IV </p>
+<p>VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE 
+Videnskabelige konklusioner </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for 
+emtricitabin/tenofovirdisoproxil er PRAC nået frem til følgende videnskabelige konklusioner: </p>
+<p>I lyset af tilgængelige data for fald i knoglemineraltæthed fra kliniske forsøg, litteraturen, spontane 
+indberetninger anser PRAC en kausal sammenhæng mellem emtricitabin/tenofovirdisoproxil og fald i 
+knoglemineraltæthed som i det mindste en rimelig mulighed. PRAC mener også, at den nuværende 
+advarsel/forholdsregel vedrørende knoglevirkninger skal uddybes yderligere. PRAC konkluderede, at 
+produktinformationen for produkter, der indeholder emtricitabin/tenofovirdisproxil, skal ændres 
+tilsvarende. </p>
+<p>Efter gennemgang af PRAC’s anbefaling tilslutter CHMP sig PRAC's generelle videnskabelige 
+konklusioner og begrundelser for anbefalingen. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
+<p>På baggrund af de videnskabelige konklusioner for emtricitabin/tenofovirdisproxil er CHMP af den 
+opfattelse, at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder 
+emtricitabin/tenofovirdisproxil, forbliver uændret under forudsætning af, at de foreslåede ændringer 
+indføres i produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6471e64aafea74720593633f2a0cd695
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for truvada Package Leaflet for language en"
+Description: "ePI document Bundle for truvada Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6471e64aafea74720593633f2a0cd695"
+* entry[0].resource = composition-en-6471e64aafea74720593633f2a0cd695
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6471e64aafea74720593633f2a0cd695"
+* entry[=].resource = mp6471e64aafea74720593633f2a0cd695
+                            
+                    
+Instance: bundlepackageleaflet-da-6471e64aafea74720593633f2a0cd695
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for truvada Package Leaflet for language da"
+Description: "ePI document Bundle for truvada Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6471e64aafea74720593633f2a0cd695"
+* entry[0].resource = composition-da-6471e64aafea74720593633f2a0cd695
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6471e64aafea74720593633f2a0cd695"
+* entry[=].resource = mp6471e64aafea74720593633f2a0cd695
+                            
+                    
+
+
+
+Instance: mp6471e64aafea74720593633f2a0cd695
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Truvada 200 mg/245 mg film-coated tablets"
-Description: "Truvada 200 mg/245 mg film-coated tablets"
+Title: "Medicinal Product truvada"
+Description: "truvada"
 Usage: #inline
 
  
@@ -603,7 +1465,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Truvada 200 mg/245 mg film-coated tablets"
+  * productName = "truvada"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -630,29 +1492,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6471e64aafea74720593633f2a0cd695
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for truvada Package Leaflet for language en"
-Description: "ePI document Bundle for truvada Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6471e64aafea74720593633f2a0cd695ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/04/305/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "truvada"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6471e64aafea74720593633f2a0cd695"
-* entry[0].resource = composition-en-6471e64aafea74720593633f2a0cd695
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9acd46c48ecbc972f712ad86499f0d3f"
-* entry[=].resource = mp9acd46c48ecbc972f712ad86499f0d3f
-                            
-                      
+* title = "List of all ePIs associated with truvada"
+
+* subject = Reference(mp9acd46c48ecbc972f712ad86499f0d3f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#truvada "truvada"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6471e64aafea74720593633f2a0cd695) // truvada en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6471e64aafea74720593633f2a0cd695) // truvada da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6471e64aafea74720593633f2a0cd695
+InstanceOf: List
+
+* insert 6471e64aafea74720593633f2a0cd695ListRuleset
+    

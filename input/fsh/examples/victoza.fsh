@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-141d929731a8da3daac9f9a16668bc62
 InstanceOf: CompositionUvEpi
 Title: "Composition for victoza Package Leaflet"
@@ -406,12 +409,587 @@ cross-infection. </p>         </div>"""
 
 
 
+Instance: composition-da-141d929731a8da3daac9f9a16668bc62
+InstanceOf: CompositionUvEpi
+Title: "Composition for victoza Package Leaflet"
+Description:  "Composition for victoza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp309e1edf69079017b321769ab041520d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp309e1edf69079017b321769ab041520d
+* title = "TEST PURPOSES ONLY - victoza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Victoza </li>
+<li>Sådan skal du bruge Victoza </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What victoza is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What victoza is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Victoza indeholder det aktive stof liraglutid. Det hjælper kroppen med at sænke blodsukkerniveauet, 
+men kun når det er for højt. Det gør også, at maden passerer langsommere gennem maven og kan være 
+med til at forhindre hjertesygdom. </p>
+<p>Victoza bruges alene, hvis dit blodsukker ikke er tilstrækkeligt kontrolleret med kost og motion alene, 
+og du ikke kan bruge metformin (et andet lægemiddel mod diabetes). </p>
+<p>Victoza bruges i kombination med andre lægemidler mod diabetes, når disse ikke i tilstrækkelig grad 
+kan kontrollere dit blodsukkerniveau. Disse kan inkludere: </p>
+<ul>
+<li>lægemidler mod diabetes i tabletform (såsom metformin, pioglitazon, sulfonylurinstof, natrium-
+glucose co-transporter-2-hæmmer (SGLT2i)) og/eller insulin. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take victoza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take victoza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Victoza 
+– 
+Hvis du er allergisk over for liraglutid eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(anført under punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken:  </p>
+<ul>
+<li>
+<p>før du bruger Victoza. </p>
+</li>
+<li>
+<p>hvis du har eller har haft en sygdom i bugspytkirtlen (pankreas). </p>
+</li>
+</ul>
+<p>Du må ikke bruge dette lægemiddel, hvis du lider af type 1-diabetes (når din krop ikke producerer 
+insulin) eller diabetesrelateret syreforgiftning (diabetisk ketoacidose) (en komplikation af diabetes 
+med højt blodsukker og anstrengelse ved vejrtrækning). Det er ikke et insulin og kan derfor ikke 
+bruges som en erstatning for insulin. 
+Victoza anbefales ikke, hvis du er i dialysebehandling.<br />
+Victoza anbefales ikke, hvis du har svært nedsat leverfunktion. 
+Victoza anbefales ikke, hvis du har alvorligt hjertesvigt. </p>
+<p>Dette lægemiddel anbefales ikke, hvis du har alvorlige mave- eller tarmproblemer, som resulterer i 
+forsinket tømning af mavesækken (gastroparese) eller betændelsessygdomme i tarmene. </p>
+<p>Hvis du har symptomer på akut betændelse i bugspytkirtlen, såsom vedvarende stærke mavesmerter, 
+skal du straks kontakte din læge (se punkt 4). </p>
+<p>Kontakt din læge, hvis du har sygdomme i skjoldbruskkirtlen, herunder knuder i skjoldbruskkirtlen og 
+forstørrelse af skjoldbruskkirtlen. </p>
+<p>Når du starter på behandling med Victoza, kan du i nogle tilfælde opleve væsketab/dehydrering, f.eks. 
+hvis du får kvalme og kaster op eller får diarré. Det er vigtigt at undgå dehydrering ved at drikke 
+rigeligt med væske. Kontakt din læge, hvis du har spørgsmål eller er bekymret. </p>
+<p>Børn og unge 
+Victoza kan anvendes til unge og børn i alderen 10 år og derover. Der er ingen tilgængelige data for 
+børn under 10 år.  </p>
+<p>Brug af anden medicin sammen med Victoza 
+Fortæl det altid til lægen. apotekspersonalet eller sygeplejersken, hvis du bruger anden medicin, for 
+nylig har brugt anden medicin eller planlægger at bruge anden medicin.  </p>
+<p>Det er især vigtigt, at du fortæller det til lægen, apotekspersonalet eller sygeplejersken, hvis du bruger 
+medicin, der indeholder et eller flere af følgende aktive stoffer: </p>
+<ul>
+<li>
+<p>Sulfonylurinstof (såsom glimepirid eller glibenclamid) eller insulin. Dit blodsukker kan blive 
+for lavt (hypoglykæmi), hvis du bruger Victoza sammen med sulfonylurinstof eller insulin, fordi 
+sulfonylurinstoffer og insulin øger risikoen for hypoglykæmi. Når du begynder at bruge disse 
+lægemidler samtidig, vil din læge muligvis bede dig om at nedsætte dosis af sulfonylurinstoffet 
+eller insulinet. Advarselssignalerne for hypoglykæmi kan ses under punkt 4. Din læge kan 
+informere dig om, at du skal måle dit blodsukkerniveau, hvis du også tager sulfonylurinstof 
+(såsom glimepirid eller glibenclamid) eller insulin. Dette kan hjælpe din læge til at beslutte, om 
+din dosis af sulfonylurinstof eller insulin skal ændres. </p>
+</li>
+<li>
+<p>Hvis du anvender insulin, vil din læge fortælle dig, hvordan du skal reducere insulindosen, og 
+vil anbefale dig at overvåge dit blodsukkerniveau hyppigere med henblik på at undgå 
+hyperglykæmi (for højt blodsukkerniveau) og diabetisk ketoacidose (en komplikation til 
+diabetes, der forekommer, når kroppen ikke er i stand til at nedbryde glukose, fordi der ikke er 
+nok insulin). </p>
+</li>
+<li>
+<p>Warfarin og andre orale lægemidler mod blodpropper. Hyppigere blodprøver til at bestemme 
+blodets evne til at størkne kan være nødvendigt. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Fortæl det til lægen, hvis du er gravid, tror du er gravid eller forsøger at blive det. Victoza må ikke 
+bruges under graviditet, da det er ukendt, om det kan skade dit ufødte barn. </p>
+<p>Det vides ikke, om Victoza overføres til modermælken, brug derfor ikke dette lægemiddel, hvis du 
+ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Lavt blodsukker (hypoglykæmi) kan reducere din koncentrationsevne. Undgå at køre bil eller betjene 
+maskiner, hvis du oplever tegn på hypoglykæmi. Se advarselssignalerne for lavt blodsukker under 
+punkt 4. Spørg din læge for yderligere information om dette emne. </p>
+<p>Vigtig information om nogle af indholdsstofferne i Victoza 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per dosis, dvs. det er i det 
+væsentlige ’natriumfrit’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take victoza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take victoza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid denne medicin nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, 
+apotekspersonalet eller sygeplejersken. </p>
+<ul>
+<li>
+<p>Den sædvanlige startdosis er 0,6 mg én gang dagligt i mindst én uge. </p>
+</li>
+<li>
+<p>Din læge vil fortælle dig, hvornår du skal øge dosis til 1,2 mg én gang dagligt. </p>
+</li>
+<li>
+<p>Din læge vil muligvis bede dig om igen at øge dosis til 1,8 mg én gang dagligt, hvis en dosis på 
+1,2 mg ikke er nok til at kontrollere dit blodsukker. 
+Du må ikke ændre din dosis, medmindre lægen har bedt dig om det. </p>
+</li>
+</ul>
+<p>Victoza gives som en injektion under huden (subkutant). Injicér ikke lægemidlet i en blodåre eller 
+muskel. De bedste steder til injektion er forrest på låret, maveskindet eller overarmen. </p>
+<p>Du kan give dig selv injektionen når som helst i løbet af dagen, uafhængigt af et måltid. Når du har 
+fundet det tidspunkt på dagen, der passer dig bedst, er det at foretrække, at du injicerer Victoza på 
+omtrent samme tidspunkt hver dag. </p>
+<p>Inden du anvender pennen for første gang, vil din læge eller sygeplejerske vise dig, hvordan den 
+bruges. 
+Der findes en detaljeret brugervejledning på den anden side af denne indlægsseddel. </p>
+<p>Hvis du har brugt for meget Victoza 
+Hvis du har brugt for meget Victoza, skal du straks opsøge din læge. Du har muligvis brug for 
+medicinsk behandling. Du kan få kvalme, opkastning, diarré eller lavt blodsukker (hypoglykæmi). Se 
+punkt 4 for advarselssignaler for lavt blodsukker. </p>
+<p>Hvis du har glemt at bruge Victoza 
+Hvis du har glemt at tage en dosis, skal du bruge Victoza, så snart du kommer i tanke om det. 
+Hvis der er gået mere end 12 timer, siden du skulle have brugt Victoza, skal den glemte dosis springes 
+over. Tag herefter den næste dosis som sædvanligt den følgende dag. 
+Du må ikke tage en dobbeltdosis eller øge dosis den følgende dag som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at bruge Victoza 
+Du må ikke holde op med at bruge Victoza uden først at have talt med din læge om det. Hvis du holder 
+op med at bruge lægemidlet, kan dit blodsukkerniveau stige. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Almindelige: kan forekomme hos op til 1 ud af 10 personer </p>
+<ul>
+<li>Hypoglykæmi (lavt blodsukker). Advarselssignalerne for hypoglykæmi kan komme pludseligt 
+og kan medføre: koldsved, kold bleg hud, hovedpine, hurtig hjertebanken, kvalme, usædvanlig 
+stor sultfornemmelse, synsforstyrrelser, døsighed, svaghed, nervøsitet, angst, forvirring, 
+koncentrationsbesvær og rysten. Din læge vil fortælle dig, hvordan du kan behandle lavt 
+blodsukker, og hvad du skal gøre, hvis du bemærker et eller flere af disse advarselssignaler. Der 
+er større sandsynlighed for, at dette sker, hvis du også tager sulfonylurinstof eller insulin. Din 
+læge kan sætte din dosis af disse lægemidler ned, før du begynder at bruge Victoza. </li>
+</ul>
+<p>Sjældne: kan forekomme hos op til 1 ud af 1.000 personer </p>
+<ul>
+<li>
+<p>En alvorlig form for allergisk reaktion (anafylaktisk reaktion) med yderligere symptomer såsom 
+åndedrætsbesvær, hævelse af hals og ansigt, hurtig hjerterytme (puls) osv. Hvis du får disse 
+symptomer, skal du straks søge lægehjælp og informere din læge hurtigst muligt. </p>
+</li>
+<li>
+<p>Tillukning af tarmen. En alvorlig form for forstoppelse med yderligere symptomer, såsom 
+mavesmerter, oppustet mave, opkastning mm. </p>
+</li>
+</ul>
+<p>Meget sjældne: kan forekomme hos op til 1 ud af 10.000 personer </p>
+<ul>
+<li>Betændelse i bugspytkirtlen (pankreatitis). Pankreatitis kan være en alvorlig, eventuelt 
+livstruende tilstand. Stop med at tage Victoza og kontakt straks en læge, hvis du bemærker 
+nogen af følgende alvorlige bivirkninger: </li>
+</ul>
+<p>Svære og vedvarende mavesmerter, som eventuelt kan stråle ud til ryggen, såvel som kvalme og 
+opkastning, da dette kan være et tegn på en betændelse i bugspytkirtlen (pankreatitis). </p>
+<p>Andre bivirkninger 
+Meget almindelige: kan forekomme hos flere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Kvalme. Forsvinder som regel med tiden. </p>
+</li>
+<li>
+<p>Diarré. Forsvinder som regel med tiden. </p>
+</li>
+</ul>
+<p>Almindelige </p>
+<ul>
+<li>Opkastning. </li>
+</ul>
+<p>Når du påbegynder behandling med Victoza, kan du i nogle tilfælde opleve væskemangel/dehydrering 
+f.eks. ved opkastning, kvalme eller diarré. Det er vigtigt at undgå dehydrering ved at drikke rigeligt 
+med væske. </p>
+<ul>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Fordøjelsesbesvær </p>
+</li>
+<li>
+<p>Betændelse i maveslimhinden (gastritis). Symptomerne på dette inkluderer mavesmerter, 
+kvalme og opkastning. </p>
+</li>
+<li>
+<p>Brændende eller sviende fornemmelse bag brystbenet og sure opstød pga. tilbageløb af 
+mavesyre til spiserøret (gastroøsofageal reflukssygdom). Symptomerne på dette inkluderer 
+halsbrand. </p>
+</li>
+<li>
+<p>Mavepine eller oppustet mave </p>
+</li>
+<li>
+<p>Ubehag i maven </p>
+</li>
+<li>
+<p>Forstoppelse </p>
+</li>
+<li>
+<p>Luft i maven (flatulens) </p>
+</li>
+<li>
+<p>Nedsat appetit </p>
+</li>
+<li>
+<p>Bronkitis </p>
+</li>
+<li>
+<p>Forkølelse </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Øget puls </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+<li>
+<p>Tandpine </p>
+</li>
+<li>
+<p>Reaktioner på injektionsstedet (såsom blå mærker, smerte, irritation, kløe og udslæt) </p>
+</li>
+<li>
+<p>Forhøjet niveau af enzymer i bugspytkirtlen (såsom lipase og amylase). </p>
+</li>
+</ul>
+<p>Ikke almindelige: kan forekomme hos op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>Allergiske reaktioner, såsom kløe og nældefeber (en form for hududslæt) </p>
+</li>
+<li>
+<p>Væskemangel (dehydrering), nogle gange med nedsat nyrefunktion </p>
+</li>
+<li>
+<p>Utilpashed </p>
+</li>
+<li>
+<p>Galdesten </p>
+</li>
+<li>
+<p>Betændelse i galdeblæren </p>
+</li>
+<li>
+<p>Ændring af hvordan ting smager </p>
+</li>
+<li>
+<p>En forsinkelse i mavetømningen. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Tal med lægen, sygeplejersken eller apotekspersonalet, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke fremgår af denne indlægsseddel. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store victoza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store victoza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pennen og æsken efter ’EXP’. Udløbsdatoen 
+(EXP) er den sidste dag i den nævnte måned. </p>
+<p>Før brug: 
+Opbevares i køleskab (2°C–8°C). Må ikke fryses. Må ikke opbevares tæt på køleelementet. </p>
+<p>Efter ibrugtagning: 
+Du kan opbevare pennen i 1 måned, hvis den opbevares ved temperaturer under 30°C eller i køleskab 
+(2°C–8°C) på afstand af køleelementet. Må ikke fryses. 
+Når du ikke bruger pennen, skal den opbevares med hætten påsat for at beskytte mod lys. </p>
+<p>Brug ikke lægemidlet, hvis opløsningen ikke er klar og farveløs eller næsten farveløs. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Victoza indeholder 
+– 
+Aktivt stof: Liraglutid. 1 ml injektionsvæske, opløsning, indeholder 6 mg liraglutid. Én fyldt 
+pen indeholder 18 mg liraglutid. 
+– 
+Øvrige indholdsstoffer: Dinatriumphosphatdihydrat, propylenglycol, phenol og vand til 
+injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser 
+Victoza leveres som en klar og farveløs eller næsten farveløs, opløsning i en fyldt pen. Hver pen 
+indeholder 3 ml injektionsvæske, opløsning, der giver 30 doser på 0,6 mg, 15 doser på 1,2 mg eller 
+10 doser på 1,8 mg. </p>
+<p>Victoza fås i pakker med 1, 2, 3, 5 eller 10 penne. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført. 
+Nåle medfølger ikke. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd 
+Danmark </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om Victoza på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu </p>
+<p>BRUGERVEJLEDNING TIL VICTOZA PENNEN 
+Læs denne vejledning grundigt, inden du bruger din 
+pen. 
+Pennen indeholder 18 mg liraglutid ved levering. Du kan 
+vælge mellem doser på 0,6 mg, 1,2 mg og 1,8 mg. 
+Pennen er udviklet til brug sammen med NovoFine eller 
+NovoTwist engangsnåle med en længde på op til 8 mm og 
+så tynde som 32G (0,25/0,23 mm). </p>
+<p>Klargøring af pennen </p>
+<p>Kontrollér navnet og den farvede etiket på din pen for 
+at sikre, at den indeholder liraglutid. Brug af forkert 
+medicin kan medføre alvorlig skade. </p>
+<p>Træk penhætten af. </p>
+<p>Fjern papirforseglingen fra en ny engangsnål.<br />
+Skru nålen lige og stramt på pennen. </p>
+<p>Fjern den ydre nålehætte og gem den til senere brug. </p>
+<p>Fjern den indre nålehætte og smid den væk. </p>
+<p>Brug altid en ny nål til hver injektion. Dette reducerer risikoen for urenheder, infektioner, 
+lækage af liraglutid, blokerede nåle og unøjagtig dosering. </p>
+<p>Pas på ikke at bøje eller beskadige nålen. </p>
+<p>Forsøg aldrig at sætte den indre nålehætte på nålen igen. Du kan stikke dig selv på nålen. 
+Vedligeholdelse af din pen </p>
+<ul>
+<li>
+<p>Forsøg ikke at reparere pennen eller skille den ad. </p>
+</li>
+<li>
+<p>Beskyt pennen mod støv, snavs og alle former for væske. </p>
+</li>
+<li>
+<p>Rengør pennen med en klud fugtet med et mildt rengøringsmiddel.  </p>
+</li>
+<li>
+<p>Pennen må ikke vaskes, lægges i blød eller smøres, da dette kan beskadige den. </p>
+</li>
+</ul>
+<p>Vigtig information </p>
+<ul>
+<li>
+<p>Del aldrig pennen med andre. </p>
+</li>
+<li>
+<p>Opbevar pennen utilgængeligt for andre, især børn. 
+Kontrollér gennemløbet af hver ny pen </p>
+</li>
+</ul>
+<p>Inden din første injektion med en ny pen, skal du 
+kontrollere gennemløbet. Hvis din pen allerede er i 
+brug, så gå direkte til ‘Valg af dosis’, trin H. </p>
+<p>Drej dosisvælgeren, indtil klargøringssymbolet er ud for 
+markøren. </p>
+<p>Hold pennen lodret med nålen opad. Bank forsigtigt på 
+cylinderampullen et par gange med fingeren. Herved 
+stiger eventuelle luftbobler op til toppen af 
+cylinderampullen. </p>
+<p>Hold stadig pennen lodret med nålen opad, og tryk på 
+dosisknappen, indtil der står 0 mg ud for markøren.  </p>
+<p>En dråbe liraglutid kommer til syne på nålens spids. Hvis 
+der ikke kommer en dråbe til syne, gentag trin E til G op 
+til fire gange. </p>
+<p>Hvis der stadig ikke er en dråbe liraglutid, skal du 
+udskifte nålen og gentage trin E til G en gang mere. </p>
+<p>Brug ikke pennen, hvis en dråbe liraglutid stadig ikke 
+kommer til syne. Dette indikerer, at pennen er defekt, og 
+du skal bruge en ny. </p>
+<p>Hvis du har tabt pennen på en hård overflade eller har mistanke om, at der er noget galt med 
+den, skal du altid påsætte en ny engangsnål og udføre klargøring af pennen, inden du udfører 
+injektioner med den. 
+Indstilling af dosis </p>
+<p>Kontrollér altid, at der står 0 mg ud for markøren. </p>
+<p>Drej dosisvælgeren, indtil den ønskede dosis er ud for 
+markøren (0,6 mg, 1,2 mg eller 1,8 mg). </p>
+<p>Hvis du er kommet til at vælge den forkerte dosis, kan du 
+ændre den ved at dreje dosisvælgeren frem eller tilbage, 
+indtil den rigtige dosis er ud for markøren.  </p>
+<p>Undgå at trykke på dosisknappen, når du drejer 
+dosisvælgeren baglæns, da der kan komme liraglutid ud. </p>
+<p>Hvis dosisvælgeren stopper, før den ønskede dosis er ud 
+for markøren, er der ikke tilstrækkeligt med liraglutid 
+tilbage til en fuld dosis. Du kan nu gøre et af følgende: </p>
+<p>Opdeling af dosis i to injektioner: 
+Drej dosisvælgeren frem eller tilbage indtil 0,6 mg eller 
+1,2 mg er ud for markøren. Injicér den valgte dosis. 
+Klargør derefter en ny pen til injektion, og injicér de 
+manglende milligram, så du får en fuld dosis. </p>
+<p>Du skal kun fordele din dosis mellem din nuværende pen 
+og en ny pen, hvis du har fået træning eller vejledning af 
+sundhedspersonalet. Brug en regnemaskine til at 
+planlægge dosis. Hvis du fordeler dosis forkert, kan du 
+injicere for meget eller for lidt liraglutid. </p>
+<p>Injicér den fulde dosis med en ny pen: 
+Hvis dosisvælgeren stopper, før 0,6 mg er ud for 
+markøren, skal du klargøre en ny pen og injicere den 
+fulde dosis med den nye pen. </p>
+<p>Forsøg ikke at vælge andre doser end 0,6 mg, 1,2 mg eller 1,8 mg. De viste tal skal være 
+nøjagtigt ud for markøren for at sikre, at du får en korrekt dosis. 
+Dosisvælgeren klikker, når den drejes. Brug ikke disse klik til at vælge din dosis. </p>
+<p>Brug ikke cylinderampulskalaen til at måle, hvor meget liraglutid der skal injiceres – den er 
+ikke tilstrækkelig nøjagtig. 
+Injektion af dosis </p>
+<p>Stik nålen ind i huden på den måde, som lægen eller 
+sygeplejersken har vist dig. Følg herefter 
+nedenstående vejledning: </p>
+<p>Tryk på dosisknappen til injektion, indtil der står 0 mg ud 
+for markøren. Undgå at røre ved dosisvinduet med 
+fingrene eller trykke dosisvælgeren sidelæns under 
+injektionen. Dette kan blokere injektionen. Hold 
+dosisknappen trykket i bund, og lad nålen sidde under 
+huden i mindst seks sekunder. På denne måde sikrer du, at 
+du får den fulde dosis. </p>
+<p>Træk nålen ud. 
+Du vil muligvis se en dråbe liraglutid på nålens spids. 
+Dette er normalt og har ingen indflydelse på din dosis. </p>
+<p>Stik nålens spids ind i den ydre nålehætte uden at røre ved 
+nålen eller nålehætten. </p>
+<p>Når nålen er skjult, skal du forsigtigt trykke den ydre 
+nålehætte helt på. Skru herefter nålen af. Smid den 
+omhyggeligt ud, og sæt penhætten på igen.  </p>
+<p>Når pennen er tom, skal den smides omhyggeligt ud uden 
+en nål påsat. Kassér venligst pennen og nålen i 
+overensstemmelse med lokale krav. </p>
+<p>Fjern altid nålen efter hver injektion, og opbevar pennen uden nålen påsat. </p>
+<p>Dette reducerer risikoen for urenheder, infektioner, lækage af liraglutid, blokerede nåle og 
+unøjagtig dosering. </p>
+<p>For at undgå stikuheld og krydsinfektion skal omsorgspersoner være meget forsigtige ved 
+håndtering af brugte nåle. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-141d929731a8da3daac9f9a16668bc62
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for victoza Package Leaflet for language en"
+Description: "ePI document Bundle for victoza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-141d929731a8da3daac9f9a16668bc62"
+* entry[0].resource = composition-en-141d929731a8da3daac9f9a16668bc62
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp141d929731a8da3daac9f9a16668bc62"
+* entry[=].resource = mp141d929731a8da3daac9f9a16668bc62
+                            
+                    
+Instance: bundlepackageleaflet-da-141d929731a8da3daac9f9a16668bc62
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for victoza Package Leaflet for language da"
+Description: "ePI document Bundle for victoza Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-141d929731a8da3daac9f9a16668bc62"
+* entry[0].resource = composition-da-141d929731a8da3daac9f9a16668bc62
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp141d929731a8da3daac9f9a16668bc62"
+* entry[=].resource = mp141d929731a8da3daac9f9a16668bc62
+                            
+                    
+
+
+
+Instance: mp141d929731a8da3daac9f9a16668bc62
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Victoza 6 mg/ml solution for injection in pre-filled pen"
-Description: "Victoza 6 mg/ml solution for injection in pre-filled pen"
+Title: "Medicinal Product victoza"
+Description: "victoza"
 Usage: #inline
 
  
@@ -431,7 +1009,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Victoza 6 mg/ml solution for injection in pre-filled pen"
+  * productName = "victoza"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -458,29 +1036,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-141d929731a8da3daac9f9a16668bc62
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for victoza Package Leaflet for language en"
-Description: "ePI document Bundle for victoza Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 141d929731a8da3daac9f9a16668bc62ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/529/001-005"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "victoza"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-141d929731a8da3daac9f9a16668bc62"
-* entry[0].resource = composition-en-141d929731a8da3daac9f9a16668bc62
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp309e1edf69079017b321769ab041520d"
-* entry[=].resource = mp309e1edf69079017b321769ab041520d
-                            
-                      
+* title = "List of all ePIs associated with victoza"
+
+* subject = Reference(mp309e1edf69079017b321769ab041520d)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#victoza "victoza"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-141d929731a8da3daac9f9a16668bc62) // victoza en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-141d929731a8da3daac9f9a16668bc62) // victoza da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-141d929731a8da3daac9f9a16668bc62
+InstanceOf: List
+
+* insert 141d929731a8da3daac9f9a16668bc62ListRuleset
+    

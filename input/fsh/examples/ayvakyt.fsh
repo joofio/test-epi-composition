@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f40cac7981e52d03bbfe471a7f88b25f
 InstanceOf: CompositionUvEpi
 Title: "Composition for ayvakyt Package Leaflet"
@@ -386,12 +389,470 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-f40cac7981e52d03bbfe471a7f88b25f
+InstanceOf: CompositionUvEpi
+Title: "Composition for ayvakyt Package Leaflet"
+Description:  "Composition for ayvakyt Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd66af96fc020b432a486338cbfeaab0a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd66af96fc020b432a486338cbfeaab0a
+* title = "TEST PURPOSES ONLY - ayvakyt"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage AYVAKYT </li>
+<li>Sådan skal du tage AYVAKYT </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ayvakyt is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ayvakyt is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+AYVAKYT er et lægemiddel, som indeholder det aktive stof avapritinib.  </p>
+<p>Anvendelse 
+AYVAKYT bruges hos voksne til at behandle aggressiv systemisk mastocytose (ASM), systemisk 
+mastocytose med associeret hæmatologisk neoplasma (SM-AHN) eller mastcelleleukæmi (MCL) efter 
+mindst én systemisk behandling. Disse er sygdomme, hvor kroppen producerer for mange mastceller, 
+en type hvide blodlegemer. Der opstår symptomer, når for mange mastceller ophobes i forskellige af 
+kroppens organer, såsom leveren, knoglemarven eller milten. Disse mastceller frigiver desuden stoffer, 
+som f.eks. histamin, som kan forårsage forskellige generelle symptomer og beskadige de involverede 
+organer. 
+ASM, SM-AHN og MCL kaldes under ét fremskreden systemisk mastocytose (AdvSM). </p>
+<p>AYVAKYT bruges også til behandling af voksne med indolent systemisk mastocytose (ISM) med 
+moderate til svære symptomer, der er utilstrækkeligt kontrolleret på symptomatisk behandling. Dette 
+er en sygdom, hvor din krop har mange unormale mastceller. Mastceller er de hvide blodlegemer, der 
+er ansvarlige for allergiske reaktioner. Disse celler kan findes i alle væv i din krop, men er ofte i din 
+hud, dine tarme og din knoglemarv. Disse unormale mastceller kan forårsage symptomer, som kraftige 
+allergiske reaktioner, diarré, udslæt og tankebesvær. </p>
+<p>Sådan virker AYVAKYT 
+AYVAKYT stopper aktiviteten af en gruppe proteiner i kroppen kaldet kinaser. Mastceller hos 
+patienter med AdvSM og ISM har normalt ændringer (mutationer) i generne, som er involveret i at 
+fremstille specifikke kinaser forbundet med vækst og spredning af disse celler. </p>
+<p>Hvis du har spørgsmål om, hvordan AYVAKYT virker, eller hvorfor du har fået ordineret dette 
+lægemiddel, bedes du kontakte din læge. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ayvakyt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ayvakyt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke AYVAKYT 
+- hvis du er allergisk over for avapritinib eller et af de øvrige indholdsstoffer i AYVAKYT 
+(angivet i punkt 6).  </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen eller apotekspersonalet, før du tager AYVAKYT 
+- hvis du har haft en vaskulær aneurisme (udbulning og svækkelse af en blodkarvæg) eller 
+blødning i hjernen i det seneste år. 
+- hvis du har et lavt blodpladetal. 
+- hvis du tager et lægemiddel, der fortynder blodet for at forhindre blodpropper, såsom 
+warfarin eller phenprocoumon. </p>
+<p>Vær ekstra forsigtig med dette lægemiddel:</p>
+<ul>
+<li>Du kan udvikle symptomer, såsom kraftig hovedpine, synsproblemer, svær søvnighed, eller 
+svær svaghed i den ene side af kroppen (tegn på blødning i hjernen). Hvis disse 
+forekommer, skal du straks kontakte din læge og midlertidigt stoppe behandlingen. For patienter 
+med AdvSM vil lægen evaluere dine blodpladetal, før du starter behandling og overvåge dem 
+efter behov under din behandling med avapritinib. </li>
+<li>Behandling med dette lægemiddel kan føre til en højere risiko for blødning hos patienter med 
+AdvSM. Avapritinib kan forårsage blødninger i fordøjelsessystemet, såsom maven, endetarmen 
+eller tarmene. Fortæl din læge, hvis du har haft eller har problemer med blødning. Før du 
+begynder at tage avapritinib, kan din læge beslutte at tage blodprøver. Søg øjeblikkeligt 
+lægehjælp, hvis du får følgende symptomer: blod i afføringen eller sort afføring, mavesmerter, 
+hoste/opkastning af blod. </li>
+<li>Du kan også opleve hukommelsestab, ændringer i hukommelsen eller forvirring (tegn på 
+en kognitiv effekt). Avapritinib kan nogle gange ændre, hvordan man tænker, og hvordan man 
+husker oplysninger. Kontakt lægen, hvis du oplever disse symptomer, eller hvis et 
+familiemedlem, en omsorgsperson eller en person, som kender dig, bemærker, at du er blevet 
+glemsom eller forvirret. </li>
+<li>Under behandling med dette lægemiddel skal du straks kontakte din læge, hvis du tager hurtigt 
+på i vægt, får hævet ansigt eller lemmer, har vejrtrækningsbesvær eller bliver kortåndet. 
+Lægemidlet kan få kroppen til at binde vand (kraftig væskeophobning kan forekomme hos 
+patienter med AdvSM).  </li>
+<li>Avapritinib kan forårsage en abnorm hjerterytme. Din læge kan udføre undersøgelser for at 
+evaluere disse problemer under din behandling med avapritinib. Fortæl din læge, hvis du føler 
+dig svimmel, svag, eller har unormale hjerteslag, mens du tager dette lægemiddel.  </li>
+<li>Du kan få svære mave- og tarmproblemer (diarré, kvalme eller opkastning), hvis du har 
+AdvSM. Søg straks lægehjælp, hvis du får disse symptomer. </li>
+<li>Du kan blive mere følsom over for solen, mens du tager dette lægemiddel. Det er vigtigt at 
+dække hudområder, der er udsat for solen, og bruge en solcreme med en høj 
+solbeskyttelsesfaktor (SPF). </li>
+</ul>
+<p>Mens du tager avapritinib, vil lægen bede dig om at få taget regelmæssige blodprøver og om at veje 
+dig selv regelmæssigt, hvis du har AdvSM. </p>
+<p>Se punkt 4 for flere oplysninger. </p>
+<p>Børn og unge<br />
+AYVAKYT er ikke blevet undersøgt hos børn og unge under 18 år. Dette lægemiddel må ikke 
+anvendes til børn eller unge under 18 år. </p>
+<p>Brug af andre lægemidler sammen med AYVAKYT 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. AYVAKYT kan påvirke virkningen af 
+andre lægemidler, og visse andre lægemidler kan påvirke, hvordan dette lægemiddel virker.  </p>
+<p>Fortæl din læge eller apotekspersonalet, før du tager AYVAKYT, hvis du tager nogen af 
+følgende lægemidler: </p>
+<p>Følgende lægemidler kan øge virkningen af avapritinib og kan øge bivirkningerne:</p>
+<ul>
+<li>Boceprevir – bruges til at behandle hepatitis C </li>
+<li>Cobicistat, indinavir, lopinavir, nelfinavir, ritonavir, saquinavir – bruges til at behandle hiv-
+infektioner/aids </li>
+<li>Clarithromycin, erythromycin, telithromycin – bruges til at behandle bakterieinfektioner </li>
+<li>Itraconazol, ketoconazol, posaconazol, voriconazol – bruges til at behandle alvorlige 
+svampeinfektioner </li>
+<li>Conivaptan – bruges til at behandle et lavt indhold af natrium i blodet (hyponatriæmi) </li>
+</ul>
+<p>Følgende lægemidler kan reducere effekten af avapritinib:</p>
+<ul>
+<li>Rifampicin – bruges til at behandle tuberkulose (TB) og visse andre bakterieinfektioner  </li>
+<li>Carbamazepin, phenytoin, fosphenytoin, primidon, phenobarbital – bruges til at behandle epilepsi  </li>
+<li>Prikbladet perikon (hypericum perforatum) – naturlægemiddel anvendt mod depression </li>
+<li>Bosentan – bruges til at behandle forhøjet blodtryk </li>
+<li>Efavirenz og etravirin – bruges til at behandle hiv-infektioner/aids </li>
+<li>Modafinil – bruges til at behandle søvnforstyrrelser </li>
+<li>Dabrafenib – bruges til at behandle visse kræftformer </li>
+<li>Nafcillin – bruges til at behandle visse bakterieinfektioner </li>
+<li>Dexamethason – bruges til at reducere inflammation </li>
+</ul>
+<p>Dette lægemiddel kan påvirke, hvor godt følgende lægemidler virker eller øge deres bivirkninger:</p>
+<ul>
+<li>Alfentanil – bruges til at kontrollere smerter under operationer og medicinske procedurer </li>
+<li>Atazanavir – bruges til at behandle hiv-infektion/aids </li>
+<li>Midazolam – bruges til anæstesi, bedøvelse eller for at reducere angst </li>
+<li>Simvastatin – bruges til behandling af højt kolesterol </li>
+<li>Sirolimus, tacrolimus – bruges til at forebygge afstødning af transplanterede organer </li>
+</ul>
+<p>Spørg din læge eller apotekspersonalet til råds, før du tager nogen form for lægemiddel. </p>
+<p>Brug af AYVAKYT sammen med mad og drikke 
+Du må ikke drikke grapefrugtjuice eller spise grapefrugt, mens du bliver behandlet med AYVAKYT. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.  </p>
+<p>Graviditet 
+Dette lægemiddel bør ikke anbefales under graviditet, medmindre det er tvingende nødvendigt. Undgå 
+at blive gravid, mens du behandles med dette lægemiddel, da det kan skade dit ufødte barn. Din læge 
+vil tale med dig om de mulige risici ved at tage AYVAKYT under graviditet. </p>
+<p>Din læge vil muligvis tjekke, om du er gravid, før du starter behandling med dette lægemiddel. </p>
+<p>Kvinder, som kan blive gravide, skal anvende sikker prævention under behandlingen og i 
+mindst 6 uger efter afsluttet behandling. Mænd med kvindelige partnere, som kan blive gravide, skal 
+anvende sikker prævention under behandlingen og i mindst 2 uger efter afsluttet behandling. Tal med 
+din læge om sikre præventionsmetoder, der passer til dig. </p>
+<p>Amning 
+Fortæl det til lægen, hvis du ammer eller planlægger at amme. Det er ukendt, om AYVAKYT 
+udskilles i modermælken. Du bør ikke amme under behandlingen med dette lægemiddel og i 
+mindst 2 uger efter den sidste dosis. Tal med din læge om den bedste måde at give din baby næring på 
+i denne periode.  </p>
+<p>Frugtbarhed 
+AYVAKYT kan forårsage frugtbarhedsproblemer hos mænd og kvinder. Kontakt lægen, hvis du er 
+bekymret over dette. </p>
+<p>Trafik- og arbejdssikkerhed 
+AYVAKYT kan give symptomer, som påvirker din evne til at koncentrere dig og reagere (se punkt 4). 
+Derfor kan AYVAKYT påvirke evnen til at føre motorkøretøj eller betjene maskiner. Vær ekstra 
+forsigtig, når du kører bil eller betjener maskiner, hvis du oplever disse bivirkninger. </p>
+<p>AYVAKYT indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ayvakyt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ayvakyt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>Hvilken styrke AYVAKYT skal du bruge<br />
+Den anbefalede dosis AYVAKYT vil afhænge af din sygdom – se nedenfor.<br />
+AYVAKYT fås i tabletter med forskellige styrker. Styrkerne er 25 mg, 50 mg, 100 mg, 200 mg og 
+300 mg. Din læge vil rådgive dig om styrken og antallet af tabletter, du skal tage: </p>
+<p>Behandling af AdvSM 
+Den anbefalede dosis er 200 mg gennem munden én gang dagligt. </p>
+<p>Behandling af ISM 
+Den anbefalede dosis er 25 mg gennem munden én gang dagligt. </p>
+<p>Hvis du har leverproblemer, kan din læge starte dig på en lavere dosis af AYVAKYT. </p>
+<p>Hvis du får bivirkninger, kan lægen ændre din dosis, midlertidigt stoppe eller permanent stoppe 
+behandling. Undlad at ændre dosis eller holde op med at tage AYVAKYT, medmindre lægen anviser 
+dette. </p>
+<p>Synk AYVAKYT tabletten(erne) hel(e) med et glas vand på tom mave. Undlad at spise i 
+mindst 2 timer før og mindst 1 time efter indtagelse AYVAKYT.  </p>
+<p>Hvis du kaster op efter indtagelse AYVAKYT, må du ikke tage en ekstra dosis. Tag din næste dosis på 
+det sædvanlige tidspunkt. </p>
+<p>Hvis du har taget for meget AYVAKYT 
+Hvis du ved et uheld har taget for mange tabletter, skal du tale med din læge med det samme. Du kan 
+have brug for lægehjælp. </p>
+<p>Hvis du har glemt at tage AYVAKYT 
+Hvis du glemmer en dosis af AYVAKYT, så tag den, så snart du husker det, medmindre din næste 
+planlagte dosis skal tages inden for 8 timer. Tag din næste dosis på det sædvanlige tidspunkt.<br />
+Du må ikke tage to doser inden for 8 timer som erstatning for den glemte dosis. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Mest alvorlige bivirkninger hos patienter med AdvSM 
+Nogle bivirkninger kan være alvorlige. Fortæl straks din læge, hvis du oplever nogen af de 
+følgende (se også punkt 2):</p>
+<ul>
+<li>kraftig hovedpine, synsproblemer, svær søvnighed, eller svær svaghed i den ene side af kroppen 
+(tegn på blødning i hjernen)  </li>
+<li>hukommelsestab, ændringer i hukommelsen eller forvirring (tegn på en kognitiv effekt) </li>
+</ul>
+<p>Andre bivirkninger hos patienter med AdvSM kan omfatte: 
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>ændret smag </li>
+<li>hukommelsestab, ændringer i hukommelsen eller forvirring (kognitive effekter) </li>
+<li>diarré </li>
+<li>kvalme, opkastningsfornemmelse og opkastning </li>
+<li>ændring i hårfarve </li>
+<li>hævelse (f.eks. fod, ankel, ansigt, øje, led) </li>
+<li>træthed </li>
+<li>blodprøver, der viser et lavt antal blodplader, som ofte betyder tendens til blå mærker eller 
+blødning  </li>
+<li>blodprøver, der viser et fald i antallet af røde blodlegemer (blodmangel) og hvide blodlegemer </li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer):</p>
+<ul>
+<li>hovedpine </li>
+<li>svimmelhed </li>
+<li>nedsat følsomhed, følelsesløshed, prikken, eller øget følsomhed over for smerte i arme og ben </li>
+<li>blødning i hjernen </li>
+<li>øget tåreproduktion  </li>
+<li>næseblod </li>
+<li>kortåndethed  </li>
+<li>halsbrand </li>
+<li>øget væske i bughulen </li>
+<li>tørhed, der påvirker øjne, læber, mund og hud </li>
+<li>forstoppelse, luftafgang fra tarmen </li>
+<li>mavesmerter </li>
+<li>blødning i mave-tarm-kanalen </li>
+<li>udslæt </li>
+<li>hårtab </li>
+<li>smerter  </li>
+<li>vægtforøgelse </li>
+<li>ændringer i hjertets elektriske aktivitet </li>
+<li>blå mærker </li>
+<li>blodprøver, der viser øget pres på leveren og høje niveauer af bilirubin, et stof der produceres i 
+leveren  </li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer):</p>
+<ul>
+<li>væske omkring hjertet </li>
+<li>rød eller kløende hud </li>
+<li>blodprøver, der viser nedsat nyrefunktion. </li>
+</ul>
+<p>Bivirkninger hos patienter med ISM kan omfatte: 
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>hævelse af arme og ben </li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer):</p>
+<ul>
+<li>problemer med at falde i søvn (insomni) </li>
+<li>rødme </li>
+<li>rød eller kløende hud </li>
+<li>ansigtshævelse </li>
+<li>blodprøve, der viser påvirkning af knoglerne (forhøjet alkalisk fosfatase i blodet). </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ayvakyt"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ayvakyt"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderens etiket og på den ydre æske efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at beholderen er beskadiget eller viser tegn på at være brudt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AYVAKYT indeholder:</p>
+<ul>
+<li>Aktivt stof: avapritinib. Hver filmovertrukket tablet indeholder 25 mg avapritinib. </li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>Tabletkernen indeholder: mikrokrystallinsk cellulose, copovidon, croscarmellosenatrium 
+og magnesiumstearat (se punkt 2 ”AYVAKYT indeholder natrium”). </p>
+</li>
+<li>Tabletovertrækket indeholder: talcum, macrogol 3350, polyvinylalkohol og titandioxid 
+(E171). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+AYVAKYT 25 mg filmovertrukne tabletter er runde, hvide tabletter med en diameter på 5 mm og med 
+”BLU” præget på den ene side og ”25” præget på den anden side.  </p>
+<p>AYVAKYT leveres i en beholder med 30 filmovertrukne tabletter. Hver æske indeholder én beholder. </p>
+<p>Cylinderen med tørremiddel skal blive i beholderen. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Blueprint Medicines (Netherlands) B.V. 
+Gustav Mahlerplein 2 
+1082 MA Amsterdam 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien, България, Česká 
+republika, Danmark, Deutschland, Eesti, 
+España, France, Hrvatska, Ireland, Ísland, 
+Italia, Latvija, Lietuva, 
+Luxembourg/Luxemburg, Magyarország, 
+Malta, Nederland, Norge, Österreich, Polska, 
+Portugal, România, Slovenija, Slovenská 
+republika, Suomi/Finland, Sverige, United 
+Kingdom (Northern Ireland) 
+Blueprint Medicines (Netherlands) B.V., NL 
+Tél/Tel/Teл/Tlf/Sími/Puh: +31 85 064 4e-mail: MedinfoEurope@blueprintmedicines.com </p>
+<p>Ελλάδα, Κύπρος 
+Swixx Biopharma S.M.S.A.<br />
+Τηλ: +30 214 444 9Denne indlægsseddel blev senest ændret  </p>
+<p>Dette lægemiddel er godkendt under ”betingede omstændigheder”.<br />
+Det betyder, at der forventes yderligere dokumentation for lægemidlet. 
+Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
+lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>AYVAKYT 50 mg filmovertrukne tabletter 
+avapritinib </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f40cac7981e52d03bbfe471a7f88b25f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ayvakyt Package Leaflet for language en"
+Description: "ePI document Bundle for ayvakyt Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f40cac7981e52d03bbfe471a7f88b25f"
+* entry[0].resource = composition-en-f40cac7981e52d03bbfe471a7f88b25f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf40cac7981e52d03bbfe471a7f88b25f"
+* entry[=].resource = mpf40cac7981e52d03bbfe471a7f88b25f
+                            
+                    
+Instance: bundlepackageleaflet-da-f40cac7981e52d03bbfe471a7f88b25f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ayvakyt Package Leaflet for language da"
+Description: "ePI document Bundle for ayvakyt Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f40cac7981e52d03bbfe471a7f88b25f"
+* entry[0].resource = composition-da-f40cac7981e52d03bbfe471a7f88b25f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf40cac7981e52d03bbfe471a7f88b25f"
+* entry[=].resource = mpf40cac7981e52d03bbfe471a7f88b25f
+                            
+                    
+
+
+
+Instance: mpf40cac7981e52d03bbfe471a7f88b25f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product AYVAKYT 25 mg film-coated tablets"
-Description: "AYVAKYT 25 mg film-coated tablets"
+Title: "Medicinal Product ayvakyt"
+Description: "ayvakyt"
 Usage: #inline
 
  
@@ -411,7 +872,7 @@ Usage: #inline
 
 
 * name
-  * productName = "AYVAKYT 25 mg film-coated tablets"
+  * productName = "ayvakyt"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -438,29 +899,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f40cac7981e52d03bbfe471a7f88b25f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ayvakyt Package Leaflet for language en"
-Description: "ePI document Bundle for ayvakyt Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f40cac7981e52d03bbfe471a7f88b25fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "AYVAKYT 25 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ayvakyt"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f40cac7981e52d03bbfe471a7f88b25f"
-* entry[0].resource = composition-en-f40cac7981e52d03bbfe471a7f88b25f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd66af96fc020b432a486338cbfeaab0a"
-* entry[=].resource = mpd66af96fc020b432a486338cbfeaab0a
-                            
-                      
+* title = "List of all ePIs associated with ayvakyt"
+
+* subject = Reference(mpd66af96fc020b432a486338cbfeaab0a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ayvakyt "ayvakyt"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f40cac7981e52d03bbfe471a7f88b25f) // ayvakyt en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f40cac7981e52d03bbfe471a7f88b25f) // ayvakyt da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f40cac7981e52d03bbfe471a7f88b25f
+InstanceOf: List
+
+* insert f40cac7981e52d03bbfe471a7f88b25fListRuleset
+    

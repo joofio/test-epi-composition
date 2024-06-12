@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8ff5d67e0b7de732bda1082340f24212
 InstanceOf: CompositionUvEpi
 Title: "Composition for sotyktu Package Leaflet"
@@ -321,12 +324,440 @@ Tel: +44 (0)800 731 1medical.information@bms.com </p>
 
 
 
+Instance: composition-da-8ff5d67e0b7de732bda1082340f24212
+InstanceOf: CompositionUvEpi
+Title: "Composition for sotyktu Package Leaflet"
+Description:  "Composition for sotyktu Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp731966e0be8311e6fe2820a03fc966c4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp731966e0be8311e6fe2820a03fc966c4
+* title = "TEST PURPOSES ONLY - sotyktu"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage SOTYKTU </li>
+<li>Sådan skal du tage SOTYKTU </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sotyktu is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sotyktu is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+SOTYKTU indeholder det aktive stof deucravacitinib, som tilhører en gruppe lægemidler, der kaldes 
+tyrosinkinase 2-hæmmere (TYK2-hæmmere), der hjælper med at reducere betændelse i forbindelse 
+med psoriasis. </p>
+<p>Anvendelse 
+SOTYKTU bruges til at behandle voksne patienter med moderat til svær "plaque psoriasis", en 
+betændelsestilstand, der påvirker huden, som kan medføre røde, skællende, fortykkede, kløende, 
+smertefulde områder på huden og også kan påvirke hovedbunden, neglene, hænderne og fødderne. </p>
+<p>Hvordan SOTYKTU virker 
+SOTYKTU virker ved selektivt at blokere aktiviteten af et enzym, der kaldes "TYK2" 
+(tyrosinkinase 2), som er en del af betændelsesprocessen. Ved at reducere aktiviteten af dette enzym 
+kan SOTYKTU være med til at kontrollere betændelsen i forbindelse med plaque psoriasis og dermed 
+reducere tegn (tør hud, revner, afskalning, flagedannelse, rødme og blødning) og kan dermed være 
+med til at reducere symptomer, såsom kløe, smerter, brændende fornemmelse, svie og stram hud, ved 
+denne lidelse. </p>
+<p>Det er desuden påvist, at SOTYKTU kan forbedre livskvaliteten hos patienter med psoriasis. Det 
+betyder, at den påvirkning, som din sygdom har på dagligdags aktiviteter, relationer og andre faktorer, 
+nok vil blive mindre end før. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sotyktu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sotyktu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke SOTYKTU </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for deucravacitinib eller et af de øvrige indholdsstoffer i SOTYKTU 
+(angivet i afsnit 6). </p>
+</li>
+<li>
+<p>hvis du har en infektion, herunder aktiv tuberkulose (TB), som din læge mener er vigtig. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager SOTYKTU: </p>
+<ul>
+<li>
+<p>hvis du i øjeblikket har en infektion, som ikke forsvinder eller bliver ved med at komme tilbage </p>
+</li>
+<li>
+<p>hvis du har eller nogensinde har haft tuberkulose (TB) </p>
+</li>
+<li>
+<p>hvis du har kræft, da din læge så skal beslutte, om du stadig kan få SOTYKTU </p>
+</li>
+<li>
+<p>hvis du har hjerteproblemer eller sygdomme, der gør det mere sandsynligt, at du udvikler 
+hjertesygdomme – det vides ikke, om SOTYKTU øger risikoen for hjertesygdom </p>
+</li>
+<li>
+<p>hvis du har haft eller har risiko for at få blodpropper i venerne i benene (dyb venetrombose) 
+eller lungerne (lungeemboli). Fortæl det til lægen, hvis dit ben hæver op og gør ondt, eller hvis 
+du får smerter i brystet eller åndenød, da dette kan være tegn på blodpropper i venerne. Det 
+vides ikke, om SOTYKTU øger risikoen for blodpropper </p>
+</li>
+<li>
+<p>hvis du er blevet vaccineret for nylig eller planlægger at blive det. </p>
+</li>
+</ul>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger SOTYKTU, hvis du er i tvivl 
+om, hvorvidt noget af ovenstående gælder for dig. </p>
+<p>Børn og unge 
+SOTYKTU frarådes til børn og unge under 18 år, da det ikke er blevet undersøgt til denne 
+aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med SOTYKTU 
+Fortæl det altid til lægen eller apotekspersonalet: </p>
+<ul>
+<li>
+<p>hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller planlægger at tage 
+andre lægemidler </p>
+</li>
+<li>
+<p>hvis du er blevet vaccineret for nylig eller planlægger at blive det. Du må ikke få visse typer af 
+vacciner (levende vacciner), mens du bruger SOTYKTU. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. Det skyldes, at man ikke ved, hvordan dette 
+lægemiddel vil påvirke barnet. </p>
+<p>Trafik- og arbejdssikkerhed 
+SOTYKTU forventes ikke at påvirke din evne til at køre bil eller betjene maskiner. </p>
+<p>SOTYKTU indeholder lactose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>SOTYKTU indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sotyktu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sotyktu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er 6 mg hver dag. Tabletten skal synkes hel og kan tages med eller uden mad. 
+Tabletterne må ikke knuses, deles eller tygges. </p>
+<p>Din læge vil beslutte, hvor længe du skal bruge SOTYKTU. </p>
+<p>Kontakt lægen, hvis din tilstand ikke er blevet bedre efter seks måneders behandling. </p>
+<p>Hvis du har taget for meget SOTYKTU 
+Kontakt lægen hurtigst muligt, hvis du har taget for meget SOTYKTU. Det kan være, at du får nogle 
+af de bivirkninger, der er anført i afsnit 4. Hvis du har glemt af tage SOTYKTU 
+Hvis du har glemt at tage SOTYKTU, skal du blot tage din sædvanlige dosis næste dag. Du må ikke 
+tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+<p>Hvis du holder op med at tage SOTYKTU 
+Hold ikke op med at tage SOTYKTU uden først at tale med lægen. Hvis du stopper behandlingen, kan 
+dine psoriasis-symptomer vende tilbage. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>infektioner i øvre luftveje (næse og svælg) med symptomer såsom ondt i halsen og tilstoppet 
+næse </li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>virusinfektion i munden (såsom forkølelsessår) </p>
+</li>
+<li>
+<p>en stigning i niveauet af et enzym i blodet, der kaldes kreatinfosfokinase (CPK) </p>
+</li>
+<li>
+<p>mundsår </p>
+</li>
+<li>
+<p>akne-lignende udslæt </p>
+</li>
+<li>
+<p>betændelse i hårsække </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>helvedesild (herpes zoster) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sotyktu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sotyktu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og kartonen efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at tabletterne er gået i stykker, eller hvis der er tegn på, at 
+pakningen har været åbnet af andre. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SOTYKTU indeholder: 
+Aktivt stof: deucravacitinib. Hver filmovertrukket tablet indeholder 6 mg deucravacitinib. </p>
+<p>Øvrige indholdsstoffer: </p>
+<ul>
+<li>
+<p>tabletkerne: hypromelloseacetatsuccinat, vandfri lactose, mikrokrystallinsk cellulose, 
+croscarmellosenatrium, kolloidt hydreret silica og magnesiumstearat. </p>
+</li>
+<li>
+<p>filmovertræk: polyvinylalkohol, titandioxid (E171), macrogol, talcum, rød jernoxid (E172) og 
+gul jernoxid (E172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+SOTYKTU er en lyserød, rund, bikonveks filmovertrukket tablet påtrykt "BMS 895" og "6 mg" på 
+den ene side på to linjer og glat på den anden side. </p>
+<p>De filmovertrukne tabletter fås i blisterkort med eller uden kalender indeholdende 7 eller 14 tabletter. 
+Hver pakning indeholder 7, 14, 28 eller 84 filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Fremstiller 
+Swords Laboratories Unlimited Company 
+T/A Bristol-Myers Squibb Pharmaceutical Operations 
+External Manufacturing 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+N.V. Bristol-Myers Squibb Belgium S.A. 
+Tél/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
+<p>Lietuva 
+Swixx Biopharma UAB 
+Tel: + 370 52 369medinfo.lithuania@swixxbiopharma.com </p>
+<p>България 
+Swixx Biopharma EOOD 
+Teл.: + 359 2 4942 medinfo.bulgaria@swixxbiopharma.com </p>
+<p>Luxembourg/Luxemburg 
+N.V. Bristol-Myers Squibb Belgium S.A. 
+Tél/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
+<p>Česká republika 
+Bristol-Myers Squibb spol. s r.o. 
+Tel: + 420 221 016 medinfo.czech@bms.com </p>
+<p>Magyarország 
+Bristol-Myers Squibb Kft. 
+Tel.: + 36 1 301 9Medinfo.hungary@bms.com </p>
+<p>Danmark 
+Bristol-Myers Squibb Denmark 
+Tlf: + 45 45 93 05 medinfo.denmark@bms.com </p>
+<p>Malta 
+A.M. Mangion Ltd 
+Tel: + 356 23976pv@ammangion.com </p>
+<p>Deutschland 
+Bristol-Myers Squibb GmbH &amp; Co. KGaA 
+Tel: 0800 0752002 (+ 49 89 121 42 350) 
+medwiss.info@bms.com </p>
+<p>Nederland 
+Bristol-Myers Squibb B.V. 
+Tel: + 31 (0)30 300 2medischeafdeling@bms.com </p>
+<p>Eesti 
+Swixx Biopharma OÜ 
+Tel: + 372 640 1medinfo.estonia@swixxbiopharma.com </p>
+<p>Norge 
+Bristol-Myers Squibb Norway AS 
+Tlf: + 47 67 55 53 medinfo.norway@bms.com </p>
+<p>Ελλάδα 
+Bristol-Myers Squibb A.E. 
+Τηλ: + 30 210 6074medinfo.greece@bms.com </p>
+<p>Österreich 
+Bristol-Myers Squibb GesmbH 
+Tel: + 43 1 60 14 medinfo.austria@bms.com </p>
+<p>España 
+Bristol-Myers Squibb, S.A. 
+Tel: + 34 91 456 53 informacion.medica@bms.com </p>
+<p>Polska 
+Bristol-Myers Squibb Polska Sp. z o.o. 
+Tel.: + 48 22 2606informacja.medyczna@bms.com </p>
+<p>France 
+Bristol-Myers Squibb SAS 
+Tél: + 33 (0)1 58 83 84 infomed@bms.com </p>
+<p>Portugal 
+Bristol-Myers Squibb Farmacêutica Portuguesa, 
+S.A. 
+Tel: + 351 21 440 70 portugal.medinfo@bms.com </p>
+<p>Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: + 385 1 2078 medinfo.croatia@swixxbiopharma.com </p>
+<p>România 
+Bristol-Myers Squibb Marketing Services S.R.L. 
+Tel: + 40 (0)21 272 16 medinfo.romania@bms.com </p>
+<p>Ireland 
+Bristol-Myers Squibb Pharmaceuticals uc 
+Tel: 1 800 749 749 (+ 353 (0)1 483 3625) 
+medical.information@bms.com </p>
+<p>Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: + 386 1 2355 medinfo.slovenia@swixxbiopharma.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7vistor@vistor.is 
+medical.information@bms.com </p>
+<p>Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: + 421 2 20833 medinfo.slovakia@swixxbiopharma.com<br />
+Italia 
+Bristol-Myers Squibb S.r.l. 
+Tel: + 39 06 50 39 medicalinformation.italia@bms.com </p>
+<p>Suomi/Finland 
+Oy Bristol-Myers Squibb (Finland) Ab 
+Puh/Tel: + 358 9 251 21 medinfo.finland@bms.com </p>
+<p>Κύπρος 
+Bristol-Myers Squibb A.E. 
+Τηλ:  800 92666 (+ 30 210 6074300) 
+medinfo.greece@bms.com </p>
+<p>Sverige 
+Bristol-Myers Squibb Aktiebolag 
+Tel: + 46 8 704 71 medinfo.sweden@bms.com </p>
+<p>Latvija 
+Swixx Biopharma SIA 
+Tel: + 371 66164medinfo.latvia@swixxbiopharma.com </p>
+<p>United Kingdom (Northern Ireland) 
+Bristol-Myers Squibb Pharmaceutical Limited 
+Tel: +44 (0)800 731 1medical.information@bms.com </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8ff5d67e0b7de732bda1082340f24212
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sotyktu Package Leaflet for language en"
+Description: "ePI document Bundle for sotyktu Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8ff5d67e0b7de732bda1082340f24212"
+* entry[0].resource = composition-en-8ff5d67e0b7de732bda1082340f24212
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8ff5d67e0b7de732bda1082340f24212"
+* entry[=].resource = mp8ff5d67e0b7de732bda1082340f24212
+                            
+                    
+Instance: bundlepackageleaflet-da-8ff5d67e0b7de732bda1082340f24212
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sotyktu Package Leaflet for language da"
+Description: "ePI document Bundle for sotyktu Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8ff5d67e0b7de732bda1082340f24212"
+* entry[0].resource = composition-da-8ff5d67e0b7de732bda1082340f24212
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8ff5d67e0b7de732bda1082340f24212"
+* entry[=].resource = mp8ff5d67e0b7de732bda1082340f24212
+                            
+                    
+
+
+
+Instance: mp8ff5d67e0b7de732bda1082340f24212
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product SOTYKTU 6 mg film-coated tablets"
-Description: "SOTYKTU 6 mg film-coated tablets"
+Title: "Medicinal Product sotyktu"
+Description: "sotyktu"
 Usage: #inline
 
  
@@ -346,7 +777,7 @@ Usage: #inline
 
 
 * name
-  * productName = "SOTYKTU 6 mg film-coated tablets"
+  * productName = "sotyktu"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -373,29 +804,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8ff5d67e0b7de732bda1082340f24212
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sotyktu Package Leaflet for language en"
-Description: "ePI document Bundle for sotyktu Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8ff5d67e0b7de732bda1082340f24212ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1718/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sotyktu"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8ff5d67e0b7de732bda1082340f24212"
-* entry[0].resource = composition-en-8ff5d67e0b7de732bda1082340f24212
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp731966e0be8311e6fe2820a03fc966c4"
-* entry[=].resource = mp731966e0be8311e6fe2820a03fc966c4
-                            
-                      
+* title = "List of all ePIs associated with sotyktu"
+
+* subject = Reference(mp731966e0be8311e6fe2820a03fc966c4)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sotyktu "sotyktu"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8ff5d67e0b7de732bda1082340f24212) // sotyktu en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8ff5d67e0b7de732bda1082340f24212) // sotyktu da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8ff5d67e0b7de732bda1082340f24212
+InstanceOf: List
+
+* insert 8ff5d67e0b7de732bda1082340f24212ListRuleset
+    

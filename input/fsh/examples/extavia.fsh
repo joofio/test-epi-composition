@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-af957cdad64de8277859b4d268fc6099
 InstanceOf: CompositionUvEpi
 Title: "Composition for extavia Package Leaflet"
@@ -624,12 +627,1032 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-af957cdad64de8277859b4d268fc6099
+InstanceOf: CompositionUvEpi
+Title: "Composition for extavia Package Leaflet"
+Description:  "Composition for extavia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp58d2a72cafb0584516944ee6d6e397d5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp58d2a72cafb0584516944ee6d6e397d5
+* title = "TEST PURPOSES ONLY - extavia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bilag - Fremgangsmåde, når du selv skal indsprøjte lægemidlet </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Extavia </li>
+<li>Sådan skal du tage Extavia </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What extavia is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What extavia is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Extavia? 
+Extavia er en type medicin, der kaldes interferon, som bruges til at behandle dissemineret sklerose. 
+Interferoner er proteiner, der dannes af kroppen, og som hjælper immunsystemet med at bekæmpe fx 
+luftvejsinfektioner. </p>
+<p>Sådan virker Extavia 
+Dissemineret sklerose (DS) er en kronisk sygdom, der rammer centralnervesystemet (CNS), især 
+hjernens og rygmarvens funktion. Betændelsestilstanden ved dissemineret sklerose nedbryder det 
+beskyttende lag (myelin) rundt om nerverne i centralnervesystemet, så nerverne ikke længere kan 
+fungere korrekt (demyelinering). </p>
+<p>Den nøjagtige årsag til dissemineret sklerose er ukendt. En unormal reaktion på kroppens 
+immunsystem menes at spille en vigtig rolle i den proces, der skader centralnervesystemet. </p>
+<p>Beskadigelse på centralnervesystemet kan ske ved et dissemineret skleroseanfald (attak). Det kan 
+være midlertidigt invaliderende, i form af fx gangbesvær. Symptomerne kan helt eller delvist forsvinde 
+igen. </p>
+<p>Interferon beta-1b har vist sig at ændre immunsystemets reaktion og bidrage til at hæmme 
+sygdomsaktivitet. </p>
+<p>Hvordan hjælper Extavia med at bekæmpe din sygdom? 
+Enkelt klinisk hændelse, der antyder, at man er i højrisikogruppen for at udvikle dissemineret 
+sklerose: Extavia har vist sig at forsinke sygdommen i at udvikle sig til definitiv dissemineret 
+sklerose. </p>
+<p>Recidiverende-remitterende dissemineret sklerose: Patienter med recidiverende-remitterende 
+dissemineret sklerose har periodevise anfald eller opblussen (attakker eller relapser), under hvilke 
+symptomerne bliver mærkbart værre. Extavia har vist sige at mindske antallet af anfald og gøre dem 
+mindre alvorlige. Det reducerer også antallet af hospitalsindlæggelser, der forårsages af sygdommen, 
+og forlænger perioden uden opblussen. </p>
+<p>Sekundær progressiv dissemineret sklerose: I nogle tilfælde har patienter med 
+recidiverende/remitterende dissemineret sklerose erfaret at deres symptomer forstærkes, og at de 
+udvikler en anden form for dissemineret sklerose, der kaldes progressiv dissemineret sklerose. Dermed 
+befinder patienten sig i en situation, hvor sygdommen langsomt forværres, uanset om den blusser op 
+eller ej. Extavia kan reducere antallet og sværhedsgraden af anfaldene og sinke sygdommens 
+forværring. </p>
+<p>Hvad bruges Extavia til? 
+Extavia skal bruges til patienter 
+► 
+som har oplevet symptomer for første gang, som tyder på en høj risiko for at udvikle 
+dissemineret sklerose. Din læge vil udelukke andre årsager, som kan forklare symptomerne, 
+før du bliver behandlet. 
+► 
+som lider af recidiverende-remitterende dissemineret sklerose, der blusser op mindst to 
+gange inden for de sidste to år. 
+► 
+som lider af sekundær progressiv dissemineret sklerose med aktiv sygdom, som har vist 
+sig ved opblussen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take extavia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take extavia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Extavia 
+- hvis du er allergisk over for naturligt eller rekombinant interferon beta, humant albumin eller 
+et af de øvrige indholdsstoffer i Extavia (angivet i afsnit 6). 
+- hvis du lider af alvorlig depression og/eller selvmordstanker (se "Advarsler og 
+forsigtighedsregler" og afsnit 4 "Bivirkninger"). 
+- hvis du har en alvorlig leversygdom (se "Advarsler og forsigtighedsregler", "Brug af anden 
+medicin sammen med Extavia" og afsnit 4 "Bivirkninger"). </p>
+<p>► 
+Kontakt din læge, hvis noget af det ovenstående gælder for dig. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du tager Extavia:</p>
+<ul>
+<li>
+<p>Hvis du har monoklonal gammopati. Dette er en defekt i immunsystemet, hvor et unormalt 
+protein er til stede i blodet. Der kan opstå problemer med dine små blodkar (kapillærer) ved 
+brug af lægemidler som Extavia (systemisk kapillær lækage-syndrom). Dette kan fremkalde 
+shock (kollaps) og medføre død. </p>
+</li>
+<li>
+<p>Hvis du har/har haft en depression eller tidligere har haft selvmordstanker. Din læge vil 
+følge dig tæt under behandlingen. Hvis din depression og/eller selvmordstanker er alvorlige, vil 
+du ikke blive behandlet med Extavia (se også "Brug ikke Extavia"). </p>
+</li>
+<li>
+<p>Hvis du nogensinde har haft krampeanfald, eller hvis du tager medicin mod epilepsi 
+(antiepileptika), vil din læge følge din behandling tæt (se også "Brug af anden medicin sammen 
+med Extavia" og afsnit 4 "Bivirkninger"). </p>
+</li>
+<li>
+<p>Hvis du har alvorlige nyreproblemer, kan din læge vælge at måle din nyrefunktion under 
+behandlingen. </p>
+</li>
+<li>
+<p>Hvis du nogensinde har haft en allergisk reaktion over for latex. Beskyttelseshætten på den 
+fyldte sprøjte indeholder et stof, der er afledt af naturgummi-latex. Beskyttelseshætten kan 
+derfor indeholde naturgummi-latex. </p>
+</li>
+</ul>
+<p>Du skal oplyse din læge om følgende, mens du tager Extavia:</p>
+<ul>
+<li>
+<p>Hvis du får symptomer som kløe over hele kroppen, hvis dit ansigt og/eller din tunge 
+svulmer op, eller hvis du pludselig får åndenød. Dette kan være symptom på en alvorlig 
+allergisk reaktion, der kan udvikle sig til en livstruende tilstand. </p>
+</li>
+<li>
+<p>Hvis du føler dig betydelig mere trist eller mere håbløs end før behandlingen med Extavia, 
+eller hvis du får selvmordstanker. Hvis du bliver deprimeret, mens du er i behandling med 
+Extavia, kan du få brug for særskilt behandling, og din læge vil følge dig tæt og kan også 
+overveje at stoppe din behandling. Hvis du lider af alvorlig depression og/eller selvmordstanker, 
+vil du ikke blive behandlet med Extavia (se også "Brug ikke Extavia"). </p>
+</li>
+<li>
+<p>Hvis du bemærker usædvanlige blå mærker, hvis du bløder voldsomt efter at være 
+kommet til skade, eller hvis du mener, at du får mange infektioner. Det kan være 
+symptomer på et fald i antallet af dine blodlegemer eller i antallet af blodplader i dit blod (celler, 
+som hjælper blodet med at størkne). Du kan have behov for, at din læge følger dig nærmere. </p>
+</li>
+<li>
+<p>Hvis du mister appetitten, føler dig træt, får kvalme, kaster op flere gange, og især hvis du 
+bemærker kløe over hele kroppen, huden eller at det hvide i øjnene bliver gulligt, samt 
+hvis du får tendens til blå mærker. Disse symptomer kan være tegn på problemer med din 
+lever. Forsøg med patienter, der fik Extavia har vist, at der kan forekomme ændringer i 
+levertallene. Som ved andre beta-interferoner er der i sjældne tilfælde indberettet alvorlige 
+leverskader, herunder tilfælde af leversvigt, hos patienter, der blev behandlet med Extavia. De 
+mest alvorlige tilfælde blev rapporteret hos patienter, der blev behandlet med andre lægemidler 
+eller som led i sygdomme, som påvirker leveren (fx alkoholmisbrug og alvorlig infektion). </p>
+</li>
+<li>
+<p>Hvis du får symptomer som fx uregelmæssig hjerterytme (puls), hævede ankler eller ben 
+eller får åndenød. Dette kan være tegn på hjertemuskelsygdom (kardiomyopati), som er 
+rapporteret hos patienter, der bruger Extavia. </p>
+</li>
+<li>
+<p>Hvis du får mavesmerter, der går om mod ryggen, og/eller føler dig syg eller har feber. 
+Dette kan være tegn på betændelse i bugspytkirtlen (pankreatitis), som er blevet registreret ved 
+brug af Extavia. Dette er ofte forbundet med en stigning af visse fedtstoffer i blodet 
+(triglycerider). </p>
+</li>
+</ul>
+<p>► 
+Stop brugen af Extavia og kontakt straks din læge, hvis du oplever et eller flere af 
+disse symptomer. </p>
+<p>Andre ting der skal overvejes ved brug af Extavia:</p>
+<ul>
+<li>
+<p>Du skal have foretaget blodprøver for at bestemme antallet af dine blodlegemer, din blodkemi 
+og dine leverenzymer. Selvom du ikke har nogle nævneværdige symptomer, skal disse prøver 
+tages, før du begynder at bruge Extavia, regelmæssigt efter Extavia-behandlingernes 
+påbegyndelse, og derefter periodisk under behandlingen. Blodprøverne vil være en tilføjelse 
+til andre prøver, der normalt tages for at følge din disseminerede sklerose. </p>
+</li>
+<li>
+<p>Hvis du har en hjertesygdom, kan de influenzalignende symptomer, der forekommer i 
+starten af behandlingen, være belastende for dig. Extavia skal anvendes med forsigtighed, og 
+din læge vil følge dig for at konstatere, om hjertelidelsen forværres, især i starten af 
+behandlingen. Extavia har i sig selv ingen direkte indvirkning på hjertet. </p>
+</li>
+<li>
+<p>Din skjoldbruskkirtelfunktion vil blive kontrolleret regelmæssigt, eller når som helst din 
+egen læge finder det nødvendigt af andre årsager. </p>
+</li>
+<li>
+<p>Extavia indeholder humant albumin og kan derfor medføre risiko for at overføre 
+virussygdomme. En risiko for overførsel af Creutzfeld-Jacobs sygdom kan ikke udelukkes. </p>
+</li>
+<li>
+<p>Under behandling med Extavia kan din krop producere stoffer, som kaldes 
+neutraliserende antistoffer, som kan reagere mod Extavia. Det er endnu ikke klart, om disse 
+neutraliserende antistoffer nedsætter behandlingens effektivitet. Det er ikke alle patienter, der 
+producerer neutraliserende antistoffer, og det er p.t. ikke muligt at forudsige, hvilke patienter, 
+der producerer dem. </p>
+</li>
+<li>
+<p>Under behandling med Extavia kan der opstå nyreproblemer inkl. ardannelse 
+(glomerulosklerose), som kan nedsætte din nyrefunktion. Din læge vil muligvis kontrollere 
+din nyrefunktion. </p>
+</li>
+<li>
+<p>Under behandlingen kan der opstå blodpropper i de små blodårer. Disse blodpropper kan 
+påvirke dine nyrer. Dette kan ske flere uger til flere år efter, du er startet på behandlingen med 
+Extavia. Din læge kan ønske at kontrollere dit blodtryk, blod (blodpladetal) og din nyrefunktion. </p>
+</li>
+<li>
+<p>Under behandlingen kan der opstå bleg eller gul hud, eller mørkfarvet urin, eventuelt 
+ledsaget af usædvanlig svimmelhed, træthed eller kortåndethed. Dette kan være symptomer 
+på en nedbrydning af røde blodlegemer. Det kan ske flere uger til flere år efter start af 
+behandling med Extavia. Din læge vil muligvis tage nogle blodprøver. Fortæl din læge om 
+anden medicin, du tager samtidig med Extavia. </p>
+</li>
+</ul>
+<p>Reaktion ved indsprøjtningssted 
+Under Extavia-behandlingen vil du sandsynligvis observere nogle reaktioner ved 
+indsprøjtningsstedet. Symptomerne omfatter rødme, hævelse, ændring i hudfarve, betændelse, smerte 
+og overfølsomhed. Infektion omkring injektionsstedet og nedbrudt hud og ødelagt væv (nekrose) er 
+rapporteret mindre hyppigt. Reaktioner ved indsprøjtningsstedet aftager sædvanligvis med tiden. </p>
+<p>Nedbrudt hud og ødelagt væv ved indsprøjtningsstedet kan medføre ardannelse. Hvis det er udbredt, 
+kan det blive nødvendigt at fjerne fremmede materialer og dødt væv (debridering,) og mindre hyppigt 
+er det nødvendigt at foretage hudtransplantationer. Helingen kan tage op til 6 måneder. </p>
+<p>For at reducere risikoen for reaktioner, som fx en infektion eller ødelagt væv, ved 
+indsprøjtningsstedet skal du 
+- bruge en steril (aseptisk) indsprøjtningsteknik, 
+- skifte indsprøjtningssted for hver indsprøjtning (se bilaget "Fremgangsmåde, når du selv skal 
+indsprøjte lægemidlet"). </p>
+<p>Hvis du bruger en autoinjektor og skifter injektionssteder, kan reaktioner ved indsprøjtningsstedet 
+forekomme mindre hyppigt. Det kan din læge eller sygeplejersken fortælle dig mere om. </p>
+<p>Hvis huden brister i forbindelse med hævelse, eller hvis det væsker fra indsprøjtningsstedet: </p>
+<p>► 
+Stop Extaviaindsprøjtningerne, og kontakt din læge. </p>
+<p>► 
+Hvis du kun har ét ømt indsprøjtningssted (sår) og bristningen af hud og ødelæggelsen af 
+væv (nekrose) ikke er alt for udbredt, kan du fortsætte brugen af Extavia. </p>
+<p>► 
+Hvis du har mere end et ømt indsprøjtningssted (flere sår), skal du holde op med at tage 
+Extavia, indtil din hud er helet. </p>
+<p>Din læge vil regelmæssigt kontrollere, hvordan du tager indsprøjtningen, især hvis du har haft 
+reaktioner ved indsprøjtningsstedet. </p>
+<p>Børn og unge 
+Der er ikke udført formelle kliniske forsøg med børn og teenagere. 
+De begrænsede, offentliggjorte data antyder dog, at Extavia har samme grad af sikkerhed hos børn og 
+teenagere mellem 12 og 17 år som hos voksne. Extavia frarådes til børn under 12 år, da der ikke findes 
+nogen oplysninger for denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Extavia 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Der er ikke udført formelle undersøgelser af, om Extavia indvirker på eller påvirkes af andre 
+lægemidler. </p>
+<p>Med undtagelse af medicin, der modvirker betændelse (kortikosteroider eller adrenokortikotropt 
+hormon (ACTH)), frarådes det at bruge Extavia sammen med anden medicin, der hæmmer 
+immunsystemet. </p>
+<p>Extavia skal anvendes med forsigtighed sammen med: 
+− 
+Medicin, der nedbrydes via et specielt enzymsystem i leveren (CYP-enzymsystem), fx 
+lægemidler til behandling af epilepsi (såsom phenytoin). 
+− 
+Medicin, der påvirker produktionen af blodceller. </p>
+<p>Brug af Extavia sammen med mad og drikke 
+Extavia sprøjtes ind under huden. Det forventes derfor ikke, at indtagelsen af mad og drikke vil have 
+nogen indflydelse på Extavia. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Der forventes ingen skadelige virkninger hos det ammede nyfødte barn/spædbarn. Extavia kan 
+anvendes under amning. </p>
+<p>Trafik- og arbejdssikkerhed 
+Extavia kan forårsage bivirkninger i centralnervesystemet (se afsnit 4 "Bivirkninger"). Hvis du er 
+særligt følsom, kan det påvirke din evne til at køre bil eller betjene maskiner. </p>
+<p>Extavia indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. ml, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take extavia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take extavia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med lægemidlet bør opstartes under overvågning af en læge med erfaring i behandling af 
+dissemineret sklerose. </p>
+<p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er: hver anden dag (én gang hver anden dag) indsprøjtes 1,0 ml af den 
+klargjorte Extavia-injektionsvæske (se bilag "Fremgangsmåde, når du selv skal indsprøjte lægemidlet" 
+i anden del af denne indlægsseddel) under huden (subkutant). Dette svarer til 250 mikrogram 
+(8,0 mio. IE) interferon beta-1b. </p>
+<p>Generelt bør behandlingen indledes med en lav dosis på 0,25 ml (62,5 mikrogram). Doserne øges 
+herefter gradvist til den fulde dosis på 1,0 ml (250 mikrogram). 
+Dosen bør øges ved hver fjerde indsprøjtning i fire trin (0,25 ml, 0,5 ml, 0,75 ml, 1,0 ml). Din læge 
+kan sammen med dig afgøre, om tidsintervallerne for dosisøgningen skal ændres afhængig af de 
+eventuelle bivirkninger, du får i starten af behandlingen. </p>
+<p>Klargøring af indsprøjtning 
+Før indsprøjtning skal den Extaviaopløsning, der skal indsprøjtes, blandes fra et hætteglas med 
+Extaviapulver og 1,2 ml væske fra den fyldte sprøjte, som bruges til opløsningen. Dette gøres enten af 
+din læge, sygeplejerske eller dig, efter at du har fået en omhyggelig instruktion. </p>
+<p>Detaljeret information om selvindsprøjtning af Extavia under huden findes i bilaget bagerst i 
+denne vejledning. Disse anvisninger fortæller dig også, hvordan du klargør Extaviaopløsningen til 
+indsprøjtning. </p>
+<p>Indsprøjtningsstedet skal ændres regelmæssigt. Se afsnit 2 "Advarsler og forsigtighedsregler", og 
+følg anvisningerne under "Vælg forskellige indsprøjtningssteder" i bilaget bagerst i denne vejledning. </p>
+<p>Behandlingsvarighed 
+På nuværende tidspunkt vides det ikke, hvor lang tid behandling med Extavia skal fortsætte. Lægen 
+bestemmer sammen med dig, hvor lang tid du skal behandles. </p>
+<p>Hvis du har taget for meget Extavia 
+Indsprøjtning af Extavia i doser, der er mange gange større end den anbefalede dosis til behandling af 
+dissemineret sklerose, har ikke ført til livstruende situationer. </p>
+<p>► 
+Kontakt din læge, hvis du har taget for meget Extavia eller har taget det for ofte. </p>
+<p>Hvis du har glemt at tage Extavia 
+Hvis du har glemt en indsprøjtning på det rigtige tidspunkt, skal du tage den, så snart du kommer i 
+tanke om det, og så tage den næste indsprøjtning 48 timer senere. </p>
+<p>Du må ikke indsprøjte en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Extavia 
+Hvis du stopper eller ønsker at stoppe behandlingen, skal du kontakte din læge. Ophør med Extavia-
+behandling giver, så vidt det vides, ikke akutte abstinenssymptomer. </p>
+<p>► 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Extavia kan give alvorlige bivirkninger. Tal med lægen, apotekspersonalet eller sygeplejersken, hvis 
+en bivirkning er generende eller bliver værre, eller du får bivirkninger, som ikke er nævnt her. </p>
+<p>► 
+Kontakt straks din læge og hold op med at tage Extavia:</p>
+<ul>
+<li>
+<p>Hvis du får symptomer som kløe over hele kroppen, opsvulmning af dit ansigt og/eller din tunge 
+eller pludselig åndenød. </p>
+</li>
+<li>
+<p>Hvis du føler dig betydeligt mere trist eller fortvivlet end før behandlingen med Extavia, eller 
+hvis du får selvmordstanker. </p>
+</li>
+<li>
+<p>Hvis du bemærker usædvanlige blå mærker, voldsom blødning efter tilskadekomst, eller hvis du 
+synes, du får mange infektioner. </p>
+</li>
+<li>
+<p>Hvis du mister appetitten, føler træthed, får kvalme, har gentagne opkastninger, især hvis du 
+også bemærker udbredt kløe, gulfarvning af huden eller af det hvide i øjnene og får tendens til 
+blå mærker. </p>
+</li>
+<li>
+<p>Hvis du får symptomer såsom uregelmæssig hjerterytme (puls), hævede ankler eller ben eller 
+åndenød. </p>
+</li>
+<li>
+<p>Hvis du bemærker mavesmerter med udstråling til ryggen, og/eller du får kvalme eller feber. </p>
+</li>
+</ul>
+<p>► 
+Kontakt straks din læge:</p>
+<ul>
+<li>hvis du får nogen eller alle af de følgende symptomer: skummende urin, træthed, hævelser, især 
+i ankler og øjenlåg, og vægtøgning, da disse kan være tegn på mulige nyreproblemer. </li>
+</ul>
+<p>I starten af behandlingen er bivirkninger almindelige, men generelt aftager de i takt med yderligere 
+behandling. </p>
+<p>De hyppigste bivirkninger er: </p>
+<p>► 
+Influenzalignende symptomer som feber, kuldegysninger, ledsmerter, alment ubehag, 
+svedudbrud, hovedpine eller muskelsmerter. Disse symptomer kan reduceres ved at tage 
+paracetamol eller ibuprofen (ikke-steroide antiinflammatoriske lægemidler). </p>
+<p>► 
+Reaktion ved indsprøjtningssted. Symptomerne kan være rødme, hævelse, misfarvning, 
+betændelse, infektion, smerte, overfølsomhed, ødelagt væv (nekrose). Se "Advarsler og 
+forsigtighedsregler" under afsnit 2 for yderligere oplysninger og hvad du skal gøre, hvis du får 
+en reaktion ved indsprøjtningsstedet. Reaktionerne kan reduceres ved at bruge en autoinjektor 
+og skifte injektionssteder. Bed din læge, apotekspersonalet eller sygeplejersken om yderligere 
+information. </p>
+<p>For at reducere risikoen for bivirkninger i starten af behandlingen, skal din læge begynde med en lav 
+dosis Extavia og gradvist øge den (se afsnit 3 "Sådan skal du tage Extavia"). </p>
+<p>Følgende liste over bivirkninger er baseret på rapporter fra kliniske forsøg med Extavia og fra 
+indberetninger om bivirkninger af det markedsførte produkt. </p>
+<p>► 
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>nedsat antal hvide blodlegemer, </li>
+<li>hovedpine, </li>
+<li>søvnproblemer (insomnia), </li>
+<li>mavesmerter, </li>
+<li>et specifikt leverenzym (alaninaminotransferase eller ALAT) kan stige (dette vil vise sig i 
+blodprøver), </li>
+<li>udslæt, </li>
+<li>hudproblemer, </li>
+<li>muskelsmerter (myalgi), </li>
+<li>muskelstivhed (hypertoni), </li>
+<li>ledsmerter (artralgi), </li>
+<li>pludselig vandladningstrang, </li>
+<li>reaktioner ved injektionsstedet (inkl. rødme, hævelse, misfarvning, betændelse, smerte, 
+infektion, allergiske reaktioner (overfølsomhed), </li>
+<li>influenzalignende symptomer, smerte, feber, kuldegysninger, væskeansamling i arm eller ben 
+(perifert ødem), tab af/mangel på styrke (asteni). </li>
+</ul>
+<p>► 
+Almindelig (kan forekomme hos op til 1 ud af 10 personer):</p>
+<ul>
+<li>hævede lymfekirtler (lymfadenopati), </li>
+<li>antallet af røde blodlegemer i blodet kan falde (anæmi), </li>
+<li>skjoldbruskkirtlen virker ikke ordentligt (der produceres for lidt hormon) 
+(hypotyreoidisme), </li>
+<li>vægtøgning eller vægttab, </li>
+<li>forvirring, </li>
+<li>unormal hurtig hjerterytme (takykardi), </li>
+<li>forhøjet blodtryk (hypertension), </li>
+<li>et specifikt leverenzym (aspartat aminotransferase eller ASAT) kan stige (dette vil vise 
+sig i blodprøver), </li>
+<li>åndenød (dyspnø), </li>
+<li>et rødgult farvestof (bilirubin), som dannes i leveren, kan forøges (viser sig i blodprøver), </li>
+<li>hævede og sædvanligvis kløende områder i hud eller slimhinder (nældefeber), </li>
+<li>kløe (pruritus), </li>
+<li>tab af hår på hovedet (alopecia), </li>
+<li>menstruationsforstyrrelser (menoragi), </li>
+<li>kraftig blødning fra livmoderen (metroragi) specielt mellem menstruationsperioder, </li>
+<li>impotens, </li>
+<li>nedbrydning af huden og ødelagt væv (nekrose) ved indsprøjtningsstedet (se afsnit 2 
+"Advarsler og forsigtighedsregler"), </li>
+<li>brystsmerter, </li>
+<li>utilpashed. </li>
+</ul>
+<p>► 
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer):</p>
+<ul>
+<li>antallet af blodplader (medvirker til, at blodet størkner) kan falde (trombocytopeni), </li>
+<li>en bestemt type fedtstoffer i blodet (triglycerider) kan stige (vil vise sig i blodprøver), se 
+afsnit 2 "Advarsler og sikkerhedsregler), </li>
+<li>selvmordsforsøg, </li>
+<li>humørsvingninger, </li>
+<li>krampeanfald, </li>
+<li>et specielt leverenzym (gamma-GT), som dannes i leveren, kan øges (viser sig i 
+blodprøver), </li>
+<li>leverbetændelse (hepatitis), </li>
+<li>misfarvning af huden, </li>
+<li>nyreproblemer, inkl. ardannelse (glomerulosclerose), hvilket kan nedsætte din 
+nyrefunktion. </li>
+</ul>
+<p>► 
+Sjælden (kan forekomme hos op til 1 ud af 1.000 personer):</p>
+<ul>
+<li>blodpropper i de små blodårer, der kan påvirke dine nyrer (trombotisk trombocytopenisk 
+purpura eller hæmolytisk uræmisk syndrom). Symptomerne kan omfatte øget tendens til 
+blå mærker, blødning, feber, ekstrem svaghed, svimmelhed eller uklarhed. Din læge vil 
+måske finde ændringer i dit blod og i din nyrefunktion, </li>
+<li>alvorlige overfølsomhedsreaktioner (anafylaksi), </li>
+<li>skjoldbruskkirtlen virker ikke ordentligt (forstyrrelser i thyreoidea), der produceres for 
+meget hormon (hypertyreoidisme), </li>
+<li>alvorlig mangel på appetit, hvilket kan føre til vægttab (anoreksi), </li>
+<li>sygdom i hjertemusklen (kardiomyopati), </li>
+<li>pludselig åndenød (bronkospasme), </li>
+<li>betændelse i bugspytkirtlen (pankreatitis), se afsnit 2 "Advarsler og forsigtighedsregler", </li>
+<li>leveren virker ikke ordentligt (leverskade, inkl. hepatitis, leversvigt). </li>
+</ul>
+<p>► 
+Ikke kendt (hyppighed kan ikke estimeres ud fra forhåndenværende data):</p>
+<ul>
+<li>nedbrydning af røde blodlegemer (hæmolytisk anæmi), </li>
+<li>problemer med de små blodkar, som kan opstå ved brug af lægemidler som Extavia (systemisk 
+kapillær lækage-syndrom), </li>
+<li>depression, angst, </li>
+<li>svimmelhed, </li>
+<li>uregelmæssig, hurtig hjertebanken eller pulsslag (palpitation), </li>
+<li>rødme og/eller ansigtsrødmen, der skyldes udvidelse af blodkarrene (vasodilatation), </li>
+<li>svær forsnævring af blodkarrene i lungerne med deraf følgende højt blodtryk i de blodkar, der 
+fører blodet fra hjertet til lungerne (pulmonal arterial hypertension). Pulmonal arteriel 
+hypertension er både set på forskellige tidspunkter under behandlingen, og også flere år efter 
+påbegyndelse af behandlingen med Extavia, </li>
+<li>kvalme, </li>
+<li>opkastning, </li>
+<li>diarré, </li>
+<li>udslæt, hudrødme i ansigtet, ledsmerter, feber, svaghed og andre tilstande forårsaget af 
+medicinen (lægemiddelinduceret lupus erythematosus), </li>
+<li>menstruationsforstyrrelser, </li>
+<li>svedtendens. </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store extavia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store extavia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. Må ikke nedfryses. </p>
+<p>Efter klargøring af opløsningen, skal du straks anvende den. Er du ikke i stand til straks at anvende 
+den, vil den dog kunne bruges i 3 timer, hvis den opbevares i et køleskab ved 2 °C - 8 °C. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at det indeholder partikler, eller hvis det er misfarvet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Extavia indeholder: 
+− 
+Aktivt stof: interferon beta-lb. Hvert hætteglas indeholder 300 mikrogram (9,6 mio. IE) 
+interferon beta-lb pr. hætteglas. Efter rekonstitution indeholder hver mililiter 250 mikrogram 
+(8,0 mio. IE) interferon beta-lb. 
+− 
+Øvrige indholdsstoffer: 
+− 
+i pulveret: mannitol og humant albumin 
+− 
+i solvensen: natriumchlorid, vand til injektionsvæsker. </p>
+<p>Beskyttelseshætten på den fyldte sprøjte indeholder et stof, der er afledt af naturgummi-latex. 
+Beskyttelseshætten kan derfor indeholde naturgummi-latex. </p>
+<p>Udseende og pakningsstørrelser 
+Extavia er et pulver og en solvens (opløsningsvæske) til injektionsvæske, opløsning. </p>
+<p>Pulveret er hvidt til råhvidt. 
+Extaviapulveret leveres i et 3 mililiter hætteglas. 
+Solvensen er en klar/farveløs opløsning. 
+Solvens til Extavia leveres i en fyldt 2,25 ml sprøjte og indeholder 1,2 ml natriumchlorid-
+injektionsvæske 5,4 mg/ml (0,54 % vægt/vol). </p>
+<p>Extavia findes i pakninger med: 
+− 
+5 hætteglas med interferon beta-1b og 5 fyldte sprøjter indeholdende solvens. 
+− 
+14 hætteglas med interferon beta-1b og 14 fyldte sprøjter indeholdende solvens. 
+− 
+15 hætteglas med interferon beta-1b og 15 fyldte sprøjter indeholdende solvens. 
+− 
+14 hætteglas med interferon beta-1b og 15 fyldte sprøjter indeholdende solvens. </p>
+<p>− 
+3-måneders multipakning indeholdende 42 (3x14) hætteglas med interferon beta-1b og (3x14) fyldte sprøjter indeholdende solvens. 
+− 
+3-måneders multipakning indeholdende 45 (3x15) hætteglas med interferon beta-1b og (3x15) fyldte sprøjter indeholdende solvens. 
+− 
+3-måneders multipakning indeholdende 42 (3x14) hætteglas med interferon beta-1b og (3x15) fyldte sprøjter indeholdende solvens. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Pharma GmbH 
+Roonstrasse D-90429 Nürnberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om Extavia på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu. 
+Bilag: FREMGANGSMÅDE, NÅR DU SELV SKAL INDSPRØJTE LÆGEMIDLET </p>
+<p>Denne vejledning og billedet forklarer, hvordan Extavia klargøres til indsprøjtning, og hvordan du 
+sprøjter dig selv. Læs instruktionen omhyggeligt, og følg den trin for trin. Din læge eller 
+sygeplejersken vil instruere dig. Du må ikke sprøjte dig selv, før du er sikker på, at du ved, hvordan 
+opløsningen klargøres, og hvordan du sprøjter dig selv. </p>
+<p>DEL I: INSTRUKTIONER TRIN FOR TRIN </p>
+<p>Instruktionerne omfatter følgende hovedpunkter: 
+A) 
+Almindelige forholdsregler 
+B) 
+Forberedelse af indsprøjtning 
+C) 
+Tilberedning og opsugning af opløsningen (til injektion), trin for trin 
+D) 
+Indsprøjtningen manuelt (hvis du skal lave en indsprøjtning med ExtaviPro 30G 
+autoinjektoren, skal du følge den vejledning, der følger med autoinjektoren. </p>
+<p>A) 
+Almindelige forholdsregler </p>
+<ul>
+<li>Kom godt i gang! </li>
+</ul>
+<p>I løbet af et par uger bliver behandlingen en naturlig del af din rutine. Når du starter behandlingen, kan 
+du have glæde af følgende tips:</p>
+<ul>
+<li>
+<p>Opret et permanent opbevaringssted på et passende sted, utilgængeligt for børn, så du altid nemt 
+kan finde din Extavia og andet materiale til behandlingen. 
+Detaljer om opbevaringsbetingelser findes under afsnit 5 "Opbevaring" på indlægssedlen. </p>
+</li>
+<li>
+<p>Forsøg at tage indsprøjtningen på samme tid hver dag. Det gør det nemmere at huske og 
+nemmere at planlægge et tidsrum uden afbrydelser. 
+Yderligere oplysninger om brugen af Extavia findes under afsnit 3 "Sådan skal du tage Extavia" 
+på indlægssedlen. </p>
+</li>
+<li>
+<p>Klargør først hver dosis, når du er klar til indsprøjtningen. Efter at Extavia er opløst, skal du 
+foretage indsprøjtningen omgående (hvis dette lægemiddel ikke bruges omgående, henvises der 
+til afsnit 5 "Opbevaring" på indlægssedlen). </p>
+</li>
+<li>
+<p>Vigtige tips at huske </p>
+</li>
+<li>
+<p>Vær konsekvent - anvend dette lægemiddel som beskrevet under afsnit 3: "Sådan skal du tage 
+Extavia" på indlægssedlen. Kontroller altid din dosis. </p>
+</li>
+<li>Opbevar dine sprøjter og affaldsbeholder til sprøjter utilgængeligt for børn. Lås om muligt 
+materialet til behandlingen inde. </li>
+<li>Genbrug aldrig sprøjter eller kanyler. </li>
+<li>Brug altid en steril (aseptisk) teknik, som beskrevet nedenfor. </li>
+<li>Smid altid brugte sprøjter i den dertil indrettede affaldsbeholder. </li>
+</ul>
+<p>B) 
+Forberedelse af indsprøjtning </p>
+<ul>
+<li>Valg af indsprøjtningssted </li>
+</ul>
+<p>Før du klargør indsprøjtningen, skal du beslutte, hvor du vil sprøjte dig. Du skal sprøjte dette 
+lægemiddel ind i fedtlaget mellem huden og musklen (subkutant - dvs. ca. 8 mm til 12 mm under 
+huden). De steder, der er bedst egnet til indsprøjtning, er der, hvor huden er løs og blød og ikke i 
+nærheden af led, nerver og knogler, fx mave, arm, lår eller balder. </p>
+<p>Bemærk: </p>
+<p>Beskyttelseshætten på den fyldte sprøjte indeholder et stof, der er afledt af naturgummi-latex. 
+Beskyttelseshætten kan derfor indeholde naturgummi-latex. Rådfør dig med din læge, før du bruger 
+Extavia, hvis du er overfølsom over for latex. </p>
+<p>Undlad at sprøjte dig på steder, hvor du har infiltrationer, knuder, faste knuder, smerte, eller hvor 
+huden er misfarvet, indsunken, skorpet eller revnet. Tal med din læge eller sygeplejersken om dette 
+eller andre usædvanlige tilstande, du bemærker. </p>
+<p>Du skal benytte et nyt sted ved hver indsprøjtning. Hvis nogle af områderne er for vanskelige at nå, 
+kan du eventuelt bede et familiemedlem eller en ven om at hjælpe med disse indsprøjtninger. Følg den 
+rækkefølge, der er beskrevet i skemaet til sidst i bilaget (se DEL II Vælg forskellige injektionssteder), 
+så du kommer tilbage til det første sted efter 8 indsprøjtninger (16 dage). Det giver hvert sted 
+mulighed for at komme sig helt før en ny indsprøjtning. </p>
+<p>Se venligst rotationsskemaet til sidst i dette bilag vedrørende valg af indsprøjtningssted. Der finder du 
+også et eksempel på en behandlingskalender (se bilag DEL III). Dette kan hjælpe dig med at holde 
+rede på dine indsprøjtningssteder og -datoer. </p>
+<ul>
+<li>Medicinen </li>
+</ul>
+<p>Du skal bruge medicinen: </p>
+<ul>
+<li>
+<p>1 hætteglas med Extavia (med pulver til opløsning) </p>
+</li>
+<li>
+<p>1 fyldt sprøjte med væske (solvens) til Extavia (natriumchlorid injektionsvæske). </p>
+</li>
+</ul>
+<p>Til opløsning og indsprøjtning af din medicin skal du bruge et ExtaviPro 30G applikationskit (som 
+leveres særskilt), som indeholder følgende dele samt instruktion i, hvordan det skal bruges: </p>
+<ul>
+<li>
+<p>Adapter til hætteglas, som du skal bruge ved opløsningen af din medicin </p>
+</li>
+<li>
+<p>Kanyler nr. 30 til indsprøjtning af din medicin </p>
+</li>
+<li>
+<p>Spritservietter </p>
+</li>
+</ul>
+<p>Desuden skal du bruge en affaldsbeholder til brugte sprøjter og kanyler. </p>
+<p>Kanyle nr. 30 som leveres med behandlingspakken til indsprøjtning af dette lægemiddel kan bruges 
+enten til manuel indsprøjtning eller sammen med ExtaviPro 30G autoinjektor. </p>
+<p>Til desinfektion af huden skal du bruge et passende desinfektionsmiddel anbefalet af apoteket. </p>
+<p>C) 
+Tilberedning og opsugning af injektionsopløsningen, trin for trin </p>
+<p>1 - Vask hænderne grundigt med vand og sæbe, før du går i gang 
+med denne proces. </p>
+<p>2 - Fjern beskyttelseshætten fra Extavia hætteglasset. Det er 
+bedst at bruge tommelfingeren. Undgå at bruge neglene, da de 
+kan brække. Sæt hætteglasset på bordet. </p>
+<p>3 - Aftør toppen af hætteglasset med en spritserviet. Servietten 
+må kun bevæges i én retning. Lad spritservietten ligge oven på 
+hætteglasset. </p>
+<p>4 - Fjern låget fra adapterpakningen ved at trække det bagud. 
+Tag ikke adapteren til hætteglasset ud af pakningen. </p>
+<p>5 - Fjern spritservietten fra hætteglasset. 
+Brug pakningen til at håndtere adapteren. Fastgør adapteren til 
+hætteglasset ved at trykke nedad, indtil adapteren bryder 
+igennem og låser omkring toppen af hætteglasset. </p>
+<p>6 - Hold fast i pakningens hjørner, fjern pakningen og smid den 
+væk, idet du sikrer dig, at adapteren forbliver på 
+hætteglasset. </p>
+<p>7 - Pak den fyldte sprøjte med væske ud af emballagen. Knæk 
+spidsen af den fyldte sprøjte og smid den væk. 
+OBS: Undgå at røre ved sprøjtens spids. Tryk ikke på stemplet. </p>
+<p>8 - Hold fast på hætteglas og adapter og skru sprøjten helt på 
+adapteren. 
+Du har nu det samlede sprøjte-hætteglas. </p>
+<p>9 - Hold det samlede sprøjte-hætteglas let på skrå. Tryk 
+langsomt stemplet ind, så væsken løber ned ad siden på 
+hætteglasset. 
+Overfør al væsken til hætteglasset. 
+OBS: Omryst ikke glasset, da der vil dannes meget skum. </p>
+<p>10 - Hold hætteglasset mellem tommelfingeren og de øvrige 
+fingre. Rotér det samlede sprøjtehætteglas forsigtigt indtil 
+pulveret er opløst fuldstændigt. 
+OBS: Hætteglasset må ikke omrystes. </p>
+<p>11 - Undersøg nøje opløsningen. Den skal være klar og må ikke 
+indeholde partikler. 
+OBS: Hvis opløsningen er misfarvet eller indeholder partikler, 
+skal du kassere den og starte forfra med en ny sprøjte og et nyt 
+hætteglas fra din æske. 
+Hvis der er meget skum - hvilket kan forekomme, hvis 
+hætteglasset rystes eller roteres for voldsomt - skal du lade 
+hætteglasset stå, til skummet er væk. </p>
+<p>12 - Vær sikker på at stemplet er trykket helt ned, før du 
+fortsætter til næste trin. Det kan have rykket sig. </p>
+<p>13 - Vend det samlede sprøjtehætteglas, så hætteglasset er 
+øverst. Træk langsomt stemplet tilbage for at trække al 
+opløsningen ind i sprøjten. </p>
+<p>14 - Fjern eventuelle luftbobler ved forsigtigt at banke på 
+sprøjten. Skub stemplet ind til 1 ml-mærket (eller til den 
+mængde, din læge har ordineret). 
+OBS: Det kan være nødvendigt at justere stemplet frem og 
+tilbage få gange for at sikre, at overskydende luftbobler er 
+forsvundet, og der er 1 ml opløsning i sprøjten. </p>
+<p>15 - Skru sprøjten af. Lad adapteren forblive på hætteglasset. 
+Smid hætteglas og den ubrugte del af opløsningen i 
+affaldsbeholderen. </p>
+<p>16 - Pak kanylen ud af emballagen og skru den fast på 
+sprøjtespidsen. </p>
+<p>17 - Lad kanylehætten blive på. Du er nu klar til at foretage 
+indsprøjtningen manuelt selv eller til at bruge ExtaviPro 
+30G-autoinjektoren til indsprøjtning af Extavia. 
+Opbevaring efter rekonstituering 
+Hvis du af en eller anden grund ikke straks kan indsprøjte Extavia, kan du opbevare den 
+rekonstituerede opløsning i køleskab i op til 3 timer, før du bruger den. Opløsningen må ikke 
+nedfryses, og du må ikke vente længere end 3 timer, før du tager indsprøjtningen. Hvis der går 
+mere end 3 timer, skal du kassere opløsningen og klargøre en ny. Varm opløsningen op i 
+dine hænder inden du bruger den for at undgå smerte. </p>
+<p>D) 
+Sådan foretages indsprøjtningen manuelt (hvis du skal lave en indsprøjtning med 
+ExtaviPro 30G auto-injektoren, skal du følge den vejledning, der følger med 
+autoinjektoren) </p>
+<p>1 - Vælg et område til indsprøjtningen (se afsnittet "Valg af 
+indsprøjtningssted" og diagrammer til sidst i denne indlægsseddel) og 
+notér det i dit behandlingsskema. </p>
+<p>2 - Brug en spritserviet til at aftørre huden på indsprøjtningsstedet. Lad 
+huden lufttørre. Smid spritservietten væk. </p>
+<p>3 - Tag hætten af kanylen ved at trække i den. Den må ikke drejes. </p>
+<p>4 - Hvis det er muligt, så klem forsigtigt huden sammen omkring det 
+desinficerede indsprøjtningssted (for at løfte huden en smule). </p>
+<p>5 - Hold sprøjten som en blyant eller en dartpil. Stik kanylen direkte ind 
+i huden (i en vinkel på 90˚) med en hurtig, bestemt bevægelse. </p>
+<p>6 - Sprøjt medicinen ind (ved at trykke stemplet langsomt og roligt helt i 
+bund, indtil sprøjten er tom). </p>
+<p>7 - Kassér sprøjten i affaldsbeholderen. 
+DEL II: VÆLG FORSKELLIGE INDSPRØJTNINGSSTEDER </p>
+<p>For at give området tid til at komme sig og for at forebygge infektion skal du vælge et nyt sted til hver 
+indsprøjtning. Råd om, hvilke områder du kan vælge imellem, findes i bilagets første del. Det er en 
+god idé at vide, hvor du har tænkt dig at sprøjte dig, før du gør sprøjten klar. I diagrammet nedenfor er 
+der et skema, som kan hjælpe dig med at skifte indsprøjtningssted. Du kan for eksempel vælge højre 
+side af maven til den første indsprøjtning, venstre side af maven til den næste indsprøjtning, derefter 
+højre lår til den tredje osv. ifølge diagrammet, indtil alle passende områder på kroppen er brugt. Hold 
+regnskab med, hvor og hvornår du sidst sprøjtede dig. Det kan du fx gøre ved at registrere stedet på det 
+vedlagte skema. </p>
+<p>Hvis du følger denne plan, kommer du tilbage til det første sted (fx højre side af maven) efter 
+8 indsprøjtninger (16 dage). Dette kaldes en rotationscyklus. I vores eksempel er hvert område igen 
+opdelt i seks steder, nemlig venstre og højre: øverste, mellemste og nederste del af hvert område, 
+hvilket giver i alt 48 indsprøjtningssteder. Hvis du kommer tilbage til et område efter en 
+rotationscyklus, skal du vælge det sted i området, som ligger længst væk. Hvis et område bliver ømt, 
+skal du tale med din læge eller sygeplejerske om at vælge andre indsprøjtningssteder. </p>
+<p>Rotationsplan 
+For at veksle passende mellem indsprøjtningsstederne anbefaler vi, at du noterer dato og sted for din 
+indsprøjtning. Du kan benytte følgende rotationsplan. </p>
+<p>Anvend hver enkelt rotationscyklus på skift. Hver rotationscyklus indeholder 8 indsprøjtninger 
+(16 dage), der gives fra område 1 til område 8 på skift. Hvis du følger denne rækkefølge, får hvert 
+område mulighed for at komme sig, før der igen indsprøjtes. </p>
+<p>Rotationscyklus 1: 
+Øverste venstre del af hvert område 
+Rotationscyklus 2: 
+Nederste højre del af hvert område 
+Rotationscyklus 3: 
+Midterste venstre del af hvert område 
+Rotationscyklus 4: 
+Øverste højre del af hvert område 
+Rotationscyklus 5: 
+Nederste venstre del af hvert område 
+Rotationscyklus 6: 
+Midterste højre del af hvert område 
+DEL III: Skema til behandling med EXTAVIA </p>
+<p>Extavia behandlingskalender </p>
+<p>− 
+Begynd med din første indsprøjtning (eller din seneste indsprøjtning, hvis du ikke er ny Extavia-
+bruger). </p>
+<p>− 
+Vælg et indsprøjtningssted. Hvis du allerede har taget Extavia, skal du starte med det område, 
+der ikke har været i brug under den seneste rotationscyklus (dvs. de sidste 16 dage). </p>
+<p>− 
+Efter indsprøjtningen, skal du registrere det anvendte sted og datoen i tabellen i dit 
+indsprøjtningsskema (se eksemplet: "Extavia behandlingskalender"). </p>
+<p>ROTATIONSPLAN: </p>
+<p>10-15 cm fra 
+lysken 
+10-15 cm fra 
+skulderen 
+Benets midterlinje 
+OMRÅDE 2 
+Venstre arm 
+(øvre del af armen) 
+OMRÅDE 3 
+OMRÅDE 1 
+OMRÅDE 5 
+OMRÅDE 4 
+OMRÅDE 6 
+Venstre lår 
+10-15 cm 
+fra knæet 
+OMRÅDE 8 
+OMRÅDE 7 
+Højre balde 
+Venstre balde 
+Venstre del af maven 
+(undlad at stikke i et 
+stykke på cirka 5 cm til 
+venstre for navlen) 
+Højre del af maven 
+(undlad at stikke i et 
+stykke på cirka 5 cm 
+til højre for navlen) 
+Højre lår 
+Højre arm 
+(øvre del af armen) 
+10-15 cm 
+fra albuen 
+EKSEMPEL PÅ BEHANDLINGSKALENDER: </p>
+<p>Højre balde 
+Venstre balde 
+Venstre lår 
+Højre lår 
+Højre del af maven 
+Venstre arm 
+Højre arm 
+Benets midterlinje 
+10-15 cm fra 
+skulderen 
+10-15 cm 
+fra albuen 
+10-15 cm fra 
+knæet 
+10-15 cm 
+fra lysken 
+Extavia behandlingskalender 
+Venstre del af maven </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-af957cdad64de8277859b4d268fc6099
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for extavia Package Leaflet for language en"
+Description: "ePI document Bundle for extavia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-af957cdad64de8277859b4d268fc6099"
+* entry[0].resource = composition-en-af957cdad64de8277859b4d268fc6099
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpaf957cdad64de8277859b4d268fc6099"
+* entry[=].resource = mpaf957cdad64de8277859b4d268fc6099
+                            
+                    
+Instance: bundlepackageleaflet-da-af957cdad64de8277859b4d268fc6099
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for extavia Package Leaflet for language da"
+Description: "ePI document Bundle for extavia Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-af957cdad64de8277859b4d268fc6099"
+* entry[0].resource = composition-da-af957cdad64de8277859b4d268fc6099
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpaf957cdad64de8277859b4d268fc6099"
+* entry[=].resource = mpaf957cdad64de8277859b4d268fc6099
+                            
+                    
+
+
+
+Instance: mpaf957cdad64de8277859b4d268fc6099
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Extavia 250 microgram/ml powder and solvent for solution for injection."
-Description: "Extavia 250 microgram/ml powder and solvent for solution for injection."
+Title: "Medicinal Product extavia"
+Description: "extavia"
 Usage: #inline
 
  
@@ -649,7 +1672,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Extavia 250 microgram/ml powder and solvent for solution for injection."
+  * productName = "extavia"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -676,29 +1699,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-af957cdad64de8277859b4d268fc6099
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for extavia Package Leaflet for language en"
-Description: "ePI document Bundle for extavia Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: af957cdad64de8277859b4d268fc6099ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/08/454/008-014"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "extavia"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-af957cdad64de8277859b4d268fc6099"
-* entry[0].resource = composition-en-af957cdad64de8277859b4d268fc6099
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp58d2a72cafb0584516944ee6d6e397d5"
-* entry[=].resource = mp58d2a72cafb0584516944ee6d6e397d5
-                            
-                      
+* title = "List of all ePIs associated with extavia"
+
+* subject = Reference(mp58d2a72cafb0584516944ee6d6e397d5)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#extavia "extavia"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-af957cdad64de8277859b4d268fc6099) // extavia en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-af957cdad64de8277859b4d268fc6099) // extavia da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-af957cdad64de8277859b4d268fc6099
+InstanceOf: List
+
+* insert af957cdad64de8277859b4d268fc6099ListRuleset
+    

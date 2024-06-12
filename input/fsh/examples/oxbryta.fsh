@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-7bc78483a72818d156f4ad97517abe5a
 InstanceOf: CompositionUvEpi
 Title: "Composition for oxbryta Package Leaflet"
@@ -313,12 +316,459 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-7bc78483a72818d156f4ad97517abe5a
+InstanceOf: CompositionUvEpi
+Title: "Composition for oxbryta Package Leaflet"
+Description:  "Composition for oxbryta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe1d702e554f9b7e7cd67effb8c738a6a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe1d702e554f9b7e7cd67effb8c738a6a
+* title = "TEST PURPOSES ONLY - oxbryta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Oxbryta
+3. Sådan skal du tage Oxbryta
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What oxbryta is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What oxbryta is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning og information
+Oxbryta indeholder det aktive stof voxelotor. Voxelotor virker på et protein i de røde blodlegemer, der 
+kaldes hæmoglobin, og hjælper det med at optage ilt, som de røde blodlegemer kan levere til hele 
+kroppen.
+Patienter med en sygdom, der kaldes seglcellesygdom, har en ændret form af hæmoglobin, 
+seglcellehæmoglobin, som er anderledes end det normale hæmoglobin. Når seglcellehæmoglobinerne 
+frigiver ilt til vævene, klæber de sammen, så der dannes lange stave, og de får de røde blodlegemer til 
+at ændre form til en nymåneform, hvilket gør, at de bliver stive og seglcelleformede. De 
+seglcelleformede røde blodlegemer kan ikke levere ilt lige så effektivt som sunde røde blodlegemer, 
+og de nedbrydes også hurtigere, hvilket fører til et mindre antal røde blodlegemer (hæmolytisk 
+anæmi). Ved at forbedre måden, hvorpå det ændrede hæmoglobin holder fast på ilten, forbedrer 
+Oxbryta funktionen af røde blodlegemer, og forlænger deres levetid.
+Anvendelse
+Oxbryta anvendes alene eller sammen med hydroxycarbamid (også kaldet hydroxyurinstof) til at 
+behandle hæmolytisk anæmi hos voksne og børn fra 12 år med seglcellesygdom.
+26</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take oxbryta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take oxbryta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Oxbryta
+
+Hvis du er allergisk over for voxelotor eller et af de øvrige indholdsstoffer i Oxbryta (angivet i 
+punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du tager Oxbryta, hvis du har:
+
+svære nyreproblemer.
+
+svære leverproblemer. Det kan være nødvendigt, at lægen justerer din dosis af Oxbryta.
+Hvis du får symptomer på allergiske reaktioner, skal du holde op med at tage Oxbryta og kontakte 
+lægen eller straks søge akut lægehjælp. Symptomer er for eksempel udslæt, herunder nældefeber, 
+stakåndethed og hævelse af ansigtet.
+Alvorlige hudreaktioner som fx lægemiddelreaktion med eosinofili og systemiske symptomer 
+(DRESS) har været rapporteret i forbindelse med behandling med Oxbryta. Hold op med at bruge 
+Oxbryta, og søg øjeblikkeligt lægehjælp, hvis du bemærker et eller flere symptomer på denne alvorlige 
+hudreaktion, som er beskrevet i punkt 4. Hvis du får blodtransfusioner, skal du kontakte lægen om mulige problemer med at fortolke visse 
+blodprøver, mens du tager dette lægemiddel.
+Børn under 12 år
+Dette lægemiddel bør ikke anvendes til børn under 12 år på grund af manglende data for denne 
+aldersgruppe.
+Brug af andre lægemidler sammen med Oxbryta
+Fortæl det altid til lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. 
+Nogle lægemidler kan påvirke den måde, Oxbryta virker på, eller gøre bivirkninger mere sandsynlige. 
+Du skal især fortælle det til lægen, hvis du tager nogen af de følgende lægemidler:
+
+rifampicin (anvendes til at behandle bakterielle infektioner)
+
+phenobarbital, carbamazepin, phenytoin (anvendes til at behandle epilepsi og andre sygdomme)
+
+sirolimus, tacrolimus (anvendes til at forhindre organafstødning efter transplantation)
+
+prikbladet perikon (et naturlægemiddel, der anvendes til at behandle depression)
+
+alfentanil (en smertelindrende medicin, der anvendes under en operation med bedøvelse).
+Fortæl lægen, at du tager Oxbryta, hvis du skal gennemgå et medicinsk indgreb eller en operation.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel.
+
+Graviditet
+Lægen vil hjælpe dig med at beslutte, om du skal holde op med at tage Oxbryta under 
+graviditeten.
+27
+
+Amning
+Du må ikke amme, mens du tager Oxbryta, da det er ukendt, om voxelotor overføres til 
+modermælken og evt. kan påvirke barnet.
+Trafik- og arbejdssikkerhed
+Oxbryta påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner.
+Oxbryta indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis med tre tabletter, dvs. det 
+er i det væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take oxbryta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take oxbryta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+Den anbefalede dosis til voksne og børn fra 12 år er:
+Tre 500 mg tabletter tages én gang dagligt via munden.
+Slug tabletterne hele sammen med et glas vand sammen med eller uden mad. Du bør ikke dele, knuse 
+eller tygge tabletterne, da de smager dårligt.
+Hvis du har taget for meget Oxbryta
+Kontakt straks lægen.
+Hvis du har glemt at tage Oxbryta
+Fortsæt med dit normale doseringsprogram den næste dag. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis.
+Hvis du holder op med at tage Oxbryta
+Du må ikke holde op med at tage dette lægemiddel uden først at rådføre dig med lægen. Det er vigtigt 
+at tage Oxbryta dagligt.
+Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Hold op med at tage Oxbryta og fortæl det til lægen eller søg straks akut lægehjælp, hvis du 
+oplever nogen af de følgende alvorlige bivirkninger:
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer)
+
+allergiske reaktioner
+Symptomer er for eksempel udslæt, herunder nældefeber, stakåndethed og hævelse af ansigt.
+Ikke kendt (hyppigheden kan ikke estimeres ud fra tilgængelige data)
+
+udbredt udslæt, forhøjet kropstemperatur (feber) og forstørrede lymfeknuder (DRESS-syndrom 
+eller lægemiddeloverfølsomhedssyndrom)
+
+hævelse af øjenlåg, ansigt og læber (angioødem)
+28
+Andre bivirkninger kan forekomme med følgende hyppighed:
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer)
+
+hovedpine
+
+diarré
+
+mavesmerter
+
+kvalme
+
+udslæt
+Almindelig (kan forekomme hos op til 1 ud af 10 personer)
+
+kløe (pruritus)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store oxbryta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store oxbryta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på flasken og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oxbryta indeholder:
+
+Aktivt stof: voxelotor. En tablet indeholder 500 mg voxelotor.
+
+Øvrige indholdsstoffer:
+-
+mikrokrystallinsk cellulose (E460)
+-
+croscarmellosenatrium (E468)
+-
+natriumlaurilsulfat (E487)
+-
+silica, kolloid vandfri (E551)
+-
+magnesiumstearat (E470b)
+-
+polyvinylalkohol (E1203)
+-
+titandioxid (E171)
+-
+polyethylenglycol (E1521)
+-
+talcum (E553b)
+-
+gul jernoxid (E172)
+Udseende og pakningsstørrelser
+Lysegule til gule, ovale, bikonvekse filmovertrukne tabletter, præget med "GBT 500" på den ene side. 
+Tabletdimensioner: ca. 18 mm × 10 mm.
+29
+Oxbryta er pakket i en plasticflaske med et børnesikret låg. Hver flaske indeholder 90 filmovertrukne 
+tabletter. Flasken indeholder også en spiral og en beholder med tørremiddel af silicagel til at hjælpe 
+med at holde dit lægemiddel tørt. Flasken leveres i en æske.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Global Blood Therapeutics Netherlands B.V.
+Strawinskylaan 3051
+1077ZX Amsterdam
+Holland
+Eller
+Pfizer Service Company BV
+Hoge Wei 10
+1930 Zaventem
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf.: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.,
+Tel.: +48 22 335 61 00
+30
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: https://www.ema.europa.eu/en.
+31
+BILAG IV
+VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSE FOR ÆNDRING AF 
+BETINGELSERNE FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE
+32
+Videnskabelige konklusioner
+Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for voxelotor er PRAC nået 
+frem til følgende videnskabelige konklusioner:
+I lyset af de foreliggende data af risici fra kliniske forsøg og spontane rapporter, herunder i visse 
+tilfælde en tæt tidsmæssig sammenhæng, en positiv de-challenge og/eller re-challenge, vurderer 
+PRAC, at en årsagssammenhæng mellem voxelotor og pruritus og mellem voxelotor og angioødem
+(herunder hævede læber, hævede øjenlåg, ansigtsødem og hævede øjenomgivelser) i det mindste er en 
+rimelig mulighed. PRAC har konkluderet, at produktinformationen for produkter, der indeholder 
+voxelotor, bør ændres i overensstemmelse hermed.
+CHMP har gennemgået PRAC's anbefaling og er enig i de overordnede konklusioner og begrundelser 
+for anbefalingen.
+Begrundelse for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne
+På baggrund af de videnskabelige konklusioner for voxelotor er CHMP af den opfattelse, at 
+benefit/risk-forholdet for lægemidlet/lægemidlerne indeholdende voxelotor forbliver uændret under 
+forudsætning af, at de foreslåede ændringer indføres i produktinformationen.
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-7bc78483a72818d156f4ad97517abe5a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oxbryta Package Leaflet for language en"
+Description: "ePI document Bundle for oxbryta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7bc78483a72818d156f4ad97517abe5a"
+* entry[0].resource = composition-en-7bc78483a72818d156f4ad97517abe5a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7bc78483a72818d156f4ad97517abe5a"
+* entry[=].resource = mp7bc78483a72818d156f4ad97517abe5a
+                            
+                    
+Instance: bundlepackageleaflet-da-7bc78483a72818d156f4ad97517abe5a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oxbryta Package Leaflet for language da"
+Description: "ePI document Bundle for oxbryta Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-7bc78483a72818d156f4ad97517abe5a"
+* entry[0].resource = composition-da-7bc78483a72818d156f4ad97517abe5a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7bc78483a72818d156f4ad97517abe5a"
+* entry[=].resource = mp7bc78483a72818d156f4ad97517abe5a
+                            
+                    
+
+
+
+Instance: mp7bc78483a72818d156f4ad97517abe5a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Oxbryta 500 mg film-coated tablets"
-Description: "Oxbryta 500 mg film-coated tablets"
+Title: "Medicinal Product oxbryta"
+Description: "oxbryta"
 Usage: #inline
 
  
@@ -338,7 +788,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Oxbryta 500 mg film-coated tablets"
+  * productName = "oxbryta"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -365,29 +815,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-7bc78483a72818d156f4ad97517abe5a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for oxbryta Package Leaflet for language en"
-Description: "ePI document Bundle for oxbryta Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 7bc78483a72818d156f4ad97517abe5aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1622/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "oxbryta"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-7bc78483a72818d156f4ad97517abe5a"
-* entry[0].resource = composition-en-7bc78483a72818d156f4ad97517abe5a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe1d702e554f9b7e7cd67effb8c738a6a"
-* entry[=].resource = mpe1d702e554f9b7e7cd67effb8c738a6a
-                            
-                      
+* title = "List of all ePIs associated with oxbryta"
+
+* subject = Reference(mpe1d702e554f9b7e7cd67effb8c738a6a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#oxbryta "oxbryta"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-7bc78483a72818d156f4ad97517abe5a) // oxbryta en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-7bc78483a72818d156f4ad97517abe5a) // oxbryta da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-7bc78483a72818d156f4ad97517abe5a
+InstanceOf: List
+
+* insert 7bc78483a72818d156f4ad97517abe5aListRuleset
+    

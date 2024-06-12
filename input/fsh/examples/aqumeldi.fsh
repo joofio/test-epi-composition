@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5df3251458790d2240f34b809fdcc93e
 InstanceOf: CompositionUvEpi
 Title: "Composition for aqumeldi Package Leaflet"
@@ -466,12 +469,860 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-5df3251458790d2240f34b809fdcc93e
+InstanceOf: CompositionUvEpi
+Title: "Composition for aqumeldi Package Leaflet"
+Description:  "Composition for aqumeldi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpababe33165f30d451e4ed6ab73026d71)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpababe33165f30d451e4ed6ab73026d71
+* title = "TEST PURPOSES ONLY - aqumeldi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du eller dit barn begynder at bruge Aqumeldi </li>
+<li>Sådan skal du bruge Aqumeldi </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What aqumeldi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What aqumeldi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aqumeldi indeholder det aktive stof enalaprilmaleat. </p>
+<p>Det anvendes hos børn og unge fra 0 til 17 år til at behandle hjertesvigt (når hjertet ikke pumper blodet 
+godt nok rundt i kroppen). </p>
+<p>Enalaprilmaleat tilhører en gruppe lægemidler, der kaldes angiotensinkonverterende enzymhæmmere 
+(ACE-hæmmere). Det betyder, at det blokerer et enzym (protein) i kroppen, så det ikke kan danne 
+hormonet angiotensin II. Fordi det indsnævrer blodkarrene kan angiotensin II forårsage et højt 
+blodtryk, som tvinger hjertet til at arbejde hårdere med at pumpe blod rundt i kroppen. Angiotensin II 
+frigiver også hormoner, såsom aldosteron, der øger blodtrykket, fordi de forårsager væskeophobning. </p>
+<p>Ved at blokere dannelsen af angiotensin II påvirker Aqumeldi det hormonsystem, der har betydning 
+for blodtrykket og kroppens væskebalance. Dette bidrager til at sænke blodtrykket og øger tilførslen af 
+blod og ilt til hjertet. Lægemidlet begynder sædvanligvis at virke inden for en time, men der kan være 
+behov for flere ugers behandling, før der indtræder en bedring. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take aqumeldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take aqumeldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Aqumeldi, hvis du eller dit barn </p>
+<ul>
+<li>
+<p>er allergisk over for enalaprilmaleat, et af de øvrige indholdsstoffer i dette lægemiddel (angivet i 
+punkt 6) eller andre ACE-hæmmere (som captopril, lisinopril og ramipril). ACE-hæmmere 
+anvendes til at behandle forhøjet blodtryk eller hjertesvigt) </p>
+</li>
+<li>
+<p>nogensinde har haft en reaktion, der kaldes angioødem (hurtig hævelse under huden i områder som 
+f.eks. ansigt, svælg, arme og ben, som kan være livstruende, hvis hævelsen i svælget blokerer 
+luftvejene), ved indtagelse af en anden ACE-hæmmer, eller når årsagen til angioødem ikke 
+kendtes eller var arvelig </p>
+</li>
+<li>
+<p>er gravid og længere henne end 3 måneder. Også tidligt i graviditeten er det bedre at undgå 
+Aqumeldi – (se punkt 2 "Graviditet, amning og frugtbarhed") </p>
+</li>
+<li>
+<p>har diabetes eller nedsat nyrefunktion og er i behandling med et blodtrykssænkende lægemiddel, 
+der indeholder aliskiren (se punkt 2 "Brug af andre lægemidler sammen med Aqumeldi"). </p>
+</li>
+<li>
+<p>har taget eller tager sacubitril/valsartan – et lægemiddel til behandling af en form for langvarigt 
+(kronisk) hjertesvigt, da risikoen for angioødem er øget. Vent mindst 36 timer efter sidste dosis 
+sacubitril/valsartan, før du tager Aqumeldi. </p>
+</li>
+<li>
+<p>har svær nyresygdom. </p>
+</li>
+</ul>
+<p>Hvis du ikke er sikker, skal du tale med din eller dit barns læge eller spørge på apoteket inden brug af 
+Aqumeldi. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen før brug af Aqumeldi, hvis du eller dit barn: </p>
+<ul>
+<li>
+<p>har en hjertesygdom, der medfører blokering af venstre ventrikulære udstrømningskanal eller 
+kardiogent shock </p>
+</li>
+<li>
+<p>har en sygdom, der involverer blodkarrene i hjernen (f.eks. stenose, trombose, embolisme, 
+blødning) </p>
+</li>
+<li>
+<p>har kollagen vaskulær sygdom (en sygdom, der forårsager langvarig betændelse i bindevæv, dvs. 
+væv, der holder knogler, muskler og ledbånd sammen) </p>
+</li>
+<li>
+<p>er i behandling med immunsupprimerende midler (lægemidler, der anvendes til at nedsætte 
+kroppens immunrespons), med allopurinol (som anvendes til at sænke urinsyreniveauet) eller med 
+procainamid (anvendes til behandling af hjerterytmeforstyrrelser). I disse tilfælde kan enalapril 
+øge risikoen for neutropeni, dvs. lavt antal neutrofile hvide blodlegemer (en type hvide 
+blodlegemer, der bekæmper infektioner), agranulocytose, dvs. meget lave mængder af 
+granulocytter (en type hvide blodlegemer, som er vigtige til at bekæmpe infektioner), 
+trombocytopeni, dvs. blodplademangel, som kan give blødning og blå mærker, og anæmi, dvs. lavt 
+antal røde blodlegemer, som kan give træthed og bleg hud (se punkt 2 "Brug af andre lægemidler 
+sammen med Aqumeldi") </p>
+</li>
+<li>
+<p>tidligere har haft en allergisk reaktion over for ACE-hæmmere med hævelse af ansigt, læber, 
+tunge eller svælg, der medførte synke- eller vejrtrækningsbesvær (angioødem). Angioødem kan 
+forekomme på ethvert tidspunkt under behandlingen med Aqumeldi. Hvis der opstår symptomer, 
+bør behandling med Aqumeldi standses, og der bør straks søges behandling. Bemærk, at patienter, 
+der er sorte, har øget risiko for sådanne reaktioner over for ACE-hæmmere (lægemidler, der virker 
+som Aqumeldi). Risikoen for angioødem kan være øget hos patienter, der tager andre lægemidler 
+(se punkt 2 "Brug af andre lægemidler sammen med Aqumeldi") </p>
+</li>
+<li>
+<p>har problemer forbundet med nyrerne (herunder i forbindelse med nyretransplantation), diabetes, 
+dehydrering, pludseligt forværret hjertesvigt, ophobning af syre i kroppen eller brug af diuretika 
+(vanddrivende tabletter), som opretholder mængden af kalium i blodet (f.eks. spironolacton, 
+eplerenon, triamteren eller amilorid), eller erstatninger, der indeholder kalium, eller lægemidler, 
+der øger mængden af kalium i blodet (f.eks. heparin, trimethoprim or cotrimoxazol). Disse 
+situationer kan føre til for højt kaliumindhold i blodet (hyperkaliæmi), som kan give træthed, 
+muskelsvaghed, kvalme og hjerterytmeforstyrrelser. Det kan være nødvendigt for din eller dit 
+barns læge at justere dosis af Aqumeldi eller regelmæssigt kontrollere kaliumindholdet i blodet (se 
+punkt 2 "Brug af andre lægemidler sammen med Aqumeldi") </p>
+</li>
+<li>
+<p>har et problem med nyrearterierne, da dette kan øge risikoen for lavt blodtryk eller for, at nyrerne 
+ikke fungerer ordentligt </p>
+</li>
+<li>
+<p>har kastet meget op eller for nylig haft diarré </p>
+</li>
+<li>
+<p>har diabetes. Der bør kontrolleres for lavt blodsukker, især i den første måned af behandlingen. 
+Mængden af kalium i blodet kan også være højere </p>
+</li>
+<li>
+<p>er i dialyse, da det kan være nødvendigt at ændre dosen af Aqumeldi </p>
+</li>
+<li>
+<p>har lavt blodtryk (viser sig som besvimelse eller svimmelhed, især når man rejser sig op) </p>
+</li>
+<li>
+<p>tager nogen af de følgende lægemidler, der anvendes til behandling af forhøjet blodtryk: en 
+angiotensin II-receptorhæmmer (ARB'er) (også kaldet sartaner – f.eks. valsartan, telmisartan, 
+irbesartan), da de kan øge risikoen for lavt blodtryk, højt kaliumindhold i blodet og nyreproblemer 
+(se punkt 2 "Brug af andre lægemidler sammen med Aqumeldi") </p>
+</li>
+<li>
+<p>er under 1 måned og har et leverproblem eller gulsot (gulfarvning af huden og det hvide i øjnene) </p>
+</li>
+<li>
+<p>er under 1 måned, da meget små børn har større risiko for problemer med lavt blodtryk, 
+nyreproblemer og højt kaliumindhold i blodet. </p>
+</li>
+</ul>
+<p>Lægen vil muligvis med jævne mellemrum kontrollere dig eller dit barn for nyrefunktion, blodtryk og 
+elektrolytniveau (f.eks. kaliumniveau) i blodet. </p>
+<p>Hvis du er usikker på, om noget af ovenstående gælder for dig eller dit barn, skal du tale med lægen 
+eller spørge på apoteket før start af behandling med Aqumeldi. </p>
+<p>Hvis du eller dit barn skal til at gennemgå en medicinsk behandling 
+Fortæl lægen, at du eller dit barn bruger Aqumeldi, hvis du eller dit barn skal til at gennemgå en af 
+følgende behandlinger: </p>
+<ul>
+<li>
+<p>operation eller bedøvelse (anæstesi) (også hos tandlægen) </p>
+</li>
+<li>
+<p>desensibilisering som behandling for allergi, f.eks. med bi- eller hvepsegift (hymenoptera venom) </p>
+</li>
+<li>
+<p>behandling til fjernelse af kolesterol fra blodet – også kaldet LDL-aferese. </p>
+</li>
+</ul>
+<p>Hvis noget af ovenstående gælder for dig eller dit barn, skal du tale med lægen eller tandlægen inden 
+behandlingen. </p>
+<p>Brug af andre lægemidler sammen med Aqumeldi 
+Fortæl lægen eller apotekspersonalet, hvis du eller dit barn tager andre lægemidler, for nylig har taget 
+andre lægemidler eller forventes at tage andre lægemidler, herunder receptfri lægemidler. Dette gælder 
+også plantelægemidler. Det kan være nødvendigt for lægen at ændre din eller dit barns dosis og/eller 
+træffe andre forholdsregler. </p>
+<p>Hvis Aqumeldi tages sammen med følgende lægemidler, kan det påvirke den måde, Aqumeldi eller de 
+anførte lægemidler virker på, eller øge risikoen for bivirkninger: </p>
+<ul>
+<li>
+<p>antihypertensiva, lægemidler til at sænke blodtrykket (nedenfor er anført forskellige typer): * 
+angiotensin II-receptorblokkere (ARB'er), også kaldet sartaner (f.eks. losartan, valsartan) * 
+aliskiren * 
+betablokkere (f.eks. atenolol, propranolol) * 
+diuretika (lægemidler, der øger urinproduktionen) (f.eks. furosemid, chlorothiazid) * 
+vasodilatorer (lægemidler, der udvider blodkarrene (f.eks. nitroglycerin, 
+isosorbidmononitrat) * 
+neprilysinhæmmere (f.eks. sacubitril, racecadotril). 
+Risikoen for angioødem (hævelse af ansigt, læber, tunge eller svælg med synke- eller 
+vejrtrækningsbesvær til følge) kan øges ved brug af disse lægemidler (se punkt 2 "Brug ikke 
+Aqumeldi, hvis du eller dit barn") </p>
+</li>
+<li>
+<p>kaliumbesparende lægemidler, lægemidler, der bruges til at øge kaliumniveauet i blodet, kan 
+medføre, at kaliumniveauet bliver for højt) (forskellige typer er anført nedenfor): * 
+kaliumtilskud og salterstatninger * 
+kaliumbesparende diuretika (lægemidler, der øger urinproduktionen) (f.eks. 
+spironolacton, amilorid) * 
+antibiotika til behandling af bakterieinfektioner (f.eks. trimethoprim og co-trimoxazol) * 
+heparin, der anvendes til at fortynde blodet og forebygge blodpropper </p>
+</li>
+<li>
+<p>litium, et lægemiddel til behandling af depression </p>
+</li>
+<li>
+<p>tricykliske antidepressiva, lægemidler til behandling af depression (f.eks. amitriptylin) </p>
+</li>
+<li>
+<p>antipsykotika, lægemidler til behandling af psykiske problemer </p>
+</li>
+<li>
+<p>lægemidler mod hoste og forkølelse og lægemidler til vægtreduktion (f.eks. pseudoephedrin, 
+amfetamin) </p>
+</li>
+<li>
+<p>guld, der anvendes til behandling af smerter eller gigt </p>
+</li>
+<li>
+<p>antidiabetiske lægemidler, herunder insulin og vildagliptin, lægemidler til sænkning af 
+blodsukkeret </p>
+</li>
+<li>
+<p>nonsteroide antiinflammatoriske lægemidler (NSAID'er), lægemidler til at bekæmpe 
+betændelsestilstande og lindre smerter (forskellige typer er anført nedenfor): * selektive cyclooxygenase-2-hæmmere (f.eks. COX-2-hæmmere, ibuprofen) * acetylsalicylsyre (aspirin) </p>
+</li>
+<li>
+<p>lægemidler mod afstødning af transplantater (f.eks. ciclosporin, temsirolimus, sirolimus, 
+everolimus). </p>
+</li>
+</ul>
+<p>Hvis du er usikker på, om noget af ovenstående gælder for dig eller dit barn, skal du tale med lægen 
+eller spørge på apoteket før start af behandling med Aqumeldi. </p>
+<p>Brug af Aqumeldi sammen med mad, drikke og alkohol 
+Du eller dit barn må ikke drikke alkohol under brug af Aqumeldi. Alkohol kan gøre, at blodtrykket 
+falder for meget, så du eller dit barn kan blive svimmel, omtåget eller udmattet. </p>
+<p>Graviditet, amning og frugtbarhed 
+Du skal fortælle det til lægen, hvis du mener, at du eller dit barn er (eller kan blive) gravid. Lægen vil 
+normalt tilråde at stoppe med at tage Aqumeldi, før graviditet eller så snart graviditet er konstateret, og 
+vil tilråde at tage et andet lægemiddel end Aqumeldi. </p>
+<p>Aqumeldi tidligt i graviditeten frarådes, og det må ikke anvendes efter den tredje graviditetsmåned, da 
+det kan give alvorlige skader hos fosteret (se punkt 2 "Brug ikke Aqumeldi hvis du eller dit barn"). </p>
+<p>Hvis du kan blive gravid, skal du bruge sikker prævention under behandlingen og op til 1 uge efter 
+behandlingen. </p>
+<p>Amning 
+Fortæl det til lægen, hvis du ammer eller snart skal begynde at amme, og drøft, om du skal holde op 
+med at amme eller afbryde behandlingen med Aqumeldi. </p>
+<p>Trafik- og arbejdssikkerhed 
+Aqumeldi kan virke søvndyssende på dig eller dit barn eller påvirke koncentrationen og 
+koordineringsevnen. Dette kan berøre evnen til at udføre opmærksomhedskrævende opgaver som 
+f.eks. at køre bil, cykle og betjene maskiner. </p>
+<p>Aqumeldi indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take aqumeldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take aqumeldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid dette lægemiddel nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
+spørg lægen eller apotekspersonalet. </p>
+<p>Dosen vil blive fastsat af din eller dit barns læge og vil afhænge af din eller dit barns vægt og reaktion 
+på behandlingen. </p>
+<ul>
+<li>
+<p>Den anbefalede startdosis er op til 2 mg som en enkeltdosis. </p>
+</li>
+<li>
+<p>Den anbefalede vedligeholdelsesdosis er 1 mg til 20 mg én gang dagligt. </p>
+</li>
+</ul>
+<p>Dit barns læge vil sige til, når du skal øge dosis. Det afhænger af dit barns blodtryk, kaliumindhold i 
+blodet og nyrefunktion. </p>
+<p>BRUGSANVISNING </p>
+<p>Læs venligst grundigt, inden du bruger smeltetabletten/-tabletterne. </p>
+<p>Aqumeldi må kun tages gennem munden. Det er en smeltetablet, dvs. det opløses i munden eller i 
+vand. Tabletten kan tages sammen med et måltid eller mellem måltiderne. </p>
+<ol>
+<li>Fordi tabletten er så lille, skal du bruge den medfølgende måleske til at opsamle det nødvendige 
+antal smeltetabletter fra beholderen. Undgå så vidt muligt at røre tabletterne med hænderne. </li>
+<li>Anbring smeltetabletten på tungen eller i mellemrummet mellem gummen og kinden 
+(mundhulen), så den går i opløsning. </li>
+<li>Smeltetabletterne må ikke knuses. </li>
+</ol>
+<p>Hvis den dosis, som lægen har ordineret, er mindre end 0,25 mg, kan følgende fremgangsmåde 
+anvendes: </p>
+<ol>
+<li>Anbring én 0,25 mg smeltetablet til opløsning i en 10 ml mundsprøjte. </li>
+<li>Træk 10 ml frisk postevand op i sprøjten (op til 10 ml-målestregen). Sterilt vand bør anvendes 
+hos børn under 6 måneder. </li>
+<li>Rul forsigtigt sprøjten i 3 minutter, indtil smeltetabletten er gået helt i opløsning. </li>
+<li>Dette giver en koncentration af enalaprilmaleat på 0,025 mg/ml. </li>
+<li>1 ml af den resulterende opløsning vil indeholde 0,025 mg enalapril, mens 4 ml vil indeholde 
+0,1 mg enalapril. </li>
+<li>Den krævede mængde dispersion skal derefter straks gives til patienten; dispersionen må ikke 
+opbevares i mundsprøjten. </li>
+</ol>
+<p>Hvis du eller dit barn får lægemidlet gennem ernæringssonde, skal følgende fremgangsmåde anvendes: </p>
+<ol>
+<li>Fjern stemplet fra den sprøjte, du bruger sammen med ernæringssonden (sprøjte medfølger 
+ikke), og anbring det nødvendige antal smeltetabletter i sprøjtens cylinder. </li>
+</ol>
+<p>Bemærk: Højst fire smeltetabletter kan opløses i 1 ml ad gangen. Det kan være nødvendigt at 
+gentage følgende procedure for at opnå den anbefalede dosis. </p>
+<ol>
+<li>
+<p>Isæt stemplet, og træk 1 ml frisk postevand op. Sterilt vand bør anvendes hos børn under 6 
+måneder. </p>
+</li>
+<li>
+<p>Sæt låget på sprøjten, og rul eller bland forsigtigt i 3 minutter, til smeltetabletterne er gået i 
+opløsning. </p>
+</li>
+<li>
+<p>Fjern hætten, og giv dosen gennem ernæringssonden. </p>
+</li>
+<li>
+<p>Skyl sonden med mindst 3 ml vand efter administration af lægemidlet. </p>
+</li>
+</ol>
+<p>Opløsningen skal tages straks af dig selv eller dit barn. Den må ikke opbevares. </p>
+<p>Standardsonder (polyurethan, polyvinylchlorid og silicone) er fundet egnede til anvendelse sammen 
+med dette lægemiddel. </p>
+<p>Hvis du eller dit barn har fået for meget Aqumeldi 
+Giv ikke mere lægemiddel, end lægen anbefaler, til dig selv eller dit barn. Hvis du eller dit barn har 
+slugt flere tabletter, end lægen har ordineret, skal du straks kontakte nærmeste skadestue eller lægen. 
+Tag lægemiddelpakningen med dig. </p>
+<p>De almindeligste tegn og symptomer på overdosering er blodtryksfald (med tegn som svimmelhed 
+eller ørhed) og en tilstand af næsten fuldstændig bevidstløshed (stupor). Andre symptomer kan omfatte 
+hjertebanken, hurtig puls, angst, hoste, nyresvigt og hurtig vejrtrækning. </p>
+<p>Hvis du eller dit barn har glemt at tage Aqumeldi 
+Hvis du eller dit barn glemmer at tage Aqumeldi, skal den glemte dosis springes over. 
+Tag den næste dosis som sædvanligt. 
+Tag ikke en dobbeltdosis som erstatning for en glemt dosis. </p>
+<p>Hvis du eller dit barn holder op med at tage Aqumeldi 
+Du må ikke stoppe behandling med Aqumeldi, medmindre lægen giver besked om det. </p>
+<p>Spørg din eller dit barns læge, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl 
+om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Der er rapporteret om følgende alvorlige bivirkninger hos voksne patienter. Hvis du eller dit 
+barn udvikler nogen af disse bivirkninger, skal du stoppe med at bruge lægemidlet og søge akut 
+lægehjælp: </p>
+<ul>
+<li>
+<p>Hævelse af læber, øjne, mund eller svælg, som kan forårsage vejrtrækningsbesvær eller 
+synkebesvær (angioødem) – almindelig </p>
+</li>
+<li>
+<p>Blodsygdomme, herunder ændringer i blodværdier som f.eks. fald i antal hvide og røde 
+blodlegemer, fald i hæmoglobin, eller fald i antal blodplader – ikke almindelig </p>
+</li>
+<li>
+<p>Hjerteanfald (muligvis på grund af meget lavt blodtryk hos visse højrisikopatienter, herunder 
+patienter med problemer med blodtilførslen til hjertet eller hjernen) – ikke almindelig </p>
+</li>
+<li>
+<p>Slagtilfælde (muligvis på grund af meget lavt blodtryk hos højrisikopatienter) – ikke almindelig </p>
+</li>
+<li>
+<p>Blodlidelser (knoglemarvssvigt), herunder ændringer i blodværdier såsom reduceret antal hvide 
+blodlegemer (neutropeni), reduceret antal blodplader (trombocytopeni), sænket 
+hæmoglobinniveau, sænket hæmatokritniveau, pancytopeni, agranulocytose – sjælden </p>
+</li>
+<li>
+<p>Svære hudreaktioner med rødme og hudafskalning, blærer eller ømme sår (Stevens-Johnsons 
+syndrom, toksisk epidermal nekrolyse) – sjælden </p>
+</li>
+<li>
+<p>Pludseligt og uventet forekommende udslæt eller brændende, rød eller afskallende hud – sjælden </p>
+</li>
+<li>
+<p>Knoglemarven ophører med at producere nye blodceller, hvilket medfører træthed, ringere evne til 
+at bekæmpe infektioner, og ukontrolleret blødning (aplastisk anæmi) – sjælden </p>
+</li>
+<li>
+<p>Leverbetændelse, leversygdom, stigning i leverenzymer eller bilirubin (målt ved prøver), gulsot 
+(gulfarvning af hud og/eller øjne) – sjælden. 
+Bivirkninger set hos børn, der får Aqumeldi til behandling af hjertesvigt: </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Svimmelhed, lavt blodtryk, når man rejser sig op (ortostatisk svimmelhed) </p>
+</li>
+<li>
+<p>Hoste </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Højt kaliumindhold (hyperkaliæmi), målt i blodet </p>
+</li>
+<li>
+<p>Let øgede mængder af proteinet albumin i urinen (mikroalbuminuri). </p>
+</li>
+</ul>
+<p>Du eller dit barn kan føle svimmelhed, når behandling med Aqumeldi indledes. Dette skyldes et fald i 
+blodtrykket. Hvis dette sker, hjælper det at lægge sig ned. Tal med din eller dit barns læge om det. </p>
+<p>Andre mulige bivirkninger hos voksne, der tager enalapril, omfatter: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Følelse af svaghed (asteni) </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Sløret syn </p>
+</li>
+<li>
+<p>Hoste. </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Besvimelse (synkope) </p>
+</li>
+<li>
+<p>Lavt blodtryk </p>
+</li>
+<li>
+<p>Ændringer i hjerterytmen </p>
+</li>
+<li>
+<p>Hjertebanken </p>
+</li>
+<li>
+<p>Angina </p>
+</li>
+<li>
+<p>Brystsmerter </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+<li>
+<p>Depression </p>
+</li>
+<li>
+<p>Forhøjet kaliumindhold (hyperkaliæmi), målt i blodprøver </p>
+</li>
+<li>
+<p>Forhøjet kreatininindhold (forhøjet serumkreatinin), målt i blodprøver </p>
+</li>
+<li>
+<p>Unormalt tab af albumin i urinen (mikroalbuminuri), målt i urinprøver </p>
+</li>
+<li>
+<p>Ændret smagsopfattelse </p>
+</li>
+<li>
+<p>Åndenød (dyspnø). </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Fordøjelsesbesvær </p>
+</li>
+<li>
+<p>Forstoppelse </p>
+</li>
+<li>
+<p>Appetitløshed (anoreksi) </p>
+</li>
+<li>
+<p>Langsom bevægelse af føden gennem tarmen </p>
+</li>
+<li>
+<p>Betændelse i bugspytkirtlen </p>
+</li>
+<li>
+<p>Maveirritation </p>
+</li>
+<li>
+<p>Mundtørhed </p>
+</li>
+<li>
+<p>Mavesår </p>
+</li>
+<li>
+<p>Nedsat nyrefunktion </p>
+</li>
+<li>
+<p>Nyresvigt </p>
+</li>
+<li>
+<p>Løbende næse </p>
+</li>
+<li>
+<p>Hæshed </p>
+</li>
+<li>
+<p>Ondt i halsen </p>
+</li>
+<li>
+<p>Hurtige eller uregelmæssige hjerteslag (palpitationer) </p>
+</li>
+<li>
+<p>Overdreven nedbrydning af røde blodlegemer, med træthed og bleg hud til følge (hæmolytisk 
+anæmi) </p>
+</li>
+<li>
+<p>Forvirring </p>
+</li>
+<li>
+<p>Søvnbesvær </p>
+</li>
+<li>
+<p>Søvnighed </p>
+</li>
+<li>
+<p>Nervøsitet </p>
+</li>
+<li>
+<p>Prikkende fornemmelse eller følelsesløshed </p>
+</li>
+<li>
+<p>Rundtossethed (vertigo) </p>
+</li>
+<li>
+<p>Ringen for ørerne (tinnitus) </p>
+</li>
+<li>
+<p>Astma </p>
+</li>
+<li>
+<p>Trykken for brystet i forbindelse ned astma (bronkospasme) </p>
+</li>
+<li>
+<p>Øget svedafsondring </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Nældefeber </p>
+</li>
+<li>
+<p>Hårtab </p>
+</li>
+<li>
+<p>Muskelkramper </p>
+</li>
+<li>
+<p>Rødme </p>
+</li>
+<li>
+<p>Lavt blodtryk når man rejser sig op (ortostatisk hypotension) </p>
+</li>
+<li>
+<p>Almindelig utilpashed </p>
+</li>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Erektil dysfunktion (impotens) </p>
+</li>
+<li>
+<p>Højt proteinindhold i urinen (målt i en prøve) </p>
+</li>
+<li>
+<p>Lavt blodsukker </p>
+</li>
+<li>
+<p>Lavt natriumniveau (hyponatriæmi), målt i blodet </p>
+</li>
+<li>
+<p>Højt indhold af blodurinstof, målt i blodet. </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 personer) </p>
+<ul>
+<li>
+<p>Små væskefyldte knopper på huden (pemphigus) </p>
+</li>
+<li>
+<p>Leversvigt </p>
+</li>
+<li>
+<p>Kolestase (problemer med udstrømningen af galde) </p>
+</li>
+<li>
+<p>Forhøjede leverenzymer </p>
+</li>
+<li>
+<p>Raynauds fænomen, hvor hænderne og fødderne kan blive meget kolde og blege som følge af 
+lav blodgennemstrømning </p>
+</li>
+<li>
+<p>Autoimmune sygdomme </p>
+</li>
+<li>
+<p>Mærkelige drømme </p>
+</li>
+<li>
+<p>Søvnbesvær </p>
+</li>
+<li>
+<p>Ophobning af væske eller andre stoffer i lungerne (som set på røntgenbilleder) </p>
+</li>
+<li>
+<p>Betændelse i næsen </p>
+</li>
+<li>
+<p>Lungebetændelse forårsaget af ophobning af blodceller, med vejrtrækningsbesvær til følge 
+(eosinofil pneumoni) </p>
+</li>
+<li>
+<p>Mundbetændelse (stomatitis) </p>
+</li>
+<li>
+<p>Betændelse af tungen (glossitis) </p>
+</li>
+<li>
+<p>Mundsår (aftøs ulceration) </p>
+</li>
+<li>
+<p>Nedsat urinproduktion </p>
+</li>
+<li>
+<p>Hudsygdom forårsaget af en allergisk reaktion eller infektion (erythema multiforme) </p>
+</li>
+<li>
+<p>Forstørrede bryster hos mænd </p>
+</li>
+<li>
+<p>Hævede kirtler i hals, armhule eller lyske </p>
+</li>
+<li>
+<p>Hævelse af hænder, fødder eller ankler. </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10 000 personer) </p>
+<ul>
+<li>Hævelse i tarmen (intestinalt angioødem). </li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>Overproduktion af antidiuretisk hormon (SIADH), et hormon, der hjælper nyrerne med at 
+kontrollere den vandmængde, som kroppen mister gennem urinen. Det medfører 
+væskeophobning, hvilket resulterer i svaghed, træthed eller forvirring </p>
+</li>
+<li>
+<p>Svære hudreaktioner. Der er rapporteret om et symptomkompleks, som kan omfatte nogle af 
+eller alle følgende symptomer: feber, betændelse i blodkarrene (serositis/vaskulitis), 
+muskelsmerter (myalgi/myositis), ledsmerter (artralgi/artritis). Udslæt, følsomhed over for 
+sollys og UV-stråling eller andre hudmanifestationer kan forekomme. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du eller dit barn oplever bivirkninger, bør du tale med din eller dit barns læge, apotekspersonalet 
+eller sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne 
+indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
+Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store aqumeldi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store aqumeldi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og beholderen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. Opbevares i den originale emballage. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Aqumeldi indeholder 
+- Det aktive stof er enalaprilmaleat. 
+- De øvrige hjælpestoffer er mannitol (E421), crospovidon, poly(vinylacetat), povidon, 
+natriumlaurylsulfat (se punkt 2 "Aqumeldi indeholder natrium"), natriumstearylfumarat, silica, 
+kolloid vandfri. </p>
+<p>Udseende og pakningsstørrelser 
+Aqumeldi 0,25 mg smeltetabletter er hvide, runde, bikonvekse tabletter med en diameter på 2 mm. 
+De leveres i en plastbeholder med børnesikret forseglet låg af plast, i en papæske. Hver æske 
+indeholder én beholder og én blå måleske. </p>
+<p>Tilgængelige pakninger indeholdende 50, 100 eller 200 smeltetabletter pr. beholder. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Første gang beholderen åbnes, skal forseglingen brydes: </p>
+<ul>
+<li>
+<p>Hold godt fast i beholderen med den ene hånd. </p>
+</li>
+<li>
+<p>Med den anden hånd trykkes hårdt ned, mens hætten drejes mod uret. </p>
+</li>
+<li>
+<p>Fortsæt med at dreje, indtil forseglingen brydes. </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen 
+Proveca Pharma Limited 
+2 Dublin Landings 
+North Wall Quay 
+Dublin 1 
+Irland </p>
+<p>Fremstiller 
+Pharbil Waltrop GmbH 
+Im Wirrigen 45731 Waltrop 
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk. </p>
+<hr />         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5df3251458790d2240f34b809fdcc93e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aqumeldi Package Leaflet for language en"
+Description: "ePI document Bundle for aqumeldi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5df3251458790d2240f34b809fdcc93e"
+* entry[0].resource = composition-en-5df3251458790d2240f34b809fdcc93e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5df3251458790d2240f34b809fdcc93e"
+* entry[=].resource = mp5df3251458790d2240f34b809fdcc93e
+                            
+                    
+Instance: bundlepackageleaflet-da-5df3251458790d2240f34b809fdcc93e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aqumeldi Package Leaflet for language da"
+Description: "ePI document Bundle for aqumeldi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5df3251458790d2240f34b809fdcc93e"
+* entry[0].resource = composition-da-5df3251458790d2240f34b809fdcc93e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5df3251458790d2240f34b809fdcc93e"
+* entry[=].resource = mp5df3251458790d2240f34b809fdcc93e
+                            
+                    
+
+
+
+Instance: mp5df3251458790d2240f34b809fdcc93e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product AQUMELDI 0.25 mg orodispersible tablets"
-Description: "AQUMELDI 0.25 mg orodispersible tablets"
+Title: "Medicinal Product aqumeldi"
+Description: "aqumeldi"
 Usage: #inline
 
  
@@ -491,7 +1342,7 @@ Usage: #inline
 
 
 * name
-  * productName = "AQUMELDI 0.25 mg orodispersible tablets"
+  * productName = "aqumeldi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -518,29 +1369,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5df3251458790d2240f34b809fdcc93e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for aqumeldi Package Leaflet for language en"
-Description: "ePI document Bundle for aqumeldi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5df3251458790d2240f34b809fdcc93eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1717/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "aqumeldi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5df3251458790d2240f34b809fdcc93e"
-* entry[0].resource = composition-en-5df3251458790d2240f34b809fdcc93e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpababe33165f30d451e4ed6ab73026d71"
-* entry[=].resource = mpababe33165f30d451e4ed6ab73026d71
-                            
-                      
+* title = "List of all ePIs associated with aqumeldi"
+
+* subject = Reference(mpababe33165f30d451e4ed6ab73026d71)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#aqumeldi "aqumeldi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5df3251458790d2240f34b809fdcc93e) // aqumeldi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5df3251458790d2240f34b809fdcc93e) // aqumeldi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5df3251458790d2240f34b809fdcc93e
+InstanceOf: List
+
+* insert 5df3251458790d2240f34b809fdcc93eListRuleset
+    

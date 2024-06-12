@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-ee1b9e575d1fb256c3611a3cc10df97d
 InstanceOf: CompositionUvEpi
 Title: "Composition for pregabalin Package Leaflet"
@@ -509,12 +512,750 @@ Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 
 
 
+Instance: composition-da-ee1b9e575d1fb256c3611a3cc10df97d
+InstanceOf: CompositionUvEpi
+Title: "Composition for pregabalin Package Leaflet"
+Description:  "Composition for pregabalin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd0a1d793fa62140229e489bf614d5d33)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd0a1d793fa62140229e489bf614d5d33
+* title = "TEST PURPOSES ONLY - pregabalin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Pregabalin Zentiva </li>
+<li>Sådan skal du tage Pregabalin Zentiva </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What pregabalin is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What pregabalin is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pregabalin Zentiva tilhører den gruppe medicin, der anvendes til behandling af epilepsi, neuropatiske 
+smerter og generaliseret angst hos voksne. </p>
+<p>Perifere og centrale neuropatiske smerter 
+Pregabalin Zentiva anvendes til behandling af langvarige smerter, som skyldes beskadigede 
+nervebaner. Flere forskellige sygdomme kan være årsag til disse perifere neuropatiske smerter, f.eks. 
+diabetes eller helvedesild. Smertefornemmelsen kan beskrives som varm, brændende, dunkende, 
+jagende, skærende, skarp, krampagtig, smertende, snurrende, følelsesløs, prikkende og stikkende. 
+Perifere og centrale neuropatiske smerter kan også være forbundet med humørsvingninger, 
+søvnforstyrrelser, træthed (udmattelse) og kan have indflydelse på det fysiske og sociale velvære og 
+den samlede livskvalitet. </p>
+<p>Epilepsi 
+Pregabalin Zentiva anvendes til behandling af visse former for epilepsi (partielle anfald med eller 
+uden sekundær generalisering) hos voksne. Din læge vil udskrive Pregabalin Zentiva til behandling 
+af din epilepsi, hvis din nuværende behandling ikke kan kontrollere din tilstand. Du skal tage 
+Pregabalin Zentiva sammen med din nuværende behandling. Pregabalin Zentiva er ikke beregnet til 
+at blive brugt alene, men skal altid anvendes i kombination med anden behandling mod epilepsi. </p>
+<p>Generaliseret angst 
+Pregabalin Zentiva anvendes til behandling af generaliseret angst. Symptomer på generaliseret angst 
+er vedvarende og udtalt angst og bekymring, som er svær at kontrollere. Generaliseret angst kan 
+også medføre rastløshed, anspændthed, pirrelighed, øget træthed, koncentrationsbesvær, en følelse 
+af at være "tom i hovedet", irritabilitet, muskelspændinger eller søvnforstyrrelser. Symptomerne er 
+værre end de, der kan opleves i forbindelse med dagligdagens stress og anstrengelser. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take pregabalin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take pregabalin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Pregabalin Zentiva: </p>
+<ul>
+<li>hvis du er allergisk over for pregabalin eller et af de øvrige indholdsstoffer (angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Pregabalin Zentiva </p>
+<ul>
+<li>
+<p>Hos nogle patienter, der tager pregabalin, er der rapporteret om symptomer, der tyder på en 
+overfølsomhedsreaktion. Disse symptomer omfatter hævelse af ansigt, læber, tunge og hals 
+samt hududslæt. Kontakt straks lægen (ring 112), hvis du oplever disse reaktioner. </p>
+</li>
+<li>
+<p>Der er rapporteret om svære tilfælde af hududslæt, herunder Stevens-Johnsons syndrom og 
+toksisk epidermal nekrolyse, i forbindelse med pregabalin. Stop med at bruge pregabalin og 
+søg lægehjælp med det samme, hvis du bemærker et eller flere symptomer på de alvorlige 
+hudreaktioner, der er beskrevet i pkt. 4. * Pregabalin er forbundet med svimmelhed og døsighed, som kan øge risikoen for faldulykker 
+hos ældre patienter. Du skal derfor være forsigtig, indtil du ved, hvordan medicinen virker 
+på dig. </p>
+</li>
+<li>
+<p>Pregabalin kan forårsage sløret syn, synstab eller andre synsændringer, som kan være 
+forbigående. Kontakt straks lægen, hvis du får synsforandringer. </p>
+</li>
+<li>
+<p>Nogle sukkersyge (diabetes)patienter kan få vægtøgning, når de tager pregabalin, og kan 
+derfor have behov for at ændre deres diabetesmedicin. </p>
+</li>
+<li>
+<p>Visse bivirkninger, såsom søvnighed, kan være hyppigere hos patienter med 
+rygmarvsskader, som følge af samtidig brug af andre præparater med lignende 
+bivirkningsprofil, f.eks. til behandling af smerter eller spasticitet. Sværhedsgraden af en 
+bivirkning kan øges, når flere lægemidler med samme bivirkning, anvendes samtidig. </p>
+</li>
+<li>
+<p>Hos nogle patienter, der tager pregabalin, er der set kronisk venstresidig hjertesvigt. Dette er 
+overvejende set hos ældre patienter med hjerte-kar-sygdom. Fortæl det altid til lægen, før 
+du starter behandling med pregabalin, hvis du tidligere har haft en hjertelidelse. </p>
+</li>
+<li>
+<p>Hos nogle patienter, der tager pregabalin, er der set nyresvigt. Tal med lægen, hvis du 
+synes, du danner mindre urin under behandlingen med Pregabalin Zentiva. Det kan være 
+nødvendigt at stoppe behandlingen. </p>
+</li>
+<li>
+<p>Nogle patienter, der bliver behandlet med epilepsimedicin som for eksempel pregabalin har 
+haft selvmordstanker eller tanker om at gøre skade på sig selv eller har udvist 
+selvmordsadfærd. Hvis du på noget tidspunkt får sådanne tanker eller udviser en sådan adfærd, 
+skal du straks kontakte din læge. </p>
+</li>
+<li>
+<p>Når pregabalin tages med andre lægemidler, som er kendt for at kunne give forstoppelse (som 
+f.eks visse typer smertestillende medicin), kan det give maveproblemer (f.eks. forstoppelse, 
+tarmslyng). Fortæl lægen, hvis du får forstoppelse, især hvis du er tilbøjelig til at få 
+forstoppelse. </p>
+</li>
+<li>
+<p>Inden du tager denne medicin, skal du fortælle lægen, hvis du på noget tidspunkt har haft et 
+misbrug eller været afhængig af alkohol, receptpligtige lægemidler eller stoffer. Hvis dette er 
+tilfældet, kan du have højere risiko for at blive afhængig af Pregabalin Zentiva. </p>
+</li>
+<li>
+<p>Der er set kramper i forbindelse med behandling med pregabalin og kort tid efter 
+ophør af behandling med pregabalin. Hvis du får kramper, skal du straks kontakte 
+lægen. </p>
+</li>
+<li>
+<p>Hos nogle patienter med andre sygdomme er der set nedsat hjernefunktion (encefalopati) i 
+forbindelse med pregabalin-behandling. Fortæl lægen, hvis du har eller tidligere har haft en 
+alvorlig sygdom, herunder lever- eller nyresygdom. </p>
+</li>
+<li>
+<p>Der er set vejrtrækningsbesvær. Hvis du har lidelser i nervesystemet, luftvejslidelser, nedsat 
+nyrefunktion, eller hvis du er ældre end 65 år, kan lægen ordinere en anden dosis. Kontakt 
+lægen, hvis du får vejtrækningsbesvær eller stakåndethed. </p>
+</li>
+</ul>
+<p>Afhængighed<br />
+Visse personer kan blive afhængige af Pregabalin Zentiva (behov for at blive ved med at tage 
+medicinen). De kan opleve abstinenssymptomer, når de holder op med at bruge Pregabalin Zentiva 
+(se punkt 3, “Sådan skal du tage Pregabalin Zentiva" og “Hvis du holder op med at tage Pregabalin 
+Zentiva"). Hvis du er bekymret for, om du kan blive afhængig af Pregabalin Zentiva, er det vigtigt, 
+at du taler med din læge om det.  </p>
+<p>Hvis du bemærker et eller flere af følgende tegn, mens du tager Pregabalin Zentiva, kan det være et 
+tegn på, at du er blevet afhængig:  </p>
+<ul>
+<li>
+<p>Hvis du har behov for at tage medicinen i længere tid end det, din læge har ordineret </p>
+</li>
+<li>
+<p>Hvis du føler, at du har behov for at tage mere end den anbefalede dosis </p>
+</li>
+<li>
+<p>Hvis du bruger medicinen til andre formål, end det du har fået den ordineret til  </p>
+</li>
+<li>
+<p>Hvis du gentagne gange forgæves har forsøgt at holde op med at tage eller kontrollere din brug 
+af medicinen  </p>
+</li>
+<li>
+<p>Hvis du føler utilpashed, når du holder op med at tage medicinen, og du får det bedre, så snart du 
+tager medicinen igen<br />
+Hvis du bemærker noget af ovenstående, skal du tale med din læge for at finde frem til de bedste 
+behandlingsmuligheder for dig, herunder om det kan være passende at holde op, og hvordan du gør 
+dette på en sikker måde. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Sikkerheden og virkningen hos børn og unge (under 18 år) er ikke undersøgt, og derfor bør 
+pregabalin ikke anvendes til denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Pregabalin Zentiva 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. 
+Pregabalin Zentiva og anden medicin kan påvirke hinanden (interaktion). Når det bruges sammen 
+med visse typer medicin, som har beroligende virkninger (herunder opioider), kan pregabalin 
+forstærke disse virkninger og kan føre til åndedrætssvigt, dyb bevidstløshed og død. Graden af 
+svimmelhed, søvnighed og nedsat koncentrationsevne kan øges, når pregabalin tages sammen med 
+lægemidler, der indeholder: </p>
+<ul>
+<li>
+<p>oxycodon (smertestillende middel) </p>
+</li>
+<li>
+<p>lorazepam (anvendes til behandling af angst) </p>
+</li>
+<li>
+<p>alkohol 
+Pregabalin Zentiva kan tages sammen med svangerskabsforebyggende medicin. </p>
+</li>
+</ul>
+<p>Brug af Pregabalin Zentiva sammen med mad, drikke og alkohol 
+Pregabalin Zentiva hårde kapsler kan tages både sammen med eller uden mad. 
+Det tilrådes ikke at drikke alkohol, når du tager Pregabalin Zentiva. </p>
+<p>Graviditet og amning 
+Du må ikke tage Pregabalin Zentiva, hvis du er gravid, eller hvis du ammer, medmindre din læge har 
+givet dig en anden besked. Hvis du tager pregabalin i de første 3 måneder af en graviditet, kan det 
+medføre fødselsdefekter hos fosteret, der kan kræve medicinsk behandling. I et studie, der 
+gennemgik data fra kvinder i Norden, som tog pregabalin i de første 3 måneder af en graviditet, 
+forekom der fødselsdefekter hos 6 ud af 100 børn. Det skal sammenholdes med 4 ud af 100 børn 
+født af kvinder, der ikke blev behandlet med pregabalin i studiet. Der har været indberetninger om 
+misdannelser i ansigtet (læbe-gane-spalte), øjnene, nervesystemet (herunder hjernen), nyrerne og 
+kønsorganerne. </p>
+<p>Hvis du er i den fødedygtige alder, skal du bruge sikker prævention. Hvis du er gravid eller ammer, 
+har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge eller </p>
+<p>apoteket til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Pregabalin kan give svimmelhed, søvnighed og nedsat koncentrationsevne. Du må ikke køre bil, 
+betjene indviklede maskiner eller udføre andre aktiviteter, der kan være farlige, før du ved, om 
+denne medicin påvirker din evne til at udføre disse aktiviteter. </p>
+<p>Pregabalin Zentiva indeholder lactosemonohydrat 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pregabalin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pregabalin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
+spørg lægen eller apotekspersonalet. Du må ikke tage mere medicin end foreskrevet. 
+Din læge vil fastsætte den dosis, der passer til dig. 
+Pregabalin Zentiva er kun til oral anvendelse. </p>
+<p>Perifere og centrale neuropatiske smerter, epilepsi eller generaliseret angst 
+Tag det antal hårde kapsler, som lægen har ordineret. 
+Den dosis, som er blevet tilpasset til dig og din tilstand, vil normalt være 150-600 mg dagligt. 
+Din læge vil fortælle, at du enten skal tage Pregabalin Zentiva 2 gange eller 3 gange dagligt. For 2 
+gange dagligt skal Pregabalin Zentiva tages én gang om morgenen og én gang om aftenen og på 
+omtrent samme tid hver dag. For 3 gange dagligt skal Pregabalin Zentiva tages én gang om 
+morgenen, én gang om eftermiddagen og én gang om aftenen og på omtrent samme tid hver dag. </p>
+<p>Hvis du har indtryk af, at virkningen af Pregabalin Zentiva er for stærk eller alt for svag, skal du tale 
+med din læge eller apoteket. </p>
+<p>Hvis du er ældre (over 65 år), skal du tage Pregabalin Zentiva som normalt, medmindre du har 
+nyreproblemer. </p>
+<p>Din læge kan have anvist en anden doseringsvejledning og/eller dosis, hvis du har nyreproblemer.  </p>
+<p>Kapslerne skal sluges hele og indtages med vand. 
+Fortsæt med at tage Pregabalin Zentiva, indtil din læge beder dig om at stoppe. </p>
+<p>Hvis du har taget for mange Pregabalin Zentiva kapsler 
+Kontakt omgående lægen eller skadestuen. Medbring pakningen med Pregabalin Zentiva hårde 
+kapsler. Du kan føle dig søvnig, forvirret, oprevet eller rastløs, hvis du har taget for mange 
+Pregabalin Zentiva. Der er også rapporteret krampeanfald og bevidstløshed (koma). </p>
+<p>Hvis du har glemt at tage Pregabalin Zentiva 
+Det er vigtigt, at du tager dine Pregabalin Zentiva kapsler regelmæssigt og på samme tid hver dag. 
+Hvis du glemmer at tage en dosis, skal du tage den straks, du kommer i tanke herom, medmindre 
+det er ved at være tid for din næste dosis. I så fald skal du fortsætte med at tage din næste dosis som 
+normalt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Pregabalin Zentiva 
+Du må ikke pludseligt stoppe med at tage Pregabalin Zentiva. Hvis du gerne vil holde op med at 
+tage Pregabalin Zentiva, skal du først tale med din læge, som vil fortælle dig, hvordan du skal 
+gøre det. Ophør af behandlingen skal ske gradvist over mindst 1 uge. </p>
+<p>Når du stopper en kortids- eller langtidsbehandling med Pregabalin Zentiva, skal du vide, at du 
+måske får visse bivirkninger, såkaldte abstinenssymptomer. Disse symptomer omfatter 
+søvnforstyrrelser, hovedpine, kvalme, følelse af angst, diarré, influenzalignende symptomer, </p>
+<p>kramper, nervøsitet, depression, tanker om at gøre skade på dig selv eller tage dit eget liv, smerter, 
+svedtendens og svimmelhed. Disse symptomer kan forekomme oftere eller i en alvorligere grad, hvis 
+du har taget Pregabalin Zentiva i længere tid. Hvis du oplever abstinenssymptomer, skal du kontakte 
+din læge. 
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis dit ansigt eller din tunge hæver, eller hvis huden bliver rød og begynder at danne blærer 
+eller skalle af, skal du straks kontakte læge eller skadestue. </p>
+<p>Meget almindelige: Sker hos flere end 1 ud af 10 behandlede </p>
+<ul>
+<li>Svimmelhed, døsighed, hovedpine. </li>
+</ul>
+<p>Almindelige: Sker hos op til 1 ud af 10 behandlede </p>
+<ul>
+<li>
+<p>Øget appetit. </p>
+</li>
+<li>
+<p>Følelse af opstemthed, forvirring, desorientering, nedsat seksuel interesse, irritabilitet. </p>
+</li>
+<li>
+<p>Opmærksomhedsforstyrrelser, klodsethed, hukommelsesproblemer, hukommelsestab, 
+rysten, talevanskeligheder, snurrende fornemmelse, følelsesløshed, sløvhed, søvnlignende 
+sløvhedstilstand, søvnforstyrrelser, træthed, følelse af at være unormal. </p>
+</li>
+<li>
+<p>Sløret syn, dobbeltsyn. </p>
+</li>
+<li>
+<p>Svimmelhed, balanceproblemer, faldtendens. </p>
+</li>
+<li>
+<p>Mundtørhed, forstoppelse, opkastning, luft i tarmen, diarré, kvalme, oppustethed. </p>
+</li>
+<li>
+<p>Problemer med at opnå penisrejsning. </p>
+</li>
+<li>
+<p>Hævelser i kroppen, herunder af arme og ben. </p>
+</li>
+<li>
+<p>Følelse af at være beruset, unormal gangart. </p>
+</li>
+<li>
+<p>Vægtøgning. </p>
+</li>
+<li>
+<p>Muskelkrampe, ledsmerter, rygsmerter, smerter i arme og ben. </p>
+</li>
+<li>
+<p>Ondt i halsen. </p>
+</li>
+</ul>
+<p>Ikke almindelige: Sker hos op til 1 ud af 100 behandlede </p>
+<ul>
+<li>
+<p>Manglende appetit, vægttab, lavt blodsukker, højt blodsukker. </p>
+</li>
+<li>
+<p>Ændret selvopfattelse, rastløshed, depression, uro, humørsvingninger, taleproblemer, 
+hallucinationer, drømmeforstyrrelser, panikanfald, sløvhed, aggressivitet, hævet 
+stemningsleje, mental svækkelse, vanskelighed ved at tænke, øget seksuel interesse, seksuelle 
+problemer herunder problemer med at få orgasme, forsinket udløsning. </p>
+</li>
+<li>
+<p>Synsforstyrrelser, usædvanlige øjenbevægelser, ændring i synet herunder tunnelsyn, lysglimt, 
+urolige bevægelser, nedsatte reflekser, øget aktivitet, svimmelhed i stående stilling, følsom 
+hud, manglende smagsevne, brændende fornemmelse, rysten ved bevægelse, nedsat 
+bevidsthed, bevidsthedstab, besvimelse, øget følsomhed over for støj, utilpashed. </p>
+</li>
+<li>
+<p>Tørre øjne, hævede øjne, øjensmerter, trætte øjne, øjne, der løber i vand, øjenirritation. </p>
+</li>
+<li>
+<p>Hjerterytmeforstyrrelser, hurtigere hjerterytme (puls), lavt blodtryk, højt blodtryk, ændringer 
+i hjerteslag, hjertesvigt. </p>
+</li>
+<li>
+<p>Ansigtsrødme, hedeture. </p>
+</li>
+<li>
+<p>Vejrtrækningsproblemer, tør næse, tilstoppet næse. </p>
+</li>
+<li>
+<p>Øget spytproduktion, halsbrand, følelsesløshed omkring munden. </p>
+</li>
+<li>
+<p>Svedtendens, udslæt, kulderystelser, feber. </p>
+</li>
+<li>
+<p>Muskeltrækninger, ledhævelser, muskelstivhed, smerter herunder muskelsmerter, smerter 
+i nakken. </p>
+</li>
+<li>
+<p>Brystsmerter. </p>
+</li>
+<li>
+<p>Vanskelighed ved eller smertefuld vandladning, inkontinens. </p>
+</li>
+<li>
+<p>Svaghed, tørst, trykken for brystet. </p>
+</li>
+<li>
+<p>Ændringer i levertal og blodprøveresultater (forhøjet kreatinkinase i blodet, forhøjet 
+alanin- aminotransferase, forhøjet aspartat-aminotransferase, nedsat trombocyttal, for få 
+hvide blodlegemer (neutropeni), forhøjet kreatinin i blodet, nedsat kalium i blodet. </p>
+</li>
+<li>
+<p>Overfølsomhed, hævelse af ansigt, kløe, nældefeber, løbende næse, næseblod, hoste, snorken. </p>
+</li>
+<li>
+<p>Smertefuld menstruation. </p>
+</li>
+<li>
+<p>Kolde hænder og fødder. </p>
+</li>
+</ul>
+<p>Sjældne: Sker hos op til 1 ud af 1 000 behandlede </p>
+<ul>
+<li>
+<p>Unormal lugtesans, synsforstyrrelser, ændret synsopfattelse af dybde, øget 
+lysfølsomhed, synstab. </p>
+</li>
+<li>
+<p>Udvidede pupiller, skelen. </p>
+</li>
+<li>
+<p>Koldsved, halssammensnøring, opsvulmet tunge. </p>
+</li>
+<li>
+<p>Betændelse i bugspytkirtlen. </p>
+</li>
+<li>
+<p>Problemer med at synke. </p>
+</li>
+<li>
+<p>Langsom eller nedsat kropsbevægelse. </p>
+</li>
+<li>
+<p>Problemer med at skrive korrekt. </p>
+</li>
+<li>
+<p>Væskeophobning i maven. </p>
+</li>
+<li>
+<p>Væske i lungerne. </p>
+</li>
+<li>
+<p>Kramper. </p>
+</li>
+<li>
+<p>Forandringer i elektrokardiogrammet (ekg, optagelse af hjertets elektriske aktivitet), der 
+svarer til hjerterytmeforstyrrelser. </p>
+</li>
+<li>
+<p>Muskelsvækkelse. </p>
+</li>
+<li>
+<p>Flåd fra brystvorter, unormal vækst af bryster, vækst af bryster hos mænd. </p>
+</li>
+<li>
+<p>Menstruationsforstyrrelser. </p>
+</li>
+<li>
+<p>Nyresvigt, nedsat urinmængde, besvær med at lade vandet. </p>
+</li>
+<li>
+<p>Nedsat antal hvide blodlegemer. </p>
+</li>
+<li>
+<p>Upassende opførsel, selvmordsadfærd, selvmordstanker. </p>
+</li>
+<li>
+<p>Allergiske reaktioner der kan omfatte åndedrætsbesvær, hornhindebetændelse (keratitis) og 
+en alvorlig hudreaktion der er kendetegnet ved rødlige, ikke-hævede, målskivelignende eller 
+cirkulære pletter på kroppen, ofte med vabler i midten, hudafskalning, sår i munden, svælget, 
+næsen, kønsorganerne og øjnene. Før disse alvorlige hududslæt ses, kan der forekomme feber 
+og influenzalignende symptomer (Stevens-Johnsons syndrom, toksisk epidermal nekrolyse). </p>
+</li>
+<li>
+<p>Gulsot (gulfarvning af hud og øjne). </p>
+</li>
+<li>
+<p>Parkinsonisme, det vil sige symptomer, der ligner Parkinsons sygdom, såsom rysten, 
+bradykinesi (langsomme bevægelser) og rigiditet (muskelstivhed). </p>
+</li>
+</ul>
+<p>Meget sjældne: Sker hos op til 1 ud af 10 000 behandlede </p>
+<ul>
+<li>
+<p>Leversvigt. </p>
+</li>
+<li>
+<p>Leverbetændelse (hepatitis). </p>
+</li>
+</ul>
+<p>Bivikninger, hvis hyppighed ikke er kendt: hyppigheden kan ikke estimeres ud fra 
+forhåndenværende data  </p>
+<ul>
+<li>Udvikling af afhængighed af Pregabalin Zentiva (‘stofafhængighed’).  </li>
+</ul>
+<p>Når du stopper en kortids- eller langtidsbehandling med Pregabalin Zentiva, skal du vide, at du 
+måske får visse bivirkninger, såkaldte abstinenssymptomer (se “Hvis du holder op med at tage 
+Pregabalin Zentiva"). </p>
+<p>Visse bivirkninger, såsom søvnighed, kan være hyppigere hos patienter med rygmarvsskader, som 
+følge af samtidig brug af andre præparater med lignende bivirkningsprofil, f.eks. til behandling af 
+smerter eller spasticitet. Sværhedsgraden af en bivirkning kan øges, når flere lægemidler med 
+samme bivirkning, anvendes samtidig. </p>
+<p>Følgende bivirkninger er rapporteret efter markedsføring: Vejrtrækningsbesvær, stakåndethed. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pregabalin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pregabalin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og pakningen efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. 
+Må ikke opbevares ved temperaturer over 25 °C. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pregabalin Zentiva indeholder:</p>
+<ul>
+<li>Aktivt stof: Pregabalin. En hård kapsel indeholder 25 mg, 50 mg, 75 mg, 100 mg, 150 mg, 
+200 mg, 225 mg eller 300 mg pregabalin. </li>
+<li>Øvrige indholdsstoffer: Lactosemonohydrat, prægelatineret majsstivelse, talcum, sort jernoxid 
+(E172), titandioxid (E171), gelatine, sort blæk (som indeholder shellac, sort jernoxid (E172), 
+propylenglycol, koncentreret ammoniakopløsning, kaliumhydroxid). 
+75 mg, 100 mg, 200 mg, 225 mg og 300 mg hårde kapsler indeholder også rød jernoxid (E172), 
+gul jernoxid (E172). </li>
+</ul>
+<p>Hvordan Pregabalin Zentiva ser ud og indhold i pakning 
+25 mg hårde kapsler 
+Lysegrå top og lysegrå bund, cirka 15,9 mm lange, hårde gelatinekapsler 
+med prægning "25", indeholder næsten hvidt pulver. 
+50 mg hårde kapsler 
+Lysegrå top og lysegrå bund, cirka 14,3 mm lange, hårde gelatinekapsler 
+med prægning "50", indeholder næsten hvidt pulver 
+75 mg hårde kapsler 
+Rød top og lysegrå bund, cirka 14,3 mm lange, hårde gelatinekapsler med 
+prægning "75", indeholder næsten hvidt pulver. 
+100 mg hårde kapsler 
+Rød top og rød bund, cirka 15,9 mm lange, hårde gelatinekapsler med 
+prægning "100", indeholder næsten hvidt pulver. 
+150 mg hårde kapsler 
+Lysegrå top og lysegrå bund, cirka 18,0 mm lange, hårde gelatinekapsler 
+med prægning "150", indeholder næsten hvidt pulver. 
+200 mg hårde kapsler 
+Hudfarvet, uigennemsigtig top og hudfarvet, uigennemsigtig bund, cirka 
+19,4 mm lange, hårde gelatinekapsler med prægning "200", indeholder 
+næsten hvidt pulver. 
+225 mg hårde kapsler 
+Hudfarvet, uigennemsigtig top og lysegrå bund, cirka 19,4 mm lange, hårde 
+gelatinekapsler med prægning "225", indeholder næsten hvidt pulver. 
+300 mg hårde kapsler 
+Rød top og lysegrå bund, cirka 21,7 mm lange, hårde gelatinekapsler med 
+prægning "300", indeholder næsten hvidt pulver. </p>
+<p>Pregabalin Zentiva 25 mg hårde kapsler er pakket i alu/alu (OPA/alu/PVC/alu) eller PVC/PVDC/alu 
+blistre som primær pakningsmateriale. 
+Pregabalin Zentiva 50 mg, 75 mg, 100 mg, 150 mg, 200 mg, 225 mg og 300 mg hårde kapsler er 
+pakket i PVC/alu blistre som primær pakningsmateriale. </p>
+<p>Pregabalin Zentiva 25 mg og 50 mg findes i pakninger af 14, 21, 56, 84, 98 og 100 hårde kapsler. 
+Pregabalin Zentiva 75 mg, 150 mg og 300 mg findes i pakninger af 14, 56, 84, 98, 100 og 112 hårde 
+kapsler. 
+Pregabalin Zentiva 100 mg, 200 mg findes i pakninger af 21, 84, 98 og 100 hårde kapsler. </p>
+<p>Pregabalin Zentiva 225 mg findes i pakninger af 14, 56, 98 og 100 hårde kapsler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Zentiva, k.s. 
+U Kabelovny 102 37 Prag Tjekkiet </p>
+<p>Fremstiller 
+Zentiva, k.s. 
+U Kabelovny 102 37 Prag Tjekkiet </p>
+<p>eller </p>
+<p>S.C. Zentiva, S.A. 
+B-dul Theodor Pallady nr.50, sector 3, Bukarest, cod 032Rumænien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Zentiva, k.s. 
+Tél/Tel: +32 (78) 700 PV-Belgium@zentiva.com 
+Lietuva 
+Zentiva, k.s. 
+Tel: +370 52152PV-Lithuania@zentiva.com 
+България 
+Zentiva, k.s. 
+Тел: + 359 244 17 PV-Bulgaria@zentiva.com 
+Luxembourg/Luxemburg 
+Zentiva, k.s. 
+Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
+Magyarország 
+Zentiva Pharma Kft. 
+Tel.: +36 1 299 1PV-Hungary@zentiva.com 
+Danmark 
+Zentiva Denmark ApS 
+Tlf: +45 787 68 PV-Denmark@zentiva.com 
+Malta 
+Zentiva, k.s. 
+Tel: +356 2034 1PV-Malta@zentiva.com 
+Deutschland 
+Zentiva Pharma GmbH<br />
+Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com 
+Nederland 
+Zentiva, k.s. 
+Tel: +31 202 253 PV-Netherlands@zentiva.com 
+Eesti 
+Zentiva, k.s. 
+Tel: +372 52 70PV-Estonia@zentiva.com 
+Norge 
+Zentiva Denmark ApS 
+Tlf: +45 787 68 PV-Norway@zentiva.com 
+Ελλάδα 
+Zentiva, k.s. 
+Τηλ: +30 211 198 7PV-Greece@zentiva.com 
+Österreich 
+Zentiva, k.s. 
+Tel: +43 720 778 PV-Austria@zentiva.com </p>
+<p>España 
+Zentiva Spain S.L.U. 
+Tel: +34 91 111 58 PV-Spain@zentiva.com 
+Polska 
+Zentiva Polska Sp. z o.o. 
+Tel: + 48 22 375 92 PV-Poland@zentiva.com 
+France 
+Zentiva France 
+Tél: +33 (0) 800 089 219<br />
+PV-France@zentiva.com 
+Portugal 
+Zentiva Portugal, Lda 
+Tel: +351210601PV-Portugal@zentiva.com 
+Hrvatska 
+Zentiva d.o.o. 
+Tel: +385 1 6641 PV-Croatia@zentiva.com 
+România 
+ZENTIVA S.A. 
+Tel: +4 021.304.7PV-Romania@zentiva.com 
+Ireland 
+Zentiva, k.s. 
+Tel: +353 818 882 PV-Ireland@zentiva.com 
+Slovenija 
+Zentiva, k.s. 
+Tel: +386 360 00 PV-Slovenia@zentiva.com 
+Ísland 
+Zentiva Denmark ApS 
+Sími: +354 539 5PV-Iceland@zentiva.com 
+Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
+Italia 
+Zentiva Italia S.r.l. 
+Tel: +39 800081PV-Italy@zentiva.com 
+Suomi/Finland 
+Zentiva Denmark ApS 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com 
+Κύπρος 
+Zentiva, k.s. 
+Τηλ: +30 211 198 7PV-Cyprus@zentiva.com 
+Sverige 
+Zentiva Denmark ApS 
+Tel: +46 840 838 PV-Sweden@zentiva.com 
+Latvija 
+Zentiva, k.s. 
+Tel: +371 67893PV-Latvia@zentiva.com 
+United Kingdom (Northern Ireland) 
+Zentiva, k.s. 
+Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/ </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-ee1b9e575d1fb256c3611a3cc10df97d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pregabalin Package Leaflet for language en"
+Description: "ePI document Bundle for pregabalin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ee1b9e575d1fb256c3611a3cc10df97d"
+* entry[0].resource = composition-en-ee1b9e575d1fb256c3611a3cc10df97d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpee1b9e575d1fb256c3611a3cc10df97d"
+* entry[=].resource = mpee1b9e575d1fb256c3611a3cc10df97d
+                            
+                    
+Instance: bundlepackageleaflet-da-ee1b9e575d1fb256c3611a3cc10df97d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pregabalin Package Leaflet for language da"
+Description: "ePI document Bundle for pregabalin Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-ee1b9e575d1fb256c3611a3cc10df97d"
+* entry[0].resource = composition-da-ee1b9e575d1fb256c3611a3cc10df97d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpee1b9e575d1fb256c3611a3cc10df97d"
+* entry[=].resource = mpee1b9e575d1fb256c3611a3cc10df97d
+                            
+                    
+
+
+
+Instance: mpee1b9e575d1fb256c3611a3cc10df97d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Pregabalin Zentiva 25 mg hard capsules"
-Description: "Pregabalin Zentiva 25 mg hard capsules"
+Title: "Medicinal Product pregabalin"
+Description: "pregabalin"
 Usage: #inline
 
  
@@ -534,7 +1275,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Pregabalin Zentiva 25 mg hard capsules"
+  * productName = "pregabalin"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -561,29 +1302,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-ee1b9e575d1fb256c3611a3cc10df97d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for pregabalin Package Leaflet for language en"
-Description: "ePI document Bundle for pregabalin Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: ee1b9e575d1fb256c3611a3cc10df97dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Pregabalin Zentiva 25 mg hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "pregabalin"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-ee1b9e575d1fb256c3611a3cc10df97d"
-* entry[0].resource = composition-en-ee1b9e575d1fb256c3611a3cc10df97d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd0a1d793fa62140229e489bf614d5d33"
-* entry[=].resource = mpd0a1d793fa62140229e489bf614d5d33
-                            
-                      
+* title = "List of all ePIs associated with pregabalin"
+
+* subject = Reference(mpd0a1d793fa62140229e489bf614d5d33)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#pregabalin "pregabalin"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-ee1b9e575d1fb256c3611a3cc10df97d) // pregabalin en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-ee1b9e575d1fb256c3611a3cc10df97d) // pregabalin da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-ee1b9e575d1fb256c3611a3cc10df97d
+InstanceOf: List
+
+* insert ee1b9e575d1fb256c3611a3cc10df97dListRuleset
+    

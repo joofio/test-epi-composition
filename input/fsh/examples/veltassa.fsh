@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-da0c248904d382a9eb3bce64c5a02953
 InstanceOf: CompositionUvEpi
 Title: "Composition for veltassa Package Leaflet"
@@ -270,12 +273,419 @@ France </p>
 
 
 
+Instance: composition-da-da0c248904d382a9eb3bce64c5a02953
+InstanceOf: CompositionUvEpi
+Title: "Composition for veltassa Package Leaflet"
+Description:  "Composition for veltassa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp83d122ea6a7175dcd829cad307a4cc57)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp83d122ea6a7175dcd829cad307a4cc57
+* title = "TEST PURPOSES ONLY - veltassa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Veltassa 
+3. Sådan skal du tage Veltassa 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What veltassa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What veltassa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Veltassa er et lægemiddel, der indeholder det aktive stof patiromer. </p>
+<p>Dette lægemiddel anvendes til at behandle voksne og unge i alderen 12 til 17 år, der har høje niveauer 
+af kalium i blodet. </p>
+<p>For meget kalium i blodet kan påvirke, hvordan nerverne kontrollerer musklerne. Dette kan medføre 
+svaghed eller endda lammelse. Høje niveauer af kalium kan også medføre en unormal hjerterytme, 
+hvilket kan påvirke din eller dit barns hjerterytme alvorligt. </p>
+<p>Dette lægemiddel fungerer ved at binde sig til kalium i tarmen. Dette forhindrer kalium i at komme ind 
+i blodbanen, så niveauet af kalium i blodet falder til det normale niveau. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take veltassa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take veltassa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Veltassa </p>
+<ul>
+<li>Hvis du eller dit barn er allergisk over for patiromer eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du bruger Veltassa, hvis du eller dit barn har: </p>
+<ul>
+<li>
+<p>Problemer med at synke - lægemidlet vil ikke virke, hvis du ikke kan synke det </p>
+</li>
+<li>
+<p>Alvorlige problemer med maven eller tarmene – dette lægemiddel kan forårsage forstoppelse 
+eller diarré hos nogle patienter, </p>
+</li>
+<li>
+<p>fået en større operation i maven eller tarmene – dette lægemiddel virker, når det passerer 
+igennem tarmene, så større operationer i dette område kan have en virkning på dette 
+lægemiddels effekt. </p>
+</li>
+</ul>
+<p>Du kan få et lavt niveau af magnesium i blodet, når du tager dette lægemiddel. Din læge vil kontrollere 
+dit magnesiumniveau under behandlingen med dette lægemiddel i mindst 1 måned og om nødvendigt 
+ordinere magnesiumtilskud. </p>
+<p>Børn og unge 
+Giv ikke dette lægemiddel til børn under 12 år, da det ikke er blevet undersøgt i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Veltassa 
+Fortæl lægen eller apotekspersonalet, hvis du eller dit barn tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Dette lægemiddel kan reducere absorption eller interagere med visse lægemidler, hvis de indtages 
+gennem munden og på samme tid, såsom: </p>
+<ul>
+<li>
+<p>ciprofloxacin: et lægemiddel til behandling af bakterieinfektioner </p>
+</li>
+<li>
+<p>levothyroxin: et lægemiddel til behandling af mangel på skjoldbruskkirtelhormon </p>
+</li>
+<li>
+<p>metformin: et lægemiddel til behandling af diabetes </p>
+</li>
+<li>
+<p>mycophenolat mofetil: et lægemiddel, der forhindrer din krop i at afstøde et transplanteret organ </p>
+</li>
+<li>
+<p>quinidin: et lægemiddel til behandling af uregelmæssig hjerterytme </p>
+</li>
+<li>
+<p>telmisartan, bisoprolol, carvedilol, nebivololol: lægemidler til behandling af forhøjet blodtryk og 
+hjerteproblemer. </p>
+</li>
+</ul>
+<p>Du skal tage alle lægemidler, der indtages gennem munden, mindst 3 timer før eller efter at du tager 
+Veltassa. Nogle lægemidler påvirkes ikke af Veltassa, så din læge eller apotekspersonalet giver dig 
+muligvis andre instruktioner, afhængigt af de lægemidler, du eller dit barn tager. Kontakt lægen eller 
+apotekspersonalet, hvis du er i tvivl. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Tag kun dette lægemiddel under graviditeten, og når du ammer, hvis din læge har sagt, at det er 
+nødvendigt. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene 
+maskiner. </p>
+<p>Veltassa indeholder sorbitol 
+Sorbitol-indholdet er ca. 4 g (10,4 kcal) pr. 8,4 g patiromer og cirka 0,5 g (1,2 kcal) pr. 1 g patiromer. 
+Sorbitol er en kilde til fructose. Hvis din læge har fortalt dig, at du eller dit barn har intolerance over 
+for nogle sukkerarter eller hvis du eller dit barn er blevet diagnosticeret med arvelig fructoseintolerans 
+(HFI), en sjælden genetisk defekt, hvor en person ikke kan nedbryde fructose, skal du tale med din 
+læge før du bruger dette lægemiddel. Sorbitol kan forårsage ubehag i mave og tarm og have en mild 
+afførende virkning. </p>
+<p>Veltassa indeholder calcium 
+Hvis din læge har fortalt dig, at du skal begrænse calcium i din eller dit barns kost, skal du tale med 
+din læge før du bruger dette lægemiddel. Din læge vil overvåge calciumniveauer i mindst 1 måned 
+under behandling med dette lægemiddel. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take veltassa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take veltassa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Dette lægemiddel administreres én gang dagligt. Den anbefalede startdosis for dette lægemiddel 
+varierer med alderen. Der kan anvendes flere breve for at opnå den ønskede dosis. Din læge justerer 
+muligvis den daglige dosis, afhængigt af kaliumniveauet i dit eller dit barns blod, op til en maksimal 
+daglig dosis på 25,2 g. </p>
+<p>Voksne 
+Startdosis: 8,4 g patiromer (indholdet af ét brev på 8,4 g) én gang dagligt. </p>
+<p>Unge i alderen 12 til 17 år 
+Startdosis: : 4 g patiromer (indholdet af fire breve på  1 g) én gang dagligt. Skift til breve på 8,4 g 
+patiromer, hvis doser på over 7 g er nødvendige. </p>
+<p>Din læge vil fastsætte længden af behandlingen baseret på mængden af kalium i blodet. </p>
+<p>Brug dette lægemiddel mindst 3 timer før eller 3 timer efter andre lægemidler, der indtages gennem 
+munden, medmindre din læge eller apotekspersonalet har anvist andet. </p>
+<p>Indtagelse 
+Før du tager dette lægemiddel, skal det blandes med vand som beskrevet nedenfor. Vandvolumen 
+afhænger af din dosis: </p>
+<ul>
+<li>
+<p>1 g patiromer: 10 ml (2 teskefulde) </p>
+</li>
+<li>
+<p>2 g patiromer: 20 ml (4 teskefulde) </p>
+</li>
+<li>
+<p>3 g patiromer: 30 ml (6 teskefulde) </p>
+</li>
+<li>
+<p>4 g patiromer: 40 ml (3 spiseskefulde) </p>
+</li>
+<li>
+<p>over 4 g patiromer: 80 ml (6 spiseskefulde) </p>
+</li>
+</ul>
+<p>Klargør blandingen ved at følge følgende trin: </p>
+<ul>
+<li>
+<p>Hæld halvdelen af vandet i et glas. Tilføj det nødvendige antal Veltassa-breve, og omrør. </p>
+</li>
+<li>
+<p>Tilføj den anden halvdel af vandet , og omrør grundigt. Pulveret opløses ikke, men danner en 
+suspension, og det kan have en grynet konsistens. </p>
+</li>
+<li>
+<p>Du kan tilføje mere vand til blandingen, hvis det hjælper dig med at synke lægemidlet. Bemærk 
+venligst, at pulveret kan bundfældes hurtigere ved større mængder vand. </p>
+</li>
+<li>
+<p>Drik blandingen inden for 1 time efter klargøring. Hvis der stadig er pulver tilbage i glasset, når 
+du har drukket indholdet, skal du tilsætte mere vand, omrøre og drikke det med det samme. Du 
+kan være nødt til at gøre det igen, indtil du er sikker på, at du har indtaget alt pulveret. </p>
+</li>
+</ul>
+<p>Hvis du vil, kan du kan bruge følgende væsker eller bløde fødevarer i stedet for vand til at forberede 
+blandingen ved at følge de samme trin som beskrevet ovenfor: æblejuice, tranebærjuice, ananasjuice, 
+appelsinjuice, druesaft, pæresaft, abrikosnektar, ferskennektar, yoghurt, mælk, fortykningsmiddel 
+(f.eks. majsstivelse), æblesauce, vanilje og chokoladebudding. </p>
+<p>Når du benytter disse væsker eller bløde fødevarer, skal du følge den diætvejledning med hensyn til dit 
+eller dit barns indtag af kalium, som du har modtaget. Spørg din læge eller apotekspersonalet til råds, 
+hvis du er i tvivl.  </p>
+<p>Du bør kun drikke begrænsede mængder (mindre end 400 ml om dagen) tranebærjuice, da det kan 
+påvirke andre lægemidler. </p>
+<p>Brug den klargjorte Veltassa-suspension sammen med eller udenfor måltider, helst på samme tid hver 
+dag. Dette lægemiddel må aldrig opvarmes eller tilføjes til opvarmede madvarer eller væsker. 
+Dette lægemiddel må ikke tages som tørt pulver. </p>
+<p>Hvis du bruger en nasogastrisk eller perkutan, endoskopisk gastrostomisonde skal du følge trinnene 
+beskrevet ovenfor for at klargøre suspensionen til oral administrering. For doser op til 8,4 g anvendes 
+volumen som beskrevet ovenfor. For doser over 8,4 g og op til 16,8 g patiromer bør en samlet volumen 
+på 160 ml anvendes (12 teskefulde)), og for doser over 16,8 g og op til 25,2 g patiromer bør en samlet 
+volumen på 240 ml anvendes (18 teskefulde). Disse volumener sikrer, at suspensionen let flyder 
+gennem sonderne.  </p>
+<p>Der kan anvendes sonder fremstillet af polyurethan, silikone og polyvinylklorid. Der anbefales en 
+sondediameter på 2,17 mm (6,5 CH) eller større. Efter administrering af suspensionen bør sonden 
+skylles med vand. Følg sondeproducentens instruktioner. </p>
+<p>Hvis du har taget for meget Veltassa 
+Stop med at tage dette lægemiddel, og kontakt omgående din læge eller apotekspersonalet. </p>
+<p>Hvis du har glemt at tage Veltassa 
+Hvis du eller dit barn har glemt at bruge en dosis, skal dosis tages så hurtigt som muligt den samme 
+dag. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tal med din læge, hvis du 
+har glemt mere end én dosis. </p>
+<p>Hvis du holder op med at tage Veltassa 
+Du må ikke holde op med at bruge dette lægemiddel uden din læges accept, da niveauet af kalium i<br />
+blodet kan stige. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hold op med at tage lægemidlet og tag øjeblikkeligt kontakt til din læge, hvis du opdager en af 
+følgende bivirkninger: 
+Ukendt, hyppigheden kan ikke bestemmes ud fra de tilgængelige data: 
+Overfølsomhed: symptomer inkluderer udslæt, nældefeber, hævelser i læber, tunge eller hals. </p>
+<p>Følgende yderligere bivirkninger er rapporteret: 
+Almindelige - kan forekomme hos op til 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>luft i maven </p>
+</li>
+<li>
+<p>lavt indhold af magnesium i blodet påvist i prøver </p>
+</li>
+</ul>
+<p>Ikke almindelige - kan forekomme hos op til 1 ud af 100 personer: </p>
+<ul>
+<li>opkastning </li>
+</ul>
+<p>Der er også rapporteret forstoppelse, diarré og luft i maven (flatulens) hos børn og unge i alderen 6 til 
+17 år. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store veltassa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store veltassa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen eller brevet efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab og transporteres nedkølet (2°C – 8°C). </p>
+<p>Når du har modtaget dette lægemiddel, kan du opbevare det under 25 °C i op til 6 måneder. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Veltassa indeholder: 
+Aktivt stof: patiromer (som patiromersorbitexcalcium). </p>
+<ul>
+<li>
+<p>Veltassa 1 g pulver til oral suspension: Hvert brev indeholder 1 g patiromer. </p>
+</li>
+<li>
+<p>Veltassa 8,4 g pulver til oral suspension: Hvert brev indeholder 8,4 g patiromer. </p>
+</li>
+<li>
+<p>Veltassa 16,8 g pulver til oral suspension: Hvert brev indeholder 16,8 g patiromer. </p>
+</li>
+<li>
+<p>Veltassa 25,2 g pulver til oral suspension: Hvert brev indeholder 25,2 g patiromer. </p>
+</li>
+</ul>
+<p>Øvrige indholdsstoffer: xanthangummi (se pkt. 2 for information om sorbitol). </p>
+<p>Udseende og pakningsstørrelser 
+Pulveret til oral suspension er offwhite til lysebrunt med sporadiske hvide partikler. </p>
+<p>Veltassa 1 g fås i pakninger indeholdende 60 breve. </p>
+<p>Veltassa 8,4 g fås i pakker indeholdende 30, 60 eller 90 breve og i multipakker med 3 æsker, hver med 
+30 breve. </p>
+<p>Veltassa 16,8 g og 25,2 g fås i pakker indeholdende 30, 60 or 90 breve. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Vifor Fresenius Medical Care Renal Pharma France 
+100–101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris La Défense Cedex 
+Frankrig </p>
+<p>Fremstiller 
+Vifor France 
+100–101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris La Défense Cedex 
+Frankrig </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-da0c248904d382a9eb3bce64c5a02953
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for veltassa Package Leaflet for language en"
+Description: "ePI document Bundle for veltassa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-da0c248904d382a9eb3bce64c5a02953"
+* entry[0].resource = composition-en-da0c248904d382a9eb3bce64c5a02953
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpda0c248904d382a9eb3bce64c5a02953"
+* entry[=].resource = mpda0c248904d382a9eb3bce64c5a02953
+                            
+                    
+Instance: bundlepackageleaflet-da-da0c248904d382a9eb3bce64c5a02953
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for veltassa Package Leaflet for language da"
+Description: "ePI document Bundle for veltassa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-da0c248904d382a9eb3bce64c5a02953"
+* entry[0].resource = composition-da-da0c248904d382a9eb3bce64c5a02953
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpda0c248904d382a9eb3bce64c5a02953"
+* entry[=].resource = mpda0c248904d382a9eb3bce64c5a02953
+                            
+                    
+
+
+
+Instance: mpda0c248904d382a9eb3bce64c5a02953
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Veltassa 1 g powder for oral suspension"
-Description: "Veltassa 1 g powder for oral suspension"
+Title: "Medicinal Product veltassa"
+Description: "veltassa"
 Usage: #inline
 
  
@@ -295,7 +705,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Veltassa 1 g powder for oral suspension"
+  * productName = "veltassa"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -322,29 +732,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-da0c248904d382a9eb3bce64c5a02953
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for veltassa Package Leaflet for language en"
-Description: "ePI document Bundle for veltassa Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: da0c248904d382a9eb3bce64c5a02953ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1179/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "veltassa"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-da0c248904d382a9eb3bce64c5a02953"
-* entry[0].resource = composition-en-da0c248904d382a9eb3bce64c5a02953
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp83d122ea6a7175dcd829cad307a4cc57"
-* entry[=].resource = mp83d122ea6a7175dcd829cad307a4cc57
-                            
-                      
+* title = "List of all ePIs associated with veltassa"
+
+* subject = Reference(mp83d122ea6a7175dcd829cad307a4cc57)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#veltassa "veltassa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-da0c248904d382a9eb3bce64c5a02953) // veltassa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-da0c248904d382a9eb3bce64c5a02953) // veltassa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-da0c248904d382a9eb3bce64c5a02953
+InstanceOf: List
+
+* insert da0c248904d382a9eb3bce64c5a02953ListRuleset
+    

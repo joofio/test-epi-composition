@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-84f7be3473056391e7ee18f2463847a8
 InstanceOf: CompositionUvEpi
 Title: "Composition for jorveza Package Leaflet"
@@ -432,12 +435,509 @@ zentrale@drfalkpharma.de </p>
 
 
 
+Instance: composition-da-84f7be3473056391e7ee18f2463847a8
+InstanceOf: CompositionUvEpi
+Title: "Composition for jorveza Package Leaflet"
+Description:  "Composition for jorveza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp392025a3893982df0a744e7161e606df)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp392025a3893982df0a744e7161e606df
+* title = "TEST PURPOSES ONLY - jorveza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Jorveza </li>
+<li>Sådan skal du tage Jorveza </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What jorveza is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What jorveza is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jorveza indeholder det aktive stof budesonid, et kortikosteroid-lægemiddel, der reducerer 
+inflammation (betændelse). </p>
+<p>Det tages af voksne (over 18 år) til at behandle eosinofil øsofagitis, som er en betændelsestilstand i 
+spiserøret, der giver problemer med at synke føde. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take jorveza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take jorveza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Jorveza:</p>
+<ul>
+<li>hvis du er allergisk over for budesonid eller et af de øvrige indholdsstoffer (angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du begynder at tage Jorveza, hvis du har:</p>
+<ul>
+<li>tuberkulose </li>
+<li>højt blodtryk </li>
+<li>diabetes, eller hvis nogen i din familie har diabetes </li>
+<li>knogleskørhed (osteoporose) </li>
+<li>sår i maven eller i første del af tyndtarmen (mavesår) </li>
+<li>øget tryk i øjet (som kan forårsage glaukom) eller øjenproblemer, såsom uklarhed af linsen (grå 
+stær) eller hvis nogen i din familie har glaukom. </li>
+<li>leversygdom. </li>
+</ul>
+<p>Hvis du har nogle af de ovennævnte lidelser, kan din risiko for bivirkninger være øget. Din læge vil 
+beslutte den rette behandling, og om denne medicin stadig er den rette for dig. </p>
+<p>Hvis du udvikler hævelse af ansigtet, især omkring munden (læberne, tungen eller halsen) og/eller 
+problemer med at trække vejret eller synke, skal du holde op med at tage Jorveza og straks kontakte 
+lægen. Det kan være tegn på en allergisk reaktion, som også kan omfatte udslæt og kløe (se også 
+pkt. 4). </p>
+<p>Jorveza kan forårsage bivirkninger, der er typiske for kortikosteroide lægemidler, og kan påvirke alle 
+dele af kroppen, især når du tager denne medicin i høje doser og over lang tid (se pkt. 4). </p>
+<p>Yderligere forholdsregler under behandling med Jorveza:</p>
+<ul>
+<li>Fortæl det til lægen, hvis du får sløret syn eller andre problemer med synet. </li>
+</ul>
+<p>Tag de følgende forholdsregler under behandlingen med Jorveza, da dit immunsystem kan være 
+svækket:</p>
+<ul>
+<li>Fortæl det til lægen, hvis du får svampeinfektioner i munden, halsen og spiserøret, eller hvis du 
+tror, du har en infektion under behandling med denne medicin. Symptomerne på en 
+svampeinfektion kan være hvide pletter i munden og halsen og synkebesvær. Symptomerne på 
+nogle infektioner kan være usædvanlige eller mindre mærkbare.  </li>
+<li>Undgå kontakt med mennesker, der har skoldkopper eller herpes zoster (helvedesild), hvis du 
+ikke har haft disse infektioner. Disse sygdomme kan blive meget mere alvorlige under 
+behandlingen med denne medicin. Hvis du kommer i kontakt med skoldkopper eller 
+helvedesild, skal du straks kontakte din læge. Du skal også oplyse din læge om din 
+vaccinestatus.  </li>
+<li>Fortæl det til lægen, hvis du ikke har haft mæslinger, og/eller om du har fået din sidste vaccine 
+mod denne sygdom, og i så fald hvornår. </li>
+<li>Hvis du skal vaccineres, så kontakt først din læge. </li>
+<li>Hvis du ved, at du skal have en operation, skal du fortælle din læge, at du tager Jorveza. </li>
+</ul>
+<p>Jorveza kan påvirke resultaterne af binyrefunktionsundersøgelser (ACTH-stimulationstest) hos lægen 
+eller på hospitalet. Fortæl lægerne, at du tager Jorveza, før du får foretaget nogen undersøgelser. </p>
+<p>Børn og unge 
+Jorveza bør ikke anvendes til børn og unge under 18 år. Brug af denne medicin til børn under 18 år er 
+endnu ikke undersøgt.  </p>
+<p>Brug af anden medicin sammen med Jorveza 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Nogle af disse lægemidler kan øge virkningen 
+af Jorveza, og din læge vil overvåge dig omhyggeligt, hvis du tager sådanne lægemidler. <br />
+Vær især opmærksom på: 
+− ketoconazol eller itraconazol (til behandling af svampeinfektioner) 
+− clarithromycin, et antibiotikum, der anvendes til behandling af infektioner 
+− ritonavir og cobistat (til behandling af hiv-infektion) 
+− østrogener (anvendes som hormonbehandling eller prævention) 
+− hjerteglykosider, såsom digoxin (medicin til behandling af hjertelidelser) 
+− diuretika (for at fjerne overskydende væske fra kroppen). </p>
+<p>Brug af Jorveza sammen med mad og drikke 
+Du må ikke drikke grapefrugtjuice mens du tager denne medicin, da dette kan forværre bivirkningerne. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Du må ikke tage dette lægemiddel under graviditeten, uden at spørge din læge til råds først. </p>
+<p>Du må ikke tage dette lægemiddel under amning, medmindre du har rådført dig med din læge. 
+Budesonid passerer i små mængder over i modermælken. Din læge vil hjælpe dig med beslutte, om du 
+bør fortsætte behandlingen og undgå at amme, eller om du bør standse behandlingen i den periode, 
+hvor du ammer dit barn. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Jorveza forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
+<p>Jorveza indeholder natrium 
+Dette lægemiddel indeholder 52 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. daglig 
+dosis. Dette svarer til 2,6 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take jorveza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take jorveza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen apotekspersonalet. </p>
+<p>Den anbefalede dosis til behandling af akutte episoder er to 1 mg smeltetabletter om dagen (2 mg 
+budesonid). Tag én 1 mg smeltetablet om morgenen og én 1 mg smeltetablet om aftenen. </p>
+<p>Den anbefalede dosis til forebyggelse af yderligere episoder er to 0,5 mg smeltetabletter om dagen 
+(1 mg budesonid) eller to 1 mg smeltetabletter om dagen (2 mg budesonid) afhængigt af kroppens 
+respons på behandlingen. Tag én smeltetablet om morgenen og én smeltetablet om aftenen. </p>
+<p>Administrationsmetode 
+Tag smeltetabletten straks efter den fjernes fra blisterpakningen. </p>
+<p>Tag smeltetabletten efter et måltid. </p>
+<p>Placer smeltetabletten på spidsen af tungen, og luk munden. Tryk den forsigtigt mod toppen af 
+munden med tungen, indtil den er helt opløst (det varer sædvanligvis mindst to minutter men kan tage 
+op til 20 minutter). Synk det opløste materiale med spyttet lidt efter lidt, efterhånden som 
+smeltetabletten opløses. 
+Du må IKKE tage smeltetabletten med væske. </p>
+<p>Du må ikke tygge eller synke en uopløst smeltetablet. </p>
+<p>Du må ikke spise, drikke, børste tænder eller skylle munden i mindst 30 minutter, efter du har taget 
+smeltetabletten. Brug ikke orale opløsninger, sprays eller tyggetabletter i mindst 30 minutter før og 
+efter administration af smeltetabletten. Det vil sikre, at dit lægemiddel virker korrekt. </p>
+<p>Nyre- og leverproblemer 
+Hvis du har problemer med nyrerne eller leveren, skal du kontakte lægen. Hvis du har et nyreproblem, 
+vil din læge beslutte, om Jorveza er egnet til dig. Hvis dine nyreproblemer er svære, bør du ikke tage 
+Jorveza. Hvis du har en leversygdom, må du ikke tage Jorveza. </p>
+<p>Varighed af behandlingen 
+Behandlingen bør indledningsvist vare ca. 6 til 12 uger.<br />
+Efter behandling af den akutte episode vil din læge beslutte, hvor længe og med hvilken dosis du skal 
+fortsætte behandlingen, og det afhænger af din tilstand og dit respons på behandlingen. </p>
+<p>Hvis du har taget for meget Jorveza 
+Hvis du har taget flere smeltetabletter, end du skulle, skal du tage din næste dosis som foreskrevet. 
+Tag ikke en mindre mængde. Spørg lægen eller apotekspersonalet, hvis du er i tvivl. Tag kartonen og 
+denne indlægsseddel med dig, hvis muligt. </p>
+<p>Hvis du har glemt at tage Jorveza 
+Hvis du glemmer en dosis, skal du bare tage din næste dosis på det sædvanlige tidspunkt. Du må ikke 
+tage en dobbeltdosis som erstatning for den glemte dosis.  </p>
+<p>Hvis du holder op med at tage Jorveza 
+Kontakt din læge, hvis du ønsker at holde pause eller stoppe behandlingen tidligere. </p>
+<p>Det er vigtigt, at du ikke stopper med at tage din medicin uden at kontakte lægen. Fortsæt med at tage 
+din medicin, indtil din læge beder dig om at stoppe, også selv om du har det bedre. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Stop med at tage Jorveza og søg straks læge, hvis du bemærker nogle af følgende symptomer:</p>
+<ul>
+<li>hævelse af ansigtet, især øjenlågene, læberne, tungen eller halsen (angioødem), som kan være 
+symptomer på en allergisk reaktion. </li>
+</ul>
+<p>De følgende bivirkninger er blevet rapporteret under brugen af Jorveza: </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer 
+- svampeinfektioner i spiserøret (symptomer, som kan forårsage smerter eller ubehag ved 
+synkning) 
+- svampeinfektioner i munden og halsen (symptomer kan være hvide pletter) </p>
+<p>Almindelig: kan forekomme hos op til 1 ud af 10 personer 
+- hovedpine 
+- halsbrand 
+- fordøjelsesbesvær 
+- kvalme 
+- prikken og følelseshed i munden, mundtørhed 
+- smagsforstyrrelser, brændende fornemmelse i tungen 
+- smerter i den øvre del af maven 
+- træthed 
+- nedsat mængde af hormonet kortisol i blodet 
+- tørre øjne 
+- søvnbesvær 
+- tungeproblemer 
+- forkølelsessår (oral herpes). </p>
+<p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer 
+- angst, agitation 
+- svimmelhed 
+- højt blodtryk 
+- hoste, tør hals, ondt i halsen, almindelig forkølelse 
+- mavesmerter, udspilet mave (oppustning) 
+- synkebesvær 
+- betændelse i maven, sår i maven 
+- hævede læber 
+- udslæt, kløende udslæt 
+- følelse af et fremmedlegeme 
+- smerter i mund eller hals 
+- smertefulde gummer 
+- nedsat osteocalcinniveau, vægtøgning. </p>
+<p>Følgende bivirkninger er blevet rapporteret med og er typiske for lægemidler, der ligner Jorveza 
+(kortikosteroider), og kan derfor også forekomme med dette lægemiddel. Hyppigheden af disse 
+hændelser er i øjeblikket ikke kendt:</p>
+<ul>
+<li>øget infektionsrisiko </li>
+<li>Cushings syndrom, som er forbundet med for meget kortikosteroid og forårsager opsvulmethed 
+i ansigtet, vægtøgning, højt blodsukker, ophobning af væske i vævene (f.eks. hævede ben), </li>
+</ul>
+<p>nedsat mængde kalium i blodet (hypokaliæmi), uregelmæssig menstruation hos kvinder, 
+uønsket kropsbehåring hos kvinder, impotens, strækmærker i huden, akne. 
+- langsom vækst hos børn 
+- humørsvingninger, såsom depression, irritabilitet eller eufori (opstemthed) 
+- rastløshed med øget fysisk aktivitet, aggression 
+- øget tryk i hjernen, eventuelt med øget tryk i øjet (hævelse af den optiske disk) hos unge 
+- sløret syn 
+- øget risiko for blodpropper, betændelse i blodkarrene (som kan opstå i forbindelse med ophør af 
+medicinen efter lang tids brug). 
+- forstoppelse, sår i tyndtarmen 
+- betændelse i bugspytkirtlen, hvilket forårsager svære smerter i maven og ryggen 
+- udslæt, røde pletter på grund af blødning i huden, forsinket sårheling, hudreaktioner såsom 
+kontaktdermatitis, blå mærker 
+- muskel- og ledsmerter, muskelsvaghed, muskeltrækninger 
+- knogleskørhed (osteoporose), knogleskader på grund af dårlig blodcirkulation (knoglenekrose) 
+- generel følelse af at være syg. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store jorveza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store jorveza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på pakningen og blisteren efter Exp. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. Opbevares i den originale yderpakning for at 
+beskytte mod lys og fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jorveza indeholder: </p>
+<p>Jorveza 0,5 mg smeltetablet </p>
+<ul>
+<li>
+<p>Aktivt stof: Budesonid. Hver smeltetablet indeholder 0,5 mg budesonid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Dinatriumhydrogencitrat, docusatnatrium, macrogol (6000), 
+magnesiumstearat, mannitol (E 421), vandfri mononatriumcitrat, povidon (K25), 
+natriumhydrogencarbonat og sucralose (se også punkt 2, "Jorveza indeholder natrium"). </p>
+</li>
+</ul>
+<p>Jorveza 1 mg smeltetablet </p>
+<ul>
+<li>
+<p>Aktivt stof: Budesonid. Hver smeltetablet indeholder 1 mg budesonid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Dinatriumhydrogencitrat, docusatnatrium, macrogol (6000), 
+magnesiumstearat, mannitol (E 421), vandfri mononatriumcitrat, povidon (K25), 
+natriumhydrogencarbonat og sucralose (se også punkt 2, "Jorveza indeholder natrium"). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Jorveza 0,5 mg smeltetablet </p>
+<p>Jorveza 0,5 mg smeltetabletter er hvide, runde, biplane. De er præget med "0.5" på den ene side. De 
+leveres i blistre i pakninger med 20, 60, 90, 100 eller 200 smeltetabletter. </p>
+<p>Jorveza 1 mg smeltetablet </p>
+<p>Jorveza 1 mg smeltetabletter er hvide, runde, biplane. De leveres i blistre i pakninger med 20, 30, 60, 
+90, 100 eller 200 smeltetabletter.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Dr. Falk Pharma GmbH 
+Leinenweberstr. 5 
+79108 Freiburg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Dr. Falk Pharma Benelux B.V. 
+Tél/Tel: +32-(0)16 40 40 info@drfalkpharma-benelux.eu </p>
+<p>Lietuva 
+UAB Morfėjus 
+Tel: +370 5 2796biuras@morfejus.lt </p>
+<p>България 
+Dr. Falk Pharma GmbH 
+Teл: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>Luxembourg/Luxemburg 
+Dr. Falk Pharma Benelux B.V. 
+Tél/Tel: +32-(0)16 40 40 info@drfalkpharma-benelux.eu </p>
+<p>Česká republika 
+Ewopharma, spol. s r. o. 
+Tel: +420 267 311 info@ewopharma.cz </p>
+<p>Magyarország 
+Ewopharma Hungary Kft. 
+Tel.: +36 1 200 4info@ewopharma.hu<br />
+Danmark 
+Vifor Pharma Nordiska AB 
+Tlf: +46 8 5580 6info.nordic@viforpharma.com </p>
+<p>Malta 
+Dr. Falk Pharma GmbH 
+Tel: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>Deutschland 
+Dr. Falk Pharma GmbH 
+Tel: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>Nederland 
+Dr. Falk Pharma Benelux B.V. 
+Tel: +31-(0)30 880 48 info@drfalkpharma-benelux.eu </p>
+<p>Eesti 
+Dr. Falk Pharma GmbH 
+Tel: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>Norge 
+Vifor Pharma Nordiska AB 
+Tlf: +46 8 5580 6info.nordic@viforpharma.com </p>
+<p>Ελλάδα 
+GALENICA A.E 
+Tηλ: +30 210 52 81 contact@galenica.gr </p>
+<p>Österreich 
+Dr. Falk Pharma Österreich GmbH 
+Tel: +43 (1) 577 3516 0 
+office@drfalkpharma.at </p>
+<p>España 
+Dr. Falk Pharma España 
+Tel: +34 91 372 95 drfalkpharma@drfalkpharma.es  </p>
+<p>Polska 
+Dr. Falk Pharma GmbH 
+Tel: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>France 
+Dr. Falk Pharma SAS 
+Tél: +33(0)1 78 90 02 contact.fr@drfalkpharma.fr </p>
+<p>Portugal 
+Dr. Falk Pharma Portugal, Sociedade Unipessoal 
+Lda. 
+Tel: +351 21 412 61 farmacovigilancia@drfalkpharma.pt </p>
+<p>Hrvatska 
+Würth d.o.o.<br />
+Tel: +385 1 4650wurth@zg.t-com.hr </p>
+<p>Ireland 
+Dr. Falk Pharma GmbH 
+Tel: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>România 
+Dr. Falk Pharma GmbH 
+Tel: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>Slovenija 
+Ewopharma d.o.o. 
+Tel: + 386 (0) 590 848 info@ewopharma.si  </p>
+<p>Ísland 
+Dr. Falk Pharma GmbH 
+Sími: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>Slovenská republika 
+Dr. Falk Pharma GmbH 
+Tel: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>Italia 
+Dr. Falk Pharma GmbH 
+Tel: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>Suomi/Finland 
+Vifor Pharma Nordiska AB 
+Puh/Tel: +46 8 5580 6info.nordic@viforpharma.com </p>
+<p>Κύπρος 
+THESPIS PHARMACEUTICAL Ltd<br />
+Τηλ: +357 22677pharmacovigilance@thespispharma.com<br />
+Sverige 
+Vifor Pharma Nordiska AB 
+Tel: +46 8 5580 6info.nordic@viforpharma.com </p>
+<p>Latvija 
+UAB Morfėjus 
+Tel: +370 5 2796biuras@morfejus.lt 
+United Kingdom (Northern Ireland) 
+Dr. Falk Pharma GmbH 
+Tel: +49 761 1514 0 
+zentrale@drfalkpharma.de </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-84f7be3473056391e7ee18f2463847a8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jorveza Package Leaflet for language en"
+Description: "ePI document Bundle for jorveza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-84f7be3473056391e7ee18f2463847a8"
+* entry[0].resource = composition-en-84f7be3473056391e7ee18f2463847a8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp84f7be3473056391e7ee18f2463847a8"
+* entry[=].resource = mp84f7be3473056391e7ee18f2463847a8
+                            
+                    
+Instance: bundlepackageleaflet-da-84f7be3473056391e7ee18f2463847a8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jorveza Package Leaflet for language da"
+Description: "ePI document Bundle for jorveza Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-84f7be3473056391e7ee18f2463847a8"
+* entry[0].resource = composition-da-84f7be3473056391e7ee18f2463847a8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp84f7be3473056391e7ee18f2463847a8"
+* entry[=].resource = mp84f7be3473056391e7ee18f2463847a8
+                            
+                    
+
+
+
+Instance: mp84f7be3473056391e7ee18f2463847a8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Jorveza 0.5 mg orodispersible tablets"
-Description: "Jorveza 0.5 mg orodispersible tablets"
+Title: "Medicinal Product jorveza"
+Description: "jorveza"
 Usage: #inline
 
  
@@ -457,7 +957,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Jorveza 0.5 mg orodispersible tablets"
+  * productName = "jorveza"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -484,29 +984,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-84f7be3473056391e7ee18f2463847a8
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for jorveza Package Leaflet for language en"
-Description: "ePI document Bundle for jorveza Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 84f7be3473056391e7ee18f2463847a8ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Jorveza 1 mg orodispersible tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "jorveza"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-84f7be3473056391e7ee18f2463847a8"
-* entry[0].resource = composition-en-84f7be3473056391e7ee18f2463847a8
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp392025a3893982df0a744e7161e606df"
-* entry[=].resource = mp392025a3893982df0a744e7161e606df
-                            
-                      
+* title = "List of all ePIs associated with jorveza"
+
+* subject = Reference(mp392025a3893982df0a744e7161e606df)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#jorveza "jorveza"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-84f7be3473056391e7ee18f2463847a8) // jorveza en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-84f7be3473056391e7ee18f2463847a8) // jorveza da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-84f7be3473056391e7ee18f2463847a8
+InstanceOf: List
+
+* insert 84f7be3473056391e7ee18f2463847a8ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f2459f44725cc293d7b9c9def994f1ff
 InstanceOf: CompositionUvEpi
 Title: "Composition for hukyndra Package Leaflet"
@@ -843,12 +846,1360 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-f2459f44725cc293d7b9c9def994f1ff
+InstanceOf: CompositionUvEpi
+Title: "Composition for hukyndra Package Leaflet"
+Description:  "Composition for hukyndra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe762d3028792592e438ebffdc92d12a3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe762d3028792592e438ebffdc92d12a3
+* title = "TEST PURPOSES ONLY - hukyndra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Brugsanvisning</li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Hukyndra
+3. Sådan skal du bruge Hukyndra
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What hukyndra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What hukyndra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hukyndra indeholder det aktive stof adalimumab.
+Hukyndra bruges til behandling af:
+
+Reumatoid artritis
+
+Polyartikulær juvenil idiopatisk artritis
+
+Entesopati-relateret artritis
+
+Ankyloserende spondylitis
+
+Aksial spondyloartritis uden radiografiske tegn på ankyloserende spondylitis
+
+Psoriasisartritisis
+
+Plaque-psoriasis
+
+Hidrosadenitis suppurativa
+
+Crohns sygdom
+
+Colitis ulcerosa
+
+Ikke-infektiøs uveitis
+Det aktive stof i Hukyndra, adalimumab, er et humant monoklonalt antistof. Monoklonale antistoffer 
+er proteiner, som binder til et bestemt mål.
+Målet for adalimumab er et protein kaldet tumornekrosefaktor (TNFα) som er involveret i immun 
+(forsvars) systemet og er til stede i øgede mængder i de inflammatoriske sygdomme nævnt ovenfor. 
+Ved at binde sig til TNFα reducerer Hukyndra den inflammatoriske proces i disse sygdomme.
+118
+Reumatoid artritis 
+Reumatoid artritis er en betændelsessygdom i leddene.
+Hukyndra bruges til at behandle moderat til alvorlig reumatoid artritis hos voksne. Du vil muligvis 
+først behandles med anden sygdomsdæmpende medicin såsom methotrexat. Hvis du ikke reagerer godt 
+nok på disse lægemidler, kan du få Hukyndra.
+Hukyndra kan også anvendes til behandling af alvorlig aktiv og progressiv reumatoid artritis, der ikke 
+tidligere er behandlet med methotrexat.
+Hukyndra kan nedsætte hastigheden for ødelæggelse i leddene forårsaget af den inflammatoriske 
+sygdom og kan hjælpe dem til at kunne bevæges mere frit.
+Din læge vil beslutte, om Hukyndra skal anvendes sammen med methotrexat eller alene.
+Polyartikulær juvenil idiopatisk artritis
+Polyartikulær juvenil idiopatisk artritis er en inflammatorisk sygdom i leddene.
+Hukyndra bruges til at behandle polyartikulær juvenil idiopatisk artritis hos patienter fra 2 år. Du vil 
+muligvis først behandles med anden sygdomsdæmpende medicin såsom methotrexat. Hvis du ikke 
+reagerer godt nok på disse lægemidler, kan du få Hukyndra.
+Din læge vil beslutte, om Hukyndra skal anvendes sammen med methotrexat eller alene.
+Entesopati-relateret artritis
+Entesopati-relateret artritis er en inflammatorisk sygdom i leddene og de steder, hvor senerne hæfter 
+på knoglen.
+Hukyndra bruges til at behandle entesopati-relateret artritis hos patienter fra 6 år. Du vil muligvis først 
+behandles med anden sygdomsdæmpende medicin såsom methotrexat. Hvis du ikke reagerer godt nok 
+på disse lægemidler, kan du få Hukyndra.
+Ankyloserende spondylitis og aksial spondyloartritis uden radiografiske tegn på ankyloserende
+spondylitis
+Ankyloserende spondylitis og aksial spondyloartritis uden radiografiske tegn på ankyloserende 
+spondylitis er inflammatoriske sygdomme i rygsøjlen.
+Hukyndra bruges til at behandle alvorlig ankyloserende spondylitis og aksial spondyloartritis uden 
+radiografiske tegn på ankyloserende spondylitis hos voksne. Du vil muligvis først få anden medicin. 
+Hvis du ikke reagerer godt nok på disse lægemidler, kan du få Hukyndra.
+Psoriasis-artritis
+Psoriasisartritis er en inflammatorisk sygdom i leddene, som sædvanligvis er forbundet med psoriasis.
+Hukyndra bruges til at behandle psoriasis-artritis hos voksne. Hukyndra kan nedsætte hastigheden for 
+ødelæggelse i leddene forårsaget af sygdommen og kan hjælpe dem til at bevæge sig mere frit. Du vil 
+muligvis først få anden medicin. Hvis du ikke reagerer godt nok på disse lægemidler, kan du få 
+Hukyndra.
+119
+Plaque-psoriasis
+Plaque-psoriasis er en hudlidelse, som forårsager røde, skællende, skorpede pletter på huden dækket 
+med sølvfarvede skæl. Plaque-psoriasis kan også påvirke neglene. Det får dem til at smuldre, blive 
+fortykket og løfte fra neglelejet, hvilket kan være meget smertefuldt.
+Hukyndra bruges til behandling af
+
+moderat til alvorlig kronisk plaque-psoriasis hos voksne og
+
+alvorlig kronisk plaque-psoriasis hos børn og unge i alderen 4 til 17 år, hos hvem lokal 
+behandling og lysbehandlinger enten ikke har virket godt nok eller ikke er egnede.
+Hidrosadenitis suppurativa
+Hidrosadenitis suppurativa (kaldes somme tider svedkirtelbetændelse) er en kronisk, ofte smertefuld 
+inflammatorisk hudsygdom. Symptomerne kan være ømme knuder i huden (noduli) og bylder 
+(abscesser), som kan udtømme pus. Sygdommen påvirker oftest bestemte områder af huden, såsom 
+under brystet, i armhulerne, på inderlårene, i lyskeområdet og på balderne. Ardannelse kan også 
+forekomme på berørte områder.
+Hukyndra bruges til behandling af
+
+moderat til alvorlig hidrosadenitis suppurativa hos voksne og
+
+moderat til alvorlig hidrosadenitis suppurativa hos unge fra 12 til 17 år.
+Hukyndra kan nedsætte antallet af knuder og bylder, som skyldes sygdommen og lindre den smerte, 
+som ofte er forbundet med sygdommen. Du vil muligvis først få anden medicin. Hvis du ikke reagerer 
+godt nok på disse lægemidler, kan du få Hukyndra.
+Crohns sygdom
+Crohns sygdom er en inflammatorisk sygdom i mave-tarm-kanalen.
+Hukyndra bruges til behandling af
+
+moderat til alvorlig Crohns sygdom hos voksne og
+
+moderat til alvorlig Crohns sygdom hos børn og unge fra 6 til 17 år.
+Du vil muligvis først få anden medicin. Hvis du ikke reagerer godt nok på disse lægemidler, kan du få 
+Hukyndra.
+Colitis ulcerosa
+Colitis ulcerosa er en inflammatorisk sygdom i tyktarmen.
+Hukyndra bruges til behandling af 
+
+moderat til alvorlig colitis ulcerosa hos voksne og 
+
+moderat til alvorlig colitis ulcerosa hos børn og unge i alderen 6 til 17 år
+Du vil muligvis først få anden medicin. Hvis du ikke reagerer godt nok på disse lægemidler, kan du få 
+Hukyndra.
+Ikke-infektiøs uveitis
+Ikke-infektiøs uveitis er en inflammatorisk sygdom, som påvirker bestemte dele af øjet.
+Hukyndra bruges til behandling af
+
+voksne med ikke-infektiøs uveitis (regnbuehindebetændelse), som påvirker den bagerste del af 
+øjet.
+120
+
+børn fra 2 år med kronisk ikke-infektiøs uveitis, hvor inflammationen påvirker forreste del af 
+øjet.
+Inflammationen kan føre til nedsat syn og/eller fluer i øjet (sværm af uklarheder i øjet, som bevæger 
+sig i synsfeltet). Hukyndra virker ved at reducere denne inflammation.
+Du vil muligvis først få anden medicin. Hvis du ikke reagerer godt nok på disse lægemidler, kan du få 
+Hukyndra.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take hukyndra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take hukyndra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Hukyndra
+
+Hvis du er allergisk over for adalimumab eller et af de øvrige indholdsstoffer (angivet i 
+punkt 6).
+
+Hvis du har aktiv tuberkulose eller andre alvorlig infektioner (se "Advarsler og 
+forsigtighedsregler"). Det er vigtigt, at du informerer lægen, hvis du har symptomer på 
+infektioner, f.eks. feber, sår, træthedsfornemmelse, tandproblemer.
+
+Hvis du har moderat eller svært hjertesvigt. Det er vigtigt at informere lægen, hvis du har eller 
+har haft en alvorlig hjertesygdom (Se “Advarsler og forsigtighedsregler").
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager Hukyndra.
+Allergiske reaktioner
+
+Hvis du får allergiske reaktioner med symptomer som trykken i brystet, hvæsende vejrtrækning, 
+svimmelhed, hævelser eller udslæt, så undlad at injicere mere Hukyndra, og kontakt straks 
+lægen, da disse reaktioner i sjældne tilfælde kan være livstruende.
+Infektioner
+
+Hvis du har en infektion, herunder langvarig infektion eller en infektion i en bestemt del af 
+kroppen (f.eks. bensår), skal du kontakte din læge, før du begynder at bruge Hukyndra. Kontakt 
+lægen, hvis du er i tvivl.
+
+Infektioner kan opstå lettere under behandling med Hukyndra. Risikoen kan stige, hvis du har 
+problemer med lungerne. Disse infektioner kan være alvorlige og inkluderer:<em> tuberkulose</em> infektioner forårsaget af virus, svampe, parasitter eller bakterier<em> alvorlig infektion i blodet (sepsis)
+I sjældne tilfælde kan disse infektioner være livstruende. Det er vigtigt at informere lægen, hvis 
+du får symptomer som feber, sår, træthedsfornemmelse eller tandproblemer. Din læge kan bede 
+dig om midlertidigt at stoppe med at tage Hukyndra.
+
+Fortæl lægen, hvis du har fast bopæl eller rejser i områder, hvor svampeinfektioner (som f.eks. 
+histoplasmose, kokcidioidomykose eller blastomykose) er meget almindelige.
+
+Fortæl lægen, hvis du har haft gentagne infektioner eller andre tilfælde, der forøger risikoen for 
+infektioner.
+
+Hvis du er over 65 år, kan du være mere modtagelig for infektioner, mens du tager Hukyndra. 
+Du og din læge bør være særligt opmærksomme på tegn på infektion, mens du er i behandling 
+med Hukyndra. Det er vigtigt, at du fortæller lægen, hvis du får symptomer på infektion såsom 
+feber, sår, træthedsfornemmelse eller problemer med tænderne.
+121
+Tuberkulose
+
+Det er meget vigtigt at informere lægen, hvis du nogensinde selv har haft tuberkulose, eller hvis 
+du har været i tæt kontakt med nogen, som havde tuberkulose. Hvis du har aktiv tuberkulose, 
+må du ikke tage Hukyndra.</em> Eftersom der har været rapporteret tilfælde af tuberkulose hos patienter i behandling med 
+adalimumab, vil lægen undersøge dig for tegn og symptomer på tuberkulose, før 
+behandling med Hukyndra påbegyndes. Dette vil omfatte en omhyggelig gennemgang af 
+din sygdomshistorie og relevante screeningstest (f.eks. røntgenundersøgelse af lunger og 
+en tuberkulintest). Disse undersøgelser og resultaterne heraf skal registreres på dit 
+patientkort.<em> Tuberkulose kan udvikles under behandlingen, også selv om du har fået behandling for at 
+forebygge tuberkulose.</em> Hvis der viser sig symptomer på tuberkulose (f.eks. hoste som ikke forsvinder, vægttab, 
+mangel på energi, let feber) eller anden form for infektion under eller efter behandlingen, 
+skal lægen straks informeres.
+Hepatitis B
+
+Fortæl lægen, hvis du er bærer af hepatitis B-virus (HBV), hvis du har aktiv HBV eller, hvis du 
+tror, du kan have risiko for at få HBV.<em> Lægen bør teste dig for HBV. Hos bærere af HBV, kan adalimumab forårsage, at virus 
+bliver aktiv igen.</em> I sjældne tilfælde, specielt hvis du tager anden medicin, der undertrykker immun-
+systemet, kan reaktivering af HBV blive livstruende.
+Kirurgi og tandlægebehandling
+
+Hvis du skal opereres eller have tandbehandling, skal du informere din læge om, at du tager 
+Hukyndra. Din læge kan anbefale midlertidig afbrydelse af behandlingen med Hukyndra.
+Demyeliserende sygdom
+
+Hvis du har eller udvikler demyeliniserende sygdom (en sygdom der påvirker det isolerende lag 
+omkring nerverne, såsom dissemineret sklerose) vil din læge afgøre, om du skal have eller 
+fortsætte med at få Hukyndra. Fortæl straks din læge, hvis du oplever ændringer i dit syn, 
+svaghed i arme eller ben eller følelsesløshed eller en snurrende fornemmelse et sted i kroppen.
+Vaccinationer
+
+Visse vacciner kan forårsage infektioner og bør ikke gives under Hukyndra-behandling.<em> Tal med lægen, før du får nogen form for vaccine.</em> Det anbefales, at børn om muligt får alle planlagte vaccinationer for deres alder, inden de 
+begynder behandling med Hukyndra.<em> Hvis du har fået Hukyndra, mens du var gravid, kan dit spædbarn have en højere risiko 
+for at få en sådan infektion i op til ca. fem måneder efter din sidste Hukyndra-dosis under 
+graviditeten. Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner, at du 
+fik Hukyndra under graviditeten, så de kan beslutte, hvornår dit spædbarn bør vaccineres.
+Hjertesvigt
+
+Hvis du har lettere hjerteinsufficiens og behandles med Hukyndra, skal din hjerteinsufficiens 
+følges nøje af din læge. Det er vigtigt at informere lægen, hvis du har eller har haft en alvorlig 
+hjertesygdom. Hvis du udvikler nye eller får forværrede symptomer på hjerteinsufficiens (f.eks. 
+stakåndethed eller hævede fødder), skal du kontakte din læge øjeblikkeligt. Din læge vil tage 
+stilling til, om du skal have Hukyndra.
+122
+Feber, blå mærker, blødning eller bleghed
+
+Hos nogle patienter vil kroppen ikke producere tilstrækkeligt af de blodlegemer, som bekæmper 
+infektioner eller stopper blødninger. Din læge kan eventuelt beslutte at afbryde behandlingen. 
+Hvis du får feber, som ikke vil forsvinde, let får blå mærker eller bløder meget let eller ser 
+meget bleg ud, skal du omgående henvende dig til din læge.
+Kræft
+
+Der er set meget sjældne tilfælde af visse kræfttyper hos patienter, som tager adalimumab eller 
+andre TNF-hæmmere.</em> Patienter med mere alvorlig reumatoid artritis, som har haft sygdommen i lang tid, kan 
+have øget risiko i forhold til gennemsnittet for at få lymfomer (kræft som påvirker 
+lymfesystemet) og leukæmi (kræft som påvirker blod og knoglemarv).<em> Når du tager Hukyndra, kan risikoen for at få et lymfom, leukæmi eller andre former for 
+kræft øges. I sjældne tilfælde er der set en ikke almindelig og alvorlig type af lymfom hos 
+patienter, som tog adalimumab. Nogle af disse patienter blev også behandlet med 
+azathioprin eller 6-mercaptopurin.</em> Fortæl din læge, hvis du får azathioprin eller 6-mercaptopurin sammen med Hukyndra.<em> Tilfælde af ikke-melanom hudkræft er set hos patienter, der tager adalimumab.</em> Hvis der kommer nye hudlæsioner under eller efter behandlingen, eller hvis eksisterende 
+hudlæsioner ændrer udseende, skal du fortælle det til din læge.
+
+Der har været tilfælde af kræft, der er forskellig fra lymfom hos patienter med en specifik 
+lungesygdom kaldet kronisk obstruktiv lungesygdom (KOL), der var i behandling med en anden 
+TNF-hæmmer. Hvis du har KOL, eller ryger meget, skal du diskutere med din læge, om 
+behandling med en TNF-hæmmer er passende for dig.
+Autoimmune sygdomme
+
+I sjældne tilfælde kan behandling med Hukyndra resultere i lupus-lignende syndrom. Fortæl din 
+læge hvis du får symptomer såsom vedvarende uforklarligt udslæt, feber, ledsmerter eller 
+træthed.
+Børn og unge
+
+Vaccinationer: hvis det er muligt skal dit barn føres ajour med alle vaccinationer, før behandling 
+med Hukyndra startes.
+Brug af anden medicin sammen med Hukyndra
+Fortæl lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden medicin 
+eller planlægger at bruge anden medicin.
+På grund af øget risiko for alvorlig infektion, må du ikke tage Hukyndra sammen med medicin, som 
+indeholder følgende aktive stoffer:
+
+anakinra
+
+abatacept
+Hukyndra kan tages sammen med:
+
+methotrexat
+
+visse sygdomsmodificerende antireumatiske lægemidler (f.eks. sulfasalazin, hydroxychloroquin, 
+leflunomid og guldpræparater til injektion)
+
+steroider eller smertestillende medicin, herunder non-steroide anti-inflammatoriske lægemidler 
+(NSAID’er).
+Hvis du har spørgsmål, skal du tale med din læge.
+123
+Graviditet og amning
+
+Du skal overveje brugen af passende prævention for at forhindre graviditet og fortsætte brugen 
+mindst 5 måneder efter den sidste behandling med Hukyndra.
+
+Hvis du er gravid eller ammer, har mistanke, om at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge til råds, før du tager dette lægemiddel.
+
+Hukyndra bør kun anvendes under graviditet, hvis det er nødvendigt.
+
+Der var ifølge et graviditetsstudie ikke højere risiko for misdannelser, når moderen havde fået 
+adalimumab under graviditeten, ved sammenligning med mødre med samme sygdom, som ikke 
+havde fået adalimumab.
+
+Hukyndra kan anvendes under amning.
+
+Hvis du har fået Hukyndra, mens du var gravid, kan dit spædbarn have en højere risiko for at få 
+en infektion.
+
+Det er vigtigt, at du fortæller barnets læge og andre sundhedspersoner, at du fik Hukyndra under 
+graviditeten, før dit barn får nogen vaccinationer. For mere information om vacciner, se afsnittet 
+vedrørende "Advarsler og forsigtighedsregler".
+Trafik-og arbejdssikkerhed
+Hukyndra kan i lettere grad påvirke din evne til at føre motorkøretøj, cykle eller betjene maskiner. Du 
+kan få synsforstyrrelse og en fornemmelse af, at rummet drejer rundt efter at have taget Hukyndra.
+Hukyndra indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 0,4 ml, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take hukyndra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take hukyndra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.
+Den anbefalede Hukyndra-dosis for hvert af de godkendte anvendelsesområder er vist nedenfor i 
+tabellen. Din læge kan have udskrevet Hukyndra i en anden styrke, hvis du har behov for en anden 
+dosis.
+Reumatoid artritis, psoriasisartritis, ankyloserende spondylitis eller aksial spondyloartritis 
+uden radiografiske tegn på ankyloserende spondylitis
+Alder eller vægt
+Hvor meget og hvor tit skal 
+medicinen tages?
+Bemærkninger
+Voksne
+40 mg hver anden uge
+Ved reumatoid artritis,
+fortsættes methotrexat under 
+brug af Hukyndra. Hvis din 
+læge ikke mener, at behandling 
+med methotrexat er 
+hensigtsmæssig, kan Hukyndra 
+anvendes alene.
+Hvis du har reumatoid artritis 
+og ikke får methotrexat i 
+kombination med din 
+Hukyndra-behandling, kan 
+lægen vælge at ordinere 
+Hukyndra 40 mg hver uge 
+eller 80 mg hver anden uge.
+124
+Polyartikulær juvenil idiopatisk artritis
+Alder eller vægt
+Hvor meget og hvor tit skal 
+medicinen tages?
+Bemærkninger
+Børn, unge og voksne 
+fra 2 år der vejer 30 kg eller 
+mere
+40 mg hver anden uge
+Ikke relevant
+Entesopati-relateret artritis
+Alder eller vægt
+Hvor meget og hvor tit skal 
+medicinen tages?
+Bemærkninger
+Børn, unge og voksne 
+fra 6 år, der vejer 30 kg eller 
+mere
+40 mg hver anden uge
+Ikke relevant
+Plaque-psoriasis
+Alder eller vægt
+Hvor meget og hvor tit skal 
+medicinen tages?
+Bemærkninger
+Voksne
+Startdosis på 80 mg (to 40 mg 
+injektioner på én dag), efterfulgt 
+af 40 mg hver anden uge med 
+start en uge efter den første dosis.
+Hvis du har utilstrækkelig 
+respons, kan din læge øge dosis 
+til 40 mg hver uge eller 80 mg 
+hver anden uge.
+Børn og unge fra 4 til 17 år, 
+der vejer 30 kg eller mere
+Startdosis på 40 mg, efterfulgt 
+af 40 mg en uge senere.
+Herefter er den sædvanlige 
+dosis 40 mg hver anden uge.
+Ikke relevant
+Hidrosadenitis suppurativa
+Alder eller vægt
+Hvor meget og hvor tit skal 
+medicinen tages?
+Bemærkninger
+Voksne
+Startdosis på 160 mg (fire 40 mg 
+injektioner på én dag eller 
+to 40 mg injektioner pr. dag i to 
+på hinanden følgende dage), 
+efterfulgt af én dosis på 80 mg to 
+uger senere (to 40 mg injektioner 
+på samme dag). Efter 
+yderligere 2 uger fortsættes 
+med 40 mg hver uge eller 80 mg 
+hver anden uge, som foreskrevet 
+af din læge.
+Det anbefales, at du dagligt 
+vasker de berørte områder med 
+et antiseptisk middel.
+Unge fra 12 til 17 år, som 
+vejer 30 kg eller mere
+Startdosis er 80 mg (to 
+injektioner med 40 mg på samme 
+dag), efterfulgt af 40 mg hver 
+anden uge startende en uge efter 
+den første dosis.
+Hvis du har utilstrækkelig 
+respons på Hukyndra 40 mg 
+hver anden uge, kan din læge 
+øge dosis til 40 mg hver uge 
+eller 80 mg hver anden uge.
+Det anbefales, at du dagligt 
+vasker de berørte områder med 
+et antiseptisk middel.
+Crohns sygdom
+Alder eller vægt
+Hvor meget og hvor tit skal 
+medicinen tages?
+Bemærkninger
+Børn, unge og voksne 
+fra 6 år, som vejer 40 kg eller 
+mere
+Startdosis på 80 mg (to 40 mg 
+injektioner på én dag), efterfulgt 
+af 40 mg 2 uger senere.
+Din læge kan øge dosis 
+til 40 mg hver uge eller 80 mg 
+hver anden uge.
+125
+Hvis et hurtigere respons er 
+nødvendigt kan din læge ordinere 
+en startdosis på 160 mg 
+(fire 40 mg injektioner på én dag
+eller to 40 mg injektioner pr. dag 
+i to på hinanden følgende dage), 
+efterfulgt af 80 mg 2 uger senere 
+(to 40 mg injektioner på én dag).
+Herefter er den sædvanlige 
+dosis 40 mg hver anden uge.
+Børn og unge fra 6 til 17 år, 
+som vejer mindre end 40 kg
+Startdosis på 40 mg, efterfulgt 
+af 20 mg 2 uger senere.
+Hvis et hurtigere respons er 
+nødvendigt kan din læge ordinere 
+en startdosis på 80 mg (to 40 mg 
+injektioner på én dag), efterfulgt 
+af 40 mg 2 uger senere.
+Herefter er den sædvanlige 
+dosis 20 mg hver anden uge.<em> Din læge kan øge
+dosishyppighed til 20 mg hver 
+uge.</em> * Hukyndra fås kun som 40 mg fyldt injektionssprøjte, 40 mg fyldt pen og 80 mg fyldt 
+injektionssprøjte. Det er derfor ikke muligt at administrere Hukyndra til patienter, som kræver en dosis 
+på under 40 mg.
+Colitis ulcerosa
+Alder eller vægt
+Hvor meget og hvor tit skal 
+medicinen tages?
+Bemærkninger
+Voksne
+Startdosis på 160 mg (fire 40 mg 
+injektioner på én dag eller 
+to 40 mg injektioner pr. dag i to 
+på hinanden følgende dage), 
+efterfulgt af 80 mg (to 40 mg 
+injektioner på én dag) 2 uger 
+senere.
+Herefter er den sædvanlige 
+dosis 40 mg hver anden uge.
+Din læge kan øge dosis 
+til 40 mg hver uge eller 80 mg 
+hver anden uge.
+Børn og unge fra 6 år, der 
+vejer mindre end 40 kg
+Startdosis på 80 mg (to 40 mg 
+injektioner på én dag), efterfulgt 
+af 40 mg (én 40 mg 
+injektion) 2 uger senere.
+Herefter er den sædvanlige 
+dosis 40 mg hver anden uge.
+Du skal fortsætte med at tage 
+din sædvanlige dosis 
+adalimumab, også efter du er 
+fyldt 18 år.
+Børn og unge fra 6 år, der 
+vejer 40 kg eller mere
+Startdosis på 160 mg (fire 40 mg 
+injektioner på én dag eller 
+to 40 mg injektioner pr. dag i to 
+på hinanden følgende dage), 
+efterfulgt af 80 mg (to 40 mg 
+injektioner på én dag) 2 uger 
+senere.
+Herefter er den sædvanlige 
+dosis 80 mg hver anden uge.
+Du skal fortsætte med at tage 
+din sædvanlige dosis 
+adalimumab, også efter du er 
+fyldt 18 år.
+126
+Ikke-infektiøs uveitis
+Alder eller vægt
+Hvor meget og hvor tit skal 
+medicinen tages?
+Bemærkninger
+Voksne
+Startdosis på 80 mg (to 40 mg 
+injektioner på én dag), efterfulgt 
+af 40 mg hver anden uge med 
+start en uge efter den første dosis.
+Du kan fortsætte med at bruge 
+kortikosteroider eller andre 
+lægemidler, som påvirker 
+immunsystemet, mens du tager 
+Hukyndra. Hukyndra kan også 
+gives alene.
+Børn og unge fra 2 år der 
+vejer mindst 30 kg
+40 mg hver anden uge
+Din læge kan også ordinere en 
+indledende dosis på 80 mg, 
+som administreres en uge før 
+start af den sædvanlige dosis 
+på 40 mg hver anden uge.
+Hukyndra anbefales anvendt 
+sammen med methotrexat.
+Indgivelsesmetode og indgivelsesvej
+Hukyndra indgives ved injektion under huden (subkutan injektion).
+Detaljerede instruktioner i, hvordan Hukyndra injiceres, findes i afsnit 7, “Brugsanvisning".
+Hvis du har taget for meget Hukyndra
+Hvis du ved en fejltagelse injicerer Hukyndra hyppigere end forskrevet af lægen eller 
+apotekspersonalet, kontakt da lægen eller apotekspersonalet og fortæl dem, at du har taget mere. Tag 
+altid den ydre karton fra medicinen med, også selvom den er tom.
+Hvis du har glemt at tage Hukyndra
+Hvis du glemmer at give dig selv en injektion, skal du injicere den næste dosis af Hukyndra, så snart 
+du kommer i tanke om det. Fortsæt dernæst med at injicere næste dosis som planlagt på den 
+oprindeligt fastlagte dag, som om du ikke havde glemt en dosis.
+Hvis du holder op med at tage Hukyndra
+Beslutningen om at stoppe med at tage Hukyndra skal diskuteres med din læge. Dine symptomer kan 
+komme igen, hvis du stopper med at tage Hukyndra.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger er af let til moderat grad. Der kan dog forekomme mere alvorlige bivirkninger, som 
+kræver behandling. Bivirkninger kan forekomme op til mindst 4 måneder efter den sidste Hukyndra 
+injektion.
+Kontakt omgående lægen, hvis du får følgende symptomer
+
+alvorligt udslæt, nældefeber eller andre tegn på en allergisk reaktion
+
+hævelser i ansigt, hænder eller fødder
+
+besvær med at trække vejret eller synke
+
+stakåndethed ved fysisk anstrengelse, eller når du ligger ned, eller hævede fødder
+Kontakt lægen så hurtigt som muligt, hvis du får følgende symptomer
+
+tegn på infektion, såsom feber, kvalme, sår, tandproblemer eller smerter ved vandladning
+
+følelse af svaghed eller træthed
+
+hoste
+127
+
+snurren og prikken
+
+følelsesløshed
+
+dobbeltsyn
+
+svaghed i arme og ben
+
+en bule eller åbent sår, som ikke vil hele
+
+tegn og symptomer, som kan tyde på blodsygdomme såsom vedvarende feber, blå mærker, 
+blødning, bleghed
+Ovennævnte symptomer kan være tegn på følgende bivirkninger, som er observeret ved brug af 
+adalimumab:
+Meget almindelig (kan påvirke flere end 1 ud af 10 personer)
+
+reaktioner ved injektionsstedet (herunder smerter, hævelse, rødme eller kløe)
+
+luftvejsinfektioner (inklusive forkølelse, løbende næse, bihulebetændelse, lungebetændelse)
+
+hovedpine
+
+mavesmerter
+
+kvalme og opkastning
+
+udslæt
+
+muskuloskeletale smerter
+Almindelig (kan påvirke op til 1 ud af 10 personer)
+
+alvorlige infektioner (inklusive blodforgiftning og influenza)
+
+tarminfektioner (inklusive betændelse i mave og tarm)
+
+hudinfektioner (inklusive bindevævsbetændelse og helvedesild)
+
+ørebetændelser
+
+infektioner i munden (inklusive tandinfektioner og forkølelsessår)
+
+infektioner i kønsvejene
+
+urinvejsinfektion
+
+svampeinfektioner
+
+ledinfektioner
+
+godartede svulster
+
+hudkræft
+
+allergiske reaktioner (inklusive sæsonbestemt allergi)
+
+dehydrering
+
+humørsvingninger (inklusive depression)
+
+angst
+
+søvnbesvær
+
+følelsesforstyrrelser såsom snurren, prikken eller følelsesløshed
+
+migræne
+
+nerverodskompression (inklusive smerter i den nederste del af ryggen og bensmerter)
+
+synsforstyrrelser
+
+betændelse i øjet
+
+betændelse i øjenlåget og hævede øjne
+
+vertigo (fornemmelse af svimmelhed og at snurre rundt)
+
+fornemmelse af hurtige hjerteslag
+
+højt blodtryk
+
+blussen
+
+blodansamling (ansamling af blod udenfor blodkarrene)
+
+hoste
+
+astma
+
+kortåndethed
+
+blødning i mave-tarm kanalen
+
+dyspepsi (fordøjelsesbesvær, oppustethed, halsbrand)
+
+syrereflukssygdom
+128
+
+Sjøgrens syndrom (inklusive tørre øjne og tør mund)
+
+kløe
+
+kløende udslæt
+
+blå mærker
+
+inflammation i huden (såsom eksem)
+
+fingernegle og tånegle knækker
+
+øget svedtendens
+
+hårtab
+
+nye udbrud eller forværring af psoriasis
+
+muskelspasmer
+
+blod i urinen
+
+problemer med nyrerne
+
+brystsmerter
+
+ødem (hævelse)
+
+feber
+
+nedsat antal blodplader med forøget risiko for blødning eller blå mærker
+
+nedsat helingsevne
+Ikke almindelig (kan påvirke op til 1 ud af 100 personer)
+
+opportunistiske infektioner (som inkluderer tuberkulose og andre infektioner, som forekommer, 
+når modstandskraften mod sygdom er nedsat)
+
+neurologiske infektioner (inklusive viral meningitis)
+
+øjeninfektioner
+
+bakterieinfektioner
+
+irritation og infektion i tyktarmen (diverticulitis)
+
+kræft
+
+kræft, der rammer lymfesystemet
+
+modermærkekræft
+
+sygdomme i immunsystemet som kan påvirke lungerne, huden og lymfeknuderne (viser sig 
+oftest som sarkoidose)
+
+vaskulitis (betændelse i blodkar)
+
+rysten
+
+neuropati (nervelidelse)
+
+slagtilfælde
+
+høretab, summen for ørerne
+
+fornemmelse af uregelmæssige hjerteslag såsom oversprungne slag
+
+hjerteproblemer, som kan forårsage kortåndethed og hævede ankler
+
+hjerteanfald
+
+sæklignende udposning på væggen af en større pulsåre, betændelse og blodprop i en blodåre, 
+tilstopning af et blodkar
+
+lungesygdom som forårsager kortåndethed (inklusive inflammation)
+
+blodprop i lungerne (lungeemboli)
+
+unormal ophobning af væske mellem lungehinderne (pleuraeffusion)
+
+inflammation i bugspytkirtlen, som kan give alvorlige smerter i maven og ryggen
+
+synkebesvær
+
+ødem i ansigtet (hævelse i ansigtet)
+
+inflammation i galdeblæren, galdesten
+
+fedtlever
+
+nattesved
+
+ar
+
+unormal muskelsvigt
+
+systemisk lupus erythematosus (indbefatter betændelse i huden, hjertet, lungerne, leddene og 
+andre organsystemer)
+
+søvnafbrydelser
+129
+
+impotens
+
+inflammationer
+Sjælden (kan forekomme hos op til 1 ud af 1.000 personer)
+
+leukæmi (kræft som påvirker blod og knoglemarv)
+
+alvorlig allergisk reaktion med chok
+
+dissemineret sklerose
+
+nerveforstyrrelser (såsom inflammation i synsnerven og Guillain-Barré syndrom, som kan 
+forårsage muskelsvaghed, unormal følesans, prikken i arme og overkrop)
+
+hjertestop
+
+lungefibrose (dannelse af arvæv i lungerne)
+
+perforering af tarmen (hul i tarmen)
+
+hepatitis
+
+genopblussen af hepatitis B
+
+autoimmun hepatitis (leverbetændelse forårsaget af kroppens eget immunsystem)
+
+inflammation i hudens blodkar (kutan vaskulitis)
+
+Stevens-Johnsons syndrom (tidlige symptomer inkluderer utilpashed, feber, hovedpine og 
+udslæt)
+
+ødem i ansigtet (hævelse i ansigtet) forbundet med allergiske reaktioner
+
+betændelseslignende hududslæt (erythema multiforme)
+
+lupus-lignende syndrom
+
+angioødem (lokal hævelse af huden)
+
+lichenoid hudreaktion (kløende rødligt-lilla hududslæt)
+Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data)
+
+hepatosplenisk T-celle-lymfom (en sjælden form for blodkræft, som ofte er dødelig)
+
+Merkelcelle karcinom (en type hudkræft)
+
+Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant 
+herpesvirus 8. Kaposis sarkom forekommer oftest som lilla læsioner på huden
+
+leversvigt
+
+forværring af en tilstand, som kaldes dermatomyositis (ses som hududslæt ledsaget af 
+muskelsvaghed)
+
+vægtforøgelse (for de fleste patienters vedkommende var vægtforøgelsen lille)
+Nogle bivirkninger, som er set med adalimumab har ikke symptomer og kan kun opdages ved 
+blodprøver. Disse inkluderer:
+Meget almindelig (kan påvirke flere end 1 ud af 10 personer)
+
+nedsat antal hvide blodlegemer
+
+nedsat antal røde blodlegemer
+
+forhøjede lipider i blodet
+
+forhøjede leverenzymer
+Almindelig (kan påvirke op til 1 ud af 10 personer)
+
+forhøjet antal hvide blodlegemer
+
+nedsat antal blodplader
+
+forhøjet urinsyre i blodet
+
+unormale blodmålinger af natrium
+
+lave blodmålinger af calcium
+
+lave blodmålinger af fosfat
+
+højt blodsukker
+
+høje blodmålinger af lactatdehydrogenase
+
+tilstedeværelse af autoantistoffer i blodet
+
+lavt kalium i blodet
+130
+Ikke almindelig (kan påvirke op til 1 ud af 100 personer)
+
+forhøjede bilirubinmålinger (leverblodtest)
+Sjælden (kan påvirke op til 1 ud af 1.000 personer)
+
+nedsat antal hvide blodlegemer, røde blodlegemer og blodplader
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store hukyndra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store hukyndra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke adalimumab efter den udløbsdato, der står på etiketten/æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
+Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys.
+Alternativ opbevaring:
+Hvis det er nødvendigt (f.eks. når du rejser), kan en enkelt Hukyndra fyldt injektionssprøjte opbevares 
+ved stuetemperatur (op til 25 °C) i en periode på højst 30 dage - vær sikker på at beskytte den mod 
+lys. Når injektionssprøjten er taget ud af køleskabet og har været opbevaret ved stuetemperatur, skal 
+injektionssprøjten bruges indenfor 30 dage eller kasseres, også selv om den lægges tilbage i 
+køleskab.
+Du skal registrere den dato, hvor injektionssprøjten først tages ud af køleskabet, og den dato efter 
+hvilken, den skal kasseres.
+Du må ikke anvende dette lægemiddel, hvis opløsningen er uklar eller indeholder flager eller partikler.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hukyndra indeholder
+Aktivt stof: adalimumab.
+Øvrige indholdsstoffer: natriumchlorid, saccharose, polysorbat 80, vand til injektionsvæsker, saltsyre 
+(til pH-justering), natriumhydroxid (til pH-justering).
+Udseende og pakningsstørrelser
+Hukyndra 40 mg injektionsvæske, opløsning i fyldt injektionssprøjte med automatisk 
+beskyttelseshætte leveres som en steril opløsning med 40 mg adalimumab i 0,4 ml injektionsvæske.
+Hukyndra fyldt injektionssprøjte er en glassprøjte indeholdende en opløsning af adalimumab.
+Hver pakke indeholder 1, 2 eller 6 fyldt(e) injektionssprøjte(r) pakket i en blisterpakning 
+med 1, 2 eller 6 alkoholserviet(ter).
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+131
+Hukyndra kan også leveres i en fyldt injektionssprøjte og/eller en fyldt pen.
+Indehaver af markedsføringstilladelsen
+STADA Arzneimittel AG
+Stadastrasse 2-18
+61118 Bad Vilbel
+Tyskland 
+Fremstiller
+Ivers-Lee CSM
+Marie-Curie-Str.8
+79539 Lörrach, 
+Tyskland
+Alvotech Hf
+Sæmundargata 15-19
+Reykjavik, Island
+STADA Arzneimittel AG
+Stadastrasse 2-18
+61118 Bad Vilbel
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+EG (Eurogenerics) NV
+Tél/Tel: +32 24797878
+Lietuva
+UAB „STADA Baltics“
+Tel: +370 52603926
+България
+STADA Bulgaria EOOD
+Teл.: +359 29624626
+Luxembourg/Luxemburg
+EG (Eurogenerics) NV
+Tél/Tel: +32 4797878
+Česká republika
+STADA PHARMA CZ s.r.o.
+Tel: +420 257888111
+Magyarország
+STADA Hungary Kft
+Tel.: +36 18009747
+Danmark
+STADA Nordic ApS
+Tlf: +45 44859999
+Malta
+Pharma.MT Ltd
+Tel: +356 21337008
+Deutschland
+STADAPHARM GmbH
+Tel: +49 61016030
+Nederland
+Centrafarm B.V.
+Tel.: +31 765081000
+Eesti
+UAB „STADA Baltics“
+Tel: +370 52603926
+Norge
+STADA Nordic ApS
+Tlf: +45 44859999
+Ελλάδα
+RAFARM A.E.B.E.
+Τηλ: +30 2106776550
+Österreich
+STADA Arzneimittel GmbH
+Tel: +43 136785850
+132
+España
+Laboratorio STADA, S.L.
+Tel: +34 934738889
+Polska
+STADA Poland Sp. z.o o.
+Tel: +48 227377920
+France
+EG LABO - Laboratoires EuroGenerics
+Tél: +33 146948686
+Portugal
+Stada, Lda.
+Tel: +351 211209870
+Hrvatska
+STADA d.o.o.
+Tel: +385 13764111
+România
+STADA M&amp;D SRL
+Tel: +40 213160640
+Ireland
+Clonmel Healthcare Ltd.
+Tel: +353 526177777
+Slovenija
+Stada d.o.o.
+Tel: +386 15896710
+Ísland
+STADA Arzneimittel AG
+Sími: +49 61016030
+Slovenská republika
+STADA PHARMA Slovakia, s.r.o.
+Tel: +421 252621933
+Italia
+EG SpA
+Tel: +39 028310371
+Suomi/Finland
+STADA Nordic ApS, Suomen sivuliike
+Puh/Tel: +358 207416888
+Κύπρος
+STADA Arzneimittel AG
+Τηλ: +30 2106664667
+Sverige
+STADA Nordic ApS
+Tel: +45 44859999
+Latvija
+UAB „STADA Baltics“
+Tel: +370 52603926
+United Kingdom (Northern Ireland)
+STADA Arzneimittel AG
+Tel: +49 61016030
+Denne indlægsseddel blev senest revideret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.
+Du kan også finde detaljerede oplysninger om dette lægemiddel, herunder en video om, hvordan du 
+skal bruge den fyldte injektionssprøjte, ved at scanne den QR-kode, der er angivet nedenfor eller på 
+den ydre karton, ved brug af en smartphone. Disse oplysninger er også tilgængelige via følgende URL: 
+hukyndrapatients.com
+QR-kode skal anføres
+133
+7. Brugsanvisning
+BRUGSANVISNING
+Hukyndra (adalimumab) fyldt injektionssprøjte
+40 mg/0,4 ml injektionsvæske, opløsning, til subkutan anvendelse
+Læs denne brugsanvisning grundigt, før du bruger Hukyndra fyldt injektionssprøjte til 
+engangsbrug
+Hukyndra fyldt injektionssprøjte 
+Vigtige oplysninger, som du skal vide, før du injicerer Hukyndra fyldt injektionssprøjte til 
+engangsbrug
+Vigtig information:
+•
+Kun til subkutan injektion 
+•
+Brug ikke sprøjten, og ring til din læge eller apotekspersonalet, hvis:
+•
+Væsken er uklar, misfarvet eller indeholder flager eller partikler
+•
+Udløbsdatoen er overskredet
+•
+Væsken har været frosset (selvom den er optøet) eller ligget i direkte sollys
+•
+Den fyldte injektionssprøjte har været tabt eller knust
+•
+Lad kanylehætten blive siddende på indtil lige inden injektion. Hukyndra skal opbevares 
+utilgængeligt for børn.
+•
+Se afsnit 5 i indlægssedlen for oplysninger om, hvordan Hukyndra fyldt injektionssprøjte til 
+engangsbrug opbevares.
+Før injektion:
+Din læge vil vise dig, hvordan du skal bruge Hukyndra fyldt injektionssprøjte til engangsbrug, før du 
+bruger den første gang.
+Nuværende brugere af adalimumab-sprøjte:
+Selv hvis du tidligere har brugt andre adalimumab-sprøjter på markedet, bedes du læse instruktionerne 
+fuldstændigt, så du forstår, hvordan du skal bruge denne anordning korrekt, før du forsøger at injicere.
+Spørgsmål om brug af Hukyndra fyldt injektionssprøjte?
+Tal med din læge, hvis du har spørgsmål.
+Forberedelse af injektion af Hukyndra fyldt injektionssprøjte
+TRIN 1: Tag sprøjten ud af køleskabet og opvarm den til 20 °C til 25 °C i 15-30 minutter
+1.1 Tag Hukyndra ud af køleskabet (se figur A).
+Stempel
+Fingergreb
+Kanylehætte
+134
+1.2 Lad Hukyndra stå ved 20 °C til 25 °C i 15 til 30 minutter inden injektion (se figur B).
+•
+Undlad at fjerne den grå kanylehætte, mens Hukyndra får lov at nå 20 °C til 25 °C
+•
+Opvarm ikke Hukyndra på nogen anden måde. Du må f.eks. ikke opvarme den i en 
+mikroovn eller i varmt vand
+•
+Brug ikke den fyldte injektionssprøjte, hvis væsken har været frossen, selv hvis den er 
+optøet.
+Figur A
+Figur B 
+TRIN 2: Kontrollér udløbsdato og flydende medicin 
+2.1 Kontrollér udløbsdatoen på etiketten på den fyldte injektionssprøjte (se figur C).
+•
+Brug ikke den fyldte injektionssprøjte, hvis udløbsdatoen (EXP) er passeret.
+2.2 Kontrollér den flydende medicin i sprøjten for at sikre, at det er klart og farveløst (Figur C).
+•
+Brug ikke sprøjten, og ring til din læge eller apoteket, hvis: væsken er uklar, misfarvet 
+eller indeholder flager eller partikler.
+Figur C 
+TRIN 3: Saml de forsyninger, du skal bruge og vask dine hænder
+3.1 Læg følgende ting på en ren, flad overflade (Se figur D):
+•
+1 fyldt injektionssprøjte til engangsbrug og alkoholserviet.
+•
+1 vatkugle eller gaze (medfølger ikke).
+•
+Punkturfast beholder til skarpe genstande (medfølger ikke). Se trin 9. 15-30
+MIN.
+EXP: MM/ÅÅÅÅ
+Kontrollér udløbsdato og 
+flydende medicin 
+135
+Figur D
+3.2 Vask og tør dine hænder (se Figur E).
+Figur E
+Injektion af Hukyndra fyldt injektionssprøjte
+TRIN 4: Vælg og rengør injektionssted
+4.1 Vælg et injektionssted (se figur F):
+•
+På forsiden af låret eller
+•
+Maveregionen - mindst 5 cm fra navlen.
+•
+Forskellig fra dit sidste injektionssted (mindst 3 cm fra dit sidste injektionssted).
+4.2 Tør injektionsstedet af med cirklende bevægelser med den medfølgende alkoholserviet (se 
+figur G).
+•
+Injicer ikke gennem tøjet.
+•
+Injicer ikke i et område, hvor huden er øm, forslået, rød, hård, arret, har mærker eller 
+områder med psoriasis 
+Figur F
+Alkoholserviet
+136
+Figur G
+TRIN 5: Fjern kanylehætten
+5.1 Hold den fyldte injektionssprøjte i en hånd (se figur H).
+5.2 Træk forsigtigt beskyttelseshætten lige af med den anden hånd (se figur H).
+•
+Kassér kanylehætten.
+•
+Sæt ikke hætten på igen.
+•
+Berør ikke kanylen med fingrene, og lad ikke kanylen røre nogen flade.
+•
+Hold den fyldte injektionssprøjte med kanylen pegende opad. Du vil muligvis se luft i den 
+fyldte injektionssprøjte. Pres langsomt stemplet ind for at presse luften ud af kanylen.
+•
+Du kan muligvis se en dråbe ved kanylespidsen. Det er normalt.
+Figur H
+TRIN 6: Tag fat i sprøjten og klem huden
+6.1 Hold den fyldte injektionssprøjte med den ene hånd mellem tommel- og pegefingrene, som du 
+holder en blyant (se figur I). Træk ikke stemplet tilbage på noget tidspunkt.
+6.2 Klem forsigtigt området med den rensede hud på injektionsstedet (mave eller lår) med den anden 
+hånd (se figur J). Hold huden fast.
+Figur I
+137
+Figur J
+TRIN 7: Injicér medicinen
+7.1 Før kanylen ind i den sammenklemte hud i en vinkel på ca. 45 grader med en hurtig, dartlignende 
+bevægelse (se figur K).
+•
+Slip huden, når kanylen er inde.
+7.2 Pres langsomt stemplet helt ned, indtil al væsken er injiceret, og den fyldte injektionssprøjte er tom 
+(se figur L).
+Figur K
+Figur L
+TRIN 8: Lad den fyldte injektionssprøjte trække kanylen ud af huden
+8.1 Løft langsomt fingeren fra stemplet. Stemplet vil bevæge sig op med fingeren og trække kanylen 
+tilbage fra stedet og ind i kanylebeskytteren (se figur M).
+Maven
+Låret
+Eller
+138
+•
+Kanylen vil ikke blive trukket tilbage medmindre al opløsningen er injiceret. Tal med din 
+læge, sygeplejerske eller apotekspersonalet, hvis du tror, at du ikke har fået fuld dosis
+•
+Det er normalt at se en kantkrumning rundt om stempelstangen, efter kanylen er trukket 
+tilbage.
+8.2 Anbring en vatkugle eller en gazeserviet på injektionsstedet, når injektionen er fuldført.
+•
+Gnid ikke på injektionsstedet.
+•
+Lidt blod på injektionsstedet er normalt.
+Figur M
+Bortskaffelse af Hukyndra fyldt injektionssprøjte 
+TRIN 9: Bortskaf den brugte sprøjte i en beholder til skarpe genstande
+9.1 Læg dine brugte kanyler, sprøjter og skarpe genstande i en beholder til skarpe genstande 
+umiddelbart efter brug (se figur N).
+•
+Du må ikke smide løse kanyler og sprøjter i husholdningsaffaldet.
+9.2 Beskyttelseshætten, alkoholservietten, vatkugle eller gazeserviet, blisterpakning og emballagen 
+kan smides ud med husholdningsaffald.
+Figur N
+Yderligere oplysninger om bortskaffelse
+139
+•
+Hvis du ikke har en beholder til skarpe genstande, kan du bruge en anden beholder, som er:
+•
+lavet af kraftig plast
+•
+kan lukkes med et tætsiddende, punkturbestandigt låg, uden at skarpe genstande kan 
+komme ud
+•
+opretstående og stabil under brug
+•
+lækageresistent
+•
+mærket korrekt for at advare om farligt affald i beholderen.
+Når din beholder til skarpe genstande er næsten fuld, skal du følge de lokale retningslinjer for den
+korrekte måde til bortskaffelse af beholderen.
+Bortskaf ikke din brugte beholder til skarpe genstande sammen med husholdningsaffaldet. Din 
+beholder til skarpe genstande må ikke genbruges.
+Hvis du har spørgsmål, bedes du kontakte din læge for at få hjælp.
+140
+Indlægsseddel: Information til patienten
+Hukyndra 40 mg injektionsvæske, opløsning i fyldt pen
+adalimumab
+Dette lægemiddel er underlagt supplerende overvågning. Dermed kan nye sikkerhedsoplysninger 
+hurtigt tilvejebringes. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i punkt 4, 
+hvordan du indberetter bivirkninger.
+Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+Din læge vil også udlevere et patientkort, der indeholder vigtige sikkerhedsinformationer, som du 
+skal være opmærksom på, før du begynder at tage Hukyndra og under din behandling med Hukyndra. 
+Opbevar patientkortet på dig under din behandling og i 4 måneder efter din sidste injektion med 
+Hukyndra.
+-
+-
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give den til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f2459f44725cc293d7b9c9def994f1ff
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hukyndra Package Leaflet for language en"
+Description: "ePI document Bundle for hukyndra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f2459f44725cc293d7b9c9def994f1ff"
+* entry[0].resource = composition-en-f2459f44725cc293d7b9c9def994f1ff
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf2459f44725cc293d7b9c9def994f1ff"
+* entry[=].resource = mpf2459f44725cc293d7b9c9def994f1ff
+                            
+                    
+Instance: bundlepackageleaflet-da-f2459f44725cc293d7b9c9def994f1ff
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hukyndra Package Leaflet for language da"
+Description: "ePI document Bundle for hukyndra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f2459f44725cc293d7b9c9def994f1ff"
+* entry[0].resource = composition-da-f2459f44725cc293d7b9c9def994f1ff
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf2459f44725cc293d7b9c9def994f1ff"
+* entry[=].resource = mpf2459f44725cc293d7b9c9def994f1ff
+                            
+                    
+
+
+
+Instance: mpf2459f44725cc293d7b9c9def994f1ff
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Hukyndra 40 mg solution for injection in pre-filled syringe"
-Description: "Hukyndra 40 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product hukyndra"
+Description: "hukyndra"
 Usage: #inline
 
  
@@ -868,7 +2219,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Hukyndra 40 mg solution for injection in pre-filled syringe"
+  * productName = "hukyndra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -895,29 +2246,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f2459f44725cc293d7b9c9def994f1ff
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for hukyndra Package Leaflet for language en"
-Description: "ePI document Bundle for hukyndra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f2459f44725cc293d7b9c9def994f1ffListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Hukyndra 40 mg solution for injection in pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "hukyndra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f2459f44725cc293d7b9c9def994f1ff"
-* entry[0].resource = composition-en-f2459f44725cc293d7b9c9def994f1ff
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe762d3028792592e438ebffdc92d12a3"
-* entry[=].resource = mpe762d3028792592e438ebffdc92d12a3
-                            
-                      
+* title = "List of all ePIs associated with hukyndra"
+
+* subject = Reference(mpe762d3028792592e438ebffdc92d12a3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#hukyndra "hukyndra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f2459f44725cc293d7b9c9def994f1ff) // hukyndra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f2459f44725cc293d7b9c9def994f1ff) // hukyndra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f2459f44725cc293d7b9c9def994f1ff
+InstanceOf: List
+
+* insert f2459f44725cc293d7b9c9def994f1ffListRuleset
+    

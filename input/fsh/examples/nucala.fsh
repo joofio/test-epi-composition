@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-701e93600aa20be1f78aef0a64b1f790
 InstanceOf: CompositionUvEpi
 Title: "Composition for nucala Package Leaflet"
@@ -389,12 +392,668 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 
 
 
+Instance: composition-da-701e93600aa20be1f78aef0a64b1f790
+InstanceOf: CompositionUvEpi
+Title: "Composition for nucala Package Leaflet"
+Description:  "Composition for nucala Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp95589c956ed058d66375403abfa09f4c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp95589c956ed058d66375403abfa09f4c
+* title = "TEST PURPOSES ONLY - nucala"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Trin-for-trin instruktioner i brug </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen<br />
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du får Nucala<br />
+3. Sådan bliver du behandlet med Nucala 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What nucala is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What nucala is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nucala indeholder det aktive stof mepolizumab, som er et monoklonalt antistof, en slags protein designet til 
+at genkende en bestemt substans i kroppen. Nucala anvendes til behandling af svær astma og EGPA<br />
+(eosinofil granulomatose med polyangiitis) hos voksne, unge og børn fra 6 år. Det anvendes også til 
+behandling af CRSwNP (kronisk rhinosinusitis med næsepolypper) og HES (hypereosinofilt syndrom) hos 
+voksne. </p>
+<p>Mepolizumab, det aktive stof i Nucala, blokerer et protein, der kaldes interleukin-5. Ved at blokere for 
+aktiviteten af dette protein begrænser Nucala dannelsen af eosinofile celler fra knoglemarven og nedsætter 
+antallet af eosinofile celler i blodbanen og lungerne. </p>
+<p>Svær eosinofil astma </p>
+<p>Nogle personer med svær astma har for mange eosinofile celler (en type hvide blodceller) i blodet og 
+lungerne. Denne tilstand kaldes eosinofil astma, og det er den type astma, som Nucala kan behandle. </p>
+<p>Nucala kan nedsætte antallet af dine astmaanfald, hvis du eller dit barn allerede bruger lægemidler mod 
+astma, for eksempel højdosis-inhalatorer, men hvor disse lægemidler ikke holder din astma under kontrol. 
+Hvis du tager lægemidler, der kaldes orale kortikosteroider, kan Nucala også hjælpe med at nedsætte den 
+daglige dosis, som du behøver for at holde din astma under kontrol. </p>
+<p>Kronisk rhinosinusitis med næsepolypper (CRSwNP) </p>
+<p>CRSwNP er en tilstand, hvor man har for mange eosinofile celler (en type hvide blodceller) i blodet og 
+vævet, der beklæder næsen og bihulerne. Dette kan forårsage symptomer, såsom tilstoppet næse eller tab af 
+lugtesansen, og at der dannes bløde geléagtige gevækster (kaldet næsepolypper) inde i næsen. </p>
+<p>Nucala nedsætter antallet af eosinofile celler i blodet og kan mindske størrelsen af dine polypper, lindre 
+tilstopningen af næsen og medvirke til, at du kan undgå operation for næsepolypper. 
+Nucala kan også medvirke til at nedsætte behovet for orale kortikosteroider for at kontrollere dine 
+symptomer. </p>
+<p>Eosinofil granulomatose med polyangiitis (EGPA) </p>
+<p>EGPA er en tilstand, hvor man har for mange eosinofile celler (en type hvide blodceller) i blodet og vævet, 
+og også har en form for vaskulitis. Det betyder, at der er en betændelsestilstand i blodårerne. Denne tilstand 
+påvirker i de fleste tilfælde lungerne og bihulerne, men det påvirker også ofte andre organer, såsom huden, 
+hjertet og nyrerne. </p>
+<p>Nucala kan kontrollere og forsinke en opblussen af disse EGPA-symptomer. Dette lægemiddel kan også 
+medvirke til at nedsætte den daglige dosis af orale kortikosteroider, som du har brug for til at kontrollere 
+dine symptomer. </p>
+<p>Hypereosinofilt syndrom (HES) </p>
+<p>Hypereosinofilt syndrom (HES) er en tilstand, hvor der er et stort antal eosinofile celler  (en type hvide 
+blodceller) i blodet. Disse celler kan beskadige organerne i kroppen, især hjertet, lungerne, nerverne og 
+huden. 
+Nucala medvirker til at mindske dine symptomer og forebygge opblussen af lidelsen. Hvis du tager 
+lægemidler, der ofte omtales som orale kortikosteroider, kan Nucala også medvirke til at nedsætte den 
+daglige dosis, som du behøver for at holde dine HES-symptomer og opblussen af lidelsen under kontrol. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take nucala"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take nucala"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Nucala<br />
+- hvis du er allergisk over for mepolizumab eller et af de øvrige indholdsstoffer i Nucala (angivet i 
+punkt 6). 
+ Fortæl det til lægen, hvis du mener, at dette gælder for dig. </p>
+<p>Advarsler og forsigtighedsregler<br />
+Tal med lægen, før du får Nucala. </p>
+<p>Forværring af astma 
+Nogle personer får astmarelaterede bivirkninger eller deres astma bliver værre under behandlingen med 
+Nucala. 
+ Fortæl lægen eller sygeplejersken, hvis din astma ikke kommer under kontrol, eller hvis den 
+bliver værre, efter at du er startet behandlingen med Nucala. </p>
+<p>Allergiske reaktioner og reaktioner på injektionsstedet 
+Lægemidler af denne type (monoklonale antistoffer) kan forårsage alvorlige allergiske reaktioner, når de 
+injiceres i kroppen (se punkt 4 'Bivirkninger').  </p>
+<p>Hvis du nogensinde har haft en lignende reaktion på en injektion eller et lægemiddel:<br />
+ Fortæl det til lægen, før du får Nucala. </p>
+<p>Parasitinfektioner 
+Nucala kan nedsætte din modstandskraft mod infektioner forårsaget af parasitter. Hvis du allerede har en 
+parasitinfektion, skal den behandles, før du starter behandling med Nucala. Hvis du bor i et område, hvor 
+disse infektioner er almindelige, eller hvis du skal rejse til et sådant område:<br />
+ Fortæl det til lægen, hvis du tror, at noget af ovenstående gælder for dig. </p>
+<p>Børn og unge </p>
+<p>Svær eosinofil astma </p>
+<p>Den fyldte pen er ikke beregnet til børn under 12 år til behandling af svær eosinofil astma. 
+For børn i alderen 6-11 år skal du kontakte din læge, der vil ordinere den anbefalede dosis Nucala, som skal 
+gives af en sygeplejerske eller læge. </p>
+<p>CRSwNP </p>
+<p>Dette lægemiddel er ikke beregnet til børn eller unge under 18 år til behandling af CRSwNP. </p>
+<p>EGPA </p>
+<p>Dette lægemiddel er ikke beregnet til børn under 6 år til behandling af EGPA. </p>
+<p>HES </p>
+<p>Dette lægemiddel er ikke beregnet til børn eller unge under 18 år til behandling af HES. </p>
+<p>Brug af anden medicin sammen med Nucala 
+Fortæl lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at tage anden 
+medicin. </p>
+<p>Andre lægemidler mod astma, CRSwNP, EGPA eller HES 
+ Stop ikke pludseligt med at tage dine nuværende lægemidler mod din astma, CRSwNP, EGPA 
+eller HES efter du er startet med Nucala. Disse lægemidler (især dem, der kaldes orale 
+kortikosteroider) skal nedtrappes gradvist under direkte overvågning af lægen og afhængigt af, 
+hvordan Nucala virker på dig. </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din 
+læge til råds, før du får dette lægemiddel.  </p>
+<p>Det vides ikke, om indholdsstofferne i Nucala går over i mælken hos mennesker. Hvis du ammer, må du 
+ikke få Nucala, medmindre du har aftalt det med lægen. </p>
+<p>Trafik- og arbejdssikkerhed<br />
+Det er ikke sandsynligt, at bivirkningerne ved Nucala vil påvirke din evne til at føre motorkøretøj og betjene 
+maskiner. </p>
+<p>Nucala indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nucala"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nucala"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nucala gives som en injektion lige under huden (subkutan injektion).   </p>
+<p>Din læge eller sygeplejerske vil afgøre, om du eller din plejeperson kan injicere Nucala. Hvis det er 
+hensigtsmæssigt, vil de give dig eller din plejeperson træning i den korrekte måde at bruge Nucala på. </p>
+<p>Nucala skal til børn i alderen 6 til 11 år gives af en læge, sygeplejerske eller trænet plejeperson. </p>
+<p>Svær eosinofil astma 
+Den anbefalede dosis til voksne og unge på 12 år og derover er 100 mg. Du vil få en indsprøjtning hver 4. uge. </p>
+<p>CRSwNP </p>
+<p>Den anbefalede dosis til voksne er 100 mg. Du vil få en indsprøjtning hver 4. uge. </p>
+<p>EGPA </p>
+<p>Den anbefalede dosis til voksne og unge over 12 år er 300 mg. Du vil få tre indsprøjtninger hver 4. uge. </p>
+<p>Børn fra 6 til 11 år </p>
+<p>Børn, der vejer 40 kg eller mere: 
+Den anbefalede dosis er 200 mg. Du vil få to indsprøjtninger hver 4. uge. </p>
+<p>Børn, der vejer mindre end 40 kg: 
+Den anbefalede dosis er 100 mg. Du vil få en indsprøjtning hver 4. uge. </p>
+<p>Der skal være en afstand mellem injektionsstederne på mindst 5 cm. </p>
+<p>HES </p>
+<p>Den anbefalede dosis til voksne er 300 mg. Du vil få tre indsprøjtninger hver 4. uge. </p>
+<p>Der skal være en afstand mellem injektionsstederne på mindst 5 cm. </p>
+<p>Instruktioner i brug af den fyldte pen findes på den anden side af denne indlægsseddel. </p>
+<p>Hvis du har brugt for meget Nucala 
+Hvis du tror, at du har injiceret for meget Nucala, skal du kontakte din læge. </p>
+<p>Hvis du har glemt at få en dosis Nucala<br />
+Du eller din plejeperson skal injicere den næste dosis Nucala, så snart du kommer i tanke om det. Hvis du 
+ikke bemærker, at du har glemt en dosis, inden det er tid til din næste dosis, skal du blot injicere den næste 
+dosis som planlagt. Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du er i tvivl om, hvad du skal 
+gøre. </p>
+<p>Hvis du holder op med at bruge Nucala<br />
+Stop ikke med at få injektioner med Nucala, medmindre lægen råder dig til det. Hvis behandlingen med 
+Nucala afbrydes midlertidigt eller stoppes helt, kan dine symptomer og anfald komme igen. </p>
+<p>Hvis dine symptomer forværres, mens du er i behandling med Nucala:<br />
+ Ring til lægen. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+bivirkninger, der forårsages af Nucala, er normalt lette til moderate, men kan i nogle tilfælde være alvorlige. </p>
+<p>Allergiske reaktioner 
+Nogle personer kan få allergiske eller allergilignende reaktioner. Disse reaktioner kan være almindelige (kan 
+forekomme hos op til 1 ud af 10 personer). De opstår normalt inden for minutter til timer efter injektionen, 
+men nogle gange kan symptomerne starte op til flere dage efter injektionen. </p>
+<p>Symptomerne kan omfatte: </p>
+<ul>
+<li>
+<p>trykken for brystet, hoste, vejrtrækningsbesvær  </p>
+</li>
+<li>
+<p>besvimelse, svimmelhed, omtågethed (på grund af fald i blodtrykket)  </p>
+</li>
+<li>
+<p>hævelse af øjenlåg, ansigt, læber, tunge eller mund  </p>
+</li>
+<li>
+<p>nældefeber </p>
+</li>
+<li>
+<p>udslæt. 
+ Søg straks lægehjælp, hvis du tror, at du (eller dit barn) har en allergisk reaktion. </p>
+</li>
+</ul>
+<p>Hvis du nogensinde har haft en lignende reaktion på en injektion eller et lægemiddel:<br />
+ Fortæl det til lægen, før du (eller dit barn) får Nucala. </p>
+<p>Andre bivirkninger omfatter: </p>
+<p>Meget almindelige: 
+kan forekomme hos flere end 1 ud af 10 personer  </p>
+<ul>
+<li>hovedpine. </li>
+</ul>
+<p>Almindelige: 
+kan forekomme hos op til 1 ud af 10 personer  </p>
+<ul>
+<li>
+<p>infektion i brystet med symptomer som hoste og feber </p>
+</li>
+<li>
+<p>urinvejsinfektion (blod i urinen, smertefuld og hyppig vandladning, feber, lændesmerter) </p>
+</li>
+<li>
+<p>smerter eller ubehag i den øvre del af maven </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>eksem (kløende røde pletter på huden) </p>
+</li>
+<li>
+<p>reaktioner på injektionsstedet (smerter, rødme, hævelse, kløe, brændende fornemmelse i huden i 
+området, hvor injektionen blev givet) </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>ondt i halsen (svælgkatar) </p>
+</li>
+<li>
+<p>tilstoppet næse. </p>
+</li>
+</ul>
+<p>Sjældne: 
+kan forekomme hos op til 1 ud af 1 000 personer: </p>
+<ul>
+<li>alvorlige allergiske reaktioner (anafylaksi). </li>
+</ul>
+<p> Fortæl det omgående til lægen eller en sygeplejerske, hvis du får nogen af disse symptomer. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store nucala"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nucala"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke Nucala efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. 
+Opbevares i køleskab (2 °C til 8 °C). 
+Må ikke nedfryses. 
+Opbevares i den originale karton for at beskytte mod lys. 
+Nucala fyldt pen kan tages ud af køleskabet og opbevares i den uåbnede karton i op til 7 dage ved 
+stuetemperatur (op til 30 °C), beskyttet mod lys. Kassér medicinen, hvis den har været uden for køleskabet i 
+mere end 7 dage. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nucala indeholder: 
+Aktivt stof: mepolizumab. 
+Hver 1 ml fyldt pen indeholder 100 mg mepolizumab. <br />
+Øvrige indholdsstoffer: saccharose, dinatriumphosphatheptahydrat, citronsyremonohydrat, polysorbat 80, 
+dinatriumedetat, vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Nucala fås som en 1 ml klar til opaliserende, farveløs til lysegul til lysebrun opløsning i en fyldt pen til 
+engangsbrug. </p>
+<p>Nucala fås i en pakning med 1 fyldt pen eller i en multipakning med 3 x 1 fyldt pen eller 9 x 1 fyldt pen. </p>
+<p>Indehaver af markedsføringstilladelsen 
+GlaxoSmithKline Trading Services Limited 
+12 Riverwalk 
+Citywest Business Campus 
+Dublin Irland </p>
+<p>Fremstiller 
+GlaxoSmithKline Manufacturing S.P.A 
+Strada Provinciale Asolana, No 43056 San Polo di Torrile, Parma 
+Italien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Lietuva 
+UAB “BERLIN-CHEMIE MENARINI BALTIC" 
+Tel: +370 52 691 lt@berlin-chemie.com </p>
+<p>България 
+“Берлин-Хеми/А. Менарини 
+България" EООД 
+Teл.: +359 2 454 0bcsofia@berlin-chemie.com </p>
+<p>Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Česká republika 
+GlaxoSmithKline, s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com 
+Magyarország 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: +36 23501bc-hu@berlin-chemie.com </p>
+<p>Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GlaxoSmithKline Trading Services Ltd. 
+Tel: +356 80065Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel.: + 49 (0)89 36044 8produkt.info@gsk.com </p>
+<p>Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081 
+Eesti 
+OÜ Berlin-Chemie Menarini Eesti<br />
+Tel: +372 667 5ee@berlin-chemie.com </p>
+<p>Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20  </p>
+<p>Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82  </p>
+<p>Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9France 
+Laboratoire GlaxoSmithKline 
+Tél: + 33 (0)1 39 17 84 diam@gsk.com </p>
+<p>Portugal 
+GlaxoSmithKline - Produtos Farmacêuticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com<br />
+Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: +385 1 4821 office-croatia@berlin-chemie.com </p>
+<p>România 
+GlaxoSmithKline Trading Services Ltd. 
+Tel: +40 800672Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 
+Slovenija 
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o. 
+Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika 
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. 
+Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
+<p>Italia 
+GlaxoSmithKline S.p.A. 
+Tel: + 39 (0)45 7741Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+GlaxoSmithKline Trading Services Ltd. 
+Τηλ: +357 80070 
+Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+SIA Berlin-Chemie/Menarini Baltic 
+Tel: +371 67103lv@berlin-chemie.com </p>
+<p>United Kingdom (Northern Ireland) 
+GlaxoSmithKline Trading Services Ltd. 
+Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>
+<ol>
+<li>Trin-for-trin instruktioner i brug af den fyldte pen </li>
+</ol>
+<p>Indgives én gang hver fjerde uge. </p>
+<p>Følg disse instruktioner i, hvordan du skal bruge den fyldte pen. Hvis disse instruktioner ikke følges, kan den 
+fyldte pens korrekte funktion påvirkes. Du vil også modtage træning i, hvordan du skal bruge den fyldte pen. 
+Nucala fyldt pen er kun til brug under huden (subkutant). </p>
+<p>Sådan opbevares Nucala  </p>
+<ul>
+<li>
+<p>Opbevares på køl før brug. </p>
+</li>
+<li>
+<p>Må ikke nedfryses. </p>
+</li>
+<li>
+<p>Opbevar den fyldte pen i kartonen for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Opbevares utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Den fyldte pen kan om nødvendigt opbevares i op til 7 dage ved stuetemperatur, op til 30 °C, når den 
+opbevares i den originale karton. Sikkerhed; kassér medicinen, hvis den har været uden for 
+køleskabet i mere end 7 dage. </p>
+</li>
+<li>
+<p>Må ikke opbevares ved temperaturer over 30 °C. 
+Før du bruger Nucala 
+Den fyldte pen må kun anvendes én gang og derefter kasseres. 
+• Du må ikke dele din Nucala fyldte pen med en anden person. 
+• Du må ikke ryste pennen. 
+• Du må ikke bruge pennen, hvis den er blevet tabt på en hård flade. 
+• Du må ikke bruge pennen, hvis den ser ud til at være beskadiget. 
+• Du må ikke fjerne kanylehætten før lige inden din injektion. </p>
+</li>
+</ul>
+<p>Kend din fyldte pen  </p>
+<p>Klar 
+kanylehætte 
+Før brug  </p>
+<p>Efter brug 
+Etiket 
+Prop 
+Inspektionsvindue 
+(medicin indeni) 
+Gul 
+kanylebeskyttelse 
+(nål indeni) 
+Gul indikator 
+(bliver synlig, når injektionen er 
+fuldført) </p>
+<p>Klargør 
+1. Klargør det, du skal bruge 
+Find en egnet, veloplyst og ren overflade. Sørg for at du har følgende inden for rækkevidde: 
+• Nucala fyldt pen 
+• Alkoholserviet (ikke inkluderet) 
+• Et stykke vat eller gaze (ikke inkluderet) </p>
+<ol>
+<li>Tag din fyldte pen ud </li>
+</ol>
+<p>• Tag kartonen ud af køleskabet. Kontrollér, at sikkerhedsforseglingen ikke er brudt. 
+• Fjern bakken fra kartonen. 
+• Fjern plastikovertrækket fra bakken. 
+• Hold på midten af pennen og tag den forsigtigt ud af bakken. 
+• Placér pennen på en ren, flad overflade, ved stuetemperatur, beskyttet mod direkte sollys og utilgængeligt 
+for børn. 
+Du må ikke bruge pennen, hvis sikkerhedsforseglingen på kartonen er brudt. 
+Du må ikke fjerne kanylehætten endnu. 
+Sikkerhedsforsegling 
+Kontrollér, at sikkerhedsforseglingen 
+ikke er brudt 
+Fjern plastik-
+overtrækket 
+Tag pennen ud af bakken 
+3. Inspicér og vent 30 minutter før brug </p>
+<p>• Kontrollér udløbsdatoen på pennens etiket. 
+• Kig i inspektionsvinduet for at kontrollere, at væsken er klar (fri for sløring eller partikler) og farveløs til 
+lysegul til lysebrun. 
+• Det er normalt at se en eller flere luftbobler. 
+• Vent 30 minutter (og ikke mere end 8 timer) inden brug. 
+Du må ikke bruge pennen, hvis udløbsdatoen er overskredet. 
+Du må ikke opvarme pennen i mikrobølgeovn, varmt vand eller direkte sollys. 
+Du må ikke injicere, hvis opløsningen ser uklar eller misfarvet ud, eller indeholder partikler. 
+Du må ikke bruge pennen, hvis den har været uden for kartonen i mere end 8 timer. 
+Du må ikke fjerne kanylehætten endnu. 
+4. Vælg dit injektionssted </p>
+<p>• Du kan injicere Nucala i dine lår eller maven. 
+• Hvis en anden giver dig injektionen, kan de også bruge din overarm. 
+• Hvis du skal have mere end én injektion for at få hele din dosis, så skal du sørge for, at der er mindst 5 cm 
+mellem hvert injektionssted. 
+Kontrollér 
+udløbsdatoen 
+Kontrollér medicinen 
+Vent 30 minutter<br />
+EXP: 
+Må
+d Å<br />
+Injicér dig selv i lår 
+eller maven 
+Alternativt kan en anden 
+person injicere dig i din 
+overarm 
+Du må ikke injicere, hvor din hud er skadet, øm, rød eller hård. 
+Du må ikke injicere inden for 5 cm af navlen.<br />
+5. Rengør dit injektionssted </p>
+<p>• Vask dine hænder med sæbe og vand. 
+• Rengør dit injektionssted ved at rense din hud med en alkoholserviet og lade huden lufttørre. 
+Du må ikke røre dit injektionssted igen, før du er færdig med din injektion. 
+Injicér 
+6. Fjern den klare kanylehætte </p>
+<p>• Fjern den klare kanylehætte fra pennen ved at trække den fast og lige af. 
+• Vær ikke bekymret, hvis du ser en dråbe væske ved kanylens spids. Dette er normalt. 
+• Injicér lige efter fjernelse af kanylehætten, og altid inden for 5 minutter. 
+Du må ikke røre den gule kanylebeskyttelse med dine fingre. Dette kan aktivere pennen for tidligt og kan 
+medføre kanyleskader. 
+Efter fjernelse må du ikke sætte kanylehætten tilbage på pennen, da det ved et uheld kan starte injektionen. 
+Træk den klare 
+kanylehætte af 
+7. Start din injektion </p>
+<p>• Hold pennen med inspektionsvinduet vendt mod dig, så du kan se det, og med den gule kanylebeskyttelse 
+vendt nedad. 
+• Placér pennen lige på dit injektionssted med den gule kanylebeskyttelse fladt mod hudens overflade, som 
+vist. 
+• For at starte din injektion skal du trykke pennen helt ned og holde den nede mod din hud. Den gule 
+kanylebeskyttelse vil glide op i pennen. 
+• Du bør høre det første "klik", som fortæller dig, at injektionen er startet. 
+• Den gule indikator vil bevæge sig ned gennem inspektionsvinduet, mens du får din dosis. 
+Du må ikke løfte pennen fra din hud på dette tidspunkt, da det kan medføre, at du ikke får din fulde dosis 
+medicin. Din injektion kan tage op til 15 sekunder at fuldføre. 
+Du må ikke bruge pennen, hvis den gule kanylebeskyttelse ikke glider op som beskrevet. Bortskaf den (se 
+Trin 9), og start igen med en ny pen. 
+8. Hold pennen på plads for at fuldføre injektionen </p>
+<p>• Fortsæt med at holde pennen nede, indtil du hører det andet "klik", og proppen og den gule indikator er 
+stoppet med at bevæge sig og fylder inspektionsvinduet. 
+Inspektions-
+vindue 
+Kanylebeskyttelse 
+Tryk ned 
+Første 
+“klik" 
+Andet 
+“klik" 
+Fortsæt med at holde 
+nede, mens du tæller til 
+5, og løft derefter op 
+• Fortsæt med at holde pennen på plads, mens du tæller til 5. Løft derefter pennen væk fra din hud. 
+• Hvis du ikke hører det andet "klik": </p>
+<ul>
+<li>
+<p>Kontrollér, at inspektionsvinduet er fyldt af den gule indikator. </p>
+</li>
+<li>
+<p>Hvis du ikke er sikker, skal du holde pennen nede i yderligere 15 sekunder for at sikre, at injektionen 
+er fuldført. 
+Du må ikke løfte pennen, før du er sikker på, at du har fuldført injektionen.<br />
+• Du vil muligvis bemærke en lille dråbe blod ved injektionsstedet. Dette er normalt. Tryk om nødvendigt et 
+stykke vat eller gaze på området i lidt tid. 
+Du må ikke gnide på dit injektionssted. 
+Bortskaf </p>
+</li>
+<li>Bortskaf den brugte pen<br />
+• Bortskaf den brugte pen og kanylehætte i henhold til lokale retningslinjer. Spørg lægen eller 
+apotekspersonalet, hvis nødvendigt. 
+• Opbevar dine brugte penne og kanylehætter utilgængeligt for børn. </li>
+</ul>
+<p>Indlægsseddel: Information til brugeren  </p>
+<p>Nucala 100 mg injektionsvæske, opløsning i fyldt sprøjte 
+mepolizumab </p>
+<p>Læs denne indlægsseddel grundigt, inden du får dette lægemiddel, da den indeholder vigtige 
+oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, 
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-701e93600aa20be1f78aef0a64b1f790
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nucala Package Leaflet for language en"
+Description: "ePI document Bundle for nucala Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-701e93600aa20be1f78aef0a64b1f790"
+* entry[0].resource = composition-en-701e93600aa20be1f78aef0a64b1f790
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp701e93600aa20be1f78aef0a64b1f790"
+* entry[=].resource = mp701e93600aa20be1f78aef0a64b1f790
+                            
+                    
+Instance: bundlepackageleaflet-da-701e93600aa20be1f78aef0a64b1f790
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nucala Package Leaflet for language da"
+Description: "ePI document Bundle for nucala Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-701e93600aa20be1f78aef0a64b1f790"
+* entry[0].resource = composition-da-701e93600aa20be1f78aef0a64b1f790
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp701e93600aa20be1f78aef0a64b1f790"
+* entry[=].resource = mp701e93600aa20be1f78aef0a64b1f790
+                            
+                    
+
+
+
+Instance: mp701e93600aa20be1f78aef0a64b1f790
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Nucala 100 mg solution for injection in pre-filled pen"
-Description: "Nucala 100 mg solution for injection in pre-filled pen"
+Title: "Medicinal Product nucala"
+Description: "nucala"
 Usage: #inline
 
  
@@ -414,7 +1073,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Nucala 100 mg solution for injection in pre-filled pen"
+  * productName = "nucala"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -441,29 +1100,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-701e93600aa20be1f78aef0a64b1f790
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for nucala Package Leaflet for language en"
-Description: "ePI document Bundle for nucala Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 701e93600aa20be1f78aef0a64b1f790ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Nucala 100 mg solution for injection in pre-filled pen"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "nucala"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-701e93600aa20be1f78aef0a64b1f790"
-* entry[0].resource = composition-en-701e93600aa20be1f78aef0a64b1f790
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp95589c956ed058d66375403abfa09f4c"
-* entry[=].resource = mp95589c956ed058d66375403abfa09f4c
-                            
-                      
+* title = "List of all ePIs associated with nucala"
+
+* subject = Reference(mp95589c956ed058d66375403abfa09f4c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#nucala "nucala"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-701e93600aa20be1f78aef0a64b1f790) // nucala en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-701e93600aa20be1f78aef0a64b1f790) // nucala da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-701e93600aa20be1f78aef0a64b1f790
+InstanceOf: List
+
+* insert 701e93600aa20be1f78aef0a64b1f790ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-4143a283449d30b8e5a863d688670e88
 InstanceOf: CompositionUvEpi
 Title: "Composition for tavlesse Package Leaflet"
@@ -318,12 +321,493 @@ Tel: +351 219 255 This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month Y
 
 
 
+Instance: composition-da-4143a283449d30b8e5a863d688670e88
+InstanceOf: CompositionUvEpi
+Title: "Composition for tavlesse Package Leaflet"
+Description:  "Composition for tavlesse Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpab94b7fc919f76dad43934f9b2b7edad)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpab94b7fc919f76dad43934f9b2b7edad
+* title = "TEST PURPOSES ONLY - tavlesse"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage TAVLESSE 
+3. Sådan skal du tage TAVLESSE 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tavlesse is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tavlesse is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+TAVLESSE indeholder det aktive stof fostamatinib. Det er specifikt målrettet mod et enzym, der 
+hedder milt-tyrosinkinase, som spiller en vigtig rolle i nedbrydningen af blodplader. TAVLESSE 
+hæmmer derved immunforsvarets nedbrydning af blodplader og øger antallet af blodplader i kroppen. 
+Dette medvirker til at reducere risikoen for svær blødning. </p>
+<p>Anvendelse 
+TAVLESSE anvendes til behandling af voksne med et lavt antal blodplader på grund af kronisk 
+immun trombocytopeni (ITP), når en tidligere behandling mod ITP ikke har virket tilstrækkeligt. 
+Kronisk immun trombocytopeni er en autoimmun sygdom, hvor kroppens eget immunsystem angriber 
+og ødelægger blodpladerne i blodet. Blodplader er nødvendige for at få blodet til at størkne, så 
+blødning kan standses. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tavlesse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tavlesse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke TAVLESSE </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for fostamatinib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du er gravid. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Før du tager TAVLESSE, skal du fortælle lægen eller apotekspersonalet om alle dine sygdomme, især 
+hvis du: </p>
+<ul>
+<li>
+<p>har forhøjet blodtryk </p>
+</li>
+<li>
+<p>har leverproblemer </p>
+</li>
+<li>
+<p>er gravid eller planlægger at blive gravid </p>
+</li>
+<li>
+<p>ammer eller planlægger at amme. </p>
+</li>
+</ul>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken med det samme, hvis du får et eller flere af 
+følgende symptomer, mens du tager dette lægemiddel: </p>
+<ul>
+<li>
+<p>hvis du har forhøjet blodtryk. Nye tilfælde af forhøjet blodtryk, eller forværringer af et 
+eksisterende forhøjet blodtryk, er almindelige hos patienter, der får TAVLESSE, og de kan være 
+alvorlige. Lægen vil tjekke dit blodtryk regelmæssigt under behandlingen med dette lægemiddel. 
+Om nødvendigt vil lægen iværksætte behandling med blodtryksmedicin eller ændre din nuværende 
+blodtryksmedicin. Fortæl det til lægen eller apotekspersonalet, hvis du oplever hovedpine, 
+forvirring, svimmelhed, brystsmerter eller åndenød. </p>
+</li>
+<li>
+<p>hvis din hud og dine øjne bliver gullige (gulsot), eller hvis du får mavesmerter og udspilet mave, 
+hævede ben og ankler, kløende hud, unormal mørkfarvning af urinen, bleg, blodig eller tjærefarvet 
+afføring, kronisk træthed, kvalme, opkastning og appetitløshed. Ændringer i 
+leverfunktionsværdierne er almindelige ved brug af dette lægemiddel. Det kan være symptomer på 
+leverproblemer. Leverproblemer kan forekomme og kan være af høj sværhedsgrad. Lægen vil 
+regelmæssigt få lavet blodprøveanalyser for at tjekke, hvor godt din lever fungerer under 
+behandlingen med dette lægemiddel. </p>
+</li>
+<li>
+<p>hvis du får diarré. Diarré er almindeligt hos patienter, der behandles med dette lægemiddel, og kan 
+være af høj sværhedsgrad. Fortæl det til lægen eller apotekspersonalet, hvis du får diarré under 
+behandlingen. Lægen kan anbefale, at du ændrer din kost eller drikker mere vand, eller han/hun 
+kan give dig et middel mod diarré for at reducere dine symptomer. </p>
+</li>
+<li>
+<p>hvis du får høj feber (tegn på alvorlig infektion), kulderystelser, kvalme eller generel følelse af 
+utilpashed. Lægen vil regelmæssigt tage blodprøver for at tjekke antallet af hvide blodlegemer i dit 
+blod, og du kan få at vide, at antallet er nedsat (neutropeni). Fald i antallet af hvide blodlegemer er 
+almindelige ved brug af dette lægemiddel og kan være af høj sværhedsgrad. Dette kan øge 
+risikoen for infektioner, herunder alvorlige infektioner. </p>
+</li>
+</ul>
+<p>Børn og unge 
+TAVLESSE bør ikke anvendes hos patienter under 18 år. TAVLESSE er ikke undersøgt hos denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med TAVLESSE 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Brug af TAVLESSE sammen med visse andre lægemidler kan påvirke de andre lægemidlers effekt, og 
+de andre lægemidler kan påvirke TAVLESSEs effekt. 
+Fortæl det navnlig til lægen, hvis du tager noget af følgende: </p>
+<ul>
+<li>
+<p>ketoconazol (anvendes typisk til behandling af svampeinfektioner) </p>
+</li>
+<li>
+<p>rifampicin (anvendes typisk til behandling af bakterieinfektioner) </p>
+</li>
+<li>
+<p>simvastatin og rosuvastatin (anvendes typisk til behandling af forhøjet kolesterol) </p>
+</li>
+<li>
+<p>digoxin (anvendes typisk til behandling af forskellige hjertesygdomme, f.eks. atrieflimren, 
+atrieflagren og hjertesvigt) </p>
+</li>
+<li>
+<p>midazolam (anvendes typisk som beroligende middel eller til behandling af angst) </p>
+</li>
+<li>
+<p>antikoagulantia (anvendes typisk til forebyggelse af blodpropper) </p>
+</li>
+<li>
+<p>nelfinavir (anvendes typisk til behandling af hiv-infektion) </p>
+</li>
+<li>
+<p>verapamil (anvendes typisk til behandling af forskellige hjertesygdomme, f.eks. forhøjet blodtryk) </p>
+</li>
+<li>
+<p>ranitidin (anvendes typisk til behandling af halsbrand) </p>
+</li>
+<li>
+<p>ethinylestradiol (anvendes typisk til prævention) </p>
+</li>
+<li>
+<p>pioglitazon (anvendes typisk til behandling af type 2-sukkersyge). </p>
+</li>
+</ul>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Graviditet 
+TAVLESSE bør ikke anvendes under graviditet. Det kan medføre skade eller fødselsdefekter på det 
+ufødte barn. </p>
+<p>Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+lægen eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Hvis du er en kvinde, der kan blive gravid, skal du anvende sikker prævention, mens du tager 
+TAVLESSE, og du skal fortsætte med at anvende sikker prævention i mindst 1 måned, efter du har 
+taget den sidste dosis. </p>
+<p>Du skal kontakte lægen med det samme, hvis du bliver gravid, mens du tager dette lægemiddel. </p>
+<p>Amning 
+TAVLESSE frarådes under amning. Du bør ikke amme under behandlingen med TAVLESSE og i 
+mindst én måned efter den sidste dosis. </p>
+<p>Hvis du ammer eller planlægger at amme, skal du spørge lægen eller apotekspersonalet til råds, før du 
+tager dette lægemiddel. </p>
+<p>Frugtbarhed 
+Fostamatinib kan påvirke en kvindes evne til at blive gravid og få et barn. Tal med din læge, hvis det 
+er et problem. Der er ingen indvirkning på mænd. </p>
+<p>TAVLESSE indeholder natrium </p>
+<p>TAVLESSE 100 mg filmovertrukne tabletter indeholder 23 mg natrium (hovedbestanddelen i køkken-
+/bordsalt) pr. tablet. Det svarer til 1,2 % af det anbefalede maksimale daglige indtag af natrium for en 
+voksen. </p>
+<p>TAVLESSE 150 mg filmovertrukne tabletter indeholder 34 mg natrium (hovedbestanddelen i køkken-
+/bordsalt) pr. tablet. Det svarer til 1,7% af det anbefalede maksimale daglige indtag af natrium for en 
+voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tavlesse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tavlesse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvor meget skal du tage? 
+Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Før du starter behandlingen, vil din læge måle dit blodpladetal. </p>
+<p>Den anbefalede dosis TAVLESSE er 100 mg to gange dagligt (én tablet a 100 mg). </p>
+<p>Din læge vil dog tjekke dit blodpladetal under behandlingen med TAVLESSE og kan ændre dosen, 
+hvis det bliver nødvendigt. </p>
+<p>Efter påbegyndelse af behandling med TAVLESSE kan dosen øges til 150 mg (én tablet a 150 mg) to 
+gange dagligt afhængigt af blodpladetallet og tolerabiliteten. En daglig dosis på 300 mg (to tabletter a 
+150 mg) må ikke overskrides. </p>
+<p>Hvis du ikke reagerer på behandlingen med fostamatinib, vil lægen stoppe behandlingen. </p>
+<p>Hvis du har leverproblemer eller forhøjet blodtryk, vil lægen muligvis give dig en lavere startdosis. 
+Hvis du får alvorlige bivirkninger (f.eks. forhøjet blodtryk, leverproblemer, diarré eller fald i antallet 
+af hvide blodlegemer), kan lægen reducere din dosis eller stoppe behandlingen midlertidigt eller 
+permanent. </p>
+<p>Sådan skal du tage TAVLESSE 
+Synk tabletterne hele med vand. </p>
+<p>TAVLESSE kan tages sammen med mad eller mellem måltider. </p>
+<p>Tag tabletterne sammen med mad, hvis du har maveproblemer. </p>
+<p>Hvis du kaster op 
+Hvis du på noget tidspunkt kaster op efter at have taget TAVLESSE, skal du ikke tage en ekstra tablet. 
+Tag den næste dosis på det sædvanlige, planlagte tidspunkt. </p>
+<p>Hvis du har taget for meget TAVLESSE 
+Hvis du har taget for meget TAVLESSE, skal du straks kontakte lægen eller apotekspersonalet eller 
+tage til den nærmeste skadestue. </p>
+<p>Hvis du har glemt at tage TAVLESSE 
+Du må ikke tage en dobbeltdosis som erstatning for en glemt tablet. Tag den næste dosis på det 
+sædvanlige, planlagte tidspunkt. </p>
+<p>Hvis du holder op med at tage TAVLESSE 
+Det er vigtigt at tage TAVLESSE i så lang tid, som din læge har ordineret. Du må ikke holde op med 
+at tage dette lægemiddel, medmindre lægen har bedt dig om det. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+TAVLESSE kan medføre alvorlige bivirkninger. Fortæl det øjeblikkeligt til lægen, hvis du oplever en 
+eller flere af følgende alvorlige bivirkninger, herunder forværring af eksisterende bivirkninger (se også 
+pkt. 2): </p>
+<ul>
+<li>
+<p>høj feber. Feber er blevet forbundet med lave niveauer af hvide blodlegemer (febril neutropeni) 
+eller infektion </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>lungebetændelse. Symptomerne omfatter åndenød, brystsmerter og dannelse af misfarvet slim </p>
+</li>
+<li>
+<p>gulsot, mavesmerter og udspilet mave, hævede ben og ankler, kløende hud, unormal mørkfarvning 
+af urinen, bleg, blodig eller tjærefarvet afføring, kronisk træthed, kvalme, opkastning og 
+appetitløshed. Det kan være symptomer på leverproblemer </p>
+</li>
+<li>
+<p>kraftig stigning i blodtrykket, der kan medføre slagtilfælde (hypertensiv krise). Symptomerne er 
+hovedpine, forvirring og svimmelhed. </p>
+</li>
+</ul>
+<p>Andre bivirkninger 
+Ud over de ovennævnte alvorlige bivirkninger kan du også få andre bivirkninger. </p>
+<p>Meget almindelige (forekommer hos mere end 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>forstyrrelser i mave-tarm-kanalen, f.eks. diarré, kvalme, opkastning og hyppig afføring </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+<li>
+<p>unormale blodprøveresultater for leverfunktionen </p>
+</li>
+<li>
+<p>svimmelhed. </p>
+</li>
+</ul>
+<p>Almindelige (forekommer hos op til 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>lavt antal hvide blodlegemer (neutropeni) </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>influenzalignende symptomer </p>
+</li>
+<li>
+<p>infektioner i næsen og halsen, f.eks. halsbrand og forkølelse </p>
+</li>
+<li>
+<p>infektion i luftrøret, f.eks. bronkitis </p>
+</li>
+<li>
+<p>smagsforstyrrelser </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>hovedpine. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis en bivirkning bliver værre, bør du tale med lægen eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tavlesse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tavlesse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i den 
+originale pakning for at beskytte mod fugt. Beholderen holdes tæt lukket. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderen efter EXP. Udløbsdatoen refererer 
+til den sidste dag i den pågældende måned. </p>
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg 
+apotekspersonalet, hvordan du skal bortskaffe medicinrester.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TAVLESSE indeholder:</p>
+<ul>
+<li>Aktivt stof: fostamatinibdinatriumhexahydrat. 
+TAVLESSE 100 mg filmovertrukne tabletter 
+TAVLESSE 150 mg filmovertrukne tabletter </li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+<li>
+<p>mannitol, natriumhydrogencarbonat, natriumstivelsesglycolat (type A), povidon (K30), 
+magnesiumstearat </p>
+</li>
+<li>
+<p>Filmovertræk: polyvinylalkohol, titaniumdioxid, macrogol 3350, talcum, gul jernoxid, 
+rød jernoxid </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>TAVLESSE 100 mg filmovertrukne tabletter 
+Tabletten er rund, udadbuet på begge sider og med et mørkeorange filmovertræk. Tabletterne er 
+præget med "R" på den ene side og "100" på den anden side. 
+Fås i beholdere med 30 eller 60 filmovertrukne tabletter. Hver beholder indeholder to beholdere med 
+tørremiddel. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>TAVLESSE 150 mg filmovertrukne tabletter 
+Tabletten er oval, udadbuet på begge sider og med et lyseorange filmovertræk. Tabletterne er præget 
+med "R" på den ene side og "150" på den anden side. 
+Fås i beholdere med 30 eller 60 filmovertrukne tabletter. Hver beholder indeholder to beholdere med 
+tørremiddel. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Instituto Grifols, S.A. 
+Can Guasc, 2 - Parets del Vallès 
+08150 Barcelona - Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>AT/BE/BG/CY/EE/EL/ES/HR/HU/IE/LV/ 
+LT/LU/MT/NL/RO/SI/SK/UK(NI) 
+Instituto Grifols, S.A. 
+Tel: +34 93 571 01<br />
+CZ 
+Grifols S.R.O. 
+Tel: +4202 2223 1 
+DE 
+Grifols Deutschland GmbH 
+Tel: +49 69 660 593<br />
+DK/FI/IS/NO/SE 
+Grifols Nordic AB 
+Tel: +46 8 441 89 FR 
+Grifols France 
+Tél: +33 (0)1 53 53 08<br />
+IT 
+Grifols Italia S.p.A. 
+Tel: +39 050 8755 PL 
+Grifols Polska Sp. z o. o. 
+Tel: +48 22 378 85<br />
+PT 
+Grifols Portugal, Lda. 
+Tel: +351 219 255 Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}.&gt; </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: 
+https://www.ema.europa.eu/en </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-4143a283449d30b8e5a863d688670e88
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tavlesse Package Leaflet for language en"
+Description: "ePI document Bundle for tavlesse Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4143a283449d30b8e5a863d688670e88"
+* entry[0].resource = composition-en-4143a283449d30b8e5a863d688670e88
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4143a283449d30b8e5a863d688670e88"
+* entry[=].resource = mp4143a283449d30b8e5a863d688670e88
+                            
+                    
+Instance: bundlepackageleaflet-da-4143a283449d30b8e5a863d688670e88
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tavlesse Package Leaflet for language da"
+Description: "ePI document Bundle for tavlesse Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-4143a283449d30b8e5a863d688670e88"
+* entry[0].resource = composition-da-4143a283449d30b8e5a863d688670e88
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4143a283449d30b8e5a863d688670e88"
+* entry[=].resource = mp4143a283449d30b8e5a863d688670e88
+                            
+                    
+
+
+
+Instance: mp4143a283449d30b8e5a863d688670e88
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product TAVLESSE 100 mg film-coated tablets"
-Description: "TAVLESSE 100 mg film-coated tablets"
+Title: "Medicinal Product tavlesse"
+Description: "tavlesse"
 Usage: #inline
 
  
@@ -343,7 +827,7 @@ Usage: #inline
 
 
 * name
-  * productName = "TAVLESSE 100 mg film-coated tablets"
+  * productName = "tavlesse"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -370,29 +854,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-4143a283449d30b8e5a863d688670e88
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tavlesse Package Leaflet for language en"
-Description: "ePI document Bundle for tavlesse Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 4143a283449d30b8e5a863d688670e88ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "TAVLESSE 100 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tavlesse"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-4143a283449d30b8e5a863d688670e88"
-* entry[0].resource = composition-en-4143a283449d30b8e5a863d688670e88
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpab94b7fc919f76dad43934f9b2b7edad"
-* entry[=].resource = mpab94b7fc919f76dad43934f9b2b7edad
-                            
-                      
+* title = "List of all ePIs associated with tavlesse"
+
+* subject = Reference(mpab94b7fc919f76dad43934f9b2b7edad)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tavlesse "tavlesse"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-4143a283449d30b8e5a863d688670e88) // tavlesse en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-4143a283449d30b8e5a863d688670e88) // tavlesse da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-4143a283449d30b8e5a863d688670e88
+InstanceOf: List
+
+* insert 4143a283449d30b8e5a863d688670e88ListRuleset
+    

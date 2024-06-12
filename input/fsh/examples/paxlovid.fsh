@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c01e0605e2e3c43213448cfeba0686aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for paxlovid Package Leaflet"
@@ -437,12 +440,629 @@ Tel: + 371 670 35 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-c01e0605e2e3c43213448cfeba0686aa
+InstanceOf: CompositionUvEpi
+Title: "Composition for paxlovid Package Leaflet"
+Description:  "Composition for paxlovid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpec4c74891c8ff6b7128317d4b2177a31)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpec4c74891c8ff6b7128317d4b2177a31
+* title = "TEST PURPOSES ONLY - paxlovid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Paxlovid
+3. Sådan skal du tage Paxlovid
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What paxlovid is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What paxlovid is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Paxlovid indeholder 2 aktive stoffer, nirmatrelvir og ritonavir, som er i 2 forskellige tabletter. Paxlovid
+er et antiviralt lægemiddel, som anvendes til behandling af voksne med COVID-19, som ikke har 
+behov for at få supplerende ilt, og som har øget risiko for at udvikle alvorlig sygdom.
+COVID-19 er forårsaget af en virus, der kaldes coronavirus. Paxlovid forhindrer virussen i at formere 
+sig i cellerne, og dette forhindrer virussen i at formere sig i kroppen. Dette kan hjælpe din krop med at 
+bekæmpe virusinfektionen og kan forhindre, at du bliver alvorligt syg. 
+Hvis dine symptomer bliver værre, eller du ikke får det bedre i løbet af 5 dage, skal du tale med din 
+læge.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take paxlovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take paxlovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Paxlovid</h2>
+<p>hvis du er allergisk over for nirmatrelvir, ritonavir eller et af de øvrige indholdsstoffer i 
+Paxlovid (angivet i afsnit 6). 
+-
+hvis du tager nogen af nedenstående lægemidler. Hvis du tager Paxlovid sammen med disse 
+lægemidler, kan du få alvorlige eller livstruende bivirkninger, eller de kan påvirke, hvordan 
+Paxlovid virker:
+-
+Alfuzosin (anvendes til at behandle symptomer på forstørret prostata) 
+-
+Ranolazin (anvendes til at behandle kroniske smerter i brystet [angina])
+-
+Dronedaron, propafenon, quinidin (anvendes til at behandle hjertelidelser og korrigere 
+uregelmæssig hjerterytme)
+-
+Rifampicin, rifapentin (anvendes til at behandle bakterieinfektioner)
+43
+-
+Apalutamid, neratinib, venetoclax (anvendes til at behandle kræft)
+-
+Carbamazepin, phenobarbital, phenytoin, primidon (anvendes til at forebygge og 
+kontrollere krampeanfald)
+-
+Colchicin (anvendes til at behandle urinsyregigt)
+-
+Terfenadin (anvendes til at behandle allergier)
+-
+Lurasidon (anvendes til at behandle skizofreni) 
+-
+Pimozid, quetiapin (anvendes til at behandle skizofreni, bipolær lidelse, svær depression 
+og unormale tanker eller følelser)
+-
+Silodosin (anvendes til at behandle forstørret prostata)
+-
+Eplerenon og ivabradin (anvendes til at behandle lidelser i hjertet og/eller blodkarrene
+-
+Dihydroergotamin og ergotamin (anvendes til at behandle migrænehovedpine) 
+-
+Ergonovin og methylergonovin (anvendes til at standse voldsom blødning, som kan 
+forekomme efter en fødsel eller abort)
+-
+Cisaprid (anvendes til at afhjælpe visse maveproblemer)
+-
+Prikbladet perikon (Hypericum perforatum) (et naturlægemiddel, der anvendes til at 
+behandle depression og angst)
+-
+Voclosporin (anvendes til at behandle immunsygdomme)
+-
+Lovastatin, simvastatin, lomitapid (anvendes til at sænke blodets kolesterolindhold)
+-
+Eletriptan (anvendes til at behandle migræne)
+-
+Lumacaftor/ivacaftor (anvendes ved cystisk fibrose)
+-
+Finerenon (anvendes til at behandle kronisk nyresygdom i forbindelse med type 2-
+diabetes)
+-
+Naloxegol (anvendes til at behandle opioid-forårsaget forstoppelse)
+-
+Avanafil, vardenafil (anvendes til at behandle rejsningsproblemer [også kaldet impotens])
+-
+Sildenafil, tadalafil (anvendes til at behandle rejsningsproblemer [også kaldet impotens] 
+eller for højt blodtryk i lungepulsåren [pulmonalarteriel hypertension])
+-
+Clorazepat, diazepam, estazolam, flurazepam, triazolam, midazolam taget gennem 
+munden (anvendes til at afhjælpe angst og/eller søvnproblemer)
+-
+Tolvaptan, der anvendes til at behandle unormalt lavt natriumindhold i blodet 
+(hyponatriæmi)
+Advarsler og forsigtighedsregler 
+Allergiske reaktioner
+Der kan opstå allergiske reaktioner, herunder alvorlige allergiske reaktioner (kendt som "anafylaksi")
+og alvorlige hudreaktioner (kendt som "toksisk epidermal nekrolyse" og "Stevens-Johnsons 
+syndrom"), hos personer, som tager Paxlovid, selv efter blot 1 dosis. Hold op med at tage Paxlovid, og 
+ring med det samme til din læge, hvis du får et eller flere af følgende symptomer på en allergisk 
+reaktion:
+-
+synkebesvær eller vejrtrækningsbesvær
+-
+hævelse af tungen, munden og ansigtet
+-
+fornemmelse af at struben snører sig sammen
+-
+hæshed
+-
+kløe
+-
+hududslæt
+-
+rød og smertefuld hud
+-
+blærer og afskalning af huden
+-
+blærer eller sår i munden eller på læberne
+Leversygdom
+Fortæl det til lægen, hvis du har eller har haft leversygdom. Der er forekommet unormale levertal, 
+leverbetændelse (hepatitis) og gulsot hos patienter, som fik ritonavir.
+Nyresygdom
+Fortæl det til lægen, hvis du har eller har haft nyresygdom. 
+Højt blodtryk
+44
+Fortæl det til lægen, hvis du har højt blodtryk. Lægen kan have behov for at kontrollere dit blodtryk, 
+før du tager Paxlovid, og mens du tager lægemidlet. Der har været rapporter om højt blodtryk hos 
+personer, som tog Paxlovid, især hos ældre personer.
+Risiko for udvikling af hiv-1-resistens
+Hvis du har en ubehandlet eller ukontrolleret hiv-infektion, og du tager Paxlovid, kan det føre til, at 
+nogle hiv-lægemidler ikke virker så godt i fremtiden. 
+Børn og unge
+Giv ikke Paxlovid til børn og unge under 18 år, da Paxlovid ikke er blevet undersøgt hos børn og 
+unge.
+Brug af andre lægemidler sammen med Paxlovid
+Der er andre lægemidler, som ikke må tages sammen med Paxlovid. Fortæl det altid til lægen/lægerne
+eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler:
+-
+lægemidler, som anvendes til at behandle kræft, f.eks. afatinib, abemaciclib, ceritinib, dasatinib, 
+encorafenib, fostamatinib, ibrutinib, ivosidenib, nilotinib, vinblastin og vincristin
+-
+lægemidler, som anvendes til at fortynde blodet (antikoagulantia), f.eks. warfarin, rivaroxaban,
+dabigatran og apixaban
+-
+lægemidler, som anvendes til at behandle krampeanfald, f.eks. divalproex, lamotrigin og 
+clonazepam
+-
+lægemidler, som anvendes til rygestop, f.eks. bupropion 
+-
+lægemidler, som anvendes til at behandle allergier, f.eks. fexofenadin og loratadin
+-
+lægemidler, som anvendes til at behandle svampeinfektioner (antimykotika), f.eks. itraconazol 
+og voriconazol 
+-
+lægemidler, som anvendes til at behandle Cushings syndrom (hvor kroppen producerer for 
+meget cortisol), f.eks. ketoconazol-tabletter
+-
+lægemidler, som anvendes til at behandle hiv-infektion, f.eks. efavirenz, maraviroc, raltegravir,
+zidovudin og bictegravir/emtricitabin/tenofovir
+-
+lægemidler, som anvendes til at behandle infektioner (f.eks. antibiotika og midler mod 
+mykobakterier), f.eks. atovaquon, clarithromycin, erythromycin, fusidinsyre (taget gennem 
+munden eller intravenøst), bedaquilin, rifabutin, delamanid og sulfamethoxazol/trimethoprim
+-
+lægemidler, som anvendes til at behandle skizofreni og unormale tanker eller følelser, f.eks. 
+clozapin
+-
+lægemidler, som anvendes til at behandle sinds- eller stemningsforstyrrelser, f.eks. haloperidol, 
+risperidon og thioridazin 
+-
+lægemidler, som anvendes til at behandle for højt blodtryk i de blodkar, der forsyner lungerne, 
+f.eks. bosentan og riociguat
+-
+lægemidler, som anvendes til at behandle for højt blodtryk (hypertension), f.eks. amlodipin, 
+diltiazem, felodipin, lercanidipin, nicardipin, nifedipin og verapamil
+-
+lægemidler, som anvendes til at behandle lidelser i hjertet og/eller blodkarrene, f.eks. aliskiren, 
+ticagrelor, cilostazol og clopidogrel
+-
+lægemidler, som anvendes til at behandle hjertelidelser og korrigere uregelmæssig hjerterytme, 
+f.eks. digoxin, amiodaron, flecainid og disopyramid
+-
+lægemidler, som anvendes til at behandle cystisk fibrose, f.eks. ivacaftor, 
+elexacaftor/tezacaftor/ivacaftor og tezacaftor/ivacaftor
+-
+lægemidler, som anvendes til at behandle diabetes, f.eks. saxagliptin
+-
+lægemidler, som anvendes til at behandle hepatitis C-virusinfektion, f.eks.
+glecaprevir/pibrentasvir og sofosbuvir/velpatasvir/voxilaprevir
+-
+lægemidler, som anvendes til at sænke blodets indhold af kolesterol, f.eks. atorvastatin, 
+fluvastatin, pravastatin og rosuvastatin
+-
+lægemidler, som anvendes til at behandle migræne, f.eks. rimegepant
+-
+lægemidler, som anvendes til at behandle urininkontinens, f.eks. darifenacin og solifenacin
+45
+-
+lægemidler, som anvendes til at behandle psykiske lidelser, f.eks. aripiprazol, brexpiprazol og 
+cariprazin
+-
+lægemidler, som anvendes til at dæmpe immunsystemet, f.eks. ciclosporin, everolimus, 
+sirolimus og tacrolimus
+-
+lægemidler, som anvendes til at behandle autoimmune lidelser, herunder leddegigt, psoriasisgigt
+eller blødende tyktarmsbetændelse, f.eks. tofacitinib og upadacitinib
+-
+lægemidler, som anvendes til at behandle kraftige smerter, f.eks. morfin, fentanyl, oxycodon, 
+methadon, buprenorphin, andre morfinlignende lægemidler, pethidin og piroxicam
+-
+lægemidler, som anvendes som beroligende lægemidler, indslumringsmidler samt sovemidler, 
+f.eks. alprazolam, buspiron og zolpidem
+-
+lægemidler, som anvendes til at behandle visse opmærksomhedsforstyrrelser eller en 
+søvnforstyrrelse, der kaldes narkolepsi, f.eks. amfetaminer
+-
+steroider, herunder kortikosteroider, som anvendes til at behandle betændelse, f.eks. budesonid, 
+dexamethason, fluticason, prednisolon og triamcinolon
+-
+lægemidler, som anvendes til at behandle astma og andre lungerelaterede problemer som f.eks.
+kronisk obstruktiv lungesygdom [KOL], f.eks. salmeterol og theophyllin
+-
+lægemidler, som anvendes til at behandle depression, f.eks. amitriptylin, fluoxetin, imipramin, 
+nortriptylin, paroxetin og sertralin
+-
+lægemidler, som anvendes som skjoldbruskkirtel-hormonerstatningsterapi, f.eks. levothyroxin
+-
+lægemidler, som anvendes til at behandle forstørret prostata, f.eks. tamsulosin
+-
+et hvilket som helst af disse andre specifikke lægemidler:
+-
+p-piller eller p-plastre, som indeholder ethinylestradiol, der anvendes som prævention
+-
+midazolam givet som en indsprøjtning (anvendt til sedering [en vågen men meget afslappet 
+tilstand, hvor man er rolig eller sløv, under en medicinsk test eller procedure] eller 
+bedøvelse)
+Mange lægemidler påvirker eller påvirkes af Paxlovid. Skriv alle dine lægemidler ned, så du har en 
+liste, som du kan vise til lægen/lægerne og apotekspersonalet. Begynd ikke at tage et nyt 
+lægemiddel uden at fortælle det til lægen/lægerne. Din læge/dine læger kan fortælle dig, om det er 
+sikkert at tage Paxlovid sammen med andre lægemidler.
+Graviditet og amning
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din 
+læge til råds, før du tager dette lægemiddel.
+Der er ikke tilstrækkelige oplysninger til at vide, om det er sikkert at bruge Paxlovid under graviditet. 
+Hvis du er gravid, frarådes du at tage Paxlovid, medmindre din kliniske tilstand kræver denne 
+behandling. Det anbefales, at du afholder dig fra at være seksuelt aktiv eller bruger prævention, mens 
+du tager Paxlovid, og for en sikkerheds skyld i 7 dage, efter du er stoppet med Paxlovid. Hvis du tager 
+hormonal prævention, anbefales det, at du anvender kondom eller en anden ikke-hormonel 
+præventionsform, da Paxlovid kan nedsætte virkningen af disse præparater. Din læge vil rådgive dig,
+om hvor længe det er nødvendigt at justere din prævention. 
+Der er ingen information om brug af Paxlovid hos ammende kvinder. Du må ikke amme dit barn, 
+mens du tager Paxlovid, og for en sikkerheds skyld i 7 dage efter du er stoppet med Paxlovid.<br />
+Trafik- og arbejdssikkerhed 
+Paxlovid forventes ikke at have nogen indflydelse på evnen til at køre bil eller motorcykel og betjene 
+maskiner.
+Paxlovid indeholder lactose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter.
+Paxlovid indeholder natrium
+Tabletterne med nirmatrelvir og ritonavir indeholder hver især mindre end 1 mmol (23 mg) natrium pr. 
+dosis, dvs. de er i det væsentlige natriumfri.
+46</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take paxlovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take paxlovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. 
+Paxlovid består af 2 lægemidler: nirmatrelvir og ritonavir. Den anbefalede dosis er 2 nirmatrelvir-
+tabletter (lyserøde tabletter) og 1 ritonavir-tablet (hvid tablet), som tages gennem munden 2 gange om 
+dagen (om morgenen og om aftenen).
+Et behandlingsforløb varer i 5 dage. Ved hver dosis skal du tage alle 3 tabletter på samme tid. 
+Hvis du lider af en nyresygdom, skal du tale med din læge om en passende dosis af Paxlovid.
+Tabletterne skal synkes hele. Du må ikke tygge, dele eller knuse tabletterne. Paxlovid kan tages med 
+eller uden et måltid. 
+Hvis du har taget for meget Paxlovid
+Hvis du har taget for meget Paxlovid, skal du omgående ringe til din læge eller tage til skadestuen på 
+det nærmeste hospital.
+Hvis du har glemt at tage Paxlovid
+Hvis du glemmer at tage en dosis Paxlovid, men kommer i tanke om det inden for 8 timer efter det 
+tidspunkt, hvor det normalt tages, skal du tage den, så snart du kommer i tanke om det. Hvis der er 
+gået mere end 8 timer, skal du ikke tage den glemte dosis, men i stedet tage den næste dosis på det 
+normale planlagte tidspunkt. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du holder op med at tage Paxlovid
+Selvom du får det bedre, må du ikke holde op med at tage Paxlovid uden at tale med lægen. 
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Almindelige: kan forekomme hos op til 1 ud af 10 personer
+-
+Diarré
+-
+Opkastning
+-
+Kvalme
+-
+Smagsforstyrrelser (f.eks. metallisk, bitter smag i munden)
+-
+Hovedpine
+Ikke almindelige: kan forekomme hos op til 1 ud af 100 personer
+-
+Allergiske reaktioner
+-
+Højt blodtryk
+-
+Mavesmerter
+-
+Muskelsmerter
+-
+Hududslæt (er også rapporteret som symptom på allergiske reaktioner)
+Sjældne: kan forekomme hos op til 1 ud af 1 000 personer
+47
+-
+Alvorlig allergisk reaktion kendt som "anafylaksi" (som f.eks. hævelse af tungen, munden og 
+ansigtet, synke- eller vejrtrækningsbesvær, fornemmelse af at struben snører sig sammen eller 
+hæshed)
+-
+Alvorlige hudreaktioner kendt som "toksisk epidermal nekrolyse" og "Stevens-Johnsons 
+syndrom" (som f.eks. rød og smertefuld hud, blærer og afskalning af huden, blærer eller sår i 
+munden eller på læberne)
+-
+Utilpashed
+-
+Kløe (er også rapporteret som symptom på allergiske reaktioner)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store paxlovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store paxlovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken eller blisteren efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Paxlovid indeholder:</h2>
+<h2>Aktive stoffer: nirmatrelvir og ritonavir.</h2>
+<h2>Hver lyserød, filmovertrukken nirmatrelvir-tablet indeholder 150 mg nirmatrelvir.</h2>
+<h2>Hver hvid, filmovertrukken ritonavir-tablet indeholder 100 mg ritonavir.</h2>
+<p>Øvrige indholdsstoffer i nirmatrelvir-tabletten: mikrokrystallinsk cellulose, lactosemonohydrat 
+(se afsnit 2, "Paxlovid indeholder lactose"), croscarmellosenatrium, kolloid silica og 
+natriumstearylfumarat (se afsnit 2, "Paxlovid indeholder natrium"). Filmovertrækket indeholder 
+hydroxypropylmethylcellulose, titandioxid, polyethylenglycol og rød jernoxid.
+-
+Øvrige indholdsstoffer i ritonavir-tabletten: copovidon, sorbitanlaurat, kolloid vandfri silica, 
+vandfrit calciumhydrogenphosphat, natriumstearylfumarat. Filmovertrækket indeholder 
+hypromellose, titandioxid, macrogol, hydroxypropylcellulose, talcum, kolloid vandfri silica og 
+polysorbat 80. Udseende og pakningsstørrelser
+Paxlovid filmovertrukne tabletter fås i 5 blisterkort med daglige doser med i alt 30 tabletter pakket i en 
+æske. 
+Hvert daglige blisterkort indeholder 4 nirmatrelvir-tabletter (150 mg hver) og 2 ritonavir-tabletter 
+(100 mg hver) med angivelse af, hvilke tabletter der skal tages morgen og aften (sol- og 
+månesymboler).
+Nirmatrelvir 150 mg filmovertrukne tabletter er lyserøde, ovale og præget med "PFE" på den ene side 
+og "3CL" på den anden side.
+48
+Ritonavir 100 mg filmovertrukne tabletter er hvide til råhvide, kapselformede og præget med "H" på 
+den ene side og "R9" på den anden side.
+Indehaver af markedsføringstilladelsen 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Pfizer Manufacturing Deutschland GmbH 
+Mooswaldallee 1
+79108 Freiburg Im Breisgau
+Tyskland
+Pfizer Italia S.r.L
+Localita Marino del Tronto
+63100 Ascoli, Piceno
+Italien
+Pfizer Ireland Pharmaceuticals 
+Little Connell 
+Newbridge
+Irland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: 
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон
+България
+Teл: +359 2 970 4333
+Magyarország
+Pfizer Kft
+Tel: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H
+Tel: +43 (0)1 521 15-0
+49
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ.: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel:+ 34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0)21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL,
+organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Tηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+Denne indlægsseddel blev senest ændret 
+Scan koden med en mobilenhed for at se indlægssedlen på forskellige sprog. 
+URL: https://pfi.sr/c19oralrx
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c01e0605e2e3c43213448cfeba0686aa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for paxlovid Package Leaflet for language en"
+Description: "ePI document Bundle for paxlovid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c01e0605e2e3c43213448cfeba0686aa"
+* entry[0].resource = composition-en-c01e0605e2e3c43213448cfeba0686aa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc01e0605e2e3c43213448cfeba0686aa"
+* entry[=].resource = mpc01e0605e2e3c43213448cfeba0686aa
+                            
+                    
+Instance: bundlepackageleaflet-da-c01e0605e2e3c43213448cfeba0686aa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for paxlovid Package Leaflet for language da"
+Description: "ePI document Bundle for paxlovid Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c01e0605e2e3c43213448cfeba0686aa"
+* entry[0].resource = composition-da-c01e0605e2e3c43213448cfeba0686aa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc01e0605e2e3c43213448cfeba0686aa"
+* entry[=].resource = mpc01e0605e2e3c43213448cfeba0686aa
+                            
+                    
+
+
+
+Instance: mpc01e0605e2e3c43213448cfeba0686aa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Paxlovid 150 mg + 100 mg film-coated tablets"
-Description: "Paxlovid 150 mg + 100 mg film-coated tablets"
+Title: "Medicinal Product paxlovid"
+Description: "paxlovid"
 Usage: #inline
 
  
@@ -462,7 +1082,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Paxlovid 150 mg + 100 mg film-coated tablets"
+  * productName = "paxlovid"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -489,29 +1109,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c01e0605e2e3c43213448cfeba0686aa
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for paxlovid Package Leaflet for language en"
-Description: "ePI document Bundle for paxlovid Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c01e0605e2e3c43213448cfeba0686aaListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1625/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "paxlovid"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c01e0605e2e3c43213448cfeba0686aa"
-* entry[0].resource = composition-en-c01e0605e2e3c43213448cfeba0686aa
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpec4c74891c8ff6b7128317d4b2177a31"
-* entry[=].resource = mpec4c74891c8ff6b7128317d4b2177a31
-                            
-                      
+* title = "List of all ePIs associated with paxlovid"
+
+* subject = Reference(mpec4c74891c8ff6b7128317d4b2177a31)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#paxlovid "paxlovid"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c01e0605e2e3c43213448cfeba0686aa) // paxlovid en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c01e0605e2e3c43213448cfeba0686aa) // paxlovid da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c01e0605e2e3c43213448cfeba0686aa
+InstanceOf: List
+
+* insert c01e0605e2e3c43213448cfeba0686aaListRuleset
+    

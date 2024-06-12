@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8e61b46541cd782d75f47b06ddfea02f
 InstanceOf: CompositionUvEpi
 Title: "Composition for grastofil Package Leaflet"
@@ -430,12 +433,618 @@ Rafarm AEBE
 
 
 
+Instance: composition-da-8e61b46541cd782d75f47b06ddfea02f
+InstanceOf: CompositionUvEpi
+Title: "Composition for grastofil Package Leaflet"
+Description:  "Composition for grastofil Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe2f566e1879c46ed14b11c602b4b0c4e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe2f566e1879c46ed14b11c602b4b0c4e
+* title = "TEST PURPOSES ONLY - grastofil"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Grastofil </li>
+<li>Sådan skal du bruge Grastofil </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What grastofil is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What grastofil is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Grastofil indeholder det aktive stof filgrastim. Grastofil er en vækstfaktor for hvide blodlegemer 
+(granylocytkoloni-stimulerende faktor) og tilhører en gruppe lægemidler betegnet cytokiner. 
+Vækstfaktorer er proteiner, der produceres naturligt i kroppen, men de kan også fremstilles ved hjælp 
+af bioteknologi til brug som lægemiddel. Grastofil virker ved at påvirke knoglemarven til at producere 
+flere hvide blodlegemer. Et nedsat antal af hvide blodlegemer (neutropeni) kan forekomme af flere 
+grunde og svækker kroppens evne til at bekæmpe infektion. Filgrastim stimulerer knoglemarven til 
+hurtigt at producere nye hvide blodlegemer. </p>
+<p>Grastofil kan anvendes: 
+ 
+til at øge antallet af hvide blodlegemer efter behandling med kemoterapi for at hjælpe med at 
+forebygge infektioner 
+ 
+til at øge antallet af hvide blodlegemer efter en knoglemarvstransplantation for at hjælpe med at 
+forebygge infektioner 
+ 
+til at øge antallet af hvide blodlegemer, hvis du lider af svær kronisk neutropeni til at hjælpe 
+med at forebygge infektioner 
+ 
+til patienter med fremskreden HIV-infektion, hvilket hjælper med at nedsætte risikoen for 
+infektioner. 
+ 
+inden højdosis kemoterapi for at få knoglemarven til at producere flere stamceller, som kan 
+høstes og gives tilbage til dig efter behandlingen. Disse kan tages fra dig eller fra en donor. 
+Stamcellerne vil så nå tilbage i knoglemarven og producere blodlegemer. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take grastofil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take grastofil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Grastofil 
+ 
+hvis du er allergisk over for filgrastim eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(anført i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du bruger Grastofil. </p>
+<p>Inden behandling påbegyndes, skal du fortælle det til lægen, hvis du har: </p>
+<p> 
+osteoporose (knoglesygdom) 
+ 
+seglcelleanæmi, da filgrastim kan fremkalde seglcellekrise. </p>
+<p>Fortæl det straks til din læge i løbet af behandlingen med Grastofil, hvis du: </p>
+<p> 
+har pludselige tegn på allergi, såsom udslæt, kløe eller nældefeber på huden, hævelse i ansigt, på 
+læberne, tungen eller i andre dele af kroppen, åndenød, hvæsende eller besværet vejrtrækning, 
+da disse kan være tegn på en alvorlig allergisk reaktion (overfølsomhed). 
+ 
+får oppustet ansigt eller hævede ankler, blod i urinen eller brunfarvet urin, eller du lader vandet 
+mindre end normalt (glomerulonefritis). 
+ 
+får smerter i øvre venstre side af maven, smerter under ribbenene i den venstre side eller 
+smerter i din venstre skulder (dette kan være symptomer på en forstørret milt (splenomegali) 
+eller muligvis sprængt milt (miltruptur)).<br />
+ 
+bemærker usædvanlige blødninger eller blå mærker (dette kan være symptomer på et nedsat 
+antal blodplader (trombocytopeni), hvor blodets størkningsevne er nedsat). 
+ 
+har symptomer på betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i 
+kroppen). Der er sjældne indberetninger om dette hos kræftpatienter og raske donorer. 
+Symptomerne kan omfatte feber, mavesmerter, utilpashed, rygsmerter og øgede 
+betændelsesmarkører. Fortæl det til lægen, hvis du oplever disse symptomer. </p>
+<p>Manglende respons på filgrastim 
+Hvis du oplever et manglende respons på eller ikke kan opretholde et respons på behandlingen med 
+filgrastim, vil lægen undersøge årsagen hertil, herunder om du har udviklet antistoffer, som 
+neutraliserer filgrastims aktivitet. </p>
+<p>Din læge kan ønske at overvåge dig nøje, se punkt 4 i indlægssedlen. </p>
+<p>Hvis du har svær, kronisk neutropeni, kan du have en risiko for at udvikle blodkræft (leukæmi, 
+myelodysplastisk syndrom (MDS)). Du kan kontakte lægen vedrørende din risiko for at udvikle 
+blodkræft, og hvilke undersøgelser der bør udføres. Hvis du udvikler, eller det er sandsynligt, at du 
+kan udvikle blodkræft, bør du ikke bruge Grastofil, medmindre det er efter lægens anvisning. </p>
+<p>Hvis du er stamcelledonor, skal du være mellem 16 og 60 år. </p>
+<p>Vær ekstra forsigtig med andre lægemidler, der stimulerer hvide blodlegemer 
+Grastofil tilhører en gruppe lægemidler, der stimulerer produktionen af hvide blodlegemer. Dit 
+sundhedspersonale bør altid registrere det nøjagtige lægemiddel, du anvender.  </p>
+<p>Brug af anden medicin sammen med Grastofil 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
+nylig. </p>
+<p>Graviditet, amning og fertilitet 
+Grastofil er ikke blevet undersøgt hos gravide eller ammende kvinder. </p>
+<p>Grastofil frarådes under graviditet.  </p>
+<p>Det er vigtigt at fortælle lægen, hvis du: 
+ 
+er gravid eller ammer, 
+ 
+har mistanke om, at du er gravid, eller<br />
+ 
+planlægger at blive gravid. </p>
+<p>Hvis du bliver gravid i løbet af behandlingen med Grastofil, skal du fortælle det til lægen. </p>
+<p>Medmindre lægen fortæller dig andet, skal du holde op med at amme, hvis du bruger Grastofil. </p>
+<p>Trafik-og arbejdssikkerhed 
+Grastofil kan påvirke din evne til at føre motorkøretøj og betjene maskiner i mindre grad. Dette 
+lægemiddel kan forårsage svimmelhed. De tilrådes at vente og se, hvordan du har det, efter at have 
+taget Grastofil og inden du fører motorkøretøj eller betjener maskiner. </p>
+<p>Grastofil indeholder sorbitol 
+Grastofil indeholder 50 mg sorbitol i hver ml. 
+Sorbitol er en kilde til fructose. Hvis du (eller dit barn) har arvelig fructoseintolerans (HFI), en sjælden 
+genetisk lidelse, må du (eller dit barn) ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde 
+fructose, hvilket kan medføre alvorlige bivirkninger. </p>
+<p>Inden du får dette lægemiddel, skal du fortælle din læge, hvis du (eller dit barn) har HFI, eller hvis dit 
+barn ikke længere må få sød mad eller drikke, fordi de føler sig syge, kaster op eller får ubehagelige 
+bivirkninger som oppustethed, mavekramper eller diarré. </p>
+<p>Grastofil indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natrium-frit. </p>
+<p>Grastofil fyldt injektionssprøjte indeholder tør naturgummi 
+Kanylehætten på den fyldte injektionssprøjte indeholder tør naturgummi (et latexderivat), som kan 
+forårsage allergiske reaktioner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take grastofil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take grastofil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet 
+eller sundhedspersonalet. </p>
+<p>Hvordan gives Grastofil, og hvor meget skal jeg bruge?  </p>
+<p>Grastofil gives normalt som en daglig indsprøjtning i vævet lige under huden (det kaldes en subkutan 
+indsprøjtning). Det kan også gives som en daglig langsom indsprøjtning i venen (som kaldes en 
+intravenøs infusion). Den normale dosis varierer afhængigt af din sygdom og din vægt. Din læge vil 
+fortælle dig, hvor meget Grastofil du skal tage.  </p>
+<p>Patienter, som får en knoglemarvstransplantation efter kemoterapi: Du vil normalt få din første dosis 
+Grastofil mindst 24 timer efter kemoterapi og mindst 24 timer efter, du har gennemgået din 
+knoglemarvstransplantation.  </p>
+<p>Du eller dine omsorgspersoner kan få instruktion i, hvordan man giver en subkutan indsprøjtning, så 
+du kan fortsætte behandlingen hjemme. Men du må ikke prøve at gøre dette, medmindre du først har 
+fået grundig instruktion af lægen eller sundhedspersonalet. 
+Så længe skal du tage Grastofil </p>
+<p>Du skal tage Grastofil, indtil antallet af hvide blodlegemer er normalt. Der vil blive taget regelmæssige 
+blodprøver for at overvåge antallet af hvide blodlegemer i kroppen. Din læge vil fortælle dig, hvor 
+længe du skal tage Grastofil. </p>
+<p>Brug til børn  </p>
+<p>Grastofil anvendes til at behandle børn, der får kemoterapi og lider af et svært nedsat antal hvide 
+blodlegemer (neutropeni). Doseringen for børn, der får kemoterapi, er den samme som for voksne. </p>
+<p>Vejledning til injektion af Grastofil </p>
+<p>Dette punkt indeholder oplysninger om, hvordan du giver dig selv en injektion med Grastofil. </p>
+<p>Vigtigt: Forsøg ikke at give dig selv en injektion, medmindre du har modtaget undervisning fra din 
+læge eller sygeplejerske. 
+Grastofil injiceres i vævet lige under huden. Dette kaldes en subkutan injektion. </p>
+<p>Udstyr, du har brug for </p>
+<p>For at give dig selv en subkutan injektion skal du bruge: 
+ 
+en ny fyldt injektionssprøjte med Grastofil og 
+ 
+afspritningsservietter eller lignende </p>
+<p>Hvad skal jeg gøre, før jeg giver mig selv en subkutan injektion med Grastofil? </p>
+<ol>
+<li>Tag injektionssprøjten ud af køleskabet. Lad injektionssprøjten ligge ved stuetemperatur (15 ºC 
+til 25 ºC) i cirka 30 minutter eller hold den fyldte injektionssprøjte forsigtigt i hånden et par 
+minutter. Dette vil gøre injektionen mere behagelig. Varm ikke Grastofil på nogen anden måde 
+(opvarm for eksempel ikke injektionssprøjten i mikrobølgeovn eller i varmt vand) </li>
+<li>Ryst ikke den fyldte injektionssprøjte </li>
+<li>Fjern ikke hætten på kanylen, før du er klar til at injicere </li>
+<li>Vask dine hænder grundigt </li>
+<li>Find en behagelig, godt oplyst, ren overflade og læg alt det udstyr, du har brug for inden for 
+rækkevidde </li>
+</ol>
+<p>Hvordan forbereder jeg min Grastofil indsprøjtning? </p>
+<p>Før du injicerer Grastofil skal du gøre følgende: 
+1. For at undgå at bøje kanylen, træk forsigtigt hætten af kanylen uden at vride. 
+2. Rør ikke ved kanylen eller skub ikke til stemplet. 
+3. Du kan se en lille luftboble i den fyldte injektionssprøjte. Du behøver ikke at fjerne luftboblen 
+inden injektionen. Injektion af opløsningen med luftboblen er uskadelig. 
+4. Sprøjtecylinderen med Grastofil er forsynet med en skala. Hold sprøjten med kanylen pegende 
+opad. Tryk stemplet langsomt op til det tal (antal ml) på skalaen, der svarer til den dosis 
+Grastofil, som din læge har ordineret. 
+5. Du kan nu bruge den fyldte injektionssprøjte. </p>
+<p>Hvor skal jeg foretage indsprøjtningen? </p>
+<p>De bedste steder at injicere er de øverste steder på forsiden af lårene og maven. Hvis en anden person 
+foretager injektionen, kan vedkommende injicere på bagsiden af dine arme. </p>
+<p>Du kan ændre injektionsstedet, hvis du bemærker at området er rødt eller ømt. </p>
+<p>Hvordan kan jeg foretage injektionen? </p>
+<ol>
+<li>Desinficer huden med en spritserviet, og tag fat (uden at klemme) i huden mellem tommel- og 
+pegefinger. </li>
+<li>Stik kanylen helt ind i huden, som vist af lægen eller sygeplejersken. </li>
+<li>Træk stemplet en anelse tilbage for at kontrollere, at et blodkar ikke er punkteret. Hvis du ser 
+blod i sprøjten, træk nålen ud og stik den ind et andet sted. </li>
+<li>Tryk på stemplet med et langsomt, konstant tryk, mens du hele tiden holder din hud klemt 
+sammen, indtil injektionssprøjten er tom. </li>
+<li>Fjern kanylen og slip huden. Sæt ikke beskyttelseshætten tilbage på brugte kanyler, da du ved et 
+uheld kan komme til at stikke dig selv. </li>
+<li>Hvis du bemærker en plet blod, kan du forsigtigt duppe den væk med en tot vat eller serviet. 
+Gnid ikke på injektionsstedet. Hvis det er nødvendigt, kan du dække injektionsstedet med et 
+plaster. </li>
+<li>Brug kun en injektionssprøjte til en indsprøjtning. Brug ikke det Grastofil der eventuelt måtte 
+være tilbage i sprøjten. </li>
+</ol>
+<p>Husk: hvis du har nogen problemer, skal du spørge din læge eller sygeplejerske om hjælp og råd. </p>
+<p>Hvis du har brugt for megetGrastofil </p>
+<p>Tag ikke en højere dosis, end lægen har ordineret. Hvis du tror, du har indsprøjtet mere end du bør, 
+skal du kontakte din læge så hurtigt som muligt. </p>
+<p>Hvis du har glemt at bruge Grastofil </p>
+<p>Hvis du har sprunget en injektion over eller har indsprøjtet for lidt, skal du kontakte lægen hurtigst </p>
+<p>muligt. </p>
+<p>Du må ikke tage en dobbelt dosis som erstatning for en glemt dosis. </p>
+<p>Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl straks din læge under behandlingen, hvis: </p>
+<p> 
+du får en allergisk reaktion, herunder føler dig svækket, blodtryksfald, vejrtrækningsbesvær, 
+hævelse af ansigt (anafylaksi), hududslæt, kløende udslæt (urticaria), hævelse i ansigt, læber, 
+mund, tunge eller hals (angioødem) og stakåndethed (dyspnø).<br />
+ 
+du får hoste, feber og stakåndethed (dyspnø), da dette kan være tegn på lungesvigt (Acute 
+Respiratory Distress Syndrome ARDS).<br />
+ 
+du får nyreskade (glomerulonefritis). Der er blevet observeret nyreskader hos patienter, som fik 
+filgrastim. Ring straks til lægen, hvis dit ansigt bliver oppustet eller dine ankler hæver, du får 
+blod i urinen eller din urin bliver brunfarvet og du lægger mærke til, at du ikke lader vandet så 
+tit. 
+ 
+du har en eller flere af følgende bivirkninger: Hævelse eller oppustethed, som kan være 
+forbundet med mindre hyppig vandladning, åndedrætsbesvær, oppustet mave og følelse af 
+opfyldning samt en generel følelse af træthed. Disse symptomer udvikler sig almindeligvis 
+hurtigt. Dette kan være symptomer på en tilstand, som kaldes ”kapillær lækagesyndrom”, og 
+som får blod til at lække fra de små blodkar ud i kroppen og kræver omgående lægehjælp. 
+ 
+du har en kombination af nogle af de følgende symptomer: * feber eller kulderystelser, fryser meget, høj puls, forvirring eller desorientering, åndenød, 
+ekstreme smerter eller utilpashed og klam eller svedende hud. 
+Disse kan være symptomer på en tilstand, der kaldes ”sepsis” (kaldes også "blodforgiftning"), 
+en svær infektion med en betændelsesreaktion i hele kroppen, som kan være livstruende og hvor 
+akut lægehjælp er nødvendig. 
+ 
+du får smerter i den øvre venstre side af maven, smerter under ribbenene i den venstre side eller 
+smerter i skulderen, da der kan være problemer med milten (forstørret milt (splenomegali) eller 
+sprængt milt (miltruptur)). 
+ 
+du behandles for svær kronisk neutropeni, og du har blod i urinen (hæmaturi). Din læge vil 
+regelmæssigt undersøge din urin, hvis du får denne bivirkning, eller hvis der findes protein i din 
+urin (proteinuri). </p>
+<p>En almindelig bivirkning under brug af Grastofil er smerter i dine muskler eller knogler 
+(muskuloskeletale smerter), som kan afhjælpes ved at tage smertestillende lægemidler (analgetika). 
+Hos patienter, der gennemgår en stamcelle- eller knoglemarvstransplantation, kan der opstå graft 
+versus host-sygdom (GvHD) – dette er donorcellernes reaktion mod patienten, der får 
+transplantationen. Tegn og symptomer omfatter udslæt i håndflader eller fodsåler samt sår i munden, 
+maven, leveren, på huden eller i dine øjne, lunger, skede og led.  </p>
+<p>Et forhøjet antal hvide blodlegemer og et nedsat antal blodplader, der sænker blodets størkningsevne 
+(trombocytopeni) kan observeres hos normale stamcelledonorer. Din læge vil overvåge dette. </p>
+<p>Meget almindelige bivirkninger (kan ramme flere end 1 ud af 10 personer): 
+ 
+et nedsat antal blodplader, hvilket sænker blodets størkningsevne (trombocytopeni) 
+ 
+lavt antal røde blodlegemer (anæmi) 
+ 
+hovedpine 
+ 
+diarré 
+ 
+opkastning </p>
+<p> 
+kvalme 
+ 
+usædvanligt hårtab eller -udtynding (alopeci) 
+ 
+træthed 
+ 
+ømhed og hævelse af slimhinden i fordøjelseskanalen, som går fra munden til anus (mucositis) 
+ 
+feber (pyreksi) </p>
+<p>Almindelige bivirkninger (kan ramme op til 1 ud af 10 persone): 
+ 
+betændelse i lungerne (bronkitis) 
+ 
+infektion i de øvre luftveje 
+ 
+urinvejsinfektion 
+ 
+nedsat appetit 
+ 
+søvnbesvær (insomni) 
+ 
+svimmelhed 
+ 
+nedsat følsomhed, især i huden (hypoæstesi) 
+ 
+prikkende eller følelsesløse hænder eller fødder (paræstesi) 
+ 
+lavt blodtryk (hypotension) 
+ 
+højt blodtryk (hypertension) 
+ 
+hoste 
+ 
+ophostning af blod (hæmoptyse) 
+ 
+smerter i munden og halsen (orofaryngeale smerter) 
+ 
+næseblod (epistaxis) 
+ 
+forstoppelse 
+ 
+orale smerter 
+ 
+forstørret lever (hepatomegali) 
+ 
+udslæt 
+ 
+hudrødme (erytem) 
+ 
+muskelspasmer 
+ 
+smerter under vandladning (dysuri) 
+ 
+brystsmerter 
+ 
+smerter 
+ 
+generel svaghed (asteni) 
+ 
+generel utilpashed 
+ 
+hævede hænder og fødder (perifert ødem) 
+ 
+forhøjelse af visse enzymer i blodet 
+ 
+ændringer i blodsammensætning 
+ 
+transfusionsreaktion </p>
+<p>Ikke almindelige bivirkninger (kan ramme op til 1 ud af 100 personer) 
+ 
+forhøjet antal hvide blodlegemer (leukocytosis) 
+ 
+allergiske reaktioner (overfølsomhed) 
+ 
+afstødning af transplanteret knoglemarv (graft versus host-sygdom) 
+ 
+høje niveauer af urinsyre i blodet, hvilket kan forårsage podagra (hyperurikæmi) (forhøjet 
+urinsyre i blodet) 
+ 
+leverskade forårsaget af blokering af de små vener i leveren (veno-okklusiv sygdom) 
+ 
+lungerne virker ikke som de skal, og forårsager åndenød (åndedrætssvigt) 
+ 
+hævelse af og/eller væske i lungerne (lungeødem) 
+ 
+betændelse i lungerne (interstitiel lungesygdom) 
+ 
+unormale røntgenundersøgelser af lungerne (lungeinfiltration) 
+ 
+blødning fra lungen (lungeblødning) 
+ 
+manglende optagelse af ilt i lungerne (hypoxi) 
+ 
+ujævnt hududslæt (makulopapuløst udslæt) 
+ 
+sygdom, som gør knoglerne mindre kompakte og gør dem svagere, mere skrøbelige og mere 
+tilbøjelige til at brække (osteoporose) 
+ 
+reaktion på injektionsstedet </p>
+<p>Sjældne bivirkninger (kan ramme op til 1 ud af 1.000 personer): 
+ 
+svære smerter i knoglerne, brystet, tarmen eller leddene (seglcelleanæmi med krise) 
+ 
+pludselig livstruende allergisk reaktion (anafylaktisk reaktion) 
+ 
+smerter og hævelse af led, som kan minde om podagra (pseudogigt) 
+ 
+en ændring af, hvordan din krop regulerer væskerne i din krop, hvilket kan føre til hævelser 
+(forstyrrelser af væskebalancen) 
+ 
+betændelse i hudens blodkar (kutan vaskulitis) 
+ 
+blommefarvede, hævede, smertefulde sår på arme og ben, og til tider i ansigt og hals med feber 
+(Sweets syndrom) 
+ 
+forværring af leddegigt (reumatoid artritis) 
+ 
+usædvanlige ændringer af urinen 
+ 
+nedsat knogletæthed 
+ 
+betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i kroppen), se pkt. 2. Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store grastofil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store grastofil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Grastofil utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på yderkartonen og på den fyldte 
+injektionssprøjte efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C) Må ikke nedfryses. </p>
+<p>Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys. </p>
+<p>Inden for opbevaringstiden (se den påtrykte udløbsdato) kan Grastofil tages ud af køleskabet og 
+opbevares ved stuetemperatur (ikke over 25 °C) i en enkelt periode på op til 15 dage. Når Grastofil har 
+været opbevaret ved stuetemperatur, må det ikke sættes tilbage i køleskabet. Ingen injektionssprøjter 
+med Grastofil, der har været ude af køleskabet i mere end 15 dage må anvendes, men skal bortskaffes i 
+henhold til lokale retningslinjer. 
+Brug ikke Grastofil, hvis du bemærker, at opløsningen er uklar eller der er misfarvning eller den 
+indeholder partikler. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Grastofil indeholder </p>
+<p> 
+Aktivt stof: filgrastim. Hver ml opløsning indeholder 60 millioner enheder (ME) (svarende til 
+600 mikrograms [μg]) filgrastim. Hver fyldt injektionssprøjte indeholder 30 ME (300 μg) 
+filgrastim i 0,5 ml opløsning. 
+ 
+Øvrige indholdsstoffer: Iseddikesyre, natriumhydroxid, sorbitol (E420), polysorbat 80 og vand </p>
+<p>til injektionsvæsker. Se punkt 2 ”Det skal du vide, før du begynder at bruger Grastofil”. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Grastofil er en klar, farveløs opløsning til injektion eller infusion. Det leveres i en fyldt 
+injektionssprøjte med en påsat kanyle. Sprøjten har 1/40 trykte markeringer fra 0,1 ml til 1 ml på 
+cylinderen. Hver fyldt injektionssprøjte indeholder 0,5 ml opløsning. </p>
+<p>Grastofil findes i pakninger, der indeholder 1 og 5 fyldte injektionssprøjter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona, s/n, 
+Edifici Est 6ª planta, 
+08039 Barcelona, 
+Spanien </p>
+<p>Producent </p>
+<p>Apotex Nederland B.V. 
+Archimedesweg 2 
+2333 CN Leiden<br />
+Holland </p>
+<p>Accord Healthcare Polska Sp.z o.o., 
+ul. Lutomierska 50,95-200 Pabianice, Polen </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / ES / FI / FR / HR / HU / IE / IS / IT /  LT / LV / LX / MT 
+/ NL / NO / PL / PT / RO / SE / SI / SK / UK(NI) 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Rafarm AEBE 
+Κορίνθου 12, Ν. Ψυχικό, 15451, Αθήνα 
+Τηλ: +30/2106776 
+Denne indlægsseddel blev senest ændret: MM/ÅÅÅÅ </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.emea.europa.eu. </p>
+<hr />
+<p>Følgende oplysninger er tiltænkt læger og sundhedspersonale: </p>
+<p>For at forbedre sporbarheden af biologiske lægemidler, skal navnet og batchnummeret for the 
+administrerede præparat tydeligt registreres. </p>
+<p>Om nødvendigt kan Grastofil fortyndes i en 5 % glucoseopløsning. Fortynding til en slutkoncentration 
+mindre end 0,2 mill (2 mikrogram) pr. ml anbefales ikke på noget tidspunkt. </p>
+<p>Opløsningen skal inspiceres visuelt før brug. Kun klare opløsninger uden partikler bør anvendes. </p>
+<p>For patienter behandlet med filgrastim fortyndet til en koncentration under 1,5 mill (15 mikrogram) pr. 
+ml, bør der tilføres humant serumalbumin (HSA) til en slutkoncentration på 2 mg/ml. Eksempel: I en 
+afsluttende injektion på 20 ml bør totaldoser af filgrastim på mindre end 30 mill (300 mikrogram) 
+gives med 0,2 ml 200 mg/ml (20 %) human serumalbuminopløsning. 
+Ved fortynding i 5 % glucose, er Grastofil forligeligt med glas og en række plasttyper, herunder PVC, 
+polyolefin (en co-polymer af polypropylen og polyethylen) og polypropylen. </p>
+<p>INDLÆGSSEDDEL: INFORMATION TIL BRUGEREN </p>
+<p>Grastofil 48 ME/0,5 ml injektions-/ infusionsvæske, opløsning i en fyldt injektionssprøjte 
+filgrastim </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<p> 
+Gem indlægssedlen. Du kan få brug for at læse den igen. 
+ 
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er mere, du vil vide. 
+ 
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+ 
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis en bivirkning bliver værre, 
+eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8e61b46541cd782d75f47b06ddfea02f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for grastofil Package Leaflet for language en"
+Description: "ePI document Bundle for grastofil Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8e61b46541cd782d75f47b06ddfea02f"
+* entry[0].resource = composition-en-8e61b46541cd782d75f47b06ddfea02f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e61b46541cd782d75f47b06ddfea02f"
+* entry[=].resource = mp8e61b46541cd782d75f47b06ddfea02f
+                            
+                    
+Instance: bundlepackageleaflet-da-8e61b46541cd782d75f47b06ddfea02f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for grastofil Package Leaflet for language da"
+Description: "ePI document Bundle for grastofil Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8e61b46541cd782d75f47b06ddfea02f"
+* entry[0].resource = composition-da-8e61b46541cd782d75f47b06ddfea02f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e61b46541cd782d75f47b06ddfea02f"
+* entry[=].resource = mp8e61b46541cd782d75f47b06ddfea02f
+                            
+                    
+
+
+
+Instance: mp8e61b46541cd782d75f47b06ddfea02f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Grastofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
-Description: "Grastofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+Title: "Medicinal Product grastofil"
+Description: "grastofil"
 Usage: #inline
 
  
@@ -455,7 +1064,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Grastofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+  * productName = "grastofil"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -482,29 +1091,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8e61b46541cd782d75f47b06ddfea02f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for grastofil Package Leaflet for language en"
-Description: "ePI document Bundle for grastofil Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8e61b46541cd782d75f47b06ddfea02fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/877/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "grastofil"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8e61b46541cd782d75f47b06ddfea02f"
-* entry[0].resource = composition-en-8e61b46541cd782d75f47b06ddfea02f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe2f566e1879c46ed14b11c602b4b0c4e"
-* entry[=].resource = mpe2f566e1879c46ed14b11c602b4b0c4e
-                            
-                      
+* title = "List of all ePIs associated with grastofil"
+
+* subject = Reference(mpe2f566e1879c46ed14b11c602b4b0c4e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#grastofil "grastofil"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8e61b46541cd782d75f47b06ddfea02f) // grastofil en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8e61b46541cd782d75f47b06ddfea02f) // grastofil da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8e61b46541cd782d75f47b06ddfea02f
+InstanceOf: List
+
+* insert 8e61b46541cd782d75f47b06ddfea02fListRuleset
+    

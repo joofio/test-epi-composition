@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-4aba175a0cd44d120f1be90c1da17ad7
 InstanceOf: CompositionUvEpi
 Title: "Composition for zynlonta Package Leaflet"
@@ -337,12 +340,505 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-4aba175a0cd44d120f1be90c1da17ad7
+InstanceOf: CompositionUvEpi
+Title: "Composition for zynlonta Package Leaflet"
+Description:  "Composition for zynlonta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp35196708f3eb0dda37094f9168233b14)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp35196708f3eb0dda37094f9168233b14
+* title = "TEST PURPOSES ONLY - zynlonta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du får Zynlonta </li>
+<li>Sådan gives Zynlonta </li>
+<li>Bivirkninger </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zynlonta is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zynlonta is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta er en cancermedicin, der indeholder det aktive stof loncastuximab-tesirin. </p>
+<p>Zynlonta anvendes til behandling af voksne med en bestemt type cancer kaldet diffust storcellet 
+B-cellelymfom (DLBCL), hvor canceren: </p>
+<ul>
+<li>
+<p>er vendt tilbage (recidiveret) efter to eller flere behandlinger eller </p>
+</li>
+<li>
+<p>ikke reagerede på tidligere behandling (refraktær). </p>
+</li>
+</ul>
+<p>Diffust storcellet B-cellelymfom er en cancer, der udvikles fra en type hvide blodlegemer, der kaldes 
+B-lymfocytter (kaldes også B-celler). </p>
+<p>Tal med din læge eller sygeplejerske, hvis du har spørgsmål om, hvordan Zynlonta virker, eller 
+hvorfor denne medicin er blevet ordineret til dig. </p>
+<p>Sådan virker Zynlonta </p>
+<p>Loncastuximab-tesirin består af 2 dele, et antistof (en type protein, der er designet til at genkende og 
+binde til et specifikt mål) og et cytotoksisk middel (et lægemiddel, der er i stand til at dræbe celler, 
+herunder cancerceller). Antistoffet i dette lægemiddel er designet til at binde til CD19, et protein, der 
+findes på overfladen af B-celler. Når antistoffet binder til disse celler, herunder cancercellerne, trænger 
+lægemidlet ind i cellerne og dræber dem. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zynlonta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zynlonta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Zynlonta, hvis du er allergisk over for loncastuximab-tesirin eller et af de øvrige 
+indholdsstoffer i Zynlonta (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller sygeplejersken, før du får Zynlonta, hvis du:</p>
+<ul>
+<li>har en aktiv infektion eller har haft én for nylig </li>
+<li>har leverproblemer. Symptomer kan indbefatte gulfarvning af huden og det hvide i øjnene 
+(gulsot). Lægen vil overvåge dig for bivirkninger under behandlingen </li>
+<li>er gravid eller planlægger at blive gravid. Zynlonta kan skade dit ufødte barn (se 
+punktet “Graviditet, amning og frugtbarhed" for yderligere oplysninger). </li>
+</ul>
+<p>Fortæl det straks til lægen eller sygeplejersken, hvis du har en eller flere af følgende alvorlige 
+bivirkninger. </p>
+<p>Infektioner 
+Alvorlige infektioner, herunder infektioner, der kan forårsage død, er forekommet hos personer 
+behandlet med Zynlonta. Fortæl det straks til lægen eller sygeplejersken, hvis du har nye eller 
+forværrede tegn eller symptomer på infektion, der er angivet i punkt 4 under "Alvorlige bivirkninger". </p>
+<p>Væskeophobning 
+Din krop kan muligvis holde på for meget væske under behandling med Zynlonta. Det kan være 
+alvorligt. Fortæl det straks til lægen eller sygeplejersken, hvis du har tegn eller symptomer på 
+væskeophobning, som er angivet i punkt 4 under "Alvorlige bivirkninger". Lægen vil give dig en 
+passende behandling mod væskeophobning. Hvis du har en alvorlig hævelse, kan lægen standse 
+behandlingen, indtil hævelsen har fortaget sig. </p>
+<p>Lave blodcelletal (blodplader, røde blodlegemer og hvide blodlegemer) 
+Lave niveauer af visse blodceller (lave blodcelletal) kan være alvorlige eller svære. Lægen eller 
+sygeplejersken vil overvåge dine blodcelletal under behandlingen med Zynlonta. Fortæl det straks til 
+lægen eller sygeplejersken, hvis du får tegn og symptomer på infektion, som er angivet i punkt 4 
+under "Alvorlige bivirkninger". Din infektion kan muligvis skyldes lave blodcelletal. </p>
+<p>Hudreaktioner 
+Alvorlige hudreaktioner er forekommet hos personer behandlet med Zynlonta. Eksponering for sollys 
+(herunder gennem glas eller bilvinduer) kan forårsage kraftig solforbrænding. Det er vigtigt at bruge 
+solcreme og passende beklædning for at sikre, at du ikke bliver forbrændt. Fortæl det straks til lægen 
+eller sygeplejersken, hvis du får nye eller forværrede svære hudreaktioner. Tegn og symptomer er 
+angivet i punkt 4 under "Bivirkninger". </p>
+<p>Børn og unge 
+Dette lægemiddel bør ikke gives til børn eller unge under 18 år, da der ikke foreligger oplysninger om 
+dets brug i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Zynlonta 
+Fortæl lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at tage 
+anden medicin. </p>
+<p>Prævention (mænd og kvinder) 
+Kvinder, der kan blive gravide, skal bruge sikker prævention under behandling med Zynlonta og i 
+10 måneder efter den sidste dosis.  </p>
+<p>Mænd med partnere, der kan blive gravide, skal bruge sikker prævention under behandling med 
+Zynlonta og i 7 måneder efter den sidste dosis. Tal med din læge om sikker prævention. </p>
+<p>Graviditet 
+Du skal undgå at blive gravid, hvis du tager dette lægemiddel. Fortæl det straks til lægen, hvis du 
+bliver gravid eller har mistanke om, at du er gravid, under behandling med Zynlonta. Lægen vil 
+muligvis lave en graviditetstest før start på behandling med Zynlonta. </p>
+<p>Amning 
+Du må ikke amme under behandlingen og i 3 måneder efter den sidste dosis. Det vides ikke, om 
+Zynlonta udskilles i modermælk. </p>
+<p>Fertilitet 
+Zynlonta kan muligvis forårsage fertilitetsproblemer hos mænd, som kan påvirke deres evne til at 
+gøre en kvinde gravid. Du kan få rådgivning om, hvordan sæd kan opbevares før start på behandling. 
+Tal med lægen, hvis du har brug for flere oplysninger.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Zynlonta påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. 
+Hvis du får infusionsforbundne reaktioner, eller hvis du føler dig træt, svag eller svimmel (se punkt 4), 
+må du ikke føre motorkøretøj, cykle eller betjene værktøj eller maskiner, før du har fået det bedre. </p>
+<p>Se punkt 4 for flere oplysninger om bivirkninger. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zynlonta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zynlonta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta gives under overvågning af en læge med erfaring i at give sådanne behandlinger. Det 
+indgives i en vene som et drop (en infusion) over et tidsrum på 30 minutter. </p>
+<p>Dosen af dette lægemiddel afhænger af din kropsvægt. Den sædvanlige startdosis er 0,15 mg for hvert 
+kg kropsvægt. </p>
+<p>Tabellen nedenfor viser den anbefalede dosis i hver behandlingscyklus. </p>
+<p>Anbefalet dosis 
+Cyklus 
+0,15 mg pr. kg hver 21. dag 
+1. cyklus 
+0,15 mg pr. kg hver 21. dag<br />
+2. cyklus 
+0,075 mg pr. kg hver 21. dag 
+3. cyklus og derefter </p>
+<p>Lægen kan sænke din dosis, hvis du oplever alvorlige bivirkninger. </p>
+<p>Indtagelse af dexamethason sammen med Zynlonta 
+Under din behandling med Zynlonta vil du også få et andet lægemiddel kaldet dexamethason, der skal 
+hjælpe med at reducere bivirkningerne som følge af behandlingen. 
+Du vil få 4 mg dexamethason enten via munden eller i en vene to gange om dagen i tre dage med start 
+dagen før, du får Zynlonta-behandling. 
+Hvis du ikke får dexamethason dagen før din behandling, skal det gives mindst 2 timer før, Zynlonta 
+gives. </p>
+<p>Så ofte vil du få Zynlonta 
+Zynlonta gives sædvanligvis hver 3. uge (på dag 1 af en 21 dages-cyklus). 
+- Lægen vil give dig medicin før hver infusion for at reducere risikoen for bivirkninger. 
+- Lægen kan standse din behandling, udsætte din behandling eller ændre din dosis af Zynlonta, 
+hvis du får svære bivirkninger (se punkt 4 "Bivirkninger"). 
+- Lægen vil tage regelmæssige blodprøver for at kontrollere for bivirkninger af Zynlonta. 
+- Lægen vil beslutte, hvor mange behandlingscyklusser, du har brug for. </p>
+<p>Hvis du har fået for meget Zynlonta 
+Da du får infusionen af lægen eller en anden passende uddannet person, er en overdosis usandsynlig. 
+Hvis du utilsigtet får for meget medicin, vil lægen overvåge dig og give dig yderligere behandling 
+efter behov. </p>
+<p>Hvis du misser en dosis af Zynlonta 
+Hvis du misser en dosis af Zynlonta, skal den gives så hurtigt som muligt. Det kan være nødvendigt at 
+ændre tidspunktet for, hvornår du skal have den næste planlagte dosis, for at sikre, at den gives 
+21 dage efter den missede dosis. 21 dages-intervallet mellem doser skal opretholdes. </p>
+<p>Hvis du holder op med at få Zynlonta 
+Du bør ikke stoppe behandlingen før tid uden at tale med lægen først. </p>
+<p>Behandling mod lymfom med Zynlonta kræver sædvanligvis et antal infusioner. Antallet af infusioner, 
+du vil få, afhænger af, hvordan du reagerer på behandlingen. Du skal derfor, også selvom du 
+observerer, at dine symptomer bedres, fortsætte med Zynlonta, indtil lægen beslutter, at din medicin 
+skal stoppes. Hvis behandlingen stoppes for tidligt, kan dine symptomer vende tilbage. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Følgende bivirkninger er rapporteret med dette lægemiddel: </p>
+<p>Alvorlige bivirkninger </p>
+<p>Infektioner 
+Alvorlige infektioner, herunder infektioner, der kan forårsage død, er forekommet hos personer 
+behandlet med Zynlonta. Fortæl det straks til lægen eller sygeplejersken, hvis du bemærker et eller 
+flere af følgende tegn og symptomer: </p>
+<ul>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>kulderystelser </p>
+</li>
+<li>
+<p>influenzalignende symptomer (hoste, træthed eller svaghed og ondt i kroppen) </p>
+</li>
+<li>
+<p>kraftig hovedpine </p>
+</li>
+<li>
+<p>snitsår eller skrammer, der er røde, varme, hævede eller smertefulde </p>
+</li>
+</ul>
+<p>Væskeophobning 
+Din krop kan muligvis holde på for meget væske under behandling med Zynlonta. Dette kan være 
+alvorligt. Du kan få væskeophobning i forskellige dele af kroppen, herunder dine hænder, dine fødder 
+(meget almindelig) og din mave (almindelig) eller omkring de indre organer, såsom dit hjerte 
+(almindelig) og dine lunger (meget almindelig). 
+Fortæl det straks til lægen eller sygeplejersken, hvis du bemærker et eller flere af følgende tegn og 
+symptomer: </p>
+<ul>
+<li>
+<p>brystsmerter (almindelig) </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær (meget almindelig) </p>
+</li>
+<li>
+<p>hævelse i en hvilken som helst del af kroppen (meget almindelig) </p>
+</li>
+</ul>
+<p>Lave blodcelletal<br />
+Lave blodcelletal (meget almindelig) kan være alvorlige eller svære. Lægen eller sygeplejersken vil 
+overvåge dine blodtal under behandling med Zynlonta. Fortæl det straks til lægen eller 
+sygeplejersken, hvis du bemærker blå mærker eller blødning eller et eller flere af tegnene og 
+symptomerne på infektioner ovenfor. </p>
+<p>Hudreaktioner 
+Hudreaktioner (almindelig) er forekommet hos personer behandlet med Zynlonta. Nogle af disse kan 
+være alvorlige. Fortæl det straks til lægen eller sygeplejersken, hvis du får nye eller forværrede 
+svære hudreaktioner, herunder:</p>
+<ul>
+<li>følsomhed for sollys, herunder solskoldningslignende reaktioner, såsom hudafskalning og 
+irritation, efter eksponering for lys </li>
+<li>kløende udslæt </li>
+<li>blæredannelse på huden </li>
+<li>mørkere hudpletter </li>
+<li>irritation, hævelse, smerter og/eller hudskade ved injektionsstedet. </li>
+</ul>
+<p>Andre bivirkninger 
+Fortæl lægen eller sygeplejersken, hvis du oplever en eller flere af følgende bivirkninger: </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer 
+- træthed og bleg hud 
+- unormale blodprøver, der viser: * 
+lave niveauer af neutrofiler, en type hvide blodlegemer, der bekæmper infektion, 
+undertiden med feber * 
+lave blodpladetal, som kan medføre blødning og blå mærker * 
+leverproblemer 
+- manglende appetit 
+- kvalme eller opkastning 
+- diarré 
+- mavesmerter 
+- forstoppelse 
+- rødme af huden 
+- udslæt 
+- kløe. </p>
+<p>Almindelig: kan forekomme hos op til 1 ud af 10 personer 
+- infektion i lungerne, herunder bronkitis eller lungebetændelse 
+- næse- og halsinfektion 
+- udslæt kendetegnet ved et fladt, rødt område på huden, der er dækket med små knopper 
+- muskelsmerter 
+- ledsmerter 
+- ryg- og nakkesmerter 
+- smerter i arme og ben 
+- mangel på energi. </p>
+<p>Ikke almindelig: kan forekomme hos mindre end 1 ud af 10 personer 
+- pusfyldte knopper på huden 
+- ubehag i lemmerne 
+- ubehag i muskler og knogler 
+- inflammation i membranen omkring hjertet. </p>
+<p>Ikke kendt: hyppighed kan ikke estimeres ud fra forhåndenværende data 
+- blodsprængninger (sprængte blodkar tæt på hudoverfladen) 
+- blister 
+- udslæt, der består af små væskefyldte blister. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zynlonta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zynlonta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta vil blive opbevaret af lægen og apotekspersonalet på hospitalet eller klinikken, hvor du 
+behandles. 
+Lægen, apotekspersonalet eller sygeplejersken er ansvarlig for korrekt opbevaring af dette lægemiddel 
+og bortskaffelse af eventuelt ubrugt lægemiddel. Nedenstående oplysninger er til læger og 
+sundhedspersonale. </p>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hætteglasset efter anv. inden. 
+Udløbsdatoen er den sidste dag i den nævnte måned  </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. </p>
+<p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. 
+Det gælder for både den rekonstituerede opløsning og den fortyndede opløsning til infusion, at de ikke 
+må nedfryses eller udsættes for direkte sollys. </p>
+<p>Zynlonta er et cytotoksisk lægemiddel. Passende særlige procedurer til håndtering og bortskaffelse 
+skal følges. </p>
+<p>Lægen eller apotekspersonalet er ansvarlig for korrekt bortskaffelse af eventuelt ubrugt Zynlonta. 
+Disse forholdsregler vil medvirke til at beskytte miljøet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: loncastuximab-tesirin. Hvert hætteglas indeholder 10 mg loncastuximab-tesirin. 
+Efter rekonstitution indeholder hver ml 5 mg loncastuximab-tesirin. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: L-histidin, L-histidinmonohydrochlorid, polysorbat 20, saccharose. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Dette lægemiddel er et hvidt til offwhite pulver med et udseende som en sammenpresset masse. Det 
+leveres i et glas-hætteglas og er kun til engangsbrug. Pulveret skal rekonstitueres og fortyndes før 
+infusion. </p>
+<p>Hver pakning indeholder 1 hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Swedish Orphan Biovitrum AB (publ) 
+SE-112 76 Stockholm 
+Sverige </p>
+<p>Fremstiller 
+Swedish Orphan Biovitrum AB (publ)<br />
+Strandbergsgatan 49<br />
+SE-112 51 Stockholm 
+Sverige </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Dette lægemiddel er godkendt under "betingede omstændigheder". 
+Det betyder, at der forventes yderligere dokumentation for lægemidlet. </p>
+<p>Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
+lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Procedurer til korrekt håndtering og bortskaffelse af anticancerlægemidler skal følges. </p>
+<p>Rekonstitution af pulver til koncentrat </p>
+<ul>
+<li>
+<p>Rekonstituér hvert hætteglas med pulver til koncentrat ved anvendelse af 2,2 ml sterilt vand til 
+injektionsvæsker med vandstrømmen rettet mod indersidevæggen af hætteglasset til opnåelse af 
+en slutkoncentration på 5 mg/ml. </p>
+</li>
+<li>
+<p>Hvirvl hætteglasset forsigtigt rundt, indtil pulveret er helt opløst. Må ikke rystes. </p>
+</li>
+<li>
+<p>Inspicér den rekonstituerede opløsning for partikler og misfarvning. Opløsningen skal fremstå 
+klar til let opaliserende, farveløs til lysegul. Må ikke anvendes, hvis den rekonstituerede 
+opløsning er misfarvet, er grumset eller indeholder synlige partikler. </p>
+</li>
+<li>
+<p>Kassér ubrugte hætteglas efter rekonstitution, hvis den anbefalede opbevaringstid er 
+overskredet.  </p>
+</li>
+</ul>
+<p>Fortynding i intravenøs infusionspose </p>
+<ul>
+<li>
+<p>Træk det nødvendige volumen af rekonstitueret opløsning op af hætteglasset ved anvendelse af 
+en steril sprøjte. Kassér en eventuelt ubrugt del, der er tilbage i hætteglasset. </p>
+</li>
+<li>
+<p>Tilsæt det beregnede dosisvolumen af Zynlonta rekonstitueret opløsning i en 50 ml intravenøs 
+infusionspose med 5 % glucose. </p>
+</li>
+<li>
+<p>Bland forsigtigt den intravenøse infusionspose ved langsomt at vende posen op og ned. Må ikke 
+rystes. </p>
+</li>
+<li>
+<p>Der er ikke observeret nogen uforligeligheder mellem Zynlonta og intravenøse infusionsposer 
+med produktkontaktmaterialer af polyvinylchlorid (PVC), polyolefin (PO) og PAB (copolymer 
+af ethylen og propylen). </p>
+</li>
+<li>
+<p>Zynlonta skal administreres ved anvendelse af en dedikeret infusionslinje udstyret med et sterilt, 
+ikke-pyrogent, lavproteinbindende indbygget eller tilføjet filter (0,2 eller 0,22 µm porestørrelse) 
+og kateter. </p>
+</li>
+</ul>
+<p>Rekonstitueret opløsning </p>
+<p>Ud fra et mikrobiologisk synspunkt bør den rekonstituerede opløsning anvendes straks. Hvis den ikke 
+anvendes straks, er opbevaringstider og -forhold før anvendelse brugerens ansvar og bør være højst 
+4 timer på køl (2 ℃-8 ℃) eller 4 timer ved stuetemperatur (20 ℃-25 ℃), medmindre rekonstitution 
+har fundet sted under kontrollerede og validerede aseptiske forhold. Kemisk og fysisk brugsstabilitet 
+af den rekonstituerede opløsning er blevet vist i op til 4 timer på køl (2 ℃-8 ℃) eller 4 timer ved 
+stuetemperatur (20 ℃-25 ℃). </p>
+<p>Fortyndet opløsning </p>
+<p>Ud fra et mikrobiologisk synspunkt bør den klargjorte opløsning til infusion anvendes straks. Hvis den 
+ikke anvendes straks, er opbevaringstider og -forhold før anvendelse brugerens ansvar og bør være 
+højst 24 timer på køl (2 ℃-8 ℃) eller 8 timer ved stuetemperatur (20 ℃-25 ℃), medmindre 
+fortynding har fundet sted under kontrollerede og validerede aseptiske forhold. Kemisk og fysisk 
+brugsstabilitet af den klargjorte opløsning til infusion er blevet vist i op til 24 timer ved stuetemperatur 
+(20 ℃-25 ℃). </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-4aba175a0cd44d120f1be90c1da17ad7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zynlonta Package Leaflet for language en"
+Description: "ePI document Bundle for zynlonta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4aba175a0cd44d120f1be90c1da17ad7"
+* entry[0].resource = composition-en-4aba175a0cd44d120f1be90c1da17ad7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4aba175a0cd44d120f1be90c1da17ad7"
+* entry[=].resource = mp4aba175a0cd44d120f1be90c1da17ad7
+                            
+                    
+Instance: bundlepackageleaflet-da-4aba175a0cd44d120f1be90c1da17ad7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zynlonta Package Leaflet for language da"
+Description: "ePI document Bundle for zynlonta Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-4aba175a0cd44d120f1be90c1da17ad7"
+* entry[0].resource = composition-da-4aba175a0cd44d120f1be90c1da17ad7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4aba175a0cd44d120f1be90c1da17ad7"
+* entry[=].resource = mp4aba175a0cd44d120f1be90c1da17ad7
+                            
+                    
+
+
+
+Instance: mp4aba175a0cd44d120f1be90c1da17ad7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Zynlonta 10 mg powder for concentrate for solution for infusion"
-Description: "Zynlonta 10 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product zynlonta"
+Description: "zynlonta"
 Usage: #inline
 
  
@@ -362,7 +858,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Zynlonta 10 mg powder for concentrate for solution for infusion"
+  * productName = "zynlonta"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -389,29 +885,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-4aba175a0cd44d120f1be90c1da17ad7
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zynlonta Package Leaflet for language en"
-Description: "ePI document Bundle for zynlonta Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 4aba175a0cd44d120f1be90c1da17ad7ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1695/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zynlonta"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-4aba175a0cd44d120f1be90c1da17ad7"
-* entry[0].resource = composition-en-4aba175a0cd44d120f1be90c1da17ad7
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp35196708f3eb0dda37094f9168233b14"
-* entry[=].resource = mp35196708f3eb0dda37094f9168233b14
-                            
-                      
+* title = "List of all ePIs associated with zynlonta"
+
+* subject = Reference(mp35196708f3eb0dda37094f9168233b14)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zynlonta "zynlonta"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-4aba175a0cd44d120f1be90c1da17ad7) // zynlonta en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-4aba175a0cd44d120f1be90c1da17ad7) // zynlonta da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-4aba175a0cd44d120f1be90c1da17ad7
+InstanceOf: List
+
+* insert 4aba175a0cd44d120f1be90c1da17ad7ListRuleset
+    

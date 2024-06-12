@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f819453f37e8574dc396f13201d03208
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyvgart Package Leaflet"
@@ -326,12 +329,526 @@ Tel: 020-12 74 medinfose@argenx.com </p>
 
 
 
+Instance: composition-da-f819453f37e8574dc396f13201d03208
+InstanceOf: CompositionUvEpi
+Title: "Composition for vyvgart Package Leaflet"
+Description:  "Composition for vyvgart Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1c8c6dc7a854b7e7eb3a1871202c5743)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1c8c6dc7a854b7e7eb3a1871202c5743
+* title = "TEST PURPOSES ONLY - vyvgart"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Vyvgart </li>
+<li>Sådan skal du bruge Vyvgart </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vyvgart is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vyvgart is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Vyvgart? 
+Vyvgart indeholder det aktive stof efgartigimod alfa. Efgartigimod alfa binder til og blokerer FcRn 
+(neonatal Fc-receptor), som er et protein, der findes i kroppen. Ved at blokere FcRn reducerer 
+efgartigimod alfa niveauet af IgG-autoantistoffer, som er proteiner, der findes i immunsystemet og ved 
+en fejl går til angreb på en persons egen krop. </p>
+<p>Hvad bruges Vyvgart til? 
+Vyvgart bruges sammen med standardbehandling til behandling af voksne med gMC (generaliseret 
+myasthenia gravis), som er en autoimmunsygdom, der forårsager muskelsvækkelse. gMG kan påvirke 
+flere muskelgrupper i kroppen. Lidelsen kan også medføre åndenød, ekstrem træthed og synkebesvær. </p>
+<p>Hos patienter med gMG angriber og beskadiger IgG-autoantistoffer de nerveproteiner, der kaldes 
+acetylcholinreceptorer. På grund af denne skade er nerverne ikke i stand til at få musklerne til at 
+trække sig lige så effektivt sammen som normalt, og det fører til muskelsvækkelse og 
+bevægelsesbesvær. Da Vyvgart binder til FcRn-proteinet og reducerer autoantistofniveauer, kan det 
+forbedre musklernes evne til at trække sig sammen og derved reducere sygdomssymptomerne og deres 
+indvirkning på muligheden for at udføre aktiviteter i dagligdagen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vyvgart"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vyvgart"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Vyvgart 
+- hvis du er allergisk over for efgartigimod alfa eller et af de øvrige indholdsstoffer i Vyvgart 
+(angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger Vyvgart. </p>
+<p>MGFA klasse V 
+Din læge vil muligvis ikke udskrive dette lægemiddel, hvis du er i respirator som følge af 
+gMG-muskelsvækkelse (myasten krise). </p>
+<p>Infektioner 
+Behandling med Vyvgart kan reducere din naturlige modstandsdygtighed over for infektioner. Hvis du 
+har infektioner, skal du derfor oplyse lægen om det, inden du begynder at bruge Vyvgart. </p>
+<p>Infusionsreaktioner og allergiske reaktioner 
+Vyvgart indeholder et protein, som hos nogle mennesker kan forårsage reaktioner som for eksempel 
+udslæt eller kløe. Vyvgart kan forårsage anafylaktiske reaktioner (alvorlige allergiske reaktioner). Hvis 
+du oplever allergiske reaktioner som hævelse af ansigt, læber, svælg eller tunge, hvilket gør det 
+vanskeligt at synke eller trække vejret, kortåndethed, følelse af at besvime, eller du får hududslæt 
+under eller efter infusionen, skal du straks fortælle det til lægen. 
+Du bliver overvåget for tegn på en infusionsreaktion eller allergiske reaktioner under behandlingen og 
+i 1 time efter behandlingen. </p>
+<p>Immunisering (vaccinationer) 
+Hvis du er blevet vaccineret inden for de seneste 4 uger eller har tænkt dig at blive vaccineret inden for 
+den nærmeste fremtid, skal du oplyse lægen om det. </p>
+<p>Børn og unge 
+Vyvgart må ikke gives til børn under 18 år, da lægemidlets sikkerhed og virkning hos denne 
+population ikke er fastslået. </p>
+<p>Ældre patienter 
+Der er ikke behov for særlige forholdsregler ved behandling af patienter på 65 år eller derover. </p>
+<p>Brug af andre lægemidler sammen med Vyvgart 
+Fortæl det altid til lægen, hvis du bruger andre lægemidler, for nylig har brugt andre lægemidler eller 
+planlægger at bruge andre lægemidler. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Vyvgart forventes ikke at påvirke evnen til at føre motorkøretøj eller betjene maskiner. </p>
+<p>Vyvgart indeholder natrium 
+Dette lægemiddel indeholder 67,2 mg natrium (hovedbestanddelen i salt til madlavning/bordsalt) i 
+hvert hætteglas. Det svarer til 3,4 % af den anbefalede maksimale daglige indtagelse af natrium for 
+en voksen. Dette lægemiddel bliver yderligere klargjort til administration med en opløsning, der 
+indeholder natrium. Dette skal tages i betragtning i forhold til patientens samlede daglige indtagelse af 
+natrium fra alle kilder. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vyvgart"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vyvgart"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandlingen udføres af lægen eller andet sundhedspersonale. Lægen eller sundhedspersonalet 
+fortynder først produktet. Fortyndingen administreres fra et drop gennem en slange og direkte ind i en 
+af dine årer i løbet af 1 time. </p>
+<p>Hvor stor en dosis Vyvgart får du, og hvor ofte? 
+Hvor stor en dosis du får, afhænger af din legemsvægt, og dosen administreres i cyklusser på én 
+infusion pr. uge i 4 uger. Lægen afgør, hvornår der er behov for flere behandlingscyklusser. 
+Anvisninger til lægen og/eller sundhedspersonalet vedrørende korrekt brug af dette lægemiddel er 
+angivet i slutningen af dette dokument. </p>
+<p>Hvis du har fået for meget Vyvgart 
+Spørg lægen til råds, hvis du har mistanke om, at du ved en fejl har fået administreret en større dosis 
+Vyvgart end den ordinerede dosis. </p>
+<p>Hvis du har glemt en tid til administration af Vyvgart hos lægen 
+Hvis du har glemt en tid hos lægen, skal du omgående spørge lægen til råds om, hvad du skal gøre. 
+Se også punktet "Hvis du holder op med at bruge Vyvgart" nedenfor. </p>
+<p>Hvis du holder op med at bruge Vyvgart 
+Hvis behandling med Vyvgart afbrydes eller ophører, kan det medføre, at gMG-symptomerne vender 
+tilbage. Kontakt lægen, inden du holder op med at bruge Vyvgart. Lægen kan fortælle dig om de 
+mulige bivirkninger og risici, og du bliver overvåget nøje i det efterfølgende forløb. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Lægen fortæller dig om de mulige bivirkninger, og forklarer risiciene og fordelene ved Vyvgart, inden 
+behandling. </p>
+<p>Fortæl det straks til lægen, hvis du bemærker:<br />
+Tegn på en alvorlig allergisk reaktion (anafylaktisk reaktion) som hævelse af ansigt, læber, svælg eller 
+tunge, hvilket gør det vanskeligt at synke eller trække vejret, kortåndethed, følelse af at besvime, eller 
+du får hududslæt under eller efter infusionen. 
+Hvis du er i tvivl om, hvad nedenstående bivirkninger indebærer, kan du bede lægen om at 
+forklare det. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer)<br />
+ 
+infektion i næse og svælg (øvre luftvejsinfektioner) </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+ 
+smerte eller svie ved vandladning, hvilket kan være tegn på urinvejsinfektion 
+ 
+betændelse i luftvejene (bronkitis) 
+ 
+muskelsmerter (myalgi) 
+ 
+hovedpine under eller efter administration af Vyvgart </p>
+<p>Ikke kendt: 
+ 
+Allergiske reaktioner under eller efter infusionen 
+ 
+hævelse af ansigt, læber, svælg eller tunge, hvilket gør det vanskeligt at synke eller trække 
+vejret, kortåndethed 
+ 
+bleghed, svag og hurtig puls, eller en følelse af at besvime 
+ 
+pludseligt udslæt, kløe eller nældefeber </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vyvgart"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vyvgart"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten efter "EXP". Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
+<p>Må ikke nedfryses. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Brug ikke lægemidlet, hvis der observeres synlige partikler, og/eller hvis væsken i hætteglasset 
+er misfarvet. </p>
+<p>Produktet skal anvendes omgående efter fortynding, og infusionen (via drop) skal være fuldført inden 
+for 4 timer efter fortynding. Lad det fortyndede lægemiddel nå stuetemperatur inden administration. 
+Når det fortyndede lægemiddel er taget ud af køleskabet, skal infusionen fuldføres inden for 4 timer. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vyvgart indeholder: 
+Aktivt stof: efgartigimod alfa. 
+- Hvert hætteglas på 20 ml indeholder 400 mg efgartigimod alfa (20 mg/ml). 
+Øvrige indholdsstoffer:</p>
+<ul>
+<li>natriumdihydrogenphosphat, monohydrat </li>
+<li>dinatriumhydrogenfosfat, vandfrit </li>
+<li>natriumchlorid </li>
+<li>argininhydrochlorid </li>
+<li>polysorbat - vand til injektionsvæske </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Vyvgart er pakket som et sterilt koncentrat til intravenøs (IV) infusion (20 ml i et hætteglas – 
+pakningsstørrelsen er 1 hætteglas pr. pakning). 
+Vyvgart er en væske. Den er farveløs til svagt gul, gennemsigtig eller næsten gennemsigtig. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+argenx BV 
+Industriepark-Zwijnaarde 7 
+9052 Gent 
+Belgien </p>
+<p>Fremstiller 
+Propharma Group The Netherlands 
+Schipholweg 2316 ZL Leiden<br />
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien/Eesti 
+argenx BV 
+Tél/Tel: +32 (0) 9 3969394/+32 (0) 800 54medinfobe@argenx.com </p>
+<p>Lietuva 
+argenx BV 
+Tel: 8 800 80 medinfolt@argenx.com </p>
+<p>България 
+argenx BV 
+Teл.: 0800 46 medinfobg@argenx.com </p>
+<p>Luxembourg/Luxemburg 
+argenx BV 
+Tél/Tel: 800 25 medinfolu@argenx.com </p>
+<p>Česká republika 
+argenx BV 
+Tel: 800 040 medinfocz@argenx.com </p>
+<p>Magyarország 
+argenx BV 
+Tel.: (80) 088 medinfohu@argenx.com </p>
+<p>Danmark 
+argenx BV 
+Tlf.: 80 25 41 medinfodk@argenx.com </p>
+<p>Malta 
+argenx BV 
+Tel: 8006 5medinfomt@argenx.com </p>
+<p>Deutschland 
+argenx Germany GmbH 
+Tel: 08001803medinfode@argenx.com </p>
+<p>Nederland 
+argenx BV 
+Tel: 0800 0232medinfonl@argenx.com 
+Ελλάδα 
+Medison Pharma Greece Single Member Societe 
+Anonyme 
+Τηλ: +30 210 0100 188medinfogr@argenx.com </p>
+<p>Norge 
+argenx BV 
+Tlf: 800 62 medinfono@argenx.com </p>
+<p>España 
+argenx Spain S.L. 
+Tel: 900 876 medinfoes@argenx.com </p>
+<p>Österreich 
+argenx BV 
+Tel: 0800 017medinfoat@argenx.com 
+France 
+argenx France SAS 
+Tél: +33 (0) 1 88898medinfofr@argenx.com </p>
+<p>Polska 
+argenx BV 
+Tel.: 800 005 medinfopl@argenx.com 
+Hrvatska 
+argenx BV 
+Tel: 0800 806 medinfohr@argenx.com </p>
+<p>Portugal 
+argenx BV 
+Tel: 800 180 medinfopt@argenx.com </p>
+<p>Ireland/United Kingdom (Northern Ireland) 
+argenx BV 
+Tel: 1800 851 medinfoie@argenx.com </p>
+<p>România 
+argenx BV 
+Tel: 0800 360 medinforo@argenx.com </p>
+<p>Ísland 
+argenx BV 
+Sími: 800 4medinfois@argenx.com </p>
+<p>Slovenija 
+argenx BV 
+Tel: 080 688medinfosi@argenx.com </p>
+<p>Italia 
+argenx Italia s.r.l 
+Tel: 800729medinfoit@argenx.com </p>
+<p>Slovenská republika 
+argenx BV 
+Tel: 0800 002 medinfosk@argenx.com </p>
+<p>Κύπρος 
+argenx BV 
+Τηλ: 80 077medinfocy@argenx.com </p>
+<p>Suomi/Finland 
+argenx BV 
+Puh/Tel: 0800 412medinfofi@argenx.com </p>
+<p>Latvija 
+argenx BV 
+Tel: 80 205 medinfolv@argenx.com </p>
+<p>Sverige 
+argenx BV 
+Tel: 020-12 74 medinfose@argenx.com </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: https://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Anvisninger til sundhedspersoner vedrørende korrekt håndtering af Vyvgart </p>
+<ol>
+<li>Hvordan leveres Vyvgart? </li>
+</ol>
+<p>Hvert hætteglas indeholder 400 mg efgartigimod alfa i en koncentration på 20 mg/ml, som skal 
+fortyndes i en natriumchloridopløsning på 9 mg/ml (0,9 %) til injektionsvæske.  </p>
+<ol>
+<li>Før administration </li>
+</ol>
+<p>Rekonstitution og fortynding skal udføres i overensstemmelse med god lægepraksis, især med henblik 
+på aseptik. </p>
+<p>Vyvgart skal klargøres til administration af en kvalificeret sundhedsperson ved brug af aseptisk teknik. </p>
+<p>Beregn følgende baseret på formlen i tabellen nedenfor: 
+ 
+Den påkrævede dosis Vyvgart baseret på patientens legemsvægt ved den anbefalede dosis på 
+10 mg/kg. Hvis patienten vejer over 120 kg, skal dosen beregnes ud fra en legemsvægt på 
+120 kg. Den maksimale samlede dosis pr. infusion er 1.200 mg. Hvert hætteglas indeholder 
+400 mg efgartigimod alfa i en koncentration på 20 mg/ml. 
+ 
+Det påkrævede antal hætteglas. 
+ 
+Volumen af natriumchloridopløsning på 9 mg/ml (0,9 %) til injektionsvæske. Det fortyndede 
+lægemiddels samlede volumen er 125 ml. </p>
+<p>Tabel 1. Formel 
+Trin 1 – beregn dosis (mg) 
+10 mg/kg x vægt (kg) 
+Trin 2 – beregn koncentratvolumen (ml) 
+dosis (mg) ÷ 20 mg/ml 
+Trin 3 – beregn antal hætteglas<br />
+koncentratvolumen (ml) ÷ 20 ml 
+Trin 4 – beregn volumen af natriumchloridopløsning på 
+9 mg/ml (0,9 %) til injektionsvæske (ml) 
+125 ml – koncentratvolumen (ml) </p>
+<ol>
+<li>Klargøring og administration </li>
+</ol>
+<p> 
+Vyvgart må ikke administreres som en intravenøs push- eller bolusinjektion. 
+ 
+Vyvgart må kun administreres via intravenøs infusion som beskrevet nedenfor. </p>
+<p>Klargøring 
+ 
+Kontroller visuelt, at hætteglassets indhold er gennemsigtigt til let opaliseret, farveløst til svagt 
+gult og uden partikler. Hvis der observeres synlige partikler, og/eller hvis væsken i hætteglasset 
+er misfarvet, skal hætteglasset kasseres. Hætteglassene må ikke omrystes. 
+ 
+Brug aseptisk teknik under hele klargøringen af den fortyndede opløsning:</p>
+<ul>
+<li>Træk forsigtigt det påkrævede volumen Vyvgart ud af det relevante antal hætteglas ved 
+hjælp af en steril sprøjte og kanyle. Kasser eventuelle delvist brugte eller 
+tomme hætteglas. </li>
+<li>Overfør den beregnede dosis af produktet til en infusionspose. </li>
+<li>Fortynd det udtrukne produkt ved tilsætning af det beregnede volumen 
+natriumchloridopløsning på 9 mg/ml (0,9 %) til injektionsvæske, så der opnås et samlet 
+volumen på 125 ml.  </li>
+<li>Vend forsigtigt infusionsposen med det fortyndede produkt uden omrystning for at sikre 
+grundig blanding af produktet og fortyndingsmidlet. 
+ 
+Opløsningen af efgartigimod alfa kan, når den er fortyndet i natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske, opløsning, administreres ved brug af poser af polyethylen (PE), 
+polyvinylchlorid (PVC), ethylenvinylacetat (EVA) og ethylen/polypropylencopolymer 
+(polyolefinposer) samt via infusionsslanger af PE, PVC og polyurethan/polypropylen sammen 
+med filtre af polyurethan (PUR) eller PVC med filtermembran af polyethersulfon (PES) eller 
+polyvinylidenfluorid (PVDF). </li>
+</ul>
+<p>Administration 
+ 
+Vyvgart skal administreres af sundhedspersonale via intravenøs infusion. Det må ikke 
+administreres som en push- eller bolusinjektion. 
+ 
+Kontroller visuelt opløsningen for partikler inden administration. 
+ 
+Infunder hele volumenet på 125 ml af det fortyndede lægemiddel i løbet af 1 time ved brug af et 
+0,2 µm filter. Efter administration af lægemidlet skal slangen skylles med en 
+natriumchloridopløsning på 9 mg/ml (0,9 %) til injektionsvæske.<br />
+ 
+Lægemidlet skal administreres omgående efter fortynding, og infusionen af fortyndet opløsning 
+skal være fuldført inden for 4 timer efter fortynding. 
+ 
+Kemisk og fysisk stabilitet under brug er blevet påvist i 24 timer ved 2 °C - 8 °C. Fra et 
+mikrobiologisk synspunkt skal produktet anvendes omgående, medmindre fortyndingsmetoden 
+udelukker risikoen for mikrobiologisk kontaminering. Hvis det ikke anvendes omgående, er 
+opbevaringstider og -betingelser under anvendelse brugerens ansvar. Må ikke nedfryses. Det 
+fortyndede lægemiddel skal have stuetemperatur inden administration. Når det fortyndede 
+lægemiddel er taget ud af køleskabet, skal infusionen fuldføres inden for 4 timer. 
+Det fortyndede lægemiddel må ikke opvarmes på nogen anden måde end via den 
+omgivende luft. 
+ 
+I tilfælde af infusionsreaktioner skal infusionshastigheden nedsættes, eller administrationen skal 
+afbrydes eller seponeres. 
+ 
+Andre lægemidler må ikke injiceres gennem infusionssideporte eller blandes med Vyvgart. </p>
+<ol>
+<li>Særlige anvisninger vedrørende håndtering og opbevaring </li>
+</ol>
+<p>Opbevar hætteglassene i et køleskab (2 °C - 8 °C), indtil de skal bruges. Må ikke nedfryses. Opbevares 
+i den originale yderpakning for at beskytte mod lys. 
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter "EXP". Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Vyvgart 1.000 mg injektionsvæske, opløsning 
+efgartigimod alfa  </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f819453f37e8574dc396f13201d03208
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyvgart Package Leaflet for language en"
+Description: "ePI document Bundle for vyvgart Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f819453f37e8574dc396f13201d03208"
+* entry[0].resource = composition-en-f819453f37e8574dc396f13201d03208
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf819453f37e8574dc396f13201d03208"
+* entry[=].resource = mpf819453f37e8574dc396f13201d03208
+                            
+                    
+Instance: bundlepackageleaflet-da-f819453f37e8574dc396f13201d03208
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyvgart Package Leaflet for language da"
+Description: "ePI document Bundle for vyvgart Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f819453f37e8574dc396f13201d03208"
+* entry[0].resource = composition-da-f819453f37e8574dc396f13201d03208
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf819453f37e8574dc396f13201d03208"
+* entry[=].resource = mpf819453f37e8574dc396f13201d03208
+                            
+                    
+
+
+
+Instance: mpf819453f37e8574dc396f13201d03208
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vyvgart 20 mg/mL concentrate for solution for infusion"
-Description: "Vyvgart 20 mg/mL concentrate for solution for infusion"
+Title: "Medicinal Product vyvgart"
+Description: "vyvgart"
 Usage: #inline
 
  
@@ -351,7 +868,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vyvgart 20 mg/mL concentrate for solution for infusion"
+  * productName = "vyvgart"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -378,29 +895,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f819453f37e8574dc396f13201d03208
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vyvgart Package Leaflet for language en"
-Description: "ePI document Bundle for vyvgart Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f819453f37e8574dc396f13201d03208ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1674/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vyvgart"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f819453f37e8574dc396f13201d03208"
-* entry[0].resource = composition-en-f819453f37e8574dc396f13201d03208
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1c8c6dc7a854b7e7eb3a1871202c5743"
-* entry[=].resource = mp1c8c6dc7a854b7e7eb3a1871202c5743
-                            
-                      
+* title = "List of all ePIs associated with vyvgart"
+
+* subject = Reference(mp1c8c6dc7a854b7e7eb3a1871202c5743)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vyvgart "vyvgart"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f819453f37e8574dc396f13201d03208) // vyvgart en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f819453f37e8574dc396f13201d03208) // vyvgart da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f819453f37e8574dc396f13201d03208
+InstanceOf: List
+
+* insert f819453f37e8574dc396f13201d03208ListRuleset
+    

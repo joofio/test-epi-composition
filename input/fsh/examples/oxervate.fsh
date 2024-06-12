@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f9944720e0617f59c4092a55c234abd3
 InstanceOf: CompositionUvEpi
 Title: "Composition for oxervate Package Leaflet"
@@ -310,12 +313,468 @@ Italy </p>
 
 
 
+Instance: composition-da-f9944720e0617f59c4092a55c234abd3
+InstanceOf: CompositionUvEpi
+Title: "Composition for oxervate Package Leaflet"
+Description:  "Composition for oxervate Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp22b1a917a43823b14cd6dc8dbc015fcb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp22b1a917a43823b14cd6dc8dbc015fcb
+* title = "TEST PURPOSES ONLY - oxervate"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge OXERVATE </li>
+<li>Sådan skal du bruge OXERVATE </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What oxervate is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What oxervate is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OXERVATE indeholder det aktive stof cenegermin. Cenegermin er en type nervevækstfaktor (et 
+menneskeligt protein), der er naturligt til stede på øjets overflade. </p>
+<p>OXERVATE bruges til behandling af voksne med moderat eller alvorlig neurotrofisk 
+hornhindebetændelse. Det er en sygdom, der påvirker hornhinden (det gennemsigtige lag på øjets 
+forside), hvilket forårsager skade på den ydre overflade af hornhinden, der ikke heler naturligt, eller 
+der opstår sår på hornhinden. 
+OXERVATE anvendes til heling af hornhinden. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take oxervate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take oxervate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke OXERVATE:</p>
+<ul>
+<li>hvis du er allergisk over for cenegermin eller et af de øvrige indholdsstoffer i OXERVATE 
+(angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Brug kun lægemidlet i det/de påvirkede øje/øjne. 
+Kontakt lægen, før du bruger lægemidlet:</p>
+<ul>
+<li>hvis du har øjenbetændelse, fordi betændelsen skal behandles først. Hvis du får øjenbetændelse, 
+mens du bruger lægemidlet, skal du straks stoppe behandlingen og spørge lægen til råds. </li>
+<li>hvis du har kræft i øjet, fordi lægemidlet kan forværre kræft.  </li>
+<li>hvis du tager øjendråber, der indeholder kortikosteroider (f.eks. til at behandle betændelse i 
+hornhinden) eller konserveringsmidler (f.eks. benzalkoniumchlorid, polyquaternium-1, 
+benzododeciniumbromid, cetrimid). Øjendråber, der indeholder disse stoffer, kan sinke eller 
+forstyrre øjets heling og skal derfor undgås under behandling med lægemidlet.  </li>
+</ul>
+<p>Behandling med OXERVATE kan give milde til moderate øjengener, f.eks. øjensmerter. Hvis du får 
+en mere alvorlig øjenreaktion, skal du spørge din læge til råds.  </p>
+<p>Kontaktlinser kan forhindre korrekt brug af lægemidlet. Hvis du har kontaktlinser, skal du tage dem 
+ud, inden du bruger lægemidlet og vente 15 minutter efter brug af lægemidlet med at sætte dem i 
+igen. </p>
+<p>Børn og unge 
+Lægemidlet må ikke anvendes til børn og unge under 18 år. 
+Der er ikke tilstrækkeligt med oplysninger om brug til denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med OXERVATE 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. </p>
+<p>Du skal vente mindst 15 minutter inden eller efter brug af OXERVATE, hvis du bruger andre typer 
+øjendråber. Det hjælper med at undgå, at den ene øjendråbe fortynder den anden øjendråbe. Hvis du 
+også bruger øjensalve eller -gel eller andre typer tyktflydende øjendråber, skal du bruge OXERVATE 
+først og vente mindst 15 minutter, før du bruger anden medicin. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Brug af lægemidlet bør undgås under graviditet. Tal med lægen, hvis du er gravid eller har mistanke 
+om, at du er gravid. </p>
+<p>Det er ukendt, om lægemidlet udskilles i modermælk. Tal med lægen, inden du ammer dit barn, da der 
+skal træffes beslutning, om du skal stoppe med at amme, eller om du skal undlade/stoppe 
+behandlingen med OXERVATE. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan midlertidigt få sløret syn lige efter brug af lægemidlet. Hvis dette sker, skal du vente, til dit syn 
+bliver klart igen, før du fører motorkøretøj eller betjener maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take oxervate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take oxervate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er 1 dråbe i det påvirkede øje 6 gange dagligt med 2 timers mellemrum, hvor du 
+begynder om morgenen (6 dråber om dagen inden for 12 timer). Du skal fortsætte med behandlingen i 
+8 uger. </p>
+<p>Brugsanvisning 
+Følg disse anvisninger nøje, og spørg lægen eller apotekspersonalet, hvis der er noget, du ikke forstår. </p>
+<p>Til brug i øjet. Du vil få en isoleret beholder, der indeholder en ugekarton med OXERVATE og et 
+særskilt administrationssystem (består af medicinsk udstyr, der er beregnet til at trække lægemidlet op 
+og indgive det). </p>
+<p>Ugekartonen indeholder 7 hætteglas med OXERVATE (1 hætteglas pr. dag om ugen). Tag 
+ugekartonen med OXERVATE ud af den isolerede beholder og opbevar den i køleskabet, så snart du 
+kan (og under alle omstændigheder højst 5 timer efter du har modtaget lægemidlet på apoteket). Idet 
+apoteket opbevarer lægemidlet i en fryser, så skal du, hvis behandling er påbegyndt straks efter 
+modtagelse af ugekartonen, vente til første hætteglas er tøet op (det kan tage op til 30 minutter). </p>
+<p>Tag et enkelt hætteglas med lægemidlet ud af køleskabet om morgenen (altid på samme tidspunkt hver 
+morgen), og forbered det på følgende måde: </p>
+<ul>
+<li>
+<p>Vask hænderne. </p>
+</li>
+<li>
+<p>Hvis du har kontaktlinser i, skal du tage dem ud, før du bruger dråberne og vente i 15 minutter 
+efter du har brugt dette lægemiddel, før du sætter kontaktlinserne tilbage igen. </p>
+</li>
+<li>
+<p>Tag flip off-hætten af plastik af hætteglasset (billede 1). </p>
+</li>
+<li>
+<p>Træk bagsiden af hætteglasadapterens blisterpakning (billede 2). </p>
+</li>
+<li>
+<p>Lad hætteglasadapteren ligge i blisterpakningen og sæt den på hætteglasset ved at trykke den 
+ned, til den klikker fast på hætteglassets hals. Adapterens spids skal gennembryde hætteglassets 
+gummiprop. Når hætteglasadapteren er sat korrekt på, må den ikke tages af hætteglasset igen 
+(billede 3). </p>
+</li>
+<li>
+<p>Fjern og kassér emballagen til adapteren. </p>
+</li>
+</ul>
+<p>1 </p>
+<p>2 </p>
+<p>3 </p>
+<p>Flerdosishætteglasset med OXERVATE er nu klar til brug (1 dråbe i det påvirkede øje hver 2. time 
+6 gange dagligt). Hætteglasset kan opbevares i køleskabet eller under 25 °C i dagens løb, men må ikke 
+nedfryses. </p>
+<p>Følg nedenstående trin for at trække lægemidlet op og indgive hver dosis. </p>
+<ul>
+<li>
+<p>Tag en enkelt desinfektionsserviet og rens forsigtigt ydersiden af ventilen på adapterens 
+tilslutningsdel (billede 4). Når ventilen er renset, skal du vente i ca. 1 minut, så den kan tørre. </p>
+</li>
+<li>
+<p>Tag en pipette (dråbetæller) ud af dens beskyttende emballage. </p>
+</li>
+<li>
+<p>Skru pipetten (med uret) ind i den tilhørende del på adapteren (billede 5). </p>
+</li>
+<li>
+<p>Sørg for, at pipettestemplet er skubbet helt ind. </p>
+</li>
+<li>
+<p>Vend hætteglasset på hovedet (med pipetten påsat) og træk forsigtigt stemplet ud, indtil det 
+stopper, så der trækkes øjendråber ind i pipetten. Sørg for, at stemplet har nået sit stoppunkt 
+(billede 6). </p>
+</li>
+</ul>
+<p>4 </p>
+<p>5 </p>
+<p>6 </p>
+<ul>
+<li>
+<p>Efterse pipetten for at kontrollere, at den indeholder øjendråber. Luftbobler kan blokere pipetten 
+og forhindre, at den bliver korrekt fyldt (især ved første fyldning). Hvis pipetten er tom, holdes 
+hætteglasset på hovedet med den påsatte pipette. Skub stemplet helt ind og træk det ud igen. </p>
+</li>
+<li>
+<p>Når pipetten er korrekt fyldt, skrues den ud af hætteglasadapterens tilslutningsdel. </p>
+</li>
+<li>
+<p>Hold pipetten pegende nedad mellem langemand og tommelfinger, læg hovedet tilbage og 
+anbring pipetten over det påvirkede øje. Træk ned i underste øjenlåg med en finger, hvilket 
+frembringer et hulrum mellem øjenlåg og øjet. Tryk forsigtigt pipettestemplet ind og dryp en 
+enkelt dråbe i hvælvingen ind mod øjet (billede 7). Pas på, at du ikke rører ved øjet med 
+pipettens spids. </p>
+</li>
+<li>
+<p>Hold stadig hovedet bøjet tilbage og luk dit øje et par gange, så lægemidlet dækker hele øjets 
+overflade og bliver i dit øje. </p>
+</li>
+<li>
+<p>Kassér straks den brugte pipette efter brug, også selvom der er flere øjendråber tilbage i den. </p>
+</li>
+<li>
+<p>Hvis dråben ikke kommer ind i øjet, skal du prøve igen med en ny pipette og en ny serviet. </p>
+</li>
+<li>
+<p>Efter hver brug i dagens løb skal du vaske dine hænder og sætte hætteglasset tilbage i 
+køleskabet (eller opbevare det under 25 °C) resten af dagen og med adapteren påsat. </p>
+</li>
+</ul>
+<p>7</p>
+<p>Gentag ovenstående fremgangsmåde (fra billede 4 og fremefter) hver 2. time 6 gange dagligt. Brug en 
+ny desinfektionsserviet og en ny pipette hver gang. </p>
+<p>Hvis du skal dryppe begge øjne, skal du gentage ovenstående anvisninger for det andet øje med en ny 
+pipette (hvis du skal dryppe begge øjne, skal du bruge 2 hætteglas hver dag). </p>
+<p>Kassér det brugte hætteglas ved dagens afslutning hver dag (også selvom der stadig er øjendråber 
+tilbage i det), og under alle omstændigheder ikke senere end 12 timer efter det tidspunkt, du påsatte 
+adapteren. </p>
+<p>Du får en ny karton med OXERVATE hver uge i hele behandlingsperioden. 
+Sørg for at sætte en alarm til som påmindelse om at tage hver dosis, så præcis dosering hver 2. time 
+sikres. </p>
+<p>Du bør bruge det ugentlige dosisregistreringskort, der er vedlagt administrationssystemet, for at 
+kontrollere ved afslutningen af hver dag under behandlingen, at du har taget 6 doser den dag. På kortet 
+skal du skrive den dato, hvor du første gang bruger den pågældende ugekarton, tidspunktet for åbning 
+af hætteglasset (når hætteglasadapteren sættes på hætteglasset) og notere hver gang du bruger en dråbe 
+lægemidlet i ugens løb. </p>
+<p>Hvis du har brugt for meget OXERVATE 
+Bruger du mere du skal, så skyl øjet med lunkent vand. Du må ikke komme flere dråber i, før det er tid 
+til din næste sædvanlige dosis. Det er ikke sandsynligt, at brug af mere OXERVATE end anbefalet, vil 
+være skadeligt. Hvis du bruger for meget, skal du skylle det påvirkede øje med lunkent vand. Fortsæt 
+med din næste dosis som planlagt.  </p>
+<p>Hvis du har glemt at bruge OXERVATE 
+Fortsæt med din næste dosis som planlagt. Du må ikke tage en dobbeltdosis som erstatning for den 
+glemte dosis. Du kan tage den glemte dosis 2 timer efter sidste planlagte dosis for dagen, forudsat at </p>
+<p>det stadig er inden for de 12 timer efter første åbning af hætteglasset for den pågældende dag. Du må 
+ikke bruge flere end 6 dråber hver dag i de(t) påvirkede øje. </p>
+<p>Hvis du holder op med at bruge OXERVATE<br />
+Skaden eller såret i dit øje vil blive værre og kan medføre betændelse eller nedsat syn. Tal med lægen 
+først, hvis du gerne vil stoppe med at bruge OXERVATE. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De fleste bivirkninger opstår generelt i og rundt om øjnene. </p>
+<p>Der er rapporteret om følgende bivirkninger: </p>
+<p>Meget almindelige (forekommer hos mere end 1 ud af 10 personer) </p>
+<ul>
+<li>Øjensmerter </li>
+</ul>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Øjenbetændelse </p>
+</li>
+<li>
+<p>Smerter i øjenlåget </p>
+</li>
+<li>
+<p>Unormal fornemmelse og gener i øjet, herunder en følelse af at have noget i øjet </p>
+</li>
+<li>
+<p>Øget tåreflåd (dette kan omfatte symptomer såsom udflåd fra øjet) </p>
+</li>
+<li>
+<p>Betændelse i øjenlåget med kløe og rødme </p>
+</li>
+<li>
+<p>Rødme af bindehinden (slimhinde, der dækker øjets forside og indersiden af øjenlåget) </p>
+</li>
+<li>
+<p>Lysfølsomhed </p>
+</li>
+<li>
+<p>Irritation i eller rundt om øjet </p>
+</li>
+<li>
+<p>Aflejring af fremmedlegeme i øjet </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Kraftig indvækst af blodkar i hornhinden </p>
+</li>
+<li>
+<p>Betændelse i hornhinden med puds og hævelse </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store oxervate"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store oxervate"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på yderkartonen og hætteglassets etiket efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevar ugekartonen med de 7 hætteglas med OXERVATE i køleskabet (2-8 °C). </p>
+<p>Når adapteren er påsat hætteglasset, kan det opbevares i køleskabet eller under 25 °C. Kassér det 
+brugte hætteglas ved dagens afslutning (også selvom der stadig er øjendråber tilbage i det), og under 
+alle omstændigheder ikke senere end 12 timer efter det tidspunkt, du påsatte adapteren. </p>
+<p>De vedlagte pipetter i administrationssystemet er kun til engangsbrug. Hver pipette skal kasseres 
+straks efter brug, også selvom der stadig er øjendråber tilbage i den. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OXERVATE indeholder:</p>
+<ul>
+<li>Aktivt stof: cenegermin. 1 ml OXERVATE indeholder 20 mikrogram cenegermin. </li>
+<li>Øvrige indholdsstoffer: trehalosedihydrat, mannitol, vandfrit dinatriumhydrogenfosfat, 
+natriumdihydrogenfosfatdihydrat, hydroxypropylmethylcellulose, polyethylenglycol 6000, 
+L-methionin og vand til injektionsvæske, saltsyre, natriumhydroxid og nitrogen. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+OXERVATE er en klar, farveløs øjendråbeopløsning. </p>
+<p>Den fås i flerdosishætteglas af glas. 
+Hvert hætteglas indeholder 1 ml øjendråbeopløsning. 
+Hætteglassene ligger i en ugekarton af pap, der indeholder 7 hætteglas. 
+Administrationssystemet indeholder 7 hætteglasadaptere, 42 pipetter, 42 desinfektionsservietter og et 
+dosisregistreringskort følger med særskilt fra hætteglassene. Ekstra reserveadapter (1), reservepipetter 
+(3) og reserveservietter (3) er også vedlagt. </p>
+<p>Pakningsstørrelse: 7 flerdosishætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Dompé farmaceutici S.p.A. 
+Via Santa Lucia, 6 
+20122 Milano 
+Italien </p>
+<p>Fremstiller 
+Dompé farmaceutici S.p.A. 
+Via Campo di Pile 
+67100 L’Aquila 
+Italien </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<p>BILAG IV </p>
+<p>VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE 
+FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE </p>
+<p>Videnskabelige konklusioner </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for cenegermin er CHMP 
+nået frem til følgende videnskabelige konklusioner: </p>
+<p>I betragtning af de mulige årsagsforhold mellem administration af præparatet og 34 tilfælde af 
+"hornhindeaflejring" anbefales følgende ændringer i produktinformationen for lægemidler, der 
+indeholder cenegermin (ny tekst understreget og med fed skrift, slettet tekst med gennemstregning): </p>
+<ul>
+<li>Punkt 4.8 </li>
+</ul>
+<p>Følgende bivirkninger skal tilføjes under systemorganklassen Øjne med hyppigheden "almindelig": </p>
+<p>hornhindeaflejring </p>
+<p>Indlægssedlen skal opdateres i overensstemmelse hermed. </p>
+<p>CHMP tilslutter sig PRAC's videnskabelige konklusioner. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
+<p>På baggrund af de videnskabelige konklusioner for cenegermin er CHMP af den opfattelse, at 
+benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder cenegermin, forbliver uændret 
+under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f9944720e0617f59c4092a55c234abd3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oxervate Package Leaflet for language en"
+Description: "ePI document Bundle for oxervate Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f9944720e0617f59c4092a55c234abd3"
+* entry[0].resource = composition-en-f9944720e0617f59c4092a55c234abd3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf9944720e0617f59c4092a55c234abd3"
+* entry[=].resource = mpf9944720e0617f59c4092a55c234abd3
+                            
+                    
+Instance: bundlepackageleaflet-da-f9944720e0617f59c4092a55c234abd3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oxervate Package Leaflet for language da"
+Description: "ePI document Bundle for oxervate Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f9944720e0617f59c4092a55c234abd3"
+* entry[0].resource = composition-da-f9944720e0617f59c4092a55c234abd3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf9944720e0617f59c4092a55c234abd3"
+* entry[=].resource = mpf9944720e0617f59c4092a55c234abd3
+                            
+                    
+
+
+
+Instance: mpf9944720e0617f59c4092a55c234abd3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product OXERVATE 20 micrograms/ml eye drops, solution"
-Description: "OXERVATE 20 micrograms/ml eye drops, solution"
+Title: "Medicinal Product oxervate"
+Description: "oxervate"
 Usage: #inline
 
  
@@ -335,7 +794,7 @@ Usage: #inline
 
 
 * name
-  * productName = "OXERVATE 20 micrograms/ml eye drops, solution"
+  * productName = "oxervate"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -362,29 +821,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f9944720e0617f59c4092a55c234abd3
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for oxervate Package Leaflet for language en"
-Description: "ePI document Bundle for oxervate Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f9944720e0617f59c4092a55c234abd3ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1197/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "oxervate"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f9944720e0617f59c4092a55c234abd3"
-* entry[0].resource = composition-en-f9944720e0617f59c4092a55c234abd3
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp22b1a917a43823b14cd6dc8dbc015fcb"
-* entry[=].resource = mp22b1a917a43823b14cd6dc8dbc015fcb
-                            
-                      
+* title = "List of all ePIs associated with oxervate"
+
+* subject = Reference(mp22b1a917a43823b14cd6dc8dbc015fcb)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#oxervate "oxervate"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f9944720e0617f59c4092a55c234abd3) // oxervate en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f9944720e0617f59c4092a55c234abd3) // oxervate da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f9944720e0617f59c4092a55c234abd3
+InstanceOf: List
+
+* insert f9944720e0617f59c4092a55c234abd3ListRuleset
+    

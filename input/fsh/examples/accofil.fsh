@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8d69d820c695d3ae73c4c08229874072
 InstanceOf: CompositionUvEpi
 Title: "Composition for accofil Package Leaflet"
@@ -500,12 +503,640 @@ The Netherlands </p>
 
 
 
+Instance: composition-da-8d69d820c695d3ae73c4c08229874072
+InstanceOf: CompositionUvEpi
+Title: "Composition for accofil Package Leaflet"
+Description:  "Composition for accofil Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0136d07ff1c8b838da13e64ce15d99f1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0136d07ff1c8b838da13e64ce15d99f1
+* title = "TEST PURPOSES ONLY - accofil"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Accofil<br />
+3. Sådan skal du bruge Accofil<br />
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What accofil is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What accofil is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Accofil er en vækstfaktor for hvide blodlegemer (granulocytkoloni-stimulerende faktor) og tilhører en 
+gruppe lægemidler ved navn cytokiner. Vækstfaktorer er proteiner, der dannes naturligt i kroppen, 
+men de kan også fremstilles ved hjælp af bioteknologi, så de kan bruges som et lægemiddel. Accofil 
+virker ved at anspore knoglemarven, så den producerer flere hvide blodlegemer. </p>
+<p>Et nedsat antal af hvide blodlegemer (neutropeni) kan forekomme af flere grunde og svækker 
+kroppens evne til at bekæmpe infektion. Accofil stimulerer knoglemarven til hurtigt at producere flere 
+hvide blodlegemer.  </p>
+<p>Accofil anvendes:<br />
+ 
+til at øge antallet af hvide blodlegemer efter behandling med kemoterapi for at hjælpe med at 
+forebygge infektioner 
+ 
+til at øge antallet af hvide blodlegemer efter en knoglemarvstransplantation for at hjælpe med at 
+forebygge infektioner 
+ 
+inden højdosis-kemoterapi til at få knoglemarven til at producere flere stamceller, som kan 
+høstes og gives tilbage til dig efter behandlingen. Disse kan tages fra dig eller fra en donor. 
+Stamcellerne vil så nå tilbage i knoglemarven og producere blodlegemer 
+ 
+til at øge antallet af hvide blodlegemer, hvis du lider af svær kronisk neutropeni, for at hjælpe 
+med at forebygge infektioner 
+ 
+hos patienter med fremskreden hiv-infektion, hvilket hjælper med at nedsætte risikoen for 
+infektioner.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take accofil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take accofil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Accofil<br />
+- hvis du er allergisk over for filgrastim eller et af de øvrige indholdsstoffer i Accofil (anført i 
+punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Accofil. </p>
+<p>Fortæl det til lægen, før du påbegynder behandlingen, hvis du har:</p>
+<ul>
+<li>Seglcelleanæmi, da Accofil kan medføre seglcellekrise. </li>
+<li>Osteoporose (knogleskørhed).  </li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du under behandling med Accofil:</p>
+<ul>
+<li>
+<p>Får smerter øverst til venstre i maven, smerter under ribbenene i venstre side eller yderst på 
+venstre skulder (det kan være symptomer på en forstørret milt (splenomegali) eller muligvis en 
+sprængt milt). </p>
+</li>
+<li>
+<p>Bemærker blå mærker eller unormale blødninger (det kan være symptomer på en sygdom i 
+blodpladerne (trombocytopeni)), hvor blodet kan have sværere ved at størkne. </p>
+</li>
+<li>
+<p>Får pludselige tegn på allergi som udslæt, kløe eller nældefeber i huden, hævelse i ansigt, læber, 
+tunge eller andre dele af kroppen, stakåndethed, hvæsende vejrtrækning eller 
+vejrtrækningsbesvær, da det kan være tegn på en alvorlig allergisk reaktion (overfølsomhed).   </p>
+</li>
+<li>
+<p>Bliver hævet i ansigtet eller på anklerne, får blod i urinen, eller urinen er brunlig, eller du 
+bemærker, at du tisser mindre end du plejer (glumerulonefritis). </p>
+</li>
+<li>
+<p>Får symptomer på betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i 
+kroppen). Der er sjældne indberetninger om dette hos kræftpatienter og raske donorer. 
+Symptomerne kan omfatte feber, mavesmerter, utilpashed, rygsmerter og øgede 
+betændelsesmarkører. Fortæl det til lægen, hvis du oplever disse symptomer. </p>
+</li>
+</ul>
+<p>Manglende reaktion på filgrastim 
+Hvis du ikke reagerer på behandlingen med filgrastim, eller hvis en reaktion på behandlingen ikke kan 
+opretholdes, vil lægen undersøge årsagen. Det indbefatter undersøgelse af, om du har udviklet 
+antistoffer, der neutraliserer aktiviteten af filgrastim. </p>
+<p>Lægen vil muligvis ønske at overvåge dig nøjere. Se afsnit 4 i denne indlægsseddel. </p>
+<p>Hvis du lider af alvorlig, kronisk neutropeni, kan der være risiko for, at du udvikler kræft i blodet 
+(leukæmi, myelodysplastisk syndrom [MDS]). Du bør tale med lægen om risiciene for at udvikle kræft 
+i blodet, og hvilke test, der skal udføres. Hvis du udvikler kræft i blodet, eller det er sandsynligt, at du 
+vil gøre det, må du kun anvende Accofil efter lægens anvisning. </p>
+<p>Hvis du er stamcelledonor, skal du være i alderen 16 til 60 år.  </p>
+<p>Vær ekstra forsigtig med andre produkter, der stimulerer hvide blodlegemer 
+Accofil tilhører en gruppe produkter, der stimulerer produktionen af hvide blodlegemer. Lægen skal 
+altid registrere det nøjagtige produkt, som du anvender.  </p>
+<p>Brug af andre lægemidler sammen med Accofil  </p>
+<p>Fortæl  lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Graviditet, amning og frugtbarhed 
+Accofil er ikke blevet undersøgt hos gravide eller ammende kvinder.  </p>
+<p>Accofil frarådes under graviditet. </p>
+<p>Det er vigtigt, at du meddeler lægen, hvis du:</p>
+<ul>
+<li>er gravid eller ammer </li>
+<li>tror at du måske er gravid, eller </li>
+<li>planlægger at blive gravid </li>
+</ul>
+<p>Hvis du bliver gravid under behandlingen med Accofil, skal du straks fortælle det til din læge. </p>
+<p>Medmindre lægen fortæller dig andet, skal du holde op med at amme, hvis du bruger Accofil. </p>
+<p>Trafik-og arbejdssikkerhed 
+Accofil kan have en mindre indvirkning på din evne til at føre motorkøretøj og betjene maskiner. 
+Dette lægemiddel kan forårsage svimmelhed. Du tilrådes at vente og se, hvordan du har det, efter at 
+have taget Accofil og inden kørsel eller betjening af maskiner.  </p>
+<p>Accofil indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>
+<p>Accofil indeholder sorbitol<br />
+Dette lægemiddel indeholder 50 mg sorbitol i hver ml. Sorbitol er en kilde til fructose. Hvis du (eller 
+dit barn) har arvelig fructoseintolerans (HFI), som er en sjælden arvelig sygdom, må du (eller dit barn) 
+ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde fructose, hvilket kan forårsage 
+alvorlige bivirkninger. </p>
+<p>Du skal fortælle det til lægen, inden du får dette lægemiddel, hvis du (eller dit barn) har HFI, eller 
+hvis dit barn ikke længere kan indtage sukkerholdig mad eller drikke, fordi barnet bliver dårligt, 
+kaster op eller får ubehagelige virkninger som f.eks. oppustethed, mavekramper eller diarré. </p>
+<p>Allergi over for naturgummi (latex). Kanylebeskyttelseshætten på den fyldte injektionssprøjte 
+indeholder tørt naturgummi (et derivat af latex), som kan forårsage en alvorlig allergisk reaktion </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take accofil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take accofil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet 
+eller sygeplejersken. </p>
+<p>Sådan indgives Accofil og så meget skal jeg tage<br />
+Accofil indgives som regel som en daglig injektion i vævet lige under huden (en såkaldt subkutan 
+injektion). Det kan også gives som en daglig langsom injektion i venen (en såkaldt intravenøs 
+infusion). Den sædvanlige dosis varierer afhængigt af din sygdom og vægt. Din læge vil fortælle dig, 
+hvor meget Accofil du skal tage.  </p>
+<p>Patienter, der får en knoglemarvstransplantation efter kemoterapi:<br />
+Du vil normalt få din første dosis Accofil mindst 24 timer efter din kemoterapi og mindst 24 timer 
+efter knoglemarvstransplantationen.  </p>
+<p>Du eller dine omsorgspersoner kan få instruktion i, hvordan man giver en subkutan injektion, så du 
+kan fortsætte behandlingen hjemme. Men du må ikke prøve at gøre dette, medmindre du først har fået 
+grundig instruktion af lægen eller sygeplejersken. </p>
+<p>Hvor længe skal jeg tage Accofil?<br />
+Du skal tage Accofil, indtil antallet af dine hvide blodlegemer er normalt. Der vil blive taget 
+almindelige blodprøver for at kontrollere antallet af hvide blodlegemer i kroppen. Din læge vil fortælle 
+dig, hvor længe du skal tage Accofil.  </p>
+<p>Brug til børn<br />
+Accofil anvendes til at behandle børn, som får kemoterapi, eller lider af svært nedsat antal hvide 
+blodlegemer (neutropeni). Doseringen til børn, der får kemoterapi, er den samme som for voksne. </p>
+<p>Sådan giver du dig selv indsprøjtninger 
+Dette afsnit indeholder oplysninger om, hvordan du kan give dig selv indsprøjtninger med Accofil. 
+Det er vigtigt, at du ikke forsøger at tage en indsprøjtning selv, før du har fået den fornødne vejledning 
+af en læge eller sygeplejerske. Spørg lægen eller sygeplejersken til råds, hvis du 
+er i tvivl om, hvordan du injicerer dig selv, eller hvis du har spørgsmål. </p>
+<p>Sådan injicerer du Accofil 
+Du skal give indsprøjtningen i vævet lige under huden. Det kaldes en subkutan injektion. Du skal tage 
+indsprøjtningerne på omtrent samme tidspunkt hver dag. </p>
+<p>Nødvendigt udstyr 
+For at give dig selv en subkutan injektion skal du bruge:</p>
+<ul>
+<li>en fyldt lægemiddelsprøjte med Accofil, </li>
+<li>en spritserviet eller lignende. </li>
+</ul>
+<p>Sådan gør du dig klar til at give dig selv en subkutan injektion af Accofil 
+Sørg for, at kanylebeskyttelseshætten forbliver på sprøjten, indtil du er klar til at give injektionen. 
+a. 
+Tag lægemiddelsprøjten med Accofil ud af køleskabet. 
+b. 
+Kontroller udløbsdatoen på etiketten på den fyldte injektionssprøjte (EXP). Brug ikke sprøjten, 
+hvis sidste dato i den nævnte måned er overskredet, eller hvis sprøjten har været opbevaret uden 
+for køleskab i mere end 15 dage, eller brugstiden på anden måde er udløbet. 
+c. 
+Kontroller Accofils udseende. Opløsningen skal være klar og farveløs. Hvis den indeholder 
+partikler, må du ikke bruge den. 
+d. 
+For at gøre indsprøjtningen så bekvem som muligt skal du lade den fyldte injektionssprøjte ligge 
+i 30 minutter ved stuetemperatur eller holde den fyldte injektionssprøjte forsigtigt i hånden i 
+nogle få minutter. Du må ikke opvarme Accofil på anden vis (for eksempel hverken i mikroovn 
+eller i varmt vand). 
+e. 
+Vask hænderne grundigt. 
+f. 
+Find et bekvemt sted med godt lys og anbring udstyret, hvor du let kan nå det (den fyldte 
+injektionssprøjte med Accofil og spritservietten). </p>
+<p>Sådan forbereder du indsprøjtningen af Accofil 
+Før injektion af Accofil skal du gøre følgende: 
+Hvis en fyldt injektionssprøjte tabes på en hård overflade, må den ikke anvendes. </p>
+<p>Trin 1: Kontrollér at enheden er intakt 
+Vær sikker på, at enheden er intakt/ikke beskadiget. Du må ikke anvende præparatet, hvis du 
+bemærker nogen form for beskadigelse (brud på injektionssprøjte eller kanylens beskyttelseshætte) 
+eller løse komponeneter. Hvis kanylens beskyttelseshætte er i sikkerhedsposition før brug – som vist 
+på billede 9 – betyder dette, at enheden allerede har været brugt. Som tommelfingerregel må 
+præparatet ikke anvendes, hvis det ikke er i overensstemmelse med billede 1. Er dette tilfældet, så 
+bortskaffes præparatet i en kanylebeholder. </p>
+<p>Billede 1 </p>
+<p>Trin 2: Fjern kanylehætten 
+1. Fjern beskyttelseshætten som vist på billede 2. Hold omkring kanylens beskyttelseshætte med 
+den ene hånd – med kanylens spids væk fra dig og uden at røre ved stempelstangen. Træk 
+beskyttelseshætten af med en lige bevægelse med den anden hånd. Efter beskyttelseshætten er 
+fjernet, bortskaffes den i kanylebeholderen.<br />
+2. Du kan se en lille luftboble i den fyldte injektionssprøjte. Du behøver ikke at fjerne luftboblen 
+inden injektionen. Injektion af opløsningen med luftboblen er uskadeligt. 
+3. Sprøjten kan indeholde mere væske, end du skal bruge. Brug skalaen på sprøjtecylinderen til at 
+afmåle den dosis Accofil, som lægen har ordineret, på følgende måde: Pres overskydende væske 
+ud af sprøjten ved at trykke stemplet i til det antal milliliter (ml), der svarer til den ordinerede 
+dosis. 
+4. Tjek en ekstra gang for at sikre, at sprøjten indeholder den korrekte dosis Accofil. 
+5. Nu kan du bruge den fyldte injektionssprøjte. </p>
+<p>Billede 2 </p>
+<p>Hvor skal indsprøjtningen gives? 
+De mest velegnede steder til indsprøjtningen er:</p>
+<ul>
+<li>øverst på lårene </li>
+<li>i maven, undtagen i området omkring navlen (se billede 3). </li>
+</ul>
+<p>Billede 3 </p>
+<p>Hvis indsprøjtningen gives af en anden person, kan den også gives bag på armene (se billede 4). </p>
+<p>Billede 4 </p>
+<p>Det er bedst at give indsprøjtningen et nyt sted hver dag for at nedsætte risikoen for ømhed ved 
+injektionsstedet. </p>
+<p>Trin 3: Stik kanylen ind 
+- Klem let sammen om huden på injektionsstedet med den ene hånd 
+ 
+Kanylen stikkes ind i injektionsstedet i en 45-90 graders vinkel med den anden hånd - uden at 
+stempelstangens hoved berøres (se billede 6 og 7). </p>
+<p>Sådan gives indsprøjtningen 
+Desinficer indsprøjtningsstedet med en spritserviet og tag godt fat i huden med tommel- og 
+pegefingeren uden at klemme til (se billede 5). </p>
+<p>Billede 5 </p>
+<p>Fyldt sprøjte uden kanylebeskytter </p>
+<p>a. 
+Stik kanylen helt ind i huden, som sygeplejersken eller lægen har vist dig (se billede 6). 
+b. 
+Træk stemplet lidt tilbage for at tjekke, at du ikke har ramt et blodkar. Hvis du kan se blod i 
+sprøjten, skal du fjerne kanylen fra huden og stikke den ind et andet sted. 
+c. 
+Mens huden fastholdes mellem fingrene, trykkes stemplet langsomt og jævnt ned, indtil hele 
+dosen er blevet injiceret, og stemplet ikke kan trykkes yderligere ned. Tryk stadig på stemplet! 
+d. 
+Injicer kun den dosis, som lægen har ordineret. 
+e. 
+Når væsken er injiceret, fjernes kanylen fra huden, mens du stadig trykker på stemplet. Derefter 
+slippes huden. 
+f. 
+Anbring den brugte sprøjte i en affaldsbeholder. Hver sprøjte må kun anvendes til én 
+indsprøjtning. </p>
+<p>Billede 6 </p>
+<p>Fyldt sprøjte med kanylebeskytter </p>
+<p> 
+Før kanylen helt ind under huden, sådan som sygeplejersken eller lægen har vist dig. 
+ 
+Træk stemplet lidt tilbage for at kontrollere, at du ikke har punkteret et blodkar. Fjern kanylen, 
+hvis der er blod i sprøjten, og giv indsprøjtningen et andet sted. Injicer kun den dosis, som 
+lægen har ordineret, og følg instruktionerne nedenfor.  </p>
+<p>Billede 7 </p>
+<p>Trin 4: Injektion 
+Anbring din tommelfinger på stempelstangens hoved. Tryk stempelstangen i bund med et fast tryk til 
+sidst for at sikre, at tømningen af sprøjten er gennemført (se billede 8). Hold huden i et sikkert greb, 
+indtil injektionen er gennemført.  </p>
+<p>Billede 8 </p>
+<p>Trin 5: Kanylebeskytter 
+Sikkerhedssystemet bliver aktiveret, når stempelstangen er trykket helt i bund:</p>
+<ul>
+<li>Hold sprøjten stille og løft langsomt tommelfingeren fra stempelstangens hoved </li>
+<li>Stempelstangen vil bevæge sig op med tommelfingeren og fjederen vil trække kanylen tilbage 
+fra injektionsstedet og ind i kanylebeskytteren (se billede 9). </li>
+</ul>
+<p>Billede 9 </p>
+<p>OBS! 
+Hvis du har problemer, må du endelig bede lægen eller sygeplejersken om hjælp og vejledning. </p>
+<p>Bortskaffelse af anvendte sprøjter 
+Kanylebeskytteren forhindrer stikulykker efter brug, så yderligere sikkerhedsforanstaltninger ved 
+bortskaffelse er ikke nødvendige. Følg de instruktioner, du har fået af lægen, sygeplejersken eller 
+apotekspersonalet, når du bortskaffer sprøjten. </p>
+<p>Hvis du har brugt for meget Accofil<br />
+Tag ikke en højere dosis, end lægen har ordineret. Hvis du tror, at du har injiceret mere Accofil, end 
+du burde, skal du kontakte lægen hurtigst muligt. </p>
+<p>Hvis du har glemt at bruge Accofil<br />
+Hvis du har sprunget en injektion over eller har injiceret for lidt, skal du kontakte din læge så hurtigt 
+som muligt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl straks din læge under behandlingen:</p>
+<ul>
+<li>hvis du får en allergisk reaktion, herunder føler dig svækket, blodtrykfald, vejrtrækningsbesvær, 
+hævelse af ansigt (anafylaksi), hududslæt, kløende udslæt (urticaria), hævelse i ansigt, læber, 
+mund, tunge eller hals (angioødem) og stakåndethed (dyspnø).  </li>
+<li>hvis du får hoste, feber og stakåndethed (dyspnø), da dette kan være tegn på lungesvigt (Acute 
+Respiratory Distress Syndrome – ARDS).  </li>
+<li>hvis du får nyreskade (glomerulonefritis). Der er blevet observeret nyreskader hos patienter, 
+som fik filgrastim. Ring straks til lægen, hvis dit ansigt bliver oppustet eller dine ankler hæver, 
+du får blod i urinen eller din urin bliver brunfarvet og du lægger mærke til, at du ikke lader 
+vandet så tit. </li>
+<li>hvis du får smerter i den øvre venstre side af maven, smerter under ribbenene i venstre side eller 
+smerter i skulderen, da der kan være problemer med milten (forstørrelse af milten 
+(splenomegali) eller bristning af milten).  </li>
+<li>hvis du behandles for svær kronisk neutropeni, og du har blod i urinen (hæmaturi). Din læge vil 
+regelmæssigt undersøge din urin, hvis du får denne bivirkning, eller hvis der findes protein i din 
+urin (proteinuri) </li>
+<li>hvis du har en eller flere af følgende bivirkninger: Hævelse eller oppustethed, som kan være 
+forbundet med mindre hyppig vandladning, åndedrætsbesvær, oppustet mave og følelse af 
+opfyldning samt en generel følelse af træthed. Disse symptomer udvikler sig almindeligvis 
+hurtigt. </li>
+</ul>
+<p>Dette kan være symptomer på en tilstand, som kaldes ”kapillær lækagesyndrom”, og som får blod til at 
+lække fra de små blodkar ud i kroppen og kræver akut lægehjælp. </p>
+<ul>
+<li>
+<p>hvis du har en kombination af følgende symptomer:</p>
+</li>
+<li>
+<p>feber eller kulderystelser eller følelse af at være meget kold, høj puls, forvirring eller 
+desorientering, åndenød, ekstrem smerte eller ubehag og klam eller svedig hud. </p>
+</li>
+</ul>
+<p>Disse kan være symptomer på en tilstand kaldet blodforgiftning (også kaldet "sepsis"), hvilket er en 
+alvorlig infektion med betændelsesreaktion i hele kroppen, der kan være livstruende og kræver akut 
+lægehjælp. </p>
+<p>En almindelig bivirkning under brug af Accofil er smerter i dine muskler eller knogler (muskel- og 
+ledsmerter), som kan afhjælpes ved at tage smertestillende lægemidler (analgetika). Hos patienter, der 
+gennemgår en stamcelle- eller knoglemarvstransplantation, kan der opstå graft versus host-sygdom 
+(GvHD) – dette er donorcellernes reaktion mod patienten, der får transplantationen. Tegn og 
+symptomer omfatter udslæt i håndflader eller fodsåler samt sår i munden, maven, leveren, på huden 
+eller i dine øjne, lunger, skede og led.  </p>
+<p>Der kan ses et forhøjet antal hvide blodlegemer og et nedsat antal blodplader, hvilket sænker dit blods 
+størkningsevne (trombocytopeni) hos normale stamcelledonorer. Din læge vil overvåge dette. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter):</p>
+<ul>
+<li>opkastning </li>
+<li>kvalme </li>
+<li>usædvanligt hårtab eller -udtynding (alopeci) </li>
+<li>træthed </li>
+<li>ømhed og hævelse af slimhinden i fordøjelseskanalen, som går fra munden til anus (mucositis) </li>
+<li>nedsat antal blodplader, hvilket sænker blodets størkningsevne (trombocytopeni) </li>
+<li>lavt antal røde blodlegemer (anæmi) </li>
+<li>hovedpine </li>
+<li>diarré </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter):</p>
+<ul>
+<li>betændelse i lungen (bronkitis) </li>
+<li>øvre luftvejsinfektion </li>
+<li>urinvejsinfektion </li>
+<li>nedsat appetit </li>
+<li>søvnbesvær (søvnløshed) </li>
+<li>svimmelhed </li>
+<li>nedsat følsomhed, især i huden (hypoæstesi) </li>
+<li>prikken eller følelsesløshed i hænder eller fødder (paræstesi) </li>
+<li>lavt blodtryk (hypotension) </li>
+<li>højt blodtryk (hypertension) </li>
+<li>hoste </li>
+<li>ophostning af blod (hæmoptyse) </li>
+<li>smerter i mund og hals (oropharyngeal smerte) </li>
+<li>næseblod (epistaxis) </li>
+<li>forstoppelse </li>
+<li>smerter i munden </li>
+<li>forstørrelse af leveren (hepatomegali) </li>
+<li>udslæt </li>
+<li>rødme i huden (erytem) </li>
+<li>muskelkrampe </li>
+<li>smerter under vandladning (dysuri) </li>
+<li>brystsmerter </li>
+<li>smerter </li>
+<li>generaliseret svaghed (asteni) </li>
+<li>generelt følelse af utilpashed </li>
+<li>hævelse i hænder og fødder (perifert ødem) </li>
+<li>forhøjelse af visse enzymer i blodet </li>
+<li>ændringer i blodsammensætning </li>
+<li>transfusionsreaktion </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) 
+- stigning i antal af hvide blodlegemer (leukocytose) 
+- allergisk reaktion (overfølsomhed) 
+- afvisning af transplanteret knoglemarv (graft versus host-sygdom) 
+- høje urinsyreniveauer i blodet, hvilket kan forårsage gigt (hyperuricaemia) 
+- leverskader forårsaget af blokering af de små vener i leveren (veno-okklusiv sygdom) 
+- lungerne virker ikke som de skal og forårsager åndenød (åndedrætssvigt) 
+- hævelse af og/eller væske i lungerne (lungeødem) 
+- betændelse i lungerne (interstitiel lungesygdom) 
+- unormale røntgenundersøgelser af lungerne (lungeinfiltration) 
+- blødning i lungen (lungeblødning) 
+- manglende optagelse af ilt i lungerne (hypoxi) 
+- bulet hududslæt (macuo-papuløst udslæt) 
+- sygdom, der nedsætter knogletætheden, hvilket gør dem svagere, mere porøse og sandsynligvis 
+øger risikoen for brud (osteoporose) 
+- reaktion på injektionsstedet </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter) 
+- betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i kroppen), se pkt. 2. - kraftige smerter i knogler, bryst, tarme eller led (seglcellekrise) 
+- pludselig livstruende allergisk reaktion (anafylaktisk reaktion) 
+- smerter og hævelse af leddene, der minder om podagragigt (pseudogout) 
+- en ændring af, hvordan din krop regulerer væskerne i din krop, hvilket kan føre til hævelser 
+(væskevolumenforstyrrelser) 
+- betændelse i hudens blodkar (kutan vaskulitis) 
+- blommefarvede, hævede, smertefulde sår på arme og ben og til tider i ansigt og på hals med 
+feber (Sweets syndrom) 
+- forværring af leddegigt (rheumatoid arthritis) 
+- usædvanlige ændringer i urinen 
+- fald i knogletæthed </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V.  </p>
+<p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
+af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store accofil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store accofil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på yderkartonen og på den fyldte injektionssprøjte 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C til 8 °C). Må ikke fryses. </p>
+<p>Injektionssprøjten kan tages ud af køleskabet og opbevares ved stuetemperatur (ikke over 25 °C) i en 
+enkelt periode, som slutter inden den anførte udløbsdato og højst må vare 15 dage. Ved afslutningen af 
+denne periode må lægemidlet ikke sættes tilbage i køleskabet, men skal bortskaffes. </p>
+<p>Opbevar den fyldte injektionssprøjte i yderkartonen for at beskytte mod lys. </p>
+<p>Brug ikke Accofil, hvis du bemærker, at opløsningen er uklar eller der er misfarvning eller den 
+indeholder partikler. </p>
+<p>Sæt ikke beskyttelseshætten tilbage på brugte kanyler, da du ved et uheld kan komme til at stikke dig 
+selv.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Accofil indeholder:</p>
+<ul>
+<li>Aktivt stof: filgrastim. Hver fyldt injektionssprøjte indeholder 30 mill (300 mikrogram) 
+filgrastim i 0,5 ml, svarende til 0,6 mg/ml. </li>
+<li>Øvrige indholdsstoffer: eddikesyre, natriumhydroxid, sorbitol (E420), polysorbat 80 og vand til 
+injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Accofil er en klar, farveløs opløsning til injektion eller infusion i en fyldt injektionssprøjte med en 
+påsat kanyle. Sprøjten har 1/40 trykte markeringer fra 0,1 ml til 1 ml på cylinderen. Hver fyldt 
+injektionssprøjte indeholder 0,5 ml opløsning. </p>
+<p>Accofil findes i pakninger, der indeholder 1, 3, 5, 7 eller 10 fyldte injektionssprøjter med eller uden 
+fortil monteret kanylebeskytter samt spritserviet(ter).  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Accord Healthcare S.L.U.<br />
+World Trade Center, Moll de Barcelona, s/n,<br />
+Edifici Est 6ª planta,<br />
+08039 Barcelona,<br />
+Spanien </p>
+<p>Producent 
+Accord Healthcare Polska Sp.z o.o., 
+ul. Lutomierska 50,95-200 Pabianice, Polen </p>
+<p>Accord Healthcare B.V.,<br />
+Winthontlaan 200,<br />
+3526 KV Utrecht,<br />
+Holland </p>
+<p>Denne indlægsseddel blev senest ændret:  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.emea.europa.eu/ </p>
+<p>--------------------------------------------------------------------------------------------------------------- Nedenstående oplysninger er kun til sundhedspersonale: </p>
+<p>Accofil indeholder ingen konserveringsmidler. På grund af den mulige risiko for mikrobiologisk 
+kontaminering er Accofil injektionssprøjter kun til engangsbrug. </p>
+<p>Utilsigtet nedfrysning påvirker ikke stabiliteten af Accofil negativt. Accofil bør IKKE anvendes, hvis 
+det har været udsat for frostgrader i mere end 48 timer eller har været nedfrosset mere end én gang.  </p>
+<p>For at forbedre sporbarheden af granulocyt-kolonistimulerende faktorer, bør produktnavnet (Accofil) 
+og batchnummer på det indgivne produkt optages tydeligt i patientens journal. </p>
+<p>Accofil bør ikke fortyndes i natriumchloridinjektionsvæske. Dette lægemiddel må ikke blandes med 
+andre lægemidler end dem, som er nævnt nedenfor. Hvis filgrastim fortyndes på anden måde end den 
+nedenfor beskrevne, kan det blive adsorberet til glas og plast. </p>
+<p>Om nødvendigt kan Accofil fortyndes med 5 % glucoseinjektionsvæske. Fortynding til en 
+slutkoncentration mindre end 0,2 mill (2 mikrogram) pr. ml anbefales ikke på noget tidspunkt. </p>
+<p>Opløsningen skal inspiceres visuelt før brug. Kun klare opløsninger uden partikler bør anvendes. </p>
+<p>Ved patienter, der behandles med filgrastim fortyndet til en koncentration under 1,5 mill (mikrogram) pr. ml, bør der tilføres humant serumalbumin (HSA) til en slutkoncentration på 2 mg/ml. 
+Eksempel: Ved et slut-injektionsvolumen på 20 ml og en totaldosis af filgrastim på mindre end 30 ME 
+(300 mikrogram), skal det tilsættes 0,2 ml 200 mg/ml (20 %) human serumalbumin. </p>
+<p>Ved fortynding i 5 % glucose er Accofil forligeligt med glas og en række plasttyper, herunder PVC, 
+polyolefin (en co-polymer af polypropylen og polyethylen) og polypropylen. </p>
+<p>Efter fortynding 
+Kemisk og fysisk stabilitet af den fortyndede infusionsvæske er dokumenteret i 30 timer ved 25 °C ± 
+2°C. Ud fra et mikrobiologisk synspunkt skal præparatet bruges med det samme. Anvendelse af andre 
+opbevaringstider og -betingelser er på brugerens eget ansvar og må ikke overstige 30 timer ved 25 °C 
+± 2°C, medmindre fortynding er udført under kontrollerede og validerede aseptiske betingelser. </p>
+<p>Brug af den fyldte sprøjte med kanylebeskytter 
+Kanylebeskytteren dækker kanylen efter injektionen for at forhindre stikskader. Dette påvirker ikke 
+brugen af sprøjten – denne bruges som normalt. Tryk stempelstangen ned og giv et fast tryk ved 
+slutningen af injektionen for at sikre, at tømning af sprøjten er fuldført. Klem godt fast om huden, 
+indtil injektionen er fuldført. Hold sprøjten stille, og løft langsomt din tommelfinger fra 
+stempelstangens hoved. Stempelstangen vil bevæge sig opad med tommelfingeren, og fjederen vil 
+trække kanylen tilbage fra stedet ind i kanylebeskytteren. </p>
+<p>Brug af den fyldte sprøjte uden kanylebeskytter 
+Administrer dosis i henhold til standardprotokollen. </p>
+<p>Hvis en fyldt injektionssprøjte tabes på en hård overflade, må den ikke anvendes. </p>
+<p>Bortskaffelse<br />
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Accofil 48 ME/0,5 ml (0,96 mg/ml) injektions-/infusionsvæske, opløsning, i en fyldt 
+injektionssprøjte 
+filgrastim </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8d69d820c695d3ae73c4c08229874072
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for accofil Package Leaflet for language en"
+Description: "ePI document Bundle for accofil Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8d69d820c695d3ae73c4c08229874072"
+* entry[0].resource = composition-en-8d69d820c695d3ae73c4c08229874072
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8d69d820c695d3ae73c4c08229874072"
+* entry[=].resource = mp8d69d820c695d3ae73c4c08229874072
+                            
+                    
+Instance: bundlepackageleaflet-da-8d69d820c695d3ae73c4c08229874072
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for accofil Package Leaflet for language da"
+Description: "ePI document Bundle for accofil Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8d69d820c695d3ae73c4c08229874072"
+* entry[0].resource = composition-da-8d69d820c695d3ae73c4c08229874072
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8d69d820c695d3ae73c4c08229874072"
+* entry[=].resource = mp8d69d820c695d3ae73c4c08229874072
+                            
+                    
+
+
+
+Instance: mp8d69d820c695d3ae73c4c08229874072
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Accofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
-Description: "Accofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+Title: "Medicinal Product accofil"
+Description: "accofil"
 Usage: #inline
 
  
@@ -525,7 +1156,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Accofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+  * productName = "accofil"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -552,29 +1183,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8d69d820c695d3ae73c4c08229874072
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for accofil Package Leaflet for language en"
-Description: "ePI document Bundle for accofil Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8d69d820c695d3ae73c4c08229874072ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/946/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "accofil"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8d69d820c695d3ae73c4c08229874072"
-* entry[0].resource = composition-en-8d69d820c695d3ae73c4c08229874072
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0136d07ff1c8b838da13e64ce15d99f1"
-* entry[=].resource = mp0136d07ff1c8b838da13e64ce15d99f1
-                            
-                      
+* title = "List of all ePIs associated with accofil"
+
+* subject = Reference(mp0136d07ff1c8b838da13e64ce15d99f1)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#accofil "accofil"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8d69d820c695d3ae73c4c08229874072) // accofil en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8d69d820c695d3ae73c4c08229874072) // accofil da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8d69d820c695d3ae73c4c08229874072
+InstanceOf: List
+
+* insert 8d69d820c695d3ae73c4c08229874072ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-15a641fc1891be6ddabc72928a523139
 InstanceOf: CompositionUvEpi
 Title: "Composition for naveruclif Package Leaflet"
@@ -350,12 +353,586 @@ Win Medica  . .
 
 
 
+Instance: composition-da-15a641fc1891be6ddabc72928a523139
+InstanceOf: CompositionUvEpi
+Title: "Composition for naveruclif Package Leaflet"
+Description:  "Composition for naveruclif Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp828a7f647c6218caa408cf0461642f01)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp828a7f647c6218caa408cf0461642f01
+* title = "TEST PURPOSES ONLY - naveruclif"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:<br />
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at få Naveruclif 
+3. Sådan vil du få Naveruclif 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What naveruclif is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What naveruclif is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Naveruclif indeholder paclitaxel som aktivt stof. Paclitaxel er bundet til det humane protein albumin i 
+form af bittesmå partikler, der kaldes nanopartikler. Paclitaxel hører til en gruppe lægemidler, der 
+kaldes "taxaner", og anvendes til at behandle kræft.<br />
+ 
+Paclitaxel er den del af lægemidlet, der påvirker kræften. Det virker ved at forhindre, at 
+kræftcellerne deler sig - dette betyder, at de dør. 
+ 
+Albumin er den del af lægemidlet, der hjælper paclitaxel med at blive opløst i blodet og med at 
+krydse blodkarrenes vægge og nå ind i tumoren. Dette betyder, at andre kemikalier, der kan 
+forårsage bivirkninger, som kan være livstruende, ikke er nødvendige. Sådanne bivirkninger 
+forekommer meget mindre hyppigt med Naveruclif. </p>
+<p>Anvendelse 
+Naveruclif anvendes til behandling af de følgende kræfttyper: </p>
+<p>Brystkræft 
+ 
+Brystkræft, som har spredt sig til andre dele af kroppen (dette kaldes "metastatisk" brystkræft). 
+ 
+Naveruclif anvendes til metastatisk brystkræft, når mindst en anden behandlingsmetode er 
+blevet forsøgt, men ikke har hjulpet, og behandling med en gruppe lægemidler, der kaldes 
+"antracykliner", ikke er egnet til dig. 
+ 
+Personer med metastatisk brystkræft, der fik Naveruclif, efter en anden behandlingsmetode ikke 
+havde hjulpet, havde større sandsynlighed for at opleve en reduktion i tumorstørrelse og levede 
+længere end personer, der fik en anden behandling. </p>
+<p>Kræft i bugspytkirtlen 
+ 
+Naveruclif anvendes sammen med et lægemiddel, der kaldes gemcitabin, hvis du har metastatisk 
+kræft i bugspytkirtlen. Personer med metastatisk kræft i bugspytkirtlen (kræft i bugspytkirtlen, 
+der har spredt sig til andre dele af kroppen), som fik Naveruclif sammen med gemcitabin i et 
+klinisk studie, levede længere end personer, der kun fik gemcitabin. </p>
+<p>Lungekræft 
+ 
+Naveruclif anvendes sammen med et lægemiddel, der kaldes carboplatin, hvis du har den mest 
+almindelige type lungekræft, der kaldes "ikke-småcellet lungekræft". 
+ 
+Naveruclif anvendes til ikke-småcellet lungekræft, hvis operation eller strålebehandling ikke er 
+egnet til at behandle sygdommen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take naveruclif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take naveruclif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Naveruclif: 
+ 
+hvis du er allergisk over for paclitaxel eller et af de øvrige indholdsstoffer i Naveruclif (angivet i 
+punkt 6) 
+ 
+hvis du ammer 
+ 
+hvis du har et nedsat antal hvide blodlegemer (neutrofiltal ved baseline under 1.500 celler/mm3 
+- din læge kan fortælle dig om dette). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller sygeplejersken, før du får Naveruclif 
+ 
+hvis du har dårlig nyrefunktion 
+ 
+hvis du har alvorlige leverproblemer 
+ 
+hvis du har problemer med hjertet. </p>
+<p>Kontakt lægen eller sygeplejersken, hvis du får nogen af disse tilstande, mens du behandles med 
+Naveruclif. Det er muligt, at lægen standser behandlingen eller nedsætter din dosis: 
+ 
+hvis du får unormale blå mærker, blødning, eller infektionstegn såsom ondt i halsen eller feber 
+ 
+hvis du oplever følelsesløshed, en stikkende og prikkende fornemmelse, følsomhed over for 
+berøring eller muskelsvaghed 
+ 
+hvis du får vejrtrækningsbesvær, f.eks. stakåndethed eller tør hoste. </p>
+<p>Børn og unge 
+Naveruclif er kun til voksne og må ikke gives til børn og unge under 18 år. </p>
+<p>Brug af andre lægemidler sammen med Naveruclif 
+Fortæl det altid til lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. Dette gælder også lægemidler, som ikke er købt på recept, f.eks. 
+naturlægemidler samt vitaminer og mineraler. Dette skyldes, at Naveruclif kan påvirke hvordan andre 
+lægemidler virker, og andre lægemidler kan påvirke hvordan Naveruclif virker. </p>
+<p>Vær forsigtig og tal med din læge, hvis du får Naveruclif samtidig med nogle af følgende: 
+ 
+lægemidler til behandling af infektioner (dvs. antibiotika som erythromycin, rifampicin osv. 
+Spørg din læge, sygeplejersken eller apotekspersonalet, hvis du ikke er sikker på, om det 
+lægemiddel, du tager, er et antibiotikum), herunder også lægemidler til behandling af 
+svampeinfektioner (f.eks. ketoconazol) 
+ 
+lægemidler, der anvendes mod humørsvingninger. De kaldes også antidepressive lægemidler 
+(f.eks. fluoxetin) 
+ 
+lægemidler, der anvendes mod krampeanfald (epilepsi) (f.eks. carbamazepin, phenytoin) 
+ 
+lægemidler, der anvendes til at sænke niveauet af lipider (fedt) i blodet (f.eks. gemfibrozil) 
+ 
+lægemidler, der anvendes mod halsbrand eller mavesår (f.eks. cimetidin) 
+ 
+lægemidler, der anvendes mod hiv og aids (f.eks. ritonavir, sequinavir, indinavir, nelfinavir, 
+efavirenz, nevirapin) 
+ 
+et lægemiddel, der kaldes clopidogrel og anvendes til at forebygge blodpropper. </p>
+<p>Graviditet, amning og frugtbarhed 
+Paclitaxel kan medføre alvorlige misdannelser, og du må derfor ikke bruge det, hvis du er gravid. Din 
+læge vil sørge for en graviditetstest, inden behandling med Naveruclif påbegyndes. </p>
+<p>Kvinder i den fødedygtige alder skal anvende sikker prævention under og i op til en måned efter at 
+have fået behandling med Naveruclif.  </p>
+<p>Du må ikke amme, mens du får Naveruclif, da det er ukendt, om det aktive stof paclitaxel udskilles i 
+brystmælk. </p>
+<p>Mænd anbefales at anvende sikker prævention samt at undgå at gøre kvinder gravide under og i op til 
+seks måneder efter behandlingen. De bør søge rådgivning om opbevaring af sæd forud for 
+behandlingen på grund af risikoen for permanent sterilitet efter behandling med Naveruclif. </p>
+<p>Spørg din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Nogle personer kan føle sig trætte eller svimle, efter de har fået Naveruclif. Du må ikke føre 
+motorkøretøj eller betjene værktøj eller maskiner, hvis dette sker for dig. </p>
+<p>Hvis du får andre lægemidler som en del af din behandling, skal du spørge din læge til råds vedrørende 
+kørsel og betjening af maskiner. </p>
+<p>Naveruclif indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take naveruclif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take naveruclif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>En læge eller en sygeplejerske vil give dig Naveruclif i en vene (blodåre) fra et intravenøst drop. Den 
+dosis, du får, er baseret på din legemsoverflade og resultaterne af blodprøverne. Den anbefalede dosis 
+for brystkræft er 260 mg/m2 legemsoverflade, givet i løbet af 30 minutter. Den anbefalede dosis for 
+fremskreden kræft i bugspytkirtlen er 125 mg/m2 legemsoverflade, givet i løbet af 30 minutter. Den 
+anbefalede dosis ved ikke-småcellet lungekræft er 100 mg/m2 legemsoverflade, givet i løbet af 
+30 minutter. </p>
+<p>Hvor tit skal jeg have Naveruclif? 
+Til behandling af metastatisk brystkræft gives Naveruclif sædvanligvis én gang hver tredje uge (på dag 
+1 i en 21-dages cyklus). </p>
+<p>Til behandling af fremskreden kræft i bugspytkirtlen gives Naveruclif på dag 1, 8 og 15 i hver 28-dages 
+behandlingscyklus. Gemcitabin gives umiddelbart efter Naveruclif. </p>
+<p>Til behandling af ikke-småcellet lungekræft gives Naveruclif én gang ugentligt (dvs. på dag 1, 8 og i hver 21-dages cyklus), hvor carboplatin gives en gang hver tredje uge (dvs. kun på dag 1 i hver 
+21-dages cyklus), umiddelbart efter Naveruclif-dosis er blevet givet. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Følgende meget almindelige bivirkninger kan forekomme hos flere end 1 ud af 10 patienter: </p>
+<p> 
+Hårtab (de fleste tilfælde af hårtab forekom inden for en måned efter behandlingsstart med 
+Naveruclif. Når hårtab forekommer, er det omfattende (over 50 %) hos de fleste patienter) 
+ 
+Udslæt 
+ 
+Unormalt fald i antallet af nogle typer hvide blodlegemer (neutrofiler, lymfocytter eller 
+leukocytter) i blodet<br />
+ 
+Mangel på røde blodlegemer<br />
+ 
+Nedsat antal blodplader i blodet 
+ 
+Virkning på perifere nerver (smerter, følelsesløshed, prikkende fornemmelse)<br />
+ 
+Smerter i et eller flere led<br />
+ 
+Smerter i muskler<br />
+ 
+Kvalme, diarré, forstoppelse, ømhed i munden, appetitløshed<br />
+ 
+Opkastning<br />
+ 
+Svaghed og træthed, feber<br />
+ 
+Dehydrering, smagsforstyrrelser, vægttab 
+ 
+Lavt kaliumniveau i blodet 
+ 
+Depression, søvnproblemer 
+ 
+Hovedpine 
+ 
+Kulderystelser 
+ 
+Åndedrætsbesvær 
+ 
+Svimmelhed 
+ 
+Hævede slimhinder og bløddele 
+ 
+Forhøjede levertal 
+ 
+Smerter i arme og ben 
+ 
+Hoste 
+ 
+Mavesmerter 
+ 
+Næseblod </p>
+<p>Almindelige bivirkninger kan forekomme hos op til 1 ud af 10 patienter:<br />
+ 
+Kløe, tør hud, neglelidelser 
+ 
+Infektion, feber med nedsat antal af en type hvide blodlegemer (neutrofiler) i blodet, rødmen, 
+trøske (svampeinfektion), alvorlig infektion i blodet, som kan være forårsaget af et nedsat antal 
+hvide blodlegemer<br />
+ 
+Nedsat antal af alle blodlegemer 
+ 
+Smerter i bryst eller svælg 
+ 
+Fordøjelsesbesvær, maveubehag<br />
+ 
+Tilstoppet næse 
+ 
+Smerter i ryggen, knoglesmerter 
+ 
+Nedsat muskelkoordinering eller læsebesvær, øget eller mindre tåreflåd, tab af øjenvipper 
+ 
+Ændringer i hjertefrekvens eller -rytme, hjertestop 
+ 
+Nedsat eller forhøjet blodtryk 
+ 
+Rødme eller hævelse på indstikstedet 
+ 
+Angst 
+ 
+Lungeinfektion 
+ 
+Urinvejsinfektion 
+ 
+Tarmobstruktion, tyktarmsbetændelse, betændelse i galdevejene 
+ 
+Akut nyresvigt 
+ 
+Forhøjet bilirubin i blodet 
+ 
+Ophostning af blod 
+ 
+Tør mund, synkebesvær 
+ 
+Muskelsvaghed 
+ 
+Sløret syn </p>
+<p>Ikke almindelige bivirkninger kan forekomme hos op til 1 ud af 100 patienter: </p>
+<p> 
+Øget vægt, øget mælkesyredehydrogenase i blodet, nedsat nyrefunktion, øget blodsukker, øget 
+fosfor i blodet 
+ 
+Svage eller manglende reflekser, ufrivillige bevægelser, smerter langs en nerve, besvimelse, 
+svimmelhed, når du rejser dig, rysten, lammelse af ansigtsnerven 
+ 
+Irriterede øjne, smertefulde øjne, røde øjne, kløende øjne, dobbeltsyn, reduceret syn eller det at 
+se blinkende lys, sløret syn på grund af hævelse af nethinden (cystoidt makulaødem) 
+ 
+Ørepine, tinnitus 
+ 
+Slimfyldt hoste, åndenød ved almindelig gang eller trappegang, løbende næse eller tør næse, 
+nedsatte vejrtrækningslyde, vand i lungerne, stemmetab, blodprop i lungen, tør hals 
+ 
+Luft i maven, mavekramper, smertefulde eller ømme gummer, rektal blødning 
+ 
+Smertefuld vandladning, hyppig vandladning, blod i urinen, blæresvækkelse 
+ 
+Smerte i fingernegle, ubehag i fingernegle, tab af fingernegle, udslæt, hudsmerte, rød hud fra 
+sollys, hudskjolder, flere svedeture, natlige svedeture, hvide områder på huden, sår, opsvulmet 
+ansigt 
+ 
+Nedsat fosfor i blodet, væskeansamling, lavt albumin i blodet, øget tørst, nedsat kalcium i 
+blodet, nedsat blodsukker, nedsat natrium i blodet 
+ 
+Smerte og hævelse i næse, hudinfektioner, infektion som følge af det intravenøse kateter 
+ 
+Blå mærker 
+ 
+Smerter på tumorstedet, tumordød 
+ 
+Nedsat blodtryk når du rejser dig op, kolde hænder og fødder 
+ 
+Gangbesvær, hævelse 
+ 
+Allergisk reaktion 
+ 
+Nedsat leverfunktion, øget leverstørrelse 
+ 
+Smerte i brystet 
+ 
+Rastløshed 
+ 
+Små blødninger i huden på grund af blodpropper 
+ 
+En sygdom, der omfatter ødelæggelse af røde blodlegemer og akut nyresvigt </p>
+<p>Sjældne bivirkninger kan forekomme hos op til 1 ud af 1.000 patienter: 
+ 
+Hudreaktion over for andre stoffer eller lungebetændelse efter strålebehandling 
+ 
+Blodprop 
+ 
+Meget langsom puls, hjerteanfald 
+ 
+Udsivning af lægemiddel fra blodåren 
+ 
+Forstyrrelse i hjertets rytme på grund af hæmmet impulsledning mellem hjertets kamre 
+(atrioventrikulært blok) </p>
+<p>Meget sjældne bivirkninger kan forekomme hos op til 1 ud af 10.000 patienter: 
+ 
+Svær vævsirritation og udslæt på hud og slimhinder (Stevens-Johnsons syndrom, toksisk 
+epidermal nekrolyse) </p>
+<p>Ikke kendt bivirkninger (hyppigheden kan ikke beregnes ud fra tilgængelige data): 
+ 
+Hård hud/fortykkelse af huden (sklerodermi) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store naveruclif"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store naveruclif"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hætteglasset efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Uåbnede hætteglas: Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+<p>Efter den første rekonstitution bør dispersionen anvendes med det samme. Hvis ikke den anvendes 
+med det samme, kan dispersionen opbevares i et køleskab (ved temperaturer på 2°C-8 °C) i op til 
+24 timer i hætteglasset, hvis det opbevares i den ydre karton for at beskytte mod lys. </p>
+<p>Den rekonstituerede dispersion i det intravenøse drop kan opbevares i køleskab (2°C-8 °C) i op til 
+24 timer, beskyttet mod lys. </p>
+<p>Kemisk og fysisk stabilitet under brug er dokumenteret i 24 timer ved 2°C-8°C ved beskyttelse mod 
+lys, efterfulgt af 4 timer ved 25 °C, hvor lægemidlet ikke er beskyttet mod lys. </p>
+<p>Din læge eller apotekspersonalet har ansvaret for at bortskaffe al ubrugt Naveruclif på korrekt vis. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Naveruclif indeholder: 
+ 
+Aktivt stof: paclitaxel. 
+Hvert hætteglas indeholder 100 mg paclitaxel formuleret som albuminbundne nanopartikler. 
+Efter rekonstituering indeholder hver ml dispersion 5 mg paclitaxel formuleret som 
+albuminbundne nanopartikler. 
+ 
+Øvrige indholdsstoffer: albumin (humant) (indeholder natriumcaprylat og N-acetyl-L-
+tryptophan), se pkt. 2 "Naveruclif indeholder natrium". </p>
+<p>Udseende og pakningsstørrelser 
+Naveruclif er et hvidt til gult pulver eller frysetørret masse til infusionsvæske, dispersion.<br />
+Naveruclif fås i hætteglas, der indeholder 100 mg paclitaxel formuleret som albuminbundne 
+nanopartikler.  </p>
+<p>Hver pakning indeholder 1 hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Accord Healthcare S.L.U. 
+World Trade Center, Moll De Barcelona s/n,<br />
+Edifici Est, 6a Planta,<br />
+Barcelona, 08039,<br />
+Spanien </p>
+<p>Fremstiller 
+Accord Healthcare Polska Sp.z o.o. 
+ul. Lutomierska 50, 
+95-200 Pabianice 
+Polen </p>
+<p>Eller 
+Laboratori Fundació Dau 
+C/ C, 12-14 Pol. Ind. </p>
+<p>Zona Franca, Barcelona, 08040, 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / ES / FI / FR / HR / HU / IE / IS / IT / LT / LV / LX / MT / 
+NL / NO / PL / PT / RO / SE / SI / SK / UK (NI) </p>
+<p>Accord Healthcare S.L.U.<br />
+Tel: +34 93 301 00 64  </p>
+<p>EL<br />
+Win Medica Α.Ε. 
+Tel: +30 210 74 88  </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ] </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Brugsanvisning, håndtering og bortskaffelse </p>
+<p>Forholdsregler ved klargøring og administration 
+Paclitaxel er et cytotoksisk kræftlægemiddel og, som ved andre potentielt toksiske forbindelser, bør 
+der udvises forsigtighed ved håndtering af Naveruclif. Handsker, beskyttelsesbriller og 
+beskyttelsesbeklædning bør anvendes. Hvis Naveruclif-dispersionen kommer i kontakt med huden, 
+skal huden straks vaskes grundigt med vand og sæbe. Hvis Naveruclif kommer i kontakt med 
+slimhinder, skal slimhinderne skylles grundigt med vand. Naveruclif bør kun klargøres og 
+administreres af personale, der har modtaget passende oplæring i håndteringen af cytotoksika. 
+Personale, der er gravide, bør ikke håndtere Naveruclif. </p>
+<p>Da der er risiko for ekstravasation, tilrådes det at overvåge infusionsstedet nøje for mulige 
+infiltrationer under administration af lægemidlet. Hvis infusionstiden af Naveruclif følger 
+anvisningerne og begrænses til 30 minutter, reduceres risikoen for infusionsrelaterede reaktioner. </p>
+<p>Rekonstitution af præparatet og administration 
+Naveruclif bør gives under overvågning af en kvalificeret onkolog på afdelinger, der er specialiseret i 
+administration af cytotoksika. </p>
+<p>Naveruclif leveres som et sterilt, frysetørret pulver til rekonstitution inden brug. Efter rekonstituering 
+indeholder hver ml dispersion 5 mg paclitaxel formuleret som albuminbundne nanopartikler.<br />
+Den rekonstituerede Naveruclif dispersion administreres intravenøst via et infusionssæt med et indsat 
+15 µm filter. </p>
+<p>Ved brug af en steril sprøjte injiceres 20 ml natriumchlorid 9 mg/ml (0,9 %) infusionsvæske, 
+opløsning, langsomt (i løbet af mindst et minut) ind i et hætteglas med 100 mg Naveruclif.  </p>
+<p>Infusionsvæsken bør sprøjtes mod indersiden af hætteglasset. Infusionsvæsken bør ikke sprøjtes 
+direkte på pulveret, da dette kan resultere i skumdannelse. </p>
+<p>Når tilsætningen er fuldført, skal hætteglasset have lov til at stå i mindst 5 minutter for at sikre 
+ordentlig gennemvædning af den faste masse. Derefter bør hætteglasset forsigtigt og langsomt hvirvles 
+og/eller vendes på hovedet i mindst to minutter, indtil alt pulver er fuldstændigt dispergeret. Dannelse 
+af skum bør undgås. Hvis der forekommer skumdannelse eller sammenklumpning, skal dispersionen 
+stå i mindst 15 minutter, indtil skummet lægger sig. </p>
+<p>Den rekonstituerede dispersion skal være mælkeagtig og homogen uden synligt bundfald. En vis 
+bundfældning af den rekonstituerede dispersion kan forekomme. Hvis der er synligt bundfald eller 
+bundfældning, skal hætteglasset forsigtigt vendes på hovedet igen for at sikre fuldstændig redispersion 
+før brug.  </p>
+<p>Inspicér dispersionen i hætteglasset for indhold af partikler. Den rekonstituerede dispersion må ikke 
+administreres, hvis der ses partikler i hætteglasset.  </p>
+<p>Det nøjagtige, totale volumen af 5 mg/ml dispersion, der kræves til patienten, beregnes, og den 
+korrekte mængde rekonstitueret Naveruclif injiceres i en tom, steril (PVC- eller ikke-PVC-type) 
+infusionspose.  </p>
+<p>Anvendelse af medicinsk udstyr med siliconeolie som smøremiddel (f.eks. kanyler og intravenøse 
+(i.v.) infusionsposer) til at rekonstituere og administrere Naveruclif kan føre til dannelse af 
+proteinholdige tråde. Naveruclif skal administreres via et infusionssæt med et indsat 15 µm filter for at 
+undgå administration af disse tråde. Trådene fjernes med et 15 µm filter, og de fysiske eller kemiske 
+egenskaber af det rekonstituerede præparat ændres ikke herved. </p>
+<p>Hvis filtre med en porestørrelse mindre end 15 µm anvendes, kan det medføre, at filteret tilstoppes. </p>
+<p>Det er ikke nødvendigt at anvende særlige di(2-ethylhexyl)phthalat (DEHP)-frie infusionsbeholdere 
+eller administrationssæt til at klargøre eller administrere Naveruclif-infusioner.  </p>
+<p>Efter administration anbefales det, at den intravenøse slange skylles med natriumchlorid 9 mg/ml 
+(0,9 %) injektionsvæske for at sikre administration af hele dosis. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Stabilitet 
+Uåbnede hætteglas med Naveruclif er stabile indtil den dato, der er angivet på emballagen, så længe 
+hætteglasset opbevares i den ydre karton for at beskytte mod lys. Hverken frost eller nedkøling 
+påvirker præparatets stabilitet negativt. Der er ingen særlige krav vedrørende opbevaringstemperatur 
+for dette lægemiddel. </p>
+<p>Stabilitet af den rekonstituerede dispersion i hætteglasset 
+Kemisk og fysisk stabilitet under brug er dokumenteret i 24 timer ved 2°C-8°C i den originale 
+emballage, beskyttet mod lys. </p>
+<p>Stabilitet af den rekonstituerede dispersion i infusionsposen 
+Kemisk og fysisk stabilitet under brug er dokumenteret i 24 timer ved 2°C-8°C ved beskyttelse mod 
+lys, efterfulgt af 4 timer ved 25 °C, hvor lægemidlet ikke er beskyttet mod lys. </p>
+<p>Ud fra et mikrobiologisk synspunkt skal præparatet bruges med det samme efter rekonstitution og 
+fyldning af infusionsposerne, medmindre metoden til rekonstitution og fyldning af infusionsposerne 
+udelukker risiko for mikrobiel kontaminering. </p>
+<p>Hvis præparatet ikke anvendes straks, er andre opbevaringstider og -betingelser er på brugerens eget 
+ansvar. </p>
+<p>Den samlede opbevaringstid for det rekonstituerede lægemiddel i hætteglasset og i infusionsposen, når 
+det opbevares i køleskab og er beskyttet mod lys, er 24 timer. Det rekonstituerede lægemiddel kan 
+efterfølgende opbevares i infusionsposen i 4 timer ved temperaturer under 25°C. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-15a641fc1891be6ddabc72928a523139
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for naveruclif Package Leaflet for language en"
+Description: "ePI document Bundle for naveruclif Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-15a641fc1891be6ddabc72928a523139"
+* entry[0].resource = composition-en-15a641fc1891be6ddabc72928a523139
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp15a641fc1891be6ddabc72928a523139"
+* entry[=].resource = mp15a641fc1891be6ddabc72928a523139
+                            
+                    
+Instance: bundlepackageleaflet-da-15a641fc1891be6ddabc72928a523139
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for naveruclif Package Leaflet for language da"
+Description: "ePI document Bundle for naveruclif Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-15a641fc1891be6ddabc72928a523139"
+* entry[0].resource = composition-da-15a641fc1891be6ddabc72928a523139
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp15a641fc1891be6ddabc72928a523139"
+* entry[=].resource = mp15a641fc1891be6ddabc72928a523139
+                            
+                    
+
+
+
+Instance: mp15a641fc1891be6ddabc72928a523139
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Naveruclif 5 mg/ml powder for dispersion for infusion"
-Description: "Naveruclif 5 mg/ml powder for dispersion for infusion"
+Title: "Medicinal Product naveruclif"
+Description: "naveruclif"
 Usage: #inline
 
  
@@ -375,7 +952,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Naveruclif 5 mg/ml powder for dispersion for infusion"
+  * productName = "naveruclif"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -402,29 +979,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-15a641fc1891be6ddabc72928a523139
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for naveruclif Package Leaflet for language en"
-Description: "ePI document Bundle for naveruclif Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 15a641fc1891be6ddabc72928a523139ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1778/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "naveruclif"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-15a641fc1891be6ddabc72928a523139"
-* entry[0].resource = composition-en-15a641fc1891be6ddabc72928a523139
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp828a7f647c6218caa408cf0461642f01"
-* entry[=].resource = mp828a7f647c6218caa408cf0461642f01
-                            
-                      
+* title = "List of all ePIs associated with naveruclif"
+
+* subject = Reference(mp828a7f647c6218caa408cf0461642f01)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#naveruclif "naveruclif"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-15a641fc1891be6ddabc72928a523139) // naveruclif en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-15a641fc1891be6ddabc72928a523139) // naveruclif da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-15a641fc1891be6ddabc72928a523139
+InstanceOf: List
+
+* insert 15a641fc1891be6ddabc72928a523139ListRuleset
+    

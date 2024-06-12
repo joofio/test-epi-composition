@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-46af9fe042942e0b323406b7f9580690
 InstanceOf: CompositionUvEpi
 Title: "Composition for zilbrysq Package Leaflet"
@@ -340,12 +343,632 @@ Tel : + 353 / (0)1-46 37 This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-46af9fe042942e0b323406b7f9580690
+InstanceOf: CompositionUvEpi
+Title: "Composition for zilbrysq Package Leaflet"
+Description:  "Composition for zilbrysq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7ccfc0f3048e9e9c865d7ba406d0f0d4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7ccfc0f3048e9e9c865d7ba406d0f0d4
+* title = "TEST PURPOSES ONLY - zilbrysq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Zilbrysq </li>
+<li>Sådan skal du bruge Zilbrysq </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zilbrysq is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zilbrysq is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zilbrysq indeholder det aktive stof zilucoplan. Zilucoplan sætter sig fast på og blokerer et protein i 
+kroppen kendt som komplementprotein C5, som er en del af immunforsvaret (kroppens naturlige 
+forsvar). Ved at blokere dette protein forhindrer zilucoplan kroppens immunforsvar i at angribe og 
+ødelægge forbindelser mellem nerver og muskler, og mindskerderved symptomerne på sygdommen. </p>
+<p>Zilbrysq anvendes sammen med standardbehandling til behandling af voksne patienter med 
+generaliseret myasthenia gravis (gMG), som er en autoimmun sygdom, der forårsager 
+muskelsvækkelse. Det bruges til voksne, hvis immunforsvar producerer antistoffer mod et protein 
+kaldet acetylcholinreceptoren, der sidder på muskelceller. Hos patienter med gMG kan musklerne 
+angribes og beskadiges af immunsystemet, hvilket kan føre til udtalt muskelsvækkelse, nedsat 
+mobilitet, åndenød, ekstrem træthed, synkebesvær og markant svækkelse i udførelse af dagligdags 
+aktiviteter.  </p>
+<p>Zilbrysq kan reducere symptomerne på sygdommen og forbedre livskvaliteten. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zilbrysq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zilbrysq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Zilbrysq 
+- hvis du er allergisk over for zilucoplan eller et af de øvrige indholdsstoffer (angivet i punkt 6). 
+- hvis du ikke er blevet vaccineret mod meningokok-infektion. Se afsnittet om advarsler og 
+forsigtighedsregler. 
+- hvis du har en meningokok-infektion. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Meningokok-infektion og andre Neisseria-infektioner, som du skal være opmærksom på 
+Da Zilbrysq hæmmer kroppens naturlige forsvar mod infektion, kan brugen af det øge din risiko for 
+infektioner forårsaget af Neisseria meningitidis, såsom meningokok-infektion (alvorlig infektion i 
+hjernehinden og rygmarven og/eller en infektion i blodet), og også for andre infektioner forårsaget af 
+Neisseria-bakterier, såsom gonoré. </p>
+<p>Tal med din læge, før du tager Zilbrysq, og mindst 2 uger før du påbegynder behandlingen, for at sikre 
+dig, at du bliver vaccineret mod Neisseria meningitidis, som er en organisme, der forårsager 
+meningokok-infektion. Hvis du ikke kan blive vaccineret 2 uger før, vil din læge ordinere antibiotika 
+for at nedsætte infektionsrisikoen indtil 2 uger efter, at du har fået den første dosis af vaccinen. Sørg 
+for, at holde dig ajour med dine meningokok-vaccinationer. Du skal være opmærksom på, at 
+vaccination ikke altid forhindrer denne type infektion. </p>
+<p>Hvis du er i risiko for at få gonoré (seksuelt overført infektion forårsaget af bakterier), skal du spørge 
+din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Symptomer på meningokok-infektion 
+På grund af vigtigheden af hurtigt at identificere og behandle meningokok-infektioner hos patienter, 
+som får Zilbrysq, vil du få udleveret et kort, som du altid skal have på dig, og som angiver specifikke 
+tegn og symptomer på en mulig meningokok-infektion. Det indeholder også oplysninger til 
+sundhedspersoner, der måske ikke er bekendt med Zilbrysq. Dette kort hedder “patientadvarselskort". 
+Du vil også få udleveret en vejledning til patienter/omsorgspersoner, som indeholder yderligere 
+oplysninger om Zilbrysq. </p>
+<p>Du skal omgående informere lægen, hvis du oplever nogen af følgende symptomer:</p>
+<ul>
+<li>Hovedpine, der ledsages af symptomer såsom kvalme, opkastning, feber og stiv nakke eller ryg </li>
+<li>Feber med eller uden udslæt </li>
+<li>Øjne, der er følsomme over for lys </li>
+<li>Forvirring/døsighed </li>
+<li>Muskelsmerter med influenzalignende symptomer </li>
+</ul>
+<p>Behandling af meningokok-infektion under rejser 
+Hvis du rejser i et område, hvor du ikke kan kontakte din læge eller midlertidigt ikke kan få 
+lægebehandling, kan din læge ordinere et antibiotikum mod Neisseria meningitidis, som du kan tage 
+med dig. Hvis du oplever nogen af de symptomer, der er beskrevet ovenfor, skal du tage 
+antibiotikabehandlingen som foreskrevet. Du skal huske på, at du skal søge læge så hurtigt som 
+muligt, selvom du har det bedre efter at have taget antibiotikabehandlingen. </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke anvendes til børn under 18 år. Zilbrysq er ikke blevet undersøgt i denne 
+aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Zilbrysq 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Det er usikkert, hvilke virkninger Zilbrysq kan have på et ufødt barn, så brug ikke dette lægemiddel, 
+hvis du er gravid eller tror, at du kan være gravid, medmindre din læge har sagt, at du skal bruge det. </p>
+<p>Det vides ikke, om Zilbrysq passerer over i modermælken. Der kan være en risiko for 
+nyfødte/spædbørn. </p>
+<p>Der skal træffes beslutning om, hvorvidt amning skal afbrydes, eller behandling med Zilbrysq skal 
+afbrydes under hensyntagen til fordelene ved amning for barnet og fordelene ved behandling for 
+kvinden. </p>
+<p>Trafik- og arbejdssikkerhed 
+Zilbrysq vil sandsynligvis ikke påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
+<p>Zilbrysq indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. fyldt injektionssprøjte, dvs. det 
+er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zilbrysq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zilbrysq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mindst 2 uger før du påbegynder behandlingen med Zilbrysq, vil din læge give dig en vaccine mod 
+meningokok-infektion, hvis du ikke har fået en sådan vaccination på et tidligere tidspunkt, eller hvis 
+din vaccination er forældet. Hvis du ikke kan blive vaccineret mindst 2 uger før du påbegynder 
+behandlingen med Zilbrysq, vil din læge ordinere antibiotika for at reducere risikoen for infektion 
+indtil 2 uger efter, at du har fået din første dosis af vaccinen. </p>
+<p>Før du starter behandlingen, skal du også drøfte med din læge, om du har brug for andre vacciner. </p>
+<p>Efter passende oplæring, vil lægen lade dig injicere Zilbrysq selv. Brug altid lægemidlet nøjagtigt efter 
+lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Den dosis, du får, afhænger af din kropsvægt. Indgiv altid din daglige dosis på cirka samme tidspunkt 
+af dagen. </p>
+<p>Følgende tabel angiver den samlede daglige dosis Zilbrysq i henhold til din kropsvægt: </p>
+<p>Kropsvægt<br />
+Dosis 
+Antal fyldte 
+injektionssprøjter efter farve 
+&lt; 56 kg 
+16,6 mg 
+1 (Rubinrød) 
+≥ 56 til &lt; 77 kg 
+23 mg 
+1 (Orange) 
+≥ 77 kg 
+32,4 mg 
+1 (Mørkeblå) </p>
+<p>Sådan gives Zilbrysq 
+Du og din læge eller sygeplejerske vil beslutte, om du selv kan injicere lægemidlet. Du må ikke 
+injicere lægemidlet selv, medmindre du er blevet oplært af en sundhedsperson. Det er også muligt, at 
+en anden person kan give dig dine injektioner, efter at personen er blevet oplært. </p>
+<p>Zilbrysq vil blive givet som en subkutan injektion (en injektion under huden) én gang dagligt. Det kan 
+injiceres i maveregionen, forsiden af lårene eller bagsiden af overarmene. Injektioner på bagsiden af 
+overarmene må kun gives af en anden person. Der skal skiftes mellem injektionssteder, og 
+injektionerne må ikke gives på steder, hvor huden er øm, har blå mærker, er rød eller hård, eller hvor 
+huden har ar eller strækmærker. </p>
+<p>Det er vigtigt, at du læser brugsanvisningen sidst i indlægssedlen for at få detaljerede oplysninger om, 
+hvordan du skal bruge Zilbrysq. </p>
+<p>Hvis du har taget for meget Zilbrysq 
+Hvis du har mistanke om, at du ved et uheld har fået en højere dosis Zilbrysq end ordineret, skal du 
+kontakte din læge for at få rådgivning. </p>
+<p>Hvis du har glemt at bruge Zilbrysq 
+Hvis du ikke injicerede dosen på det sædvanlige tidspunkt eller har glemt en dosis, skal du injicere 
+den, så snart du kommer i tanke om det, og derefter fortsætte med doseringen på det normale tidspunkt 
+den næste dag. Du må ikke indgive mere end én dosis pr. dag. </p>
+<p>Hvis du holder op med at bruge Zilbrysq 
+Afbrydelse af eller ophør med behandlingen med Zilbrysq kan få dine symptomer til at vende tilbage. 
+Tal med din læge, før du holder op med at bruge Zilbrysq. Din læge vil drøfte de mulige bivirkninger 
+og risici med dig. Din læge vil muligvis også overvåge dig nøje. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) 
+- Reaktioner på injektionsstedet, såsom blå mærker, smerter, kløe og dannelse af en knude. 
+- Infektioner i næsen eller halsen. </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+- Diarré 
+- Forhøjede bugspytkirtelenzymer (amylase, lipase) set i blodprøve. 
+- Morphea (tilstand, der forårsager lokale misfarvede og hærdede områder af huden) </p>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) 
+- Øget antal eosinofile celler (en type hvide blodlegemer) set i blodprøve. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zilbrysq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zilbrysq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på sprøjtens etiket og den ydre karton efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). 
+Må ikke nedfryses. 
+Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys. </p>
+<p>Du kan opbevare den fyldte injektionssprøjte med Zilbrysq ved stuetemperatur i den originale karton 
+ved temperaturer på op til 30 °C i en enkelt periode på op til 3 måneder. Når Zilbrysq er taget ud af 
+køleskabet, må den ikke sættes tilbage i køleskabet. Produktet skal kasseres, hvis det ikke anvendes 
+inden for 3 måneder eller inden udløbsdatoen, alt efter hvad der indtræffer først. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zilbrysq indeholder:</p>
+<ul>
+<li>Aktivt stof: zilucoplan. </li>
+<li>Øvrige indholdsstoffer: natriumdihydrogenphosphat-monohydrat, dinatriumphosphat (vandfri), 
+natriumchlorid, vand til injektionsvæsker (se punkt 2, Zilbrysq indeholder natrium). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Zilbrysq er en injektionsvæske, opløsning i fyldt injektionssprøjte (injektion) og er en klar til let 
+opaliserende og farveløs opløsning, der er fri for synlige partikler. </p>
+<p>Zilbrysq 16,6 mg injektionsvæske, opløsning i fyldt injektionssprøjte 
+Hver fyldt injektionssprøjte med rubinrødt stempel indeholder zilucoplannatrium svarende til 16,6 mg 
+zilucoplan i 0,416 ml. </p>
+<p>Zilbrysq 23 mg injektionsvæske, opløsning i fyldt injektionssprøjte 
+Hver fyldt injektionssprøjte med orange stempel indeholder zilucoplannatrium svarende til 23 mg 
+zilucoplan i 0,574 ml. </p>
+<p>Zilbrysq 32,4 mg injektionsvæske, opløsning i fyldt injektionssprøjte 
+Hver fyldt injektionssprøjte med mørkeblåt stempel indeholder zilucoplannatrium svarende til 32,4 mg 
+zilucoplan i 0,810 ml. </p>
+<p>Pakningsstørrelse med 7 fyldte injektionssprøjter til 16,6 mg, 23 mg og 32,4 mg injektionsvæske, 
+opløsning. 
+Multipakning med 28 (4 pakninger med 7) fyldte injektionssprøjter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+UCB Pharma S.A., Allée de la Recherche 60, B-1070 Bruxelles, Belgien </p>
+<p>Fremstiller 
+UCB Pharma S.A., Chemin du Foriest, B‐1420 Braine‐l’Alleud, Belgien. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+UCB Pharma S.A./NV<br />
+Tél/Tel: + 32 / (0)2 559 92 Lietuva 
+UAB Medfiles 
+Tel: + 370 5 246 16<br />
+България 
+Ю СИ БИ България ЕООД<br />
+Teл.: + 359 (0) 2 962 30<br />
+Luxembourg/Luxemburg 
+UCB Pharma SA/NV<br />
+Tél/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+UCB s.r.o.<br />
+Tel: + 420 221 773 Magyarország 
+UCB Magyarország Kft.<br />
+Tel.: + 36-(1) 391 0Danmark 
+UCB Nordic A/S<br />
+Tlf.: + 45 / 32 46 24 Malta 
+Pharmasud Ltd.<br />
+Tel: + 356 / 21 37 64  </p>
+<p>Deutschland 
+UCB Pharma GmbH<br />
+Tel: + 49 /(0) 2173 48 4 
+Nederland 
+UCB Pharma B.V.<br />
+Tel: + 31 / (0)76-573 11<br />
+Eesti 
+OÜ Medfiles 
+Tel: + 372 730 5 
+Norge 
+UCB Nordic A/S<br />
+Tlf: + 47 / 67 16 5 
+Ελλάδα 
+UCB Α.Ε.<br />
+Τηλ: + 30 / 2109974 
+Österreich 
+UCB Pharma GmbH<br />
+Tel: + 43-(0)1 291 80<br />
+España 
+UCB Pharma, S.A.<br />
+Tel: + 34 / 91 570 34<br />
+Polska 
+UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
+Tel: + 48 22 696 99<br />
+France 
+UCB Pharma S.A.<br />
+Tél: + 33 / (0)1 47 29 44<br />
+Portugal 
+UCB Pharma (Produtos Farmacêuticos), Lda<br />
+Tel: + 351 21 302 5 
+Hrvatska 
+Medis Adria d.o.o.<br />
+Tel: +385 (0) 1 230 34<br />
+Ireland 
+UCB (Pharma) Ireland Ltd.<br />
+Tel: + 353 / (0)1-46 37<br />
+România 
+UCB Pharma Romania S.R.L.<br />
+Tel: + 40 21 300 29<br />
+Slovenija 
+Medis, d.o.o.<br />
+Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf.<br />
+Simi: + 354 535 7 
+Slovenská republika 
+UCB s.r.o., organizačná zložka<br />
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A.<br />
+Tel: + 39 / 02 300<br />
+Suomi/Finland 
+UCB Pharma Oy Finland<br />
+Puh/Tel: + 358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd<br />
+Τηλ: + 357 22 056 
+Sverige 
+UCB Nordic A/S<br />
+Tel: + 46 / (0) 40 294<br />
+Latvija 
+Medfiles SIA 
+Tel: + 371 67 370<br />
+United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd.<br />
+Tel : + 353 / (0)1-46 37  </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<p>Brugsanvisning til Zilbrysq injektionsvæske, opløsning i fyldt injektionssprøjte </p>
+<p>Læs ALLE nedenstående anvisninger, før du bruger Zilbrysq </p>
+<p>Inden brug </p>
+<p>Efter brug </p>
+<p>Vigtig information:</p>
+<ul>
+<li>Din sundhedsperson skal vise dig, hvordan du forbereder og injicerer Zilbrysq korrekt, før du 
+bruger lægemidlet første gang. </li>
+<li>Ring til din sundhedsperson, hvis du eller din omsorgsperson har spørgsmål til, hvordan du eller 
+din omsorgsperson injicerer Zilbrysq korrekt. </li>
+</ul>
+<p>Brug ikke dette lægemiddel, og returnér det til apoteket:</p>
+<ul>
+<li>Hvis den fyldte injektionssprøjte har været tabt </li>
+</ul>
+<p>Følg nedenstående trin, hver gang du bruger Zilbrysq </p>
+<ol>
+<li>Trin 1: Klargøring til din injektion </li>
+</ol>
+<p>a) Hvis de fyldte injektionssprøjter opbevares i køleskabet: For en mere behagelig 
+injektion: Tag 1 Zilbrysq fyldt injektionssprøjte ud af køleskabet, og lad den ligge på en plan 
+overflade ved stuetemperatur i 30 til 45 minutter før injektion. Den må ikke opvarmes på 
+nogen anden måde. Læg resten af kartonen tilbage i køleskabet, og fortsæt til trin b) nedenfor. </p>
+<p>Hvis de fyldte injektionssprøjter opbevares ved stuetemperatur: Tag 1 Zilbrysq fyldt 
+injektionssprøjte ud af kartonen. Eventuelle resterende sprøjter fra kartonen må ikke anbringes 
+i køleskabet, når de har været opbevaret ved stuetemperatur. </p>
+<p>Tag fat i sprøjtecylinderen, når en sprøjte tages ud af den ydre karton (figur A). Rør ikke ved 
+stempelstangen og kanylehætten. Rør ikke ved aktiveringsklemmerne til kanylebeskyttelsen på noget 
+tidspunkt, da dette kan forårsage for tidlig aktivering af kanylebeskyttelsen. </p>
+<p>Sprøjtecylinder 
+Fingergreb 
+Stempelstang 
+Stempelhoved 
+Kanylehætte 
+Aktiveringsklemmer til 
+kanylebeskyttelse 
+Kanylebeskyttelse (låst) 
+Sprøjteetiket<br />
+(udløbsdato og 
+HANDELSNAVN) 
+Efter injektion aktiveres den 
+automatiske kanylebeskyttelse, og 
+kanylen trækkes tilbage. </p>
+<p>Figur A                           </p>
+<p>b) Anbring følgende genstande på en ren, flad, veloplyst overflade, som f.eks. et bord </p>
+<ul>
+<li>
+<p>1 fyldt injektionssprøjte med Zilbrysq </p>
+</li>
+<li>
+<p>1 spritserviet (medfølger ikke) </p>
+</li>
+<li>
+<p>1 vatkugle eller et stykke gaze (medfølger ikke) </p>
+</li>
+<li>
+<p>1 plaster (medfølger ikke) </p>
+</li>
+<li>
+<p>1 punkturfast beholder eller en beholder til skarpe genstande (medfølger ikke). Se trin 4 for 
+anvisninger om, hvordan den tomme sprøjte kasseres. </p>
+</li>
+</ul>
+<p>c) Efterse den fyldte injektionssprøjte </p>
+<ul>
+<li>
+<p>Kontrollér den fyldte injektionssprøjte for skader (figur "Før brug"). </p>
+</li>
+<li>
+<p>Brug ikke den fyldte injektionssprøjte, hvis nogen af delene ser ud til at være revnet, 
+lække eller er ødelagt. </p>
+</li>
+<li>
+<p>Brug ikke den fyldte injektionssprøjte, hvis kanylehætten er revnet, ødelagt, mangler, 
+eller ikke sidder godt fast. </p>
+</li>
+<li>
+<p>Tag ikke kanylehætten af den fyldte injektionssprøjte, før du er klar til injektionen. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet, hvis væsken på et tidspunkt har været frosset (selvom den er optøet). </p>
+</li>
+<li>
+<p>Kontrollér udløbsdatoen på sprøjtens etiket. </p>
+</li>
+<li>
+<p>Kontrollér lægemidlet i den fyldte injektionssprøjte. Lægemidlet skal være klart til let 
+opaliserende og farveløst. Det er normalt at se luftbobler i sprøjten. Lægemidlet må ikke bruges, 
+hvis det er grumset, misfarvet eller indeholder flydende partikler. </p>
+</li>
+<li>
+<p>Kontrollér dosis på etiketten. Lægemidlet må ikke bruges, hvis dosen ikke svarer til den dosis, du 
+har fået ordineret. </p>
+</li>
+<li>
+<p>Trin 2: Vælg dit injektionssted, og klargør din injektion </p>
+</li>
+</ul>
+<p>a) Vælg dit injektionssted </p>
+<p>Vælg et injektionssted fra følgende områder (figur B): </p>
+<ul>
+<li>
+<p>Maven (abdomen), undtaget et område på 5 cm omkring navlen </p>
+</li>
+<li>
+<p>Forsiden af lårene </p>
+</li>
+<li>
+<p>Bagsiden af overarmene </p>
+</li>
+</ul>
+<p>Figur B </p>
+<ul>
+<li>
+<p>Mave og lår </p>
+</li>
+<li>
+<p>Bagsiden af overarmene (kun hvis en anden giver dig injektionen) </p>
+</li>
+</ul>
+<p>Vælg et nyt sted til hver injektion. Hvis du vil bruge det samme injektionssted, skal du sørge for, at det 
+er mindst 2,5 cm fra et sted, du brugte sidste gang. </p>
+<p>Du må ikke injicere Zilbrysq i et område, der er ømt, rødt, har blå mærker, er hårdt, eller har ar eller 
+strækmærker. </p>
+<p>b) Vask hænderne grundigt med sæbe og vand, og tør dem med et rent håndklæde. </p>
+<p>c) Klargør din hud </p>
+<ul>
+<li>
+<p>Rengør injektionsstedet med en spritserviet. </p>
+</li>
+<li>
+<p>Lad huden tørre i 10 sekunder, før du injicerer. </p>
+</li>
+<li>
+<p>Rør ikke ved injektionsstedet igen, før du giver din injektion. </p>
+</li>
+<li>
+<p>Trin 3: Injicér Zilbrysq </p>
+</li>
+</ul>
+<p>a) Fjern kanylehætten </p>
+<p>Hold om cylinderen på den fyldte Zilbrysq-sprøjte med den ene hånd, og træk kanylehætten lige af 
+med den anden hånd (figur C). 
+Smid kanylehætten i skraldespanden eller i en beholder til skarpe genstande (se trin 4). </p>
+<ul>
+<li>
+<p>Du må ikke røre ved kanylen eller lade kanylen røre noget andet. </p>
+</li>
+<li>
+<p>For at undgå skader må kanylehætten ikke sættes på igen. </p>
+</li>
+<li>
+<p>Forsøg ikke at fjerne eventuelle luftbobler fra sprøjten. Luftbobler vil ikke påvirke din dosis og vil 
+ikke skade dig. Det er normalt. Du kan fortsætte med at tage din injektion. </p>
+</li>
+</ul>
+<p>Figur C </p>
+<p>b) Klem på injektionsstedet </p>
+<p>Brug den anden hånd til at klemme området med rengjort hud, og hold hudfolden fast (figur D). </p>
+<p>Figur D </p>
+<p>c) Indfør kanylen </p>
+<p>Indfør hele kanylen i den sammenklemte hud ved en vinkel på 45° til 90°. (figur E). </p>
+<ul>
+<li>
+<p>Træk ikke stemplet tilbage på noget tidspunkt, da det kan knække sprøjten </p>
+</li>
+<li>
+<p>Rør ikke ved aktiveringsklemmerne til kanylebeskyttelsen </p>
+</li>
+</ul>
+<p>Figur E </p>
+<p>d) Slip den sammenklemte hud </p>
+<p>Når kanylen er indført helt, skal du holde den fyldte injektionssprøjte på plads og slippe den 
+sammenklemte hud (figur F). </p>
+<ul>
+<li>Indfør ikke kanylen i huden igen, hvis kanylen glider ud, når huden slippes, da dette kan bøje 
+eller knække kanylen og beskadige vævet. Hvis dette sker, skal du kassere sprøjten i en beholder 
+til skarpe genstande, og hente en ny sprøjte til at give injektionen. </li>
+</ul>
+<p>Figur F </p>
+<p>e) Injicér lægemidlet </p>
+<p>Tryk stemplet helt ned, mens du holder fast i fingergrebet for at injicere alt lægemidlet (figur G). Alt 
+lægemidlet er injiceret, når du ikke kan trykke stempelhovedet længere ned. </p>
+<p>Figur G </p>
+<p>f) Slip stemplet </p>
+<p>Slip langsomt stemplet ved at løfte tommelfingeren. Efter en fuldført injektion vil kanylebeskyttelsen 
+dække kanylen, og du vil muligvis høre et klik (figur H). </p>
+<p>Figur H </p>
+<p>g) Undersøg injektionsstedet </p>
+<p>Pres en vatkugle eller et stykke gaze mod injektionsstedet i 10 sekunder. 
+Gnid ikke på injektionsstedet. Du kan bløde lidt, det er normalt. Sæt et plaster på, hvis det er 
+nødvendigt. </p>
+<p>Trin 4: </p>
+<p>Kassér den brugte sprøjte i en beholder til skarpe genstande med det samme. </p>
+<p>Opbevar altid beholderen til skarpe genstande utilgængeligt for børn. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-46af9fe042942e0b323406b7f9580690
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zilbrysq Package Leaflet for language en"
+Description: "ePI document Bundle for zilbrysq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-46af9fe042942e0b323406b7f9580690"
+* entry[0].resource = composition-en-46af9fe042942e0b323406b7f9580690
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp46af9fe042942e0b323406b7f9580690"
+* entry[=].resource = mp46af9fe042942e0b323406b7f9580690
+                            
+                    
+Instance: bundlepackageleaflet-da-46af9fe042942e0b323406b7f9580690
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zilbrysq Package Leaflet for language da"
+Description: "ePI document Bundle for zilbrysq Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-46af9fe042942e0b323406b7f9580690"
+* entry[0].resource = composition-da-46af9fe042942e0b323406b7f9580690
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp46af9fe042942e0b323406b7f9580690"
+* entry[=].resource = mp46af9fe042942e0b323406b7f9580690
+                            
+                    
+
+
+
+Instance: mp46af9fe042942e0b323406b7f9580690
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Zilbrysq 16.6 mg solution for injection in pre-filled syringe"
-Description: "Zilbrysq 16.6 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product zilbrysq"
+Description: "zilbrysq"
 Usage: #inline
 
  
@@ -365,7 +988,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Zilbrysq 16.6 mg solution for injection in pre-filled syringe"
+  * productName = "zilbrysq"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -392,29 +1015,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-46af9fe042942e0b323406b7f9580690
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zilbrysq Package Leaflet for language en"
-Description: "ePI document Bundle for zilbrysq Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 46af9fe042942e0b323406b7f9580690ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Zilbrysq 16.6 mg solution for injection in pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zilbrysq"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-46af9fe042942e0b323406b7f9580690"
-* entry[0].resource = composition-en-46af9fe042942e0b323406b7f9580690
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7ccfc0f3048e9e9c865d7ba406d0f0d4"
-* entry[=].resource = mp7ccfc0f3048e9e9c865d7ba406d0f0d4
-                            
-                      
+* title = "List of all ePIs associated with zilbrysq"
+
+* subject = Reference(mp7ccfc0f3048e9e9c865d7ba406d0f0d4)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zilbrysq "zilbrysq"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-46af9fe042942e0b323406b7f9580690) // zilbrysq en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-46af9fe042942e0b323406b7f9580690) // zilbrysq da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-46af9fe042942e0b323406b7f9580690
+InstanceOf: List
+
+* insert 46af9fe042942e0b323406b7f9580690ListRuleset
+    

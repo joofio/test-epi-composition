@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-626b5ebcb82fc86d7ecd89669e8b58e3
 InstanceOf: CompositionUvEpi
 Title: "Composition for vemlidy Package Leaflet"
@@ -393,12 +396,538 @@ Tel: + 44 (0) 8000 113 This leaflet was last revised in {MM/YYYY}. </p>
 
 
 
+Instance: composition-da-626b5ebcb82fc86d7ecd89669e8b58e3
+InstanceOf: CompositionUvEpi
+Title: "Composition for vemlidy Package Leaflet"
+Description:  "Composition for vemlidy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpee84097d5e2af68c1c8515506d60e929)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpee84097d5e2af68c1c8515506d60e929
+* title = "TEST PURPOSES ONLY - vemlidy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Vemlidy er ordineret til dit barn, skal du være opmærksom på, at alle oplysningerne i 
+indlægssedlen henvender sig til dit barn (i dette tilfælde skal du læse “dit barn" i stedet for 
+“du"). </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Vemlidy </li>
+<li>Sådan skal du tage Vemlidy </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vemlidy is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vemlidy is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vemlidy indeholder det aktive stof tenofovir-alafenamid. Det er et lægemiddel mod virus (et antiviralt 
+lægemiddel) og kaldes en nukleotid revers transkriptasehæmmer (NtRTI). </p>
+<p>Vemlidy bruges til behandling af kronisk (langvarig) hepatitis B hos voksne og børn over 6 år, som 
+vejer mindst 25 kg. Hepatitis B er en infektion, som påvirker leveren. Den skyldes hepatitis B-virus. 
+Hos patienter med hepatitis B kontrollerer dette lægemiddel infektionen ved at hindre, at virus 
+formerer sig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vemlidy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vemlidy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Vemlidy: </p>
+<ul>
+<li>hvis du er allergisk over for tenofovir-alafenamid eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6). </li>
+</ul>
+<p> Hvis dette gælder for dig, må du ikke tage Vemlidy, og du skal straks fortælle det til lægen. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<ul>
+<li>
+<p>Vær forsigtig, så du ikke smitter andre med hepatitis B. Du kan stadig smitte andre, selv om 
+du tager dette lægemiddel. Dette lægemiddel nedsætter ikke din risiko for at smitte andre med 
+hepatitis B gennem seksuel kontakt eller blod. Du skal fortsat træffe foranstaltninger for at 
+undgå dette. Tal med lægen om, hvad du skal gøre for at undgå at smitte andre.  </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du nogensinde har haft en leversygdom. Patienter med 
+leversygdom, som behandles for hepatitis B med antivirale lægemidler, har større risiko for 
+alvorlige og muligvis dødelige komplikationer fra leveren. Det kan være, at din læge vil tage 
+blodprøver for at holde øje med din leverfunktion. </p>
+</li>
+<li>
+<p>Tal med lægen eller apotekspersonalet, hvis du har haft en nyresygdom, eller hvis prøver 
+har vist, at du har problemer med nyrerne, før eller under behandling. Det kan være, at din 
+læge vil tage blod- eller urinprøver for at holde øje med, hvordan dine nyrer virker. Det kan 
+både være før og under behandlingen med Vemlidy. </p>
+</li>
+<li>
+<p>Tal med lægen, hvis du også har hepatitis C eller D. Dette lægemiddel er ikke blevet 
+undersøgt hos patienter, som har hepatitis C eller D udover hepatitis B. </p>
+</li>
+<li>
+<p>Tal med lægen, hvis du også har hiv. Hvis du ikke er sikker på, om du har hiv, bør din læge 
+tilbyde dig en hiv-test, før du begynder at tage dette lægemiddel mod hepatitis B. </p>
+</li>
+</ul>
+<p> Hvis noget af dette gælder for dig, skal du tale med lægen, før du tager Vemlidy. </p>
+<p>Der er en mulighed for, at du kan opleve nyreproblemer, når du tager Vemlidy over længere tid (se 
+Advarsler og forsigtighedsregler). </p>
+<p>Børn og unge </p>
+<p>Giv ikke dette lægemiddel til børn, som er under 6 år eller vejer under 25 kg. Lægemidlet er ikke 
+blevet undersøgt hos børn under 6 år, som vejer under 25 kg. </p>
+<p>Knogleproblemer. Tab af knoglemasse er blevet rapporteret hos nogle børn, som fik Vemlidy. 
+Virkningen på langsigtet knoglesundhed og fremtidig risiko for brud hos børn er ukendt. Lægen vil 
+overvåge denne mulige risiko. Fortæl lægen, hvis der forekommer knoglesmerter eller -brud. </p>
+<p>Brug af andre lægemidler sammen med Vemlidy </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler eller har gjort 
+det for nylig. Vemlidy kan påvirke andre lægemidler. Det kan betyde en ændring i mængden af 
+Vemlidy eller andre lægemidler i dit blod. Det kan forhindre, at lægemidlerne virker korrekt, eller det 
+kan gøre eventuelle bivirkninger værre. </p>
+<p>Lægemidler, der bruges til behandling af hepatitis B-infektion 
+Tag ikke dette lægemiddel sammen med andre lægemidler, der indeholder: </p>
+<ul>
+<li>
+<p>tenofovir-alafenamid </p>
+</li>
+<li>
+<p>tenofovir-disoproxil </p>
+</li>
+<li>
+<p>adefovir-dipivoxil. </p>
+</li>
+</ul>
+<p>Andre typer af lægemidler 
+Tal med din læge, hvis du tager: </p>
+<ul>
+<li>
+<p>antibiotika, der anvendes til behandling af bakterieinfektioner, herunder tuberkulose, og som 
+indeholder:</p>
+</li>
+<li>
+<p>rifabutin, rifampicin eller rifapentin </p>
+</li>
+<li>
+<p>antivirale lægemidler, der anvendes til behandling af hiv, såsom:</p>
+</li>
+<li>
+<p>ritonavir- eller cobicistat-boosted darunavir, lopinavir eller atazanavir </p>
+</li>
+<li>
+<p>krampestillende midler, der anvendes til behandling af epilepsi, såsom:</p>
+</li>
+<li>
+<p>carbamazepin, oxcarbazepin, phenobarbital eller phenytoin </p>
+</li>
+<li>
+<p>naturlægemider, der anvendes til behandling af depression og angst, og som indeholder:</p>
+</li>
+<li>
+<p>perikon (hypericum perforatum) </p>
+</li>
+<li>
+<p>antimykotika, der anvendes til behandling af svampeinfektioner, og som indeholder:</p>
+</li>
+<li>
+<p>ketoconazol eller itraconazol. </p>
+</li>
+</ul>
+<p> Fortæl det til lægen, hvis du tager et eller flere af disse lægemidler, eller hvis du tager andre 
+lægemidler.  </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<ul>
+<li>
+<p>Fortæl det straks til lægen, hvis du bliver gravid. </p>
+</li>
+<li>
+<p>Du må ikke amme, mens du er i behandling med Vemlidy. Amning frarådes, så dit barn ikke 
+får tenofoviralafenamid eller tenofovir gennem mælken. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Vemlidy kan give svimmelhed. Hvis du føler dig svimmel, mens du tager Vemlidy, må du ikke føre 
+motorkøretøj eller bruge værktøj eller maskiner. </p>
+<p>Vemlidy indeholder lactose </p>
+<p>Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>Vemlidy indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vemlidy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vemlidy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er én tablet én gang dagligt sammen med mad. Det er bedst at tage Vemlidy 
+med mad for at få det rette niveau af aktivt stof i kroppen. Lægen afgør, hvor længe behandlingen skal 
+fortsætte. Det er som regel mindst 6 til 12 måneder og kan være i mange år. </p>
+<p>Hvis du har taget for mange Vemlidy </p>
+<p>Hvis du ved et uheld har taget mere end den anbefalede dosis af Vemlidy, kan du have større risiko for 
+at få bivirkninger af dette lægemiddel (se afsnit 4, Bivirkninger). </p>
+<p>Kontakt straks lægen eller den nærmeste skadestue for at få rådgivning. Tag tabletbeholderen med, så 
+du let kan beskrive, hvad du har taget. </p>
+<p>Hvis du har glemt at tage Vemlidy </p>
+<p>Det er vigtigt ikke at glemme en dosis. Hvis du glemmer en dosis, skal du regne ud, hvor lang tid der 
+er gået, siden du skulle have taget den. </p>
+<ul>
+<li>
+<p>Hvis der er gået mindre end 18 timer siden det tidspunkt, hvor du normalt tager Vemlidy, 
+skal du tage lægemidlet snarest muligt og derefter tage den næste dosis til sædvanlig tid. </p>
+</li>
+<li>
+<p>Hvis der er gået mere end 18 timer siden det tidspunkt, hvor du normalt tager Vemlidy, skal 
+du ikke tage den glemte dosis. Vent, og tag den næste dosis til sædvanlig tid. Du må ikke tage 
+en dobbeltdosis som erstatning for den glemte tablet. </p>
+</li>
+</ul>
+<p>Hvis du kaster op mindre end 1 time efter, at du har taget Vemlidy, skal du tage en ny tablet. Du 
+skal ikke tage en ny tablet, hvis du kaster op mere end 1 time efter, at du har taget Vemlidy. </p>
+<p>Hvis du holder op med at tage Vemlidy </p>
+<p>Du må ikke holde op med at tage Vemlidy uden først at drøfte det med lægen. Hvis du holder op 
+med at tage Vemlidy, kan din hepatitis B blive værre. Hos nogle patienter med fremskreden 
+leversygdom eller skrumpelever (cirrose) kan det være livstruende. Hvis du holder op med at tage dette 
+lægemiddel, skal du regelmæssigt have foretaget helbredsundersøgelser og have taget blodprøver i 
+flere måneder som kontrol af din hepatitis B-infektion. </p>
+<ul>
+<li>
+<p>Tal med lægen, inden du holder op med at tage dette lægemiddel uanset årsag, især hvis du har 
+oplevet bivirkninger, eller hvis du har en anden sygdom. </p>
+</li>
+<li>
+<p>Fortæl straks lægen om nye eller usædvanlige symptomer, efter du er holdt op med 
+behandlingen, især symptomer, som du forbinder med hepatitis B-infektion. </p>
+</li>
+<li>
+<p>Tal med lægen, før du begynder at tage Vemlidy-tabletter igen. </p>
+</li>
+</ul>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelige 
+(kan berøre flere end 1 ud af 10 personer) </p>
+<ul>
+<li>Hovedpine </li>
+</ul>
+<p>Almindelige 
+(kan berøre op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Ledsmerter (artralgi) </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Oppustethed </p>
+</li>
+<li>
+<p>Luft i mave og tarme </p>
+</li>
+<li>
+<p>Træthed  </p>
+</li>
+</ul>
+<p>Ikke almindelige 
+(kan berøre op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Hævelse af ansigt, læber, tunge eller hals (angioødem) </p>
+</li>
+<li>
+<p>Nældefeber (urticaria) </p>
+</li>
+</ul>
+<p>Prøver kan også vise: </p>
+<ul>
+<li>Forhøjet indhold af et leverenzym (ALAT) i blodet </li>
+</ul>
+<p> Fortæl det til lægen, hvis nogen af disse bivirkninger bliver alvorlige. </p>
+<p>Under HBV-behandling kan der være en stigning i vægt, fastende niveauer af blodlipider og/eller 
+blodsukker. Lægen vil måle, om der er sådanne ændringer. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vemlidy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vemlidy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderen og pakningen efter {EXP}. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale pakning for at beskytte mod fugt. Beholderen skal holdes tæt tillukket. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vemlidy indeholder:  </p>
+<p>Aktivt stof: tenofoviralafenamid. Hver Vemlidy filmovertrukket tablet indeholder tenofovir-
+alafenamid-fumarat svarende til 25 mg tenofoviralafenamid. </p>
+<p>Øvrige indholdsstoffer: 
+Tabletkerne: 
+Lactosemonohydrat, mikrokrystallinsk cellulose (E460(i)), croscarmellosenatrium (E468), 
+magnesiumstearat (E470b). </p>
+<p>Filmovertræk: 
+Polyvinylalkohol (E1203), titandioxid (E171), macrogol (E1521), talcum (E553b), gul 
+jernoxid (E172). </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Vemlidy er gule, runde, filmovertrukne tabletter, som har „GSI“ trykt (eller præget) på den ene side af 
+tabletten og „25“ på den anden side. De findes i beholdere med 30 tabletter (med kiselgel som 
+tørremiddel; dette skal opbevares i beholderen for at beskytte tabletterne). Kiselgelen ligger i en pose 
+eller beholder og må ikke sluges. </p>
+<p>Følgende pakningsstørrelser fås: kartonæske med 1 beholder med 30 filmovertrukne tabletter og 
+kartonæske med 3 beholdere med 30 (90) filmovertrukne tabletter. Begge pakningsstørrelser er ikke 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrland </p>
+<p>Fremstiller 
+Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Тел.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 24 01 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871<br />
+Magyarország 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf.: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36 Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 (0) 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113  </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-626b5ebcb82fc86d7ecd89669e8b58e3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vemlidy Package Leaflet for language en"
+Description: "ePI document Bundle for vemlidy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-626b5ebcb82fc86d7ecd89669e8b58e3"
+* entry[0].resource = composition-en-626b5ebcb82fc86d7ecd89669e8b58e3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp626b5ebcb82fc86d7ecd89669e8b58e3"
+* entry[=].resource = mp626b5ebcb82fc86d7ecd89669e8b58e3
+                            
+                    
+Instance: bundlepackageleaflet-da-626b5ebcb82fc86d7ecd89669e8b58e3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vemlidy Package Leaflet for language da"
+Description: "ePI document Bundle for vemlidy Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-626b5ebcb82fc86d7ecd89669e8b58e3"
+* entry[0].resource = composition-da-626b5ebcb82fc86d7ecd89669e8b58e3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp626b5ebcb82fc86d7ecd89669e8b58e3"
+* entry[=].resource = mp626b5ebcb82fc86d7ecd89669e8b58e3
+                            
+                    
+
+
+
+Instance: mp626b5ebcb82fc86d7ecd89669e8b58e3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vemlidy 25 mg film-coated tablets."
-Description: "Vemlidy 25 mg film-coated tablets."
+Title: "Medicinal Product vemlidy"
+Description: "vemlidy"
 Usage: #inline
 
  
@@ -418,7 +947,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vemlidy 25 mg film-coated tablets."
+  * productName = "vemlidy"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -445,29 +974,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-626b5ebcb82fc86d7ecd89669e8b58e3
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vemlidy Package Leaflet for language en"
-Description: "ePI document Bundle for vemlidy Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 626b5ebcb82fc86d7ecd89669e8b58e3ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/16/1154/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vemlidy"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-626b5ebcb82fc86d7ecd89669e8b58e3"
-* entry[0].resource = composition-en-626b5ebcb82fc86d7ecd89669e8b58e3
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpee84097d5e2af68c1c8515506d60e929"
-* entry[=].resource = mpee84097d5e2af68c1c8515506d60e929
-                            
-                      
+* title = "List of all ePIs associated with vemlidy"
+
+* subject = Reference(mpee84097d5e2af68c1c8515506d60e929)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vemlidy "vemlidy"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-626b5ebcb82fc86d7ecd89669e8b58e3) // vemlidy en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-626b5ebcb82fc86d7ecd89669e8b58e3) // vemlidy da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-626b5ebcb82fc86d7ecd89669e8b58e3
+InstanceOf: List
+
+* insert 626b5ebcb82fc86d7ecd89669e8b58e3ListRuleset
+    

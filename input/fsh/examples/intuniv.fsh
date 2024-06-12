@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d2fbf2f2639d83ae5727c01cf5210fc3
 InstanceOf: CompositionUvEpi
 Title: "Composition for intuniv Package Leaflet"
@@ -475,12 +478,758 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-d2fbf2f2639d83ae5727c01cf5210fc3
+InstanceOf: CompositionUvEpi
+Title: "Composition for intuniv Package Leaflet"
+Description:  "Composition for intuniv Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd8e20a0c387bb38def7286b63777e67e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd8e20a0c387bb38def7286b63777e67e
+* title = "TEST PURPOSES ONLY - intuniv"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Intuniv<br />
+3. Sådan skal du tage Intuniv 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What intuniv is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What intuniv is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning </p>
+<p>Intuniv indeholder det aktive stof guanfacin. Dette lægemiddel tilhører en gruppe lægemidler, som 
+påvirker hjerneaktiviteten. Dette lægemiddel kan hjælpe dig med at forbedre din opmærksomhed og 
+gør dig mindre impulsiv og hyperaktiv. </p>
+<p>Anvendelse </p>
+<p>Dette lægemiddel anvendes til at behandle ’attention deficit hyperactivity disorder’ (ADHD) hos børn 
+og unge i alderen 6-17 år, hvor aktuelt stimulerende medicin ikke er passende, og/eller hvor aktuel 
+medicin ikke kontrollerer ADHD-symptomerne i tilstrækkelig grad. </p>
+<p>Medicinen gives som en del af et behandlingsprogram, der normalt omfatter: </p>
+<ul>
+<li>
+<p>psykoterapi </p>
+</li>
+<li>
+<p>pædagogisk behandling </p>
+</li>
+<li>
+<p>social behandling </p>
+</li>
+</ul>
+<p>Om ADHD </p>
+<p>Personer med ADHD har besvær med at: </p>
+<ul>
+<li>
+<p>sidde stille </p>
+</li>
+<li>
+<p>koncentrere sig. </p>
+</li>
+</ul>
+<p>ADHD kan give problemer i hverdagen. Børn og unge personer med ADHD kan have problemer med 
+indlæring og med at lave lektier. De kan have svært med at opføre sig ordentligt hjemme, i skolen og 
+andre steder. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take intuniv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take intuniv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Intuniv: </p>
+<ul>
+<li>hvis du er allergisk over for guanfacin eller et af de øvrige indholdsstoffer i Intuniv (angivet i 
+punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager dette lægemiddel, hvis: </p>
+<ul>
+<li>
+<p>du har et lavt eller højt blodtryk, hjerteproblemer, eller der er hjerteproblemer i familien </p>
+</li>
+<li>
+<p>du for nylig er besvimet </p>
+</li>
+<li>
+<p>du har tanker eller følelser om selvmord </p>
+</li>
+<li>
+<p>du lider af andre psykiske sygdomme </p>
+</li>
+</ul>
+<p>Kontakt lægen eller apotekspersonalet, før du tager dette lægemiddel, hvis du: </p>
+<ul>
+<li>
+<p>oplever aggressive følelser eller adfærd </p>
+</li>
+<li>
+<p>har tanker om selvmord eller selvmordstrang </p>
+</li>
+</ul>
+<p>Intuniv kan påvirke din vægt og højde, hvis du tager det i lange perioder. Derfor vil din læge overvåge 
+din vækst. </p>
+<p>Du må ikke holde op med at tage Intuniv uden først at have talt med din læge. Hvis du pludselig 
+holder op med at tage Intuniv, kan du få abstinenssymptomer som forhøjet hjertefrekvens og forhøjet 
+blodtryk (se pkt. 4). </p>
+<p>Hvis noget af det ovenstående gælder for dig (eller du ikke er sikker), skal du kontakte din læge eller 
+apotekspersonalet, før du tager dette lægemiddel. Dette lægemiddel kan nemlig forværre disse 
+problemer. Din læge vil overvåge dig rutinemæssigt for at se, hvordan lægemidlet påvirker dig. </p>
+<p>Børn (under 6 år) og voksne (18 år og derover) </p>
+<p>Dette lægemiddel må ikke anvendes af børn under 6 år og af voksne på 18 år og derover, da det er 
+ukendt, om det virker eller er sikkert. </p>
+<p>Kontroller, din læge vil udføre, mens du tager Intuniv </p>
+<p>Før du begynder at tage dette lægemiddel vil din læge kontrollere, at dette lægemiddel er sikkert for 
+dig, og at det vil hjælpe dig. Mens du tager dette lægemiddel, vil din læge gentage disse kontroller 
+ugentligt i løbet af den indledende dosering, efter dosisjustering, mindst hver 3. måned i løbet af det 
+første år, og dernæst mindst to gange årligt. Disse kontroller kan omfatte: </p>
+<ul>
+<li>
+<p>dit blodtryk og din puls samt andre kontroller af dit hjerte, hvis det er relevant </p>
+</li>
+<li>
+<p>din reaktion på behandlingen, især hvis den gør dig søvnig eller døsig </p>
+</li>
+<li>
+<p>din højde og vægt </p>
+</li>
+</ul>
+<p>Kontakt lægen, hvis du får det værre, eller hvis du ikke får det bedre og føler dig meget søvnig eller 
+døsig, efter du har taget lægemidlet i omtrent 6 uger. Det kan være, at lægen vil justere din behandling. </p>
+<p>Brug af anden medicin sammen med Intuniv </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. 
+Intuniv og nogle andre lægemidler kan nemlig påvirke hinanden. </p>
+<p>Du skal især fortælle det til lægen eller apotekspersonalet, hvis du tager nogle af de følgende typer 
+lægemidler: </p>
+<ul>
+<li>
+<p>lægemidler, der sænker dit blodtryk (antihypertensiva) </p>
+</li>
+<li>
+<p>lægemidler mod epilepsi, såsom valproinsyre </p>
+</li>
+<li>
+<p>lægemidler, der gør dig søvnig (sedativa) </p>
+</li>
+<li>
+<p>lægemidler mod psykiske problemer (benzodiazepiner, barbiturater og antipsykotika) </p>
+</li>
+<li>
+<p>lægemidler, der kan påvirke den måde, Intuniv udskilles af leveren på (se tabellen nedenfor) </p>
+</li>
+</ul>
+<p>Lægemidler 
+Bruges til at behandle 
+Aprepitant 
+Kvalme og svimmelhed (vertigo). 
+Atazanavir, efavirenz, etravirine, 
+fosamprenavir, indinavir, nevirapin, 
+ritonavir, saquinavir<br />
+Hiv-infektion. 
+Ciprofloxacin, chloramphenicol, 
+clarithromycin, erythromycin, rifabutin, 
+rifampicin, telithromycin<br />
+Bakterieinfektioner. 
+Fluconazol, itraconazol, posaconazol, 
+ketoconazol 
+Svampeinfektioner. 
+Crizotinib, imatinib 
+Kræft. 
+Diltiazem, verapamil 
+Hjerte-kar-sygdomme. 
+Boceprevir, telaprevir 
+Viral hepatitis. 
+Suboxon 
+Stofmisbrug. 
+Bosentan 
+Hjerte-kar-sygdomme (f.eks. sammentrækning af 
+blodkar i lungerne). 
+Carbamazepin, oxcarbazepin, 
+phenobarbital, phenytoin, primidon 
+Bruges til at kontrollere epilepsi. 
+Modafinil 
+Er et lægemiddel, der fremmer opmærksomhed og 
+bruges til at behandle søvnforstyrrelser. 
+Perikon 
+Er et naturlægemiddel, der bruges til at behandle 
+depression. </p>
+<p>Hvis noget af det ovenstående gælder for dig (eller du ikke er sikker), skal du kontakte din læge eller 
+apotekspersonalet, før du tager dette lægemiddel. </p>
+<p>Brug af Intuniv sammen med mad, drikke og alkohol </p>
+<ul>
+<li>
+<p>Tag ikke lægemidlet sammen med mad med et højt fedtindhold (f.eks. morgenmad med et højt 
+fedtindhold), da det kan påvirke den måde, lægemidlet virker på. </p>
+</li>
+<li>
+<p>Tag ikke grapefrugtjuice sammen med lægemidlet, da det kan påvirke den måde, lægemidlet 
+virker på. </p>
+</li>
+<li>
+<p>Du må ikke drikke alkohol, mens du tager lægemidlet, da det kan gøre dig søvnig eller døsig. </p>
+</li>
+</ul>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<ul>
+<li>
+<p>Tag ikke lægemidlet, hvis du er gravid, eller hvis du ikke bruger prævention. Det er ukendt, om 
+Intuniv kan påvirke dit ufødte barn. </p>
+</li>
+<li>
+<p>Du må ikke amme, mens du tager Intuniv, medmindre lægen har bedt dig om det. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Du kan føle dig svimmel og døsig, når du tager lægemidlet, især i begyndelsen af behandlingen, og det 
+kan vare i 2 til 3 uger, muligvis længere. Hvis dette forekommer, må du ikke føre motorkøretøj, cykle, 
+betjene værktøj eller maskiner eller deltage i aktiviteter, der kan forårsage personskade, indtil du ved, 
+hvordan lægemidlet påvirker dig. Besvimelse er også blevet rapporteret, men det er ikke er almindelig 
+virkning. </p>
+<p>Intuniv indeholder lactose: </p>
+<p>Lactose er en type sukker. Kontakt lægen eller apotekspersonalet, før du tager dette lægemiddel, hvis 
+lægen har fortalt dig, at du ikke kan tåle eller fordøje visse sukkerarter. </p>
+<p>Intuniv indeholder natrium: </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige "natriumfrit". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take intuniv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take intuniv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din behandling vil blive påbegyndt under overvågning af en passende specialist i adfærdssygdomme 
+hos børn og/eller unge. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Som en del af din behandling vil din læge nøje overvåge, hvordan Intuniv påvirker dig i løbet af den 
+indledende dosering og/eller dosisjusteringer. </p>
+<p>Hvor meget skal du tage? </p>
+<ul>
+<li>
+<p>Din læge vil starte dig på 1 mg dagligt. Din læge kan øge din dosis baseret på din legemsvægt, 
+og hvordan Intuniv virker på dig, men ikke med mere end 1 mg ugentligt. Afhængigt af, 
+hvordan du reagerer på behandlingen, kan din læge øge dosis mere langsomt. Den anbefalede 
+vedligeholdelsesdosis er fra 0,05 op til 0,12 mg pr. kg legemsvægt dagligt. </p>
+</li>
+<li>
+<p>Du bemærker måske ikke nogen umiddelbar virkning, når behandlingen startes. Nogle patienter 
+kan mærke en forbedring efter den første uge, men det kan tage længere. </p>
+</li>
+<li>
+<p>Din daglige dosis vil være fra 1 til 7 mg afhængigt af din alder, og hvordan du reagerer på 
+Intuniv, men den vil ikke være over 7 mg. </p>
+</li>
+</ul>
+<p>Sådan skal du tage Intuniv </p>
+<ul>
+<li>
+<p>Dette lægemiddel bør tages en gang dagligt, enten om morgenen eller aftenen. </p>
+</li>
+<li>
+<p>Det kan tages sammen med eller uden mad, men det må ikke tages sammen med fedtholdigt 
+mad (f.eks. morgenmad med et højt fedtindhold). </p>
+</li>
+<li>
+<p>Slug tabletten hel sammen med vand eller anden væske (men ikke grapefrugtjuice). </p>
+</li>
+<li>
+<p>Tabletten må ikke knækkes, knuses eller tygges. Det vil påvirke virkningen af tabletten. Fortæl 
+det til lægen, hvis du ikke kan sluge tabletten hel. </p>
+</li>
+</ul>
+<p>Behandlingsvarighed </p>
+<p>Hvis det er nødvendigt, at du tager Intuniv i over et år, vil lægen overvåge din behandlingsreaktion, og 
+din læge kan afbryde lægemidlet i en kort periode, dette kan finde sted i løbet af skoleferien. Dette vil 
+vise, om du stadig har behov for at tage medicinen. </p>
+<p>Hvis du har taget for meget Intuniv </p>
+<p>Hvis du har taget for meget Intuniv, bør du straks kontakte en læge eller tage på hospitalet. Tag 
+medicinpakningen med dig, og fortæl dem, hvor meget du har taget. </p>
+<p>Der kan evt. opstå de følgende virkninger: lavt eller højt blodtryk, langsom puls, langsom 
+vejrtrækning, træthedsfølelse eller udmattelse. </p>
+<p>Hvis du har glemt at tage Intuniv </p>
+<p>Hvis du har glemt en dosis, skal du vente til næste dag og tage din sædvanlige dosis. </p>
+<ul>
+<li>
+<p>Hvis du har sprunget to eller flere doser over, skal du kontakte lægen, da det kan være, at du 
+skal påbegynde Intuniv-behandlingen igen med en lavere dosis. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Intuniv </p>
+<p>Du må ikke holde op med at tage dette lægemiddel uden først at kontakte lægen. </p>
+<ul>
+<li>
+<p>Hvis du holder op med at tage dette lægemiddel, kan dit blodtryk og din puls måske stige (se 
+pkt. 4 nedenfor). </p>
+</li>
+<li>
+<p>For at stoppe lægemidlet vil din læge vil langsomt nedtrappe din dosis af Intuniv for at mindske 
+bivirkningerne. </p>
+</li>
+</ul>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Kontakt 
+lægen, hvis du er bekymret. </p>
+<p>Hvis du på en eller anden måde føler dig utilpas, mens du tager din medicin, bedes du straks 
+fortælle det til en voksen. </p>
+<p>Alvorlige bivirkninger </p>
+<p>De følgende alvorlige bivirkninger er blevet rapporteret: søvnighed (sedation), svimmelhedsfølelse 
+(hypotension), langsom puls (bradykardi), følelse af at besvime eller bevidstløshed (synkope), en 
+alvorlig ophørsbivirkning i form af forhøjet blodtryk ved pludseligt ophør med Intuniv; symptomerne 
+kan være hovedpine, forvirring, nervøsitet, uro og rystelser (hypertensiv encefalopati). </p>
+<p>Nogle af disse bivirkninger opstår hyppigere i starten af behandlingen og kan forsvinde, når du 
+fortsætter behandlingen. Hvis du oplever nogle af disse bivirkninger, skal du straks kontakte lægen.  </p>
+<p>Andre bivirkninger </p>
+<p>Følgende bivirkninger er blevet rapporteret. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>følelse af at være søvnig (døsighed) </p>
+</li>
+<li>
+<p>træthedsfølelse </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>mavepine (abdominalsmerter). </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>langsom hjerterytme (puls) </p>
+</li>
+<li>
+<p>lavt blodtryk </p>
+</li>
+<li>
+<p>rastløshed eller irritabilitet </p>
+</li>
+<li>
+<p>søvnproblemer (insomni) eller afbrudt søvn (søvnløshed midt om natten) eller mareridt </p>
+</li>
+<li>
+<p>depression, bekymringer (angst) eller humørsvingninger (affektlabilitet) </p>
+</li>
+<li>
+<p>mangel på energi (letargi) </p>
+</li>
+<li>
+<p>vægtøgning </p>
+</li>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>ufrivillig vandladning (enurese) </p>
+</li>
+<li>
+<p>kvalme eller opkastning </p>
+</li>
+<li>
+<p>diarré, mave- eller fordøjelsesbesvær </p>
+</li>
+<li>
+<p>lavt blodtryk, når man rejser sig op (ortostatisk hypotension) </p>
+</li>
+<li>
+<p>udslæt. </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>allergiske reaktioner (overfølsomhed) </p>
+</li>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>fordøjelsesbesvær (dyspepsi) </p>
+</li>
+<li>
+<p>vejrtrækningsproblemer (astma) </p>
+</li>
+<li>
+<p>svaghedsfølelse (asteni) </p>
+</li>
+<li>
+<p>bleghed </p>
+</li>
+<li>
+<p>krampeanfald </p>
+</li>
+<li>
+<p>hyppig vandladningstrang (pollakisuri) </p>
+</li>
+<li>
+<p>en følelse af at være ophidset (agitation) </p>
+</li>
+<li>
+<p>aggressivitet </p>
+</li>
+<li>
+<p>ændrede resultater af leverblodprøver (øget ALAT (alaninaminotransferase)) </p>
+</li>
+<li>
+<p>blodtryksstigning </p>
+</li>
+<li>
+<p>unormal puls (sinusarytmi og 1. grads atrioventrikulært blok) </p>
+</li>
+<li>
+<p>hurtigt hjerteslag (takykardi) </p>
+</li>
+<li>
+<p>nedsat puls </p>
+</li>
+<li>
+<p>svimmelhedsfølelse, når man rejser sig op (postural svimmelhed) </p>
+</li>
+<li>
+<p>hudkløe (pruritus) </p>
+</li>
+<li>
+<p>se eller høre ting, som ikke eksisterer (hallucinationer). </p>
+</li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>sover mere end normalt (hypersomni) </p>
+</li>
+<li>
+<p>højt blodtryk (hypertension) </p>
+</li>
+<li>
+<p>utilpashed. </p>
+</li>
+</ul>
+<p>Meget sjælden (kan forekomme hos op til 1 ud af 10.000 personer) </p>
+<ul>
+<li>en alvorlig ophørsbivirkning i form af forhøjet blodtryk ved pludseligt ophør med Intuniv; 
+symptomerne kan være hovedpine, forvirring, nervøsitet, uro og rystelser (hypertensiv 
+encefalopati). </li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>problemer med at få eller holde en rejsning (erektil dysfunktion). </li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store intuniv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store intuniv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og blisterpakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Brug ikke lægemidlet, hvis tabletterne eller blisterpakningen ser beskadiget ud. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Intuniv indeholder: </p>
+<ul>
+<li>
+<p>Hver 1 mg tablet indeholder guanfacinhydrochlorid svarende til 1 mg guanfacin </p>
+</li>
+<li>
+<p>Hver 2 mg tablet indeholder guanfacinhydrochlorid svarende til 2 mg guanfacin </p>
+</li>
+<li>
+<p>Hver 3 mg tablet indeholder guanfacinhydrochlorid svarende til 3 mg guanfacin </p>
+</li>
+<li>
+<p>Hver 4 mg tablet indeholder guanfacinhydrochlorid svarende til 4 mg guanfacin </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: hypromellose 2208, methacrylsyre-ethylacrylat copolymer, 
+lactosemonohydrat, povidon, crospovidon Type A, mikrokrystallinsk cellulose, silica, kolloid 
+vandfri, natriumlaurilsulfat, polysorbat 80, fumarsyre, glyceroldibehenat. </p>
+</li>
+<li>
+<p>Tabletterne med 3 mg og 4 mg indeholder også indigotin (E 132) og gul jernoxid (E 172) </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Intuniv er en depottablet, hvilket betyder, at det aktive stof frigives fra tabletten over en tidsperiode. 
+Tabletterne fås i pakningsstørrelser med 7, 28 eller 84 tabletter, men ikke alle pakningsstørrelser kan 
+nødvendigvis fås. </p>
+<ul>
+<li>
+<p>1 mg depottabletter er runde og hvide, hårde tabletter, præget med 1MG på den ene side og med 
+503 på den anden side. </p>
+</li>
+<li>
+<p>2 mg depottabletter er ovale og hvide, hårde tabletter, præget med 2MG på den ene side og med 
+503 på den anden side. </p>
+</li>
+<li>
+<p>3 mg depottabletter er runde og grønne, hårde tabletter, præget med 3MG på den ene side og 
+med 503 på den anden side. </p>
+</li>
+<li>
+<p>4 mg depottabletter er ovale og grønne, hårde tabletter, præget med 4MG på den ene side og 
+med 503 på den anden side. </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Takeda Pharmaceuticals International AG Ireland Branch 
+Block 2 Miesian Plaza 
+50-58 Baggot Street Lower 
+Dublin 2<br />
+D02 HW68<br />
+Irland </p>
+<p>Fremstiller 
+Takeda Pharmaceuticals International AG Ireland Branch 
+Block 2 Miesian Plaza 
+50-58 Baggot Street Lower 
+Dublin 2 
+D02 HW68<br />
+Irland </p>
+<p>Shire Pharmaceuticals Ireland Limited 
+Block 2 &amp; 3 Miesian Plaza 
+50 - 58 Baggot Street Lower 
+Dublin 2 
+Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 11<br />
+medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Тел.: +359 2 958 27 medinfoEMEA@takeda.com  </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>Česká republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Τakeda HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Ελλάδα 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Österreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 50<br />
+medinfoEMEA@takeda.com </p>
+<p>España 
+Takeda Farmacéutica España S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmacêuticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>România 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d2fbf2f2639d83ae5727c01cf5210fc3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for intuniv Package Leaflet for language en"
+Description: "ePI document Bundle for intuniv Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d2fbf2f2639d83ae5727c01cf5210fc3"
+* entry[0].resource = composition-en-d2fbf2f2639d83ae5727c01cf5210fc3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd2fbf2f2639d83ae5727c01cf5210fc3"
+* entry[=].resource = mpd2fbf2f2639d83ae5727c01cf5210fc3
+                            
+                    
+Instance: bundlepackageleaflet-da-d2fbf2f2639d83ae5727c01cf5210fc3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for intuniv Package Leaflet for language da"
+Description: "ePI document Bundle for intuniv Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d2fbf2f2639d83ae5727c01cf5210fc3"
+* entry[0].resource = composition-da-d2fbf2f2639d83ae5727c01cf5210fc3
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd2fbf2f2639d83ae5727c01cf5210fc3"
+* entry[=].resource = mpd2fbf2f2639d83ae5727c01cf5210fc3
+                            
+                    
+
+
+
+Instance: mpd2fbf2f2639d83ae5727c01cf5210fc3
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Intuniv 1 mg prolonged-release tablets"
-Description: "Intuniv 1 mg prolonged-release tablets"
+Title: "Medicinal Product intuniv"
+Description: "intuniv"
 Usage: #inline
 
  
@@ -500,7 +1249,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Intuniv 1 mg prolonged-release tablets"
+  * productName = "intuniv"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -527,29 +1276,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d2fbf2f2639d83ae5727c01cf5210fc3
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for intuniv Package Leaflet for language en"
-Description: "ePI document Bundle for intuniv Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d2fbf2f2639d83ae5727c01cf5210fc3ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Intuniv 1 mg prolonged-release tablet"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "intuniv"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d2fbf2f2639d83ae5727c01cf5210fc3"
-* entry[0].resource = composition-en-d2fbf2f2639d83ae5727c01cf5210fc3
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd8e20a0c387bb38def7286b63777e67e"
-* entry[=].resource = mpd8e20a0c387bb38def7286b63777e67e
-                            
-                      
+* title = "List of all ePIs associated with intuniv"
+
+* subject = Reference(mpd8e20a0c387bb38def7286b63777e67e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#intuniv "intuniv"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d2fbf2f2639d83ae5727c01cf5210fc3) // intuniv en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d2fbf2f2639d83ae5727c01cf5210fc3) // intuniv da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d2fbf2f2639d83ae5727c01cf5210fc3
+InstanceOf: List
+
+* insert d2fbf2f2639d83ae5727c01cf5210fc3ListRuleset
+    

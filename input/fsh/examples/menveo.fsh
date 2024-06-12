@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c082813e7ff4dad923d73dee6e29eba2
 InstanceOf: CompositionUvEpi
 Title: "Composition for menveo Package Leaflet"
@@ -352,12 +355,463 @@ Tel: +44 (0)800 221 customercontactuk@gsk.com  </p>
 
 
 
+Instance: composition-da-c082813e7ff4dad923d73dee6e29eba2
+InstanceOf: CompositionUvEpi
+Title: "Composition for menveo Package Leaflet"
+Description:  "Composition for menveo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp434eb2c15a2a5685b460c469c0abfad8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp434eb2c15a2a5685b460c469c0abfad8
+* title = "TEST PURPOSES ONLY - menveo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du eller dit barn får Menveo </li>
+<li>Sådan bruges Menveo </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What menveo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What menveo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Menveo er en vaccine, der benyttes til aktiv beskyttelse af børn (fra 2 år), unge og voksne med 
+risiko for at blive udsat for en bakterie, der kaldes Neisseria meningitidis, serogruppe A, C, W-135 og 
+Y, som forebyggelse mod sygdom. Vaccinen virker ved at stimulere kroppens egen beskyttelse 
+(dannelse af antistoffer) mod disse bakterier. </p>
+<p>Neisseria meningitidis-gruppe A, C, W-135 og Y-bakterier kan medføre alvorlige og til tider 
+livstruende infektioner som meningitis (hjernehindebetændelse) og sepsis (blodforgiftning). </p>
+<p>Menveo kan ikke medføre bakteriel meningitis. Denne vaccine indeholder et protein (kaldet CRM197) 
+fra den bakterie, der forårsager difteri. Menveo beskytter ikke mod difteri. Dette betyder, at du 
+(eller dit barn) skal have andre vaccinationer mod difteri, når tiden er inde til dette, eller når lægen 
+anbefaler det. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take menveo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take menveo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du eller dit barn må ikke få Menveo, hvis du/dit barn  </p>
+<ul>
+<li>nogensinde har haft en allergisk reaktion over for det aktive stof eller et af de øvrige 
+indholdsstoffer i vaccinen (angivet i punkt 6) </li>
+<li>nogensinde har haft en allergisk reaktion over for difteritoksoid (et stof, der anvendes i en række 
+andre vacciner) </li>
+<li>har en sygdom med høj feber. Dog er let feber eller infektion i de øvre luftveje 
+(for eksempel forkølelse) ikke i sig selv grund til at udskyde vaccination. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller sygeplejersken, før du eller dit barn bruger Menveo:</p>
+<ul>
+<li>hvis du eller dit barn har et svækket immunsystem. Der er begrænset kendskab til effektiviteten<br />
+af Menveo hos personer, hvor immunsystemet fungerer dårligere på grund af immunhæmmende 
+medicin, hiv-infektion eller andre årsager. Effektiviteten af Menveo er muligvis nedsat hos disse 
+personer. </li>
+<li>hvis du eller dit barn har hæmofili eller en anden lidelse, der kan forhindre blodet i at størkne, </li>
+</ul>
+<p>f.eks. hvis du tager blodfortyndende medicin (antikoagulanter). 
+- hvis du eller dit barn modtager behandling, som blokerer den del af immunsystemet, kendt som 
+komplement aktivering, såsom eculizumab. Selvom du er blevet vaccineret med Menveo, er du 
+stadig i øget risiko for sygdom forårsagt af Neisseria meningitidis grupperne A, C, W-135 og Y 
+bakterier. </p>
+<p>Besvimelse og følelse af svaghed eller andre stressrelaterede reaktioner kan opstå i forbindelse med 
+enhver injektion med kanyle. Fortæl det til lægen eller sundhedspersonalet, hvis du tidligere har haft 
+en sådan reaktion. </p>
+<p>Denne vaccine beskytter kun mod meningokokgruppe A, C, W-135, og Y bakterier. Den yder ingen 
+beskyttelse mod andre typer af meningokokbakterier, som ikke findes i vaccinen, eller andre årsager 
+til meningitis og sepsis (blodforgiftning). </p>
+<p>Som det gælder for alle vacciner, er det ikke sikkert, at Menveo giver fuld beskyttelse til alle, 
+som får vaccinen. </p>
+<p>Hvis du eller dit barn har fået en dosis Menveo for mere end et år siden og stadig er i særlig risiko 
+for at blive udsat for meningokokgruppe A-bakterien, kan det overvejes at give en boosterdosis for 
+at vedligeholde beskyttelsen. Din læge vil fortælle dig det, hvis du skal have en boosterdosis. </p>
+<p>Brug af anden medicin sammen med Menveo </p>
+<p>Fortæl altid lægen eller sygeplejersken, hvis du tager anden medicin, for nylig har taget anden medicin 
+eller planlægger at tage anden medicin. </p>
+<p>Menveo kan gives sammen med andre vacciner, men indsprøjtning af eventuelle andre vacciner skal 
+fortrinsvist gives i den modsatte arm i forhold til den, den bliver brugt til Menveo. </p>
+<p>Andre vacciner omfatter følgende: vaccine mod stivkrampe, difteri og kighoste (Tdap), vaccine mod 
+humant papillomavirus (HPV), gul feber, tyfus (Vi polysaccharid), japansk encefalitis, rabies, hepatitis 
+A og B, og meningokokgruppe B (Bexsero). </p>
+<p>Virkningen af Menveo kan blive nedsat, hvis du vaccineres, mens du tager medicin, der undertrykker 
+immunsystemet. </p>
+<p>Der skal anvendes forskellige indsprøjtningssteder, hvis der gives mere end én vaccine på samme tid. </p>
+<p>Graviditet, amning og frugtbarhed  </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, 
+skal du spørge din læge til råds, før du får dette lægemiddel. Din læge eller sygeplejerske kan stadig 
+anbefale, at du får Menveo, hvis du har stor risiko for infektion med meningokokgruppe A-, C-, W-
+135- og Y-bakterier. </p>
+<p>Trafik- og arbejdssikkerhed  </p>
+<p>Påvirkningen af evnen til at køre og betjene maskiner er ikke undersøgt. 
+Svimmelhed efter vaccination er rapporteret i sjældne tilfælde. Dette kan midlertidigt påvirke evnen til 
+at køre eller benytte maskiner. </p>
+<p>Menveo indeholder </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. 
+Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. det er i det væsentlige 
+kaliumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take menveo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take menveo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Menveo vil blive givet til dig eller dit barn af en læge eller sygeplejerske. </p>
+<p>Vaccinen gives normalt i overarmsmusklen (deltoideus) hos børn (fra 2 år), unge og voksne. Lægen 
+eller sygeplejersken vil sørge for, at vaccinen ikke gives i et blodkar og vil sikre, at den injiceres 
+i en muskel og ikke i huden. </p>
+<p>Til børn (fra 2 år), unge og voksne: der gives en enkelt (0,5 ml) indsprøjtning. </p>
+<p>Menveos sikkerhed og virkning hos børn under 2 år er endnu ikke klarlagt. Der er begrænset erfaring 
+med vaccinen hos personer i alderen 56-65 år, og der er ingen data for personer over 65 år. </p>
+<p>Fortæl det til lægen, hvis du tidligere har fået en injektion med Menveo eller en anden 
+meningokokvaccine. Din læge vil fortælle dig, om du har behov for endnu en injektion af Menveo. </p>
+<p>For information om blanding (rekonstitution) af vaccinen, se afsnittet for læger og sundhedspersonale 
+sidst i denne indlægsseddel. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De almindeligste bivirkninger, som er indberettet i kliniske studier, varede normalt kun en eller 
+to dage og var ikke alvorlige. </p>
+<p>De bivirkninger, der blev indberettet i kliniske studier hos børn (fra 2 til 10 år), er anført nedenfor. </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer): søvnighed, hovedpine, 
+irritabilitet, generel utilpashed, smerte på injektionsstedet, rødme på injektionsstedet (≤ 50 mm), 
+hårdhed på injektionsstedet (≤ 50 mm) </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer): ændringer i spisevaner, kvalme, 
+opkastning, diaré, udslæt, muskelsmerter, ledsmerter, kulderystelser, feber ≥ 38 °C, rødme på 
+injektionsstedet (&gt; 50 mm) og hårdhed på injektionsstedet (&gt; 50 mm) </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer): kløe på injektionsstedet </p>
+<p>De almindeligste bivirkninger, der blev indberettet i kliniske forsøg hos unge (fra 11 år) og voksne, 
+er anført nedenfor. </p>
+<p>Meget almindelige: hovedpine, kvalme, smerte på injektionsstedet, rødme på injektionsstedet 
+(≤ 50 mm), hårdhed på injektionsstedet (≤ 50 mm), muskelsmerter, generel utilpashed </p>
+<p>Almindelige: udslæt, rødme på injektionsstedet (&gt; 50 mm), hårdhed på injektionsstedet (&gt; 50 mm), 
+ledsmerter, feber ≥ 38 °C, kulderystelser </p>
+<p>Ikke almindelige: svimmelhed, kløe på injektionsstedet </p>
+<p>Følgende bivirkninger er blevet rapporteret under brug efter markedsføringen: </p>
+<p>Sjælden: hævede lymfekirtler 
+Ikke kendt: allergiske reaktioner, som kan omfatte svær hævelse af læber, mund, hals (kan medføre 
+synkebesvær), åndedrætsbesvær med hvæsen eller hoste, udslæt og hævede hænder, fødder og ankler, 
+bevidstløshed, meget lavt blodtryk; krampeanfald, herunder feberkramper; balanceforstyrrelser; 
+besvimelse; infektion i huden på injektionsstedet; hævelse på injektionsstedet, herunder kraftig 
+hævelse af den injicerede arm/ben. </p>
+<p>Hvis der opstår en kraftig allergisk reaktion, skal du straks søge læge eller tage til/bringe dit barn til 
+den nærmeste skadestue, da hurtig lægehjælp kan være påkrævet. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store menveo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store menveo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Opbevar hætteglassene i den ydre emballage 
+for at beskytte mod lys. </p>
+<p>Efter blanding skal præparatet anvendes straks. Der er dog påvist kemisk og fysisk stabilitet efter 
+blanding i op til 8 timer ved temperaturer under 25 °C. </p>
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden. Din læge eller 
+sundhedspersonalet vil bortskaffe denne medicin. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Menveo indeholder: </p>
+<p>En dosis (0,5 ml rekonstitueret vaccine) indeholder: 
+Aktive stoffer: </p>
+<p>(Oprindeligt indhold i pulver) </p>
+<ul>
+<li>Meningokokgruppe A-oligosaccharid 
+10 mikrogram 
+Konjugeret til Corynebacterium diphtheriae CRM197-protein 
+16,7 til 33,3 mikrogram </li>
+</ul>
+<p>(Oprindeligt indhold i opløsningen) </p>
+<ul>
+<li>
+<p>Meningokokgruppe C-oligosaccharid 
+5 mikrogram 
+Konjugeret til Corynebacterium diphtheriae CRM197-protein 
+7,1 til 12,5 mikrogram </p>
+</li>
+<li>
+<p>Meningokokgruppe W-135-oligosaccharid 
+5 mikrogram 
+Konjugeret til Corynebacterium diphtheriae CRM197-protein 
+3,3 til 8,3 mikrogram </p>
+</li>
+<li>
+<p>Meningokokgruppe Y-oligosaccharid 
+5 mikrogram 
+Konjugeret til Corynebacterium diphtheriae CRM197-protein 
+5,6 til 10,0 mikrogram </p>
+</li>
+</ul>
+<p>Øvrige indholdsstoffer (hjælpestoffer): </p>
+<p>I pulveret: kaliumdihydrogenphosphat og saccharose. </p>
+<p>I opløsningen: natriumchlorid, natriumdihydrogenphosphatmonohydrat, dinatriumphosphatdihydrat og 
+vand til injektionsvæsker (se også sidst i punkt 2). </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Menveo er et pulver og en opløsning til injektion. 
+Hver dosis af Menveo leveres som:</p>
+<ul>
+<li>1 hætteglas indeholdende MenA frysetørret konjugat komponent som et hvidt til 
+off-white pulver </li>
+<li>1 hætteglas indeholdende MenCWY flydende konjugeret komponent som en klar opløsning </li>
+<li>Pakningsstørrelser på én dosis (2 hætteglas), 5 doser (10 hætteglas) eller 10 doser (20  </li>
+</ul>
+<p>hætteglas).  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indholdet af de to komponenter (hætteglas og hætteglas) blandes inden vaccination 
+og giver 1 dosis på 0,5 ml. </p>
+<p>Indehaveren af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen: 
+GSK Vaccines S.r.l., 
+Via Fiorentina 1, 53100 Siena, 
+Italien </p>
+<p>Fremstiller: 
+GSK Vaccines S.r.l., 
+Bellaria-Rosia, 53018, Sovicille (Siena), 
+Italien </p>
+<p>Hvis du vil have yderligere oplysninger om Menveo, skal du henvende dig til den lokale repræsentant: </p>
+<p>België/Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals SA./NV 
+Tél/Tel: + 32 10 85 52 00<br />
+Lietuva 
+GSK Vaccines S.r.l. 
+Tel: +370 80000<br />
+България 
+GSK Vaccines S.r.l. 
+Тел. +359 80018Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals SA./NV 
+Tél/Tel: + 32 10 85 52<br />
+Česká republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
+<p>Magyarország 
+GSK Vaccines S.r.l. 
+Tel.: +36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com 
+Malta 
+GSK Vaccines S.r.l. 
+Tel: +356 80065004  </p>
+<p>Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel: +49 (0)89 36044 8de.impfservice@gsk.com  </p>
+<p>Nederland 
+GlaxoSmithKline BV 
+Tel: (0)33 2081 
+Eesti 
+GSK Vaccines S.r.l.<br />
+Tel: +372 8002<br />
+Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20<br />
+Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E 
+Tηλ: + 30 210 68 82 100<br />
+Österreich 
+GlaxoSmithKline Pharma GmbH. 
+Tel: + 43 (0) 1 97075 0 
+at.info@gsk.com  </p>
+<p>España 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com  </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (22) 576 9000<br />
+France 
+Laboratoire GlaxoSmithKline 
+Tél: + 33 (0) 1 39 17 84 diam@gsk.com  </p>
+<p>Portugal 
+GlaxoSmithKline - Produtos Farmacêuticos, 
+Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com  </p>
+<p>Hrvatska 
+GSK Vaccines S.r.l. 
+Tel.: +385 800787089  </p>
+<p>România 
+GSK Vaccines S.r.l. 
+Tel: +40 800672Ireland 
+GlaxoSmithKline (Ireland) Ltd 
+Tel: + 353 (0)1 495 5000  </p>
+<p>Slovenija 
+GSK Vaccines S.r.l. 
+Tel: +386 80688<br />
+Ísland 
+Vistor hf.<br />
+Sími: +354 535 7000  </p>
+<p>Slovenská republika 
+GSK Vaccines S.r.l. 
+Tel: +421 800500<br />
+Italia 
+GlaxoSmithKline S.p.A. 
+Tel: +39 (0)45 7741<br />
+Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 10 30 30<br />
+Κύπρος 
+GSK Vaccines S.r.l. 
+Τηλ: +357 80070  </p>
+<p>Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com<br />
+Latvija 
+GSK Vaccines S.r.l. 
+Tel: +371 80205<br />
+United Kingdom (Northern Ireland) 
+GSK Vaccines S.r.l. 
+Tel: + 44 (0)800 221 customercontactuk@gsk.com  </p>
+<p>Denne indlægsseddel blev senest ændret den {MM/ÅÅÅÅ} </p>
+<p>Andre informationskilder  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>
+<hr />
+<p>Følgende oplysninger er tiltænkt læger og sundhedspersonale: </p>
+<p>Rekonstitution af vaccinen </p>
+<p>Før administration skal pulveret rekonstitueres med opløsningen. </p>
+<p>Indholdet i de to hætteglas (MenA-pulver og MenCWY-opløsning) skal blandes før vaccination, så der 
+opnås 1 dosis på 0,5 ml. </p>
+<p>Med en sprøjte og en egnet kanyle (21G, 40 mm lang eller 21G, 1 ½" lang) trækkes hele indholdet 
+ud af hætteglasset med opløsningen og injiceres i hætteglasset med pulver for at rekonstituere MenA 
+konjugeret komponent. </p>
+<p>Vend hætteglasset på hovedet, ryst det kraftigt, og træk derefter 0,5 ml rekonstitueret produkt op. 
+Bemærk, at det er normalt, at der er en lille mængde væske tilbage i hætteglasset efter optrækning 
+af dosis. Før injektion skiftes til en kanyle, der er egnet til administration. Tjek, at der ikke er 
+luftbobler i sprøjten, inden vaccinen injiceres. </p>
+<p>Efter rekonstitution er vaccinen en klar, farveløs til lysegul opløsning uden synlige fremmedpartikler. 
+I tilfælde af fremmedpartikler og/eller synlige forandringer kasseres vaccinen. </p>
+<p>Menveo gives som en intramuskulær injektion, helst i musculus deltoideus. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c082813e7ff4dad923d73dee6e29eba2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for menveo Package Leaflet for language en"
+Description: "ePI document Bundle for menveo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c082813e7ff4dad923d73dee6e29eba2"
+* entry[0].resource = composition-en-c082813e7ff4dad923d73dee6e29eba2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc082813e7ff4dad923d73dee6e29eba2"
+* entry[=].resource = mpc082813e7ff4dad923d73dee6e29eba2
+                            
+                    
+Instance: bundlepackageleaflet-da-c082813e7ff4dad923d73dee6e29eba2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for menveo Package Leaflet for language da"
+Description: "ePI document Bundle for menveo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c082813e7ff4dad923d73dee6e29eba2"
+* entry[0].resource = composition-da-c082813e7ff4dad923d73dee6e29eba2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc082813e7ff4dad923d73dee6e29eba2"
+* entry[=].resource = mpc082813e7ff4dad923d73dee6e29eba2
+                            
+                    
+
+
+
+Instance: mpc082813e7ff4dad923d73dee6e29eba2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Menveo powder and solution for solution for injection"
-Description: "Menveo powder and solution for solution for injection"
+Title: "Medicinal Product menveo"
+Description: "menveo"
 Usage: #inline
 
  
@@ -377,7 +831,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Menveo powder and solution for solution for injection"
+  * productName = "menveo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -404,29 +858,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c082813e7ff4dad923d73dee6e29eba2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for menveo Package Leaflet for language en"
-Description: "ePI document Bundle for menveo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c082813e7ff4dad923d73dee6e29eba2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/10/614/002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "menveo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c082813e7ff4dad923d73dee6e29eba2"
-* entry[0].resource = composition-en-c082813e7ff4dad923d73dee6e29eba2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp434eb2c15a2a5685b460c469c0abfad8"
-* entry[=].resource = mp434eb2c15a2a5685b460c469c0abfad8
-                            
-                      
+* title = "List of all ePIs associated with menveo"
+
+* subject = Reference(mp434eb2c15a2a5685b460c469c0abfad8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#menveo "menveo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c082813e7ff4dad923d73dee6e29eba2) // menveo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c082813e7ff4dad923d73dee6e29eba2) // menveo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c082813e7ff4dad923d73dee6e29eba2
+InstanceOf: List
+
+* insert c082813e7ff4dad923d73dee6e29eba2ListRuleset
+    

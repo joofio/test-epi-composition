@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-832482791de362ad81d3371194ed350b
 InstanceOf: CompositionUvEpi
 Title: "Composition for riltrava Package Leaflet"
@@ -373,12 +376,700 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-832482791de362ad81d3371194ed350b
+InstanceOf: CompositionUvEpi
+Title: "Composition for riltrava Package Leaflet"
+Description:  "Composition for riltrava Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp776281a9095e237192a34145e3957e2f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp776281a9095e237192a34145e3957e2f
+* title = "TEST PURPOSES ONLY - riltrava"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsvejledning</p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge Riltrava Aerosphere
+3. Sådan skal du bruge Riltrava Aerosphere
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What riltrava is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What riltrava is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Riltrava Aerosphere indeholder tre aktive stoffer: formoterolfumaratdihydrat, glycopyrronium og 
+budesonid.
+
+Formoterolfumaratdihydrat og glycopyrronium tilhører en gruppe lægemidler, der udvider 
+bronkierne (bronkodilatorer). De virker på forskellig måde og afslapper musklerne i luftvejene, 
+hvilket gør det lettere for luft at komme ind og ud af lungerne.
+
+Budesonid tilhører en gruppe lægemidler, der kaldes "kortikosteroider". Disse virker ved at 
+mindske betændelse i lungerne.
+Riltrava Aerosphere er en inhalator, der anvendes til voksne med en lungesygdom, der kaldes "kronisk 
+obstruktiv lungesygdom" (eller "KOL"), en langvarig sygdom i lungernes luftveje.
+Riltrava Aerosphere bruges til at lette vejrtrækningen og til at forbedre symptomer på KOL såsom 
+åndenød, hvæsende vejrtrækning og hoste. Riltrava Aerosphere kan også forebygge opblusning 
+(eksacerbationer) af KOL.
+Riltrava Aerosphere bringer de virksomme stoffer ned i lungerne, mens du trækker vejret ind. Hvis du 
+regelmæssigt bruger denne medicin to gange om dagen, vil det hjælpe dig med at nedsætte 
+påvirkningen fra KOL i din hverdag.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take riltrava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take riltrava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Riltrava Aerosphere
+
+hvis du er allergisk over for formoterolfumaratdihydrat, glycopyrronium, budesonid eller et af 
+de øvrige indholdsstoffer i Riltrava Aerosphere (angivet i punkt 6).
+32
+Advarsler og forsigtighedsregler
+Riltrava Aerosphere bruges som langtidsbehandling af KOL. Brug det ikke til at behandle et 
+pludseligt anfald af vejrtrækningsbesvær eller hvæsende vejrtrækning.
+Akutte vejrtrækningsproblemer
+Hvis du får trykken for brystet, hoste, hvæsende vejrtrækning eller åndenød umiddelbart efter brug af 
+Riltrava Aerosphere, skal du stoppe med at bruge det og straks kontakte lægen (se "Alvorlige 
+bivirkninger" øverst i punkt 4 for yderligere information).
+Hvis din åndenød, trykken for brystet, hvæsende vejrtrækning eller hoste bliver værre, når du bruger 
+Riltrava Aerosphere, skal du fortsætte med at bruge Riltrava Aerosphere, men kontakte lægen hurtigst
+muligt, da du kan have brug for yderligere behandling.
+Kontakt lægen, før du bruger Riltrava Aerosphere, hvis:
+
+du har forhøjet blodtryk eller hjerteproblemer
+
+du har diabetes
+
+du har en lungeinfektion
+
+du har problemer med din skjoldbruskkirtel
+
+du har lavt indhold af kalium i blodet
+
+du har problemer med prostata eller problemer med at lade vandet
+
+du har en øjensygdom, der kaldes "snævervinklet glaukom" (grøn stær)
+
+du har problemer med nyrer eller lever.
+Tal med lægen, hvis du tror, at noget af dette gælder for dig.
+Børn og unge
+Riltrava Aerosphere er ikke blevet undersøgt hos børn og unge. Giv ikke denne medicin til børn eller 
+unge under 18 år.
+Brug af anden medicin sammen med Riltrava Aerosphere
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Det gælder også medicin, der er købt uden 
+recept, og naturlægemidler. Det skyldes, at Riltrava Aerosphere kan påvirke den måde, hvorpå noget 
+medicin virker. Noget medicin kan også påvirke, hvordan Riltrava Aerosphere virker, eller gøre det 
+mere sandsynligt, at du får bivirkninger.
+Fortæl det til lægen eller apotekspersonalet, hvis du tager noget af følgende:
+
+medicin, der kaldes betablokkere (såsom atenolol eller propranolol), der kan bruges mod 
+forhøjet blodtryk eller hjerteproblemer, eller til behandling af glaukom (fx timolol)
+
+medicin til behandling mod svampeinfektioner - såsom ketoconazol eller itraconazol
+
+medicin til behandling af hiv-infektion - såsom ritonavir eller cobicistat
+
+medicin, der nedsætter mængden af kalium i blodet, såsom:
+-
+kortikosteroider, som du tager gennem munden (såsom prednisolon)
+-
+vanddrivende medicin - medicin, som øger mængden af urin (såsom furosemid eller 
+hydrochlorthiazid), der kan bruges til behandling af forhøjet blodtryk
+-
+noget medicin, der bruges til behandling af vejrtrækningsproblemer (fx theophyllin) -
+kaldes "methylxanthiner"
+
+al medicin, der virker på samme måde som Riltrava Aerosphere - såsom tiotropium, 
+ipratropium, aclidinium, umeclidinium eller salmeterol, arformoterol, vilanterol, olodaterol eller 
+indacaterol. Du må ikke bruge Riltrava Aerosphere, hvis du allerede bruger et af disse 
+lægemidler
+
+medicin, der anvendes til behandling af problemer med hjerterytmen - fx amiodaron
+
+medicin, der kan ændre i hjerterytmen (kaldes "QT-intervallet") - såsom medicin mod:
+-
+depression (såsom monoaminoxidasehæmmere eller tricykliske antidepressiva)
+-
+bakterieinfektioner (såsom erythromycin, clarithromycin eller telithromycin)
+-
+allergiske reaktioner (antihistaminer).
+33
+Hvis noget af det ovenstående gælder for dig, eller hvis du er i tvivl, skal du tale med lægen eller 
+apotekspersonalet, før du bruger Riltrava Aerosphere.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Brug ikke Riltrava Aerosphere, hvis du er gravid, medmindre din læge har fortalt dig, at du kan bruge 
+det.
+Brug ikke dette lægemiddel, hvis du ammer, medmindre din læge har fortalt dig, at du kan bruge det.
+Trafik- og arbejdssikkerhed
+Det er usandsynligt, at dette lægemiddel vil påvirke din evne til at køre bil eller anvende maskiner. 
+Svimmelhed er dog en ikke almindelig bivirkning, som skal tages i betragtning ved bilkørsel eller 
+betjening af maskiner.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take riltrava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take riltrava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Hvor meget skal der bruges
+Den anbefalede dosis er to pust to gange dagligt - to pust om morgenen og to pust om aftenen.
+Det er vigtigt at bruge Riltrava Aerosphere hver dag - også på tidspunkter, hvor du ikke har nogen 
+KOL-symptomer.
+Husk: Skyl altid munden med vand efter brug af Riltrava Aerosphere. På den måde fjernes eventuel 
+resterende medicin, som sidder tilbage i munden. Spyt vandet ud - du må ikke synke det.
+Hvordan skal det bruges
+Riltrava Aerosphere er beregnet til inhalation.
+Læs brugsvejledningen i slutningen af denne indlægsseddel. Hvis du ikke er sikker på, hvordan du 
+bruger Riltrava Aerosphere, skal du tale med lægen eller apotekspersonalet.
+Brug af Riltrava Aerosphere med en spacerenhed
+Hvis du har svært ved at trække vejret ind og trykke på inhalatoren samtidig, skal du tale med din læge 
+eller apotekspersonalet, da du muligvis kan bruge en spacerenhed med din inhalator.
+Hvis du har brugt for meget Riltrava Aerosphere
+Hvis du har brugt mere Riltrava Aerosphere end du skal, skal du straks tale med lægen eller 
+apotekspersonalet. Du kan måske have behov for lægehjælp. Du kan mærke, at dit hjerte slår hurtigere 
+end normalt, du kan føle dig usikker, have synsforstyrrelser, tør mund eller hovedpine og kvalme.
+Hvis du har glemt at bruge Riltrava Aerosphere
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag din dosis så snart du 
+kommer i tanker om det.
+Hvis det næsten er tid til din næste dosis, skal du dog springe den glemte dosis over. Tag ikke mere 
+end to pust to gange dagligt.
+Hvis du holder op med at bruge Riltrava Aerosphere
+Denne medicin er beregnet til langtidsbrug. Brug denne medicin lige så længe, som lægen har sagt, at 
+du skal bruge den. Den vil kun virke, så længe du bruger den.
+34
+Stop ikke, medmindre din læge fortæller dig, at du skal, også selvom du føler dig bedre tilpas, da dine 
+symptomer kan blive værre. Hvis du vil stoppe behandlingen, skal du først tale med din læge.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Følgende bivirkninger kan forekomme med dette lægemiddel:
+Alvorlige bivirkninger
+Ikke almindelig (kan påvirke op til 1 ud af 100 personer)
+Øjeblikkeligt vejrtrækningsbesvær:
+
+hvis du får vejrtrækningsbesvær umiddelbart efter brug af Riltrava Aerosphere, såsom trykken 
+for brystet, hoste, hvæsende vejrtrækning eller åndenød, skal du stoppe med at bruge denne 
+medicin og straks fortælle det til lægen.
+Allergiske reaktioner:
+
+hævelse i ansigtet, særligt omkring munden (hævelse af tungen eller halsen kan gøre det svært 
+at synke)
+
+udslæt eller nældefeber sammen med vejrtrækningsbesvær
+
+pludselig følelse af mathed
+Disse symptomer kan være tegn på en allergisk reaktion, som kan blive alvorlig. Stop med at bruge 
+denne medicin, og søg straks lægehjælp, hvis du får de ovenstående alvorlige bivirkninger. 
+Andre bivirkninger
+Fortæl det straks til lægen eller apotekspersonalet, hvis du får nogen af følgende bivirkninger:
+Almindelig (kan påvirke op til 1 ud af 10 personer)
+
+svamp i mundhulen. Skyl munden med vand umiddelbart efter brug af Riltrava Aerosphere, 
+hvilket kan hjælpe med at forebygge dette.
+
+angst
+
+søvnbesvær
+
+kvalme
+
+hovedpine
+
+hoste eller hæshed
+
+muskelkramper
+
+bevidsthed om, at dit hjerte banker (palpitationer)
+
+højt blodsukker (kan ses i undersøgelser)
+
+smertefuld og hyppig ladning af vandet (kan være tegn på en urinvejsinfektion)
+
+lungebetændelse (pneumoni).
+Fortæl det til lægen, hvis du få noget af følgende, mens du bruger Riltrava Aerosphere, da det kan 
+være symptomer på en lungeinfektion:
+
+feber eller kuldegysninger
+
+forøget slimproduktion, ændring af slimens farve
+
+øget hoste eller øget vejrtrækningsbesvær.
+Ikke almindelig (kan påvirke op til 1 ud af 100 personer)
+
+rysten, skælven eller svimmelhed
+
+tør mund eller mild irritation i halsen
+
+blå mærker på huden
+
+rastløshed, nervøsitet eller uro
+
+depression
+35
+
+hurtigt hjerteslag eller uregelmæssigt hjerteslag
+
+brystsmerter eller trykken for brystet (angina pectoris)
+Meget sjælden (kan påvirke op til 1 ud af 10 000 personer)
+
+ændringer i adfærd
+
+påvirkning af binyrerne
+Ikke kendt (hyppigheden kan ikke estimeres ud fra de forhåndenværende data):
+
+sløret syn
+
+uklarhed i øjnene (tegn på grå stær)
+
+forhøjet tryk i øjet (grøn stær)
+
+hævelse i ansigtet, særligt omkring munden (hævelse af tungen eller halsen kan gøre det svært 
+at synke)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store riltrava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store riltrava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke Riltrava Aerosphere efter den udløbsdato, der står på kartonen, posen og trykbeholderen 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
+Efter åbning af posen, skal inhalatoren bruges inden for 3 måneder.
+Opbevar inhalatoren i den forseglede pose - tag først inhalatoren ud af den forseglede pose lige inden 
+brug første gang. Skriv den dato, hvor posen åbnes, på inhalatorens etiket i det felt, der er beregnet til 
+det.
+Må ikke opbevares ved temperaturer over 30 °C. Opbevares et tørt sted.
+For det bedste resultat skal inhalatoren have stuetemperatur inden brug.
+Trykbeholderen må ikke brydes, perforeres eller brændes, heller ikke når den tilsyneladende er tom. 
+Må ikke anvendes eller opbevares i nærheden af varme eller åben ild.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Riltrava Aerosphere indeholder:</h2>
+<p>Aktive stoffer: formoterolfumaratdihydrat, glycopyrronium og budesonid.
+Hver enkelt inhalation giver en dosis (den dosis, der forlader mundstykket) på 5 mikrogram 
+formoterolfumaratdihydrat, 9 mikrogram glycopyrroniumbromid svarende til 7,2 mikrogram 
+glycopyronium og 160 mikrogram budesonid.
+36
+-
+Øvrige indholdsstoffer: norfluran, 1,2- distearoyl-sn-glycero-3-phosphocholin og 
+calciumchlorid.
+Udseende og pakningsstørrelser
+Riltrava Aerosphere er en inhalationsspray, suspension.
+Riltrava Aerosphere leveres som en beholder med dosisindikator, forsynet med et gult plasthylster og 
+et hvidt mundstykke. Mundstykket er dækket af en aftagelig grå beskyttelseshætte.
+Riltrava Aerosphere leveres i en foliepose, der indeholder et tørremiddel, og er pakket i en karton.
+Hver inhalator indeholder 120 pust. Derudover findes multipakninger, der indeholder 3 trykbeholdere 
+med 120 pust i hver.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+AstraZeneca Dunkerque Production
+224 Avenue de la Dordogne
+Dunkerque
+59640
+Frankrig
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+37
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+Tecnimede - Sociedade Técnico-Medicinal, S.A.
+Tel: +351 21 041 41 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>
+<hr />
+<p>38
+Læses før brug af inhalatoren
+BRUGSVEJLEDNING
+RILTRAVA AEROSPHERE
+(formoterolfumaratdihydrat, glycopyrronium og budesonid)
+Inhalationsspray, suspension
+Kun til oral inhalationsbrug
+Læs denne vejledning nøje.
+Din Riltrava Aerosphere (kaldet “inhalator" i denne indlægsseddel) kan være forskellig fra de 
+inhalatorer, du hidtil har brugt.
+Vigtig information
+
+Kun til inhalation gennem munden
+
+Klargør din inhalator til første brug ved at gennemføre klargøringsproceduren
+
+Skyl det gule plasthylster ugentligt
+
+Tag 2 pust medicin om morgenen og 2 pust medicin om aftenen
+Opbevaring af din inhalator
+
+Må ikke opbevares over 30°C. Opbevares tørt
+
+Må ikke opbevares i fugtige omgivelser, såsom på badeværelset
+
+Opbevar din inhalator og alle lægemidler utilgængeligt for børn
+Delene i din inhalator
+Dosisindikator
+Fastgjort øverst på trykbeholderen.
+Trykbeholder (inden i)
+Indeholder medicinen.
+Plasthylster
+Indeholder trykbeholderen.
+Mundstykke
+Afgiver medicinen som spray.
+Hætte til mundstykke
+Beskytter mundstykket, når inhalatoren ikke er i brug.
+39
+Aflæsning af dosisindikatoren
+Dosisindikatoren vil tælle ned med 1, hver gang du sprayer et pust af medicinen.
+Pil
+Peger på det tilbageværende antal pust
+Gul zone
+Bestil en ny inhalator, når pilen er i den gule 
+zone
+Rød zone
+Smid din inhalator ud, når pilen er på 0 i den 
+røde zone
+Du må ikke prøve at tage et pust, når pilen er på 0, for du vil ikke få en fuld dosis.
+Bestilling af en ny inhalator
+
+Bestil en ny inhalator, når pilen på dosisindikatoren er i den gule zone.
+Bortskaffelse af din inhalator
+Smid din inhalator ud efter de lokale retningslinjer for affald, når:
+
+dosisindikatoren viser 0
+eller
+
+3 måneder efter din inhalator er taget ud af folieposen
+Du må ikke genbruge eller bruge plasthylsteret med medicinbeholdere fra andre inhalatorer.
+Du må ikke punktere trykbeholderen eller smide den ind i åben ild eller forbrændingsanlæg.
+FØR FØRSTE BRUG - Klargør din inhalator 4 gange før første brug
+
+Før du bruger din inhalator første gang skal du klargøre den, så du får den rette mængde 
+medicin, når du bruger den.
+Klargøring 1
+Tag hætten af mundstykket.
+40
+Klargøring 2
+Ryst inhalatoren godt, og spray 1 klargøringspust ud i luften, mens den vender væk fra dig. Gentag med i alt 
+4 klargøringspust, og ryst inhalatoren før hvert klargøringspust.
+Der er inkluderet ekstra pust til at klargøre med. Du må ikke springe klargøringen over.
+Klargør din inhalator igen:
+
+efter skylning af plasthylsteret
+
+hvis du taber den
+
+hvis du ikke har brugt den i mere end 7 dage
+For at klargøre igen, skal du spraye 
+2 klargøringspust og ryste inhalatoren godt før hvert 
+klargøringspust.
+DAGLIG BRUG, morgen og aften - Inhalér din medicin
+
+Daglig dosis: 2 pust om morgenen og 2 pust om aftenen.
+
+Skyl munden med vand efter de 2 pust for at forebygge svampeinfektion.
+Trin 1
+Tag hætten af mundstykket. Kontrollér mundstykket for fremmedobjekter, og fjern disse før brug.
+I alt 2 klargøringspust
+Ryst og klargøringspust
+I alt 4 klargøringspust
+Ryst og klargøringspust
+41
+Trin 2
+Ryst inhalatoren 
+godt, før hvert pust.
+Ånd helt ud.
+Tag mundstykket i 
+munden, og luk 
+læberne omkring 
+mundstykket. Læn 
+hovedet bagover 
+og hold tungen 
+under 
+mundstykket.
+Begynd at trække 
+vejret ind, 
+langsomt og dybt, 
+mens du sprayer 
+1 pust. Bliv ved 
+med at trække 
+vejret ind, indtil du 
+ikke kan længere.
+Hold vejret så længe 
+som muligt, op til 
+10 sekunder.
+Trin 3
+Trin 4
+Trin 5
+Sæt hætten på mundstykket igen.
+Skyl munden med vand. Spyt 
+vandet ud. Du må ikke synke det.
+UGENTLIG SKYLNING - Skyl plasthylsteret én gang om ugen
+
+Skyl det gule plasthylster ugentligt, så medicinrester ikke sætter sig og blokerer for sprayen 
+i mundstykket. 
+
+Sørg for, at trykbeholderen ikke bliver våd.
+
+Klargør på ny efter skylning.
+Skylning 1
+Skylning 2
+Tag trykbeholderen ud, og sæt den til side. 
+Trykbeholderen må ikke blive våd.
+Tag hætten af mundstykket.
+Gentag Trin 2 
+til det andet 
+pust
+10
+sek
+42
+Skylning 3
+Skylning 4
+Lad varmt vand løbe gennem mundstykket i 30 sekunder og derefter 
+gennem plasthylsterets top i 30 sekunder. Skyl i 60 sekunder i alt.
+Ryst så meget vand af som 
+muligt.
+Du må ikke tørre med et 
+håndklæde eller 
+køkkenrulle.
+Skylning 5
+Skylning 6
+Se ind i plasthylsteret og mundstykket for at se, om 
+der stadig er en medicinrest. Hvis der er mere 
+medicin, skal du gentage trinnene Skylning 3 til 5. Lufttør, helst natten over. Du må ikke sætte 
+trykbeholderen tilbage i plasthylsteret, hvis 
+plasthylsteret stadig er vådt.
+Skylning 7
+Skylning 8
+Når plasthylsteret er tørt, sættes først hætten på 
+mundstykket, og derefter trykkes trykbeholderen 
+forsigtigt på plads i plasthylsteret.
+Klargør inhalatoren på ny ved at spraye 
+2 klargøringspust, og ryst før hvert klargøringspust.
+I alt 2 klargøringspust
+Ryst og klargøringspust
+30
+sek
+30
+sek</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-832482791de362ad81d3371194ed350b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for riltrava Package Leaflet for language en"
+Description: "ePI document Bundle for riltrava Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-832482791de362ad81d3371194ed350b"
+* entry[0].resource = composition-en-832482791de362ad81d3371194ed350b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp832482791de362ad81d3371194ed350b"
+* entry[=].resource = mp832482791de362ad81d3371194ed350b
+                            
+                    
+Instance: bundlepackageleaflet-da-832482791de362ad81d3371194ed350b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for riltrava Package Leaflet for language da"
+Description: "ePI document Bundle for riltrava Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-832482791de362ad81d3371194ed350b"
+* entry[0].resource = composition-da-832482791de362ad81d3371194ed350b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp832482791de362ad81d3371194ed350b"
+* entry[=].resource = mp832482791de362ad81d3371194ed350b
+                            
+                    
+
+
+
+Instance: mp832482791de362ad81d3371194ed350b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Riltrava Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation,"
-Description: "Riltrava Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation,"
+Title: "Medicinal Product riltrava"
+Description: "riltrava"
 Usage: #inline
 
  
@@ -398,7 +1089,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Riltrava Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation,"
+  * productName = "riltrava"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -425,29 +1116,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-832482791de362ad81d3371194ed350b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for riltrava Package Leaflet for language en"
-Description: "ePI document Bundle for riltrava Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 832482791de362ad81d3371194ed350bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1604/001 120 actuations"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "riltrava"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-832482791de362ad81d3371194ed350b"
-* entry[0].resource = composition-en-832482791de362ad81d3371194ed350b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp776281a9095e237192a34145e3957e2f"
-* entry[=].resource = mp776281a9095e237192a34145e3957e2f
-                            
-                      
+* title = "List of all ePIs associated with riltrava"
+
+* subject = Reference(mp776281a9095e237192a34145e3957e2f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#riltrava "riltrava"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-832482791de362ad81d3371194ed350b) // riltrava en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-832482791de362ad81d3371194ed350b) // riltrava da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-832482791de362ad81d3371194ed350b
+InstanceOf: List
+
+* insert 832482791de362ad81d3371194ed350bListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e3c8c4151821eafa3b8558a4b1967125
 InstanceOf: CompositionUvEpi
 Title: "Composition for evista Package Leaflet"
@@ -302,12 +305,435 @@ site: http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-da-e3c8c4151821eafa3b8558a4b1967125
+InstanceOf: CompositionUvEpi
+Title: "Composition for evista Package Leaflet"
+Description:  "Composition for evista Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa2bfb278e1eca8ddabfa29f7962ed2a3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa2bfb278e1eca8ddabfa29f7962ed2a3
+* title = "TEST PURPOSES ONLY - evista"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Evista 
+3. Sådan skal De tage Evista 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What evista is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What evista is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Evista indeholder det aktive indholdsstof raloxifenhydrochlorid. </p>
+<p>Evista bruges til at behandle og forebygge knogleskørhed hos kvinder, der har passeret overgangs-
+alderen (postmenopausal osteoporose). Evista nedsætter risikoen for brud på rygsøjlen hos kvinder 
+med knogleskørhed efter overgangsalderen. En nedsat risiko for hoftebrud er ikke set. </p>
+<p>Virkning: </p>
+<p>Evista tilhører en gruppe af ikke-hormonale lægemidler, som kaldes selektive østrogen-receptor 
+modulatorer (SERM). Når en kvinde kommer i overgangsalderen, falder produktionen af det 
+kvindelige kønshormon, østrogen. Evista efterligner nogle af de gavnlige virkninger af østrogen efter 
+overgangsalderen.  </p>
+<p>Knogleskørhed er en sygdom, som gør Deres knogler tynde og skrøbelige. Denne sygdom er især 
+almindelig hos kvinder efter overgangsalderen. Selvom knogleskørhed i begyndelsen ikke giver 
+symptomer, kan den øge risikoen for, at De brækker Deres knogler, specielt rygsøjlen, hofterne og 
+håndleddene. Knogleskørhed kan også medføre, at De får rygsmerter, bliver lavere og får en rund ryg. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take evista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take evista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Evista: </p>
+<ul>
+<li>
+<p>hvis De bliver eller har været behandlet for blodpropper (blodprop i benene, blodprop i lungerne 
+eller blodprop i øjets nethinde). </p>
+</li>
+<li>
+<p>hvis De er allergisk (overfølsom) over for raloxifen eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6).  </p>
+</li>
+<li>
+<p>hvis De stadigvæk har mulighed for at blive gravid. Evista kan skade det ufødte barn. </p>
+</li>
+<li>
+<p>hvis De har en leversygdom (eksempler på leversygdomme omfatter skrumpelever, let nedsat 
+leverfunktion og gulsot på grund af afløbshindring). </p>
+</li>
+<li>
+<p>hvis De har svære problemer med nyrerne. </p>
+</li>
+<li>
+<p>hvis De af ukendt årsag har blødning fra underlivet. Dette skal undersøges af Deres læge. </p>
+</li>
+<li>
+<p>hvis De har aktiv livmoderkræft, da der er utilstrækkelig erfaring med Evista hos kvinder med 
+denne sygdom. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De taget Evista </p>
+<ul>
+<li>
+<p>hvis De ikke kan bevæge Dem normalt i nogen tid, fordi De sidder i kørestol, skal på hospitalet 
+eller ligge i sengen efter en operation eller en uventet sygdom, da dette kan øge Deres risiko for 
+blodpropper (blodprop i benene, blodprop i lungerne eller blodprop i øjets nethinde). </p>
+</li>
+<li>
+<p>hvis De har haft et slagtilfælde, eller hvis Deres læge har fortalt Dem, at De har høj risiko for at 
+få et. </p>
+</li>
+<li>
+<p>hvis De har en leversygdom </p>
+</li>
+<li>
+<p>hvis De har brystkræft, idet der er begrænset erfaring med brug af Evista hos kvinder med denne 
+sygdom. </p>
+</li>
+<li>
+<p>hvis De tager hormontabletter med østrogen. </p>
+</li>
+</ul>
+<p>Det er usandsynligt, at Evista vil give blødning fra underlivet. Enhver form for blødning fra underlivet, 
+mens De tager Evista, er derfor uventet. De bør have dette undersøgt af Deres læge. </p>
+<p>Evista kan ikke lindre symptomer, såsom hedestigninger, som opstår i forbindelse med overgangs-
+alderen. </p>
+<p>Evista sænker det samlede kolesterol og LDL ("farligt") kolesterol. Generelt set påvirker det hverken 
+triglycerider eller HDL ("sundt") kolesterol. Hvis De imidlertid tidligere har taget østrogen, og De har 
+haft voldsomme stigninger i blodets triglycerider, bør De tale med Deres læge, før De tager Evista.  </p>
+<p>Evista indeholder lactose 
+Kontakt lægen, før De tager denne medicin, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter,  </p>
+<p>Brug af anden medicin sammen med Evista 
+Fortæl altid lægen eller apotekspersonalet, hvis De bruger anden medicin eller har gjort det for nylig. 
+Dette gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler, og vitaminer og 
+mineraler. </p>
+<p>Hvis De tager digitalispræparater på grund af Deres hjerte eller antikoagulantia for at fortynde Deres 
+blod (f.eks. warfarin), er Deres læge måske nødt til at justere Deres dosis af denne medicin. </p>
+<p>Fortæl det til Deres læge, hvis De får colestyramin, der hovedsageligt anvendes som lipidsænkede 
+medicin, da Evista muligvis ikke virker så godt sammen med colestyramin. </p>
+<p>Graviditet og amning 
+Evista må kun anvendes af kvinder, der har passeret overgangsalderen og må ikke anvendes af 
+kvinder, der stadig kan få børn. Evista kunne skade det ufødte barn. 
+Anvend ikke Evista hvis De ammer, da det muligvis udskilles i modermælk. </p>
+<p>Trafik- og arbejdssikkerhed 
+Evista påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take evista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take evista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Doseringen er én tablet daglig. Det er lige meget, hvornår på dagen De tager din tablet, men hvis De 
+tager tabletten på samme tidspunkt hver dag, er det nemmere at huske. De kan tage tabletten med eller 
+uden mad. </p>
+<p>Tabletterne er til oral anvendelse. 
+Synk tabletten hel. De skal synke tabletten med et glas vand eller anden væske. Del eller knus ikke 
+tabletten inden indtagelse. En delt eller knust tablet kan smage dårligt, og der er risiko for, at De får en 
+forkert dosis. </p>
+<p>Deres læge vil fortælle Dem, hvor længe De skal tage Evista. Deres læge vil måske også råde Dem til 
+at tage kalk- eller vitamin D-tilskud. </p>
+<p>Hvis De har taget for mange Evista tabletter<br />
+Kontakt lægen eller apoteket.  De kan få kramper i benene eller blive svimmel, hvis De har taget flere 
+Evista tabletter, end De skal. </p>
+<p>Hvis De har glemt at tage Evista<br />
+Tag en tablet lige så snart, De husker det, og fortsæt derefter som før. De må ikke tage en dobbeltdosis 
+som erstatning for den glemte. </p>
+<p>Hvis De holder op med at tage Evista 
+De skal først tale med Deres læge om det. 
+Det er vigtigt, at De fortsætter med at tage Evista i så lang tid, som lægen har ordineret medicinen. 
+Evista kan kun behandle eller forebygge knogleskørhed, hvis De fortsætter med at tage tabletterne. </p>
+<p>Spørg lægen eller på apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin givebivirkninger, men ikke alle får bivirkninger. 
+Størstedelen af de bivirkninger, som er set med Evista, har været lette. </p>
+<p>Meget almindelig (kan ramme mere end 1 af 10 patienter): </p>
+<ul>
+<li>
+<p>Hedeture </p>
+</li>
+<li>
+<p>Influenzasymptomer </p>
+</li>
+<li>
+<p>Gener fra mave-tarmkanalen såsom kvalme, opkastning, mavesmerter, fordøjelsesbesvær </p>
+</li>
+<li>
+<p>Forhøjet blodtryk </p>
+</li>
+</ul>
+<p>Almindelig (kan ramme 1 til 10 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>Hovedpine herunder migræne </p>
+</li>
+<li>
+<p>Kramper i benene </p>
+</li>
+<li>
+<p>Hævede hænder, fødder og ben (perifer væskeophobning): </p>
+</li>
+<li>
+<p>Galdesten </p>
+</li>
+<li>
+<p>Hududslæt </p>
+</li>
+<li>
+<p>Lette symptomer i brystet, såsom smerter, hævelse, ømhed </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan ramme 1 til 10 ud af 1.000 patienter): </p>
+<ul>
+<li>
+<p>Øget risiko for blodpropper i benene (dyb venetrombose) </p>
+</li>
+<li>
+<p>Øget risiko for blodpropper i lungerne (lungeemboli) </p>
+</li>
+<li>
+<p>Øget risiko for blodproper i øjet (nethinde venetrombose) </p>
+</li>
+<li>
+<p>Rød og smertende hud omkring en vene (årebetændelse med blodprop i huden) </p>
+</li>
+<li>
+<p>Blodprop i en arterie (f.eks. slagtilfælde samt en øget risiko for at dø af et slagtilfælde) </p>
+</li>
+<li>
+<p>Færre blodplader i blodet </p>
+</li>
+</ul>
+<p>I sjældne tilfælde kan blodets indhold af leverenzymer stige under behandling med Evista. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført 
+i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store evista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store evista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidletutilgængeligt for børn. </p>
+<p>Brug ikke Evista efter den udløbsdato, der står på pakningen. Udløbsdatoen er den sidste dag i den 
+nævnte måned. </p>
+<p>Opbevares i originalemballagen. Må ikke fryses.  </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Evista indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: raloxifenhydrochlorid. Hver tablet indeholder 60 mg raloxifenhydrochlorid, hvilket 
+svarer til 56 mg raloxifen. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:  </p>
+</li>
+</ul>
+<p>Tabletkerne: Povidon, polysorbat 80, vandfri lactose, lactosemonohydrat, crospovidon, 
+magnesiumstearat. </p>
+<p>Tabletovertræk: Titandioxid (E 171), polysorbat 80, hypromellose, macrogol 400. Udseende og pakningsstørrelser 
+Evista er hvide, ovale tabletter med et filmovertræk. De fås i blisterpakninger eller i tabletglas af 
+plastic. Blisterpakningerne indeholder 14, 28 eller 84 tabletter. Tabletglassene indeholder tabletter. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaveren af markedsføringstilladelsen 
+SUBSTIPHARM, 24 rue Erlanger, 75016 Paris, Frankrig. </p>
+<p>Fremstiller 
+INPHARMASCI, ZI N°2 de Prouvy-Rouvignies, 1 rue de Nungesser, 59121 Prouvy, Frankrig. </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/ Belgien 
+SUBSTIPHARM 
+Tél/Tel: 080077Lietuva 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 България 
+SUBSTIPHARM 
+Тел.: +33 1 43 18 13 Luxembourg/Luxemburg 
+SUBSTIPHARM 
+Tél/Tel: 80024Česká republika 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Magyarország 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Danmark 
+SUBSTIPHARM 
+Tlf: +33 1 43 18 13 Malta 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Deutschland 
+SUBSTIPHARM 
+Tel: 08001801Nederland 
+SUBSTIPHARM 
+Tel: 08000228Eesti 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Norge 
+SUBSTIPHARM 
+Tlf: +33 1 43 18 13 Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ ΕΛΛΑΣ 
+Τηλ: +30 210 620 8Österreich 
+SUBSTIPHARM 
+Tel: 0800298España 
+SUBSTIPHARM 
+Tel: 900993Polska 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 France 
+SUBSTIPHARM 
+Tél: +33 1 43 18 13 Portugal 
+SUBSTIPHARM 
+Tel: 800833Hrvatska 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 România 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Ireland 
+SUBSTIPHARM 
+Tel: 1800300Slovenija 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Ísland 
+SUBSTIPHARM 
+Simi: +33 1 43 18 13 Slovenská republika 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Italia 
+SUBSTIPHARM 
+Tel: 800780Suomi/Finland 
+SUBSTIPHARM 
+Puh./Tel: +33 1 43 18 13 Κύπρος 
+SUBSTIPHARM 
+Τηλ: +33 1 43 18 13 Sverige 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Latvija 
+SUBSTIPHARM 
+Tel.: +33 1 43 18 13 United Kingdom (Northern Ireland) 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13<br />
+Denne indlægsseddel blev senest ændret: måned ÅÅÅÅ  </p>
+<p>De kan finde yderligere oplysninger om Evista på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e3c8c4151821eafa3b8558a4b1967125
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evista Package Leaflet for language en"
+Description: "ePI document Bundle for evista Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e3c8c4151821eafa3b8558a4b1967125"
+* entry[0].resource = composition-en-e3c8c4151821eafa3b8558a4b1967125
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe3c8c4151821eafa3b8558a4b1967125"
+* entry[=].resource = mpe3c8c4151821eafa3b8558a4b1967125
+                            
+                    
+Instance: bundlepackageleaflet-da-e3c8c4151821eafa3b8558a4b1967125
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evista Package Leaflet for language da"
+Description: "ePI document Bundle for evista Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e3c8c4151821eafa3b8558a4b1967125"
+* entry[0].resource = composition-da-e3c8c4151821eafa3b8558a4b1967125
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe3c8c4151821eafa3b8558a4b1967125"
+* entry[=].resource = mpe3c8c4151821eafa3b8558a4b1967125
+                            
+                    
+
+
+
+Instance: mpe3c8c4151821eafa3b8558a4b1967125
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Evista 60 mg film coated tablets"
-Description: "Evista 60 mg film coated tablets"
+Title: "Medicinal Product evista"
+Description: "evista"
 Usage: #inline
 
  
@@ -327,7 +753,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Evista 60 mg film coated tablets"
+  * productName = "evista"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -354,29 +780,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e3c8c4151821eafa3b8558a4b1967125
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for evista Package Leaflet for language en"
-Description: "ePI document Bundle for evista Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e3c8c4151821eafa3b8558a4b1967125ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/98/073/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "evista"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e3c8c4151821eafa3b8558a4b1967125"
-* entry[0].resource = composition-en-e3c8c4151821eafa3b8558a4b1967125
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa2bfb278e1eca8ddabfa29f7962ed2a3"
-* entry[=].resource = mpa2bfb278e1eca8ddabfa29f7962ed2a3
-                            
-                      
+* title = "List of all ePIs associated with evista"
+
+* subject = Reference(mpa2bfb278e1eca8ddabfa29f7962ed2a3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#evista "evista"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e3c8c4151821eafa3b8558a4b1967125) // evista en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e3c8c4151821eafa3b8558a4b1967125) // evista da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e3c8c4151821eafa3b8558a4b1967125
+InstanceOf: List
+
+* insert e3c8c4151821eafa3b8558a4b1967125ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-cfd694ab9fea1a901bb7d3272079545a
 InstanceOf: CompositionUvEpi
 Title: "Composition for zubsolv Package Leaflet"
@@ -532,12 +535,726 @@ Uppsala 754 Sweden </p>
 
 
 
+Instance: composition-da-cfd694ab9fea1a901bb7d3272079545a
+InstanceOf: CompositionUvEpi
+Title: "Composition for zubsolv Package Leaflet"
+Description:  "Composition for zubsolv Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3e2850b7f5ed05cf234c2680a6830f01)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3e2850b7f5ed05cf234c2680a6830f01
+* title = "TEST PURPOSES ONLY - zubsolv"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Zubsolv<br />
+3. Sådan skal du tage Zubsolv<br />
+4. Bivirkninger<br />
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zubsolv is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zubsolv is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zubsolv indeholder de aktiver stoffer buprenorphin og naloxon. Zubsolv bruges til at behandle 
+afhængighed af opioider (narkotika), såsom heroin eller morfin hos stofmisbrugere, som har indvilliget 
+i at blive behandlet for deres afhængighed. Zubsolv bruges til voksne og unge over 15 år, som får 
+medicinsk, social og psykologisk støtte. </p>
+<p>Sådan virker Zubsolv 
+Resoribletten indeholder buprenorphin, som har til opgave at behandle afhængigheden af opioider 
+(narkotika). Den indeholder ligeledes naloxon, som bruges til at hindre intravenøst misbrug af 
+produktet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zubsolv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zubsolv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Zubsolv, hvis du:</p>
+<ul>
+<li>er allergisk over for buprenorphin, naloxon eller et af de øvrige indholdsstoffer i Zubsolv 
+(angivet i punkt 6) </li>
+<li>har alvorlige vejrtrækningsproblemer </li>
+<li>har alvorlige leverproblemer </li>
+<li>er beruset af alkohol eller oplever rysten, svedeture, angst, forvirring eller hallucinationer 
+forårsaget af alkohol </li>
+<li>tager naltrexon eller nalmefen til behandling af alkohol- eller opioidafhængighed </li>
+</ul>
+<p>Advarsler og forsigtighedsregler  </p>
+<ul>
+<li>Forkert brug, misbrug og uhensigtsmæssig brug 
+ Alvorlige tilfælde af infektioner med potentiel dødelig udgang kan forekomme, hvis Zubsolv 
+misbruges ved intravenøs indtagelse. </li>
+</ul>
+<p>Dette lægemiddel kan være et mål for personer, der misbruger receptpligtige lægemidler, og det skal 
+derfor opbevares på et sikkert sted for at hindre tyveri (se punkt 5). Giv ikke dette lægemiddel til 
+andre. Lægemidlet kan medføre dødsfald eller på anden vis være skadeligt for dem. </p>
+<ul>
+<li>Vejrtrækningsproblemer (se også "Tag ikke Zubsolv" ovenfor) 
+Enkelte personer er døde af respirationssvigt (manglende evne til at trække vejret), fordi de misbrugte 
+dette lægemiddel eller tog det sammen med andre midler som hæmmer centralnervesystemet, såsom 
+alkohol, benzodiazepiner (beroligende midler) eller andre opioider. </li>
+</ul>
+<p>Dette lægemiddel skal anvendes med forsigtighed til patienter med allerede eksisterende 
+vejrtrækningsproblemer. </p>
+<p>Dette lægemiddel kan forårsage alvorlig, eventuelt dødelig respiratorisk depression (nedsat evne til at 
+trække vejret) hos børn og ikke-opioidafhængige mennesker, som tager lægemidlet ved en fejltagelse 
+eller med overlæg. </p>
+<ul>
+<li>
+<p>Døsighed 
+Dette lægemiddel kan forårsage døsighed, især når det tages sammen med alkohol eller andre midler 
+som hæmmer centralnervesystemet (såsom beroligende midler, sedativa eller hypnotika). </p>
+</li>
+<li>
+<p>Afhængighed 
+Dette lægemiddel kan forårsage afhængighed. </p>
+</li>
+<li>
+<p>Leverskade 
+Der er blevet rapporteret leverskade efter indtagelse af buprenorphin/naloxon, især når lægemidlet 
+misbruges. Dette kan også skyldes virusinfektioner (kronisk hepatitis C), alkoholmisbrug, anoreksi 
+eller brug af anden medicin, der kan skade din lever (se punkt 4). Din læge kan tage regelmæssige 
+blodprøver for at overvåge din levers tilstand. Fortæl din læge, hvis du har nogen form for 
+leverproblemer, inden du starter behandling med Zubsolv. </p>
+</li>
+<li>
+<p>Abstinenssymptomer 
+Dette lægemiddel kan give abstinenser, hvis du tager det mindre end seks timer efter, at du bruger en 
+korttidsvirkende opioid (f.eks. morfin eller heroin), eller mindre end 24 timer efter, at du bruger en 
+langtidsvirkende opioid såsom metadon. </p>
+</li>
+</ul>
+<p>Zubsolv kan også give abstinenssymptomer, hvis du pludseligt stopper med at tage det. </p>
+<ul>
+<li>
+<p>Blodtryk 
+Dette lægemiddel kan få dit blodtryk til at falde pludseligt, og få dig til at føle dig svimmel, hvis du 
+rejser dig op for hurtigt fra siddende eller liggende stilling. </p>
+</li>
+<li>
+<p>Søvnrelaterede vejrtrækningsforstyrrelser 
+Zubsolv kan forårsage søvnrelaterede vejrtrækningsforstyrrelser såsom søvnapnø (pauser i 
+vejrtrækningen under søvn) og søvnrelateret hypoxæmi (lavt iltniveau i blodet). Symptomerne kan 
+omfatte pauser i vejrtrækningen under søvn, natlige opvågninger på grund af åndenød, problemer med 
+at sove igennem eller overdreven døsighed i løbet af dagen. Kontakt din læge, hvis du eller en anden 
+person observerer disse symptomer. Din læge kan overveje at nedsætte din dosis. </p>
+</li>
+<li>
+<p>Børn og unge 
+Din læge kan overvåge dig nøjere, hvis du er under 18 år. Dette lægemiddel må ikke tages af børn og 
+unge under 15 år. </p>
+</li>
+<li>
+<p>Diagnosticering af ikke-relaterede medicinske tilstande 
+Dette lægemiddel kan skjule smertesymptomer, der kan bidrage til at diagnosticere visse sygdomme. 
+Husk at fortælle din læge det, hvis du tager dette lægemiddel.  </p>
+</li>
+</ul>
+<p>Kontakt lægen før du tager Zubsolv, hvis du: </p>
+<ul>
+<li>
+<p>har en depression eller andre tilstande, der behandles med antidepressive midler. 
+Brug af disse lægemidler sammen med Zubsolv kan medføre serotoninsyndrom, der er en 
+potentielt livstruende tilstand (se "Brug af anden medicin sammen med Zubsolv") </p>
+</li>
+<li>
+<p>har nyreproblemer </p>
+</li>
+<li>
+<p>for nyligt har slået hovedet eller har haft en hjernesygdom </p>
+</li>
+<li>
+<p>har lavt blodtryk, forstørret prostata eller svært ved at lade vandet på grund af forsnævring af 
+urinrøret </p>
+</li>
+<li>
+<p>har en underaktiv skjoldbruskkirtel, hvilket kan forårsage træthed eller vægtforøgelse </p>
+</li>
+<li>
+<p>har dårlig binyrefunktion (f.eks. Addisons sygdom) </p>
+</li>
+<li>
+<p>har problemer med galdevejen (f.eks. galdeblæren, galdegangen) </p>
+</li>
+<li>
+<p>er ældre  </p>
+</li>
+<li>
+<p>er svækket </p>
+</li>
+</ul>
+<p>Brug af anden medicin sammen med Zubsolv 
+Fortæl det altid til lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller 
+planlægger at tage anden medicin. 
+Nogle lægemidler kan øge bivirkningerne af Zubsolv og kan i visse tilfælde forårsage alvorlige 
+reaktioner. Tag ikke anden medicin, mens du tager Zubsolv uden først at fortælle det til din læge, især: </p>
+<ul>
+<li>
+<p>antidepressive lægemidler, f.eks. moclobemid, tranylcypromin, citalopram, escitalopram, 
+fluoxetin, fluvoxamin, paroxetin, sertralin, duloxetin, venlafaxin, amitriptylin, doxepin og 
+trimipramin. Disse lægemidler kan interagere med Zubsolv, og du kan opleve symptomer som 
+ufrivillige rytmiske muskelsammentrækninger, herunder i de muskler, der styrer øjnenes 
+bevægelser, rastløs uro, hallucinationer, koma, kraftig svedtendens, skælven, forstærkede 
+reflekser, øget muskelspænding og kropstemperatur over 38 °C. Kontakt lægen, hvis du oplever 
+sådanne symptomer. </p>
+</li>
+<li>
+<p>Naltrexon og nalmefen (lægemidler, der anvendes til behandling af afhængighed), da de kan 
+forhindre Zubsolvs terapeutiske virkning. De må ikke tages samtidig med Zubsolv-
+behandlingen, da du kan opleve pludselige, langvarige og intense abstinenser. </p>
+</li>
+<li>
+<p>Benzodiazepiner (som benyttes til behandling af angsttilstande eller søvnforstyrrelser) såsom 
+diazepam, temazepam, alprazolam. Samtidig anvendelse af Zubsolv og beroligende lægemidler, 
+såsom benzodiazepiner eller beslægtede lægemidler, øger risikoen for døsighed, 
+vejrtrækningsbesvær (respirationsundertrykkelse), koma og kan være livstruende. På grund af 
+dette må samtidig anvendelse kun overvejes, når andre behandlingsmuligheder ikke er mulige. 
+Hvis din læge imidlertid ordinerer Zubsolv sammen med beroligende lægemidler, skal dosis og 
+varighed af den samtidige behandling begrænses af lægen. Fortæl din læge om alle de 
+beroligende lægemidler, du tager, og følg nøje lægens dosisanbefalinger. Det kan være en god 
+idé at oplyse venner eller familiemedlemmer om, at de skal være opmærksomme på 
+ovenstående tegn og symptomer. Kontakt lægen, hvis du oplever sådanne symptomer. </p>
+</li>
+<li>
+<p>Anden medicin, som kan gøre dig søvnig, som bruges til behandling af lidelser såsom angst, 
+søvnløshed, kramper/krampeanfald, smerter og andre psykiske lidelser. Disse typer lægemidler 
+vil nedsætte din årvågenhed og gøre det svært for dig at føre motorkøretøj eller betjene 
+maskiner. De kan også forårsage centralnervesystemsdepression, hvilket er meget alvorligt. 
+Nedenfor er en liste med eksempler på disse typer medicin:</p>
+</li>
+<li>
+<p>andre opioider, som indeholder medicin såsom metadon, visse smertestillende midler og 
+hostedæmpende midler </p>
+</li>
+<li>nogle antidepressiva (som bruges til behandling af depression), såsom isocarboxazid, 
+phenelzin, selegilin, tranylcypromin, valproat og monoaminooxidase-hæmmere (MAO-
+hæmmere), kan øge virkningen af dette lægemiddel </li>
+<li>sederende Hı receptorantagonister (som bruges til behandling af allergiske reaktioner), såsom 
+diphenhydramin og chlorphenamin </li>
+<li>barbiturpræparater (som bruges til at frembringe søvn eller sedation), såsom phenobarbital, 
+secobarbital </li>
+<li>beroligende midler (som bruges til at frembringe søvn eller sedation), såsom chloralhydrat </li>
+<li>
+<p>clonidin (som bruges til behandling af forhøjet blodtryk) og relateret medicin kan forlænge 
+dette lægemiddels virkning </p>
+</li>
+<li>
+<p>antiretrovirale midler (som bruges til behandling af HIV) såsom ritonavir, nelfinavir, indinavir 
+kan forlænge virkningen af dette lægemiddel </p>
+</li>
+<li>
+<p>visse svampelægemidler (som bruges til behandling af svampeinfektioner), såsom ketoconazol, 
+itraconazol og visse antibiotika, kan forlænge virkningen af dette lægemiddel </p>
+</li>
+<li>
+<p>visse lægemidler kan reducere effekten af Zubsolv. Disse omfatter medicin til behandling af 
+epilepsi (såsom carbamazepin og phenytoin) samt medicin til behandling af tuberkulose 
+(rifampicin) </p>
+</li>
+</ul>
+<p>Brug af Zubsolv sammen med mad, drikke og alkohol 
+Alkohol kan forstærke døsighed og risikoen for respirationssvigt, hvis det indtages sammen med 
+Zubsolv. Tag ikke Zubsolv sammen med alkohol. Du må ikke synke eller indtage mad eller drikke, 
+før resoribletten er helt opløst. </p>
+<p>Graviditet og amning 
+Risikoen ved, at gravide kvinder tager Zubsolv kendes ikke. Fortæl din læge, hvis du er gravid eller 
+planlægger at blive gravid. Din læge vil beslutte, om din behandling skal fortsættes med et alternativt 
+lægemiddel. </p>
+<p>Hvis lægemidler som Zubsolv indtages under graviditet, især sidst i graviditeten, kan det medføre, at 
+barnet fødes med abstinenssymptomer, inklusiv vejrtrækningsproblemer. Dette kan forekomme flere 
+dage efter fødslen. </p>
+<p>Du må ikke amme, når du er i behandling med dette lægemiddel, da Zubsolv udskilles i 
+modermælken. </p>
+<p>Spørg din læge eller apotekspersonalet til råds, før du tager nogen form for lægemidler. </p>
+<p>Trafik- og arbejdssikkerhed 
+Zubsolv kan forårsage døsighed, svimmelhed eller forstyrre din tankegang. Dette kan ske oftere i de 
+første uger af behandlingen, når din dosis ændres, men det kan også ske, hvis du drikker alkohol eller 
+tager anden beroligende medicin, samtidig med, at du tager Zubsolv. Undgå at føre motorkøretøj, 
+arbejde med værktøj eller maskiner, eller udføre farlige aktiviteter, indtil du ved, hvordan dette 
+lægemiddel påvirker dig. </p>
+<p>Zubsolv indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zubsolv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zubsolv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Din behandling ordineres og overvåges af læger med erfaring i behandlingen af opioidafhængighed. </p>
+<p>Lægen vil fastlægge den dosis, der er bedst for dig. Under din behandling kan lægen justere din dosis, 
+alt afhængigt af, hvordan du reagerer på lægemidlet. </p>
+<p>Behandlingsstart 
+Den anbefalede startdosis til voksne og unge over 15 år er:</p>
+<ul>
+<li>
+<p>én Zubsolv resoriblet på 1,4 mg/0,36 mg hver dag, eller  </p>
+</li>
+<li>
+<p>én Zubsolv resorbilet på 2,9 mg/0,71 mg hver dag. </p>
+</li>
+</ul>
+<p>Yderlige én Zubsolv resoriblet på 1,4 mg/0,36 mg eller 2,9 mg/0,71 mg kan gives på dag 1, afhængigt 
+af dit behov. </p>
+<p>Din læge vil, ud fra de tilgængelige styrker, beslutte, hvad der er den bedste behandling til dig. Dette 
+kan involvere indtagelse af en kombination af forskellige styrker, men din daglige dosis bør ikke 
+overstige 17,2 mg buprenorphin. </p>
+<p>Du skal have tydelige tegn på abstinenser, før du tager din første dosis Zubsolv. En læge skal 
+bedømme, hvorvidt du er parat til behandling og vil angive tidspunktet for din første dosis Zubsolv. </p>
+<ul>
+<li>
+<p>Påbegyndelse af behandling med Zubsolv mens du er afhængig af heroin: 
+Hvis du er afhængig af heroin eller en kortvirkende opioid, skal din første dosis Zubsolv tages, 
+når der ses tegn på abstinenser, dog mindst 6 timer efter, at du sidst brugte opioider </p>
+</li>
+<li>
+<p>Påbegyndelse af behandling med Zubsolv mens du er afhængig af metadon: 
+Hvis du tager metadon eller en langtidsvirkende opioid, skal metadondosen ideelt set reduceres 
+til under 30 mg/dag, inden du påbegynder behandling med Zubsolv. Den første dosis Zubsolv 
+skal tages, når der ses tegn på abstinenser, dog mindst 24 timer efter, du sidst brugte metadon </p>
+</li>
+</ul>
+<p>Sådan tages Zubsolv </p>
+<ul>
+<li>
+<p>Tag dosen én gang om dagen, eller som anvist af din læge. </p>
+</li>
+<li>
+<p>Fjern resoribletten som beskrevet herunder. Åbn først blisterpakningen umiddelbart før, du tager 
+dosen. Åbn aldrig på forhånd, da resoribletten er følsom over for fugt </p>
+</li>
+<li>
+<p>Læg resoribletterne under tungen </p>
+</li>
+<li>
+<p>Lad resoribletterne blive under tungen, indtil de er helt opløst </p>
+</li>
+<li>
+<p>Lad være med at tygge eller sluge resoribletterne, da lægemidlet ikke vil virke, og du kan 
+udvikle abstinenser </p>
+</li>
+<li>
+<p>Lad være med at spise eller drikke noget, før resoribletterne er helt opløste. Selvom du måske 
+bemærker, at det meste af resoribletten opløses inden for 40 sekunder, kan det tage 5 til minutter før hele resoribletten er forsvundet fra din mund </p>
+</li>
+</ul>
+<p>Sådan tager du resoribletten ud af blisterpakken </p>
+<ol>
+<li>
+<p>Pres ikke resoribletten igennem foliet. </p>
+</li>
+<li>
+<p>Fjern kun én blisterlomme frablisterkortet ved at trække langs den 
+perforerede linje. </p>
+</li>
+<li>
+<p>Fold pakken langs den stiplede linje.  </p>
+</li>
+<li>
+<p>Riv i pilens retning. Hvis blisterpakken er beskadiget, skal 
+resoribletten smides ud. </p>
+</li>
+</ol>
+<p>Dosisjustering og vedligeholdelsesbehandling 
+Din læge vil eventuelt øge den dosis Zubsolv, du tager, alt afhængigt af dine behov. Hvis du føler, at 
+virkningen af Zubsolv er for kraftig eller svag, skal du tale med din læge eller apotekspersonalet. Den 
+maksimale daglige dosis er 17,2 mg. </p>
+<p>Når behandling har været vellykket i et stykke tid kan du i samråd med din læge beslutte at reducere 
+din dosis gradvist til en lavere vedligeholdelsesdosis. </p>
+<p>Ophør af behandlingen 
+Du må på ingen måde ændre eller stoppe behandlingen uden at drøfte dette med lægen, som behandler 
+dig. </p>
+<p>Alt afhængigt af din tilstand vil din dosis af Zubsolv enten fortsætte eller blive nedsat under nøje 
+lægelig overvågning for eventuelt helt at ophøre til sidst. </p>
+<p>Hvis du har taget for meget Zubsolv 
+Hvis du eller nogen anden tager for meget af dette lægemiddel, skal du straks tage eller bringes til 
+skadestuen eller hospitalet til behandling, idet en overdosis af Zubsolv kan forårsage alvorlige og 
+livstruende vejrtrækningsproblemer. </p>
+<p>Symptomer på en overdosis kan omfatte langsommere og svagere vejrtrækning end normalt, følelse af 
+at være mere søvnig end normalt, mindre pupiller, lavt blodtryk, følelse af at være skidt tilpas, 
+opkastning og/eller sløret tale.  </p>
+<p>Hvis du har glemt at tage Zubsolv 
+Fortæl hurtigst muligt din læge, hvis du glemmer at tage en dosis. </p>
+<p>Hvis du holder op med at tage Zubsolv 
+Du må på ingen måde ændre eller stoppe behandlingen uden at have aftalt det med lægen, som 
+behandler dig. Pludseligt behandlingsophør kan forårsage abstinenser. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis du får alvorlige bivirkninger, skal du straks fortælle det til din læge eller omgående søge 
+lægehjælp. Disse bivirkninger kan være: </p>
+<ul>
+<li>
+<p>hævelse af ansigt, læber, tunge eller svælg, som kan gøre det vanskeligt at synke eller trække 
+vejret, alvorlig nældefeber/udslæt. Dette kan være tegn på en livsfarlig allergisk reaktion </p>
+</li>
+<li>
+<p>fornemmelse af at være søvnig eller manglende koordinationsevne, sløret syn, sløret tale, ude af 
+stand til at tænke klart eller din vejrtrækning bliver betydeligt langsommere, end hvad der er 
+normalt for dig </p>
+</li>
+<li>
+<p>ekstrem træthed, kløe med gulfarvning af huden eller øjnene. Dette kan være symptomer på 
+leverskade </p>
+</li>
+<li>
+<p>ser eller hører ting, som ikke er der (hallucinationer) </p>
+</li>
+</ul>
+<p>Andre bivirkninger<br />
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>søvnløshed </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>forstoppelse, kvalme </p>
+</li>
+<li>
+<p>stærkt forøget svedtendens </p>
+</li>
+<li>
+<p>abstinenssymptomer </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>influenzalignende symptomer, infektion, ondt i halsen og smerter når du synker, løbenæse </p>
+</li>
+<li>
+<p>angst, depression, nedsat seksualdrift, nervøsitet, unormal tankegang </p>
+</li>
+<li>
+<p>migræne, svimmelhed, besvimelse, øget muskelspænding, prikkende fornemmelse, døsighed </p>
+</li>
+<li>
+<p>øget tåreflåd (øjnene løber i vand) eller på anden måde ændret tåreflåd, sløret syn </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+<li>
+<p>øget hoste </p>
+</li>
+<li>
+<p>mavesmerter, mavebesvær eller andet maveubehag, diarré, luft i maven, opkastning </p>
+</li>
+<li>
+<p>udslæt, kløe, nældefeber  </p>
+</li>
+<li>
+<p>rygsmerter, ledsmerter, muskelsmerter, lægkramper (muskelkramper) </p>
+</li>
+<li>
+<p>unormal urin </p>
+</li>
+<li>
+<p>vanskelighed ved at få eller holde en erektion  </p>
+</li>
+<li>
+<p>svaghed, brystsmerter, kulderystelser, feber, følelse af generelt ubehag, smerter, hævelse 
+(hænder og fødder) </p>
+</li>
+<li>
+<p>unormal leverfunktion, vægttab </p>
+</li>
+<li>
+<p>utilsigtet tilskadekomst forårsaget af manglende årvågenhed eller koordinationsevne </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>unormale blodprøver, hævede kirtler (lymfeknuder) </p>
+</li>
+<li>
+<p>unormale drømme, agitation, manglende interesse, depersonalisation (fornemmelse af ikke at 
+være sig selv), lægemiddelafhængighed, overdreven følelse af velvære, følelse af fjendtlighed </p>
+</li>
+<li>
+<p>amnesi (hukommelsesforstyrrelse), kramper (anfald), taleforstyrrelser, skælven </p>
+</li>
+<li>
+<p>inflammation eller infektion i øjnene, små pupiller </p>
+</li>
+<li>
+<p>hurtig eller langsom puls, myokardieinfarkt (hjerteanfald), hjertebanken, trykken for brystet 
+•
+lavt blodtryk
+•
+astma, åndenød, gaben
+•
+smerter og sår i munden, misfarvning af tungen
+•
+akne, hårtab, tør eller afskallende hud, buler i huden
+•
+inflammation i leddene
+•
+protein i urinen, urinvejsinfektion, vandladningsbesvær, smertefuld eller vanskelig vandladning,
+blod i urinen, nyresten
+•
+menstruationsmæssige eller vaginale problemer, unormal ejakulation
+•
+følsomhed over for varme eller kulde
+•
+hedeslag
+•
+overdrevet muskelaktivitet
+•
+appetitløshed
+Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data): 
+•
+langsom eller besværet vejrtrækning
+•
+leverskade med eller uden gulsot
+•
+hallucinationer
+•
+hævelse af ansigt og svælg eller livstruende allergiske reaktioner
+•
+blodtryksfald efter at have skiftet stilling fra at være siddende eller liggende til at stå op
+•
+pludselige abstinenser forårsaget af at tage produktet for hurtigt efter brug af ulovlige opioider
+•
+abstinenssyndrom hos nyfødte
+Misbrug af lægemidlet ved indsprøjtning kan forårsage abstinenser, infektioner, andre hudreaktioner 
+og potentielt alvorlige leverproblemer (jf. punkt 2, Advarsler og forsigtighedsregler).<br />
+Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V.<br />
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
+af dette lægemiddel. </p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zubsolv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zubsolv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Tag ikke lægemidlet efter den udløbsdato, der står på kartonen og blisterpakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. 
+Må ikke opbevares over 25 °C. 
+Opbevares i original emballage for at beskytte mod fugt. 
+Zubsolv kan være et mål for personer, der misbruger receptpligtig medicin. Opbevar dette lægemiddel 
+på et sikkert sted, for at undgå tyveri. 
+Opbevar blisterpakningen sikkert. 
+Åbn aldrig en blister, før det er nødvendigt. 
+Tag ikke dette lægemiddel foran børn. 
+Kontakt straks skadestuen ved utilsigtet indtagelse af lægemidlet, eller hvis der er mistanke herom. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zubsolv indeholder:</p>
+<ul>
+<li>Aktive stoffer: buprenorphin og naloxon. </li>
+</ul>
+<p>Hver sublingual resoriblet på 0,7 mg/0,18 mg indeholder 0,7 mg buprenorphin (som hydrochlorid) og 
+0,18 mg naloxon (som hydrochloriddihydrat). </p>
+<p>Hver sublingual resoriblet på 1,4 mg/0,36 mg indeholder 1,4 mg buprenorphin (som hydrochlorid) og 
+0,36 mg naloxon (som hydrochloriddihydrat). </p>
+<p>Hver sublingual resoriblet på 2,9 mg/0,71 mg indeholder 2,9 mg buprenorphin (som hydrochlorid) og 
+0,71 mg naloxon (som hydrochloriddihydrat). </p>
+<p>Hver sublingual resoriblet på 5,7 mg/1,4 mg indeholder 5,7 mg buprenorphin (som hydrochlorid) og 
+1,4 mg naloxon (som hydrochloriddihydrat). </p>
+<p>Hver sublingual resoriblet på 8,6 mg/2,1 mg indeholder 8,6 mg buprenorphin (som hydrochlorid) og 
+2,1 mg naloxon (som hydrochloriddihydrat). </p>
+<p>Hver sublingual resoriblet på 11,4 mg/2,9 mg indeholder 11,4 mg buprenorphin (som hydrochlorid) og 
+2,9 mg naloxon (som hydrochloriddihydrat). </p>
+<ul>
+<li>Øvrige indholdsstoffer: mannitol, citronsyre, natriumcitrat, cellulose mikrokrystallinsk, 
+croscarmellosenatrium, sucralose, levomenthol, silica kolloid vandfri og natriumstearylfumarat 
+(se punkt 2 „Zubsolv indeholder natrium“). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Zubsolv fås i seks forskellige styrker, hvor forskellen ses i form og prægning:  </p>
+<p>Zubsolv resoribletstyrke 
+(buprenorphin/naloxon) 
+Zubsolv 
+resoribletbeskrivelse 
+Zubsolv 
+resoribletprægning 
+Udseende 
+0,7 mg/0,18 mg 
+En hvid til råhvid, oval 
+resoriblet, længde 6,8 mm 
+og bredde 4,0 mm 
+".7" på den ene side </p>
+<p>1,4 mg/0,36 mg 
+En hvid til råhvid, 
+trekantet resoriblet, bund 
+7,2 mm og højde 6,9 mm 
+"1.4" på den ene side </p>
+<p>2,9 mg/0,71 mg 
+En hvid til råhvid, D-
+formet resoriblet, højde 
+7,3 mm og bredde 
+5,65 mm 
+"2.9" på den ene side </p>
+<p>5,7 mg/1,4 mg 
+En hvid til råhvid, rund 
+resoriblet, 7 mm i 
+diameter 
+"5.7" på den ene side </p>
+<p>8,6 mg/2,1 mg 
+En hvid til råhvid, 
+rombeformet resoriblet, 
+længde 9,5 mm og bredde 
+8,2 mm 
+"8.6" på den ene side </p>
+<p>11,4 mg/2,9 mg 
+En hvid til råhvid, 
+kapselformet resoriblet, 
+længde 10,3 mm og 
+bredde 8,2 mm 
+"11.4" på den ene side </p>
+<p>Zubsolv fås i blister med 7, 28, eller 30 sublinguale resoribletter.<br />
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Accord Healthcare S.L.U.<br />
+World Trade Center, Moll de Barcelona s/n 
+Edifici Est, 6a planta 
+08039 Barcelona<br />
+Spanien  </p>
+<p>Fremstiller 
+Orexo AB 
+Virdings allé 32 A 
+Uppsala 754 50<br />
+Sverige </p>
+<p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-cfd694ab9fea1a901bb7d3272079545a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zubsolv Package Leaflet for language en"
+Description: "ePI document Bundle for zubsolv Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-cfd694ab9fea1a901bb7d3272079545a"
+* entry[0].resource = composition-en-cfd694ab9fea1a901bb7d3272079545a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcfd694ab9fea1a901bb7d3272079545a"
+* entry[=].resource = mpcfd694ab9fea1a901bb7d3272079545a
+                            
+                    
+Instance: bundlepackageleaflet-da-cfd694ab9fea1a901bb7d3272079545a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zubsolv Package Leaflet for language da"
+Description: "ePI document Bundle for zubsolv Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-cfd694ab9fea1a901bb7d3272079545a"
+* entry[0].resource = composition-da-cfd694ab9fea1a901bb7d3272079545a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcfd694ab9fea1a901bb7d3272079545a"
+* entry[=].resource = mpcfd694ab9fea1a901bb7d3272079545a
+                            
+                    
+
+
+
+Instance: mpcfd694ab9fea1a901bb7d3272079545a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Zubsolv 0.7 mg/0.18 mg sublingual tablets"
-Description: "Zubsolv 0.7 mg/0.18 mg sublingual tablets"
+Title: "Medicinal Product zubsolv"
+Description: "zubsolv"
 Usage: #inline
 
  
@@ -557,7 +1274,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Zubsolv 0.7 mg/0.18 mg sublingual tablets"
+  * productName = "zubsolv"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -584,29 +1301,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-cfd694ab9fea1a901bb7d3272079545a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zubsolv Package Leaflet for language en"
-Description: "ePI document Bundle for zubsolv Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: cfd694ab9fea1a901bb7d3272079545aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1233/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zubsolv"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-cfd694ab9fea1a901bb7d3272079545a"
-* entry[0].resource = composition-en-cfd694ab9fea1a901bb7d3272079545a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3e2850b7f5ed05cf234c2680a6830f01"
-* entry[=].resource = mp3e2850b7f5ed05cf234c2680a6830f01
-                            
-                      
+* title = "List of all ePIs associated with zubsolv"
+
+* subject = Reference(mp3e2850b7f5ed05cf234c2680a6830f01)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zubsolv "zubsolv"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-cfd694ab9fea1a901bb7d3272079545a) // zubsolv en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-cfd694ab9fea1a901bb7d3272079545a) // zubsolv da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-cfd694ab9fea1a901bb7d3272079545a
+InstanceOf: List
+
+* insert cfd694ab9fea1a901bb7d3272079545aListRuleset
+    

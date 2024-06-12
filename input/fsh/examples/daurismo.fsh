@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-80c767f44d11e1fb968f6d85169c54f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for daurismo Package Leaflet"
@@ -432,12 +435,536 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-80c767f44d11e1fb968f6d85169c54f0
+InstanceOf: CompositionUvEpi
+Title: "Composition for daurismo Package Leaflet"
+Description:  "Composition for daurismo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3e2f942710414745289510e476d621a4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3e2f942710414745289510e476d621a4
+* title = "TEST PURPOSES ONLY - daurismo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Daurismo 
+3. Sådan skal du tage Daurismo 
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What daurismo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What daurismo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Daurismo er et lægemiddel til behandling af kræft. Det indeholder det aktive stof glasdegib.
+Daurismo anvendes sammen med en anden kræftmedicin, cytarabin, til at behandle voksne, der for 
+nyligt har fået diagnosen blodkræft, der kaldets akut myeloid leukæmi (AML). 
+Sådan virker Daurismo
+Ved AML laver kræftceller kaldet stamceller konstant nye leukæmi-kræftceller. Daurismo virker ved 
+at blokere en vigtig proces i disse stamceller kaldet Hedgehog (Hh)-signalvejen. Dette nedsætter deres 
+evne til at lave nye kræftceller. Ved at blokere Hh-signalvejen kan Daurismo også gøre kræftcellerne 
+mere følsomme over for kræftmedicinen cytarabin, der bruges til at behandle AML. Ved at kombinere 
+Daurismo med cytarabin kan patientens forventede levetid forlænges ved at hæmme kræftens vækst og 
+muligvis ved at øge kræftcellers død.<br />
+Hvis du har spørgsmål til, hvordan Daurismo virker, eller hvorfor du har fået ordineret denne medicin, 
+skal du spørge din læge.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take daurismo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take daurismo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Daurismo</h2>
+<p>hvis du er allergisk over for glasdegib eller et af de øvrige indholdsstoffer i Daurismo (angivet i 
+punkt 6). 
+37
+Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Daurismo
+-
+hvis du eller din partner kan blive gravid (se afsnittet Graviditet, amning og frugtbarhed).
+-
+hvis du nogensinde har haft QT-intervalforlængelse (en ændring i hjertets elektriske aktivitet, 
+der kan forårsage alvorlige uregelmæssige hjerterytmer), eller hvis du ved, at du har risiko for 
+at få det.
+-
+hvis du tager andre lægemidler, som du har fået at vide, kan forlænge QT-intervallet. 
+-
+hvis blodprøver viser, at du har unormale niveauer af elektrolytter (fx calcium, magnesium, 
+kalium). 
+-
+hvis du har nyreproblemer.
+-
+hvis du tidligere har haft muskelkramper eller -svaghed.
+Underret omgående din læge, så længe du tager dette lægemiddel
+-
+hvis dine muskler gør ondt, eller du får uforklarlige muskelkramper eller -svaghed under 
+behandlingen med Daurismo. Din læge bliver muligvis nødt til at ændre din dosis eller stoppe 
+din behandling midlertidigt eller permanent.
+Børn og unge
+Daurismo må ikke anvendes til patienter, der er under 18 år gamle.
+Brug af anden medicin sammen med Daurismo
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette gælder også håndkøbsmedicin og 
+naturlægemidler. Det skyldes, at Daurismo kan påvirke virkningen af visse andre lægemidler. Visse 
+andre lægemidler kan påvirke Daurismos virkning.
+Især kan følgende øge risikoen for bivirkninger med Daurismo:
+-
+boceprevir – et lægemiddel der anvendes til at behandle hepatitis C.
+-
+cobicistat, ritonavir, telaprevir– lægemidler, der anvendes til behandling af hiv-infektion.
+-
+itraconazol, ketoconazol, voriconazol, posaconazol – lægemidler, der anvendes til behandling 
+af svampeinfektioner. 
+-
+troleandomycin – et lægemiddel, der anvendes til at behandle bakterieinfektioner.
+-
+conivaptan – et lægemiddel, der anvendes til at regulere forstyrrelser i væske- og saltbalancen.
+-
+amiodaron, disopyramid, dofetilid, ibutilid, sotalol, quinidin – medicin til behandling af 
+hjerteproblemer.
+-
+droperidol, haloperidol, pimozide – medicin til behandling af psykotiske tilstande.
+-
+moxifloxacin – medicin til behandling af en særlig slags bakterieinfektioner.
+-
+metadon – medicin, som bruges til smertebehandling og til behandling af afhængighed af 
+opioider.
+Følgende lægemidler kan nedsætte virkningen af Daurismo:
+-
+carbamazepin, phenytoin, antiepileptika – lægemidler, der anvendes til at behandle kramper 
+eller krampeanfald.
+-
+rifampicin – et lægemiddel, der anvendes til at behandle tuberkulose (TB).
+-
+Prikbladet perikon (Hypericum perforatum) – et naturlægemiddel, der anvendes ved 
+nedtrykthed.
+-
+enzalutamid – et lægemiddel, der anvendes til at behandle prostatakræft.
+-
+mitotan – et lægemiddel, der anvendes til at behandle binyrekræft.
+-
+bosentan – et lægemiddel, der anvendes til at behandle højt blodtryk.
+-
+efavirenz, etravirin – lægemidler, der anvendes til at behandle hiv-infektion.
+-
+modafinil – et lægemiddel, der anvendes til at behandle søvnforstyrrelser.
+-
+nafcillin, et lægemiddel, der anvendes til at behandle visse typer bakterieinfektioner.
+Daurismo sammen med mad og drikke
+Drik ikke grapefrugtjuice, og spis ikke grapefrugt under behandlingen med Daurismo, da det kan 
+ændre mængden af Daurismo i din krop.
+38
+Graviditet, amning og frugtbarhed
+Graviditet
+Du må ikke blive gravid, når du tager Daurismo, og du må ikke tage det, hvis du er gravid. Daurismo
+kan forårsage alvorlige medfødte misdannelser hos spædbarnet eller fosterdød. 
+Din læge vil give dig flere oplysninger om Daurismos virkning på det ufødte barn og vil gennemføre 
+en graviditetstest, før du starter med at tage lægemidlet.
+Du skal tale med din læge omgående, hvis du eller din partner bliver gravid eller har mistanke om at 
+være gravid under behandlingen og i 30 dage efter din sidste dosis af Daurismo. Hvis du er gravid, har 
+mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge eller 
+apotekspersonale til råds, før du tager dette lægemiddel.
+Prævention hos kvinder og mænd
+Kvinder
+Du skal altid bruge effektiv svangerskabsforebyggelse (prævention), mens du tager Daurismo, og i 
+mindst 30 dage efter den sidste dosis af Daurismo. Tal med din læge om svangerskabsforebyggelse, 
+som passer dig og din partner.
+Mænd
+Mænd bør altid bruge effektiv prævention, inklusive kondomer (med sæddræbende creme hvis 
+tilgængelig), også selv om du har fået foretaget vasektomi (sterilisation), mens du tager Daurismo og i 
+mindst 30 dage efter den sidste dosis af Daurismo.
+Du må på intet tidspunkt donere sæd, når du tager Daurismo, og i mindst 30 dage efter den sidste 
+dosis.
+Amning
+Du må ikke amme, mens du tager Daurismo, eller i løbet af en uge efter den sidste dosis af Daurismo. 
+Det vides ikke, om Daurismo udskilles i modermælken og skader dit barn.
+Frugtbarhed
+Daurismo kan påvirke mænd og kvinders frugtbarhed. Tal med din læge om bevarelse af
+frugtbarheden, før du tager Daurismo.
+Trafik- og arbejdssikkerhed
+Hvis du føler dig træt, får muskelkramper, smerter eller kvalme, mens du er i behandling med 
+Daurismo, skal du være ekstra forsigtig med at føre motorkøretøj og betjene maskiner.
+Daurismo indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol natrium (mindre end 23 mg) pr. tablet, dvs. det er i 
+det væsentlige 'natrium-frit’.
+Daurismo indeholder lactose 
+Dette lægemiddel indeholder lactose (findes i mælk og mejeriprodukter). 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take daurismo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take daurismo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag Daurismo én gang om dagen på nogenlunde samme tidspunkt hver dag. Tag altid lægemidlet 
+nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. 
+39
+Den anbefalede dosis er én tablet på 100 mg, der tages gennem munden én gang om dagen med eller 
+uden mad. 
+Hvis du oplever visse bivirkninger, mens du tager Daurismo (se punkt 4 “Bivirkninger”), kan din læge 
+nedsætte din dosis eller stoppe behandlingen midlertidigt eller permanent. 
+Hvis du kaster op efter at have taget Daurismo
+Hvis du kaster op efter at have taget Daurismo, må du ikke tage en ekstra dosis. Tag blot din næste
+dosis på det sædvanlige tidspunkt.
+Hvis du har taget for meget Daurismo
+Hvis du kommer til at tage for mange tabletter, skal du omgående underrette din læge, 
+apotekspersonalet eller sygeplejersken. Du kan have brug for omgående lægehjælp.
+Hvis du har glemt at tage Daurismo 
+Hvis du glemmer at tage en tablet, skal du tage den, så snart du husker det, medmindre der er gået 
+mere end 10 timer siden det planlagte dosistidspunkt. I så tilfælde skal du springe den glemte dosis 
+over. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du holder op med at tage Daurismo
+Stop ikke med at tage Daurismo, medmindre din læge siger det til dig.
+Det er vigtigt at tage Daurismo hver dag, så længe din læge ordinerer det til dig. Underret din læge 
+omgående, hvis du ikke kan tage medicinen som ordineret af lægen, eller hvis du føler, at du ikke 
+længere har behov for den.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Daurismo kan forårsage alvorlige medfødte misdannelser. Det kan også medføre, at barnet dør inden 
+eller kort tid efter fødsel. Du må ikke blive gravid, mens du tager denne medicin (se punkt 2, “Det skal 
+du vide, før du begynder at tage Daurismo”).
+Andre bivirkninger ved Daurismo i kombination med cytarabin inkluderer:
+Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer
+-
+lavt hæmoglobinniveau
+-
+blødning
+-
+feber
+-
+kvalme
+-
+nedsat appetit
+-
+muskelsmerter
+-
+træthed
+-
+fald i antallet af blodplader i blodet
+-
+diarré
+-
+lungebetændelse
+-
+smagsforandringer
+-
+hævelser i arme og ben
+-
+forstoppelse
+-
+mavesmerter
+-
+udslæt
+-
+stakåndethed
+-
+opkastning
+40
+-
+vægttab
+-
+fald i antallet af hvide blodlegemer
+-
+fald i antallet af en type hvide blodlegemer (neutrofiler)
+-
+ledsmerter
+-
+hårtab
+Almindelig: kan forekomme hos op til 1 ud af 10 personer
+-
+ændringer i hjertets elektriske aktivitet
+-
+hjertebanken
+-
+infektion i blodet
+-
+svien ved vandladning samt presserende og hyppig vandladning (kan være symptomer på 
+urinvejsinfektion)
+-
+irritation i munden
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store daurismo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store daurismo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Tag ikke lægemidlet efter den udløbsdato, der står på æsken og på blisterfolien eller beholderen efter 
+“EXP”. Udløbsdatoen er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på at have været åbnet.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Daurismo indeholder:</h2>
+<p>Aktivt stof: glasdegib.
+Daurismo 25 mg filmovertrukne tabletter: Hver filmovertrukket tablet indeholder 
+glasdegibmaleat svarende til 25 mg glasdegib.
+Daurismo 100 mg filmovertrukne tabletter: Hver filmovertrukket tablet indeholder 
+glasdegibmaleat svarende til 100 mg glasdegib.
+-
+Øvrige indholdsstoffer: 
+Tabletkerne: natriumstivelsesglycolat, mikrokrystallinsk cellulose, calciumhydrogenphosphat 
+(vandfrit) og magnesiumstearat. Se punkt 2 “Daurismo indeholder natrium.”
+Filmovertræk: Lactosemonohydrat, hypromellose, titandioxid, macrogol, triacetin, gul jernoxid 
+og rød jernoxid (kun 100 mg tabletter). Se punkt 2 “Daurismo indeholder lactose.”
+Udseende og pakningsstørrelser
+Daurismo 25 mg filmovertrukne tabletter
+-
+Runde, gule, filmovertrukne tabletter præget med ”Pfizer” på den ene side og ”GLS 25” på den 
+anden side. 
+41
+-
+Udleveres i blisterkort med 10 tabletter. Hver pakning indeholder 60 tabletter, enten i 6 blisterkort
+eller i én plastikbeholder.
+Daurismo 100 mg filmovertrukne tabletter
+-
+Runde, lys-orange, filmovertrukne tabletter med ”Pfizer” indpræget på den ene side og ”GLS 100” 
+på den anden side. 
+-
+Udleveres i blisterkort med 10 tabletter. Hver pakning indeholder 30 tabletter, enten i 3 blisterkort 
+eller i én plastikbeholder.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien 
+Fremstiller
+Pfizer Manufacturing Deutschland GmbH
+Betriebsstätte Freiburg
+Mooswaldallee 1
+79090 Freiburg
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36-1-488-37-00
+Česká republika
+Pfizer, spol. s r.o.
+Tel.: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel. +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+Pfizer Pharma GmbH
+Tel: +49 (0)30 550055 51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel.: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ.: +30 210 6785 800
+Polska
+Pfizer Polska Sp .z o.o.
+Tel.:+48 22 335 61 00
+42
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel.: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel.: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh./Tel: +358 (0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-80c767f44d11e1fb968f6d85169c54f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for daurismo Package Leaflet for language en"
+Description: "ePI document Bundle for daurismo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-80c767f44d11e1fb968f6d85169c54f0"
+* entry[0].resource = composition-en-80c767f44d11e1fb968f6d85169c54f0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp80c767f44d11e1fb968f6d85169c54f0"
+* entry[=].resource = mp80c767f44d11e1fb968f6d85169c54f0
+                            
+                    
+Instance: bundlepackageleaflet-da-80c767f44d11e1fb968f6d85169c54f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for daurismo Package Leaflet for language da"
+Description: "ePI document Bundle for daurismo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-80c767f44d11e1fb968f6d85169c54f0"
+* entry[0].resource = composition-da-80c767f44d11e1fb968f6d85169c54f0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp80c767f44d11e1fb968f6d85169c54f0"
+* entry[=].resource = mp80c767f44d11e1fb968f6d85169c54f0
+                            
+                    
+
+
+
+Instance: mp80c767f44d11e1fb968f6d85169c54f0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Daurismo 25 mg film-coated tablets"
-Description: "Daurismo 25 mg film-coated tablets"
+Title: "Medicinal Product daurismo"
+Description: "daurismo"
 Usage: #inline
 
  
@@ -457,7 +984,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Daurismo 25 mg film-coated tablets"
+  * productName = "daurismo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -484,29 +1011,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-80c767f44d11e1fb968f6d85169c54f0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for daurismo Package Leaflet for language en"
-Description: "ePI document Bundle for daurismo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 80c767f44d11e1fb968f6d85169c54f0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Daurismo 25 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "daurismo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-80c767f44d11e1fb968f6d85169c54f0"
-* entry[0].resource = composition-en-80c767f44d11e1fb968f6d85169c54f0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3e2f942710414745289510e476d621a4"
-* entry[=].resource = mp3e2f942710414745289510e476d621a4
-                            
-                      
+* title = "List of all ePIs associated with daurismo"
+
+* subject = Reference(mp3e2f942710414745289510e476d621a4)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#daurismo "daurismo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-80c767f44d11e1fb968f6d85169c54f0) // daurismo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-80c767f44d11e1fb968f6d85169c54f0) // daurismo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-80c767f44d11e1fb968f6d85169c54f0
+InstanceOf: List
+
+* insert 80c767f44d11e1fb968f6d85169c54f0ListRuleset
+    

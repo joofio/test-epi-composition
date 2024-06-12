@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9db019f3edad8960f5fba7c073300e2b
 InstanceOf: CompositionUvEpi
 Title: "Composition for bemrist Package Leaflet"
@@ -376,12 +379,679 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-9db019f3edad8960f5fba7c073300e2b
+InstanceOf: CompositionUvEpi
+Title: "Composition for bemrist Package Leaflet"
+Description:  "Composition for bemrist Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdbb844b3cd0ffe47f1a10f5e0655b04a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpdbb844b3cd0ffe47f1a10f5e0655b04a
+* title = "TEST PURPOSES ONLY - bemrist"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning til Bemrist Breezhaler inhalator </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Bemrist Breezhaler </li>
+<li>Sådan skal du tage Bemrist Breezhaler </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What bemrist is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What bemrist is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Bemrist Breezhaler indeholder to aktive stoffer, der kaldes indacaterol og mometasonfuroat. </p>
+<p>Indacaterol tilhører en gruppe af lægemidler, der kaldes bronkodilatatorer. Det afslapper musklerne i 
+de små luftveje i lungerne. Dette hjælper med til at åbne luftvejene og gør det nemmere for luften at 
+komme ind i og ud af lungerne. Når det tages regelmæssigt, hjælper det med at holde de små luftveje 
+åbne. </p>
+<p>Mometasonfuroat tilhører en gruppe af lægemidler, der kaldes kortikosteroider (eller steroider). 
+Kortikosteroider dæmper hævelsen og irritationen (inflammationen) i de små luftveje i lungerne og 
+afhjælper på denne måde gradvist ved vejrtrækningsproblemer. Kortikosteroider hjælper også med at 
+forhindre astmaanfald. </p>
+<p>Anvendelse 
+Bemrist Breezhaler anvendes regelmæssigt som behandling ved astma hos voksne og unge (12 år og 
+derover). </p>
+<p>Astma er en alvorlig, langsigtet lungesygdom, hvor musklerne, rundt om de mindre luftveje, trækker 
+sig sammen (bronkokonstriktion), og har en vedvarende betændelsestilstand (inflammation). 
+Symptomer kommer og går og omfatter åndenød, hvæsende vejrtrækning, trykken for brystet og hoste. </p>
+<p>Du bør tage Bemrist Breezhaler hver dag og ikke kun, når du har problemer med at trække vejret eller 
+andre symptomer på astma. Dette vil sikre, at din astma holdes ordentligt under kontrol. Brug ikke 
+dette lægemiddel til behandling af pludselige anfald af åndenød eller hvæsende vejrtrækning. </p>
+<p>Tal med lægen, hvis du har spørgsmål til, hvordan Bemrist Breezhaler virker, eller hvorfor denne 
+medicin er blevet ordineret til dig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take bemrist"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take bemrist"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følg alle lægens anvisninger nøje. </p>
+<p>Tag ikke Bemrist Breezhaler 
+- hvis du er allergisk over for indacaterol, mometasonfuroat eller et af de øvrige indholdsstoffer 
+i Bemrist Breezhaler (angivet i punkt 6). Rådfør dig med lægen, hvis du tror, at du kan være 
+allergisk. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Bemrist Breezhaler, hvis noget af 
+følgende passer på dig:</p>
+<ul>
+<li>hvis du har hjerteproblemer, herunder uregelmæssig eller hurtig hjerterytme. </li>
+<li>hvis du har problemer med skjoldbruskkirtlen. </li>
+<li>hvis du på noget tidspunkt har fået at vide, at du har diabetes eller højt blodsukkerniveau. </li>
+<li>hvis du får krampeanfald. </li>
+<li>hvis du har et lavt niveau af kalium i blodet. </li>
+<li>hvis du har alvorlige leverproblemer. </li>
+<li>hvis du har lungetuberkulose (lunge-TB) eller længerevarende eller ubehandlede infektioner. </li>
+</ul>
+<p>Under behandling med Bemrist Breezhaler 
+Stop med at tage medicinen, og søg lægehjælp øjeblikkeligt, hvis du har en af følgende tilstande:</p>
+<ul>
+<li>trykken for brystet, hoste, hvæsende vejrtrækning eller åndenød umiddelbart efter at du har 
+brugt Bemrist Breezhaler (tegn på at lægemidlet mod forventning trækker luftvejene sammen, 
+kendt som paradoks bronkospasme). </li>
+<li>besvær med at trække vejret eller synke, hævelse af tunge, læber eller ansigt, hududslæt, kløe og 
+nældefeber (tegn på allergisk reaktion). </li>
+</ul>
+<p>Børn og unge 
+Denne medicin må ikke gives til børn under 12 år fordi det ikke er blevet undersøgt i denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Bemrist Breezhaler 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Fortæl især lægen eller apotekspersonalet, hvis du 
+tager:</p>
+<ul>
+<li>lægemidler, der sænker niveauet af kalium i blodet. Disse omfatter diuretika (som øger 
+produktionen af urin og kan anvendes til behandling af højt blodtryk, fx hydrochlorthiazid), 
+andre bronkodilatatorer som methylxanthiner til behandling af vejrtrækningsbesvær (fx 
+theophyllin) eller kortikosteroider (fx prednisolon). </li>
+<li>tricykliske antidepressiva eller monoaminoxidasehæmmere (lægemidler, der anvendes i 
+behandlingen af depression). </li>
+<li>lægemidler, der kan ligne Bemrist Breezhaler (indeholder lignende aktive stoffer); tages de 
+sammen med Bemrist Breezhaler, kan der være større risiko for bivirkninger. </li>
+<li>lægemidler, der kaldes betablokkere, som anvendes til behandling af højt blodtryk eller andre 
+hjerteproblemer (fx propranolol) eller til behandling af grøn stær (glaukom) (fx timolol). </li>
+<li>ketoconazol eller itraconazol (lægemidler, der anvendes til behandling af svampeinfektioner). </li>
+<li>ritonavir, nelfinavir eller cobicistat (lægemidler, der anvendes til behandling af hiv-infektion). </li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. Lægen vil drøfte med dig, hvorvidt du kan 
+tage Bemrist Breezhaler. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er usandsynligt at dette lægemiddel påvirker evnen til at køre bil eller betjene maskiner. </p>
+<p>Bemrist Breezhaler indeholder lactose 
+Dette lægemiddel indeholder ca. 25 mg lactose pr. kapsel. Kontakt lægen, før du tager dette 
+lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take bemrist"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take bemrist"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Så meget Bemrist Breezhaler skal du inhalere 
+Der findes tre forskellige styrker af Bemrist Breezhaler kapsler. Lægen vil afgøre, hvilken styrke der 
+er bedst til dig. </p>
+<p>Den sædvanlige dosis er inhalation af indholdet fra én kapsel hver dag. Du skal kun tage medicinen én 
+gang dagligt. Tag ikke mere end den dosis, lægen anbefaler dig at bruge. </p>
+<p>Du bør tage Bemrist Breezhaler hver dag, også selvom din astma ikke generer dig. </p>
+<p>Tidspunkt for inhalering af Bemrist Breezhaler 
+Inhaler Bemrist Breezhaler på samme tidspunkt hver dag. Dette vil hjælpe med at styre dine 
+symptomer igennem dagen og natten. Det vil også hjælpe dig med at huske at tage medicinen. </p>
+<p>Sådan skal du inhalere Bemrist Breezhaler 
+- Bemrist Breezhaler tages ved inhalation (indånding). 
+- Denne pakning indeholder en inhalator og kapsler, som indeholder medicinen. Inhalatoren gør 
+det muligt for dig at inhalere medicinen i kapslen. Brug kun kapslerne sammen med den 
+vedlagte inhalator. Kapslerne skal forblive i blisteren, indtil de skal bruges. 
+- Træk bagbeklædningen af blisteren for at åbne den; tryk ikke kapslen gennem folien. 
+- Når du starter på en ny pakning, skal du bruge den nye inhalator, som er vedlagt i denne nye 
+pakning. 
+- Smid inhalatoren i hver pakning ud efter alle kapsler i pakningen er brugt. 
+- Kapslerne må ikke synkes. 
+- Læs brugsanvisningen på den anden side af denne indlægsseddel for at få yderligere 
+oplysninger om, hvordan du bruger inhalatoren. </p>
+<p>Hvis dine symptomer ikke forbedres 
+Hvis din astma ikke bliver bedre, eller hvis den bliver værre, efter at du er startet med at tage 
+Bemrist Breezhaler, skal du tale med lægen. </p>
+<p>Hvis du har taget for meget Bemrist Breezhaler 
+Hvis du ved et uheld har inhaleret for meget af dette lægemiddel, skal du øjeblikkeligt kontakte din 
+læge eller et hospital for at blive rådført. Du kan have brug for lægehjælp. </p>
+<p>Hvis du har glemt at tage Bemrist Breezhaler 
+Hvis du har glemt at inhalere en dosis til sædvanlig tid, så inhalér én så hurtigt som muligt samme dag. 
+Inhalér herefter næste dosis til sædvanlig tid næste dag. Du må ikke inhalere to doser på samme dag. </p>
+<p>Hvis du holder op med at tage Bemrist Breezhaler 
+Du må ikke holde op med at tage Bemrist Breezhaler, medmindre lægen siger, at du skal stoppe. Dine 
+astmasymptomer kan vende tilbage, hvis du holder op med at tage lægemidlet. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige 
+Stop med at tage Bemrist Breezhaler, og søg lægehjælp øjeblikkeligt, hvis du oplever en af følgende 
+tilstande: </p>
+<p>Almindelige: kan forekomme hos op til 1 ud af 10 personer 
+- besvær med at trække vejret eller synke, hævelse af tunge, læber eller ansigt, hududslæt, kløe og 
+nældefeber (tegn på allergisk reaktion og angioødem). </p>
+<p>Ikke almindelige: kan forekomme hos op til 1 ud af 100 personer 
+- hævelse af hovedsageligt tungen, læberne, ansigtet eller halsen (mulige tegn på angioødem) </p>
+<p>Andre bivirkninger 
+Andre bivirkninger omfatter følgende anført nedenfor. Fortæl det til lægen, apotekspersonalet eller 
+sygeplejersken, hvis disse bivirkninger bliver alvorlige. </p>
+<p>Meget almindelige: kan forekomme hos flere end 1 ud af 10 personer 
+- ondt i halsen 
+- løbende næse 
+- pludselig vejrtrækningsbesvær og en følselse af trykken for brystet med hvæsen eller hoste </p>
+<p>Almindelige: kan forekomme hos op til 1 ud af 10 personer 
+- stemmeforandringer (hæshed) 
+- stoppet næse 
+- nysen, hoste 
+- hovedpine 
+- smerter i muskler, knogler eller led (tegn på muskuloskeletale smerter) </p>
+<p>Ikke almindelige: kan forekomme hos op til 1 ud af 100 personer 
+- hurtig hjerterytme 
+- svamp i munden (tegn på candidiasis) 
+- højt niveau af sukker i blodet 
+- muskelkrampe 
+- hudkløe 
+- udslæt 
+- uklarheder i øjets linse (tegn på grå stær) 
+- sløret syn </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store bemrist"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store bemrist"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Tag ikke lægemidlet efter den udløbsdato, der står på pakningen og blisteren efter “EXP”. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </li>
+<li>Må ikke opbevares ved temperaturer over 30°C. </li>
+<li>Opbevar kapslerne i den originale blister for at beskytte mod lys og fugt, og tag først kapslerne 
+ud lige før brug. </li>
+<li>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bemrist Breezhaler indeholder:</p>
+<ul>
+<li>Aktive stoffer: indacaterol (som acetat) og mometasonfuroat. </li>
+</ul>
+<p>Bemrist Breezhaler 125 mikrogram/62,5 mikrogram 
+Hver kapsel indeholder 173 mikrogram indacaterolacetat (svarende til 150 mikrogram 
+indacaterol) og 80 mikrogram mometasonfuroat. Hver leveret dosis (den dosis, der afgives fra 
+mundstykket af inhalatoren) indeholder 125 mikrogram indacaterol og 62,5 mikrogram 
+mometasonfuroat. </p>
+<p>Bemrist Breezhaler 125 mikrogram/127,5 mikrogram 
+Hver kapsel indeholder 173 mikrogram indacaterolacetat (svarende til 150 mikrogram 
+indacaterol) og 160 mikrogram mometasonfuroat. Leveret dosis (den dosis, der afgives fra 
+mundstykket af inhalatoren) svarer til 125 mikrogram indacaterol og 127,5 mikrogram 
+mometasonfuroat. </p>
+<p>Bemrist Breezhaler 125 mikrogram/260 mikrogram 
+Hver kapsel indeholder 173 mikrogram indacaterolacetat (svarende til 150 mikrogram 
+indacaterol) og 320 mikrogram mometasonfuroat. Leveret dosis (den dosis, der afgives fra 
+mundstykket af inhalatoren) svarer til 125 mikrogram indacaterol og 260 mikrogram 
+mometasonfuroat. </p>
+<ul>
+<li>Øvrige indholdsstoffer: lactosemonohydrat (se “Bemrist Breezhaler indeholder lactose” under 
+punkt 2). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+I denne pakning vil du finde en inhalator sammen med kapsler i blistere. Kapslerne er gennemsigtige 
+og indeholder et hvidt pulver. 
+- Bemrist Breezhaler 125 mikrogram/62,5 mikrogram kapsler har produktkoden “IM150-80” 
+trykt med blåt over én blå streg på underdelen og et logo trykt med blåt og omgivet af to blå 
+streger på hætten. 
+- Bemrist Breezhaler 125 mikrogram/127,5 mikrogram kapsler har produktkoden “IM150-160” 
+trykt med gråt på underdelen og et logo trykt med gråt på hætten. 
+- Bemrist Breezhaler 125 mikrogram/260 mikrogram kapsler har produktkoden “IM150-320” 
+trykt med sort over to sorte streger på underdelen og et logo trykt med sort og omgivet af to 
+sorte streger på hætten. </p>
+<p>Følgende pakningsstørrelser er tilgængelige: 
+Enkeltpakning med 10 x 1 eller 30 x 1 hårde kapsler sammen med 1 inhalator. 
+Multipakninger med 3 pakninger, som hver indeholder 30 x 1 hårde kapsler sammen med 1 inhalator. 
+Multipakninger med 15 pakninger, som hver indeholder 10 x 1 hårde kapsler sammen med 1 inhalator. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spanien </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Laboratorios Gebro Pharma, S.A. 
+Tel: +34 93 205 86<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+Brugsanvisning til Bemrist Breezhaler inhalator </p>
+<p>Læs hele brugsanvisningen til Bemrist Breezhaler inhalatoren før brug. </p>
+<p>Læg en kapsel i 
+Perforer og slip 
+Inhaler dybt 
+Tjek at kapslen er tom </p>
+<p>Trin 1a: 
+Fjern hætten 
+Trin 2a: 
+Perforer kapslen én 
+gang 
+Hold inhalatoren lodret. 
+Perforer kapslen ved 
+samtidig at trykke begge 
+sideknapper helt ind. 
+Trin 3a: 
+Tag en dyb udånding 
+Du må ikke puste i 
+mundstykket. 
+Tjek at kapslen er tom 
+Åbn inhalatoren for at 
+kontrollere, om der er 
+overskydende pulver i 
+kapslen. </p>
+<p>Hvis der er overskydende 
+pulver i kapslen: </p>
+<ul>
+<li>
+<p>Luk inhalatoren. </p>
+</li>
+<li>
+<p>Gentag trin 3a til 3d. </p>
+</li>
+</ul>
+<p>Du vil høre et klik, når 
+kapslen perforeres. 
+Perforer kun kapslen én 
+gang. </p>
+<p>Overskydende 
+Tom 
+pulver<br />
+Trin 1b: 
+Åbn inhalatoren </p>
+<p>Trin 2b: 
+Slip sideknapperne helt 
+Trin 3b: 
+Inhaler medicinen dybt 
+Hold inhalatoren som 
+vist på billedet. 
+Tag mundstykket i 
+munden, og luk læberne 
+tæt omkring det. 
+Tryk ikke på 
+sideknapperne. </p>
+<p>1 </p>
+<p>2 </p>
+<p>3 </p>
+<p>Tjek </p>
+<p>Tag en hurtig og så dyb 
+indånding som muligt. 
+Under inhalationen vil du 
+høre en snurrende lyd. 
+Du kan muligvis smage 
+medicinen, mens du 
+inhalerer. </p>
+<p>Trin 1c: 
+Fjern kapslen 
+Adskil en blister fra 
+blisterkortet. 
+Åbn blisteren og fjern 
+kapslen. 
+Tryk ikke kapslen gennem 
+folien. 
+Kapslen må ikke synkes. </p>
+<p>Trin 3c: 
+Hold vejret 
+Hold vejret i op til 
+5 sekunder. </p>
+<p>Trin 3d: 
+Skyl munden 
+Skyl munden med vand 
+efter hver dosis, og spyt 
+det ud. 
+Fjern den tomme kapsel 
+Smid kapslen ud sammen 
+med almindeligt 
+husholdningsaffald. 
+Luk inhalatoren, og sæt 
+hætten på igen. </p>
+<p>Trin 1d: 
+Læg kapslen i 
+kapselkammeret 
+Læg aldrig en kapsel 
+direkte i mundstykket. </p>
+<p>Vigtig information 
+• Bemrist Breezhaler 
+kapsler skal altid 
+opbevares i den originale 
+blister og må først tages 
+ud umiddelbart inden 
+anvendelse. 
+• Tryk ikke kapslen 
+gennem folien for at 
+fjerne den fra 
+blisterkortet. 
+• Kapslerne må ikke 
+synkes. 
+• Brug ikke Bemrist 
+Breezhaler kapsler med 
+nogen anden inhalator. 
+• Brug ikke Bemrist 
+Breezhaler inhalatoren 
+til at tage anden kapsel-
+medicin. 
+• Læg aldrig kapslen 
+direkte i munden eller i 
+inhalatorens 
+mundstykke. 
+• Tryk ikke på 
+sideknapperne mere end 
+én gang. 
+• Pust ikke ind i 
+mundstykket. 
+• Tryk ikke på 
+sideknapperne, mens du 
+inhalerer gennem 
+mundstykket. 
+• Håndter ikke kapslerne 
+med fugtige hænder. 
+• Vask aldrig din inhalator 
+med vand. </p>
+<p>Trin 1e: 
+Luk inhalatoren </p>
+<p>Din Bemrist Breezhaler inhalator-pakning 
+indeholder: </p>
+<ul>
+<li>
+<p>En Bemrist Breezhaler inhalator </p>
+</li>
+<li>
+<p>Et eller flere blisterkort, som hver indeholder 
+10 Bemrist Breezhaler kapsler til brug i 
+inhalatoren. </p>
+</li>
+</ul>
+<p>Ofte stillede spørgsmål </p>
+<p>Hvorfor lavede 
+inhalatoren ikke en lyd, 
+da jeg inhalerede? 
+Kapsel kan muligvis sidde 
+fast i kammeret. Hvis dette 
+er tilfældet, skal du 
+forsigtigt løsne kapslen 
+ved banke let på 
+inhalatorens underdel. 
+Inhaler medicinen igen ved 
+at gentage trin 3a til 3d. </p>
+<p>Hvad skal jeg gøre, hvis 
+der er overskydende 
+pulver i kapslen? 
+Du har ikke fået en 
+tilstrækkelig mængde af 
+din medicin. Luk 
+inhalatoren, og gentag 
+trin 3a til 3d. </p>
+<p>Jeg hostede, efter jeg 
+inhalerede – betyder det 
+noget? 
+Dette kan forekomme. Så 
+længe at kapslen er tom, 
+har du fået en tilstrækkelig 
+mængde af din medicin. </p>
+<p>Jeg kunne mærke små 
+stykker af kapslen på 
+min tunge – betyder det 
+noget? 
+Dette kan forekomme, og 
+det er ikke farligt. 
+Risikoen for, at kapslen 
+går i små stykker, forøges, 
+hvis kapslen perforeres 
+mere end én gang. 
+Rengøring af inhalatoren 
+Tør inderside og yderside 
+af mundstykket med en 
+ren, tør og fnugfri klud for 
+at fjerne eventuelle 
+pulverrester. Hold 
+inhalatoren tør. Vask 
+aldrig din inhalator med 
+vand. 
+Bortskaffelse af inhalator 
+efter brug 
+Hver inhalator skal 
+bortskaffes, efter alle 
+kapslerne er brugt. Spørg 
+apotekspersonalet, hvordan 
+du skal bortskaffe 
+inhalatorer ifølge de lokale 
+retningslinjer. </p>
+<p>Underdel 
+Hætte 
+Sideknapper 
+Blister 
+Gitter 
+Kapselkammer 
+Inhalator 
+Inhalatorunderdel 
+Blisterkort 
+Mundstykke </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9db019f3edad8960f5fba7c073300e2b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bemrist Package Leaflet for language en"
+Description: "ePI document Bundle for bemrist Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9db019f3edad8960f5fba7c073300e2b"
+* entry[0].resource = composition-en-9db019f3edad8960f5fba7c073300e2b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9db019f3edad8960f5fba7c073300e2b"
+* entry[=].resource = mp9db019f3edad8960f5fba7c073300e2b
+                            
+                    
+Instance: bundlepackageleaflet-da-9db019f3edad8960f5fba7c073300e2b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bemrist Package Leaflet for language da"
+Description: "ePI document Bundle for bemrist Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9db019f3edad8960f5fba7c073300e2b"
+* entry[0].resource = composition-da-9db019f3edad8960f5fba7c073300e2b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9db019f3edad8960f5fba7c073300e2b"
+* entry[=].resource = mp9db019f3edad8960f5fba7c073300e2b
+                            
+                    
+
+
+
+Instance: mp9db019f3edad8960f5fba7c073300e2b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Bemrist Breezhaler 125 micrograms/62.5 micrograms inhalation powder, hard capsules"
-Description: "Bemrist Breezhaler 125 micrograms/62.5 micrograms inhalation powder, hard capsules"
+Title: "Medicinal Product bemrist"
+Description: "bemrist"
 Usage: #inline
 
  
@@ -401,7 +1071,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Bemrist Breezhaler 125 micrograms/62.5 micrograms inhalation powder, hard capsules"
+  * productName = "bemrist"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -428,29 +1098,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9db019f3edad8960f5fba7c073300e2b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for bemrist Package Leaflet for language en"
-Description: "ePI document Bundle for bemrist Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9db019f3edad8960f5fba7c073300e2bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Bemrist Breezhaler 125 micrograms/62.5 micrograms inhalation powder, hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "bemrist"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9db019f3edad8960f5fba7c073300e2b"
-* entry[0].resource = composition-en-9db019f3edad8960f5fba7c073300e2b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpdbb844b3cd0ffe47f1a10f5e0655b04a"
-* entry[=].resource = mpdbb844b3cd0ffe47f1a10f5e0655b04a
-                            
-                      
+* title = "List of all ePIs associated with bemrist"
+
+* subject = Reference(mpdbb844b3cd0ffe47f1a10f5e0655b04a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#bemrist "bemrist"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9db019f3edad8960f5fba7c073300e2b) // bemrist en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9db019f3edad8960f5fba7c073300e2b) // bemrist da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9db019f3edad8960f5fba7c073300e2b
+InstanceOf: List
+
+* insert 9db019f3edad8960f5fba7c073300e2bListRuleset
+    

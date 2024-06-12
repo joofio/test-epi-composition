@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e4987c505b33cb8f74903d77ffd0fb1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for aspaveli Package Leaflet"
@@ -549,12 +552,641 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-e4987c505b33cb8f74903d77ffd0fb1e
+InstanceOf: CompositionUvEpi
+Title: "Composition for aspaveli Package Leaflet"
+Description:  "Composition for aspaveli Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8865285b2ab15f3bfed8ed57b643b2c8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8865285b2ab15f3bfed8ed57b643b2c8
+* title = "TEST PURPOSES ONLY - aspaveli"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge ASPAVELI </li>
+<li>Sådan skal du bruge ASPAVELI </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What aspaveli is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What aspaveli is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er ASPAVELI 
+ASPAVELI er et lægemiddel, der indeholder det aktive stof pegcetacoplan. Pegcetacoplan er udviklet 
+til at fastgøre sig på C3-komplementproteinet, hvilket er en del af kroppens immunforsvar, kaldet 
+’komplementsystemet’. Pegcetacoplan forhindrer kroppens immunsystem i at ødelægge dine røde 
+blodlegemer. </p>
+<p>Hvad anvendes ASPAVELI til 
+ASPAVELI anvendes til behandling af voksne patienter med en sygdom kaldet paroksystisk nokturn 
+hæmoglobinuri (PNH), som har anæmi som følge af denne sygdom. </p>
+<p>Hos patienter med PNH er ’komplementsystemet’ overaktivt, og det angriber patienternes røde 
+blodlegemer, hvilket kan medføre lavt antal blodlegemer (anæmi), træthed, nedsat funktionsevne, 
+smerter, mavesmerter, mørk urin, stakåndethed, synkebesvær, erektil dysfunktion (impotens) og 
+blodpropdannelse. Ved at angribe og blokere C3-proteinet kan dette lægemiddel stoppe 
+komplementsystemet, så de ikke angriber de røde blodlegemer, og derved kontrollere 
+sygdomssymptomerne. Det er påvist, at dette lægemiddel øger antallet af røde blodlegemer (reducerer 
+anæmi), hvilket kan forbedre disse symptomer. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take aspaveli"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take aspaveli"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke ASPAVELI 
+- hvis du er overfølsom over for pegcetacoplan eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). 
+- Hvis du har en infektion forårsaget af såkaldte indkapslede bakterier. 
+- Hvis du ikke er vaccineret mod Neisseria meningitidis, Streptococcus pneumoniae og 
+Haemophilus influenzae. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger ASPAVELI. </p>
+<p>Symptomer på infektion 
+Fortæl det til din læge, hvis du har en infektion, inden du starter med ASPAVELI. </p>
+<p>Da dette lægemiddel fokuserer på komplementsystemet, som er en del af kroppens forsvar mod 
+infektion, øges din risiko for infektioner, herunder infektioner forårsaget af de såkaldte indkapslede 
+bakterier, såsom Streptococcus pneumoniae, Neisseria meningitidis og Haemophilus influenzae, når 
+du bruger dette lægemiddel. Det er alvorlige infektioner, som påvirker din næse, hals og dine lunger 
+eller hjernehinden, og de kan sprede sig i blodet og hele kroppen. </p>
+<p>Tal med din læge, inden du starter på ASPAVELI, for at være sikker på, at du får vaccination mod 
+Streptococcus pneumoniae, Neisseria meningitidis og Haemophilus influenzae, hvis du ikke tidligere 
+har fået disse vacciner. Du skal muligvis have yderligere vaccinationer, selvom du tidligere har fået 
+disse vacciner, inden du starter på dette lægemiddel. Disse vaccinationer skal gives mindst 2 uger før 
+påbegyndelse af behandlingen. Din læge vil ordinere antibiotika for at reducere risikoen for infektion i 
+2 uger efter, at du er blevet vaccineret, hvis du ikke kan vaccineres 2 uger før påbegyndelse af 
+behandlingen. Din læge vil observere dig nøje for symptomer på infektion efter vaccinationen. </p>
+<p>Infektionssymptomer 
+Fortæl det straks til din læge, hvis du oplever nogle af følgende symptomer:</p>
+<ul>
+<li>hovedpine og feber </li>
+<li>feber og udslæt </li>
+<li>feber med eller uden kulderystelser eller kuldegysen </li>
+<li>stakåndethed </li>
+<li>høj puls </li>
+<li>klam hud </li>
+<li>hovedpine med nakke- eller rygstivhed </li>
+<li>hovedpine med kvalme (du føler dig utilpas) eller opkastning </li>
+<li>lysfølsomhed </li>
+<li>muskelsmerter med influenzalignende symptomer </li>
+<li>forvirring </li>
+<li>store smerter eller ubehag </li>
+</ul>
+<p>Sørg for at holde dig ajour med dine vaccinationer. Du skal være klar over, at vacciner nedsætter 
+risikoen for alvorlige infektioner, men de forhindrer ikke alle alvorlige infektioner. Afhængigt af 
+nationale retningslinjer kan lægen finde det nødvendigt med supplerende foranstaltninger, f.eks. 
+antibiotika til at forebygge infektion. </p>
+<p>Allergiske reaktioner 
+Nogle patienter kan opleve allergiske reaktioner. I tilfælde af en alvorlig allergisk reaktion skal du 
+stoppe med infusionen af ASPAVELI, og du skal søge øjeblikkelig lægehjælp. En alvorlig allergisk 
+reaktion kan være åndenød, brystsmerter eller trykken for brystet og/eller svimmelhed, svær hudkløe 
+eller hævede vabler på huden, hævelse i ansigtet, læberne, tungen og/eller halsen, som kan gøre det 
+vanskeligt at synke. </p>
+<p>Reaktioner på injektionsstedet 
+Der er observeret reaktioner på injektionsstedet med brugen af ASPAVELI. Du skal have passende 
+træning i korrekt injektionsteknik inden selvadministration. </p>
+<p>Laboratorieovervågning 
+Under behandlingen med ASPAVELI vil din læge foretage regelmæssige kontrolundersøgelser, 
+herunder blodprøver for niveau af laktatdehydrogenase (LDH) og tests af nyrefunktionen, og lægen 
+kan justere din dosis efter behov. </p>
+<p>Virkning på laboratorietests 
+Brug af silica-reagenser i koagulationstests skal undgås, da det kan resultere i en kunstigt forlænget 
+aktiveret partiel tromboplastintid (aPTT). </p>
+<p>Børn og unge 
+Giv ikke dette lægemiddel til børn under 18 år, da der ikke foreligger data om dets sikkerhed og effekt 
+hos denne gruppe. </p>
+<p>Brug af andre lægemidler sammen med ASPAVELI 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Graviditet, amning og frugtbarhed 
+Kvinder i den fertile alder 
+Lægemidlets virkning på det ufødte barn er ukendt. Det anbefales at anvende sikker kontraception 
+under behandlingen og op til 8 uger efter behandlingen af kvinder, som kan blive gravide. Du skal 
+spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>Graviditet/amning 
+ASPAVELI bør ikke anvendes under graviditet og amning. Hvis du er gravid eller ammer, har 
+mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge eller 
+apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene 
+maskiner. </p>
+<p>ASPAVELI indeholder sorbitol 
+Sorbitol er en kilde til fructose. Hvis din læge har fortalt dig, at du har intolerance over for nogle 
+sukkerarter, eller hvis du er blevet diagnosticeret med arvelig fructoseintolerans (HFI), en sjælden 
+genetisk lidelse, hvor en person ikke kan nedbryde fructose, skal du tale med din læge, før du tager 
+eller får dette lægemiddel. </p>
+<p>ASPAVELI indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take aspaveli"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take aspaveli"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Din læge vil gennemgå din journal mindst 2 uger inden, du starter behandling med dette lægemiddel, 
+og du skal måske have én eller flere vaccinationer. Din læge vil ordinere antibiotika for at reducere 
+risikoen for infektion i 2 uger efter, at du er blevet vaccineret, hvis du ikke kan vaccineres mindst 
+2 uger før påbegyndelse af behandlingen med ASPAVELI. </p>
+<p>Dosis 
+Den anbefalede initialdosis for voksne med PNH er 1080 mg to gange ugentligt. Du skal tage den to 
+gange ugentlige dosis på dag 1 og dag 4 i hver behandlingsuge. </p>
+<p>Hvis du skifter til ASPAVELI fra en anden type PNH-lægemiddel, kaldet en C5-hæmmer, skal du tage 
+ASPAVELI i tillæg til din nuværende dosis af C5-hæmmer som ordineret i 4 uger. Efter 4 uger skal du 
+stoppe med at tage din C5-hæmmer. </p>
+<p>Dosis eller doseringsinterval må ikke ændres uden at rådføre dig med din læge. Din læge kan justere 
+din dosis til 1080 mg hver tredje dag (f.eks. dag 1, dag 4, dag 7, dag 10, dag 13 og så videre), hvis 
+relevant. Kontakt din læge snarest muligt, hvis du tror, at du har glemt en dosis. </p>
+<p>Anvendelsesmåde og administrationsvej 
+ASPAVELI er beregnet til at gives som en infusion (drop) under huden med en infusionspumpe. 
+Du vil få de første doser lægemiddel af sundhedspersonale på en klinik eller et behandlingscenter. 
+Hvis behandlingen går godt, vil din læge måske tale med dig om, at du muligvis selv kan indgive 
+lægemidlet hjemme. Hvis det er relevant, vil en sundhedsperson lære dig eller en omsorgsgiver, 
+hvordan du skal give infusionen til dig selv. </p>
+<p>Infusionshastighed(er) 
+Den typiske infusionstid er ca. 30 minutter, hvis du bruger 2 infusionssteder eller ca. 60 minutter, hvis 
+du bruger 1 infusionssted. Infusionen skal startes straks efter, at lægemidlet er trukket ind i sprøjten, 
+og fuldføres inden for 2 timer efter klargøring af sprøjten. </p>
+<p>Brugsanvisning 
+Trin 1 
+Klargør til infusionen 
+Inden du starter: 
+1. Tag en æske med et enkelt 
+hætteglas ud af køleskabet. Bevar 
+hætteglasset i æsken ved 
+stuetemperatur, og lad det varme op 
+i ca. 30 minutter. 
+a. 
+Forsøg ikke at accelerere 
+opvarmningsprocessen 
+med brug af en mikroovn 
+eller anden varmekilde. 
+2. Find en flad arbejdsoverflade, f.eks. 
+et bord med god belysning. 
+3. Saml dit udstyr (figur 1): 
+A. 
+Infusionspumpe med 
+sprøjtesystem og 
+anvisningerne fra 
+fremstilleren (ikke vist) 
+B. 
+Kompatibel sprøjte 
+C1. Overførselsnål ELLER 
+C2. Overførselsenhed uden 
+nål til at trække 
+produktet op fra 
+hætteglasset 
+D. 
+Infusionssæt (ikke vist; 
+varierer afhængigt af 
+anvisningerne fra 
+fremstilleren af enheden) 
+E. 
+Infusionsslange og 
+Y-konnektor (hvis 
+nødvendigt) 
+F. 
+Kanylebeholder 
+G. 
+Spritservietter 
+H. 
+Gaze og tape, eller 
+transparent forbinding </p>
+<p>Figur 1 Eksempel på udstyr </p>
+<p>Rengør din arbejdsoverflade grundigt med en 
+spritserviet. 
+Vask dine hænder grundigt med sæbe og 
+vand. Tør hænderne. 
+Trin 2 
+Tjek hætteglasset og væsken 
+Tag hætteglasset ud af æsken. Undersøg 
+væsken i hætteglasset omhyggeligt. 
+ASPAVELI er en klar, farveløs til svagt 
+gullig væske. Kontrollér for partikler eller 
+farveændringer (figur 2). 
+Brug ikke hætteglasset, hvis: </p>
+<ul>
+<li>
+<p>Væsken ser uklar ud, indeholder 
+partikler eller er mørkegul. </p>
+</li>
+<li>
+<p>Det beskyttende flip-låg mangler 
+eller er beskadiget. </p>
+</li>
+<li>
+<p>Udløbsdatoen (EXP) på etiketten er 
+overskredet. 
+Figur 2 </p>
+</li>
+</ul>
+<p>Trin 3 
+Klargør og fyld sprøjten 
+Tag det beskyttende flip-låg af hætteglasset, 
+så den midterste del af hætteglassets grå 
+gummiprop blotlægges (figur 3). Smid låget 
+væk. 
+Rengør proppen med en ny spritserviet, og 
+lad proppen tørre. </p>
+<p>Mulighed 1: Hvis der bruges en 
+overførselsenhed uden nål (f.eks. en 
+hætteglasadapter), skal anvisningerne fra 
+fremstilleren af enheden følges. </p>
+<p>ELLER </p>
+<p>Mulighed 2: Hvis overførslen foretages med 
+anvendelse af en overførselsnål og en sprøjte, 
+skal nedenstående anvisninger følges: 
+A. Sæt en steril overførselsnål på en 
+steril sprøjte. 
+B. Træk stemplet tilbage for at fylde 
+sprøjten med luft, hvilket vil være ca. 
+20 ml (figur 4). 
+C. Sørg for, at hætteglasset er i opret 
+stilling. Hætteglasset må IKKE 
+vendes nedad. Tryk den luftfyldte 
+sprøjte med påsat overførselsnål 
+gennem midten af proppen på 
+hætteglasset. 
+D. Spidsen af overførselsnålen må ikke 
+være i opløsningen for at undgå at 
+danne bobler. (figur 5). 
+E. Tryk forsigtigt luften fra sprøjten ind i 
+hætteglasset. Dette vil injicere luften 
+fra sprøjten ind i hætteglasset. 
+F. Vend hætteglasset om (figur 6). </p>
+<p>Figur 3 </p>
+<p>Figur 4 </p>
+<p>Figur 5 </p>
+<p>Figur 6 </p>
+<p>G. Træk langsomt i stemplet, mens 
+overførselsnålens spids er i 
+opløsningen, så sprøjten fyldes med al 
+væsken (figur 7). 
+H. Fjern den fyldte sprøjte og 
+overførselsnålen fra hætteglasset. 
+I. Sæt ikke låget tilbage på 
+overførselsnålen. Skru nålen af, og 
+kassér den i kanylebeholderen. 
+Figur 7 </p>
+<p>Trin 4 
+Klargør infusionspumpen med 
+sprøjtesystem og slangen 
+Få fat på infusionspumpeudstyret, og følg 
+anvisningerne fra fremstilleren af enheden 
+vedrørende klargøring af pumpen og slangen. </p>
+<p>Trin 5 
+Forbered infusionsstedet 
+(infusionsstederne) 
+A. Vælg et område på maven (bortset 
+fra området 5 cm omkring navlen), 
+lårene, hofterne eller overarmene til 
+infusionen (infusionerne) (figur 8). 
+B. Brug et andet sted end det sted, du 
+brugte til din sidste infusion. Hvis 
+der er flere infusionssteder, skal de 
+være mindst 7,5 cm fra hinanden. 
+Skift infusionssted mellem hver 
+infusion (figur 9). 
+C. Undgå følgende 
+infusionsområder: 
+a. Infundér ikke i områder, 
+hvor huden er øm, 
+skadet, rød eller hård. 
+b. Undgå tatoveringer, ar 
+eller strækmærker. </p>
+<p>Figur 8 </p>
+<p>Figur 9 </p>
+<p>Mindst 7,5 cm fra hinanden 
+Overarm 
+Mave 
+Hofte 
+Lår 
+Mindst 7,5 cm fra hinanden 
+Overarm 
+Mave 
+Hofte 
+Lår </p>
+<p>D. Rens huden ved hvert infusionssted 
+med en ny spritserviet, start ved 
+midten og arbejd udad med en 
+cirkulær bevægelse (figur 10). 
+E. Lad huden tørre. 
+Figur Trin 6 
+Indfør og fiksér infusionsnålen(e) </p>
+<p>A. Klem huden mellem tommel- og 
+pegefinger omkring infusionsstedet 
+(hvor du påtænker at sætte nålen). 
+Før nålen ind i huden (figur 11). 
+Følg anvisningerne i nålevinkel fra 
+fremstilleren af enheden. 
+B. Fastgør nålen (nålene) med steril 
+gaze og tape, eller en transparent 
+forbinding over infusionsstedet 
+(stederne) (figur 12). </p>
+<p>Figur<br />
+Figur Trin 7 
+Start infusionen 
+Følg anvisningerne for start af infusionen fra 
+fremstilleren af enheden. 
+Start infusionen straks efter, at opløsningen 
+er trukket ind i sprøjten. </p>
+<p>Trin 8 
+Færdiggør infusionen 
+Følg anvisningerne for færdiggørelsen af 
+infusionen fra fremstilleren af enheden. </p>
+<p>Trin 9 
+Registrér infusionen 
+Registrér din behandling som anvist af din 
+sundhedsperson. </p>
+<p>Trin<br />
+Oprydning 
+A. Fjern forbindingen, og tag langsomt 
+nålen (nålene) ud, når infusionen er 
+fuldført. Dæk infusionsstedet med 
+en ny forbinding. 
+B. Frakobl infusionssættet af pumpen, 
+og bortskaf det i kanylebeholderen 
+(figur 13). 
+C. Smid alt brugt engangsudstyr væk 
+samt eventuelt ubrugt produkt og 
+det tomme hætteglas, som anbefalet 
+af din sundhedsperson. 
+D. Rengør og opbevar 
+infusionspumpen med sprøjtesystem 
+ifølge anvisningerne fra 
+fremstilleren. </p>
+<p>Figur  </p>
+<p>Hvis du har glemt at bruge ASPAVELI 
+Hvis du glemmer en dosis, skal du tage den snarest muligt. Tag dernæst den næste dosis på det 
+sædvanlige planlagte tidspunkt. </p>
+<p>Hvis du holder op med at bruge ASPAVELI 
+PNH er en livslang tilstand, så det forventes, at du skal bruge dette lægemiddel i lang tid. Kontakt din 
+læge først, hvis du ønsker at stoppe med at bruge lægemidlet. Hvis du stopper med at tage lægemidlet 
+pludseligt, kan du risikere at forværre dine symptomer. </p>
+<p>Hvis din læge beslutter at stoppe din behandling med dette lægemiddel, skal du følge hans/hendes 
+anvisninger i, hvordan du stopper. Din læge vil holde dig under nøje observation i mindst 8 uger efter 
+stop af behandlingen for eventuelle tegn på ødelæggelse af røde blodlegemer (hæmolyse) pga. PNH. 
+Symptomer eller problemer, der kan opstå pga. ødelæggelse af røde blodlegemer omfatter:</p>
+<ul>
+<li>træthed </li>
+<li>stakåndethed </li>
+<li>blod i urinen </li>
+<li>smerter i maveområdet (abdomen) </li>
+<li>fald i antallet af røde blodlegemer </li>
+<li>blodpropdannelse (trombose) </li>
+<li>synkebesvær </li>
+<li>erektil dysfunktion hos mænd </li>
+</ul>
+<p>Kontakt din læge, hvis du har nogle af disse tegn og symptomer. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Lægen vil inden behandlingen tale med dig om de mulige bivirkninger og forklare risici og fordele ved 
+ASPAVELI. </p>
+<p>Den mest alvorlige bivirkning er alvorlig infektion. </p>
+<p>Fortæl det straks til din læge, hvis du oplever nogle af følgende symptomer (se punkt 2 
+”Infektionssymptomer”). </p>
+<p>Hvis du ikke helt forstår, hvad nedenstående bivirkninger er, kan du bede lægen forklare dem. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>Reaktioner på injektionsstedet: Disse omfatter rødme (erythem), hævelse, kløe (pruritus), blå 
+mærker og smerter. Disse reaktioner forsvinder sædvanligvis i løbet af et par dage. </li>
+<li>Infektion i næsen, halsen eller luftvejene (øvre luftvejsinfektion) </li>
+<li>Diarré </li>
+<li>Ødelæggelse af røde blodlegemer (hæmolyse) </li>
+<li>Mavesmerter (abdominalsmerter) </li>
+<li>Hovedpine </li>
+<li>Træthed </li>
+<li>Feber eller forhøjet temperatur (pyreksi) </li>
+<li>Hoste </li>
+<li>Urinvejsinfektion </li>
+<li>Komplikationer i forbindelse med de obligatoriske vaccinationer </li>
+<li>Smerter i arme og ben (smerter i ekstremiteter) </li>
+<li>Svimmelhed </li>
+<li>Ledsmerter (artralgi) </li>
+<li>Rygsmerter </li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer):</p>
+<ul>
+<li>Reaktion på injektionsstedet, f.eks. rødme, hævelse eller hærdning af huden </li>
+<li>Infektion i øret, næsen eller munden </li>
+<li>Halssmerter </li>
+<li>Færre blodplader (trombocytopeni), som lettere kan medføre blødning eller blå mærker end 
+normalt </li>
+<li>Kvalme (du føler dig utilpas) </li>
+<li>Nedsat kaliumniveau i blodet (hypokaliæmi) </li>
+<li>Næseblødning (epistaksis) </li>
+<li>Hudrødmen (erytem) </li>
+<li>Muskelsmerter (myalgi) </li>
+<li>Infektion i mave og tarme, som kan medføre symptomer på let til svær kvalme, opkastning, 
+kramper, diarré (gastrointestinal infektion) </li>
+<li>Forhøjede leverprøver </li>
+<li>Vejrtrækningsbesvær (dyspnø) </li>
+<li>Mindre antal hvide blodlegemer (neutropeni) </li>
+<li>Nedsat nyrefunktion </li>
+<li>Anderledes urinfarve </li>
+<li>Højt blodtryk </li>
+<li>Muskelkramper </li>
+<li>Tilstoppet næse </li>
+<li>Udslæt </li>
+<li>Infektion i blodet (sepsis) </li>
+<li>Virusinfektion </li>
+<li>Svampeinfektion </li>
+<li>Luftvejsinfektion </li>
+<li>Øjeninfektion </li>
+<li>COVID-- Bakterieinfektion </li>
+<li>Vaginal infektion </li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer):</p>
+<ul>
+<li>Livmoderhalsbetændelse </li>
+<li>Betændelse i lysken </li>
+<li>Næsebyld </li>
+<li>Lungebetændelse </li>
+<li>Tuberkulose </li>
+<li>Svampeinfektion i spiserøret </li>
+<li>Byld med pus ved endetarmen (analabsces) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store aspaveli"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store aspaveli"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevares utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter ”EXP”. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Opbevares i køleskab (2 °C – 8 °C). </p>
+</li>
+<li>
+<p>Opbevares i den originale æske for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må 
+du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ASPAVELI indeholder: 
+Aktivt stof: pegcetacoplan 1 080 mg (54 mg/ml i et 20 ml hætteglas). </p>
+<p>Øvrige hjælpestoffer: sorbitol (E 420) (se punkt 2 “ASPAVELI indeholder sorbitol”), vandfri 
+eddikesyre, natriumacetat trihydrat (se punkt 2 “ASPAVELI indeholder natrium”), natriumhydroxid 
+(se punkt 2 “ASPAVELI indeholder natrium”), og vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser 
+ASPAVELI er en klar, farveløs til svagt gullig subkutan infusionsvæske, opløsning (54 mg/ml i et 
+20 ml hætteglas). Opløsninger, der er uklare eller har partikler eller farveændring må ikke anvendes. </p>
+<p>Pakningsstørrelser 
+ASPAVELI leveres i en pakning med 1 hætteglas eller en multipakning med 1 × 8 hætteglas. </p>
+<p>Bemærk venligst, at spritservietter, nåle og andet tilbehør eller udstyr ikke medfølger i pakningen. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Swedish Orphan Biovitrum AB (publ) 
+SE-112 76 Stockholm 
+Sverige </p>
+<p>Fremstiller 
+Swedish Orphan Biovitrum AB (publ) 
+Strandbergsgatan 112 51 Stockholm 
+Sverige </p>
+<p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ. </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e4987c505b33cb8f74903d77ffd0fb1e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aspaveli Package Leaflet for language en"
+Description: "ePI document Bundle for aspaveli Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e4987c505b33cb8f74903d77ffd0fb1e"
+* entry[0].resource = composition-en-e4987c505b33cb8f74903d77ffd0fb1e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe4987c505b33cb8f74903d77ffd0fb1e"
+* entry[=].resource = mpe4987c505b33cb8f74903d77ffd0fb1e
+                            
+                    
+Instance: bundlepackageleaflet-da-e4987c505b33cb8f74903d77ffd0fb1e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aspaveli Package Leaflet for language da"
+Description: "ePI document Bundle for aspaveli Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e4987c505b33cb8f74903d77ffd0fb1e"
+* entry[0].resource = composition-da-e4987c505b33cb8f74903d77ffd0fb1e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe4987c505b33cb8f74903d77ffd0fb1e"
+* entry[=].resource = mpe4987c505b33cb8f74903d77ffd0fb1e
+                            
+                    
+
+
+
+Instance: mpe4987c505b33cb8f74903d77ffd0fb1e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ASPAVELI 1 080 mg solution for infusion"
-Description: "ASPAVELI 1 080 mg solution for infusion"
+Title: "Medicinal Product aspaveli"
+Description: "aspaveli"
 Usage: #inline
 
  
@@ -574,7 +1206,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ASPAVELI 1 080 mg solution for infusion"
+  * productName = "aspaveli"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -601,29 +1233,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e4987c505b33cb8f74903d77ffd0fb1e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for aspaveli Package Leaflet for language en"
-Description: "ePI document Bundle for aspaveli Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e4987c505b33cb8f74903d77ffd0fb1eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1595/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "aspaveli"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e4987c505b33cb8f74903d77ffd0fb1e"
-* entry[0].resource = composition-en-e4987c505b33cb8f74903d77ffd0fb1e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8865285b2ab15f3bfed8ed57b643b2c8"
-* entry[=].resource = mp8865285b2ab15f3bfed8ed57b643b2c8
-                            
-                      
+* title = "List of all ePIs associated with aspaveli"
+
+* subject = Reference(mp8865285b2ab15f3bfed8ed57b643b2c8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#aspaveli "aspaveli"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e4987c505b33cb8f74903d77ffd0fb1e) // aspaveli en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e4987c505b33cb8f74903d77ffd0fb1e) // aspaveli da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e4987c505b33cb8f74903d77ffd0fb1e
+InstanceOf: List
+
+* insert e4987c505b33cb8f74903d77ffd0fb1eListRuleset
+    

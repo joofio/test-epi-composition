@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a8470e7b18972c2dec141fc0fb92e8c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for duotrav Package Leaflet"
@@ -405,12 +408,520 @@ http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-da-a8470e7b18972c2dec141fc0fb92e8c0
+InstanceOf: CompositionUvEpi
+Title: "Composition for duotrav Package Leaflet"
+Description:  "Composition for duotrav Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbddd9a0116cda8b5281b88e01dae90ad)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbddd9a0116cda8b5281b88e01dae90ad
+* title = "TEST PURPOSES ONLY - duotrav"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge DuoTrav </li>
+<li>Sådan skal du bruge DuoTrav </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What duotrav is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What duotrav is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DuoTrav øjendråber, opløsning, er en kombination af to aktive stoffer (travoprost og timolol). 
+Travoprost er en prostaglandin-analog, som virker ved at øge væskeafløbet fra øjet, hvilket sænker 
+trykket i øjet. Timolol er en betablokker, som virker ved at nedsætte væskeproduktionen i øjet. De to 
+stoffer arbejder sammen om at sænke trykket i øjet. </p>
+<p>DuoTrav øjendråber bruges til at sænke forhøjet tryk i øjet hos voksne, inklusive ældre. Forhøjet tryk 
+kan føre til en sygdom kaldet glaukom (grøn stær). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take duotrav"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take duotrav"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke DuoTrav 
+ 
+hvis du er allergisk over for travoprost, prostaglandiner, timolol, betablokkere eller et af de 
+øvrige indholdsstoffer i dette lægemiddel (angivet i punkt 6). 
+ 
+hvis du har eller tidligere har haft åndedrætsproblemer såsom astma, alvorlig, kronisk, 
+obstruktiv bronkitis (alvorlig sygdom i lungerne, der kan give hvæsende vejrtrækning, 
+vejrtrækningsbesvær og/eller længerevarende hoste) eller andre former for 
+vejrtrækningsproblemer. 
+ 
+hvis du lider af alvorlig høfeber. 
+ 
+hvis du har en langsom puls, hjertesvigt eller forstyrrelser i hjerterytmen (uregelmæssig puls). 
+ 
+hvis overfladen i øjet er uklar. </p>
+<p>Spørg din læge, hvis noget af dette er aktuelt for dig. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger DuoTrav, hvis du har eller tidligere har haft 
+ 
+forkalkning af kranspulsåren (symptomer kan være brystsmerter eller trykken for brystet, 
+åndenød eller kvælningsfornemmelse), hjertesvigt, lavt blodtryk. 
+ 
+forstyrrelser i hjerterytmen, som fx langsom puls. 
+ 
+vejrtrækningsbesvær, astma eller kronisk obstruktiv lungesygdom (KOL). 
+ 
+dårlig blodcirkulation (som fx Raynauds sygdom eller Raynauds syndrom (hvide, "døde" fingre 
+og tæer)). 
+ 
+sukkersyge (diabetes) (da timolol kan skjule symptomer på lavt blodsukker). 
+ 
+overaktiv skjoldbruskkirtel (da timolol kan skjule symptomer på skjoldbruskkirtelsygdom). 
+ 
+myasthenia gravis (kronisk sygdom med abnorm muskeltræthed). 
+ 
+gennemgået en operation for grå stær. 
+ 
+betændelse i øjet. </p>
+<p>Hvis du skal opereres, skal du fortælle lægen, at du bruger DuoTrav, idet timolol kan ændre 
+virkningen af visse lægemidler, der bruges ved anæstesi (bedøvelse). </p>
+<p>Hvis du får alvorlige allergiske reaktioner (hududslæt, røde og kløende øjne), mens du bruger 
+DuoTrav, uanset årsagen, vil adrenalinbehandling måske ikke være helt så effektiv. Husk derfor at 
+fortælle din læge, at du får DuoTrav, hvis du skal til at have en anden behandling. </p>
+<p>DuoTrav kan ændre din irisfarve (den farvede del af dine øjne). Denne farveændring kan være 
+permanent. </p>
+<p>DuoTrav kan give længere eller tykkere øjenvipper, ændre farven og/eller antal hår i dine øjenvipper 
+samt medføre usædvanlig hårvækst på dine øjenlåg. </p>
+<p>Travoprost kan optages gennem huden og må derfor ikke bruges af gravide kvinder eller af kvinder, 
+som forsøger at blive gravide. Hvis noget af medicinen kommer i kontakt med huden, skal det vaskes 
+af med det samme. </p>
+<p>Børn og unge 
+DuoTrav må ikke bruges af børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med DuoTrav 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som ikke er købt 
+på recept. </p>
+<p>DuoTrav kan påvirke eller påvirkes af andre lægemidler, som du tager, herunder andre øjendråber til 
+behandling af glaukom (grøn stær). Fortæl din læge, hvis du bruger eller overvejer at bruge lægemidler 
+til sænkning af blodtrykket, hjertemedicin, herunder quinidin (der bruges til behandling af 
+hjertelidelser og visse typer malaria), lægemidler til behandling af sukkersyge (diabetes) eller midler 
+mod depression, der indeholder fluoxetin og paroxetin. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Brug ikke DuoTrav, hvis du er gravid, medmindre din læge vurderer, at det er nødvendigt. Hvis der er 
+risiko for, at du kan blive gravid, mens du bruger DuoTrav, skal du bruge sikker prævention. </p>
+<p>Brug ikke DuoTrav, hvis du ammer. DuoTrav kan gå over i mælken. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan opleve, at dit syn bliver midlertidigt sløret lige efter, at du har brugt DuoTrav. DuoTrav kan 
+også forårsage hallucinationer, svimmelhed, nervøsitet eller træthed hos nogle patienter. </p>
+<p>Du må ikke føre motorkøretøj eller arbejde med maskiner, før disse symptomer har fortaget sig. </p>
+<p>DuoTrav indeholder hydrogeneret ricinusolie og propylenglycol, som kan medføre hudreaktioner 
+og hudirritation. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take duotrav"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take duotrav"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er én dråbe i det/de pågældende øje/øjne, én gang dagligt - om morgenen eller 
+om aftenen. Brug øjendråberne på samme tidspunkt hver dag. </p>
+<p>Brug kun DuoTrav i begge øjne, hvis din læge har ordineret det. </p>
+<p>DuoTrav må kun bruges som øjendråber. </p>
+<p>1 
+2 
+3 
+4 </p>
+<p> 
+Umiddelbart før du bruger flasken første gang, skal du fjerne beskyttelsesfolien og tage flasken 
+ud (billede 1), samt skrive åbningsdatoen, hvor der er gjort plads til det på etiketten. 
+ 
+Sørg for at have et spejl tilgængeligt. 
+ 
+Vask dine hænder. 
+ 
+Skru hætten af flasken. 
+ 
+Hold flasken med bunden i vejret mellem din tommelfinger og de andre fingre. 
+ 
+Læn hovedet tilbage. Træk forsigtigt ned i det nederste øjenlåg, indtil der dannes en “lomme" 
+mellem det nedre øjenlåg og dit øje. Dråben skal placeres der (billede 2). 
+ 
+Hold spidsen af flasken tæt hen til øjet. Brug spejlet, hvis det gør det nemmere. 
+ 
+Undgå at berøre øjet eller øjenlåget, de omgivende områder eller andre overflader med spidsen 
+af flasken. Det kan forurene dråberne. 
+ 
+Tryk let på flasken for at frigøre en dråbe DuoTrav ad gangen (billede 3). Hvis dråben ikke 
+rammer øjet, så prøv igen. 
+ 
+Efter at have dryppet med DuoTrav, skal du trykke din finger mod øjenkrogen ind mod næsen i 
+2 minutter (billede 4). Det forhindrer, at DuoTrav kommer ud i resten af kroppen. 
+ 
+Hvis du skal dryppe begge øjne, så gentag processen i det andet øje. 
+ 
+Luk flasken omhyggeligt straks efter brug. 
+ 
+Brug kun én flaske ad gangen. Bryd ikke beskyttelsesfolien på en ny flaske, før du har brug for 
+det. </p>
+<p>Brug DuoTrav så længe, som din læge har ordineret det. </p>
+<p>Hvis du har brugt for meget DuoTrav 
+Hvis du har brugt for meget DuoTrav, så skyl det hele ud med varmt vand. Dryp ikke flere dråber i 
+øjnene, før det er tid til næste dosis. </p>
+<p>Hvis du har glemt at bruge DuoTrav 
+Hvis du har glemt at bruge DuoTrav, skal du tage næste dosis som planlagt. Du må ikke tage en 
+dobbeltdosis som erstatning for den glemte dosis. Dosis må ikke overskride en dråbe dagligt i det/de 
+pågældende øje/øjne. </p>
+<p>Hvis du holder op med at bruge DuoTrav 
+Hvis du holder op med at bruge DuoTrav uden at tale med din læge, vil trykket i øjet ikke blive holdt 
+nede, hvilket kan medføre tab af synet. </p>
+<p>Hvis du bruger andre øjenlægemidler ud over DuoTrav, så vent mindst 5 minutter mellem at du bruger 
+DuoTrav og de andre øjenlægemidler. </p>
+<p>Hvis du bruger bløde kontaktlinser, må du ikke bruge dråberne med kontaktlinser i øjnene. Vent 
+mindst 15 minutter, efter du har dryppet øjet/øjnene, før du sætter linserne i igen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Du kan oftest fortsætte med at bruge dine øjendråber, hvis bivirkningerne ikke er alvorlige. Spørg 
+lægen eller på apoteket, hvis der er noget, du er i tvivl om. Du må ikke holde op med at bruge 
+DuoTrav, uden at du har talt med din læge. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end l ud af 10 personer) 
+Reaktioner i øjet 
+Røde øjne </p>
+<p>Almindelige bivirkninger (kan forekomme hos 1 ud af 10 personer) 
+Reaktioner i øjet 
+Betændelse på øjet med overfladeskader, smerter i øjet, sløret syn, unormalt syn, tørre øjne, øjenkløe, 
+ubehag i øjet, tegn og symptomer på øjenirritation (f.eks. brænden, svien). </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos 1 ud af 100 personer) 
+Reaktioner i øjet 
+Betændelse på øjets overflade, betændelse på øjenlåget, hævet bindehinde (det hvide i øjet), øget 
+vækst af øjenvipper, betændelse i den farvede del af øjet (iris), betændelse i øjet, lysfølsomme øjne, 
+nedsat syn, trætte øjne, øjenallergi, hævelse af øjet, øget tåredannelse, røde øjenlåg, ændring af 
+øjenlågets farve, mørkere hud (rundt om øjet/øjnene). </p>
+<p>Generelle bivirkninger 
+Allergisk reaktion over for de aktive stoffer, svimmelhed, hovedpine, forhøjet eller lavt blodtryk, 
+åndenød, kraftig hårvækst, dryp bagtil i svælget, betændelse på huden og kløe, nedsat hjerterytme 
+(puls). </p>
+<p>Sjældne bivirkninger (kan forekomme hos 1 ud af 1.000 personer) 
+Reaktioner i øjet 
+Øjets overflade bliver tyndere, betændelse i øjenlågets kirtler, blodsprængninger i øjet, skorper på 
+øjenlåget, usædvanligt placerede øjenvipper og unormal vækst af øjenvipper. </p>
+<p>Generelle bivirkninger 
+Nervøsitet, uregelmæssige hjerteslag, hårtab, stemmelidelser, åndedrætsbesvær, hoste, halsirritation, 
+nældefeber, unormale blodprøver for leverfunktion, misfarvning af huden, tørst, træthed, ubehag inde i 
+næsen, farvet urin, smerter i hænder og fødder. </p>
+<p>Bivirkninger, hvor hyppigheden ikke er kendt (hyppigheden kan ikke vurderes ud fra 
+tilgængelige data) 
+Reaktioner i øjet 
+Hængende øjenlåg (halvlukket øje), indsunkne øjne (øjnene ser mere indsunkne ud), ændring i 
+irisfarve (den farvede del af øjet). </p>
+<p>Generelle bivirkninger 
+Udslæt, hjertesvigt, brystsmerter, slagtilfælde, besvimelse, depression, astma, hurtigere hjerterytme 
+(puls), følelsesløshed eller snurrende fornemmelse i huden, hjertebanken, hævede underben og 
+underarme, dårlig smag i munden. </p>
+<p>Yderligere information: 
+DuoTrav er en kombination af to aktive stoffer, travoprost og timolol. Ligesom andre lægemidler, der 
+anvendes i øjnene, absorberes travoprost og timolol (en betablokker) i blodet. Det kan forårsage 
+bivirkninger, som svarer til dem, der er set, når betablokkere indtages gennem munden og/eller 
+sprøjtes ind i en blodåre. Forekomsten af bivirkninger efter indgivelse i øjnene er lavere end efter 
+indgivelse gennem munden, eller når det indsprøjtes. </p>
+<p>Nedenstående bivirkninger dækker reaktioner, der er set med andre betablokkere brugt til behandling 
+af øjenlidelser, eller reaktioner set med travoprost alene: </p>
+<p>Reaktioner i øjet 
+Betændelse i øjenlåget, betændelse i hornhinden, løsning af årehinden (hinden med blodkar under 
+nethinden) efter filtrationskirurgi, hvilket kan give synsforstyrrelser, nedsat følsomhed i hornhinden, 
+hornhinde-erosion (skade på øjeæblets yderste lag), dobbeltsyn, sekret fra øjet, hævelse omkring øjet, 
+kløende øjenlåg, udadvendt øjenlåg med rødme, irritation og øget tåreflod, sløret syn (tegn på uklar 
+øjenlinse), hævelse af del af øjet (uvea), eksem på øjenlågene, lysringe om genstande, nedsat følelse i 
+øjet, pigmentdannelse indvendigt i øjet, udvidede pupiller, ændring i øjenvippernes farve, ændring af 
+øjenvippernes struktur, unormalt synsfelt. </p>
+<p>Generelle bivirkninger 
+Øre og labyrint: Svimmelhed med følelse af at være "rundtosset", ringen for ørene. </p>
+<p>Hjerte og kredsløb: Langsom puls, hjertebanken, ødem (væskeophobning), ændringer i rytmen eller 
+hastighed af pulsslag, hjertesvigt (hjertesygdom med åndenød og hævede fødder og ben på grund af 
+væskeophobning), en slags hjerterytmeforstyrrelse, hjerteanfald, lavt blodtryk, Raynauds fænomen 
+(hvide, "døde" fingre og tæer), kolde hænder og fødder, nedsat blodtilførsel til hjernen. </p>
+<p>Luftveje: Indsnævring af luftvejene i lungerne (især hos patienter med eksisterende sygdom), løbende 
+eller tilstoppet næse, nysen (på grund af allergi), vejrtrækningsbesvær, næseblod, tør næse. </p>
+<p>Nervesystemet og almene symptomer og reaktioner: Søvnløshed, mareridt, hukommelsestab, 
+hallucinationer, tab af energi og styrke, angst (følelsesmæssigt helt ude af balance). </p>
+<p>Mave-tarm-kanalen: Forandringer i smag, kvalme, fordøjelsesbesvær, diarré, mundtørhed, 
+mavesmerter, opkastning og forstoppelse. </p>
+<p>Allergi: Øgede allergiske symptomer, generelle allergiske reaktioner, inkl. hævelse under huden, der 
+kan forekomme på områder som fx ansigt og lemmer, og som kan blokere luftvejene og gøre det svært 
+at synke og trække vejret, lokalt og generelt udslæt, kløe, pludselige alvorlige livstruende allergiske 
+reaktioner. </p>
+<p>Hud: Hvidligt, sølvfarvet (psoriasis-agtigt) udslæt eller forværring af psoriasis, afskalning af huden, 
+unormal hårstruktur, betændelse i huden med kløende udslæt og rødme, ændring i hårfarve, tab af 
+øjenvipper, kløe, unormal hårvækst, rødme i huden. </p>
+<p>Muskler: Stigning i tegn og symptomer på myasthenia gravis (en muskelsygdom), unormal følelse af 
+prikken og stikken, muskelslaphed og -træthed, muskelsmerter, der ikke skyldes anstrengelse, 
+ledsmerter. </p>
+<p>Nyrer og urinveje: Smerte og besvær ved vandladning, ufrivillig vandladning. </p>
+<p>Forplantning: Seksuelle problemer, nedsat sexlyst (libido). </p>
+<p>Stofskifte: Lavt blodsukkerniveau, forhøjet prostatacancer-markør. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store duotrav"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store duotrav"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på flaskens etiket og æsken efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Flasken skal smides ud 4 uger efter åbning for at forhindre en risiko for øjeninfektion. Hver gang du 
+starter med at bruge en ny flaske, skal du skrive datoen for åbning, hvor der er gjort plads til det på 
+flaskens etiket og på æsken. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DuoTrav indeholder:</p>
+<ul>
+<li>Aktive stoffer: Travoprost og timolol. Hver ml opløsning indeholder 40 mikrogram travoprost 
+og 5 mg timolol (som timololmaleat). </li>
+<li>Øvrige indholdsstoffer: Polyquaternium-1, mannitol (E421), propylenglycol (E1520), 
+polyoxyleret, hydrogeneret ricinusolie (HCO-40), borsyre, natriumchlorid, natriumhydroxid 
+eller saltsyre (til at justere pH) og renset vand. 
+Små mængder natriumhydroxid eller saltsyre er tilsat for at holde surhedsgraden (pH-niveauet) 
+normal. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+DuoTrav er en væske (en klar, farveløs opløsning), som fås i en 2,5 ml plastflaske med skruelåg. 
+Hver flaske er pakket i en beskyttelsesfolie. </p>
+<p>Pakninger med 1, 3 eller 6 plastflasker. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>S.A. Alcon-Couvreur N.V. 
+Rijksweg B-2870 Puurs 
+Belgien </p>
+<p>Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spanien </p>
+<p>Siegfried El Masnou, S.A. 
+Camil Fabra El Masnou 
+08320 Barcelona 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 
+Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20<br />
+Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o.<br />
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc.<br />
+Tel: +386 1 300 75<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 </p>
+<p>Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a8470e7b18972c2dec141fc0fb92e8c0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for duotrav Package Leaflet for language en"
+Description: "ePI document Bundle for duotrav Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a8470e7b18972c2dec141fc0fb92e8c0"
+* entry[0].resource = composition-en-a8470e7b18972c2dec141fc0fb92e8c0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa8470e7b18972c2dec141fc0fb92e8c0"
+* entry[=].resource = mpa8470e7b18972c2dec141fc0fb92e8c0
+                            
+                    
+Instance: bundlepackageleaflet-da-a8470e7b18972c2dec141fc0fb92e8c0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for duotrav Package Leaflet for language da"
+Description: "ePI document Bundle for duotrav Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a8470e7b18972c2dec141fc0fb92e8c0"
+* entry[0].resource = composition-da-a8470e7b18972c2dec141fc0fb92e8c0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa8470e7b18972c2dec141fc0fb92e8c0"
+* entry[=].resource = mpa8470e7b18972c2dec141fc0fb92e8c0
+                            
+                    
+
+
+
+Instance: mpa8470e7b18972c2dec141fc0fb92e8c0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product DuoTrav 40 micrograms/mL + 5 mg/mL eye drops, solution"
-Description: "DuoTrav 40 micrograms/mL + 5 mg/mL eye drops, solution"
+Title: "Medicinal Product duotrav"
+Description: "duotrav"
 Usage: #inline
 
  
@@ -430,7 +941,7 @@ Usage: #inline
 
 
 * name
-  * productName = "DuoTrav 40 micrograms/mL + 5 mg/mL eye drops, solution"
+  * productName = "duotrav"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -457,29 +968,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a8470e7b18972c2dec141fc0fb92e8c0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for duotrav Package Leaflet for language en"
-Description: "ePI document Bundle for duotrav Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a8470e7b18972c2dec141fc0fb92e8c0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/06/338/001-6"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "duotrav"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a8470e7b18972c2dec141fc0fb92e8c0"
-* entry[0].resource = composition-en-a8470e7b18972c2dec141fc0fb92e8c0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbddd9a0116cda8b5281b88e01dae90ad"
-* entry[=].resource = mpbddd9a0116cda8b5281b88e01dae90ad
-                            
-                      
+* title = "List of all ePIs associated with duotrav"
+
+* subject = Reference(mpbddd9a0116cda8b5281b88e01dae90ad)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#duotrav "duotrav"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a8470e7b18972c2dec141fc0fb92e8c0) // duotrav en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a8470e7b18972c2dec141fc0fb92e8c0) // duotrav da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a8470e7b18972c2dec141fc0fb92e8c0
+InstanceOf: List
+
+* insert a8470e7b18972c2dec141fc0fb92e8c0ListRuleset
+    

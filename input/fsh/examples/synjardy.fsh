@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9f38251e073c17d25793bbd3bb27c758
 InstanceOf: CompositionUvEpi
 Title: "Composition for synjardy Package Leaflet"
@@ -521,12 +524,711 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-9f38251e073c17d25793bbd3bb27c758
+InstanceOf: CompositionUvEpi
+Title: "Composition for synjardy Package Leaflet"
+Description:  "Composition for synjardy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp128938ebaebafac2dfeb365e61eb5970)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp128938ebaebafac2dfeb365e61eb5970
+* title = "TEST PURPOSES ONLY - synjardy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Synjardy
+3. Sådan skal du tage Synjardy
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What synjardy is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What synjardy is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
+Synjardy indeholder de to aktive stoffer empagliflozin og metformin. Hvert stof tilhører en gruppe 
+lægemidler kaldet “orale antidiabetika". Disse lægemidler tages gennem munden for at behandle 
+type 2-sukkersyge.
+Hvad er type 2-sukkersyge?
+Type 2-sukkersyge er en sygdom, der skyldes både gener og livsstil. Hvis du har type 2-sukkersyge, 
+danner din bugspytkirtel ikke insulin nok til at kontrollere dit blodsukker, og din krop kan ikke udnytte 
+sin egen insulin godt nok. Det medfører, at blodsukkeret bliver for højt, og det kan give problemer 
+med helbredet, som f.eks. hjertesygdom, nyresygdom, blindhed og dårligt blodomløb i arme og ben.
+Hvordan virker Synjardy?
+Empagliflozin tilhører en gruppe lægdemidler kaldet natriumglukose co-transportør 2- (SGLT2) 
+hæmmere. Det virker ved at blokere SGLT2-proteinet i dine nyrer. Dette medfører, at blodsukker 
+(glukose) fjernes fra urinen. Metformin sænker blodsukkeret på en anden måde, hovedsagelig ved at 
+hæmme produktionen af glukose i leveren. 
+Derved sænker Synjardy sukkermængden i blodet. Dette lægemiddel kan også hjælpe med at forhindre 
+hjertesygdom. 
+Anvendelse
+
+I behandlingen af voksne patienter med type 2-sukkersyge (18 år og derover) lægges Synjardy 
+til kost- og motionsplan, når sukkersygen ikke kan kontrolleres med metformin alene eller 
+metformin i kombination med andre lægemidler mod sukkersyge.
+
+Synjardy kan også bruges sammen med andre lægemidler mod diabetes – både lægemidler, der 
+tages gennem munden, og lægemidler, der gives som indsprøjtning, herunder insulin.
+70
+
+Synjardy kan endvidere bruges i stedet for at tage både empagliflozin og metformin som 
+særskilte tabletter. Hvis du bruger Synjardy, skal du stoppe med at tage de særskilte tabletter, 
+med empagliflozin og metformin, for at undgå en overdosis.
+Det er vigtigt, at du fortsætter med den kost- og motionsplan, som din læge, apotekspersonalet eller 
+sygeplejersken har anvist.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take synjardy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take synjardy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Synjardy
+
+hvis du er allergisk over for empagliflozin, metformin eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6)
+
+hvis du har sukkersyge (diabetes), der ikke er under kontrol, f.eks. med meget højt blodsukker 
+(alvorlig hyperglykæmi), kvalme, opkastning, diarré, hurtigt vægttab, laktatacidose (se "Risiko 
+for laktatacidose" nedenfor) eller ketoacidose. Ketoacidose er en tilstand, hvor såkaldte 
+ketonstoffer ophobes i blodet, hvilket kan medføre diabetisk koma. Symptomerne omfatter 
+mavesmerter, hurtig og dyb vejrtrækning og søvnighed, og din ånde kan få en usædvanlig 
+frugtagtig lugt.
+
+hvis du har været bevidstløs på grund af din sukkersyge
+
+hvis du har alvorlige nyreproblemer. Din læge kan begrænse din daglige dosis eller bede dig om 
+at tage et andet lægemiddel (se også afsnit 3 "Sådan skal du tage Synjardy".
+
+hvis du har en svær infektion som f.eks. en infektion, der påvirker dine lunger, bronkier eller 
+nyrer. Alvorlige infektioner kan medføre nyreproblemer, hvorved du risikerer at få laktatacidose 
+(se 'Advarsler og forsigtighedsregler')
+
+hvis du har mistet en masse vand fra kroppen (dehydrering), f.eks. på grund af langvarig eller 
+svær diarré eller hvis du har kastet op flere gange efter hinanden. Dehydrering kan medføre 
+nyreproblemer, hvorved du risikerer at få laktatacidose (se 'Advarsler og forsigtighedsregler')
+
+hvis du er behandlet for akut hjertesvigt eller for nylig har haft et hjerteanfald, har alvorlige 
+kredsløbsproblemer (f.eks. shock) eller vejrtrækningsbesvær. Det kan betyde, at du ikke får nok 
+ilt ud i vævene, hvorved du risikerer at få laktatacidose (se 'Advarsler og forsigtighedsregler')
+
+hvis du har problemer med leveren
+
+hvis du drikker store mængder alkohol, enten hver dag eller kun fra tid til anden (se 'Synjardy 
+sammen med alkohol')
+Advarsler og forsigtighedsregler
+Risiko for laktatacidose
+Synjardy kan forårsage en meget sjælden, men meget alvorlig bivirkning, der kaldes laktatacidose 
+(mælkesyreforgiftning), især hvis du har nedsat nyrefunktion. Der er også øget risiko for at udvikle 
+laktatacidose ved ukontrolleret diabetes, alvorlige infektioner, langvarig faste eller alkoholindtagelse, 
+dehydrering (væskemangel – se yderligere oplysninger nedenfor), leverproblemer og enhver tilstand 
+med nedsat iltforsyning til en legemsdel (såsom akut alvorlig hjertesygdom).
+Kontakt lægen for at få yderligere vejledning, hvis noget af ovennævnte gælder for dig.
+Stop med at tage Synjardy i en kort periode, hvis du har en tilstand, som kan være forbundet 
+med dehydrering (betydeligt tab af kropsvæsker), såsom alvorlig opkastning, diarré, feber, udsættelse 
+for varme eller indtagelse af mindre væske end normalt. Kontakt lægen for at få yderligere rådgivning.
+Stop med at tage Synjardy og kontakt omgående læge eller nærmeste hospital, hvis du får et 
+eller flere af nedenstående symptomer på laktatacidose, da denne tilstand kan føre til koma. 
+Symptomerne på laktatacidose omfatter:
+
+opkastning
+
+mavesmerter
+
+muskelkramper
+71
+
+almen utilpashed med udpræget træthed
+
+vejrtrækningsbesvær
+
+nedsat kropstemperatur og langsommere puls 
+Laktatacidose er en alvorlig tilstand, der skal behandles på et hospital.
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager dette lægemiddel og under 
+behandlingen,
+
+hvis du oplever hurtigt vægttab, kvalme eller opkastning, mavesmerter, udtalt tørst, hurtig og 
+dyb vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, din ånde lugter sødligt, en sød 
+eller metallisk smag i munden eller en unormal lugt fra din urin eller sved, skal du straks 
+kontakte en læge eller det nærmeste hospital. Disse symptomer kan være tegn på diabetisk 
+ketoacidose – en sjælden, men alvorlig og somme tider livstruende komplikation, du kan få ved 
+diabetes som følge af forhøjet niveau af ketonstoffer i urinen eller blodet, målt ved 
+laboratorieanalyser. Risikoen for at udvikle diabetisk ketoacidose kan være øget ved 
+længerevarende faste, stort alkoholforbrug, dehydrering, pludselig nedsættelse af insulindosis 
+eller et større behov for insulin på grund af et større kirurgisk indgreb eller alvorlig sygdom.
+
+hvis du har “type 1-sukkersyge" – denne type starter som regel hos unge og her laver kroppen 
+slet ikke noget insulin. Du må ikke tage Synjardy, hvis du har type 1-sukkersyge.
+
+hvis du kan have risiko for dehydrering, for eksempel:<em> hvis du er syg, har diarré eller feber, eller hvis du ikke kan spise eller drikke</em> hvis du tager lægemidler, der øger urinproduktionen (diuretika) eller sænker blodtrykket* hvis du er 75 år eller ældre
+Se afsnit 4 under “Dehydrering". Din læge beder dig måske stoppe med at tage Synjardy, indtil 
+du er blevet rask, for at forhindre tab af for megen kropsvæske. Spørg lægen om, hvordan du 
+kan forhindre dehydrering.
+
+hvis du har en alvorlig infektion i nyrerne eller urinvejene med feber. Din læge beder dig måske 
+stoppe med at tage Synjardy, indtil du er blevet rask
+
+hvis du skal have en undersøgelse med iodholdige kontrastmidler (f.eks. røntgen eller scanning). 
+Der står flere oplysninger herunder i afsnittet “Brug af anden medicin sammen med Synjardy".
+Kontakt øjeblikkeligt lægen, hvis du oplever en kombination af smerter, ømhed, rødme eller hævelse 
+af kønsdelene eller i området mellem kønsdelene og anus med feber eller generel utilpashed. Disse 
+symptomer kan være et tegn på en sjælden, men alvorlig og muligvis livstruende infektion (såkaldt 
+nekrotiserende fasciitis i mellemkødet eller Fourniers gangræn), der ødelægger vævet under huden. 
+Fourniers gangræn skal behandles øjeblikkeligt.
+Kirurgi
+Hvis du skal have en større operation, skal du stoppe med at tage Synjardy under indgrebet og i nogen
+tid herefter. Lægen vil beslutte, hvornår du skal stoppe behandlingen med Synjardy, og hvornår du kan 
+genoptage den igen.
+Nyrefunktion
+Under behandlingen med Synjardy vil lægen kontrollere din nyrefunktion mindst en gang om året eller 
+hyppigere, hvis du er ældre, og/eller hvis din nyrefunktion bliver dårligere.
+Fodpleje
+Som det gælder for alle diabetespatienter, er det vigtigt, at du kontrollerer dine fødder regelmæssigt og 
+følger alle råd vedrørende fodpleje, som du får af sundhedspersonalet.
+Uringlukose
+En test for sukker i urinen vil være positiv, mens du tager dette lægemiddel. Det skyldes den måde, 
+som Synjardy virker på.
+Børn og unge
+Synjardy anbefales ikke til børn og unge under 18 år, da det ikke er undersøgt hos disse patienter.
+72
+Brug af andre lægemidler sammen med Synjardy
+Hvis du skal have sprøjtet et kontrastmiddel, som indeholder jod, ind i dit blod, for eksempel i 
+forbindelse med en røntgenundersøgelse eller scanning, skal du stoppe med at tage Synjardy forud for 
+eller på tidspunktet for injektionen. Lægen vil beslutte, hvornår du skal stoppe behandlingen med 
+Synjardy, og hvornår du kan genoptage den igen.
+Fortæl det altid til lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. Du skal eventuelt have kontrolleret dit blodsukker eller din 
+nyrefunktion hyppigere, eller lægen kan ændre din dosis af Synjardy. Det er især vigtigt, at du nævner 
+følgende:
+
+vanddrivende lægemidler (diuretika), da Synjardy kan øge risikoen for tab af kropsvæske. Din 
+læge beder dig måske stoppe med at tage Synjardy. Mulige tegn på for stort væsketab fra 
+kroppen er anført i afsnit 4
+
+andre lægemidler der sænker blodsukkeret, som f.eks. insulin eller et “sulfonylurinstof". Din 
+læge vil måske sænke din dosis af disse lægemidler for at forhindre, at dit blodsukker bliver for 
+lavt (hypoglykæmi)
+
+lægemidler, der kan ændre mængden af metformin i dit blod, især hvis du har nedsat 
+nyrefunktion (f.eks. verapamil, rifampicin, cimetidin, dolutegravir, ranolazin, trimethoprim, 
+vandetanib, isavuconazol, crizotinib, olaparib)
+
+lægemidler der udvider luftvejene i lungerne, og som bruges til behandling af astma
+
+binyrebarkhormoner (givet gennem munden, som en indsprøjtning eller til indånding), der 
+bruges til behandling af betændelses-reaktioner ved sygdomme som f.eks. astma og gigt
+
+lægemidler mod smerter og betændelseslignende tilstande (NSAID’er og COX-2-hæmmere, 
+såsom ibuprofen og celecoxib)
+
+visse lægemidler, der nedsætter blodtrykket (ACE-hæmmere og angiotensin II-
+receptorantagonister)
+
+lægemidler der indeholder alkohol (se 'Brug af Synjardy sammen med alkohol')
+
+kontraststoffer, der indeholder jod (lægemidler, der bruges ved en røntgenundersøgelse, se 
+'Advarsler og forsigtighedsregler')
+
+hvis du tager lithium, fordi Synjardy kan sænke niveauet af lithium i dit blod.
+Brug af Synjardy sammen med alkohol
+Du skal undgå at indtage store mængder alkohol, mens du er i behandling med Synjardy, da det kan 
+øge risikoen for laktatacidose (se afsnittet "Advarsler og forsigtighedsregler").
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. 
+Tag ikke Synjardy, hvis du er gravid. Det er ukendt om dette lægemiddel er skadeligt for det ufødte 
+barn.
+Metformin udskilles i små mængder i modermælken hos mennesker. Det er ukendt om empagliflozin 
+udskilles i modermælken hos mennesker. Tag ikke Synjardy, hvis du ammer.
+Trafik- og arbejdssikkerhed
+Synjardy påvirker i mindre grad evnen til at køre selv og betjene maskiner. 
+Hvis du tager Synjardy i kombination med lægemidler, der kaldes for sulfonylurinstoffer, eller med 
+insulin, kan dit blodsukker blive for lavt (hypoglykæmi). Det kan give symptomer som rysten, 
+svedtendens og synsforstyrrelser, og det kan påvirke din evne til at køre selv og betjene maskiner. Lad 
+være med at køre selv eller bruge værktøj eller betjene maskiner, hvis du føler dig svimmel.
+73</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take synjardy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take synjardy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Hvor meget skal du tage
+Den mængde, du skal tage af Synjardy, afhænger af din tilstand og de doser, som du aktuelt tager af 
+diabetesmedicin. Lægen fortæller dig, hvilken styrke af Synjardy du skal tage.
+Den anbefalede dosis er én tablet to gange daglig. Startdosis af Synjardy vil supplere den dosis 
+metformin, du allerede tager (850 mg eller 1.000 mg to gange daglig), og laveste dosis empagliflozin 
+(5 mg to gange daglig). Hvis du allerede tager begge lægemidler, vil din læge starte behandlingen med 
+Synjardy-tabletter, der svarer til de særskilte tabletter. Hvis du har nedsat nyrefunktion, vil lægen 
+eventuelt ordinere en lavere dosis eller beslutte du skal bruge et andet lægemiddel.
+Sådan skal du tage medicinen
+
+Synk tabletterne hele sammen med vand.
+
+Tag tabletterne i forbindelse med måltider for at nedsætte risikoen for bivirkninger fra maven.
+
+Tag Synjardy to gange daglig sammen med morgenmaden og aftensmaden.
+Din læge kan ordinere Synjardy sammen med anden medicin mod sukkersyge. For at få den bedste 
+virkning skal alle lægemidler tages, som foreskrevet af lægen. Lægen afgør, om din dosis skal øges for 
+at få kontrol over dit blodsukker.
+Hensigtsmæssig diæt og motion hjælper din krop med at udnytte blodsukkeret bedre. Det er vigtigt, at 
+du stadig følger det kost- og motionsprogram, som din læge har anbefalet.
+Hvis du har taget for meget Synjardy
+Hvis du har taget for mange Synjardy tabletter, kan du få laktatacidose. Symptomer på laktatacidose er 
+uspecifikke, f.eks. kvalme eller opkastning, mavesmerter med muskelkramper, generel utilpashed med 
+voldsom træthed samt vejrtrækningsbesvær. Andre symptomer er nedsat kropstemperatur og 
+langsommere puls. Hvis du får nogen af disse symptomer, kan du have brug for omgående 
+behandling på et hospital, da laktatacidose kan føre til koma. Du skal omgående stoppe med at 
+tage Synjardy og straks kontakte en læge eller tage til det nærmeste hospital (se afsnit 2). Tag 
+medicinpakningen med.
+Hvis du har glemt at tage Synjardy
+Du skal tage den glemte dosis, så snart du kommer i tanke om det. Du skal dog springe den glemte 
+dosis over, hvis det er lige ved at være tid for den næste dosis. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis.
+Hvis du holder op med at tage Synjardy
+Du må ikke holde op med at tage Synjardy, før du har talt med din læge. Dit blodsukker kan stige, hvis 
+du ikke tager din medicin.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+74
+Kontakt straks læge eller nærmeste hospital, hvis du får en eller flere af følgende bivirkninger:
+Alvorlig allergisk reaktion set med ikke almindelig hyppighed (kan forekomme hos op til 1 ud af 
+100 brugere)
+Mulige tegn på en alvorlig allergisk reaktion kan omfatte:
+
+hævelse af ansigt, læber, mund, tunge eller hals, der kan føre til åndedrætsbesvær eller besvær 
+ved synkning
+Laktatacidose, ses meget sjældent (kan forekomme hos op til 1 ud af 10.000 patienter)
+Synjardy kan forårsage en meget sjælden, men meget alvorlig bivirkning, der kaldes laktatacidose (se 
+afsnit 2). Hvis dette sker for dig, skal du omgående stoppe med at tage Synjardy, og kontakte en 
+læge eller nærmeste hospital, da laktatacidose kan føre til koma.
+Diabetisk ketoacidose, ses sjældent (kan forekomme hos op til 1 ud af 1.000 patienter)
+Følgende symptomer er tegn på diabetisk ketoacidose (se afsnit 2):
+
+forhøjet niveau af ketonstoffer i urinen eller blodet
+
+hurtigt vægttab
+
+kvalme eller opkastning
+
+mavesmerter
+
+udtalt tørst
+
+hurtig og dyb vejrtrækning
+
+forvirring
+
+usædvanlig søvnighed eller træthed
+
+din ånde lugter sødligt, en sød eller metallisk smag i munden eller en unormal lugt fra din urin 
+eller sved.
+Disse symptomer kan forekomme uanset blodsukkerniveau. Lægen kan beslutte at standse din 
+behandling med Synjardy midlertidigt eller permanent.
+Kontakt lægen så hurtigt som muligt, hvis du bemærker følgende bivirkninger:
+Lavt blodsukker (hypoglykæmi) - en meget almindelig bivirkning (kan forekomme hos flere end 
+1 ud af 10 brugere)
+Du kan få lavt blodsukker, hvis du tager Synjardy sammen med andre lægemidler, der sænker 
+blodsukkeret, f.eks. et sulfonylurinstof eller insulin. Følgende er tegn på for lavt blodsukker:
+
+rysten, svedtendens, udtalt angst eller forvirring og hurtig puls
+
+meget kraftig sult, hovedpine
+Din læge fortæller dig, hvordan du skal behandle et lavt blodsukker, og hvad du skal gøre, hvis du 
+bemærker nogle af ovenstående tegn. Hvis du får symptomer på lavt blodsukker, skal du spise 
+druesukker eller et sukkerrigt mellemmåltid eller drikke frugtjuice. Mål dit blodsukker, hvis det er 
+muligt, og hvil dig.
+Urinvejsinfektion - en almindelig bivirkning (kan forekomme hos op til 1 ud af 10 brugere)
+Følgende er tegn på urinvejsinfektion:
+
+en sviende fornemmelse ved vandladning
+
+urinen ser uklar ud
+
+smerter i bækkenet eller i siden (hvis nyrerne er påvirkede)
+Stærk vandladningstrang eller hyppigere vandladning kan skyldes den måde, som Synjardy virker på, 
+men det kan også være tegn på urinvejsinfektion. Hvis du mærker tiltagende symptomer af denne 
+slags, skal du også kontakte lægen.
+75
+Dehydrering - en ikke almindelig bivirkning (kan forekomme hos op til 1 ud af 100 brugere)
+Der er ikke nogen helt typiske tegn på dehydrering, men der kan være tale om:
+
+en usædvanlig tørst
+
+uklarhed eller svimmelhed når du rejser dig op
+
+besvimelse eller bevidsthedstab
+Andre bivirkninger omfatter:
+Meget almindelige
+
+utilpashed (kvalme), opkastning
+
+diarré eller mavesmerter
+
+manglende appetit
+Almindelige
+
+svampeinfektion i kønsorganerne
+
+større mængder urin end sædvanligt eller hyppigere vandladningstrang
+
+kløe
+
+udslæt eller rød hud, som muligvis klør og omfatter knopper, sivende væske eller blærer
+
+ændret smagsfornemmelse
+
+tørst
+
+blodprøver kan vise en stigning i blodets indhold af fedt (kolesterol)
+
+forstoppelse
+
+nedsat eller lavt niveau af B12-vitamin i blodet (symptomerne kan omfatte ekstrem træthed 
+(udmattelse), en øm og rød tunge (glossitis), en stikkende og prikkende fornemmelse (paræstesi) 
+eller bleg eller gul hud). Lægen vil eventuelt sørge for, at der tages prøver for at undersøge 
+årsagen til dine symptomer, da nogle af dem også kan skyldes diabetes eller helt andre 
+helbredsproblemer.
+Ikke almindelige
+
+nældefeber
+
+besvær med eller smerte ved tømning af blæren
+
+blodprøver kan vise nedsættelse af nyrefunktion (kreatinin eller urinstof)
+
+blodprøver kan vise et forhøjet antal røde blodlegemer (hæmatokrit)
+Sjældne
+
+nekrotiserende fasciitis i mellemkødet (Fourniers gangræn), en alvorlig bløddelsinfektion i 
+kønsdelene eller området mellem kønsdelene og anus
+Meget sjældne
+
+unormal leverfunktion, leverbetændelse (hepatitis)
+
+rødme af huden (erytem)
+
+betændelse i nyrerne (tubulointerstitiel nefritis)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store synjardy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store synjardy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Synjardy utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+76
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på, at nogen har 
+forsøgt at åbne den. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Synjardy indeholder:
+Aktive stoffer: empagliflozin og metformin. 
+Hver Synjardy 5 mg/850 mg filmovertrukket tablet (tablet) indeholder 5 mg empagliflozin og 850 mg 
+metforminhydrochlorid.
+Hver Synjardy 5 mg/1.000 mg filmovertrukket tablet (tablet) indeholder 5 mg empagliflozin og 
+1.000 mg metforminhydrochlorid.
+Hver Synjardy 12,5 mg/850 mg filmovertrukket tablet (tablet) indeholder 12,5 mg empagliflozin og 
+850 mg metforminhydrochlorid.
+Hver Synjardy 12,5 mg/1.000 mg filmovertrukket tablet (tablet) indeholder 12,5 mg empagliflozin og 
+1.000 mg metforminhydrochlorid.
+Øvrige indholdsstoffer: 
+
+Tabletkerne: majsstivelse, copovidon, kolloid vandfri silica, magnesiumstearat.
+
+Filmovertræk: hypromellose, macrogol 400, titandioxid (E171), talcum.
+Synjardy 5 mg/850 mg og Synjardy 5 mg/1.000 mg tabletter indeholder også gul jernoxid 
+(E172). Synjardy 12,5 mg/850 mg og Synjardy 12,5 mg/1.000 mg tabletter indeholder også sort 
+jernoxid (E172) og rød jernoxid (E172).
+Udseende og pakningsstørrelser
+Synjardy 5 mg/850 mg filmovertrukne tabletter er hvid-gule, ovale og bikonvekse på 19,2 mm x 9,4 
+mm, præget med “S5" og firmalogo på den ene side og “850" på den anden side.
+Synjardy 5 mg/1.000 mg filmovertrukne tabletter er brun-gule, ovale og bikonvekse på 21,1 mm x 9,7 
+mm, præget med “S5" og firmalogo på den ene side og “1000" på den anden side.
+Synjardy 12,5 mg/850 mg filmovertrukne tabletter er pink-hvide, ovale og bikonvekse på 19,2 mm x 
+9,4 mm, præget med “S12" og firmalogo på den ene side og “850" på den anden side.
+Synjardy 12,5 mg/1.000 mg filmovertrukne tabletter er mørke og brun-violette, ovale og bikonvekse 
+på 21,1 mm x 9,7 mm, præget med “S12" og firmalogo på den ene side og “1000" på den anden side.
+Tabletterne er pakket i perforerede enkeltdosisblistere af PVC/PVDC /aluminium. Pakningsstørrelser 
+er på 10 x 1, 14 x 1, 30 x 1, 56 x 1, 60 x 1, 90 x 1 og 100 x 1 filmovertrukne tabletter og 
+multipakninger med 120 (2 pakker à 60 x 1), 180 (2 pakker à 90 x 1) og 200 (2 pakker à 100 x 1) 
+filmovertrukne tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land.
+Indehaver af markedsføringstilladelsen
+Boehringer Ingelheim International GmbH
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+77
+Fremstiller
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Boehringer Ingelheim Hellas Single Member S.A.
+5th km Paiania – Markopoulo
+Koropi Attiki, 19441
+Grækenland
+Patheon France
+40 boulevard de Champaret
+Bourgoin Jallieu, 38300
+Frankrig
+Boehringer Ingelheim France
+100-104 Avenue de France
+75013 Paris
+Frankrig
+78
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel.: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Magyarországi Fióktelepe
+Tel.: +36 1 299 89 00
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf.: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Lilly Deutschland GmbH
+Tel. +49 (0) 6172 273 2222
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España S.A.
+Tel: +34 93 404 51 00
+Lilly S.A.
+Tel: +34 91 663 50 00
+Polska
+Boehringer Ingelheim Sp.zo.o.
+Tel.: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Lilly France SAS
+Tél: +33 1 55 49 34 34
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Lilly Portugal Produtos Farmacêuticos, Lda
+Tel: +351 21 412 66 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 28 00
+79
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Eli Lilly and Company (Ireland) Limited
+Tel: +353 1 661 4377
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+organizačná zložka
+Tel: +421 2 5810 1211
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Eli Lilly Italia S.p.A.
+Tel: +39 055 42571
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Eli Lilly and Company (Ireland) Limited
+Tel: +353 1 661 4377
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside
+http://www.laegemiddelstyrelsen.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9f38251e073c17d25793bbd3bb27c758
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for synjardy Package Leaflet for language en"
+Description: "ePI document Bundle for synjardy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9f38251e073c17d25793bbd3bb27c758"
+* entry[0].resource = composition-en-9f38251e073c17d25793bbd3bb27c758
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9f38251e073c17d25793bbd3bb27c758"
+* entry[=].resource = mp9f38251e073c17d25793bbd3bb27c758
+                            
+                    
+Instance: bundlepackageleaflet-da-9f38251e073c17d25793bbd3bb27c758
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for synjardy Package Leaflet for language da"
+Description: "ePI document Bundle for synjardy Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9f38251e073c17d25793bbd3bb27c758"
+* entry[0].resource = composition-da-9f38251e073c17d25793bbd3bb27c758
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9f38251e073c17d25793bbd3bb27c758"
+* entry[=].resource = mp9f38251e073c17d25793bbd3bb27c758
+                            
+                    
+
+
+
+Instance: mp9f38251e073c17d25793bbd3bb27c758
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Synjardy 5 mg/850 mg film-coated tablets"
-Description: "Synjardy 5 mg/850 mg film-coated tablets"
+Title: "Medicinal Product synjardy"
+Description: "synjardy"
 Usage: #inline
 
  
@@ -546,7 +1248,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Synjardy 5 mg/850 mg film-coated tablets"
+  * productName = "synjardy"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -573,29 +1275,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9f38251e073c17d25793bbd3bb27c758
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for synjardy Package Leaflet for language en"
-Description: "ePI document Bundle for synjardy Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9f38251e073c17d25793bbd3bb27c758ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Synjardy 5 mg/850 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "synjardy"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9f38251e073c17d25793bbd3bb27c758"
-* entry[0].resource = composition-en-9f38251e073c17d25793bbd3bb27c758
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp128938ebaebafac2dfeb365e61eb5970"
-* entry[=].resource = mp128938ebaebafac2dfeb365e61eb5970
-                            
-                      
+* title = "List of all ePIs associated with synjardy"
+
+* subject = Reference(mp128938ebaebafac2dfeb365e61eb5970)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#synjardy "synjardy"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9f38251e073c17d25793bbd3bb27c758) // synjardy en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9f38251e073c17d25793bbd3bb27c758) // synjardy da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9f38251e073c17d25793bbd3bb27c758
+InstanceOf: List
+
+* insert 9f38251e073c17d25793bbd3bb27c758ListRuleset
+    

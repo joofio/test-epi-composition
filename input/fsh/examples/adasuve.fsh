@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a65021751afedc04d4560394d8a23778
 InstanceOf: CompositionUvEpi
 Title: "Composition for adasuve Package Leaflet"
@@ -313,12 +316,528 @@ Tel +370 672 12This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-a65021751afedc04d4560394d8a23778
+InstanceOf: CompositionUvEpi
+Title: "Composition for adasuve Package Leaflet"
+Description:  "Composition for adasuve Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5d88828fe954118e0cda9c63be482628)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5d88828fe954118e0cda9c63be482628
+* title = "TEST PURPOSES ONLY - adasuve"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge ADASUVE </li>
+<li>Sådan skal du bruge ADASUVE </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What adasuve is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What adasuve is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ADASUVE indeholder det aktive stof loxapin, som er et antipsykotisk lægemiddel. ADASUVE virker 
+ved at blokere visse kemiske stoffer i hjernen (neurotransmittere) såsom dopamin og serotonin. 
+Derved virker det beroligende og dæmper aggressiv adfærd.  </p>
+<p>ADASUVE anvendes til at behandle akutte symptomer på let til moderat rastløs uro (agitation) hos 
+voksne patienter med skizofreni eller bipolar (maniodepressiv) sygdom. Disse sygdomme er 
+karakteriseret ved symptomer såsom:  </p>
+<ul>
+<li>
+<p>(skizofreni) tilbøjelighed til at høre, se eller føle ting, der ikke er der, mistænksomhed, 
+vrangforestillinger, usammenhængende tale og springende adfærd samt følelsesmæssig træghed. 
+Sygdommen kan desuden bevirke, at man føler sig nedtrykt, skyldig, bekymret eller anspændt.  </p>
+</li>
+<li>
+<p>(bipolar sygdom) følelse af at være “høj”, meget energisk, med mindre søvnbehov end normalt, 
+taler meget hurtigt med hurtige indskydelser og undertiden stærk irritabilitet. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take adasuve"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take adasuve"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke ADASUVE </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for det aktive stof eller amoxapin </p>
+</li>
+<li>
+<p>hvis du har hvæsende vejrtrækning eller er stakåndet </p>
+</li>
+<li>
+<p>hvis du har problemer med lungerne såsom astma eller kronisk obstruktiv lungesygdom (KOL)  </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Før du får ADASUVE, vil lægen eller sygeplejersken tale med dig og afgøre, om ADASUVE er 
+velegnet til dig. </p>
+<ul>
+<li>
+<p>ADASUVE kan medføre forsnævring af luftvejene (bronkospasme), hvæsende vejrtrækning, 
+hoste, trykken for brystet og stakåndethed. Dette kan typisk indtræde inden for 25 minutter efter 
+anvendelsen. </p>
+</li>
+<li>
+<p>Neuroleptisk malignt syndrom (NMS) er et sæt symptomer, der kan optræde, når man tager 
+antipsykotisk medicin, herunder ADASUVE. Symptomerne kan bestå af høj feber, muskelstivhed 
+og ujævn eller hurtig hjerterytme eller puls. NMS kan være dødeligt. Tag ikke ADASUVE igen, 
+hvis du får NMS.  </p>
+</li>
+<li>
+<p>Antipsykotiske lægemidler som ADASUVE kan medføre ukontrollerede bevægelser såsom 
+skæren ansigt, rækken tunge, smækken med læberne, trutmund, hurtig blinken og hurtige 
+bevægelser af ben, arme eller fingre. Hvis dette optræder, kan det være nødvendigt at stoppe 
+behandlingen med ADASUVE.  </p>
+</li>
+<li>
+<p>Der bør udvises forsigtighed ved anvendelse af ADASUVE til patienter, der er berusede eller har 
+delirium. </p>
+</li>
+</ul>
+<p>Inden du begynder behandlingen med ADASUVE, skal du fortælle det til lægen eller sygeplejersken, 
+hvis du:  </p>
+<ul>
+<li>
+<p>har eller har haft vejrtrækningsproblemer som astma eller andre kroniske lungesygdomme som 
+bronkitis eller emfysem </p>
+</li>
+<li>
+<p>har eller har haft hjerteproblemer eller slagtilfælde  </p>
+</li>
+<li>
+<p>har eller har haft for lavt eller for højt blodtryk </p>
+</li>
+<li>
+<p>har eller har haft kramper </p>
+</li>
+<li>
+<p>har eller har haft grøn stær (for højt væsketryk i øjet) </p>
+</li>
+<li>
+<p>har eller har haft tilbageholdelse af urinen </p>
+</li>
+<li>
+<p>tidligere har fået ADASUVE og har fået hvæsende vejrtrækning eller stakåndethed  </p>
+</li>
+<li>
+<p>nogensinde har haft ukontrollerede muskel- eller øjenbevægelser, manglende koordination eller 
+vedvarende muskelsammentrækning eller har følt dig rastløs eller ude af stand til at sidde stille  </p>
+</li>
+<li>
+<p>er ældre med demens (svækkelse af hukommelsen og andre åndsevner) </p>
+</li>
+</ul>
+<p>Børn og unge 
+ADASUVE er ikke beregnet til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med ADASUVE 
+Fortæl det altid til lægen, hvis du bruger anden medicin eller har brugt det for nylig, herunder: </p>
+<ul>
+<li>
+<p>adrenalin </p>
+</li>
+<li>
+<p>medicin mod vejrtrækningsproblemer  </p>
+</li>
+<li>
+<p>medicin, der kan medføre kramperisiko (f.eks. clozapin, tricykliske antidepressiva eller selektive 
+serotoningenoptagshæmmere [SSRI], tramadol, mefloqin) </p>
+</li>
+<li>
+<p>medicin mod Parkinsons sygdom  </p>
+</li>
+<li>
+<p>lorazepam eller anden centralt virkende medicin (til behandling af angst, depression, smerter eller 
+søvnløshed) eller andre lægemidler, der medfører søvnighed </p>
+</li>
+<li>
+<p>narkotiske (ulovlige) stoffer  </p>
+</li>
+<li>
+<p>medicin som fluvoxamin, propranolol og enoxacin samt anden medicin, der hæmmer 
+leverenzymet CYP450 1A2. * medicin mod skizofreni, depression eller smerter, da det kan øge kramperisikoen 
+Anvendelse af ADASUVE sammen med adrenalin kan medføre blodtryksfald.  </p>
+</li>
+</ul>
+<p>Brug af ADASUVE sammen med alkohol 
+Da ADASUVE virker på nervesystemet, bør du undgå alkoholindtagelse, når du får ADASUVE. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. Du skal undgå at amme i et tidsrum af timer efter at have fået loxapin, og du skal kassere den mælk, der i mellemtiden er produceret. </p>
+<p>Følgende symptomer kan optræde hos nyfødte børn af mødre, der flere gange har fået antipsykotiske 
+lægemidler i de sidste tre måneder af graviditeten: rysten, muskelstivhed og/eller muskelsvaghed, 
+søvnighed, rastløs uro, vejrtrækningsproblemer og vanskelighed ved at spise. Hvis dit spædbørn får 
+nogen af disse symptomer, kan det være nødvendigt at kontakte lægen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Undgå at føre motorkøretøj eller bruge værktøj eller maskiner efter at have fået ADASUVE, før du 
+ved, hvordan ADASUVE påvirker dig, da svimmelhed, sløvhed og søvnighed er indberettet som 
+mulige bivirkninger af ADASUVE.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take adasuve"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take adasuve"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller sygeplejerskens anvisning. Er du i tvivl, så spørg 
+lægen eller sygeplejersken. </p>
+<p>Den sædvanlige startdosis er 9,1 mg. Efter to timer kan lægen udskrive endnu en dosis efter nøje 
+vurdering af din tilstand. Din dosis kan også blive sat ned til 4,5 mg, hvis lægen mener, at det er en 
+bedre dosis til at behandle din tilstand. </p>
+<p>Du vil få ADASUVE under opsyn af en læge eller sygeplejerske.  </p>
+<p>ADASUVE er til inhalation. Når lægen eller sygeplejersken har klargjort ADASUVE til dig, vil du 
+blive bedt om at tage apparatet i hånden, ånde ud og derefter tage mundstykket i munden, inhalere 
+lægemidlet gennem inhalatoren og derefter holde vejret et øjeblik.  </p>
+<p>Hvis du har brugt for meget ADASUVE </p>
+<p>Fortæl det til lægen eller sygeplejersken, hvis du er bekymret for, at du får mere ADASUVE, end du 
+mener er nødvendigt. Hvis man har fået for meget ADASUVE, kan det give et eller flere af følgende 
+symptomer: ekstrem træthed eller søvnighed, vejrtrækningsbesvær, lavt blodtryk, irritation i halsen 
+eller ubehagelig smag i munden eller ukontrollerede muskel- eller øjenbevægelser.  </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis du får nogen af følgende bivirkninger, skal du straks tale med lægen og holde op med at tage 
+lægemidlet:  </p>
+<ul>
+<li>
+<p>alle vejrtrækningssymptomer, såsom hvæsen, hoste, stakåndethed eller trykken i brystet, da dette 
+kan skyldes, at lægemidlet irriterer dine luftveje (ikke almindeligt, medmindre du har astma eller 
+KOL) </p>
+</li>
+<li>
+<p>svimmelhed eller besvimelse, som følge af, at lægemidlet sænker blodtrykket (ikke almindeligt)  </p>
+</li>
+<li>
+<p>forværring af uro eller omtågethed, navnlig i forbindelse med feber eller muskelstivhed (sjældent). 
+disse symptomer kan være forbundet med den alvorlige tilstand neuroleptisk malignt syndrom 
+(NMS).  </p>
+</li>
+</ul>
+<p>Sig det også til lægen, hvis du får nogen af følgende bivirkninger, der også kan optræde ved 
+brug af andre former af dette lægemiddel:  </p>
+<p>Meget almindelig (forekommer hos mere end 1 ud af 10 behandlede): ubehagelig smag i munden 
+eller søvnighed  </p>
+<p>Almindelig (forekommer hos indtil 1 ud af 10 behandlede): svimmelhed, irritation i halsen eller 
+træthed </p>
+<p>Ikke almindelig (forekommer hos indtil 1 ud af 100 behandlede): ukontrollerede muskel- eller 
+øjenbevægelser, manglende koordination, vedvarende muskelsammentrækning, rastløshed eller 
+manglende evne til at sidde stille </p>
+<p>Andre bivirkninger, der er blevet sat i forbindelse med langvarig indtagelse af loxapin gennem 
+munden, og som kan være relevante for ADASUVE, er svimmelhed, når man rejser sig op, øget 
+hjerterytme, øget blodtryk, sløret syn, øjentørhed og mindsket vandladning.  </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store adasuve"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store adasuve"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar ADASUVE utilgængeligt for børn. </p>
+<p>Brug ikke ADASUVE efter den udløbsdato, der står på etiketten. Udløbsdatoen er den sidste dag i den 
+nævnte måned. </p>
+<p>Opbevares i den originale pose indtil anvendelsen for at beskytte mod lys og fugt. </p>
+<p>Brug ikke ADASUVE, hvis posen er åben eller flænget, eller hvis der er tegn på fysisk beskadigelse af 
+lægemidlet.  </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ADASUVE indeholder:<br />
+Aktivt stof: loxapin. Hver enkeltdosisinhalator indeholder 5 mg loxapin og afgiver 4,5 mg loxapin. </p>
+<p>Udseende og pakningsstørrelser 
+ADASUVE 4,5 mg inhalationspulver, afdelt, består af en hvid engangsinhalator af plast, der 
+indeholder en enkelt dosis af loxapin. Hver inhalator er pakket i en forseglet foliepose. ADASUVE 
+4,5 mg leveres i en karton med 1 eller 5 enkeltdosisinhalatorer. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Ferrer Internacional, S.A. 
+Gran Vía Carlos III, 08028- Barcelona 
+Spanien </p>
+<p>Fremstiller 
+Ferrer Internacional, S.A. 
+Joan Buscalla, 1-9, 08173 Sant Cugat del Vallès 
+Barcelona, Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien<br />
+Ferrer Internacional, S.A. 
+Tél/Tel: +34 93 600 37 <br />
+Lietuva<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel +370 672 12 
+България<br />
+AOP Orphan Pharmaceuticals GmbH 
+Teл.: +35 988 6666 
+Luxembourg/Luxemburg<br />
+Ferrer Internacional, S.A. 
+Tél/Tel: +34 93 600 37<br />
+Česká republika<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +420 251 512<br />
+Magyarország<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel.: +36 1 3192 
+Danmark<br />
+Ferrer Internacional, S.A. 
+Tlf: +34 93 600 37<br />
+Malta<br />
+Ferrer Internacional, S.A. 
+Tel.: +34 93 600 37<br />
+Deutschland<br />
+Ferrer Deutschland GmbH 
+Tel: +49 (0) 2407 502311 0 </p>
+<p>Nederland<br />
+Ferrer Internacional, S.A. 
+Tel.: +34 93 600 37<br />
+Eesti<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +370 672 12 </p>
+<p>Norge<br />
+Ferrer Internacional, S.A. 
+Tlf: +34 93 600 37<br />
+Ελλάδα<br />
+Ferrer Galenica S.A. 
+Τηλ: +30 210 52 81<br />
+Österreich<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +43 1 5037244-0 </p>
+<p>España<br />
+Ferrer Farma, S.A. 
+Tel.: +34 93 600 37<br />
+Polska<br />
+AOP Orphan Pharmaceuticals Poland 
+Sp. z o. o. 
+Tel: +48 22 5428 
+France<br />
+Ferrer Internacional, S.A. 
+Tél: +34 93 600 37<br />
+Portugal<br />
+Ferrer Portugal, S.A. 
+Tel: +351 214449 
+Hrvatska<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +43 1 5037244-0 </p>
+<p>România<br />
+Galenica S.A. 
+Tel: +30 210 52 81<br />
+Ireland<br />
+Ferrer Internacional, S.A. 
+Tel: +34 93 600 37 Slovenija<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +43 1 5037244-0 </p>
+<p>Ísland<br />
+Ferrer Internacional, S.A. 
+Sími: +34 93 600 37<br />
+Slovenská republika<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +421 902 566 
+Italia<br />
+Angelini S.p.A. 
+Tel: +39 06 780 
+Suomi/Finland<br />
+Ferrer Internacional, S.A. 
+Puh/Tel: +34 93 600 37  </p>
+<p>Κύπρος<br />
+Τhespis Pharmaceutical Ltd 
+Tηλ: +357 22 67 77<br />
+Sverige<br />
+Ferrer Internacional, S.A. 
+Tel: +34 93 600 37<br />
+Latvija<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel +370 672 12 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.  </p>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Læs alle anvisninger inden brug. Se nærmere i produktresuméet.  </p>
+<p>Bliv fortrolig med ADASUVE: Nedenstående tegning viser de vigtige detaljer ved ADASUVE.  </p>
+<p>mundstykke 
+flig 
+kontrollampe 
+Inhlationspulver, loxapin </p>
+<p> 
+ADASUVE leveres i en forseglet pose. 
+ 
+Når ADASUVE inhalatoren tages ud af posen, er kontrollampen slukket.<br />
+ 
+Kontrollampen lyser (grønt), når plastfligen trækkes af. Inhalatoren er derefter klar til brug. 
+ 
+Kontrollampen slukker automatisk igen, når lægemidlet inhaleres.<br />
+Læs følgende 5 punkter, før ADASUVE administreres til patienten: </p>
+<ol>
+<li>
+<p>Åben posen 
+Undgå at åbne posen, før produktet skal bruges. Riv 
+folieposen op og tag inhalatoren ud af pakningen. </p>
+</li>
+<li>
+<p>Træk fligen af<br />
+Træk plastfligen på bagsiden af inhalatoren af med et fast greb. 
+Den grønne lampe lyser som tegn på, at inhalatoren er klar til 
+brug.  </p>
+</li>
+</ol>
+<p>Inhalatoren skal anvendes inden for 15 minutter, efter at 
+fligen er revet af (eller indtil den grønne lampe slukker) for 
+at undgå automatisk deaktivering af inhalatoren.  </p>
+<p>Bed patienten om følgende: </p>
+<ol>
+<li>
+<p>Ånd ud 
+Hold inhalatoren væk fra munden og ånd helt ud, så lungerne 
+tømmes for luft. </p>
+</li>
+<li>
+<p>Inhalér 
+Inhalér gennem mundstykket med en stabil, dyb indånding. </p>
+</li>
+</ol>
+<p>VIGTIGT: Se efter, at den grønne lampe slukker, når 
+patienten inhalerer.  </p>
+<ol>
+<li>Hold vejret 
+Tag mundstykket ud af munden og hold vejret et øjeblik. 
+BEMÆRK: Hvis den grønne lampe bliver ved med at lyse efter at patienten har inhaleret, skal 
+patienten gentage punkt 3-5. Indlægsseddel: Information til brugeren </li>
+</ol>
+<p>ADASUVE 9,1 mg inhalationspulver, afdelt 
+loxapin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller sundhedspersonalet, hvis der er mere, du vil vide.<br />
+- Hvis du får bivirkninger, skal du sige det til lægen eller sygeplejersken. Dette gælder også 
+bivirkninger, der ikke fremgår af denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a65021751afedc04d4560394d8a23778
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adasuve Package Leaflet for language en"
+Description: "ePI document Bundle for adasuve Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a65021751afedc04d4560394d8a23778"
+* entry[0].resource = composition-en-a65021751afedc04d4560394d8a23778
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa65021751afedc04d4560394d8a23778"
+* entry[=].resource = mpa65021751afedc04d4560394d8a23778
+                            
+                    
+Instance: bundlepackageleaflet-da-a65021751afedc04d4560394d8a23778
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adasuve Package Leaflet for language da"
+Description: "ePI document Bundle for adasuve Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a65021751afedc04d4560394d8a23778"
+* entry[0].resource = composition-da-a65021751afedc04d4560394d8a23778
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa65021751afedc04d4560394d8a23778"
+* entry[=].resource = mpa65021751afedc04d4560394d8a23778
+                            
+                    
+
+
+
+Instance: mpa65021751afedc04d4560394d8a23778
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ADASUVE 4.5 mg inhalation powder, pre-dispensed"
-Description: "ADASUVE 4.5 mg inhalation powder, pre-dispensed"
+Title: "Medicinal Product adasuve"
+Description: "adasuve"
 Usage: #inline
 
  
@@ -338,7 +857,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ADASUVE 4.5 mg inhalation powder, pre-dispensed"
+  * productName = "adasuve"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -365,29 +884,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a65021751afedc04d4560394d8a23778
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for adasuve Package Leaflet for language en"
-Description: "ePI document Bundle for adasuve Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a65021751afedc04d4560394d8a23778ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/823/001 (5 single-dose inhalers)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "adasuve"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a65021751afedc04d4560394d8a23778"
-* entry[0].resource = composition-en-a65021751afedc04d4560394d8a23778
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5d88828fe954118e0cda9c63be482628"
-* entry[=].resource = mp5d88828fe954118e0cda9c63be482628
-                            
-                      
+* title = "List of all ePIs associated with adasuve"
+
+* subject = Reference(mp5d88828fe954118e0cda9c63be482628)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#adasuve "adasuve"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a65021751afedc04d4560394d8a23778) // adasuve en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a65021751afedc04d4560394d8a23778) // adasuve da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a65021751afedc04d4560394d8a23778
+InstanceOf: List
+
+* insert a65021751afedc04d4560394d8a23778ListRuleset
+    

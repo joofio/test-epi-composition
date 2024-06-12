@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-244f0d5975a83ec03b917d6f24b1b649
 InstanceOf: CompositionUvEpi
 Title: "Composition for azarga Package Leaflet"
@@ -418,12 +421,647 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-244f0d5975a83ec03b917d6f24b1b649
+InstanceOf: CompositionUvEpi
+Title: "Composition for azarga Package Leaflet"
+Description:  "Composition for azarga Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9c9bdc3cc24a33f3df017a6ee2201efd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp9c9bdc3cc24a33f3df017a6ee2201efd
+* title = "TEST PURPOSES ONLY - azarga"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Azarga </li>
+<li>Sådan skal du bruge Azarga </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What azarga is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What azarga is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Azarga indeholder 2 aktive indholdsstoffer, brinzolamid og timolol, som arbejder sammen for at 
+sænke trykket i øjet. </p>
+<p>Azarga bruges til at behandle forhøjet tryk i øjnene, også betegnet som glaukom eller okulær 
+hypertension, hos voksne patienter over 18 år, som har forhøjet tryk i øjnene, der ikke kan bringes 
+effektivt under kontrol med et enkelt lægemiddel alene. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take azarga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take azarga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Azarga </p>
+<ul>
+<li>
+<p>Hvis du er allergisk over for brinzolamid, en type lægemidler, der hedder sulfonamider 
+(eksempelvis lægemidler til behandling af diabetes (sukkersyge) og infektioner samt diuretika 
+(vanddrivende tabletter), timolol, betablokkere (lægemidler til at sænke forhøjet blodtryk eller 
+behandle hjertesygdomme) eller et af de øvrige indholdsstoffer i Azarga (angivet i punkt 6). </p>
+</li>
+<li>
+<p>Hvis du har eller tidligere har haft luftvejsproblemer som f.eks. astma, alvorlig længerevarende 
+obstruktiv bronkitis (alvorlig sygdom i lungerne, der kan give hvæsende vejrtrækning, 
+vejrtrækningsbesvær og/eller længerevarende hoste) eller andre former for 
+vejrtrækningsproblemer. </p>
+</li>
+<li>
+<p>Hvis du lider af alvorlig høfeber. </p>
+</li>
+<li>
+<p>Hvis du har en langsom puls, hjertesvigt eller forstyrrelser i hjerterytmen (uregelmæssig puls). </p>
+</li>
+<li>
+<p>Hvis du lider af for høj surhedsgrad i blodet (en tilstand kaldet ”hyperkloræmisk acidose”). </p>
+</li>
+<li>
+<p>Hvis du har alvorlige nyreproblemer. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Azarga må kun bruges til at dryppe i øjnene. </p>
+<p>Stop med at bruge dette lægemiddel og kontakt lægen, hvis du får tegn på alvorlige reaktioner eller 
+overfølsomhed. </p>
+<p>Kontakt lægen eller apotekspersonalet, før du bruger Azarga, hvis du har eller tidligere har haft: </p>
+<ul>
+<li>
+<p>koronarsklerose (symptomer kan være brystsmerter eller trykken for brystet, åndenød eller 
+kvælning), hjertesvigt, lavt blodtryk </p>
+</li>
+<li>
+<p>forstyrrelser i hjerterytmen såsom langsom puls </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær, astma eller kronisk obstruktiv lungesygdom (KOL) </p>
+</li>
+<li>
+<p>dårlig blodcirkulation (Raynauds sygdom eller Raynauds syndrom - hvide, "døde" fingre og 
+tæer) </p>
+</li>
+<li>
+<p>sukkersyge (diabetes), idet timolol kan skjule symptomer på lavt blodsukker </p>
+</li>
+<li>
+<p>overaktiv skjoldbruskkirtel, idet timolol kan skjule symptomer på skjoldbruskkirtelsygdom </p>
+</li>
+<li>
+<p>muskelsvaghed (myastenia gravis) </p>
+</li>
+<li>
+<p>hvis du skal opereres, skal du fortælle lægen, at du bruger Azarga, idet timolol kan ændre 
+virkningen af visse lægemidler, der bruges ved bedøvelse </p>
+</li>
+<li>
+<p>hvis du har eller tidligere har haft atopi (en tendens til at udvikle en allergisk reaktion) og 
+alvorlige allergiske reaktioner, kan du have øget risiko for at udvikle en allergisk reaktion, mens 
+du bruger Azarga, og adrenalin vil muligvis ikke være effektiv til at behandle en allergisk 
+reaktion. Hvis du får anden form for behandling, skal du derfor fortælle din læge eller 
+sygeplejerske, at du bruger Azarga </p>
+</li>
+<li>
+<p>hvis du har leverproblemer </p>
+</li>
+<li>
+<p>hvis du har tørre øjne eller hornhindeproblemer </p>
+</li>
+<li>
+<p>hvis du har nyreproblemer </p>
+</li>
+<li>
+<p>hvis du på noget tidspunkt har udviklet et alvorligt hududslæt eller afskalning af huden, 
+blæredannelse og/eller sår i munden, efter du har brugt Azarga eller andre tilsvarende 
+lægemidler. </p>
+</li>
+</ul>
+<p>Vær ekstra forsigtig med at bruge Azarga: 
+Alvorlige hudreaktioner, herunder Stevens-Johnsons syndrom og toksisk epidermal nekrolyse, er 
+blevet rapporteret i forbindelse med behandling med brinzolamid. Stop med at bruge Azarga og søg 
+straks lægehjælp, hvis du oplever nogle af de symptomer, der er relateret til disse alvorlige 
+hudreaktioner, som er beskrevet i punkt 4. Børn og unge 
+Det frarådes, at børn og unge under 18 år bruger Azarga. </p>
+<p>Brug af anden medicin sammen med Azarga 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. </p>
+<p>Azarga kan påvirke eller blive påvirket af andre lægemidler, som du tager, herunder andre øjendråber 
+til behandling af glaukom (grøn stær). 
+Fortæl det til lægen, hvis du bruger eller overvejer at bruge lægemidler til sænkning af blodtrykket, 
+såsom parasympatomimetika og guanetidin, eller anden hjertemedicin, som indeholder quinidin 
+(bruges til behandling af hjertesygdomme og nogle typer malaria), amaiodaron eller andre lægemidler 
+til at behandle hjerterytmeforstyrrelser og glykosider til at behandle nedsat hjertefunktion. Fortæl det 
+også til lægen, hvis du bruger eller overvejer at bruge lægemidler til behandling af diabetes, mavesår, 
+midler mod svampe-, virus- eller bakterieinfektioner, eller midler mod depression f.eks. fluoxetin eller 
+paroxetin. </p>
+<p>Tal med din læge, hvis du anvender andre karboanhydrasehæmmere (acetazolamid eller dorzolamid). 
+Der er lejlighedsvis rapporteret om øget pupilstørrelse hos patienter, der tog Azarga og adrenalin 
+(epinephrin) samtidigt. </p>
+<p>Graviditet og amning 
+Hvis du er gravid, eller hvis du muligvis kan blive gravid, må du ikke bruge Azarga, medmindre din 
+læge vurderer, at det er nødvendigt. Tal med din læge, før du begynder at bruge Azarga. </p>
+<p>Brug ikke Azarga, hvis du ammer. Timolol kan gå over i modermælken. 
+Hvis du ammer, skal du spørge din læge eller apoteket til råds, før du bruger nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke køre bil eller arbejde med maskiner, før dit syn er klart igen. Dit syn kan være sløret i et 
+stykke tid efter, at du har brugt Azarga. </p>
+<p>Et af de aktive stoffer kan forringe evnen til at udføre opgaver, der kræver mental årvågenhed og/eller 
+fysisk koordination. Hvis du bliver påvirket, skal du udvise forsigtighed, når du kører bil eller arbejder 
+med maskiner. </p>
+<p>Azarga indeholder benzalkoniumchlorid </p>
+<p>Dette lægemiddel indeholder 3,34 µg benzalkoniumchlorid per dråbe (=1 dose) svarende til 0,01 % 
+eller 0,1 mg/ml. </p>
+<p>Azarga indeholder et konserveringsmiddel (benzalkoniumchlorid), som kan absorberes af bløde 
+kontaktlinser og ændre farven på kontaklinserne. Du skal tage kontaktlinserne ud, inden lægemidlet 
+bruges, og vente mindst 15 minutter, før du sætter kontaktlinserne i igen. Benzalkoniumchlorid kan 
+også give øjenirritation, især hvis du har tørre øjne eller hornhinde problemer (det klare lag forrest i 
+øjet). Hvis du har unormale fornemmelser i øjet såsom svie eller smerte, når du bruger dette 
+lægemiddel, skal du tale med din læge. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take azarga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take azarga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. 
+Hvis du skifter til Azarga fra en anden type øjendråber til behandling af glaukom, skal du holde op 
+med at bruge den anden medicin og begynde at bruge Azarga den næste dag. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>For ikke at forurene spidsen af flasken og øjendråberne er det vigtigt, at spidsen af flasken ikke 
+kommer i berøring med øjenlågene, området omkring øjnene eller andre overflader. Flasken skal 
+holdes tæt tillukket, når den ikke er i brug. </p>
+<p>Følgende råd er nyttigt til at begrænse mængden af medicin, som overføres til blodbanen, efter at du 
+har dryppet øjnene:</p>
+<ul>
+<li>Hold øjenlåget lukket, mens du forsigtigt trykker ind mod øjenkrogen med en finger i mindst 
+2 minutter. </li>
+</ul>
+<p>Den anbefalede dosis er 
+1 dråbe i det/de påvirkede øje/øjne 2 gange dagligt. 
+Brug kun Azarga i begge øjne, hvis lægen har anvist det. Brug Azarga så længe, som din læge har 
+anvist. </p>
+<p>Anvendelse </p>
+<p>1 
+2 
+3 </p>
+<ul>
+<li>
+<p>Hent Azarga-flasken og et spejl. </p>
+</li>
+<li>
+<p>Vask dine hænder. </p>
+</li>
+<li>
+<p>Ryst flasken grundigt inden brug. </p>
+</li>
+<li>
+<p>Skru hætten af flasken. Hvis sikkerhedsringen omkring hætten sidder løst, når du åbner flasken, 
+skal den fjernes, inden præparatet tages i brug. </p>
+</li>
+<li>
+<p>Hold flasken med bunden i vejret mellem din tommelfinger og de øvrige fingre. </p>
+</li>
+<li>
+<p>Læn hovedet tilbage. Træk ned i det nederste øjenlåg med en ren finger, indtil der dannes en 
+”lomme” mellem øjenlåget og øjet. Dråben skal placeres der (billede 1). </p>
+</li>
+<li>
+<p>Hold spidsen af flasken tæt hen til øjet. Brug spejlet, hvis det gør det nemmere. </p>
+</li>
+<li>
+<p>Undgå at berøre øjet eller øjenlåget, omgivende områder eller andre overflader med spidsen af 
+flasken. Det kan forurene øjendråberne. </p>
+</li>
+<li>
+<p>Tryk let på flaskens bund for at frigøre 1 dråbe Azarga ad gangen. </p>
+</li>
+<li>
+<p>Tryk ikke på siden af flasken: den er designet på en sådan måde, at et let tryk i bunden af 
+flasken er nok (billede 2). </p>
+</li>
+<li>
+<p>Efter du har dryppet med Azarga, skal du trykke en finger mod øjenkrogen ind mod næsen i 
+2 minutter (billede 3). Det forhindrer, at Azarga optages i resten af kroppen. </p>
+</li>
+<li>
+<p>Hvis du bruger dråber i begge øjne, gentages trinnene for det andet øje. </p>
+</li>
+<li>
+<p>Skru hætten godt fast på flasken umiddelbart efter brug. </p>
+</li>
+<li>
+<p>Brug hele flasken, inden du åbner en ny. </p>
+</li>
+</ul>
+<p>Hvis dråben ikke rammer øjet, så prøv igen. </p>
+<p>Hvis du bruger andre øjenlægemidler, så vent mindst 5 minutter mellem Azarga og de andre 
+øjenlægemidler. Øjensalve skal påføres sidst. </p>
+<p>Hvis du har brugt for meget Azarga, så skyl dit øje med varmt vand. Dryp ikke flere dråber i øjet 
+før næste planlagte dosis. </p>
+<p>Du kan opleve lav puls, lavt blodtryk, hjertesvigt, besvær med at trække vejret, og dit nervesystem kan 
+blive påvirket. </p>
+<p>Hvis du har glemt at bruge Azarga, skal du fortsætte med den sædvanlige doseringsplan. Du må 
+ikke tage en dobbeltdosis som erstatning for den glemte dosis. Brug ikke mere end 1 dråbe i det/de 
+pågældende øje/øjne 2 gange dagligt. </p>
+<p>Hvis du holder op med at bruge Azarga uden at tale med din læge, vil trykket i øjet ikke blive holdt 
+nede, hvilket kan medføre tab af synet. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Stop med at bruge Azarga og søg straks lægehjælp, hvis du oplever nogle af følgende symptomer: </p>
+<ul>
+<li>kraftig rødme eller kløe i øjet, flade, rødlige, målskivelignende pletter eller runde områder på 
+kroppen, ofte med blærer i midten, afskalning af huden samt sår i mund, svælg, næse, 
+kønsorganer og øjne. Disse alvorlige hududslæt kan komme efter forudgående feber og 
+influenzalignende symptomer (Stevens-Johnsons syndrom, toksisk epidermal nekrolyse). </li>
+</ul>
+<p>Du kan oftest fortsætte med at bruge dine øjendråber, hvis bivirkningerne ikke er alvorlige. Spørg 
+lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. Du må ikke holde op med at bruge 
+Azarga, uden at du har talt med din læge først. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>Reaktioner i øjet: betændelse i øjets overflade, sløret syn, symptomer på øjenirritation (f.eks. 
+brænden, svien, kløen, løbende øjne, røde øjne), øjensmerter. </p>
+</li>
+<li>
+<p>Øvrige bivirkninger: lav puls, smagsforstyrrelser. </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>Reaktioner i øjet: hornhindeerosion (skade på øjeæblets yderste lag), betændelse i øjets 
+overflade med skader på overfladen, betændelse indvendigt i øjet, farvning af hornhinden, 
+unormal følelse i øjet, tåreflåd, øjentørhed, trætte øjne, kløende øjne, røde øjne, røde øjenlåg. </p>
+</li>
+<li>
+<p>Øvrige bivirkninger: fald i antal af hvide blodlegemer, nedsat blodtryk, hoste, blod i urinen, 
+svaghed i kroppen. </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 patienter) </p>
+<ul>
+<li>
+<p>Reaktioner i øjet: hornhindelidelse, lysfølsomhed, øget tåreproduktion, skorper omkring 
+øjenlåget </p>
+</li>
+<li>
+<p>Øvrige bivirkninger: søvnbesvær (søvnløshed), smerter i svælget, rindende næse </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>Reaktioner i øjet: Øjenallergi, synsforstyrrelser, beskadigelse af synsnerven, øget tryk i øjet, 
+aflejringer på øjets overflade, nedsat øjenfølsomhed, inflammation eller infektion af øjets 
+konjunktiva (det hvide i øjnene), unormalt syn, dobbeltsyn eller nedsat syn, øget pigmentering i 
+øjet, vækst på øjets overflade, hævelse i øjet, lysfølsomhed, nedsat vækst af øjenvipper eller 
+nedsat antal øjenvipper, hængende øvre øjenlåg (halvlukket øje), betændelseslignende tilstand 
+(inflammation) i øjenlåget og øjenlågskirtlerne, betændelseslignende tilstand i hornhinden og 
+løsning af hinden med blodkar under nethinden efter filtrationskirurgi, hvilket kan give 
+synsforstyrrelser, nedsat følsomhed i hornhinden. </p>
+</li>
+<li>
+<p>Generelle bivirkninger: flade, rødlige, målskivelignende pletter eller runde områder på 
+kroppen, ofte med blærer i midten, afskalning af huden samt sår i mund, svælg, næse, 
+kønsorganer og øjne, som kan komme efter forudgående feber og influenzalignende symptomer. 
+Disse alvorlige hududslæt kan potentielt være livstruende (Stevens-Johnsons syndrom, toksisk 
+epidermal nekrolyse). </p>
+</li>
+<li>
+<p>Hjerte og kredsløb: Ændringer i antallet af pulsslag eller ændringer i hjerterytmen, langsom 
+puls, hjertebanken, en slags forstyrrelse i hjerterytmen, unormal stigning i pulsen, brystsmerter, 
+nedsat hjertefunktion, hjerteanfald, forhøjet blodtryk, nedsat blodtilførsel til hjernen, 
+slagtilfælde, ødem (væskeophobning), hjertesvigt (hjertesygdom med åndenød og hævede 
+fødder og ben på grund af væskeophobning), hævede arme og ben, lavt blodtryk, misfarvning 
+af fingre, tæer og sommetider også andre legemsdele, (Raynauds fænomen − hvide, ”døde” 
+fingre og tæer), kolde hænder og fødder. </p>
+</li>
+<li>
+<p>Luftveje: Indsnævring af luftvejene i lungerne (især hos patienter med eksisterende sygdom), 
+åndenød eller vejrtrækningsproblemer, forkølelsessymptomer, åndedrætsbesvær, 
+bihulebetændelse, nysen, tilstoppet næse, tørhed i næsen, næseblod, astma, halsirritation. </p>
+</li>
+<li>
+<p>Nervesystemet og almene symptomer og reaktioner: Hallucinationer, depression, mareridt, 
+hukommelsestab, hovedpine, nervøsitet, irritabel adfærd, træthed, rysten, unormal følelse, 
+besvimelse, svimmelhed, døsighed, generel eller alvorlig svaghed, unormal følelse af prikken 
+og stikken. </p>
+</li>
+<li>
+<p>Mave: Kvalme, opkastning, diarré, luft i maven eller ubehag i maven, halsbetændelse, tør eller 
+unormal følelse i munden, fordøjelsesbesvær, mavesmerter. </p>
+</li>
+<li>
+<p>Blod: Unormale leverfunktionsværdier, øget klorinindhold i blodet eller nedsat antal røde 
+blodlegemer, hvilket kan ses ved en blodprøve. </p>
+</li>
+<li>
+<p>Allergi: Øgede allergiske symptomer, generelle allergiske reaktioner herunder hævelse under 
+huden, der kan forekomme på områder såsom ansigt og lemmer, og som kan blokere luftvejene 
+og gøre det svært at synke og trække vejret, nældefeber, lokalt og generelt udslæt, kløe, 
+pludselige alvorlige livstruende allergiske reaktioner. </p>
+</li>
+<li>
+<p>Øre: Ringen for øret, følelse af snurren i hovedet eller svimmelhed. </p>
+</li>
+<li>
+<p>Hud: Hudrødme eller betændelseslignende tilstand (inflammation) i huden, udslæt, unormal 
+eller nedsat følelse i huden, hårtab, hvidligt, sølvfarvet (psoriasis-agtigt) udslæt eller forværring 
+af psoriasis. </p>
+</li>
+<li>
+<p>Muskler: Almene ryg-, led-, eller muskelsmerter, der ikke skyldes anstrengelse, 
+muskelspasmer, smerter i arme og ben, muskesvaghed/træthed, stigning i symptomerne på 
+myasthenia gravis (en muskelsygdom). </p>
+</li>
+<li>
+<p>Nyre: Nyresmerter så som smerter i den nederste del a ryggen, hyppig vandladning. </p>
+</li>
+<li>
+<p>Forplantning: Seksuel dysfunktion, nedsat sexlyst (libido), nedsat potens. </p>
+</li>
+<li>
+<p>Stofskifte: Lavt blodsukkerniveau. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store azarga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store azarga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Flasken skal smides ud 4 uger efter åbning for at forhindre, at du får en infektion i øjet. Tag en ny 
+flaske i brug. Når du åbner en ny flaske, skal du skrive datoen, hvor der er gjort plads til det på 
+flaskens etiket og på kartonen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Azarga indeholder: </p>
+<ul>
+<li>
+<p>Aktive stoffer: brinzolamid og timolol. 1 ml suspension indeholder 10 mg brinzolamid og 5 mg 
+timolol (som maleat). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: benzalkoniumchlorid (se pkt. 2 ‘Azarga indeholder 
+benzalkoniumchlorid’), carbopol 974P, dinatriumedetat, mannitol (E421), renset vand, 
+natriumchlorid, tyloxapol, saltsyre og/eller natriumhydroxid. 
+Små mængder saltsyre og/eller natriumhydroxid er tilsat for at bevare en normal surhedsgrad 
+(pH-værdi). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Azarga er en væske (hvid til råhvid ensartet suspension), der fås i 5 ml plasticflasker med skruelåg 
+eller i en pakning med 3 x 5 ml flasker. 
+Alle pakningsstørrelser er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>S.A. Alcon-Couvreur N.V. 
+Rijksweg 2870 Puurs 
+Belgien </p>
+<p>Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spanien </p>
+<p>Siegfried El Masnou, S.A. 
+Camil Fabra El Masnou 
+08320 Barcelona 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65  </p>
+<p>Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84  </p>
+<p>Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2 
+Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6 
+España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-244f0d5975a83ec03b917d6f24b1b649
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azarga Package Leaflet for language en"
+Description: "ePI document Bundle for azarga Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-244f0d5975a83ec03b917d6f24b1b649"
+* entry[0].resource = composition-en-244f0d5975a83ec03b917d6f24b1b649
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp244f0d5975a83ec03b917d6f24b1b649"
+* entry[=].resource = mp244f0d5975a83ec03b917d6f24b1b649
+                            
+                    
+Instance: bundlepackageleaflet-da-244f0d5975a83ec03b917d6f24b1b649
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azarga Package Leaflet for language da"
+Description: "ePI document Bundle for azarga Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-244f0d5975a83ec03b917d6f24b1b649"
+* entry[0].resource = composition-da-244f0d5975a83ec03b917d6f24b1b649
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp244f0d5975a83ec03b917d6f24b1b649"
+* entry[=].resource = mp244f0d5975a83ec03b917d6f24b1b649
+                            
+                    
+
+
+
+Instance: mp244f0d5975a83ec03b917d6f24b1b649
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product AZARGA 10 mg/ml + 5 mg/ml eye drops, suspension"
-Description: "AZARGA 10 mg/ml + 5 mg/ml eye drops, suspension"
+Title: "Medicinal Product azarga"
+Description: "azarga"
 Usage: #inline
 
  
@@ -443,7 +1081,7 @@ Usage: #inline
 
 
 * name
-  * productName = "AZARGA 10 mg/ml + 5 mg/ml eye drops, suspension"
+  * productName = "azarga"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -470,29 +1108,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-244f0d5975a83ec03b917d6f24b1b649
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for azarga Package Leaflet for language en"
-Description: "ePI document Bundle for azarga Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 244f0d5975a83ec03b917d6f24b1b649ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/08/482/001-002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "azarga"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-244f0d5975a83ec03b917d6f24b1b649"
-* entry[0].resource = composition-en-244f0d5975a83ec03b917d6f24b1b649
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9c9bdc3cc24a33f3df017a6ee2201efd"
-* entry[=].resource = mp9c9bdc3cc24a33f3df017a6ee2201efd
-                            
-                      
+* title = "List of all ePIs associated with azarga"
+
+* subject = Reference(mp9c9bdc3cc24a33f3df017a6ee2201efd)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#azarga "azarga"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-244f0d5975a83ec03b917d6f24b1b649) // azarga en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-244f0d5975a83ec03b917d6f24b1b649) // azarga da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-244f0d5975a83ec03b917d6f24b1b649
+InstanceOf: List
+
+* insert 244f0d5975a83ec03b917d6f24b1b649ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f34ab6116c3c4c0c8f28f2de9888b61e
 InstanceOf: CompositionUvEpi
 Title: "Composition for revolade Package Leaflet"
@@ -745,12 +748,1414 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-f34ab6116c3c4c0c8f28f2de9888b61e
+InstanceOf: CompositionUvEpi
+Title: "Composition for revolade Package Leaflet"
+Description:  "Composition for revolade Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc1ef848a001aba2432cd8bcb4559cf1c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc1ef848a001aba2432cd8bcb4559cf1c
+* title = "TEST PURPOSES ONLY - revolade"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Revolade 
+3. Sådan skal du tage Revolade 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What revolade is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What revolade is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revolade indeholder eltrombopag, der tilhører en gruppe af lægemidler, som kaldes trombopoietin-
+receptor-agonister. Revolade hjælper med at øge antallet af blodplader i dit blod. Blodplader er 
+blodceller, som hjælper til med at mindske eller helt undgå blødninger. </p>
+<ul>
+<li>Revolade bruges til at behandle en blodsygdom kaldet immun (primær) trombocytopeni (ITP) 
+hos patienter i alderen 1 år og derover, og som tidligere har fået behandling med andet medicin 
+(kortikosteroider eller immunglobuliner) uden effekt. </li>
+</ul>
+<p>ITP forårsages af et lavt blodpladetal (trombocytopeni). Personer med ITP har en øget risiko for 
+blødninger. De symptomer, patienter med ITP kan opleve, omfatter petekkier (punktformede, 
+flade, røde pletter under huden), blå mærker, næseblod, blødende gummer og ikke være i stand 
+til at kontrollere en blødning, hvis de skærer sig eller kommer til skade. </p>
+<ul>
+<li>
+<p>Revolade kan også bruges til at behandle et lavt trombocyttal (trombocytopeni) hos patienter 
+med hepatitis C-virus (HCV)-infektion, hvis de har haft problemer med bivirkninger under 
+interferonbehandling. Mange personer med hepatitis C har lave trombocyttal, ikke kun på grund 
+af sygdommen, men også på grund af de antivirale lægemidler, de får som behandling. Hvis du 
+tager Revolade, bliver det lettere for dig at gennemføre et fuldt behandlingsforløb med 
+antivirale lægemidler (peginterferon og ribavirin). </p>
+</li>
+<li>
+<p>Revolade kan også bruges til at behandle voksne patienter med lave blodtal som følge af svær 
+aplastisk anæmi (SAA). SAA er en sygdom hvor knoglemarven er beskadiget, som forårsager 
+mangel på de røde blodlegemer (anæmi), hvide blodlegemer (leukopeni) og blodplader 
+(trombocytopeni). </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take revolade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take revolade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Revolade </p>
+<ul>
+<li>hvis du er allergisk over for eltrombopag eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6 under ‘Revolade indeholder’). 
+Tal med lægen, hvis du mener, dette gælder for dig. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Revolade: </p>
+<ul>
+<li>
+<p>hvis du har leverproblemer. Personer med lavt trombocyttal og fremskreden kronisk 
+(langvarig) leversygdom har større risiko for bivirkninger, herunder livstruende leverskader og 
+blodpropper. Hvis lægen vurderer, at fordelene ved at tage Revolade opvejer risikoen, vil du 
+blive fulgt tæt under din behandling. </p>
+</li>
+<li>
+<p>hvis du har risiko for blodpropper i dine vener eller arterier eller hvis du ved, at din familie er 
+disponeret for blodpropper. </p>
+</li>
+</ul>
+<p>Du kan have større risiko for blodpropper: 
+ -<br />
+når du bliver ældre 
+ -<br />
+hvis du har været nødsaget til at være sengeliggende gennem længere tid 
+ -<br />
+hvis du har kræft 
+ -<br />
+hvis du tager p-piller eller får hormonterapi 
+ -<br />
+hvis du for nylig er blevet opereret eller har fået en fysisk skade 
+ -<br />
+hvis du er meget overvægtig (fed) 
+ -<br />
+hvis du er ryger 
+ -<br />
+hvis du har fremskreden kronisk leversygdom 
+ Hvis noget af dette gælder for dig, så fortæl det til lægen, inden du begynder på 
+behandlingen. Du bør ikke tage Revolade, medmindre lægen mener, at de forventede 
+fordele opvejer risikoen for at få blodpropper. </p>
+<ul>
+<li>
+<p>hvis du har grå stær (linsen i øjet bliver uklar) </p>
+</li>
+<li>
+<p>hvis du har andre blodsygdomme såsom myelodysplastisk syndrom (MDS). Din læge vil teste 
+dit blod for at tjekke, at du ikke har denne blodsygdom, inden du starter behandling med 
+Revolade. Hvis du har MDS og tager Revolade, kan din MDS blive værre. 
+
+Fortæl lægen, hvis ovenstående gælder for dig. </p>
+</li>
+</ul>
+<p>Øjenundersøgelser 
+Lægen vil anbefale, at du bliver kontrolleret for grå stær. Hvis du ikke allerede får tjekket dine øjne 
+regelmæssigt, bør din læge arrangere regelmæssige undersøgelser. Du kan også få undersøgt om der er 
+opstået blødning i eller rundt om retina (det lysfølsomme lag af celler bagerst i øjet). </p>
+<p>Regelmæssige prøver 
+Inden du begynder på behandlingen med Revolade, vil lægen tage blodprøver for at kontrollere dine 
+blodceller, herunder også blodpladerne. Disse blodprøver vil regelmæssigt blive gentaget, mens du er i 
+behandling med Revolade. </p>
+<p>Blodprøver for at teste leverfunktionen 
+Revolade kan forårsage blodprøveresultater, der kan være tegn på leverskade - en stigning af visse 
+leverenzymer i blodet, specielt bilirubin og alanin/ aspartat transaminaser. Hvis du tager Revolade 
+sammen med antiviral interferonbehandling for at behandle lavt trombocyttal på grund af hepatitis C, 
+kan nogle problemer med leveren blive værre. </p>
+<p>Du vil få taget blodprøver, inden du begynder behandlingen med Revolade, og regelmæssigt mens du 
+tager det, for at tjekke din leverfunktion. Du kan blive nødt til at stoppe behandlingen med Revolade, 
+hvis indholdet af disse stoffer i blodet stiger for meget, eller hvis du får andre tegn på leverskade. 
+Læs informationen under ’Leverproblemer’ i punkt 4 i denne indlægsseddel. </p>
+<p>Blodprøver for at måle trombocyttal 
+Hvis du stopper med at tage Revolade, er der sandsynlighed for, at dit blodpladetal vil falde igen inden 
+for nogle dage. Blodpladetallet vil blive overvåget, hvis du stopper med at tage Revolade, og lægen vil 
+diskutere passende forholdsregler med dig. </p>
+<p>Et meget højt blodpladetal kan give en øget risiko for blodpropper, men blodpropper kan også 
+forekomme ved normale - og endda ved lave - blodpladetal. Lægen vil justere din dosis af Revolade 
+for at sikre, at dit blodpladetal ikke bliver for højt. </p>
+<p>Søg straks lægehjælp, hvis du oplever følgende tegn på en blodprop: </p>
+<ul>
+<li>
+<p>Hævelse, smerte eller ømhed i det ene ben </p>
+</li>
+<li>
+<p>Pludselig åndenød ledsaget af en skarp smerte i brystet eller hurtig vejrtrækning </p>
+</li>
+<li>
+<p>Mavesmerter, forstørret mave, blod i afføringen </p>
+</li>
+</ul>
+<p>Undersøgelser for at tjekke knoglemarven 
+Hos personer som har problemer med deres knoglemarv, kan lægemidler som Revolade gøre disse 
+problemer værre. Tegn på knoglemarvsforandringer kan vise sig som anormale resultater i dine 
+blodprøver. Lægen kan også lave tests specifikt med henblik på at tjekke din knoglemarv under 
+behandlingen med Revolade. </p>
+<p>Undersøgelser for blødning i fordøjelsessystemet 
+Hvis du tager Revolade sammen med antiviral interferonbehandling, vil du blive undersøgt for tegn og 
+symptomer på blødninger i din mave eller tarm, når du stopper med at tage Revolade. </p>
+<p>Hjerteundersøgelser 
+Lægen vurderer, om det er nødvendigt at undersøge hjertet med et elektrokardiogram (EKG) under 
+behandling med Revolade. </p>
+<p>Ældre personer (65 år og derover) 
+Der er begrænset data ved brugen af Revolade hos patienter i alderen 65 år og derover. Du bør udvise 
+forsigtighed, hvis du er 65 år eller derover. </p>
+<p>Børn og unge 
+Revolade må ikke anvendes til børn under 1 år, der har ITP. Det må heller ikke anvendes til personer 
+under 18 år med lavt blodpladetal som følge af hepatitis C eller alvorlig aplastisk anæmi. </p>
+<p>Brug af anden medicin sammen med Revolade 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har taget anden medicin 
+eller planlægger at tage anden medicin. Dette gælder også medicin, som ikke er købt på recept og 
+vitaminer. </p>
+<p>Andre lægemidler kan påvirke virkningen af Revolade - herunder både receptpligtige og ikke-
+receptpligtige lægemidler samt mineraler. Disse inkluderer: </p>
+<ul>
+<li>
+<p>syreneutraliserende lægemidler til behandling af fordøjelsesproblemer, halsbrand og 
+mavesår (se også ‘Hvornår skal du tage Revolade’ under punkt 3) </p>
+</li>
+<li>
+<p>medicin, som kaldes statiner, til at sænke kolesteroltallet </p>
+</li>
+<li>
+<p>nogle lægemidler til behandling af hiv-infektion, f.eks. lopinavir eller ritonavir </p>
+</li>
+<li>
+<p>ciclosporin anvendt i forbindelse med transplantationer eller sygdomme i immunsystemet </p>
+</li>
+<li>
+<p>nogle mineral- og vitamintilskud, herunder jern, calcium, magnesium, aluminium, selen og 
+zink (se også ‘Hvornår skal du tage Revolade’ under punkt 3) </p>
+</li>
+<li>
+<p>methotrexat og topotecan til behandling af kræft 
+Fortæl lægen, hvis du tager nogen af ovenstående præparater. Nogen af dem må ikke tages 
+sammen med Revolade. Det kan også være, at du skal tage medicinen på et andet tidspunkt, 
+eller at dosis skal justeres. Lægen vil gennemgå den medicin, du tager, og vil foreslå 
+alternativer, hvis det er nødvendigt. </p>
+</li>
+</ul>
+<p>Hvis du tager medicin, som forebygger blodpropper, har du øget risiko for blødninger. Lægen vil 
+diskutere dette med dig. </p>
+<p>Hvis du tager kortikosteroider, danazol og/eller azathioprin, skal behandlingen med disse måske 
+reduceres eller stoppes, mens du tager Revolade. </p>
+<p>Brug af Revolade sammen med mad og drikke 
+Tag ikke Revolade sammen med mad og drikke, da calciumindholdet i mejeriprodukter påvirker 
+optagelsen af medicinen. For yderligere oplysninger se under punkt 3 ‘Hvornår skal du tage 
+Revolade’. </p>
+<p>Graviditet og amning 
+Du må ikke tage Revolade, hvis du er gravid, medmindre lægen specifikt anbefaler det. Revolades 
+virkning under graviditet kendes ikke. </p>
+<ul>
+<li>
+<p>Fortæl det til lægen, hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at 
+blive gravid. </p>
+</li>
+<li>
+<p>Brug sikker prævention for at undgå at blive gravid, mens du er i behandling med Revolade. </p>
+</li>
+<li>
+<p>Hvis du bliver gravid, mens du er i behandling med Revolade, skal du fortælle det til lægen. </p>
+</li>
+</ul>
+<p>Du må ikke amme, mens du er i behandling med Revolade. Det vides ikke, om Revolade går over i 
+modermælken. 
+ 
+Hvis du ammer eller planlægger amning, skal du fortælle det til lægen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Revolade kan gøre dig svimmel og du kan få bivirkninger, som gør dig mindre agtpågivende. 
+Kør ikke bil og betjen ikke maskiner, medmindre du er sikker på, at du ikke er påvirket. </p>
+<p>Revolade indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
+er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take revolade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take revolade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. Du må ikke ændre dosis eller behandlingsplan for, hvornår du skal tage Revolade, 
+medmindre lægen eller apotekspersonalet råder dig til det. Mens du tager Revolade, vil du blive fulgt 
+af en læge, der har specialist erfaring i behandling af din sygdom. </p>
+<p>Hvor meget Revolade skal du tage 
+For ITP 
+Voksne og børn (6 til 17 år) - den sædvanlige startdosis af Revolade for ITP er én 50 mg tablet 
+daglig. Hvis du er af øst-/sydøstasiatisk oprindelse kan det være nødvendigt at begynde med en lavere 
+dosis på 25 mg. </p>
+<p>Børn (1 til 5 år) - den sædvanlige startdosis for ITP er én 25 mg tablet Revolade daglig. </p>
+<p>For hepatitis C 
+Voksne - den sædvanlige startdosis for hepatitis C er én 25 mg tablet Revolade daglig. Hvis du er af 
+øst-/sydøstasiatisk oprindelse vil du begynde med den samme dosis på 25 mg. </p>
+<p>For SAA 
+Voksne - den sædvanlige startdosis for SAA er én 50 mg tablet Revolade daglig. Hvis du er af øst-
+/sydøstasiatisk oprindelse kan det være nødvendigt at begynde med en lavere dosis på 25 mg. </p>
+<p>Det kan tage 1-2 uger, før Revolade virker. Lægen kan anbefale, at din daglige dosis Revolade ændres 
+afhængig af, hvordan du reagerer på din behandling. </p>
+<p>Sådan skal du tage tabletterne 
+Synk tabletten hel sammen med vand. </p>
+<p>Hvornår skal du tage Revolade </p>
+<p>Sørg for, at du </p>
+<ul>
+<li>
+<p>i 4 timer, før du tager Revolade </p>
+</li>
+<li>
+<p>og i 2 timer, efter at du har taget Revolade </p>
+</li>
+</ul>
+<p>ikke indtager et eller flere af følgende produkter: </p>
+<ul>
+<li>
+<p>mejeriprodukter såsom ost, smør, yoghurt eller is </p>
+</li>
+<li>
+<p>mælk, milkshakes og andre drikkevarer indeholdende mælk, yoghurt eller fløde </p>
+</li>
+<li>
+<p>syreneutraliserende lægemidler, som er medicin mod fordøjelsesproblemer og halsbrand </p>
+</li>
+<li>
+<p>nogle mineral- og vitamintilskud, herunder jern, calcium, magnesium, aluminium, selen og 
+zink </p>
+</li>
+</ul>
+<p>Hvis du ikke overholder ovenstående, vil medicinen ikke blive ordentligt optaget i din krop. </p>
+<p>i</p>
+<p>Spørg eventuelt lægen til råds om, hvad du må spise og drikke. </p>
+<p>Hvis du har taget for meget Revolade 
+Kontakt lægen eller apotekspersonalet med det samme. Vis pakken eller denne indlægsseddel, hvis 
+det er muligt. Du vil blive overvåget for tegn og symptomer på bivirkninger og straks få passende 
+behandling. </p>
+<p>Hvis du har glemt at tage Revolade 
+Tag den næste dosis på det sædvanlige tidspunkt Tag ikke mere end 1 dosis Revolade om dagen. </p>
+<p>Hvis du holder op med at tage Revolade 
+Stop ikke med at tage Revolade uden at have talt med lægen. Anbefaler lægen, at du skal stoppe 
+behandlingen, vil dit blodpladetal blive tjekket ugentligt i fire uger. Se også ‘Blødninger og blå 
+mærker, efter at du er stoppet behandlingen’ under punkt 4. Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>
+<p>INGEN mejeriprodukter, 
+syreneutraliserende midler 
+eller mineraltilskud<br />
+Tag Revolade 
+i 4 timer før 
+du tager 
+Revolade… 
+    ...  og i 2 timer 
+efter </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Symptomer, som du skal være opmærksom på: skal tilses af lægen 
+Personer, der tager Revolade enten for ITP eller pga. for lavt trombocyttal ved hepatitis C, kan udvikle 
+tegn på potentielt alvorlige bivirkninger. Det er vigtigt, at du fortæller lægen, hvis du udvikler 
+disse symptomer. </p>
+<p>Øget risiko for blodpropper 
+Nogle patienter kan have en større risiko for at udvikle blodpropper. Lægemidler som Revolade kan 
+forværre dette problem. Pludselig blokering af et blodkar pga. en blodprop er en ikke almindelig 
+bivirkning og kan forekomme hos op til 1 ud af 100 personer. </p>
+<p>Søg straks lægehjælp, hvis du oplever tegn eller symptomer på en blodprop, som f.eks.: </p>
+<ul>
+<li>
+<p>hævelse, smerte, varme, rødme eller ømhed i et ben </p>
+</li>
+<li>
+<p>pludselig åndenød, specielt ledsaget af en skarp smerte i brystet eller hurtig vejrtrækning </p>
+</li>
+<li>
+<p>mavesmerter, forstørret mave, blod i afføringen. </p>
+</li>
+</ul>
+<p>Leverproblemer 
+Revolade kan give forandringer, som kan ses i blodprøver, og som kan være tegn på leverskade. 
+Leverproblemer (stigning i enzymer målt i blodprøver) er almindelige og kan forekomme hos op til 1 
+ud af 10 personer. Andre leverproblemer er ikke almindeligt og kan forekomme hos op til 1 ud af 
+100 personer. </p>
+<p>Hvis du oplever nogle af disse tegn eller symptomer på leverproblemer: </p>
+<ul>
+<li>
+<p>Din hud eller det hvide i dine øjne bliver gult (gulsot) </p>
+</li>
+<li>
+<p>Din urin bliver usædvanlig mørk 
+ skal du straks fortælle det til lægen </p>
+</li>
+</ul>
+<p>Blødninger og blå mærker efter, at du er stoppet behandlingen 
+Inden for to uger efter, at du er stoppet med behandlingen med Revolade, vil dit blodpladetal normalt 
+falde tilbage til samme niveau, som inden behandlingen med Revolade startede. Det lavere 
+blodpladetal kan forøge din risikoen for blødning og blå mærker. Lægen vil tjekke dit blodpladetal i 
+mindst 4 uger efter du er stoppet behandlingen med Revolade. 
+ 
+Fortæl det til lægen, hvis du får blå mærker eller blødninger efter, at du er stoppet med at tage 
+Revolade. </p>
+<p>Nogle patienter får blødning i fordøjelsessystemet efter, at de er holdt op med at tage peginterferon, 
+ribavirin og Revolade. Symptomerne omfatter: </p>
+<ul>
+<li>
+<p>sort tjæreagtig afføring (det kan være tegn på blødning i tarmen, misfarvet afføring er en "ikke 
+almindelig" bivirkning og kan forekomme hos op til 1 ud af 100 personer) </p>
+</li>
+<li>
+<p>blod i afføringen </p>
+</li>
+<li>
+<p>opkastning af blod eller noget, der ligner kaffegrums 
+ 
+Fortæl omgående lægen, hvis du får nogle af disse symptomer. </p>
+</li>
+</ul>
+<p>Følgende bivirkninger er blevet indberettet til at være forbundet med behandling af Revolade 
+hos voksne patienter med ITP: </p>
+<p>Meget almindelige bivirkninger 
+Kan forekomme hos flere end 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>almindelig forkølelse </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>infektion i næsen, bihulerne, halsen og de øvre luftveje (infektion i de øvre luftveje) </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger, som kan ses i blodprøver </p>
+<ul>
+<li>forhøjede leverenzymer (alaninaminotransferase (ALAT)) </li>
+</ul>
+<p>Almindelige bivirkninger 
+Kan forekomme hos op til 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>muskelsmerter, muskelspasmer, muskelsvaghed </p>
+</li>
+<li>
+<p>knoglesmerter </p>
+</li>
+<li>
+<p>kraftig menstruationsblødning </p>
+</li>
+<li>
+<p>ondt i halsen og ubehag med at synke </p>
+</li>
+<li>
+<p>øjenproblemer herunder unormal øjentest, tørre øjne, øjensmerter, og sløret syn </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>influenza </p>
+</li>
+<li>
+<p>forkølelsessår </p>
+</li>
+<li>
+<p>lungebetændelse </p>
+</li>
+<li>
+<p>irritation og inflammation (hævelse) i bihulerne </p>
+</li>
+<li>
+<p>inflammation (hævelse) og infektion i mandlerne </p>
+</li>
+<li>
+<p>infektion i lungerne, bihulerne, mandlerne, næsen og halsen </p>
+</li>
+<li>
+<p>tandkødsinflammation </p>
+</li>
+<li>
+<p>tab af appetit </p>
+</li>
+<li>
+<p>prikkende, snurrende fornemmelse eller følelsesløshed </p>
+</li>
+<li>
+<p>nedsat følesans i huden </p>
+</li>
+<li>
+<p>døsighed </p>
+</li>
+<li>
+<p>øresmerter </p>
+</li>
+<li>
+<p>smerte, hævelse og ømhed i et af dine ben (oftest i læggen) med varm hud i det berørte område 
+(tegn på blodprop i en dyp blodåre) </p>
+</li>
+<li>
+<p>lokal hævelse fyldt med blod fra en bristet blodåre (blåt mærke) </p>
+</li>
+<li>
+<p>hedeture </p>
+</li>
+<li>
+<p>mundproblemer herunder tør mund, øm i munden, følsom tunge, blødende tandkød, sår i 
+munden </p>
+</li>
+<li>
+<p>løbende næse </p>
+</li>
+<li>
+<p>tandpine </p>
+</li>
+<li>
+<p>mavesmerte </p>
+</li>
+<li>
+<p>unormal leverfunktion </p>
+</li>
+<li>
+<p>hudforandringer herunder overdreven svedtendens, kløende og knoppet udslæt, røde prikker, 
+ændringer i udseendet af huden </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>skummende eller bobblende-lignende urin (tegn på protein i urinen) </p>
+</li>
+<li>
+<p>feber, varmefornemmelse </p>
+</li>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>føle sig afkræftet </p>
+</li>
+<li>
+<p>søvnproblemer, depression </p>
+</li>
+<li>
+<p>migræne </p>
+</li>
+<li>
+<p>nedsat syn </p>
+</li>
+<li>
+<p>snurrende fornemmelse (vertigo) </p>
+</li>
+<li>
+<p>luft i maven </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger, som kan ses i blodprøver: </p>
+<ul>
+<li>
+<p>nedsat antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>nedsat antal blodplader (trombocytopeni) </p>
+</li>
+<li>
+<p>nedsat antal hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat hæmoglobinniveau </p>
+</li>
+<li>
+<p>forhøjet antal eosinofiler </p>
+</li>
+<li>
+<p>forhøjet antal hvide blodlegemer (leukocytose) </p>
+</li>
+<li>
+<p>forhøjede niveauer af urinsyre </p>
+</li>
+<li>
+<p>nedsatte niveauer af kalium </p>
+</li>
+<li>
+<p>forhøjede niveauer af kreatinin </p>
+</li>
+<li>
+<p>forhøjede niveauer af alkalisk fosfatase </p>
+</li>
+<li>
+<p>forhøjede leverenzymer (aspartataminotransferease (ASAT)) </p>
+</li>
+<li>
+<p>forhøjet bilirubin i blodet (et stof som dannes i leveren) </p>
+</li>
+<li>
+<p>forhøjede niveauer af nogle proteiner </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger 
+Kan forekomme hos op til 1 ud af 100 personer: </p>
+<ul>
+<li>
+<p>allergisk reaktion </p>
+</li>
+<li>
+<p>afbrydelse af blodforsyningen til dele af hjertet </p>
+</li>
+<li>
+<p>pludselig åndenød, især når den er ledsaget af en skarp smerte i brystet og/eller hurtig 
+vejrtrækning, det kan være tegn på en blodprop i lungerne (se ‘Øget risiko for blodpropper’ 
+tidligere i punkt 4) </p>
+</li>
+<li>
+<p>tab af funktion i dele af lungerne pga. en blokering i lungearterierne </p>
+</li>
+<li>
+<p>mulig smerte, hævelse og/eller rødme omkring en vene, hvilket kan være et tegn på en blodprop 
+i venen </p>
+</li>
+<li>
+<p>gulfarvning af huden og/eller mavesmerter, hvilket kan være tegn på blokering i galdegangen, 
+leverlæsion, leverskade pga. betændelse (se ‘Leverproblemer’ tidligere i punkt 4) </p>
+</li>
+<li>
+<p>leverskade pga. medicin </p>
+</li>
+<li>
+<p>hjertet slår hurtigere, uregelmæssige hjerteslag, blåfarvet hud, forstyrrelser i hjerterytmen (QT-
+forlængelse), hvilket kan være et tegn på en lidelse relateret til hjertet og blodkarrene </p>
+</li>
+<li>
+<p>blodprop </p>
+</li>
+<li>
+<p>hedeture </p>
+</li>
+<li>
+<p>smertefulde, hævede led pga. urinsyre (urinsyregigt) </p>
+</li>
+<li>
+<p>mangel på interesse, humørændringer, gråd, der er vanskelig at stoppe eller opstår på uventede 
+tidspunkter </p>
+</li>
+<li>
+<p>balanceproblemer, taleproblemer, problemer med nervefunktion, rystelser </p>
+</li>
+<li>
+<p>smertefulde eller unormale hudreaktioner </p>
+</li>
+<li>
+<p>lammelse på den ene side af kroppen </p>
+</li>
+<li>
+<p>migræne med aura </p>
+</li>
+<li>
+<p>nerveskade </p>
+</li>
+<li>
+<p>udvidelse eller hævelse af blodkar, der forårsager hovedpine </p>
+</li>
+<li>
+<p>øjenproblemer herunder øget tåreproduktion, uklar linse i øjet (grå stær), blødning på nethinden, 
+tørre øjne </p>
+</li>
+<li>
+<p>problemer med næsen, halsen og bihulerne, vejrtrækningsproblemer under søvn </p>
+</li>
+<li>
+<p>blærer/sår i mund og hals </p>
+</li>
+<li>
+<p>tab af appetit </p>
+</li>
+<li>
+<p>problemer med fordøjelsessystemet herunder hyppig afføring, madforgiftning, blod i afføring, 
+opkast af blod </p>
+</li>
+<li>
+<p>blødning i endetarmen, ændring af afføringens farve, oppustet mave, forstoppelse </p>
+</li>
+<li>
+<p>mundproblemer herunder tør og øm mund, smerter i tungen, blødende tandkød, ubehag i 
+munden </p>
+</li>
+<li>
+<p>solskoldning </p>
+</li>
+<li>
+<p>følelsen af at være varm, ængstelig </p>
+</li>
+<li>
+<p>rødme eller hævelse rundt om et sår </p>
+</li>
+<li>
+<p>blødning omkring et kateter (hvis der er et til stede) der går ind i huden </p>
+</li>
+<li>
+<p>en følelse af et fremmedlegeme </p>
+</li>
+<li>
+<p>nyreproblemer herunder nyrebetændelse, overdreven natlig vandladning, nyresvigt, hvide 
+blodlegemer i urinen </p>
+</li>
+<li>
+<p>koldsved </p>
+</li>
+<li>
+<p>generel følelse af utilpashed </p>
+</li>
+<li>
+<p>hudinfektion </p>
+</li>
+<li>
+<p>hudforandringer herunder misfarvning af huden, afskalning, rødme, kløe og øget svedtendens </p>
+</li>
+<li>
+<p>muskelsvaghed </p>
+</li>
+<li>
+<p>kræft i endetarmen og tyktarmen </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger, som kan ses i blodprøver: </p>
+<ul>
+<li>
+<p>ændringer i formen af de røde blodlegemer </p>
+</li>
+<li>
+<p>tilstedeværelse af umodne hvide blodlegemer, som kan være et tegn på visse sygdomme </p>
+</li>
+<li>
+<p>forhøjet antal blodplader </p>
+</li>
+<li>
+<p>nedsatte niveauer af calcium </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer (anæmi) der skyldes øget nedbrydning af røde blodlegemer 
+(hæmolytisk anæmi) </p>
+</li>
+<li>
+<p>forhøjet antal myelocytter </p>
+</li>
+<li>
+<p>forhøjet antal båndneutrofiler </p>
+</li>
+<li>
+<p>forhøjet urinstof i blodet </p>
+</li>
+<li>
+<p>forhøjet niveauer af protein i urinen </p>
+</li>
+<li>
+<p>forhøjede niveauer af albumin i blodet </p>
+</li>
+<li>
+<p>forhøjede niveauer af total protein </p>
+</li>
+<li>
+<p>nedsatte niveauer af albumin i blodet </p>
+</li>
+<li>
+<p>forhøjet pH i urinen </p>
+</li>
+<li>
+<p>forhøjet hæmoglobinniveau </p>
+</li>
+</ul>
+<p>Følgende bivirkninger er blevet indberettet til at være forbundet med behandling af Revolade 
+hos børn (i alderen 1 til 17 år) med ITP: 
+Hvis disse bivirkninger bliver alvorlige, skal du fortælle det til din læge, sygeplejerske eller apoteket. </p>
+<p>Meget almindelige bivirkninger 
+Disse kan forekomme hos flere end 1 ud af 10 børn: </p>
+<ul>
+<li>
+<p>infektion i næsen, bihulerne, halsen og de øvre luftveje, almindelig forkølelse (infektion i de 
+øvre luftveje) </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger 
+Disse kan forekomme hos op til 1 ud af 10 børn: </p>
+<ul>
+<li>
+<p>besvær med at sove (søvnløshed) </p>
+</li>
+<li>
+<p>tandpine </p>
+</li>
+<li>
+<p>ondt i næsen og halsen </p>
+</li>
+<li>
+<p>kløende, løbende eller tilstoppet næse </p>
+</li>
+<li>
+<p>øm i halsen, løbende næse, tilstoppet næse og nysen </p>
+</li>
+<li>
+<p>mundproblemer herunder tør mund, øm mund, følsom tunge, blødende tandkød, sår i munden </p>
+</li>
+</ul>
+<p>Følgende bivirkninger er blevet indberettet til at være forbundet med behandling af Revolade 
+kombination med peginterferon og ribavirin hos patienter med hepatitis C (HCV): </p>
+<p>Meget almindelige bivirkninger 
+Kan forekomme hos flere end 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>tab af appetit </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>kvalme, diarré </p>
+</li>
+<li>
+<p>muskelsmerter, muskelsvaghed </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>træthedsfølelse </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>unormalt hårtab </p>
+</li>
+<li>
+<p>føle sig afkræftet </p>
+</li>
+<li>
+<p>influenzalignende symptomer </p>
+</li>
+<li>
+<p>hævelse af hænder eller fødder </p>
+</li>
+<li>
+<p>kulderystelser </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger, som kan ses i blodprøver: </p>
+<ul>
+<li>nedsat antal røde blodlegemer (anæmi) </li>
+</ul>
+<p>Almindelige bivirkninger 
+Kan forekomme hos op til 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>infektion i urinvejssystemet </p>
+</li>
+<li>
+<p>inflammation (hævelse) i næsen, svælget eller munden, influenzalignende symptomer, tør 
+mund, ømhed eller inflammation (hævelse) i munden, tandpine </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>søvnproblemer, unormal døsighed, depression, angst </p>
+</li>
+<li>
+<p>svimmelhed, problemer med at koncentrere sig eller huske, humørændringer </p>
+</li>
+<li>
+<p>nedsat hjernefunktion efter leverskade </p>
+</li>
+<li>
+<p>prikken, snurren eller sovende fornemmelse i hænder eller fødder </p>
+</li>
+<li>
+<p>feber, hovedpine </p>
+</li>
+<li>
+<p>øjenproblemer herunder uklar linse i øjnene (grå stær), tørre øjne, små gule aflejringer på 
+nethinden, gulfarvning af det hvide i øjnene </p>
+</li>
+<li>
+<p>blødning på nethinden </p>
+</li>
+<li>
+<p>snurrende fornemmelse (vertigo) </p>
+</li>
+<li>
+<p>hurtig eller uregelmæssig puls (palpitationer), åndenød </p>
+</li>
+<li>
+<p>hoste med slim, løbende næse, influenza, forkølelsessår, ondt i halsen og ubehag med at synke </p>
+</li>
+<li>
+<p>problemer med fordøjelsessystemet herunder opkastning, mavesmerter, fordøjelsesbesvær, 
+forstoppelse, udspilet mave, smagsforstyrrelser, hæmorider, mavesmerter/ubehag, hævede 
+blodkar og blødning i spiserøret (oesphagus) </p>
+</li>
+<li>
+<p>tandpine </p>
+</li>
+<li>
+<p>leverproblemer, herunder tumor i leveren, gulfarvning af det hvide i øjnene eller af huden 
+(gulsot), leverskade pga. medicin (se ’Leverproblemer’ tidligere i punkt 4) </p>
+</li>
+<li>
+<p>hudforandringer herunder udslæt, tør hud, eksem, rødme af huden, kløe, overdreven 
+svedtendens, usædvanlige hudgevækster, hårtab </p>
+</li>
+<li>
+<p>ledsmerter, rygsmerter, knoglesmerter, smerter i ekstremiteterne (arme, ben, hænder eller 
+fødder), muskelspasmer </p>
+</li>
+<li>
+<p>irritabel, generel følelse af utilpashed, hudreaktion, såsom rødme eller hævelse og smerter på 
+injektionsstedet, smerter i brystet og ubehag, væskeophobning i kroppen eller ekstremiteter, der 
+forårsager hævelse </p>
+</li>
+<li>
+<p>infektion i næsen, bihulerne, halsen og de øvre luftveje, almindelig forkølelse (infektion i de 
+øvre luftveje), betændelse i bronkieslimhinden </p>
+</li>
+<li>
+<p>depression, angst, søvnproblemer, nervøsitet </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger, som kan ses i blodprøver: </p>
+<ul>
+<li>
+<p>forhøjet blodsukker (glucose) </p>
+</li>
+<li>
+<p>nedsat antal hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat antal neutrofiler </p>
+</li>
+<li>
+<p>nedsat niveau af albumin i blodet </p>
+</li>
+<li>
+<p>nedsat niveau af hæmoglobin </p>
+</li>
+<li>
+<p>forhøjede niveauer af bilirubin i blodet (et stof som dannes i leveren) </p>
+</li>
+<li>
+<p>ændringer af de enzymer som styrer blodets størkningsevne </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger 
+Kan forekomme hos op til 1 ud af 100 personer: </p>
+<ul>
+<li>
+<p>smerte ved vandladning </p>
+</li>
+<li>
+<p>forstyrrelser i hjerterytmen (QT-forlængelse) </p>
+</li>
+<li>
+<p>maveinfluenza (gastroenteritis), ondt i halsen </p>
+</li>
+<li>
+<p>mundblærer/sår, betændelse i maven </p>
+</li>
+<li>
+<p>hudforandringer herunder ændring i farve, afskalning, rødme, kløe, læsion og nattesved </p>
+</li>
+<li>
+<p>blodpropper i en vene til leveren (mulig skade på lever og/eller fordøjelsessystemet </p>
+</li>
+<li>
+<p>unormale blodpropper i de små blodkar med nyresvigt </p>
+</li>
+<li>
+<p>udslæt, blå mærker ved injektionsstedet, trykken for brystet </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer (anæmi) der skyldes øget nedbrydning af røde blodlegemer 
+(hæmolytisk anæmi) </p>
+</li>
+<li>
+<p>forvirring, oprevethed </p>
+</li>
+<li>
+<p>leversvigt </p>
+</li>
+</ul>
+<p>Følgende bivirkninger er blevet indberettet til at være forbundet med behandling af Revolade 
+hos patienter med svær aplastisk anæmi (SAA): 
+Hvis disse bivirkninger bliver alvorlige, skal du fortælle det til din læge, sygeplejerske eller apoteket. </p>
+<p>Meget almindelige bivirkninger 
+Kan forekomme hos flere end 1 ud af 10 personer. </p>
+<ul>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>smerter i mund og hals </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>smerter i leddene (artralgi) </p>
+</li>
+<li>
+<p>smerter i ekstremiteterne (arme, ben, hænder og fødder) </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>meget kraftig træthedsfølelse </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>kulderystelse </p>
+</li>
+<li>
+<p>kløende øjne </p>
+</li>
+<li>
+<p>blister i munden </p>
+</li>
+<li>
+<p>blødende tandkød </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>muskelspasmer </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger, der kan ses i blodprøver </p>
+<ul>
+<li>
+<p>unormale ændringer af cellerne i din knoglemarv </p>
+</li>
+<li>
+<p>forhøjede niveauer af leverenzymer (aspartataminotransferase (ASAT)) </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger 
+Kan forekomme hos op til 1 ud af 10 personer. </p>
+<ul>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>depression </p>
+</li>
+<li>
+<p>kuldefølelse </p>
+</li>
+<li>
+<p>generel utilpashed </p>
+</li>
+<li>
+<p>øjenproblemer, herunder synsproblemer, sløret syn, uklar linse i øjet (grå stær), prikker eller 
+udfældninger i øjet (flydere i glaslegemet), tørre øjne, kløende øjne, gulfarvning af det hvide i 
+øjnene eller af huden </p>
+</li>
+<li>
+<p>næseblod </p>
+</li>
+<li>
+<p>problemer i fordøjelsessystemet, herunder synkebesvær, smerter i munden, hævet tunge, opkast, 
+tab af appetit, mavesmerter/-ubehag, oppustet mave, tarmluft, forstoppelse, forstyrrelser i 
+tarmens bevægelighed, som kan forårsage forstoppelse, oppustethed, diarré og/eller ovennævnte 
+symptomer, ændringer i afføringens farve </p>
+</li>
+<li>
+<p>besvimelse </p>
+</li>
+<li>
+<p>hudproblemer herunder små røde eller lilla prikker, der skyldes blødning i huden (petekkier) 
+udslæt, kløe, nældefeber, hudlæsioner </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>knoglesmerter </p>
+</li>
+<li>
+<p>svaghed (asteni) </p>
+</li>
+<li>
+<p>hævelser i underarme og underben, som følge af væskeophobning </p>
+</li>
+<li>
+<p>unormal urinfarve </p>
+</li>
+<li>
+<p>afbrydelse af blodforsyningen til milten (miltinfarkt) </p>
+</li>
+<li>
+<p>løbende næse </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger, der kan ses i blodprøver </p>
+<ul>
+<li>
+<p>forhøjede antal enzymer som følge af nedbrydning af muskler (kreatinkinase) </p>
+</li>
+<li>
+<p>ophobning af jern i kroppen </p>
+</li>
+<li>
+<p>nedsat niveau af blodsukker (hypoglykæmi) </p>
+</li>
+<li>
+<p>forhøjede niveauer af bilirubin i blodet (et stof som dannes i leveren) </p>
+</li>
+<li>
+<p>nedsatte niveauer af hvide blodlegemer </p>
+</li>
+</ul>
+<p>Bivirkninger, hvor frekvensen ikke er kendt 
+Frekvensen kan ikke estimeres ud fra forhåndenværende data </p>
+<ul>
+<li>
+<p>misfarvning af huden </p>
+</li>
+<li>
+<p>mørkfarvning af huden </p>
+</li>
+<li>
+<p>leverskade pga. medicin </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apotekspersonalet. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store revolade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store revolade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisterkortet efter EXP. </p>
+<p>Lægemidlet kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revolade indeholder: 
+Aktivt stof: eltrombopag. </p>
+<p>12,5 mg filmovertrukne tabletter 
+Hver filmovertrukken tablet indeholder eltrombopagolamin svarende til 12,5 mg eltrombopag. </p>
+<p>25 mg filmovertrukne tabletter 
+Hver filmovertrukken tablet indeholder eltrombopagolamin svarende til 25 mg eltrombopag. </p>
+<p>50 mg filmovertrukne tabletter 
+Hver filmovertrukken tablet indeholder eltrombopagolamin svarende til 50 mg eltrombopag. </p>
+<p>75 mg filmovertrukne tabletter 
+Hver filmovertrukken tablet indeholder eltrombopagolamin svarende til 75 mg eltrombopag. </p>
+<p>Øvrige indholdsstoffer: hypromellose, macrogol 400, magnesiumstearat, mannitol (E421), 
+mikrokrystallinsk cellulose, povidon, natriumstivelsesglycolat, titandioxid (E171). </p>
+<p>Revolade 12,5 mg og 25 mg filmovertrukne tabletter indeholder desuden polysorbat 80 (E433). </p>
+<p>Revolade 50 mg filmovertrukne tabletter indeholder desuden rød jernoxid (E172) og gul jernoxid 
+(E172). </p>
+<p>Revolade 75 mg filmovertrukne tabletter indeholder desuden rød jernoxid (E172) og sort jernoxid 
+(E172). </p>
+<p>Udseende og pakningsstørrelser 
+Revolade 12,5 mg filmovertrukne tabletter er runde, bikonvekse, hvide og præget "GS MZ1" og 
+"12,5" på den ene side. </p>
+<p>Revolade 25 mg filmovertrukne tabletter er runde, bikonvekse, hvide og præget "GS NX3" og "25" på 
+den ene side. </p>
+<p>Revolade 50 mg filmovertrukne tabletter er runde, bikonvekse, brune og præget "GS UFU" og "50" på 
+den ene side. </p>
+<p>Revolade 75 mg filmovertrukne tabletter er runde, bikonvekse, pink og præget "GS FFS" og "75" på 
+den ene side. </p>
+<p>Revolade leveres i aluminiumsblisterpakninger i en æske indeholdende 14 eller 28 filmovertrukne 
+tabletter og multipakninger indeholdende 84 (3 pakninger af 28) filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Lek d.d 
+Verovskova Ulica Ljubljana 1Slovenien </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova Ulica Ljubljana 1Slovenien </p>
+<p>Novartis Farmacéutica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spanien </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>Glaxo Wellcome S.A. 
+Avenida de Extremadura 3 
+09400 Aranda de Duero 
+Burgos 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Revolade 25 mg pulver til oral suspension 
+eltrombopag </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </p>
+</li>
+<li>
+<p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f34ab6116c3c4c0c8f28f2de9888b61e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for revolade Package Leaflet for language en"
+Description: "ePI document Bundle for revolade Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f34ab6116c3c4c0c8f28f2de9888b61e"
+* entry[0].resource = composition-en-f34ab6116c3c4c0c8f28f2de9888b61e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf34ab6116c3c4c0c8f28f2de9888b61e"
+* entry[=].resource = mpf34ab6116c3c4c0c8f28f2de9888b61e
+                            
+                    
+Instance: bundlepackageleaflet-da-f34ab6116c3c4c0c8f28f2de9888b61e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for revolade Package Leaflet for language da"
+Description: "ePI document Bundle for revolade Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f34ab6116c3c4c0c8f28f2de9888b61e"
+* entry[0].resource = composition-da-f34ab6116c3c4c0c8f28f2de9888b61e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf34ab6116c3c4c0c8f28f2de9888b61e"
+* entry[=].resource = mpf34ab6116c3c4c0c8f28f2de9888b61e
+                            
+                    
+
+
+
+Instance: mpf34ab6116c3c4c0c8f28f2de9888b61e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Revolade 12.5 mg film-coated tablets"
-Description: "Revolade 12.5 mg film-coated tablets"
+Title: "Medicinal Product revolade"
+Description: "revolade"
 Usage: #inline
 
  
@@ -770,7 +2175,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Revolade 12.5 mg film-coated tablets"
+  * productName = "revolade"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -797,29 +2202,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f34ab6116c3c4c0c8f28f2de9888b61e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for revolade Package Leaflet for language en"
-Description: "ePI document Bundle for revolade Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f34ab6116c3c4c0c8f28f2de9888b61eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Revolade 12.5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "revolade"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f34ab6116c3c4c0c8f28f2de9888b61e"
-* entry[0].resource = composition-en-f34ab6116c3c4c0c8f28f2de9888b61e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc1ef848a001aba2432cd8bcb4559cf1c"
-* entry[=].resource = mpc1ef848a001aba2432cd8bcb4559cf1c
-                            
-                      
+* title = "List of all ePIs associated with revolade"
+
+* subject = Reference(mpc1ef848a001aba2432cd8bcb4559cf1c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#revolade "revolade"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f34ab6116c3c4c0c8f28f2de9888b61e) // revolade en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f34ab6116c3c4c0c8f28f2de9888b61e) // revolade da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f34ab6116c3c4c0c8f28f2de9888b61e
+InstanceOf: List
+
+* insert f34ab6116c3c4c0c8f28f2de9888b61eListRuleset
+    

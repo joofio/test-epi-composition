@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-06248bd6009a92ba547ad80d4d64eaf8
 InstanceOf: CompositionUvEpi
 Title: "Composition for lantus Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpcb38cea31adcb4ccaab6e84baa41f71a)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -434,9 +437,606 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-06248bd6009a92ba547ad80d4d64eaf8
+InstanceOf: CompositionUvEpi
+Title: "Composition for lantus Package Leaflet"
+Description:  "Composition for lantus Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpcb38cea31adcb4ccaab6e84baa41f71a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - lantus"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Lantus 
+3. Sådan skal du tage Lantus 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lantus is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lantus is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lantus indeholder insulin glargin. Dette er et modificeret insulin, der ligner det insulin, der dannes i 
+kroppen.  </p>
+<p>Lantus anvendes til behandling af sukkersyge (diabetes mellitus) hos voksne, unge og børn fra 2 år og 
+opefter. Diabetes mellitus er en sygdom, som skyldes, at kroppen ikke danner tilstrækkeligt insulin til 
+at holde blodsukkeret under kontrol. Insulin glargin er langtidsvirkende og har en jævn 
+blodsukkersænkende effekt. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lantus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lantus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Lantus:</p>
+<ul>
+<li>Hvis du er allergisk over for insulin glargin eller et af de øvrige indholdsstoffer i Lantus 
+(angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du tager Lantus. 
+Overhold nøje anvisningerne vedrørende dosering, kontrollerne (blod- og urinprøver), kostplan og den 
+fysiske aktivitet (fysisk arbejde og motion), som er aftalt med lægen.  </p>
+<p>Hvis dit blodsukker er for lavt (hypoglykæmi), skal du følge vejledningen vedrørende hypoglykæmi 
+(se det indrammede afsnit sidst i denne indlægsseddel). </p>
+<p>Hudforandringer på injektionsstedet 
+Injektionsstedet bør løbende skiftes for at forebygge hudforandringer, f.eks. knuder under huden. Hvis 
+du injicerer insulinet i et område med knuder, kan det være, at insulinet ikke virker så godt (se 
+afsnittet Sådan skal du bruge Lantus). Kontakt lægen, hvis du for øjeblikket injicerer i et </p>
+<p>område med knuder, før du begynder at injicere i et andet område. Det kan være, at lægen vil fortælle 
+dig, at du skal tjekke dit blodsukker oftere og tilpasse insulindosen eller dosen af andre antidiabetiske 
+lægemidler. </p>
+<p>Rejser 
+Før du skal ud at rejse, bør du tale med din læge. Du kan måske have behov for at tale om:</p>
+<ul>
+<li>det er muligt at købe dit insulin i det land, som du skal besøge, </li>
+<li>forsyninger af insulin, sprøjter etc., </li>
+<li>korrekt opbevaring af dit insulin under rejsen, </li>
+<li>tidspunkter for måltider og insulin-injektioner under rejsen, </li>
+<li>eventuelle påvirkninger ved at skifte til andre tidszoner, </li>
+<li>eventuelle nye sundhedsrisici i de lande, som du skal besøge, </li>
+<li>hvad du skal gøre i krisesituationer, hvis du føler dig utilpas eller bliver syg. </li>
+</ul>
+<p>Sygdomme og ulykkestilfælde 
+I følgende situationer kan kontrollen af din diabetes kræve ekstra opmærksomhed (for eksempel, 
+tilpasning af insulin-dosis, blod- og urinprøver):</p>
+<ul>
+<li>Hvis du bliver syg eller kommer alvorligt til skade, kan dit blodsukkerniveau blive for højt 
+(hyperglykæmi).  </li>
+<li>Hvis du ikke spiser tilstrækkeligt, kan dit blodsukkerniveau blive for lavt (hypoglykæmi).<br />
+I de fleste tilfælde skal du kontakte en læge. Sørg for at kontakte lægen tidligt i forløbet. </li>
+</ul>
+<p>Hvis du har type 1-diabetes (har insulinkrævende diabetes mellitus), må du ikke afbryde 
+insulinbehandlingen, og du skal sørge for fortsat at få tilstrækkeligt med kulhydrater. Fortæl altid de 
+mennesker, som passer eller behandler dig, at du skal have insulin. </p>
+<p>Behandling med insulin kan føre til, at kroppen danner antistoffer mod insulin (stoffer, der reagerer 
+mod insulin). Kun i sjældne tilfælde vil det betyde, at din insulindosis skal ændres.<br />
+Nogle patienter med årelang type 2-diabetes mellitus og hjertesygdom eller tidligere slagtilfælde, der 
+var i behandling med pioglitazon (oral antidiabetika, der anvendes til behandling af type 2-diabetes 
+mellitus) og insulin, udviklede hjertesvigt. Hvis du oplever tegn på hjertesvigt såsom unormal 
+åndenød, hurtig vægtstigning eller ophobning af væske (ødemer), skal du kontakte din læge så hurtigt 
+som muligt.  </p>
+<p>Børn </p>
+<p>Der er ingen erfaring med anvendelse af Lantus til børn under 2 år. </p>
+<p>Brug af anden medicin sammen med Lantus </p>
+<p>Nogle lægemidler kan ændre blodsukkeret (få det til at falde, stige eller begge dele afhængig af 
+situationen). I hver enkelt situation kan det blive nødvendigt at justere din insulindosis for at undgå for 
+lavt eller for højt blodsukker. Vær forsigtig, når du påbegynder eller holder op med at tage andre 
+lægemidler. </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. 
+Før du begynder at tage et lægemiddel, skal du spørge lægen, om det kan påvirke blodsukkeret, og 
+hvilke forholdsregler du eventuelt skal tage. </p>
+<p>Medicin, der kan få dit blodsukker til at falde (hypoglykæmi), omfatter:</p>
+<ul>
+<li>alle øvrige lægemidler til behandling af diabetes, </li>
+<li>angiotensinkonverterende enzym (ACE) hæmmere (anvendes til behandling af visse 
+hjertesygdomme eller højt blodtryk), </li>
+<li>disopyramid (anvendes til behandling af visse hjertesygdomme), </li>
+<li>fluoxetin (anvendes til behandling af depression), </li>
+<li>fibrater (anvendes til at sænke et højt indhold af lipider i blodet), </li>
+<li>
+<p>monoamin-oxidase (MAO) hæmmere (anvendes til behandling af depression), </p>
+</li>
+<li>
+<p>pentoxifyllin, propoxyphen, salicylater (såsom acetylsalicylsyre, der anvendes smertestillende 
+og febernedsættende), </p>
+</li>
+<li>antibiotika af typen sulfonamider. </li>
+</ul>
+<p>Medicin, der kan få dit blodsukker til at stige (hyperglykæmi), omfatter:</p>
+<ul>
+<li>kortikosteroider (såsom kortison, anvendes til behandling af betændelsestilstande), </li>
+<li>danazol (medicin der virker på ægløsning), </li>
+<li>diazoxid (anvendes til behandling af højt blodtryk), </li>
+<li>vanddrivende lægemidler (anvendes til behandling af højt blodtryk eller overdreven 
+væskeophobning), </li>
+<li>glucagon (bugspytkirtelhormon, der anvendes til behandling af meget lavt blodsukker), </li>
+<li>isoniazid (anvendes til behandling af tuberkulose), </li>
+<li>østrogener og gestagener (findes i f.eks. p-piller anvendes til forebyggelse af graviditet), </li>
+<li>phenthiazinderivater (anvendes til behandling af psykiske sygdomme), </li>
+<li>somatropin (væksthormon), </li>
+<li>sympatomimetika (såsom adrenalin, salbutamol og terbutalin, anvendes til behandling af astma), </li>
+<li>thyreoideahormoner (anvendes til behandling af sygdomme i skjoldbruskkirtlen), </li>
+<li>atypiske antipsykotiske lægemidler (såsom clozapin, olanzapin), </li>
+<li>proteasehæmmere (anvendes til behandling af HIV). </li>
+</ul>
+<p>Blodsukkeret kan enten stige eller falde, hvis du tager:</p>
+<ul>
+<li>beta-blokkere (anvendes til behandling af højt blodtryk), </li>
+<li>clonidin (anvendes til behandling af højt blodtryk), </li>
+<li>lithiumsalte (anvendes til behandling af psykiske sygdomme). </li>
+</ul>
+<p>Pentamidin (anvendes til behandling af infektion forårsaget af parasitter) kan medføre for lavt 
+blodsukker, der undertiden kan efterfølges af for højt blodsukker. </p>
+<p>Betablokkere og andre sympatikolytiske lægemidler (som f.eks. clonidin, guanethidin og reserpin) kan 
+endvidere svække eller helt undertrykke de første advarselssymptomer på for lavt blodsukker 
+(hypoglykæmi). </p>
+<p>Hvis du er usikker på, om du tager et af disse lægemidler, bør du spørge din læge eller 
+apotekspersonalet. </p>
+<p>Brug af Lantus sammen med alkohol </p>
+<p>Dit blodsukker kan enten stige eller falde, hvis du drikker alkohol. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Din insulindosis skal muligvis justeres under graviditeten og efter fødslen. En ekstra omhyggelig 
+diabeteskontrol og forebyggelse af hypoglykæmi er vigtig for dit barns sundhed. </p>
+<p>Kontakt din læge, hvis du ammer, da det kan være nødvendigt at justere din insulindosis og diæt. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Din koncentrations- og reaktionsevne kan være nedsat, hvis du:</p>
+<ul>
+<li>har hypoglykæmi (for lavt blodsukker), </li>
+<li>har hyperglykæmi (for højt blodsukker), </li>
+<li>har problemer med synet.  </li>
+</ul>
+<p>Vær opmærksom på dette mulige problem i alle situationer, hvor du kan bringe dig selv eller andre i 
+fare (såsom ved bilkørsel eller ved betjening af maskiner). Du skal kontakte din læge og få råd om 
+bilkørsel hvis:</p>
+<ul>
+<li>du har hyppige tilfælde af hypoglykæmi, </li>
+<li>de første advarselssymptomer, som kan advare dig om hypoglykæmi, er svage eller helt 
+mangler. </li>
+</ul>
+<p>Lantus indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per dosis, dvs. det er i det 
+væsentlige "natriumfrit". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lantus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lantus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Selvom Lantus indeholder det samme aktive stof som Toujeo (insulin glargin 300 enheder/ml), kan 
+man ikke umiddelbart skifte mellem de to præparater. Skift fra den ene insulinbehandling til den anden 
+kræver recept, kontrol hos din læge og regelmæssige blodsukkermålinger. Kontakt venligst din læge 
+for yderligere information. </p>
+<p>Dosis </p>
+<p>Alt efter din levevis og resultatet af dine blodsukkermålinger (glucosemålinger) og din tidligere 
+anvendelse af insulin vil din læge:</p>
+<ul>
+<li>afgøre hvor meget Lantus du skal have per dag og på hvilket tidspunkt af dagen, </li>
+<li>fortælle dig, hvornår du skal kontrollere dit blodsukker, og om det er nødvendigt at udføre 
+urinprøver, </li>
+<li>fortælle dig, hvornår du eventuelt skal have en større eller mindre dosis Lantus. </li>
+</ul>
+<p>Lantus er et langtidsvirkende insulin. Din læge vil muligvis give dig besked på at tage det sammen 
+med et hurtigtvirkende insulin eller med tabletter mod højt blodsukker. </p>
+<p>Mange faktorer kan påvirke blodsukkeret. Du bør være bekendt med disse faktorer for at kunne handle 
+korrekt i tilfælde af ændringer i dit blodsukker og for at forhindre, at blodsukkeret bliver for højt eller 
+for lavt. Yderligere oplysninger findes i det indrammede afsnit sidst i denne indlægsseddel. </p>
+<p>Brug til børn og unge </p>
+<p>Lantus kan anvendes til unge og børn fra 2 år og opefter. Brug dette lægemiddel nøjagtigt efter lægens 
+anvisning.  </p>
+<p>Doseringsinterval </p>
+<p>Du skal have én injektion af Lantus hver dag på samme tid af dagen. </p>
+<p>Injektionsteknik </p>
+<p>Lantus injiceres under huden. Lantus må IKKE injiceres i en blodåre, da dette vil ændre dets virkning, 
+og kan forårsage hypoglykæmi. </p>
+<p>Din læge vil vise dig i hvilke hudområder, du skal injicere Lantus. Ved hver injektion skal du skifte til 
+et nyt injektionssted inden for det bestemte hudområde, som du bruger. </p>
+<p>Håndtering af hætteglassene </p>
+<p>Se på hætteglasset, før du bruger det. Opløsningen må kun bruges, hvis den er klar, farveløs og ligner 
+vand, og ikke indeholder synlige partikler. Skal ikke rystes eller blandes før anvendelse. Sørg for, at 
+hverken alkohol, andre desinficerende midler eller andre stoffer i øvrigt kommer i forbindelse med 
+insulinet. Lantus må ikke blandes med andre insuliner eller lægemidler. Må ikke fortyndes. Blanding 
+eller fortynding kan ændre virkningen af Lantus. </p>
+<p>Brug altid et nyt hætteglas, hvis du opdager at din blodsukkerkontrol uventet forværres. Dette kan 
+betyde at insulinen har mistet noget af effekten. Få det undersøgt hos din læge eller på apoteket, hvis 
+du mener der er et problem med Lantus. </p>
+<p>Forveksling af insuliner </p>
+<p>Du skal altid kontrollere etiketten før hver injektion for at undgå forveksling mellem Lantus og andre 
+insuliner. </p>
+<p>Hvis du har taget for meget Lantus </p>
+<ul>
+<li>Hvis du har injiceret for meget Lantus, kan dit blodsukker blive for lavt (hypoglykæmi). 
+Kontrollér blodsukkeret hyppigt. Indtagelse af mere mad og kontrol af blodsukkeret kan 
+almindeligvis forebygge udvikling af hypoglykæmi. Information om behandling af 
+hyperglykæmi findes i det indrammede afsnit sidst i indlægssedlen. </li>
+</ul>
+<p>Hvis du har glemt at tage Lantus </p>
+<ul>
+<li>Hvis du har sprunget en dosis Lantus over eller hvis du ikke har injiceret nok insulin, kan 
+blodsukkeret blive for højt (hyperglykæmi). Kontrollér blodsukkeret hyppigt.<br />
+Information om behandling af hypoglykæmi findes i det indrammede afsnit sidst i indlægssedlen. </li>
+<li>Du må ikke tage en dobbeltdosis som erstatning for en glemt dosis. </li>
+</ul>
+<p>Hvis du holder op med at tage Lantus </p>
+<p>Dette kan medføre alvorlig hyperglykæmi (meget forhøjet blodsukker) og ketoacidose (syreophobning 
+i blodet fordi kroppen nedbryder fedt i stedet for sukker). Afbryd ikke behandlingen med Lantus uden 
+at tale med din læge, som vil fortælle dig, hvad der skal gøres. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis du får symptomer på for lavt blodsukker (hypoglykæmi) skal du straks gøre noget for at øge 
+dit blodsukker (se det indrammede afsnit sidst i indlægssedlen). Hypoglykæmi (lavt blodsukker) kan 
+være meget alvorligt og er meget almindeligt ved insulinbehandling (kan forekomme hos flere end 1 
+ud af 10 patienter). Lavt blodsukker betyder, at der ikke er nok sukker i blodet. Hvis dit blodsukker 
+bliver for lavt, kan du miste bevidstheden. Alvorlig hypoglykæmi kan give hjerneskade og være 
+livstruende. Yderligere oplysninger findes i det indrammede afsnit sidst i indlægssedlen. </p>
+<p>Alvorlige allergiske reaktioner (sjælden, kan forekomme hos op til 1 ud af 1.000 patienter) - kan 
+give følgende symptomer såsom omfattende hudreaktioner (udslæt og kløe overalt på kroppen), 
+alvorlig hævelse af hud eller slimhinder (angioødem), åndenød, blodtryksfald med hurtig hjerterytme 
+og svedudbrud. Alvorlige allergiske reaktioner over for insulin kan være livstruende. Du skal straks 
+kontakte lægen, hvis du får symptomer på alvorlige allergiske reaktioner. </p>
+<p>Hudforandringer på injektionsstedet: 
+Hvis du for ofte injicerer insulin på samme sted på huden, kan fedtvævet under huden på dette sted 
+svinde ind (lipoatrofi) (kan forekomme hos op til 1 ud af 100 patienter) eller blive tykkere 
+(lipohypertrofi) (kan forekomme hos op til 1 ud af 10 patienter). Knuder under huden kan også skyldes 
+ophobning af et protein, der kaldes amyloid (kutan amyloidose; det vides ikke, hvor ofte dette 
+forekommer). Hvis du injicerer insulinet i et område med knuder, kan det være, at insulinet ikke virker 
+så godt. Skift injektionssted ved hver injektion for at forebygge disse hudforandringer. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) 
+ 
+Hud og allergiske reaktioner ved injektionsstedet 
+Symptomerne kan omfatte rødme, usædvanligt stærke smerter når der injiceres, kløe, udslæt, hævelse 
+eller betændelse. Disse kan brede sig til området omkring injektionsstedet. De fleste mindre alvorlige 
+reaktioner på insulin forsvinder som regel i løbet af et par dage til få uger. </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter) 
+ 
+Øjenreaktioner 
+En markant ændring (forbedring eller forværring) af din blodsukkerkontrol kan forårsage en 
+midlertidig forværring af dit syn. Hvis du lider af proliferativ retinopati (en øjensygdom, der kan ses i 
+forbindelse med diabetes) kan alvorlige hypoglykæmiske anfald forårsage forbigående synstab. 
+ 
+Generelle lidelser 
+Insulinbehandlingen kan i sjældne tilfælde også føre til forbigående væskeophobning i kroppen med 
+hævede ankler og lægge. </p>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 patienter) 
+I meget sjældne tilfælde kan forekomme dysgeusia (smagsforstyrrelser) og myalgia (muskelsmerter). </p>
+<p>Anvendelse hos børn og unge </p>
+<p>Generelt svarer bivirkningerne set hos børn og unge på 18 år eller yngre til bivirkningerne set hos 
+voksne.<br />
+Klager over reaktioner på injektionsstedet (smerter på injektionsstedet og reaktioner på 
+injektionsstedet) og hudreaktioner (udslæt og nældefeber) er rapporteret relativt oftere hos børn og 
+unge på 18 år eller yngre end hos voksne patienter. 
+Der er ingen erfaring med børn under 2 år.  </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lantus"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lantus"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og på hætteglassets etiket efter 
+"EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Uanbrudte hætteglas 
+Opbevares i køleskab (2C-8C). Må ikke nedfryses eller placeres op ad køleskabets køleelementer 
+eller oven på fryseelementer. Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+<p>Anbrudte hætteglas<br />
+Efter anbrud kan 5 ml hætteglasset opbevares ved temperaturer op til 25°C i maksimalt 4 uger væk fra 
+direkte lys eller direkte varme.  </p>
+<p>Efter anbrud kan 10 ml hætteglasset opbevares ved temperaturer op til 30°C i maksimalt 4 uger væk 
+fra direkte lys eller direkte varme.  </p>
+<p>Du må ikke tage Lantus, hvis hætteglasset indeholder partikler. Lantus må kun tages, hvis opløsningen 
+er klar, farveløs og ligner vand. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lantus indeholder:</p>
+<ul>
+<li>Aktivt stof: Insulin glargin. 1 ml opløsning indeholder 100 enheder insulin glargin (svarende til 
+3,64 mg). </li>
+<li>Øvrige indholdsstoffer: Zinkchlorid, metacresol, glycerol, natriumhydroxid (se punkt 2 "Lantus 
+indeholder natrium") og saltsyre (til pH-justering), polysorbat 20 og vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Lantus 100 enheder/ml injektionvæske, opløsning i hætteglas er en klar, farveløs og vandlignende 
+opløsning. Hvert hætteglas indeholder 5 ml injektionsvæske, opløsning (svarende til500 enheder) eller 
+10 ml injektionsvæske, opløsning (svarende til 1.000 enheder) opløsning.<br />
+Pakninger med 1, 2, 5 og 10 hætteglas af 5 ml eller 1 hætteglas af 10 ml. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Sanofi-Aventis Deutschland GmbH, D-65926 Frankfurt am Main, Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB<br />
+Tel: +370 5 236 91 40  </p>
+<p>България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 </p>
+<p>Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda. 
+Tel: +351 21 35 89<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 13 12 12 (domande di tipo tecnico)<br />
+800.536389 (altre domande) </p>
+<p>Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>HYPERGLYKÆMI OG HYPOGLYKÆMI </p>
+<p>Du bør altid have noget sukker (mindst 20 gram) på dig.<br />
+Du bør altid have et kort eller lignende på dig, hvoraf det fremgår, at du er diabetiker. </p>
+<p>HYPERGLYKÆMI (for højt blodsukker) </p>
+<p>Hvis dit blodsukker er for højt (hyperglykæmi), har du måske ikke injiceret nok insulin. </p>
+<p>Hvorfor opstår hyperglykæmi? 
+Hvis du for eksempel:</p>
+<ul>
+<li>ikke har injiceret din insulin eller ikke har injiceret nok, eller hvis det har mistet noget af sin 
+virkning f.eks. på grund af forkert opbevaring, </li>
+<li>dyrker mindre motion end sædvanlig eller er stresset (følelsesmæssigt ude af balance eller er 
+ophidset), eller hvis du har en skade, er blevet opereret, har en infektion eller feber, </li>
+<li>du tager eller har taget visse andre lægemidler (se punkt 2 "Brug af anden medicin sammen med 
+Lantus"). </li>
+</ul>
+<p>Advarselssymptomer på hyperglykæmi 
+Tørst, øget vandladning, træthed, tør hud, ansigtsrødme, nedsat appetit, lavt blodtryk, hjertebanken og 
+sukker og ketonstoffer i urinen. Mavesmerter, hurtig og dyb vejrtrækning, søvnighed og eventuelt 
+besvimelse kan være tegn på den alvorlige tilstand, ketoacidose (syreophobning i blodet), som er en 
+følge af mangel på insulin. </p>
+<p>Hvad skal du gøre hvis du får hyperglykæmi 
+Kontrollér dit blodsukker og undersøg urinen for ketonstoffer, så snart nogen af ovenstående 
+symptomer opstår. Alvorlig hyperglykæmi eller ketoacidose skal altid behandles af en læge, og 
+foregår normalt under hospitalsindlæggelse. </p>
+<p>HYPOGLYKÆMI (for lavt blodsukker) </p>
+<p>Hvis dit blodsukker falder for meget, kan du blive bevidstløs. Svær hypoglykæmi kan medføre 
+hjerteanfald eller hjerneskade og kan være livstruende. Normalt bør du være i stand til at mærke, når 
+blodsukkeret falder for meget, så du kan tage de rette forholdsregler. </p>
+<p>Hvorfor opstår hypoglykæmi? 
+Hvis du for eksempel:</p>
+<ul>
+<li>tager for meget insulin, </li>
+<li>springer måltider over eller udsætter dem, </li>
+<li>ikke spiser nok eller spiser mad, der indeholder færre kulhydrater end normalt (sukker og 
+sukkerlignende stoffer kaldes kulhydrater; kunstige sødemidler er imidlertid IKKE kulhydrater), </li>
+<li>mister kulhydrater på grund af opkastning og diarré, </li>
+<li>drikker alkohol, især hvis du ikke spiser ret meget, </li>
+<li>dyrker mere motion end normalt eller udfører en anden form for fysisk aktivitet, </li>
+<li>er ved at komme dig efter en skade eller operation eller andre former for stress, </li>
+<li>er ved at komme dig efter en sygdom eller feber, </li>
+<li>tager eller er holdt op med at tage visse andre lægemidler (se punkt 2 "Brug af anden medicin 
+sammen med Lantus"). </li>
+</ul>
+<p>Der er endvidere større risiko for at få hypoglykæmi, hvis 
+- du netop har påbegyndt insulinbehandling eller har skiftet til et andet insulinpræparat, (hvis du 
+skifter fra dit tidligere basalinsulin til Lantus, vil hypoglykæmi, hvis den opstår, hyppigere opstå 
+om morgenen end om natten), 
+- dit blodsukker er næsten normalt eller ustabilt, 
+- du skifter injektionssted fra et hudområde på kroppen til et andet (f.eks. fra låret til overarmen), </p>
+<ul>
+<li>du lider af en alvorlig nyre- eller leversygdom, eller af anden sygdom som f.eks. nedsat 
+stofskifte (hypothyroidisme). </li>
+</ul>
+<p>Advarselssymptomer på hypoglykæmi </p>
+<ul>
+<li>
+<p>I kroppen 
+Eksempler på symptomer på, at dit blodsukker falder for meget eller for hurtigt: Svedtendens, klam 
+hud, ængstelse, hurtig puls, højt blodtryk, hjertebanken og uregelmæssig puls. Disse symptomer går 
+ofte forud for symptomerne på lavt blodsukker i hjernen. </p>
+</li>
+<li>
+<p>I hjernen 
+Eksempler på symptomerne på lavt blodsukker i hjernen er: Hovedpine, udtalt sultfornemmelse, 
+kvalme, opkastning, træthed, søvnighed, søvnforstyrrelser, rastløshed, aggressiv adfærd, 
+koncentrationsbesvær, nedsat reaktionsevne, depression, konfusion, taleforstyrrelser (til tider 
+fuldstændig tab af talens brug), synsforstyrrelser, rysten, lammelser, prikkende og stikkende 
+fornemmelse (paræstesi), følelsesløshed og prikken og stikken omkring munden, svimmelhed, 
+manglende selvbeherskelse, hjælpeløshed, kramper, bevidstløshed. </p>
+</li>
+</ul>
+<p>De første symptomer på, at der er ved at opstå hypoglykæmi ("advarselssymptomer"), kan ændre sig, 
+svækkes eller kan helt mangle, hvis:</p>
+<ul>
+<li>du er ældre, hvis du har haft diabetes i lang tid eller hvis du lider af en bestemt form for sygdom 
+i nervesystemet (diabetisk autonom neuropati), </li>
+<li>du for nylig har haft hypoglykæmi (f.eks. dagen før), eller hvis tilstanden udvikles langsomt, </li>
+<li>du har et næsten normalt eller i det mindste betydeligt forbedret blodsukker, </li>
+<li>du for nylig er skiftet fra animalsk insulin til human insulin såsom Lantus, </li>
+<li>du tager eller har taget visse andre lægemidler (se punkt 2 "Brug af anden medicin sammen med 
+Lantus"). </li>
+</ul>
+<p>I sådanne tilfælde kan du udvikle alvorlig hypoglykæmi (og endda besvime), før du selv bliver klar 
+over problemet. Sørg altid for at være fortrolig med dine advarselssymptomer. Om nødvendigt kan en 
+hyppigere blodsukkerkontrol hjælpe dig med at identificere milde tilfælde af hypoglykæmi, som ellers 
+ville blive overset. Hvis du har svært ved at genkende dine advarselssymptomer, bør du undgå 
+situationer (såsom bilkørsel), hvor du selv eller andre kan bringes i fare på grund af risikoen for 
+hypoglykæmi. </p>
+<p>Hvad skal du gøre, hvis du får hypoglykæmi? </p>
+<ol>
+<li>Tag ikke insulin. Tag omgående ca. 10-20 g sukker f.eks. som glucose, hugget sukker eller en 
+sukkersødet drik. OBS: Husk, at kunstige sødemidler og madvarer indeholdende kunstige 
+sødemidler (såsom light sodavand) ikke kan anvendes til behandling af hypoglykæmi. </li>
+<li>Spis herefter madvarer med langsomt optagelige kulhydrater (såsom brød eller pasta) for at 
+normalisere dit blodsukker. Din læge eller en sygeplejerske vil på forhånd have gennemgået 
+dette med dig. 
+Da Lantus er langtidsvirkende, kan det vare lidt, før hypoglykæmien forsvinder. </li>
+<li>Hvis du igen får hypoglykæmi, skal du indtage endnu 10-20 g sukker. </li>
+<li>Søg omgående læge, hvis du ikke kan få kontrol over din hypoglykæmi, eller hvis tilstanden 
+kommer igen. </li>
+</ol>
+<p>Fortæl familie, venner og kollegaer følgende: 
+Hvis du ikke er i stand til at synke, eller hvis du er bevidstløs, skal du have en injektion med sukker 
+(glucose) eller glucagon (et lægemiddel, der øger blodsukkeret). Det er forsvarligt at give disse 
+injektioner, også selv om det ikke er sikkert, at du har hypoglykæmi. </p>
+<p>Det anbefales, at blodsukkeret kontrolleres umiddelbart efter indtagelsen af sukker for at se, om du 
+virkelig havde hypoglykæmi. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Lantus 100 enheder/ml injektionsvæske, opløsning, i cylinderampul 
+Insulin glargin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. Instruktionen for anvendelse af insulinpennen ligger sammen 
+med din insulinpen. Læs begge informationer igennem, inden du anvender din medicin. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret Lantus til dig personligt. Lad derfor være med at give medicinen til andre. 
+Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-06248bd6009a92ba547ad80d4d64eaf8
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for lantus Package Leaflet for language en"
@@ -455,5 +1055,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-06248bd6009a92ba547ad80d4d64eaf8"
 * entry[0].resource = composition-en-06248bd6009a92ba547ad80d4d64eaf8
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp06248bd6009a92ba547ad80d4d64eaf8"
+* entry[=].resource = mp06248bd6009a92ba547ad80d4d64eaf8
+                            
+                    
+Instance: bundlepackageleaflet-da-06248bd6009a92ba547ad80d4d64eaf8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lantus Package Leaflet for language da"
+Description: "ePI document Bundle for lantus Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-06248bd6009a92ba547ad80d4d64eaf8"
+* entry[0].resource = composition-da-06248bd6009a92ba547ad80d4d64eaf8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp06248bd6009a92ba547ad80d4d64eaf8"
+* entry[=].resource = mp06248bd6009a92ba547ad80d4d64eaf8
+                            
+                    
+
+
+
+Instance: mp06248bd6009a92ba547ad80d4d64eaf8
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product lantus"
+Description: "lantus"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/00/134/001-004"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Treatment of diabetes mellitus in adults, adolescents and children aged 2 years and above."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "lantus"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: 06248bd6009a92ba547ad80d4d64eaf8ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lantus"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with lantus"
+
+* subject = Reference(mpcb38cea31adcb4ccaab6e84baa41f71a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lantus "lantus"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-06248bd6009a92ba547ad80d4d64eaf8) // lantus en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-06248bd6009a92ba547ad80d4d64eaf8) // lantus da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-06248bd6009a92ba547ad80d4d64eaf8
+InstanceOf: List
+
+* insert 06248bd6009a92ba547ad80d4d64eaf8ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6c6dd9b522aed0e03ebfe1ea0c0a4560
 InstanceOf: CompositionUvEpi
 Title: "Composition for armisarte Package Leaflet"
@@ -449,12 +452,600 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-6c6dd9b522aed0e03ebfe1ea0c0a4560
+InstanceOf: CompositionUvEpi
+Title: "Composition for armisarte Package Leaflet"
+Description:  "Composition for armisarte Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpcad109622ff157082115abca87902a35)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpcad109622ff157082115abca87902a35
+* title = "TEST PURPOSES ONLY - armisarte"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen<br />
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at bruge Armisarte 
+3. Sådan skal De bruge Armisarte 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What armisarte is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What armisarte is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Armisarte er et lægemiddel, der anvendes til behandling af kræft. Det indeholder det aktive stof 
+pemetrexed. Pemetrexed tilhører en gruppe af lægemidler kendt som folsyreanaloger og forstyrrer 
+processer, der er afgørende for celler til at dele sig. </p>
+<p>Armisarte anvendes sammen med cisplatin, en anden medicin mod kræft, til behandling af malignt 
+pleuramesoteliom, en kræftform som påvirker lungehinderne, til patienter, som ikke tidligere har fået 
+kemoterapi. </p>
+<p>Armisarte er også en behandling, som gives i kombination med cisplatin, som 1. linje-behandling af 
+patienter med fremskreden lungecancer. </p>
+<p>Armisarte kan ordineres til Dem, hvis De har fremskreden lungekræft, og Deres sygdom har reageret 
+på behandling, eller hvis den stort set er uforandret efter den indledende kemoterapibehandling. </p>
+<p>Armisarte er også en behandling til patienter med fremskreden lungekræft, hvor sygdommen har 
+udviklet sig, efter anden indledende behandling med kemoterapi har været forsøgt. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take armisarte"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take armisarte"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Armisarte:</p>
+<ul>
+<li>hvis De er allergisk over for pemetrexed eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). </li>
+<li>hvis De ammer, skal De afbryde amningen under behandlingen med Armisarte. </li>
+<li>hvis De for nylig er blevet eller snart skal vaccineres mod gul feber. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller hospitalapotekspersonalet, før De får Armisarte. 
+Hvis De har eller tidligere har haft nyreproblemer, skal De tale med Deres læge eller 
+hospitalsapotekspersonalet, da De muligvis ikke må få Armisarte. 
+Før hver indgivelse vil De få taget blodprøver til vurdering af, om Deres nyre- og leverfunktion er 
+tilstrækkelig god, og for at kontrollere, om De har blodlegemer nok til at få Armisarte. Deres læge kan 
+beslutte at ændre dosen eller udskyde behandlingen, afhængigt af Deres generelle tilstand, og hvis 
+Deres blodtal er for lave. Hvis De også får cisplatin, vil Deres læge kontrollere, at De får tilstrækkelig 
+med væske og får den rette behandling før og efter indgivelse af cisplatin for at forebygge opkastning. </p>
+<p>Hvis De har fået eller skal have strålebehandling, skal De fortælle det til Deres læge, idet Armisarte 
+kan medføre en tidlig eller sen strålingsreaktion. </p>
+<p>Informér Deres læge, hvis De for nylig er blevet vaccineret, da det muligvis kan forårsage dårlige 
+virkninger med Armisarte.  </p>
+<p>Informér Deres læge, hvis De har en hjertesygdom eller tidligere har haft en hjertesygdom. </p>
+<p>Hvis De har en væskeansamling omkring lungerne, vil lægen muligvis beslutte at fjerne denne væske, 
+før De modtager behandling med Armisarte. </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke anvendes til børn og unge, da der ikke er erfaringer med lægemidlet hos 
+børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Armisarte 
+Fortæl altid lægen eller hospitalapotekspersonalet, hvis De bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin, som f.eks. medicin mod smerter eller 
+inflammation (betændelse/hævelse), såsom de såkaldte non-steroide anti-inflammatoriske lægemidler 
+(NSAID-præparater), herunder ikke-receptpligtig medicin (som f.eks. ibuprofen). Der findes mange 
+slags NSAID-præparater med forskellig varighed af det aktive stof. Ud fra den planlagte dato for 
+Deres infusion af Armisarte og/eller status for Deres nyrefunktion skal Deres læge fortælle Dem, 
+hvilke typer medicin De må tage, og hvornår De må tage dem. Hvis De er usikker, skal De spørge 
+lægen eller apotekspersonalet, om noget af den medicin, De tager, er et NSAID-præparat. </p>
+<p>Ligesom andre kemoterapi medicin anbefales ikke Armisarte med levende svækkede vacciner. 
+Inaktiveret vaccine bør anvendes hvor det er muligt. </p>
+<p>Graviditet 
+Hvis De er gravid, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal De fortælle 
+det til Deres læge. Armisarte må ikke anvendes under graviditet. Deres læge vil sammen med Dem 
+drøfte den potentielle risiko ved at tage Armisarte under graviditet. Kvinder skal anvende effektive 
+svangerskabsforebyggende midler under behandlingen med Armisarte og i 6 måneder efter modtagelse 
+af den sidste dosis. </p>
+<p>Amning 
+Hvis De ammer, skal De fortælle Deres læge dette.<br />
+Amningen skal afbrydes under behandling med Armisarte. </p>
+<p>Frugtbarhed 
+Mænd rådes til ikke at gøre en kvinde gravid hverken under eller i op til 3 måneder efter behandlingen 
+med Armisarte. Derfor skal der bruges effektive svangerskabsforebyggende midler under 
+behandlingsforløbet med Armisarte og i 3 måneder efter. Hvis De ønsker at gøre en kvinde gravid 
+under behandlingsforløbet eller tidligere end 3 måneder efter, behandlingen er stoppet, skal De søge 
+vejledning hos Deres læge eller på apoteket. Armisarte kan påvirke Deres evne til at få børn. Tal med 
+Deres læge for at få rådgivning om opbevaring af sæd, inden behandlingen påbegyndes. </p>
+<p>Trafik- og arbejdssikkerhed 
+Armisarte kan muligvis gøre Dem træt. Vær derfor forsigtig, hvis De kører bil eller betjener maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take armisarte"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take armisarte"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Armisarte 25 mg/ml koncentrat til infusionsvæske, opløsning vil altid blive givet til Dem af 
+sundhedspersonale. Dosis er baseret på Deres højde og vægt (som anvendes til beregning af 
+legemsoverfladearealet), idet der indgives, hvad der svarer til 500 mg Armisarte per kvadratmeter 
+legemsoverflade. Deres læge vil bruge dette mål på overfladeareal til at bestemme den rette dosis til 
+Dem. Denne dosis skal muligvis justeres, eller behandlingen skal udskydes, afhængigt af Deres blodtal 
+og generelle tilstand. Hospitalsapoteket, lægen eller sygeplejersken blander på forhånd Armisarte 
+koncentrat med 5 % glucose injektionsvæske, opløsning, eller 0,9 % natriumchlorid-injektionsvæske, 
+opløsning, før det indgives til Dem.  </p>
+<p>De vil altid få Armisarte ved infusion i en af Deres blodårer. Infusionen tager omkring 10 minutter. </p>
+<p>Når Armisarte tages sammen med cisplatin: 
+Lægen eller hospitalsfarmaceuten beregner den nødvendige dosis ud fra Deres højde og vægt. 
+Cisplatin indgives også ved infusion i en af Deres blodårer, cirka 30 minutter efter at infusionen med 
+Armisarte er afsluttet. Infusionen af cisplatin tager omkring 2 timer. </p>
+<p>De vil normalt få infusionen én gang hver tredje uge. </p>
+<p>Andre lægemidler: 
+Kortikosteroider: Deres læge vil udskrive steroidtabletter til Dem (svarende til 4 milligram 
+dexamethason 2 gange dagligt), som De skal tage på dagen før, på behandlingsdagen og dagen efter 
+behandling med Armisarte. De får denne medicin for at reducere hyppigheden og sværhedsgraden af 
+eventuelle hudreaktioner, som De kan opleve under kræftbehandlingen. </p>
+<p>Vitamintilskud: De skal tage en folsyretablet eller en multivitamin indeholdende folsyre (350-
+1000 mikrogram) 1 gang dagligt, mens De tager Armisarte. De skal tage mindst 5 doser i løbet af de 7 
+dage op til den første dosis Armisarte. De skal fortsætte med at tage folsyre i 21 dage efter indgift af 
+den sidste dosis Armisarte. De vil også få en injektion med B12-vitamin (1.000 mikrogram) i løbet af 
+ugen op til første dosis Armisarte og derefter cirka hver 9. uge (svarende til 3 Armisarte -behandlings-
+forløb). De får B12-vitamin og folsyre for at mindske risikoen for mulige toksiske virkninger af 
+kræftbehandlingen. </p>
+<p>Deres tilstand vil blive nøje overvåget under behandlingen. Dette involverer rutinemæssigt blodprøver, 
+herunder kontrol af Deres lever- og nyrefunktion. Deres dosis kan ændres eller behandling forsinkes 
+afhængig af resultater fra disse tester. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De skal omgående kontakte Deres læge, hvis De mærker nogen af følgende bivirkninger:</p>
+<ul>
+<li>Feber eller infektion (henholdsvis almindelig eller meget almindelig): Hvis Deres temperatur er 
+38 ºC eller højere, hvis De sveder eller viser andre tegn på infektion (fordi De muligvis har 
+færre hvide blodlegemer end normalt, hvilket er meget almindeligt). En infektion (sepsis-
+blodforgiftning) kan være alvorlig og kan medføre døden. </li>
+<li>Hvis De begynder at føle brystsmerter (almindelig) eller har hjertebanken (ualmindelig). </li>
+<li>Hvis De har smerter, rødmen, hævelse eller sår i munden (meget almindelig). </li>
+<li>Allergisk reaktion: Hvis De udvikler udslæt (meget almindelig)/en brændende eller prikkende 
+fornemmelse (almindelig) eller feber (almindelig). Hudreaktioner kan i sjældne tilfælde være 
+alvorlige og kan medføre døden. Fortæl det til Deres læge, hvis De får alvorligt udslæt, kløe 
+eller blæredannelse (Stevens-Johnsons syndrom eller toksisk epidermal nekrolyse). </li>
+<li>Hvis De føler træthed, svimmelhed, hurtigt mister vejret, eller hvis De er bleg (fordi De 
+muligvis har mindre hæmoglobin end normalt, hvilket er meget almindeligt). </li>
+<li>Hvis De bløder fra gummer, næse eller mund eller anden blødning, som ikke vil stoppe, rødlig 
+eller lyserødlig urin, uventede blå mærker (fordi De muligvis har færre blodplader end normalt, 
+hvilket er almindeligt). </li>
+<li>Hvis De pludselig får åndenød, stærke smerter i brystet eller hoste med blodigt spyt (ikke 
+almindeligt) (dette kan betyde, at der er en blodprop i en af lungernes blodårer). </li>
+</ul>
+<p>Andre bivirkninger med Armisarte kan være: </p>
+<p>Meget almindelig (forekommer hos flere end 1 ud af 10 personer) 
+- Infektion 
+- Svælgkatar (en øm hals) 
+- Lavt antal neutrofile granulocytter (en type hvide blodlegemer) 
+- Lavt antal hvide blodlegemer 
+- Lavt hæmoglobin niveau 
+- Smerter, rødmen, hævelse eller sår i munden 
+- Appetitløshed 
+- Opkastning 
+- Diarré 
+- Kvalme 
+- Udslæt 
+- Afskallende hud 
+- Unormale blodprøver, der viser nedsat nyrefunktion 
+- Træthed </p>
+<p>Almindelig (forekommer hos op til 1 ud af 10 personer) 
+- Infektion i blodet 
+- Feber med et lavt antal neutrofile granulocytter (en type hvide blodlegemer) 
+- Lavt antal blodplader 
+- Allergisk reaktion 
+- Tab af kropsvæske 
+- Smagsforstyrrelser 
+- Skader på de motoriske nerver, der kan forårsage muskelsvaghed og -svind, primært i arme og 
+ben 
+- Skader på de sensoriske nerver, der kan forårsage tab af følesans, brændende smerter og ustabil 
+gang 
+- Svimmelhed 
+- Betændelse eller hævelse i bindehinden (membranen, der omkranser øjenlågene og dækker det 
+hvide i øjet)<br />
+- Tørre øjne 
+- Våde øjne 
+- Tørhed i bindehinden (membranen, der omkranser øjenlågene og dækker det hvide i øjet) og 
+hornhinden (det klare lag foran iris og pupillen) 
+- Hævelse af øjenlågene 
+- Øjenlidelse med tørhed, tåreflåd, irritation og/eller smerter 
+- Hjertesvigt (tilstand, der påvirker dine hjertemusklers pumpekraft) 
+- Uregelmæssig hjerterytme 
+- Dårlig fordøjelse 
+- Forstoppelse 
+- Mavesmerter 
+- Lever: stigninger i de stoffer i blodet, der leveres af leveren 
+- Øget hudpigmentering 
+- Kløende hud 
+- Udslæt på kroppen, hvor hvert mærke ligner en skydeskive 
+- Hårtab 
+- Nældefeber 
+- Nyresvigt 
+- Nedsat nyrefunktion 
+- Feber 
+- Smerte 
+- Overskydende væske i kropsvævet, der forårsager hævelse 
+- Brystsmerter 
+- Betændelse og sårdannelse i slimhinderne i fordøjelseskanalen </p>
+<p>Ikke almindelig (forekommer hos op til 1 ud af 100 personer) 
+- Fald i antallet af røde og hvide blodlegemer samt blodplader 
+- Slagtilfælde 
+- Slagtilfælde, hvor en blodåre i hjernen er blokeret 
+- Blødning på indersiden af kraniet 
+- Angina (brystsmerter forårsaget af et fald i blodgennemstrømningen til hjertet) 
+- Hjerteanfald 
+- Forsnævring eller blokering af koronararterierne 
+- Øget hjerterytme 
+- Mangelfuld fordeling af blodet til arme og ben 
+- Blokering i en blodåre i lungerne 
+- Betændelse og ardannelse i hinden som dækker lungerne, samt åndedrætsproblemer 
+- Frisk, rødt blod fra endetarmsåbningen 
+- Blødning i mave-tarmkanalen 
+- Rifter i tarmen 
+- Betændelse i slimhinden i spiserøret 
+- Betændelse i slimhinden i tyktarmen som kan være ledsaget af blødning i tarm- eller endetarm 
+(ses kun i kombination med cisplatin) 
+- Betændelse, væskeansamling, hudrødme og beskadigelse afspiserørets slimhindeoverflade, 
+forårsaget af strålebehandling 
+- Betændelse i lungerne forårsaget af strålebehandling </p>
+<p>Sjælden (forekommer hos op til 1 ud af 1000 personer) 
+- Ødelæggelse af røde blodlegemer 
+- Anafylaktisk chok (alvorlig allergisk reaktion) 
+- Betændelsestilstand i leveren 
+- Rødmen af huden 
+- Hududslæt, der udvikler sig gennem et tidligere bestrålet område </p>
+<p>Meget sjælden (forekommer hos op til 1 ud af 10.000 personer) 
+- Infektioner i hud og blødt væv 
+- Stevens-Johnson syndrom (en alvorlig reaktion i hud og slimhinderne, der kan være livstruende) 
+- Toksisk epidermal nekrolyse (en alvorlig hudreaktion, der kan være livstruende) 
+- Autoimmun lidelse, der resulterer i hududslæt og blærer på ben, arme og mave 
+- Betændelse i huden med blæredannelse, der er fyldt med væske 
+- Skrøbelig hud, blærer, skader og ardannelse i huden 
+- Rødmen, smerter og hævelse hovedsageligt i benene 
+- Betændelse i hud og fedtet under huden (pseudocellulitis) 
+- Betændelse i huden (dermatitis) 
+- Huden kan blive betændt, kløende, rød, sprunken og ru 
+- Intenst kløende pletter </p>
+<p>Ikke kendt: hyppigheden kan ikke vurderes ud fra forhåndenværende data 
+- Diabetessygdom, som hovedsageligt skyldes nyresygdom 
+- Nyresygdom, hvor bestemte celler (tubulære epitelceller) i nyregangene dør </p>
+<p>De vil muligvis kunne opleve nogle af disse symptomer og/eller tilstande. Hvis De begynder at mærke 
+nogle af dem, skal De hurtigst muligt fortælle det til Deres læge. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller sygeplejersken. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store armisarte"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store armisarte"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglassets etiket efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Ubrudt hætteglas 
+Opbevares i køleskab og transporteres nedkølet (2 °C – 8 °C). 
+Må ikke nedfryses. 
+Opbevares i den originale yderpakning for at beskytte mod lys.  </p>
+<p>Efter første anbrud af hætteglasset 
+Hætteglas med 4 ml (100 mg/4 ml) 
+Der er påvist kemisk og fysisk stabilitet under brug i 7 dage ved 2 °C - 8 °C. </p>
+<p>Hætteglas med 20 ml (500 mg/20 ml), 34 ml (850 mg/34 ml) og 40 ml (1000 mg/40 ml) 
+Der er påvist kemisk og fysisk stabilitet under brug i 14 dage ved 2 °C - 8 °C. </p>
+<p>Infusionsopløsning 
+Infusionsopløsninger af pemetrexed har vist sig at have en kemisk og fysisk holdbarhed på 24 timer 
+ved stuetemperatur og 7 dage ved køleskabstemperatur. Ud fra et mikrobiologisk synspunkt skal 
+opløsningen bruges straks. Hvis det ikke anvendes straks, er opbevaringstiden under anvendelse og 
+opbevaringsbetingelserne forud for anvendelse brugerens ansvar og vil normalt ikke være længere end 
+24 timer ved 2 °C - 8 °C med mindre anbrudsmetode/fortynding har fundet sted under kontrollerede 
+og validerede aseptiske betingelser. </p>
+<p>Armisarte bør ikke anvendes, hvis der er tegn på partikler. </p>
+<p>Ikke anvendt koncentrat tilbage i hætteglasset, hvor opbevaringstiden under brug er overskredet samt 
+affald heraf bør bortskaffes i overensstemmelse med lokale krav. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Armisarte indeholder: </p>
+<p>Aktivt stof: pemetrexed. Hver ml koncentrat indeholder 25 mg pemetrexed (som pemetrexeddiacid). </p>
+<p>Hvert 4 ml hætteglas indeholder 100 mg pemetrexed (som pemetrexeddiacid). 
+Hvert 20 ml hætteglas indeholder 500 mg pemetrexed (som pemetrexeddiacid). 
+Hvert 34 ml hætteglas indeholder 850 mg pemetrexed (som pemetrexeddiacid). 
+Hvert 40 ml hætteglas indeholder 1000 mg pemetrexed (som pemetrexeddiacid). </p>
+<p>Øvrige indholdsstoffer: trometamol (til pH-justering), citronsyre, metionin, vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Armisarte koncentrat til infusionsvæske, opløsning (koncentrat, sterilt) er en klar, farveløs til svagt 
+gullig eller gul-grønlig opløsning. </p>
+<p>Armisarte er anbragt i et farveløst hætteglas med gummiprop og aluminiumshætte med polypropylen 
+skive. Hætteglassene kan eller kan ikke være opbevaret i et beskyttende hylster. </p>
+<p>Hver pakke Armisarte indeholder ét hætteglas. </p>
+<p>Pakningsstørrelser<br />
+1 x 4 ml hætteglas (100 mg/4 ml)<br />
+1 x 20 ml hætteglas (500 mg/20 ml) 
+1 x 34 ml hætteglas (850 mg/34 ml) 
+1 x 40 ml hætteglas (1000 mg/40 ml)  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Actavis Group PTC ehf. 
+Dalshraun 1 
+220 Hafnarfjörður 
+Island </p>
+<p>Fremstiller 
+PLIVA CROATIA Ltd. 
+10000 Zagreb 
+Prilaz baruna Filipovića Kroatien </p>
+<p>Actavis Italy S.p.A. 
+Via Pasteur 20014 Nerviano (Milan) 
+Italien </p>
+<p>S.C. Sindan-Pharma S.R.L. 
+11 Ion Mihalache Blvd. 
+011171 Bukarest 
+Rumænien </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den 
+lokale repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Teл: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS A.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873280  </p>
+<p>Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o.<br />
+Tel: +385 13720000  </p>
+<p>România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS A.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder 
+De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske 
+Lægemiddelagenturs hjemmeside http://www.ema.europa.eu/. </p>
+<p>-------------------------------------------------------------------------------------------------------------------- Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Instruktioner vedrørende anvendelse, håndtering samt bortskaffelse </p>
+<ol>
+<li>
+<p>Anvend aseptisk teknik ved fortynding af pemetrexed til intravenøs infusion. </p>
+</li>
+<li>
+<p>Beregn den nødvendige dosis og det nødvendige antal hætteglas med Armisarte. </p>
+</li>
+<li>
+<p>Armisarte må kun fortyndes med 5% glucoseopløsning eller 0,9 % natriumchloridopløsning, 
+uden konserveringsmiddel. Passende mængde pemetrexedkoncentrat skal fortyndes til 100 ml 
+med 5 % glucoseopløsning eller 0,9 % natriumchloridopløsning og indgives som langsom 
+intravenøs infusion over 10 minutter.  </p>
+</li>
+<li>
+<p>Pemetrexedinfusionsopløsninger, der er forberedt som angivet ovenfor, er kompatible med 
+indgivelsessæt og dropposer belagt med polyvinylchlorid og polyolefin. Pemetrexed er 
+inkompatibel med opløsningsvæsker, der indeholder calcium, herunder lakteret Ringer’s 
+opløsning og Ringer’s opløsning. </p>
+</li>
+</ol>
+<p>Armisarte indeholder trometamol som hjælpestof. Trometamol er uforenelig med cisplatin og 
+resulterer i nedbrydning af cisplatin. Dette lægemiddel må ikke blandes med andre lægemidler. 
+Intravenøse linjer skal skylles efter administration af Armisarte. </p>
+<ol>
+<li>
+<p>Parenterale lægemidler skal kontrolleres visuelt for partikler og misfarvning før indgift. Hvis 
+der observeres partikler, må opløsningen ikke indgives. </p>
+</li>
+<li>
+<p>Hætteglassets gummiprop kan punkteres og indholdet kan fjernes maksimalt to gange. Ikke 
+anvendt lægemiddel tilbage i hætteglasset, hvor opbevaringstiden under brug er overskredet 
+samt affald herfra skal bortskaffes i henhold til lokale retningslinjer. </p>
+</li>
+</ol>
+<p>Forsigtighedsregler i forbindelse med forberedelse og indgivelse  </p>
+<p>Som med et hvilket som helst andet potentielt toksisk lægemiddel til behandling af kræft skal der 
+udvises forsigtighed ved håndtering og forberedelse af infusionsopløsninger af pemetrexed. Det 
+anbefales at bruge handsker. Hvis pemetrexedopløsningen kommer i kontakt med huden, skal det 
+berørte område straks vaskes grundigt med vand og sæbe. Hvis pemetrexedopløsningen kommer i 
+kontakt med slimhinderne, skal de skylles grundigt med vand. Pemetrexed er ikke blæretrækkende. 
+Der findes ikke en specifik modgift mod ekstravasation af pemetrexed. Der er rapporteret enkelte 
+tilfælde af ekstravasation af pemetrexed, som investigatoren ikke betragtede som alvorlige. Som med 
+andre ikke-blæretrækkende stoffer skal eventuel ekstravasation håndteres i henhold til lokal 
+standardpraksis. </p>
+<p>Fortyndet opløsning </p>
+<p>Infusionsopløsninger af pemetrexed har vist sig at have en kemisk og fysisk holdbarhed på 24 timer 
+ved stuetemperatur og 7 dage ved køleskabstemperatur. Ud fra et mikrobiologisk synspunkt skal 
+opløsningen bruges straks. Hvis det ikke anvendes straks, er opbevaringstiden under anvendelse og 
+opbevaringsbetingelserne forud for anvendelse brugerens ansvar og vil normalt ikke være længere end 
+24 timer ved 2 °C - 8 °C med mindre fortynding har fundet sted under kontrollerede og validerede 
+aseptiske betingelser. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6c6dd9b522aed0e03ebfe1ea0c0a4560
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for armisarte Package Leaflet for language en"
+Description: "ePI document Bundle for armisarte Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6c6dd9b522aed0e03ebfe1ea0c0a4560"
+* entry[0].resource = composition-en-6c6dd9b522aed0e03ebfe1ea0c0a4560
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6c6dd9b522aed0e03ebfe1ea0c0a4560"
+* entry[=].resource = mp6c6dd9b522aed0e03ebfe1ea0c0a4560
+                            
+                    
+Instance: bundlepackageleaflet-da-6c6dd9b522aed0e03ebfe1ea0c0a4560
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for armisarte Package Leaflet for language da"
+Description: "ePI document Bundle for armisarte Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6c6dd9b522aed0e03ebfe1ea0c0a4560"
+* entry[0].resource = composition-da-6c6dd9b522aed0e03ebfe1ea0c0a4560
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6c6dd9b522aed0e03ebfe1ea0c0a4560"
+* entry[=].resource = mp6c6dd9b522aed0e03ebfe1ea0c0a4560
+                            
+                    
+
+
+
+Instance: mp6c6dd9b522aed0e03ebfe1ea0c0a4560
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Armisarte 25 mg/ml concentrate for solution for infusion"
-Description: "Armisarte 25 mg/ml concentrate for solution for infusion"
+Title: "Medicinal Product armisarte"
+Description: "armisarte"
 Usage: #inline
 
  
@@ -474,7 +1065,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Armisarte 25 mg/ml concentrate for solution for infusion"
+  * productName = "armisarte"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -501,29 +1092,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6c6dd9b522aed0e03ebfe1ea0c0a4560
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for armisarte Package Leaflet for language en"
-Description: "ePI document Bundle for armisarte Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6c6dd9b522aed0e03ebfe1ea0c0a4560ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1063/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "armisarte"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6c6dd9b522aed0e03ebfe1ea0c0a4560"
-* entry[0].resource = composition-en-6c6dd9b522aed0e03ebfe1ea0c0a4560
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpcad109622ff157082115abca87902a35"
-* entry[=].resource = mpcad109622ff157082115abca87902a35
-                            
-                      
+* title = "List of all ePIs associated with armisarte"
+
+* subject = Reference(mpcad109622ff157082115abca87902a35)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#armisarte "armisarte"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6c6dd9b522aed0e03ebfe1ea0c0a4560) // armisarte en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6c6dd9b522aed0e03ebfe1ea0c0a4560) // armisarte da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6c6dd9b522aed0e03ebfe1ea0c0a4560
+InstanceOf: List
+
+* insert 6c6dd9b522aed0e03ebfe1ea0c0a4560ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-de5eecf9e44a37927bab25be6edb8bcb
 InstanceOf: CompositionUvEpi
 Title: "Composition for fareston Package Leaflet"
@@ -427,12 +430,467 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-de5eecf9e44a37927bab25be6edb8bcb
+InstanceOf: CompositionUvEpi
+Title: "Composition for fareston Package Leaflet"
+Description:  "Composition for fareston Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd89b0785ebb6092bbadc2e8694113263)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd89b0785ebb6092bbadc2e8694113263
+* title = "TEST PURPOSES ONLY - fareston"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Fareston
+3. Sådan skal du tage Fareston
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What fareston is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What fareston is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fareston indeholder det aktive stof toremifen, et antiøstrogen. Fareston anvendes til behandling af 
+visse former for brystkræft hos kvinder efter overgangsalderen.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take fareston"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take fareston"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Fareston:</h2>
+<p>hvis du er allergisk over for toremifen eller et af de øvrige indholdsstoffer i Fareston (angivet i 
+punkt 6)
+-
+hvis du har en fortykkelse af livmoderslimhinden
+-
+hvis du har alvorlige leverproblemer
+-
+hvis du er født med eller har oplevet tilfælde med visse unormale forandringer i hjertets 
+elektriske aktivitet (ses i elektrokardiogram (ekg))
+-
+hvis du har en forstyrrelse i blodets saltbalance, især lavt indhold af kalium i blodet 
+(hypokaliæmi), som endnu ikke er blevet behandlet
+-
+hvis du har en meget langsom hjerterytme (puls)
+-
+hvis du har hjertesvigt
+-
+hvis du tidligere har haft unormal hjerterytme (arytmi)
+-
+hvis du tager andre lægemidler, som kan påvirke dit hjerte (se punkt 2 "Brug af anden medicin
+sammen med Fareston")
+Dette skyldes, at Fareston kan påvirke dit hjerte ved at forsinke overledningen af de elektriske 
+signaler i dit hjerte (forlængelse af QT-intervallet)
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager Fareston:
+-
+hvis du har ustabil diabetes (sukkersyge)
+-
+hvis dit helbred er alvorligt forringet 
+-
+hvis du tidligere har haft en tilstand, hvor der dannes blodpropper i dine vener, f.eks. i lungerne
+(lungeemboli ) eller i venerne i dine ben (dybe venetrombose)
+19
+-
+hvis du oplever en unormal hjerterytme, mens du tager Fareston. Din læge vil muligvis råde dig 
+til at stoppe med at tage Fareston og få undersøgt, hvordan dit hjerte fungerer (ekg) (se punkt 2 
+"Tag ikke Fareston")
+-
+hvis du har nogen form for hjertelidelse herunder brystsmerter (angina)
+-
+hvis din kræft har spredt sig til knoglerne (knoglemetastaser), da calciumniveauet i dit blod kan 
+stige i begyndelsen af behandlingen med Fareston. Din læge vil kontrollere dig regelmæssigt.
+-
+hvis din læge har fortalt dig, at du ikke kan tåle visse sukkerarter såsom lactose (se punkt 2 
+"Fareston indeholder lactose"
+Du skal have foretaget en gynækologisk undersøgelse, før du påbegynder behandlingen med Fareston 
+og derefter mindst 1 gang om året. Din læge vil kontrollere dig regelmæssigt, hvis du har højt 
+blodtryk, sukkersyge, har taget hormonerstatnings-behandling, eller hvis du er overvægtig (BMI over 
+30).
+Brug af anden medicin sammen med Fareston
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for 
+nylig. Dosis af noget af denne medicin skal måske reguleres, mens du tager Fareston. Du skal især 
+fortælle det til lægen, hvis du tager følgende medicin:
+-
+vanddrivende medicin (af thiazidtypen),
+-
+medicin for at modvirke blodpropper såsom warfarin,
+-
+medicin til behandling af epilepsi såsom carbamazepin, phenytoin, phenobarbital,
+-
+medicin til behandling af svampeinfektioner såsom ketoconazol, itraconazol, voriconazol, 
+posaconazol,
+-
+medicin til behandling af bakterieinfektioner såsom erythromycin, clarithromycin og 
+telithromycin
+-
+medicin til behandling af virusinfektioner såsom ritonavir og nelfinavir.
+Du må ikke tage Fareston sammen med følgende medicin, da der er en øget risiko for, at det kan 
+ændre din hjerterytme (se punkt 2 "Tage ikke Fareston"):
+-
+medicin til behandling af rytmeforstyrrelser såsom quinidin, hydroquinidin, disopyramid, 
+amiodaron, sotalol, dofetilid og ibutilid
+-
+medicin til behandling af psykiske og adfærdsmæssige lidelser (antipsykotika) såsom
+phenothiaziner, pimozid, sertindol, haloperidol og sultoprid
+-
+lægemidler til behandling af infektioner (antibiotika) såsom moxifloxacin, erythromycin i en 
+blodåre, pentamidin og lægemidler mod malaria (især halofantrin)
+-
+visse lægemidler til behandling af allergier såsom terfenadin, astemizol og mizolastin
+-
+andre; cisaprid, vincamin i en blodåre, bepridil, diphemanil.
+Hvis du bliver indlagt på hospitalet, eller hvis du får ordineret en ny slags medicin, skal du fortælle 
+lægen, at du er i behandling med Fareston.
+Graviditet og amning
+Du må ikke tage Fareston under graviditet eller amning.
+Trafik og arbejdssikkerhed
+Fareston har ingen indflydelse på evnen til at føre motorkøretøj og betjene maskiner.
+Fareston indeholder lactose
+Fareston indeholder 28,5 mg lactose (som monohydrat) pr. tablet. Kontakt lægen, før du tager dette 
+lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.
+Andre hjælpestoffer
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.
+20</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take fareston"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take fareston"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller
+apotekspersonalet. Den sædvanlige dosis er én 60 mg tablet indtaget oralt, én gang dagligt. Fareston 
+kan tages sammen med eller uden mad.
+Hvis du har taget for mange Fareston 
+Kontakt straks lægen, skadestuen eller apotekspersonalet, hvis du har taget mere Fareston, end der 
+står i denne information eller mere end lægen har foreskrevet. Symptomer på en overdosis kan være 
+svimmelhed og hovedpine.
+Hvis du har glemt at tage Fareston
+Hvis du glemmer en dosis, skal du tage den næste tablet som sædvanligt og fortsætte behandlingen, 
+som anbefalet. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Hvis du har 
+glemt flere doser, skal du informere din læge og følge lægens instruktioner.
+Hvis du holder op med at tage Fareston
+Behandling med Fareston bør kun ophøre, hvis din læge har anbefalet det.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)
+-
+hedeture, svedtendens.
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)
+-
+træthed, svimmelhed, depression
+-
+kvalme, opkastning
+-
+udslæt, kløe, væskeansamlinger (ødemer)
+-
+blødning fra livmoderen, hvidt udflåd.
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer)
+-
+hovedpine, søvnproblemer
+-
+vægtstigning, forstoppelse, appetitløshed
+-
+fortykkelse af livmoderslimhinden
+-
+dannelse af blodpropper f.eks. i lungerne 
+-
+kortåndethed.
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer)
+-
+følelse af, at det snurrer rundt (svimmelhed)
+-
+udvoksninger på livmoderslimhinden (polypper i livmoderens slimhinde)
+-
+forhøjede leverenzymer i blodet (forhøjede aminotransferaser).
+Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 personer)
+-
+ændringer i livmoderslimhinden (endometriet)
+-
+kræft i livmoderslimhinden
+-
+hårtab
+-
+forbigående uklarhed i hornhinden
+-
+gulfarvning af huden og det hvide i øjnene (gulsot).
+Hyppighed ikke kendt (kan ikke estimeres ud fra forhåndenværende data)
+21
+-
+lavt antal af hvide blodlegemer, der er vigtige til bekæmpelse af infektion (leukopeni)
+-
+lavt antal af røde blodlegemer (blodmangel)
+-
+lavt antal af blodplader (tendens til blødning)
+-
+leverbetændelse (hepatitis).
+Du skal straks kontakte din læge, hvis du mærker et af følgende symptomer: 
+-
+hævelse eller ømhed i læggen
+-
+uforklarlig kortåndethed eller smerter i brystet
+-
+blødning fra skeden eller forandringer i udflåd.
+Fareston forårsager visse unormale forandringer i hjertets elektriske aktivitet (ses i elektrokardiogram
+(ekg)). Se punkt 2 "Advarsler og forsigtighedsregler).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store fareston"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store fareston"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten. Udløbsdatoen er den sidste dag i den 
+nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet eller, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Fareston indeholder:</h2>
+<h2>Aktivt stof: toremifen: Hver tablet indeholder 60 mg (som citrat).</h2>
+<p>Øvrige indholdsstoffer: majsstivelse, lactosemonohydrat, povidon, natriumstivelsesglycolat,
+mikrokrystallinsk cellulose, kolloid vandfri sillica og magnesiumstearat.
+Udseende og pakningsstørrelser
+Hvid, rund, flad tablet med skrå kanter og mærket TO 60 på den ene side.
+30 og 100 tabletter. Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Orion Corporation
+Orionintie 1
+FI-02200 Espoo
+Finland
+Fremstiller
+Orion Corporation Orion Pharma
+Joensuunkatu 7
+FI-24100 Salo
+Finland
+22
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Orion Corporation
+Tél/Tel: +358 10 4261
+Lietuva
+Orion Corporation
+Tel: +358 10 4261
+България
+Orion Pharma Poland Sp. z o.o.
+Tel: + 48 22 8 333 177
+Luxembourg/Luxemburg
+Orion Corporation
+Tél/Tel: +358 10 4261
+Česká republika
+Orion Corporation
+Tel: +358 10 4261
+Magyarország
+Orion Corporation
+Tel.: +358 10 4261
+Danmark
+Orion Corporation
+Tlf: +358 10 4261
+Malta
+Orion Corporation
+Tel: +358 10 4261
+Deutschland
+Orion Corporation
+Tel: +358 10 4261
+Nederland
+Orion Corporation
+Tel: +358 10 4261
+Eesti
+Orion Corporation
+Tel: +358 10 4261
+Norge
+Orion Corporation
+Tlf: +358 10 4261
+Ελλάδα
+Orion Corporation
+Τηλ: +358 10 4261
+Österreich
+Orion Corporation
+Tel: +358 10 4261
+España
+Orion Corporation
+Tel: +358 10 4261
+Polska
+Orion Corporation
+Tlf: +358 10 4261
+France
+Orion Pharma
+Tél: +33 (0) 1 85 18  00 00
+Portugal
+Orion Corporation
+Tel: +358 10 4261
+Hrvatska
+Orion Corporation
+Tel.: +358 10 4261
+România
+Orion Pharma Poland Sp. z o.o.
+Tel: + 48 22 8 333 177
+Ireland
+Orion Corporation
+Tlf: +358 10 4261
+Slovenija
+Orion Corporation
+Tel: +358 10 4261
+Ísland
+Orion Corporation
+Sími: +358 10 4261
+Slovenská republika
+Orion Corporation
+Tel: +358 10 4261
+23
+Italia
+Orion Pharma S.r.l.
+Tel: + 39 02 67876111
+Suomi/Finland
+Orion Corporation
+Puh./Tel: +358 10 4261
+Κύπρος
+Orion Corporation
+Τηλ: +358 10 4261
+Sverige
+Orion Pharma AB
+Tel: +46 8 623 6440
+Latvija
+Orion Corporation
+Tel: +358 10 4261
+United Kingdom (Northern Ireland)
+Orion Corporation
+Tel: +358 10 4261
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-de5eecf9e44a37927bab25be6edb8bcb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fareston Package Leaflet for language en"
+Description: "ePI document Bundle for fareston Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-de5eecf9e44a37927bab25be6edb8bcb"
+* entry[0].resource = composition-en-de5eecf9e44a37927bab25be6edb8bcb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpde5eecf9e44a37927bab25be6edb8bcb"
+* entry[=].resource = mpde5eecf9e44a37927bab25be6edb8bcb
+                            
+                    
+Instance: bundlepackageleaflet-da-de5eecf9e44a37927bab25be6edb8bcb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fareston Package Leaflet for language da"
+Description: "ePI document Bundle for fareston Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-de5eecf9e44a37927bab25be6edb8bcb"
+* entry[0].resource = composition-da-de5eecf9e44a37927bab25be6edb8bcb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpde5eecf9e44a37927bab25be6edb8bcb"
+* entry[=].resource = mpde5eecf9e44a37927bab25be6edb8bcb
+                            
+                    
+
+
+
+Instance: mpde5eecf9e44a37927bab25be6edb8bcb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Fareston 60 mg tablets"
-Description: "Fareston 60 mg tablets"
+Title: "Medicinal Product fareston"
+Description: "fareston"
 Usage: #inline
 
  
@@ -452,7 +910,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Fareston 60 mg tablets"
+  * productName = "fareston"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -479,29 +937,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-de5eecf9e44a37927bab25be6edb8bcb
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for fareston Package Leaflet for language en"
-Description: "ePI document Bundle for fareston Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: de5eecf9e44a37927bab25be6edb8bcbListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/96/004/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "fareston"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-de5eecf9e44a37927bab25be6edb8bcb"
-* entry[0].resource = composition-en-de5eecf9e44a37927bab25be6edb8bcb
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd89b0785ebb6092bbadc2e8694113263"
-* entry[=].resource = mpd89b0785ebb6092bbadc2e8694113263
-                            
-                      
+* title = "List of all ePIs associated with fareston"
+
+* subject = Reference(mpd89b0785ebb6092bbadc2e8694113263)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#fareston "fareston"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-de5eecf9e44a37927bab25be6edb8bcb) // fareston en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-de5eecf9e44a37927bab25be6edb8bcb) // fareston da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-de5eecf9e44a37927bab25be6edb8bcb
+InstanceOf: List
+
+* insert de5eecf9e44a37927bab25be6edb8bcbListRuleset
+    

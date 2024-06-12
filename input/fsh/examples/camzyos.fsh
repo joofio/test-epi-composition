@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-39ac69c93b0288d89a0cb9d145b02fcc
 InstanceOf: CompositionUvEpi
 Title: "Composition for camzyos Package Leaflet"
@@ -339,12 +342,494 @@ Dublin 15, D15 TIreland </p>
 
 
 
+Instance: composition-da-39ac69c93b0288d89a0cb9d145b02fcc
+InstanceOf: CompositionUvEpi
+Title: "Composition for camzyos Package Leaflet"
+Description:  "Composition for camzyos Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbc4b8e59300987d3bf040f482991f288)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbc4b8e59300987d3bf040f482991f288
+* title = "TEST PURPOSES ONLY - camzyos"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage CAMZYOS </li>
+<li>Sådan skal du tage CAMZYOS </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What camzyos is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What camzyos is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+CAMZYOS indeholder det aktive stof mavacamten. Mavacamten er en reversibel kardiel 
+myosinhæmmer, hvilket betyder, at det ændrer den måde, muskelproteinet myosin virker på i 
+hjertemuskelceller. </p>
+<p>Anvendelse 
+CAMZYOS bruges til at behandle voksne med en type hjertesygdom, der kaldes obstruktiv 
+hypertrofisk kardiomyopati (oHCM). </p>
+<p>Om obstruktiv hypertrofisk kardiomyopati 
+Hypertrofisk kardiomyopati (HCM) er en lidelse, hvor væggene i venstre hjertekammer (ventrikel) 
+trækker sig hårdere sammen og bliver tykkere end normalt. Efterhånden som væggene bliver tykkere, 
+kan de blokere (obstruere) blodgennemstrømningen ud af hjertet og kan desuden gøre hjertet stift. 
+Denne blokering gør det sværere for blodet at strømme ind og ud af hjertet og blive pumpet rundt i 
+kroppen med hvert hjerteslag, en tilstand kaldet obstruktiv hypertrofisk kardiomyopati (oHCM). 
+Symptomerne på oHCM er: smerter i brystet og åndenød (især ved fysisk anstrengelse), træthed, 
+unormal hjerterytme, svimmelhed, en følelse af at være ved at besvime, besvimelse (synkope) og 
+hævede ankler, fødder, ben, mave og/eller blodårer i halsen. </p>
+<p>Sådan virker CAMZYOS 
+CAMZYOS får hjertet til ikke at trække sig så kraftigt sammen, og det reducerer blokeringen af 
+blodgennemstrømningen til kroppen. Derfor kan det mindske dine symptomer og give dig mulighed 
+for at være mere aktiv. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take camzyos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take camzyos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke CAMZYOS </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for mavacamten eller et af de øvrige indholdsstoffer i CAMZYOS 
+(angivet i afsnit 6). </p>
+</li>
+<li>
+<p>hvis du er gravid eller en kvinde, som kan blive gravid og ikke bruger sikker prævention. </p>
+</li>
+<li>
+<p>hvis du tager lægemidler, som kan øge mængden af CAMZYOS i blodet, f.eks.:</p>
+</li>
+<li>
+<p>lægemidler, som tages gennem munden, der bruges til at behandle svampeinfektioner, 
+såsom itraconazol, ketoconazol, posaconazol, voriconazol </p>
+</li>
+<li>visse lægemidler, der bruges til at behandle bakterieinfektioner, såsom antibiotikummet 
+clarithromycin </li>
+<li>visse lægemidler, der bruges til at behandle hiv-infektion, såsom cobicistat, ritonavir </li>
+<li>visse lægemidler, der bruges til at behandle kræft, såsom ceritinib, idelalisib, tucatinib. 
+Spørg lægen, om de lægemidler, du tager, betyder, at du ikke kan tage mavacamten. Se afsnittet "Brug 
+af andre lægemidler sammen med CAMZYOS". </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Rutineprøver 
+Din læge vil undersøge, hvor godt dit hjerte virker (din hjertefunktion) med et ekkokardiogram (en 
+ultralydsundersøgelse, der tager billeder af hjertet), inden du får din første dosis og regelmæssigt under 
+behandlingen med CAMZYOS. Det er meget vigtigt, at du kommer til disse ekkokardiogramaftaler, da 
+din læge skal kontrollere, hvordan CAMZYOS påvirker dit hjerte. Det kan være, at din 
+behandlingsdosis skal justeres, så du reagerer bedre på behandlingen eller for at reducere bivirkninger. 
+Hvis du er en kvinde, der kan blive gravid, vil lægen måske tage en graviditetstest, før du begynder på 
+behandlingen med CAMZYOS. 
+Din læge vil måske udføre en test for at undersøge, hvordan dette lægemiddel nedbrydes (omsættes) i 
+din krop, da dette måske kan bruges som vejledning til din behandling med CAMZYOS (se afsnit 3). </p>
+<p>Fortæl det til lægen eller apotekspersonalet med det samme: </p>
+<ul>
+<li>
+<p>hvis du får nogen af disse symptomer under din behandling med CAMZYOS:</p>
+</li>
+<li>
+<p>nyopstået eller forværret åndenød </p>
+</li>
+<li>smerter i brystet </li>
+<li>træthed </li>
+<li>hjertebanken (palpitationer; når hjertet slår på en kraftig måde, der kan være hurtig eller 
+uregelmæssig) eller </li>
+<li>
+<p>hævede ben. 
+Dette kan være tegn og symptomer på systolisk dysfunktion, en tilstand, hvor hjertet ikke kan 
+pumpe blodet rundt med tilstrækkelig kraft. Det kan være livstruende og føre til hjertesvigt. </p>
+</li>
+<li>
+<p>hvis du udvikler en alvorlig infektion eller hjerterytmeforstyrrelse (arytmi), da dette kan øge 
+din risiko for at udvikle hjertesvigt. 
+Det kan være, at din læge skal undersøge din hjertefunktion nærmere, afbryde behandlingen eller 
+ændre din dosis, alt efter hvordan du har det. </p>
+</li>
+</ul>
+<p>Kvinder, der kan blive gravide 
+Hvis CAMZYOS bruges under graviditeten, kan det skade det ufødte barn. Inden du starter 
+behandlingen med CAMZYOS, vil din læge forklare dig om risikoen og bede dig tage en 
+graviditetstest for at sikre, at du ikke er gravid. Din læge vil give dit et kort, som forklarer, hvorfor du 
+ikke må blive gravid, mens du tager CAMZYOS. Det forklarer også, hvad du skal gøre for at undgå at 
+blive gravid, mens du tager CAMZYOS. Du skal bruge sikker prævention under behandlingen og i 
+6 måneder efter, at du er stoppet med behandlingen (se afsnittet "Graviditet og amning"). 
+Hvis du bliver gravid, mens du tager CAMZYOS, skal du straks fortælle det til lægen. Lægen vil 
+stoppe behandlingen (se "Hvis du holder op med at bruge CAMZYOS" i afsnit 3). </p>
+<p>Børn og unge 
+Giv ikke dette lægemiddel til børn (under 18 år), da CAMZYOS' sikkerhed og virkning ikke er blevet 
+undersøgt hos børn og unge. </p>
+<p>Brug af andre lægemidler sammen med CAMZYOS 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Det skyldes, at visse andre lægemidler 
+kan påvirke den måde, som CAMZYOS virker på. 
+Nogle lægemidler kan øge mængden af CAMZYOS i din krop og gøre det mere sandsynligt, at du får 
+bivirkninger, som kan være alvorlige. Andre lægemidler kan nedsætte mængden af CAMZYOS i din 
+krop og kan reducere de gavnlige virkninger. 
+Det er især vigtigt, at du fortæller det til lægen eller apotekspersonalet, inden du tager CAMZYOS, 
+hvis du tager eller for nylig har taget eller ændret din dosis af nogen af følgende lægemidler: </p>
+<ul>
+<li>
+<p>nogle lægemidler, der bruges til at nedsætte den mængde syre, som din mavesæk danner 
+(cimetidin, omeprazol, esomeprazol, pantoprazol) </p>
+</li>
+<li>
+<p>antibiotika mod bakterieinfektioner (såsom clarithromycin, erythromycin) </p>
+</li>
+<li>
+<p>lægemidler, der bruges til at behandle svampeinfektioner (såsom itraconazol, fluconazol, 
+ketoconazol, posaconazol og voriconazol) </p>
+</li>
+<li>
+<p>lægemidler, der bruges til at behandle depression (såsom fluoxetin, fluvoxamin, citalopram) </p>
+</li>
+<li>
+<p>lægemidler mod hiv-infektioner (såsom ritonavir, cobicistat, efavirenz) </p>
+</li>
+<li>
+<p>rifampicin (et antibiotikum mod bakterieinfektioner som f.eks. tuberkulose) </p>
+</li>
+<li>
+<p>apalutamid, enzalutamid, mitotan, ceritinib, idelalisib, ribociclib, tucatinib (lægemidler, der 
+bruges til at behandle visse former for kræft) </p>
+</li>
+<li>
+<p>lægemidler mod krampeanfald eller epilepsi (såsom carbamazepin og phenytoin, phenobarbital, 
+primidon) </p>
+</li>
+<li>
+<p>perikon (et naturlægemiddel mod depression) </p>
+</li>
+<li>
+<p>lægemidler, der påvirker dit hjerte (såsom betablokkere og calciumantagonister, f.eks. verapamil 
+og diltiazem) </p>
+</li>
+<li>
+<p>lægemidler, der gør dit hjerte mere modstandsdygtigt over for unormal aktivitet (såsom 
+natriumkanalblokkere, f.eks. disopyramid) </p>
+</li>
+<li>
+<p>ticlopidin (et lægemiddel til forebyggelse af hjerteanfald og slagtilfælde) </p>
+</li>
+<li>
+<p>letermovir (et lægemiddel til behandling af infektion med cytomegalovirus) </p>
+</li>
+<li>
+<p>norethindron (et lægemiddel til behandling af forskellige menstruationsrelaterede problemer) </p>
+</li>
+<li>
+<p>prednison (steroid). </p>
+</li>
+</ul>
+<p>Hvis du tager eller har taget nogen af disse lægemidler eller har ændret dosis, skal din læge overvåge 
+dig nøje, og det kan være, at din dosis af CAMZYOS skal ændres, eller at en anden behandling skal 
+overvejes. </p>
+<p>Hvis du ikke er sikker på, om du tager nogen af lægemidlerne anført ovenfor, skal du spørge din læge 
+eller apotekspersonalet til råds, inden du tager CAMZYOS. Du skal tale med lægen eller 
+apotekspersonalet, inden du holder op med at tage eller ændrer dosis af et lægemiddel eller begynder 
+at tage et nyt lægemiddel. </p>
+<p>Du må ikke tage nogen af de lægemidler, der er nævnt ovenfor, lejlighedsvis eller engang i mellem 
+(dvs. ikke regelmæssigt), da det kan ændre mængden af CAMZYOS i din krop. </p>
+<p>Brug af CAMZYOS sammen med mad og drikke 
+Du skal passe på med at drikke grapefrugtjuice, mens du er i behandling med CAMZYOS, da det kan 
+ændre mængden af CAMZYOS i din krop. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>Graviditet 
+Du må ikke tage CAMZYOS, mens du er gravid, i 6 måneder inden du bliver gravid, eller hvis du er 
+en kvinde, som kan blive gravid, og som ikke bruger sikker prævention. CAMZYOS kan skade dit 
+ufødte barn. Hvis du er en kvinde, der kan blive gravid, vil din læge oplyse dig om risikoen og 
+kontrollere, om du er gravid, inden behandlingen påbegyndes og regelmæssigt under behandlingen. 
+Din læge vil give dit et kort, som forklarer, hvorfor du ikke må blive gravid, mens du tager 
+CAMZYOS. Hvis du bliver gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, 
+mens du tager CAMZYOS, skal du straks fortælle det til lægen. </p>
+<p>Amning 
+Det er ukendt, om CAMZYOS går over i modermælken. Du må ikke amme, så længe du tager 
+CAMZYOS. </p>
+<p>Trafik- og arbejdssikkerhed 
+Mavacamten kan i mindre grad påvirke din evne til at føre motorkøretøj og betjene maskiner. Hvis du 
+føler dig svimmel, mens du tager dette lægemiddel, må du ikke føre motorkøretøj, cykle eller betjene 
+nogen form for værktøj eller maskiner. </p>
+<p>CAMZYOS indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take camzyos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take camzyos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Så meget skal du tage 
+Den anbefalede startdosis er 2,5 mg eller 5 mg taget gennem munden én gang dagligt. Din læge vil 
+måske udføre en test for at undersøge, hvordan dette lægemiddel nedbrydes (omsættes) i din krop. 
+Testresultatet kan måske vejlede din behandling med CAMZYOS. Hvis du har leverproblemer, vil din 
+læge måske også ordinere en lavere startdosis. </p>
+<p>Din læge vil holde øje med, hvor godt dit hjerte fungerer, mens du tager CAMZYOS, ved at tage 
+ekkokardiogrammer. Det kan være, at lægen ændrer din dosis (øger, sænker eller stopper midlertidigt) 
+ud fra resultaterne. </p>
+<p>Din læge vil fortælle dig, hvor meget CAMZYOS du skal tage. 
+Din læge vil ordinere en enkelt daglig dosis til dig på enten 2,5 mg, 5 mg, 10 mg eller 15 mg. Den 
+højeste enkeltdosis er 15 mg én gang dagligt. Du må kun tage én kapsel hver dag svarende til den 
+dosis, som din læge har ordineret, for at sikre, at du får den rigtige mængde CAMZYOS. </p>
+<p>Tag altid CAMZYOS, som din læge har ordineret det. </p>
+<p>Det første ekkokardiogram tages, inden du starter behandlingen, og så igen ved kontrolbesøg i uge 4, 8 
+og uge 12 for at vurdere, hvordan du reagerer på CAMZYOS. Derefter vil der blive taget 
+rutinemæssige ekkokardiogrammer hver 12. uge. Hvis din læge ændrer din dosis af CAMZYOS på 
+noget tidspunkt, vil der blive taget et ekkokardiogram 4 uger senere for at sikre, at du får en dosis, der 
+er gavnlig for dig. </p>
+<p>Sådan tages lægemidlet </p>
+<ul>
+<li>
+<p>Synk kapslen hel med et glas vand på omtrent samme tidspunkt hver dag. </p>
+</li>
+<li>
+<p>Du kan tage lægemidlet sammen med mad eller mellem måltider. </p>
+</li>
+</ul>
+<p>Hvis du har taget for meget CAMZYOS 
+Hvis du har taget for mange kapsler, skal du straks kontakte lægen. Hvis du har taget 3 til 5 gange den 
+anbefalede dosis, skal du straks tage på hospitalet. Hvis det er muligt, skal du medbringe 
+lægemiddelpakningen og denne indlægsseddel. </p>
+<p>Hvis du har glemt at tage CAMZYOS 
+Hvis du har glemt at tage CAMZYOS på det sædvanlige tidspunkt, skal du tage din dosis, så snart du 
+kommer i tanke om det den samme dag. Tag den næste dosis på det sædvanlige tidspunkt næste dag. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte kapsel. </p>
+<p>Hvis du holder op med at bruge CAMZYOS 
+Du må ikke holde op med at tage CAMZYOS, medmindre din læge beder dig om at gøre det. Hvis du 
+ønsker at holde op med at tage CAMZYOS, skal du tale med lægen om den bedste måde at gøre det 
+på. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Fortæl det straks til lægen eller apotekspersonalet, hvis du får nogen af disse symptomer, mens du 
+er i behandling med CAMZYOS: </p>
+<ul>
+<li>nyopstået eller forværret åndenød, smerter i brystet, træthed, hjertebanken (hjertet slår på en 
+kraftig måde, der kan være hurtig eller uregelmæssig) eller hævede ben. Dette kan være tegn og 
+symptomer på systolisk dysfunktion (en lidelse, hvor hjertet ikke kan pumpe blodet rundt med 
+tilstrækkelig kraft), som kan føre til hjertesvigt og være livstruende. (Almindelige bivirkninger) </li>
+</ul>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>besvimelse </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store camzyos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store camzyos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CAMZYOS indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: mavacamten. Hver hård kapsel indeholder enten 2,5 mg, 5 mg, 10 mg eller 15 mg 
+mavacamten. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>kapselindhold: kolloid silica, mannitol (E421), hypromellose (E464), 
+croscarmellosenatrium (E468, se afsnit 2 "CAMZYOS indeholder natrium"), 
+magnesiumstearat </p>
+</li>
+<li>kapselskal: 
+CAMZYOS 2,5 mg hårde kapsler 
+gelatine, titandioxid (E171), sort jernoxid (E172), rød jernoxid (E172) 
+CAMZYOS 5 mg hårde kapsler 
+gelatine, titandioxid (E171), gul jernoxid (E172) 
+CAMZYOS 10 mg hårde kapsler 
+gelatine, titandioxid (E171), rød jernoxid (E172) 
+CAMZYOS 15 mg hårde kapsler 
+gelatine, titandioxid (E171), sort jernoxid (E172) </li>
+<li>printblæk: sort jernoxid (E172), shellak (E904), propylenglycol (E1520), koncentreret 
+ammoniakopløsning (E527), kaliumhydroxid (E525). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>CAMZYOS 2,5 mg, ca. 18,0 mm lange, hårde kapsler (kapsler) har en lyslilla, uigennemsigtig 
+hætte og hvid, uigennemsigtig bund påtrykt "2.5 mg" på hætten og "Mava" på bunden med sort 
+blæk. </p>
+</li>
+<li>
+<p>CAMZYOS 5 mg, ca. 18,0 mm lange, hårde kapsler (kapsler) har en gul, uigennemsigtig hætte 
+og hvid, uigennemsigtig bund påtrykt "5 mg" på hætten og "Mava" på bunden med sort blæk. </p>
+</li>
+<li>
+<p>CAMZYOS 10 mg, ca. 18,0 mm lange, hårde kapsler (kapsler) har en lyserød, uigennemsigtig 
+hætte og hvid, uigennemsigtig bund påtrykt "10 mg" på hætten og "Mava" på bunden med sort 
+blæk. </p>
+</li>
+<li>
+<p>CAMZYOS 15 mg, ca. 18,0 mm lange, hårde kapsler (kapsler) har en grå, uigennemsigtig hætte 
+og hvid, uigennemsigtig bund påtrykt "15 mg" på hætten og "Mava" på bunden med sort blæk. </p>
+</li>
+</ul>
+<p>De hårde kapsler er pakket i aluminiumsfolieblisterkort, som indeholder 14 hårde kapsler. </p>
+<p>Hver pakning indeholder enten 14, 28 eller 98 hårde kapsler. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Fremstiller 
+Swords Laboratories Unlimited Company T/A Bristol-Myers Squibb Pharmaceutical Operations, 
+External Manufacturing 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-39ac69c93b0288d89a0cb9d145b02fcc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for camzyos Package Leaflet for language en"
+Description: "ePI document Bundle for camzyos Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-39ac69c93b0288d89a0cb9d145b02fcc"
+* entry[0].resource = composition-en-39ac69c93b0288d89a0cb9d145b02fcc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp39ac69c93b0288d89a0cb9d145b02fcc"
+* entry[=].resource = mp39ac69c93b0288d89a0cb9d145b02fcc
+                            
+                    
+Instance: bundlepackageleaflet-da-39ac69c93b0288d89a0cb9d145b02fcc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for camzyos Package Leaflet for language da"
+Description: "ePI document Bundle for camzyos Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-39ac69c93b0288d89a0cb9d145b02fcc"
+* entry[0].resource = composition-da-39ac69c93b0288d89a0cb9d145b02fcc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp39ac69c93b0288d89a0cb9d145b02fcc"
+* entry[=].resource = mp39ac69c93b0288d89a0cb9d145b02fcc
+                            
+                    
+
+
+
+Instance: mp39ac69c93b0288d89a0cb9d145b02fcc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product CAMZYOS 2.5 mg hard capsules"
-Description: "CAMZYOS 2.5 mg hard capsules"
+Title: "Medicinal Product camzyos"
+Description: "camzyos"
 Usage: #inline
 
  
@@ -364,7 +849,7 @@ Usage: #inline
 
 
 * name
-  * productName = "CAMZYOS 2.5 mg hard capsules"
+  * productName = "camzyos"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -391,29 +876,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-39ac69c93b0288d89a0cb9d145b02fcc
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for camzyos Package Leaflet for language en"
-Description: "ePI document Bundle for camzyos Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 39ac69c93b0288d89a0cb9d145b02fccListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1716/001-012"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "camzyos"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-39ac69c93b0288d89a0cb9d145b02fcc"
-* entry[0].resource = composition-en-39ac69c93b0288d89a0cb9d145b02fcc
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbc4b8e59300987d3bf040f482991f288"
-* entry[=].resource = mpbc4b8e59300987d3bf040f482991f288
-                            
-                      
+* title = "List of all ePIs associated with camzyos"
+
+* subject = Reference(mpbc4b8e59300987d3bf040f482991f288)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#camzyos "camzyos"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-39ac69c93b0288d89a0cb9d145b02fcc) // camzyos en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-39ac69c93b0288d89a0cb9d145b02fcc) // camzyos da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-39ac69c93b0288d89a0cb9d145b02fcc
+InstanceOf: List
+
+* insert 39ac69c93b0288d89a0cb9d145b02fccListRuleset
+    

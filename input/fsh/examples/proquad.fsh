@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-188ccb87c0d4f4c736200f4cfc1c3e01
 InstanceOf: CompositionUvEpi
 Title: "Composition for proquad Package Leaflet"
@@ -416,12 +419,546 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-188ccb87c0d4f4c736200f4cfc1c3e01
+InstanceOf: CompositionUvEpi
+Title: "Composition for proquad Package Leaflet"
+Description:  "Composition for proquad Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0ef0c8cd9fea74a67baf8cc292ab700b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0ef0c8cd9fea74a67baf8cc292ab700b
+* title = "TEST PURPOSES ONLY - proquad"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du eller dit barn får ProQuad
+3. Sådan får du ProQuad
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What proquad is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What proquad is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ProQuad er en vaccine, der indeholder svækket virus af mæslinger, fåresyge, røde hunde og
+skoldkopper (varicella). Når en person vaccineres med ProQuad, danner immunsystemet (kroppens
+naturlige forsvar) antistoffer mod mæslinge-, fåresyge-, røde hunde- og skoldkoppevirus.
+Antistofferne er med til at beskytte mod sygdomme, der skyldes disse virus.
+ProQuad gives for at beskytte dit barn mod mæslinger, fåresyge, røde hunde og skoldkopper
+(varicella). Vaccinen kan gives til personer, fra de er 12 måneder.
+ProQuad kan også gives til spædbørn fra 9-måneders alderen under særlige omstændigheder (i
+overensstemmelse med nationale vaccinationsprogrammer, i forbindelse med sygdomsudbrud eller
+ved rejse til et område med høj forekomst af mæslinger).
+Selv om ProQuad indeholder levende virus, er disse for svage til at udløse mæslinger, fåresyge, røde
+hunde eller skoldkopper (varicella) hos raske mennesker.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take proquad"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take proquad"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du / dit barn må ikke få ProQuad
+ 
+Hvis personen, der skal vaccineres, er allergisk over for en vaccine med skoldkoppevirus
+eller med mæslinge-, fåresyge- eller røde hundevirus eller over for et eller flere af
+hjælpestofferne i denne vaccine (angivet i afsnit 6), inklusive neomycin. 
+ 
+Hvis personen, der skal vaccineres, har en blodsygdom eller en kræftsygdom, der påvirker
+immunsystemet.
+ 
+Hvis personen, der skal vaccineres, er i behandling eller får medicin, der kan svække
+immunsystemet (undtagen lave doser af kortikosteroider mod astma eller som
+substitutionsterapi).
+ 
+Hvis personen, der skal vaccineres, har et svækket immunsystem på grund af sygdom
+(inklusive aids).</p>
+<p>40
+ 
+Hvis der er en medfødt eller arvelig immundefekt i familien, medmindre der er påvist, at
+den person, der skal vaccineres, ikke har nedsat immunforsvar.
+ 
+Hvis personen, der skal vaccineres, har aktiv, ubehandlet tuberkulose.
+ 
+Hvis personen, der skal vaccineres, er syg og har over 38,5 °C i feber. Lav feber alene er
+ikke grund nok til at udsætte vaccinationen.
+ 
+Hvis personen, der skal vaccineres, er gravid (graviditet bør desuden undgås i 1 måned
+efter vaccinationen, se Graviditet og amning).
+Advarsler og forsigtighedsregler
+Hvis personen, der skal vaccineres, har været udsat for følgende problemer, skal du tale med lægen
+eller apotekspersonalet før vaccination med ProQuad:
+ 
+En allergisk reaktion over for æg eller noget, der indeholdt æg.
+ 
+Tidligere har lidt af allergi eller kramper og anfald, eller det er forekommet i familien.
+ 
+Har oplevet en bivirkning efter vaccination med vacciner indeholdende mæslinger,
+fåresyge og/eller røde hunde, som bevirkede, at barnet let fik blå mærker eller blødte
+længere end sædvanligt.
+ 
+Er hiv-positiv (hiv = human immundefektvirus) uden symptomer på hiv-infektion. I så fald
+kan vaccinationen beskytte mindre effektivt end hos personer uden hiv (se under ProQuad
+må ikke anvendes).
+Hvis du lider af en blodkoagulationssygdom eller har et lavt niveau trombocytter i dit blod, vil
+indsprøjtningen blive givet under huden.
+I sjældne tilfælde er det muligt at blive smittet med skoldkopper, herunder svære tilfælde af
+skoldkopper, af en person, der er blevet vaccineret med ProQuad. Dette kan forekomme hos personer,
+der ikke tidligere er vaccineret mod skoldkopper eller har haft skoldkopper samt hos personer, der
+tilhører en af følgende kategorier:
+ 
+Personer med nedsat modstandskraft over for sygdom.
+ 
+Gravide, som ikke har haft skoldkopper eller ikke er vaccineret mod sygdommen.
+ 
+Nyfødte børn af mødre, som ikke har haft skoldkopper eller ikke er vaccineret mod
+sygdommen.
+Hvis det er muligt, skal personer, som er blevet vaccineret med ProQuad, forsøge at undgå tæt kontakt
+med personer, der tilhører en af ovenstående kategorier, i op til 6 uger efter vaccination. Fortæl det til
+din læge, hvis du kender nogen, som falder ind under en af disse kategorier, og som du tror, vil
+komme i tæt kontakt med personen, der skal vaccineres.
+Lige som andre vacciner vil ProQuad muligvis ikke give alle modtagere af vaccinen fuld beskyttelse.
+Hvis den, der skal vaccineres, allerede har været udsat for mæslinger, fåresyge, røde hunde eller
+skoldkopper, men endnu ikke er syg, vil ProQuad muligvis ikke være i stand til at forhindre
+sygdommen i at bryde ud.
+Brug af anden medicin sammen med ProQuad
+Fortæl altid lægen eller apotekspersonalet, hvis personen, der skal vaccineres, bruger anden medicin
+(eller vacciner), for nylig har brugt anden medicin (eller vacciner) eller planlægger at bruge anden
+medicin (eller vacciner).
+ProQuad kan gives samtidigt med andre børnevacciner som Prevenar og/ eller hepatitis A vaccine,
+eller vacciner mod difteri, stivkrampe, kighoste (acellulær), Haemophilus influenzae type b, polio
+(inaktiveret) eller hepatitis B. Vaccinerne skal gives på forskellige injektionssteder.
+Lægen kan udsætte din vaccination i mindst 3 måneder efter en blod- eller plasmatransfusion eller
+indgift af immunglobulin (Ig) eller varicella-zoster-immunglobulin (VZIG). Efter vaccination med
+ProQuad bør Ig eller VZIG ikke gives i mindst 1 måned, medmindre lægen siger noget andet. </p>
+<p>41
+Hvis der skal foretages tuberkulintest, skal den udføres enten før, samtidig med eller mindst 4-6 uger
+efter vaccination med ProQuad.
+Fortæl lægen, hvis den person, der skal vaccineres, er vaccineret for nylig, eller hvis der er planer om
+vaccination i den nærmeste fremtid. Lægen vil så tage stilling til, hvornår ProQuad kan anvendes. 
+Brug af salicylater (for eksempel acetylsalicylsyre, som indgår i en række midler til smertelindring og
+febersænkning) bør undgås i 6 uger efter vaccination med ProQuad.
+Graviditet og amning
+ProQuad bør ikke gives til gravide kvinder. Kvinder i den fødedygtige alder skal sikre sig mod
+graviditet i 1 måned efter vaccinationen.
+Kvinder, der ammer eller har til hensigt at amme, bør fortælle det til deres læge. Lægen vil så tage
+stilling til, om ProQuad bør anvendes.
+Hvis du er gravid eller ammer, har mistanke om at du er gravid eller planlægger at blive gravid, skal
+du spørge din læge eller apotekspersonalet til råds, før du får denne vaccine.
+ProQuad indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det
+væsentlige natriumfrit.
+ProQuad indeholder kalium
+Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. det er i det væsentlige
+kaliumfrit.
+ProQuad indeholder sorbitol
+Dette lægemiddel indeholder 16 mg sorbitol pr. dosis. Den additive virkning af samtidigt
+administrerede produkter indeholdende sorbitol (eller fructose) og indtagelse af sorbitol (eller
+fructose) i kosten bør tages i betragtning.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take proquad"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take proquad"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ProQuad skal gives som indsprøjtning i en muskel eller under huden enten på yderlåret eller på
+overarmen.
+Normalt foretrækkes indsprøjtninger i yderlåret hos små børn, mens det foretrukne indsprøjtningssted
+for ældre patienter er i overarmen.
+Hvis den person, der skal vaccineres, lider af en blodkoagulationssygdom eller har et lavt niveau
+trombocytter, skal vaccinen gives under huden, fordi der kan opstå blødning efter indsprøjtning i en
+muskel.
+ProQuad må ikke gives direkte i et blodkar. 
+ProQuad gives som indsprøjtning som følger:
+ 
+Spædbørn mellem 9 og 12 måneder:
+ProQuad kan indgives fra 9-måneders alderen. For at sikre optimal beskyttelse mod skoldkopper
+og mæslinger skal der gives to doser ProQuad med mindst 3 måneders mellemrum.
+ 
+Personer fra 12 måneder og ældre:
+For at sikre optimal beskyttelse mod skoldkopper skal der gives to doser ProQuad med mindst
+en måneds mellemrum.
+Tidspunktet for og antallet af indsprøjtninger fastsættes af din læge i henhold til de officielle
+retningslinjer.</p>
+<p>42
+Vejledning i rekonstitution af vaccinen beregnet for læger og sundhedspersonale er anført sidst i
+indlægssedlen
+Hvis du glemmer at få ProQuad
+Din læge afgør, hvornår den manglende dosis skal gives.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre vacciner og lægemidler give bivirkninger, men ikke alle får
+bivirkninger.
+Der kan forekomme allergiske reaktioner (nældefeber). Nogle af disse reaktioner kan være alvorlige
+og omfatte åndedrætsbesvær eller synkebesvær. Hvis den vaccinerede person får en allergisk reaktion,
+skal du omgående søge læge.
+Der er rapporteret andre bivirkninger efter indgivelse af ProQuad, og nogle af disse var alvorlige. Der
+var tale om:
+ 
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer): krampeanfald med feber.
+ 
+Sjældne (kan forekomme hos op til 1 ud af 1000 personer): usikker gang.
+Følgende andre bivirkninger er rapporteret i forbindelse med brug af ProQuad: 
+ 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer): symptomer ved
+injektionsstedet inklusive smerte/ømhed, rødmen, feber (38,9°C eller højere).
+ 
+Almindelige (kan forekomme hos op til 1 ud af 10 personer): symptomer ved injektionsstedet
+inklusive hævelse eller blå mærker; irritabilitet; udslæt (inklusive mæslingelignende udslæt,
+skoldkoppelignende udslæt  og udslæt ved injektionsstedet); øvre luftvejsinfektion,
+opkastninger samt diaré.
+Andre bivirkninger rapporteret med brug af mindst en af følgende: ProQuad, tidligere formuleringer af
+monovalent og af de kombinerede mæslinge-, fåresyge- og røde hundevacciner produceret af Merck &amp;
+Co., Inc., eller levende skoldkoppevaccine (Oka/Merck). Disse bivirkninger omfatter:
+ 
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer): hoste.
+ 
+Sjældne (kan forekomme hos op til 1 ud af 1.000 personer): hudinfektion; skoldkopper
+(varicella).
+ 
+Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data): usædvanlig
+blødning eller blå mærker under huden; hævelse af testikler; prikken i huden, herpes zoster
+(helvedesild); hjernebetændelse (encephalitis); betændelse i de hinder, der omgiver hjernen og
+rygmarven, som ikke er forårsaget af en bakteriel infektion (aseptisk meningitis); svære
+hudreaktioner; slagtilfælde; kramper uden feber; ledsmerter og/eller hævelse (forbigående eller
+kronisk) og lungebetændelse (pneumoni/pneumonitis).
+Lægen har en mere udtømmende liste over bivirkninger ved ProQuad og vaccinens enkelte
+komponenter (MFR-vaccinen fremstillet af Merck &amp; Co., Inc. og levende skoldkoppevaccine
+(Oka/Merck)).
+Indberetning af bivirkninger
+Hvis den vaccinerede person oplever bivirkninger, bør du tale med din læge eller apotekspersonalet.
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p>
+<p>43</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store proquad"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store proquad"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn.
+Brug ikke denne vaccine efter den udløbsdato, der står på den ydre karton efter EXP. Udløbsdatoen er
+den sidste dag i den nævnte måned.
+Opbevares og transporteres nedkølet (2° C - 8° C).
+Må ikke nedfryses.
+Opbevar hætteglasset i den ydre karton for at beskytte det mod lys.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ProQuad indeholder:
+Efter rekonstitution indeholder 1 dosis (0,5 ml):</p>
+<ul>
+<li>Aktive stoffer:
+Mæslingevirus1 Enders Edmonston stamme (levende, svækket) ...........≥ 3,00 log10 TCID50<em> Fåresygevirus1 Jeryl LynnTM stamme (levende, svækket (niveau B)) ....≥ 4,30 log10 TCID50</em> Røde hundevirus2 Wistar RA 27/3 stamme (levende, svækket) .............≥ 3,00 log10 TCID50<em> Skoldkoppevirus3 Oka/Merck stamme (levende, svækket) ....................≥ 3,99 log10 PFU</em>* * 50% vævskultur infektiøs dosis</li>
+</ul>
+<p>** plaquedannende enheder
+1) Fremstillet i kyllingefosterceller. 
+2) Fremstillet i human diploid lungefibroblast (WI-38).<br />
+3) Fremstillet i humane diploide celler (MRC-5). 
+- Øvrige indholdsstoffer:
+Pulver
+Saccharose, hydrolyseret gelatine, urinstof, natriumchlorid, sorbitol (E 420), mononatriumglutamat,
+natriumphosphat, natriumbicarbonat, kaliumphosphat, kaliumchlorid, medium 199 med Hanks salte,
+MEM, neomycin, phenolrødt, saltsyre, natriumhydroxid.
+Solvens
+Vand til injektionsvæsker.
+Udseende og pakningsstørrelser
+Vaccinen fås som pulver til injektionsvæske i et hætteglas med en enkelt dosis, og pulveret skal
+opblandes med den solvens, som leveres sammen med hætteglasset med pulver. 
+Pulveret er en hvid til lysegul kompakt krystallinsk masse, og solvensen er en klar farveløs væske.
+ProQuad fås i pakninger med 1 stk. og pakninger med 10 stk. Ikke alle pakningsstørrelser er
+nødvendigvis markedsført.
+44
+Indehaver af markedsføringstilladelsen og fremstiller
+Indehaver af markedsføringstilladelsen: Merck Sharp &amp; Dohme B.V., Waarderweg 39, 2031 BN
+Haarlem, Holland
+Fremstiller ansvarlig for batchfrigivelse: Merck Sharp and Dohme, B.V., Waarderweg, 39, NL- 2031
+BN Haarlem, Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme, 
+Tel: +370.5.2780.247
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД 
+тел.: + 359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s. r. o. 
+Tel: +420.233.010.111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft 
+Tel.: + 36.1.888.5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited., Tel:
+8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o. 
+Tel: +48.22.549.51.00
+msdpolska@merck.com
+France
+MSD France 
+Tel:+ 33 (0)1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com</p>
+<p>45
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: +385 1 66 11 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L. 
+Tel: + 4021 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o. 
+Tel: +386.1.520.4201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421.2.58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited., 
+Τηλ: 80 000 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371.67364.224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.</p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale:
+Før opblanding med solvensen er vaccinens pulver en hvid til lysegul kompakt krystallinsk masse.
+Solvensen er en klar, farveløs væske. Efter fuldstændig rekonstitution er vaccinen en klar lysegul til
+lyserød væske.
+Til rekonstitution af vaccinen må kun anvendes den medfølgende solvens, idet den er uden
+konserveringsmidler eller andre antivirale stoffer, som kunne inaktivere vaccinen. 
+Det er vigtigt at anvende en separat steril injektionssprøjte og kanyle til hver enkelt person for at
+forebygge transmission af smitsomme stoffer fra en person til en anden.
+Der skal anvendes én kanyle til rekonstitution, og en anden separat kanyle skal anvendes til injektion.</p>
+<p>46
+ProQuad må ikke blandes med andre vacciner i en injektionssprøjte.
+Vejledning i rekonstitution
+Al solvensen i hætteglasset trækkes op i en injektionssprøjte. Hele sprøjtens indhold injiceres i
+hætteglasset med pulver. Omrystes forsigtigt, indtil pulveret er helt opløst. 
+Inden administration skal den rekonstituerede vaccine undersøges visuelt for fremmede partikler
+og/eller usædvanligt udseende. Hvis noget af dette forekommer, skal vaccinen kasseres.
+Det anbefales, at vaccinen gives straks efter rekonstitution for at minimere tab af styrke. Den
+rekonstituerede vaccine skal bortskaffes, hvis den ikke anvendes inden for 30 minutter.
+Den rekonstituerede vaccine må ikke nedfryses.
+Hele hætteglassets indhold af rekonstitueret vaccine trækkes op i en injektionssprøjte, kanylen skiftes
+og hele mængden injiceres subkutant eller intramuskulært.
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
+Se også afsnit 3 Sådan får du ProQuad. </p>
+<p>47
+Indlægsseddel: Information til brugeren
+ProQuad
+Pulver og solvens til injektionsvæske, suspension i forfyldt injektionssprøjte
+levende vaccine mod mæslinger, fåresyge, røde hunde og skoldkopper
+Læs denne indlægsseddel grundigt, inden du eller dit barn bliver vaccineret, da den indeholder
+vigtige oplysninger.
+- Gem indlægssedlen. Du kan få brug for at læse den igen.
+- Spørg lægen eller apotekspersonalet, hvis der er mere du vil vide.
+- Lægen har ordineret denne vaccine til dig eller dit barn personligt. Lad derfor være med at give
+vaccinen til andre.
+- Kontakt lægen eller apotekspersonalet, hvis du eller dit barn får bivirkninger, herunder
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-188ccb87c0d4f4c736200f4cfc1c3e01
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for proquad Package Leaflet for language en"
+Description: "ePI document Bundle for proquad Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-188ccb87c0d4f4c736200f4cfc1c3e01"
+* entry[0].resource = composition-en-188ccb87c0d4f4c736200f4cfc1c3e01
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp188ccb87c0d4f4c736200f4cfc1c3e01"
+* entry[=].resource = mp188ccb87c0d4f4c736200f4cfc1c3e01
+                            
+                    
+Instance: bundlepackageleaflet-da-188ccb87c0d4f4c736200f4cfc1c3e01
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for proquad Package Leaflet for language da"
+Description: "ePI document Bundle for proquad Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-188ccb87c0d4f4c736200f4cfc1c3e01"
+* entry[0].resource = composition-da-188ccb87c0d4f4c736200f4cfc1c3e01
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp188ccb87c0d4f4c736200f4cfc1c3e01"
+* entry[=].resource = mp188ccb87c0d4f4c736200f4cfc1c3e01
+                            
+                    
+
+
+
+Instance: mp188ccb87c0d4f4c736200f4cfc1c3e01
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ProQuad powder and solvent for suspension for injection"
-Description: "ProQuad powder and solvent for suspension for injection"
+Title: "Medicinal Product proquad"
+Description: "proquad"
 Usage: #inline
 
  
@@ -441,7 +978,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ProQuad powder and solvent for suspension for injection"
+  * productName = "proquad"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -468,29 +1005,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-188ccb87c0d4f4c736200f4cfc1c3e01
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for proquad Package Leaflet for language en"
-Description: "ePI document Bundle for proquad Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 188ccb87c0d4f4c736200f4cfc1c3e01ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/05/323/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "proquad"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-188ccb87c0d4f4c736200f4cfc1c3e01"
-* entry[0].resource = composition-en-188ccb87c0d4f4c736200f4cfc1c3e01
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0ef0c8cd9fea74a67baf8cc292ab700b"
-* entry[=].resource = mp0ef0c8cd9fea74a67baf8cc292ab700b
-                            
-                      
+* title = "List of all ePIs associated with proquad"
+
+* subject = Reference(mp0ef0c8cd9fea74a67baf8cc292ab700b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#proquad "proquad"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-188ccb87c0d4f4c736200f4cfc1c3e01) // proquad en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-188ccb87c0d4f4c736200f4cfc1c3e01) // proquad da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-188ccb87c0d4f4c736200f4cfc1c3e01
+InstanceOf: List
+
+* insert 188ccb87c0d4f4c736200f4cfc1c3e01ListRuleset
+    

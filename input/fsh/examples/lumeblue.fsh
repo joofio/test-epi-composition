@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5a0e77a26a98f2eac352c48d66309743
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumeblue Package Leaflet"
@@ -292,12 +295,427 @@ Italy </p>
 
 
 
+Instance: composition-da-5a0e77a26a98f2eac352c48d66309743
+InstanceOf: CompositionUvEpi
+Title: "Composition for lumeblue Package Leaflet"
+Description:  "Composition for lumeblue Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9c771324c0fb55bcbb7f5d1f3caf1940)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp9c771324c0fb55bcbb7f5d1f3caf1940
+* title = "TEST PURPOSES ONLY - lumeblue"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse af Lumeblue, og hvad det bruges til  </li>
+<li>Det skal du vide, før du begynder at tage Lumeblue  </li>
+<li>Sådan skal du tage Lumeblue </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lumeblue is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lumeblue is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lumeblue indeholder methylthioniniumchlorid (også kendt som methylenblåt). Denne medicin er et 
+blåt farvestof.  </p>
+<p>Denne medicin bruges til voksne til midlertidigt at farve tyktarmen før koloskopi, hvor et fleksibelt 
+instrument indføres i rektum til visning af tarmens inderside. Farvningen gør det muligt for lægen at se 
+tyktarmens foring mere tydeligt og forbedrer identifikationen af abnormiteter.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lumeblue"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lumeblue"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Lumeblue 
+- hvis du er allergisk over for methylthioniniumchlorid, jordnødder eller soja eller et af de 
+øvrige indholdsstoffer i dette lægemiddel (angivet i punkt 6).<br />
+• hvis du har fået at vide, at du har glucose-6-phosphat-dehydrogenase (G6PD)-deficiens; 
+• hvis du er gravid eller tror, du kan være gravid, eller hvis du ammer, idet din læge kan beslutte, at 
+du ikke behøver at tage denne medicin før din undersøgelse.  </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen eller apotekspersonalet, før du tager dette lægemiddel: 
+• Hvis du tager visse antidepressiva eller medicin mod psykisk sygdom. Såsom:</p>
+<ul>
+<li>selektiv serotoningenoptagshæmmer (SSRI)-antidepressiva, såsom fluoxetin, fluvoxamin, 
+paroxetin, sertralin, citalopram, escitalopram og zimeldin; </li>
+<li>bupropion, venlafaxin, mirtazapin, clomipramin, buspiron; </li>
+<li>lægemidler klassificeret som Mono-Amino-Oxidase-hæmmere (anvendes ofte til 
+behandling af depression). 
+Injektion med methylthioniniumchlorid (i en vene) hos patienter, der også tager disse 
+lægemidler, har i nogle tilfælde resulteret i en livstruende komplikation kaldet 
+serotoninsyndrom. Det vides ikke, om serotoninsyndrom kan forekomme, når 
+methylthioniniumchlorid gives som tablet. Lægen beslutter, hvad der skal gøres, hvis du tager et 
+antidepressivum eller en anden medicin for psykiatrisk sygdom.  </li>
+</ul>
+<p>Børn og unge 
+Lumeblue bør ikke gives til børn og unge under 18 år, da det ikke vides, om medicinen er sikker og 
+effektiv i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Lumeblue 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin.  </p>
+<p>Brug af anden medicin og Lumeblue sammen kan påvirke, hvordan de hver især fungerer eller 
+forarbejdes og fjernes fra kroppen. </p>
+<p>Ud over antidepressiva og de andre lægemidler mod psykiatrisk sygdom nævnt under 'Advarsler og 
+forholdsregler', bør du, før du tager denne medicin, fortælle lægen, hvis du også tager eller for nylig 
+har fået: 
+• Medicin til behandling af uregelmæssig hjerterytme såsom amiodaron, digoxin og quinidin 
+• Warfarin til forebyggelse af blodpropper<br />
+• Medicin til behandling af kræft, såsom alectinib, everolimus, lapatinib, nilotinib og topotecan<br />
+• Medicin til at forhindre afstødning af transplanterede organer, såsom ciclosporin, sirolimus og 
+tacrolimus 
+• Medicin til behandling af HIV-infektion såsom ritonavir og saquinavir 
+• Medicin mod migræne såsom dihydroergotamin, ergotamin 
+• Medicin til behandling af angst eller søvnløshed, såsom diazepam 
+• Beroligende medicin såsom midazolam og propofol<br />
+• Antihistamin-medicin til behandling af allergier såsom diphenhydramin eller promethazin 
+• Probenecid til behandling af gigt 
+• Phenytoin mod epilepsi 
+• Pimozid til behandling af psykose eller skizofreni 
+• Medicin til behandling af svære smerter såsom alfentanil, fentanyl og pethidin (også kendt som 
+meperidin) 
+• Cimetidin til behandling af mavesår og tilbageløb af mavesyre 
+• Metformin til behandling af type 2-diabetes<br />
+• Aciclovir til behandling af herpes simplex-virusinfektioner (f.eks. forkølelsessår, kønsvorter) og 
+virusinfektioner med varicella-zoster (f.eks. skoldkopper, helvedesild) </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, må du ikke tage 
+Lumeblue, da det ikke vides, om dette lægemiddel kan skade dit ufødte barn. 
+Hvis du ammer, skal du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.<br />
+Din læge kan beslutte, at du ikke behøver at tage denne medicin, hvis du har brug for en koloskopi, 
+mens du ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er usandsynligt, at indtagelse af Lumeblue vil påvirke din evne til at køre eller betjene maskiner. 
+Men hvis du oplever bivirkninger, der kan påvirke evnen til at køre bil eller betjene maskiner på sikker 
+vis, såsom migræne, svimmelhed eller synsforstyrrelse, skal du ikke køre bil eller betjene maskiner, 
+før du har det bedre. </p>
+<p>Lumeblue indeholder sojalecithin 
+Hvis du er allergisk over for jordnødder eller soja, må du ikke tage denne medicin. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lumeblue"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lumeblue"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Medicinen leveres som tabletter. Disse skal sluges hele, fordi de har en speciel belægning, der sikrer, 
+at de passerer gennem maven og først brydes i dine tarme, hvor de skal frigive den 
+methylthioniniumchlorid, der farver tyktarmen blå. Du må ikke knuse eller tygge dem. </p>
+<p>Du får en pakning med 8 tabletter (i alt 200 mg methylthioniniumchlorid). Disse skal alle tages over 
+en periode på 2 timer aftenen før din koloskopi. Din læge vil forklare, hvordan du skal tage tabletterne, 
+som normalt tages sammen med en tarmrensende opløsning (medicin, der tømmer din tyktarm).  </p>
+<p>Tag tabletterne som anvist af lægen.  </p>
+<p>Typiske instruktioner er: </p>
+<ol>
+<li>
+<p>Efter at have drukket mindst 1 liter tarmrensende opløsning (eller vand) tages den første dosis på 3 
+tabletter. </p>
+</li>
+<li>
+<p>Vent 1 time, hvorefter den anden dosis på 3 tabletter tages.  </p>
+</li>
+<li>
+<p>Vent yderligere 1 time, og tag derefter den sidste dosis på 2 tabletter. </p>
+</li>
+</ol>
+<p>Hvis du har taget for meget Lumeblue 
+Æsken indeholder en komplet dosis Lumeblue. Derfor kan du ikke tage mere Lumeblue, end du bør. 
+Men hvis du tager flere tabletter, end du bør, kan du få nogle af de bivirkninger, der er anført i punkt 4. Hvis du tror, du har taget mere af denne medicin, end du burde, skal du underrette din læge eller 
+sygeplejerske snarest muligt.<br />
+Hvis du oplever nogle af følgende symptomer, bør du fortælle din læge det med det samme: 
+• Kvalme eller opkastning, eller mavesmerter 
+• Unormalt høj puls eller brystsmerter 
+• Trykken for brystet eller åndedrætsbesvær (f.eks. åndenød) 
+• Forvirring, svimmelhed eller hovedpine 
+• Sved, rysten, følelse af svaghed, blegere hud end normalt, eller at huden bliver blå 
+• En stigning i methæmoglobin (en abnorm type af hæmoglobin i blodet); 
+• Højt blodtryk. </p>
+<p>Hvis du har glemt at tage Lumeblue 
+Du må ikke tage en dobbeltdosis som erstatning for glemte tabletter. Tag den næste dosis tabletter i 
+henhold til den tarmudrensningsplan, du har fået af din læge. Det kan være nyttigt at indstille en alarm, 
+der kan minde dig om, hvornår du skal tage medicinen.  </p>
+<p>Hvis du holder op med at tage Lumeblue 
+Fortæl din læge, når du er til koloskopien, at du ikke har taget alle tabletterne.<br />
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Følgende bivirkninger er almindelige, men underret lægen eller sygeplejersken, hvis du er bekymret 
+over en bivirkning, du får: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Misfarvet urin </p>
+</li>
+<li>
+<p>Misfarvet afføring </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Ændringer i din smagssans </p>
+</li>
+<li>
+<p>Stikkende fornemmelse, snurren eller prikken </p>
+</li>
+<li>
+<p>Smerter eller ubehag i dine hænder eller fødder </p>
+</li>
+<li>
+<p>Blå misfarvning af huden </p>
+</li>
+<li>
+<p>Svedtendens </p>
+</li>
+</ul>
+<p>Almindelige (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Mave- eller brystsmerter </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Angst </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan påvirke op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Forkølelseslignende symptomer, herunder stoppet eller løbende næse </p>
+</li>
+<li>
+<p>Migræne </p>
+</li>
+<li>
+<p>Lavt blodtryk </p>
+</li>
+<li>
+<p>Hoste </p>
+</li>
+<li>
+<p>Opkastning af blod </p>
+</li>
+<li>
+<p>Misfarvning af huden, der ligner blå mærker  </p>
+</li>
+<li>
+<p>Nattesved </p>
+</li>
+<li>
+<p>Kløende hud </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Fremtrædende blodårer </p>
+</li>
+<li>
+<p>Smerter i ryggen eller siderne </p>
+</li>
+<li>
+<p>Unormalt store mængder af urin, eller smerter eller besvær ved vandladning </p>
+</li>
+<li>
+<p>Generel smerte </p>
+</li>
+<li>
+<p>Kuldegysninger </p>
+</li>
+<li>
+<p>Tegn på serotoninsyndrom, såsom muskelspasmer, klodsethed, rystelser, forvirring eller andre 
+mentale ændringer </p>
+</li>
+<li>
+<p>Tegn på en anafylaktisk reaktion, såsom kløende udslæt, hals- eller tungehævelse, åndenød. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lumeblue"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lumeblue"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på manipulation. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lumeblue indeholder<br />
+Det aktive stof er methylthioniniumchlorid. Hver depottablet indeholder 25 mg 
+methylthioniniumchlorid. 
+- Øvrige indholdsstoffer: </p>
+<ul>
+<li>
+<p>Tabletkerne: stearinsyre 50 (E570), sojalecithin (E322) - se punkt 2 under 'Lumeblue indeholder 
+sojalecithin', mikrokrystallinsk cellulose (E460), hypromellose 2208 (E464), mannitol (E421), 
+talkum (E553b), kolloid vandfri silica (E551), magnesiumstearat (E470b) </p>
+</li>
+<li>
+<p>Filmovertræk: methacrylsyre-methylmethacrylat-copolymer, talkum (E553b), titandioxid (E171), 
+triethylcitrat (E1505) </p>
+</li>
+</ul>
+<p>Lumeblues udseende og pakningsstørrelser 
+Lumeblue depottabletter er råhvide til lyseblå, runde, bikonvekse, enterisk overtrukne tabletter. 
+Depottabletterne leveres i blisterpakninger med 8 tabletter.  </p>
+<p>Indehaver af markedsføringstilladelsen 
+Alfasigma S.p.A. 
+Via Ragazzi del ’99, n. 5 
+40133 Bologna 
+Italien 
++39 0516489info.it@alfasigma.com </p>
+<p>Fremstiller 
+Cosmo S.p.A 
+Via C. Colombo, 1 
+20045, Lainate 
+Milano,<br />
+Italien </p>
+<p>Denne indlægsseddel blev senest ændret i  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5a0e77a26a98f2eac352c48d66309743
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lumeblue Package Leaflet for language en"
+Description: "ePI document Bundle for lumeblue Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5a0e77a26a98f2eac352c48d66309743"
+* entry[0].resource = composition-en-5a0e77a26a98f2eac352c48d66309743
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5a0e77a26a98f2eac352c48d66309743"
+* entry[=].resource = mp5a0e77a26a98f2eac352c48d66309743
+                            
+                    
+Instance: bundlepackageleaflet-da-5a0e77a26a98f2eac352c48d66309743
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lumeblue Package Leaflet for language da"
+Description: "ePI document Bundle for lumeblue Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5a0e77a26a98f2eac352c48d66309743"
+* entry[0].resource = composition-da-5a0e77a26a98f2eac352c48d66309743
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5a0e77a26a98f2eac352c48d66309743"
+* entry[=].resource = mp5a0e77a26a98f2eac352c48d66309743
+                            
+                    
+
+
+
+Instance: mp5a0e77a26a98f2eac352c48d66309743
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Lumeblue 25 mg prolonged-release tablets"
-Description: "Lumeblue 25 mg prolonged-release tablets"
+Title: "Medicinal Product lumeblue"
+Description: "lumeblue"
 Usage: #inline
 
  
@@ -317,7 +735,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Lumeblue 25 mg prolonged-release tablets"
+  * productName = "lumeblue"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -344,29 +762,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5a0e77a26a98f2eac352c48d66309743
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lumeblue Package Leaflet for language en"
-Description: "ePI document Bundle for lumeblue Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5a0e77a26a98f2eac352c48d66309743ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1470/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lumeblue"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5a0e77a26a98f2eac352c48d66309743"
-* entry[0].resource = composition-en-5a0e77a26a98f2eac352c48d66309743
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9c771324c0fb55bcbb7f5d1f3caf1940"
-* entry[=].resource = mp9c771324c0fb55bcbb7f5d1f3caf1940
-                            
-                      
+* title = "List of all ePIs associated with lumeblue"
+
+* subject = Reference(mp9c771324c0fb55bcbb7f5d1f3caf1940)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lumeblue "lumeblue"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5a0e77a26a98f2eac352c48d66309743) // lumeblue en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5a0e77a26a98f2eac352c48d66309743) // lumeblue da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5a0e77a26a98f2eac352c48d66309743
+InstanceOf: List
+
+* insert 5a0e77a26a98f2eac352c48d66309743ListRuleset
+    

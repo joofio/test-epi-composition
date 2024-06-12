@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e9af86ad22ac9c13e3208cd0b150b229
 InstanceOf: CompositionUvEpi
 Title: "Composition for olumiant Package Leaflet"
@@ -430,12 +433,638 @@ Tel: +  353-(0) 1 661 4This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-e9af86ad22ac9c13e3208cd0b150b229
+InstanceOf: CompositionUvEpi
+Title: "Composition for olumiant Package Leaflet"
+Description:  "Composition for olumiant Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd74804d250d0fa9568e1d116a6597c46)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd74804d250d0fa9568e1d116a6597c46
+* title = "TEST PURPOSES ONLY - olumiant"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Olumiant<br />
+3. Sådan skal du tage Olumiant 
+4. Bivirkninger<br />
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What olumiant is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What olumiant is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olumiant indeholder det aktive stof baricitinib. Det tilhører en gruppe af lægemidler, der kaldes 
+Janus-kinase-hæmmere, som hjælper med at reducere inflammation (en betændelseslignende reaktion).  </p>
+<p>Leddegigt<br />
+Olumiant anvendes til behandling af voksne med moderat til svær leddegigt, en inflammatorisk 
+ledsygdom, hvis tidligere behandling ikke virkede godt nok eller ikke kunne tåles. Olumiant kan 
+anvendes alene eller sammen med visse andre lægemidler som f.eks. methotrexat. </p>
+<p>Olumiant virker ved at nedsætte aktiviteten af et enzym i kroppen, der kaldes ‘Janus-kinase’, som er 
+forbundet med inflammation. Ved at nedsætte aktiviteten af dette enzym hjælper Olumiant med at 
+mindske smerter, stivhed og hævelse i og omkring leddene samt træthed og hjælper med at bremse 
+skader på knogler og brusk i leddene. Disse virkninger kan medføre, at det bliver lettere at udføre 
+normale dagligdagsaktiviteter og kan derved forbedre den helbredsrelaterede livskvalitet hos patienter 
+med leddegigt. </p>
+<p>Atopisk eksem 
+Olumiant anvendes til behandling af børn fra 2 år og opefter, unge og voksne med moderat til svær 
+atopisk dermatitis, også kendt som atopisk eksem. Olumiant kan tages sammen med lægemidler mod 
+eksem, som du påfører huden, eller Olumiant kan tages alene. </p>
+<p>Olumiant virker ved at nedsætte aktiviteten af et enzym i kroppen, der kaldes ‘Janus-kinase’, som er 
+forbundet med inflammation. Ved at nedsætte aktiviteten af dette enzym hjælper Olumiant med at 
+forbedre hudens tilstand og lindre kløe. Derudover hjælper Olumiant med at forbedre dine 
+søvnforstyrrelser (grundet kløe) og din generelle livskvalitet. Olumiant har også vist at kunne forbedre 
+symptomer på hudsmerter, angst og depression forbundet med atopisk eksem. </p>
+<p>Alopecia areata 
+Olumiant bruges til at behandle voksne med svær alopecia areata, en autoimmun sygdom 
+karakteriseret ved inflammatorisk, ikke-ardannende hårtab i hårbunden, ansigtet og nogle gange på 
+andre områder af kroppen, som kan være tilbagevendende og blive gradvist mere udtalte. </p>
+<p>Olumiant virker ved at nedsætte aktiviteten af et enzym i kroppen, der kaldes ‘Janus-kinase’, som er 
+forbundet med inflammation. Ved at nedsætte aktiviteten af dette enzym hjælper Olumiant hår med at 
+vokse igen på hårbunden, ansigtet og andre områder af kroppen, der er påvirket af sygdommen. </p>
+<p>Polyartikulær juvenil idiopatisk artritis, enthesitis‑relateret artritis og juvenil psoriasisartritis 
+Olumiant bruges til behandling af aktiv polyartikulær juvenil idiopatisk artritis, en inflammatorisk 
+sygdom i leddene, hos børn i alderen 2 år og opefter.  </p>
+<p>Olumiant bruges også til behandling af aktiv enthesitis-relateret artritis, en inflammatorisk sygdom i 
+leddene og de steder, hvor sener hæfter på knogler, hos børn i alderen 2 år og opefter. </p>
+<p>Olumiant bruges også til behandling af aktiv juvenil psoriasisartritis, en inflammatorisk sygdom i 
+leddene, der ofte ledsages af psoriasis, hos børn i alderen 2 år og opefter. </p>
+<p>Olumiant kan bruges alene eller sammen med methotrexat. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take olumiant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take olumiant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Olumiant 
+- hvis du er allergisk over for baricitinib eller et af de øvrige indholdsstoffer i Olumiant (angivet i 
+afsnit 6). 
+- hvis du er gravid eller tror, at du er gravid. </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen eller apotekspersonalet før og under behandlingen med Olumiant, hvis du:</p>
+<ul>
+<li>er ældre end 65 år. Patienter der er 65 år eller ældre kan være i øget risiko for at få en infektion, 
+for at få hjerteproblemer såsom et hjerteanfald, og for nogle typer af kræft.  </li>
+<li>har en infektion, eller hvis du ofte får infektioner. Fortæl lægen, hvis du får symptomer som 
+f.eks. feber, sår, usædvanlig træthed eller tandproblemer, da disse kan være tegn på infektion. 
+Olumiant kan nedsætte kroppens evne til at bekæmpe infektioner og kan forværre en 
+eksisterende infektion eller øge risikoen for, at du får en ny infektion. Hvis du har diabetes eller 
+er ældre end 65 år kan du have en øget risiko for at få en infektion.  </li>
+<li>har eller tidligere har haft tuberkulose. Det kan være, at du skal undersøges for tuberkulose, før 
+du får Olumiant. Fortæl lægen, hvis du får vedvarende hoste, feber, nattesved og vægttab under 
+behandlingen med Olumiant, da disse kan være tegn på tuberkulose. </li>
+<li>har haft en herpes-infektion (helvedesild), da Olumiant kan bevirke, at den vender tilbage. 
+Fortæl lægen, hvis du får et smertefuldt hududslæt med blærer under behandlingen med 
+Olumiant, da dette kan være tegn på helvedesild. </li>
+<li>har eller tidligere har haft hepatitis B eller C. </li>
+<li>skal vaccineres. Der er visse (levende) vacciner, som du ikke må få, mens du tager Olumiant. </li>
+<li>har eller har haft kræft, ryger eller har røget, fordi din læge vil tale med dig om Olumiant vil 
+være passende for dig.  </li>
+<li>har nedsat leverfunktion. </li>
+<li>har eller har haft hjerteproblemer, fordi din læge vil tale med dig om Olumiant vil være 
+passende for dig </li>
+<li>tidligere har haft blodpropper i blodårene i dine ben (dyb venetrombose) eller lunger 
+(lungeemboli), eller er i øget risiko for at udvikle disse (f.eks: hvis du for nyligt har været 
+igennem en større operation, hvis du bruger hormonel prævention/hormon-substitutions-
+behandling eller hvis du har en blødningssygdom eller hvis nogle i din familie har). Din læge vil 
+da tale med dig om Olumiant vil være passende for dig. Fortæl din læge hvis du får pludselig 
+åndenød eller vejrtrækningsproblemer, brystsmerter, smerter i øvre ryg, hævelse i arme eller 
+ben, smerte i benet eller ømhed, eller rødme samt misfarvning af benet da det kan være tegn på 
+blodpropper i venerne. </li>
+<li>har haft divertikulitis (en type betændelse i tyktarmen), mavesår eller sår i tarmene (se pkt. 4). </li>
+<li>Non-mealanom hudkræft er blevet observeret hos patienter som tager Olumiant. Din læge kan 
+anbefale at du får lavet reglmæssige hudundersøgelser mens du tager Olumiant. Fortæl din læge 
+hvis der opstår nye sår på din hud under eller efter din behandling.  </li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du får nogen af følgende alvorlige bivirkninger:</p>
+<ul>
+<li>hiven efter vejret  </li>
+<li>svær ørhed eller svimmelhed </li>
+<li>hævelse af læber, tunge eller hals </li>
+<li>nældefeber (kløe eller hududslæt) </li>
+<li>kraftige mavesmerter, især hvis de er ledsaget af feber, kvalme og opkastning </li>
+<li>kraftige brystsmerter eller trykken for brystet (som kan sprede sig til arme, kæbe, nakke og ryg)  </li>
+<li>stakåndethed </li>
+<li>koldsved  </li>
+<li>ensidet svækkelse i arm og/eller ben </li>
+<li>utydelig tale  </li>
+</ul>
+<p>Det kan være, at du skal have taget blodprøver, før du starter med Olumiant, eller mens du tager det, 
+for at kontrollere, om du har et lavt antal røde blodlegemer (anæmi), et lavt antal hvide blodlegemer 
+(neutropeni eller lymfopeni), et højt indhold af fedt (kolesterol) i blodet eller høje niveauer af 
+leverenzymer. Dette er for at sikre, at behandlingen med Olumiant ikke giver problemer.  </p>
+<p>Børn og unge 
+Hvis det er muligt, skal børn og unge være ajour med alle vaccinationer, før behandling med Olumiant 
+startes. </p>
+<p>Giv ikke dette lægemiddel til børn under 2 år. </p>
+<p>Giv ikke dette lægemiddel til børn og unge med alopecia areata under 18 år, da der ikke er information 
+om anvendelse til denne sygdom. </p>
+<p>Brug af andre lægemidler sammen med Olumiant 
+Fortæl lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Før du begynder at tage Olumiant, er det særligt vigtigt at fortælle lægen eller apotekspersonalet, hvis 
+du tager andre lægemidler såsom:</p>
+<ul>
+<li>probenecid (mod urinsyregigt), da dette lægemiddel kan øge niveauet af Olumiant i blodet. Hvis 
+du tager probenecid, er den anbefalede dosis af Olumiant til voksne 2 mg én gang om dagen, og 
+for børn og unge skal dosis halveres. </li>
+<li>gigtmedicin, der indsprøjtes. </li>
+<li>lægemidler, der indsprøjtes, og som undertrykker immunsystemet, herunder de såkaldte 
+målrettede biologiske (antistof) lægemidler. </li>
+<li>lægemidler, der anvendes til at holde kroppens immunforsvar under kontrol, f.eks. azathioprin, 
+tacrolimus eller ciclosporin. </li>
+<li>andre lægemidler, der tilhører gruppen af Janus-kinase-hæmmere.  </li>
+<li>lægemidler, der kan øge risikoen for divertikulitis, som f.eks. nonsteroide antiinflammatoriske 
+lægemidler (der typisk anvendes til behandling af smerter og/eller betændelsestilstande i 
+muskler eller led) og/eller opioider (der anvendes til behandling af kraftige smerter) og/eller 
+binyrebarkhormoner (der typisk anvendes til at behandle betændelsestilstande) (se pkt. 4). </li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Du skal bruge sikker prævention for at undgå at blive gravid under behandlingen med Olumiant og i 
+mindst én uge efter den sidste dosis Olumiant. Du skal fortælle det til lægen, hvis du bliver gravid, da 
+Olumiant ikke må anvendes under graviditet.  </p>
+<p>Du må ikke tage Olumiant, mens du ammer, da det ikke vides, om det går over i mælken. Du og lægen 
+skal sammen afgøre, om du skal amme eller tage Olumiant. Du bør ikke gøre begge dele. </p>
+<p>Trafik- og arbejdssikkerhed 
+Olumiant påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>
+<p>Olumiant indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take olumiant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take olumiant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandlingen skal startes af en læge med erfaring i diagnosticering og behandling af din sygdom. Tag 
+altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg lægen 
+eller apotekspersonalet.  </p>
+<p>Voksne med leddegigt, atopisk eksem og alopecia areata 
+Den anbefalede dosis er 4 mg én gang om dagen. Lægen kan give dig en lavere dosis på 2 mg én gang 
+om dagen, specielt hvis du er over 65 år, eller hvis du har en øget risiko for infektioner, for 
+blodpropper, større kardiovaskulære hændelser eller kræft.  </p>
+<p>Hvis lægemidlet virker godt, kan lægen beslutte, at dosen kan nedsættes.  </p>
+<p>Hvis du har nedsat nyrefunktion, er den anbefalede dosis af Olumiant 2 mg én gang om dagen. </p>
+<p>Brug til børn og unge<br />
+Den anbefalede dosis er 4 mg én gang om dagen til patienter ≥30 kg. For patienter, der vejer fra 10 kg 
+til &lt;30 kg, er den anbefalede dosis 2 mg én gang dagligt.  </p>
+<p>Hvis du har nedsat nyrefunktion, skal den anbefalede dosis Olumiant halveres.  </p>
+<p>Hos pædiatriske patienter, som ikke er i stand til at sluge hele tabletter, kan tabletterne opløses i vand:</p>
+<ul>
+<li>Placer hele tabletten i en beholder med 5-10 ml vand ved stuetemperatur og hvirvl den forsigtigt 
+rundt for at opløse tabletten. Det kan tage op til 10 minutter, før tabletten er opløst i en uklar, let 
+pink suspension. Der kan ske en vis bundfældning.  </li>
+<li>Når tabletten er opløst, hvirvles der forsigtigt rundt igen, hvorefter blandingen sluges med det 
+samme. </li>
+<li>Skyl beholderen med 5-10 ml vand ved stuetemperatur ved at hvirvle den rundt, og slug 
+blandingen med det samme for at sikre, at hele dosen bliver taget. </li>
+</ul>
+<p>Der må kun anvendes vand til at opløse tabletten. 
+Når tabletten er opløst i vand, kan den bruges i op til 4 timer, hvis den opbevares ved stuetemperatur. 
+Hvis en tablet opløses i vand, og kun en del af den opløste dosis tages, skal der ventes indtil næste dag, 
+før den næste planlagte dosis tages. </p>
+<p>Indgivelsesmåde 
+Olumiant skal tages gennem munden (oralt). Du skal synke din tablet og drikke et glas vand.<br />
+Du kan tage tabletterne sammen med eller uden mad. Det kan måske være lettere for dig at huske at 
+tage Olumiant, hvis du tager det på samme tidspunkt hver dag. </p>
+<p>Hvis du har taget for meget Olumiant 
+Hvis du har taget mere Olumiant, end du skulle, skal du kontakte lægen. Du kan få nogle af de 
+bivirkninger, der er beskrevet i afsnit 4. Hvis du har glemt at tage Olumiant 
+- Hvis du har glemt en dosis, så tag den, så snart du kommer i tanke om det.<br />
+- Hvis du har glemt din dosis en hel dag, skal du springe den glemte dosis over og kun tage en 
+enkelt dosis som sædvanlig den efterfølgende dag.<br />
+- Du må ikke tage en dobbeltdosis som erstatning for en glemt tablet. </p>
+<p>Hvis du holder op med at tage Olumiant<br />
+Du må ikke stoppe med at tage Olumiant, medmindre lægen fortæller dig, at du skal stoppe med at 
+tage det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger </p>
+<p>Infektion som f.eks. helvedesild og lungebetændelse kan forekomme hos op til 1 ud af 
+10 behandlede: 
+Fortæl det straks til lægen, eller søg omgående lægehjælp, hvis du får følgende symptomer, som kan 
+være tegn på:</p>
+<ul>
+<li>helvedesild (herpes zoster): smertefuldt hududslæt med blærer og feber (dette var meget 
+sjældent ved atopisk eksem og ikke almindelig ved alopecia areata) </li>
+<li>lungebetændelse: vedvarende hoste, feber, åndenød og træthed (dette var usædvanligt ved 
+atopisk eksem og alopecia areata) 
+Alvorlig lungebetændelse og alvorlig helvedesild var ikke almindelig. </li>
+</ul>
+<p>Andre bivirkninger </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 behandlede):</p>
+<ul>
+<li>infektioner i hals og næse </li>
+<li>højt niveau af fedt (kolesterol) i blodet, påvises i en blodprøve </li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 behandlede):</p>
+<ul>
+<li>forkølelsessår (herpes simplex) </li>
+<li>infektion, der giver kvalme, opkastning eller diarré (gastroenteritis) </li>
+<li>urinvejsinfektion </li>
+<li>højt antal blodplader (celler, der hjælper med at få blodet til at størkne), påvises i en blodprøve 
+(dette var ikke almindeligt ved atopisk eksem og alopecia areata) </li>
+<li>hovedpine </li>
+<li>kvalme (dette var ikke almindeligt ved atopisk eksem) </li>
+<li>mavesmerter (dette var ikke almindeligt ved alopecia areata) </li>
+<li>høje niveauer af leverenzymer, påvises i en blodprøve (dette var ikke almindeligt ved atopisk 
+eksem) </li>
+<li>udslæt </li>
+<li>akne (dette var ikke almindeligt ved leddegigt) </li>
+<li>stigning i niveauet af et enzym, der kaldes kreatinkinase, påvist i en blodprøve (dette var ikke 
+almindeligt ved leddegigt)  </li>
+<li>inflammation (hævelse) af hårsækkene, især i hovedbundsregionen forbundet med genvækst af 
+hår (observeret ved alopecia areata) </li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 behandlede):</p>
+<ul>
+<li>lavt antal hvide blodlegemer (neutrofiler), påvises i en blodprøve </li>
+<li>højt niveau af fedt (triglycerider) i blodet, påvises i en blodprøve </li>
+<li>højt niveau af leverenzymer, påvises i en blodprøve (dette var almindeligt ved alopecia areata) </li>
+<li>vægtstigning </li>
+<li>hævelse i ansigtet </li>
+<li>nældefeber </li>
+<li>blodpropper i blodårerne i lungerne </li>
+<li>blodprop i venerne i benene eller bækkenet, kaldet en dyb venetrombose (DVT)   </li>
+<li>divertikulitis (smertefuld betændelse i små udposninger på tyktarmen) </li>
+</ul>
+<p>Børn og unge 
+- Polyartikulær juvenil idiopatisk artritis, enthesitis-relateret artritis og juvenil 
+psoriasisartritis: I et studie med børn fra 2 år og opefter med polyartikulær juvenil idiopatisk 
+artritis, enthesitis-relateret artritis og juvenil psoriasisartritis var hovedpine en meget almindelig 
+bivirkning, og et lavt antal hvide blodlegemer og blodpropper i lungerne var almindelige 
+bivirkninger (1 ud af 82 børn hver). 
+- Pædiatrisk atopisk dermatitis: I et studie med børn fra 2 år og opefter med atopisk dermatitis 
+var bivirkninger overensstemmende med dem, der blev set hos voksne patienter, med undtagelse 
+af lavt antal hvide blodlegemer (neutrofile granulocytter), som var mere almindeligt end hos 
+voksne. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store olumiant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store olumiant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på blisteren og æsken efter ‘EXP’. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olumiant indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: baricitinib. Hver tablet indeholder 1, 2 eller 4 milligram baricitinib.  </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, croscarmellosenatrium (se afsnit 2 
+"Olumiant indeholder natrium"), magnesiumstearat, mannitol, rødt jernoxid (E 172), 
+lecithin (soja) (E 322), macrogol, polyvinylalkohol, talcum og titandioxid (E 171).  </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Olumiant 1 mg filmovertrukne tabletter er meget svagt pink, 6,75 mm runde tabletter med “Lilly" på 
+den ene side og “1" på den anden. </p>
+<p>Olumiant 2 mg filmovertrukne tabletter er svagt pink, 9 x 7,5 mm aflange tabletter med “Lilly" på den 
+ene side og “2" på den anden.  </p>
+<p>Olumiant 4 mg filmovertrukne tabletter er medium pink, 8,5 mm runde tabletter med “Lilly" på den 
+ene side og “4" på den anden. </p>
+<p>Tabletterne er afrundede og har udhulede sider, så de er nemmere at tage op. </p>
+<p>Olumiant 1 mg fås i blisterpakninger med 14 og 28 tabletter i kalender-blistere og 28 x 1 tabletter i 
+perforerede enkeltdosis-blistere. Olumiant 2 mg og 4 mg fås i blisterpakninger med 14, 28, 35, 56, og 98 tabletter i kalender-blistere og 28 x 1 og 84 x 1 tabletter i perforerede enkeltdosis-blistere. Ikke 
+alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Indehaver af markedsføringstilladelsen: Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ 
+Utrecht, Holland. </p>
+<p>Fremstiller<br />
+Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spanien. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Lietuva 
+Eli Lilly Holdings Lietuva 
+Tel. +370 (5) 2649 
+България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41<br />
+Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84<br />
+Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664<br />
+Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5 
+Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60<br />
+Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600<br />
+Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2 
+Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25<br />
+Eesti 
+Eli Lilly Nederland B.V.<br />
+Tel: +372 6 817 Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18<br />
+Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4 
+Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Lilly S.A. 
+Tel: + 34-91 663 50<br />
+Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France 
+Tél: +33-(0) 1 55 49 34<br />
+Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350<br />
+România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 
+Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00 Ísland 
+Icepharma hf. 
+Sími + 354 540 8 
+Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42 
+Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715 
+Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Tel: +371 67364United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: +  353-(0) 1 661 4 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>QR-kode skal indsættes + www.olumiant.eu </p>
+<p>Klip nedenstående del af indlægssedlen af og hav den med dig. </p>
+<hr />
+<p>Oplysninger til patienten om OLUMIANT 
+(baricitinib) </p>
+<p>Dette patientkort indeholder vigtige 
+oplysninger, som du skal være opmærksom på 
+før og under behandling med Olumiant. </p>
+<p>Hav altid patientkortet med dig og vis det til 
+andre læger og øvrigt sundhedspersonale, der er 
+involveret i dine helbredsundersøgelser eller i din 
+behandling. </p>
+<p>Dit navn: </p>
+<hr />
+<p>Navn på lægen (der ordinerede Olumiant): </p>
+<hr />
+<p>Lægens telefonnummer: </p>
+<hr />
+<p>Graviditet: </p>
+<ul>
+<li>
+<p>Tag ikke Olumiant, hvis du er gravid eller 
+har mistanke om, at du kan være gravid. </p>
+</li>
+<li>
+<p>Brug sikker prævention, mens du tager 
+Olumiant (og i mindst 1 uge efter, hvis du 
+har stoppet behandlingen). </p>
+</li>
+<li>
+<p>Fortæl straks lægen, hvis du bliver (eller 
+ønsker at blive) gravid. </p>
+</li>
+</ul>
+<p>Infektioner: 
+Olumiant kan forværre en eksisterende infektion 
+eller øge risikoen for, at du får en ny infektion 
+eller øge risikoen for viral reaktivering. Hvis du 
+har diabetes eller er ældre end 65 år kan du have 
+øget risiko for at få infektioner. Infektionen kan 
+blive alvorlig hvis den ikke behandles. Fortæl 
+straks lægen, hvis du får symptomer på en 
+infektion, f.eks.: </p>
+<ul>
+<li>
+<p>feber, sår, usædvanlig træthed eller 
+tandproblemer. </p>
+</li>
+<li>
+<p>hoste, der ikke vil gå over, nattesved og 
+vægttab. Dette kan være tegn på 
+tuberkulose (en infektionssygdom i 
+lungerne).  </p>
+</li>
+<li>
+<p>et smertefuldt hududslæt med blærer. 
+Dette kan være et tegn på herpes zoster-
+infektion. </p>
+</li>
+</ul>
+<p>Non-melanom hudkræft: 
+Non-melanom hudkræft er blevet observeret hos 
+patienter, der tager Olumiant. Tal med din læge 
+hvis der opstår nye sår under eller efter din 
+behandling, eller hvis eksisterende sår ændrer 
+udseende. </p>
+<p>Blodpropper: 
+Olumiant kan forårsage en tilstand, hvorved der 
+kan dannes en blodprop i dit ben, som kan vandre 
+op til dine lunger. Fortæl straks lægen, hvis du får 
+nogen af følgende symptomer:  </p>
+<ul>
+<li>
+<p>Hævelse eller smerte i det ene ben eller 
+den ene arm </p>
+</li>
+<li>
+<p>Varme eller rødme i det ene ben eller den 
+ene arm </p>
+</li>
+<li>
+<p>Stakåndethed, som ikke er forventet </p>
+</li>
+<li>
+<p>Hurtig vejrtrækning </p>
+</li>
+<li>
+<p>Brystsmerter </p>
+</li>
+</ul>
+<p>Hjertetilfælde eller slagtilfælde: 
+Fortæl straks lægen hvis du oplever noget af 
+følgende: </p>
+<ul>
+<li>
+<p>alvorlige brystsmerter eller trykken for 
+brystet (kan sprede sig til arme, kæbe, 
+nakke, ryg) </p>
+</li>
+<li>
+<p>stakåndethed </p>
+</li>
+<li>
+<p>koldsved </p>
+</li>
+<li>
+<p>ensidet svækkelse i arme og/eller ben </p>
+</li>
+<li>
+<p>utydelig tale  </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e9af86ad22ac9c13e3208cd0b150b229
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for olumiant Package Leaflet for language en"
+Description: "ePI document Bundle for olumiant Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e9af86ad22ac9c13e3208cd0b150b229"
+* entry[0].resource = composition-en-e9af86ad22ac9c13e3208cd0b150b229
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe9af86ad22ac9c13e3208cd0b150b229"
+* entry[=].resource = mpe9af86ad22ac9c13e3208cd0b150b229
+                            
+                    
+Instance: bundlepackageleaflet-da-e9af86ad22ac9c13e3208cd0b150b229
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for olumiant Package Leaflet for language da"
+Description: "ePI document Bundle for olumiant Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e9af86ad22ac9c13e3208cd0b150b229"
+* entry[0].resource = composition-da-e9af86ad22ac9c13e3208cd0b150b229
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe9af86ad22ac9c13e3208cd0b150b229"
+* entry[=].resource = mpe9af86ad22ac9c13e3208cd0b150b229
+                            
+                    
+
+
+
+Instance: mpe9af86ad22ac9c13e3208cd0b150b229
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Olumiant 1 mg film-coated tablets"
-Description: "Olumiant 1 mg film-coated tablets"
+Title: "Medicinal Product olumiant"
+Description: "olumiant"
 Usage: #inline
 
  
@@ -455,7 +1084,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Olumiant 1 mg film-coated tablets"
+  * productName = "olumiant"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -482,29 +1111,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e9af86ad22ac9c13e3208cd0b150b229
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for olumiant Package Leaflet for language en"
-Description: "ePI document Bundle for olumiant Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e9af86ad22ac9c13e3208cd0b150b229ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Olumiant 1 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "olumiant"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e9af86ad22ac9c13e3208cd0b150b229"
-* entry[0].resource = composition-en-e9af86ad22ac9c13e3208cd0b150b229
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd74804d250d0fa9568e1d116a6597c46"
-* entry[=].resource = mpd74804d250d0fa9568e1d116a6597c46
-                            
-                      
+* title = "List of all ePIs associated with olumiant"
+
+* subject = Reference(mpd74804d250d0fa9568e1d116a6597c46)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#olumiant "olumiant"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e9af86ad22ac9c13e3208cd0b150b229) // olumiant en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e9af86ad22ac9c13e3208cd0b150b229) // olumiant da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e9af86ad22ac9c13e3208cd0b150b229
+InstanceOf: List
+
+* insert e9af86ad22ac9c13e3208cd0b150b229ListRuleset
+    

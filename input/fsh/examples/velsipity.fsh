@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-25e890f25f8f1bec07dd339802b5338b
 InstanceOf: CompositionUvEpi
 Title: "Composition for velsipity Package Leaflet"
@@ -462,12 +465,621 @@ Tel: +371 670 35 This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-25e890f25f8f1bec07dd339802b5338b
+InstanceOf: CompositionUvEpi
+Title: "Composition for velsipity Package Leaflet"
+Description:  "Composition for velsipity Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp511149bf8faeb7760db487220f6ed432)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp511149bf8faeb7760db487220f6ed432
+* title = "TEST PURPOSES ONLY - velsipity"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Velsipity 
+3. Sådan skal du tage Velsipity 
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What velsipity is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What velsipity is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Velsipity indeholder det aktive stof etrasimod, som tilhører en gruppe lægemidler, der kaldes 
+sphingosin1-fosfatreceptor-modulatorer.
+Velsipity anvendes hos voksne og unge i alderen 16 år og derover til behandling af moderat til svær 
+aktiv colitis ulcerosa. Colitis ulcerosa er en betændelsessygdom i tyktarmen. Hvis du har colitis 
+ulcerosa, vil du først få andre lægemidler. Hvis du ikke reagerer godt nok på disse lægemidler eller 
+ikke kan tage dem, kan du få Velsipity, som kan reducere symptomerne på sygdommen.
+Det aktive stof i Velsipity, etrasimod, forhindrer de hvide blodlegemer (lymfocytterne) i at vandre fra
+lymfeknuderne (del af kroppens immunsystem, som indeholder lymfocytter) over i blodet. Disse 
+lymfocytter er medvirkende årsag til den betændelse, som er forbundet med udviklingen af colitis 
+ulcerosa. Ved at reducere antallet af lymfocytter, der cirkulerer i blodet omkring tyktarmen, kan 
+etrasimod hjælpe med at reducere betændelsen i tarmen og de symptomer, som er forbundet med 
+sygdommen.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take velsipity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take velsipity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Velsipity
+
+hvis du er allergisk over for etrasimod eller et af de øvrige indholdsstoffer i Velsipity 
+(angivet i afsnit 6).
+
+hvis din læge har fortalt dig, at du har et meget svækket immunsystem.
+38
+
+hvis du har haft et hjerteanfald, ustabil angina pectoris (smerter i brystet, som skyldes dårlig 
+blodforsyning til hjertemusklen, og som opstår i hvile eller uden tydelig årsag), slagtilfælde,
+mini-slagtilfælde (transitorisk iskæmisk attak) eller visse former for svært hjertesvigt inden 
+for de sidste 6 måneder.
+
+hvis du har visse typer uregelmæssig eller unormal hjerterytme (arytmi) – lægen vil 
+undersøge dit hjerte, før behandlingen påbegyndes.
+
+hvis du har en svær aktiv infektion eller aktiv kronisk infektion som fx leverbetændelse 
+(hepatitis) eller tuberkulose.
+
+hvis du har kræft.
+
+hvis du har alvorlige leverproblemer.
+
+hvis du er gravid eller kan blive gravid og ikke bruger sikker prævention.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager Velsipity, hvis:
+
+du har langsom hjerterytme, tager eller for nylig har taget lægemidler, der sænker 
+hjerterytmen (fx betablokkere eller calciumkanalblokkere).
+
+du nogensinde har haft et slagtilfælde eller andre sygdomme, som vedrører blodkarrene i 
+hjernen.
+
+du har haft problemer med leveren.
+
+du har en infektion.
+
+du har lave niveauer af en bestemt type hvide blodlegemer, der kaldes lymfocytter.
+
+du for nylig er blevet vaccineret, eller planlægger at blive vaccineret.
+
+du nogensinde har haft problemer med synet eller andre symptomer på en væskeansamling 
+bag i øjet.
+
+du har øjenbetændelse.
+
+du har diabetes (som kan give øjenproblemer).
+
+du har højt blodtryk.
+
+du har svær lungesygdom (fx lungefibrose (tiltagende åndenød pga. dannelse af arvæv i 
+lungerne), astma eller kronisk obstruktiv lungesygdom (KOL, som er en lungesygdom med 
+permanent ødelæggelse af lungevævet)).
+Langsom hjerterytme og uregelmæssig hjerterytme
+Inden du begynder at tage Velsipity, vil lægen undersøge dit hjerte ved at tage et elektrokardiogram 
+(ekg, som er en test, der måler hjertets elektriske aktivitet). Dette skyldes, at Velsipity kan forårsage 
+midlertidig nedsat hjerterytme og andre hjerterytmeforstyrrelser, når behandlingen påbegyndes. Hvis 
+dette sker, kan du føle dig svimmel eller træt, eller mærke dit hjerte slå, eller dit blodtryk kan falde. 
+Hvis disse virkninger er alvorlige, fortæl det til lægen, da du kan have behov for hurtig behandling. 
+Hvis du starter behandlingen igen efter en pause på 7 på hinanden følgende dage eller mere, vil lægen 
+muligvis kontrollere dit hjerte ved hjælp af ekg.
+Hvis du lider af visse hjertesygdomme, vil lægen også overvåge dig i de første 4 timer efter din første 
+dosis. Lægen vil bede dig bliver på hospitalet eller klinikken i 4 timer og vil måle puls og blodtryk 
+hver time, efter at du har taget den første dosis af Velsipity. Du skal have taget et ekg før du tager den 
+første dosis Velsipity og efter den 4 timers overvågningsperiode. Hvis du har meget langsom eller 
+nedsat hjerterytme efter den 4 timers periode, eller hvis dit ekg viser unormale værdier, skal du måske 
+overvåges i en længere periode indtil disse er blevet normale igen.
+Højt blodtryk
+Da Velsipity kan få blodtrykket til at stige, vil lægen muligvis kontrollere dit blodtryk med jævne 
+mellemrum.
+Infektioner
+Velsipity sænker antallet af hvide blodlegemer i dit blod (især lymfocyttallet). Hvide blodlegemer 
+bekæmper infektioner. Mens du tager Velsipity (og i op til ca. 2 uger efter, at du holder op med at tage 
+det), kan du have lettere ved at få infektioner og en eventuel infektion, som du allerede lider af, kan 
+39
+blive værre. Tal med lægen, hvis du får en infektion. Hvis du tror, at du har en infektion, har feber, 
+føler det, som om du har influenza, har helvedesild, eller har hovedpine ledsaget af nakkestivhed, øget 
+følsomhed for lys, kvalme og/eller er konfus eller får krampeanfald (disse kan være symptomer på 
+meningitis og/eller infektioner forårsaget af svampe eller herpesvirus (encefalitis), skal du straks 
+kontakte lægen, da disse tilstande kan blive alvorlige eller livstruende.
+Der er rapporteret tilfælde af progressiv multifokal leukoencefalopati (PML) med lægemidler, der 
+ligner Velsipity. PML er en sjælden virusinfektion i hjernen, som kan medføre svær
+funktionsnedsættelse eller dødsfald. Symptomerne på PML omfatter synsforstyrrelser, tiltagende 
+kraftesløshed, klodsethed, hukommelsestab eller forvirring. Hvis du udvikler nogen af disse 
+symptomer, skal du straks fortælle det til lægen. Lægen vil overveje at udføre yderligere tests for at 
+bedømme tilstanden og stoppe din behandling med Velsipity, hvis PML bekræftes.
+Makulaødem
+Velsipity kan forårsage et problem med synet, som kaldes makulaødem (hævelse af makula, som er 
+den midterste del af nethinden bag i øjet). Lægen vil kontrollere dit syn omkring det tidspunkt, hvor du 
+starter behandling med Velsipity og når som helst du bemærker synsændringer under behandlingen. 
+Fortæl lægen om alle synsforstyrrelser. Risikoen for udvikling af makulaødem er højere, hvis du har 
+diabetes, betændelse i øjet i området under det hvide i øjet (uveitis), eller visse andre øjenproblemer. 
+Hvis du har nogle af disse tilstande, vil lægen kontrollere dit syn, omkring det tidspunkt, hvor du
+begynder at tage Velsipity, og regelmæssigt under behandlingen. 
+Kontakt straks lægen, hvis du oplever noget af følgende:
+
+sløret syn eller skygger midt i synsfeltet
+
+en blind plet midt i synsfeltet
+
+lysfølsomhed
+
+usædvanligt farvet (tonet) syn.
+Kræft
+Velsipity nedsætter immunsystemet. Dette øger risikoen for at udvikle kræft, især hudkræft. Der er 
+rapporteret om hudkræft i forbindelse med lægemidler, der ligner Velsipity. Kontakt straks lægen, hvis 
+du bemærker nogen hudknuder (fx skinnende perleformede knuder), pletvise eller åbne sår, som ikke 
+heler inden for uger. Symptomer på hudkræft kan omfatte unormal vækst eller ændringer i huden (fx 
+usædvanlige modermærker) med ændring i farve, form eller størrelse over tid. Da der er risiko for at få 
+hudkræft, skal du sørge for at begrænse den mængde sollys og UV-lys, du udsættes for, ved at bære 
+beskyttende tøj og regelmæssigt bruge solcreme (med høj solbeskyttelsesfaktor). 
+Posteriort reversibelt encefalopatisyndrom (PRES)
+Posteriort reversibelt encefalopatisyndrom (PRES) er en tilstand, hvor hjernen hæver op. PRES 
+symptomer omfatter hovedpine, synsforstyrrelser, nedsat opmærksomhed, konfusion og krampeanfald. 
+Hvis du udvikler nogle af disse symptomer, skal du straks søge læge.
+Vaccinationer
+Hvis du skal vaccineres, skal du først spørge din læge til råds. Vacciner virker muligvis ikke så godt 
+som de skal, hvis du er i behandling med Velsipity. Du rådes til at sikre dig, at dine vaccinationer er 
+opdaterede, inden du starter behandlingen. Såkaldte levende vacciner kan udløse den infektion, som de 
+skulle forebygge, og de skal derfor gives mindst 4 uger før du påbegynder behandlingen eller mindst 2 
+uger efter, at du er stoppet med at tage Velsipity.
+Leverfunktionstest
+Velsipity kan påvirke leverfunktionen. Fortæl det straks til lægen, hvis du udvikler nogen af følgende 
+symptomer: gulfarvning af huden eller det hvide i dine øjne, unormal mørk urin (brun farve), smerter i 
+højre side af maveregionen, træthed, har mindre appetit end sædvanlig eller uforklarlig kvalme og 
+opkastning.
+Før, under og efter behandlingen vil læge tage blodprøver for at kontrollere leverfunktionen.
+40
+Lungeproblemer
+Velsipity kan muligvis påvirke lungefunktionen. Patienter med alvorlige lungeproblemer har strørre 
+risiko for at udvikle disse bivirkninger.
+Andre behandlinger til colitis ulcerosa
+Din læge vil sædvanligvis råde dig til at stoppe andre behandlinger med colitis ulcerosa med 
+undtagelse af kortikosteroider (som fx kortison) og mesalazin. Nogle lægemidler til behandling af 
+colitis ulcerosa kan også anvendes til andre sygdomme. Fortæl lægen om alle de andre lægemidler, 
+som du tager. På grund af risikoen for additiv immunsupressiv virkning, når du skifter fra tidligere 
+behandling, kan infektion forekomme hyppigere i en periode. Du må ikke tage andre 
+immunsuppressive produkter med mindre din læge har bedt dig om det.
+Kvinder i den fertile alder
+Hvis Velsipity bruges under graviditet, kan det skade det ufødte barn. Inden du begynder på 
+behandlingen med Velsipity vil lægen forklare dig om risiciene og bede dig om at tage en 
+graviditetstest for at sikre, at du ikke er gravid. Lægen vil give dig et patientkort, som forklarer, 
+hvorfor du ikke må blive gravid, mens du tager Velsipity. Det forklarer også, hvad du skal gøre for at 
+undgå at blive gravid, mens du tager Velsipity. Du skal bruge sikker prævention under behandlingen 
+og i mindst 14 dage efter, at du er stoppet med behandlingen (se "Graviditet, prævention og amning" i 
+afsnit 2).
+Tal med lægen eller apotekspersonalet, inden du tager Velsipity, hvis noget af dette gælder for dig.
+Børn og unge
+Giv ikke dette lægemiddel til børn og unge under 16 år. Det skyldes, at Velsipity ikke er blevet 
+undersøgt i denne aldersgruppe.
+Brug af andre lægemidler sammen med Velsipity
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Det skyldes, at Velsipity kan påvirke den 
+måde, som visse andre lægemidler virker på. Desuden kan visse andre lægemidler påvirke den måde, 
+som Velsipity virker på.
+Du skal især fortælle det til lægen eller apotekspersonalet, inden du tager Velsipity, hvis du tager eller 
+for nylig har taget nogen af følgende lægemidler:
+
+lægemidler til regulering af hjertefrekvensen og blodtrykket (betablokkere og 
+calciumantagonister). Brug af disse lægemidler kan øge virkningen af Velsipity på 
+uregelmæssig hjerteslag.
+
+lægemidler til regulering af hjerterytmen (antiarytmika) eller hjerteslaget.
+
+lægemidler, der påvirker immunsystemet. Brug af disse lægemidler sammen med Velsipity 
+kan svække immunsystemet.
+
+vacciner. Hvis du skal vaccineres, skal du tale med din læge. Du må ikke tage Velsipity i 
+mindst 2 uger før en vaccination. Du må ikke tage Velsipity i mindst 4 uger efter, at du er 
+blevet vaccineret med en levende vaccine.
+
+fluconazol (behandling mod svampeinfektion) og visse andre lægemidler kan øge 
+niveauerne af Velsipity i blodet, som øger risikoen for bivirkninger med Velsipity. Det
+frarådes, at du tager disse, hvis du også tager Velsipity og lægen vil fortælle dig mere om 
+dette.
+
+rifampicin, enzalutamid og visse andre lægemidler kan sænke niveauerne af Velsipity i 
+blodet, hvorved virkningen nedsættes. Det frarådes, at disse lægemidler tages sammen med 
+Velsipity. Lægen vil fortælle dig mere om dette. 
+Velsipity kan medføre en let stigning i den mængde hormoner, der udskilles fra visse p-piller. Du vil 
+stadig være beskyttet mod graviditet, men risikoen for at få bivirkninger af p-pillerne er større. Hvis du 
+får bivirkninger, bør du tale med lægen eller apotekspersonalet.
+41
+Graviditet, prævention og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel.
+Graviditet og prævention
+Du må ikke bruge Velsipity under graviditet, hvis du forsøger at blive gravid, eller hvis du kan blive 
+gravid og ikke bruger sikker prævention. At tage Velsipity under graviditet medfører en risiko for at 
+skade det ufødte barn. Hvis du er kvinde og kan blive gravid, vil lægen fortælle dig om denne risiko, 
+inden du starter på behandlingen med Velsipity. Lægen vil også bede dig om at tage en graviditetstest 
+for at sikre, at du ikke er gravid. Du skal bruge sikker prævention, mens du tager Velsipity og i mindst 
+14 dage efter, at du er stoppet med at tage det. Tal med lægen om sikre præventionsmetoder.
+Lægen vil give dig et patientkort, som forklarer, hvorfor du ikke må blive gravid, mens du tager 
+Velsipity.
+Hvis du bliver gravid, mens du tager Velsipity, skal du straks fortælle det til lægen. Lægen vil sikkert 
+stoppe behandlingen (se "Hvis du holder op med at tage Velsipity" i afsnit 3) og du vil få særlige 
+svangreundersøgelser for at kontrollere dit ufødte barns helbred.
+Amning
+Du må ikke amme, mens du tager Velsipity. Det er for at undgå risikoen for, at barnet får bivirkninger, 
+da Velsipity kan gå over i modermælken.
+Trafik- og arbejdssikkerhed
+Det forventes ikke, at Velsipity påvirker din evne til at føre motorkøretøj og betjene maskiner. Du kan 
+muligvis føle dig svimmel efter at have taget Velsipity. Hvis det sker, må du ikke føre motorkøretøj 
+eller betjene maskiner.
+Velsipity indeholder tartrazin (E102)
+Farvestoffet i Velsipity indeholder tartrazin (E102), som kan medføre allergiske reaktioner. 
+Velsipity indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take velsipity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take velsipity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Velsipity vil blive opstartet under overvågning af en læge med særligt kendskab til behandling af 
+colitis ulcerosa. Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen 
+eller apotekspersonalet. 
+Sådan tages det
+
+Den anbefalede dosis af Velsipity er en 2 mg tablet èn gang dagligt.
+
+Tag Velsipity sammen med mad i de første 3 dage. Derefter kan du tage Velsipity hver dag 
+med eller uden mad.
+
+Synk tabletten hel med vand. Du må ikke dele, knuse eller tygge tabletten, inden du synker 
+den, da det vil kunne ændre, hvor meget lægemiddel du får i kroppen.
+Hvis du har taget for meget Velsipity
+Hvis du har taget for meget Velsipity, skal du straks ringe til lægen eller hospitalet. Tag 
+lægemiddelpakningen og denne indlægsseddel med til lægen eller på hospitalet.
+42
+Hvis du har glemt at tage Velsipity
+
+Hvis du glemmer en dosis Velsipity, skal du tage den, så snart du kommer i tanke om det. 
+Hvis der er gået en hel dag, før du kommer i tanke om det, skal du springe den glemte dosis 
+over og tage den næste dosis på det sædvanlige tidspunkt. 
+
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du holder op med at tage Velsipity
+Du må ikke holde op med at tage Velsipity eller ændre dosis uden først at tale med lægen. Hvis lægen 
+beslutter, at du skal holde en pause i behandlingen, som varer 7 dage i træk eller længere, skal du tage 
+lægemidlet sammen med mad i de første 3 dage, når du genoptager behandlingen med Velsipity. 
+Derefter kan du tage Velsipity med eller uden mad.
+Hvis du genoptager Velsipity efter at have været stoppet i 7 dage eller mere, kan virkningen på 
+hjertefrekvensen, som blev set ved den første opstart af behandlingen, komme igen, og du skal 
+muligvis kontrolleres på hospitalet eller klinikken. Du må ikke genoptage behandlingen med Velsipity, 
+hvis du har været stoppet i mere end 7 dage, uden at spørge lægen til råds.
+Velsipity bliver i kroppen i op til 14 dage efter, at du holder op med at tage det. Dit antal af hvide 
+blodlegemer (lymfocyttal) kan forblive lavt i op til ca. 2 uger, og de bivirkninger, der er beskrevet i 
+denne indlægsseddel, kan stadig forekomme i denne periode (se "Bivirkninger" i afsnit 4).
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger
+Fortæl det straks til lægen eller apotekspersonalet, hvis du bemærker nogen af de bivirkninger, der er 
+anført nedenfor, som kan blive alvorlige:
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+
+langsom puls (bradykardi)
+
+højt blodtryk (hypertension)
+
+urinvejsinfektion (infektion i de dele af kroppen, der samler og udskiller urin)
+
+infektion i de nedre luftveje og lungerne (nedre luftvejsinfektion)
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer)
+
+en type af hjerterytmeforstyrrelse (atrioventrikulært blok) 
+
+hævelse af makula, som er den midterste del af nethinden bag i øjet (makulaødem) 
+Andre bivirkninger
+Fortæl det straks til lægen eller apotekspersonalet, hvis du bemærker en eller flere af følgende 
+bivirkninger: 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer)
+
+lavt antal lymfocytter, som er en type af hvide blodlegemer (lymfopeni)
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+
+højt indhold af kolesterol i blodet (hyperkolesterolæmi)
+
+hovedpine
+
+svimmelhed
+
+forhøjet antal leverenzymer i blodet påvist ved en blodprøve, og som kan være tegn på 
+problemer med leverfunktionen
+
+lavt antal hvide blodlegemer af typen neutrofilocytter (neutropeni)
+43
+
+nedsat syn.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store velsipity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store velsipity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Opbevar lægemidlet utilgængeligt for børn.
+
+Brug ikke lægemidlet efter den udløbsdato, der står på beholderen, blisteren og kartonen 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
+
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.
+
+Opbevares i den originale yderpakning for at beskytte mod fugt.
+
+Brug ikke lægemidlet, hvis du bemærker skader eller tegn på, at pakningen har været åbnet.
+
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet 
+må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Velsipity indeholder: 
+
+Aktivt stof: etrasimod. Hver filmovertrukket tablet indeholder etrasimodarginin svarende til 
+2 mg etrasimod.
+
+Øvrige indholdsstoffer: 
+Tabletkerne
+Magnesiumstearat (E470b), mannitol (E421), mikrokrystallinsk cellulose (E460i), 
+natriumstivelsesglycolat (type A)
+Tabletovertræk
+Brilliant blue FCF aluminium lake (E133), indigocarmin aluminium lake (E132), 
+tartrazin aluminium lake (E102), macrogol 4000 (E1521), polyvinylalkohol (E1203), 
+talcum (E553b) og titandioxid (E171)
+Udseende og pakningsstørrelser
+Velsipity 2 mg er en grøn, rund filmovertrukket tablet med en diameter på ca. 6 mm med "ETR"
+præget på den ene side og "2" på den anden side. 
+Pakningsstørrelser:
+
+Beholdere med 30 filmovertrukne tabletter 
+
+Blistere med 28 filmovertrukne tabletter 
+
+Blistere med 98 filmovertrukne tabletter 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. 
+Indehaver af markedsføringstilladelsen 
+Pfizer Europe MA EEIG 
+Boulevard de la Plaine 1050 Bruxelles
+Belgien
+44
+Fremstillere
+Almac Pharma Services (lreland) Limited
+Finnabair Industrial Estate
+Dundalk, A91 P9KD
+Irland
+Almac Pharma Services Limited
+Seagoe Industrial Estate
+Portadown, Craigavon, BT63 5UA
+Det Forenede Kongerige
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон 
+България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+45
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka 
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Tηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+Denne indlægsseddel blev senest ændret i
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-25e890f25f8f1bec07dd339802b5338b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for velsipity Package Leaflet for language en"
+Description: "ePI document Bundle for velsipity Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-25e890f25f8f1bec07dd339802b5338b"
+* entry[0].resource = composition-en-25e890f25f8f1bec07dd339802b5338b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp25e890f25f8f1bec07dd339802b5338b"
+* entry[=].resource = mp25e890f25f8f1bec07dd339802b5338b
+                            
+                    
+Instance: bundlepackageleaflet-da-25e890f25f8f1bec07dd339802b5338b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for velsipity Package Leaflet for language da"
+Description: "ePI document Bundle for velsipity Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-25e890f25f8f1bec07dd339802b5338b"
+* entry[0].resource = composition-da-25e890f25f8f1bec07dd339802b5338b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp25e890f25f8f1bec07dd339802b5338b"
+* entry[=].resource = mp25e890f25f8f1bec07dd339802b5338b
+                            
+                    
+
+
+
+Instance: mp25e890f25f8f1bec07dd339802b5338b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Velsipity 2 mg film-coated tablets"
-Description: "Velsipity 2 mg film-coated tablets"
+Title: "Medicinal Product velsipity"
+Description: "velsipity"
 Usage: #inline
 
  
@@ -487,7 +1099,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Velsipity 2 mg film-coated tablets"
+  * productName = "velsipity"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -514,29 +1126,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-25e890f25f8f1bec07dd339802b5338b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for velsipity Package Leaflet for language en"
-Description: "ePI document Bundle for velsipity Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 25e890f25f8f1bec07dd339802b5338bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1790/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "velsipity"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-25e890f25f8f1bec07dd339802b5338b"
-* entry[0].resource = composition-en-25e890f25f8f1bec07dd339802b5338b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp511149bf8faeb7760db487220f6ed432"
-* entry[=].resource = mp511149bf8faeb7760db487220f6ed432
-                            
-                      
+* title = "List of all ePIs associated with velsipity"
+
+* subject = Reference(mp511149bf8faeb7760db487220f6ed432)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#velsipity "velsipity"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-25e890f25f8f1bec07dd339802b5338b) // velsipity en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-25e890f25f8f1bec07dd339802b5338b) // velsipity da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-25e890f25f8f1bec07dd339802b5338b
+InstanceOf: List
+
+* insert 25e890f25f8f1bec07dd339802b5338bListRuleset
+    

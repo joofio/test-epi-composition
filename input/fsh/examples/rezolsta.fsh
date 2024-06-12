@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-241d4bc94412cf7041721319e0eaea4c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rezolsta Package Leaflet"
@@ -568,12 +571,687 @@ site: http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-da-241d4bc94412cf7041721319e0eaea4c
+InstanceOf: CompositionUvEpi
+Title: "Composition for rezolsta Package Leaflet"
+Description:  "Composition for rezolsta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa28880b1a1bf3107ae367c711df1ca3a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa28880b1a1bf3107ae367c711df1ca3a
+* title = "TEST PURPOSES ONLY - rezolsta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage REZOLSTA
+3. Sådan skal du tage REZOLSTA
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rezolsta is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rezolsta is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er REZOLSTA?
+REZOLSTA indeholder de aktive stoffer darunavir og cobicistat.
+Darunavir tilhører en gruppe hiv-lægemidler, der kaldes proteasehæmmere, som virker ved at reducere 
+mængden af hiv i kroppen til et meget lavt niveau. Det gives sammen med cobicistat, som kaldes en 
+forstærker, idet det øger mængden af darunavir i blodet.
+Behandling med REZOLSTA forbedrer dit immunforsvar (kroppens naturlige forsvarssystem) og 
+nedsætter risikoen for at udvikle sygdomme, der er forbundet med hiv-infektion. REZOLSTA kan 
+imidlertid ikke kurere hiv-infektion.
+Hvad anvendes det til?
+REZOLSTA anvendes til at behandle voksne og unge i alderen 12 år og ældre, som vejer mindst 40 kg 
+og som er smittet med hiv (se afsnittet Sådan skal du tage REZOLSTA).
+REZOLSTA skal tages i kombination med anden hiv-medicin. Din læge vil fortælle dig, hvilken 
+medicinkombination der er bedst for dig.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rezolsta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rezolsta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke REZOLSTA</h2>
+<p>hvis du er allergisk over for darunavir, cobicistat eller et af de øvrige indholdsstoffer i 
+REZOLSTA (angivet i punkt 6).
+-
+hvis du har alvorlige leverproblemer. Du skal spørge din læge, hvis du ikke er sikker på, hvor 
+alvorlig din leversygdom er. Det kan være nødvendigt at foretage yderligere test.
+Fortæl lægen om alle lægemidler, du tager, herunder medicin, som du tager gennem munden, 
+inhalerer, indsprøjter eller påfører på huden.
+45
+Du må ikke tage REZOLSTA sammen med følgende lægemidler
+Hvis du tager et af disse lægemidler, skal du tale med din læge om at skifte til anden medicin.
+Lægemiddel
+Formålet med lægemidlet
+Alfuzosin
+til behandling af forstørret blærehalskirtel 
+(prostata)
+Amiodaron, bepridil, dronedaron, ivabradin, 
+kinidin, ranolazin
+til behandling af visse hjertelidelser som f.eks. 
+unormal hjerterytme
+Carbamazepin, phenobarbital og phenytoin
+til forebyggelse af krampeanfald 
+Astemizol eller terfenadin
+til behandling af symptomer på allergi 
+Colchicin (hvis du har nyre-/leverproblemer)
+til behandling af gigt eller familiær
+middelhavsfeber
+Kombinationsproduktet lopinavir/ritonavir
+Til behandling af hiv
+Rifampicin
+til behandling af visse infektioner såsom 
+tuberkulose
+Lurasidon, pimozid, quetiapin eller sertindol
+til behandling af psykiske lidelser
+Sekalealkaloider (f.eks. ergotamin, 
+dihydroergotamin, ergometrin og 
+methylergometrin)
+til behandling af migrænehovedpine
+Cisaprid
+til behandling af visse mavelidelser
+Perikon (Hypericum perforatum)
+et naturlægemiddel mod depression
+Elbasvir/grazoprevir
+til behandling af hepatitis C-infektion
+Lovastatin, simvastatin og lomitapid
+til nedsættelse af kolesterol i blodet
+Triazolam eller oral (taget gennem munden)
+midazolam
+som sovemiddel og/eller til at afhjælpe angst
+Sildenafil
+til behandling af hjerte- og lungesygdommen 
+pulmonal arteriel hypertension. Sildenafil 
+anvendes også til andre formål. Se afsnittet 
+'Brug af anden medicin sammen med 
+REZOLSTA'.
+Avanafil
+til behandling af impotens
+Ticagrelor
+som hjælp til at standse sammenklumpning af 
+blodplader hos patienter, der tidligere har haft et 
+hjerteanfald
+Naloxegol
+til behandling af forstoppelse forårsaget af 
+opioidbehandling
+Dapoxetin
+til behandling af for tidlig sædafgang
+Domperidon
+til behandling af kvalme og opkastning
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager REZOLSTA.
+Personer, der tager REZOLSTA, kan stadig udvikle infektioner eller andre sygdomme forbundet med 
+hiv-infektion. Du skal være i løbende kontakt med din læge.
+Patienter, der tager REZOLSTA, kan udvikle hududslæt. I sjældne tilfælde kan udslættet blive 
+alvorligt eller potentielt livstruende. Kontakt lægen, hvis du får udslæt.
+Patienter, der tager REZOLSTA sammen med raltegravir (mod hiv-infektion), kan hyppigere få udslæt 
+end patienter, der kun får det ene af disse lægemidler. Udslættet vil generelt være let eller moderat.
+REZOLSTA har kun været anvendt til et begrænset antal patienter over 65 år. Hvis du tilhører denne 
+aldersgruppe, skal du spørge din læge, om du kan anvende REZOLSTA.
+46
+Læs følgende punkter, og fortæl det til lægen, hvis nogle af dem gælder for dig.
+-
+Fortæl din læge, hvis du tidligere har haft problemer med leveren, herunder hepatitis B- eller 
+C-infektion. Din læge kan vurdere, hvor alvorlig din leversygdom er, inden han eller hun 
+beslutter, om du kan tage REZOLSTA.
+-
+Fortæl din læge, hvis du har haft nyreproblemer. Din læge vil nøje overveje, om du skal 
+behandles med REZOLSTA.
+-
+Fortæl din læge, hvis du har sukkersyge (diabetes). REZOLSTA kan forhøje 
+blodsukkerniveauet.
+-
+Fortæl straks din læge, hvis du bemærker nogen symptomer på infektion (f.eks. forstørrede 
+lymfeknuder eller feber). Hos nogle patienter med fremskreden hiv-infektion, som tidligere har 
+haft usædvanlige infektioner på grund af et svækket immunforsvar (opportunistiske infektioner), 
+kan tegn og symptomer på betændelse fra tidligere infektioner vise sig kort efter påbegyndelse 
+af hiv-behandling. Det menes, at disse symptomer skyldes en forbedring af kroppens 
+immunforsvar, der gør det muligt for kroppen at bekæmpe infektioner, der kan have været til 
+stede uden nogen tydelige symptomer.
+-
+Ud over de opportunistiske infektioner kan autoimmune lidelser (lidelser, der skyldes, at 
+immunsystemet angriber sundt kropsvæv) også opstå, efter du er begyndt at tage medicin til 
+behandling af din hiv-infektion. Autoimmune lidelser kan opstå mange måneder efter, du er 
+påbegyndt behandling. Du skal straks informere din læge, så du kan få den nødvendige 
+behandling, hvis du bemærker symptomer på infektion eller andre symptomer, såsom 
+muskelsvaghed, svaghed begyndende i hænder og fødder, og som bevæger sig op igennem 
+kroppen, hjertebanken, rysten eller hyperaktivitet.
+-
+Fortæl din læge, hvis du har en blødersygdom (hæmofili). REZOLSTA kan øge risikoen for 
+blødning.
+-
+Fortæl din læge, hvis du er allergisk over for sulfonamider (anvendes f.eks. til behandling af 
+visse infektioner).
+-
+Fortæl din læge, hvis du har problemer med muskler eller knogler. Nogle patienter, der tager 
+flere forskellige lægemidler mod hiv, kan udvikle en knoglesygdom, hvor knoglevævet dør på 
+grund af manglende blodforsyning til knoglen (osteonekrose). Risikoen for dette øges i 
+forbindelse med langvarig behandling, alvorlig svækkelse af immunforsvaret, overvægt eller 
+brug af alkohol eller lægemidler, der kaldes binyrebarkhormoner (kortikosteroider). Tegnene på 
+osteonekrose omfatter stivhed, ømhed og smerter i led (især hofter, knæ og skuldre) samt 
+problemer med at bevæge sig. Hvis du bemærker nogen af disse symptomer, skal du kontakte 
+din læge.
+Børn og unge
+REZOLSTA er ikke beregnet til børn under 12 år eller som vejer under 40 kg.
+Brug af anden medicin sammen med REZOLSTA
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller for nylig har taget 
+anden medicin.
+Nogle typer medicin må du ikke tage sammen med REZOLSTA. De er nævnt ovenfor under 
+overskriften "Du må ikke tage REZOLSTA sammen med følgende lægemidler:"
+REZOLSTA må ikke tages sammen med et andet antiviralt lægemiddel, der allerede indeholder en
+forstærker, eller et andet antiviralt lægemiddel, der kræver forstærkning. I nogle tilfælde kan det være 
+nødvendigt at ændre dosis af andre lægemidler. Du skal derfor altid fortælle din læge, hvis du tager 
+anden hiv-medicin og følge din læges anvisninger nøje med hensyn til, hvilke lægemidler der kan 
+tages sammen.
+Virkningen af REZOLSTA kan blive nedsat, hvis du tager et eller flere af følgende lægemidler. Du 
+skal fortælle det til din læge, hvis du tager:
+-
+Bosentan (til behandling af hjertesygdomme)
+-
+Dexamethason (til injektion) (kortikosteroid)
+-
+Efavirenz, etravirin, nevirapin (til behandling af hiv-infektion)
+-
+Rifapentin, rifabutin (til behandling af bakterieinfektioner)
+47
+Virkningen af anden medicin kan blive påvirket, hvis du tager REZOLSTA, og din læge vil muligvis 
+tage yderligere blodprøver. Du skal fortælle det til din læge, hvis du tager:
+-
+amlodipin, carvedilol, diltiazem, disopyramid, felodipin, flecainid, lidocain, metoprolol, 
+mexiletin, nicardipin, nifedipin, propafenon, timolol, verapamil (til hjertesygdomme), da 
+virkningen eller bivirkningerne af disse lægemidler kan blive forstærket.
+-
+apixaban, dabigatranetexilat, edoxaban, rivaroxaban, warfarin, clopidogrel (til at hindre 
+blodpropper), da virkningen eller bivirkningerne af disse lægemidler kan blive ændret.
+-
+clonazepam (til at hindre krampeanfald)
+-
+østrogenholdig prævention og hormonerstatningsbehandling. REZOLSTA kan nedsætte 
+virkningen af disse. I forbindelse med svangerskabsforebyggelse anbefales det, at du i stedet 
+anvender prævention, der ikke indeholder hormoner.
+-
+ethinylestradiol/drospirenon. REZOLSTA kan øge risikoen for, at drospirenon øger 
+kaliumniveauet.
+-
+atorvastatin, fluvastatin, pitavastatin, pravastatin, rosuvastatin (til nedsættelse af kolesterol 
+i blodet). Risikoen for en muskelskade kan være forhøjet. Din læge vil vurdere, hvilken 
+kolesterolsænkende behandling der egner sig bedst til dig.
+-
+ciclosporin, everolimus, tacrolimus, sirolimus (til dæmpning af immunforsvaret), da virkningen 
+eller bivirkningerne af disse lægemidler kan blive forstærket.
+-
+kortikosteroider, herunder betamethason, budesonid, fluticason, mometason, prednison og 
+triamcinolon. Disse lægemidler anvendes til behandling af allergier, astma, inflammatoriske 
+tarmsygdomme, inflammatoriske tilstande i hud, øjne, led og muskler samt andre 
+inflammatoriske tilstande. Disse lægemidler tages generelt gennem munden, inhaleres, injiceres
+eller smøres på huden. Du må kun bruge disse lægemidler, hvis andre lægemidler ikke kan 
+anvendes, og kun efter en lægelig vurdering og under tæt lægelig overvågning for 
+kortikosteroid-bivirkninger.
+-
+buprenorphin/naloxon, methadon (medicin til behandling af afhængighed af morfin og 
+lignende).
+-
+salmeterol (medicin til behandling af astma).
+-
+artemether/lumefantrin (et kombinationspræparat til behandling af malaria).
+-
+dasatinib, irinotecan, nilotinib, vinblastin, vincristin (lægemidler til behandling af kræft).
+-
+perphenazin, risperidon, thioridazin (lægemidler til behandling af psykiske lidelser).
+-
+clorazepat, diazepam, estazolam, flurazepam (lægemidler til behandling af søvnforstyrrelser 
+eller angst).
+-
+sildenafil, tadalafil, vardenafil (til behandling af impotens og hjerte- og lungesygdommen 
+pulmonal arteriel hypertension).
+-
+glecaprevir/pibrentasvir (til behandling af hepatitis C-infektion)
+-
+fesoterodin, solifenacin (til behandling af sygdomme i urinvejene).
+Din læge vil muligvis tage yderligere blodprøver, og doseringen af anden medicin skal muligvis 
+ændres, da virkningen eller bivirkningerne af enten denne eller REZOLSTA kan blive påvirket, når de 
+kombineres. Du skal fortælle det til din læge, hvis du tager:
+-
+dabigatranetexilat, edoxaban, warfarin (blodfortyndende medicin).
+-
+alfentanil (stærkt smertestillende middel til injektion med kort virkningstid, der anvendes ved 
+operationer).
+-
+digoxin (til behandling af visse hjertesygdomme).
+-
+clarithromycin (antibiotikum).
+-
+clotrimazol, fluconazol, itraconazol, isavuconazol, posaconazol (mod svampeinfektioner) 
+voriconazol må kun tages, når en læge har bedømt brugen af det.
+-
+rifabutin (mod bakterieinfektioner).
+-
+tadalafil, sildenafil, vardenafil (mod impotens eller for højt blodtryk i lungekredsløbet).
+-
+amitriptylin, desipramin, imipramin, nortriptylin, paroxetin, sertralin, trazodon (til behandling 
+af depression og angst).
+-
+maraviroc (til behandling af hiv-infektion).
+-
+colchicin (til behandling af urinsur gigt eller familiær middelhavsfeber). Hvis du har nedsat 
+nyre- og/eller leverfunktion, se afsnittet 'Du må ikke tage REZOLSTA sammen med 
+følgende lægemidler'.)
+48
+-
+bosentan (til behandling af for højt blodtryk i lungekredsløbet).
+-
+buspiron, clorazepat, diazepam, estazolam, flurazepam, zolpidem og midazolam brugt som 
+injektion (medicin til behandling af søvnforstyrrelser og/eller angst).
+-
+metformin (til behandling af type 2-diabetes).
+-
+fentanyl, oxycodon, tramadol (til behandling af smerte).
+Dette er ikke en udførlig liste over lægemidler. Fortæl din læge om alle lægemidler, du tager.
+Graviditet og amning
+Fortæl straks din læge, hvis du er gravid eller planlægger at blive gravid. Gravide kvinder bør ikke 
+tage REZOLSTA.
+På grund af risikoen for bivirkninger hos det ammede barn må kvinder ikke amme, hvis de får 
+REZOLSTA.
+Amning frarådes hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet gennem 
+modermælken. Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.
+Trafik- og arbejdssikkerhed
+Du må ikke betjene maskiner eller køre bil, hvis du føler dig svimmel efter indtagelse af REZOLSTA.
+REZOLSTA indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rezolsta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rezolsta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens, apotekspersonalets eller sygeplejerskens anvisning. Er du i 
+tvivl, så spørg lægen, apotekspersonalet eller sygeplejerskens.
+Du skal tage REZOLSTA hver dag og altid sammen med mad. REZOLSTA virker ikke korrekt uden 
+mad. Du skal spise et måltid eller en snack indenfor 30 minutter før, du tager REZOLSTA. Typen af 
+mad er ikke vigtig.
+-
+Slug tabletten hel med væske som f.eks. vand eller mælk. Fortæl din læge, hvis du har svært ved 
+sluge REZOLSTA. Tabletten kan deles med en tabletdeler. Når tabletten er delt, skal hele dosen 
+(begge halvdele) tages med det samme med væske som f.eks. vand eller mælk.
+-
+Tag din anden hiv-medicin, der skal tages i kombination med REZOLSTA, efter din læges
+anvisninger.
+Fjernelse af det børnesikrede låg
+Plastbeholderen er forsynet med et børnesikret låg og skal åbnes således:
+-
+Tryk plastskruelåget nedad, samtidig med at det drejes mod uret.
+-
+Fjern det løse låg.
+Hvis du har taget for meget REZOLSTA
+Kontakt straks din læge, apotekspersonalet eller sygeplejersken.
+Hvis du har glemt at tage REZOLSTA
+Hvis du kommer i tanke om den glemte dosis inden for 12 timer, skal du straks tage den. Skal altid 
+tages sammen med mad. Hvis du kommer i tanke om den glemte dosis efter mere end 12 timer, skal 
+49
+du springe den over og tage de næste doser som sædvanligt. Du må ikke tage en dobbeltdosis som 
+erstatning for en glemt dosis.
+Hvis du kaster op efter at have taget REZOLSTA
+Hvis du kaster op inden for 4 timer efter at have taget lægemidlet, skal du tage en anden dosis 
+sammen med mad så snart som muligt. Hvis du kaster op efter mere end 4 timer efter at have taget 
+lægemidlet, skal du ikke tage en anden dosis REZOLSTA før næste planlagte tidspunkt.
+Kontakt din læge, hvis du er i tvivl om, hvad du skal gøre, hvis du har glemt at tage en dosis eller 
+kaster op.
+Du må ikke stoppe med at tage REZOLSTA uden først at tale med din læge
+Når behandlingen er startet, må du ikke stoppe den uden vejledning fra din læge.
+Lægemidler til behandling af hiv kan få dig til at føle dig bedre. Selvom du har det bedre, må du ikke 
+stoppe med at tage REZOLSTA. Tal med din læge først.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose 
+i blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse ændringer.
+Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Fortæl din læge, hvis du får nogen af de følgende bivirkninger
+Der er rapporteret om leverproblemer, der somme tider kan være alvorlige. Din læge vil tage nogle 
+blodprøver, før du starter behandling med REZOLSTA. Hvis du har kronisk hepatitis B eller C, skal 
+du oftere til blodprøvekontrol hos lægen, fordi du har en øget risiko for at få leverproblemer. Tal med 
+din læge om symptomerne på leverproblemer. De kan omfatte gulfarvning af huden og det hvide i 
+øjnene, mørk (tefarvet) urin, bleg afføring, kvalme, opkastning, appetitløshed eller smerter, jag eller 
+smerter og ubehag i din højre side under ribbenene.
+Hududslæt, eventuelt med kløe, er en almindelig bivirkning i forbindelse med REZOLSTA (ses oftere 
+ved anvendelse sammen med raltegravir). Udslættet er sædvanligvis let til moderat. Hududslæt kan 
+også være et symptom på en sjælden, men alvorlig tilstand. Derfor er det vigtigt, at du taler med
+lægen, hvis du får udslæt. Din læge vil rådgive dig om, hvad du skal gøre ved symptomerne, eller om 
+du skal holde op med at tage REZOLSTA.
+Andre alvorlige bivirkninger, der kan forekomme hos op til 1 ud af 10 patienter, var diabetes. 
+Betændelse i bugspytkirtlen (pancreatitis) har været indberettet hos op til 1 ud af 100 patienter.
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)
+-
+hovedpine
+-
+diarré, kvalme.
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)
+-
+allergiske reaktioner såsom kløe
+-
+nedsat appetit
+-
+unormale drømme
+-
+opkastning, mavesmerter eller -udspiling, fordøjelsesbesvær, luft i tarmene
+-
+muskelsmerter
+-
+træthed
+50
+-
+unormale resultater af blodprøver som for eksempel visse undersøgelser af lever eller nyrer; din 
+læge vil forklare dig om dette
+-
+svaghed.
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer)
+-
+symptomer på infektion eller på autoimmune lidelser (immunrekonstitutionsinflammatorisk 
+syndrom (IRIS))
+-
+osteonekrose (hvor knoglevævet dør på grund af manglende blodforsyning til knoglen)
+-
+udvikling af bryster hos mænd (gynækomasti)
+-
+unormale resultater af blodprøver som for eksempel undersøgelser af bugspytkirtel, højt 
+sukkerniveau, unormale niveauer af "lipider" (fedtstoffer); din læge vil forklare dig om dette
+-
+allergiske reaktioner som for eksempel nældefeber (urticaria), svær hævelse af huden og andre 
+væv (oftest læberne eller øjnene)
+-
+alvorligt udslæt med blærer og afskallende hud, især omkring munden, næsen, øjnene og 
+kønsorganerne.
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 personer)
+-
+en reaktion kaldet DRESS [et alvorligt udslæt, der kan være ledsaget af feber, træthed, hævelser 
+i ansigt eller lymfekirtler, øgning i antallet af eosinofile celler (en type hvide blodlegemer) samt
+påvirkning af lever, nyrer eller lunger]
+-
+darunavir-krystaller i nyrerne, som forårsager nyresygdom.
+Bivirkninger med ukendt hyppighed: et udslæt kan blive alvorligt eller muligvis livstruende:
+-
+udslæt med blærer og afskalning af huden over en stor del af kroppen
+-
+rødt udslæt med små, pusfyldte knopper, der kan sprede sig over hele kroppen; nogle gange med 
+feber.
+Nogle bivirkninger er typiske for hiv-medicin i samme gruppe som REZOLSTA. Disse omfatter:
+-
+muskelsmerter, muskelømhed eller muskelsvaghed. Disse muskellidelser har i sjældne tilfælde 
+været alvorlige.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rezolsta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rezolsta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og på beholderen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Brug ikke lægemidlet senere end 6 uger efter første åbning af beholderen.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.
+51</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>REZOLSTA indeholder:</h2>
+<p>Aktive stoffer: darunavir og cobicistat. Hver tablet indeholder 800 mg darunavir (som ethanolat) 
+og 150 mg cobicistat.
+-
+Øvrige indholdsstoffer: hypromellose, silicificeret mikrokrystallinsk cellulose, kolloid silica, 
+crospovidon og magnesiumstearat. Filmovertrækket indeholder polyvinylalkohol (delvist 
+hydrolyseret), titandioxid, polyethylenglycol (macrogol), talcum, rød jernoxid og sort jernoxid.
+Udseende og pakningsstørrelser
+Filmovertrukken, lyserød, oval tablet med TG trykt på den ene side og 800 på den anden side. 
+30 tabletter i en plastbeholder.
+Indehaver af markedsføringstilladelsen
+Janssen Pharmaceutica NV, Turnhoutseweg 30, B-2340 Beerse, Belgien
+Fremstiller
+Janssen-Cilag SpA, Via C. Janssen, Borgo San Michele, 04100 Latina, Italien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+52
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 122
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-241d4bc94412cf7041721319e0eaea4c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rezolsta Package Leaflet for language en"
+Description: "ePI document Bundle for rezolsta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-241d4bc94412cf7041721319e0eaea4c"
+* entry[0].resource = composition-en-241d4bc94412cf7041721319e0eaea4c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp241d4bc94412cf7041721319e0eaea4c"
+* entry[=].resource = mp241d4bc94412cf7041721319e0eaea4c
+                            
+                    
+Instance: bundlepackageleaflet-da-241d4bc94412cf7041721319e0eaea4c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rezolsta Package Leaflet for language da"
+Description: "ePI document Bundle for rezolsta Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-241d4bc94412cf7041721319e0eaea4c"
+* entry[0].resource = composition-da-241d4bc94412cf7041721319e0eaea4c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp241d4bc94412cf7041721319e0eaea4c"
+* entry[=].resource = mp241d4bc94412cf7041721319e0eaea4c
+                            
+                    
+
+
+
+Instance: mp241d4bc94412cf7041721319e0eaea4c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product REZOLSTA 800 mg/150 mg film-coated tablets"
-Description: "REZOLSTA 800 mg/150 mg film-coated tablets"
+Title: "Medicinal Product rezolsta"
+Description: "rezolsta"
 Usage: #inline
 
  
@@ -593,7 +1271,7 @@ Usage: #inline
 
 
 * name
-  * productName = "REZOLSTA 800 mg/150 mg film-coated tablets"
+  * productName = "rezolsta"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -620,29 +1298,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-241d4bc94412cf7041721319e0eaea4c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rezolsta Package Leaflet for language en"
-Description: "ePI document Bundle for rezolsta Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 241d4bc94412cf7041721319e0eaea4cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/967/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rezolsta"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-241d4bc94412cf7041721319e0eaea4c"
-* entry[0].resource = composition-en-241d4bc94412cf7041721319e0eaea4c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa28880b1a1bf3107ae367c711df1ca3a"
-* entry[=].resource = mpa28880b1a1bf3107ae367c711df1ca3a
-                            
-                      
+* title = "List of all ePIs associated with rezolsta"
+
+* subject = Reference(mpa28880b1a1bf3107ae367c711df1ca3a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rezolsta "rezolsta"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-241d4bc94412cf7041721319e0eaea4c) // rezolsta en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-241d4bc94412cf7041721319e0eaea4c) // rezolsta da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-241d4bc94412cf7041721319e0eaea4c
+InstanceOf: List
+
+* insert 241d4bc94412cf7041721319e0eaea4cListRuleset
+    

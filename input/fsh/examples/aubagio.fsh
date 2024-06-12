@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-69e7e3b7b762d214fbbb48c707c30105
 InstanceOf: CompositionUvEpi
 Title: "Composition for aubagio Package Leaflet"
@@ -453,12 +456,550 @@ Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-69e7e3b7b762d214fbbb48c707c30105
+InstanceOf: CompositionUvEpi
+Title: "Composition for aubagio Package Leaflet"
+Description:  "Composition for aubagio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1ff3be973921c0fa53124cb78e3e913f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1ff3be973921c0fa53124cb78e3e913f
+* title = "TEST PURPOSES ONLY - aubagio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage AUBAGIO 
+3. Sådan skal du tage AUBAGIO<br />
+4. Bivirkninger<br />
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What aubagio is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What aubagio is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AUBAGIO indeholder det aktive stof teriflunomid, som er et immunmodulerende middel, der justerer 
+immunsystemet til at begrænse sit angreb på nervesystemet. </p>
+<p>Hvad anvendes AUBAGIO til 
+AUBAGIO anvendes til behandling af voksne, børn og unge (10 år og derover) med attakvis multipel 
+sklerose (MS). </p>
+<p>Hvad er multipel sclerose 
+MS er en kronisk sygdom, der påvirker centralnervesystemet. Centralnervestsyemet består af hjernen og 
+rygmarven. Ved multipel sclerose ødelægger betændelse den beskyttende kappe (kaldet myelin), som ligger 
+omkring nerverne i centralnervestsyemet, hvilket forhindrer nerverne i at fungere normalt.  </p>
+<p>Personer, der lider af attakvis multipel sclerose, oplever gentagne anfald (attakker) med fysiske symptomer, 
+der skyldes, at nerverne ikke fungerer, som de skal. Disse symptomer varierer fra patient til patient, men 
+omfatter normalt: </p>
+<ul>
+<li>
+<p>gangbesvær </p>
+</li>
+<li>
+<p>synsproblemer </p>
+</li>
+<li>
+<p>balanceproblemer. </p>
+</li>
+</ul>
+<p>Symptomerne kan forsvinde fuldstændigt, når attakket er ovre, men med tiden kan nogle af problemerne 
+fortsætte mellem attakkerne. Dette kan medføre nedsat fysisk funktion, der kan gribe forstyrrende ind i 
+dagligdagens aktiviteter. </p>
+<p>Hvordan AUBAGIO virker 
+AUBAGIO hjælper med at beskytte mod attakker på centralnervesystemet fra immunsystemet og ved at 
+begrænse stigningen i visse hvide blodlegemer (lymfocytter). Dette begrænser samtidig betændelsen, som 
+leder til nervebeskadigelse ved MS.   </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take aubagio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take aubagio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke AUBAGIO:</p>
+<ul>
+<li>hvis du er allergisk over for teriflunomid eller et af de øvrige indholdsstoffer i AUBAGIO (angivet i 
+punkt 6) </li>
+<li>hvis du nogensinde har udviklet alvorligt hududslæt eller hudafskalning, blisterdannelse og/eller sår i 
+munden efter at have taget teriflunomid eller leflunomid </li>
+<li>hvis du har en alvorlig leversygdom </li>
+<li>hvis du er gravid, tror, du kan være gravid, eller ammer </li>
+<li>hvis du har alvorlige sygdomme, der påvirker immunsystemet f.eks. erhvervet immundefekt syndrom 
+(AIDS) </li>
+<li>hvis du har alvorlige problemer med rygmarven, eller hvis du har et lavt antal røde eller hvide 
+blodlegemer eller et nedsat antal blodplader </li>
+<li>hvis du lider af en alvorlig infektion </li>
+<li>hvis du har en alvorlig nyresygdom, som kræver dialyse </li>
+<li>hvis du har en meget lav koncentration af proteiner i blodet (hypoproteinæmi) 
+Spørg lægen eller apotekspersonalet, før du tager dette lægmiddel, hvis der er noget, du er i tvivl om. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen eller apotekspersonalet, før du tager AUBAGIO:</p>
+<ul>
+<li>Hvis du har leverproblemer og/eller indtager store mængder alkohol. Din læge vil muligvis tage 
+blodprøver før og under behandlingen for at kontrollere, hvor godt din lever fungerer. Hvis dine 
+blodprøver viser, at der er et problem med din lever, vil lægen muligvis standse behandlingen med 
+AUBAGIO. Læs oplysningerne under punkt 4. - Hvis du har forhøjet blodtryk (hypertension), uanset om dette behandles med medicin eller ej. Aubagio 
+kan forårsage en stigning i blodtrykket. Lægen vil tjekke dit blodtryk før behandlingsstart og 
+regelmæssigt derefter. Læs oplysningerne under punkt 4. - Hvis du har en infektion. Før du tager AUBAGIO, vil lægen kontrollere, at du har et tilstrækkeligt 
+antal hvide blodlegemer og blodplader i blodet. Da Aubagio nedsætter antallet af hvide blodlegemer i 
+blodet, kan det have betydning for bekæmpelse af infektionen. Hvis du tror, du har en infektion, vil 
+lægen muligvis tage blodprøver for at kontrollere de hvide blodlegemer. Læs oplysningerne under 
+punkt 4. - Hvis du har svære hudreaktioner. </li>
+<li>Hvis du har åndedrætssymptomer. </li>
+<li>Hvis du har svaghed, følelsesløshed og smerte i hænder og fødder. </li>
+<li>Hvis du skal vaccineres. </li>
+<li>Hvis du tager leflunomid sammen med AUBAGIO. </li>
+<li>Hvis du skifter til eller fra AUBAGIO. </li>
+<li>Hvis du skal have taget en særlig blodprøve (calciumniveau). Målingen kan vise fejlagtige lave 
+calciumniveauer. </li>
+</ul>
+<p>Åndedrætsreaktioner 
+Fortæl det til din læge, hvis du har uforklarlig hoste og dyspnø (åndenød). Din læge kan foretage yderligere 
+tests. </p>
+<p>Børn og unge 
+AUBAGIO bør ikke anvendes til børn under 10 år, da det ikke er blevet undersøgt hos MS-patienter i denne 
+aldersgruppe.<br />
+Ovenstående advarsler og forsigtighedsregler gælder også for børn. Følgende oplysninger er vigtige for børn 
+og deres omsorgspersoner:</p>
+<ul>
+<li>der er set betændelse i bugspytkirtlen hos patienter, der får teriflunomid. Dit barns læge vil muligvis 
+tage blodprøver, hvis der er mistanke om betændelse i bugspytkirtlen.  </li>
+</ul>
+<p>Brug af anden medicin sammen med AUBAGIO<br />
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden medicin 
+eller planlægger at tage anden medicin. Dette gælder også medicin, som ikke er købt på recept. 
+Du skal især fortælle det til lægen eller på apoteket, hvis du tager nogle af følgende:</p>
+<ul>
+<li>leflunomid, methotrexat eller andre lægemidler, der påvirker immunsystemet (ofte kaldet 
+immununsuppressiva eller immunmodulatorer) </li>
+<li>rifampicin mod tuberkulose og andre infektioner </li>
+<li>carbamazepin, phenobarbital, phenytoin mod epilepsi </li>
+<li>perikon - et naturlægemiddel mod depression </li>
+<li>repaglinid, pioglitazon, nateglinid eller rosiglitazon mod sukkersyge </li>
+<li>daunorubicin, doxorubicin, paclitaxel eller topotecan mod kræft </li>
+<li>duloxetin mod depression, ufrivillig vandladning (urininkontinens) eller nyresygdom ved sukkersyge </li>
+<li>alosetron til behandling af kraftig diarre </li>
+<li>theophyllin mod astma </li>
+<li>tizanidin, der virker muskelafslappende </li>
+<li>warfarin, et såkaldt antikoagulerende middel, der bruges til at gøre blodet mere tyndtflydende (dvs. 
+tyndere) for at undgå blodpropper </li>
+<li>p-piller (indeholdende ethinylestradiol og levonorgestrel) </li>
+<li>cefaclor, benzylpenicillin eller ciprofloxacin mod infektioner </li>
+<li>indomethacin eller ketoprofen mod smerter eller gigt </li>
+<li>furosemid mod hjertelidelser </li>
+<li>cimetidin for at nedsætte produktionen af mavesyre </li>
+<li>zidovudin mod hiv </li>
+<li>rosuvastin, simvastatin, atorvastatin, pravastatin mod forhøjet kolesterol (hyperkolesterolæmi) </li>
+<li>sulfasalazin mod inflammatorisk tarmsygdom eller leddegigt (reumatoid artrit) </li>
+<li>colestyramin mod forhøjet kolesterol eller mod kløe ved leversygdom </li>
+<li>aktivt kul for at reducere optagelsen af medicin eller andre stoffer  </li>
+</ul>
+<p>Graviditet og amning<br />
+Tag ikke AUBAGIO, hvis du er, eller tror du kan være, gravid. Hvis du er gravid eller bliver gravid, mens 
+du tager AUBAGIO, er der en øget risiko for, at dit barn kan tage skade. Kvinder i den fødedygtige alder må 
+kun tage dette lægemiddel, hvis de bruger en effektiv præventionsmetode. 
+Hvis din datter får sin første menstruation under behandlingen med AUBAGIO skal du informere lægen, 
+som vil give specialvejledning vedrørende prævention og de mulige risici i tilfælde af graviditet. </p>
+<p>Fortæl det til din læge, hvis du planlægger at blive gravid efter behandlingen med AUBAGIO. Det er vigtigt 
+at sikre, at indholdet af dette lægemiddel i blodet er tilstrækkeligt lavt, før du forsøger at blive gravid. Den 
+normale udskillelse af det aktive stof kan vare op til 2 år, men tiden kan reduceres til nogle få uger ved at 
+tage visse bestemte lægemidler, som øger den hastighed, hvormed AUBAGIO udskilles fra kroppen. 
+I alle tilfælde skal der tages en blodprøve for at bekræfte, at det aktive stof i tilstrækkelig grad er fjernet fra 
+kroppen, og du skal have en bekræftelse fra din læge på, at koncentrationen af AUBAGIO i blodet er lav nok 
+til, at du kan forsøge at blive gravid. </p>
+<p>Spørg lægen, hvis du vil have yderligere oplysninger om laboratorieprøverne. </p>
+<p>Hvis du har mistanke om, at du er blevet gravid, mens du tager AUBAGIO eller i en periode på to år efter, 
+du har stoppet behandlingen, skal du straks stoppe med at tage AUBAGIO og henvende dig til din læge med 
+henblik på at få lavet en graviditetstest. Hvis denne test bekræfter, at du er gravid, vil din læge muligvis 
+foreslå en behandling med visse lægemidler, der kan sikre en hurtig og tilstrækkelig fjernelse af AUBAGIO 
+fra din krop, da dette kan nedsætte risikoen for dit barn. </p>
+<p>Prævention 
+Du skal anvende en sikker præventionsmetode under og efter behandlingen med AUBAGIO. Teriflunomid 
+forbliver i blodet længe efter, at du er holdt op med at tage det. Bliv ved med at bruge sikker prævention, 
+efter du har afsluttet behandlingen. 
+- Du skal fortsætte med dette, indtil koncentrationen af AUBAGIO i blodet er tilstrækkeligt lav - din 
+læge vil kontrollere dette. 
+- Tal med din læge om, hvilken præventionsmetode der passer bedst til dig og muligheden for at skifte 
+til en anden præventionsmetode, hvis der er behov for dette. </p>
+<p>Du må ikke tage AUBAGIO, når du ammer, da teriflunomid udskilles i mælken. </p>
+<p>Trafik- og arbejdssikkerhed 
+AUBAGIO kan medføre svimmelhed, hvilket kan svække din evne til at reagere og koncentrere sig. Hvis 
+dette sker for dig, må du ikke køre motorkøretøj eller betjene maskiner. </p>
+<p>AUBAGIO indeholder lactose 
+AUBAGIO indeholder lactose (en type sukker). Hvis du har fået at vide af lægen, at du ikke kan tåle visse 
+sukkerarter, skal du kontakte lægen, før du tager dette lægemiddel. </p>
+<p>AUBAGIO indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det væsentlige 
+”natriumfrit”. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take aubagio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take aubagio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandlingen med AUBAGIO vil blive styret af en læge, der har erfaring med behandling af multipel 
+sclerose. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Voksne 
+Den anbefalede dosis er 1 tablet på 14 mg dagligt.  </p>
+<p>Børn og unge (10 år og derover)<br />
+Dosis afhænger af kropsvægten:</p>
+<ul>
+<li>Børn, der vejer over 40 kg: 1 tablet på 14 mg dagligt.  </li>
+<li>Børn, der vejer 40 kg eller derunder: 1 tablet på 7 mg dagligt.  </li>
+</ul>
+<p>Hos børn og unge, der når en stabil kropsvægt på over 40 kg, vil lægen ændre dosis til 1 tablet på 14 mg 
+dagligt. </p>
+<p>Anvendelsesmåde 
+AUBAGIO er beregnet til at blive taget gennem munden (oral anvendelse). Du skal tage AUBAGIO hver 
+dag som en enkelt dosis. Du kan tage AUBAGIO når som helst i løbet af dagen.<br />
+Du skal synke tabletten hel med lidt vand. 
+AUBAGIO kan tages med eller uden mad. </p>
+<p>Hvis du har taget for meget AUBAGIO 
+Hvis du har taget for meget AUBAGIO, skal du straks kontakte lægen. Du kan få bivirkninger svarende til 
+de bivirkninger, der er beskrevet i punkt 4. Hvis du har glemt at tage AUBAGIO<br />
+Du må ikke tage en dobbeltdosis som erstatning for en glemt tablet. Tag den næste dosis som planlagt. </p>
+<p>Hvis du holder op med at tage AUBAGIO<br />
+Du må ikke stoppe med at tage AUBAGIO eller ændre dosis uden først at tale med din læge. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Følgende bivirkninger kan forekomme med dette lægemiddel: </p>
+<p>Alvorlige bivirkninger </p>
+<p>Nogle bivirkninger kan være eller blive alvorlige. Fortæl det omgående til lægen, hvis du bemærker nogle 
+af følgende alvorlige bivirkninger. </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
+- Betændelse i bugspytkirtlen, der kan have symptomer såsom smerter i maveregionen, kvalme eller 
+opkastning (hyppigheden er almindelig hos pædiatriske patienter og ikke almindelig hos voksne 
+patienter). </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) 
+- Allergiske reaktioner der kan have symptomer som udslæt, nældefeber, hævede læber, tunge eller 
+ansigt eller pludseligt åndedrætsbesvær. 
+- Alvorlige hudreaktioner der kan inkludere symptomer som hududslæt, blisterdannelse, feber eller sår i 
+munden. 
+- Alvorlige infektioner eller sepsis (en potentielt livstruende type infektion) der kan have symptomer 
+som høj feber, rysten, kuldegysninger, reduceret urindannelse eller konfusion 
+- Lungebetændelse der kan have symptomer som åndenød eller vedvarende hoste </p>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) 
+- Alvorlig leversygdom der kan have symptomer som gulfarvning af huden samt det hvide i øjnene, urin, 
+der er mørkere end normalt, uforklarlig kvalme og opkastning eller mavesmerter </p>
+<p>Andre bivirkninger kan forekomme med følgende hyppigheder: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) 
+- Hovedpine 
+- Diarre, kvalme 
+- Forhøjet ALAT (en stigning i blodets indhold af visse leverenzymer) påvist ved hjælp af en blodprøve 
+- Udtynding af håret </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
+- Influenza, infektion i de øvre luftveje, urinvejsinfektion, bronkitis, bihulebetændelse, ondt i halsen og 
+ubehag, når der skal synkes, blærebetændelse, mave-tarminfektion forårsaget af virus, forkølelsessår, 
+tandinfektion, strubekatar, fodsvamp 
+- Laboratorieværdier: Et nedsat antal røde blodlegemer (anæmi), ændring i testresultater for lever og 
+hvide blodlegemer (se pkt. 2), samt forhøjelse af et muskelenzym (kreatin fosfokinase) er blevet 
+observeret. 
+- Lette allergiske reaktioner 
+- Angstfølelse 
+- Prikkende, snurrende fornemmelse i huden, følelse af svaghed, følelsesløshed, snurrende fornemmelse 
+eller smerter over lænden (iskias), følelsesløse, brændende, prikkende eller smertende hænder og 
+fingre (karpaltunnelsyndrom) 
+- Følelse af hjertebanken 
+- Forhøjet blodtryk 
+- Opkastning, tandpine, smerter i den øverste del af maven 
+- Udslæt, akne 
+- Smerter i sener, led, knogler eller muskler<br />
+- Hyppigere vandladning 
+- Kraftig menstruation 
+- Smerter 
+- Manglende energi eller følelse af kraftesløshed (asteni) 
+- Vægttab </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) 
+- Nedsat antal blodplader (mild trombocytopeni) 
+- Øget følsomhed særligt i huden, jagende eller dunkende smerter langs en eller flere nerver, 
+nerveproblemer i arme eller ben (perifer neuropati) 
+- Neglelidelser, alvorlige hudreaktioner 
+- Posttraumatisk smerte 
+- Psoriasis 
+- Betændelse i munden/læberne 
+- Unormalt indhold af fedt (lipider) i blodet 
+- Betændelse i tyktarmen (colitis) </p>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 personer) 
+- Leverbetændelse eller leverskade </p>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) 
+- Respiratorisk hypertension </p>
+<p>Børn (10 år og derover) og unge 
+Ovenstående bivirkninger gælder også for børn og unge. Følgende yderligere oplysninger er vigtige for børn, 
+unge og deres omsorgspersoner: </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+- Betændelse i bugspytkirtlen   </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store aubagio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store aubagio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hylsteret med blisterkort efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AUBAGIO indeholder<br />
+- Aktivt stof: teriflunomid.  </p>
+<p>AUBAGIO 7 mg filmovertrukne tabletter 
+- Hver tablet indeholder 7 mg teriflunomid.<br />
+- Øvrige indholdsstoffer: lactosemonohydrat, majsstivelse, mikrokrystallinsk cellulose, 
+natriumstivelsesglycolat (type A), hydroxypropylcellulose, magnesiumstearat, hypromellose, 
+titanidioxid (E171), talcum, macrogol 8000, indigocarmin-aluminiumpigment (E132) og gul jernoxid 
+(E172) (se punkt 2 “Aubagio indeholder lactose”).  </p>
+<p>AUBAGIO 14 mg filmovertrukne tabletter 
+- Hver tablet indeholder 14 mg teriflunomid.<br />
+- Øvrige indholdsstoffer: lactosemonohydrat, majsstivelse, mikrokrystallinsk cellulose, 
+natriumstivelsesglycolat (type A), hydroxypropylcellulose, magnesiumstearat, hypromellose, 
+titanidioxid (E171), talcum, macrogol 8000, indigocarmin-aluminiumpigment (E132) (se punkt 2 
+“Aubagio indeholder lactose”).  </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>AUBAGIO 7 mg filmovertrukne tabletter (tabletter) 
+De filmovertrukne tabletter er helt lyse grønblålige grå til svagt grønblå sekskantede filmovertrukne tabletter 
+med påtryk (‘7’) på den ene side og præget med virksomhedens logo på den anden side. </p>
+<p>AUBAGIO 7 mg filmovertrukne tabletter leveres i kartonæsker indeholdende 28 tabletter i hylsterpakninger 
+med integrerede blistere. </p>
+<p>AUBAGIO 14 mg filmovertrukne tabletter (tabletter)<br />
+De filmovertrukne tabletter er svagt blå til pastelblå femkantede filmovertrukne tabletter med påtryk (‘14’) på 
+den ene side og præget med virksomhedens logo på den anden side. </p>
+<p>AUBAGIO filmovertrukne tabletter leveres i kartonæsker indeholdende:</p>
+<ul>
+<li>14, 28, 84 og 98 tabletter i hylsterpakninger med integrerede blistere. </li>
+<li>10x1 tabletter i perforerede en-dosis blister. </li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført.  </p>
+<p>Indehaveren af markedsføringstilladelsen 
+Sanofi Winthrop Industrie 
+82 avenue Raspail 
+94250 Gentilly 
+Frankrig  </p>
+<p>Fremstiller 
+Opella Healthcare International SAS 
+56, Route de Choisy 
+60200<br />
+Compiègne 
+Frankrig </p>
+<p>Sanofi Winthrop Industrie 
+30-36, avenue Gustave Eiffel 
+37100 Tours 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tel/Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91 България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942 Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Malta 
+Sanofi S.r.l. 
+Tlf: +45 45 16 70<br />
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10 Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη ΑΕΒΕ 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 – 0 </p>
+<p>España 
+sanofi-aventis S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+Sanofi-aventis Sp. z o.o.<br />
+Tel: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél : 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89 Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56 Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 Italia 
+Sanofi S.r.l. 
+Tel: 800536 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741Sverige 
+Sanofi AB<br />
+Tel: +46 (0) 8 634 5 
+Latvia<br />
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>
+<p>Du kan også finde indlægssedlen og patientkortet med sikkerhedsoplysninger med nedenstående QR-kode. </p>
+<p>QR-kode angives + www.qr-aubagio-sanofi.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-69e7e3b7b762d214fbbb48c707c30105
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aubagio Package Leaflet for language en"
+Description: "ePI document Bundle for aubagio Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-69e7e3b7b762d214fbbb48c707c30105"
+* entry[0].resource = composition-en-69e7e3b7b762d214fbbb48c707c30105
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp69e7e3b7b762d214fbbb48c707c30105"
+* entry[=].resource = mp69e7e3b7b762d214fbbb48c707c30105
+                            
+                    
+Instance: bundlepackageleaflet-da-69e7e3b7b762d214fbbb48c707c30105
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aubagio Package Leaflet for language da"
+Description: "ePI document Bundle for aubagio Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-69e7e3b7b762d214fbbb48c707c30105"
+* entry[0].resource = composition-da-69e7e3b7b762d214fbbb48c707c30105
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp69e7e3b7b762d214fbbb48c707c30105"
+* entry[=].resource = mp69e7e3b7b762d214fbbb48c707c30105
+                            
+                    
+
+
+
+Instance: mp69e7e3b7b762d214fbbb48c707c30105
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product AUBAGIO 7 mg film-coated tablets"
-Description: "AUBAGIO 7 mg film-coated tablets"
+Title: "Medicinal Product aubagio"
+Description: "aubagio"
 Usage: #inline
 
  
@@ -478,7 +1019,7 @@ Usage: #inline
 
 
 * name
-  * productName = "AUBAGIO 7 mg film-coated tablets"
+  * productName = "aubagio"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -505,29 +1046,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-69e7e3b7b762d214fbbb48c707c30105
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for aubagio Package Leaflet for language en"
-Description: "ePI document Bundle for aubagio Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 69e7e3b7b762d214fbbb48c707c30105ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "AUBAGIO 7 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "aubagio"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-69e7e3b7b762d214fbbb48c707c30105"
-* entry[0].resource = composition-en-69e7e3b7b762d214fbbb48c707c30105
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1ff3be973921c0fa53124cb78e3e913f"
-* entry[=].resource = mp1ff3be973921c0fa53124cb78e3e913f
-                            
-                      
+* title = "List of all ePIs associated with aubagio"
+
+* subject = Reference(mp1ff3be973921c0fa53124cb78e3e913f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#aubagio "aubagio"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-69e7e3b7b762d214fbbb48c707c30105) // aubagio en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-69e7e3b7b762d214fbbb48c707c30105) // aubagio da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-69e7e3b7b762d214fbbb48c707c30105
+InstanceOf: List
+
+* insert 69e7e3b7b762d214fbbb48c707c30105ListRuleset
+    

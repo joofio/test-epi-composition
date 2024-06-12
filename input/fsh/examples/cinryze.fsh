@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-117ee803a8e1cf06b103ca0933d5bdf2
 InstanceOf: CompositionUvEpi
 Title: "Composition for cinryze Package Leaflet"
@@ -483,12 +486,627 @@ requirements.</p>         </div>"""
 
 
 
+Instance: composition-da-117ee803a8e1cf06b103ca0933d5bdf2
+InstanceOf: CompositionUvEpi
+Title: "Composition for cinryze Package Leaflet"
+Description:  "Composition for cinryze Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa717cf9114b75bd047b47a43ba21c5cf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa717cf9114b75bd047b47a43ba21c5cf
+* title = "TEST PURPOSES ONLY - cinryze"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Cinryze
+3. Sådan skal du tage Cinryze
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cinryze is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cinryze is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cinryze indeholder det humane protein, der kaldes “C1-esteraseinhibitor" som aktivt stof.<br />
+C1-esteraseinhibitor er et naturligt forekommende protein, som normalt er til stede i blodet. Hvis du 
+har et lavt indhold af C1-esteraseinhibitor i blodet, eller C1-esteraseinhibitoren ikke virker korrekt, 
+kan det medføre anfald med hævelse (kaldet angioødem). Symptomerne kan omfatte mavesmerter og 
+hævelse af: 
+
+hænder og fødder
+
+ansigt, øjenlåg, læber eller tunge
+
+strubehovedet (larynx), som kan gøre det svært at trække vejret
+
+kønsdele
+Hos voksne og børn kan Cinryze øge indholdet af C1-esteraseinhibitor i blodet og enten forhindre, at 
+disse anfald med hævelser forekommer (før der udføres medicinske procedurer eller undersøgelser 
+eller procedurer hos en tandlæge), eller stoppe anfald med hævelse, efter de er begyndt.
+Cinryze kan øge indholdet af C1-esteraseinhibitor i blodet hos voksne, unge og børn (fra 6 år og 
+opefter) og rutinemæssigt forhindre, at anfald af hævelser opstår.
+28</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cinryze"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cinryze"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Cinryze
+
+hvis du er allergisk over for Human C1-esteraseinhibitor eller et af de øvrige indholdsstoffer i 
+dette lægemiddel (angivet i punkt 6). Det er vigtigt at fortælle det til lægen, hvis du mener du 
+tidligere har haft en overfølsomhedsreaktion over for nogle af indholdsstofferne i Cinryze.
+Advarsler og forsigtighedsregler
+
+Før du påbegynder behandling med Cinryze er det vigtigt, at du fortæller det til lægen, hvis du 
+har eller har haft problemer med blodpropper (trombotiske hændelser). Du vil blive nøje 
+overvåget hvis det er tilfældet.
+
+Hvis du begynder at få udslæt, trykken for brystet, pibende vejrtrækning eller hurtig puls efter 
+du tager Cinryze, skal du straks fortælle det til lægen. Se punkt 4. 
+Når medicin fremstilles fra humant blod eller plasma, tages der visse forholdsregler for at 
+forhindre, at infektioner overføres til patienterne. Dette omfatter nøje udvælgelse af blod- og 
+plasmadonorer så det sikres, at personer med risiko for at være smittebærere udelukkes, og hver 
+donation og plasmaportion kontrolleres for tegn på virus/infektioner. Fremstillerne af disse 
+produkter indbygger også trin under behandlingen af blod eller plasma, der kan inaktivere eller 
+fjerne vira. På trods af disse forholdsregler kan det ikke helt udelukkes, at der kan overføres 
+smitstoffer, når lægemidler fremstilles ud fra humant blod eller plasma. Dette gælder også for 
+alle hidtil ukendte vira eller andre infektionstyper. 
+
+De anvendte forholdsregler anses for at være effektive til indkapslede vira såsom humant 
+immundefektvirus (HIV), hepatitis B- og hepatitis C-vira og til ikke-indkapslede hepatitis A- og 
+parvovirus B19-vira.
+
+Din læge kan anbefale, at du overvejer at få vaccinationer mod hepatitis A og B, hvis du 
+regelmæssigt eller gentagne gange får Human C1-esteraseinhibitor-præparater, som er udvundet 
+fra humant plasma.
+
+For at forbedre sporbarheden af biologiske lægemidler skal navn- og batchnummer for det 
+indgivne præparat tydeligt registreres af din sygeplejerske eller læge. 
+Børn
+Cinryze er ikke godkendt til rutinemæssig forebyggelse af angioødem-anfald hos børn under 6 år.
+Brug af anden medicin sammen med Cinryze
+Fortæl altid lægen, hvis du tager anden medicin eller har gjort det for nylig. 
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager Cinryze. Der er begrænset information om sikkerheden ved at 
+bruge Cinryze under graviditet og amning. Din læge vil diskutere risici og fordele ved at tage denne 
+medicin med dig.
+Trafik- og arbejdssikkerhed
+Cinryze påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner.
+Cinryze indeholder natrium
+Dette lægemiddel indeholder 11,5 mg natrium (hovedbestanddelen i køkken-/bordsalt) pr. hætteglas. 
+Dette svarer til 0,5 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen.
+29</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cinryze"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cinryze"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din behandling vil blive påbegyndt og håndteret under opsyn af en læge med erfaring i at behandle 
+patienter med hereditært angioødem (HAE).
+En læge eller sygeplejerske kan klargøre og injicere Cinryze for dig. Hvis lægen beslutter, at du kan få 
+præparatet hjemme, vil lægen eller sygeplejersken træne dig eller et familiemedlem i at klargøre og 
+injicere Cinryze. Lægen vil regelmæssigt gennemgå proceduren for klargøring og indgivelse med dig, 
+et familiemedlem eller en omsorgsperson.
+Den anbefalede dosis af Cinryze til voksne, unge, børn, ældre og patienter, der lider af nyre- eller 
+leverproblemer, er følgende:
+Brug til voksne og unge (12 år og derover)
+Behandling af anfald med hævelse
+
+En dosis på 1000 IE (to hætteglas) Cinryze skal injiceres ved det første tegn på et anfald med 
+hævelse.<br />
+
+En anden dosis på 1000 IE kan indgives, hvis dine symptomer ikke lindres efter 60 minutter.
+
+Hvis du oplever et alvorligt anfald, især hvis der er en hævelse af strubehovedet (larynx), eller 
+hvis behandlingsstarten udskydes, kan den anden dosis på 1000 IE gives tidligere end minutter efter den første dosis, afhængig af dit kliniske respons.
+
+Cinryze skal injiceres intravenøst (i venen).
+Rutinemæssig forebyggelse af anfald med hævelse
+
+En dosis på 1000 IE (to hætteglas) Cinryze skal injiceres hver 3. eller 4. dag for rutinemæssig 
+forebyggelse af anfald med hævelse. 
+
+Doseringsintervallet kan justeres af lægen, afhængig af dit respons til Cinryze.
+
+Cinryze skal injiceres intravenøst (i venen).
+Forebyggelse af anfald med hævelse før kirurgi
+
+En dosis på 1000 IE (to hætteglas) Cinryze skal injiceres op til 24 timer før en medicinsk 
+procedure eller en undersøgelse, en kirurgisk procedure eller en procedure hos en tandlæge.
+
+Cinryze skal injiceres intravenøst (i en vene).
+30
+Brug til børn
+Behandling af angioødem-anfald
+Forebyggelse af 
+angioødem-anfald før en 
+procedure
+Rutinemæssig 
+forebyggelse af 
+angioødem-anfald
+2 til 11 år, &gt; 25 kg:
+En dosis på 1000 IE (to hætteglas) 
+Cinryze skal injiceres ved det 
+første tegn på et anfald med 
+hævelse.
+Yderligere en dosis på 1000 IE kan 
+indgives, hvis dine symptomer ikke 
+lindres efter 60 minutter.
+2 til 11 år, 10-25 kg:
+En dosis på 500 IE (ét hætteglas) 
+Cinryze skal injiceres ved det 
+første tegn på et anfald med 
+hævelse.
+Yderligere en dosis på 500 IE kan 
+indgives, hvis dine symptomer ikke 
+lindres efter 60 minutter.
+2 til 11 år, &gt; 25 kg:
+En dosis på 1000 IE (to 
+hætteglas) Cinryze skal 
+injiceres op til 24 timer før 
+en medicinsk procedure eller 
+en undersøgelse, en kirurgisk 
+procedure eller en procedure 
+hos en tandlæge.
+2 til 11 år, 10-25 kg:
+En dosis på 500 IE (ét 
+hætteglas) Cinryze skal 
+injiceres op til 24 timer før 
+en medicinsk, dental eller 
+kirurgisk procedure.
+6 til 11 år:
+En dosis på 500 IE (ét 
+hætteglas) Cinryze skal 
+injiceres hver 3. eller 4. dag 
+for rutinemæssig 
+forebyggelse af anfald med 
+hævelse.
+Din læge kan justere 
+doseringsintervallet 
+afhængigt af, hvordan du 
+reagerer på Cinryze.
+Klargøring og indgivelse
+Cinryze injiceres normalt i en vene (intravenøst) af din læge eller sygeplejerske. Du eller din plejer 
+kan også indgive Cinryze som en injektion, men kun efter at have modtaget tilstrækkelig træning. Hvis 
+du selv injicerer Cinryze, skal du altid bruge det nøjagtigt efter lægen anvisning. Er du i tvivl, så spørg 
+lægen. Hvis din læge beslutter, at du kan være kandidat til hjemmebehandling, vil han/hun give dig 
+udførlige instruktioner. Det vil være påkrævet, at du fører dagbog for at dokumentere hver behandling, 
+du får i hjemmet, og at bringe dagbogen med dig til hvert lægebesøg. Regelmæssig gennemgang af 
+din / din plejers injektionsteknik vil udføres for at sikre fortsat hensigtsmæssig behandling. 
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Dette kan blandt andre være allergilignende reaktioner.
+Fortæl det straks til lægen, hvis du oplever nogle af de følgende symptomer, efter du tager denne 
+medicin. Selvom de er sjældne, kan symptomerne være alvorlige.
+Pludselig pibende vejrtrækning, vejrtrækningsbesvær, hævelse af øjenlåg, ansigt eller læber, udslæt 
+eller kløe (især hvis hele kroppen er påvirket).
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): hovedpine, 
+kvalme.
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): overfølsomhed, 
+svimmelhed, opkastning, udslæt, kløe eller rødmen, udslæt eller smerter på injektionsstedet, feber.
+31
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): Højt blodsukker, 
+blodprop, smertefulde vener, hedetur, hoste, mavesmerter, diarré, skællende hud, hævelse af led og 
+smerter, muskelsmerter og utilpashed i brystet.
+Det forventes, at bivirkningerne hos børn og unge svarer til bivirkningerne hos voksne.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cinryze"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cinryze"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglassene efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.<br />
+Opbevares ved temperaturer under 25 C. Må ikke nedfryses. Opbevares i den originale yderpakning 
+for at beskytte mod lys.
+Efter rekonstitution skal Cinryze-opløsningen straks anvendes.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cinryze indeholder:
+Aktivt stof: Human C1-esteraseinhibitor fremstillet fra plasma fra humane donorer. Hvert hætteglas 
+med pulver indeholder 500 IE Human C1-esteraseinhibitor. Efter rekonstitution indeholder et 
+hætteglas 500 IE Human C1-esteraseinhibitor pr. 5 ml svarende til en koncentration på 100 IE/ml. To 
+hætteglas med rekonstitueret Cinryze indeholder 1000 IE Human C1-esteraseinhibitor pr. 10 ml 
+svarende til en koncentration på 100 IE/ml.
+Det totale proteinindhold af den rekonstituerede injektionsvæske er 15 ± 5 mg/ml.
+En international enhed (IE) svarer til mængden af C1-esteraseinhibitor, der er til stede i 1 ml normalt 
+humant plasma.
+Øvrige indholdsstoffer: Natriumchlorid, saccharose, natriumcitrat, L-valin, L-alanin, L-treonin. (Se 
+pkt. 2).
+Solvens: Vand til injektionsvæsker
+Udseende og pakningsstørrelser
+Pulver til injektionsvæske, opløsning.
+Cinryze er et hvidt pulver i et hætteglas.
+Efter det er blevet opløst i vand til injektionsvæsker er opløsningen gennemsigtig og farveløs eller let 
+blålig.
+32
+Hver pakning indeholder:
+2 hætteglas med Cinryze 500 IE pulver til injektionsvæske, opløsning
+2 hætteglas med vand til injektionsvæsker (5 ml i hver)
+2 overførselsanordninger med filter
+2 injektionssprøjter til engangsbrug på 10 ml
+2 venepunktursæt
+2 beskyttelsesunderlag
+Anvend kun en silikonefri injektionssprøjte (leveres i pakningen) til administration af præparatet.
+Indehaver af markedsføringstilladelsen og fremstiller
+Indehaver af markedsføringstilladelsen
+Takeda Manufacturing Austria AG
+Industriestrasse 67
+1221 Wien
+Østrig
+Fremstiller
+Takeda Manufacturing Austria AG
+Industriestrasse 67
+1221 Wien
+Østrig
+Shire International Licensing B.V.
+Mercuriusplein 11
+2132 HA Hoofddorp
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Takeda Belgium NV
+Tel/Tél: +32 2 464 06 medinfoEMEA@takeda.com
+Lietuva
+Takeda, UAB
+Tel: +370 521 09 070
+medinfoEMEA@takeda.com
+България
+Такеда България ЕООД
+Тел.: +359 2 958 27 36
+medinfoEMEA@takeda.com 
+Luxembourg/Luxemburg
+Takeda Belgium NV
+Tel/Tél: +32 2 464 06 11
+medinfoEMEA@takeda.com
+Česká republika
+Takeda Pharmaceuticals Czech Republic s.r.o.
+Tel: +420 234 722 722
+medinfoEMEA@takeda.com
+Magyarország
+Takeda Pharma Kft.
+Tel: +36 1 270 7030
+medinfoEMEA@takeda.com
+Danmark
+Takeda Pharma A/S
+Tlf: +45 46 77 10 10
+medinfoEMEA@takeda.com
+Malta
+Τakeda HELLAS S.A.
+Tel: +30 210 6387800
+medinfoEMEA@takeda.com
+33
+Deutschland
+Takeda GmbH
+Tel: +49 (0)800 825 3325
+medinfoEMEA@takeda.com
+Nederland
+Takeda Nederland B.V.
+Tel: +31 20 203 5492
+medinfoEMEA@takeda.com
+Eesti
+Takeda Pharma AS
+Tel: +372 6177 669
+medinfoEMEA@takeda.com
+Norge
+Takeda AS
+Tlf: +47 800 800 30
+medinfoEMEA@takeda.com
+Ελλάδα
+Τakeda ΕΛΛΑΣ Α.Ε.
+Tηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Österreich
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com
+España
+Takeda Farmacéutica España S.A
+Tel: +34 917 90 42 22
+medinfoEMEA@takeda.com
+Polska
+Takeda Pharma Sp. z o.o.
+tel: +48223062447
+medinfoEMEA@takeda.com
+France
+Takeda France SAS
+Tél: + 33 1 40 67 33 00
+medinfoEMEA@takeda.com
+Portugal
+Takeda Farmacêuticos Portugal, Lda.
+Tel: + 351 21 120 1457
+medinfoEMEA@takeda.com
+Hrvatska
+Takeda Pharmaceuticals Croatia d.o.o.
+Tel: +385 1 377 88 96
+medinfoEMEA@takeda.com
+România
+Takeda Pharmaceuticals SRL
+Tel: +40 21 335 03 91
+medinfoEMEA@takeda.com
+Ireland
+Takeda Products Ireland Ltd
+Tel: 1800 937 970
+medinfoEMEA@takeda.com
+Slovenija
+Takeda Pharmaceuticals farmacevtska družba d.o.o.
+Tel: + 386 (0) 59 082 480
+medinfoEMEA@takeda.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+medinfoEMEA@takeda.com
+Slovenská republika
+Takeda Pharmaceuticals Slovakia s.r.o.
+Tel: +421 (2) 20 602 600
+medinfoEMEA@takeda.com
+Italia
+Takeda Italia S.p.A.
+Tel: +39 06 502601
+medinfoEMEA@takeda.com
+Suomi/Finland
+Takeda Oy
+Puh/Tel: 0800 774 051
+medinfoEMEA@takeda.com
+Κύπρος
+Τakeda ΕΛΛΑΣ Α.Ε.
+Τηλ: +30 210 6387800
+medinfoEMEA@takeda.com
+Sverige
+Takeda Pharma AB
+Tel: 020 795 079
+medinfoEMEA@takeda.com
+Latvija
+Takeda Latvia SIA
+Tel: +371 67840082
+medinfoEMEA@takeda.com
+United Kingdom (Northern Ireland)
+Takeda UK Ltd
+Tel: +44 (0) 2830 640 902
+medinfoEMEA@takeda.com
+34
+Denne indlægsseddel blev senest ændret .
+Andre informationskilder
+Du kan finde yderligere oplysninger om Cinryze på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme og om, 
+hvordan de behandles.
+35
+Nedenstående oplysninger er til læger og sundhedspersonale:
+Rekonstitution og administration af Cinryze
+Rekonstitution, administration af præparatet og håndtering af administrationssæt og kanyler skal 
+udføres med forsigtighed. 
+Anvend enten overførselsordningen med filter, der følger med Cinryze, eller en kommercielt 
+tilgængelig kanyle med to ender. 
+Anvend kun en silikonefri injektionssprøjte (leveres i pakningen) til administration af præparatet.
+Klargøring og håndtering
+Cinryze er beregnet til intravenøs administration (i venen) efter rekonstitution med vand til 
+injektionsvæsker.
+Cinryze-hætteglasset er kun til engangsbrug. 
+Rekonstitution
+Til klargøring af en dosis på 500 IE: Du skal bruge 1 hætteglas med pulver, 1 hætteglas med solvens, 
+1 overførselsanordning med filter, 1 10 ml-injektionssprøjte til engangsbrug, 1 venepunktursæt og 
+1 beskyttelsesunderlag. Gem det ubrugte hætteglas og administrationsudstyr til den næste dosis.
+Til klargøring af en dosis på 1000 IE: Du skal bruge 2 hætteglas med pulver, 2 hætteglas med solvens, 
+2 overførselsanordninger med filter, 1 10 ml-injektionssprøjte til engangsbrug, 1 venepunktursæt og 
+1 beskyttelsesunderlag.
+Hvert hætteglas med præparat skal rekonstitueres med 5 ml vand til injektionsvæsker.
+Et hætteglas med rekonstitueret Cinryze indeholder en dosis på 500 IE Cinryze. Du skal derfor kun 
+rekonstituere ét hætteglas med Cinryze til en dosis på 500 IE.
+To hætteglas med rekonstitueret Cinryze indeholder en dosis på 1000 IE Cinryze. Du skal derfor bruge 
+to hætteglas til at tilberede en dosis på 1000 IE.
+1. Udfør arbejdet på det medfølgende underlag, og vask hænder før de følgende procedurer 
+udføres.
+2. Anvend aseptisk teknik under rekonstitutionsproceduren.
+3. Sørg for, at hætteglassene med pulver og solvens er ved stuetemperatur (15 ºC - 25 ºC).<br />
+4. Afriv etiketten fra hætteglasset med pulver ved at trække ned i den perforerede strimmel hvor 
+det er indikeret med den omvendte trekant.
+5. Fjern plasticlågene fra hætteglassene med pulver og solvens. 
+6. Rens propperne med en desinficerende vådserviet, og lad dem tørre før brug. 
+7. Fjern beskyttelseslaget øverst på pakningen med overførselsanordningen. Anordningen må ikke 
+fjernes fra pakningen. 
+36
+8. Bemærk: Overførselsanordningen skal sættes på hætteglasset med solvens før den sættes på 
+hætteglasset med pulver, så vakuum i hætteglasset med pulver bibeholdes. Placer hætteglasset 
+med solvens på en flad overflade, indsæt den blå ende af overførselsanordningen i hætteglasset 
+med solvens, og tryk ned indtil spidsen gennemborer proppens midte på hætteglasset med 
+solvens, og anordningen klikker på plads. Overførselsanordningen skal være lodret før proppen 
+gennembores. 
+9. Fjern plasticpakningen fra overførselsanordningen og bortskaf den. Vær forsigtig med ikke at 
+røre ved den eksponerede ende af overførselsanordningen. 
+10. Placer hætteglasset med pulver på en flad overflade. Inverter overførselsanordningen og 
+hætteglasset med solvens, der indeholder vand til injektionsvæsker, indsæt den gennemsigtige 
+ende af overførselsanordningen i hætteglasset med pulver, og tryk ned indtil spidsen 
+gennemborer gummiproppen, og overførselsanordningen klikker på plads. 
+Overførselsanordningen skal være lodret før proppen på hætteglasset med pulver gennembores. 
+Vakuum i hætteglasset med pulver vil trække solvensen ind. Hvis der ikke er vakuum i 
+hætteglasset, må produktet ikke anvendes.
+11. Hætteglasset med solvens hvirvles forsigtigt rundt, indtil alt pulveret er opløst. Hætteglasset 
+med pulver må ikke omrystes. Sørg for, at alt pulveret er helt opløst.
+37
+12. Fjern hætteglasset med solvens ved at dreje det mod uret. Den gennemsigtige ende af 
+overførselsanordningen må ikke fjernes fra hætteglasset med pulver.<br />
+Et hætteglas med rekonstitueret Cinryze indeholder 500 IE med human C1-esteraseinhibitor i 5 ml, 
+hvilket resulterer i en koncentration på 100 IE/ml. Fortsæt til administrationsproceduren, hvis 
+patienten skal have en dosis på 500 IE.<br />
+To hætteglas med Cinryze pulver skal rekonstitueres for at fremstille en dosis (1000 IE/10 ml). De 
+ovenstående instruktioner 1 til 12 gentages derfor ved brug af en yderligere pakning, der indeholder en 
+overførselsanordning, for at rekonstituere det andet af to hætteglas med solvens. 
+Overførselsanordningen må ikke genbruges. Når de to hætteglas er rekonstitueret, skal du fortsætte til 
+administrationsproceduren for en dosis på 1000 IE.
+Administrationsprocedure for en dosis på 500 IE 
+1. Anvend en aseptisk teknik under administrationsproceduren.
+2. Efter rekonstitution er Cinryze-injektionsvæsken farveløs til let blålig og gennemsigtig. 
+Præparatet må ikke anvendes, hvis injektionsvæsken er uklar eller misfarvet.
+3. Brug en steril engangssprøjte på 10 ml, træk stemplet tilbage, og lad ca. 5 ml luft trænge ind i 
+injektionssprøjten. 
+4. Sæt injektionssprøjten på toppen af den gennemsigtige ende på overførselsanordningen ved at 
+dreje den med uret.
+38
+5. Vend forsigtigt hætteglasset på hovedet, injicér luft i opløsningen, og træk den rekonstituerede 
+Cinryze-injektionsvæske ind i injektionssprøjten. 
+6. Fjern injektionssprøjten fra hætteglasset ved at dreje den mod uret og frigøre den fra den 
+gennemsigtige ende af overførselsanordningen. 
+7. Inspicér den rekonstituerede Cinryze-injektionsvæske for partikler før administration. 
+Injektionsvæsken må ikke anvendes, hvis der observeres partikler.
+8. Sæt venepunktursættet på injektionssprøjten med Cinryze-injektionsvæske, og injicér 
+intravenøst i patienten (i en blodåre). Indgiv 500 IE (rekonstitueret i 5 ml vand til 
+injektionsvæsker) Cinryze ved intravenøs injektion med en hastighed på 1 ml pr. minut i løbet 
+af 5 minutter.
+Administrationsprocedure for en dosis på 1000 IE
+1. Anvend en aseptisk teknik under administrationsproceduren.
+2. Efter rekonstitution er opløsningerne med Cinryze farveløse til let blålige og gennemsigtige. 
+Præparatet må ikke anvendes, hvis opløsningerne er uklare eller misfarvede.
+3. Brug en steril injektionssprøjte til engangsbrug på 10 ml, træk stemplet tilbage og lad ca. 5 ml 
+luft trænge ind i injektionssprøjten. 
+39
+4. Sæt injektionssprøjten på toppen af den gennemsigtige ende på overførselsanordningen ved at 
+dreje den med uret. 
+5. Inverter hætteglasset forsigtigt, injicer luft i opløsningen, og træk den rekonstituerede Cinryze-
+opløsningen ind i injektionssprøjten.<br />
+6. Fjern injektionssprøjten fra hætteglasset ved at dreje den mod uret og frigøre den fra den 
+gennemsigtige ende af overførselsanordningen. 
+7. Gentag trin 3 til 6 med den samme injektionssprøjte og et andet hætteglas med rekonstitueret 
+Cinryze for at fremstille en hel 10 ml dosis.
+8. Inspicer den rekonstituerede Cinryze-opløsning for partikler før administration. Må ikke 
+anvendes, hvis der observeres partikler.
+9. Sæt venepunktursættet på injektionssprøjten med Cinryze-opløsningen, og injicer intravenøst (i 
+venen) i patienten. Indgiv 1000 IE (rekonstitueret i 10 ml vand til injektionsvæsker) Cinryze ved 
+intravenøs injektion (i venen) med en hastighed på 1 ml pr. minut i løbet af 10 minutter. 
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-117ee803a8e1cf06b103ca0933d5bdf2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cinryze Package Leaflet for language en"
+Description: "ePI document Bundle for cinryze Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-117ee803a8e1cf06b103ca0933d5bdf2"
+* entry[0].resource = composition-en-117ee803a8e1cf06b103ca0933d5bdf2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp117ee803a8e1cf06b103ca0933d5bdf2"
+* entry[=].resource = mp117ee803a8e1cf06b103ca0933d5bdf2
+                            
+                    
+Instance: bundlepackageleaflet-da-117ee803a8e1cf06b103ca0933d5bdf2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cinryze Package Leaflet for language da"
+Description: "ePI document Bundle for cinryze Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-117ee803a8e1cf06b103ca0933d5bdf2"
+* entry[0].resource = composition-da-117ee803a8e1cf06b103ca0933d5bdf2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp117ee803a8e1cf06b103ca0933d5bdf2"
+* entry[=].resource = mp117ee803a8e1cf06b103ca0933d5bdf2
+                            
+                    
+
+
+
+Instance: mp117ee803a8e1cf06b103ca0933d5bdf2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cinryze 500 IU powder and solvent for solution for injection"
-Description: "Cinryze 500 IU powder and solvent for solution for injection"
+Title: "Medicinal Product cinryze"
+Description: "cinryze"
 Usage: #inline
 
  
@@ -508,7 +1126,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cinryze 500 IU powder and solvent for solution for injection"
+  * productName = "cinryze"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -535,29 +1153,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-117ee803a8e1cf06b103ca0933d5bdf2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cinryze Package Leaflet for language en"
-Description: "ePI document Bundle for cinryze Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 117ee803a8e1cf06b103ca0933d5bdf2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/688/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cinryze"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-117ee803a8e1cf06b103ca0933d5bdf2"
-* entry[0].resource = composition-en-117ee803a8e1cf06b103ca0933d5bdf2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa717cf9114b75bd047b47a43ba21c5cf"
-* entry[=].resource = mpa717cf9114b75bd047b47a43ba21c5cf
-                            
-                      
+* title = "List of all ePIs associated with cinryze"
+
+* subject = Reference(mpa717cf9114b75bd047b47a43ba21c5cf)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cinryze "cinryze"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-117ee803a8e1cf06b103ca0933d5bdf2) // cinryze en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-117ee803a8e1cf06b103ca0933d5bdf2) // cinryze da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-117ee803a8e1cf06b103ca0933d5bdf2
+InstanceOf: List
+
+* insert 117ee803a8e1cf06b103ca0933d5bdf2ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0f22d445f37b02d3c837ebc1451981fc
 InstanceOf: CompositionUvEpi
 Title: "Composition for xtandi Package Leaflet"
@@ -356,12 +359,485 @@ Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5This leaflet was l
 
 
 
+Instance: composition-da-0f22d445f37b02d3c837ebc1451981fc
+InstanceOf: CompositionUvEpi
+Title: "Composition for xtandi Package Leaflet"
+Description:  "Composition for xtandi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc4d1942f5e7b5770c7fa2e8980e4216b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc4d1942f5e7b5770c7fa2e8980e4216b
+* title = "TEST PURPOSES ONLY - xtandi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Xtandi<br />
+3. Sådan skal du tage Xtandi<br />
+4. Bivirkninger<br />
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xtandi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xtandi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xtandi indeholder det aktive stof enzalutamid. Xtandi anvendes til behandling af voksne mænd med 
+prostatakræft:</p>
+<ul>
+<li>som ikke længere responderer på en hormonbehandling eller kirurgisk behandling for at 
+nedsætte testosteron 
+eller </li>
+<li>som har spredt sig til andre dele af kroppen og responderer på en hormonbehandling eller 
+kirurgisk behandling for at nedsætte testosteron 
+eller </li>
+<li>som tidligere har fået fjernet prostata eller har fået strålebehandling, og som har hurtigt stigende 
+PSA, men hvor kræften ikke har spredt sig til andre dele af kroppen og responderer på en 
+hormonbehandling for at nedsætte testosteron </li>
+</ul>
+<p>Sådan virker Xtandi 
+Xtandi er et lægemiddel, som virker ved at blokere aktiviteten af de hormoner, som kaldes androgener 
+(såsom testosteron). Ved at blokere androgener standser enzalutamid prostatakræftcellers vækst og 
+deling. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xtandi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xtandi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Xtandi 
+- hvis du er allergisk over for enzalutamid eller et af de øvrige indholdsstoffer i Xtandi (angivet i 
+punkt 6)<br />
+- hvis du er gravid eller i den fødedygtige alder (se "Graviditet, amning og frugtbarhed") </p>
+<p>Advarsler og forsigtighedsregler<br />
+Krampeanfald 
+Der er rapporteret krampeanfald hos 6 ud af hver 1.000 personer, der har fået Xtandi, og hos færre end 
+3 ud af hver 1.000 personer, der har fået placebo (inaktivt middel) (se "Brug af andre lægemidler 
+sammen med Xtandi" i det følgende og punkt 4 "Bivirkninger"). </p>
+<p>Hvis du tager et lægemiddel, som kan forårsage krampeanfald eller som kan øge tilbøjeligheden til at 
+få krampeanfald (se "Brug af andre lægemidler sammen med Xtandi" nedenfor). </p>
+<p>Hvis du får et krampeanfald under behandlingen: 
+Kontakt lægen hurtigst muligt. Lægen kan beslutte, at du skal stoppe med at tage Xtandi. </p>
+<p>Posteriort reversibelt encefalopati-syndrom (PRES) 
+Der har været sjældne rapporter om patienter i behandling med Xtandi, som har fået PRES, en 
+sjælden, reversibel sygdom, der rammer hjernen. Hvis du får krampeanfald, hovedpine, der bliver 
+værre, forvirring, blindhed eller andre synsproblemer, skal du hurtigst muligt kontakte din læge. (Se 
+også punkt 4 "Bivirkninger"). </p>
+<p>Risiko for nye kræftformer (anden primær malignitet) 
+Der har været rapporter om nye (andre) kræftformer inklusive kræft i blæren og tyktarmen hos 
+patienter behandlet med Xtandi. </p>
+<p>Kontakt din læge så hurtigt som muligt, hvis du bemærker tegn på gastrointestinal blødning, blod i 
+urinen eller ofte har et presserende behov for at urinere, når du tager Xtandi. </p>
+<p>Tal med lægen, inden du tager Xtandi<br />
+- hvis du tager lægemidler til forebyggelse af blodpropper (f.eks. warfarin, acenocoumarol, 
+clopidogrel) 
+- hvis du får kemoterapi som f.eks. docetaxel 
+- hvis du har leverproblemer 
+- hvis du har nyreproblemer </p>
+<p>Fortæl din læge, hvis du har noget af det følgende: 
+Hjerte- eller karsygdomme, inklusive problemer med hjerterytmen (arytmi), eller er i behandling med 
+lægemidler for disse lidelser. Risikoen for problemer med hjerterytmen kan blive større, hvis du tager 
+Xtandi. </p>
+<p>Hvis du er allergisk over for enzalutamid, kan det medføre udslæt eller hævelse af ansigtet, tungen, 
+læberne eller svælget. Hvis du er allergisk over for enzalutamid eller nogle af indholdsstofferne, må du 
+ikke tage Xtandi. </p>
+<p>Der er rapporteret om alvorligt udslæt eller hudafskalning, blæredannelse og/eller mundsår i 
+forbindelse med behandling med Xtandi. Søg straks lægehjælp, hvis du bemærker nogen af disse 
+symptomer. </p>
+<p>Kontakt lægen, før du tager dette lægemiddel, hvis noget af ovenstående gælder for dig, eller 
+hvis du er usikker.  </p>
+<p>Børn og unge 
+Dette lægemiddel er ikke beregnet til brug af børn og unge.  </p>
+<p>Brug af andre lægemidler sammen med Xtandi 
+Fortæl altid lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. Du skal kende navnene på de lægemidler, du tager. Medbring en 
+liste over de lægemidler, du tager, og vis den til lægen, når du får udskrevet nye lægemidler. Du bør </p>
+<p>ikke begynde på eller holde op med at tage andre lægemidler, før du har talt med lægen, der udskrev 
+Xtandi til dig. </p>
+<p>Fortæl altid lægen, hvis du tager nogen af følgende lægemidler. Når de samtidig tages med Xtandi, 
+kan disse lægemidler øge risikoen for et krampeanfald:</p>
+<ul>
+<li>visse lægemidler, som anvendes til behandling af astma og andre luftvejssygdomme (f.eks. 
+aminophyllin, theophyllin). </li>
+<li>lægemidler, som anvendes til behandling af visse psykiatriske lidelser, som f.eks. depression og 
+skizofreni (f.eks. clozapin, olanzapin, risperidon, ziprasidon, bupropion, lithium, chlorpromazin, 
+mesoridazin, thioridazin, amitriptylin, desipramin, doxepin, imipramin, maprotilin, mirtazapin). </li>
+<li>visse lægemidler til behandling af smerter (f.eks. pethidin). </li>
+</ul>
+<p>Fortæl altid lægen, hvis du tager følgende lægemidler. Disse lægemidler kan påvirke virkningen af 
+Xtandi, eller Xtandi kan påvirke virkningen af disse lægemidler. </p>
+<p>Dette omfatter visse lægemidler, som anvendes til:</p>
+<ul>
+<li>sænkning af kolesterol (f.eks. gemfibrozil, atorvastatin, simvastatin) </li>
+<li>smertebehandling (f.eks. fentanyl, tramadol) </li>
+<li>kræftbehandling (f.eks. cabazitaxel) </li>
+<li>epilepsibehandling (f.eks. carbamazepin, clonazepam, phenytoin, primidon, valproinsyre) </li>
+<li>behandling af visse psykiatriske lidelser, som f.eks. svær angst eller skizofreni (f.eks. diazepam, 
+midazolam, haloperidol) </li>
+<li>behandling af søvnproblemer (f.eks. zolpidem) </li>
+<li>behandling af hjertesygdomme eller sænkning af blodtryk (f.eks. bisoprolol, digoxin, diltiazem, 
+felodipin, nicardipin, nifedipin, propranolol, verapamil) </li>
+<li>behandling af alvorlig sygdom relateret til betændelse (f.eks. dexamethason, prednisolon) </li>
+<li>behandling af HIV-infektion (f.eks. indinavir, ritonavir) </li>
+<li>behandling af bakterieinfektioner (f.eks. clarithromycin, doxycyclin) </li>
+<li>behandling af skjoldbruskkirtelsygdomme (f.eks. levothyroxin) </li>
+<li>behandling af urinsyregigt (f.eks. colchicin) </li>
+<li>behandling af mavelidelser (f.eks. omeprazol) </li>
+<li>forebyggelse af hjertesygdomme eller slagtilfælde (f.eks. dabigatran-etexilat) </li>
+<li>forebyggelse af organafstødning (f.eks. tacrolimus) </li>
+</ul>
+<p>Xtandi kan påvirke nogle lægemidler, som bruges til at behandle hjerterytmeproblemer (f.eks. kinidin, 
+procainamid, amiodaron og sotalol), og kan øge risikoen for hjerterytmeproblemer, når det bruges 
+sammen med visse andre lægemidler [f.eks. methadon (som anvendes til smertelindring og ved 
+narkotika-afvænning), moxifloxacin (et antibiotikum), antipsykotika (som anvendes til alvorlige 
+psykiske lidelser)]. </p>
+<p>Fortæl altid lægen, hvis du tager nogen af ovennævnte lægemidler. Det kan være nødvendigt at ændre 
+dosis af Xtandi eller andre lægemidler, du tager.  </p>
+<p>Graviditet, amning og frugtbarhed 
+- Xtandi er ikke beregnet til anvendelse hos kvinder. Dette lægemiddel kan forårsage skade på 
+det ufødte barn eller muligvis abort, hvis det tages af gravide kvinder. Det må ikke tages af 
+gravide, kvinder i den fødedygtige alder eller kvinder, der ammer.<br />
+- Dette lægemiddel kan muligvis påvirke mænds frugtbarhed.<br />
+- Hvis du har samleje med en kvinde i den fødedygtige alder, skal du benytte kondom og en 
+anden effektiv præventionsform under behandlingen og i 3 måneder efter behandling med dette 
+lægemiddel. Hvis du har samleje med en gravid kvinde, skal du benytte kondom for at beskytte 
+det ufødte barn. 
+- Kvindelige omsorgspersoner henvises til punkt 3 "Sådan skal du tage Xtandi" vedrørende 
+håndtering og brug. </p>
+<p>Trafik- og arbejdssikkerhed 
+Xtandi kan i moderat grad påvirke evnen til at føre motorkøretøj eller betjene maskiner. Der er 
+rapporteret om krampeanfald hos patienter, der tager Xtandi. 
+Hvis du har højere risiko for krampeanfald, bør du kontakte lægen.  </p>
+<p>Xtandi indeholder sorbitol 
+Dette lægemiddel indeholder 57,8 mg sorbitol (en form for sukker) pr. bløde kapsel.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xtandi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xtandi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.  </p>
+<p>Den sædvanlige dosis er 160 mg (fire bløde kapsler), som tages på samme tidspunkt én gang dagligt.  </p>
+<h2>Sådan tages Xtandi</h2>
+<h2>Synk de bløde kapsler hele med vand.</h2>
+<h2>De bløde kapsler må ikke tygges, opløses eller åbnes, før de synkes.</h2>
+<h2>Xtandi kan tages med eller uden mad.</h2>
+<p>Xtandi bør ikke håndteres af andre personer end patienten eller hans omsorgspersoner. Kvinder, 
+der er eller kan blive gravide, må ikke håndtere beskadigede eller åbne Xtandi kapsler uden brug 
+af beskyttelse såsom handsker.  </p>
+<p>Din læge kan også ordinere andre lægemidler samtidig med, at du tager Xtandi. </p>
+<p>Hvis du har taget for meget Xtandi 
+Hvis du har taget flere bløde kapsler end foreskrevet, skal du holde op med at tage Xtandi og kontakte 
+lægen. Du kan have øget risiko for krampeanfald eller andre bivirkninger. </p>
+<h2>Hvis du har glemt at tage Xtandi</h2>
+<p>Hvis du har glemt at tage Xtandi på det sædvanlige tidspunkt, skal du tage din sædvanlige dosis, 
+så snart du kommer i tanke om det.<br />
+-<br />
+Hvis du har glemt at tage Xtandi en hel dag, skal du tage din sædvanlige dosis den følgende dag.<br />
+-<br />
+Hvis du har glemt at tage Xtandi i mere end en dag, skal du straks kontakte lægen.<br />
+-<br />
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Xtandi 
+Du må ikke holde op med at tage dette lægemiddel, medmindre lægen beder dig om det.  </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Krampeanfald 
+Der er rapporteret krampeanfald hos 6 ud af hver 1.000 personer, der har fået Xtandi, og hos færre end 
+3 ud af hver 1.000 personer, der har fået placebo. </p>
+<p>Sandsynligheden for krampeanfald øges, hvis du tager mere end den anbefalede dosis af dette 
+lægemiddel, hvis du tager visse andre lægemidler, eller hvis din risiko for krampeanfald er større end 
+den sædvanlige risiko. </p>
+<p>Hvis du får et krampeanfald, skal du kontakte lægen hurtigst muligt.  Lægen kan beslutte, at du skal 
+stoppe med at tage Xtandi. </p>
+<p>Posteriort reversibelt encefalopati-syndrom (PRES) 
+Der har været sjældne rapporter (kan forekomme hos 1 ud af 1.000 personer) om patienter i 
+behandling med Xtandi, som har fået PRES, en sjælden, reversibel sygdom, der rammer hjernen. Hvis 
+du får krampeanfald, hovedpine, der bliver værre, forvirring, blindhed eller andre synsproblemer, skal 
+du hurtigst muligt kontakte din læge. </p>
+<p>Andre mulige bivirkninger omfatter:  </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) 
+Træthed, fald, knoglebrud, hedestigninger, højt blodtryk </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer)<br />
+Hovedpine, ængstelse, tør hud, kløe, hukommelsesbesvær, blokering af arterierne i hjertet 
+(iskæmisk hjertesygdom), brystforstørrelse hos mænd (gynækomasti), smerter i brystvorterne, 
+ømhed i brysterne, symptomer på "restless legs"-syndrom eller uro i benene (en ukontrollabel 
+trang til at bevæge en del af kroppen, sædvanligvis et ben), koncentrationsbesvær, 
+glemsomhed, smagsforstyrrelse, besvær med at tænke klart </p>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) 
+Hallucinationer, lavt antal hvide blodlegemer </p>
+<p>Ikke kendt (kan ikke vurderes ud fra tilgængelige data) 
+Muskelsmerter, muskelkramper, muskelsvaghed, rygsmerter, ændringer i EKG (QT-
+forlængelse), maveproblemer herunder kvalme, en hudreaktion med røde pletter eller mærker 
+på huden, som kan ligne en skydeskive, da de er mørkerøde i midten og omgivet af mere 
+afdæmpede røde ringe (erythema multiforme), udslæt, opkastning, hævelse af ansigtet, læber, 
+tunge og/eller svælg, nedsat antal blodplader (hvilket øger risikoen for blødning eller blå 
+mærker), diarré </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xtandi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xtandi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på paptegnebog og den ydre karton af pakningen 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Tag ikke eventuelt bløde kapsler, som er utætte, beskadigede eller viser tegn på manipulation. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xtandi indeholder:</p>
+<ul>
+<li>Aktivt stof: Enzalutamid. Hver blød kapsel indeholder 40 mg enzalutamid.  </li>
+<li>Øvrige indholdsstoffer i den bløde kapsel: Caprylocaproyl macrogol-8-glycerider, 
+butylhydroxyanisol (E 320) og butylhydroxytoluen (E 321). </li>
+<li>Indholdsstoffer i den bløde kapselskal: Gelatine, sorbitol-sorbitan-opløsning (se punkt 2), 
+glycerol, titandioxid (E 171) og renset vand. </li>
+<li>Indholdsstoffer i blækket er jernoxidsort (E 172) og polyvinylacetatphthalat. </li>
+</ul>
+<h2>Udseende og pakningsstørrelser</h2>
+<p>Xtandi bløde kapsler er hvide til offwhite, aflange, bløde kapsler (ca. 20 mm x 9 mm) præget 
+med "ENZ" på den ene side.<br />
+-<br />
+Hver karton indeholder 112 bløde kapsler i 4 blistertegnebøger a 28 bløde kapsler hver. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Astellas Pharma Europe B.V. 
+Sylviusweg 62<br />
+2333 BE Leiden 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Astellas Pharma B.V. Branch 
+Tél/Tel: + 32 (0)2 5580 
+Lietuva 
+Astellas Pharma d.o.o. 
+Tel: +370 37 408<br />
+България 
+Астелас Фарма ЕООД<br />
+Teл.: + 359 2 862 53<br />
+Luxembourg/Luxemburg 
+Astellas Pharma B.V.Branch 
+Belgique/Belgien 
+Tél/Tel: + 32 (0)2 5580 
+Česká republika 
+Astellas Pharma s.r.o. 
+Tel: + 420 221 401<br />
+Magyarország 
+Astellas Pharma Kft. 
+Tel.: +36 1 577 8 
+Danmark 
+Astellas Pharma a/s 
+Tlf.: + 45 4343 0 
+Malta 
+Astellas Pharmaceuticals AEBE 
+Tel: + 30 210 8189 
+Deutschland 
+Astellas Pharma GmbH 
+Tel: + 49 (0)89 454 
+Nederland 
+Astellas Pharma B.V. 
+Tel: + 31 (0)71 5455 
+Eesti 
+Astellas Pharma d.o.o. 
+Tel: + 372 6 056<br />
+Norge 
+Astellas Pharma<br />
+Tlf: + 47 66 76 46<br />
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: + 30 210 8189 
+Österreich 
+Astellas Pharma Ges.m.b.H. 
+Tel: + 43 (0)1 8772 </p>
+<p>España 
+Astellas Pharma S.A. 
+Tel: + 34 91 4952 
+Polska 
+Astellas Pharma Sp.z.o.o. 
+Tel.: + 48 225451<br />
+France 
+Astellas Pharma S.A.S. 
+Tél: + 33 (0)1 55917Portugal 
+Astellas Farma, Lda. 
+Tel: + 351 21 4401 
+Hrvatska 
+Astellas d.o.o. 
+Tel: + 385 1 670 01<br />
+România 
+S.C.Astellas Pharma SRL 
+Tel: + 40 (0)21 361 04 95 /96 /Ireland 
+Astellas Pharma Co. Ltd. 
+Tel: + 353 (0)1 4671 
+Slovenija 
+Astellas Pharma d.o.o. 
+Tel: + 386 14011<br />
+Ísland 
+Vistor hf 
+Sími: + 354 535 7 
+Slovenská republika 
+Astellas Pharma s.r.o., 
+Tel: + 421 2 4444 2 
+Italia 
+Astellas Pharma S.p.A. 
+Tel: + 39 02 921 
+Suomi/Finland 
+Astellas Pharma 
+Puh/Tel: + 358 (0)9 85606Κύπρος 
+Astellas Pharmaceuticals AEBE 
+Eλλάδα 
+Τηλ: + 30 210 8189 
+Sverige 
+Astellas Pharma AB 
+Tel: + 46 (0)40-650 15<br />
+Latvija 
+Astellas Pharma d.o.o. 
+Tel: + 371 67 619 
+United Kingdom (Northern Ireland) 
+Astellas Pharma Co., Limited 
+Tel: + 353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
+<p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Xtandi 40 mg filmovertrukne tabletter 
+Xtandi 80 mg filmovertrukne tabletter 
+enzalutamid </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
+- Spørg lægen, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
+- Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne 
+indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0f22d445f37b02d3c837ebc1451981fc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xtandi Package Leaflet for language en"
+Description: "ePI document Bundle for xtandi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0f22d445f37b02d3c837ebc1451981fc"
+* entry[0].resource = composition-en-0f22d445f37b02d3c837ebc1451981fc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0f22d445f37b02d3c837ebc1451981fc"
+* entry[=].resource = mp0f22d445f37b02d3c837ebc1451981fc
+                            
+                    
+Instance: bundlepackageleaflet-da-0f22d445f37b02d3c837ebc1451981fc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xtandi Package Leaflet for language da"
+Description: "ePI document Bundle for xtandi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0f22d445f37b02d3c837ebc1451981fc"
+* entry[0].resource = composition-da-0f22d445f37b02d3c837ebc1451981fc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0f22d445f37b02d3c837ebc1451981fc"
+* entry[=].resource = mp0f22d445f37b02d3c837ebc1451981fc
+                            
+                    
+
+
+
+Instance: mp0f22d445f37b02d3c837ebc1451981fc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Xtandi - 40 mg soft capsules"
-Description: "Xtandi - 40 mg soft capsules"
+Title: "Medicinal Product xtandi"
+Description: "xtandi"
 Usage: #inline
 
  
@@ -381,7 +857,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Xtandi - 40 mg soft capsules"
+  * productName = "xtandi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -408,29 +884,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0f22d445f37b02d3c837ebc1451981fc
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xtandi Package Leaflet for language en"
-Description: "ePI document Bundle for xtandi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0f22d445f37b02d3c837ebc1451981fcListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/846/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xtandi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0f22d445f37b02d3c837ebc1451981fc"
-* entry[0].resource = composition-en-0f22d445f37b02d3c837ebc1451981fc
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc4d1942f5e7b5770c7fa2e8980e4216b"
-* entry[=].resource = mpc4d1942f5e7b5770c7fa2e8980e4216b
-                            
-                      
+* title = "List of all ePIs associated with xtandi"
+
+* subject = Reference(mpc4d1942f5e7b5770c7fa2e8980e4216b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xtandi "xtandi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0f22d445f37b02d3c837ebc1451981fc) // xtandi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0f22d445f37b02d3c837ebc1451981fc) // xtandi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0f22d445f37b02d3c837ebc1451981fc
+InstanceOf: List
+
+* insert 0f22d445f37b02d3c837ebc1451981fcListRuleset
+    

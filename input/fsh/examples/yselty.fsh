@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-29aa13d063497263a16ff19921f8de13
 InstanceOf: CompositionUvEpi
 Title: "Composition for yselty Package Leaflet"
@@ -300,12 +303,456 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-29aa13d063497263a16ff19921f8de13
+InstanceOf: CompositionUvEpi
+Title: "Composition for yselty Package Leaflet"
+Description:  "Composition for yselty Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe6e3ada06554e7aa869b7cd7cb6684b1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe6e3ada06554e7aa869b7cd7cb6684b1
+* title = "TEST PURPOSES ONLY - yselty"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Yselty </li>
+<li>Sådan skal du tage Yselty </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What yselty is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What yselty is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yselty indeholder det aktive stof linzagolix. Det anvendes til behandling af moderate til svære 
+symptomer på godartede muskelknuder i livmoderen (som også kaldes uterusfibromer eller -myomer). 
+Yselty anvendes hos voksne kvinder (over 18 år) i den fødedygtige alder. Hos nogle kvinder kan 
+muskelknuder i livmoderen forårsage kraftige menstruationsblødninger og underlivssmerter. </p>
+<p>Linzagolix blokerer virkningen af det gonadotropinfrigørende hormon, som medvirker til at regulere 
+frigivelsen af de kvindelige kønshormoner østradiol og progesteron. Disse hormoner udløser 
+menstruation. Når de blokeres, reduceres niveauet af hormonerne østrogen og progesteron, der 
+cirkulerer i kroppen. Ved at sænke deres niveau standser eller reducerer linzagolix menstruationer og 
+mindsker smerter, underlivsubehag og andre symptomer forbundet med muskelknuder i livmoderen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take yselty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take yselty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Yselty 
+hvis du har nogen af nedenstående tilstande: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for linzagolix eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du er gravid, eller hvis du tror, du er gravid, eller hvis du ammer </p>
+</li>
+<li>
+<p>hvis du har knogleskørhed (osteoporose) </p>
+</li>
+<li>
+<p>hvis du har blødning fra underlivet af ukendt årsag. </p>
+</li>
+</ul>
+<p>Hvis du tager Yselty sammen med yderligere hormonbehandling med østradiol og norethisteronacetat 
+(også kendt som tillægsbehandling), skal du følge anvisningerne i afsnittet "Tag ikke…" i 
+indlægssedlen for østradiol og norethisteronacetat. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Yselty. </p>
+<p>Før du påbegynder behandling med Yselty, vil din læge drøfte din syge- og familiehistorie og 
+relevante risikofaktorer med dig. Lægen vil desuden kontrollere dit blodtryk og sikre sig, at du ikke er 
+gravid. Du kan også behøve en fysisk undersøgelse og yderligere kontroller, inden du påbegynder 
+behandlingen, f.eks. en scanning til at måle, hvor stærke dine knogler er. Undersøgelsens art vil 
+afhænge af dine behov for behandling og/eller dine bekymringer. </p>
+<p>Stop med at tage Yselty, og søg omgående lægehjælp, hvis du bemærker: </p>
+<ul>
+<li>
+<p>tegn på leversygdom: 
+− gulfarvning af huden eller af det hvide i øjnene (gulsot). 
+− kvalme eller opkastning, feber, stærk træthed. 
+− mørk urin, kløe, eller smerter i den øvre del af maven. </p>
+</li>
+<li>
+<p>hvis du bliver gravid. </p>
+</li>
+</ul>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Yselty: </p>
+<ul>
+<li>
+<p>hvis du har nedsat lever- eller nyrefunktion. 
+Yselty frarådes hos kvinder med svært nedsat leverfunktion eller moderat eller svært nedsat 
+nyrefunktion, da indholdet af linzagolix i blodet ellers kan blive for højt. </p>
+</li>
+<li>
+<p>hvis du har forhøjede niveauer af leverenzymer i blodet. 
+Under behandling med Yselty kan der midlertidigt forekomme forhøjede niveauer af 
+leverenzymer i blodet, uden at det giver symptomer </p>
+</li>
+<li>
+<p>hvis du har hjerte- eller kredsløbsproblemer eller en familiehistorie med en ændring i hjertets 
+elektriske aktivitet, der kaldes "QT-forlængelse", eller hvis du tager et lægemiddel, der ændrer 
+hjertets elektriske aktivitet. </p>
+</li>
+<li>
+<p>hvis du har øget indhold af fedtstof (kolesterol) i blodet. Disse niveauer bør overvåges under 
+behandlingen, da Yselty kan medføre yderligere stigninger. </p>
+</li>
+<li>
+<p>hvis du har haft et knoglebrud, der ikke skyldtes en større skade, eller andre risici for 
+knoglemineraltab eller nedsat knogletæthed. Yselty kan sænke knoglemineraltætheden, så din 
+læge kan overveje at tjekke det på forhånd i dette tilfælde. </p>
+</li>
+<li>
+<p>hvis du tidligere har lidt af depression, humørsvingninger eller selvmordstanker eller har haft 
+andre depressive symptomer, som er beskrevet for lægemidler, der virker på samme måde som 
+Yselty. </p>
+</li>
+<li>
+<p>hvis du tror, du måske er gravid. Yselty medfører sædvanligvis en væsentlig reduktion af din 
+menstruationsblødning og kan endda standse den under behandlingen og i nogle få uger 
+derefter, hvilket gør det vanskeligt at opdage graviditet. Se under "Graviditet og amning". </p>
+</li>
+</ul>
+<p>Det er ikke påvist, at Yselty giver prævention. Se under "Graviditet og amning". </p>
+<p>Yselty kan anvendes sammen med en anden tablet, der indeholder hormonerne østradiol og 
+norethisteronacetat (kaldes også hormonel tillægsbehandling). Hvis du får ordineret tabletten med 
+disse hormoner, skal du nøje læse den tilhørende indlægsseddel sammen med denne indlægsseddel. </p>
+<p>Børn og unge 
+Yselty frarådes til børn og unge under 18 år, da det ikke er undersøgt hos denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Yselty 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin, herunder hormonel prævention. </p>
+<p>Kontakt især lægen eller apotekspersonalet, hvis du tager: </p>
+<ul>
+<li>
+<p>repaglinid (et lægemiddel mod sukkersyge) </p>
+</li>
+<li>
+<p>paclitaxel, sorafenib (lægemidler til behandling af kræft) 
+Yselty frarådes, hvis du bruger et af disse lægemidler. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Brug ikke Yselty, hvis du er gravid eller ammer, da det kan skade dit barn. Hvis du tror, du er gravid, 
+eller planlægger at blive gravid, skal du spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>Hvis du bliver gravid, skal du holde op med at tage Yselty og kontakte din læge. Da Yselty nedsætter 
+eller standser dine menstruationer, kan det være vanskeligt at opdage graviditet. Tag en graviditetstest, 
+hvis der er en mulighed for at du er gravid. </p>
+<p>Kvinder, der kan blive gravide, bør anvende effektiv ikke-hormonel prævention, når de tager Yselty. </p>
+<p>Trafik- og arbejdssikkerhed 
+Yselty påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>
+<p>Yselty indeholder lactose og natrium 
+Hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter, skal du tale med lægen, før du tager dette 
+lægemiddel. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet og er således stort set 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take yselty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take yselty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med Yselty vil blive ordineret af en læge, der har erfaring med at behandle patienter med 
+muskelknuder i livmoderen. Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets 
+anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet. </p>
+<p>Lægen vil fastsætte den rigtige dosis Yselty til dig. Der er følgende dosismuligheder: </p>
+<ul>
+<li>
+<p>Enten 100 mg Yselty (én tablet) eller 200 mg Yselty (to tabletter a 100 mg) én gang dagligt 
+sammen med en anden tablet én gang dagligt, der indeholder hormonerne østradiol og 
+norethisteronacetat (også kaldet tillægsbehandling). Hvis lægen ordinerer denne 
+tillægsbehandling, er det vigtigt altid at tage den sammen med dine Yselty-tabletter, da dette 
+vil være med til at reducere bivirkningerne, herunder risikoen for og graden af 
+knoglemineraltab. </p>
+</li>
+<li>
+<p>Hos kvinder, som ikke er egnet til at få østradiol og norethisteronacetat, kan Yselty tages i en 
+dosis på én tablet a 100 mg dagligt alene, dvs. uden østradiol og norethisteronacetat. </p>
+</li>
+<li>
+<p>Til kortvarig brug (kun op til 6 måneder) kan 200 mg Yselty dagligt (to tabletter a 100 mg) 
+gives uden østradiol og norethisteronacetat til at behandle symptomer forbundet med store 
+muskelknuder eller en stor livmoder. </p>
+</li>
+</ul>
+<p>Tag den anbefalede dosis én gang dagligt. 
+Start helst med at tage Yselty i den første uge af din menstruationscyklus, dvs. den uge, hvor du har 
+blødninger. 
+Synk tabletten/tabletterne med et glas vand enten med eller uden mad. </p>
+<p>Anvendelsens varighed 
+Din læge vil ud fra risikoen for knoglemineraltab beregne, hvor længe behandlingen skal fortsættes. 
+Dosen på 200 mg (to tabletter a 100 mg) uden tillægsbehandling bør ikke ordineres længere end 
+6 måneder. 
+Lægen vil tjekke din knoglemineraltæthed ved at arrangere en scanning efter de første 12 måneders 
+behandling med Yselty for at se, om behandlingen kan fortsætte. Hvis du fortsætter behandlingen med 
+Yselty i mere end et år, vil din læge regelmæssigt kontrollere din knoglemineraltæthed. </p>
+<p>Hvis du har taget for meget Yselty 
+Tal med din læge, hvis du mener, at du har taget for meget Yselty. </p>
+<p>Der er ikke indberettet om alvorlige skadelige virkninger ved at tage flere doser af dette lægemiddel på 
+én gang. Hvis Yselty anvendes sammen med den supplerende hormonbehandling med østradiol og 
+norethisteronacetat, kan for høj dosis af disse hormoner medføre kvalme og opkastning, ømme bryster, 
+mavesmerter, døsighed, træthed og blødning ved ophør af behandlingen. </p>
+<p>Hvis du har glemt at tage Yselty 
+Hvis du glemmer en dosis, skal du tage den, så snart du kommer i tanker om det, og derefter 
+genoptage behandlingen næste dag som sædvanlig. Du må ikke tage en dobbeltdosis som erstatning 
+for en glemt tablet. </p>
+<p>Hvis du holder op med at tage Yselty 
+Hvis du gerne vil holde op med at tage Yselty, skal du først tale med din læge. Lægen vil forklare 
+virkningen af at stoppe behandlingen og drøfte andre muligheder med dig. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Bivirkningerne kan optræde med følgende hyppigheder: 
+Meget almindelige (kan forekomme hos mere end 1 ud af 10 personer) </p>
+<ul>
+<li>hedeture </li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>humørforstyrrelser som f.eks. humørsvingninger, hurtige ændringer i følelser (affektlabilitet), 
+angst, depression, irritabilitet, følelsesmæssige forstyrrelser </p>
+</li>
+<li>
+<p>kraftig, uregelmæssig eller langvarig blødning fra livmoderen (uterin blødning) </p>
+</li>
+<li>
+<p>tørhed af skeden </p>
+</li>
+<li>
+<p>underlivssmerter </p>
+</li>
+<li>
+<p>ledsmerter </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>nedsat knoglemineraltæthed eller knoglestyrke </p>
+</li>
+<li>
+<p>forhøjede niveauer af leverenzymer i blodet </p>
+</li>
+<li>
+<p>kvalme, opkastning, mavesmerter </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>nedsat sexlyst (libido) </p>
+</li>
+<li>
+<p>svaghed </p>
+</li>
+<li>
+<p>øget svedtendens </p>
+</li>
+<li>
+<p>nattesved </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også eventuelle 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store yselty"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store yselty"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg på 
+apoteket om, hvordan du skal bortskaffe medicinrester. Disse foranstaltninger vil medvirke til at 
+beskytte miljøet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yselty indeholder </p>
+<ul>
+<li>
+<p>Aktivt stof: linzagolix. 
+En tablet Yselty 100 mg indeholder 100 mg linzagolix. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: 
+Tabletkerne: lactosemonohydrat, mikrokrystallinsk cellulose, lavsubstitueret 
+hydroxypropylcellulose, hydroxypropylcellulose, croscarmellosenatrium og magnesiumstearat. 
+Se pkt. 2 "Yselty indeholder lactose og natrium". 
+Filmovertræk: macrogol copolymer podet på poly(vinylalkohol) (E1209), talkum (E553b), 
+titandioxid (E171) og gul jernoxid (E172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Yselty 100 mg filmovertrukne tabletter er runde filmovertrukne gullige tabletter med en diameter på 
+10 mm, med præg "100" på den ene side og glatte på den anden side. </p>
+<p>Yselty leveres i en karton med 2 eller 6 blisterpakninger, der indeholder 14 filmovertrukne tabletter pr. 
+blister. </p>
+<p>Pakningsstørrelser: 28 eller 84 filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Theramex Ireland Limited<br />
+3rd Floor, Kilmore House,<br />
+Park Lane, Spencer Dock,<br />
+Dublin 1<br />
+D01 YE64<br />
+Irland </p>
+<p>Fremstiller 
+Patheon France 
+40 boulevard de Champaret 
+38300 Bourgoin Jallieu 
+Frankrig </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Yselty 200 mg filmovertrukne tabletter 
+linzagolix </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-29aa13d063497263a16ff19921f8de13
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yselty Package Leaflet for language en"
+Description: "ePI document Bundle for yselty Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-29aa13d063497263a16ff19921f8de13"
+* entry[0].resource = composition-en-29aa13d063497263a16ff19921f8de13
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp29aa13d063497263a16ff19921f8de13"
+* entry[=].resource = mp29aa13d063497263a16ff19921f8de13
+                            
+                    
+Instance: bundlepackageleaflet-da-29aa13d063497263a16ff19921f8de13
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yselty Package Leaflet for language da"
+Description: "ePI document Bundle for yselty Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-29aa13d063497263a16ff19921f8de13"
+* entry[0].resource = composition-da-29aa13d063497263a16ff19921f8de13
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp29aa13d063497263a16ff19921f8de13"
+* entry[=].resource = mp29aa13d063497263a16ff19921f8de13
+                            
+                    
+
+
+
+Instance: mp29aa13d063497263a16ff19921f8de13
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Yselty 100 mg film-coated tablets"
-Description: "Yselty 100 mg film-coated tablets"
+Title: "Medicinal Product yselty"
+Description: "yselty"
 Usage: #inline
 
  
@@ -325,7 +772,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Yselty 100 mg film-coated tablets"
+  * productName = "yselty"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -352,29 +799,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-29aa13d063497263a16ff19921f8de13
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for yselty Package Leaflet for language en"
-Description: "ePI document Bundle for yselty Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 29aa13d063497263a16ff19921f8de13ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1606/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "yselty"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-29aa13d063497263a16ff19921f8de13"
-* entry[0].resource = composition-en-29aa13d063497263a16ff19921f8de13
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe6e3ada06554e7aa869b7cd7cb6684b1"
-* entry[=].resource = mpe6e3ada06554e7aa869b7cd7cb6684b1
-                            
-                      
+* title = "List of all ePIs associated with yselty"
+
+* subject = Reference(mpe6e3ada06554e7aa869b7cd7cb6684b1)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#yselty "yselty"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-29aa13d063497263a16ff19921f8de13) // yselty en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-29aa13d063497263a16ff19921f8de13) // yselty da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-29aa13d063497263a16ff19921f8de13
+InstanceOf: List
+
+* insert 29aa13d063497263a16ff19921f8de13ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1a4d7d0936b560f6ab01480d49118287
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaborem Package Leaflet"
@@ -417,12 +420,579 @@ be mixed with other medicinal products except those mentioned in section 6.6 of 
 
 
 
+Instance: composition-da-1a4d7d0936b560f6ab01480d49118287
+InstanceOf: CompositionUvEpi
+Title: "Composition for vaborem Package Leaflet"
+Description:  "Composition for vaborem Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpecb7db197d0e86eea77ba6a700a83b17)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpecb7db197d0e86eea77ba6a700a83b17
+* title = "TEST PURPOSES ONLY - vaborem"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du får Vaborem  </li>
+<li>Sådan vil du få Vaborem  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vaborem is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vaborem is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Vaborem? 
+Vaborem er et antibiotisk lægemiddel, der indeholder to aktive stoffer: meropenem og vaborbactam. 
+ 
+Meropenem tilhøre en gruppe antibiotika, der kaldes for “carbapenemer". Det kan dræbe mange 
+slags bakterier ved at forhindre dem i at bygge de beskyttende vægge, der omgiver deres celler. 
+ 
+Vaborbactam er en “beta-lactamase-hæmmer". Det blokerer for virkningen af et enzym, der tillader 
+nogle bakterier at modstå meropenems virkning. Dette bidrager til, at meropenem dræber nogle 
+bakterier, det ellers ikke ville kunne dræbe selv.   </p>
+<p>Hvad bruges Vaborem til? 
+Vaborem anvendes til voksne til behandling af visse alvorlige bakterieinfektioner 
+ 
+i blæren eller nyrerne (urinvejsinfektioner) 
+ 
+i maven og tarmene (intraabdominale infektioner) 
+ 
+i lungerne (pneumoni) </p>
+<p>Det bruges desuden til behandling af infektioner 
+ 
+i blodet i forbindelse med en af ovenstående infektioner 
+ 
+der skyldes bakterier, som andre antibiotika muligvis ikke kan dræbe </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vaborem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vaborem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Vaborem, hvis 
+ 
+du er allergisk over for meropenem, vaborbactam eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6) 
+ 
+du er allergisk over for andre carbapenem-antibiotika (den gruppe, som meropenem tilhører) 
+ 
+du nogensinde har haft en kraftig allergisk reaktion over for beslægtede antibiotika, der tilhører 
+beta-lactam-gruppen (herunder penicilliner, cefalosporiner eller monobactamer)  </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen eller sundhedspersonalet, før du får Vaborem, hvis: 
+ 
+du nogensinde har haft en hvilken som helst allergisk reaktion over for andre antibiotika, der tilhører 
+beta-lactam-gruppen (herunder carbapenemer, penicilliner, cefalosporiner eller monobactamer). 
+ 
+du nogensinde har fået svær diarré under eller efter behandling med et antibiotikum 
+ 
+du nogensinde har haft krampeanfald </p>
+<p>Tal med lægen eller sundhedspersonalet, inden du får Vaborem, hvis ovenstående gør sig gældende for 
+dig, eller hvis du er i tvivl. </p>
+<p>Du kan få tegn og symptomer på alvorlige hudreaktioner (se afsnit 4). Hvis det sker, skal du straks tale 
+med en læge eller sygeplejerske, så de kan behandle symptomerne. </p>
+<p>Kontakt lægen eller sundhedspersonalet, hvis du får diarré under din behandling. </p>
+<p>Dette lægemiddel kan påvirke din lever. Lægen vil eventuelt tage blodprøver for at kontrollere, hvor godt 
+din lever fungerer, mens du får lægemidlet. </p>
+<p>Ny infektion 
+Selvom Vaborem kan bekæmpe visse bakterier, er der mulighed for, at du under eller efter din behandling 
+kan få en anden infektion, der skyldes en anden organisme. Lægen vil kontrollere dig nøje for eventuelle 
+nye infektioner og om nødvendigt give dig en anden behandling. </p>
+<p>Blodprøver 
+Fortæl det til lægen, at du får Vaborem, hvis du skal have taget blodprøver. Det skyldes, at du kan få et 
+unormalt resultat af en prøve, der kaldes for “Coombs’ test". Denne prøve bruges til at undersøge, om der 
+findes antistoffer, der kan ødelægge røde blodlegemer, og testen kan blive påvirket af dit immunsystems 
+reaktion på Vaborem. </p>
+<p>Børn og unge 
+Vaborem må ikke anvendes til børn og unge under 18 år. Det skyldes, at man ikke ved, om lægemidlet er 
+sikkert at bruge til denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Vaborem 
+Fortæl det til lægen, hvis du bruger anden medicin eller har gjort det for nylig. </p>
+<p>Det er særlig vigtigt at fortælle det til lægen, hvis du bruger følgende medicin: 
+ 
+medicin til behandling af epilepsi, der hedder valproinsyre, natriumvalproat eller valpromid, da 
+Vaborem kan nedsætte medicinens virkning<br />
+ 
+medicin til gigt, der hedder probenecid 
+ 
+orale antikoagulante lægemidler, for eksempel warfarin (bruges til behandling eller forebyggelse af 
+blodpropper) 
+ 
+hormonelle orale præventionsmidler, der indeholder østrogen og/eller progesteron, da Vaborem 
+kan nedsætte virkningen af disse lægemidler. Kvinder i den fødedygtige alder rådes til at anvende 
+anden sikker prævention under behandlingen med Vaborem og i en periode på 28 dage efter 
+afslutning af behandling. 
+ 
+lægemidler, som fortrinsvis metaboliseres af CYP1A2 (fx theofyllin), CYP3A4 (fx alprazolam, 
+midazolam, tacrolimus, sirolimus, ciclosporin, simvastatin, omeprazol, nifedipin, quinidin og 
+ethinylestradiol) og/eller CYP2C (fx warfarin, phenytoin) og/eller transportører af P-gb (fx 
+dabigatran, digoxin), da Vaborem kan nedsætte virkningen af disse lægemidler. </p>
+<p>Fortæl det til lægen, inden du får Vaborem, hvis ovenstående gør sig gældende for dig. </p>
+<p>Graviditet og amning 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din 
+læge til råds, før du får dette lægemiddel. </p>
+<p>For en sikkerheds skyld bør du ikke få dette lægemiddel under graviditeten. </p>
+<p>Det er vigtigt, at du fortæller det til din læge, inden du får Vaborem, hvis du ammer, eller du planlægger at 
+amme. Små mængder af dette lægemiddel kan passere over i modermælken, og det kan påvirke barnet. Du 
+skal derfor holde op med at amme, inden du får Vaborem. </p>
+<p>Trafik- og arbejdssikkerhed 
+Vaborem kan gøre dig svimmel, søvnig og dvask, give dig hovedpine eller en stikkende og prikkende<br />
+fornemmelse eller i sjældne tilfælde medføre kramper eller krampeanfald. Dette kan påvirke evnen til at 
+føre motorkøretøj, bruge værktøj eller betjene maskiner.  </p>
+<p>Vaborem indeholder natrium 
+Dette lægemiddel indeholder 250 mg natrium (hoved komponent af madlavnings-/bordsalt) pr. hætteglas. 
+Dette svarer til 12,5% af den anbefalede maximale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vaborem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vaborem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Den anbefalede dosis er 2 hætteglas (i alt 2 g meropenem og 2 g vaborbactam), der gives hver 8. time. 
+Lægen vil beslutte hvor mange dages behandling, du har brug for, afhængigt af infektionstypen. </p>
+<p>Du vil få Vaborem af en læge eller sundhedspersonale. Det gives som en infusion (et drop) i en blodåre. 
+Infusionen varer 3 timer.  </p>
+<p>Patienter med nyreproblemer 
+Lægen vil muligvis sænke din dosis, hvis du har nyreproblemer. Desuden vil lægen eventuelt tage nogle 
+blodprøver for at se, hvor godt dine nyrer fungerer. </p>
+<p>Hvis du har fået for meget Vaborem 
+Vaborem vil blive givet af en læge eller sundhedspersonale, og det er derfor usandsynligt, at du vil få den 
+forkerte dosis. Fortæl det straks til lægen eller sundhedspersonalet, hvis du mener, du har fået for meget 
+Vaborem.  </p>
+<p>Hvis en dosis Vaborem er sprunget over 
+Fortæl det straks til lægen eller sundhedspersonalet, hvis du mener, at en dosis er sprunget over. </p>
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Fortæl det straks til din læge, hvis du bemærker en eller flere af følgende alvorlige bivirkninger, da du 
+muligvis vil have behov for akut behandling: 
+ 
+Kraftige allergiske reaktioner, som kan omfatte pludselig hævelse på læberne, i ansigtet eller halsen 
+eller på tungen, synkebesvær eller vejrtrækningsbesvær, kraftigt udslæt eller andre kraftige 
+hudreaktioner eller fald i blodtrykket (som kan gøre dig dårlig eller svimmel). Sådanne reaktioner 
+kan være livstruende. 
+ 
+Diarré, der bliver værre eller ikke forsvinder, eller afføring, som indeholder blod eller slim. Dette 
+kan forekomme under eller efter behandling med Vaborem. Det kan skyldes en bakterie, der kaldes 
+for Clostridium difficile. Lad være med at tage medicin, som standser eller forsinker afføringen, 
+hvis det sker. </p>
+<p>Andre bivirkninger 
+Fortæl det straks til lægen eller sundhedspersonalet, hvis du bemærker en eller flere af følgende 
+bivirkninger:  </p>
+<p>Almindelige (kan ramme op til 1 ud af 10 personer): 
+ 
+Stigning i antallet af blodplader (en type blodceller) (påvises i blodprøver) 
+ 
+Fald i mængden af kalium eller sukker (påvises i blodprøver) 
+ 
+Hovedpine 
+ 
+Lavt blodtryk 
+ 
+Diarré 
+ 
+Kvalme eller opkastning 
+ 
+Hævelse, rødme og/eller smerter omkring kanylen på det sted, hvor medicinen gives i en blodåre 
+ 
+Feber 
+ 
+Stigning i mængden af enzymer, der produceres af leveren, og som kaldes for 
+alaninaminotransferase eller aspartataminotransferase (påvises i blodprøver) 
+ 
+Stigning i niveauet af et enzym, der kaldes for alkalisk fosfatase, hvilket kan være tegn på, at lever, 
+galdeblære eller knogler ikke fungerer så godt (påvises i blodprøver) 
+ 
+Stigning i niveauet af et enzym, der kaldes for laktatdehydrogenase, hvilket kan være tegn på<br />
+beskadigelse af nogle af kroppens organer (påvises i blodprøver) </p>
+<p>Ikke almindelige (kan ramme op til 1 ud af 100 personer): 
+ 
+Hævelse og irritation i tyktarmen, der kan medføre diarré, feber og mavepine, og som skyldes en 
+anden tyktarmsinfektion 
+ 
+Svampeinfektioner, for eksempel i skede eller mund<br />
+ 
+Fald i antallet af hvide blodlegemer eller nogle typer hvide blodlegemer, der kaldes for neutrofiler, 
+og fald i antal blodplader (påvises i blodprøver) 
+ 
+Stigning i en type hvide blodlegemer, der kaldes for eosinofiler (påvises i blodprøver) 
+ 
+Pludselig og alvorlig allergisk reaktion, der nødvendiggør akut behandling og kan omfatte kløe, 
+ændret hudfarve, mavepine, hævelse, vejrtrækningsbesvær, besvimelse og fald i blodtrykket 
+ 
+Mindre kraftig allergisk reaktion, der kan omfatte rødme, røde pletter, skæl i huden, kløe og 
+generel utilpashed 
+ 
+En følelse af manglende appetit<br />
+ 
+Stigning i mængden af kalium eller sukker (påvises i blodprøver) 
+ 
+Søvnbesvær 
+ 
+Hallucinationer (når man ser, hører eller mærker ting, der ikke findes i virkeligheden) 
+ 
+Svimmelhed 
+ 
+Skælven eller rysten 
+ 
+En stikkende og prikkende fornemmelse 
+ 
+Søvnighed og dvaskhed 
+ 
+Hævede, røde og irriterede blodårer 
+ 
+Ømme blodårer 
+ 
+Vejrtrækningsbesvær 
+ 
+Oppustethed eller en følelse af mæthed i maven 
+ 
+Mavesmerter 
+ 
+Kløende hud 
+ 
+Udslæt 
+ 
+Hævet, kløende hududslæt (nældefeber) 
+ 
+Problemer med at styre blæren 
+ 
+Fald i nyrefunktion 
+ 
+Unormal følelse i brystet<br />
+ 
+Følgende reaktioner kan opstå alene eller samlet på det sted, hvor Vaborem gives i en blodåre: 
+rødme på huden (erythem); varm, øm og hævet blodåre omkring kanylen (flebitis); en blodprop i 
+blodåren, hvor kanylen er trængt igennem huden (trombose på infusionsstedet) 
+ 
+Smerter 
+ 
+Stigning i niveauet i blodet af et stof, der kaldes for kreatinfosfokinase, som er tegn på mulig 
+beskadigelse af visse væv, for eksempel muskler og/eller andre organer (påvises i blodprøver) 
+ 
+Stigning i niveauet i blodet af et stof, der kaldes for bilirubin, som er tegn på mulig beskadigelse af 
+de røde blodlegemer eller tegn på, at leveren ikke fungerer så godt (påvises i blodprøver) 
+ 
+Stigning i niveauet i blodet af visse typer stoffer, der kaldes for urea og kreatinin, som er tegn på, at 
+nyrerne ikke fungerer så godt (påvises i blodprøver) 
+ 
+En reaktion, som opstår under eller kort tid efter behandling med Vaborem, der viser sig som 
+ildebefindende (generel utilpashed), eventuelt samtidig med et eller flere af følgende: fald i 
+blodtrykket, kvalme, opkastning, mavekramper, feber, rødme, hurtig hjerterytme eller 
+vejrtrækningsbesvær, hovedpine </p>
+<p>Sjældne (kan ramme op til 1 ud af 1.000 personer): 
+Kramper (krampeanfald) </p>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra de forhåndenværende data): 
+ 
+Et kritisk, meget lavt antal hvide blodlegemer (påvises i blodprøver) 
+ 
+En tilstand, hvor de røde blodlegemer beskadiges og reduceres i antal (hæmolytisk anæmi), der 
+medfører træthed og gulfarvning af hud og øjne 
+ 
+Hævelse på tungen, ansigtet, læberne eller i halsen 
+ 
+Pludseligt anfald af et kraftigt udslæt med koncentriske pletter, blæredannelse eller afskalning på 
+huden, eventuelt med høj feber, ledsmerter, unormal leverfunktion, nyrefunktion eller 
+lungefunktion (dette kan være tegn på mere alvorlige sygdomstilstande, der kaldes for toksisk 
+epidermal nekrolyse, Stevens-Johnsons syndrom, erythema multiforme, akut generaliseret 
+eksantematøs pustulose eller en tilstand, som er en lægemiddelreaktion med eosinofili og 
+systemiske symptomer [DRESS]) 
+ 
+Et positivt resultat af en prøve, der kaldes for "Coombs’s test", der bruges til at påvise hæmolytisk 
+anæmi (se ovenfor) eller immunsystemets reaktion på Vaborem 
+ 
+Akut desorientering og konfusion (delirium) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vaborem"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vaborem"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter ’EXP’. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaborem indeholder:<br />
+ 
+Aktivt stof/aktive stoffer: meropenem og vaborbactam. Hvert hætteglas indeholder 1 g 
+meropenem (som meropenemtrihydrat) og 1 vaborbactam. 
+ 
+Øvrige indholdsstoffer: natriumkarbonat. </p>
+<p>Udseende og pakningsstørrelser 
+Vaborem er et hvidt til lysegult pulver til koncentrat til infusionsvæske, opløsning, der leveres i et 
+hætteglas.  </p>
+<p>Vaborem fås i pakninger med 6 hætteglas.  </p>
+<p>Indehaver af markedsføringstilladelsen 
+Menarini International Operations Luxembourg S.A.<br />
+1, Avenue de la Gare<br />
+L-1611, Luxembourg<br />
+Luxembourg </p>
+<p>Fremstiller 
+ACS Dobfar, S.p.A.<br />
+Nucleo Industriale S. Atto<br />
+(loc. S. Nicolo’ a Tordino)<br />
+64100 Teramo (TE) 
+Italia </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4 
+Lietuva 
+UAB “BERLIN CHEMIE MENARINI 
+BALTIC" 
+Tel: +370 52 691<br />
+България 
+Берлин-Хеми/А. Менарини България EООД 
+тел.: +359 24540Luxembourg/Luxemburg 
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4 
+Česká republika 
+Berlin-Chemie/A.Menarini Ceska republika s.r.o. 
+Tel: +420 267 199<br />
+Magyarország 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: +36 1799 7 </p>
+<p>Danmark 
+Menarini International Operations Luxembourg 
+S.A. 
+Tlf: +352 264Malta 
+Menarini International Operations Luxembourg 
+S.A. 
+Tel: +352 264 </p>
+<p>Deutschland 
+Nederland 
+Berlin-Chemie AG 
+Tel: +49 (0) 30 67Menarini Benelux NV/SA 
+Tel: +32 (0)2 721 4 </p>
+<p>Eesti 
+OÜ Berlin-Chemie Menarini Eesti 
+Tel: +372 667 5Norge 
+Menarini International Operations Luxembourg 
+S.A. 
+Tlf: +352 264 
+Ελλάδα 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111-Österreich 
+A. Menarini Pharma GmbH 
+Tel: +43 1 879 95 85-0 </p>
+<p>España 
+Laboratorios Menarini S.A. 
+Tel: +34-93 462 88 Polska 
+Berlin-Chemie/Menarini Polska Sp. z o.o. 
+Tel.: +48 22 566 21<br />
+France 
+MENARINI France 
+Tél: +33 (0)1 45 60 77 Portugal 
+A. Menarini Portugal – Farmacêutica, S.A. 
+Tel: +351 210 935<br />
+Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: + 385 1 4821<br />
+România 
+Berlin-Chemie A.Menarini S.R.L. 
+Tel: +40 21 232 34<br />
+Ireland 
+A. Menarini Pharmaceuticals Ireland Ltd 
+Tel: +353 1 284 6Slovenija 
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o.<br />
+Tel: +386 01 300 2 
+Ísland 
+Menarini International Operations Luxembourg 
+S.A. 
+Sími: +352 264976  </p>
+<p>Slovenská republika 
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o 
+Tel: +421 2 544 30 Italia 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56 
+Suomi/Finland 
+Berlin-Chemie/A.Menarini Suomi OY 
+Puh/Tel: +358 403 000<br />
+Κύπρος 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111-Sverige 
+Pharmaprim AB 
+Tel: + 46 8355 </p>
+<p>Latvija 
+SIA Berlin-Chemie/Menarini Baltic 
+Tel: +371 67103United Kingdom (Northern Ireland) 
+A. Menarini Farmaceutica Internazionale S.R.L. 
+Tel: +44 (0)1628 856 </p>
+<p>Denne indlægsseddel blev senest ændret: </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>
+<hr />
+<p>Nedenstående oplysninger er til sundhedspersoner: </p>
+<p>Vaborem er beregnet til intravenøs (i.v.) administration, men først efter rekonstitution og fortynding. 
+Der skal bruges aseptiske standardteknikker til klargøring og administration af opløsningen. </p>
+<p>Det antal hætteglas, der skal bruges til en enkelt dosis, afhænger af patientens kreatininclearance (CrCl).  </p>
+<p>Rekonstitution:<br />
+20 ml natriumchlorid 9 mg/ml (0,9 %) injektionsvæske (normalt saltvand) skal trækkes op af en 250 ml 
+infusionspose med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske for hvert hætteglas og rekonstitueres 
+med det relevante antal hætteglas med meropenem/vaborbactam til den tilsvarende dosering af Vaborem:  </p>
+<p> Rekonstituer 2 hætteglas til en dosis af Vaborem på 2 g/2 g 
+ Rekonstituer 1 hætteglas til en dosis af Vaborem på 1 g/1 g og en dosis af Vaborem på 0,5 g/0,5 g </p>
+<p>Efter forsigtig blanding indtil opløsning vil den rekonstituerede meropenem/vaborbactam-opløsning have 
+en meropenem-koncentration på cirka 0,05 g/ml og en vaborbactam-koncentration på cirka 0,05 g/ml. Den 
+endelige volumen er cirka 21,3 ml. Den rekonstituerede opløsning er ikke beregnet til direkte injektion. 
+Den rekonstituerede opløsning skal fortyndes inden intravenøs infusion. </p>
+<p>Fortynding:<br />
+Sådan klargøres en dosis Vaborem 2 g/2 g til intravenøs infusion: Straks efter rekonstitution af to 
+hætteglas skal hele indholdet af det rekonstituerede hætteglas trækkes op fra hvert af de to hætteglas og 
+hældes tilbage i den 250 ml infusionspose med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske (normalt 
+saltvand). Den endelige infusionskoncentration af meropenem og vaborbactam vil være cirka 8 mg/ml 
+hver. </p>
+<p>Sådan klargøres en dosis Vaborem 1 g/1 g til intravenøs infusion: Straks efter rekonstitution af ét 
+hætteglas skal hele indholdet af det rekonstituerede hætteglas trækkes op fra hætteglasset og hældes 
+tilbage i den 250 ml infusionspose med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske (normalt 
+saltvand). Den endelige infusionskoncentration af meropenem og vaborbactam vil være cirka 4 mg/ml 
+hver. </p>
+<p>Sådan klargøres en dosis Vaborem 0,5 g/0,5 g til intravenøs infusion: Straks efter rekonstitution af ét 
+hætteglas skal 10,5 ml af indholdet af det rekonstituerede hætteglas trækkes op fra hætteglasset og hældes 
+tilbage i den 250 ml infusionspose med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske (normalt 
+saltvand). Den endelige infusionskoncentration af meropenem og vaborbactam vil være 2 mg/ml hver. </p>
+<p>Den fortyndede opløsning skal kontrolleres visuelt for partikler. Den fortyndede opløsnings farve er klar 
+til lysegul.  </p>
+<p>Efter fortynding skal infusionen gennemføres inden for 4 timer ved opbevaring ved 25 °C eller inden for 
+22 timer ved opbevaring i køleskab ved 2-8 °C. </p>
+<p>Fra et mikrobiologisk synspunkt bør lægemidlet anvendes straks efter rekonstitution og fortynding. </p>
+<p>Vaborem er ikke kemisk kompatibelt med glucoseholdige opløsninger. Dette lægemiddel må ikke blandes 
+med andre lægemidler end dem, der er anført under pkt. 6.6 i produktresuméet. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1a4d7d0936b560f6ab01480d49118287
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaborem Package Leaflet for language en"
+Description: "ePI document Bundle for vaborem Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1a4d7d0936b560f6ab01480d49118287"
+* entry[0].resource = composition-en-1a4d7d0936b560f6ab01480d49118287
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1a4d7d0936b560f6ab01480d49118287"
+* entry[=].resource = mp1a4d7d0936b560f6ab01480d49118287
+                            
+                    
+Instance: bundlepackageleaflet-da-1a4d7d0936b560f6ab01480d49118287
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaborem Package Leaflet for language da"
+Description: "ePI document Bundle for vaborem Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1a4d7d0936b560f6ab01480d49118287"
+* entry[0].resource = composition-da-1a4d7d0936b560f6ab01480d49118287
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1a4d7d0936b560f6ab01480d49118287"
+* entry[=].resource = mp1a4d7d0936b560f6ab01480d49118287
+                            
+                    
+
+
+
+Instance: mp1a4d7d0936b560f6ab01480d49118287
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vaborem 1 g/1 g powder for concentrate for solution for infusion"
-Description: "Vaborem 1 g/1 g powder for concentrate for solution for infusion"
+Title: "Medicinal Product vaborem"
+Description: "vaborem"
 Usage: #inline
 
  
@@ -442,7 +1012,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vaborem 1 g/1 g powder for concentrate for solution for infusion"
+  * productName = "vaborem"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -469,29 +1039,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1a4d7d0936b560f6ab01480d49118287
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vaborem Package Leaflet for language en"
-Description: "ePI document Bundle for vaborem Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1a4d7d0936b560f6ab01480d49118287ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1334/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vaborem"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1a4d7d0936b560f6ab01480d49118287"
-* entry[0].resource = composition-en-1a4d7d0936b560f6ab01480d49118287
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpecb7db197d0e86eea77ba6a700a83b17"
-* entry[=].resource = mpecb7db197d0e86eea77ba6a700a83b17
-                            
-                      
+* title = "List of all ePIs associated with vaborem"
+
+* subject = Reference(mpecb7db197d0e86eea77ba6a700a83b17)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vaborem "vaborem"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1a4d7d0936b560f6ab01480d49118287) // vaborem en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1a4d7d0936b560f6ab01480d49118287) // vaborem da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1a4d7d0936b560f6ab01480d49118287
+InstanceOf: List
+
+* insert 1a4d7d0936b560f6ab01480d49118287ListRuleset
+    

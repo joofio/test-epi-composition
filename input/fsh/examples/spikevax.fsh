@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-53506f739e6f34ca79778a9dce57bf48
 InstanceOf: CompositionUvEpi
 Title: "Composition for spikevax Package Leaflet"
@@ -839,12 +842,905 @@ effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-53506f739e6f34ca79778a9dce57bf48
+InstanceOf: CompositionUvEpi
+Title: "Composition for spikevax Package Leaflet"
+Description:  "Composition for spikevax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc714f8ae345e255c5701868f59791298)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc714f8ae345e255c5701868f59791298
+* title = "TEST PURPOSES ONLY - spikevax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du får Spikevax  </li>
+<li>Sådan gives Spikevax </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What spikevax is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What spikevax is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Spikevax er en vaccine, der bruges til at forebygge COVID-19 forårsaget af SARS-CoV-2. Den gives til 
+voksne og børn i alderen 6 måneder og derover. Det aktive stof i Spikevax er mRNA, der koder for SARS-
+CoV-2 spike-proteinet. mRNA er indkapslet i SM-102 lipidnanopartikler. </p>
+<p>Da Spikevax ikke indeholder virussen, kan den ikke give dig COVID-19. Sådan virker vaccinen 
+Spikevax stimulerer kroppens naturlige forsvar (immunsystemet). Vaccinen virker ved at få kroppen til at 
+producere beskyttelse (antistoffer) mod den virus, der forårsager COVID-19. Spikevax bruger et stof 
+kaldet messenger ribonukleinsyre (mRNA) til at bære instruktioner, som celler i kroppen kan bruge til at 
+danne det spike-protein, som også er på virussen. Cellerne danner dernæst antistoffer mod spike-proteinet 
+for at hjælpe med at bekæmpe virussen. Dette vil hjælpe med at beskytte dig mod COVID-19. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take spikevax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take spikevax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaccinen må ikke gives, hvis du er allergisk over for det aktive stof eller et af de øvrige indholdsstoffer i 
+denne vaccine (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får Spikevax, hvis:</p>
+<ul>
+<li>Du tidligere har haft en kraftig, livstruende allergisk reaktion efter en hvilken som helst anden 
+vaccineinjektion, eller efter tidligere vaccination med Spikevax. </li>
+<li>Du har et meget svagt eller svækket immunforsvar. </li>
+<li>Du nogensinde er besvimet efter at have fået en injektion med en kanyle. </li>
+<li>Du har en blødningsforstyrrelse. </li>
+<li>Du har høj feber eller en kraftig infektion. Du kan imidlertid godt få vaccinationen, hvis du har let 
+feber eller en infektion i de øvre luftveje, som f.eks. en forkølelse. </li>
+<li>Du har en alvorlig sygdom. </li>
+<li>Du har angst for injektioner. </li>
+</ul>
+<p>Der er en øget risiko for myokarditis (betændelse i hjertemusklen) og perikarditis (betændelse i hinden 
+omkring hjertet) efter vaccination med Spikevax (se punkt 4).  </p>
+<p>Disse sygdomme kan udvikle sig inden for få dage efter vaccinationen og er primært forekommet inden 
+for 14 dage. De er observeret oftere hos drenge og yngre mænd og oftere efter den anden dosis 
+sammenlignet med første dosis.  </p>
+<p>De fleste tilfælde af myokarditis og perikarditis kommer sig. Nogle tilfælde krævede intensiv behandling, 
+og der er observeret dødelige tilfælde. </p>
+<p>Efter vaccinationen skal du være opmærksom på tegn på myokarditis og perikarditis, såsom åndenød, 
+hjertebanken og brystsmerter, og øjeblikkeligt søge lægehjælp, hvis disse forekommer. </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får Spikevax, hvis noget af ovenstående 
+gælder for dig (eller hvis du er i tvivl). </p>
+<p>Opblussen af kapillærlækagesyndrom<br />
+Der er indberettet enkelte tilfælde af opblussen af kapillærlækagesyndrom (som forårsager 
+væskeudsivning fra små blodkar (kapillærer), der medfører hurtig hævelse af arme og ben, pludselig 
+vægtforøgelse, svimmelhed og lavt blodtryk) efter vaccination med Spikevax. Hvis du tidligere har haft 
+episoder med kapillærlækagesyndrom, bør du tale med en læge, før du får Spikevax. </p>
+<p>Beskyttelsesvarighed 
+Som med enhver vaccine vil vaccinationsforløbet med de 2 primære doser Spikevax muligvis ikke 
+beskytte alle dem, der modtager den, fuldt ud, og det er ikke kendt, hvor længe du vil være beskyttet. </p>
+<p>Børn 
+Spikevax bør ikke anvendes til børn under 6 måneder. </p>
+<p>Brug af andre lægemidler sammen med Spikevax<br />
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Spikevax kan påvirke den måde, andre lægemidler 
+virker på, og andre lægemidler kan påvirke den måde, Spikevax virker på. </p>
+<p>Personer med svækket immunforsvar 
+Hvis du har svækket immunforsvar, kan du få en tredje dosis Spikevax. Virkningen af Spikevax kan, selv 
+efter en tredje dosis, være mindre hos personer med et svækket immunforsvar. I tilfælde heraf bør du 
+fortsætte med at overholde fysiske forholdsregler for at hjælpe med at forebygge COVID-19. Derudover 
+bør dine nære kontakter blive vaccineret som relevant. Drøft passende individuelle anbefalinger med din 
+læge. </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller har mistanke om, at du er gravid, skal du fortælle det til din læge, sygeplejersken 
+eller apotekspersonalet, før du får denne vaccine. Spikevax kan anvendes under graviditeten. En stor 
+mængde information fra gravide kvinder vaccineret med Spikevax i løbet af det andet og tredje trimester 
+har ikke vist negative virkninger på graviditeten eller på det nyfødte spædbarn. Selvom information om 
+virkning på graviditeten eller på det nyfødte spædbarn efter vaccination i løbet af det første trimester er 
+begrænset, er der ikke blevet observeret nogen ændring i risikoen for spontan abort. </p>
+<p>Spikevax kan gives under amning. </p>
+<p>Trafik- og arbejdssikkerhed 
+Undlad at føre motorkøretøj eller betjene maskiner, hvis du føler dig utilpas efter vaccinationen. Vent med 
+at føre motorkøretøj eller betjene maskiner, indtil eventuelle virkninger af vaccinen har fortaget sig. </p>
+<p>Spikevax indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take spikevax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take spikevax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tabel 1: Spikevax-dosering til primær serie, tredje dosis til svært immunsvækkede og boosterdosis </p>
+<p>Styrke 
+Vaccinationstype 
+Alder </p>
+<p>Dosis 
+Anbefalinger 
+Spikevax 
+0,2 mg/ml 
+injektions-væske, 
+dispersion </p>
+<p>Primær serie </p>
+<p>Personer på 
+12 år og 
+derover </p>
+<p>2 (to) doser (à 0,5 ml, der hver 
+indeholder 100 mikrogram 
+mRNA)  </p>
+<p>Det anbefales at 
+administrere anden 
+dosis 28 dage efter den 
+første dosis. </p>
+<p>Børn i 
+alderen 6 år 
+til og med 
+11 år </p>
+<p>2 (to) doser (à 0,25 ml, der hver 
+indeholder 50 mikrogram 
+mRNA, hvilket er halvdelen af 
+den primære dosis for personer 
+på 12 år og derover) </p>
+<p>Tredje dosis til 
+svært 
+immunsvækkede 
+Personer på 
+12 år og 
+derover </p>
+<p>1 (en) dosis à 0,5 ml, der 
+indeholder 100 mikrogram 
+mRNA </p>
+<p>Der kan gives en tredje 
+dosis efter mindst 
+28 dage efter den 
+anden dosis. 
+Børn i 
+alderen 6 år 
+til og med 
+11 år </p>
+<p>1 (en) dosis à 0,25 ml, der 
+indeholder 50 mikrogram 
+mRNA 
+Boosterdosis  </p>
+<p>Personer på 
+12 år og 
+derover </p>
+<p>1 (en) dosis à 0,25 ml, der 
+indeholder 50 mikrogram 
+mRNA 
+Spikevax kan 
+anvendes til at booste 
+personer på 12 år og 
+derover, som har fået 
+en primær serie med 
+Spikevax eller en 
+primær serie, der 
+bestod af en anden 
+mRNA-vaccine eller 
+adenoviral vektor-
+Styrke 
+Vaccinationstype 
+Alder </p>
+<p>Dosis 
+Anbefalinger 
+vaccine, mindst 
+3 måneder efter 
+fuldførelse af den 
+primære serie.  </p>
+<p>Spikevax 
+0,1 mg/ml 
+injektions-væske, 
+dispersion og 
+Spikevax 
+50 mikrogram 
+injektions-væske, 
+dispersion i fyldt 
+sprøjte* 
+Primær serie† </p>
+<p>Børn i 
+alderen 6 år 
+til og med 
+11 år </p>
+<p>2 (to) doser (à 0,5 ml, der hver 
+indeholder 50 mikrogram 
+mRNA)<br />
+Det anbefales at 
+administrere anden 
+dosis 28 dage efter den 
+første dosis. 
+Børn i 
+alderen 
+6 måneder 
+til og med 
+5 år </p>
+<p>2 (to) doser (à 0,25 ml, der hver 
+indeholder 25 mikrogram 
+mRNA, hvilket er halvdelen af 
+den primære dosis for børn i 
+alderen 6 år til og med 11 år)* 
+Tredje dosis til 
+svært 
+immunsvækkede‡ 
+Børn i 
+alderen 6 år 
+til og med 
+11 år </p>
+<p>1 (en) dosis à 0,5 ml, der 
+indeholder 50 mikrogram 
+mRNA 
+Der kan gives en tredje 
+dosis mindst 28 dage 
+efter den anden dosis. 
+Børn i 
+alderen 
+6 måneder 
+til og med 
+5 år </p>
+<p>1 (en) dosis à 0,25 ml, der 
+indeholder 25 mikrogram 
+mRNA* 
+Boosterdosis 
+Personer på 
+12 år og 
+derover </p>
+<p>1 (en) dosis à 0,5 ml, der 
+indeholder 50 mikrogram 
+mRNA 
+Spikevax kan 
+anvendes til at 
+boostepersoner på 6 år 
+og derover, som har 
+fået en primær serie 
+med Spikevax eller en 
+primær serie, der 
+bestod af en anden 
+mRNA-vaccine eller 
+adenoviral vektor-
+vaccine, mindst 
+3 måneder efter 
+fuldførelse af den 
+primære serie.<br />
+Børn i 
+alderen 6 år 
+til og med 
+11 år 
+1 (en) dosis à 0,25 ml, der 
+indeholder 25 mikrogram 
+mRNA* </p>
+<ul>
+<li>Den fyldte injektionssprøjte må ikke anvendes til administration af en delvolumen på 0,25 ml. 
+† Til primær serie for personer i alderen 12 år og derover bør hætteglas med styrken 0,2 mg/ml anvendes. 
+‡ Til tredje dosis til svært immunsvækkede personer i alderen 12 år og derover bør hætteglas med styrken 
+0,2 mg/ml anvendes. </li>
+</ul>
+<p>Hvis du ikke kommer til dit aftalte besøg for at få din anden primære dosis Spikevax 
+- Hvis du ikke kommer til et aftalt besøg, skal du aftale et nyt besøg så snart som muligt med din 
+læge, apotekspersonalet eller sygeplejersken. 
+- Hvis du ikke får en planlagt injektion, er du muligvis ikke helt beskyttet mod COVID-19. Din læge, apotekspersonalet eller sygeplejersken vil injicere vaccinen i en muskel (intramuskulær 
+injektion) i din overarm. </p>
+<p>Efter hver injektion af vaccinen vil din læge, apotekspersonalet eller sygeplejersken holde øje med dig i 
+mindst 15 minutter for at overvåge for tegn på en allergisk reaktion. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Søg omgående lægehjælp, hvis du får nogen af følgende tegn og symptomer på en allergisk reaktion:</p>
+<ul>
+<li>en følelse af at besvime eller være svimmel </li>
+<li>ændringer i dit hjerteslag </li>
+<li>kortåndethed </li>
+<li>hvæsende vejrtrækning </li>
+<li>hævelse af ansigt, læber eller hals </li>
+<li>nældefeber eller udslæt </li>
+<li>kvalme eller opkastning </li>
+<li>mavesmerter. </li>
+</ul>
+<p>Kontakt lægen eller sygeplejersken, hvis du får andre bivirkninger. Disse kan omfatte: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>hævelse/ømhed i underarmen  </li>
+<li>nedsat appetit (observeret hos børn i alderen 6 måneder til 5 år) </li>
+<li>irritabilitet/gråd (observeret hos børn i alderen 6 måneder til 5 år) </li>
+<li>hovedpine </li>
+<li>søvnighed (observeret hos børn i alderen 6 måneder til 5 år) </li>
+<li>kvalme </li>
+<li>opkastning </li>
+<li>muskelsmerter, ledsmerter og stivhed </li>
+<li>smerte eller hævelse på injektionsstedet </li>
+<li>rødme på injektionsstedet (hvoraf noget kan forekomme ca. 9 til 11 dage efter injektionen) </li>
+<li>følelse af at være meget træt </li>
+<li>kulderystelser </li>
+<li>feber </li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer):</p>
+<ul>
+<li>diarré </li>
+<li>udslæt </li>
+<li>udslæt eller nældefeber på injektionsstedet (hvoraf noget kan forekomme ca. 9 til 11 dage efter 
+injektionen) </li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):</p>
+<ul>
+<li>kløe på injektionsstedet  </li>
+<li>svimmelhed </li>
+<li>mavesmerter </li>
+<li>hævet, kløende udslæt (nældefeber) (som kan forekomme fra tidspunktet for injektionen og op til 
+ca. to uger efter injektionen) </li>
+</ul>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1 000 personer) 
+- forbigående hængende ansigt i den ene side (Bell’s lammelse) 
+- ansigtshævelse (hævelse af ansigtet kan forekomme hos personer, som har fået kosmetiske 
+ansigtsindsprøjtninger) 
+- nedsat følesans eller sansefornemmelse 
+- føleforstyrrelse i huden, såsom prikken eller kriblende fornemmelse (paræstesi) </p>
+<p>Meget sjældne (kan forekomme hos op til 1 ud af 10 000 personer):</p>
+<ul>
+<li>betændelse i hjertemusklen (myokarditis) eller betændelse i hinden omkring hjertet (perikarditis), 
+som kan medføre åndenød, hjertebanken eller brystsmerter </li>
+</ul>
+<p>Hyppighed ikke kendt 
+- kraftige allergiske reaktioner med vejrtrækningsproblemer (anafylaksi) 
+- reaktion med øget følsomhed eller intolerance fra immunsystemet (overfølsomhed) 
+- en hudreaktion med røde pletter eller mærker på huden, som kan ligne en skydeskive, da de er 
+mørkerøde i midten som et "bulls-eye" og omgivet af mere afdæmpede røde ringe (erythema 
+multiforme) 
+- kraftig hævelse af den arm, hvor vaccinationen blev givet 
+- kraftig menstruationsblødning (de fleste tilfælde syntes at være af ikke alvorlig og forbigående 
+karakter) 
+- udslæt fremkaldt af ydre påvirkning, såsom hårde strøg, kradsen eller tryk på huden (mekanisk 
+urticaria) 
+- hævet, kløende udslæt med en varighed på mere end seks uger (kronisk urticaria) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store spikevax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store spikevax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn. </p>
+<p>Brug ikke vaccinen efter den udløbsdato, der står på etiketten efter EXP. Udløbsdatoen er den sidste dag i 
+den nævnte måned. </p>
+<p>Oplysninger om opbevaring, udløbsdato samt anvendelse og håndtering er beskrevet i afsnittet beregnet til 
+sundhedspersonale i slutningen af indlægssedlen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Spikevax indeholder:  </p>
+<p>Tabel 2: Sammensætning i henhold til beholder </p>
+<p>Styrke 
+Beholder 
+Dosis (doser) 
+Sammensætning </p>
+<p>Spikevax 
+0,2 mg/ml 
+injektionsvæske, 
+dispersion 
+Flerdosis hætteglas 
+Maksimalt 10 doser à 
+0,5 ml<br />
+En dosis (0,5 ml) indeholder 
+100 mikrogram elasomeran, en COVID-
+19 mRNA-vaccine 
+(nukleosidmodificeret) (indkapslet i SM-
+102-lipid-nanopartikler). </p>
+<p>Maksimalt 20 doser à 
+0,25 ml </p>
+<p>En dosis (0,25 ml) indeholder 
+50 mikrogram elasomeran, en COVID-
+19 mRNA-vaccine 
+(nukleosidmodificeret) (indkapslet i SM-
+102-lipid-nanopartikler). </p>
+<p>Spikevax 
+0,1 mg/ml 
+injektionsvæske, 
+dispersion 
+Flerdosis hætteglas </p>
+<p>5 doser à 0,5 ml  </p>
+<p>Maksimalt 10 doser à 
+0,25 ml 
+En dosis (0,5 ml) indeholder 
+50 mikrogram elasomeran, en COVID-
+19 mRNA-vaccine 
+(nukleosidmodificeret) (indkapslet i SM-
+102-lipid-nanopartikler). </p>
+<p>En dosis (0,25 ml) indeholder 
+25 mikrogram elasomeran, en COVID-
+19 mRNA-vaccine 
+(nukleosidmodificeret) (indkapslet i SM-
+102-lipid-nanopartikler). </p>
+<p>Spikevax 
+50 mikrogram 
+injektionsvæske, 
+dispersion i fyldt 
+injektionssprøjte 
+Fyldt 
+injektionssprøjte </p>
+<p>1 dosis à 0,5 ml </p>
+<p>Kun til engangsbrug. </p>
+<p>Den fyldte 
+injektionssprøjte må 
+ikke anvendes til 
+administration af en 
+delvolumen på 0,25 ml. </p>
+<p>En dosis (0,5 ml) indeholder 
+50 mikrogram elasomeran, en COVID-
+19 mRNA-vaccine 
+(nukleosidmodificeret) (indkapslet i SM-
+102-lipid-nanopartikler). </p>
+<p>Elasomeran er et enkeltstrenget, 5'-capped messenger RNA (mRNA) produceret ved hjælp af en cellefri in 
+vitro-transkription fra de tilsvarende DNA-templates, der koder for det virale spike (S) protein på SARS-
+CoV-2 (original). </p>
+<p>Øvrige indholdsstoffer: SM-102 (heptadecan-9-yl 8-{(2-hydroxyethyl)[6-oxo-6-
+(undecyloxy)hexyl]amino}octanoat), cholesterol, 1,2-distearoyl-sn-glycero-3-phosphocholin (DSPC), 1,2-
+dimyristoyl-rac-glycero-3-methoxypolyethylenglycol-2000 (PEG2000-DMG), trometamol, 
+trometamolhydrochlorid, eddikesyre, natriumacetattrihydrat, saccharose, vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Spikevax 0,2 mg/ml injektionsvæske, dispersion </p>
+<p>Spikevax er en hvid til off-white dispersion, der leveres i et 5 ml hætteglas af glas med gummiprop og rød 
+flip-off-plastikhætte med aluminiumsforsegling.  </p>
+<p>Pakningsstørrelse: 10 flerdosis hætteglas </p>
+<p>Spikevax 0,1 mg/ml injektionsvæske, dispersion </p>
+<p>Spikevax er en hvid til off-white dispersion, der leveres i et 2,5 ml hætteglas af glas med gummiprop og 
+blå flip-off-plastikhætte med aluminiumsforsegling. </p>
+<p>Pakningsstørrelse: 10 flerdosis hætteglas </p>
+<p>Spikevax 50 mikrogram injektionsvæske, dispersion i fyldt injektionssprøjte </p>
+<p>Spikevax er en hvid til off-white dispersion, der leveres i en fyldt injektionssprøjte (cyklisk olefinpolymer) 
+med stempelprop og spidshætte (uden kanyle). </p>
+<p>De fyldte injektionssprøjter er pakket i 5 klare blisterpakninger med 2 fyldte injektionssprøjter i hver 
+blister. </p>
+<p>Pakningsstørrelse: 10 fyldte injektionssprøjter </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>MODERNA BIOTECH SPAIN, S.L.<br />
+C/ Julián Camarillo nº 28037 Madrid 
+Spanien </p>
+<p>Fremstillere </p>
+<p>Flerdosis hætteglas </p>
+<p>Rovi Pharma Industrial Services, S.A. 
+Paseo de Europa, 28703. San Sebastián de los Reyes 
+Madrid 
+Spanien </p>
+<p>Recipharm Monts 
+18 Rue de Montbazon 
+37260 Monts 
+Frankrig </p>
+<p>Moderna Biotech Spain S.L. 
+C/ Julián Camarillo nº 28037 Madrid 
+Spanien </p>
+<p>Fyldte injektionssprøjter </p>
+<p>Rovi Pharma Industrial Services, S.A. 
+Calle Julián Camarillo n°28037 Madrid 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Tél/Tel: 0800 81<br />
+Lietuva 
+Tel: 88 003 1 
+България 
+Teл: 0800 115 4 
+Luxembourg/Luxemburg 
+Tél/Tel: 800 85 Česká republika 
+Tel: 800 050 
+Magyarország 
+Tel: 06 809 87488c 
+Danmark 
+Tlf: 80 81 06<br />
+Malta 
+Tel: 8006 5Deutschland 
+Tel: 0800 100 9 
+Nederland 
+Tel: 0800 409 0Eesti 
+Tel: 800 0044<br />
+Norge 
+Tlf: 800 31 Ελλάδα 
+Τηλ: 008004 414 
+Österreich 
+Tel: 0800 909España 
+Tel: 900 031<br />
+Polska 
+Tel: 800 702<br />
+France 
+Tél: 0805 54 30 Portugal 
+Tel: 800 210<br />
+Hrvatska 
+Tel: 08009 
+Ireland 
+Tel: 1800 800<br />
+România 
+Tel: 0800 400<br />
+Slovenija 
+Tel: 080 083 
+Ísland 
+Sími: 800 4Slovenská republika 
+Tel: 0800 191<br />
+Italia 
+Tel: 800 928<br />
+Suomi/Finland 
+Puh/Tel: 0800 774Κύπρος 
+Τηλ: 35780077 
+Sverige 
+Tel: 020 10 92<br />
+Latvija 
+Tel: 80 005 United Kingdom (Northern Ireland) 
+Tel: 0800 085 7 
+Denne indlægsseddel blev senest ændret </p>
+<p>Scan koden med en mobilenhed for at få indlægssedlen på forskellige sprog. </p>
+<p>Eller besøg URL'en https://www.ModernaCovid19Global.com </p>
+<p>Du kan finde yderligere oplysninger om denne vaccine på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs hjemmeside. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Sporbarhed </p>
+<p>For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres. </p>
+<p>Opbevaring og forberedelse til administration </p>
+<p>Spikevax skal administreres af en uddannet sundhedsperson.  </p>
+<p>Vaccinen er klar til brug, når den er optøet. </p>
+<p>Må ikke omrystes eller fortyndes. </p>
+<p>Vaccinen skal inspiceres visuelt for partikler og misfarvning før administration. </p>
+<p>Spikevax er en hvid til off-white dispersion. Den kan indeholde hvide eller halvgennemsigtige 
+produktrelaterede partikler. Vaccinen må ikke administreres, hvis den er misfarvet eller indeholder andre 
+partikler. </p>
+<p>Opbevar hætteglas og fyldte sprøjter i dybfryser ved -50 °C til -15 °C. </p>
+<p>Opbevar hætteglasset og den fyldte sprøjte i den ydre karton for at beskytte mod lys. </p>
+<p>Spikevax 0,2 mg/ml injektionsvæske, dispersion (flerdosis hætteglas med rød flip-off-hætte) </p>
+<p>Ti (10) doser (hver på 0,5 ml) eller maksimalt tyve (20) doser (hver på 0,25 ml) kan udtrækkes fra hvert 
+flerdosis hætteglas. </p>
+<p>Stik gennem proppen, helst et nyt sted hver gang. Prik ikke hul i hætteglasset med rød hætte mere end 
+20 gange. </p>
+<p>Det skal sikres, at hætteglasset har en rød flip-off-hætte, og at produktnavnet er Spikevax 0,2 mg/ml. Hvis 
+hætteglasset har en blå flip-off-hætte, og produktnavnet er Spikevax bivalent Original/Omicron BA.1 eller 
+Spikevax bivalent Original/Omicron BA.4-5, skal produktresuméerne for disse produkter konsulteres. </p>
+<p>Hvert flerdosis hætteglas skal optøs før brug ifølge instruktionerne nedenfor (tabel 3). Hvis hætteglasset 
+optøs i køleskab, skal det opbevares ved rumtemperatur i 15 minutter før administration. </p>
+<p>Tabel 3: Optøningsinstruktioner for flerdosis hætteglas før brug </p>
+<p>Konfiguration 
+Optøningsinstruktioner og -varighed 
+Optønings-
+temperatur (i 
+køleskab)<br />
+Optønings-
+varighed 
+Optønings-
+temperatur 
+(ved rum-
+temperatur) 
+Optøningsvarighed 
+Flerdosis hætteglas<br />
+2 – 8 °C * 
+2 timer og 
+30 minutter 
+15 – 25 °C 
+1 time </p>
+<p>Spikevax 0,1 mg/ml injektionsvæske, dispersion (flerdosis hætteglas med blå flip-off-hætte) </p>
+<p>Fem (5) doser (hver på 0,5 ml) eller maksimalt ti (10) doser (hver på 0,25 ml) kan udtrækkes fra hvert 
+flerdosis-hætteglas. </p>
+<p>Stik gennem proppen, helst på et nyt sted hver gang. </p>
+<p>Det skal sikres, at hætteglasset har en blå flip-off-hætte, og at produktnavnet er Spikevax 0,1 mg/ml. Hvis 
+hætteglasset har en blå flip-off-hætte, og produktnavnet er Spikevax bivalent Original/Omicron BA.1 eller 
+Spikevax bivalent Original/Omicron BA.4-5, skal produktresuméerne for disse produkter konsulteres. </p>
+<p>Hvert flerdosis hætteglas skal optøs før brug ifølge instruktionerne nedenfor (tabel 4). Hvis hætteglasset 
+optøs i køleskab, skal det opbevares ved rumtemperatur i 15 minutter før administration. </p>
+<p>Tabel 4: Optøningsinstruktioner for flerdosis hætteglas før brug </p>
+<p>Konfiguration 
+Optøningsinstruktioner og -varighed 
+Optønings-
+temperatur (i 
+køleskab) 
+Optønings-
+varighed<br />
+Optønings-
+temperatur 
+(ved rum-
+temperatur)<br />
+Optøningsvarighed 
+Flerdosis hætteglas<br />
+2 – 8 °C 
+2 timer og 
+30 minutter 
+15 – 25 °C 
+1 time </p>
+<p>Spikevax 50 mikrogram injektionsvæske, dispersion i fyldt injektionssprøjte </p>
+<p>Indholdet i den fyldte injektionssprøjte må ikke omrystes eller fortyndes. </p>
+<p>Hver fyldt injektionssprøjte er kun til engangsbrug. Vaccinen er klar til brug, når den er optøet. </p>
+<p>Der kan administreres en (1) dosis på 0,5 ml fra hver fyldt injektionssprøjte. Den fyldte injektionssprøjte 
+må ikke anvendes til administration af en delvolumen på 0,25 ml. </p>
+<p>Spikevax leveres i en enkeltdosis fyldt injektionssprøjte (uden kanyle), der indeholder 0,5 ml 
+(50 mikrogram) mRNA og skal optøs før administration. </p>
+<p>Under opbevaring skal eksponering for rumlys minimeres, og eksponering for direkte sollys og ultraviolet 
+lys skal undgås. </p>
+<p>Hver fyldt injektionssprøjte optøs før brug ifølge de nedenstående instruktioner. Sprøjter kan optøs i 
+blisterpakningerne (hver blister indeholder 2 fyldte injektionssprøjter) eller i selve æsken, enten i køleskab 
+eller ved rumtemperatur (tabel 5). Hvis sprøjten optøs i køleskab, skal den opbevares ved rumtemperatur i 
+15 minutter før administration. </p>
+<p>Tabel 5: Optøningsinstruktioner for fyldte injektionssprøjter og æsker før brug </p>
+<p>Konfiguration 
+Optøningsinstruktioner og -varighed 
+Optønings-
+temperatur (i 
+køleskab) (°C) 
+Optønings-
+varighed 
+(min) 
+Optønings-
+temperatur 
+(ved rum-
+temperatur) 
+(°C) 
+Optøningsvarighed 
+(min) 
+Fyldte injektionssprøjter i 
+blisterpakning<br />
+2 – 8 
+15 – Æske 
+2 – 8 
+15 –<br />
+Det skal sikres, at produktnavnet på den fyldte injektionssprøjte er Spikevax 50 mikrogram. Hvis 
+produktnavnet er Spikevax bivalent Original/Omicron BA.1 eller Spikevax bivalent Original/Omicron 
+BA.4-5, skal produktresuméerne for disse produkter konsulteres. </p>
+<p>Håndteringsinstruktioner for de fyldte injektionssprøjter </p>
+<ul>
+<li>
+<p>Hver fyldt injektionssprøjte opbevares ved rumtemperatur (15 °C til 25 °C) i 15 minutter før 
+administration. </p>
+</li>
+<li>
+<p>Må ikke omrystes. </p>
+</li>
+<li>
+<p>Fyldte injektionssprøjter skal inspiceres visuelt for partikler og misfarvning før administration.  </p>
+</li>
+<li>
+<p>Spikevax er en hvid til off-white dispersion. Den kan indeholde hvide eller halvgennemsigtige 
+produktrelaterede partikler. Vaccinen må ikke administreres, hvis den er misfarvet eller indeholder 
+andre partikler. </p>
+</li>
+<li>
+<p>Der medfølger ikke kanyler i æskerne med fyldte injektionssprøjter.  </p>
+</li>
+<li>
+<p>Der skal anvendes en steril kanyle af passende størrelse til intramuskulær injection (21-gauge 
+ellertyndere). </p>
+</li>
+<li>
+<p>Spidshætten fjernes ved at holde den opad og dreje den mod uret, indtil den frigøres. Fjern 
+spidshætten i en langsom, jævn bevægelse. Undgå at trække i spidshætten, mens den drejes. </p>
+</li>
+<li>
+<p>Kanylen påsættes ved at dreje den med uret, indtil den sidder godt fast på sprøjten.  </p>
+</li>
+<li>
+<p>Hætten tages af kanylen, når den er klar til administration. </p>
+</li>
+<li>
+<p>Hele dosen administreres intramuskulært.  </p>
+</li>
+<li>
+<p>Efter optøning må vaccinen ikke nedfryses igen. </p>
+</li>
+</ul>
+<p>Bortskaffelse </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.  </p>
+<p>Dosering og tidsplan </p>
+<p>Tabel 6: Spikevax-dosering til primær serie, tredje dosis til svært immunsvækkede og boosterdosis </p>
+<p>Vaccination 
+Spikevax 0,2 mg/ml 
+injektionsvæske, dispersion 
+Spikevax 0,1 mg/ml 
+injektionsvæske, dispersion 
+og 
+Spikevax 50 mikrogram 
+injektionsvæske, dispersion i 
+fyldt injektionssprøjte* </p>
+<p>Primær serie </p>
+<p>Personer på 12 år og derover 
+To injektioner à 0,5 ml  </p>
+<p>Ikke relevant† </p>
+<p>Vaccination 
+Spikevax 0,2 mg/ml 
+injektionsvæske, dispersion 
+Spikevax 0,1 mg/ml 
+injektionsvæske, dispersion 
+og 
+Spikevax 50 mikrogram 
+injektionsvæske, dispersion i 
+fyldt injektionssprøjte* </p>
+<p>Det anbefales at få anden dosis af 
+samme vaccine 28 dage efter første 
+dosis for at fuldføre 
+vaccinationsforløbet. </p>
+<p>Børn på 6 år til og med 11 år<br />
+To injektioner à 0,25 ml </p>
+<p>Børn på 6 år til og med 11 år<br />
+To injektioner à 0,5 ml </p>
+<p>Ikke relevant </p>
+<p>Børn på 6 måneder til og med 5 år<br />
+To injektioner à 0,25 ml* </p>
+<p>Tredje dosis til svært 
+immunsvækkede  </p>
+<p>Mindst 1 måned efter anden dosis </p>
+<p>Personer på 12 år og derover 
+0,5 ml </p>
+<p>Ikke relevant‡ </p>
+<p>Børn på 6 år til og med 11 år 
+0,25 ml </p>
+<p>Børn på 6 år til og med 11 år 
+0,5 ml </p>
+<p>Ikke relevant </p>
+<p>Børn på 6 måneder til og med 5 år<br />
+0,25 ml* </p>
+<p>Boosterdosis </p>
+<p>Kan gives mindst 3 måneder efter 
+anden dosis </p>
+<p>Personer på 12 år og derover 
+0,25 ml  </p>
+<p>Personer på 12 år og derover 
+0,5 ml </p>
+<p>Ikke relevant </p>
+<p>Personer på 6 år og derover<br />
+0,25 ml* </p>
+<ul>
+<li>Den fyldte injektionssprøjte må ikke anvendes til administration af en delvolumen på 0,25 ml. 
+† Til primær serie til personer i alderen 12 år og derover bør hætteglas med styrken 0,2 mg/ml anvendes. 
+‡ Til tredje dosis til svært immunsvækkede personer i alderen 12 år og derover bør hætteglas med styrken 
+0,2 mg/ml anvendes. </li>
+</ul>
+<p>Som det er tilfældet med alle injicerbare vacciner, skal passende lægebehandling og overvågning altid 
+være let tilgængelig i tilfælde af en anafylaktisk reaktion efter administration af Spikevax. </p>
+<p>Personerne skal observeres af en sundhedsperson i mindst 15 minutter efter vaccination. </p>
+<p>Højdosis kvadrivalent influenzavaccine kan administreres samtidig med Spikevax. Spikevax må ikke 
+blandes med andre vacciner eller lægemidler i samme injektionssprøjte. </p>
+<p>Administration </p>
+<p>Vaccinen skal indgives intramuskulært. Det foretrukne sted er overarmens deltamuskel eller hos spædbørn 
+og små børn anterolateralt på låret. Vaccinen må ikke administreres intravaskulært, subkutant eller 
+intradermalt. </p>
+<p>Flerdosis-hætteglas </p>
+<p>Fyldte injektionssprøjter 
+Der anvendes en steril kanyle af passende størrelse til intramuskulær injektion (21-gauge eller tyndere). 
+Spidshætten fjernes ved at holde den opad og dreje den mod uret, indtil den frigøres. Fjern spidshætten i 
+en langsom, jævn bevægelse. Undgå at trække i spidshætten, mens den drejes. Kanylen påsættes ved at 
+dreje den med uret, indtil den sidder sikkert fast på sprøjten. Hætten tages af kanylen, når den er klar til 
+administration. Hele dosen administreres intramuskulært. Sprøjten bortskaffes efter brug. Kun til 
+engangsbrug. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Spikevax bivalent Original/Omicron BA.1<br />
+(50 mikrogram/50 mikrogram)/ml injektionsvæske, dispersion 
+Spikevax bivalent Original/Omicron BA.1 
+25 mikrogram/25 mikrogram injektionsvæske, dispersion 
+Spikevax bivalent Original/Omicron BA.1 
+25 mikrogram/25 mikrogram injektionsvæske, dispersion i fyldt injektionssprøjte 
+COVID-19-mRNA-vaccine 
+elasomeran/imelasomeran </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i punkt 
+4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du får denne vaccine, da den indeholder vigtige 
+oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-53506f739e6f34ca79778a9dce57bf48
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spikevax Package Leaflet for language en"
+Description: "ePI document Bundle for spikevax Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-53506f739e6f34ca79778a9dce57bf48"
+* entry[0].resource = composition-en-53506f739e6f34ca79778a9dce57bf48
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp53506f739e6f34ca79778a9dce57bf48"
+* entry[=].resource = mp53506f739e6f34ca79778a9dce57bf48
+                            
+                    
+Instance: bundlepackageleaflet-da-53506f739e6f34ca79778a9dce57bf48
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spikevax Package Leaflet for language da"
+Description: "ePI document Bundle for spikevax Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-53506f739e6f34ca79778a9dce57bf48"
+* entry[0].resource = composition-da-53506f739e6f34ca79778a9dce57bf48
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp53506f739e6f34ca79778a9dce57bf48"
+* entry[=].resource = mp53506f739e6f34ca79778a9dce57bf48
+                            
+                    
+
+
+
+Instance: mp53506f739e6f34ca79778a9dce57bf48
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Spikevax 0.2 mg/mL dispersion for injection"
-Description: "Spikevax 0.2 mg/mL dispersion for injection"
+Title: "Medicinal Product spikevax"
+Description: "spikevax"
 Usage: #inline
 
  
@@ -864,7 +1760,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Spikevax 0.2 mg/mL dispersion for injection"
+  * productName = "spikevax"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -891,29 +1787,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-53506f739e6f34ca79778a9dce57bf48
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for spikevax Package Leaflet for language en"
-Description: "ePI document Bundle for spikevax Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 53506f739e6f34ca79778a9dce57bf48ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1507/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "spikevax"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-53506f739e6f34ca79778a9dce57bf48"
-* entry[0].resource = composition-en-53506f739e6f34ca79778a9dce57bf48
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc714f8ae345e255c5701868f59791298"
-* entry[=].resource = mpc714f8ae345e255c5701868f59791298
-                            
-                      
+* title = "List of all ePIs associated with spikevax"
+
+* subject = Reference(mpc714f8ae345e255c5701868f59791298)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#spikevax "spikevax"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-53506f739e6f34ca79778a9dce57bf48) // spikevax en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-53506f739e6f34ca79778a9dce57bf48) // spikevax da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-53506f739e6f34ca79778a9dce57bf48
+InstanceOf: List
+
+* insert 53506f739e6f34ca79778a9dce57bf48ListRuleset
+    

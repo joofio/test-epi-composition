@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6054fe37439ac8bd57061a7fc8bca219
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaniqa Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpc0933fe0f33980e3206de68f8d977bb3)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -258,9 +261,288 @@ Puh/Tel: +358 10 4This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-6054fe37439ac8bd57061a7fc8bca219
+InstanceOf: CompositionUvEpi
+Title: "Composition for vaniqa Package Leaflet"
+Description:  "Composition for vaniqa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc0933fe0f33980e3206de68f8d977bb3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - vaniqa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Vaniqa 
+3. Sådan skal du bruge Vaniqa 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vaniqa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vaniqa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaniqa indeholder det aktive stof eflornithin. Eflornithin nedsætter hastigheden af hårvæksten, fordi 
+det påvirker et specifikt enzym (et protein i kroppen, der medvirker til hårproduktionen).  </p>
+<p>Vaniqa bruges til at nedsætte væksten af udtalt hårvækst (hirsutisme) i ansigtet hos kvinder over 18 år. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vaniqa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vaniqa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Vaniqa </p>
+<ul>
+<li>hvis du er allergisk over for eflornithin eller et af de øvrige indholdsstoffer (angivet i punkt 6).  </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du bruger Vaniqa. </p>
+<ul>
+<li>
+<p>Du skal også oplyse lægen om eventuelt andre medicinske problemer (specielt vedrørende 
+dine nyrer eller lever).  </p>
+</li>
+<li>
+<p>Hvis du er i tvivl om du må anvende denne medicin eller ej skal du rådføre dig med din læge 
+eller apotek. </p>
+</li>
+</ul>
+<p>Udtalt hårvækst kan være forårsaget af en grundliggende sygdom. Tal med lægen, hvis du har 
+polycystisk ovariesyndrom (PCOS). 
+Hvis du tager medicin, som kan fremkalde hårvækst, f.eks. cyclosporin (efter organtransplantationer), 
+glukokortikoider (f.eks. mod gigt- eller allergisygdomme), minoxidil (mod højt blodtryk), 
+phenobarbiton (mod krampeanfald), phenytoin (mod krampeanfald) eller hormonbehandling med 
+mandlige hormonlignende virkning. </p>
+<p>Børn og unge </p>
+<p>Vaniqa frarådes til brug hos personer under 18 år. </p>
+<p>Brug af anden medicin sammen med Vaniqa </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for 
+nylig. Dette gælder også medicin, som ikke er købt på recept. </p>
+<p>Tal med din læge, hvis du har brug for anden medicin på de områder af huden, hvor du bruger cremen. </p>
+<p>Graviditet og amning </p>
+<p>Brug ikke Vaniqa, hvis du er gravid eller ammer. Du skal bruge en alternativ metode til kontrol af 
+ansigtsbehåringen, hvis du er gravid eller forsøger at blive gravid. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Vaniqa forventes ikke at påvirke evnen til at føre motorkøretøjer eller betjene maskiner. </p>
+<p>Vaniqa indeholder cetostearylalkohol og stearylalkohol, som kan forårsage lokale hudreaktioner 
+(f.eks. kontaktdermatitis). Vaniqa indeholder også methylparahydroxybenzoat (E218) og 
+propylparahydroxybenzoat (E216), som kan forårsage allergiske reaktioner (muligvis sene 
+reaktioner). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vaniqa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vaniqa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. 
+• Anvendes 2 gange om dagen med mindst 8 timers interval. 
+• Hvis du får irritation (f.eks. en brændende, stikkende fornemmelse), skal du nedsætte brugen af 
+Vaniqa til én gang daglig, indtil irritationen er forsvundet. Hvis den varer ved, skal du tale med 
+lægen. 
+• Du skal vente mindst 5 minutter med at anvende Vaniqa, hvis du lige har barberet dig eller 
+anvendt anden hårfjerningsmetode. Det kan stikke eller brænde, hvis du påfører cremen på 
+irriteret hud eller hud med rifter. 
+• Rens og aftør de hudområder, hvor du vil påføre cremen 
+• Påfør et tyndt lag creme og gnid det grundigt ind, indtil der ikke er noget synligt produkt på de 
+behandlede områder 
+• Om muligt skal du ikke vaske de behandlede områder før 4 timer efter påføring af cremen. 
+• Vask hænderne efter påføring af cremen. 
+• Vent mindst 5 minutter før du anvender makeup eller solcreme på de samme områder. Når 
+cremen anvendes på ansigtet, skal du undgå kontakt med øjnene eller indersiden af næsen eller 
+munden. Hvis du ved et uheld får Vaniqa ind i øjnene, munden eller næsen, skal du skylle 
+grundigt med vand. </p>
+<p>Vaniqa er ikke et hårfjerningsmiddel, så du skal fortsætte med din hårfjerningsmetode, f.eks. ved at 
+barbere dig eller plukke hårene ud. </p>
+<p>Det kan tage 8 uger, inden du ser resultater. Det er vigtigt at fortsætte med at bruge cremen. Hvis 
+du ikke ser nogen forbedring efter anvendelse i 4 måneder, skal du kontakte din læge. Hvis du 
+holder op med at bruge cremen, kan din oprindelige hårvækst vende tilbage i løbet af 8 uger. </p>
+<p>Hvis du har brugt for meget Vaniqa </p>
+<p>Der vil sandsynligvis ikke ske dig noget, hvis du påfører for meget creme på huden. </p>
+<p>Hvis du eller anden kommer til at indtage noget af Vaniqa, skal du straks kontakte din læge. </p>
+<p>Hvis du har glemt at bruge Vaniqa </p>
+<p>Påfør med det samme Vaniqa, men vent mindst 8 timer, inden du igen anvender det. </p>
+<p>Hvis du holder op med at bruge Vaniqa </p>
+<p>Bliv ved med at bruge Vaniqa kontinuerligt som anvist for at bevare reduktionen af hårvækst. 
+Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Bivirkninger er sædvanligvis begrænset til huden og er milde i intensitet. I disse tilfælde afhjælpes de 
+normalt uden at afbryde brugen af Vaniqa. </p>
+<p>Hyppigheden af mulige bivirkninger angivet herunder er defineret i henhold til følgende kovention: </p>
+<p>meget almindelig (påvirker flere end 1 bruger ud af 10) 
+almindelig 
+(påvirker 1 til 10 brugere ud af 100) 
+ikke almindelig 
+(påvirker 1 til 10 brugere ud af 1.000) 
+sjælden 
+(påvirker 1 til 10 brugere ud af 10.000) 
+meget sjælden 
+(påvirker færre end 1 bruger ud af 10.000) 
+ikke kendt 
+(hyppigheden kan ikke estimeres ud fra forhåndenværende data). </p>
+<p>Meget almindelig (påvirker flere end 1 bruger ud af 10) * akne </p>
+<p>Almindelig (påvirker 1 til 10 brugere ud af 100) * tør hud * hårtab * betændelse omkring hårskaftet * kløe * udslæt * rødme * hudirritation og knopper forårsaget af barbering * hudirritation * stikkende, snurrende eller brændende fornemmelse i huden </p>
+<p>Ikke almindelig (påvirker 1 til 10 brugere ud af 1.000) * nopret udslæt (papuløst udslæt) * forkølelsessår * rødme og irritation på stedet for påføring af cremen * eksem * betændte, tørre, revnede eller følelsesløse læber * indgroet hår * blege hudområder * hudblødning * hudbylder * hudrødmen * hudbetændelse * øm hud * hævelse af mund og ansigt * usædvanlig hårtekstur eller hårvækst </p>
+<p>Sjælden (påvirker 1 til 10 brugere ud af 10.000) * unromal hudvækst (hudneoplasme) * udtalt hårvækst  * blussen, ansigtsrødmen og bumser, muligvis med betændelse * andre hudlidelser * rød, skallende og kløende hudbetændelse (seboroisk eksem) * rødt, nopret udslæt eller udslæt med blister * hudcyster * hudstramhed </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
+i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vaniqa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vaniqa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og i bunden af tuben efter EXP. 
+Udløbsdatoen (EXP) er den sidste dag i den nævnte måned. </p>
+<p>Kassér tuben og overskydende creme 6 måneder efter første åbning. </p>
+<p>Du skal sikre, at hætten på tuben er tæt tillukket efter hver anvendelse. </p>
+<p>Må ikke opbevares over 25°C. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaniqa indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: eflornithin 
+Hvert gram crème indeholder 115 mg eflornithin (som hydrochloridmonohydrat). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: cetostearylalkohol; De øvrige indholdstoffer er cetostearylalkohol, 
+macrogolcetostearylæter; dimeticon; glycerylstearat; macrogolstearat; methylparahydroxybenzoat 
+(E218); paraffinolie; phenoxyethanol; propylparahydroxybenzoat (E216); renset vand og 
+stearylalkohol. Små mængder natriumhydroxid (E524) er undertiden tilsat for at holde surhedsgraden 
+(pH-niveauet) normal. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Vaniqa er en creme, hvis farve er hvid til offwhite. Den leveres i tuber med 15, 30 og 60 gram, men 
+alle pakningsstørrelser bliver ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelse og fremstiller </p>
+<p>Indehaver af markedsføringstilladelse </p>
+<p>Almirall, S.A. 
+Ronda General Mitre, 08022 Barcelona 
+Spanien 
+Tlf: +34 93 291 30  </p>
+<p>Fremstiller </p>
+<p>Almirall Hermal GmbH 
+Scholtzstrasse 3 
+D-21465 Reinbek 
+Tyskland </p>
+<p>Hvis du vil have yderligere oplysninger om Vaniqa, skal du henvende dig til den lokale repræsentant: </p>
+<p>Belgique/België/Belgien 
+Almirall N.V. 
+Tél/Tel: +32 (0)2 771 86<br />
+Ireland / United Kingdom (Northern Ireland) 
+Almirall, S.A. 
+Tel: +353 (0) 1431 9 
+България / Česká republika / Hrvatska /<br />
+Eesti / Ελλάδα / España / Κύπρος / Latvija / 
+Lietuva / Magyarország / Malta / România / 
+Slovenija / Slovenská republika 
+Almirall, S.A. 
+Teл./Tel/Tηλ: +34 93 291 30<br />
+Nederland 
+Almirall BV 
+Tel: +31 (0) 307991Danmark / Ísland / Norge / Sverige 
+Almirall ApS 
+Tlf/Sími/Tel: +45 70 25 75<br />
+Österreich 
+Almirall GmbH 
+Tel: +43 01/595 39<br />
+Deutschland 
+Luxembourg/Luxemburg 
+Almirall Hermal GmbH 
+Tel/Tél: +49 (0)40 72704-0 </p>
+<p>Polska 
+Almirall Sp. z o.o. 
+Tel.: +48 22 330 02<br />
+France 
+Almirall SAS 
+Tél: +33(0)1 46 46 19<br />
+Portugal 
+Almirall - Produtos Farmacêuticos, Lda. 
+Tel: +351 21 415 57<br />
+Italia 
+Almirall SpA 
+Suomi/Finland 
+Orion Pharma 
+Tel: +39 02 346 
+Puh/Tel: +358 10 4 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-6054fe37439ac8bd57061a7fc8bca219
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for vaniqa Package Leaflet for language en"
@@ -279,5 +561,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-6054fe37439ac8bd57061a7fc8bca219"
 * entry[0].resource = composition-en-6054fe37439ac8bd57061a7fc8bca219
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6054fe37439ac8bd57061a7fc8bca219"
+* entry[=].resource = mp6054fe37439ac8bd57061a7fc8bca219
+                            
+                    
+Instance: bundlepackageleaflet-da-6054fe37439ac8bd57061a7fc8bca219
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaniqa Package Leaflet for language da"
+Description: "ePI document Bundle for vaniqa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6054fe37439ac8bd57061a7fc8bca219"
+* entry[0].resource = composition-da-6054fe37439ac8bd57061a7fc8bca219
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6054fe37439ac8bd57061a7fc8bca219"
+* entry[=].resource = mp6054fe37439ac8bd57061a7fc8bca219
+                            
+                    
+
+
+
+Instance: mp6054fe37439ac8bd57061a7fc8bca219
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product vaniqa"
+Description: "vaniqa"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/01/173/001-003"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Treatment of facial hirsutism in women."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "vaniqa"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: 6054fe37439ac8bd57061a7fc8bca219ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vaniqa"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with vaniqa"
+
+* subject = Reference(mpc0933fe0f33980e3206de68f8d977bb3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vaniqa "vaniqa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6054fe37439ac8bd57061a7fc8bca219) // vaniqa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6054fe37439ac8bd57061a7fc8bca219) // vaniqa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6054fe37439ac8bd57061a7fc8bca219
+InstanceOf: List
+
+* insert 6054fe37439ac8bd57061a7fc8bca219ListRuleset
+    

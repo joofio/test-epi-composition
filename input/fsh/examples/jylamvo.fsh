@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5a7d87ea4e5158537cd30e019fd73e95
 InstanceOf: CompositionUvEpi
 Title: "Composition for jylamvo Package Leaflet"
@@ -541,12 +544,726 @@ Ireland </p>
 
 
 
+Instance: composition-da-5a7d87ea4e5158537cd30e019fd73e95
+InstanceOf: CompositionUvEpi
+Title: "Composition for jylamvo Package Leaflet"
+Description:  "Composition for jylamvo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb7f6c5370dbe7cdfa3bc51667efba92c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb7f6c5370dbe7cdfa3bc51667efba92c
+* title = "TEST PURPOSES ONLY - jylamvo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Jylamvo </li>
+<li>Sådan skal du tage Jylamvo </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What jylamvo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What jylamvo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jylamvo er et lægemiddel, som: 
+− 
+undertrykker væksten af visse celler i kroppen, der formerer sig hurtigt (et lægemiddel mod 
+kræft) 
+− 
+nedsætter uønskede reaktioner fra kroppens egne forsvarsmekanismer (et immundæmpende 
+middel) 
+− 
+modvirker betændelseslignende tilstande (virker antiinflammatorisk) </p>
+<p>Jylamvo anvendes hos patienter med: 
+− 
+følgende gigt- og hudsygdomme: * 
+aktiv leddegigt (reumatoid artritis, RA) hos voksne * 
+svære former af aktiv gigt af ukendt oprindelse i mindst fem led hos unge og børn over 
+3 år (polyartritiske former af aktiv, svær juvenil idiopatisk artritis (JIA)), når non-steroide 
+antiinflammatoriske lægemidler (NSAID) ikke har haft tilstrækkelig virkning * 
+svær, behandlingsresistent, invaliderende psoriasis, hvor der ikke er tilstrækkelig virkning 
+af andre behandlingsformer såsom lysbehandling (fototerapi), psoralen og UVA-
+strålebehandling (PUVA) og retinoider, og svær psoriasis, der også angriber leddene 
+(psoriasisgigt), hos voksne patienter 
+− 
+akut lymfoblastær leukæmi (ALL) hos voksne, unge og børn over 3 år  </p>
+<p>Kontakt lægen, hvis du ikke får det bedre, eller hvis du får det værre. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take jylamvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take jylamvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen kan have foreskrevet anden anvendelse eller dosering end angivet i denne information. Følg 
+altid lægens anvisning og oplysningerne på doseringsetiketten. </p>
+<p>Tag ikke Jylamvo 
+− 
+hvis du er allergisk over for methotrexat eller et af de øvrige indholdsstoffer i Jylamvo (angivet 
+i pkt. 6) 
+− 
+hvis du har svært nedsat nyrefunktion (eller din læge beskriver nedsættelsen som svær) 
+− 
+hvis du har nedsat leverfunktion<br />
+− 
+hvis du har blodsygdomme såsom knoglemarvshypoplasi, leukopeni, trombocytopeni eller 
+betydelig anæmi (blodmangel) 
+− 
+hvis du har et højt alkoholforbrug 
+− 
+hvis dit immunsystem er svækket 
+− 
+hvis du har en alvorlig infektion såsom tuberkulose eller HIV 
+− 
+hvis du har mavesår eller sår i tarmene<br />
+− 
+hvis du har en betændelseslignende tilstand (inflammation) i slimhinden i munden eller sår i 
+munden 
+− 
+hvis du ammer og derudover til behandling af andet end kræft (til ikke-onkologiske 
+indikationer), hvis du er gravid (se punktet "Graviditet, amning og frugtbarhed") 
+− 
+hvis du for nylig er blevet vaccineret med eller skal vaccineres med en levende vaccine </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Vigtig advarsel om doseringen af Jylamvo (methotrexat): 
+Denne orale opløsning indeholder 2 mg methotrexat pr. 1 ml opløsning; doseringssprøjtens 
+skala er i ml, ikke i mg. 
+Tag kun Jylamvo én gang om ugen til behandling af gigt- og hudsygdomme (leddegigt, JIA og 
+psoriasis og psoriasisgigt). 
+For stor indtagelse af Jylamvo (methotrexat) kan være dødelige. 
+Læs pkt. 3 i denne indlægsseddel meget nøje. 
+Hvis du har spørgsmål, så tal med lægen eller apotekspersonalet, før du tager dette lægemiddel. </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Jylamvo: 
+− 
+hvis du har sukkersyge (diabetes mellitus) og får insulin 
+− 
+hvis du har langvarige (kroniske) ikke aktive infektioner (f.eks. tuberkulose, hepatitis B eller C, 
+eller helvedesild [herpes zoster]), da de kan blusse op 
+− 
+hvis du nogensinde har haft en lever- eller nyresygdom 
+− 
+hvis du har problemer med lungerne 
+− 
+hvis du er udtalt overvægtig 
+− 
+hvis du har en unormal ophobning af væske i bughulen (ascites) eller omkring lungerne (pleura-
+effusion) 
+− 
+hvis du er i væskeunderskud (er dehydreret) eller har en lidelse, der medfører væskemangel 
+(opkastning, diarré, forstoppelse, betændelse i mundslimhinden) </p>
+<p>Hvis du har haft hudproblemer efter strålebehandling (stråledermatitis) eller solskoldning, kan disse 
+reaktioner komme igen under behandling med methotrexat. </p>
+<p>Patienter, der får methotrexat i lav dosis, kan få forstørrede lymfeknuder (lymfom); i så fald skal 
+behandlingen stoppes. </p>
+<p>Der er rapporteret om tilfælde af akut blødning i lungerne hos patienter med underliggende 
+reumatologiske lidelser ved brug af methotrexat. Hvis du oplever symptomer på blodigt spyt eller 
+blodig hoste, bør du kontakte din læge med det samme. </p>
+<p>Diarré er en mulig bivirkning af Jylamvo og nødvendiggør afbrydelse af behandlingen. Du skal tale 
+med lægen, hvis du får diarré. </p>
+<p>Der er beskrevet visse hjernesygdomme (encefalopati/leukoencefalopati) hos kræftpatienter, der får 
+methotrexat. Disse bivirkninger kan ikke udelukkes, når methotrexat anvendes til at behandle andre 
+sygdomme. </p>
+<p>Hvis du, din partner eller din omsorgsgiver bemærker nye eller forværrede neurologiske symptomer, 
+herunder generel muskelsvaghed, synsforstyrrelser, ændret tankegang, hukommelse og orientering, der 
+medfører forvirring og personlighedsændringer, skal du straks kontakte lægen, da disse kan være 
+symptomer på en meget sjælden, alvorlig hjerneinfektion kaldet progressiv multifokal 
+leukoencefalopati (PML). </p>
+<p>Hvis du er udsat for UV-lys, kan dine psoriasis-hudforandringer forværres under behandlingen med 
+methotrexat. </p>
+<p>Methotrexat påvirker produktionen af sædceller og æg midlertidigt. Methotrexat kan forårsage spontan 
+abort og alvorlige medfødte misdannelser. Du skal undgå at blive gravid, mens du får methotrexat og 
+mindst seks måneder efter, at du holdt op med at tage methotrexat, hvis du er en kvinde. Hvis du er en 
+mand, skal du undgå at blive far til et barn, mens du er i behandling med methotrexat og i mindst 3 
+måneder efter behandlingen er ophørt. Se også punktet "Graviditet, amning og frugtbarhed". </p>
+<p>Anbefalede opfølgende undersøgelser og sikkerhedsforanstaltninger </p>
+<p>Selvom methotrexat anvendes i lave doser, kan der opstå alvorlige bivirkninger. For at opdage dem i 
+tide, skal din læge udføre overvågningsundersøgelser og laboratorieundersøgelser. </p>
+<p>Før starten af behandlingen: </p>
+<p>Før du starter behandlingen, vil dit blod blive kontrolleret for at se, om du har nok blodlegemer. Dit 
+blod vil også blive testet for at kontrollere din leverfunktion og for at finde ud af, om du har hepatitis. 
+Desuden vil serumalbumin (et protein i blodet), status på hepatitis (leverinfektion) og nyrefunktion 
+blive kontrolleret. Lægen kan også beslutte at tage andre prøver af leveren, nogle af disse kan være 
+billeder af din lever og andre kan være en lille vævsprøve taget fra leveren for nærmere undersøgelse. 
+Din læge kan også kontrollere, om du har tuberkulose, og der kan udføres røntgenfotograferring af dit 
+bryst eller en lungefunktionstest. </p>
+<p>Under behandlingen: </p>
+<p>Din læge kan udføre følgende undersøgelser: </p>
+<p>− 
+undersøgelse af mundhulen og svælg for ændringer i slimhinden, såsom betændelse eller 
+sårdannelse 
+− 
+blodprøver/blodtælling med antal blodlegemer og måling af serum-methotrexatniveauer 
+− 
+blodprøve til overvågning af leverfunktion 
+− 
+Billeddiagnostiske test til overvågning af levertilstand 
+− 
+lille prøve af væv taget fra leveren for at undersøge det nærmere 
+− 
+blodprøve til overvågning af nyrefunktion 
+− 
+luftvejsovervågning og om nødvendigt lungefunktionstest </p>
+<p>Det er meget vigtigt, at du møder op til disse planlagte undersøgelser. </p>
+<p>Hvis resultaterne af nogle af disse test er iøjnefaldende, vil din læge justere din behandling i 
+overensstemmelse hermed. </p>
+<p>Børn, unge og ældre 
+Børn, unge og ældre, der behandles med methotrexat, skal overvåges særlig omhyggeligt, for at vigtige 
+bivirkninger kan opdages hurtigt. </p>
+<p>Dette lægemiddel frarådes til børn under 3 år, da der ikke er tilstrækkelig erfaring hos denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Jylamvo 
+Fortæl det til lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for nylig. 
+Dette gælder også medicin, som ikke er købt på recept, og naturlægemidler. 
+Hvis du får ordineret et andet lægemiddel under behandlingen, skal du huske at sige til lægen, at du får 
+Jylamvo. </p>
+<p>Det er især vigtigt at sige det til lægen, hvis du bruger et af følgende lægemidler: 
+− 
+andre lægemidler mod leddegigt eller psoriasis såsom leflunomid, azathioprin (anvendes også til 
+at forhindre afstødning af et organ efter en transplantation), sulfasalazin (anvendes også mod 
+blødende tyktarmsbetændelse (ulcerøs kolitis))<br />
+− 
+ciclosporin (til at undertrykke immunsystemet) 
+− 
+nonsteroide antiinflammatoriske lægemidler og salicylater (lægemidler mod smerter og/eller 
+inflammation, såsom acetylsalicylsyre, diclofenac, ibuprofen eller et pyrazol) 
+− 
+levende vacciner 
+− 
+vanddrivende midler (diuretika), der nedsætter væskeophobning<br />
+− 
+lægemidler til at sænke blodsukkeret, såsom metformin 
+− 
+retinoider (til behandling af psoriasis og andre hudsygdomme) 
+− 
+lægemidler mod epilepsi 
+− 
+barbiturater (sovemedicin) 
+− 
+beroligende midler 
+− 
+orale præventionsmidler (f.eks. p-piller) 
+− 
+probenecid (mod podagra) 
+− 
+antibiotika 
+− 
+pyrimethamin (til forebyggelse og behandling af malaria) 
+− 
+vitaminpræparater med folsyre 
+− 
+protonpumpehæmmere (til behandling af halsbrand, mavesår og visse andre mavesymptomer) 
+− 
+theophyllin (mod vejrtrækningsproblemer) 
+− 
+mercaptopurin (til behandling af visse typer leukæmi (blodkræft)) 
+− 
+kræftmedicin (såsom doxorubicin og procarbazin ved behandling med høje doser methotrexat) </p>
+<p>Brug af Jylamvo sammen med mad, drikke og alkohol 
+Du kan tage Jylamvo i forbindelse med et måltid, men det er ikke nødvendigt. Når du har taget din 
+dosis, skal du drikke noget vand og synke det for at sikre, at du har fået hele dosen, og at der ikke er 
+noget methotrexat tilbage i munden. Du bør ikke drikke alkohol, mens du er i behandling med 
+Jylamvo, og du skal lade være med at indtage store mængder koffeinholdige drikke (kaffe, drikke med 
+tilsætning af koffein, sort te). Sørg for at drikke rigeligt under behandlingen med Jylamvo, da 
+væskemangel (dehydrering) kan forstærke methotrexats bivirkninger.  </p>
+<p>Graviditet 
+Du må ikke tage Jylamvo under graviditet, medmindre lægen har ordineret det til behandling af kræft. 
+Methotrexat kan være årsag til medfødte misdannelser, kan skade fosteret eller medføre spontan abort. 
+Det er forbundet med misdannelser af kranie, ansigt, hjerte, blodkar, hjerne og lemmer. Det er derfor 
+meget vigtigt, at methotrexat ikke anvendes hos kvinder, der er gravide eller planlægger at blive det, 
+medmindre der anvendes mod kræft. </p>
+<p>Til andre anvendelser end kræftbehandling skal graviditet udelukkes hos kvinder i den fødedygtige 
+alder, f.eks. ved en graviditetstest, før behandlingen indledes. </p>
+<p>Brug ikke Jylamvo, hvis du prøver på at blive gravid. Du skal undgå at blive gravid under 
+behandlingen med methotrexat og i mindst seks måneder efter, du har afsluttet behandlingen. Du skal </p>
+<p>derfor bruge effektiv prævention i hele denne periode (se også punktet "Advarsler og 
+forsigtighedsregler"). </p>
+<p>Hvis du bliver gravid under behandlingen eller mistænker, at du måske er gravid, skal du tale med 
+lægen hurtigst muligt. Hvis du bliver gravid under behandlingen, vil du få tilbud om rådgivning om 
+risikoen for skadelige virkninger på barnet under behandling. </p>
+<p>Hvis du ønsker at blive gravid, skal du tale med lægen, som vil henvise dig til specialistrådgivning før 
+behandlingens planlagte påbegyndelse. </p>
+<p>Amning 
+Du må ikke amme under behandlingen, da methotrexat går over i mælken. Hvis din læge finder, at 
+fortsat behandling med methotrexat er absolut nødvendig, skal du holde op med at amme. </p>
+<p>Frugtbarhed hos mænd 
+Tilgængelige data indikerer ikke øget risiko for misdannelser eller abort hvis faderen tager mindre end 
+30 mg (15 ml) methotrexat pr. uge. En risiko kan dog ikke udelukkes helt og der findes ingen 
+oplysninger om højere methotrexatdoser. Methotrexat kan være genotoksisk. Det vil sige, at 
+lægemidlet kan forårsage mutationer i generne. Methotrexat kan påvirke produktionen af sædceller, 
+hvilket er forbundet med en risiko for medfødte misdannelser. </p>
+<p>Du skal undgå at blive far til et barn eller donere sæd under behandlingen med methotrexat og mindst 
+3 måneder efter, du har afsluttet behandlingen. Da behandling med methotrexat ved højere doser 
+sædvanligvis anvendt ved kræftbehandling kan forårsage ufrugtbarhed og genetiske mutationer, 
+tilrådes mandlige patienter, der tager mere end 30 mg (15 ml) methotrexat pr. uge, at overveje 
+sæddeponering, før behandling påbegyndes (se også "Advarsler og forsigtighedsregler"). </p>
+<p>Trafik- og arbejdssikkerhed 
+Bemærk: Dette lægemiddel kan påvirke din reaktionsevne og evne til at føre motorkøretøj. </p>
+<p>Pakningen er forsynet med en rød advarselstrekant. Det betyder, at Jylamvo kan give bivirkninger, 
+som kan påvirke arbejdssikkerheden og evnen til at færdes sikkert i trafikken. </p>
+<p>Ved behandling med Jylamvo kan der forekomme bivirkninger såsom træthed eller svimmelhed som 
+følge af påvirkning af centralnervesystemet. Undertiden kan evnen til at føre motorkøretøj eller betjene 
+maskiner være påvirket. Du må ikke føre motorkøretøj eller betjene maskiner, hvis du føler dig træt 
+eller svimmel.  </p>
+<p>Jylamvo indeholder ethylparahydroxybenzoat og natriummethylparahydroxybenzoat 
+Ethylparahydroxybenzoat (E214) og natriummethylparahydroxybenzoat (E219) kan forårsage 
+allergiske reaktioner (eventuelt forsinkede). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take jylamvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take jylamvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jylamvo bør kun ordineres af læger, der er fortrolige med lægemidlets egenskaber og virkemåde. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Forkert brug af Jylamvo kan medføre svære bivirkninger, herunder dødelige bivirkninger. </p>
+<p>Behandlingsvarigheden fastlægges af den behandlende læge. Behandlingen er langvarig, når Jylamvo 
+anvendes mod gigt, svær gigt af ukendt oprindelse hos unge (svær juvenil idiopatisk artritis), svær 
+psoriasis og svær psoriasisgigt. </p>
+<p>Anbefalet dosis 
+Lægen fastsætter din dosis af Jylamvo alt efter, hvilken sygdom du behandles for, sygdommens 
+sværhedsgrad og din almene helbredstilstand. Overhold dosen nøjagtigt, og følg nøje lægens 
+anvisninger for, hvornår du skal tage lægemidlet. </p>
+<p>Dosis ved gigt- og hudsygdomme (RA, JIA, psoriasis og psoriasisgigt) 
+Jylamvo tages kun én gang om ugen. Aftal med lægen, hvilken ugedag det er bedst, at du tager 
+lægemidlet. </p>
+<p>Dosering ved leddegigt hos voksne:<br />
+Den normale startdosis er 7,5 mg (3,75 ml) én gang om ugen. </p>
+<p>Dosering ved psoriasis og psoriasisgigt:<br />
+Den normale startdosis er 7,5 mg (3,75 ml) én gang om ugen. </p>
+<p>Lægen kan øge dosis, hvis du tåler den anvendte dosis, men den ikke er effektiv.<br />
+Lægen vil måske tilpasse din dosis alt efter, hvordan du reagerer på behandlingen, og hvilke 
+bivirkninger du får. </p>
+<p>Dosering ved akut lymfoblastær leukæmi (ALL) 
+Lægen vil fortælle dig, hvilken dosis du skal have mod din sygdom, og hvornår du skal tage den. 
+Overhold denne dosis meget nøje. </p>
+<p>Anvendelse hos børn og unge 
+Dosis angives i mg/m2, og lægen beregner den nødvendige dosis ud fra barnets legemsoverflade (i m2). </p>
+<p>Ældre 
+Da ældre patienter har nedsat lever- og nyrefunktion og mindre reserver af folinsyre, bør ældre 
+patienter have en forholdsvis lav dosis. </p>
+<p>Hvordan lægemidlet skal tages<br />
+Jylamvo-pakningen indeholder en flaske med lægemiddel med låg, et overgangsstykke (en adaptor) og 
+en hvid doseringssprøjte. Brug altid den medfølgende sprøjte til at tage lægemidlet. </p>
+<p>Hvis du som forælder eller omsorgsperson giver lægemidlet, skal du vaske hænder før og efter, at du 
+har givet en dosis. Tør eventuelt spild op med det samme. For at beskytte dig selv skal du bruge 
+engangshandsker, når du håndterer Jylamvo. </p>
+<p>Gravide kvinder og kvinder, som planlægger graviditet eller ammer, bør ikke håndtere methotrexat. </p>
+<p>Hvis Jylamvo kommer i kontakt med huden, øjnene eller næsen, skal det pågældende område vaskes 
+med vand og sæbe. </p>
+<p>Jylamvo anvendes oralt (indtages gennem munden) og er klar til brug.  </p>
+<p>Bemærk, at den orale opløsning indeholder 2 mg methotrexat pr. 1 ml opløsning, og at 
+doseringssprøjtens skala er i ml, ikke i mg. </p>
+<p>Methotrexat kan tages sammen med et måltid eller mellem måltider. Når du har fået din dosis, skal du 
+drikke noget vand og synke det for at sikre, at du har fået hele dosen, og at der ikke er noget 
+methotrexat tilbage i munden. </p>
+<p>Følg nedenstående anvisninger for anvendelse af lægemidlet: </p>
+<ol>
+<li>Der skal bruges engangshandsker ved håndtering. </li>
+<li>Flasken omrystes. </li>
+<li>Låget tages af flasken, og overgangsstykket fastgøres forsvarligt oven på flasken. </li>
+<li>Spidsen af doseringssprøjten trykkes ind i hullet i overgangsstykket. </li>
+<li>Flasken vendes med bunden i vejret. </li>
+<li>Sprøjtens stempel trækkes LANGSOMT tilbage, så lægemidlet trækkes fra flasken op i 
+sprøjten, indtil den BREDESTE del af stemplet i den hvide sprøjte er rettet ind efter sprøjtens 
+sorte mærke, der markerer den nødvendige dosis. Der må IKKE måles efter stemplets smalle 
+spids. Er der luftbobler i sprøjten, gentages optrækningen, til boblerne er væk. </li>
+<li>Flasken vendes til opret stilling, og sprøjten fjernes forsigtigt fra overgangsstykket ved at holde 
+i sprøjtens cylinder, ikke i stemplet. </li>
+<li>Det kontrolleres, at sprøjten indeholder den korrekte dosis. </li>
+<li>Patienten skal sidde eller stå, før medicinen gives. </li>
+<li>Spidsen af sprøjten føres forsigtigt ind i patientens mund, så den er rettet mod indersiden af 
+kinden. </li>
+<li>Stemplet trykkes langsomt og forsigtigt ind, så medicinen forsigtigt sprøjtes mod indersiden af 
+kinden. Stemplet må IKKE trykkes for hårdt i, og medicinen må ikke sprøjtes mod det bageste 
+af munden eller svælget, da dette kan medføre kvælningsanfald. Stemplet trykkes forsigtigt 
+tilbage, indtil det går på plads med et klik. </li>
+<li>Sprøjten tages ud af patientens mund. </li>
+<li>Patienten bedes om at synke medicinen og derefter drikke noget vand, så der ikke er noget 
+medicin tilbage i munden. </li>
+<li>Låget sættes tilbage på flasken med overgangsstykket påsat. Låget skal være tæt lukket. </li>
+<li>Sprøjten vaskes straks efter brug med friskt, varmt sæbevand og skylles godt efter. Sprøjten skal 
+holdes nede i vandet, og stemplet trækkes ind og ud flere gange, indtil alle spor af lægemidlet er 
+fjernet fra sprøjtens inderside, også spidsen. Stemplet og cylinderen adskilles derefter fra 
+hinanden, og begge vaskes grundigt i det varme sæbevand. De skylles derefter grundigt i 
+KOLDT vand, og overskydende vand rystes af, hvorpå de tørres efter med et rent 
+papirhåndklæde. Stemplet og cylinderen opbevares i en ren, tør beholder sammen med 
+lægemidlet og samles før næste anvendelse. Alle sprøjtens dele skal være helt tørre, før de 
+anvendes til den næste dosis. </li>
+</ol>
+<p>Gentag ovennævnte punkter for hver dosis som anvist af lægen eller apotekspersonalet. </p>
+<p>Hvis du har taget for meget Jylamvo 
+Kontakt lægen, skadestuen eller apoteket, hvis du har taget mere af Jylamvo, end der står i denne 
+information, eller mere end lægen har foreskrevet (og du føler dig utilpas).  </p>
+<p>Følg lægens anvisninger nøje. Du må aldrig selv ændre dosis. </p>
+<p>Har du mistanke om, at du selv (eller en anden) har taget for meget Jylamvo, skal du straks sige det til 
+lægen eller kontakte nærmeste akutmodtagelse. Lægen vil afgøre, om behandling er nødvendig. </p>
+<p>En overdosis af methotrexat kan medføre alvorlige reaktioner. Symptomerne på en overdosis kan være 
+blødning, usædvanlig svaghedsfølelse, sår i munden, kvalme, opkastning, sort eller blodig afføring, 
+ophostning af blod, opkastning af blod med kaffegrumslignende udseende samt nedsat vandladning. Se 
+også pkt. 4 "Bivirkninger". </p>
+<p>Tag lægemiddelpakningen med til lægen eller hospitalet. 
+I tilfælde af en overdosis er modgiften calciumfolinat. </p>
+<p>Hvis du har glemt at tage Jylamvo<br />
+Tag aldrig en dobbeltdosis som erstatning for den glemte dosis, men fortsæt med den ordinerede dosis. 
+Spørg lægen. </p>
+<p>Hvis du holder op med at tage Jylamvo 
+Du må ikke afbryde eller stoppe behandlingen med Jylamvo uden først at have talt med lægen. Har du 
+mistanke om, at du har en svær bivirkning, skal du straks kontakte lægen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Sig det straks til lægen, hvis du pludseligt får hvæsende vejrtrækning, vejrtrækningsbesvær, hævede 
+øjenlåg, ansigt eller læber, udslæt eller kløe (navnlig, hvis der er over hele kroppen). </p>
+<p>Kontakt straks lægen, hvis du får nogen af nedenstående bivirkninger: 
+− 
+problemer med åndedrættet (generel utilpashed, tør irritationshoste, kortåndethed, 
+åndedrætsbesvær, smerter i brystet eller feber) 
+− 
+ophostning af blod eller blodtilblandet opspyt* 
+− 
+alvorlig afskalning af huden eller blæredannelse i huden 
+− 
+usædvanlig blødning (herunder blodigt opkast), blå mærker eller næseblod 
+− 
+kvalme, opkastning, ubehag i maven eller svær diarré 
+− 
+sår i munden 
+− 
+sort eller tjærelignende afføring 
+− 
+blod i urinen eller afføringen 
+− 
+små røde pletter på huden 
+− 
+feber, ondt i halsen, influenzalignende symptomer 
+− 
+gulfarvning af huden (ikterus) eller mørk urin 
+− 
+smertefuld eller besværet vandladning 
+− 
+tørst og/eller hyppig vandladning 
+− 
+krampeanfald 
+− 
+bevidstløshed 
+− 
+sløret eller nedsat syn 
+− 
+udpræget træthed </p>
+<p>*er indberettet ved anvendelse af methotrexat hos patienter med underliggende reumatologisk 
+sygdom </p>
+<p>Derudover er følgende bivirkninger rapporteret: </p>
+<p>Meget almindelig (forekommer hos flere end 1 ud af 10 behandlede): 
+− 
+appetitløshed, kvalme, opkastning, mavesmerter, fordøjelsesbesvær, en betændelseslignende 
+reaktion (inflammation) og sår i munden og svælget 
+− 
+blodprøver, der viser forhøjede leverenzymer </p>
+<p>Almindelig (forekommer hos indtil 1 ud af 10 behandlede): 
+− 
+infektioner 
+− 
+nedsat antal hvide og/eller røde blodlegemer og/eller blodplader (leukocytopeni, anæmi, 
+trombocytopeni) 
+− 
+hovedpine, træthed, svimmelhed 
+− 
+lungebetændelse med tør hoste, kortåndethed og feber 
+− 
+diarré 
+− 
+hududslæt, hudrødme og hudkløe </p>
+<p>Ikke almindelig (forekommer hos op til 1 ud af 100 behandlede): 
+− 
+lymfom (knude i lysken eller armhulen ledsaget af rygsmerter, vægttab eller nattesved) 
+− 
+svære allergiske reaktioner 
+− 
+sukkersyge (diabetes) 
+− 
+depression 
+− 
+svimmelhed, forvirring, kramper 
+− 
+beskadigelse af lungerne 
+− 
+sår og blødning i mave-tarm-kanalen 
+− 
+leversygdomme, nedsat proteinindhold i blodet 
+− 
+nældefeber, hudreaktion på stærk lyspåvirkning, brun misfarvning af huden, hårtab, øget antal 
+gigtknuder, helvedesild, smertefuld psoriasis, langsom sårheling 
+− 
+led- eller muskelsmerter, knogleskørhed (osteoporose) 
+− 
+nyresygdom, inflammation eller sår i blæren (eventuelt med blod i urinen), smerter ved 
+vandladning 
+− 
+inflammation og sår i skeden </p>
+<p>Sjælden (forekommer hos op til 1 ud af 1 000 behandlede): 
+− 
+blodsygdom karakteriseret ved meget store røde blodlegemer (megaloblastisk anæmi) 
+− 
+humørsvingninger 
+− 
+afmatning ved bevægelser, kan være begrænset til venstre eller højre side af kroppen<br />
+− 
+svære synsforstyrrelser 
+− 
+betændelse i hjertesækken, væskeansamling i hjertesækken 
+− 
+lavt blodtryk, blodpropper 
+− 
+betændelse i mandlerne (tonsillitis), vejrtrækningsstop, astma 
+− 
+betændelse i bugspytkirtlen (pankreatitis), inflammation i mave-tarmkanalen, blodig afføring, 
+betændte gummer, fordøjelsesbesvær 
+− 
+akut leverbetændelse (hepatitis)<br />
+− 
+misfarvede negle, akne, røde eller violette pletter som følge af karblødning 
+− 
+forværring af psoriasis ved UV-behandling 
+− 
+hudforandringer, der ligner solskoldning eller hudirritation efter strålebehandling 
+(stråledermatitis) 
+− 
+knoglebrud<br />
+− 
+nyresvigt, nedsat eller manglende urinproduktion, unormal koncentration af elektrolytter (salte) 
+i blodet<br />
+− 
+nedsat dannelse af sædceller, menstruationsforstyrrelser </p>
+<p>Meget sjælden (forekommer hos op til 1 ud af 10 000 behandlede): 
+− 
+systemiske virus-, svampe- eller bakterie-infektioner, 
+− 
+alvorlig knoglemarvslidelse (anæmi), hævede lymfekirtler<br />
+− 
+overdreven vækst af hvide blodlegemer (lymfoproliferative lidelser) 
+− 
+søvnløshed<br />
+− 
+smerter, muskelsvaghed, smagsforstyrrelser (metalsmag), hjernehindebetændelse resulterende i 
+lammelse eller opkastning, følelsesløshed eller prikken/mindre følsomhed over for stimulering 
+end normalt<br />
+− 
+nedsat bevægelighed i de muskler, der bruges ved tale, talebesvær, sproglige forstyrrelser, 
+søvnighed eller træthed, følelse af forvirring, usædvanlige fornemmelser i hovedet, hævelse i 
+hjernen, ringen for ørerne 
+− 
+røde øjne, beskadigelse af øjets nethinde<br />
+− 
+væskeansamling i lungerne, lungeinfektioner<br />
+− 
+opkastning af blod, svære komplikationer i mave-tarm-kanalen 
+− 
+leversvigt<br />
+− 
+betændelse i fingerneglene, løsning af neglen fra neglelejet, bylder, udvidelse af de små blodkar, 
+beskadigelse af blodkarrene i huden, allergisk inflammation i blodkarrene </p>
+<p>− 
+protein i urinen<br />
+− 
+nedsat kønsdrift, rejsningsproblemer, udflåd fra skeden, ufrugtbarhed, forstørrede bryster hos 
+mænd (gynækomasti) 
+− 
+feber </p>
+<p>Ikke kendt (kan ikke beregnes ud fra forhåndenværende data) 
+− 
+sygelig ændring af den hvide substans i hjernen (leukoencefalopati) 
+− 
+blødninger 
+− 
+blødning i lungerne* 
+− 
+rødmen og afskalning  <br />
+− 
+knogleskade i kæben (sekundært til overdreven vækst af hvide blodlegemer) 
+− 
+hævelse </p>
+<p>*er indberettet ved anvendelse af methotrexat hos patienter med underliggende reumatologisk sygdom. </p>
+<p>Methotrexat kan nedsætte antallet af hvide blodlegemer og derved svække immunforsvaret. 
+Kontakt straks lægen, hvis du får tegn på en infektion, såsom feber eller klar forværring af din generelle 
+helbredstilstand, eller feber med lokale tegn på en infektion såsom ondt i halsen/halsbetændelse, betændelse 
+i munden eller problemer med vandladningen. Du vil få taget en blodprøve for at kontrollere, om der er et 
+fald i antallet af hvide blodlegemer (agranulocytose). Det er vigtigt, at du oplyser lægen om den medicin, du 
+får. </p>
+<p>Methotrexat kan medføre alvorlige (undertiden livstruende) bivirkninger. Lægen vil derfor tage blodprøver 
+for at kontrollere, om der er ændringer (såsom lavt antal hvide blodlegemer, lavt antal blodplader, svulster i 
+lymfeknuder (lymfomer) eller nyrernes eller leverens funktion). </p>
+<p>Indberetning af bivirkninger 
+Hvis du får bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige bivirkninger, 
+som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale indberetningssystem, der er anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store jylamvo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store jylamvo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel skal opbevares utilgængeligt for børn, helst i aflåst skab. Utilsigtet indtagelse kan være 
+dødelig for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 ºC. </p>
+<p>Flasken skal være tæt tillukket for at beskytte lægemidlet mod ødelæggelse og for at nedsætte risikoen for 
+utilsigtet spild. </p>
+<p>Ikke anvendt lægemiddel skal bortskaffes 3 måneder efter, flasken er åbnet første gang. </p>
+<p>Ikke anvendt lægemiddel og affald heraf skal bortskaffes i henhold til lokale retningslinjer for cytotoksiske 
+lægemidler - spørg på apoteket. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jylamvo indeholder: 
+Aktivt stof: methotrexat. En ml opløsning indeholder 2 mg methotrexat. </p>
+<p>Øvrige indholdsstoffer: macrogol 400, glycerol, orangearoma, sucralose, ethylparahydroxybenzoat 
+(E214), natriummethylparahydroxybenzoat (E219), citronsyre, trinatriumcitrat, renset vand. Se pkt. 2 
+"Jylamvo indeholder ethylparahydroxybenzoat og natriummethylparahydroxybenzoat". </p>
+<p>Udseende og pakningsstørrelser 
+Jylamvo er en klar, gul opløsning. Det leveres i en brun glasflaske, der indeholder 60 ml opløsning og 
+har børnesikkert låg. Hver pakning indeholder en flaske, et overgangstykke (adaptor) og en hvid 
+doseringssprøjte.  </p>
+<p>Indehaver af markedsføringstilladelsen 
+Therakind (Europe) Limited 
+Paramount Court, 
+Corrig Road, 
+Sandyford Business Park, 
+Dublin 18, 
+D18 R9C7 
+Irland </p>
+<p>Fremstiller 
+Wasdell Europe Limited 
+IDA Dundalk Science and Technology Park, 
+Mullagharlin, Dundalk, Co. Louth 
+A91 DETO, 
+Irland </p>
+<p>Denne indlægsseddel blev senest revideret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5a7d87ea4e5158537cd30e019fd73e95
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jylamvo Package Leaflet for language en"
+Description: "ePI document Bundle for jylamvo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5a7d87ea4e5158537cd30e019fd73e95"
+* entry[0].resource = composition-en-5a7d87ea4e5158537cd30e019fd73e95
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5a7d87ea4e5158537cd30e019fd73e95"
+* entry[=].resource = mp5a7d87ea4e5158537cd30e019fd73e95
+                            
+                    
+Instance: bundlepackageleaflet-da-5a7d87ea4e5158537cd30e019fd73e95
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jylamvo Package Leaflet for language da"
+Description: "ePI document Bundle for jylamvo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5a7d87ea4e5158537cd30e019fd73e95"
+* entry[0].resource = composition-da-5a7d87ea4e5158537cd30e019fd73e95
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5a7d87ea4e5158537cd30e019fd73e95"
+* entry[=].resource = mp5a7d87ea4e5158537cd30e019fd73e95
+                            
+                    
+
+
+
+Instance: mp5a7d87ea4e5158537cd30e019fd73e95
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Jylamvo 2 mg/ml oral solution"
-Description: "Jylamvo 2 mg/ml oral solution"
+Title: "Medicinal Product jylamvo"
+Description: "jylamvo"
 Usage: #inline
 
  
@@ -566,7 +1283,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Jylamvo 2 mg/ml oral solution"
+  * productName = "jylamvo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -593,29 +1310,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5a7d87ea4e5158537cd30e019fd73e95
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for jylamvo Package Leaflet for language en"
-Description: "ePI document Bundle for jylamvo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5a7d87ea4e5158537cd30e019fd73e95ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "20"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "jylamvo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5a7d87ea4e5158537cd30e019fd73e95"
-* entry[0].resource = composition-en-5a7d87ea4e5158537cd30e019fd73e95
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb7f6c5370dbe7cdfa3bc51667efba92c"
-* entry[=].resource = mpb7f6c5370dbe7cdfa3bc51667efba92c
-                            
-                      
+* title = "List of all ePIs associated with jylamvo"
+
+* subject = Reference(mpb7f6c5370dbe7cdfa3bc51667efba92c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#jylamvo "jylamvo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5a7d87ea4e5158537cd30e019fd73e95) // jylamvo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5a7d87ea4e5158537cd30e019fd73e95) // jylamvo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5a7d87ea4e5158537cd30e019fd73e95
+InstanceOf: List
+
+* insert 5a7d87ea4e5158537cd30e019fd73e95ListRuleset
+    

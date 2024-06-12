@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-be86a7120b3e7e0f4ee2c7a69bc3ffec
 InstanceOf: CompositionUvEpi
 Title: "Composition for olanzapine Package Leaflet"
@@ -387,12 +390,559 @@ Tel: +44 2075407This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYY
 
 
 
+Instance: composition-da-be86a7120b3e7e0f4ee2c7a69bc3ffec
+InstanceOf: CompositionUvEpi
+Title: "Composition for olanzapine Package Leaflet"
+Description:  "Composition for olanzapine Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp62129cbde7b2dcffec7a88f8714816a3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp62129cbde7b2dcffec7a88f8714816a3
+* title = "TEST PURPOSES ONLY - olanzapine"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Olanzapine Teva </li>
+<li>Sådan skal du tage Olanzapine Teva </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What olanzapine is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What olanzapine is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olanzapine Teva indeholder det aktive stof olanzapin. Olanzapine Teva tilhører en gruppe af 
+lægemidler, der kaldes antipsykotika. De anvendes til behandling af følgende lidelser:  </p>
+<ul>
+<li>
+<p>Skizofreni, en lidelse med symptomer såsom: mistro, ualmindelig mistænksomhed og 
+indesluttethed eller at man hører, ser og mærker ting, som ikke eksisterer. Mennesker med denne 
+lidelse kan også føle sig deprimerede, angste eller anspændte. </p>
+</li>
+<li>
+<p>Moderate til svære maniske episoder, en tilstand med symptomer som begejstring og eufori. </p>
+</li>
+</ul>
+<p>Det er vist, at Olanzapine Teva forebygger tilbagefald af disse symptomer ved bipolar lidelse 
+(maniodepressiv sygdom) hos patienter, hvis maniske episode har reageret på olanzapinbehandling. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take olanzapine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take olanzapine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Olanzapine Teva </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for olanzapin eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). En allergisk reaktion kan kendes ved udslæt, kløe, hævelse af ansigt eller 
+læber eller kortåndethed. Hvis du har oplevet dette, skal du fortælle det til lægen. </p>
+</li>
+<li>
+<p>hvis du tidligere har fået at vide, at du har en bestemt slags glaukom (grøn stær) med øget tryk i 
+øjet. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Olanzapine Teva. </p>
+<ul>
+<li>
+<p>Olanzapine Teva anbefales ikke til ældre, demente patienter, da det kan have alvorlige 
+bivirkninger. </p>
+</li>
+<li>
+<p>Denne type medicin kan forårsage usædvanlige bevægelser af især ansigt eller tunge. Hvis dette 
+forekommer, når du har taget Olanzapine Teva, skal du fortælle det til lægen. </p>
+</li>
+<li>
+<p>Yderst sjældent forårsager denne slags medicin en kombination af feber, hurtigere vejrtrækning, 
+svedtendens, muskelstivhed og døsighed/søvnighed. Hvis dette forekommer, skal du omgående 
+kontakte din læge. </p>
+</li>
+<li>
+<p>Vægtøgning er set hos patienter, som tager Olanzapine Teva. Du og din læge bør jævnligt 
+kontrollere din vægt. Henvisning til en diætist eller hjælp med at lægge en kostplan bør om 
+nødvendigt overvejes.  </p>
+</li>
+<li>
+<p>Højt sukker- og fedtindhold (triglycerider og kolesterol) i blodet er set hos patienter, som tager 
+Olanzapine Teva. Inden du påbegynder behandling med Olanzapine Teva samt jævnligt i løbet 
+af behandlingen skal din læge tage blodprøver for at kontrollere indholdet af sukker og fedt i dit 
+blod.  </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du eller nogen i din familie tidligere har haft blodpropper, da denne 
+type medicin kan være forbundet med dannelse af blodpropper.  </p>
+</li>
+</ul>
+<p>Hvis du lider af en af de følgende sygdomme, skal du fortælle det til din læge hurtigst muligt: </p>
+<ul>
+<li>
+<p>Slagtilfælde eller forbigående symptomer på slagtilfælde </p>
+</li>
+<li>
+<p>Parkinsons sygdom </p>
+</li>
+<li>
+<p>Problemer med prostata (blærehalskirtlen) </p>
+</li>
+<li>
+<p>Tarmslyng (paralytisk ileus) </p>
+</li>
+<li>
+<p>Lever- eller nyresygdom </p>
+</li>
+<li>
+<p>Blodsygdomme </p>
+</li>
+<li>
+<p>Hjertesygdom </p>
+</li>
+<li>
+<p>Sukkersyge (diabetes mellitus) </p>
+</li>
+<li>
+<p>Krampeanfald </p>
+</li>
+<li>
+<p>Saltmangel som følge af langvarig alvorlig diarré og opkastning eller brug af vanddrivende 
+medicin (diuretika). </p>
+</li>
+</ul>
+<p>Hvis du lider af demens, bør du, din pårørende eller en anden, der hjælper dig, fortælle din læge, hvis 
+du nogensinde har haft et slagtilfælde, også hvis du ikke har nogen følger efter det. </p>
+<p>Som almindelig forholdsregel bør du - hvis du er over 65 år - have målt dit blodtryk hos din læge. </p>
+<p>Børn og unge 
+Olanzapine Teva er ikke beregnet til patienter under 18 år. </p>
+<p>Brug af anden medicin sammen med Olanzapine Teva 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. </p>
+<p>Tag kun anden medicin sammen med Olanzapine Teva, hvis din læge siger, at du må. Du kan komme 
+til at føle dig døsig, hvis Olanzapine Teva tages sammen med depressionsmidler eller medicin til 
+behandling af angst eller søvnløshed (sovepiller). </p>
+<p>Det er især vigtigt at fortælle lægen, hvis du tager:  </p>
+<ul>
+<li>
+<p>Medicin for Parkinsons sygdom.  </p>
+</li>
+<li>
+<p>Carbamazepin (mod epilepsi og stemningsforstyrrelser), fluvoxamin (mod depression) eller 
+ciprofloxacin (mod infektion), da det kan blive nødvendigt at ændre din Olanzapine Teva-dosis.  </p>
+</li>
+</ul>
+<p>Brug af Olanzapine Teva sammen med alkohol 
+Drik ikke nogen form for alkohol, når du får Olanzapine Teva, da det sammen med alkohol kan gøre 
+dig døsig. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Du bør ikke få denne medicin, mens du ammer, da små mængder Olanzapine Teva kan overføres til 
+modermælken.  </p>
+<p>Følgende symptomer kan forekomme hos nyfødte af mødre, som har taget Olanzapine Teva i sidste 
+trimester (de sidste tre måneder af graviditeten): rystelser, muskelstivhed og/eller svaghed, søvnighed, 
+ophidselse, vejrtrækningsbesvær og besvær med at indtage føde. Hvis dit barn får nogle af disse 
+symptomer, bør du kontakte din læge. </p>
+<p>Trafik- og arbejdssikkerhed 
+Der er risiko for døsighed, når du får Olanzapine Teva. Hvis dette opstår, må du ikke føre bil eller 
+betjene værktøj eller maskiner. Fortæl det til din læge. </p>
+<p>Olanzapine Teva indeholder lactose 
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take olanzapine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take olanzapine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Din læge vil fortælle dig, hvor mange Olanzapine Teva tabletter, du skal tage og i hvor lang tid, du 
+skal tage dem. Dagsdosis for Olanzapine Teva er mellem 5 mg og 20 mg. Konsulter din læge, hvis 
+dine symptomer vender tilbage, men stop ikke med at tage Olanzapine Teva medmindre, at din læge 
+siger det. </p>
+<p>Du bør tage Olanzapine Teva tabletter én gang dagligt efter din læges anvisning. Forsøg at tage 
+tabletterne på samme tidspunkt hver dag. Det er ligegyldigt, om du tager tabletterne til et måltid eller 
+ej. Olanzapine Teva overtrukne tabletter er til at synke. Du bør synke Olanzapine Teva tabletterne hele 
+med vand. </p>
+<p>Hvis du har taget for mange Olanzapine Teva overtrukne tabletter 
+Patienter, som har taget mere Olanzapine Teva end de burde, har oplevet følgende symptomer: Hurtig 
+hjerterytme, ophidselse/aggression, problemer med at tale, usædvanlige bevægelser (især af ansigt 
+eller tunge) eller nedsat bevidsthedsniveau (døsighed). Andre symptomer kan være: Akut forvirring, 
+krampeanfald (epilepsi), koma, en kombination af feber, hurtigere vejrtrækning, svedtendens, 
+muskelstivhed og døsighed/søvnighed, langsommere vejrtrækning, aspiration, højt eller lavt blodtryk, 
+unormal hjerterytme. 
+Kontakt omgående din læge eller dit sygehus, hvis du får nogen af de ovennævnte symptomer. Vis 
+tabletpakningen til lægen. </p>
+<p>Hvis du har glemt at tage Olanzapine Teva 
+Tag dine tabletter lige så snart, du kommer i tanke om det. Du må ikke tage to doser på en dag. </p>
+<p>Hvis du holder op med at tage Olanzapine Teva 
+Du må ikke holde op med at tage tabletterne, fordi du har fået det bedre. Det er vigtigt, du fortsætter 
+med at tage Olanzapine Teva, så længe lægen beder dig om det. </p>
+<p>Hvis du pludseligt holder op med at tage Olanzapine Teva, kan der forekomme symptomer som 
+svedtendens, søvnbesvær, rysten, angst, kvalme og opkastning. Din læge vil måske foreslå dig, at du 
+nedsætter din dosis gradvist, før du helt stopper. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl straks lægen, hvis du får:  </p>
+<ul>
+<li>
+<p>Unormale bevægelser (en almindelig bivirkning, som forekommer hos op til 1 ud af patienter) særligt i ansigtet eller tungen (grimasser);  </p>
+</li>
+<li>
+<p>Blodpropper i venerne (en ikke almindelig bivirkning, som forekommer hos op til 1 ud af patienter), særligt i benene (symptomerne omfatter hævelse og smerte i benet samt hudrødme). 
+Blodproppen kan rive sig løs og flyde med blodet til lungerne og kan dermed forårsage 
+brystsmerter og vejrtrækningsproblemer. Hvis du bemærker nogle af disse symptomer, skal du 
+omgående søge læge.  </p>
+</li>
+<li>
+<p>En kombination af feber, hurtigt åndedræt, svedtendens, muskelstivhed og sløvhed eller 
+søvnighed (hyppigheden af denne bivirkning kan ikke bestemmes ud fra tilgængelige data).  </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger (forekommer hos flere end 1 ud af 10 patienter) omfatter 
+vægtstigning, søvnighed samt forhøjede niveauer af prolaktin i blodet. I begyndelsen af behandlingen 
+kan nogle patienter føle svimmelhed eller svaghed (med langsom puls), særligt når de rejser sig fra 
+liggende eller siddende stilling. Det vil sædvanligvis gå over af sig selv, men hvis det ikke gør, så 
+fortæl det til lægen. </p>
+<p>Almindelige bivirkninger (forekommer hos op til 1 ud af 10 patienter) omfatter ændringer i mængden 
+af visse blodceller, cirkulerende fedtstoffer i blodet samt forbigående forhøjede leverenzymer tidligt i 
+behandlingen; forhøjet sukker i blodet og urinen; forhøjet urinsyre og kreatininkinase i blodet; øget 
+sultfornemmelse; svimmelhed; rastløshed; rysten; unormale bevægelser (dyskinesi); forstoppelse; 
+mundtørhed; hududslæt; tab af styrke; udpræget træthed; væskeophobning, som medfører hævede 
+hænder, ankler eller fødder; feber; ledsmerter og seksuelle problemer såsom nedsat sexlyst (libido) hos 
+mænd og kvinder eller rejsningsbesvær hos mænd.  </p>
+<p>Ikke almindelige bivirkninger (forekommer hos op til 1 ud af 100 patienter) omfatter overfølsomhed 
+(f.eks. hævelser i mund og hals, kløe, hududslæt); sukkersyge eller forværring af sukkersyge, af og til 
+ledsaget af syreforgiftning (ketoacidose - ketonstoffer i blod og urin) eller bevidstløshed; 
+krampeanfald, sædvanligvis hos patienter med tidligere krampeanfald (epilepsi); muskelstivhed eller 
+muskelkramper (herunder øjenbevægelser); restless legs-syndrom (stærk uro i underbenene); 
+problemer med at tale; stammen; langsom hjertefrekvens (puls); følsomhed over for sollys; næseblod; 
+udspilet mave; tendens til at savle; hukommelsestab eller glemsomhed; ufrivillig vandladning 
+(urininkontinens); vandladningsbesvær; hårtab; manglende menstruation eller længere intervaller 
+mellem menstruationerne; brystforandringer hos mænd og kvinder, såsom unormal produktion af 
+brystmælk eller unormal vækst.  </p>
+<p>Sjældne bivirkninger (forekommer hos op til 1 ud af 1.000 patienter) omfatter nedsat kropstemperatur; 
+unormal hjerterytme; pludselig uforklarlig død; betændelse i bugspytkirtlen, som forårsager 
+voldsomme mavesmerter, feber og utilpashed; leversygdom, som viser sig ved gulfarvning af huden 
+og af det hvide i øjnene; muskelsygdom, som viser sig med uforklarlige smerter; forlænget og/eller 
+pinefuld erektion. 
+Meget sjældne bivirkninger inkluderer alvorlige allergiske reaktioner såsom lægemiddelfremkaldt 
+reaktion med eosinofili og systemiske symptomer (DRESS). DRESS fremtræder indledningsvist som 
+influenzalignende symptomer med udslæt i ansigtet og sidenhen med mere udbredt udslæt, høj 
+temperatur, forstørrede lymfeknuder, forhøjede tal for leverenzymer i blodprøver og et øget antal 
+eosinofile granulocytter (en type hvide blodlegemer). </p>
+<p>Ældre patienter med demens kan under behandling med Olanzapine Teva opleve slagtilfælde, 
+lungebetændelse og urininkontinens. De kan også falde, blive voldsomt trætte, få synsbedrag, forhøjet 
+kropstemperatur, rødme i huden og få besvær med at gå. Der er set nogle dødsfald i denne gruppe af 
+patienter.  </p>
+<p>Hos patienter med Parkinsons sygdom kan Olanzapine Teva forværre symptomerne. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store olanzapine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store olanzapine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Må ikke opbevares over 25°C. Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olanzapine Teva indeholder:</p>
+<ul>
+<li>Aktivt stof: olanzapin. 
+Hver Olanzapine Teva 2,5 mg filmovertrukket tablet indeholder 2,5 mg af det aktive stof. 
+Hver Olanzapine Teva 5 mg filmovertrukket tablet indeholder 5 mg af det aktive stof. 
+Hver Olanzapine Teva 7,5 mg filmovertrukket tablet indeholder 7,5 mg af det aktive stof. 
+Hver Olanzapine Teva 10 mg filmovertrukket tablet indeholder 10 mg af det aktive stof. 
+Hver Olanzapine Teva 15 mg filmovertrukket tablet indeholder 15 mg af det aktive stof. 
+Hver Olanzapine Teva 20 mg filmovertrukket tablet indeholder 20 mg af det aktive stof. </li>
+<li>Øvrige indholdstoffer: 
+(tabletkernen) lactosemonohydrat, hydroxypropylcellulose, crospovidon (type A), silica, kolloid 
+vandfri, mikrokrystallinsk cellulose, magnesiumstearat, 
+(tabletovertrækket) hypromellose, polydextose, glyceroltriacetat, macrogol 8000, titandioxid 
+(E171). Derudover indeholder 15 mg styrken indigocarmin (E132) og 20 mg styrken indeholder 
+rød jernoxid E172). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Olanzapine Teva 2,5 mg filmovertrukket tablet er en hvid, bikonveks, rund filmovertrukket tablet, 
+præget med "OL 2,5" på den ene side og glat på den anden side. 
+Olanzapine Teva 5 mg filmovertrukket tablet er en hvid, bikonveks, rund filmovertrukket tablet, 
+præget med "OL 5" på den ene side og glat på den anden side. 
+Olanzapine Teva 7,5 mg filmovertrukket tablet er en hvid, bikonveks, rund filmovertrukket tablet, 
+præget med "OL 7,5" på den ene side og glat på den anden side. 
+Olanzapine Teva 10 mg filmovertrukket tablet er en hvid, bikonveks, rund filmovertrukket tablet, 
+præget med "OL 10" på den ene side og glat på den anden side. </p>
+<p>Olanzapine Teva 15 mg filmovertrukket tablet er en lyseblå, bikonveks, oval filmovertrukket tablet, 
+præget med "OL 15" på den ene side og glat på den anden side. 
+Olanzapine Teva 20 mg filmovertrukket tablet er en lyserød, bikonveks, oval filmovertrukket tablet, 
+præget med "OL 20" på den ene side og glat på den anden side. </p>
+<p>Olanzapine Teva 2,5 mg filmovertrukne tabletter fås i kartoner med 28, 30, 35, 56, 70 eller filmovertrukne tabletter. 
+Olanzapine Teva 5 mg filmovertrukne tabletter fås i kartoner med 28, 28 x 1, 30, 30 x 1, 35, 35 x 1, 
+50, 50 x 1, 56, 56 x 1, 70, 70 x 1, 98 eller 98 x 1 filmovertrukne tabletter. 
+Olanzapine Teva 7,5 mg filmovertrukne tabletter fås i kartoner med 28, 28 x 1, 30, 30 x 1, 35, 35 x 1, 
+56, 56 x 1, 60, 70, 70 x 1, 98 eller 98 x 1 filmovertrukne tabletter. 
+Olanzapine Teva 10 mg filmovertrukne tabletter fås i kartoner med 7, 7 x 1, 28, 28 x 1, 30, 30 x 1, 35, 
+35 x 1, 50, 50 x 1, 56, 56 x 1, 60, 70, 70 x 1, 98 eller 98 x 1 filmovertrukne tabletter. 
+Olanzapine Teva 15 mg filmovertrukne tabletter fås i kartoner med 28, 30, 35, 50, 56, 70 eller filmovertrukne tabletter. 
+Olanzapine Teva 20 mg filmovertrukne tabletter fås i kartoner med 28, 30, 35, 56, 70 eller filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+Holland  </p>
+<p>Fremstiller </p>
+<p>Teva Pharmaceutical Works Co. Ltd 
+Pallagi út 4042 Debrecen 
+Ungarn </p>
+<p>Hvis du ønsker yderligere oplysninger om Olanzapine Teva, skal du henvende dig til den lokale 
+repræsentant: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+SanoSwiss UAB 
+Litauen 
+Tlf: +370 70001 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 </p>
+<p>Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS A.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS A.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}.&gt; </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Olanzapine Teva 5 mg smeltetabletter<br />
+Olanzapine Teva 10 mg smeltetabletter<br />
+Olanzapine Teva 15 mg smeltetabletter<br />
+Olanzapine Teva 20 mg smeltetabletter<br />
+olanzapin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>Gem indlægssedlen. Du kan få brug for at læse den igen. </li>
+<li>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.  </li>
+<li>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </li>
+<li>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-be86a7120b3e7e0f4ee2c7a69bc3ffec
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for olanzapine Package Leaflet for language en"
+Description: "ePI document Bundle for olanzapine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-be86a7120b3e7e0f4ee2c7a69bc3ffec"
+* entry[0].resource = composition-en-be86a7120b3e7e0f4ee2c7a69bc3ffec
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbe86a7120b3e7e0f4ee2c7a69bc3ffec"
+* entry[=].resource = mpbe86a7120b3e7e0f4ee2c7a69bc3ffec
+                            
+                    
+Instance: bundlepackageleaflet-da-be86a7120b3e7e0f4ee2c7a69bc3ffec
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for olanzapine Package Leaflet for language da"
+Description: "ePI document Bundle for olanzapine Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-be86a7120b3e7e0f4ee2c7a69bc3ffec"
+* entry[0].resource = composition-da-be86a7120b3e7e0f4ee2c7a69bc3ffec
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbe86a7120b3e7e0f4ee2c7a69bc3ffec"
+* entry[=].resource = mpbe86a7120b3e7e0f4ee2c7a69bc3ffec
+                            
+                    
+
+
+
+Instance: mpbe86a7120b3e7e0f4ee2c7a69bc3ffec
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Olanzapine Teva 2.5 mg film-coated tablets"
-Description: "Olanzapine Teva 2.5 mg film-coated tablets"
+Title: "Medicinal Product olanzapine"
+Description: "olanzapine"
 Usage: #inline
 
  
@@ -412,7 +962,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Olanzapine Teva 2.5 mg film-coated tablets"
+  * productName = "olanzapine"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -439,29 +989,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-be86a7120b3e7e0f4ee2c7a69bc3ffec
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for olanzapine Package Leaflet for language en"
-Description: "ePI document Bundle for olanzapine Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: be86a7120b3e7e0f4ee2c7a69bc3ffecListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Olanzapine Teva 2.5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "olanzapine"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-be86a7120b3e7e0f4ee2c7a69bc3ffec"
-* entry[0].resource = composition-en-be86a7120b3e7e0f4ee2c7a69bc3ffec
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp62129cbde7b2dcffec7a88f8714816a3"
-* entry[=].resource = mp62129cbde7b2dcffec7a88f8714816a3
-                            
-                      
+* title = "List of all ePIs associated with olanzapine"
+
+* subject = Reference(mp62129cbde7b2dcffec7a88f8714816a3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#olanzapine "olanzapine"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-be86a7120b3e7e0f4ee2c7a69bc3ffec) // olanzapine en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-be86a7120b3e7e0f4ee2c7a69bc3ffec) // olanzapine da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-be86a7120b3e7e0f4ee2c7a69bc3ffec
+InstanceOf: List
+
+* insert be86a7120b3e7e0f4ee2c7a69bc3ffecListRuleset
+    

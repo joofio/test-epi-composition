@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-2879bea9059649bf46970484a32311c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for ryeqo Package Leaflet"
@@ -393,12 +396,561 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-2879bea9059649bf46970484a32311c1
+InstanceOf: CompositionUvEpi
+Title: "Composition for ryeqo Package Leaflet"
+Description:  "Composition for ryeqo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb89f0ab7bae5f6b0ae09b025fded70d9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb89f0ab7bae5f6b0ae09b025fded70d9
+* title = "TEST PURPOSES ONLY - ryeqo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Ryeqo 
+3. Sådan skal du tage Ryeqo 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ryeqo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ryeqo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ryeqo indeholder de aktive stoffer relugolix, østradiol og norethisteronacetat.  </p>
+<p>Det anvendes til behandling af<br />
+− 
+moderate til svære symptomer på muskelknuder i livmoderen (også kaldet myomer), som er 
+godartede svulster i livmoderen (uterus).<br />
+− 
+symptomer i forbindelse med endometriose hos kvinder, der tidligere har fået medicinsk eller 
+kirurgisk behandling for endometriose (endometriose er en ofte smertefuld tilstand, hvor væv, 
+der ligner det væv, der normalt beklæder indersiden af livmoderen - livmoderslimhinden, også 
+kaldet endometriet - vokser uden for livmoderen). </p>
+<p>Ryeqo anvendes til voksne kvinder (over 18 år), før de kommer i overgangsalderen. </p>
+<p>Hos nogle kvinder kan muskelknuder i livmoderen give anledning til kraftige menstruationsblødninger 
+og bækkensmerter (smerter i området under navlen). Ryeqo anvendes til behandling af 
+muskelknuderne for at stoppe eller reducere blødningen og til at lindre bækkensmerter og -ubehag, der 
+skyldes muskelknuder i livmoderen. </p>
+<p>Kvinder med endometriose kan opleve bækkensmerter eller smerter i nedre del af maven, smerter i 
+forbindelse med menstraution og smerter i forbindelse med samleje. Ryeqo anvendes til behandling af 
+endometriose for at reducere symptomerne, der skyldes forskydningen af væv fra livmoderslimhinden. </p>
+<p>Dette lægemiddel indeholder relugolix, der blokerer visse receptorer i hjernen, og dette nedsætter 
+produktionen af hormoner, der har til formål at stimulere æggestokkene til at producere østradiol og 
+progesteron. Denne blokering betyder, at koncentrationen af østrogen og progesteron i kroppen falder. 
+Lægemidlet indeholder også to typer kvindelige hormoner, østradiol, som hører til en gruppe af 
+lægemidler, der kaldes østrogener og norethisteron, som hører til en gruppe af lægemidler, der kaldes 
+gestagener. Indholdet af disse hormoner i Ryeqo gør, at der opretholdes en hormonstatus i kroppen, 
+der svarer til den, der ses i begyndelsen af menstruationscyklussen. Dette gør det muligt at lindre 
+symptomerne og samtidig beskytte knoglestyrken. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ryeqo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ryeqo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ryeqo 
+Tag ikke Ryeqo, hvis du lider af en eller flere af nedenstående tilstande. 
+Du skal fortælle det til din læge, hvis du lider af en eller flere af nedenstående tilstande: 
+− 
+hvis du er allergisk over for relugolix, østradiol, norethisteronacetat eller et af de øvrige 
+indholdsstoffer i Ryeqo (angivet i punkt 6). 
+− 
+hvis du har eller tidligere har haft en blodprop i et blodkar i benet (dyb venetrombose), 
+lungerne (lungeemboli), hjertet (hjerteanfald), hjernen (slagtilfælde) eller andre steder 
+i kroppen. 
+− 
+hvis du har eller tidligere har haft en sygdom forårsaget af blodpropper i arterierne som 
+f.eks. hjerteanfald, slagtilfælde eller angina pectoris (en svær form for brystsmerter). 
+− 
+hvis du har en blodkoagulationsforstyrrelse (som f.eks. protein C-mangel, protein S-mangel, 
+antitrombin III-mangel eller faktor V Leiden). 
+− 
+hvis du har knogleskørhed (osteoporose). 
+− 
+hvis du lider af hovedpine med lokaliserede (fokale) neurologiske symptomer som f.eks. 
+lammelse eller manglende muskelkontrol eller migræne med synsforstyrrelser. 
+− 
+hvis du har nogen form for kræft, som kan blive forværret ved udsættelse for kvindelige 
+kønshormoner som f.eks. brystkræft eller kræft i kønsorganerne. 
+− 
+hvis du har eller nogensinde har haft svulster i leveren. 
+− 
+hvis du har eller nogensinde har haft en leversygdom og dine leverfunktionstests (levertal) 
+ikke er normaliseret. 
+− 
+hvis du er gravid, eller hvis du tror, at du kan være gravid, eller hvis du ammer. 
+− 
+hvis du har blødning fra kønsorganerne af ukendt oprindelse. 
+− 
+hvis du tager hormonel prævention (f.eks. p-piller) og ikke er villig til at holde op med dette. </p>
+<p>Hvis en eller flere af ovenstående tilstande skulle opstå for første gang, mens du tager Ryeqo, skal du 
+øjeblikkeligt holde op med at tage det og straks kontakte din læge. </p>
+<p>Kontakt lægen, før du tager Ryeqo, hvis du er i tvivl om nogen af ovenstående punkter. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Ryeqo. </p>
+<p>Du skal vide, at de fleste kvinder oplever, at deres menstruationsblødning bliver mindre eller helt 
+udebliver under behandlingen og i nogle få uger derefter. </p>
+<p>Din læge vil diskutere din og din families sygehistorie med dig. Din læge vil også skulle kontrollere 
+dit blodtryk og sikre sig, at du ikke er gravid. Afhængig af dine specifikke behov og/eller bekymringer 
+kan det også være nødvendigt med en lægeundersøgelse og yderligere kontroller som f.eks. en 
+undersøgelse af dine bryster og en scanning, som måler, hvor stærke dine knogler er. </p>
+<p>Hold op med at tage Ryeqo, og søg øjeblikkeligt lægehjælp, hvis du bemærker: 
+− 
+en eller flere af de tilstande, der er nævnt i afsnittet "Tag ikke Ryeqo". 
+− 
+tegn på leversygdom: 
+− 
+gulfarvning af huden eller det hvide i øjnene (gulsot). 
+− 
+kvalme eller opkastning, feber, udpræget træthed. 
+− 
+mørkfarvet urin, kløe eller smerter i maveregionen. 
+− 
+en kraftig stigning i blodtrykket (symptomer kan være hovedpine, træthed, svimmelhed). 
+− 
+nyopstået migræne eller usædvanligt kraftig hovedpine, som opstår oftere end før. 
+− 
+mulige tegn på en blodprop, som kan betyde, at du har en blodprop i benet (også kaldet dyb 
+venetrombose) eller i lungerne (også kaldet lungeemboli), et hjerteanfald eller et slagtilfælde. 
+Se afsnittet "Risiko for blodprop med Ryeqo" for en beskrivelse af symptomer på disse alvorlige 
+tilstande. 
+− 
+hvis du bliver gravid. </p>
+<p>Fortæl det til din læge, hvis noget af nedenstående gælder for dig:<br />
+− 
+hvis du har en eller flere af de nedenfor anførte risikofaktorer for at udvikle en blodprop. 
+− 
+hvis du har forhøjet blodtryk. 
+− 
+hvis du har knogleskørhed (osteoporose). 
+− 
+hvis du lider af migræne. 
+− 
+hvis du tror, du kan være gravid. Behandling med Ryeqo fører normalt til en betragtelig 
+reduktion eller ligefrem til ophør af din menstruationsblødning, hvilket kan vanskeliggøre 
+erkendelsen af graviditet. 
+− 
+hvis du har eller tidligere har lidt af depression. 
+− 
+hvis du har en nyresygdom. </p>
+<p>Risiko for blodprop med Ryeqo 
+Anvendelsen af andre lægemidler, der indeholder et østrogen og et gestagen, øger risikoen for 
+blodpropper. Risikoen for blodprop med Ryeqo er ikke blevet fastslået. Ryeqo reducerer østrogenet 
+til niveauer, der svarer til det, der ses ved begyndelsen af en normal menstruationscyklus. </p>
+<p>Faktorer, som kan øge din risiko for en blodprop i en vene eller arterie: 
+− 
+efterhånden som du bliver ældre (især over cirka 35 år). 
+− 
+hvis du er overvægtig (kropsmasseindeks &gt; 30 kg/m2). 
+− 
+hvis du har gennemgået større kirurgiske indgreb eller i lang tid ikke har kunnet støtte 
+på benene (f.eks. hvis du har benet i gips). 
+− 
+hvis du har født for nylig. 
+− 
+hvis nogen i din nærmeste familie har haft en blodprop i benet, lungerne eller andre organer, 
+et hjerteanfald eller et slagtilfælde i en ung alder (dvs. under 50 år). 
+− 
+hvis du ryger. 
+− 
+hvis du har problemer med hjertet (hjerteklaplidelse, forstyrrelse af hjerterytmen kaldet 
+atrieflimren). 
+− 
+hvis du har diabetes. 
+− 
+hvis du lider af visse medicinske tilstande som f.eks. systemisk lupus erythematosus (SLE - 
+en sygdom, der påvirker kroppens naturlige forsvarssystem), seglcellesygdom (en arvelig 
+sygdom i de røde blodlegemer), Crohns sygdom eller ulcerativ colitis (kroniske 
+inflammatoriske tarmsygdomme) eller kræft. </p>
+<p>Risikoen for at udvikle en blodprop øges, jo flere faktorer der gør sig gældende. </p>
+<p>Symptomerne på en blodprop afhænger af, hvor blodproppen opstår. </p>
+<p>Symptomer på en blodprop i benet (dyb venetrombose, DVT) 
+Symptomerne på en blodprop i benet, også kaldet en dyb venetrombose (DVT), kan omfatte: 
+− 
+hævelse af benet og/eller foden eller langs en vene i benet. 
+− 
+smerte eller ømhed i benet, som muligvis kun mærkes, når du står eller går. 
+− 
+øget varme i det pågældende ben med rød eller misfarvet hud. </p>
+<p>Symptomer på en blodprop i lungerne (lungeemboli) 
+Symptomerne på en blodprop i lungerne, også kaldet lungeemboli, kan omfatte: 
+− 
+pludseligt opstået uforklarlig åndenød eller hurtig vejrtrækning. 
+− 
+pludseligt opstået hoste, som kan være ledsaget af skarpe smerter i brystet. 
+− 
+ophostning af blod. 
+− 
+svær ørhed eller svimmelhed. 
+− 
+hurtige eller uregelmæssige hjerteslag (puls). </p>
+<p>Symptomer på et hjerteanfald 
+Symptomerne på et hjerteanfald, også kaldet myokardieinfarkt, kan være forbigående og kan omfatte: 
+− 
+smerte, ubehag, tryk, tyngdefornemmelse, knugende fornemmelse eller oppustethed i brystet, 
+armen eller under brystbenet. 
+− 
+ubehag strålende ud til ryggen, kæben, halsen, armen, maven. 
+− 
+oppustethed, fordøjelsesbesvær eller kvælningsfornemmelse. 
+− 
+sveden, kvalme, opkastning eller svimmelhed. 
+− 
+ekstrem svækkelse, angst eller åndenød. 
+− 
+hurtige eller uregelmæssige hjerteslag (puls). </p>
+<p>Symptomer på et slagtilfælde 
+Symptomerne på et slagtilfælde kan omfatte: 
+− 
+pludseligt opstået svækkelse eller følelsesløshed i ansigtet, armen eller benet, især i den ene side 
+af kroppen. 
+− 
+pludseligt opstået gangbesvær, svimmelhed, tab af balance eller koordinationsevne. 
+− 
+pludseligt opstået forvirring, tale- og forståelsesbesvær. 
+− 
+pludseligt opstået synsbesvær på et eller begge øjne. 
+− 
+pludseligt opstået, svær eller langvarig hovedpine uden kendt årsag. 
+− 
+bevidsthedstab eller besvimelse med eller uden krampeanfald. </p>
+<p>Kirurgi 
+Hvis du skal gennemgå et kirurgisk indgreb, skal du fortælle kirurgen, at du tager Ryeqo. </p>
+<p>Leversvulster eller leversygdom 
+I sjældne tilfælde er der blevet rapporteret om leversvulster eller leversygdom hos kvinder, der tager 
+østrogener og gestagener. Hvis du får symptomer på gulsot, skal du kontakte din læge med henblik 
+på yderligere medicinsk vejledning. </p>
+<p>Nedsat nyrefunktion 
+Hvis du oplever et fald i mængden af urin eller bemærker væskeophobning, der giver hævelser 
+i benene, anklerne eller fødderne, skal du kontakte din læge med henblik på yderligere medicinsk 
+vejledning. </p>
+<p>Ændring i menstruationsblødningens mønster 
+Behandling med Ryeqo fører normalt til en væsentlig reduktion eller ligefrem til ophør af din 
+menstruationsblødning inden for de første 30 dages behandling. Hvis du bliver ved med at have meget 
+kraftige blødninger, skal du sige det til lægen.  </p>
+<p>Depression 
+Hvis du oplever humørsvingninger eller symptomer på depression, skal du kontakte din læge 
+med henblik på yderligere medicinsk vejledning. </p>
+<p>Forhøjet blodtryk 
+I sjældne tilfælde kan behandling med Ryeqo medføre små stigninger i blodtrykket. Hvis du får 
+symptomer på forhøjet blodtryk, skal du kontakte din læge med henblik på yderligere medicinsk 
+vejledning. </p>
+<p>Fremfald eller afstødning af muskelknude i livmoderen 
+Muskelknuder i livmoderen kan udvikle sig hvor som helst i livmoderens muskelvæg, herunder 
+submucosa, der er det tynde vævslag under slimhinden i livmoderen. Hos visse kvinder kan 
+muskelknuden i livmoderen falde frem og glide gennem livmoderhalsen ned i skeden, hvilket kan føre 
+til en markant forværring af blødningen i livmoderen eller smerterne. Hvis du oplever kraftig blødning 
+fra livmoderen, efter dine symptomer ellers har forbedret sig, og mens du er i behandling med Ryeqo, 
+skal du kontakte lægen med henblik på medicinsk vejledning. </p>
+<p>Galdeblærelidelser 
+Visse kvinder, som tager hormonerne østrogen og gestagen, herunder Ryeqo, har rapporteret om 
+galdeblærelidelser (galdesten eller betændelse i galdeblæren). Hvis du oplever usædvanligt kraftige 
+smerter under brystkassen eller i den øvre maveregion, skal du kontakte lægen med henblik på 
+medicinsk vejledning. </p>
+<p>Børn og unge 
+Ryeqo må ikke tages af børn under 18 år, eftersom Ryeqos sikkerhed og virkning ikke er blevet 
+undersøgt i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Ryeqo 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Fortæl det til lægen, hvis du tager et eller flere af nedenstående lægemidler, da disse lægemidler 
+kan påvirke Ryeqo eller blive påvirket af Ryeqo. 
+− 
+Visse lægemidler, der bruges til behandling af epilepsi (f.eks. carbamazepin, topiramat, 
+phenytoin, phenobarbital, primidon, oxcarbazepin, felbamat). 
+− 
+Visse lægemidler, der bruges til behandling af human immundefekt virusinfektion/erhvervet 
+immundefekt syndrom (hiv/aids) (f.eks. ritonavir, efavirenz). 
+− 
+Visse lægemidler, der bruges til behandling af hepatitis C-virus (HCV) (f.eks. boceprevir, 
+sofosbuvir, velpatasvir, voxilaprevir, telaprevir, glecaprevir). 
+− 
+Visse lægemidler, der bruges til behandling af svampeinfektioner (f.eks. ketoconazol, 
+itraconazol, fluconazol, griseofulvin). 
+− 
+Visse lægemidler, der bruges til behandling af bakterieinfektioner (f.eks. rifampicin, rifabutin, 
+clarithromycin, erythromycin, gentamicin, tetracyclin, griseofulvin). 
+− 
+Visse lægemidler, der bruges til behandling af højt blodtryk i arterierne i lungerne 
+(f.eks. bosentan). 
+− 
+Visse lægemidler, der bruges til behandling af højt blodtryk (f.eks. diltiazem, carvedilol, 
+verapamil). 
+− 
+Visse lægemidler, der bruges til behandling af uregelmæssige hjerteslag (f.eks. amiodaron, 
+dronedaron, propafenon, quinidin, verapamil). 
+− 
+Visse lægemidler, der bruges til behandling af angina pectoris (f.eks. ranolazin, carvedilol, 
+verapamil). 
+− 
+Visse lægemidler, der bruges til forebyggelse af organafstødning efter transplantation 
+(f.eks. ciclosporin). 
+− 
+Naturmedicin, der indeholder perikon (Hypericum perforatum). </p>
+<p>Graviditet og amning 
+Tag ikke Ryeqo, hvis du er gravid eller ammer. Hvis du har mistanke om, at du er gravid, eller 
+planlægger at blive gravid, skal du spørge din læge til råds, før du tager dette lægemiddel. Hvis du 
+bliver gravid, skal du stoppe med at tage Ryeqo og kontakte din læge. </p>
+<p>Ryeqo stopper ægløsningen, og det er derfor ikke sandsynligt, at du skulle blive gravid, så længe 
+du anvender Ryeqo som anvist. Ægløsning og menstruationsblødning vil vende tilbage hurtigt efter, at 
+du er holdt op med at tage Ryeqo, og du skal anvende anden prævention, så snart du holder op med at 
+tage Ryeqo. </p>
+<p>Afhængig af, hvornår i din cyklus du starter med at tage Ryeqo, kan det tage en vis tid at opnå den 
+fulde hæmning af ægløsningen. Derfor skal du anvende ikke-hormonel prævention (f.eks. kondom) 
+i den første måned efter at have startet med Ryeqo. </p>
+<p>Hvis du kommer til at glemme to eller flere tabletter i træk, skal du bruge ikke-hormonel prævention 
+(f.eks. kondom) de næste 7 dage af behandlingen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Ryeqo har ingen kendt indvirkning på evnen til at køre og betjene maskiner. </p>
+<p>Laboratorietests 
+Hvis du skal have taget en blod- eller urinprøve, skal du fortælle til lægen eller laboratoriepersonalet, 
+at du tager Ryeqo, da lægemidlet kan påvirke resultatet af visse prøver. </p>
+<p>Ryeqo indeholder lactose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ryeqo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ryeqo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er én tablet dagligt. </p>
+<p>Tabletten skal tages gennem munden (oralt) hver dag på cirka det samme tidspunkt, med eller uden 
+mad og med en smule væske. </p>
+<p>Det anbefales, at du starter med at tage Ryeqo inden for de første 5 dage efter starten af din 
+menstruationsblødning. Hvis du starter på et andet tidspunkt i menstruationscyklussen, kan du 
+indledningsvist opleve uregelmæssig eller kraftigere blødning. </p>
+<p>Hvis du har taget for meget Ryeqo 
+Der har ikke været rapporteret om alvorlige bivirkninger efter indtagelse af adskillige doser samtidigt 
+af dette lægemiddel. Store doser østrogen kan give kvalme op opkastning og blødning fra skeden. 
+Hvis du har taget for mange Ryeqo-tabletter, skal du spørge lægen eller apotekspersonalet til råds. </p>
+<p>Hvis du har glemt at tage Ryeqo 
+Hvis du glemmer at tage én tablet, skal du tage den, så snart du kommer i tanke om det, og derefter 
+tage din tablet som normalt dagen efter. Du må ikke tage en dobbeltdosis som erstatning for den 
+glemte tablet. </p>
+<p>Hvis du glemmer at tage to eller flere tabletter i træk, skal du rådføre dig med lægen og bruge ikke-
+hormonel prævention (f.eks. kondom) de næste 7 dage af behandlingen. </p>
+<p>Hvis du holder op med at tage Ryeqo 
+Hvis du ønsker at holde op med at tage Ryeqo, skal du først tale med din læge. Lægen vil forklare 
+virkningen af at stoppe behandlingen og diskutere andre muligheder med dig. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Søg øjeblikkelig lægehjælp, hvis du får et eller flere af følgende tegn og symptomer på en allergisk 
+reaktion: 
+− 
+hævelse af læber, ansigt eller svælg. </p>
+<p>Følgende bivirkninger er blevet rapporteret med Ryeqo og er anført herunder i henhold til den 
+hyppighed, hvormed de kan forekomme. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): 
+− 
+hovedpine, 
+− 
+hedeture. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): 
+− 
+irritabilitet, 
+− 
+nedsat sexlyst, 
+− 
+svimmelhed, 
+− 
+kvalme, 
+− 
+hårtab, 
+− 
+øget svedtendens, 
+− 
+natlige svedeture, 
+− 
+ledsmerter, 
+− 
+overdreven, uregelmæssig eller langvarig blødning fra livmoderen (uterinblødning), 
+− 
+tørhed i intimområdet </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): 
+− 
+fordøjelsesbesvær, 
+− 
+nældefeber (urticaria), 
+− 
+angioødem (hurtig hævelse af slimhinder eller hud, der kan forekomme i ansigtet, munden, 
+tungen, maven eller armene og benene), 
+− 
+en knude i brystvævet (brystcyste), 
+− 
+afstødning af uterint myom (fibromet afstødes enten helt eller delvist gennem skeden, normalt 
+ledsaget af øget blødning fra skeden) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ryeqo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ryeqo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på både den ydre karton og på beholderen efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ryeqo indeholder: 
+− 
+Aktive stoffer: relugolix, østradiol og norethisteronacetat. Hver filmovertrukket tablet 
+indeholder 40 mg relugolix, 1 mg østradiol og 0,5 mg norethisteronacetat. 
+− 
+Øvrige indholdsstoffer: lactosemonohydrat, mannitol (E421), natriumstivelsesglycolat, 
+hydroxypropylcellulose (E463), magnesiumstearat (E572), hypromellose type 2910 (E464), 
+titandioxid (E171), triacetin (E1518), gul jernoxid (E172). </p>
+<p>Udseende og pakningsstørrelser 
+Ryeqo er en lysegul til gul, rund filmovertrukket tablet på 8 mm med "415" på den ene side og uden 
+præg på den anden side. Tabletterne leveres i beholdere af polyethylen med høj densitet (HDPE) med 
+tørremiddel, der er lukket med et induktionsforseglet, børnesikret polypropylenlåg, eller i blisterkort af 
+PVC/Al med tørremiddel, der er pakket i breve af trelagsfolie (PET/Al/PE). Hver æske indeholder én 
+eller tre beholdere med 28 tabletter eller to eller seks blisterkort med 14 tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Gedeon Richter Plc. 
+Gyömrői út 19-21. 1103 Budapest 
+Ungarn </p>
+<p>Fremstiller (batchfrigivelsessteder) 
+Gedeon Richter Plc. 
+Gyömrői út 19-21. 1103 Budapest 
+Ungarn </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-2879bea9059649bf46970484a32311c1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ryeqo Package Leaflet for language en"
+Description: "ePI document Bundle for ryeqo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2879bea9059649bf46970484a32311c1"
+* entry[0].resource = composition-en-2879bea9059649bf46970484a32311c1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2879bea9059649bf46970484a32311c1"
+* entry[=].resource = mp2879bea9059649bf46970484a32311c1
+                            
+                    
+Instance: bundlepackageleaflet-da-2879bea9059649bf46970484a32311c1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ryeqo Package Leaflet for language da"
+Description: "ePI document Bundle for ryeqo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-2879bea9059649bf46970484a32311c1"
+* entry[0].resource = composition-da-2879bea9059649bf46970484a32311c1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2879bea9059649bf46970484a32311c1"
+* entry[=].resource = mp2879bea9059649bf46970484a32311c1
+                            
+                    
+
+
+
+Instance: mp2879bea9059649bf46970484a32311c1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ryeqo 40 mg/1 mg/0.5 mg film-coated tablets"
-Description: "Ryeqo 40 mg/1 mg/0.5 mg film-coated tablets"
+Title: "Medicinal Product ryeqo"
+Description: "ryeqo"
 Usage: #inline
 
  
@@ -418,7 +970,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ryeqo 40 mg/1 mg/0.5 mg film-coated tablets"
+  * productName = "ryeqo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -445,29 +997,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-2879bea9059649bf46970484a32311c1
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ryeqo Package Leaflet for language en"
-Description: "ePI document Bundle for ryeqo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 2879bea9059649bf46970484a32311c1ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1565/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ryeqo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-2879bea9059649bf46970484a32311c1"
-* entry[0].resource = composition-en-2879bea9059649bf46970484a32311c1
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb89f0ab7bae5f6b0ae09b025fded70d9"
-* entry[=].resource = mpb89f0ab7bae5f6b0ae09b025fded70d9
-                            
-                      
+* title = "List of all ePIs associated with ryeqo"
+
+* subject = Reference(mpb89f0ab7bae5f6b0ae09b025fded70d9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ryeqo "ryeqo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-2879bea9059649bf46970484a32311c1) // ryeqo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-2879bea9059649bf46970484a32311c1) // ryeqo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-2879bea9059649bf46970484a32311c1
+InstanceOf: List
+
+* insert 2879bea9059649bf46970484a32311c1ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-16019d0f068b393be3091cc008ef79bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for tafinlar Package Leaflet"
@@ -678,12 +681,1178 @@ http://www.ema.europa.eu. </p>
 
 
 
+Instance: composition-da-16019d0f068b393be3091cc008ef79bf
+InstanceOf: CompositionUvEpi
+Title: "Composition for tafinlar Package Leaflet"
+Description:  "Composition for tafinlar Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp27544cee91e009999156cd82d21ab1a4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp27544cee91e009999156cd82d21ab1a4
+* title = "TEST PURPOSES ONLY - tafinlar"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Tafinlar </li>
+<li>Sådan skal du tage Tafinlar </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tafinlar is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tafinlar is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tafinlar er et lægemiddel, der indeholder det aktive stof dabrafenib. Det anvendes enten alene eller i 
+kombination med et lægemiddel, der indeholder trametinib, til at behandle en form for hudkræft hos 
+voksne, der kaldes melanom, som har spredt sig til andre dele af kroppen eller ikke kan fjernes ved 
+operation. Tafinlar i kombination med trametinib anvendes også til at behandle en type lungekræft, der 
+kaldes ikke-småcellet lungekræft (NSCLC). </p>
+<p>Tafinlar i kombination med trametinib anvendes også til at forebygge tilbagefald af melanom efter, at 
+det er blevet fjernet ved operation. </p>
+<p>Begge kræfttyper har en bestemt ændring (mutation) ved position V600 i et gen, der kaldes BRAF. 
+Denne ændring i genet kan have været årsagen til udviklingen af kræften. Dit lægemiddel er rettet mod 
+proteiner, der er lavet fra dette muterede gen og hæmmer eller stopper udviklingen af din kræft. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tafinlar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tafinlar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tafinlar må kun anvendes til behandling af melanomer og NSCLC med BRAF-mutation. Lægen vil 
+derfor teste for denne mutation, inden behandlingen bliver startet. </p>
+<p>Hvis lægen beslutter, at du skal behandles med en kombination af Tafinlar og trametinib, skal du læse 
+både denne indlægsseddel og indlægssedlen for trametinib omhyggeligt. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>
+<p>Tag ikke Tafinlar </p>
+<ul>
+<li>hvis du er allergisk over for dabrafenib eller et af de øvrige indholdsstoffer i Tafinlar (angivet i 
+punkt 6). 
+Tal med lægen, hvis du tror dette gælder for dig. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Tafinlar. Lægen skal vide, hvis du: </p>
+<ul>
+<li>
+<p>har leverproblemer. </p>
+</li>
+<li>
+<p>har eller har haft nyreproblemer. 
+Lægen vil tage blodprøver for at måle din lever- og nyrefunktion, mens du er i behandling med 
+Tafinlar. </p>
+</li>
+<li>
+<p>har haft en anden type kræft end malignt melanom eller NSCLC, da du kan have større 
+risiko for at udvikle anden hudkræft eller kræft, som ikke er hudkræft, når du tager Tafinlar. </p>
+</li>
+</ul>
+<p>Inden du tager Tafinlar i kombination med trametinib, skal lægen vide: </p>
+<ul>
+<li>
+<p>om du har hjerteproblemer såsom hjertesvigt eller problemer med den måde, dit hjerte slår på. </p>
+</li>
+<li>
+<p>om du har øjenproblemer, herunder blokering af den vene, der leder væske fra øjet (retinal 
+veneokklusion) eller hævelse i øjet, som kan være forårsaget af væskeophobning 
+(korioretinopati). </p>
+</li>
+<li>
+<p>om du har eller har haft lunge- eller vejrtrækningsproblemer, herunder åndedrætsbesvær, som 
+ofte er ledsaget af tør hoste, åndenød og træthed. </p>
+</li>
+<li>
+<p>om du har eller har haft problemer med mave eller tarm, som fx diverticulitis (betændte 
+udposninger i tyktarmen) eller metastaser i mave-tarm-kanalen. </p>
+</li>
+</ul>
+<p>Fortæl det til lægen, hvis du tror, at noget af ovenstående gælder for dig. </p>
+<p>Tilstande, som du skal holde øje med 
+Nogle personer, der tager Tafinlar, udvikler andre tilstande, der kan være alvorlige. Det er nødvendigt, 
+at du kender til vigtige tegn og symptomer, som du skal holde øje med, mens du tager dette 
+lægemiddel. Nogle af disse symptomer (blødning, feber, forandringer i huden og øjenproblemer) er 
+kort beskrevet i dette punkt, men du kan finde mere detaljerede oplysninger i punkt 4 "Bivirkninger". </p>
+<p>Blødning 
+Indtagelse af Tafinlar i kombinationen med trametinib kan forårsage alvorlig blødning i hjernen, 
+fordøjelsessystemet (såsom maven, endetarmen eller tarmen), lungerne og andre organer og kan 
+medføre døden. Symptomerne kan være: </p>
+<ul>
+<li>
+<p>hovedpine, svimmelhed eller svaghed </p>
+</li>
+<li>
+<p>blod i afføringen eller sort afføring </p>
+</li>
+<li>
+<p>blod i urinen </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>ophostning/opkastning af blod </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du får nogen af disse symptomer. </p>
+<p>Feber 
+Behandling med Tafinlar eller med kombinationen af Tafinlar og trametinib kan forårsage feber, men 
+risikoen er størst, hvis du tager kombinationsbehandlingen (se også punkt 4). I nogle tilfælde kan 
+personer med feber udvikle lavt blodtryk, svimmelhed eller andre symptomer. </p>
+<p>Fortæl det straks til lægen, hvis du får feber over 38 ºC, eller hvis du føler, at du er ved at få feber, 
+mens du tager dette lægemiddel. </p>
+<p>Hjerteproblemer 
+Tafinlar kan give hjerteproblemer eller forværre allerede eksisterende hjerteproblemer (se også 
+“Hjerteproblemer" i punkt 4), hos personer som tager Tafinlar i kombination med trametinib. </p>
+<p>Fortæl det til lægen, hvis du har problemer med hjertet. Lægen vil foretage nogle undersøgelser 
+for at kontrollere, om dit hjerte fungerer, som det skal, før og under behandlingen med Tafinlar i 
+kombination med trametinib. Fortæl det straks til lægen, hvis du føler hjertebanken, galopperende 
+hjerte, uregelmæssige hjerteslag, eller hvis du oplever svimmelhed, træthed, ørhed, åndenød eller 
+hævelse i benene. Hvis det bliver nødvendigt, kan lægen beslutte at afbryde din behandling 
+midlertidigt eller stoppe den helt. </p>
+<p>Ændringer i din hud, som kan være tegn på ny hudkræft 
+Lægen vil undersøge din hud, inden du begynder at tage dette lægemiddel, og derefter regelmæssigt, 
+så længe du tager det. Fortæl det omgående til lægen, hvis du bemærker nogen forandringer i huden, 
+mens du tager dette lægemiddel eller efter behandlingen (se også punkt 4). </p>
+<p>Øjenproblemer 
+Du skal have undersøgt dine øjne af lægen, mens du tager dette lægemiddel. 
+Fortæl det omgående til lægen, hvis du får røde eller irriterede øjne, sløret syn, øjensmerter eller 
+andre ændringer i synet under behandlingen (se også punkt 4). 
+Tafinlar i kombination med trametinib kan give øjenproblemer, herunder blindhed. Trametinib 
+anbefales ikke, hvis du har haft blokade af den vene, som leder væske fra øjet (retinal veneokklusion). 
+Fortæl det straks til lægen, hvis du under behandlingen får følgende symptomer på øjenproblemer: 
+sløret syn, nedsat syn eller andre ændringer i synet, farvede prikker i synsfeltet eller ser haloer 
+(uskarpe konturer omkring genstande). Hvis det bliver nødvendigt, kan lægen beslutte at afbryde 
+behandlingen midlertidigt eller stoppe den helt. </p>
+<p>➔ 
+Læs oplysningerne om feber, forandringer i huden og øjenproblemer i punkt 4 i denne 
+indlægsseddel. Fortæl det til lægen, apotekspersonalet eller sygeplejersken, hvis du får 
+nogle af de anførte tegn og symptomer. </p>
+<p>Leverproblemer 
+Tafinlar i kombination med trametinib kan forårsage leverproblemer, som kan udvikle sig til alvorlige 
+tilstande, såsom leverbetændelse og leversvigt, som kan være dødeligt. Lægen vil tjekke dig 
+regelmæssigt. Tegn på, at din lever ikke fungerer ordentligt, kan være: </p>
+<ul>
+<li>
+<p>manglende appetit </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>gulfarvning af huden eller det hvide i øjnene (gulsot) </p>
+</li>
+<li>
+<p>mørk urin </p>
+</li>
+<li>
+<p>hudkløe </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du får nogen af disse symptomer. </p>
+<p>Muskelsmerter 
+Tafinlar, i kombination med trametinib, kan medføre nedbrydning af muskelvæv (rabdomyolyse). 
+Fortæl det straks til lægen, hvis du får nogen af disse symptomer. </p>
+<ul>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>mørk urin som følge af nyreskader </p>
+</li>
+</ul>
+<p>Hvis det bliver nødvendigt, kan lægen beslutte at afbryde din behandling midlertidigt eller stoppe den 
+helt. </p>
+<p>Hul i maven eller tarmen (perforation) 
+At tage kombinationen af Tafinlar og trametinib kan øge risikoen for at udvikle huller i tarmvæggen. 
+Fortæl det straks til lægen, hvis du får kraftige mavesmerter. </p>
+<p>Alvorlige hudreaktioner 
+Der er rapporteret tilfælde af alvorlige hudreaktioner hos personer, der tog Tafinlar i kombination med 
+trametinib. Fortæl det straks til lægen, hvis du bemærker forandringer i huden (se punkt 4 for 
+symptomer du bør være opmærksom på). </p>
+<p>En inflammatorisk sygdom, der primært påvirker hud, lunger, øjne og lymfeknuder 
+En inflammatorisk sygdom, der primært påvirker hud, lunger, øjne og lymfeknuder (sarkoidose). 
+Almindelige symptomer på sarkoidose kan omfatte hoste, åndenød, hævede lymfeknuder, 
+synsforstyrrelser, feber, træthed, smerter og hævelse i leddene og ømme knuder på huden. Fortæl det 
+til lægen, hvis du får nogen af disse symptomer. </p>
+<p>Immunforsvaret 
+Tafinlar i kombination med trametinib kan i sjældne tilfælde medføre en tilstand (hæmofagocytisk 
+lymfohistiocytose, HLH), hvor immunforsvaret producerer for mange infektionsbekæmpende celler, 
+der kaldes histiocytter og lymfocytter. Symptomerne omfatter forstørret lever og/eller milt, hududslæt, 
+forstørrede lymfeknuder, vejrtrækningsbesvær, tendens til blå mærker, nyreproblemer og 
+hjerteproblemer. Fortæl det straks til lægen, hvis du samtidig får flere symptomer såsom feber, hævede 
+lymfekirtler, blå mærker eller hududslæt. </p>
+<p>Tumorlyse syndrom 
+Hvis du oplever følgende symptomer, skal du straks fortælle det til lægen, da dette kan være tegn på 
+en livstruende tilstand: kvalme, åndenød, uregelmæssig hjerterytme, muskelkramper, krampeanfald, 
+uklar urin, nedsat urinproduktion og træthed. Disse symptomer kan være forårsaget af en gruppe 
+metaboliske komplikationer, der kan opstå under behandling af kræft, som er forårsaget af 
+nedbrydningsprodukter fra døende kræftceller (tumorlyse syndrom eller TLS) og kan føre til 
+ændringer i nyrefunktionen (se også punkt 4). </p>
+<p>Børn og unge 
+Tafinlar anbefales ikke til børn og unge. Virkningerne af Tafinlar hos personer, der er yngre end 18 år, 
+kendes ikke. </p>
+<p>Brug af andre lægemidler sammen med Tafinlar 
+Før du starter behandlingen, skal du fortælle lægen, apotekspersonalet eller sygeplejersken, hvis du 
+tager andre lægemidler, for nylig har taget andre lægemidler eller planlægger at tage andre lægemidler. 
+Dette gælder også lægemidler, som ikke er købt på recept. </p>
+<p>Nogle lægemidler kan påvirke virkningen af Tafinlar eller gøre det mere sandsynligt, at du får 
+bivirkninger. Tafinlar kan også påvirke virkningen af andre lægemidler. Disse lægemidler omfatter: </p>
+<ul>
+<li>
+<p>svangerskabsforebyggende lægemidler (kontraceptiva), der indeholder hormoner, fx piller, 
+injektioner eller plastre </p>
+</li>
+<li>
+<p>warfarin og acenocoumarol, lægemidler, som bruges til at fortynde blodet </p>
+</li>
+<li>
+<p>digoxin, som bruges til behandling af hjerteproblemer </p>
+</li>
+<li>
+<p>lægemidler til behandling af svampeinfektioner, fx ketoconazol, itraconazol, voriconazol og 
+posaconazol </p>
+</li>
+<li>
+<p>visse calciumantagonister, som bruges til at behandle højt blodtryk, fx diltiazem, felodipin, 
+nicardipin, nifedipin eller verapamil </p>
+</li>
+<li>
+<p>lægemidler til at behandle kræft, fx cabazitaxel </p>
+</li>
+<li>
+<p>visse lægemidler til at sænke fedtindholdet (lipider) i blodet, fx gemfibrozil </p>
+</li>
+<li>
+<p>visse lægemidler som bruges til at behandle visse former for psykiske lidelser, fx haloperidol </p>
+</li>
+<li>
+<p>visse antibiotika, fx clarithromycin, doxycyklin og telithromycin </p>
+</li>
+<li>
+<p>visse lægemidler mod tuberkulose (TB), fx rifampicin </p>
+</li>
+<li>
+<p>visse kolesterolsænkende lægemidler, fx atorvastatin og simvastatin </p>
+</li>
+<li>
+<p>visse immunundertrykkende lægemidler (immunsuppressiva), fx ciclosporin, tacrolimus og 
+sirolimus </p>
+</li>
+<li>
+<p>visse antiinflammatoriske lægemidler, fx dexamethason og methylprednisolon </p>
+</li>
+<li>
+<p>visse lægemidler til behandling af hiv, fx ritonavir, amprenavir, indinavir, darunavir, 
+delavirdine, efavirenz, fosamprenavir, lopinavir, nelfinavir, tipranavir, saquinavir og atazanavir </p>
+</li>
+<li>
+<p>visse smertestillende lægemidler, fx fentanyl og methadon </p>
+</li>
+<li>
+<p>lægemidler til behandling af krampeanfald (epilepsi), fx phenytoin, phenobarbital, primidon, 
+valproat eller carbamazepin </p>
+</li>
+<li>
+<p>antidepressiva, fx nefazodon og naturlægemidlet perikon (hypericum perforatum). </p>
+</li>
+</ul>
+<p>➔ 
+Fortæl det til lægen, apotekspersonalet eller sygeplejersken, hvis du tager nogen af 
+ovenstående præparater (eller hvis du ikke er sikker). Lægen vil måske beslutte at ændre din 
+dosis. </p>
+<p>Hav en liste over de lægemidler, du tager, på dig, så du kan vise den til lægen, apotekspersonalet eller 
+sygeplejersken. </p>
+<p>Graviditet, amning og frugtbarhed 
+Du må ikke bruge Tafinlar under graviditet. </p>
+<ul>
+<li>
+<p>Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge, apotekspersonalet eller sygeplejersken til råds, før du tager dette lægemiddel. 
+Tafinlar må ikke bruges under graviditet, da det muligvis kan skade et ufødt barn. </p>
+</li>
+<li>
+<p>Hvis du er kvinde og kan blive gravid, skal du bruge en sikker præventionsmetode, mens du 
+tager Tafinlar og i mindst 2 uger, efter at du er holdt op med at tage det, og i mindst 16 uger 
+efter den sidste dosis af trametinib, hvis det gives i kombination med Tafinlar. </p>
+</li>
+<li>
+<p>Svangerskabsforebyggende lægemidler, der indeholder hormoner (fx piller, injektioner eller 
+plastre), vil muligvis ikke være sikre, mens du tager Tafinlar eller kombinationsbehandlingen 
+(Tafinlar såvel som trametinib). Det er nødvendigt, at du bruger en anden sikker 
+svangerskabsforebyggende metode, så du ikke bliver gravid, mens du tager dette lægemiddel. 
+Spørg lægen, apotekspersonalet eller sygeplejersken til råds. </p>
+</li>
+<li>
+<p>Fortæl det straks til lægen, hvis du bliver gravid, mens du tager dette lægemiddel. </p>
+</li>
+</ul>
+<p>Du må ikke tage Tafinlar under amning. 
+Det vides ikke, om indholdsstofferne i dette lægemiddel går over i modermælken. 
+Hvis du ammer eller planlægger at amme, skal du fortælle det til lægen. Du og din læge vil sammen 
+afgøre, om du skal tage dette lægemiddel eller amme. </p>
+<p>Frugtbarhed – både mænd og kvinder 
+Det er i dyrestudier set, at det aktive stof dabrafenib kan nedsætte mænds frugtbarhed permanent. 
+Derudover kan mænd, der tager Tafinlar, få et lavere sædtal og deres sædtal vil muligvis ikke vende 
+tilbage til det samme niveau, som før behandlingen, efter at de er holdt op med at tage dette 
+lægemiddel. </p>
+<p>Tal med lægen om de muligheder, der er for at forbedre dine chancer for at få børn i fremtiden, inden 
+du starter behandling med Tafinlar. </p>
+<p>Anvendelse af Tafinlar sammen med trametinib: Trametinib kan nedsætte frugtbarheden hos både 
+mænd og kvinder. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du har flere spørgsmål om virkningen af 
+dette lægemiddel på sædtallet. </p>
+<p>Trafik- og arbejdssikkerhed 
+Tafinlar kan give bivirkninger, der kan påvirke din evne til at føre motorkøretøj og betjene maskiner. 
+Undgå at føre motorkøretøj og betjene maskiner, hvis du har problemer med dit syn, eller hvis du føler 
+dig træt eller svag, eller hvis dit energiniveau er lavt. 
+Beskrivelser af disse bivirkninger kan findes i punkt 2 og punkt 4. Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du er i tvivl om noget. Selv din sygdom, 
+dine symptomer og din behandlingssituation kan påvirke din evne til at føre motorkøretøj og betjene 
+maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tafinlar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tafinlar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens, apotekspersonalets eller sygeplejerskens anvisning. Er du i 
+tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken. </p>
+<p>Dosis 
+Den sædvanlige dosis af Tafinlar, enten anvendt alene eller i kombination med trametinib, er to 75 mg 
+kapsler to gange dagligt (svarende til 300 mg dagligt). Den anbefalede dosis af trametinib, anvendt i 
+kombination med Tafinlar, er 2 mg en gang dagligt. </p>
+<p>Lægen kan beslutte, at du skal tage en lavere dosis, hvis du får bivirkninger. </p>
+<p>Tafinlar fås også i kapsler med 50 mg, hvis lægen anbefaler en mindre dosis. </p>
+<p>Tag ikke mere Tafinlar, end lægen har foreskrevet, da det kan øge risikoen for at få bivirkninger. </p>
+<p>Sådan skal du tage Tafinlar 
+Synk kapslerne hele med vand, og en ad gangen. </p>
+<p>Du må ikke tygge eller knuse kapslerne, da de så vil miste deres virkning. </p>
+<p>Tag Tafinlar to gange om dagen på tom mave. Dette betyder, at </p>
+<ul>
+<li>
+<p>efter at du har taget Tafinlar, skal du vente mindst 1 time, før du spiser. </p>
+</li>
+<li>
+<p>efter at du har spist, skal du vente mindst 2 timer, før du tager Tafinlar. </p>
+</li>
+</ul>
+<p>Tafinlar skal tages om morgenen og aftenen med ca. 12 timers mellemrum. Tag din morgendosis og 
+din aftendosis af Tafinlar på samme tidspunkter hver dag. Dette vil øge chancen for at huske at tage 
+kapslerne. </p>
+<p>Tag ikke morgen- og aftendosen af Tafinlar samtidigt. </p>
+<p>Hvis du har taget for meget Tafinlar 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du har taget for mange Tafinlar 
+kapsler. Vis dem Tafinlar-pakningen og denne indlægsseddel, hvis det er muligt. </p>
+<p>Hvis du har glemt at tage Tafinlar 
+Hvis den glemte dosis skulle være taget for mindre end 6 timer siden, skal du tage den, så snart du 
+kommer i tanke om det. 
+Hvis den glemte dosis skulle være taget for mere end 6 timer siden, skal du springe den dosis over og 
+tage din næste dosis på det sædvanlige tidspunkt. Fortsæt herefter med at tage dine kapsler på de 
+sædvanlige tidspunkter, som du plejer. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Tafinlar 
+Tag Tafinlar så længe, som lægen foreskriver. Hold ikke op med at tage Tafinlar, medmindre lægen, 
+apotekspersonalet eller sygeplejersken råder dig til at stoppe. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>
+<p>Sådan skal du tage Tafinlar i kombination med trametinib </p>
+<ul>
+<li>
+<p>Tag Tafinlar i kombination med trametinib nøjagtigt efter lægens, apotekspersonalets eller 
+sygeplejerskens anvisning. Du må ikke ændre din dosis eller stoppe med at tage Tafinlar eller 
+trametinib, medmindre lægen, apotekspersonalet eller sygeplejersken beder dig om det. </p>
+</li>
+<li>
+<p>Tag Tafinlar to gange dagligt, og tag trametinib en gang dagligt. Det kan være en god idé, at 
+du vænner dig til at tage begge lægemidler på samme tid hver dag. Tafinlar-doserne skal tages 
+ca. 12 timer fra hinanden. Når trametinib anvendes i kombination med Tafinlar, skal trametinib 
+enten tages sammen med morgendosen af Tafinlar eller aftendosen af Tafinlar. </p>
+</li>
+<li>
+<p>Tag Tafinlar og trametinib på tom mave mindst en time før eller to timer efter et måltid. Skal 
+synkes hele med et helt fyldt glas vand. </p>
+</li>
+<li>
+<p>Hvis du glemmer at tage en dosis af Tafinlar eller trametinib, skal du tage den, så snart du 
+kommer i tanke om det. Erstat ikke glemte doser, og tag blot din næste dosis på det sædvanlige 
+tidspunkt: * 
+Hvis der er mindre end 6 timer til din næste planlagte dosis af Tafinlar, som tages to 
+gange dagligt. * 
+Hvis der er mindre end 12 timer til din næste planlagte dosis af trametinib, som tages en 
+gang dagligt. </p>
+</li>
+<li>
+<p>Hvis du har taget for meget Tafinlar eller trametinib, skal du straks kontakte lægen, 
+apotekspersonalet eller sygeplejersken. Tag Tafinlar kapslerne og trametinib tabletterne med 
+dig, hvis det er muligt. Vis dem om muligt Tafinlar og trametinib pakningerne med hver sin 
+indlægsseddel. </p>
+</li>
+<li>
+<p>Hvis du får bivirkninger, kan lægen beslutte, at du skal tage en lavere dosis af Tafinlar og/eller 
+trametinib. Tag doserne af Tafinlar og trametinib nøjagtigt efter lægens, apotekspersonalets eller 
+sygeplejerskens anvisning. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Blødningsproblemer 
+Tafinlar kan give alvorlige blødningsproblemer, specielt i din hjerne, når det tages i kombination med 
+trametinib. Hvis du oplever unormale tegn på blødning, skal du straks kontakte lægen eller 
+sygeplejersken. Tegn på blødning kan omfatte: </p>
+<ul>
+<li>
+<p>hovedpine, svimmelhed eller svaghed </p>
+</li>
+<li>
+<p>ophostning af blod eller blodklumper </p>
+</li>
+<li>
+<p>opkastning med blod eller som ligner "kaffegrums" </p>
+</li>
+<li>
+<p>rød afføring eller sort afføring, som kan ligne tjære. </p>
+</li>
+</ul>
+<p>Feber 
+Det kan give feber hos flere end 1 ud af 10 patienter at tage Tafinlar. Fortæl det omgående til lægen, 
+apotekspersonalet eller sygeplejersken, hvis du får feber (temperatur på 38 ºC eller derover) 
+eller hvis du føler, at du er ved at få feber, mens du tager dette lægemiddel. Lægen vil foretage 
+nogle undersøgelser for at finde ud af, om der er andre årsager til feberen, og behandle problemet. </p>
+<p>I nogle tilfælde kan personer med feber få lavt blodtryk og blive svimle. Hvis feberen er alvorlig, kan 
+lægen anbefale, at du stopper med at tage Tafinlar, eller Tafinlar og trametinib, mens de behandler 
+feberen med andre lægemidler. Når feberen er under kontrol, kan lægen anbefale, at du igen starter 
+med at tage Tafinlar. </p>
+<p>Hjerteproblemer 
+Tafinlar kan påvirke, hvor godt dit hjerte pumper blod, når det tages i kombination med trametinib. 
+Der er større sandsynlighed for, at dette påvirker personer, der i forvejen har et hjerteproblem. Det vil 
+løbende blive kontrolleret, om du har hjerteproblemer, mens du tager Tafinlar i kombination med 
+trametinib. Tegn og symptomer på hjerteproblemer omfatter: </p>
+<ul>
+<li>
+<p>hjertebanken, galopperende hjerte eller uregelmæssige hjerteslag </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>følelse af ørhed </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>hævelse i benene. </p>
+</li>
+</ul>
+<p>Fortæl det hurtigst muligt til lægen, hvis du får nogen af disse symptomer – både hvis de optræder 
+for første gang, eller hvis de bliver værre. </p>
+<p>Forandringer i huden 
+Der er rapporteret tilfælde af alvorlige hudreaktioner hos personer, der tog Tafinlar i kombination med 
+trametinib (hyppigheden er ukendt). Hvis du bemærker noget af følgende: </p>
+<ul>
+<li>
+<p>rødlige pletter på kroppen, der er cirkulære eller skydeskiveformet med centrale blærer. 
+Afskallet hud. Sår i munden, halsen, kønsorganerne og øjnene. Disse alvorlige hududslæt kan 
+følge efter udbrud af feber og influenza-lignende symptomer (Stevens-Johnsons syndrom). </p>
+</li>
+<li>
+<p>Udbredt udslæt, feber og forstørrede lymfeknuder (DRESS-syndrom eller lægemiddel 
+overfølsomhedssyndrom) 
+➔ 
+stop med at tage lægemidlet og søg lægehjælp med det samme. </p>
+</li>
+</ul>
+<p>Patienter, der tager Tafinlar, kan udvikle en anden form for hudkræft, som kaldes kutant 
+planocellulært karcinom (cuSCC). Frekvensen er almindelig (kan forekomme hos op til 1 ud af 
+10 personer). Andre kan udvikle en form for hudkræft, som kaldes basal celle karcinom (BCC). 
+Normalt forbliver disse forandringer i huden i et afgrænset område på huden og kan fjernes ved 
+operation, og behandlingen med Tafinlar kan fortsættes uden afbrydelse. </p>
+<p>Nogle personer, der tager Tafinlar, kan også få nye melanomer. Disse melanomer fjernes normalt ved 
+operation, og behandlingen med Tafinlar kan fortsættes uden afbrydelse. </p>
+<p>Lægen vil undersøge din hud, før du begynder at tage Tafinlar, og herefter undersøge den igen hver 
+måned, mens du tager dette lægemiddel, og i 6 måneder efter at du er stoppet med at tage det. Dette 
+gøres for at holde øje med nye tilfælde af hudkræft. </p>
+<p>Lægen vil også tjekke dit hoved, din hals, din mund og dine lymfekirtler og der vil blive foretaget 
+scanning af din brystkasse og maveregionen (kaldet CT-scanning) regelmæssigt. Du vil også få taget 
+blodprøver. Dette foretages for at opdage om andre former for kræft, som fx pladecellekarcinom, 
+udvikles inde i kroppen. En gynækologisk undersøgelse (for kvinder) og en rektal undersøgelse 
+anbefales også før behandlingsstart og ved behandlingens afslutning. </p>
+<p>Undersøg regelmæssigt din hud, mens du tager Tafinlar. 
+Hvis du bemærker følgende: </p>
+<ul>
+<li>
+<p>en ny vorte </p>
+</li>
+<li>
+<p>øm hud eller en rødlig bule, der bløder eller ikke heler </p>
+</li>
+<li>
+<p>en skønhedsplet, der ændrer størrelse eller farve 
+➔ 
+Skal du hurtigst muligt fortælle det til lægen, apotekspersonalet eller sygeplejersken 
+– både hvis de optræder for første gang, eller hvis de bliver værre. </p>
+</li>
+</ul>
+<p>Hudreaktioner (udslæt) kan opstå, når Tafinlar tages i kombination med trametinib. Tal med lægen, 
+hvis du får udslæt, mens du tager Tafinlar i kombination med trametinib. </p>
+<p>Øjenproblemer 
+Patienter, der tager Tafinlar alene, kan udvikle et øjenproblem, der kaldes uveitis, hvilket kan 
+ødelægge dit syn, hvis det ikke behandles. Frekvensen er ikke almindelig (op til 1 ud af 100 personer). 
+Frekvensen er almindelig (op til 1 ud af 10 personer) hos patienter, der tager Tafinlar i kombination 
+med trametinib. </p>
+<p>Uveitis kan udvikles hurtigt, og symptomerne er: </p>
+<ul>
+<li>
+<p>røde eller irriterede øjne </p>
+</li>
+<li>
+<p>sløret syn </p>
+</li>
+<li>
+<p>øjensmerter </p>
+</li>
+<li>
+<p>øget lysfølsomhed </p>
+</li>
+<li>
+<p>svævende prikker for øjnene. 
+➔ 
+Kontakt omgående lægen, apotekspersonalet eller sygeplejersken, hvis du får disse 
+symptomer. </p>
+</li>
+</ul>
+<p>Tafinlar kan give øjenproblemer, når det tages i kombination med trametinib. Trametinib anbefales 
+ikke, hvis du har eller har haft en blokering af den vene, der fører blodet væk fra øjet (retinal 
+veneokklusion). Lægen vil måske henvise dig til en øjenundersøgelse, før du begynder at tage Tafinlar 
+i kombination med trametinib, og mens du tager det. Lægen vil måske stoppe din behandling med 
+trametinib eller henvise dig til en specialist, hvis du udvikler tegn og symptomer på øjenproblemer, 
+der omfatter: </p>
+<ul>
+<li>
+<p>synstab </p>
+</li>
+<li>
+<p>røde eller irriterede øjne </p>
+</li>
+<li>
+<p>farvede prikker i dit synsfelt </p>
+</li>
+<li>
+<p>haloer (ser uskarpe konturer omkring genstande) </p>
+</li>
+<li>
+<p>sløret syn 
+➔ 
+Kontakt straks din læge, apotekspersonalet eller sygeplejersken, hvis du får disse 
+symptomer. </p>
+</li>
+</ul>
+<p>Det er meget vigtigt at fortælle det til lægen, apotekspersonalet eller sygeplejersken med det 
+samme, hvis du får disse symptomer, især hvis du har et rødt øje med smerter, som ikke bedres 
+hurtigt. Lægen vil måske arrangere, at du kommer til en specialiseret øjenlæge for at få en komplet 
+øjenundersøgelse. </p>
+<p>Immunforsvaret 
+Hvis du samtidig får flere symptomer såsom feber, hævede lymfekirtler, blå mærker eller hududslæt, 
+skal du straks fortælle det til lægen. Disse kan være tegn på en tilstand, hvor immunforsvaret 
+producerer for mange infektionsbekæmpende celler af typen histiocytter og lymfocytter, der kan 
+forårsage forskellige symptomer (hæmofagocytisk lymfohistiocytose), se punkt 2 (hyppighed 
+sjælden). </p>
+<p>Tumorlyse syndrom 
+Fortæl det straks til lægen, hvis du oplever følgende symptomer: kvalme, åndenød, uregelmæssig 
+hjerterytme, muskelkramper, krampeanfald, uklar urin, nedsat urinproduktion og træthed. Disse kan 
+være tegn på en tilstand, der skyldes en hurtig nedbrydning af kræftceller, som hos nogle mennesker 
+kan være dødelig (tumorlyse syndrom eller TLS), se punkt 2 (hyppighed ikke kendt). </p>
+<p>Bivirkninger hos patienter, der tager Tafinlar alene </p>
+<p>Bivirkninger, som du kan få, når du tager Tafinlar alene: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>papillom (en form for hudtumor, som normalt ikke er farlig) </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>kvalme, opkastning </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>fortykkelse af hudens yderste lag </p>
+</li>
+<li>
+<p>usædvanligt hårtab eller udtynding af håret </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>røde og hævede håndflader, fingre og fodsåler (se "Forandringer i huden" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>ledsmerter, muskelsmerter eller smerter i hænder eller fødder </p>
+</li>
+<li>
+<p>feber (se "Feber" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>manglende energi </p>
+</li>
+<li>
+<p>kulderystelser </p>
+</li>
+<li>
+<p>svaghed </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>hudreaktioner, herunder kutant pladecellekarcinom (en form for hudkræft), vortelignende 
+vækster, stilkevorter (skin tags), ukontrolleret hudvækst eller mindre forandringer i huden 
+(basalcellekarcinom), tør hud, kløe eller rød hud, tykke, skællede eller skorpede pletter på huden 
+(aktinisk keratose), sår eller skader på huden, hudrødme, øget følsomhed af huden over for 
+solen </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>influenzalignende symptomer </p>
+</li>
+<li>
+<p>nerveproblem (perifer neuropati), der kan medføre smerter, tab af følesans eller prikken i 
+hænder og fødder og/eller muskelsvaghed </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger, der kan ses i blodprøver </p>
+<ul>
+<li>
+<p>lavt indhold af fosfat i blodet (hypofosfatæmi) </p>
+</li>
+<li>
+<p>højt blodsukker (hyperglykæmi) </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>nyt melanom </p>
+</li>
+<li>
+<p>allergisk reaktion (overfølsomhed) </p>
+</li>
+<li>
+<p>betændelse i øjet (uveitis, se "Øjenproblemer" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen (pancreatitis) (hvilket giver stærke mavesmerter) </p>
+</li>
+<li>
+<p>inflammation (betændelseslignende reaktion) i fedtlaget under huden (panniculitis) </p>
+</li>
+<li>
+<p>nyreproblemer, nyresvigt </p>
+</li>
+<li>
+<p>inflammation i nyrerne </p>
+</li>
+</ul>
+<p>Bivirkninger, når Tafinlar og trametinib tages sammen </p>
+<p>Når du tager Tafinlar og trametinib sammen, kan du få en hvilken som helst af de bivirkninger, der er 
+angivet ovenfor, omend hyppigheden kan ændre sig (hyppigere eller sjældnere). </p>
+<p>Du kan også få yderligere bivirkninger, fordi du tager trametinib samtidig med Tafinlar. </p>
+<p>Fortæl det hurtigst muligt til lægen, hvis du får nogen af disse symptomer – enten for første gang, eller 
+hvis de bliver værre. </p>
+<p>Læs også indlægssedlen for trametinib, hvor der er oplysninger om de bivirkninger, du kan få af 
+trametinib. </p>
+<p>De bivirkninger, du måske vil få, når du tager Tafinlar i kombination med trametinib, er følgende: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>betændelse i næse og hals </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>forhøjet blodtryk (hypertension) </p>
+</li>
+<li>
+<p>blødninger forskellige steder på kroppen, som kan være lette eller alvorlige </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kvalme, opkastning </p>
+</li>
+<li>
+<p>udslæt, tør hud, kløe, hudrødme </p>
+</li>
+<li>
+<p>ledsmerter, muskelsmerter eller smerter i hænder eller fødder </p>
+</li>
+<li>
+<p>ufrivillige muskelsammentrækninger </p>
+</li>
+<li>
+<p>manglende energi, svaghed </p>
+</li>
+<li>
+<p>kulderystelser </p>
+</li>
+<li>
+<p>hævede hænder eller fødder (perifert ødem) </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>influenzalignende symptomer </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger, der kan ses i blodprøver </p>
+<ul>
+<li>unormale blodprøveresultater for leverfunktionen </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>urinvejsinfektion </p>
+</li>
+<li>
+<p>hudreaktioner, herunder betændelse i huden (cellulitis), betændelse i hudens hårsække, 
+negleforandringer, såsom forandringer i neglelejet, neglesmerter, betændte og hævede 
+neglebånd, hududslæt med pusfyldte blærer, kutant pladecellekarcinom (en form for hudkræft), 
+papillom (en form for hudtumor, som normalt ikke er farlig), vortelignende vækster, øget 
+følsomhed af huden over for solen (se også “Forandringer i huden" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>dehydrering (vand- eller væskemangel) </p>
+</li>
+<li>
+<p>sløret syn, synsproblemer, betændelse i øjet (uveitis) </p>
+</li>
+<li>
+<p>nedsættelse af hjertets pumpeevne </p>
+</li>
+<li>
+<p>lavt blodtryk (hypotension) </p>
+</li>
+<li>
+<p>lokal vævshævelse </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>ømhed eller blærer i munden, betændelse af slimhinder </p>
+</li>
+<li>
+<p>aknelignende problemer </p>
+</li>
+<li>
+<p>fortykkelse af det ydre hudlag (hyperkeratose), tykke, skællede eller skorpede pletter på huden 
+(aktinisk keratose), sprukken eller revnet hud </p>
+</li>
+<li>
+<p>kraftig svedproduktion, nattesved </p>
+</li>
+<li>
+<p>usædvanligt hårtab eller udtyndning af håret </p>
+</li>
+<li>
+<p>røde, smertefulde hænder og fødder </p>
+</li>
+<li>
+<p>betændelse i fedtlaget under huden (panniculitis) </p>
+</li>
+<li>
+<p>betændelse af slimhinder </p>
+</li>
+<li>
+<p>hævelse af ansigtet </p>
+</li>
+<li>
+<p>nerveproblem (perifer neuropati), der kan medføre smerter, tab af følesans eller prikken i 
+hænder og fødder og/eller muskelsvaghed </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger, der kan ses i blodprøver </p>
+<ul>
+<li>
+<p>lavt antal hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer (anæmi), blodplader (celler, der hjælper blodet med at størkne) 
+og en type hvide blodlegemer (leukopeni) </p>
+</li>
+<li>
+<p>lavt indhold af natrium (hyponatriæmi) eller fosfat (hypofosfatæmi) i blodet </p>
+</li>
+<li>
+<p>højt blodsukker </p>
+</li>
+<li>
+<p>stigning i kreatinkinase, et enzym, der hovedsageligt findes i hjertet, hjernen og 
+skeletmuskulaturen </p>
+</li>
+<li>
+<p>stigning i nogle stoffer (enzymer), som produceres af leveren </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>fremkomst af ny hudkræft (melanom) </p>
+</li>
+<li>
+<p>stilkevorter (skin tags) </p>
+</li>
+<li>
+<p>allergiske reaktioner (overfølsomhed) </p>
+</li>
+<li>
+<p>øjenforandringer, herunder hævelse i øjet forårsaget af udsivning af væske (korioretinopati), 
+løsning af den lysfølsomme membran bagerst i øjet (nethinden) fra dens understøttende lag 
+(nethindeløsning) og hævelse omkring øjnene </p>
+</li>
+<li>
+<p>puls, der er under det normale interval og/eller nedsat puls </p>
+</li>
+<li>
+<p>inflammation (betændelseslignende tilstand) i lungerne (pneumonitis) </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen </p>
+</li>
+<li>
+<p>inflammation i tarmene (colitis) </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+<li>
+<p>inflammation i nyrerne </p>
+</li>
+<li>
+<p>inflammatorisk sygdom, der primært påvirker hud, lunger, øjne og lymfeknuder (sarkoidose) </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1000 personer) </p>
+<ul>
+<li>et hul (perforation) i maven eller tarmene </li>
+</ul>
+<p>Ikke kendt (kan ikke vurderes ud fra tilgængelige data) </p>
+<ul>
+<li>
+<p>inflammation i hjertemusklen (myokarditis), hvilket kan medføre kortåndethed, feber, 
+hjertebanken og brystsmerter </p>
+</li>
+<li>
+<p>betændt, skællende hud (eksfoliativ dermatitis) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tafinlar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tafinlar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderens etiket og pakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tafinlar indeholder:</p>
+<ul>
+<li>Aktivt stof: dabrafenib. Hver hård kapsel indeholder dabrafenibmesilat svarende til 50 mg eller 
+75 mg dabrafenib. </li>
+<li>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, magnesiumstearat, kolloid silica, rød 
+jernoxid (E172), titandioxid (E171) og hypromellose (E464). Endvidere har kapslerne tryk med 
+sort blæk, der indeholder sort jernoxid (E172), shellac og propylenglycol. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Tafinlar 50 mg hårde kapsler er uigennemsigtige, mørkerøde og påtrykt "GS TEW" og "50 mg". 
+Tafinlar 75 mg hårde kapsler er uigennemsigtige, mørk pink og påtrykt "GS LHF" og "75 mg". </p>
+<p>Beholderne er uigennemsigtige hvide plastikbeholdere med plastiklåg med gevind. </p>
+<p>Beholderne indeholder også et tørremiddel bestående af silicagel i en lille cylinderformet beholder. 
+Tørremidlet skal forblive i beholderen og må ikke spises. </p>
+<p>Tafinlar 50 mg og 75 mg hårde kapsler fås i pakninger med 28 eller 120 kapsler. Ikke alle 
+pakningsstørrelser er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Lek Pharmaceuticals d.d. 
+Verovskova ulica 1526, Ljubljana 
+Slovenien </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova ulica 1000, Ljubljana 
+Slovenien </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>Glaxo Wellcome, S.A. 
+Avda. Extremadura, 3 
+09400 Aranda De Duero 
+Burgos 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf.: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-16019d0f068b393be3091cc008ef79bf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tafinlar Package Leaflet for language en"
+Description: "ePI document Bundle for tafinlar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-16019d0f068b393be3091cc008ef79bf"
+* entry[0].resource = composition-en-16019d0f068b393be3091cc008ef79bf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp16019d0f068b393be3091cc008ef79bf"
+* entry[=].resource = mp16019d0f068b393be3091cc008ef79bf
+                            
+                    
+Instance: bundlepackageleaflet-da-16019d0f068b393be3091cc008ef79bf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tafinlar Package Leaflet for language da"
+Description: "ePI document Bundle for tafinlar Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-16019d0f068b393be3091cc008ef79bf"
+* entry[0].resource = composition-da-16019d0f068b393be3091cc008ef79bf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp16019d0f068b393be3091cc008ef79bf"
+* entry[=].resource = mp16019d0f068b393be3091cc008ef79bf
+                            
+                    
+
+
+
+Instance: mp16019d0f068b393be3091cc008ef79bf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Tafinlar 50 mg hard capsules"
-Description: "Tafinlar 50 mg hard capsules"
+Title: "Medicinal Product tafinlar"
+Description: "tafinlar"
 Usage: #inline
 
  
@@ -703,7 +1872,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Tafinlar 50 mg hard capsules"
+  * productName = "tafinlar"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -730,29 +1899,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-16019d0f068b393be3091cc008ef79bf
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tafinlar Package Leaflet for language en"
-Description: "ePI document Bundle for tafinlar Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 16019d0f068b393be3091cc008ef79bfListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Tafinlar 50 mg hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tafinlar"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-16019d0f068b393be3091cc008ef79bf"
-* entry[0].resource = composition-en-16019d0f068b393be3091cc008ef79bf
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp27544cee91e009999156cd82d21ab1a4"
-* entry[=].resource = mp27544cee91e009999156cd82d21ab1a4
-                            
-                      
+* title = "List of all ePIs associated with tafinlar"
+
+* subject = Reference(mp27544cee91e009999156cd82d21ab1a4)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tafinlar "tafinlar"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-16019d0f068b393be3091cc008ef79bf) // tafinlar en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-16019d0f068b393be3091cc008ef79bf) // tafinlar da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-16019d0f068b393be3091cc008ef79bf
+InstanceOf: List
+
+* insert 16019d0f068b393be3091cc008ef79bfListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-fc7c0b4a680b856c6d3878351fc9d22e
 InstanceOf: CompositionUvEpi
 Title: "Composition for ponvory Package Leaflet"
@@ -564,12 +567,795 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-fc7c0b4a680b856c6d3878351fc9d22e
+InstanceOf: CompositionUvEpi
+Title: "Composition for ponvory Package Leaflet"
+Description:  "Composition for ponvory Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1cd30d0ff509f84a5f4ebd3753cf3678)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1cd30d0ff509f84a5f4ebd3753cf3678
+* title = "TEST PURPOSES ONLY - ponvory"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Ponvory
+3. Sådan skal du tage Ponvory
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ponvory is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ponvory is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
+Ponvory indeholder det aktive stof ponesimod. Ponesimod tilhører en gruppe lægemidler, der kaldes 
+sphingosin 1-fosfat (S1P) receptormodulatorer.
+Anvendelse
+Ponvory anvendes til behandling af voksne med recidiverende former for multipel sclerose (RMS) 
+med aktiv sygdom. Aktiv sygdom ved RMS er, når der er tilbagefald, eller når resultater af 
+MR-scanning (magnetisk resonansbilleddannelse) viser tegn på betændelse (inflammation).
+Hvad er multipel sclerose
+Multipel sclerose (MS) påvirker nerverne i hjernen og rygmarven (centralnervesystemet).
+Ved MS virker immunsystemet (et af kroppens vigtigste forsvarssystemer) ikke korrekt.
+Immunsystemet angriber et beskyttende lag, som dækker nervecellerne, kaldet myelinskeden - dette 
+giver betændelse. Denne nedbrydning af myelinskeden (kaldet demyelinisering) får nerverne til at 
+holde op med at virke korrekt.
+57
+Symptomerne på MS afhænger af, hvilken del af hjernen og rygmarven der er berørt. De kan omfatte 
+problemer med at gå og holde balancen, svaghed, følelsesløshed, dobbeltsyn og sløret syn, dårlig 
+koordinationsevne og blæreproblemer.
+Symptomerne på et tilbagefald forsvinder muligvis fuldstændigt, når tilbagefaldet er overstået -
+men nogle problemer kan vare ved.
+Sådan virker Ponvory
+Ponvory reducerer cirkulerende lymfocytter, som er hvide blodlegemer involveret i immunsystemet.
+Det gør det ved at holde dem i de lymfoide organer (lymfeknuderne). Det betyder, at der er færre 
+lymfocytter tilgængelige, som kan angribe myelinskeden omkring nerverne i hjernen og rygmarven.
+Nedsat nerveskade hos patienter med MS reducerer antallet af attakker (tilbagefald) og sinker 
+forværringen af sygdommen.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ponvory"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ponvory"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ponvory
+
+hvis du er allergisk over for ponesimod eller et af de øvrige indholdsstoffer i Ponvory (angivet i
+afsnit 6).
+
+hvis din læge eller sygeplejerske har fortalt dig, at dit immunsystem er kraftigt svækket.
+
+hvis du har haft et hjerteanfald, brystsmerter kaldet ustabil angina, et slagtilfælde (apopleksi) 
+eller et mini-slagtilfælde (transient iskæmisk attak, TIA) eller visse former for hjertesvigt 
+(hjerteinsufficiens) inden for de seneste 6 måneder.
+
+hvis du har visse former for hjerteblok (unormale kurver på et EKG (elektrokardiogram), som 
+regel med langsom hjerterytme) eller uregelmæssig eller unormal hjerterytme (arytmi), 
+medmindre du har en pacemaker.
+
+hvis du har en alvorlig aktiv infektion eller en aktiv kronisk infektion.
+
+hvis du har aktiv kræft.
+
+hvis du har moderate eller alvorlige problemer med leveren.
+
+hvis du er gravid eller kan blive gravid og ikke bruger effektiv prævention.
+Hvis du er i tvivl om, hvorvidt noget af dette gælder for dig, så kontakt lægen, før du tager Ponvory.
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du tager Ponvory:
+
+hvis du har uregelmæssig eller unormal eller langsom hjerterytme.
+
+hvis du nogensinde har haft et slagtilfælde (apopleksi) eller andre sygdomme, der påvirker 
+blodkarrene i hjernen.
+
+hvis du nogensinde pludselig er besvimet (synkope).
+
+hvis du har feber eller infektion.
+
+hvis du har et immunsystem, som ikke virker korrekt, på grund af sygdom eller at du tager 
+lægemidler, som svækker dit immunsystem.
+
+hvis du aldrig har haft skoldkopper (varicella) eller du ikke er vaccineret mod skoldkopper. Din 
+læge vil muligvis tage en blodprøve for at kontrollere, om du har haft skoldkopper. Du skal 
+måske have den fulde skoldkoppevaccine og derefter vente 1 måned, før du begynder at tage 
+Ponvory.
+
+hvis du har vejrtrækningsproblemer (for eksempel en alvorlig luftvejssygdom, lungefibrose eller 
+kronisk obstruktiv lungesygdom (KOL)).
+
+hvis du har problemer med leveren.
+
+hvis du har diabetes. Risikoen for at udvikle makulaødem (se nedenfor) er højere hos patienter 
+med diabetes.
+
+hvis du har problemer med øjnene - især en type øjenbetændelse, der kaldes "uveitis".
+
+hvis du har højt blodtryk.
+Kontakt lægen, hvis noget af ovenstående passer på dig (eller du er i tvivl), før du tager Ponvory.
+58
+Fortæl det straks til lægen, hvis du får nogen af de følgende bivirkninger, mens du tager Ponvory:
+Langsom hjertefrekvens (bradykardi eller bradyarytmi)
+Ponvory kan gøre din hjertefrekvens langsommere - især efter den første dosis. Du skal have taget et 
+elektrokardiogram (EKG, for at kontrollere dit hjertes elektriske aktivitet) inden du tager den første 
+dosis Ponvory, eller inden du begynder at tage Ponvory igen efter at have holdt en pause i 
+behandlingen.
+
+Hvis du har øget risiko for at få bivirkninger på grund af et fald i hjertefrekvensen, vil lægen 
+muligvis overvåge din hjertefrekvens og dit blodtryk i mindst 4 timer, efter at du har taget den 
+første dosis af Ponvory.
+
+Du vil også få taget et EKG, når de 4 timer er gået. Hvis din hjertefrekvens stadig er meget 
+langsom eller falder, skal du måske overvåges, indtil disse symptomer er forsvundet.
+Infektioner
+Ponvory kan øge din risiko for at få alvorlige infektioner, som kan være livstruende. Ponvory 
+mindsker antallet af lymfocytter i dit blod. Disse celler bekæmper infektion. Antallet vender 
+sædvanligvis tilbage til normalen inden for 1 uge efter, at du er stoppet med behandlingen. Din læge 
+bør gennemgå dine resultater for blodlegemer i en nylig blodprøve, inden du begynder at tage 
+Ponvory.
+Kontakt lægen med det samme, hvis du får nogen af disse symptomer på en infektion under 
+behandlingen med Ponvory, eller indenfor 1 uge efter din sidste dosis Ponvory:
+
+feber
+
+træthed
+
+smerter i kroppen
+
+kulderystelser
+
+kvalme
+
+opkastning
+
+hovedpine med feber, nakkestivhed, lysfølsomhed, kvalme, forvirring (disse kan være 
+symptomer på meningitis, en infektion i hinden omkring hjernen og rygmarven).
+Makulaødem
+Ponvory kan give et problem med synet, som kaldes makulaødem (ophobning af væske bagest i øjet 
+(nethinden), som kan medføre synsændringer, herunder blindhed).
+Symptomerne på makulaødem kan ligne de synsrelaterede symptomer ved et MS-attak (kaldet optisk 
+neuritis). I den tidlige fase er der muligvis ingen symptomer. Det er vigtigt, at du fortæller det til 
+lægen, hvis dit syn ændrer sig på nogen måde. Hvis du får makulaødem, vil det sandsynligvis starte 
+indenfor de første 6 måneder efter, at du er begyndt at tage Ponvory.
+Din læge bør kontrollere dit syn, inden du begynder at tage Ponvory, og desuden hvis du på noget 
+tidspunkt bemærker, at dit syn ændrer sig under behandlingen. Du har større risiko for at få 
+makulaødem, hvis du har diabetes eller har haft en form for øjenbetændelse, der hedder uveitis.
+Kontakt lægen med det samme, hvis du oplever noget af følgende:
+
+utydelighed eller skygger i midten af synsfeltet
+
+et blindt punkt i midten af synsfeltet
+
+følsomhed over for lys
+
+syn med en usædvanlig farve (eller tone).
+59
+Leverproblemer
+Ponvory kan medføre leverproblemer. Din læge bør tage blodprøver for at kontrollere din 
+leverfunktion, før du begynder at tage Ponvory.
+Kontakt lægen med det samme, hvis du har nogen af følgende symptomer på leverproblemer:
+
+kvalme
+
+opkastning
+
+mavesmerter
+
+træthed
+
+appetitløshed
+
+gulfarvning af huden eller det hvide i øjnene
+
+mørkfarvet urin.
+Forhøjet blodtryk
+Da Ponvory kan få dit blodtryk til at stige, bør lægen kontrollere dit blodtryk regelmæssigt under 
+behandlingen med Ponvory.
+Udsættelse for sol og beskyttelse mod solen
+Da Ponvory kan øge din risiko for at få hudkræft, skal du begrænse din udsættelse for sollys og 
+ultraviolet lys (UV-lys) ved at
+
+bære beskyttende tøj
+
+regelmæssigt bruge solcreme med høj faktor.
+Vejrtrækningsproblemer
+Nogle personer, som tager Ponvory, får kortåndethed. Kontakt lægen med det samme, hvis du får 
+vejrtrækningsbesvær, du ikke har haft før, eller hvis eksisterende vejrtrækningsbesvær bliver værre.
+Hævelser og forsnævringer af blodkarrene i hjernen
+En lidelse kaldet PRES (posteriort reversibelt encefalopati-syndrom) er forekommet med lægemidler, 
+der virker på samme måde som Ponvory. Symptomerne på PRES forbedres normalt, når man holder 
+op med at tage Ponvory. Hvis det ikke behandles, kan det dog føre til et slagtilfælde (apopleksi).
+Kontakt lægen med det samme, hvis du har nogen af følgende symptomer:
+
+pludselig kraftig hovedpine
+
+pludselig forvirring
+
+pludseligt synstab eller andre synsforandringer
+
+krampeanfald.
+Forværring af multipel sclerose, når du er holdt op med at tage Ponvory
+Når du holder op med at tage Ponvory, kan symptomerne på MS vende tilbage. De kan være værre, 
+end de var før eller under behandlingen. Tal altid med lægen, inden du holder op med at tage Ponvory. 
+Fortæl det til lægen, hvis dine symptomer på MS bliver værre, efter at du er holdt op med at tage 
+Ponvory.
+Børn og unge
+Ponvory er ikke blevet undersøgt hos børn og unge, og derfor frarådes det til børn og unge under 
+18 år.
+60
+Brug af andre lægemidler sammen med Ponvory
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Det gælder både receptpligtige
+lægemidler, håndkøbslægemidler, vitaminer og naturlægemidler. Det er især vigtigt, at du fortæller det 
+til din læge, hvis du tager:
+
+lægemidler til at styre din hjerterytme (antiarytmika), dit blodtryk (antihypertensiva) eller dit 
+hjerteslag (for eksempel calcium-antagonister eller betablokkere, som kan sænke din 
+hjertefrekvens).
+
+lægemidler, der påvirker dit immunsystem, da der er risiko for en såkaldt additiv virkning på 
+immunsystemet.
+Vacciner og Ponvory
+Fortæl det til lægen, hvis du for nylig har fået nogen form for vaccination, eller hvis du planlægger at 
+blive vaccineret. Du skal undgå at blive vaccineret med levende vacciner, mens du er i behandling 
+med Ponvory. Hvis du får en levende vaccine, kan du få den infektion, som vaccinen skulle forebygge.
+Du skal holde op med at tage Ponvory 1 uge inden og må ikke genoptage behandlingen i 4 uger efter, 
+at du har fået en levende vaccine. Desuden virker andre vacciner måske ikke så godt, hvis du får dem, 
+mens du er i behandling med Ponvory.
+Graviditet, prævention og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal
+du spørge din læge til råds, før du tager dette lægemiddel.
+Graviditet
+
+Du må ikke bruge Ponvory under graviditeten. Hvis Ponvory bruges under graviditeten, er der 
+en risiko for at skade det ufødte barn.
+
+Du må ikke bruge Ponvory, hvis du prøver på at blive gravid, eller hvis du kan blive gravid og 
+ikke bruger en effektiv form for prævention.
+Kvinder, der kan blive gravide/prævention til kvinder
+Hvis du kan blive gravid:
+
+Din læge vil fortælle dig om risikoen for at skade dit ufødte barn, inden du starter behandlingen 
+med Ponvory, og du skal tage en graviditetstest for at kontrollere, at du ikke er gravid.
+
+Du skal bruge effektiv prævention, mens du tager Ponvory, og i 1 uge efter din sidste dosis 
+Ponvory.
+Tal med lægen om sikker prævention.
+Hvis du bliver gravid, mens du tager Ponvory, skal du holde op med at tage Ponvory og kontakte 
+lægen med det samme.
+Hvis du bliver gravid i den første uge, efter at du er holdt op med at tage Ponvory, skal du tale med 
+lægen.
+Amning
+Du må ikke amme, mens du tager Ponvory. Det er for at undgå, at barnet får bivirkninger, da Ponvory 
+måske går over i modermælken.
+Trafik- og arbejdssikkerhed
+Ponvory forventes ikke at påvirke din evne til at køre bil eller motorcykel og bruge maskiner.
+Ponvory indeholder lactose
+Ponvory indeholder lactose (en sukkerart). Kontakt lægen, før du tager dette lægemiddel, hvis lægen 
+har fortalt dig, at du ikke tåler visse sukkerarter.
+61
+Ponvory indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ponvory"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ponvory"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Sådan skal du tage Ponvory
+
+Tag altid Ponvory nøjagtigt efter lægens anvisning. Du må ikke ændre din dosis eller holde op
+med at tage Ponvory, medmindre din læge beder dig om det.
+
+Tag kun 1 tablet hver dag. Som en hjælp til at huske at tage dit lægemiddel skal du tage den 
+på samme tidspunkt hver dag.
+
+Du kan tage den med eller uden mad.
+Behandlingsstartpakning (14-dages)
+
+Du må kun starte behandlingen med Ponvory med behandlingsstartpakningen, som bruges til 
+gradvist at øge din dosis i løbet af 14 dage. Formålet med titreringsfasen er at reducere 
+eventuelle bivirkninger, der skyldes, at din hjertefrekvens bliver langsommere i begyndelsen af 
+behandlingen.
+
+Skriv startdatoen, hvor du begynder at tage lægemidlet, ud for dag 1 på 
+Ponvory-behandlingsstartpakningen.
+
+Følg dette 14-dages behandlingsskema.
+Dag på 
+behandlingsstartpakningen
+Daglig dosis
+Dag 1
+2 mg
+Dag 2
+2 mg
+Dag 3
+3 mg
+Dag 4
+3 mg
+Dag 5
+4 mg
+Dag 6
+4 mg
+Dag 7
+5 mg
+Dag 8
+6 mg
+Dag 9
+7 mg
+Dag 10
+8 mg
+Dag 11
+9 mg
+Dag 12
+10 mg
+Dag 13
+10 mg
+Dag 14
+10 mg
+Vedligeholdelsesdosis
+
+Efter at du er færdig med at tage tabletterne i behandlingsstartpakningen, skal du fortsætte 
+behandlingen med vedligeholdelsesdosen på 20 mg.
+
+Skriv startdatoen, hvor du begynder at tage vedligeholdelsesdosen på 20 mg, ud for uge 1 på 
+Ponvory 20 mg blisterpakningen.
+Hvis du har taget for meget Ponvory
+Hvis du har taget for meget Ponvory, skal du kontakte lægen med det samme eller søge lægehjælp 
+med det samme. Tag lægemiddelpakningen og denne indlægsseddel med.
+Hvis du har glemt at tage Ponvory
+Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.
+62
+
+Hvis du glemmer at tage op til 3 Ponvory-tabletter i træk, mens du tager 
+behandlingsstartpakningen eller vedligeholdelsesdosen, kan du fortsætte behandlingen ved at 
+tage den første dosis, du glemte. Tag 1 tablet, så snart du kommer i tanke om det, og tag 
+derefter 1 tablet om dagen for at fortsætte med behandlingsstartpakningsdosen eller 
+vedligeholdelsesdosen som planlagt.
+
+Hvis du glemmer at tage 4 eller flere Ponvory-tabletter i træk, mens du tager 
+behandlingsstartpakningen eller vedligeholdelsesdosen, skal du genstarte behandlingen med en 
+ny 14-dages behandlingsstartpakning. Kontakt lægen med det samme, hvis du glemmer 4 eller 
+flere doser af Ponvory.
+Noter den dato, hvor du begynder at tage lægemidlet, så du kan kontrollere, om du har glemt 4 eller 
+flere doser i træk.
+Du må ikke holde op med at tage Ponvory uden først at tale med din læge.
+Hvis du ikke har taget Ponvory i 4 eller flere dage i træk, må du ikke begynde at tage det igen uden 
+først at tale med lægen. Du skal begynde forfra på behandlingen med en ny behandlingsstartpakning.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Nogle bivirkninger kan være eller blive alvorlige
+Fortæl det straks til lægen eller apotekspersonalet, hvis du bemærker nogen af disse bivirkninger, da 
+de kan være tegn på alvorlige virkninger:
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+
+urinvejsinfektion
+
+bronkitis
+
+influenza
+
+virusinfektion i næse, svælg eller brystkasse (virusinfektion i luftvejene)
+
+virusinfektion
+
+helvedesild (herpes zoster-virusinfektion)
+
+lungebetændelse (pneumoni)
+
+en følelse af, at det hele drejer rundt (vertigo)
+
+feber (pyreksi)
+
+ophobning af væske bagest i øjet (i nethinden (retina)), som kan medføre synsforandringer eller 
+endog blindhed (makulaødem)
+
+krampeanfald
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter)
+
+langsomt hjerteslag (bradykardi)
+Andre bivirkninger
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer)
+
+infektioner i næsen, bihulerne eller svælget (nasofaryngitis, infektion i de øvre luftveje)
+
+forhøjet indhold af leverenzymer i blodet (et tegn på leverproblemer)
+
+lavt antal af en type hvide blodlegemer, der kaldes lymfocytter (lymfopeni)
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+
+højt blodtryk (hypertension)
+
+rygsmerter
+
+udpræget træthed
+63
+
+svimmelhed
+
+kortåndethed (dyspnø)
+
+højt indhold af kolesterol i blodet (hyperkolesterolæmi)
+
+ledsmerter (artralgi)
+
+smerter i arme eller ben
+
+depression
+
+søvnløshed (insomni)
+
+hoste
+
+kløende, løbende eller tilstoppet næse (rhinitis), betændelse eller irritation i svælget (faryngitis, 
+laryngitis), bihulebetændelse (sinusitis)
+
+angst
+
+nedsat berøringssans eller følsomhed, især i huden (hypæstesi)
+
+forhøjet indhold af et protein i blodet, som kan tyde på en infektion eller betændelsestilstand 
+(forhøjet C-reaktivt protein)
+
+søvnighed (døsighed)
+
+fordøjelsesbesvær (dyspepsi)
+
+hævede hænder, ankler eller fødder (perifert ødem)
+
+migræne
+
+forstuvet ledbånd
+
+ubehag i brystet
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter)
+
+højt indhold af kalium i blodet (hyperkaliæmi)
+
+hævede led
+
+mundtørhed
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ponvory"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ponvory"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterfolien efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ponvory indeholder:
+
+Aktivt stof: ponesimod
+
+Øvrige indholdsstoffer:
+64
+Tabletkerne
+Croscarmellosenatrium, lactosemonohydrat (se "Ponvory indeholder lactose"), 
+magnesiumstearat, mikrokrystallinsk cellulose, Povidon K30, silica, kolloid vandfri og 
+natriumlaurylsulfat.
+Tabletovertræk
+Hypromellose 2910, lactosemonohydrat, Macrogol 3350, titandioxid og triacetin.
+Ponvory 3 mg filmovertrukne tabletter
+Rød jernoxid (E172) og gul jernoxid (E172)
+Ponvory 4 mg filmovertrukne tabletter
+Rød jernoxid (E172) og sort jernoxid (E172)
+Ponvory 5 mg filmovertrukne tabletter
+Sort jernoxid (E172) og gul jernoxid (E172)
+Ponvory 7 mg filmovertrukne tabletter
+Rød jernoxid (E172) og gul jernoxid (E172)
+Ponvory 8 mg filmovertrukne tabletter
+Rød jernoxid (E172) og sort jernoxid (E172)
+Ponvory 9 mg filmovertrukne tabletter
+Rød jernoxid (E172) og sort jernoxid (E172), gul jernoxid (E172)
+Ponvory 10 mg filmovertrukne tabletter
+Rød jernoxid (E172) og gul jernoxid (E172)
+Ponvory 20 mg filmovertrukne tabletter
+Gul jernoxid (E172)
+Udseende og pakningsstørrelser
+Ponvory 2 mg filmovertrukne tabletter er hvide, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 5 mm med "2" på den ene side, og en bue på den anden side.
+Ponvory 3 mg filmovertrukne tabletter er røde, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 5 mm med "3" på den ene side, og en bue på den anden side.
+Ponvory 4 mg filmovertrukne tabletter er lilla, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 5 mm med "4" på den ene side, og en bue på den anden side.
+Ponvory 5 mg filmovertrukne tabletter er grønne, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 8,6 mm med "5" på den ene side, og en bue og et "A" på den anden side.
+Ponvory 6 mg filmovertrukne tabletter er hvide, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 8,6 mm med "6" på den ene side, og en bue og et "A" på den anden side.
+Ponvory 7 mg filmovertrukne tabletter er røde, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 8,6 mm med "7" på den ene side, og en bue og et "A" på den anden side.
+Ponvory 8 mg filmovertrukne tabletter er lilla, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 8,6 mm med "8" på den ene side, og en bue og et "A" på den anden side.
+65
+Ponvory 9 mg filmovertrukne tabletter er brune, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 8,6 mm med "9" på den ene side, og en bue og et "A" på den anden side.
+Ponvory 10 mg filmovertrukne tabletter er orange, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 8,6 mm med "10" på den ene side, og en bue og et "A" på den anden side.
+Ponvory 20 mg filmovertrukne tabletter er gule, runde, bikonvekse, filmovertrukne tabletter med en 
+diameter på 8,6 mm med "20" på den ene side, og en bue og et "A" på den anden side.
+Ponvory-behandlingsstartpakning (med etui)
+Hver blisterpakning med 14 filmovertrukne tabletter til en 2-ugers behandlingsplan indeholder:
+2 filmovertrukne tabletter på 2 mg
+2 filmovertrukne tabletter på 3 mg
+2 filmovertrukne tabletter på 4 mg
+1 filmovertrukket tablet på 5 mg
+1 filmovertrukket tablet på 6 mg
+1 filmovertrukket tablet på 7 mg
+1 filmovertrukket tablet på 8 mg
+1 filmovertrukket tablet på 9 mg
+3 filmovertrukne tabletter på 10 mg
+Ponvory 20 mg filmovertrukne tabletter (vedligeholdelsespakke) (med etui)
+Pakke, som indeholder 28 filmovertrukne tabletter til en 4-ugers behandlingsplan, eller i en 
+multipakning, som indeholder 84 (3 pakninger med 28) filmovertrukne tabletter til en 12-ugers 
+behandlingsplan.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+66
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+67
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-fc7c0b4a680b856c6d3878351fc9d22e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ponvory Package Leaflet for language en"
+Description: "ePI document Bundle for ponvory Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fc7c0b4a680b856c6d3878351fc9d22e"
+* entry[0].resource = composition-en-fc7c0b4a680b856c6d3878351fc9d22e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfc7c0b4a680b856c6d3878351fc9d22e"
+* entry[=].resource = mpfc7c0b4a680b856c6d3878351fc9d22e
+                            
+                    
+Instance: bundlepackageleaflet-da-fc7c0b4a680b856c6d3878351fc9d22e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ponvory Package Leaflet for language da"
+Description: "ePI document Bundle for ponvory Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-fc7c0b4a680b856c6d3878351fc9d22e"
+* entry[0].resource = composition-da-fc7c0b4a680b856c6d3878351fc9d22e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfc7c0b4a680b856c6d3878351fc9d22e"
+* entry[=].resource = mpfc7c0b4a680b856c6d3878351fc9d22e
+                            
+                    
+
+
+
+Instance: mpfc7c0b4a680b856c6d3878351fc9d22e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ponvory 2 mg film-coated tablets"
-Description: "Ponvory 2 mg film-coated tablets"
+Title: "Medicinal Product ponvory"
+Description: "ponvory"
 Usage: #inline
 
  
@@ -589,7 +1375,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ponvory 2 mg film-coated tablets"
+  * productName = "ponvory"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -616,29 +1402,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-fc7c0b4a680b856c6d3878351fc9d22e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ponvory Package Leaflet for language en"
-Description: "ePI document Bundle for ponvory Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: fc7c0b4a680b856c6d3878351fc9d22eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1550/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ponvory"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-fc7c0b4a680b856c6d3878351fc9d22e"
-* entry[0].resource = composition-en-fc7c0b4a680b856c6d3878351fc9d22e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1cd30d0ff509f84a5f4ebd3753cf3678"
-* entry[=].resource = mp1cd30d0ff509f84a5f4ebd3753cf3678
-                            
-                      
+* title = "List of all ePIs associated with ponvory"
+
+* subject = Reference(mp1cd30d0ff509f84a5f4ebd3753cf3678)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ponvory "ponvory"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-fc7c0b4a680b856c6d3878351fc9d22e) // ponvory en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-fc7c0b4a680b856c6d3878351fc9d22e) // ponvory da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-fc7c0b4a680b856c6d3878351fc9d22e
+InstanceOf: List
+
+* insert fc7c0b4a680b856c6d3878351fc9d22eListRuleset
+    

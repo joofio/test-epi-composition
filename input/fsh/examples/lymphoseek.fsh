@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-69d1d159ef4725f9647ff9342948ec87
 InstanceOf: CompositionUvEpi
 Title: "Composition for lymphoseek Package Leaflet"
@@ -240,12 +243,347 @@ Netherlands </p>
 
 
 
+Instance: composition-da-69d1d159ef4725f9647ff9342948ec87
+InstanceOf: CompositionUvEpi
+Title: "Composition for lymphoseek Package Leaflet"
+Description:  "Composition for lymphoseek Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc00ae7e5be9fdf3b2993fb13abc170d3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc00ae7e5be9fdf3b2993fb13abc170d3
+* title = "TEST PURPOSES ONLY - lymphoseek"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får Lymphoseek </li>
+<li>Sådan får du Lymphoseek </li>
+<li>Bivirkninger </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lymphoseek is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lymphoseek is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kun til diagnostisk brug hos voksne. Det betyder, at det bruges ved brystkræft, melanom og mundhulekræft 
+til at skaffe oplysninger om sygdommen. Det er ikke til behandling af sygdommen. </p>
+<p>Før det anvendes, skal pulveret i hætteglasset med tilmanocept blandes med det radioaktive lægemiddel 
+natriumpertechnetat (som indeholder 99mTc). Derved dannes stoffet technetium (99mTc)-tilmanocept. </p>
+<p>Da technetium (99mTc)-tilmanocept indeholder en lille smule radioaktivitet, kan det gøre dele af kroppen 
+synlige for lægerne ved undersøgelser, så de bedre kan se, om kræften har bredt sig til lymfeknuderne i 
+nærheden af svulsten. Lymfeknuderne nærmest svulsterne kaldes “skildvagtlymfeknuder". Det er til disse 
+lymfeknuder, der er størst sandsynlighed for, at kræftcellerne har bredt sig. Når Lymphoseek har fundet 
+skildvagtlymfeknuderne, kan de fjernes og kontrolleres for at se, om de indeholder kræftceller. Lymphoseek 
+finder lymfeknuderne og kan påvises med et særligt kamera eller en særlig detektor. </p>
+<p>Anvendelsen af Lymphoseek medfører faktisk udsættelse for små mængder radioaktivitet. Din egen læge og 
+den nuklearmedicinske læge har vurderet, at risikoen ved strålingen opvejes af den kliniske fordel, du vil få 
+af undersøgelsen med det radioaktive lægemiddel.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lymphoseek"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lymphoseek"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Lymphoseek 
+Hvis du er allergisk over for tilmanocept eller nogen af de andre indholdsstoffer i det radioaktivt mærkede 
+lægemiddel (som er anført i afsnit 6).  </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt den nuklearmedicinske læge, inden du får Lymphoseek: </p>
+<ul>
+<li>
+<p>hvis du tidligere har oplevet tegn på en allergisk reaktion (anført i afsnit 4) efter at have fået 
+Lymphoseek </p>
+</li>
+<li>
+<p>hvis du har problemer med nyrerne eller leveren. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Dette lægemiddel er ikke til brug hos børn og unge under 18 år, da det ikke er undersøgt hos denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Lymphoseek 
+Fortæl det altid til den nuklearmedicinske læge, hvis du bruger anden medicin, har gjort det for nylig eller 
+påtænker at gøre det. Dette gælder også medicin, som ikke er købt på recept, og naturlægemidler. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge den nuklearmedicinske læge til råds, før du tager dette lægemiddel. </p>
+<p>Før du tager dette lægemiddel, skal du sige det til den nuklearmedicinske læge, hvis du kan tænkes at være 
+gravid, hvis du har sprunget en menstruation over, eller hvis du ammer. 
+Er du i tvivl, er det vigtigt, at du spørger den nuklearmedicinske læge, der har opsyn med undersøgelsen. </p>
+<p>Hvis du er gravid, vil den nuklearmedicinske læge kun give dette lægemiddel til dig, hvis fordelen forventes 
+at opveje risiciene. </p>
+<p>Hvis du ammer, skal den udmalkede brystmælk kasseres i 24 timer efter indgift af Lymphoseek. 
+Spørg den nuklearmedicinske læge om, hvornår du kan begynde at amme igen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det anses for usandsynligt, at Lymphoseek vil påvirke din evne til at føre motorkøretøj og betjene maskiner. 
+Din egen læge og den nuklearmedicinske læge vil fortælle dig, hvornår det er sikkert at køre, efter at du er 
+blevet opereret. </p>
+<p>Lymphoseek indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis. Det er således stort set 
+“natriumfrit". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lymphoseek"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lymphoseek"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel er kun til hospitalsbrug. </p>
+<p>Der gælder strenge lovbestemmelser for anvendelse, håndtering og bortskaffelse af radioaktive lægemidler. 
+Lymphoseek vil kun blive anvendt i særlige, kontrollerede lokaler. Præparatet må kun håndteres og gives til 
+dig af personale, der er oplært i at anvende det på sikker måde. De pågældende vil drage særlig omsorg for, 
+at præparatet anvendes på sikker måde, og vil holde dig orienteret om, hvad de foretager sig. </p>
+<p>Den nuklearmedicinske læge, der har opsyn med undersøgelsen, vil fastsætte den mængde Lymphoseek, der 
+skal anvendes i dit tilfælde. Det vil være den mindste mængde, der er nødvendig for at undersøgelsen kan 
+give de nødvendige oplysninger.  </p>
+<p>Den mængde, der gives til voksne, er normalt mellem 18,5 og 74 MBq (megabecquerel, måleenheden for 
+radioaktivitet). </p>
+<p>Dosis kan opdeles i mindre mængder. Lægen kan altså således give flere injektioner i området omkring 
+svulsten. </p>
+<p>Før du får Lymphoseek skal du: 
+Følge anvisningerne fra din læge eller den nuklearmedicinske læge. </p>
+<p>Indgift af Lymphoseek og udførelse af undersøgelsen 
+Lymphoseek indsprøjtes under huden, under brystvorten eller i eller omkring svulsten. Placeringen afhænger 
+af svulstens art. </p>
+<p>Lymphoseek gives enten dagen før operationen eller på operationsdagen. </p>
+<p>Undersøgelsens varighed 
+Den nuklearmedicinske læge vil fortælle dig, hvor længe undersøgelsen normalt varer. </p>
+<p>Den nuklearmedicinske læge bruger et særligt kamera til at påvise Lymphoseek. Kirurgen bruger billederne 
+til at se, hvor skildvagtlymfeknuderne befinder sig. Kirurgen vil desuden bruge et apparat, der finder 99mTc-
+delen af lægemidlet. 99mTc viser kirurgen, hvor skildvagtlymfeknuderne befinder sig. </p>
+<p>Når skildvagtlymfeknuden er fundet, fjerner kirurgen den. Hvis der er flere end én skildvagtlymfeknude, vil 
+disse også blive fjernet. Derefter bliver skildvagtlymfeknuderne kontrolleret for at se, om kræftcellerne har 
+bredt sig til dem. </p>
+<p>Når du har fået Lymphoseek 
+Den nuklearmedicinske læge vil fortælle dig, om du skal træffe særlige forholdsregler efter at have fået dette 
+lægemiddel. Kontakt lægen, hvis der er mere, du vil vide. </p>
+<p>Hvis du har fået for meget Lymphoseek 
+Det er usandsynligt, at du vil få en overdosis, da du får en specielt opmålt mængde Lymphoseek, der 
+kontrolleres omhyggeligt af den læge, der har opsyn med undersøgelsen. Skulle du alligevel få en overdosis, 
+vil du få den nødvendige behandling.  </p>
+<p>Spørg den nuklearmedicinske læge, der har opsyn med undersøgelsen, hvis der er noget du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Følgende 
+bivirkninger kan forekomme med dette lægemiddel: </p>
+<p>Ikke almindelig (forekommer hos indtil 1 ud af 100 behandlede): </p>
+<ul>
+<li>
+<p>irritation eller smerter på indsprøjtningsstedet (herunder brystet og huden) </p>
+</li>
+<li>
+<p>operationssåret gør ondt, åbner sig eller afgiver væske </p>
+</li>
+<li>
+<p>kvalme eller svimmelhed </p>
+</li>
+<li>
+<p>sløret syn </p>
+</li>
+<li>
+<p>talebesvær </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>hurtig hjerterytme  </p>
+</li>
+<li>
+<p>hyppig vandladning eller stærk vandladningstrang </p>
+</li>
+<li>
+<p>varmefølelse, prikken og stikken eller smerter i lemmerne, skulderen, nakken eller kæben </p>
+</li>
+<li>
+<p>rødmen </p>
+</li>
+<li>
+<p>for højt calciumindhold i blodet  </p>
+</li>
+</ul>
+<p>Dette radioaktive lægemiddel afgiver små mængder ioniserende stråling, der er forbundet med minimal 
+risiko for kræft og arvelige defekter.  </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte til 
+Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved et indrapportere 
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lymphoseek"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lymphoseek"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du skal ikke selv opbevare dette lægemiddel. Opbevaringen af Lymphoseek vil ske under speciallægens 
+ansvar i særlige lokaler. Radioaktive lægemidler skal opbevares efter nationale bestemmelser for radioaktive 
+materialer.  </p>
+<p>Følgende oplysninger er udelukkende tiltænkt speciallægen.  </p>
+<p>Anvend ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten efter “Exp". Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 ℃. Hætteglasset skal opbevares i yderkartonen for at beskytte 
+det mod lys. </p>
+<p>Den radioaktivt mærkede opløsning er stabil i 6 timer ved højst 25 °C. </p>
+<p>Det radioaktivt mærkede præparat er en klar, farveløs opløsning uden synlige partikler. Den må ikke bruges, 
+hvis der er synlige partikler og/eller misfarvning.  </p>
+<p>Radioaktive lægemidler skal bortskaffes i overensstemmelse med nationale retningslinjer for radioaktive 
+materialer. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lymphoseek indeholder: </p>
+<ul>
+<li>
+<p>Det aktive stof er tilmanocept. Hvert hætteglas indeholder 50 µg tilmanocept. </p>
+</li>
+<li>
+<p>De øvrige indholdsstoffer er trehalosedihydrat, glycin (E640), natriumascorbat (E301), 
+tinchloriddihydrat, natriumhydroxid (E524) og saltsyre, fortyndet (E507). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Før det anvendes, skal pulveret i hætteglasset blandes med et andet lægemiddel, natriumpertechnetat. Derved 
+dannes stoffet technetium (99mTc)-tilmanocept. </p>
+<p>Pakningsstørrelser 
+Hætteglassene leveres i en karton med 5 hætteglas </p>
+<p>Indehaver af markedsføringstilladelsen 
+Navidea Biopharmaceuticals Europe Ltd. 
+Kilminion South 
+Ballinroad 
+Dungarvan 
+Co. Waterford, X35 WPIrland </p>
+<p>Fremstiller 
+Norgine B.V. 
+Antonio Vivaldistraat 1083 HP Amsterdam 
+Holland  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Det fuldstændige produktresumé for Lymphoseek medfølger som en afrivningsfolder sidst i den trykte 
+indlægsseddel i pakningen, så læger og sundhedspersonale kan få supplerende videnskabelige og praktiske 
+oplysninger om administration og anvendelse af dette radioaktive lægemiddel. </p>
+<p>Se produktresuméet [produktresuméet er indeholdt i kartonen]. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-69d1d159ef4725f9647ff9342948ec87
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lymphoseek Package Leaflet for language en"
+Description: "ePI document Bundle for lymphoseek Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-69d1d159ef4725f9647ff9342948ec87"
+* entry[0].resource = composition-en-69d1d159ef4725f9647ff9342948ec87
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp69d1d159ef4725f9647ff9342948ec87"
+* entry[=].resource = mp69d1d159ef4725f9647ff9342948ec87
+                            
+                    
+Instance: bundlepackageleaflet-da-69d1d159ef4725f9647ff9342948ec87
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lymphoseek Package Leaflet for language da"
+Description: "ePI document Bundle for lymphoseek Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-69d1d159ef4725f9647ff9342948ec87"
+* entry[0].resource = composition-da-69d1d159ef4725f9647ff9342948ec87
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp69d1d159ef4725f9647ff9342948ec87"
+* entry[=].resource = mp69d1d159ef4725f9647ff9342948ec87
+                            
+                    
+
+
+
+Instance: mp69d1d159ef4725f9647ff9342948ec87
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Lymphoseek 50 micrograms kit for radiopharmaceutical preparation"
-Description: "Lymphoseek 50 micrograms kit for radiopharmaceutical preparation"
+Title: "Medicinal Product lymphoseek"
+Description: "lymphoseek"
 Usage: #inline
 
  
@@ -265,7 +603,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Lymphoseek 50 micrograms kit for radiopharmaceutical preparation"
+  * productName = "lymphoseek"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -292,29 +630,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-69d1d159ef4725f9647ff9342948ec87
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lymphoseek Package Leaflet for language en"
-Description: "ePI document Bundle for lymphoseek Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 69d1d159ef4725f9647ff9342948ec87ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/955/002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lymphoseek"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-69d1d159ef4725f9647ff9342948ec87"
-* entry[0].resource = composition-en-69d1d159ef4725f9647ff9342948ec87
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc00ae7e5be9fdf3b2993fb13abc170d3"
-* entry[=].resource = mpc00ae7e5be9fdf3b2993fb13abc170d3
-                            
-                      
+* title = "List of all ePIs associated with lymphoseek"
+
+* subject = Reference(mpc00ae7e5be9fdf3b2993fb13abc170d3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lymphoseek "lymphoseek"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-69d1d159ef4725f9647ff9342948ec87) // lymphoseek en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-69d1d159ef4725f9647ff9342948ec87) // lymphoseek da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-69d1d159ef4725f9647ff9342948ec87
+InstanceOf: List
+
+* insert 69d1d159ef4725f9647ff9342948ec87ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8666fcd1a9a5da616af3cc253cf1b4cf
 InstanceOf: CompositionUvEpi
 Title: "Composition for yentreve Package Leaflet"
@@ -458,12 +461,650 @@ site: http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-8666fcd1a9a5da616af3cc253cf1b4cf
+InstanceOf: CompositionUvEpi
+Title: "Composition for yentreve Package Leaflet"
+Description:  "Composition for yentreve Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp207b299b62d4f702b42f114d2f4e712a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp207b299b62d4f702b42f114d2f4e712a
+* title = "TEST PURPOSES ONLY - yentreve"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen<br />
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage YENTREVE 
+3. Sådan skal De tage YENTREVE 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What yentreve is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What yentreve is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>YENTREVE indeholder det aktive stof duloxetin. YENTREVE øger indholdet af serotonin og 
+noradrenalin i nervesystemet. </p>
+<p>YENTREVE er et lægemiddel til oral indtagelse til behandling af stressinkontinens (SUI) hos kvinder.  </p>
+<p>Stressinkontinens er en medicinsk tilstand, hvor patienten oplever ufrivillig urinlækager under fysisk 
+anstrengelse eller aktiviteter såsom latter, hoste, nysen, løft eller motion.  </p>
+<p>YENTREVE menes at virke ved at øge styrken i lukkemusklen i blæren, som holder urinen tilbage, 
+når De ler, nyser eller udøver fysisk aktivitet. </p>
+<p>Virkningen af YENTREVE forstærkes, når behandlingen kombineres med bækkenbundstræning. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take yentreve"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take yentreve"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TAG IKKE YENTREVE, hvis De 
+- er allergisk over for duloxetin eller et af de øvrige indholdsstoffer i YENTREVE (angivet i afsnit 
+6) 
+- har en leversygdom 
+- har svært nedsat nyrefunktion 
+- tager, eller inden for de sidste 14 dage har været i behandling med, en MAO-hæmmer 
+(monoaminoxidasehæmmer) (se "Brug af anden medicin sammen med YENTREVE") 
+- tager fluvoxamin, som normalt anvendes til behandling af depression, ciprofloxacin eller 
+enoxacin, som bruges mod infektioner 
+Fortæl Deres læge, hvis De har forhøjet blodtryk. Deres læge vil fortælle Dem, om De skal tage 
+YENTREVE. </p>
+<p>Advarsler og forsigtighedsregler<br />
+I følgende situationer kan De muligvis ikke bruge YENTREVE. Kontakt lægen, før De tager 
+YENTREVE, hvis De:</p>
+<ul>
+<li>tager medicin imod depression (se "Brug af anden medicin sammen med YENTREVE") </li>
+<li>tager et naturlægemiddel, som indeholder perikon (Hypericum perforatum) </li>
+<li>har en nyresygdom  </li>
+<li>tidligere har haft krampeanfald </li>
+<li>har haft mani  </li>
+<li>lider af bipolar sygdom </li>
+<li>har øjenproblemer såsom visse typer af grøn stær (glaukom - forøget tryk i øjet) </li>
+<li>tidligere har lidt af blødningsforstyrrelser (tendens til blå mærker) især hvis De er gravid (se     <br />
+"Graviditet og amning") </li>
+<li>har risiko for lavt indhold af natrium i blodet (for eksempel hvis De tager vanddrivende 
+medicin, især hvis De er ældre) </li>
+<li>er i samtidig behandling med medicin, som kan skade leveren </li>
+<li>samtidig tager anden medicin, som indeholder duloxetin (se "Brug af anden medicin sammen 
+med YENTREVE") </li>
+</ul>
+<p>YENTREVE kan give en følelse af uro eller manglende evne til at sidde eller stå stille. Hvis det sker 
+for Dem, bør De fortælle Deres læge dette. </p>
+<p>Lægemidler som YENTREVE (såkaldte SSRI/SNRI'er) kan give symptomer på seksuel dysfunktion 
+(se pkt. 4). I nogle tilfælde er disse symptomer blevet ved efter ophør med behandlingen. </p>
+<p>Selvmordstanker og forværring af depression eller angstsygdom<br />
+Selvom YENTREVE ikke er godkendt til behandling af depression, bruges det aktive stof (duloxetin) 
+også som en antidepressiv medicin. Hvis De har en depression eller lider af en angstsygdom, kan De 
+af og til få tanker om at skade Dem selv eller begå selvmord. Særlig i starten af behandlingen med 
+antidepresssiva kan disse tanker blive forstærket, da det tager nogen tid før denne slags medicin virker, 
+sædvanligvis omkring to uger, men af og til længere. 
+De vil mere sandsynligt tænke på dette, hvis De:</p>
+<ul>
+<li>tidligere har haft tanker om at begå selvmord eller at skade Dem selv. </li>
+<li>er en yngre person. Erfaringer fra undersøgelser har vist, at der er øget risiko for selvmordsadfærd 
+hos unge under 25 år med psykiske forstyrrelser, som bliver behandlet med antidepressiv medicin. </li>
+</ul>
+<p>Hvis De på noget tidspunkt får tanker om at skade Dem selv eller begå selvmord, skal De straks 
+kontakte Deres læge eller skadestuen. 
+Det kan muligvis være til hjælp for Dem, hvis De fortæller en ven eller slægtning, at De har en 
+depression eller en angstsygdom, og beder dem læse denne indlægsseddel. De kan bede dem om at 
+fortælle det til Dem, hvis de synes, at Deres depression eller angstsygdom bliver værre, eller hvis de er 
+bekymrede over ændringer i Deres adfærd. </p>
+<p>Børn og unge under 18 år 
+YENTREVE bør ikke bruges til behandling af børn og unge under 18 år. De skal også være klar over 
+at selvmordsrelateret adfærd (selvmordsforsøg og selvmordstanker) og fjendtlighed (overvejende 
+aggression, modsættende adfærd og vrede) hyppigere er blevet observeret hos børn og unge behandlet 
+med medicin af denne gruppe. Der foreligger endnu ikke data på langtidssikkerhed hos børn og unge 
+hvad angår vækst, modning, kognitiv- og adfærdsudvikling ved brug af YENTREVE. </p>
+<p>Brug af anden medicin sammen med YENTREVE 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger anden medicin eller har gjort det for 
+nylig.  </p>
+<p>Det aktive stof (duloxetin) i YENTREVE bruges i andre lægemidler mod andre tilstande: 
+• diabetisk neuropatisk smerte, depression, angst og stressinkontinens 
+Brug af flere end et af disse lægemidler samtidig bør undgås. Spørg Deres læge, om De allerede tager 
+andre lægemidler indeholdende duloxetin. </p>
+<p>Deres læge bør afgøre, om YENTREVE kan tages sammen med anden medicin. Start eller afbryd 
+ikke behandlingen med medicin, det gælder også for medicin, som ikke er på recept samt 
+naturlægemidler, før De har talt med Deres læge. </p>
+<p>De skal også kontakte Deres læge, hvis De tager noget af følgende: </p>
+<p>Monoaminoxidasehæmmere (MAO-hæmmere): De må ikke tage YENTREVE, hvis De tager, eller 
+inden for de sidste 14 dage har taget et antidepressivt lægemiddel kaldet en MAO-hæmmer. 
+Eksempler på MAO-hæmmere er bl.a. moclobemid (mod depression) og linezolid (antibiotika). Hvis 
+De tager en MAO-hæmmer sammen med en række forskellige receptpligtige lægemidler, heriblandt 
+YENTREVE, kan det medføre alvorlige og endda livstruende bivirkninger. De skal vente mindst dage, efter at De er holdt op med at tage en MAO-hæmmer, før De må begynde at tage YENTREVE. 
+De skal ligeledes vente mindst 5 dage, efter at De er holdt op med at tage YENTREVE, før De må 
+begynde at tage en MAO-hæmmer. </p>
+<p>Medicin der kan virke sløvende: Disse inkluderer medicin ordineret af Deres læge, herunder 
+benzodiazepiner, stærk smertestillende medicin, antipsykotika, phenobarbital og sløvende 
+antihistaminer. </p>
+<p>Medicin der øger niveauet af serotonin: Triptaner, tramadol, tryptophan, SSRI-præparater (såsom 
+paroxetin og fluoxetin), SNRI-præparater (såsom venlafaxin), tricykliske antidepressiva (såsom 
+clomipramin, amitriptylin), petidin, perikon og MAO-hæmmere (såsom moclobemid og linezolid). 
+Disse typer medicin øger risikoen for bivirkninger. Hvis De får usædvanlige symptomer, når De tager 
+et af disse lægemidler sammen med YENTREVE, skal De kontakte Deres læge. </p>
+<p>Orale antikoagulantia eller medicin, der påvirker blodpladerne: Medicin der fortynder blodet og 
+modvirker dannelse af blodpropper. Disse lægemidler kan øge risikoen for blødninger. </p>
+<p>Brug af YENTREVE sammen med mad, drikke og alkohol 
+YENTREVE kan tages med og uden mad. De bør udvise forsigtighed, hvis De drikker alkohol 
+samtidig med, at De er i behandling med YENTREVE.  </p>
+<p>Graviditet og amning 
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før du tager dette lægemiddel.  </p>
+<ul>
+<li>
+<p>Fortæl Deres læge, hvis De bliver gravid, eller hvis De prøver at blive gravid, mens De tager 
+YENTREVE. De bør kun bruge YENTREVE efter, at De har talt med Deres læge om de 
+mulige fordele og mulige risici for Deres ufødte barn. </p>
+</li>
+<li>
+<p>De skal sikre Dem, at Deres jordemoder og/eller læge ved, at De tager YENTREVE. 
+Lignende præparater (SSRI’er) kan, når de tages under graviditeten, øge risikoen for en 
+alvorlig lidelse kaldet persisterende pulmonal hypertension hos spædbørn (PPHN), hvilket 
+gør barnet blåligt i huden og får det til at trække vejret hurtigere. Symptomerne opstår som 
+regel inden for de første 24 timer efter at barnet er født. De skal omgående kontakte Deres 
+jordemoder og/eller læge, hvis dette sker for Deres barn. </p>
+</li>
+<li>
+<p>Hvis De tager YENTREVE i slutningen af graviditeten, kan Deres barn udvise visse 
+symptomer når det bliver født. Som regel opstår de ved fødslen eller inden for få dage efter 
+fødslen. Symptomerne omfatter slappe muskler, skælven, spjætteri, spisebesvær, 
+vejrtrækningsproblemer og krampeanfald. De skal kontakte Deres læge eller jordemoder med 
+henblik på råd og vejledning, hvis Deres barn udviser nogle af disse symptomer efter fødslen, 
+eller hvis De er bekymret for Deres barns helbred. </p>
+</li>
+<li>
+<p>Hvis De tager YENTREVE i slutningen af graviditeten, er der en øget risiko for kraftig 
+vaginal blødning kort efter fødslen, især hvis De tidligere har haft blødningsforstyrrelser. 
+Deres læge eller jordemoder skal gøres opmærksom på, at De tager duloxetin, så de kan 
+rådgive Dem. </p>
+</li>
+<li>
+<p>Tilgængelige data fra brug af YENTREVE i de første tre måneder af graviditeten viser ikke 
+en generel øget risiko for samlede fødselsdefekter hos barnet. Hvis YENTREVE tages i løbet 
+af anden halvdel af graviditeten, kan der være en øget risiko for, at barnet fødes tidligt 
+(yderligere 6 for tidligt fødte børn for hver 100 kvinder, der tager YENTREVE i anden 
+halvdel af graviditeten), oftest mellem uge 35 og 36 af graviditeten. </p>
+</li>
+<li>
+<p>Fortæl Deres læge, hvis De ammer. Det anbefales ikke at bruge YENTREVE, mens De 
+ammer. Spørg Deres læge eller apoteket til råds. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+YENTREVE kan gøre Dem søvnig og svimmel. De må ikke køre bil eller arbejde med værktøj eller 
+maskiner, før De ved, hvordan YENTREVE påvirker Dem. </p>
+<p>YENTREVE indeholder saccharose 
+YENTREVE indeholder saccharose. Hvis Deres læge har fortalt Dem, at De ikke kan tåle visse 
+sukkerarter, skal De kontakte Deres læge, inden De tager denne medicin. </p>
+<p>YENTREVE indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take yentreve"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take yentreve"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>YENTREVE er til oral brug. De skal synke kapslen hel sammen med et glas vand. </p>
+<p>Den anbefalede dosis af YENTREVE er 40 mg to gange dagligt (om morgenen og sent 
+eftermiddag/aften). Deres læge kan beslutte, at De skal starte Deres behandling med 20 mg to gange 
+dagligt i to uger før stigning til dosis på 40 mg to gange dagligt.  </p>
+<p>Det kan være lettere at huske at tage YENTREVE, hvis De tager det på samme tidspunkter hver dag.  </p>
+<p>De må kun stoppe behandlingen eller ændre dosis efter aftale med lægen. For at De kan få det bedre, 
+er det vigtigt, at Deres sygdom behandles korrekt. Hvis den ikke behandles, vil De måske ikke få det 
+bedre, og Deres tilstand kan forværres og blive sværere at behandle. </p>
+<p>Hvis De har taget for meget YENTREVE<br />
+Kontakt omgående lægen eller apoteket, hvis De har taget mere YENTREVE, end lægen har ordineret. 
+Symptomer på overdosering inkluderer søvnighed, koma, serotoninsyndrom (en sjælden bivirkning, 
+som kan forårsage en unormal opstemthed, døsighed, klodsethed, rastløshed, en følelse af at være 
+beruset, feber, svedtendens og muskelstivhed), krampeanfald, opkastning og hurtig puls. </p>
+<p>Hvis De har glemt at tage YENTREVE 
+Glemmer De at tage en dosis, skal De tage den, så snart De kommer i tanke om det. Hvis det allerede 
+er blevet tid til Deres næste dosis, skal De springe den glemte dosis over og blot tage en enkelt dosis, 
+som De plejer. De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. De må ikke tage 
+mere YENTREVE pr. dag, end lægen har ordineret. </p>
+<p>Hvis De holder op med at tage YENTREVE: 
+De må IKKE holde op med at tage kapslerne uden at have konsulteret Deres læge, heller ikke selv om 
+De har fået det bedre. Hvis lægen mener, at De ikke længere behøver at tage YENTREVE, vil denne 
+bede Dem reducere dosis over 2 uger.  </p>
+<p>Nogle patienter, som pludselig holdt op med at tage YENTREVE efter mere end 1 uges behandling, 
+fik symptomer såsom: 
+•   svimmelhed, prikkende følelse som når noget sover eller følelse af elektriske stød (især i 
+hovedet), søvnforstyrrelser (livagtige drømme, mareridt, søvnløshed), træthed, søvnighed, 
+rastløshed eller uro, angst, kvalme eller opkastning, rystelser (tremor), hovedpine, 
+muskelsmerter, irritation, diaré, forøget tendens til at svede eller svimmelhed.<br />
+Disse symptomer er normalt ikke alvorlige og forsvinder inden for få dage, men hvis De oplever 
+meget generende symptomer, skal De rådføre Dem med lægen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
+Bivirkningerne er normalt milde til moderate og forsvinder ofte efter en kort periode. </p>
+<p>Meget almindelige bivirkninger (kan ske hos flere end 1 ud af 10 patienter)  </p>
+<ul>
+<li>
+<p>kvalme, mundtørhed, forstoppelse </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan ske hos op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>appetitmangel  </p>
+</li>
+<li>
+<p>søvnbesvær, ophidselse, mindre lyst til sex, angst, problemer med at falde i søvn </p>
+</li>
+<li>
+<p>hovedpine, svimmelhed, følelse af ugidelighed, søvnighed, rysten, følelsesløshed inklusive 
+følelsesløshed eller prikken/snurren i huden </p>
+</li>
+<li>
+<p>sløret syn </p>
+</li>
+<li>
+<p>følelse af at være "rundtosset" (vertigo) </p>
+</li>
+<li>
+<p>forhøjet blodtryk, rødmen </p>
+</li>
+<li>
+<p>diarré, mavesmerter, opkastning, halsbrand eller fordøjelsesbesvær </p>
+</li>
+<li>
+<p>øget svedtendens </p>
+</li>
+<li>
+<p>svaghed, kulderystelser </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan ske hos op til 1 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>halsbetændelse, som forårsager hæs stemme </p>
+</li>
+<li>
+<p>allergiske reaktioner </p>
+</li>
+<li>
+<p>nedsat aktivitet af skjoldbruskkirtlen, hvilket kan medføre træthed og vægtøgning </p>
+</li>
+<li>
+<p>dehydrering (væskemangel) </p>
+</li>
+<li>
+<p>tænderskæren eller sammenbidte tænder, desorientering, manglende motivation, problemer med 
+at opnå orgasme, mærkelige drømme </p>
+</li>
+<li>
+<p>nervøsitet, koncentrationsbesvær, ændret smagsoplevelse, dårlig søvnkvalitet </p>
+</li>
+<li>
+<p>store pupiller, synsforstyrrelser, følelse af tørre øjne </p>
+</li>
+<li>
+<p>tinnitus (opfattelse af lyd i øret, når der ingen lyd er), ørepine </p>
+</li>
+<li>
+<p>hjertebanken, hurtig og/eller uregelmæssig puls </p>
+</li>
+<li>
+<p>besvimelse </p>
+</li>
+<li>
+<p>øget tendens til at gabe </p>
+</li>
+<li>
+<p>opkastning af blod eller sort, tjærefarvet afføring (på grund af blod i afføringen), mave-tarm-
+katar, betændelseslignende tilstand (inflammation) i mundhulen, bøvsen, synkebesvær, luft i 
+maven, dårlig ånde </p>
+</li>
+<li>
+<p>betændelse i leveren, som kan give mavesmerter og gulfarvning af huden eller det hvide i 
+øjnene </p>
+</li>
+<li>
+<p>(kløende) udslæt, natlig sveden, nældefeber, koldsved, øget tendens til blå mærker </p>
+</li>
+<li>
+<p>muskelsmerter, muskelstivhed, muskelkramper, sammenbidte kæber </p>
+</li>
+<li>
+<p>besvær med at påbegynde vandladning, smertefuld vandladning, behov for vandladning i løbet 
+af natten, hyppig vandladning, unormal urinlugt </p>
+</li>
+<li>
+<p>unormal vaginalblødning, symptomer på overgangsalder </p>
+</li>
+<li>
+<p>brystsmerter, kuldefølelse, tørst, varmefølelse </p>
+</li>
+<li>
+<p>vægttab, vægtøgning </p>
+</li>
+<li>
+<p>Yentreve kan medføre bivirkninger, som du måske ikke er opmærksom på, f.eks. forhøjede 
+leverenzymer eller forhøjede værdier af kalium, kreatinkinase, sukker eller kolesterol i blodet </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan ske hos op til 1 ud af 1.000 patienter) 
+•   alvorlige allergiske reaktioner, som forårsager åndedrætsbesvær eller svimmelhed og hævelse af 
+tunge eller læber  </p>
+<ul>
+<li>
+<p>lavt indhold af natrium i blodet (oftest hos ældre mennesker; symptomerne omfatter bl.a. 
+svimmelhed, svaghed, forvirring, søvnighed eller udpræget træthed eller kvalme og opkastning; 
+mere alvorlige symptomer er besvimelse, krampeanfald eller fald), syndrom med 
+uhensigtsmæssig sekretion af anti-diuretisk hormon (SIADH) selvmordshandlinger og -tanker, 
+mani (overaktivitet, tanker, der løber løbsk, nedsat søvnbehov), hallucinationer, aggressivitet og 
+vrede </p>
+</li>
+<li>
+<p>"Serotoninsyndrom" (en sjælden bivirkning, der kan forårsage unormal opstemthed, døsighed, 
+klodsethed, rastløshed, en følelse af at være beruset, feber, tendens til at svede eller 
+muskelstivhed), krampeanfald, pludselig, ufrivillig spjætten eller sitren i musklerne, følelse af 
+rastløshed eller manglende evne til at sidde eller stå stille, problemer med at styre sine 
+bevægelser f.eks. koordinationsbesvær eller ufrivillige muskelbevægelser, restless legs syndrom 
+(stærk uro og krybende fornemmelse i underbenene) </p>
+</li>
+<li>
+<p>øget tryk i øjet (grøn stær, glaukom) </p>
+</li>
+<li>
+<p>svimmelhed, uklarhed eller besvimelse efter at have rejst sig op, kolde fingre og/eller tæer </p>
+</li>
+<li>
+<p>sammensnørret hals, næseblod </p>
+</li>
+<li>
+<p>hoste, hvæsende vejrtrækning og åndenød, som kan være ledsaget af en høj temperatur </p>
+</li>
+<li>
+<p>frisk rødt blod i afføringen, inflammation i tyktarmen (kan medføre diarré) </p>
+</li>
+<li>
+<p>leversvigt, gulfarvning af huden eller det hvide i øjnene (gulsot) </p>
+</li>
+<li>
+<p>Stevens-Johnsons syndrom (en alvorlig lidelse med blærer i huden, munden, øjnene og på 
+kønsorganerne), alvorlige allergiske reaktioner, som kan forårsage hævelse i ansigtet eller 
+halsen (angioødem), øget følsomhed over for sollys </p>
+</li>
+<li>
+<p>muskelsitren </p>
+</li>
+<li>
+<p>besværet eller manglende evne til at lade vandet, behov for hyppigere vandladning end normalt, 
+nedsat urinmængde </p>
+</li>
+<li>
+<p>unormal menstruation herunder voldsom, smertefuld, uregelmæssig eller forlænget blødning, 
+usædvanlig sparsom eller manglende menstruation, unormal mælkeproduktion  </p>
+</li>
+<li>
+<p>kraftig vaginal blødning kort efter fødslen (postpartum blødning) </p>
+</li>
+<li>
+<p>fald (oftest hos ældre), unormal gangart </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger (kan ske hos op til 1 ud af 10.000 patienter) </p>
+<ul>
+<li>Betændelse i hudens blodkar (kutan vaskulitis) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store yentreve"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store yentreve"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Skal opbevares i den originale emballage beskyttet mod fugt. Må ikke opbevares ved temperaturer 
+over 30 °C. </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>YENTREVE indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: Duloxetin. Hver kapsel indeholder 20 eller 40 mg duloxetin (som hydrochlorid). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:<br />
+Kapselindhold: Hypromellose, hypromelloseacetatsuccinat, saccharose, saccharosekugler, talcum, 
+titandioxid (E171), triethylcitrat (se sidst i pkt. 2 for yderligere information om saccharose) 
+Kapsellåg og -bund: Gelatine, natriumlaurilsulfat, titandioxid (E171), indigotin (E132), rød jernoxid 
+(E172), gul jernoxid (E172) og Edible black ink. 
+Edible black ink: Syntetisk sort jern oxid (E172), propylenglycol og shellac. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+YENTREVE er en hård enterokapsel. Hver YENTREVE kapsel indeholder pellets af 
+duloxetinhydrochlorid med en belægning, som beskytter dem mod mavesyre. </p>
+<p>YENTREVE findes i to styrker: 40 mg og 20 mg 
+40 mg kapslerne er orange og blå og har påskriften "40 mg" og koden "9545".<br />
+20 mg kapslerne er blå og har påskriften "20 mg" og koden "9544".  </p>
+<p>YENTREVE 40 mg findes i pakninger med 28, 56, 98, 140 og 196 (2 x 98) kapsler.<br />
+YENTREVE 20 mg findes i pakninger med 28, 56 og 98 kapsler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Indehaver af markedsføringstilladelsen: Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ 
+Utrecht, Holland.<br />
+Fremstiller: Lilly S.A., Avda. De la Industria, 30, 28108 Alcobendas, Madrid, Spanien. </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649 
+България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41<br />
+Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84<br />
+Česká republika 
+Eli Lilly ČR, s.r.o. 
+Tel: + 420 234 664<br />
+Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S 
+Tlf.: +45 45 26 60<br />
+Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2 
+Nederland 
+Eli Lilly Nederland B.V. 
+Tel: + 31(0)30 6025Eesti 
+Eli Lilly Nederland B.V. 
+Tel: +3726817  </p>
+<p>Norge 
+Eli Lilly Norge A.S 
+Tlf: +47 22 88 18 Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4 
+Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Spaly Bioquímica. S.A. 
+Tel: + 34-91 623 17<br />
+Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33<br />
+France 
+Lilly France 
+Tél: +33-(0) 1 55 49 34<br />
+Portugal 
+Lilly Portugal - Produtos Farmacêuticos, 
+Lda 
+Tel: + 351 21-4126 
+Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350<br />
+România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: +353 (0) 1 661 4 
+Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00 Ísland 
+Icepharma hf. 
+Sími + 354 540 8 
+Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42 
+Suomi/Finland 
+Oy Eli Lilly Finland Ab 
+Puh/Tel: +358 (0)9 8545 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715 
+Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0)8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Tel: + 371 67364United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8666fcd1a9a5da616af3cc253cf1b4cf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yentreve Package Leaflet for language en"
+Description: "ePI document Bundle for yentreve Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8666fcd1a9a5da616af3cc253cf1b4cf"
+* entry[0].resource = composition-en-8666fcd1a9a5da616af3cc253cf1b4cf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8666fcd1a9a5da616af3cc253cf1b4cf"
+* entry[=].resource = mp8666fcd1a9a5da616af3cc253cf1b4cf
+                            
+                    
+Instance: bundlepackageleaflet-da-8666fcd1a9a5da616af3cc253cf1b4cf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yentreve Package Leaflet for language da"
+Description: "ePI document Bundle for yentreve Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8666fcd1a9a5da616af3cc253cf1b4cf"
+* entry[0].resource = composition-da-8666fcd1a9a5da616af3cc253cf1b4cf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8666fcd1a9a5da616af3cc253cf1b4cf"
+* entry[=].resource = mp8666fcd1a9a5da616af3cc253cf1b4cf
+                            
+                    
+
+
+
+Instance: mp8666fcd1a9a5da616af3cc253cf1b4cf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product YENTREVE 20 mg hard gastro-resistant capsules"
-Description: "YENTREVE 20 mg hard gastro-resistant capsules"
+Title: "Medicinal Product yentreve"
+Description: "yentreve"
 Usage: #inline
 
  
@@ -483,7 +1124,7 @@ Usage: #inline
 
 
 * name
-  * productName = "YENTREVE 20 mg hard gastro-resistant capsules"
+  * productName = "yentreve"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -510,29 +1151,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8666fcd1a9a5da616af3cc253cf1b4cf
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for yentreve Package Leaflet for language en"
-Description: "ePI document Bundle for yentreve Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8666fcd1a9a5da616af3cc253cf1b4cfListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/04/280/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "yentreve"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8666fcd1a9a5da616af3cc253cf1b4cf"
-* entry[0].resource = composition-en-8666fcd1a9a5da616af3cc253cf1b4cf
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp207b299b62d4f702b42f114d2f4e712a"
-* entry[=].resource = mp207b299b62d4f702b42f114d2f4e712a
-                            
-                      
+* title = "List of all ePIs associated with yentreve"
+
+* subject = Reference(mp207b299b62d4f702b42f114d2f4e712a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#yentreve "yentreve"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8666fcd1a9a5da616af3cc253cf1b4cf) // yentreve en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8666fcd1a9a5da616af3cc253cf1b4cf) // yentreve da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8666fcd1a9a5da616af3cc253cf1b4cf
+InstanceOf: List
+
+* insert 8666fcd1a9a5da616af3cc253cf1b4cfListRuleset
+    

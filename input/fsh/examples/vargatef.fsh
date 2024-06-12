@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-83c6c3334f07b6c02aea88893af34509
 InstanceOf: CompositionUvEpi
 Title: "Composition for vargatef Package Leaflet"
@@ -451,12 +454,591 @@ effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-83c6c3334f07b6c02aea88893af34509
+InstanceOf: CompositionUvEpi
+Title: "Composition for vargatef Package Leaflet"
+Description:  "Composition for vargatef Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp450473674c5c21594244207d563081cd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp450473674c5c21594244207d563081cd
+* title = "TEST PURPOSES ONLY - vargatef"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Vargatef 
+3. Sådan skal du tage Vargatef 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vargatef is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vargatef is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vargatef kapsler indeholder det aktive stof nintedanib. Nintedanib blokerer aktiviteten af en gruppe 
+proteiner, der har betydning for udviklingen af nye blodkar, som kræftcellerne skal bruge til at få
+næring og ilt. Nintedanib kan være med til at standse kræftens vækst og spredning ved at blokere 
+aktiviteten af disse proteiner. 
+Dette lægemiddel bruges i kombination med en anden kræftmedicin (docetaxel) til behandling af en 
+type kræft i lungerne, der kaldes ikke-småcellet lungekræft (NSCLC). Det er til voksne patienter, der 
+har en bestemt type ikke-småcellet lungekræft (“adenokarcinom"), og som allerede har fået en 
+behandling med et andet lægemiddel mod denne kræftform, men hvor kræftsvulsten er begyndt at 
+vokse igen.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vargatef"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vargatef"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Vargatef</h2>
+<p>hvis du er allergisk over for nintedanib, jordnødder eller soja eller over for et af de øvrige 
+indholdsstoffer i Vargatef (angivet i afsnit 6).
+Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Vargatef
+-
+hvis du har eller har haft problemer med leveren, hvis du har eller har haft problemer med 
+blødning – især blødning i lungerne for nylig.
+-
+hvis du har eller har haft problemer med nyrerne, eller hvis der er blevet målt en øget mængde 
+protein i din urin.
+-
+hvis du tager blodfortyndende medicin (f.eks. warfarin, phenprocoumon, heparin eller 
+acetylsalicylsyre) for at forebygge blodpropper. Behandling med Vargatef kan øge risikoen for 
+blødning.
+37
+-
+hvis du er blevet opereret for nylig, eller hvis du snart skal opereres. Nintedanib kan påvirke 
+sårhelingen. Din behandling med Vargatef bliver derfor som regel afbrudt, hvis du skal 
+opereres. Din læge afgør, hvornår din behandling med dette lægemiddel skal genoptages.
+-
+hvis du har kræft, der har bredt sig til hjernen.
+-
+hvis du har for højt blodtryk.
+-
+hvis du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i 
+en blodårevæg.
+Ud fra disse oplysninger tager din læge måske nogle blodprøver, f.eks. for at kontrollere din 
+leverfunktion og for at måle, hvor hurtigt dit blod størkner. Din læge taler med dig om resultaterne af 
+disse undersøgelser og afgør, om du kan få Vargatef.
+Kontakt omgående din læge, mens du tager dette lægemiddel 
+-
+hvis du får diarré. Det er vigtigt at behandle diarré lige så snart den starter (se afsnit 4)
+-
+hvis du kaster op eller har det dårligt (kvalme)
+-
+hvis du oplever uforklarlige symptomer, såsom gulfarvning af huden eller det hvide i øjnene 
+(gulsot), mørk eller brun (tefarvet) urin, smerter i den øverste, højre side af maven (abdomen), 
+større tendens til blødninger eller blå mærker end normalt eller du føler dig træt. Dette kan være 
+symptomer på alvorlige leverproblemer
+-
+hvis du får feber, kulderystelser, hurtig vejrtrækning eller hurtig puls. Det kan være tegn på 
+infektion eller blodforgiftning (sepsis) (se afsnit 4)
+-
+hvis du får stærke smerter i maveregionen, feber, kulderystelser, kvalme, opkastning eller
+hårdhed/oppustning af maven, da det kan være et tegn på et hul i tarmvæggen (“gastrointestinal 
+perforation")
+-
+hvis du oplever en kombination af nogle eller alle følgende symptomer: pludselig stærke 
+smerter eller kramper i maven, rødt blod i din afføring, diarré eller forstoppelse, kvalme og 
+opkastninger, da disse kan være symptomer på en tarmbetændelse som følge af nedsat 
+blodgennemstrømning (iskæmisk colitis)
+-
+hvis du oplever smerte, hævelse, rødme eller varme i en arm eller et ben, eller hvis du oplever 
+brystsmerter og vejrtrækningsbesvær, da det kan være et tegn på en blodprop i en vene
+-
+hvis du får en større blødning
+-
+hvis du oplever trykken for brystet eller brystsmerter, typisk i venstre side af kroppen, smerter i 
+halsen, kæben, skulderen eller armen, hurtig puls, åndenød, kvalme eller opkastning, da det kan 
+være et tegn på et hjerteanfald
+-
+hvis en eller flere af de bivirkninger, som du kan risikere at få (se afsnit 4), bliver alvorlig(e).
+Børn og unge
+Dette lægemiddel er ikke undersøgt hos børn og unge til behandling af kræft i lungerne (NSCLC) og 
+må derfor ikke tages af børn og unge under 18 år.
+Brug af andre lægemidler sammen med Vargatef 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Det gælder også naturlægemidler og 
+lægemidler, der er købt uden recept.
+Dette lægemiddel kan vekselvirke med visse andre lægemidler. Følgende lægemidler kan øge blodets 
+indhold af nintedanib, der er det aktive stof i Vargatef, og kan derfor øge risikoen for bivirkninger (se 
+afsnit 4):
+-
+Ketoconazol (bruges til behandling af svampeinfektioner)
+-
+Erythromycin (bruges til behandling af bakterieinfektioner).
+Følgende lægemidler kan nedsætte blodets indhold af nintedanib og kan derfor nedsætte virkningen af 
+Vargatef:
+-
+Rifampicin (et antibiotikum der bruges til behandling af tuberkulose)
+-
+Carbamazepin, phenytoin (bruges til behandling af krampeanfald)
+-
+Prikbladet perikon (et naturlægemiddel til behandling af depression).
+38
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Graviditet
+Du må ikke tage dette lægemiddel under graviditeten, da det kan skade det ufødte barn og forårsage 
+misdannelser.
+Prævention
+
+Kvinder, der kan blive gravide, skal anvende en meget sikker præventionsmetode for at undgå 
+graviditet, når de begynder at tage Vargatef, mens de tager Vargatef og i mindst 3 måneder efter 
+behandlingen er stoppet.
+
+Tal med lægen om, hvilke præventionsmetoder der er mest velegnede for dig.
+
+Opkastning og/eller diarré eller andre tilstande i mave-tarm-kanalen kan påvirke optagelsen af 
+oral hormonel prævention, såsom p-piller, og kan nedsætte deres virkning. Hvis du oplever 
+disse tilstande, skal du derfor tale med din læge om en alternativ og mere hensigtsmæssig 
+præventionsmetode.
+
+Hvis du bliver gravid under behandlingen med Vargatef, eller har mistanke om, at du kan være 
+gravid, skal du omgående fortælle det til lægen eller apotekspersonalet. 
+Amning
+Det vides ikke, om dette lægemiddel udskilles i modermælk og kan skade det ammede barn. Derfor 
+må kvinder ikke amme, mens de er i behandling med Vargatef.
+Frugtbarhed 
+Dette lægemiddels virkning på frugtbarheden hos mennesker er ikke undersøgt. 
+Trafik- og arbejdssikkerhed
+Vargatef påvirker i mindre grad din evne til at føre motorkøretøj eller betjene maskiner. Du bør ikke 
+føre motorkøretøj eller betjene maskiner, hvis du har det dårligt.
+Vargatef indeholder soja
+Kapslerne indeholder sojalecithin. Hvis du er allergisk over for jordnødder eller soja, må du ikke 
+bruge dette lægemiddel.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vargatef"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vargatef"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.
+Du må ikke tage Vargatef samme dag, som du får din kemoterapi med docetaxel.
+Du skal synke kapslerne hele sammen med vand. De må ikke tygges. Det anbefales at tage kapslerne 
+sammen med mad, dvs. under eller umiddelbart før eller efter et måltid. 
+Kapslen må ikke åbnes eller knuses (se afsnit 5).
+Den anbefalede dosis er fire kapsler om dagen (i alt 400 mg Vargatef om dagen). Du må ikke tage 
+mere end denne dosis.
+Den daglige dosis skal opdeles i to doser a to kapsler, der skal tages med ca. 12 timers mellemrum, 
+f.eks. to kapsler om morgenen og to kapsler om aftenen. De to doser skal tages på nogenlunde samme 
+tidspunkt hver dag. Når lægemidlet tages på den måde, så er man sikker på, at der hele tiden er en 
+konstant mængde Vargatef i kroppen.
+39
+Nedsættelse af dosis
+Hvis du ikke kan tåle den anbefalede dosis på 400 mg om dagen på grund af bivirkninger (se afsnit 4), 
+kan din læge nedsætte den daglige dosis Vargatef. Du må ikke selv nedsætte dosis eller stoppe 
+behandlingen uden først at tale med din læge.
+Din læge kan nedsætte din anbefalede dosis til 300 mg om dagen (to kapsler a 150 mg). I så fald vil 
+din læge ordinere Vargatef 150 mg bløde kapsler til din behandling. 
+Hvis det er nødvendigt, kan din læge nedsætte din daglige dosis yderligere til 200 mg om dagen (to 
+kapsler a 100 mg). I så fald vil din læge ordinere den relevante kapselstyrke til dig.
+I begge tilfælde skal du tage én kapsel i den relevante styrke to gange daglig med 12 timers 
+mellemrum sammen med mad (f.eks. om morgenen og om aftenen) på omtrent samme tidspunkt hver 
+dag.
+Hvis din læge har stoppet din kemoterapi med docetaxel, skal du fortsætte med at tage Vargatef to 
+gange daglig.
+Hvis du har taget for meget Vargatef
+Kontakt omgående lægen eller apotekspersonalet.
+Hvis du har glemt at tage Vargatef
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag din næste dosis Vargatef 
+efter planen på det næste fastlagte tidspunkt og i den dosis, som lægen eller apotekspersonalet har 
+anbefalet.
+Hvis du holder op med at tage Vargatef 
+Du må ikke holde op med at tage Vargatef uden at tale med lægen først. Det er vigtigt, at du tager dette 
+lægemiddel hver dag, så længe lægen ordinerer det til dig. Hvis du ikke tager dette lægemiddel efter 
+lægens anvisninger, kan det være, at denne kræftbehandling ikke virker efter hensigten.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Du skal være særlig opmærksom, hvis du får følgende bivirkninger under behandlingen med Vargatef:
+
+Diarré (meget almindelig, kan forekomme hos flere end 1 ud af 10 personer)
+Diarré kan medføre tab af væske og vigtige salte (elektrolytter, som f.eks. natrium eller kalium) i din 
+krop. Ved de første tegn på diarré skal du drikke rigeligt med væske og omgående kontakte lægen. 
+Begynd på en egnet behandling mod diarré, f.eks. loperamid, så hurtigt som muligt efter at du har talt 
+med lægen. 
+
+Febril neutropeni og blodforgiftning (almindelig, kan forekomme hos op til 1 ud af 
+10 personer)
+Behandling med Vargatef kan medføre, at antallet af den type hvide blodlegemer (neutropeni), der er 
+vigtige for kroppens reaktion på bakterie- og svampeinfektioner, nedsættes. Som følge af neutropeni 
+kan der opstå feber (febril neutropeni) og blodforgiftning (sepsis). Hvis du får feber, kulderystelser, 
+hurtig vejrtrækning eller hurtig puls, skal du omgående fortælle det til lægen.
+Under behandlingen med Vargatef vil din læge regelmæssigt kontrollere dine blodceller og undersøge 
+dig for tegn på infektion, som f.eks. betændelse, feber eller træthed.
+Følgende bivirkninger er observeret under behandling med dette lægemiddel:
+40
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)
+
+Diarré – se ovenfor 
+
+Smerter, følelsesløshed og/eller en prikkende/snurrende fornemmelse i fingre og tæer (perifer 
+neuropati)
+
+Kvalme
+
+Opkastning
+
+Mavesmerter 
+
+Blødning
+
+Et nedsat antal hvide blodlegemer (neutropeni)
+
+Betændelse i fordøjelseskanalens slimhinder, herunder betændelse og sår i munden 
+(slimhindebetændelse og mundbetændelse)
+
+Udslæt
+
+Nedsat appetit
+
+Ændret saltbalance
+
+Forhøjede leverenzymer (alaninaminotransferase, aspartataminotransferase, basisk fosfatase) i 
+blodprøver
+
+Hårtab (alopeci).
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)
+
+Blodforgiftning (sepsis) – se ovenfor
+
+Nedsat antal hvide blodlegemer ledsaget af feber (febril neutropeni)
+
+Blodpropper i venerne (venøs tromboembolisme), især i benene (symptomer omfatter smerte, 
+rødme, hævelse og varme i en arm eller et ben), som via blodkarrene kan nå til lungerne og 
+forårsage brystsmerter og vejrtrækningsbesvær (hvis du bemærker et eller flere af disse 
+symptomer, skal du straks søge lægehjælp)
+
+Højt blodtryk (hypertension)
+
+Væsketab (dehydrering)
+
+Bylder
+
+Lavt antal blodplader (trombocytopeni)
+
+Gulsot (hyperbilirubinæmi)
+
+Forhøjede leverenzymværdier (gammaglutamyltransferase) i blodet i henhold til blodprøver
+
+Vægttab
+
+Kløe
+
+Hovedpine
+
+Øget mængde protein i din urin (proteinuri).
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer)
+
+Forekomst af huller i tarmvæggen (gastrointestinal perforation)
+
+Alvorlige leverproblemer
+
+Betændelse i bugspytkirtlen (pancreatitis)
+
+Myokardieinfarkt (blodprop i hjertet)
+
+Nyresvigt.
+Ikke kendt (hyppigheden kan ikke beregnes ud fra tilgængelige data)
+
+Betændelse i tyktarmen
+
+En udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.
+41</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vargatef"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vargatef"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken, indpakningen og blisterne. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Må ikke opbevares ved temperaturer over 25 °C.
+Opbevares i den originale yderpakning for at beskytte mod fugt.
+Brug ikke lægemidlet, hvis du bemærker, at blisteren, som indeholder kapslerne, er åbnet, eller at en 
+kapsel er i stykker.
+Hvis du kommer i kontakt med kapselindholdet, skal du straks vaske hænderne med rigelige mængder 
+vand (se afsnit 3).
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Vargatef indeholder:</h2>
+<h2>Aktivt stof: nintedanib. Hver blød kapsel indeholder 100 mg nintedanib (som esilat).</h2>
+<p>Øvrige indholdsstoffer:
+Kapselindhold:
+Triglycerider mellemkædede, hårdt fedt, sojalecithin (E322)
+Kapselskal:
+Gelatine, glycerol (85 %), titandioxid (E171), jernoxid, rød (E172),
+jernoxid, gul (E172)
+Udseende og pakningsstørrelser
+Vargatef 100 mg bløde kapsler (kapsler) er ferskenfarvede, uigennemsigtige, aflange kapsler 
+(ca. 16 x 6 mm) præget med Boehringer Ingelheims logo og tallet “100" på den ene side.
+Vargatef 100 mg bløde kapsler fås i tre pakningsstørrelser:
+
+En æske, der indeholder 60 kapsler (6 aluminiumsblistere med 10 kapsler i hver).
+
+En æske, der indeholder 120 kapsler (12 aluminiumsblistere med 10 kapsler i hver).
+
+En multipakning, der indeholder 120 kapsler (2 æsker med 60 kapsler i hver, sampakket i 
+plastfolie).
+Ikke alle pakningsstørrelser af Vargatef 100 mg bløde kapsler er nødvendigvis markedsført.
+42
+Indehaver af markedsføringstilladelsen
+Boehringer Ingelheim International GmbH
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Fremstiller
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Boehringer Ingelheim France
+100-104 Avenue de France
+75013 Paris
+Frankrig
+43
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Magyarországi Fióktelepe
+Tel: +36 1 299 89 00
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf.: +45 39 15 88 Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8Norge
+Boehringer Ingelheim Danmark Norwegian 
+branch
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 2800
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+44
+Ísland
+Vistor hf.
+Sími: +354 535 7Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+organizačná zložka
+Tel: +421 2 5810 1211
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+45
+Indlægsseddel: Information til patienten
+Vargatef 150 mg bløde kapsler
+nintedanib
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+-
+Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-83c6c3334f07b6c02aea88893af34509
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vargatef Package Leaflet for language en"
+Description: "ePI document Bundle for vargatef Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-83c6c3334f07b6c02aea88893af34509"
+* entry[0].resource = composition-en-83c6c3334f07b6c02aea88893af34509
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp83c6c3334f07b6c02aea88893af34509"
+* entry[=].resource = mp83c6c3334f07b6c02aea88893af34509
+                            
+                    
+Instance: bundlepackageleaflet-da-83c6c3334f07b6c02aea88893af34509
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vargatef Package Leaflet for language da"
+Description: "ePI document Bundle for vargatef Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-83c6c3334f07b6c02aea88893af34509"
+* entry[0].resource = composition-da-83c6c3334f07b6c02aea88893af34509
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp83c6c3334f07b6c02aea88893af34509"
+* entry[=].resource = mp83c6c3334f07b6c02aea88893af34509
+                            
+                    
+
+
+
+Instance: mp83c6c3334f07b6c02aea88893af34509
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vargatef 100 mg soft capsules"
-Description: "Vargatef 100 mg soft capsules"
+Title: "Medicinal Product vargatef"
+Description: "vargatef"
 Usage: #inline
 
  
@@ -476,7 +1058,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vargatef 100 mg soft capsules"
+  * productName = "vargatef"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -503,29 +1085,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-83c6c3334f07b6c02aea88893af34509
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vargatef Package Leaflet for language en"
-Description: "ePI document Bundle for vargatef Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 83c6c3334f07b6c02aea88893af34509ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Vargatef 100 mg soft capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vargatef"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-83c6c3334f07b6c02aea88893af34509"
-* entry[0].resource = composition-en-83c6c3334f07b6c02aea88893af34509
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp450473674c5c21594244207d563081cd"
-* entry[=].resource = mp450473674c5c21594244207d563081cd
-                            
-                      
+* title = "List of all ePIs associated with vargatef"
+
+* subject = Reference(mp450473674c5c21594244207d563081cd)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vargatef "vargatef"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-83c6c3334f07b6c02aea88893af34509) // vargatef en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-83c6c3334f07b6c02aea88893af34509) // vargatef da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-83c6c3334f07b6c02aea88893af34509
+InstanceOf: List
+
+* insert 83c6c3334f07b6c02aea88893af34509ListRuleset
+    

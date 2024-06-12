@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-08bd32995710017e5d1be3af6c537328
 InstanceOf: CompositionUvEpi
 Title: "Composition for daptomycin Package Leaflet"
@@ -396,12 +399,676 @@ Tel: + 371 670 35 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-08bd32995710017e5d1be3af6c537328
+InstanceOf: CompositionUvEpi
+Title: "Composition for daptomycin Package Leaflet"
+Description:  "Composition for daptomycin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp26bd6da500d555f6b35b2288320aa9d9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp26bd6da500d555f6b35b2288320aa9d9
+* title = "TEST PURPOSES ONLY - daptomycin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få Daptomycin Hospira
+3. Sådan får du Daptomycin Hospira
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What daptomycin is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What daptomycin is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Daptomycin Hospira pulver til injektions-/infusionsvæske, opløsning, er daptomycin.
+Daptomycin er et antibakterielt middel, der kan stoppe væksten af visse bakterier. Daptomycin
+Hospira bruges til behandling af infektioner i huden eller i vævene under huden hos voksne og hos 
+børn og unge (i alderen 1-17 år). Det bruges også til behandling af infektioner i blodet i forbindelse 
+med infektion i huden.
+Daptomycin Hospira bruges også hos voksne til behandling af infektioner i vævene på indersiden af 
+hjertet (herunder hjerteklapperne), som er forårsaget af en type bakterie kaldet Staphyloccocus aureus.
+Det bruges også til behandling af infektioner i blodet, som er forårsaget af samme type bakterie i 
+forbindelse med infektion i hjertet.
+Afhængig af hvilken infektioner eller hvilke infektioner du har, vil din læge muligvis også ordinere 
+andre antibakterielle midler, mens du er i behandling med Daptomycin Hospira.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take daptomycin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take daptomycin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Du må ikke få Daptomycin Hospira:</h2>
+<p>hvis du er allergisk over for daptomycin eller et af de øvrige indholdsstoffer (angivet i 
+afsnit 6).
+Fortæl det til din læge eller sundhedspersonalet, hvis dette gælder for dig. Spørg din læge eller 
+sundhedspersonalet til råds, hvis du tror, du måske er allergisk.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sundhedspersonalet, før du får Daptomycin Hospira:
+-
+Hvis du har eller tidligere har haft problemer med nyrerne. Din læge vil muligvis ændre dosis af 
+Daptomycin Hospira (se afsnit 3 i denne indlægsseddel).
+-
+Patienter, som behandles med Daptomycin Hospira, kan af og til få ømme, smertende eller 
+svage muskler (se under afsnit 4 i denne indlægsseddel for yderligere information). Fortæl det 
+37
+til din læge, hvis dette sker for dig. Din læge vil sørge for, at du får taget en blodprøve og vil 
+rådgive dig, om du skal fortsætte med Daptomycin Hospira eller ej. Symptomerne forsvinder 
+som regel i løbet af et par dage, når behandlingen med Daptomycin Hospira er ophørt.
+-
+Hvis du nogensinde har haft et alvorligt hududslæt eller hudafskalning, blæredannelse og/eller 
+mundsår, eller alvorlige nyreproblemer efter at have taget daptomycin.
+-
+Hvis du meget overvægtig. Det er muligt, at indholdet af Daptomycin Hospira i dit blod er 
+højere end hos personer med en gennemsnitlig vægt, og det kan være nødvendigt at du 
+overvåges nøje i tilfælde af bivirkninger.
+Fortæl det til din læge eller sundhedspersonalet, før du får Daptomycin Hospira, hvis noget af dette 
+gælder for dig.
+Fortæl det straks til din læge eller sygeplejersken, hvis du får nogen af følgende symptomer:
+-
+Alvorlige, akutte allergiske reaktioner er set hos patienter i behandling med stort set alle 
+antibiotika inklusive Daptomycin Hospira. Symptomerne kan omfatte hvæsende vejrtrækning, 
+vejrtrækningsbesvær, hævelser i ansigt, hals og svælg, udslæt og nældefeber, eller feber.
+-
+Alvorlige hudlidelser ved brug af Daptomycin Hospira er blevet indberettet. De symptomer, der 
+forekommer med disse hudlidelser, kan omfatte:
+-
+feber/højere feber,
+-
+røde hævede eller væskefyldte pletter på huden, som kan starte i armhulen eller på brystet 
+eller i lyskenområdet, og som kan sprede sig over et stort område på kroppen,
+-
+blærer eller sår i munden eller på kønsdelene.
+-
+Et alvorligt nyreproblem ved brugen af Daptomycin Hospira er blevet indberettet. Symptomerne 
+kan omfatte feber og udslæt.
+-
+Enhver usædvanlig prikkende fornemmelse eller følelsesløs fornemmelse i hænder eller fødder, 
+tab af følesans eller bevægelsesproblemer. Fortæl det til din læge, hvis dette sker for dig. Din 
+læge vil beslutte, om du skal forsætte behandlingen.
+-
+Diarré, særligt hvis du bemærker blod eller slim, eller hvis diarréen forværres eller er 
+vedvarende.
+-
+Pludselig feber eller højere feber, hoste eller vanskeligheder ved at trække vejret. Dette kan 
+være tegn på en sjælden, men alvorlig lungesygdom, som kaldes eosinofil pneumoni. Din læge 
+vil kontrollere dine lunder og vurdere, om du skal fortsætte behandlingen med Daptomycin
+Hospira.
+Daptomycin Hospira kan have indflydelse på resultaterne af visse laboratorieprøver, der måler, hvor
+godt dit blod størkner. Resultaterne kan vise, at dit blod størkner dårligt, også selv om der ikke er 
+noget i vejen. Der er derfor vigtigt, at din læge tager i betragtning, at du behandles med Daptomycin 
+Hospira. Fortæl din læge, at du er i behandling med Daptomycin Hospira.
+Din læge vil tage blodprøver, før du start behandlingen og jævnligt under behandlingen med 
+Daptomycin Hospira for at kontrollere, om dine muskler tager skade af behandlingen.
+Børn og unge
+Daptomycin Hospira må ikke gives til børn under 1 år, da dyreforsøg har vist, at denne aldersgruppe 
+kan få alvorlige bivirkninger.
+Brug til ældre
+Personer over 65 år kan få den samme dosis som andre voksne, forudsat at deres nyrer fungerer 
+normalt.
+Brug af anden medicin sammen med Daptomycin Hospira
+Fortæl altid lægen eller sundhedspersonalet, hvis du bruger anden medicin eller har gjort det for nylig.
+Det er særligt vigtigt, at du nævner følgende:
+-
+lægemidler, der kaldes statiner eller fibrater (til at sænke kolesteroltallet) eller ciclosporin (et 
+lægemiddel, der bruges ved transplantation for at undgå afstødning af organer, eller ved andre 
+tilstande, f.eks. leddegigt eller astmaeksem). Det er muligt, at risikoen for bivirkninger i 
+musklerne er større, hvis du tager et af disse lægemidler (og nogle andre lægemidler, som 
+påvirker musklerne) samtidig med behandlingen med Daptomycin Hospira. Din læge kan 
+38
+beslutte, at du ikke skal have Daptomycin Hospira, eller at du i et stykke tid skal stoppe 
+behandlingen med de andre lægemidler.
+-
+smertestillende lægemidler kaldet NSAID-præparater (non-steroide antiinflammatoriske 
+lægemidler) eller COX-2-hæmmere (f.eks. celecoxib). Disse har muligvis en virkning på 
+virkningen af Daptomycin Hospira i nyrerne.
+-
+orale blodfortyndende lægemidler (f.eks. warfarin), som er medicin, der forhindrer blodet i at 
+størkne. Det kan være nødvendigt, at din læge måler dit blods størkningshastighed.
+Graviditet og amning
+Daptomycin Hospira gives normalt ikke til gravide kvinder. Hvis du er gravid eller ammer, har 
+mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge eller 
+apotekspersonalet til råds, før du får dette lægemiddel.
+Du må ikke amme, hvis du er i behandling med Daptomycin Hospira, da det udskilles i modermælken 
+og kan påvirke barnet.
+Trafik- og arbejdssikkerhed
+Daptomycin Hospira har ingen kendt indvirkning på evnen til at føre motorkøretøj eller betjene 
+maskiner.
+Daptomycin Hospira indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige
+natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take daptomycin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take daptomycin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Der er normalt en læge eller en sygeplejerske, der giver dig Daptomycin Hospira.
+Voksne (18 år og derover)
+Dosis afhænger af, hvor meget du vejer, og hvilken type infektion du behandles for. 
+Den normale dosis til voksne er 4 mg pr. kg legemsvægt en gang dagligt ved hudinfektioner, eller 
+6 mg pr. kg legemsvægt en gang dagligt for infektioner i hjertet eller infektion i blodet forbundet med 
+hud- eller hjerteinfektion. Hos voksne patienter indgives dosis direkte ind i blodbanen (i en blodåre), 
+enten som en infusion, der varer ca. 30 minutter, eller som en injektion, der varer ca. 2 minutter. Den 
+samme dosis anbefales til personer over 65 år, forudsat at deres nyrer fungerer tilfredsstillende.
+Hvis dine nyrer ikke fungerer tilfredsstillende, skal du måske have Daptomycin Hospira mindre 
+hyppigt, f.eks. hver anden dag. Hvis du er i dialyse, og hvis din næste dosis af Daptomycin Hospira 
+skal indgives på en dag, hvor du er i dialysebehandling, vil du normalt få Daptomycin Hospira efter 
+dialysebehandlingen.
+Børn og unge (1-17 år)
+Dosis til børn og unge (i alderen 1-17 år) vil afhænge af patientens alder og hvilken type infektion, der 
+behandles. Denne dosis gives direkte ind i blodbanen (i en blodåre) som en infusion, der tager omkring 
+30-60 minutter.
+En behandling varer normalt 1-2 uger ved hudinfektioner. Ved infektioner i blodet eller hjertet og 
+hudinfektioner vil lægen afgøre, hvor lang tid du skal behandles.
+Detaljerede instruktioner i brug og håndtering findes i slutningen af denne indlægsseddel.
+39</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemider give bivirkninger, men ikke alle får bivirkninger.
+De alvorligste bivirkninger er beskrevet herunder:
+Alvorlige bivirkninger, hvor hyppigheden ikke er kendt (hyppigheden kan ikke estimeres ud fra 
+tilgængelige data)
+-
+Overfølsomhedsreaktion (alvorlig allergisk reaktion, herunder anafylaksi og angioødem er 
+blevet indberettet, i nogle tilfælde under behandling med Daptomycin Hospira. Denne alvorlige 
+allergiske reaktion kræver omgående lægebehandling. Fortæl det straks til en læge eller
+sundhedspersonalet, hvis du oplever nogle af følgende symptomer:
+-
+Brystsmerter eller brystet snører sig sammen
+-
+Udslæt eller nældefeber
+-
+Hævelse omkring halsen
+-
+Hurtig eller svag puls
+-
+Hvæsende vejrtrækning
+-
+Feber
+-
+Kulderystelser eller skælven
+-
+Hedeture
+-
+Svimmelhed
+-
+Besvimelsesanfald
+-
+Metalsmag i munden.
+-
+Fortæl det straks til lægen, hvis du oplever uforklarlige muskelsmerter, -ømhed eller -svaghed. 
+Muskelproblemer kan være alvorlige, herunder nedbrydning af musklerne (rabdomyolyse), som 
+kan medføre nyreskade.
+Andre alvorlige bivirkninger, der er blevet indberettet ved brug af Daptomycin Hospira, er:
+-
+En sjælden men eventuelt alvorlig lungesygdom, der kaldes eosinofil pneumoni, for det meste 
+efter mere end 2 ugers behandling. Symptomerne kan omfatte vejrtrækningsbesvær, 
+hoste/forværret hoste eller feber/højere feber.
+-
+Alvorlige hudlidelser. Symptomerne kan omfatte:
+-
+feber/højere feber,
+-
+røde hævede eller væskefyldte pletter på huden, som kan starte i armhulen eller på brystet 
+eller i lyskenområdet, og som kan sprede sig over et stort område på kroppen,
+-
+blærer eller sår i munden eller på kønsdelene.
+-
+Et alvorligt nyreproblem. Symptomerne kan omfatte feber og udslæt.
+Hvis du oplever disse symptomer, skal du straks fortælle det til din læge eller sygeplejersken. Lægen 
+vil foretage yderligere undersøgelser for at stille en diagnose.
+De hyppigst indberettede bivirkninger er beskrevet nedenfor:
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter)
+-
+Svampeinfektioner, som f.eks. trøske (gråhvide belægninger på mundslimhinden)
+-
+Urinvejsinfektion
+-
+Nedsat antal røde blodlegemer (blodmangel)
+-
+Svimmelhed, angst, søvnbesvær
+-
+Hovedpine
+-
+Feber, svaghed (asteni)
+-
+Forhøjet eller lavt blodtryk
+-
+Forstoppelse, mavesmerter
+-
+Diarré, kvalme eller opkastning
+-
+Luft i maven
+-
+Udspilet eller oppustet mave
+-
+Hududslæt eller kløe
+-
+Smerter, kløe eller rødme på infusionsstedet
+-
+Smerter i arme eller ben
+-
+Blodprøver, der viser forhøjede værdier af leverenzymer eller kreatinkinase (CK)
+40
+Andre bivirkninger, som kan forekomme efter behandling med Daptomycin Hospira, er beskrevet 
+nedenfor:
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter)
+-
+Blodsygdomme (f.eks. forhøjet antal blodlegemer, kaldet blodplader, som kan øge tendensen til 
+at blodet klumper sammen eller øgede niveauer af visse typer af hvide blodceller)
+-
+Nedsat appetit
+-
+Prikkende eller følelsesløs fornemmelse i hænder eller fødder, smagsforstyrrelser
+-
+Rysten
+-
+Forandringer i hjerterytmen, hedeture
+-
+Fordøjelsesbesvær (dyspepsi), betændelse af tungen
+-
+Kløende hududslæt
+-
+Muskelsmerter, muskelkramper eller muskelsvaghed, betændelse i musklerne (myositis), 
+ledsmerter
+-
+Nyreproblemer
+-
+Betændelse og irritation i skeden
+-
+Generelle smerter eller svaghedsfornemmelse, træthed
+-
+Blodprøver, der viser øget indhold af blodsukker, serum-kreatinin, myoglobin eller 
+lactatdehydrogenase (LDH), forlænget størkningstid af blodet eller forstyrrelser i saltbalancen
+-
+Kløende øjne.
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer)
+-
+Gulfarvning af hud og det hvide i øjnene
+-
+Forlænget protrombintid (forlænget størkningstid af blodet).
+Hyppighed ikke kendt: (Hyppigheden kan ikke estimeres ud fra forhåndenværende data)
+Tyktarmsbetændelse (colitis) forårsaget af antibakterielle lægemidler, herunder pseudomembranøs 
+colitis (alvorlig eller vedvarende diarré, der indeholder blod og/eller slim, og er forbundet med 
+mavesmerter eller feber), nemt ved at få blå mærker, blødning fra tandkødet eller næseblod.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store daptomycin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store daptomycin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>-
+Opbevar lægemidlet utilgængeligt for børn.
+-
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+-
+Må ikke opbevares ved temperaturer over 30°C.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Daptomycin Hospira indeholder:</h2>
+<h2>Aktivt stof: daptomycin. Et hætteglas med pulver indeholder 350 mg daptomycin.</h2>
+<p>Øvrige indholdsstoffer: natriumhydroxid og citronsyre.
+41
+Udseende og pakningsstørrelser
+Daptomycin Hospira pulver til injektions-/infusionsvæske, opløsning, leveres som en lysegul til 
+lysebrun lyofiliseret masse eller pulver i et hætteglas. Før brug blandes det med et opløsningsmiddel, 
+så der dannes en væske.
+Daptomycin Hospira fås i pakninger, der indeholder 1 hætteglas eller 5 hætteglas.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Pfizer Service Company BV
+Hoge Wei 10
+1930 Zaventem
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: + 32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: + 370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: + 359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Drugsales Ltd
+Tel: + 356 21419070/1/2
+Danmark
+Pfizer ApS
+Tlf: + 45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: + 31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: + 49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: + 47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: + 372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: + 43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ.: + 30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: + 48 22 335 61 00
+España
+Pfizer, S.L.<br />
+Tel: + 34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: + 351 21 423 5500
+42
+France
+Pfizer
+Tél: + 33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: + 40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: + 1800 633 363 (toll free)
+Tel: + 44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: + 354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: + 39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: + 46 (0)8 550 520 00
+Κύπρος
+Pharmaceutical Trading Co Ltd 
+Τηλ: + 357 24656165
+United Kingdom (Northern Ireland)
+Pfizer Limited 
+Tel: + 44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: + 371 670 35 775
+Denne indlægsseddel blev senest ændret 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.
+43</p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale:
+Vigtigt: Læs produktresuméet inden ordination.
+Instruktioner vedrørende anvendelse og håndtering
+350 mg pulver til injektions-/infusionsvæske, opløsning:
+Hos voksne kan daptomycin administreres intravenøst som infusion over 30 minutter eller som 
+injektion over 2 minutter. Til forskel fra hos voksne må daptomycin ikke administreres som en 2-
+minutters injektion til pædiatriske patienter. Pædiatriske patienter i alderen 7 til 17 år skal have 
+administreret daptomycin som en infusion over 30 minutter. Hos pædiatriske patienter under 7 år, der 
+skal have en dosis på 9-12 mg/kg, skal daptomycin administreres over 60 minutter. Fremstilling af 
+infusionsvæsken kræver et ekstra trin til fortynding som beskrevet herunder. 
+Daptomycin Hospira givet som intravenøs infusion over 30 eller 60 minutter
+En 50 mg/ml koncentration af Daptomycin Hospira til infusion opnås ved rekonstitution af det 
+lyofiliserede produkt med 7 ml natriumchloridopløsning 9 mg/ml (0,9 %) til parenteral anvendelse.
+Det fuldt rekonstituerede produkt fremstår klart, og der er eventuelt et par små bobler eller skum langs 
+kanten på hætteglasset.
+Ved fremstilling af Daptomycin Hospira til intravenøs infusion skal følgende instruktioner følges:
+Der skal anvendes aseptisk teknik, når lyofiliseret Daptomycin Hospira rekonstitueres.
+UNDGÅ kraftigt omrystning af hætteglasset under eller efter rekonstitution for at minimere 
+skumdannelse.
+1. Flip off-låget af polypropylen skal fjernes, så gummiproppens midte kan ses. Tør toppen af 
+gummiproppen af med en spritserviet eller et andet desinfektionsmiddel og lad den tørre
+(foretag det samme med hætteglasset med natriumchloridopløsning, hvis relevant). Efter 
+rensning må gummiproppen ikke berøres eller komme i kontakt med noget andet. Træk 7 ml 
+natriumchloridopløsning 9 mg/ml (0,9%) til parenteral anvendelse op i en sprøjte ved 
+anvendelse af en steril kanyle med en diameter på 21G eller mindre eller med en nålefri 
+anordning og injicer derefter opløsningen LANGSOMT gennem gummiproppens centrum
+direkte over produktets prop i hætteglasset.
+2. Frigør sprøjtens stempel, og lad sprøjtens stempel udligne trykket, inden sprøjten fjernes fra
+hætteglasset.
+3. Hold hætteglasset ved hætteglassets krave, vip hætteglasset, og bevæg hætteglasset således, at 
+indholdet hvirvles rundt, indtil produktet er helt rekonstitueret.
+4. Den rekonstituerede opløsning bør kontrolleres nøje for at sikre, at produktet er opløst og bør 
+inspiceres visuelt for partikler før brug. Rekonstituerede opløsninger af Daptomycin Hospira har 
+en klar gul til lys brun farve.
+5. Træk langsomt den rekonstituerede væske (50 mg daptomycin/ml) op af hætteglasset med en 
+steril kanyle, der har en diameter på 21G eller mindre.
+6. Vend hætteglasset på hovedet for at lade opløsningen løbe ned mod gummiproppen. Brug en ny 
+sprøjte og stik kanylen ind i hætteglasset, der stadig vender på hovedet. Mens hætteglasset 
+stadig holdes på hovedet, skal kanylespidsen anbringes helt nede i bunden af opløsningen i 
+hætteglasset, mens opløsningen trækkes op i sprøjten. Før kanyles fjernes fra hætteglasset, skal 
+stemplet trækkes helt tilbage i sprøjten for at få al opløsningen ud af hætteglasset, der stadig 
+vender på hovedet.
+7. Erstat kanylen med en ny kanyle til den intravenøse infusion.
+8. Fjern luft, store luftbobler og eventuel overskydende opløsning for at få den korrekte dosis.
+44
+9. Overfør den rekonstituerede opløsning til en infusionspose (typisk med et volumen på 50 ml)
+med natriumchloridopløsning 9 mg/ml (0,9%).
+10. Den rekonstituerede og fortyndede opløsning skal gives som intravenøs infusion over 30 eller
+60 minutter.
+Daptomycin Hospira er hverken fysisk eller kemisk forligelig med opløsninger, der indeholder 
+glucose. Følgende stoffer har vist sig at være forligelige, når de tilsættes infusionsopløsninger, der
+indeholder Daptomycin Hospira: aztreonam, ceftazidim, ceftriaxon, gentamicin, fluconazol, 
+levofloxacin, dopamin, heparin og lidokain.
+Den samlede opbevaringstid (rekonstitueret opløsning i hætteglas og fortyndet opløsning i 
+infusionspose) ved 25°C må ikke overstige 12 timer (24 timer ved opbevaring i køleskab).
+Stabilitet af den fortyndede opløsning i infusionspose er fastsat til 12 timer ved 25°C eller 24 timer 
+ved opbevaring i køleskab ved 2°C–8°C.
+Daptomycin Hospira givet som 2 minutters intravenøs injektion (kun til voksne patienter)
+Vand må ikke anvendes til rekonstitution af Daptomycin Hospira til intravenøs injektion. Daptomycin 
+Hospira må kun rekonstitueres med natriumchloridopløsning 9 mg/ml (0,9%) til parenteral anvendelse.
+En 50 mg/ml koncentration af Daptomycin Hospira til injektion opnås ved rekonstitution af det 
+lyofiliserede produkt med 7 ml natriumchloridopløsning 9 mg/ml (0,9%) til parenteral anvendelse.
+Det fuldt rekonstituerede produkt fremstår klart, og der er eventuelt et par små bobler eller skum langs 
+kanten på hætteglasset.
+Ved fremstilling af Daptomycin Hospira til intravenøs injektion skal følgende instruktioner følges:
+Der skal anvendes aseptisk teknik, når lyofiliseret Daptomycin Hospira rekonstitueres.
+UNDGÅ kraftigt omrystning af hætteglasset under eller efter rekonstitution for at minimere 
+skumdannelse.
+1. Flip off-låget af polypropylen skal fjernes, så gummiproppens midte kan ses. Tør toppen af 
+gummiproppen af med en spritserviet eller et andet desinfektionsmiddel og lad den tørre
+(foretag det samme med hætteglasset med natriumchloridopløsning, hvis relevant). Efter 
+rensning må gummiproppen ikke berøres eller komme i kontakt med noget andet. Træk 7 ml 
+natriumchloridopløsning 9 mg/ml (0,9%) til parenteral anvendelse op i en sprøjte ved 
+anvendelse af en steril kanyle med en diameter på 21G eller mindre eller med en nålefri 
+anordning og injicer derefter opløsningen LANGSOMT gennem gummiproppens centrum 
+direkte over produktets prop i hætteglasset.
+2. Frigør sprøjtens stempel, og lad sprøjtens stempel udligne trykket, inden sprøjten fjernes fra 
+hætteglasset.
+3. Hold hætteglasset ved hætteglassets krave, vip hætteglasset, og bevæg hætteglasset således, 
+atindholdet hvirvles rundt, indtil produktet er helt rekonstitueret.
+4. Den rekonstituerede opløsning bør kontrolleres nøje for at sikre, at produktet er opløst og bør 
+inspiceres visuelt for partikler før brug. Rekonstituerede opløsninger af Daptomycin Hospira har 
+en klar gul til lys brun farve.
+5. Træk langsomt den rekonstituerede væske (50 mg daptomycin/ml) op af hætteglasset med en 
+steril kanyle, der har en diameter på 21G eller mindre.
+6. Vend hætteglasset på hovedet for at lade opløsningen løbe ned mod gummiproppen. Brug en ny 
+sprøjte og stik kanylen ind i hætteglasset, der stadig vender på hovedet. Mens hætteglasset 
+stadig holdes på hovedet, skal kanylespidsen anbringes helt nede i bunden af opløsningen i 
+hætteglasset, mens opløsningen trækkes op i sprøjten. Før kanylen fjernes fra hætteglasset, skal 
+stemplet trækkes helt tilbage i sprøjten for at få al opløsningen ud af hætteglasset, der stadig 
+vender på hovedet.
+7. Erstat kanylen med en ny kanyle til den intravenøse injektion.
+8. Fjern luft, store luftbobler og eventuel overskydende opløsning for at få den korrekte dosis.
+45
+9. Den rekonstituerede opløsning skal herefter injiceres intravenøst og langsomt over 2 minutter.
+Der er påvist kemisk og fysisk stabilitet under brug af den rekonstituerede opløsning i hætteglas i 
+12 timer ved 25°C og i op til 48 timer ved opbevaring i køleskab (2°C–8°C).
+Ud fra et mikrobiologisk synspunkt bør produktet dog anvendes straks. Anvendes opløsningen ikke 
+straks, har brugeren ansvar for opbevaringsbetingelser og holdbarhed, som normalt kun er 24 timer 
+ved 2°C–8°C, medmindre rekonstitution/fortynding har fundet sted under kontrollerede og validerede 
+aseptiske forhold.
+Dette lægemiddel må ikke blandes med andre lægemidler end dem, der er anført ovenfor.
+Hætteglas med Daptomycin Hospira er kun beregnet til engangsbrug. Enhver ubrugt rest i hætteglasset 
+skal kasseres.
+46
+Indlægsseddel: Information til patienten
+Daptomycin Hospira 500 mg pulver til injektions-/infusionsvæske, opløsning
+daptomycin
+Læs denne indlægsseddel grundigt, inden du begynder at få dette lægemiddel, da den indeholder 
+vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen eller sundhedspersonalet, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt her. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-08bd32995710017e5d1be3af6c537328
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for daptomycin Package Leaflet for language en"
+Description: "ePI document Bundle for daptomycin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-08bd32995710017e5d1be3af6c537328"
+* entry[0].resource = composition-en-08bd32995710017e5d1be3af6c537328
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp08bd32995710017e5d1be3af6c537328"
+* entry[=].resource = mp08bd32995710017e5d1be3af6c537328
+                            
+                    
+Instance: bundlepackageleaflet-da-08bd32995710017e5d1be3af6c537328
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for daptomycin Package Leaflet for language da"
+Description: "ePI document Bundle for daptomycin Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-08bd32995710017e5d1be3af6c537328"
+* entry[0].resource = composition-da-08bd32995710017e5d1be3af6c537328
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp08bd32995710017e5d1be3af6c537328"
+* entry[=].resource = mp08bd32995710017e5d1be3af6c537328
+                            
+                    
+
+
+
+Instance: mp08bd32995710017e5d1be3af6c537328
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Daptomycin Hospira 350 mg powder for solution for injection/infusion"
-Description: "Daptomycin Hospira 350 mg powder for solution for injection/infusion"
+Title: "Medicinal Product daptomycin"
+Description: "daptomycin"
 Usage: #inline
 
  
@@ -421,7 +1088,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Daptomycin Hospira 350 mg powder for solution for injection/infusion"
+  * productName = "daptomycin"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -448,29 +1115,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-08bd32995710017e5d1be3af6c537328
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for daptomycin Package Leaflet for language en"
-Description: "ePI document Bundle for daptomycin Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 08bd32995710017e5d1be3af6c537328ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1175/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "daptomycin"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-08bd32995710017e5d1be3af6c537328"
-* entry[0].resource = composition-en-08bd32995710017e5d1be3af6c537328
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp26bd6da500d555f6b35b2288320aa9d9"
-* entry[=].resource = mp26bd6da500d555f6b35b2288320aa9d9
-                            
-                      
+* title = "List of all ePIs associated with daptomycin"
+
+* subject = Reference(mp26bd6da500d555f6b35b2288320aa9d9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#daptomycin "daptomycin"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-08bd32995710017e5d1be3af6c537328) // daptomycin en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-08bd32995710017e5d1be3af6c537328) // daptomycin da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-08bd32995710017e5d1be3af6c537328
+InstanceOf: List
+
+* insert 08bd32995710017e5d1be3af6c537328ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-05f8c1dee8f03d43d5a47046b61f2f18
 InstanceOf: CompositionUvEpi
 Title: "Composition for norvir Package Leaflet"
@@ -660,12 +663,788 @@ you no longer use. These measures will help protect the environment.</p>        
 
 
 
+Instance: composition-da-05f8c1dee8f03d43d5a47046b61f2f18
+InstanceOf: CompositionUvEpi
+Title: "Composition for norvir Package Leaflet"
+Description:  "Composition for norvir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc025600a88b03058f9fd9ac4887d4c5a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc025600a88b03058f9fd9ac4887d4c5a
+* title = "TEST PURPOSES ONLY - norvir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse
+2. Det skal du vide, før du eller dit barn begynder at tage Norvir
+3. Sådan skal du tage Norvir
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What norvir is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What norvir is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Norvir indeholder det aktive stof ritonavir. Norvir er en proteasehæmmer, som anvendes til at 
+kontrollere hiv-infektion. Norvir anvendes i kombination med andre lægemidler mod hiv 
+(antiretrovirale lægemidler) til at kontrollere hiv-infektion. Din læge vil drøfte med dig, hvilken 
+kombination af lægemidler der er bedst for dig.
+Norvir bruges til børn på 2 år og derover, unge og voksne, som er inficeret med hiv, den virus som 
+forårsager AIDS.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take norvir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take norvir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Norvir
+
+hvis du er allergisk over for ritonavir eller et af de øvrige indholdsstoffer i Norvir (se punkt 6).
+
+hvis du har alvorlige leversygdomme.
+
+hvis du for øjeblikket tager ét eller flere af følgende lægemidler:
+
+astemizol eller terfenadin (lægemidler, der ofte anvendes til behandling af 
+overfølsomhedssymptomer, og som måske kan fås uden recept);
+
+amiodaron, bepridil, dronedaron, enacainid, flecainid, propafenon, kinidin (bruges mod 
+uregelmæssig hjerterytme);
+
+dihydroergotamin, ergotamin (bruges mod migræne);
+
+ergonovin, methylergonovin (bruges til at standse voldsom blødning, som kan 
+forekomme efter en fødsel eller abort);
+
+clorazepat, diazepam, estazolam, flurazepam, triazolam eller oral (taget gennem munden) 
+midazolam (bruges til at hjælpe dig med at sove og/eller mod angst);
+
+clozapin, pimozid, (bruges mod unormale tanker eller følelser);
+99
+
+quetiapin (bruges til behandling af skizofreni, bipolær lidelse (manio-depressiv lidelse) 
+og depression);
+
+lurasidon (bruges til behandling af depression); 
+
+ranolazin (bruges til behandling af krinisk smerte i brystet [angina]);
+
+pethidin, propoxyfen (bruges mod smerter);
+
+cisaprid (bruges mod visse maveproblemer);
+
+rifabutin (bruges til forebyggelse og behandling af visse infektioner)<em>;
+
+voriconazol (anvendes til behandling af svampeinfektioner)</em>;
+
+simvastatin, lovastatin (bruges til at sænke kolesterol i blodet);
+
+neratinib (bruges til at behandle brystkræft);
+
+lomitapid (bruges til at sænke kolesterol i blodet);
+
+alfuzosin (bruges mod forstørret prostata);
+
+fusidinsyre (bruges til behandling af bakterielle infektioner);
+
+sildenafil, hvis du har en lungesygdom kaldet pulmonal hypertension, der vanskeliggør 
+vejrtrækningen.   Patienter, som ikke lider af denne sygdom, kan tage sildenafil mod 
+rejsningsbesvær (manglende evne til at få rejsning af penis), hvis deres læge følger dem 
+nøje (se punktet Brug af anden medicin sammen med Norvir);
+
+avanafil eller vardenafil (brugt til behandling af potensproblemer);
+
+colchicin (bruges til behandling af urinsyregigt) hvis du har problemer med nyre og/eller 
+lever (se sektionen vedrørende Brug af anden medicin sammen med Norvir);
+
+præparater, der indeholder perikon (Hypericum perforatum), da dette kan forhindre 
+Norvir i at virke på den rette måde.  Perikon er et naturlægemiddel, som du kan få i 
+håndkøb.</p>
+<ul>
+<li>Din læge kan beslutte, at du kan tage rifabutin og/eller voriconazol sammen med en boosterdosis 
+(lavere dosis) af Norvir, men du må ikke tage en fuld dosis Norvir sammen med disse to 
+lægemidler.
+Hvis du i øjeblikket tager ét eller flere af disse lægemidler, skal du rådføre dig med din læge om at 
+skifte til et andet lægemiddel, medens du tager Norvir. 
+Læs også listen over lægemidler under punktet ‘Brug af anden medicin sammen med Norvir’ til 
+anvendelse sammen med visse andre lægemidler, som kræver, at der udvises særlig forsigtighed.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du tager Norvir.
+Vigtig information
+
+Hvis Norvir tages i kombination med anden antiretroviral medicin, er det vigtigt, at du også 
+omhyggeligt læser de indlægssedler, som følger med den anden medicin. Der kan være 
+yderligere oplysninger i disse indlægssedler om situationer, hvor Norvir bør undgås. Hvis du 
+har yderligere spørgsmål om Norvir (ritonavir) eller den anden ordinerede medicin, skal du 
+spørge din læge eller på apoteket.
+
+Norvir helbreder ikke hiv-infektion eller AIDS.
+
+Personer, der tager Norvir, kan stadig udvikle infektioner eller andre sygdomme forbundet med 
+hiv-infektion eller AIDS.  Det er derfor vigtigt, at din læge følger dig nøje, mens du tager 
+Norvir.
+100
+Fortæl det til lægen, hvis du har eller har haft:
+
+leversygdom. 
+
+hepatitis B eller C og er i behandling med en kombination af antiretrovirale lægemidler, da du i 
+så fald er i større risiko for at få en alvorlig og muligvis livstruende reaktion på grund af 
+indvirkningen på leveren.  Det kan være nødvendigt at kontrollere din leverfunktion ved 
+regelmæssige blodprøver.
+
+hæmofili, da der er rapporteret om forøget blødning hos patienter med hæmofili, der tager 
+denne type medicin, som kaldes proteasehæmmere.  Årsagen hertil er ikke kendt. Du kan få 
+brug for yderligere medicin til at hjælpe dit blod med at koagulere (faktor VIII) og kontrollere 
+en eventuel blødning.
+
+rejsningsbesvær, da medicin, der bruges mod dette,  kan forårsage hypotension og 
+forlænget erektion.
+
+sukkersyge (diabetes), da der har været rapporteret om forværring eller udvikling af diabetes 
+(diabetes mellitus) hos nogle patienter i behandling med proteasehæmmere.
+
+nyresygdom, da det kan være nødvendigt for din læge at tjekke dosis af den anden medicin 
+(såsom proteasehæmmere).
+Fortæl det til lægen, hvis du oplever:
+
+Diarré eller opkastning, der ikke bliver bedre (som er vedvarende), da dette kan mindske 
+virkningen af de lægemidler, du tager.
+
+Kvalme, opkastning eller mavesmerter, da dette kan være tegn på betændelse i bugspytkirtlen 
+(pankreatitis).   Nogle patienter, som tager Norvir, kan udvikle alvorlige problemer med 
+bugspytkirtlen.  Fortæl det til lægen hurtigst muligt, hvis dette gør sig gældende for dig.
+
+Symptomer på infektion - informér omgående din læge. Hos nogle patienter med fremskreden 
+hiv-infektion (AIDS), som påbegynder anti-hiv-behandling, kan der forekomme symptomer på 
+infektioner, som de har haft på et tidligere tidspunkt, og som de måske ikke engang var klar 
+over, at de havde haft.  Det antages, at disse symptomer skyldes en forbedring i kroppens 
+immunforsvar, som således hjælper kroppen med at bekæmpe infektionerne. Foruden 
+opportunistiske infektioner kan autoimmune sygdomme (skyldes, at immunsystemet går til 
+angreb på rask kropsvæv) også forekomme efter, at du er startet på at tage medicin til 
+behandling af din hiv-infektion. Autoimmune sygdomme kan forekomme flere måneder efter 
+påbegyndelsen af behandlingen. Hvis du bemærker nogen symptomer på infektion eller andre
+symptomer såsom muskelsvaghed, svaghed som starter i hænder og fødder og bevæger sig op 
+gennem kroppen, hjertebanken, kramper eller hyperaktivitet, skal du omgående kontakte din 
+læge for at få den nødvendige behandling.
+
+Stivhed, ømhed og smerter i led (især i hofte, knæ og skulder) og bevægelsesbesvær, da dette 
+kan være et tegn på en lidelse, som kan nedbryde knoglerne (knoglenekrose). Nogle patienter, 
+som tager flere antiretrovirale lægemidler samtidigt, kan udvikle denne sygdom. 
+
+Smerter eller ømhed i musklerne samt muskelsvækkelse, især ved samtidig anvendelse af 
+antiretroviral behandling, herunder proteasehæmmere og nukleosidanaloger. Muskellidelserne 
+har i sjældne tilfælde været alvorlige (se punkt 4 Bivirkninger).
+
+Svimmelhed, besvimelsesanfald eller unormal hjerterytme. Nogle patienter, som tager 
+Norvir kan få ændringer i elektrokardiogram (ekg). Fortæl det til lægen, hvis du har en hjertefejl 
+eller overledningsforstyrrelser i hjertet.
+
+Hvis du har nogen andre bekymringer med hensyn til helbredet, bør du drøfte dem med din 
+læge så hurtigt som muligt.
+101
+Børn og unge
+Norvir anbefales ikke til børn under 2 år.
+Brug af anden medicin sammen med Norvir
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for nylig,
+herunder lægemidler uden recept.
+Der er nogle lægemidler, som du slet ikke må tage sammen med Norvir. Disse lægemidler er anført 
+tidligere under punkt 2 i afsnittet ‘Tag ikke Norvir’. Der er visse andre lægemidler, der kun må 
+anvendes under særlige omstændigheder som beskrevet nedenfor.<br />
+Følgende advarsler gælder, når Norvir tages i fuld dosis. Advarslerne kan dog også gælde i tilfælde, 
+hvor Norvir tages i lavere doser (boosterdoser) sammen med andre lægemidler. 
+Fortæl det til lægen, hvis du tager et eller flere af nedenstående lægemidler, da der i så fald skal 
+udvises særlig forsigtighed.
+
+Sildenafil eller tadalafil mod rejsningsbesvær (manglende evne til at få rejsning af penis).<br />
+Det kan være nødvendigt at nedsætte dosis og/eller hyppigheden af brugen af disse lægemidler 
+for at undgå hypotension og forlænget erektion. Du må ikke tage Norvir, hvis du tager sildenafil 
+mod forhøjet tryk i lungernes blodkar (pulmonal hypertension) (se også punkt 2. Det skal du 
+vide, før du eller dit barn begynder at tage Norvir). Fortæl din læge, hvis du tager tadalafil 
+mod pulmonal hypertension.
+
+Colchicin (mod urinsyregigt), da Norvir kan øge niveauet af dette lægemiddel i blodet. Du må 
+ikke tage Norvir sammen med colchicin, hvis du har problemer med nyre og/eller lever (se også 
+‘Tag ikke Norvir’ ovenfor).
+
+Digoxin (hjertemedicin).  Din læge kan være nødt til at justere dosen af digoxin og følge dig 
+nøje, mens du tager digoxin og Norvir, for at undgå hjerteproblemer.
+
+Hormonelle præventionsmidler, som indeholder ethinylestradiol, da Norvir kan mindske disse 
+lægemidlers virkning.  Det anbefales derfor i stedet at anvende kondom eller en anden ikke-
+hormonel præventionsform.  Der kan desuden forekomme uregelmæssig blødning fra 
+livmoderen, hvis Norvir tages sammen med hormonelle præventionsmidler, som indeholder 
+ethinylestradiol.
+
+Atorvastatin eller rosuvastatin (mod for højt kolesteroltal), da Norvir kan øge niveauerne af 
+disse lægemidler i blodet.  Tal med din læge, inden du tager nogen former for 
+kolesterolsænkende lægemidler sammen med Norvir (se også punktet ‘Tag ikke Norvir’ 
+ovenfor).
+
+Steroider (f.eks. dexamethason, fluticasonpropionat, prednisolon, triamcinolon), da Norvir kan 
+øge niveauerne af disse lægemidler i blodet, hvilket kan føre til Cushings syndrom (udvikling af 
+‘måneansigt’) og nedsætte produktionen af hormonet kortisol.  Din læge vil muligvis reducere 
+steroiddosen eller følge dine bivirkninger nøje.
+
+Trazodon (et lægemiddel mod depression), da uønskede bivirkninger såsom kvalme, 
+svimmelhed, lavt blodtryk og besvimelse kan forekomme, når det tages sammen med Norvir. 
+
+Rifampicin og saquinavir (anvendes i behandlingen af henholdsvis tuberkulose og hiv), da der 
+kan forekomme alvorlig leverskade, når de tages sammen med Norvir.
+
+Bosentan, riociguat (bruges til pulmonal hypertension) da Norvir kan forhøje koncentrationen 
+af denne medicin i blodet.
+Der er lægemidler, som helst ikke skal blandes med Norvir, fordi deres virkning kan øges eller falde, 
+når de tages sammen.  I nogle tilfælde kan lægen være nødt til at udføre bestemte test, ændre dosis 
+eller undersøge dig regelmæssigt.  Det er grunden til, at du skal informere din læge, hvis du tager 
+nogen form for lægemidler, herunder dem, du selv har købt, eller naturlægemidler, men det er især 
+vigtigt, at du nævner følgende: 
+102
+
+amphetamin eller derivater heraf
+
+antibiotika (f.eks. erythromycin, clarithromycin);
+
+lægemidler mod kræft (f.eks. abemaciclib, afatinib, apalutamid, ceritinib, encorafenib, 
+dasatinib, ibrutinib, nilotinib, venetoclax, vincristin, vinblastin);
+
+lægemidler, der anvendes til behandling af lavt antal blodplader i blodet (f.eks. fostamatinib);
+
+blodfortyndende lægemidler (f.eks. dabigatranetexilat, edoxaban, rivaroxaban, vorapaxar,
+warfarin);
+
+lægemidler mod depression (f.eks. amitriptylin, desipramin, fluoxetin, imipramin, nefazodone,<br />
+nortriptylin, paroxetin, sertralin, trazodon);
+
+lægemidler mod svamp (f.eks. ketoconazol, itraconazol);
+
+antihistaminer (f.eks. loratidin, fexofenadin);
+
+antiretrovirale lægemidler, herunder hiv-proteasehæmmere (amprenavir, atazanavir, darunavir, 
+fosamprenavir, indinavir, nelfinavir, saquinavir, tipranavir) og non-nukleosid revers 
+transkriptasehæmmere (NNRTI) (delavirdin, efavirenz, nevirapin) og andre (didanosin, 
+maraviroc, raltegravir, zidovudin);
+
+lægemiddel mod tuberkulose (bedaquilin, delamanid);
+
+antivirale midler som bruges til at behandle kronisk hepatitis C-virus-infektion hos voksne 
+(f.eks. glecaprevir/pibrentasvir og simeprevir);
+
+lægemidler mod angst, buspiron;
+
+lægemidler mod astma, theophyllin, salmeterol;
+
+atovaquon, der er et lægemiddel, som anvendes til behandling af en særlig type lungebetændelse 
+og malaria;
+
+buprenorphin, der er et lægemiddel, som anvendes til behandling af kroniske smerter;
+
+bupropion, der er et lægemiddel, som anvendes til at hjælpe dig med at holde op med at ryge
+
+lægemidler mod epilepsi (f.eks. carbamazepin, divalproex, lamotrigin, phenytoin);
+
+hjertemedicin (f.eks.  disopyramid, mexiletin og calciumantagonister såsom amlodipin, 
+diltiazem og nifedipin);
+
+lægemidler med indvirkning på immunsystemet (f.eks. ciclosporin, tacrolimus, everolimus);
+
+levothyroxin (bruges til at behandle problemer med skjoldbruskkirtlen);
+
+morphin og morphinlignende lægemidler, der anvendes til behandling af stærke smerter (f.eks. 
+methadon, fentanyl);
+
+sovepiller (f.eks. alprazolam, zolpidem) og endvidere midazolam indgivet med injektion;
+
+lægemidler til behandling af psykotiske tilstande (f.eks. haloperidol, risperidon, thioridazin);
+
+colchicin, til behandling af gigt.
+Der er nogle lægemidler, som du slet ikke må tage sammen med Norvir.  Disse lægemidler er anført 
+tidligere under punkt 2 i afsnittet ‘Tag ikke Norvir’.
+Fortæl det altid til lægen eller på apoteket, hvis du bruger anden medicin eller har brugt det for nylig. 
+Dette gælder også medicin, som ikke er købt på recept.
+Brug af Norvir sammen med mad og drikke
+Norvir-tabletter bør indtages sammen med mad.
+Graviditet og amning
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, er det 
+meget vigtigt, at du spørger din læge til råds, før du tager dette lægemiddel.
+Der findes en stor mænde af oplysninger om brugen af ritonavir (det aktive stof i Norvir) under 
+graviditet.  Efter de første tre måneder af graviditeten fik gravide kvinder gennemgående ritonavir i en 
+lavere dosis (boosterdosis) sammen med andre proteasehæmmere. Norvir synes ikke at øge risikoen 
+for medfødte misdannelser sammenlignet med den generelle population.
+103
+Amning anbefales ikke hos kvinder, som lever med hiv, da hiv-infektion kan overføres til barnet 
+gennem modermælken.
+Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.
+Trafik- og arbejdssikkerhed
+Norvir kan medføre  svimmelhed.  Hvis du bliver svimmel, må du ikke køre bil, motorcykel eller 
+cykle eller arbejde med værktøj eller maskiner. 
+Norvir indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take norvir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take norvir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid denne medicin nøjagtigt efter lægens eller apotekspersonalets anvisning.  Er du i tvivl, så 
+spørg lægen eller apotekspersonalet.  Tag denne medicin en eller to gange dagligt sammen med mad.
+Det er vigtigt, at Norvir-tabletter synkes hele og ikke tygges, deles eller knuses.
+Norvir anbefales i følgende doser:
+
+Hvis Norvir bruges til at booste virkningen af visse andre anti-hiv-lægemidler, er den typiske 
+dosis til voksne 1-2 tabletter én eller to gange dagligt.  Se indlægssedlen for de anti-hiv-
+lægemidler, Norvir gives i kombination med, for mere detaljerede anbefalinger om dosis, 
+inklusive børnedoser.
+
+Hvis din læge ordinerer en fuld dosis, kan voksne patienter begynde med en dosis på 3 tabletter 
+om morgenen og 3 tabletter 12 timer senere, hvilket gradvist øges i en periode på højst 14 dage 
+til den fulde dosis på 6 tabletter to gange dagligt (totalt 1.200 mg pr. dag). Børn (2-12 år) starter 
+med en lavere dosis end denne og fortsætter op til den maksimalt tilladte dosis for deres 
+størrelse.
+Din læge vil vejlede dig om den dosis, du skal tage.
+Norvir skal tages hver dag for at medvirke til at kontrollere din hiv-infektion, uanset hvor meget 
+bedre tilpas du føler dig.  Hvis en bivirkning forhindrer dig i at tage Norvir efter anvisningerne, skal 
+du straks kontakte lægen. I perioder med diarré kan din læge beslutte, at ekstra kontrol er nødvendig.
+Sørg altid for at have tilstrækkeligt med Norvir på lager, så du ikke løber tør. Når du er på rejse eller 
+skal indlægges på hospitalet, skal du sørge for at have tilstrækkeligt med Norvir, indtil du kan få en ny 
+forsyning.
+Hvis du har taget for meget Norvir
+Hvis du tager for meget Norvir, kan der forekomme en sovende eller prikkende fornemmelse eller 
+andre unormale følefornemmelser i huden.  Hvis du bliver klar over, at du har taget mere Norvir, end 
+du skulle, skal du straks kontakte din læge eller skadestuen på det nærmeste hospital. 
+Hvis du har glemt at tage Norvir
+104
+Hvis du glemmer en dosis, skal du tage den glemte dosis så hurtigt som muligt. Hvis det er lige før, du 
+skulle have taget den næste dosis, skal du kun tage den. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis.
+Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.
+Hvis du holder op med at tage Norvir
+Selv om du føler dig bedre tilpas, må du ikke holde op med at tage Norvir uden først at have talt med 
+din læge. Ved at tage Norvir, som det er ordineret, har du størst chance for at forsinke udviklingen af 
+resistens mod medicinen.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose 
+i blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse ændringer.
+Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.  Når 
+Norvir anvendes sammen med andre antiretrovirale lægemidler, afhænger bivirkningerne ved Norvir 
+desuden af disse andre lægemidler.  Det er vigtigt at læse afsnittet om bivirkninger omhyggeligt i de 
+indlægssedler, der er vedlagt de andre lægemidler.
+Hyppigheden af mulige bivirkninger er anført nedenfor på følgende måde:
+Meget almindelige: kan påvirke flere end 1 ud af 10 personer
+
+øvre og nedre mavepine 
+
+opkastning 
+
+diarré (kan være alvorlig)
+
+føle sig dårlig (kvalme)
+
+ansigtsrødme, varmefølelse
+
+hovedpine
+
+svimmelhed
+
+smerter i svælget
+
+hoste
+
+maveproblemer eller fordøjelsesbesvær 
+
+en prikkende eller sovende fornemmelse i 
+hænder, fødder eller omkring læberne og 
+munden
+
+en følelse af svaghed/træthed
+
+dårlig smag i munden
+
+nerveskade, som kan give svaghed og 
+smerte
+
+kløe
+
+udslæt
+
+led- og rygsmerter
+Almindelige: kan påvirke op til1ud af 10 personer
+
+overfølsomhedsreaktioner, herunder 
+hududslæt (kan være rødt, hævet og 
+kløende), alvorlige hævelser i huden og 
+andre væv 
+
+søvnløshed (insomni)
+
+angst
+
+forhøjet kolesterol
+
+forhøjede triglycerider
+
+urinsyregigt
+
+blødning fra mavesækken
+
+inflammation i leveren og gulfarvning af 
+huden eller det hvide i øjnene
+
+øget vandladning
+
+nedsat nyrefunktion
+
+luft i maven (flatulens)
+
+appetitløshed
+
+mundsår
+
+ømhed i muskler (smerte), ømhed eller 
+svækkelse
+
+feber
+
+vægttab
+
+resultater af laboratorietest:
+ændringer i resultaterne af blodprøver 
+(såsom blodkemi og blodtal)
+
+forvirring
+
+svært ved at fastholde opmærksomheden
+
+sløret syn
+
+hævede hænder og fødder
+105
+
+krampe (anfald)
+
+lavt antal blodplader i blodet
+
+tørst (dehydrering)
+
+unormalt kraftige menstruationer
+
+højt blodtryk
+
+lavt blodtryk og svimmelhed, når man 
+rejser sig
+
+kuldefølelse i hænder og fødder
+
+akne
+Ikke almindelige: kan påvirke op til 1 ud af 100 personer
+
+hjerteanfald
+
+diabetes
+
+nyresvigt
+Sjældne:  kan påvirke op til 1 ud af 1.000 personer
+
+alvorlig eller livstruende hudreaktion,
+herunder blærer (Stevens-Johnsons 
+syndrom, toksisk epidermal nekrolyse)
+
+alvorlig overfølsomhedsreaktion 
+(anafylaksi)
+
+højt niveau af sukker i blodet
+Ikke kendt: kan ikke estimeres ud fra tilgængelige data
+
+nyresten
+Fortæl det til din læge, hvis du får kvalme, kaster op eller får ondt i maven, da dette kan være tegn på 
+betændelse i bugspytkirtlen.  Du skal også fortælle det til din læge, hvis du får stivhed, ømhed og 
+smerter i led (især hofte, knæ og skulder) samt bevægelsesbesvær, da dette kan være tegn på 
+knoglenekrose.  Se også punkt 2 Det skal du vide, før du eller dit barn begynder at tage Norvir.
+Hos nogle patienter med hæmofili A og B er der rapporteret om tilfælde af øget blødningstendens 
+under behandling med Norvir eller en anden proteasehæmmer. Skulle dette ske for dig, bør du 
+øjeblikkelig kontakte din læge.<br />
+Abnorm leverfunktionstest, leverbetændelse (hepatitis) og sjældent gulsot er blevet rapporteret hos 
+patienter, der tog Norvir. Nogle patienter havde andre sygdomme eller tog anden medicin. Patienter 
+med leversygdom eller hepatitis kan opleve en forværring af leversygdommen.
+Der er rapporteret om smerter, ømhed eller svaghed i musklerne samt muskelsvækkelse, især ved 
+samtidig anvendelse af kolesterolsænkende medicin og antiretroviral kombinationsbehandling, 
+herunder med proteasehæmmere og nukleosidanaloger. Muskellidelser har i sjældne tilfælde været 
+alvorlige (rhabdomyolyse). Hvis du oplever uforklarlige eller fortsatte smerter eller ømhed i 
+musklerne, muskelsvækkelse eller kramper, skal du holde op med at tage medicinen, kontakte din 
+læge hurtigst muligt eller tage på skadestuen på det nærmeste hospital.
+Fortæl det straks til din læge, hvis du oplever symptomer, som tyder på en allergisk reaktion, efter 
+indtagelse af Norvir, f.eks. udslæt, nældefeber eller åndedrætsbesvær.
+Tal med lægen eller apoteket,  hvis en bivirkning er generende eller bliver værre, eller du får 
+bivirkninger, som ikke er nævnt her.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store norvir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store norvir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>106
+Opbevar Norvir utilgængeligt for børn.
+Brug ikke Norvir efter den udløbsdato, der står på etiketten. Udløbsdatoen er den sidste dag i den 
+nævnte måned.
+Der er ingen særlige krav vedrørende opbevaringenstemperaturer for dette lægemiddel. Opbevares i 
+den originale flaske for at beskytte mod fugt.
+Brug ikke lægemidlet, hvis du bemærker nogen som helst misfarvning.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Norvir indeholder:
+
+Aktivt stof: ritonavir. Hver filmovertrukken tablet indeholder 100 mg ritonavir.
+
+Øvrige tablet-indholdsstoffer: copovidon; sorbitanlaurat; calciumhydrogenfosfat, vandfri; silica 
+kolloid vandfri; natriumstearylfumarat.
+
+tabletovertræk indeholder: hypromellose; titandioxid; macrogoler; hydroxypropylcellulose; 
+talcum; silica kolloid vandfri; polysorbat 80. Norvirs udseende og pakningsstørrelse
+Norvir filmovertrukne tabletter er hvide, præget med koden “NK" på den ene side.
+Der findes tre pakningsstørrelser af Norvir-tabletter: 
+
+1 beholder med 30 tabletter
+
+1 beholder med 60 tabletter
+
+Multipakning som består af 3 beholdere, som hver indeholder 30 filmovertrukne tabletter (tabletter) 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Norvir fås også som et pulver til oral suspension indeholdende 100 mg ritonavir.
+Indehaveren af markedsføringstilladelsen 
+AbbVie Deutschland GmbH &amp; Co. KG, Knollstrasse, 67061 Ludwigshafen, Tyskland
+Fremstillere
+AbbVie Deutschland GmbH &amp; Co. KG
+Knollstrasse
+67061 Ludwigshafen
+Tyskland
+Hvis du vil have yderligere oplysninger om Norvir, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen:
+107
+België/Belgique/Belgien
+AbbVie SA
+Tél/Tel: +32 10 477811
+Lietuva
+AbbVie UAB 
+Tel: +370 5 205 3023
+България
+АбВи ЕООД
+Тел.: +359 2 90 30 430
+Luxembourg/Luxemburg
+AbbVie SA
+Belgique/Belgien
+Tél/Tel: +32 10 477811
+Česká republika
+AbbVie s.r.o. 
+Tel: +420 233 098 111
+Magyarország
+AbbVie Kft.
+Tel.: +36 1 455 8600
+Danmark
+AbbVie A/S
+Tlf: +45 72 30 20 28
+Malta
+V.J.Salomone Pharma Limited 
+Tel: +356 22983201
+Deutschland
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: 00800 222843 33 (gebührenfrei)
+Tel: +49 (0) 611 / 1720-0
+Nederland
+AbbVie B.V.
+Tel: +31 (0)88 322 2843
+Eesti
+AbbVie OÜ
+Tel: +372 623 1011
+Norge
+AbbVie AS
+Tlf: +47 67 81 80 00
+Ελλάδα
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε.
+Τηλ: +30 214 4165 555
+Österreich
+AbbVie GmbH 
+Tel: +43 1 20589-0
+España
+AbbVie Spain, S.L.U. 
+Tel: +34 9 1 384 0910
+Polska
+AbbVie Sp. z o.o.
+Tel.: +48 22 372 78 France
+AbbVie
+Tél: +33 (0)1 45 60 13 00
+Portugal
+AbbVie, Lda. 
+Tel: +351 (0)21 1908400
+Hrvatska 
+AbbVie d.o.o.
+Tel: +385 (0)1 5625 501
+România
+AbbVie S.R.L.
+Tel: +40 21 529 30 35
+Ireland
+AbbVie Limited 
+Tel: +353 (0)1 4287900
+Slovenija
+AbbVie Biofarmacevtska družba d.o.o.
+Tel: +386 (1)32 08 060
+Ísland
+Vistor hf.
+Tel: +354 535 7000
+Slovenská republika
+AbbVie s.r.o.
+Tel: +421 2 5050 0777
+Italia
+AbbVie S.r.l. 
+Tel: +39 06 928921
+Suomi/Finland
+AbbVie Oy
+Puh/Tel: +358 (0)10 2411 200
+Κύπρος
+Lifepharma (Z.A.M.) Ltd
+Τηλ: +357 22 34 74 40
+Sverige
+AbbVie AB
+Tel: +46 (0)8 684 44 600
+108
+Latvija
+AbbVie SIA 
+Tel: +371 67605000
+United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561090
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+Du kan finde yderligere information om Norvir på Det europæiske Lægemiddelagentur hjemmeside 
+http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-05f8c1dee8f03d43d5a47046b61f2f18
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for norvir Package Leaflet for language en"
+Description: "ePI document Bundle for norvir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-05f8c1dee8f03d43d5a47046b61f2f18"
+* entry[0].resource = composition-en-05f8c1dee8f03d43d5a47046b61f2f18
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp05f8c1dee8f03d43d5a47046b61f2f18"
+* entry[=].resource = mp05f8c1dee8f03d43d5a47046b61f2f18
+                            
+                    
+Instance: bundlepackageleaflet-da-05f8c1dee8f03d43d5a47046b61f2f18
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for norvir Package Leaflet for language da"
+Description: "ePI document Bundle for norvir Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-05f8c1dee8f03d43d5a47046b61f2f18"
+* entry[0].resource = composition-da-05f8c1dee8f03d43d5a47046b61f2f18
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp05f8c1dee8f03d43d5a47046b61f2f18"
+* entry[=].resource = mp05f8c1dee8f03d43d5a47046b61f2f18
+                            
+                    
+
+
+
+Instance: mp05f8c1dee8f03d43d5a47046b61f2f18
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Norvir 100 mg powder for oral suspension"
-Description: "Norvir 100 mg powder for oral suspension"
+Title: "Medicinal Product norvir"
+Description: "norvir"
 Usage: #inline
 
  
@@ -685,7 +1464,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Norvir 100 mg powder for oral suspension"
+  * productName = "norvir"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -712,29 +1491,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-05f8c1dee8f03d43d5a47046b61f2f18
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for norvir Package Leaflet for language en"
-Description: "ePI document Bundle for norvir Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 05f8c1dee8f03d43d5a47046b61f2f18ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/96/016/009"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "norvir"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-05f8c1dee8f03d43d5a47046b61f2f18"
-* entry[0].resource = composition-en-05f8c1dee8f03d43d5a47046b61f2f18
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc025600a88b03058f9fd9ac4887d4c5a"
-* entry[=].resource = mpc025600a88b03058f9fd9ac4887d4c5a
-                            
-                      
+* title = "List of all ePIs associated with norvir"
+
+* subject = Reference(mpc025600a88b03058f9fd9ac4887d4c5a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#norvir "norvir"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-05f8c1dee8f03d43d5a47046b61f2f18) // norvir en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-05f8c1dee8f03d43d5a47046b61f2f18) // norvir da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-05f8c1dee8f03d43d5a47046b61f2f18
+InstanceOf: List
+
+* insert 05f8c1dee8f03d43d5a47046b61f2f18ListRuleset
+    

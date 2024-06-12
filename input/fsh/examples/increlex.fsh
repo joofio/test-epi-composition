@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-56dfb582fe4596bebf9f4c8e3931299d
 InstanceOf: CompositionUvEpi
 Title: "Composition for increlex Package Leaflet"
@@ -400,12 +403,593 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-56dfb582fe4596bebf9f4c8e3931299d
+InstanceOf: CompositionUvEpi
+Title: "Composition for increlex Package Leaflet"
+Description:  "Composition for increlex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpaee4461e861ea1b8e8b52e6e762fcd9e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpaee4461e861ea1b8e8b52e6e762fcd9e
+* title = "TEST PURPOSES ONLY - increlex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage INCRELEX
+3. Sådan skal du tage INCRELEX
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What increlex is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What increlex is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>-
+INCRELEX er en væske, der indeholder mecasermin, som er en menneskeskabt insulinlignende 
+vækstfaktor-1 (IGF-1), som ligner den IGF-1, som din krop selv danner.
+-
+Det anvendes til at behandle børn og unge mellem 2 og 18 år, som er meget lave af vækst i 
+forhold til deres alder, fordi deres krop ikke danner tilstrækkeligt IGF-1. Denne tilstand kaldes 
+primær IGF-1-mangel.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take increlex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take increlex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke INCRELEX</h2>
+<h2>Hvis du i øjeblikket har en tumor eller vækst, uanset om det er kræft eller ikke er kræft</h2>
+<h2>hvis du tidligere har haft kræft</h2>
+<h2>hvis du har en tilstand, der kan øge risikoen for kræft</h2>
+<p>Hvis du er allergisk over for mecasermin eller et af de øvrige indholdsstoffer i INCRELEX 
+(angivet i punkt 6).
+-
+Til præmature spædbørn eller nyfødte, da det indeholder benzylalkohol.
+Advarsler og forsigtighedsregler
+Der er en øget risiko for tumorer og vækster (både kræft og ikke-kræft) hos børn og unge behandlet 
+med INCRELEX. Hvis der opstår ny vækst, hudlæsion eller andre uventede symptomer under eller 
+efter behandlingen, skal du straks tage til lægen, da mecasermin kan spille en rolle i udviklingen af 
+kræft.
+Kontakt lægen eller apotekspersonalet, før du tager INCRELEX
+-
+Hvis du har en krum rygsøjle (skoliose). Udviklingen af sygdommen skoliose skal overvåges.
+-
+Hvis du begynder at halte eller får ondt i dine hofter eller knæ.
+- Hvis du har forstørrede mandler (hypertrophia tonsillarum). De skal undersøges med 
+regelmæssige mellemrum. 
+- Hvis du har symptomer på forøget tryk i hjernen (intrakranial hypertension), såsom 
+synsforstyrrelser, hovedpine, kvalme og/eller opkastninger. Kontakt lægen. 
+- Hvis du får en lokal reaktion på injektionsstedet eller en allergisk reaktion, der breder sig til hele 
+kroppen med INCRELEX. Kontakt lægen så hurtigt som muligt, hvis du får et lokalt udslæt. 
+Søg straks lægehjælp, hvis du får en allergisk reaktion, der involverer hele kroppen (nældefeber, 
+problemer med at trække vejret, besvimelse eller kollaps og en generel følelse af utilpashed). 
+- Hvis du er færdigudvokset (knoglevækstskiverne er lukkede). I dette tilfælde kan INCRELEX 
+ikke hjælpe dig med at vokse og det bør derfor ikke bruges. </p>
+<p>Børn under 2 år </p>
+<p>Anvendelsen af dette lægemiddel er ikke blevet undersøgt hos børn under 2 år, og INCRELEX bør 
+derfor ikke anvendes til denne patientgruppe. </p>
+<p>Brug af andre lægemidler sammen med INCRELEX </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler.  </p>
+<p>Du skal især fortælle det til lægen, hvis du tager insulin eller andre former for lægemidler mod 
+diabetes. Det kan være nødvendigt at justere dosis af denne type lægemiddel. </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Det anbefales, at der foreligger en negativ graviditetstest for alle kvinder i den fødedygtige alder forud 
+for behandling med mercasermin. Det anbefales også, at alle kvinder i den fødedygtige alder bruger 
+passende prævention under behandlingen. </p>
+<p>Behandling med mercasermin skal afbrydes i tilfælde af graviditet. </p>
+<p>Mercasermin må ikke gives til en ammende moder. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Mecasermin kan forårsage for lavt blodsukker (en meget almindelig bivirkning, se punkt 4), som kan 
+påvirke din evne til at føre motorkøretøj og betjene maskiner fordi din evne til at koncentrere dig og 
+reagere kan være nedsat. </p>
+<p>Du skal undgå at deltage i aktiviteter med høj risiko (som f.eks. bilkørsel etc.) i 2-3 timer efter 
+injektionen. Dette gælder især i begyndelsen af INCRELEX-behandlingen og indtil der er fastlagt en 
+INCRELEX-dosis, hvor der ikke forekommer bivirkninger, som gør disse aktiviteter risikable. </p>
+<p>INCRELEX indeholder benzylalkohol og natrium </p>
+<p>INCRELEX indeholder benzylalkohol, som konserveringsmiddel, hvilket kan medføre forgiftning og 
+allergiske reaktioner hos spædbørn og børn under 3 år. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take increlex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take increlex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.  </p>
+<p>Den sædvanlige dosis er 0,04 til 0,12 mg/kg legemsvægt to gange daglig. Se ‘Brugsanvisning’ sidst i 
+indlægssedlen. </p>
+<p>Indsprøjt INCRELEX lige under din hud umiddelbart inden eller efter et måltid eller mellemmåltid, da 
+det kan have insulinlignende hypoglykæmiske virkninger og derfor kan sænke sukkerniveauet i blodet 
+(se hypoglykæmi i afsnit 4). Du må ikke injicere din dosis INCRELEX hvis du af en eller anden årsag 
+ikke kan spise. Du må ikke tage en dobbeltdosis næste gang som erstatning for den glemte dosis. Den 
+næste dosis skal tages som sædvanligt med et måltid eller mellemmåltid. </p>
+<p>Indsprøjt INCRELEX lige under huden på din overarm, lår, maveområde (bugen) eller balle. Skift 
+injektionssted for hver indsprøjtning. Indsprøjt aldrig direkte i en blodåre eller en muskel. </p>
+<p>Brug kun INCRELEX, der er klar og farveløs. </p>
+<p>Behandling med mecasermin er en længerevarende behandling. Spørg lægen, hvis du ønsker 
+yderligere oplysninger. </p>
+<p>Hvis du har taget for meget INCRELEX </p>
+<p>Mecasermin kan, ligesom insulin, sænke sukkerniveauet i blodet (se hypoglykæmi i afsnit 4). </p>
+<p>Kontakt straks lægen, hvis du har indsprøjtet mere INCRELEX end anbefalet. </p>
+<p>En akut overdosering kan medføre lavt blodsukker (hypoglykæmi).  </p>
+<p>Behandlingen af en akut overdosering af mecasermin skal fokusere på at afhjælpe lavt blodsukker 
+(hypoglykæmi). Du/dit barn bør indtage væske eller føde, der indeholder sukker. Hvis du/dit barn ikke 
+er ved bevidsthed eller ikke er vågen nok til at kunne drikke sukkerholdig væske, kan det være 
+nødvendigt at indsprøjte glukagon i musklen for at afhjælpe det lave blodsukker. Lægen eller 
+sygeplejersken vil vise dig, hvordan du skal indsprøjte glukagon. </p>
+<p>Længerevarende overdoseringer kan medføre forstørrelse af visse kropsdele (f.eks. hænder, fødder, 
+dele af ansigtet) eller voldsom vækst af  hele kroppen. Hvis du har mistanke om længerevarende 
+overdosering, skal du straks kontakte lægen. </p>
+<p>Hvis du har glemt at tage INCRELEX </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. 
+Hvis du glemmer en dosis skal den næste dosis ikke laves større for at kompensere. Den næste dosis 
+skal tages som sædvanligt med et måltid eller mellemmåltid. </p>
+<p>Hvis du holder op med at tage INCRELEX </p>
+<p>Afbrydelse eller for tidligt ophør med behandlingen med mercasermin kan påvirke 
+vækstbehandlingens udfald. Tal med lægen, inden du holder op med behandlingen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De hyppigst forekommende bivirkninger ved mercasermin er: lavt blodsukker (hypoglykæmi), 
+opkastning, reaktioner ved injektionsstedet, hovedpine og mellemørebetændelse. Der har også været 
+tilfælde af alvorlige allergiske reaktioner med INCRELEX. Hvis du oplever noget af dette, skal du 
+følge vejledningen for hver hændelse i afsnittene herunder. </p>
+<p>Ikke kendt hyppighed (hyppigheden kan ikke vurderes ud fra de tilgængelige data) 
+Kræft- og ikke-kræft tumorer 
+Der er rapporteret om en stigning i både kræft- og ikke-kræft-tumorer hos patienter behandlet med 
+INCRELEX. Risikoen for sådanne tumorer kan være højere, hvis INCRELEX anvendes til en anden 
+tilstand end det, der er anført i afsnit 1 eller anvendes i en højere dosis end anbefalet i afsnit 3. Alvorlige allergiske reaktioner (anafylaksi) 
+Der har været rapporteret tilfælde af omfattende nældefeber, besvær med at trække vejret, 
+svimmelhed, hævelse i ansigt og/eller svælg efter brug af mercasermin. Du skal øjeblikkeligt stoppe 
+med at tage INCRELEX og straks søge læge, hvis du får en alvorlig allergisk reaktion. 
+Der har også været tilfælde af lokale allergiske reaktioner ved injektionsstedet (kløe og udslæt). </p>
+<p>Hårtab (alopeci) 
+Hårtab er også rapporteret efter brug af mecasermin. </p>
+<p>Meget almindelige (forekommer hos flere end 1 ud af 10 patienter) 
+Lavt blodsukker (hypoglykæmi) 
+Mercasermin kan sænke blodsukkeret. Følgende er tegn på lavt blodsukker: svimmelhed, træthed, 
+rastløshed, sult, irritabilitet, manglende koncentrationsevne, sveden, kvalme og hurtig eller 
+uregelmæssig hjerterytme. </p>
+<p>Meget lavt blodsukker kan medføre bevidstløshed, kramper/anfald eller død. Du skal straks søge læge 
+og stoppe med at tage INCRELEX, hvis du får kramper/anfald eller bliver bevidstløs. </p>
+<p>Hvis du tager INCRELEX, skal du undgå at deltage i høj-risiko-aktiviteter (såsom voldsom fysisk 
+aktivitet) 2-3 timer efter en INCRELEX-indsprøjtning. Det gælder især i starten af behandlingen med 
+INCRELEX. </p>
+<p>Inden du begynder behandlingen med INCRELEX, vil lægen eller sygeplejersken forklare dig, 
+hvordan du skal behandle lavt blodsukker. Du skal altid have en sukkerkilde, såsom appelsinjuice, 
+glukosegel, slik eller mælk, på dig, hvis der skulle opstå symptomer på lavt blodsukker. Ved alvorlige 
+tilfælde af lavt blodsukker, hvor du ikke reagerer og ikke kan drikke sukkerholdig væske, skal du give 
+en indsprøjtning med glukagon. Lægen eller sygeplejersken vil vise dig, hvordan du skal give 
+indsprøjtningen. Glukagon hæver blodsukkeret, når det indsprøjtes. Det er vigtigt, at du får en 
+velafbalanceret kost med protein og fedt, herunder kød og ost, udover sukkerholdig mad.  </p>
+<p>Dit blodsukker (glukose) bør overvåges med en test på fingerspidsen før hvert måltid ved 
+behandlingsstart, og indtil en veltolereret dosis er fastlagt. Hvis der opstår hyppige symptomer på 
+hypoglykæmi (lavt blodsukker) eller svær hypoglykæmi, bør blodsukkerkontrollen fortsætte uanset 
+fødeindtagelse og om muligt i tilfælde af symptomer på hypoglykæmi. </p>
+<p>Forstørrelse af vævet (hypertrofi) og blå mærker ved injektionsstedet 
+Dette kan undgås ved at ændre injektionssted ved hver indsprøjtning (rotation af injektionssted). </p>
+<p>Fordøjelsessystemet 
+Opkastning og smerter i den øvre del af maven er opstået under behandling med mercasermin. </p>
+<p>Infektioner 
+Mellemørebetændelse er observeret hos børn i behandling med mercasermin. </p>
+<p>Musker og knogler 
+Smerter i led og lemmer er opstået under behandling med mercasermin. </p>
+<p>Nervesystemet 
+Hovedpine er forekommet under behandling med mercasermin. </p>
+<p>Almindelige (forekommer hos op til 1 ud af 10 patienter) 
+Kramper 
+Der har været tilfælde af krampeanfald under behandling med mercasermin. 
+Svimmelhed og rysten er også rapporteret under behandling med mercasermin. </p>
+<p>Uregelmæssigheder i hjertet 
+Der er rapporteret en hurtig hjerterytme (puls) og unormale hjertelyde under behandling med 
+mercasermin. </p>
+<p>For højt blodsukker (hyperglykæmi) 
+Der har også været tilfælde af for højt blodsukker under behandling med mercasermin. </p>
+<p>Forstørrede mandler/polypper 
+Mercasermin kan forstørre dine mandler/polypper. Tegn på forstørrede mandler/polypper kan være 
+snorken, besvær med at trække vejret eller synke, søvnapnø (en tilstand, hvor du kortvarigt holder op 
+med at trække vejret, mens du sover), væske i mellemøret og mellemørebetændelse. Søvnapnø kan 
+medføre, at du bliver meget søvnig i løbet af dagen. Tal med lægen, hvis disse symptomer generer dig. 
+Lægen skal undersøge dine mandler/polypper med regelmæssige mellemrum. </p>
+<p>Forstørret thymus (brissel) 
+Der er rapporteret om forstørret thymus (et specialiseret organ i immunsystemet) ved behandling med 
+mercasermin. </p>
+<p>Papilødem 
+Lægen eller en optiker kan observere en hævelse bagerst i øjet (på grund af forhøjet tryk i hjernen) 
+under behandling med mercasermin. </p>
+<p>Høretab 
+Høretab, øresmerter og væske i mellemøret er observeret under behandling med mercasermin. Fortæl 
+det til lægen, hvis du får problemer med hørelsen. </p>
+<p>Forværret rygskævhed (skoliose) (på grund af hurtig vækst) 
+Hvis du har en skæv ryg, skal det kontrolleres jævnligt, om din rygsøjle bliver mere krum. Smerter i 
+muskler er også blevet set ved behandling med mercasermin. </p>
+<p>Forplantningssystemet 
+Der er blevet observeret forstørrelse af brysterne under behandling med mercasermin. </p>
+<p>Fordøjelsessystemet 
+Der er forekommet mavesmerter under behandling med mercasermin. </p>
+<p>Ændringer i hud og hår 
+Fortykkelse af huden, modermærker og abnorm hårtekstur er blevet set ved behandling med 
+mercasermin. </p>
+<p>Reaktioner ved injektionsstedet 
+Der er rapporteret reaktioner såsom smerter, irritation, blødning, blå mærker, rødme og hårde områder 
+under behandling med INCRELEX. Reaktioner ved injektionsstedet kan undgås ved at ændre 
+injektionssted ved hver indsprøjtning (rotation af injektionssted). </p>
+<p>Ikke almindelig (forekommer hos op til 1 ud af 100 patienter) 
+Forhøjet tryk i hjernen (intrakranial hypertension) 
+INCRELEX kan nogle gange medføre et midlertidigt forhøjet tryk i hjernen. Symptomerne på forhøjet 
+tryk i hjernen kan omfatte synsforstyrrelser, hovedpine, kvalme og/eller opkastning. Tal straks med 
+lægen, hvis du får nogen af disse symptomer. Lægen kan kontrollere, om der er et forhøjet tryk i 
+hjernen. Hvis dette er tilfældet, kan lægen eventuelt beslutte midlertidigt at nedsætte dosis eller 
+afbryde behandlingen med mecasermin. Behandlingen med mecasermin kan startes igen, når 
+bivirkningen er overstået. </p>
+<p>Afvigelser i hjertefunktionen 
+Hos visse patienter, der blev behandlet med mecasermin, viste en ultralydsundersøgelse af hjertet 
+(ekkokardiogram) en forstørrelse af hjertemusklen og afvigelser i hjerteklappernes funktion. Din læge 
+kan foretage et ekkokardiogram inden, under og efter behandling med mecasermin. </p>
+<p>Reaktioner ved injektionsstedet 
+Der har været tilfælde af reaktioner såsom udslæt, hævelse og fedtholdige buler ved behandling med 
+INCRELEX. Reaktioner ved injektionsstedet kan undgås ved at skifte injektionssted ved hver 
+indsprøjtning (rotation af injektionssted). </p>
+<p>Vægtøgning 
+Der er observeret vægtøgning under behandling med mercasermin. </p>
+<p>Andre ikke almindelige bivirkninger under behandling med mercasermin omfatter depression og 
+nervøsitet. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store increlex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store increlex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og etiketten efter Exp. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2°C - 8°C). Må ikke nedfryses.<br />
+Opbevar hætteglasset i den ydre karton for at beskytte mod lys.<br />
+Hætteglasset kan opbevares i maks. 30 dage ved 2 °C - 8 °C, når det er åbnet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>INCRELEX indeholder </p>
+<ul>
+<li>Aktivt stof: mecasermin. En ml indeholder 10 mg mecasermin. Et hætteglas indeholder<br />
+40 mg mecasermin. </li>
+<li>Øvrige indholdsstoffer: benzylalkohol, natriumchlorid, polysorbat 20, koncentreret eddikesyre, 
+natriumacetat og vand til injektionsvæsker (se punkt 2 "INCRELEX indeholder benzylalkohol 
+og natrium"). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>INCRELEX er en farveløs til svag gullig og klar til let opaliserende injektionsvæske, leveret i et 
+hætteglas, der er lukket med en prop og forseglet. Hætteglasset indeholder 4 ml opløsning. </p>
+<p>Pakningsstørrelse på 1 hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Ipsen Pharma 
+65, quai Georges Gorse 
+92100 Boulogne-Billancourt<br />
+Frankrig  </p>
+<p>Fremstiller: 
+Beaufour Ipsen Industrie 
+Rue Ethé Virton 
+28100 Dreux 
+Frankrig </p>
+<p>Tjoapack Netherlands B.V.<br />
+Nieuwe Donk 9<br />
+4879 AC Etten-Leur<br />
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien,<br />
+Luxembourg/Luxemburg 
+Ipsen NV 
+België /Belgique/Belgien<br />
+Tél/Tel: + 32 9 243 96<br />
+Italia 
+Ipsen SpA 
+Tel: + 39 02 39 22 България 
+Biomapas UAB 
+Tel: +370 37 366 </p>
+<p>Latvija 
+Ipsen Pharma pārstāvniecība Latvijā 
+Tel: +371 67622 
+Česká republika 
+Ipsen Pharma, s.r.o. 
+Tel: + 420 242 481<br />
+Hrvatska<br />
+Biomapas Zagreb d.o.o.,<br />
+Tel: +385 17 757<br />
+Lietuva 
+Ipsen Pharma Lietuvos filialas 
+Lietuva 
+Tel. + 370 37 337 
+Danmark, Norge, Suomi/Finland, Sverige, 
+Ísland 
+Institut Produits Synthèse (IPSEN) AB<br />
+Sverige/Ruotsi/Svíþjóð 
+Tlf/Puh/Tel/Sími: +46 8 451 60<br />
+Magyarország 
+Ipsen Pharma SAS Magyarországi 
+Tel: +36 1 555 5Deutschland, Österreich 
+Ipsen Pharma GmbH 
+Deutschland<br />
+Nederland 
+Ipsen Farmaceutica B.V. 
+Tel: + 31 23 55 41 Tel.: +49 89 262043 </p>
+<p>Eesti 
+Centralpharma Communications OÜ 
+Tel: +372 6015 
+Polska 
+Ipsen Poland Sp. z o.o. 
+Tel.: + 48 (0) 22 653 68 Ελλάδα, Κύπρος,  Malta 
+Ipsen Μονοπρόσωπη EΠΕ<br />
+Ελλάδα 
+Τηλ: + 30 210 984 3 
+Portugal 
+Ipsen Portugal - Produtos Farmacêuticos S.A. 
+Tel: + 351 21 412 3España 
+Ipsen Pharma S.A. 
+Tel: + 34 936 858<br />
+Slovenija 
+Biomapas UAB 
+Tel: +370 37 366 
+France<br />
+Ipsen Pharma<br />
+Tél: + 33 1 58 33 50 Slovenská republika 
+Ipsen Pharma, organizačná zložka<br />
+Tel: + 420 242 481 821<br />
+Ireland, United Kingdom (Northern Ireland) 
+Ipsen Pharmaceuticals Limited 
+Ireland 
+Tel: + 44(0)1753 627 
+România 
+Ipsen Pharma 
+România 
+Tel/Тел.: + 40 (021) 231 27 20  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Dette lægemiddel er godkendt under “særlige vilkår". 
+Det betyder, at det grundet sygdommens sjældenhed ikke har været muligt at opnå fuldstændig 
+dokumentation for lægemidlet. Det Europæiske Lægemiddelagentur vil hvert år vurdere nye 
+oplysninger om lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om INCRELEX på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.  Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+&lt;------------------------------------------------------------------------------------------------------------------------ BRUGSANVISNING </p>
+<p>INCRELEX skal indgives ved brug af sterile engangssprøjter og injektionskanyler, som kan fås af din 
+læge eller sygeplejerske eller på apoteket.. Sprøjterne skal have et tilstrækkeligt lille volumen til, at 
+den ordinerede dosis kan trækkes op af hætteglasset med rimelig nøjagtighed. </p>
+<p>Klargøring af dosis </p>
+<ol>
+<li>
+<p>Vask hænderne, inden du gør INCRELEX klar til din indsprøjtning. </p>
+</li>
+<li>
+<p>Brug en ny engangskanyle og en engangssprøjte, hver gang du giver en dosis. Sprøjten og 
+kanylen må kun bruges én gang. Kassér dem på korrekt vis i en beholder til skarpe genstande 
+(f.eks. en beholder til miljøfarligt affald), en beholder af hård plast (f.eks. en flaske, hvor der har 
+været rengøringsmiddel i) eller en metalbeholder (f.eks. en tom kaffedåse). Del aldrig kanyler 
+og sprøjter med andre. </p>
+</li>
+<li>
+<p>Kontrollér, om væsken er klar og farveløs. Den må ikke bruges efter udløbsdatoen (som står på 
+pakningen efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned), eller hvis den er 
+uklar, eller du kan se små korn i den. Hvis et hætteglas har været frosset, skal det kasseres. 
+Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. </p>
+</li>
+<li>
+<p>Hvis du tager hul på et nyt hætteglas skal du fjerne beskyttelseshætten. Tag ikke gummiproppen 
+af. </p>
+</li>
+<li>
+<p>Tør gummiproppen på hætteglasset af med en spritserviet for at forhindre, at glasset forurenes 
+med bakterier, som kan stamme fra flere kanyleindføringer (se figur 1). </p>
+</li>
+</ol>
+<p>Figur 1: Tør toppen 
+af med alkohol 
+6. Inden du stikker kanylen i hætteglasset, skal du trække stemplet tilbage for at trække den 
+mængde luft ind i sprøjten, som svarer til den ordinerede dosis. Stik kanylen igennem 
+hætteglassets gummitop, og skub stemplet ind for at sprøjte luft i hætteglasset (se figur 2). </p>
+<ol>
+<li>Lad sprøjten sidde i hætteglasset, og vend bunden i vejret på dem begge. Hold godt fast i 
+sprøjten og hætteglasset (se figur 3). </li>
+</ol>
+<p>Figur 2: Sprøjt 
+luft i hætteglasset 
+Figur 3: Gør klar til 
+at trække væske op </p>
+<ol>
+<li>
+<p>Sørg for, at kanylespidsen er nede i væsken (se figur 4). Træk stemplet tilbage, og træk den 
+korrekte dosis op i sprøjten (se figur 5). </p>
+</li>
+<li>
+<p>Inden du trækker kanylen ud af hætteglasset, skal du kontrollere, om der er luftbobler i sprøjten. 
+Hvis der er bobler i sprøjten, skal du holde hætteglasset og sprøjten med nålen helt lodret og 
+banke let på siden af sprøjten, indtil boblerne flyder op til overfladen. Skub boblerne ud med 
+stemplet, og træk væske tilbage, indtil du har den korrekte dosis (se figur 6). </p>
+</li>
+</ol>
+<p>Figur 4: Kanylespidsen 
+i væsken 
+Figur 5: Træk den 
+korrekte dosis op 
+Figur 6: Fjern luftbobler 
+og fyld sprøjten op igen 
+10. Træk kanylen ud af hætteglasset og sæt beskyttelseshætten på igen. Kanylen 
+må ikke røre ved noget. Du er nu klar til at indsprøjte (se figur 7). </p>
+<p>Indsprøjtning af dosis: </p>
+<p>Indsprøjt INCRELEX som anvist af lægen. 
+Du må ikke give indsprøjtningen, hvis du ikke kan spise umiddelbart inden eller efter indsprøjtningen. </p>
+<ol>
+<li>
+<p>Bestem, hvor du vil indsprøjte - overarm, lår, baller eller bugen (se nedenfor). Du skal skifte 
+injektionssted, hver gang du indsprøjter (rotér injektionsstedet) for at undgå dannelse af en 
+fedtknude under huden (lipohypertrofi) forårsaget af gentagne injektioner på samme sted.  </p>
+</li>
+<li>
+<p>Brug alkohol eller sæbe og vand til at rense huden, der hvor du vil sprøjte dig selv. 
+injektionsstedet skal være tørt, før du indsprøjter. 
+Figur 7: Klar til 
+indsprøjtning 
+Overam 
+Lår 
+Baller 
+Bugen </p>
+</li>
+<li>
+<p>Knib huden let sammen. Indfør kanylen, som lægen har vist dig. Slip huden (se figur A). </p>
+</li>
+<li>
+<p>Skub forsigtigt sprøjtestemplet helt ind, og sørg for, at du har indsprøjtet al væsken. Træk 
+kanylen lige ud, og tryk forsigtigt et par sekunder på det sted, hvor du sprøjtede dig selv, med 
+gaze eller en tot vat. Du må ikke gnide på stedet (se figur B). </p>
+</li>
+<li>
+<p>Følg din læges anvisninger for bortskaffelse af kanyle og sprøjte. Sæt ikke hætten tilbage på 
+sprøjten. Brugte kanyler og sprøjter skal anbringes i en beholder til skarpe genstande (f.eks. en 
+beholder til miljøfarligt affald), en beholder af hård plast (f.eks. en flaske, hvor der har været 
+rengøringsmiddel i) eller en metalbeholder (f.eks. en tom kaffedåse). Disse beholdere skal 
+lukkes og kasseres på korrekt vis, som lægen har vist dig. </p>
+</li>
+</ol>
+<p>Figur A: Knib huden let sammen, 
+og indsprøjt ifølge vejledningen 
+Figur B: Tryk med gaze 
+eller vat (må ikke gnides) </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-56dfb582fe4596bebf9f4c8e3931299d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for increlex Package Leaflet for language en"
+Description: "ePI document Bundle for increlex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-56dfb582fe4596bebf9f4c8e3931299d"
+* entry[0].resource = composition-en-56dfb582fe4596bebf9f4c8e3931299d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp56dfb582fe4596bebf9f4c8e3931299d"
+* entry[=].resource = mp56dfb582fe4596bebf9f4c8e3931299d
+                            
+                    
+Instance: bundlepackageleaflet-da-56dfb582fe4596bebf9f4c8e3931299d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for increlex Package Leaflet for language da"
+Description: "ePI document Bundle for increlex Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-56dfb582fe4596bebf9f4c8e3931299d"
+* entry[0].resource = composition-da-56dfb582fe4596bebf9f4c8e3931299d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp56dfb582fe4596bebf9f4c8e3931299d"
+* entry[=].resource = mp56dfb582fe4596bebf9f4c8e3931299d
+                            
+                    
+
+
+
+Instance: mp56dfb582fe4596bebf9f4c8e3931299d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product INCRELEX 10 mg/ml solution for injection"
-Description: "INCRELEX 10 mg/ml solution for injection"
+Title: "Medicinal Product increlex"
+Description: "increlex"
 Usage: #inline
 
  
@@ -425,7 +1009,7 @@ Usage: #inline
 
 
 * name
-  * productName = "INCRELEX 10 mg/ml solution for injection"
+  * productName = "increlex"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -452,29 +1036,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-56dfb582fe4596bebf9f4c8e3931299d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for increlex Package Leaflet for language en"
-Description: "ePI document Bundle for increlex Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 56dfb582fe4596bebf9f4c8e3931299dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/07/402/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "increlex"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-56dfb582fe4596bebf9f4c8e3931299d"
-* entry[0].resource = composition-en-56dfb582fe4596bebf9f4c8e3931299d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpaee4461e861ea1b8e8b52e6e762fcd9e"
-* entry[=].resource = mpaee4461e861ea1b8e8b52e6e762fcd9e
-                            
-                      
+* title = "List of all ePIs associated with increlex"
+
+* subject = Reference(mpaee4461e861ea1b8e8b52e6e762fcd9e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#increlex "increlex"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-56dfb582fe4596bebf9f4c8e3931299d) // increlex en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-56dfb582fe4596bebf9f4c8e3931299d) // increlex da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-56dfb582fe4596bebf9f4c8e3931299d
+InstanceOf: List
+
+* insert 56dfb582fe4596bebf9f4c8e3931299dListRuleset
+    

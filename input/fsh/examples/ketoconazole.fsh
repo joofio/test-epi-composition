@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a28a8b9246548829f22c8b8c14ca6138
 InstanceOf: CompositionUvEpi
 Title: "Composition for ketoconazole Package Leaflet"
@@ -361,12 +364,515 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-a28a8b9246548829f22c8b8c14ca6138
+InstanceOf: CompositionUvEpi
+Title: "Composition for ketoconazole Package Leaflet"
+Description:  "Composition for ketoconazole Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc78062370d5d18bbbb938fadf23c7e54)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc78062370d5d18bbbb938fadf23c7e54
+* title = "TEST PURPOSES ONLY - ketoconazole"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Ketoconazole HRA </li>
+<li>Sådan skal du tage Ketoconazole HRA </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ketoconazole is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ketoconazole is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ketoconazole HRA er et lægemiddel, der indeholder det aktive stof ketoconazol, med en anticorticosteroid 
+aktivitet. Det anvendes til at behandle endogent Cushings syndrom (når kroppen producerer for meget 
+kortisol) hos voksne og unge over 12 år. </p>
+<p>Cushings syndrom skyldes overproduktion af et hormon, der hedder kortisol og produceres i binyrerne. 
+Ketoconazole HRA kan blokere aktiviteten af de enzymer, der har ansvaret for dannelse (syntese) af kortisol. 
+Ketoconazole HRA kan derfor reducere kroppens overproduktion af kortisol og dermed forbedre 
+symptomerne på Cushings syndrom. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ketoconazole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ketoconazole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ketoconazole HRA </p>
+<ul>
+<li>hvis du er allergisk for ketoconazol og/eller over for imidazol-svampemidler eller et af de øvrige 
+indholdsstoffer i Ketoconazol HRA (angivet i punkt 6). </li>
+<li>hvis du har problemer med leveren </li>
+<li>hvis du er gravid  </li>
+<li>hvis du ammer </li>
+<li>hvis du har eller har haft uregelmæssig hjerterytme </li>
+<li>
+<p>hvis du tager et eller flere af de følgende lægemidler:</p>
+</li>
+<li>
+<p>visse lægemidler til sænkning af blodets kolesterol: simvastatin, atorvastatin, lovastatin  </p>
+</li>
+<li>visse typer hjertemedicin: epleronon, dronedaron, disopyramid, felodipin, nisoldipin, ranolazin  </li>
+<li>visse lægemidler, der anvendes til behandling af malaria: quinidin, halofantrin </li>
+<li>visse lægemidler, der anvendes til svære psykiske lidelser og svær depression: pimozid, 
+sertindol, lurasidon, quetiapin </li>
+<li>visse lægemidler, der anvendes til allergi: mizolastin  </li>
+<li>dabigatran, der anvendes til at forebygge blodpropper  </li>
+<li>visse lægemidler, der anvendes som hjælp til at falde i søvn og til at dulme angst: triazolam, 
+alprazolam, midazolam (taget gennem munden) </li>
+<li>visse lægemidler, der anvendes mod migræneanfald: dihydroergotamin, ergometrin, ergotamin 
+og methylergometrin  </li>
+<li>visse lægemidler, der anvendes mod kræft: irinotecan, everolimus  </li>
+<li>sirolimus, der anvendes til at forhindre kroppen i at afstøde en transplanteret nyre </li>
+<li>tolvaptan, der anvendes til en speciel sygdom med uhensigtsmæssig produktion af antidiuretisk 
+hormon (SIADH) </li>
+<li>vardenafil hos mænd over 75 år - lægemiddel til behandling af rejsningsbesvær hos voksne 
+mænd </li>
+<li>visse lægemidler mod HIV: saquinavir/ritonavir, saquinavir  </li>
+<li>visse lægemidler mod langvarig (kronisk) hepatitis C (smitsom leverbetændelse, som skyldes 
+hepatitis C-virus): Paritaprevir/Ombitasvir (ritonavir) </li>
+<li>methadon: lægemiddel til behandling af stofafhængighed </li>
+<li>Hos patienter med nyresygdomme: 
+▪ 
+colchicin, der anvendes til behandling af podagra 
+▪ 
+fesoterodin og solifenacin, der anvendes til behandling af symptomerne på en overaktiv 
+blære 
+▪ 
+telithromycin og clarithromycin, der anvendes til behandling af infektioner </li>
+</ul>
+<p>Tag ikke Ketoconazole HRA, hvis noget af ovennævnte gælder for dig. Kontakt lægen eller 
+apotekspersonalet, før du tager Ketoconazole HRA, hvis der er noget, du er i tvivl om. </p>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Ketoconazole HRA. </p>
+<p>Leversygdom 
+Tal med din læge, hvis du har eller har haft en leversygdom. Du skal vide, at du regelmæssigt vil få taget 
+prøver for at undersøge din leverfunktion på grund af risiko for svær leverskade: før behandlingen starter; én 
+gang om ugen i den første måned, efter at du er begyndt med Ketoconazole HRA og derefter hver måned i 6 
+måneder. Derefter vil din leverfunktion blive kontrolleret igen, hvis din læge øger din daglige dosis 
+ketoconazol. Du skal stoppe behandlingen og straks kontakte lægen, hvis du bliver utilpas eller oplever 
+symptomer såsom appetitløshed, kvalme, opkastning, træthed, gulsot, mavesmerter eller mørk urin.  </p>
+<p>Særligt dosisregime 
+Hvis du tager glukokortikoid som substitutionsbehandling sammen med Ketoconazole HRA, vil din læge 
+fortælle dig, hvordan du tilpasser din glukokortikoid-dosis, hvis du er under stress, skal opereres eller får en 
+infektion. Derudover skal du have udleveret et patientkort og et nødglukokortikoidsæt. </p>
+<p>Binyrefunktion 
+Din binyrefunktion overvåges med jævne mellemrum. Dette er standard i forbindelse med opfølgning af 
+behandlingen af Cushings syndrom, og fordi nedsat binyrefunktion kan forekomme under behandlingen. Du 
+skal straks kontakte lægen, hvis du får symptomer såsom svaghed, træthed, appetitløshed, kvalme, 
+opkastning eller lavt blodtryk.  </p>
+<p>Hjertesygdom 
+Ketoconazole HRA kan ændre den måde, dit hjerte arbejder på - dette kan være alvorligt. Kontakt straks 
+lægen, hvis du får hjertebanken eller uregelmæssig hjerterytme (puls) under behandlingen.  </p>
+<p>Samtidige betændelses-/autoimmune sygdomme 
+Fortæl det til lægen, hvis du har en autoimmun sygdom. Du vil blive nøje overvåget. </p>
+<p>Børn og unge 
+Dette lægemiddel anbefales ikke til børn under 12 år, da der mangler data hos disse patienter. </p>
+<p>Brug af anden medicin sammen med Ketoconazole HRA 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Der er nogle lægemidler, som du ikke må tage sammen 
+med Ketoconazole HRA (se punkt 2). Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide, 
+hvis du tager Ketoconazole HRA sammen med andre lægemidler. </p>
+<p>Lægemidler, der kan interagere med Ketoconazole HRA, er bl.a.:</p>
+<ul>
+<li>pasireotid, et andet lægemiddel, der anvendes til at behandle en undergruppe af Cushing’s syndrom, fordi 
+det kan føre til alvorlige bivirkninger hos patienter, som lider af hjerteproblemer </li>
+<li>lægemidler, der tages gennem munden og forhindrer, at der dannes blodpropper: rivaroxaban, apixaban, 
+edoxaban, cilostazol samt warfarin og andre coumarin-lignende lægemidler </li>
+<li>lægemidler mod HIV såsom maraviroc, indinavir, nevirapin, ritonavir </li>
+<li>visse lægemidler mod kræft såsom vinka-alkaloider (vincristin, vinblastin), busulfan, docetaxel, erlotinib, 
+imatinib, dasatinib, sunitinib, lapatinib, nilotinib, bortezomib, paclitaxel, cabozantinib, dabrafenib,<br />
+cabazitaxel, crizotinib, ibrutinib  </li>
+<li>andre lægemidler til behandling af infektioner: rifabutin, telithromycin, rifampicin, isoniazid, 
+clarithromycin, isavuconazol </li>
+<li>visse antidiabetika (midler mod sukkersyge): repaglinid, saxagliptin, tolbutamid </li>
+<li>visse lægemidler, der anvendes til psykiske lidelser: buspiron, aripiprazol, haloperidol, reboxetin, 
+risperidon </li>
+<li>visse typer hjertemedicin: verapamil, digoxin, nadolol, aliskiren </li>
+<li>visse krampestillende lægemidler: carbamazepin, phenytoin  </li>
+<li>visse glukokortikoider såsom budesonid, fluticason, dexamethason, methylprednisolon, ciclesonid </li>
+<li>visse stærke smertestillende lægemidler (narkotika) såsom alfentanyl, fentanyl, buprenorphin (injektion og 
+under tungen), oxycodon </li>
+<li>visse lægemidler, der anvendes mod kvalme og opkastning: domperidon, aprepitant </li>
+<li>naloxegol (middel til behandling af forstoppelse, som specifikt skyldes stærk smertestillende medicin) </li>
+<li>solifenacin, fesoterodin hos patienter med nedsat nyrefunktion </li>
+<li>øvrige: sildenafil, tolterodin, mitotan, praziquantel, eletriptan, salmeterol, bosentan, midazolam (som 
+injektion), tadalafil, vardenafil, temsirolimus, cinacalcet, tacrolimus, ebastin, ciclosporin, colchicin </li>
+</ul>
+<p>Du må ikke tage syreneutraliserende lægemidler (f.eks. aluminiumhydroxid) eller andre lægemidler mod for 
+meget mavesyre før tidligst 2 timer efter, du har taget Ketoconazole HRA (se punktet Advarsler og 
+forsigtighedsregler). </p>
+<p>Brug af Ketoconazole HRA sammen med alkohol 
+Du må ikke drikke alkohol, mens du er i behandling med ketoconazol.  </p>
+<p>Graviditet, amning and frugtbarhed 
+Dette lægemiddel må ikke anvendes under graviditet. Hvis du er gravid eller ammer, har mistanke om, at du 
+er gravid, eller planlægger at blive gravid, skal du spørge din læge eller apotekspersonalet til råds, før du 
+tager dette lægemiddel.<br />
+Du må ikke amme dit barn, hvis du tager Ketoconazole HRA. </p>
+<p>Trafik- og arbejdssikkerhed 
+Svimmelhed eller søvnighed er rapporteret under behandling med Ketoconazole HRA. Du må ikke køre bil 
+eller arbejde med maskiner, hvis du oplever disse symptomer. </p>
+<p>Ketoconazole HRA indeholder lactose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ketoconazole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ketoconazole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Start og opfølgning af behandling skal overvåges af en speciallæge i endokrinologi (hormon- og 
+kirtelsygdomme). </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet. </p>
+<p>Lægen tester dit blod, før du starter på behandlingen og med jævne mellemrum under behandlingen for at 
+opdage eventuelle unormale forhold samt måle kortisolniveauet. Dosis vil blive tilpasset din tilstand for at 
+genoprette et normalt kortisolniveau. </p>
+<p>Den anbefalede startdosis er normalt 600 mg dagligt taget gennem munden (3 tabletter om dagen fordelt på 3 
+tidspunkter). En daglig dosis fra 400 mg dagligt (2 tabletter) til 1.200 mg dagligt (6 tabletter) taget gennem 
+munden fordelt på 2-3 doser kan være nødvendig for at genoprette et normal kortisolniveau.  </p>
+<p>Hvis du har taget for meget Ketoconazole HRA 
+Hvis du har taget mere end den foreskrevne dosis Ketoconazole HRA, skal du straks kontakte lægen. </p>
+<p>Hvis du har glemt at tage Ketoconazole HRA 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Hvis du glemmer at tage en dosis, skal 
+du tage denne dosis hurtigst muligt. Derefter fortsætter du som foreskrevet. Du må ikke selv ændre den 
+foreskrevne dosis. </p>
+<p>Hvis du holder op med at tage Ketoconazole HRA 
+Hvis du afbryder din behandling med Ketoconazole HRA, kan dit kortisolniveau stige igen og dine 
+symptomer vende tilbage. Derfor må du ikke holde op med at tage Ketoconazole HRA, medmindre lægen 
+siger det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige. Der kan i sjældne tilfælde opstå leverproblemer (kan forekomme hos 
+op til 1 ud af 1.000 personer).<br />
+Du skal holde op med at tage Ketoconazole HRA og straks kontakte din læge, hvis du oplever en af følgende 
+bivirkninger:</p>
+<ul>
+<li>langvarig kraftig hovedpine eller sløret syn  </li>
+<li>svær appetitløshed (anoreksi) </li>
+<li>vægttab </li>
+<li>kvalme eller opkastning </li>
+<li>usædvanlig træthed eller feber </li>
+<li>mavesmerter </li>
+<li>muskelsvækkelse </li>
+<li>gulfarvning af huden eller det hvide i øjnene </li>
+<li>usædvanlig mørk urin eller lys afføring  </li>
+</ul>
+<p>Binyrebarkinsufficiens (nedsat funktion af binyrebarken) er almindelig og kan være en alvorlig bivirkning. 
+Ketoconazole HRA kan midlertidig sænke mængden af kortisol, der produceres i binyrerne, til under det 
+normale niveau, men lægen vil korrigere dette med passende hormonmedicin eller ved at justere dosis af 
+Ketoconazole HRA. Du skal straks kontakte lægen, hvis du får symptomer såsom svaghed, træthed, 
+appetitløshed, kvalme, opkastning eller lavt blodtryk. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>Forhøjede leverenzymer i blodet.  </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Hudreaktioner (kløe, udslæt) </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Allergiske reaktioner, der i sjældne 
+tilfælde kan være alvorlige </p>
+</li>
+<li>
+<p>Ændrede laboratoriemarkører </p>
+</li>
+<li>
+<p>Nedsat antal blodplader (trombocytter) </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Søvnighed </p>
+</li>
+<li>
+<p>Hudreaktioner (nældefeber) </p>
+</li>
+<li>
+<p>Hårtab </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 personer): </p>
+<ul>
+<li>Feber </li>
+</ul>
+<p>Bivirkninger, hvis hyppighed ikke er kendt (kan ikke vurderes ud fra tilgængelige data): </p>
+<ul>
+<li>
+<p>Søvnløshed </p>
+</li>
+<li>
+<p>Nervøsitet </p>
+</li>
+<li>
+<p>Ikke tåle alkohol </p>
+</li>
+<li>
+<p>Appetitløshed eller øget appetit </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Snurrende eller prikkende fornemmelse </p>
+</li>
+<li>
+<p>Lysfølsomhed </p>
+</li>
+<li>
+<p>Næseblod </p>
+</li>
+<li>
+<p>Fordøjelsesbesvær </p>
+</li>
+<li>
+<p>Luft i mave og tarme </p>
+</li>
+<li>
+<p>Misfarvning af tungen </p>
+</li>
+<li>
+<p>Mundtørhed </p>
+</li>
+<li>
+<p>Smagsforstyrrelser </p>
+</li>
+<li>
+<p>Rødme, udtørring, kløe i huden </p>
+</li>
+<li>
+<p>Lysfølsomhed (øget reaktion på sollys: 
+rødme, kløende udslæt) </p>
+</li>
+<li>
+<p>Muskelsmerter </p>
+</li>
+<li>
+<p>Ledsmerter </p>
+</li>
+<li>
+<p>Menstruationsforstyrrelser </p>
+</li>
+<li>
+<p>Azoospermi (ingen sædceller) </p>
+</li>
+<li>
+<p>Rejsningsbesvær </p>
+</li>
+<li>
+<p>Gynækomasti (forstørrelse af brystvævet 
+hos mænd) </p>
+</li>
+<li>
+<p>Perifert ødem (væskeophobning i arme og 
+ben) </p>
+</li>
+<li>
+<p>Utilpashed </p>
+</li>
+<li>
+<p>Hedestigninger </p>
+</li>
+<li>
+<p>Forbigående fald i testosteron, et mandligt 
+kønshormon (androgen), der produceres 
+af kroppen, primært i testiklerne. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apotekspersonalet. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ketoconazole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ketoconazole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Brug ikke lægemidlet efter den udløbsdato, der står på karton og blister efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </li>
+<li>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </li>
+<li>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ketoconazole HRA indeholder<br />
+- Aktivt stof: ketoconazol. En tablet indeholder 200 mg ketoconazol<br />
+- Øvrige indholdsstoffer: majsstivelse, lactosemonohydrat (se punkt 2), povidon, mikrokrystallinsk 
+cellulose, kolloidt silica, magnesiumstearat </p>
+<p>Udseende og pakningsstørrelser 
+Ketoconazole HRA fås i pakninger med 60 tabletter. 
+Tabletten er råhvid til lys flødefarvet rund, bikonveks med en diameter på 10 mm. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+HRA Pharma Rare Diseases 
+200 avenue de Paris 
+92320 CHATILLON 
+Frankrig 
+Tlf : + 33 1 40 33 93<br />
+Fremstiller 
+Centre Spécialités Pharmaceutiques 
+76-78 avenue du Midi 
+63800 Courron d’Auvergne 
+Frankrig </p>
+<p>Polfarmex S.A. 
+ul. Józefów 9, 
+99-300 Kutno 
+Polen </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme og om, 
+hvordan de behandles.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a28a8b9246548829f22c8b8c14ca6138
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ketoconazole Package Leaflet for language en"
+Description: "ePI document Bundle for ketoconazole Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a28a8b9246548829f22c8b8c14ca6138"
+* entry[0].resource = composition-en-a28a8b9246548829f22c8b8c14ca6138
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa28a8b9246548829f22c8b8c14ca6138"
+* entry[=].resource = mpa28a8b9246548829f22c8b8c14ca6138
+                            
+                    
+Instance: bundlepackageleaflet-da-a28a8b9246548829f22c8b8c14ca6138
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ketoconazole Package Leaflet for language da"
+Description: "ePI document Bundle for ketoconazole Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a28a8b9246548829f22c8b8c14ca6138"
+* entry[0].resource = composition-da-a28a8b9246548829f22c8b8c14ca6138
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa28a8b9246548829f22c8b8c14ca6138"
+* entry[=].resource = mpa28a8b9246548829f22c8b8c14ca6138
+                            
+                    
+
+
+
+Instance: mpa28a8b9246548829f22c8b8c14ca6138
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ketoconazole HRA 200 mg tablets"
-Description: "Ketoconazole HRA 200 mg tablets"
+Title: "Medicinal Product ketoconazole"
+Description: "ketoconazole"
 Usage: #inline
 
  
@@ -386,7 +892,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ketoconazole HRA 200 mg tablets"
+  * productName = "ketoconazole"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -413,29 +919,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a28a8b9246548829f22c8b8c14ca6138
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ketoconazole Package Leaflet for language en"
-Description: "ePI document Bundle for ketoconazole Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a28a8b9246548829f22c8b8c14ca6138ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/965/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ketoconazole"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a28a8b9246548829f22c8b8c14ca6138"
-* entry[0].resource = composition-en-a28a8b9246548829f22c8b8c14ca6138
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc78062370d5d18bbbb938fadf23c7e54"
-* entry[=].resource = mpc78062370d5d18bbbb938fadf23c7e54
-                            
-                      
+* title = "List of all ePIs associated with ketoconazole"
+
+* subject = Reference(mpc78062370d5d18bbbb938fadf23c7e54)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ketoconazole "ketoconazole"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a28a8b9246548829f22c8b8c14ca6138) // ketoconazole en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a28a8b9246548829f22c8b8c14ca6138) // ketoconazole da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a28a8b9246548829f22c8b8c14ca6138
+InstanceOf: List
+
+* insert a28a8b9246548829f22c8b8c14ca6138ListRuleset
+    

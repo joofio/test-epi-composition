@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-7ced1bd163884509973841d906b58456
 InstanceOf: CompositionUvEpi
 Title: "Composition for cibinqo Package Leaflet"
@@ -383,12 +386,523 @@ Tel: + 371 670 35 This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-7ced1bd163884509973841d906b58456
+InstanceOf: CompositionUvEpi
+Title: "Composition for cibinqo Package Leaflet"
+Description:  "Composition for cibinqo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp620b317ac766d067d965fd2a8942b13a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp620b317ac766d067d965fd2a8942b13a
+* title = "TEST PURPOSES ONLY - cibinqo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Cibinqo 
+3. Sådan skal du tage Cibinqo 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cibinqo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cibinqo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cibinqo indeholder det aktive stof abrocitinib. Det tilhører en gruppe lægemidler, der kaldes 
+Januskinasehæmmere, som hjælper med at reducere betændelse (inflammation). Det virker ved at 
+reducere aktiviteten af et enzym i kroppen, der kaldes "Januskinase", og som er involveret i 
+betændelse. 
+Cibinqo bruges til at behandle voksne og unge på 12 år og derover, som har moderat til svær atopisk 
+dermatitis, også kaldet atopisk eksem. Cibinqo mindsker kløe og betændelse i huden ved at reducere 
+aktiviteten af Januskinase-enzymer. Dette kan så reducere søvnforstyrrelser og andre følger af atopisk 
+eksem som fx angst eller depression, og det forbedrer den generelle livskvalitet.<br />
+42</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cibinqo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cibinqo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Cibinqo</h2>
+<p>hvis du er allergisk over for abrocitinib eller et af de øvrige indholdsstoffer i Cibinqo (angivet i 
+afsnit 6).
+-
+hvis du har en alvorlig igangværende infektion, herunder tuberkulose.
+-
+hvis du har alvorlige leverproblemer.
+-
+hvis du er gravid eller ammer (se afsnittet "Graviditet, prævention, amning og frugtbarhed").
+Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet før og under behandlingen med Cibinqo, hvis du:
+-
+har en infektion, eller hvis du ofte får infektioner. Fortæl det til lægen, hvis du får symptomer 
+som feber eller sår, hvis du føler dig mere træt end normalt, eller hvis du får problemer med 
+tænderne, da dette kan være tegn på infektion. Cibinqo kan nedsætte kroppens evne til at 
+bekæmpe infektioner og kan forværre en eksisterende infektion eller øge risikoen for, at du får 
+en ny infektion. Hvis du har diabetes eller er 65 år eller derover, kan du have højere risiko for at 
+få infektioner.
+-
+har eller har haft tuberkulose eller har været i tæt kontakt med en person, der har tuberkulose. 
+Lægen vil undersøge, om du har tuberkulose, inden du starter behandlingen med Cibinqo, og 
+muligvis også senere under behandlingen.
+-
+nogensinde har haft en herpes-infektion (helvedesild), da brug af Cibinqo kan betyde, at den
+vender tilbage. Fortæl det til lægen, hvis du får et smertefuldt udslæt med blærer, da dette kan 
+være et tegn på helvedesild.
+-
+nogensinde har haft hepatitis B eller hepatitis C.
+-
+er blevet vaccineret for nylig eller planlægger at blive vaccineret det skyldes, at visse vacciner 
+(levende vacciner) frarådes, mens du bruger Cibinqo.
+-
+tidligere har haft blodpropper i blodårerne i benene (dyb venetrombose) eller lungerne 
+(lungeemboli) eller har øget risiko for at få blodpropper (hvis du fx for nylig har gennemgået en 
+større operation, hvis du bruger hormonbaserede præventionsmidler/får hormonbehandling, hvis 
+der er fundet en koaguleringsdefekt hos dig selv eller hos en nær slægtning). Din læge vil drøfte 
+med dig, om Cibinqo er egnet til dig. Fortæl det til lægen, hvis du pludselig føler dig stakåndet 
+eller får svært ved at trække vejret, smerter i brystet eller smerter i den øverste del af ryggen, 
+hævelser i arme eller ben, smertende eller ømme ben eller rødme eller misfarvning af benet eller 
+armen, da dette kan være tegn på blodpropper i venerne.
+-
+har eller har haft problemer med hjertet, da din læge i så fald vil drøfte med dig, om Cibinqo er 
+egnet til dig.
+-
+har eller har haft kræft, er ryger eller tidligere har røget, da din læge i så fald vil drøfte med dig, 
+om Cibinqo er egnet til dig.
+-
+der er blevet observeret hudkræft, der ikke er modermærkekræft (non-melanom hudcancer), hos 
+patienter, som tager Cibinqo. Din læge vil måske anbefale, at du får huden undersøgt 
+regelmæssigt, mens du tager Cibinqo. Hvis der opstår nye hudlæsioner under eller efter 
+behandlingen, eller hvis eksisterende læsioner ændrer udseende, skal du sige det til lægen.
+Yderligere prøver til overvågning
+Din læge vil tage blodprøver inden og under din behandling med Cibinqo og vil justere din 
+behandling, hvis det bliver nødvendigt.
+Børn 
+Dette lægemiddel er ikke godkendt til brug hos børn under 12 år, da sikkerhed og fordele ved Cibinqo 
+endnu ikke er fastslået hos denne gruppe.
+Brug af andre lægemidler sammen med Cibinqo 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler.
+Fortæl det især til lægen eller apotekspersonalet, inden du tager Cibinqo, hvis du tager lægemidler til 
+behandling af:
+43
+-
+svampeinfektioner (fx fluconazol), depression (fx fluoxetin eller fluvoxamin), slagtilfælde (fx 
+ticlopidin), da de kan øge bivirkningerne ved Cibinqo.
+-
+refluks af mavesyre (opstød) (fx syreneutraliserende midler (antacida), famotidin eller 
+omeprazol), da de kan nedsætte mængden af Cibinqo i dit blod.
+-
+depression (fx citalopram, clobazam eller escitalopram), da Cibinqo kan øge virkningen af disse.
+-
+neurofibromatose type I (fx selumetinib), da Cibinqo kan øge virkningen af disse.
+-
+hjertesvigt (fx digoxin) eller slagtilfælde (fx dabigatran), da Cibinqo kan øge deres virkning. 
+-
+krampeanfald (fx S-mephenytoin), da Cibinqo kan øge virkningen af disse.
+-
+slagtilfælde (fx clopidogrel), da Cibinqo kan nedsætte virkningen af disse.
+-
+astma, leddegigt (reumatoid artritis) eller atopisk dermatitis (fx biologiske antistofbehandlinger, 
+lægemidler, som styrer kroppens immunforsvar, fx ciclosporin, andre Januskinasehæmmere, fx 
+baricitinib, upadacitinib), da de kan øge risikoen for bivirkninger.
+Lægen kan fortælle dig, at du ikke må bruge eller skal holde op med at tage Cibinqo, hvis du tager 
+lægemidler til behandling af:
+-
+tuberkulose (fx rifampicin), anfald eller krampeanfald (fx phenytoin), prostatakræft 
+(fx apalutamid, enzalutamid) eller hiv-infektion (fx efavirenz), da disse kan reducere, hvor godt 
+Cibinqo virker.
+Kontakt lægen eller apotekspersonalet, før du tager Cibinqo, hvis noget af ovenstående gælder for dig, 
+eller hvis du er i tvivl.
+Graviditet, prævention, amning og frugtbarhed
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. 
+Prævention til kvinder
+Hvis du er en kvinde i den fertile alder, skal du bruge effektiv prævention under behandlingen med 
+Cibinqo og i mindst én måned efter din sidste dosis af behandlingen. Din læge kan rådgive dig om 
+egnet prævention. 
+Graviditet
+Du må ikke bruge Cibinqo, hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at 
+blive gravid, da det kan skade fosterets udvikling. Fortæl det til lægen med det samme, hvis du bliver 
+gravid eller tror, at du kan være blevet gravid under behandlingen.
+Amning
+Du må ikke bruge Cibinqo, mens du ammer, da det ikke vides, om lægemidlet går over i 
+modermælken og påvirker barnet. Du og din læge skal beslutte, om du skal amme eller bruge dette 
+lægemiddel.
+Frugtbarhed
+Cibinqo kan medføre midlertidig nedsat frugtbarhed hos kvinder i den fødedygtige alder. Denne 
+virkning er reversibel, når behandlingen stoppes.
+Trafik- og arbejdssikkerhed
+Cibinqo påvirker ikke evnen til at køre bil eller motorcykel eller bruge maskiner.
+Cibinqo indeholder lactosemonohydrat og natrium
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter.
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.
+44
+Ældre
+Patienter på 65 år og derover kan have øget risiko for infektioner, hjerteanfald og visse typer af kræft. 
+Din læge vil muligvis beslutte, at Cibinqo ikke er egnet til dig.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cibinqo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cibinqo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. 
+Cibinqo er en tablet, der skal tages gennem munden. Det kan bruges sammen med andre lægemidler 
+mod eksem til at smøre på huden, eller det kan bruges alene.
+Den anbefalede startdosis for voksne og unge (i alderen 12 til 17 år), som vejer mindst 59 kg, er 
+100 mg eller 200 mg én gang dagligt i henhold til lægens ordinering. Lægen kan øge eller reducere 
+dosis afhængig af, hvor godt lægemidlet virker.
+Visse patienter har behov for en lavere startdosis, og din læge vil måske give dig 100 mg én gang 
+dagligt, hvis du:
+-
+er 65 år eller derover.
+-
+har eller har haft bestemte sygdomme.
+-
+er en ung person (i alderen 12 til 17 år), som vejer mellem 25 kg og 58 kg.
+Hvis du har moderate til svære problemer med nyrerne, eller hvis du får ordineret visse andre 
+lægemidler, kan din startdosis være enten 50 mg eller 100 mg én gang dagligt. Du får en startdosis, der 
+er baseret på dine behov og din sygehistorie eller helbredstilstand, derfor skal du altid tage dette 
+lægemiddel præcis som lægen har fortalt dig.
+Efter at du er begyndt på behandlingen, kan din læge justere din dosis ud fra, hvor godt lægemidlet 
+virker, og om du får eventuelle bivirkninger. Hvis lægemidlet virker godt, kan din læge beslutte, at din 
+dosis kan nedsættes. Behandlingen kan også blive stoppet midlertidigt eller permanent, hvis dine 
+blodprøver viser et lavt antal hvide blodlegemer eller blodplader.
+Hvis du har taget Cibinqo i 24 uger, og der ikke er sket en forbedring, kan din læge beslutte at stoppe 
+behandlingen permanent.
+Du skal synke tabletterne hele med et glas vand. Du må ikke dele, knuse eller tygge tabletten, inden du 
+synker den, da det vil kunne ændre, hvor meget lægemiddel du får i kroppen. 
+Du kan tage tabletten enten med eller uden mad. Hvis du får kvalme, når du tager dette lægemiddel, 
+kan det måske hjælpe at tage det sammen med mad. Som en hjælp til at huske at tage lægemidlet
+foreslås det, at du tager det på samme tidspunkt hver dag.
+Hvis du har taget for meget Cibinqo
+Hvis du har taget for meget Cibinqo, skal du kontakte lægen. Du vil måske få nogle af de bivirkninger, 
+der er beskrevet i afsnit 4. Hvis du har glemt at tage Cibinqo 
+-
+Hvis du glemmer at tage en dosis, skal du tage den, så snart du kommer i tanke om det, 
+medmindre der er under 12 timer til din næste dosis.
+-
+Hvis der er under 12 timer til din næste dosis, skal du blot springe den glemte dosis over og tage 
+den næste dosis på det planlagte tidspunkt. 
+-
+Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.
+Hvis du holder op med at tage Cibinqo 
+Du må ikke holde op med at tage Cibinqo uden at drøfte det med din læge.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.
+45</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger
+Tal med din læge og få lægehjælp med det samme, hvis du får tegn på:
+-
+Helvedesild (herpes zoster), et smertefuldt hududslæt med blærer og feber 
+-
+En blodprop i lungen, benet eller bækkenet, hvor symptomerne er et hævet ben, der gør ondt, 
+smerter i brystet eller stakåndethed
+Andre bivirkninger
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer)
+-
+Kvalme
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+-
+Forkølelsessår og andre typer af herpes simplex-infektioner 
+-
+Opkastning
+-
+Mavesmerter
+-
+Hovedpine
+-
+Svimmelhed
+-
+Akne
+-
+Stigning i et enzym kaldet kreatinfosfokinase, påvist med en blodprøve
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer)
+-
+Lungebetændelse (pneumoni)
+-
+Lavt antal blodplader, påvist med en blodprøve
+-
+Lavt antal hvide blodlegemer, påvist med en blodprøve
+-
+Højt kolesteroltal, påvist med en blodprøve (se afsnit 2, Advarsler og forsigtighedsregler)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cibinqo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cibinqo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken, flasken og blisteren efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
+46</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Cibinqo indeholder:</h2>
+<p>Aktivt stof: abrocitinib.
+Hver 50 mg-tablet indeholder 50 mg abrocitinib.
+Hver 100 mg-tablet indeholder 100 mg abrocitinib.
+Hver 200 mg-tablet indeholder 200 mg abrocitinib.
+-
+Øvrige indholdsstoffer:
+Tabletkerne: mikrokrystallinsk cellulose (E460i), vandfrit calciumhydrogenphosphat (E341ii), 
+natriumstivelsesglycolat, magnesiumstearat (E470b).
+Filmovertræk: hypromellose (E464), titandioxid (E171), lactosemonohydrat, macrogol (E1521), 
+triacetin (E1518), rød jernoxid (E172) (se afsnit 2, Cibinqo indeholder lactose og natrium).
+Udseende og pakningsstørrelser
+Cibinqo 50 mg-tabletter er lyserøde, ovale tabletter, ca. 11 mm lange og 5 mm brede, præget med 
+"PFE" på den ene side og "ABR 50" på den anden.
+Cibinqo 100 mg-tabletter er lyserøde, runde tabletter, ca. 9 mm i diameter, præget med "PFE" på den 
+ene side og "ABR 100" på den anden.
+Cibinqo 200 mg-tabletter er lyserøde, ovale tabletter, ca. 18 mm lange og 8 mm brede, præget med 
+"PFE" på den ene side og "ABR 200" på den anden.
+50 mg-, 100 mg- og 200 mg-tabletter findes i blisterpakninger af polyvinylidenchlorid (PVDC) med 
+aluminiumsfolie eller tabletbeholder af polyethylen med høj densitet (HDPE) med polypropylenlåg. 
+Hver blisterpakning indeholder 14, 28 eller 91 tabletter. Hver tabletbeholder indeholder 14 eller 
+30 tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Pfizer Manufacturing Deutschland GmbH
+Mooswaldallee 1
+79108 Freiburg Im Breisgau
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/ Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: + 370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36-1-488-37-00
+47
+Česká republika
+Pfizer, spol. s r.o.
+Tel.: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf.: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.:+48 22 335 61 00
+España
+Pfizer S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: + 371 670 35 775
+Denne indlægsseddel blev senest ændret
+48
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-7ced1bd163884509973841d906b58456
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cibinqo Package Leaflet for language en"
+Description: "ePI document Bundle for cibinqo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7ced1bd163884509973841d906b58456"
+* entry[0].resource = composition-en-7ced1bd163884509973841d906b58456
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7ced1bd163884509973841d906b58456"
+* entry[=].resource = mp7ced1bd163884509973841d906b58456
+                            
+                    
+Instance: bundlepackageleaflet-da-7ced1bd163884509973841d906b58456
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cibinqo Package Leaflet for language da"
+Description: "ePI document Bundle for cibinqo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-7ced1bd163884509973841d906b58456"
+* entry[0].resource = composition-da-7ced1bd163884509973841d906b58456
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7ced1bd163884509973841d906b58456"
+* entry[=].resource = mp7ced1bd163884509973841d906b58456
+                            
+                    
+
+
+
+Instance: mp7ced1bd163884509973841d906b58456
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cibinqo 50 mg film-coated tablets"
-Description: "Cibinqo 50 mg film-coated tablets"
+Title: "Medicinal Product cibinqo"
+Description: "cibinqo"
 Usage: #inline
 
  
@@ -408,7 +922,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cibinqo 50 mg film-coated tablets"
+  * productName = "cibinqo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -435,29 +949,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-7ced1bd163884509973841d906b58456
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cibinqo Package Leaflet for language en"
-Description: "ePI document Bundle for cibinqo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 7ced1bd163884509973841d906b58456ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Cibinqo 50 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cibinqo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-7ced1bd163884509973841d906b58456"
-* entry[0].resource = composition-en-7ced1bd163884509973841d906b58456
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp620b317ac766d067d965fd2a8942b13a"
-* entry[=].resource = mp620b317ac766d067d965fd2a8942b13a
-                            
-                      
+* title = "List of all ePIs associated with cibinqo"
+
+* subject = Reference(mp620b317ac766d067d965fd2a8942b13a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cibinqo "cibinqo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-7ced1bd163884509973841d906b58456) // cibinqo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-7ced1bd163884509973841d906b58456) // cibinqo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-7ced1bd163884509973841d906b58456
+InstanceOf: List
+
+* insert 7ced1bd163884509973841d906b58456ListRuleset
+    

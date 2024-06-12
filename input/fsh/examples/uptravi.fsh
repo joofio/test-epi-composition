@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f797cc0b9b4e9335a18d81e479368f3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for uptravi Package Leaflet"
@@ -640,12 +643,1090 @@ Page 40</p>         </div>"""
 
 
 
+Instance: composition-da-f797cc0b9b4e9335a18d81e479368f3c
+InstanceOf: CompositionUvEpi
+Title: "Composition for uptravi Package Leaflet"
+Description:  "Composition for uptravi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbbbe97d93b22cf42432e46bc482f7c12)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbbbe97d93b22cf42432e46bc482f7c12
+* title = "TEST PURPOSES ONLY - uptravi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Uptravi
+3. Sådan skal du tage Uptravi
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What uptravi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What uptravi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uptravi er et lægemiddel, der indeholder det aktive stof selexipag. Det har samme afslappende og 
+udvidende virkning på blodkarrene som det naturlige stof prostacyklin.
+Uptravi anvendes til langvarig behandling af pulmonal arteriel hyptertension (PAH) hos voksne 
+patienter, som ikke kan opnå tilstrækkelig effekt med andre typer af lægemidler mod PAH, der kaldes 
+for endothelinreceptorantagonister og phosphodiesterase type 5-hæmmere. Uptravi kan anvendes 
+alene, hvis patienten ikke er kandidat til disse lægemidler.
+PAH er højt blodtryk i de blodkar, der fører blod fra hjertet til lungerne (lungearterierne). Hos 
+personer, der har PAH, bliver disse arterier smallere, så hjertet skal arbejde hårdere for at pumpe blod 
+igennem dem. Dette kan forårsage træthed, svimmelhed, stakåndethed eller andre symptomer.
+Dette lægemiddel virker på samme måde som det naturlige stof prostacyklin, så det udvider 
+lungearterierne og gør dem mindre hårde. Dermed bliver det nemmere for hjertet at pumpe blod 
+igennem lungearterierne. Uptravi sænker trykket i lungearterierne, lindrer symptomerne på PAH og 
+gør, at PAH-sygdommen udvikler sig langsommere.
+42</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take uptravi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take uptravi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Uptravi</h2>
+<p>hvis du er allergisk over for selexipag eller et af de øvrige indholdsstoffer i Uptravi (angivet i 
+afsnit 6).
+-
+hvis du har et hjerteproblem, såsom:
+-
+dårlig blodforsyning til hjertemusklerne (alvorlig koronarhjertesygdom eller ustabil 
+angina); symptomerne kan omfatte brystsmerter
+-
+hjerteanfald inden for de sidste 6 måneder
+-
+svagt hjerte (dekompenseret hjertesvigt), som ikke er under tæt lægeligt opsyn
+-
+alvorligt uregelmæssigt hjerteslag
+-
+hjerteklapfejl (medfødt eller erhvervet), der medfører, at hjertet arbejder dårligt (ikke 
+relateret til pulmonal hypertension)
+-
+hvis du har haft et slagtilfælde inden for de seneste 3 måneder, eller der er forekommet andre 
+hændelser, der har mindsket blodforsyningen til hjernen (f.eks. transitorisk cerebral iskæmi)
+-
+hvis du tager gemfibrozil (lægemiddel, der anvendes til at sænke niveauet af fedt [lipider] i 
+blodet).
+Advarsler og forsigtighedsregler
+Kontakt PAH-lægen eller sygeplejersken, før du tager Uptravi, hvis du
+-
+tager medicin mod højt blodtryk
+-
+har lavt blodtryk, der er forbundet med symptomer såsom svimmelhed
+-
+for nylig har mistet meget blod eller væske, f.eks. som følge af alvorlig diarré eller opkastning
+-
+har problemer med skjoldbruskkirtlen
+-
+har alvorlige nyreproblemer eller er i dialyse
+-
+har eller har haft alvorlige leverfunktionsproblemer 
+Fortæl det straks til lægen, hvis du bemærker et af ovenstående tegn, eller din tilstand forandres.
+Børn og unge
+Giv ikke dette lægemiddel til børn under 18 år, da Uptravi ikke er blevet afprøvet hos børn.
+Ældre patienter
+Der er begrænset erfaring med Uptravi hos patienter over 75 år. Uptravi skal anvendes med 
+forsigtighed i denne aldersgruppe.
+Brug af andre lægemidler sammen med Uptravi
+Fortæl det altid til lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler.
+Brug af andre lægemidler kan påvirke Uptravis virkning.
+Fortæl det til  PAH-lægen eller sundhedspersonalet, hvis du tager et eller flere af følgende lægemidler:
+-
+Gemfibrozil (lægemiddel, der anvendes til at sænke niveauet af fedt [lipider] i blodet)
+-
+Clopidogrel (lægemiddel, der anvendes til at hæmme dannelsen af blodpropper ved 
+koronararteriesygdom)
+-
+Deferasirox (lægemiddel, der anvendes til at fjerne jern fra blodet)
+-
+Teriflunomid (lægemiddel, der anvendes til behandling af recidiverende-remitterende multipel 
+sklerose)
+-
+Carbamazepin (lægemiddel, der anvendes til behandling af visse former for epilepsi, 
+nervesmerter eller som hjælp til at kontrollere alvorlige humørsvingninger, når andre 
+lægemidler ikke virker)
+-
+Phenytoin (lægemiddel, der anvendes til behandling af epilepsi)
+43
+-
+Valproinsyre (lægemiddel, der anvendes til behandling af epilepsi)
+-
+Probenecid (lægemiddel, der anvendes til behandling af urinsyregigt)
+-
+Fluconazol, rifampicin eller rifapentin (antibiotika, der anvendes til behandling af infektioner).
+Graviditet og amning
+Uptravi er ikke anbefalet under graviditet og amning. Hvis du er en kvinde i den fødedygtige alder, 
+skal du anvende sikker prævention, mens du tager Uptravi. Hvis du er gravid eller ammer, har 
+mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge lægen til råds, før du 
+tager dette lægemiddel.
+Trafik- og arbejdssikkerhed
+Uptravi kan forårsage bivirkninger, såsom hovedpine og lavt blodtryk (se afsnit 4), der kan påvirke din 
+evne til at føre motorkøretøj; symptomerne ved din sygdom kan også nedsætte din evne til at føre 
+motorkøretøj.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take uptravi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take uptravi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uptravi må kun ordineres af en læge med erfaring i behandling af PAH. Tag altid lægemidlet nøjagtigt 
+efter lægens anvisning. Er du i tvivl eller har spørgsmål, så spørg lægen.
+Fortæl det til lægen, hvis du oplever bivirkninger, da lægen kan anbefale, at du ændrer din dosis af 
+Uptravi.
+Fortæl det til lægen, hvis du har problemer med leveren eller tager andre lægemidler, da lægen kan 
+anbefale, at du tager en lavere dosis af Uptravi to gange dagligt eller kun tager det én gang dagligt.
+Hvis dit syn er nedsat, eller du har en form for blindhed, skal du have hjælp fra en anden person, når 
+du tager Uptravi i titreringsperioden (perioden hvor din dosis gradvist forøges).
+Sådan findes der frem til den rette dosis for dig
+Hvis lægen ordinerer 200 mikrogram-tabletter
+I starten af behandlingen vil de fleste patienter tage en 200 mikrogram-tablet om morgenen og 
+endnu én 200 mikrogram-tablet om aftenen, med ca. 12 timers mellemrum. Det anbefales at starte 
+behandlingen om aftenen. Lægen vil anvise, at du gradvist øger dosis. Dette kaldes for titrering. Det 
+giver kroppen mulighed for at vænne sig til den nye medicin. Formålet med titrering er at nå den mest 
+velegnede dosis. Det vil være den højeste dosis, som du kan tolerere, dog højst 1 600 mikrogram om 
+morgenen og om aftenen.
+Den første tabletpakning, du får, indeholder lysegule 200 mikrogram-tabletter.
+Lægen vil anvise, at du øger din dosis i trin, som regel hver uge, men intervallet mellem stigningerne 
+kan være længere.
+Ved hvert trin føjer du en 200 mikrogram-tablet til din morgendosis og en 200 mikrogram-tablet til din 
+aftendosis. Det anbefales, at du tager den første øgede dosis om aftenen. Diagrammet nedenfor 
+viser antallet af tabletter, der skal tages hver morgen og hver aften i de første 4 trin.
+44
+Hvis lægen fortæller dig, at du skal øge din dosis yderligere, skal du føje en 200 mikrogram-tablet til 
+din morgendosis og en 200 mikrogram-tablet til din aftendosis ved hvert nye trin. Det anbefales, at du 
+tager den første øgede dosis om aftenen.
+Hvis lægen anviser, at du skal øge din dosis yderligere og gå til trin 5, kan du gøre det ved at tage én 
+grøn 800 mg-tablet og én lysegul 200 mikrogram-tablet om morgenen og én 800 mikrogram-tablet og 
+én 200 mikrogram-tablet om aftenen.
+Den højeste dosis af Uptravi er 1 600 mikrogram om morgenen og 1 600 mikrogram om aftenen. Det 
+er dog ikke alle patienter, der når denne dosis, da den påkrævede dosis varierer fra patient til patient.
+Diagrammet nedenfor viser hvor mange tabletter, der skal tages hver morgen og hver aften på hvert 
+trin fra og med trin 5. 45
+Hvis lægen ordinerer 100 mikrogram-tabletter
+Hvis du har problemer med leveren eller tager visse andre lægemidler, kan lægen ordinere 
+100 mikrogram-tabletter som din startdosis.
+I starten af behandlingen skal du tage én 100 mikrogram-tablet om morgenen og endnu én 
+100 mikrogram-tablet om aftenen, med ca. 12 timers mellemrum. Det anbefales at starte 
+behandlingen om aftenen. Lægen vil anvise, at du gradvist øger dosis. Dette kaldes for titrering. Det 
+giver kroppen mulighed for at vænne sig til det nye lægemiddel. Formålet med titrering er at nå den 
+mest velegnede dosis. Det vil være den højeste dosis, som du kan tåle, dog højst 800 mikrogram om 
+morgenen og om aftenen.
+Lægen vil anvise, at du skal øge din dosis i trin, som regel hver uge, men intervallet mellem 
+dosisøgningerne kan være længere.
+Ved hvert trin føjer du en 100 mikrogram-tablet til din morgendosis og en anden 100 mikrogram-
+tablet til din aftendosis. Det anbefales, at du tager den første øgede dosis om aftenen. Se 
+titreringsvejledningen til patienter, der er vedlagt i titreringspakken, for at få oplysninger om, hvordan 
+du optrapper din dosis.
+Fortæl det til lægen, hvis du holder op med eller overvejer at holde op med at tage andre 
+lægemidler, da det kan være nødvendigt at justere din dosis af selexipag.
+Hvis lægen fortæller dig, at du skal øge din dosis yderligere, skal du føje en 100 mikrogram-tablet til 
+din morgendosis og en 100 mikrogram-tablet til din aftendosis ved hvert nyt trin. Det anbefales, at du 
+tager den første øgede dosis om aftenen.
+Hvis lægen anviser, at du skal øge din dosis til over 400 mikrogram, kan du gøre det ved at tage én rød
+400 mg-tablet og én lysegul 100 mikrogram-tablet om morgenen og én 400 mikrogram-tablet og én 
+46
+100 mikrogram-tablet om aftenen. Se titreringsvejledningen til patienter, der er vedlagt i 
+titreringspakken, for at få oplysninger om, hvordan du optrapper din dosis.
+Ved optitrering med 100 mikrogram-tabletterne er den højeste dosis af Uptravi 800 mikrogram om 
+morgenen og 800 mikrogram om aftenen. Det er dog ikke alle patienter, der når denne dosis, da den 
+nødvendige dosis varierer fra patient til patient.
+Brug af titreringsvejledningen under titrering
+Du får en titreringspakke, som indeholder en titreringsvejledning og en indlægsseddel. 
+Titreringsvejledningen indeholder oplysninger om titreringsforløbet, og du kan notere i den, hvor 
+mange tabletter du tager hver dag.
+Husk at notere i din titreringsdagbog, hvor mange tabletter du tager hver dag. Titreringstrinene varer 
+som regel omkring 1 uge. Hvis lægen anviser, at hvert titreringstrin skal vare længere end 1 uge, er der 
+flere dagbogssider, hvor du kan notere dette. Husk, at du skal være i regelmæssig kontakt med 
+PAH-lægen eller sundhedspersonalet i titreringsforløbet.
+Nedtrapning til en lavere dosis på grund af bivirkninger
+I titreringsforløbet kan du få bivirkninger, såsom hovedpine, diarré, kvalme, opkastning, smerter i 
+kæben, muskelsmerter, smerter i benene, ledsmerter eller ansigtsrødme (se afsnit 4). Hvis du har svært 
+ved at tolerere disse bivirkninger, så drøft med lægen, hvordan de kan håndteres eller behandles. Der 
+findes behandlinger, der kan bidrage til at lindre bivirkningerne. For eksempel kan smertestillende 
+midler såsom paracetamol være en hjælp til behandling af smerter og hovedpine.
+Hvis bivirkningerne ikke kan behandles eller ikke bliver gradvist bedre med den dosis, du tager, vil 
+lægen eventuelt justere din dosis ved at nedsætte antallet af lysegule tabletter med én om morgenen og 
+én om aftenen. Diagrammet nedenfor viser nedtrapning til en lavere dosis. Gør kun dette, hvis lægen
+har anvist det.
+Titrering med 200 mikrogram-tabletter
+Hvis du titrerer med 100 mikrogram-tabletter, kan du finde oplysninger om, hvordan du nedtrapper, i 
+titreringsvejledningen til patienter, der er vedlagt i titreringspakken.
+47
+Hvis dine bivirkninger bliver tålelige efter nedtrapning af din dosis, vil lægen eventuelt beslutte, at du 
+skal fortsætte med den dosis. Se venligst afsnittet ’Vedligeholdelsesdosis’ nedenfor for yderligere 
+oplysninger.
+Vedligeholdelsesdosis
+Den højeste dosis, som du kan tolerere i titreringsfasen, vil blive din vedligeholdelsesdosis. Din 
+vedligeholdelsesdosis er den dosis, som du skal fortsætte med at tage regelmæssigt.
+Lægen vil ordinere en eller flere tabletter med den eller de for dig individuelt tilpassede styrker, som 
+vil være din vedligeholdelsesdosis. På denne måde kan du måske nøjes med at tage én tablet om 
+morgenen og én om aftenen, i stedet for flere tabletter hver gang.
+Du finder en fuld beskrivelse af Uptravi tabletter, herunder farver og mærkning, i afsnit 6. Med tiden vil lægen eventuelt justere din vedligeholdelsesdosis efter behov.
+Hvis du på et tidspunkt efter at have taget den samme dosis i lang tid får bivirkninger, som du ikke kan 
+tolerere, eller bivirkninger, der påvirker dine dagligdagsaktiviteter, skal du kontakte lægen, da det kan 
+være, at din dosis skal nedsættes. Lægen vil eventuelt ordinere en lavere dosis. Husk at bortskaffe ikke 
+anvendte tabletter (se afsnit 5).
+Tag Uptravi én gang om morgenen og én gang om aftenen med cirka 12 timers mellemrum.
+Tag tabletterne i forbindelse med måltider, da det kan medvirke til, at du bedre kan tåle lægemidlet. 
+Tabletovertrækket er en beskyttelse. Tabletterne skal synkes hele med et glas vand. Tabletterne må 
+ikke deles eller knuses.
+Hvis du har taget for meget Uptravi
+Spørg lægen til råds, hvis du har taget flere tabletter, end lægen har anvist.
+Hvis du har glemt at tage Uptravi
+Hvis du glemmer at tage Uptravi, skal du tage en dosis, så snart du kommer i tanker om det. Herefter 
+skal du fortsætte med at tage tabletterne på det sædvanlige tidspunkt. Hvis det næsten er tid til næste 
+dosis (under 6 timer til det normale tidspunkt), skal du springe den glemte dosis over og fortsætte med 
+at tage lægemidlet til sædvanlig tid. Du må ikke tage en dobbeltdosis som erstatning for den 
+glemte tablet.
+Hvis du holder op med at tage Uptravi
+Brat ophør af behandlingen med Uptravi kan resultere i, at dine symptomer bliver forværrede. Du må 
+ikke stoppe med at tage Uptravi, medmindre lægen anviser det. Lægen vil eventuelt anvise, at du 
+nedsætter dosis gradvist, før du stopper helt.
+Hvis du af en hvilken som helst årsag stopper med at tage Uptravi i mere end 3 dage i træk (hvis du 
+har glemt 3 morgen- og 3 aftendoser, eller seks doser eller mere i træk), skal du straks kontakte 
+lægen, da det kan være nødvendigt at justere din dosis for at undgå bivirkninger. Lægen kan 
+beslutte, at du skal genstarte behandlingen med en lavere dosis, som øges gradvist til din tidligere 
+vedligeholdelsesdosis.
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.
+48</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. Du 
+kan få bivirkninger, ikke alene i titreringsperioden hvor dosis øges, men også senere efter lang tids 
+brug af samme dosis.
+Hvis du får en eller flere af følgende bivirkninger: hovedpine, diarré, kvalme, opkastning, 
+smerter i kæben, muskelsmerter, smerter i benene, ledsmerter eller ansigtsrødme, som du ikke 
+kan tolerere, eller som ikke kan behandles, skal du kontakte lægen, da din dosis kan være for høj 
+og skal nedsættes.
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)
+-
+Hovedpine
+-
+Blussen (ansigtsrødme)
+-
+Kvalme og opkastning
+-
+Diarré
+-
+Smerter i kæben, muskelsmerter, ledsmerter, smerter i benene
+-
+Nasofaryngitis (tilstoppet næse)
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)
+-
+Anæmi (lavt antal røde blodlegemer)
+-
+Hyperthyreoidisme (overaktiv skjoldbruskkirtel)
+-
+Nedsat appetit
+-
+Vægttab
+-
+Hypotension (lavt blodtryk)
+-
+Mavesmerter, herunder fordøjelsesbesvær
+-
+Smerter
+-
+Ændringer i visse blodprøveresultater, herunder blodprøver til kontrol af blodtal og 
+skjoldbruskkirtlens funktion.
+-
+Udslæt, herunder nældefeber, kan forårsage brænden eller svien og hudrødme.
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer)
+-
+Hurtigere puls
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen. Dette gælder også mulige bivirkninger, som ikke 
+er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
+Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store uptravi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store uptravi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke Uptravi efter den udløbsdato, der står på æsken og på blisteren eller beholderens etiket efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
+49</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uptravi indeholder:
+Aktivt stof: selexipag.
+Uptravi 100 mikrogram filmovertrukne tabletter indeholder 100 mikrogram selexipag
+Uptravi 200 mikrogram filmovertrukne tabletter indeholder 200 mikrogram selexipag
+Uptravi 400 mikrogram filmovertrukne tabletter indeholder 400 mikrogram selexipag
+Uptravi 600 mikrogram filmovertrukne tabletter indeholder 600 mikrogram selexipag
+Uptravi 800 mikrogram filmovertrukne tabletter indeholder 800 mikrogram selexipag
+Uptravi 1 000 mikrogram filmovertrukne tabletter indeholder 1 000 mikrogram selexipag
+Uptravi 1 200 mikrogram filmovertrukne tabletter indeholder 1 200 mikrogram selexipag
+Uptravi 1 400 mikrogram filmovertrukne tabletter indeholder 1 400 mikrogram selexipag
+Uptravi 1 600 mikrogram filmovertrukne tabletter indeholder 1 600 mikrogram selexipag
+Øvrige indholdsstoffer:
+Tabletkerne
+Mannitol (E421)
+Majsstivelse
+Lavsubstitueret hydroxypropylcellulose
+Hydroxypropylcellulose
+Magnesiumstearat
+Filmovertræk
+Hypromellose (E464)
+Propylenglycol (E1520)
+Titandioxid (E171)
+Jernoxider (E172)
+Carnaubavoks
+Uptravi 100 mikrogram filmovertrukne tabletter indeholder gul jernoxid, sort jernoxid (E172) og 
+talcum.
+Uptravi 200 mikrogram filmovertrukne tabletter indeholder gul jernoxid (E172).
+Uptravi 400 mikrogram filmovertrukne tabletter indeholder rød jernoxid (E172).
+Uptravi 600 mikrogram filmovertrukne tabletter indeholder rød jernoxid og sort jernoxid (E172).
+Uptravi 800 mikrogram filmovertrukne tabletter indeholder gul jernoxid og sort jernoxid (E172).
+Uptravi 1 000 mikrogram filmovertrukne tabletter indeholder rød jernoxid og gul jernoxid (E172).
+Uptravi 1 200 mikrogram filmovertrukne tabletter indeholder sort jernoxid og rød jernoxid (E172).
+Uptravi 1 400 mikrogram filmovertrukne tabletter indeholder gul jernoxid (E172).
+Uptravi 1 600 mikrogram filmovertrukne tabletter indeholder sort jernoxid, rød jernoxid og gul 
+jernoxid (E172).
+Udseende og pakningsstørrelser
+Uptravi 100 mikrogram filmovertrukne tabletter: Runde, lysegule, filmovertrukne tabletter med en 
+diameter på 3,0 mm, der er mærket med "1" på den ene side.
+Uptravi 200 mikrogram filmovertrukne tabletter: Runde, lysegule, filmovertrukne tabletter med en 
+diameter på 7,3 mm, der er mærket med "2" på den ene side.
+Uptravi 400 mikrogram filmovertrukne tabletter: Runde, røde, filmovertrukne tabletter med en 
+diameter på 7,3 mm, der er mærket med "4" på den ene side.
+Uptravi 600 mikrogram filmovertrukne tabletter: Runde, lyslilla, filmovertrukne tabletter med en 
+diameter på 7,3 mm, der er mærket med "6" på den ene side.
+50
+Uptravi 800 mikrogram filmovertrukne tabletter: Runde, grønne, filmovertrukne tabletter med en 
+diameter på 7,3 mm, der er mærket med "8" på den ene side.
+Uptravi 1 000 mikrogram filmovertrukne tabletter: Runde, orange, filmovertrukne tabletter med en 
+diameter på 7,3 mm, der er mærket med "10" på den ene side.
+Uptravi 1 200 mikrogram filmovertrukne tabletter: Runde, mørkelilla, filmovertrukne tabletter med en 
+diameter på 7,3 mm, der er mærket med "12" på den ene side.
+Uptravi 1 400 mikrogram filmovertrukne tabletter: Runde, mørkegule, filmovertrukne tabletter med en 
+diameter på 7,3 mm, der er mærket med "14" på den ene side.
+Uptravi 1 600 mikrogram filmovertrukne tabletter: Runde, brune, filmovertrukne tabletter med en 
+diameter på 7,3 mm, der er mærket med "16" på den ene side.
+Uptravi 100 mikrogram filmovertrukne tabletter leveres i beholdere med 60 og 140 tabletter 
+(titreringspakker).
+Uptravi 200 mikrogram filmovertrukne tabletter leveres i blisterpakninger med 10 eller 60 tabletter og 
+60 eller 140 tabletter (titreringspakker).
+Uptravi 400 mikrogram, 600 mikrogram, 800 mikrogram, 1 000 mikrogram, 1 200 mikrogram, 
+1 400 mikrogram og 1 600 mikrogram filmovertrukne tabletter leveres i blisterpakninger med 
+60 tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+51
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+52
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+53
+TITRERINGSVEJLEDNING - TITRERINGSPAKKE
+Side 1
+Uptravi 200 mikrogram filmovertrukne tabletter
+selexipag
+Titreringsvejledning
+Opstart af behandling med Uptravi
+Læs den medfølgende indlægsseddel, inden du starter behandling.
+Fortæl det til lægen, hvis du oplever bivirkninger, da lægen kan anbefale, at du ændrer Uptravi-dosis. 
+Fortæl det til lægen, hvis du tager andre lægemidler, da lægen kan anbefale, at du kun tager Uptravi én 
+gang dagligt.
+Side 2
+Side 3
+Indhold
+Hvordan skal jeg tage Uptravi? 
+..................................4
+Hvordan optrapper jeg min 
+dosis?..............................6
+Hvad er trinene? 
+.........................................................8
+Hvornår skal jeg nedtrappe? 
+....................................10
+Nedtrapning............................................................
+..12
+Når du overgår til din 
+vedligeholdelsesdosis.............14
+Hvis du har glemt at tage 
+Uptravi..............................16
+Hvis du holder op med at tage 
+Uptravi......................17
+Titreringsdagbog....................................................
+....18
+Side 4
+Side 5
+Hvordan skal jeg tage Uptravi?
+Uptravi er et lægemiddel, der tages hver morgen 
+og aften til behandling af pulmonal arteriel 
+hypertension, også kaldet PAH.
+Startdosen af Uptravi er 200 mikrogram én gang 
+om morgenen og én gang om aftenen.
+Den første gang, du tager Uptravi, skal være om 
+aftenen.
+Du skal tage hver dosis med et glas vand, helst i 
+forbindelse med et måltid.
+Behandlingen med Uptravi består af 2 faser:
+Titrering
+I de første mange uger skal du i samarbejde med 
+lægen finde frem til den dosis af Uptravi, der er 
+den rigtige for dig. Lægen vil eventuelt optrappe 
+startdosen til højere doser af Uptravi. Lægen vil 
+eventuelt nedtrappe dig til en lavere dosis. Dette 
+forløb kaldes for titrering. Det giver kroppen 
+mulighed for at gradvist at vænne sig til 
+lægemidlet.
+Vedligeholdelse
+Når lægen har fundet den rette dosis til dig, vil det 
+være den dosis, du skal tage regelmæssigt. Det 
+kaldes for vedligeholdelsesdosis.
+54
+Side 6
+Side 7
+Hvordan optrapper jeg min dosis?
+Du starter med en dosis på 200 mikrogram om 
+morgenen og om aftenen, og når du har drøftet 
+det med lægen eller sundhedspersonalet, trapper 
+du op til den næste dosis. 
+Den første øgede dosis skal tages om aftenen. 
+Hvert trin varer som regel omkring 1 uge. Det kan 
+tage flere uger at finde den rette dosis til dig.
+Formålet er at nå den dosis, der er mest 
+velegnet til behandling af dig. 
+Den dosis vil være din vedligeholdelsesdosis.
+Hver patient med PAH er forskellig. Ikke alle 
+ender med at få den samme 
+vedligeholdelsesdosis.
+Nogle patienter får 200 mikrogram om morgenen 
+og om aftenen som vedligeholdelsesdosis, mens 
+andre vil nå frem til den højeste dosis på 
+1 600 mikrogram om morgenen og om aftenen.
+Andre vil nå frem til en vedligeholdelsesdosis, 
+der ligger imellem disse doser. Det vigtigste er, at 
+du når frem til den dosis, der er mest velegnet til 
+behandling af dig.
+Side 8
+Side 9
+Side 10
+Side 11
+↓Hvornår skal jeg nedtrappe?
+Som det gælder for al medicin, kan du få 
+bivirkninger med Uptravi, når du trapper op til 
+højere doser. 
+Tal med lægen eller sundhedspersonalet, hvis 
+du får bivirkninger. Der findes behandlinger, 
+der kan hjælpe med at lindre dem.
+De mest almindelige bivirkninger (kan 
+forekomme hos flere end 1 ud af 10 personer), du 
+kan få, når du tager Uptravi, er:
+• Hovedpine • Diarré • Kvalme • Opkastning 
+• Smerter i kæben • Muskelsmerter • Smerter i 
+benene • Ledsmerter • Ansigtsrødme
+Du kan se en komplet liste over bivirkninger i 
+indlægssedlen.
+Hvis du stadig ikke kan tolerere bivirkningerne, 
+efter at lægen eller sundhedspersonalet har 
+forsøgt at behandle dem, kan de anbefale, at du 
+trapper ned til en lavere dosis.
+Hvis lægen eller sundhedspersonalet fortæller 
+dig, at du skal trappe ned til en lavere dosis, 
+skal du tage én 200 mikrogram-tablet mindre 
+om morgenen og én mindre om aftenen. 
+Du skal kun nedtrappe efter at have talt med 
+PAH-lægen eller sundhedspersonalet. Dette 
+nedtrapningsforløb vil hjælpe dig med at finde 
+den rette dosis til dig, også kaldet din 
+vedligeholdelsesdosis.
+55
+Side 12
+Side 13
+Side 14
+Side 15
+Når du overgår til din vedligeholdelsesdosis
+Den højeste dosis, som du kan tolerere i 
+titreringsfasen, vil blive din 
+vedligeholdelsesdosis. Din 
+vedligeholdelsesdosis er den dosis, som du skal 
+fortsætte med at tage regelmæssigt. Lægen eller 
+sundhedspersonale vil ordinere én tablet med 
+én styrke, der svarer til din 
+vedligeholdelsesdosis. 
+På denne måde skal du bare tage én tablet 
+om morgenen og én om aftenen, i stedet for 
+flere tabletter til hver dosis.
+Eksempel: hvis den højeste dosis, du kunne tolerere 
+i forbindelse med titrering, var 1 200 mikrogram én 
+gang om morgenen og én gang om aftenen:
+Med tiden vil lægen eller sundhedspersonalet 
+eventuelt justere din vedligeholdelsesdosis efter 
+behov.
+Side 16
+Side 17
+Hvis du har glemt at tage Uptravi
+Hvis du glemmer en dosis, skal du tage den, så 
+snart du kommer i tanker om det. Herefter skal 
+du fortsætte med at tage tabletterne på det 
+sædvanlige tidspunkt. Hvis der er mindre end 
+6 timer til, at du normalt tager din næste dosis, 
+skal du springe den glemte dosis over og 
+fortsætte med at tage lægemidlet på det 
+sædvanlige tidspunkt. 
+Du må ikke tage en dobbeltdosis som 
+erstatning for en glemt tablet.
+Hvis du holder op med at tage Uptravi
+Du må ikke stoppe med at tage Uptravi, 
+medmindre lægen eller sundhedspersonalet 
+anviser det. Hvis du af en hvilken som helst årsag 
+stopper med at tage Uptravi i mere end 3 dage i 
+træk (hvis du har glemt 6 doser i træk), skal du 
+straks kontakte lægen eller 
+sundhedspersonalet, da det kan være 
+nødvendigt at justere din dosis for at undgå 
+bivirkninger.
+Lægen eller sundhedspersonalet kan beslutte, at 
+du skal genstarte behandlingen med en lavere 
+dosis, som øges gradvist til din tidligere 
+vedligeholdelsesdosis.
+Side 18
+Side 19
+Titreringsdagbog
+Læs nøje instrukserne i indlægssedlen.
+Husk, at du skal være i regelmæssig kontakt 
+med PAH-lægen eller sundhedspersonalet.
+Skriv lægens eller sundhedspersonalets 
+56
+Følgende dagbogssider hjælper dig med at holde 
+styr på det antal tabletter, du skal tage om 
+morgenen og om aftenen i titreringsforløbet.
+Skriv ned på disse sider hvor mange tabletter, du 
+tager om morgenen og om aftenen.
+Hvert trin varer som regel omkring 1 uge, 
+medmindre lægen eller sundhedspersonalet 
+anviser noget andet. Hvis dit titreringstrin varer 
+mere end 1 uge er der flere dagbogssider, hvor du 
+kan notere dette.
+Brug side 20 til 27 til at holde styr på de 
+første uger af behandlingen, hvor du kun 
+bruger 200 mikrogram-tabletter (trin 1-4).
+Hvis du både har fået ordineret 200 og 
+800 mikrogram-tabletter, skal du bruge 
+side 30 til 37 (trin 5-8).
+anvisninger ned:
+Lægens telefonnummer og e-mail:
+Apotekets telefonnummer:
+Noter:
+Side 20
+Side 21
+Side 22
+Side 23
+Side 24
+Side 25
+57
+Side 26
+Side 27
+Side 28
+Side 29
+Brug følgende dagbogssider, hvis lægen eller 
+sundhedspersonalet ordinerer 800 mikrogram-
+tabletter i tillæg til dine 200 mikrogram-tabletter. 
+På dagbogssiderne skal du krydse af, at du har taget
+én 800 mikrogram-tablet hver dag om morgenen og 
+om aftenen sammen med det ordinerede antal 
+200 mikrogram-tabletter. 
+Husk, at du skal være i regelmæssig kontakt 
+med PAH-lægen eller sundhedspersonalet.
+Skriv lægens eller sundhedspersonalets 
+anvisninger ned:
+Lægens telefonnummer og e-mail:
+Apotekets telefonnummer:
+Noter:
+Side 30
+Side 31
+Side 32
+Side 33
+58
+Side 34
+Side 35
+Side 36
+Side 37
+Side 38
+Side 39
+Noter
+Side 40
+59
+TITRERINGSVEJLEDNING - TITRERINGSPAKKE
+Side 1
+Uptravi 100 mikrogram filmovertrukne tabletter
+selexipag
+Titreringsvejledning
+Opstart af behandling med Uptravi
+Læs den medfølgende indlægsseddel, inden du starter behandling.
+Fortæl det til lægen, hvis du oplever bivirkninger, da lægen kan anbefale, at du ændrer Uptravi-dosis.
+Side 2
+Side 3
+Indhold
+Hvordan skal jeg tage Uptravi? 
+..................................4
+Hvordan optrapper jeg min 
+dosis?..............................6
+Hvad er trinene? 
+.........................................................8
+Hvornår skal jeg nedtrappe? 
+....................................10
+Nedtrapning............................................................
+..12
+Når du overgår til din 
+vedligeholdelsesdosis.............14
+Hvis du har glemt at tage 
+Uptravi..............................16
+Hvis du holder op med at tage 
+Uptravi......................17
+Titreringsdagbog................................................18
+Side 4
+Side 5
+Hvordan skal jeg tage Uptravi?
+Uptravi er et lægemiddel, der tages hver morgen 
+og aften til behandling af pulmonal arteriel 
+hypertension, også kaldet PAH.
+Startdosen af Uptravi er 100 mikrogram én gang 
+om morgenen og én gang om aftenen.
+Den første gang, du tager Uptravi, skal være om 
+aftenen.
+Du skal tage hver dosis med et glas vand, helst i 
+forbindelse med et måltid.
+Behandlingen med Uptravi består af 2 faser:
+Titrering
+I de første mange uger skal du i samarbejde med 
+lægen finde frem til den dosis af Uptravi, der er 
+den rigtige for dig. Lægen vil eventuelt optrappe 
+startdosen til højere doser af Uptravi. Lægen vil 
+eventuelt nedtrappe dig til en lavere dosis. Dette 
+forløb kaldes for titrering. Det giver kroppen 
+mulighed for at gradvist at vænne sig til 
+lægemidlet.
+Vedligeholdelse
+Når lægen har fundet den rette dosis til dig, vil det 
+være den dosis, du skal tage regelmæssigt. Det 
+kaldes for vedligeholdelsesdosis.
+60
+Side 6
+Side 7
+Hvordan optrapper jeg min dosis?
+Du starter med en dosis på 100 mikrogram om 
+morgenen og om aftenen, og når du har drøftet 
+det med lægen eller sundhedspersonalet, trapper 
+du op til den næste dosis. 
+Den første øgede dosis skal tages om aftenen. 
+Hvert trin varer som regel omkring 1 uge. Det kan 
+tage flere uger at finde den rette dosis til dig.
+Formålet er at nå den dosis, der er mest 
+velegnet til behandling af dig. 
+Den dosis vil være din vedligeholdelsesdosis.
+Hver patient med PAH er forskellig. Ikke alle 
+ender med at få den samme 
+vedligeholdelsesdosis.
+Nogle patienter får 100 mikrogram om morgenen 
+og om aftenen som vedligeholdelsesdosis, mens 
+andre vil nå frem til den højeste dosis på 
+800 mikrogram om morgenen og om aftenen.
+Andre vil nå frem til en vedligeholdelsesdosis, 
+der ligger imellem disse doser. Det vigtigste er, at 
+du når frem til den dosis, der er mest velegnet til 
+behandling af dig.
+Side 8
+Side 9
+Side 10
+Side 11
+↓Hvornår skal jeg nedtrappe?
+Som det gælder for al medicin, kan du få 
+bivirkninger med Uptravi, når du trapper op til 
+højere doser.
+Tal med lægen eller sundhedspersonalet, hvis 
+du får bivirkninger. Der findes behandlinger, 
+der kan hjælpe med at lindre dem.
+De mest almindelige bivirkninger (kan 
+forekomme hos flere end 1 ud af 10 personer), du 
+kan få, når du tager Uptravi, er:
+• Hovedpine • Diarré • Kvalme • Opkastning 
+• Smerter i kæben • Muskelsmerter • Smerter i 
+benene • Ledsmerter • Ansigtsrødme
+Du kan se en komplet liste over bivirkninger i 
+indlægssedlen.
+Hvis du stadig ikke kan tolerere bivirkningerne, 
+efter at lægen eller sundhedspersonalet har 
+forsøgt at behandle dem, kan de anbefale, at du 
+trapper ned til en lavere dosis.
+Hvis lægen eller sundhedspersonalet fortæller 
+dig, at du skal trappe ned til en lavere dosis, 
+skal du tage én 100 mikrogram-tablet mindre 
+om morgenen og én mindre om aftenen. 
+Du skal kun nedtrappe efter at have talt med 
+PAH-lægen eller sundhedspersonalet. Dette 
+nedtrapningsforløb vil hjælpe dig med at finde 
+den rette dosis til dig, også kaldet din 
+vedligeholdelsesdosis.
+61
+Side 12
+Side 13
+Side 14
+Side 15
+Når du overgår til din vedligeholdelsesdosis
+Den højeste dosis, som du kan tolerere i 
+titreringsfasen, vil blive din 
+vedligeholdelsesdosis. Din 
+vedligeholdelsesdosis er den dosis, som du skal 
+fortsætte med at tage regelmæssigt. Lægen eller 
+sundhedspersonale vil ordinere en eller flere 
+tabletstyrker, der svarer til din 
+vedligeholdelsesdosis. 
+På denne måde kan du måske nøjes med bare 
+at tage én tablet om morgenen og én om 
+aftenen.
+Eksempel: hvis den højeste dosis, du kunne 
+tolerere i forbindelse med titrering, var 
+600 mikrogram én gang om morgenen og én gang 
+om aftenen:
+Med tiden vil lægen eller sundhedspersonalet 
+eventuelt justere din vedligeholdelsesdosis efter 
+behov.
+Side 16
+Side 17
+Hvis du har glemt at tage Uptravi
+Hvis du glemmer en dosis, skal du tage den, så 
+snart du kommer i tanker om det. Herefter skal 
+du fortsætte med at tage tabletterne på det 
+sædvanlige tidspunkt. Hvis der er mindre end 
+6 timer til, at du normalt tager din næste dosis, 
+skal du springe den glemte dosis over og 
+fortsætte med at tage lægemidlet på det 
+sædvanlige tidspunkt. 
+Du må ikke tage en dobbeltdosis som 
+erstatning for en glemt tablet.
+Hvis du holder op med at tage Uptravi
+Du må ikke stoppe med at tage Uptravi, 
+medmindre lægen eller sundhedspersonalet 
+anviser det. Hvis du af en hvilken som helst årsag 
+stopper med at tage Uptravi i mere end 3 dage i 
+træk (hvis du har glemt 6 doser i træk), skal du 
+straks kontakte lægen eller 
+sundhedspersonalet, da det kan være 
+nødvendigt at justere din dosis for at undgå 
+bivirkninger.
+Lægen eller sundhedspersonalet kan beslutte, at 
+du skal genstarte behandlingen med en lavere 
+dosis, som øges gradvist til din tidligere 
+vedligeholdelsesdosis.
+Side 18
+Side 19
+Titreringsdagbog
+Læs nøje instrukserne i indlægssedlen.
+Husk, at du skal være i regelmæssig kontakt 
+med PAH-lægen eller sundhedspersonalet.
+62
+Følgende dagbogssider hjælper dig med at holde 
+styr på det antal tabletter, du skal tage om 
+morgenen og om aftenen i titreringsforløbet.
+Skriv ned på disse sider hvor mange tabletter, du 
+tager om morgenen og om aftenen.
+Hvert trin varer som regel omkring 1 uge, 
+medmindre lægen eller sundhedspersonalet 
+anviser noget andet. Hvis dit titreringstrin varer 
+mere end 1 uge er der flere dagbogssider, hvor du 
+kan notere dette.
+      Brug side 20 til 27 til at holde styr på de 
+første uger af behandlingen, hvor du kun 
+bruger 100 mikrogram-tabletter (trin 1-4).
+Hvis du både har fået ordineret 100 og 
+400 mikrogram-tabletter, skal du bruge 
+side 30 til 37 (trin 5-8).
+Skriv lægens eller sundhedspersonalets 
+anvisninger ned:
+Lægens telefonnummer og e-mail:
+Apotekets telefonnummer:
+Noter:
+Side 20
+Side 21
+Side 22
+Side 23
+Side 24
+Side 25
+63
+Side 26
+Side 27
+Side 28
+Side 29
+Brug følgende dagbogssider, hvis lægen eller 
+sundhedspersonalet ordinerer 400 mikrogram-
+tabletter i tillæg til dine 100 mikrogram-tabletter. 
+På dagbogssiderne skal du krydse af, at du har taget
+én 400 mikrogram-tablet hver dag om morgenen og 
+om aftenen sammen med det ordinerede antal 
+100 mikrogram-tabletter. 
+Husk, at du skal være i regelmæssig kontakt 
+med PAH-lægen eller sundhedspersonalet.
+Skriv lægens eller sundhedspersonalets 
+anvisninger ned:
+Lægens telefonnummer og e-mail:
+Apotekets telefonnummer:
+Noter:
+Side 30
+Side 31
+Side 32
+Side 33
+64
+Side 34
+Side 35
+Side 36
+Side 37
+Side 38
+Side 39
+Noter
+Side 40</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f797cc0b9b4e9335a18d81e479368f3c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for uptravi Package Leaflet for language en"
+Description: "ePI document Bundle for uptravi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f797cc0b9b4e9335a18d81e479368f3c"
+* entry[0].resource = composition-en-f797cc0b9b4e9335a18d81e479368f3c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf797cc0b9b4e9335a18d81e479368f3c"
+* entry[=].resource = mpf797cc0b9b4e9335a18d81e479368f3c
+                            
+                    
+Instance: bundlepackageleaflet-da-f797cc0b9b4e9335a18d81e479368f3c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for uptravi Package Leaflet for language da"
+Description: "ePI document Bundle for uptravi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f797cc0b9b4e9335a18d81e479368f3c"
+* entry[0].resource = composition-da-f797cc0b9b4e9335a18d81e479368f3c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf797cc0b9b4e9335a18d81e479368f3c"
+* entry[=].resource = mpf797cc0b9b4e9335a18d81e479368f3c
+                            
+                    
+
+
+
+Instance: mpf797cc0b9b4e9335a18d81e479368f3c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Uptravi 200 microgram film-coated tablets"
-Description: "Uptravi 200 microgram film-coated tablets"
+Title: "Medicinal Product uptravi"
+Description: "uptravi"
 Usage: #inline
 
  
@@ -665,7 +1746,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Uptravi 200 microgram film-coated tablets"
+  * productName = "uptravi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -692,29 +1773,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f797cc0b9b4e9335a18d81e479368f3c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for uptravi Package Leaflet for language en"
-Description: "ePI document Bundle for uptravi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f797cc0b9b4e9335a18d81e479368f3cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1083/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "uptravi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f797cc0b9b4e9335a18d81e479368f3c"
-* entry[0].resource = composition-en-f797cc0b9b4e9335a18d81e479368f3c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbbbe97d93b22cf42432e46bc482f7c12"
-* entry[=].resource = mpbbbe97d93b22cf42432e46bc482f7c12
-                            
-                      
+* title = "List of all ePIs associated with uptravi"
+
+* subject = Reference(mpbbbe97d93b22cf42432e46bc482f7c12)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#uptravi "uptravi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f797cc0b9b4e9335a18d81e479368f3c) // uptravi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f797cc0b9b4e9335a18d81e479368f3c) // uptravi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f797cc0b9b4e9335a18d81e479368f3c
+InstanceOf: List
+
+* insert f797cc0b9b4e9335a18d81e479368f3cListRuleset
+    

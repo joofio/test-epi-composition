@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a52ec7613e4d995340e57022d20be3f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for rizmoic Package Leaflet"
@@ -343,12 +346,442 @@ Tel/T l: + 32 (0)2 658 61 info.be@viatris.com </p>
 
 
 
+Instance: composition-da-a52ec7613e4d995340e57022d20be3f1
+InstanceOf: CompositionUvEpi
+Title: "Composition for rizmoic Package Leaflet"
+Description:  "Composition for rizmoic Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp28b66bcd4a03e61ca26646f0137dc091)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp28b66bcd4a03e61ca26646f0137dc091
+* title = "TEST PURPOSES ONLY - rizmoic"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Rizmoic
+3. Sådan skal du tage Rizmoic
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rizmoic is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rizmoic is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rizmoic indeholder det aktive stof naldemedin. 
+Det er et lægemiddel, der anvendes til voksne til at behandle forstoppelse forårsaget af 
+smertelindrende lægemidler, der kaldes opioider (f.eks. morfin, oxycodon, fentanyl, tramadol, kodein, 
+hydromorphon, methadon). 
+Dit smertelindrende opioide lægemiddel kan forårsage de følgende symptomer: 
+-
+en reduktion i hyppigheden af dine afføringer
+-
+hård afføring
+-
+mavesmerter
+-
+smerter i endetarmen ved hård afføring
+-
+en følelse af, at tarmen stadig ikke er helt tømt efter afføring.
+Rizmoic kan anvendes til patienter, der bruger et opioidt lægemiddel mod kræftsmerter eller 
+langvarige smerter, der ikke stammer fra kræft, efter tidligere behandling med et afføringsmiddel. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rizmoic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rizmoic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Rizmoic:</h2>
+<p>hvis du er allergisk over for naldemedin eller et af de øvrige indholdsstoffer i Rizmoic (angivet i
+punkt 6).
+-
+hvis dine tarme er tilstoppede eller perforerede, eller der er en stor risiko for, at dine tarme
+bliver tilstoppede, da en blokering kan føre til, at der udvikles et hul i tarmvæggen.
+Tag ikke lægemidlet, hvis noget af det ovenstående gælder for dig. Kontakt lægen eller 
+apotekspersonalet, før du tager Rizmoic, hvis du er i tvivl. 
+Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Rizmoic: 
+-
+hvis du lider af en sygdom, som kan påvirke tarmvæggen, såsom:
+
+mavesår,
+
+forstørret tyktarm på grund af en sygdom, der kaldes Ogilvies syndrom,
+
+divertikulitis (en sygdom med tarmbetændelse),
+
+kræft i tarmen eller bughinden. Bughinden omgiver dine tarme,
+
+sygdom, der foråsager en svær betændelse i fordøjelseskanalen, såsom Crohns sygdom.
+-
+hvis du har kræft i hjernen eller centralnervesystemet, multipel sklerose eller Alzheimers
+sygdom. Hvis du har disse sygdomme og udvikler opioide abstinenssymptomer (se punkt 4),
+eller hvis det opioide lægemiddel ikke længere kontrollerer dine smerter, skal du straks kontakte
+lægen.
+-
+hvis du har haft et hjerteanfald, slagtilfælde eller forbigående iskæmisk anfald (mildt
+slagtilfælde) i løbet af de seneste 3 måneder. Lægen bør kontrollere dig, hvis du tager Rizmoic.
+-
+hvis du har en svær leversygdom, såsom alkoholisk leversygdom, viral leverinfektion eller
+nedsat leverfunktion. Rizmoic må ikke anvendes til disse patienter.
+-
+hvis du tager visse lægemidler, såsom itraconazol, til behandling af svampeinfektioner, såsom
+itraconazol, eller et antibiotikum, der kaldes rifampicin, til behandling af tuberkulose eller andre
+infektioner. Se 'Brug af anden medicin sammen med Rizmoic'.
+Hvis noget af det ovenstående gælder for dig, eller du er i tvivl, skal du tale med din læge eller 
+apotekspersonalet, før du tager Rizmoic. 
+Kontakt straks lægen eller apotekspersonalet, mens du tager Rizmoic: 
+-
+hvis du udvikler svære, vedvarende eller forværrede mavesmerter, da det kan være tegn på,
+at du er ved at udvikle et hul i tarmvæggen, hvilket kan være livstruende. Tal straks med lægen,
+og hold op med at tage Rizmoic.
+-
+hvis du lider af symptomer på opioidabstinenssyndrom (se punkt 4 Bivirkninger), som kan
+udvikle sig i løbet af minutter til flere dage, efter der er taget et lægemiddel som Rizmoic. Hold
+op med at tage Rizmoic, og kontakt lægen, hvis du udvikler opioide abstinenssymptomer.
+-
+hvis du har svær diarré eller mavesmerter, skal du fortælle det til lægen, så lægen kan
+overvåge dig og behandle dig med rehydrering og om nødvendigt passende lægemidler.
+Børn og unge 
+Dette lægemiddel er ikke til børn eller unge under 18 år, da virkningen af lægemidlet hos børn og unge 
+er ukendt. 
+Brug af anden medicin sammen med Rizmoic 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. 
+Kontakt lægen eller apotekspersonalet, hvis du tager et eller flere af de følgende lægemidler: 
+-
+Rifampicin, clarithromycin eller telithromycin (antibiotika)
+-
+Itraconazol eller ketoconazol (lægemidler til behandling af svampeinfektioner)
+-
+Ritonavir, indinavir eller saquinavir (lægemidler mod hiv-infektion)
+-
+Phenytoin, carbamazepin, phenobarbital (lægemidler til behandling af epilepsi)
+-
+Prikbladet perikon (Hypericum perforatum), et naturlægemiddel, der bruges mod depression
+-
+Ciclosporin, et lægemiddel, der anvendes til patienter, som har fået en organtransplantation,
+eller anvendes til at behandle reumatoid artritis
+Brug af disse lægemidler sammen med Rizmoic kan påvirke den måde, naldemedin virker på, eller øge 
+dets bivirkninger. 
+Brug af Rizmoic sammen med drikke 
+Du må ikke drikke store mængder grapefrugtjuice, mens du tager Rizmoic. Hvis du gør det, kan du få 
+for meget naldemedin i blodet, og du kan opleve flere bivirkninger (mulige bivirkninger er anført i 
+punkt 4). 
+Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. Virkningen af 
+lægemidlet hos gravide kvinder er ukendt. Anvendelsen af Rizmoic under graviditeten kan forårsage 
+opioidabstinenser hos barnet (se punkt 4). Lægen vil rådgive dig, om hvorvidt du kan bruge Rizmoic, 
+hvis du er gravid. 
+Du må ikke amme under behandlingen med Rizmoic, da det er ukendt, om naldemedin udskilles i 
+modermælk. Kontakt lægen, hvis du allerede ammer. 
+Trafik- og arbejdssikkerhed 
+Rizmoic påvirker ikke evnen til at føre motorkøretøj eller betjene maskiner. 
+Rizmoic indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rizmoic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rizmoic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. 
+
+Den anbefalede dosis er én 200 mikrogram tablet én gang dagligt.
+
+Du kan tage Rizmoic sammen med eller uden afføringsmidler.
+
+Du kan tage Rizmoic på et vilkårligt tidspunkt på dagen, sammen med mad eller mellem
+måltider. Når du begynder at tage lægemidlet, skal du dog tage det på ca. samme tidspunkt hver
+dag.
+
+Der er ingen grund til at ændre dosis af dit opioide lægemiddel, før du starter med Rizmoic.
+Hvis du holder op med at tage dit opioide lægemiddel 
+Lægen vil råde dig til at holde op med at tage Rizmoic, når du holder op med at tage dit opioide 
+smertelægemiddel. Spørg din læge eller apotekspersonalet til råds, før du ophører med Rizmoic-
+behandlingen, for at undgå, at dine symptomer forværres. 
+Hvis du har taget for meget Rizmoic 
+Hvis du har taget for meget Rizmoic, skal du kontakte lægen eller tage på hospitalet. Du vil blive 
+overvåget for opioide abstinenssymptomer (se punkt 2 under ’Advarsler og forsigtighedsregler’ og 
+punkt 4). 
+Hvis du har glemt at tage Rizmoic 
+Hvis du glemmer en Rizmoic tablet, skal du tage den, så snart du husker det. 
+Hvis der er mindre end 12 timer til din næste dosis, skal du dog springe den glemte dosis over og 
+vente, til det er tid til at tage din næste tablet. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. 
+Hvis du holder op med at tage Rizmoic 
+Hvis du stopper med at tage Rizmoic, mens du fortsætter med at tage dit opioide lægemiddel, kan det 
+få din forstoppelse til at vende tilbage. Kontakt lægen, hvis du holder op med at tage Rizmoic. 
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
+Den mest alvorlige bivirkning observeret hos patienter, der har fået Rizmoic, har været 
+opioidabstinenssymptomer. Denne bivirkning er ikke almindelig (kan forekomme hos op til 1 ud af 
+100 personer).<br />
+Stop med at tage Rizmoic og kontakt lægen, hvis du får en kombination af 3 eller flere af de 
+følgende symptomer på opioidabstinens på samme dag: 
+
+depression
+
+kvalme eller opkastning
+
+smertende muskler
+
+øjne, der løber i vand, eller næseflåd
+
+udvidede pupiller
+
+hår på huden, der rejser sig
+
+svedtendens
+
+diarré
+
+gaben
+
+feber
+
+søvnløshed
+De følgende bivirkninger kan forekomme med denne medicin: 
+Hvis du bliver behandlet med et opioidt lægemiddel for kroniske smerter, der ikke stammer fra kræft. 
+Sjælden (kan forekomme hos op til 1 ud af 1.000 personer): 
+
+Hvis du oplever en alvorlig allergisk reaktion, skal du holde op med at tage Rizmoic og straks
+tage til lægen eller på hospitalet. Alvorlige allergiske reaktioner omfatter: hævelse af hænder,
+fødder, ankler, ansigt, læber eller halsen, som kan forårsage synkebesvær eller
+vejrtrækningsproblemer, hudkløe og nældefeber.
+Almindelig (kan forekomme hos op til 1 ud af 10 personer):
+
+diarré
+
+mavesmerter
+
+kvalme
+
+opkastning
+Hvis du bliver behandlet med et opioidt lægemiddel for kræft. 
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer): 
+
+diarré
+Almindelig:
+
+mavesmerter
+Hvis du bliver behandlet med et opioidt lægemiddel for kræft eller kroniske smerter, der ikke er 
+relateret til kræft. 
+Ikke kendt (hyppigheden kan ikke beregnes ud fra tilgængelige data) 
+
+mave-tarm-perforation (et hul, der udvikler sig i tarmvæggen)
+Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om
+sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rizmoic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rizmoic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og blisterne efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. 
+Opbevares i den originale yderpakning for at beskytte tabletterne mod lys og fugt. 
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Rizmoic indeholder:</h2>
+<h2>Hver tablet indeholder 200 mikrogram naldemedin (som tosylat).</h2>
+<p>Øvrige indholdsstoffer:
+Tabletkerne: Mannitol (E421), croscarmellosenatrium (se punkt 2 under ’Rizmoic indeholder
+natrium’) og magnesiumstearat.
+Filmovertræk: hypromellose, talcum og gul jernoxid (E172).
+Udseende og pakningsstørrelser 
+Rizmoic er en rund, ca. 6,5 mm i diameter, gul filmovertrukket tablet præget med '222' og Shionogi-
+logo på den ene side og med '0.2' på den anden side. 
+Lægemidlet fås i aluminiumblisterpakninger, der indeholder 7, 10 eller 14 tabletter. 
+Pakningsstørrelser på 7, 10, 28, 30, 84 eller 100 tabletter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. 
+Indehaver af markedsføringstilladelsen 
+Shionogi B.V. 
+Herengracht 464, 1017CA 
+Amsterdam 
+Holland 
+Fremstiller 
+Shionogi B.V. 
+Herengracht 464, 1017CA 
+Amsterdam 
+Holland 
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: 
+AT, BG, CY, CZ, EE, IE, EL, HR, HU, IE, IS, LT, LV, 
+MT, PT, RO, SI, SK 
+Shionogi B.V. 
+Tel/Tel./Teл./Tlf/Tél/Puh/Sími/Τηλ: 
++31204917439
+contact@shionogi.eu
+ES 
+Casen Recordati, S.L. 
+Tel: +34 91 659 15 info@casenrecordati.com 
+UK (NI)<br />
+Sandoz Limited 
+Tel: +44 (0)1276 698mailbox.sandoz-gb@sandoz.com 
+PL 
+Molteni Farmaceutici Polska Sp. z o.o         <br />
+Tel.: +48 (12) 653 15 71   <br />
+e-mail: biuro@molteni.com.pl
+DK 
+Viatris ApS 
+Tlf: +45 28 11 69 infodk@viatris.com 
+NO 
+Viatris AS 
+Tlf: + 47 66 75 33 Medinfo.norge@viatris.com 
+DE 
+Viatris Healthcare GmbH<br />
+Tel: +49 800 0700 800
+IT 
+Shionogi Srl 
+Tel: +39 06 94 805 contattaci@rizmoic.it 
+FR 
+Viatris Santé 
+Tél:  +33 (0)1 40 80 15 medinfo.france@viatris.com 
+SE 
+Viatris AB 
+Tel: + 46 (0)8 630 19 info.sweden@viatris.com 
+FI 
+Viatris Oy 
+Puh/Tel: +358 20 720 9infofi@viatris.com 
+BE &amp; LU 
+Viatris<br />
+Tel/Tél: + 32 (0)2 658 61 info.be@viatris.com 
+NL 
+Mylan Healthcare B.V. 
+Tel: +31 (0)20 426 33 Medical.nl@viatris.com 
+Denne indlægsseddel blev senest ændret 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske 
+Lægemiddelagenturs hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a52ec7613e4d995340e57022d20be3f1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rizmoic Package Leaflet for language en"
+Description: "ePI document Bundle for rizmoic Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a52ec7613e4d995340e57022d20be3f1"
+* entry[0].resource = composition-en-a52ec7613e4d995340e57022d20be3f1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa52ec7613e4d995340e57022d20be3f1"
+* entry[=].resource = mpa52ec7613e4d995340e57022d20be3f1
+                            
+                    
+Instance: bundlepackageleaflet-da-a52ec7613e4d995340e57022d20be3f1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rizmoic Package Leaflet for language da"
+Description: "ePI document Bundle for rizmoic Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a52ec7613e4d995340e57022d20be3f1"
+* entry[0].resource = composition-da-a52ec7613e4d995340e57022d20be3f1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa52ec7613e4d995340e57022d20be3f1"
+* entry[=].resource = mpa52ec7613e4d995340e57022d20be3f1
+                            
+                    
+
+
+
+Instance: mpa52ec7613e4d995340e57022d20be3f1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Rizmoic 200 micrograms film-coated tablets"
-Description: "Rizmoic 200 micrograms film-coated tablets"
+Title: "Medicinal Product rizmoic"
+Description: "rizmoic"
 Usage: #inline
 
  
@@ -368,7 +801,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Rizmoic 200 micrograms film-coated tablets"
+  * productName = "rizmoic"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -395,29 +828,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a52ec7613e4d995340e57022d20be3f1
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rizmoic Package Leaflet for language en"
-Description: "ePI document Bundle for rizmoic Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a52ec7613e4d995340e57022d20be3f1ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1291/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rizmoic"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a52ec7613e4d995340e57022d20be3f1"
-* entry[0].resource = composition-en-a52ec7613e4d995340e57022d20be3f1
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp28b66bcd4a03e61ca26646f0137dc091"
-* entry[=].resource = mp28b66bcd4a03e61ca26646f0137dc091
-                            
-                      
+* title = "List of all ePIs associated with rizmoic"
+
+* subject = Reference(mp28b66bcd4a03e61ca26646f0137dc091)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rizmoic "rizmoic"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a52ec7613e4d995340e57022d20be3f1) // rizmoic en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a52ec7613e4d995340e57022d20be3f1) // rizmoic da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a52ec7613e4d995340e57022d20be3f1
+InstanceOf: List
+
+* insert a52ec7613e4d995340e57022d20be3f1ListRuleset
+    

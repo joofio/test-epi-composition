@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5e5a65e1c335023d46902a7373e1d95f
 InstanceOf: CompositionUvEpi
 Title: "Composition for iclusig Package Leaflet"
@@ -397,12 +400,734 @@ http://www.ema.europa.eu. </p>
 
 
 
+Instance: composition-da-5e5a65e1c335023d46902a7373e1d95f
+InstanceOf: CompositionUvEpi
+Title: "Composition for iclusig Package Leaflet"
+Description:  "Composition for iclusig Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp63f70def5efa86c6d437e0c4def72ca6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp63f70def5efa86c6d437e0c4def72ca6
+* title = "TEST PURPOSES ONLY - iclusig"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Iclusig  </li>
+<li>Sådan skal du tage Iclusig  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What iclusig is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What iclusig is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Iclusig anvendes til at behandle voksne med følgende typer leukæmi, som ikke længere har gavn af 
+behandling med andre lægemidler eller som har en vis genetisk forskel (kendt som en 
+T315I-mutation): </p>
+<ul>
+<li>
+<p>kronisk myeloid leukæmi (CML): en form for blodkræft med for mange unormale hvide 
+blodlegemer i blodet og knoglemarven, hvor blodlegemer dannes. </p>
+</li>
+<li>
+<p>Philadelphiakromosom positiv akut lymfoblastær leukæmi (Ph+ ALL): en type leukæmi med 
+for mange umodne hvide blodlegemer i blodet og knoglemarven, hvor blodlegemer dannes. I 
+denne form for leukæmi, omdannes noget af DNA (arvemateriale) til et unormalt kromosom, 
+Philadelphiakromosomet. </p>
+</li>
+</ul>
+<p>Iclusig tilhører en gruppe lægemidler, der kaldes tyrosin-kinase-hæmmere. Hos patienter med CML og 
+Ph+ ALL udløser en ændring i DNA et signal, der fortæller kroppen, at den skal danne unormale hvide 
+blodlegemer. Iclusig blokerer dette signal, hvormed dannelsen af disse blodlegemer standses. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take iclusig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take iclusig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Iclusig </p>
+<ul>
+<li>hvis du er allergisk over for ponatinib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Iclusig, hvis du: </p>
+<ul>
+<li>
+<p>har en sygdom i leveren eller bugspytkirtlen eller nedsat nyrefunktion. Din læge kan ønske at 
+træffe yderligere foranstaltninger. </p>
+</li>
+<li>
+<p>har eller tidligere har haft et alkoholmisbrug </p>
+</li>
+<li>
+<p>har haft et hjerteanfald eller slagtilfælde </p>
+</li>
+<li>
+<p>har haft en blodprop </p>
+</li>
+<li>
+<p>har haft nyrearteriestenose (forsnævring af blodkarrene til en eller begge nyrer) </p>
+</li>
+<li>
+<p>har hjerteproblemer, herunder hjertesvigt, uregelmæssig hjerterytme eller QT-forlængelse </p>
+</li>
+<li>
+<p>har for højt blodtryk </p>
+</li>
+<li>
+<p>har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i en 
+blodårevæg </p>
+</li>
+<li>
+<p>har eller tidligere har haft blødningsproblemer </p>
+</li>
+<li>
+<p>nogensinde har været eller måske er smittet med hepatitis B. Dette er fordi Iclusig kan 
+forårsage, at hepatitis B bliver aktiv igen, hvilket undertiden kan være dødeligt. Patienten skal 
+omhyggeligt kontrolleres af lægen for tegn på denne type smitte, før behandlingen påbegyndes. </p>
+</li>
+</ul>
+<p>Din læge vil foretage: </p>
+<ul>
+<li>
+<p>en vurdering af din hjertefunktion og dine blodårers tilstand </p>
+</li>
+<li>
+<p>et fuldstændigt blodbillede 
+Det vil blive gentaget hver 2. uge i de første 3 måneder af behandlingen. Derefter tages det hver 
+måned eller som indiceret af lægen. </p>
+</li>
+<li>
+<p>kontrol af serumproteinet, som kaldes lipase 
+Et serumprotein, den såkaldte serumlipase, vil blive kontrolleret hver 2. uge i de første 
+2 måneder og derefter jævnligt. Hvis lipasen er steget, kan det være nødvendigt at holde en 
+pause i behandlingen eller reducere dosen. </p>
+</li>
+<li>
+<p>undersøgelse af leverfunktionen 
+Blodprøver til vurdering af leverfunktionen vil blive taget jævnligt som indiceret af lægen. </p>
+</li>
+</ul>
+<p>Der er indberettet tilfælde af en hjernesygdom, som kaldes posteriort reversibelt encefalopati-syndrom 
+(PRES), hos patienter, der fik ponatinib. Symptomerne kan for eksempel være pludselig kraftig 
+hovedpine, forvirring, krampeanfald og synsændringer. Fortæl det til lægen med det samme, hvis du 
+oplever nogen af disse symptomer under din behandling med ponatinib, da det kan være alvorligt. </p>
+<p>Børn og unge </p>
+<p>Dette lægemiddel må ikke gives til børn under 18 år, da der ikke foreligger data om børn. </p>
+<p>Brug af anden medicin sammen med Iclusig </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. 
+Følgende lægemidler kan påvirke eller påvirkes af Iclusig: </p>
+<ul>
+<li>
+<p>ketoconazol, itraconazol, voriconazol: lægemidler, der bruges til at behandle 
+svampeinfektioner </p>
+</li>
+<li>
+<p>indinavir, nelfinavir, ritonavir, saquinavir: lægemidler, der bruges til at behandle 
+hiv-infektion </p>
+</li>
+<li>
+<p>clarithromycin, telithromycin, troleandomycin: lægemidler, der bruges til at behandle 
+bakterieinfektioner </p>
+</li>
+<li>
+<p>nefazodon: et lægemiddel, der bruges til at behandle depression </p>
+</li>
+<li>
+<p>perikon: naturmedicin, der bruges til at behandle depression  </p>
+</li>
+<li>
+<p>carbamazepin: et lægemiddel, der bruges til at behandle epilepsi, euforiske/depressive stadier 
+og visse smertetilstande </p>
+</li>
+<li>
+<p>phenobarbital, phenytoin: lægemidler, der bruges til at behandle epilepsi </p>
+</li>
+<li>
+<p>rifabutin, rifampicin: lægemidler, der bruges til at behandle tuberkulose og visse andre 
+infektioner </p>
+</li>
+<li>
+<p>digoxin: et lægemiddel, der bruges til at behandle et svagt hjerte </p>
+</li>
+<li>
+<p>dabigatran: et lægemiddel, der bruges til at forebygge dannelse af blodpropper </p>
+</li>
+<li>
+<p>colchicin: et lægemiddel, der bruges til at behandle podagra-anfald </p>
+</li>
+<li>
+<p>pravastatin, rosuvastatin: lægemidler, der sænker kolesterolniveauet </p>
+</li>
+<li>
+<p>methotrexat: et lægemiddel, der bruges til at behandle svær inflammation af led (gigt), kræft 
+og hudsygdommen psoriasis </p>
+</li>
+<li>
+<p>sulfasalazin: et lægemiddel, der bruges til at behandle svær betændelse i tarme og reumatiske 
+led </p>
+</li>
+</ul>
+<p>Brug af Iclusig sammen med mad og drikke </p>
+<p>Undgå grapefrugtprodukter som f.eks. grapefrugtjuice. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<ul>
+<li>
+<p>Råd om kontraception til mænd og kvinder 
+Kvinder i den fertile alder, som behandles med Iclusig, bør undgå at blive gravide. Mænd, der 
+behandles med Iclusig, frarådes at gøre kvinder gravide under behandlingen. Der skal anvendes 
+sikker kontraception under behandlingen. 
+Iclusig må kun anvendes under graviditet, hvis din læge fortæller dig, at det er strengt 
+nødvendigt, da der er mulige risici for det ufødte barn. </p>
+</li>
+<li>
+<p>Amning 
+Amning skal ophøre under behandlingen med Iclusig. Det vides ikke, om Iclusig udskilles i 
+human mælk. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Du bør udvise særlig forsigtighed, når du kører bil og betjener maskiner, da patienter, der tager Iclusig, 
+kan opleve synsforstyrrelser, svimmelhed, søvnighed og træthed. </p>
+<p>Iclusig indeholder lactose </p>
+<p>Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take iclusig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take iclusig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>Iclusig-behandling skal ordineres af en læge med erfaring i behandling af patienter med leukæmi. </p>
+<p>Iclusig kan fås som: </p>
+<ul>
+<li>
+<p>en 45 mg filmovertrukket tablet til den anbefalede dosis.  </p>
+</li>
+<li>
+<p>en 15 mg filmovertrukket tablet og en 30 mg filmovertrukket tablet til brug ved dosisjusteringer. </p>
+</li>
+</ul>
+<p>Den anbefalede startdosis er: Én 45 mg filmovertrukket tablet én gang dagligt. </p>
+<p>Din læge kan reducere din dosis eller fortælle dig, at du midlertidigt skal stoppe med at tage Iclusig, 
+hvis: </p>
+<ul>
+<li>
+<p>du har reageret passende på behandlingen </p>
+</li>
+<li>
+<p>antallet af hvide blodlegemer, de såkaldte neutrofiler, reduceres </p>
+</li>
+<li>
+<p>antallet af blodplader reduceres </p>
+</li>
+<li>
+<p>der opstår en alvorlig bivirkning, som påvirker blodet </p>
+</li>
+<li>betændelse i bugspytkirtlen </li>
+<li>
+<p>øgede niveauer af serumproteinerne lipase eller amylase </p>
+</li>
+<li>
+<p>du får problemer med dit hjerte eller blodårer </p>
+</li>
+<li>
+<p>du har en leversygdom. </p>
+</li>
+</ul>
+<p>Behandlingen med Iclusig kan genoptages med den samme eller en nedsat dosis, når bivirkningen er 
+ophørt eller under kontrol. Din læge vil bedømme, hvordan du reagerer på behandlingen med jævne 
+mellemrum. </p>
+<p>Anvendelse </p>
+<p>Tabletterne sluges hele med et glas vand. Tabletterne kan tages sammen med eller uden mad. 
+Tabletterne må ikke knuses eller opløses. </p>
+<p>Du må ikke synke den dåse med tørremiddel, der er i flasken. </p>
+<p>Behandlingsvarighed </p>
+<p>Sørg for at du tager Iclusig hver dag, så længe den er ordineret. Det drejer sig om langvarig 
+behandling.  </p>
+<p>Hvis du har taget for meget Iclusig  </p>
+<p>Tal omgående med lægen, hvis det er sket.  </p>
+<p>Hvis du har glemt at tage Iclusig </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag den næste dosis på det 
+sædvanlige tidspunkt.  </p>
+<p>Hvis du holder op med at tage Iclusig </p>
+<p>Du må ikke holde op med at tage Iclusig uden lægens tilladelse. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Det er mere sandsynligt, at patienter over 65 vil blive påvirket af bivirkninger.  </p>
+<p>Kontakt straks lægen, hvis du får nogen af følgende alvorlige bivirkninger. </p>
+<p>Hvis resultaterne af blodprøver bliver unormale, skal en læge straks kontaktes. </p>
+<p>Alvorlige bivirkninger (almindelige: kan forekomme hos 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>lungebetændelse (kan forårsage åndenød) </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen. Hvis du får betændelse i bugspytkirtlen, skal du omgående 
+kontakte din læge. Symptomer er svære smerter i maven og ryggen. </p>
+</li>
+<li>
+<p>feber, ofte sammen med andre tegn på betændelse på grund af nedsat antal hvide blodlegemer  </p>
+</li>
+<li>
+<p>hjerteanfald (blandt symptomerne er en pludselig fornemmelse af hurtigere puls, smerter i 
+brystkassen, kortåndethed) </p>
+</li>
+<li>
+<p>ændringer i blodniveauer:</p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer (blandt symptomer er: svækkelse, svimmelhed, 
+træthed) </p>
+</li>
+<li>nedsat antal blodplader (blandt symptomerne er: øget tendens til blødning eller blå 
+mærker) </li>
+<li>nedsat antal hvide blodlegemer, de såkaldte neutrofiler (blandt symptomerne er: øget 
+tendens til betændelse) </li>
+<li>
+<p>forhøjet niveau af et serumprotein, som kaldes lipase </p>
+</li>
+<li>
+<p>en hjerterytmeforstyrrelse, unormal puls </p>
+</li>
+<li>
+<p>hjertesvigt (blandt symptomerne er svækkelse, træthed, hævede ben) </p>
+</li>
+<li>
+<p>ubehagelig trykkende fornemmelse, følelse af opfyldning, klemmen eller smerte midt i brystet 
+(angina pectoris) og brystsmerter, som ikke har noget med hjertet at gøre </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+<li>
+<p>forsnævring af pulsårer i hjernen </p>
+</li>
+<li>
+<p>problemer med blodkarrene i hjertet </p>
+</li>
+<li>
+<p>blodforgiftning </p>
+</li>
+<li>
+<p>hævede eller røde områder på huden, som føles varme og ømme (cellulitis) </p>
+</li>
+<li>
+<p>væskemangel (dehydrering) </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>væske i brystkassen (kan forårsage åndenød) </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>blodprop i en dyb vene, pludselig blokering af en vene, blodprop i en blodåre i lungen (blandt 
+symptomerne er: hedeture, rødmen, rødmen i ansigtet, åndenød) </p>
+</li>
+<li>
+<p>slagtilfælde (blandt symptomerne er: problemer med at tale eller bevæge sig, søvnighed, 
+migræne, unormale fornemmelser) </p>
+</li>
+<li>
+<p>kredsløbsproblemer (blandt symptomerne er: smerter i arme og ben, kulde i lemmernes 
+ekstremiteter) </p>
+</li>
+<li>
+<p>blodprop i en af de store blodårer, der transporterer blod til hovedet eller halsen (halspulsårerne) </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>nedsat natrium i blodet </p>
+</li>
+<li>
+<p>øget tendens til blødning eller blå mærker </p>
+</li>
+</ul>
+<p>Andre mulige bivirkninger, som kan forekomme med følgende hyppighed, er: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>infektion i øvre luftveje (kan forårsage åndenød) </p>
+</li>
+<li>
+<p>nedsat appetit  </p>
+</li>
+<li>
+<p>søvnløshed </p>
+</li>
+<li>
+<p>hovedpine, svimmelhed </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>diarré, opkastning, kvalme  </p>
+</li>
+<li>
+<p>forhøjede niveauer af flere leverenzymer, der kaldes:</p>
+</li>
+<li>
+<p>alaninaminotransferase </p>
+</li>
+<li>
+<p>aspartataminotransferase </p>
+</li>
+<li>
+<p>udslæt, tør hud, kløe </p>
+</li>
+<li>
+<p>smerter i knogler, led, muskler, ryg, arme eller ben, muskelkramper </p>
+</li>
+<li>
+<p>træthed, ophobning af væske i arme og/eller ben, feber, smerter </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>betændelse i hårsække, opsvulmet, rødt område på huden eller under huden, som føles varmt og 
+ømt </p>
+</li>
+<li>
+<p>nedsat aktivitet i skjoldbruskkirtlen </p>
+</li>
+<li>
+<p>væskeretention </p>
+</li>
+<li>
+<p>lave niveauer af calcium, fosfat eller kalium i blodet  </p>
+</li>
+<li>
+<p>forhøjede niveauer af blodsukker eller urinsyre i blodet, høje niveauer af blodfedt, triglycerider </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>mini-slagtilfælde </p>
+</li>
+<li>
+<p>nervelidelser i arme og/eller ben (som ofte forårsager følelsesløshed og smerter i hænder og 
+fødder) </p>
+</li>
+<li>
+<p>letargi, migræne </p>
+</li>
+<li>
+<p>øget eller nedsat følsomhed over for berøring, unormal fornemmelse på huden som f.eks. 
+brændende, prikkende følelse og kløe. </p>
+</li>
+<li>
+<p>sløret syn, tørre øjne, infektion i øjet, synsforstyrrelser </p>
+</li>
+<li>
+<p>vævshævelse i øjenlåg eller omkring øjnene på grund af for meget væske </p>
+</li>
+<li>
+<p>hjertebanken </p>
+</li>
+<li>
+<p>smerter i ét eller begge ben ved gang eller træning, som forsvinder efter nogle minutters hvile </p>
+</li>
+<li>
+<p>hedeture, rødmen </p>
+</li>
+<li>
+<p>næseblod, problemer med stemmelyde, forhøjet blodtryk i lungekredsløbet </p>
+</li>
+<li>
+<p>forhøjede niveauer af lever- og bugspytkirtelenzymer i blodet:</p>
+</li>
+<li>
+<p>amylase </p>
+</li>
+<li>alkalisk fosfatase </li>
+<li>
+<p>gammaglutamyltransferase </p>
+</li>
+<li>
+<p>halsbrand, som skyldes refluks af mavesaft, betændelse i munden, oppustet mave eller 
+mavegener, mundtørhed </p>
+</li>
+<li>
+<p>blødning i maven (blandt symptomerne er mavesmerter, opkastning af blod) </p>
+</li>
+<li>
+<p>forhøjet niveau af bilirubin i blodet - det gulorange nedbrydningsprodukt af hæmoglobin 
+(stoffet, der farver blodet) (blandt symptomerne er mørkfarvet urin) </p>
+</li>
+<li>
+<p>smerter i knogler eller hals </p>
+</li>
+<li>
+<p>hududslæt, afskalning af huden, unormal fortykkelse af huden, hudrødme, blå mærker, 
+hudsmerter, farveændringer i huden, hårtab  </p>
+</li>
+<li>
+<p>hævelse i ansigtet på grund af for meget væske </p>
+</li>
+<li>
+<p>nattesved, øget svedafsondring </p>
+</li>
+<li>
+<p>manglende evne til at få eller vedligeholde rejsning </p>
+</li>
+<li>
+<p>kulderystelser, influenzalignende symptomer </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos 1 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>stofskiftelidelser forårsaget af nedbrydningsprodukter fra døende kræftceller </p>
+</li>
+<li>
+<p>hjerneblødning </p>
+</li>
+<li>
+<p>obstruktion af blodårer i øjet </p>
+</li>
+<li>
+<p>hjerteproblemer, smerter i venstre side af brystet, funktionsfejl i venstre hjertekammer </p>
+</li>
+<li>
+<p>forsnævring af blodkarrene, dårligt kredsløb, pludselig forhøjelse af blodtrykket </p>
+</li>
+<li>
+<p>nyrearteriestenose (forsnævring af blodkarrene til en eller begge nyrer) </p>
+</li>
+<li>
+<p>kredsløbsproblemer i milten </p>
+</li>
+<li>
+<p>leverskade, gulsot (blandt symptomer er: gulfarvning af hud og øjne) </p>
+</li>
+<li>
+<p>hovedpine, forvirring, krampeanfald og synstab, som kan være symptomer på en hjernesygdom, 
+der kaldes posteriort reversibelt encefalopati-syndrom (PRES) </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter): </p>
+<ul>
+<li>smertefulde røde knuder, smerter i huden og rødme af huden (betændelse i fedtvævet under 
+huden) </li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>genopblussen (reaktivering) af hepatitis B-infektion, hvis du tidligere har haft hepatitis B 
+(leverbetændelse type B) </p>
+</li>
+<li>
+<p>problematisk hududslæt med blærer eller afskalning, som spreder sig over hele kroppen og 
+ledsages af træthed. Kontakt lægen med det samme, hvis du får disse symptomer. </p>
+</li>
+<li>
+<p>en udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner). </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apotekspersonalet. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store iclusig"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store iclusig"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, som står på flaskens etiket og kartonen efter “EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale beholder for at beskytte mod lys.  </p>
+<p>Flasken indeholder en forseglet plastdåse med et molekylær si-tørremiddel. Lad dåsen blive i flasken. 
+Dåsen med tørremiddel må ikke synkes. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Iclusig indeholder </p>
+<ul>
+<li>
+<p>Aktivt stof: ponatinib. 
+Hver 15 mg filmovertrukket tablet indeholder 15 mg ponatinib (som ponatinibhydrochlorid). 
+Hver 30 mg filmovertrukket tablet indeholder 30 mg ponatinib (som ponatinibhydrochlorid). 
+Hver 45 mg filmovertrukket tablet indeholder 45 mg ponatinib (som ponatinibhydrochlorid). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: lactosemonohydrat, mikrokrystallinsk cellulose, 
+natriumstivelsesglycolat, silica (kolloid vandfri), magnesiumstearat, talkum, macrogol 4000, 
+polyvinylalkohol, titandioxid (E171). Se afsnit 2 "Iclusig indeholder lactose". </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Iclusig filmovertrukne tabletter er hvide, runde og afrundede på over- og undersiden. 
+Iclusig 15 mg filmovertrukne tabletter er cirka 6 mm i diameter med "A5" på den ene side. 
+Iclusig 30 mg filmovertrukne tabletter er cirka 8 mm i diameter med "C7" på den ene side. 
+Iclusig 45 mg filmovertrukne tabletter er cirka 9 mm i diameter med "AP4" på den ene side. </p>
+<p>Iclusig leveres i plastflasker hver indeholdende en dåse med et molekylær si-tørremiddel. Flaskerne er 
+pakket i en papæske. 
+Flasker med Iclusig 15 mg indeholder enten 30, 60 eller 180 filmovertrukne tabletter. 
+Flasker med Iclusig 30 mg indeholder 30 filmovertrukne tabletter.<br />
+Flasker med Iclusig 45 mg indeholder enten 30 eller 90 filmovertrukne tabletter.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Incyte Biosciences Distribution B.V. 
+Paasheuvelweg 1105 BP Amsterdam 
+Holland </p>
+<p>Fremstiller </p>
+<p>Incyte Biosciences Distribution B.V. 
+Paasheuvelweg 1105 BP Amsterdam 
+Holland </p>
+<p>Tjoapack Netherlands B.V. 
+Nieuwe Donk 9 
+4879 AC Etten-Leur 
+Holland </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Der er også links til andre websteder om sjældne sygdomme og om, hvordan de behandles. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5e5a65e1c335023d46902a7373e1d95f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for iclusig Package Leaflet for language en"
+Description: "ePI document Bundle for iclusig Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5e5a65e1c335023d46902a7373e1d95f"
+* entry[0].resource = composition-en-5e5a65e1c335023d46902a7373e1d95f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5e5a65e1c335023d46902a7373e1d95f"
+* entry[=].resource = mp5e5a65e1c335023d46902a7373e1d95f
+                            
+                    
+Instance: bundlepackageleaflet-da-5e5a65e1c335023d46902a7373e1d95f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for iclusig Package Leaflet for language da"
+Description: "ePI document Bundle for iclusig Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5e5a65e1c335023d46902a7373e1d95f"
+* entry[0].resource = composition-da-5e5a65e1c335023d46902a7373e1d95f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5e5a65e1c335023d46902a7373e1d95f"
+* entry[=].resource = mp5e5a65e1c335023d46902a7373e1d95f
+                            
+                    
+
+
+
+Instance: mp5e5a65e1c335023d46902a7373e1d95f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Iclusig 15 mg film-coated tablets"
-Description: "Iclusig 15 mg film-coated tablets"
+Title: "Medicinal Product iclusig"
+Description: "iclusig"
 Usage: #inline
 
  
@@ -422,7 +1147,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Iclusig 15 mg film-coated tablets"
+  * productName = "iclusig"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -449,29 +1174,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5e5a65e1c335023d46902a7373e1d95f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for iclusig Package Leaflet for language en"
-Description: "ePI document Bundle for iclusig Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5e5a65e1c335023d46902a7373e1d95fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Iclusig 15 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "iclusig"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5e5a65e1c335023d46902a7373e1d95f"
-* entry[0].resource = composition-en-5e5a65e1c335023d46902a7373e1d95f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp63f70def5efa86c6d437e0c4def72ca6"
-* entry[=].resource = mp63f70def5efa86c6d437e0c4def72ca6
-                            
-                      
+* title = "List of all ePIs associated with iclusig"
+
+* subject = Reference(mp63f70def5efa86c6d437e0c4def72ca6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#iclusig "iclusig"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5e5a65e1c335023d46902a7373e1d95f) // iclusig en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5e5a65e1c335023d46902a7373e1d95f) // iclusig da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5e5a65e1c335023d46902a7373e1d95f
+InstanceOf: List
+
+* insert 5e5a65e1c335023d46902a7373e1d95fListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-874f4746d25a4c3b8fa97e889d85be10
 InstanceOf: CompositionUvEpi
 Title: "Composition for pelmeg Package Leaflet"
@@ -375,12 +378,651 @@ Tel: +353 1 206 3This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-874f4746d25a4c3b8fa97e889d85be10
+InstanceOf: CompositionUvEpi
+Title: "Composition for pelmeg Package Leaflet"
+Description:  "Composition for pelmeg Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpab3a184996cea302e59647db130d449b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpab3a184996cea302e59647db130d449b
+* title = "TEST PURPOSES ONLY - pelmeg"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Pelmeg 
+3. Sådan skal du bruge Pelmeg 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What pelmeg is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What pelmeg is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pelmeg indeholder det aktive stof pegfilgrastim. Pegfilgrastim er et protein, der produceres ved hjælp 
+af bioteknologi i bakterier, der kaldes for E. coli. Det tilhører en gruppe proteiner, der hedder 
+cytokiner, og ligner meget et naturligt protein (granulocytkoloni-stimulerende faktor), som kroppen 
+selv producerer. </p>
+<p>Pelmeg anvendes til voksne patienter til at reducere varigheden af neutropeni (få hvide blodlegemer) 
+og forekomsten af febergivende neutropeni (få hvide blodlegemer og feber), der kan forårsages af 
+anvendelsen af cytotoksisk kemoterapi (lægemiddel der ødelægger hurtigt voksende celler). Hvide 
+blodlegemer er vigtige, idet de hjælper din krop med at bekæmpe infektion. Disse celler er meget 
+modtagelige for effekterne af kemoterapi, hvilket kan medføre, at antallet af disse celler i din krop 
+mindskes. Hvis antallet af hvide blodlegemer falder til et lavt niveau, er der risiko for, at der ikke er 
+nok celler tilbage i kroppen til at bekæmpe bakterier, og du kan have en øget risiko for infektion. </p>
+<p>Din læge har ordineret Pelmeg til dig for at støtte din knoglemarv (hvor blodceller dannes) til at 
+producere flere hvide blodlegemer, der hjælper din krop med at bekæmpe infektion. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take pelmeg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take pelmeg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Pelmeg </p>
+<ul>
+<li>hvis du er allergisk over for pegfilgrastim, filgrastim, proteiner stammende fra E. coli, eller et af 
+de øvrige indholdsstoffer i Pelmeg, angivet i punkt 6. Advarsler og forsigtighedsregler </li>
+</ul>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Pelmeg: </p>
+<ul>
+<li>
+<p>hvis du får en allergisk reaktion, herunder svaghedsfølelse, blodtryksfald, åndedrætsbesvær, 
+hævelse i ansigtet (anafylaksi), rødme, hududslæt og kløende områder på huden. </p>
+</li>
+<li>
+<p>hvis du får hoste, feber og åndedrætsbesvær. Det kan være et tegn på shocklunge (ARDS). 
+ 
+hvis du får en eller flere af følgende bivirkninger eller en kombination af disse bivirkninger:</p>
+</li>
+<li>
+<p>hævelse eller oppustethed, som kan være forbundet med sjældnere vandladning, 
+åndedrætsbesvær, oppustet mave og mæthedsfølelse samt en generel følelse af træthed. 
+Dette kan være symptomer på en tilstand, der kaldes for “kapillærlækage-syndrom“, som får 
+blodet til at lække fra de små blodkar ud i kroppen. Se afsnit 4.  
+hvis du får smerter øverst i maveregionen eller smerter ved det nederste af skulderen. Det kan 
+være tegn på problemer med milten (forstørret milt). 
+ 
+hvis du for nylig har haft en alvorlig lungebetændelse (pneumoni), væske i lungerne 
+(lungeødem), inflammation (betændelseslignende reaktion) i lungerne (interstitiel lungesygdom) 
+eller du har fået taget røntgenbilleder af brystet, der viste unormale forhold (lungeinfiltration). 
+ 
+hvis du er klar over, at du har ændrede blodtal (for eksempel en stigning i hvide blodlegemer 
+eller blodmangel (anæmi)) eller fald i antallet af blodplader, hvilket reducerer blodets evne til at 
+størkne (trombocytopeni). Din læge vil muligvis overvåge dig nøjere. 
+ 
+hvis du har seglcelleanæmi. Din læge vil muligvis overvåge din tilstand nøjere. 
+ 
+er patient med bryst- eller lungekræft, da Pelmeg i kombination med kemoterapi og/eller 
+stråleterapi kan øge Deres risiko for en blodsygdom, som er et forstadie til kræft, og som kaldes 
+myelodysplastisk syndrom (MDS), eller en form for blodkræft, som kaldes akut myeloid 
+leukæmi (AML). Symptomerne kan omfatte træthed, feber og tendens til blå mærker eller 
+blødning. 
+ 
+hvis du pludselig får symptomer på allergi, for eksempel udslæt, kløe eller kløende udslæt på 
+huden (nældefeber), hævelse i ansigt, læber, tunge eller andre dele af kroppen, stakåndethed, 
+hvæsende vejrtrækning eller vejrtrækningsbesvær, kan det være tegn på en alvorlig allergisk 
+reaktion. 
+ 
+har symptomer på betændelse i aorta (den store pulsåre, der transporterer blodet fra hjertet ud i 
+kroppen). Der er indberettet sjældne tilfælde af dette hos kræftpatienter og raske donorer. 
+Symptomerne kan omfatte feber, mavesmerter, utilpashed, rygsmerter og øgede 
+betændelsesmarkører. Fortæl det til lægen, hvis du oplever disse symptomer. </p>
+</li>
+</ul>
+<p>Din læge vil regelmæssigt kontrollere dit blod og urin, da Pelmeg kan beskadige de bittesmå filtre i 
+nyrerne (glomerulonefritis). </p>
+<p>Der er rapporteret om alvorlige hudreaktioner (Stevens-Johnsons syndrom) ved brug af Pelmeg. Hold 
+op med at bruge Pelmeg, og søg øjeblikkeligt lægehjælp, hvis du bemærker et eller flere af de 
+symptomer, der er beskrevet i afsnit 4. Tal med din læge om risikoen for at udvikle kræft i blodet. Hvis du udvikler kræft i blodet, eller det er 
+sandsynligt, at du vil gøre det, bør du ikke bruge Pelmeg, medmindre din læge sagt, at du skal gøre 
+det. </p>
+<p>Manglende virkning af pegfilgrastim </p>
+<p>Hvis du oplever tab af virkningen af pegfilgrastim, eller hvis virkningen ikke opretholdes, vil din læge 
+undersøge grunden til det, for eksempel om du har udviklet antistoffer, der kan neutralisere 
+pegfilgrastims aktivitet. </p>
+<p>Brug af anden medicin sammen med Pelmeg </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Graviditet og amning </p>
+<p>Spørg din læge eller apoteket til råds, før du bruger nogen form for medicin. Pelmeg er ikke blevet 
+testet på gravide kvinder. Det er vigtigt at fortælle din læge, hvis du: </p>
+<ul>
+<li>
+<p>er gravid, </p>
+</li>
+<li>
+<p>har mistanke om, at du er gravid, eller </p>
+</li>
+<li>
+<p>planlægger at blive gravid. </p>
+</li>
+</ul>
+<p>Du skal informere din læge, hvis du bliver gravid, mens du er i behandling med Pelmeg. </p>
+<p>Medmindre din læge har sagt andet, skal du holde op med at amme, hvis du bruger Pelmeg. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Pelmeg har ingen eller kun ubetydelig virkning på evnen til at føre motorkøretøj eller betjene 
+maskiner. </p>
+<p>Pelmeg indeholder sorbitol (E 420) og natriumacetat </p>
+<p>Dette lægemiddel indeholder 30 mg sorbitol i hver fyldte injektionssprøjte, svarende til 50 mg/ml. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 g) natrium pr. 6 mg dosis, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pelmeg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pelmeg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pelmeg er beregnet til voksne fra 18 år og opefter. </p>
+<p>Brug altid Pelmeg nøjagtigt efter lægens anvisning. Er du i tvivl, bør du spørge lægen eller 
+apotekspersonalet. Den normale dosis er én 6 mg subkutan indsprøjtning (indsprøjtning under huden) 
+ved anvendelse af en fyldt injektionssprøjte. Indsprøjtningen bør gives mindst 24 timer efter din sidste 
+dosis kemoterapi ved afslutningen af hver kemoterapi-cyklus. </p>
+<p>Ryst ikke Pelmeg kraftigt, da dette kan påvirke virkningen. </p>
+<p>Hvis du selv skal foretage indsprøjtning med Pelmeg </p>
+<p>Din læge kan beslutte, at det vil være praktisk for dig, hvis du selv indsprøjter Pelmeg. Din læge eller 
+sygeplejerske vil vise dig, hvordan du tager en indsprøjtning. Prøv ikke selv at indsprøjte, hvis du ikke 
+er blevet undervist heri. </p>
+<p>Læs sidste afsnit i denne indlægsseddel for at få yderligere vejledning i, hvordan du selv indsprøjter 
+Pelmeg. </p>
+<p>Hvis du har brugt for meget Pelmeg </p>
+<p>Kontakt din læge, apotekspersonalet eller sygeplejersken, hvis du har brugt for meget Pelmeg. </p>
+<p>Hvis De har glemt at indsprøjte Pelmeg </p>
+<p>Hvis din har glemt en dosis Pelmeg, kontakt da din læge for at aftale, hvornår du skal indsprøjte den 
+næste dosis. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl det straks til din læge, hvis du får en eller flere af følgende bivirkninger: 
+ 
+hævelse eller opsvulmethed, der kan være forbundet med mindre hyppig vandladning, 
+åndedrætsbesvær, opsvulmet mave og mæthedsfølelse samt en generel følelse af træthed. 
+Disse symptomer opstår generelt hurtigt. 
+Det kan være symptomer på en ikke almindelig tilstand (kan ramme op til 1 ud af 100 personer), der 
+kaldes for "kapillærlækage-syndrom", som medfører, at der siver blod fra de små blodkar ud i 
+kroppen. Denne tilstand kræver øjeblikkelig behandling. </p>
+<p>Meget almindelige bivirkninger (kan ramme flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>smerter i knoglerne. Din læge vil fortælle dig, hvad du kan tage for at lindre knoglesmerterne. </p>
+</li>
+<li>
+<p>kvalme og hovedpine. </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan ramme op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>smerte ved injektionsstedet. </p>
+</li>
+<li>
+<p>generel ømhed og smerter i led og muskler. </p>
+</li>
+<li>
+<p>der kan forekomme forandringer i blodet, men de vil blive opdaget ved de rutinemæssige 
+blodprøver. Antallet af hvide blodlegemer kan blive kortvarigt forøget. Antallet af blodplader 
+kan blive reduceret, hvilket kan medføre blå mærker.  </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan ramme op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>allergi-lignende reaktioner, herunder rødmen, hududslæt og kløende hævelser af huden </p>
+</li>
+<li>
+<p>alvorlige allergiske reaktioner, herunder anafylaksi (svaghed, blodtryksfald, åndedrætsbesvær, 
+hævelse i ansigtet). </p>
+</li>
+<li>
+<p>forstørret milt. </p>
+</li>
+<li>
+<p>bristet milt (miltruptur). Nogle tilfælde af miltruptur var dødelige. Det er vigtigt, at du kontakter 
+lægen med det samme, hvis du får smerter i den øverste venstre side af maven eller op mod 
+venstre skulder, da dette kan skyldes problemer med milten. </p>
+</li>
+<li>
+<p>åndedrætsproblemer. Hvis du får hoste, feber og åndedrætsbesvær, skal du kontakte lægen. </p>
+</li>
+<li>
+<p>Sweets syndrom (blommefarvede, hævede og smertefulde læsioner på lemmer og nogle gange i 
+ansigtet og på halsen i forbindelse med feber) er forekommet, men kan være forårsaget af andre 
+faktorer. </p>
+</li>
+<li>
+<p>kutan vaskulitis (irritation eller betændelse i blodkarrene i huden). </p>
+</li>
+<li>
+<p>beskadigelse af de bittesmå filtre i nyrerne (glomerulonefritis). </p>
+</li>
+<li>
+<p>rødme på injektionsstedet. </p>
+</li>
+<li>
+<p>ophostning af blod (hæmoptyse) </p>
+</li>
+<li>
+<p>blodsygdomme (myelodysplastisk syndrom [MDS] eller akut myeloid leukæmi [AML]). </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan ramme op til 1 ud af 1 000 personer): </p>
+<ul>
+<li>
+<p>betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i kroppen), se afsnit 2. * blødning fra lungen (pulmonal blødning) </p>
+</li>
+<li>
+<p>Stevens-Johnsons syndrom, som kan vise sig som rødlige pletter, der ligner målskiver eller 
+cirkler og ofte har blærer i midten, hudafskalning, sår i munden, svælget, næsen, øjnene eller på 
+kønsorganerne, og som eventuelt starter med feber eller influenzalignende symptomer. Hold op 
+med at bruge Pelmeg, hvis De udvikler disse symptomer, og søg øjeblikkeligt lægehjælp eller 
+kontakt Deres læge. Se også afsnit 2. Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejerske. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller Dine 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pelmeg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pelmeg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og på injektionssprøjtens etiket efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2º C - 8º C). </p>
+<p>Du må tage Pelmeg ud af køleskabet og opbevare det ved stuetemperatur (ikke over 30º C) i højst 
+4 dage. I det øjeblik en sprøjte tages ud af køleskabet, og har nået stuetemperatur (ikke over 30º C), 
+skal den anvendes inden for 4 dage eller bortskaffes. </p>
+<p>Må ikke nedfryses. Pelmeg kan bruges, hvis det utilsigtet fryses i 2 perioder, hver under 72 timer. </p>
+<p>Opbevar beholderen i den ydre karton for at beskytte mod lys. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at det er grumset eller at der er partikler i det. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pelmeg indeholder: 
+ 
+Aktivt stof: pegfilgrastim. Hver fyldt injektionssprøjte indeholder 6 mg pegfilgrastim i 0,6 ml 
+opløsning. 
+ 
+Øvrige indholdsstoffer: natriumacetat, sorbitol (E 420), polysorbat 20 og vand til 
+injektionsvæsker. Se afsnit 2. Udseende og pakningsstørrelser 
+Pelmeg er en klar, farveløs injektionsvæske, opløsning i fyldt injektionssprøjte (6 mg/0,6 ml). </p>
+<p>Hver pakning indeholder 1 fyldt injektionssprøjte af glas med en påsat kanyle af rustfrit stål og 
+kanylehætte. Sprøjten leveres med en automatisk kanylebeskyttelse. </p>
+<p>Indehaver af markedsføringstilladelsen: </p>
+<p>Mundipharma Corporation (Ireland) Limited,<br />
+United Drug House Magna Drive, Magna Business Park,<br />
+Citywest Road, Dublin 24, 
+Irland </p>
+<p>Fremstiller: 
+PharmaKorell GmbH 
+Georges-Köhler-Str. 2, 
+79539 Lörrach 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal De henvende dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Mundipharma BV 
+Tél/Tel: +32 2 358 54 68<br />
+info@mundipharma.be 
+Lietuva 
+EGIS Pharmaceuticals PLC atstovybė 
+Tel.:+ 370 5 231 4info@egis.lt </p>
+<p>България 
+ТП„Мундифарма Гезелшафт м.б.Х.“ 
+Teл.: + 359 2 962 13 mundipharma@mundipharma.bg </p>
+<p>Luxembourg/Luxemburg 
+Mundipharma BV 
+Tél/Tel: +32 2 358 54 info@mundipharma.be 
+Česká republika 
+Mundipharma Gesellschaft m.b.H.,<br />
+organizační složka<br />
+Tel: + 420 296 188 office@mundipharma.cz 
+Magyarország 
+Egis Gyógyszergyár Zrt. 
+Tel.: +36 1 803 5mailbox@egis.hu </p>
+<p>Danmark 
+Mundipharma A/S 
+Tlf: + 45 45 17 48 nordics@mundipharma.dk </p>
+<p>Malta 
+Mundipharma Corporation (Ireland) Limited 
+Tel: +353 1 206 3800  </p>
+<p>Deutschland 
+Mundipharma GmbH 
+Tel: + 49 (0) 69 506029-info@mundipharma.de 
+Nederland 
+Mundipharma Pharmaceuticals B.V. 
+Tel: + 31 (0)33 450 82 info@mundipharma.nl </p>
+<p>Eesti 
+Medis Pharma LithuaniaTel: +37052512 </p>
+<p>Norge 
+Mundipharma AS 
+Tlf: + 47 67 51 89 nordics@mundipharma.dk </p>
+<p>Ελλάδα 
+Mundipharma Corporation (Ireland) Limited 
+Τηλ: + 353 1 206 3800  </p>
+<p>Österreich 
+Mundipharma Gesellschaft m.b.H. 
+Tel: +43 (0)1 523 25 05-0 
+info@mundipharma.at </p>
+<p>España 
+Mundipharma Pharmaceuticals, S.L. 
+Tel: +34 91 3821infomed@mundipharma.es </p>
+<p>Polska 
+Mundipharma Polska Sp. z o.o. 
+Tel.: + (48 22) 866 87 biuro@mundipharma.pl </p>
+<p>France 
+MUNDIPHARMA SAS 
+Tél: +33 1 40 65 29 infomed@mundipharma.fr </p>
+<p>Portugal 
+Mundipharma Farmacêutica Lda 
+Tel: +351 21 901 31 med.info@mundipharma.pt </p>
+<p>Hrvatska 
+Medis Adria d.o.o. 
+Tel: + 385 (0) 1 230 34 medis.hr@medis.com </p>
+<p>România<br />
+Egis Rompharma SRL 
+Tel: +40 21 412 00 office@egis.ro </p>
+<p>Ireland 
+Mundipharma Pharmaceuticals Limited 
+Tel: +353 1 206 3800România 
+Slovenija 
+Medis, d.o.o. 
+Tel: +386 158969 medis.si@medis.com </p>
+<p>Ísland 
+Icepharma hf. 
+Sími: + 354 540 8icepharma@icepharma.is </p>
+<p>Slovenská republika 
+Mundipharma Ges.m.b.H.-o.z. 
+Tel: + 4212 6381 1mundipharma@mundipharma.sk </p>
+<p>Italia 
+Mundipharma Pharmaceuticals Srl 
+Tel: +39 02 3182infomedica@mundipharma.it </p>
+<p>Suomi/Finland 
+Mundipharma Oy 
+Puh/Tel: + 358 (0)9 8520 2nordics@mundipharma.dk </p>
+<p>Κύπρος 
+Mundipharma Pharmaceuticals Ltd 
+Τηλ: +357 22 815info@mundipharma.com.cy </p>
+<p>Sverige 
+Mundipharma AB 
+Tel: + 46 (0)31 773 75 nordics@mundipharma.dk </p>
+<p>Latvija<br />
+EGIS Pharmaceuticals PLC parstavniecibas 
+Tel: + 371 676 13 info@egis.lv </p>
+<p>United Kingdom (Northern Ireland) 
+Mundipharma Pharmaceuticals Limited<br />
+Tel: +353 1 206 3800  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>De kan finde yderligere oplysnisnger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Brugervejledning: </p>
+<p>Vejledning til delene 
+Inden brug 
+Efter brug </p>
+<p>Vigtigt 
+Læs disse vigtige informationer, inden du bruger den fyldte Pelmeg-injektionssprøjte med 
+automatisk kanylebeskyttelse: </p>
+<ul>
+<li>
+<p>Det er vigtigt, at du ikke forsøger at give dig selv injektionen, medmindre du har fået oplæring af din 
+læge eller sundhedspersonalet. </p>
+</li>
+<li>
+<p>Pelmeg gives som en injektion i vævet lige under huden (subkutan injektion). 
+ Tag ikke kanylehætten af den fyldte injektionssprøjte, før du er klar til at foretage injektionen. 
+ Brug ikke den fyldte injektionssprøjte, hvis du har tabt den på en hård overflade. Brug en ny fyldt 
+injektionssprøjte og kontakt din læge eller sundhedspersonalet. 
+ Forsøg ikke at aktivere den fyldte injektionssprøjte inden injektionen. 
+ Forsøg ikke at tage den gennemsigtige afskærmningsanordning af den fyldte injektionssprøjte. 
+ Forsøg ikke at fjerne den aftagelige etiket på den fyldte sprøjtebeholder, inden injektionen gives. 
+Kontakt din læge eller sundhedspersonalet, hvis du har spørgsmål. </p>
+</li>
+</ul>
+<p>Stempel 
+Brugt stempel 
+Fingergreb 
+Sprøjteetiket 
+Udløst fjeder i 
+kanylebeskyttelsen </p>
+<p>Sprøjteetiket 
+Tom (anvendt) 
+sprøjtebeholder 
+Sprøjtebeholder 
+Brugt kanyle 
+Inden brug 
+Efter brug 
+Afskærmningsanordning 
+Kanylehætte 
+påmonteret </p>
+<p>Fjeder i 
+afskærmningsanordningen 
+Kanylehætte 
+(aftaget) 
+Trin 1: Forberedelse 
+A 
+Tag bakken med den fyldte injektionssprøjte ud af pakningen og saml de ting sammen, der 
+skal bruges til injektionen: afspritningsservietter, vat eller gazekompresser, plaster og en 
+kanylebøtte (følger ikke med). 
+Lad den fyldte injektionssprøjte ligge ved stuetemperatur i cirka 30 minutter. Det vil gøre injektionen 
+mere behagelig. Vask dine hænder grundigt med vand og sæbe. 
+Anbring den fyldte injektionssprøjte og de øvrige materialer på en ren, veloplyst overflade. </p>
+<p>Opvarm ikke den fyldte injektionssprøjte ved hjælp af en varmekilde, som fx varmt vand eller 
+mikrobølgeovn. </p>
+<p>Lad ikke den fyldte injektionssprøjte ligge i direkte sollys. </p>
+<p>Ryst ikke den fyldte injektionssprøjte. </p>
+<p>Opbevar de fyldte injektionssprøjter utilgængeligt for børn. </p>
+<p>B 
+Åbn bakken og træk emballagen af. Tag fat i den fyldte injektionssprøjtes 
+afskærmningsanordning og tag den fyldte injektionssprøjte ud af bakken. </p>
+<p>Af sikkerhedsmæssige grunde: </p>
+<p>Hold ikke på stemplet </p>
+<p>Hold ikke på kanylehætten </p>
+<p>C 
+Kontrollér medicinen og den fyldte injektionssprøjte. </p>
+<p>Brug ikke den fyldte injektionssprøjte, hvis: </p>
+<ul>
+<li>
+<p>Medicinen er grumset, eller der er partikler i den. Det skal være en klar og farveløs 
+væske. </p>
+</li>
+<li>
+<p>Der er dele, som ser ud til at være revnede eller ødelagte. </p>
+</li>
+<li>
+<p>Kanylehætten mangler eller er ikke sat ordentligt på. </p>
+</li>
+<li>
+<p>Udløbsdatoen, der er trykt på etiketten, er overskredet (den sidste dag i den viste 
+måned er passeret). 
+Hvis noget af ovenstående forventes, skal du kontakte din læge eller sundhedspersonalet. </p>
+</li>
+</ul>
+<p>Medicin 
+Tag fat her 
+Trin 2: Klargøring 
+A 
+Vask dine hænder grundigt. Klargør og afrens injektionsstedet. </p>
+<p>Du kan bruge: </p>
+<ul>
+<li>
+<p>den øverste del af lårene </p>
+</li>
+<li>
+<p>maven, bortset fra et område på 5 cm omkring navlen </p>
+</li>
+<li>
+<p>forsiden af overarmen (kun, hvis en anden person giver Dig injektionen) 
+Afrens injektionsstedet med en afspritningsserviet. Lad huden tørre. </p>
+</li>
+</ul>
+<p>Rør ikke ved injektionsstedet inden injektionen. </p>
+<p>Giv ikke injektionen på steder, hvor huden er øm, forslået, rød eller hård. Undgå at 
+injicere på steder, hvor der er ar eller strækmærker. </p>
+<p>Overarm 
+Mave 
+Øverst på lårene 
+B 
+Træk forsigtigt kanylehætten af i en lige bevægelse væk fra kroppen. </p>
+<p>C 
+Tag fat i huden på injektionsstedet, så der dannes en fast fold. </p>
+<p>Det er vigtigt, at huden også klemmes sammen under injektionen. </p>
+<p>Trin 3: Injektion 
+A 
+Bliv ved med at holde sammen på huden. STIK kanylen ind i huden. </p>
+<p>Rør ikke ved det afrensede område af huden </p>
+<p>B 
+PRES stemplet ned med et langsomt og konstant tryk, indtil du mærker eller hører et 
+"klik". 
+Pres hele vejen ned gennem "klikket". </p>
+<p>For at give hele dosen er det vigtigt, at du trykker ned gennem "klikket". </p>
+<p>C 
+GIV SLIP med tommelfingeren. LØFT derefter sprøjten væk fra huden.. </p>
+<p>Den fyldte injektionssprøjtes afskærmningsanordning vil dække kanylen, når stemplet slippes. </p>
+<p>Sæt ikke kanylehætten på en brugt fyldt injektionssprøjte igen. </p>
+<p>Kun for læger og sundhedspersonale 
+Handelsnavnet og batchnummeret på det administrerede præparat skal registreres tydeligt i 
+patientjournalen. 
+Tag etiketten på den fyldte injektionssprøjte af og gem den. </p>
+<p>Drej på stemplet for at få sprøjteetiketten i en position, hvor den kan tages af. </p>
+<p>Trin 4: Afslut 
+A 
+Kassér den brugte injektionssprøjte og andre materialer i en kanylebøtte. </p>
+<p>Medicin skal bortskaffes i overensstemmelse med lokale retningslinjer. Spørg på apoteket, 
+hvordan du skal aflevere medicinrester. Disse forholdsregler er med til at beskytte miljøet. </p>
+<p>Opbevar sprøjter og kanylebøtte utilgængeligt for børn. </p>
+<p>Den fyldte injektionssprøjte må ikke genbruges </p>
+<p>Brugte fyldte injektionssprøjter må ikke smides til genbrug eller kasseres sammen med 
+husholdningsaffaldet </p>
+<p>B 
+Undersøg injektionsstedet. 
+Tryk en tot vat eller et gazekompres ned på injektionsstedet, hvis det bløder. Gnid ikke på 
+injektionsstedet. Sæt om nødvendigt et plaster på. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-874f4746d25a4c3b8fa97e889d85be10
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pelmeg Package Leaflet for language en"
+Description: "ePI document Bundle for pelmeg Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-874f4746d25a4c3b8fa97e889d85be10"
+* entry[0].resource = composition-en-874f4746d25a4c3b8fa97e889d85be10
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp874f4746d25a4c3b8fa97e889d85be10"
+* entry[=].resource = mp874f4746d25a4c3b8fa97e889d85be10
+                            
+                    
+Instance: bundlepackageleaflet-da-874f4746d25a4c3b8fa97e889d85be10
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pelmeg Package Leaflet for language da"
+Description: "ePI document Bundle for pelmeg Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-874f4746d25a4c3b8fa97e889d85be10"
+* entry[0].resource = composition-da-874f4746d25a4c3b8fa97e889d85be10
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp874f4746d25a4c3b8fa97e889d85be10"
+* entry[=].resource = mp874f4746d25a4c3b8fa97e889d85be10
+                            
+                    
+
+
+
+Instance: mp874f4746d25a4c3b8fa97e889d85be10
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Pelmeg 6 mg solution for injection in pre-filled syringe"
-Description: "Pelmeg 6 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product pelmeg"
+Description: "pelmeg"
 Usage: #inline
 
  
@@ -400,7 +1042,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Pelmeg 6 mg solution for injection in pre-filled syringe"
+  * productName = "pelmeg"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -427,29 +1069,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-874f4746d25a4c3b8fa97e889d85be10
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for pelmeg Package Leaflet for language en"
-Description: "ePI document Bundle for pelmeg Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 874f4746d25a4c3b8fa97e889d85be10ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1328/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "pelmeg"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-874f4746d25a4c3b8fa97e889d85be10"
-* entry[0].resource = composition-en-874f4746d25a4c3b8fa97e889d85be10
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpab3a184996cea302e59647db130d449b"
-* entry[=].resource = mpab3a184996cea302e59647db130d449b
-                            
-                      
+* title = "List of all ePIs associated with pelmeg"
+
+* subject = Reference(mpab3a184996cea302e59647db130d449b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#pelmeg "pelmeg"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-874f4746d25a4c3b8fa97e889d85be10) // pelmeg en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-874f4746d25a4c3b8fa97e889d85be10) // pelmeg da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-874f4746d25a4c3b8fa97e889d85be10
+InstanceOf: List
+
+* insert 874f4746d25a4c3b8fa97e889d85be10ListRuleset
+    

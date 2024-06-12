@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-092a7f5395bb9583ad450174eeb4a512
 InstanceOf: CompositionUvEpi
 Title: "Composition for cyramza Package Leaflet"
@@ -549,12 +552,672 @@ Other sources of information </p>
 
 
 
+Instance: composition-da-092a7f5395bb9583ad450174eeb4a512
+InstanceOf: CompositionUvEpi
+Title: "Composition for cyramza Package Leaflet"
+Description:  "Composition for cyramza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpeb9ed5c20285cff4d59eef8896c3477e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpeb9ed5c20285cff4d59eef8896c3477e
+* title = "TEST PURPOSES ONLY - cyramza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Cyramza 
+3. Sådan får du Cyramza 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cyramza is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cyramza is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cyramza er medicin til behandling af kræft. Det indeholder det aktive stof ramucirumab, som er et 
+monoklonalt antistof. Dette er specielt protein, som kan genkende og binde sig til et andet protein, der 
+findes i blodårerne – dette protein kaldes ”VEGF receptor 2”. Denne receptor bruges, når der dannes 
+nye blodårer. For at kræft kan vokse skal der dannes nye blodårer. Ved at binde sig til ”VEGF receptor 
+2” og blokere den, afskærer medicinen blodforsyningen til kræftcellerne.  </p>
+<p>Cyramza gives i kombination med paclitaxel, en anden kræftmedicin, til behandling af fremskreden 
+mavekræft (eller kræft i overgangen mellem spiserøret og mavesækken) hos voksne, hvis sygdom er 
+blevet værre efter behandling med medicin mod kræft. </p>
+<p>Cyramza bruges til behandling af fremskreden mavekræft (eller kræft i overgangen mellem spiserøret 
+og mavesækken) hos voksne, hvis sygdom er blevet værre efter behandling med medicin mod kræft, 
+og hvor behandling med Cyramza sammen med paclitaxel ikke er hensigtsmæssigt.  </p>
+<p>Cyramza bruges til behandling af fremskreden kræft i tyktarmen eller endetarmen hos voksne. Det 
+gives sammen med en medicinkombination kaldet ”FOLFIRI-kemoterapi”, som indeholder 
+fluoruracil, folinsyre og irinotecan. </p>
+<p>Cyramza gives i kombination med erlotinib, en anden kræftmedicin, til første behandling af avanceret 
+ikke-småcellet lungekræft hos voksne, når kræftcellene har specifikke forandringer (mutationer) i et 
+gen kaldet epidermal vækstfaktorreceptor. </p>
+<p>Cyramza gives i kombination med docetaxel, en anden kræftmedicin, til behandling af fremskreden 
+lungekræft hos voksne, hvis sygdom er blevet værre efter behandling med medicin mod kræft.  </p>
+<p>Cyramza bruges til behandling af leverkræft, der er fremskreden eller ikke kan fjernes ved operation, 
+hos voksne, som tidligere har været behandlet med et andet lægemiddel mod kræft (sorafenib) og som 
+har forhøjet niveau af et bestemt protein i blodet (alfaføtoprotein). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cyramza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cyramza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Cyramza 
+- hvis du er allergisk over for ramucirumab eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i afsnit 6). 
+- hvis røntgen viser, at der er et hulrum eller et hul i lungekræften, eller hvis lungekræften er tæt 
+på en større blodåre. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller sygeplejersken, før du får Cyramza, hvis du:</p>
+<ul>
+<li>
+<p>har en lidelse, som øger risikoen for blødning. Du skal også fortælle lægen, hvis du tager 
+medicin, som kan øge risikoen for blødning, eller som påvirker blodets evne til at størkne. I 
+sådanne tilfælde vil lægen tage regelmæssige blodprøver for at overvåge risikoen for blødning. </p>
+</li>
+<li>
+<p>har leverkræft og tidligere har haft blødning fra forstørrede årer i spiserøret (øsofagus) eller har 
+højt blodtryk i portåren (blodåren, som fører blodet fra tarmen og milten til leveren). </p>
+</li>
+<li>
+<p>har lungekræft og for nyligt har haft blødning i lungerne (ophostning af lyst rødt blød), eller 
+hvis du regelmæssigt tager visse typer gigtmedicin eller smertestillende medicin (nonsteroid 
+anti-inflammatorisk medicin) eller medicin, som påvirker blodets størkningsevne.   </p>
+</li>
+<li>
+<p>har forhøjet blodtryk. Cyramza kan øge forekomsten af forhøjet blodtryk. Lægen vil sørge for, 
+at hvis du allerede har forhøjet blodtryk, vil det blive bragt under kontrol inden påbegyndelse af 
+behandlingen med Cyramza. Lægen vil overvåge dit blodtryk og justere din blodtryksmedicin 
+efter behov under behandlingen med Cyramza. Det kan være nødvendigt at stoppe behandlingen 
+med Cyramza midlertidigt, indtil det forhøjede blodtryk er bragt under kontrol med medicin, 
+eller stoppe behandlingen permanent, hvis det ikke er muligt at opnå tilstrækkelig kontrol med 
+blodtrykket.  </p>
+</li>
+<li>
+<p>Hvis du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i 
+en blodårevæg.  </p>
+</li>
+<li>
+<p>skal gennemgå en planlagt operation, hvis du for nyligt har gennemgået en operation, eller hvis 
+du har ringe sårheling efter operation. Cyramza kan øge risikoen for problemer med sårheling. 
+Du bør ikke få Cyramza i mindst 4 uger inden en planlagt operation, og lægen beslutter, hvornår 
+behandlingen skal genoptages. Hvis du under behandlingen får et sår, som har svært ved at hele, 
+vil behandlingen med Cyramza blive stoppet, indtil såret er komplet helet.  </p>
+</li>
+<li>
+<p>har alvorlig leversygdom ("cirrose") og relaterede lidelser som f.eks. uforholdsmæssig stor 
+væskeophobning i maveregionen ("ascites"). Lægen vil tale med dig om, hvorvidt de potentielle 
+fordele ved behandlingen skønnes at opveje de potentielle risici for dig. Hvis du har leverkræft, 
+vil din læge overvåge dig for tegn og symptomer på forvirring og/eller desorientering forbundet 
+med kroniske leverproblemer. Hvis du udvikler disse tegn og symptomer, vil din læge stoppe 
+behandlingen med Cyramza. </p>
+</li>
+<li>
+<p>har alvorlige nyreproblemer. Der er begrænsede data tilgængelige om brug af Cyramza hos 
+patienter med alvorligt nedsat nyrefunktion. </p>
+</li>
+</ul>
+<p>Du skal straks kontakte din læge eller sygeplejerske, hvis et eller flere af følgende punkter er 
+relevante for dig (eller du er i tvivl) under behandlingen med Cyramza eller til enhver tid 
+efterfølgende:</p>
+<ul>
+<li>Arterierne blokeres af en blodprop ("arterielle tromboemboliske hændelser"): </li>
+</ul>
+<p>Cyramza kan forårsage blodpropper i arterierne. Arterielle blodpropper kan føre til alvorlige 
+lidelser, herunder hjerteanfald eller slagtilfælde. Symptomer på et hjerteanfald kan omfatte 
+brystsmerter eller tyngdefornemmelse i brystkassen. Symptomer på slagtilfælde kan omfatte 
+pludselig følelsesløshed eller svaghed i armen, benet og ansigtet, følelse af forvirring, 
+talebesvær eller problemer med at forstå andre, pludselige problemer med at gå eller tab af 
+balance eller koordination eller pludselig svimmelhed. Behandlingen med Cyramza vil blive 
+stoppet permanent, hvis du udvikler en blodprop i en arterie. </p>
+<ul>
+<li>
+<p>Et hul i tarmvæggen ("gastrointestinal perforation"): Cyramza kan øge risikoen for, at man 
+udvikler et hul i tarmvæggen. Symptomerne omfatter alvorlige mavesmerter, opkastning, feber 
+eller kulderystelser. Behandlingen med Cyramza vil blive stoppet permanent, hvis du udvikler 
+et hul i tarmvæggen. </p>
+</li>
+<li>
+<p>Alvorlig blødning: Cyramza kan øge risikoen for alvorlig blødning. Symptomerne kan være: 
+ekstrem træthed, svaghed, svimmelhed eller ændring i farven af afføringen. Behandlingen med 
+Cyramza vil blive stoppet permanent, hvis du oplever alvorlige blødning. </p>
+</li>
+<li>
+<p>Infusionsrelaterede reaktioner: Infusionsrelaterede reaktioner kan opstå under behandling 
+med Cyramza, fordi Cyramza gives som en intravenøs infusion via et drop (se afsnit 3). Din 
+læge eller sygeplejerske vil holde øje med bivirkninger under infusionen. Symptomerne kan 
+være: øget muskelspænding, rygsmerter, brystsmerter og/eller strammende fornemmelse i 
+brystregionen, kulderystelser, rødme, vejrtrækningsbesvær, hvæsende vejrtrækning samt 
+prikken og stikken eller følelsesløshed i hænder eller fødder. I alvorlige tilfælde kan 
+symptomerne omfatte åndedrætsbesvær forårsaget af forsnævrede luftveje og hurtigere 
+hjerteslag samt mathedsfølelse. Behandlingen med Cyramza vil blive stoppet permanent, hvis 
+du oplever en alvorlig infusionsrelateret reaktion. </p>
+</li>
+<li>
+<p>En sjælden men alvorlig hjernelidelse kaldet ‘posteriort reversibelt encefalopati-syndrom’ 
+eller ‘PRES’: Cyramza kan øge risikoen for at udvikle denne hjernelidelse. Symptomerne kan 
+inkludere anfald (kramper), hovedpine, kvalme, opkastning, blindhed eller nedsat 
+bevidsthedsniveau, med eller uden forhøjet blodtryk. Behandling med Cyramza vil blive 
+stoppet, hvis du udvikler denne hjernelidelse. </p>
+</li>
+<li>
+<p>Hjertesvigt: Når Cyramza gives i kombination med kemoterapi eller erlotinib kan risikoen for 
+hjertesvigt øges. Symptomerne kan omfatte svaghed og træthed, hævelse, samt væskeophobning 
+i lungerne, hvilket kan forårsage åndenød. Dine symptomer vil blive vurderet, og indstilling af 
+din behandling med Cyramza kan blive overvejet.  </p>
+</li>
+<li>
+<p>Unormale rørlignende forbindelser eller passager inde i kroppen ("fistler"): Cyramza kan 
+øge risikoen for unormale rørlignende forbindelser eller passager inde i kroppen mellem indre 
+organer og huden eller andet væv. Behandlingen med Cyramza vil blive stoppet permanent, hvis 
+du udvikler en fistel. </p>
+</li>
+<li>
+<p>Unormale urinprøver (‘proteinuri’): Cyramza kan øge risikoen for udvikling eller forværring 
+af unormale niveauer af protein i urinen. Der kan blive nødvendigt at stoppe behandlingen med 
+Cyramza midlertidigt, indtil mængden af protein i urinen falder. Derefter kan behandlingen 
+genoptages ved en lavere dosis eller stoppes permanenet, hvis mængden af protein i urinen ikke 
+nedsættes tilstrækkeligt.  </p>
+</li>
+<li>
+<p>Betændelse i munden (stomatitis): Når Cyramza gives i kombination med kemoterapi, kan det 
+øge risikoen for, at du får betændelse i munden. Symptomer på dette kan omfatte en brændende 
+følelse i munden, sår, blister eller hævelse. Din læge kan udskrive medicin, som kan afhjælpe 
+symptomerne. </p>
+</li>
+<li>
+<p>Feber eller infektion: Du kan få en temperatur på 38 ºC eller højere under behandlingen (da du 
+kan have færre hvide blodlegemer end normalt, hvilket er meget almindeligt). Symptomerne 
+kan omfatte svedtendens eller andre tegn på infektion, såsom hovedpine, smerter i lemmerne 
+eller nedsat appetit. Infektion kan blive alvorlig (blodforgiftning) og være dødelig.  </p>
+</li>
+<li>
+<p>Ældre personer med lungekræft: Din læge vil omhyggeligt vurdere, hvilken behandling der 
+passer bedst til dig.  </p>
+</li>
+</ul>
+<p>Børn og unge 
+Cyramza må ikke gives til patienter under 18 år, da der ikke foreligger information om, hvordan det 
+virker i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Cyramza 
+Fortæl det altid til lægen, hvis du tager anden medicin, for nyligt har taget anden medicin eller 
+planlægger at tage anden medicin. Dette gælder også håndkøbsmedicin og naturlægemidler. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid eller planlægger at blive gravid, skal 
+du fortælle det til din læge inden påbegyndelse af behandlingen. Du skal undgå at blive gravid under 
+behandlingen med dette lægemiddel og i mindst 3 måneder efter sidste dosis af Cyramza. Tal med din 
+læge om, hvad der er det bedste svangerskabsforebyggende middel for dig. </p>
+<p>Da Cyramza hæmmer udviklingen af nye blodkar, kan det nedsætte din mulighed for at blive gravid 
+eller opretholde en graviditet. Det kan også medføre skade på det ufødte barn. Du bør ikke bruge dette 
+lægemiddel under graviditet. Hvis du bliver gravid under behandlingen med Cyramza, vil din læge tale 
+med dig om, hvorvidt fordelen for dig ved behandlingen er større end en mulig risiko for dig eller det 
+ufødte barn. </p>
+<p>Det vides ikke, om medicinen udskilles i brystmælk og dermed kan påvirke et ammende spædbarn. 
+Derfor bør du ikke amme dit barn under behandlingen med Cyramza og i mindst 3 måneder efter 
+sidste dosis.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Cyramza påvirker ikke eller kun i ubetydelig grad din evne til at føre motorkøretøj eller betjene 
+maskiner. Hvis du oplever symptomer, der påvirker din evne til at koncentrere dig eller reagere, må du 
+ikke føre motorkøretøj eller betjene maskiner, før virkningen er forsvundet. </p>
+<p>Cyramza indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium i hvert 10 ml hætteglas, dvs. det er i 
+det væsentlige natrium-frit.<br />
+Dette lægemiddel indeholder ca. 85 mg natrium (hovedkomponent af madlavnings-/bordsalt) i hvert 
+50 ml hætteglas. Dette svarer til ca. 4 % af den anbefalede maximale daglige indtagelse af natrium for 
+en voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cyramza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cyramza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne kræftbehandling gives af en læge eller sygeplejerske. </p>
+<p>Dosering og hyppighed af indgivelse 
+Den rette mængde Cyramza, som er nødvendig for at behandle din sygdom, vil blive beregnet af din 
+læge eller sygehusapotekets farmaceut afhængigt af din legemsvægt.  </p>
+<p>Den anbefalede dosis af Cyramza til behandling af mavekræft, til behandling af fremskreden kræft i 
+tyktarmen eller endetarmen og til behandling af leverkræft er 8 mg pr. kilogram legemsvægt én gang 
+hver anden uge. </p>
+<p>Den anbefalede dosis af Cyramza til behandling af lungekræft er 10 mg pr. kilogram legemsvægt én 
+gang hver 2. uge når det gives i kombination med erlotinib, eller hver 3. uge når det gives i 
+kombination med docetaxel. </p>
+<p>Antallet af infusioner, som du vil få, afhænger af, hvordan du reagerer på behandlingen. Din læge vil 
+tale med dig om dette. </p>
+<p>Præmedicinering 
+Du vil muligvis få anden medicin for at nedsætte risikoen for en infusionsrelateret reaktion, inden du 
+får Cyramza. Hvis du oplever en infusionsrelateret reaktion under behandlingen med Cyramza, vil du 
+få medicin inden alle efterfølgende infusioner. </p>
+<p>Dosisjusteringer 
+Din læge eller sygeplejerske vil holde øje med bivirkninger under hver infusion.  </p>
+<p>Hvis du oplever en infusionsrelateret reaktion under behandlingen, øges den tid, det tager at indgive 
+infusionen, under resten af den pågældende infusion og ved alle efterfølgende infusioner.  </p>
+<p>Mængden af protein i urinen kontrolleres regelmæssigt under behandlingen. Afhængig af det målte 
+proteinindhold kan behandlingen med Cyramza blive stoppet midlertidigt. Når proteinindholdet i 
+urinen er faldet til et bestemt niveau, kan behandlingen genoptages ved en lavere dosis. </p>
+<p>Indgivelsesvej og anvendelsesmåde 
+Cyramza er et koncentrat til fremstilling af en infusionsvæske (også kaldet "sterilt koncentrat"). 
+Sygehusapotekets farmaceut, sygeplejerske eller læge har fortyndet indholdet i hætteglasset med 
+natriumchloridinfusionsvæske 9 mg/ml (0,9 %) inden brug. Lægemidlet gives som en infusion via et 
+drop over et tidsrum på ca. 60 minutter.  </p>
+<p>Behandlingen med Cyramza vil blive stoppet midlertidigt, hvis du:</p>
+<ul>
+<li>udvikler forhøjet blodtryk, indtil det er bragt under kontrol med blodtrykssænkende medicin </li>
+<li>udvikler problemer med sårheling, indtil såret er helet, eller inden en planlagt operation </li>
+<li>skal have en planlagt operation, 4 uger før operationen </li>
+</ul>
+<p>Behandlingen med Cyramza vil blive stoppet permanent, hvis du:</p>
+<ul>
+<li>udvikler en blodprop i en arterie </li>
+<li>udvikler et hul i tarmvæggen </li>
+<li>får alvorlig blødning </li>
+<li>får en alvorlig infusionsrelateret reaktion </li>
+<li>udvikler forhøjet blodtryk, som ikke kan kontrolleres med medicin </li>
+<li>udskiller mere end en vis mængde protein i urinen, eller hvis De udvikler en alvorlig 
+nyresygdom (nefrotisk syndrom) </li>
+<li>udvikler unormale rørlignende forbindelser eller passager inde i kroppen mellem indre organer 
+og huden eller andet væv (fistler) </li>
+<li>udvikler forvirring og/eller bliver desorienteret i forbindelse med kroniske leverproblemer </li>
+<li>nedsat nyrefunktion (i forbindelse med leversvigt) </li>
+</ul>
+<p>Når du får Cyramza i kombination med paclitaxel eller docetaxel 
+Paclitaxel og docetaxel gives også ind i en vene via et drop (intravenøs infusion) over et tidsrum på ca. 
+60 minutter. Hvis du får Cyramza i kombination med enten paclitaxel eller docetaxel på den samme 
+dag, vil du få Cyramza først. </p>
+<p>Den nødvendige mængde paclitaxel eller docetaxel afhænger af din legemsoverflade. Din læge eller 
+sygehusapotekets farmaceut beregner din legemsoverflade ved at måle højde og vægt og beregner 
+herefter den rette dosis til dig.<br />
+Den anbefalede dosis paclitaxel er 80 mg for hver kvadratmeter (m²) legemsoverflade én gang 
+ugentligt i 3 uger efterfulgt af 1 uge uden behandling.<br />
+Den anbefalede dosis af docetaxel er 75 mg for hver kvadratmeter (m²) kropsoverflade én gang hver 
+3. uge. Hvis du er af østasiatisk oprindelse vil du måske få en reduceret startdosis af docetaxel på<br />
+60 mg for hver m2 legemsoverflade én gang hver 3. uge. </p>
+<p>Inden du får en infusion med paclitaxel, vil du få taget blodprøver for at kontrollere, at dine 
+blodværdier er høje nok, og at din lever fungerer tilfredsstillende. </p>
+<p>Læs indlægssedlen for paclitaxel eller docetaxel for yderligere information. </p>
+<p>Når du får Cyramza i kombination med FOLFIRI 
+FOLFIRI-kemoterapi gives som intravenøs infusion, efter Cyramza-infusionen er færdig. Du bør læse 
+indlægssedlerne for de andre lægemidler, som er en del af din behandling, så du kan vurdere, om de er 
+passende for dig. Hvis du er i tvivl, skal du spørge din læge eller sundhedspersonalet, om der kan være 
+nogle grunde til, at du ikke kan få disse lægemidler. </p>
+<p>Når du får Cyramza i kombination med erlotinib 
+Læs indlægssedlen til erlotinib for information om erlotinib og om det er egnet til dig. Tal med din 
+læge, apoteket eller sygeplejerske, hvis du er usikker på om der findes nogen grund til at du ikke kan 
+bruge erlotinib. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl straks din læge, hvis du oplever en eller flere af de følgende alvorlige bivirkninger, som er 
+observeret under behandling med Cyramza (se også Det skal du vide, før du får Cyramza): </p>
+<p>Almindelige bivirkninger (kan ramme op til 1 ud af 10 personer):</p>
+<ul>
+<li>hul i tarmvæggen: dette er et hul, som udvikler sig i mavesækken eller tarmen. Symptomerne 
+omfatter alvorlige mavesmerter, opkastning, feber eller kulderystelser. </li>
+<li>alvorlig blødning i tarmen: symptomerne kan omfatte ekstrem træthed, svaghed, svimmelhed 
+eller ændring i farven af afføringen. </li>
+<li>blodpropper i arterierne: arterielle blodpropper kan medføre hjerteanfald eller slagtilfælde. 
+Symptomer på et hjerteanfald kan omfatte brystsmerter eller tyngdefornemmelse i brystkassen. 
+Symptomer på slagtilfælde kan omfatte pludselig følelsesløshed eller svaghed i armen, benet og 
+ansigtet, følelse af forvirring, talebesvær eller problemer med at forstå andre, pludselige 
+problemer med at gå eller tab af balance eller koordination eller pludselig svimmelhed. </li>
+</ul>
+<p>Sjældne bivirkninger (kan ramme op til 1 ud af 1.000 personer):</p>
+<ul>
+<li>En hjernelidelse kaldet posteriort reversibelt encefalopati-syndrom: symptomerne kan 
+inkludere anfald (kramper), hovedpine, kvalme, opkastning, blindhed eller nedsat 
+bevidsthedsniveau, med eller uden forhøjet blodtryk. </li>
+</ul>
+<p>Fortæl det til din læge, hvis du oplever nogen af følgende andre bivirkninger: </p>
+<p>Meget almindelige bivirkninger (kan ramme mere end 1 ud af 10 personer):</p>
+<ul>
+<li>trætheds- eller svaghedsfornemmelse </li>
+<li>lavt antal hvide blodlegemer (kan øge risikoen for infektion) </li>
+<li>infektioner </li>
+<li>diarré </li>
+<li>hårtab </li>
+<li>næseblod </li>
+<li>betændelse i mundens slimhinde </li>
+<li>forhøjet blodtryk  </li>
+<li>reduktion i røde blodlegemer, som kan gøre huden bleg </li>
+<li>hævede hænder, fødder og ben på grund af væskeophobning </li>
+<li>lavt antal blodplader (blodceller, som hjælper blodet til at størkne)  </li>
+<li>mavesmerter </li>
+<li>protein i urinen (unormale urinprøver) </li>
+<li>hovedpine </li>
+<li>betændelse i slimhinderne, såsom i fordøjelseskanalen og luftvejene </li>
+</ul>
+<p>Almindelige bivirkninger (kan ramme op til 1 ud af 10 personer):</p>
+<ul>
+<li>feber ledsaget af et lavt antal hvide blodlegemer </li>
+<li>lave niveauer i blodet af det protein, der hedder albumin </li>
+<li>infusionrelaterede reaktioner </li>
+<li>udslæt </li>
+<li>rødme, hævelse, følelsesløshed/prikkende følelse, eller smerte og/eller afskalning af huden på 
+hænder og fødder (hånd-fod-syndrom) </li>
+<li>hæshed </li>
+<li>blødning i lungerne </li>
+<li>lavt natriumindhold i blodet (hyponatriæmi), som kan medføre træthed og forvirring eller 
+muskeltrækninger </li>
+<li>tandkødsblødning </li>
+<li>forvirring og/eller desorientering hos patienter med kroniske leverproblemer </li>
+<li>blokering af tarmen; symptomerne kan omfatte forstoppelse og mavesmerter </li>
+<li>lav skjoldbruskkirtelfunktion, hvilket kan forårsage træthed eller vægtøgning (hypothyroidisme) </li>
+<li>unormal vækst af blodkar </li>
+<li>alvorlig infektion (blodforgiftning)  </li>
+<li>lavt kaliumindhold i blodet (hypokaliæmi), som kan medføre muskelsvaghed, muskeltrækninger 
+eller unormal hjerterytme  </li>
+</ul>
+<p>Ikke almindelige bivirkninger (Kan ramme op til 1 ud af 100 personer):</p>
+<ul>
+<li>En hjertetilstand hvor hjertemuskulaturen ikke pumper blodet så godt som det skal, hvilket medfører 
+åndenød og hævelse i ben og fødder. </li>
+</ul>
+<p>Sjældne bivirkninger (kan ramme op til 1 ud af 1.000 personer):</p>
+<ul>
+<li>unormal blodkoagulation i små blodkar </li>
+</ul>
+<p>Ikke kendt (hyppighed kan ikke estimeres ud fra foreliggende data):</p>
+<ul>
+<li>En udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner). </li>
+</ul>
+<p>Cyramza kan være årsag til ændrede laboratorieprøver. På listen over bivirkninger herover, udgør 
+disse: Lavt antal hvide blodlegemer, lavt antal blodplader i blodet, lavt indhold i blodet af albumin, 
+kalium eller natrium, tilstedeværelse af protein i urinen. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cyramza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cyramza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre æske og etiketten på hætteglasset efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 ºC – 8 ºC). 
+Må ikke nedfryses.<br />
+Opbevar hætteglasset i yderpakningen for at beskytte mod lys. </p>
+<p>Infusionsopløsningen må ikke nedfryses eller rystes. Opløsningen må ikke indgives, hvis De 
+observerer partikler eller misfarvning. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cyramza indeholder:</p>
+<ul>
+<li>Aktivt stof: ramucirumab. Én ml koncentrat til infusionsvæske, opløsning indeholder 10 mg 
+ramucirumab. </li>
+<li>Hvert 10 ml hætteglas indeholder 100 mg ramucirumab.  </li>
+<li>Hvert 50 ml hætteglas indeholder 500 mg ramucirumab.  </li>
+<li>Øvrige indholdsstoffer: histidin, histidinhydrochlorid, natriumchlorid, glycin (E640), polysorbat 
+80 (E433) og vand til injektionsvæsker (se afsnit 2 "Cyramza indeholder natrium"). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Koncentratet til infusionsvæske, opløsning (eller sterilkoncentratet) er en klar til let opaliserende og 
+farveløs til let gul opløsning i et hætteglas med gummiprop. </p>
+<p>Cyramza fås i pakninger med:</p>
+<ul>
+<li>1 hætteglas med 10 ml </li>
+<li>2 hætteglas med 10 ml </li>
+<li>1 hætteglas med 50 ml </li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Eli Lilly Nederland B.V. 
+Papendorpseweg 83<br />
+3528 BJ Utrecht<br />
+Holland </p>
+<p>Fremstiller 
+Lilly, S.A. 
+Avda de la Industria, Alcobendas 
+28108 Madrid 
+Spanien </p>
+<p>Lilly France Fegersheim 
+2 rue du Colonel Lilly 
+67640 Fegersheim 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84<br />
+Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649 
+България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41<br />
+Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664<br />
+Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60<br />
+Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2 
+Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V.<br />
+Tel: +372 6 817<br />
+Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18 Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4 
+Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Lilly S.A. 
+Tel: + 34-91 663 50<br />
+Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France 
+Tél: +33-(0) 1 55 49 34<br />
+Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350<br />
+România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 
+Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00 Ísland 
+Icepharma hf. 
+Sími + 354 540 8 
+Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42 
+Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715 
+Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Tel: +371 67364 
+United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4Denne indlægsseddel blev senest ændret. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er kun tiltænkt læger og sundhedspersonale: </p>
+<p>Ryst ikke hætteglasset. </p>
+<p>Klargør infusionsopløsningen ved anvendelse af aseptisk teknik for at sikre steriliteten af den 
+klargjorte opløsning. </p>
+<p>Hvert hætteglas er kun beregnet til engangsbrug. Kontroller indholdet af hætteglassene for partikler og 
+misfarvning (koncentratet til infusionsvæske, opløsning skal være klart til let opaliserende og farveløst 
+til let gult uden synlige partikler) inden fortynding. Hvis der observeres partikler eller misfarvning, 
+skal hætteglasset bortskaffes. </p>
+<p>Beregn den dosis og volumen af ramucirumab, som skal bruges til at klargøre infusionsopløsningen. 
+Hætteglas indeholder enten 100 mg eller 500 mg som en 10 mg/ml opløsning ramucirumab. Brug kun 
+9 mg/ml (0,9 %) natriumchloridinjektionsvæske som fortyndingsmiddel. </p>
+<p>Ved anvendelse af fyldt intravenøs infusionsbeholder 
+Ud fra den beregnede mængde ramucirumab fjernes den tilsvarende mængde 9 mg/ml (0,9 %) 
+natriumchloridinjektionsvæske fra den fyldte 250 ml intravenøse beholder. Under aseptiske forhold 
+overføres den beregnede mængde ramucirumab til den intravenøse beholder. Den endelige totale 
+mængde i beholderen skal være 250 ml. Beholderen skal forsigtigt vendes op og ned for at sikre, at 
+væsken blandes tilstrækkeligt. Infusionsopløsningen MÅ IKKE NEDFRYSES ELLER RYSTES. MÅ 
+IKKE fortyndes med andre opløsninger eller infunderes samtidig med andre elektrolytter eller 
+lægemidler. </p>
+<p>Ved anvendelse af tom intravenøs infusionsbeholder: 
+Under aseptiske forhold overføres den beregnede mængde ramucirumab til den tomme intravenøse 
+infusionsbeholder. Tilsæt en tilstrækkelig mængde 9 mg/ml (0,9 %) natriumchloridinjektionsvæske til 
+beholderen, så den samlede mængde bliver 250 ml. Beholderen skal forsigtigt vendes op og ned for at 
+sikre, at væsken blandes tilstrækkeligt. Infusionsopløsningen MÅ IKKE NEDFRYSES ELLER 
+RYSTES. MÅ IKKE fortyndes med andre opløsninger eller infunderes samtidig med andre 
+elektrolytter eller lægemidler. </p>
+<p>Efter fortynding og klargøring skal lægemidlet anvendes straks. Hvis det ikke anvendes straks, er 
+brugeren ansvarlig for opbevaringstiden i brug og betingelserne inden brug, som normalt ikke vil være 
+mere end 24 timer ved 2 ºC til 8 ºC. </p>
+<p>Parenterale lægemiddelprodukter skal kontrolleres visuelt for partikler før indgivelse. Hvis der 
+observeres partikler, skal infusionsopløsningen bortskaffes. </p>
+<p>Eventuelt ubrugt ramucirumab, som er tilbage i et hætteglas, skal bortskaffes, da produktet ikke 
+indeholder antimikrobielle konserveringsmidler. </p>
+<p>Indgives via infusionspumpe. Der skal anvendes en separat infusionsslange med et proteinbesparende 
+0,22 mikron filter til infusionen, og slangen skal skylles med 9 mg/ml (0,9 %) 
+natriumchloridinjektionsvæske efter infusionen. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-092a7f5395bb9583ad450174eeb4a512
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cyramza Package Leaflet for language en"
+Description: "ePI document Bundle for cyramza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-092a7f5395bb9583ad450174eeb4a512"
+* entry[0].resource = composition-en-092a7f5395bb9583ad450174eeb4a512
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp092a7f5395bb9583ad450174eeb4a512"
+* entry[=].resource = mp092a7f5395bb9583ad450174eeb4a512
+                            
+                    
+Instance: bundlepackageleaflet-da-092a7f5395bb9583ad450174eeb4a512
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cyramza Package Leaflet for language da"
+Description: "ePI document Bundle for cyramza Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-092a7f5395bb9583ad450174eeb4a512"
+* entry[0].resource = composition-da-092a7f5395bb9583ad450174eeb4a512
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp092a7f5395bb9583ad450174eeb4a512"
+* entry[=].resource = mp092a7f5395bb9583ad450174eeb4a512
+                            
+                    
+
+
+
+Instance: mp092a7f5395bb9583ad450174eeb4a512
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cyramza 10 mg/ml concentrate for solution for infusion"
-Description: "Cyramza 10 mg/ml concentrate for solution for infusion"
+Title: "Medicinal Product cyramza"
+Description: "cyramza"
 Usage: #inline
 
  
@@ -574,7 +1237,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cyramza 10 mg/ml concentrate for solution for infusion"
+  * productName = "cyramza"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -601,29 +1264,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-092a7f5395bb9583ad450174eeb4a512
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cyramza Package Leaflet for language en"
-Description: "ePI document Bundle for cyramza Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 092a7f5395bb9583ad450174eeb4a512ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/957/001-003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cyramza"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-092a7f5395bb9583ad450174eeb4a512"
-* entry[0].resource = composition-en-092a7f5395bb9583ad450174eeb4a512
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpeb9ed5c20285cff4d59eef8896c3477e"
-* entry[=].resource = mpeb9ed5c20285cff4d59eef8896c3477e
-                            
-                      
+* title = "List of all ePIs associated with cyramza"
+
+* subject = Reference(mpeb9ed5c20285cff4d59eef8896c3477e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cyramza "cyramza"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-092a7f5395bb9583ad450174eeb4a512) // cyramza en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-092a7f5395bb9583ad450174eeb4a512) // cyramza da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-092a7f5395bb9583ad450174eeb4a512
+InstanceOf: List
+
+* insert 092a7f5395bb9583ad450174eeb4a512ListRuleset
+    

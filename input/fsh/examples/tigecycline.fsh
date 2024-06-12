@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f40a84cb5d324bdca9e9009c23b60458
 InstanceOf: CompositionUvEpi
 Title: "Composition for tigecycline Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpadc2e3b0068119ca7927b0c4b6f914e3)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -314,9 +317,309 @@ physical in-use stability.  </p>
 
 
 
+Instance: composition-da-f40a84cb5d324bdca9e9009c23b60458
+InstanceOf: CompositionUvEpi
+Title: "Composition for tigecycline Package Leaflet"
+Description:  "Composition for tigecycline Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpadc2e3b0068119ca7927b0c4b6f914e3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - tigecycline"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Tigecycline Accord 
+3. Sådan skal du bruge Tigecycline Accord 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tigecycline is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tigecycline is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tigecycline Accord er et antibiotikum tilhørende glycylcyklingruppen, som virker ved at stoppe den 
+bakterievækst, der forårsager infektioner. </p>
+<p>Din læge har ordineret Tigecycline Accord, fordi du eller dit barn på mindst 8 år har én af følgende 
+alvorlige infektioner:</p>
+<ul>
+<li>Komplicerede infektioner i hud- og bløddele (det væv, som findes under huden) med undtagelse 
+af infektioner i fødderne hos personer med sukkersyge. </li>
+<li>Komplicerede maveinfektioner </li>
+</ul>
+<p>Tigecycline Accord anvendes kun, når din læge mener, at andre antibiotika er uegnede. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tigecycline"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tigecycline"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen kan have foreskrevet anden anvendelse eller dosering end angivet i denne information. Følg 
+altid lægens anvisning og oplysningerne på doseringsetiketten.  </p>
+<p>Brug ikke Tigecycline Accord 
+- Hvis du er allergisk over for tigecyclin eller et af de øvrige indholdsstoffer i Tigecycline Accord 
+(angivet i punkt 6).  Hvis du er allergisk over for antibiotika i tetracyklingruppen (f.eks. 
+minocyklin, doxycyklin etc.), er du måske allergisk over for tigecyclin. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller sygeplejersken, før du bruger Tigecycline Accord:</p>
+<ul>
+<li>Hvis du har dårlig eller langsom sårheling. </li>
+<li>Hvis du lider af diarré, før du får Tigecycline Accord. Hvis du får diarré under eller efter 
+behandlingen med Tigecycline Accord, skal du straks kontakte lægen. Du må ikke tage noget 
+medicin mod diarré uden først at have rådført dig med lægen.  </li>
+</ul>
+<p>26
+- Hvis du har eller tidligere har haft bivirkninger som følge af antibiotika tilhørende 
+tetracyklinklassen (f.eks. øget følsomhed i huden over for sollys, misfarvning under 
+tandudviklingen, betændelse i bugspytkirtlen og ændring af visse laboratorieværdier ved måling 
+af blodets størkningsevne). 
+- Hvis du har eller tidligere har haft leverproblemer. Afhængig af leverens tilstand kan lægen 
+eventuelt reducere dosis for at undgå mulige bivirkninger. 
+- Hvis du har en blokering af galdegangene (kolestase). 
+- Hvis De lider af en blødningsforstyrrelse eller er i behandling med blodfortyndende medicin, 
+eftersom dette lægemiddel kan påvirke blodstørkningen. </p>
+<p>Under behandling med Tigecycline Accord 
+- Fortæl det straks til lægen, hvis du får symptomer på overfølsomhed. 
+- Fortæl det straks til lægen, hvis du får stærke mavesmerter, kvalme og opkastning. Det kan være 
+symptomer på akut betændelse i bugspytkirtlen. 
+- Ved visse alvorlige infektioner kan lægen overveje at bruge Tigecycline Accord i kombination 
+med andre antibiotika. 
+- Lægen vil overvåge dig nøje for at se, om du udvikler andre infektioner. Hvis du udvikler en 
+anden infektion, vil lægen måske ordinere et andet antibiotikum. 
+- Selv om antibiotika, herunder Tigecycline Accord, bekæmper visse bakterier, kan andre 
+bakterier og svampe fortsætte med at vokse. Dette kaldes overvækst. Lægen vil kontrollere, om 
+du har andre infektioner, og behandle dig, hvis det er nødvendigt. </p>
+<p>Børn<br />
+Børn under 8 år må ikke få Tigecycline Accord, da der mangler data om sikkerhed og virkning hos 
+denne aldersgruppe, og fordi det kan medføre permanente skader på tænderne som f.eks. misfarvning 
+af tænder under udvikling. </p>
+<p>Brug af anden medicin sammen med Tigecycline Accord 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin.  </p>
+<p>Tigecycline Accord kan påvirke blodets størkningsevne. Det er vigtigt at fortælle det til lægen, hvis du 
+tager medicin som hindrer for hurtig størkning af blodet (kaldet antikoagulantia). Hvis du gør det, vil 
+lægen undersøge dig omhyggeligt. </p>
+<p>Tigecycline Accord påvirker muligvis effekten af p-piller. Tal med lægen om behovet for anden form 
+for prævention, mens du får Tigecycline Accord. </p>
+<p>Tigecycline Accord kan øge virkningen af lægemidler, der bruges til at undertrykke immunsystemet 
+(herunder tacrolimus eller ciclosporin). Det er vigtigt, at De fortæller lægen, hvis De tager disse 
+lægemidler, så De kan blive nøje overvåget.  </p>
+<p>Graviditet og amning 
+Tigecycline Accord forårsager muligvis fosterskader. Hvis du er gravid eller ammer, har mistanke om, 
+at du er gravid, eller planlægger at blive gravid, skal du spørge din læge til råds, før du tager dette 
+lægemiddel. </p>
+<p>Det vides ikke, om tigecycline udskilles i modermælk. Spørg din læge, før du ammer dit barn. </p>
+<p>Trafik- og arbejdssikkerhed 
+Tigecycline Accord kan forårsage bivirkninger som svimmelhed. Dette kan påvirke din evne til at køre 
+bil eller betjene maskiner. </p>
+<p>Tigecycline Accord indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas og er derfor stort set 
+natriumfrit. </p>
+<p>27</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tigecycline"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tigecycline"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Tigecycline Accord af en læge eller sygeplejerske. </p>
+<p>Den anbefalede startdosis til voksne er 100 mg og derefter 50 mg hver 12. time. Denne dosis gives 
+intravenøst (direkte ind i blodåren) over et tidsrum på 30-60 minutter. </p>
+<p>Den anbefalede dosis til børn i alderen 8 til &lt;12 år er 1,2 mg/kg, som gives intravenøst hver 12. time 
+op til en maksimumdosis på 50 mg hver 12. time. </p>
+<p>Den anbefalede dosis til unge i alderen 12 til &lt;18 år er 50 mg hver 12. time.  </p>
+<p>En behandling varer almindeligvis 5-14 dage. Lægen vil beslutte, hvor længe du skal behandles. </p>
+<p>Hvis du har brugt for meget Tigecycline Accord 
+Hvis du tror, at du har fået for meget Tigecycline Accord, skal du straks kontakte lægen eller 
+sygeplejersken. </p>
+<p>Hvis du har glemt at bruge Tigecycline Accord 
+Hvis du tror, at du har glemt at få en dosis, skal du straks kontakte lægen eller sygeplejersken. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Pseudomembranøs kolit kan opstå ved brug af de fleste antibiotika, herunder Tigecycline Accord. Det 
+er en tilstand med alvorlig, vedvarende eller blodig diaré ledsaget af mavesmerter eller feber. Det kan 
+være tegn på en alvorlig tarmbetændelse, som kan forekomme under eller efter behandlingen. </p>
+<p>Meget almindelige bivirkninger: Kan forekomme hos flere end 1 ud af 10 patienter:</p>
+<ul>
+<li>Kvalme, opkastning, diarré. </li>
+</ul>
+<p>Almindelige bivirkninger: Kan forekomme hos op til 1 ud af 10 patienter:</p>
+<ul>
+<li>Bylder, infektioner </li>
+<li>Nedsat evne til at få blodet til at størkne (ses ved blodprøver)   </li>
+<li>Svimmelhed </li>
+<li>Irritation i blodårerne pga. injektionen, inkl. smerte, inflammation, hævelse og størkning </li>
+<li>Mavesmerter, dyspepsi (mavegener og fordøjelsesbesvær), appetitløshed </li>
+<li>Forhøjede levertal, hyperbilirubinæmi (unormal høj koncentration af galdefarvestof i blodet) </li>
+<li>Kløe, udslæt </li>
+<li>Dårlig eller langsom sårheling </li>
+<li>Hovedpine </li>
+<li>Stigning i amylase, som er et enzym, der findes i spytkirtlerne og bugspytkirtlen, forhøjet 
+urinkvælstof i blodet </li>
+<li>Lungebetændelse </li>
+<li>Lavt blodsukker </li>
+<li>Blodforgiftning (alvorlig infektion i kroppen og blodbanen), septisk shock (alvorlig tilstand som 
+kan føre til svigt af mange organer og død som følge af blodforgiftning) </li>
+<li>Reaktioner på injektionsstedet (smerte, rødme, irritation) </li>
+<li>Nedsat indhold af protein i blodet. </li>
+</ul>
+<p>Ikke almindelige bivirkninger: Kan forekomme hos op til 1 ud af 100 patienter:</p>
+<ul>
+<li>Akut bugspytkirtelbetændelse (betændt bugspytkirtel som kan forårsage svære mavesmerter, 
+kvalme og opkastning) </li>
+<li>Gulsot (gulfarvning af huden), betændelse i leveren </li>
+</ul>
+<p>28
+- Lavt antal blodplader i blodet (hvilket kan medføre øget tendens til blødning og blå 
+mærker/blodansamlinger). </p>
+<p>Sjældne bivirkninger er (kan påvirke op til 1 ud af 1.000 personer):</p>
+<ul>
+<li>Lavt indhold af fibrinogen i blodet (et protein, der medvirker til blodets størkning). </li>
+</ul>
+<p>Bivirkninger, hvor hyppigheden ikke er kendt:</p>
+<ul>
+<li>Pludselige overfølsomhedsreaktioner (anafylaktiske/anafylaktoide reaktioner). Disse reaktioner 
+kan variere fra milde til alvorlige og kan omfatte en pludseligt opstået overfølsomhedsreaktion i 
+hele kroppen, hvilket kan føre til livstruende shock (dvs. besvær med vejrtrækningen, 
+blodtryksfald, hurtig puls) </li>
+<li>Leversvigt </li>
+<li>Udslæt, som kan føre til svær blæredannelse og afskalning af huden (Stevens-Johnsons 
+syndrom) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tigecycline"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tigecycline"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. Brug ikke lægemidlet 
+efter den udløbsdato (EXP), der står på pakningen. Udløbsdatoen er den sidste dag i den nævnte 
+måned. </p>
+<p>Opbevaring efter tilberedelse 
+Rekonstitueret opløsning: Kemisk og fysisk stabilitet efter åbning er dokumenteret i 6 timer ved 
+20-25 °C. Ud fra et mikrobiologisk synspunkt skal præparatet bruges med det samme. Såfremt 
+præparatet ikke bruges med det samme, sker opbevaringstider og -betingelser på brugerens eget ansvar 
+og må ikke overstige ovenstående angivne tidsrum for kemisk og fysisk stabilitet efter åbning.  </p>
+<p>Fortyndet opløsning: Kemisk og fysisk stabilitet efter åbning er dokumenteret i 24 timer ved 20-25 °C 
+og 48 timer ved 2-8 °C. Ud fra et mikrobiologisk synspunkt skal præparatet bruges med det samme. 
+Såfremt præparatet ikke bruges med det samme, sker opbevaringstider og -betingelser på brugerens 
+eget ansvar og må ikke overstige ovenstående angivne tidsrum for kemisk og fysisk stabilitet efter 
+åbning. </p>
+<p>Tigecycline Accord-infusionsvæsken skal være gul til orange efter opløsning. Hvis det ikke er 
+tilfældet, må infusionsvæsken ikke anvendes. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>
+<p>29</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tigecycline Accord indeholder </p>
+<ul>
+<li>Aktivt stof: tigecyclin. Hvert hætteglas indeholder 50 mg tigecyclin. </li>
+<li>Øvrige indholdsstoffer: maltosemonohydrat, saltsyre og natriumhydroxid. </li>
+</ul>
+<p>Udseende og pakningsstørrelse 
+Tigecycline Accord leveres som et pulver til infusionsopløsning i et hætteglas og ligner et orange 
+pulver eller en orange masse, før det bliver opløst. Disse hætteglas leveres til hospitalet i en pakke 
+med 1 hætteglas eller 10 hætteglas. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Pulveret skal blandes i hætteglasset med en lille smule opløsning. Hætteglasset skal rystes forsigtigt, 
+indtil pulveret er opløst. Derefter skal opløsningen straks trækkes op af hætteglasset og overføres til en 
+100 ml infusionspose eller anden passende infusionsbeholder på hospitalet. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Accord Healthcare S.L.U.<br />
+World Trade Center,<br />
+Moll de Barcelona, s/n,<br />
+Edifici Est 6ª planta,<br />
+08039 Barcelona, Spanien </p>
+<p>Fremstiller 
+Accord Healthcare Polska Sp.z o.o. 
+ul. Lutomierska 50,<br />
+95-200 Pabianice 
+Polen </p>
+<p>Eller </p>
+<p>Laboratori Fundació Dau 
+C/ C, 12-14 Pol. Ind. 
+Zona Franca, Barcelona, 08040,<br />
+Spanien </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>30
+Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Instruktioner vedrørende anvendelse og håndtering (se også </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-f40a84cb5d324bdca9e9009c23b60458
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for tigecycline Package Leaflet for language en"
@@ -335,5 +638,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-f40a84cb5d324bdca9e9009c23b60458"
 * entry[0].resource = composition-en-f40a84cb5d324bdca9e9009c23b60458
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf40a84cb5d324bdca9e9009c23b60458"
+* entry[=].resource = mpf40a84cb5d324bdca9e9009c23b60458
+                            
+                    
+Instance: bundlepackageleaflet-da-f40a84cb5d324bdca9e9009c23b60458
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tigecycline Package Leaflet for language da"
+Description: "ePI document Bundle for tigecycline Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f40a84cb5d324bdca9e9009c23b60458"
+* entry[0].resource = composition-da-f40a84cb5d324bdca9e9009c23b60458
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf40a84cb5d324bdca9e9009c23b60458"
+* entry[=].resource = mpf40a84cb5d324bdca9e9009c23b60458
+                            
+                    
+
+
+
+Instance: mpf40a84cb5d324bdca9e9009c23b60458
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product tigecycline"
+Description: "tigecycline"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/19/1394/001  (10 vials)"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Tigecycline Accord  is indicated in adults and in children from the age of eight years for the treatment"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "tigecycline"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: f40a84cb5d324bdca9e9009c23b60458ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tigecycline"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with tigecycline"
+
+* subject = Reference(mpadc2e3b0068119ca7927b0c4b6f914e3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tigecycline "tigecycline"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f40a84cb5d324bdca9e9009c23b60458) // tigecycline en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f40a84cb5d324bdca9e9009c23b60458) // tigecycline da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f40a84cb5d324bdca9e9009c23b60458
+InstanceOf: List
+
+* insert f40a84cb5d324bdca9e9009c23b60458ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f820aac92043b070aeae10deaf85e116
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexium Package Leaflet"
@@ -400,12 +403,637 @@ Tel.: + 44 (0)800 783 8This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-f820aac92043b070aeae10deaf85e116
+InstanceOf: CompositionUvEpi
+Title: "Composition for nexium Package Leaflet"
+Description:  "Composition for nexium Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpebab6083d6cd13ba62849b692483c795)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpebab6083d6cd13ba62849b692483c795
+* title = "TEST PURPOSES ONLY - nexium"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Andre nyttige oplysninger </li>
+</ul>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Nexium Control </li>
+<li>Sådan skal du tage Nexium Control </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What nexium is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What nexium is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nexium Control indeholder det aktive stof esomeprazol. Det hører til en gruppe af lægemidler, der 
+kaldes "protonpumpehæmmere", der virker ved at nedsætte mavens produktion af syre. </p>
+<p>Dette lægemiddel anvendes til voksne til kortvarig behandling af reflukssymptomer (f.eks. halsbrand 
+og sure opstød). </p>
+<p>Refluks er tilbageløb af syre fra maven, som stiger op i spiserøret, der kan blive betændt og gøre ondt. 
+Refluks kan give symptomer såsom en smertefuld fornemmelse i brystet, som stiger op til halsen 
+(halsbrand) og en sur smag i munden (sure opstød). </p>
+<p>Nexium Control ikke beregnet til at give øjeblikkelig lindring. Det kan være nødvendigt at tage 
+tabletterne i 2-3 dage i træk, inden du får det bedre. Kontakt lægen, hvis du får det værre, eller hvis du 
+ikke får det bedre i løbet af 14 dage. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take nexium"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take nexium"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Nexium Control </p>
+<ul>
+<li>Hvis du er allergisk over for esomeprazol eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6) </li>
+<li>Hvis du er allergisk over for medicin, der indeholder andre protonpumpehæmmere (f.eks. 
+pantoprazol, lansoprazol, rabeprazol eller omeprazol) </li>
+<li>Hvis du tager en medicin, der indeholder nelfinavir (bruges til behandling af hiv-infektion) </li>
+</ul>
+<p>Du må ikke tage dette lægemiddel, hvis noget af det ovenstående gælder for dig. Hvis du er i tvivl, så 
+spørg din læge eller apotekspersonalet, inden du tager dette lægemiddel. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du tager Nexium Control, hvis: </p>
+<ul>
+<li>
+<p>Du har haft mavesår eller tidligere er blevet opereret i maven </p>
+</li>
+<li>
+<p>Du er i fortsat behandling for refluks eller halsbrand, i 4 uger eller længere </p>
+</li>
+<li>
+<p>Du har gulsot (gulfarvning af hud eller øjne) eller en alvorlig leversygdom </p>
+</li>
+<li>
+<p>Du har en alvorlig nyresygdom </p>
+</li>
+<li>
+<p>Du er over 55 år, og har nye eller nyligt forandrede reflukssymptomer eller må tage et ikke-
+receptpligtige middel mod dårlig fordøjelse eller halsbrand </p>
+</li>
+<li>
+<p>Du nogensinde har fået hudreaktioner efter at have taget et lægemiddel af samme slags som 
+Nexium Control, der nedsætter syreindholdet i maven </p>
+</li>
+<li>
+<p>Du skal have taget en endoskopi eller en urea-udåndingstest </p>
+</li>
+<li>
+<p>Du skal have taget en særlig blodprøve (Chromogranin A) </p>
+</li>
+</ul>
+<p>Kontakt straks lægen før eller efter du har taget Nexium Control, hvis du bemærker nogen af følgende 
+symptomer, som kan være tegn på en anden, mere alvorlig, sygdom. </p>
+<ul>
+<li>
+<p>Du taber dig meget uden grund </p>
+</li>
+<li>
+<p>Du har problemer eller smerter, når du synker </p>
+</li>
+<li>
+<p>Du har mavesmerter eller tegn på fordøjelsesbesvær, såsom kvalme, mæthedsfornemmelse, 
+oppustethed, især efter indtagelse af mad </p>
+</li>
+<li>
+<p>Du begynder at kaste mad op, eller du kaster blod op. Dette kan se ud som mørkt kaffegrums i 
+dit opkast </p>
+</li>
+<li>
+<p>Du har sort afføring (blod i afføringen) </p>
+</li>
+<li>
+<p>Du har alvorlig eller vedvarende diarré; esomeprazol er blevet forbundet med en let øget risiko 
+for infektiøs diarré </p>
+</li>
+<li>
+<p>Hvis du får udslæt, især på de dele af huden, der er udsat for sol, skal du snarest muligt sige det 
+til lægen, da du kan være nødt til at holde op med at tage Nexium Control. Husk også at nævne 
+andre negative virkninger såsom ledsmerter. </p>
+</li>
+</ul>
+<p>Søg straks læge, hvis du får smerter i brystet og samtidig er ør, hvis du oplever svimmelhed, har øget 
+svedtendens, eller hvis du får smerter i skulderen og samtidig har åndenød. Dette kan være tegn på 
+alvorlige hjerteproblemer.  </p>
+<p>Kontakt straks lægen, hvis noget af det ovenstående gælder for dig (eller hvis du er i tvivl). </p>
+<p>Børn og teenagere </p>
+<p>Denne medicin må ikke anvendes af børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Nexium Control </p>
+<p>Fortæl altid lægen eller på apoteket, hvis du tager anden medicin eller har gjort det for nylig. Dette 
+skyldes, at Nexium Control kan påvirke virkningen af nogle typer medicin, og nogle typer medicin kan 
+påvirke virkningen af Nexium Control.  </p>
+<p>Du må ikke tage denne medicin, hvis du også tager medicin, der indeholder nelfinavir (anvendes til 
+behandling af hiv-infektion). </p>
+<p>Det er særligt vigtigt, at du fortæller din læge eller apotekspersonalet, hvis du tager clopidogrel 
+(anvendes til forebyggelse af blodpropper). </p>
+<p>Du må ikke tage dette lægemiddel sammen med anden medicin, der begrænser produktionen af 
+mavesyre, såsom protonpumpehæmmere (f.eks. pantoprazol, lansoprazol, rabeprazol eller omeprazol) 
+eller en H2-antagonist (f.eks. ranitidin eller famotidin). </p>
+<p>Du må gerne tage dette lægemiddel samtidig med antacida (f.eks. magaldrat, alginsyre, 
+natriumbicarbonat, aluminiumhydroxid, magnesiumcarbonat eller en kombination af disse), hvis du 
+har behov for det. </p>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis du tager noget af følgende medicin: </p>
+<ul>
+<li>
+<p>Ketoconazol og itraconazol (anvendes til behandling af svampeinfektion) </p>
+</li>
+<li>
+<p>Vorinazol (anvendes til behandling af svampeinfektion) og clarithromycin (anvendes til 
+behandling af infektioner). Din læge kan tilpasse din dosis af Nexium Control, hvis du også har 
+alvorlige leverproblemer og bliver behandlet i en længere periode </p>
+</li>
+<li>
+<p>Erlotinib (anvendes til behandling af kræft) </p>
+</li>
+<li>
+<p>Methotrexat (anvendes til behandling af cancer og gigtlidelser) </p>
+</li>
+<li>
+<p>Digoxin (anvendes mod hjerteproblemer) </p>
+</li>
+<li>
+<p>Atazanavir, saquinavir (anvendes til behandling af hiv-infektion) </p>
+</li>
+<li>
+<p>Citalopram, imipramin eller clomipramin (anvendes til behandling af depression) </p>
+</li>
+<li>
+<p>Diazepam (anvendes til behandling af angst, muskelafslappende eller mod epilepsi) </p>
+</li>
+<li>
+<p>Phenytoin (anvendes til behandling af epilepsi) </p>
+</li>
+<li>
+<p>Blodfortyndende medicin, såsom warfarin. Det kan være nødvendigt for din læge at holde øje 
+med dig, når du starter og stopper med at tage Nexium Control </p>
+</li>
+<li>
+<p>Cilostazol (anvendes til behandling af claudicatio intermittens - en tilstand, hvor ringe 
+blodtilførsel til benmuskler forårsager smerter og vanskeligheder med at gå) </p>
+</li>
+<li>
+<p>Cisaprid (anvendes mod fordøjelsesbesvær og halsbrand) </p>
+</li>
+<li>
+<p>Rifampicin (anvendes til behandling af tuberkulose) </p>
+</li>
+<li>
+<p>Tacrolimus (anvendes ved organtransplantation) </p>
+</li>
+<li>
+<p>Perikum (Hypericum perforatum) (anvendes til behandling af depression) </p>
+</li>
+</ul>
+<p>Graviditet og amning </p>
+<p>Som en forebyggende foranstaltning bør du fortrinsvis undgå at bruge Nexium Control under 
+graviditet. Du må ikke bruge denne medicin under amning. 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Der er en lille sandsynlighed for, at Nexium Control kan påvirke din evne til at føre motorkøretøj eller 
+betjene maskiner. Bivirkninger såsom svimmelhed og synsforstyrrelser kan forekomme, men er ikke 
+almindelige bivirkninger (se pkt. 4). Hvis du er påvirket af dette, må du ikke føre motorkøretøj eller 
+betjene maskiner. </p>
+<p>Nexium Control indeholder saccharose og natrium </p>
+<p>Nexium Control indeholder sukkerkugler, som indeholder saccharose, en sukkerart. Kontakt lægen, før 
+du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>Nexium Control indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nexium"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nexium"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt som beskrevet i denne indlægsseddel eller efter lægens eller 
+apotekspersonalets anvisning. Er du i tvivl, så spørg lægen eller på apoteket. </p>
+<p>Så meget skal du tage </p>
+<ul>
+<li>
+<p>Den anbefalede dosis er 1 tablet om dagen </p>
+</li>
+<li>
+<p>Du må ikke tage mere end den anbefalede dosis på 1 tablet (20 mg) om dagen, selv om du ikke 
+straks mærker en forbedring </p>
+</li>
+<li>
+<p>Det kan være nødvendigt at tage tabletterne i 2 eller 3 dage i træk, inden dine reflukssymptomer. 
+(f.eks.halsbrand og sure opstød) forbedrer sig </p>
+</li>
+<li>
+<p>Behandlingslængden er op til 14 dage </p>
+</li>
+<li>
+<p>Stop med at tage dette lægemiddel, når dine reflukssymptomer er helt forsvundet </p>
+</li>
+<li>
+<p>Hvis dine reflukssymptomer bliver forværret eller ikke bliver forbedret, efter du har taget dette 
+lægemiddel i 14 dage i træk, skal du kontakte din læge </p>
+</li>
+</ul>
+<p>Hvis du har vedvarende eller længerevarende hyppigt tilbagevendende symptomer, selv efter 
+behandling med dette lægemiddel, skal du kontakte din læge.  </p>
+<p>Sådan skal du tage denne medicin </p>
+<ul>
+<li>
+<p>Du kan tage din tablet når som helst på dagen, enten sammen med mad eller på tom mave </p>
+</li>
+<li>
+<p>Slug tabletten hel med et halvt glas vand. Tabletten må ikke tygges eller knuses. Dette skyldes, 
+at tabletten indeholder overtrukne pellets, der sørger for, at medicinen ikke nedbrydes af din 
+mavesyre. Det er vigtigt ikke at ødelægge disse pellets </p>
+</li>
+</ul>
+<p>En anden måde at tage medicinen på </p>
+<ul>
+<li>
+<p>Læg tabletten i et glas vand uden brus. Du må ikke bruge andre væsker </p>
+</li>
+<li>
+<p>Rør rundt, indtil tabletten går i opløsning (blandingen vil ikke være gennemsigtig). Drik derefter 
+blandingen straks eller inden for 30 minutter. Rør altid i blandingen, lige inden du drikker den </p>
+</li>
+<li>
+<p>For at sikre, at du har drukket al medicinen, skal du skylle glasset godt med et halvt glas vand 
+og drikke det. De faste partikler indeholder medicin - de må ikke tygges eller knuses </p>
+</li>
+</ul>
+<p>Hvis du har taget for mange Nexium Control </p>
+<p>Kontakt straks lægen eller apoteket, hvis du har taget mere Nexium Control, end der står i denne 
+information, eller mere end lægen har foreskrevet. Du kan få symptomer, så som diarré, mavesmerter, 
+forstoppelse, kvalme eller opkastning og svaghed.  </p>
+<p>Hvis du har glemt at tage Nexium Control </p>
+<p>Hvis du glemmer en dosis, skal du tage den så snart, du kommer i tanke om det den samme dag. Du 
+må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Hvis du bemærker nogen af følgende alvorlige bivirkninger, skal du stoppe med at tage Nexium 
+Control og straks kontakte lægen: </p>
+<ul>
+<li>
+<p>Pludseligt åndedrætsbesvær, hævelse af læber, tunge og svælg, udslæt, besvimelse eller 
+synkebesvær (alvorlig allergisk reaktion, der ses sjældent) </p>
+</li>
+<li>
+<p>Rødmen af huden med blæredannelse eller afskalning. Der kan også være alvorlig 
+blæredannelse og blødning fra læber, øjne, mund, næse og kønsorganer. Dette kan være 
+“Stevens-Johnson syndrom" eller "toksisk epidermal nekrolyse", der ses meget sjældent </p>
+</li>
+<li>
+<p>Gullig hud, mørk urin og træthed, hvilket kan være symptomer på leverproblemer, der ses 
+sjældent </p>
+</li>
+</ul>
+<p>Kontakt lægen hurtigst muligt, hvis du oplever nogen af følgende tegn på infektion: </p>
+<p>Dette lægemiddel kan i sjældne tilfælde påvirke de hvide blodlegemer og føre til immundefekt. Hvis 
+du har en infektion med symptomer, såsom feber med alvorligt nedsat almen helbredstilstand eller 
+feber med symptomer på en lokal infektion, såsom smerter i nakke, hals eller mund eller besvær med 
+at lade vandet, skal du gå til lægen hurtigst muligt, så mangel på hvide blodlegemer (agranulocytose) 
+kan udelukkes med en blodprøve. Det er vigtigt, at du samtidig oplyser, hvilken medicin, du tager. </p>
+<p>Andre bivirkninger omfatter: </p>
+<p>Almindelig (forekommer hos mellem 1 og 10 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Påvirkning af mave eller tarm: diarré, mavesmerter, forstoppelse, luft i maven </p>
+</li>
+<li>
+<p>Kvalme eller opkastning </p>
+</li>
+<li>
+<p>Godartede polypper i mavesækken </p>
+</li>
+</ul>
+<p>Ikke almindelig (forekommer hos mellem 1 og 10 ud af 1.000 patienter) </p>
+<ul>
+<li>
+<p>Hævede fødder og ankler </p>
+</li>
+<li>
+<p>Forstyrret søvn (søvnløshed), træthedsfølelse </p>
+</li>
+<li>
+<p>Svimmelhed, snurrende fornemmelser, såsom prikken og stikken </p>
+</li>
+<li>
+<p>Følelse af, at det hele drejer rundt (svimmelhed) </p>
+</li>
+<li>
+<p>Mundtørhed </p>
+</li>
+<li>
+<p>Højere niveauer af leverenzymer i de blodprøver, der viser, hvordan leveren fungerer </p>
+</li>
+<li>
+<p>Hududslæt, bulet udslæt (nældefeber) og hudkløe </p>
+</li>
+</ul>
+<p>Sjælden (forekommer hos mellem 1 og 10 ud af 10.000 patienter) </p>
+<ul>
+<li>
+<p>Problemer med blodet, såsom nedsat antal hvide blodlegemer eller blodplader. Dette kan 
+forårsage svaghed, blå mærker eller en øget modtagelighed over for infektioner </p>
+</li>
+<li>
+<p>Lavt natriumindhold i blodet. Dette kan forårsage svaghed, opkastning og kramper </p>
+</li>
+<li>
+<p>Ophidset sindstilstand, forvirring eller depression </p>
+</li>
+<li>
+<p>Smagsforstyrrelser </p>
+</li>
+<li>
+<p>Synsproblemer, såsom sløret syn </p>
+</li>
+<li>
+<p>Pludseligt åndedrætsbesvær (bronkospasme) </p>
+</li>
+<li>
+<p>Betændelse i munden </p>
+</li>
+<li>
+<p>En infektion kaldet "trøske", der kan angribe fordøjelseskanalen, og som er forårsaget af svamp </p>
+</li>
+<li>
+<p>Hårtab (alopeci) </p>
+</li>
+<li>
+<p>Hududslæt ved udsættelse for sollys </p>
+</li>
+<li>
+<p>Ledsmerter (artralgi) eller muskelsmerter (myalgi) </p>
+</li>
+<li>
+<p>Generel utilpashed og manglende energi </p>
+</li>
+<li>
+<p>Øget svedtendens </p>
+</li>
+</ul>
+<p>Meget sjælden (forekommer hos færre end 1 ud af 10.000 patienter) </p>
+<ul>
+<li>
+<p>Lavt antal røde blodlegemer, hvide blodlegemer og blodplader (en sygdom, der kaldes 
+pancytopeni) </p>
+</li>
+<li>
+<p>Aggression </p>
+</li>
+<li>
+<p>Se, føle eller høre ting, der ikke er der (hallucinationer) </p>
+</li>
+<li>
+<p>Alvorlige leverproblemer, der fører til leversvigt og betændelse i hjernen </p>
+</li>
+<li>
+<p>Muskelsvaghed </p>
+</li>
+<li>
+<p>Alvorlige nyreproblemer </p>
+</li>
+<li>
+<p>Udvikling af bryster hos mænd </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>Lav magnesiumkoncentration i blodet. Dette kan forårsage svaghed, opkastning, kramper, 
+rysten og ændringer i hjerterytmen (arytmier). Hvis du har meget lave 
+magnesiumkoncentrationer, kan du også have lave koncentrationer af calcium og/eller kalium i 
+blodet </p>
+</li>
+<li>
+<p>Betændelse af mave-tarm-kanalen (medfører diarré) </p>
+</li>
+<li>
+<p>Udslæt, eventuelt med ledsmerter </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger  </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store nexium"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nexium"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nexium Control indeholder:</p>
+<ul>
+<li>Aktivt stof: esomeprazol. Én enterotablet indeholder 20 mg esomeprazol (som 
+magnesiumtrihydrat). </li>
+<li>Øvrige indholdsstoffer: glycerolmonostearat 40-55, hydroxypropylcellulose, hypromellose, 
+rødbrun jernoxid  (E172), gul jernoxid  (E172), magnesiumstearat, 
+methacrylsyre-ethylacrylatcopolymer (1:1) opløsning 30 %, mikrokrystallinsk cellulose, 
+syntetisk paraffin, macrogol 6000, polysorbat 80, crospovidon (Type A), natriumstearylfumarat, 
+sukkerkugler (saccharose og majsstivelse), talcum, titandioxid (E171) og triethylcitrat (se punkt 
+2, "Nexium Control indeholder saccharose og natrium"). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Nexium Control 20 mg enterotabletter er lyserøde, aflange, bikonvekse, 14mm x7 mm filmovertrukne, 
+mærket med “20 mG" på den ene side og A/EH på den anden side. </p>
+<p>Nexium Control fås i pakningsstørrelser med 7, 14 og 28  enterotabletter i blisterpakninger. </p>
+<p>Alle pakningsstørrelser er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+GlaxoSmithKline Dungarvan Limited, Knockbrack, Dungarvan, Co. Waterford, Irland.  </p>
+<p>Fremstiller<br />
+Haleon Italy Manufacturing S.r.l., Via Nettunense, 90, 04011, Aprilia (LT), Italien. </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>
+<hr />
+<p>ANDRE NYTTIGE OPLYSNINGER </p>
+<p>Hvad er symptomerne på halsbrand?  </p>
+<p>De typiske symptomer på refluks er en smertefuld fornemmelse i brystet, som stiger op til halsen 
+(halsbrand) og en sur smag i munden (sure opstød). </p>
+<p>Hvorfor får du disse symptomer? </p>
+<p>Halsbrand kan skyldes, at du har spist for meget, har spist mad med et højt fedtindhold, har spist for 
+hurtigt, eller at du har drukket meget alkohol.  Måske oplever du også, at din halsbrand forværres, når 
+du ligger ned.  Hvis du er overvægtig eller ryger, øger det sandsynligheden for halsbrand. </p>
+<p>Hvad kan jeg gøre for at lindre mine symptomer? </p>
+<ul>
+<li>
+<p>Spis sundere mad, forsøg at undgå krydret eller fed mad og store måltider sent om aftenen, 
+lige inden du går i seng. </p>
+</li>
+<li>
+<p>Undgå kulsyreholdige drikke, kaffe, chokolade og alkohol. </p>
+</li>
+<li>
+<p>Spis langsomt og spis mindre portioner </p>
+</li>
+<li>
+<p>Forsøg at tabe dig </p>
+</li>
+<li>
+<p>Hold op med at ryge </p>
+</li>
+</ul>
+<p>Hvornår skal jeg søge råd eller hjælp? </p>
+<ul>
+<li>
+<p>Du skal straks kontakte lægen, hvis du får smerter i brystet og samtidig er ør, hvis du oplever 
+svimmelhed, har øget svedtendens, eller hvis du får smerter i skulderen og samtidig har 
+åndenød. </p>
+</li>
+<li>
+<p>Hvis du får nogen af de symptomer, der er nævnt i punkt 2 i denne indlægsseddel, og hvis det 
+anbefales, at du kontakter lægen eller apotekspersonalet. </p>
+</li>
+<li>
+<p>Hvis du får nogen af bivirkningerne i punkt 4, som kræver lægehjælp. </p>
+</li>
+</ul>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Nexium Control 20 mg enterokapsler, hårde 
+esomeprazol </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<p>Tag altid dette lægemiddel nøjagtigt som beskrevet i denne indlægsseddel eller efter de anvisninger, 
+apotekspersonalet har givet dig. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg på apoteket, hvis der er mere, du vil vide. 
+- Kontakt lægen eller apoteket, hvis du får bivirkninger, herunder bivirkninger som ikke er nævnt 
+her. Se punkt 4. - Kontakt lægen, hvis du får det værre, eller hvis du ikke får det bedre i løbet af 14 dage.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f820aac92043b070aeae10deaf85e116
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nexium Package Leaflet for language en"
+Description: "ePI document Bundle for nexium Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f820aac92043b070aeae10deaf85e116"
+* entry[0].resource = composition-en-f820aac92043b070aeae10deaf85e116
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf820aac92043b070aeae10deaf85e116"
+* entry[=].resource = mpf820aac92043b070aeae10deaf85e116
+                            
+                    
+Instance: bundlepackageleaflet-da-f820aac92043b070aeae10deaf85e116
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nexium Package Leaflet for language da"
+Description: "ePI document Bundle for nexium Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f820aac92043b070aeae10deaf85e116"
+* entry[0].resource = composition-da-f820aac92043b070aeae10deaf85e116
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf820aac92043b070aeae10deaf85e116"
+* entry[=].resource = mpf820aac92043b070aeae10deaf85e116
+                            
+                    
+
+
+
+Instance: mpf820aac92043b070aeae10deaf85e116
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Nexium Control 20 mg gastro-resistant tablets"
-Description: "Nexium Control 20 mg gastro-resistant tablets"
+Title: "Medicinal Product nexium"
+Description: "nexium"
 Usage: #inline
 
  
@@ -425,7 +1053,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Nexium Control 20 mg gastro-resistant tablets"
+  * productName = "nexium"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -452,29 +1080,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f820aac92043b070aeae10deaf85e116
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for nexium Package Leaflet for language en"
-Description: "ePI document Bundle for nexium Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f820aac92043b070aeae10deaf85e116ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/860/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "nexium"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f820aac92043b070aeae10deaf85e116"
-* entry[0].resource = composition-en-f820aac92043b070aeae10deaf85e116
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpebab6083d6cd13ba62849b692483c795"
-* entry[=].resource = mpebab6083d6cd13ba62849b692483c795
-                            
-                      
+* title = "List of all ePIs associated with nexium"
+
+* subject = Reference(mpebab6083d6cd13ba62849b692483c795)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#nexium "nexium"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f820aac92043b070aeae10deaf85e116) // nexium en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f820aac92043b070aeae10deaf85e116) // nexium da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f820aac92043b070aeae10deaf85e116
+InstanceOf: List
+
+* insert f820aac92043b070aeae10deaf85e116ListRuleset
+    

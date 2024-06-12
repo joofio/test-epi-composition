@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-44b9456eb2913b31231c4ec15c3a0e75
 InstanceOf: CompositionUvEpi
 Title: "Composition for saphnelo Package Leaflet"
@@ -307,12 +310,582 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-44b9456eb2913b31231c4ec15c3a0e75
+InstanceOf: CompositionUvEpi
+Title: "Composition for saphnelo Package Leaflet"
+Description:  "Composition for saphnelo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8f27d0e8a5059b59f6cc8c6f27a202b8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8f27d0e8a5059b59f6cc8c6f27a202b8
+* title = "TEST PURPOSES ONLY - saphnelo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at bruge Saphnelo 
+3. Sådan skal du bruge Saphnelo 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What saphnelo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What saphnelo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Saphnelo<br />
+Saphnelo indeholder det aktive stof anifrolumab, et "monoklonalt antistof" (en type specialiseret 
+protein, der binder sig til et specifikt mål i kroppen).  </p>
+<p>Hvad bruges Saphnelo til 
+Saphnelo bruges til behandling af moderat til svær lupus (systemisk lupus erythematosus, SLE) hos 
+voksne, hvis sygdom ikke er velkontrolleret med standardbehandling ("orale kortikosteroider", 
+"immunsupprimerende midler" og/eller "malarialægemidler").  </p>
+<p>Du vil få Saphnelo sammen med din standardbehandling for lupus. </p>
+<p>Lupus er en sygdom, hvor systemet, der bekæmper infektioner (immunsystemet) angriber dine egne 
+celler og væv. Dette medfører inflammation og organskader. Det kan påvirke næsten alle organer i 
+kroppen, herunder huden, led, nyrer, hjernen og andre organer. Det kan forårsage smerter, udslæt, 
+hævede led, feber og gøre dig meget træt eller svag. </p>
+<p>Hvordan virker Saphnelo 
+Personer med lupus har et højt niveau af proteiner, der kaldes "type I-interferoner", som stimulerer 
+immunsystemets aktivitet. Anifrolumab binder sig til et mål (en receptor), som disse proteiner virker 
+på og deaktiverer dem. Når deres virkning blokeres på denne måde, kan det mindske inflammationen i 
+din krop, som medfører symptomerne på lupus. </p>
+<p>Fordelene ved at bruge Saphnelo<br />
+Saphnelo kan hjælpe med at reducere din lupus-sygdomsaktivitet og nedsætte antallet af opblusninger 
+af lupus. Hvis du tager lægemidler, der kaldes "orale kortikosteroider", kan brug af Saphnelo også 
+betyde, at din læge kan nedsætte den daglige dosis af orale kortikosteroider, som er nødvendig for at 
+holde din lupus under kontrol. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take saphnelo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take saphnelo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Saphnelo 
+- hvis du er allergisk over for anifrolumab eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). Tal med lægen eller sygeplejersken, hvis du er i tvivl. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller sygeplejersken, før du bruger Saphnelo: </p>
+<ul>
+<li>
+<p>hvis du på noget tidspunkt tror, du har haft en allergisk reaktion på dette lægemiddel (se 
+nedenfor under "Hold øje med tegn på alvorlige allergiske reaktioner og infektioner") </p>
+</li>
+<li>
+<p>hvis du får en infektion eller har symptomer på en infektion (se nedenfor under "Hold øje med 
+tegn på alvorlige allergiske reaktioner og infektioner") </p>
+</li>
+<li>
+<p>hvis du har en længerevarende infektion, eller hvis du har en infektion, der bliver ved med at 
+vende tilbage </p>
+</li>
+<li>
+<p>hvis din lupus påvirker dine nyrer eller dit nervesystem </p>
+</li>
+<li>
+<p>hvis du har eller har haft kræft </p>
+</li>
+<li>
+<p>hvis du for nylig er blevet vaccineret eller planlægger at blive det. Der er visse typer vacciner 
+("levende" eller "levende, svækkede" vacciner), som du ikke må få, mens du behandles med 
+dette lægemiddel </p>
+</li>
+<li>
+<p>hvis du modtager et andet biologisk lægemiddel (som for eksempel belimumab for din lupus). </p>
+</li>
+</ul>
+<p>Tal med lægen eller sygeplejersken, før du får Saphnelo, hvis du er usikker på, om noget af det 
+ovenstående gælder for dig. </p>
+<p>Hold øje med tegn på alvorlige allergiske reaktioner og infektioner 
+Saphnelo kan forårsage alvorlige allergiske reaktioner (anafylaksi), se punkt 4. Søg straks 
+lægehjælp, hvis du tror, at du måske har fået en alvorlig allergisk reaktion. Tegnene kan omfatte: </p>
+<ul>
+<li>
+<p>hævelse af ansigt, tunge eller mund  </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>ørhed, svimmelhed eller uklarhed (på grund af fald i blodtrykket).  </p>
+</li>
+</ul>
+<p>Du kan have større risiko for at få en infektion, når du er i behandling med Saphnelo. Fortæl det 
+hurtigst muligt til din læge eller sygeplejerske, hvis du bemærker tegn på en mulig infektion, 
+herunder: </p>
+<ul>
+<li>
+<p>feber eller influenza-lignende symptomer </p>
+</li>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>hoste eller kortåndethed (dette kan være tegn på en infektion i luftvejene, se punkt 4) </p>
+</li>
+<li>
+<p>en brændende fornemmelse, når du lader vandet, eller hyppigere vandladning end normalt </p>
+</li>
+<li>
+<p>diarré eller mavesmerter </p>
+</li>
+<li>
+<p>rødt udslæt på huden, der kan gøre ondt og brænde (dette kan være et tegn på helvedesild, se 
+punkt 4). </p>
+</li>
+</ul>
+<p>Børn og unge<br />
+Børn og unge under 18 år må ikke få dette lægemiddel, da det ikke er undersøgt i denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Saphnelo </p>
+<ul>
+<li>
+<p>Fortæl altid lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. </p>
+</li>
+<li>
+<p>Fortæl lægen, hvis du for nylig har fået eller snart skal have en vaccination. Der er nogle 
+bestemte typer vacciner, som du ikke må få, mens du bruger dette lægemiddel. Tal med din 
+læge eller sygeplejerske før og under behandlingen med Saphnelo, hvis du er i tvivl. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>Graviditet 
+Det vides ikke, om Saphnelo kan skade dit ufødte barn. </p>
+<ul>
+<li>
+<p>Før du begynder behandling med Saphnelo, skal du fortælle din læge, hvis du er gravid 
+eller tror, du kan være gravid. Lægen vil beslutte, om du kan få dette lægemiddel. </p>
+</li>
+<li>
+<p>Tal med lægen, hvis du planlægger at blive gravid, mens du er i behandling med dette 
+lægemiddel. </p>
+</li>
+<li>
+<p>Hvis du bliver gravid, mens du er i behandling med Saphnelo, skal du fortælle det til lægen. 
+Lægen vil sammen med dig beslutte, om du skal stoppe behandlingen med dette lægemiddel. </p>
+</li>
+</ul>
+<p>Amning </p>
+<ul>
+<li>Før du begynder behandling med Saphnelo, skal du fortælle din læge, hvis du ammer. Det 
+vides ikke, om dette lægemiddel udskilles i modermælken. Lægen vil tale med dig om, hvorvidt 
+du skal stoppe behandlingen med dette lægemiddel, mens du ammer, eller om du skal stoppe 
+med at amme. </li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Det er usandsynligt, at dette lægemiddel vil påvirke din evne til at køre bil og betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take saphnelo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take saphnelo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Saphnelo af en sygeplejerske eller læge. </p>
+<ul>
+<li>
+<p>Den anbefalede dosis er 300 mg. </p>
+</li>
+<li>
+<p>Det gives via et drop ind i en vene (intravenøs infusion) i løbet af 30 minutter. </p>
+</li>
+<li>
+<p>Det gives hver 4. uge. </p>
+</li>
+</ul>
+<p>Hvis du glemmer en aftale om at få Saphnelo, skal du hurtigst muligt ringe til din læge for at aftale 
+en ny tid. </p>
+<p>Stop af behandling med Saphnelo 
+Din læge bestemmer, om du skal stoppe behandlingen med dette lægemiddel. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige allergiske reaktioner: 
+Alvorlige allergiske reaktioner (anafylaksi) er ikke almindelige (kan forekomme hos op til 1 ud af 
+100 personer). Søg straks lægehjælp, eller tag på nærmeste skadestue, hvis du får nogen af 
+følgende tegn på en alvorlig allergisk reaktion: </p>
+<ul>
+<li>
+<p>hævelse af ansigt, tunge eller mund </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>ørhed, svimmelhed eller uklarhed (på grund af fald i blodtrykket). </p>
+</li>
+</ul>
+<p>Andre bivirkninger: 
+Fortæl det til lægen eller sygeplejersken, hvis du får nogen af følgende bivirkninger. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>infektioner i næse eller hals </p>
+</li>
+<li>
+<p>infektion i brystet (bronkitis) </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>infektioner i bihuler eller lunger  </p>
+</li>
+<li>
+<p>helvedesild (herpes zoster) - et rødt udslæt på huden, der kan gøre ondt og brænde </p>
+</li>
+<li>
+<p>allergiske reaktioner (hypersensitivitet) </p>
+</li>
+<li>
+<p>infusionsreaktioner - kan forekomme på tidspunktet for infusionen eller kort tid efter; 
+symptomerne kan omfatte hovedpine, kvalme, opkastning, ekstrem træthed eller svaghed 
+(fatigue) og svimmelhed. </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>smerter i led (artralgi) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store saphnelo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store saphnelo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen, sygeplejersken eller apotekspersonalet er ansvarlig for at opbevare dette lægemiddel. 
+Opbevaringsoplysningerne er som følger: </p>
+<ul>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og på æsken efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
+</li>
+<li>
+<p>Må ikke nedfryses eller rystes. </p>
+</li>
+<li>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Saphnelo indeholder:</p>
+<ul>
+<li>Aktivt stof: anifrolumab. Hvert hætteglas indeholder 300 mg anifrolumab. </li>
+<li>Øvrige indholdsstoffer: histidin, histidinhydrochloridmonohydrat, lysinhydrochlorid, 
+trehalosedihydrat, polysorbat 80 og vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Saphnelo leveres som en klar til opaliserende, farveløs til let gul koncentreret opløsning. </p>
+<p>Saphnelo er tilgængelig i pakninger, der indeholder 1 hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen 
+AstraZeneca AB 
+SE-151 85 Södertälje 
+Sverige </p>
+<p>Fremstiller 
+AstraZeneca AB 
+Gärtunavägen 
+SE-152 57 Södertälje 
+Sverige </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+AstraZeneca S.A./N.V. 
+Tel: +32 2 370 48<br />
+Lietuva 
+UAB AstraZeneca Lietuva 
+Tel: +370 5 2660 
+България 
+АстраЗенека България ЕООД 
+Тел.: +359 24455 
+Luxembourg/Luxemburg 
+AstraZeneca S.A./N.V. 
+Tél/Tel: +32 2 370 48<br />
+Česká republika 
+AstraZeneca Czech Republic s.r.o. 
+Tel: +420 222 807<br />
+Magyarország 
+AstraZeneca Kft. 
+Tel.: +36 1 883 6 
+Danmark 
+AstraZeneca A/S 
+Tlf: +45 43 66 64<br />
+Malta 
+Associated Drug Co. Ltd 
+Tel: +356 2277 8 
+Deutschland 
+AstraZeneca GmbH 
+Tel: +49 40 809034 
+Nederland 
+AstraZeneca BV 
+Tel: +31 85 808 9<br />
+Eesti 
+AstraZeneca<br />
+Tel: +372 6549<br />
+Norge 
+AstraZeneca AS 
+Tlf: +47 21 00 64<br />
+Ελλάδα 
+AstraZeneca A.E. 
+Τηλ: +30 210 6871 
+Österreich 
+AstraZeneca Österreich GmbH 
+Tel: +43 1 711 31 0 </p>
+<p>España 
+AstraZeneca Farmacéutica Spain, S.A. 
+Tel: +34 91 301 91<br />
+Polska 
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel.: +48 22 245 73<br />
+France 
+AstraZeneca 
+Tél: +33 1 41 29 40<br />
+Portugal 
+AstraZeneca Produtos Farmacêuticos, Lda. 
+Tel: +351 21 434 61<br />
+Hrvatska<br />
+AstraZeneca d.o.o. 
+Tel: +385 1 4628<br />
+România 
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60<br />
+Ireland 
+AstraZeneca Pharmaceuticals (Ireland) DAC 
+Tel: +353 1609 7 
+Slovenija 
+AstraZeneca UK Limited 
+Tel: +386 1 51 35<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7777  </p>
+<p>Italia 
+AstraZeneca S.p.A. 
+Tel: +39 02 00704 
+Suomi/Finland 
+AstraZeneca Oy 
+Puh/Tel: +358 10 23<br />
+Κύπρος 
+Αλέκτωρ Φαρµακευτική Λτδ 
+Τηλ: +357 22490 
+Sverige 
+AstraZeneca AB 
+Tel: +46 8 553 26<br />
+Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377 
+United Kingdom (Northern Ireland) 
+AstraZeneca UK Ltd 
+Tel: +44 1582 836  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>------------------------------------------------------------------------------------------------------------------------ Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>For at forbedre sporbarheden skal det administrerede produkts navn og batchnummer tydeligt 
+registreres. </p>
+<p>Saphnelo leveres som et enkeltdosishætteglas. Infusionsopløsningen skal klargøres og administreres af 
+sundhedspersoner ved brug af aseptisk teknik som følger: </p>
+<p>Klargøring af opløsning </p>
+<ol>
+<li>
+<p>Hætteglasset inspiceres visuelt for partikler og misfarvning. Saphnelo er en klar til 
+opaliserende, farveløs til let gul opløsning. Kassér hætteglasset, hvis opløsningen er uklar, 
+misfarvet eller der observeres synlige partikler. Hætteglasset må ikke rystes. </p>
+</li>
+<li>
+<p>Fortynd 2,0 ml Saphnelo infusionsvæske i en infusionspose til 50 ml eller 100 ml med 
+natriumchlorid 9 mg/ml (0,9 %) injektionsvæske. </p>
+</li>
+<li>
+<p>Bland opløsningen ved at vende den forsigtigt op og ned. Må ikke omrystes. </p>
+</li>
+<li>
+<p>Eventuelt resterende koncentrat i hætteglasset skal bortskaffes. </p>
+</li>
+<li>
+<p>Ud fra et mikrobiologisk synspunkt skal lægemidlet anvendes straks efter fortynding. Hvis det 
+ikke anvendes straks, er kemisk og fysisk stabilitet under anvendelse påvist i 24 timer ved 
+2 °C - 8 °C eller i 4 timer ved stuetemperatur. Bortskaf den fortyndede opløsning, hvis den 
+ikke anvendes inden for dette tidsrum. </p>
+</li>
+</ol>
+<p>Hvis det ikke anvendes straks, er opbevaringstider og -betingelser før anvendelse brugerens 
+ansvar. </p>
+<p>Administration </p>
+<ol>
+<li>
+<p>Det anbefales, at opløsningen til infusion skal administreres straks efter klargøring. Hvis 
+opløsningen til infusion er blevet opbevaret i køleskab, skal den opnå stuetemperatur (15 °C til 
+25 °C) før administration. </p>
+</li>
+<li>
+<p>Administrér infusionsvæsken, opløsning intravenøst over 30 minutter via en intravenøs slange 
+med et sterilt 0,2 til 15 mikron in-line filter eller add-on filter med lav proteinbinding. </p>
+</li>
+<li>
+<p>Når infusionen er afsluttet, skylles infusionssættet med 25 ml natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske, opløsning for at sikre, at al infusionsvæsken er administreret. </p>
+</li>
+<li>
+<p>Der må ikke samtidigt administreres andre lægemidler gennem samme infusionsslange. </p>
+</li>
+</ol>
+<p>Bortskaffelse </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>BILAG IV  </p>
+<p>VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE  </p>
+<p>Videnskabelige konklusioner  </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for anifrolumab er PRAC 
+nået frem til følgende videnskabelige konklusioner: </p>
+<p>I lyset af tilgængelige data efter markedsføring om artralgi, herunder 11 tilfælde med tæt tidsmæssig 
+sammenhæng, anses en årsagssammenhæng med anifrolumab som i det mindste mulig. Hertil kommer 
+yderligere 16 tilfælde, hvor tid indtil debut var inden for 14 dage. Derudover er der rapporteret om to 
+tilfælde med positiv rechallenge, inklusive den franske trigger-sag, hvor en årsagssammenhæng anses 
+for sandsynlig. Samlet set giver disse tilfælde tilstrækkelig dokumentation til at understøtte en 
+årsagssammenhæng mellem anifrolumab og artralgi. PRAC konkluderede, at produktinformationen 
+for produkter indeholdende anifrolumab bør ændres i overensstemmelse hermed. </p>
+<p>CHMP har gennemgået PRAC's anbefaling og er enig i de overordnede konklusioner og begrundelser 
+for anbefalingen. </p>
+<p>Begrundelse for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne  </p>
+<p>På baggrund af de videnskabelige konklusioner for anifrolumab er CHMP af den opfattelse, at 
+benefit/risk-forholdet for lægemidlet/lægemidlerne indeholdende anifrolumab forbliver uændret under 
+forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-44b9456eb2913b31231c4ec15c3a0e75
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for saphnelo Package Leaflet for language en"
+Description: "ePI document Bundle for saphnelo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-44b9456eb2913b31231c4ec15c3a0e75"
+* entry[0].resource = composition-en-44b9456eb2913b31231c4ec15c3a0e75
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp44b9456eb2913b31231c4ec15c3a0e75"
+* entry[=].resource = mp44b9456eb2913b31231c4ec15c3a0e75
+                            
+                    
+Instance: bundlepackageleaflet-da-44b9456eb2913b31231c4ec15c3a0e75
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for saphnelo Package Leaflet for language da"
+Description: "ePI document Bundle for saphnelo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-44b9456eb2913b31231c4ec15c3a0e75"
+* entry[0].resource = composition-da-44b9456eb2913b31231c4ec15c3a0e75
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp44b9456eb2913b31231c4ec15c3a0e75"
+* entry[=].resource = mp44b9456eb2913b31231c4ec15c3a0e75
+                            
+                    
+
+
+
+Instance: mp44b9456eb2913b31231c4ec15c3a0e75
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Saphnelo 300 mg concentrate for solution for infusion"
-Description: "Saphnelo 300 mg concentrate for solution for infusion"
+Title: "Medicinal Product saphnelo"
+Description: "saphnelo"
 Usage: #inline
 
  
@@ -332,7 +905,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Saphnelo 300 mg concentrate for solution for infusion"
+  * productName = "saphnelo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -359,29 +932,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-44b9456eb2913b31231c4ec15c3a0e75
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for saphnelo Package Leaflet for language en"
-Description: "ePI document Bundle for saphnelo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 44b9456eb2913b31231c4ec15c3a0e75ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1623/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "saphnelo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-44b9456eb2913b31231c4ec15c3a0e75"
-* entry[0].resource = composition-en-44b9456eb2913b31231c4ec15c3a0e75
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8f27d0e8a5059b59f6cc8c6f27a202b8"
-* entry[=].resource = mp8f27d0e8a5059b59f6cc8c6f27a202b8
-                            
-                      
+* title = "List of all ePIs associated with saphnelo"
+
+* subject = Reference(mp8f27d0e8a5059b59f6cc8c6f27a202b8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#saphnelo "saphnelo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-44b9456eb2913b31231c4ec15c3a0e75) // saphnelo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-44b9456eb2913b31231c4ec15c3a0e75) // saphnelo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-44b9456eb2913b31231c4ec15c3a0e75
+InstanceOf: List
+
+* insert 44b9456eb2913b31231c4ec15c3a0e75ListRuleset
+    

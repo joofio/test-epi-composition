@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-7eebcc5370e576e4703db784c7ade61f
 InstanceOf: CompositionUvEpi
 Title: "Composition for anoro Package Leaflet"
@@ -389,12 +392,587 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 
 
 
+Instance: composition-da-7eebcc5370e576e4703db784c7ade61f
+InstanceOf: CompositionUvEpi
+Title: "Composition for anoro Package Leaflet"
+Description:  "Composition for anoro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2e0291f5c04000210f63094f4a394c35)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2e0291f5c04000210f63094f4a394c35
+* title = "TEST PURPOSES ONLY - anoro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugervejledning </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen  </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Anoro Ellipta </li>
+<li>Sådan skal du tage Anoro Ellipta </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What anoro is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What anoro is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning </p>
+<p>Anoro Ellipta indeholder to aktive stoffer umeclidiniumbromid og vilanterol. Disse tilhører en gruppe af 
+lægemidler, der kaldes bronkodilatatorer.  </p>
+<p>Anvendelse </p>
+<p>Anoro Ellipta anvendes til behandling af kronisk obstruktiv lungesygdom (KOL) hos voksne. KOL er en 
+langvarig sygdom, hvor vejrtrækningsproblemer langsomt bliver værre.  </p>
+<p>Ved KOL strammes musklerne omkring luftvejene. Denne medicin modvirker stramning af musklerne i 
+lungerne, så luften lettere kan komme ind og ud. Når medicinen tages regelmæssigt, kan den hjælpe med at 
+holde dine vejrtrækningsproblemer under kontrol og mindske påvirkningen af KOL i din dagligdag. </p>
+<p>Anoro Ellipta må ikke anvendes til lindring af pludselige anfald af åndenød eller hvæsende 
+vejrtrækning.<br />
+Hvis du får et anfald af den type, skal du inhalere et lægemiddel med hurtig virkning (f.eks. 
+salbutamol). Kontakt din læge hvis du ikke har en hurtigtvirkende inhalator. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take anoro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take anoro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Anoro Ellipta<br />
+- hvis du er allergisk over for umeclidinium, vilanterol eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). 
+Hvis du tror, at dette gælder for dig, må du ikke tage dette lægemiddel, før du har talt med lægen.<br />
+Advarsler og forsigtighedsregler <br />
+Kontakt lægen, før du tager dette lægemiddel:</p>
+<ul>
+<li>hvis du har astma (brug ikke Anoro Ellipta til behandling af astma) </li>
+<li>hvis du har hjerteproblemer eller forhøjet blodtryk </li>
+<li>hvis du har problemer med øjnene, der kaldes snævervinklet grøn stær </li>
+<li>hvis du har forstørret prostata, vandladningsbesvær eller en blokering i blæren </li>
+<li>hvis du lider af epilepsi </li>
+<li>hvis du har problemer med skjoldbruskkirtlen </li>
+<li>hvis du har lavt kaliumindhold i blodet </li>
+<li>hvis du har diabetes </li>
+<li>hvis du har alvorlige leverproblemer. </li>
+</ul>
+<p>Kontakt lægen, hvis du tror, at noget af ovenstående gælder for dig. </p>
+<p>Akutte vejrtrækningsproblemer 
+Hvis du får trykken for brystet, hoste, hvæsende vejrtrækning eller åndenød, umiddelbart efter at du har brugt 
+din Anoro Ellipta inhalator: 
+Stop med at tage medicinen, og søg omgående lægehjælp, da du kan have en alvorlig tilstand, 
+der kaldes paradoks bronkospasme. </p>
+<p>Øjenproblemer under behandling med Anoro Ellipta 
+Hvis du under behandling med Anoro Ellipta får øjensmerter eller -ubehag, midlertidig sløring af synet, 
+visuelle ringe eller farvet syn i forbindelse med røde øjne: </p>
+<p>Stop med at tage medicinen og søg omgående lægehjælp. Dette kan være tegn på et akut anfald af 
+snævervinklet grøn stær. </p>
+<p>Børn og unge 
+Giv ikke denne medicin til børn eller unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Anoro Ellipta 
+Fortæl lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden medicin eller 
+planlægger at tage anden medicin. Hvis du ikke er sikker på, hvad din medicin indeholder, så tal med lægen 
+eller apotekspersonalet.  </p>
+<p>Nogle lægemidler kan påvirke virkningen af Anoro Ellipta eller gøre det mere sandsynligt, at du får 
+bivirkninger. Disse lægemidler omfatter:</p>
+<ul>
+<li>medicin, som kaldes betablokkere (såsom propranolol), til behandling af forhøjet blodtryk eller 
+andre hjerteproblemer </li>
+<li>ketoconazol eller itraconazol, til behandling af svampeinfektioner </li>
+<li>clarithromycin eller telithromycin, til behandling af bakterieinfektioner  </li>
+<li>ritonavir, til behandling af hiv-infektion </li>
+<li>medicin der nedsætter mængden af kalium i dit blod, såsom diuretika (vanddrivende tabletter) eller 
+visse lægemidler til behandling af astma (f.eks. methylxanthine eller steroider) </li>
+<li>andre langtidsvirkende lægemidler, som minder om Anoro Ellipta, til behandling af 
+vejrtrækningsproblemer, f.eks. tiotropium eller indacaterol. Du må ikke bruge Anoro Ellipta, hvis du 
+allerede tager nogen af disse lægemidler. 
+Fortæl det til lægen eller apotekspersonalet, hvis du tager et eller flere af disse lægemidler. Lægen vil 
+muligvis overvåge dig omhyggeligt, hvis du tager nogen af disse lægemidler, da de kan øge bivirkningerne 
+fra Anoro Ellipta. </li>
+</ul>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du tager dette lægemiddel. Hvis du er gravid, må du ikke tage dette 
+lægemiddel, medmindre du har aftalt det med lægen. </p>
+<p>Det vides ikke, om indholdsstofferne i Anoro Ellipta går over i modermælken. Hvis du ammer, skal du tale 
+med lægen, før du begynder at tage Anoro Ellipta. Hvis du ammer, må du ikke tage dette lægemiddel, 
+medmindre du har aftalt det med lægen. </p>
+<p>Trafik- og arbejdssikkerhed<br />
+Det er ikke sandsynligt, at Anoro Ellipta vil påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
+<p>Anoro Ellipta indeholder lactose 
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take anoro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take anoro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet.  </p>
+<p>Den anbefalede dosis er én inhalation hver dag på samme tidspunkt. Du behøver kun at inhalere én gang om 
+dagen, da virkningen af denne medicin holder i 24 timer.   </p>
+<p>Du må ikke tage mere, end lægen har foreskrevet.  </p>
+<p>Tag Anoro Ellipta regelmæssigt 
+Det er meget vigtigt, at du tager Anoro Ellipta hver dag nøjagtigt efter lægens anvisning. Dette vil hjælpe 
+med at holde dig symptomfri igennem hele dagen og natten. </p>
+<p>Anoro Ellipta må ikke anvendes til lindring af pludselige anfald af åndenød eller hvæsende vejrtrækning. 
+Hvis du får et anfald af denne type, skal du inhalere et lægemiddel med hurtig virkning (f.eks. salbutamol). </p>
+<p>Sådan bruges inhalatoren 
+Se 'Brugervejledning' i slutningen af denne indlægsseddel for yderligere oplysninger. </p>
+<p>Anoro Ellipta er til inhalationsbrug. Anoro Ellipta tages ved at indånde medicinen ned i dine lunger gennem 
+munden ved hjælp af Ellipta-inhalatoren. 
+Hvis dine symptomer ikke aftager<br />
+Hvis dine KOL-symptomer (åndenød, hvæsende vejrtræning, hoste) ikke aftager, eller hvis de bliver værre, 
+eller hvis du oftere inhalerer et lægemiddel med hurtig virkning: </p>
+<p>Kontakt lægen så hurtigt som muligt. </p>
+<p>Hvis du har taget for meget Anoro Ellipta 
+Kontakt straks lægen eller apoteket, hvis du ved et uheld har taget for meget af Anoro Ellipta, da du kan 
+have brug for lægehjælp. Tag inhalatoren, pakningen eller denne indlægsseddel med, hvis det er muligt. Du 
+kan opleve, at dit hjerte slår hurtigere end normalt, at du ryster, får synsforstyrrelser, får tør mund, eller at du 
+får hovedpine. </p>
+<p>Hvis du har glemt at tage Anoro Ellipta<br />
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Fortsæt blot med den næste dosis 
+på det sædvanlige tidspunkt.<br />
+Hvis du får hvæsende vejrtrækning eller åndenød, så skal du inhalere et lægemiddel med hurtig virkning 
+(f.eks. salbutamol), og herefter søge lægehjælp. </p>
+<p>Hvis du holder op med at tage Anoro Ellipta 
+Tag denne medicin så længe, som lægen anbefaler. Medicinen virker kun, så længe du tager den. Du må ikke 
+stoppe behandlingen, medmindre lægen foreskriver det, heller ikke selvom du får det bedre, da dine 
+symptomer kan blive værre. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Allergiske reaktioner 
+Hvis du oplever nogle af de følgende symptomer, efter du har taget Anoro Ellipta, skal du stoppe med at 
+tage medicinen og straks kontakte lægen. </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>udslæt (nældefeber) eller hudrødme </li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 personer): </p>
+<ul>
+<li>
+<p>hævelse, nogle gange i ansigtet eller i munden (angioødem) </p>
+</li>
+<li>
+<p>meget hvæsende vejrtrækning, hoste eller vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>pludselig svaghedsfornemmelse eller svimmelhed (kan føre til besvimelse eller bevidstløshed).  </p>
+</li>
+</ul>
+<p>Akutte vejrtrækningsproblemer 
+Akutte vejrtrækningsproblemer efter brug af Anoro Ellipta er sjældne. Hvis du får trykken for brystet, hoste, 
+hvæsende vejrtrækning eller åndenød, umiddelbart efter, at du har brugt denne medicin: 
+Stop med at tage denne medicin, og søg omgående lægehjælp, da du kan have en alvorlig lidelse, 
+der kaldes paradoksal bronkospasme. </p>
+<p>Andre bivirkninger </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer):  </p>
+<ul>
+<li>
+<p>smertefuld og hyppig vandladning (kan være tegn på urinvejsinfektion) </p>
+</li>
+<li>
+<p>kombination af ømhed i halsen og løbende næse </p>
+</li>
+<li>
+<p>ømhed i halsen </p>
+</li>
+<li>
+<p>følelse af trykken eller smerter i kinderne og panden (kan være tegn på betændelse i bihulerne, kaldet 
+sinuitis) </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>smerte og irritation i svælget </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>infektion i de øvre luftveje. </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer):  </p>
+<ul>
+<li>
+<p>uregelmæssig hjerterytme </p>
+</li>
+<li>
+<p>hurtigere hjerterytme </p>
+</li>
+<li>
+<p>hjertebanken (palpitationer) </p>
+</li>
+<li>
+<p>muskelspasmer </p>
+</li>
+<li>
+<p>ufrivillige, rystende, rytmiske bevægelser (tremor) </p>
+</li>
+<li>
+<p>smagsforstyrrelser </p>
+</li>
+<li>
+<p>hæshed. </p>
+</li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1 000 personer):  </p>
+<ul>
+<li>
+<p>sløret syn </p>
+</li>
+<li>
+<p>stigning i det målte øjentryk </p>
+</li>
+<li>
+<p>nedsat syn eller smerter i øjnene (mulige tegn på glaukom) </p>
+</li>
+<li>
+<p>besværet og smertefuld vandladning – dette kan være tegn på tilstopning i blæren eller urinretention. </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke beregnes ud fra tilgængelige data):  </p>
+<ul>
+<li>svimmelhed. </li>
+</ul>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store anoro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store anoro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste dag i 
+den nævnte måned.  </p>
+<p>Inhalatoren skal opbevares i den forseglede bakke for at beskytte mod fugt, og skal først tages ud 
+umiddelbart før første brug. Når bakken er åbnet, kan inhalatoren anvendes i op til 6 uger fra den dag, hvor 
+bakken blev åbnet. Skriv datoen for, hvornår inhalatoren skal kasseres, i det dertil beregnede felt på etiketten. 
+Datoen skal skrives på etiketten umiddelbart efter, at inhalatoren er taget ud af bakken. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Hvis inhalatoren opbevares på køl, skal den ligge ved stuetemperatur i mindst én time før brug. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Anoro Ellipta indeholder:<br />
+Aktive stoffer: umeclidiniumbromid og vilanterol. </p>
+<p>Hver enkelt inhalation afgiver en leveret dosis (den dosis, der afgives fra mundstykket) på 55 mikrogram 
+umeclidinium (svarende til 65 mikrogram umeclidiniumbromid) og 22 mikrogram vilanterol (som trifenatat). </p>
+<p>Øvrige indholdsstoffer: lactosemonohydrat (se punkt 2 ”Anoro Ellipta indeholder lactose”) og 
+magnesiumstearat. </p>
+<p>Udseende og pakningsstørrelser 
+Anoro Ellipta er inhalationspulver, afdelt. 
+Ellipta-inhalatoren består af en lysegrå inhalator af plast med en rød beskyttelseshætte over mundstykket og 
+en dosistæller. Den er pakket i en bakke af laminatfolie med et afriveligt folielåg. Bakken indeholder en pose 
+med tørremiddel for at beskytte mod fugt i pakningen.  </p>
+<p>De aktive stoffer er et hvidt pulver, som ligger i separate blistere inde i inhalatoren. 
+Anoro Ellipta fås i pakninger med 1 inhalator som indeholder enten 7 eller 30 doser og i multipakninger som 
+indeholder 90 (3 inhalatorer med 30) doser. Ikke alle pakningsstørrelser er nødvendigvis markedsført.  </p>
+<p>Indehaver af markedsføringstilladelsen: </p>
+<p>GlaxoSmithKline (Ireland) Limited<br />
+12 Riverwalk 
+Citywest Business Campus<br />
+Dublin Irland </p>
+<p>Fremstiller: </p>
+<p>Glaxo Wellcome Production 
+Zone Industrielle No.2 
+23 Rue Lavoisier<br />
+27000 Evreux<br />
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien<br />
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Tél/Tel: + 32 (0) 10 85 52  </p>
+<p>Lietuva<br />
+UAB “BERLIN-CHEMIE MENARINI BALTIC” 
+Tel: +370 52 691 lt@berlin-chemie.com 
+България<br />
+“Берлин-Хеми/А. Менарини 
+България” EООД<br />
+Teл.: +359 2 454 0bcsofia@berlin-chemie.com </p>
+<p>Luxembourg/Luxemburg<br />
+GlaxoSmithKline Pharmaceuticals s.a./n.v. 
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 52<br />
+Česká republika<br />
+GlaxoSmithKline, s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com 
+Magyarország<br />
+Berlin-Chemie/A. Menarini Kft.<br />
+Tel.: +36 23501bc-hu@berlin-chemie.com </p>
+<p>Danmark<br />
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com 
+Malta<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: +356 80065 </p>
+<p>Deutschland<br />
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel.: + 49 (0)89 36044 8produkt.info@gsk.com 
+Nederland<br />
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081 </p>
+<p>Norge<br />
+Eesti<br />
+OÜ Berlin-Chemie Menarini Eesti<br />
+Tel: +372 667 5ee@berlin-chemie.com<br />
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20  </p>
+<p>Ελλάδα<br />
+Menarini Hellas A.E. 
+Τηλ: +30 210 83161 11-13  </p>
+<p>Österreich<br />
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com 
+España<br />
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com 
+Polska<br />
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9 </p>
+<p>France<br />
+Laboratoire GlaxoSmithKline 
+Tél: + 33 (0)1 39 17 84 diam@gsk.com 
+Portugal<br />
+GlaxoSmithKline – Produtos Farmacêuticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com </p>
+<p>Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o.<br />
+Tel: +385 1 4821 office-croatia@berlin-chemie.com </p>
+<p>România<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: +40 800672Ireland<br />
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 
+Slovenija<br />
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o. 
+Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
+<p>Ísland<br />
+Vistor hf. 
+Sími: + 354 535 7 </p>
+<p>Slovenská republika<br />
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. 
+Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
+<p>Italia<br />
+GlaxoSmithKline S.p.A. 
+Tel: + 39 (0)45 774 1 
+Suomi/Finland<br />
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Τηλ: +357 80070 
+Sverige<br />
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija<br />
+SIA Berlin-Chemie/Menarini Baltic<br />
+Tel: +371 67103lv@berlin-chemie.com 
+United Kingdom (Northern Ireland) 
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.<br />
+Indlægsseddel 
+Æske 
+Låg til bakke 
+Inhalator 
+Tørremiddel 
+Bakke 
+Brugervejledning </p>
+<p>Hvad er en Ellipta inhalator? 
+Det er ikke nødvendigt at kontrollere, om inhalatoren virker korrekt, før du bruger Anoro Ellipta første gang, 
+den indeholder afdelte doser og er klar til brug med det samme. </p>
+<p>Din æske med Anoro Ellipta inhalator indeholder </p>
+<p>Inhalatoren er pakket i en bakke. Du må ikke åbne bakken, før du er klar til at begynde at bruge din nye 
+inhalator. Når du er klar til at bruge din inhalator, træk da låget af for at åbne bakken. Bakken indeholder en 
+pose med tørremiddel for at beskytte mod fugt. Smid posen med tørremiddel ud – du må ikke åbne, spise 
+eller inhalere posen med tørremiddel.  </p>
+<p>Når du tager inhalatoren ud af bakken, vil den være i 'lukket' position. Åbn ikke inhalatoren, før du er klar 
+til at inhalere en dosis af medicinen. Når bakken er åbnet, skal du skrive datoen for ”Kasseres senest” i det 
+dertil beregnede felt på inhalatorens etiket. Datoen ”Kasseres senest” er 6 uger fra den dag, hvor bakken blev 
+åbnet. Efter denne dato må inhalatoren ikke længere anvendes. Bakken kan kasseres efter åbning. </p>
+<p>Hvis inhalatoren opbevares på køl, skal den opbevares ved stuetemperatur i mindst én time før brug. 
+Tørremiddel </p>
+<p>Nedenstående trinvise brugervejledning til inhalatoren kan både bruges til inhalator med 30 doser (30 dages 
+forbrug) og inhalator med 7 doser (7 dages forbrug). </p>
+<p>1) Læs dette, inden du starter 
+Hvis du åbner og lukker beskyttelseshætten uden at inhalere medicinen, vil dosis gå tabt.<br />
+En dosis, der er gået tabt, vil blive tilbageholdt i inhalatoren, men den vil ikke længere være tilgængelig til 
+inhalation. 
+Det er ikke muligt ved et tilfælde at komme til at tage for meget medicin eller tage en dobbelt dosis i én 
+inhalation. </p>
+<p>2) Klargøring af dosis 
+Vent med at åbne beskyttelseshætten, til du er klar til at inhalere din dosis. 
+Omryst ikke inhalatoren. </p>
+<ul>
+<li>Træk beskyttelseshætten ned, indtil du hører et "klik". </li>
+</ul>
+<p>Dosistælleren har nu talt 1 ned, og medicinen er klar til at blive inhaleret. </p>
+<ul>
+<li>Hvis dosistælleren ikke tæller nedad, når du hører "klikket", vil inhalatoren ikke afgive 
+medicin.<br />
+Returnér den til apoteket, og bed om hjælp. </li>
+</ul>
+<p>3) Inhalér din medicin  </p>
+<ul>
+<li>Hold inhalatoren væk fra munden og foretag den dybeste udånding, du finder behagelig.  </li>
+</ul>
+<p>Ånd ikke ud i inhalatoren. </p>
+<ul>
+<li>Placér mundstykket mellem læberne, og luk læberne godt sammen omkring mundstykket. </li>
+</ul>
+<p>Spær ikke for luftkanalerne med dine fingre. </p>
+<ul>
+<li>
+<p>Foretag en lang, jævn, dyb indånding. Hold vejret så længe som muligt (i mindst 3-4 sekunder). </p>
+</li>
+<li>
+<p>Fjern inhalatoren fra munden. </p>
+</li>
+<li>
+<p>Pust stille og roligt ud. </p>
+</li>
+</ul>
+<p>Det er ikke sikkert, at du kan smage eller mærke medicinen, selvom du bruger inhalatoren korrekt. </p>
+<p>Hvis du vil rengøre mundstykket, så brug en tør serviet, før du lukker beskyttelseshætten. </p>
+<p>4) Luk inhalatoren </p>
+<p>Skub beskyttelseshætten så langt tilbage som muligt, så den dækker for mundstykket. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-7eebcc5370e576e4703db784c7ade61f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for anoro Package Leaflet for language en"
+Description: "ePI document Bundle for anoro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7eebcc5370e576e4703db784c7ade61f"
+* entry[0].resource = composition-en-7eebcc5370e576e4703db784c7ade61f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7eebcc5370e576e4703db784c7ade61f"
+* entry[=].resource = mp7eebcc5370e576e4703db784c7ade61f
+                            
+                    
+Instance: bundlepackageleaflet-da-7eebcc5370e576e4703db784c7ade61f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for anoro Package Leaflet for language da"
+Description: "ePI document Bundle for anoro Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-7eebcc5370e576e4703db784c7ade61f"
+* entry[0].resource = composition-da-7eebcc5370e576e4703db784c7ade61f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7eebcc5370e576e4703db784c7ade61f"
+* entry[=].resource = mp7eebcc5370e576e4703db784c7ade61f
+                            
+                    
+
+
+
+Instance: mp7eebcc5370e576e4703db784c7ade61f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ANORO ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
-Description: "ANORO ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
+Title: "Medicinal Product anoro"
+Description: "anoro"
 Usage: #inline
 
  
@@ -414,7 +992,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ANORO ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
+  * productName = "anoro"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -441,29 +1019,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-7eebcc5370e576e4703db784c7ade61f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for anoro Package Leaflet for language en"
-Description: "ePI document Bundle for anoro Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 7eebcc5370e576e4703db784c7ade61fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/898/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "anoro"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-7eebcc5370e576e4703db784c7ade61f"
-* entry[0].resource = composition-en-7eebcc5370e576e4703db784c7ade61f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2e0291f5c04000210f63094f4a394c35"
-* entry[=].resource = mp2e0291f5c04000210f63094f4a394c35
-                            
-                      
+* title = "List of all ePIs associated with anoro"
+
+* subject = Reference(mp2e0291f5c04000210f63094f4a394c35)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#anoro "anoro"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-7eebcc5370e576e4703db784c7ade61f) // anoro en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-7eebcc5370e576e4703db784c7ade61f) // anoro da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-7eebcc5370e576e4703db784c7ade61f
+InstanceOf: List
+
+* insert 7eebcc5370e576e4703db784c7ade61fListRuleset
+    

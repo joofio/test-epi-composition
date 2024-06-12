@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a43f6802b7bc837851c3ee6d33acffd1
 InstanceOf: CompositionUvEpi
 Title: "Composition for sorafenib Package Leaflet"
@@ -346,12 +349,423 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-a43f6802b7bc837851c3ee6d33acffd1
+InstanceOf: CompositionUvEpi
+Title: "Composition for sorafenib Package Leaflet"
+Description:  "Composition for sorafenib Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp86618d14d2855d07e91199ccbeb1cd52)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp86618d14d2855d07e91199ccbeb1cd52
+* title = "TEST PURPOSES ONLY - sorafenib"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Sorafenib Accord 
+3. Sådan skal du tage Sorafenib Accord 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sorafenib is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sorafenib is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sorafenib Accord bruges til behandling af levercancer (hepatocellulært karcinom). 
+Sorafenib Accord bruges også til behandling af nyrecancer (fremskredent renalcellekarcinom) på et 
+fremskredent stadie, når standardbehandling ikke har hjulpet til at stoppe sygdommen, eller ikke er 
+passende.  </p>
+<p>Sorafenib Accord er en såkaldt multikinase-hæmmer. Den virker ved at nedsætte hastigheden af 
+cancercellernes vækst og afskære den blodforsyning, der gør, at cellerne kan vokse. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sorafenib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sorafenib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Sorafenib Accord 
+- hvis du er allergisk over for sorafenib eller et af de øvrige indholdsstoffer i Sorafenib Accord 
+(angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Sorafenib Accord. </p>
+<p>Vær ekstra forsigtig med at tage Sorafenib Accord 
+- hvis du får hudproblemer. Sorafenib Accord kan forårsage udslæt og hudreaktioner, især på 
+hænder og fødder. Disse kan sædvanligvis behandles af lægen. Hvis det ikke er tilfældet, kan 
+lægen beslutte at afbryde behandlingen eller stoppe den helt. 
+- hvis du har højt blodtryk. Sorafenib Accord kan øge blodtrykket, og lægen vil som regel følge 
+dit blodtryk og kan beslutte at give dig et lægemiddel til behandling af dit høje blodtryk. 
+hvis du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i en 
+blodårevæg.  </p>
+<ul>
+<li>hvis du har sukkersyge (diabetes). Blodsukkerniveauer hos patienter med diabetes skal tjekkes 
+regelmæssigt for at undersøge om dosering af lægemidler mod diabetes skal justeres for at 
+mindske risikoen for lavt blodsukker. </li>
+<li>hvis du får blødningsproblemer, eller du får warfarin eller phenprocoumon. Behandling med 
+Sorafenib Accord kan føre til højere risiko for blødning. Hvis du tager warfarin eller 
+phenprocoumon, som er blodfortyndende lægemidler for at forebygge blodpropper, kan der være 
+øget risiko for blødning. </li>
+<li>hvis du får brystsmerter eller hjerteproblemer. Lægen kan beslutte at afbryde behandlingen 
+eller stoppe den helt. </li>
+<li>hvis du har en hjerterytmeforstyrrelse såsom et unormalt elektrisk signal, der kaldes 
+"forlængelse af QT-intervallet". </li>
+<li>hvis du skal opereres, eller du for nylig er blevet opereret. Sorafenib Accord kan påvirke, 
+hvordan dine sår heler. Du vil oftest skulle stoppe med at tage Sorafenib Accord, hvis du skal 
+opereres. Lægen vil beslutte, hvornår du skal starte med Sorafenib Accord igen. </li>
+<li>hvis du tager irinotecan eller får docetaxel, som også er lægemidler mod cancer. Sorafenib 
+Accord kan øge virkningen og især bivirkningerne af disse lægemidler. </li>
+<li>hvis du tager neomycin eller andre antibiotika, kan Sorafenib Accords virkning blive nedsat. </li>
+<li>hvis du har alvorligt nedsat leverfunktion. Du kan i så fald få flere alvorlige bivirkninger ved 
+indtagelse af dette lægemiddel. </li>
+<li>hvis du har dårlig nyrefunktion. Lægen vil overvåge din væske- og elektrolytbalance. </li>
+<li>fertilitet. Sorafenib Accord kan nedsætte fertiliteten hos både mænd og kvinder. Tal med lægen, 
+hvis du er bekymret. </li>
+<li>hul på mave-tarm-kanalen (gastrointestinal perforation) kan forekomme under behandlingen (se 
+også Bivirkninger, punkt 4). Hvis dette forekommer, vil lægen afbryde behandlingen.  </li>
+<li>hvis du har kræft i skjoldbruskkirtlen. Lægen vil overvåge indholdet af calcium og 
+skjoldbruskkirtel-hormon i blodet. </li>
+<li>hvis du oplever følgende symptomer, skal du straks kontakte lægen, da det kan være en 
+livstruende tilstand: kvalme, åndenød, uregelmæssig hjerterytme, muskelkramper, krampeanfald, 
+uklar urin og træthed. Disse kan forårsages af en gruppe af stofskiftebetingede komplikationer, der 
+kan opstå under behandling af kræft, som skyldes nedbrydningen af kræftceller 
+(tumorlysesyndrom (TLS)), og som kan føre til ændringer i nyrefunktionen og akut nyresvigt (se 
+også pkt. 4: Bivirkninger). </li>
+</ul>
+<p>Fortæl det til lægen, hvis noget af dette berører dig. Du kan have brug for behandling for dette, 
+eller lægen kan beslutte at ændre din dosis af Sorafenib Accord eller stoppe behandlingen helt (se også 
+Bivirkninger, punkt 4). </p>
+<p>Børn og unge 
+Sorafenib er ikke blevet undersøgt på børn og unge. </p>
+<p>Brug af anden medicin sammen med Sorafenib Accord 
+Andre lægemidler kan påvirke virkningen af Sorafenib Accord, og Sorafenib Accord kan påvirke 
+virkningen af andre lægemidler. Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden 
+medicin, for nylig har taget anden medicin eller planlægger at tage anden medicin.<br />
+- Rifampicin, neomycin eller andre lægemidler mod infektioner (antibiotika) 
+- Perikon, et naturlægemiddel mod depression 
+- Phenytoin, carbamazepin eller phenobarbital, lægemidler mod epilepsi og andre sygdomme 
+- Dexamethason, et kortikosteroid mod forskellige tilstande 
+- Warfarin eller phenprocoumon, blodfortyndende medicin til forebyggelse af blodpropper<br />
+- Doxorubicin, capecitabin, docetaxel, paclitaxel og irinotecan, som er andre lægemidler mod 
+kræft 
+- Digoxin, et lægemiddel mod hjertesygdom. </p>
+<p>Graviditet og amning </p>
+<p>Undgå at blive gravid under behandling med Sorafenib Accord. Hvis du er en kvinde i den 
+fødedygtige alder, skal du bruge effektiv prævention under behandling. Hvis du bliver gravid under 
+behandlingen med Sorafenib Accord, fortæl da straks dette til lægen, som så vil beslutte, om 
+behandlingen skal fortsættes. </p>
+<p>Du må ikke amme dit barn under behandlingen med Sorafenib Accord, da dette lægemiddel kan 
+påvirke barnets vækst og udvikling. </p>
+<p>Trafik- og arbejdssikkerhed 
+Der er intet, der tyder på, at Sorafenib Accord vil påvirke evnen til at føre motorkøretøj eller betjene 
+maskiner. </p>
+<p>Sorafenib Accord indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sorafenib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sorafenib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis af Sorafenib Accord til voksne er 2×200 mg tabletter to gange dagligt. 
+Dette svarer til en daglig dosis på 800 mg eller fire tabletter om dagen. </p>
+<p>Sorafenib Accord tabletter skal synkes med et glas vand, enten uden mad eller med et lavt eller 
+moderat fedtholdigt måltid. Du må ikke tage dette lægemiddel med et måltid med højt fedtindhold, da 
+dette kan gøre Sorafenib Accord mindre virksomt. Hvis du har i sinde at indtage et måltid med højt 
+fedtindhold, skal du tage tabletterne mindst 1 time før eller 2 timer efter måltidet. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Det er vigtigt at tage dette lægemiddel omkring samme tidspunkt hver dag, så der er en jævn mængde i 
+blodet. </p>
+<p>Du skal normalt blive ved med at tage dette lægemiddel så længe, du har gavn af behandlingen og ikke 
+har uacceptable bivirkninger. </p>
+<p>Hvis du har taget for meget Sorafenib Accord 
+Fortæl det øjeblikkeligt til lægen, hvis du (eller andre) har taget mere end din foreskrevne dosis. 
+At tage en for stor mængde Sorafenib Accord øger risikoen for bivirkninger eller alvorlige 
+bivirkninger, især diarré og hududslæt. Lægen kan beslutte, at du skal stoppe med at tage dette 
+lægemiddel. </p>
+<p>Hvis du har glemt at tage Sorafenib Accord 
+Hvis du har glemt at tage en dosis, så tag den, så snart du opdager det. Hvis det er lige før den næste 
+dosis, se da bort fra den glemte dosis, og fortsæt som normalt. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Dette lægemiddel kan også påvirke resultaterne af visse blodprøver. </p>
+<p>Meget almindelige bivirkninger: (kan forekomme hos flere end 1 ud af 10 patienter) 
+- diarré 
+- kvalme 
+- følelse af svaghed og træthed 
+- smerte (heriblandt smerter i munden og maven, hovedpine, smerter i knoglerne, smerter i svulster) 
+- hårtab (alopeci) 
+- røde eller smertefulde håndflader og fodsåler (hånd-fod-hud-reaktion) 
+- kløe og udslæt 
+- opkastning<br />
+- blødning (heriblandt blødning i hjernen, tarmvæggen og luftvejene; hæmoragi)<br />
+- højt blodtryk eller blodtryksstigning (hypertension) 
+- infektioner 
+- appetitløshed 
+- forstoppelse 
+- ledsmerter (artralgi) 
+- feber 
+- vægttab 
+- tør hud </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) 
+- influenzalignende sygdom<br />
+- dårlig fordøjelse (dyspepsi) 
+- synkebesvær 
+- betændelseslignende reaktion i munden eller tør mund, smerter i tungen (stomatitis og slimhinde-
+inflammation) 
+- lavt calciumindhold i blodet (hyperkalcæmi) 
+- lavt kaliumindhold i blodet (hypokaliæmi) 
+- lavt blodsukkerniveau (hypoglykæmi) 
+- muskelsmerter (myalgi) 
+- føleforstyrrelser i fingre og tæer, heriblandt stikken og følelsesløshed (perifer sensorisk neuropati) 
+- depression 
+- erektionsproblemer (impotens) 
+- ændret stemme 
+- akne 
+- betændt, tør eller skællende hud (dermatitis, hudafskalning) 
+- hjertesvigt 
+- hjerteanfald (myokardieinfarkt) eller brystsmerter 
+- tinnitus (susen for ørerne) 
+- nyresvigt 
+- unormalt højt indhold af proteiner i urinen (proteinuri) 
+- generel svaghed eller tab af styrke 
+- nedsat antal hvide blodlegemer (leukopeni og neutropeni) 
+- nedsat antal røde blodlegemer (anæmi) 
+- lavt antal blodplader (trombocytopeni) 
+- infektion i hårsækkene 
+- nedsat aktivitet i skjoldbruskkirtlen (hypotyroidisme) 
+- lavt natriumindhold i blodet (hyponatriæmi) 
+- smagsforstyrrelser 
+- rødme i ansigt og ofte på andre hudområder (flushing) 
+- næseflåd 
+- halsbrand (gastroøsofageal refluks) 
+- hudkræft (keratoakantom)/spinocellulært karcinom i huden) 
+- fortykkelse af hudens øverste lag (hyperkeratose) 
+- pludselige, ufrivillige muskelsammentrækninger (muskelspasmer) </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) 
+- betændelse i maveslimhinde (gastritis) 
+- mavesmerter på grund af betændelse i bugspytkirtlen, galdeblærebetændelse og/eller 
+galdegangsbetændelse<br />
+- gul hud og øjne (gulsot) på grund af forhøjede niveauer af galdepigment (hyperbilirubinæmi) 
+- allergi-lignende reaktioner (heriblandt hudreaktioner og nældefeber) 
+- væskemangel 
+- forstørrede bryster hos mænd (gynækomasti) 
+- åndedrætsbesvær (lungesygdom) 
+- eksem 
+- øget aktivitet i skjoldbruskkirtlen (hypertyreoidisme) 
+- udbredt hududslæt (erythema multiforme) 
+- unormalt højt blodtryk 
+- huller i tarmvæggen (gastrointestinal perforation) 
+- reversibel hævelse i hjernens bagerste del, som kan forbindes med hovedpine, påvirket bevidsthed, 
+krampeanfald og symptomer forbundet med synet, heriblandt synstab (reversibel posterior 
+leukoencefalopati) 
+- en pludselig, alvorlig allergisk reaktion (anafylaktisk reaktion) </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 patienter) 
+- allergisk reaktion med hævelser i huden (f.eks. ansigt og tunge), hvilket kan medføre 
+vejrtrækningsbesvær eller synkebesvær (angioødem) 
+- unormal hjerterytme (QT-forlængelse)<br />
+- betændelse i leveren, hvilket kan medføre kvalme, opkastning, mavesmerter og gulsot 
+(lægemiddelinduceret hepatitis) 
+- udslæt, der ligner solskoldning, kan forekomme på hud, der tidligere har været udsat for 
+strålebehandling. Det kan være alvorligt (radiation recall dermatitis) 
+- alvorlige reaktioner i hud og/eller slimhinder, herunder smertefulde blærer og feber (Stevens-
+Johnsons syndrom) 
+- unormal nedbrydning af musklerne, hvilket kan medføre nyreproblemer (rabdomyolyse) 
+- nyreskade, der forårsager udsivning af en stor mængde protein (nefrotisk syndrom) 
+- betændelse i blodårerne i huden, hvilket kan medføre udslæt (leukocytoklastisk vasculitis) </p>
+<p>Ikke kendt (kan ikke estimeres ud fra tilgængelige data) 
+- forstyrrelser i hjernen, der kan give f.eks. døsighed, adfærdsændringer eller forvirring 
+(encephalapati).<br />
+- en udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og arterielle 
+dissektioner). 
+- kvalme, åndenød, uregelmæssig hjerterytme, muskelkramper, krampeanfald, uklar urin og træthed 
+(tumorlysesyndrom (TLS)) (se pkt. 2). </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekpersonalet eller sygeplejersken . Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. 
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
+af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sorafenib"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sorafenib"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og på hver blister efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sorafenib Accord indeholder:</p>
+<ul>
+<li>Aktivt stof: sorafenib. Hver filmovertrukken tablet indeholder 200 mg sorafenib (som tosilat). </li>
+<li>Øvrige indholdsstoffer: 
+Tabletkerne: Croscarmellosenatrium, mikrokrystallinsk cellulose, hypromellose, 
+natriumlaurilsulfat, magnesiumstearat. Se punkt 2 "Sorafenib Accord indeholder natrium". 
+Filmovertræk: Hypromellose (E464), macrogol (E1521), titandioxid (E171), jernoxid (E172). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Sorafenib Accord 200 mg filmovertrukne tabletter er røde, runde, udadbuede med skrå kanter og en 
+diameter på 12 mm. De er præget med "H1" på den ene side og er glatte på den anden side.  </p>
+<p>Perforeret enkeltdosisblister af aluminium-aluminium i pakningsstørrelser á 112×1 filmovertrukne 
+tabletter i en karton. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona, s/n 
+Edifici Est, 6a Planta 
+08039 Barcelona 
+Spanien </p>
+<p>Fremstiller </p>
+<p>Accord Healthcare Polska Sp. z.o.o. 
+ul.Lutomierska 95-200, Pabianice 
+Polen </p>
+<p>Pharmadox Healthcare Limited 
+KW20A Kordin Industrial Estate 
+Paola PLA 3Malta </p>
+<p>Accord Healthcare B.V. 
+Winthontlaan 200,<br />
+3526 KV Utrecht<br />
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IE / IS / IT / LT / LV / LX / MT / NL 
+/ NO / PT / PL / RO / SE / SI / SK / UK(NI) / ES 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00<br />
+EL 
+Win Medica Pharmaceutical S.A.<br />
+Tel: +30 210 7488<br />
+Denne indlægsseddel blev senest ændret   </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om Sorafenib Accord på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a43f6802b7bc837851c3ee6d33acffd1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sorafenib Package Leaflet for language en"
+Description: "ePI document Bundle for sorafenib Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a43f6802b7bc837851c3ee6d33acffd1"
+* entry[0].resource = composition-en-a43f6802b7bc837851c3ee6d33acffd1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa43f6802b7bc837851c3ee6d33acffd1"
+* entry[=].resource = mpa43f6802b7bc837851c3ee6d33acffd1
+                            
+                    
+Instance: bundlepackageleaflet-da-a43f6802b7bc837851c3ee6d33acffd1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sorafenib Package Leaflet for language da"
+Description: "ePI document Bundle for sorafenib Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a43f6802b7bc837851c3ee6d33acffd1"
+* entry[0].resource = composition-da-a43f6802b7bc837851c3ee6d33acffd1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa43f6802b7bc837851c3ee6d33acffd1"
+* entry[=].resource = mpa43f6802b7bc837851c3ee6d33acffd1
+                            
+                    
+
+
+
+Instance: mpa43f6802b7bc837851c3ee6d33acffd1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Sorafenib Accord 200 mg film-coated tablets"
-Description: "Sorafenib Accord 200 mg film-coated tablets"
+Title: "Medicinal Product sorafenib"
+Description: "sorafenib"
 Usage: #inline
 
  
@@ -371,7 +785,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Sorafenib Accord 200 mg film-coated tablets"
+  * productName = "sorafenib"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -398,29 +812,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a43f6802b7bc837851c3ee6d33acffd1
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sorafenib Package Leaflet for language en"
-Description: "ePI document Bundle for sorafenib Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a43f6802b7bc837851c3ee6d33acffd1ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1696/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sorafenib"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a43f6802b7bc837851c3ee6d33acffd1"
-* entry[0].resource = composition-en-a43f6802b7bc837851c3ee6d33acffd1
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp86618d14d2855d07e91199ccbeb1cd52"
-* entry[=].resource = mp86618d14d2855d07e91199ccbeb1cd52
-                            
-                      
+* title = "List of all ePIs associated with sorafenib"
+
+* subject = Reference(mp86618d14d2855d07e91199ccbeb1cd52)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sorafenib "sorafenib"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a43f6802b7bc837851c3ee6d33acffd1) // sorafenib en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a43f6802b7bc837851c3ee6d33acffd1) // sorafenib da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a43f6802b7bc837851c3ee6d33acffd1
+InstanceOf: List
+
+* insert a43f6802b7bc837851c3ee6d33acffd1ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-fa8a8470c3a3a250549a317d0f9b36a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for arava Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpa20999133c512d29c65a8ebb4015be80)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -410,9 +413,485 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-fa8a8470c3a3a250549a317d0f9b36a2
+InstanceOf: CompositionUvEpi
+Title: "Composition for arava Package Leaflet"
+Description:  "Composition for arava Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa20999133c512d29c65a8ebb4015be80)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - arava"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Arava 
+3. Sådan skal du tage Arava 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What arava is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What arava is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Arava tilhører en gruppe medicin der kaldes antireumatisk medicin. Det indeholder det aktive stof 
+leflunomid. </p>
+<p>Arava bruges til at behandle voksne med aktiv rheumatoid artrit eller med aktiv arthritis psoriatica. </p>
+<p>Symptomerne på rheumatoid artrit er blandt andet en betændelseslignende tilstand i leddene, hævelse, 
+besvær med at bevæge sig og smerter. Andre symptomer der påvirker hele kroppen er appetitløshed, 
+feber, mangel på energi og anæmi (mangel på røde blodlegemer). </p>
+<p>Symptomerne på aktiv arthritis psoriatica er blandt andet en betændelseslignende tilstand i leddene, 
+hævelse, besvær med at bevæge sig, smerter og røde, afskallende pletter på huden (hudlæsioner). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take arava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take arava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Arava 
+- hvis du nogensinde har haft en allergisk reaktion over for leflonumid (specielt en alvorlig 
+hudreaktion, ofte ledsaget af feber, ledsmerter, røde pletter på huden eller blærer, f.eks. Stevens-
+Johnsons syndrom) eller et af de øvrige indholdsstoffer i Arava (angivet i punkt 6), eller hvis du 
+er allergisk over for teriflunomid (til behandling af multipel sklerose), 
+- hvis du har leverproblemer, 
+- hvis du har moderate til svære nyreproblemer, 
+-<br />
+hvis du har et alvorligt lavt antal proteiner i dit blod (hypoproteinæmi), 
+- hvis du lider af en sygdom der påvirker dit immunforsvar (f.eks. aids)<br />
+- hvis du har problemer med din knoglemarv, eller hvis du har et lavt antal røde eller hvide 
+blodlegemer, eller et reduceret antal blodplader, 
+- hvis du lider af en alvorlig infektion, 
+- hvis du er gravid, tror du er gravid eller ammer. </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apoteket eller sundhedspersonalet, før du tager Arava 
+- hvis du nogensinde har haft betændelse i lungen (interstitiel lungesygdom). 
+– 
+hvis du nogensinde har haft tuberkulose eller, hvis du har været i kontakt med en, som har eller 
+har haft tuberkulose. Din læge kan udføre tests for at se, om du har tuberkulose. 
+- hvis du er en mand og ønsker at blive far. Da det ikke kan udelukkes, at Arava findes i sæden, 
+skal der bruges pålidelig prævention under behandlingen med Arava. Mænd, der ønsker at få 
+børn, skal kontakte lægen, der kan tilråde at stoppe med at tage Arava og ordinere bestemte 
+typer medicin, der kan udrense Arava fra kroppen hurtigt og tilstrækkeligt. Det er nødvendigt, at 
+du får taget en blodprøve for at sikre, at Arava er udrenset fra din krop. Derefter skal du vente 
+mindst 3 måneder yderligere, inden du forsøger at blive far. 
+- Hvis du skal have taget en særlig blodprøve (calciumniveau). Målingen kan vise fejlagtige lave 
+calciumniveauer. </p>
+<p>Arava kan lejlighedsvis forårsage problemer med dit blod, din lever og  lunger eller nerverne i dine 
+arme eller ben. Det kan også forårsage alvorlige allergiske reaktioner (herunder lægemiddelreaktion 
+med eosinofili og systemiske symptomer [DRESS]) og øge risikoen for en alvorlig infektion. For at få 
+mere information om dette, skal du læse punkt 4 (Bivirkninger). </p>
+<p>DRESS viser sig først som influenzalignende symptomer og udslæt i ansigtet, herefter som et udbredt 
+udslæt med høj temperatur, forhøjede niveauer af leverenzymer i blodprøver, en forøgelse af en type 
+hvide blodlegemer (eosinofili) og forstørrede lymfeknuder. </p>
+<p>Din læge vil tage regelmæssige blodprøver, før og under behandling med Arava, for at overvåge dine 
+blodceller og din lever. Din læge vil også kontrollere dit blodtryk jævnligt, da Arava kan medføre en 
+stigning i blodtrykket. </p>
+<p>Sig det til lægen, hvis du har længerevarende diarré af ukendt årsag. Lægen vil muligvis foretage 
+yderligere undersøgelser for at stille en mere præcis diagnose. </p>
+<p>Fortæl det til lægen, hvis du får sår på huden under behandlingen med Arava (se også punkt 4). </p>
+<p>Børn og teenagere 
+Arava anbefales ikke til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Arava 
+Fortæl altid lægen eller på apoteket, hvis du bruger, måske vil bruge anden medicin eller har gjort det 
+for nylig. Dette gælder også medicin, som ikke er købt på recept. </p>
+<p>Dette er særligt vigtigt, hvis du tager:</p>
+<ul>
+<li>anden medicin mod reumatoid artrit såsom malariamedicin (f.eks. chloroquin og 
+hydroxychloroquin), intramuskulært eller oralt guld, Penicillamin, azathioprin og andre 
+lægemidler, der påvirker dit immunforsvar (som f.eks. methotrexat), eftersom disse 
+kombinationer ikke er tilrådelige 
+– 
+warfarin og andre orale blodfortyndende lægemidler, da overvågning er nødvendig for at 
+mindske riskikoen for bivirkninger af dette lægemiddel 
+– 
+teriflunomid mod dissemineret sklerose 
+– 
+repaglinid, pioglitazon, nateglinid eller rosiglitazon mod sukkersyge (diabetes) 
+– 
+daunorubicin, doxorubicin, paclitaxel eller topotecan mod kræft (cancer) 
+– 
+duloxetin mod depression, urininkontinens eller nyresygdom hos diabetikere 
+– 
+alosetron til behandling af kraftig diarré 
+– 
+theophyllin mod astma 
+– 
+tizanidin, et muskelafslappende lægemiddel 
+– 
+orale præventionsmidler (indeholdende ethinylestradiol og levonorgestrel) 
+– 
+cefaclor, benzylpenicillin (penicillin G), ciprofloxacin mod infektioner 
+– 
+indomethacin, ketoprofen mod smerter eller inflammation<br />
+– 
+furosemid mod hjertelidelse (vanddrivende) 
+– 
+zidovudin mod HIV infektion 
+– 
+rosuvastatin, simvastatin, atorvastatin, pravastatin mod hyperkolesterolæmi (højt kolesteroltal)<br />
+– 
+sulfasalazin mod inflammatorisk tarmsygdom eller reumatoid artrit </li>
+<li>et lægemiddel, der hedder colestyramin (bruges til at reducere højt kolesteroltal) eller aktivt kul, 
+da disse lægemidler kan nedsætte den mængde Arava, der optages i kroppen. </li>
+</ul>
+<p>Hvis du allerede tager non-steroid antiinflammatorisk medicin (NSAID) og/eller kortikosteroider, 
+kan du fortsætte med at tage dem, efter du er begyndt at tage Arava. </p>
+<p>Vaccinationer 
+Hvis du skal vaccineres, skal du spørge din læge til råds. Visse vacciner bør ikke gives under 
+behandling med Arava og i et vist stykke tid efter endt behandling. </p>
+<p>Brug af Arava sammen med mad, drikke og alkohol 
+Du kan tage Arava med eller uden mad. 
+Da eventuelle leverskader forvoldt af alkohol kan forværres af behandling med Arava, anbefales det 
+ikke at drikke alkohol under behandling med Arava. </p>
+<p>Graviditet og amning 
+Tag ikke Arava, hvis du er gravid eller har en formodning om, at du er gravid. Hvis du er gravid eller 
+bliver gravid, mens du tager Arava, er der en øget risiko for at få et barn med alvorlige medfødte 
+misdannelser. </p>
+<p>Kvinder i den fødedygtige alder må ikke tage Arava, medmindre de anvender sikker prævention. </p>
+<p>Hvis du planlægger at blive gravid efter du er stoppet i behandling med Arava, skal du fortælle det til din 
+læge forinden, da du skal kunne sikre dig, at alle spor af Arava i kroppen er væk før du forsøger at 
+blive gravid. Dette kan tage op til 2 år. Denne periode kan forkortes til få uger, hvis du tager visse 
+lægemidler, som øger udskillelsen af Arava. 
+I alle tilfælde skal en blodprøve bekræfte, at Arava er udskilt i tilstrækkelig grad fra kroppen og derefter 
+skal du vente mindst 1 måned, før du bliver gravid. </p>
+<p>Kontakt din læge for yderligere information om blodprøverne. </p>
+<p>Hvis du har en formodning om, at du er gravid, enten mens du tager Arava eller inden for 2 år efter, du 
+har stoppet behandlingen, skal du omgående kontakte lægen for at få foretaget en graviditetstest. Hvis 
+testen bekræfter, at du er gravid, kan din læge foreslå en behandling med bestemte lægemidler for at 
+udvaske Arava fra din krop hurtigt og tilstrækkeligt, da dette kan nedsætte risikoen for dit barn. </p>
+<p>Tag ikke Arava, hvis du ammer, da leflunomid kan udskilles i mælk. </p>
+<p>Trafik- og arbejdssikkerhed 
+Arava kan gøre dig svimmel, hvilket kan hæmme din evne til at koncentrere dig og reagere. Hvis du 
+bliver påvirket må du ikke køre eller betjene maskiner. </p>
+<p>Arava indeholder lactose 
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take arava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take arava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
+spørg lægen eller på apoteket. </p>
+<p>Arava-behandlingen påbegyndes sædvanligvis med 100 mg leflunomid daglig i de første 3 dage. Fra 
+4. dagen og fremefter indtages sædvanligvis 
+ 
+1 tablet på 10 eller 20 mg Arava daglig til behandling af aktiv leddegigt afhængig af 
+sygdommens alvorlighed. 
+ 
+1 tablet på 20 mg daglig til behandling af gigt i forbindelse med psoriasis. </p>
+<p>Synk tabletten hel med rigeligt vand. </p>
+<p>Det kan vare 4 uger eller længere, før du begynder at føle bedring i din sygdom. Nogle patienter kan 
+efter 4-6 måneders behandling stadig opleve bedring. 
+Du skal almindeligvis fortsætte med at anvende Arava i en længere periode. </p>
+<p>Hvis du har taget for meget Arava 
+Hvis du tager mere Arava end du skal, skal du kontakte din læge eller få anden medicinsk rådgivning. 
+Hvis det er muligt skal du tage tabletterne eller æsken med dig, og vise til lægen. </p>
+<p>Hvis du har glemt at tage Arava 
+Hvis du glemmer at tage en dosis, skal du indtage den manglende tablet, så snart du kommer i tanke 
+om det; dog ikke hvis tidspunktet for næste planlagte dosis er nært forestående. Du må ikke tage en 
+dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Spørg lægen, på apoteket eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl omgående lægen, og stop med at tage Arava:</p>
+<ul>
+<li>hvis du oplever svaghed, føler dig ør i hovedet eller svimmel, eller har åndedrætsbesvær, da 
+disse symptomer kan være tegn på en alvorlig allergisk reaktion </li>
+<li>hvis du får udslæt, eller mundsår, da disse kan være tegn på alvorlige, nogle gange livstruende 
+reaktioner (f.eks. Stevens-Johnsons syndrom, toksisk epidermisk nekrolyse, erythema 
+multiforme, lægemiddelreaktion med eosinofili og systemiske symptomer [DRESS]), se punkt </li>
+<li>
+<p>Fortæl omgående lægen hvis du oplever:</p>
+</li>
+<li>
+<p>bleghed i huden, træthed eller blå mærker, da disse kan være tegn på blodsygdomme 
+forårsaget af en ubalance i de forskellige typer blodceller som blodet er sammensat af.  </p>
+</li>
+<li>træthed, mavesmerter, eller gulsot (gul misfarvning af øjne og hud), da disse kan være tegn på 
+alvorlige problemer, såsom leversvigt, der kan være dødeligt. </li>
+<li>nogen som helst symptomer på en infektion såsom feber, ømhed i halsen eller hoste, da dette 
+lægemiddel kan øge risikoen for, at du får en alvorlig infektion, der kan være livstruende. </li>
+<li>hoste eller åndedrætsproblemer, da disse kan være tegn på lungeproblemer (interstitiel 
+lungesygdom eller pulmonal hypertension) </li>
+<li>usædvanlig prikken, svaghed eller smerte i dine hænder eller fødder, da dette kan være tegn på 
+problemer med dine nerver (perifer neuropati). </li>
+</ul>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer) 
+- et mindre fald i antallet af hvide blodlegemer (leukopeni), 
+- lette allergiske reaktioner, 
+- appetitløshed, vægttab (sædvanligvis ubetydeligt), 
+- slaphed (asteni), 
+-<br />
+hovedpine, svimmelhed,<br />
+-<br />
+unormale hudfornemmelser såsom prikken (paræstesi), 
+- let forhøjelse af blodtrykket, 
+– 
+colitis 
+- diarré,<br />
+- kvalme, opkastning,<br />
+- inflammation i munden eller mundsår 
+- mavesmerter, 
+- blodprøver, som viser en stigning i nogle resultater for leverfunktion, 
+- øget hårtab,<br />
+- eksem, tør hud, udslæt, kløe, 
+- seneskedebetændelse (smerte forårsaget af en inflammation i den hinde der omgiver senerne, 
+som regel i fødder og hænder), 
+- stigning af visse enzymer i blodet (kreatin fosfokinase), 
+- gener fra nerverne i arme eller ben (perifer neuropati). </p>
+<p>Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 personer) 
+- fald i antallet af røde blodlegemer (anæmi) og fald i antallet af blodplader (trombocytopeni), 
+- fald i blodets kaliumniveau, 
+- angst, 
+-<br />
+smagsforstyrrelser, 
+- urticaria (nældefeber), 
+- seneruptur, 
+-<br />
+stigning i fedtniveauet i blodet (kolesterol og triglycerider), 
+- fald i fosfatniveauet i blodet. </p>
+<h2>Sjældne bivirkninger (kan påvirke op til 1 ud af 1.000 personer)</h2>
+<p>stigning i antallet af såkaldte eosinofile blodceller, et svagt fald i antallet af hvide blodlegemer 
+(leukopeni); fald i antallet af alle blodceller (pancytopeni),<br />
+-<br />
+alvorlig forhøjelse af blodtrykket, 
+- lungebetændelse (interstitiel lungesygdom),<br />
+-<br />
+blodprøver kan vise en forhøjelse af nogle leverresultater som kan føre til alvorlige tilstande 
+såsom leverbetændelse og gulsot, alvorlige infektioner (blodforgiftning), som kan være 
+livstruende,<br />
+- alvorlige infektioner kaldet sepsis, der kan være dødeligt, <br />
+- en stigning i bestemte enzymer i blodet (laktatdehydrogenase). </p>
+<h2>Meget sjældne bivirkninger (kan påvirke op til 1 ud af 10.000 personer)</h2>
+<h2>et udtalt fald i antallet af nogle hvide blodlegemer (agranulocytosis),</h2>
+<p>alvorlige og potentielt alvorlige allergiske reaktioner, 
+- betændelse i blodkar (vasculitis inklusive kutan nekrotisk vasculitis), 
+- betændelse i bugspytkirtlen (pankreatitis), 
+- svær leverskade, såsom leversvigt eller nekrose der kan være livstruende, 
+- nogle gange livstruende reaktioner (Stevens-Johnsons syndrom, toksisk epidermal nekrolyse, 
+erythema multiforme). </p>
+<p>Andre bivirkninger såsom nyresvigt, nedsat indhold af urinsyre i blodet, pulmonal hypertension, 
+mandlig infertilitet (der er reversibel, efter du er stoppet med at tage dette lægemiddel), kutan lupus 
+(karakteriseret ved udslæt/rødme på hudområder udsat for lys), psoriasis (ny eller forværret), DRESS 
+og hudsår (runde, åbne sår i huden, hvor man kan se det underliggende væv) kan også forekomme. 
+Hyppigheden er ukendt. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store arava"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store arava"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, som står på pakningen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Blister:<br />
+Opbevares i den originale yderpakning. </p>
+<p>Tabletbeholder:<br />
+Hold tabletbeholderen tæt tillukket. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Arava indeholder:</p>
+<ul>
+<li>Aktivt stof: Leflunomid. En filmovertrukken tablet indeholder 10 mg leflunomid. </li>
+<li>Øvrige indholdsstoffer: Majsstivelse, povidon (E1201), crospovidon (E1202), kolloid vandfri 
+silica, magnesiumstearat (E470b) og lactosemonohydrat i tabletkernen, såvel som talcum (E553b), 
+hypromellose (E464), titandioxid (E171) og macrogol 8000 i filmovertrækket. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Arava 10 mg filmovertrukne tabletter er hvide til næsten hvide og runde. Præget med ZBN på den ene 
+side. </p>
+<p>Tabletterne er pakket i blisterpakninger eller tabletglas. 
+Der findes pakninger med 30 og 100 tabletter  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaveren af markedsføringstilladelsen<br />
+Sanofi-Aventis Deutschland GmbH 
+D-65926 Frankfurt am Main 
+Tyskland </p>
+<p>Fremstiller 
+Opella Healthcare International SAS 
+56, Route de Choisy 
+60200 Compiègne 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 – 0 </p>
+<p>España 
+sanofi-aventis, S.A.<br />
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska<br />
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 <br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 536 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Andre informationskilder 
+Du kan finde yderligere information om Arava på det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu/. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Arava 20 mg filmovertrukne tabletter 
+leflunomid </p>
+<p>Læs denne indlægsseddel grundigt inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sundhedspersonalet,, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give det til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer som du har. 
+- Tal med lægen, apotekspersonalet eller sundhedspersonalet, hvis en bivirkning bliver værre, 
+eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-fa8a8470c3a3a250549a317d0f9b36a2
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for arava Package Leaflet for language en"
@@ -431,5 +910,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-fa8a8470c3a3a250549a317d0f9b36a2"
 * entry[0].resource = composition-en-fa8a8470c3a3a250549a317d0f9b36a2
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfa8a8470c3a3a250549a317d0f9b36a2"
+* entry[=].resource = mpfa8a8470c3a3a250549a317d0f9b36a2
+                            
+                    
+Instance: bundlepackageleaflet-da-fa8a8470c3a3a250549a317d0f9b36a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for arava Package Leaflet for language da"
+Description: "ePI document Bundle for arava Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-fa8a8470c3a3a250549a317d0f9b36a2"
+* entry[0].resource = composition-da-fa8a8470c3a3a250549a317d0f9b36a2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfa8a8470c3a3a250549a317d0f9b36a2"
+* entry[=].resource = mpfa8a8470c3a3a250549a317d0f9b36a2
+                            
+                    
+
+
+
+Instance: mpfa8a8470c3a3a250549a317d0f9b36a2
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product arava"
+Description: "arava"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/99/118/001-004"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Leflunomide is indicated for the treatment of adult patients with:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "arava"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: fa8a8470c3a3a250549a317d0f9b36a2ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "arava"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with arava"
+
+* subject = Reference(mpa20999133c512d29c65a8ebb4015be80)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#arava "arava"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-fa8a8470c3a3a250549a317d0f9b36a2) // arava en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-fa8a8470c3a3a250549a317d0f9b36a2) // arava da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-fa8a8470c3a3a250549a317d0f9b36a2
+InstanceOf: List
+
+* insert fa8a8470c3a3a250549a317d0f9b36a2ListRuleset
+    

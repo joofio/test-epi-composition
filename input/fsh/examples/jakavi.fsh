@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e591146dd189692c568ef28e3005a424
 InstanceOf: CompositionUvEpi
 Title: "Composition for jakavi Package Leaflet"
@@ -467,12 +470,564 @@ http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-da-e591146dd189692c568ef28e3005a424
+InstanceOf: CompositionUvEpi
+Title: "Composition for jakavi Package Leaflet"
+Description:  "Composition for jakavi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0a5f9bfae50dd4732ab596efd618ac90)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0a5f9bfae50dd4732ab596efd618ac90
+* title = "TEST PURPOSES ONLY - jakavi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Jakavi </li>
+<li>Sådan skal du tage Jakavi </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What jakavi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What jakavi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jakavi indeholder det aktive stof ruxolitinib. </p>
+<p>Jakavi anvendes til behandling af voksne patienter med en forstørret milt eller med symptomer, der er 
+relateret til myelofibrose, en sjælden form for blodkræft. </p>
+<p>Jakavi anvendes også til behandling af voksne patienter med polycythæmia vera, som er resistente 
+over for eller ikke kan tåle behandling med hydroxycarbamid. </p>
+<p>Jakavi anvendes også til behandling af patienter i alderen 12 år og derover og voksne med graft-
+versus-host-sygdom (GvHD). Der findes to former af GvHD: en tidlig form kaldet akut GvHD, som 
+oftest opstår kort tid efter transplantationen, og som kan påvirke huden, leveren og mave-tarm-
+kanalen, og en form kaldet kronisk GvHD, som opstår senere, som regel uger til måneder efter 
+transplantationen. Kronisk GvHD kan påvirke stort set alle organer. </p>
+<p>Sådan virker Jakavi 
+En af de ting, der er karakteristisk for myelofibrose, er at milten forstørres. Myelofibrose er en sygdom 
+i knoglemarven, hvor marven erstattes af arvæv. Den unormale marv kan ikke længere producere 
+tilstrækkeligt med normale blodlegemer, og derfor bliver milten betydeligt forstørret. Ved at blokere 
+virkningen af visse enzymer (kaldet Janus-associerede kinaser) kan Jakavi reducere miltens størrelse 
+hos patienter med myelofibrose og lindre symptomer, som fx feber, nattesved, knoglesmerter og 
+vægttab. Jakavi kan hjælpe med at reducere risikoen for alvorlige komplikationer i blod eller blodkar. </p>
+<p>Polycytæmia vera er en sygdom i knoglemarven, hvor knoglemarven producerer for mange røde 
+blodlegemer. Blodet bliver tykkere som følge af det øgede antal røde blodlegemer. Jakavi kan lindre 
+symptomerne, reducere miltens størrelse og nedsætte mængden af røde blodlegemer hos patienter med 
+polycythæmia vera ved selektivt at blokere enzymer, som kaldes Janus-associerede kinaser (JAK1 og 
+JAK2), og således potentielt nedsætte risikoen for alvorlige komplikationer i blod- eller blodkar. </p>
+<p>Graft-versus-host-sygdom er en komplikation, der opstår efter en transplantation, når specifikke celler 
+(T-celler) i donorens transplantat (fx knoglemarv) ikke genkender værtscellerne/-organerne og 
+angriber dem. Jakavi blokerer specifikt nogle enzymer, der kaldes for Janus-associerede kinaser 
+(JAK1 og JAK2), og reducerer derved tegn og symptomer på den akutte og kroniske form af graft-
+versus-host-sygdom, hvilket fører til sygdomsforbedring og overlevelse af de transplanterede celler. </p>
+<p>Hvis du har spørgsmål til, hvordan Jakavi virker, eller hvorfor det er ordineret til dig, skal du spørge 
+din læge. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take jakavi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take jakavi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følg alle lægens anvisninger omhyggeligt. De kan afvige fra de generelle oplysninger i denne 
+indlægsseddel. </p>
+<p>Tag ikke Jakavi 
+- hvis du er allergisk over for ruxolitinib eller et af de øvrige indholdsstoffer (angivet i punkt 6). 
+- hvis du er gravid eller ammer. 
+Hvis noget af det ovenstående gælder for dig, skal du fortælle det til lægen, som vil bestemme om du 
+skal begynde at tage Jakavi. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Jakavi 
+- hvis du har infektioner. Det kan være nødvendigt at behandle din infektion, før du starter med at 
+tage Jakavi. Det er vigtigt, at du fortæller din læge, hvis du nogensinde har haft tuberkulose, 
+eller hvis du har været i tæt kontakt med nogen, der har eller har haft tuberkulose. Din læge kan 
+foretage nogle undersøgelser for at se, om du har tuberkulose eller andre infektioner. Det er 
+vigtigt, at du fortæller det til din læge, hvis du nogensinde har haft hepatitis B. 
+- hvis du har nyreproblemer. Din læge kan måske være nødsaget til at udskrive en anden dosis af 
+Jakavi. 
+- hvis du har eller nogensinde har haft leverproblemer. Din læge kan måske være nødsaget til at 
+udskrive en anden dosis af Jakavi. 
+- hvis du tager andre lægemidler (se punktet "Brug af andre lægemidler sammen med Jakavi"). 
+- hvis du nogensinde har haft tuberkulose. 
+- hvis du nogensinde har haft kræft, især hudkræft. 
+- hvis du har eller har haft hjerteproblemer. 
+- hvis du er 65 år eller ældre. Patienter i alderen 65 år og ældre kan have øget risiko for 
+hjerteproblemer, herunder hjerteanfald og nogle former for kræft. 
+- hvis du er ryger eller tidligere har været det. </p>
+<p>Tal med din læge eller apotekspersonalet, mens du behandles med Jakavi 
+- hvis du oplever uventede blå mærker og/eller blødninger, usædvanlig træthed, åndenød under 
+motion eller i hvile, usædvanlig bleg hud eller hyppige infektioner (dette er tegn på 
+blodsygdomme). 
+- hvis du oplever feber, kuldegysninger eller andre symptomer på infektioner 
+- hvis du oplever kronisk hoste med blodigt opspyt, feber, nattesved og vægttab (dette kan være 
+tegn på tuberkulose). 
+- hvis du har nogen af følgende symptomer, eller hvis nogen tæt på dig bemærker, at du har nogle 
+af disse symptomer: forvirring eller vanskelighed ved at tænke, tab af balance eller gangbesvær, 
+klodsethed, talebesvær, nedsat styrke eller svaghed i den ene side af kroppen, sløret syn og/eller 
+synstab. Dette kan være tegn på en alvorlig hjerneinfektion, og din læge kan foreslå yderligere 
+undersøgelser og opfølgning. 
+- hvis du udvikler smertefuldt hududslæt med blærer (dette er tegn på helvedesild). 
+- hvis du bemærker ændringer i huden. Dette kan kræve yderligere observation, da der har været 
+indberetninger om visse typer af hudkræft (ikke modermærke-kræft). 
+- hvis du oplever pludselig åndenød eller åndedrætsbesvær, brystsmerter eller smerter i den øvre 
+del ryggen, hævelse af benet eller armen, smerter eller ømhed i benene, eller rødme eller 
+misfarvning i benet eller armen, da dette kan være tegn på blodpropper i venerne. </p>
+<p>Blodprøver 
+Før du starter behandlingen med Jakavi, vil din læge tage nogle blodprøver for at finde frem til den 
+bedste startdosis til dig. Du skal have taget flere blodprøver under behandlingen, for at din læge kan 
+holde øje med, hvor mange blodlegemer (hvide blodlegemer, røde blodlegemer og blodplader) der er i 
+din krop, samt vurdere, hvordan du reagerer på behandlingen, og om Jakavi har en uønsket virkning på 
+disse blodlegemer. Din læge er måske nødt til at justere dosis eller stoppe behandlingen. Din læge vil 
+omhyggeligt undersøge, om du har nogle tegn eller symptomer på infektioner inden og under 
+behandlingen med Jakavi. Din læge vil også regelmæssigt undersøge dine niveauer af lipider 
+(fedtstoffer) i blodet. </p>
+<p>Børn og unge 
+Denne medicin er ikke beregnet til brug til børn eller unge under 18 år, der har sygdommen 
+myelofibrose eller polycythæmia vera, da den ikke har været undersøgt til denne aldersgruppe. </p>
+<p>Jakavi kan anvendes til patienter på 12 år og derover til behandling af graft-versus-host-sygdom. </p>
+<p>Brug af andre lægemidler sammen med Jakavi 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Det er især vigtigt, at du fortæller, hvis du har taget nogle af følgende præparater, som indeholder et 
+eller flere af følgende aktive stoffer, da din læge kan være nødsaget til at justere din dosis af Jakavi. </p>
+<p>Følgende kan øge risikoen for bivirkninger med Jakavi:</p>
+<ul>
+<li>Nogle former for lægemidler til behandling af infektioner. Dette omfatter lægemidler, der 
+bruges til behandling af svampeinfektioner (fx ketoconazol, itraconazol, posaconazol, 
+fluconazol og voriconazol), lægemidler, der bruges til behandling af visse typer 
+bakterieinfektioner (antibiotika, som fx clarithromycin, telithromycin, ciprofloxacin eller 
+erythromycin), lægemidler, der bruges til behandling af virusinfektioner, herunder HIV-
+infektion/AIDS (fx amprenavir, atazanavir, indinavir, lopinavir/ritonavir, nelfinavir, ritonavir, 
+saquinavir), og lægemidler, der bruges til behandling af hepatitis C (boceprevir, telaprevir). </li>
+<li>Nefazodon, et lægemiddel som bruges til behandling af depression. </li>
+<li>Mibefradil eller diltiazem, et lægemiddel som bruges til behandling af forhøjet blodtryk og 
+kronisk hjertekrampe. </li>
+<li>Cimetidin, et lægemiddel som bruges til behandling af halsbrand. </li>
+</ul>
+<p>Følgende kan nedsætte virkningen af Jakavi:</p>
+<ul>
+<li>Avasimib, et lægemiddel som bruges til behandling af hjertesygdom. </li>
+<li>Phenytoin, carbamazepin eller phenobarbital og andre midler mod epilepsi, som bruges til at 
+standse krampeanfald. </li>
+<li>Rifabutin eller rifampicin, lægemidler som bruges til behandling af tuberkulose (TB). </li>
+<li>Prikbladet perikum (Hypericum perforatum), et naturlægemiddel, der bruges til behandling af 
+depression. </li>
+</ul>
+<p>Mens du tager Jakavi, må du aldrig begynde at tage nye lægemidler uden først at spørge den læge til 
+råds, som har ordineret Jakavi. Dette omfatter receptpligtige lægemidler, håndkøbslægemidler og 
+naturlægemidler eller alternative lægemidler. </p>
+<p>Graviditet og amning 
+Du må ikke tage Jakavi under graviditet. Tal med din læge om, hvordan du kan træffe passende 
+forholdsregler for at undgå at blive gravid, mens du tager Jakavi. </p>
+<p>Du må ikke amme, mens du tager Jakavi. Fortæl det til lægen, hvis du ammer. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Hvis du føler dig svimmel, når du har taget Jakavi, må du ikke køre bil eller betjene maskiner. </p>
+<p>Jakavi indeholder lactose og natrium 
+Jakavi indeholder lactose (mælkesukker). Kontakt lægen, før du tager dette lægemiddel, hvis lægen 
+har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take jakavi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take jakavi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Doseringen af Jakavi afhænger af patientens blodcelletal. Din læge vil måle antallet af blodlegemer i 
+din krop og finde frem til den bedste dosering til dig, specielt hvis du har lever- eller nyreproblemer. 
+- Den anbefalede startdosis ved myelofibrose er 5 mg to gange daglig, 10 mg to gange daglig, 
+15 mg to gange daglig eller 20 mg to gange daglig, afhængigt af dit blodcelletal. 
+- Den anbefalede startdosis ved polycythæmia vera og graft-versus-host-sygdom er 10 mg 
+2 gange daglig. 
+- Den maksimale dosis er 25 mg to gange daglig. </p>
+<p>Din læge vil altid fortælle dig nøjagtigt, hvor mange Jakavi-tabletter du skal tage. </p>
+<p>Under behandlingen råder din læge dig måske til at tage en lavere eller højere dosis, hvis resultaterne 
+af blodprøverne viser, at det er nødvendigt, hvis du har problemer med lever eller nyrer, eller hvis du 
+også har brug for behandling med visse andre former for lægemidler. </p>
+<p>Hvis du er i dialysebehandling, skal du enten tage en enkelt dosis eller to separate doser. Du skal kun 
+tage Jakavi på dialysedagen, og først når dialysen er afsluttet. Din læge vil fortælle dig, om du skal 
+tage en enkelt eller to doser, og hvor mange tabletter du skal tage i hver dosis. </p>
+<p>Du skal tage Jakavi på samme tidspunkt hver dag, enten sammen med eller uden mad. </p>
+<p>Du skal fortsætte med at tage Jakavi, så længe din læge siger, at du skal gøre det. Dette er en 
+længerevarende behandling. </p>
+<p>Din læge vil kontrollere din tilstand regelmæssigt for at sikre, at behandlingen virker, som den skal. </p>
+<p>Hvis du har spørgsmål om, hvor længe du skal tage Jakavi, så tal med din læge eller apoteket. </p>
+<p>Hvis du oplever visse bivirkninger (fx blodsygdomme), er din læge måske nødt til at ændre den 
+mængde Jakavi, du skal tage, eller bede dig om at holde op med at tage Jakavi i et stykke tid. </p>
+<p>Hvis du har taget for meget Jakavi 
+Hvis du er kommet til at tage mere Jakavi, end din læge har ordineret, skal du straks kontakte enten 
+din læge eller apoteket. </p>
+<p>Hvis du har glemt at tage Jakavi 
+Hvis du har glemt at tage Jakavi, skal du blot tage næste dosis til sædvanlig tid. Du må ikke tage en 
+dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Jakavi 
+Hvis du afbryder behandlingen med Jakavi, kan dine symptomer på myelofibrose eller polycythæmia 
+vera vende tilbage. Ved graft-versus-host-sygdom er det muligt at nedsætte dosis eller stoppe din 
+behandling med Jakavi, hvis du reagerer på behandlingen. Dette skal foregå under lægeligt opsyn. 
+Derfor må du ikke stoppe med at tage Jakavi eller ændre dosis uden først at have talt med lægen om 
+det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De fleste af bivirkningerne ved Jakavi er milde til moderate og forsvinder generelt efter nogle få dages 
+eller få ugers behandling. </p>
+<p>Myelofibrose og polycythæmia vera </p>
+<p>Visse bivirkninger kan være alvorlige 
+Søg omgående lægehjælp, før du tager den næste planlagte dosis, hvis du oplever følgende 
+alvorlige bivirkninger: 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter):</p>
+<ul>
+<li>ethvert tegn på blødning fra maven eller tarmen, som fx forbigående sort eller blodig afføring 
+eller blodigt opkast </li>
+<li>uventede blå mærker og/eller blødninger, usædvanlig træthed, åndenød under motion eller i 
+hvile, usædvanlig bleg hud eller hyppige infektioner (mulige symptomer på blodsygdomme) </li>
+<li>smertefuldt hududslæt med blærer (dette er tegn på helvedesild (herpes zoster)) </li>
+<li>feber, kuldegysninger eller andre symptomer på infektioner </li>
+<li>lavt niveau af røde blodlegemer (anæmi), lavt niveau af hvide blodlegemer (neutropeni) eller 
+lavt niveau af blodplader (trombocytopeni) </li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter):</p>
+<ul>
+<li>ethvert tegn på blødninger i hjernen, som fx pludseligt ændret bevidsthedsniveau, vedvarende 
+hovedpine, følelsesløshed, snurren, svaghed eller lammelse. </li>
+</ul>
+<p>Andre bivirkninger 
+Andre mulige bivirkninger omfatter de bivirkninger, der er anført nedenfor. Hvis du får disse 
+bivirkninger, skal du kontakte lægen eller apotekspersonalet. </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>højt niveau af kolesterol eller fedt i blodet (hyperkolesterolæmi/hypertriglyceridæmi) </li>
+<li>unormale resultater af prøver for leverfunktionen </li>
+<li>svimmelhed </li>
+<li>hovedpine </li>
+<li>urinvejsinfektion </li>
+<li>vægtforøgelse </li>
+<li>feber, hoste, vanskelig eller smertefuld vejrtrækning, hvæsen, smerter i brystet, når man trækker 
+vejret (mulige symptomer på lungebetændelse) </li>
+<li>højt blodtryk (hypertension), som også kan være årsag til svimmelhed og hovedpine </li>
+<li>forstoppelse </li>
+<li>højt lipase-niveau i blodet </li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer):</p>
+<ul>
+<li>nedsat antal af alle tre typer af blodceller - røde blodlegemer, hvide blodlegemer og blodplader 
+(pancytopeni) </li>
+<li>øget luft i tarmen (flatulens) </li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer):</p>
+<ul>
+<li>tuberkulose </li>
+<li>genopblussen af hepatitis B-infektion (hvilket kan medføre gulfarvning af hud og øjne, 
+mørkebrunt urin, smerter i den højre side af maven, feber og kvalme eller opkastning) </li>
+</ul>
+<p>Graft-versus-host-sygdom (GvHD) </p>
+<p>Visse bivirkninger kan være alvorlige 
+Søg omgående lægehjælp, før du tager den næste planlagte dosis, hvis du oplever følgende 
+alvorlige bivirkninger: 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter):</p>
+<ul>
+<li>feber, smerter, rødme og/eller vejrtrækningsbesvær (kan være symptomer på en infektion med 
+cytomegalovirus (cytomegalovirus-infektion)) </li>
+<li>feber, smerter i forbindelse med vandladning (kan være symptomer på en urinvejsinfektion) </li>
+<li>hurtig puls, feber, forvirring og hurtig vejrtrækning (kan være symptomer på blodforgiftning 
+(sepsis), som er en alvorlig tilstand, der opstår som reaktion på en infektion, der forårsager 
+udbredt betændelse) </li>
+<li>træthed, udmattelse, bleg hud (kan være symptomer på blodmangel (anæmi), som skyldes et lavt 
+antal røde blodlegemer), hyppige infektioner, feber, kuldegysninger, ondt i halsen eller mundsår 
+på grund af infektioner (kan være symptomer på neutropeni, som skyldes et lavt antal hvide 
+blodlegemer), spontane blødninger eller blå mærker (kan være symptomer på trombocytopeni, 
+som skyldes et lavt antal blodplader) </li>
+<li>lavt antal af alle tre typer blodceller: røde blodlegemer, hvide blodlegemer og blodplader 
+(pancytopeni) </li>
+</ul>
+<p>Andre bivirkninger 
+Andre bivirkninger omfatter de bivirkninger, der er anført nedenfor. Hvis du får disse bivirkninger, 
+skal du kontakte lægen eller apotekspersonalet. </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter) 
+- højt niveau af kolesterol (hyperkolesterolæmi) 
+- hovedpine 
+- højt blodtryk (hypertension) 
+- højt niveau af lipase i blodet 
+- unormalt blodprøveresultat, der kan være tegn på problemer med bugspytkirtlen (forhøjet 
+amylase) 
+- kvalme 
+- unormale leverfunktionstal 
+- øget niveau af muskelenzymer i blodet, hvilket kan være tegn på muskelskade og/eller 
+muskelnedbrydning (øget kreatinfosfokinase i blodet) 
+- øget blodniveau af kreatinin, et stof, som normalt udskilles via nyrerne til urinen, hvilket kan 
+betyde, at dine nyrer ikke fungerer ordentligt (forhøjet kreatinin i blodet) </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter):</p>
+<ul>
+<li>feber, smerter, rødme og/eller vejrtrækningsbesvær (kan være symptomer på infektion med BK-
+virus) </li>
+<li>vægtøgning </li>
+<li>forstoppelse </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store jakavi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store jakavi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken eller blister efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jakavi indeholder:</p>
+<ul>
+<li>Aktivt stof: ruxolitinib </li>
+<li>Hver Jakavi 5 mg tablet indeholder 5 mg ruxolitinib. </li>
+<li>Hver Jakavi 10 mg tablet indeholder 10 mg ruxolitinib. </li>
+<li>Hver Jakavi 15 mg tablet indeholder 15 mg ruxolitinib. </li>
+<li>Hver Jakavi 20 mg tablet indeholder 20 mg ruxolitinib. </li>
+<li>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, magnesiumstearat, kolloid vandfri silica, 
+natriumstivelseglycolat, povidon, hydroxypropylcellulose, lactosemonohydrat. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Jakavi 5 mg tabletter er hvide eller næsten hvide, runde tabletter præget med "NVR" på den ene side 
+og "L5" på den anden side. 
+Jakavi 10 mg tabletter er hvide eller næsten hvide, runde tabletter præget med "NVR" på den ene side 
+og "L10" på den anden side. 
+Jakavi 15 mg tabletter er hvide eller næsten hvide, ovale tabletter præget med "NVR" på den ene side 
+og "L15" på den anden side. 
+Jakavi 20 mg tabletter er hvide eller næsten hvide, aflange tabletter præget med "NVR" på den ene 
+side og "L20" på den anden side. </p>
+<p>Jakavi-tabletterne leveres i blisterpakninger indeholdende 14 eller 56 tabletter eller multipakninger 
+indeholdende 168 (3 pakninger med 56) tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Farmacéutica S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spanien </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nürnberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf.: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e591146dd189692c568ef28e3005a424
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jakavi Package Leaflet for language en"
+Description: "ePI document Bundle for jakavi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e591146dd189692c568ef28e3005a424"
+* entry[0].resource = composition-en-e591146dd189692c568ef28e3005a424
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe591146dd189692c568ef28e3005a424"
+* entry[=].resource = mpe591146dd189692c568ef28e3005a424
+                            
+                    
+Instance: bundlepackageleaflet-da-e591146dd189692c568ef28e3005a424
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jakavi Package Leaflet for language da"
+Description: "ePI document Bundle for jakavi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e591146dd189692c568ef28e3005a424"
+* entry[0].resource = composition-da-e591146dd189692c568ef28e3005a424
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe591146dd189692c568ef28e3005a424"
+* entry[=].resource = mpe591146dd189692c568ef28e3005a424
+                            
+                    
+
+
+
+Instance: mpe591146dd189692c568ef28e3005a424
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Jakavi 5 mg tablets"
-Description: "Jakavi 5 mg tablets"
+Title: "Medicinal Product jakavi"
+Description: "jakavi"
 Usage: #inline
 
  
@@ -492,7 +1047,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Jakavi 5 mg tablets"
+  * productName = "jakavi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -519,29 +1074,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e591146dd189692c568ef28e3005a424
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for jakavi Package Leaflet for language en"
-Description: "ePI document Bundle for jakavi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e591146dd189692c568ef28e3005a424ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Jakavi 5 mg tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "jakavi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e591146dd189692c568ef28e3005a424"
-* entry[0].resource = composition-en-e591146dd189692c568ef28e3005a424
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0a5f9bfae50dd4732ab596efd618ac90"
-* entry[=].resource = mp0a5f9bfae50dd4732ab596efd618ac90
-                            
-                      
+* title = "List of all ePIs associated with jakavi"
+
+* subject = Reference(mp0a5f9bfae50dd4732ab596efd618ac90)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#jakavi "jakavi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e591146dd189692c568ef28e3005a424) // jakavi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e591146dd189692c568ef28e3005a424) // jakavi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e591146dd189692c568ef28e3005a424
+InstanceOf: List
+
+* insert e591146dd189692c568ef28e3005a424ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-00c9db2c528dacf2cdd39b041aea9315
 InstanceOf: CompositionUvEpi
 Title: "Composition for sifrol Package Leaflet"
@@ -629,12 +632,621 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-00c9db2c528dacf2cdd39b041aea9315
+InstanceOf: CompositionUvEpi
+Title: "Composition for sifrol Package Leaflet"
+Description:  "Composition for sifrol Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5aeefe7af885338f48300e003f1963b6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5aeefe7af885338f48300e003f1963b6
+* title = "TEST PURPOSES ONLY - sifrol"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Sifrol
+3. Sådan skal du tage Sifrol
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sifrol is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sifrol is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sifrol indeholder det aktive stof pramipexol, og tilhører en gruppe lægemidler, der kaldes 
+dopaminagonister, som stimulerer (dopaminreceptorerne i hjernen. Stimulering af 
+dopaminreceptorerne udløser nerveimpulser i hjernen, som hjælper med at kontrollere kroppens 
+bevægelser.
+Sifrol bruges til behandling af voksne patienter med symptomer på Parkinsons sygdom. Sifrol kan 
+tages alene eller i kombination med levodopa (anden medicin til behandling af Parkinsons sygdom)</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sifrol"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sifrol"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Sifrol</h2>
+<p>hvis du er allergisk over for pramipexol eller et af de øvrige indholdsstoffer i Sifrol (angivet i 
+punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du tager Sifrol. Fortæl det til din læge, hvis du har eller har haft eller udvikler 
+nogle sygdomme eller symptomer, især nogle af følgende:
+
+Nyresygdomme
+
+Hallucinationer (ser, hører eller føler ting, som ikke er der). De fleste hallucinationer er syns-
+hallucinationer
+
+Dyskinesi (f.eks. unormale, ufrivillige bevægelser af arme og ben)
+Hvis du har Parkinsons sygdom i fremskreden grad og samtidig behandles med levodopa, kan der 
+være risiko for udvikling af dyskinesi, når Sifrol-dosis øges
+80
+
+Dystoni (manglende evne til at holde din krop og nakke lige og oprejst (aksial dystoni)). Du kan 
+især opleve, at dit hoved og din nakke falder forover (denne tilstand kaldes antecollis), at din 
+lænd bøjer forover (denne tilstand kaldes camptocormia), eller at din ryg falder til siden (denne 
+tilstand kaldes pleurothotonus eller Pisa-syndrom)
+
+Søvnighed og episoder med pludseligt indsættende søvn
+
+Psykoser (f.eks. som ved symptomer på skizofreni)
+
+Synsnedsættelse. Så længe du er i behandling med Sifrol, anbefales det at få øjnene undersøgt 
+regelmæssigt
+
+Alvorlige hjerte- eller karsygdomme. Dit blodtryk skal kontrolleres regelmæssigt, især i starten 
+af behandlingen. Dette er for at undgå postural hypotension (et blodtryksfald, når du for 
+eksempel rejser dig op)
+Fortæl din læge, hvis du eller din familie/pårørende bemærker, at du er ved at udvikle trang til at 
+opføre dig på måder, der er usædvanlige for dig, og du ikke kan modstå trangen eller fristelsen til at 
+udføre visse aktiviteter, der kan skade dig selv eller andre. Dette kaldes manglende impulskontrol og 
+kan omfatte adfærd som ludomani, overdreven madindtagelse eller trang til indkøb, en unormal stor 
+sexlyst eller sex-interesse med en stigning i seksuelle tanker eller følelser. Din læge skal muligvis 
+justere din dosis eller afbryde behandlingen.
+Fortæl din læge, hvis du eller din familie/pårørende bemærker, at du er ved at udvikle mani (føle sig 
+oprørt, opstemt eller ophidset) eller delirium (nedsat bevidsthed, forvirring eller manglende 
+realitetsopfattelse). Din læge skal muligvis justere din dosis eller afbryde behandlingen.
+Fortæl din læge, hvis du oplever symptomer såsom depression, apati, angst, træthed, svedtendens eller 
+smerter, efter at du er stoppet med eller har nedsat dosis i din Sifrol-behandling. Hvis problemet varer 
+længere end et par uger, skal din læge muligvis justere din behandling.
+Fortæl det til din læge, hvis du udvikler en manglende evne til at holde din krop og nakke lige og 
+oprejst (aksial dystoni). Hvis dette sker, kan det være, at lægen vil justere eller ændre din medicin.
+Sifrol-depottabletter er specialfremstillede tabletter, hvor det aktive stof langsomt frigives efter 
+indtagelse af tabletten. Dele af tabletterne kan lejlighedsvis passere gennem systemet og udskilles i 
+afføringen, hvor de kan ligne hele tabletter. Fortæl det til lægen, hvis du finder tabletstykker i din 
+afføring.
+Børn og unge
+Børn og unge under 18 år bør ikke bruge Sifrol.
+Brug af andre lægemidler sammen med Sifrol
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Dette gælder også medicin, 
+naturlægemidler, helsekost eller tilskud, som du har fået uden recept.
+Du bør undgå at tage medicin mod psykiske lidelser (antipsykotika) sammen med Sifrol.
+Vær forsigtig, hvis du tager følgende medicin:
+
+cimetidin (til at behandle for meget mavesyre og mavesår)
+
+amantadin (kan anvendes til at behandle Parkinsons sygdom)
+
+mexitil (til at behandle uregelmæssig hjerterytme, en tilstand, der kaldes ventrikelarytmi)
+
+zidovudin (kan anvendes til at behandleerhvervet immundefekt syndrom (aids), en sygdom i 
+immunsystemet hos mennesker
+
+cisplatin (til at behandle forskellige typer kræft)
+
+quinin (kan anvendes til forebyggelse af smertefulde natlige kramper i benene og til behandling 
+af en malariatype kendt som falciparum malaria (ondartet malaria))
+
+procainamid (til at behandle uregelmæssig hjerterytme)
+81
+Hvis du tager levodopa, anbefales det at nedsætte dosis, når du starter behandling med Sifrol.
+Vær forsigtig, hvis du tager beroligende medicin eller drikker alkohol, da Sifrol kan påvirke din evne 
+til at føre motorkøretøj og betjene maskiner.
+Brug af Sifrol sammen med mad, drikke og alkohol
+Ved behandling med Sifrol, skal du være forsigtig med indtagelse af alkohol.
+Sifrol kan enten tages sammen med mad eller alene.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. Din læge vil tale med dig, om du skal 
+fortsætte med at tage Sifrol.
+Det er ukendt, hvilken virkning Sifrol kan have på det ufødte barn. Derfor må du ikke tage Sifrol, hvis 
+du er gravid, medmindre din læge anbefaler dig at gøre det.
+Sifrol må ikke anvendes under amning. Sifrol kan nedsætte mælkeproduktionen og kan også overføres 
+til din baby via brystmælk. Hvis du ikke kan undvære Sifrol, bør amningen stoppe.
+Spørg din læge eller apotekspersonalet til råds, før du tager nogen form for medicin.
+Trafik- og arbejdssikkerhed
+Sifrol kan give hallucinationer (du ser, hører eller føler ting, der ikke er der). Hvis du påvirkes af dette, 
+må du ikke føre motorkøretøj eller betjene maskiner.
+Sifrol er blevet forbundet med søvnighed og pludselig indsættende søvn, specielt for 
+Parkinsonpatienter. Du må ikke føre motorkøretøj eller betjene maskiner, hvis du oplever disse 
+bivirkninger. Du bør fortælle det til din læge, hvis dette sker.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sifrol"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sifrol"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. Lægen vil rådgive 
+dig om den rette dosering.
+Sifrol-depottabletter skal tages en gang daglig, og hver dag på ca. det samme tidspunkt.
+Sifrol-tabletter bør synkes hele med vand, og kan både tages sammen med eller uden mad.
+Du må ikke tygge, dele eller knuse 
+depottabletterne. Hvis du gør det, er der risiko 
+for overdosering, da medicinen derved kan blive 
+frigivet for hurtigt i kroppen.
+82
+I den første uge er den sædvanlige daglige dosis 0,26 mg pramipexol. Lægen vil normalt anvise, at den 
+daglige dosis øges hver 5.-7. dag indtil dine symptomer er under kontrol (vedligeholdelsesdosis).
+Skema for stigende doser af Sifrol-depottabletter
+Uge
+Daglig dosis (mg)
+Antal tabletter
+1
+0,26
+1 Sifrol 0,26 mg depottablet.
+2
+0,52
+1 Sifrol 0,52 mg depottablet,
+ELLER
+2 Sifrol 0,26 mg depottabletter.
+3
+1,05
+1 Sifrol 1,05 mg depottablet,
+ELLER
+2 Sifrol 0,52 mg depottabletter,
+ELLER
+4 Sifrol 0,26 mg depottabletter.
+Den sædvanlige vedligeholdelsesdosis er 1,05 mg daglig. Det kan imidlertid være nødvendigt at øge 
+din dosis yderligere. I så fald kan lægen øge din dosis op til maksimalt 3,15 mg pramipexol/dag. En
+lavere vedligeholdelsesdosis på 1 Sifrol 0,26 mg depottablet/dag er også mulig.
+Patienter med nyresygdomme
+Hvis du har en nyresygdom, vil din læge eventuelt anbefale dig kun at tage den sædvanlige startsdosis 
+på 0,26 mg depottablet hveranden dag den første uge. Derefter vil din læge muligvis øge dosis til én 
+0,26 mg depottablet hver dag. Hvis yderligere dosisøgning er nødvendig, vil din læge øge dosis 
+trinvist med 0,26 mg pramipexol.
+Hvis du har en alvorlig nyresygdom, kan lægen have behov for at skifte dig til en anden type 
+pramipexolmedicin. Kontakt din læge med det samme, hvis du oplever en forværring i din 
+nyresygdom under behandlingen.
+Hvis du skifter fra Sifrol-tabletter med hurtig udløsning (dine almindelig tabletter)
+Din læge vil basere din dosis af Sifrol-depottabletter på den dosis af Sifrol-tabletter med hurtig 
+udløsning, som du hidtil har taget.
+Tag dine Sifrol-tabletter med hurtig udløsning som normalt dagen før, du skifter. Tag Sifrol-
+depottabletter den næste morgen, og tag så ikke flere Sifrol-tabletter med hurtig udløsning.
+Hvis du har taget for meget Sifrol
+Hvis du utilsigtet har taget for mange tabletter, skal du
+-
+kontakte lægen eller skadestuen med det samme for rådgivning.
+-
+Du kan opleve opkastning, rastløshed eller nogle af bivirkningerne, der er anført under punkt 4 
+"Bivirkninger".
+Hvis du har glemt at tage Sifrol
+Hvis du har glemt at tage en Sifrol dosis, men kommer i tanke om det inden for 12 timer fra det 
+sædvanlige tidspunkt, hvor du skulle have taget en dosis, skal du straks tage din tablet. Herefter
+fortsætter du med at tage den næste tablet på sædvanligt tidspunkt.
+Hvis der er gået mere end 12 timer, skal du blot tage næste enkeltdosis på det sædvanlige tidspunkt. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du holder op med at tage Sifrol
+Du må ikke holde op med at tage Sifrol uden først at tale med din læge. Hvis det er nødvendigt at 
+holde op med at tage dette lægemiddel, vil lægen nedsætte din dosis gradvist. Dette mindsker risikoen 
+for, at symptomerne forværres.
+83
+Hvis du har Parkinsons sygdom, bør du ikke stoppe behandlingen med Sifrol pludseligt, da det kan 
+medføre en sygelig tilstand kaldet malignt neuroleptikasyndrom, der kan udgøre en alvorlig 
+helbredsrisiko. Symptomerne er blandt andet:
+
+akinesi (nedsat evne til at bevæge musklerne)
+
+muskelstivhed
+
+feber
+
+ustabilt blodtryk
+
+takykardi (øget hjerterytme)
+
+forvirring
+
+påvirket bevidsthedstilstand, (f.eks. koma)
+Hvis du holder op med eller nedtrapper Sifrol, kan du også udvikle en sygelig tilstand kaldet 
+dopaminagonist-abstinenssyndrom. Symptomerne omfatter depression, apati, angst, træthed, 
+svedtendens eller smerter. Hvis du får disse symptomer, skal du kontakte din læge.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Evalueringen af disse bivirkninger er baseret på de følgende hyppigheder:
+Meget almindelig
+Kan forekomme hos flere end 1 ud af 10 personer
+Almindelig
+Kan forekomme hos op til 1 ud af 10 personer
+Ikke almindelig
+Kan forekomme hos op til 1 ud af 100 personer
+Sjælden
+Kan forekomme hos op til 1 ud af 1.000 personer
+Meget sjælden
+Kan forekomme hos op til 1 ud af 10.000 personer
+Ikke kendt
+Hyppigheden kan ikke estimeres ud fra forhåndenværende data
+Du kan få følgende bivirkninger:
+Meget almindelig:
+
+Dyskinesi (f.eks. unormale, ufrivillige bevægelser af arme og ben)
+
+Søvnighed
+
+Svimmelhed
+
+Kvalme
+Almindelig:
+
+Trang til unormal adfærd
+
+Hallucinationer (du ser, hører eller føler ting, som ikke er der)
+
+Forvirring
+
+Træthed (udmattelse)
+
+Søvnløshed (insomni)
+
+Væskeophobning, normalt i benene (perifert ødem)
+
+Hovedpine
+
+Hypotension (lavt blodtryk)
+
+Unormale drømme
+
+Forstoppelse
+
+Synsnedsættelse
+
+Opkastning
+
+Vægttab, herunder nedsat appetit
+84
+Ikke almindelig:
+
+Paranoia (såsom overdreven frygt for sit helbred)
+
+Vrangforestillinger
+
+Udtalt træthed om dagen og episoder med pludselig indsættende søvn
+
+Amnesi (hukommelsestab)
+
+Hyperkinesi (øget muskelaktivitet med ufrivillige bevægelser)
+
+Vægtforøgelse
+
+Allergiske reaktioner (f.eks. udslæt, kløe, overfølsomhed)
+
+Besvimelse
+
+Hjertesvigt (hjerteproblemer, der kan forårsage åndenød eller hævede ankler)<em> 
+Uhensigtsmæssig udskillelse af antidiuretisk hormon</em> 
+Rastløshed
+
+Dyspnø (åndenød)
+
+Hikke
+
+Pneumoni (lungebetændelse)
+
+Manglende evne til at modstå trangen eller fristelsen til at udføre en handling, der kan være 
+skadelig for dig selv eller andre, og som kan omfatte:
+-
+Stærk trang til at spille (sygelig spilletrang) trods alvorlige personlige og familiemæssige 
+konsekvenser.
+-
+Ændret eller øget seksuel interesse og adfærd, der vækker stor bekymring hos dig eller 
+andre, for eksempel en øget seksualdrift.
+-
+Ukontrollerbart overdrevent indkøbsmønster og forbrug.
+-
+Uhæmmet madindtagelse (spise store mængder mad i en kort periode) eller overdreven 
+madindtagelse (spise mere mad end sædvanligt og mere end nødvendigt for at dække 
+sulten)<em> 
+Delirium (nedsat bevidsthed, forvirring, manglende realitetsopfattelse)
+Sjælden:
+
+Mani (føle sig oprørt, opstemt eller ophidset)
+
+Spontan erektion af penis
+Ikke kendt:
+-
+Efter at du er stoppet med eller har nedsat din Sifrol-behandling: Depression, apati, angst, 
+træthed, svedtendens eller smerter kan forekomme (kaldet dopaminagonist-abstinenssyndrom 
+eller dopamine agonist withdrawal syndrome - DAWS).
+Fortæl din læge, hvis du oplever nogle af disse adfærdsmønstre; han vil diskutere måder til at 
+håndtere eller mindske symptomerne.
+For de bivirkninger, der er markeret med </em>, er en præcis vurdering af hyppigheden ikke mulig, da 
+disse bivirkninger ikke blev set i kliniske studier med 2.762 patienter behandlet med pramipexol. 
+Hyppighedskategorien er formentlig ikke større end "ikke almindelig".
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sifrol"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sifrol"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+85
+dag i den nævnte måned.
+Opbevares i den originale yderpakning for at beskytte mod fugt.
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sifrol indeholder:
+Aktivt stof: pramipexol.
+Hver tablet indeholder 0,26 mg, 0,52 mg, 1,05 mg, 1,57 mg, 2,1 mg, 2,62 mg eller 3,15 mg 
+pramipexol som henholdsvis 0,375 mg, 0,75 mg, 1,5 mg, 2,25 mg, 3 mg, 3,75 mg eller 4,5 mg 
+pramipexoldihydrochloridmonohydrat.
+Øvrige indholdsstoffer: hypromellose 2208, majsstivelse, carbomer 941, kolloid vandfri silica,
+magnesiumstearat.
+Udseende og pakningsstørrelser
+Sifrol 0,26 mg og 0,52 mg depottabletter er hvide til råhvide, runde og har facetslebne kanter.
+Sifrol 1,05 mg, 1,57 mg, 2,1 mg, 2,62 mg og 3,15 mg depottabletter er hvide til råhvide og ovale.
+Alle tabletter har Boehringer Ingelheim firmasymbol præget på den ene side og koden P1, P2, P3, 
+P12, P4, P13 eller P5 på den anden side gældende for tablet styrkerne 0,26 mg, 0,52 mg, 1,05 mg, 
+1,57 mg, 2,1 mg, 2,62 mg og 3,15 mg.
+Alle styrker af Sifrol findes i -blisterstrips af aluminium med 10 tabletter pr. strip. Hver æske
+indeholder 1, 3 eller 10 blisterstrips (10, 30 eller 100 depottabletter). Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Boehringer Ingelheim International GmbH
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Fremstiller
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Rottendorf Pharma GmbH
+Ostenfelder Strasse 51 - 61
+59320 Ennigerloh
+Tyskland
+86
+Boehringer Ingelheim France
+100-104 avenue de France
+75013 Paris
+Frankrig
+87
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Lietuvos filialas
+Tel: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ -
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Magyarországi Fióktelepe
+Tel: +36 1 299 89 00
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Danmark Norwegian branch
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη
+A.E.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp.zo.o.
+Tel: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 2800
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+88
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+organizačná zložka
+Tel: +421 2 5810 1211
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη
+A.E.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-00c9db2c528dacf2cdd39b041aea9315
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sifrol Package Leaflet for language en"
+Description: "ePI document Bundle for sifrol Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-00c9db2c528dacf2cdd39b041aea9315"
+* entry[0].resource = composition-en-00c9db2c528dacf2cdd39b041aea9315
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp00c9db2c528dacf2cdd39b041aea9315"
+* entry[=].resource = mp00c9db2c528dacf2cdd39b041aea9315
+                            
+                    
+Instance: bundlepackageleaflet-da-00c9db2c528dacf2cdd39b041aea9315
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sifrol Package Leaflet for language da"
+Description: "ePI document Bundle for sifrol Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-00c9db2c528dacf2cdd39b041aea9315"
+* entry[0].resource = composition-da-00c9db2c528dacf2cdd39b041aea9315
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp00c9db2c528dacf2cdd39b041aea9315"
+* entry[=].resource = mp00c9db2c528dacf2cdd39b041aea9315
+                            
+                    
+
+
+
+Instance: mp00c9db2c528dacf2cdd39b041aea9315
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product SIFROL 0.088 mg tablets"
-Description: "SIFROL 0.088 mg tablets"
+Title: "Medicinal Product sifrol"
+Description: "sifrol"
 Usage: #inline
 
  
@@ -654,7 +1266,7 @@ Usage: #inline
 
 
 * name
-  * productName = "SIFROL 0.088 mg tablets"
+  * productName = "sifrol"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -681,29 +1293,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-00c9db2c528dacf2cdd39b041aea9315
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sifrol Package Leaflet for language en"
-Description: "ePI document Bundle for sifrol Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 00c9db2c528dacf2cdd39b041aea9315ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "SIFROL 0.088 mg tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sifrol"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-00c9db2c528dacf2cdd39b041aea9315"
-* entry[0].resource = composition-en-00c9db2c528dacf2cdd39b041aea9315
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5aeefe7af885338f48300e003f1963b6"
-* entry[=].resource = mp5aeefe7af885338f48300e003f1963b6
-                            
-                      
+* title = "List of all ePIs associated with sifrol"
+
+* subject = Reference(mp5aeefe7af885338f48300e003f1963b6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sifrol "sifrol"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-00c9db2c528dacf2cdd39b041aea9315) // sifrol en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-00c9db2c528dacf2cdd39b041aea9315) // sifrol da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-00c9db2c528dacf2cdd39b041aea9315
+InstanceOf: List
+
+* insert 00c9db2c528dacf2cdd39b041aea9315ListRuleset
+    

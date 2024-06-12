@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-65f18cefcd0fd99147e2e0a1f92724f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
@@ -655,12 +658,944 @@ Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 
 
 
+Instance: composition-da-65f18cefcd0fd99147e2e0a1f92724f0
+InstanceOf: CompositionUvEpi
+Title: "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
+Description:  "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0a40a91fb2e9f5003ad73a28e70ecf9b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0a40a91fb2e9f5003ad73a28e70ecf9b
+* title = "TEST PURPOSES ONLY - efavirenzemtricitabinetenofovir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
+3. Sådan skal du tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What efavirenzemtricitabinetenofovir is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What efavirenzemtricitabinetenofovir is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva indeholder tre aktive stoffer, som anvendes 
+til at behandle human immundefekt virus (hiv)-infektion: </p>
+<ul>
+<li>
+<p>Efavirenz er en ikke-nukleosid-revers transkriptase-hæmmer (NNRTI). </p>
+</li>
+<li>
+<p>Emtricitabin er en nukleosid-revers transkriptase-hæmmer (NRTI). </p>
+</li>
+<li>
+<p>Tenofovir er en nukleotid-revers transkriptase-hæmmer (NtRTI). </p>
+</li>
+</ul>
+<p>Hvert af disse aktive stoffer, også kendt som antiretroviral medicin, virker ved at hæmme et enzym 
+(revers transkriptase), som er nødvendigt for at virus kan formere sig. </p>
+<p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva er til behandling af Human Immundefekt 
+Virus (hiv)-infektion hos voksne i alderen 18 år og derover, som tidligere er blevet behandlet med 
+anden antiretroviral medicin, og hvis hiv-1-infektion har været under kontrol i mindst tre måneder. 
+Patienterne må ikke have oplevet, at en tidligere hiv-behandling ikke har virket. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take efavirenzemtricitabinetenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take efavirenzemtricitabinetenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zentiva </p>
+<p>Tag ikke Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for efavirenz, emtricitabin, tenofovir, tenofovirdisoproxil eller et af de 
+øvrige indholdsstoffer i dette lægemiddel (angivet i punkt 6). </p>
+</li>
+<li>
+<p>hvis du har en alvorlig leversygdom. </p>
+</li>
+<li>
+<p>hvis du har en hjertelidelse, såsom et unormalt elektrisk signal kaldet forlænget QT-
+interval, som giver høj risiko for alvorlige problemer med hjerterytmen (Torsade de 
+Pointes). </p>
+</li>
+<li>
+<p>hvis et familiemedlem (forældre, bedsteforældre, brødre eller søstre) pludseligt er afgået ved 
+døden på grund af et hjerteproblem eller blev født med hjerteproblemer. </p>
+</li>
+<li>
+<p>hvis din læge har fortalt dig, at du har et højt eller lavt indhold af elektrolytter, såsom kalium 
+eller magnesium, i blodet. </p>
+</li>
+<li>
+<p>hvis du i øjeblikket tager et eller flere af følgende lægemidler (se også “Brug af anden medicin 
+sammen med Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva"):</p>
+</li>
+<li>
+<p>Astemizol eller terfenadin (mod høfeber eller andre allergier) </p>
+</li>
+<li>Bepridil (mod hjertesygdom) </li>
+<li>Cisaprid (mod halsbrand) </li>
+<li>Elbasvir/grazoprevir (medicin til behandling af hepatitis C) </li>
+<li>Ergotalkaloider (f.eks. ergotamin, dihydroergotamin, ergonovin og methylergonovin) 
+(mod migræne og klyngehovedpine) </li>
+<li>Midazolam eller triazolam (sovemedicin) </li>
+<li>Pimozid, imipramin, amitriptylin eller clomipramin (mod visse sindstilstande) </li>
+<li>Perikon (Hypericum perforatum) (naturlægemiddel mod depression og angst) </li>
+<li>Voriconazol (mod svampeinfektioner) </li>
+<li>Flecainid, metoprolol (mod uregelmæssigt hjerteslag) </li>
+<li>Visse antibiotika (makrolider, fluorokinoloner, imidazol) </li>
+<li>Triazol-svampemidler </li>
+<li>Visse midler mod malaria </li>
+<li>Methadon (medicin til behandling af stofmisbrug) </li>
+</ul>
+<p>Hvis du tager et eller flere af disse lægemidler, skal du straks fortælle det til din læge. At tage 
+disse lægemidler sammen med Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva kan give alvorlige 
+eller livstruende bivirkninger eller medføre at lægemidlerne ikke virker korrekt. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Efavirenz/Emtricitabine/Tenofovir disoproxil 
+Zentiva. </p>
+<ul>
+<li>
+<p>Denne medicin helbreder ikke hiv-infektion. Du kan stadig få infektioner eller andre sygdomme, 
+der er forbundet med hiv-infektion, selvom du tager Efavirenz/Emtricitabine/Tenofovir 
+disoproxil Zentiva. </p>
+</li>
+<li>
+<p>Du skal fortsat gå til kontrol hos lægen, mens du tager Efavirenz/Emtricitabine/Tenofovir 
+disoproxil Zentiva. </p>
+</li>
+<li>
+<p>Fortæl det til din læge:</p>
+</li>
+<li>
+<p>Hvis du tager anden medicin, som indeholder efavirenz, emtricitabin, 
+tenofovirdisoproxil, tenofoviralafenamid, lamivudin eller adefovirdipivoxil. Du bør ikke 
+tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva sammen med nogle af disse 
+lægemidler. </p>
+</li>
+<li>
+<p>Hvis du har eller har haft en nyresygdom, eller hvis prøver har vist, at der er problemer 
+med dine nyrer. Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva bør ikke anvendes, 
+hvis du har moderat til alvorlig nyresygdom. </p>
+</li>
+</ul>
+<p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva kan påvirke dine nyrer. Før du 
+starter på behandlingen, kan din læge bede om blodprøver til at vurdere din nyrefunktion. 
+Lægen kan også bede om blodprøver under behandlingen for at kontrollere dine nyrer. </p>
+<p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva tages normalt ikke sammen med 
+anden medicin, som kan skade dine nyrer (se Brug af anden medicin sammen med 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva). Hvis dette er uundgåeligt, vil din 
+læge kontrollere din nyrefunktion en gang om ugen. </p>
+<ul>
+<li>
+<p>Hvis du har en hjertelidelse, såsom et unormalt elektrisk signal kaldet forlænget QT-
+interval. </p>
+</li>
+<li>
+<p>Hvis du tidligere har haft en psykisk sygdom, herunder depression, eller stof- eller 
+alkoholmisbrug. Fortæl det straks til din læge, hvis du føler dig deprimeret, har 
+selvmordstanker eller mærkelige tanker (se punkt 4, Bivirkninger). </p>
+</li>
+<li>
+<p>Hvis du tidligere har haft kramper (krampeanfald), eller hvis du får krampestillende 
+behandling med f.eks. carbamazepin, phenobarbital og phenytoin. Hvis du tager et eller 
+flere af disse lægemidler, kan det være nødvendigt, at lægen kontrollerer indholdet af 
+krampestillende medicin i dit blod for at sikre, at det ikke bliver påvirket, når du tager 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. Lægen kan give dig et andet 
+krampestillende lægemiddel. </p>
+</li>
+<li>
+<p>Hvis du tidligere har haft en leversygdom, herunder kronisk aktiv hepatitis. Patienter 
+med leversygdom, herunder kronisk hepatitis B eller C, som er i behandling med 
+antiretroviral kombinationsmedicin, har større risiko for alvorlige eller måske livstruende 
+leverproblemer. Din læge vil måske tage blodprøver for at kontrollere, hvordan din lever 
+fungerer, eller kan skifte dig til anden medicin. Hvis du har en alvorlig leversygdom, må 
+du ikke tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva (se ovenfor i punkt 
+2, Tag ikke Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva). </p>
+</li>
+<li>
+<p>Hvis du har en hepatitis B-infektion, vil din læge nøje overveje, hvilken behandling, der er 
+den bedste for dig. Tenofovirdisoproxil og emtricitabin, to af de aktive stoffer i 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, har en vis virkning mod hepatitis B-
+virus, selvom emtricitabin ikke er godkendt til behandling af hepatitis B-infektion. 
+Symptomerne på din hepatitis kan blive værre, efter du er holdt med at tage 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. Din læge kan så tage blodprøver 
+med regelmæssige mellemrum for at kontrollere, hvordan din lever fungerer (se punkt 3, 
+Hvis du holder op med at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva). </p>
+</li>
+<li>
+<p>Uanset om du tidligere har haft en leversygdom, vil din læge overveje at tage 
+regelmæssige blodprøver for at kontrollere, hvordan din lever fungerer. </p>
+</li>
+<li>
+<p>Hvis du er over 65 år. Kun et lille antal patienter over 65 år er blevet undersøgt. Hvis du 
+er over 65 år og har fået ordineret Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, 
+vil din læge overvåge dig nøje. </p>
+</li>
+<li>
+<p>Når du begynder at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, skal du 
+holde øje med:</p>
+</li>
+<li>
+<p>Tegn på svimmelhed, søvnbesvær, døsighed, koncentrationsbesvær eller unormale 
+drømme. Disse bivirkninger kan starte i løbet af de første 1-2 dage af behandlingen og 
+forsvinder som regel efter de første 2-4 uger. </p>
+</li>
+<li>
+<p>Tegn på hududslæt. Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva kan give 
+hududslæt. Hvis du ser tegn på alvorligt udslæt med blærer eller feber, skal du stoppe med 
+at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva og straks fortælle det til 
+lægen. Hvis du har haft udslæt, mens du tog en anden NNRTI, kan der være større risiko 
+for, at du får udslæt med Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. </p>
+</li>
+<li>
+<p>Tegn på betændelse eller infektion. Hos nogle patienter med fremskreden hiv-infektion 
+(aids), som tidligere har haft infektion på grund af svækket immunforsvar (opportunistisk 
+infektion), kan tegn og symptomer på betændelse fra de tidligere infektioner forekomme 
+kort efter, at anti-hiv-behandlingen er startet. Det antages, at disse symptomer skyldes en 
+forbedring i kroppens immunforsvar, som gør kroppen i stand til at bekæmpe infektioner, 
+der kan have været til stede uden tydelige symptomer. Hvis du bemærker symptomer på 
+infektion, skal du omgående fortælle din læge det. </p>
+</li>
+</ul>
+<p>Ud over de opportunistiske infektioner kan autoimmune lidelser (skyldes, at 
+immunsystemet angriber sundt kropsvæv) også opstå, efter du er begyndt at tage medicin 
+til behandling af din hiv-infektion. Autoimmune lidelser kan opstå mange måneder efter, 
+du er påbegyndt behandling. Du skal straks kontakte lægen for at få den nødvendige 
+behandling, hvis du bemærker symptomer på infektion eller andre symptomer, såsom 
+muskelsvaghed, svaghed begyndende i hænder og fødder, og som bevæger sig op 
+igennem kroppen, hjertebanken, rysten eller hyperaktivitet. </p>
+<ul>
+<li>Knogleproblemer. Nogle patienter, der får antiretroviral kombinationsbehandling, kan 
+udvikle en knoglesygdom, der kaldes knoglenekrose (hvor knoglevævet dør på grund af 
+nedsat blodtilførsel til knoglen). Til de mange risikofaktorer for udvikling af denne 
+sygdom hører blandt andre: Hvor længe den antiretrovirale kombinationsbehandling varer, 
+anvendelse af kortikosteroider, alkoholforbrug, alvorligt nedsat immunforsvar, samt højere 
+Body Mass Index (BMI). Stivhed, ømhed og smerter i leddene (især i hofte, knæ og 
+skulder) samt bevægelsesbesvær er tegn på knoglenekrose. Hvis du bemærker et eller flere 
+af disse symptomer, skal du informere din læge. </li>
+</ul>
+<p>Knogleproblemer (viser sig som vedvarende eller forværret knoglesmerter og som nogle 
+gange resulterer i knoglebrud) kan også forekomme på grund af skader på celler i nyrerne 
+(tubulære celler) (se punkt 4, Bivirkninger). Fortæl det til din læge, hvis du har 
+knoglesmerter eller brud. </p>
+<p>Tenofovirdisoproxil kan også medføre tab af knoglemasse. </p>
+<p>Samlet set er virkningerne af tenofovirdisoproxil på langvarig knoglesundhed og fremtidig 
+brudrisiko hos voksne og pædiatriske patienter usikre. </p>
+<p>Fortæl det til din læge, hvis du ved, at du lider af osteoporose. Patienter med osteoporose 
+har en højere risiko for brud. </p>
+<p>Børn og unge </p>
+<ul>
+<li>Giv ikke Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva til børn og unge under år. Brug af Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva til børn og unge er ikke 
+blevet undersøgt. </li>
+</ul>
+<p>Brug af anden medicin sammen med Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
+Du må ikke tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva sammen med visse andre 
+lægemidler. Disse lægemidler er nævnt under Tag ikke Efavirenz/Emtricitabine/Tenofovir disoproxil 
+Zentiva i begyndelsen af punkt 2. Det omfatter nogle almindelige lægemidler og nogle 
+naturlægemidler (inklusive perikon), som kan forårsage alvorlige bivirkninger. </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. </p>
+<p>Du bør heller ikke tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva sammen med anden 
+medicin, der indeholder efavirenz (medmindre din læge anbefaler det), emtricitabin, 
+tenofovirdisoproxil, tenofoviralafenamid, lamivudin eller adefovirdipivoxil. </p>
+<p>Fortæl det til lægen, hvis du tager anden medicin, som kan skade dine nyrer, f.eks.: </p>
+<ul>
+<li>
+<p>Aminoglykosider, vancomycin (mod bakterieinfektioner) </p>
+</li>
+<li>
+<p>Foscarnet, ganciclovir, cidofovir (mod virusinfektioner) </p>
+</li>
+<li>
+<p>Amphotericin B, pentamidin (mod svampeinfektioner) </p>
+</li>
+<li>
+<p>Interleukin-2 (til behandling af kræft) </p>
+</li>
+<li>
+<p>Non-steroide antiinflammatoriske midler (NSAID’er, til at lindre knogle- eller muskelsmerter) </p>
+</li>
+</ul>
+<p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva kan påvirke virkningen af anden medicin, 
+herunder naturlægemidler med Ginkgo biloba-ekstrakt (tempeltræ-ekstrakt). Dette kan betyde, at </p>
+<p>mængden af Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva eller anden medicin i blodet kan 
+blive påvirket, og det kan medføre, at din medicin ikke virker korrekt eller forværre eventuelle 
+bivirkninger. I nogle tilfælde kan det være nødvendigt for lægen at justere din dosis eller kontrollere 
+indholdet i blodet. Det er vigtigt, at du fortæller det til din læge eller apotekspersonalet, hvis du 
+tager et eller flere af følgende: </p>
+<ul>
+<li>
+<p>Medicin der indeholder didanosin (mod hiv-infektion): Hvis du tager 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva sammen med andre antivirale lægemidler, 
+som indeholder didanosin, kan det øge indholdet af didanosin i blodet og nedsætte CD4-
+celletallet. Der er set sjældne tilfælde af betændelse i bugspytkirtlen og laktatacidose (overskud 
+af mælkesyre i blodet), der nogle gange har medført dødsfald, når medicin, der indeholder 
+tenofovirdisoproxil blev indtaget samtidigt med didanosin. Din læge vil nøje overveje, om det er 
+nødvendigt at behandle dig med medicin, der indeholder tenofovir og didanosin. </p>
+</li>
+<li>
+<p>Anden medicin der bruges mod hiv-infektion: Følgende proteasehæmmere: Darunavir, 
+indinavir, lopinavir/ritonavir, ritonavir eller atazanavir eller saquinavir, der er forstærket med 
+ritonavir. Din læge kan overveje at give dig anden medicin eller ændre dosis af 
+proteasehæmmerne. Fortæl det også til din læge, hvis du tager maraviroc. </p>
+</li>
+<li>
+<p>Medicin til behandling af hepatitis C-virusinfektion: Elbasvir/grazoprevir, 
+glecaprevir/pibrentasvir, sofosbuvir/velpatasvir, sofosbuvir/velpatasvir/voxilaprevir. </p>
+</li>
+<li>
+<p>Medicin til nedsættelse af fedtindholdet i blodet (kaldet statiner): Atorvastatin, pravastatin, 
+simvastatin. Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva kan nedsætte mængden af 
+statiner i blodet. Din læge vil kontrollere kolesterolindholdet og overveje at ændre din 
+statindosis, hvis det er nødvendigt. </p>
+</li>
+<li>
+<p>Medicin til behandling af kramper/krampeanfald (krampestillende medicin): 
+Carbamazepin, phenytoin, phenobarbital. Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
+kan nedsætte mængden af den krampestillende medicin i blodet. </p>
+</li>
+<li>
+<p>Carbamazepin kan nedsætte mængden af efavirenz, der er et af de aktive stoffer i 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, i blodet. Din læge kan måske finde det 
+nødvendigt at overveje at give dig et andet krampestillende lægemiddel. </p>
+</li>
+<li>
+<p>Medicin til behandling af bakterieinfektioner, herunder tuberkulose og AIDS-relaterede 
+mykobakterier: Clarithromycin, rifabutin, rifampicin. Din læge kan finde det nødvendigt at 
+ændre din dosis eller give dig et andet antibiotikum. Desuden kan lægen overveje at give dig en 
+højere dosis efavirenz til behandling af din hiv-infektion. </p>
+</li>
+<li>
+<p>Medicin til behandling af svampeinfektioner (svampemiddel): Itraconazol eller posaconazol. 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva kan nedsætte mængden af itraconazol eller 
+af posaconazol i blodet. Din læge kan finde det nødvendigt at overveje at give dig et andet 
+svampemiddel. </p>
+</li>
+<li>
+<p>Medicin til behandling af malaria: Atovaquon/proguanil eller artemether/lumefantrin. 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva kan nedsætte mængden af 
+atovaquon/proguanil eller artemether/lumefantrin i blodet. </p>
+</li>
+<li>
+<p>Hormonal prævention, såsom p-piller, injiceret prævention (for eksempel Depo-Provera) 
+eller præventivt implantat (for eksempel Implanon): Du skal også anvende pålidelig 
+barriereprævention (se Graviditet og amning). Efavirenz/Emtricitabine/Tenofovir disoproxil 
+Zentiva kan forårsage, at hormonale præventionsmidler ikke virker så godt. Der er forekommet 
+graviditeter hos kvinder, der tog efavirenz, en komponent i Efavirenz/Emtricitabine/Tenofovir 
+disoproxil Zentiva, mens de anvendte et præventivt implantat, selvom det ikke er blevet 
+fastslået, at behandlingen med efavirenz forårsagede, at præventionen svigtede. </p>
+</li>
+<li>
+<p>Sertralin, medicin til behandling af depression, fordi din læge kan finde det nødvendigt at 
+ændre din sertralindosis. </p>
+</li>
+<li>
+<p>Bupropion, medicin til behandling af depression eller til at hjælpe dig med at holde op med at 
+ryge, fordi din læge kan finde det nødvendigt at ændre din bupropiondosis. </p>
+</li>
+<li>
+<p>Diltiazem eller lignende medicin (kaldet calciumkanalblokkere): Når du begynder at tage 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, kan din læge finde det nødvendigt at 
+ændre din dosis af calciumkanalblokkeren. </p>
+</li>
+<li>
+<p>Medicin, der anvendes til at forhindre afstødning af transplanterede organer (også kaldet 
+immunsuppresiva), såsom ciclosporin, sirolimus eller tacrolimus. Når du begynder eller </p>
+</li>
+</ul>
+<p>ophører med at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, vil din læge nøje 
+kontrollere niveauet af det immunsupprimerende lægemiddel i dit blod og vil måske justere 
+dosis. </p>
+<ul>
+<li>
+<p>Warfarin eller acenocoumarol (medicin, der anvendes til at hindre dannelse af blodpropper): 
+Din læge kan finde det nødvendigt at ændre din dosis af warfarin eller acenocoumarol.  </p>
+</li>
+<li>
+<p>Ginkgo biloba-ekstrakt (tempeltræ-ekstrakt, et naturlægemiddel). </p>
+</li>
+<li>
+<p>Metamizol, et lægemiddel til behandling af smerter og feber. </p>
+</li>
+<li>
+<p>Praziquantel, et lægemiddel til behandling af visse parasitære infektioner. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Kvinder bør ikke blive gravide under behandling med Efavirenz/Emtricitabine/Tenofovir 
+disoproxil Zentiva og i 12 uger derefter. Din læge kan bede dig om at tage en graviditetstest for at 
+sikre, at du ikke er gravid, før du starter behandling med Efavirenz/Emtricitabine/Tenofovir disoproxil 
+Zentiva. </p>
+<p>Hvis du kan blive gravid, mens du tager Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, 
+er det nødvendigt, at du bruger en pålidelig form for barriereprævention (f.eks. kondom) sammen med 
+andre former for prævention, herunder p-piller eller andre hormonale præventionsmidler (f.eks. 
+implantat, injektion), mens du tager Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. Efavirenz, 
+som er et af de aktive stoffer i Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, kan blive i blodet 
+i et stykke tid efter, at behandlingen er stoppet. Derfor bør du fortsætte med at tage præventive 
+forholdsregler, som nævnt ovenfor, i 12 uger efter du er holdt op med at tage 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. </p>
+<p>Kontakt straks din læge, hvis du er gravid eller planlægger at blive gravid. Hvis du er gravid, må 
+du kun tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, hvis du og din læge beslutter, at det 
+er klart nødvendigt. </p>
+<p>Der er set alvorlige misdannelser hos fostre fra dyr og hos nyfødte børn, hvis mødre blev behandlet 
+med efavirenz under graviditeten. </p>
+<p>Spørg Deres læge eller apoteket til råds, før De tager nogen form for medicin. </p>
+<p>Hvis du har taget Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva under din graviditet, kan din 
+læge bede om regelmæssige blodprøver og andre diagnostiske undersøgelser for at overvåge barnets 
+udvikling. For de børn, hvis mødre har taget NRTI'er i løbet af graviditeten, opvejede fordelen ved 
+beskyttelsen mod hiv risikoen ved bivirkningerne. </p>
+<p>Du må ikke amme under behandling med Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. 
+Både hiv og indholdsstofferne i Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva kan gå over i 
+mælken og forårsage alvorlig skade på dit barn. </p>
+<p>Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken. </p>
+<p>Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt. </p>
+<p>Trafik- og arbejdssikkerhed 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva kan give svimmelhed, nedsat 
+koncentrationsevne og døsighed. Kør ikke bil eller motorcykel og lad være med at cykle og lad være 
+med at arbejde med værktøj eller maskiner, hvis du føler dig påvirket. </p>
+<p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per tablet, dvs. det er i det </p>
+<p>væsentlige "natriumfri". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take efavirenzemtricitabinetenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take efavirenzemtricitabinetenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er: 
+1 tablet om dagen taget gennem munden. Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva bør 
+tages på tom mave (sædvanligvis defineret som 1 time før eller 2 timer efter et måltid), helst ved 
+sengetid. Dette kan gøre nogle bivirkninger (f.eks. svimmelhed, døsighed) mindre generende. 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva skal sluges hel sammen med vand. </p>
+<p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva skal tages hver dag. </p>
+<p>Hvis din læge beslutter at stoppe behandlingen med et af de aktive stoffer i 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, kan du få efavirenz, emtricitabin og/eller 
+tenofovirdisoproxil hver for sig eller sammen med anden medicin til behandling af din hiv-infektion. </p>
+<p>Åbning af det børnesikrede låg 
+Beholderen åbnes ved at trykke det børnesikrede låg ned og dreje det mod uret. </p>
+<p>Hvis du har taget for meget Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
+Hvis du ved et uheld har taget for mange Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva-
+tabletter, kan du have en forhøjet risiko for at opleve mulige bivirkninger med denne medicin (se punkt 
+4, Bivirkninger). Kontakt lægen eller den nærmeste skadestue for at få råd. Tag tabletbeholderen med, 
+så du let kan vise, hvad du har taget. </p>
+<p>Hvis du har glemt at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
+Det er vigtigt, at du ikke springer en dosis Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva over. </p>
+<p>Hvis du inden for 12 timer efter, dosis normalt tages - kommer i tanker om, at du har glemt at tage 
+en dosis, skal du tage den så hurtigt som muligt og derefter tage den næste dosis på det normale 
+tidspunkt. 
+Hvis det næsten allerede er tidspunktet (mindre end 12 timer før) din næste dosis, skal du ikke 
+tage den glemte dosis. Vent og tag den næste dosis på det normale tidspunkt. Du må ikke tage en 
+dobbeltdosis som erstatning for den glemte tablet. </p>
+<p>Hvis du kaster op (inden for en time efter du har taget Efavirenz/Emtricitabine/Tenofovir 
+disoproxil Zentiva), bør du tage en ny tablet. Vent ikke til tidspunktet for din næste dosis. Du behøver 
+ikke tage en ny tablet, hvis du kastede op mere end en time efter, du tog 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva. </p>
+<p>Hvis du holder op med at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
+Hold ikke op med at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva uden at tale med 
+din læge. Hvis du holder op med at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, kan det 
+have alvorlig indvirkning på, hvordan du reagerer på fremtidig behandling. Hvis du holder op med at 
+tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva, skal du kontakte din læge, før du begynder 
+at tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva-tabletter igen. Lægen kan overveje at 
+give dig de aktive stoffer i Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva hver for sig, hvis du 
+har problemer med denne medicin, eller det er nødvendigt at justere din dosis. </p>
+<p>Når dine Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva-tabletter er ved at slippe op, skal 
+du hente flere hos din læge eller på apoteket. Dette er meget vigtigt, da mængden af virus kan begynde 
+at stige, hvis medicinindtagelsen standses - selv i kort tid. Virus kan derved blive vanskeligere at 
+behandle. </p>
+<p>Hvis du både har hiv-infektion og hepatitis B, er det særlig vigtigt ikke at stoppe behandlingen med 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva uden at tale med din læge først. Nogle patienter 
+har fået taget blodprøver eller har symptomer, som viser, at deres hepatitis er forværret, efter de er 
+holdt op med at tage emtricitabin eller tenofovirdisoproxil (to af de tre aktive stoffer i 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva). Hvis behandlingen med 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva ophører, vil din læge muligvis foreslå, at du 
+genoptager behandlingen af hepatitis B. Det kan være nødvendigt at få taget blodprøver i 4 måneder 
+efter ophør med behandlingen for at kontrollere, hvordan din lever fungerer. Hos nogle patienter med 
+fremskreden leversygdom eller cirrose bør behandlingen ikke ophøre, fordi det kan medføre en 
+forværring af din hepatitis, hvilket kan være livstruende. </p>
+<p>Bemærker du nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal du omgående 
+oplyse din læge herom, især hvis det drejer sig om symptomer, som du forbinder med hepatitis B-
+infektion. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glucose i 
+blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse ændringer. </p>
+<p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Mulige alvorlige bivirkninger: Tal straks med lægen </p>
+<ul>
+<li>
+<p>Laktatacidose (overskud af mælkesyre i blodet) er en sjælden (kan forekomme hos op til 1 ud 
+af 1.000 personer), men alvorlig bivirkning, som kan være livstruende. Følgende bivirkninger 
+kan være tegn på laktatacidose:</p>
+</li>
+<li>
+<p>Dyb, hurtig vejrtrækning </p>
+</li>
+<li>Træthed </li>
+<li>Kvalme, opkastning og mavesmerter </li>
+</ul>
+<p>Hvis du tror, du kan have laktatacidose, skal du straks kontakte lægen. </p>
+<p>Andre mulige alvorlige bivirkninger </p>
+<p>De følgende bivirkninger er ikke almindelige (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Allergisk reaktion (overfølsomhed) som kan medføre alvorlige hudreaktioner (Stevens-
+Johnsons syndrom, erythema multiforme, se punkt 2) </p>
+</li>
+<li>
+<p>Hævelse af ansigt, læber, tunge eller svælg </p>
+</li>
+<li>
+<p>Vrede, selvmordstanker, mærkelige tanker, paranoia, ude af stand til at tænke klart, 
+humørpåvirkning, se og høre ting som i virkeligheden ikke er der (hallucinationer), 
+selvmordsforsøg, personlighedsændring (psykoser), katatoni (en tilstand, hvor patienten ikke 
+kan bevæge sig eller tale i et stykke tid) </p>
+</li>
+<li>
+<p>Mavesmerter fremkaldt af betændelse i bugspytkirtlen </p>
+</li>
+<li>
+<p>Glemsomhed, forvirring, krampeanfald, usammenhængende tale, rysten (tremor) </p>
+</li>
+<li>
+<p>Gulfarvning af hud eller øjne, kløe eller mavesmerter fremkaldt af betændelse i leveren </p>
+</li>
+<li>
+<p>Beskadigelse af de tubulære celler i nyrerne </p>
+</li>
+</ul>
+<p>Psykiske bivirkninger ud over de ovenfor nævnte omfatter vrangforestillinger og neuroser. Nogle 
+patienter har begået selvmord. Disse bivirkninger synes at forekomme oftere hos personer, der 
+tidligere har haft en psykisk sygdom. Kontakt altid straks din læge, hvis du får disse symptomer. </p>
+<p>Bivirkninger, som påvirker leveren: Hvis du også har en hepatitis B-virusinfektion, kan du komme ud 
+for en forværring af din hepatitis efter behandlingsophør (se punkt 3). </p>
+<p>De følgende bivirkninger er sjældne (kan forekomme hos op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>
+<p>Leversvigt, som i nogle tilfælde medfører død eller levertransplantation. De fleste tilfælde 
+forekom hos patienter, der allerede havde en leversygdom, men der har været nogle få 
+indberetninger fra patienter uden allerede eksisterende leversygdom. </p>
+</li>
+<li>
+<p>Nyrebetændelse, udskillelse af store mængder urin og en fornemmelse af at være tørstig </p>
+</li>
+<li>
+<p>Smerter i ryggen forårsaget af nyreproblemer inklusive nyresvigt. Din læge vil måske tage 
+blodprøver for at se, om nyrerne fungerer ordentligt. </p>
+</li>
+<li>
+<p>Kalktab fra knoglerne (med knoglesmerter, som nogle gange resulterer i knoglebrud), som kan 
+forekomme på grund af beskadigelse af de tubulære celler i nyrerne </p>
+</li>
+<li>
+<p>Fedtlever </p>
+</li>
+</ul>
+<p>Hvis du tror, at du kan have en af disse alvorlige bivirkninger, skal du tale med lægen. </p>
+<p>Hyppigste bivirkninger </p>
+<p>De følgende bivirkninger er meget almindelige (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Svimmelhed, hovedpine, diarré, kvalme, opkastning </p>
+</li>
+<li>
+<p>Udslæt (inklusive røde pletter eller skjolder, nogle gange med blærer og hævelse af huden), som 
+kan være en allergisk reaktion </p>
+</li>
+<li>
+<p>Svaghedsfølelse </p>
+</li>
+</ul>
+<p>Prøver kan også vise:  </p>
+<ul>
+<li>
+<p>Nedsat indhold af fosfat i blodet </p>
+</li>
+<li>
+<p>Øget indhold af kreatinkinase i blodet, som kan medføre muskelsmerter og -svaghed </p>
+</li>
+</ul>
+<p>Andre mulige bivirkninger </p>
+<p>De følgende bivirkninger er almindelige (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Allergiske reaktioner </p>
+</li>
+<li>
+<p>Koordinations- og balanceproblemer </p>
+</li>
+<li>
+<p>Føle sig bekymret eller nedtrykt </p>
+</li>
+<li>
+<p>Søvnbesvær, unormale drømme, koncentrationsbesvær, døsighed </p>
+</li>
+<li>
+<p>Smerter, mavesmerter </p>
+</li>
+<li>
+<p>Fordøjelsesproblemer som medfører ubehag efter måltider, oppustethed, øget luftafgang fra 
+tarmen </p>
+</li>
+<li>
+<p>Appetitløshed </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Ændringer i hudfarve inklusive pletvis mørkfarvning af huden, ofte begyndende på hænder og 
+fodsåler </p>
+</li>
+</ul>
+<p>Prøver kan også vise: </p>
+<ul>
+<li>
+<p>Lavt antal hvide blodlegemer (et nedsat antal hvide blodlegemer kan gøre dig mere modtagelig 
+over for infektioner) </p>
+</li>
+<li>
+<p>Problemer med lever og bugspytkirtel </p>
+</li>
+<li>
+<p>Forhøjet indhold af fedtsyrer (triglycerider), bilirubin eller sukker i blodet </p>
+</li>
+</ul>
+<p>De følgende bivirkninger er ikke almindelige (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Nedbrydning af muskelvæv, muskelsmerter eller -svaghed </p>
+</li>
+<li>
+<p>Blodmangel (lavt antal røde blodlegemer) </p>
+</li>
+<li>
+<p>Snurrende eller gyngende fornemmelse (svimmelhed), piben, ringen eller anden vedblivende 
+støj i ørerne </p>
+</li>
+<li>
+<p>Sløret syn </p>
+</li>
+<li>
+<p>Kuldegysninger </p>
+</li>
+<li>
+<p>Brystforstørrelse hos mænd </p>
+</li>
+<li>
+<p>Nedsat sexlyst </p>
+</li>
+<li>
+<p>Ansigtsrødme </p>
+</li>
+<li>
+<p>Mundtørhed </p>
+</li>
+<li>
+<p>Øget appetit </p>
+</li>
+</ul>
+<p>Prøver kan også vise: </p>
+<ul>
+<li>
+<p>Nedsat kalium i blodet </p>
+</li>
+<li>
+<p>Forhøjet kreatinin i blodet </p>
+</li>
+<li>
+<p>Proteiner i urinen </p>
+</li>
+<li>
+<p>Forhøjet kolesterol i blodet </p>
+</li>
+</ul>
+<p>Nedbrydning af muskelvæv, blødgørelse af knoglerne (med knoglesmerter, som nogle gange resulterer 
+i knoglebrud), muskelsmerter, muskelsvaghed og nedsat kalium- eller phosphatniveau i blodet kan 
+forekomme på grund af skader på celler i nyrerne (de tubulære celler). </p>
+<p>De følgende bivirkninger er sjældne (kan forekomme hos op til 1 ud af hver 1.000 personer): </p>
+<ul>
+<li>Kløende udslæt på huden fremkaldt af en reaktion over for sollys </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store efavirenzemtricitabinetenofovir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store efavirenzemtricitabinetenofovir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderen og pakningen efter Exp. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Anvendes indenfor 30 dage efter åbning. Dette lægemiddel kræver ingen særlige 
+opbevaringsbetingelser. Opbevares i den originale yderpakning for at beskytte mod fugt. Hold 
+beholderen tæt tillukket. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva indeholder: </p>
+<ul>
+<li>
+<p>Aktive stoffer: efavirenz, emtricitabin og tenofovirdisoproxil. Hver 
+Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva-filmovertrukket tablet indeholder 600 mg 
+efavirenz, 200 mg emtricitabin og tenofovirdisoproxilphosphat svarende til 245 mg 
+tenofovirdisoproxil. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Mikrokrystallinsk cellulose, croscarmellosenatrium, 
+hydroxypropylcellulose, natriumlaurilsulfat, magnesiumstearat, kolloid vandfri silica, talcum. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer i tabletovertrækket er polyvinylalkohol, titandioxid (E171), macrogol, 
+talcum, rød jernoxid (E172), gul jernoxid (E172), sort jernoxid (E172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva filmovertrukne tabletter er lyserøde, ovale, 
+bikonvekse, filmovertrukne tabletter. Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva fås i 
+beholdere med 30 tabletter (med en silicagelpose, der skal blive i beholderen for at beskytte 
+tabletterne). Silicagel-tørstoffet er i en lille separat beholder og må ikke sluges. </p>
+<p>Fås i følgende pakningsstørrelser: Yderkarton, der indeholder 1 beholder med 30 filmovertrukne 
+tabletter og en yderkarton, der indeholder 3 beholdere af 30 filmovertrukne tabletter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Zentiva, k.s. 
+U Kabelovny 102 37 Prague Tjekkiet </p>
+<p>Fremstiller 
+S.C. Zentiva S.A. 
+50 Theodor Pallady Blvd. 
+Bucharest 032Rumænien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Zentiva, k.s. 
+Tél/Tel: +32 280 86 PV-Belgium@zentiva.com 
+Lietuva 
+Zentiva, k.s. 
+Tel: +370 52152PV-Lithuania@zentiva.com 
+България 
+Zentiva, k.s. 
+Тел: + 35924417PV-Bulgaria@zentiva.com 
+Luxembourg/Luxemburg 
+Zentiva, k.s. 
+Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
+Magyarország 
+Zentiva Pharma Kft. 
+Tel.: +36 1 299 1PV-Hungary@zentiva.com 
+Danmark 
+Zentiva Denmark ApS 
+Tlf: +45 787 68 PV-Denmark@zentiva.com 
+Malta 
+Zentiva, k.s. 
+Tel: +356 2778 0PV-Malta@zentiva.com 
+Deutschland 
+Zentiva Pharma GmbH 
+Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com 
+Nederland 
+Zentiva, k.s. 
+Tel: +31 202 253 PV-Netherlands@zentiva.com 
+Eesti 
+Zentiva, k.s. 
+Tel: +372 52 70PV-Estonia@zentiva.com 
+Norge 
+Zentiva Denmark ApS 
+Tlf: +47 219 66 PV-Norway@zentiva.com </p>
+<p>Ελλάδα 
+Zentiva, k.s. 
+Τηλ: +30 211 198 7PV-Greece@zentiva.com 
+Österreich 
+Zentiva, k.s. 
+Tel: +43 720 778 PV-Austria@zentiva.com 
+España 
+Zentiva, k.s. 
+Tel: +34 931 815 PV-Spain@zentiva.com 
+Polska 
+Zentiva Polska Sp. z o.o. 
+Tel: + 48 22 375 92 PV-Poland@zentiva.com 
+France 
+Zentiva France 
+Tél: +33 (0) 800 089 PV-France@zentiva.com 
+Portugal 
+Zentiva Portugal, Lda 
+Tel: +351210601PV-Portugal@zentiva.com 
+Hrvatska 
+Zentiva, d.o.o. 
+Tel: +385 1 6641 PV-Croatia@zentiva.com 
+România 
+ZENTIVA S.A. 
+Tel: +40213047PV-Romania@zentiva.com 
+Ireland 
+Zentiva, k.s. 
+Tel: +353 818 882 PV-Ireland@zentiva.com 
+Slovenija 
+Zentiva, k.s. 
+Tel: +386 360 00 PV-Slovenia@zentiva.com 
+Ísland 
+Zentiva Denmark ApS 
+Sími: +354 539 0PV-Iceland@zentiva.com 
+Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
+Italia 
+Zentiva Italia S.r.l. 
+Tel: +39-02-38598PV-Italy@zentiva.com 
+Suomi/Finland 
+Zentiva Denmark ApS 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com 
+Κύπρος 
+Zentiva, k.s. 
+Τηλ: +357 240 30 PV-Cyprus@zentiva.com 
+Sverige 
+Zentiva Denmark ApS 
+Tel: +46 840 838 PV-Sweden@zentiva.com 
+Latvija 
+Zentiva, k.s. 
+Tel: +371 67893PV-Latvia@zentiva.com 
+United Kingdom (Northern Ireland) 
+Zentiva, k.s. 
+Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-65f18cefcd0fd99147e2e0a1f92724f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language en"
+Description: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-65f18cefcd0fd99147e2e0a1f92724f0"
+* entry[0].resource = composition-en-65f18cefcd0fd99147e2e0a1f92724f0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp65f18cefcd0fd99147e2e0a1f92724f0"
+* entry[=].resource = mp65f18cefcd0fd99147e2e0a1f92724f0
+                            
+                    
+Instance: bundlepackageleaflet-da-65f18cefcd0fd99147e2e0a1f92724f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language da"
+Description: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-65f18cefcd0fd99147e2e0a1f92724f0"
+* entry[0].resource = composition-da-65f18cefcd0fd99147e2e0a1f92724f0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp65f18cefcd0fd99147e2e0a1f92724f0"
+* entry[=].resource = mp65f18cefcd0fd99147e2e0a1f92724f0
+                            
+                    
+
+
+
+Instance: mp65f18cefcd0fd99147e2e0a1f92724f0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 600 mg/200 mg/245 mg film-coated tablets"
-Description: "Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 600 mg/200 mg/245 mg film-coated tablets"
+Title: "Medicinal Product efavirenzemtricitabinetenofovir"
+Description: "efavirenzemtricitabinetenofovir"
 Usage: #inline
 
  
@@ -680,7 +1615,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 600 mg/200 mg/245 mg film-coated tablets"
+  * productName = "efavirenzemtricitabinetenofovir"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -707,29 +1642,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-65f18cefcd0fd99147e2e0a1f92724f0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language en"
-Description: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 65f18cefcd0fd99147e2e0a1f92724f0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1210/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "efavirenzemtricitabinetenofovir"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-65f18cefcd0fd99147e2e0a1f92724f0"
-* entry[0].resource = composition-en-65f18cefcd0fd99147e2e0a1f92724f0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0a40a91fb2e9f5003ad73a28e70ecf9b"
-* entry[=].resource = mp0a40a91fb2e9f5003ad73a28e70ecf9b
-                            
-                      
+* title = "List of all ePIs associated with efavirenzemtricitabinetenofovir"
+
+* subject = Reference(mp0a40a91fb2e9f5003ad73a28e70ecf9b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#efavirenzemtricitabinetenofovir "efavirenzemtricitabinetenofovir"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-65f18cefcd0fd99147e2e0a1f92724f0) // efavirenzemtricitabi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-65f18cefcd0fd99147e2e0a1f92724f0) // efavirenzemtricitabi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-65f18cefcd0fd99147e2e0a1f92724f0
+InstanceOf: List
+
+* insert 65f18cefcd0fd99147e2e0a1f92724f0ListRuleset
+    

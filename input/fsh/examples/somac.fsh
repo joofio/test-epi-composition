@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-30e51ed12b82204a5177c9b68b9c4f09
 InstanceOf: CompositionUvEpi
 Title: "Composition for somac Package Leaflet"
@@ -446,12 +449,535 @@ Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
 
 
 
+Instance: composition-da-30e51ed12b82204a5177c9b68b9c4f09
+InstanceOf: CompositionUvEpi
+Title: "Composition for somac Package Leaflet"
+Description:  "Composition for somac Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0aa81ef4e467e9095fcd878c33711c44)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0aa81ef4e467e9095fcd878c33711c44
+* title = "TEST PURPOSES ONLY - somac"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage SOMAC Control<br />
+3. Sådan skal du tage SOMAC Control<br />
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What somac is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What somac is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SOMAC Control indeholder det aktive stof pantoprazol, som blokerer den "pumpe", der producerer 
+mavesyre. Dermed reduceres mængden af syre i din mave. </p>
+<p>SOMAC Control bruges til korttidsbehandling af reflukssymptomer (f.eks. halsbrand og sure opstød) 
+hos voksne. </p>
+<p>Refluks er tilbageløb af syre fra maven til spiserøret, som kan blive betændt og smertefuldt. Det kan 
+give symptomer som smertefuld brændende fornemmelse i brystet, som stiger op i halsen (halsbrand) 
+og giver en sur smag i munden (sure opstød). </p>
+<p>Du kan opleve lindring af dine symptomer på sure opstød og halsbrand efter kun en dags behandling 
+med SOMAC Control, dog er dette lægemiddel ikke beregnet til at give øjeblikkelig lindring. Det kan 
+være nødvendigt at tage tabletter i 2-3 dage i træk for at lindre symptomerne. </p>
+<p>Kontakt lægen, hvis du får det værre, eller hvis du ikke får det bedre i løbet af 2 uger. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take somac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take somac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke SOMAC Control </p>
+<ul>
+<li>hvis du er allergisk over for pantoprazol eller et af de øvrige indholdsstoffer (angivet i afsnit 6). </li>
+<li>hvis du tager hiv-proteasehæmmere som f.eks. atazanavir, nelfinavir (til behandling af 
+hiv-infektion). Se brug af andre lægemidler sammen med SOMAC Control. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager SOMAC Control 
+- hvis du er blevet behandlet for halsbrand eller fordøjelsesbesvær uafbrudt i mere end 4 uger. 
+- hvis du er over 55 år og daglig tager lægemidler uden recept mod fordøjelsesbesvær. 
+- hvis du er over 55 år og har nye reflukssymptomer eller reflukssymptomer, der for nyligt har 
+ændret sig. 
+- hvis du tidligere har haft et mavesår eller har fået foretaget en maveoperation. 
+- hvis du har leverproblemer eller gulsot (gulfarvning af huden og øjnene). 
+- hvis du regelmæssigt tager til læge på grund af alvorlige sygdomme eller lidelser. 
+-<br />
+hvis du skal have fortaget en endoskopi eller en udåndingstest kaldet C-urea. 
+- hvis du nogensinde har fået hudreaktioner efter at have taget et lægemiddel af samme slags som 
+SOMAC Control, der nedsætter syreindholdet i maven. 
+- du skal have taget en særlig blodprøve (chromogranin A). 
+- hvis du tager hiv-proteasehæmmere såsom atazanavir; nelfinavir (til behandling af 
+hiv-infektion) samtidig med pantoprazol, skal du spørge din læge specifikt om råd. </p>
+<p>Tag ikke dette produkt i længere tid end 4 uger uden at tale med din læge. Hvis dine reflukssymptomer 
+(halsbrand eller opgylpning af syre) varer ved længere end 2 uger, skal du tale med din læge, som vil 
+træffe beslutning om behovet for langvarig indtagelse af dette lægemiddel. </p>
+<p>Hvis du tager SOMAC Control i længere perioder, kan det medføre yderligere risici i form af:</p>
+<ul>
+<li>
+<p>Reduceret optagelse af vitamin B12 og vitamin B12-mangel, hvis dine vitamin B12-depoter i 
+kroppen allerede er lave. Kontakt lægen, hvis du bemærker et eller flere af følgende symptomer, 
+som kan tyde på lavt niveau af vitamin B12:</p>
+</li>
+<li>
+<p>ekstrem træthed eller mangel på energi. </p>
+</li>
+<li>prikkende eller snurrende fornemmelse i huden. </li>
+<li>øm eller rød tunge, mundsår. </li>
+<li>muskelsvækkelse. </li>
+<li>synsforstyrrelser. </li>
+<li>hukommelsesbesvær, forvirring, depression. </li>
+<li>Fraktur af hofte, håndled eller rygsøjle, især hvis du allerede har osteoporose (nedsat 
+knogletæthed), eller hvis din læge har fortalt dig, at du har risiko for at få osteoporose (hvis du 
+for eksempel tager steroider). </li>
+<li>Faldende magnesiumniveauer i blodet (mulige symptomer: træthed, ufrivillige 
+muskelsammentrækninger, desorientering, kramper, svimmelhed, øget hjertefrekvens). Lave 
+magnesiumniveauer kan også medføre en reduktion af kalium- eller calciumniveauerne i blodet. 
+Du skal tale med din læge om det, hvis du har brugt dette produkt i mere end 4 uger. Din læge 
+kan beslutte at tage regelmæssige blodprøver for at overvåge dine magnesiumniveauer. </li>
+</ul>
+<p>Fortæl det straks til lægen før eller efter du har taget lægemidlet, hvis du oplever nogle af følgende 
+symptomer, som kan være et tegn på en anden, mere alvorlig, sygdom:</p>
+<ul>
+<li>uventet vægttab (som ikke er relateret til diæt eller et motionsprogram). </li>
+<li>opkastning, især ved gentagelse. </li>
+<li>blodigt opkast, dette kan ses som mørkt kaffegrums i dit opkast. </li>
+<li>du opdager blodig afføring, som kan være sort eller tjærefarvet. </li>
+<li>synkebesvær eller smerte i forbindelse med synkning. </li>
+<li>du ser bleg ud eller føler dig sløj (blodmangel). </li>
+<li>brystsmerter. </li>
+<li>mavesmerter. </li>
+<li>kraftig og/eller vedvarende diaré, da dette lægemiddel er forbundet med en let øget risiko for 
+infektiøs diaré. </li>
+<li>hvis du får udslæt, især på de dele af huden, der er udsat for sol, skal du snarest sige det til 
+lægen, da du kan være nødt til at holde op med at tage SOMAC Control. Husk også at nævne 
+andre negative virkninger så som ledsmerter. </li>
+<li>alvorlige hudreaktioner, herunder Stevens-Johnsons syndrom, toksisk epidermal nekrolyse, 
+lægemiddelreaktion med eosinofili og systemiske symptomer (DRESS) og erythema 
+multiforme, som er blevet rapporteret i forbindelse med behandling med pantoprazol. Hold 
+straks op med at bruge pantoprazol og søg lægehjælp, hvis du bemærker et eller flere af disse 
+symptomer relateret til disse alvorlige hudreaktioner, der er beskrevet i afsnit 4. Din læge kan beslutte at henvise dig til yderligere undersøgelser. </li>
+</ul>
+<p>Fortæl lægen, at du tager dette lægemiddel, hvis du skal have taget en blodprøve. </p>
+<p>Du kan opleve lindring af dine symptomer på sure opstød og halsbrand efter kun en dags behandling 
+med SOMAC Control, dog er dette lægemiddel ikke beregnet til at give øjeblikkelig lindring.<br />
+Du skal ikke tage det som en forebyggende behandling. </p>
+<p>Hvis du gennem den seneste tid har lidt af halsbrand- eller fordøjelsesbesværsymptomer, skal du 
+huske at gå til læge regelmæssigt.  </p>
+<p>Børn og unge </p>
+<p>SOMAC Control må ikke bruges af børn og unge under 18 år pga. manglende dokumentation for 
+sikkerhed i denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med SOMAC Control  </p>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler.  </p>
+<p>SOMAC Control kan medføre, at andre lægemidler ikke virker ordentligt. Især lægemidler som 
+indeholder nogle af følgende aktive stoffer:</p>
+<ul>
+<li>hiv-proteasehæmmere som f.eks. atazanavir, nelfinavir (til behandling af hiv-infektion). Du må 
+ikke tage SOMAC Control, hvis du tager hiv-proteasehæmmere. Se ’tag ikke SOMAC Control’.  </li>
+<li>ketoconazol (bruges ved svampeinfektion) </li>
+<li>warfarin og phenprocoumon (lægemidler,  som virker blodfortyndende og forebygger 
+blodpropper). Du skal muligvis have taget flere blodprøver. </li>
+<li>methotrexat (bruges til behandling af reumatoid artrit, psoriasis og cancer) - hvis du tager 
+methotrexat, kan din læge midlertidigt stoppe din behandling med SOMAC Control, da 
+SOMAC Control kan forøge niveauet af methotrexat i blodet.  </li>
+</ul>
+<p>Tag ikke SOMAC Control samtidigt med andre lægemidler, som begrænser mængden af syre i din 
+mave, så som andre syrepumpehæmmere (omeprazol, lansoprazol eller rabeprazol) eller en 
+H2-antagonist (f.eks. ranitidin, famotidin). 
+Du må gerne tage SOMAC Control samtidig med syreneutraliserende lægemidler (f.eks. magaldrat, 
+alginsyre, natriumbicarbonat, aluminiumhydroxid, magnesiumcarbonat eller kombinationer heraf), 
+hvis det er nødvendigt. </p>
+<p>Tal med lægen, før du tager SOMAC Control, hvis du skal have taget en specifik urintest (for THC, 
+tetrahydrocannabinol). </p>
+<p>Graviditet, amning og fertilitet </p>
+<p>Du skal ikke tage dette lægemiddel hvis du er gravid eller ammer. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.  </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Hvis du oplever bivirkninger som svimmelhed og synsforstyrrelser, må du ikke føre motorkøretøj eller 
+betjene maskiner. </p>
+<p>SOMAC Control indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take somac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take somac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt som beskrevet i denne indlægsseddel eller efter lægens eller 
+apotekspersonalets anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet.  </p>
+<p>Den anbefalede dosis er en tablet dagligt. Overskrid ikke den anbefalede daglige dosis på 20 mg 
+pantoprazol. </p>
+<p>Du bør tage dette lægemiddel i mindst 2-3 dage i træk. Stop med at tage SOMAC Control, når du er 
+symptomfri. Du kan opleve lindring af dine symptomer på sure opstød og halsbrand efter kun en dags 
+behandling med SOMAC Control, men dette lægemiddel har ikke til hensigt at give øjeblikkelig 
+lindring. </p>
+<p>Du skal kontakte lægen, hvis du ikke oplever symptomlindring efter 2 hele ugers behandling med<br />
+lægemidlet. </p>
+<p>Tag ikke SOMAC Control -tabletter i mere end 4 uger uden at kontakte lægen. </p>
+<p>Tag tabletten på samme tid hver dag før et måltid. Tabletten skal synkes hel og med væske. Du må 
+ikke tygge eller knuse tabletten. </p>
+<p>Hvis du har taget for meget SOMAC Control  </p>
+<p>Fortæl det til lægen eller apotekspersonalet hvis du har taget mere end den anbefalede dosis. Tag om 
+muligt lægemidletog denne indlægsseddel med.  </p>
+<p>Hvis du har glemt at tage SOMAC Control  </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag den næste dosis næste dag 
+til sædvanlig tid. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl det straks til lægen eller kontakt skadestuen på det nærmeste hospital, hvis du får nogle af 
+følgende alvorlige bivirkninger. Hold straks op med at tage lægemidlet, men tag denne indlægsseddel 
+og/eller tabletterne med. </p>
+<ul>
+<li>
+<p>Alvorlige allergiske reaktioner (hyppighed sjælden: kan påvirke mellem 1 og 
+10 personer):<br />
+overfølsomhedsreaktioner, såkaldte anafylaktiske reaktioner, anafylaktisk chok og angioødem. 
+Typiske symptomer er: Hævelse af ansigt, læber, mund, tunge og/eller hals, hvilket kan give 
+problemer med at synke eller trække vejret, udslæt (nældefeber), alvorlig svimmelhed med 
+hurtig hjertebanken og kraftige svedeture. </p>
+</li>
+<li>
+<p>Alvorlige hudreaktioner (hyppighed ikke kendt: hyppigheden kan ikke bestemmes ud fra 
+de tilgængelige data):<br />
+Du kan bemærke en eller flere af følgende reaktioner </p>
+</li>
+<li>udslæt med hævelse, blæredannelse eller afskalning af huden, nedbrydning af huden og 
+blødning omkring øjne, næse, mund eller kønsdele og hurtig forværring af din almene 
+helbredstilstand, eller eksem især på områder af huden, der udsættes for sollys. Du kan også få 
+ledsmerter eller influenzalignende symptomer, feber eller hævede kirtler (f.eks. i armhulerne), 
+og blodprøver kan vise forandringer i visse hvide blodlegemer eller leverenzymer. </li>
+<li>rødlige, ikke-hævede, målskive-lignende eller cirkulære pletter på kroppen, ofte med vabler i 
+midten, hudafskalning, sår i munden, svælget, næsen, kønsorganerne og øjnene, omfattende 
+udslæt, feber og forstørrede lymfeknuder. Forud for disse alvorlige hududslæt kan der 
+forekomme feber og influenzalignende symptomer (Stevens-Johnson syndrom, toksisk 
+epidermal nekrolyse). </li>
+<li>
+<p>udbredt udslæt, høj kropstemperatur og hævede lymfeknuder (DRESS-syndrom eller 
+lægemiddeloverfølsomhedssyndrom). </p>
+</li>
+<li>
+<p>Andre alvorlige reaktioner (hyppighed ikke kendt):<br />
+gulfarvning af hud og øjne (på grund af alvorlig leverskade) eller feber, udslæt eller forstørrede 
+nyrer, undertiden med smertefuld vandladning, og lændesmerter (alvorlig nyreinflammation), 
+der kan medføre nyresvigt. </p>
+</li>
+</ul>
+<p>Andre bivirkninger omfatter:</p>
+<ul>
+<li>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer) 
+godartede polypper i maven. </p>
+</li>
+<li>
+<p>Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 personer) 
+hovedpine; svimmelhed; diarré; kvalme, opkastning; oppustethed og luftafgang fra tarmen; 
+forstoppelse; mundtørhed; smerter og ubehag i maven; hududslæt og eksem; kløe; 
+svaghedsfornemmelse, udmattet eller generelt utilpas; søvnforstyrrelser; forøgede leverenzymtal 
+ved blodprøve; fraktur i hofte, håndled eller rygsøjle. </p>
+</li>
+<li>
+<p>Sjældne bivirkninger (kan påvirke op til 1 ud af 1.000 personer) 
+smagsforstyrrelser eller fuldstændig mangel på smagssans; synsforstyrrelser så som sløret syn; 
+ledsmerter; muskelsmerter; ændringer i kropsvægt; forhøjet kropstemperatur; hævede hænder 
+og fødder; allergiske reaktioner; depression; forhøjede værdier af bilirubin og fedt i blodet (kan 
+ses i blodprøver); forstørrelse af brystkirtlerne hos mænd; høj feber og kraftigt fald i antallet af 
+hvide blodceller (i blodprøver). </p>
+</li>
+<li>
+<p>Meget sjældne bivirkninger (kan påvirke op til 1 ud af 10.000 personer) 
+desorientering; nedsat antal blodplader i blodet, hvilket kan medføre at du lettere bløder eller får 
+blå mærker; nedsat antal hvide blodlegemer, hvilket kan øge tendensen til betændelse; unormal 
+reduktion af antallet af hvide og røde blodlegemer samt blodplader (i blodprøver). </p>
+</li>
+<li>
+<p>Hyppighed ikke kendt (kan ikke estimeres ud fra forhåndenværende data) 
+hallucinationer, forvirring (specielt hos patienter som i forvejen har haft disse symptomer); 
+nedsat natrium, magnesium, calcium eller kalium i blodet (se afsnit 2), udslæt, eventuelt med 
+ledsmerter, en stikkende, prikkende, snurrende eller brændende fornemmelse eller 
+følelsesløshed, tyktarmsbetændelse, der giver vedvarende, vandig diarré. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store somac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store somac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale pakning for at beskytte mod fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SOMAC Control indeholder:</p>
+<ul>
+<li>Aktivt stof: Pantoprazol. Hver tablet indeholder 20 mg pantoprazol (som natirumsesquihydrat). </li>
+<li>Øvrige indholdsstoffer :  </li>
+</ul>
+<p>Kerne: Natriumcarbonat, vandfrit; mannitol (E 421), crospovidon, povidon K90, calciumstearat. </p>
+<p>Overtræk: hypromellose, povidon K25, titandioxid (E 171), gul jernoxid (E 172), 
+propylenglycol (E 1520), methacrylsyre-ethylacrylat copolymer (1:1), natriumlaurilsulfat, 
+polysorbat 80, triethylcitrat. </p>
+<p>Blæk til prægning: Shellac; rød, sort og gul jernoxid (E 172); koncentreret ammoniakopløsning. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Enterotabletterne er gule, ovale, bikonvekse filmovertrukne tabletter præget med "P20" på den ene 
+side. </p>
+<p>SOMAC Control findes i aluminim/aluminium-blister med eller uden kartonforstærkning. 
+Pakningerne indeholder 7 eller 14 enterotabletter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen  </p>
+<p>Takeda GmbH 
+Byk-Gulden-Straße 2,<br />
+D-78467 Konstanz<br />
+Tyskland </p>
+<p>Fremstiller </p>
+<p>Takeda GmbH 
+Production site Oranienburg 
+Lehnitzstraße 70-98,<br />
+D-16515 Oranienburg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tél/Tel: + 32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Teл.: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tél/Tel: + 32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Česká republika<br />
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Takeda HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0) 800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Ελλάδα<br />
+Takeda ΕΛΛΑΣ Α.Ε. 
+Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Österreich 
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
+<p>España 
+Takeda Farmacéutica España, S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmacêuticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>România 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba 
+d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος<br />
+Takeda ΕΛΛΑΣ Α.Ε. 
+Τηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Følgende anbefalinger omkring livsstil og kostændringer kan også hjælpe med at lindre halsbrand og 
+syre-relaterede symptomer. 
+- undgå store måltider 
+- spis langsomt 
+- hold op med at ryge 
+- reducer indtaget af alkohol og koffein 
+- vægttab (ved overvægt) 
+- undgå tætsiddende tøj eller bælte 
+- undgå at spise tre timer før sengetid 
+- hæv hovedgærdet (hvis du lider af natlige symptomer) 
+- reducer indtaget af madvarer, som kan medføre halsbrand. Det kan foreksempel være: 
+Chokolade, pebermynte, spearmint, fed og friturestegt mad, syreholdig mad, krydret mad, 
+citrusfrugter, frugtjuice og tomater. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-30e51ed12b82204a5177c9b68b9c4f09
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for somac Package Leaflet for language en"
+Description: "ePI document Bundle for somac Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-30e51ed12b82204a5177c9b68b9c4f09"
+* entry[0].resource = composition-en-30e51ed12b82204a5177c9b68b9c4f09
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp30e51ed12b82204a5177c9b68b9c4f09"
+* entry[=].resource = mp30e51ed12b82204a5177c9b68b9c4f09
+                            
+                    
+Instance: bundlepackageleaflet-da-30e51ed12b82204a5177c9b68b9c4f09
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for somac Package Leaflet for language da"
+Description: "ePI document Bundle for somac Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-30e51ed12b82204a5177c9b68b9c4f09"
+* entry[0].resource = composition-da-30e51ed12b82204a5177c9b68b9c4f09
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp30e51ed12b82204a5177c9b68b9c4f09"
+* entry[=].resource = mp30e51ed12b82204a5177c9b68b9c4f09
+                            
+                    
+
+
+
+Instance: mp30e51ed12b82204a5177c9b68b9c4f09
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product SOMAC Control 20 mg gastro-resistant tablets"
-Description: "SOMAC Control 20 mg gastro-resistant tablets"
+Title: "Medicinal Product somac"
+Description: "somac"
 Usage: #inline
 
  
@@ -471,7 +997,7 @@ Usage: #inline
 
 
 * name
-  * productName = "SOMAC Control 20 mg gastro-resistant tablets"
+  * productName = "somac"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -498,29 +1024,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-30e51ed12b82204a5177c9b68b9c4f09
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for somac Package Leaflet for language en"
-Description: "ePI document Bundle for somac Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 30e51ed12b82204a5177c9b68b9c4f09ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/516/001-004"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "somac"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-30e51ed12b82204a5177c9b68b9c4f09"
-* entry[0].resource = composition-en-30e51ed12b82204a5177c9b68b9c4f09
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0aa81ef4e467e9095fcd878c33711c44"
-* entry[=].resource = mp0aa81ef4e467e9095fcd878c33711c44
-                            
-                      
+* title = "List of all ePIs associated with somac"
+
+* subject = Reference(mp0aa81ef4e467e9095fcd878c33711c44)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#somac "somac"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-30e51ed12b82204a5177c9b68b9c4f09) // somac en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-30e51ed12b82204a5177c9b68b9c4f09) // somac da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-30e51ed12b82204a5177c9b68b9c4f09
+InstanceOf: List
+
+* insert 30e51ed12b82204a5177c9b68b9c4f09ListRuleset
+    

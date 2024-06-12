@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e6ed326fcb8117af473e84eeac339bdf
 InstanceOf: CompositionUvEpi
 Title: "Composition for onbevzi Package Leaflet"
@@ -591,12 +594,898 @@ bioepis.mi@medinformation.co.uk </p>
 
 
 
+Instance: composition-da-e6ed326fcb8117af473e84eeac339bdf
+InstanceOf: CompositionUvEpi
+Title: "Composition for onbevzi Package Leaflet"
+Description:  "Composition for onbevzi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp76c0c6655cb7682a034e507f0a0e0117)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp76c0c6655cb7682a034e507f0a0e0117
+* title = "TEST PURPOSES ONLY - onbevzi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Onbevzi  </li>
+<li>Sådan skal du bruge Onbevzi </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What onbevzi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What onbevzi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Onbevzi indeholder det aktive stof bevacizumab, som er et humaniseret monoklonalt antistof (et type 
+protein, som normalt laves af immunsystemet, og som hjælper med at beskytte kroppen mod 
+infektioner og kræft). Bevacizumab bindes selektivt til et protein, som kaldes human vaskulær 
+endotelial vækstfaktor (VEGF), som findes på indersiden af blod- og lymfekar i kroppen. VEGF-
+proteinet får blodkarrene i kræftknuden til at vokse. Disse blodkar forsyner tumoren med 
+næringsstoffer og ilt. Når bevacizumab først er bundet til VEGF, forhindres tumoren i at vokse, idet 
+væksten af de blodkar, som forsyner tumoren med næringsstoffer og ilt, blokeres. </p>
+<p>Onbevzi er medicin som anvendes hos voksne til behandling af fremskreden kræft i tyktarmen eller 
+endetarmen. Onbevzi vil blive givet i kombination med kemoterapibehandling, der indeholder 
+fluoropyrimidin.  </p>
+<p>Onbevzi anvendes også hos voksne til behandling af metastatisk brystkræft. Når det anvendes til 
+patienter med brystkræft, vil det blive givet sammen med et cytostatikum (lægemiddel mod kræft), der 
+hedder paclitaxel eller capecitabin. </p>
+<p>Onbevzi bruges også hos voksne til behandling af fremskreden ikke-småcellet lungekræft. Onbevzi vil 
+blive givet sammen med kemoterapibehandling, der indeholder platin. </p>
+<p>Onbevzi bruges også hos voksne til behandling af fremskreden ikke-småcellet lungekræft, når 
+kræftcellerne har bestemte mutationer i et protein, der kaldes epidermal vækstfaktor-receptor (EGFR). 
+Onbevzi vil blive givet sammen med erlotinib. </p>
+<p>Onbevzi bruges også hos voksne til behandling af fremskreden nyrekræft. Når det anvendes til 
+patienter med nyrekræft, bliver det givet sammen med en anden type medicin, som kaldes interferon. </p>
+<p>Onbevzi bruges også hos voksne til behandling af fremskreden kræft i æggestokkene, kræft i 
+æggeledere eller primær bughindekræft. Når det anvendes til patienter med kræft i æggestokkene, 
+kræft i æggeledere eller primær bughindekræft, bliver det givet sammen med carboplatin og paclitaxel. </p>
+<p>Når lægemidlet anvendes til voksne patienter med fremskreden kræft i æggestokkene, kræft i 
+æggelederne eller primær bughindekræft, hvor sygdommen er kommet igen mere end 6 måneder efter 
+sidste kemoterapi, som indeholdt platin, vil Onbevzi blive givet sammen med carboplatin og 
+gemcitabin eller sammen med carboplatin og paclitaxel. </p>
+<p>Når lægemidlet anvendes til voksne patienter med fremskreden kræft i æggestokkene, kræft i 
+æggeledere eller primær bughindekræft, hvor sygdommen er kommet igen tidligere end 6 måneder 
+efter sidste kemoterapi, som indeholdt platin, vil Onbevzi blive givet sammen med paclitaxel eller 
+topotecan eller pegyleret liposomal doxorubicin. </p>
+<p>Onbevzi bruges også i behandlingen af voksne patienter med vedvarende livmoderhalskræft, med 
+livmoderhalskræft, som er kommet igen, eller med livmoderhalskræft, der har spredt sig (dannet 
+metastaser). Onbevzi bliver givet sammen med paclitaxel og cisplatin eller med paclitaxel og 
+topotecan til patienter, som ikke kan få platin. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take onbevzi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take onbevzi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Onbevzi: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for bevacizumab eller et af de øvrige indholdsstoffer i Onbevzi (angivet 
+i punkt 6). </p>
+</li>
+<li>
+<p>hvis du er allergisk over for celleprodukter fra kinesisk hamsterovarie (CHO) eller overfor andre 
+rekombinante humane eller humaniserede antistoffer. </p>
+</li>
+<li>
+<p>hvis du er gravid.  </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Onbevzi: </p>
+<ul>
+<li>
+<p>Det er muligt, at Onbevzi kan øge risikoen for, at der dannes huller i tarmvæggen. Tal med din 
+læge, hvis du har tilstande, som forårsager betændelse i maveregionen (f.eks. diverticulitis, 
+mavesår, tyktarmsbetændelse forbundet med kemoterapi). </p>
+</li>
+<li>
+<p>Onbevzi kan øge risikoen for, at der dannes abnorme forbindelser eller passager mellem to 
+organer eller blodårer. Risikoen for at udvikle en rørformet forbindelse (fistel) mellem skeden 
+og et eller andet sted på tarmen kan øges, hvis du har vedvarende livmoderhalskræft, hvis 
+livmoderhalskræften er kommet igen, eller hvis livmoderhalskræften har spredt sig. </p>
+</li>
+<li>
+<p>Onbevzi kan øge risikoen for blødning eller problemer med sårhelingen efter operation. Hvis du 
+skal opereres, hvis du har fået foretaget en større operation indenfor de sidste 28 dage, eller hvis 
+du har et sår efter en operation, som ikke er helet, må du ikke få Onbevzi. </p>
+</li>
+</ul>
+<p>● 
+Onbevzi kan øge risikoen for udvikling af alvorlige infektioner i huden eller i de dybereliggende 
+lag under huden, især hvis du har haft hul i tarmen eller problemer med sårheling. </p>
+<ul>
+<li>
+<p>Onbevzi kan øge hyppigheden af forhøjet blodtryk. Hvis du har forhøjet blodtryk, som ikke er 
+velbehandlet med blodtrykssænkende medicin, skal du kontakte din læge, fordi det er vigtigt at 
+sikre, at dit blodtryk er under kontrol, før du starter i behandling med Onbevzi. </p>
+</li>
+<li>
+<p>Hvis du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i 
+en blodårevæg. </p>
+</li>
+<li>
+<p>Dette lægemiddel øger risikoen for at få protein i urinen, især hvis du har forhøjet blodtryk. </p>
+</li>
+<li>
+<p>Risikoen for at udvikle blodpropper i arterierne (en type blodkar) kan øges, hvis du er over år, hvis du har sukkersyge, eller hvis du tidligere har haft blodpropper i arterierne. Tal med din 
+læge, eftersom blodpropper kan forårsage hjerteanfald og slagtilfælde.  </p>
+</li>
+<li>
+<p>Onbevzi kan også øge risikoen for at udvikle blodpropper i venerne (en type blodkar),  </p>
+</li>
+<li>
+<p>Dette lægemiddel kan forårsage blødning, især tumor-relateret blødning. Kontakt din læge, hvis 
+du eller din familie har tendens til blødningsproblemer, eller hvis du tager blodfortyndende 
+medicin. </p>
+</li>
+<li>
+<p>Det er muligt, at Onbevzi kan forårsage blødning i og omkring hjernen. Tal med din læge, hvis 
+du har kræftspredning, som påvirker hjernen. </p>
+</li>
+<li>
+<p>Det er muligt, at Onbevzi kan øge risikoen for blødning i lungerne, herunder blodig hoste eller 
+spyt. Tal med din læge, hvis du tidligere har bemærket dette. </p>
+</li>
+<li>
+<p>Onbevzi kan øge risikoen for at udvikle et svagt hjerte. Det er vigtigt, at din læge ved, om du 
+tidligere har fået antracykliner (for eksempel doxorubicin, en speciel slags kemoterapi, som 
+bruges mod nogle kræfttyper), om du har fået strålebehandling af brystet, eller om du har en 
+hjertesygdom. </p>
+</li>
+<li>
+<p>Dette lægemiddel kan forårsage infektioner og nedsætte antallet af neutrofiler (en type 
+blodceller, som er vigtige for at beskytte dig mod bakterier). </p>
+</li>
+<li>
+<p>Det er muligt, at Onbevzi kan forårsage allergiske (herunder anafylaktisk shock) og/eller 
+infusionsrelaterede reaktioner. Fortæl lægen, apotekspersonalet eller sygeplejersken, hvis du 
+tidligere har oplevet problemer efter injektioner, såsom svimmelhed/fornemmelse af at besvime, 
+kortåndethed, hævelse eller hududslæt. </p>
+</li>
+<li>
+<p>En sjælden neurologisk bivirkning kaldet posteriort reversibelt encefalopati- syndrom (PRES) 
+har været knyttet til Onbevzi-behandling. Hvis du får hovedpine, synsforstyrrelser, bliver 
+omtåget eller får kramper med eller uden forhøjet blodtryk, skal du kontakte lægen.  </p>
+</li>
+</ul>
+<p>Kontakt din læge, også selvom du kun tidligere har oplevet de ovennævnte tilstande. </p>
+<p>Før du får Onbevzi, eller imens du bliver behandlet med Onbevzi: </p>
+<ul>
+<li>
+<p>hvis du har eller har haft smerter i munden, tænderne og/eller kæben, hævelse eller sår inde i 
+munden, følelsesløshed eller en følelse af tyngde i kæben, eller får en løs tand, skal du straks 
+fortælle det til din læge og tandlæge. </p>
+</li>
+<li>
+<p>hvis du behøver invasiv tandbehandling (f.eks. tandudtrækning) eller en tandoperation, skal du 
+fortælle din tandlæge, at du er i behandling med Onbevzi, især hvis du også bliver eller er blevet 
+behandlet med bisfosfonater, som injektion i blodet. </p>
+</li>
+</ul>
+<p>Du kan blive rådet til at få foretaget et tandeftersyn, før du starter i behandling med Onbevzi. </p>
+<p>Børn og unge </p>
+<p>Det frarådes at anvende Onbevzi til børn og unge under 18 år, da sikkerheden og fordelene ved 
+Onbevzi ikke er fastlagt hos denne patientgruppe.  </p>
+<p>Der er rapporteret tilfælde af dødt knoglevæv (nekrose) i andre knogler end i kæben hos patienter 
+under 18 år, som blev behandlet med Onbevzi. </p>
+<p>Brug af anden medicin sammen med Onbevzi 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin.  </p>
+<p>Kombination af Onbevzi med en anden medicin, sunitinibmalat (ordineret for kræft i nyrerne eller 
+mave-tarm-kanalen) kan forårsage alvorlige bivirkninger. Tal med din læge for at sikre, at du ikke 
+kombinerer disse 2 lægemidler.  </p>
+<p>Fortæl din læge, hvis du får en platin- eller taxan-baseret behandling til lungekræft eller til<br />
+brystkræft, som har spredt sig. Kombination af Onbevzi og disse behandlinger kan øge risikoen for 
+alvorlige bivirkninger.  </p>
+<p>Fortæl det til din læge, hvis du får eller for nylig har fået strålebehandling. </p>
+<p>Graviditet, amning og frugtbarhed 
+Du må ikke anvende denne medicin, hvis du er gravid. Onbevzi kan skade det ufødte barn, da det kan 
+standse dannelsen af nye blodkar. Din læge bør vejlede dig om anvendelsen af prævention under 
+behandlingen med Onbevzi og i mindst 6 måneder efter sidste Onbevzi-dosis. </p>
+<p>Fortæl straks din læge, hvis du er gravid, bliver gravid under behandling med Onbevzi eller har planer 
+at blive gravid.  </p>
+<p>Du må ikke amme under behandling med Onbevzi og i mindst 6 måneder efter sidste Onbevzi-dosis, 
+da Onbevzi kan påvirke væksten og udviklingen af dit barn. </p>
+<p>Onbevzi kan nedsætte kvinders frugtbarhed. Kontakt din læge for at få yderligere information. 
+Spørg lægen, apotekspersonalet eller sygeplejersken til råds, før du tager nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er ikke påvist, at Onbevzi nedsætter din evne til at køre bil eller betjene maskiner. 
+Alligevel er der rapporteret søvnighed og besvimelse ved anvendelse af Onbevzi. Hvis du oplever 
+symptomer, som påvirker dit syn eller din koncentrationsevne eller din reaktionsevne, skal du lade 
+være med at køre bil og betjene maskiner, før symptomerne er forsvundet. </p>
+<p>Vigtig information vedrørende hjælpestoffer i Onbevzi 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
+væsentlige natriumfrit.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take onbevzi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take onbevzi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dosis og indgivelseshyppighed 
+Dosis af Onbevzi afhænger af din legemsvægt og af den type kræft, der skal behandles. Den 
+anbefalede dosis er 5 mg, 7,5 mg, 10 mg eller 15 mg pr. kilo legemsvægt. Din læge vil ordinere den 
+Onbevzi-dosis, som passer til dig. Du vil blive behandlet med Onbevzi én gang hver 2. eller 3. uge. 
+Antallet af infusioner, som du skal have, afhænger af, hvordan du reagerer på behandlingen. Du skal 
+fortsætte med Onbevzi, indtil Onbevzi ikke længere hindrer tumoren i at vokse. Din læge vil diskutere 
+det med dig. </p>
+<p>Indgivelsesmetode og indgivelsesvej<br />
+Hætteglasset må ikke rystes. Onbevzi er et koncentrat til opløsning til infusion. Afhængig af den dosis, 
+som er foreskrevet til dig, vil en del af indholdet i Onbevzi-hætteglasset eller hele indholdet blive 
+fortyndet med natriumchloridopløsning (saltvandsopløsning) før anvendelsen. Du vil få den 
+fortyndede Onbevziopløsning af en læge eller sygeplejerske ved intravenøs infusion (et drop i din 
+vene). Den første infusion vil vare 90 minutter. Hvis den tåles godt, vil den næste infusion vare 
+60 minutter. Efterfølgende infusioner vil måske kun vare 30 minutter. </p>
+<p>Behandlingen med Onbevzi skal midlertidigt afbrydes </p>
+<ul>
+<li>
+<p>hvis du får svært forhøjet blodtryk, der kræver behandling med blodtryksmedicin, </p>
+</li>
+<li>
+<p>hvis du har problemer med sårheling efter en operation, </p>
+</li>
+<li>
+<p>hvis du skal opereres. </p>
+</li>
+</ul>
+<p>Behandlingen med Onbevzi skal stoppes permanent, hvis du får </p>
+<ul>
+<li>
+<p>svært forhøjet blodtryk, som ikke kan kontrolleres med blodtrykssænkende medicin, eller hvis 
+blodtrykket pludseligt stiger alvorligt, </p>
+</li>
+<li>
+<p>protein i urinen, efterfulgt af hævelser på kroppen, </p>
+</li>
+<li>
+<p>hul i tarmvæggen, </p>
+</li>
+<li>
+<p>en abnorm, rørformet forbindelse eller passage mellem luftrøret og spiserøret, mellem indre 
+organer og huden, mellem skeden og et eller andet sted på tarmen eller mellem andre væv, som 
+ikke normalt er forbundet (fistel), og som lægen vurderer er alvorlig, 
+● 
+alvorlige infektioner i huden eller i de dybereliggende lag under huden, </p>
+</li>
+<li>
+<p>en blodprop i arterierne, </p>
+</li>
+<li>
+<p>en blodprop i lungerne, </p>
+</li>
+<li>
+<p>svær blødning. </p>
+</li>
+</ul>
+<p>Hvis du har fået for meget Onbevzi </p>
+<ul>
+<li>Du kan få svær migræne. Hvis det sker, skal du straks tale med din læge, apotekspersonalet eller 
+sygeplejersken herom. </li>
+</ul>
+<p>Hvis en Onbevzi-dosis glemmes </p>
+<ul>
+<li>Din læge beslutter, hvornår du skal have den næste Onbevzi-dosis. Du bør tale med din læge 
+herom. </li>
+</ul>
+<p>Hvis du holder op med at få Onbevzi 
+Hvis behandlingen med Onbevzi stoppes, kan virkningen på tumorvæksten ophøre. Stop ikke 
+behandlingen med Onbevzi før, du har diskuteret det med din læge. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Tal med lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke fremgår af denne indlægsseddel. </p>
+<p>De bivirkninger, der er vist nedenfor, blev observeret, når Onbevzi blev givet sammen med 
+kemoterapi. Det betyder ikke at disse bivirkninger nødvendigvis kun skyldes Onbevzi. </p>
+<p>Allergiske reaktioner 
+Hvis du får en allergisk reaktion, skal du med det samme fortælle det til din læge eller sygeplejersken. 
+Symptomerne kan inkludere vejrtrækningsbesvær eller brystsmerter. Du kan også opleve hudrødme 
+eller blussende hud, udslæt, kuldegysninger og rysten eller kvalme og opkastning, hævelse, ørhed, 
+hurtig hjerterytme og bevidstløshed. </p>
+<p>Du skal omgående søge hjælp, hvis du får en af de nedenfor anførte bivirkninger. </p>
+<p>Alvorlige bivirkninger, som kan være meget almindelige (kan påvirke op til 1 ud af 10 patienter), 
+omfatter: </p>
+<ul>
+<li>
+<p>forhøjet blodtryk, </p>
+</li>
+<li>
+<p>følelsesløshed eller prikkende fornemmelse i hænder og fødder, </p>
+</li>
+<li>
+<p>nedsat antal af celler i blodet, inklusive hvide blodlegemer som hjælper med at bekæmpe 
+infektioner i kroppen (kan være ledsaget af feber) og celler, der hjælper blodet med at størkne, </p>
+</li>
+<li>
+<p>svaghedsfølelse og mangel på energi, </p>
+</li>
+<li>
+<p>træthed, </p>
+</li>
+<li>
+<p>diarré, kvalme, opkastning og mavesmerte </p>
+</li>
+</ul>
+<p>Alvorlige bivirkninger, som kan være almindelige (påvirker 1 til 10 patienter ud af 100), omfatter: </p>
+<ul>
+<li>
+<p>huller i tarmen, </p>
+</li>
+<li>
+<p>blødning, herunder blødning i lungerne hos patienter med ikke-småcellet lungekræft, </p>
+</li>
+<li>
+<p>blokering af arterier på grund af en blodprop, </p>
+</li>
+<li>
+<p>blokering af vener på grund af en blodprop, </p>
+</li>
+<li>
+<p>blokering af blodårerne i lungerne på grund af en blodprop, </p>
+</li>
+<li>
+<p>blokering af vener i benene på grund af en blodprop, </p>
+</li>
+<li>
+<p>hjertesvigt </p>
+</li>
+<li>
+<p>problemer med sårheling efter operation, </p>
+</li>
+<li>
+<p>rødme, afskalning, ømhed, smerter eller blisterdannelse på fingre eller fødder, </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer i blodet,  </p>
+</li>
+<li>
+<p>mangel på energi, </p>
+</li>
+<li>
+<p>mave- og tarmproblemer, </p>
+</li>
+<li>
+<p>muskel- og ledsmerter, muskelsvaghed, </p>
+</li>
+<li>
+<p>mundtørhed kombineret med tørst og/eller nedsat urinmængde eller mørkfarvet urin, </p>
+</li>
+<li>
+<p>inflammation (betændelseslignende reaktion) i slimhinder i mund og tarme, lunger og luftveje, 
+kønsdele og urinveje, </p>
+</li>
+<li>
+<p>sår i munden og spiserøret, som kan være smertefulde og forårsage synkeproblemer, </p>
+</li>
+<li>
+<p>smerter, inklusive hovedpine, rygsmerter, bækkensmerter og smerter omkring endetarmen, </p>
+</li>
+<li>
+<p>lokaliseret ansamling af pus, </p>
+</li>
+<li>
+<p>infektion, specielt infektion i blodet eller blæren, </p>
+</li>
+<li>
+<p>nedsat blodtilførsel til hjernen eller slagtilfælde, </p>
+</li>
+<li>
+<p>søvnighed, </p>
+</li>
+<li>
+<p>næseblod, </p>
+</li>
+<li>
+<p>forøgelse af hjerterytmen (pulsen), </p>
+</li>
+<li>
+<p>tarmblokade, </p>
+</li>
+<li>
+<p>unormal urintest (protein i blodet), </p>
+</li>
+<li>
+<p>kortåndethed eller lavt indhold af ilt i blodet, </p>
+</li>
+<li>
+<p>infektion i huden eller i de dybereliggende lag under huden, </p>
+</li>
+<li>
+<p>fistel: abnorm, rørformet forbindelse mellem indre organer og hud eller andre væv, som normalt 
+ikke er forbundet, inklusive forbindelse mellem skeden og tarmen hos patienter med 
+livmoderhalskræft. </p>
+</li>
+<li>
+<p>allergiske reaktioner (symptomer kan være vejrtrækningsproblemer, ansigtsrødme, udslæt, lavt 
+blodtryk eller højt blodtryk, lav iltmængde i blodet, brystsmerter eller kvalme/opkastning). </p>
+</li>
+</ul>
+<p>Alvorlige bivirkninger, som kan være sjældne (kan påvirke op til 1 ud af 1 000), omfatter: </p>
+<ul>
+<li>pludselige alvorlige allergiske reaktioner med vejrtrækningsproblemer, hævelse, ørhed, hurtig 
+hjerterytme, svedudbrud og bevidstløshed (anafylaktisk shock). </li>
+</ul>
+<p>Alvorlige bivirkninger med ukendt hyppighed (hyppigheden kan ikke vurderes ud fra tilgængelige 
+data) omfatter: </p>
+<ul>
+<li>
+<p>alvorlige infektioner i huden eller underliggende lag, især hvis du har haft huller i tarmvæggen 
+eller problemer med sårheling </p>
+</li>
+<li>
+<p>negativ påvirkning af kvinders evne til at få børn (for yderligere anbefalinger se nedenfor efter 
+bivirkningslisten) </p>
+</li>
+<li>
+<p>tilstand i hjernen (posteriort reversibelt encefalopati syndrom) med symptomer såsom kramper, 
+hovedpine, forvirring og synsforstyrrelser, </p>
+</li>
+<li>
+<p>symptomer, som tyder på ændringer i den normale hjernefunktion (hovedpine, synsforstyrrelser, 
+forvirring eller kramper) og højt blodtryk,  </p>
+</li>
+<li>
+<p>en udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner), </p>
+</li>
+<li>
+<p>tilstopning af meget små blodårer i nyrerne, </p>
+</li>
+<li>
+<p>abnormt højt blodtryk i lungernes blodårer, som forårsager, at højre side af hjertet arbejder 
+hårdere end normalt, </p>
+</li>
+<li>
+<p>hul i skillevæggen  mellem de to næsebor, </p>
+</li>
+<li>
+<p>hul i maven eller tarmen </p>
+</li>
+<li>
+<p>åbent sår eller hul i slimhinderne i maven eller tyndtarmen (symptomer kan være mavesmerter, 
+oppustethed, sort tjæreagtig afføring eller blod i afføringen eller blod i opkast), </p>
+</li>
+<li>
+<p>blødning fra den nedre del af tyktarmen </p>
+</li>
+<li>
+<p>skader i tandkødet med en blotlagt kæbeknogle, der ikke heler; kan være forbundet med smerter 
+og inflammation (betændelseslignende tilstand) i det omgivende væv (for yderligere 
+anbefalinger se nedenfor efter bivirkningslisten),  </p>
+</li>
+<li>
+<p>hul i galdeblæren (symptomer kan være mavesmerter, feber og kvalme/opkastning), </p>
+</li>
+</ul>
+<p>Du skal søge hjælp så hurtigt som muligt, hvis du får en af nedenfor nævnte bivirkninger. </p>
+<p>Meget almindelige bivirkninger (kan påvirker flere end 1 patient ud af 10), som ikke var alvorlige, 
+omfatter: </p>
+<ul>
+<li>
+<p>forstoppelse, </p>
+</li>
+<li>
+<p>tab af appetit, </p>
+</li>
+<li>
+<p>feber, </p>
+</li>
+<li>
+<p>problemer med øjnene (inklusive øget tåreproduktion), </p>
+</li>
+<li>
+<p>taleforstyrrelser, </p>
+</li>
+<li>
+<p>smagsforstyrrelser, </p>
+</li>
+<li>
+<p>løbende næse, </p>
+</li>
+<li>
+<p>tør hud, afskalning og inflammation (betændelseslignende tilstand) i huden, misfarvning af 
+huden, </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>næseblod </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10), som ikke er alvorlige, omfatter: </p>
+<ul>
+<li>ændringer i stemmen og hæshed. </li>
+</ul>
+<p>Patienter over 65 år har øget risiko for at få følgende bivirkninger: </p>
+<ul>
+<li>
+<p>blodprop i arterierne, som kan resultere i slagtilfælde eller hjertetilfælde, </p>
+</li>
+<li>
+<p>reduktion i antallet af hvide blodceller i blodet og i antallet af celler, der hjælper blodet med at 
+størkne,  </p>
+</li>
+<li>
+<p>diarré, </p>
+</li>
+<li>
+<p>kvalme, </p>
+</li>
+<li>
+<p>hovedpine,  </p>
+</li>
+<li>
+<p>træthed, </p>
+</li>
+<li>
+<p>forhøjet blodtryk. </p>
+</li>
+</ul>
+<p>Onbevzi kan også forårsage ændringer i de laboratorieundersøgelser, som din læge foretager. Disse 
+inkluderer: Nedsat antal hvide blodceller, specielt neutrofile (en type hvide blodceller, som hjælper 
+mod infektioner), protein i urinen, nedsat kalium, nedsat natrium eller nedsat fosfor (mineral) i blodet, 
+øget sukker i blodet, øget basisk fosfatase (et enzym) i blodet, forhøjet serum-kreatinin (et protein, 
+som måles ved en blodprøve og bruges til at vurdere din nyrefunktion), nedsat hæmoglobin (findes i 
+røde blodceller, og som transporterer ilt), som kan være alvorlig. </p>
+<p>Smerter i munden, tænderne og/eller kæben, hævelse eller sår inde i munden, følelsesløshed eller en 
+følelse af tyngde i kæben eller løsnen af en tand. Dette kan være tegn og symptomer på knogleskade i 
+kæben (osteonekrose). Fortæl straks din læge og tandlæge, hvis du oplever nogle af ovenstående 
+symptomer. </p>
+<p>Kvinder, som ikke er kommet i overgangsalderen (kvinder, som har en menstruationscyklus) kan 
+opleve, at deres menstruation bliver uregelmæssig eller udebliver, og at deres frugtbarhed bliver 
+nedsat. Hvis du overvejer at få børn, skal du rådføre dig med din læge, før behandlingen påbegyndes. </p>
+<p>Onbevzi er blevet udviklet og fremstillet til behandling af kræft efter injektion i blodbanen. Det er ikke 
+blevet udviklet eller fremstillet til injektion i øjet. Det er derfor ikke godkendt til anvendelse på denne 
+måde. Hvis Onbevzi injiceres direkte i øjet (ikke-godkendt brug), kan følgende bivirkninger 
+forekomme: </p>
+<ul>
+<li>
+<p>infektion eller vævsirritation (inflammation) i øjeæblet, </p>
+</li>
+<li>
+<p>røde øjne, små partikler eller pletter i synsfeltet ("flyvende fluer"), øjensmerter, </p>
+</li>
+<li>
+<p>lysglimt, som bevæger sig som "flyvende fluer", og som udvikler sig til tab af noget af synet, </p>
+</li>
+<li>
+<p>forhøjet tryk i øjet, </p>
+</li>
+<li>
+<p>blødning i øjet. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store onbevzi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store onbevzi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på hætteglasset efter 
+forkortelsen "EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 ºC - 8 C). Må ikke fryses.<br />
+Hætteglassene skal altid opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Infusionsopløsningen skal anvendes umiddelbart efter fortyndingen. Hvis den ikke anvendes straks, er 
+opbevaringstider og -betingelser efter fortynding brugerens ansvar og bør normalt ikke overstige 
+24 timer ved 2 ºC - 8 ºC, medmindre infusionsopløsningen er fremstillet under sterile forhold. </p>
+<p>Brug ikke Onbevzi, hvis du opdager partikler eller misfarvning før indgift.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Onbevzi indeholder:</p>
+<ul>
+<li>Aktivt stof: bevacizumab. Hver ml koncentrat indeholder 25 mg bevacizumab. 
+Hvert 4 ml hætteglas indeholder 100 mg bevacizumab svarende til 1,4 mg/ml efter 
+foreskreven fortynding. 
+Hvert 16 ml hætteglas indeholder 400 mg bevacizumab svarende til 16,5 mg/ml efter 
+foreskreven fortynding.  </li>
+<li>Øvrige indholdsstoffer: Trehalosedihydrat, natriumacetattrihydrat, eddikesyre, polysorbat 20, 
+vand til injektionsvæsker (se punkt 2). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Onbevzi er et koncentrat til infusionsvæske, opløsning. Koncentratet er en klar, farveløs til lysebrun 
+væske i et hætteglas af glas med gummilukke. Hvert hætteglas indeholder 100 mg bevacizumab i 4 ml 
+opløsning eller 400 mg bevacizumab i 16 ml opløsning. Hver pakning med Onbevzi indeholder et 
+hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+Holland 
+bioepis.mi@medinformation.co.uk </p>
+<p>Fremstiller 
+Biogen (Denmark) Manufact. ApS 
+Biogen Allé 1 
+Hillerød, 3400, 
+Danmark </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Nederland/Pays-Bas/Niederlande<br />
+bioepis.mi@medinformation.co.uk </p>
+<p>Lietuva 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Nyderlandai 
+bioepis.mi@medinformation.co.uk </p>
+<p>България 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Нидерландия 
+bioepis.mi@medinformation.co.uk </p>
+<p>Luxembourg/Luxemburg 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Holland/Niederlande 
+bioepis.mi@medinformation.co.uk </p>
+<p>Česká republika 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Nizozemsko 
+bioepis.mi@medinformation.co.uk </p>
+<p>Magyarország 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Hollandia 
+bioepis.mi@medinformation.co.uk </p>
+<p>Danmark 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Holland 
+bioepis.mi@medinformation.co.uk </p>
+<p>Malta 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Olanda 
+bioepis.mi@medinformation.co.uk </p>
+<p>Deutschland 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Niederlande 
+bioepis.mi@medinformation.co.uk </p>
+<p>Nederland 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Nederland 
+bioepis.mi@medinformation.co.uk </p>
+<p>Eesti 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Holland 
+bioepis.mi@medinformation.co.uk </p>
+<p>Norge 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Nederland 
+bioepis.mi@medinformation.co.uk </p>
+<p>Ελλάδα 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Ολλανδία 
+bioepis.mi@medinformation.co.uk </p>
+<p>Österreich 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Niederlande 
+bioepis.mi@medinformation.co.uk </p>
+<p>España 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Países Bajos 
+bioepis.mi@medinformation.co.uk </p>
+<p>Polska 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Holandia 
+bioepis.mi@medinformation.co.uk </p>
+<p>France 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Pays-Bas 
+bioepis.mi@medinformation.co.uk </p>
+<p>Portugal 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Países Baixos 
+bioepis.mi@medinformation.co.uk </p>
+<p>Hrvatska 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Nizozemska 
+bioepis.mi@medinformation.co.uk </p>
+<p>România 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Olanda 
+bioepis.mi@medinformation.co.uk </p>
+<p>Ireland 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Netherlands 
+bioepis.mi@medinformation.co.uk </p>
+<p>Slovenija 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Nizozemska 
+bioepis.mi@medinformation.co.uk </p>
+<p>Ísland 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Holland 
+bioepis.mi@medinformation.co.uk </p>
+<p>Slovenská republika 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Holandsko 
+bioepis.mi@medinformation.co.uk </p>
+<p>Italia 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Paesi Bassi 
+bioepis.mi@medinformation.co.uk </p>
+<p>Suomi/Finland 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Alankomaat/Nederländerna<br />
+bioepis.mi@medinformation.co.uk </p>
+<p>Κύπρος 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Ολλανδία 
+bioepis.mi@medinformation.co.uk </p>
+<p>Sverige 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Nederländerna 
+bioepis.mi@medinformation.co.uk </p>
+<p>Latvija 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+United Kingdom (Northern Ireland) 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 2616 LR Delft 
+Nīderlande 
+bioepis.mi@medinformation.co.uk 
+The Netherlands 
+bioepis.mi@medinformation.co.uk </p>
+<p>Denne indlægsseddel blev senest ændret den  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e6ed326fcb8117af473e84eeac339bdf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onbevzi Package Leaflet for language en"
+Description: "ePI document Bundle for onbevzi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e6ed326fcb8117af473e84eeac339bdf"
+* entry[0].resource = composition-en-e6ed326fcb8117af473e84eeac339bdf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe6ed326fcb8117af473e84eeac339bdf"
+* entry[=].resource = mpe6ed326fcb8117af473e84eeac339bdf
+                            
+                    
+Instance: bundlepackageleaflet-da-e6ed326fcb8117af473e84eeac339bdf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onbevzi Package Leaflet for language da"
+Description: "ePI document Bundle for onbevzi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e6ed326fcb8117af473e84eeac339bdf"
+* entry[0].resource = composition-da-e6ed326fcb8117af473e84eeac339bdf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe6ed326fcb8117af473e84eeac339bdf"
+* entry[=].resource = mpe6ed326fcb8117af473e84eeac339bdf
+                            
+                    
+
+
+
+Instance: mpe6ed326fcb8117af473e84eeac339bdf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Onbevzi 25 mg/ml concentrate for solution for infusion."
-Description: "Onbevzi 25 mg/ml concentrate for solution for infusion."
+Title: "Medicinal Product onbevzi"
+Description: "onbevzi"
 Usage: #inline
 
  
@@ -616,7 +1505,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Onbevzi 25 mg/ml concentrate for solution for infusion."
+  * productName = "onbevzi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -643,29 +1532,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e6ed326fcb8117af473e84eeac339bdf
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for onbevzi Package Leaflet for language en"
-Description: "ePI document Bundle for onbevzi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e6ed326fcb8117af473e84eeac339bdfListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1499/001 – 100 mg/4 ml vial"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "onbevzi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e6ed326fcb8117af473e84eeac339bdf"
-* entry[0].resource = composition-en-e6ed326fcb8117af473e84eeac339bdf
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp76c0c6655cb7682a034e507f0a0e0117"
-* entry[=].resource = mp76c0c6655cb7682a034e507f0a0e0117
-                            
-                      
+* title = "List of all ePIs associated with onbevzi"
+
+* subject = Reference(mp76c0c6655cb7682a034e507f0a0e0117)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#onbevzi "onbevzi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e6ed326fcb8117af473e84eeac339bdf) // onbevzi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e6ed326fcb8117af473e84eeac339bdf) // onbevzi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e6ed326fcb8117af473e84eeac339bdf
+InstanceOf: List
+
+* insert e6ed326fcb8117af473e84eeac339bdfListRuleset
+    

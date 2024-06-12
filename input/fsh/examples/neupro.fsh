@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c035528dfd6d4e6a78efce6dbdfc502c
 InstanceOf: CompositionUvEpi
 Title: "Composition for neupro Package Leaflet"
@@ -482,12 +485,833 @@ environment. </p>         </div>"""
 
 
 
+Instance: composition-da-c035528dfd6d4e6a78efce6dbdfc502c
+InstanceOf: CompositionUvEpi
+Title: "Composition for neupro Package Leaflet"
+Description:  "Composition for neupro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpaf1dfa104fb66178ff81d986232d0542)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpaf1dfa104fb66178ff81d986232d0542
+* title = "TEST PURPOSES ONLY - neupro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at bruge Neupro 
+3. Sådan skal De bruge Neupro 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What neupro is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What neupro is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Neupro indeholder det aktive stof rotigotin. 
+Det tilhører en gruppe lægemidler ved navn ‘dopaminagonister’. Dopamin er et signalstof i hjernen, 
+som er vigtig for bevægelse. </p>
+<p>Anvendelse 
+Neupro anvendes til voksne til behandling af sygdomstegn og symptomer på: 
+• Restless legs-syndrom (uro i benene (RLS)) - en tilstand som karakteriseres ved ubehag i 
+arme eller ben, trang til at bevæge sig rundt, søvnforstyrrelser og følelse af at være træt eller 
+døsig i løbet af dagen. Disse symptomer vil enten mindskes eller deres varighed forkortes ved 
+behandling med Neupro. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take neupro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take neupro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Neupro hvis: </p>
+<ul>
+<li>
+<p>De er allergisk over for rotigotin eller et af de øvrige indholdsstoffer i Neupro (angivet i 
+punkt 6). </p>
+</li>
+<li>
+<p>De skal have foretaget en magnetisk resonans (MR)-scanning (diagnostiske billeder af 
+kroppens inderside dannet ved hjælp af magnetisk energi i stedet for røntgenenergi). </p>
+</li>
+<li>
+<p>De har behov for ‘kardioversion’ (specifik behandling af unormale hjerteslag). </p>
+</li>
+</ul>
+<p>De skal tage Neupro-plasteret af umiddelbart før, De skal have foretaget magnetisk resonans (MR)-
+scanning eller kardioversion for at undgå forbrændinger på huden, fordi plasteret indeholder 
+aluminium. De kan sætte et nyt plaster på bagefter. </p>
+<p>Hvis et eller flere af ovenstående punkter gælder for Dem, skal De ikke bruge Neupro. Hvis De er i 
+tvivl, så spørg først Deres læge, apotekspersonalet eller sygeplejersken.  </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før De bruger Neupro. Dette er fordi: </p>
+<ul>
+<li>
+<p>Deres blodtryk bør måles regelmæssigt under behandling med Neupro især i starten af 
+behandlingen. Neupro kan påvirke Deres blodtryk.  </p>
+</li>
+<li>
+<p>Deres øjne jævnligt bør undersøges under behandling med Neupro. De skal omgående fortælle 
+det til lægen, hvis De får problemer med synet imellem undersøgelserne.  </p>
+</li>
+<li>
+<p>Hvis De har alvorlige leverproblemer, kan det være nødvendigt at ændre dosis. Fortæl det 
+omgående til lægen, hvis Deres leverproblemer forværres under behandlingen. </p>
+</li>
+<li>
+<p>De kan få hudreaktioner, som skyldes plasteret - se ‘Hudreaktioner, som skyldes plasteret’ 
+under punkt 4. * De kan føle dem meget træt eller pludselig falde i søvn - se ‘Trafik- og arbejdssikkerhed’ 
+under punkt 2. * Deres symptomer på restless legs-syndrom kan begynde tidligere end sædvanligt, være mere 
+intense og omfatte andre lemmer. Hvis De oplever sådanne symptomer, enten før eller efter De 
+begynder med Neupro, så kontakt Deres Læge, da det kan være nødvendigt at justere 
+behandlingen. </p>
+</li>
+</ul>
+<p>Lægemidler, der anvendes til behandling af restless legs-syndrom, bør reduceres eller stoppes gradvist. 
+Fortæl det til Deres læge, hvis De oplever symptomer, såsom depression, angst, træthed, svedtendens 
+eller smerter, efter De er stoppet med eller har reduceret behandlingen med Neupro. </p>
+<p>Bevidsthedstab kan forekomme 
+Neupro kan forårsage bevidsthedstab. Dette kan især forekomme, når De begynder med at bruge 
+Neupro, eller når Deres dosis øges. Fortæl det til lægen, hvis De mister bevidstheden eller føler Dem 
+svimmel. </p>
+<p>Ændringer i adfærd og unormal tankegang 
+Neupro kan forårsage bivirkninger, som ændrer Deres adfærd (hvordan De handler). Det kan være en 
+hjælp at fortælle et familiemedlem eller en omsorgsperson, at De bruger dette lægemiddel og få dem 
+til at læse denne indlægsseddel. Deres familie eller omsorgsperson kan fortælle det til Dem eller til 
+lægen, hvis de er bekymret for forandringer i Deres adfærd. Fortæl det til Deres læge, hvis De eller 
+Deres familie/omsorgsperson bemærker, at De bruger store mængder af lægemidlet eller udvikler en 
+trang til høje doser af Neupro eller andre lægemidler, der anvendes til behandling af restless 
+legs-syndrom. </p>
+<p>Se ‘Ændringer i adfærd og unormal tankegang’ under punkt 4 for yderligere information. </p>
+<p>Børn og unge 
+Lægemidlet må ikke anvendes til børn under 18 år, da sikkerhed og virkning ikke er kendt i denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Neupro 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger anden medicin eller har gjort det for 
+nylig. Dette gælder også lægemidler som ikke er købt på recept samt naturlægemidler. </p>
+<p>Anvend ikke følgende lægemidler, mens De bruger Neupro - da disse kan forringe virkningen af 
+Neupro:  </p>
+<ul>
+<li>
+<p>‘antipsykotisk’ medicin - bruges til at behandle visse psykiske lidelser. </p>
+</li>
+<li>
+<p>metoclopramid - bruges til at behandle kvalme og opkastning. </p>
+</li>
+</ul>
+<p>Fortæl det til Deres læge før De bruger Neupro, hvis De anvender: </p>
+<ul>
+<li>
+<p>beroligende medicin såsom benzodiazepiner eller medicin til at behandle psykiske lidelser eller 
+depression. </p>
+</li>
+<li>
+<p>medicin, som nedsætter blodtrykket. Neupro kan nedsætte blodtrykket, når De rejser Dem op - dette kan forværres af den medicin, som anvendes til at sænke blodtrykket. </p>
+</li>
+</ul>
+<p>Deres læge vil fortælle Dem, om det er sikkert at fortsætte brugen af disse lægemidler under 
+behandling med Neupro. </p>
+<p>Brug af Neupro sammen med mad, drikke og alkohol 
+Da rotigotin kommer ind i blodbanen igennem huden, påvirker mad eller drikke ikke den måde, 
+hvorpå denne medicin optages i kroppen. De skal spørge Deres læge, om det er sikkert for Dem, at 
+drikke alkohol, mens De bruger Neupro. </p>
+<p>Graviditet og amning 
+Brug ikke Neupro, hvis De er gravid da rotigotins effekt på graviditet og det ufødte barn ikke kendes.  </p>
+<p>De må ikke amme under behandling med Neupro. Dette skyldes, at rotigotin kan udskilles i 
+modermælken og påvirke Deres barn. Det vil sandsynligvis også nedsætte den mængde mælk, De 
+producerer. </p>
+<p>Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Neupro kan gøre Dem meget træt, og De falder måske i søvn meget pludseligt. Hvis det sker, må De 
+ikke føre motorkøretøj. 
+I enkelte tilfælde er mennesker faldet i søvn under bilkørslen, og det har forårsaget ulykker. </p>
+<p>Derudover må De ikke bruge værktøj eller maskiner, hvis De føler dem meget træt - eller gøre andet 
+der kan udsætte Dem selv eller andre for alvorlige skader. </p>
+<p>Neupro indeholder natriumpyrosulfit (E 223) 
+Natriumpyrosulfit (E 223) kan i sjældne tilfælde forårsage alvorlige overfølsomhedsreaktioner (allergi) 
+og astmalignende anfald (åndedrætsbesvær forårsaget af forsnævrede luftveje). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take neupro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take neupro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid Neupro nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Hvilken plaster-styrke skal bruges 
+Neupro findes i forskellige plaster-styrker, som frigiver medicinen over 24 timer. Styrkerne er: 
+1 mg/24 timer, 2 mg/24 timer og 3 mg/24 timer til behandlingen af restless legs-syndrom. </p>
+<ul>
+<li>
+<p>Deres startdosis vil være ét Neupro 1 mg/24 timer plaster hver dag. </p>
+</li>
+<li>
+<p>Fra uge 2 kan denne dosis øges med 1 mg hver uge - indtil den passende vedligeholdelses dosis 
+er nået for Dem. Dette er, når De og Deres læge er enige om, at symptomerne er tilstrækkeligt 
+kontrolleret, og bivirkningerne af lægemidlerne er acceptable. </p>
+</li>
+<li>
+<p>Følg lægens vejledning nøje. </p>
+</li>
+<li>
+<p>Den maksimale dosis er 3 mg dagligt. </p>
+</li>
+</ul>
+<p>Hvis De skal holde op med at bruge denne medicin, se ‘Hvis De holder op med at bruge Neupro’ 
+under punkt </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Neupro er et plaster, som sættes på huden. </p>
+<ul>
+<li>
+<p>Sørg for at tage det gamle plaster af, før De sætter et nyt på.  </p>
+</li>
+<li>
+<p>Sæt det nye plaster på et nyt område på huden hver dag. </p>
+</li>
+<li>
+<p>Lad plasteret sidde på huden i 24 timer, tag det derefter af og sæt et nyt plaster på. </p>
+</li>
+<li>
+<p>Udskift plastrene på nogenlunde samme tidspunkt hver dag. </p>
+</li>
+<li>
+<p>Klip ikke Neupro-plastrene i stykker. </p>
+</li>
+</ul>
+<p>Hvor påsættes plasteret? 
+Sæt den klæbende side af plasteret på ren, tør og sund 
+hud på et af følgende områder, som er markeret med 
+gråt på billedet i modsatte side: </p>
+<ul>
+<li>
+<p>Skulder eller overarm. </p>
+</li>
+<li>
+<p>Mave. </p>
+</li>
+<li>
+<p>Siden af kroppen (mellem ribbenene og 
+hoften). </p>
+</li>
+<li>
+<p>Lår eller hofte. </p>
+</li>
+</ul>
+<p>For at forebygge hudirritation </p>
+<ul>
+<li>
+<p>Klæb plasteret på et nyt hudområde hver dag. For 
+eksempel, kan De sætte det på højre side af kroppen 
+den ene dag og på venstre side af kroppen den næste 
+dag. Eller på Deres overkrop den ene dag og på Deres 
+underkrop den næste dag.  </p>
+</li>
+<li>
+<p>Sæt ikke Neupro på det samme hudområde to gange 
+inden for 14 dage. </p>
+</li>
+<li>
+<p>Placer ikke plasteret på sprukken eller beskadiget 
+hud eller på hud, som er rød eller irriteret. </p>
+</li>
+</ul>
+<p>Hvis De alligevel får hudreaktioner på grund af plasteret, se ‘Hudreaktioner som skyldes plasteret’ 
+under punkt 4 for yderligere information. </p>
+<p>For at forebygge at plasteret løsner sig eller falder af </p>
+<ul>
+<li>
+<p>Placer ikke plasteret på steder, hvor det kan gnide mod tætsiddende tøj. </p>
+</li>
+<li>
+<p>Anvend ikke creme, olie, lotion, pudder eller andre hudprodukter, hvor De skal sætte 
+plasteret. Anvend derudover ikke disse på eller nær et plaster, De allerede har på.  </p>
+</li>
+<li>
+<p>Placer ikke plasteret på behårede hudområder; De skal barbere det pågældende område mindst 
+3 dage før, plasteret sættes på. </p>
+</li>
+<li>
+<p>Hvis plasterets kanter løsner sig, kan plasteret fastgøres med selvklæbende medicinsk tape. </p>
+</li>
+</ul>
+<p>Hvis plasteret falder af, sættes der et nyt plaster på til resten af dagen. Herefter erstattes plasteret på 
+det sædvanlige tidspunkt. </p>
+<ul>
+<li>
+<p>Lad ikke området, hvor plasteret sidder, blive varmt - for eksempel for meget sollys, sauna, 
+varme bade, varmepuder eller varmedunke. Dette skyldes, at medicinen derved kan frigives 
+hurtigere. Hvis De tror, der har været påført for meget varme, så kontakt Deres læge eller 
+apotekspersonalet. </p>
+</li>
+<li>
+<p>Kontroller altid, at plasteret ikke er faldet af efter aktiviteter såsom karbad, brusebad eller 
+motionsudøvelse.  </p>
+</li>
+<li>
+<p>Beskyt det pågældende hudområde mod direkte sollys, hvis plasteret har irriteret huden. Det 
+skyldes, at det kan give ændringer i hudens farve. </p>
+</li>
+</ul>
+<p>Hvordan anvendes plasteret? </p>
+<ul>
+<li>
+<p>Hvert plaster ligger i et særskilt brev.  </p>
+</li>
+<li>
+<p>Inden åbning af brevet, skal De beslutte Dem for, hvor De skal sætte det nye plaster og 
+kontrollere, at De har fjernet det gamle plaster. </p>
+</li>
+<li>
+<p>Neupro-plasteret skal klæbes på huden, så snart brevet er åbnet og den aftagelige 
+beskyttelsesfilm er fjernet. </p>
+</li>
+<li>
+<p>Hold på brevet med begge 
+hænder for at åbne det. </p>
+</li>
+<li>
+<p>Træk foliestykkerne fra 
+hinanden. </p>
+</li>
+<li>
+<p>Åbn brevet. </p>
+</li>
+<li>
+<p>Tag plasteret ud af brevet. </p>
+</li>
+<li>
+<p>Den klæbende side af plasteret 
+er dækket af en gennemsigtig 
+aftagelig beskyttelsesfilm.  </p>
+</li>
+<li>
+<p>Hold plasteret i begge 
+hænder med den 
+aftagelige 
+beskyttelsesfilm ind 
+mod Dem selv. </p>
+</li>
+<li>
+<ul>
+<li>Bøj plasteret på 
+midten, så der 
+kommer en S-formet 
+åbning i den 
+aftagelige 
+beskyttelsesfilm. </li>
+</ul>
+</li>
+<li>
+<ul>
+<li>Træk den ene halvdel 
+af den aftagelige 
+beskyttelsesfilm af.  </li>
+</ul>
+</li>
+<li>
+<p>Rør ikke ved 
+plasterets klæbende 
+side med fingrene </p>
+</li>
+<li>
+<ul>
+<li>Hold på den anden 
+halvdel af den stive 
+aftagelige 
+beskyttelsesfilm </li>
+</ul>
+</li>
+<li>
+<p>Sæt den klæbende 
+halvdel af plasteret på 
+huden.  </p>
+</li>
+<li>
+<p>Pres plasterets 
+klæbende side mod 
+huden med et fast tryk. </p>
+</li>
+<li>
+<p>Fold den anden halvdel af 
+plasteret tilbage og fjern 
+resten af den aftagelige 
+beskyttelsesfilm. </p>
+</li>
+<li>
+<ul>
+<li>Pres plasteret fast på 
+huden med håndfladen. </li>
+</ul>
+</li>
+<li>
+<p>Hold fast i omkring 
+30 sekunder. 
+Dette sikrer, at plasteret sidder 
+fast på huden, og kanterne 
+klæber godt ned. </p>
+</li>
+<li>
+<p>Vask hænderne med vand og 
+sæbe umiddelbart efter 
+håndtering af plasteret. </p>
+</li>
+</ul>
+<p>Hvordan tages et brugt plaster af? </p>
+<ul>
+<li>
+<p>Tag langsomt og forsigtigt det brugte plaster af. </p>
+</li>
+<li>
+<p>Vask forsigtigt området med varmt vand og mild sæbe. Dette vil fjerne eventuelt resterende 
+klæbemiddel på huden. De kan også anvende en smule babyolie for at fjerne eventuelt 
+klæbemiddel, som ikke kan vaskes af. </p>
+</li>
+<li>
+<p>Anvend ikke sprit eller andre opløsningsvæsker - såsom neglelakfjerner. Det kan irritere huden. </p>
+</li>
+</ul>
+<p>Hvis De har brugt for mange Neupro-plastre 
+Hvis De bruger højere doser Neupro, end lægen har ordineret, kan det give bivirkninger såsom kvalme 
+eller opkastning, lavt blodtryk, De ser eller hører ting, der ikke er der (hallucinationer), følelse af 
+forvirring, De bliver meget søvnig, ufrivillige bevægelser og kramper.<br />
+Kontakt omgående Deres læge eller skadestuen, hvis De oplever disse bivirkninger. De vil fortælle 
+Dem, hvad De skal gøre.  </p>
+<p>Hvis De glemmer at skifte plasteret på det normale tidspunkt </p>
+<ul>
+<li>
+<p>Hvis De har glemt at skifte plasteret på det normale tidspunkt, skal De skifte det, så snart De 
+husker det. Tag det gamle plaster af og sæt et nyt plaster på.  </p>
+</li>
+<li>
+<p>Hvis De har glemt at sætte et nyt plaster på, efter De har taget det gamle af, sættes et nyt plaster 
+på, så snart De husker det.  </p>
+</li>
+</ul>
+<p>I begge tilfælde skal De bruge et nyt plaster på det sædvanlige tidspunkt den følgende dag. De må ikke 
+bruge en dobbeltdosis som erstatning for det glemte plaster. </p>
+<p>Hvis De holder op med at bruge Neupro 
+Stop ikke med at bruge Neupro uden først at tale med Deres læge. Et pludseligt ophør med 
+behandlingen kan medføre en sygdomstilstand, der kaldes ‘malignt neuroleptikasyndrom’, som kan 
+være livstruende. Symptomerne omfatter: mistet evne til at bevæge sig (akinesi), stive muskler, feber, 
+ustabilt blodtryk, øget puls (takykardi), forvirring, lavt bevidsthedsniveau (såsom koma).  </p>
+<p>Hvis Deres læge fortæller, at De skal stoppe med Neupro, bør Deres daglige dosis gradvist 
+nedsættes: </p>
+<ul>
+<li>Restless legs-syndrom - nedsættes med 1 mg hver anden dag. </li>
+</ul>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store neupro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store neupro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Fortæl 
+det til lægen, apotekspersonalet eller sygeplejersken, hvis De oplever bivirkninger. </p>
+<p>Bivirkninger som hyppigst optræder ved starten af behandlingen </p>
+<p>De kan få kvalme og opkastninger i starten af behandlingen. Disse bivirkninger er som regel lette 
+eller moderate og varer kun i kort tid. Fortæl det til lægen, hvis bivirkningerne varer i lang tid, eller 
+hvis De er bekymret over dem. </p>
+<p>Hudreaktioner, som skyldes plasteret </p>
+<ul>
+<li>
+<p>De kan få rødme og kløe på huden, hvor plasteret har siddet - disse reaktioner er normalt lette 
+eller moderate. </p>
+</li>
+<li>
+<p>Reaktionerne forsvinder normalt nogle få timer efter, De har fjernet plasteret.  </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis De har en hudreaktion, som varer længere end nogle få dage eller 
+hvis det er en alvorlig hudreaktion. Fortæl det også, hvis hudreaktionen breder sig ud over 
+området, som plasteret dækker. </p>
+</li>
+<li>
+<p>Undgå sollys og solarium på hudområder, hvor der er nogen form for hudreaktion på grund af 
+plasteret.  </p>
+</li>
+<li>
+<p>For at undgå hudreaktioner, bør De sætte plasteret på forskellige steder hver dag, og kun bruge 
+det samme område igen efter 14 dage. </p>
+</li>
+</ul>
+<p>Bevidsthedstab kan forekomme 
+Neupro kan forårsage bevidsthedstab. Dette forekommer især, når De begynder med at bruge Neupro, 
+eller når Deres dosis øges. Fortæl det til lægen, hvis De mister bevidstheden eller føler Dem svimmel. </p>
+<p>Ændringer i adfærd og unormal tankegang 
+Fortæl det til lægen, hvis De oplever ændringer i Deres adfærd, tankegang eller begge dele, se 
+nedenstående liste. Lægen vil tale med dem om, hvordan symptomerne kan håndteres eller 
+mindskes.  </p>
+<p>Det kan være en hjælp at fortælle et familiemedlem eller en omsorgsperson, at De bruger dette 
+lægemiddel, og få dem til at læse denne indlægsseddel. Deres familie eller omsorgspersonen kan 
+fortælle Dem eller Deres læge, hvis de er bekymret for forandringer i Deres adfærd. Neupro kan 
+forårsage usædvanlige lyster eller fristelser, som De ikke kan modstå, såsom impulsen, lysten eller 
+fristelsen til at udføre en handling, der kan skade Dem selv eller andre. </p>
+<p>Disse kan være: </p>
+<ul>
+<li>
+<p>stærk impuls til at spille for meget - også hvis det har alvorlige personlige eller familiære 
+konsekvenser </p>
+</li>
+<li>
+<p>ændret eller øget seksuel interesse og opførsel, som er til betydelig bekymring for Dem eller 
+andre - for eksempel øget sexlyst </p>
+</li>
+<li>
+<p>ukontrollerbar købe- eller forbrugslyst </p>
+</li>
+<li>
+<p>uhæmmet madindtagelse (indtagelse af store mængder mad i løbet af kort tid) eller konstant 
+trang til madindtagelse (indtagelse af mere mad end normalt og mere end der er behov for, til at 
+tilfredsstille sulten) </p>
+</li>
+</ul>
+<p>Neupro kan forårsage andre typer af adfærdsændringer og unormal tankegang. Disse kan være: </p>
+<ul>
+<li>
+<p>unormale tanker omkring virkeligheden </p>
+</li>
+<li>
+<p>vrangforestillinger og hallucinationer (ser eller hører ting, som ikke eksisterer) </p>
+</li>
+<li>
+<p>forvirring </p>
+</li>
+<li>
+<p>desorientering </p>
+</li>
+<li>
+<p>aggressiv adfærd </p>
+</li>
+<li>
+<p>rastløs uro </p>
+</li>
+<li>
+<p>delirium </p>
+</li>
+</ul>
+<p>Fortæl det til Deres læge, hvis De bemærker en eller flere ændringer i adfærd, tanker eller 
+begge, som er på ovenstående liste. Lægen vil tale med Dem om, hvordan symptomerne kan 
+håndteres eller mindskes. </p>
+<p>Allergiske reaktioner 
+Kontakt lægen, hvis De bemærker tegn på allergiske reaktioner - disse kan omfatte hævelse af 
+ansigtet, tungen eller læberne. </p>
+<p>Bivirkninger, hvis De bruger Neupro mod restless legs-syndrom 
+Fortæl det til lægen, apotekspersonalet eller sygeplejersken, hvis De bemærker en eller flere af 
+følgende bivirkninger: </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>følelse af svaghed (træthed) </p>
+</li>
+<li>
+<p>hudirritation under plasteret såsom rødme og kløe </p>
+</li>
+</ul>
+<p>Almindelig: kan forekomme hos op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>irritabilitet </p>
+</li>
+<li>
+<p>allergisk reaktion </p>
+</li>
+<li>
+<p>øget sexlyst </p>
+</li>
+<li>
+<p>højt blodtryk </p>
+</li>
+<li>
+<p>opkastning, halsbrand </p>
+</li>
+<li>
+<p>hævede ben og fødder </p>
+</li>
+<li>
+<p>træthed, falder i søvn pludseligt uden varsel, søvnløshed, søvnforstyrrelser, usædvanlige 
+drømme  </p>
+</li>
+<li>
+<p>manglende evne til at modstå trangen til at udføre en skadelig handling, herunder overdreven 
+spillelyst, gentagne meningsløse handlinger, ukontrollerbart indkøbsmønster eller forbrugslyst. </p>
+</li>
+<li>
+<p>uhæmmet madindtagelse (indtagelse af store mængder mad i løbet af kort tid) eller konstant 
+trang til madindtagelse (indtagelse af mere mad end normalt og mere end der er behov for, til at 
+tilfredsstille sulten) </p>
+</li>
+</ul>
+<p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>rastløs uro </p>
+</li>
+<li>
+<p>følelse af svimmelhed, når man rejser sig på grund af blodtryksfald </p>
+</li>
+</ul>
+<p>Sjælden: kan forekomme hos op til 1 ud af 1.000 personer </p>
+<ul>
+<li>
+<p>aggressiv adfærd </p>
+</li>
+<li>
+<p>desorientering </p>
+</li>
+</ul>
+<p>Ikke kendt: hyppigheden er ikke kendt  </p>
+<ul>
+<li>
+<p>trang til høje doser af lægemidler som Neupro - mere end nødvendigt mod sygdommen. Det 
+kaldes ‘dopamin-dysreguleringssyndrom’ og kan føre til overforbrug af Neupro </p>
+</li>
+<li>
+<p>De ser eller hører ting, som ikke er virkelige (hallucinationer) </p>
+</li>
+<li>
+<p>mareridt </p>
+</li>
+<li>
+<p>paranoia </p>
+</li>
+<li>
+<p>forvirring </p>
+</li>
+<li>
+<p>psykotiske lidelser </p>
+</li>
+<li>
+<p>vrangforestillinger </p>
+</li>
+<li>
+<p>delirium </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>tab af bevidsthed, ufrivillige bevægelser (dyskinesi) </p>
+</li>
+<li>
+<p>ufrivillige muskelspasmer (kramper) </p>
+</li>
+<li>
+<p>sløret syn </p>
+</li>
+<li>
+<p>synsforstyrrelser såsom at se farver eller lys </p>
+</li>
+<li>
+<p>vertigo (følelse af at alting drejer rundt) </p>
+</li>
+<li>
+<p>følelse af hjertebanken (palpitationer) </p>
+</li>
+<li>
+<p>unormal hjerterytme </p>
+</li>
+<li>
+<p>lavt blodtryk </p>
+</li>
+<li>
+<p>hikke </p>
+</li>
+<li>
+<p>forstoppelse, mundtørhed </p>
+</li>
+<li>
+<p>ubehag og smerter i maven </p>
+</li>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>rødme, øget svedtendens </p>
+</li>
+<li>
+<p>generaliseret kløe, hudirritation </p>
+</li>
+<li>
+<p>generaliseret udslæt </p>
+</li>
+<li>
+<p>manglende evne til at få eller bevare rejsning (erektion) </p>
+</li>
+<li>
+<p>vægttab, vægtforøgelse </p>
+</li>
+<li>
+<p>øgede eller unormale resultater af leverfunktionstest </p>
+</li>
+<li>
+<p>øget puls </p>
+</li>
+<li>
+<p>forhøjede niveauer af kreatinfosfokinase (CK) (CK er et enzym, som hovedsageligt findes i 
+skeletmuskulatur) </p>
+</li>
+<li>
+<p>fald </p>
+</li>
+<li>
+<p>rhabdomyolyse (en sjælden, alvorlig muskelsygdom, som giver smerter, ømhed og svaghed i 
+musklerne og kan medføre nyreproblemer) </p>
+</li>
+</ul>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis De bemærker en eller flere af ovenstående 
+bivirkninger. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken.  </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Håndtering af brugte og ubrugte plastre </p>
+<ul>
+<li>
+<p>Brugte plastre indeholder stadig det aktive stof, ‘rotigotin’ som kan være skadeligt for andre. 
+Fold det brugte plaster sammen med den klæbende side indad. Læg plasteret i det brev, det var 
+pakket i, og kasser det på en sikker måde, så det er uden for børns rækkevidde. </p>
+</li>
+<li>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c035528dfd6d4e6a78efce6dbdfc502c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for neupro Package Leaflet for language en"
+Description: "ePI document Bundle for neupro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c035528dfd6d4e6a78efce6dbdfc502c"
+* entry[0].resource = composition-en-c035528dfd6d4e6a78efce6dbdfc502c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc035528dfd6d4e6a78efce6dbdfc502c"
+* entry[=].resource = mpc035528dfd6d4e6a78efce6dbdfc502c
+                            
+                    
+Instance: bundlepackageleaflet-da-c035528dfd6d4e6a78efce6dbdfc502c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for neupro Package Leaflet for language da"
+Description: "ePI document Bundle for neupro Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c035528dfd6d4e6a78efce6dbdfc502c"
+* entry[0].resource = composition-da-c035528dfd6d4e6a78efce6dbdfc502c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc035528dfd6d4e6a78efce6dbdfc502c"
+* entry[=].resource = mpc035528dfd6d4e6a78efce6dbdfc502c
+                            
+                    
+
+
+
+Instance: mpc035528dfd6d4e6a78efce6dbdfc502c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Neupro 1 mg/24 h transdermal patch"
-Description: "Neupro 1 mg/24 h transdermal patch"
+Title: "Medicinal Product neupro"
+Description: "neupro"
 Usage: #inline
 
  
@@ -507,7 +1331,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Neupro 1 mg/24 h transdermal patch"
+  * productName = "neupro"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -534,29 +1358,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c035528dfd6d4e6a78efce6dbdfc502c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for neupro Package Leaflet for language en"
-Description: "ePI document Bundle for neupro Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c035528dfd6d4e6a78efce6dbdfc502cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "14"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "neupro"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c035528dfd6d4e6a78efce6dbdfc502c"
-* entry[0].resource = composition-en-c035528dfd6d4e6a78efce6dbdfc502c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpaf1dfa104fb66178ff81d986232d0542"
-* entry[=].resource = mpaf1dfa104fb66178ff81d986232d0542
-                            
-                      
+* title = "List of all ePIs associated with neupro"
+
+* subject = Reference(mpaf1dfa104fb66178ff81d986232d0542)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#neupro "neupro"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c035528dfd6d4e6a78efce6dbdfc502c) // neupro en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c035528dfd6d4e6a78efce6dbdfc502c) // neupro da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c035528dfd6d4e6a78efce6dbdfc502c
+InstanceOf: List
+
+* insert c035528dfd6d4e6a78efce6dbdfc502cListRuleset
+    

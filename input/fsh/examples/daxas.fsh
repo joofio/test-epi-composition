@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1f1abc0830f94db591b845bd71b79232
 InstanceOf: CompositionUvEpi
 Title: "Composition for daxas Package Leaflet"
@@ -360,12 +363,479 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-1f1abc0830f94db591b845bd71b79232
+InstanceOf: CompositionUvEpi
+Title: "Composition for daxas Package Leaflet"
+Description:  "Composition for daxas Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf3431ec4d368ff3b98ed7ee95827dc0e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf3431ec4d368ff3b98ed7ee95827dc0e
+* title = "TEST PURPOSES ONLY - daxas"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Daxas
+3. Sådan skal du tage Daxas
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What daxas is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What daxas is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Daxas indeholder det aktive stof roflumilast, som er et anti-inflammatorisk lægemiddel, der kaldes 
+fosfodiesterase 4-hæmmer. Roflumilast nedsætter aktiviteten af fosfodiesterase 4, der er et protein, der 
+forekommer naturligt i kroppens celler. Når aktiviteten af dette protein er mindsket, er der mindre 
+inflammation i lungerne. Dette hjælper til at stoppe den forsnævring af luftvejene, der opstår ved 
+kronisk obstruktiv lungesygdom (KOL). Dermed vil Daxas lette åndedrætsbesvær.
+Daxas anvendes til vedligeholdelsesbehandling af svær KOL hos voksne, der tidligere har haft 
+hyppige forværringer af symptomerne på sygdommen KOL (dette kaldes eksacerbationer), og som 
+lider af kronisk bronkitis. KOL er en kronisk lungesygdom, som medfører en forsnævring af 
+luftvejene (obstruktion) samt hævelse og irritation af væggene i de mindre luftveje (inflammation). 
+Dette fører til symptomer som hoste, hvæsen, trykken for brystet eller vejrtrækningsbesvær. Daxas 
+skal anvendes som tillæg til bronkodilatatorer.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take daxas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take daxas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Daxas</h2>
+<p>hvis du er allergisk over for roflumilast eller et af de øvrige indholdsstoffer i Daxas (angivet i 
+afsnit 6).
+-
+hvis du har moderate eller alvorlige leverproblemer.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager Daxas.
+Pludseligt anfald af åndenød
+Daxas er ikke beregnet til behandling af et pludseligt anfald af åndenød (akutte bronkospasmer). For at 
+afhjælpe et pludseligt anfald af åndenød, er det meget vigtigt, at lægen forsyner dig med anden 
+medicin, som du altid har til rådighed, og som kan klare et sådant anfald. Daxas vil ikke hjælpe dig i 
+den situation.
+41
+Kropsvægt
+Du skal tjekke din vægt regelmæssigt. Fortæl din læge, hvis du oplever et utilsigtet vægttab (som ikke 
+er relateret til et kost- eller motionsprogram), mens du er i behandling med dette lægemiddel.
+Andre sygdomme
+Daxas anbefales ikke, hvis du har en eller flere af følgende sygdomme:
+-
+svære immunologiske sygdomme som hiv-infektion, multipel sklerose (MS), lupus 
+erythematosus (LE) eller progressiv multifokal leukoenkefalopati, (PML)
+-
+alvorlige akutte infektionssygdomme som akut hepatitis
+-
+kræft (bortset fra basalcellekarcinom, en langsomt voksende form for hudkræft)
+-
+eller alvorlig forringelse af hjertefunktionen. 
+Der mangler relevante erfaringer med Daxasbehandling under disse omstændigheder. Du skal fortælle 
+din læge, hvis du har en af disse sygdomme.
+Erfaring er også begrænset hos patienter, som tidligere er diagnosticeret med tuberkulose, viral 
+hepatitis, viral herpesinfektion eller herpes zoster. Tal med din læge, hvis du har en af disse 
+sygdomme.
+Symptomer, du skal være opmærksom på
+Du kan måske opleve diarré, kvalme, mavesmerter eller hovedpine i løbet af de første uger af 
+behandlingen med Daxas. Tal med din læge, hvis sådanne bivirkninger ikke fortager sig inden for de 
+første uger af behandlingen.
+Daxas anbefales ikke til patienter, der tidligere har haft depression forbundet med selvmordstanker 
+eller selvmordslignende adfærd. Du kan også opleve søvnløshed, angst, nervøsitet eller føle dig 
+nedtrykt. Før du begynder behandling med Daxas, skal du fortælle din læge, hvis du allerede har 
+sådanne symptomer, eller hvis du tager anden medicin, da noget af denne medicin måske kan øge 
+risikoen for, at disse symptomer opstår. Du eller din plejer skal også straks fortælle din læge, hvis du 
+får humørsvingninger eller ændrer adfærd, eller hvis du får en hvilken som helst form for 
+selvmordstanker.
+Børn og unge
+Du må ikke give denne medicin til børn og unge under 18 år.
+Brug af anden medicin sammen med Daxas
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig,
+specielt følgende: 
+-
+medicin, der indeholder theofyllin (medicin til behandling af luftvejssygdomme), eller 
+-
+medicin, der bruges til behandling af immunologiske sygdomme, som methotrexat, azathioprin, 
+infliximab, etanercept eller orale kortikosteroider til behandling i lang tid.
+-
+medicin, der indeholder fluvoxamin (lægemidler til behandling af angst og depression), 
+enoxacin (lægemiddel til behandling af bakterieinfektioner) eller cimetidin (lægemiddel til 
+behandling af mavesår og halsbrand).
+Virkningen af Daxas kan forringes, hvis det tages sammen med rifampicin (antibiotika) eller sammen 
+med fenobarbital, karbamazepin eller fenytoin (medicin der normalt gives til behandling af epilepsi). 
+Spørg din læge til råds.
+Daxas kan tages sammen med andre lægemidler, der anvendes til behandling af KOL såsom 
+inhalerede eller orale steroider eller bronkodilatatorer. Du må ikke stoppe med at tage disse 
+lægemidler eller tage en mindre dosis, medmindre det er anvist af din læge.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+42
+Du må ikke blive gravid under behandling med dette lægemiddel, og du skal benytte sikker 
+prævention under behandlingen, da Daxas kan være skadeligt for det ufødte barn.
+Trafik- og arbejdssikkerhed
+Daxas påvirker ikke arbejdssikkerheden eller evnen til at færdes sikkert i trafikken.
+Daxas indeholder lactose
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take daxas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take daxas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. 
+
+I de første 28 dage - den anbefalede startdosis er 1 tablet med 250 mikrogram en gang 
+dagligt. 
+
+Startdosis er en lav dosis, der skal hjælpe din krop med at vænne sig medicinen, før du 
+begynder at tage den fulde dosis. Med denne lave dosis vil du ikke få den fulde virkning 
+af medicinen, så derfor er det vigtigt, at du går over til den fulde dosis 
+(vedligeholdelsesdosis) efter 28 dage.
+
+Efter 28 dage - den anbefalede vedligeholdelsesdosis er 1 tablet med 500 mikrogram en gang 
+dagligt. 
+Slug tabletten med vand. Du kan tage dette lægemiddel sammen med et måltid eller mellem 
+måltiderne. Tag tabletten på samme tidspunkt hver dag.
+Det kan være nødvendigt at tage Daxas i flere uger, for at opnå den ønskede virkning.
+Hvis du har taget for mange Daxas tabletter
+Hvis du har taget flere tabletter, end du skulle, kan du opleve følgende symptomer:
+hovedpine, kvalme, diarré, svimmelhed, hjertebanken, uklarhed, klamsved og lavt blodtryk.
+Fortæl det til din læge eller apotekspersonalet med det samme. Tag om muligt din medicin og denne 
+indlægsseddel med dig.
+Hvis du har glemt at tage Daxas
+Hvis du glemmer at tage en tablet til sædvanlig tid, tag da tabletten, så snart du husker det den samme 
+dag. Hvis du en dag har glemt at tage en tablet Daxas, fortsætter du bare den næste dag med den næste 
+tablet som sædvanligt. Fortsæt derefter med at tage din medicin på de sædvanlige tidspunkter. Du må 
+ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du holder op med at tage Daxas
+Det er vigtigt at fortsætte med at tage Daxas så længe, som din læge har foreskrevet, selv når du ingen 
+symptomer har, for at fastholde kontrollen over din lungefunktion.
+Spørg lægen eller på apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
+Du kan opleve diarré, kvalme, mavesmerter eller hovedpine under de første ugers behandling med 
+Daxas. Kontakt lægen, hvis disse bivirkninger ikke forsvinder i løbet af de første uger af 
+behandlingen.
+43
+Nogle bivirkninger kan være alvorlige. I kliniske studier og efter markedsføring af lægemidlet er der i
+sjældne tilfælde rapporteret om selvmordstanker og selvmordslignende adfærd (inklusive selvmord). 
+Du skal straks kontakte din læge, hvis du oplever noget, der bare minder om selvmordstanker. Du kan 
+også opleve søvnløshed (almindelig), angst (ikke almindelig), nervøsitet (sjælden), panikanfald 
+(sjælden) eller nedtrykthed/depressivt humør (sjælden).
+I ikke almindelige tilfælde kan der opstå en allergisk reaktion. Allergiske reaktioner kan påvirke huden 
+og i sjældne tilfælde forårsage hævelse af øjenlåg, ansigt, læber og tunge, hvilket muligvis kan 
+medføre vejrtrækningsbesvær og/eller blodtryksfald og øget hjerterytme (puls). Hvis du får en 
+allergisk reaktion, skal du stoppe med at tage Daxas og straks kontakte læge eller skadestue. Medbring 
+al din medicin og denne indlægsseddel og videregiv al information om din aktuelle medicinske 
+behandling.
+Andre bivirkninger inkluderer følgende:
+Almindelige bivirkninger (forekommer hos 1 ud af 10 personer)
+-
+diarré, kvalme, mavesmerter
+-
+vægttab, nedsat appetit
+-
+hovedpine
+Ikke almindelige bivirkninger (forekommer hos 1 ud af 100 personer)
+-
+rysten, en fornemmelse af at omgivelserne drejer rundt (vertigo), svimmelhed
+-
+fornemmelse af hurtig eller uregelmæssig hjerterytme (hjertebanken)
+-
+mavekatar, opkastning
+-
+refluks af mavesyre til spiserøret (sure opstød), fordøjelsesbesvær
+-
+udslæt
+-
+muskelsmerter eller –kramper, kraftesløshed 
+-
+rygsmerter
+-
+følelse af svaghed eller træthed; følelse af utilpashed.
+Sjældne bivirkninger (forekommer hos 1 ud af 1.000 personer)
+-
+brystforstørrelse hos mænd
+-
+nedsat smagssans
+-
+infektioner i luftvejene (eksklusive lungebetændelse)
+-
+blodig afføring, forstoppelse
+-
+forhøjet niveau af lever- eller muskelenzymer (set i blodprøver)
+-
+hævelse og kløen i huden (nældefeber).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store daxas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store daxas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.
+44</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Daxas indeholder:
+Det aktive stof er roflumilast. 
+Hver Daxas 250 mikrogram tablet indeholder 250 mikrogram roflumilast. De øvrige indholdsstoffer 
+er: lactosemonohydrat (se punkt 2 under ”Daxas indeholder lactose”), majsstivelse, povidon, 
+magnesiumstearat.
+Udseende og pakningsstørrelser
+Daxas 250 mikrogram tabletter er hvide til offwhite, mærket med ”D” på den ene side og ”250” på den 
+anden side.
+Hver pakning indeholder 28 tabletter.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+Corden Pharma GmbH
+Otto-Hahn-Str.
+68723 Plankstadt
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+45
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+Simesa S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu
+46
+Indlægsseddel: Information til patienten
+Daxas 500 mikrogram filmovertrukne tabletter
+roflumilast
+Læs denne indlægsseddel grundigt inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen eller apoteketspersonalet, hvis der er mere, du vil vide.
+-
+Lægen har ordineret Daxas til dig personligt. Lad derfor være med at give det til andre. Det kan 
+være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen eller apoteketspersonalet, hvis en bivirkning bliver værre, eller du får 
+bivirkninger, som ikke er nævnt her. Se afsnit 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1f1abc0830f94db591b845bd71b79232
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for daxas Package Leaflet for language en"
+Description: "ePI document Bundle for daxas Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1f1abc0830f94db591b845bd71b79232"
+* entry[0].resource = composition-en-1f1abc0830f94db591b845bd71b79232
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f1abc0830f94db591b845bd71b79232"
+* entry[=].resource = mp1f1abc0830f94db591b845bd71b79232
+                            
+                    
+Instance: bundlepackageleaflet-da-1f1abc0830f94db591b845bd71b79232
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for daxas Package Leaflet for language da"
+Description: "ePI document Bundle for daxas Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1f1abc0830f94db591b845bd71b79232"
+* entry[0].resource = composition-da-1f1abc0830f94db591b845bd71b79232
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f1abc0830f94db591b845bd71b79232"
+* entry[=].resource = mp1f1abc0830f94db591b845bd71b79232
+                            
+                    
+
+
+
+Instance: mp1f1abc0830f94db591b845bd71b79232
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Daxas 250 micrograms tablets"
-Description: "Daxas 250 micrograms tablets"
+Title: "Medicinal Product daxas"
+Description: "daxas"
 Usage: #inline
 
  
@@ -385,7 +855,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Daxas 250 micrograms tablets"
+  * productName = "daxas"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -412,29 +882,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1f1abc0830f94db591b845bd71b79232
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for daxas Package Leaflet for language en"
-Description: "ePI document Bundle for daxas Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1f1abc0830f94db591b845bd71b79232ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/10/636/008"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "daxas"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1f1abc0830f94db591b845bd71b79232"
-* entry[0].resource = composition-en-1f1abc0830f94db591b845bd71b79232
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf3431ec4d368ff3b98ed7ee95827dc0e"
-* entry[=].resource = mpf3431ec4d368ff3b98ed7ee95827dc0e
-                            
-                      
+* title = "List of all ePIs associated with daxas"
+
+* subject = Reference(mpf3431ec4d368ff3b98ed7ee95827dc0e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#daxas "daxas"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1f1abc0830f94db591b845bd71b79232) // daxas en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1f1abc0830f94db591b845bd71b79232) // daxas da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1f1abc0830f94db591b845bd71b79232
+InstanceOf: List
+
+* insert 1f1abc0830f94db591b845bd71b79232ListRuleset
+    

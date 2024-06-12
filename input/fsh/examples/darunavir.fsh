@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-ca782dfd4f770a8ed2648776cb943032
 InstanceOf: CompositionUvEpi
 Title: "Composition for darunavir Package Leaflet"
@@ -605,10 +608,38 @@ Tel: +353 18711This leaflet was last revised in {MM/YYYY}. </p>
 
 
 
-Instance: mp5484a590577fa4acf205769241b9c622
+                    
+Instance: bundlepackageleaflet-en-ca782dfd4f770a8ed2648776cb943032
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for darunavir Package Leaflet for language en"
+Description: "ePI document Bundle for darunavir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ca782dfd4f770a8ed2648776cb943032"
+* entry[0].resource = composition-en-ca782dfd4f770a8ed2648776cb943032
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpca782dfd4f770a8ed2648776cb943032"
+* entry[=].resource = mpca782dfd4f770a8ed2648776cb943032
+                            
+                    
+
+
+
+Instance: mpca782dfd4f770a8ed2648776cb943032
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Darunavir Mylan 75 mg film-coated tablets"
-Description: "Darunavir Mylan 75 mg film-coated tablets"
+Title: "Medicinal Product darunavir"
+Description: "darunavir"
 Usage: #inline
 
  
@@ -628,7 +659,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Darunavir Mylan 75 mg film-coated tablets"
+  * productName = "darunavir"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -655,29 +686,46 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-ca782dfd4f770a8ed2648776cb943032
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for darunavir Package Leaflet for language en"
-Description: "ePI document Bundle for darunavir Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: ca782dfd4f770a8ed2648776cb943032ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Darunavir Mylan 75 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "darunavir"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-ca782dfd4f770a8ed2648776cb943032"
-* entry[0].resource = composition-en-ca782dfd4f770a8ed2648776cb943032
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5484a590577fa4acf205769241b9c622"
-* entry[=].resource = mp5484a590577fa4acf205769241b9c622
-                            
-                      
+* title = "List of all ePIs associated with darunavir"
+
+* subject = Reference(mp5484a590577fa4acf205769241b9c622)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#darunavir "darunavir"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-ca782dfd4f770a8ed2648776cb943032) // darunavir en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-ca782dfd4f770a8ed2648776cb943032
+InstanceOf: List
+
+* insert ca782dfd4f770a8ed2648776cb943032ListRuleset
+    

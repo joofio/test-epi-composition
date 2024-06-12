@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-49a6edf85307fce92cb7f88732583618
 InstanceOf: CompositionUvEpi
 Title: "Composition for azomyr Package Leaflet"
@@ -364,12 +367,506 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-49a6edf85307fce92cb7f88732583618
+InstanceOf: CompositionUvEpi
+Title: "Composition for azomyr Package Leaflet"
+Description:  "Composition for azomyr Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp765890bef8d73c81224febf862fbc653)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp765890bef8d73c81224febf862fbc653
+* title = "TEST PURPOSES ONLY - azomyr"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Azomyr<br />
+3. Sådan skal du tage Azomyr 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What azomyr is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What azomyr is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Azomyr er 
+Azomyr indeholder desloratadin, som er et antihistamin. </p>
+<p>Sådan virker Azomyr 
+Azomyr er et lægemiddel mod allergi, som ikke gør dig døsig. Det hjælper med at regulere din 
+allergiske reaktion og dens symptomer. </p>
+<p>Hvornår Azomyr skal bruges 
+Azomyr lindrer symptomer forbundet med allergisk snue (irritation af vævet i de nasale passager 
+forårsaget af allergi, for eksempel høfeber eller støvmideallergi) hos voksne og unge i alderen 12 år og 
+derover. Symptomerne indbefatter nysen, løbende eller kløende næse, kløe i ganen og kløende, røde 
+eller løbende øjne. </p>
+<p>Azomyr anvendes også til at lindre symptomerne i forbindelse med nældefeber (en hudlidelse 
+forårsaget af allergi). Symptomerne indbefatter kløe og kløende udslæt. </p>
+<p>Lindring af disse symptomer varer en hel dag og hjælper dig til at genoptage dine normale daglige 
+aktiviteter og søvn. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take azomyr"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take azomyr"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Azomyr 
+- hvis du er allergisk over for desloratadin eller et af de øvrige indholdsstoffer i Azomyr (angivet i 
+punkt 6) eller over for loratadin. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Azomyr. 
+- hvis du har dårlig nyrefunktion. 
+- hvis du tidligere har haft krampeanfald eller nogen i familien har haft det. </p>
+<p>Børn og unge 
+Giv ikke dette lægemiddel til børn under 12 år. </p>
+<p>Brug af anden medicin sammen med Azomyr 
+Der er ingen kendte interaktioner mellem Azomyr og andre lægemidler. 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Brug af Azomyr sammen med mad, drikke og alkohol 
+Azomyr kan tages med eller uden mad. 
+Du skal udvise forsigtighed, hvis du tager Azomyr sammen med alkohol. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.<br />
+Det frarådes, at du tager Azomyr, hvis du er gravid, eller hvis du ammer dit spædbarn. 
+Der er ingen information tilgængelig om virkningen på frugtbarheden hos mænd og kvinder. </p>
+<p>Trafik- og arbejdssikkerhed 
+Ved den anbefalede dosis forventes dette lægemiddel ikke at påvirke evnen til at køre bil og betjene 
+maskiner. Selvom de fleste mennesker ikke oplever døsighed, frarådes det at beskæftige sig med 
+aktiviteter, der kræver mental årvågenhed, for eksempel køre bil og betjene maskiner, indtil din 
+reaktion på dette lægemiddel er fastlagt. </p>
+<p>Azomyr-tabletter indeholder lactose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take azomyr"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take azomyr"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Brug til voksne og unge i alderen 12 år og derover<br />
+Den anbefalede dosis er en tablet en gang dagligt sammen med vand, med eller uden mad. </p>
+<p>Dette lægemiddel skal tages gennem munden. 
+Tabletten skal sluges hel. </p>
+<p>Med hensyn til varigheden af behandlingen, vil din læge bestemme hvilken type allergisk snue, du 
+lider af, og vil fastsætte, hvor længe du skal tage Azomyr. 
+Hvis din allergiske snue er forbigående (tilstedeværelse af symptomer i mindre end 4 dage per uge 
+eller i mindre end 4 uger), vil din læge anbefale dig en behandlingsplan, som vil afhænge af 
+vurderingen af din sygdomshistorie. 
+Hvis din allergiske snue er vedvarende (tilstedeværelse af symptomer i 4 dage eller mere per uge og i 
+mere end 4 uger), vil din læge måske anbefale dig en længerevarende behandling. </p>
+<p>For nældefeber kan varigheden af behandling variere fra patient til patient, og du skal derfor følge din 
+læges instruktioner. </p>
+<p>Hvis du har taget for meget Azomyr<br />
+Tag udelukkende Azomyr således, som det er ordineret til dig. Ved fejlagtig overdosis forventes ingen 
+alvorlige problemer. Men kontakt straks lægen, apotekspersonalet eller sygeplejersken, hvis du tager 
+flere Azomyr-tabletter, end du har fået besked på. </p>
+<p>Hvis du har glemt at tage Azomyr 
+Hvis du glemmer at tage din medicin til tiden, så tag den snarest muligt og vend derefter tilbage til din 
+sædvanlige medicineringsplan. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Azomyr 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Under markedsføring af Azomyr er tilfælde af alvorlige allergiske reaktioner (vejrtrækningsbesvær, 
+hiven efter vejret, kløe, kløende udslæt og hævelse) blevet rapporteret meget sjældent. Stop med at 
+tage medicinen og søg straks akut lægehjælp, hvis du får nogle af disse alvorlige bivirkninger. </p>
+<p>I kliniske studier med voksne var bivirkningerne nogenlunde de samme som ved en placebotablet. 
+Træthed, mundtørhed og hovedpine blev imidlertid rapporteret hyppigere end ved en placebotablet. 
+Hovedpine var den hyppigst rapporterede bivirkning hos unge. </p>
+<p>I kliniske studier med Azomyr er følgende bivirkninger blevet rapporteret som: </p>
+<p>Almindelige: følgende kan forekomme hos op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+</ul>
+<p>Efter markedsføring af Azomyr er følgende bivirkninger blevet rapporteret: </p>
+<p>Meget sjældne: følgende kan forekomme hos op til 1 ud af 10.000 personer </p>
+<ul>
+<li>
+<p>alvorlige allergiske reaktioner </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>hjertebanken eller uregelmæssig hjerterytme </p>
+</li>
+<li>
+<p>hurtig hjerterytme (puls) </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>mavebesvær </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>døsighed </p>
+</li>
+<li>
+<p>søvnbesvær </p>
+</li>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>hallucinationer </p>
+</li>
+<li>
+<p>krampeanfald </p>
+</li>
+<li>
+<p>rastløshed med øget kropsbevægelse </p>
+</li>
+<li>
+<p>leverbetændelse </p>
+</li>
+<li>
+<p>unormale prøver for leverfunktion </p>
+</li>
+</ul>
+<p>Ikke kendt: hyppigheden kan ikke vurderes ud fra tilgængelige data </p>
+<ul>
+<li>
+<p>usædvanlig mathedsfølelse </p>
+</li>
+<li>
+<p>huden og/eller øjnene får en gullig farve </p>
+</li>
+<li>
+<p>øget hudfølsomhed over for sollys, selv i overskyet vejr, og over for ultraviolet (UV) lys, f.eks. 
+UV-lys i et solarium </p>
+</li>
+<li>
+<p>ændringer i måden hjertet slår </p>
+</li>
+<li>
+<p>unormal adfærd </p>
+</li>
+<li>
+<p>aggression </p>
+</li>
+<li>
+<p>vægtforøgelse, øget appetit </p>
+</li>
+<li>
+<p>nedtrykt sindstilstand </p>
+</li>
+<li>
+<p>øjentørhed </p>
+</li>
+</ul>
+<p>Børn og unge 
+Ikke kendt: hyppigheden kan ikke vurderes ud fra tilgængelige data </p>
+<ul>
+<li>
+<p>langsomme hjerteslag </p>
+</li>
+<li>
+<p>ændring i måden hjertet slår </p>
+</li>
+<li>
+<p>unormal adfærd </p>
+</li>
+<li>
+<p>aggression </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet og sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store azomyr"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store azomyr"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og blisteren efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale yderpakning. </p>
+<p>Tag ikke lægemidlet, hvis du bemærker ændringer i tabletternes udseende. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Azomyr indeholder:</p>
+<ul>
+<li>Aktivt stof: desloratadin 5 mg </li>
+<li>Øvrige indholdsstoffer i tabletten: calciumhydrogenphosphatdihydrat, mikrokrystallinsk 
+cellulose, majsstivelse og talkum. Tabletovertrækket består af filmovertræk (indeholdende 
+lactosemonohydrat (se punkt 2 “Azomyr-tabletter indeholder lactose”), hypromellose, 
+titandioxid, macrogol 400, indigotin (E132)), klart lag (indeholdende hypromellose, 
+macrogol 400), carnaubavoks og hvid bivoks. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Azomyr 5 mg filmovertrukne tabletter er lyseblå, runde og præget med forlængede bogstaver “S” og 
+“P” på en side og klar på den anden. 
+Azomyr 5 mg filmovertrukne tabletter er pakket i blisterpakninger med 1, 2, 3, 5, 7, 10, 14, 15, 20, 21, 
+30, 50 eller 100 tabletter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Indehaver af markedsføringstilladelsen: 
+N.V. Organon 
+Kloosterstraat 6 
+5349 AB Oss 
+Holland </p>
+<p>Fremstiller: Organon Heist bv, Industriepark 30, 2220 Heist-op-den-Berg, Belgien. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Lietuva 
+Organon Pharma B.V. Lithuania atstovybė 
+Tel.: +370 52041dpoc.lithuania@organon.com </p>
+<p>България 
+Органон (И.А.) Б.В. - клон България 
+Тел.: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>Luxembourg/Luxemburg 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Česká republika 
+Organon Czech Republic s.r.o. 
+Tel.: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarország 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS 
+Tlf: +45 4484 6info.denmark@organon.com </p>
+<p>Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel: +356 2277 8dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland 
+N.V. Organon 
+Tel.: 00800 66550(+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>Ελλάδα 
+N.V. Organon 
+Τηλ: +30-216 6008 
+Österreich 
+Organon Austria GmbH 
+Tel: +43 (0) 1 263 28 dpoc.austria@organon.com </p>
+<p>España 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 organon_info@organon.com 
+Polska 
+Organon Polska Sp. z o.o. 
+Tel.: +48 22 105 50 organonpolska@organon.com </p>
+<p>France 
+Organon France 
+Tél: +33 (0) 1 57 77 32<br />
+Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: +385 1 638 4dpoc.croatia@organon.com </p>
+<p>România 
+Organon Biosciences S.R.L. 
+Tel: +40 21 527 29 dpoc.romania@organon.com  </p>
+<p>Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podružnica Ljubljana 
+Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com  </p>
+<p>Italia 
+Organon Italia S.r.l. 
+Tel: +39 06 90259dpoc.italy@organon.com </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Κύπρος 
+Organon Pharma B.V., Cyprus branch 
+Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
+<p>Latvija 
+Ārvalsts komersanta “Organon Pharma B.V.” 
+pārstāvniecība 
+Tel: +371 66968dpoc.latvia@organon.com </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited 
+Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
+<p>Denne indlægsseddel blev senest ændret &lt;{MM/YYYY}&gt;&lt;{måned ÅÅÅÅ}&gt; </p>
+<p>Du kan finde yderligere oplysninger om Azomyr på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Azomyr 0,5 mg/ml oral opløsning 
+desloratadin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-49a6edf85307fce92cb7f88732583618
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azomyr Package Leaflet for language en"
+Description: "ePI document Bundle for azomyr Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-49a6edf85307fce92cb7f88732583618"
+* entry[0].resource = composition-en-49a6edf85307fce92cb7f88732583618
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp49a6edf85307fce92cb7f88732583618"
+* entry[=].resource = mp49a6edf85307fce92cb7f88732583618
+                            
+                    
+Instance: bundlepackageleaflet-da-49a6edf85307fce92cb7f88732583618
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azomyr Package Leaflet for language da"
+Description: "ePI document Bundle for azomyr Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-49a6edf85307fce92cb7f88732583618"
+* entry[0].resource = composition-da-49a6edf85307fce92cb7f88732583618
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp49a6edf85307fce92cb7f88732583618"
+* entry[=].resource = mp49a6edf85307fce92cb7f88732583618
+                            
+                    
+
+
+
+Instance: mp49a6edf85307fce92cb7f88732583618
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Azomyr 5 mg film-coated tablets"
-Description: "Azomyr 5 mg film-coated tablets"
+Title: "Medicinal Product azomyr"
+Description: "azomyr"
 Usage: #inline
 
  
@@ -389,7 +886,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Azomyr 5 mg film-coated tablets"
+  * productName = "azomyr"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -416,29 +913,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-49a6edf85307fce92cb7f88732583618
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for azomyr Package Leaflet for language en"
-Description: "ePI document Bundle for azomyr Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 49a6edf85307fce92cb7f88732583618ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/00/157/001-013"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "azomyr"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-49a6edf85307fce92cb7f88732583618"
-* entry[0].resource = composition-en-49a6edf85307fce92cb7f88732583618
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp765890bef8d73c81224febf862fbc653"
-* entry[=].resource = mp765890bef8d73c81224febf862fbc653
-                            
-                      
+* title = "List of all ePIs associated with azomyr"
+
+* subject = Reference(mp765890bef8d73c81224febf862fbc653)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#azomyr "azomyr"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-49a6edf85307fce92cb7f88732583618) // azomyr en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-49a6edf85307fce92cb7f88732583618) // azomyr da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-49a6edf85307fce92cb7f88732583618
+InstanceOf: List
+
+* insert 49a6edf85307fce92cb7f88732583618ListRuleset
+    

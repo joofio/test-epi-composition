@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f5d1cf53e3b7ba5026efaf532ce60eaa
 InstanceOf: CompositionUvEpi
 Title: "Composition for neofordex Package Leaflet"
@@ -501,12 +504,585 @@ Tel: +46 (0)8 533 39 info@immedica.com </p>
 
 
 
+Instance: composition-da-f5d1cf53e3b7ba5026efaf532ce60eaa
+InstanceOf: CompositionUvEpi
+Title: "Composition for neofordex Package Leaflet"
+Description:  "Composition for neofordex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp49d65f4d49461671344043251a723c83)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp49d65f4d49461671344043251a723c83
+* title = "TEST PURPOSES ONLY - neofordex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Neofordex 
+3. Sådan skal du tage Neofordex 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What neofordex is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What neofordex is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Neofordex er et lægemiddel, der indeholder det aktive stof dexamethason. Dexamethason er et hormon af 
+typen glukokortikoider, der også kaldes kortikoider eller kortikosteroider og har en række virkninger på de 
+hvide blodlegemer, som er en del af kroppens naturlige forsvar, immunsystemet. Dexamethason ligner de 
+glukokortikoider, som kroppen danner naturligt. </p>
+<p>Neofordex anvendes til behandling af voksne med multipelt myelom, en type blodkræft, der udgår fra de 
+hvide antistofproducerende blodlegemer. Neofordex gives i kombination med andre lægemidler mod 
+multipelt myelom. De virker sammen ved at dræbe kræftcellerne blandt de hvide blodlegemer. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take neofordex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take neofordex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Neofordex: 
+− hvis du er allergisk over for dexamethason eller et af de øvrige indholdsstoffer i Neofordex (angivet i 
+punkt 6). 
+− hvis du har en virusinfektion, navnlig viral hepatitis, herpes, skoldkopper eller helvedesild.<br />
+− hvis du lider af en ubehandlet psykisk sygdom.  </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Neofordex, især hvis det gives sammen 
+med andre lægemidler. </p>
+<p>Risiko for infektioner 
+Behandling med Neofordex (et højdosiskortikosteroid) kan nedsætte kroppens evne til at bekæmpe 
+infektioner (især infektioner, der skyldes bakterier, gærsvampe og/eller parasitter). Dette kan undertiden 
+medføre infektioner forårsaget af mikroorganismer, der under normale omstændigheder sjældent giver 
+infektion (opportunistiske infektioner). Hvis du får en infektion af nogen art under behandlingen med dette 
+lægemiddel, skal du straks kontakte lægen. Dette er særlig vigtigt, hvis du bemærker tegn på 
+lungebetændelse: hoste, feber, stakåndethed og brystsmerter. Du kan desuden føle dig forvirret, navnlig hvis 
+du er ældre. Du skal fortælle det til lægen, hvis du har haft tuberkulose eller har opholdt dig i et område, hvor 
+angreb af rundorm er almindeligt forekommende.  </p>
+<p>Bemærk: Mens du får Neofordex, at det vigtigt, at du undgår kontakt med enhver, der har skoldkopper, 
+mæslinger eller helvedesild. Hvis du tror, at du har haft kontakt med nogen med en af disse sygdomme, skal 
+du straks fortælle det til lægen.  </p>
+<p>Psykiske forstyrrelser 
+Høje doser af kortikosteroider, herunder dexamethason, kan give psykiske problemer, der undertiden kan 
+være alvorlige. Tal med lægen, før du får Neofordex, hvis du selv eller nogen i din nære familie har eller har 
+haft svær depression eller maniske anfald. Dette er navnlig vigtigt, hvis du føler dig deprimeret eller tænker 
+på selvmord. Søvnløshed kan mindskes ved at indtage Neofordex om morgenen. </p>
+<p>Tumorlysesyndrom 
+Du bør fortælle det til lægen, hvis du oplever symptomer på tumorlysesyndrom, såsom muskelkramper, 
+muskelsvaghed, forvirring, synstab eller synsforstyrrelser og stakåndethed. </p>
+<p>Langvarig behandling 
+Under behandlingen med dette lægemiddel er det vigtigt at få en afbalanceret kost (med et lavt indhold af 
+sukker og natrium og et højt proteinindhold). Ophobning af væske og natrium er almindeligt og kan medføre 
+blodtryksforhøjelse. Lægen vil rådgive dig om passende kost og vil muligvis ordinere tilskud af kalium, 
+calcium eller vitamin D.  </p>
+<p>Behandling med glukokortikoid såsom dexamethason kan reducere virkningen af medicin til behandling af 
+diabetes eller for højt blodtryk. Det kan være nødvendigt, at din læge øger dosis af disse lægemidler. </p>
+<p>Hæmatologi 
+Hvis du har haft en blodprop, skal du fortælle det til lægen, før du tager Neofordex. Risikoen for blodpropper 
+i vener og arterier øges, når dexamethason anvendes sammen med thalidomid, lenalidomid eller 
+pomalidomid (lægemidler til behandling af multipelt myelom). Du skal straks fortælle det til lægen, hvis du 
+får stakåndethed, brystsmerter eller hævede arme eller ben.  </p>
+<p>Kombination af dexamethason med lenalidomid eller pomalidomid kan medføre for lavt antal normale hvide 
+blodlegemer (dvs. de blodlegemer, der er med til at bekæmpe infektioner) og/eller blodplader (som er med til 
+at forebygge blødning). Lægen vil sørge for, at der bliver taget passende blodprøver før og under 
+behandlingen.  </p>
+<p>Fæokromocytom-krise 
+Behandling med dette lægemiddel kan forårsage fæokromocytom-krise, som kan være dødelig. Et 
+fæokromocytom er en sjælden svulst i binyrerne. Der kan opstå en krise med følgende symptomer: 
+hovedpine, svedafsondring, hjertebanken og forhøjet blodtryk. Kontakt straks lægen, hvis du oplever nogen 
+af disse tegn. </p>
+<p>Øjne 
+Behandlingen med dette lægemiddel kan medføre en øjensygdom, der forårsager sløret eller forvrænget syn 
+(central serøs korioretinopati). Dette sker sædvanligvis kun i det ene øje. Hvis du bemærker sløret eller 
+forvrænget syn, der varer i flere dage, skal du kontakte lægen. </p>
+<p>Senebetændelse (tendinitis) 
+Behandlingen med dette lægemiddel kan fremme senebetændelse. I meget sjældne tilfælde kan det medføre 
+brud på en sene. Denne risiko øges ved behandling med visse antibiotika og ved nyreproblemer. Kontakt 
+lægen, hvis du får ømme, stive eller hævede led eller sener.  </p>
+<p>Hvis du får ordineret medicin af lægen, tandlægen eller andre, skal du fortælle vedkommende, at du får eller 
+for nylig har fået dexamethason (se afsnittet "Brug af anden medicin sammen med Neofordex").  </p>
+<p>Hvis du bliver syg eller kommer ud for en ulykke, eller hvis du har behov for operation (også hos tandlægen) 
+eller behøver en vaccination (høje doser af glukokortikoid kan mindske virkningen af vacciner, der 
+indeholder levende virus), skal du fortælle den læge, der behandler dig, at du får eller for nylig har fået 
+kortikosteroider i høje doser.  </p>
+<p>Hvis du får brug for at få taget prøver (navnlig for infektioner), skal du sige til den, der undersøger prøverne, 
+at dexamethason kan påvirke resultaterne.  </p>
+<p>Sig det til lægen, inden du får Neofordex:</p>
+<ul>
+<li>hvis du har lever- eller nyreproblemer </li>
+<li>hvis du har hjertesygdom eller for nylig har haft et hjerteanfald  </li>
+<li>hvis du har forhøjet blodtryk eller forhøjet kolesterol eller er ryger  </li>
+<li>hvis du har sukkersyge, eller der er sukkersyge i familien </li>
+<li>hvis du har knogleskørhed, navnlig hvis du er kvinde efter overgangsalderen  </li>
+<li>hvis du har grøn stær (øget tryk i øjet) eller nogen i familien har haft grøn stær  </li>
+<li>hvis du har myasthenia gravis (en nervesygdom, påvirker musklerne), betændelse i en sene (tendinitis) </li>
+<li>hvis du har mavesår (sår i mavesækken eller tolvfingertarmen) eller tidligere har haft mavesår, 
+maveblødning eller perforation af maven </li>
+<li>hvis du har tyktarmsbetændelse (divertikulitis) eller for nylig har fået opereret tarmen </li>
+<li>hvis du har, eller der er mistanke om, at du har et fæokromocytom (en svulst i binyrerne). </li>
+</ul>
+<p>Lægen vil holde dig under tættere observation, hvis du har nogen af de anførte sygdomme.  </p>
+<p>Ældre 
+Hvis du er ældre, kan visse af bivirkningerne af Neofordex være mere alvorlige, navnlig knogleskørhed 
+(osteoporose), forhøjet blodtryk, for lavt kaliumniveau, sukkersyge, modtagelighed for infektion samt tynd 
+hud. Lægen vil holde dig under tættere observation.  </p>
+<p>Børn og unge 
+Børn får ikke multipelt myelom. Dette lægemiddel bør ikke gives til børn (dvs. alle under 18 år).  </p>
+<p>Brug af anden medicin sammen med Neofordex 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. </p>
+<p>Før du begynder behandlingen med Neofordex, skal du læse indlægssedlerne for alle de lægemidler, 
+Neofordex skal gives sammen med, for at få information om de pågældende lægemidler. Hvis der anvendes 
+thalidomid, lenalidomid eller pomalidomid, skal man være særligt omhyggelig med graviditetstest og 
+prævention.  </p>
+<p>Før du får Neofordex, skal du sige det lægen, hvis du tager nogen af følgende lægemidler:  </p>
+<p>De følgende kombinationer skal undgås 
+- Acetylsalicylsyre, der findes i mange smertestillende og feberstillende lægemidler (kan øge risikoen for 
+blødning). 
+- Du skal ligeledes sige det til lægen, hvis du for nylig har fået en vaccination eller påtænker at få det (se 
+afsnittet "Advarsler og forsigtighedsregler"). </p>
+<p>De følgende kombinationer kræver forsigtighedsregler 
+- Lægemidler, der sænker kaliumindholdet i blodet: f.eks. visse vanddrivende midler eller 
+afføringsmidler, amphotericin B-injektion, tetracosactid, på grund af risikoen for nedsatte 
+kaliumniveauer. Din læge skal muligvis overvåge niveauet af kalium. 
+- Lægemidler, der kan øge risikoen for unormal hjerterytme (f.eks. visse lægemidler som digitalis til 
+behandling af hjertesygdomme), da lave niveauer af kalium øger risikoen for unormal hjerterytme. 
+- Lægemidler til behandling af for højt blodtryk, da deres virkning kan nedsættes. Din læge kan være nødt 
+til at justere dosis af blodtrykssænkende behandling. 
+- Lægemidler til behandling af blodmangel som f.eks. erythropoietin (EPO) eller andre lægemidler som 
+f.eks. hormonbehandling kan øge risikoen for dannelse af blodpropper (se afsnittene “Advarsler og 
+forsigtighedsregler" og “ Bivirkninger"). 
+- Lægemidler til behandling af smerter, betændelse og feber (non-steroide antiinflammatoriske 
+lægemidler), f.eks. ibuprofen, naproxen, diclofenac, meloxicam og andre, kan øge risikoen for blødning 
+eller åbne sår i maven. 
+- Lægemidler til behandling af diabetes, da Neofordex kan ændre blodsukkerniveauet. Det er vigtigt selv 
+at overvåge blodsukkerniveauet, især i starten af behandlingen. Din læge skal muligvis justere dosis af 
+diabetesmedicin. 
+- Visse antibiotika (som f.eks. fluorquinoloner) kan øge risikoen for senebetændelse og i sjældne tilfælde 
+brud på den berørte sene, især efter langvarig behandling. 
+- Visse lægemidler mod kræft (som f.eks. methotrexat) kan øge risikoen for infektioner, blødning eller 
+blodmangel. </p>
+<p>De følgende lægemidler kan påvirke virkningen af Neofordex 
+Disse lægemidler kan nedsætte virkningen af Neofordex:</p>
+<ul>
+<li>Aminogluthetimid (medicin til behandling af Cushings syndrom eller brystkræft). </li>
+<li>Krampestillende midler (til behandling af epilepsi) som f.eks. carbamazepin, fosphenytoin, 
+phenobarbital, phenytoin, primidon. </li>
+<li>Rifampicin (til behandling af tuberkulose). </li>
+<li>Lægemidler til dårlig mave (f.eks. syreneutraliserende midler) samt colestyramin (kolesterolsænkende 
+medicin). Der skal gå mindst 2 timer mellem indgivelse af disse lægemidler og Neofordex. </li>
+<li>
+<p>Ephedrin (til behandling af astmaanfald eller lindring af tilstoppet næse). 
+Disse lægemidler kan øge virkningen af Neofordex:</p>
+</li>
+<li>
+<p>Aprepitant eller fosaprepitant (til behandling af kvalme eog opkastning efter operation eller forårsaget 
+af kemoterapi [kræftbehandling]). </p>
+</li>
+<li>Antibiotika, hvor navnet på det aktive stof ender på -mycin, og antimykotika (til behandling af 
+svampeinfektioner), hvor navnet på det aktive stof ender på -conazol, samt lægemidler mod hiv, hvor 
+det aktive stof ender på -navir.  </li>
+</ul>
+<p>Neofordex kan påvirke virkningen af disse lægemidler 
+- Virkningen af p-piller og hormonbehandling (HRT) kan blive nedsat. Der skal tages effektive 
+forholdsregler for at undgå graviditet (se afsnit "Graviditet, amning og frugtbarhed"). 
+- Virkningen af blodfortyndende midler, der indtages gennem munden kan øges, hvilket fører til øget 
+blødningsrisiko. Din læge skal muligvis nøje overvåge dine blodkoagulationsparametre. 
+- Virkningen af visse lægemidler til kræftbehandling (som f.eks. docetaxel og cyclophosphamid) kan 
+være nedsat. 
+- Virkningen af lapatinib (som bruges til kræftbehandling) på leveren kan være øget. 
+- Virkningen af ciclosporin (et lægemiddel, der nedsætter immunforsvarets reaktion) kan være nedsat. 
+Derudover er der indberetninger om kramper ved samtidig brug af dexamethason og ciclosporin. 
+Samtidig brug af Neofordex og ciclosporin skal undgås. 
+- Virkningen af midazolam (bruges som sovepille og til behandling af epilepsi) kan være nedsat. 
+- Virkningen af ivermectin (til visse ormeinfektioner) kan være nedsat. Behandlingen med ivermectin 
+skal derfor være afsluttet med godt resultat, før der indgives Neofordex (se afsnittet “Advarsler og 
+forsigtighedsregler"). 
+- Virkningen af rifabutin eller isoniazid (bruges til behandling af tuberkulose) kan være nedsat. 
+- Virkningen af indinavir (bruges til behandling af hiv) kan være nedsat.<br />
+- Virkningen af erythromycin kan være nedsat. 
+- Virkningen af praziquantel (til visse ormeinfektioner) kan være nedsat med risiko for 
+behandlingssvigt. Der skal derfor gå mindst én uge mellem behandling med praziquantel og 
+Neofordex. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Du skal undgå at blive gravid under behandlingen med Neofordex, som kan give medfødte misdannelser. Du 
+og din partner skal bruge sikker prævention.<br />
+Du må ikke bruge neofordex under graviditet, medmindre din kliniske tilstand kræver behandling med 
+dexamethason. Sig det straks til lægen, hvis du er gravid, eller hvis du bliver gravid under behandlingen.  </p>
+<p>Glukokortikoider udskilles i modermælk, og det kan derfor ikke udelukkes, at der er en risiko for nyfødte og 
+spædbørn. Sig det til lægen, hvis du ammer eller planlægger at gøre det. Din læge vil da hjælpe dig med at 
+beslutte, om du skal stoppe med at amme eller stoppe med at tage Neofordex, idet der tages højde for 
+fordelene ved amning for barnet i forhold til fordelene ved Neofordex for moderen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Neofordex har moderat indflydelse på evnen til at køre bil og betjene maskiner. Undlad at føre motorkøretøj, 
+betjene maskiner eller udføre farligt arbejde, hvis du får bivirkninger såsom omtågethed, hallucinationer, 
+svimmelhed, træthed, søvnighed, besvimelsesanfald eller sløret syn.  </p>
+<p>Neofordex indeholder lactose<br />
+Neofordex indeholder sukkerarten lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har 
+fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take neofordex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take neofordex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.  </p>
+<p>Lægen vil afgøre din dosis og fortælle dig, hvor ofte du skal tage Neofordex. Dette kan variere alt efter din 
+tilstand og andre tilhørende behandlinger. Den anbefalede dosis er én tablet pr. indtagelse. Hvis du er over år og/eller skrøbelig, vil lægen muligvis beslutte at ordinere en anden medicin, som indeholder en lavere 
+dosis dexamethason. Du må ikke tage mere eller mindre end den ordinerede dosis. Du skal tage dette 
+lægemiddel nøjagtigt på de dage, som din læge har ordineret. </p>
+<p>Lægen vil muligvis ændre dosis og hyppighed af indtagelsen af lægemidlet alt efter dine blodprøver, din 
+almentilstand, hvilke andre lægemidler, du har fået ordineret, og hvordan du reagerer på behandlingen.  </p>
+<p>Tag den ordinerende dosis på én tablet (40 mg) om morgenen med et glas vand.  </p>
+<p>Hvis du har svært ved at få tabletten ud af blisterkortet, kan du bede nogen om hjælp.<br />
+Søvnløshed kan mindskes, hvis du tager Neofordex om morgenen. </p>
+<p>Hvis du har taget for meget Neofordex 
+Hvis du har taget for meget Neofordex, skal du straks kontakte lægen eller hospitalet.  </p>
+<p>Hvis du har glemt at tage Neofordex 
+Hvis du har glemt at tage Neofordex på det sædvanlige klokkeslæt og<br />
+- 
+det er mindre end 12 timer for sent: Tag straks tabletten.<br />
+- 
+hvis det er mere end 12 timer for sent: Tag ikke tabletten, men tag den næste tablet på det 
+sædvanlige klokkeslæt.  </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+<p>Hvis du holder op med at tage Neofordex 
+Du kan få alvorlige bivirkninger ved pludseligt at stoppe med at tage dette lægemiddel. Hvis du for hurtigt 
+stopper med at tage dette lægemiddel, kan du få blodtryksfald. Du vil muligvis også få 
+“abstinenssymptomer". De kan bestå i hovedpine, problemer med synet (med smerter eller hævelse af 
+øjnene), kvalme eller opkastning, feber, muskel- og ledsmerter, opsvulmning i næsen, vægttab, hudkløe og 
+betændelse i øjets bindehinde (konjunktivitis). Hvis du skal stoppe med behandlingen, skal du følge lægens 
+anvisninger.  </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Lægen vil fortælle dig herom og om fordele og mulige risici ved din behandling.  </p>
+<p>Nedenstående bivirkninger blev iagttaget, når dexamethason blev anvendt til behandling af multipelt myelom 
+og andre sygdomme. Når flere lægemidler tages i kombination, kan et eller flere af dem undertiden give flere 
+bivirkninger, end når de tages hver for sig.  </p>
+<p>Neofordex kan medføre alvorlige psykiske problemer. Disse bivirkninger er almindelige (kan forekomme 
+hos op til en ud af hver 10 behandlede). Det kan dreje sig om følgende:</p>
+<ul>
+<li>nedtrykthed (herunder selvmordstanker) </li>
+<li>følelse af at være høj (mani) eller meget opstemt (eufori) eller humørsvingninger </li>
+<li>angst, koncentrationsbesvær og hukommelsessvækkelse </li>
+<li>at mærke, se eller høre ting, der ikke findes, eller tro på ting, der ikke er virkelige, dystre tanker, 
+ændret handlemåde<br />
+Hvis du oplever nogen af disse symptomer, skal du straks tale med en læge.  </li>
+</ul>
+<p>Andre mulige bivirkninger er:<br />
+Meget almindelige: forekommer hos mere end 1 ud af 10 behandlede 
+− øget blodsukker (hyperglykæmi) 
+− forstoppelse 
+− søvnbesvær (insomni) 
+− muskelkrampe, muskelsvækkelse 
+− træthed, svaghed, hævelse af kroppen og ansigtet. 
+Almindelige: forekommer hos indtil 1 ud af 10 behandlede 
+− bakterie-, virus- eller svampeinfektioner, herunder lungebetændelse, helvedesild, infektioner i næse, 
+mund, mandler eller hals, bronkitis, herpes, blærebetændelse, candidainfektion 
+− nedsat antal røde eller hvide blodlegemer og/eller blodplader, eller øget antal hvide blodlegemer, nedsat 
+koncentration i blodet af kalium eller albumin (et protein), forhøjet indhold i blodet af urinsyre, ændrede 
+leverfunktionsprøver<br />
+− Cushings syndrom, dvs. vægtøgning af kroppen og ansigtet, svedtendens, strækmærker, synlige 
+opsvulmede små blodkar (kapillærer), hudtørhed, ekstra behåring i ansigtet (særlig hos kvinder) og 
+tyndere hår<br />
+− udvikling af diabetes, øget eller nedsat appetit, vægtøgning eller vægttab, væskeophobning<br />
+− aggression, konfusion, irritabilitet, nervøsitet, rastløshed, ændret humør 
+− følsomhed, følelsesløshed, snurrende eller brændende hud eller smerter i hænder eller fødder som følge 
+af nervebeskadigelse, svimmelhed, rysten, hovedpine, nedsat eller ændret smagsopfattelse<br />
+− grøn stær, sløret syn 
+− hurtig eller uregelmæssig hjerterytme, for højt eller for lavt blodtryk, dannelse af blodpropper, der kan 
+tilstoppe blodkarrene i f.eks. benene eller lungerne, hævede arme eller ben, rødme af huden i ansigtet 
+eller på kroppen<br />
+− hoste, åndedrætsbesvær, talebesvær, ondt i halsen eller munden, hæshed, mundtørhed, hikke, 
+inflammation af slimhinderne<br />
+− opkastning, kvalme, diarré, fordøjelsesbesvær, oppustethed, oppustet mave og/eller mavesmerter 
+− hududslæt, kløe, rød hud, øget svedtendens (hyperhidrose), tør hud, hårtab (alopeci)<br />
+− muskelsvind, smerter i muskler, led, knogler eller lemmer<br />
+− hyppig vandladning 
+− smerter, feber, kulderystelser, besvimelsesanfald, svimmelhed, udmattelse, døsighed, nedsat 
+balanceevne.<br />
+Ikke almindelige: forekommer hos indtil 1 ud af 100 behandlede 
+− feber på grund af mangel på visse hvide blodlegemer, mangel på alle typer blodlegemer, nedsat 
+størkning af blodet 
+− manglende evne af skjoldbruskkirtlen til at producere normale mængder hormoner (hypotyroidisme)<br />
+− manglende kropsvæske (dehydrering) med tørst eller hovedpine, nedsat magnesium- eller 
+calciumindhold i blodet 
+− humørsvingninger, hallucinationer<br />
+− slagtilfælde, nedsat koordinations- eller bevægelsesevne, besvimelse<br />
+− inflammation af øjne og/eller øjenlåg, øget tåreflåd<br />
+− hjerteanfald, unormalt langsom hjerterytme 
+− nældefeber<br />
+− nyresvigt. 
+Ikke kendt: hyppigheden kan ikke vurderes ud fra de tilgængelige data 
+− infektion, inflammation af hele kroppen på grund af infektion (sepsis)<br />
+− manglende evne af kroppen til at reagere normalt på stærke belastninger såsom uheld, operationer eller 
+sygdomme som følge af utilstrækkelig binyrefunktion, svær usædvanlig hovedpine med synsforstyrrelser 
+ved ophør af behandlingen, uregelmæssig menstruation hos kvinder, kraftig hårvækst (hirsutisme)<br />
+− øget behov for sukkersygemedicin, saltubalance, tab af kalium på grund af lavt indhold af kuldioxid 
+(tilstanden metabolisk alkalose) 
+− epileptiske anfald<br />
+− øget tryk i øjnene, herunder grøn stær, sygdomme i øjets årehinde og nethinde (korioretinopati)<br />
+− hjertets manglende evne til at pumpe tilstrækkeligt med blod rundt i kroppen (hjertesvigt) 
+− sår, perforation og/eller blødning i spiserør (esophagus), mave eller tarm, inflammeret bugspytkirtel (der 
+kan vise sig som smerter i ryggen eller maven) 
+− langsom sårheling, akne, tynd hud, blå mærker, rød eller lilla misfarvning af huden (purpura)<br />
+− knogleskørhed med øget risiko for brud, knoglesygdomme, brist af sener. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V*. 
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store neofordex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store neofordex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Neofordex utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og blisterkortet efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Brug ikke Neofordex, hvis du bemærker defekter eller tegn på ældning af tabletterne eller emballagen.  </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevar tabletterne i 
+blisterpakningen, indtil du tager dem. Hvis du bruger en tabletæske, skal du bruge perforeringen til at tage de 
+enkelte tabletter ud af blisteren uden at åbne emballagen. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Neofordex indeholder:</p>
+<ul>
+<li>Aktivt stof: dexamethason. Hver tablet indeholder dexamethasonacetat svarende til 40 mg 
+dexamethason. </li>
+<li>Øvrige indholdsstoffer: lactosemonohydrat, mikrokrystallinsk cellulose, magnesiumstearat og kolloid 
+vandfri silica (se pkt. 2).  </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Hvid, aflang tablet med "40 mg" præget på den ene side.  </p>
+<p>Hver karton indeholder 10 x 1 tabletter i perforeret enkeltdosisblister af OPA/aluminium/PVC-aluminium.  </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>THERAVIA 
+16 Rue Montrosier 
+92200 Neuilly-sur-Seine 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+THERAVIA 
+Tél/Tel: +32 (0)2 40 11 question@theravia.com  </p>
+<p>Lietuva 
+Immedica Pharma AB<br />
+Tel/Puh: +46 (0)8 533 39 500<br />
+info@immedica.com<br />
+България 
+THERAVIA 
+Teл.: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Luxembourg/Luxemburg 
+THERAVIA 
+Tél/Tel: +352 278 62 question@theravia.com  </p>
+<p>Česká republika 
+THERAVIA 
+Tel.: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Magyarország 
+THERAVIA 
+Tel.: +33 (0)1 72 69 01 question@theravia.com<br />
+Danmark 
+Immedica Pharma AB<br />
+Tlf: +46 (0)8 533 39 500<br />
+info@immedica.com<br />
+Malta 
+THERAVIA 
+Tel: +356 2776 1question@theravia.com  </p>
+<p>Deutschland 
+THERAVIA 
+Tel: +49 (0)3022153question@theravia.com  </p>
+<p>Nederland 
+THERAVIA 
+Tel: +31 (0)2 070 38 question@theravia.com  </p>
+<p>Eesti 
+Immedica Pharma AB<br />
+Tel/Puh: +46 (0)8 533 39 500<br />
+info@immedica.com<br />
+Norge 
+Immedica Pharma AB<br />
+Tel/Puh: +46 (0)8 533 39 500<br />
+info@immedica.com  </p>
+<p>Ελλάδα 
+RAFARM AEBE 
+Τηλ: + 302 106776 </p>
+<p>Österreich 
+THERAVIA 
+Tel: +43 (0) 800 909 question@theravia.com  </p>
+<p>España 
+THERAVIA 
+Tel: + 34 914 146 question@theravia.com  </p>
+<p>Polska 
+THERAVIA 
+Tel.: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>France 
+THERAVIA 
+Tél: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Portugal 
+THERAVIA 
+Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Hrvatska 
+THERAVIA 
+Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Ireland 
+THERAVIA 
+Tel : 016950question@theravia.com  </p>
+<p>România 
+THERAVIA 
+Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Slovenija 
+THERAVIA 
+Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
+<p>Ísland 
+Immedica Pharma AB<br />
+Sími: + 46 (0)8 533 39 info@immedica.com </p>
+<p>Slovenská republika 
+THERAVIA 
+Tel.: +33 (0)1 72 69 01 question@theravia.com<br />
+Italia 
+THERAVIA 
+Tel: +39 (0) 800 959 question@theravia.com<br />
+Suomi/Finland 
+Immedica Pharma AB<br />
+Tel/Puh: +46 (0)8 533 39 500<br />
+info@immedica.com </p>
+<p>Κύπρος 
+RAFARM AEBE 
+Τηλ: + 302 106776Sverige 
+Immedica Pharma AB<br />
+Tel: +46 (0)8 533 39 500<br />
+info@immedica.com </p>
+<p>Latvija 
+Immedica Pharma AB<br />
+Tel: +46 (0)8 533 39 500<br />
+info@immedica.com  </p>
+<p>Denne indlægsseddel blev senest ændret i  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.   </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f5d1cf53e3b7ba5026efaf532ce60eaa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for neofordex Package Leaflet for language en"
+Description: "ePI document Bundle for neofordex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f5d1cf53e3b7ba5026efaf532ce60eaa"
+* entry[0].resource = composition-en-f5d1cf53e3b7ba5026efaf532ce60eaa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf5d1cf53e3b7ba5026efaf532ce60eaa"
+* entry[=].resource = mpf5d1cf53e3b7ba5026efaf532ce60eaa
+                            
+                    
+Instance: bundlepackageleaflet-da-f5d1cf53e3b7ba5026efaf532ce60eaa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for neofordex Package Leaflet for language da"
+Description: "ePI document Bundle for neofordex Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f5d1cf53e3b7ba5026efaf532ce60eaa"
+* entry[0].resource = composition-da-f5d1cf53e3b7ba5026efaf532ce60eaa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf5d1cf53e3b7ba5026efaf532ce60eaa"
+* entry[=].resource = mpf5d1cf53e3b7ba5026efaf532ce60eaa
+                            
+                    
+
+
+
+Instance: mpf5d1cf53e3b7ba5026efaf532ce60eaa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Neofordex 40 mg tablets"
-Description: "Neofordex 40 mg tablets"
+Title: "Medicinal Product neofordex"
+Description: "neofordex"
 Usage: #inline
 
  
@@ -526,7 +1102,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Neofordex 40 mg tablets"
+  * productName = "neofordex"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -553,29 +1129,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f5d1cf53e3b7ba5026efaf532ce60eaa
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for neofordex Package Leaflet for language en"
-Description: "ePI document Bundle for neofordex Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f5d1cf53e3b7ba5026efaf532ce60eaaListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1053/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "neofordex"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f5d1cf53e3b7ba5026efaf532ce60eaa"
-* entry[0].resource = composition-en-f5d1cf53e3b7ba5026efaf532ce60eaa
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp49d65f4d49461671344043251a723c83"
-* entry[=].resource = mp49d65f4d49461671344043251a723c83
-                            
-                      
+* title = "List of all ePIs associated with neofordex"
+
+* subject = Reference(mp49d65f4d49461671344043251a723c83)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#neofordex "neofordex"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f5d1cf53e3b7ba5026efaf532ce60eaa) // neofordex en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f5d1cf53e3b7ba5026efaf532ce60eaa) // neofordex da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f5d1cf53e3b7ba5026efaf532ce60eaa
+InstanceOf: List
+
+* insert f5d1cf53e3b7ba5026efaf532ce60eaaListRuleset
+    

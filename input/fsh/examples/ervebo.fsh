@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b1355bc14a128fa4430d01fced9887b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for ervebo Package Leaflet"
@@ -488,12 +491,788 @@ from eye washes should be collected and decontaminated before discarding into th
 
 
 
+Instance: composition-da-b1355bc14a128fa4430d01fced9887b5
+InstanceOf: CompositionUvEpi
+Title: "Composition for ervebo Package Leaflet"
+Description:  "Composition for ervebo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3c673c71add8efedc4deb393bf98d412)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3c673c71add8efedc4deb393bf98d412
+* title = "TEST PURPOSES ONLY - ervebo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse
+2. Det skal du vide, før du eller dit barn får Ervebo
+3. Sådan får du Ervebo
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ervebo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ervebo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Ervebo er en vaccine til personer i alderen 1 år og derover.</p>
+</li>
+<li>
+<p>Ervebo gives for at beskytte personer mod ebola forårsaget af Zaire-ebolavirus, som er en type
+ebolavirus. Denne vaccine beskytter ikke mod de andre typer af ebolavirus.</p>
+</li>
+<li>
+<p>Da Ervebo ikke indeholder hele ebola-virussen, kan Ervebo ikke give personer ebola.
+Sundhedspersonalet kan anbefale personer at få denne vaccine i en nødsituation, der involverer
+spredning af ebola.
+Hvad er ebola?</p>
+</li>
+<li>
+<p>Ebola er en alvorlig sygdom forårsaget af en virus. Hvis personer får ebola, kan de dø. Personer
+får ebola fra andre personer eller dyr, som er inficerede med ebola, eller som er døde af ebola.</p>
+</li>
+<li>
+<p>Personer kan få ebola fra blod eller kropsvæsker såsom urin, afføring, spyt, opkast, sved,
+brystmælk og sæd og vaginalvæsker fra personer, som er inficerede med ebola-virus.</p>
+</li>
+<li>
+<p>Personer kan også få ebola fra ting, der har været i kontakt med blod eller kropsvæsker fra en
+person eller et dyr med ebola (såsom tøj eller genstande i direkte kontakt).</p>
+</li>
+<li>
+<p>Ebola spredes ikke via luft, vand eller mad.
+Sundhedspersonalet vil tale med dig, og I kan herefter sammen beslutte, om du eller dit barn skal have
+vaccinen.
+27</p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ervebo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ervebo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Ervebo, hvis du</p>
+<ul>
+<li>
+<p>er allergisk over for Ervebo, ris eller et af de øvrige indholdsstoffer i denne vaccine (angivet i
+punkt 6).
+Du må ikke få Ervebo, hvis noget af ovenstående gælder for dig. Er du i tvivl, så spørg
+sundhedspersonalet.
+Advarsler og forsigtighedsregler
+Denne vaccine beskytter ikke nødvendigvis alle, der får den, og det er ikke kendt, hvor lang tid Ervebo
+beskytter dig imod ebola.
+Fortsæt med at følge sundhedspersonalets anbefalinger med hensyn til at beskytte dig selv imod
+ebolainfektion efter, at du har fået denne vaccine.
+Håndvask:
+Korrekt håndvask er den mest effektive måde at forhindre spredning af farlige smittekim såsom
+ebolavirus. Det sænker antallet af smittekim på hænderne og begrænser risikoen for spredning fra
+person til person.
+Metoder til korrekt håndvask er beskrevet nedenfor:</p>
+</li>
+<li>
+<p>Brug sæbe og vand, når hænderne er synligt beskidte med jord, blod eller andre kropsvæsker.
+Det er ikke nødvendigt at anvende antimikrobielle sæber ved håndvask.</p>
+</li>
+<li>
+<p>Brug et alkoholbaseret hånddesinfektionsmiddel, når hænderne ikke et synligt beskidte.
+Alkoholbaseret hånddesinfektionsmiddel må ikke anvendes, når hænderne er synligt beskidte
+med jord, blod eller andre kropsvæsker.
+I et område berørt af ebola:
+Ved ophold i et område, der er berørt af ebola, er det vigtigt at undgå følgende:</p>
+</li>
+<li>
+<p>Kontakt med blod og kropsvæsker (såsom urin, fæces, spyt, sved, opkast, brystmælk, sæd og
+vaginalvæsker).</p>
+</li>
+<li>
+<p>Genstande som kan have været i kontakt med en smittet persons blod eller kropsvæsker (såsom
+tøj, sengetøj, kanyler og medicisk udstyr).</p>
+</li>
+<li>
+<p>Deltagelse i begravelse eller begravelsesritualer, der kræver håndtering af liget af en person,
+som er død af ebola.</p>
+</li>
+<li>
+<p>Kontakt med flagermus og menneskeaber og aber eller blod, væsker og råt kød tilberedt fra
+disse dyr ("bushmeat") eller kød fra en ukendt kilde.</p>
+</li>
+<li>
+<p>Kontakt med sæd fra en mand, som har haft ebola. Du skal følge sikker sex-praksis, indtil du
+ved, at virussen er forsvundet fra sæden.
+I tilfælde af udslæt:
+Hvis du får et udslæt på et sted, hvor huden ikke er intakt, efter at have fået Ervebo, skal du tildække
+det, indtil huden er helet. Læg de anvendte plastre og bandager i en forseglet beholder, hvis det er
+muligt, og smid dem i skraldespanden for at forhindre, at personer med et svagt immunsystem eller
+dyr kommer i kontakt med dem.
+Omsorg for børn, som har fået Ervebo:
+I mindst 6 uger efter børn har fået denne vaccine er det vigtigt at vaske dine hænder grundigt efter at
+du har været i kontakt med blod eller kropsvæsker fra vaccinerede børn. Om muligt skal snavsede
+bleer rengøres med passende vaskemidler/desinfektionsmidler, eller hvis der bruges engangsbleer,
+forsegles de i dobbelte plastikposer og smides i skraldespanden.
+28
+Kontakt sundhedspersonalet, før du får Ervebo, hvis du:
+Har haft allergiske reaktioner over for vacciner eller lægemidler</p>
+</li>
+<li>
+<p>Hvis du nogensinde har haft en allergisk reaktion over for en vaccine eller et lægemiddel, skal
+du tale med sundhedspersonalet, før du får denne vaccine.
+Har et svækket immunsystem
+Hvis dit immunsystem er svækket (hvilket betyder, at kroppen har sværere ved at bekæmpe
+sygdomme), kan du måske ikke få Ervebo. Du har måske et svækket immunsystem, hvis:</p>
+</li>
+<li>
+<p>du har hiv eller aids.</p>
+</li>
+<li>
+<p>du tager visse lægemidler, der svækker dit immunsystem, som f.eks. immundæmpende midler
+eller kortikosteroider.</p>
+</li>
+<li>
+<p>du har kræft eller en blodsygdom, der svækker dit immunsystem.</p>
+</li>
+<li>
+<p>en i din familie har et svagt immunsystem.
+Hvis du tror, at du har et svagt immunsystem, skal du spørge sundhedspersonalet, om du skal have
+denne vaccine. Hvis du får vaccinen og har et svagt immunsystem, virker vaccinen måske ikke så godt
+som hos personer med et normalt immunsystem.
+Er i kontakt med højrisikopersoner
+Fortæl det altid til sundhedspersonalet, hvis du i de første 6 uger efter at have fået Ervebo muligvis vil
+være i tæt kontakt med eller i samme husstand som:</p>
+</li>
+<li>
+<p>børn under 1 år </p>
+</li>
+<li>
+<p>en person, der kan være gravid eller ammer</p>
+</li>
+<li>
+<p>en person, der har et svagt immunsystem.
+Dette skyldes, at du kan overføre vaccinevirus til dem gennem dine kropsvæsker.
+Planlægger at donere blod</p>
+</li>
+<li>
+<p>Du må ikke donere blod i mindst 6 uger efter at have fået denne vaccine.
+Er i kontakt med husdyr (landbrugsdyr)
+Undgå at husdyr (landbrugsdyr) kommer i tæt kontakt med dit blod eller kropsvæsker i mindst 6 uger
+efter, at du har fået vaccinen. Dette skyldes, at der er en risiko for, at du kan overføre vaccinevirus til
+husdyr.
+Har feber (forhøjet temperatur)</p>
+</li>
+<li>
+<p>Hvis du har feber (forhøjet temperatur), skal du tale med sundhedspersonalet, før du får Ervebo.
+Vaccinationen skal måske udskydes, indtil feberen er væk.</p>
+</li>
+<li>
+<p>En mindre infektion, som f.eks. en forkølelse, bør ikke være et problem, men tal med
+sundhedspersonalet, inden du får Ervebo.
+Har en blødningssygdom eller let får blå mærker</p>
+</li>
+<li>
+<p>Fortæl sundhedspersonalet, hvis du har et problem med blødning eller let får blå mærker.
+Ervebo kan medføre blødning eller give blå mærker på det sted, hvor vaccinen indsprøjtes.
+Testning for ebola efter du har fået Ervebo</p>
+</li>
+<li>
+<p>Du kan teste positiv for ebola, efter du har fået Ervebo. Det betyder ikke, at du har ebola. Fortæl
+sundhedspersonalet, at du har fået Ervebo. Sundhedspersonalet skal måske udføre en anden test.
+Børn under 1 år
+Hvis dit barn er under 1 år, skal du tale med sundhedspersonalet. Det er ukendt, om dette lægemiddel
+er sikkert og virker hos børn under 1 år.
+Brug af andre lægemidler sammen med Ervebo
+Fortæl altid sundhedspersonalet, hvis du bruger andre lægemidler eller vacciner, for nylig har brugt
+andre lægemidler eller vacciner eller planlægger at bruge andre lægemidler eller vacciner.
+29
+Ingen studier har undersøgt, hvordan anden medicin eller vacciner og Ervebo kan påvirke hinandens
+virkning. Ervebo bør ikke anvendes sammen med andre vacciner.
+Hvis du planlægger at få blod eller blodprodukter
+Du må ikke få denne vaccine samtidig med, at du får blod eller blodprodukter. Ervebo virker muligvis
+ikke så godt, hvis du får blod eller blodprodukter 3 måneder før eller op til 1 måned efter
+vaccinationen.
+Graviditet og amning</p>
+</li>
+<li>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive
+gravid, skal du spørge sundhedspersonalet til råds, før du får denne vaccine. De vil hjælpe dig
+med at beslutte, om du skal have Ervebo.</p>
+</li>
+<li>
+<p>Du må ikke blive gravid i 2 måneder efter at have fået Ervebo. Kvinder, som kan blive gravide,
+skal bruge en sikker præventionsmetode. Det er ukendt, om Ervebo kan skade moderen eller det
+ufødte barn. Det er også ukendt, om det kan overføres til barnet via modermælken.</p>
+</li>
+<li>
+<p>Hvis du muligvis kommer i tæt kontakt med eller er i samme husstand som en person, der kan
+være gravid eller ammer, inden for 6 uger efter at du har fået Ervebo, skal du fortælle det til
+sundhedspersonalet. Dette skyldes, at du kan overføre vaccinen til dem gennem dine
+kropsvæsker.
+Ervebo indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det
+væsentlige natriumfrit.</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ervebo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ervebo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ervebo gives af sundhedspersonalet. Det gives som en enkelt injektion (dosis på 1 ml) i den øverste
+del af armen eller på ydersiden af låret.
+Spørg sundhedspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ervebo kan som alle andre vacciner give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger:
+Alvorlige bivirkninger er sjældne. Søg straks lægehjælp, hvis du eller dit barn får symptomer på en
+allergisk reaktion, som kan omfatte:</p>
+<ul>
+<li>
+<p>hvæsende vejrtrækning eller problemer med at trække vejret</p>
+</li>
+<li>
+<p>hævelse af ansigtet, læberne, tungen eller andre kropsdele</p>
+</li>
+<li>
+<p>udbredt kløe, rødmen, blussen eller kløende knopper på huden.
+Andre bivirkninger hos voksne i alderen 18 år og derover:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):</p>
+</li>
+<li>
+<p>Hovedpine</p>
+</li>
+<li>
+<p>Ledsmerter</p>
+</li>
+<li>
+<p>Muskelsmerter</p>
+</li>
+<li>
+<p>Feber</p>
+</li>
+<li>
+<p>Træthedsfølelse</p>
+</li>
+<li>
+<p>Kulderystelser</p>
+</li>
+<li>
+<p>Smerter, hævelse eller rødme på injektionsstedet</p>
+</li>
+<li>
+<p>Nedsat appetit
+30</p>
+</li>
+<li>
+<p>Mavesmerter.
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):</p>
+</li>
+<li>
+<p>Kvalme</p>
+</li>
+<li>
+<p>Hududslæt</p>
+</li>
+<li>
+<p>Hævede led</p>
+</li>
+<li>
+<p>Øget svedtendens</p>
+</li>
+<li>
+<p>Svimmelhed</p>
+</li>
+<li>
+<p>Mundsår</p>
+</li>
+<li>
+<p>Kløe på injektionsstedet.
+Antallet af visse hvide blodlegemer kan falde til under det normale niveau efter vaccinationen, men er
+ikke forbundet med sygdom og vender tilbage til det normale igen.
+De fleste bivirkninger forsvinder inden for et par dage. Ledsmerter og -hævelse kan vare i uger eller
+måneder hos nogle personer. Hos nogle kan ledsmerter og -hævelse vende tilbage efter først at være
+forsvundet.
+Bivirkninger hos børn og unge i alderen 1 til 17 år:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):</p>
+</li>
+<li>
+<p>Hovedpine</p>
+</li>
+<li>
+<p>Nedsat appetit</p>
+</li>
+<li>
+<p>Muskelsmerter</p>
+</li>
+<li>
+<p>Feber</p>
+</li>
+<li>
+<p>Træthedsfølelse</p>
+</li>
+<li>
+<p>Kulderystelser</p>
+</li>
+<li>
+<p>Smerter, der hvor barnet fik vaccinen</p>
+</li>
+<li>
+<p>Mavesmerter.
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):</p>
+</li>
+<li>
+<p>Ledsmerter</p>
+</li>
+<li>
+<p>Kvalme</p>
+</li>
+<li>
+<p>Svimmelhed</p>
+</li>
+<li>
+<p>Øget svedtendens</p>
+</li>
+<li>
+<p>Mundsår</p>
+</li>
+<li>
+<p>Gråd</p>
+</li>
+<li>
+<p>Hævelser eller kløe, der hvor barnet fik vaccinen.
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):</p>
+</li>
+<li>
+<p>Rødme, der hvor barnet fik vaccinen.
+Kontakt sundhedspersonalet, hvis du eller dit barn får en eller flere af ovenstående bivirkninger.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med sundhedspersonalet. Dette gælder også mulige
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte
+til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette
+lægemiddel.
+31</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ervebo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ervebo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn.</p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglasetiketten og den ydre karton
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.</p>
+</li>
+<li>
+<p>Opbevares og transporteres nedfrosset ved -80 °C til -60 °C.</p>
+</li>
+<li>
+<p>Efter optøning skal vaccinen bruges straks. Efter optøning kan vaccinen dog opbevares i op til
+14 dage ved 2 °C - 8 °C inden brug. Efter de 14 dage skal vaccinen enten bruges eller kasseres.
+Vaccinen må ikke nedfryses igen efter optøning.</p>
+</li>
+<li>
+<p>Når vaccinen tages ud af fryseren, skal den både markeres med datoen for, hvornår den er taget
+ud af fryseren og også en ny kasseringsdato (i stedet for den påtrykte udløbsdato).</p>
+</li>
+<li>
+<p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys.</p>
+</li>
+<li>
+<p>Brug ikke vaccinen, hvis du bemærker partikler i væsken.</p>
+</li>
+<li>
+<p>Spørg sundhedspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet
+må du ikke smide lægemiddelrester i afløbet eller toilettet eller skraldespanden.</p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ervebo indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: en levende Vesikulær Stomatitis Virus, hvis overfladeprotein er erstattet med
+overfladeproteiner fra Zaire-ebolavirus (rVSV∆G-ZEBOV-GP).
+En dosis (1 ml) indeholder:
+Ebola-Zaire-vaccine (rVSV∆G-ZEBOV-GP1,2 levende, svækket) ≥ 72 millioner pfu3
+1Rekombinant Vesikulær Stomatitis Virus (rVSV) af Indiana-stammen med deletion af det
+kappebærende VSV-glykoprotein (G), der er erstattet med overfladeglykoproteinet (GP) fra
+Zaire-ebolavirus (ZEBOV) af Kikwit 1995-stammen 
+2Produceret på Vero-celler 
+3pfu= plaquedannende enheder
+Dette produkt indeholder genetisk modificerede organismer (GMO’er).
+Denne vaccine indeholder spor af risprotein.
+Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosis.</p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: rekombinant, human serumalbumin, trometamol-buffer, vand til
+injektionsvæsker, saltsyre, natriumhydroxid.
+Udseende og pakningsstørrelser</p>
+</li>
+<li>
+<p>Ervebo er en injektionsvæske, opløsning.</p>
+</li>
+<li>
+<p>Ervebo er en farveløs til let brungul væske.</p>
+</li>
+<li>
+<p>Ervebo fås i en pakning med 10 hætteglas.
+Indehaver af markedsføringstilladelsen
+Fremstiller
+Merck Sharp &amp; Dohme B.V.
+Burgwedel Biotech GmbH
+Waarderweg 39
+Im Langen Felde 5
+2031 BN Haarlem
+30938 Burgwedel
+Holland
+Tyskland
+32
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370.5.2780.247
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД, 
+тел.: + 359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32 (0) 27766211
+dpoc_belux@msd.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o. 
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: + 36.1.888.5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf.: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited.
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 23 5153153)
+medicalinfo.nl@merck.com 
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel.: +48.22.549.51.00
+msdpolska@merck.com
+France
+MSD France
+Tél: +33 (0)1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: +385 1 66 11 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L
+Tel: + 4021 529 29 00
+msdromania@merck.com
+33
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386,1.520,4201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi 
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371.67364.224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.
+Andre informationskilder
+Du kan finde yderligere oplysninger om Ervebo på Det Europæiske Lægemiddelagenturs hjemmeside:
+http://www.ema.europa.eu. 
+Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs
+hjemmeside.
+&lt;------------------------------------------------------------------------------------------------------------------------&gt;
+Nedenstående oplysninger er kun til sundhedspersoner:
+Standardforholdsregler ved pleje af patienter med kendt eller mistænkt ebola-sygdom
+Vaccination med Ervebo fjerner ikke nødvendigheden af standardforholdsregler ved pleje af patienter
+med kendt eller mistænkt ebola-sygdom. Alle sundhedspersoner og andre hjælpepersoner, som er
+blevet vaccineret, må ikke ændre praksis med hensyn til sikker injektion, hygiejne og personligt
+beskyttelsesudstyr (PPE) efter vaccination. 
+Standardforholdsregler i henhold til WHO inkluderer følgende: </p>
+</li>
+<li>
+<p>Basal håndhygiejne</p>
+</li>
+<li>
+<p>Respirationshygiejne</p>
+</li>
+<li>
+<p>Anvendelse af personligt beskyttelsesudstyr (til beskyttelse mod stænk/sprøjt eller anden
+kontakt med inficeret materiale)</p>
+</li>
+<li>
+<p>Sikker injektionspraksis</p>
+</li>
+<li>
+<p>Sikker begravelsespraksis
+34
+Sundhedspersonale, der plejer patienter med mistænkt eller bekræftet ebolavirus, skal anvende ekstra
+foranstaltninger til infektionsbekæmpelse for at undgå kontakt med patientens blod og kropsvæsker
+samt kontaminerede overflader eller kontamineret materiale såsom tøj eller sengetøj.
+Sundhedspersonale, der er i tæt kontakt (inden for 1 meter) med patienter med ebola-virussygdom,
+skal anvende ansigtsværn (ansigtsvisir eller en medicinsk ansigtsmaske og beskyttelsesbriller), en ren,
+ikke-steril langærmet kittel og handsker (sterile handsker ved nogle indgreb).
+Laboratoriepersonale er også i risikogruppen. Prøvemateriale, der er udtaget fra mennesker og dyr
+med henblik på undersøgelse for ebolainfektion, skal håndteres af uddannet personale og behandles i
+laboratorier med egnet laboratorieudstyr.
+Den person, der giver vaccinen, skal råde vaccinemodtagerne til fortsat at beskytte sig med følgende
+forholdsregler:</p>
+</li>
+<li>
+<p>Håndvask </p>
+</li>
+<li>
+<p>Undgå kontakt med blod og kropsvæsker </p>
+</li>
+<li>
+<p>Sikker begravelsespraksis</p>
+</li>
+<li>
+<p>Sikker sex</p>
+</li>
+<li>
+<p>Undgå kontakt med flagermus og ikke-humane primater eller blod, væsker og råt kød tilberedt
+fra disse dyr ("bushmeat") eller kød fra en ukendt kilde.
+Instruktioner vedrørende håndtering af vaccinen før administration</p>
+</li>
+<li>
+<p>Ervebo opbevares nedfrosset ved -80 °C til -60 °C og skal tages ud af fryseren og optøs i mindre
+end 4 timer, indtil der ikke er synlig is. Hætteglasset må ikke optøs i køleskab, da det ikke kan
+garanteres, at hætteglasset vil blive optøet på mindre end 4 timer. Efter optøning skal
+hætteglasset vendes forsigtigt flere gange før indholdet trækkes op i sprøjten.</p>
+</li>
+<li>
+<p>Efter optøning skal Ervebo bruges straks. Data for i-brug-stabilitet har dog vist, at efter optøning
+kan vaccinen opbevares i op til 14 dage ved 2 °C - 8 °C inden brug. Efter 14 dage skal vaccinen
+bruges eller kasseres. Når vaccinen tages ud af fryseren, skal den både markeres med datoen for,
+hvornår den er taget ud af fryseren og også en ny kasseringsdato (i stedet for den påtrykte
+udløbsdato). Vaccinen må ikke nedfryses igen efter optøning.</p>
+</li>
+<li>
+<p>Ervebo er en farveløs til let brungul væske. Kassér vaccinen, hvis den indeholder partikler.</p>
+</li>
+<li>
+<p>Ervebo skal administreres intramuskulært. Vaccinen må ikke injiceres intravaskulært. Der
+foreligger ingen data om subkutan eller intradermal administration.</p>
+</li>
+<li>
+<p>Ervebo må ikke blandes med andre vacciner eller lægemidler i samme sprøjte.</p>
+</li>
+<li>
+<p>Træk hele indholdet af Ervebo op af hætteglasset med en steril kanyle og sprøjte. Det foretrukne
+injektionssted er deltoidområdet i den ikke-dominerende arm eller i det øvre anterolaterale
+område af låret. Dæk injektionsstedet med gaze eller en bandage (f.eks. enhver type
+selvklæbende bandage eller gaze og plaster), som danner en beskyttende fysisk barriere, der
+beskytter mod direkte kontakt med vesikelvæske. Bandagen kan fjernes, når der ikke er synlige
+tegn på væskelækage.</p>
+</li>
+<li>
+<p>Ikke anvendt vaccine samt affald heraf skal bortskaffes i henhold til institutionens retningslinjer
+for genetisk modificerede organismer eller biologisk risikomateriale efter behov. I tilfælde af
+brud/spild har desinficerende midler som aldehyder, sprit og rengøringsmidler vist sig at
+reducere viralt infektionspotentiale efter kun et par minutter. Hvis det er muligt, skal
+affaldsvæske fra vask af øjne opsamles og dekontamineres, før det hældes i afløbet.</p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-b1355bc14a128fa4430d01fced9887b5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ervebo Package Leaflet for language en"
+Description: "ePI document Bundle for ervebo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b1355bc14a128fa4430d01fced9887b5"
+* entry[0].resource = composition-en-b1355bc14a128fa4430d01fced9887b5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb1355bc14a128fa4430d01fced9887b5"
+* entry[=].resource = mpb1355bc14a128fa4430d01fced9887b5
+                            
+                    
+Instance: bundlepackageleaflet-da-b1355bc14a128fa4430d01fced9887b5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ervebo Package Leaflet for language da"
+Description: "ePI document Bundle for ervebo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-b1355bc14a128fa4430d01fced9887b5"
+* entry[0].resource = composition-da-b1355bc14a128fa4430d01fced9887b5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb1355bc14a128fa4430d01fced9887b5"
+* entry[=].resource = mpb1355bc14a128fa4430d01fced9887b5
+                            
+                    
+
+
+
+Instance: mpb1355bc14a128fa4430d01fced9887b5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ervebo solution for injection"
-Description: "Ervebo solution for injection"
+Title: "Medicinal Product ervebo"
+Description: "ervebo"
 Usage: #inline
 
  
@@ -513,7 +1292,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ervebo solution for injection"
+  * productName = "ervebo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -540,29 +1319,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b1355bc14a128fa4430d01fced9887b5
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ervebo Package Leaflet for language en"
-Description: "ePI document Bundle for ervebo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b1355bc14a128fa4430d01fced9887b5ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1392/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ervebo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b1355bc14a128fa4430d01fced9887b5"
-* entry[0].resource = composition-en-b1355bc14a128fa4430d01fced9887b5
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3c673c71add8efedc4deb393bf98d412"
-* entry[=].resource = mp3c673c71add8efedc4deb393bf98d412
-                            
-                      
+* title = "List of all ePIs associated with ervebo"
+
+* subject = Reference(mp3c673c71add8efedc4deb393bf98d412)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ervebo "ervebo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b1355bc14a128fa4430d01fced9887b5) // ervebo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-b1355bc14a128fa4430d01fced9887b5) // ervebo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-b1355bc14a128fa4430d01fced9887b5
+InstanceOf: List
+
+* insert b1355bc14a128fa4430d01fced9887b5ListRuleset
+    

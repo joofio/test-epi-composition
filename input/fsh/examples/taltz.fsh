@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0a52b09545f0b2e00d5c72212ca2a403
 InstanceOf: CompositionUvEpi
 Title: "Composition for taltz Package Leaflet"
@@ -599,12 +602,747 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-0a52b09545f0b2e00d5c72212ca2a403
+InstanceOf: CompositionUvEpi
+Title: "Composition for taltz Package Leaflet"
+Description:  "Composition for taltz Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp935f7cfc4773fccbac9e953af0a525ca)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp935f7cfc4773fccbac9e953af0a525ca
+* title = "TEST PURPOSES ONLY - taltz"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Taltz </li>
+<li>Sådan skal du bruge Taltz </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What taltz is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What taltz is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Taltz indeholder det aktive stof ixekizumab.  </p>
+<p>Taltz er beregnet til behandling af de inflammatoriske sygdomme beskrevet nedenfor: </p>
+<ul>
+<li>
+<p>Plaque-psoriasis hos voksne </p>
+</li>
+<li>
+<p>Psoriasisartrit hos børn og unge fra 6 år med en legemsvægt på mindst 25 kg </p>
+</li>
+<li>
+<p>Psoriasisartrit hos voksne </p>
+</li>
+<li>
+<p>Radiografisk aksial spondylartrit hos voksne </p>
+</li>
+<li>
+<p>Nonradiografisk aksial spondylartrit hos voksne 
+Ixekizumab tilhører en gruppe af lægemidler, der kaldes interleukin-hæmmere (IL-hæmmere). Dette 
+lægemiddel virker ved at blokere aktiviteten af et protein kaldet IL-17A, som fremmer udviklingen af 
+psoriasis og inflammatoriske sygdomme i ledene og rygsøjlen.  </p>
+</li>
+</ul>
+<p>Plaque-psoriasis 
+Taltz anvendes til behandling af en hudsygdom, der kaldes “plaque-psoriasis", hos voksne og børn og 
+unge fra 6 år med en legemsvægt på mindst 25 kg når sygdommen er moderat til svær. Taltz 
+mindsker tegnene og symptomerne på sygdommen.  </p>
+<p>Behandling med Taltz vil gavne dig ved at forbedre hudens tilstand og mindske dine symptomer 
+som f.eks. hudafskalning, kløe og smerter. </p>
+<p>Psoriasisartrit 
+Taltz anvendes til behandling af en sygdom, der kaldes “psoriasisartrit" hos voksne, en inflammatorisk 
+sygdom i leddende, som ofte kommer med psoriasis. Hvis du har psoriasisartrit vil du først få anden 
+medicin. Hvis disse lægemidler ikke virker tilstrækkeligt for dig eller ved  intolerance, vil du få Taltz 
+for at mindske tegn og symptomer på sygdommen. Taltz kan gives alene eller sammen med et andet 
+lægemiddel kaldet methotrexat. </p>
+<p>Taltz hjælper ved at mindske tegn og symptomer på sygdommen, forbedre den fysiske funktion (evnen 
+til at udføre sædvanlige daglige aktiviteter) og nedsætte skader på leddende.            </p>
+<p>Aksial spondylartrit 
+Taltz anvendes til behandling af en inflammatorisk sygdom hos voksne der kaldes "aksial 
+spondylatrit". Den påvirker hovedsageligt rygsøjlen, hvilket forårsager betændelse i rygmarven. Hvis 
+tilstanden er synlig på røntgenbilleder, kaldes den "radiografisk aksial spondylartrit". Hvis den 
+forekommer hos patienter uden synlige tegn på røntgenbilleder, kaldes den "nonradiografisk aksial 
+spondylartrit". Hvis du har axial spondylartrit, tilbydes du først andre lægemidler. Hvis disse 
+lægemidler ikke virker tilstrækkeligt for dig, vil du få Taltz for at mindske tegn og symptomer på 
+sygdommen, samt mindske betændelsen og forbedre din fysiske funktion. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take taltz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take taltz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Taltz 
+- hvis du er allergisk over for ixekizumab eller et af de øvrige indholdsstoffer i Taltz (angivet i 
+afsnit 6). Hvis du tror, at du kan være allergisk, så spørg lægen til råds, før du bruger Taltz. 
+- hvis du har en infektion, som lægen mener er væsentlig (f.eks. aktiv tuberkulose). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen før du tager Taltz:</p>
+<ul>
+<li>hvis du har en infektion for øjeblikket, eller hvis du har langvarige eller tilbagevendende 
+infektioner. </li>
+<li>hvis du har en inflammatorisk tarmsygdom, der påvirker maven kaldet Crohns sygdom. </li>
+<li>hvis du har en betændelse i tyktarmen kaldet colitis ulcerosa. </li>
+<li>hvis du får anden behandling mod psoriasis (f.eks. et lægemiddel, der undertrykker dit 
+immunsystem, eller lysbehandling med ultraviolet lys) eller mod psoriasisartrit. </li>
+</ul>
+<p>Inflammatorisk tarmsygdom (Crohns sygdom eller colitis ulcerosa) 
+Hvis du får kramper eller smerter i maven, diarré, vægttab eller blod i afføringen (eller ved ethvert 
+andet tegn på tarmproblemer), skal du straks stoppe med at bruge Taltz og omgående fortælle det til 
+din læge eller søge lægehjælp.  </p>
+<p>Hvis du er i tvivl, om noget af ovenstående gælder for dig, så tal med lægen eller sygeplejersken, før 
+du bruger Taltz. </p>
+<p>Hold øje med infektioner og allergiske reaktioner 
+Der er risiko for, at Taltz kan forårsage alvorlige bivirkninger, herunder infektioner og allergiske 
+reaktioner. Du skal holde øje med tegn på disse tilstande, mens du bruger Taltz. </p>
+<p>Hvis du bemærker nogen tegn på en alvorlig infektion eller en allergisk reaktion, skal du straks 
+stoppe med at bruge Taltz og omgående fortælle det til din læge eller søge lægehjælp. Sådanne tegn 
+er anført under “Alvorlige bivirkninger" i afsnit 4. Børn og unge 
+Brug ikke dette lægemiddel til behandling af plaque-psoriasis hos børn under 6 år, da lægemidlet ikke 
+er blevet undersøgt hos denne aldersgruppe. </p>
+<p>Brug ikke dette lægemiddel til behandling af psoriasisartrit hos børn og unge under 18 år, da 
+lægemidlet ikke er blevet undersøgt hos denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Taltz 
+Fortæl lægen, apotekspersonalet eller sygeplejersken 
+- hvis du bruger andre lægemidler, for nylig har brugt andre lægemidlereller planlægger at bruge 
+andre lægemidler. 
+- hvis du for nylig har fået eller skal have en vaccination. Der er visse typer vacciner, som du ikke 
+bør få, mens du bruger Taltz. </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge til råds, før du bruger dette lægemiddel. Det bør undgås at anvende Taltz under graviditet. 
+Virkningerne af dette lægemiddel hos gravide kvinder kendes ikke. Hvis du er en kvinde, der kan blive 
+gravid, bør du undgå at blive gravid, og du skal bruge sikker prævention, mens du er i behandling med 
+Taltz og i mindst 10 uger efter den sidste dosis.  </p>
+<p>Hvis du ammer eller planlægger at amme, skal du tale med lægen, før du bruger dette lægemiddel. Du 
+og lægen skal sammen afgøre, om du skal amme eller bruge Taltz. Du bør ikke gøre begge dele.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er ikke sandsynligt, at Taltz påvirker din evne til at føre motorkøretøj og betjene maskiner. </p>
+<p>Taltz indeholder natrium 
+Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. 80 mg dosis, dvs. den er i det 
+væsentlige natriumfri.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take taltz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take taltz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller sygeplejerskens anvisning. Er du i tvivl, så spørg 
+lægen, sygeplejersken eller apotekspersonalet. </p>
+<p>Taltz gives som en injektion under huden (subkutan injektion). Du og lægen eller sygeplejersken 
+bør sammen afgøre, om du selv skal foretage Taltz-indsprøjtningerne. </p>
+<p>Ved brug til børn med en legemsvægt på 25-50 kg skal ixekizumab-doser på 40 mg klargøres og 
+administreres af en kvalificeret sundhedsperson. </p>
+<p>Det er vigtigt, at du ikke selv prøver at foretage indsprøjtningerne, før du er blevet oplært af 
+lægen eller sygeplejersken. En omsorgsperson kan også give dig din Taltz-indsprøjtning 
+efter grundig oplæring. </p>
+<p>Brug en huskemetode, f.eks. noter i en kalender eller dagbog, som kan hjælpe dig med at huske din 
+næste dosis, så du undgår at springe en dosis over eller tage for mange doser. </p>
+<p>Taltz er beregnet til længerevarende behandling. Lægen eller sygeplejersken vil undersøge dig 
+regelmæssigt for at kontrollere, at behandlingen virker, som den skal. </p>
+<p>Hver injektionssprøjte indeholder én dosis af Taltz (80 mg). Hver injektionssprøjte afgiver kun én 
+dosis. Injektionssprøjten må ikke rystes. </p>
+<p>Læs omhyggeligt “Brugervejledning" til injektionssprøjten, inden du bruger Taltz. </p>
+<p>Hvor meget Taltz skal gives, og hvor længe 
+Lægen vil forklare dig, hvor meget Taltz du skal have, og hvor længe du skal have det. </p>
+<p>Plaque-psoriasis hos voksne 
+- Den første dosis er 160 mg (2 injektionssprøjter med 80 mg i hver) givet som subkutane 
+injektioner. Indsprøjtningerne kan gives af lægen eller sygeplejersken. 
+- Efter den første dosis skal du have en 80 mg dosis (1 injektionssprøjte) i uge 2, 4, 6, 8, 10 og 12. Fra uge 12 skal du have en 80 mg dosis (1 injektionssprøjte) hver 4. uge.  </p>
+<p>Plaque-psoriasis hos børn og unge (6 år og derover med en legemsvægt på mindst 25 kg)<br />
+Den anbefalede dosis givet ved subkutan injektion hos børn er baseret på følgende vægtkategorier: </p>
+<p>Barnets legemsvægt 
+Anbefalet startdosis (uge 
+0) 
+Herefter anbefalet dosis 
+hver 4. uge 
+Højere end 50 kg<br />
+160 mg (2 injektionssprøjter) 
+80 mg (1 injektionssprøjte) 
+25 til 50 kg 
+80 mg (1 injektionssprøjte) 
+40 mg (klargøring af dosis 
+kræves) </p>
+<p>Klargøring af 40 mg ixekiumab til børn 
+Ixekizumab-doser på 40 mg skal klargøres og administreres af en kvaliciferet sundhedsperson. 
+Taltz anbefales ikke til børn med en legemsvægt under 25 kg.  </p>
+<p>Psoriasisartrit 
+For patienter med psoriasisartrit, som også har moderat til svær plaque-psoriasis:</p>
+<ul>
+<li>Den første dosis er 160 mg (2 injektionssprøjter med 80 mg i hver) givet som subkutane 
+injektioner. Indsprøjtningerne kan gives af lægen eller sygeplejersken. </li>
+<li>Efter den første dosis skal du have en 80 mg dosis (1 injektionssprøjte) ved uge 2, 4, 6, 8, 10 og </li>
+<li>Fra uge 12 skal du have en 80 mg dosis (1 injektionssprøjte) hver 4. uge.  </li>
+</ul>
+<p>For andre patienter med psoriasisartrit 
+- Den første dosis er 160 mg (2 injektionssprøjter med 80 mg i hver) givet som subkutane 
+injektioner. Indsprøjtningerne kan gives af lægen eller sygeplejersken. 
+- Efter den første dosis skal du have en 80 mg dosis (1 injektionssprøjte) hver 4. uge. </p>
+<p>Aksial spondylartrit 
+Den anbefalede dosis er 160 mg (2 injektionssprøjter med 80 mg i hver) givet som subkutane 
+injektioner ved uge 0, efterfulgt af 80 mg (1 injektionssprøjte) hver 4. uge.  </p>
+<p>Hvis du har taget for meget Taltz 
+Hvis du har fået mere Taltz end foreskrevet, eller hvis dosen er givet før det ordinerede tidspunkt, skal 
+du informere lægen. </p>
+<p>Hvis du har glemt at tage Taltz 
+Hvis du har glemt at indsprøjte en dosis Taltz, skal du tale med lægen. </p>
+<p>Hvis du holder op med at bruge Taltz<br />
+Du må ikke stoppe med at bruge Taltz uden først at have talt med lægen. Hvis du stopper 
+behandlingen, kan der igen komme symptomer på psoriasis eller psoriasisartrit. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger<br />
+Hvis du får nogen af nedenstående bivirkninger, skal du stoppe med at bruge Taltz og omgående 
+fortælle det til din læge eller søge lægehjælp. Lægen vil afgøre, om og hvornår du kan genoptage 
+behandlingen.  </p>
+<p>Alvorlig infektion (kan forekomme hos op til 1 ud af 100 behandlede) – tegnene kan være:</p>
+<ul>
+<li>feber, influenzalignende symptomer, nattesved </li>
+<li>træthed eller åndenød, hoste, der ikke vil gå over </li>
+<li>varm, rød og smertende hud eller et smertefuldt hududslæt med blærer. </li>
+</ul>
+<p>Alvorlig allergisk reaktion (kan forekomme hos op til 1 ud af 1000 behandlede) – tegnene kan være:</p>
+<ul>
+<li>vejrtrækningsbesvær eller synkebesvær </li>
+<li>lavt blodtryk, som kan give svimmelhed eller uklarhed </li>
+<li>hævelse i ansigtet, læberne, tungen eller svælget </li>
+<li>voldsom hudkløe med rødt udslæt eller knopper. </li>
+</ul>
+<p>Andre indberettede bivirkninger </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 behandlede):</p>
+<ul>
+<li>infektioner i de øvre luftveje med symptomer som ondt i halsen og tilstoppet næse (forkølelse) </li>
+<li>reaktioner på injektionsstedet (f.eks. rød hud, smerte). </li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 behandlede):</p>
+<ul>
+<li>kvalme </li>
+<li>svampeinfektioner som fodsvamp </li>
+<li>ondt bagerst i halsen </li>
+<li>forkølelsessår på munden, hud eller slimhinder (hepes simplex, mukokutant).  </li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 behandlede):</p>
+<ul>
+<li>svamp i munden (oral candidiasis) </li>
+<li>influenza  </li>
+<li>løbende næse </li>
+<li>bakteriel hudinfektion </li>
+<li>nældefeber </li>
+<li>flåd fra øjet med kløe, rødme og hævelse (konjunktivitis)  </li>
+<li>tegn på lave niveauer af hvide blodlegemer, f.eks. feber, ondt i halsen eller sår i munden på grund 
+af infektioner (neutropeni) </li>
+<li>lavt antal blodplader (trombocytopeni) </li>
+<li>eksem </li>
+<li>udslæt </li>
+<li>hurtig hævelse af vævet i halsen, ansigtet, munden eller svælget (angioødem) </li>
+<li>kramper eller smerter i maven, diarré, vægttab eller blod i afføringen (tegn på tarmproblemer)   </li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1000 behandlede):</p>
+<ul>
+<li>svampeinfektion i spiserøret (esophageal candidiasis) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store taltz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store taltz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten på injektionssprøjten og på den ydre 
+æske efter “EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2ºC til 8ºC). Må ikke nedfryses. Opbevares ikke mod bagpanelet af køleskabet. </p>
+<p>Opbevares i den originale pakning for at beskytte mod lys. </p>
+<p>Taltz kan opbevares uden for køleskab i op til 5 dage ved temperaturer under 30ºC. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at injektionssprøjten er beskadiget, eller at medicinen er 
+uklar, tydeligt brun eller indeholder partikler.  </p>
+<p>Dette lægemiddel er kun til engangsbrug.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet eller toilettet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Taltz indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: Ixekizumab. 
+Hver fyldt injektionssprøjte indeholder 80 mg ixekizumab i 1 ml injektionsvæske. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: saccharose; polysorbat 80 og vand til injektionsvæsker. Derudover kan 
+natriumhydroxid være tilsat for at justere pH. 
+Udseende og pakningsstørrelser 
+Taltz er en injektionsvæske i en klar glassprøjte. Injektionsvæskens farve kan variere fra farveløs til 
+svagt gul.  </p>
+</li>
+</ul>
+<p>Pakningsstørrelser på 1, 2 eller 3 fyldte injektionssprøjter. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Eli Lilly and Company (Ireland) Limited, Dunderrow, Kinsale, Co. Cork, Irland. </p>
+<p>Fremstiller 
+Eli Lilly Italia S.p.A.,Via Gramsci 731/733, 50019, Sesto Fiorentino (FI), Italien. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84<br />
+Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649 
+България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41<br />
+Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664<br />
+Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60<br />
+Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2 
+Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V. 
+Tel: +372 6 817<br />
+Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18<br />
+Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4 
+Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Lilly S.A. 
+Tel: + 34-91 663 50<br />
+Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France<br />
+Tél: +33-(0) 1 55 49 34<br />
+Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350<br />
+România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 
+Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00 Ísland 
+Icepharma hf. 
+Sími + 354 540 8 
+Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42 
+Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715 
+Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Tel: +371 67364United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er kun tiltænkt læger og sundhedspersonale: </p>
+<p>Klargøring af 40 mg ixekizumab til børn med legemsvægt 25-50 kg </p>
+<p>Ixekizumab-doser på 40 mg skal klargøres og administreres af en kvalificeret sundhedsperson. Brug 
+kun Taltz 80 mg injektionsvæske, opløsning i fyldt injektionssprøjte, ved klargøring af de ordinerede 
+pædistriske doser på 40 mg. </p>
+<ol>
+<li>Pres hele indholdet af den fyldte injektionssprøjte over i et sterilt, klart hætteglas. UNDGÅ at 
+omryste og hvirvle hætteglasset rundt.  </li>
+<li>Brug en 0,5 ml eller 1 ml engangssprøjte og en steril kanyle til at trække den ordinerede dosis 
+(0,5 ml til 40 mg) ud af hætteglasset. </li>
+<li>Skift kanylen og brug en 27 gauge, steril kanyle til at injicere patienten. Eventuelt ubrugt 
+ixekizumab i hætteglasset skal bortskaffes. 
+Den klargjorte ixekizumab skal administreres indenfor 4 timer efter punktering af det sterile hætteglas 
+ved stuetemperatur. </li>
+</ol>
+<p>Brugervejledning </p>
+<p>Taltz 80 mg injektionsvæske, opløsning i fyldt injektionssprøjte </p>
+<p>ixekizumab </p>
+<p>Før du bruger din fyldte injektionssprøjte: </p>
+<p>Vigtigt at vide </p>
+<ul>
+<li>
+<p>Før du bruger den fyldte injektionssprøjte med Taltz, skal du læse og omhyggeligt følge alle 
+instruktionerne trin for trin. Gem brugervejledningen og brug den ved behov. </p>
+</li>
+<li>
+<p>Den fyldte injektionssprøjte indeholder 1 dosis Taltz. Injektionssprøjten MÅ KUN BRUGES 
+ÉN GANG. </p>
+</li>
+<li>
+<p>Injektionssprøjten må ikke omrystes. </p>
+</li>
+<li>
+<p>Lægen, sygeplejersken eller apotekspersonalet kan hjælpe dig med at afgøre, hvor på 
+kroppen du skal indsprøjte din dosis.  </p>
+</li>
+<li>
+<p>Læs indlægssedlen, der følger med pakningen, for at lære mere om din medicin. </p>
+</li>
+</ul>
+<p>BRUGERVEJLEDNING </p>
+<p>Før du bruger den fyldte injektionssprøjte med Taltz, skal du læse og omhyggeligt følge alle 
+instruktionerne trin for trin. </p>
+<p>Beskrivelse af injektionssprøjten </p>
+<p>1 
+GØR DIG KLAR </p>
+<p>1a 
+Tag injektionssprøjten ud af køleskabet. Behold nålehætten på 
+injektionssprøjten, indtil du er klar til at indsprøjte. Vent i 30 minutter for 
+at lade injektionssprøjten opnå stuetemperatur, før du bruger den.  </p>
+<p>Brug IKKE nogen form for varmekilde til at opvarme medicinen, hverken 
+mikrobølgeovn, varmt vand eller direkte sollys. </p>
+<p>1b 
+Find de ting frem, som du skal bruge til indsprøjtningen: </p>
+<ul>
+<li>
+<p>1 alkoholserviet </p>
+</li>
+<li>
+<p>1 stykke vat eller gaze </p>
+</li>
+<li>
+<p>1 kanyleboks til de brugte injektionssprøjter. </p>
+</li>
+</ul>
+<p>Fingergreb 
+30</p>
+<p>minutter 
+Trykflade 
+Grøn 
+stempelstang 
+Sprøjtecylinder<br />
+med medicin 
+Nål 
+Nålehætte 
+Gråt stempel </p>
+<p>1c </p>
+<p>Undersøg, om den fyldte injektionssprøjte er 
+beskadiget på ydersiden. Behold nålehætten på 
+injektionssprøjten, indtil du er klar til at indsprøjte. 
+Kontroller, hvad der står på etiketten. Vær opmærksom 
+på, at der skal stå Taltz på etiketten.  </p>
+<p>Medicinen indeni skal være klar. Medicinens farve kan 
+variere fra farveløs til svagt gul. </p>
+<p>Hvis du ser noget af følgende, MÅ DU IKKE 
+BRUGE injektionssprøjten, og du skal bortskaffe den 
+som anvist: </p>
+<ul>
+<li>
+<p>Udløbsdatoen er overskredet. </p>
+</li>
+<li>
+<p>Injektionssprøjten ser beskadiget ud. </p>
+</li>
+<li>
+<p>Medicinen er uklar, den er tydeligt brun, eller 
+den indeholder små partikler. </p>
+</li>
+</ul>
+<p>1d 
+Vask hænder, før du indsprøjter medicinen. </p>
+<p>1e </p>
+<p>Vælg et injektionssted. </p>
+<p>Du kan indsprøjte i abdomen (maveområdet), i låret 
+eller bag på armen. Hvis du vil indsprøjte i armen, skal 
+du have nogen til at hjælpe dig. </p>
+<p>Indsprøjt IKKE i områder, hvor huden er øm, har blå 
+mærker, er rød eller hård, eller hvor du har ar eller 
+strækmærker. Indsprøjt IKKE inden for 2,5 centimeter 
+fra navlen. </p>
+<p>Skift injektionssteder. Indsprøjt IKKE nøjagtig det 
+samme sted hver gang. Hvis din sidste indsprøjtning 
+for eksempel var i venstre lår, bør din næste 
+indsprøjtning være i højre lår, i abdomen eller bag på 
+en af armene. </p>
+<p>1f 
+Klargør huden. Rens huden med en alkoholserviet. Lad injektionsstedet tørre af sig selv, før 
+du indsprøjter medicinen. </p>
+<p>Udløbsdato 
+Bag på 
+arm 
+Abdomen 
+Lår 
+Udløbsdato 
+2 
+INDSPRØJT </p>
+<p>2a </p>
+<p>Træk nålehætten af og kasser den. </p>
+<p>Sæt IKKE nålehætten på igen – du kan komme til 
+at ødelægge nålen eller stikke dig selv ved et 
+uheld. </p>
+<p>Rør IKKE ved nålen. </p>
+<p>2b </p>
+<p>Knib forsigtigt huden sammen og lav en 
+hudfold der, hvor du vil indsprøjte. </p>
+<p>2c </p>
+<p>Stik nålen ind i en vinkel på 45 grader. Slip 
+herefter langsomt huden. Sørg for at holde nålen 
+på plads. </p>
+<p>2d </p>
+<p>Tryk stemplet i bund. </p>
+<p>Tryk langsomt stemplet helt i bund, indtil al 
+medicin er sprøjtet ind. Det grå stempel skal være 
+trykket helt i bund på injektionssprøjten. Træk 
+forsigtigt nålen ud af huden. </p>
+<p>Pres en vattot eller et stykke gaze mod 
+injektionsstedet. Gnid IKKE på injektionsstedet, 
+da dette kan give et blåt mærke. Det kan bløde en 
+lille smule. Det er helt normalt. </p>
+<p>Du skal kunne se den grønne stempelstang 
+gennem sprøjtecylinderen, når injektionen er 
+gennemført. </p>
+<p>3 
+AFSLUT </p>
+<p>3a </p>
+<p>Bortskaf injektionssprøjten. </p>
+<p>Sæt IKKE nålehætten på igen. Læg 
+injektionssprøjten i en kanyleboks, eller bortskaf 
+den som anvist af lægen, sygeplejersken eller 
+apotekspersonalet. </p>
+<p>Når du bortskaffer injektionssprøjter og kanyleboks: </p>
+<ul>
+<li>
+<p>Læg injektionssprøjten i en kanyleboks, eller bortskaf den som anvist af lægen, 
+sygeplejersken eller apotekspersonalet.  </p>
+</li>
+<li>
+<p>Genbrug ikke den fyldte kanyleboks. </p>
+</li>
+<li>
+<p>Spørg lægen, sygeplejersken eller apotekspersonalet, hvordan du skal bortskaffe 
+medicinrester. 
+Gråt stempel 
+Grøn 
+stempelstang </p>
+</li>
+</ul>
+<p>Sikkerhedstips </p>
+<ul>
+<li>
+<p>Hvis du har spørgsmål eller har brug for hjælp til din fyldte injektionssprøjte, så kontakt 
+lægen, sygeplejersken eller apotekspersonalet. </p>
+</li>
+<li>
+<p>Hvis du har problemer med dit syn, MÅ DU IKKE bruge den fyldte injektionssprøjte uden 
+hjælp fra en person, der er oplært i at bruge den. </p>
+</li>
+<li>
+<p>DU MÅ IKKE dele din fyldte injektionssprøjte med Taltz med andre eller genbruge den. Du 
+kan give eller få en infektion. </p>
+</li>
+<li>
+<p>Opbevar injektionssprøjten utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Hvis du ikke har en kanyleboks, så spørg lægen, sygeplejersken eller apotekspersonalet, hvor 
+du kan få en. </p>
+</li>
+</ul>
+<p>Ofte stillede spørgsmål </p>
+<p>Spm. Hvad nu hvis der er luftbobler i min injektionssprøjte? </p>
+<p>Sv. 
+Det er helt normalt, at der nogle gange er luftbobler i injektionssprøjten. Taltz indsprøjtes 
+under huden (subkutan injektion). Luftbobler er ikke noget problem ved denne form for 
+indsprøjtning. De vil ikke skade dig eller påvirke din dosis. </p>
+<p>Spm. Hvad nu hvis der er en dråbe væske på spidsen af nålen, når jeg tager nålehætten af? </p>
+<p>Sv. 
+Det gør ikke noget, hvis der er en dråbe væske på spidsen af nålen. Dette vil ikke skade dig 
+eller påvirke din dosis. </p>
+<p>Spm. Hvad nu hvis jeg ikke kan trykke stemplet ned? </p>
+<p>Sv. 
+Hvis stemplet sidder fast eller er beskadiget: </p>
+<ul>
+<li>
+<p>Fortsæt IKKE med at bruge injektionssprøjten. </p>
+</li>
+<li>
+<p>Træk nålen ud af huden. </p>
+</li>
+</ul>
+<p>Spm. Hvordan kan jeg se, om indsprøjtningen er gennemført? </p>
+<p>Sv. 
+Når indsprøjtningen er gennemført: </p>
+<ul>
+<li>
+<p>Den grønne stempelstang skal kunne ses gennem sprøjtecylinderen. </p>
+</li>
+<li>
+<p>Det grå stempel skal være trykket helt i bund på injektionssprøjten. </p>
+</li>
+</ul>
+<p>Spm. Hvad hvis sprøjten efterlades ved stuetemperatur i mere end 30 minutter? 
+Sv. 
+Hvis det er nødvendigt, kan sprøjten efterlades uden for køleskabet i op til 5 dage ved 
+en temperatur under 30 °C, hvis den er beskyttet mod direkte sollys. Taltz skal 
+kasseres, hvis det ikke anvendes inden for en 5 dages periode ved stuetemperatur. </p>
+<p>Læs hele brugervejledningen og indlægssedlen, der er vedlagt pakningen, for at lære mere om 
+din medicin. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Taltz 80 mg injektionsvæske, opløsning i fyldt pen 
+ixekizumab </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0a52b09545f0b2e00d5c72212ca2a403
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for taltz Package Leaflet for language en"
+Description: "ePI document Bundle for taltz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0a52b09545f0b2e00d5c72212ca2a403"
+* entry[0].resource = composition-en-0a52b09545f0b2e00d5c72212ca2a403
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0a52b09545f0b2e00d5c72212ca2a403"
+* entry[=].resource = mp0a52b09545f0b2e00d5c72212ca2a403
+                            
+                    
+Instance: bundlepackageleaflet-da-0a52b09545f0b2e00d5c72212ca2a403
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for taltz Package Leaflet for language da"
+Description: "ePI document Bundle for taltz Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0a52b09545f0b2e00d5c72212ca2a403"
+* entry[0].resource = composition-da-0a52b09545f0b2e00d5c72212ca2a403
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0a52b09545f0b2e00d5c72212ca2a403"
+* entry[=].resource = mp0a52b09545f0b2e00d5c72212ca2a403
+                            
+                    
+
+
+
+Instance: mp0a52b09545f0b2e00d5c72212ca2a403
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Taltz 80 mg solution for injection in pre-filled syringe"
-Description: "Taltz 80 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product taltz"
+Description: "taltz"
 Usage: #inline
 
  
@@ -624,7 +1362,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Taltz 80 mg solution for injection in pre-filled syringe"
+  * productName = "taltz"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -651,29 +1389,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0a52b09545f0b2e00d5c72212ca2a403
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for taltz Package Leaflet for language en"
-Description: "ePI document Bundle for taltz Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0a52b09545f0b2e00d5c72212ca2a403ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1085/004"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "taltz"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0a52b09545f0b2e00d5c72212ca2a403"
-* entry[0].resource = composition-en-0a52b09545f0b2e00d5c72212ca2a403
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp935f7cfc4773fccbac9e953af0a525ca"
-* entry[=].resource = mp935f7cfc4773fccbac9e953af0a525ca
-                            
-                      
+* title = "List of all ePIs associated with taltz"
+
+* subject = Reference(mp935f7cfc4773fccbac9e953af0a525ca)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#taltz "taltz"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0a52b09545f0b2e00d5c72212ca2a403) // taltz en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0a52b09545f0b2e00d5c72212ca2a403) // taltz da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0a52b09545f0b2e00d5c72212ca2a403
+InstanceOf: List
+
+* insert 0a52b09545f0b2e00d5c72212ca2a403ListRuleset
+    

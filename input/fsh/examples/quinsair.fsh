@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8077ecb6bda7580081b9f65b63060e8a
 InstanceOf: CompositionUvEpi
 Title: "Composition for quinsair Package Leaflet"
@@ -718,12 +721,846 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-8077ecb6bda7580081b9f65b63060e8a
+InstanceOf: CompositionUvEpi
+Title: "Composition for quinsair Package Leaflet"
+Description:  "Composition for quinsair Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbb1a808b79228779b9edc6ec5211f29f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbb1a808b79228779b9edc6ec5211f29f
+* title = "TEST PURPOSES ONLY - quinsair"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge Quinsair
+3. Sådan skal du bruge Quinsair
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What quinsair is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What quinsair is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Quinsair indeholder et antibiotisk lægemiddel, der kaldes levofloxacin. Det tilhører gruppen af 
+antibiotika, der kaldes fluorquinoloner.
+Quinsair anvendes til at behandle lungeinfektioner, der skyldes Pseudomonas aeruginosa, hos voksne 
+med cystisk fibrose. Det er et antibiotisk lægemiddel, der indåndes (inhaleres) direkte ned i lungerne, 
+hvor det dræber de bakterier, der forårsager infektionen. Dette hjælper med at forbedre vejrtrækningen 
+hos personer med cystisk fibrose.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take quinsair"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take quinsair"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke Quinsair</h2>
+<p>hvis du er allergisk over for levofloxacin, over for et andet antibiotikum af quinolon-typen, 
+såsom moxifloxacin, ciprofloxacin eller ofloxacin, eller over for et af de øvrige indholdsstoffer i 
+Quinsair (angivet i afsnit 6)
+-
+hvis du nogensinde har haft et problem med dine sener (betændelse i en sene eller en bristet 
+sene) under behandling med et quinolon- eller fluorquinolon-antibiotikum
+-
+hvis du lider af epilepsi 
+-
+hvis du er gravid eller ammer
+Advarsler og forsigtighedsregler
+Før du tager dette lægemiddel
+Du må ikke tage antibakterielle lægemidler med fluorquinolon/quinolon, herunder Quinsair, hvis du 
+tidligere har oplevet alvorlig(e) bivirkning(er) ved indtagelse af quinolon eller fluorquinolon. I denne 
+situation skal du informere lægen snarest muligt.
+33
+Mens du tager dette lægemiddel
+Smerter og hævelse af led og betændelse eller bristning af sener kan opstå i sjældne tilfælde. Din 
+risiko er øget, hvis du er ældre (over 60 år), har gennemgået en organtransplantation, har 
+nyreproblemer, eller hvis du bliver behandlet med kortikosteroider. Der kan opstå betændelse og 
+bristning af sener i løbet af de første 48 timers behandling, og endda op til flere måneder efter du er 
+stoppet behandlingen med Quinsair. Ved det første tegn på smerter eller betændelse i en sene (for 
+eksempel i anklen, håndleddet, albuen, skulderen eller knæet) skal du holde op med at tage Quinsair, 
+kontakte din læge og hvile det smertefulde område. Undgå al unødvendig motion, da det kan øge 
+risikoen for en senebristning.
+Fortæl lægen, før du bruger Quinsair, 
+hvis du har eller har haft et eller flere af følgende:
+-
+Langvarige, invaliderende og muligvis varige alvorlige bivirkninger
+Antibakterielle lægemidler med fluorquinolon/quinolon, herunder Quinsair, er blevet forbundet 
+med meget sjældne, men alvorlige bivirkninger, hvoraf nogle af dem er langvarige (fortsætter i 
+måneder eller år), invaliderende eller muligvis varige. De omfatter sene-, muskel- og ledsmerter 
+i de øvre eller nedre lemmer, gangbesvær, unormale fornemmelser, såsom stikken og prikken, 
+snurren, kildren, følelsesløshed eller brændende fornemmelse (paræstesi), sanseforstyrrelser, 
+herunder syns-, smags- og hørenedsættelse samt nedsat lugtesans, depression, 
+hukommelsessvigt, udpræget træthed og svære søvnforstyrrelser.
+Hvis du oplever nogen af disse bivirkninger, efter at have taget Quinsair, skal du straks kontakte 
+lægen, før du fortsætter behandlingen. Du og din læge vil beslutte, om du skal fortsætte 
+behandlingen, hvor brug af et antibiotikum fra en anden klasse også overvejes.
+-
+Svære nyreproblemer.
+-
+En svær allergisk reaktion. Symptomer er angivet i afsnit 4. -
+Svære hudreaktioner
+Hvis du behandles med Quinsair, kan du muligvis få en svær hudreaktion, som f.eks. 
+blæredannelse eller læsioner. Fortæl lægen, hvis du bemærker hudreaktioner efter brug af 
+Quinsair.
+-
+Leverproblemer. Symptomer er angivet i afsnit 4. -
+Unormal hjerterytme
+Quinsair kan medføre ændringer i din hjerterytme, især hvis du tager medicin til behandling af 
+hjerteproblemer eller lave niveauer af kalium eller magnesium i blodet. Kvinder, der tager disse 
+typer medicin, har muligvis en større risiko for at blive påvirket. Hvis du oplever hjertebanken 
+eller en uregelmæssig hjerterytme, mens du bruger Quinsair, skal du straks fortælle det til 
+lægen. 
+-
+Krampeanfald
+Quinolon-antibiotika, herunder Quinsair, kan forårsage krampeanfald. Hvis det sker, skal du 
+straks holde op med at bruge Quinsair og kontakte lægen.
+-
+Depression eller psykiske problemer.
+-
+Nervebeskadigelse
+Du kan i sjældne tilfælde opleve symptomer på nervebeskadigelse (neuropati), såsom smerter, 
+brændende fornemmelse, prikken, følelsesløshed og/eller svaghed, især i fødder og ben eller i 
+hænder og arme. Hvis dette forekommer, skal du stoppe med at tage Quinsair og straks 
+informere lægen for at forhindre, at der udvikles en muligvis varig tilstand.
+-
+En sygdom, der medfører muskelsvaghed og træthed, som kaldes myasthenia gravis.
+34
+-
+Betændelse i en sene, der medfører smerte, stivhed og/eller hævelse i leddene (tendonitis).
+-
+Hvis du har oplevet vejrtrækningsproblemer, efter du har fået Quinsair; disse kan være fra lette 
+til svære (bronkospasme).
+-
+Ophostning af blod eller blodfarvet slim fra luftvejene. 
+-
+Glucose-6-phosphatdehydrogenasemangel
+Quinolon-antibiotika, som f.eks. Quinsair, kan forårsage, at patienter med 
+glucose-6-phosphatdehydrogenasemangel (en sjælden arvelig sygdom) har en tilbøjelighed til at 
+få komplikationer i blodet, der fører til en pludselig stigning i kropstemperaturen, gulfarvning af 
+huden og slimhinderne, mørkfarvet urin, bleghed, træthed, tung, hurtig vejrtrækning og en svag, 
+hurtig puls. Tal med lægen, hvis du har spørgsmål om dette.
+-
+Diabetes
+Quinolon-antibiotika, herunder Quinsair, kan forårsage, at niveauerne af sukker i blodet enten 
+bliver for høje eller for lave. Hvis du er diabetiker, skal du holde omhyggeligt øje med dine 
+blodsukkerniveauer.
+-
+Diarré
+Du kan udvikle diarré under eller efter din behandling med Quinsair. Hvis den bliver kraftig 
+eller vedvarende, eller du bemærker blod i afføringen, skal du straks holde op med at bruge 
+Quinsair og tale med lægen. Lad være med at tage medicin til at behandle din diarré uden først 
+at tale med lægen.
+-
+Resistens over for antibiotika
+Bakterier kan over tid blive resistente over for behandling med et antibiotikum. Dette betyder, at 
+Quinsair ikke bør anvendes til at forebygge lungeinfektioner. Det bør kun anvendes til at 
+behandle lungeinfektioner, der skyldes Pseudomonas aeruginosa. Tal med lægen, hvis du har 
+bekymringer eller spørgsmål i forhold til dette.
+-
+Superinfektioner
+Undertiden kan man under en langvarig behandling med et antibiotikum få en anden infektion, 
+der skyldes en anden bakterie, der ikke påvirkes af det pågældende antibiokum (superinfektion). 
+Tal med lægen, hvis du har bekymringer eller spørgsmål i forhold til dette og brugen af 
+Quinsair.
+-
+Synsproblemer
+Hvis du bemærker ændringer i dit syn eller andre problemer med dine øjne, mens du bruger 
+Quinsair, skal du straks kontakte en øjenspecialist. 
+-
+Lysfølsomhed
+Quinsair kan gøre din hud mere følsom over for sollys. Du bør undgå langvarig udsættelse for 
+sollys eller kraftigt sollys og bør ikke anvende solarier eller andre UV-lamper, mens du 
+behandles med Quinsair og i 48 timer, efter du er standset med behandlingen. 
+-
+Forkerte testresultater
+Visse tests (f.eks. til bekræftelse af tuberkulose eller screening for kraftige smertestillende 
+midler) kan give forkerte resultater, mens du behandles med Quinsair.
+-
+hvis du er diagnosticeret med en udposning på en stor blodåre (aortaaneurisme eller perifer 
+aneurisme i en stor blodåre).
+-
+hvis du tidligere har haft et tilfælde af aortadissektion (en rift i aortavæggen).
+- du er blevet diagnosticeret med utætte hjerteklapper (hjerteklapinsufficiens).
+35
+-
+der i din familie tidligere har været et tilfælde af aortaaneurisme eller eller medfødt 
+hjerteklapsygdom aortadissektion eller andre risikofaktorer eller prædisponerende sygdomme 
+(f.eks. bindevævssygdom som Marfans syndrom eller vaskulær Ehlers-Danlos syndrom, 
+Turners syndrom, Sjögrens syndrom (en inflammatorisk autoimmun sygdom) eller 
+karsygdomme som f.eks. Takayasu arteritis (blodårebetændelse), kæmpecelle arteritis, Behcets 
+sygdom, for højt blodtryk eller kendt aterosklerose (åreforkalkning), reumatoid artritis 
+(leddegigt) eller endokarditis (infektion i hjertet)).
+-
+Hvis du pludseligt får kraftige smerter i maven, brystet eller ryggen, som kan være symptomer 
+på aortaaneurisme eller -dissektion, skal du straks tage på skadestuen. Du kan have en øget 
+risiko, hvis du er i behandling med systemisk binyrebarkhormon (binyrebarkhormonet føres 
+med blodet rundt i kroppen).
+-
+ Hvis du begynder at opleve hurtigt indsættende vejrtrækningsbesvær, især når du ligger ned i 
+din seng, eller hvis du bemærker hævelse af ankler, fødder eller mave eller et nyt tilfælde af 
+hjertebanken (følelse af hurtige eller uregelmæssige hjerteslag), skal du øjeblikkeligt søge 
+lægehjælp.
+Børn og unge
+Quinsair bør ikke anvendes til børn og unge under 18 år, da der ikke er nok oplysninger om 
+anvendelsen heraf til denne aldersgruppe.
+Brug af anden medicin sammen med Quinsair
+Fortæl lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden medicin 
+eller planlægger at tage anden medicin. Disse lægemidler kan muligvis have indvirkning på virkningen 
+af Quinsair.
+Fortæl lægen, hvis du tager et eller flere af følgende lægemidler:
+-
+Vitamin K-antagonister, som f.eks. warfarin (anvendes til forebyggelse af blodpropper). Hvis 
+du tager disse lægemidler samtidig med Quinsair, kan det medføre forøget blødning. Lægen skal 
+måske foretage regelmæssige blodtests for at kontrollere, hvor godt dit blod størkner.
+-
+Theophyllin (anvendes til at behandle vejrtrækningsproblemer) eller ikke-steroide 
+antiinflammatoriske lægemidler (NSAIDer), som f.eks. fenbufen, acetylsalicylsyre (et stof, der 
+findes i mange lægemidler, der anvendes til smertelindring og sænkning af feber samt til 
+forebyggelse af blodpropper) eller ibuprofen. Hvis du tager Quinsair samtidig med disse 
+lægemidler, kan det øge din risiko for et krampeanfald. 
+-
+Lægemidler, som f.eks. probenecid (anvendes til forebyggelse af urinsyregigt) eller cimetidin 
+(anvendes til behandling af mavesår). Hvis du tager Quinsair samtidig med disse lægemidler, 
+kan det påvirke måden dine nyrer behandler medicinen på, hvilket er særlig vigtigt, hvis du lider 
+af nyreproblemer.
+-
+Ciclosporin (anvendes efter organtransplantationer) eller lægemidler, der påvirker din 
+hjerterytme (som f.eks. antiarytmika, tricykliske antidepressiva, makrolid-antibiotika eller 
+antipsykotika). Quinsair kan påvirke virkningerne af disse lægemidler. Din læge vil give en 
+yderligere forklaring.
+Graviditet og amning
+Quinsair må ikke anvendes under graviditet, eller hvis du ammer. Hvis du er gravid eller ammer, har 
+mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge til råds, før du 
+bruger dette lægemiddel.
+Trafik- og arbejdssikkerhed
+Quinsair kan gøre, at du føler dig svimmel, træt eller svag, eller give problemer med synet. Hvis det 
+sker for dig, må du ikke køre i trafikken eller anvende værktøj eller maskiner.
+36</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take quinsair"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take quinsair"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+Så meget skal du bruge?
+Inhalér inholdet af én ampul (240 mg) to gange dagligt ved anvendelse af Zirela-
+nebulisatorsystemet. Det tager ca. 5 minutter at inhalere lægemidlet ved anvendelse af nebulisatoren.
+På disse tidspunkter skal du bruge det?
+Hvis du inhalerer Quinsair på samme tid hver dag, vil det være en hjælp for dig til at huske, hvornår 
+du skal tage din medicin. Inhalér din medicin som følger:
+-
+1 ampul om morgenen ved anvendelse af Zirela-nebulisatoren 
+-
+1 ampul om aftenen ved anvendelse af Zirela-nebulisatoren 
+Det er bedst, hvis der er ca. 12 timer mellem dine doser.
+Så længe skal du bruge det?
+Du skal bruge Quinsair hver dag i 28 dage, hvorefter du holder en pause på 28 dage, hvor du ikke 
+inhalerer Quinsair. Herefter starter du på et nyt behandlingsforløb.
+Det er vigtigt, at du fortsætter med at bruge medicinen to gange dagligt i de 28 dage med behandling, 
+og at du fortsætter med cyklussen med 28 dages behandling og 28 dages pause, så længe som lægen 
+fortæller dig, du skal gøre det.
+Hvis du oplever vejrtrækningsproblemer, mens du bruger Quinsair, kan din læge eventuelt 
+ordinere ekstra medicin til dig?
+Hvis du oplever vejrtrækningsproblemer efter brug af Quinsair, kan din læge ordinere en inhalator til 
+dig, der indeholder et bronkodilator-lægemiddel (f.eks. salbutamol) (udvider bronkierne i lungerne). 
+Inhalér dette lægemiddel mindst 15 minutter eller op til 4 timer før din næste dosis af Quinsair.
+Hvis du bruger flere forskellige inhalatorer og andre behandlinger mod cystisk fibrose?
+Hvis du bruger flere forskellige inhalerede behandlinger og andre behandlinger mod cystisk fibrose, 
+anbefales det, at du tager din medicin i følgende rækkefølge:
+1. Bronkodilatorer
+2. Dornase alfa
+3. Teknikker til rensning af luftvejene
+4. Quinsair
+5. Inhalerede steroider
+Sådan skal du bruge Quinsair
+Quinsair skal tages ved inhalation ved anvendelse af et Zirela-nebulisatorhåndsæt (der inkluderer et 
+Zirela-aerosolhoved). Dette skal forbindes til enten en eBase-styreenhed eller en eFlow rapid-
+styreenhed.
+Quinsair - behandling
+Brug det to gange dagligt 
+i 28 dage
+Quinsair - pause
+Brug det ikke i de næste 
+28 dage
+Gentag cyklus
+37
+Vigtige oplysninger, du skal kende, før du starter
+-
+Hver ampul er udelukkende til engangsbrug. Når en ampul er åbnet, skal indholdet bruges 
+straks.
+-
+Brug ikke Quinsair, hvis du bemærker, at der er pillet ved det forseglede foliebrev eller 
+ampullerne.
+-
+Brug ikke Quinsair, hvis du bemærker, at det er uklart, eller der er partikler i opløsningen.
+-
+Undlad at blande Quinsair med anden medicin i Zirela-nebulisatorhåndsættet.
+-
+Undlad at komme anden medicin end Quinsair i Zirela-nebulisatorhåndsættet.
+-
+Forsøg ikke at inhalere Quinsair ved hjælp af en anden type nebulisatorhåndsæt.
+-
+Kontrollér, at dit Zirela-nebulisatorsystem fungerer korrekt, før du starter din behandling.
+-
+Undlad at sluge væsken i ampullen.
+Læs omhyggeligt producentens brugsanvisning, der følger med dit Zirela-nebulisatorhåndsæt.
+Klargøring af nebulisatorsystemet til inhalering af medicinen?
+Opbevar Zirela-brugsanvisningen på et sikkert sted, da den indeholder alle detaljer om samling af 
+anordningen.
+1)
+Sørg for, at Zirela-nebulisatorhåndsættet er placeret på en plan og stabil overflade.
+2)
+Tryk alt indholdet fra én ampul ud i medicinbeholderen på Zirela-nebulisatorhåndsættet 
+(figur 1). Sørg for, at du tømmer ampullen helt ved om nødvendigt at banke den forsigtigt mod 
+siden af beholderen.
+Figur 1
+3)
+Luk medicinbeholderen ved at rette tappene på medicinlåget ind i forhold til rillerne på 
+beholderen (a). Tryk ned, og drej låget med uret så langt, som det kan komme (b, figur 2).
+Figur 2
+Sådan skal du bruge Zirela-nebulisatorsystemet?
+1)
+Når du starter på din behandling, skal du sidde i en afslappet, oprejst stilling. 
+2)
+Hold håndsættet vandret, tryk på afbryderknappen på styreenheden, og hold den nede i nogle 
+få sekunder. Du hører et "bip", og statuslyset bliver grønt.
+Medicinbeholder
+Tap
+Taprille
+38
+3)
+Efter nogle få sekunder begynder en aerosoltåge at strømme ind i aerosolkammeret på 
+Zirela-nebulisatorhåndsættet. Hvis aerosoltågen ikke begynder at strømme, henvises til Zirela-
+brugsanvisning for hjælp.
+4)
+Hold fortsat håndsættet vandret, anbring mundstykket i munden, og luk dine læber omkring 
+det (figur 3).
+Figur 3
+5)
+Træk vejret normalt (ånd ind og ud) gennem mundstykket. Forsøg ikke at trække vejret 
+gennem næsen. Fortsæt med at ånde ind og ud afslappet, indtil behandlingen er færdig. Det 
+tager ca. 5 minutter at inhalere lægemidlet ved anvendelse af nebulisatoren.
+6)
+Når al medicinen er inhaleret, vil du høre to “bip", som betyder, at behandlingen er færdig.
+7)
+Åbn medicinlåget, når behandlingen er færdig, for at sikre, at al medicinen er brugt. Der kan 
+være nogle få dråber medicin tilbage i bunden af beholderen efter endt behandling. Dette er i 
+orden. Hvis der er mere end nogle få dråber tilbage, skal medicinlåget dog sættes på igen, og 
+behandlingen genoptages fra trin 1. 8)
+Når behandlingen er færdig, afmonteres styreenheden, og Zirela-nebulisatorhåndsættet skilles 
+ad til rengøring og desinfektion. Producentens brugsanvisning giver alle detaljer om rengøring 
+og desinfektion.
+Hvis du bliver nødt til at standse din behandling, før du er færdig?
+Hvis du af en eller anden grund må standse behandlingen, før du er færdig, skal du trykke på 
+afbryderknappen på styreenheden, og holde den nede i ét sekund. Efter at den er helt slukket, skal du, 
+når du er klar til at starte igen, trykke på afbryderknappen igen og holde den nede i ét sekund. 
+Behandlingen vil starte igen. Du skal ånde ind og ud gennem mundstykket som før.
+Udskiftning af Zirela-nebulisatorhåndsættet?
+Ét nebulisatorhåndsæt skal anvendes til ét 28 dages behandlingsforløb. Der henvises til producentens 
+brugsanvisning for råd vedrørende rengøring og opbevaring.
+Hvis du har brugt for meget Quinsair
+Hvis du har brugt for meget Quinsair, skal du fortælle det til lægen så hurtigt som muligt. Du kan 
+opleve symptomer som en uregelmæssig hjerterytme, hvilket skal kontrolleres hos lægen. Hvis du har 
+slugt indholdet i ampullen, er der ingen grund til bekymring, men du skal fortælle det til lægen så 
+hurtigt som muligt.
+Hvis du har glemt at bruge Quinsair
+Hvis du har glemt en dosis, skal du bruge den, så snart du kommer i tanker om det, når blot der er 
+mindst 8 timer, til du skal inhalere den næste dosis. Hvis det næsten er tidspunktet for din næste dosis, 
+skal du dog springe den glemte dosis over.
+39
+Du må ikke inhalere indholdet af mere end én ampul som erstatning for den glemte dosis.
+Hvis du holder op med at bruge Quinsair
+Du må ikke holde op med at bruge Quinsair uden først at tale med lægen, da din lungeinfektion kan 
+blive forværret.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Nogle bivirkninger kan være alvorlige
+Få straks akut medicinsk behandling, hvis du oplever en svær allergisk reaktion efter inhalering af 
+Quinsair. Symptomerne omfatter:
+-
+Udbredt kløe og en følelse af varme - der især berører hovedbunden, munden, halsen, 
+håndfladerne og fodsålerne
+-
+Svær hiven efter vejret eller støjende eller besværet vejrtrækning
+-
+Svær nældefeber
+-
+Hævede læber, hævet ansigt, hals eller tunge
+-
+Bleg eller grålig hudfarve
+-
+En hurtig hjerterytme
+-
+Kraftesløshed eller besvimelse
+Hold straks op med at bruge Quinsair og fortæl det til lægen:
+-
+hvis du oplever smerter, stivhed og/eller hævelse i dine led
+-
+hvis du får problemer med din lever. Symptomerne omfatter:
+-
+Tab af appetit
+-
+Gulfarvning af hud og øjne (gulsot)
+-
+Mørkfarvet urin
+-
+Kløe
+-
+Ømhed (smerter) i maven (abdomen)
+Andre bivirkninger kan omfatte:
+Meget almindelige: opstår hos mere end 1 bruger ud af 10
+-
+Hoste
+-
+Unormal smagssans 
+-
+Træthed, svaghed og lavere tolerance over for anstrengelse
+-
+Tab af appetit
+-
+Stakåndethed
+-
+Ændringer i mængden og tykkelsen af slim
+-
+Ophostning af blod 
+-
+Mindre mængde luft, der kan udåndes på ét sekund (nedsat FEV1-test)
+Almindelige: opstår hos op til 1 bruger ud af 10
+-
+Svampeinfektion omkring skeden
+-
+Søvnløshed eller søvnproblemer
+-
+Hovedpine
+-
+Svimmelhed
+-
+Ringen eller hylen for ørerne (tinnitus)
+-
+Ændring af stemmen 
+-
+Kvalme og opkastningMavesmerter
+-
+Diarré
+-
+Forstoppelse
+-
+Udslæt
+-
+Led- eller muskelsmerter 
+40
+-
+Feber
+-
+Unormale blodanalyseresultater (forhøjede niveauer af visse leverenzymer eller bilirubin i 
+blodet og nedsat nyrefunktionstest)
+-
+Nedsat lungefunktionstest
+-
+Forøget eller nedsat mængde sukker (glukose) i blodet
+-
+Unormale vejtrækningslyde 
+Ikke almindelige: opstår hos op til 1 bruger ud af 100
+-
+Svampeinfektion i munden
+-
+Lavt antal røde blodlegemer i blodet (anæmi) eller de celler i blodet, der hjælper med til at 
+størkne det (blodplader)
+-
+Lavt eller højt antal hvide blodlegemer i blodet 
+-
+Følelse af angst, rastløshed eller uro og/eller depression
+-
+Nedsat smagssans
+-
+Følelse af søvnighed
+-
+Ændringer af synet
+-
+Tab af hørelse
+-
+Forøget hjerterytme
+-
+Vejrtrækningsbesvær
+-
+Kløgning (maveindholdet tvinges ved sammentrækninger af mellemgulvet op i spiserøret, men 
+ikke op i svælget)
+-
+Fordøjelsesbesvær
+-
+Luft i maven
+-
+Nældefeber og kløe
+-
+Brystvægssmerter
+-
+Nyresvigt
+-
+Ændringer i hjerterytmen
+-
+Smerte, brændende fornemmelse, snurren, følelsesløshed og/eller svaghed i arme og ben 
+(neuropati)
+Følgende bivirkninger er endvidere blevet rapporteret efter indtagelse af tabletter eller en intravenøs 
+infusion, der indeholder levofloxacin. Disse kan derfor muligvis også forekomme efter anvendelse af 
+Quinsair:
+Ikke almindelige: opstår hos op til 1 bruger ud af 100
+-
+Følelse af forvirring eller nervøsitet
+-
+Rysten
+-
+Følelse af svimmelhed, at tingene kører rundt eller følelse af at falde (vertigo)
+-
+Kraftig svedning
+Sjældne: opstår hos op til 1 bruger ud af 1.000
+-
+Hallucinationer og/eller paranoia
+-
+Følelse af uro
+-
+Usædvanlige drømme eller mareridt
+-
+Krampeanfald 
+-
+Snurrende (sovende) fornemmelse og/eller følelsesløshed
+-
+Hjertebanken
+-
+Lavt blodtryk
+-
+Muskelsvaghed
+-
+Syndrom forbundet med nedsat udskillelse af vand og lavt natriumindhold i blodet (SIADH)
+-
+Udbredt udslæt, feber, forhøjet niveau af leverenzymer, forandringer i blodet (eosinofili), 
+forstørrede lymfeknuder og påvirkning af andre af kroppens organer (lægemiddelreaktion med 
+eosinofili og systemiske symptomer)
+-
+Skarpt afgrænsede områder med udslæt  med/uden blæredannelse
+41
+Ikke kendt: hyppigheden kan ikke estimeres ud fra forhåndenværende data
+-
+Lavt antal af alle typer af celler i blodet
+-
+Diabetisk koma
+-
+Svære psykiske problemer (hvilket i meget sjælde tilfælde kan føre til, at personen gør skade på 
+sig selv)
+-
+Smerte, brændende fornemmelse, snurren, følelsesløshed og/eller svaghed i arme og ben 
+(neuropati)
+-
+Ufrivillige muskelbevægelser, trækninger eller spasmer
+-
+Besvimmelse
+-
+Svær dunkende hovedpine med tab af synsevnen
+-
+Midlertidigt synstab
+-
+Hurtig eller unormal hjerterytme
+-
+Lungebetændelse
+-
+Svære hudreaktioner, såsom smertefuld blæredannelse eller læsioner i f.eks. mund, næse eller 
+skede 
+-
+Forøget følsomhed i huden for sollys eller UV-lys (solarier eller andre UV-lamper)
+-
+Betændelse i blodkar
+-
+Betændelse i mund eller læber
+-
+Hurtig nedbrydning af muskler
+-
+Betændelse i en sene eller en sprængt sene
+-
+Smerte, herunder smerte i hals, bryst, arme og ben
+Meget sjældne tilfælde af langvarige (op til måneder eller år) eller permanente bivirkninger, såsom 
+senebetændelse, senebristning, ledsmerter, smerter i lemmerne, gangbesvær, unormale fornemmelser, 
+såsom prikken og stikken, snurren, kildren, brændende fornemmelse, depression, træthed, 
+søvnforstyrrelser, hukommelsessvigt samt høre-, syns- og smagsnedsættelse samt nedsat lugtesans er 
+blevet forbundet med brug af quinolon- og fluorquinolon-antibiotika, i nogle tilfælde uanset om der 
+var allerede eksisterende risikofaktorer eller ej.
+Der er rapporteret om tilfælde af forstørret og svækket aortavæg eller rift i aortavæggen (aneurismer 
+og dissektioner), der kan sprænge, og som kan være dødelige, samt om utætte hjerteklapper hos 
+patienter, der behandles med fluoroquinoloner. Se også pkt. 2. Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store quinsair"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store quinsair"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på ampullen, foliebrevet og æskerne efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Hver ampul er udelukkende til engangsbrug. Når ampullen er åbnet, skal indholdet bruges straks. 
+Eventuelt ubrugt produkt skal smides væk. Læg eventuelle ubrugte, uåbnede ampuller fra strippen 
+tilbage i brevet, så de beskyttes mod lys. 
+Opbevares i den originale yderpakning for at beskytte mod lys. Der er ingen særlige krav vedrørende 
+opbevaringstemperaturer for dette lægemiddel. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.
+42</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Quinsair indeholder:</h2>
+<p>Aktivt stof: levofloxacin. Èn ampul indeholder levofloxacinhemihydrat svarende til 240 mg 
+levofloxacin.
+-
+Øvrige indholdsstoffer: magnesiumchloridhexahydrat og vand til injektioner.
+Udseende og pakningsstørrelser
+Quinsair er en klar, lysegul inhalationsvæske til nebulisator, opløsning.
+Lægemidlet leveres i små 3 ml plastampuller. Fire ampuller er forseglet i et foliebrev.
+Quinsair leveres som en 28 dages-pakning (indeholder én æske med 56 (14 breve med 
+hver 4) ampuller) eller som en 4 dages-pakning (indeholder 8 (2 breve med hver 4) og én æske, der 
+indeholder et Zirela-nebulisatorhåndsæt med producentens brugsanvisning.
+Ikke alle pakkestørrelser er nødvendigvis markedsført.
+Ampullen er kun mærket på engelsk. Oplysningerne på ampullen er:
+På forsiden af ampulunderdelen
+Quinsair 240 mg 
+Inhalationsvæske til nebulisator, opløsning.
+Levofloxacin
+Til inhalation
+2,4 ml
+I det “kreppede område" på begge sider af ampulunderdelen
+Lot
+EXP 
+Indehaver af markedsføringstilladelsen 
+Chiesi Farmaceutici S.p.A.
+Via Palermo, 26/A
+43122 Parma
+Italien
+Fremstiller
+Adare Pharmaceuticals S.r.l.
+Via Martin Luther King, 13
+20060 Pessano con Bornago (MI)
+Italien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42 00
+Lietuva
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+България
+Chiesi Bulgaria EOOD 
+Teл.: + 359 29201205
+Luxembourg/Luxemburg
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42 00
+Česká republika
+Chiesi CZ s.r.o. 
+Tel: + 420 261221745
+Magyarország
+Chiesi Hungary Kft. 
+Tel.: + 36-1-429 1060
+43
+Danmark
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35 20
+Malta
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2791
+Deutschland
+Chiesi GmbH 
+Tel: + 49 40 89724-0
+Nederland
+Chiesi Pharmaceuticals B.V. 
+Tel: + 31 88 501 64 00
+Eesti
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+Norge
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35 20
+Ελλάδα
+Chiesi Hellas AEBE 
+Τηλ: + 30 210 6179763
+Österreich
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+España
+Chiesi España, S.A.U. 
+Tel: + 34 93 494 8000
+Polska
+Chiesi Poland Sp. z.o.o. 
+Tel.: + 48 22 620 1421
+France
+Chiesi S.A.S. 
+Tél: + 33 1 47688899
+Portugal
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2791
+Hrvatska
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+România
+Chiesi Romania S.R.L. 
+Tel: + 40 212023642
+Ireland
+Chiesi Farmaceutici S.p.A.
+Tel: + 39 0521 2791
+Slovenija
+Chiesi Slovenija d.o.o. 
+Tel: + 386-1-43 00 901
+Ísland
+Chiesi Pharma AB 
+Sími: +46 8 753 35 20
+Slovenská republika
+Chiesi Slovakia s.r.o. 
+Tel: + 421 259300060
+Italia
+Chiesi Italia S.p.A. 
+Tel: + 39 0521 2791
+Suomi/Finland
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35 20
+Κύπρος
+Chiesi Farmaceutici S.p.A. 
+Τηλ: + 39 0521 2791
+Sverige
+Chiesi Pharma AB 
+Tel: +46 8 753 35 20
+Latvija
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073919
+United Kingdom (Northern Ireland)
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2791
+Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre hjemmesider om sjældne 
+sygdomme og om, hvordan de behandles.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8077ecb6bda7580081b9f65b63060e8a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for quinsair Package Leaflet for language en"
+Description: "ePI document Bundle for quinsair Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8077ecb6bda7580081b9f65b63060e8a"
+* entry[0].resource = composition-en-8077ecb6bda7580081b9f65b63060e8a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8077ecb6bda7580081b9f65b63060e8a"
+* entry[=].resource = mp8077ecb6bda7580081b9f65b63060e8a
+                            
+                    
+Instance: bundlepackageleaflet-da-8077ecb6bda7580081b9f65b63060e8a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for quinsair Package Leaflet for language da"
+Description: "ePI document Bundle for quinsair Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8077ecb6bda7580081b9f65b63060e8a"
+* entry[0].resource = composition-da-8077ecb6bda7580081b9f65b63060e8a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8077ecb6bda7580081b9f65b63060e8a"
+* entry[=].resource = mp8077ecb6bda7580081b9f65b63060e8a
+                            
+                    
+
+
+
+Instance: mp8077ecb6bda7580081b9f65b63060e8a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Quinsair 240 mg nebuliser solution"
-Description: "Quinsair 240 mg nebuliser solution"
+Title: "Medicinal Product quinsair"
+Description: "quinsair"
 Usage: #inline
 
  
@@ -743,7 +1580,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Quinsair 240 mg nebuliser solution"
+  * productName = "quinsair"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -770,29 +1607,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8077ecb6bda7580081b9f65b63060e8a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for quinsair Package Leaflet for language en"
-Description: "ePI document Bundle for quinsair Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8077ecb6bda7580081b9f65b63060e8aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/973/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "quinsair"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8077ecb6bda7580081b9f65b63060e8a"
-* entry[0].resource = composition-en-8077ecb6bda7580081b9f65b63060e8a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbb1a808b79228779b9edc6ec5211f29f"
-* entry[=].resource = mpbb1a808b79228779b9edc6ec5211f29f
-                            
-                      
+* title = "List of all ePIs associated with quinsair"
+
+* subject = Reference(mpbb1a808b79228779b9edc6ec5211f29f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#quinsair "quinsair"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8077ecb6bda7580081b9f65b63060e8a) // quinsair en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8077ecb6bda7580081b9f65b63060e8a) // quinsair da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8077ecb6bda7580081b9f65b63060e8a
+InstanceOf: List
+
+* insert 8077ecb6bda7580081b9f65b63060e8aListRuleset
+    

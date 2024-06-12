@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-524ff85a84e081511904d5b0500b5714
 InstanceOf: CompositionUvEpi
 Title: "Composition for tolucombi Package Leaflet"
@@ -494,12 +497,604 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-524ff85a84e081511904d5b0500b5714
+InstanceOf: CompositionUvEpi
+Title: "Composition for tolucombi Package Leaflet"
+Description:  "Composition for tolucombi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbd611e3de7f96c15b395ec49f32a0d64)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbd611e3de7f96c15b395ec49f32a0d64
+* title = "TEST PURPOSES ONLY - tolucombi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Tolucombi
+3. Sådan skal du tage Tolucombi
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tolucombi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tolucombi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tolucombi er en kombination af to aktive stoffer - telmisartan og hydrochlorthiazid - i én tablet. 
+Begge lægemiddelstoffer anvendes til at sænke forhøjet blodtryk.
+-
+Telmisartan er en såkaldt angiotensin II-receptorantagonist. Angiotensin II er et naturligt stof i 
+kroppen, som får blodkarrene til at snævre ind. Når blodkarrene snævrer ind, stiger blodtrykket. 
+Telmisartan blokerer angiotensin IIs virkning, så blodkarrene afslappes og blodtrykket falder.
+-
+Hydrochlorthiazid er et såkaldt thiazid, som virker vanddrivende. Thiazider får urinmængden til 
+at stige og det fører til, at blodtrykket falder.
+Hvis forhøjet blodtryk ikke behandles, kan der ske skader på blodkarrene i flere organer. Skaderne kan 
+føre til hjerteanfald, hjerte- eller nyresvigt, slagtilfælde eller blindhed. Man har normalt ingen 
+symptomer på forhøjet blodtryk, før en skade sker. Derfor er det vigtigt at få målt blodtrykket 
+regelmæssigt for at finde ud af, om det ligger i normalområdet.
+Tolucombi (40 mg/12,5 mg, 80 mg/12,5 mg) bruges til at sænke forhøjet blodtryk (essentiel 
+hypertension) hos voksne, hvis blodtryk ikke er sænket tilstrækkeligt med telmisartan.
+Tolucombi (80 mg/25 mg) bruges til at sænke forhøjet blodtryk (essentiel hypertension) hos voksne, 
+hvis blodtryk ikke er sænket tilstrækkeligt Tolucombi 80 mg/12,5 mg eller hos patienter, hvis blodtryk 
+ikke er sænket tilstrækkeligt med enten telmisartan eller med hydrochlorthiazid.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tolucombi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tolucombi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Tolucombi</h2>
+<p>hvis du er allergisk over for telmisartan eller et af de øvrige indholdsstoffer i Tolucombi
+(angivet i pkt. 6).
+-
+hvis du er allergisk over for hydrochlorthiazid eller andet sulphonamidholdigt lægemiddel.
+-
+hvis du er gravid og mere end 3 måneder henne i din graviditet. (det er også bedst at undgå 
+Tolucombi tidligt i graviditeten – se afsnittet "Graviditet og amning").
+59
+-
+hvis du har alvorlige leverproblemer, som f.eks. galdeophobning i galdegangene eller problemer 
+med udskillelse af galde fra leveren og galdeblæren.
+-
+hvis du har alvorlige leversygdomme.
+-
+hvis du har alvorlig nyresygdom.
+-
+hvis din læge i en blodprøve finder for lavt indhold af kalium eller for højt indhold af calcium 
+og dette ikke bedres ved behandling.
+-
+hvis du har sukkersyge eller nedsat nyrefunktion, og du også tager et blodtrykssænkende 
+lægemiddel, der indeholder aliskiren.
+Hvis et af ovennævnte punkter gælder for dig, skal du tale med din læge eller apotekspersonalet om 
+det, inden du tager Tolucombi.
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du tager Tolucombi, hvis du har eller har haft en medicinsk lidelse eller sygdom, 
+især hvis det er en af dem, der er nævnt nedenfor:
+-
+Lavt blodtryk (hypotension), som kan forekomme, når du er dehydreret (har for lidt 
+kropsvæske) eller har saltmangel på grund af enten vanddrivende medicin, saltfattig diæt, diaré, 
+opkastning eller hæmodialyse
+-
+Nyresygdom eller nyretransplantation
+-
+Forsnævring af blodkarrene til den ene eller begge nyrer (nyre-arteriestenose)
+-
+Leversygdom
+-
+Hjerteproblemer
+-
+Sukkersyge
+-
+Urinsyregigt (podagra)
+-
+Forhøjet aldosteronniveau (vand og salt ophobning i kroppen og ubalance i blodets indhold af 
+mineraler)
+-
+Bindevævssygdommen systemisk lupus erythematosus (også kaldet lupus eller SLE), en 
+sygdom, hvor kroppens immunsystem angriber kroppen
+-
+Det aktive indholdsstof i hydrochloridthiazide kan forårsage en usædvanlig reaktion, hvilket 
+medfører nedsat syn og øjensmerter. Dette kan være symptomer på væskeansamling i det 
+vaskulære lag i øjet (choroidal effusion) eller et øget tryk i dit øje og kan forekomme indenfor 
+timer til uger efter indtagelse af Tolucombi. Dette kan føre til permanent nedsat syn, hvis det 
+ikke behandles.
+-
+Hvis du har haft hudkræft, eller hvis du udvikler en uventet hudlæsion under behandlingen. 
+Behandling med hydrochlorthiazid, navnlig ved langtidsbrug af høje doser, kan øge risikoen for 
+visse typer hud- og læbekræft (non-melanom hudkræft). Beskyt huden mod sollys og UVstråler, 
+mens du tager Tolucombi.
+-
+Hvis du tidligere har haft vejrtræknings- eller lungeproblemer (herunder betændelse eller væske 
+i lungerne) efter indtagelse af hydrochlorthiazid. Hvis du udvikler alvorlig åndenød eller 
+vejrtrækningsbesvær efter at have taget Tolucombi, skal du straks søge lægehjælp
+Kontakt lægen, før du tager Tolucombi, hvis du tager:
+-
+digoxin.
+-
+et af følgende lægemidler til behandling af for højt blodtryk:
+-
+en ACE-hæmmer (f.eks. enalapril, lisinopril, ramipril), især hvis du har nyrerproblemer i 
+forbindelse med sukkersyge
+-
+aliskiren.
+Du skal fortælle din læge, hvis du tror, du er gravid (eller planlægger at blive det). Du bør ikke tage 
+Tolucombi tidligt i graviditeten, og du må ikke tage det, hvis du er mere end 3 måneder henne i 
+graviditeten, da det kan give dit barn alvorlige skader (se afsnittet "Graviditet og amning").
+Behandling med hydrochlorthiazid kan forårsage ændringer i kroppens saltbalance. Typiske 
+symptomer på væskemangel eller ubalance mellem kroppens salte er mundtørhed, svaghed, sløvhed, 
+døsighed, rastløshed, muskelsmerter eller kramper, kvalme, opkastning, trætte muskler og en unormal 
+hurtig hjerterytme (mere end 100 slag i minuttet). Hvis du oplever ét eller flere af ovenstående 
+symptomer, bør du tale med din læge.
+60
+Fortæl din læge, hvis du ved solbadning hurtigere end ellers oplever symptomer på solskoldning 
+(såsom rødme, kløe, hævelse, blærer).
+Før en operation eller bedøvelse bør du fortælle din læge, at du tager Tolucombi.
+Tolucombi kan have en mindre blodtrykssænkende virkning hos sorte patienter.
+Din læge vil eventuelt måle din nyrefunktion, dit blodtryk og elektrolytter (f.eks. kalium) i dit blod 
+med jævne mellemrum. 
+Se også information under overskriften "Tag ikke Tolucombi".
+Børn og teenagere
+Tolucombi bør ikke ordineres til børn og teenagere under 18 år.
+Brug af anden medicin sammen med Tolucombi
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept, f.eks. naturlægemidler og vitaminer og mineraler.
+Det kan måske være nødvendigt at ændre doseringen af medicinen eller tage andre forholdsregler. I 
+nogle tilfælde må du stoppe med at tage noget af medicinen. Dette gælder specielt, hvis du samtidig 
+med Tolucombi tager én af de typer medicin, der er angivet herunder:
+-
+Medicin, der indeholder lithium til behandling af visse typer af depression
+-
+Medicin, der kan forårsage lavt kaliumindhold i blodet (hypokaliæmi). Det kan være andre 
+vanddrivende tabletter (diuretika), afføringsmidler (f.eks. amerikansk olie), kortikosteroider 
+(f.eks. prednison), ACTH (et hormon), amphotericin (mod svampeinfektion), carbenoxolen (til 
+at behandle mundsår), benzylpenicillin (et antibiotikum) og salicylsyre og hermed beslægtede 
+stoffer. 
+-
+Medicin, der kan forhøje indholdet af kalium i blodet, såsom vanddrivende medicin, 
+kaliumtilskud, saltsubstitutter som indeholder kalium og ACE-hæmmere (blodtrykssænkende 
+medicin), ciclosporin (undertrykker kroppens immunforsvar) og andre lægemidler såsom 
+heparinnatrium (blodfortyndende medicin) .
+-
+Medicin, der påvirkes af ændringer i kaliumindholdet i blodet, såsom hjertemedicin (f.eks. 
+digoxin) eller medicin til at kontrollere hjerterytmen (f.eks. quinidin, disopyramid, amiodaron, 
+sotalol), medicin, som bruges til psykiske lidelser (f.eks. thioridazin, chlorpromazin, 
+levomepromazin) og andre lægemidler, såsom visse antibiotika (f.eks sparfloxacin, pentamidin) 
+eller visse lægemidler til behandling af allergiske reaktioner (f.eks terfenadin). 
+-
+Medicin til behandling af diabetes (insulin eller orale lægemidler såsom metformin).
+-
+Colestyramin og colestipol, medicin til at sænke blodets fedtindhold.
+-
+Medicin til at øge blodtrykket, såsom noradrenalin.
+-
+Muskelafslappende medicin, såsom tubocurarin.
+-
+Kalktilskud og/eller D-vitamintilskud.
+-
+Anti-cholinerge lægemidler (medicin til behandling af en række forskellige lidelser, såsom 
+mavekramper, urinblære spasmer, astma, transportsyge, muskelkramper, Parkinsons sygdom og 
+som en hjælp til bedøvelse) såsom atropin og biperiden.
+-
+Amantadin (medicin til behandling af Parkinsons sygdom, som også bruges til at behandle eller 
+forebygge visse sygdomme forårsaget af virus).
+-
+Blodtrykssænkende medicin, binyrebarkhormoner (kortikosteroider), smertestillende medicin 
+såsom non-steroide antiinflamatoriske lægemider (NSAID), medicin til behandling af cancer, 
+urinsyregigt (podagra) eller leddegigt. 
+-
+Hvis du samtidig tager en ACE-hæmmer eller aliskiren - se også information under overskriften 
+"Tag ikke Tolucombi" og "Advarsler og forsigtighedsregler". 
+-
+Digoxin.
+Tolucombi kan øge den blodtrykssænkende virkning, både af anden blodtrykssænkende medicin og af 
+61
+medicin, der potentielt kan sænke blodtrykket (f.eks. baclofen eller amifostin).
+Desuden kan alkohol, barbiturater, morfinlignende smertestillende medicin, og medicin mod 
+depression yderligere forværre et lavt blodtryk. Du kan opleve det som svimmelhed, når du rejser dig. 
+Du skal derfor tale med din læge om eventuelt at få ændret doseringen af din medicin.
+Blodtrykssænkningen med Tolucombi kan, blive mindre ved samtidig brug af medicin mod gigt og 
+lette smerter (non-steroid antiinflammatorisk medicin (NSAID)), f.eks. acetylsalicylsyre eller 
+ibuprofen.
+Brug af Tolucombi sammen med mad og alkohol
+Du kan tage Tolucombi med eller uden mad.
+Undgå at drikke alkohol før du har talt med din læge. Alkohol kan få dit blodtryk til falde yderligere 
+og/eller øge risikoen for at du bliver svimmel eller føler dig mat.
+Graviditet og amning
+Graviditet
+Du skal fortælle din læge, hvis du tror, du er gravid (eller planlægger at blive det). Din læge vil 
+normalt råde dig til at stoppe med at tage Tolucombi og tage en anden medicin i stedet for, før du 
+bliver gravid, eller så snart du finder ud af, at du er gravid.
+Du bør ikke tage Tolucombi tidligt i graviditeten, og du må ikke tage det, hvis du er mere end 3 
+måneder henne i graviditeten, da det kan give dit barn alvorlige skader.
+Amning
+Du skal fortælle din læge, hvis du ammer eller skal til at amme. Du bør ikke tage Tolucombi, hvis du 
+ammer, og din læge vil muligvis vælge en anden behandling til dig, hvis du ønsker at amme, især hvis 
+dit barn er nyfødt eller født for tidligt.
+Trafik- og arbejdssikkerhed
+Man kan føle sig svimmel eller blive træt, når man tager Tolucombi. Kør ikke bil eller motorcykel og 
+lad være med at cykle eller arbejde med værktøj eller maskiner, hvis du føler dig svimmel eller træt.
+Tolucombi indeholder lactose, sorbitol og natrium
+Kontakt lægen, før De/du tager denne medicin, hvis lægen har fortalt Dem/dig, at De/du ikke tåler 
+visse sukkerarter.
+Tolucombi 40 mg/12,5 mg indeholder 147,04 mg sorbitol pr. tablet, svarende til 5 mg/kg/dag, hvis 
+kropsvægten er 29,8 kg.
+Tolucombi 80 mg/12,5 mg og Tolucombi 80 mg/25 mg indeholder 294,08 mg sorbitol pr. tablet, 
+svarende til 5 mg/kg/dag, hvis kropsvægten er 58,8 kg.
+Patienter, der vejer 58,8 kg eller derunder skal tage i betragtning, at sorbitol er en kilde til fructose.
+Hvis din læge har fortalt dig at du (eller dit barn) har intolerance over for nogle sukkerarter eller hvis 
+du er blevet diagnosticeret med arvelig fructoseintolerans (HFI), en sjælden genetisk lidelse, hvor en 
+person ikke kan bryde ned fructose, skal du tale med din læge før du (eller dit barn) tager eller får 
+dette lægemiddel.
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. den er i det 
+væsentlige natrium-fri.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tolucombi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tolucombi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Den anbefalede dosis af Tolucombi er én tablet dagligt. Det er bedst at indtage tabletten på samme tid 
+62
+hver dag. Tabletten kan tages både sammen med mad og alene. Tabletten synkes sammen med vand 
+eller en anden væske. Det er vigtigt, at du tager Tolucombi hver dag, så længe din læge ikke siger 
+andet.
+Hvis din leverfunktion er nedsat, bør dosis ikke være højere end 40 mg/12,5 mg én gang om dagen.
+Hvis du har taget for meget Tolucombi
+Hvis du har taget for mange tabletter, kan du få symptomer såsom lavt blodtryk og hjertebanken. 
+Langsom puls, svimmelhed, opkastning, nedsat nyrefunktion, herunder nyresvigt, er også rapporteret. 
+På grund af hydrochlorthiazid, kan markant lavt blodtryk og lavt indhold af kalium i blodet også 
+forekomme, hvilket kan resultere i kvalme, søvnighed og muskelkramper. Ved samtidig brug af 
+lægemidler som digoxin eller andre antiarytmiske behandlinger kan du få uregelmæssig hjerterytme. 
+Kontakt  straks lægen, skadestuen eller apotekspersonalet.
+Hvis du har glemt at tage Tolucombi
+Hvis du glemmer at tage medicinen, skal du tage den straks du kommer i tanke om det, og derefter 
+fortsætte som du plejer. Hvis du en dag ikke får taget din tablet, skal du blot tage den sædvanlige dosis 
+næste dag. Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Nogle bivirkninger kan være alvorlige og kræver omgående lægehjælp:
+Du skal straks kontakte din læge hvis du får nogle af følgende symptomer:
+Sepsis<em> (ofte kaldet "blodforgiftning", en alvorlig infektion med betændelsesreaktion i hele kroppen), 
+hurtig hævelse af hud og slimhinder (angioødem), blærer og afskalning af det øverste lag af huden 
+(toksisk epidermal nekrolyse). Disse bivirkninger er sjældne (kan forekomme hos op til 1 ud af 1.brugere) eller er af ukendt hyppigheden (toksisk epidermal nekrolyse), men er meget alvorlige, og 
+indtagelse af medicinen skal stoppe og læge straks kontaktes. Hvis disse bivirkninger ikke bliver 
+behandlet kan de være dødelige. En øget forekomst af sepsis er kun set med telmisartan, men kan ikke 
+udelukkes for Tolucombi.
+Bivirkninger ved Tolucombi:
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 brugere):
+Svimmelhed.
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 brugere):
+Nedsat kaliumindhold i blodet, angst, besvimelse, snurrende, prikkende og stikkende fornemmelse 
+(paræstesi), følelse af at dreje rundt (svimmelhed), hjertebanken (takykardi), forstyrret hjerterytme, 
+lavt blodtryk, et pludseligt fald i blodtrykket når du rejser dig op, stakåndethed (dyspnø), diaré, 
+mundtørhed, luftafgang fra tarmen, rygsmerter, muskeltrækninger, muskelsmerter, erektil dysfunktion 
+(manglende evne til at få eller opretholde erektion), brystsmerter, forhøjet urinsyreindhold i blodet.
+Sjældne bivirkninger kan forekomme hos op til 1 ud af 1.000 brugere):
+Lungebetændelse (bronkitis), provokation eller forværring af systemisk lupus erythematosus (en 
+sygdom, hvor kroppens immunsystem angriber kroppen, hvilket forårsager ledsmerter, hududslæt og 
+feber); ondt i halsen, bihulebetændelse, tristhed (depression), besvær med at falde i søvn (insomni), 
+forringet syn, besvær med at trække vejret, mavesmerter, forstoppelse, oppustethed (dyspepsi), 
+utilpashed (opkastning), mavekatar, unormal leverfunktion (japanske patienter har større 
+sandsynlighed for at få denne bivirkning), rødme af huden, allergiske reaktioner såsom kløe eller 
+udslæt, øget svedproduktion, nældefeber (urticaria), ledsmerter (arthralgi) og smerter i arme og ben, 
+muskelkramper, influenzalignende symptomer, smerter. Desuden kan der forekomme forhøjet 
+63
+urinsyreindhold, nedsat natriumindhold, forhøjet serumkreatinin, forøgede leverenzymer samt 
+kreatininkinase i blodet.
+Nedenstående bivirkninger, der er blevet rapporteret for de to aktive indholdsstoffer, er også mulige 
+bivirkninger for Tolucombi, selvom de ikke er set i kliniske studier med dette lægemiddel.
+Telmisartan
+Hos patienter, der kun får telmisartan, er der i tillæg til ovenstående set følgende bivirkninger:
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 brugere):
+Øvre luftvejsinfektion (f.eks. ondt i halsen, bihulebetændelse, almindelig forkølelse), 
+urinvejsinfektion, blodmangel (anæmi), høje kaliumniveauer, langsom hjerterytme (bradykardi), 
+nedsat nyrefunktion inklusive akut nyresvigt, svaghed, hoste.
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 brugere):
+Lavt blodpladetal (trombocytopeni), øget mængde hvide blodlegemer (eosinofili), alvorlig allergisk 
+reaktion (f.eks. overfølsomhed, anafylaktisk reaktion, lægemiddelfremkaldt udslæt), lavt blodsukker 
+(hos diabetes patienter), maveproblemer, eksem, slidgigt, senebetændelse, nedsat hæmoglobin (et 
+blodprotein), søvnighed.
+Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 brugere):
+Tiltagende arvævsdannelse i lungerne (interstitiel lungesygdom)</em>* * Observationen kan være en tilfældighed eller kan være relateret til en mekanisme, som på 
+nuværende tidspunkt ikke er kendt.</p>
+<p>** Tilfælde af tiltagende arvævsdannelse i lungerne er blevet rapporteret ved indtagelse af telmisartan. 
+Det er imidlertid ikke kendt, hvorvidt telmisartan var årsagen.
+Hydrochlorthiazid
+Hos patienter, der kun får hydrochlorthiazid, er der, i tillæg til de bivirkninger, som er nævnt for 
+Tolucombi, set følgende bivirkninger:
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 brugere):
+Utilpashed (kvalme), lavt magnesiumindhold i blodet.
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 brugere):
+Reduktion i blodplader, som øger risikoen for blødning eller blå mærker (små lilla-røde mærker på 
+huden eller andet væv forårsaget af blødning), højt calciumindhold i blodet, hovedpine.
+Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 brugere):
+Forhøjet pH-værdi (forstyrrelse i syre-base-balancen) på grund af lavt kloridindhold i blodet, akut 
+åndedrætsbesvær (symptomer omfatter svær åndenød, feber, svaghed og forvirring).
+Bivirkninger, hvor hyppigheden ikke er kendt (Hyppigheden kan ikke bestemmes ud fra 
+forhåndenværende data):
+Betændelse i en spytkirtel, hud- og læbekræft (non-melanom hudkræft), lavt (eller endda manglende)
+indhold af røde og hvide blodlegemer, alvorlig allergisk reaktion (f.eks. overfølsomhed, anafylaktisk 
+reaktion), appetitløshed, rastløshed, svimmelhed, sløret eller gulligt syn, nedsat syn og øjesmerter 
+(mulige tegn på væskeansamling i det vaskulære lag i øjet (choroidal effusion) eller akut nærsynethed 
+eller akut snævervinklet grøn stær), betændelse i blodkarrene (nekrotiserende vaskulit), betændt 
+bugspytkirtel, maveproblemer, gul i huden eller øjnene (gulsot), lupus-lignende symptomer 
+(bivirkninger, som ligner en sygdom kaldet systemisk lupus erythematosus, hvor kroppens 
+immunsystem angriber kroppen), hudsygdomme som f.eks. betændte blodkar i huden, øget følsomhed 
+for sollys, udslæt, hudrødme, blærer på læber, øjne eller mund, afskalning af hud, feber (mulige tegn 
+på erythema multiforme), svaghed, nyrebetændelse eller nedsat nyrefunktion, sukker i urinen 
+(glykosuri), feber, forstyrrelse i elektrolytbalancen, højt indhold af kolesterol i blodet, nedsat 
+64
+blodvolumen, forhøjet sukkerindhold i blodet, usikkerhed med at kontrollere sukkerindholdet i 
+blod/urin hos patienter med diabetes mellitus eller forhøjet fedtindhold i blodet.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tolucombi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tolucombi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn.
+Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken og blisterkort efter "EXP".
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Opbevares i den originale yderpakning for at beskytte mod lys.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tolucombi indeholder:</h2>
+<p>Aktive stoffer: telmisartan og hydrochlorthiazid.
+Hver tablet indeholder 40 mg telmisartan og 12,5 mg hydrochlorthiazid.
+Hver tablet indeholder 80 mg telmisartan og 12,5 mg hydrochlorthiazid.
+Hver tablet indeholder 80 mg telmisartan og 25 mg hydrochlorthiazid.
+-
+Øvrige indholdsstoffer: hydroxypropylcellulose, lactosemonohydrat, magnesiumstearat, 
+mannitol, meglumin, povidon (K30), rød jernoxid (E172) – kun i 40 mg/12,5 mg og 
+80 mg/12,5 mg tabletter, kolloid vandfri silica, natriumhydroxid (E524), natriumstearylfumarat, 
+sorbitol (E420) og gul jernoxid (E172) – kun i 80 mg/25 mg tabletter. Se punkt 2 "Tolucombi 
+indeholder lactose, sorbitol og natrium".
+Udseende og pakningsstørrelser
+40 mg/12,5 mg tabletter: dobbeltlaget, hvælvet, oval tablet, hvid til næsten hvid eller svagt lyserød på 
+den ene side og lyserød marmoreret på den anden side, tabletdimensioner 15 mm x 7 mm.
+80 mg/12,5 mg tabletter: dobbeltlaget, hvælvet, oval tablet, hvid til næsten hvid eller svagt lyserød på 
+den ene side og lyserød marmoreret på den anden side, tabletdimensioner 18 mm x 9 mm.
+80 mg/25 mg tabletter: dobbeltlaget, hvælvet, oval tablet, hvid til gullig på den ene side og gult 
+marmoreret på den anden side, tabletdimensioner 18 mm x 9 mm.
+Blisterkort (OPA/Al/PVC folie//Al folie): 14 x 1, 28 x 1, 30 x 1, 56 x 1, 60 x 1, 84 x 1, 90 x 1, 98 x 1
+og 100 x 1 tablet i en æske.
+Blisterkort (OPA/Al/PE folie med tørremiddel//Al folie): 14 x 1 og 98 x 1 tablet i en æske.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Slovenien
+Fremstiller
+KRKA, d.d., Novo mesto, Šmarješka cesta 6, 8501 Novo mesto, Slovenien
+KRKA-POLSKA Sp. z o.o., ul. Równoległa 5, 02-235 Warszawa, Polen
+65
+TAD Pharma GmbH, Heinz-Lohmann-Straße 5, 27472 Cuxhaven, Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+KRKA Belgium, SA.
+Tél/Tel: +32 (0) 487 50 73 62
+Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27 40
+България
+КРКА България ЕООД
+Teл.: + 359 (02) 962 34 50
+Luxembourg/Luxemburg
+KRKA Belgium, SA.
+Tél/Tel: +32 (0) 487 50 73 62 (BE)
+Česká republika
+KRKA ČR, s.r.o.
+Tel: + 420 (0) 221 115 150
+Magyarország
+KRKA Magyarország Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8490
+Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E. J. Busuttil Ltd.
+Tel: + 356 21 445 885
+Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: + 32 (0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 658
+Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Ελλάδα
+KRKA ΕΛΛΑΣ ΕΠΕ
+Τηλ: + 30 2100101613
+Österreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 300
+España
+KRKA Farmacéutica, S.L.
+Tel: + 34 911 61 03 80
+Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7500
+France
+KRKA France Eurl
+Tél: + 33 (0)1 57 40 82 25
+Portugal
+KRKA Farmacêutica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 650
+Hrvatska
+KRKA - FARMA d.o.o.
+Tel: + 385 1 6312 100
+România
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 05
+Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51 100
+Ísland
+LYFIS ehf.
+Sími: + 354 534 3500
+Slovenská republika
+KRKA Slovensko, s.r.o.
+Tel: + 421 (0) 2 571 04 501
+Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8841
+Suomi/Finland
+KRKA Finland Oy
+Puh/Tel: +358 20 754 5330
+66
+Κύπρος
+KI.PA. (PHARMACAL) LIMITED
+Τηλ: + 357 24 651 882
+Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 10
+United Kingdom (Northern Ireland)
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3710
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-524ff85a84e081511904d5b0500b5714
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tolucombi Package Leaflet for language en"
+Description: "ePI document Bundle for tolucombi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-524ff85a84e081511904d5b0500b5714"
+* entry[0].resource = composition-en-524ff85a84e081511904d5b0500b5714
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp524ff85a84e081511904d5b0500b5714"
+* entry[=].resource = mp524ff85a84e081511904d5b0500b5714
+                            
+                    
+Instance: bundlepackageleaflet-da-524ff85a84e081511904d5b0500b5714
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tolucombi Package Leaflet for language da"
+Description: "ePI document Bundle for tolucombi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-524ff85a84e081511904d5b0500b5714"
+* entry[0].resource = composition-da-524ff85a84e081511904d5b0500b5714
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp524ff85a84e081511904d5b0500b5714"
+* entry[=].resource = mp524ff85a84e081511904d5b0500b5714
+                            
+                    
+
+
+
+Instance: mp524ff85a84e081511904d5b0500b5714
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Tolucombi 40 mg/12.5 mg tablets"
-Description: "Tolucombi 40 mg/12.5 mg tablets"
+Title: "Medicinal Product tolucombi"
+Description: "tolucombi"
 Usage: #inline
 
  
@@ -519,7 +1114,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Tolucombi 40 mg/12.5 mg tablets"
+  * productName = "tolucombi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -546,29 +1141,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-524ff85a84e081511904d5b0500b5714
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tolucombi Package Leaflet for language en"
-Description: "ePI document Bundle for tolucombi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 524ff85a84e081511904d5b0500b5714ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Tolucombi 40 mg/12.5 mg tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tolucombi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-524ff85a84e081511904d5b0500b5714"
-* entry[0].resource = composition-en-524ff85a84e081511904d5b0500b5714
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbd611e3de7f96c15b395ec49f32a0d64"
-* entry[=].resource = mpbd611e3de7f96c15b395ec49f32a0d64
-                            
-                      
+* title = "List of all ePIs associated with tolucombi"
+
+* subject = Reference(mpbd611e3de7f96c15b395ec49f32a0d64)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tolucombi "tolucombi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-524ff85a84e081511904d5b0500b5714) // tolucombi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-524ff85a84e081511904d5b0500b5714) // tolucombi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-524ff85a84e081511904d5b0500b5714
+InstanceOf: List
+
+* insert 524ff85a84e081511904d5b0500b5714ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-7504582d8c4f390424d8e4bfcd82fbae
 InstanceOf: CompositionUvEpi
 Title: "Composition for constella Package Leaflet"
@@ -323,12 +326,450 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-7504582d8c4f390424d8e4bfcd82fbae
+InstanceOf: CompositionUvEpi
+Title: "Composition for constella Package Leaflet"
+Description:  "Composition for constella Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb474a9b9316f26ed7b87c7aa2cee637e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb474a9b9316f26ed7b87c7aa2cee637e
+* title = "TEST PURPOSES ONLY - constella"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Constella 
+3. Sådan skal du tage Constella 
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What constella is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What constella is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Anvendelse
+Constella indeholder det aktive stof linaclotid. Det anvendes til at behandle symptomerne på moderat 
+til svær irritabel tyktarm (ofte blot betegnet ”IBS”) med forstoppelse hos voksne patienter.
+IBS er en almindelig tarmsygdom. Hovedsymptomerne på IBS med forstoppelse inkluderer:
+
+mave- eller underlivssmerter 
+
+oppustet fornemmelse 
+
+mindre hyppig, hård eller kugleformet afføring (fæces) i små stykker
+Disse symptomer kan variere fra person til person. 
+Sådan virker Constella
+Constella virker lokalt i din tarm og hjælper dig til at føle mindre smerte, mindre oppustet og med at 
+genoprette tarmens normale funktion. Det absorberes ikke i kroppen, men hæfter sig på en receptor på 
+tarmens overflade, som hedder guanylat cyclase C. Ved at hæfte sig til denne receptor, blokerer den så 
+smertefornemmelsen, og giver væske mulighed for at løbe fra kroppen ind i tarmen, hvorved 
+afføringen bliver løsere og hyppigere. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take constella"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take constella"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Constella</h2>
+<p>hvis du er allergisk over for linaclotid eller et af de øvrige indholdsstoffer i Constella (angivet i 
+punkt 6).
+-
+hvis du eller din læge ved, at du har en blokering i din mave eller tarm. 
+26
+Advarsler og forsigtighedsregler
+Din læge har givet dig denne medicin, efter han/hun har udelukket andre sygdomme, særligt i tarmene 
+og konkluderet, at du har IBS med forstoppelse. Da symptomerne på disse andre sygdomme kan være 
+de samme som for IBS, er det vigtigt, at du straks fortæller lægen om eventuelle ændringer eller 
+uregelmæssigheder i dine symptomer.
+Hvis du oplever svær eller langvarig diarré (hyppig vandig afføring i 7 dage eller derover), skal du 
+venligst holde op med at tage Constella og kontakte din læge (se punkt 4). Sørg for at drikke rigeligt 
+med væske for at erstatte vand og elektrolytter som kalium, som du mistede ved diarréen.
+Hvis du har svære mavesymptomer, som varer ved eller forværres, skal du holde op med at tage 
+Constella og straks kontakte din læge, da dette kan være symptomer på udvikling af et hul i 
+tarmvæggen (perforering af mave-tarm-kanalen). Se punkt 4. Tal med din læge, hvis du oplever blødning fra tarmen eller endetarmen.
+Du skal være ekstra forsigtig, hvis du er over 65 år, da der så er en højere risiko for at få diarré.
+Vær også ekstra forsigtig, hvis du har svær eller langvarig diarré og en yderligere sygdom, såsom højt 
+blodtryk, tidligere hjertekarsygdom (f.eks. såsom tidligere hjertetilfælde) eller diabetes.
+Tal med din læge, hvis du har en betændelsessygdom i tarmen, såsom Crohns sygdom eller ulcerativ 
+colitis, da Constella ikke er anbefalet til disse patienter.
+Børn og unge
+Giv ikke dette lægemiddel til børn under 18 år, da sikkerheden og effekten ved Constella endnu ikke 
+er klarlagt i denne aldersgruppe.
+Brug af anden medicin sammen med Constella
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig.
+
+Nogle lægemidler virker muligvis ikke lige så godt, hvis du har svær eller langvarig diarré, såsom:
+-
+P-piller. Hvis du har meget svær diaré, virker p-pillen muligvis ikke korrekt, og det anbefales 
+at bruge en ekstra præventionsmetode. Se indlægssedlen til den p-pille, som du tager. 
+-
+Lægemidler, som kræver meget nøje og eksakt dosering, såsom lyvothyroxin (et hormon til 
+behandling af nedsat skjoldbruskkirtelfunktion).
+
+Nogle lægemidler kan øge risikoen for diarré, når de tages sammen med Constella, såsom:
+-
+Lægemidler til behandling af mavesår eller overdreven produktion af mavesyre, kaldet 
+protonpumpeinhibitorer.
+-
+Lægemidler til behandling af smerte og betændelse, kaldet NSAID.
+-
+Afføringsmidler.
+Brug af Constella sammen med mad 
+Constella medfører hyppigere afføring og diarré (løsere afføring), når det tages med mad, end når det 
+tages på tom mave (se punkt 3). 
+Graviditet og amning 
+Der findes kun begrænset information om Constellas virkning på gravide og ammende kvinder. 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, må du kun bruge 
+denne medicin efter aftale med lægen.
+I et ammestudie med mælk alene hos syv ammende kvinder, der allerede fik behandling med
+linaclotid, blev hverken linaclotid eller dets aktive metabolit påvist i mælken. Det forventes derfor 
+ikke, at amning medfører at spædbarnet for linaclotid, og Constella kan anvendes under amning.
+27
+Trafik- og arbejdssikkerhed
+Constella vil ikke påvirke din evne til at føre motorkøretøj eller betjene maskiner.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take constella"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take constella"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. 
+Den sædvanlige dosis er en kapsel (dvs. 290 mikrogram linaclotid) oralt en gang dagligt. Kapslen skal 
+tages mindst 30 minutter før et måltid.
+Tal med lægen, hvis du ikke oplever en bedring af symptomerne efter 4 ugers behandling.
+Hvis du har taget for meget Constella
+Den mest sandsynlige virkning af at tage for meget Constella er diarré. Kontakt lægen eller apoteket, 
+hvis du har taget for meget af medicinen.
+Hvis du har glemt at tage Constella
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag blot den næste dosis på det 
+planlagte tidspunkt og fortsæt på normal vis.
+Hvis du holder op med at tage Constella
+Det er bedst at tale med lægen om at stoppe behandlingen, før du stopper. Behandling med Constella 
+kan imidlertid stoppes helt risikofrit når som helst. 
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
+Meget almindelige bivirkninger (kan forekomme hos flere end l ud af 10 patienter)
+
+Diarré 
+Diarré varer normalt ikke så længe. Hvis du imidlertid oplever svær eller langvarig diarré (hyppig eller 
+vandig afføring i 7 dage eller derover) og føler dig svimmel, omtåget eller mat, skal du holde op med 
+at tage Constella og kontakte lægen. 
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter)
+
+Mave- eller underlivssmerter
+
+Oppustet fornemmelse 
+
+Luft i maven
+
+Maveinfluenza (viral gastroenteritis)
+
+Følelse af svimmelhed
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter)
+
+Manglende kontrol over, hvornår du har afføring (fækal inkontinens)
+
+Defækationstrang
+
+Svimmelhed, hvis du rejser dig hurtigt op
+
+Dehydrering
+
+Lavt kaliumniviau i blodet
+
+Nedsat appetit
+28
+
+Blødning fra endetarmen
+
+Blødning fra tarmen eller endetarmen, inklusive blødning fra hæmorroider
+
+Kvalme
+
+Opkastning
+
+Nældefeber (urticaria)
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer)
+
+Reduceret bicarbonat i blodet
+
+Udvikling af et hul i tarmvæggen (perforering af mave-tarm-kanalen)
+Bivirkninger med hyppigheden ikke kendt (kan ikke estimeres ud fra forhåndenværende data):
+
+Udslæt
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store constella"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store constella"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og beholderen efter ¨EXP¨. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Når beholderen er åbnet, skal kapslerne anvendes inden for 18 uger.
+Må ikke opbevares ved temperaturer over 30 ºC. Hold beholderen tæt tillukket for at beskytte mod 
+fugt. 
+Advarsel: Beholderen indeholder en eller flere forseglede tørrekapsler med silicagel for at holde 
+kapslerne tørre. Lad tørrekapslerne blive i beholderen. Tørrekapslerne må ikke sluges.
+Brug ikke lægemidlet, hvis du ser nogen tegn på beskadigelse af beholderen eller nogen ændring i 
+kapslernes udseende.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Constella indeholder</h2>
+<h2>Aktivt stof: linaclotid. Hver kapsel indeholder 290 mikrogram linaclotid.</h2>
+<p>Øvrige indholdsstoffer:
+Kapselindehold: mikrokrystallinsk cellulose, hypromellose, calciumchloriddihydrat og leucin.
+Kapselskal: rød jernoxid (E172), titandioxid (E171), gul jernoxid (E172), gelatine og 
+polyethylenglycol.
+Påtrykningsblæk: shellac, propylenglykol, koncentreret ammoniakopløsning, kaliumhydroxid, 
+titandioxid (E171) og sort jernoxid (E172).
+29
+Udseende og pakningsstørrelser
+Kapslerne er hvide til off white-orange uigennemsigtige kapsler mærket ”290” med gråt blæk.
+De er pakket i en hvid, HDPE (high density polyethylen) beholder med en sikkerhedsforsegling og et 
+børnesikret skruelåg samt en eller flere tørrekapsler med silicagel.
+Constella fås i pakninger, der indeholder 10, 28 eller 90 kapsler og i multipakninger med 112 kapsler, 
+der består af 4 æsker, der hver indeholder 28 kapsler. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført.
+Indehaver af markedsføringstilladelsen
+AbbVie Deutschland GmbH &amp; Co. KG
+Knollstraße
+67061 Ludwigshafen
+Tyskland
+Fremstiller
+Allergan Pharmaceuticals International Limited
+Clonshaugh Business &amp; Technology Park 
+Dublin 17, D17 E400
+Irland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AbbVie SA
+Tél/Tel: +32 10 477811
+Lietuva
+AbbVie UAB 
+Tel: + 370 5 205 3023
+България
+АбВи ЕООД
+Тел:+359 2 90 30 430
+Luxembourg/Luxemburg
+AbbVie SA
+Belgique/Belgien
+Tél/Tel: +32 10 477811
+Česká republika
+AbbVie s.r.o.
+Tel.: +420 233 098 111
+Magyarország
+AbbVie Kft.
+Tel:+36 1 455 8600
+Danmark
+AbbVie A/S
+Tlf: +45 72 30 20 28
+Malta
+Vivian Corporation Ltd.
+Tel: +356 27780331
+Deutschland
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel.: 00800 222843 33 (gebührenfrei)
+Tel.: +49 (0) 611 / 1720-0
+Nederland
+AbbVie B.V.
+Tel: +31 (0)88 322 2843
+30
+Eesti
+AbbVie OÜ
+Tel. +372 6231011
+Norge
+AbbVie AS
+Tlf: +47 67 81 80 00
+Ελλάδα
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε.
+Τηλ: +30 214 4165 555
+Österreich
+AbbVie GmbH 
+Tel: +43 1 20589-0
+España
+AbbVie Spain, S.L.U.
+Tel: +34 913840910
+Polska
+AbbVie Sp. z o.o.
+Tel.: +48 22 372 78 00
+France
+AbbVie
+Tél: +33 (0) 1 45 60 13 00
+Portugal
+AbbVie, Lda.
+Tel.: +351 (0)21 1908400
+Hrvatska
+AbbVie d.o.o.
+Tel: + 385 (0)1 5625 501
+România
+AbbVie S.R.L.
+Tel: +40 21 529 30 35
+Ireland
+AbbVie Limited
+Tel: +353 (0)1 4287900
+Slovenija
+AbbVie Biofarmacevtska družba d.o.o.
+Tel: +386 (1)32 08 060
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AbbVie s.r.o.
+Tel: +421 2 5050 0777
+Italia
+AbbVie S.r.l.
+Tel: +39 06 928921
+Suomi/Finland
+AbbVie Oy
+Puh/Tel: +358 (0)10 2411 200
+Κύπρος
+Lifepharma (Z.A.M.) Ltd
+Τηλ: +357 22 34 74 40
+Sverige
+AbbVie AB
+Tel: +46 (0)8 684 44 600
+Latvija
+AbbVie SIA 
+Tel: +371 67605000
+United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561090
+Denne indlægsseddel blev senest ændret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-7504582d8c4f390424d8e4bfcd82fbae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for constella Package Leaflet for language en"
+Description: "ePI document Bundle for constella Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7504582d8c4f390424d8e4bfcd82fbae"
+* entry[0].resource = composition-en-7504582d8c4f390424d8e4bfcd82fbae
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7504582d8c4f390424d8e4bfcd82fbae"
+* entry[=].resource = mp7504582d8c4f390424d8e4bfcd82fbae
+                            
+                    
+Instance: bundlepackageleaflet-da-7504582d8c4f390424d8e4bfcd82fbae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for constella Package Leaflet for language da"
+Description: "ePI document Bundle for constella Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-7504582d8c4f390424d8e4bfcd82fbae"
+* entry[0].resource = composition-da-7504582d8c4f390424d8e4bfcd82fbae
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7504582d8c4f390424d8e4bfcd82fbae"
+* entry[=].resource = mp7504582d8c4f390424d8e4bfcd82fbae
+                            
+                    
+
+
+
+Instance: mp7504582d8c4f390424d8e4bfcd82fbae
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Constella 290 micrograms hard capsules"
-Description: "Constella 290 micrograms hard capsules"
+Title: "Medicinal Product constella"
+Description: "constella"
 Usage: #inline
 
  
@@ -348,7 +789,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Constella 290 micrograms hard capsules"
+  * productName = "constella"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -375,29 +816,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-7504582d8c4f390424d8e4bfcd82fbae
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for constella Package Leaflet for language en"
-Description: "ePI document Bundle for constella Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 7504582d8c4f390424d8e4bfcd82fbaeListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/801/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "constella"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-7504582d8c4f390424d8e4bfcd82fbae"
-* entry[0].resource = composition-en-7504582d8c4f390424d8e4bfcd82fbae
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb474a9b9316f26ed7b87c7aa2cee637e"
-* entry[=].resource = mpb474a9b9316f26ed7b87c7aa2cee637e
-                            
-                      
+* title = "List of all ePIs associated with constella"
+
+* subject = Reference(mpb474a9b9316f26ed7b87c7aa2cee637e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#constella "constella"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-7504582d8c4f390424d8e4bfcd82fbae) // constella en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-7504582d8c4f390424d8e4bfcd82fbae) // constella da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-7504582d8c4f390424d8e4bfcd82fbae
+InstanceOf: List
+
+* insert 7504582d8c4f390424d8e4bfcd82fbaeListRuleset
+    

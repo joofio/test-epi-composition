@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-7957aafe253d586bcd1a37e5702661ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for hetlioz Package Leaflet"
@@ -305,12 +308,396 @@ Tel: +49 (0)30 800 98This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-7957aafe253d586bcd1a37e5702661ef
+InstanceOf: CompositionUvEpi
+Title: "Composition for hetlioz Package Leaflet"
+Description:  "Composition for hetlioz Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb81dfb5a762a9951211e527b6f56d795)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb81dfb5a762a9951211e527b6f56d795
+* title = "TEST PURPOSES ONLY - hetlioz"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage HETLIOZ  </li>
+<li>Sådan skal du tage HETLIOZ   </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What hetlioz is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What hetlioz is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>HETLIOZ indeholder det aktive stof tasimelteon. Denne type lægemiddel kaldes en “melatoninagonist" og 
+virker som en regulator af kroppens døgnrytme. </p>
+<p>Det anvendes til behandling af søvnforstyrrelsen Non-24-Hour Sleep-Wake Disorder (Non-24) hos voksne, 
+der er totalt blinde. </p>
+<p>Sådan virker HETLIOZ 
+Hos seende personer bevirker ændringen fra dagslys til nat, at kroppens indre døgnrytme bliver 
+synkroniseret, så man er søvnig om natten og aktiv om dagen. Kroppen regulerer disse rytmer ad en lang 
+række veje, herunder gennem tiltagende og aftagende produktion af hormonet melatonin.  </p>
+<p>Fuldstændig blinde patienter med Non-24 kan ikke se lys. Derfor kommer deres kropsrytme ud af trit med 
+24-timers verdenen, så de i perioder er søvnige om dagen og søvnløse om natten. Det aktive stof i HETLIOZ, 
+tasimelteon, kan virke som en tidstager for kroppens rytmer og regulere dem hvert døgn. Det retter kroppens 
+rytmer ind efter den normale 24-timers dag-og-nat cyklus og giver derved et bedre søvnmønster. Der er 
+forskelle i kropsrytme hos forskellige personer, og det kan således tage flere uger eller op til 3 måneder, før 
+der mærkes bedring i symptomerne.   </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take hetlioz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take hetlioz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke HETLIOZ: 
+hvis du er allergisk over for tasimelteon eller et af de øvrige indholdsstoffer i dette lægemiddel (angivet i 
+afsnit 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Når du har taget HETLIOZ, skal du gøre dig klar til at gå i seng og kun gøre, hvad du plejer at gøre, før du 
+går i seng. </p>
+<p>Børn og unge 
+Giv ikke HETLIOZ til børn under 18 år.  Dette skyldes, at HETLIOZ ikke er testet hos personer under 18 år, 
+og virkningerne kendes ikke.  </p>
+<p>Brug af anden medicin sammen med HETLIOZ 
+Fortæl det altid til lægen eller på apoteket, hvis du bruger anden medicin, har gjort det for nylig eller 
+påtænker at gøre det. Dette gælder således:</p>
+<ul>
+<li>lægemidler, der nedsætter aktiviteten af enzymet CYP1A2. Et eksempel er fluvoxamin, der anvendes 
+mod depression og mod tvangstanker og tvangshandlinger (obsessiv-kompulsiv lidelse (OCD)),   </li>
+<li>lægemidler, der nedsætter aktiviteten af enzymet CYP3A4. Et eksempel er ketoconazol, der 
+anvendes til behandling af svampeinfektioner, </li>
+<li>lægemidler, der øger aktiviteten af enzymet CYP3A4. Et eksempel er rifampicin, der anvendes til 
+behandling af tuberkulose, </li>
+<li>lægemidler, der nedsætter aktiviteten af enzymet CYP2C19. Et eksempel er omeprazol, der anvendes 
+til behandling af halsbrand og tilbageløb af maveindholdet (gastroøsofagealt reflukssygdom), </li>
+<li>lægemidler af typen betablokkere, der anvendes mod højt blodtryk og andre hjerteproblemer. Som 
+eksempel kan nævnes atenolol, metoprolol og propranolol. </li>
+</ul>
+<p>Hvis ét eller flere af ovenstående punkter passer på dig (eller du ikke er sikker), skal du tale med lægen eller 
+apotekspersonalet, inden du tager HETLIOZ. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har en formodning om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge lægen eller apotekspersonalet til råds, før du bruger dette lægemiddel.  Som en forsigtighedsregel 
+foretrækkes det at undgå brug af tasimelteon under graviditet. Hvis du bliver gravid, mens du tager 
+HETLIOZ, skal du straks kontakte lægen, da det anbefales ikke at bruge HETLIOZ, når man er gravid eller 
+ammer. </p>
+<p>HETLIOZ indeholder lactose<br />
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>HETLIOZ indeholder Orange Yellow S (E110) 
+Sig det til lægen, hvis du er allergisk over for Orange Yellow S (E110).<br />
+ HETLIOZ indeholder Orange Yellow S (E110), som kan forårsage allergiske reaktioner. </p>
+<p>HETLIOZ indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take hetlioz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take hetlioz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg lægen 
+eller på apoteket. </p>
+<p>Hvor meget skal du tage? 
+Den anbefalede dosis er én kapsel hver aften, som tages en time før sengetid. Prøv at tage lægemidlet på 
+samme klokkeslæt hver aften. På grund af individuelle forskelle i kropsrytme kan det tage uger eller op til tre 
+måneder, før du mærker bedring i dine symptomer. Derfor vil lægen måske bede dig tage HETLIOZ i op til 
+tre måneder og vil først derefter kontrollere, om det virker på dig. </p>
+<p>Sådan skal du tage HETLIOZ 
+- Tag lægemidlet gennem munden. 
+- Synk kapslen hel.<br />
+- Tag helst HETLIOZ på tom mave, da føde kan nedsætte den mængde af lægemidlet, der optages i 
+kroppen. Hvis du spiser et fedtrigt måltid omkring det tidspunkt, hvor du plejer at tage lægemidlet, er 
+det bedst at vente to timer med at tage HETLIOZ.<br />
+- For at åbne flasken skal du trykke låget ned og skrue modsat urretningen. </p>
+<p>Hvis du har taget for meget HETLIOZ 
+Hvis du er kommet til at tage mere HETLIOZ end lægen har anbefalet, skal du straks kontakte lægen eller 
+nærmeste akutmodtagelse for at få rådgivning. Tag flasken med dig, så du let kan beskrive, hvad du har 
+taget. </p>
+<p>Hvis du har glemt at tage HETLIOZ 
+- Overspring den glemte dosis. Tag næste dosis til sædvanlig tid næste dag. Du skal ikke tage en 
+dobbelt dosis. </p>
+<p>Hvis du holder op med at tage HETLIOZ 
+Du må ikke holde op med at tage HETLIOZ uden at have talt med lægen.<br />
+- Hvis du ikke tager HETLIOZ hver aften, vil din krop igen komme ud af trit med den normale 24-
+timers døgnrytme. Det vil få symptomerne til at komme igen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Følgende 
+bivirkninger kan forekomme med dette lægemiddel: </p>
+<p>Meget almindelig: forekommer hos mere end 1 ud af 10 personer 
+- hovedpine </p>
+<p>Almindelig: forekommer hos op til 1 ud af 10 personer) 
+- ændret søvnmønster 
+- søvnbesvær 
+- svimmelhed 
+- mundtørhed 
+- træthed 
+- fordøjelsesbesvær 
+- kvalme 
+- ændring i blodprøver, der viser hvordan leveren fungerer (alaninaminotransferase) 
+- usædvanlige drømme 
+- søvnighed </p>
+<p>Ikke almindelig: forekommer hos op til 1 ud af 100 personer) 
+- unormale eller ændrede smagsindtryk 
+- ændring i blodprøver, der viser hvordan leveren fungerer (aspartataminotransferase og 
+gammaglutamyltransferase)  </p>
+<ul>
+<li>hyppigere vandladning i dagtimerne </li>
+<li>mareridt </li>
+<li>ringen for ørerne </li>
+<li>omtågethed </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om dette lægemiddels 
+sikkerhed. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store hetlioz"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store hetlioz"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Brug ikke dette lægemiddel efter den udløbsdato, der står på etiketten og på kartonen. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </li>
+<li>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.Opbevares i den 
+originale emballage og flasken skal holdes tæt tillukket for at beskytte mod fugt og lys. </li>
+<li>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg 
+på apoteket, hvordan du skal bortskaffe medicinrester. Derved skåner du miljøet. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>HETLIOZ indeholder: <br />
+− 
+Aktivt stof: tasimelteon. Hver hård kapsel indeholder 20 mg tasimelteon. 
+− 
+Øvrige indholdsstoffer: vandfri laktose, mikrokrystallinsk cellulose, croscarmellosenatrium, silica, 
+vandfri kolloid  og magnesiumstearat.<br />
+− 
+Kapslens skal består af gelatine, titaniumdioxid, Brilliant Blue FCF, erytrocin og Orange Yellow S 
+(E110). <br />
+− 
+Den hvide trykfarve indeholder shellac, propylenglycol, natriumhydroxid, povidon og titaniumdioxid. </p>
+<p>Udseende og pakningsstørrelser 
+HETLIOZ, hårde kapsler, er uigennemsigtige mørkeblå kapsler påtrykt “VANDA 20 mg" med hvid farve. 
+Hver flaske har børnesikret låg og indeholder 30 hårde kapsler.  </p>
+<p>Indehaver af markedsføringstilladelsen 
+Vanda Pharmaceuticals Netherlands B.V. 
+Basisweg 10<br />
+1043 AP Amsterdam 
+Holland </p>
+<p>Fremstiller </p>
+<p>AcertiPharma B.V. 
+Boschstraat 51<br />
+4811 GC Breda 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tél/Tel: +49 0 30 800 98Lietuva 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: (+490) 30 800 98 
+България 
+Vanda Pharmaceuticals Netherlands B.V. 
+Teл: +49 0 30 800 98 
+Luxembourg/Luxemburg 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tél/Tel: +49 0 30 800 98Česká republika 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98Magyarország 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tél./Tel. +49 0 30 800 98Danmark 
+Malta 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf: +49 0 30 800 98Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+Deutschland 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+Nederland 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98Eesti 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98Norge 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf: +49 0 30 800 98 
+Ελλάδα 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tηλ.: +49 0 30 800 98Österreich 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+España 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98Polska 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tél./Tel. +49 0 30 800 98 
+Frankrig 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tél: +49 0 30 800 98Portugal 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+Hrvatska 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+România 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+Irleand 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+Slovenija 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+Ísland 
+Vanda Pharmaceuticals Netherlands B.V. 
+Sími: +49 0 30 800 98Slovenská republika 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+Italia 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98Suomi/Finland 
+Vanda Pharmaceuticals Netherlands B.V. 
+Puh/Tel: +49 0 30 800 98 
+Κύπρος 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tηλ: +49 0 30 800 98Sverige 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 
+Latvija 
+Vanda Pharmaceuticals Netherlands B.V. 
++49 0 30 800 98Det Forenede Kongerige (Nordirland) 
+Vanda Pharmaceuticals Netherlands B.V. 
+Tlf.: +49 0 30 800 98 </p>
+<p>Denne indlægsseddel blev senest revideret   </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere information om dette lægemiddel på Det europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-7957aafe253d586bcd1a37e5702661ef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hetlioz Package Leaflet for language en"
+Description: "ePI document Bundle for hetlioz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7957aafe253d586bcd1a37e5702661ef"
+* entry[0].resource = composition-en-7957aafe253d586bcd1a37e5702661ef
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7957aafe253d586bcd1a37e5702661ef"
+* entry[=].resource = mp7957aafe253d586bcd1a37e5702661ef
+                            
+                    
+Instance: bundlepackageleaflet-da-7957aafe253d586bcd1a37e5702661ef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hetlioz Package Leaflet for language da"
+Description: "ePI document Bundle for hetlioz Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-7957aafe253d586bcd1a37e5702661ef"
+* entry[0].resource = composition-da-7957aafe253d586bcd1a37e5702661ef
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7957aafe253d586bcd1a37e5702661ef"
+* entry[=].resource = mp7957aafe253d586bcd1a37e5702661ef
+                            
+                    
+
+
+
+Instance: mp7957aafe253d586bcd1a37e5702661ef
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product HETLIOZ 20 mg hard capsules"
-Description: "HETLIOZ 20 mg hard capsules"
+Title: "Medicinal Product hetlioz"
+Description: "hetlioz"
 Usage: #inline
 
  
@@ -330,7 +717,7 @@ Usage: #inline
 
 
 * name
-  * productName = "HETLIOZ 20 mg hard capsules"
+  * productName = "hetlioz"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -357,29 +744,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-7957aafe253d586bcd1a37e5702661ef
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for hetlioz Package Leaflet for language en"
-Description: "ePI document Bundle for hetlioz Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 7957aafe253d586bcd1a37e5702661efListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1008/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "hetlioz"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-7957aafe253d586bcd1a37e5702661ef"
-* entry[0].resource = composition-en-7957aafe253d586bcd1a37e5702661ef
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb81dfb5a762a9951211e527b6f56d795"
-* entry[=].resource = mpb81dfb5a762a9951211e527b6f56d795
-                            
-                      
+* title = "List of all ePIs associated with hetlioz"
+
+* subject = Reference(mpb81dfb5a762a9951211e527b6f56d795)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#hetlioz "hetlioz"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-7957aafe253d586bcd1a37e5702661ef) // hetlioz en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-7957aafe253d586bcd1a37e5702661ef) // hetlioz da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-7957aafe253d586bcd1a37e5702661ef
+InstanceOf: List
+
+* insert 7957aafe253d586bcd1a37e5702661efListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f005fd757731f79c852474cccf35506b
 InstanceOf: CompositionUvEpi
 Title: "Composition for opdualag Package Leaflet"
@@ -436,12 +439,771 @@ Tel: +44 (0)800 731 1medical.information@bms.com </p>
 
 
 
+Instance: composition-da-f005fd757731f79c852474cccf35506b
+InstanceOf: CompositionUvEpi
+Title: "Composition for opdualag Package Leaflet"
+Description:  "Composition for opdualag Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7f95db63e1fb2f8242371003a02a6bbf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7f95db63e1fb2f8242371003a02a6bbf
+* title = "TEST PURPOSES ONLY - opdualag"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får Opdualag </li>
+<li>Sådan skal du bruge Opdualag </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What opdualag is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What opdualag is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opdualag er et lægemiddel mod kræft, der anvendes til at behandle fremskredent melanom (en 
+bestemt type hudkræft, modermærkekræft, som kan sprede sig til andre dele af kroppen). Det kan 
+anvendes hos voksne og unge i alderen 12 år og derover. </p>
+<p>Opdualag indeholder to aktive stoffer: nivolumab og relatlimab. Begge aktive stoffer er monoklonale 
+antistoffer, det vil sige proteiner, der er designet til at genkende og binde sig til bestemte stoffer i 
+kroppen. Nivolumab binder sig til et målprotein, der kaldes PD-1. Relatlimab binder sig til et 
+målprotein, der kaldes LAG-3. PD-1 og LAG-3 kan slukke for aktiviteten af T-cellerne (en type hvide blodlegemer, der udgør en del 
+af immunsystemet, kroppens naturlige forsvarssystem). Ved at binde sig til de to proteiner blokerer 
+nivolumab og relatlimab deres virkninger og forhindrer dem i at slukke for aktiveringen af dine 
+T-celler. Dette er med til at øge T-celleaktiviteten mod modermærkekræftcellerne. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take opdualag"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take opdualag"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Opdualag </p>
+<ul>
+<li>hvis du er allergisk over for nivolumab, relatlimab eller et af de øvrige indholdsstoffer i 
+Opdualag (angivet i afsnit 6). Tal med lægen, hvis du er i tvivl. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du får Opdualag, da Opdualag kan medføre: </p>
+<ul>
+<li>
+<p>Problemer med lungerne som f.eks. vejrtrækningsbesvær eller hoste. Det kan være tegn på en 
+betændelseslignende reaktion (inflammation) i lungerne (pneumonitis eller interstitiel 
+lungesygdom). </p>
+</li>
+<li>
+<p>Diarré (vandig, løs eller blød afføring) eller tarmbetændelse (colitis) med symptomer som f.eks. 
+mavesmerter og slim eller blod i afføringen. </p>
+</li>
+<li>
+<p>Leverbetændelse (hepatitis). Tegn og symptomer på hepatitis kan være unormale prøveresultater 
+for leverfunktionen, gulfarvning af øjnene eller huden (gulsot), smerter i den højre side af 
+maven eller træthed. </p>
+</li>
+<li>
+<p>Betændelse i nyrerne eller problemer med nyrerne. Tegn og symptomer kan være unormale 
+prøveresultater for nyrefunktionen eller nedsat urinmængde. </p>
+</li>
+<li>
+<p>Problemer med hormonproducerende kirtler (herunder hypofysen, skjoldbruskkirtlen og 
+binyrerne), som kan påvirke, hvordan disse kirtler fungerer. Tegn og symptomer på, at disse 
+kirtler ikke virker korrekt, kan være voldsom træthed, vægtændringer, hovedpine og 
+synsforstyrrelser. </p>
+</li>
+<li>
+<p>Sukkersyge (diabetes), herunder et alvorligt og sommetider livstruende problem på grund af 
+syrestoffer i blodet, som produceres ved diabetes (diabetisk ketoacidose). Symptomerne kan 
+omfatte følelsen af at være mere sulten eller tørstig, end normalt, hyppig vandladningstrang, 
+vægttab, træthed eller problemer med at tænke klart, sødlig eller frugtagtig ånde, sødlig eller 
+metallisk smag i munden eller en anderledes lugt af din sved eller urin, at føle sig eller være 
+syg, mavesmerter og dybt eller hurtigt åndedræt. </p>
+</li>
+<li>
+<p>Betændelse i huden, som kan medføre alvorlige hudreaktioner (kendt som toksisk epidermal 
+nekrolyse og Stevens-Johnsons syndrom). Tegn og symptomer på en alvorlig hudreaktion kan 
+være udslæt, kløe og afskalning af huden (kan være dødelig). </p>
+</li>
+<li>
+<p>Betændelse i hjertemusklen (myocarditis). Tegn og symptomer kan omfatte brystsmerter, 
+uregelmæssigt og/eller hurtigt hjerteslag, træthed, hævede ankler eller åndenød. </p>
+</li>
+<li>
+<p>Hæmofagocytisk lymfohistiocytose. En sjælden sygdom, hvor kroppens immunsystem 
+producerer for mange celler af typen histiocytter og lymfocytter, der er normale 
+infektionsbekæmpende celler. Symptomerne kan omfatte forstørret lever og/eller milt, 
+hududslæt, hævede lymfekirtler, vejrtrækningsbesvær, tendens til blå mærker, nyreproblemer og 
+hjerteproblemer. </p>
+</li>
+<li>
+<p>Afstødning af et transplanteret fast organ. </p>
+</li>
+<li>
+<p>Graft-versus-host-sygdom efter stamcelletransplantation (hvor de transplanterede celler fra en 
+doner angriber din krops egne celler). Hvis du har fået en sådan transplantation, vil din læge 
+overveje, om du skal have behandling med Opdualag. Graft-versus-host-sygdom kan være 
+alvorlig og medføre døden. </p>
+</li>
+<li>
+<p>Infusionsreaktioner, som kan omfatte åndenød, kløe eller udslæt, svimmelhed og feber. </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du får et eller flere af disse tegn eller symptomer, eller hvis de bliver 
+værre. Du må ikke forsøge selv at behandle dine symptomer med anden medicin. Din læge vil 
+muligvis </p>
+<ul>
+<li>
+<p>give dig anden medicin for at forebygge komplikationer og mildne dine symptomer, </p>
+</li>
+<li>
+<p>udsætte din næste dosis Opdualag </p>
+</li>
+<li>
+<p>eller helt stoppe din behandling med Opdualag. 
+Du skal være opmærksom på, at disse tegn og symptomer nogle gange er forsinkede og kan opstå uger 
+eller måneder efter din sidste dosis. Inden behandlingen vil lægen undersøge din almene 
+helbredstilstand. Du vil også få taget blodprøver i løbet af behandlingen. </p>
+</li>
+</ul>
+<p>Tal med lægen eller sygeplejersken, inden du får Opdualag, hvis: </p>
+<ul>
+<li>
+<p>du har en aktiv autoimmun sygdom (en tilstand, hvor kroppen angriber sine egne celler) </p>
+</li>
+<li>
+<p>du har melanom i øjet </p>
+</li>
+<li>
+<p>du har fået at vide, at kræften har spredt sig til hjernen </p>
+</li>
+<li>
+<p>du har taget medicin, som hæmmer dit immunforsvar. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Opdualag må ikke anvendes til børn under 12 år. </p>
+<p>Brug af anden medicin sammen med Opdualag 
+Fortæl det til lægen, inden du får Opdualag, hvis du tager medicin, der hæmmer immunsystemet, som 
+f.eks. kortikosteroider, da denne type medicin kan påvirke Opdualags virkning. Når du først er i 
+behandling med Opdualag, kan lægen imidlertid godt give dig kortikosteroider for at dæmpe de 
+bivirkninger, du kan få under behandlingen. 
+Fortæl det altid til lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller 
+planlægger at tage anden medicin. Du må ikke tage anden medicin under behandlingen uden først at 
+tale med lægen. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har en formodning om, at du er gravid, eller planlægger at blive gravid, 
+skal du spørge din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Du må ikke bruge Opdualag, hvis du er gravid, medmindre lægen specifikt beder dig om det. 
+Opdualags virkning på gravide kvinder kendes ikke, men det er muligt, at de aktive stoffer, nivolumab 
+og relatlimab, kan skade det ufødte barn. </p>
+<ul>
+<li>
+<p>Du skal anvende sikker prævention, mens du er i behandling med Opdualag og i mindst 
+5 måneder efter, at du har fået den sidste dosis Opdualag, hvis du er en kvinde i den fødedygtige 
+alder. </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du bliver gravid, mens du bruger Opdualag. </p>
+</li>
+</ul>
+<p>Det er ukendt, om Opdualag udskilles i modermælk og påvirker det ammede barn. Tal med lægen om 
+fordele og risici, inden du begynder at amme under eller efter behandling med Opdualag. </p>
+<p>Trafik- og arbejdssikkerhed 
+Opdualag kan i mindre grad påvirke evnen til at føre motorkøretøj og betjene maskiner. Du skal 
+imidlertid være forsigtig, når du udfører disse aktiviteter, indtil du er sikker på, hvordan Opdualag 
+påvirker dig. </p>
+<p>Patientkort 
+Hovedbudskaberne fra denne indlægsseddel står også på det patientkort, som du har fået af din læge. 
+Det er vigtigt, at du altid har patientkortet på dig og viser det til din partner eller omsorgspersoner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take opdualag"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take opdualag"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Så meget Opdualag skal du have 
+Den anbefalede dosis ved infusion hos voksne og unge i alderen 12 år og derover er 480 mg 
+nivolumab og 160 mg relatlimab hver 4. uge. Denne dosis er fastsat for unge patienter, der vejer 
+mindst 30 kg. </p>
+<p>Afhængigt af din dosis kan den passende mængde Opdualag blive fortyndet med 
+natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning eller glucose 50 mg/ml (5 %) 
+injektionsvæske, opløsning før brug. Opdualag kan også anvendes ufortyndet.  </p>
+<p>Sådan får du Opdualag 
+Du vil få behandling med Opdualag på et hospital eller en klinik under opsyn af en erfaren læge. </p>
+<p>Du vil få Opdualag som infusion (et drop) i en vene hver 4. uge. Hver infusion tager ca. 30 minutter. </p>
+<p>Lægen vil fortsætte din behandling med Opdualag, så længe du har gavn af det, eller indtil 
+bivirkningerne bliver for alvorlige. </p>
+<p>Hvis du har glemt at få Opdualag 
+Det er meget vigtigt, at du overholder alle dine aftaler om behandling med Opdualag. Hvis du 
+glemmer en aftale, skal du bede lægen om at få en ny aftale om behandling. </p>
+<p>Hvis du holder op med at tage Opdualag 
+Hvis du stopper behandlingen, kan virkningen af medicinen ophøre. Du må ikke stoppe behandlingen 
+med Opdualag, medmindre du har aftalt det med lægen. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Lægen vil tale med dig om disse bivirkninger og forklare dig om risici og fordele ved behandlingen. </p>
+<p>Vær opmærksom på vigtige symptomer på inflammation (betændelseslignende reaktion) 
+(beskrevet i afsnit 2 under "Advarsler og forsigtighedsregler"). Opdualag virker på dit immunsystem 
+og kan forårsage betændelse i dele af kroppen. Betændelse kan give alvorlige skader i din krop, og 
+nogle betændelsestilstande kan være livstruende og kræve behandling heraf, eller ophør med 
+Opdualag. </p>
+<p>Følgende bivirkninger er blevet rapporteret med Opdualag: </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>urinvejsinfektion (infektion i den del af kroppen, hvor urin opsamles og udskilles) </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer (som transporterer ilt) og hvide blodlegemer (lymfocytter, 
+neutrofiler, leukocytter, som er en vigtig del af bekæmpelsen af infektion) </p>
+</li>
+<li>
+<p>underaktiv skjoldbruskkirtel (som kan medføre træthed eller vægtstigning) </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær, hoste </p>
+</li>
+<li>
+<p>diarré (vandig, løs eller blød afføring), opkastning, kvalme, mavesmerter, forstoppelse </p>
+</li>
+<li>
+<p>hududslæt (nogle gange med blærer), pletvis ændring af hudfarve (vitiligo), kløe </p>
+</li>
+<li>
+<p>smerter i muskler, knogler og led </p>
+</li>
+<li>
+<p>træthed eller svaghedsfølelse, feber. 
+Ændringer i resultaterne af prøver, som din læge foretager, kan vise: </p>
+</li>
+<li>
+<p>unormal leverfunktion (øget mængde leverenzymer (alkalisk fosfatase, 
+aspartataminotransferase, alaninaminotransferase) i blodet)) </p>
+</li>
+<li>
+<p>unormal nyrefunktion (øget mængde kreatinin i blodet) </p>
+</li>
+<li>
+<p>nedsat mængde natrium og magnesium og nedsat eller øget mængde calcium og kalium. </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>infektioner i de øvre luftveje (næsen og øverste del af luftvejene) </p>
+</li>
+<li>
+<p>nedsat antal blodplader (celler, som hjælper blodet med at størkne), øget mængde af bestemte 
+typer hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat udskillelse af de hormoner, der dannes i binyrerne (kirtler placeret over nyrerne), 
+betændelse i hypofysen, som sidder nederst i hjernen, overaktiv skjoldbruskkirtel, betændelse i 
+skjoldbruskkirtlen </p>
+</li>
+<li>
+<p>diabetes, lavt indhold af sukker i blodet, vægttab, højt indhold af affaldsstoffet carbamid i 
+blodet, nedsat indhold af proteinet albumin i blodet, dehydrering </p>
+</li>
+<li>
+<p>forvirring </p>
+</li>
+<li>
+<p>nervebetændelse (som medfører følelsesløshed, svaghed, snurrende fornemmelse eller 
+brændende smerter i arme og ben), svimmelhed, ændret smagssans </p>
+</li>
+<li>
+<p>øjenbetændelse (som medfører smerter og rødme, synsproblemer eller sløret syn), 
+synsproblemer, tørre øjne, overdreven tåreflåd </p>
+</li>
+<li>
+<p>betændelse i hjertemusklen </p>
+</li>
+<li>
+<p>betændelse i en blodåre (vene), som kan medføre rødme, ømhed og hævelse </p>
+</li>
+<li>
+<p>lungebetændelse (pneumonitis), kendetegnet ved hoste og vejrtrækningsbesvær, stoppet næse </p>
+</li>
+<li>
+<p>tarmbetændelse (colitis), betændelse i bugspytkirtlen, betændelse i mavesækken (gastritis), 
+synkebesvær, mundsår og forkølelsessår, mundtørhed </p>
+</li>
+<li>
+<p>leverbetændelse (hepatitis) </p>
+</li>
+<li>
+<p>usædvanligt hårtab eller udtyndning af håret (alopeci), afgrænset område med hudvækst, der 
+bliver rød og kløende (likenoid keratose), lysfølsomhed, tør hud </p>
+</li>
+<li>
+<p>smertefulde led (artritis), muskelspasmer, muskelsvaghed </p>
+</li>
+<li>
+<p>nyresvigt (ændringer i urinmængde eller -farve, blod i urinen, hævede ankler, appetitløshed), 
+høje niveauer af protein i urinen </p>
+</li>
+<li>
+<p>ødem (hævelse), influenzalignende symptomer, kulderystelser </p>
+</li>
+<li>
+<p>reaktioner i forbindelse med indgivelse af lægemidlet. 
+Ændringer i resultaterne af prøver, som din læge foretager, kan vise: </p>
+</li>
+<li>
+<p>unormal leverfunktion (højere indhold i blodet af affaldsproduktet bilirubin, højere indhold i 
+blodet af leverenzymet gammaglutamyltransferase) </p>
+</li>
+<li>
+<p>øget indhold af natrium og magnesium </p>
+</li>
+<li>
+<p>øget indhold af troponin (et protein, der udskilles i blodet, når hjertet beskadiges) </p>
+</li>
+<li>
+<p>øget indhold af det enzym, der nedbryder glucose (sukker) (lactatdehydrogenase), det enzym, 
+der nedbryder fedt (lipase) og det enzym, der nedbryder stivelse (amylase). </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>betændelse og infektion i hårsækkene </p>
+</li>
+<li>
+<p>lidelse, hvor de røde blodlegemer ødelægges hurtigere, end de kan laves (hæmolytisk anæmi) </p>
+</li>
+<li>
+<p>underaktiv hypofyse, som er en kirtel, der sidder nederst i hjernen, underaktive kirtler, der 
+producerer kønshormoner </p>
+</li>
+<li>
+<p>hjernebetændelse, som kan medføre forvirring, feber, hukommelsesbesvær eller krampeanfald 
+(encefalitis), midlertidig nervebetændelse, som medfører smerter, svækkelse og lammelse af 
+arme og/eller ben (Guillain-Barrés syndrom), betændelse i synsnerven, som kan medføre 
+komplet eller delvist synstab </p>
+</li>
+<li>
+<p>en betændelsessygdom, der påvirker øjnene, huden og hinderne i ørerne, hjernen og rygmarven 
+(Vogt-Koyanagi-Haradas sygdom), rødt øje </p>
+</li>
+<li>
+<p>væske omkring hjertet </p>
+</li>
+<li>
+<p>astma </p>
+</li>
+<li>
+<p>betændelse i spiserøret (forbindelsen mellem svælget og mavesækken) </p>
+</li>
+<li>
+<p>betændelse i galdegangen </p>
+</li>
+<li>
+<p>hududslæt og blærer på ben, arme og mave (pemfigoid), hudsygdom med fortykkede områder 
+med rød hud, ofte med sølvagtige skæl (psoriasis), nældefeber (kløende udslæt med knopper) </p>
+</li>
+<li>
+<p>betændelse i musklerne, som medfører svækkelse, hævelser og smerter, en sygdom, hvor 
+immunforsvaret angriber de kirtler, der producerer kropsvæsker, såsom tårer og spyt (Sjögrens 
+syndrom), betændelse i musklerne, som medfører smerter eller stivhed, betændelse i leddene 
+(smertefuld ledsygdom), sygdom, hvor immunforsvaret angriber sine egne væv, hvilket 
+medfører udbredt betændelse og vævsskade i de berørte organer, såsom led, hud, hjerne, lunger, 
+nyrer og blodkar (systemisk lupus erythematosus) </p>
+</li>
+<li>
+<p>nyrebetændelse </p>
+</li>
+<li>
+<p>manglende sperm i sæden. 
+Ændringer i resultaterne af prøver, som din læge foretager, kan vise: </p>
+</li>
+<li>
+<p>forhøjede niveauer af C-reaktivt protein </p>
+</li>
+<li>
+<p>forhøjet sedimentationsreaktion (blodsænkning). </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store opdualag"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store opdualag"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Opdualag på hospitalet eller klinikken, og sundhedspersoner vil være ansvarlige for 
+opbevaringen. </p>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten på hætteglasset efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
+<p>Må ikke nedfryses. 
+Opbevar hætteglasset i den ydre karton for at beskytte mod lys. 
+Det uåbnede hætteglas kan opbevares ved stuetemperaturer (op til 25 °C) i op til 72 timer. </p>
+<p>Eventuelle rester af infusionsvæsken må ikke gemmes til senere brug. Spørg apotekspersonalet, 
+hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i 
+afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opdualag indeholder: </p>
+<ul>
+<li>
+<p>Aktive stoffer: nivolumab og relatlimab. 
+En ml koncentrat til infusionsvæske, opløsning indeholder 12 mg nivolumab og 4 mg 
+relatlimab. 
+Et 20 ml hætteglas med koncentrat indeholder 240 mg nivolumab og 80 mg relatlimab. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: histidin, histidinhydrochloridmonohydrat, saccharose, pentetinsyre, 
+polysorbat 80 (E433) og vand til injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Opdualag koncentrat til infusionsvæske, opløsning (sterilt koncentrat) er en klar til opaliserende, 
+farveløs til let gul væske, der i det væsentlige er fri for partikler. 
+Det fås i kartoner med ét hætteglas af glas. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Fremstiller 
+Swords Laboratories Unlimited Company t/a Bristol-Myers Squibb Cruiserath Biologics 
+Cruiserath Road, Mulhuddart 
+Dublin 15, D15 H6EF 
+Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+N.V. Bristol-Myers Squibb Belgium S.A. 
+Tél/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
+<p>Lietuva 
+Swixx Biopharma UAB 
+Tel: + 370 52 369medinfo.lithuania@swixxbiopharma.com </p>
+<p>България 
+Swixx Biopharma EOOD 
+Teл.: + 359 2 4942 medinfo.bulgaria@swixxbiopharma.com </p>
+<p>Luxembourg/Luxemburg 
+N.V. Bristol-Myers Squibb Belgium S.A. 
+Tél/Tel: + 32 2 352 76 medicalinfo.belgium@bms.com </p>
+<p>Česká republika 
+Bristol-Myers Squibb spol. s r.o. 
+Tel: + 420 221 016 medinfo.czech@bms.com </p>
+<p>Magyarország 
+Bristol-Myers Squibb Kft. 
+Tel.: + 36 1 301 9Medinfo.hungary@bms.com </p>
+<p>Danmark 
+Bristol-Myers Squibb Denmark 
+Tlf: + 45 45 93 05 medinfo.denmark@bms.com </p>
+<p>Malta 
+A.M. Mangion Ltd 
+Tel: + 356 23976pv@ammangion.com </p>
+<p>Deutschland 
+Bristol-Myers Squibb GmbH &amp; Co. KGaA 
+Tel: 0800 0752002 (+ 49 89 121 42 350) 
+medwiss.info@bms.com </p>
+<p>Nederland 
+Bristol-Myers Squibb B.V. 
+Tel: + 31 (0)30 300 2medischeafdeling@bms.com </p>
+<p>Eesti 
+Swixx Biopharma OÜ 
+Tel: + 372 640 1medinfo.estonia@swixxbiopharma.com </p>
+<p>Norge 
+Bristol-Myers Squibb Norway Ltd. 
+Tlf: + 47 67 55 53 medinfo.norway@bms.com </p>
+<p>Ελλάδα 
+Bristol-Myers Squibb A.E. 
+Τηλ: + 30 210 6074medinfo.greece@bms.com </p>
+<p>Österreich 
+Bristol-Myers Squibb GesmbH 
+Tel: + 43 1 60 14 medinfo.austria@bms.com </p>
+<p>España 
+Bristol-Myers Squibb, S.A. 
+Tel: + 34 91 456 53 informacion.medica@bms.com </p>
+<p>Polska 
+Bristol-Myers Squibb Polska Sp. z o.o. 
+Tel.: + 48 22 2606informacja.medyczna@bms.com </p>
+<p>France 
+Bristol-Myers Squibb SAS 
+Tél: + 33 (0)1 58 83 84 infomed@bms.com </p>
+<p>Portugal 
+Bristol-Myers Squibb Farmacêutica Portuguesa, 
+S.A. 
+Tel: + 351 21 440 70 portugal.medinfo@bms.com </p>
+<p>Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: + 385 1 2078 medinfo.croatia@swixxbiopharma.com </p>
+<p>România 
+Bristol-Myers Squibb Marketing Services S.R.L. 
+Tel: + 40 (0)21 272 16 medinfo.romania@bms.com </p>
+<p>Ireland 
+Bristol-Myers Squibb Pharmaceuticals uc 
+Tel: 1 800 749 749 (+ 353 (0)1 483 3625) 
+medical.information@bms.com </p>
+<p>Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: + 386 1 2355 medinfo.slovenia@swixxbiopharma.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: + 354 535 7vistor@vistor.is 
+medical.information@bms.com </p>
+<p>Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: + 421 2 20833 medinfo.slovakia@swixxbiopharma.com<br />
+Italia 
+Bristol-Myers Squibb S.r.l. 
+Tel: + 39 06 50 39 medicalinformation.italia@bms.com </p>
+<p>Suomi/Finland 
+Oy Bristol-Myers Squibb (Finland) Ab 
+Puh/Tel: + 358 9 251 21 medinfo.finland@bms.com </p>
+<p>Κύπρος 
+Bristol-Myers Squibb A.E. 
+Τηλ:  800 92666 (+ 30 210 6074300) 
+medinfo.greece@bms.com </p>
+<p>Sverige 
+Bristol-Myers Squibb Aktiebolag 
+Tel: + 46 8 704 71 medinfo.sweden@bms.com </p>
+<p>Latvija 
+Swixx Biopharma SIA 
+Tel: + 371 66164medinfo.latvia@swixxbiopharma.com </p>
+<p>United Kingdom (Northern Ireland) 
+Bristol-Myers Squibb Pharmaceutical Limited 
+Tel: +44 (0)800 731 1medical.information@bms.com </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/ </p>
+<hr />
+<p>Nedenstående oplysninger er til sundhedspersoner: </p>
+<p>Opdualag leveres som et enkeltdosis-hætteglas og indeholder ikke konserveringsmidler. Klargøringen 
+skal foretages af uddannet personale i overensstemmelse med regler for god praksis, især hvad angår 
+aseptik. </p>
+<p>Opdualag kan anvendes til intravenøs administration enten: </p>
+<ul>
+<li>
+<p>ufortyndet efter overførsel til en infusionsbeholder ved brug af en passende steril sprøjte; eller </p>
+</li>
+<li>
+<p>efter fortynding ifølge disse instruktioner: </p>
+</li>
+<li>
+<p>den endelige infusionskoncentration skal være i intervallet mellem 3 mg/ml nivolumab og 
+1 mg/ml relatlimab til 12 mg/ml nivolumab og 4 mg/ml relatlimab </p>
+</li>
+<li>
+<p>det totale infusionsvolumen må ikke overstige 160 ml. For patienter der vejer mindre end 
+40 kg, bør det totale infusionsvolumen ikke overstige 4 ml pr. kilogram af patientens 
+vægt. </p>
+</li>
+</ul>
+<p>Opdualag-koncentrat kan fortyndes med enten: </p>
+<ul>
+<li>
+<p>natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning; eller </p>
+</li>
+<li>
+<p>glucose 50 mg/ml (5 %) injektionsvæske, opløsning. </p>
+</li>
+</ul>
+<p>Klargøring af infusion </p>
+<ul>
+<li>
+<p>Kontroller Opdualag-koncentratet for partikler eller misfarvning. Hætteglasset må ikke rystes. 
+Opdualag er en klar til opaliserende, farveløs til let gul væske. Kassér hætteglasset, hvis 
+opløsningen er uklar, misfarvet eller indeholder partikler. </p>
+</li>
+<li>
+<p>Træk det ønskede volumen af Opdualag-koncentrat op med en egnet steril sprøjte, og overfør 
+koncentratet til en steril beholder til intravenøs væske (ethylvinylacetat (EVA), polyvinylchlorid 
+(PVC) eller polyolefin). Hvert hætteglas er fyldt med 21,3 ml opløsning, som inkluderer en 
+overfyldning på 1,3 ml. </p>
+</li>
+<li>
+<p>Hvis det er relevant, fortyndes Opdualag-opløsningen med det påkrævede volumen 
+natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning eller glucose 50 mg/ml (5 %) 
+injektionsvæske, opløsning. For lettere klargøring kan koncentratet også overføres direkte til en 
+brugsklar pose, der indeholder den ønskede mængde natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske, opløsning eller glucose 50 mg/ml (5 %) injektionsvæske, opløsning. </p>
+</li>
+<li>
+<p>Blandes forsigtigt ved at bevæge beholderen manuelt. Må ikke rystes. </p>
+</li>
+</ul>
+<p>Administration 
+Opdualag infusionsvæske må ikke administreres som intravenøs push- eller bolusinjektion. </p>
+<p>Opdualag infusionsvæske skal administreres intravenøst over en periode på 30 minutter. 
+Det anbefales at anvende et infusionssæt og et sterilt, pyrogenfrit, minimalt proteinbindende in-line 
+eller add-on filter (porestørrelse 0,2 μm til 1,2 μm). </p>
+<p>Opdualag infusionsvæske er forligelig med EVA-, PVC- og polyolefinbeholdere, PVC-infusionssæt 
+og in-line filtre med membran af polyethersulfon (PES), nylon og polyvinylidenfluorid med en 
+porestørrelse på 0,2 μm til 1,2 μm. </p>
+<p>Administrer ikke andre lægemidler gennem infusionsslangen samtidigt. 
+Efter administration af Opdualag-dosen gennemskylles slangen med natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske, opløsning eller glucose 50 mg/ml (5 %) injektionsvæske, opløsning. </p>
+<p>Opbevaringsbetingelser og holdbarhed </p>
+<p>Uåbnet hætteglas 
+Opdualag skal opbevares i køleskab (2 °C til 8 °C). Hætteglassene skal opbevares i den originale 
+yderpakning for at beskytte mod lys. Opdualag må ikke nedfryses. 
+Det uåbnede hætteglas kan opbevares ved stuetemperaturer (op til 25 °C) i op til 72 timer. </p>
+<p>Brug ikke Opdualag efter den udløbsdato, der står på kartonen og etiketten på hætteglasset efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Efter klargøring af infusion 
+Kemisk og fysisk holdbarhed fra klargøringstidspunktet er blevet påvist som følgende (tiderne er 
+inklusive administrationsperioden): </p>
+<p>Klargøring af infusion 
+Kemisk og fysisk brugsstabilitet 
+Opbevaring ved 2 °C til 
+8 °C beskyttet mod lys 
+Opbevaring ved stuetemperatur 
+(≤ 25 °C) og dagslys 
+Ufortyndet eller fortyndet med 
+natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske, opløsning 
+30 dage 
+24 timer (ud af sammenlagt 30 dages 
+opbevaring) 
+Fortyndet med 50 mg/ml (5 %) 
+glucose injektionsvæske, opløsning 
+7 dage 
+24 timer (ud af sammenlagt 7 dages 
+opbevaring) </p>
+<p>Ud fra en mikrobiologisk betragtning bør den klargjorte infusionsopløsning, uanset fortyndingsmiddel, 
+anvendes straks. Hvis den ikke anvendes straks, vil opbevaringstid og opbevaringsforhold inden brug 
+være brugerens ansvar og vil normalt ikke være længere end 24 timer ved 2 °C til 8 °C, medmindre 
+klargøringen har fundet sted under kontrollerede og validerede aseptiske betingelser. </p>
+<p>Bortskaffelse 
+Eventuelle rester af infusionsvæsken må ikke gemmes til senere brug. Ikke anvendt lægemiddel samt 
+affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f005fd757731f79c852474cccf35506b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opdualag Package Leaflet for language en"
+Description: "ePI document Bundle for opdualag Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f005fd757731f79c852474cccf35506b"
+* entry[0].resource = composition-en-f005fd757731f79c852474cccf35506b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf005fd757731f79c852474cccf35506b"
+* entry[=].resource = mpf005fd757731f79c852474cccf35506b
+                            
+                    
+Instance: bundlepackageleaflet-da-f005fd757731f79c852474cccf35506b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opdualag Package Leaflet for language da"
+Description: "ePI document Bundle for opdualag Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f005fd757731f79c852474cccf35506b"
+* entry[0].resource = composition-da-f005fd757731f79c852474cccf35506b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf005fd757731f79c852474cccf35506b"
+* entry[=].resource = mpf005fd757731f79c852474cccf35506b
+                            
+                    
+
+
+
+Instance: mpf005fd757731f79c852474cccf35506b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Opdualag 240 mg/80 mg concentrate for solution for infusion"
-Description: "Opdualag 240 mg/80 mg concentrate for solution for infusion"
+Title: "Medicinal Product opdualag"
+Description: "opdualag"
 Usage: #inline
 
  
@@ -461,7 +1223,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Opdualag 240 mg/80 mg concentrate for solution for infusion"
+  * productName = "opdualag"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -488,29 +1250,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f005fd757731f79c852474cccf35506b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for opdualag Package Leaflet for language en"
-Description: "ePI document Bundle for opdualag Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f005fd757731f79c852474cccf35506bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1679/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "opdualag"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f005fd757731f79c852474cccf35506b"
-* entry[0].resource = composition-en-f005fd757731f79c852474cccf35506b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7f95db63e1fb2f8242371003a02a6bbf"
-* entry[=].resource = mp7f95db63e1fb2f8242371003a02a6bbf
-                            
-                      
+* title = "List of all ePIs associated with opdualag"
+
+* subject = Reference(mp7f95db63e1fb2f8242371003a02a6bbf)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#opdualag "opdualag"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f005fd757731f79c852474cccf35506b) // opdualag en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f005fd757731f79c852474cccf35506b) // opdualag da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f005fd757731f79c852474cccf35506b
+InstanceOf: List
+
+* insert f005fd757731f79c852474cccf35506bListRuleset
+    

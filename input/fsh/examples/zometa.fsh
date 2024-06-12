@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-4e6edbbda0e498fd507a1a54a60c6d4b
 InstanceOf: CompositionUvEpi
 Title: "Composition for zometa Package Leaflet"
@@ -331,12 +334,525 @@ exploitant@eurodep.fr </p>
 
 
 
+Instance: composition-da-4e6edbbda0e498fd507a1a54a60c6d4b
+InstanceOf: CompositionUvEpi
+Title: "Composition for zometa Package Leaflet"
+Description:  "Composition for zometa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp01bdbe09da7ce51b57f1ec8447dad02a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp01bdbe09da7ce51b57f1ec8447dad02a
+* title = "TEST PURPOSES ONLY - zometa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får behandling med Zometa </li>
+<li>Sådan gives Zometa </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zometa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zometa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Zometa er zoledronsyre, der tilhører en gruppe af stoffer kaldet bisfosfonater. 
+Zoledronsyre virker ved at binde sig til knoglerne og nedsætte knogleomsætningshastigheden. Det 
+bruges til: </p>
+<ul>
+<li>
+<p>At forebygge knoglekomplikationer, fx knoglebrud, hos voksne patienter med 
+knoglemetastaser (spredning af kræft fra den primære kræftknude til knoglerne). </p>
+</li>
+<li>
+<p>At nedsætte mængden af calcium i blodet hos voksne, hvor det er for højt som følge af 
+tilstedeværelsen af en tumor. Tumorer kan accelerere den normale knogleomsætning på en 
+sådan måde, at afgivelsen af calcium fra knoglerne forøges. Denne tilstand kaldes 
+tumorinduceret hyperkalcæmi (TIH). </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zometa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zometa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følg nøje alle instruktioner, som du har fået af din læge. </p>
+<p>Lægen vil tage en blodprøve, inden du begynder behandling med Zometa, og vil med regelmæssige 
+mellemrum kontrollere, hvordan du reagerer på behandlingen. </p>
+<p>Du må ikke få Zometa: 
+− 
+hvis du ammer. 
+− 
+hvis du er allergisk over for zoledronsyre, et andet bisfosfonat (den gruppe af stoffer, som 
+Zometa tilhører) eller et af de øvrige indholdsstoffer i Zometa (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du får Zometa: 
+− 
+hvis du har eller har haft en nyrelidelse. 
+− 
+hvis du har eller har haft smerte, hævelse eller fornemmelse af følelsesløshed i kæben, 
+følelsen af tyngde i kæben eller af løse tænder. Din læge vil måske bede dig om at få et 
+tandeftersyn, før du starter behandling med Zometa. 
+− 
+hvis du er under tandlægebehandling eller skal have en tandoperation, bør du fortælle </p>
+<p>tandlægen, at du er i behandling med Zometa og informere din læge om tandlægebehandlingen. </p>
+<p>Mens du er i behandling med Zometa, skal du holde en god mundhygiejne (inkl. regelmæssig 
+tandbørstning) og gå til regelmæssige tandeftersyn. </p>
+<p>Kontakt straks din læge eller tandlæge, hvis du får nogle problemer med din mund eller tænder, som 
+fx tab af tænder, smerte eller hævelse, eller manglende sårheling eller pus fra såret, da dette kan være 
+tegn på en tilstand kaldet osteonekrose i kæben. </p>
+<p>Patienter, der er i kemoterapi og/eller strålebehandling, som er i steroidbehandling, som skal have en 
+tandoperation, som ikke går til regelmæssige tandeftersyn, som har sygdomme i tandkødet, som er 
+rygere eller som tidligere har været i behandling med bisfosfonater (bruges til at forebygge 
+knoglesygdomme) kan have en højere risiko for at udvikle osteonekrose i kæberne. </p>
+<p>Nedsat indhold af calcium i blodet (hypokalcæmi), som kan medføre muskelkramper, tør hud, en 
+brændende følelse, er indberettet for patienter i behandling med Zometa. Uregelmæssig hjerterytme 
+(hjertearytmi), anfald, spasmer og krampetilfælde (tetani) er indberettet som sekundære symptomer 
+ved alvorlig hypokalcæmi. I nogle tilfælde kan hypokalcæmien være livstruende. Fortæl det straks til 
+din læge, hvis du oplever nogen af disse symptomer. Hvis du har hypokalcæmi, skal den korrigeres, 
+inden du får den første dosis af Zometa. Du skal have tilstrækkeligt tilskud af calcium og vitamin D. </p>
+<p>Patienter i alderen 65 år og derover 
+Zometa kan gives til patienter i alderen 65 år og derover. Der er intet, der tyder på, at der kræves 
+særlige forholdsregler. </p>
+<p>Børn og unge 
+Zometa bør ikke bruges til børn og teenagere under 18 år. </p>
+<p>Brug af anden medicin sammen med Zometa 
+Fortæl det altid til lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller 
+planlægger at bruge anden medicin. Det er især vigtigt, at du fortæller lægen, hvis du også får: 
+– 
+Aminoglykosider (en type medicin til behandling af alvorlige infektioner), calcitonin (en type 
+medicin til behandling knogleskørhed efter menopausen og til for højt calcium), slyngediuretika 
+(vanddrivende medicin til behandling af forhøjet blodtryk eller væskesamlinger) eller anden 
+medicin, der sænker calcium, da kombinationen af disse stoffer og bisfosfonater kan forårsage, 
+at blodets indhold af calcium bliver for lavt. 
+– 
+Thalidomid (medicin brugt til at behandle en bestemt type blodkræft, der involverer knoglerne) 
+eller anden medicin, der kan skade nyrerne. 
+– 
+Aclasta (medicin, der også indeholder zoledronsyre og bruges til at behandle knogleskørhed og 
+andre ikke-kræft sygdomme i knoglerne), eller andre bisfosfonater, da den kombinerede effekt 
+af at tage disse lægemidler sammen med Zometa er ukendt. 
+– 
+Anti-angiogenetisk medicin (brugt til behandling af kræft), da kombination af dette og Zometa 
+har været forbundet med en øget risiko for osteonekrose i kæberne. </p>
+<p>Graviditet og amning 
+Du bør ikke få Zometa, hvis du er gravid. Fortæl lægen, hvis du er gravid eller tror, du er det. </p>
+<p>Du må ikke få Zometa, hvis du ammer. </p>
+<p>Spørg din læge til råds, før du tager nogen form for medicin, mens du er gravid, eller hvis du ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Der har været meget sjældne tilfælde af døsighed og søvnighed ved brug af Zometa. Vær derfor særlig 
+opmærksom når du kører bil, betjener maskiner eller udfører andre opgaver, der kræver din fulde 
+opmærksomhed. </p>
+<p>Zometa indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
+væsentlige natriumfrit. Hvis din læge anvender en almindelig saltvandsopløsning til at fortynde 
+Zometa med, vil natriummængden pr. dosisenhed være større. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zometa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zometa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>– 
+Zometa må kun gives af sundhedspersoner, som er trænet til at indgive bisfosfonater 
+intravenøst, dvs. gennem en blodåre. 
+– 
+For at undgå væskemangel skal du følge lægens anvisninger og drikke rigeligt med vand inden 
+infusionerne. 
+– 
+Følg nøje alle de andre instruktioner, som du har fået af din læge, apotekspersonalet eller af 
+sygeplejersken. </p>
+<p>Hvor meget Zometa skal du have 
+– 
+Den normale enkeltdosis er 4 mg. 
+– 
+Hvis du har problemer med nyrerne, vil lægen give dig en lavere dosis afhængig af 
+sværhedsgraden af dine nyreproblemer. </p>
+<p>Hvor ofte skal du have Zometa 
+– 
+Hvis du er i forebyggende behandling for knoglekomplikationer pga. knoglemetastaser, vil du få 
+en infusion af Zometa hver tredje til fjerde uge. 
+– 
+Hvis du er i behandling for at nedsætte calciumindholdet i blodet, vil du som regel kun få én 
+infusion med Zometa. </p>
+<p>Hvordan får du Zometa 
+– 
+Zometa gives som drop (infusion) i en vene. Infusionen bør vare mindst 15 minutter og skal 
+gives som en enkelt intravenøs infusion i en separat infusionsslange. </p>
+<p>Patienter, som ikke har for højt calciumindhold i blodet, vil få ordineret dagligt tilskud af calcium og 
+D-vitamin. </p>
+<p>Hvis du har fået mere Zometa, end du skulle have haft 
+Hvis du har fået højere doser end dem, der er anbefalet, skal du nøje overvåges af din læge. Grunden 
+er, at du måske kan udvikle serum-elektrolyt afvigelser (fx unormale niveauer af calcium, fosfor og 
+magnesium) og/eller ændringer i nyrefunktionen, inkl. alvorlig nedsat nyrefunktion. Hvis dit 
+calciumniveau falder for meget, skal du måske have ekstra calcium tilført som infusion. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+mest almindelige bivirkninger er normalt milde og vil sandsynligvis forsvinde efter kort tid. </p>
+<p>Giv straks lægen besked, hvis du bemærker en eller flere af nedenstående bivirkninger: </p>
+<p>Almindelig (forekommer hos op til 1 ud af 10 patienter): 
+– 
+Svært nedsat nyrefunktion (vil normalt blive afgjort af din læge ved hjælp af en speciel type 
+blodprøver). 
+– 
+Lavt niveau af calcium i blodet. </p>
+<p>Ikke almindelig (forekommer hos op til 1 ud af 100 patienter): 
+– 
+Smerter i munden, tænder og/eller kæberne, hævelse eller ikke helende sår inde i munden eller 
+kæben, udflåd af gullig betændelse, følelsesløshed eller følelsen af tyngde i kæberne eller løsnen 
+af en tand. Disse symptomer kan være tegn på skade i kæbeknoglerne (osteonekrose). Fortæl det 
+straks til din læge eller tandlæge, hvis du får sådanne symptomer, mens du er i behandling med </p>
+<p>Zometa eller efter behandlingsophør. 
+– 
+Uregelmæssig hjerterytme (atrieflimren) er set hos patienter, der fik zoledronsyre for 
+postmenopausal osteoporose. Det er på nuværende tidspunkt uklart, om zoledronsyre forårsager 
+uregelmæssig hjerterytme, men du skal sige det til din læge, hvis du oplever sådanne 
+symptomer efter, at du har fået zoledronsyre. 
+– 
+Alvorlige overfølsomhedsreaktioner: åndenød, hævelse hovedsageligt i ansigt og hals. </p>
+<p>Sjælden (forekommer hos op til 1 ud af 1.000 patienter): 
+– 
+Som følge af lave calcium-værdier: uregelmæssig hjerterytme (hjertearytmi; sekundære 
+symptomer på hypokalcæmi). 
+– 
+En nyresygdom, der hedder Fanconis syndrom (vil normalt blive fastslået af din læge med nogle 
+bestemte urinprøver). </p>
+<p>Meget sjælden (forekommer hos op til 1 ud af 10.000 patienter): 
+– 
+Som følge af lave calcium-værdier: kramper, følelsesløshed og tetani (sekundære symptomer på 
+hypokalcæmi). 
+– 
+Sig det til lægen, hvis du får øresmerter, udflåd fra øret og/eller betændelse i øret. Dette kan 
+være tegn på knoglebeskadigelse i øret. 
+– 
+Der er i meget sjældne tilfælde set osteonekrose af andre knogler end kæben, særligt af hoften 
+eller låret. Fortæl det straks til din læge, hvis du oplever symptomer så som nyopstået ømhed, 
+smerte eller stivhed, eller en forværring af disse symptomer, mens du er i behandling med 
+Zometa eller efter endt behandling. </p>
+<p>Giv lægen besked så hurtigt som muligt, hvis du bemærker en eller flere af nedenstående 
+bivirkninger: </p>
+<p>Meget almindelig (forekommer hos flere end 1 ud af 10 patienter): 
+– 
+Lavt fosfatindhold i blodet. </p>
+<p>Almindelig (forekommer hos op til 1 ud af 10 patienter): 
+– 
+Hovedpine og influenzalignende symptomer som feber, træthed, svaghed, døsighed, 
+kulderystelser samt knogle-, led- og/eller muskelsmerter. De fleste tilfælde har ikke krævet 
+speciel behandling, og symptomerne er forsvundet efter kort tid (nogle timer eller dage). 
+– 
+Mave-tarm-symptomer såsom kvalme og opkastning samt appetitløshed. 
+– 
+Betændelse i øjets bindehinde. 
+– 
+Lavt antal røde blodceller (anæmi). </p>
+<p>Ikke almindelig (forekommer hos op til 1 ud af 100 patienter): 
+– 
+Overfølsomhedsreaktioner. 
+– 
+Lavt blodtryk. 
+– 
+Brystsmerter. 
+– 
+Hudreaktioner (rødme og hævelse) på infusionsstedet, udslæt, kløe. 
+– 
+Forhøjet blodtryk, åndenød, svimmelhed, angst, søvnforstyrrelser, smagsforstyrrelser, rysten, 
+følelsesløshed eller prikkende fornemmelse i hænder eller fødder, diarré, forstoppelse, 
+mavesmerter, mundtørhed. 
+– 
+Lavt antal hvide blodceller og blodplader. 
+– 
+Lavt indhold af magnesium og kalium i blodet. Din læge vil kontrollere dette og tage alle de 
+nødvendige forholdsregler. 
+– 
+Vægtøgning. 
+– 
+Øget svedtendens. 
+− 
+Søvnighed. 
+− 
+Sløret syn, tåreflåd, lysfølsomhed i øjnene. 
+− 
+Pludselig opstået kuldefølelse med besvimelse, slaphed eller kollaps. 
+− 
+Vejrtrækningsbesvær med hiven efter vejret eller hosten. 
+− 
+Nældefeber. </p>
+<p>Sjælden (forekommer hos op til 1 ud af 1.000 patienter): 
+– 
+Langsom hjerterytme. 
+– 
+Forvirring. 
+– 
+Usædvanlige brud på lårbensknoglen, primært hos patienter i langtidsbehandling for 
+osteoporose kan forekomme i sjældne tilfælde. Kontakt lægen, hvis du får smerter, svaghed 
+eller ubehag i låret, hoften eller lysken, idet det kan være tidlige tegn på et muligt brud på 
+lårbensknoglen. 
+– 
+Interstitiel lungesygdom (sygdom i alveolevævet). 
+– 
+Influenza-lignende symptomer herunder gigt (artritis) og hævede led. 
+– 
+Smertefuld rødme og/eller hævelse af øjet. </p>
+<p>Meget sjælden (forekommer hos op til 1 ud af 10.000 patienter): 
+– 
+Besvimelse på grund af lavt blodtryk. 
+– 
+Kraftige knogle-, led- og/eller muskelsmerter, lejlighedsvis invaliderende. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zometa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zometa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen, apotekspersonalet eller sundhedspersoner ved, hvordan Zometa skal opbevares korrekt (se 
+afsnit 6). </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zometa indeholder 
+− 
+Aktivt stof: zoledronsyre. Et hætteglas indeholder 4 mg zoledronsyre, svarende til 4,264 mg 
+zoledronsyremonohydrat. 
+− 
+Øvrige indholdsstoffer: mannitol, natriumcitrat, vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser 
+Zometa leveres som pulver i et hætteglas. Et hætteglas indeholder 4 mg zoledronsyre. </p>
+<p>Hver pakning indeholder hætteglas med pulver sammen med en ampul med 5 ml vand til 
+infusionsvæsker, som skal bruges til at opløse pulveret.  </p>
+<p>Zometa leveres i enkeltpakninger, som indeholder henholdvis 1 eller 4 hætteglas og 1 eller 4 ampuller, 
+og i multipakninger, som indeholder 10 (10x 1+1) hætteglas og ampuller. Ikke alle pakningsstørrelser 
+er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Phoenix Labs Unlimited Company 
+Suite 12, Bunkilla Plaza 
+Bracetown Business Park 
+Clonee, County Meath 
+Irland </p>
+<p>Fremstiller 
+Novartis Pharma GmbH 
+Roonstrasse D-90429 Nürnberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig direkte til 
+indehaveren af markedsføringstilladelsen eller hvor muligt til den lokale repræsentant: </p>
+<p>BE, BG, CZ, DK, DE, EE, IE, 
+HR, IT, CY, LV, LT, LU, HU, 
+MT, NL, AT, PL, PT, RO, SI, 
+SK, FI, SE and UK(NI) 
+Phoenix Labs Unlimited Company 
+Suite 12, Bunkilla Plaza 
+Bracetown Business Park 
+Clonee, County Meath 
+Ireland 
+Email: info@phoenixlabs.ie 
+Tel: +353 1 468 8EL 
+Arriani Pharmaceuticals SA 
+Lavriou Avenue 190 02 Paiania Attica 
+Greece 
+Tel: +30 210 66833ES 
+BCNFarma, S.L. 
+C/Eduard Maristany, 430-08919 Badalona (Barcelona) 
+España 
+Tel: + 34 932 684 Fax: + 34 933 150 FR 
+Exploitant de l’autorisation de mise sur le marché : 
+EURODEP PHARMA<br />
+10 RUE ANTOINE DE SAINT EXUPERY<br />
+ZAC DU PARC DE COMPANS<br />
+77290 MITRY MORY 
+exploitant@eurodep.fr </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>INFORMATION TIL SUNDHEDSPERSONER </p>
+<p>Tilberedelse og indgift af Zometa </p>
+<p>− 
+Når du skal tilberede en infusionsvæske indeholdende 4 mg zoledronsyre, skal du under 
+aseptiske forhold tilsætte 5 ml vand til injektion fra den ampul, der følger med pakningen til 
+hætteglasset med Zometa pulveret. Omryst hætteglasset forsigtigt for at opløse pulveret. </p>
+<p>− 
+Fortynd den opløste Zometa opløsning (5 ml) yderligere med 100 ml infusionsvæske som er 
+calciumfri eller fri for andre divalente kationer. Hvis der kræves en nedsat dosis af Zometa, skal 
+der først udtages en passende mindre volumen af den rekonstituerede opløsning (4 mg/5 ml) 
+som angivet nedenfor og derefter fortynde yderligere med 100 ml infusionsopløsning. For at 
+undgå eventuelle uforligeligheder skal der enten bruges 0,9% w/v natriumchlorid- eller 5% w/v 
+glucoseinjektions-/infusionsvæske til fortynding. </p>
+<p>Den rekonstituerede Zometa opløsning må ikke blandes med calciumholdige opløsninger 
+eller andre opløsninger indeholdende divalente kationer som lakteret Ringers væske. </p>
+<p>Instruktion for tilberedning af reducerede doser af Zometa: 
+Udtag det passende volumen af den opløste opløsning (4 mg/5 ml) efter følgende:</p>
+<ul>
+<li>4,4 ml til 3,5 mg dosis </li>
+<li>4,1 ml til 3,3 mg dosis </li>
+<li>3,8 ml til 3,0 mg dosis </li>
+</ul>
+<p>– 
+Kun til engangsbrug. Al ubrugt opløsning bør kasseres. Kun klar opløsning uden partikler og 
+misfarvning må bruges. Aseptiske teknikker skal anvendes under tilberedning af infusionen. </p>
+<p>− 
+Ud fra et mikrobiologisk synspunkt skal den rekonstituerede og fortyndede opløsning til 
+infusion anvendes straks. Hvis den ikke anvendes straks, er opbevaringstid og -betingelser før 
+brug brugerens ansvar og bør normalt ikke overstige 24 timer ved 2 °C – 8 °C. Den afkølede 
+opløsning skal derefter tilpasses stuetemperatur før administration. </p>
+<p>− 
+Opløsningen indeholdende zoledronsyre indgives ved en enkelt intravenøs infusion over 
+15 minutter i en separat infusionsslange. Patienternes hydreringsstatus skal vurderes før og efter 
+indgivelsen af Zometa for at sikre, de er tilstrækkeligt hydrerede. </p>
+<p>− 
+Undersøgelser med forskellige typer af infusionsslanger fremstillet af polyvinylklorid, 
+polyethylen og polypropylen viste ingen uforligelighed med Zometa. </p>
+<p>− 
+Da der ikke eksisterer data om forligeligheden af Zometa med andre intravenøst indgivne 
+stoffer, må Zometa ikke blandes med andre lægemidler eller stoffer og bør altid indgives 
+gennem en separat infusionsslange </p>
+<p>Hvordan skal Zometa opbevares </p>
+<p>− 
+Zometa opbevares utilgængeligt for børn. 
+− 
+Brug ikke Zometa efter den udløbsdato, der står på æsken. 
+− 
+Det uåbnede hætteglas kræver ingen særlige forholdsregler vedrørende opbevaringen. 
+− 
+Den fortyndede Zometa infusionsvæske bør anvendes straks for at undgå mikrobiologisk 
+kontaminering. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Zometa 4 mg/5 ml koncentrat til infusionsvæske, opløsning 
+zoledronsyre </p>
+<p>Læs denne indlægsseddel grundigt, inden du får du behandling med dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+− 
+Gem indlægssedlen. Du kan få brug for at læse den igen. 
+− 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+− 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-4e6edbbda0e498fd507a1a54a60c6d4b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zometa Package Leaflet for language en"
+Description: "ePI document Bundle for zometa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4e6edbbda0e498fd507a1a54a60c6d4b"
+* entry[0].resource = composition-en-4e6edbbda0e498fd507a1a54a60c6d4b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4e6edbbda0e498fd507a1a54a60c6d4b"
+* entry[=].resource = mp4e6edbbda0e498fd507a1a54a60c6d4b
+                            
+                    
+Instance: bundlepackageleaflet-da-4e6edbbda0e498fd507a1a54a60c6d4b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zometa Package Leaflet for language da"
+Description: "ePI document Bundle for zometa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-4e6edbbda0e498fd507a1a54a60c6d4b"
+* entry[0].resource = composition-da-4e6edbbda0e498fd507a1a54a60c6d4b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4e6edbbda0e498fd507a1a54a60c6d4b"
+* entry[=].resource = mp4e6edbbda0e498fd507a1a54a60c6d4b
+                            
+                    
+
+
+
+Instance: mp4e6edbbda0e498fd507a1a54a60c6d4b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Zometa 4 mg powder and solvent for solution for infusion"
-Description: "Zometa 4 mg powder and solvent for solution for infusion"
+Title: "Medicinal Product zometa"
+Description: "zometa"
 Usage: #inline
 
  
@@ -356,7 +872,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Zometa 4 mg powder and solvent for solution for infusion"
+  * productName = "zometa"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -383,29 +899,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-4e6edbbda0e498fd507a1a54a60c6d4b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zometa Package Leaflet for language en"
-Description: "ePI document Bundle for zometa Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 4e6edbbda0e498fd507a1a54a60c6d4bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/01/176/001-003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zometa"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-4e6edbbda0e498fd507a1a54a60c6d4b"
-* entry[0].resource = composition-en-4e6edbbda0e498fd507a1a54a60c6d4b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp01bdbe09da7ce51b57f1ec8447dad02a"
-* entry[=].resource = mp01bdbe09da7ce51b57f1ec8447dad02a
-                            
-                      
+* title = "List of all ePIs associated with zometa"
+
+* subject = Reference(mp01bdbe09da7ce51b57f1ec8447dad02a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zometa "zometa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-4e6edbbda0e498fd507a1a54a60c6d4b) // zometa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-4e6edbbda0e498fd507a1a54a60c6d4b) // zometa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-4e6edbbda0e498fd507a1a54a60c6d4b
+InstanceOf: List
+
+* insert 4e6edbbda0e498fd507a1a54a60c6d4bListRuleset
+    

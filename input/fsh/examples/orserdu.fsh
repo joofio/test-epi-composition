@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8fdef97116c9e46e3458e3dc3216f0d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for orserdu Package Leaflet"
@@ -351,12 +354,504 @@ T l: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
 
 
 
+Instance: composition-da-8fdef97116c9e46e3458e3dc3216f0d9
+InstanceOf: CompositionUvEpi
+Title: "Composition for orserdu Package Leaflet"
+Description:  "Composition for orserdu Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd87f8c1883b341371f6b99aa8703f073)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd87f8c1883b341371f6b99aa8703f073
+* title = "TEST PURPOSES ONLY - orserdu"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage ORSERDU 
+3. Sådan skal du tage ORSERDU 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What orserdu is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What orserdu is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning </p>
+<p>ORSERDU indeholder det aktive stof elacestrant, som tilhører en gruppe lægemidler, der kaldes 
+selektive østrogenreceptor-nedbrydere. </p>
+<p>Anvendelse </p>
+<p>Dette lægemiddel anvendes til behandling af postmenopausale kvinder og voksne mænd, der har en 
+bestemt type brystkræft, der er fremskreden eller har spredt sig til andre dele af kroppen (metastatisk). 
+Det kan bruges til behandling af brystkræft, der er østrogenreceptor (ER)-positiv, hvilket betyder, at 
+kræftcellerne har receptorer for hormonet østrogen på deres overflade, og der er human epidermal 
+vækstfaktorreceptor 2 (HER2)-negativ, hvilket betyder, at kræftcellerne ikke har eller kun har en lille 
+mængde af denne receptor på deres overflade. ORSERDU anvendes som monoterapi (eneste 
+lægemiddel) til patienter, hvis kræft ikke har reageret på eller har udviklet sig yderligere efter mindst 
+én linje hormonbehandling, herunder en CDK 4/6-hæmmer, og som har bestemte ændringer 
+(mutationer) i et gen kaldet ESR1. Din læge vil tage en blodprøve fra dig, som vil blive testet for disse ESR1-mutationer. Et positivt 
+resultat er nødvendigt for at påbegynde behandling med ORSERDU. </p>
+<p>Sådan virker ORSERDU’ </p>
+<p>Østrogenreceptorer er en gruppe proteiner, der findes inde i cellerne. De aktiveres, når hormonet 
+østrogen binder sig til dem. Østrogen kan ved at binde sig til disse receptorer i nogle tilfælde stimulere 
+kræftcellerne til at vokse og formere sig. ORSERDU indeholder det aktive stof elacestrant, der binder 
+til østrogenreceptorerne i kræftcellerne og forhindrer dem i at virke. Ved at blokere og ødelægge 
+østrogenreceptorerne kan ORSERDU bremse væksten og spredningen af brystkræft og hjælpe med at 
+dræbe kræftcellerne. </p>
+<p>Hvis du har spørgsmål om, hvordan ORSERDU virker, eller hvorfor du har fået det ordineret, skal du 
+spørge lægen, apotekspersonalet eller sygeplejersken. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take orserdu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take orserdu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke ORSERDU, hvis:</p>
+<ul>
+<li>du er allergisk over for elacestrant eller et af de øvrige indholdsstoffer i ORSERDU (angivet i 
+punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager ORSERDU, </p>
+<ul>
+<li>hvis du har en leversygdom (eksempler på leversygdom omfatter skrumpelever (cirrose - ardannelse i leveren), nedsat leverfunktion eller kolestatisk gulsot (gulfarvning af hud og øjne 
+på grund af nedsat galdestrøm fra leveren) ). Din læge vil overvåge dig regelmæssigt og nøje for 
+bivirkninger. </li>
+</ul>
+<p>Hvis du har fremskreden brystkræft kan du have en øget risiko for at udvikle blodpropper i venerne 
+(en type blodkar). Det er ukendt, om ORSERDU også øger denne risiko. </p>
+<p>Børn og unge 
+ORSERDU bør ikke gives til børn og unge under 18 år. </p>
+<p>Brug af andre lægemidler sammen med ORSERDU 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Dette skyldes, at ORSERDU kan påvirke 
+den måde, visse andre lægemidler virker på. Nogle andre lægemidler kan også påvirke den måde, 
+ORSERDU virker på. </p>
+<p>Fortæl det til lægen, hvis du tager et eller flere af følgende lægemidler:</p>
+<ul>
+<li>antibiotika til behandling af bakterielle infektioner (såsom ciprofloxacin, clarithromycin, 
+erythromycin, rifampicin, telithromycin) </li>
+<li>lægemiddel til behandling af et lavt indhold af natrium i blodet (såsom conivaptan) </li>
+<li>lægemidler til behandling af depression (såsom nefazodon eller fluvoxamin) </li>
+<li>lægemiddel til behandling af angst og alkoholabstinenser (såsom tofisopam) </li>
+<li>lægemidler til behandling af andre former for kræft (såsom crizotinib, dabrafenib, imatinib, 
+lorlatinib eller sotorasib) </li>
+<li>lægemidler mod forhøjet blodtryk eller brystsmerter (såsom bosentan, diltiazem eller verapamil) </li>
+<li>lægemidler mod svampeinfektioner (såsom fluconazol, isavuconazol, itraconazol, ketoconazol, 
+posaconazol eller voriconazol) </li>
+<li>lægemidler mod hiv-infektion (såsom efavirenz, etravirin, indinavir, lopinavir, ritonavir, 
+nelfinavir, saquinavir eller telaprevir) </li>
+<li>lægemidler til behandling af uregelmæssig hjerterytme (såsom digoxin, dronedaron eller 
+kinidin) </li>
+<li>lægemidler, der anvendes ved organtransplantation til at forhindre afstødning (såsom 
+ciclosporin) </li>
+<li>lægemidler til forebyggelse af kardiovaskulære hændelser og til behandling af høje niveauer af 
+kolesterol (såsom rosuvastatin) </li>
+<li>lægemidler, der anvendes til at forhindre krampeanfald (såsom carbamazepin, cenobamat, 
+phenobarbital, phenytoin eller primidon) </li>
+<li>lægemidler til behandling af opkastning (såsom aprepitant) </li>
+<li>naturlægemidler, der anvendes til behandling af depression, indeholdende prikbladet perikon. </li>
+</ul>
+<p>Brug af ORSERDU sammen med mad og drikke 
+Du må ikke drikke grapefrugtjuice eller spise grapefrugt, mens du er i behandling med ORSERDU, da 
+det kan ændre mængden af ORSERDU i din krop og øge bivirkningerne ved ORSERDU (se punkt 3 
+"Sådan skal du tage ORSERDU"). </p>
+<p>Graviditet, amning og frugtbarhed 
+Dette lægemiddel bør kun anvendes til postmenopausale kvinder og til mænd. </p>
+<p>Graviditet 
+ORSERDU kan skade et ufødt barn. Du må ikke tage ORSERDU, hvis du er gravid, har mistanke om, 
+at du er gravid, eller planlægger at blive gravid. Hvis du har mistanke om, at du er gravid, eller 
+planlægger at blive gravid, skal du spørge lægen eller apotekspersonalet til råds, før du bruger dette 
+lægemiddel. </p>
+<p>Hvis du er en kvinde, som kan blive gravid, skal du bruge sikker prævention, mens du behandles med 
+ORSERDU og i en uge, efter at du er stoppet med behandlingen med ORSERDU. Spørg din læge om 
+egnede præventionsmetoder. Hvis du er en kvinde, som kan blive gravid, vil din læge udelukke en 
+eksisterende graviditet, inden du starter i behandling med ORSERDU. Dette kan omfatte at få taget en 
+graviditetstest. </p>
+<p>Amning 
+Du må ikke amme, mens du er i behandling med ORSERDU og i en uge efter den sidste dosis af 
+ORSERDU. Under behandlingen vil din læge tale med dig om de mulige risici ved at tage ORSERDU 
+under graviditet eller amning. </p>
+<p>Fertilitet 
+ORSERDU kan nedsætte fertiliteten hos kvinder og mænd. </p>
+<p>Trafik- og arbejdssikkerhed 
+ORSERDU påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene 
+maskiner. Der er imidlertid rapporteret træthed, svaghed og søvnbesvær hos nogle patienter, der tager 
+elacestrant. Patienter, der oplever disse bivirkninger, bør udvise forsigtighed, når de fører motorkøretøj 
+eller betjener maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take orserdu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take orserdu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>ORSERDU skal tages sammen med mad, dog skal grapefrugt og grapefrugtjuice undgås under 
+behandlingen med ORSERDU (se punkt 2 "Brug af ORSERDU sammen med mad og drikke"). Hvis 
+du tager ORSERDU sammen med mad, kan det reducere kvalme og opkastning. </p>
+<p>Tag din dosis af dette lægemiddel på omtrent samme tidspunkt hver dag. Det vil hjælpe dig med huske 
+at tage dit lægemiddel. </p>
+<p>ORSERDU-tabletterne skal synkes hele. De må ikke tygges, knuses eller deles før de synkes. Tag ikke 
+en tablet, der er knækket, knust eller på anden måde beskadiget. </p>
+<p>Den anbefalede dosis af ORSERDU er 345 mg (én 345 mg filmovertrukket tablet) én gang dagligt. 
+Din læge vil fortælle dig præcis, hvor mange tabletter, du skal tage. I visse situationer (dvs. i tilfælde 
+af leverproblemer, bivirkninger, eller hvis du også bruger visse andre lægemidler, kan din læge bede 
+dig om at tage en lavere dosis ORSERDU, f.eks. 258 mg (3 tabletter med 86 mg) én gang dagligt, 
+172 mg (2 tabletter med 86 mg) én gang dagligt eller 86 mg (1 tablet med 86 mg) én gang dagligt. </p>
+<p>Hvis du har taget for meget ORSERDU 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tror, at du ved et uheld har taget for meget 
+ORSERDU. Han eller hun vil beslutte, hvad der skal gøres. </p>
+<p>Hvis du har glemt at tage ORSERDU 
+Hvis du har glemt at tage en dosis ORSERDU, skal du tage den, så snart du kommer i tanke om det. 
+Du kan stadig tage en glemt dosis op til 6 timer efter det tidspunkt, du skulle have taget den på. Hvis 
+der er gået mere end 6 timer, eller hvis du kaster op efter at have taget dosen, skal du springe dosis 
+over for den dag, og tage den næste dosis til sædvanlig tid den næste dag. Du må ikke tage en 
+dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage ORSERDU 
+Du må ikke holde op med at tage dette lægemiddel uden først at kontakte din læge eller 
+apotekspersonalet. Hvis behandlingen med ORSERDU stoppes, kan din tilstand forværres. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Fortæl det til lægen eller sygeplejersken, hvis du bemærker en eller flere af følgende bivirkninger: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Nedsat appetit </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Forhøjede triglycerider og kolesterolniveauer i blodet </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+<li>
+<p>Fordøjelsesbesvær (dyspepsi) </p>
+</li>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Nedsatte calciumniveauer i blodet </p>
+</li>
+<li>
+<p>Rygsmerter </p>
+</li>
+<li>
+<p>Forhøjede kreatininniveauer i blodet </p>
+</li>
+<li>
+<p>Ledsmerter (artralgi) </p>
+</li>
+<li>
+<p>Nedsatte natriumniveauer i blodet </p>
+</li>
+<li>
+<p>Forstoppelse </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Hedeture </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Lavt antal røde blodlegemer målt i blodprøver (anæmi) </p>
+</li>
+<li>
+<p>Nedsatte kaliumniveauer i blodet </p>
+</li>
+<li>
+<p>Forhøjet leverfunktion målt i blodprøver (forhøjet alaninaminotransferase, forhøjet 
+aspartataminotransferase) </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Smerter i hænder eller ben (smerter i ekstremiteter) </p>
+</li>
+<li>
+<p>Svaghed (asteni) </p>
+</li>
+<li>
+<p>Infektion i de dele af kroppen, der opsamler og udskiller urin (urinvejsinfektion) </p>
+</li>
+<li>
+<p>Hoste </p>
+</li>
+<li>
+<p>Stakåndethed (dyspnø) </p>
+</li>
+<li>
+<p>Problemer med at falde i søvn og blive ved med at sove (insomni) </p>
+</li>
+<li>
+<p>Forhøjet leverfunktion målt i blodprøver (forhøjet basisk fosfatase i blodet) </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Lave niveauer af lymfocytter (en type hvide blodlegemer) målt i blodprøver (nedsat 
+lymfocyttal) </p>
+</li>
+<li>
+<p>Knoglesmerter </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Brystsmerter relateret til muskler og knogler i brystet (muskuloskeletale brystsmerter) </p>
+</li>
+<li>
+<p>Betændelse i mund og læber (stomatitis) </p>
+</li>
+<li>
+<p>Besvimelse (synkope) </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Øget risiko for blodpropper (tromboembolisme) </p>
+</li>
+<li>
+<p>Leversvigt (akut leversvigt) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store orserdu"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store orserdu"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterpakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget, eller hvis der er tegn på, at 
+nogen har forsøgt at åbne den. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ORSERDU indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: elacestrant. </p>
+</li>
+<li>
+<p>Hver 86 mg ORSERDU filmovertrukket tablet indeholder 86,3 mg elacestrant. </p>
+</li>
+<li>
+<p>Hver 345 mg ORSERDU filmovertrukket tablet indeholder 345 mg elacestrant </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+</ul>
+<p>Tabletkerne 
+Mikrokrystallinsk cellulose [E460] 
+Silicificeret mikrokrystallinsk cellulose 
+Crospovidon [E1202] 
+Magnesiumstearat [E470b] 
+Silica, kolloid [E551] </p>
+<p>Filmovertræk 
+Opadry II 85F105080 Blue indeholdende polyvinylalkohol [E1203], titandioxid [E171], 
+macrogol [E1521], talcum [E553b] og brilliant blue FCF aluminum lake [E133] </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>ORSERDU leveres som filmovertrukne tabletter i aluminiumsblistre. </p>
+<p>ORSERDU 86 mg filmovertrukne tabletter 
+Blå til lyseblå, bikonveks, rund filmovertrukket tablet med "ME" præget på den ene side og glat 
+overflade på den anden side. Omtrentlig diameter: 8,8 mm. </p>
+<p>ORSERDU 345 mg filmovertrukne tabletter 
+Blå til lyseblå, bikonveks, oval filmovertrukket tablet med "MH" præget på den ene side og glat 
+overflade på den anden side. Omtrentlig størrelse: 19,2 mm (længde), 10,8 mm (bredde) </p>
+<p>Hver pakning indeholder 28 filmovertrukne tabletter (4 blistre med 7 tabletter i hver). </p>
+<p>Indehaver af markedsføringstilladelsen 
+Stemline Therapeutics B.V.<br />
+Basisweg 10<br />
+1043 AP Amsterdam<br />
+Holland </p>
+<p>Fremstiller 
+Stemline Therapeutics B.V. 
+Basisweg 10<br />
+1043 AP Amsterdam<br />
+Holland </p>
+<p>eller </p>
+<p>Berlin Chemie AG 
+Glienicker Weg 12489 Berlin 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien; България; 
+Česká republika; Danmark; Eesti; 
+Ελλάδα; Hrvatska; Ireland; Ísland; 
+Κύπρος; Latvija; Lietuva; 
+Luxembourg/Luxemburg; 
+Magyarország; Malta; Nederland; 
+Norge; Polska; Portugal; România; 
+Slovenija; Slovenská republika; 
+Suomi/Finland; Sverige 
+Stemline Therapeutics B.V. 
+Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
+<p>Italia 
+Menarini Stemline Italia Srl 
+Tel: +39 800776EUmedinfo@menarinistemline.com </p>
+<p>Deutschland 
+Menarini Stemline Deutschland GmbH 
+Tel: +49 (0)800 0008EUmedinfo@menarinistemline.com </p>
+<p>Österreich 
+Stemline Therapeutics B.V. 
+Tel: +43 (0)800 297 EUmedinfo@menarinistemline.com 
+España 
+Menarini Stemline España, S.L.U. 
+Tel: +34919490EUmedinfo@menarinistemline.com </p>
+<p>United Kingdom (Northern Ireland) 
+Stemline Therapeutics B.V. 
+Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
+<p>France 
+Stemline Therapeutics B.V. 
+Tél: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8fdef97116c9e46e3458e3dc3216f0d9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orserdu Package Leaflet for language en"
+Description: "ePI document Bundle for orserdu Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8fdef97116c9e46e3458e3dc3216f0d9"
+* entry[0].resource = composition-en-8fdef97116c9e46e3458e3dc3216f0d9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8fdef97116c9e46e3458e3dc3216f0d9"
+* entry[=].resource = mp8fdef97116c9e46e3458e3dc3216f0d9
+                            
+                    
+Instance: bundlepackageleaflet-da-8fdef97116c9e46e3458e3dc3216f0d9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orserdu Package Leaflet for language da"
+Description: "ePI document Bundle for orserdu Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8fdef97116c9e46e3458e3dc3216f0d9"
+* entry[0].resource = composition-da-8fdef97116c9e46e3458e3dc3216f0d9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8fdef97116c9e46e3458e3dc3216f0d9"
+* entry[=].resource = mp8fdef97116c9e46e3458e3dc3216f0d9
+                            
+                    
+
+
+
+Instance: mp8fdef97116c9e46e3458e3dc3216f0d9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ORSERDU 86 mg film-coated tablets"
-Description: "ORSERDU 86 mg film-coated tablets"
+Title: "Medicinal Product orserdu"
+Description: "orserdu"
 Usage: #inline
 
  
@@ -376,7 +871,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ORSERDU 86 mg film-coated tablets"
+  * productName = "orserdu"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -403,29 +898,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8fdef97116c9e46e3458e3dc3216f0d9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for orserdu Package Leaflet for language en"
-Description: "ePI document Bundle for orserdu Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8fdef97116c9e46e3458e3dc3216f0d9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1756/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "orserdu"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8fdef97116c9e46e3458e3dc3216f0d9"
-* entry[0].resource = composition-en-8fdef97116c9e46e3458e3dc3216f0d9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd87f8c1883b341371f6b99aa8703f073"
-* entry[=].resource = mpd87f8c1883b341371f6b99aa8703f073
-                            
-                      
+* title = "List of all ePIs associated with orserdu"
+
+* subject = Reference(mpd87f8c1883b341371f6b99aa8703f073)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#orserdu "orserdu"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8fdef97116c9e46e3458e3dc3216f0d9) // orserdu en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8fdef97116c9e46e3458e3dc3216f0d9) // orserdu da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8fdef97116c9e46e3458e3dc3216f0d9
+InstanceOf: List
+
+* insert 8fdef97116c9e46e3458e3dc3216f0d9ListRuleset
+    

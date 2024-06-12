@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6f8fb6a1c6179a9554b85e75fc6f0388
 InstanceOf: CompositionUvEpi
 Title: "Composition for binocrit Package Leaflet"
@@ -514,12 +517,750 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-6f8fb6a1c6179a9554b85e75fc6f0388
+InstanceOf: CompositionUvEpi
+Title: "Composition for binocrit Package Leaflet"
+Description:  "Composition for binocrit Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa22715338873c5ad5e4d176fdc053f2e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa22715338873c5ad5e4d176fdc053f2e
+* title = "TEST PURPOSES ONLY - binocrit"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge Binocrit
+3. Sådan skal du bruge Binocrit
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What binocrit is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What binocrit is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Binocrit indeholder det aktive stof epoetin alfa, et protein som stimulerer knoglemarven til at danne 
+flere røde blodlegemer, der bærer hæmoglobin (et stof, der transporterer oxygen). Epoetin alfa er en 
+kopi af det humane protein erytropoietin og virker på samme måde.
+Binocrit bruges til at behandle symptomatisk anæmi forårsaget af nyresygdom:
+•
+hos børn i hæmodialyse
+88
+•
+hos voksne patienter i hæmodialyse eller peritonealdialyse
+•
+hos voksne med alvorlig anæmi, som endnu ikke er i dialyse
+Hvis du har en nyresygdom, kan du mangle røde blodlegemer, hvis dine nyrer ikke danner nok 
+erytropoietin (som er nødvendigt for dannelsen af røde blodlegemer). Binocrit ordineres for at 
+stimulere din knoglemarv til at danne flere røde blodlegemer.
+Binocrit anvendes til at behandle anæmi hos voksne, som får kemoterapi for solide svulster, 
+ondartet lymfom eller myelomatose (knoglemarvskræft), og som kan have et behov for en 
+blodtransfusion. Binocrit kan nedsætte behovet for en blodtransfusion hos disse patienter.
+Binocrit anvendes til voksne med moderat anæmi, som før en operation donerer noget af deres 
+blod, så det kan gives til dem igen under eller efter operationen. Da Binocrit stimulerer produktionen 
+af røde blodlegemer, kan lægerne udtage mere blod fra disse personer.
+Binocrit anvendes til voksne med moderat anæmi, som skal have foretaget en større 
+ortopædkirurgisk operation (for eksempel udskiftning af hofte eller knæ), for at nedsætte det 
+eventuelle behov for blodtransfusioner.
+Binocrit anvendes til at behandle anæmi hos voksne med en knoglemarvssygdom, der medfører 
+svære forstyrrelser i dannelsen af blodlegemer (myelodysplastiske syndromer). Binocrit kan 
+nedsætte behovet for blodtransfusion.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take binocrit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take binocrit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Binocrit
+•
+hvis du er allergisk over for epoetin alfa eller et af de øvrige indholdsstoffer (angivet i 
+punkt 6).
+•
+hvis du er blevet diagnosticeret med pure red cell aplasia (knoglemarven kan ikke danne nok 
+røde blodlegemer) efter tidligere behandling med præparater, der stimulerer produktionen af 
+røde blodlegemer (herunder Binocrit). Se punkt 4. •
+hvis du lider af forhøjet blodtryk, der er svært at regulere med medicin.
+•
+for at stimulere dannelsen af røde blodlegemer (så lægerne kan tappe mere blod fra dig), hvis 
+du ikke kan få transfusioner med dit eget blod under og efter operationen.
+•
+hvis du skal have foretaget en større ikke akut, planlagt (elektiv) ortopædkirurgisk 
+operation (såsom udskiftning af hofte eller knæ), og du: 
+•
+har en alvorlig hjertesygdom
+•
+har alvorlige sygdomme i venerne og arterierne
+•
+for nyligt har haft et hjerteanfald eller slagtilfælde
+•
+ikke kan tage blodfortyndende medicin
+Det kan være, at Binocrit ikke passer til dig. Tal med lægen om det. Nogle personer har behov 
+for medicin for at reducere risikoen for blodpropper, mens de tager Binocrit. Hvis du ikke kan 
+tage medicin, der forhindrer blodpropper, må du ikke få Binocrit.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Binocrit.
+Binocrit og andre præparater, der stimulerer dannelsen af røde blodlegemer, kan øge risikoen 
+for at udvikle blodpropper hos alle patienter. Denne risiko kan være højere, hvis du har andre 
+risikofaktorer for at udvikle blodpropper (for eksempel hvis du tidligere har haft en blodprop, eller 
+hvis du er overvægtig, har sukkersyge eller hjertesygdom, eller hvis du er sengeliggende i lang tid på 
+grund af en operation eller sygdom). Fortæl lægen om disse ting. Din læge vil hjælpe dig med at 
+beslutte, om Binocrit er egnet til dig.
+89
+Det er vigtigt at fortælle det til lægen, hvis noget af det følgende gælder for dig. Det kan være, at det 
+stadig er muligt at bruge Binocrit, men du skal først tale med lægen om det.
+Hvis du ved du lider af, eller har lidt af:
+•
+forhøjet blodtryk,
+•
+epilepsi eller krampeanfald,
+•
+leversygdom,
+•
+anæmi af andre årsager,
+•
+porfyri (en sjælden blodsygdom).
+Hvis du har kronisk nyreinsufficiens, og især hvis du ikke reagerer korrekt på Binocrit, vil din læge 
+kontrollere din Binocrit-dosis, da du har større risiko for at få et problem med hjertet eller blodkarrene, 
+hvis din Binocrit-dosis skal øges gentagne gange, fordi du ikke reagerer på behandlingen. Dette kan 
+øge risikoen for hjerteanfald, slagtilfælde og død.
+Hvis du er kræftpatient, skal du være klar over, at præparater, der stimulerer dannelsen af røde 
+blodlegemer (som Binocrit), kan virke som en vækstfaktor og derfor teoretisk kan accelerere din 
+kræftsygdom.
+Afhængigt af din individuelle situation kan en blodtransfusion være at foretrække. Tal med 
+lægen om det.
+Hvis du er kræftpatient, skal du være klar over, at anvendelsen af Binocrit kan være forbundet med 
+kortere overlevelse og en højere dødelighed hos patienter med cancer i hoved og hals, og patienter 
+med metastatisk brystcancer, som får kemoterapi. 
+Alvorlige hudreaktioner, herunder Stevens-Johnsons syndrom (SJS) og toksisk epidermal nekrolyse 
+(TEN), er blevet rapporteret i forbindelse med epoetinbehandling.
+SJS/TEN kan i begyndelsen vise sig som rødlige, målskivelignende pletter eller runde områder, ofte 
+med blærer centralt på kroppen. Der kan også opstå sår i mund, hals, næse, kønsorganer og øjne (røde 
+og hævede øjne). Disse alvorlige hududslæt kommer ofte efter feber og/eller influenzalignende 
+symptomer. Udslættet kan udvikle sig til udbredt afskalning af huden og livstruende komplikationer.
+Hvis du udvikler et alvorligt udslæt eller får andre af disse hudsymptomer, skal du stoppe med at tage 
+Binocrit og straks kontakte din læge eller søge lægehjælp.
+Vær særlig forsigtig med anden medicin, som stimulerer produktionen af røde blodlegemer:
+Binocrit tilhører en gruppe lægemidler, som stimulerer produktionen af røde blodlegemer, ligesom det 
+humane protein erytropoietin gør det. Din læge og sundhedspersonalet vil altid notere præcist det 
+lægemiddel, du får. Hvis du får et andet lægemiddel end Binocrit fra denne gruppe i løbet af din 
+behandling, skal du tale med lægen eller apoteket, før du bruger det.
+Brug af andre lægemidler sammen med Binocrit
+Fortæl lægen, hvis du tager andre lægemidler eller har gjort det for nylig.
+Hvis du har hepatitis C, og du får interferon og ribavirin
+Du skal tale med din læge om dette, da en kombination af epoetin alfa med interferon og ribavirin i 
+sjældne tilfælde har ført til en manglende virkning og udvikling af en sygdom, der kaldes pure red cell 
+aplasia (PRCA), en alvorlig form for anæmi. Binocrit er ikke godkendt til behandling af anæmi 
+forbundet med hepatitis C.
+90
+Hvis du tager et lægemiddel, der kaldes ciclosporin (anvendes f.eks. efter en nyretransplantation), 
+kan din læge rekvirere blodprøver for at kontrollere niveauet af ciclosporin, mens du tager Binocrit.
+Jerntilskud og andre blodstimulerende midler kan øge virkningen af Binocrit. Din læge vil 
+bestemme, om det er korrekt, at du tager dem.
+Hvis du tager på hospitalet, en klinik eller til en praktiserende læge, skal du fortælle dem, at du får 
+behandling med Binocrit. Det kan påvirke andre behandlinger eller testresultater.
+Graviditet, amning og frugtbarhed
+Det er vigtigt at fortælle det til lægen, hvis noget af det følgende gælder for dig. Det er muligt, at du 
+stadig kan bruge Binocrit, men du skal først tale med lægen om det:
+•
+hvis du er gravid eller ammer, har mistanke om, at du er gravid eller planlægger at blive 
+gravid, skal du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Der foreligger ingen data om Binocrits indvirkning på frugtbarheden.
+Binocrit indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take binocrit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take binocrit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+Din læge har taget blodprøver og har bestemt, at du har behov for Binocrit. 
+Binocrit kan gives som en indsprøjtning:
+•
+Enten i en vene eller i en slange, der er indsat i en vene (intravenøst)
+•
+Eller under huden (subkutant).
+Din læge vil bestemme, hvordan Binocrit skal indsprøjtes. Normalt vil du få injektionerne af en læge, 
+sygeplejerske eller andet sundhedspersonale. Nogle personer, afhængig af hvorfor de behøver 
+behandling med Binocrit, kan senere lære at indsprøjte sig selv under huden: se ”Instruktion i, 
+hvordan du giver dig selv en indsprøjtning” sidst i indlægssedlen.
+Binocrit må ikke anvendes:
+•
+efter den udløbsdato, der står på etiketten og den ydre karton
+•
+hvis du ved, eller tror, at det utilsigtet kan have været nedfrosset, eller
+•
+hvis køleskabet har svigtet.
+Den Binocrit-dosis, du får, er baseret på din kropsvægt i kilo. Årsagen til din anæmi er også en faktor, 
+når din læge bestemmer den korrekte dosis.
+Din læge vil måle dit blodtryk regelmæssigt, mens du bruger Binocrit
+Personer med nyresygdom
+•
+Din læge vil vedligeholde dit hæmoglobinniveau mellem 10 og 12 g/dl, da et højt 
+hæmoglobinniveau kan øge risikoen for blodpropper og død. Hos børn skal 
+hæmoglobinniveauet holdes mellem 9,5 og 11 g/dl.
+•
+Den normale startdosis af Binocrit til voksne og børn er 50 internationale enheder (IE) pr. 
+kilogram (/kg) kropsvægt, som gives 3 gange om ugen. For patienter i peritonealdialyse kan 
+Binocrit gives 2 gange ugentligt.
+91
+•
+Binocrit gives til voksne og børn som en indsprøjtning enten i en vene (intravenøst) eller i en 
+slange, der er indsat i en vene. Hvis denne adgang (i en vene eller slange) ikke er let tilgængelig, 
+kan din læge beslutte, at Binocrit skal indsprøjtes under huden (subkutant). Det gælder både for 
+patienter i dialyse og for patienter, som ikke er i dialyse endnu.
+•
+Din læge vil tage blodprøver regelmæssigt for at se, hvordan din anæmi responderer, og kan 
+justere dosis, normalt ikke hyppigere end hver fjerde uge. En stigning i hæmoglobin på over 
+2 g/dl i løbet af en 4-ugers periode bør undgås.
+•
+Når din anæmi er blevet korrigeret, vil din læge fortsætte med at kontrollere dit blod 
+regelmæssigt. Din Binocrit-dosis og hvor ofte, den gives, kan justeres yderligere for at 
+vedligeholde dit respons på behandlingen. Din læge vil anvende den laveste effektive dosis til at 
+kontrollere symptomerne på din anæmi.
+•
+Hvis du ikke responderer tilstrækkeligt på Binocrit, vil din læge kontrollere din dosis og fortælle 
+dig, hvis din Binocrit-dosis skal ændres.
+•
+Hvis du har et mere udvidet doseringsinterval (længere end én uge) af Binocrit, vil du måske 
+ikke opretholde tilstrækkelige hæmoglobinniveauer, og du kan have behov for en større dosis 
+Binocrit eller hyppigere administration.
+•
+Du kan få jerntilskud før og under din behandling med Binocrit for at gøre det mere 
+virkningsfuldt.
+•
+Hvis du får dialysebehandling, når du begynder din behandling med Binocrit, kan det være 
+nødvendigt at justere dit dialyseprogram. Din læge vil beslutte dette.
+Voksne i kemoterapi
+•
+Din læge kan påbegynde behandling med Binocrit, hvis dit hæmoglobinniveau er 10 g/dl eller 
+mindre.
+•
+Din læge vil vedligeholde dit hæmoglobinniveau mellem 10 og 12 g/dl, da et højt 
+hæmoglobinniveau kan øge risikoen for blodpropper og død.
+•
+Startdosis er enten 150 IE per kilogram kropsvægt 3 gange om ugen eller 450 IE pr. kilo 
+kropsvægt én gang om ugen.
+•
+Binocrit gives via indsprøjtning under huden. 
+•
+Din læge vil rekvirere blodprøver og kan justere dosis, afhængig af hvordan din anæmi påvirkes 
+af behandlingen med Binocrit.
+•
+Du kan få jerntilskud før og under behandlingen med Binocrit for at gøre det mere 
+virkningsfuldt.
+•
+Du vil normalt fortsætte behandlingen med Binocrit i én måned efter afslutningen af 
+kemoterapien.
+Voksne patienter, som giver deres eget blod
+•
+Den sædvanlige dosis er 600 IE pr. kilo kropsvægt 2 gange om ugen.
+•
+Binocrit gives via indsprøjtning i en vene, lige efter du har fået tappet blod i 3 uger før 
+operationen.
+•
+Du kan få jerntilskud før og under behandlingen med Binocrit for at gøre det mere effektivt.
+Voksne med planlagt større ortopædkirurgisk operation
+•
+Den anbefalede dosis er 600 IE pr. kilogram kropsvægt én gang ugentligt.
+•
+Binocrit gives via indsprøjtning under huden hver uge i tre uger inden operationen og på 
+operationsdagen. 
+•
+Hvis der er et medicinsk behov for at afkorte tiden før din operation, vil du få en daglig dosis på 
+300 IE/kg i op til 10 dage før operationen, på operationsdagen og i de 4 dage umiddelbart efter 
+operationen.
+•
+Hvis blodprøverne viser, at dit hæmoglobin er for højt før operationen, vil behandlingen blive 
+stoppet. 
+•
+Du kan få jerntilskud før og under behandlingen med Binocrit for at gøre det mere 
+virkningsfuldt.
+92
+Voksne med myelodysplastisk syndrom
+•
+Din læge kan påbegynde behandling med Binocrit, hvis dit hæmoglobinniveau er 10 g/dl eller 
+mindre. Formålet med behandlingen er at opretholde dit hæmoglobinniveau mellem 10 og 
+12 g/dl, da et højere hæmoglobinniveau kan øge risikoen for blodpropper og død.
+•
+Binocrit gives via indsprøjtning under huden.
+•
+Startdosis er 450 IE pr. kg legemsvægt én gang om ugen.
+•
+Din læge vil rekvirere blodprøver og kan justere dosis, afhængig af, hvordan din anæmi 
+påvirkes af behandlingen med Binocrit.
+Vejledninger i, hvordan du selv skal indsprøjte Binocrit
+Når behandlingen begynder, injiceres Binocrit normalt af en læge eller sygeplejerske. Senere kan din 
+læge foreslå, at du selv eller din omsorgsperson lærer at injicere Binocrit under huden (subkutant).
+•
+Forsøg ikke at give dig selv en indsprøjtning, medmindre du er blevet trænet i det af din 
+læge eller sygeplejersken.
+•
+Brug altid Binocrit nøjagtigt efter lægens eller sygeplejerskens anvisning.
+•
+Sørg for, at du kun indsprøjter den mængde væske, som din læge eller sygeplejersken har 
+anvist.
+•
+Brug kun Binocrit, hvis det er opbevaret korrekt – se punkt 5, Opbevaring.
+•
+Før brug skal sprøjten med Binocrit nå stuetemperatur. Dette tager normalt 15 til 
+30 minutter. Anvend sprøjten inden for 3 dage, efter den tages ud af køleskabet.
+Tag kun en dosis af Binocrit fra hver sprøjte.
+Hvis Binocrit indsprøjtes under huden (subkutant), er mængden, der indsprøjtes normalt ikke over en 
+milliliter (1 ml) i en enkelt indsprøjtning.
+Binocrit gives alene og må ikke blandes med andre væsker til indsprøjtning.
+Sprøjterne med Binocrit må ikke omrystes. Langvarig kraftig omrystning kan beskadige præparatet. 
+Hvis præparatet er blevet omrystet kraftigt, må det ikke bruges.
+Du kan finde en vejledning om, hvordan du giver dig selv en injektion af Binocrit sidst i denne 
+indlægsseddel.
+Hvis du har brugt for meget Binocrit 
+Hvis du tror, at der er indsprøjtet for meget Binocrit, skal du straks fortælle det til din læge eller 
+sundhedspersonalet. Bivirkninger fra en overdosering af Binocrit er ikke sandsynligt.
+Hvis du har glemt at bruge Binocrit
+Udfør den næste indsprøjtning, så snart du husker på det. Hvis der er mindre end en dag til din næste 
+indsprøjtning, skal du springe over din glemte indsprøjtning og fortsætte med dit normale program. Du 
+må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+93
+Fortæl det straks til din læge eller sygeplejersken, hvis du bemærker nogle af bivirkningerne i 
+denne liste.
+Alvorlige hudreaktioner, herunder Stevens-Johnsons syndrom og toksisk epidermal nekrolyse, er 
+blevet rapporteret i forbindelse med epoetinbehandling. Det kan vise sig som rødlige, 
+målskivelignende pletter eller runde områder, ofte med blærer centralt på kroppen, hudafskalning samt 
+sår i mund, hals, næse og på kønsorganer og øjne, og det kan komme efter feber og influenzalignende 
+symptomer. Stop med at tage Binocrit, hvis du udvikler disse symptomer, og kontakt straks din læge 
+eller søg lægehjælp. Se også punkt 2. Meget almindelige bivirkninger
+Disse kan forekomme hos flere end 1 ud af 10 personer.
+•
+Diarré
+•
+Kvalmefornemmelse
+•
+Opkastning
+•
+Feber
+•
+Tilstopning af luftvejene, såsom tilstoppet næse og ondt i halsen, er blevet rapporteret hos 
+patienter med nyresygdom, der endnu ikke får dialyse.
+Almindelige bivirkninger
+Disse kan forekomme hos op til 1 ud af 10 personer.
+•
+Forhøjet blodtryk. Hovedpine, specielt pludselig opståen af dunkende migrænelignende 
+hovedpine, følelse af at være forvirret eller krampeanfald kan være tegn på en pludselig 
+forhøjelse af blodtrykket. Dette kræver øjeblikkelig behandling. Forhøjet blodtryk kan kræve 
+behandling med medicin (eller justering af medicin, som du allerede tager for højt blodtryk).
+•
+Blodpropper (herunder i dybtliggende vener samt arterier), hvor akut behandling kan være 
+nødvendig. Du kan have brystsmerter, åndenød samt smertefuld hævelse og rødme, 
+normalt af ben, som symptomer.
+•
+Hoste.
+•
+Hududslæt, hvilket kan være resultatet af en overfølsomhedsreaktion.
+•
+Knogle- eller muskelsmerter.
+•
+Influenzalignende symptomer, såsom hovedpine, ømhed og smerter i leddene, følelse af 
+svaghed, kulderystelser, træthed og svimmelhed. Disse symptomer kan være mere almindelige 
+ved starten af behandlingen. Hvis du får disse symptomer, når Binocrit injiceres i venen, kan det 
+hjælpe med til at undgå dem, hvis injektionen i fremtiden gives langsommere.
+•
+Rødme samt en brændende fornemmelse og smerter på injektionsstedet.
+•
+Hævede ankler, fødder og fingre. 
+•
+Arm- eller bensmerter.
+Ikke almindelige bivirkninger
+Disse kan forekomme hos op til 1 ud af 100 personer.
+•
+Højt niveau af kalium i blodet, hvilket kan føre til en unormal hjerterytme (puls) (dette er en 
+meget almindelig bivirkning hos patienter i dialyse).
+•
+Krampeanfald.
+•
+Tilstopning af næse eller luftveje.
+•
+Allergisk reaktion.
+•
+Nældefeber.
+Sjældne bivirkninger
+Disse kan forekomme hos op til 1 ud af 1 000 personer.
+•
+Symptomer på pure red cell aplasia (PRCA)
+94
+PRCA resulterer i, at knoglemarven ikke danner tilstrækkeligt mange røde blodlegemer. PRCA kan 
+føre til pludselig og svær anæmi. Symptomerne er:
+•
+usædvanlig træthed,
+•
+svimmelhed,
+•
+åndenød.
+PRCA er blevet indberettet i meget sjældne tilfælde, for det meste hos patienter med nyresygdom, 
+efter behandling i månedsvis eller årevis med epoetin alfa og andre præparater, som stimulerer 
+produktionen af røde blodlegemer.
+•
+Der kan, – specielt når behandlingen påbegyndes, – forekomme et forhøjet niveau af små 
+blodlegemer (kaldet blodplader), som normalt er involveret i dannelsen af en blodprop. Din 
+læge vil kontrollere dette.
+•
+Alvorlig allergisk reaktion, der kan omfatte:
+ hævelse af ansigt, læber, mund, tunge eller hals,
+ synke- eller åndedrætsbesvær,
+ kløende udslæt (nældefeber).
+•
+Problemer med blodet, der kan forårsage smerte, mørkfarvet urin eller øget følsomhed i huden 
+over for sollys (porfyri).
+Hvis du får hæmodialyse:
+•
+Der kan dannes blodpropper (trombose) i din dialyse-shunt. Der er størst risiko for dette, hvis du 
+har lavt blodtryk, eller hvis der er komplikationer med din fistel.
+•
+Der kan også dannes blodpropper i dit hæmodialyse-system. Din læge kan beslutte at forhøje 
+din heparindosis under dialysen.
+Fortæl det straks til lægen eller sygeplejersken, hvis du bliver opmærksom på nogle af disse 
+bivirkninger, eller hvis du bemærker andre bivirkninger, mens du får behandling med Binocrit.
+Tal med lægen, sygeplejersken eller apoteket, hvis en bivirkning er generende eller bliver værre, eller 
+hvis du får bivirkninger, som ikke er nævnt her.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken eller 
+apoteket. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du 
+eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store binocrit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store binocrit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>•
+Opbevar lægemidlet utilgængeligt for børn.
+•
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter ”EXP”. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+•
+Opbevares i køleskab og transporteres nedkølet (2 C –8 C).
+•
+Du må gerne tage Binocrit ud af køleskabet og opbevare det ved rumtemperatur (op til 25 °C), 
+men ikke mere end 3 dage. Når du først har taget en sprøjte ud af køleskabet, og den har nået 
+rumtemperatur (op til 25 °C), skal du enten bruge den i løbet af 3 dage eller smide den ud.
+•
+Må ikke nedfryses eller rystes.
+•
+Opbevares i den originale yderpakning for at beskytte mod lys.
+95
+Brug ikke lægemidlet, hvis du bemærker, at
+•
+det ved en fejl har været frosset eller,
+•
+hvis køleskabet har svigtet,
+•
+injektionsvæsken er farvet, eller du kan se partiker i den, 
+•
+forseglingen er brudt.
+Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet eller toilettet.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Binocrit indeholder:</h2>
+<h2>Aktivt stof: epoetin alfa (se tabellen nedenfor for kvantiteter).</h2>
+<p>Øvrige indholdsstoffer: natriumdihydrogenphosphatdihydrat, dinatriumphosphatdihydrat, 
+natriumchlorid, glycin, polysorbat 80, saltsyre (til justering af pH-værdien), natriumhydroxid 
+(til justering af pH-værdien) og vand til injektionsvæsker.
+Udseende og pakningsstørrelser 
+Binocrit er en klar, farveløs injektionsvæske, opløsning. Sprøjterne er forseglet i en blisterpakning.
+Formulering
+Tilsvarende formuleringer i 
+kvantitet/volumen for hver styrke
+Mængde af
+epoetin alfa
+Fyldte sprøjter * 2 000 IE/ml:
+1 000 IE/0,5 ml
+2 000 IE/1 ml
+10 000 IE/ml:
+3 000 IE/0,3 ml
+4 000 IE/0,4 ml
+5 000 IE/0,5 ml
+6 000 IE/0,6 ml
+7 000 IE/0,7 ml
+8 000 IE/0,8 ml
+9 000 IE/0,9 ml
+10 000 IE/1 ml
+40 000 IE/ml:
+20 000 IE/0,5 ml
+30 000 IE/0,75 ml
+40 000 IE/1 ml
+8,4 mikrogram
+16,8 mikrogram
+25,2 mikrogram
+33,6 mikrogram
+42,0 mikrogram
+50,4 mikrogram
+58,8 mikrogram
+67,2 mikrogram
+75,6 mikrogram
+84,0 mikrogram
+168,0 mikrogram
+252,0 mikrogram
+336,0 mikrogram</p>
+<p>*De fås i pakker med 1, 4 eller 6 fyldte sprøjter med eller uden kanylebeskyttelse.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. 
+Indehaver af markedsføringstilladelsen
+Sandoz GmbH
+Biochemiestr. 10
+6250 Kundl
+Østrig
+96
+Fremstiller
+Sandoz GmbH
+Biochemiestr. 10
+6336 Langkampfen
+Østrig
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Sandoz nv/sa
+Tél/Tel: +32 2 722 97 97
+Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636 037
+България
+Сандоз България КЧТ
+Тел.: +359 2 970 47 47
+Luxembourg/Luxemburg
+Sandoz nv/sa
+Tél/Tel.: +32 2 722 97 97
+Česká republika
+Sandoz s.r.o.
+Tel: +420 225 775 111
+Magyarország
+Sandoz Hungária Kft.
+Tel.: +36 1 430 2890
+Danmark/Norge/Ísland/Sverige
+Sandoz A/S
+Tlf: +45 63 95 10 00
+Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644126
+Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 600
+Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2400
+Österreich
+Sandoz GmbH
+Tel: +43 5338 2000
+Ελλάδα
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.
+Τηλ: +30 216 600 5000
+Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 00
+España
+Sandoz Farmacéutica, S.A.
+Tel: +34 900 456 856
+Portugal
+Sandoz Farmacêutica Lda.
+Tel: +351 21 000 86 00
+France
+Sandoz SAS
+Tél: +33 1 49 64 48 00
+România
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 60
+Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska družba d.d.
+Tel: +386 1 580 29 02
+Ireland
+Rowex Ltd.
+Tel: + 353 27 50077
+Slovenská republika
+Sandoz d.d. - organizačná zložka
+Tel: +421 2 50 70 6111
+97
+Italia
+Sandoz S.p.A.
+Tel: +39 02 96541
+Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133 400
+Κύπρος
+Sandoz Pharmaceuticals d.d.
+Τηλ: +357 22 69 0690
+United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2000
+Latvija
+Sandoz d.d. Latvia filiāle
+Tel: +371 67 892 006
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>
+<hr />
+<p>Instruktion i, hvordan du giver dig selv en indsprøjtning (kun til patienter med symptomatisk 
+anæmi forårsaget af nyresygdom til voksne patienter, der får kemoterapi, voksne patienter, som 
+skal gennemgå ortopædkirurgi og voksne patienter med myelodysplastiske syndromer)
+Dette afsnit indeholder information om, hvordan du kan give dig selv en indsprøjtning med Binocrit. 
+Det er vigtigt, at du ikke prøver at give dig selv indsprøjtningen, medmindre du er blevet 
+instrueret af lægen eller sygeplejersken. Binocrit leveres med eller uden kanylebeskyttelse, og 
+lægen eller sundhedspersonalet viser dig, hvordan du anvender den. Hvis du føler dig usikker,eller 
+hvis du har spørgsmål, skal du bede lægen eller sygeplejersken om hjælp.
+ADVARSEL: Brug ikke injektionssprøjten, hvis den er blevet tabt på en hård overflade eller tabt efter, 
+at kanylehætten er blevet fjernet. Den fyldte Binocrit-sprøjte må ikke bruges, hvis den er ødelagt. 
+Indlever den fyldte sprøjte og embalagen, den blev leveret i, på apoteket.
+1. Vask dine hænder.
+2. Tag en sprøjte ud af pakken og tag den beskyttende hætte af kanylen. Sprøjterne er påtrykt med 
+delestreger, hvilket muliggør delvis brug om nødvendigt. Hver delestreg svarer til et volumen på 
+0,1 ml. Hvis dosis kun kræver en del af indholdet, fjernes den overflødige mængde af 
+opløsningen før indsprøjtning.
+3. Rengør huden ved indsprøjtningsstedet med en spritserviet. 
+4. Lav en hudfold ved at klemme huden mellem tommelfingeren og pegefingeren.
+5. Indsæt kanylen i hudfolden med en hurtig, fast bevægelse. Indsprøjt Binocrit-opløsningen efter 
+lægens anvisning. Er du i tvivl, så spørg lægen eller på apoteket.
+Fyldt sprøjte uden kanylebeskyttelse
+6. Tryk stemplet ned langsomt og jævnt, mens du samtidig holder huden løftet.
+7. Efter indsprøjtning af væsken trækkes kanylen ud, og du kan nu slippe huden. 
+Tryk ned på indsprøjtningsstedet med en tør, steril vatrondel.
+8. Smid ikke-anvendt lægemiddel samt affald heraf ud. Brug kun sprøjten til én 
+indsprøjtning.
+Fyldt sprøjte med kanylebeskyttelse
+6. Mens du løfter huden med tommel- og pegefinger, trykkes stemplet langsomt 
+og jævnt ned, til hele dosis er givet, og stemplet ikke kan trykkes længere ned. 
+Du må ikke slippe trykket på stemplet!
+98
+7. Når væsken er sprøjtet ind, skal du tage kanylen ud, mens du stadig bevarer trykket på stemplet. 
+Derefter kan du slippe huden. Tryk ned på indsprøjtningsstedet med en tør, steril vatrondel.
+8. Slip stemplet. Kanylebeskyttelsen flytter sig hurtigt for at dække kanylen.
+9. Smid ikke-anvendt lægemiddel samt affald heraf ud. Brug kun sprøjten til én indsprøjtning.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6f8fb6a1c6179a9554b85e75fc6f0388
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for binocrit Package Leaflet for language en"
+Description: "ePI document Bundle for binocrit Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6f8fb6a1c6179a9554b85e75fc6f0388"
+* entry[0].resource = composition-en-6f8fb6a1c6179a9554b85e75fc6f0388
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6f8fb6a1c6179a9554b85e75fc6f0388"
+* entry[=].resource = mp6f8fb6a1c6179a9554b85e75fc6f0388
+                            
+                    
+Instance: bundlepackageleaflet-da-6f8fb6a1c6179a9554b85e75fc6f0388
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for binocrit Package Leaflet for language da"
+Description: "ePI document Bundle for binocrit Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6f8fb6a1c6179a9554b85e75fc6f0388"
+* entry[0].resource = composition-da-6f8fb6a1c6179a9554b85e75fc6f0388
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6f8fb6a1c6179a9554b85e75fc6f0388"
+* entry[=].resource = mp6f8fb6a1c6179a9554b85e75fc6f0388
+                            
+                    
+
+
+
+Instance: mp6f8fb6a1c6179a9554b85e75fc6f0388
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Binocrit 1,000 IU/0.5 mL solution for injection in a pre-filled syringe"
-Description: "Binocrit 1,000 IU/0.5 mL solution for injection in a pre-filled syringe"
+Title: "Medicinal Product binocrit"
+Description: "binocrit"
 Usage: #inline
 
  
@@ -539,7 +1280,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Binocrit 1,000 IU/0.5 mL solution for injection in a pre-filled syringe"
+  * productName = "binocrit"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -566,29 +1307,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6f8fb6a1c6179a9554b85e75fc6f0388
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for binocrit Package Leaflet for language en"
-Description: "ePI document Bundle for binocrit Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6f8fb6a1c6179a9554b85e75fc6f0388ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Binocrit 1,000 IU/0.5 mL solution for injection in a pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "binocrit"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6f8fb6a1c6179a9554b85e75fc6f0388"
-* entry[0].resource = composition-en-6f8fb6a1c6179a9554b85e75fc6f0388
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa22715338873c5ad5e4d176fdc053f2e"
-* entry[=].resource = mpa22715338873c5ad5e4d176fdc053f2e
-                            
-                      
+* title = "List of all ePIs associated with binocrit"
+
+* subject = Reference(mpa22715338873c5ad5e4d176fdc053f2e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#binocrit "binocrit"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6f8fb6a1c6179a9554b85e75fc6f0388) // binocrit en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6f8fb6a1c6179a9554b85e75fc6f0388) // binocrit da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6f8fb6a1c6179a9554b85e75fc6f0388
+InstanceOf: List
+
+* insert 6f8fb6a1c6179a9554b85e75fc6f0388ListRuleset
+    

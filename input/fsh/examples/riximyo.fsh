@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-496dabc84021ffaf219deb764d02458d
 InstanceOf: CompositionUvEpi
 Title: "Composition for riximyo Package Leaflet"
@@ -593,12 +596,825 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-496dabc84021ffaf219deb764d02458d
+InstanceOf: CompositionUvEpi
+Title: "Composition for riximyo Package Leaflet"
+Description:  "Composition for riximyo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7a29292eef84964e3c0ce3638305e51c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7a29292eef84964e3c0ce3638305e51c
+* title = "TEST PURPOSES ONLY - riximyo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få Riximyo
+3. Sådan gives Riximyo
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What riximyo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What riximyo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
+Riximyo indeholder det aktive indholdsstof rituximab. Det er en type protein, der kaldes et 
+monoklonalt antistof. Det binder sig til overfladen på de hvide blodlegemer, der kaldes B-lymfocytter. 
+Når rituximab bindes til overfladen af denne celle, dør cellen.
+Anvendelse
+Riximyo kan anvendes til behandling af flere forskellige tilstande hos voksne og børn. Din læge kan 
+ordinere Riximyo til behandling for:
+a)
+Non-Hodgkin-lymfom
+Non-Hodgkin-lymfom er en sygdom i lymfesystemet (en del af immunsystemet), der påvirker de 
+hvide blodlegemer, der kaldes B-lymfocytter. 
+Hos voksne kan Riximyo anvendes alene eller sammen med kemoterapi. 
+Hvis behandlingen virker, kan Riximyo gives som vedligeholdelsesbehandling i 2 år efter, den første 
+behandling er givet.
+Hos børn og unge anvendes Riximyo sammen med kemoterapi.
+b)
+Kronisk lymfatisk leukæmi (CLL)
+CLL er den almindeligste form for leukæmi hos voksne. CLL påvirker en bestemt lymfocyt, nemlig B-
+cellen, som findes i knoglemarven og dannes i lymfeknuderne. Patienter med CLL har for mange 
+unormale lymfocytter, som hovedsageligt ophobes i knoglemarven og blodet. Det er formeringen af 
+disse unormale B-lymfocytter, der er årsagen til de symptomer, du kan have. Riximyo anvendt 
+sammen med kemoterapi ødelægger disse celler, som gradvis fjernes fra kroppen ved biologiske 
+processer.
+77
+c)
+Reumatoid artrit
+Riximyo anvendes til behandling af reumatoid artrit. Reumatoid artrit er en sygdom i leddene. B-
+lymfocytter er medvirkende til nogle af de symptomer, du har. Riximyo anvendes til at behandle 
+reumatoid artrit hos personer, der allerede har prøvet anden medicin, men hvor denne medicin enten er 
+holdt op med at virke, ikke har virket godt nok eller har medført bivirkninger. Riximyo bruges som 
+regel sammen med et andet lægemiddel, kaldet methotrexat.
+Riximyo bremser beskadigelsen af dine led forårsaget af reumatoid artrit og forbedrer din evne til at 
+udføre normale daglige aktiviteter.
+Den bedste virkning af Riximyo ses hos dem, som har en positiv blodprøve for reumafaktor (RF) 
+og/eller for antistoffer mod cyklisk citrullinerede peptider (anti-CCP). Begge prøver er almindeligvis 
+positive ved reumatoid artrit og hjælper med at bekræfte diagnosen.
+d)
+Granulomatose med polyangiitis (GPA) eller mikroskopisk polyangiitis (MPA)
+Når Riximyo gives i kombination med binyrebarkhormon for at behandle sygdommen GPA (blev 
+tidligere kaldt Wegeners granulomatose) eller MPA hos voksne og børn på 2 år og opefter. 
+GPA og MPA er to former for inflammation (betændelse) i blodkarrene. Det er som regel lunger og 
+nyrer, der bliver påvirket, men sygdommene kan også påvirke andre organer. B-lymfocytter er 
+involveret i årsagen til disse tilstande.
+e)
+Pemfigus vulgaris (PV)
+Riximyo anvendes til behandling af patienter med moderat til svær pemfigus vulgaris. PV er en 
+autoimmun sygdom, der forårsager smertefulde blærer på huden og mundens, næsens, halsens og 
+kønsorganernes slimhinder.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take riximyo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take riximyo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Riximyo, hvis
+•
+du er allergisk over for rituximab, andre proteiner, der ligner rituximab eller et af de øvrige 
+indholdsstoffer i Riximyo (angivet i punkt 6).
+•
+du i øjeblikket har en aktiv svær infektion.
+•
+du har et svagt immunforsvar.
+•
+du har svært nedsat hjertefunktion eller svær, ukontrolleret hjertesygdom og har reumatoid 
+artrit, granulomatose med polyangiitis, mikroskopisk polyangiitis eller pemfigus vulgaris.
+Du må ikke få Riximyo, hvis ét eller flere af ovenstående punkter gælder for dig. Hvis du er i tvivl, 
+skal du kontakte lægen, apotekspersonalet eller sundhedspersonalet, inden du får Riximyo.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, inden du får Riximyo, hvis:
+•
+du nogensinde har haft leverbetændelse eller måske har leverbetændelse nu. Det er vigtigt, fordi 
+Riximyo i enkelte tilfælde har forårsaget, at en tidligere leverbetændelse (hepatitis B) er blevet 
+aktiv igen. Dette kan i sjældne tilfælde være dødeligt. Patienter, som en gang har haft 
+leverbetændelse, vil blive omhyggeligt undersøgt af lægen for tegn på denne infektion.
+•
+du nogensinde har haft hjerteproblemer (f.eks. angina, hjertebanken eller hjertesvigt) eller 
+vejrtrækningsbesvær.
+Hvis ét eller flere af ovenstående punkter gælder for dig (eller du er i tvivl), skal du kontakte lægen, 
+apotekspersonalet eller sundhedspersonalet, inden du får Riximyo. Du kan have behov for ekstra 
+overvågning under din behandling med Riximyo.
+Kontakt også lægen hvis du tror, du måske har brug for at blive vaccineret i nær fremtid, inklusive 
+vaccinationer for at rejse til andre lande. Nogle vaccinationer bør ikke gives på samme tid som 
+78
+Riximyo eller i månederne efter du har fået Riximyo. Din læge vil undersøge, om du bør vaccineres 
+inden du får Riximyo.
+Hvis du har reumatoid artrit, granulomatose med polyangiitis (GPA), mikroskopisk polyangiitis 
+(MPA) eller pemfigus vulgaris (PV) fortæl da også din læge
+•
+hvis du tror, du måske har en infektion, selv en mild form som for eksempel en forkølelse. 
+Cellerne, der påvirkes af Riximyo hjælper med at bekæmpe infektioner, og du bør vente med 
+behandling med Riximyo, indtil infektionen er forsvundet. Fortæl også lægen, hvis du tidligere 
+har haft mange infektioner eller lider af alvorlige infektioner.
+Børn og unge
+Non-Hodgkin-lymfom
+Riximyo kan bruges til behandling af børn og unge i alderen 6 måneder og derover, som har non-
+Hodgkin-lymfom, særligt CD20 positivt diffust storcellet B-celle lymfom (DLBCL), Burkitt lymfom 
+(BL)/Burkitt leukæmi (akut leukæmi i modne B-celler) (B-ALL) eller Burkitt-lignende lymfom 
+(BLL). Kontakt lægen, apotekspersonalet eller sundhedspersonalet, inden medicinen gives, hvis du 
+eller dit barn er under 18 år.
+Granulomatose med polyangiitis (GPA) eller mikroskopisk polyangiitis (MPA)
+Riximyo kan anvendes til behandling af børn og unge på 2 år og opefter, med GPA (tidligere kaldet 
+Wegeners granulomatose) eller MPA. Der er ikke meget information om brugen af Riximyo hos børn 
+og unge med andre sygdomme.
+Du skal kontakte lægen, apotekspersonalet eller sundhedspersonalet, inden medicinen gives, hvis du 
+eller dit barn er under 18 år.
+Brug af anden medicin sammen med Riximyo
+Fortæl lægen, apotekspersonalet eller sygeplejersken om al medicin, du tager i øjeblikket, har taget for 
+nyligt eller planlægger at tage. Det gælder også medicin, der ikke er på recept, og naturlægemidler. 
+Det er vigtigt, da Riximyo kan påvirke virkningen af anden medicin, og anden medicin kan påvirke 
+virkningen af Riximyo.
+Det er særligt vigtigt at fortælle lægen:
+•
+om du tager medicin mod forhøjet blodtryk. Du kan blive bedt om ikke at tage denne medicin i 
+12 timer inden, du får Riximyo. Nogle har oplevet, at blodtrykket faldt, mens de fik Riximyo
+•
+om du nogensinde har fået medicin, der påvirker immunforsvaret, f.eks. kemoterapi eller 
+medicin, der nedsætter immunforsvaret.
+Hvis ét eller flere af ovenstående punkter gælder for dig (eller du er i tvivl), skal du kontakte lægen, 
+apotekspersonalet eller sundhedspersonalet, inden du får Riximyo.
+Graviditet og amning
+Du skal kontakte lægen eller sundhedspersonalet, hvis du er gravid, har mistanke om, at du er gravid 
+eller planlægger at blive gravid. Riximyo kan passere moderkagen og påvirke barnet.
+Hvis du er i den fødedygtige alder, skal du og din partner bruge sikker prævention, mens du er i 
+behandling med Riximyo. I skal fortsætte med sikker prævention i 12 måneder efter din sidste 
+behandling med Riximyo. Riximyo udskilles i modermælk i meget små mængder. Idet 
+langtidseffekten på ammende spædbørn er ukendt, anbefales amning af forsigtighedsmæssige årsager 
+ikke under behandling med Riximyo og  i op til 6 måneder derefter.
+Trafik og arbejdssikkerhed
+Det vides ikke, om rituximab påvirker din evne til at føre motorkøretøj eller betjene maskiner.
+79
+Riximyo indeholder natrium
+Dette lægemiddel indeholder 52,6 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 10 ml 
+hætteglas og 263,2 mg pr. 50 ml hætteglas. Dette svarer til 2,6 % (for et 10 ml hætteglas) og 13,2 % 
+(for et 50 ml hætteglas) af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take riximyo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take riximyo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du får Riximyo af en læge eller sygeplejerske med erfaring i denne behandling. De vil overvåge dig, 
+mens du får medicinen. Dette er i tilfælde af, at du skulle få bivirkninger.
+Riximyo gives altid i et drop (intravenøs infusion).
+Medicin, der gives inden hver behandling med Riximyo
+Inden du får Riximyo, vil du få anden medicin (præmedicin), der forebygger eller mindsker mulige 
+bivirkninger.
+Hvor meget medicin skal du have og hvor ofte?
+a)
+Hvis du behandles for non-Hodgkin-lymfom
+•
+Hvis du får Riximyo alene
+Riximyo gives en gang ugentligt i 4 uger. Gentagne behandlingsforløb med Riximyo er 
+mulige.
+•
+Hvis du får Riximyo sammen med kemoterapi
+Riximyo gives samme dag som kemoterapien. Det vil sædvanligvis sige hver 3. uge, op til 
+8 gange.
+•
+Hvis medicinen virker godt hos dig, kan du få Riximyo som vedligeholdelsesbehandling 
+hver 2. eller 3. måned i op til 2 år. Lægen kan ændre dette afhængigt af, hvorledes 
+medicinen virker på dig.
+•
+Hvis du er under 18 år
+Du vil få Riximyo sammen med kemoterapi. Du vil få Riximyo op til 6 gange i en 
+periode på 3,5 - 5,5 måneder.
+b)
+Hvis du behandles for kronisk lymfatisk leukæmi (CLL)
+Hvis du behandles med Riximyo i kombination med kemoterapi, vil du få en infusion med Riximyo på 
+dag 0 i serie 1 og derefter på dag 1 i hver af i alt 6 serier. Hver serie varer 28 dage. Kemoterapien skal 
+gives efter infusionen med Riximyo. Din læge vil tage stilling til, om du samtidig skal have 
+understøttende behandling.
+c)
+Hvis du behandles for reumatoid artrit
+Hvert behandlingsforløb består af to separate infusioner, der gives med 2 ugers mellemrum. Gentagne 
+behandlingsforløb med Riximyo er mulige. Afhængigt af kliniske fund og symptomer på din sygdom, 
+vil din læge bedømme, om du skal have mere Riximyo. Dette kan være om flere måneder.
+d)
+Hvis du behandles for granulomatose med polyangiitis (GPA) eller mikroskopisk 
+polyangiitis (MPA)
+Hvert behandlingsforløb består af fire separate infusioner, der gives med én uges mellemrum. Du vil 
+som regel få en indsprøjtning med binyrebarkhormon, inden behandlingen med Riximyo påbegyndes. 
+Lægen kan give dig binyrebarkhormon-tabletter på et hvilket som helst tidspunkt for at behandle din 
+tilstand.
+Hvis du er 18 år eller derover og reagerer godt på behandlingen kan du få Riximyo som 
+vedligeholdesesbehandling. Dette vil blive givet som to separate infusioner med to ugers mellemrum, 
+efterfulgt af én infusion hver 6. måned i mindst 2 år. Din læge kan beslutte at behandle dig i længere 
+tid med Riximyo (op til 5 år), alt efter hvor godt du reagerer på medicinen.
+80
+e)
+Hvis du behandles for pemfigus vulgaris (PV)
+Hvert behandlingsforløb består af to separate infusioner, der gives med 2 ugers mellemrum. Hvis du 
+reagerer godt på behandlingen, kan du få Riximyo som vedligeholdelsesbehandling. 
+Vedligeholdelsesbehandling vil gives 1 år og 18 måneder efter behandlingens start og herefter hver 
+6. måned efter behov. Din læge kan ændre dette, afhængigt af hvordan du reagerer på behandlingen.
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis det er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+De fleste bivirkninger er lette til moderate men nogle kan være alvorlige og kræve behandling. 
+Sjældent har nogle af disse bivirkninger været dødelige.
+Infusionsreaktioner
+Under eller inden for de første 24 timer af infusionen kan du få feber, kuldegysninger og rysten. 
+Mindre hyppigt kan nogle patienter opleve smerte ved infusionsstedet, blærer, hudkløe, kvalme, 
+træthed, hovedpine, vejrtrækningsbesvær, øget blodtryk, hvæsen, ubehag i halsen, hævelse af tunge 
+eller hals, kløende eller løbende næse, opkastning, rødme eller hjertebanken, hjerteanfald eller lavt 
+antal blodplader. Hvis du har hjerteproblemer eller angina pectoris kan symptomerne forværres. 
+Fortæl det straks til den person, der giver dig infusionen, hvis du eller dit barn oplever nogle af 
+disse symptomer, da infusionshastigheden måske skal nedsættes eller stoppes. Du kan behøve 
+yderligere behandling som antihistamin eller paracetamol. Når disse symptomer forsvinder eller 
+forbedres, kan infusionen fortsættes. Ved de efterfølgende infusioner vil hyppigheden af disse 
+reaktioner være mindre. Hvis disse reaktioner er alvorlige, kan lægen vælge at stoppe behandlingen 
+med Riximyo.
+Infektioner
+Kontakt straks lægen, hvis du eller dit barn får tegn på infektion, f.eks.:
+•
+feber, hoste, ondt i halsen, brændende smerte ved vandladning eller følelse af svaghed eller 
+almen utilpashed
+•
+hukommelsestab, koncentrationsbesvær, besvær med at gå eller synstab - dette kan skyldes en 
+meget sjælden, alvorlig hjerneinfektion, der i nogle tilfælde har været dødelig (progressiv 
+multifokal leukoencefalopati eller PML).
+•
+feber, hovedpine, stiv nakke, usikre bevægelser(ataksi), personlighedsforandringer, 
+hallucinationer, påvirket bevidsthed, kramper eller koma - dette kan skyldes en alvorlig 
+hjerneinfektion (enteroviral meningoencefalitis), derkan være dødelig.
+Risikoen for infektioner kan øges under behandling med Riximyo. 
+Det vil ofte dreje sig om forkølelser, men der har været tilfælde af lungebetændelse, 
+urinvejsinfektioner og alvorlige virusinfektioner. Disse er angivet under "Andre bivirkninger".
+Hvis du behandles for reumatoid artritis, granulomatose med polyangiitis, mikroskopisk polyangiitis 
+eller pemfigus vulgaris vil du også finde denne information i patientkortet, som du har fået af lægen. 
+Det er vigtigt, at du gemmer dette kort og viser det til din partner eller hjælper.
+Hudsygdomme
+Meget sjældent kan der forekomme alvorlige, eventuelt livstruende hudsygdomme med blærer. 
+Rødme, ofte forbundet med blærer, kan forekomme på hud og slimhinder såsom på indersiden af 
+munden, kønsdele eller øjenlåg og kan være ledsaget af feber. Fortæl det øjeblikkeligt til lægen, hvis 
+du oplever nogen af disse symptomer.
+Andre bivirkninger omfatter:
+a)
+Hvis du eller dit barn behandles for non-Hodgkin-lymfom (NHL) eller kronisk lymfatisk 
+leukæmi (CLL)
+81
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter):
+•
+bakterie-eller virusinfektioner, bronkitis
+•
+lavt antal hvide blodlegemer med eller uden feber eller lavt antal blodplader
+•
+kvalme
+•
+skaldede pletter i hårbunden, kulderystelser, hovedpine
+•
+lavt immunforsvar, fordi indholdet af antistoffer i blodet, som beskytter mod infektion, kaldet 
+immunglobuliner (IgG), falder.
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter):
+•
+infektioner i blodet (sepsis), lungebetændelse, helvedesild, forkølelse, infektion i bronkierne, 
+svampeinfektioner, infektioner af ukendt oprindelse, bihulebetændelse, leverbetændelse 
+(hepatitis B)
+•
+lavt antal røde blodlegemer (anæmi), lavt antal af alle blodlegemer
+•
+allergiske reaktioner (overfølsomhed)
+•
+højt blodsukker, vægttab, hævelse i ansigt og krop, høje niveauer af enzymet LD 
+(laktatdehydrogenase) i blodet, lavt indhold af kalk i blodet
+•
+usædvanlig følelse i huden, f.eks. følelsesløshed, prikken, stikken, brænden, myrekryb, nedsat 
+følesans
+•
+rastløshed, søvnproblemer
+•
+udtalt rødme i ansigtet og andre områder af huden på grund af udvidede blodkar
+•
+svimmelhed, nervøsitet
+•
+tåreflåd, problemer med tårekanaler, irriterede øjne (konjunktivitis)
+•
+ringen for ørerne, øresmerter
+•
+hjerteproblemer, f.eks. hjerteanfald, uregelmæssig eller hurtig hjerteaktion (puls)
+•
+højt eller lavt blodtryk (lavt blodtryk særligt når du rejser dig op)
+•
+sammensnøring af musklerne i luftvejene, som forårsager hvæsende vejrtrækning 
+(bronkospasme), inflammation (betændelseslignende reaktion), irritation i lungerne, halsen eller 
+bihulerne, åndenød, løbende næse
+•
+opkastning, diarré, mavesmerter, irritation eller sår i svælg eller mund, synkebesvær, 
+forstoppelse, fordøjelsesproblemer
+•
+spiseforstyrrelser, for lille fødeindtagelse, der medfører vægttab
+•
+nældefeber, øget svedtendens, nattesved
+•
+muskelproblemer, f.eks. muskelkramper, led- eller muskelsmerter, ryg- og nakkesmerter
+•
+tumorsmerter
+•
+almen utilpashed og træthed, rystelser, tegn på influenza
+•
+svigt af mange organer.
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter):
+•
+blodprop, nedsat produktion og hurtigere ødelæggelse af røde blodlegemer (aplastisk 
+hæmolytisk anæmi), hævede eller forstørrede lymfekirtler
+•
+dårligt humør og manglende interesse eller glæde ved ting, nervøsitet
+•
+smagsforstyrrelser, f.eks. at ting smager anderledes, end de plejer
+•
+hjerteproblemer, f.eks. nedsat hjerteaktion eller brystsmerter (angina)
+•
+astma, kroppens organer får for lidt ilt
+•
+opsvulmet mave.
+Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 patienter):
+•
+kortvarig stigning i antallet af bestemte antistoffer kaldet immunglobuliner i blodet (IgM), 
+kemiske forstyrrelser i blodet forårsaget af nedbrydningen af døende kræftceller
+•
+nerveskader i arme og ben, lammelse af ansigtet
+•
+hjertesvigt
+•
+irritation i blodkarrene, der kan medføre hudsymptomer
+•
+vejrtrækningsstop
+•
+beskadigelse af tarmvæggen
+82
+•
+svære hudproblemer med blister, der kan være livsfarlige. Rødme, ofte forbundet med blærer, 
+kan forekomme på hud og slimhinder, såsom på indersiden af munden, kønsdele eller øjenlåg, 
+og kan være ledsaget af feber
+•
+nyresvigt
+•
+svært synstab.
+Ikke kendt (det vides ikke, hvor ofte disse bivirkninger forekommer):
+•
+forsinket fald i de hvide blodlegemer
+•
+nedsat antal blodplader umiddelbart efter infusionen; dette kan rette sig, men kan i sjældne 
+tilfælde være dødeligt
+•
+høretab og tab af andre sanser
+•
+hjerne- og hjernehindeinfektion/betændelse (enteroviral meningoencefalitis)
+Børn og unge med non-Hodgkin-lymfom (NHL):
+Generelt svarede bivirkninger hos børn og unge med NHL til dem, der ses hos voksne med NHL eller 
+CLL. De mest almindelige bivirkninger var feber med lavt antal af en type hvide blodlegemer 
+(neutrofiler), infektioner eller sår i mundens slimhinder og allergiske reaktioner (overfølsomhed).
+b)
+Hvis du behandles for reumatoid artrit
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter):
+•
+infektioner som f.eks. lungebetændelse (bakteriel)
+•
+smerte ved vandladning (urinvejsinfektion)
+•
+allergiske reaktioner, som højst sandsynligt forekommer under infusion, men kan forekomme i 
+op til 24 timer efter infusion
+•
+ændringer i blodtryk, kvalme, udslæt, feber, en følelse af kløe, løbende eller stoppet næse og 
+nysen, rysten, hurtig hjerterytme (puls) og træthed
+•
+hovedpine
+•
+ændringer i laboratorieundersøgelser udført af din læge. Disse ændringer inkluderer nedsat 
+indhold af nogle specifikke proteiner i blodet (immunglobuliner), som hjælper med at beskytte 
+mod infektioner.
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter):
+•
+infektioner som f.eks. inflammation i bronkierne (bronkitis)
+•
+en trykkende følelse eller en dunkende smerte bag næse, kinder og øjne (bihulebetændelse), 
+ondt i maven, opkastning og diarré, vejrtrækningsproblemer
+•
+fodsvamp
+•
+høje kolesterolniveauer i blodet
+•
+unormal fornemmelse i huden, såsom følelsesløshed, snurren, prikken eller brænden, iskias, 
+migræne, svimmelhed
+•
+hårtab
+•
+angst, depression
+•
+fordøjelsesbesvær, diarré, sure opstød, irritation og/eller sårdannelse i halsen og munden
+•
+smerter i maven, ryg, muskler og/eller led.
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter):
+•
+væskeophobning i ansigtet og kroppen
+•
+vævsirritation, irritation og/eller tæthed i lunger og hals, hoste
+•
+hudreaktioner herunder nældefeber, kløe og udslæt
+•
+allergiske reaktioner herunder hvæsende vejrtrækning og åndenød, hævelse af ansigt og tunge, 
+kollaps.
+83
+Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 patienter):
+•
+et kompleks af symptomer, som forekommer inden for nogle få uger efter en infusion med 
+rituximab, herunder allergiske reaktioner, såsom udslæt, kløe, ledsmerter, hævede lymfekirtler 
+og feber
+•
+alvorlige, eventuelt livstruende hudsygdomme med blærer. Rødme, ofte forbundet med blærer, 
+kan forekomme på hud og slimhinder, såsom på indersiden af munden, kønsdele eller øjenlåg og 
+kan være ledsaget af feber.
+Ikke kendt (hyppigheden kan ikke estimeres ud fra tilgængelige data):
+•
+alvorlig virusinfektion
+•
+hjerne- og hjernehindeinfektion/betændelse (enteroviral meningoencefalitis)
+Andre sjældent rapporterede bivirkninger af rituximab inkluderer nedsættelse i antallet af hvide 
+blodlegemer (neutrofiler), som hjælper med at bekæmpe infektioner. Nogle infektioner kan være 
+alvorlige (se venligst information om Infektioner i dette afsnit).
+c)
+Hvis du eller dit barn behandles for granulomatose med polyangiitis (GPA) eller 
+mikroskopisk polyangiitis (MPA)
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter):
+•
+infektioner som f.eks. luftvejsinfektioner, urinvejsinfektion (smerter ved vandladning), 
+forkølelse og herpesudbrud
+•
+allergiske reaktioner, som normalt forekommer under infusionen, men kan forekomme i op til 
+24 timer efter infusion
+•
+diarré
+•
+hoste eller kortåndethed
+•
+næseblod
+•
+forhøjet blodtryk
+•
+smerter i led eller ryg
+•
+muskelspasmer eller -rysten
+•
+svimmelhed
+•
+rysten (ofte på hænderne)
+•
+søvnbesvær
+•
+hævede hænder eller ankler.
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter):
+•
+fordøjelsesbesvær
+•
+forstoppelse
+•
+udslæt, inklusive akne eller uren hud
+•
+ansigtsrødme eller rød hud
+•
+feber
+•
+stoppet eller løbende næse
+•
+muskelkramper eller ømme muskler
+•
+smerter i muskler eller hænder og fødder
+•
+lavt antal røde blodlegemer (anæmi)
+•
+lavt antal blodplader
+•
+forhøjet kalium i blodet
+•
+ændringer i hjerterytmen, eller hjertet slår hurtigere end normalt.
+Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 patienter):
+•
+alvorlige, eventuelt livstruende hudsygdomme med blærer. Rødme, ofte forbundet med blærer, 
+kan forekomme på hud og slimhinder, såsom på indersiden af munden, kønsdele eller øjenlåg og 
+kan være ledsaget af feber
+•
+genopblussen af tidligere hepatitis B-infektion.
+84
+Ikke kendt (hyppigheden kan ikke estimeres ud fra tilgængelige data):
+•
+alvorlig virusinfektion
+•
+hjerne- og hjernehindeinfektion/betændelse (enteroviral meningoencefalitis)
+Børn og unge med granulomatose med polyangiitis (GPA) eller mikroskopisk polyangiitis 
+(MPA)
+Bivirkninger hos børn og unge med GPA eller MPA var generelt af samme type som set hos voksne 
+med GPA eller MPA. De mest almindelige bivirkninger er infektioner, allergiske reaktioner og 
+kvalme.
+d)
+Hvis du behandles for pemfigus vulgaris
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter):
+•
+allergiske reaktioner, som normalt forekommer under infusionen, men kan forekomme i op til 
+24 timer efter infusion
+•
+hovedpine
+•
+infektioner såsom infektioner i brystet
+•
+langvarig depression
+•
+hårtab.
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter):
+•
+infektioner som f.eks. forkølelse, herpesudbrud, øjeninfektion, trøske og urinvejsinfektioner 
+(smerter ved vandladning) 
+•
+humørsvingninger såsom irritabilitet og depression
+•
+hudsygdomme såsom kløe, nældefeber og godartede knuder 
+•
+træthed og svimmelhed
+•
+feber
+•
+led- eller rygsmerter
+•
+smerter i maven
+•
+smerter i musklerne
+•
+hjertet slår hurtigere end normalt.
+Ikke kendt (hyppigheden kan ikke estimeres ud fra tilgængelige data):
+•
+alvorlig virusinfektion
+•
+hjerne- og hjernehindeinfektion/betændelse (enteroviral meningoencefalitis).
+Riximyo kan også ændre resultaterne på de blodprøver, som lægen har bestilt.
+Hvis du får Riximyo sammen med anden medicin, kan nogle bivirkninger være forårsaget af den 
+anden medicin.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store riximyo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store riximyo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og på hætteglassets etiket efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares i køleskab (2 °C - 8 °C).
+85
+Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
+Lægemidlet kan også opbevares i den originale pakning uden for køleskab ved højst 30 °C i en enkelt 
+periode på op til 7 dage, men den oprindelige udløbsdato må ikke overskrides. I denne situation må det 
+ikke sættes tilbage i køleskab. Skriv den nye udløbsdato på æsken med dag/måned/år. Kasser 
+lægemidlet, hvis det ikke er brugt før den nye udløbsdato eller den dato, der er trykt på æsken, alt 
+efter, hvilken dato der kommer først.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Riximyo indeholder:
+•
+Aktivt stof: Rituximab.
+Hætteglasset med 10 ml indeholder 100 mg rituximab (10 mg/ml).
+Hætteglasset med 50 ml indeholder 500 mg rituximab (10 mg/ml).
+•
+Øvrige indholdsstoffer: Natriumcitrat, polysorbat 80, natriumchlorid, natriumhydroxid, saltsyre 
+og vand til injektionsvæsker (se punkt 2).
+Udseende og pakningsstørrelser
+Riximyo er en klar, farveløs til let gullig opløsning, leveret som koncentrat til infusionsvæske, 
+opløsning (sterilt koncentrat).
+Hætteglas a 10 ml. Pakningsstørrelse på 2 eller 3 hætteglas.
+Hætteglas a 50 ml. Pakningsstørrelse på 1 eller 2 hætteglas.
+Indehaver af markedsføringstilladelsen
+Sandoz GmbH
+Biochemiestr. 10
+6250 Kundl
+Østrig
+Fremstiller
+Sandoz GmbH Schaftenau
+Biochemiestr. 10
+6336 Langkampfen
+Østrig
+Lek Pharmaceuticals d.d. Ljubljana 
+Verovškova 57
+1526 Ljubljana
+Slovenien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Sandoz nv/sa
+Tél/Tel: +32 2 722 97 97
+Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636 037
+86
+България
+Сандоз България КЧТ
+Тел.: +359 2 970 47 47
+Luxembourg/Luxemburg
+Sandoz nv/sa
+Tél/Tel.: +32 2 722 97 97
+Česká republika
+Sandoz s.r.o.
+Tel: +420 225 775 111
+Magyarország
+Sandoz Hungária Kft.
+Tel.: +36 1 430 2890
+Danmark/Norge/Ísland/Sverige
+Sandoz A/S
+Tlf/Sími/Tel: +45 63 95 10 00
+Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644126
+Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 600
+Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2400
+Österreich
+Sandoz GmbH
+Tel: +43 5338 2000
+Ελλάδα
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.
+Τηλ: +30 216 600 5000
+Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 00
+España
+Sandoz Farmacéutica, S.A.
+Tel: +34 900 456 856
+Portugal
+Sandoz Farmacêutica Lda.
+Tel: +351 21 000 86 00
+France
+Sandoz SAS
+Tél: +33 1 49 64 48 00
+România
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 60
+Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska družba d.d.
+Tel: +386 1 580 29 02
+Ireland
+Rowex Ltd.
+Tel: + 353 27 50077
+Slovenská republika
+Sandoz d.d. - organizačná zložka
+Tel: +421 2 48 200 600
+Italia
+Sandoz S.p.A.
+Tel: +39 02 96541
+Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133 400
+Κύπρος
+Sandoz Pharmaceuticals d.d.
+Τηλ: +357 22 69 0690
+United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2000
+Latvija
+Sandoz d.d. Latvia filiāle
+Tel: +371 67 892 006
+87
+Denne indlægsseddel blev senest ændret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/
+Denne indlægsseddel findes på alle EU-/EØS-sprog på det Europæiske Lægemiddelagenturs 
+hjemmeside.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-496dabc84021ffaf219deb764d02458d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for riximyo Package Leaflet for language en"
+Description: "ePI document Bundle for riximyo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-496dabc84021ffaf219deb764d02458d"
+* entry[0].resource = composition-en-496dabc84021ffaf219deb764d02458d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp496dabc84021ffaf219deb764d02458d"
+* entry[=].resource = mp496dabc84021ffaf219deb764d02458d
+                            
+                    
+Instance: bundlepackageleaflet-da-496dabc84021ffaf219deb764d02458d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for riximyo Package Leaflet for language da"
+Description: "ePI document Bundle for riximyo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-496dabc84021ffaf219deb764d02458d"
+* entry[0].resource = composition-da-496dabc84021ffaf219deb764d02458d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp496dabc84021ffaf219deb764d02458d"
+* entry[=].resource = mp496dabc84021ffaf219deb764d02458d
+                            
+                    
+
+
+
+Instance: mp496dabc84021ffaf219deb764d02458d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Riximyo 100 mg concentrate for solution for infusion"
-Description: "Riximyo 100 mg concentrate for solution for infusion"
+Title: "Medicinal Product riximyo"
+Description: "riximyo"
 Usage: #inline
 
  
@@ -618,7 +1434,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Riximyo 100 mg concentrate for solution for infusion"
+  * productName = "riximyo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -645,29 +1461,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-496dabc84021ffaf219deb764d02458d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for riximyo Package Leaflet for language en"
-Description: "ePI document Bundle for riximyo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 496dabc84021ffaf219deb764d02458dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Riximyo 100 mg concentrate for solution for infusion"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "riximyo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-496dabc84021ffaf219deb764d02458d"
-* entry[0].resource = composition-en-496dabc84021ffaf219deb764d02458d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7a29292eef84964e3c0ce3638305e51c"
-* entry[=].resource = mp7a29292eef84964e3c0ce3638305e51c
-                            
-                      
+* title = "List of all ePIs associated with riximyo"
+
+* subject = Reference(mp7a29292eef84964e3c0ce3638305e51c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#riximyo "riximyo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-496dabc84021ffaf219deb764d02458d) // riximyo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-496dabc84021ffaf219deb764d02458d) // riximyo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-496dabc84021ffaf219deb764d02458d
+InstanceOf: List
+
+* insert 496dabc84021ffaf219deb764d02458dListRuleset
+    

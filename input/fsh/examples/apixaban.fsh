@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-656032a84c2935003bb3f7376e124521
 InstanceOf: CompositionUvEpi
 Title: "Composition for apixaban Package Leaflet"
@@ -649,12 +652,732 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-656032a84c2935003bb3f7376e124521
+InstanceOf: CompositionUvEpi
+Title: "Composition for apixaban Package Leaflet"
+Description:  "Composition for apixaban Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa713b211645cdd2f87083f55176d4f1d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa713b211645cdd2f87083f55176d4f1d
+* title = "TEST PURPOSES ONLY - apixaban"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Apixaban Accord </li>
+<li>Sådan skal De tage Apixaban Accord </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What apixaban is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What apixaban is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Apixaban Accord indeholder det aktive stof apixaban og tilhører en gruppe medicin, som kaldes 
+blodfortyndende medicin. Denne medicin medvirker til at forebygge blodpropper ved at blokere 
+Faktor Xa, som er en vigtig komponent i dannelsen af blodpropper. </p>
+<p>Apixaban Accord anvendes til voksne:</p>
+<ul>
+<li>
+<p>til at forebygge blodpropper (dyb venetrombose [DVT]) efter en knæ- eller hofteoperation. Efter 
+en operation i hoften eller knæet kan De have en større risiko for at udvikle blodpropper i 
+blodårerne i benene. Dette kan medføre, at benene svulmer op med eller uden smerter. Hvis en 
+blodprop bevæger sig fra benet til lungerne, kan det medføre åndenød med eller uden 
+brystsmerter. Denne tilstand (blodprop i lungen) kan være livstruende og kræver omgående 
+lægehjælp. </p>
+</li>
+<li>
+<p>til at forebygge blodpropper i hjertet hos patienter med uregelmæssig hjerterytme (atrieflimren) 
+og mindst en yderligere risikofaktor. En blodprop kan rive sig løs, vandre op til hjernen og 
+forårsage et slagtilfælde eller vandre til andre organer, hvor den forhindrer blodtilstrømningen 
+til det pågældende organ (kaldes også systemisk emboli). Et slagtilfælde kan være livsfarligt og 
+kræver øjeblikkelig lægehjælp. </p>
+</li>
+<li>
+<p>til at behandle blodpropper i blodårerne i benene (dyb venetrombose) og i blodårerne i lungerne 
+(lungeemboli) samt til at forebygge, at der opstår nye blodpropper i blodårerne i ben og/eller 
+lunger. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take apixaban"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take apixaban"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Apixaban Accord:</p>
+<ul>
+<li>hvis De er allergisk over for apixaban eller over for et af de øvrige indholdsstoffer i Apixaban 
+Accord (angivet i afsnit 6). </li>
+<li>hvis De bløder kraftigt </li>
+<li>hvis De har en organsygdom, der øger risikoen for alvorlig blødning (f.eks. aktiv eller nylig 
+sår i maven eller tarmene, nylig hjerneblødning). </li>
+<li>hvis De lider af en leversygdom, som medfører øget risiko for blødning (hepatisk 
+koagulationssygdom) </li>
+<li>hvis De tager medicin til forebyggelse af blodpropper (f.eks. warfarin, rivaroxaban, 
+dabigatran eller heparin), medmindre De skal skifte til anden blodfortyndende behandling, hvis 
+De har et drop i en vene eller arterie, og De får heparin gennem droppet for at holde 
+venen/arterien åben, eller hvis De har fået indsat en slange i en blodåre (kateterablation) for at 
+behandle en uregelmæssig hjerterytme (arytmi). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken før De tager Apixaban Accord:</p>
+<ul>
+<li>hvis De har øget risiko for blødning, som f.eks. </li>
+<li>blødningsforstyrrelser, herunder tilstande med nedsat blodplade‑aktivitet </li>
+<li>meget højt blodtryk, som ikke er reguleret med medicin </li>
+<li>hvis De er ældre end 75 år </li>
+<li>hvis De vejer 60 kg eller derunder </li>
+<li>hvis De har alvorlig nyresygdom eller hvis De er i dialyse </li>
+<li>hvis De har leversygdom eller tidligere har haft leversygdom<br />
+Dette lægemiddel vil blive anvendt med forsigtighed til patienter med tegn på ændringer i 
+leverfunktionen. </li>
+<li>hvis De har fået lagt kateter eller fået injektion i rygsøjlen (en epidural injektion til 
+bedøvelse eller smertelindring), vil lægen fortælle Dem, at De først skal tage dette lægemiddel 
+5 timer eller længere efter kateteret er fjernet </li>
+<li>hvis De har en kunstig hjerteklap </li>
+<li>hvis Deres læge har konstateret, at Deres blodtryk er ustabilt  </li>
+<li>hvis anden behandling eller operation til fjernelse af blodproppen i Deres lunger er planlagt. </li>
+</ul>
+<p>Vær ekstra forsigtig med at tage Apixaban Accord 
+- hvis De ved, at De har en sygdom, der hedder antifosfolipidsyndrom (en forstyrrelse i 
+immunsystemet, der giver øget risiko for blodpropper). I så fald skal De sige det til lægen, som 
+vil vurdere, om behandlingen skal ændres. </p>
+<p>Hvis De skal gennemgå en operation eller undersøgelse, som kan medføre blødning, vil Deres læge 
+muligvis bede Dem om midlertidigt at stoppe med at tage denne medicin i en kort periode. Hvis De 
+ikke er sikker på, om en undersøgelse kan medføre blødning, skal De spørge lægen. </p>
+<p>Børn og unge </p>
+<p>Dette lægemiddel kan ikke anbefales til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Apixaban Accord </p>
+<p>Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis De bruger anden medicin, for 
+nylig har brugt anden medicin eller planlægger at bruge anden medicin. </p>
+<p>Visse lægemidler kan øge virkningen af Apixaban Accord, og andre kan nedsætte virkningen. Lægen 
+vil beslutte, om De skal behandles med Apixaban Accord, når De tager disse lægemidler, og hvor tæt 
+De skal holdes under observation. </p>
+<p>Følgende lægemidler kan øge virkningen af Apixaban Accord og øge risikoen for uønsket blødning:</p>
+<ul>
+<li>visse former for medicin mod svampeinfektioner (f.eks. ketoconazol) </li>
+<li>visse former for virushæmmende medicin mod HIV/AIDS (f.eks. ritonavir) </li>
+<li>anden medicin til forebyggelse af blodpropper (f.eks. enoxaparin) </li>
+<li>betændelseshæmmende eller smertestillende medicin (f.eks. acetylsalicylsyre eller 
+naproxen). De kan især have en øget risiko for blødning, hvis De er over 75 år og tager 
+acetylsalicylsyre. </li>
+<li>medicin mod for højt blodtryk eller hjerteproblemer (f.eks. diltiazem) </li>
+<li>antidepressiv medicin (såkaldte selektive serotoningenoptagelseshæmmere eller serotonin- og noradrenalingenoptagelseshæmmere). </li>
+</ul>
+<p>Følgende lægemidler kan nedsætte virkningen af Apixaban Accord til at forebygge blodpropper:</p>
+<ul>
+<li>medicin til forebyggelse af epilepsi eller kramper (f.eks. fenytoin) </li>
+<li>perikum (et naturlægemiddel som bruges mod depression) </li>
+<li>medicin til behandling af tuberkulose eller andre infektioner (f.eks. rifampicin). </li>
+</ul>
+<p>Graviditet og amning </p>
+<p>Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<p>Virkningen af Apixaban Accord under graviditet og på det ufødte barn kendes ikke. De bør ikke tage 
+dette lægemiddel, hvis De er gravid. Kontakt straks Deres læge, hvis De bliver gravid under 
+behandlingen med dette lægemiddel. </p>
+<p>Det vides ikke, om Apixaban Accord passerer over i modermælken. Spørg Deres læge, 
+sundhedspersonalet eller apoteket til råds, før De tager denne medicin, mens De ammer. De vil råde 
+Dem til enten at holde op med at amme, eller til ikke at tage dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Apixaban Accord har ingen eller ubetydelig indflydelse på evnen til at føre motorkøretøj eller betjene 
+maskiner. </p>
+<p>Apixaban Accord indeholder lactose (en type sukker) og natrium </p>
+<p>Kontakt lægen, før De tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse 
+sukkerarter.<br />
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take apixaban"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take apixaban"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen, apotekspersonalet eller sygeplejersken. </p>
+<p>Dosis </p>
+<p>Tabletten synkes med vand. Apixaban Accord kan tages med eller uden mad. 
+Forsøg at tage tabletterne på samme tidspunkt hver dag for at få den bedste virkning af behandlingen. </p>
+<p>Hvis De har svært ved at sluge tabletten hel, kan De tale med Deres læge om andre måder at tage 
+Apixaban Accord. Tabletten kan knuses og blandes med vand eller 5% glucose i vand eller æblejuice 
+eller æblemos lige inden, De tager den. </p>
+<p>Sådan knuser De tabletterne: </p>
+<ul>
+<li>
+<p>Knus tabletterne i en morter eller med den konvekse side af en ske på en tallerken. </p>
+</li>
+<li>
+<p>Hæld omhyggeligt al pulveret over i en passende beholder og bland det med lidt vand, f.eks. 
+30 ml (2 spiseskefuld), eller en af de andre ovennævnte væsker for at lave blandingen. </p>
+</li>
+<li>
+<p>Drik blandingen. </p>
+</li>
+<li>
+<p>Skyl pistilen og morteren, eller skeen og tallerkenen, og beholderen med lidt vand eller en af de 
+andre væsker (f.eks. 30 ml) og drik væsken. </p>
+</li>
+</ul>
+<p>Hvis det er nødvendigt, kan lægen også give Dem den knuste Apixaban Accord‑tablet blandet i 60 ml 
+vand eller 5% glucose i vand gennem en sonde i næsen. </p>
+<p>Tag Apixaban Accord som anvist til behandling af følgende: </p>
+<p>Til at forebygge blodpropper efter knæ- eller hofteoperation. 
+Den anbefalede dosis er 1 Apixaban Accord 2,5 mg tablet to gange dagligt, 
+for eksempel 1 om morgenen og 1 om aftenen. <br />
+Tag den første tablet 12‑24 timer efter operationen. </p>
+<p>Hvis De har gennemgået en større hofteoperation, skal De sædvanligvis tage tabletterne i 32‑38 dage. 
+Hvis De har gennemgået en større knæoperation, skal De sædvanligvis tage tabletterne i 10‑14 dage. </p>
+<p>Til at forebygge blodpropper i hjertet hos patienter med uregelmæssig hjerterytme (atrieflimren) og 
+mindst en yderligere risikofaktor. </p>
+<p>Den anbefalede dosis er en Apixaban Accord 5 mg tablet to gange dagligt. </p>
+<p>Den anbefalede dosis er en Apixaban Accord 2,5 mg tablet to gange dagligt, hvis:</p>
+<ul>
+<li>De har svært nedsat nyrefunktion </li>
+<li>
+<p>To eller flere af følgende punkter gælder for Dem:</p>
+</li>
+<li>
+<p>Deres blodprøver tyder på, at De har nedsat nyrefunktion (Deres serumkreatinin-tal er 
+1,5 mg/dl (133 mikromol/l) eller mere) </p>
+</li>
+<li>De er 80 år eller derover </li>
+<li>De vejer 60 kg eller derunder. </li>
+</ul>
+<p>Den anbefalede dosis er en tablet to gange dagligt, f.eks. 1 om morgenen og 1 om aftenen. Deres læge 
+vil afgøre, hvor længe De skal fortsætte behandlingen. </p>
+<p>Til behandling af blodpropper i blodårerne i benene og blodårerne i lungerne </p>
+<p>Den anbefalede dosis er to tabletter Apixaban Accord 5 mg to gange dagligt i 7 dage, f.eks. 2 om 
+morgenen og 2 om aftenen. 
+Efter 7 dage er den anbefalede dosis en tablet Apixaban Accord 5 mg to gange dagligt, f.eks. 1 om 
+morgenen og 1 om aftenen.  </p>
+<p>Til forebyggelse af nye blodpropper efter afslutning af 6 måneders behandling </p>
+<p>Den anbefalede dosis er en tablet Apixaban Accord 2,5 mg to gange dagligt, f.eks. 1 om morgenen og 
+1 om aftenen.<br />
+Deres læge vil afgøre, hvor længe De skal fortsætte behandlingen. </p>
+<p>Deres læge vil muligvis ændre Deres blodfortyndende behandling på følgende måde:</p>
+<ul>
+<li>
+<p>Skift fra behandling med Apixaban Accord til blodfortyndende medicin 
+Stop med at tage Apixaban Accord. Start behandlingen med den blodfortyndende medicin (f.eks. 
+heparin) på det tidspunkt, hvor De ville have taget den næste tablet. </p>
+</li>
+<li>
+<p>Skift fra blodfortyndende medicin til Apixaban Accord 
+Stop med at tage den blodfortyndende medicin. Start behandlingen med Apixaban Accord på det 
+tidspunkt, hvor De ville have taget den næste dosis blodfortyndende medicin og fortsæt derefter som 
+normalt. </p>
+</li>
+<li>
+<p>Skift fra behandling med blodfortyndende medicin, der indeholder vitamin K-antagonist (f.eks. 
+warfarin) til Apixaban Accord 
+De skal stoppe med at tage medicin, der indeholder vitamin K-antagonist. Lægen vil tage blodprøver 
+og vil fortælle Dem, hvornår De skal begynde at tage Apixaban Accord. </p>
+</li>
+<li>
+<p>Skift fra Apixaban Accord til behandling med blodfortyndende medicin, der indeholder vitamin 
+K-antagonist (f.eks. warfarin). 
+Hvis Deres læge har bedt Dem om at begynde at tage medicin, der indeholder vitamin K-antagonist, 
+skal De fortsætte med at tage Apixaban Accord i mindst 2 dage efter den første dosis af medicinen, der 
+indeholder vitamin K-antagonist. Lægen vil tage blodprøver og fortælle Dem, hvornår De skal stoppe 
+med at tage Apixaban Accord. </p>
+</li>
+</ul>
+<p>Patienter, der gennemgår kardiovertering (genoprettelse af hjertets normale rytme) </p>
+<p>Hvis Deres unormale hjerterytme skal bringes tilbage til normal rytme ved hjælp af en procedure, der 
+kaldes kardiovertering, skal De tage dette lægemiddel på de tidspunkter, lægen fortæller Dem, for at 
+forebygge blodpropper i blodårerne i hjernen og andre blodårer i kroppen. </p>
+<p>Hvis De har taget for meget Apixaban Accord </p>
+<p>Kontakt straks Deres læge, hvis De har taget en større dosis dette lægemiddel end foreskrevet. Tag 
+pakningen med, også selv om der ikke er flere tabletter tilbage. </p>
+<p>Hvis De tager mere Apixaban Accord end anbefalet, øges risikoen for blødning. Hvis der opstår 
+blødning, kan det være nødvendigt med operation, blodtransfusioner eller andre behandlinger, der kan 
+modvirke anti-faktor Xa-aktiviteten. </p>
+<p>Hvis De har glemt at tage Apixaban Accord </p>
+<ul>
+<li>
+<p>tag dosen så snart De kommer i tanke om det og:</p>
+</li>
+<li>
+<p>tag den næste dosis på det sædvanlige tidspunkt </p>
+</li>
+<li>fortsæt som normalt. </li>
+</ul>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis De er i tvivl om, hvad De skal gøre, eller 
+har glemt mere end 1 dosis. </p>
+<p>Hvis De holder op med at tage Apixaban Accord </p>
+<p>De bør ikke holde op med at tage dette lægemiddel uden først at have talt med Deres læge, da risikoen 
+for udvikling af en blodprop kan være større, hvis De stopper behandlingen for tidligt. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Apixaban Accord kan anvendes til behandling af tre forskellige sygdomstilstande. De kendte 
+bivirkninger og deres hyppighed kan være forskellige for disse sygdomstilstande, og de er derfor 
+angivet separat i nedenstående. For begge sygdomstilstande er den hyppigste bivirkning ved dette 
+lægemiddel blødning, som kan være livstruende og kræve øjeblikkelig lægehjælp. </p>
+<p>Følgende bivirkninger er kendte bivirkninger, når man tager Apixaban Accord til at forebygge 
+blodpropper efter en knæ- eller hofteoperation. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>Blodmangel (anæmi) som kan medføre træthed eller bleghed </li>
+<li>
+<p>Blødning, herunder:</p>
+</li>
+<li>
+<p>blå mærker og hævelser </p>
+</li>
+<li>Kvalme. </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>Nedsat antal blodplader (hvilket kan påvirke blodets evne til at størkne) </li>
+<li>
+<p>Blødning:</p>
+</li>
+<li>
+<p>efter operation herunder blå mærker og hævelse, udsivning af blod eller væske fra 
+operationssåret (sårsekret) eller injektionsstedet </p>
+</li>
+<li>i maven, tarmen eller lyst/rødt blod i afføringen </li>
+<li>blod i urinen </li>
+<li>fra næsen </li>
+<li>fra skeden </li>
+<li>Lavt blodtryk som kan få Dem til at føle Dem svag, eller få pulsen til at stige </li>
+<li>
+<p>Blodprøver kan vise:</p>
+</li>
+<li>
+<p>unormal leverfunktion </p>
+</li>
+<li>stigning i visse leverenzymer </li>
+<li>stigning i bilirubin, et nedbrydningsprodukt af røde blodlegemer, som kan medføre 
+gulligfarvning af hud og øjne. </li>
+<li>Kløe. </li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>Overfølsomhedsreaktioner (allergi) som kan medføre: hævelser i ansigt, læber, mund, tunge 
+og/eller halsen, og vejrtrækningsbesvær. De skal straks kontakte Deres læge, hvis De oplever 
+nogen af disse symptomer. </li>
+<li>
+<p>Blødning:</p>
+</li>
+<li>
+<p>i en muskel </p>
+</li>
+<li>i øjnene </li>
+<li>fra gummerne og blod i spyttet i forbindelse med hoste </li>
+<li>fra endetarmen </li>
+<li>Hårtab. </li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>Blødning:</p>
+</li>
+<li>
+<p>i hjernen eller rygsøjlen  </p>
+</li>
+<li>i lunger eller hals </li>
+<li>i munden </li>
+<li>i maven eller i rummet bag bughulen </li>
+<li>fra en hæmoride </li>
+<li>prøver som viser blod i afføringen eller urinen </li>
+<li>Hududslæt, som kan danne blærer og som ligner små skydeskiver (mørk plet i midten omgivet 
+af et blegere område, med en mørk ring om kanten) (erythema multiforme). </li>
+<li>Betændelse i blodkarrene (vaskulitis), som kan resultere i udslæt på huden eller spidse, flade, 
+røde, runde pletter under hudoverfladen eller blå mærker. </li>
+</ul>
+<p>Følgende bivirkninger er kendte bivirkninger, når man tager Apixaban Accord til at forebygge 
+blodpropper i hjertet hos patienter med uregelmæssig hjerterytme (atrieflimren) og mindst en 
+yderligere risikofaktor. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Blødning, herunder:</p>
+</li>
+<li>
+<p>i øjnene </p>
+</li>
+<li>i maven eller tarmen </li>
+<li>fra endetarmen </li>
+<li>blod i urinen </li>
+<li>fra næsen </li>
+<li>fra gummerne </li>
+<li>blå mærker og hævelse </li>
+<li>Blodmangel (anæmi) som kan medføre træthed eller bleghed </li>
+<li>Lavt blodtryk, som kan få Dem til at føle, at De er ved at besvime eller få pulsen til at stige </li>
+<li>Kvalme </li>
+<li>
+<p>Blodprøver kan vise:</p>
+</li>
+<li>
+<p>en stigning i gamma-glutamyltransferase (GGT). </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Blødning:</p>
+</li>
+<li>
+<p>i hjernen eller rygsøjlen </p>
+</li>
+<li>i munden eller blod i spyttet i forbindelse med hoste </li>
+<li>i maven eller fra skeden </li>
+<li>lyst/rødt blod i afføringen </li>
+<li>blødning efter operation herunder blå mærker og hævelse, udsivning af blod eller væske 
+fra operationssåret (sårsekret) eller injektionsstedet. </li>
+<li>fra en hæmoride </li>
+<li>prøver som viser blod i afføringen eller urinen </li>
+<li>Nedsat antal blodplader (hvilket kan påvirke blodets evne til at størkne) </li>
+<li>
+<p>Blodprøver kan vise:</p>
+</li>
+<li>
+<p>unormal leverfunktion </p>
+</li>
+<li>stigning i visse leverenzymer </li>
+<li>stigning i bilirubin, et nedbrydningsprodukt af røde blodlegemer, som kan medføre 
+gulfarvning af hud og øjne. </li>
+<li>Hududslæt </li>
+<li>Kløe </li>
+<li>Hårtab </li>
+<li>Allergisk reaktion (overfølsomhed) som kan medføre: hævelse af ansigt, læber, mund, tunge 
+og/eller hals, og vejrtrækningsbesvær. Søg straks lægehjælp, hvis De får et eller flere af disse 
+symptomer. </li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>Blødning:</p>
+</li>
+<li>
+<p>i lunger eller hals </p>
+</li>
+<li>i rummet bag bughulen </li>
+<li>i en muskel. </li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 personer) </p>
+<ul>
+<li>Hududslæt, som kan danne blærer og som ligner små skydeskiver (mørk plet i midten omgivet 
+af et blegere område, med en mørk ring om kanten) (erythema multiforme). </li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>Betændelse i blodkarrene (vaskulitis), som kan resultere i udslæt på huden eller spidse, flade, 
+røde, runde pletter under hudoverfladen eller blå mærker. </li>
+</ul>
+<p>Følgende bivirkninger er kendte bivirkninger, når man tager Apixaban Accord til behandling eller 
+forebyggelse af nye blodpropper i blodårerne i benene eller lungerne. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Blødning, herunder:</p>
+</li>
+<li>
+<p>fra næsen </p>
+</li>
+<li>fra gummerne </li>
+<li>blod i urinen  </li>
+<li>blå mærker og hævelser </li>
+<li>i maven, i tarmene, fra endetarmen </li>
+<li>i munden </li>
+<li>fra skeden </li>
+<li>Blodmangel (anæmi) som kan medføre træthed eller bleghed </li>
+<li>Nedsat antal blodplader (hvilket kan påvirke blodets evne til at størkne) </li>
+<li>Kvalme </li>
+<li>Hududslæt </li>
+<li>
+<p>Blodprøver kan vise:</p>
+</li>
+<li>
+<p>en stigning i gamma-glutamyltransferase (GGT) eller alaninaminotransferase (ALAT). </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>Lavt blodtryk, som kan få Dem til at føle, at De er ved at besvime eller få pulsen til at stige </li>
+<li>
+<p>Blødning:</p>
+</li>
+<li>
+<p>i øjnene </p>
+</li>
+<li>i munden eller blod i spyttet i forbindelse med hoste </li>
+<li>lyst/rødt blod i afføringen </li>
+<li>prøver som viser blod i afføringen eller urinen </li>
+<li>blødning efter operation herunder blå mærker og hævelse, udsivning af blod eller væske 
+fra operationssåret (sårsekret) eller injektionsstedet. </li>
+<li>fra en hæmoride </li>
+<li>i en muskel </li>
+<li>Kløe </li>
+<li>Hårtab </li>
+<li>Allergisk reaktion (overfølsomhed) som kan medføre: hævelse af ansigt, læber, mund, tunge 
+og/eller hals og vejrtrækningsbesvær. De skal straks kontakte Deres læge, hvis De oplever 
+nogen af disse symptomer. </li>
+<li>
+<p>Blodprøver kan vise:</p>
+</li>
+<li>
+<p>unormal leverfunktion </p>
+</li>
+<li>stigning i visse leverenzymer </li>
+<li>stigning i bilirubin, et nedbrydningsprodukt af røde blodlegemer, som kan medføre 
+gulfarvning af hud og øjne. </li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>Blødning:</p>
+</li>
+<li>
+<p>i hjernen eller rygsøjlen </p>
+</li>
+<li>i lungerne. </li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>Blødning:</p>
+</li>
+<li>
+<p>i maven eller i rummet bag bughulen </p>
+</li>
+<li>Hududslæt, som kan danne blærer og som ligner små skydeskiver (mørk plet i midten omgivet 
+af et blegere område, med en mørk ring om kanten) (erythema multiforme). </li>
+<li>Betændelse i blodkarrene (vaskulitis), som kan resultere i udslæt på huden eller spidse, flade, 
+røde, runde pletter under hudoverfladen eller blå mærker. </li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store apixaban"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store apixaban"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterkortet efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Apixaban Accord indeholder:</p>
+<ul>
+<li>Aktivt stof: apixaban. Hver tablet indeholder 2,5 mg apixaban. </li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>Tabletkerne: lactose (se punkt 2), mikrokrystallinsk cellulose, croscarmellosenatrium, 
+natriumlaurilsulfat, magnesiumstearat. </p>
+</li>
+<li>Filmovertræk: lactosemonohydrat (se punkt 2), hypromellose, titandioxid (E171), 
+triacetin, gul jernoxid (E172).  </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>De filmovertrukne tabletter er gule, runde og bikonvekse samt præget med ”UI1” på den ene side 
+og glatte på den anden side. </p>
+<p>Blisterpakninger af PVC/PVdC-aluminiumblistre med 10, 14, 20, 28, 56, 60, 100, 112, 168 og 
+200 filmovertrukne tabletter. </p>
+<p>Blisterpakninger med perforerede enkeltdosis-blistre af PVC/PVdC-aluminium med 10 x 1, 20 x 1, x 1, 56 x 1, 60 x 1, 100 x 1 og 168 x 1 filmovertrukket tablet. </p>
+<p>HDPE-beholder med børnesikret/gevindskåret polypropylen-låg med 60, 100, 168, 180, 200 og 1.filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Patientinformationskort: Sådan håndterer De kortet </p>
+<p>I Apixaban Accord-pakken finder De et patientinformationskort sammen med indlægssedlen eller De 
+får et lignende kort af lægen. </p>
+<p>Dette patientinformationskort indeholder oplysninger, som er nyttige for Dem og som gør andre læger 
+opmærksomme på, at De tager Apixaban Accord. Hav altid kortet på Dem. </p>
+<ol>
+<li>Tag kortet </li>
+<li>Riv kortet på Deres sprog af (gøres nemt langs den stiplede kant) </li>
+<li>
+<p>Udfyld følgende felter eller bed Deres læge om at gøre det:</p>
+</li>
+<li>
+<p>Navn:</p>
+</li>
+<li>
+<p>Fødselsdato:</p>
+</li>
+<li>
+<p>Indikation:</p>
+</li>
+<li>
+<p>Dosis:  ........mg to gange dagligt </p>
+</li>
+<li>
+<p>Lægens navn:</p>
+</li>
+<li>
+<p>Lægens telefonnummer: </p>
+</li>
+<li>
+<p>Fold kortet og hav det altid på Dem. 
+Indehaver af markedsføringstilladelsen </p>
+</li>
+</ol>
+<p>Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona, s/n 
+Edifici Est, 6a Planta 
+08039 Barcelona 
+Spanien </p>
+<p>Fremstiller </p>
+<p>LABORATORI FUNDACIÓ DAU 
+C/ C, 12-14 Pol. Ind. Zona Franca, Barcelona 
+08040 Barcelona 
+Spanien </p>
+<p>Accord Healthcare Polska Sp. z.o.o. 
+ul.Lutomierska 95-200, Pabianice 
+Polen </p>
+<p>Pharmadox Healthcare Limited 
+KW20A Kordin Industrial Park 
+Paola PLA 3Malta </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. 
+Indlægsseddel: Information til brugeren </p>
+<p>Apixaban Accord 5 mg filmovertrukne tabletter 
+apixaban </p>
+<p>Læs denne indlægsseddel grundigt, inden De begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. De kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, De vil vide. 
+- Lægen har ordineret Apixaban Accord til Dem personligt. Lad derfor være med at give 
+medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
+De har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>
+<p>Oversigt over indlægssedlen: </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-656032a84c2935003bb3f7376e124521
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for apixaban Package Leaflet for language en"
+Description: "ePI document Bundle for apixaban Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-656032a84c2935003bb3f7376e124521"
+* entry[0].resource = composition-en-656032a84c2935003bb3f7376e124521
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp656032a84c2935003bb3f7376e124521"
+* entry[=].resource = mp656032a84c2935003bb3f7376e124521
+                            
+                    
+Instance: bundlepackageleaflet-da-656032a84c2935003bb3f7376e124521
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for apixaban Package Leaflet for language da"
+Description: "ePI document Bundle for apixaban Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-656032a84c2935003bb3f7376e124521"
+* entry[0].resource = composition-da-656032a84c2935003bb3f7376e124521
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp656032a84c2935003bb3f7376e124521"
+* entry[=].resource = mp656032a84c2935003bb3f7376e124521
+                            
+                    
+
+
+
+Instance: mp656032a84c2935003bb3f7376e124521
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Apixaban Accord 2.5 mg film-coated tablets"
-Description: "Apixaban Accord 2.5 mg film-coated tablets"
+Title: "Medicinal Product apixaban"
+Description: "apixaban"
 Usage: #inline
 
  
@@ -674,7 +1397,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Apixaban Accord 2.5 mg film-coated tablets"
+  * productName = "apixaban"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -701,29 +1424,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-656032a84c2935003bb3f7376e124521
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for apixaban Package Leaflet for language en"
-Description: "ePI document Bundle for apixaban Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 656032a84c2935003bb3f7376e124521ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1458/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "apixaban"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-656032a84c2935003bb3f7376e124521"
-* entry[0].resource = composition-en-656032a84c2935003bb3f7376e124521
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa713b211645cdd2f87083f55176d4f1d"
-* entry[=].resource = mpa713b211645cdd2f87083f55176d4f1d
-                            
-                      
+* title = "List of all ePIs associated with apixaban"
+
+* subject = Reference(mpa713b211645cdd2f87083f55176d4f1d)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#apixaban "apixaban"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-656032a84c2935003bb3f7376e124521) // apixaban en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-656032a84c2935003bb3f7376e124521) // apixaban da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-656032a84c2935003bb3f7376e124521
+InstanceOf: List
+
+* insert 656032a84c2935003bb3f7376e124521ListRuleset
+    

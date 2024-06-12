@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0444f6959a280d43775a9ed2e4fe52c9
 InstanceOf: CompositionUvEpi
 Title: "Composition for ngenla Package Leaflet"
@@ -435,12 +438,884 @@ Tel: +371 670 35 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-0444f6959a280d43775a9ed2e4fe52c9
+InstanceOf: CompositionUvEpi
+Title: "Composition for ngenla Package Leaflet"
+Description:  "Composition for ngenla Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp70c4b8a21e45b3a90fb57d5d95a071e2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp70c4b8a21e45b3a90fb57d5d95a071e2
+* title = "TEST PURPOSES ONLY - ngenla"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Ngenla
+3. Sådan skal du tage Ngenla
+4. Bivirkninger
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ngenla is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ngenla is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ngenla indeholder det aktive stof somatrogon, en modificeret form for væksthormon hos mennesker. 
+Naturligt væksthormon hos mennesker er nødvendigt for, at knogler og muskler kan vokse. Det 
+hjælper også til så dit fedtvæv og muskelmasse udvikler sig i det rette forhold. Ngenla bruges til at 
+behandle børn og unge fra 3 år, som ikke selv danner tilstrækkeligt meget væksthormon, og som ikke 
+vokser i et normalt tempo.
+Det aktive stof i Ngenla er fremstillet ved hjælp af såkaldt "rekombinant DNA-teknologi". Det 
+betyder, at det er dyrket i celler, som er modificeret på et laboratorium, således at cellerne kan danne 
+stoffet.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ngenla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ngenla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Ngenla</h2>
+<p>hvis du eller dit barn er allergisk over for somatrogon (se afsnittet Advarsler og 
+forsigtighedsregler) eller et af de øvrige indholdsstoffer i Ngenla (angivet i afsnit 6).
+-
+hvis du eller dit barn har en aktiv svulst (kræft). Fortæl det til lægen, hvis du eller dit barn har 
+eller har haft en aktiv svulst. Svulster skal være inaktive, og du eller dit barn skal have afsluttet 
+eventuel kræftbehandling, inden behandling med Ngenla påbegyndes.
+-
+hvis du eller dit barn er holdt op med at vokse på grund af lukning af vækstskiverne (lukkede 
+epifyser), dvs. at lægen har fortalt, at knoglerne hos dig eller dit barn er holdt op med at vokse.
+-
+hvis du eller dit barn er alvorligt syg (hvis du eller dit barn for eksempel har komplikationer 
+efter en åben hjerteoperation, mave-operation, akut vejrtrækningsstop, flere samtidige skader 
+som følge af ulykke eller lignende tilstande). Hvis du eller dit barn skal gennemgå eller har 
+30
+gennemgået en større operation eller skal indlægges ligegyldigt af hvilken årsag, skal du 
+fortælle det til din læge, og sørge for, at de andre læger, der behandler dig eller dit barn, får at 
+vide, at du eller dit barn får væksthormon.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Ngenla: 
+-
+Hvis du eller dit barn udvikler en alvorlig allergisk reaktion, skal du eller dit barn holde op med 
+at tage Ngenla, og straks kontakte lægen. Der er til tider forekommet alvorlige allergiske 
+reaktioner som f.eks. overfølsomhed, herunder anafylaksi eller angioødem (vejrtræknings- eller 
+synkebesvær eller hævelse af ansigt, læber, hals eller tunge). Hvis du eller dit barn får nogen af 
+de følgende symptomer på en alvorlig allergisk reaktion:
+
+vejrtrækningsproblemer
+
+hævelse af ansigt, mund og tunge
+
+nældefeber (udslæt med dannelse af hævede områder under huden)
+
+udslæt
+
+feber
+-
+Hvis du eller dit barn får substitutionsbehandling med kortikosteroider (glukokortikoider), skal 
+du eller dit barn gå regelmæssigt til lægen, da det kan være nødvendigt at justere dosis af 
+glukokortikoid.
+-
+Din læge skal regelmæssigt undersøge, hvor godt skjoldbruskkirtlen fungerer hos dig eller dit 
+barn, og lægen vil om nødvendigt ordinere behandling eller justere dosis af eksisterende 
+behandling, da dette kan være nødvendigt for, at Ngenla virker korrekt.
+-
+Hvis du eller dit barn har Prader-Willis syndrom, må du eller dit barn ikke få Ngenla, 
+medmindre du eller dit barn har væksthormonmangel.
+-
+Du eller dit barn skal undersøges hos lægen for høje blodsukkerniveauer (hyperglykæmi) under 
+behandling med Ngenla. Hvis du eller dit barn er i behandling med insulin eller anden diabetes-
+medicin, kan det være nødvendigt, at lægen justerer insulindosis. Hvis du eller dit barn har 
+diabetes, og en dermed forbundet øjensygdom, der er alvorlig eller bliver værre, må du eller dit 
+barn ikke få Ngenla.
+-
+Hvis du eller dit barn nogensinde har haft en svulst (kræft).
+-
+Hvis du eller dit barn oplever synsforstyrrelser, kraftig eller hyppig hovedpine, der ledsages af 
+kvalme eller opkastning, eller oplever ukontrollerbare bevægelser, ukoordinerede frivillige 
+bevægelser, som f.eks. når du eller barnet går eller samler en genstand op, eller har besvær med 
+at tale, synke eller bevæge øjnene, især i begyndelsen af behandlingen, skal du omgående 
+kontakte din læge. Dette kan være tegn på en midlertidig stigning i trykket i hjernen 
+(intrakraniel hypertension).
+-
+Hvis du eller dit barn er alvorligt syg (f.eks. hvis du eller dit barn har komplikationer efter en 
+åben hjerteoperation, mave-operation, akut vejrtrækningsstop, flere samtidige skader som følge 
+af ulykke eller lignende tilstande). Hvis du eller dit barn skal gennemgå eller har gennemgået en 
+større operation eller skal indlægges uanset af hvilken årsag, skal du fortælle det til din læge og 
+sørge for, at de andre læger, der behandler dig eller dit barn, får at vide, at du eller dit barn får 
+væksthormon.
+-
+Hvis du eller dit barn får kraftig mavepine i løbet af behandlingen med Ngenla, da dette kan 
+være et symptom på betændelse i bugspytkirtlen.
+-
+Hvis du eller dit barn bemærker, at ryggen krummer til siden (skoliose), er det nødvendigt, at du 
+eller dit barn ofte går til kontrol hos lægen.
+-
+Hvis du eller dit barn begynder at halte eller får smerter i hofter eller knæ, mens du eller dit barn 
+vokser, skal du straks kontakte lægen. Dette kan være symptomer på knogleforstyrrelser i 
+hoften, da dette kan opstå i perioder med hurtig vækst.
+-
+Hvis du eller dit barn tager eller holder op med at tage oral prævention eller hormonsubstitu-
+tionsbehandling med østrogen, vil lægen muligvis anbefale, at din eller dit barns dosis af Ngenla 
+justeres.
+Brug af andre lægemidler sammen med Ngenla
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du eller dit barn tager andre 
+lægemidler, for nylig har taget andre lægemidler eller planlægger at tage andre lægemidler.
+31
+-
+Hvis du eller dit barn får substitutionsbehandling med kortikosteroider (glukokortikoider), kan 
+det nedsætte virkningen af Ngenla på væksten. Du eller dit barn skal gå regelmæssigt til lægen, 
+da det kan være nødvendigt at justere din eller barnets dosis af glukokortikoid.
+-
+Hvis du eller dit barn er i behandling med insulin eller anden diabetesmedicin, skal du tale med 
+lægen, da det kan være nødvendigt at justere dosis.
+-
+Hvis du eller dit barn er i behandling med skjoldbruskkirtelhormoner, kan det være nødvendigt,
+at lægen justerer dosis.
+-
+Hvis du eller dit barn får oral østrogen, skal du tale med lægen, da det kan være nødvendigt at 
+justere dosis af Ngenla.
+-
+Hvis du eller dit barn får ciclosporin (et lægemiddel, der svækker immunsystemet efter 
+transplantation), skal du tale med lægen, da det kan være nødvendigt, at lægen justerer dosis.
+-
+Hvis du eller dit barn får medicin til behandling af epilepsi (antikonvulsiva), skal du tale med
+lægen, da det kan være nødvendigt, at lægen justerer dosis.
+Graviditet og amning
+Hvis du eller dit barn er gravid eller ammer, har mistanke om, at du eller dit barn er gravid, eller 
+planlægger at blive gravid, skal du spørge din læge eller apotekspersonalet til råds, før du eller dit barn
+tager dette lægemiddel.
+Ngenla er ikke blevet undersøgt hos gravide kvinder, og det vides ikke, om dette lægemiddel kan 
+skade dit ufødte barn. Derfor er det bedst at undgå Ngenla under graviditet. Hvis du kan blive gravid, 
+bør du ikke anvende Ngenla, medmindre du anvender sikker prævention.
+Det vides ikke, om somatrogon kan udskilles i modermælk. Fortæl det til din læge eller dit barns læge, 
+hvis du eller dit barn ammer eller planlægger at amme. Lægen vil hjælpe dig eller dit barn med at 
+beslutte, om amning eller behandling med Ngenla skal stoppes, ved at vurdere fordelen for barnet ved 
+amning i forhold til fordelen ved at tage Ngenla for dig eller dit barn.
+Trafik- og arbejdssikkerhed
+Ngenla påvirker ikke evnen til at føre motorkøretøj og betjene maskiner.
+Ngenla indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit.
+Ngenla indeholder metacresol
+Ngenla indeholder konserveringsmidlet metacresol. I meget sjældne tilfælde kan indhold af metacresol 
+forårsage betændelse (hævelse) i musklerne. Fortæl det til lægen, hvis du eller dit barn oplever 
+muskelsmerter eller smerter på injektionsstedet.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ngenla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ngenla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel vil kun blive ordineret af en læge, der har erfaring med væksthormonbehandling, og 
+som har bekræftet din diagnose eller diagnosen for dit barn.
+Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet 
+eller sygeplejersken.
+Lægen vil bestemme, hvilken dosis Ngenla du skal have injiceret.
+Hvor meget skal du tage
+Din læge vil beregne din dosis Ngenla ud fra din vægt i kg. Den anbefalede dosis er 0,66 mg pr. kg 
+legemsvægt, og den indgives 1 gang om ugen. Hvis du eller dit barn tidligere har været i behandling 
+med daglige injektioner af væksthormon, vil lægen fortælle, at du skal vente med at tage den første 
+dosis Ngenla til dagen efter den sidste daglige injektion, og derefter fortsætte med at tage Ngenla 1 
+gang om ugen.
+32
+Du må ikke ændre din dosis, medmindre din læge beder dig om det.
+Sådan indgives Ngenla
+-
+Ngenla fås som en fyldt pen i 2 forskellige størrelser (Ngenla 24 mg og Ngenla 60 mg). Med 
+udgangspunkt i den anbefalede dosis vil din eller dit barns læge ordinere den mest 
+hensigtsmæssige størrelse pen (se afsnit 6 "Pakningsstørrelser og yderligere oplysninger").
+-
+Før du eller dit barn bruger pennen første gang, vil din/barnets læge eller sygeplejerske vise dig, 
+hvordan den bruges. Ngenla indgives som en injektion under huden (subkutan injektion) ved 
+hjælp af en fyldt pen. Lægemidlet må ikke injiceres i en blodåre eller muskel.
+-
+Det bedste sted at indgive Ngenla er i maven, låret, balden eller overarmen. Injektioner i 
+overarme og balder bør indgives af en omsorgsperson.
+-
+Skift injektionsstedet på kroppen, hver gang der indgives en dosis.
+-
+Hvis det er nødvendigt med mere end 1 injektion for at give en fuld dosis, skal hver injektion 
+indgives på forskellige injektionssteder.
+Du kan finde detaljerede instruktioner i brug af den fyldte pen i den sidste del af denne indlægsseddel.
+Hvornår du skal tage Ngenla
+Du eller dit barn skal tage dette lægemiddel 1 gang om ugen på samme ugedag.
+Du eller dit barn bør notere den ugedag, hvor du eller dit barn tager Ngenla, som en hjælp til at huske 
+at injicere dette lægemiddel 1 gang om ugen.
+Du eller dit barn kan om nødvendigt ændre ugedagen for din/barnets ugentlige injektion, så længe der 
+er gået mindst 3 dage, siden du eller barnet fik den sidste injektion. Når der er valgt en ny ugedag for 
+injektionen, skal du fortsætte med at indgive din eller barnets injektion på den pågældende ugedag 
+hver uge.
+Hvis du har taget for meget Ngenla
+Hvis du eller dit barn har injiceret mere Ngenla, end du/barnet skulle have, skal du straks kontakte 
+din/barnets læge, da det kan være nødvendigt at kontrollere dit/barnets blodsukkerniveau.
+Hvis du har glemt at tage Ngenla
+Hvis du eller dit barn har glemt at injicere en dosis, og:
+-
+der er gået 3 dage eller derunder, siden du eller barnet skulle have injiceret Ngenla, skal du 
+injicere Ngenla, så snart du/barnet kommer i tanker om det. Derefter skal du injicere din/barnets
+næste dosis på din/barnets sædvanlige injektionsdag.
+-
+Hvis der er gået mere end 3 dage, siden du eller barnet skulle have injiceret Ngenla, skal du 
+springe den glemte dosis over. Derefter skal du injicere din/barnets næste dosis som sædvanligt 
+på din/barnets næste planlagte dag. Du bør fastholde din regelmæssige injektionsdag.
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du holder op med at tage Ngenla
+Du må ikke holde op med at tage dette lægemiddel uden at tale med din læge.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Meget almindelige: kan forekomme hos flere end 1 ud af 10 personer
+-
+Hovedpine
+33
+-
+Blødning, betændelse, kløe, smerte, rødmen, ømhed, svie eller varmefølelse på injektionsstedet 
+(reaktioner på injektionsstedet)
+-
+Feber (pyreksi)
+Almindelige: kan forekomme hos op til 1 ud af 10 personer
+-
+Fald i antallet af røde blodlegemer i blodet (anæmi)
+-
+Stigning i antallet af eosinofilocytter i blodet (eosinofili)
+-
+Fald i niveauet af skjoldbruskkirtelhormon i blodet (hypotyreoidisme)
+-
+Allergisk betændelse i øjets slimhinde, den gennemsigtige hinde på ydersiden af øjen (allergisk 
+konjunktivitis)
+-
+Ledsmerter (artralgi)
+-
+Smerter i arme eller ben
+Ikke almindelige: kan forekomme hos op til 1 ud af 100 personer
+-
+Binyrerne producerer ikke en tilstrækkelig mængde steroidhormoner (binyrebarkinsufficiens)
+-
+Udslæt
+Andre mulige bivirkninger relateret til behandling med væksthormon kan være følgende:
+-
+Vævsvækst (ikke-kræftrelateret eller kræft)
+-
+Type 2 diabetes
+-
+Forhøjet intrakranielt tryk (forårsager symptomer som f.eks. stærk hovedpine, synsforstyrrelser 
+eller opkastning)
+-
+Følelsesløshed eller en prikkende fornemmelse
+-
+Led- eller muskelsmerter
+-
+Brystforstørrelse hos drenge og mænd
+-
+Hududslæt, rødmen og kløe
+-
+Væskeophobning (viser sig som opsvulmede fingre eller hævede ankler)
+-
+Ansigtshævelse
+-
+Betændelse i bugspytkirtlen (forårsager symptomer som mavesmerter, kvalme, opkastning eller 
+diarré)
+I meget sjældne tilfælde kan indhold af metacresol forårsage betændelse (hævelse) i muskler. Hvis du 
+eller dit barn oplever muskelsmerter eller smerter ved injektionsstedet, skal du fortælle det til lægen.
+Indberetning af bivirkninger
+Hvis du eller dit barn oplever bivirkninger, bør du tale med din/barnets læge, apotekspersonalet eller 
+sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel.
+Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
+nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
+med at fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ngenla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ngenla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på pennens etiket og på kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Pennen må ikke bruges senere end 28 dage efter første ibrugtagning.
+Før første ibrugtagning af Ngenla
+-
+Opbevares i køleskab (2°C-8°C). 
+-
+Ngenla skal opbevares i den ydre karton for at beskytte mod lys.
+-
+Tag Ngenla ud af køleskabet før brug. Ngenla kan opbevares ved stuetemperatur (op til 32°C) i 
+op til 4 timer.
+34
+-
+Brug ikke dette lægemiddel, hvis du bemærker, at opløsningen er uklar eller mørkegul. Brug 
+ikke dette lægemiddel, hvis det indeholder flager eller partikler.
+-
+Ryst ikke pennen. Det kan beskadelig medicinen. 
+Efter første ibrugtagning af Ngenla
+-
+Skal bruges inden for 28 dage efter første ibrugtagning. Opbevares i køleskab (2°C-8°C). Må 
+ikke fryses.
+-
+Opbevar Ngenla med pennens hætte påsat for at beskytte mod lys.
+-
+Opbevar ikke pennen med en påsat nål. 
+-
+Bortskaf pennen efter den sidste dosis, også selv om den indeholder ikke anvendt lægemiddel.
+-
+Ngenla kan opbevares ved stuetemperatur (op til 32°C) i op til 4 timer ved hver enkelt injektion, 
+maksimalt 5 gange. Ngenla skal lægges tilbage i køleskab efter hver injektion.
+-
+Må ikke opbevares ved stuetemperatur i mere end 4 timer ved hver enkelt injektion.
+-
+Anbring ikke pennen på et sted, hvor temperaturen kommer over 32°C.
+-
+Hvis der er gået mere end 28 dage efter den første ibrugtagning af pennen, skal du bortskaffe 
+den, også selv om den indeholder ikke anvendt lægemiddel. Hvis pennen har været udsat for 
+temperaturer på over 32°C, eller hvis den har været uden for køleskabet i mere end 4 timer ved 
+hver enkelt injektion, eller hvis den har været brugt 5 gange i alt, skal du bortskaffe den, også 
+selv om den indeholder ikke anvendt lægemiddel.
+For at hjælpe dig med at huske, hvornår du skal bortskaffe din pen, kan du skrive datoen for første 
+injektion på etiketten på pennen.
+Der kan være en lille mængde lægemiddel tilbage i pennen, efter at alle doser er indgivet korrekt. 
+Forsøg ikke at tage eventuelt resterende lægemiddel. Når den sidste dosis er indgivet, skal pennen 
+bortskaffes korrekt. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Ngenla indeholder:</h2>
+<p>Aktivt stof: somatrogon. 
+Ngenla 24 mg injektionsvæske, opløsning i fyldt pen
+1 ml opløsning indeholder 20 mg somatrogon. 
+Hver fyldt pen indeholder 24 mg somatrogon i 1,2 ml opløsning. Hver fyldt pen kan indstilles til at
+give doser fra 0,2 mg til 12 mg i en enkelt injektion i trin på 0,2 mg.
+Ngenla 60 mg injektionsvæske, opløsning i fyldt pen
+1 ml opløsning indeholder 50 mg somatrogon.
+Hver fyldt pen indeholder 60 mg somatrogon i 1,2 ml opløsning. Hver fyldt pen kan indstilles til at 
+give doser fra 0,5 mg til 30 mg i en enkelt injektion i trin på 0,5 mg.
+-
+Øvrige indholdsstoffer: trinatriumcitratdihydrat, citronsyremonohydrat, L-histidin, natriumklorid 
+(se afsnit 2 "Ngenla indeholder natrium"), poloxamer 188, m-Cresol, vand til injektionsvæsker.
+Udseende og pakningsstørrelser
+Ngenla er en klar og farveløs til svagt lysegul injektionsvæske, opløsning (injektion) i en fyldt pen. 
+Ngenla 24 mg injektionsvæske, opløsning, fås i en pakning med 1 fyldt pen. Pennens hætte, 
+doseringsknappen og etiketten på pennen er lilla.
+Ngenla 60 mg injektionsvæske, opløsning, fås i en pakning med 1 fyldt pen. Pennens hætte, 
+doseringsknappen og etiketten på pennen er blå.
+35
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Pfizer Manufacturing Belgium NV
+Rijksweg 12
+Puurs, 2870
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς Α.Ε.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda. 
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+36
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+Denne indlægsseddel blev senest ændret i
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.
+37
+Instruktioner vedrørende brugen
+Ngenla 24 mg pen
+Injektion kun til subkutan (under huden) brug 
+Gem indlægssedlen. Disse instruktioner giver en trinvis
+vejledning i, hvordan en Ngenla-injektion forberedes og indgives.
+Vigtige oplysninger om Ngenla-pennen
+
+Ngenla til injektion leveres i en fyldt flerdosis-pen, der indeholder 24 mg lægemiddel.
+
+Ngenla til injektion kan indgives af en patient, omsorgsperson, læge, sygeplejerske eller 
+apotekspersonale. Forsøg ikke at indsprøjte Ngenla selv, før du har fået vist, hvordan du 
+indgiver injektionerne korrekt, og du har læst og forstået instruktionerne vedrørende brugen. 
+Hvis din læge, sygeplejerske eller apotekspersonalet beslutter, at du selv eller en 
+omsorgsperson kan tage/give injektionerne af Ngenla derhjemme, skal du oplæres i, hvordan 
+du forbereder og indsprøjter Ngenla korrekt. Det er vigtigt, at du læser, forstår og følger disse 
+instruktioner, så du indsprøjter Ngenla korrekt. Det er vigtigt, at du taler med din læge, 
+sygeplejerske eller apotekspersonalet for at sikre, at du forstår instruktionerne for din dosering 
+af Ngenla.
+
+Som en hjælp til at huske, hvornår du skal indsprøjte Ngenla, kan du notere det i din kalender 
+på forhånd. Kontakt lægen, sygeplejersken eller apotekspersonalet, hvis du eller din 
+omsorgsperson har spørgsmål om, hvordan Ngenla indsprøjtes korrekt.
+
+For hver gang du drejer (klikker) doseringsknappen et trin, øges dosis med 0,2 mg 
+lægemiddel. Du kan indgive mellem 0,2 mg og 12 mg i en enkelt injektion. Hvis din dosis er 
+på over 12 mg, skal du indgive den som mere end 1 injektion.
+
+Der kan være en lille mængde lægemiddel tilbage i pennen, efter at alle doser er indgivet 
+korrekt. Det er helt normalt. Du må ikke forsøge at bruge den resterende opløsning, men du 
+skal i stedet bortskaffe pennen korrekt.
+
+Du må ikke dele pennen med andre personer, heller ikke selvom nålen er blevet skiftet. Du 
+kan overføre en alvorlig infektion til andre personer, eller de kan overføre en alvorlig infektion 
+til dig.
+
+Brug altid en ny steril nål til hver injektion. Dette vil reducere risikoen for urenheder og 
+infektion, udsivning af lægemidlet, og at nålen stopper til, så den giver forkerte doser.
+
+Du må ikke ryste pennen. Det kan beskadige lægemidlet.
+
+Det frarådes, at pennen bruges af blinde eller synshæmmede personer uden hjælp fra en 
+person, der er oplært i korrekt anvendelse af produktet.
+38
+Materialer, som du skal bruge ved hver injektion
+Medfølger i kartonen:
+
+1 Ngenla 24 mg pen.
+Medfølger ikke i kartonen:
+
+1 ny steril nål til hver injektion.
+
+Spritservietter.
+
+Vat eller gaze.
+
+Plaster.
+
+En egnet kanylebøtte til bortskaffelse af nåle og penne.
+Ngenla 24 mg pen:
+Nåle, der skal bruges
+Nåle til pennen følger ikke med din Ngenla-pen. Du kan bruge nåle med en længde på 4 mm til 8 mm.
+
+Følgende nåle kan bruges med Ngenla-pennen:<em> 31G eller 32G
+
+Tal med din læge, sygeplejerske eller apotekspersonalet om, hvilken nål der er rigtig for dig.
+Steril nål (eksempel) - medfølger ikke:
+Forsigtig: Brug aldrig en bøjet eller beskadiget nål. Håndter altid nåle til pennen forsigtigt for at sikre, 
+at du ikke stikker dig selv (eller en anden person) med nålen. Sæt ikke en ny nål på pennen, før du er 
+klar til din injektion.
+39
+Forberedelse af din injektion
+Trin 1 Gør dig klar
+
+Vask og tør dine hænder.
+
+Du kan bruge pennen med det samme, når du har taget den ud af køleskabet. Injektionen vil 
+være mere behagelig, hvis du lader pennen ligge ved stuetemperatur i op til 30 minutter. (Se
+afsnit 5 "Opbevaring" i indlægssedlen til Ngenla 24 mg fyldt pen).
+
+Kontrollér pennens navn, styrke og etiket for at sikre, at det er det lægemiddel, som din læge 
+har ordineret til dig.
+
+Kontrollér udløbsdatoen på pennens etiket. Du må ikke anvende pennen, hvis udløbsdatoen er 
+overskredet.
+
+Du må ikke anvende pennen, hvis:</em> den har været nedfrosset eller udsat for varme (over 32°C), eller der er gået mere end 
+28 dage siden første gang du brugte pennen. (Se afsnit 5 "Opbevaring" i 
+indlægssedlen til Ngenla 24 mg fyldt pen).<em> den har været tabt</em> den har tegn på brud eller beskadigelse
+
+Fjern ikke pennens hætte fra pennen, før du er klar til injektionen.
+Trin 2 Vælg et injektionssted, og rengør det
+
+Ngenla kan indsprøjtes i maven, låret, balden eller overarmen.
+
+Vælg det bedste injektionssted som anbefalet af lægen, sygeplejersken eller apotekspersonalet.
+
+Hvis det er nødvendigt med mere end 1 injektion for at give en fuld dosis, skal de pågældende 
+injektioner indgives på forskellige injektionssteder.
+
+Foretag ikke injektionen på områder med knogler eller blå mærker, eller på områder, der er 
+røde, ømme eller hårde, eller på områder med ar eller hudsygdom.
+
+Rens injektionsstedet med en spritserviet.
+
+Lad injektionsstedet tørre.
+
+Rør ikke injektionsstedet, efter at du har renset det.
+40
+Trin 3 Kontrollér lægemidlet
+
+Tag pennens hætte af, og gem den, da du skal bruge den igen efter injektionen.
+
+Kontrollér lægemidlet i cylinderampulholderen.
+
+Kontrollér, at lægemidlet er klart og farveløst til svagt lysegult. Du må ikke indsprøjte 
+lægemidlet, hvis det er uklart eller mørkegult.
+
+Kontrollér, at lægemidlet ikke indeholder flager eller partikler. Du må ikke indsprøjte 
+lægemidlet, hvis det indeholder flager eller partikler.
+Bemærk: Det er normalt, hvis der ses en eller flere bobler i lægemidlet.
+Trin 4 Sæt nålen på
+
+Find en ny nål frem, og træk beskyttelsespapiret af.
+
+Anbring nålen på linje med pennen, og hold dem begge lige.
+
+Tryk nålen forsigtigt på pennen, og skru derefter nålen fast på pennen.
+Stram ikke for meget.
+Bemærk: Pas på, at du ikke sætter nålen skævt på. Det kan få pennen til at lække.
+Forsigtig: Nåle har skarpe spidser i begge ender. Håndter dem altid forsigtigt for at sikre, at 
+du ikke stikker dig selv (eller en anden person) med nålen.
+41
+Trin 5 Træk den ydre nålehætte af
+
+Træk den ydre nålehætte af.
+
+Sørg for at gemme den ydre nålehætte. Du skal bruge den senere til at tage nålen af igen.
+Bemærk: Du skal kunne se en indre nålehætte, når du har fjernet den ydre hætte. Hvis du ikke 
+kan se den, så prøv at montere nålen igen.
+Trin 6 Træk den indre nålehætte af
+
+Træk forsigtigt den indre nålehætte af, så du kan se nålen.
+
+Bortskaf den indre nålehætte i en kanylebøtte. Den skal du ikke bruge igen.
+42
+("Ja: Gå til klargøring af ny pen" har en pil, der peger på "Klargøring af ny pen", og "Nej" 
+har en pil, der peger på "Indstilling af din ordinerede dosis")
+Klargøring af ny pen - gælder kun første gang en ny pen tages i brug
+Du skal klargøre en ny pen, før du bruger den for første gang
+
+En ny pen skal klargøres, før den bruges for første gang.
+
+Formålet med at klargøre en ny pen er at fjerne luftbobler og sikre, at du får den korrekte 
+dosis.
+Vigtigt: Spring trin A-C over, hvis du allerede har klargjort pennen.
+Trin A: Indstil knappen til 0,4
+
+Drej doseringsknappen hen til 0,4. Bemærk: Hvis du drejer doseringsknappen for langt, kan du dreje den tilbage.
+43
+Trin B: Bank let på cylinderampulholderen
+
+Hold pennen så nålen peger opad, så luftboblerne kan stige opad.
+
+Bank let på cylinderampulholderen for at få eventuelle luftbobler til at stige op til toppen.
+Vigtigt: Følg trin B - også hvis du ikke kan se nogen luftbobler.
+Trin C: Tryk på knappen, og kontrollér for væske
+
+Tryk på injektionsknappen til den ikke kan komme længere, og du kan se "0" i 
+doseringsvinduet.
+
+Kontrollér, om der er væske ved nålens spids. Hvis der er væske, er pennen klar til brug.
+
+Vær altid sikker på, at der kommer en dråbe væske ud, før du foretager injektionen. Hvis 
+der ikke kommer væske ud, skal du gentage trin A-C.<em> Hvis der ikke kommer væske ud, efter at du har gentaget trin A-C 5 gange, skal 
+du sætte en ny nål på og forsøge 1 gang til.
+Du må ikke anvende pennen, hvis der stadig ikke kommer en dråbe væske ud. 
+Kontakt lægen, sygeplejersken eller apotekspersonalet, og brug en ny pen.
+44
+Indstilling af din ordinerede dosis
+Trin 7 Indstil din dosis
+
+Drej doseringsknappen for at indstille din dosis.</em> Dosis kan øges eller reduceres ved at dreje doseringsknappen i enten den ene eller 
+anden retning.<em> Doseringsknappen drejes i trin a 0,2 mg.</em> Pennen indeholder 24 mg lægemiddel, men du kan kun indstille en dosis på op til 
+12 mg til en enkelt injektion.<em> Doseringsvinduet viser dosis i mg. Se eksempel A og B.
+
+Kontrollér altid doseringsvinduet for at sikre, at du har indstillet den korrekte dosis.
+Vigtigt: Tryk ikke på injektionsknappen, mens du indstiller din dosis.
+Hvad skal jeg gøre, hvis jeg ikke kan indstille den dosis, jeg skal bruge?
+
+Hvis din dosis er på over 12 mg, skal du tage mere end 1 injektion.
+
+Du kan indsprøjte mellem 0,2 mg og 12 mg i en enkelt injektion.</em> Hvis du har behov for hjælp til at opdele din dosis på korrekt vis, så spørg lægen, 
+sygeplejersken eller apotekspersonalet.<em> Brug en ny nål til hver injektion (se trin 4: Sæt nålen på).</em> Hvis du normalt skal bruge 2 injektioner til at indsprøjte din fulde dosis, skal du huske 
+også at indsprøjte din anden dosis.
+Hvad skal jeg gøre, hvis jeg ikke har nok lægemiddel tilbage i pennen?
+
+Hvis pennen indeholder mindre end 12 mg lægemiddel, vil doseringsknappen stoppe ved den 
+mængde lægemiddel, der er tilbage, og mængden vises i doseringsvinduet.
+
+Hvis der ikke er nok lægemiddel tilbage i pennen til din fulde dosis, kan du enten:<em> indsprøjte den mængde lægemiddel, der er tilbage i pennen, og derefter klargøre en ny 
+pen til injektion med resten af din fulde dosis.
+Husk at fratrække den dosis, som du allerede har indgivet. Hvis din dosis f.eks. er på 
+3,8 mg, og du kun kan indstille doseringsknappen til 1,8 mg, skal du indsprøjte 
+yderligere 2,0 mg med en ny pen.</em> eller bruge en ny pen og indsprøjte den fulde dosis.
+45
+Indsprøjtning af din dosis
+Trin 8 Indfør nålen
+
+Hold pennen, således at du kan se tallene i doseringsvinduet.
+
+Stik nålen lige ind i huden.
+Trin 9 Indsprøjt dit lægemiddel
+
+Fortsæt med at holde nålen i samme position i huden.
+
+Tryk på injektionsknappen, til den ikke kan komme længere, og du ser "0" i 
+doseringsvinduet.
+46
+Trin 10 Tæl til 10
+
+Fortsæt med at trykke på injektionsknappen, mens du tæller til 10. Ved at tælle til sikrer du, at den fulde dosis lægemiddel bliver indsprøjtet.
+
+Når du har talt til 10, skal du slippe injektionsknappen og langsomt fjerne pennen fra 
+injektionsstedet ved at trække nålen lige ud.
+Bemærk: Du kan muligvis se en dråbe lægemiddel på nålens spids. Det er helt normalt og har 
+ingen betydning for den dosis, du lige har fået.
+Trin 11 Sæt den ydre nålehætte på
+
+Sæt forsigtigt den ydre nålehætte tilbage på nålen.
+
+Tryk på den ydre nålehætte, til den sidder godt fast.
+Forsigtig: Forsøg aldrig at sætte den indre nålehætte tilbage på nålen. Du kan komme til at 
+stikke dig selv med nålen.
+47
+Trin 12 Fjern nålen
+
+Skru nålen med nålehætten af pennen.
+
+Træk forsigtigt, indtil nålen med nålehætten kommer af.
+Bemærk: Hvis nålen stadig sidder på, skal du sætte den ydre nålehætte på igen og forsøge 
+igen. Sørg for at trykke let, når du skruer nålen af.
+
+Bortskaf brugte nåle til pennen i en kanylebøtte som instrueret af lægen, sygeplejersken eller 
+apotekspersonalet, og i henhold til lokal lovgivning vedrørende sundhed og sikkerhed. 
+Opbevar kanylebøtten utilgængeligt for børn. Du må ikke genbruge nåle.
+Trin 13 Sæt pennens hætte på igen
+
+Sæt hætten på pennen igen.
+
+Sæt ikke pennens hætte på, hvis nålen stadig er monteret.
+
+Hvis der er lægemiddel tilbage i pennen, skal den opbevares i køleskabet mellem 
+injektionerne. (Se afsnit 5 "Opbevaring" i indlægssedlen til Ngenla 24 mg fyldt pen).
+48
+Trin 14 Efter din indsprøjtning
+
+Tryk let på injektionsstedet med rent vat eller gaze, og hold det i et par sekunder.
+
+Undlad at gnubbe på injektionsstedet. Det bløder muligvis en smule. Det er helt normalt.
+
+Du kan om nødvendigt dække injektionsstedet med et lille plaster.
+
+Hvis pennen er tom, eller der er gået mere end 28 dage fra første gang du brugte pennen, skal 
+du bortskaffe den, også selv om den indeholder ikke anvendt lægemiddel. Bortskaf pennen i 
+kanylebøtten.
+
+Som en hjælp til at huske, hvornår du skal bortskaffe pennen, kan du notere datoen for første 
+indsprøjtning på pennens etiket og herunder:
+Dato for første indsprøjtning <strong><em>_</em>_ / </strong><strong><em>_ / </em></strong>___
+49
+Indlægsseddel: Information til patienten
+Ngenla 60 mg injektionsvæske, opløsning i fyldt pen
+somatrogon
+Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+afsnit 4, hvordan du indberetter bivirkninger.
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig eller dit barn personligt. Lad derfor være med at 
+give lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme 
+symptomer, som du eller dit barn har.
+-
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du eller dit barn får bivirkninger, 
+herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0444f6959a280d43775a9ed2e4fe52c9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ngenla Package Leaflet for language en"
+Description: "ePI document Bundle for ngenla Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0444f6959a280d43775a9ed2e4fe52c9"
+* entry[0].resource = composition-en-0444f6959a280d43775a9ed2e4fe52c9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0444f6959a280d43775a9ed2e4fe52c9"
+* entry[=].resource = mp0444f6959a280d43775a9ed2e4fe52c9
+                            
+                    
+Instance: bundlepackageleaflet-da-0444f6959a280d43775a9ed2e4fe52c9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ngenla Package Leaflet for language da"
+Description: "ePI document Bundle for ngenla Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0444f6959a280d43775a9ed2e4fe52c9"
+* entry[0].resource = composition-da-0444f6959a280d43775a9ed2e4fe52c9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0444f6959a280d43775a9ed2e4fe52c9"
+* entry[=].resource = mp0444f6959a280d43775a9ed2e4fe52c9
+                            
+                    
+
+
+
+Instance: mp0444f6959a280d43775a9ed2e4fe52c9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ngenla 24 mg solution for injection in pre-filled pen"
-Description: "Ngenla 24 mg solution for injection in pre-filled pen"
+Title: "Medicinal Product ngenla"
+Description: "ngenla"
 Usage: #inline
 
  
@@ -460,7 +1335,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ngenla 24 mg solution for injection in pre-filled pen"
+  * productName = "ngenla"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -487,29 +1362,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0444f6959a280d43775a9ed2e4fe52c9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ngenla Package Leaflet for language en"
-Description: "ePI document Bundle for ngenla Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0444f6959a280d43775a9ed2e4fe52c9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1617/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ngenla"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0444f6959a280d43775a9ed2e4fe52c9"
-* entry[0].resource = composition-en-0444f6959a280d43775a9ed2e4fe52c9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp70c4b8a21e45b3a90fb57d5d95a071e2"
-* entry[=].resource = mp70c4b8a21e45b3a90fb57d5d95a071e2
-                            
-                      
+* title = "List of all ePIs associated with ngenla"
+
+* subject = Reference(mp70c4b8a21e45b3a90fb57d5d95a071e2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ngenla "ngenla"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0444f6959a280d43775a9ed2e4fe52c9) // ngenla en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0444f6959a280d43775a9ed2e4fe52c9) // ngenla da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0444f6959a280d43775a9ed2e4fe52c9
+InstanceOf: List
+
+* insert 0444f6959a280d43775a9ed2e4fe52c9ListRuleset
+    

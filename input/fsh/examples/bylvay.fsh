@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-095ad71337cf86d5fe21eb3ee2e24f22
 InstanceOf: CompositionUvEpi
 Title: "Composition for bylvay Package Leaflet"
@@ -331,12 +334,449 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-095ad71337cf86d5fe21eb3ee2e24f22
+InstanceOf: CompositionUvEpi
+Title: "Composition for bylvay Package Leaflet"
+Description:  "Composition for bylvay Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3260762a9f2b3d1768e9f446f8e59be2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3260762a9f2b3d1768e9f446f8e59be2
+* title = "TEST PURPOSES ONLY - bylvay"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Bylvay 
+3. Sådan skal du tage Bylvay 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What bylvay is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What bylvay is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bylvay indeholder det aktive stof odevixibat. Odevixibat er et lægemiddel, der øger fjernelsen af 
+stoffer kaldet galdesyrer fra kroppen. Galdesyrer er komponenter i fordøjelsesvæsken kaldet galde, 
+som produceres af leveren og udsondres i tarmene. Odevixibat blokerer den mekanisme, der normalt 
+genoptager dem fra tarmene, når de har udført deres opgave. På den måde kan de udskilles af kroppen 
+via afføringen. </p>
+<p>Bylvay anvendes til behandling af progressiv familiær intrahepatisk kolestase (PFIC) hos patienter i 
+alderen 6 måneder eller derover. PFIC er en leversygdom forårsaget af ophobning af galdesyrer 
+(kolestase), der forværres over tid og ofte ledsages af svær kløe. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take bylvay"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take bylvay"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Bylvay </p>
+<ul>
+<li>hvis du er allergisk over for odevixibat eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i pkt. 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Bylvay, hvis: </p>
+<ul>
+<li>
+<p>du er blevet diagnosticeret med et fuldstændigt fravær eller manglende funktion af 
+galdesalteksportpumpeprotein </p>
+</li>
+<li>
+<p>du har alvorligt nedsat leverfunktion </p>
+</li>
+<li>
+<p>du har nedsat mave- eller tarmmotilitet eller nedsat cirkulation af galdesyrer mellem lever, galde 
+og tyndtarm på grund af lægemidler, kirurgiske indgreb eller andre sygdomme end PFIC 
+da disse kan mindske virkningen af odevixibat. </p>
+</li>
+</ul>
+<p>Kontakt din læge, hvis du får diarré, mens du tager Bylvay. Patienter med diarré rådes til at drikke 
+tilstrækkeligt med væske for at forhindre dehydrering. </p>
+<p>Forhøjede levertal kan forekomme hos nogle patienter, der får odevixibat. Det anbefales at vurdere 
+leverfunktionen hos alle patienter inden behandling med Bylvay. Din læge kan anbefale hyppigere 
+kontroller, hvis du har forhøjede levertal. 
+Din læge kan anbefale vurdering af niveauet af vitamin A, D og E i dit blod og af 
+blodstørkningsværdien INR før og under behandling med Bylvay. </p>
+<p>Børn </p>
+<p>Bylvay anbefales ikke til babyer under 6 måneder, fordi det ikke vides, om medicinen er sikker og 
+effektiv i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Bylvay </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. 
+Behandling med odevixibat kan påvirke absorptionen af fedtopløselige vitaminer såsom vitamin A, D 
+og E og af nogle lægemidler. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge lægen til råds, før du tager dette lægemiddel. </p>
+<p>Det frarådes at anvende Bylvay under graviditet og hos kvinder i den fødedygtige alder, der ikke 
+bruger prævention. </p>
+<p>Det vides ikke, om odevixibat kan gå over i modermælken og påvirke barnet. Ved at afveje fordelene 
+ved henholdsvis amning og Bylvay for barnet og moderen vil din læge hjælpe dig med at beslutte, om 
+du skal stoppe med at amme eller undgå behandling med Bylvay. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Bylvay påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take bylvay"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take bylvay"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Behandlingen skal indledes og overvåges af en læge med erfaring i håndtering af progressiv 
+leversygdom med nedsat galdestrøm. 
+Dosis af Bylvay baseres på din vægt. Din læge vil beregne, hvor mange kapsler du skal tage, og hvor 
+stærke de skal være. </p>
+<p>Anbefalet dosis </p>
+<ul>
+<li>
+<p>40 mikrogram odevixibat pr. kg legemsvægt én gang dagligt </p>
+</li>
+<li>
+<p>Hvis lægemidlet ikke virker godt nok efter 3 måneder, kan din læge øge dosis til 120 mikrogram 
+odevixibat pr. kg legemsvægt (op til maks. 7 200 mikrogram én gang dagligt). </p>
+</li>
+</ul>
+<p>Der anbefales ingen dosisforskelle hos voksne. </p>
+<p>Anvendelsesmåde 
+Tag kapslerne én gang dagligt om morgenen med eller uden mad. </p>
+<p>Alle kapsler kan enten sluges hele med et glas vand eller åbnes og drysses på maden. </p>
+<p>De større kapsler på 200 og 600 mikrogram er beregnet til at åbnes og drysses på maden, men kan 
+sluges hele. 
+De mindre kapsler på 400 mikrogram og 1 200 mikrogram er beregnet til at sluges hele, men kan 
+åbnes og drysses på maden. </p>
+<p>Instrukser i at åbne kapslerne og drysse indholdet på maden: </p>
+<ul>
+<li>Anbring en lille mængde (2 spiseskefulde/30 ml) blød kost (yoghurt, æblemos, bananmos, 
+gulerodsmos, chokoladebudding, ris dessert eller havregrød) i en skål. Maden bør være ved eller 
+under stuetemperatur. </li>
+</ul>
+<p>• Hold kapslen vandret i begge ender, drej i modsatte 
+retninger. </p>
+<p>• Træk enderne fra hinanden for at tømme pelletsene 
+ud i skålen med blød kost. </p>
+<p>• Bank let på kapslen for at sikre, at alle pelletsene 
+kommer ud. </p>
+<p>• Gentag det forrige trin, hvis dosen kræver mere end 
+én kapsel. </p>
+<p>• Bland kapslens indhold forsigtigt i den bløde kost 
+med en ske. </p>
+<ul>
+<li>
+<p>Tag den fulde dosis straks efter blanding. Gem ikke blandingen til senere. </p>
+</li>
+<li>
+<p>Drik et glas vand efter at have taget dosen. </p>
+</li>
+<li>
+<p>Smid de tomme kapselskaller væk. </p>
+</li>
+</ul>
+<p>Hvis lægemidlet ikke forbedrer din tilstand efter 6 måneders kontinuerlig daglig behandling, vil din 
+læge anbefale en anden behandling. </p>
+<p>Hvis du har taget for meget Bylvay </p>
+<p>Tal med din læge, hvis du mener, at du har taget for meget Bylvay. </p>
+<p>Mulige symptomer på overdosering er diarré og mave- og tarmproblemer. </p>
+<p>Hvis du har glemt at tage Bylvay </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for en glemt dosis. Tag næste dosis til sædvanlig tid. </p>
+<p>Hvis du holder op med at tage Bylvay </p>
+<p>Du må ikke holde op med at tage Bylvay uden først at spørge din læge til råds. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Bivirkningerne kan optræde med følgende hyppigheder: 
+almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>diarré, herunder diarré med blodig afføring, blød afføring </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>forstørret lever </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du kontakte din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+bilag V. Ved at indberette bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store bylvay"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store bylvay"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og flasken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Opbevar lægemidlet i den originale pakning for at beskytte mod lys. Må ikke opbevares ved 
+temperaturer over 25 °C. </p>
+<p>Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. Spørg 
+apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bylvay indeholder: </p>
+<ul>
+<li>Aktivt stof: odevixibat. 
+Hver Bylvay 200 mikrogram hårde kapsel indeholder 200 mikrogram odevixibat (som 
+sesquihydrat). 
+Hver Bylvay 400 mikrogram hårde kapsel indeholder 400 mikrogram odevixibat (som 
+sesquihydrat). 
+Hver Bylvay 600 mikrogram hårde kapsel indeholder 600 mikrogram odevixibat (som 
+sesquihydrat). 
+Hver Bylvay 1 200 mikrogram hårde kapsel indeholder 1 200 mikrogram odevixibat (som 
+sesquihydrat). </li>
+</ul>
+<p>Øvrige indholdsstoffer: </p>
+<ul>
+<li>Kapselindhold 
+Mikrokrystallinsk cellulose 
+Hypromellose </li>
+</ul>
+<p>Kapselskal 
+Bylvay 200 mikrogram og 600 mikrogram hårde kapsler 
+Hypromellose 
+Titandioxid (E171) 
+Gul jernoxid (E172) </p>
+<p>Bylvay 400 mikrogram og 1 200 mikrogram hårde kapsler 
+Hypromellose 
+Titandioxid (E171) 
+Gul jernoxid (E172) 
+Rød jernoxid (E172) </p>
+<p>Trykfarve 
+Shellac 
+Propylenglycol 
+Sort jernoxid (E172) </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Bylvay 200 mikrogram hårde kapsler: 
+Kapselstørrelse 0 (21,7 mm × 7,64 mm) med elfenbensfarvet uigennemsigtig hætte og hvid 
+uigennemsigtig krop; præget "A200" med sort blæk. </p>
+<p>Bylvay 400 mikrogram hårde kapsler: 
+Kapselstørrelse 3 (15,9 mm × 5,82 mm) med orange uigennemsigtig hætte og hvid uigennemsigtig 
+krop; præget "A400" med sort blæk. </p>
+<p>Bylvay 600 mikrogram hårde kapsler: 
+Kapselstørrelse 0 (21,7 mm × 7,64 mm) med elfenbensfarvet uigennemsigtig hætte og krop; præget 
+"A600" med sort blæk. </p>
+<p>Bylvay 1 200 mikrogram hårde kapsler: 
+Kapselstørrelse 3 (15,9 mm × 5,82 mm) med orange uigennemsigtig hætte og krop; præget "A1200" 
+med sort blæk. </p>
+<p>Bylvay som hårde kapsler er pakket i en plasticflaske med børnesikret polypropylen-låg. 
+Pakningsstørrelse: 30 hårde kapsler. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Ipsen Pharma 
+65 quai Georges Gorse 
+92100 Boulogne-Billancourt 
+Frankrig </p>
+<p>Fremstiller </p>
+<p>Almac Pharma Services Limited 
+Seagoe Industrial Estate 
+Portadown, Craigavon 
+County Armagh 
+BT63 5UA 
+Det Forenede Kongerige (Nordirland) </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien/Luxembourg/ 
+Luxemburg 
+Ipsen NV 
+België/Belgique/Belgien 
+Tél/Tel: +32 9 243 96<br />
+Italia 
+Ipsen SpA 
+Tel: + 39 02 39 22<br />
+България 
+Swixx Biopharma EOOD 
+Teл.: +359 (0)2 4942<br />
+Latvija 
+Ipsen Pharma representative office 
+Tel: + 371 67622 
+Česká republika 
+Ipsen Pharma s.r.o<br />
+Tel: +    </p>
+<p>Lietuva 
+Ipsen Pharma SAS Lietuvos filialas 
+Tel: +370 700 33 
+Danmark, Norge, Suomi/Finland, Sverige, 
+Ísland 
+Institut Produits Synthèse (IPSEN) AB 
+Sverige/Ruotsi/Svíþjóð 
+Tlf/Puh/Tel/Sími: +46 8 451 60<br />
+Magyarország 
+IPSEN Pharma Hungary Kft. 
+Tel.: + 36 1 555 5 
+Deutschland, Österreich 
+Ipsen Pharma GmbH 
+Deutschland 
+Tel: +49 89 2620 432<br />
+Nederland 
+Ipsen Farmaceutica B.V.Tel: +31 (0) 23 554 1 
+Eesti 
+Centralpharma Communications OÜ 
+Tel: +372 60 15<br />
+Polska 
+Ipsen Poland Sp. z o.o. 
+Tel.: + 48 22 653 68<br />
+Ελλάδα, Κύπρος, Malta 
+Ipsen Μονοπρόσωπη EΠΕ 
+Ελλάδα 
+Τηλ: +30 210 984 3 
+Portugal 
+Ipsen Portugal - Produtos Farmacêuticos S.A. 
+Tel: + 351 21 412 3 
+España 
+România 
+Ipsen Pharma, S.A.U. 
+Tel: +34 936 858<br />
+Ipsen Pharma România SRL 
+Tel: + 40 21 231 27<br />
+France 
+Ipsen Pharma 
+Tél: +33 1 58 33 50<br />
+Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: + 386 1 2355<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+Slovenská republika 
+Ipsen Pharma, organizačná zložka 
+Tel: + 420 242 481<br />
+Ireland, United Kingdom (Northern Ireland) 
+Ipsen Pharmaceuticals Limited 
+Tel: +44 (0)1753 62 77  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Dette lægemiddel er godkendt under "særlige vilkår". Det betyder, at det grundet sygdommens 
+sjældenhed ikke har været muligt at opnå fuldstændig dokumentation for lægemidlet. 
+Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
+indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk. Der er også links til andre websteder om sjældne sygdomme og 
+om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-095ad71337cf86d5fe21eb3ee2e24f22
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bylvay Package Leaflet for language en"
+Description: "ePI document Bundle for bylvay Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-095ad71337cf86d5fe21eb3ee2e24f22"
+* entry[0].resource = composition-en-095ad71337cf86d5fe21eb3ee2e24f22
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp095ad71337cf86d5fe21eb3ee2e24f22"
+* entry[=].resource = mp095ad71337cf86d5fe21eb3ee2e24f22
+                            
+                    
+Instance: bundlepackageleaflet-da-095ad71337cf86d5fe21eb3ee2e24f22
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bylvay Package Leaflet for language da"
+Description: "ePI document Bundle for bylvay Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-095ad71337cf86d5fe21eb3ee2e24f22"
+* entry[0].resource = composition-da-095ad71337cf86d5fe21eb3ee2e24f22
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp095ad71337cf86d5fe21eb3ee2e24f22"
+* entry[=].resource = mp095ad71337cf86d5fe21eb3ee2e24f22
+                            
+                    
+
+
+
+Instance: mp095ad71337cf86d5fe21eb3ee2e24f22
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Bylvay 200 micrograms hard capsules"
-Description: "Bylvay 200 micrograms hard capsules"
+Title: "Medicinal Product bylvay"
+Description: "bylvay"
 Usage: #inline
 
  
@@ -356,7 +796,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Bylvay 200 micrograms hard capsules"
+  * productName = "bylvay"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -383,29 +823,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-095ad71337cf86d5fe21eb3ee2e24f22
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for bylvay Package Leaflet for language en"
-Description: "ePI document Bundle for bylvay Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 095ad71337cf86d5fe21eb3ee2e24f22ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1566/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "bylvay"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-095ad71337cf86d5fe21eb3ee2e24f22"
-* entry[0].resource = composition-en-095ad71337cf86d5fe21eb3ee2e24f22
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3260762a9f2b3d1768e9f446f8e59be2"
-* entry[=].resource = mp3260762a9f2b3d1768e9f446f8e59be2
-                            
-                      
+* title = "List of all ePIs associated with bylvay"
+
+* subject = Reference(mp3260762a9f2b3d1768e9f446f8e59be2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#bylvay "bylvay"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-095ad71337cf86d5fe21eb3ee2e24f22) // bylvay en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-095ad71337cf86d5fe21eb3ee2e24f22) // bylvay da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-095ad71337cf86d5fe21eb3ee2e24f22
+InstanceOf: List
+
+* insert 095ad71337cf86d5fe21eb3ee2e24f22ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-040bd687344f34655b854f4b67248074
 InstanceOf: CompositionUvEpi
 Title: "Composition for skilarence Package Leaflet"
@@ -396,12 +399,496 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-040bd687344f34655b854f4b67248074
+InstanceOf: CompositionUvEpi
+Title: "Composition for skilarence Package Leaflet"
+Description:  "Composition for skilarence Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9f19d491c9d50ad089f639dd538cc8e2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp9f19d491c9d50ad089f639dd538cc8e2
+* title = "TEST PURPOSES ONLY - skilarence"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Skilarence 
+3. Sådan skal du tage Skilarence 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What skilarence is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What skilarence is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Skilarence<br />
+Skilarence er et lægemiddel, som indeholder det aktive stof dimethylfumarat. Dimethylfumarat virker 
+på celler i immunsystemet (kroppens naturlige forsvar). Det ændrer immunsystemets aktivitet ved at 
+reducere produktionen af visse stoffer, der bidrager til at forårsage psoriasis. </p>
+<p>Hvad bruges Skilarence til 
+Skilarence-tabletter bruges til at behandle moderat til svær plaque psoriasis hos voksne. Psoriasis er en 
+sygdom, der forårsager fortykkede, betændte, røde områder på huden, ofte dækket af sølvfarvede skæl. </p>
+<p>Respons på Skilarence ses generelt allerede i uge 3, og forbedres over tid. Erfaringer med relaterede 
+produkter, som indeholder dimethylfumarat, viser behandlingsmæssige fordele i op til mindst 
+24 måneder. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take skilarence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take skilarence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Skilarence 
+- hvis du er allergisk over for dimethylfumarat eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6) 
+- hvis du har alvorlige problemer med din mave eller tarme 
+- hvis du har alvorlige lever- eller nyreproblemer 
+- hvis du er gravid eller ammer </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Skilarence. </p>
+<p>Overvågning 
+Skilarence kan forårsage problemer med dit blod, din lever eller dine nyrer. Du vil få taget blod-og 
+urinprøver før behandling og derefter regelmæssigt under behandling. Det er for at sikre, at du ikke får 
+disse komplikationer og kan fortsætte med at tage denne medicin. Afhængigt af resultaterne af disse 
+blod- og urinprøver kan lægen vælge at øge Skilarence-dosen ifølge skemaet i punkt 3), bibeholde din 
+dosis, nedsætte din dosis eller stoppe behandlingen helt.  </p>
+<p>Infektioner 
+Hvide blodlegemer hjælper din krop med at bekæmpe infektioner. Skilarence kan reducere antallet af 
+hvide blodlegemer. Tal med din læge, hvis du mener, at du muligvis har en infektion. Symptomer 
+omfatter feber, smerte, ømme muskler, hovedpine, appetitløshed og en generel svaghedsfornemmelse. 
+Hvis du har en alvorlig infektion, enten før behandlingen med Skilarence eller under behandlingen, vil 
+din læge muligvis råde dig til ikke at tage Skilarence, før infektionen er behandlet. </p>
+<p>Lidelser i mave-tarmkanalen 
+Fortæl din læge, hvis du har eller har haft problemer med maven eller tarmene. Din læge vil fortælle 
+dig, hvilken pleje du skal have under behandlingen med Skilarence. </p>
+<p>Børn og unge 
+Dette lægemiddel bør ikke anvendes af børn og unge under 18 år, da det ikke er blevet undersøgt i 
+denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Skilarence 
+Fortæl  lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. </p>
+<p>Fortæl især lægen, hvis du tager følgende:</p>
+<ul>
+<li>Dimethylfumarat eller andre fumarater. Det aktive stof i Skilarence, dimethylfumarat, 
+bruges også i andre lægemidler, såsom tabletter, salver og badeprodukter. Du skal undgå at tage 
+andre produkter, der indeholder fumarater for at undgå, at du tager for meget. </li>
+<li>Anden medicin, der bruges til at behandle psoriasis, såsom methotrexat, retinoider, psoralen, 
+ciclosporin eller anden medicin, der påvirker immunsystemet (såsom immunosuppresiva eller 
+cytostatika). Hvis denne type medicin tages med Skilarence, kan risikoen for bivirkninger på dit 
+immunsystem stige. </li>
+<li>Anden medicin, der kan påvirke din nyrefunktion, såsom methotrexat eller ciclosporin 
+(anvendes til behandling af psoriasis), aminoglycosider (anvendes til behandling af infektioner), 
+diuretika (som øger urinmængden), non-steroide anti-inflammatoriske lægemidler (bruges til 
+behandling af smerter) eller lithium (bruges til bipolar sygdom og depression). Når denne 
+medicin tages sammen med Skilarence, kan det øge risikoen for bivirkninger i nyrerne. </li>
+</ul>
+<p>Hvis du får alvorlig eller længerevarende diarré, fordi du tager Skilarence, vil anden medicin muligvis 
+ikke virke så godt, som den burde. Hvis det sker, skal du tale med din læge om din diarré. Hvis du 
+tager svangerskabsforebyggende medicin (p-piller), er det endnu mere vigtigt, fordi virkningen kan 
+mindskes og det kan være nødvendigt at bruge yderligere metoder til at forhindre graviditet. Se 
+instruktionerne i indlægssedlen for det præventionsmiddel, du tager. </p>
+<p>Hvis du skal vaccineres, skal du tale med din læge. Visse typer vacciner (levende vaccine) kan 
+forårsage infektion, hvis de anvendes under behandling med Skilarence. Din læge kan rådgive dig om 
+hvad der er bedst. </p>
+<p>Brug af Skilarence sammen med alkohol 
+Undgå stærke alkoholiske drikkevarer (mere end 50 ml spiritus, der indeholder mere end 30 % 
+alkohol) under behandling med Skilarence, da alkohol kan interagere med denne medicin. Dette kan 
+forårsage mave og tarmproblemer. </p>
+<p>Graviditet og amning<br />
+Tag ikke Skilarence, hvis du er gravid eller forsøger at blive gravid, da Skilarence kan skade barnet. 
+Brug sikker prævention for at undgå graviditet under behandling med Skilarence (se også "Brug af 
+anden medicin sammen med Skilarence" ovenfor). I tilfælde af mave-/tarmproblemer, der kan 
+reducere effekten af orale præventionsmidler, skal du tale med din læge, der vil give dig vejledning i 
+yderligere præventionsmetoder. 
+Du må ikke amme, mens du behandles med Skilarence. </p>
+<p>Trafik- og arbejdssikkerhed 
+Skilarence kan i mindre grad påvirke evnen til at føre motorkøretøj og betjene maskiner. Der kan opstå 
+svimmelhed eller træthed efter administration af Skilarence. Du skal være forsigtig, når du fører 
+motorkøretøj eller betjener maskiner, hvis du er påvirket. </p>
+<p>Skilarence indeholder laktose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>Skilarence indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take skilarence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take skilarence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Dosis 
+Din læge vil starte din behandling med en lav dosis af Skilarence på 30 mg. Det hjælper din krop med 
+at vænne sig til medicinen og begrænse risikoen for bivirkninger, såsom mave-/tarmproblemer. Din 
+dosis vil blive øget med 30 mg hver uge, som vist i nedenstående tabel. Efter en dosis på 120 mg 
+Skilarence per dag er nået, typisk fra og med uge 4, kan du skifte til 120 mg Skilarence-tabletterne for 
+at gøre det så nemt som muligt. Hvis du skifter tabletter fra 30 mg til 120 mg, skal du sikre dig, at du 
+tager den korrekte tablet og dosis. </p>
+<p>Behand-
+lingsuge 
+Tablet-
+styrke 
+Antal tabletter der skal tages dagligt 
+Antal 
+tabletter pr. 
+dag 
+Samlet 
+daglig dosis 
+Morgen 
+Middag 
+Aften 
+1 
+30 mg 
+- - 1 
+1 
+30 mg 
+2 
+30 mg 
+1 
+- 1 
+2 
+60 mg 
+3 
+30 mg 
+1 
+1 
+1 
+3 
+90 mg 
+4 
+120 mg 
+- - 1 
+1 
+120 mg 
+5 
+120 mg 
+1 
+- 1 
+2 
+240 mg 
+6 
+120 mg 
+1 
+1 
+1 
+3 
+360 mg 
+7 
+120 mg 
+1 
+1 
+2 
+4 
+480 mg 
+8 
+120 mg 
+2 
+1 
+2 
+5 
+600 mg 
+9+ 
+120 mg 
+2 
+2 
+2 
+6 
+720 mg </p>
+<p>Din læge vil kontrollere, i hvor høj grad din tilstand forbedres, efter at du begynder at tage Skilarence, 
+og vil undersøge, om der er nogen bivirkninger. Hvis du har alvorlige bivirkninger efter en 
+dosisstigning, vil din læge muligvis anbefale, at du midlertidigt går tilbage til den sidste dosis. Hvis 
+bivirkningerne ikke er så generende, øges din dosis, indtil din tilstand er under kontrol. Du vil ikke 
+nødvendigvis have brug for den maksimale dosis på 720 mg pr. dag som angivet i tabellen ovenfor. 
+Når din tilstand er tilstrækkeligt forbedret, vil din læge overveje, hvordan den daglige dosis Skilarence 
+gradvist kan reduceres til, hvad du har brug for til at opretholde din forbedring. </p>
+<p>Administration 
+Slug Skilarence tabletterne hele med væske. Tag din(e) tablet(ter) under eller umiddelbart efter et 
+måltid. Du må ikke knuse, dele, opløse eller tygge tabletten, da de har et særligt overtræk for at 
+forhindre irritation i maven. </p>
+<p>Hvis du har taget for meget Skilarence<br />
+Hvis du mener, at du har taget for mange Skilarence-tabletter, skal du kontakte din læge eller 
+apotekspersonalet. </p>
+<p>Hvis du har glemt at tage Skilarence 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag den næste dosis på det 
+sædvanlige tidspunkt, og fortsæt med at tage medicinen nøjagtigt som beskrevet i denne indlægsseddel 
+eller efter lægens anvisning. Er du i tvivl, så spørg lægen eller apotekspersonalet. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Nogle af 
+disse bivirkninger, såsom rødfarvning af ansigt eller krop (rødmen), diarré, maveproblemer og kvalme, 
+forbedres normalt, når du fortsætter behandlingen. </p>
+<p>De mest alvorlige bivirkninger, der kan opstå med Skilarence, er allergiske reaktioner eller 
+overfølsomhedsreaktioner; nyresvigt eller en nyresygdom kaldet Fanconis syndrom; eller en alvorlig 
+hjerneinfektion kaldet progressiv multifokal leukoencefalopati (PML). Det vides ikke, hvor ofte de 
+forekommer. Symptomerne er beskrevet nedenfor. </p>
+<p>Allergiske reaktioner eller overfølsomhedsreaktioner 
+Allergiske reaktioner eller overfølsomhedsreaktioner er sjældne, men kan være meget alvorlige. 
+Rødmen på ansigtet eller kroppen (blussen) er en meget almindelig bivirkning, som kan påvirke mere 
+end 1 ud af 10 personer. Men hvis du blusser og får et af følgende tegn:</p>
+<ul>
+<li>hvæsende vejrtrækning, vejrtrækningsbesvær eller åndenød </li>
+<li>hævelse i ansigtet, på læberne eller på tungen<br />
+skal du holde op med at tage Skilarence og straks søge læge. </li>
+</ul>
+<p>Hjerneinfektion, kaldet PML 
+Progressiv multifokal leukoencefalopati (PML) er en sjælden, men alvorlig hjerneinfektion, som kan 
+føre til alvorlig invaliditet eller død. Hvis du bemærker en ny eller forværret svaghed i den ene side af 
+kroppen, klodsethed, synsforstyrrelser eller tanke- eller hukommelsesændringer, forvirring eller 
+personlighedsændringer af flere dages varighed, skal du holde op med at tage Skilarence og hurtigst 
+muligt tale med din læge. </p>
+<p>Fanconis syndrom 
+Fanconis syndrom er en sjælden, men alvorlig nyrelidelse, som kan forekomme med Skilarence. Hvis 
+du opdager, du lader mere vand (eller oftere); er mere tørstig og drikker mere end normalt; dine 
+muskler virker svagere, du brækker en knogle eller bare har ømhed og smerter, skal du hurtigst muligt 
+tale med din læge, så det kan undersøges nærmere. </p>
+<p>Tal med din læge, hvis du får nogen af de følgende bivirkninger. </p>
+<p>Meget almindelige (kan påvirke mere end 1 ud af 10 personer) 
+- fald i bestemte hvide blodlegemer kaldet lymfocytter (lymfopeni) 
+- fald i alle hvide blodlegemer (leukopeni) 
+- rødfarvning af ansigtet eller kroppen (rødmen) 
+- diarré 
+- oppustet mave, mavesmerter eller mavekramper 
+- følelse af at skulle kaste op (kvalme) </p>
+<p>Almindelige (kan påvirke op til 1 ud af 10 personer) 
+- stigning i alle hvide blodlegemer (leukocytose) 
+- stigning i bestemte hvide blodlegemer kaldet eosinofile blodceller 
+- stigning i visse enzymer i blodet (bruges til at kontrollere, hvordan din lever har det) 
+- opkastning 
+- forstoppelse 
+- luft i maven (flatulens), maveubehag, fordøjelsesbesvær 
+- nedsat appetit 
+- hovedpine 
+- træthedsfornemmelse 
+- svaghed 
+- varmefornemmelse 
+- unormale fornemmelser i huden, såsom kløe, brændende, stikkende, kildrende eller snurrende 
+fornemmelser 
+- lyserøde eller røde pletter på huden (erytem) </p>
+<p>Ikke almindelige (kan påvirke op til 1 ud af 100 personer) 
+- svimmelhed 
+- øget indhold af protein i urinen (proteinuri) 
+- stigning i serumkreatinin (et stof i blodet, der bruges til at måle, hvor godt dine nyrer fungerer) </p>
+<p>Sjældne (kan påvirke op til 1 ud af 1.000 personer) 
+- allergisk hudreaktion </p>
+<p>Meget sjældne (kan påvirke op til 1 ud af 10.000 personer) 
+- akut lymfatisk leukæmi (en type blodkræft) 
+- fald i alle typer blodceller (pancytopeni) </p>
+<p>Ikke kendt (hyppigheden kan ikke beregnes ud fra tilgængelige data) 
+- helvedesild </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store skilarence"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store skilarence"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter "EXP". Udløbsdatoen er den 
+sidste dag i den nævnte måned </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Skilarence 30 mg indeholder:</p>
+<ul>
+<li>Aktivt stof: dimethylfumarat. En tablet indeholder 30 mg dimethylfumarat. </li>
+<li>Øvrige indholdsstoffer: laktosemonohydrat, cellulose, mikrokrystallinsk, 
+croscarmellosenatrium, silica, kolloid vandfri, magnesiumstearat, methacrylsyre-ethylacrylat-
+copolymer (1:1), talcum, triethylcitrat, titandioxid (E171) og simethicon. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Skilarence 30 mg er en hvid, rund tablet med en diameter på cirka 6,8 mm. 
+Skilarence 30 mg fås i pakninger indeholdende 42, 70 og 210 enterotabletter. Ikke alle 
+pakningsstørrelser er nødvendigvis markedsført. Tabletterne er pakket i PVC/PVDC-aluminiumblister. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Almirall, S.A. 
+Ronda General Mitre, E-08022 Barcelona 
+Spanien 
+Tlf.: +34 93 291 30<br />
+Fremstiller 
+Industrias Farmacéuticas Almirall, S.A. 
+Ctra. de Martorell 41-E-08740 Sant Andreu de la Barca, Barcelona 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien/ Luxembourg/Luxemburg 
+Almirall N.V., Tél/Tel: +32 (0)2 771 86<br />
+България 
+EGIS Pharmaceuticals PLC, Teл.: +359 2 987 60<br />
+Česká republika 
+EGIS Praha, spol. s r. o., Tel: +420 227 129<br />
+Danmark/ Norge/ Sverige 
+Almirall ApS, Tlf/Tel: +45 70 25 75<br />
+Deutschland 
+Almirall Hermal GmbH, Tel: +49 (0)40 72704-0 </p>
+<p>Eesti/ España/ Hrvatska/ Κύπρος/ Latvija/ Lietuva/ Malta/ Slovenija 
+Almirall, S.A., Tel/Τηλ: +34 93 291 30<br />
+Ελλάδα 
+Galenica A.E., Tηλ: +30 210 52 81<br />
+France 
+Almirall SAS, Tél: +33(0)1 46 46 19<br />
+Ireland/ United Kingdom (Northern Ireland) 
+Almirall, S.A., Tel: +353 (0) 1431 9 
+Ísland 
+Vistor hf., Sími: +354 535 70<br />
+Italia 
+Almirall SpA, Tel: +39 02 346 
+Magyarország 
+Egis Gyógyszergyár Zrt., Tel.: +36 1 803 5555  </p>
+<p>Nederland 
+Almirall B.V., Tel: +31 (0)30 799 1 
+Österreich 
+Almirall GmbH, Tel: +43 (0)1/595 39<br />
+Polska 
+EGIS Polska Sp. z o.o., Tel.: +48 22 417 92<br />
+Portugal 
+Almirall - Produtos Farmacêuticos, Lda., Tel: +351 21 415 57<br />
+România 
+Egis Pharmaceuticals PLC, Tel: +40 21 412 0 
+Slovenská republika 
+EGIS SLOVAKIA spol. s r.o., Tel: +421 2 32409 
+Suomi/Finland 
+Orion Pharma, Puh/Tel: +358 10 4 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Skilarence 120 mg enterotabletter 
+dimethylfumarat </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-040bd687344f34655b854f4b67248074
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for skilarence Package Leaflet for language en"
+Description: "ePI document Bundle for skilarence Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-040bd687344f34655b854f4b67248074"
+* entry[0].resource = composition-en-040bd687344f34655b854f4b67248074
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp040bd687344f34655b854f4b67248074"
+* entry[=].resource = mp040bd687344f34655b854f4b67248074
+                            
+                    
+Instance: bundlepackageleaflet-da-040bd687344f34655b854f4b67248074
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for skilarence Package Leaflet for language da"
+Description: "ePI document Bundle for skilarence Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-040bd687344f34655b854f4b67248074"
+* entry[0].resource = composition-da-040bd687344f34655b854f4b67248074
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp040bd687344f34655b854f4b67248074"
+* entry[=].resource = mp040bd687344f34655b854f4b67248074
+                            
+                    
+
+
+
+Instance: mp040bd687344f34655b854f4b67248074
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Skilarence 30 mg gastro-resistant tablets"
-Description: "Skilarence 30 mg gastro-resistant tablets"
+Title: "Medicinal Product skilarence"
+Description: "skilarence"
 Usage: #inline
 
  
@@ -421,7 +908,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Skilarence 30 mg gastro-resistant tablets"
+  * productName = "skilarence"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -448,29 +935,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-040bd687344f34655b854f4b67248074
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for skilarence Package Leaflet for language en"
-Description: "ePI document Bundle for skilarence Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 040bd687344f34655b854f4b67248074ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1201/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "skilarence"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-040bd687344f34655b854f4b67248074"
-* entry[0].resource = composition-en-040bd687344f34655b854f4b67248074
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9f19d491c9d50ad089f639dd538cc8e2"
-* entry[=].resource = mp9f19d491c9d50ad089f639dd538cc8e2
-                            
-                      
+* title = "List of all ePIs associated with skilarence"
+
+* subject = Reference(mp9f19d491c9d50ad089f639dd538cc8e2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#skilarence "skilarence"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-040bd687344f34655b854f4b67248074) // skilarence en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-040bd687344f34655b854f4b67248074) // skilarence da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-040bd687344f34655b854f4b67248074
+InstanceOf: List
+
+* insert 040bd687344f34655b854f4b67248074ListRuleset
+    

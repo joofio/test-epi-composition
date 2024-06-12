@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-029daacbd89e23b3c2659a90ebac249a
 InstanceOf: CompositionUvEpi
 Title: "Composition for revlimid Package Leaflet"
@@ -624,12 +627,1128 @@ Netherlands </p>
 
 
 
+Instance: composition-da-029daacbd89e23b3c2659a90ebac249a
+InstanceOf: CompositionUvEpi
+Title: "Composition for revlimid Package Leaflet"
+Description:  "Composition for revlimid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfcbda5ef2a0a815a0025ccce9046d59d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpfcbda5ef2a0a815a0025ccce9046d59d
+* title = "TEST PURPOSES ONLY - revlimid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen<br />
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Revlimid 
+3. Sådan skal du tage Revlimid 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What revlimid is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What revlimid is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Revlimid indeholder det aktive stof ’lenalidomid’. Dette lægemiddel tilhører en gruppe lægemidler, 
+som påvirker den måde, dit immunsystem virker på. </p>
+<p>Anvendelse 
+Revlimid anvendes hos voksne mod: </p>
+<ul>
+<li>
+<p>Myelomatose </p>
+</li>
+<li>
+<p>Myelodysplastisk syndrom </p>
+</li>
+<li>
+<p>Mantle celle lymfom </p>
+</li>
+<li>
+<p>Follikulært lymfom </p>
+</li>
+</ul>
+<p>Myelomatose 
+Myelomatose er en kræfttype, der påvirker en bestemt type af hvide blodlegemer, der kaldes 
+plasmaceller. Disse celler ophobes i knoglemarven og gennemgår ukontrollerede celledelinger. Dette 
+kan beskadige knogler og nyrer.  </p>
+<p>Myelomatose kan normalt ikke helbredes. Tegn og symptomer kan imidlertid kraftigt reduceres eller 
+forsvinde i en periode. Dette kaldes et ’respons’. </p>
+<p>Nydiagnosticeret myelomatose - hos patienter, som har gennemgået knoglemarvstransplantation<br />
+Revlimid anvendes som eneste lægemiddel til vedligeholdelsesbehandling, når patienterne er 
+tilstrækkeligt restitueret efter en knoglemarvstransplantation. </p>
+<p>Nydiagnosticeret myelomatose - hos patienter, som ikke er egnede til at gennemgå en 
+knoglemarvstransplantation 
+Revlimid tages sammen med andre lægemidler. Disse kan omfatte: </p>
+<ul>
+<li>
+<p>et lægemiddel til kemoterapi, der kaldes ’bortezomib’ </p>
+</li>
+<li>
+<p>et antiinflammatorisk lægemiddel, der kaldes ’dexamethason’. </p>
+</li>
+<li>
+<p>et kræftlægemiddel, der kaldes ’melphalan’, og  </p>
+</li>
+<li>
+<p>et immunundertrykkende lægemiddel, der kaldes ’prednison’.<br />
+Du skal tage disse andre lægemidler i begyndelsen af behandlingen og derefter fortsætte med kun at 
+tage Revlimid.  </p>
+</li>
+</ul>
+<p>Hvis du er 75 år eller derover, eller hvis du har moderate til svære nyreproblemer, vil din læge 
+undersøge dig grundigt, før du starter behandlingen. </p>
+<p>Myelomatose - hos patienter, som tidligere har fået behandling 
+Revlimid tages sammen med et antiinflammatorisk lægemiddel (mod betændelseslignende reaktioner), 
+der kaldes ’dexamethason’.  </p>
+<p>Revlimid kan forhindre, at tegn og symptomer fra myelomatose bliver værre. Det har også vist sig at 
+kunne forsinke myelomatose fra at vende tilbage efter behandlingen.  </p>
+<p>Myelodysplastisk syndrom (MDS) 
+MDS er en samling af mange forskellige blod- og knoglemarvssygdomme. Blodlegemerne bliver 
+unormale og fungerer ikke korrekt. Patienterne kan opleve forskellige tegn og symptomer, herunder et 
+lavt antal røde blodlegemer (anæmi), behov for blodtransfusion og infektionsrisiko. </p>
+<p>Revlimid bruges alene til at behandle voksne patienter, der er blevet diagnosticeret med MDS, når 
+følgende gælder: </p>
+<ul>
+<li>
+<p>Du har behov for regelmæssige blodtransfusioner for at behandle lave niveauer af røde 
+blodlegemer (’transfusionsafhængig anæmi’) </p>
+</li>
+<li>
+<p>Du har anomali i cellerne i knoglemarven, der kaldes en ’isoleret 5q-deletion cytogenetisk 
+anomali’. Det betyder, at din krop ikke danner nok raske blodlegemer. </p>
+</li>
+<li>
+<p>Du har fået andre behandlinger, der ikke er hensigtsmæssige eller ikke virker godt nok. </p>
+</li>
+</ul>
+<p>Revlimid kan øge antallet af raske røde blodlegemer, som kroppen danner, ved at reducere antallet af 
+unormale celler:  </p>
+<ul>
+<li>Dette kan reducere det nødvendige antal blodtransfusioner. Det er muligt, at det ikke er 
+nødvendigt med en blodtransfusion. </li>
+</ul>
+<p>Mantle celle lymfom (MCL) 
+MCL er kræft i immunsystemet (lymfevævet). Det påvirker en type hvide blodlegemer, der kaldes ’B-
+lymfocytter’ eller B-celler. MCL er en sygdom, hvor B-celler vokser ukontrolleret og opbygges i 
+lymfevævet, knoglemarven eller blodet. </p>
+<p>Revlimid anvendes alene til at behandle voksne patienter, som tidligere er blevet behandlet med andre 
+lægemidler. </p>
+<p>Follikulært lymfom (FL) 
+FL er en kræftform, som vokser langsomt, og påvirker B-lymfocytterne. Disse er en type hvide 
+blodlegemer, der hjælper din krop med at bekæmpe infektioner. Hvis du har FL, kan der ophobes for 
+mange af disse B-lymfocytter i blodet, knoglemarven, lymfeknuderne og milten. </p>
+<p>Revlimid tages sammen med et andet lægemiddel, der kaldes ’rituximab’, til at behandle voksne 
+patienter med tidligere behandlet follikulært lymfom. </p>
+<p>Sådan virker Revlimid 
+Revlimid virker ved at påvirke kroppens immunsystem og direkte angribe kræften. Det virker på flere 
+forskellige måder: </p>
+<ul>
+<li>
+<p>ved at stoppe kræftcellernes udvikling </p>
+</li>
+<li>
+<p>ved at stoppe blodkarrenes vækst i kræften </p>
+</li>
+<li>
+<p>ved at stimulere en del af immunsystemet, så kræftcellerne angribes. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take revlimid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take revlimid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du skal læse indlægssedlen for alle de lægemidler, der skal tages i kombination med Revlimid, 
+før du starter behandlingen med Revlimid. </p>
+<p>Tag ikke Revlimid </p>
+<ul>
+<li>
+<p>hvis du er gravid, har mistanke om, at du er gravid eller planlægger at blive gravid, da 
+Revlimid forventes at være skadeligt for det ufødte barn (se punkt 2, “Graviditet, amning og 
+prævention - information til kvinder og mænd"). </p>
+</li>
+<li>
+<p>hvis du kan blive gravid, medmindre du træffer alle nødvendige forholdsregler for at undgå at 
+blive gravid (se punkt 2 “Graviditet, amning og prævention - information til kvinder og 
+mænd"). Hvis du kan blive gravid, vil din læge notere at alle nødvendige forholdsregler er 
+blevet truffet og vil bekræfte dette over for dig, hver gang du får ordineret medicin. </p>
+</li>
+<li>
+<p>hvis du er allergisk over for lenalidomid eller et af de øvrige indholdsstoffer i Revlimid angivet 
+i punkt 6. Spørg lægen om råd, hvis du mener, du kan være allergisk. </p>
+</li>
+</ul>
+<p>Hvis noget af ovenstående passer på dig, må du ikke tage Revlimid. Kontakt lægen, hvis du er i tvivl. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Revlimid, hvis: </p>
+<ul>
+<li>
+<p>du tidligere har haft blodpropper - du har en øget risiko for at udvikle blodpropper i dine vener 
+og arterier under behandlingen </p>
+</li>
+<li>
+<p>du har infektionstegn, såsom hoste eller feber  </p>
+</li>
+<li>
+<p>du har eller tidligere har haft en virusinfektion, især: hepatitis B-infektion, varicella zoster, hiv. 
+Kontakt lægen, hvis du er i tvivl. Behandling med Revlimid kan føre til, at virussen igen bliver 
+aktiv hos patienter, der er bærere af virus. Dette resulterer i, at infektionen vender tilbage. 
+Lægen bør kontrollere, om du tidligere har haft en hepatitis B-infektion </p>
+</li>
+<li>
+<p>du har nyreproblemer - din læge kan justere din dosis Revlimid </p>
+</li>
+<li>
+<p>du har haft et hjerteanfald, tidligere har haft en blodprop, eller hvis du ryger, har højt blodtryk 
+eller højt kolesterolniveau </p>
+</li>
+<li>
+<p>du har haft en allergisk reaktion, mens du tog thalidomid (et andet lægemiddel til behandling af 
+myelomatose), såsom udslæt, kløe, hævelse, svimmelhed eller vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>du tidligere har oplevet en kombination af nogen af følgende symptomer: udbredt udslæt, rød 
+hud, høj kropstemperatur, influenzalignende symptomer, forhøjede leverenzymer, 
+blodabnormiteter (eosinofili), forstørrede lymfeknuder - de er tegn på en svær hudreaktion, som 
+kaldes lægemiddelreaktion med eosinofili og systemiske reaktioner, også kendt som DRESS 
+eller lægemiddeloverfølsomhedssyndrom. (Se også punkt 4 "Bivirkninger"). </p>
+</li>
+</ul>
+<p>Hvis noget af det ovenstående gælder for dig, skal du fortælle det til lægen, apotekspersonalet eller 
+sygeplejersken, før behandlingen påbegyndes. </p>
+<p>Hvis du oplever følgende, når som helst under eller efter behandlingen skal du øjeblikkeligt fortælle 
+det til lægen eller sygeplejersken:  </p>
+<ul>
+<li>
+<p>sløret syn, synstab eller dobbeltsyn, talebesvær, svækkelse af en arm eller et ben, ændring af den 
+måde, du går på, eller problemer med at holde balancen, vedvarende følelsesløshed, nedsat 
+føleevne, tab af føleevne, hukommelsestab eller forvirring. Alle disse reaktioner kan være 
+symptomer på en alvorlig og potentielt dødelig hjernelidelse, der kaldes progressiv multifocal 
+leukoencefalopati (PML). Hvis du havde disse symptomer før behandlingen med Revlimid, skal 
+du fortælle det til lægen, hvis du oplever en ændring af dem. </p>
+</li>
+<li>
+<p>stakåndethed, træthed, svimmelhed, smerter i brystet, hurtigere hjerteslag eller hævelse i ben 
+eller ankler. Disse kan være symptomer på en alvorlig tilstand kaldet pulmonal hypertension (se 
+punkt 4). </p>
+</li>
+</ul>
+<p>Undersøgelser og kontroller 
+Før og under behandlingen med Revlimid vil du få taget regelmæssige blodprøver. Dette er fordi 
+Revlimid kan forårsage et fald i antallet af de blodlegemer, der bekæmper infektioner (hvide 
+blodlegemer) og får blodet til at størkne (blodplader). 
+Lægen vil bede dig om at få taget en blodprøve: </p>
+<ul>
+<li>
+<p>før behandlingen  </p>
+</li>
+<li>
+<p>hver uge de første 8 uger af behandlingen  </p>
+</li>
+<li>
+<p>mindst hver måned derefter. </p>
+</li>
+</ul>
+<p>Du vil muligvis blive vurderet for tegn på hjerte-lunge-problemer før og under behandlingen med 
+lenalidomid. </p>
+<p>For patienter med MDS, som får Revlimid 
+Hvis du har MDS, kan du have en større risiko for at få en sværere sygdom, der kaldes akut myeloid 
+leukæmi (AML). Desuden vides det ikke, hvordan Revlimid påvirker risikoen for, at du får AML. Din 
+læge kan derfor udføre nogle undersøgelser for tegn, som evt. bedre vil kunne forudsige 
+sandsynligheden for, at du får AML i løbet af din behandling med Revlimid. </p>
+<p>For patienter med MCL, som får Revlimid 
+Din læge vil bede dig om at få taget en blodprøve: </p>
+<ul>
+<li>
+<p>inden behandling </p>
+</li>
+<li>
+<p>hver uge i de første 8 uger (2 cyklusser) af behandlingen </p>
+</li>
+<li>
+<p>derefter hver 2. uge i cyklus 3 og 4 (se punkt 3 "Behandlingscyklus" for yderligere information) </p>
+</li>
+<li>
+<p>herefter ved starten af hver ny cyklus og </p>
+</li>
+<li>
+<p>mindst én gang om måneden </p>
+</li>
+</ul>
+<p>For patienter med FL, som får Revlimid 
+Din læge vil bede dig om at få taget en blodprøve: </p>
+<ul>
+<li>
+<p>inden behandling </p>
+</li>
+<li>
+<p>hver uge i de første 3 uger (1 cyklus) af behandlingen </p>
+</li>
+<li>
+<p>derefter hver 2. uge i cyklus 2 til 4 (se punkt 3 "Behandlingscyklus" for yderligere information) </p>
+</li>
+<li>
+<p>herefter ved starten af hver ny cyklus og </p>
+</li>
+<li>
+<p>mindst én gang om måneden </p>
+</li>
+</ul>
+<p>Din læge kan kontrollere, om du har en høj total tumormængde i hele kroppen, inklusive din 
+knoglemarv. Dette kan føre til en tilstand, hvor tumorerne nedbrydes, og forårsager usædvanlige 
+niveauer af kemikalier i blodet, hvilket kan føre til nyresvigt (denne tilstand kaldes 
+’Tumorlysesyndrom’)  </p>
+<p>Lægen kan kontrollere din hud for ændringer for dig, såsom røde pletter eller udslæt. </p>
+<p>Lægen kan justere dosis af Revlimid eller standse behandlingen på basis af resultaterne fra 
+blodprøverne og din generelle tilstand. Hvis du er nydiagnosticeret, kan din læge også vurdere din 
+behandling på basis af din alder samt andre sygdomme, som du måske allerede har. </p>
+<p>Bloddonation 
+Du må ikke donere blod under behandlingen og i mindst 7 dage efter behandlingsophør. </p>
+<p>Børn og unge 
+Revlimid anbefales ikke til børn og unge under 18 år. </p>
+<p>Ældre og personer med nyreproblemer 
+Hvis du er 75 år eller derover, eller du har moderate til svære nyreproblemer - vil din læge undersøge 
+dig grundigt, før du starter behandlingen. </p>
+<p>Brug af anden medicin sammen med Revlimid 
+Fortæl altid lægen eller sygeplejersken, hvis du tager anden medicin, for nylig har taget anden medicin 
+eller planlægger at tage anden medicin. Dette skyldes, at Revlimid kan påvirke den måde, nogle af de 
+andre lægemidler virker på. Andre lægemidler kan også påvirke den måde, Revlimid virker på. </p>
+<p>Du skal især fortælle det til lægen eller sygeplejersken, hvis du tager nogle af de følgende lægemidler: </p>
+<ul>
+<li>
+<p>nogle lægemidler, der anvendes til at forhindre graviditet, såsom orale præventionsmidler, da de 
+kan holde op med at virke </p>
+</li>
+<li>
+<p>nogle lægemidler, der anvendes til hjerteproblemer - såsom digoxin </p>
+</li>
+<li>
+<p>nogle lægemidler, der anvendes til at fortynde blodet - såsom warfarin </p>
+</li>
+</ul>
+<p>Graviditet, amning og prævention - information til kvinder og mænd </p>
+<p>Graviditet 
+Til kvinder, der tager Revlimid </p>
+<ul>
+<li>
+<p>Du må ikke tage Revlimid, hvis du er gravid, da det forventes at være skadeligt for det ufødte 
+barn.  </p>
+</li>
+<li>
+<p>Du må ikke blive gravid, mens du tager Revlimid. Derfor skal du benytte sikre 
+præventionsmetoder, hvis du er kvinde og kan blive gravid (se "Prævention"). </p>
+</li>
+<li>
+<p>Hvis du bliver gravid under behandlingen med Revlimid, skal du stoppe med behandlingen og 
+omgående informere lægen. </p>
+</li>
+</ul>
+<p>Til mænd, der tager Revlimid </p>
+<ul>
+<li>
+<p>Hvis din partner bliver gravid, mens du tager Revlimid, skal du omgående informere lægen. Din 
+partner bør kontakte en læge.  </p>
+</li>
+<li>
+<p>Du skal også anvende et sikkert præventionsmiddel (se "Prævention"). </p>
+</li>
+</ul>
+<p>Amning 
+Du må ikke amme under behandling med Revlimid, da det er ukendt, om Revlimid udskilles i 
+modermælken.  </p>
+<p>Prævention 
+For kvinder, der tager Revlimid 
+Før du begynder på behandlingen, skal du spørge lægen, om du er i stand til at blive gravid, selv hvis 
+du mener, det er usandsynligt. </p>
+<p>Hvis du kan blive gravid  </p>
+<ul>
+<li>
+<p>vil du få udført graviditetstest, som lægen overvåger (før hver behandling, mindst hver 4. uge 
+under behandlingen og mindst 4 uger efter behandlingen er gennemført), medmindre det er 
+blevet bekræftet, at dine æggeledere er blevet gennemskåret og afsnøret, så æggene ikke kan nå 
+frem til livmoderen (tubar sterilisation) 
+OG  </p>
+</li>
+<li>
+<p>du skal bruge sikker prævention i mindst 4 uger før behandlingen påbegyndes, under 
+behandlingen og i mindst 4 uger efter behandlingsophør. Din læge vil rådgive dig om passende 
+præventionsmetoder. </p>
+</li>
+</ul>
+<p>For mænd, som tager Revlimid 
+Revlimid udskilles i sæd fra mennesker. Hvis din kvindelige partner er eller kan blive gravid, og hun 
+ikke benytter en effektiv præventionsmetode, skal du benytte kondom under og i mindst 7 dage efter 
+behandlingsophør, selv hvis du er vasektomeret (steriliseret). Du må ikke donere sæd eller sperm 
+under behandlingen og i mindst 7 dage efter behandlingsophør. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke føre motorkøretøj eller betjene maskiner, hvis du føler dig svimmel, træt eller døsig, har en 
+følelse af at snurre rundt (vertigo), eller dit syn er sløret, efter du har taget Revlimid.  </p>
+<p>Revlimid indeholder lactose 
+Revlimid indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, 
+at du ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take revlimid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take revlimid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Revlimid af sundhedspersoner med erfaring i at behandle myelomatose, MDS, MCL eller 
+FL. </p>
+<ul>
+<li>
+<p>Når Revlimid anvendes til behandling af myelomatose hos patienter, som ikke kan gennemgå en 
+knoglemarvstransplantation, eller som tidligere har fået andre behandlinger, tages det sammen 
+med andre lægemidler (se punkt 1 "Virkning og anvendelse").  </p>
+</li>
+<li>
+<p>Når Revlimid anvendes til at behandle myelomatose hos patienter, som har gennemgået en 
+knoglemarvstransplantation, eller til at behandle patienter med MDS eller MCL, tages det alene.  </p>
+</li>
+<li>
+<p>Når Revlimid anvendes til at behandle follikulært lymfom, tages det sammen med et andet 
+lægemiddel, der kaldes ’rituximab’. </p>
+</li>
+</ul>
+<p>Tag altid Revlimid nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvis du tager Revlimid i kombination med andre lægemidler, bør du læse indlægssedlerne for disse 
+lægemidler for yderligere information om deres anvendelse og virkning. </p>
+<p>Behandlingscyklus 
+Revlimid tages på visse dage i løbet af 3 uger (21 dage). </p>
+<ul>
+<li>
+<p>Hver 21 dage kaldes en ’behandlingscyklus’. </p>
+</li>
+<li>
+<p>Afhængig af hvilken dag det er i cyklussen, vil du tage et eller flere af lægemidlerne. På nogle 
+af dagene tager du imidlertid ikke nogen af lægemidlerne. </p>
+</li>
+<li>
+<p>Efter gennemførelse af hver 21-dages cyklus, skal du starte en ny ‘cyklus’ i løbet af de næste 
+21 dage. 
+ELLER 
+Revlimid tages på visse dage i løbet af 4 uger (28 dage).  </p>
+</li>
+<li>
+<p>Hver 28 dage kaldes en ’behandlingscyklus’. </p>
+</li>
+<li>
+<p>Afhængig af hvilken dag det er i cyklussen, vil du tage et eller flere af lægemidlerne. På nogle 
+af dagene tager du imidlertid ikke nogen af lægemidlerne. </p>
+</li>
+<li>
+<p>Efter gennemførelse af hver 28-dages cyklus, skal du starte en ny ’cyklus’ i løbet af de næste 
+28 dage.  </p>
+</li>
+</ul>
+<p>Hvor meget Revlimid der skal tages 
+Før du starter behandlingen, vil din læge fortælle dig: </p>
+<ul>
+<li>
+<p>hvor meget Revlimid du skal tage </p>
+</li>
+<li>
+<p>hvor meget du evt. skal tage af de andre lægemidler i kombination med Revlimid </p>
+</li>
+<li>
+<p>på hvilke dage af din behandlingscyklus, du skal tage hvert lægemiddel. </p>
+</li>
+</ul>
+<p>Hvordan og hvornår Revlimid tages </p>
+<ul>
+<li>
+<p>Slug kapslerne hele, helst med vand.  </p>
+</li>
+<li>
+<p>Kapslerne må ikke åbnes, knuses eller tygges. Hvis pulveret fra en knækket Revlimid-kapsel får 
+kontakt med huden skal huden straks vaskes grundigt med sæbe og vand. </p>
+</li>
+<li>
+<p>Sundhedspersoner, omsorgspersoner og pårørende skal bære engangshandsker, når de håndterer 
+blisterkortet eller kapslen. Handskerne skal derefter tages forsigtigt af for at forhindre 
+eksponering af huden, anbringes i en plastpose af polyethylen, som kan forsegles, og bortskaffes 
+i overensstemmelse med de lokale krav. Derefter skal hænderne vaskes grundigt med sæbe og 
+vand. Kvinder, der er gravide eller tror, de kan være gravide, må ikke håndtere blisterkortet eller 
+kapslen. </p>
+</li>
+<li>
+<p>Du kan tage kapslerne med eller uden mad. </p>
+</li>
+<li>
+<p>Du bør tage Revlimid-kapslerne på nogenlunde samme tidspunkt på de planlagte dage.  </p>
+</li>
+</ul>
+<p>Sådan tages Revlimid 
+Tag kapslen ud af blisterkortet: </p>
+<ul>
+<li>
+<p>ved kun at trykke på den ene ende af kapslen, når den presses gennem folien.  </p>
+</li>
+<li>
+<p>tryk ikke midt på kapslen, da det kan forårsage, at den knækker. </p>
+</li>
+</ul>
+<p>Varighed af behandlingen med Revlimid 
+Revlimid tages i behandlingscyklusser på hver 21 eller 28 dage (se ovenstående 
+“Behandlingscyklus"). Du bør fortsætte med behandlingscyklusserne, indtil lægen siger, du skal 
+stoppe. </p>
+<p>Hvis du har taget for mange Revlimid-kapsler 
+Hvis du har taget flere Revlimid-kapsler, end du bør ifølge recepten, skal du straks fortælle det til 
+lægen. </p>
+<p>Hvis du har glemt at tage Revlimid 
+Hvis du har glemt at tage Revlimid på det normale tidspunkt og: </p>
+<ul>
+<li>
+<p>der er gået mindre end 12 timer - tag kapslen omgående.  </p>
+</li>
+<li>
+<p>der er gået mere end 12 timer - du må ikke tage kapslen. Tag den næste kapsel på det 
+sædvanlige tidspunkt næste dag.  </p>
+</li>
+</ul>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revlimid kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Du skal straks ophøre med at tage Revlimid og søge læge, hvis du bemærker en eller flere af 
+følgende alvorlige bivirkninger - du kan have behov for akut lægebehandling: </p>
+<ul>
+<li>
+<p>Nældefeber, udslæt, hævelse af øjne, mund eller ansigt, vejrtrækningsbesvær eller kløe, hvilket 
+kan være symptomer på alvorlige allergiske reaktionstyper, der kaldes angioødem og anafylaktisk 
+reaktion. </p>
+</li>
+<li>
+<p>Alvorlig allergisk reaktion, der kan starte som udslæt i ét område, men som breder sig med 
+udbredt tab af hud over hele kroppen til følge (Stevens-Johnsons syndrom og/eller toksisk 
+epidermal nekrolyse). </p>
+</li>
+<li>
+<p>Udbredt udslæt, høj legemstemperatur, forhøjede leverenzymer, blodabnormiteter (eosinofili), 
+forstørrede lymfeknuder og involvering af andre kropsorganer (lægemiddelfremkaldt reaktion 
+med eosinofili og systemiske symptomer, som også kaldes DRESS eller 
+lægemiddeloverfølsomhed). Se også punkt 2. Fortæl det straks til lægen, hvis du bemærker en eller flere af følgende alvorlige bivirkninger: </p>
+</li>
+<li>
+<p>Feber, kulderystelser, ondt i halsen, hoste, sår i munden eller andre symptomer på infektion 
+herunder i blodet (sepsis) </p>
+</li>
+<li>
+<p>Blødning eller blå mærker, uden at der har været skader </p>
+</li>
+<li>
+<p>Smerter i brystet eller benene </p>
+</li>
+<li>
+<p>Kortåndethed </p>
+</li>
+<li>
+<p>Knoglesmerter, muskelsvaghed, forvirring eller træthed, der kan skyldes et højt indhold af 
+calcium i blodet. </p>
+</li>
+</ul>
+<p>Revlimid kan nedsætte antallet af de hvide blodlegemer, som bekæmper infektioner, og også af de 
+blodlegemer, som hjælper blodet med at størkne (blodplader), hvilket kan føre til 
+blødningsforstyrrelser som f.eks. næseblod og blå mærker.<br />
+Revlimid kan også forårsage blodpropper i venerne (trombose). </p>
+<p>Andre bivirkninger 
+Det er vigtigt at bemærke, at et lille antal patienter kan udvikle andre former for kræft, og det er 
+muligt, at Revlimid-behandling kan øge denne risiko. Derfor vil din læge nøje vurdere fordele og 
+risici, når du får ordineret Revlimid. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Et fald i antallet af røde blodlegemer, hvilket kan føre til blodmangel og forårsage træthed og 
+svækkelse </p>
+</li>
+<li>
+<p>Udslæt, kløe </p>
+</li>
+<li>
+<p>Muskelkrampe, muskelsvaghed, muskelsmerter, ømme muskler, knoglesmerter, ledsmerter, 
+rygsmerter, smerter i arme og ben </p>
+</li>
+<li>
+<p>Hævelser i hele kroppen, herunder af arme og ben  </p>
+</li>
+<li>
+<p>Svaghedsfølelse, træthed </p>
+</li>
+<li>
+<p>Feber og influenzalignende symptomer, herunder feber, muskelsmerter, hovedpine, ørepine, 
+hoste og kulderystelser </p>
+</li>
+<li>
+<p>Følelsesløshed, prikkende eller brændende fornemmelse i huden, smerter i hænder eller fødder, 
+svimmelhed, rysten </p>
+</li>
+<li>
+<p>Nedsat appetit, ændring i den måde, mad smager på </p>
+</li>
+<li>
+<p>Forøget smerte, tumorstørrelse eller rødme omkring tumoren </p>
+</li>
+<li>
+<p>Vægttab </p>
+</li>
+<li>
+<p>Forstoppelse, diarré, kvalme, opkastning, mavesmerter, halsbrand </p>
+</li>
+<li>
+<p>Lavt kalium- eller calcium- og/eller natriumindhold i blodet </p>
+</li>
+<li>
+<p>Skjoldbruskkirtel, der ikke fungerer så godt, som den skulle </p>
+</li>
+<li>
+<p>Smerter i benene (der kan være et symptom på blodprop), brystsmerter eller stakåndethed (der 
+kan være et symptom på blodpropper i lungerne, hvilket kaldes lungeemboli) </p>
+</li>
+<li>
+<p>Alle slags infektioner, herunder infektion i bihulerne i begge sider af næsen, infektion i lungerne 
+og de øvre luftveje </p>
+</li>
+<li>
+<p>Stakåndethed </p>
+</li>
+<li>
+<p>Sløret syn </p>
+</li>
+<li>
+<p>Uklarhed af øjet (grå stær) </p>
+</li>
+<li>
+<p>Nyreproblemer, herunder at nyrerne ikke fungerer ordentligt eller ikke kan opretholde en 
+normal funktion </p>
+</li>
+<li>
+<p>Unormale levertestresultater </p>
+</li>
+<li>
+<p>Forhøjede levertestresultater </p>
+</li>
+<li>
+<p>Ændringer af et protein i blodet, der kan få dine arterier til at hæve (vaskulitis) </p>
+</li>
+<li>
+<p>Forhøjet sukkerniveau i blodet (sukkersyge) </p>
+</li>
+<li>
+<p>Nedsat sukkerniveau i blodet </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Næseblod </p>
+</li>
+<li>
+<p>Tør hud </p>
+</li>
+<li>
+<p>Depression, humørsvingninger, søvnbesvær </p>
+</li>
+<li>
+<p>Hoste </p>
+</li>
+<li>
+<p>Blodtryksfald </p>
+</li>
+<li>
+<p>En ubestemmelig følelse af ubehag i kroppen, utilpashed </p>
+</li>
+<li>
+<p>Øm og betændt mund, mundtørhed </p>
+</li>
+<li>
+<p>Dehydrering </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Ødelæggelse af røde blodlegemer (hæmolytisk anæmi) </p>
+</li>
+<li>
+<p>Visse typer af hudsvulster </p>
+</li>
+<li>
+<p>Blødning af gummerne, maven eller tarmene </p>
+</li>
+<li>
+<p>Forhøjet blodtryk, langsom, hurtig eller uregelmæssig hjerterytme </p>
+</li>
+<li>
+<p>Stigning i mængden af et stof, der dannes ved normal og unormal nedbrydning af røde 
+blodlegemer </p>
+</li>
+<li>
+<p>Øget niveau af et type protein, som indikerer betændelse i kroppen </p>
+</li>
+<li>
+<p>Mørkfarvning af huden, misfarvning af huden, der skyldes blødning under huden, typisk 
+forårsaget af stød, hævelse af blodfyldt hud, blå mærker </p>
+</li>
+<li>
+<p>Øget niveau af urinsyre i blodet </p>
+</li>
+<li>
+<p>Hududslæt, rødme af huden, revner eller afskalning af huden, nældefeber  </p>
+</li>
+<li>
+<p>Øget svedtendens, nattesved </p>
+</li>
+<li>
+<p>Synkebesvær, ondt i halsen, besvær med stemmens kvalitet eller stemmeforandring </p>
+</li>
+<li>
+<p>Løbende næse </p>
+</li>
+<li>
+<p>Produktion af meget mere eller meget mindre urin end normalt eller manglende evne til at styre 
+vandladningen </p>
+</li>
+<li>
+<p>Blod i urinen </p>
+</li>
+<li>
+<p>Stakåndethed, især i liggende stilling (hvilket kan være et symptom på hjertesvigt) </p>
+</li>
+<li>
+<p>Vanskelighed ved at få erektion </p>
+</li>
+<li>
+<p>Slagtilfælde, besvimelse, vertigo (problem med det indre øre, hvilket kan føre til, at du føler, at 
+alt snurrer rundt), midlertidigt bevidsthedstab </p>
+</li>
+<li>
+<p>Smerter i brystet, der spreder sig ud til arme, hals, kæbe, ryg eller mave, en følelse af at være 
+svedig og kortåndet, har kvalme eller kaster op, hvilket kan være symptomer på hjerteanfald 
+(myokardieinfarkt) </p>
+</li>
+<li>
+<p>Muskelsvaghed, manglende energi </p>
+</li>
+<li>
+<p>Nakkesmerter, brystsmerter </p>
+</li>
+<li>
+<p>Kulderystelser </p>
+</li>
+<li>
+<p>Hævelse af led </p>
+</li>
+<li>
+<p>Galdeflowet fra leveren nedsat eller blokeret </p>
+</li>
+<li>
+<p>Lavt niveau af fosfat eller magnesium i blodet </p>
+</li>
+<li>
+<p>Talebesvær </p>
+</li>
+<li>
+<p>Leverskade </p>
+</li>
+<li>
+<p>Balanceproblemer, bevægelsesbesvær </p>
+</li>
+<li>
+<p>Døvhed, ringen for ørerne (tinnitus) </p>
+</li>
+<li>
+<p>Nervesmerter, ubehagelig unormal følelse, især ved berøring </p>
+</li>
+<li>
+<p>Forhøjet indhold af jern i kroppen </p>
+</li>
+<li>
+<p>Tørst </p>
+</li>
+<li>
+<p>Forvirring </p>
+</li>
+<li>
+<p>Tandpine </p>
+</li>
+<li>
+<p>Fald, som kan medføre tilskadekomst </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Blødning inde i kraniet </p>
+</li>
+<li>
+<p>Kredsløbsproblemer </p>
+</li>
+<li>
+<p>Synstab </p>
+</li>
+<li>
+<p>Tab af sexlyst (libido) </p>
+</li>
+<li>
+<p>Produktion af stor mængde urin samt knoglesmerter og svaghed, hvilket kan være symptomer 
+på en nyrelidelse (Fanconis syndrom) </p>
+</li>
+<li>
+<p>Gulfarvning af hud, slimhinder eller øjne (gulsot), lys afføring, mørk urin, hudkløe, udslæt, 
+smerter eller opsvulmet mave - disse kan være symptomer på leverskade (leversvigt). </p>
+</li>
+<li>
+<p>Mavesmerter, oppustethed eller diarré, hvilket kan være symptomer på betændelse i tyktarmen 
+(hvilket kaldes kolitis eller tyflitis)  </p>
+</li>
+<li>
+<p>Beskadigelse af cellerne i nyrerne (kaldes tubulær nekrose) </p>
+</li>
+<li>
+<p>Ændring af hudfarven, følsomhed over for sollys </p>
+</li>
+<li>
+<p>Tumorlysesyndrom - metaboliske komplikationer, der kan forekomme under cancerbehandling 
+og nogle gange endda uden behandling. Disse komplikationer skyldes nedbrydningsprodukter 
+fra døende cancerceller og kan omfatte følgende: ændringer i blodkemi; såsom høj kalium, 
+fosfor, urinsyre og lav calcium førende til ændringer i nyrefunktion, hjerterytme, krampeanfald 
+og nogle gange død </p>
+</li>
+<li>
+<p>Forhøjet blodtryk i de blodkar, der forsyner lungerne (pulmonal hypertension). </p>
+</li>
+</ul>
+<p>Ikke kendte bivirkninger (hyppigheden kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>Pludselig eller mild, men forværret smerte i den øvre del af maven og/eller ryg, som varer ved i 
+nogle dage, eventuelt ledsaget af kvalme, opkastning, feber og hurtig puls - disse symptomer 
+kan skyldes betændelse i bugspytkirtlen. </p>
+</li>
+<li>
+<p>Hiven efter vejret, stakåndethed eller tør hoste, hvilket er symptomer, der kan skyldes 
+betændelse i lungevævet. </p>
+</li>
+<li>
+<p>Sjældne tilfælde af muskelnedbrydning (muskelsmerter, svaghed eller hævelse), hvilket kan 
+føre til nyreproblemer (rabdomyolyse), er blevet observeret. I nogle af tilfældene blev Revlimid 
+givet samtidigt med et statin (en type medicin til at sænke kolesterol i blodet). </p>
+</li>
+<li>
+<p>En sygdom, som påvirker huden og forårsages af en betændelseslignende reaktion i de små 
+blodkar, sammen med smerter i leddene og feber (leukocytoklastisk vaskulitis). </p>
+</li>
+<li>
+<p>Nedbrydning af mave- eller tarmvæggen. Dette kan føre til en meget alvorlig infektion. Fortæl 
+det til lægen, hvis du får svære mavesmerter, feber, kvalme, opkastning, blod i afføringen eller 
+ændret afføringsmønster. </p>
+</li>
+<li>
+<p>Virusinfektioner, herunder herpes zoster (som også kaldes ’helvedesild’, en virussygdom, der 
+giver et smertefuldt hududslæt med blærer) og en tilbagevendende hepatitis B-infektion (som 
+kan give en gulfarvning af hud og øjne, mørkebrun urin, højresidige mavesmerter, feber og 
+kvalme eller opkastning). </p>
+</li>
+<li>
+<p>Afstødning af transplanterede solide organer (såsom nyre eller hjerte). </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i 87TAppendiks V87T. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store revlimid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store revlimid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
+</li>
+<li>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller udviser tegn på at 
+have været åbnet. </p>
+</li>
+<li>
+<p>Aflevér ubrugt medicin på apoteket. Af hensyn til miljøet må du ikke smide medicinrester i 
+afløbet, toilettet eller skraldespanden.  </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Revlimid indeholder: </p>
+<p>Revlimid 2,5 mg hårde kapsler: </p>
+<ul>
+<li>
+<p>Aktivt stof: lenalidomid. Hver kapsel indeholder 2,5 mg lenalidomid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>kapselindhold: vandfri lactose (se punkt 2), mikrokrystallinsk cellulose, 
+croscarmellosenatrium og magnesiumstearat </p>
+</li>
+<li>kapselskal: gelatine, titandioxid (E171), indigocarmin (E132) og gul jernoxid (E172) </li>
+<li>blæk til tryk: shellac, propylenglycol (E1520), kaliumhydroxid og sort jernoxid (E172). </li>
+</ul>
+<p>Revlimid 5 mg hårde kapsler: </p>
+<ul>
+<li>
+<p>Aktivt stof: lenalidomid. Hver kapsel indeholder 5 mg lenalidomid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>kapselindhold: vandfri lactose (se punkt 2), mikrokrystallinsk cellulose, 
+croscarmellosenatrium og magnesiumstearat </p>
+</li>
+<li>kapselskal: gelatine og titandioxid (E171) </li>
+<li>blæk til tryk: shellac, propylenglycol (E1520), kaliumhydroxid og sort jernoxid (E172). </li>
+</ul>
+<p>Revlimid 7,5 mg hårde kapsler: </p>
+<ul>
+<li>
+<p>Aktivt stof: lenalidomid. Hver kapsel indeholder 7,5 mg lenalidomid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>kapselindhold: vandfri lactose (se punkt 2), mikrokrystallinsk cellulose, 
+croscarmellosenatrium og magnesiumstearat. </p>
+</li>
+<li>kapselskal: gelatine, titandioxid (E171) og gul jernoxid (E172) </li>
+<li>blæk til tryk: shellac, propylenglycol (E1520), kaliumhydroxid og sort jernoxid (E172). </li>
+</ul>
+<p>Revlimid 10 mg hårde kapsler: </p>
+<ul>
+<li>
+<p>Aktivt stof: lenalidomid. Hver kapsel indeholder 10 mg lenalidomid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>kapselindhold: vandfri lactose (se punkt 2), mikrokrystallinsk cellulose, 
+croscarmellosenatrium og magnesiumstearat </p>
+</li>
+<li>kapselskal: gelatine, titandioxid (E171), indigocarmin (E132) og gul jernoxid (E172)  </li>
+<li>blæk til tryk: shellac, propylenglycol (E1520), kaliumhydroxid og sort jernoxid (E172).  </li>
+</ul>
+<p>Revlimid 15 mg hårde kapsler: </p>
+<ul>
+<li>
+<p>Aktivt stof: lenalidomid. Hver kapsel indeholder 15 mg lenalidomid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>kapselindhold: vandfri lactose (se punkt 2), mikrokrystallinsk cellulose, 
+croscarmellosenatrium og magnesiumstearat </p>
+</li>
+<li>kapselskal: gelatine, titandioxid (E171) og indigocarmin (E132) </li>
+<li>blæk til tryk: shellac, propylenglycol (E1520), kaliumhydroxid og sort jernoxid (E172). </li>
+</ul>
+<p>Revlimid 20 mg hårde kapsler: </p>
+<ul>
+<li>
+<p>Aktivt stof: lenalidomid. Hver kapsel indeholder 20 mg lenalidomid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>kapselindhold: vandfri lactose (se punkt 2), mikrokrystallinsk cellulose, 
+croscarmellosenatrium og magnesiumstearat </p>
+</li>
+<li>kapselskal: gelatine og titandioxid (E171), indigocarmin (E132) og gul jernoxid (E172) </li>
+<li>blæk til tryk: shellac, propylenglycol (E1520), kaliumhydroxid og sort jernoxid (E172). </li>
+</ul>
+<p>Revlimid 25 mg hårde kapsler: </p>
+<ul>
+<li>
+<p>Aktivt stof: lenalidomid. Hver kapsel indeholder 25 mg lenalidomid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>kapselindhold: vandfri lactose (se punkt 2), mikrokrystallinsk cellulose, 
+croscarmellosenatrium og magnesiumstearat </p>
+</li>
+<li>kapselskal: gelatine og titandioxid (E171) </li>
+<li>blæk til tryk: shellac, propylenglycol (E1520), kaliumhydroxid og sort jernoxid (E172). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Revlimid 2,5 mg hårde kapsler er blågrønne/hvide og påtrykt “REV 2.5 mg". 
+Kapslerne leveres i pakninger. Hver pakning indeholder et eller tre blisterkort, hvert med syv kapsler. 
+Det giver i alt 7 eller 21 kapsler pr. pakning. </p>
+<p>Revlimid 5 mg hårde kapsler er hvide og påtrykt “REV 5 mg".<br />
+Kapslerne leveres i pakninger. Hver pakning indeholder et eller tre blisterkort, hvert med syv kapsler. 
+Det giver i alt 7 eller 21 kapsler pr. pakning. </p>
+<p>Revlimid 7,5 mg hårde kapsler er lysegule/hvide og påtrykt "REV 7.5 mg". 
+Kapslerne leveres i pakninger. Hver pakning indeholder et eller tre blistekort, hvert med syv kapsler. 
+Det giver i alt 7 eller 21 kapsler pr. pakning. </p>
+<p>Revlimid 10 mg hårde kapsler er blågrønne/lysegule og påtrykt “REV 10 mg".<br />
+Kapslerne leveres i pakninger. Hver pakning indeholder et eller tre blisterkort, hvert med syv kapsler. 
+Det giver i alt 7 eller 21 kapsler pr. pakning. </p>
+<p>Revlimid 15 mg hårde kapsler er lyseblå/hvide og påtrykt "REV 15 mg". 
+Kapslerne leveres i pakninger. Hver pakning indeholder et eller tre blisterkort, hvert med syv kapsler. 
+Det giver i alt 7 eller 21 kapsler pr. pakning. </p>
+<p>Revlimid 20 mg hårde kapsler er blågrønne/lyseblå og påtrykt "REV 20 mg". 
+Kapslerne leveres i pakninger. Hver pakning indeholder et eller tre blisterkort, hvert med syv kapsler. 
+Det giver i alt 7 eller 21 kapsler pr. pakning. </p>
+<p>Revlimid 25 mg hårde kapsler er hvide og påtrykt "REV 25 mg". 
+Kapslerne leveres i pakninger. Hver pakning indeholder et eller tre blisterkort, hvert med syv kapsler. 
+Det giver i alt 7 eller 21 kapsler pr. pakning. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland  </p>
+<p>Fremstiller 
+Celgene Distribution B.V. 
+Orteliuslaan 1000<br />
+3528 BD Utrecht<br />
+Holland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside 87Thttp://www.ema.europa.eu87T.  </p>
+<p>Der er også links til andre websteder om sjældne sygdomme og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-029daacbd89e23b3c2659a90ebac249a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for revlimid Package Leaflet for language en"
+Description: "ePI document Bundle for revlimid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-029daacbd89e23b3c2659a90ebac249a"
+* entry[0].resource = composition-en-029daacbd89e23b3c2659a90ebac249a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp029daacbd89e23b3c2659a90ebac249a"
+* entry[=].resource = mp029daacbd89e23b3c2659a90ebac249a
+                            
+                    
+Instance: bundlepackageleaflet-da-029daacbd89e23b3c2659a90ebac249a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for revlimid Package Leaflet for language da"
+Description: "ePI document Bundle for revlimid Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-029daacbd89e23b3c2659a90ebac249a"
+* entry[0].resource = composition-da-029daacbd89e23b3c2659a90ebac249a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp029daacbd89e23b3c2659a90ebac249a"
+* entry[=].resource = mp029daacbd89e23b3c2659a90ebac249a
+                            
+                    
+
+
+
+Instance: mp029daacbd89e23b3c2659a90ebac249a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Revlimid 2.5 mg hard capsules"
-Description: "Revlimid 2.5 mg hard capsules"
+Title: "Medicinal Product revlimid"
+Description: "revlimid"
 Usage: #inline
 
  
@@ -649,7 +1768,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Revlimid 2.5 mg hard capsules"
+  * productName = "revlimid"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -676,29 +1795,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-029daacbd89e23b3c2659a90ebac249a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for revlimid Package Leaflet for language en"
-Description: "ePI document Bundle for revlimid Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 029daacbd89e23b3c2659a90ebac249aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Revlimid 2.5 mg hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "revlimid"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-029daacbd89e23b3c2659a90ebac249a"
-* entry[0].resource = composition-en-029daacbd89e23b3c2659a90ebac249a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpfcbda5ef2a0a815a0025ccce9046d59d"
-* entry[=].resource = mpfcbda5ef2a0a815a0025ccce9046d59d
-                            
-                      
+* title = "List of all ePIs associated with revlimid"
+
+* subject = Reference(mpfcbda5ef2a0a815a0025ccce9046d59d)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#revlimid "revlimid"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-029daacbd89e23b3c2659a90ebac249a) // revlimid en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-029daacbd89e23b3c2659a90ebac249a) // revlimid da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-029daacbd89e23b3c2659a90ebac249a
+InstanceOf: List
+
+* insert 029daacbd89e23b3c2659a90ebac249aListRuleset
+    

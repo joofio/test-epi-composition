@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-56a32a5ee239fc834b47c10db1faa3fd
 InstanceOf: CompositionUvEpi
 Title: "Composition for flucelvax Package Leaflet"
@@ -311,12 +314,449 @@ Tel: +31 (0) 20 204 6This leaflet was last revised in. </p>
 
 
 
+Instance: composition-da-56a32a5ee239fc834b47c10db1faa3fd
+InstanceOf: CompositionUvEpi
+Title: "Composition for flucelvax Package Leaflet"
+Description:  "Composition for flucelvax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf910e60e1f6c64b37237023544f44e6a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf910e60e1f6c64b37237023544f44e6a
+* title = "TEST PURPOSES ONLY - flucelvax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du får Flucelvax Tetra </li>
+<li>Sådan gives Flucelvax Tetra </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What flucelvax is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What flucelvax is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Flucelvax Tetra er en vaccine mod influenza. Flucelvax Tetra fremstilles i cellekulturer og er derfor fri 
+for æg. 
+Når en person får vaccinen, vil immunsystemet (kroppens naturlige forsvarssystem) danne sin egen 
+beskyttelse mod influenzavirus. Ingen af indholdsstofferne i vaccinen kan forårsage influenza. </p>
+<p>Flucelvax Tetra anvendes til at forebygge influenza hos voksne og børn fra 2 år. </p>
+<p>Vaccinen er rettet mod fire influenzavirusstammer efter Verdenssundhedsorganisationens (WHO’s) 
+anbefalinger for SÆSONEN 2023/2024. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take flucelvax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take flucelvax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du bør ikke få Flucelvax Tetra: 
+Hvis du er allergisk over for: </p>
+<ul>
+<li>
+<p>de aktive stoffer eller et af de øvrige indholdsstoffer i dette lægemiddel (angivet i punkt 6) </p>
+</li>
+<li>
+<p>beta-propiolacton, cetyltrimethylammoniumbromid eller polysorbat 80, som er sporrester fra 
+fremstillingsprocessen. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får Flucelvax Tetra. </p>
+<p>FØR du får vaccinen </p>
+<ul>
+<li>
+<p>Din læge eller sygeplejerske sørger for, at du kan få den rette behandling og overvågning i 
+tilfælde af, at vaccinen skulle fremkalde en voldsom allergisk reaktion (anafylaktisk reaktion, 
+med symptomer som vejrtrækningsbesvær, svimmelhed, svag og hurtig puls og udslæt). 
+Sådanne reaktioner opstår dog kun sjældent, men de kan forekomme med Flucelvax Tetra 
+ligesom med alle andre vacciner, der indsprøjtes. </p>
+</li>
+<li>
+<p>Du skal fortælle det til lægen, hvis du har en akut sygdom, der er forbundet med feber. Lægen 
+kan beslutte at udsætte din vaccination, til feberen har fortaget sig. 
+9 </p>
+</li>
+<li>
+<p>Du skal fortælle det til lægen, hvis dit immunforsvar er nedsat, eller hvis du er i behandling, 
+som påvirker immunforsvaret, f.eks. med lægemidler mod kræft (kemoterapi) eller lægemidler, 
+der indeholder kortikosteroid (se punktet "Brug af andre lægemidler sammen med 
+Flucelvax Tetra").  </p>
+</li>
+<li>
+<p>Du skal fortælle det til lægen, hvis du har et blødningsproblem eller let får blå mærker. </p>
+</li>
+<li>
+<p>Der kan forekomme besvimmelse efter eller endog før en kanyleinjektion. Du skal derfor 
+fortælle det til lægen eller sygeplejersken, hvis du er besvimet ved en tidligere indsprøjtning. </p>
+</li>
+</ul>
+<p>Som det gælder for alle vacciner, giver Flucelvax Tetra muligvis ikke fuldstændig beskyttelse for alle 
+personer, der vaccineres. </p>
+<p>Børn under 2 år 
+Denne vaccine er aktuelt ikke anbefalet til børn under 2 år, da sikkerhed og virkning hos denne 
+aldersgruppe ikke er klarlagt. </p>
+<p>Brug af andre lægemidler sammen med Flucelvax Tetra 
+Fortæl altid lægen eller sygeplejersken, hvis du bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler. Det gælder også lægemidler, som ikke er købt 
+på recept, eller hvis du har fået en anden vaccine for nylig. </p>
+<p>Flucelvax Tetra kan gives samtidig med andre vacciner.  </p>
+<p>Graviditet og amning 
+Graviditet 
+Fortæl det til lægen, hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid. Influenzavacciner kan gives i alle trimestre af graviditeten. </p>
+<p>Amning 
+Anvendelse af Flucelvax Tetra under amning er ikke blevet undersøgt. Der forventes ingen virkning 
+på ammede børn. Flucelvax Tetra kan gives under amning. </p>
+<p>Trafik- og arbejdssikkerhed 
+Flucelvax Tetra påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene 
+maskiner. </p>
+<p>Flucelvax Tetra indeholder natriumchlorid og kaliumchlorid 
+Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
+natriumfri. 
+Denne vaccine indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. den er i det væsentlige 
+kaliumfri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take flucelvax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take flucelvax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Flucelvax Tetra gives af lægen eller sygeplejersken som en indsprøjtning i musklen øverst på 
+overarmen (deltamusklen) eller i musklen på den øvre og ydre del af låret hos små børn, afhængig af 
+musklens størrelse. </p>
+<p>Voksne og børn fra 2 år: </p>
+<p>Én dosis på 0,5 ml. </p>
+<p>Hvis dit barn er under 9 år gammelt og ikke tidligere er blevet vaccineret mod influenza, bør der gives 
+en dosis nummer 2 efter mindst 4 uger. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Følgende bivirkninger er blevet rapporteret under kliniske studier og almindelig brug: </p>
+<p>Meget alvorlige bivirkninger 
+Søg omgående læge eller tag på skadestuen på det nærmeste hospital, hvis du får følgende bivirkning - 
+du kan have brug for akut lægehjælp eller indlæggelse: </p>
+<ul>
+<li>Vejrtrækningsbesvær, svimmelhed, en svag og hurtig puls og udslæt, hvilket er symptomer på 
+en meget alvorlig allergisk reaktion (anafylaktisk reaktion) </li>
+</ul>
+<p>Alvorlige bivirkninger 
+Søg omgående læge, hvis du får en eller flere af følgende bivirkninger - du kan have brug for 
+lægehjælp: </p>
+<ul>
+<li>
+<p>Du føler dig svag, du har svært ved at bevæge dig omkring, eller du oplever følelsesløshed og 
+en snurrende fornemmelse i dine arme og ben. Det kan være symptomer på Guillain-Barré 
+syndrom (GBS), en autoimmun sygdom, der forårsages af kroppens eget immunsystem. </p>
+</li>
+<li>
+<p>Kraftig hævelse af injiceret arm </p>
+</li>
+</ul>
+<p>Andre bivirkninger 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) 
+• Smerter, blåfarvning, rødme og hårdhed eller hævelse på injektionsstedet 
+• Hovedpine 
+• Muskelsmerter<br />
+• Træthed 
+• Appetitløshed 
+• Irritabilitet (kun rapporteret hos børn på 2 til under 6 år) 
+• Søvnighed (kun rapporteret hos børn på 2 til under 6 år) 
+Hårdhed eller hævelse på injektionsstedet, hovedpine, muskelsmerter og træthed var almindelige hos 
+ældre. 
+Blåfarvning på injektionsstedet var almindelig hos voksne, ældre og børn på 9 til under 18 år. 
+Hovedpine var almindelig hos ældre. 
+Appetitløshed var almindelig hos voksne, ældre og børn på 9 til under 18 år. </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
+• Kvalme, opkastning, diarré 
+• Ledsmerter 
+• Kulderystelser 
+• Ændrede spisevaner (kun rapporteret hos børn på 2 til under 6 år) 
+• Feber (over 38 °C)<br />
+Opkastning var ikke almindelig hos ældre.<br />
+Feber var ikke almindelig hos voksne og ældre. </p>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) 
+• Følelsesløshed og snurrende fornemmelse (paræstesi) 
+• Udbredte hudreaktioner, herunder kløe, knopper på huden (pruritus, urticaria) eller ikke-specifikt 
+udslæt </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store flucelvax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store flucelvax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn. </p>
+<p>Brug ikke vaccinen efter den udløbsdato, der står på etiketten og på æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C til 8 °C).Må ikke nedfryses. </p>
+<p>Opbevar den fyldte injektionssprøjte i den ydre æske for at beskytte mod lys. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Flucelvax Tetra indeholder </p>
+<ul>
+<li>Aktive stoffer: Influenzavirus-overfladeantigener (hæmagglutinin og neuraminidase), 
+inaktiverede, fra følgende stammer*: </li>
+</ul>
+<p>A/Wisconsin/67/2022 (H1N1)pdm09-lignende stamme (A/Georgia/12/2022 CVR-167) 
+15 mikrogram HA<strong> 
+A/Darwin/6/2021 (H3N2)-lignende stamme (A/Darwin/11/2021, vildtype) 15 mikrogram HA</strong> 
+B/Austria/1359417/2021-lignende stamme (B/Singapore/WUH4618/2021, vildtype) 
+15 mikrogram HA<strong> 
+B/Phuket/3073/2013-lignende stamme (B/Singapore/INFTT-16-0610/2016, vildtype) 
+15 mikrogram HA</strong> </p>
+<p>pr. 0,5 ml-dosis 
+………………………………………. </p>
+<ul>
+<li>opformeret i Madin Darby Canine Kidney (MDCK)-celler (dette er den specielle cellekultur, 
+hvori influenzavirus er dyrket) </li>
+</ul>
+<p>** 
+hæmagglutinin </p>
+<p>Vaccinen opfylder Verdensundhedsorganisationen (WHO’s) anbefalinger for den nordlige halvkugle 
+samt EU’s bestemmelser for SÆSONEN 2023/2024. - Øvrige indholdsstoffer: natriumchlorid, kaliumchlorid, magnesiumchloridhexahydrat, 
+dinatriumphosphatdihydrat, kaliumdihydrogenphosphat og vand til injektionsvæsker (se punkt 2 
+- Flucelvax Tetra indeholder natrium og kalium). </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Flucelvax Tetra er en injektionsvæske, suspension (injektion) i en fyldt injektionssprøjte (brugsklar 
+sprøjte).<br />
+Flucelvax Tetra er en klar til let opaliserende suspension. 
+En enkelt sprøjte indeholder 0,5 ml injektionsvæske, suspension. 
+Flucelvax Tetra findes i pakninger, der indeholder 1 fyldt injektionssprøjte med eller uden kanyle eller 
+10 fyldte injektionssprøjter med eller uden kanyler.<br />
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Seqirus Netherlands B.V. 
+Paasheuvelweg 1105BJ Amsterdam 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Seqirus Netherlands B.V. 
+Nederland/Netherlands 
+Tel: +31 (0) 20 204 6 
+България 
+Seqirus Netherlands B.V. Нидерландия 
+Тел.: +31 (0) 20 204 6 
+Česká republika 
+Seqirus Netherlands B.V. Nizozemsko 
+Tel: +31 (0) 20 204 6 
+Danmark 
+Seqirus Netherlands B.V. Holland 
+Tlf: +31 (0) 20 204 6 
+Deutschland 
+Seqirus GmbH Marburg 
+Tel: 0800/3601 
+Eesti 
+Seqirus Netherlands B.V. Holland 
+Tel: +31 (0) 20 204 6 
+Ελλάδα 
+WIN MEDICA Α.Ε. 
+Τηλ: 210 7488 
+España 
+Seqirus Spain, S.L., Barcelona 
+Tel: 937 817<br />
+France 
+Seqirus Netherlands B.V. Netherlands 
+Tél: +31 (0) 20 204 6 
+Hrvatska 
+Seqirus Netherlands B.V. Nizozemska 
+Tel: +31 (0) 20 204 6 
+Ireland 
+Seqirus UK Limited Maidenhead 
+Tel: +44 1628 641<br />
+Ísland 
+Seqirus Netherlands B.V. Holland 
+Lietuva 
+Seqirus Netherlands B.V. Nyderlandai 
+Tel: +31 (0) 20 204 6 </p>
+<p>Luxembourg/Luxemburg 
+Seqirus Netherlands B.V. Netherlands 
+Tél/Tel: +31 (0) 20 204 6 
+Magyarország 
+Seqirus Netherlands B.V. Hollandia 
+Tel.: +31 (0) 20 204 6 
+Malta 
+Seqirus Netherlands B.V. In-Netherlands 
+Tel: +31 (0) 20 204 6 
+Nederland 
+Seqirus Netherlands B.V. Amsterdam 
+Tel: +31 (0) 20 204 6 
+Norge 
+Seqirus Netherlands B.V. Nederland 
+Tlf: +31 (0) 20 204 6 
+Österreich 
+Valneva Austria GmbH, Wien 
+Tel: +43 1 20620 2 
+Polska 
+Seqirus Netherlands B.V. Holandia 
+Tel.: +31 (0) 20 204 6 
+Portugal 
+Seqirus Netherlands B.V. Países Baixos 
+Tel: +31 (0) 20 204 6 
+România 
+Seqirus Netherlands B.V. Olanda 
+Tel: +31 (0) 20 204 6 
+Slovenija 
+Seqirus Netherlands B.V. Nizozemska 
+Tel: +31 (0) 20 204 6 
+Slovenská republika 
+Seqirus Netherlands B.V. Holandsko 
+Sími: +31 (0) 20 204 6 
+Italia 
+Seqirus S.r.l. Siena 
+Tel: +39 0577 096 
+Κύπρος 
+Seqirus Netherlands B.V. Ολλανδία 
+Τηλ: +31 (0) 20 204 6 
+Latvija 
+Seqirus Netherlands B.V. Nīderlande 
+Tel: +31 (0) 20 204 6 
+Tel: +31 (0) 20 204 6 
+Suomi/Finland 
+Seqirus Netherlands B.V. Alankomaat 
+Puh/Tel: +31 (0) 20 204 6 
+Sverige 
+Seqirus Netherlands B.V. Nederländerna 
+Tel: +31 (0) 20 204 6 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>------------------------------------------------------------------------------------------------------------------------ Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Passende medicinsk behandling samt overvågning skal altid være let tilgængelig i tilfælde af en 
+sjælden anafylaktisk reaktion efter administration af vaccinen. </p>
+<p>Omrystes før brug. Efter omrystning fremstår vaccinen normalt som en klar til let opaliserende 
+suspension. </p>
+<p>Vaccinen skal inspiceres visuelt for partikler og misfarvning før administration. Vaccinen må ikke 
+administreres, hvis der observeres urenheder i form af partikler og/eller variation i fysisk 
+beskaffenhed. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-56a32a5ee239fc834b47c10db1faa3fd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for flucelvax Package Leaflet for language en"
+Description: "ePI document Bundle for flucelvax Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-56a32a5ee239fc834b47c10db1faa3fd"
+* entry[0].resource = composition-en-56a32a5ee239fc834b47c10db1faa3fd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp56a32a5ee239fc834b47c10db1faa3fd"
+* entry[=].resource = mp56a32a5ee239fc834b47c10db1faa3fd
+                            
+                    
+Instance: bundlepackageleaflet-da-56a32a5ee239fc834b47c10db1faa3fd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for flucelvax Package Leaflet for language da"
+Description: "ePI document Bundle for flucelvax Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-56a32a5ee239fc834b47c10db1faa3fd"
+* entry[0].resource = composition-da-56a32a5ee239fc834b47c10db1faa3fd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp56a32a5ee239fc834b47c10db1faa3fd"
+* entry[=].resource = mp56a32a5ee239fc834b47c10db1faa3fd
+                            
+                    
+
+
+
+Instance: mp56a32a5ee239fc834b47c10db1faa3fd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Flucelvax Tetra suspension for injection in pre-filled syringe"
-Description: "Flucelvax Tetra suspension for injection in pre-filled syringe"
+Title: "Medicinal Product flucelvax"
+Description: "flucelvax"
 Usage: #inline
 
  
@@ -336,7 +776,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Flucelvax Tetra suspension for injection in pre-filled syringe"
+  * productName = "flucelvax"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -363,29 +803,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-56a32a5ee239fc834b47c10db1faa3fd
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for flucelvax Package Leaflet for language en"
-Description: "ePI document Bundle for flucelvax Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1326/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "flucelvax"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-56a32a5ee239fc834b47c10db1faa3fd"
-* entry[0].resource = composition-en-56a32a5ee239fc834b47c10db1faa3fd
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf910e60e1f6c64b37237023544f44e6a"
-* entry[=].resource = mpf910e60e1f6c64b37237023544f44e6a
-                            
-                      
+* title = "List of all ePIs associated with flucelvax"
+
+* subject = Reference(mpf910e60e1f6c64b37237023544f44e6a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#flucelvax "flucelvax"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-56a32a5ee239fc834b47c10db1faa3fd) // flucelvax en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-56a32a5ee239fc834b47c10db1faa3fd) // flucelvax da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-56a32a5ee239fc834b47c10db1faa3fd
+InstanceOf: List
+
+* insert 56a32a5ee239fc834b47c10db1faa3fdListRuleset
+    

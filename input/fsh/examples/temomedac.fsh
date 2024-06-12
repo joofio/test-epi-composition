@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-065d110b327b470e1ddc262836549605
 InstanceOf: CompositionUvEpi
 Title: "Composition for temomedac Package Leaflet"
@@ -421,12 +424,581 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-065d110b327b470e1ddc262836549605
+InstanceOf: CompositionUvEpi
+Title: "Composition for temomedac Package Leaflet"
+Description:  "Composition for temomedac Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp80406bb97fc3d560b305ebf4622a3c66)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp80406bb97fc3d560b305ebf4622a3c66
+* title = "TEST PURPOSES ONLY - temomedac"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Temomedac 
+3. Sådan skal du tage Temomedac 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What temomedac is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What temomedac is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Temomedac indeholder en medicin, som kaldes temozolomid. Denne medicin er et middel mod 
+kræftsvulster. </p>
+<p>Temomedac anvendes til behandling af patienter med specifikke former for hjernesvulster: </p>
+<ul>
+<li>
+<p>hos voksne med nydiagnosticeret glioblastoma multiforme. Temomedac bruges først sammen 
+med strålebehandling (konkomitant fase af behandlingen) og efterfølgende alene 
+(monoterapibehandling). </p>
+</li>
+<li>
+<p>hos børn i alderen 3 år og ældre og voksne patienter med malignt (ondartet) gliom, såsom 
+glioblastoma multiforme eller anaplastisk astrocytoma. Temomedac bruges til behandling af 
+disse svulster, hvis der er tegn på, at de vender tilbage eller bliver værre efter 
+standardbehandling. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take temomedac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take temomedac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Temomedac </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for temozolomid eller et af de øvrige indholdsstoffer i Temomedac 
+(angivet i punkt 6). </p>
+</li>
+<li>
+<p>hvis du har haft en allergisk reaktion over for dacarbazin (en medicin mod kræft, som også 
+kaldes DTIC). Tegn på allergisk reaktion inkluderer kløende fornemmelse, åndenød eller 
+hvæsende åndedræt, hævelser i ansigtet, læber, tunge eller svælg. </p>
+</li>
+<li>
+<p>hvis antallet af visse former for blodceller er svært nedsat (myelosuppression), såsom antallet af 
+de hvide blodlegemer og antallet af blodplader. Disse blodceller er vigtige i bekæmpelse af 
+infektioner og for korrekt størkning af blodet. Din læge vil tjekke dit blod for at sikre, at du har 
+nok af disse celler, før behandlingen påbegyndes. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Temomedac, </p>
+<ul>
+<li>
+<p>da du skal observeres tæt for udviklingen af en alvorlig form for lungebetændelse kaldet 
+Pneumocystis jirovecii pneumoni (PCP). Er du nydiagnosticeret patient (glioblastoma 
+multiforme) får du muligvis Temomedac i 42 dage i kombination med strålebehandling. I dette 
+tilfælde vil din læge også udskrive medicin, der kan hjælpe med at forebygge denne form for 
+lungebetændelse (PCP). </p>
+</li>
+<li>
+<p>hvis du nogensinde har haft eller ved at du kan have hepatitis B infektion. Dette skyldes, at 
+Temomedac kan forårsage at hepatitis B bliver aktiv igen, hvilket kan være dødeligt i nogle 
+tilfælde. Din læge vil tjekke du for tegn på denne infektion, før behandlingen startes. </p>
+</li>
+<li>
+<p>hvis du har et lavt antal røde blodlegemer (anæmi), hvide blodlegemer og blodplader eller 
+problemer med blodets størkning før behandling eller udvikler dem under behandling. Din læge 
+kan i disse tilfælde være nødsaget til at mindske dosis af din medicin, afbryde, stoppe eller 
+ændre din behandling. Du kan også have behov for en anden behandling. I nogle tilfælde kan 
+det være nødvendigt at stoppe behandlingen med Temomedac </p>
+</li>
+<li>
+<p>da du vil regelmæssigt få undersøgt dit blod under behandlingen for at følge Temomedacs 
+bivirkninger på dine blodceller. </p>
+</li>
+<li>
+<p>du kan have en lille risiko for andre ændringer i blodcellerne, inklusive leukæmi. </p>
+</li>
+<li>
+<p>hvis du har kvalme og/eller kaster op, hvilket er meget almindelige bivirkninger ved 
+Temomedac (se pkt. 4) kan din læge udskrive medicin (kvalmestillende) for at hjælpe med at 
+forhindre opkastning. 
+Hvis du ofte kaster op før eller under behandlingen, så spørg din læge om, hvornår du helst skal 
+tage Temomedac, indtil opkastningerne er under kontrol. Hvis du kaster op efter at have 
+indtaget din dosis, skal du ikke tage en anden dosis samme dag. </p>
+</li>
+<li>
+<p>hvis du udvikler feber eller infektionssymptomer, skal du straks kontakte din læge. </p>
+</li>
+<li>
+<p>hvis du er ældre end 70 år, kan du være mere modtagelig over for infektioner eller have øget 
+tendens til at få blå mærker og bløde. </p>
+</li>
+<li>
+<p>hvis du har problemer med leveren eller nyrerne, skal din Temomedac-dosis muligvis justeres. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Anvend ikke dette lægemiddel til børn under 3 år, da der ikke er foretaget studier. Der foreligger 
+begrænset information om børn over 3 år, der har fået Temomedac. </p>
+<p>Brug af anden medicin sammen med Temomedac 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin; for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. Det skyldes, at 
+De ikke må tage Temomedac under graviditet, medmindre det er klart angivet af din læge. </p>
+<p>Kvindelige patienter, som kan blive gravide, skal anvende sikre præventionsmidler, mens de er i 
+behandling med Temomedac, og i mindst 6 måneder efter behandlingen er afsluttet. </p>
+<p>Du skal stoppe med at amme, mens du behandles med Temomedac. </p>
+<p>Frugtbarhed hos mænd 
+Temomedac giver muligvis permanent ufrugtbarhed. Mænd skal anvende sikker prævention og ikke 
+gøre nogen kvinde gravid i mindst 3 måneder efter afsluttet behandling. Det anbefales at søge råd med 
+hensyn til nedfrysning af sædvæske før behandling. </p>
+<p>Trafik- og arbejdssikkerhed 
+Når du tager Temomedac, kan du føle dig træt eller søvnig. I så fald må du ikke køre bil/motorcykel 
+eller cykle eller arbejde med værktøj eller maskiner, før De ved, hvordan dette lægemiddel påvirker 
+Dem (se pkt. 4). </p>
+<p>Temomedac indeholder lactose 
+Temomedac indeholder lactose (en form for sukker). Kontakt lægen, før du tager denne medicin, hvis 
+lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>Temomedac indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hårde kapsel, dvs. det er i det 
+væsentlige natriumfrit. </p>
+<p>Yderligere oplysninger for Temomedac 20 mg hårde kapsler 
+Hjælpestoffet Sunset Yellow FCF (E 110), der findes i kapselskallen, kan fremkalde allergiske 
+reaktioner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take temomedac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take temomedac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekespersonalet. </p>
+<p>Dosis og varighed af behandlingen </p>
+<p>Din læge vil fastsætte den rigtige dosis Temomedac for dig. Den er baseret på din størrelse (højde og 
+vægt), og om du har en tilbagevendende svulst, og hvorvidt du tidligere har fået kemoterapi. Du vil 
+eventuelt få ordineret anden medicin (kvalmestillende), der skal tages før og/eller efter, du har taget 
+Temomedac, for at undgå eller regulere kvalme og opkastning. </p>
+<p>Patienter med nydiagnosticeret glioblastoma multiforme 
+Hvis du er nydiagnosticeret patient vil behandlingen ske i to faser: </p>
+<ul>
+<li>
+<p>behandling sammen med strålebehandling (konkomitant-fasen) først </p>
+</li>
+<li>
+<p>efterfulgt af behandling kun med Temomedac (monoterapi-fasen). </p>
+</li>
+</ul>
+<p>Under konkomitant-fasen vil din læge starte behandlingen med en dosis Temomedac på 75 mg/m2 
+(sædvanlig dosis). Du vil tage denne dosis hver dag i 42 dage (op til 49 dage) i kombination med 
+strålebehandling. Temomedac-dosen kan udskydes eller afbrydes afhængig af dit blodtal og hvordan 
+du tåler din medicin under den konkomitante fase. 
+Når strålebehandlingen er færdig, skal du afbryde behandlingen i 4 uger. Dette vil give din krop en 
+chance for at komme sig. 
+Derefter vil du påbegynde monoterapi-fasen. </p>
+<p>Under monoterapi-fasen vil dosis og måden, du tager Temomedac på være anderledes. Din læge vil 
+fastsætte din eksakte dosis. Der kan være op til 6 behandlingsperioder (cykler). Hver kan vare op til 
+28 dage. Du vil tage din nye dosis Temomedac alene én gang dagligt i de første 5 dage 
+("doseringsdage") i hver cyklus. Den første dosis vil være på 150 mg/m2. Derefter vil du have 23 dage 
+uden Temomedac. Dette giver i alt en behandlingscyklus på 28 dage. 
+Efter dag 28 vil den næste cyklus begynde. Du vil igen tage Temomedac én gang dagligt i 5 dage, 
+efterfulgt af 23 dage uden Temomedac. Temomedac-dosen kan blive justeret, udskudt eller afbrudt 
+afhængig af dit blodtal, og hvordan du tåler din medicin under hver behandlingscyklus. </p>
+<p>Patienter med tilbagevendende eller forværrede svulster (malignt gliom såsom glioblastoma 
+multiforme eller anaplastisk astrocytoma), som kun tager Temomedac </p>
+<p>En behandlingscyklus med Temomedac varer 28 dage. 
+Du vil tage Temomedac alene én gang dagligt i de første 5 dage. Denne daglige dosis afhænger af, om 
+du tidligere har modtaget kemoterapi. </p>
+<p>Hvis du ikke tidligere er blevet behandlet med kemoterapi, vil din første dosis af Temomedac være på 
+200 mg/m2 én gang dagligt i de første 5 dage. Hvis du tidligere er blevet behandlet med kemoterapi, 
+vil din første dosis af Temomedac være på 150 mg/m2 én gang dagligt i de første 5 dage. 
+Derefter vil du have 23 dage uden Temomedac. Dette giver en behandlingscyklus på 28 dage. </p>
+<p>Efter dag 28 vil den næste cyklus begynde. Du vil igen modtage Temomedac én gang dagligt i 5 dage, 
+efterfulgt af 23 dage uden Temomedac. </p>
+<p>Før hver ny behandlingscyklus vil dit blod blive undersøgt for, om Temomedac-dosen skal justeres. 
+Afhængig af resultaterne af undersøgelsen af dit blod vil din læge justere dosen til næste cyklus. </p>
+<p>Sådan tages Temomedac </p>
+<p>Tag Deres ordinerede dosis af Temomedac hver dag, helst på samme tidspunkt hver dag. </p>
+<p>Tag kapslerne på tom mave; for eksempel mindst en time før du planlægger at spise morgenmad. Slug 
+kapslen (kapslerne) hele sammen med et glas vand. Lad være med at åbne, knuse eller tygge 
+kapslerne. Hvis en kapsel bliver ødelagt, skal De undgå, at pulveret kommer i kontakt med hud, øjne 
+og næse. Hvis De ved et uheld får noget på huden, i øjnene eller næsen, skal området skylles med 
+vand. 
+Afhængigt af den ordinerede dosis kan det blive nødvendigt at tage mere end én kapsel ad gangen - nogle gange vil det også være nødvendigt at tage kapsler af forskellig styrke (indhold af aktivt stof i 
+mg). Farven og mærkningen af kapslen er forskellig for hver styrke (se tabellen nedenfor). </p>
+<p>Styrke 
+Farve/mærkning 
+Temomedac 5 mg 
+to striber i grøn tryksværte på hætten og “T 5 mg" i 
+grøn tryksværte på bunden 
+Temomedac 20 mg 
+to striber i orange tryksværte på hætten og “T 20 mg" 
+i orange tryksværte på bunden 
+Temomedac 100 mg 
+to striber i pink tryksværte på hætten og “T 100 mg" 
+i pink tryksværte på bunden 
+Temomedac 140 mg 
+to striber i blå tryksværte på hætten og “T 140 mg" i 
+blå tryksværte på bunden 
+Temomedac 180 mg 
+to striber i rød tryksværte på hætten og “T 180 mg" i 
+rød tryksværte på bunden 
+Temomedac 250 mg 
+to striber i sort tryksværte på hætten og “T 250 mg" i 
+sort tryksværte på bunden </p>
+<p>Du bør sikre dig, at du præcis forstår og kan huske følgende: </p>
+<ul>
+<li>
+<p>hvor mange kapsler, du skal tage hver doseringsdag. Bed din læge eller apotek om at skrive det 
+ned (inklusive farve). </p>
+</li>
+<li>
+<p>hvilke dage, der er dine doseringsdage. 
+Gennemgå doseringen med din læge hver gang du starter på en ny cyklus, da det kan være forskelligt 
+fra den sidste cyklus. </p>
+</li>
+</ul>
+<p>Tag altid Temomedac nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. Det kan have alvorlige konsekvenser for helbredet, hvis der sker fejl i måden, 
+hvorpå du tager denne medicin. </p>
+<p>Hvis du har taget for meget Temomedac 
+Hvis du ved en fejl tager flere Temomedac-kapsler end foreskrevet, skal du straks kontakte din læge, 
+apotekspersonalet eller sygeplejersken. </p>
+<p>Hvis du har glemt at tage Temomedac 
+Tag den glemte dosis så snart som muligt samme dag. Hvis der er gået en hel dag, skal du kontakte 
+din læge. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis, medmindre din læge 
+beder dig gøre dette. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt øjeblikkeligt din læge, hvis du oplever noget af følgende: </p>
+<ul>
+<li>
+<p>en kraftig allergisk (overfølsomheds) reaktion (kløende udslæt, hvæsende vejrtrækning eller 
+anden form for åndedrætsbesvær), </p>
+</li>
+<li>
+<p>ukontrolleret blødning, </p>
+</li>
+<li>
+<p>anfald (kramper), </p>
+</li>
+<li>
+<p>feber, </p>
+</li>
+<li>
+<p>kulderystelser, </p>
+</li>
+<li>
+<p>kraftig hovedpine, som ikke går væk. </p>
+</li>
+</ul>
+<p>Behandling med Temomedac kan give et fald i antallet af visse typer blodceller. Det kan betyde, at du 
+lettere får blå mærker eller blødning, at du får anæmi (blodmangel), feber og nedsat modstandskraft 
+over for infektioner. Dette fald i antallet af blodceller er oftest forbigående, men i nogle tilfælde kan 
+det være længerevarende og medføre en meget alvorlig form for anæmi (aplastisk anæmi). Din læge 
+vil regelmæssigt undersøge dit blod for eventuelle ændringer og vil afgøre, om det er nødvendigt med 
+specifik behandling. I visse tilfælde vil din Temomedac-dosis nedsættes, eller din behandling vil blive 
+stoppet. </p>
+<p>Andre indberettede bivirkninger er anført nedenfor: </p>
+<p>Meget almindelige bivirkninger (kan påvirke flere end 1 ud af 10 personer): 
+ 
+appetitløshed, talebesvær, hovedpine 
+ 
+opkastning, kvalme, diarré, forstoppelse 
+ 
+udslæt, hårtab 
+ 
+træthed. </p>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer): 
+ 
+infektioner, infektioner i munden 
+ 
+nedsat antal blodlegemer (neutropeni, lymfopeni, trombocytopeni) 
+ 
+allergisk reaktion 
+ 
+forhøjet blodsukker 
+ 
+forringet hukommelse, depression, angst, forvirring, manglende evne til at falde i søvn eller 
+sove igennem 
+ 
+forringet koordinationsevne og balanceevne 
+ 
+koncentrationsbesvær, ændring i mental tilstand eller årvågenhed, glemsomhed 
+ 
+svimmelhed, forringet sansning, prikken i huden, rysten, ændring i smagsopfattelse 
+ 
+delvist synstab, unormalt syn, dobbeltsyn, smertefulde øjne 
+ 
+døvhed, ringen for ørerne, ørepine 
+ 
+blodprop i lungerne eller benene, højt blodtryk 
+ 
+lungebetændelse, kortåndethed, bronkitis, hoste, bihulebetændelse 
+ 
+mave- eller underlivssmerter, urolig mave/halsbrand, synkebesvær 
+ 
+tør hud, kløe 
+ 
+muskelskader, muskelsvaghed, muskelsmerter 
+ 
+ledsmerter, rygsmerter 
+ 
+hyppig vandladning, svært ved at holde på vandet 
+ 
+feber, influenzalignende symptomer, smerter, utilpashed, forkølelse eller influenza 
+ 
+væsketilbageholdelse, hævede ben 
+ 
+forhøjede leverenzymer 
+ 
+vægttab, vægtøgning 
+ 
+stråleskader. </p>
+<p>Ikke almindelige bivirkninger (kan påvirke op til 100 personer): 
+ 
+hjerneinfektioner (meningoencephalitis herpetica), herunder tilfælde med dødelig udgang 
+ 
+nye eller tilbagevendende cytomegalovirusinfektioner 
+ 
+sårinfektioner 
+ 
+tilbagevendende hepatitis B-virus infektioner 
+ 
+sekundær kræftform, inklusive leukæmi 
+ 
+reduceret antal blodlegemer (pancytopeni, anæmi, leukopeni) 
+ 
+røde pletter under huden 
+ 
+diabetes insipidus (symptomer inkluderer øget vandladning og tørst), lavt kaliumindhold i 
+blodet 
+ 
+humørsvingninger, hallucinationer 
+ 
+delvis lammelse, ændring af lugtesansen 
+ 
+tørre øjne 
+ 
+forringet hørelse, mellemørebetændelse 
+ 
+hjertebanken, hedeture 
+ 
+oppustet mave, besvær med at kontrollere afføringen, hæmorroider, mundtørhed 
+ 
+hepatitis (leverbetændelse) og leverskade (herunder dødeligt leversvigt), kolestase, forhøjet 
+bilirubin 
+ 
+blærer på kroppen eller i munden, skællende hud, hududslæt, smertefuld rødmen af huden, 
+alvorlig udslæt med hævelser i huden (inkluderer håndfladerne og fodsålerne) 
+ 
+øget førlsomhed over for sollys, nældefeber (kløende udslæt), øget svedtendens, ændring i 
+hudfarve 
+ 
+vandladningsbesvær 
+ 
+vaginal blødning, vaginal irritation, udeblivende eller kraftige menstruationer, brystsmerter, 
+seksuel impotens 
+ 
+skælven, hævelse i ansigt, misfarvning af tungen, tørst, tandlidelser. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store temomedac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store temomedac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn, helst i et aflåst skab. Utilsigtet indtagelse kan være 
+dødbringende for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter Exp. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. 
+Opbevares i den originale yderpakning for at beskytte mod fugt. 
+Hold flasken tæt tillukket. </p>
+<p>Tal med apotekspersonalet, hvis du bemærker et ændret udseende af kapslerne. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Temomedac indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: Temozolomid. 
+Temomedac 5 mg hårde kapsler: Hver kapsel indeholder 5 mg temozolomid. 
+Temomedac 20 mg hårde kapsler: Hver kapsel indeholder 20 mg temozolomid. 
+Temomedac 100 mg hårde kapsler: Hver kapsel indeholder 100 mg temozolomid. 
+Temomedac 140 mg hårde kapsler: Hver kapsel indeholder 140 mg temozolomid. 
+Temomedac 180 mg hårde kapsler: Hver kapsel indeholder 180 mg temozolomid. 
+Temomedac 250 mg hårde kapsler: Hver kapsel indeholder 250 mg temozolomid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: 
+kapselindhold: 
+vandfri lactose, vandfri silica kolloid, natriumstivelsesglycolat (type A), vinsyre, stearinsyre (se 
+pkt. 2 "Temomedac indholder lactose"). 
+kapselskal (inklusive tryksværte): 
+Temomedac 5 mg hårde kapsler: gelatin, titandioxid (E 171), shellac, propylenglycol, indigotin 
+(E 132), gul jernoxid (E 132). 
+Temomedac 20 mg hårde kapsler: gelatin, titandioxid (E 171), shellac, propylenglycol, Sunset 
+Yellow FCF (E 110). 
+Temomedac 100 mg hårde kapsler: gelatin, titandioxid (E 171), rød jernoxid (E 172), shellac, 
+propylenglycol og gul jernoxid (E 172). 
+Temomedac 140 mg hårde kapsler: gelatin, titandioxid (E 171), shellac, propylenglycol, 
+indigotin (E 132). 
+Temomedac 180 mg hårde kapsler: gelatin, titandioxid (E 171), shellac, propylenglycol, rød 
+jernoxid (E 172). 
+Temomedac 250 mg hårde kapsler: gelatin, titandioxid (E 171), shellac, propylenglycol, sort 
+jernoxid (E 172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Temomedac 5 mg hårde kapsler har en uigennemsigtig hvid bund og hætte med to striber i grøn 
+tryksværte på hætten og med "T 5 mg" i grøn tryksværte på bunden. </p>
+<p>Temomedac 20 mg hårde kapsler har en uigennemsigtig hvid bund og hætte med to striber i orange 
+tryksværte på hætten og med "T 20 mg" i orange tryksværte på bunden. </p>
+<p>Temomedac 100 mg hårde kapsler har en uigennemsigtig hvid bund og hætte med to striber i pink 
+tryksværte på hætten og med "T 100 mg" i pink tryksværte på bunden. </p>
+<p>Temomedac 140 mg hårde kapsler har en uigennemsigtig hvid bund og hætte med to striber i blå 
+tryksværte på hætten og med "T 140 mg" i blå tryksværte på bunden. </p>
+<p>Temomedac 180 mg hårde kapsler har en uigennemsigtig hvid bund og hætte med to striber i rød 
+tryksværte på hætten og med "T 180 mg" i rød tryksværte på bunden. </p>
+<p>Temomedac 250 mg hårde kapsler har en uigennemsigtig hvid bund og hætte med to striber i sort 
+tryksværte på hætten og med "T 250 mg" i sort tryksværte på bunden. </p>
+<p>De hårde kapsler til peroral brug udleveres i ravfarvede glasflasker indeholdende 5 eller 20 kapsler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>medac 
+Gesellschaft für klinische Spezialpräparate mbH 
+Theaterstr. 6 
+22880 Wedel 
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-065d110b327b470e1ddc262836549605
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for temomedac Package Leaflet for language en"
+Description: "ePI document Bundle for temomedac Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-065d110b327b470e1ddc262836549605"
+* entry[0].resource = composition-en-065d110b327b470e1ddc262836549605
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp065d110b327b470e1ddc262836549605"
+* entry[=].resource = mp065d110b327b470e1ddc262836549605
+                            
+                    
+Instance: bundlepackageleaflet-da-065d110b327b470e1ddc262836549605
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for temomedac Package Leaflet for language da"
+Description: "ePI document Bundle for temomedac Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-065d110b327b470e1ddc262836549605"
+* entry[0].resource = composition-da-065d110b327b470e1ddc262836549605
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp065d110b327b470e1ddc262836549605"
+* entry[=].resource = mp065d110b327b470e1ddc262836549605
+                            
+                    
+
+
+
+Instance: mp065d110b327b470e1ddc262836549605
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Temomedac 5 mg hard capsules"
-Description: "Temomedac 5 mg hard capsules"
+Title: "Medicinal Product temomedac"
+Description: "temomedac"
 Usage: #inline
 
  
@@ -446,7 +1018,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Temomedac 5 mg hard capsules"
+  * productName = "temomedac"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -473,29 +1045,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-065d110b327b470e1ddc262836549605
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for temomedac Package Leaflet for language en"
-Description: "ePI document Bundle for temomedac Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 065d110b327b470e1ddc262836549605ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/605/001-012"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "temomedac"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-065d110b327b470e1ddc262836549605"
-* entry[0].resource = composition-en-065d110b327b470e1ddc262836549605
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp80406bb97fc3d560b305ebf4622a3c66"
-* entry[=].resource = mp80406bb97fc3d560b305ebf4622a3c66
-                            
-                      
+* title = "List of all ePIs associated with temomedac"
+
+* subject = Reference(mp80406bb97fc3d560b305ebf4622a3c66)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#temomedac "temomedac"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-065d110b327b470e1ddc262836549605) // temomedac en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-065d110b327b470e1ddc262836549605) // temomedac da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-065d110b327b470e1ddc262836549605
+InstanceOf: List
+
+* insert 065d110b327b470e1ddc262836549605ListRuleset
+    

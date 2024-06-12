@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a2652d1642d1c9344c422837d3b948bc
 InstanceOf: CompositionUvEpi
 Title: "Composition for yervoy Package Leaflet"
@@ -626,12 +629,1144 @@ Ireland </p>
 
 
 
+Instance: composition-da-a2652d1642d1c9344c422837d3b948bc
+InstanceOf: CompositionUvEpi
+Title: "Composition for yervoy Package Leaflet"
+Description:  "Composition for yervoy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb6c1b8992204a50a0aef8350eb65a57a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb6c1b8992204a50a0aef8350eb65a57a
+* title = "TEST PURPOSES ONLY - yervoy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge YERVOY </li>
+<li>Sådan skal du bruge YERVOY </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What yervoy is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What yervoy is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>YERVOY indeholder det aktive stof ipilimumab, som er et protein, der hjælper immunsystemet med 
+at angribe og ødelægge kræftceller. </p>
+<p>Ipilimumab alene anvendes til behandling af fremskredent melanom (en bestemt type hudkræft) hos 
+voksne og unge på 12 år og derover. </p>
+<p>Ipilimumab i kombination med nivolumab anvendes til behandling af </p>
+<ul>
+<li>
+<p>fremskredent melanom (en bestemt type hudkræft) hos voksne og unge på 12 år og derover </p>
+</li>
+<li>
+<p>fremskredent renalcellekarcinom (fremskreden nyrekræft) hos voksne </p>
+</li>
+<li>
+<p>malignt pleura mesotheliom (en bestemt type kræft der påvirker hinderne i lungen, 
+lungehindekræft) hos voksne </p>
+</li>
+<li>
+<p>fremskredent kolorektalcancer (tyktarms- og endetarmskræft) hos voksne </p>
+</li>
+<li>
+<p>fremskredent øsofageal cancer (spiserørskræft) hos voksne. </p>
+</li>
+</ul>
+<p>Ipilimumab i kombination med nivolumab og kemoterapi anvendes til behandling af fremskredent 
+ikke-småcellet lungekræft (en bestemt type hudkræft) hos voksne. </p>
+<p>Da YERVOY kan gives i kombination med andre lægemidler mod kræft, er det vigtigt, at du også 
+læser indlægssedlen for disse andre lægemidler. Tal med din læge, hvis du har spørgsmål om disse 
+lægemidler. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take yervoy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take yervoy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke YERVOY </p>
+<ul>
+<li>hvis du er allergisk over for ipilimumab eller et af de øvrige indholdsstoffer i YERVOY 
+(angivet i afsnit 6 "Pakningsstørrelser og yderligere oplysninger"). Tal med lægen, hvis der er 
+noget, du er i tvivl om. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger YERVOY, da det kan medføre:</p>
+<ul>
+<li>
+<p>Problemer med hjertet som f.eks. ændringer i rytmen eller hastigheden af hjerteslag eller en 
+unormal hjerterytme. </p>
+</li>
+<li>
+<p>Betændelse i tarmene (colitis) som kan forværres med blødning eller perforering af tarmen. 
+Tegn og symptomer på colitis kan være diarré (vandig, løs eller blød afføring), flere afføringer 
+end normalt, blod i afføringen eller mørkfarvet afføring, smerter eller ømhed i maveområdet. </p>
+</li>
+<li>
+<p>Problemer med lungerne, f.eks.vejrtrækningsbesvær eller hoste. Det kan være tegn på en 
+betændelseslignende reaktion (inflammation) i lungerne (pneumonitis eller interstitiel 
+lungesygdom). </p>
+</li>
+<li>
+<p>Leverbetændelse (hepatitis) som kan medføre leversvigt. Tegn og symptomer på hepatitis kan 
+være gulfarvning af øjnene eller huden (gulsot), smerter i den højre side af maven, træthed. </p>
+</li>
+<li>
+<p>Betændelseslignende reaktion (inflammation) i huden, som kan medføre alvorlige 
+hudreaktioner (kendt som toksisk epidermal nekrolyse, Stevens-Johnsons syndrom og 
+lægemiddelfremkaldt udslæt med eosinofili og systemiske symptomer (DRESS)). Tegn og 
+symptomer på en alvorlig hudreaktion kan være hududslæt med eller uden kløe, afskalning af 
+huden, tør hud, feber, træthed, hævelse af ansigt eller lymfekirtler, øget mængde eosinofile 
+celler (bestemt type hvide blodlegemer) og påvirkning af lever, nyrer eller lunger. Du skal være 
+opmærksom på, at reaktionen DRESS kan opstå uger eller måneder efter din sidste dosis. </p>
+</li>
+<li>
+<p>Nervebetændelse som kan medføre lammelser. Symptomerne på nerveproblemer kan være 
+muskelsvaghed, følelsesløshed eller snurren i hænder og fødder, tab af bevidsthed eller 
+problemer med at vågne. </p>
+</li>
+<li>
+<p>Betændelseslignende reaktion i nyrerne eller problemer med nyrerne. Tegn og symptomer 
+kan være unormale prøveresultater for nyrefunktionen eller nedsat urinmængde. </p>
+</li>
+<li>
+<p>Betændelse i de hormonproducerende kirtler (især i hypofysen, binyrerne og 
+skjoldbruskkirtlen) som kan påvirke måden, hvorpå disse kirtler virker. Tegn og symptomer på 
+at dine kirtler ikke virker ordentligt kan være hovedpine, sløret syn eller dobbeltsyn, træthed, 
+nedsat sexlyst, ændret adfærd. </p>
+</li>
+<li>
+<p>Type 1 diabetes, herunder diabetisk ketoacidose (syrestoffer i blodet som følge af diabetes). </p>
+</li>
+<li>
+<p>Betændelseslignende reaktion i musklerne såsom myocarditis (inflammation i 
+hjertemusklen), myositis (inflammation i musklerne) og rabdomyolyse (stivhed i muskler og 
+led, muskelkramper). Tegn og symptomer kan være muskelsmerter, muskelstivhed, 
+muskelsvaghed, brystsmerter eller voldsom træthed. </p>
+</li>
+<li>
+<p>Øjenbetændelse. Tegn og symptomer kan være røde øjne, smerter i øjnene, synsproblemer, 
+sløret syn eller midlertidigt synstab. </p>
+</li>
+<li>
+<p>Hæmofagocytisk lymfohistiocytose. En sjælden sygdom hvor vores immunforsvar laver for 
+mange, ellers normale, infektionsbekæmpende celler kaldet histiocytter og lymfocytter. 
+Symptomer kan inkludere forstørret lever og/eller milt, hududslæt, forstørrede lymfekirtler, 
+vejrtrækningsbesvær, let tendens til blå mærker, nyre-abnormaliteter og hjerteproblemer. </p>
+</li>
+<li>
+<p>Afstødning af et transplanteret solidt organ. </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du får et eller flere af disse tegn eller symptomer eller hvis de bliver 
+værre. Du må ikke forsøge at behandle dine symptomer med anden medicin. Din læge vil 
+muligvis give dig anden medicin for at forebygge flere alvorlige komplikationer og mildne dine 
+symptomer, udsætte den næste dosis af YERVOY eller helt stoppe din behandling med YERVOY. 
+Du skal være opmærksom på, at disse tegn og symptomer nogle gange er forsinkede og kan opstå 
+uger eller måneder efter din sidste dosis. Inden behandlingen vil lægen undersøge din almene 
+helbredstilstand. Du vil også få taget blodprøver i løbet af behandlingen. </p>
+<p>Tal med lægen eller sygeplejersken, inden du får YERVOY </p>
+<ul>
+<li>
+<p>hvis du har en autoimmun sygdom (en tilstand hvor kroppen angriber sine egne celler); </p>
+</li>
+<li>
+<p>hvis du har eller har haft en kronisk virusinfektion i leveren, herunder hepatitis B (HBV) eller 
+hepatitis C (HCV); </p>
+</li>
+<li>
+<p>hvis du har human immundefekt virus (hiv)‑infektion eller erhvervet immundefekt syndrom 
+(aids). </p>
+</li>
+<li>
+<p>hvis du før har haft en alvorlig hudbivirkning i forbindelse med en tidligere kræftbehandling. </p>
+</li>
+<li>
+<p>du tidligere har haft en betændelseslignende reaktion (inflammation) i lungerne. </p>
+</li>
+</ul>
+<p>Børn og unge 
+YERVOY bør ikke anvendes til børn og unge under 18 år, bortset fra til unge på 12 år og derover med 
+melanom. </p>
+<p>Brug af anden medicin sammen med YERVOY 
+Fortæl det til lægen, inden du får YERVOY </p>
+<ul>
+<li>
+<p>hvis du tager medicin, der hæmmer immunsystemet, som f.eks. kortikosteroider. Disse typer 
+medicin kan påvirke YERVOYs virkning. Når du er i behandling med YERVOY, kan lægen 
+imidlertid godt give dig kortikosteroider for at nedsætte de bivirkninger, du kan få af YERVOY. </p>
+</li>
+<li>
+<p>hvis du tager medicin, der forhindrer blodet i at størkne (antikoagulanter). Denne type medicin 
+kan øge risikoen for blødning i maven eller tarmene, som er en bivirkning ved YERVOY. </p>
+</li>
+<li>
+<p>hvis du for nylig har fået ordineret Zelboraf (vemurafenib; et andet lægemiddel til behandling af 
+hudkræft). Når YERVOY gives efter vemurafenib kan der være øget risiko for hudbivirkninger. </p>
+</li>
+</ul>
+<p>Fortæl også altid lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller 
+planlægger at bruge anden medicin. </p>
+<p>Du må ikke tage anden medicin under behandlingen uden først at tale med lægen. På baggrund af 
+nye oplysninger frarådes samtidig brug af YERVOY (ipilimumab) og vemurafenib, da der ses en øget 
+skadelig virkning på leveren. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Du må ikke bruge YERVOY, hvis du er gravid, medmindre lægen specifikt anbefaler det. 
+YERVOYs virkning hos gravide kvinder kendes ikke, men det er muligt, at det aktive stof ipilimumab 
+kan skade det ufødte barn. </p>
+<ul>
+<li>
+<p>Du skal anvende sikker prævention, mens du behandles med YERVOY, hvis du er en kvinde i 
+den fødedygtige alder. </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du bliver gravid, mens du anvender YERVOY. </p>
+</li>
+</ul>
+<p>Man ved ikke, om ipilimumab udskilles i mælken. Det forventes dog ikke, at spædbarnet eksponeres 
+for ipilimumab i nogen betydelig grad gennem mælken, og der forventes ingen påvirkning af det 
+ammede spædbarn. Spørg lægen, om du må amme under eller efter behandlingen med YERVOY. </p>
+<p>Trafik- og arbejdssikkerhed 
+Kør ikke bil eller cykel og anvend ikke maskiner, hvis du har fået YERVOY, medmindre du er 
+sikker på, at du har det godt. Træthed og svaghedsfølelse er en meget almindelig bivirkning ved 
+YERVOY. Dette kan påvirke din evne til at køre bil, cykle eller betjene maskiner. </p>
+<p>YERVOY indeholder natrium 
+Fortæl det til lægen, inden du får YERVOY, hvis du er på en diæt med lavt natriumindhold (lavt 
+saltindhold). </p>
+<p>Dette lægemiddel indeholder 23 mg natrium (hovedkomponent af madlavnings-/bordsalt) i hvert 10 ml 
+hætteglas. Dette svarer til 1,15 % af den anbefalede maksimale daglige indtagelse af natrium for en 
+voksen. </p>
+<p>Dette lægemiddel indeholder 92 mg natrium (hovedkomponent af madlavnings-/bordsalt) i hvert 40 ml 
+hætteglas. Dette svarer til 4,60 % af den anbefalede maksimale daglige indtagelse af natrium for en 
+voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take yervoy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take yervoy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sådan får du YERVOY 
+Du vil få YERVOY på et hospital eller en klinik under opsyn af en erfaren læge. </p>
+<p>Når YERVOY gives alene til behandling af hudkræft, vil du få YERVOY som en intravenøs infusion 
+(som drop) i en vene over en periode på 30 minutter. </p>
+<p>Hvis du får YERVOY sammen med nivolumab til behandling af hudkræft, vil du få de første 4 doser 
+som en infusion over en periode på 30 minutter med 3 ugers mellemrum (kombinationsfasen). 
+Herefter vil du få nivolumab som en infusion over en periode på 30 eller 60 minutter hver 2. eller 
+4. uge, alt afhængigt af den dosis, du modtager (enkeltstoffasen). </p>
+<p>Hvis du får YERVOY sammen med nivolumab til behandling af fremskreden nyrekræft, vil du få de 
+første 4 doser som en infusion over en periode på 30 minutter med 3 ugers mellemrum 
+(kombinationsfasen). Herefter vil du få nivolumab som en infusion over en periode 
+på 30 eller 60 minutter hver 2. eller 4. uge, alt afhængigt af den dosis, du modtager (enkeltstoffasen). </p>
+<p>Hvis du får YERVOY sammen med nivolumab til behandling af fremskreden tyktarms- og 
+endetarmskræft hos voksne, vil du få de første 4 doser som en infusion over en periode på 30 minutter 
+med 3 ugers mellemrum (kombinationsfasen). Herefter vil du få nivolumab som en infusion over en 
+periode på 30 minutter hver 2. uge (enkeltstoffasen). </p>
+<p>Når YERVOY gives i kombination med nivolumab til behandling af lungehindekræft eller 
+fremskredent øsofageal cancer, vil du få en infusion over en periode på 30 minutter hver 6. uge. </p>
+<p>Når YERVOY gives i kombination med nivolumab og kemoterapi til behandling af fremskreden 
+ikke-småcellet lungekræft, vil du få en infusion over en periode på 30 minutter hver 6. uge. Efter 
+afslutning af 2 cyklusser af kemoterapi , gives ipilimumab i kombination med nivolumab som en 
+infusion over en periode på 30 minutter hver 6. uge. </p>
+<p>Så meget YERVOY skal du have 
+Når YERVOY gives alene til behandling af hudkræft, er den anbefalede dosis 3 mg ipilimumab pr. 
+kilogram kropsvægt. </p>
+<p>Den mængde YERVOY du får, bliver beregnet ud fra din kropsvægt. Afhængig af din dosis vil hele 
+eller noget af indholdet i YERVOY hætteglasset blive fortyndet med natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske eller 50 mg/ml (5 %) glucose injektionsvæske før brug. Det kan være nødvendigt at 
+anvende mere end et hætteglas for at opnå den nødvendige dosis. </p>
+<p>Du vil blive behandlet med YERVOY en gang hver 3. uge med i alt 4 doser. Du vil muligvis bemærke 
+nye læsioner eller forværring af allerede eksisterende læsioner på huden, hvilket kan forventes, når du 
+behandles med YERVOY. Lægen vil fortsætte med at give dig YERVOY op til i alt 4 doser, afhængig 
+af hvordan du tolererer behandlingen. </p>
+<p>Hvis YERVOY gives sammen med nivolumab til behandlingen af hudkræft hos voksne og unge på 
+12 år og derover, er den anbefalede dosis YERVOY 3 mg ipilimumab pr. kilogram kropsvægt hver 
+3. uge for de første 4 doser (kombinationsfasen). Herefter er den anbefalede dosis af nivolumab 
+(enkeltstoffasen) 240 mg hver 2. uge eller 480 mg hver 4. uge hos voksne og unge på 12 år og derover, 
+som vejer mindst 50 kg, eller 3 mg nivolumab pr. kilogram kropsvægt hver 2. uge eller 6 mg 
+nivolumab pr. kilogram kropsvægt hver 4. uge for unge på 12 år og derover, som vejer under 50 kg. </p>
+<p>Hvis YERVOY gives sammen med nivolumab til behandlingen af fremskreden nyrekræft, er den 
+anbefalede dosis YERVOY 1 mg ipilimumab pr. kilogram kropsvægt hver 3. uge for de første 4 doser 
+(kombinationsfasen). Herefter er den anbefalede dosis af nivolumab 240 mg hver 2. uge eller 480 mg 
+hver 4. uge (enkeltstoffasen). </p>
+<p>Hvis YERVOY gives sammen med nivolumab til behandlingen af fremskreden tyktarms- eller 
+endetarmskræft, er den anbefalede dosis YERVOY 1 mg ipilimumab pr. kilogram kropsvægt 
+hver 3. uge for de første 4 doser (kombinationsfasen). Herefter er den anbefalede dosis af nivolumab 
+240 mg hver 2. uge (enkeltstoffasen). </p>
+<p>Hvis YERVOY gives sammen med nivolumab til behandlingen af lungehindekræft eller fremskreden 
+øsofageal cancer, er den anbefalede dosis YERVOY 1 mg ipilimumab pr. kilogram kropsvægt 
+hver 6. uge. </p>
+<p>Hvis YERVOY gives sammen med nivolumab og kemoterapi til behandling af fremskreden 
+ikke-småcellet lungekræft, er den anbefalede dosis YERVOY 1 mg ipilimumab pr. kilogram 
+kropsvægt. Du vil få en infusion over en periode på 30 minutter hver 6. uge. </p>
+<p>Hvis du har glemt at bruge YERVOY 
+Det er meget vigtigt, at du overholder alle dine aftaler om behandling med YERVOY. Hvis du 
+glemmer en aftale, skal du spørge lægen om at få en ny aftale. </p>
+<p>Hvis du holder op med at bruge YERVOY 
+Hvis du stopper med behandlingen, kan virkningen af medicinen ophøre. Du må ikke stoppe 
+behandlingen med YERVOY, medmindre du har aftalt det med lægen. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>
+<p>Hvis du får YERVOY sammen med nivolumab eller sammen med nivolumab og kemoterapi, vil du få 
+nivolumab først efterfulgt af YERVOY og derefter kemoterapi. </p>
+<p>Du skal læse indlægssedlen for de andre komponenter i kombinationen, så du også kender til brugen af 
+disse lægemidler. Tal med din læge, hvis du har spørgsmål om disse lægemidler. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Lægen vil tale med dig om disse bivirkninger og forklare dig om risikoen og fordelen ved 
+behandlingen. </p>
+<p>Vær opmærksom på vigtige symptomer på inflammation (betændelseslignende tilstand) 
+YERVOY virker på dit immunsystem og kan forårsage inflammation i dele af din krop. 
+Inflammation kan medføre alvorlige skader i din krop og nogle inflammationstilstande kan være 
+livstruende. </p>
+<p>Følgende bivirkninger er blevet rapporteret hos patienter, der har fået 3 mg/kg ipilimumab alene: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>manglende appetit </p>
+</li>
+<li>
+<p>diarré (vandig, løs eller blød afføring), opkastning eller kvalme, forstoppelse, mavesmerter </p>
+</li>
+<li>
+<p>hududslæt, kløe </p>
+</li>
+<li>
+<p>smerter i muskler, knogler, ledbånd, sener og nerver </p>
+</li>
+<li>
+<p>træthed eller svaghedsfølelse, reaktion på injektionssted, feber, ødemer (hævelse), smerter </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>alvorlig bakterieinfektion i blodet (sepsis), urinvejsinfektion, infektion i luftvejene </p>
+</li>
+<li>
+<p>tumorsmerter </p>
+</li>
+<li>
+<p>et nedsat antal røde blodlegemer (som transporterer ilt), hvide blodlegemer (som er vigtige for 
+at kunne bekæmpe infektioner) eller blodplader (celler, der hjælper blodet med at størkne) </p>
+</li>
+<li>
+<p>nedsat funktion af skjoldbruskkirtlen, hvilket kan medføre træthed eller vægtstigning, nedsat 
+funktion (hypopituitarisme) af eller betændelseslignende reaktion (hypofysitis) i hypofysen, der 
+er placeret nederst i hjernen </p>
+</li>
+<li>
+<p>væskemangel </p>
+</li>
+<li>
+<p>forvirring, depression </p>
+</li>
+<li>
+<p>voldsom væskeophobning i hjernen, nerveskader (medfører smerter, svaghed og kramper), 
+svimmelhed, hovedpine </p>
+</li>
+<li>
+<p>sløret syn, øjensmerter </p>
+</li>
+<li>
+<p>uregelmæssig eller unormal hjerterytme </p>
+</li>
+<li>
+<p>lavt blodtryk, forbigående rødme i ansigtet og på halsen, intens varmefølelse med svedudbrud 
+og hurtig hjertebanken </p>
+</li>
+<li>
+<p>åndenød (dyspnø), hoste, høfeber </p>
+</li>
+<li>
+<p>blødning i maven eller tarmene, tarmbetændelse (tyktarmsbetændelse), halsbrand, mundsår og 
+forkølelsessår (stomatitis) </p>
+</li>
+<li>
+<p>unormal leverfunktion </p>
+</li>
+<li>
+<p>betændelseslignende reaktion (inflammation) på indersiden af visse organer </p>
+</li>
+<li>
+<p>inflammation og rødme på huden, farveændringer som pletter på huden (vitiligo), nældefeber 
+(kløende, hævet udslæt), hårtab eller udtynding af håret, voldsom nattesved, tør hud </p>
+</li>
+<li>
+<p>muskelsmerter og ledsmerter (artralgi), muskelkramper, betændelseslignende reaktion 
+(inflammation) i led (artritis) </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+<li>
+<p>kulderystelser, manglende energi </p>
+</li>
+<li>
+<p>influenza-lignende sygdom </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>alvorlig bakterieinfektion i blodet (septisk shock), betændelse i hjernen eller rygraden, 
+betændelse i maven og tarmene, betændelse i tarmvæggen (medfører feber, opkastning og 
+mavesmerter), lungebetændelse (pneumoni) </p>
+</li>
+<li>
+<p>en række symptomer, der skyldes kræften i kroppen som f.eks. høj calcium- og 
+kolesterolkoncentration i blodet og lavt blodsukkerniveau (paraneoplastisk syndrom) </p>
+</li>
+<li>
+<p>øget antal eosinofiler (en bestemt type af hvide blodlegemer) </p>
+</li>
+<li>
+<p>allergisk reaktion </p>
+</li>
+<li>
+<p>nedsat udskillelse af de hormoner, der dannes i binyrerne (kirtler placeret over nyrerne), øget 
+funktion af skjoldbruskkirtlen, hvilket kan medføre hurtig hjerterytme, svedudbrud og vægttab, 
+nedsat funktion af kirtler der producerer kønshormoner </p>
+</li>
+<li>
+<p>nedsat funktion af binyrerne på grund af nedsat funktion af hypothalamus (del af hjernen) </p>
+</li>
+<li>
+<p>en gruppe af stofskiftekomplikationer, som sker efter kræftbehandling, karakteriseret ved høje 
+blodniveauer af kalium og fosfat, og lave blodniveauer af calcium (tumorlysesyndrom) </p>
+</li>
+<li>
+<p>ændret psykisk velbefindende, nedsat seksualdrift </p>
+</li>
+<li>
+<p>alvorlig og muligvis dødelig nervebetændelse, som medfører smerter, svaghed eller lammelse i 
+arme og ben (Guillain-Barré syndrom), besvimelse, nervebetændelse i hjernen, problemer med 
+koordinering af bevægelser (ataksi), rysten, kortvarig, ufrivillig muskeltrækning, talebesvær </p>
+</li>
+<li>
+<p>øjenbetændelse (konjunktivitis), blødning i øjnene, betændelse i den farvede del af øjet, nedsat 
+syn, følelse af et fremmedlegeme i øjet, hævede øjne, der løber i vand, hævede øjne, 
+inflammation i øjenlågene </p>
+</li>
+<li>
+<p>betændelse i blodårerne, sygdom i blodårerne, nedsat blodtilførsel til arme og ben, lavt blodtryk, 
+når man rejser sig op </p>
+</li>
+<li>
+<p>voldsomt vejrtrækningsbesvær, væskeophobning i lungerne, lungebetændelse </p>
+</li>
+<li>
+<p>perforering af tarmene, betændelse i tyndtarmen, betændelse i tarmen eller bugspytkirtlen 
+(pankreatitis), mavesår, betændelse i spiserøret, tilstopning af tarmen, betændelseslignende 
+reaktion i endetarmsåbningen og på indersiden af endetarmen (kendetegnet ved blodig afføring 
+og hyppig afføring) </p>
+</li>
+<li>
+<p>leversvigt, leverbetændelse, forstørret lever, gulfarvning af huden eller øjnene (gulsot) </p>
+</li>
+<li>
+<p>alvorlig og muligvis dødelig afskalning af huden (toksisk epidermal nekrolyse) </p>
+</li>
+<li>
+<p>muskelbetændelse med smerter eller stivhed i hoften og skulderen </p>
+</li>
+<li>
+<p>betændelseslignende reaktion i nyrerne eller i centralnervesystemet </p>
+</li>
+<li>
+<p>inflammation i flere organer </p>
+</li>
+<li>
+<p>inflammation i skeletmuskulaturen </p>
+</li>
+<li>
+<p>muskelsvaghed </p>
+</li>
+<li>
+<p>nyresygdom </p>
+</li>
+<li>
+<p>manglende menstruation </p>
+</li>
+<li>
+<p>multiorgansvigt, en reaktion forbundet med infusionen af medicinen </p>
+</li>
+<li>
+<p>ændret hårfarve </p>
+</li>
+<li>
+<p>blærebetændelse, tegn og symptomer kan omfatte hyppig og/eller smertefuld vandladning, trang 
+til at lade vandet, blod i urinen, smerter eller tryk i den nedre del af maven. </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>betændelsessygdom i blodårerne (som regel i arterierne i hovedet) </p>
+</li>
+<li>
+<p>hævelse af skjoldbruskkirtlen (tyroiditis) </p>
+</li>
+<li>
+<p>hudsygdom kendetegnet ved tørre, røde pletter dækket af skæl (psoriasis) </p>
+</li>
+<li>
+<p>betændelse og rødme af huden (erythema multiforme) </p>
+</li>
+<li>
+<p>en bestemt type hudreaktion kendetegnet ved udslæt sammen med en eller flere af følgende 
+træk: feber, hævelse af ansigt eller lymfekirtler, øget mængde eosinofile celler (en bestemt slags 
+hvide blodlegemer), påvirkning af lever, nyrer eller lunger (en reaktion kaldet DRESS). </p>
+</li>
+<li>
+<p>en betændelseslignende sygdom (højst sandsynligt af autoimmun oprindelse), der påvirker 
+øjnene, huden og membranerne i ørerne, hjernen og rygmarven (Vogt-Koyanagi-Harada 
+syndrom) løsning af hinde bagerst i øjet (serøs nethindeløsning) </p>
+</li>
+<li>
+<p>symptomer på type 1 diabetes eller diabetisk ketoacidose, som omfatter øget sult eller tørtst end 
+normalt, øget vandladning, vægttab, træthed, kvalme, mavesmerter, hurtig og dyb vejrtrækning, 
+forvirring, usædvanlig søvnighed, en sød lugt af dine ånde, en sød eller metalisk smag i munden 
+eller en anderledes lugt af din urin eller sved. </p>
+</li>
+<li>
+<p>muskelsvaghed og træthed uden svind af muskelvæv (myasthenia gravis) </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 personer) </p>
+<ul>
+<li>alvorlig, muligvis livstruende allergisk reaktion </li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Derudover er følgende ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) bivirkninger 
+blevet rapporteret hos patienter, som i kliniske studier fik andre doser end 3 mg/kg YERVOY: </p>
+<ul>
+<li>
+<p>række af symptomer (meningitis): nakkestivhed, følsomhed over for stærkt lys og hovedpine, 
+influenza-lignende ubehag </p>
+</li>
+<li>
+<p>betændelse i hjertemusklen, svaghed i hjertemusklen, væske omkring hjertet </p>
+</li>
+<li>
+<p>betændelse i leveren eller skjoldbruskkirtlen, små knuder af inflammationsceller (celler, der er 
+involveret i kroppens selvforsvar mod diverse skadelige stimuli) i forskellige organer i kroppen </p>
+</li>
+<li>
+<p>bughulebetændelse </p>
+</li>
+<li>
+<p>smertefulde hudlæsioner på arme, ben og ansigt (erythema nodosum) </p>
+</li>
+<li>
+<p>overaktiv hypofyse </p>
+</li>
+<li>
+<p>nedsat funktion af biskjoldbruskkirtlen </p>
+</li>
+<li>
+<p>øjenbetændelse, inflammation i øjenmuskulaturen </p>
+</li>
+<li>
+<p>nedsat hørelse </p>
+</li>
+<li>
+<p>dårlig blodcirkulation som gør fingre og tæer følelsesløse eller hvide </p>
+</li>
+<li>
+<p>vævsskader i hænder og fødder med rødme, hævelse og blæredannelse </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Andre bivirkninger, som er blevet rapporteret med hyppigheden ikke kendt (kan ikke estimeres 
+ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>afstødning af et transplanteret solidt organ </p>
+</li>
+<li>
+<p>en type sygdom med blæredannelse på huden (kaldet pemphigoid) </p>
+</li>
+<li>
+<p>en tilstand hvor immunsystemet laver for mange infektionsbekæmpende celler kaldet 
+histiocytter og lymfocytter, der kan forårsage forskellige symptomer (kaldet hæmofagocytisk 
+lymfohistiocytose). Symptomer kan inkludere forstørret lever og/eller milt, hududslæt, 
+forstørrede lymfekirtler, vejrtrækningsbesvær, let tendens til blå mærker, nyre-abnormaliteter og 
+hjerteproblemer. </p>
+</li>
+<li>
+<p>smerter, følelsesløshed, snurren eller svaghed i arme eller ben; blære- eller tarmproblemer, 
+herunder behov for hyppigere vandladning, ufrivlillig vandladning, vandladningsbesvær og 
+forstoppelse (myelitis) </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Ændringer i testresultater 
+YERVOY kan ændre resultaterne af de tests lægen har udført. Disse tests kan være: </p>
+<ul>
+<li>
+<p>en ændret mængde af røde blodlegemer (som transporterer ilt) i blodet, hvide blodlegemer (som 
+er vigtige for at kunne bekæmpe infektioner) eller blodplader (celler der hjælper blodet til at 
+størkne) </p>
+</li>
+<li>
+<p>unormalt udsving af hormon- og leverenzymniveauer i blodet </p>
+</li>
+<li>
+<p>unormal leverfunktionstest </p>
+</li>
+<li>
+<p>unormal koncentration af calcium, natrium, fosfat eller kalium i blodet </p>
+</li>
+<li>
+<p>blod eller protein i urinen </p>
+</li>
+<li>
+<p>unormalt høj alkalinitet i blodet og andet kropsvæv </p>
+</li>
+<li>
+<p>manglende evne hos nyrerne til at fjerne syre fra blodet </p>
+</li>
+<li>
+<p>antistoffer i blodet rettet mod visse af dine egne celler </p>
+</li>
+</ul>
+<p>Følgende bivirkninger er blevet rapporteret med ipilimumab i kombination med andre lægemidler 
+mod kræft (hyppigheden og sværhedsgrad af bivirkningerne kan variere med den modtagne 
+behandling og kombinationen af lægemidler mod kræft): </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>infektioner i de øvre luftveje </p>
+</li>
+<li>
+<p>nedsat funktion af skjoldbruskkirtlen (hvilket kan medføre træthed eller vægtstigning) </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer (som transporterer ilt), hvide blodlegemer (som er vigtige for at 
+kunne bekæmpe infektioner) eller blodplader (celler, der hjælper blodet med at størkne) </p>
+</li>
+<li>
+<p>manglende appetit, høje (hyperglykæmi) eller lave (hypoglykæmi) blodsukkerniveauer </p>
+</li>
+<li>
+<p>hovedpine, svimmelhed </p>
+</li>
+<li>
+<p>åndenød (dyspnø), hoste </p>
+</li>
+<li>
+<p>diarré (vandig, løs eller blød afføring), opkastning eller kvalme, mavesmerter, forstoppelse </p>
+</li>
+<li>
+<p>hududslæt, undertiden med blærer, kløe </p>
+</li>
+<li>
+<p>smerter i muskler og knogler (muskuloskeletale smerter) og smerter i led (artralgi) </p>
+</li>
+<li>
+<p>træthed eller svaghedsfølelse, feber, væskeansamlinger (hævelse) </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>lungebetændelse (pneumoni), bronkitis, øjenbetændelse (konjunktivitis) </p>
+</li>
+<li>
+<p>øget antal eosinofiler (en bestemt type af hvide blodlegemer) </p>
+</li>
+<li>
+<p>allergisk reaktion, reaktioner i forbindelse med infusion af medicinen </p>
+</li>
+<li>
+<p>øget funktion af skjoldbruskkirtlen (hvilket kan medføre hurtig hjerterytme, svedudbrud og 
+vægttab), nedsat udskillelse af de hormoner, der dannes i binyrerne (kirtler placeret over 
+nyrerne), nedsat funktion (hypopituitarisme) af hypofysen eller betændelseslignende reaktion 
+(hypofysitis) i hypofysen (sidder nederst i hjernen), hævelse af skjoldbruskkirtlen, sukkersyge 
+(diabetes) </p>
+</li>
+<li>
+<p>dehydrering, nedsatte niveauer af albumin og fosfat i blodet, vægttab </p>
+</li>
+<li>
+<p>betændelseslignende reaktion i nerverne (som medfører følelsesløshed, svaghed, snurrende 
+fornemmelse eller brændende smerter i arme og ben) </p>
+</li>
+<li>
+<p>sløret syn, tørre øjne </p>
+</li>
+<li>
+<p>hurtig hjerterytme (puls), ændret hjerterytme eller hjertefrekvens, uregelmæssig eller unormal 
+hjerterytme </p>
+</li>
+<li>
+<p>forhøjet blodtryk (hypertension) </p>
+</li>
+<li>
+<p>betændelseslignende reaktion i lungerne (pneumonitis, med hoste og vejrtrækningsbesvær), 
+væske omkring lungerne </p>
+</li>
+<li>
+<p>betændelseslignende reaktion i tarmene (colitis), mundsår og forkølelsessår (stomatitis), 
+betændelseslignende reaktion i bugspytkirtlen (pankreatitis), mundtørhed, betændelseslignende 
+reaktion i maven (gastritis) </p>
+</li>
+<li>
+<p>betændelseslignende reaktion i leveren </p>
+</li>
+<li>
+<p>pletvise farveændringer af huden (vitiligo), hudrødme, unormalt hårtab eller udtynding af håret, 
+nældefeber (kløende, hævet udslæt), tør hud </p>
+</li>
+<li>
+<p>en betændelseslignende reaktion (inflammation) i led (artritis), muskelkramper, muskelsvaghed </p>
+</li>
+<li>
+<p>nyresvigt (inklusive pludseligt tab af nyrefunktion) </p>
+</li>
+<li>
+<p>smerter, brystsmerter, kulderystelser </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>fald af neutrofile granulocytter med feber </p>
+</li>
+<li>
+<p>syrestoffer i blodet som følge af sukkersyge (diabetisk ketoacidose) </p>
+</li>
+<li>
+<p>forhøjet syreindhold i blodet </p>
+</li>
+<li>
+<p>betændelse i hjernen; nerveskade, som medfører følelsesløshed og svaghed (polyneuropati); 
+dropfod (peroneusparese); betændelseslignende reaktion i nerverne, som skyldes, at kroppen 
+angriber sig selv, og som medfører følelsesløshed, svaghed og en stikkende eller brændende 
+smerte (autoimmun neuropati), svaghed i muskulaturen og øget træthed uden svind af 
+muskelvæv (myasthenia gravis) </p>
+</li>
+<li>
+<p>øjenbetændelse (med rødme og smerter) </p>
+</li>
+<li>
+<p>uregelmæssig eller unormal hjerterytme, en betændelseslignende reaktion (inflammation) i 
+hjertemusklen, langsom hjerterytme </p>
+</li>
+<li>
+<p>betændelseslignende reaktion i tolvfingertarmen </p>
+</li>
+<li>
+<p>hudsygdom med fortykkede røde områder på huden, ofte med sølvagtige skæl (psoriasis), 
+alvorlig hudsygdom med røde, ofte kløende knopper, som ligner mæslingeudslæt, og som 
+begynder på arme og ben, og nogle gange i ansigtet og på resten af kroppen (erythema 
+multiforme), alvorlig og muligvis dødelig afskalning af huden (Stevens-Johnsons syndrom) </p>
+</li>
+<li>
+<p>muskelsmerter, ømme eller svage muskler, som ikke skyldes fysisk aktivitet (myopati), en 
+betændelseslignende reaktion i musklerne (myositis), betændelseslignende reaktion 
+(inflammation) i musklerne med smerter og stivhed (polymyalgia rheumatica) </p>
+</li>
+<li>
+<p>nyrebetændelse </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>midlertidig og reversibel ikke-infektiøs betændelse i de beskyttende membraner, der dækker 
+hjernen og rygmarven (aseptisk meningitis) </p>
+</li>
+<li>
+<p>kroniske sygdomme forbundet med ophobning af betændelsesceller i forskellige organer og 
+væv, oftest i lungerne (sarkoidose) </p>
+</li>
+<li>
+<p>nedsat funktion af biskjoldbruskkirtlen </p>
+</li>
+<li>
+<p>midlertidig betændelseslignende reaktion i nerverne, der medfører smerter, svaghed og 
+lammelse af arme og ben (Guillain-Barré syndrom), betændelseslignende reaktion i nerverne </p>
+</li>
+<li>
+<p>smerter, følelsesløshed, snurren eller svaghed i arme eller ben; blære- eller tarmproblemer, 
+herunder behov for hyppigere vandladning, ufrivillig vandladning, vandladningsbesvær og 
+forstoppelse (myelitis/transvers myelitis) </p>
+</li>
+<li>
+<p>perforering af tarmene </p>
+</li>
+<li>
+<p>alvorlig og muligvis dødelig afskalning af huden (toksisk epidermal nekrolyse), ændringer i 
+huden og/eller området omkring kønsorganerne, der er forbundet med udtørring, tynd hud, kløe 
+og smerte (lichen sclerosus eller andre lichen-lidelser) </p>
+</li>
+<li>
+<p>kronisk sygdom i leddene (spondylartropati), sygdom, hvor immunsystemet angriber de kirtler, 
+der producerer kropsvæsker som tårer og spyt (Sjögrens syndrom), stivhed i muskler og led, 
+muskelkramper (rabdomyolyse) </p>
+</li>
+<li>
+<p>en betændelseslignende sygdom (højst sandsynligt af autoimmun oprindelse), der påvirker 
+øjnene, huden og membranerne i ørerne, hjernen og rygmarven (Vogt-Koyanagi-Harada 
+syndrom), løsning af hinde bagerst i øjet (serøs nethindeløsning) </p>
+</li>
+<li>
+<p>blærebetændelse, tegn og symptomer kan omfatte hyppig og/eller smertefuld vandladning, trang 
+til at lade vandet, blod i urinen, smerter eller tryk i den nedre del af maven </p>
+</li>
+</ul>
+<p> Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger. 
+Du må ikke forsøge at behandle dine symptomer med anden medicin. </p>
+<p>Andre bivirkninger, som er blevet rapporteret med hyppigheden ikke kendt (kan ikke estimeres 
+ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>afstødning af et transplanteret solidt organ </p>
+</li>
+<li>
+<p>en række stofskiftekomplikationer efter kræftbehandling karakteriseret ved høje koncentrationer 
+af kalium og fosfat i blodet og lav koncentration af calcium i blodet (tumorlysesyndrom) </p>
+</li>
+<li>
+<p>betændelseslignende reaktion i sækken, der ligger omkring hjertet, og ophobning af væske 
+omkring hjertet (sygdomme i perikardiet) </p>
+</li>
+<li>
+<p>en tilstand hvor immunsystemet laver for mange infektionsbekæmpende celler kaldet 
+histiocytter og lymfocytter, der kan forårsage forskellige symptomer (kaldet hæmofagocytisk 
+lymfohistiocytose). Symptomer kan inkludere forstørret lever og/eller milt, hududslæt, 
+forstørrede lymfekirtler, vejrtrækningsbesvær, let tendens til blå mærker, nyre-abnormaliteter og 
+hjerteproblemer </p>
+</li>
+</ul>
+<p>Ændringer i prøveresultater 
+YERVOY i kombination kan ændre resultaterne af de tests lægen har udført. Disse kan være: </p>
+<ul>
+<li>
+<p>unormale prøveresultater for leverfunktionen (øget mængde af leverenzymerne aspartat-
+aminotransferase, alanin-aminotransferase, gamma-glutamyltransferase eller alkalisk 
+phosphatase i blodet, øget indhold af nedbrydningsproduktet bilirubin i blodet) </p>
+</li>
+<li>
+<p>unormale prøveresultater for nyrefunktionen (øget mængde kreatinin i blodet) </p>
+</li>
+<li>
+<p>øget mængde af enzymet, der nedbryder fedtstoffer, og af enzymet, der nedbryder stivelse </p>
+</li>
+<li>
+<p>forhøjet eller nedsat mængde calcium eller kalium </p>
+</li>
+<li>
+<p>forhøjet eller nedsat mængde magnesium eller natrium i blodet </p>
+</li>
+<li>
+<p>øget mængde af tyroidstimulerende hormon </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store yervoy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store yervoy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken og etiketten på hætteglasset efter 
+Exp. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). 
+Må ikke nedfryses. 
+Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Eventuelt resterende infusionsvæske må ikke opbevares til senere brug. Ikke anvendte lægemidler 
+samt affald heraf bør destrueres i henhold til lokale retningslinjer. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>YERVOY indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: Ipilimumab. 
+En ml koncentrat indeholder 5 mg ipilimumab. 
+Et 10 ml hætteglas indeholder 50 mg ipilimumab. 
+Et 40 ml hætteglas indeholder 200 mg ipilimumab. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Tris-hydrochlorid, natriumchlorid (se afsnit 2 "YERVOY indeholder 
+natrium"), mannitol (E421), pentetatsyre, polysorbat 80, natriumhydroxid, saltsyre og vand til 
+injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+YERVOY koncentrat til infusionsvæske er en klar til let opaliserende, farveløs til lysegul væske og 
+kan indeholde lyse (få) partikler. </p>
+<p>Den fås i æsker med enten 1 hætteglas á 10 ml eller 1 hætteglas á 40 ml. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Fremstiller 
+CATALENT ANAGNI S.R.L. 
+Loc. Fontana del Ceraso snc 
+Strada Provinciale 12 Casilina, 03012 Anagni (FR) 
+Italien </p>
+<p>Swords Laboratories Unlimited Company T/A Bristol-Myers Squibb Cruiserath Biologics 
+Cruiserath Road, Mulhuddart 
+Dublin 15, D15 H6EF 
+Irland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om YERVOY på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Klargøring af lægemidlet skal foretages af uddannet personale i overensstemmelse med god praksis, 
+især med henblik på aseptik. </p>
+<p>Beregning af dosis: 
+Ipilimumab som monoterapi eller i kombination med nivolumab: 
+Den ordinerede dosis til patienten gives i mg/kg. Totaldosis beregnes på baggrund af den ordinerede 
+dosis. Det kan være nødvendigt med mere end 1 hætteglas YERVOY koncentrat for at kunne give 
+patienten den totale dosis. </p>
+<ul>
+<li>
+<p>Et 10 ml hætteglas med YERVOY koncentrat giver 50 mg ipilimumab; et 40 ml hætteglas 
+giver 200 mg ipilimumab. </p>
+</li>
+<li>
+<p>Den totale ipilimumab dosis i mg = patientens vægt i kg × den ordinerede dosis i mg/kg. </p>
+</li>
+<li>
+<p>Mængden af YERVOY koncentrat til klargøring af dosis (ml) = den totale dosis i mg, 
+divideret med 5 (styrken af YERVOY koncentrat er 5 mg/ml ). </p>
+</li>
+</ul>
+<p>Klargøring af infusion: 
+Man skal sørge for aseptisk håndtering, mens infusionen forberedes. </p>
+<p>YERVOY kan anvendes til intravenøs administration enten: </p>
+<ul>
+<li>
+<p>ufortyndet, efter overførsel til en infusionsbeholder ved brug af en passende steril sprøjte; 
+eller </p>
+</li>
+<li>
+<p>efter fortynding til op til 5 gange den oprindelige mængde koncentrat (op til 4 dele 
+opløsningsvæske til 1 del koncentrat). Den færdige koncentration bør være fra 1 til 4 mg/ml. Til 
+fortynding af YERVOY koncentrat kan der anvendes enten: </p>
+</li>
+<li>
+<p>natriumchlorid 9 mg/ml (0,9 %) injektionsvæske; eller </p>
+</li>
+<li>
+<p>50 mg/ml (5 %) glucose injektionsvæske </p>
+</li>
+</ul>
+<p>TRIN 1 </p>
+<ul>
+<li>
+<p>Lad det passende antal hætteglas med YERVOY stå ved stuetemperatur i ca. 5 minutter. </p>
+</li>
+<li>
+<p>Kontroller YERVOY koncentrat for partikler eller misfarvning. YERVOY koncentrat er en klar 
+til let opaliserende, farveløs til lysegul væske, der kan indeholde lyse (få) partikler. YERVOY 
+må ikke anvendes, hvis der er usædvanligt mange partikler og tegn på misfarvning. </p>
+</li>
+<li>
+<p>Udtag den påkrævede mængde YERVOY koncentrat ved brug af en passende steril sprøjte. </p>
+</li>
+</ul>
+<p>TRIN 2 </p>
+<ul>
+<li>
+<p>Overfør koncentratet til en steril, tom glasflaske eller IV pose (PVC eller non-PVC). </p>
+</li>
+<li>
+<p>Hvis det er relevant udføres fortynding med den påkrævede mængde natriumchlorid 9 mg/ml 
+(0,9 %) injektionsvæske eller 50 mg/ml (5 %) glucose injektionsvæske. For at lette klargøringen 
+kan koncentratet også overføres direkte til en præfyldt pose indeholdende en passende volumen 
+af 9 mg/ml (0,9 %) natriumchloridopløsning til injektion eller 50 mg/ml (5 %) glukoseopløsning 
+til injektion. Blandes forsigtigt ved omrøring. </p>
+</li>
+</ul>
+<p>Administration: 
+YERVOY infusionen må ikke administreres som intravenøs bolusinjektion. YERVOY infusion 
+administreres intravenøst over en periode på 30 minutter. </p>
+<p>YERVOY infusionen må ikke infunderes samtidig med andre lægemidler i samme intravenøse slange. 
+Der skal anvendes en separat infusionsslange. </p>
+<p>Der skal anvendes et infusionssæt og et in-line, sterilt, ikke-pyrogent, minimalt proteinbindende filter 
+(porrestørrelse 0,2 μm til 1,2 μm). </p>
+<p>YERVOY-infusionen er kompatibel med: </p>
+<ul>
+<li>
+<p>PVC-infusionssæt </p>
+</li>
+<li>
+<p>In-line filtre af polyetersulfon (0,2 μm til 1,2 μm) og nylon (0,2 μm) </p>
+</li>
+</ul>
+<p>Efter at infusionen er gennemført, gennemskylles i.v. slangen med natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske eller 50 mg/ml (5 %) glucose injektionsvæske. </p>
+<p>Opbevaringsbetingelser og holdbarhed: 
+Uåbnet hætteglas 
+YERVOY skal opbevares i køleskab (2 °C – 8 °C). Hætteglassene skal opbevares i den originale 
+yderpakning for at beskytte mod lys. YERVOY må ikke nedfryses. </p>
+<p>Brug ikke YERVOY efter den udløbsdato, der står på æsken og etiketten på hætteglasset efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>YERVOY infusion 
+Ud fra en mikrobiologisk betragtning bør medicinen infunderes eller fortyndes og infunderes 
+umiddelbart efter åbning. Det er påvist, at det ufortyndede eller fortyndede koncentrat (mellem 1 og 
+4 mg/ml) har en kemisk og fysisk anvendelsesstabilitet ved stuetemperatur (20 °C – 25 °C) i 24 timer 
+eller i køleskab (2 °C – 8 °C). Hvis infusionsvæsken (ufortyndet eller fortyndet) ikke anvendes straks, 
+skal den opbevares i køleskab (2 °C – 8 °C) eller ved stuetemperatur (20 °C – 25 °C) og anvendes 
+inden for 24 timer. Anden opbevaringstid og andre opbevaringsforhold er brugerens ansvar. </p>
+<p>Destruktion: 
+Opbevar ikke nogen rester af den ikke anvendte infusionsopløsning til senere brug. Ikke anvendte 
+lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a2652d1642d1c9344c422837d3b948bc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yervoy Package Leaflet for language en"
+Description: "ePI document Bundle for yervoy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a2652d1642d1c9344c422837d3b948bc"
+* entry[0].resource = composition-en-a2652d1642d1c9344c422837d3b948bc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2652d1642d1c9344c422837d3b948bc"
+* entry[=].resource = mpa2652d1642d1c9344c422837d3b948bc
+                            
+                    
+Instance: bundlepackageleaflet-da-a2652d1642d1c9344c422837d3b948bc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yervoy Package Leaflet for language da"
+Description: "ePI document Bundle for yervoy Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a2652d1642d1c9344c422837d3b948bc"
+* entry[0].resource = composition-da-a2652d1642d1c9344c422837d3b948bc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2652d1642d1c9344c422837d3b948bc"
+* entry[=].resource = mpa2652d1642d1c9344c422837d3b948bc
+                            
+                    
+
+
+
+Instance: mpa2652d1642d1c9344c422837d3b948bc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product YERVOY 5 mg/ml concentrate for solution for infusion"
-Description: "YERVOY 5 mg/ml concentrate for solution for infusion"
+Title: "Medicinal Product yervoy"
+Description: "yervoy"
 Usage: #inline
 
  
@@ -651,7 +1786,7 @@ Usage: #inline
 
 
 * name
-  * productName = "YERVOY 5 mg/ml concentrate for solution for infusion"
+  * productName = "yervoy"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -678,29 +1813,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a2652d1642d1c9344c422837d3b948bc
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for yervoy Package Leaflet for language en"
-Description: "ePI document Bundle for yervoy Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a2652d1642d1c9344c422837d3b948bcListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/698/001-002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "yervoy"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a2652d1642d1c9344c422837d3b948bc"
-* entry[0].resource = composition-en-a2652d1642d1c9344c422837d3b948bc
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb6c1b8992204a50a0aef8350eb65a57a"
-* entry[=].resource = mpb6c1b8992204a50a0aef8350eb65a57a
-                            
-                      
+* title = "List of all ePIs associated with yervoy"
+
+* subject = Reference(mpb6c1b8992204a50a0aef8350eb65a57a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#yervoy "yervoy"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a2652d1642d1c9344c422837d3b948bc) // yervoy en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a2652d1642d1c9344c422837d3b948bc) // yervoy da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a2652d1642d1c9344c422837d3b948bc
+InstanceOf: List
+
+* insert a2652d1642d1c9344c422837d3b948bcListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-36b89eaa45afd7ab0e486d51fb7ebc12
 InstanceOf: CompositionUvEpi
 Title: "Composition for cabometyx Package Leaflet"
@@ -525,12 +528,821 @@ Tel: + 44 (0)1753 62 77 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-36b89eaa45afd7ab0e486d51fb7ebc12
+InstanceOf: CompositionUvEpi
+Title: "Composition for cabometyx Package Leaflet"
+Description:  "Composition for cabometyx Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb785b2665629f7c60348221a002fc151)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb785b2665629f7c60348221a002fc151
+* title = "TEST PURPOSES ONLY - cabometyx"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage CABOMETYX </li>
+<li>Sådan skal du tage CABOMETYX </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cabometyx is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cabometyx is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad CABOMETYX er 
+CABOMETYX er et lægemiddel mod kræft, der indeholder det aktive stof cabozantinib. 
+Det anvendes hos voksne til behandling af:</p>
+<ul>
+<li>fremskreden nyrekræft kaldet fremskredent nyrecellekarcinom </li>
+<li>leverkræft, når en specifik kræftmedicin (sorafenib) ikke længere kan stoppe forværring af 
+sygdommen. </li>
+</ul>
+<p>CABOMETYX anvendes også til behandling af lokalt fremskreden eller metastatisk differentieret 
+thyroideakræft, som er en type kræft i skjoldbruskkirtlen, hos voksne, når radioaktivt jod og kræftmedicin 
+ikke længere kan stoppe forværring af sygdommen. </p>
+<p>CABOMETYX kan gives i kombination med nivolumab for fremskreden nyrekræft. Det er vigtigt, at du 
+også læser indlægssedlen for nivolumab. Spørg din læge hvis du har spørgsmål til disse lægemidler. </p>
+<p>Sådan virker CABOMETYX 
+CABOMETYX blokerer virkningen af proteiner, der kaldes receptor-tyrosinkinaser (RTK'er), og som er 
+involveret i cellevækst og udvikling af nye blodkar til at forsyne celler. Disse proteiner kan være til stede i 
+store mængder i kræftceller, og ved at blokere deres virkning kan dette lægemiddel forsinke hastigheden, 
+med hvilken tumoren vokser, og hjælpe med til at afskære forsyningen af blod, som kræften har brug for.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cabometyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cabometyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke CABOMETYX 
+- hvis du er allergisk over for cabozantinib eller et af de øvrige indholdsstoffer i CABOMETYX 
+(angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager CABOMETYX, hvis du:</p>
+<ul>
+<li>har forhøjet blodtryk </li>
+<li>har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i en 
+blodårevæg </li>
+<li>har diarré </li>
+<li>for nyligt har haft en større blødning </li>
+<li>har gennemgået en operation inden for den sidste måned (eller hvis et kirurgisk indgreb er planlagt), 
+herunder indgreb i mund/tænder </li>
+<li>har en betændelseslignende (inflammatorisk) tarmsygdom (for eksempel Crohns sygdom, blødende 
+tyktarmsbetændelse, udposninger på tyktarmen eller blindtarmsbetændelse) </li>
+<li>for nyligt har haft en blodprop i benet, et slagtilfælde eller et hjerteanfald </li>
+<li>har problemer med skjoldbruskkirtlen. Fortæl det til din læge hvis du lettere bliver træt, generelt 
+føler dig koldere end andre mennesker eller din stemme bliver dybere, mens du tager medicinen. </li>
+<li>hvis du har en lever- eller nyresygdom.  </li>
+</ul>
+<p>Fortæl det til din læge, hvis noget af ovenstående gælder for dig. Du har måske behov for at blive 
+behandlet for dem, eller din læge kan beslutte at ændre din dosis af CABOMETYX eller helt stoppe 
+behandlingen. Se også punkt 4, ”Bivirkninger”. 
+Du skal også fortælle din tandlæge, at du tager dette lægemiddel. Det er vigtigt at du udøver god 
+mundhygiejne under behandlingen. </p>
+<p>Børn og unge </p>
+<p>CABOMETYX anbefales ikke til børn og unge. Virkningen af dette lægemiddel hos børn og unge under 
+18 år er ikke kendt. </p>
+<p>Brug af anden medicin sammen med CABOMETYX </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som ikke er købt på recept. 
+Dette skyldes, at CABOMETYX kan påvirke virkningen af visse andre lægemidler, ligesom visse andre 
+lægemidler kan påvirke virkningen af CABOMETYX. Dette kan betyde, at din læge er nødt til at ændre den 
+dosis, du skal have. Du skal informere lægen om alt medicin, men især hvis du tager:</p>
+<ul>
+<li>Lægemidler til behandling af svampeinfektioner, såsom itraconazol, ketoconazol og posaconazol. </li>
+<li>Lægemidler til behandling af bakterie-infektioner (antibiotika), såsom erythromycin, clarithromycin 
+og rifampicin. </li>
+<li>Lægemidler mod allergi, såsom fexofenadin. </li>
+<li>Lægemidler til behandling af angina pectoris (brystsmerter, der skyldes utilstrækkelig blodforsyning 
+til hjertet), såsom ranolazin. </li>
+<li>Lægemidler til behandling af epilepsi eller krampeanfald, såsom phenytoin, carbamazepin og 
+phenobarbital.  </li>
+<li>Naturlægemidler, der indeholder perikon (Hypericum perforatum), som af og til anvendes mod 
+depression eller depressions-lignende tilstande, såsom angst. </li>
+<li>Lægemidler, der anvendes til at fortynde blodet, som f.eks. warfarin og dabigatranetexilat. </li>
+<li>Lægemidler til behandling af for højt blodtryk eller andre hjertetilstande, såsom aliskiren, 
+ambrisentan, digoxin, talinolol og tolvaptan. </li>
+<li>Lægemidler til behandling af sukkersyge (diabetes), såsom saxagliptin og sitagliptin.  </li>
+<li>Lægemidler til behandling af gigt, såsom colchicin. </li>
+<li>Lægemidler til behandling af hiv eller aids, såsom efavirenz, ritonavir, maraviroc og emtricitabin. </li>
+<li>Lægemidler, der anvendes til at forhindre afstødning af et transplantat (ciclosporin) og 
+ciclosporinbaseret behandling af reumatoid artritis og psoriasis. </li>
+</ul>
+<p>Brug af CABOMETYX sammen med mad </p>
+<p>Du skal undgå at indtage produkter, der indeholder grapefrugt, i den periode, hvor du tager dette lægemiddel, 
+da grapefrugt kan øge mængden af CABOMETYX i dit blod. </p>
+<p>Graviditet, amning og frugtbarhed  </p>
+<p>Undgå at blive gravid under behandlingen med CABOMETYX. Hvis du eller din partner kan blive 
+gravid, så anvend passende antikonception under behandlingen og i mindst 4 måneder efter, at behandlingen 
+er afsluttet. Tal med din læge om, hvilke antikonceptionsmetoder der er passende, mens du tager dette 
+lægemiddel (se også under ”Brug af anden medicin sammen med CABOMETYX” ovenfor). </p>
+<p>Fortæl det til lægen, hvis du eller din partner bliver gravid eller planlægger at blive gravid, mens du tager 
+dette lægemiddel.  </p>
+<p>Tal med din læge, INDEN du tager dette lægemiddel, hvis du eller din partner overvejer eller planlægger 
+at få et barn, når din behandling er afsluttet. Der er en mulighed for, at din frugtbarhed kunne blive påvirket 
+af behandlingen med dette lægemiddel.  </p>
+<p>Kvinder, der tager dette lægemiddel, bør ikke amme under behandlingen og i mindst 4 måneder efter, at 
+behandlingen er afsluttet, da cabozantinib og/eller dets metabolitter kan udskilles i mælken og være skadeligt 
+for barnet. </p>
+<p>Hvis du tager dette lægemiddel samtidig med, at du tager svangerskabsforebyggende piller (p-piller), er 
+p-pillerne måske ikke tilstrækkeligt effektive. Du skal også anvende en barrieremetode (f.eks. kondom eller 
+pessar), mens du tager dette lægemiddel og i mindst 4 måneder efter, at behandlingen er afsluttet. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Udvis forsigtighed, når du kører motorkøretøjer eller betjener maskiner. Husk på, at behandling med 
+CABOMETYX kan få dig til at føle dig træt eller svag og kan påvirke din evne til at køre motorkøretøjer og 
+betjene maskiner. </p>
+<p>CABOMETYX indeholder lactose 
+Dette lægemiddel indeholder lactose (en sukkerart). Kontakt lægen, før du tager denne medicin, hvis lægen 
+har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>CABOMETYX indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cabometyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cabometyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg lægen 
+eller apotekspersonalet. </p>
+<p>Du skal fortsætte med at tage dette lægemiddel, indtil din læge beslutter at stoppe behandlingen. Hvis du får 
+alvorlige bivirkninger, kan din læge beslutte at ændre din dosis eller stoppe behandlingen tidligere end 
+oprindelig planlagt. Din læge vil fortælle dig, om du har behov for at få din dosis ændret. </p>
+<p>Du skal tage CABOMETYX en gang dagligt. Den sædvanlige dosis er 60 mg, men din læge vil afgøre, hvad 
+der er den rette dosis for dig. 
+Når dette lægemiddel gives i kombination med nivolumab til behandling af fremskreden nyrekræft er den 
+anbefalede dosis af CABOMETYX 40 mg en gang dagligt. </p>
+<p>Du må ikke tage CABOMETYX sammen med mad. Du må ikke spise noget mindst 2 timer, før du tager og 
+1 time efter, at du har taget medicinen. Synk tabletten hel med et helt glas vand. Tabletterne må ikke knuses. </p>
+<p>Hvis du har taget for meget CABOMETYX 
+Hvis du har taget mere af dette lægemiddel, end du har fået besked på, så kontakt en læge eller tag på 
+hospitalet med det samme. Medbring tabletterne og denne indlægsseddel. </p>
+<p>Hvis du har glemt at tage CABOMETYX 
+- Hvis der er 12 timer eller mere til din næste dosis, så tag den glemte dosis lige så snart, du kommer i 
+tanker om det. Tag din næste dosis på det normale tidspunkt. 
+- Hvis der er mindre end 12 timer til din næste dosis, så lad være med at tage den dosis, som du har 
+glemt. Tag din næste dosis på det normale tidspunkt.  </p>
+<p>Hvis du holder op med at tage CABOMETYX 
+Hvis du stopper din behandling kan medicinens virkning stoppe. Stop ikke din behandling med dette 
+lægemiddel medmindre du har snakket med din læge omkring det. </p>
+<p>Når dette lægemiddel gives i kombination med nivolumab, vil du først få nivolumab efterfulgt af 
+CABOMETYX.  </p>
+<p>Læs indlægssedlen for nivolumab for at forstå brugen af dette lægemiddel. Spørg din læge hvis du har 
+yderligere spørgsmål til brugen af dette lægemiddel. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. Hvis du 
+får bivirkninger, vil din læge måske bede dig om at tage CABOMETYX i en lavere dosis. Din læge kan også 
+ordinere andre lægemidler som hjælp til at mindske dine bivirkninger. </p>
+<p>Fortæl det straks til din læge, hvis du lægger mærke til nogen af følgende bivirkninger – du kan have 
+behov for hurtig lægehjælp: </p>
+<ul>
+<li>
+<p>Smerter i maven, kvalme, opkastning, forstoppelse eller feber. Disse kan være tegn på perforation af 
+mave-tarm-kanalen (et hul i din mave eller tarm), hvilket kan være livstruende. Perforation af mave-
+tarm-kanalen er en almindelig bivirkning (kan forekomme hos op til 1 ud af 10 mennesker). </p>
+</li>
+<li>
+<p>Alvorlig eller ukontrollerbar blødning med symptomer såsom opkastning af blod, sort afføring, blod i 
+urinen, hovedpine, ophostning af blod. Disse er almindelige bivirkninger (kan forekomme hos op til 
+1 ud af 10 mennesker). </p>
+</li>
+<li>
+<p>Følelse af døsighed, forvirring eller tab af bevidsthed. Dette kan skyldes leverproblemer, som er 
+almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 mennesker). </p>
+</li>
+<li>
+<p>Hævelse eller kortåndethed. Disse er meget almindelige bivirkninger (kan forekomme hos flere end 1 
+ud af 10 mennesker). </p>
+</li>
+<li>
+<p>Et sår, der ikke heler. Disse er ikke almindelige bivirkninger (kan forekomme hos 1 ud af 
+100 mennesker). </p>
+</li>
+<li>
+<p>Kramper, hovedpine, forvirring eller problemer med at koncentrere sig. Disse kan være tegn på en 
+tilstand, der kaldes posteriort reversibelt encefalopatisyndrom (PRES). PRES er ikke en almindelig 
+bivirkning (kan forekomme hos 1 ud af 100 mennesker). </p>
+</li>
+<li>
+<p>Smerter i munden, tænderne og/eller kæben, hævelser eller sår i munden, følelsesløshed eller en 
+følelse af tunghed i kæben eller en løs tand. Det kan være tegn på knogleskader i kæben 
+(osteonekrose). Disse er ikke almindelige bivirkninger (kan forekomme hos 1 ud af 100 mennesker). </p>
+</li>
+</ul>
+<p>Andre bivirkninger med CABOMETYX alene omfatter: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 mennesker) </p>
+<ul>
+<li>
+<p>Blodmangel (lave nivauer af røde blodlegemer, der transporterer ilt), lavt antal blodplader (celler, der 
+hjælper blodet med at størkne) </p>
+</li>
+<li>
+<p>Nedsat aktivitet af skjoldbruskkirtlen; symptomerne kan omfatte træthed, vægtstigning, forstoppelse, 
+kuldefølelse og tør hud </p>
+</li>
+<li>
+<p>Appetitløshed, ændret smagssans </p>
+</li>
+<li>
+<p>Lave niveauer af magnesium eller kalium i blodet </p>
+</li>
+<li>
+<p>Nedsat mængde proteinalbumin i blodet (der transporterer stoffer som hormoner, lægemidler og 
+enzymer rundt i kroppen) </p>
+</li>
+<li>
+<p>Hovedpine, svimmelhed </p>
+</li>
+<li>
+<p>Forhøjet blodtryk (hypertension) </p>
+</li>
+<li>
+<p>Blødning </p>
+</li>
+<li>
+<p>Vanskeligheder med at tale, hæshed (dysfoni), hoste og åndenød </p>
+</li>
+<li>
+<p>Gener fra maven, herunder diarré, kvalme, opkastning, forstoppelse, fordøjelsesbesvær og 
+mavesmerter </p>
+</li>
+<li>
+<p>Rødme, hævelse eller smerter i munden eller svælget (stomatitis) </p>
+</li>
+<li>
+<p>Hududslæt, undertiden med blærer, kløe, smerter i hænderne eller fodsålerne, udslæt </p>
+</li>
+<li>
+<p>Smerter i arme, hænder, ben eller fødder </p>
+</li>
+<li>
+<p>Træthed eller svaghed, betændelse i mund- og mave-tarmslimhinden, hævelse i dine ben og arme </p>
+</li>
+<li>
+<p>Vægttab </p>
+</li>
+<li>
+<p>Unormale leverfunktionsprøver (øget mængde af leverenzymerne aspartat-aminotransferase, 
+alanin-aminotransferase). </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 mennesker) </p>
+<ul>
+<li>
+<p>Byld (ophobning af pus med hævelse og betændelse) </p>
+</li>
+<li>
+<p>Nedsat antal hvide blodlegemer (som er vigtige for at kunne bekæmpe infektioner) </p>
+</li>
+<li>
+<p>Dehydrering </p>
+</li>
+<li>
+<p>Nedsat mængde af fosfat, natrium og calcium i blodet </p>
+</li>
+<li>
+<p>Stigning af kaliumindholdet i blodet </p>
+</li>
+<li>
+<p>Stigning af mængden af affaldsproduktet bilirubin i blodet (som kan medføre gulsot/gul hud eller 
+gule øjne) </p>
+</li>
+<li>
+<p>Forhøjet (hyperglykæmi) eller nedsat (hypoglykæmi) blodsukkerniveau </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand i nerverne (som medfører følelsesløshed, svaghed, snurrende 
+fornemmelse eller brændende smerter i arme og ben) </p>
+</li>
+<li>
+<p>Ringen for ørerne (tinnitus) </p>
+</li>
+<li>
+<p>Blodpropper i venerne </p>
+</li>
+<li>
+<p>Blodpropper i lungerne </p>
+</li>
+<li>
+<p>Betændelse i bugspytkirtlen, en smertefuld rift eller unormal forbindelse mellem væv i kroppen 
+(fistel), gastro-øsofageal refluks sygdom (tilbageløb af mavesyre fra mavesækken til spiserøret), 
+hæmorider, mundtørhed og smerter i munden, synkebesvær </p>
+</li>
+<li>
+<p>Kraftig kløe i huden, hårtab og udtynding af håret (alopeci), tør hud, akne, ændret hårfarve, 
+fortykkelse af det ydre hudlag, hudrødmne </p>
+</li>
+<li>
+<p>Muskelkramper, smerter i led </p>
+</li>
+<li>
+<p>Protein i urinen (set i undersøgelser) </p>
+</li>
+<li>
+<p>Unormale leverfunktionsprøver (øget mængde af leverenzymerne alkalisk phosphatase og gamma-
+glutamyltransferase i blodet) </p>
+</li>
+<li>
+<p>Unormale nyrefunktionsprøver (øget mængde kreatinin i blodet) </p>
+</li>
+<li>
+<p>Øget mængde af enzymet, der nedbryder fedtstoffer (lipase), og af enzymet, der nedbryder stivelse 
+(amylase) </p>
+</li>
+<li>
+<p>Stigning af mængden af kolesterol eller triglycerider i blodet </p>
+</li>
+<li>
+<p>Lungeinfektion (lungebetændelse) </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos 1 ud af 100 mennesker) </p>
+<ul>
+<li>
+<p>Kramper, slagtilfælde  </p>
+</li>
+<li>
+<p>Svært forhøjet blodtryk </p>
+</li>
+<li>
+<p>Blodpropper i arterierne </p>
+</li>
+<li>
+<p>Nedsat mængde galde, der udtømmes fra leveren </p>
+</li>
+<li>
+<p>En brændende eller smertefuld fornemmelse i tungen (glossodyni) </p>
+</li>
+<li>
+<p>Hjerteanfald </p>
+</li>
+<li>
+<p>Prop/blodprop, der bevæger sig gennem arterierne og sætter sig fast </p>
+</li>
+<li>
+<p>Sammenklappet lunge med luft fanget i mellemrummet mellem lunge og bryst, hvilket ofte 
+forårsager kortåndethed (pneumothorax) </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>En udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og arterielle 
+dissektioner) </p>
+</li>
+<li>
+<p>Betændelse i blodkarrene i huden (kutan vasculitis). </p>
+</li>
+</ul>
+<p>Følgende bivirkninger er blevet rapporteret med CABOMETYX i kombination med nivolumab: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Infektioner i de øvre luftveje </p>
+</li>
+<li>
+<p>Nedsat funktion af skjoldbruskkirtlen, symptomerne kan omfatte træthed, vægtstigning, forstoppelse, 
+føle sig kold og tør hud </p>
+</li>
+<li>
+<p>Øget funktion af skjoldbruskkirtlen, symptomerne kan omfatte hurtig hjerterytme (puls), svedudbrud 
+og vægttab  </p>
+</li>
+<li>
+<p>Appetitløshed, ændret smagssans </p>
+</li>
+<li>
+<p>Hovedpine, svimmelhed </p>
+</li>
+<li>
+<p>Forhøjet blodtryk (hypertension) </p>
+</li>
+<li>
+<p>Vanskeligheder med at tale, hæshed (dysfoni), hoste og åndenød </p>
+</li>
+<li>
+<p>Maveonde, inklusive diarre, kvalme, opkastning, fordøjelsesbesvær, mavesmerter og forstoppelse </p>
+</li>
+<li>
+<p>Rødmen, hævelse og smerter i munden eller halsen (stomatitis) </p>
+</li>
+<li>
+<p>Hududslæt, undertiden med blærer, kløe, smerter i hænderne eller fodsålerne, udslæt eller kraftig 
+kløe i huden </p>
+</li>
+<li>
+<p>Ledsmerter (artralgi), muskelkramper, muskelsvaghed og smerter i musklerne </p>
+</li>
+<li>
+<p>Protein i urinen (ses i prøver) </p>
+</li>
+<li>
+<p>Træthed eller svaghedsfølelse, feber, ødemer (hævelse) </p>
+</li>
+<li>
+<p>Unormale leverfunktionsprøver (øget mængde af leverenzymerne aspartat-aminotransferase, 
+alanin-aminotransferase eller alkalisk phosphatase i blodet, øget indhold af nedbrydningsproduktet 
+bilirubin i blodet) </p>
+</li>
+<li>
+<p>Unormale nyrefunktionsprøver (øget mængde kreatinin i blodet) </p>
+</li>
+<li>
+<p>Højt (hyperglykæmi) eller lavt (hypoglykæmi) blodsukkerniveau </p>
+</li>
+<li>
+<p>Blodmangel (lave nivauer af røde blodlegemer, som transporterer ilt), nedsat antal hvide blodlegemer 
+(som er vigtige for at kunne bekæmpe infektioner), nedsat antal blodplader (celler, der hjælper blodet 
+med at størkne) </p>
+</li>
+<li>
+<p>Øget mængde af enzymet, der nedbryder fedtstoffer (lipase), og af enzymet, som nedbryder stivelse 
+(amylase) </p>
+</li>
+<li>
+<p>Nedsat mængde af phosphat </p>
+</li>
+<li>
+<p>Forhøjet eller nedsat mængde af kalium </p>
+</li>
+<li>
+<p>Nedsat mængde af calcium, magnesium eller natrium i blodet </p>
+</li>
+<li>
+<p>Vægttab </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Alvorlig lungeinfektion (lungebetændelse) </p>
+</li>
+<li>
+<p>Øget mængde af en bestemt type hvide blodlegemer kaldet eosinofiler </p>
+</li>
+<li>
+<p>Allergisk reaktion (inklusive anafylaktisk reaktion) </p>
+</li>
+<li>
+<p>Nedsat udskillelse af de hormoner, der dannes i binyrerne (kirtler placeret over nyrerne) </p>
+</li>
+<li>
+<p>Dehydrering </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand i nerverne (som medfører følelsesløshed, svaghed, snurrende 
+fornemmelse eller brændende smerter i arme og ben) </p>
+</li>
+<li>
+<p>Ringen for ørerne (tinnitus) </p>
+</li>
+<li>
+<p>Tørre øjne og sløret syn </p>
+</li>
+<li>
+<p>Ændringer i hjerterytmen, hurtig hjerterytme (puls) </p>
+</li>
+<li>
+<p>Blodpropper i blodårerne </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand i lungerne (pneumonitis, med hoste og vejrtrækningsbesvær), 
+blodpropper i lungerne, væske omkring lungerne </p>
+</li>
+<li>
+<p>Næseblod </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand i tyktarmen (colitis), mundtørhed, mundsmerter, betændelseslignende 
+tilstand i maven (gastritis) og hæmorroider  </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand i leveren (hepatitis) </p>
+</li>
+<li>
+<p>Tør hud og hudrødme </p>
+</li>
+<li>
+<p>Alopeci (hårtab og udtynding af håret), ændret hårfarve </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand (inflammation) i led (artritis) </p>
+</li>
+<li>
+<p>Nyresvigt (inklusive pludseligt tab af nyrefunktion) </p>
+</li>
+<li>
+<p>Smerter, brystsmerter </p>
+</li>
+<li>
+<p>Forhøjet triglyceridniveau i blodet </p>
+</li>
+<li>
+<p>Forhøjet kolesterolniveau i blodet </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Allergisk reaktion relateret til infusionen af lægemidlet nivolumab </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand i hypofysen, der sidder nederst i hjernen (hypofysitis), hævelse af 
+skjoldbruskkirtlen (thyroiditis) </p>
+</li>
+<li>
+<p>Midlertidig betændelseslignende tilstand i nerverne, der medfører smerter, svaghed og lammelse af 
+arme og ben (Guillain-Barré syndrom); muskelsvaghed og muskeltræthed uden svind af muskelvæv 
+(myastenisk syndrom) </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand i hjernen </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand i øjet (som medfører smerte og rødhed) </p>
+</li>
+<li>
+<p>Betændelseslignende tistand i hjertemusklen </p>
+</li>
+<li>
+<p>Prop/blodprop, der bevæger sig gennem arterierne og sætter sig fast </p>
+</li>
+<li>
+<p>Betændelseslignende tilstand i bugspytkirtlen (pankreatitis), perforering af tarmene, brændende eller 
+smertefuld fornemmelse i tungen (glossodyni) </p>
+</li>
+<li>
+<p>Hudsygdom med fortykkede røde områder på huden, ofte med sølvagtige skæl (psoriasis) </p>
+</li>
+<li>
+<p>Nældefeber (kløende udslæt) </p>
+</li>
+<li>
+<p>Ømme eller svage muskler, som ikke skyldes fysisk aktivitet (myopati), knogleskade i kæben, en 
+smertefuld rift eller unormal forbindelse mellem væv i kroppen (fistel) </p>
+</li>
+<li>
+<p>Nyrebetændelse </p>
+</li>
+<li>
+<p>Sammenklappet lunge med luft fanget i mellemrummet mellem lunge og bryst, hvilket ofte 
+forårsager kortåndethed (pneumothorax) </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>Betændelse i blodkarrene i huden (kutan vasculitis) </p>
+</li>
+<li>
+<p>Fremskridende ødelæggelse eller tab af galdegange i leveren eller gulsot </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apotekspersonalet. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cabometyx"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cabometyx"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på tabletbeholderens etiket og pakningen efter Exp. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CABOMETYX indeholder:  </p>
+<p>Aktivt stof: cabozantinib (S)-malat.  </p>
+<p>CABOMETYX 20 mg filmovertrukne tabletter: Hver tablet indeholder cabozantinib (S)-malat svarende til 
+20 mg cabozantinib. 
+CABOMETYX 40 mg filmovertrukne tabletter: Hver tablet indeholder cabozantinib (S)-malat svarende til 
+40 mg cabozantinib. 
+CABOMETYX 60 mg filmovertrukne tabletter: Hver tablet indeholder cabozantinib (S)-malat svarende til 
+60 mg cabozantinib. </p>
+<p>Øvrige indholdsstoffer:</p>
+<ul>
+<li>Tabletindhold: mikrokrystallinsk cellulose, vandfri lactose, hypromellose, croscarmellosenatrium, 
+kolloid vandfri silica og magnesiumstearat. (Se punkt 2 med hensyn til indhold af lactose.) </li>
+<li>Filmovertræk: hypromellose, titandioxid (E171), triacetin, gul jernoxid (E172) </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>CABOMETYX 20 mg filmovertrukne tabletter er gule og runde, uden delekærv og præget med "XL" på den 
+ene side og "20" på den anden side. 
+CABOMETYX 40 mg filmovertrukne tabletter er gule og trekantede, uden delekærv og præget med "XL" på 
+den ene side og "40" på den anden side. 
+CABOMETYX 60 mg filmovertrukne tabletter er gule og ovale, uden delekærv og præget med "XL" på den 
+ene side og "60" på den anden side. </p>
+<p>CABOMETYX fås i pakninger med en plastiktabletbeholder med 30 filmovertrukne tabletter. 
+Tabletbeholderen indeholder tre silicagelbeholdere med tørremiddel og en polyesterring for at forhindre 
+beskadigelse af de filmovertrukne tabletter. Tørremidlet og polyesterringen skal forblive i tabletbeholderen 
+og må ikke sluges. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Ipsen Pharma 
+65 quai Georges Gorse 
+92100 Boulogne-Billancourt<br />
+Frankrig </p>
+<p>Fremstiller </p>
+<p>Patheon France<br />
+40 Boulevard de Champaret 
+38300 Bourgoin Jallieu, Frankrig </p>
+<p>Tjoapack Netherlands B.V. 
+Nieuwe Donk 9 
+4879 AC Etten-Leur 
+Holland </p>
+<p>Rottendorf Pharma GmbH 
+Ostenfelderstrasse 51 – D-59320 Ennigerloh 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien, Luxembourg/Luxemburg 
+Italia 
+Ipsen NV 
+België /Belgique/Belgien 
+Tél/Tel: + 32 9 243 96 Ipsen SpA 
+Tel: + 39 – 02 39 22  </p>
+<p>България 
+Latvija<br />
+PharmaSwiss EOOD 
+Тел.: +359 2 8952 Ipsen Pharma representative office 
+Tel: +371 67622 </p>
+<p>Česká republika 
+Lietuva 
+Ipsen Pharma, s.r.o. 
+Tel: + 420 242 481 Ipsen Pharma SAS Lietuvos filialas 
+Tel. +370 700 33 </p>
+<p>Danmark, Norge, Suomi/Finland, Sverige, Ísland 
+Magyarország 
+Institut Produits Synthèse (IPSEN) AB 
+Sverige/Ruotsi/Svíþjóð 
+Tlf/Puh/Tel/Sími: +46 8 451 60 IPSEN Pharma Hungary Kft. 
+Tel.: +36 1 555 5 </p>
+<p>Deutschland, Österreich 
+Nederland 
+Ipsen Pharma GmbH<br />
+Deutschland 
+Tel.: +49 89 2620 432 Ipsen Farmaceutica B.V.<br />
+Tel: + 31 (0) 23 554 1 </p>
+<p>Eesti 
+Polska 
+Centralpharma Communications OÜ 
+Tel: +372 60 15 Ipsen Poland Sp. z o.o. 
+Tel.: + 48 22 653 68  </p>
+<p>Ελλάδα, Κύπρος, Malta 
+Portugal 
+Ipsen Μονοπρόσωπη EΠΕ 
+Ελλάδα 
+Τηλ: + 30 210 984 3Ipsen Portugal - Produtos Farmacêuticos S.A.<br />
+Tel: + 351 21 412 3 </p>
+<p>España 
+România 
+Ipsen Pharma, S.A.U. 
+Tel: + 34 936 858 Ipsen Pharma România SRL 
+Tel: + 40 21 231 27  </p>
+<p>France 
+Slovenija   </p>
+<p>Ipsen Pharma 
+Tél: + 33 1 58 33 50 PharmaSwiss d.o.o.<br />
+Tel: + 386 1 236 47  </p>
+<p>Hrvatska 
+Slovenská republika 
+Bausch Health Poland sp. z.o.o. podružnica Zagreb 
+Tel: +385 1 6700 Ipsen Pharma, organizačná zložka<br />
+Tel: + 420 242 481  </p>
+<p>Ireland, United Kingdom (Northern Ireland) </p>
+<p>Ipsen Pharmaceuticals Limited 
+Tel: +44 (0)153 62 77<br />
+Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-36b89eaa45afd7ab0e486d51fb7ebc12
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cabometyx Package Leaflet for language en"
+Description: "ePI document Bundle for cabometyx Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-36b89eaa45afd7ab0e486d51fb7ebc12"
+* entry[0].resource = composition-en-36b89eaa45afd7ab0e486d51fb7ebc12
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp36b89eaa45afd7ab0e486d51fb7ebc12"
+* entry[=].resource = mp36b89eaa45afd7ab0e486d51fb7ebc12
+                            
+                    
+Instance: bundlepackageleaflet-da-36b89eaa45afd7ab0e486d51fb7ebc12
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cabometyx Package Leaflet for language da"
+Description: "ePI document Bundle for cabometyx Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-36b89eaa45afd7ab0e486d51fb7ebc12"
+* entry[0].resource = composition-da-36b89eaa45afd7ab0e486d51fb7ebc12
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp36b89eaa45afd7ab0e486d51fb7ebc12"
+* entry[=].resource = mp36b89eaa45afd7ab0e486d51fb7ebc12
+                            
+                    
+
+
+
+Instance: mp36b89eaa45afd7ab0e486d51fb7ebc12
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product CABOMETYX 20 mg film-coated tablets"
-Description: "CABOMETYX 20 mg film-coated tablets"
+Title: "Medicinal Product cabometyx"
+Description: "cabometyx"
 Usage: #inline
 
  
@@ -550,7 +1362,7 @@ Usage: #inline
 
 
 * name
-  * productName = "CABOMETYX 20 mg film-coated tablets"
+  * productName = "cabometyx"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -577,29 +1389,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-36b89eaa45afd7ab0e486d51fb7ebc12
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cabometyx Package Leaflet for language en"
-Description: "ePI document Bundle for cabometyx Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 36b89eaa45afd7ab0e486d51fb7ebc12ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Cabometyx 20 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cabometyx"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-36b89eaa45afd7ab0e486d51fb7ebc12"
-* entry[0].resource = composition-en-36b89eaa45afd7ab0e486d51fb7ebc12
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb785b2665629f7c60348221a002fc151"
-* entry[=].resource = mpb785b2665629f7c60348221a002fc151
-                            
-                      
+* title = "List of all ePIs associated with cabometyx"
+
+* subject = Reference(mpb785b2665629f7c60348221a002fc151)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cabometyx "cabometyx"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-36b89eaa45afd7ab0e486d51fb7ebc12) // cabometyx en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-36b89eaa45afd7ab0e486d51fb7ebc12) // cabometyx da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-36b89eaa45afd7ab0e486d51fb7ebc12
+InstanceOf: List
+
+* insert 36b89eaa45afd7ab0e486d51fb7ebc12ListRuleset
+    

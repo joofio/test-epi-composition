@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a66c014f097e72b89c0a0ea0e94b80cb
 InstanceOf: CompositionUvEpi
 Title: "Composition for beyfortus Package Leaflet"
@@ -262,10 +265,38 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
-Instance: mp53a5f89e9fb00f48500401bbab04bd0e
+                    
+Instance: bundlepackageleaflet-en-a66c014f097e72b89c0a0ea0e94b80cb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for beyfortus Package Leaflet for language en"
+Description: "ePI document Bundle for beyfortus Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a66c014f097e72b89c0a0ea0e94b80cb"
+* entry[0].resource = composition-en-a66c014f097e72b89c0a0ea0e94b80cb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa66c014f097e72b89c0a0ea0e94b80cb"
+* entry[=].resource = mpa66c014f097e72b89c0a0ea0e94b80cb
+                            
+                    
+
+
+
+Instance: mpa66c014f097e72b89c0a0ea0e94b80cb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Beyfortus 50 mg solution for injection in pre-filled syringe"
-Description: "Beyfortus 50 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product beyfortus"
+Description: "beyfortus"
 Usage: #inline
 
  
@@ -285,7 +316,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Beyfortus 50 mg solution for injection in pre-filled syringe"
+  * productName = "beyfortus"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -312,29 +343,46 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a66c014f097e72b89c0a0ea0e94b80cb
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for beyfortus Package Leaflet for language en"
-Description: "ePI document Bundle for beyfortus Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a66c014f097e72b89c0a0ea0e94b80cbListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1689/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "beyfortus"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a66c014f097e72b89c0a0ea0e94b80cb"
-* entry[0].resource = composition-en-a66c014f097e72b89c0a0ea0e94b80cb
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp53a5f89e9fb00f48500401bbab04bd0e"
-* entry[=].resource = mp53a5f89e9fb00f48500401bbab04bd0e
-                            
-                      
+* title = "List of all ePIs associated with beyfortus"
+
+* subject = Reference(mp53a5f89e9fb00f48500401bbab04bd0e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#beyfortus "beyfortus"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a66c014f097e72b89c0a0ea0e94b80cb) // beyfortus en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-a66c014f097e72b89c0a0ea0e94b80cb
+InstanceOf: List
+
+* insert a66c014f097e72b89c0a0ea0e94b80cbListRuleset
+    

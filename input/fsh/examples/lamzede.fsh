@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b455bf5933866192c268e98801b21195
 InstanceOf: CompositionUvEpi
 Title: "Composition for lamzede Package Leaflet"
@@ -341,12 +344,643 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-b455bf5933866192c268e98801b21195
+InstanceOf: CompositionUvEpi
+Title: "Composition for lamzede Package Leaflet"
+Description:  "Composition for lamzede Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7a9c2fc91c698796ad733f09fc587e8d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7a9c2fc91c698796ad733f09fc587e8d
+* title = "TEST PURPOSES ONLY - lamzede"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Lamzede </li>
+<li>Sådan skal du bruge Lamzede </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lamzede is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lamzede is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lamzede indeholder det aktive stof velmanase alfa, som tilhører en gruppe lægemidler, der kaldes 
+enzymerstatningsbehandlinger. Det anvendes til at behandle patienter med let til moderat 
+alfa-mannosidose. Det gives til behandling af de ikke-neurologiske symptomer på sygdommen. </p>
+<p>Alfa-mannosidose er en sjælden genetisk sygdom, der forårsages af mangel på et enzym kaldet 
+alfa-mannosidase, som er nødvendigt for at nedbryde visse sukkerstoffer (kaldet ’oligosakkarider med 
+et højt mannoseindhold’) i kroppen. Når dette enzym mangler eller ikke virker korrekt, ophobes disse 
+sukkerstoffer i cellerne, og forårsager tegn og symptomer på sygdommen. De typiske tegn på denne 
+sygdom omfatter karakteristiske ansigtstræk, mental retardering, problemer med at kontrollere 
+bevægelser, høre- og talebesvær, hyppige infektioner, skeletproblemer, muskelsmerter og svaghed. </p>
+<p>Velmanase alfa er beregnet til at erstatte det manglende enzym hos patienter med alfa-mannosidose. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lamzede"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lamzede"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Lamzede 
+- hvis du er allergisk over for velmanase alfa eller et af de øvrige indholdstoffer i Lamzede 
+(angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før Lamzede bruges. 
+Der kan forekomme overfølsomhedsreaktioner ved administration af Lamzede. Disse reaktioner opstår 
+som regel under eller kort efter infusionen og kan vise sig i form af flere symptomer, som for 
+eksempel lokale eller udbredte hudreaktioner, mave-tarmsymptomer eller hævelse i halsen, ansigtet, 
+læberne eller tungen (se punkt 4 "Bivirkninger"). Hvis overfølsomhedsreaktionen er svær, anbefales 
+det straks at ophøre med at bruge Lamzede, og de aktuelle lægelige standarder for akut behandling 
+skal følges. Mindre svære overfølsomhedsreaktioner kan håndteres ved midlertidigt at afbryde 
+infusionen eller ved at sænke infusionshastigheden. Lægen kan overveje at give lægemidler til 
+behandling af allergi. </p>
+<p>Hvis du bliver behandlet med Lamzede, kan du opleve en bivirkning under eller umiddelbart efter 
+droppet (infusionen), der anvendes til at give lægemidlet (se punkt 4 "Bivirkninger"). Dette kaldes en 
+infusionsrelateret reaktion, og sådan en reaktion kan til tider være svær. 
+- Din læge kan vælge at holde dig under observation i en time eller længere efter infusionen i 
+forbindelse med de infusionsrelaterede reaktioner. 
+- Infusionsrelaterede reaktioner omfatter svimmelhed, hovedpine, kvalme, lavt blodtryk, træthed 
+og feber. Hvis du oplever en infusionsrelateret reaktion, skal du straks fortælle det til lægen. 
+- Hvis du har en infusionsrelateret reaktion, kan du få ekstra lægemidler til at behandle eller 
+hjælpe med at forhindre fremtidige reaktioner. Disse lægemidler kan omfatte lægemidler, der 
+anvendes til at behandle allergier (antihistaminer), lægemidler, der anvendes til at behandle 
+feber (antipyretika) og lægemidler til at kontrollere betændelse (kortikosteroider). 
+- Hvis den infusionsrelaterede reaktion er svær, vil lægen straks stoppe infusionen, og begynde at 
+give dig passende medicinsk behandling. 
+- Hvis de infusionsrelaterede reaktioner er svære, og/eller der er en manglende virkning af 
+lægemidlet, vil lægen tage en blodprøve for at kontrollere for antistoffer, som kan påvirke dit 
+behandlingsudfald. 
+- Du kan i de fleste tilfælde stadig få Lamzede, selv hvis du oplever en infusionsrelateret reaktion. </p>
+<p>Antistoffer kan spille en rolle i forhold til den overfølsomhed og de infusionsrelaterede reaktioner, der 
+er observeret ved brug af Lamzede. Selvom 24 % af patienterne dannede antistoffer mod Lamzede 
+under den kliniske udvikling af lægemidlet, blev der ikke fundet nogen klar sammenhæng mellem 
+antistoftitre og nedsat virkning eller forekomst af overfølsomhedsreaktioner. </p>
+<p>Brug af andre lægemidler sammen med Lamzede 
+Fortæl altid lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før dette lægemiddel bruges. </p>
+<p>Du må ikke tage dette lægemiddel under graviditeten, medmindre din læge erklærer, at det er klart 
+nødvendigt. Din læge vil diskutere dette med dig. </p>
+<p>Det er ukendt, om velmanase alfa udskilles i brystmælken. Lamzede kan anvendes under amning, da 
+velmanase alfa ikke absorberes af et barn, der ammes. </p>
+<p>Trafik- og arbejdssikkerhed 
+Lamzede påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. </p>
+<p>Lamzede indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lamzede"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lamzede"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel må kun bruges under overvågning af en læge med erfaring i behandling af 
+alfa-mannosidose eller andre tilsvarende sygdomme, og det må kun gives af sundhedspersoner. </p>
+<p>Lamzede bruges kun under overvågning af en læge, der har god forstand på behandling af sygdommen 
+alfa-mannosidose. Din læge kan anbefale, at du behandles hjemme, forudsat at du opfylder bestemte 
+kriterier. Du bedes kontakte din læge, hvis du ønsker at blive behandlet hjemme. </p>
+<p>Dosis 
+Den anbefalede dosis af Lamzede er 1 mg/kg legemsvægt, givet én gang ugentligt. </p>
+<p>Brug til børn og unge 
+Lamzede kan gives til børn og unge med den samme dosis og med samme hyppighed som hos voksne. </p>
+<p>Administration 
+Lamzede leveres i et hætteglas som et pulver til infusionsvæske, som vil blive tilberedt med vand til 
+injektionsvæsker, før det gives. 
+Når det er blevet tilberedt, vil lægemidlet gives via en infusionspumpe (drop) i en vene over en 
+periode på mindst 50 minutter under overvågning af din læge. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger opstår under infusionen eller kort efter ("infusionsrelateret reaktion", se punkt 2 
+"Advarsler og forsigtighedsregler"). </p>
+<p>Mens du er i behandling med Lamzede, kan du opleve nogle af de følgende reaktioner: </p>
+<p>Alvorlige bivirkninger </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) 
+- bevidstløshed (besvimelse, hvor svimmelhed, omtågethed eller forvirring kan gå forud) 
+- akut nedsat nyrefunktion (nyreproblemer, som kan genkendes fra væskeophobning, hævelse af 
+ben, ankler eller fødder, døsighed, stakåndethed eller træthed) 
+- overfølsomhed og alvorlig allergisk reaktion (symptomer omfatter lokaliseret eller diffus 
+hudkløe, svimmelhed, vejrtrækningsbesvær, brystsmerter, kulderystelser, feber, symptomer fra 
+mave-tarm-systemet såsom kvalme, opkastning, diarré eller tarmsmerter, hævelse af halsen, 
+ansigtet, læber eller tunge) </p>
+<p>Hvis du oplever nogle bivirkninger som disse, skal du straks fortælle det til lægen. </p>
+<p>Andre bivirkninger </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) 
+- diarré 
+- vægtøgning 
+- feber/øget legemstemperatur </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) 
+- langsom puls (bradykardi) 
+- blå hud og læber (cyanose) 
+- psykotisk adfærd (psykisk sygdom med hallucinationer, problemer med at tænke klart og forstå 
+virkeligheden, angst), indsovningsbesvær 
+- forvirret tilstand, besvimelse, rysten, svimmelhed, hovedpine 
+- mave-tarm-smerter, irriteret mave fra fordøjelsessyrer (refluks gastritis), kvalme, opkastning 
+- smerter på det sted, hvor infusionen gives, kulderystelser, varmefølelse, utilpashed, træthed 
+- hududslæt (urticaria), øget svedtendens (hyperhidrose) 
+- næseblod 
+- ledsmerter, rygsmerter, ledstivhed, muskelsmerter, smerter i ekstremiteter (hænder, fødder) 
+- øjenirritation, hævede øjenlåg (øjenlågsødem), røde øjne 
+- øget appetit </p>
+<p>Bivirkninger - hyppighed ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende 
+data) 
+- betændelse i hjertesækken indre væg (endokarditis) 
+- furunkel 
+- infektion forårsaget af bakterier, der hedder stafylokokker 
+- nedsat appetit 
+- uro, afføringsinkontinens, nervøsitet 
+- manglende evne til at koordinere muskelbevægelser 
+- søvnighed 
+- øget tåreflåd 
+- døvhed 
+- aortaklapinsufficiens (en tilstand, hvor aortaklappen ikke lukker tæt) 
+- hurtig puls 
+- lavt blodtryk 
+- skrøbelige blodkar 
+- smerter i munden og svælget 
+- hvæsende vejrtrækning 
+- synkesmerter 
+- rødme af huden 
+- hævede led, varme led 
+- svaghed </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lamzede"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lamzede"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab og transporteres nedkølet (2 °C - 8 °C). Må ikke nedfryses. 
+Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Efter rekonstitution skal lægemidlet straks bruges. Hvis det ikke bruges straks, kan den 
+rekonstituerede opløsning opbevares i op til 24 timer ved 2 °C - 8 °C. </p>
+<p>Dette lægemiddel må ikke bruges, hvis den rekonstituerede opløsning indeholder uigennemsigtige 
+partikler eller er misfarvet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lamzede indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: velmanase alfa. 
+Et hætteglas indeholder 10 mg velmanase alfa. 
+Efter rekonstitution indeholder 1 ml opløsning 2 mg velmanase alfa (10 mg / 5 ml). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: dinatriumphosphatdihydrat, natriumdihydrogenphosphatdihydrat (se 
+punkt 2 "Lamzede indeholder natrium"), mannitol (E 421) og glycin. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Lamzede er et hvidt til off-white pulver til infusionsvæske, opløsning, der leveres i et hætteglas.<br />
+Hver æske indeholder 1, 5 eller 10 hætteglas. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo 26/A 
+43122 Parma 
+Italien </p>
+<p>Fremstiller 
+Chiesi Farmaceutici S.p.A. 
+Via San Leonardo, 43122 Parma 
+Italien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+България 
+Chiesi Bulgaria EOOD 
+Teл.: + 359 29201 
+Luxembourg/Luxemburg 
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o. 
+Tel: + 420 261221 
+Magyarország 
+Chiesi Hungary Kft. 
+Tel.: + 36-1-429 1 
+Danmark 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Deutschland 
+Chiesi GmbH 
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V. 
+Tel: + 31 88 501 64<br />
+Eesti 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+Norge 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Chiesi Hellas AEBE 
+Τηλ: + 30 210 6179 
+Österreich 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+España 
+Chiesi España, S.A.U. 
+Tel: + 34 93 494 8 
+Polska 
+Chiesi Poland Sp. z.o.o. 
+Tel.: + 48 22 620 1 
+France 
+Chiesi S.A.S. 
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Hrvatska 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+România 
+Chiesi Romania S.R.L. 
+Tel: + 40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Slovenija 
+CHIESI SLOVENIJA d.o.o. 
+Tel: + 386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB 
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o. 
+Tel: + 421 259300 
+Italia 
+Chiesi Italia S.p.A. 
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Chiesi Farmaceutici S.p.A. 
+Τηλ: + 39 0521 2 
+Sverige 
+Chiesi Pharma AB 
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 </p>
+<p>Denne indlægsseddel blev senest ændret . </p>
+<p>Dette lægemiddel er godkendt under ’særlige vilkår’. Det betyder, at det grundet sygdommens 
+sjældenhed ikke har været muligt at opnå fuldstændig dokumentation for lægemidlet. 
+Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
+indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<p>--------------------------------------------------------------------------------------------------------------------------- Nedenstående oplysninger er kun til sundhedspersoner. </p>
+<p>Det er nødvendigt at rekonstituere Lamzede, og det er kun beregnet til intravenøs infusion. 
+Hvert hætteglas er kun til engangsbrug. </p>
+<p>Instruktioner for rekonstitution og administration </p>
+<p>Lamzede skal rekonstitueres og administreres af en læge eller sundhedspersonale. 
+Der skal anvendes en aseptisk teknik under forberedelsen. Der må ikke anvendes filterkanyler under 
+forberedelsen. </p>
+<p>a) 
+Det antal hætteglas, der skal bruges, skal beregnes ud fra den individuelle patients vægt. Den 
+anbefalede dosis på 1 mg/kg bestemmes ud fra den følgende beregning:</p>
+<ul>
+<li>Patientens vægt (kg) × dosis (mg/kg) = Patientens dosis (i mg). </li>
+<li>Patientens dosis (i mg) delt med 10 mg/hætteglas (indholdet af et hætteglas) = antal 
+hætteglas, der skal rekonstitueres. Hvis det beregnede antal hætteglas ikke er et helt tal, 
+skal det rundes op til det næste hele tal. </li>
+<li>Ca. 30 minutter før rekonstitution skal det nødvendige antal hætteglas fjernes fra 
+køleskabet. Hætteglassene skal nå til stuetemperatur (fra 15 °C til 25 °C) før 
+rekonstitution. </li>
+</ul>
+<p>Hvert hætteglas rekonstitueres ved langsomt at injicere 5 ml vand til injektionsvæsker langs 
+indersiden af hvert hætteglas. Hver ml rekonstitueret opløsning indeholder 2 mg velmanase alfa. 
+Kun det volumen, der svarer til den anbefalede dosis, må administreres. </p>
+<p>Eksempel:</p>
+<ul>
+<li>Patientens vægt (44 kg) × dosis (1 mg/kg) = Patientens dosis (44 mg). </li>
+<li>44 mg delt med 10 mg/hætteglas = 4,4 hætteglas, derfor skal der rekonstitueres 
+5 hætteglas. </li>
+<li>Fra det totale rekonstituerede volumen, må kun 22 ml (svarende til 44 mg) administreres. </li>
+</ul>
+<p>b) 
+Pulveret skal rekonstitueres i hætteglasset ved langsomt at tilsætte dråber af vandet til 
+injektionsvæsker langs indersiden af hætteglasset, og ikke direkte på det lyofiliserede pulver. 
+Det bør undgås at uddrive vandet til injektionsvæsker med kraft fra sprøjten på pulveret for at 
+minimere skumdannelse. De rekonstituerede hætteglas skal stå på bordet i ca. 5-10 minutter. 
+Derefter skal hvert hætteglas holdes på skrå, og indholdet skal rulles forsigtigt rundt i 
+15-20 sekunder, for at hjælpe med at opløse pulveret. Hætteglasset må ikke vendes på hovedet, 
+slynges eller rystes. </p>
+<p>c) 
+Der skal straks efter rekonstitution udføres en visuel inspektion af opløsningen for partikler og 
+misfarvning. Opløsningen skal være klar og må ikke bruges, hvis der observeres 
+uigennemsigtige partikler, eller hvis opløsningen er misfarvet. På grund af arten af 
+lægemidlet, kan den rekonstituerede opløsning til tider indeholde nogle proteinøse partikler i 
+form af tynde hvide strenge eller gennemsigtige fibre, som vil blive fjernet af in-line-filtret 
+under infusionen (se pkt. e). </p>
+<p>d) 
+Den rekonstituerede opløsning skal langsomt og forsigtigt trækkes ud af hvert hætteglas for at 
+undgå skumdannelse i sprøjten. Hvis opløsningens volumen overskrider kapaciteten af en 
+sprøjte, skal det påkrævede antal sprøjter forberedes, så sprøjten hurtigt kan udskiftes under 
+infusionen. </p>
+<p>e) 
+Den rekonstituerede opløsning skal administreres med et infusionssæt, udstyret med en pumpe 
+og et in-line-filter på 0,22 μm med lav proteinbinding. 
+Det totale infusionsvolumen bestemmes ud fra patientens vægt, og bør administreres i løbet af 
+mindst 50 minutter. Det anbefales altid at anvende den samme fortynding (2 mg/ml). For 
+patienter, der vejer under 18 kg, og som får under 9 ml rekonstitueret opløsning, skal 
+infusionshastigheden beregnes, så infusionstiden er ≥ 50 minutter. Den maksimale 
+infusionshastighed er 25 ml/time. Infusionstiden kan beregnes ud fra den følgende tabel: </p>
+<p>Patient-
+vægt 
+(kg) 
+Dosis 
+(ml) 
+Maksimal 
+infusions-
+hastighed 
+(ml/t) 
+Minimal 
+infusions-
+tid (min) </p>
+<p>Patient-
+vægt 
+(kg) 
+Dosis 
+(ml) 
+Maksimal 
+infusions-
+hastighed 
+(ml/t) 
+Minimal 
+infusions-
+tid (min) 
+5 
+2,5 
+3 </p>
+<p>26,5 
+6 
+3 
+3,6 </p>
+<p>7 
+3,5 
+4,2 </p>
+<p>27,5 
+8 
+4 
+4,8 </p>
+<p>9 
+4,5 
+5,4 </p>
+<p>28,5 
+5 
+6 </p>
+<p>5,5 
+6,6 </p>
+<p>29,5 
+6 
+7,2 </p>
+<p>6,5 
+7,8 </p>
+<p>30,5 
+Patient-
+vægt 
+(kg) 
+Dosis 
+(ml) 
+Maksimal 
+infusions-
+hastighed 
+(ml/t) 
+Minimal 
+infusions-
+tid (min) </p>
+<p>Patient-
+vægt 
+(kg) 
+Dosis 
+(ml) 
+Maksimal 
+infusions-
+hastighed 
+(ml/t) 
+Minimal 
+infusions-
+tid (min) 
+7 
+8,4 </p>
+<p>7,5 
+9 </p>
+<p>31,5 
+8 
+9,6 </p>
+<p>8,5 
+10,2 </p>
+<p>32,5 
+9 
+10,8 </p>
+<p>9,5 
+11,4 </p>
+<p>33,5 </p>
+<p>10,5 
+12,6 </p>
+<p>34,5 
+13,2 </p>
+<p>11,5 
+13,8 </p>
+<p>35,5 
+14,4 </p>
+<p>12,5 </p>
+<p>36,5 
+15,6 </p>
+<p>13,5 
+16,2 </p>
+<p>37,5 
+16,8 </p>
+<p>14,5 
+17,4 </p>
+<p>38,5 </p>
+<p>15,5 
+18,6 </p>
+<p>39,5 
+19,2 </p>
+<p>16,5 
+19,8 </p>
+<p>40,5 
+20,4 </p>
+<p>17,5 </p>
+<p>41,5 
+21,6 </p>
+<p>18,5 
+22,2 </p>
+<p>42,5 
+22,8 </p>
+<p>19,5 
+23,4 </p>
+<p>43,5 </p>
+<p>20,5 
+24,6 </p>
+<p>44,5 </p>
+<p>21,5 </p>
+<p>45,5 </p>
+<p>22,5 </p>
+<p>46,5 </p>
+<p>23,5 </p>
+<p>47,5 </p>
+<p>24,5 </p>
+<p>48,5 </p>
+<p>25,5 </p>
+<p>49,5 </p>
+<p>f) 
+Når den sidste sprøjte er tom, skal dosissprøjten udskiftes med en 20 ml sprøjte fyldt med 
+natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning. Et volumen på 10 ml 
+natriumchloridopløsning skal administreres gennem infusionssystemet for at infundere den 
+resterende fraktion af Lamzede i patientens slange. </p>
+<p>Bortskaffelse </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-b455bf5933866192c268e98801b21195
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lamzede Package Leaflet for language en"
+Description: "ePI document Bundle for lamzede Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b455bf5933866192c268e98801b21195"
+* entry[0].resource = composition-en-b455bf5933866192c268e98801b21195
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb455bf5933866192c268e98801b21195"
+* entry[=].resource = mpb455bf5933866192c268e98801b21195
+                            
+                    
+Instance: bundlepackageleaflet-da-b455bf5933866192c268e98801b21195
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lamzede Package Leaflet for language da"
+Description: "ePI document Bundle for lamzede Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-b455bf5933866192c268e98801b21195"
+* entry[0].resource = composition-da-b455bf5933866192c268e98801b21195
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb455bf5933866192c268e98801b21195"
+* entry[=].resource = mpb455bf5933866192c268e98801b21195
+                            
+                    
+
+
+
+Instance: mpb455bf5933866192c268e98801b21195
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Lamzede 10 mg powder for solution for infusion"
-Description: "Lamzede 10 mg powder for solution for infusion"
+Title: "Medicinal Product lamzede"
+Description: "lamzede"
 Usage: #inline
 
  
@@ -366,7 +1000,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Lamzede 10 mg powder for solution for infusion"
+  * productName = "lamzede"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -393,39 +1027,10 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b455bf5933866192c268e98801b21195
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lamzede Package Leaflet for language en"
-Description: "ePI document Bundle for lamzede Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b455bf5933866192c268e98801b21195ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1258/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
-
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b455bf5933866192c268e98801b21195"
-* entry[0].resource = composition-en-b455bf5933866192c268e98801b21195
-
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7a9c2fc91c698796ad733f09fc587e8d"
-* entry[=].resource = mp7a9c2fc91c698796ad733f09fc587e8d
-                            
-                      
-
-
-
-                      RuleSet: b455bf5933866192c268e98801b21195ListRuleset
-
-* identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1258/001"
+* identifier.value = "None"
 * identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
 * identifier[=].value = "lamzede"
 
@@ -459,9 +1064,21 @@ Usage: #example
 
 
 
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-b455bf5933866192c268e98801b21195) // lamzede da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
 
 Instance: List-b455bf5933866192c268e98801b21195
 InstanceOf: List
 
 * insert b455bf5933866192c268e98801b21195ListRuleset
-
+    

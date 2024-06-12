@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-74778e8109bf478af8bf20ce15b25c4c
 InstanceOf: CompositionUvEpi
 Title: "Composition for copiktra Package Leaflet"
@@ -331,12 +334,528 @@ Stamullen, Co. Meath, K32 YDIreland </p>
 
 
 
+Instance: composition-da-74778e8109bf478af8bf20ce15b25c4c
+InstanceOf: CompositionUvEpi
+Title: "Composition for copiktra Package Leaflet"
+Description:  "Composition for copiktra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe9b880749c9b002511477c4f4dcdb6c9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe9b880749c9b002511477c4f4dcdb6c9
+* title = "TEST PURPOSES ONLY - copiktra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Copiktra </li>
+<li>Sådan skal du tage Copiktra </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What copiktra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What copiktra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Copiktra er et kræftlægemiddel, der indeholder det aktive stof duvelisib. Det virker ved at blokere 
+virkningen af enzymer, som B-lymfocytter (en type hvide blodlegemer) er afhængige af for at kunne 
+vokse og overleve. Disse enzymer er overaktive i visse ondartede hvide blodlegemer, og ved at 
+blokere dem kan Copiktra dræbe og reducere antallet af ondartede B-lymfocytter. </p>
+<p>Copiktra anvendes til behandling af ondartede B-lymfocytter ved kræftsygdommene 
+• kronisk lymfatisk leukæmi (eller småcellet lymfocytært lymfom) 
+• follikulær leukæmi. </p>
+<p>Ved disse sygdomme formerer B-lymfocytterne sig for hurtigt og lever for længe, så der er for mange 
+af dem i blodet eller lymfeknuderne. Copiktra anvendes hos patienter, der tidligere har fået mindst 
+2 andre behandlinger, som ikke har virket, eller som ikke længere virker. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take copiktra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take copiktra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Copiktra 
+- hvis du er allergisk over for duvelisib eller et af de øvrige indholdsstoffer i Copiktra (angivet i 
+punkt 6). 
+Er du i tvivl, så spørg lægen, før du tager Copiktra. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Copiktra 
+- hvis du har en infektion. Den skal behandles, før du begynder at tage Copiktra. 
+- hvis du har tarmproblemer </p>
+<ul>
+<li>hvis du har lunge- eller vejrtrækningsproblemer </li>
+</ul>
+<p>Infektioner 
+Infektioner er almindelige ved behandling med Copiktra, og de kan være alvorlige og have dødelig 
+udgang. Kontakt lægen, apotekspersonalet eller sygeplejersken med det samme, hvis du får feber, 
+kulderystelser eller andre tegn på infektion under behandling med Copiktra. Lægen kan ordinere anden 
+medicin, mens du tager Copiktra, for at forebygge visse typer infektion. </p>
+<p>Diarré eller betændelse i tarmen 
+Diarré eller betændelse i tarmen (colitis) er almindeligt ved behandling med Copiktra, og de kan være 
+alvorlige og have dødelig udgang. Kontakt lægen eller apotekspersonalet med det samme, hvis du får 
+ny eller forværret diarré, har slimet eller blodig afføring eller får kraftige mavesmerter. Lægen eller 
+apotekspersonalet bør ordinere medicin mod diarré og tjekke dig mindst en gang om ugen. Hvis din 
+diarré er kraftig, eller hvis dit diarrémiddel ikke virker, skal du muligvis behandles med et steroid. </p>
+<p>Hudreaktioner 
+Copiktra kan give udslæt og andre hudreaktioner, der kan være alvorlige og have dødelig udgang. 
+Kontakt lægen eller apotekspersonalet med det samme, hvis du får nye eller forværrede hududslæt eller 
+andre hudreaktioner under behandling med Copiktra, herunder:</p>
+<ul>
+<li>smertefulde sår på huden, læberne eller i munden </li>
+<li>kraftigt udslæt med blærer eller afskalning af huden </li>
+<li>udslæt med kløe </li>
+<li>udslæt med feber 
+Lægen vil muligvis ordinere medicin, herunder et steroid, til behandling af dit udslæt eller andre 
+hudreaktioner. </li>
+</ul>
+<p>Lungebetændelse 
+Copiktra kan forårsage lungebetændelse, som kan være alvorlig og have dødelig udgang. Kontakt 
+lægen eller apotekspersonalet med det samme, hvis du får ny eller forværret hoste eller 
+vejrtrækningsproblemer. Lægen kan udføre test til undersøgelse af dine lunger, hvis du har 
+vejrtrækningsproblemer. Lægen vil muligvis behandle dig med et steroid, hvis du udvikler 
+lungebetændelse, der ikke skyldes en infektion. </p>
+<p>Forhøjede levertal 
+Copiktra kan give unormale levertal i blodprøver. Lægen vil tjekke dig for leverproblemer under 
+behandlingen med Copiktra. Kontakt lægen med det samme, hvis du får symptomer på leverproblemer, 
+herunder gulfarvning af huden eller det hvide i øjnene (gulsot), mavesmerter eller tendens til blå 
+mærker eller blødning. </p>
+<p>Blodtal 
+Lavt antal hvide blodlegemer (neutropeni) og nedsat antal røde blodlegemer (anæmi eller blodmangel) 
+kan ses hos patienter i behandling med Copiktra. Begge dele kan være alvorligt. Lægen vil tjekke dit 
+blodtal regelmæssigt. Kontakt lægen med det samme, hvis du får feber eller tegn på infektion, føler dig 
+træt eller svimmel eller får hovedpine. </p>
+<p>Hvis du får en eller flere af ovenstående alvorlige bivirkninger under behandling med Copiktra, kan 
+lægen sætte din behandling på pause, ændre din dosis eller helt standse din behandling med Copiktra. </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke anvendes til børn og unge under 18 år, da det ikke er undersøgt i denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Copiktra 
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du tager anden medicin, for 
+nylig har taget anden medicin eller planlægger at tage anden medicin. Copiktra kan påvirke andre 
+lægemidlers virkemåde, og visse andre lægemidler kan påvirke Copiktras virkemåde. </p>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis du tager et eller flere af følgende lægemidler: </p>
+<ul>
+<li>
+<p>alfentanil, fentanyl, metadon, buprenorphin/naloxon – til lindring af smerter </p>
+</li>
+<li>
+<p>alfuzosin – til behandling af forstørret prostata </p>
+</li>
+<li>
+<p>amiodaron, bepridil, disopyramid, lidocain, quinidin – til behandling af hjerteproblemer </p>
+</li>
+<li>
+<p>amlodipin, diltiazem, felodipin, nicardipin, nifedipin, verapamil – til behandling af 
+forhøjet blodtryk og hjerteproblemer </p>
+</li>
+<li>
+<p>amprenavir, atazanavir, darunavir, efavirenz, etravirin, fosamprenavir, indinavir, 
+lopinavir, nelfinavir, ritonavir, saquinavir – til behandling af hiv-infektioner </p>
+</li>
+<li>
+<p>aprepitant – til forebyggelse af opkastning </p>
+</li>
+<li>
+<p>boceprevir, telaprevir – til behandling af hepatitis C </p>
+</li>
+<li>
+<p>bosentan – til behandling af pulmonal hypertension (forhøjet blodtryk i lungerne, der giver 
+vejrtrækningsbesvær) </p>
+</li>
+<li>
+<p>budesonid, fluticason – steroider til behandling af høfeber og astma, og salmeterol til 
+behandling af astma </p>
+</li>
+<li>
+<p>buspiron, clorazepat, diazepam, estazolam, flurazepam, zolpidem – til behandling af 
+forstyrrelser i nervesystemet </p>
+</li>
+<li>
+<p>carbamazepin, mephenytoin, phenytoin – til forebyggelse af krampeanfald </p>
+</li>
+<li>
+<p>ciclosporin, sirolimus, tacrolimus – til forebyggelse af organafstødning efter transplantation </p>
+</li>
+<li>
+<p>ciprofloxacin, clarithromycin, erythromycin, nafcillin, telithromycin – til behandling af 
+bakterieinfektioner </p>
+</li>
+<li>
+<p>cisaprid – til lindring af visse maveproblemer </p>
+</li>
+<li>
+<p>colchicin – til behandling af urinsyregigt </p>
+</li>
+<li>
+<p>conivaptan – til behandling af hjerteproblemer </p>
+</li>
+<li>
+<p>dabigatran, warfarin – til forebyggelse af blodpropper </p>
+</li>
+<li>
+<p>dasatinib, imatinib, nilotinib, paclitaxel, vinblastin, vincristin – til behandling af kræft </p>
+</li>
+<li>
+<p>dihydroergotamin, ergotamin – til behandling af migræne </p>
+</li>
+<li>
+<p>fluconazol, itraconazol, ketoconazol, posaconazol, voriconazol – til behandling af 
+svampeinfektioner </p>
+</li>
+<li>
+<p>midazolam, triazolam – til behandling af søvnforstyrrelser eller lindring af angst (ved 
+indtagelse gennem munden) </p>
+</li>
+<li>
+<p>modafinil – til behandling af usædvanlig søvnighed </p>
+</li>
+<li>
+<p>p-piller eller p-implantat – til forebyggelse af graviditet </p>
+</li>
+<li>
+<p>pimozid – til behandling af unormale tanker eller følelser </p>
+</li>
+<li>
+<p>quetiapin – til behandling af skizofreni, bipolar lidelse og svær depression </p>
+</li>
+<li>
+<p>rifabutin, rifampicin – til behandling af bakterieinfektioner, herunder tuberkulose </p>
+</li>
+<li>
+<p>sildenafil, tadalafil – til behandling af impotens og pulmonal hypertension (forhøjet blodtryk 
+i lungerne, der giver vejrtrækningsbesvær) </p>
+</li>
+<li>
+<p>statiner som f.eks. atorvastatin, lovastatin, simvastatin – til sænkning af 
+kolesterolniveauet </p>
+</li>
+<li>
+<p>Prikbladet perikum (Hypericum perforatum) – et naturlægemiddel mod depression og angst </p>
+</li>
+<li>
+<p>trazodon – til behandling af depression </p>
+</li>
+</ul>
+<p>Brug af Copiktra sammen med mad og drikke 
+Undgå at drikke grapefrugtjuice. Grapefrugtjuice kan påvirke Copiktras virkemåde. </p>
+<p>Graviditet 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din 
+læge til råds, før du tager dette lægemiddel. Der bør tages en graviditetstest inden brug af Copiktra. </p>
+<p>Copiktra bør ikke anvendes under graviditet. </p>
+<p>Hvis du bliver gravid under behandling med Copiktra, skal du underrette lægen så hurtigt som muligt. </p>
+<p>Amning 
+Det er ukendt, om Copiktra udskilles i human mælk. Du bør ikke amme under behandling med 
+Copiktra og i mindst 1 måned efter den sidste dosis. </p>
+<p>Prævention 
+Sørg for sikker svangerskabsforebyggelse ved at anvende to sikre præventionsmetoder under 
+behandling med Copiktra og i mindst 1 måned efter den sidste dosis. </p>
+<p>P-piller 
+Det vides ikke, om Copiktra nedsætter effekten af p-piller. Hvis du tager p-piller, mens du er i 
+behandling med Copiktra, skal du også anvende en barrieremetode (f.eks. kondom). Spørg lægen til 
+råds. </p>
+<p>Trafik- og arbejdssikkerhed 
+Copiktra forventes ikke at påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take copiktra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take copiktra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Den anbefalede dosis Copiktra er 25 mg taget gennem munden to gange dagligt. Lægen kan dog ændre 
+din dosis af Copiktra eller bede dig om at stoppe med at tage Copiktra, hvis du får visse bivirkninger. 
+Du må ikke ændre din dosis eller holde op med at tage Copiktra uden først at tale med lægen. </p>
+<p>Synk Copiktra-kapslerne hele. 
+Du må ikke åbne, knuse eller tygge kapslerne. Du kan tage Copiktra med eller uden mad. Sig det til 
+lægen eller din omsorgsperson, hvis du har problemer med at sluge kapslerne. </p>
+<p>Hvis du har taget for meget Copiktra 
+Hvis du har taget for meget Copiktra, skal du straks kontakte lægen eller apotekspersonalet eller tage 
+til den nærmeste skadestue. Tag medicinen og denne indlægsseddel med, så du let kan beskrive, hvad 
+du har taget. </p>
+<p>Hvis du har glemt at tage Copiktra 
+Du skal være omhyggelig med ikke at glemme en dosis Copiktra. Hvis det er under 6 timer siden, du 
+skulle have taget din dosis Copiktra, skal du tage den glemte dosis med det samme og så tage den 
+næste dosis på det sædvanlige tidspunkt. Hvis det er over 6 timer siden, skal du vente med at tage en 
+dosis til det næste planlagte doseringstidspunkt. Du må ikke tage en dobbeltdosis som erstatning for en 
+glemt kapsel. </p>
+<p>Hvis du holder op med at tage Copiktra 
+Du må ikke holde op med at tage dette lægemiddel, medmindre lægen siger, du skal. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige. </p>
+<p>Du skal søge lægehjælp med det samme, hvis du får et eller flere af følgende symptomer: </p>
+<ul>
+<li>
+<p>Feber, kulderystelser eller andre tegn på infektion </p>
+</li>
+<li>
+<p>Ny eller forværret diarré, slimet eller blodig afføring eller kraftige mavesmerter </p>
+</li>
+<li>
+<p>Nyt eller forværret udslæt eller andre hudreaktioner, herunder </p>
+</li>
+<li>
+<p>smertefulde sår på huden, læberne eller i munden * kraftigt udslæt med blærer eller afskalning af huden * udslæt med kløe og/eller feber </p>
+</li>
+<li>
+<p>Ny eller forværret hoste eller vejrtrækningsbesvær </p>
+</li>
+</ul>
+<p>Andre bivirkninger </p>
+<p>Meget almindelige bivirkninger: kan forekomme hos mere end 1 ud af 10 patienter </p>
+<ul>
+<li>
+<p>Infektioner i de øvre og nedre luftveje, lungebetændelse (pneumoni) </p>
+</li>
+<li>
+<p>Nedsat antal af visse hvide blodlegemer (neutropeni) </p>
+</li>
+<li>
+<p>Nedsat antal røde blodlegemer (blodmangel) </p>
+</li>
+<li>
+<p>Nedsat antal blodplader (medvirker til blodets størkning) (trombocytopeni) </p>
+</li>
+<li>
+<p>Nedsat appetit </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Åndenød (dyspnø) </p>
+</li>
+<li>
+<p>Hoste </p>
+</li>
+<li>
+<p>Betændelse i tarmen (colitis), diarré (vandig, løs eller blød afføring), opkastning, kvalme, 
+mavesmerter </p>
+</li>
+<li>
+<p>Forstoppelse </p>
+</li>
+<li>
+<p>Hududslæt, evt. med blærer </p>
+</li>
+<li>
+<p>Smerter i muskler, knogler og led </p>
+</li>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Træthed eller svaghed </p>
+</li>
+<li>
+<p>Øget niveau af et specifikt protein i blodet, der siger noget om bugspytkirtlens funktion. </p>
+</li>
+<li>
+<p>Forhøjede levertal i blodprøver </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger: kan forekomme hos op til 1 ud af 10 patienter </p>
+<ul>
+<li>
+<p>Infektion kan sprede sig til de vitale organer, så de ikke fungerer ordentligt (sepsis) </p>
+</li>
+<li>
+<p>Lungebetændelse (pneumonitis, karakteriseret ved hoste og vejrtrækningsbesvær) </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger: kan forekomme hos op til 1 ud af 100 patienter </p>
+<ul>
+<li>Alvorlig og potentielt dødelig afskalning af huden (toksisk epidermal nekrolyse, Stevens-
+Johnsons syndrom, lægemiddeludslæt med forhøjet antal hvide blodlegemer (eosinofili) og 
+symptomer, der påvirker hele kroppen) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store copiktra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store copiktra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterpakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares ved temperaturer under 30 °C. </p>
+<p>Opbevares i den originale pakning for at beskytte mod lys. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Copiktra indeholder:</p>
+<ul>
+<li>Aktivt stof: duvelisib Hver hård kapsel indeholder 15 mg eller 25 mg duvelisib (som monohydrat). </li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>Kapselindhold: kolloidt siliciumdioxid, crospovidon, magnesiumstearat, mikrokrystallinsk 
+cellulose. </p>
+</li>
+<li>Kapselskal: gelatine, titandioxid (E171), rød jernoxid (E172). </li>
+<li>Sort trykfarve: shellacglasur, sort jernoxid (E172), propylenglycol, ammoniumhydroxid. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Copiktra 15 mg hårde kapsler </p>
+<ul>
+<li>
+<p>Uigennemsigtig, lyserød kapsel præget med "duv 15 mg" i sort blæk på underdelen. </p>
+</li>
+<li>
+<p>Pakningsstørrelse: 28-dages æske indeholdende 56 kapsler (2 blisterkort med 28 kapsler i hver). </p>
+</li>
+</ul>
+<p>Copiktra 25 mg hårde kapsler </p>
+<ul>
+<li>
+<p>Uigennemsigtig kapsel med hvid til råhvid underdel, orange overdel og præget med "duv 25 mg" 
+i sort blæk på underdelen. </p>
+</li>
+<li>
+<p>Pakningsstørrelse: 28-dages æske indeholdende 56 kapsler (2 blisterkort med 28 kapsler i hver). </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen 
+Secura Bio Limited<br />
+32 Molesworth Street<br />
+Dublin 2<br />
+Irland </p>
+<p>Fremstiller 
+Millmount Healthcare Limited (trading as PCI Pharma Services) 
+Block 7, City North Business Campus 
+Stamullen, Co. Meath, K32 YDIrland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-74778e8109bf478af8bf20ce15b25c4c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for copiktra Package Leaflet for language en"
+Description: "ePI document Bundle for copiktra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-74778e8109bf478af8bf20ce15b25c4c"
+* entry[0].resource = composition-en-74778e8109bf478af8bf20ce15b25c4c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp74778e8109bf478af8bf20ce15b25c4c"
+* entry[=].resource = mp74778e8109bf478af8bf20ce15b25c4c
+                            
+                    
+Instance: bundlepackageleaflet-da-74778e8109bf478af8bf20ce15b25c4c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for copiktra Package Leaflet for language da"
+Description: "ePI document Bundle for copiktra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-74778e8109bf478af8bf20ce15b25c4c"
+* entry[0].resource = composition-da-74778e8109bf478af8bf20ce15b25c4c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp74778e8109bf478af8bf20ce15b25c4c"
+* entry[=].resource = mp74778e8109bf478af8bf20ce15b25c4c
+                            
+                    
+
+
+
+Instance: mp74778e8109bf478af8bf20ce15b25c4c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Copiktra 15 mg hard capsules"
-Description: "Copiktra 15 mg hard capsules"
+Title: "Medicinal Product copiktra"
+Description: "copiktra"
 Usage: #inline
 
  
@@ -356,7 +875,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Copiktra 15 mg hard capsules"
+  * productName = "copiktra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -383,29 +902,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-74778e8109bf478af8bf20ce15b25c4c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for copiktra Package Leaflet for language en"
-Description: "ePI document Bundle for copiktra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 74778e8109bf478af8bf20ce15b25c4cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1542/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "copiktra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-74778e8109bf478af8bf20ce15b25c4c"
-* entry[0].resource = composition-en-74778e8109bf478af8bf20ce15b25c4c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe9b880749c9b002511477c4f4dcdb6c9"
-* entry[=].resource = mpe9b880749c9b002511477c4f4dcdb6c9
-                            
-                      
+* title = "List of all ePIs associated with copiktra"
+
+* subject = Reference(mpe9b880749c9b002511477c4f4dcdb6c9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#copiktra "copiktra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-74778e8109bf478af8bf20ce15b25c4c) // copiktra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-74778e8109bf478af8bf20ce15b25c4c) // copiktra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-74778e8109bf478af8bf20ce15b25c4c
+InstanceOf: List
+
+* insert 74778e8109bf478af8bf20ce15b25c4cListRuleset
+    

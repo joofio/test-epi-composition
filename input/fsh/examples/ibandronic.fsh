@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3b1ab70efa7458a20495ebc38b1c3fc7
 InstanceOf: CompositionUvEpi
 Title: "Composition for ibandronic Package Leaflet"
@@ -389,12 +392,526 @@ Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
 
 
 
+Instance: composition-da-3b1ab70efa7458a20495ebc38b1c3fc7
+InstanceOf: CompositionUvEpi
+Title: "Composition for ibandronic Package Leaflet"
+Description:  "Composition for ibandronic Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp619337e5e016844decf29187faaa3bfc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp619337e5e016844decf29187faaa3bfc
+* title = "TEST PURPOSES ONLY - ibandronic"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Ibandronsyre Teva </li>
+<li>Sådan skal du tage Ibandronsyre Teva </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ibandronic is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ibandronic is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ibandronsyre Teva indeholder det aktive stof ibandronsyre, som tilhører en gruppe af lægemidler 
+kaldet bisphosphonater. </p>
+<p>Ibandronsyre Teva bruges til voksne og bliver ordineret til dig, hvis du har brystkræft, som har spredt 
+sig til dine knogler (kaldet knoglemetastaser). </p>
+<ul>
+<li>
+<p>Det hjælper med at forebygge knoglebrud </p>
+</li>
+<li>
+<p>Det hjælper med at forebygge andre knogleproblemer, som kan kræve operation eller 
+strålebehandling. </p>
+</li>
+</ul>
+<p>Ibandronsyre Teva virker ved at nedsætte den mængde calcium, som mistes fra knoglerne. Det 
+modvirker, at dine knogler bliver svagere. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ibandronic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ibandronic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ibandronsyre Teva 
+- hvis du er allergisk over for ibandronsyre eller et af de øvrige indholdsstoffer i Ibandronsyre 
+Teva (angivet i punkt 6). 
+- hvis du har visse problemer med spiserøret/mavesækken, såsom indsnævring eller synkebesvær 
+- hvis du ikke kan stå eller sidde oprejst i mindst én time (60 minutter) ad gangen 
+- hvis du har eller nogensinde har haft lavt calciumindhold i blodet. </p>
+<p>Tag ikke denne medicin, hvis noget af ovenstående passer på dig. Hvis du er i tvivl, så kontakt lægen 
+eller apotekspersonalet, før du begynder at tage Ibandronsyre Teva. </p>
+<p>Advarsler og forsigtighedsregler 
+En bivirkning kaldet knoglenekrose i kæben (skader på knoglen i kæben) er blevet rapporteret meget 
+sjældent i post-marketing perioden hos patienter ved behandling med Ibandronsyre Teva for kræft-
+relateret forhold. Knoglenekrose i kæben kan også forekomme efter behandlingen med Ibandronsyre 
+Teva er stoppet. </p>
+<p>Det er vigtigt at forsøge at forhindre knoglenekrose i kæben i at udvikle sig, da det er en smertefuld 
+tilstand, som kan være vanskelig at behandle. For at reducere risikoen for at udvikle knoglenekrose i 
+kæben, er der nogle forholdsregler du bør tage. </p>
+<p>Før du modtager behandlingen, fortæl din læge eller sygeplejerske (sundhedsperson), hvis:</p>
+<ul>
+<li>du har problemer med din mund og tænder, såsom dårlig mundhygiejne, tandkødssygdom eller 
+en planlagt tandudtrækning </li>
+<li>du ikke modtager regelmæssig tandpleje eller ikke har været til kontrol i lang tid </li>
+<li>du er ryger (dette kan øge risikoen for tandproblemer) </li>
+<li>du tidligere har været i behandling med bisphosphat (anvendes til at behandle eller forbygge 
+knoglelidelser) </li>
+<li>du tager steroider (såsom prednisolon eller dexamethason) </li>
+<li>du har kræft </li>
+</ul>
+<p>Din læge kan bede dig om at gennemgå et tandeftersyn før du starter med Ibandronsyre Teva-
+behandling. </p>
+<p>Mens du er i behandling bør du opretholde en god mundhygiejne (herunder regelmæssig 
+tandbørstning) og få foretaget rutinemæssig tandeftersyn. Hvis du bruger proteser bør du sørge for, at 
+de passer ordentligt. Informer din læge, hvis du er i gang med en tandbehandling eller vil få foretaget 
+en tandoperation (f.eks. tandudtrækning), og fortæl ligeledes din tandlæge, at du er i behandling med 
+Ibandronsyre Teva. </p>
+<p>Kontakt straks din læge og tandlæge, hvis du oplever problemer med din mund eller tænder såsom 
+løse tænder, smerter eller hævelser eller hvis dine sår væsker og/eller ikke heler, da dette kan være 
+tegn på knoglenekrose i kæben. </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Ibandronsyre Teva:</p>
+<ul>
+<li>hvis du er allergisk over for andre bisphosphonater </li>
+<li>hvis du har synkebesvær eller fordøjelsesbesvær </li>
+<li>hvis du har forhøjet eller nedsat indhold af vitamin D eller andre mineraler i blodet </li>
+<li>hvis du har problemer med nyrerne. </li>
+</ul>
+<p>Der kan forekomme irritation, inflammation (betændelseslignende tilstand) eller sårdannelse i 
+spiserøret, ofte med symptomer som stærk smerte i brystet, stærk smerte efter at have sunket mad 
+og/eller drikke, voldsom kvalme eller opkastning, især hvis du ikke drikker et helt glas almindeligt 
+vand, og/eller hvis du ligger ned inden for én time efter, du har taget Ibandronsyre Teva. Hvis du 
+udvikler disse symptomer, skal du stoppe med at tage Ibandronsyre Teva og straks kontakte din læge 
+(se punkt 3 og 4). </p>
+<p>Børn og unge 
+Ibandronsyre Teva må ikke anvendes til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Ibandronsyre Teva 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette skyldes, at Ibandronsyre Teva kan påvirke den 
+måde anden medicin virker på, ligesom anden medicin kan påvirke den måde, hvorpå Ibandronsyre 
+Teva virker. </p>
+<p>Fortæl især din læge eller apotekspersonalet, hvis du tager noget af nedenstående medicin: </p>
+<ul>
+<li>
+<p>kosttilskud indeholdende calcium, magnesium, jern eller aluminium </p>
+</li>
+<li>
+<p>acetylsalicylsyre, non-steroide anti-inflammatoriske lægemidler kaldet NSAIDer, såsom 
+ibuprofen eller naproxen. Det er fordi NSAIDer og Ibandronsyre Teva begge kan irritere din 
+mave-tarmkanal </p>
+</li>
+<li>
+<p>injektioner af en type antibiotika, der kaldes "aminoglykosider" såsom gentamicin. 
+Aminoglykosider og Ibandronsyre Teva kan begge nedsætte mængden af calcium i dit blod.  </p>
+</li>
+</ul>
+<p>Indtagelse af medicin, som reducerer mængden af mavesyre, såsom cimetidin og ranitidin, kan give let 
+forøget effekt af Ibandronsyre Teva. </p>
+<p>Brug af Ibandronsyre Teva sammen med mad og drikke 
+Tag ikke Ibandronsyre Teva sammen med mad eller andre drikkevarer end vand, da Ibandronsyre 
+Teva virker mindre effektivt, hvis det tages sammen med mad og drikke (se punkt 3). </p>
+<p>Indtag Ibandronsyre Teva mindst 6 timer efter, at du sidst har spist, drukket eller taget nogen form for 
+anden medicin, vitaminer og mineraler eller kosttilskud (f.eks. produkter, der indeholder kalk (mælk), 
+aluminium, magnesium og jern) andet end vand. Efter indtagelse af tabletten skal du vente mindst minutter, før du indtager mad, drikke, anden medicin, vitaminer og mineraler eller kosttilskud (se 
+punkt 3). </p>
+<p>Graviditet og amning 
+Tag ikke Ibandronsyre Teva, hvis du er gravid eller planlægger at blive gravid, eller hvis du ammer. 
+Spørg lægen eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan føre motorkøretøj og betjene maskiner, da det forventes, at Ibandronsyre Teva ikke eller kun i 
+ubetydelig grad påvirker din evne til at føre motorkøretøj og betjene maskiner. Kontakt først lægen, 
+hvis du vil føre motorkøretøj, betjene maskiner eller værktøj. </p>
+<p>Ibandronsyre Teva indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
+er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ibandronic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ibandronic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.  </p>
+<p>Indtag Ibandronsyre Teva mindst 6 timer efter, at du sidst har spist, drukket eller taget nogen form for 
+anden medicin, vitaminer og mineraler eller kosttilskud andet end vand. Vand med et højt kalkindhold 
+bør ikke bruges. Hvis der er usikkerhed omkring et eventuelt for højt kalkindhold i postevandet, 
+anbefales det at bruge vand på flaske med et lavt mineralindhold. </p>
+<p>Din læge kan vælge at tage regelmæssige blodprøver, mens du er i behandling med Ibandronsyre 
+Teva. Dette er for at undersøge, om du får den rigtige mængde medicin. </p>
+<p>Når du tager denne medicin 
+Det er vigtigt, at du tager Ibandronsyre Teva på det rigtige tidspunkt og på den rigtige måde. Det er 
+fordi, der kan forekomme irritation, betændelse eller sårdannelse i spiserøret/mavesækken. </p>
+<p>Du kan mindske risikoen for at dette forekommer ved at gøre følgende:   </p>
+<ul>
+<li>
+<p>Tag din tablet så snart du står op om morgenen, før du spiser noget, drikker noget eller tager 
+nogen form for medicin, vitaminer og mineraler eller kosttilskud.  </p>
+</li>
+<li>
+<p>Tag din Ibandronsyre Teva-tablet udelukkende med et helt glas vand (ca. 200 ml).  </p>
+</li>
+<li>
+<p>Tag ikke tabletten med andet end almindeligt vand.  </p>
+</li>
+<li>
+<p>Synk tablettten hel. Lad være med at tygge, sutte, eller knuse tabletten. Lad ikke tabletten 
+opløses i munden </p>
+</li>
+<li>
+<p>Efter indtagelse af Ibandronsyre Teva-tabletten skal du vente i mindst 30 minutter.Derefter 
+kan du indtage dagens første mad og drikke samt tage medicin, vitaminer og mineraler eller 
+kosttilskud. </p>
+</li>
+<li>
+<p>Du skal indtage indtage tabletten i oprejst stilling (siddende eller stående) og forblive oprejst i 
+den næste time (60 minutter) efter, at du har taget din tablet. Hvis du ikke forbliver oprejst 
+(siddende eller liggende), kan noget af medicinen løbe tilbage i spiserøret. </p>
+</li>
+</ul>
+<p>Hvor meget skal du tage 
+Den sædvanlige dosis Ibandronsyre Teva er én tablet dagligt. Hvis du lider af nyreproblemer, kan din 
+læge vælge at nedsætte dosis til én tablet hver anden dag (i tilfælde af moderat nyresygdom) eller til én 
+tablet om ugen (i tilfælde af alvorlig nyresygdom). </p>
+<p>Hvis du har taget for meget Ibandronsyre Teva 
+Kontakt straks lægen eller tag på skadestuen med det samme, hvis du har indtaget for mange tabletter. 
+Drik et helt glas mælk inden du kører. Fremkald ikke opkastning, og læg dig ikke ned.  </p>
+<p>Hvis du har glemt at tage Ibandronsyre Teva 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Hvis du tager én tablet hver dag, 
+spring da den glemte tablet over og fortsæt som normalt den næste dag. Hvis du tager én tablet hver 
+anden dag eller én gang om ugen, spørg da din læge eller apotekspersonalet til råds. </p>
+<p>Hvis du holder op med at tage Ibandronsyre Teva 
+Det er vigtigt, at du anvender Ibandronsyre Teva så længe, din læge har ordineret det. Ibandronsyre 
+Teva kan kun afhjælpe din tilstand så længe, du fortsætter med at anvende det </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt straks sygeplejersken eller lægen, hvis du oplever nogle af følgende alvorlige 
+bivirkninger - du kan have brug for akut lægehjælp: </p>
+<p>Almindelig (kan forekomme hos 1 ud af 10 behandlede) 
+• kvalme, halsbrand eller ubehag ved at synke (betændelse i spiserøret) </p>
+<p>Ikke almindelig (kan forekomme hos 1 ud af 100 behandlede) 
+• stærke mavesmerter. Dette kan være tegn på, at du har et blødende sår i den første del af tarmen 
+(tolvfingertarmen), eller at mavens slimhinde er betændt (gastritis). </p>
+<p>Sjælden (kan forekomme hos 1 ud af 1.000 behandlede) 
+• vedvarende smerte og betændelse i øjet. 
+• ny smerte, svækkelse eller ubehag i dine lår, hofte eller lyske. Du kan have tidlige tegn på et 
+brud på lårbensknoglen. </p>
+<p>Meget sjælden (kan forekomme hos 1 ud af 10.000 behandlede) 
+• smerte eller ømhed i munden eller kæben. Det kan være tegn på skader på knoglen i kæben 
+(knoglenekrose [dødt knoglevæv]). 
+• tal med din læge, hvis du har ørepine, udflåd fra øret og/eller øreinfektion. Det kan være tegn på 
+skader på knoglerne i øret. 
+• kløe, hævelse af ansigt, læber, tunge og hals, med vejrtrækningsproblemer. Du kan have fået 
+en alvorlig allergisk reaktion, som kan være livstruende. 
+• svære hudreaktioner </p>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data) 
+• astmaanfald </p>
+<p>Andre bivirkninger </p>
+<p>Almindelig (kan forekomme hos 1 ud af 10 behandlede): 
+• mavesmerter, fordøjelsesbesvær 
+• lavt indhold af kalk i blodet 
+• svaghedsfølelse </p>
+<p>Ikke almindelig (kan forekomme hos færre end 1 ud af 100 behandlede): 
+• brystsmerter 
+• kløe eller prikken i huden 
+• influenzalignende symptomer, følelse af utilpashed eller smerte 
+• mundtørhed, mærkelig smag i munden eller synkebesvær 
+• blodmangel 
+• forhøjet koncentration i blodet af urinsyre eller hormoner fra biskjoldbruskkirtlen </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ibandronic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ibandronic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ibandronsyre Teva indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: ibandronsyre. Hver filmovertrukket tablet indeholder 50 mg ibandronsyre (som 
+natrium monohydrat). 
+Øvrige indholdsstoffer: </p>
+</li>
+<li>
+<p>tabletkerne: mikrokrystallinsk cellulose, povidon K-30, crospovidon (type A), kolloid vandfri 
+silica, stearinsyre. </p>
+</li>
+<li>
+<p>tabletovertræk: titandioxid (E171), hypromellose, macrogol 400, polysorbat 80. Udseende og pakningsstørrelser 
+Ibandronsyre Teva filmovertrukne tabletter er hvide, bikonvekse, kapselformede, præget med “50" på 
+den ene side og ingenting på den anden side. </p>
+</li>
+</ul>
+<p>Ibandronsyre Teva findes i blistere (PVC/Aclar/PVC - Aluminium) i æsker á 28 eller 84 tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Fremstiller: 
+Teva Pharmaceutical Works Private Limited Company 
+Pallagi út 13<br />
+4042 Debrecen 
+Ungarn </p>
+<p>Pharmachemie B.V. 
+Swensweg 5<br />
+2031 GA Haarlem 
+Holland </p>
+<p>Teva Czech Industries s.r.o 
+Ostravska 29/305<br />
+747 70 Opava-Komarov 
+Tjekkiet </p>
+<p>Teva Operations Poland Sp.z o.o 
+ul. Mogilska 31-546 Krakow 
+Polen </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Teл: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Norge 
+Teva Norway AS 
+Tel: +372 6610 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+Indlægsseddel: Information til patienten </p>
+<p>Ibandronsyre Teva 150 mg filmovertrukne tabletter 
+ibandronsyre </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3b1ab70efa7458a20495ebc38b1c3fc7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ibandronic Package Leaflet for language en"
+Description: "ePI document Bundle for ibandronic Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3b1ab70efa7458a20495ebc38b1c3fc7"
+* entry[0].resource = composition-en-3b1ab70efa7458a20495ebc38b1c3fc7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3b1ab70efa7458a20495ebc38b1c3fc7"
+* entry[=].resource = mp3b1ab70efa7458a20495ebc38b1c3fc7
+                            
+                    
+Instance: bundlepackageleaflet-da-3b1ab70efa7458a20495ebc38b1c3fc7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ibandronic Package Leaflet for language da"
+Description: "ePI document Bundle for ibandronic Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3b1ab70efa7458a20495ebc38b1c3fc7"
+* entry[0].resource = composition-da-3b1ab70efa7458a20495ebc38b1c3fc7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3b1ab70efa7458a20495ebc38b1c3fc7"
+* entry[=].resource = mp3b1ab70efa7458a20495ebc38b1c3fc7
+                            
+                    
+
+
+
+Instance: mp3b1ab70efa7458a20495ebc38b1c3fc7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ibandronic Acid Teva 50 mg film-coated tablets"
-Description: "Ibandronic Acid Teva 50 mg film-coated tablets"
+Title: "Medicinal Product ibandronic"
+Description: "ibandronic"
 Usage: #inline
 
  
@@ -414,7 +931,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ibandronic Acid Teva 50 mg film-coated tablets"
+  * productName = "ibandronic"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -441,29 +958,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3b1ab70efa7458a20495ebc38b1c3fc7
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ibandronic Package Leaflet for language en"
-Description: "ePI document Bundle for ibandronic Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3b1ab70efa7458a20495ebc38b1c3fc7ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/10/642/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ibandronic"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3b1ab70efa7458a20495ebc38b1c3fc7"
-* entry[0].resource = composition-en-3b1ab70efa7458a20495ebc38b1c3fc7
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp619337e5e016844decf29187faaa3bfc"
-* entry[=].resource = mp619337e5e016844decf29187faaa3bfc
-                            
-                      
+* title = "List of all ePIs associated with ibandronic"
+
+* subject = Reference(mp619337e5e016844decf29187faaa3bfc)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ibandronic "ibandronic"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3b1ab70efa7458a20495ebc38b1c3fc7) // ibandronic en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3b1ab70efa7458a20495ebc38b1c3fc7) // ibandronic da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3b1ab70efa7458a20495ebc38b1c3fc7
+InstanceOf: List
+
+* insert 3b1ab70efa7458a20495ebc38b1c3fc7ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1f96cd88f64662096f991c68963865d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for baraclude Package Leaflet"
@@ -272,12 +275,382 @@ Dublin 15, D15 TIreland </p>
 
 
 
+Instance: composition-da-1f96cd88f64662096f991c68963865d4
+InstanceOf: CompositionUvEpi
+Title: "Composition for baraclude Package Leaflet"
+Description:  "Composition for baraclude Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2ffdef9feacbfd2c3b9eeaf73bfb3da9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2ffdef9feacbfd2c3b9eeaf73bfb3da9
+* title = "TEST PURPOSES ONLY - baraclude"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Baraclude 
+3. Sådan skal du tage Baraclude 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What baraclude is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What baraclude is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Baraclude tabletter er anti-viral medicin, som anvendes til at behandle kronisk  (vedvarende) 
+infektion med hepatitis-B virus (HBV) hos voksne. Baraclude kan anvendes til mennesker, hvis 
+lever er skadet, men stadig fungerer ordentligt (kompenseret leversygdom) og til mennesker, hvis lever 
+er skadet og ikke fungerer ordentligt (inkompenseret leversygdom). </p>
+<p>Baraclude tabletter anvendes også til at behandle kronisk (vedvarende) infektion med HBV hos 
+børn og unge i alderen 2-18 år. Baraclude kan anvendes til børn, hvis lever er skadet, men stadig 
+fungerer ordentligt (kompenseret leversygdom). </p>
+<p>Infektion med hepatitis-B virus kan medføre leverskader. Baraclude mindsker mængden af virus i 
+kroppen og forbedrer leverens tilstand. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take baraclude"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take baraclude"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Baraclude </p>
+<ul>
+<li>hvis du er overfølsom (allergisk) over for entecavir eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Baraclude </p>
+<ul>
+<li>
+<p>hvis du tidligere har haft problemer med nyrerne, skal du fortælle din læge det. Det er 
+vigtigt, fordi Baraclude udskilles gennem nyrerne, og din dosis eller dosisintervallet skal 
+tilpasses. </p>
+</li>
+<li>
+<p>du skal ikke holde op med at tage Baraclude uden at have talt med din læge om det først, 
+da din hepatitis kan forværres, efter at behandlingen stoppes. Hvis behandlingen med Baraclude 
+skal stoppes, vil din læge følge dig og tage blodprøver igennem flere måneder. </p>
+</li>
+<li>
+<p>tal med lægen om din lever fungerer ordentligt, og hvis ikke, find ud af, hvordan det kan 
+påvirke din behandling med Baraclude. </p>
+</li>
+<li>
+<p>hvis du også har en hiv-infektion (humant immundefektvirus), skal du sørge for at fortælle det 
+til din læge. Du bør ikke tage Baraclude for at behandle din hepatitis-B-infektion, medmindre du 
+samtidig også tager medicin mod hiv, idet virkningen af fremtidig hiv-behandling kan blive 
+nedsat. Baraclude vil ikke kontrollere din hiv-infektion. </p>
+</li>
+<li>
+<p>selvom du tager Baraclude, kan du stadig smitte andre med hepatitis-B virus (HBV) 
+gennem seksuel kontakt eller kropsvæsker (fx blod). Så det er vigtigt, at du overholder relevante 
+forholdsregler for at undgå at smitte andre med HBV. Det er muligt at blive vaccineret mod 
+HBV. </p>
+</li>
+<li>
+<p>Baraclude tilhører en gruppe medicin, der kan forårsage lactacidose (ophobning af 
+mælkesyre i blodet) og forstørret lever. Kvalme, opkastning og mavesmerter kan være tegn på 
+udvikling af lactacidose. Denne sjældne, men alvorlige bivirkning har i nogle tilfælde været 
+dødelig. Kvinder har større risiko for lactacidose, specielt hvis de er meget overvægtige. Lægen 
+vil jævnligt kontrollere dig, mens du tager Baraclude. </p>
+</li>
+<li>
+<p>tal med lægen, hvis du tidligere har modtaget behandling for kronisk hepatitis B. </p>
+</li>
+</ul>
+<p>Børn og unge 
+Baraclude bør ikke anvendes til børn under 2 år eller børn, der vejer under 10 kg. </p>
+<p>Brug af anden medicin sammen med Baraclude 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept, f.eks. naturlægemidler og vitaminer og mineraler. </p>
+<p>Baraclude sammen med mad og drikke 
+De fleste kan tage Baraclude med eller uden mad. Hvis du tidligere har fået medicin, der indeholder 
+lamivudin, skal du dog være opmærksom på følgende: Hvis du er skiftet til Baraclude, fordi 
+behandlingen med lamivudin ikke virkede, skal du tage Baraclude på tom mave, én gang dagligt. Hvis 
+din leversygdom er meget fremskreden, vil lægen ligeledes vejlede dig i, at du skal tage Baraclude på 
+tom mave. Tom mave betyder mindst 2 timer efter et måltid og mindst 2 timer før det næste måltid. 
+Børn og unge (fra 2-18 år) kan tage Baraclude med eller uden mad. </p>
+<p>Graviditet, amning og frugtbarhed 
+Fortæl det til lægen, hvis du er gravid, eller hvis du planlægger at blive gravid. Det vides ikke, om det 
+er sikkert at bruge Baraclude under graviditet. Baraclude må ikke anvendes under graviditet undtagen, 
+hvis lægen har ordineret det til dig. Det er vigtigt, at frugtbare kvinder, som er i behandling med 
+Baraclude, anvender effektiv svangerskabsforebyggelse for at forhindre graviditet. </p>
+<p>Du må ikke amme, mens du er i behandling med Baraclude. Fortæl det til lægen, hvis du ammer. Det 
+vides ikke om entecavir, der er det aktive indholdsstof i Baraclude, udskilles i mælken. </p>
+<p>Trafik og arbejdssikkerhed 
+Svimmelhed, voldsom træthed og søvnighed er almindelige bivirkninger, som kan påvirke evnen til at 
+køre bil, motorcykel eller cykle eller arbejde med værktøj eller maskiner. Hvis du har spørgsmål, kan 
+du kontakte lægen. </p>
+<p>Baraclude indeholder lactose 
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take baraclude"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take baraclude"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dosis af Baraclude er ikke den samme til alle patienter. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.  </p>
+<p>Til voksne er den anbefalede dosis 0,5 mg eller 1 mg én gang dagligt oralt (igennem munden). </p>
+<p>Din dosis afhænger af: </p>
+<ul>
+<li>
+<p>om du tidligere er behandlet for HBV-infektion, og hvilken medicin du fik. </p>
+</li>
+<li>
+<p>om du har nyreproblemer. Lægen kan vælge at give dig en lavere dosis eller vejlede dig i at tage 
+medicinen mindre end en gang dagligt. </p>
+</li>
+<li>
+<p>tilstanden af din lever. </p>
+</li>
+</ul>
+<p>Til børn og unge (fra 2-18 år) vil barnets læge fastsætte den korrekte dosis ud fra barnets vægt. 
+Baraclude oral opløsning anbefales til patienter, der vejer fra 10-32,5 kg.Børn, der vejer mindst 
+32,6 kg kan bruge den orale opløsning eller 0,5 mg tabletten. Alle doseringer tages én gang dagligt 
+oralt (igennem munden). Der er ingen dosisanbefalinger for Baraclude til børn under 2 år eller børn, 
+der vejer under 10 kg. </p>
+<p>Lægen vil rådgive dig om, hvilken dosis, der er bedst for dig. Tag altid den dosis, lægen anbefaler for 
+at være sikker på, at medicinen virker helt som den skal og for at mindske udviklingen af resistens. 
+Tag Baraclude lige så længe som lægen har foreskrevet. Lægen vil give dig besked om, hvorvidt du 
+skal afslutte behandingen, og hvornår du skal afslutte behandlingen. </p>
+<p>Nogle patienter skal tage Baraclude på tom mave (se Baraclude sammen med mad og drikke i afsnit 
+2). Hvis lægen har sagt, at du skal tage Baraclude på tom mave, betyder det mindst 2 timer efter et 
+måltid og mindst 2 timer før næste måltid. </p>
+<p>Hvis du har taget for meget Baraclude 
+skal du straks kontakte lægen. </p>
+<p>Hvis du har glemt at tage Baraclude 
+Det er vigtigt, at du ikke springer en dosis over. Hvis du glemmer at tage en dosis af Baraclude, skal 
+du tage den så hurtigt som muligt, og herefter tage næste dosis til sædvanlig tid. Hvis det næsten er tid 
+til næste dosis, skal du ikke tage den glemte dosis, men vente og tage næste dosis til sædvanlig tid. Du 
+må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Du må ikke holde op med at tage Baraclude uden at have talt med lægen 
+Nogle mennesker får meget alvorlige leversymptomer, når de holder op med at tage Baraclude. Hvis 
+du bemærker ændringer i symptomer, efter at behandlingen er stoppet, skal du straks fortælle det til 
+lægen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Patienter behandlet med Baraclude har indberettet følgende bivirkninger: </p>
+<p>Voksne </p>
+<ul>
+<li>
+<p>almindelige (kan forekomme hos mindst 1 ud af 100 patienter): hovedpine, søvnløshed, voldsom 
+træthed, svimmelhed, søvnighed, opkastning, diarré, kvalme, fordøjelsesbesvær og forhøjet 
+indhold af leverenzymer i blodet. </p>
+</li>
+<li>
+<p>ikke almindelige (kan forekomme hos mindst 1 ud af 1.000 patienter): udslæt, hårtab.  </p>
+</li>
+<li>
+<p>sjældne (kan forekomme hos mindst 1 ud af 10.000 patienter): alvorlig allergisk reaktion. </p>
+</li>
+</ul>
+<p>Børn og unge 
+De bivirkninger, der er set hos børn og unge, svarer til dem, der er set hos voksne som beskrevet 
+ovenfor med følgende forskel: 
+Meget almindelige (kan forekomme hos mindst 1 ud af 10 patienter): lave niveauer af neutrofiler (en 
+type hvide blodlegemer, der er vigtige til bekæmpelse af infektion). </p>
+<p>Tal med lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+fremgår af denne indlægsseddel. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store baraclude"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store baraclude"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderen, blisteren eller kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Blisterpakning: må ikke opbevares ved temperaturer over 30 °C. Opbevares i originalemballagen. 
+Beholdere: må ikke opbevares ved temperaturer over 25 °C. Beholderen skal holdes tæt tillukket. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Baraclude indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: entecavir. Hver filmovertrukken tablet indeholder 0,5 mg entecavir. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: 
+Tabletkerne: crospovidon, lactosemonohydrat, magnesiumstearat, cellulose, mikrokrystallinsk 
+og povidon. 
+Tabletovertræk: hypromellose, macrogol 400, titandioxid (E171) og polysorbat 80 (E433). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+De filmovertrukne tabletter er hvide til grålighvide og trekantede. De er mærkede “BMS” på den ene 
+side og “1611” på den anden. Baraclude 0,5 mg filmovertrukne tabletter fås i æsker med 30 x 1 eller 
+90 x 1 filmovertrukket tablet (enkeltdosis-blistere) og i beholdere med 30 filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser markedsføres nødvendigvis i dit land. </p>
+<p>Indehaver af markedsføringstilladelse og fremstiller 
+Indehaver af markedsføringstilladelsen: 
+Bristol-Myers Squibb Pharma EEIG<br />
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Fremstiller: 
+CATALENT ANAGNI S.R.L. 
+Loc. Fontana del Ceraso snc 
+Strada Provinciale 12 Casilina, 03012 Anagni (FR) 
+Italien </p>
+<p>Swords Laboratories Unlimited Company T/A Bristol-Myers Squibb Pharmaceutical Operations, 
+External Manufacturing 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Baraclude 1 mg filmovertrukne tabletter 
+entecavir </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret Baraclude til dig personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </p>
+</li>
+<li>
+<p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1f96cd88f64662096f991c68963865d4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for baraclude Package Leaflet for language en"
+Description: "ePI document Bundle for baraclude Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1f96cd88f64662096f991c68963865d4"
+* entry[0].resource = composition-en-1f96cd88f64662096f991c68963865d4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f96cd88f64662096f991c68963865d4"
+* entry[=].resource = mp1f96cd88f64662096f991c68963865d4
+                            
+                    
+Instance: bundlepackageleaflet-da-1f96cd88f64662096f991c68963865d4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for baraclude Package Leaflet for language da"
+Description: "ePI document Bundle for baraclude Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1f96cd88f64662096f991c68963865d4"
+* entry[0].resource = composition-da-1f96cd88f64662096f991c68963865d4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f96cd88f64662096f991c68963865d4"
+* entry[=].resource = mp1f96cd88f64662096f991c68963865d4
+                            
+                    
+
+
+
+Instance: mp1f96cd88f64662096f991c68963865d4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Baraclude 0.5 mg film-coated tablets"
-Description: "Baraclude 0.5 mg film-coated tablets"
+Title: "Medicinal Product baraclude"
+Description: "baraclude"
 Usage: #inline
 
  
@@ -297,7 +670,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Baraclude 0.5 mg film-coated tablets"
+  * productName = "baraclude"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -324,29 +697,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1f96cd88f64662096f991c68963865d4
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for baraclude Package Leaflet for language en"
-Description: "ePI document Bundle for baraclude Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1f96cd88f64662096f991c68963865d4ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Baraclude 0.5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "baraclude"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1f96cd88f64662096f991c68963865d4"
-* entry[0].resource = composition-en-1f96cd88f64662096f991c68963865d4
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2ffdef9feacbfd2c3b9eeaf73bfb3da9"
-* entry[=].resource = mp2ffdef9feacbfd2c3b9eeaf73bfb3da9
-                            
-                      
+* title = "List of all ePIs associated with baraclude"
+
+* subject = Reference(mp2ffdef9feacbfd2c3b9eeaf73bfb3da9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#baraclude "baraclude"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1f96cd88f64662096f991c68963865d4) // baraclude en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1f96cd88f64662096f991c68963865d4) // baraclude da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1f96cd88f64662096f991c68963865d4
+InstanceOf: List
+
+* insert 1f96cd88f64662096f991c68963865d4ListRuleset
+    

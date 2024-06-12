@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8d701e4538054dcfc1e7cc34c7f1602b
 InstanceOf: CompositionUvEpi
 Title: "Composition for telmisartan Package Leaflet"
@@ -379,12 +382,515 @@ Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
 
 
 
+Instance: composition-da-8d701e4538054dcfc1e7cc34c7f1602b
+InstanceOf: CompositionUvEpi
+Title: "Composition for telmisartan Package Leaflet"
+Description:  "Composition for telmisartan Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0102d38d3f422b3d80e578171fc2a2c1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0102d38d3f422b3d80e578171fc2a2c1
+* title = "TEST PURPOSES ONLY - telmisartan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse  <br />
+2. Det skal du vide, før du begynder at tage Telmisartan Teva Pharma 
+3. Sådan skal du tage Telmisartan Teva Pharma 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What telmisartan is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What telmisartan is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Telmisartan Teva Pharma tilhører en klasse af lægemidler, der kaldes angiotensin II-
+receptorantagonister. Angiotensin II er et stof, der findes i kroppen, som får blodkarrene til at snævre 
+ind. Når blodkarrene snævrer ind, stiger blodtrykket. Telmisartan Teva Pharma blokerer angiotensin 
+II's virkning, så blodkarrene afslappes, og blodtrykket falder. </p>
+<p>Telmisartan Teva Pharma bruges til behandling af essentiel hypertension (forhøjet blodtryk) hos 
+voksne. "Essentiel" betyder, at der ikke er nogen anden sygdom, der er årsag til, at blodtrykket er 
+forhøjet. </p>
+<p>Hvis forhøjet blodtryk ikke behandles, kan der ske skader på blodkarrene i flere organer, som i nogle 
+tilfælde kan føre til hjerteanfald, hjerte- eller nyresvigt, slagtilfælde eller blindhed. Man har normalt 
+ingen symptomer på forhøjet blodtryk, før en skade sker. Derfor er det vigtigt at få målt blodtrykket 
+regelmæssigt for at finde ud af, om det ligger i normalområdet. </p>
+<p>Telmisartan Teva Pharma bruges også til at nedsætte risikoen for hjerte-kar-hændelser og blodprop 
+i hjernen hos voksne, som har en forøget risiko. Den øgede risiko kan skyldes, at blodforsyningen til 
+hjertet eller benene er nedsat eller blokeret, men kan også skyldes, at man tidligere har haft en 
+blodprop i hjernen, eller at man har fremskreden sukkersyge. Din læge kan informere dig, om du er i 
+risikogruppen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take telmisartan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take telmisartan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Telmisartan Teva Pharma 
+- hvis du er allergisk over for telmisartan eller et af de øvrige indholdsstoffer i Telsimsartan 
+Teva Pharma (angivet i punkt 6)<br />
+- hvis du er mere end 3 måneder henne i graviditeten - (du skal desuden helst undgå at bruge 
+Telmisartan Teva Pharma tidligt i graviditeten - se afsnittet om graviditet). <br />
+- hvis du har alvorlige leverproblemer, såsom kolestase eller galdevejsobstruktion (problem 
+med udskillelse af galde fra leveren eller fra galdeblæren) eller anden alvorlig leversygdom. 
+- hvis du har sukkersyge eller nedsat nyrefunktion, og du også tager et blodtrykssænkende 
+lægemiddel, der indeholder aliskiren. </p>
+<p>Hvis du har nogen af ovenstående tilstande, så fortæl det til lægen eller på apoteket, før du tager 
+Telmisartan Teva Pharma. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, hvis du har eller har haft nogen af nedenstående sygdomme eller tilstande:</p>
+<ul>
+<li>Nyresygdom eller nyretransplantation </li>
+<li>Nedsat blodtilstrømning til en eller begge nyrer (nyrearteriestenose) </li>
+<li>Leversygdom </li>
+<li>Hjerteproblemer </li>
+<li>Aldosteronisme (vand eller saltophobning i kroppen samtidig med ubalance i 
+mineralsammensætningen) </li>
+<li>For lavt blodtryk (hypotension), som kan forekomme, hvis du er dehydreret (overdrevent tab 
+af kropsvæske) eller er i saltunderskud efter anvendelse af vanddrivende medicin, er på 
+saltfattig kost, har diarré eller ved opkastning. </li>
+<li>Højt kaliumindhold i blodet </li>
+<li>Diabetes. </li>
+</ul>
+<p>Kontakt lægen, før du tager Telmisartan Teva Pharma:</p>
+<ul>
+<li>hvis du tager digoxin </li>
+<li>
+<p>hvis du samtidig tager et af følgende lægemidler til behandling af for højt blodtryk:</p>
+</li>
+<li>
+<p>en ACE-hæmmer (f.eks. enalapril, lisinopril, ramipril), især hvis du har nyreproblemer i 
+forbindelse med sukkersyge </p>
+</li>
+<li>aliskiren. </li>
+</ul>
+<p>Din læge vil eventuelt måle din nyrefunktion, dit blodtryk og elektrolytter (f.eks. kalium) i dit blod 
+med jævne mellemrum. </p>
+<p>Se også information under overskriften "Tag ikke Telmisartan Teva Pharma". </p>
+<p>Fortæl altid lægen, hvis du tror, du er (eller måske bliver) gravid. Telmisartan Teva Pharma frarådes 
+tidligt i graviditeten og må ikke tages, hvis du er mere end 3 måneder henne i graviditeten, da det kan 
+forårsage alvorlige fosterskader, hvis det bruges på det tidspunkt (se afsnittet om graviditet). </p>
+<p>Hvis du skal opereres eller have anden form for bedøvelse, så fortæl lægen, at du tager Telmisartan 
+Teva Pharma. </p>
+<p>Telmisartan Teva Pharma kan have en mindre blodtrykssænkende virkning hos sorte patienter. </p>
+<p>Børn og unge 
+Børn og unge under 18 år bør ikke behandles med Telmisartan Teva Pharma. </p>
+<p>Brug af anden medicin sammen med Telmisartan Teva Pharma 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig.  </p>
+<p>Det kan være nødvendigt at ændre dosis af disse andre typer medicin eller tage andre forholdsregler. 
+Muligvis vil det være nødvendigt at stoppe brugen af anden medicin specielt, hvis det er noget af 
+følgende, der tages samtidig med Telmisartan Teva Pharma. </p>
+<ul>
+<li>
+<p>Medicin, som indeholder lithium til behandling af depression. </p>
+</li>
+<li>
+<p>Medicin, som kan forhøje blodets indhold af kalium, såsom kaliumholdige saltsubstitutter,<br />
+kaliumbesparende medicin (visse typer diuretika eller vanddrivende tabletter), ACE-
+hæmmere, angiotensin II-receptorantagonister, non-steroid antiinflammatorisk medicin 
+(NSAID'er som aspirin og ibuprofen), heparin, lægemidler der undertrykker immunsystemet 
+(som cyclosporin og tacrolimus) og antibiotika indeholdende trimethoprim. </p>
+</li>
+<li>
+<p>Vanddrivende medicin (diuretika), især i høje doser taget sammen med Telmisartan Teva 
+Pharma, kan føre til overdrevent tab af kropsvæske og for lavt blodtryk (hypotension). </p>
+</li>
+<li>
+<p>Hvis du samtidig tager en ACE-hæmmer eller aliskiren (se også information under 
+overskrifterne "Tag ikke Telmisartan Teva Pharma" og "Advarsler og forsigtighedsregler". </p>
+</li>
+<li>
+<p>Digoxin. 
+Den blodtrykssænkende virkning med Telmisartan Teva Pharma kan blive mindre, hvis du samtidig 
+tager NSAID'er (non-steroid antiinflammatorisk medicin såsom aspirin eller ibuprofen) eller 
+kortikosteroider. </p>
+</li>
+</ul>
+<p>Telmisartan Teva Pharma kan øge den blodtryksnedsættende virkning af andre blodtryksnedsættende 
+lægemidler. </p>
+<p>Hvis du lider af en tilstand, der kaldes "ortostatisk hypotension" (et fald i blodtrykket, når du rejser dig 
+op fra siddende eller liggende stilling, hvilket gør dig svimmel eller mat), kan din tilstand forværres, 
+hvis du tager Telmisartan Teva Pharma sammen med: 
+• Anden medicin, der anvendes til behandling af forhøjet blodtryk 
+• Baclofen (en medicin med afslappende effekt på musklerne) 
+• Amifostin (en beskyttende medicin under strålebehandling mod kræft) 
+• Alkohol 
+• Barbiturater (stærke sovepiller) 
+• Narkotika (stærk smertestillende medicin) 
+• Antidepressiv medicin. </p>
+<p>Graviditet og amning 
+Spørg din læge eller apoteket til råds, før du tager nogen form for medicin.  </p>
+<p>Graviditet 
+Fortæl altid lægen, hvis du tror, du er gravid eller snart bliver gravid. Normalt vil din læge anbefale 
+dig at stoppe med at tage Telmisartan Teva Pharma, før du bliver gravid eller så snart du ved, du er 
+gravid og anbefale en anden type medicin i stedet for Telmisartan Teva Pharma. Det frarådes at 
+anvende Telmisartan Teva Pharma tidligt i graviditeten, og det må ikke tages senere end 3 måneder 
+henne i graviditeten, da det kan forårsage alvorlige fosterskader, hvis det bruges efter graviditetens 
+3. måned. </p>
+<p>Amning 
+Fortæl altid lægen, hvis du ammer eller vil starte på at amme. Telmisartan Teva Pharma anbefales ikke 
+til ammende mødre. Din læge vil vælge en anden behandling til dig, hvis du ønsker at amme, specielt 
+hvis dit barn er nyfødt eller er født for tidligt. </p>
+<p>Trafik- og arbejdssikkerhed 
+Nogle vil føle sig svimle eller blive trætte, når de tager Telmisartan Teva Pharma. Kør ikke bil eller 
+motorcykel eller cykel, hvis du føler dig svimmel eller træt. Lad også være med at arbejde med 
+værktøj eller maskiner. </p>
+<p>Telmisartan Teva Pharma indeholder sorbitol.<br />
+Dette lægemiddel indeholder 21,4 mg sorbitol i hver tablet. </p>
+<p>Telmisartan Teva Pharma indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take telmisartan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take telmisartan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.  </p>
+<p>Den anbefalede dosis af Telmisartan Teva Pharma er 1 tablet daglig. Det er mest hensigtsmæssigt at 
+tage tabletten på samme tidspunkt hver dag. Telmisartan Teva Pharma kan både tages med mad og 
+uden. Tabletten bør synkes hel med vand eller anden væske uden alkohol. Du skal fortsætte med at 
+tage Telmisartan Teva Pharma hver dag, så længe lægen ikke har givet dig besked på andet. Hvis du 
+tror, at virkningen af Telmisartan Teva Pharma er for stærk eller svag, så sig det til lægen eller på 
+apoteket.  </p>
+<p>Til behandling af forhøjet blodtryk er den sædvanlige dosis Telmisartan Teva Pharma for de fleste 
+patienter 40 mg én gang dagligt til kontrol af dit blodtryk i 24 timer. Din læge har anbefalet en lavere 
+dosis på én 20 mg tablet dagligt. Alternativt kan Telmisartan Teva Pharma også bruges sammen med 
+vanddrivende medicin, såsom hydrochlorthiazid, der har vist sig at øge den blodtryksnedsættende 
+virkning af Telmisartan Teva Pharma. </p>
+<p>Til nedsættelse af risikoen for hjerte-kar-hændelser er den sædvanlige dosis Telmisartan Teva Pharma 
+80 mg én gang daglig. I den første periode af behandlingen skal blodtrykket kontrolleres regelmæssigt.  </p>
+<p>Hvis du har nedsat leverfunktion, bør dosis normalt ikke overskride 40 mg én gang om dagen. </p>
+<p>Hvis du har taget for mange Telmisartan Teva Pharma-tabletter 
+Hvis du ved en fejl kommer til at tage for mange tabletter, så kontakt straks din læge, apoteket eller 
+den nærmeste skadestue om nærmere forholdsregler. </p>
+<p>Hvis du har glemt at tage Telmisartan Teva Pharma 
+Vær ikke bekymret, hvis du glemmer at tage én dosis. Tag den så snart du kommer i tanke om det og 
+fortsæt derefter som normalt. Hvis du en dag ikke får taget din tablet, skal du blot tage den sædvanlige 
+dosis næste dag. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.  </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Nogle bivirkninger kan være alvorlige og kræver omgående lægehjælp: 
+Du skal straks kontakte din læge, hvis du får nogle af følgende symptomer: </p>
+<p>Sepsis* (ofte kaldet "blodforgiftning", en alvorlig infektion med betændelsesreaktion i hele kroppen) 
+eller hurtig hævelse af hud og slimhinder (angioødem). Disse bivirkninger er sjældne (kan forekomme 
+hos op til 1 ud af 1.000 brugere), men er meget alvorlige, og indtagelse af medicinen skal stoppe og 
+læge straks kontaktes. Hvis disse bivirkninger ikke bliver behandlet, kan de være dødelige. </p>
+<p>Mulige bivirkninger ved telmisartan: </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 brugere): 
+Lavt blodtryk (hypotension) hos patienter, der er i behandling for at nedsætte risikoen for hjerte-kar-
+hændelser. </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 brugere): 
+Urinvejsinfektion, infektion i de øvre luftveje (som ondt i halsen, bihulebetændelse, almindelig 
+forkølelse), blodmangel (anæmi), forhøjet kaliumindhold i blodet, besvær med at falde i søvn, tristhed 
+(depression), besvimelse, svimmelhed, langsom puls (bradykardi), lavt blodtryk (hypotension) hos 
+patienter i behandling mod forhøjet blodtryk, svimmelhed når man rejser sig op (ortostatisk 
+hypotension), stakåndethed, hoste, mavesmerter, diarré, maveubehag, oppustethed, opkastning, kløe, 
+øget svedtendens, hududslæt udløst af medicinen, rygsmerter, muskelkramper, muskelsmerter, nedsat 
+nyrefunktion herunder akut nyresvigt, brystsmerter, følelse af træthed og forhøjet kreatininniveau i 
+blodet. </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 brugere): 
+Sepsis* (ofte kaldet "blodforgiftning", en alvorlig infektion med en betændelsesreaktion i hele 
+kroppen, som kan føre til døden), øget antal hvide blodlegemer (eosinofili), for 
+få blodplader (trombocytopeni), alvorlige allergiske reaktioner (anafylaktisk reaktion), 
+overfølsomhedsreaktioner (såsom udslæt, kløe, vejrtrækningsbesvær, hvæsende åndedræt, hævelser i 
+ansigtet og lavt blodtryk), lave blodsukkerniveauer (hos diabetespatienter), nervøsitet, søvnighed, 
+nedsat syn, hurtig hjerterytme (puls), mundtørhed, maveuro, smagsforstyrrelser, unormal 
+leverfunktion (japanske patienter har større sandsynlighed for at få denne bivirkning), hurtigt 
+indsættende hævelse af hals og slimhinder, som også kan føre til døden) (angioødem, som kan være 
+dødelig), eksem (en hudlidelse), rødmen, nældefeber alvorligt medicinudløst udslæt, ledsmerter, 
+smerter i arme og ben, senesmerter, influenzalignende symptomer, hæmaglobinmangel, forhøjet 
+urinsyre, kreatinin, leverenzymer og kreatininkinase. </p>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 brugere) 
+Tiltagende arvævsdannelse i lungerne (interstitiel lungesygdom)** </p>
+<p>*Observationen kan være en tilfældighed eller kan være relateret til en mekanisme, som på nuværende 
+tidspunkt ikke er kendt. </p>
+<p>**Tilfælde af tiltagende arvævsdannelse i lungerne er blevet rapporteret ved indtagelse af telmisartan. 
+Det er imidlertid ikke kendt, hvorvidt telmisartan var årsagen. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine  pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store telmisartan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store telmisartan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren efter "EXP". Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Telmisartan Teva Pharma indeholder:</p>
+<ul>
+<li>Aktivt stof: Telmisartan. En Telmisartan Teva Pharma-tablet indeholder 20 mg telmisartan. </li>
+<li>Øvrige indholdsstoffer: microkrystallinsk cellulose (Avicel PH 102), natriumstivelsesglycolat 
+(Type A), poloxamerer, meglumin, povidon (PVP K-30), sorbitol (E420), magnesiumstearat. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Telmisartan Teva Pharma 20 mg tabletter er hvide til råhvide, ovale tabletter, hvor den ene side af 
+tabletten er præget med tallet "93". Den anden side af tabletten er præget med tallet "7458". </p>
+<p>Telmisartan Teva Pharma fås i perforerede aluminium-aluminium-enhedsdosisblistere med 
+aftrækkeligt folie og perforerede aluminium-aluminium enhedsdosisblistere. Begge typer blistere fås 
+med 14x1, 28x1, 30x1, 40x1, 56x1, 60x1, 84x1, 90x1, 98x1, 100x1 tablet. Ikke alle pakningsstørrelser 
+er nødvendigvis markedsført. </p>
+<p>Bemærk, at vejledning i, hvordan tabletten tages ud af blisterkortet, findes på den ydre æske med 
+blisterkortene med aftrækkeligt folie. </p>
+<p>Telmisartan Teva Pharma fås også i aluminium-aluminium blistere med 28 og 30 tabletter. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen: </p>
+<p>Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+Holland </p>
+<p>Fremstiller: </p>
+<p>TEVA Pharmaceutical Works Private Limited Company<br />
+H-4042 Debrecen 
+Pallagi út Ungarn </p>
+<p>Eller: </p>
+<p>Pharmachemie B.V.<br />
+Swensweg 5 
+2031 GA, Haarlem 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien<br />
+Teva Pharma Belgium N.V./S.A./AG<br />
+Tél/Tel: +32 38207373<br />
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България<br />
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg<br />
+Teva Pharma Belgium N.V./S.A./AG<br />
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika<br />
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251007 
+Magyarország<br />
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886400  </p>
+<p>Danmark<br />
+Teva Denmark A/S<br />
+Tlf: +45 44985 
+Malta<br />
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland<br />
+Teva Nederland B.V. 
+Tel: +31 8000228400  </p>
+<p>Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873280   </p>
+<p>Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, 
+Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā<br />
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret { MM/ÅÅÅÅ } </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+Indlægsseddel: Information til brugeren 
+Telmisartan Teva Pharma 40 mg tabletter 
+Telmisartan </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give 
+medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
+som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8d701e4538054dcfc1e7cc34c7f1602b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for telmisartan Package Leaflet for language en"
+Description: "ePI document Bundle for telmisartan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8d701e4538054dcfc1e7cc34c7f1602b"
+* entry[0].resource = composition-en-8d701e4538054dcfc1e7cc34c7f1602b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8d701e4538054dcfc1e7cc34c7f1602b"
+* entry[=].resource = mp8d701e4538054dcfc1e7cc34c7f1602b
+                            
+                    
+Instance: bundlepackageleaflet-da-8d701e4538054dcfc1e7cc34c7f1602b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for telmisartan Package Leaflet for language da"
+Description: "ePI document Bundle for telmisartan Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8d701e4538054dcfc1e7cc34c7f1602b"
+* entry[0].resource = composition-da-8d701e4538054dcfc1e7cc34c7f1602b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8d701e4538054dcfc1e7cc34c7f1602b"
+* entry[=].resource = mp8d701e4538054dcfc1e7cc34c7f1602b
+                            
+                    
+
+
+
+Instance: mp8d701e4538054dcfc1e7cc34c7f1602b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Telmisartan Teva Pharma 20 mg tablets"
-Description: "Telmisartan Teva Pharma 20 mg tablets"
+Title: "Medicinal Product telmisartan"
+Description: "telmisartan"
 Usage: #inline
 
  
@@ -404,7 +910,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Telmisartan Teva Pharma 20 mg tablets"
+  * productName = "telmisartan"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -431,29 +937,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8d701e4538054dcfc1e7cc34c7f1602b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for telmisartan Package Leaflet for language en"
-Description: "ePI document Bundle for telmisartan Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8d701e4538054dcfc1e7cc34c7f1602bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Telmisartan Teva Pharma 20 mg tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "telmisartan"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8d701e4538054dcfc1e7cc34c7f1602b"
-* entry[0].resource = composition-en-8d701e4538054dcfc1e7cc34c7f1602b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0102d38d3f422b3d80e578171fc2a2c1"
-* entry[=].resource = mp0102d38d3f422b3d80e578171fc2a2c1
-                            
-                      
+* title = "List of all ePIs associated with telmisartan"
+
+* subject = Reference(mp0102d38d3f422b3d80e578171fc2a2c1)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#telmisartan "telmisartan"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8d701e4538054dcfc1e7cc34c7f1602b) // telmisartan en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8d701e4538054dcfc1e7cc34c7f1602b) // telmisartan da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8d701e4538054dcfc1e7cc34c7f1602b
+InstanceOf: List
+
+* insert 8d701e4538054dcfc1e7cc34c7f1602bListRuleset
+    

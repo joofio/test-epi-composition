@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1482492b92c1ab38c7c6cfa8e927eb20
 InstanceOf: CompositionUvEpi
 Title: "Composition for zerbaxa Package Leaflet"
@@ -459,12 +462,571 @@ environment.</p>         </div>"""
 
 
 
+Instance: composition-da-1482492b92c1ab38c7c6cfa8e927eb20
+InstanceOf: CompositionUvEpi
+Title: "Composition for zerbaxa Package Leaflet"
+Description:  "Composition for zerbaxa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp57b4e092435ed82cb40664be44711fcb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp57b4e092435ed82cb40664be44711fcb
+* title = "TEST PURPOSES ONLY - zerbaxa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du får Zerbaxa
+3. Sådan får du Zerbaxa
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zerbaxa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zerbaxa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zerbaxa er et lægemiddel til behandling af en række bakterieinfektioner. Det indeholder to aktive
+stoffer:</p>
+<ul>
+<li>ceftolozan, et antibiotikum som tilhører gruppen "cefalosporiner", og som kan dræbe visse
+bakterier, der medfører infektion.</li>
+<li>tazobactam, som blokerer virkningen af visse enzymer, der kaldes "beta-lactamasehæmmere".
+Disse enzymer kan gøre bakterier resistente over for ceftolozan ved at nedbryde det antibiotiske
+lægemiddel, før det kan virke. Ved at blokere enzymernes virkning, kan tazobactam gøre
+ceftolozan mere effektivt til at dræbe bakterier. 
+Zerbaxa anvendes til alle aldersgrupper til at behandle komplicerede infektioner i maven, nyrerne og
+urinvejene.
+Zerbaxa anvendes også til voksne til at behandle en infektion i lungerne kaldet "pneumoni"
+(lungebetændelse).</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zerbaxa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zerbaxa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Zerbaxa
+- hvis du er allergisk over for ceftolozan, tazobactam eller et af de øvrige indholdsstoffer i
+Zerbaxa (angivet i punkt 6).
+- hvis du er allergisk over for medicin, der kaldes "cefalosporiner".
+- hvis du har haft en alvorlig allergisk reaktion (fx alvorlig hudafskalning, hævelse af ansigt,
+hænder, fødder, læber, tunge eller svælg, eller besvær med at synke eller trække vejret) over for
+visse andre antibiotika (fx penicilliner eller carbapenemer). 
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du får Zerbaxa, hvis du ved, du er eller tidligere har været,
+allergisk over for cefalosporiner, penicillin eller andre antibiotika.
+Kontakt lægen eller apotekspersonalet, hvis du får diarré, mens du får Zerbaxa.
+28
+Infektioner forårsaget af bakterier, som ikke er følsomme over for Zerbaxa, eller som er forårsaget af
+en svamp, kan forekomme under eller efter behandling med Zerbaxa. Kontakt lægen, hvis du tror, du
+kan have en anden infektion.
+Behandling med Zerbaxa kan nogle gange medføre dannelse af antistoffer, som reagerer med de røde
+blodlegemer. Hvis du har fået at vide, at du har en unormal blodprøve (en såkaldt Coombs test), skal
+du fortælle lægen, at du får eller for nylig har fået Zerbaxa. 
+Børn og unge
+Dette lægemiddel må ikke gives til børn under 18 år til at behandle lungebetændelse (pneumoni), da
+der ikke er nok information om anvendelse til denne aldersgruppe ved behandling af denne infektion.
+Brug af anden medicin sammen med Zerbaxa
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget
+anden medicin eller planlægger at tage anden medicin.
+Nogle lægemidler kan påvirke ceftolozan og tazobactam og omvendt, herunder:</p>
+<ul>
+<li>Probenecid (et lægemiddel mod podagra). Dette kan øge den tid, det tager for tazobactam at
+komme ud af kroppen.
+Graviditet og amning
+Hvis du er gravid eller ammer, eller har mistanke om, at du er gravid, skal du spørge din læge eller
+apotekspersonalet til råds, før du får Zerbaxa. Din læge vil rådgive dig om, hvorvidt du skal have
+Zerbaxa under graviditeten. 
+Hvis du ammer, vil din læge rådgive dig om, hvorvidt du skal stoppe med at amme eller stoppe
+med eller undgå behandling med Zerbaxa under hensyntagen til fordelen ved amning for barnet og
+fordelen ved behandlingen for dig.
+Trafik- og arbejdssikkerhed
+Zerbaxa kan forårsage svimmelhed, som kan påvirke evnen til at føre motorkøretøj og betjene
+maskiner. 
+Zerbaxa indeholder natrium
+Dette lægemiddel indeholder 230 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) i hvert
+hætteglas. Dette svarer til 11,5% af den anbefalede maksimale daglige indtagelse af natrium for en
+voksen. Det rekonstituerede hætteglas med 10 ml 0,9% natriumchloridinjektionsvæske (normal
+saltvandsopløsning) indeholder 265 mg natrium i hvert hætteglas. Dette svarer til 13,3% af den
+anbefalede maksimale daglige indtagelse af natrium for en voksen.</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zerbaxa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zerbaxa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din læge eller andet sundhedspersonale vil give dig dette lægemiddel ind i en blodåre som infusion (et
+drop), der varer en time. Hvor stor en dosis, du får af lægemidlet, afhænger af, om du har
+nyreproblemer eller ej.
+Dosis afhænger af den type infektion, du har, og hvor i kroppen infektionen befinder sig, samt af hvor
+alvorlig infektionen er. Lægen vil beslutte, hvilken dosis du skal have.
+Brug til voksne
+Den anbefalede dosis Zerbaxa er 1 g ceftolozan og 0,5 g tazobactam eller 2 g ceftolozan og 1 g
+tazobactam hver 8. time, som gives i en af dine blodårer (direkte ind i blodet).
+Behandling med Zerbaxa varer normalt mellem 4 og 14 dage, afhængigt af infektionens sværhedsgrad,
+hvor infektionen er, og hvordan din krop reagerer på behandlingen.
+29
+Brug til børn og unge
+Den anbefalede dosis Zerbaxa er 20 mg/kg ceftolozan og 10 mg/kg tazobactam hver 8. time, som
+gives i en af dine blodårer (direkte ind i blodet). Dosis må ikke overstige 1 g ceftolozan og
+0,5 g tazobactam.
+Behandling med Zerbaxa varer normalt mellem 5 og 14 dage, afhængigt af infektionens sværhedsgrad,
+hvor infektionen er, og hvordan din krop reagerer på behandlingen.
+Patienter med nyreproblemer
+Din læge kan være nødt til at nedsætte Zerbaxa dosen eller beslutte, hvor ofte du skal have Zerbaxa.
+Din læge vil måske også gerne tage en blodprøve for at være sikker på, at du får den rigtige dosis, især
+hvis du skal have dette lægemiddel i lang tid.
+Hvis du har fået for meget Zerbaxa
+Da lægemidlet gives af en læge eller andet sundhedspersonale, er det meget usandsynligt, at du vil få
+for meget Zerbaxa. Men hvis du er bekymret, skal du straks lade lægen, sygeplejersken eller
+apotekspersonalet vide det.
+Hvis du holder op med at få Zerbaxa
+Hvis du tror, at du mangler af få en dosis Zerbaxa, skal du straks sige det til din læge eller andet
+sundhedspersonale.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Kontakt straks lægen, hvis du får disse symptomer, da du kan have brug for akut lægehjælp:</p>
+<ul>
+<li>Pludselig hævelse af læber, ansigt, svælg eller tunge; alvorligt udslæt; og problemer med at
+synke eller trække vejret. Disse kan være tegn på en alvorlig allergisk reaktion (anafylaksi) og
+kan være livstruende.</li>
+<li>Diarré som bliver alvorlig, eller som ikke går væk, eller blod eller slim i afføringen under eller
+efter behandling med Zerbaxa. I denne situation må du ikke tage medicin, der stopper eller
+hæmmer afføringen.
+Voksne i behandling for komplicerede infektioner i maven, nyrerne og urinvejene
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer):
+Hovedpine, mavesmerter (mavepine), forstoppelse, diarré, kvalme, opkastning, stigning i
+leverenzymer (fra blodprøver), udslæt, feber (forhøjet temperatur), fald i blodtrykket, fald i
+kalium (fra blodprøver), stigning i antallet af visse typer blodceller kendt som blodplader,
+svimmelhed, angst, søvnbesvær, reaktioner på infusionsstedet. 
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer):
+Inflammation (en betændelseslignende reaktion) i tyktarmen på grund af bakterien C. difficile,
+inflammation i maven, oppustet og udspilet mave, fordøjelsesbesvær, usædvanlig meget luft i
+maven eller tarmen, tilstopning af tarmen, gærsvampeinfektion i munden (trøske),
+gærsvampeinfektion i kønsdelene hos kvinder, svampeinfektion i urinvejene, forhøjet
+blodsukker (glucose) (fra blodprøver), nedsat indhold af magnesium (fra blodprøver), nedsat
+indhold af fosfat (fra blodprøver), iskæmisk slagtilfælde (slagtilfælde forårsaget af nedsat
+blodgennemstrømning i hjernen), irritation eller inflammation i en vene ved injektionsstedet,
+venetrombose (blodprop i en vene), lavt antal røde blodlegemer, atrieflimren (hurtig eller
+uregelmæssig hjerterytme), hurtig hjerterytme (puls), hjertekrampe (angina pectoris -
+brystsmerter eller en knugende, trykkende smerte eller en sammensnørende fornemmelse i
+brystet), kløende udslæt eller hævelse i huden, nældefeber, positiv Coombs test (en blodprøve,
+30
+der tester for antistoffer, som bekæmper dine røde blodlegemer), nyreproblemer, nyresygdom,
+kortåndethed.
+Yderligere bivirkninger observeret hos børn og unge i behandling for komplicerede infektioner i
+maven, nyrerne og urinvejene
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer):
+Øget appetit, lavt antal hvide blodlegemer, ændret smagssans
+Voksne i behandling for en infektion i lungerne kaldet “pneumoni" (lungebetændelse)
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer):
+Inflammation (en betændelseslignende reaktion) i tyktarmen på grund af bakterien C. difficile,
+diarré, opkastning, stigning i leverenzymer (fra blodprøver).
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer):
+Infektion på grund af bakterien C. difficile, positiv C. difficile-test (fra afføringsprøve), positiv
+Coombs test (en blodprøve, der tester for antistoffer, som bekæmper dine røde blodlegemer).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information
+om sikkerheden af dette lægemiddel.</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zerbaxa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zerbaxa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hætteglasset efter EXP.
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Hætteglas inden åbning: Opbevares i køleskab (2 °C - 8 °C).
+Opbevares i den originale yderpakning for at beskytte mod lys.
+Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller toilettet. Ikke anvendt lægemiddel
+samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zerbaxa indeholder:</p>
+<ul>
+<li>Aktive stoffer: ceftolozan og tazobactam.</li>
+<li>Hvert hætteglas indeholder ceftolozansulfat svarende til 1 g ceftolozan og tazobactamnatrium
+svarende til 0,5 g tazobactam. Til doser over 1 g ceftolozan og 0,5 g tazobactam skal der
+anvendes to hætteglas.</li>
+<li>Øvrige indholdsstoffer: natriumchlorid, arginin og citronsyre, vandfri.
+Udseende og pakningsstørrelser
+Zerbaxa er et hvidt til svagt gult pulver til koncentrat til infusionsvæske, opløsning (pulver til
+koncentrat), der leveres i et hætteglas.
+Zerbaxa findes i pakninger med 20 ml hætteglas af klart glas, type I, med prop (brombutylgummi) og
+en flip off-hætte som forsegling.
+Pakningsstørrelse med 10 hætteglas.
+31
+Indehaver af markedsføringstilladelsen
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Fremstiller
+FAREVA Mirabel
+Route de Marsat
+Riom
+63963, Clermont-Ferrand Cedex 9
+Frankrig
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com
+България 
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +361 888 53 00
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp.z o.o.
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+32
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 299 8700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: + 386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+Ιtalia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 800 00 673 (+357 22866700)
+cyprus_info@merck.com 
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364224
+msd_lv@merck.com.
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.</li>
+</ul>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale:
+Fremstilling af opløsninger
+Hvert hætteglas er kun til engangsbrug. 
+Aseptisk teknik skal følges ved fremstilling af infusionsopløsningen.
+33
+Fremstilling af dosis
+Hvert hætteglas med pulver til koncentrat til infusionsvæske, opløsning, rekonstitueres med 10 ml
+vand til injektionsvæsker eller natriumchlorid 9 mg/ml (0,9%) injektionsvæske, opløsning pr.
+hætteglas; efter rekonstitution omrystes hætteglasset forsigtigt for at opløse pulveret. Det endelige
+volumen er ca. 11,4 ml pr. hætteglas, og koncentrationen er ca. 132 mg/ml (88 mg/ml ceftolozan og
+44 mg/ml tazobactam) pr. hætteglas. 
+FORSIGTIG: DEN REKONSTITUEREDE OPLØSNING ER IKKE TIL DIREKTE INJEKTION.
+Zerbaxa infusionsvæske, opløsning, er klar og farveløs til svagt gul. 
+Farvevariationer inden for disse grænser påvirker ikke lægemidlets styrke.
+Efter rekonstitution og fortynding er der påvist kemisk og fysisk i-brug-stabilitet i 24 timer ved
+stuetemperatur eller i 4 dage ved 2 °C til 8 °C. Lægemidlet er lysfølsomt og skal beskyttes mod lys,
+hvis det ikke opbevares i den originale karton.
+Se pkt. 4.2 i produktresuméet for oplysninger om anbefalede dosisregimer for Zerbaxa baseret på
+indikation og nyrefunktion. Fremstillingsmetoden for hver dosis er vist nedenfor.
+Anvisninger i fremstilling af doser til voksne patienter i INFUSIONSPOSE:
+Til fremstilling af dosen på 2 g ceftolozan / 1 g tazobactam: Træk hele indholdet fra 2 rekonstituerede
+hætteglas (ca. 11,4 ml pr. hætteglas) op med en sprøjte, og tilsæt det til en infusionspose, der
+indeholder 100 ml 0,9% natriumchloridinjektionsvæske (normal saltvandsopløsning) eller 5%
+glucoseinjektionsvæske.
+Til fremstilling af dosen på 1,5 g ceftolozan / 0,75 g tazobactam: Træk hele indholdet fra
+1 rekonstitueret hætteglas (ca. 11,4 ml) og 5,7 ml fra et andet rekonstitueret hætteglas op med en
+sprøjte, og tilsæt det til en infusionspose, der indeholder 100 ml 0,9% natriumchloridinjektionsvæske
+(normal saltvandsopløsning) eller 5% glucoseinjektionsvæske.
+Til fremstilling af dosen på 1 g ceftolozan / 0,5 g tazobactam: Træk hele indholdet (ca. 11,4 ml) af det
+rekonstituerede hætteglas op med en sprøjte, og tilsæt det til en infusionspose, der indeholder 100 ml
+0,9% natriumchloridinjektionsvæske (normal saltvandsopløsning) eller 5% glucoseinjektionsvæske.
+Til fremstilling af dosen på 500 mg ceftolozan / 250 mg tazobactam: Træk 5,7 ml af indholdet op af
+det rekonstituerede hætteglas, og tilsæt det til en infusionspose, der indeholder 100 ml 0,9%
+natriumchloridinjektionsvæske (normal saltvandsopløsning) eller 5% glucoseinjektionsvæske.
+Til fremstilling af dosen på 300 mg ceftolozan / 150 mg tazobactam: Træk 3,5 ml af indholdet op af
+det rekonstituerede hætteglas, og tilsæt det til en infusionspose, der indeholder 100 ml 0,9%
+natriumchloridinjektionsvæske (normal saltvandsopløsning) eller 5% glucoseinjektionsvæske.
+Til fremstilling af dosen på 250 mg ceftolozan / 125 mg tazobactam: Træk 2,9 ml af indholdet op af
+det rekonstituerede hætteglas, og tilsæt det til en infusionspose, der indeholder 100 ml 0,9%
+natriumchloridinjektionsvæske (normal saltvandsopløsning) eller 5% glucoseinjektionsvæske.
+Til fremstilling af dosen på 100 mg ceftolozan / 50 mg tazobactam: Træk 1,2 ml af indholdet op af det
+rekonstituerede hætteglas, og tilsæt det til en infusionspose, der indeholder 100 ml 0,9%
+natriumchloridinjektionsvæske (normal saltvandsopløsning) eller 5% glucoseinjektionsvæske.
+34
+Anvisninger i fremstilling af doser til pædiatriske patienter i INFUSIONSPOSE eller i
+INFUSIONSSPRØJTE:
+BEMÆRK: Nedenstående procedure beskriver trinnene til fremstilling af 100 ml stamopløsning med
+en slutkoncentration på 10 mg/ml ceftolozan / 5 mg/ml tazobactam. Den volumen af stamopløsningen,
+som skal administreres til pædiatriske patienter, vil være baseret på beregning af den korrekte dosis ud
+fra patientens vægt (se pkt. 4.2 i produktresuméet). Detaljerede trin og beregninger er angivet. 
+1. Fremstilling af stamopløsningen (100 ml med 10 mg/ml ceftolozan / 5 mg/ml tazobactam):
+Træk hele indholdet (ca. 11,4 ml) af det rekonstituerede hætteglas op med en sprøjte, og tilsæt
+det til en infusionspose, der indeholder 89 ml 0,9% natriumchloridinjektionsvæske (normal
+saltvandsopløsning) eller 5% glucoseinjektionsvæske.
+2. Fremstilling af det påkrævede volumen af stamopløsningen til infusion (infusionsvæske): 
+a. 
+Beregn den passende mængde Zerbaxa (i mg) til at give den påkrævede dosis til den
+pædiatriske patient. Baseret på denne dosis i mg beregnes det passende volumen af
+10 mg/ml ceftolozan / 5 mg/ml tazobactam stamopløsning, som skal administreres. Se
+tabel 1 nedenfor for at bekræfte beregningerne. Bemærk, at tabellen IKKE omfatter
+alle potentielle beregnede doser, men den kan anvendes til at estimere det omtrentlige
+volumen for at kontrollere beregningen.
+b. Overfør et korrekt beregnet volumen af stamopløsningen til en infusionspose eller
+infusionssprøjte i passende størrelse. Værdierne, som er vist i tabel 1, er omtrentlige,
+og det kan være nødvendigt at runde op eller ned til den nærmeste målestreg på en
+sprøjte i korrekt størrelse til mindre voluminer.
+Tabel 1: Fremstilling af Zerbaxa til pædiatriske patienter (fra fødslen<em> til under 18 år) fra
+100 ml stamopløsning med 10 mg/ml ceftolozan / 5 mg/ml tazobactam
+Zerbaxa dosis (mg/kg) 
+Vægt (kg)
+Beregnet
+mængde
+ceftolozan (mg)
+Beregnet
+mængde
+tazobactam (mg)
+Volumen af
+stamopløsning,
+der skal
+administreres til
+patienten (ml)
+20 mg/kg ceftolozan /
+10 mg/kg tazobactam</em>* 50 og derover 
+1 100
+80
+60
+40
+30
+20
+5 
+10
+3 
+6
+1,5 
+3</p>
+<p>*Defineret som &gt; 32 svangerskabsuger og ≥ 7 dage efter fødslen.</p>
+<p>**Børn, som vejer &gt; 50 kg og med eGFR &gt; 50 ml/min/1,73 m2, må ikke overstige den maksimale
+dosis på 1 g ceftolozan / 0,5 g tazobactam.
+Ud fra et mikrobiologisk synspunkt skal lægemidlet anvendes umiddelbart efter rekonstitution. Hvis
+det ikke anvendes med det samme, er opbevaringstid og –forhold før anvendelse brugerens ansvar og
+vil normalt ikke være længere end 24 timer ved 2 °C til 8 °C, medmindre rekonstitution/fortynding har
+fundet sted under kontrollerede og validerede aseptiske forhold.
+Et af de aktive stoffer, ceftolozan, kan have skadelig effekt, hvis det udledes i
+vandmiljøet. Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller
+toilettet. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale
+retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1482492b92c1ab38c7c6cfa8e927eb20
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zerbaxa Package Leaflet for language en"
+Description: "ePI document Bundle for zerbaxa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1482492b92c1ab38c7c6cfa8e927eb20"
+* entry[0].resource = composition-en-1482492b92c1ab38c7c6cfa8e927eb20
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1482492b92c1ab38c7c6cfa8e927eb20"
+* entry[=].resource = mp1482492b92c1ab38c7c6cfa8e927eb20
+                            
+                    
+Instance: bundlepackageleaflet-da-1482492b92c1ab38c7c6cfa8e927eb20
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zerbaxa Package Leaflet for language da"
+Description: "ePI document Bundle for zerbaxa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1482492b92c1ab38c7c6cfa8e927eb20"
+* entry[0].resource = composition-da-1482492b92c1ab38c7c6cfa8e927eb20
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1482492b92c1ab38c7c6cfa8e927eb20"
+* entry[=].resource = mp1482492b92c1ab38c7c6cfa8e927eb20
+                            
+                    
+
+
+
+Instance: mp1482492b92c1ab38c7c6cfa8e927eb20
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Zerbaxa 1 g/0.5 g powder for concentrate for solution for infusion"
-Description: "Zerbaxa 1 g/0.5 g powder for concentrate for solution for infusion"
+Title: "Medicinal Product zerbaxa"
+Description: "zerbaxa"
 Usage: #inline
 
  
@@ -484,7 +1046,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Zerbaxa 1 g/0.5 g powder for concentrate for solution for infusion"
+  * productName = "zerbaxa"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -511,29 +1073,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1482492b92c1ab38c7c6cfa8e927eb20
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zerbaxa Package Leaflet for language en"
-Description: "ePI document Bundle for zerbaxa Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1482492b92c1ab38c7c6cfa8e927eb20ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1032/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zerbaxa"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1482492b92c1ab38c7c6cfa8e927eb20"
-* entry[0].resource = composition-en-1482492b92c1ab38c7c6cfa8e927eb20
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp57b4e092435ed82cb40664be44711fcb"
-* entry[=].resource = mp57b4e092435ed82cb40664be44711fcb
-                            
-                      
+* title = "List of all ePIs associated with zerbaxa"
+
+* subject = Reference(mp57b4e092435ed82cb40664be44711fcb)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zerbaxa "zerbaxa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1482492b92c1ab38c7c6cfa8e927eb20) // zerbaxa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1482492b92c1ab38c7c6cfa8e927eb20) // zerbaxa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1482492b92c1ab38c7c6cfa8e927eb20
+InstanceOf: List
+
+* insert 1482492b92c1ab38c7c6cfa8e927eb20ListRuleset
+    

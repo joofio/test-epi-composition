@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-25b49674d9d703c70f7cbc179ed1a337
 InstanceOf: CompositionUvEpi
 Title: "Composition for parsabiv Package Leaflet"
@@ -304,12 +307,423 @@ Tel: +44 (0)1223 420This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-25b49674d9d703c70f7cbc179ed1a337
+InstanceOf: CompositionUvEpi
+Title: "Composition for parsabiv Package Leaflet"
+Description:  "Composition for parsabiv Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0105d3e81a875a559480bc6d62cf2c9e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0105d3e81a875a559480bc6d62cf2c9e
+* title = "TEST PURPOSES ONLY - parsabiv"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Parsabiv </li>
+<li>Sådan skal du bruge Parsabiv </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What parsabiv is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What parsabiv is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Parsabiv indeholder det aktive stof etelcalcetid, der nedsætter mængden af et hormon, der dannes i 
+biskjoldbruskkirtlerne og kaldes for PTH (paratyreoideahormon). </p>
+<p>Parsabiv bruges til behandling af sekundær hyperparatyreoidisme hos patienter med alvorlig 
+nyresygdom, der har behov for hæmodialyse for at rense blodet for affaldsstoffer. </p>
+<p>Ved sekundær hyperparatyreoidisme producerer biskjoldbruskkirtlerne (fire små kirtler i halsen) for 
+meget PTH. “Sekundær" betyder, at hyperparatyreoidismen skyldes en anden tilstand, for eksempel 
+nyresygdom. Sekundær hyperparatyreoidisme kan medføre tab af calcium (kalk) fra knoglerne, som 
+kan medføre knoglesmerter og knoglebrud samt problemer med blod- og hjertekar. Parsabiv regulerer 
+indholdet af PTH i blodet og er på den måde med til at regulere indholdet af calcium og fosfat i 
+kroppen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take parsabiv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take parsabiv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Parsabiv<br />
+- hvis du er allergisk over for etelcalcetid eller et af de øvrige indholdsstoffer i Parsabiv (angivet i 
+afsnit 6). 
+- hvis du har meget lavt indhold af calcium i blodet. Din læge vil løbende kontrollere indholdet af 
+calcium i dit blod. </p>
+<p>Advarsler og forsigtighedsregler 
+Fortæl det til din læge, inden du får Parsabiv, hvis du har eller nogensinde har haft: 
+ 
+problemer med hjertet, for eksempel hjertesvigt eller unormal hjerterytme (arytmier), 
+ 
+krampeanfald. </p>
+<p>Parsabiv nedsætter indholdet af calcium i blodet. Fortæl det til din læge, hvis du får spasmer, 
+muskelspjæt eller kramper i dine muskler eller følelsesløshed eller prikken i dine fingre eller tæer eller 
+omkring munden, eller hvis du får krampeanfald, bliver forvirret eller mister bevidstheden, mens du er 
+i behandling med Parsabiv. Afsnit 4 indeholder mere information. </p>
+<p>Lavt calciumniveau kan forårsage unormal hjerterytme. Fortæl det til din læge, hvis du mærker en 
+usædvanligt hurtig eller bankende hjerterytme (puls), mens du er i behandling med Parsabiv, eller hvis 
+du har problemer med hjerterytmen eller har haft hjertesvigt, eller hvis du får medicin, som kan give 
+problemer med hjerterytmen. Afsnit 4 indeholder mere information. </p>
+<p>Hvis man har et meget lavt PTH-niveau i lang tid, kan det medføre en unormal knoglestruktur, der 
+kaldes for adynamisk knogle, og som kun kan diagnosticeres med en vævsprøve (biopsi). Dit 
+PTH-niveau vil blive kontrolleret under behandlingen med Parsabiv, og din dosis af Parsabiv vil 
+muligvis blive reduceret, hvis dit PTH-niveau bliver meget lavt. </p>
+<p>Børn og unge 
+Det vides ikke, om Parsabiv er sikkert og effektivt at bruge til børn under 18 år, da det ikke er 
+undersøgt hos disse patienter. </p>
+<p>Brug af anden medicin sammen med Parsabiv 
+Fortæl det altid til lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller 
+planlægger at tage anden medicin. Det gælder også medicin, som ikke er købt på recept eller anden 
+medicin, som sænker indholdet af calcium i blodet (f.eks. cinacalcet og denosumab). </p>
+<p>Du må ikke få Parsabiv sammen med cinacalcet. Fortæl det til lægen, hvis du tager cinacalcet eller har 
+gjort det for nylig. </p>
+<p>Graviditet 
+Parsabiv er ikke blevet afprøvet på gravide kvinder. Det vides ikke, om Parsabiv kan skade et ufødt 
+barn. Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+fortælle det til din læge, før du bruger Parsabiv. Som en sikkerhedsforanstaltning bør brug af Parsabiv 
+undgås under graviditeten. </p>
+<p>Amning 
+Det vides ikke, om Parsabiv kan blive udskilt i mælken hos mennesker. Fortæl det til din læge, hvis du 
+ammer eller planlægger at amme. Din læge vil kunne hjælpe dig med at finde ud af, om du skal holde 
+op med at amme eller holde op med at bruge Parsabiv under hensyntagen til fordelen ved at amme 
+barnet og din fordel ved at bruge Parsabiv. </p>
+<p>Trafik- og arbejdssikkerhed 
+Parsabiv påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. 
+Visse symptomer på lavt calciumniveau (for eksempel kramper) kan dog påvirke evnen til at køre 
+motorkøretøj og betjene maskiner. </p>
+<p>Parsabiv indeholder natrium 
+Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas, dvs. den er i det 
+væsentlige natriumfri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take parsabiv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take parsabiv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Den anbefalede startdosis af Parsabiv er 5 mg. Det vil blive givet af en læge eller sygeplejerske i 
+afslutningen af din hæmodialyse gennem det rør (blodslange), der forbinder dig til dialysemaskinen. 
+Du vil få Parsabiv 3 gange om ugen. Dosis kan øges til op til 15 mg eller nedsættes til 2,5 mg 
+afhængigt af, hvordan du reagererpå behandlingen. </p>
+<p>Du vil muligvis få behov for tilskud af calcium og vitamin D, mens du er i behandling med Parsabiv. 
+Din læge vil fortælle dig mere om dette. </p>
+<p>Er du i tvivl, så spørg lægen eller sygeplejersken. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Lave calciumniveauer i blodet (hypokalcæmi) er rapporteret med hyppigheden almindelig (kan ramme 
+op til 1 ud af 10 personer). Fortæl det straks til din læge, hvis du mærker følelsesløshed eller prikken 
+omkring munden eller i arme og ben, eller hvis du får muskelsmerter eller muskelkramper og 
+krampeanfald. Det kan være tegn på, at dit calciumniveau er for lavt. </p>
+<p>Meget almindelig: kan ramme flere end 1 ud af 10 personer 
+ 
+Kvalme 
+ 
+Opkastning 
+ 
+Diaré 
+ 
+Muskelspasmer 
+ 
+Lavt calciumniveau i blodet uden nogen symptomer </p>
+<p>Almindelige: kan ramme op til 1 ud af 10 personer 
+ </p>
+<p> 
+Højt kaliumniveau i blodet 
+ 
+Lavt fosfatniveau i blodet 
+ 
+Hovedpine 
+ 
+Følelsesløshed eller prikkende fornemmelse 
+ 
+Forværring af hjertesvigt 
+ 
+Forstyrrelser i hjertets elektriske aktivitet, der ses som QT-forlængelse i et elektrokardiogram 
+ 
+Lavt blodtryk 
+ 
+Muskelsmerter </p>
+<p>Ikke almindelig: kan ramme op til 1 ud af 100 personer 
+ 
+Krampeanfald; afsnit 2 indeholder mere information </p>
+<p>Ikke kendt: kan ikke estimeres ud fra forhåndenværende data 
+ 
+Allergiske reaktioner (inklusive anafylaktiske reaktioner) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store parsabiv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store parsabiv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). 
+Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+<p>Efter at lægemidlet er taget ud af køleskabet: 
+ 
+Parsabiv er stabilt i maksimalt 7 dage i træk, når det opbevares i den originale karton. Der er 
+ingen særlige krav vedrørende opbevaringstemperaturer. 
+ 
+Når Parsabiv er taget ud af den originale karton, er det stabilt i maksimalt 4 timer, hvis det er 
+beskyttet mod direkte sollys. </p>
+<p>Brug ikke lægemidlet, hvis du kan se, at det indeholder partikler eller har skiftet farve. </p>
+<p>Kun til engangsbrug. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Parsabiv indeholder:</p>
+<ul>
+<li>Aktivt stof: etelcalcetid. 
+Parsabiv 2,5 mg injektionsvæske, opløsning: Hvert hætteglas indeholder 2,5 mg etelcalcetid i 
+0,5 ml opløsning (5 mg/ml). 
+Parsabiv 5 mg injektionsvæske, opløsning: Hvert hætteglas indeholder 5 mg etelcalcetid i 1 ml 
+opløsning (5 mg/ml). 
+Parsabiv 10 mg injektionsvæske, opløsning: Hvert hætteglas indeholder 10 mg etelcalcetid i 
+2 ml opløsning (5 mg/ml). </li>
+<li>Øvrige indholdsstoffer: natriumchlorid, ravsyre, vand til injektionsvæsker, saltsyre og 
+natriumhydroxid (se afsnit 2: Parsabiv indeholder natrium). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Parsabiv er en klar og farveløs væske. </p>
+<p>Parsabiv er en injektionsvæske i et hætteglas. </p>
+<p>Pakningsstørrelser med 1, 6, 12 og 42 hætteglas. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Holland </p>
+<p>Indehaver af markedsføringstilladelsen 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Holland </p>
+<p>Fremstiller 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/Tél: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7 
+България 
+Амджен България ЕООД 
+Тел.: +359 (0)2 424 7 
+Luxembourg/Luxemburg 
+s.a. Amgen 
+Belgique/Belgien 
+Tel/Tél: +32 (0)2 7752Česká republika 
+Amgen s.r.o. 
+Tel: +420 221 773<br />
+Magyarország 
+Amgen Kft. 
+Tel.: +36 1 35 44<br />
+Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732Deutschland 
+AMGEN GmbH 
+Tel.: +49 89 1490 
+Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09 
+Norge 
+Amgen AB 
+Tel: +47 23308Ελλάδα 
+Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
+Τηλ.: +30 210 3447 
+Österreich 
+Amgen GmbH 
+Tel: +43 (0)1 50 España 
+Amgen S.A. 
+Tel: +34 93 600 18<br />
+Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3 
+France 
+Amgen S.A.S. 
+Tél: +33 (0)9 69 363<br />
+Portugal 
+Amgen Biofarmacêutica, Lda. 
+Tel: +351 21 4220 
+Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57<br />
+România 
+Amgen România SRL 
+Tel: +4021 527 3 
+Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114<br />
+Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241 
+Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900 
+Kύπρος 
+C.A. Papaellinas Ltd 
+Τηλ.: +357 22741<br />
+Sverige 
+Amgen AB 
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG Rīgas filiāle 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-25b49674d9d703c70f7cbc179ed1a337
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for parsabiv Package Leaflet for language en"
+Description: "ePI document Bundle for parsabiv Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-25b49674d9d703c70f7cbc179ed1a337"
+* entry[0].resource = composition-en-25b49674d9d703c70f7cbc179ed1a337
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp25b49674d9d703c70f7cbc179ed1a337"
+* entry[=].resource = mp25b49674d9d703c70f7cbc179ed1a337
+                            
+                    
+Instance: bundlepackageleaflet-da-25b49674d9d703c70f7cbc179ed1a337
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for parsabiv Package Leaflet for language da"
+Description: "ePI document Bundle for parsabiv Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-25b49674d9d703c70f7cbc179ed1a337"
+* entry[0].resource = composition-da-25b49674d9d703c70f7cbc179ed1a337
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp25b49674d9d703c70f7cbc179ed1a337"
+* entry[=].resource = mp25b49674d9d703c70f7cbc179ed1a337
+                            
+                    
+
+
+
+Instance: mp25b49674d9d703c70f7cbc179ed1a337
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Parsabiv 2.5 mg solution for injection"
-Description: "Parsabiv 2.5 mg solution for injection"
+Title: "Medicinal Product parsabiv"
+Description: "parsabiv"
 Usage: #inline
 
  
@@ -329,7 +743,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Parsabiv 2.5 mg solution for injection"
+  * productName = "parsabiv"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -356,29 +770,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-25b49674d9d703c70f7cbc179ed1a337
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for parsabiv Package Leaflet for language en"
-Description: "ePI document Bundle for parsabiv Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 25b49674d9d703c70f7cbc179ed1a337ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Parsabiv 2.5 mg solution for injection"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "parsabiv"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-25b49674d9d703c70f7cbc179ed1a337"
-* entry[0].resource = composition-en-25b49674d9d703c70f7cbc179ed1a337
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0105d3e81a875a559480bc6d62cf2c9e"
-* entry[=].resource = mp0105d3e81a875a559480bc6d62cf2c9e
-                            
-                      
+* title = "List of all ePIs associated with parsabiv"
+
+* subject = Reference(mp0105d3e81a875a559480bc6d62cf2c9e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#parsabiv "parsabiv"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-25b49674d9d703c70f7cbc179ed1a337) // parsabiv en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-25b49674d9d703c70f7cbc179ed1a337) // parsabiv da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-25b49674d9d703c70f7cbc179ed1a337
+InstanceOf: List
+
+* insert 25b49674d9d703c70f7cbc179ed1a337ListRuleset
+    

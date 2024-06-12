@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a0d64103b1c8a608be4329399bf17c80
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyftor Package Leaflet"
@@ -254,12 +257,398 @@ http://www.ema.europa.eu. There are also links to other websites about rare dise
 
 
 
+Instance: composition-da-a0d64103b1c8a608be4329399bf17c80
+InstanceOf: CompositionUvEpi
+Title: "Composition for hyftor Package Leaflet"
+Description:  "Composition for hyftor Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpabde6760299c30f30b1e966448aa9a47)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpabde6760299c30f30b1e966448aa9a47
+* title = "TEST PURPOSES ONLY - hyftor"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du bruge Hyftor 
+3. Sådan skal du bruge Hyftor 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What hyftor is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What hyftor is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hyftor indeholder det aktive stof sirolimus, som er et lægemiddel, der nedsætter aktiviteten af 
+immunsystemet. 
+Hos patienter med tuberøs sklerosekompleks er et protein, der regulerer immunsystemet, m-TOR, 
+overaktivt. Ved at blokere aktiviteten af m-TOR regulerer Hyftor cellevæksten og reducerer antallet 
+eller størrelsen af angiofibromer. </p>
+<p>Hyftor er et lægemiddel, der anvendes til behandling af voksne og børn fra 6 år med angiofibrom i 
+ansigtet som følge af tuberøs sklerosekompleks. Tuberøs sklerosekompleks er en sjælden genetisk 
+sygdom, der får svulster uden kræft til at vokse i forskellige organer i kroppen, herunder hjernen og 
+huden. Sygdommen forårsager faciale angiofibromer, læsioner (vækst) uden kræft i huden og 
+slimhinderne (fugtige kropsoverflader, såsom mundslimhinden) i ansigtet hos mange patienter. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take hyftor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take hyftor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Hyftor, hvis du er allergisk over for sirolimus eller et af de øvrige indholdsstoffer i Hyftor 
+(angivet i punkt 6) </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger Hyftor, hvis du har: </p>
+<ul>
+<li>
+<p>et svækket immunsystem </p>
+</li>
+<li>
+<p>svært nedsat leverfunktion </p>
+</li>
+</ul>
+<p>Undgå, at Hyftor får kontakte med øjnene, slimhinden i mund og næse, eller sår. Det må heller ikke 
+anvendes på irriteret hud eller hud, der er inficeret eller på anden måde beskadiget. 
+I tilfælde af kontakt ved et uheld anbefales det straks at vaske gelen af. </p>
+<p>Undgå at udsætte hud behandlet med Hyftor for direkte sollys, da det kan forårsage bivirkninger på 
+huden. Dette omfatter både naturlig og kunstig sol (f.eks. solarium). Lægen vil rådgive dig om 
+passende solbeskyttelse, som brugen af solfaktor og tøj til at dække huden eller hovedbeklædning. </p>
+<p>Børn 
+Hyftor bør ikke gives til børn under 6 år, da præparatet ikke er blevet tilstrækkeligt undersøgt til denne 
+aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Hyftor 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Påfør ikke andre lægemidler til det hudområde, der bliver behandlet med Hyftor. </p>
+<p>Graviditet og amning 
+Hyftor bør ikke anvendes under graviditeten, medmindre din læge mener, at fordelen ved 
+behandlingen opvejer risici. Der er ingen information om anvendelsen af Hyftor til gravide kvinder. 
+Kvinder i den fertile alder skal anvende sikker prævention under behandlingen med Hyftor. </p>
+<p>Det er ukendt, om sirolimus udskilles i human mælk efter behandling med Hyftor. Du skal sammen 
+med lægen beslutte, om amning eller behandling med Hyftor skal ophøre, idet der tages højde for 
+fordelene ved amning for barnet i forhold til de terapeutiske fordele for dig. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel forventes ikke at påvirke din evne til at føre køretøj eller betjene maskiner. </p>
+<p>Hyftor indeholder alkohol 
+Dette lægemiddel indeholder 458 mg alkohol (ethanol) pr. gram. Det kan forårsage en brændende 
+fornemmelse på skadet hud. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take hyftor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take hyftor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er 
+Din læge eller apotekspersonalet vil fortælle dig, hvor meget gel du skal bruge. </p>
+<p>Ca. 0,5 cm gelstreng to gange dagligt anbefales for en læsion på omkring 7 gange 7 cm (50 cm2). </p>
+<p>Den maksimale anbefalede dosis i ansigtet er: </p>
+<ul>
+<li>
+<p>børn i alderen 6 til 11 år: ikke over 1 cm gelstreng to gange dagligt </p>
+</li>
+<li>
+<p>voksne og børn fra 12 år: ikke over 1,25 cm gelstreng to gange dagligt </p>
+</li>
+</ul>
+<p>Sådan påføres gelen 
+Et tyndt lag Hyftor påføres to gange dagligt (morgen og aften) til det berørte hudområde og gnid 
+forsigtigt ind. Gelen skal påføres én gang om morgenen og én gang om aftenen inden sengetid. 
+Begræns brugen af gelen til hudområder berørt af angiofibrom. Det berørte hudområde må ikke 
+tildækkes efter applikation af Hyftor. </p>
+<p>Vask hænderne grundigt inden og umiddelbart efter du bruger gelen, for at undgå utilsigtet spredning 
+og indtagelse. </p>
+<p>Behandlingsvarighed 
+Din læge vil fortælle dig, hvor længe du skal bruge Hyftor. </p>
+<p>Hvis du har brugt for meget Hyftor 
+Hyftor påføres på huden og absorptionen i kroppen er minimal. Det gør en overdosering meget 
+usandsynlig. 
+Hvis du påfører for meget gel på en læsion, skal du forsigtigt tørre overskydende gel af med en 
+papirserviet og smide den væk. </p>
+<p>Hvis du eller andre ved et uheld sluger noget gel, skal du straks kontakte din læge. </p>
+<p>Hvis du har glemt at bruge Hyftor 
+Hvis du har glemt at bruge lægemidlet om morgenen, kan du stadig påføre gelen så snart du husker på 
+det, umiddelbart før dit aftensmåltid samme dag. Efter dit aftensmåltid må du kun administrere Hyftor 
+ved sengetid den dag. Hvis du har glemt at bruge lægemidlet ved sengetid, skal du springe den dosis 
+over. Du må ikke påføre mere gel som erstatning for en glemt dosis. </p>
+<p>Hvis du holder op med at bruge Hyftor 
+Din læge vil fortælle dig, hvor længe du skal bruge Hyftor, og hvornår du kan holde op med 
+behandlingen. Du må ikke holde op med at bruge det uden at kontakte din læge. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>tør hud </p>
+</li>
+<li>
+<p>kløende hud </p>
+</li>
+<li>
+<p>akne </p>
+</li>
+<li>
+<p>irritation på applikationsstedet, såsom rødme, brændende eller stikkende fornemmelse, kløe, 
+hævelse og/eller følelsesløshed </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>blødning på applikationsstedet </p>
+</li>
+<li>
+<p>unormal fornemmelse, herunder på applikationsstedet, såsom følelsesløshed, sovende 
+fornemmelse, prikken, stikken og kløe </p>
+</li>
+<li>
+<p>hævelse på applikationsstedet </p>
+</li>
+<li>
+<p>eksem karakteriseret ved ændringer, der opstår, når huden bliver unormalt tør, rød, kløende og 
+revnet </p>
+</li>
+<li>
+<p>dermal cyste (en cyste, der indeholder fast væv eller strukturer, såsom hår) </p>
+</li>
+<li>
+<p>udslæt, kløende udslæt </p>
+</li>
+<li>
+<p>hudafskalning </p>
+</li>
+<li>
+<p>hudirritation </p>
+</li>
+<li>
+<p>rødme </p>
+</li>
+<li>
+<p>hudblødning </p>
+</li>
+<li>
+<p>dermatitis (betændelse i huden), herunder kontaktdermatitis (betændelse i huden efter kontakt 
+med lægemidlet), acneiform dermatitis (betændelse i huden med små akne-lignende knopper), 
+seboroisk dermatitis (hudtilstand, der påvirker hovedet med skællende og rød hud), 
+soldermatitis (betændelse i huden efter udsættelse for sollys) </p>
+</li>
+<li>
+<p>tør, hård og skællende hud </p>
+</li>
+<li>
+<p>nældefeber </p>
+</li>
+<li>
+<p>knuder </p>
+</li>
+<li>
+<p>bylder </p>
+</li>
+<li>
+<p>tinea versicolour (en svampeinfektion i huden) </p>
+</li>
+<li>
+<p>betændelse i mundens slimhinde </p>
+</li>
+<li>
+<p>øget lysfølsomhed </p>
+</li>
+<li>
+<p>rødme af øjenlåg </p>
+</li>
+<li>
+<p>røde øjne </p>
+</li>
+<li>
+<p>øjenirritation </p>
+</li>
+<li>
+<p>øjenbetændelse (rødme og ubehag i øjet) </p>
+</li>
+<li>
+<p>betændelse af hårfollikler </p>
+</li>
+<li>
+<p>fornemmelser som følelsesløshed, sovende fornemmelse og prikken og stikken </p>
+</li>
+<li>
+<p>næseubehag </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store hyftor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store hyftor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og tuben efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. 
+Opbevares i køleskab (2 °C - 8 °C). 
+Opbevares i den originale tube for at beskytte mod lys. 
+Holdes væk fra åben ild. </p>
+<p>Bortskaf tuben og al resterende gel 4 uger efter anbrud. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hyftor indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: sirolimus. Hver gram gel indeholder 2 mg sirolimus </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Carbomer, ethanol, vandfrit, trolamin og renset vand (se pkt. 2 "Hyftor 
+indeholder alkohol"). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Hyftor er en gennemsigtig, farveløs gel. Den leveres i en aluminiumstube indeholdende10 g gel. </p>
+<p>Pakningsstørrelse: 1 tube </p>
+<p>Indehaver af markedsføringstilladelsen 
+Plusultra pharma GmbH 
+Fritz-Vomfelde-Str. 40547 Düsseldorf 
+Tyskland </p>
+<p>Fremstiller 
+MSK Pharmalogistic GmbH 
+Donnersbergstraße 4 
+64646 Heppenheim 
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>-
+Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a0d64103b1c8a608be4329399bf17c80
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hyftor Package Leaflet for language en"
+Description: "ePI document Bundle for hyftor Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a0d64103b1c8a608be4329399bf17c80"
+* entry[0].resource = composition-en-a0d64103b1c8a608be4329399bf17c80
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa0d64103b1c8a608be4329399bf17c80"
+* entry[=].resource = mpa0d64103b1c8a608be4329399bf17c80
+                            
+                    
+Instance: bundlepackageleaflet-da-a0d64103b1c8a608be4329399bf17c80
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hyftor Package Leaflet for language da"
+Description: "ePI document Bundle for hyftor Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a0d64103b1c8a608be4329399bf17c80"
+* entry[0].resource = composition-da-a0d64103b1c8a608be4329399bf17c80
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa0d64103b1c8a608be4329399bf17c80"
+* entry[=].resource = mpa0d64103b1c8a608be4329399bf17c80
+                            
+                    
+
+
+
+Instance: mpa0d64103b1c8a608be4329399bf17c80
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Hyftor 2 mg/g gel"
-Description: "Hyftor 2 mg/g gel"
+Title: "Medicinal Product hyftor"
+Description: "hyftor"
 Usage: #inline
 
  
@@ -279,7 +668,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Hyftor 2 mg/g gel"
+  * productName = "hyftor"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -306,29 +695,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a0d64103b1c8a608be4329399bf17c80
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for hyftor Package Leaflet for language en"
-Description: "ePI document Bundle for hyftor Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a0d64103b1c8a608be4329399bf17c80ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1723/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "hyftor"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a0d64103b1c8a608be4329399bf17c80"
-* entry[0].resource = composition-en-a0d64103b1c8a608be4329399bf17c80
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpabde6760299c30f30b1e966448aa9a47"
-* entry[=].resource = mpabde6760299c30f30b1e966448aa9a47
-                            
-                      
+* title = "List of all ePIs associated with hyftor"
+
+* subject = Reference(mpabde6760299c30f30b1e966448aa9a47)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#hyftor "hyftor"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a0d64103b1c8a608be4329399bf17c80) // hyftor en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a0d64103b1c8a608be4329399bf17c80) // hyftor da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a0d64103b1c8a608be4329399bf17c80
+InstanceOf: List
+
+* insert a0d64103b1c8a608be4329399bf17c80ListRuleset
+    

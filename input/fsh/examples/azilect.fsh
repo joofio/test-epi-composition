@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-156b61ce1985095bf62d895909c686c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for azilect Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp522d829047ef63927be2a2d3287ddf43)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -352,9 +355,399 @@ Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>         </di
 
 
 
+Instance: composition-da-156b61ce1985095bf62d895909c686c6
+InstanceOf: CompositionUvEpi
+Title: "Composition for azilect Package Leaflet"
+Description:  "Composition for azilect Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp522d829047ef63927be2a2d3287ddf43)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - azilect"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage AZILECT 
+3. Sådan skal De tage AZILECT 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What azilect is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What azilect is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AZILECT indeholder det aktive stof rasagilin og anvendes til behandling af Parkinsons sygdom hos 
+voksne. Det kan bruges sammen med eller uden levodopa (et andet lægemiddel, som anvendes til 
+behandling af Parkinsons sygdom). </p>
+<p>Parkinsons sygdom forårsager et tab af celler, som producerer dopamin i hjernen. Dopamin er et stof i 
+hjernen, som er med til at styre bevægelser. AZILECT er med til at øge og opretholde 
+dopaminniveauet i hjernen.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take azilect"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take azilect"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke AZILECT 
+- hvis De er allergisk over for rasagilin eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). 
+- hvis De lider af alvorlige leverlidelser. </p>
+<p>Tag ikke følgende lægemidler, mens De er i behandling med AZILECT:</p>
+<ul>
+<li>Monoaminooxidasehæmmere (MAO-hæmmere) (f.eks. til behandling af depression eller 
+Parkinsons sygdom eller til behandling af andre lidelser), inkl. lægemidler eller naturlægemidler i 
+håndkøb, som f.eks. perikon </li>
+<li>Pethidin (et stærkt smertestillende lægemiddel) 
+Der skal gå mindst 14 dage, efter at De er stoppet med Deres behandling med AZILECT, før De må 
+påbegynde en behandling med MAO-hæmmere eller pethidin. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før De tager AZILECT. 
+- hvis De har leverproblemer 
+- hvis De får mistænkelige hudforandringer, skal De tale med Deres læge. Behandlingen med 
+AZILECT kan muligvis øge risikoen for hudkræft. </p>
+<p>Fortæl det til lægen, hvis De eller Deres familie/omsorgsperson bemærker, at De er ved at udvikle en 
+usædvanlig adfærd, hvor De ikke kan modstå lysten, fristelsen eller trangen til at udføre bestemte 
+handlinger, der er uønskede eller skadelige for Dem selv eller andre. En sådan adfærd kaldes 
+impulskontrolforstyrrelser. Hos patienter i behandling med AZILECT og/eller andre lægemidler til 
+behandling af Parkinsons sygdom er der set tvangshandlinger, tvangstanker, afhængighedspræget 
+spillelyst, overdrevent pengeforbrug, impulshandling og en unormalt stor sexlyst eller en stigning i 
+seksuelle tanker og følelser. Lægen kan være nødt til at ændre Deres dosis eller stoppe behandlingen 
+(se punkt 4). </p>
+<p>AZILECT kan forårsage døsighed, og at du pludselig falder i søvn under daglige 
+aktiviteter, især hvis du tager andre dopaminerge lægemidler (anvendes til behandling 
+af Parkinsons sygdom). Se yderligere oplysninger i punktet om at føre motorkøretøj og 
+betjene maskiner. </p>
+<p>Børn og unge 
+Der er ingen relevant brug af AZILECT til børn og unge. AZILECT anbefales derfor ikke til unge 
+under 18 år. </p>
+<p>Brug af anden medicin sammen med AZILECT 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger anden medicin eller har brugt det for 
+nylig. </p>
+<p>Fortæl det især til Deres læge, inden De tager et af følgende lægemidler:</p>
+<ul>
+<li>Visse former for lægemidler til behandling af depression (selektive 
+serotoningenoptagelseshæmmere, selektive serotonin-/noradrenalingenoptagelseshæmmere, 
+tricykliske eller tetracykliske antidepressive lægemidler) </li>
+<li>Antibiotikummet ciprofloxacin til behandling af infektioner </li>
+<li>Det hostestillende middel dextromethorphan </li>
+<li>Øjendråber, næsedråber/-spray og slimløsende lægemidler til næse og svælg, der indeholder 
+sympatomimetika, samt forkølelsesmedicin, der indeholder ephedrin eller pseudoephedrin 
+AZILECT bør ikke indtages sammen med antidepressive lægemidler, der indeholder fluoxetin eller 
+fluvoxamin. 
+De skal vente mindst 5 uger efter at have stoppet behandling med fluoxetin, inden De påbegynder 
+behandling med AZILECT. 
+De skal vente mindst 14 dage efter at have stoppet behandling med AZILECT, inden De påbegynder 
+behandling med fluoxetin eller fluvoxamin. </li>
+</ul>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis De ryger eller har til hensigt at holde op med at ryge. 
+Rygning kan nedsætte mængden af AZILECT i blodet. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<p>Du skal undgå at tage AZILECT, hvis du er gravid, da virkningen af AZILECT på graviditeten og det 
+ufødte barn er ukendt. </p>
+<p>Trafik- og arbejdssikkerhed 
+Spørg Deres læge til råds, inden De kører bil, og inden De arbejder med maskiner, da Parkinsons 
+sygdom tillige med behandlingen med AZILECT kan påvirke evnen til at udføre disse handlinger. 
+AZILECT kan få Dem til at føle svimmelhed eller døsighed. Lægemidlet kan også forårsage episoder 
+med pludseligt opstået søvn. 
+Dette kan forstærkes, hvis De tager anden medicin til behandling af Deres symptomer på Parkinsons 
+sygdom, eller hvis De tager medicin, som kan få Dem til at føle døsighed, eller hvis De drikker 
+alkohol, mens De tager AZILECT. Hvis De har oplevet søvnighed og/eller episoder med pludseligt </p>
+<p>opstået søvn før, eller mens De tager AZILECT, skal De undlade at køre bil eller betjene maskiner (se 
+punkt 2). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take azilect"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take azilect"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er 1 tablet (1 mg) AZILECT én gang dagligt. Tabletten indtages gennem 
+munden. AZILECT kan tages i forbindelse med et måltid eller uden for måltiderne. </p>
+<p>Hvis De har taget for meget AZILECT 
+Hvis De mener, at De har taget for mange AZILECT tabletter, skal De straks kontakte Deres læge 
+eller apotekspersonalet. Medbring AZILECT æsken/blisterpakningen eller beholderen, når De opsøger 
+Deres læge/skadestue eller apotekspersonalet. </p>
+<p>Rapporterede symptomer efter en overdosering af AZILECT omfattede let eufori (let form for mani), 
+ekstremt højt blodtryk og serotoninsyndrom (se punkt 4). </p>
+<p>Hvis De har glemt at tage AZILECT 
+De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag den næste dosis på det 
+tidspunkt, hvor De normalt tager Deres AZILECT. </p>
+<p>Hvis De holder op med at tage AZILECT 
+Hold ikke op med at tage AZILECT uden først at have talt med Deres læge om det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt omgående Deres læge, hvis De bemærker nogen af følgende symptomer. De kan have 
+behov for akut lægehjælp eller -behandling:</p>
+<ul>
+<li>Hvis De udvikler usædvanlig adfærd som f.eks. tvangshandlinger, tvangstanker, ludomani, 
+uhæmmet, umådeholdent indkøb eller forbrug, impulshandlinger og en unormalt stor sexlyst 
+eller en stigning i seksuelle tanker (impulskontrolforstyrrelser) (se punkt 2). </li>
+<li>Hvis De ser eller hører ting, der ikke er der (hallucinationer). </li>
+<li>Enhver kombination af hallucinationer, feber, rastløshed, rysten og svenden (serotoninsyndrom) </li>
+</ul>
+<p>Kontakt Deres læge, hvis De bemærker nogen mistænkelige hudforandringer, fordi der kan være en 
+forhøjet risiko for hudkræft (melanom), når dette lægemiddel anvendes (se punkt 2). </p>
+<p>Andre bivirkninger </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) 
+- Ufrivillige bevægelser (dyskinesi) 
+- Hovedpine </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+- Mavesmerter 
+- Fald 
+- Allergi 
+- Feber </p>
+<ul>
+<li>Influenza </li>
+<li>En følelse af at være sløj (utilpashed) </li>
+<li>Nakkesmerter </li>
+<li>Smerter i brystet (angina pectoris) </li>
+<li>Blodtryksfald ved hurtig ændring fra liggende/siddende til stående stilling med symptomer som 
+svimmelhed (ortostatisk hypotension) </li>
+<li>Nedsat appetit </li>
+<li>Forstoppelse </li>
+<li>Mundtørhed </li>
+<li>Kvalme og opkastning </li>
+<li>Luftafgang fra tarmen </li>
+<li>Unormale blodprøveresultater (leukopeni (nedsat antal hvide blodlegemer)) </li>
+<li>Ledsmerter (artralgi) </li>
+<li>Smerter i muskler og led </li>
+<li>Betændelsestilstand i led (artritis) </li>
+<li>Følelsesløshed og kraftesløshed i musklerne i hånden (karpaltunnelsyndrom) </li>
+<li>Vægttab </li>
+<li>Unormale drømme </li>
+<li>Manglende koordination af bevægelser (balanceforstyrrelser) </li>
+<li>Depression </li>
+<li>Svimmelhed </li>
+<li>Ufrivillige bevægelser af kroppen (dystoni) </li>
+<li>Løbenæse (snue) </li>
+<li>Irritation af huden (dermatitis) </li>
+<li>Udslæt </li>
+<li>Øjenbetændelse med røde øjne (conjunctivitis) </li>
+<li>Pludseligt opstået vandladningstrang. </li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) 
+- Slagtilfælde (cerebrovaskulært tilfælde) 
+- Hjerteanfald (myokardieinfarkt) 
+- Udslæt med blæredannelse (vesikulobulbært udslæt) </p>
+<p>Ikke kendt (hyppighed kan ikke vurderes ud fra forhåndenværende data) 
+- Forhøjet blodtryk 
+- Overdreven døsighed 
+- Pludselig indsovning </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store azilect"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store azilect"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, beholderen eller blisterpakningen efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 oC. </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AZILECT indeholder:</p>
+<ul>
+<li>Aktivt stof: Rasagilin. Hver tablet indeholder 1 mg rasagilin (som mesilat). </li>
+<li>Øvrige indholdsstoffer: Mannitol, kolloid vandfri silica, majsstivelse, prægelatineret 
+majsstivelse, stearinsyre, talkum. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+AZILECT tabletter fås som hvide til grålighvide, runde, flade tabletter med skrå kant, præget på den 
+ene side med ”GIL” og nedenunder ”1” og uden præg på den anden side. </p>
+<p>Tabletterne findes i blisterpakninger med 7, 10, 28, 30, 100 og 112 tabletter eller i en beholder med 
+30 tabletter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Fremstillere </p>
+<p>Teva Pharmaceuticals Europe B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Pliva Croatia Ltd. 
+Prilaz baruna Filipovica 10000 Zagreb 
+Kroatien </p>
+<p>Teva Operations Poland Sp.z o.o. 
+ul. Mogilska 31-546 Krakow 
+Polen </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 </p>
+<p>България 
+Тева Фарма ЕАД 
+Teл: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika<br />
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal<br />
+Tel: +372 6610 
+Norge 
+Teva Norway AS<br />
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS Α.Ε. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France<br />
+Teva Santé 
+Tél: +33 155917800  </p>
+<p>Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS Α.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 </p>
+<p>Latvija 
+UAB Teva Baltics filiāle Latvijā<br />
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ} </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-156b61ce1985095bf62d895909c686c6
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for azilect Package Leaflet for language en"
@@ -373,5 +766,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-156b61ce1985095bf62d895909c686c6"
 * entry[0].resource = composition-en-156b61ce1985095bf62d895909c686c6
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp156b61ce1985095bf62d895909c686c6"
+* entry[=].resource = mp156b61ce1985095bf62d895909c686c6
+                            
+                    
+Instance: bundlepackageleaflet-da-156b61ce1985095bf62d895909c686c6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azilect Package Leaflet for language da"
+Description: "ePI document Bundle for azilect Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-156b61ce1985095bf62d895909c686c6"
+* entry[0].resource = composition-da-156b61ce1985095bf62d895909c686c6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp156b61ce1985095bf62d895909c686c6"
+* entry[=].resource = mp156b61ce1985095bf62d895909c686c6
+                            
+                    
+
+
+
+Instance: mp156b61ce1985095bf62d895909c686c6
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product azilect"
+Description: "azilect"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/04/304/001-07"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "AZILECT is indicated in adults for the treatment of idiopathic Parkinson’s disease as monotherapy"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "azilect"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: 156b61ce1985095bf62d895909c686c6ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "azilect"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with azilect"
+
+* subject = Reference(mp522d829047ef63927be2a2d3287ddf43)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#azilect "azilect"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-156b61ce1985095bf62d895909c686c6) // azilect en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-156b61ce1985095bf62d895909c686c6) // azilect da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-156b61ce1985095bf62d895909c686c6
+InstanceOf: List
+
+* insert 156b61ce1985095bf62d895909c686c6ListRuleset
+    

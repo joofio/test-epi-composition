@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-26b20b6a67265be2cf1102bb12c87943
 InstanceOf: CompositionUvEpi
 Title: "Composition for matever Package Leaflet"
@@ -448,12 +451,691 @@ Tel: +30 210 66 04 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-26b20b6a67265be2cf1102bb12c87943
+InstanceOf: CompositionUvEpi
+Title: "Composition for matever Package Leaflet"
+Description:  "Composition for matever Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp91a300fb758ae194e3adf9ea194d2946)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp91a300fb758ae194e3adf9ea194d2946
+* title = "TEST PURPOSES ONLY - matever"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen<br />
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Matever. 
+3. Sådan skal De tage Matever 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What matever is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What matever is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Levetiracetam er et lægemiddel mod epilepsi (et lægemiddel som anvendes til behandling af 
+epileptiske anfald). </p>
+<p>Matever anvendes  </p>
+<ul>
+<li>
+<p>som monoterapi (eneste lægemiddel) hos voksne og unge over 16 år med nydiagnosticeret 
+epilepsi til behandling af en bestemt type epilepsi. Epilepsi er en tilstand, hvor patienter har 
+gentagne anfald (kramper). Levetiracetam anvendes til den type epilepsi, hvor anfaldene til at 
+begynde med kun påvirker en side af hjernen, men kan efterfølgende udvide sig til større 
+områder i begge sider af hjernen (partielt udløste anfald med eller uden sekundær 
+generalisering). De har fået levetiracetam af Deres læge for at nedbringe antallet af anfald </p>
+</li>
+<li>
+<p>som tillæg til andre lægemidler mod epilepsi til behandling af: 
+▪ 
+partielt udløste anfald med eller uden generalisering hos voksne, unge, børn og spædbørn 
+over 1 måned<br />
+▪ 
+myoklone anfald (korte, chok-lignende ryk i en muskel eller i en gruppe af muskler) hos 
+voksne og unge over 12 år med juvenil myoklon epilepsi 
+▪ 
+primært generaliserede tonisk-kloniske anfald (større anfald inklusiv bevidstløshed ) hos 
+voksne og unge over 12 år med idiopatisk generaliseret epilepsi (den type epilepsi, som 
+menes at være genetisk forårsaget) </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take matever"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take matever"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Matever </p>
+<ul>
+<li>Hvis De er allergisk over for levetiracetam, pyrrolidonderivater eller et af de øvrige 
+indholdsstoffer i Matever (angivet i punkt 6).  </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før De tager Matever.  </p>
+<ul>
+<li>
+<p>Hvis De lider af nyreproblemer. Følg lægens instruktioner. Han/hun kan afgøre, om Deres dosis 
+skal justeres. </p>
+</li>
+<li>
+<p>Hvis De bemærker en stagnation i væksten eller uventet pubertetsudvikling hos Deres barn, så 
+kontakt Deres læge. </p>
+</li>
+<li>
+<p>En lille andel af de personer, der bliver behandlet med epilepsimedicin, som for eksempel 
+Matever, har haft selvmordstanker eller tanker om at gøre skade på sig selv. Hvis De har 
+symptomer på depression og/eller selvmordstanker, så kontakt Deres læge. </p>
+</li>
+<li>
+<p>Hvis De eller nogen i Deres familie har eller tidligere har haft uregelmæssig hjerterytme (synlig 
+på et elektrokardiogram), eller hvis De har en sygdom og/eller får en behandling, der gør, at De 
+er tilbøjelig til at få uregelmæssig hjerterytme eller forstyrrelser i saltbalancen.  </p>
+</li>
+</ul>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis en af følgende bivirkninger bliver alvorlig eller varer 
+længere end et par dage: </p>
+<ul>
+<li>
+<p>Unormale tanker, følelse af irritation eller mere aggressive reaktioner end normalt, eller hvis De 
+eller Deres familie og venner bemærker væsentlige humør- eller adfærdsændringer hos Dem. </p>
+</li>
+<li>
+<p>Forværring af epilepsi 
+Deres krampeanfald kan i sjældne tilfælde blive værre eller forekomme hyppigere, 
+hovedsageligt i den første måned efter behandlingsstart eller dosisoptrapning. Ved en meget 
+sjælden form for tidligt debuterende epilepsi (epilepsi forbundet med SCN8A-mutationer), der 
+forårsager flere typer anfald og tab af færdigheder, kan De muligvis bemærke, at anfaldene 
+stadig forekommer eller bliver værre under Deres behandling. </p>
+</li>
+</ul>
+<p>Hvis De oplever et eller flere af disse nye symptomer, mens De tager Matever, skal De søge læge så 
+hurtigt som muligt.  </p>
+<p>Børn og unge </p>
+<ul>
+<li>Matever, som eneste lægemiddel (monoterapi), er ikke indiceret til børn og unge under 16 år. </li>
+</ul>
+<p>Brug af anden medicin sammen med Matever 
+Fortæl altid lægen eller apotekspersonalet, hvis De tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. </p>
+<p>Tag ikke macrogol (et lægemiddel, som anvendes som afføringsmiddel) en time før og en time efter 
+levetiracetam, da dette kan medføre tab af levetiracetams virkning. </p>
+<p>Graviditet og amning 
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge til råds, før De tager dette lægemiddel. Levetiracetam må kun anvendes under 
+graviditeten, hvis Deres læge efter omhyggelig vurdering mener, at det er nødvendigt.<br />
+De bør ikke standse med behandlingen uden aftale med Deres læge. Risiko for medfødte misdannelser 
+hos Deres ufødte barn kan ikke udelukkes helt. 
+Det anbefales ikke at amme under behandlingen.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Matever kan påvirke Deres evne til at køre bil, motorcykel, cykle eller betjene værktøj og maskiner, da 
+det kan give døsighed. Dette er mere sandsynligt i begyndelsen af behandlingen eller efter forøgelse af 
+dosis. De må ikke køre bil, motorcykel, cykle eller anvende maskiner, før De er helt sikker på, at 
+Deres evne til at udføre sådanne aktiviteter ikke er påvirket. </p>
+<p>Matever 250 mg, 750 mg filmovertrukne tabletter indeholder sunset yellow FCF (E110) 
+Sunset yellow FCF (E 110) er et farvestof, som kan give allergiske reaktioner. </p>
+<p>De øvrige styrker af Matever indeholder ikke dette farvestof. </p>
+<p>Matever 1000 mg filmovertrukne tabletter indeholder lactose 
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. 
+De øvrige styrker af Matever indeholder ikke dette farvestof. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take matever"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take matever"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Tag det antal tabletter, som lægen har ordineret. 
+Matever skal tages to gange dagligt, én gang om morgenen og én gang om aftenen, på omtrent samme 
+tidspunkt hver dag. </p>
+<p>Tillægsbehandling og monoterapi (fra 16 år) </p>
+<ul>
+<li>
+<p>Voksne (≥18 år) og unge (12 til 17 år), som vejer 50 kg eller mere: 
+Den anbefalede dosis er mellem 1 000 mg og 3 000 mg dagligt. 
+Når De begynder at tage Matever, vil Deres læge ordinere en lavere dosis i 2 uger, før De får 
+den laveste daglige dosis. 
+Eksempel: Hvis Deres daglige dosis er bestemt til at være 1 000 mg, er Deres lavere startdosis 
+1 tablet på 250 mg om morgenen og 1 tablet på 250 mg om aftenen, og dosis vil blive gradvist 
+forhøjet, så den når 1 000 mg dagligt efter 2 uger. </p>
+</li>
+<li>
+<p>Unge (12 til 17 år), der vejer 50 kg eller mindre: 
+Deres læge vil ordinere den mest passende lægemiddelform af Matever i henhold til vægt og 
+dosis. </p>
+</li>
+<li>
+<p>Dosis til spædbørn (1 måned til 23 måneder) og børn (2 til 11 år), som vejer under 50 kg: 
+Deres læge vil ordinere den mest hensigtsmæssige lægemiddelform af Matever afhængigt af 
+alder, vægt og dosis. </p>
+</li>
+</ul>
+<p>Levetiracetam 100 mg/ml oral opløsning er den bedst egnede lægemiddelformulering til 
+spædbørn og børn under 6 år og til børn og unge (fra 6 til 17 år), som vejer mindre end 50 kg, 
+og hvor tabletter ikke muliggøre nøjagtig dosis. </p>
+<p>Indtagelsesmåde 
+Matever tabletter synkes med rigelig væske (f.eks. et glas vand). 
+De kan tage Matever med eller uden mad. Der kan opleves en bitter smag i munden efter oral 
+indtagelse af levetiracetam. </p>
+<p>Behandlingsvarighed </p>
+<ul>
+<li>
+<p>Matever anvendes til kronisk behandling. De skal fortsætte behandlingen med Matever så lang 
+tid, som Deres læge har fortalt Dem. </p>
+</li>
+<li>
+<p>Stop ikke behandlingen uden lægens anbefaling, da dette kan øge antallet af anfald.  </p>
+</li>
+</ul>
+<p>Hvis De har taget for mange Matever<br />
+Bivirkningerne ved overdosering af Matever er søvnighed, uro, aggressiv adfærd, nedsat årvågenhed, 
+vejrtrækningsbesvær og koma. 
+Kontakt lægen, hvis De har taget flere tabletter, end De skal. Deres læge vil fastlægge den bedst 
+mulige behandling af overdosering. </p>
+<p>Hvis De har glemt at tage Matever </p>
+<p>Kontakt lægen, hvis De har glemt en eller flere doser.<br />
+De må ikke tage en dobbeltdosis som erstatning for den glemte tablet.  </p>
+<p>Hvis De holder op med at tage Matever 
+Ved ophør af behandling skal Matever gradvist for at undgå en forøgelse af anfald. 
+Hvis lægen beslutter at stoppe Deres behandling med Matever, vil han/hun instruere Dem i, hvordan 
+De gradvist skal ophøre med at tage Matever. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt omgående lægen eller skadestuen, hvis De oplever: </p>
+<ul>
+<li>
+<p>svaghed, føler Dem ør i hovedet eller svimmel, eller har vejrtrækningsbesvær, da disse 
+symptomer kan være tegn på en alvorlig allergisk (anafylaktisk) reaktion </p>
+</li>
+<li>
+<p>hævelse af ansigt, læber, tunge eller svælg (Quinckes ødem) </p>
+</li>
+<li>
+<p>influenzalignende symptomer og udslæt i ansigtet, som efterfølges af udbredt udslæt med feber, 
+forhøjede leverenzymniveauer i blodprøver og et forhøjet antal af en bestemt type hvide 
+blodlegemer (eosinofili) og forstørrede lymfekirtler (lægemiddelreaktion med eosinofili og 
+systemiske reaktioner [DRESS]) </p>
+</li>
+<li>
+<p>symptomer, såsom nedsat urinmængde, træthed, kvalme, opkastning, forvirring og hævelse af 
+benene, anklerne eller fødderne, da disse kan være tegn på pludseligt nedsat nyrefunktion </p>
+</li>
+<li>
+<p>et hududslæt, der kan danne blærer, og som ligner små skydeskiver (mørk plet i midten omgivet 
+af et blegere område, med en mørk ring om kanten) (erythema multiforme) </p>
+</li>
+<li>
+<p>et udbredt udslæt med blærer og skællende hud, især omkring munden, næsen, øjnene og 
+kønsorganerne (Stevens-Johnson syndrom) </p>
+</li>
+<li>
+<p>et mere alvorligt udslæt, der forårsager afskalning af huden på mere end 30 % af 
+kropsoverfladen (toksisk epidermal nekrolyse) </p>
+</li>
+<li>
+<p>tegn på alvorlige mentale forandringer, eller hvis nogen omkring Dem bemærker tegn på 
+forvirring, somnolens (døsighed), amnesi (hukommelsestab), hukommelsessvækkelse 
+(glemsomhed), unormal adfærd, eller andre neurologiske tegn, herunder ufrivillige eller 
+ukontrollerede bevægelser. Disse symptomer kan være tegn på hjernepåvirkning (encefalopati).  </p>
+</li>
+</ul>
+<p>De oftest rapporterede bivirkninger er snue, døsighed, hovedpine, træthed og svimmelhed. I 
+begyndelsen af behandlingen eller i forbindelse med dosisøgning kan nogle af bivirkningerne såsom 
+søvnighed, træthed og svimmelhed være mere almindelige. Disse bivirkninger vil imidlertid normalt 
+mindskes efterhånden. </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>snue; </p>
+</li>
+<li>
+<p>døsighed, hovedpine. </p>
+</li>
+</ul>
+<p>Almindelig: kan forekomme hos op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>appetitløshed; </p>
+</li>
+<li>
+<p>depression, fjendtlighed eller aggression, angst, søvnløshed, nervøsitet eller irritabilitet; </p>
+</li>
+<li>
+<p>kramper, problemer med at holde balancen, svimmelhed (følelse af usikker gang), letargi 
+(mangel på energi og entusiasme), tremor (ufrivillig rysten); </p>
+</li>
+<li>
+<p>vertigo (følelse af at snurre rundt); </p>
+</li>
+<li>
+<p>hoste; </p>
+</li>
+<li>
+<p>mavesmerter, diarré, dyspepsi (fordøjelsesbesvær), opkastning, kvalme; </p>
+</li>
+<li>
+<p>udslæt; </p>
+</li>
+<li>
+<p>kraftesløshed og svaghed/træthed. </p>
+</li>
+</ul>
+<p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>nedsat antal blodplader og hvide blodlegemer;  </p>
+</li>
+<li>
+<p>vægttab, vægtstigning; </p>
+</li>
+<li>
+<p>selvmordsforsøg og selvmordstanker, mental ubalance, unormal adfærd, hallucinationer, vrede, 
+forvirring, panikanfald, følelsesmæssig ustabilitet/humørsvingninger, rastløs uro; </p>
+</li>
+<li>
+<p>amnesi (hukommelsestab), hukommelsessvækkelse (glemsomhed), koordinationsbesvær, 
+paræstesi (prikkende, snurrende fornemmelser eller følelsesløshed i huden), 
+opmærksomhedsforstyrrelser (koncentrationsbesvær); </p>
+</li>
+<li>
+<p>dobbeltsyn, sløret syn; </p>
+</li>
+<li>
+<p>forhøjede/unormale værdier i leverfunktionsprøver; </p>
+</li>
+<li>
+<p>hårtab, eksem, kløe;  </p>
+</li>
+<li>
+<p>muskelsvaghed, muskelsmerter; </p>
+</li>
+<li>
+<p>skader ved uheld. </p>
+</li>
+</ul>
+<p>Sjælden: kan forekomme hos op til 1 ud af 1 000 personer </p>
+<ul>
+<li>
+<p>infektion; </p>
+</li>
+<li>
+<p>nedsat antal af alle typer blodlegemer; </p>
+</li>
+<li>
+<p>alvorlige allergiske reaktioner (DRESS, anafylaktisk reaktion (alvorlig og vigtig allergisk 
+reaktion), Quinckes ødem (hævelse af ansigt, læber, tunge og svælg ); </p>
+</li>
+<li>
+<p>nedsat natriumindhold i blodet; </p>
+</li>
+<li>
+<p>selvmord, personlighedsforstyrrelser (adfærdsproblemer), unormal tankevirksomhed (langsom 
+tankegang, koncentrationsbesvær);  </p>
+</li>
+<li>
+<p>delirium (uklarhed, forvirring og desorientering); </p>
+</li>
+<li>
+<p>encefalopati (se underafsnittet "Kontakt omgående lægen" for en detaljeret beskrivelse af 
+symptomer); </p>
+</li>
+<li>
+<p>krampeanfald kan forværres eller forekomme hyppigere; </p>
+</li>
+<li>
+<p>ukontrollerede muskelspasmer med indvirkning på hovedet, kroppen samt arme og ben; 
+vanskelighed med at kontrollere kroppens bevægelser, ufrivillige bevægelser; </p>
+</li>
+<li>
+<p>ændring af hjerterytmen (elektrokardiogram); </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen; </p>
+</li>
+<li>
+<p>leversvigt, leverbetændelse; </p>
+</li>
+<li>
+<p>pludseligt nedsat nyrefunktion; </p>
+</li>
+<li>
+<p>hududslæt, der kan danne blærer, og som ligner små skydeskiver (mørk plet i midten omgivet af 
+et blegere område, med en mørk ring om kanten) (erythema multiforme), et udbredt udslæt med 
+blærer og skællende hud, især omkring munden, næsen, øjnene og kønsorganerne (Stevens-
+Johnson syndrom) eller en mere alvorlig form, der forårsager afskalning af huden på mere end 
+30 % af kropsoverfladen (toksisk epidermal nekrolyse); </p>
+</li>
+<li>
+<p>rabdomyolyse (nedbrydning af muskelvæv) og forbundet med forhøjet indhold af kreatinkinase 
+i blodet. Forekomsten er betydeligt højere hos patienter af japansk afstamning i forhold til 
+patienter af ikke-japansk afstamning; </p>
+</li>
+<li>
+<p>halten eller gangbesvær; </p>
+</li>
+<li>
+<p>kombination af feber, muskelstivhed, ustabilt blodtryk og puls, forvirring, lavt 
+bevidsthedsniveau (kan være tegn på en lidelse kaldet neuroleptisk malignt syndrom). 
+Forekomsten er betydeligt højere hos patienter af japansk afstamning i forhold til patienter af 
+ikke-japansk afstamning. </p>
+</li>
+</ul>
+<p>Meget sjælden: kan forekomme hos op til 1 ud af 10 000 patienter </p>
+<ul>
+<li>gentagne uønskede tanker eller fornemmelser eller trang til at gøre noget igen og igen (obsessiv-
+kompulsiv lidelse). </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i </p>
+<p>Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store matever"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store matever"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterkortet efter "Exp". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Matever indeholder: 
+Aktivt stof: levetiracetam.<br />
+En Matever 250 mg tablet indeholder 250 mg levetiracetam. 
+En Matever 500 mg tablet indeholder 500 mg levetiracetam. 
+En Matever 750 mg tablet indeholder 750 mg levetiracetam. 
+En Matever 1000 mg tablet indeholder 1000 mg levetiracetam. </p>
+<p>Øvrige indholdsstoffer:<br />
+Tabletkerne: calciumhydrogenphosphatdihydrat, cellulose, mikrokrystallinsk, crospovidon (type A), 
+hydroxypropylcellulose (L) </p>
+<p>250 mg: 
+Filmovertræk: hypromellose (E464), titandioxid (E 171), talcum, propylenglycol (E1520), 
+farvestoffer*. </p>
+<p>500 mg: 
+Film-coating: hydroxypropylcellulose (E463), hypromellose (E464), propylenglycol (E1520), 
+sorbinsyre (E200), sorbitanmonooleat (E494), titandioxid (E 171), vanillin, farvestoffer*. </p>
+<p>750 mg: 
+Film-coating: Hypromellose (E464), macrogol/PEG 4000 , titandioxid (E 171), farvestoffer*. </p>
+<p>1000 mg: 
+Film-coating: hypromellose (E464), lactosemonohydrat, macrogol 4000, titandioxid (E 171). </p>
+<ul>
+<li>Farvestoffer: 
+250 mg tablet: indigotin I (E 132), sunset yellow FCF (E 110), quinolingul Aluminium Lake (E104) 
+500 mg tablet: quinolingul Aluminium Lake (E104) 
+750 mg tablet: indigotinI (E 132), sunset yellow FCF (E 110), rødjernoxid (E 172) 
+1000 mg tablet: ikke tilsat farvestoffer. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Matever 250 mg: De filmovertrukne tabletterer blå, aflange, bikonvekse. 
+Matever 500 mg: De filmovertrukne tabletterer gule, aflange, bikonvekse. 
+Matever 750 mg: De filmovertrukne tabletterer lyserøde, aflange, bikonvekse. 
+Matever 1000 mg: De filmovertrukne tabletterer hvide, aflange, bikonvekse. </p>
+<p>Hvid, uigennemsigtig PVC / PE / PVDCaluminiumsfolie-blisterpakningipapæsker. </p>
+<p>Matever tabletter er pakket i blisterpakninger og udleveres i papæsker indeholdende: </p>
+<ul>
+<li>
+<p>250 mg: 20, 30, 50, 60, 100 og multipakning med 200 (2 pakninger af 100) filmovertrukne 
+tabletter.  </p>
+</li>
+<li>
+<p>500 mg: 10,  20, 30, 50, 60, 100, 120 og multipakning med 200 (2 pakninger af 100) 
+filmovertrukne tabletter. </p>
+</li>
+<li>
+<p>750 mg: 20, 30, 50, 60, 80, 100, 120 og multipakning med 200 (2 pakninger af 100) 
+filmovertrukne tabletter. </p>
+</li>
+<li>
+<p>1000 mg: 10, 20, 30, 50, 60, 100 og multipakning med 200 (2 pakninger af 100) filmovertrukne 
+tabletter. </p>
+</li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Pharmathen S.A, 6 DervenakionStr., 15351 Pallini, Attiki, Grækenland. </p>
+<p>Fremstiller 
+Pharmathen S.A. 
+6 Dervenakion Str. 
+15351 Pallini, Attiki 
+Grækenland </p>
+<p>eller </p>
+<p>Pharmathen International S.A. 
+Industrial Park Sapes,<br />
+Rodopi Prefecture, Block No 5,<br />
+Rodopi 69300,<br />
+Grækenland </p>
+<p>For yderligere oplysninger om dette lægemiddel bedes henvendelse rettet til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Pharmathen S.A. 
+Tél/Tel: +30 210 66 04  </p>
+<p>Lietuva 
+SIA ELVIM 
+Tel: +371 67808 
+България<br />
+Pharmathen S.A. 
+Teл.: +30 210 66 04<br />
+Luxembourg/Luxemburg 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Česká republika 
+ARDEZ Pharma, spol. s r.o. 
+Tel: +420 220 400<br />
+Magyarország<br />
+Pharmathen S.A. 
+Tel.: +30 210 66 04<br />
+Danmark 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Malta 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Deutschland 
+Pharmathen S.A. 
+Tel.: +30 210 66 04 Nederland 
+Pharmathen S.A. 
+Tel: +30 210 66 04  </p>
+<p>Eesti (Estonia) 
+SIA ELVIM 
+Tel: +371 67808 
+Norge 
+Pharmathen S.A. 
+Tlf: +30 210 66 04 Ελλάδα 
+INNOVIS PHARMA ΑΕΒΕ 
+Τηλ: +30 210 66 64 805- Österreich<br />
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+España 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Polska 
+Pharmathen S.A. 
+Tel.: +30 210 66 04<br />
+France 
+Pharmathen S.A. 
+Tél: +30 210 66 04<br />
+Hrvatska 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Portugal 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+România 
+Pharmathen S.A. 
+Tel: +30 210 66 04 Ireland 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Slovenija 
+Pharmathen S.A. 
+Tel: +30 210 66 04 Ísland 
+Alvogen ehf. 
+Tel: +354 522 2 
+Slovenská republika<br />
+ARDEZ Pharma, spol. s r.o. 
+Tel: +420 220 400 Italia 
+Ecupharma S.r.l 
+Tel : +39-02-38238Suomi/Finland 
+Ailon Pharma Oy 
+Puh/Tel: +358 407024 
+Κύπρος 
+The Star Medicines Importers Co. Ltd 
+Τηλ: +357 25371 </p>
+<p>Sverige<br />
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Latvija<br />
+SIA ELVIM 
+Tel: +371 67808 
+United Kingdom (Northern Ireland) 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Denne indlægsseddel blev senest ændret:   </p>
+<p>Andre informationskilder </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu/ http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til patienten  </p>
+<p>Matever 100 mg/ml koncentrat til infusionsvæsker, opløsning 
+levetiracetam </p>
+<p>Læs denne indlægsseddel grundigt, inden De eller Deres barn begynder at bruge dette 
+lægemiddel, da den indeholder vigtige oplysninger. 
+− 
+Gem indlægssedlen. De kan få brug for at læse den igen. 
+− 
+Spørg lægen eller apotekspersonalet, hvis der er mere De vil vide. 
+− 
+Lægen har ordineret Matever til Dem personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
+− 
+Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-26b20b6a67265be2cf1102bb12c87943
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for matever Package Leaflet for language en"
+Description: "ePI document Bundle for matever Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-26b20b6a67265be2cf1102bb12c87943"
+* entry[0].resource = composition-en-26b20b6a67265be2cf1102bb12c87943
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp26b20b6a67265be2cf1102bb12c87943"
+* entry[=].resource = mp26b20b6a67265be2cf1102bb12c87943
+                            
+                    
+Instance: bundlepackageleaflet-da-26b20b6a67265be2cf1102bb12c87943
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for matever Package Leaflet for language da"
+Description: "ePI document Bundle for matever Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-26b20b6a67265be2cf1102bb12c87943"
+* entry[0].resource = composition-da-26b20b6a67265be2cf1102bb12c87943
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp26b20b6a67265be2cf1102bb12c87943"
+* entry[=].resource = mp26b20b6a67265be2cf1102bb12c87943
+                            
+                    
+
+
+
+Instance: mp26b20b6a67265be2cf1102bb12c87943
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Matever 250 mg film-coated tablets"
-Description: "Matever 250 mg film-coated tablets"
+Title: "Medicinal Product matever"
+Description: "matever"
 Usage: #inline
 
  
@@ -473,7 +1155,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Matever 250 mg film-coated tablets"
+  * productName = "matever"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -500,29 +1182,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-26b20b6a67265be2cf1102bb12c87943
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for matever Package Leaflet for language en"
-Description: "ePI document Bundle for matever Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 26b20b6a67265be2cf1102bb12c87943ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Matever 250 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "matever"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-26b20b6a67265be2cf1102bb12c87943"
-* entry[0].resource = composition-en-26b20b6a67265be2cf1102bb12c87943
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp91a300fb758ae194e3adf9ea194d2946"
-* entry[=].resource = mp91a300fb758ae194e3adf9ea194d2946
-                            
-                      
+* title = "List of all ePIs associated with matever"
+
+* subject = Reference(mp91a300fb758ae194e3adf9ea194d2946)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#matever "matever"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-26b20b6a67265be2cf1102bb12c87943) // matever en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-26b20b6a67265be2cf1102bb12c87943) // matever da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-26b20b6a67265be2cf1102bb12c87943
+InstanceOf: List
+
+* insert 26b20b6a67265be2cf1102bb12c87943ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6b301f6c675105f98d980bf8971e8028
 InstanceOf: CompositionUvEpi
 Title: "Composition for spevigo Package Leaflet"
@@ -372,12 +375,512 @@ in the European Public Assessment Report.</p>         </div>"""
 
 
 
+Instance: composition-da-6b301f6c675105f98d980bf8971e8028
+InstanceOf: CompositionUvEpi
+Title: "Composition for spevigo Package Leaflet"
+Description:  "Composition for spevigo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7d3620fa0055481aa97d68dfe7677063)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7d3620fa0055481aa97d68dfe7677063
+* title = "TEST PURPOSES ONLY - spevigo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få Spevigo
+3. Sådan får du Spevigo
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What spevigo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What spevigo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
+Spevigo indeholder det aktive stof spesolimab. Spesolimab tilhører en gruppe lægemidler, der kaldes 
+interleukin (IL)-hæmmere. Dette lægemiddel virker ved at blokere aktiviteten af et protein, der kaldes 
+IL36R, som er involveret i inflammation.
+Anvendelse
+Spevigo anvendes alene hos voksne til at behandle opblussen af en sjælden inflammatorisk 
+hudsygdom, der kaldes generaliseret pustuløs psoriasis (GPP). Under en opblussen kan patienter 
+opleve smertefulde blærer, der udvikles pludseligt over store hudområder. Disse blærer, som også 
+kaldes pustler, er fyldt med pus. Huden kan blive rød, kløende, tør, sprukket eller afskallende. 
+Patienter kan også opleve mere generelle tegn og symptomer, såsom feber, hovedpine, ekstrem 
+træthed eller en brændende fornemmelse i huden.
+Spevigo får huden til at falde til ro og reducerer symptomerne på GPP under en opblussen.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take spevigo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take spevigo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>En læge med erfaring i at behandle patienter med inflammatoriske hudsygdomme vil påbegynde og 
+overvåge din behandling.
+Få ikke Spevigo, hvis du:
+
+er allergisk over for spesolimab eller et af de øvrige indholdsstoffer i Spevigo (angivet i afsnit 6)
+
+har en aktiv tuberkuloseinfektion eller andre alvorlige infektioner (se "Advarsler og 
+forsigtighedsregler").
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sygeplejersken, før du får Spevigo, hvis du:
+
+for tiden har en infektion eller du har en infektion, som bliver ved med at komme tilbage. Feber, 
+influenzalignende symptomer, træthed eller stakåndethed, hoste, som ikke vil gå væk, varm, 
+23
+rød, smertefuld hud eller et smertefuldt udslæt med blærer kan være tegn og symptomer på en 
+infektion.
+
+har eller har haft tuberkulose eller har været i nærkontakt med en person med tuberkulose.
+
+for nylig er blevet vaccineret, eller planlægger at blive vaccineret. Du må ikke få visse 
+vaccinetyper (levende vacciner) i mindst 16 uger efter, at du har fået Spevigo.
+
+får symptomer som svaghed i arme eller ben, som ikke var der før, eller følelsesløshed (tab af 
+følelse), prikkende eller en brændende fornemmelse hvor som helst på kroppen. Det kan være 
+tegn på perifer neuropati (skader på de perifere nerver).
+Infektioner
+Fortæl det snarest muligt til lægen, hvis du bemærker tegn eller symptomer på en infektion, efter at du 
+har fået Spevigo. Se afsnit 4 "Bivirkninger".
+Allergiske reaktioner
+Søg straks lægehjælp, hvis du bemærker tegn eller symptomer på en allergisk reaktion, mens du får 
+lægemidlet, eller efter du har fået det. Du kan også få allergiske reaktioner nogle dage eller uger efter, 
+at du har fået Spevigo. For tegn og symptomer, se afsnit 4 "Bivirkninger".
+Børn og unge
+Spevigo bør ikke gives til børn eller unge under 18 år, da det ikke er blevet undersøgt til denne 
+aldersgruppe.
+Brug af andre lægemidler sammen med Spevigo
+Fortæl det altid til lægen, hvis du:
+
+tager andre lægemidler, for nylig har taget andre lægemidler eller planlægger at tage andre 
+lægemidler, herunder medicin til behandling af GPP.
+
+skal have eller for nylig har fået en vaccination. Du må ikke få visse vaccinetyper (levende 
+vacciner) i mindst 16 uger efter, at du har fået Spevigo.
+Graviditet og amning
+Graviditet
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge eller apotekspersonalet til råds, før du får dette lægemiddel. Det skyldes, at det er ukendt, 
+hvordan dette lægemiddel kan påvirke barnet.
+Det er derfor bedst at undgå brugen af Spevigo under graviditet.
+Hvis du er gravid, må du kun få dette lægemiddel, hvis lægen klart har anbefalet det.
+Amning
+Det er ukendt, om Spevigo udskilles i modermælk. Spevigo kan udskilles i modermælken i de første 
+dage efter fødslen. Du bør derfor fortælle det til lægen, hvis du ammer eller planlægger at amme, så du 
+og lægen kan beslutte, om du kan få Spevigo.
+Trafik- og arbejdssikkerhed
+Spevigo forventes ikke at påvirke din evne til at føre motorkøretøj og betjene maskiner.
+Spevigo indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take spevigo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take spevigo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Den anbefalede dosis er 900 mg (2 hætteglas med 450 mg/7,5 ml hver). 
+Din læge eller sygeplejerske vil give dig dette lægemiddel via infusion (drop) i en vene. Det vil blive 
+24
+givet over en periode på 90 minutter, op til maksimalt 180 minutter, hvis infusionen gives 
+langsommere eller stoppes midlertidigt.
+Hvis du stadig har symptomer på opblussen, kan din læge beslutte sig for at give dig endnu en dosis af 
+Spevigo en uge efter den første dosis.
+Spørg lægen, hvis der er noget, du er i tvivl om.
+Hvis du har fået for meget Spevigo
+Du vil få dette lægemiddel af lægen eller sygeplejersken. Hvis du mener, at du har fået for meget 
+Spevigo, skal du straks fortælle det til lægen eller sygeplejersken.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Søg straks lægehjælp, hvis du bemærker tegn eller symptomer på en allergisk reaktion, mens du 
+får lægemidlet, eller efter du har fået det. Disse kan omfatte:
+
+vejrtræknings- eller synkebesvær
+
+hævelse af ansigt, læber, tunge eller hals
+
+alvorlig hudkløe med rødt udslæt eller hævede plamager, der er anderledes end dine GPP-
+symptomer
+
+følelse af at være ved at besvime
+Du kan også få allergiske reaktioner nogle dage eller uger efter, at du har fået Spevigo.
+Søg straks lægehjælp, hvis du udvikler et udbredt hududslæt, som du ikke har haft før, feber og/eller 
+ansigtshævelse 2–8 uger efter, at du har fået lægemidlet. Det kan være tegn på en forsinket allergisk 
+reaktion (overfølsomhed).
+Fortæl det snarest muligt til lægen, hvis du har bemærker tegn eller symptomer på en infektion. 
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer). Disse kan omfatte: 
+
+feber, hoste
+
+hyppig vandladning, smerter eller brændende fornemmelse under vandladning eller blod i 
+urinen, hvilket kan være symptomer på urinvejsinfektioner
+Fortæl altid lægen eller sygeplejersken, hvis du får nogle af de følgende andre bivirkninger:
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer)
+
+rødme, hævelse, hårdhed, varme eller smerter på injektionsstedet
+Almindelig (kan forekomme hos op til 1 ud af 10 personer)
+
+kløe
+
+træthedsfølelse
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store spevigo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store spevigo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+25
+Brug ikke lægemidlet efter den udløbsdato, der står på hætteglasset og æsken efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned.
+Opbevares i køleskab (2 °C - 8 °C) (Se oplysninger til sundhedspersoner til sidst i denne 
+indlægsseddel).
+Må ikke nedfryses.
+Opbevares i den originale yderpakning for at beskytte mod lys.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Spevigo indeholder:</h2>
+<p>Aktivt stof: spesolimab. Hvert hætteglas indeholder 450 mg spesolimab i 7,5 ml koncentrat til 
+infusionsvæske, opløsning.
+-
+Øvrige indholdsstoffer: natriumacetattrihydrat (E262), koncentreret eddikesyre (E260) (til 
+justering af pH), saccharose, argininhydrochlorid, polysorbat 20 (E432) og vand til 
+injektionsvæsker.
+Udseende og pakningsstørrelser
+Spevigo koncentrat til infusionsvæske, opløsning, er en klar til let uigennemsigtig, farveløs til svagt 
+brun-gul opløsning, som fås i et 10 ml farveløst hætteglas (type I-glas) med en overtrukket gummiprop 
+og en krympehætte af aluminium med blå plastikhætte.
+Hver pakning indeholder to hætteglas.
+Indehaver af markedsføringstilladelsen
+Boehringer Ingelheim International GmbH
+Binger Str. 173
+55216 Ingelheim am Rhein
+Tyskland
+Fremstiller
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Birkendorfer Strasse 65
+88397 Biberach an der Riss
+Tyskland
+Boehringer Ingelheim France
+100‑104 Avenue de France
+75013 Paris
+Frankrig
+26
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ –
+клон България
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Magyarországi Fióktelepe
+Tel: +36 1 299 89 00
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim bv
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105‑7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp.z o.o.
+Tel: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 28 00
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+organizačná zložka
+Tel: +421 2 5810 1211
+27
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη A.E.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Denne indlægsseddel blev senest ændret
+Dette lægemiddel er godkendt under "betingede omstændigheder". Det betyder, at der forventes 
+yderligere dokumentation for lægemidlet.
+Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
+lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner:
+Sporbarhed
+For at forbedre sporbarheden af biologiske lægemidler, skal det administrerede produkts navn og 
+batchnummer tydeligt registreres.
+Dosering og administration
+Den anbefalede dosis er en enkeltdosis på 900 mg (2 hætteglas med 450 mg) administreret som en 
+intravenøs infusion. Spevigo skal fortyndes inden brug. Det må ikke administreres som intravenøst 
+push eller bolus.
+Hvis symptomerne på opblussen varer ved, kan der administreres en ekstra dosis på 900 mg 1 uge efter 
+den indledende dosis.
+Efter fortynding med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, administreres 
+Spevigo som en kontinuerlig intravenøs infusion via en intravenøs slange med et sterilt, ikke-pyrogent, 
+in-line-filter med lav proteinbinding (porestørrelse på 0,2 mikroner) i løbet af 90 minutter. Ingen anden 
+infusion må administreres parallelt via den samme intravenøse adgang.
+I tilfælde af, at infusionshastigheden sænkes eller stoppes midlertidigt, må den samlede infusionstid 
+(inklusiv stop) ikke overskride 180 minutter.
+Håndteringsanvisninger
+
+Hætteglasset skal inspiceres visuelt før brug. 
+-
+Spevigo er en farveløs til svagt brun-gul, klar til let uigennemsigtig opløsning.
+-
+Hvis opløsningen er uklar, misfarvet, eller hvis den indeholder store eller farvede 
+partikler, skal hætteglasset bortskaffes.
+28
+
+Spesolimab sterilt koncentrat er kun til engangsbrug.
+
+Der skal anvendes en aseptisk teknik til at klargøre infusionsvæsken, opløsningen. Udtræk og 
+bortskaf 15 ml fra en beholder med 100 ml natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, 
+opløsning, og erstat langsomt med 15 ml spesolimab sterilt koncentrat (hele indholdet fra to 
+hætteglas med 450 mg/7,5 ml). Blandes forsigtigt inden brug. Den fortyndede spesolimab 
+infusionsvæske, opløsning, skal straks anvendes.
+
+Spevigo må ikke blandes med andre lægemidler. Der kan anvendes en allerede eksisterende 
+intravenøs slange til at administrere den fortyndede infusionsvæske, opløsning, af spesolimab. 
+Slangen skal skylles med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, inden og 
+efter infusionen. Ingen anden infusion må administreres parallelt via den samme intravenøse 
+adgang. 
+
+Spevigo er kompatibelt med infusionssæt bestående af polyvinylchlorid (PVC), polyethylen 
+(PE), polypropylen (PP), polybutadien og polyurethan (PUR), og in-line-filtermembraner 
+bestående af polyethersulfon (PES, neutralt og positivt ladet) og positivt ladet polyamid (PA).
+Opbevaringsbetingelser
+Uåbnet hætteglas
+
+Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.
+
+Opbevares i den originale yderpakning for at beskytte mod lys.
+
+Inden brug kan det uåbnede hætteglas opbevares ved temperaturer op til 30 °C i op til 24 timer, 
+hvis det opbevares i den originale yderpakning for at beskytte mod lys. 
+Efter anbrud
+
+Fra et mikrobiologisk synspunkt bør lægemidlet fortyndes og straks infunderes umiddelbart efter 
+anbrud.
+Efter forberedelse af infusionen
+
+Den fortyndede opløsnings kemiske og fysiske stabilitet under brug er blevet påvist i 24 timer 
+ved 2 °C - 30 °C.
+
+Fra et mikrobiologisk synspunkt skal den fortyndede infusionsvæske, opløsning, straks 
+anvendes. Hvis den ikke straks anvendes, er opbevaringsbetingelserne under brug brugerens 
+ansvar, og vil normalt ikke være længere end 24 timer ved temperaturer fra 2 °C - 8 °C, 
+medmindre fortyndingen er sket under kontrollerede og validerede aseptiske forhold. Fra 
+klargøring til administrationsstart skal infusionsvæsken, opløsningen, beskyttes mod lys i 
+henhold til standardprocedurer.
+29
+BILAG IV
+KONKLUSIONER VEDRØRENDE UDSTEDELSE AF MARKEDSFØRINGSTILLADELSE 
+UNDER BETINGEDE OMSTÆNDIGHEDER FREMLAGT AF DET EUROPÆISKE 
+LÆGEMIDDELAGENTUR
+30
+Konklusioner fremlagt af Det Europæiske Lægemiddelagentur vedrørende:
+
+Betinget markedsføringstilladelse 
+Efter at have vurderet ansøgningen er CHMP af den opfattelse, at risk/benefit-forholdet er positivt for 
+anbefaling af udstedelse af en betinget markedsføringstilladelse. Dette er beskrevet nærmere i den 
+europæiske offentlige vurderingsrapport.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6b301f6c675105f98d980bf8971e8028
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spevigo Package Leaflet for language en"
+Description: "ePI document Bundle for spevigo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6b301f6c675105f98d980bf8971e8028"
+* entry[0].resource = composition-en-6b301f6c675105f98d980bf8971e8028
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6b301f6c675105f98d980bf8971e8028"
+* entry[=].resource = mp6b301f6c675105f98d980bf8971e8028
+                            
+                    
+Instance: bundlepackageleaflet-da-6b301f6c675105f98d980bf8971e8028
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spevigo Package Leaflet for language da"
+Description: "ePI document Bundle for spevigo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6b301f6c675105f98d980bf8971e8028"
+* entry[0].resource = composition-da-6b301f6c675105f98d980bf8971e8028
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6b301f6c675105f98d980bf8971e8028"
+* entry[=].resource = mp6b301f6c675105f98d980bf8971e8028
+                            
+                    
+
+
+
+Instance: mp6b301f6c675105f98d980bf8971e8028
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Spevigo 450 mg concentrate for solution for infusion"
-Description: "Spevigo 450 mg concentrate for solution for infusion"
+Title: "Medicinal Product spevigo"
+Description: "spevigo"
 Usage: #inline
 
  
@@ -397,7 +900,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Spevigo 450 mg concentrate for solution for infusion"
+  * productName = "spevigo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -424,29 +927,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6b301f6c675105f98d980bf8971e8028
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for spevigo Package Leaflet for language en"
-Description: "ePI document Bundle for spevigo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6b301f6c675105f98d980bf8971e8028ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1688/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "spevigo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6b301f6c675105f98d980bf8971e8028"
-* entry[0].resource = composition-en-6b301f6c675105f98d980bf8971e8028
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7d3620fa0055481aa97d68dfe7677063"
-* entry[=].resource = mp7d3620fa0055481aa97d68dfe7677063
-                            
-                      
+* title = "List of all ePIs associated with spevigo"
+
+* subject = Reference(mp7d3620fa0055481aa97d68dfe7677063)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#spevigo "spevigo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6b301f6c675105f98d980bf8971e8028) // spevigo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6b301f6c675105f98d980bf8971e8028) // spevigo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6b301f6c675105f98d980bf8971e8028
+InstanceOf: List
+
+* insert 6b301f6c675105f98d980bf8971e8028ListRuleset
+    

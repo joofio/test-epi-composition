@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-049b5b7dcb707b91228a592e54e9e9d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for privigen Package Leaflet"
@@ -514,12 +517,671 @@ requirements.</p>         </div>"""
 
 
 
+Instance: composition-da-049b5b7dcb707b91228a592e54e9e9d9
+InstanceOf: CompositionUvEpi
+Title: "Composition for privigen Package Leaflet"
+Description:  "Composition for privigen Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp043d1fb73e7936dc54fdb24a8ee2eb21)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp043d1fb73e7936dc54fdb24a8ee2eb21
+* title = "TEST PURPOSES ONLY - privigen"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få Privigen
+3. Sådan skal du bruge Privigen
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What privigen is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What privigen is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Privigen
+Privigen hører til lægemiddelgruppen, der kaldes humane normale immunglobuliner. 
+Immunglobuliner kendes også som antistoffer og er blodproteiner, der hjælper kroppen med at 
+bekæmpe infektioner.
+Sådan virker Privigen
+Privigen indeholder immunglobuliner, der stammer fra blod fra raske mennesker. Lægemidlet fungerer 
+præcist på samme måde som de immunglobuliner, der findes naturligt i blodet hos mennesker.
+Privigen anvendes til
+Privigen anvendes til behandling af voksne og børn (0-18 år) i følgende situationer:
+A)
+Til at forøge unormalt lave immunglobulinniveauer i blodet til normale niveauer 
+(substitutionsterapi). Der er 2 grupper:
+1. Patienter, som er født med en nedsat eller manglende evne til at producere 
+immunglobuliner (primære immundefekter (PID))
+2. Patienter med erhvervet immundefekt (SID), som lider af svære eller tilbagevendende 
+infektioner, ineffektiv antimikrobiel behandling og enten bevist specifikt antistofsvigt 
+eller serumværdi under 4 g/l.
+B)
+Til at behandle visse betændelsestilstande (immunmodulation). Der er 5 grupper:
+1. Patienter, som ikke har et tilstrækkeligt stort antal blodplader (primær 
+immuntrombocytopeni (ITP)), og
+er i højrisikogruppe for blødning eller
+skal have foretaget en operation i den nærmeste fremtid.
+31
+2. Patienter med Guillain-Barrés syndrom. Det er en akut sygdom, der karakteriseres ved 
+betændelse i de perifere nerver, og som forårsager alvorlig muskelsvækkelse 
+hovedsageligt i ben og øvre ekstremiteter.
+3. Patienter med Kawasakis sygdom. Det er en akut sygdom, der hovedsageligt rammer 
+mindre børn. Den er karakteriseret ved betændelse i hele kroppens blodkar.
+4. Patienter med kronisk inflammatorisk demyeliniserende polyneuropati (CIDP). Det er en 
+kronisk sygdom, der er karakteriseret ved inflammation i de perifere nerver, der 
+forårsager muskelsvaghed og/eller følelsesløshed hovedsageligt i benene og armene.
+5. Patienter med multifokal motorisk neuropati (MMN). Dette er en langsomt udviklende 
+sygdom i de motoriske nerver, der giver svaghed i arme og ben.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take privigen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take privigen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Læs dette punkt grundigt. Du og din læge skal tage hensyn til den angivne information, før du 
+får Privigen.
+Brug IKKE Privigen
+
+hvis du er allergisk over for antistoffer fra mennesker (humane immunglobuliner) eller over for 
+prolin.
+
+hvis du har udviklet antistoffer over for immunglobulin af typen IgA i dit blod.
+
+hvis du lider af  hyperprolinæmi type I eller II (en genetisk lidelse, der forårsger høje niveauer 
+af aminosyren prolin i blodet). Det er en yderst sjælden lidelse. Globalt kender man kun til 
+nogle få familier med denne sygdom.
+Advarsler og forsigtighedsregler
+Hvilke omstændigheder øger risikoen for at få bivirkninger?
+
+Tal med lægen eller sygeplejersken før behandlingen, hvis nogen af nedenstående 
+omstændigheder gælder for dig:
+
+Du får dette lægemiddel i høje doser enten på dag 1 eller over flere dage, og du har en blodtype 
+A, B eller AB, og/eller du har en underliggende inflammatorisk tilstand. Under disse 
+omstændigheder rapporteres det hyppigt, at immunglobuliner øger risikoen for nedbrydning af 
+røde blodlegemer (hæmolyse).
+
+Du er overvægtig, ældre, har diabetes, har været sengeliggende i lang tid, har højt blodtryk, har 
+nedsat blodvolumen (hypovolæmi), har problemer med dine blodkar (karsygdomme), har en 
+øget tendens til at danne blodpropper (trombofili eller trombotiske episoder) eller har en lidelse 
+der gør, at dit blod fortykkes (hyperviskøst blod). Under disse omstændigheder kan 
+immunglobuliner øge risikoen for hjertetilfælde (hjerteinfarkt), slagtilfælde, blodprop i lungen 
+(lungeemboli) eller blokering af et blodkar i benet, selvom det kun er meget sjældent.
+
+Du er diabetiker. Selvom Privigen ikke indeholder sukker, kan det være fortyndet med en særlig 
+sukkeropløsning (5 % glucose), hvilket kan påvirke dit blodsukkerniveau.
+
+Du har eller har tidligere haft problemer med dine nyrer eller tager lægemidler, der kan 
+beskadige nyrerne (nefrotoksisk medicin). Under disse omstændigheder kan immunglobuliner 
+øge risikoen for alvorligt, hurtigt tab af nyrefunktion (akut nyresvigt), selvom det kun er meget 
+sjældent. Nyresvigt med dødelig udgang er forekommet i enkeltstående hæmolysetilfælde.
+Hvilken type overvågning kræves under infusionen?
+Af hensyn til din personlige sikkerhed vil behandlingen med Privigen finde sted under overvågning af 
+din læge eller sygeplejerske. Du vil normalt blive overvåget under hele infusionen og i mindst minutter herefter. Under visse omstændigheder kan særlige forholdsregler være nødvendige. 
+Eksempler på sådanne omstændigheder er:
+
+du får indgivet Privigen ved en høj indgivelseshastighed eller
+
+du får indgivet Privigen fr første gang eller efter en lang pause i behandlingen (f.eks. flere 
+måneder).
+32
+I disse tilfælde vil du blive nøje overvåget under hele infusionen og i mindst 1 time bagefter.
+Hvornår kan det være påkrævet at sænke infusionshastigheden eller stoppe infusionen?
+
+Du kan være overfølsom (allergisk) over for immunglobuliner uden at vide det.
+Ægte overfølsomhedsreaktioner er dog sjældne. De kan forekomme, hvis du tidligere har fået 
+antistoffer fra mennesker (humane immunglobuliner) og har tålt dem godt. Det kan især ske, 
+hvis du har udviklet antistoffer mod immunglobuliner af typen IgA. I disse sjældne tilfælde kan 
+der forekomme overfølsomhedsreaktioner såsom et pludseligt blodtryksfald eller chok (se også 
+pkt. 4 “Bivirkninger").
+
+I meget sjældne tilfælde kan transfusionsrelateret akut lungesygdom (TRALI) forekomme efter 
+behandling med immunglobuliner. Dette medfører, at der ophober sig væske i lungernes luftrum 
+uden relation til hjertet (ikke-kardiogent lungeødem). TRALI giver sig til kende ved, at du får 
+meget svært ved at trække vejret (svær respiratorisk påvirkning), blålig hud (cyanose) unormalt 
+lavt iltindhold i blodet (hypoksi), blodtryksfald (hypotension) og feber. Symptomer 
+fremkommer typisk under eller inden for 6 timer, efter at du har fået behandlingen.
+
+Fortæl det omgående til lægen eller sygeplejersken, hvis du bemærker sådanne tegn under 
+infusionen af Privigen. Han eller hun vil beslutte, om infusionshastigheden skal sænkes, 
+eller om infusionen skal stoppes helt.
+Blodprøver
+
+Fortæl din læge om din behandling med Privigen inden eventuelle blodprøver.
+Efter at du har fået indgivet Privigen kan resultaterne af visse blodprøver (serologiske prøver) være 
+svækket i et bestemt stykke tid.
+Information om sikkerhed med hensyn til infektioner
+Privigen er fremstillet af humant blodplasma (det er den flydende del af blodet).
+Når medicin fremstilles af blod fra mennesker eller plasma, træffes der visse forholdsregler for at 
+forhindre, at der overføres infektioner til patienterne. Disse omfatter
+
+omhyggelig udvælgelse af blod- og plasmadonorer for at sikre, at mulige infektionsbærere 
+udelukkes,
+
+testning af hver plasmadonation og -pulje for tegn på virus/infektioner,
+
+medtagelsen af processer i behandlingen af blodet og plasmaet, der kan inaktivere eller fjerne 
+vira.
+På trods af disse forholdsregler kan overførsel af smitsomme stoffer ikke fuldstændigt udelukkes ved 
+indgivelse af medicin, der er fremstillet på basis af blod fra mennesker eller plasma. Dette gælder også 
+alle ukendte eller nye vira og andre infektionstyper.
+De trufne forholdsregler anses for at være effektive mod vira, der ikke kan overleve uden for kroppen 
+(kappebærende vira) såsom human immundefektvirus (HIV), hepatitis B virus og hepatitis C virus og 
+for hepatitis A og B19, som kan overleve uden for kroppen (ikke-kappebærende vira).
+
+Antistoffer (immunglobuliner) er ikke blevet forbundet med hepatitis A- eller parvovirus B19V-
+infektioner muligvis fordi antistoffer mod disse infektioner, som produktet indeholder, er 
+beskyttende. Det anbefales kraftigt at notere præparatets navn og batchnummer, hver gang du får 
+indgivet en dosis Privigen for at have en registrering af de anvendte batcher.
+Brug af anden medicin sammen med Privigen
+
+Fortæl altid lægen eller sygeplejersken, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin.
+Samtidig brug af lægemidler, der øger udskillelsen af vand fra din krop (loop-diuretika), bør undgås 
+under behandling med Privigen. Din læge vil beslutte, om du skal bruge eller fortsætte behandlingen 
+med loop-diuretika.
+Vaccinationer
+
+Inden en vaccination skal du fortælle den vaccinerende læge om din behandling med Privigen.
+33
+Efter at have fået indgivet Privigen kan virkningen af visse vaccinationer være svækket. De 
+vaccinationer, der påvirkes, er vaccinationer med levende, svækkede virusvacciner mod f.eks. 
+mæslinger, fåresyge, røde hunde og skoldkopper. Sådanne vaccinationer skal udsættes i mindst 3 
+måneder efter den sidste infusion af Privigen. I tilfælde af mæslingevaccinationer kan virkningen være 
+nedsat i op til 1 år. Derfor skal den vaccinerende læge kontrollere virkningen af 
+mæslingevaccinationen.
+Blodprøver
+Efter at du har fået indgivet Privigen kan resultaterne af visse blodprøver (serologiske prøver) være 
+svækket i et bestemt stykke tid.
+Graviditet og amning 
+
+Hvis du er gravid, planlægger at blive gravid eller ammer, skal du fortælle det til lægen eller 
+sygeplejersken. Din læge vil afgøre, om du kan få indgivet Privigen under din graviditet, eller 
+mens du ammer.
+Ikke desto mindre er medicin med antistoffer blevet anvendt til gravide og ammende kvinder. 
+Langtidserfaring har vist, at der ikke kan forventes skadelige indvirkninger under graviditetsforløbet 
+eller på den nyfødte.
+Hvis du får indgivet Privigen, mens du ammer, findes antistofferne i dette lægemiddel også i 
+modermælken. Din baby kan således også få indgivet de beskyttende antistoffer.
+Trafik- og arbejdssikkerhed
+Patienter kan opleve virkninger som svimmelhed eller kvalme under behandling med Privigen, som 
+kan påvirke evnen til at føre motorkøretøj og betjene maskiner. Hvis dette sker, må du ikke føre 
+motorkøretøj og betjene maskiner, før virkningerne er forsvundet.
+Privigen indeholder prolin
+Du må ikke få lægemidlet, hvis du lider af hyperprolinæmi (se også pkt. 2 “Det skal du vide, før du 
+begynder at få Privigen").
+
+Fortæl det til din læge før behandlingen.
+Privigen indeholder natrium
+Dette lægemiddel indeholder mindre end 2,3 mg natrium (hovedkomponenten i
+madlavnings-/bordsalt) pr. 100 ml, svarende til 0,12 % af den anbefalede maksimale daglige 
+indtagelse af natrium for en voksen.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take privigen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take privigen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Privigen er udelukkende beregnet til infusion i en åre (intravenøs infusion) og indgives normalt af din 
+læge eller sygeplejersken. Din læge beregner den rette dosis for dig under hensyntagen til din vægt, de 
+specifikke omstændigheder, der er angivet under pkt. 2 "Advarsler og forsigtighedsregler", og 
+responsen på behandlingen. Dosisberegningen for børn og unge patienter foregår ikke anderledes, end 
+den gør for voksne. I begyndelsen får du indgivet Privigen ved en langsom indgivelseshastighed. Hvis 
+du tåler denne godt, kan din læge gradvist øge indgivelseshastigheden.
+Hvis du har fået indgivet for meget Privigen
+Det er meget usandsynligt, at der forekommer overdosering, da Privigen normalt indgives under 
+lægelig overvågning. Hvis du, på trods af dette, får indgivet mere Privigen, end du skulle, bliver dit 
+blod for tykt (hyperviskøst), hvilket kan forøge risikoen for at udvikle blodpropper. Dette kan især ske, 
+hvis du er en patient, der er i risikogruppe, hvis f.eks. du er ældre eller lider af en hjerte- eller 
+nyresygdom. Fortæl det til lægen, hvis du har nogen helbredsproblemer eller sygdomme
+34</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Mulige bivirkninger kan reduceres eller endda undgås ved at indgive Privigen ved en langsom 
+indgivelseshastighed. Sådanne bivirkninger kan forekomme, selvom du tidligere har fået indgivet 
+humane immunglobuliner (antistoffer) og har tålt dem godt.
+I sjældne og isolerede tilfælde er der set de følgende bivirkninger med immunglobulinpræparater:
+
+alvorlige overfølsomhedsreaktioner, som f.eks. et pludseligt blodtryksfald eller anafylaktisk 
+chok (du kan f.eks. føle dig svimmel, ør, besvime i stående tilstand, føle kulde i hænder og 
+fødder, mærke en unormal hjertebanken eller brystsmerte eller have et sløret syn), selv når du 
+ikke har haft overfølsomhedsreaktioner ved tidligere infusioner
+
+fortæl det omgående til lægen eller sygeplejersken, hvis du bemærker sådanne tegn under 
+infusionen af Privigen. Han eller hun vil beslutte, om infusionshastigheden skal sænkes, 
+eller om infusionen skal stoppes helt.
+
+dannelse af blodpropper, som kan blive ført væk med blodcirkulationen (tromboemboliske 
+reaktioner), og som kan resultere i f.eks.:blodprop i hjertet (hjerteinfarkt) (hvis du f.eks. får 
+pludselige brystsmerter eller er stakåndet), slagtilfælde (hvis du f.eks. får pludselige anfald af 
+muskelsvaghed, mærker følelsesløshed og/eller manglende balance, nedsat opmærksomhed eller 
+talebesvær), blodpropper i lungerne (f.eks. hvis du har brystsmerter, vejrtrækningsbesvær eller 
+hoster blod op), blodprop i dybtliggende vene (dyb venetrombose) (f.eks. hvis du rødmen, føler 
+varme, smerter, ømhed eller hæver på det ene eller begge ben),
+
+brystsmerter, gener i brystet, smerter, når du trækker vejret, på grund af transfusionsrelateret 
+lungesygdom (TRALI)
+
+fortæl det omgående til lægen eller sygeplejersken, hvis du har nogen af ovenstående 
+symptomer. Alle, der oplever sådanne symptomer, skal omgående transporteres til 
+skadestuen på et hospital for at blive evalueret og behandlet
+
+midlertidig ikke-smitsom meningitis (reversibel aseptisk meningitis)
+
+fortæl det omgående til lægen eller sygeplejersken, hvis du har stiv nakke sammen med én 
+eller flere af følgende symptomer: feber, kvalme, opkastning, hovedpine, unormal 
+følsomhed til lette, mentale forstyrrelser
+
+forhøjet blodkreatinin
+
+protein i urinen (proteinuri)
+
+akut nyresvigt
+
+forbigående fald i de røde blodlegemer (reversibel hæmolytisk anæmi/hæmolyse),blodmangel 
+(anæmi), lavt antal hvide blodlegemer (leukopeni), varierende størrelse af røde blodlegemer 
+(anisocytose) (herunder små røde blodlegemer (mikrocytose)).
+Bivirkninger, observeret i kontrollerede kliniske studier og efter markedsføring, præsenteret med
+faldende hyppighed:
+Meget almindelige: (kan forekomme hos flere end 1 ud af 10 patienter):
+Hovedpine (herunder sinus-hovedpine, migræne, hovedgener, spændingshovedpine), smerter, (herund
+er rygsmerter, smerter i arme og ben, smerter i led og knogler (artralgi), nakkesmerter, ansigtssmerter), 
+feber (herunder kuldegysninger), influenzalignende sygdom (herunder løbende næse, (nasofaryngitis), 
+smerter i hals og svælg (pharyngolaryngeal smerte), blærer i mund og hals (oropharyngeal blæredanne
+lse), tæthed i halsen.
+Almindelige: (kan forekomme hos op til 1 ud af 10 patienter):
+Midlertidigt fald i antallet af røde blodlegemer (anæmi), nedbrydning af røde blodlegemer (hæmolyse, 
+herunder hæmolytisk anæmi)β, fald i antallet af hvide blodlegemer (leukopeni), overfølsomhed, 
+svimmelhed (herunder vertigo), forhøjet blodtryk ((hypertension), rødmen (herunder hedeture, 
+hyperæmi), hypotension (herunder nedsat blodtryk), åndenød (dyspnø, herunder smerter i brystet, 
+ubehag i brystet, smertefuld vejrtrækning), kvalme, opkastning, diarré, mavesmerter, hudlidelse 
+35
+(herunder hududslæt, kløe, nældefeber (urticaria), makulo-papuløst udslæt, rødmen i huden (erytem), 
+afskalning af huden), smerter i musklerne (herunder muskelkramper og stivhed), træthed, fysisk 
+svaghed (asteni), svaghed i musklerne.
+Rutinemæssige laboratorieprøver kan afsløre ændringer af leverfunktioner (hyperbilirubinæmi samt 
+ændringer i blodtallet (f.eks. Coombs’ (direkte) test positiv), forhøjet alaninaminotransferase, forhøjet 
+aspartataminotransferase, forhøjet blodlaktatdehydrogenase).
+Ikke almindelige: (kan forekomme hos op til 1 ud af 100 patienter):
+Midlertid, ikke-infektiøs meningitis (reversibel, aseptisk meningitis), uregelmæssig form af de røde 
+blodlegemer (mikroskopisk fund), tilstedeværelse af et højt antal blodplader i blodet (trombocytose), 
+søvnighed, rysten (tremor), palpitationer, takykardi, tromboemboliske hændelser, manglende 
+blodcirkulation i underbenene, hvilket f.eks. kan medføre smerter ved gang (perifer vaskulær sygdom), 
+tilstedeværelse af for meget serumprotein i urinen (proteinuri, herunder forhøjet blodkreatinin), 
+smerter på injektionsstedet (herunder ubehag på infusionsstedet).
+I enkelte tilfælde (efter markedsføring) er følgende observeret hos patienter, som blev behandlet med 
+Privigen: unormalt lavt niveau af specifikke hvide blodlegemer kaldet neutrofiler (nedsat antal 
+neutrofiler), anafylaktisk shock, smertefuld vejrtrækning på grund af transfusionsrelateret lungeskade 
+(TRALI ) og akut nyresvigt.
+β Der blev set væsentlig færre tilfælde af hæmolytisk anæmi efter afslutningen af et kontrolleret klinisk 
+studie på grund af forbedringer i fremstillingen af Privigen.
+
+Tal med lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+fremgår af denne indlægsseddel.
+Se også pkt. 2 “Det skal du vide, før du begynder at få Privigen" for at få yderligere oplysninger om<br />
+forhold, som øger risikoen for at få bivirkninger.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store privigen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store privigen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Opbevar lægemidlet utilgængeligt for børn.
+
+Brug ikke lægemidlet efter den udløbsdato, der står på den ydre pakning og flaskens etiket efter 
+Anv. før. Udløbsdatoen er den sidste dag i den nævnte måned.
+
+Da injektionsvæskeen ikke indeholder konserveringsmidler, skallægen eller sygeplejersken
+infundere den, så hurtigt som muligt efter åbning af flasken.
+
+Må ikke opbevares ved temperaturer over 25 °C.
+
+Må ikke nedfryses.
+
+Opbevar flasken i yderkarton for at beskytte mod lys.
+
+Brug ikke lægemidlet, hvis du bemærker, at injektionsvæskeen er uklar eller indeholder 
+partikler, der flyder rundt i opløsningen.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Privigen indeholder
+36
+●
+Aktivt stof: humant normalt immunglobulin (antistoffer af typen IgG). Privigen indeholder mg/ml (10 %) humant protein, hvoraf mindst 98 % er IgG.
+Den omtrentlige procentdel af IgG-subklasser er som følger:
+IgG1 ...................... 69 %
+IgG2 ...................... 26 %
+IgG3 ........................ 3 %
+IgG4 ........................ 2 %
+Dette lægemiddel indeholder spormidler af IgA (ikke mere end 25 mikrogram/ml).
+●
+Øvrige indholdsstoffer (hjælpestoffer): aminosyren prolin, vand til injektionsvæsker og 
+saltsyre eller natriumhydroxid (til pH-justering).
+Udseende og pakningsstørrelser
+Privigen er en infusionsvæske.
+Injektionsvæskeen er klar eller let uigennemsigtig og farveløs til lysegul.
+Pakningsstørrelser:
+1 hætteglas (2,5 g/25 ml, 5 g/50 ml, 10 g/100 ml, 20 g/200 ml eller 40 g/400 ml),
+3 hætteglas (10 g/100 ml eller 20 g/200 ml).
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+CSL Behring GmbH
+Emil-von-Behring-Strasse 76
+D-35041 Marburg
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen.
+België/Belgique/Belgien
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Luxembourg/Luxemburg
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+България
+МагнаФарм България ЕАД
+Тел: +359 2 810 3949
+Magyarország
+CSL Behring Kft.
+Tel: +36 1 213 4290
+Česká republika
+CSL Behring s.r.o.
+Tel: +420 702 137 233
+Malta
+AM Mangion Ltd.
+Tel: +356 2397 6333
+Danmark
+CSL Behring ApS
+Tlf: +45 4520 1420
+Nederland
+CSL Behring B.V.
+Tel: + 31 85 111 96 00
+Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584437
+Norge
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Eesti
+CentralPharma Communications OÜ
+Tel: +3726015540
+Österreich
+CSL Behring GmbH
+Tel: +43 1 80101 2463
+37
+Ελλάδα
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Polska
+CSL Behring Sp. z o.o.
+Tel.: +48 22 213 22 65
+España
+CSL Behring S.A.
+Tel: +34 933 67 1870
+Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 30
+France
+CSL Behring SA
+Tél: + 33 1 53 58 54 00
+Hrvatska
+Marti Farm d.o.o.
+Tel: +385 1 5588297
+România
+Prisum Healthcare S.R.L.
+Tel: +40 21 322 01 71
+Slovenija
+EMMES BIOPHARMA GLOBAL s.r.o. -
+podružnica v Sloveniji
+Tel: +386 41 42 0002
+Ireland
+CSL Behring GmbH
+Tel: +49 69 30517254
+Slovenská republika
+CSL Behring s.r.o.
+Tel: +421 911 653 862
+Ísland
+CSL Behring AB
+Sími: +46 8 544 966 70
+Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 70
+Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 200
+Sverige
+CSL Behring AB
+Tel: +46 8 544 966 70
+Κύπρος
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+United Kingdom (Northern Ireland)
+CSL Behring GmbHTel: +49 69 305 17254
+Latvija
+CentralPharma Communications SIA
+Tel: +371 6 7450497
+Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0444
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.</p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale:
+Dosering og indgivelsesmåde
+Doseringsanbefalingerne fremgår af tabellen nedenfor:
+38
+Indikation
+Dosis
+Injektionshyppighed
+Substitutionsbehandling
+Primær immundefektsyndromer
+(PID)
+Sekundære immundefekter
+initialdosis:
+0,4-0,8 g/kg legemsvægt
+vedligeholdelsesdosis:
+0,2-0,8 g/kg legemsvægt
+0,2-0,4 g/kg legemsvægt
+hver 3. til 4. uge for at opnå IgG-
+mindste-koncentrationer på mindst 
+6 g/l
+hver 3. til 4. uge for at opnå IgG-
+mindste-koncentrationer på mindst 
+6 g/l
+Immunmodulation
+Primær immun trombocytopeni 
+(ITP)
+- Guillain-Barrés syndrom
+- Kawasakis sygdom
+Kronisk inflammatorisk 
+demyeliniserende polyneuropati 
+(CIDP)
+0,8-1,0 g/kg legemsvægt
+eller
+0,4 g/kg legemsvægt/dag
+0,4 g/kg legemsvægt/dag
+2,0 g/kg legemsvægt
+startdosis: 2 g/kg 
+legemsvægt
+vedligeholdelsesdosis:
+1 g/kg legemsvægt
+på dag 1 - gentages evt. én gang 
+inden for 3 dage
+i 2 til 5 dage
+i 5 dage
+i én dosis sammen med 
+acetylsalicylsyre
+fordelt over 2 til 5 dage
+hver 3. uge fordelt over 1 til 2 dage
+Multifokal motorisk neuropati 
+(MMN)
+startdosis:
+2 g/kg legemsvægt
+vedligeholdelsesdosis:
+1 g/kg legemsvægt
+eller
+2 g/kg legemsvægt
+i løbet af 2 til 5 på hinanden 
+følgende dage
+hver 2. til 4. uge
+eller
+hver 4. til 8. uge over 2 til 5 dage
+Administration
+Til intravenøs anvendelse.
+Humant normalt immunglobulin skal infunderes intravenøst ved en initial infusionshastighed på 
+0,3 ml/kg/time i ca. 30 minutter. Hvis infusionshastigheden tåles godt, kan den gradvist øges til 4,8 
+ml/kg legemsvægt/time.
+Hos PID-patienter, som har tolereret infusionshastigheden på 4,8 ml/kg legemsvægt/time godt, kan 
+hastigheden gradvist øges til et maksimum på 7,2 ml/kg legemsvægt/time.
+Hvis fortynding forud for infusion ønskes, kan Privigen fortyndes med 5 % glucoseopløsning til en 
+slutkoncentration på 50 mg/ml (5 %).
+Særlige forholdsregler
+Ved bivirkninger skal enten infusionshastigheden reduceres eller infusionen seponeres.
+39
+Det anbefales kraftigt at notere præparatets navn og batchnummer, hver gang Privigen administreres 
+til en patient for at registrere forbindelsen mellem patienten og den pågældende batch.
+Uforligeligheder
+Dette lægemiddel må ikke blandes med andre lægemidler end dem, der er anført herunder.
+Regler for destruktion og anden håndtering
+Lægemidlet skal have rum- eller legemstemperatur før brug. Der skal anvendes en separat 
+infusionsslange til administration af Privigen. Perforér altid proppen i midten i det markerede område.
+Injektionsvæskeen skal være klar eller let opaliserende og farveløs eller lysegul. Injektionsvæsker, der 
+er uklare eller indeholder bundfald, må ikke anvendes.
+Hvis der ønskes fortynding, anbefales 5 % glucoseopløsning. For at opnå en 
+immunglobulinkoncentration på 50 mg/ml (5 %) skal Privigen 100 mg/ml (10 %) fortyndes med et 
+tilsvarende volumen glucoseopløsning. Aseptisk teknik skal strengt overholdes under fortyndingen af 
+Privigen.
+Når hætteglasset er åbnet under aseptiske forhold, skal indholdet anvendes omgående. Da 
+injektionsvæskeen ikke indeholder konserveringsmidler, skal Privigen infunderes så snart som muligt.
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-049b5b7dcb707b91228a592e54e9e9d9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for privigen Package Leaflet for language en"
+Description: "ePI document Bundle for privigen Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-049b5b7dcb707b91228a592e54e9e9d9"
+* entry[0].resource = composition-en-049b5b7dcb707b91228a592e54e9e9d9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp049b5b7dcb707b91228a592e54e9e9d9"
+* entry[=].resource = mp049b5b7dcb707b91228a592e54e9e9d9
+                            
+                    
+Instance: bundlepackageleaflet-da-049b5b7dcb707b91228a592e54e9e9d9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for privigen Package Leaflet for language da"
+Description: "ePI document Bundle for privigen Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-049b5b7dcb707b91228a592e54e9e9d9"
+* entry[0].resource = composition-da-049b5b7dcb707b91228a592e54e9e9d9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp049b5b7dcb707b91228a592e54e9e9d9"
+* entry[=].resource = mp049b5b7dcb707b91228a592e54e9e9d9
+                            
+                    
+
+
+
+Instance: mp049b5b7dcb707b91228a592e54e9e9d9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Privigen 100 mg/ml solution for infusion"
-Description: "Privigen 100 mg/ml solution for infusion"
+Title: "Medicinal Product privigen"
+Description: "privigen"
 Usage: #inline
 
  
@@ -539,7 +1201,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Privigen 100 mg/ml solution for infusion"
+  * productName = "privigen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -566,29 +1228,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-049b5b7dcb707b91228a592e54e9e9d9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for privigen Package Leaflet for language en"
-Description: "ePI document Bundle for privigen Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 049b5b7dcb707b91228a592e54e9e9d9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/08/446/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "privigen"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-049b5b7dcb707b91228a592e54e9e9d9"
-* entry[0].resource = composition-en-049b5b7dcb707b91228a592e54e9e9d9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp043d1fb73e7936dc54fdb24a8ee2eb21"
-* entry[=].resource = mp043d1fb73e7936dc54fdb24a8ee2eb21
-                            
-                      
+* title = "List of all ePIs associated with privigen"
+
+* subject = Reference(mp043d1fb73e7936dc54fdb24a8ee2eb21)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#privigen "privigen"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-049b5b7dcb707b91228a592e54e9e9d9) // privigen en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-049b5b7dcb707b91228a592e54e9e9d9) // privigen da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-049b5b7dcb707b91228a592e54e9e9d9
+InstanceOf: List
+
+* insert 049b5b7dcb707b91228a592e54e9e9d9ListRuleset
+    

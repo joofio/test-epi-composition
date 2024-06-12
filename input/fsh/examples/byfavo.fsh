@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-288b5bf92457cec46266040e05fc3d90
 InstanceOf: CompositionUvEpi
 Title: "Composition for byfavo Package Leaflet"
@@ -376,12 +379,447 @@ not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-288b5bf92457cec46266040e05fc3d90
+InstanceOf: CompositionUvEpi
+Title: "Composition for byfavo Package Leaflet"
+Description:  "Composition for byfavo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2541006bb7d140bff905106b0ed7b39e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2541006bb7d140bff905106b0ed7b39e
+* title = "TEST PURPOSES ONLY - byfavo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får Byfavo </li>
+<li>Sådan får du Byfavo </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What byfavo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What byfavo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Byfavo er et lægemiddel, der indeholder det aktive stof remimazolam. 
+Remimazolam tilhører en gruppe stoffer, der kaldes benzodiazepiner. </p>
+<p>Byfavo er et sedativ (beroligende middel), der gives inden en medicinsk test eller procedure for at gøre 
+patienten afslappet og søvnig (sederet). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take byfavo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take byfavo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Byfavo:</p>
+<ul>
+<li>hvis du er allergisk over for remimazolam eller andre benzodiazepiner (f.eks. midazolam) eller 
+et af de øvrige indholdsstoffer i dette lægemiddel (angivet i pkt. 6) </li>
+<li>hvis du har en ustabil form af sygdommen myasthenia gravis (nedsat muskelkraft), hvor de 
+brystmuskler, som du trækker vejret med, er svækkede. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Tal med lægen eller sygeplejersken, før du får Byfavo, hvis du har en alvorlig sygdom eller lidelse, og 
+navnlig:</p>
+<ul>
+<li>hvis du har meget lavt eller meget højt blodtryk eller nemt besvimer </li>
+<li>hvis du har hjerteproblemer, herunder især meget langsom/eller uregelmæssig (arytmisk) 
+hjertefrekvens </li>
+<li>hvis du har vejrtrækningsproblemer, f.eks. åndenød </li>
+<li>hvis du har alvorlige leverproblemer </li>
+<li>hvis du har sygdommen myasthenia gravis, hvor musklerne er svækkede </li>
+<li>hvis du regelmæssigt tager stoffer, eller hvis du tidligere har haft et problem med stofmisbrug. </li>
+</ul>
+<p>Byfavo kan forårsage midlertidigt hukommelsestab. Lægen vil vurdere din tilstand, før du forlader 
+hospitalet eller klinikken, og sørge for den nødvendige rådgivning. </p>
+<p>Børn og unge 
+Byfavo bør ikke gives til patienter under 18 år, da det ikke er testet hos børn og unge. </p>
+<p>Brug af anden medicin sammen med Byfavo 
+Fortæl det altid til lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller 
+planlægger at bruge anden medicin, især hvis der er tale om:</p>
+<ul>
+<li>opioider (herunder smertestillende midler som f.eks. morfin, fentanyl og kodein eller visse typer 
+hostemedicin eller lægemidler til brug ved erstatningsterapi) </li>
+<li>antipsykotika (lægemidler mod visse psykiske sygdomme) </li>
+<li>anxiolytika (beroligende/angstdæmpende midler) </li>
+<li>sedativa (beroligende lægemidler, f.eks. temazepam eller diazepam) </li>
+<li>antidepressiva (lægemidler mod depression) </li>
+<li>visse antihistaminer (lægemidler mod allergier) </li>
+<li>visse antihypertensiva (lægemidler mod forhøjet blodtryk). </li>
+</ul>
+<p>Det er vigtigt, at du siger det til lægen eller sygeplejersken, hvis du tager andre lægemidler, da brug af 
+flere lægemidler samtidig kan ændre effekten af de pågældende lægemidler. </p>
+<p>Brug af Byfavo sammen med alkohol 
+Alkohol kan ændre effekten af Byfavo. Fortæl lægen eller sygeplejersken:</p>
+<ul>
+<li>hvor meget alkohol du drikker normalt, eller om du har haft problemer med dit alkoholforbrug. </li>
+</ul>
+<p>Du må ikke drikke alkohol i 24 timer, inden du får Byfavo. </p>
+<p>Graviditet og amning 
+Du bør ikke få Byfavo, hvis du er gravid eller tror, du kan være det. Fortæl det til lægen eller 
+sygeplejersken, hvis du er gravid, eller hvis du har mistanke om, at du er gravid. 
+Hvis du ammer, skal du lade være med at amme i 24 timer, efter at du har fået dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Byfavo gør dig søvnig og glemsom og påvirker din evne til at koncentrere dig. Selvom disse 
+virkninger fortager sig hurtigt, må du ikke føre motorkøretøj eller betjene maskiner, før effekten er 
+helt forsvundet. Spørg lægen, hvornår du kan føre motorkøretøj og betjene maskiner igen. </p>
+<p>Byfavo indeholder dextran 40 til injektion 
+Hvert hætteglas af dette lægemiddel indeholder 79,13 mg dextran 40 til injektion. Dextraner kan i 
+sjældne tilfælde forårsage alvorlige allergiske reaktioner. Hvis du får vejrtrækningsproblemer eller er 
+ved at besvime, skal du straks søge lægehjælp. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take byfavo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take byfavo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen vil fastsætte den rigtige dosis til dig. </p>
+<p>Din vejrtrækning, hjertefrekvens og blodtryk vil blive overvåget under proceduren, og lægen vil om 
+nødvendigt justere din dosis. </p>
+<p>En læge eller sygeplejerske vil give dig Byfavo ved injektion i en blodåre før og under den medicinske 
+test eller procedure. Byfavo blandes til en opløsning med sterilt saltvand inden anvendelse. </p>
+<p>Efter proceduren 
+Lægen eller sygeplejersken vil holde øje med dig i et stykke tid efter sedationen for at sikre sig, at du 
+har det godt og er klar til at tage hjem. </p>
+<p>Hvis du har fået for meget Byfavo 
+Hvis du har fået for meget Byfavo, kan du få følgende symptomer:</p>
+<ul>
+<li>svimmelhed </li>
+<li>forvirring </li>
+<li>søvnighed </li>
+<li>sløret syn eller ufrivillige øjenbevægelser </li>
+<li>uro </li>
+<li>svaghed </li>
+<li>lavt blodtryk </li>
+<li>langsom hjerterytme </li>
+<li>langsom og overfladisk vejrtrækning </li>
+<li>bevidsthedstab. </li>
+</ul>
+<p>Lægen ved, hvilken behandling du skal have. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 behandlede) 
+- lavt blodtryk 
+- unormalt langsom eller overfladisk vejrtrækning (og lavt iltniveau i blodet). </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede) 
+- hovedpine 
+- svimmelhed 
+- langsom hjertefrekvens 
+- kvalme 
+- opkastning. </p>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 behandlede) 
+- søvnighed 
+- kuldefølelse 
+- kulderystelser 
+- hikke. </p>
+<p>Ikke kendt (hyppighed kan ikke estimeres ud fra forhåndenværende data) 
+- pludselig, alvorlig allergisk reaktion </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store byfavo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store byfavo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sundhedspersoner på hospitalet eller klinikken er ansvarlige for at opbevare dette lægemiddel. </p>
+<p>Opbevar lægemidlet uden for børns rækkevidde. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken og hætteglassets etiket. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Kemisk og fysisk brugsstabilitet er påvist i 24 timer ved 20-25 °C.  </p>
+<p>Ud fra et mikrobiologisk standpunkt bør produktet anvendes straks, medmindre åbnings-
+/rekonstitutions-/fortyndingsmetoden udelukker risiko for mikrobiel kontamination. Hvis det ikke 
+anvendes straks, er opbevaringstider- og forhold før anvendelse på brugerens ansvar (se pkt. 6.3 i 
+produktresuméet). </p>
+<p>Hvis der ses partikler eller misfarvning, skal lægemidlet kasseres. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Byfavo indeholder:</p>
+<ul>
+<li>Aktivt stof: remimazolam. Hvert hætteglas indeholder remimazolambesylat svarende til 20 mg 
+remimazolam. Efter rekonstitution indeholder 1 ml opløsning 2,5 mg remimazolam. </li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>Dextran 40 til injektion </p>
+</li>
+<li>Laktosemonohydrat </li>
+<li>Saltsyre </li>
+<li>Natriumhydroxid 
+Se pkt. 2, "Byfavo indeholder dextran 40 til injektion". </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Byfavo er et hvidt til offwhite pulver til injektionsvæske, opløsning. </p>
+<p>Pakningsstørrelser 
+Pakning med 10 hætteglas </p>
+<p>Indehaver af markedsføringstilladelsen 
+PAION Deutschland GmbH<br />
+Heussstraße 52078 Aachen<br />
+Tyskland </p>
+<p>Fremstiller 
+PAION Deutschland GmbH<br />
+Heussstraße 52078 Aachen<br />
+Tyskland </p>
+<p>PAION Pharma GmbH 
+Heussstraße 52078 Aachen 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Viatris<br />
+Tél/Tel: + 32 (0)2 658 61 Lietuva<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4България 
+PAION Deutschland GmbH<br />
+Teл.: + 49 800 4453 4Luxembourg/Luxemburg<br />
+PAION Deutschland GmbH<br />
+Tél/Tel: + 49 800 4453 4Česká republika 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Magyarország<br />
+PAION Deutschland GmbH<br />
+Tel.: + 49 800 4453 4Danmark<br />
+PAION Deutschland GmbH<br />
+Tlf: + 49 800 4453 4Malta 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Deutschland 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Nederland 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Eesti 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Norge 
+PAION Deutschland GmbH<br />
+Tlf: + 49 800 4453 4Ελλάδα 
+Viatris Hellas Ltd 
+Τηλ: +30 210 0100Österreich 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4España 
+Viatris Pharmaceuticals, S.L. 
+Tel: + 34 900 102 Polska 
+Viatris Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64 France 
+Viatris Santé 
+Tél: +33 4 37 25 75 Portugal 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Hrvatska<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4România 
+BGP Products SRL 
+Tel: +40 372 579 Ireland<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Slovenija 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Ísland 
+PAION Deutschland GmbH<br />
+Sími: + 49 800 4453 4453<br />
+Slovenská republika<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 02 612 46Suomi/Finland 
+PAION Deutschland GmbH<br />
+Puh/Tel: + 49 800 4453 4Κύπρος<br />
+PAION Deutschland GmbH<br />
+Τηλ: + 49 800 4453 4Sverige 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4Latvija<br />
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4United Kingdom (Northern Ireland) 
+PAION Deutschland GmbH<br />
+Tel: + 49 800 4453 4 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Byfavo 20 mg pulver til injektionsvæske, opløsning </p>
+<p>KUN TIL INTRAVENØS ANVENDELSE </p>
+<p>Skal rekonstitueres inden brug med 0,9 %-natriumchloridopløsning til injektion (9 mg/ml) </p>
+<p>Læs produktresuméet omhyggeligt inden brug. </p>
+<p>Remimazolam må kun administreres af sundhedspersoner, der har erfaring med sedation. Patienten bør 
+overvåges under hele proceduren af en separat sundhedsperson, der ikke er med til at udføre selve 
+proceduren, og hvis eneste opgave er at overvåge patienten. Alt personale skal være uddannet i 
+detektion og håndtering af luftvejsobstruktion, hypoventilation og apnø, herunder opretholdelse af 
+åbne luftveje, understøttende ventilation og kardiovaskulær genoplivning. Patientens vejrtræknings- og hjertefunktion skal overvåges kontinuert. Genoplivningsmidler og alders- og størrelsessvarende 
+udstyr til sikring af åbne luftveje og pose/ventil/maske-ventilation skal være inden for umiddelbar 
+rækkevidde. En benzodiazepin-antagonist (flumazenil, en antidot mod remimazolam) skal være 
+umiddelbart tilgængelig. </p>
+<p>Fremgangsmåde ved rekonstitution </p>
+<p>Bemærk: Der skal benyttes streng aseptisk teknik under håndtering, klargøring og anvendelse af 
+Byfavo. </p>
+<p>Ved rekonstitution anvendes en steril kanyle og en steril 10 ml-sprøjte, hætteglassets hætte fjernes, 
+kanylen stikkes gennem hætteglassets prop i en vinkel på 90°, og der tilføjes 8,2 ml 0,9 %-
+natriumchloridopløsning (9 mg/ml) til injektion, idet væskestrømmen rettes mod hætteglassets side. 
+Drej forsigtigt hætteglasset frem og tilbage, indtil indholdet er helt opløst. Den rekonstituerede 
+opløsning bør være klar og farveløs til lysegul. Hætteglasset har en endelig koncentration på 
+2,5 mg/ml remimazolam. </p>
+<p>Den rekonstituerede opløsning skal kontrolleres visuelt for partikler og misfarvning inden 
+administration. Hvis der ses partikler eller misfarvning, skal opløsningen kasseres. </p>
+<p>Den rekonstituerede opløsning er kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf skal 
+bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Uforligeligheder </p>
+<p>Byfavo er uforligeligt med Ringer-laktat (også kendt som natriumlaktatopløsning eller Hartmanns 
+opløsning, Ringer-acetat, og Ringer-bikarbonat opløsning til infusion. </p>
+<p>Efter rekonstitution må dette lægemiddel ikke blandes med andre lægemidler end dem, der er anført 
+nedenfor. </p>
+<p>Kompatibilitet </p>
+<p>Det er påvist, at Byfavo er kompatibelt med følgende i.v.-væsker ved administration gennem samme 
+i.v.-slange:</p>
+<ul>
+<li>5 %-glukoseopløsning til injektion </li>
+<li>20 %-glukoseopløsning til injektion </li>
+<li>5 %-glukose- og 0,45 %-natriumchloridopløsning til injektion </li>
+<li>Ringers opløsning </li>
+<li>0,9 %-natriumchloridopløsning til injektion 
+Eventuel kompatibilitet med andre i.v.-væsker er ikke blevet vurderet. </li>
+</ul>
+<p>Opbevaringstid </p>
+<p>Kemisk og fysisk brugsstabilitet er påvist i 24 timer ved 20-25 °C. </p>
+<p>Ud fra et mikrobiologisk synspunkt bør produktet anvendes med det samme, medmindre åbnings-
+/rekonstitutions-/fortyndingsmetoden udelukker risiko for mikrobiel kontamination. Hvis den ikke 
+anvendes med det samme, er opbevaringstider og -forhold før anvendelse brugerens ansvar.  </p>
+<p>Særlige opbevaringsforhold </p>
+<p>Opbevar hætteglassene i den ydre æske for at beskytte mod lys. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Byfavo 50 mg pulver til koncentrat til injektions-/infusionsvæske, opløsning 
+remimazolam </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes 
+nye oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst 
+i afsnit 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du får dette lægemiddel, da den indeholder vigtige 
+oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide. 
+- Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
+nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-288b5bf92457cec46266040e05fc3d90
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for byfavo Package Leaflet for language en"
+Description: "ePI document Bundle for byfavo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-288b5bf92457cec46266040e05fc3d90"
+* entry[0].resource = composition-en-288b5bf92457cec46266040e05fc3d90
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp288b5bf92457cec46266040e05fc3d90"
+* entry[=].resource = mp288b5bf92457cec46266040e05fc3d90
+                            
+                    
+Instance: bundlepackageleaflet-da-288b5bf92457cec46266040e05fc3d90
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for byfavo Package Leaflet for language da"
+Description: "ePI document Bundle for byfavo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-288b5bf92457cec46266040e05fc3d90"
+* entry[0].resource = composition-da-288b5bf92457cec46266040e05fc3d90
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp288b5bf92457cec46266040e05fc3d90"
+* entry[=].resource = mp288b5bf92457cec46266040e05fc3d90
+                            
+                    
+
+
+
+Instance: mp288b5bf92457cec46266040e05fc3d90
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Byfavo 20 mg powder for solution for injection"
-Description: "Byfavo 20 mg powder for solution for injection"
+Title: "Medicinal Product byfavo"
+Description: "byfavo"
 Usage: #inline
 
  
@@ -401,7 +839,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Byfavo 20 mg powder for solution for injection"
+  * productName = "byfavo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -428,29 +866,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-288b5bf92457cec46266040e05fc3d90
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for byfavo Package Leaflet for language en"
-Description: "ePI document Bundle for byfavo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 288b5bf92457cec46266040e05fc3d90ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1505/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "byfavo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-288b5bf92457cec46266040e05fc3d90"
-* entry[0].resource = composition-en-288b5bf92457cec46266040e05fc3d90
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2541006bb7d140bff905106b0ed7b39e"
-* entry[=].resource = mp2541006bb7d140bff905106b0ed7b39e
-                            
-                      
+* title = "List of all ePIs associated with byfavo"
+
+* subject = Reference(mp2541006bb7d140bff905106b0ed7b39e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#byfavo "byfavo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-288b5bf92457cec46266040e05fc3d90) // byfavo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-288b5bf92457cec46266040e05fc3d90) // byfavo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-288b5bf92457cec46266040e05fc3d90
+InstanceOf: List
+
+* insert 288b5bf92457cec46266040e05fc3d90ListRuleset
+    

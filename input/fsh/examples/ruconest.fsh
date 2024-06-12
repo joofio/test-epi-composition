@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-57a928d33300a0b3188f379ca97280de
 InstanceOf: CompositionUvEpi
 Title: "Composition for ruconest Package Leaflet"
@@ -199,12 +202,353 @@ The Netherlands </p>
 
 
 
+Instance: composition-da-57a928d33300a0b3188f379ca97280de
+InstanceOf: CompositionUvEpi
+Title: "Composition for ruconest Package Leaflet"
+Description:  "Composition for ruconest Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp574adc18d7e2594fbc60579833b58054)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp574adc18d7e2594fbc60579833b58054
+* title = "TEST PURPOSES ONLY - ruconest"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Ruconest </li>
+<li>Sådan skal du bruge Ruconest </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ruconest is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ruconest is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ruconest indeholder det aktive stof conestat alfa. Conestat alfa er en rekombinant (ikke blodafledt) 
+form for human C1 inhibitor (rhC1-INH).  </p>
+<p>Ruconest er beregnet til voksne, unge og børn (fra 2 år og derover) med en sjælden arvelig 
+blodsygdom, som kaldes hereditært angioødem (HAE). Disse patienter mangler proteinet C1-inhibitor 
+i blodet. Dette kan føre til gentagne anfald af hævelse, mavesmerter, vejrtrækningsbesvær og andre 
+symptomer. </p>
+<p>Ruconest gives for at afhjælpe manglen på C1-inhibitor og lindre symptomerne fra et akut anfald af 
+HAE. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ruconest"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ruconest"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ruconest </p>
+<ul>
+<li>
+<p>hvis du er eller tror du er allergisk over for kaniner. </p>
+</li>
+<li>
+<p>hvis du er allergisk over for conestat alfa eller et af de øvrige indholdsstoffer i Ruconest 
+(angivet i punkt 6). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger Ruconest. 
+Hvis du oplever allergiske reaktioner, f.eks. nældefeber, udslæt, kløe, svimmelhed, hvæsende 
+vejrtrækning, åndedrætsbesvær, eller hvis tungen hæver efter du har fået Ruconest, skal du straks søge 
+lægehjælp, således at symptomerne på den allergiske reaktion straks bliver behandlet. </p>
+<p>Før du påbegynder behandling med Ruconest, er det vigtigt, at du fortæller det til lægen, hvis du har 
+eller har haft problemer med blodpropper (trombotiske hændelser). Hvis det er tilfældet, bliver du 
+overvåget tæt. 
+Overfølsomhedsreaktioner kan ikke udelukkes og kan have symptomer, der ligner angioødemanfald. </p>
+<p>Børn og unge 
+Giv ikke dette lægemiddel til børn og unge under 2 år. Ruconest er ikke undersøgt hos børn yngre end 
+5 år. Din læge vil afgøre, om behandling af dit barn med Ruconest er hensigtsmæssig. Det er 
+nødvendigt at holde yderligere opsyn med dit barn for eventuelle symptomer på allergiske reaktioner 
+under og efter anvendelse af lægemidlet. </p>
+<p>Brug af anden medicin sammen med Ruconest 
+Fortæl altid lægen, hvis du bruger anden medicin eller har gjort det for nylig.  </p>
+<p>Hvis du modtager akut behandling med vævsplasminogenaktivator (tPA) mod blodpropdannelse, må 
+du ikke samtidig behandles med Ruconest. </p>
+<p>Graviditet og amning 
+Det kan ikke anbefales at bruge Ruconest under graviditet eller amning.<br />
+Hvis du planlægger at blive gravid, skal du spørge din læge til råds, før du tager Ruconest. </p>
+<p>Trafik- og arbejdssikkerhed 
+Lad være med at køre bil eller arbejde med maskiner, hvis du føler dig svimmel eller har hovedpine 
+efter brug af Ruconest.  </p>
+<p>Ruconest indeholder natrium (19,5 mg per hætteglas) 
+Dette bør tages i betragtning hos patienter på saltfattig diæt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ruconest"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ruconest"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ruconest vil blive udskrevet af en læge, der har specialiseret sig i diagnosticering og behandling af 
+hereditært angioødem. </p>
+<p>Ruconest indgives direkte i en blodåre over et tidsrum på ca. 5 minutter af din læge eller en 
+sygeplejerske. Din dosis, op til 2 hætteglas, udregnes på basis af din vægt. </p>
+<p>I de fleste tilfælde er en enkelt dosis tilstrækkelig. Din læge kan beslutte, at der skal gives en ekstra 
+dosis, hvis dine symptomer ikke forbedres efter 120 minutter (for voksne og unge) eller 60 minutter 
+(for børn). Der må ikke gives mere end 2 doser inden for 24 timer. </p>
+<p>Brugsanvisningen er tydeligt angivet i lægens informationsfolder og er vedhæftet. </p>
+<p>Er du i tvivl, så spørg lægen eller sundhedspersonalet. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis symptomerne bliver værre og/eller der udvikles udslæt, opstår prikken/snurren, åndedrætsbesvær 
+eller hævelse af ansigt eller tunge, søg da straks lægehjælp. 
+Dette kan være tegn på, at du har udviklet allergi over for Ruconest. </p>
+<p>Visse bivirkninger kan forekomme under behandling med Ruconest:<br />
+Almindelige: kan forekomme i op til 1 ud 10 personer  </p>
+<ul>
+<li>Kvalme </li>
+</ul>
+<p>Sjældne: kan forekomme i op til 1 ud 100 personer  </p>
+<ul>
+<li>
+<p>Mavesmerter, diarré </p>
+</li>
+<li>
+<p>Følelse af prikken, snurren eller følelsesløshed i munden </p>
+</li>
+<li>
+<p>Hovedpine, svimmelhed </p>
+</li>
+<li>
+<p>Nedsat følesans eller følelsesløshed i huden eller i arme eller ben </p>
+</li>
+<li>
+<p>Halsirritation  </p>
+</li>
+<li>
+<p>Nældefeber </p>
+</li>
+<li>
+<p>Hævelse af ørerne eller området rundt om ørerne  </p>
+</li>
+<li>
+<p>Allergisk shock </p>
+</li>
+</ul>
+<p>Ikke kendt: hyppigheden er ikke kendt </p>
+<ul>
+<li>Overfølsomhedsreaktioner </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ruconest"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ruconest"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og på hætteglasetiketten efter Exp.<br />
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25°C. 
+Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Før Ruconest kan administreres af sundhedspersonale, skal det opløses i vand til injektionsvæsker. 
+Når først produktet er opløst, skal det anvendes omgående. 
+Brug ikke lægemiddlet, hvis opløsningen indeholder partikler eller er misfarvet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ruconest indeholder: 
+Aktivt stof: conestat alfa. Et hætteglas indeholder 2100 enheder (E) conestat alfa svarende til 2doser pr. 14 ml efter rekonstitution eller en koncentration på 150 enheder/ml. </p>
+<p>Øvrige indholdsstoffer: saccharose, natriumcitrat (E331) og citronsyre  </p>
+<p>Udseende og pakningsstørrelser 
+Ruconest leveres i et enkelt hætteglas af glas, som indeholder et hvidt til off-white pulver til 
+injektionsvæske, opløsning. Efter at pulveret er opløst i vand til injektionsvæsker, er opløsningen klar 
+og farveløs. 
+Ruconest leveres i en kartonæske, som indeholder et hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Pharming Group N.V. 
+Darwinweg 2333 CR Leiden 
+Holland </p>
+<p>Fremstiller: 
+Pharming Technologies B.V. 
+Darwinweg 2333 CR Leiden 
+Holland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu/. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger eller sundhedspersonale: </p>
+<p>DOSERING OG ADMINISTRATION </p>
+<p>Dosering 
+Legemsvægt op til 84 kg 
+- En intravenøs injektion på 50 E/kg legemsvægt<br />
+Legemsvægt på 84 kg og derover<br />
+- En intravenøs injektion på 4200 E (to hætteglas). </p>
+<p>I de fleste tilfælde er en enkelt dosis Ruconest tilstrækkelig til behandling af et akut anfald af 
+angioødem.<br />
+I tilfælde af utilstrækkelig klinisk respons kan yderligere en dosis (50 E/kg legemsvægt op til 4200 E) 
+administreres. 
+Der må ikke administreres mere end to doser inden for 24 timer. </p>
+<p>Dosisberegning 
+Bestem patientens vægt. </p>
+<p>Legemsvægt op til 84 kg 
+- For patienter, som vejer op til 84 kg, beregnes den nødvendige mængde, som skal administreres, i 
+overensstemmelse med nedenstående formel: </p>
+<p>Volumen, som skal 
+administreres (ml)<br />
+= 
+legemsvægt (kg) gange 50 (E/kg) 
+150 (E/ml) 
+= 
+legemsvægt (kg) 
+3 </p>
+<p>Legemsvægt på 84 kg og derover<br />
+- For patienter, som vejer 84 kg eller derover, svarer den mængde, der skal administreres til 28 ml, 
+hvilket modsvarer 4200 E (2 hætteglas). </p>
+<p>Rekonstituér hvert hætteglas med 14 ml vand til injektionsvæsker (se nedenstående punkt om 
+rekonstitution). 
+Den rekonstituerede opløsning i hvert hætteglas indeholder 2100 E conestat alfa ved 150 E/ml. </p>
+<p>Den påkrævede mængde af den rekonstituerede opløsning skal administreres som en langsom 
+intravenøs injektion over ca. 5 minutter. </p>
+<p>REGLER FOR BORTSKAFFELSE OG ANDEN HÅNDTERING </p>
+<p>Hvert hætteglas Ruconest er kun til engangsbrug. 
+Der skal anvendes en aseptisk metode til rekonstitution, kombinering og blanding af opløsningerne. </p>
+<p>Rekonstitution 
+Hvert hætteglas Ruconest (2100 E) skal rekonstitueres med 14 ml vand til injektionsvæsker. Vand til 
+injektionsvæsker skal tilføres langsomt for at undgå kraftig påvirkning af pulveret og blandes 
+forsigtigt for at minimere skumdannelse i opløsningen. Den rekonstituerede opløsning i hvert 
+hætteglas indeholder 2100 E conestat alfa ved 150 E/ml og fremstår klar og farveløs. </p>
+<p>Den rekonstituerede opløsning i hvert hætteglas skal inspiceres for partikler og misfarvning. En 
+opløsning med partikler eller misfarvning må ikke anvendes. Lægemidlet skal anvendes omgående.  </p>
+<p>Eventuelt ubrugt lægemiddel eller rester heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Ruconest 2100 Enheder pulver og solvens til injektionsvæske, opløsning<br />
+conestat alfa </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give det til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, hvis en bivirkning bliver værre, eller du får bivirkninger, som ikke er nævnt her. 
+Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-57a928d33300a0b3188f379ca97280de
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ruconest Package Leaflet for language en"
+Description: "ePI document Bundle for ruconest Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-57a928d33300a0b3188f379ca97280de"
+* entry[0].resource = composition-en-57a928d33300a0b3188f379ca97280de
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp57a928d33300a0b3188f379ca97280de"
+* entry[=].resource = mp57a928d33300a0b3188f379ca97280de
+                            
+                    
+Instance: bundlepackageleaflet-da-57a928d33300a0b3188f379ca97280de
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ruconest Package Leaflet for language da"
+Description: "ePI document Bundle for ruconest Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-57a928d33300a0b3188f379ca97280de"
+* entry[0].resource = composition-da-57a928d33300a0b3188f379ca97280de
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp57a928d33300a0b3188f379ca97280de"
+* entry[=].resource = mp57a928d33300a0b3188f379ca97280de
+                            
+                    
+
+
+
+Instance: mp57a928d33300a0b3188f379ca97280de
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ruconest 2100 Units powder for solution for injection."
-Description: "Ruconest 2100 Units powder for solution for injection."
+Title: "Medicinal Product ruconest"
+Description: "ruconest"
 Usage: #inline
 
  
@@ -224,7 +568,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ruconest 2100 Units powder for solution for injection."
+  * productName = "ruconest"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -251,29 +595,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-57a928d33300a0b3188f379ca97280de
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ruconest Package Leaflet for language en"
-Description: "ePI document Bundle for ruconest Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 57a928d33300a0b3188f379ca97280deListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/10/641/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ruconest"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-57a928d33300a0b3188f379ca97280de"
-* entry[0].resource = composition-en-57a928d33300a0b3188f379ca97280de
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp574adc18d7e2594fbc60579833b58054"
-* entry[=].resource = mp574adc18d7e2594fbc60579833b58054
-                            
-                      
+* title = "List of all ePIs associated with ruconest"
+
+* subject = Reference(mp574adc18d7e2594fbc60579833b58054)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ruconest "ruconest"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-57a928d33300a0b3188f379ca97280de) // ruconest en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-57a928d33300a0b3188f379ca97280de) // ruconest da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-57a928d33300a0b3188f379ca97280de
+InstanceOf: List
+
+* insert 57a928d33300a0b3188f379ca97280deListRuleset
+    

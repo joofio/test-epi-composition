@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6624bca7fe55692be3ff2a3b6c3a161a
 InstanceOf: CompositionUvEpi
 Title: "Composition for luveris Package Leaflet"
@@ -356,12 +359,503 @@ Italy </p>
 
 
 
+Instance: composition-da-6624bca7fe55692be3ff2a3b6c3a161a
+InstanceOf: CompositionUvEpi
+Title: "Composition for luveris Package Leaflet"
+Description:  "Composition for luveris Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb3c38a3f3a3b37bbb7c43fb5ce4b88ce)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb3c38a3f3a3b37bbb7c43fb5ce4b88ce
+* title = "TEST PURPOSES ONLY - luveris"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Luveris </li>
+<li>Sådan skal du bruge Luveris </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What luveris is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What luveris is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Luveris 
+Luveris er et lægemiddel, der indeholder lutropin alfa, et rekombinant luteiniserende hormon (LH), 
+som grundlæggende er lig det hormon, som findes naturligt i kroppen, men som er fremstillet ved 
+hjælp af genteknologi. Det tilhører “familien" af hormoner kaldet gonadotropiner, som er involveret i 
+den normale kontrol af forplantningen. </p>
+<p>Luveris’ anvendelse 
+Luveris er anbefalet til behandling af voksne kvinder, der producerer meget små mængder af nogle af 
+de hormoner, som er involveret i den naturlige menstruationscyklus. Medicinen anvendes sammen 
+med et andet hormon, kaldet follikelstimulerende hormon (FSH), for at fremkalde udvikling af 
+follikler, som er de strukturer i æggestokken, der modner æggene (oocytter). Efter behandlingen gives 
+en enkelt dosis af human choriongonadotropin (hCG), som fører til frigivelsen af et æg fra folliklen 
+(ægløsning). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take luveris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take luveris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Luveris </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for gonadotropiner (såsom luteiniserende hormon, follikelstimulerende 
+hormon eller humant choriongonadotropin) eller et af de øvrige indholdsstoffer i Luveris 
+(angivet i punkt 6). </p>
+</li>
+<li>
+<p>hvis du har kræft i æggestokke, livmoder eller bryst. </p>
+</li>
+<li>
+<p>hvis du har haft en hjernesvulst. </p>
+</li>
+<li>
+<p>hvis du har forstørrede æggestokke eller cyster på æggestokkene, som er af ukendt oprindelse. </p>
+</li>
+<li>
+<p>hvis du har uforklarlig blødning fra skeden. </p>
+</li>
+</ul>
+<p>Brug ikke Luveris, hvis noget af ovenstående gør sig gældende for dig. Hvis du ikke er sikker, skal du 
+spørge lægen eller apotekspersonalet, før du bruger denne medicin. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Luveris. 
+Inden behandlingen begynder, skal din og din partners fertilitet vurderes. </p>
+<p>Anvendelse af Luveris frarådes, hvis du har en lidelse, som normalt gør en normal graviditet umulig, 
+som f.eks. æggestokke (ovarier), som ikke fungerer pga. en tilstand kaldet primært ovariesvigt, eller 
+misdannelser i kønsorganerne. </p>
+<p>Porfyri 
+Fortæl det til lægen, før du starter med behandlingen, hvis du eller et familiemedlem har porfyri 
+(manglende evne til at nedbryde porfyriner), som kan nedarves fra forældre til børn. </p>
+<p>Ovarielt hyperstimulationssyndrom (OHSS) 
+Denne medicin stimulerer dine æggestokke. Dette er med til at øge risikoen for udvikling af ovarielt 
+hyperstimulationsyndrom (OHSS). Dette sker, når folliklerne udvikler sig for meget og bliver til store 
+cyster. Hvis du oplever underlivssmerter, hurtig vægtøgning, kvalme eller opkastning, eller hvis du har 
+svært ved at trække vejret, skal du straks fortælle det til lægen, som muligvis vil bede dig om at holde 
+op med at bruge medicinen (se punkt 4 under “Alvorlige bivirkninger"). </p>
+<p>Hvis du ikke har ægløsning, og hvis den anbefalede dosis og indgivelsesplan overholdes, er det mindre 
+sandsynligt, at der opstår OHSS. Luveris-behandling fører sjældent til alvorlig OHSS. Dette bliver 
+mere sandsynligt, hvis den medicin der anvendes til at igangsætte den endelige follikelmodning (som 
+indeholder human choriongonadotropin, hCG), indgives (se punkt 3 under “Så meget skal der bruges" 
+for yderligere oplysninger). Hvis du udvikler OHSS, vil lægen muligvis undlade at give dig hCG i 
+denne behandlingscyklus, ligesom lægen muligvis vil opfordre dig til ikke at have samleje eller at 
+anvende en barrieremetode i mindst fire døgn. </p>
+<p>Din læge vil sikre omhyggelig overvågning af æggestokkenes reaktion, ved hjælp af ultralydsskanning 
+og blodprøver før og under behandlingsforløbet. </p>
+<p>Flerfoldsgraviditet 
+Ved brug af Luveris er der en større risiko for at blive gravid med mere end ét barn ad gangen 
+(“flerfoldsgraviditet", for det meste tvillinger), end hvis befrugtningen sker naturligt. 
+Flerfoldsgraviditet kan give anledning til komplikationer for både mor og børn. Risikoen for 
+flerfoldsgraviditet kan reduceres ved at bruge den rette dosis Luveris på de rette tidspunkter. Når man 
+gennemgår assisteret befrugtning, er risikoen for en flerfoldsgraviditet relateret til kvindens alder samt 
+kvaliteten og antallet af befrugtede æg eller embryoner, der lægges op. </p>
+<p>Spontan abort 
+Når man gennemgår assisteret befrugtning eller stimulering af æggestokkene til at producere æg, er 
+der større sandsynlighed for en spontan abort end hos gennemsnitskvinden. </p>
+<p>Ektopisk graviditet 
+Kvinder, som tidligere har haft sygdom i æggestokkene, har risiko for graviditet, der udvikler sig uden 
+for livmoderen (ektopisk graviditet), uanset om graviditeten sker ved spontan befrugtning eller ved 
+fertilitetsbehandling. </p>
+<p>Problemer med blodpropper (tromboemboliske hændelser) 
+Tal med din læge, inden du begynder at bruge Luveris, hvis du selv eller en i din familie nogensinde 
+har haft blodpropper i benene eller lungerne eller har haft et hjerte- eller slagtilfælde. Du kan have en 
+øget risiko for at få en alvorlig blodprop, eller hvis du har blodpropper, kan tilstanden forværres af 
+Luveris-behandling. </p>
+<p>Svulster i kønsorganerne 
+Der er rapporteret både godartede og ondartede svulster i æggestokkene og andre dele af det 
+reproduktive system hos kvinder, som er blevet behandlet med flere forskellige lægemidler for 
+infertilitet.  </p>
+<p>Misdannelser 
+Hyppigheden af misdannelser efter brug af assisteret befrugtning er muligvis en smule højere end efter 
+spontan befrugtning. Dette kan skyldes faktorer hos forældrene, som f.eks. moderens alder, genetik, 
+såvel som assisteret befrugtning procedurer og flerfoldsgraviditet. </p>
+<p>Børn og unge 
+Luveris er ikke beregnet til anvendelse af børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Luveris 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin.  </p>
+<p>Undlad at bruge Luveris sammen med andre lægemidler i den samme injektion, undtagen follitropin 
+alfa, såfremt det er ordineret af din læge. </p>
+<p>Graviditet og amning 
+Undlad at bruge Luveris, hvis du er gravid eller ammer. 
+Spørg din læge eller apotekspersonalet til råds, før du tager nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Luveris påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. </p>
+<p>Luveris indeholder natrium 
+Luveris indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take luveris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take luveris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Sådan bruges denne medicin 
+Din læge vil beslutte, hvilken dosis og hvilket indgivelsesskema der passer bedst til dig under denne 
+behandling. </p>
+<p>Mere brugervenlige lægemiddelformer er tilgængelige for patienter, der selv tager Luveris hjemme. 
+Spørg din læge, om bedre egnede alternativer er tilgængelige for dig </p>
+<p>Så meget skal der bruges 
+Luveris bruges sædvanligvis hver dag i op til 3 uger samtidigt med injektioner af FSH.  </p>
+<ul>
+<li>
+<p>Den sædvanlige startdosis er 75 IE (1 hætteglas) Luveris sammen med 75 IE eller 
+150 IE FSH. </p>
+</li>
+<li>
+<p>Afhængigt af dit respons, kan din læge evt. øge dosis af FSH fortrinsvis med 37,5 - 75 IE og 
+med 7 til 14 dages mellemrum. </p>
+</li>
+</ul>
+<p>Lægen kan beslutte at forlænge din behandling i op til 5 uger. </p>
+<p>Når det ønskede respons er opnået, indgives en enkelt injektion af hCG ca. 24 - 48 timer efter den 
+sidste injektion af Luveris og FSH. Det anbefales, at du har samleje samme dag og dagen efter, at du 
+har fået injektionen med hCG. Alternativt kan der foretages intrauterin insemination eller anden 
+medicinsk assisteret reproduktionsprocedure, baseret på lægens bedømmelse. </p>
+<p>Hvis et overdrevent respons er opnået, bør behandlingen standses og injektionen med hCG undlades 
+(Se punkt 4 under “Ovarielt hyperstimulationssyndrom (OHSS)"). I den følgende cyklus vil lægen 
+ordinere FSH i en lavere dosering end i den foregående cyklus. </p>
+<p>Administration<br />
+Luveris er beregnet til subkutan anvendelse, hvilket betyder, at det indgives som injektioner under 
+huden. Hvert hætteglas er kun til engangsbrug. </p>
+<p>Hvis du selv injicerer Luveris, læs omhyggeligt følgende instruktion: </p>
+<ul>
+<li>
+<p>Vask dine hænder. Det er vigtigt at dine hænder og de redskaber, som du anvender, er så rene 
+som muligt. </p>
+</li>
+<li>
+<p>Saml alt, hvad du har brug for. Find et rent område og læg alt frem:</p>
+</li>
+<li>
+<p>et hætteglas indeholdende Luveris </p>
+</li>
+<li>en ampul med solvens </li>
+<li>to spritservietter </li>
+<li>en sprøjte </li>
+<li>en blandingskanyle til brug i forbindelse med opløsning af pulveret i solvensen </li>
+<li>en tynd kanyle til den subkutane injektion </li>
+<li>
+<p>en kanylebøtte til sikker bortskaffelse af glas og kanyler. </p>
+</li>
+<li>
+<p>Åben ampullen med solvens: På toppen af ampullen med solvens kan du se en lille farvet prik. 
+Lige under denne prik er ampullens hals behandlet 
+således, at ampullen er lettere at bryde. Knips forsigtig på 
+ampultoppen, så evt. væske falder ned i ampullens bund. 
+Tryk nu kraftig på ampullens hals, og knæk ampullen 
+bort fra den farvede prik. Placer forsigtig den åbne ampul 
+oprejst på arbejdsfladen. </p>
+</li>
+<li>
+<p>Træk solvensen op: Fastgør blandingskanylen til sprøjten. Hold sprøjten i den ene hånd, og tag 
+den åbne ampul op; indfør kanylen og træk al solvens op.  </p>
+</li>
+</ul>
+<p>Læg forsigtigt sprøjten ned på arbejdsfladen uden at røre 
+kanylen. </p>
+<ul>
+<li>
+<p>Forbered injektionsopløsningen: Fjern beskyttelseslåget fra hætteglasset med Luveris pulver, 
+tag sprøjten op og sprøjt forsigtig solvensen ned i 
+hætteglasset med Luveris. Bland ved at foretage rolige 
+cirkulære bevægelser af glasset uden at fjerne sprøjten. 
+Hætteglasset må ikke rystes. </p>
+</li>
+<li>
+<p>Efter at pulveret er opløst (hvilket normalt sker med det samme), kontrolles, at den færdige 
+opløsning er klar og ikke indeholder partikler. Vend 
+hætteglasset på hovedet og træk forsigtigt opløsningen 
+tilbage i sprøjten. </p>
+</li>
+</ul>
+<p>Du kan også blande Luveris og follitropin alfa i stedet for at injicere hvert produkt for sig. Efter at 
+have opløst Luveris pulveret, træk opløsningen tilbage i sprøjten og sprøjt den ned i beholderen med 
+follitropin alfa-pulver. Så snart pulveret er opløst, trækkes opløsningen tilbage i sprøjten. Kontroller 
+som før for partikler og anvend ikke opløsningen, hvis den er uklar. </p>
+<p>Op til 3 beholdere med pulver kan opløses i 1 ml solvens. </p>
+<ul>
+<li>
+<p>Skift til den tynde kanyle og fjern evt. luftbobler: Hvis du ser luftbobler i sprøjten, hold 
+sprøjten med kanylen pegende opad, knips forsigtig på 
+sprøjten indtil luften er samlet i toppen. Skub forsigtigt 
+stemplet indtil luftboblerne er væk. </p>
+</li>
+<li>
+<p>Injicer straks opløsningen: Din læge eller sygeplejerske vil allerede have rådgivet dig mht. hvor 
+du skal injicere (f.eks. maven, forsiden af låret). Tør det 
+valgte område af med en spritserviet. Klem fast om 
+huden og indfør nålen i en 45° til 90° vinkel ved at 
+anvende en dart-lignende bevægelse. Injicer under huden, 
+som du har lært. Injicer ikke direkte ind i en vene. Injicer 
+opløsningen ved at presse forsigtig på stemplet. Brug så 
+meget tid, som du behøver til at injicere hele 
+opløsningen. Træk nålen ud straks efter injektionen og 
+rengør huden med cirkulerende bevægelser ved brug af 
+en spritserviet. </p>
+</li>
+<li>
+<p>Kasser alle de brugte redskaber: Efter at du har afsluttet injektionen, kasseres alle kanyler og de 
+tomme glasbeholdere i den medfølgende affaldsbeholder. Ikke anvendt opløsning skal kasseres. </p>
+</li>
+</ul>
+<p>Hvis du har brugt for meget Luveris 
+Effekterne af en overdosering af Luveris er ukendte, men der er risiko for, at ovarielt 
+hyperstimulationssyndrom kan indtræde (se punkt. 4). Det vil kun ske, hvis hCG administreres (se 
+punkt 2 under“Advarsler og forsigtighedsregler"). </p>
+<p>Hvis du har glemt at bruge Luveris 
+Du må ikke bruge en dobbeltdosis som erstatning for den glemte dosis. Kontakt din læge. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger </p>
+<p>Kontakt din læge omgående, hvis du oplever nogen af bivirkningerne nedenfor. Lægen vil evt. 
+bede dig stoppe med at bruge Luveris. </p>
+<p>Allergisk reaktion 
+Allergiske reaktioner som f.eks. udslæt, rødmen, nældefeber, hævelse af ansigtet med 
+vejrtrækningsbesvær kan undertiden være alvorlige. Denne bivirkning er meget sjælden (forekommer 
+hos færre end op til 1 ud af 10 000 personer). </p>
+<p>Ovarielt hyperstimulationssyndrom (OHSS) </p>
+<ul>
+<li>
+<p>Smerter i underlivet ledsaget af kvalme eller opkastning kan være symptomer på ovarielt 
+hyperstimulationssyndrom (OHSS). Dine æggestokke kan have overreageret på behandlingen, 
+og dannet store cyster på æggestokkene (se punkt 2 “Ovarielt hyperstimulationssyndrom 
+(OHSS)"). Denne bivirkning er almindelig (forekommer hos færre end op til 1 ud af personer). Hvis det sker, skal du undersøges af din læge så hurtigt som muligt. </p>
+</li>
+<li>
+<p>Alvorlige problemer med blodpropper (tromboemboliske hændelser) opstår i meget sjældne 
+tilfælde - normalt i forbindelse med alvorlig OHSS. Dette kan give brystsmerter, åndenød, 
+slagtilfælde eller hjertetilfælde (se punkt 2 “Problemer med blodpropper"). </p>
+</li>
+</ul>
+<p>Andre almindelige bivirkninger </p>
+<ul>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Kvalme, opkastning, diaré, ubehag eller smerter i underlivet </p>
+</li>
+<li>
+<p>Cyster på æggestokkene, brystsmerter og bækkensmerter </p>
+</li>
+<li>
+<p>Lokale reaktioner på injektionsstedet, som f.eks. smerte, kløe, blå mærker, hævelse, eller 
+irritation </p>
+</li>
+</ul>
+<p>Vridning af æggestokken og blødning i bughulen er ikke rapporteret ved brug af Luveris, men der er 
+rapporteret sjældne tilfælde efter behandling med humant menopausalt gonadotropin (hMG), et 
+urinbaseret lægemiddel, som også indeholder LH. </p>
+<p>Ektopisk graviditet (graviditet uden for livmoderen) kan forekomme, specielt hos kvinder, der 
+tidligere har haft lidelser i æggelederne. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store luveris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store luveris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglassene efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. Opbevares i den originale yderpakning for at 
+beskytte mod lys. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker der er synlige tegn på nedbrydning, såsom misfarvning af 
+pulveret eller beskadigelse af beholderen. </p>
+<p>Dette lægemiddel skal anvendes umiddelbart efter opløsning af pulveret. </p>
+<p>Opløsningen må ikke injiceres, hvis den indeholder partikler eller fremtræder uklar.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Luveris indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: Lutropin alfa. Et hætteglas med pulver til injektionsvæske indeholder 75 IE 
+(Internationale Enheder). </p>
+</li>
+<li>
+<p>Lutropin alfa er rekombinant luteiniserende hormon (r-hLH) fremstillet ved hjælp af 
+rekombinant dna- teknologi. </p>
+</li>
+<li>
+<p>Pulverets øvrige indholdsstoffer: Polysorbat 20, saccharose, 
+natriumdihydrogenphosphatmonohydrat, dinatriumphosphatdihydrat, phosphorsyre, 
+koncentreret, natriumhydroxid, L-methionin og nitrogen. </p>
+</li>
+<li>
+<p>Solvens er vand til injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>Luveris foreligger som pulver og solvens til injektionsvæske, opløsning. </p>
+</li>
+<li>
+<p>Hvert hætteglas med pulver indeholder 75 IE lutropin alfa, og hver ampul med solvens 
+indeholder 1 ml vand til injektionsvæsker. </p>
+</li>
+<li>
+<p>Luveris leveres i pakninger indeholdende 1, 3 eller 10 hætteglas sammen med et tilsvarende 
+antal ampuller med solvens. </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen 
+Merck Europe B.V. 
+Gustav Mahlerplein 1082 MA Amsterdam 
+Holland </p>
+<p>Fremstiller 
+Merck Serono S.p.A. 
+Via delle Magnolie 70026 Modugno (Bari) 
+Italien </p>
+<p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ. </p>
+<p>Du kan finde yderligere oplysninger om Luveris på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til brugeren 
+Solvens i hætteglas </p>
+<p>Luveris 75 IE pulver og solvens til injektionsvæske, opløsning 
+lutropin alfa </p>
+<p>Læs denne indlægsseddel grundigt inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6624bca7fe55692be3ff2a3b6c3a161a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for luveris Package Leaflet for language en"
+Description: "ePI document Bundle for luveris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6624bca7fe55692be3ff2a3b6c3a161a"
+* entry[0].resource = composition-en-6624bca7fe55692be3ff2a3b6c3a161a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6624bca7fe55692be3ff2a3b6c3a161a"
+* entry[=].resource = mp6624bca7fe55692be3ff2a3b6c3a161a
+                            
+                    
+Instance: bundlepackageleaflet-da-6624bca7fe55692be3ff2a3b6c3a161a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for luveris Package Leaflet for language da"
+Description: "ePI document Bundle for luveris Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6624bca7fe55692be3ff2a3b6c3a161a"
+* entry[0].resource = composition-da-6624bca7fe55692be3ff2a3b6c3a161a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6624bca7fe55692be3ff2a3b6c3a161a"
+* entry[=].resource = mp6624bca7fe55692be3ff2a3b6c3a161a
+                            
+                    
+
+
+
+Instance: mp6624bca7fe55692be3ff2a3b6c3a161a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Luveris 75 IU powder and solvent for solution for injection"
-Description: "Luveris 75 IU powder and solvent for solution for injection"
+Title: "Medicinal Product luveris"
+Description: "luveris"
 Usage: #inline
 
  
@@ -381,7 +875,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Luveris 75 IU powder and solvent for solution for injection"
+  * productName = "luveris"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -408,29 +902,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6624bca7fe55692be3ff2a3b6c3a161a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for luveris Package Leaflet for language en"
-Description: "ePI document Bundle for luveris Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6624bca7fe55692be3ff2a3b6c3a161aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/00/155/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "luveris"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6624bca7fe55692be3ff2a3b6c3a161a"
-* entry[0].resource = composition-en-6624bca7fe55692be3ff2a3b6c3a161a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb3c38a3f3a3b37bbb7c43fb5ce4b88ce"
-* entry[=].resource = mpb3c38a3f3a3b37bbb7c43fb5ce4b88ce
-                            
-                      
+* title = "List of all ePIs associated with luveris"
+
+* subject = Reference(mpb3c38a3f3a3b37bbb7c43fb5ce4b88ce)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#luveris "luveris"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6624bca7fe55692be3ff2a3b6c3a161a) // luveris en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6624bca7fe55692be3ff2a3b6c3a161a) // luveris da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6624bca7fe55692be3ff2a3b6c3a161a
+InstanceOf: List
+
+* insert 6624bca7fe55692be3ff2a3b6c3a161aListRuleset
+    

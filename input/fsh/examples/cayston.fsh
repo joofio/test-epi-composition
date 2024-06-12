@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d4f93e1067cc6b6405636501aeff5a7c
 InstanceOf: CompositionUvEpi
 Title: "Composition for cayston Package Leaflet"
@@ -455,12 +458,570 @@ Tel: + 44 (0) 8000 113This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-d4f93e1067cc6b6405636501aeff5a7c
+InstanceOf: CompositionUvEpi
+Title: "Composition for cayston Package Leaflet"
+Description:  "Composition for cayston Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4e3b6ac6e00f65876a899e8d2b683303)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4e3b6ac6e00f65876a899e8d2b683303
+* title = "TEST PURPOSES ONLY - cayston"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Cayston 
+3. Sådan skal du bruge Cayston 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cayston is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cayston is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cayston indeholder det aktive stof aztreonam. Cayston er et antibiotikum, som anvendes til at 
+undertrykke kronisk lungeinfektion, der er forårsaget af bakterien Pseudomonas aeruginosa, hos 
+patienter i alderen 6 år og derover med cystisk fibrose. Cystisk fibrose, også kendt som 
+mucoviscidosis, er en livstruende, arvelig sygdom, som påvirker slimkirtlerne i de indre organer, 
+særligt i lungerne, men også i leveren, bugspytkirtlen og fordøjelsessystemet. Cystisk fibrose i 
+lungerne medfører, at lungerne stoppes til med tyk, klistret slim. Det gør det svært at trække vejret. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cayston"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cayston"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Cayston:</p>
+<ul>
+<li>hvis du er allergisk over for aztreonam eller et af de øvrige indholdsstoffer i Cayston (angivet i 
+punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du bruger Cayston, hvis:</p>
+<ul>
+<li>du er allergisk over for andre antibiotika (som penicilliner, cefalosporiner og/eller 
+carbapenemer) </li>
+<li>der er anden medicin til inhalation, som du ikke tåler, eller som du får en trykkende 
+fornemmelse i brystet af at tage </li>
+<li>du har problemer med nyrerne </li>
+<li>du nogensinde har hostet blod op </li>
+<li>du nogensinde har haft lave lungefunktionstest. 
+Hvis noget af dette gælder for dig, skal du fortælle det til lægen, inden du begynder at bruge Cayston. </li>
+</ul>
+<p>Da Cayston inhaleres, kan det få dig til at hoste, og dette kan føre til, at du hoster blod op. Hvis du 
+nogensinde har hostet blod op, må du kun bruge Cayston, hvis din læge mener, at fordelen ved at tage 
+denne medicin opvejer risikoen for at hoste blod op. </p>
+<p>Du kan midlertidigt få lavere resultater af lungefunktionstest under behandlingen med Cayston, men 
+normalt er dette ikke en varig virkning. </p>
+<p>Børn </p>
+<p>Cayston må ikke anvendes til børn under 6 år. </p>
+<p>Brug af andre lægemidler sammen med Cayston </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Da der ikke findes kliniske data om brugen af Cayston til gravide bør du ikke bruge Cayston under 
+graviditeten, medmindre du specifikt har drøftet det med lægen. </p>
+<p>Hvis du planlægger at amme, skal du spørge din læge til råds, inden du bruger Cayston. Du kan godt 
+amme under behandlingen med Cayston, fordi den mængde af Cayston, som muligvis bliver givet 
+videre til dit barn via mælken, er meget lille. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Cayston forventes ikke at påvirke din evne til at føre motorkøretøj eller bruge maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cayston"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cayston"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er:</p>
+<ul>
+<li>
+<p>Brug Cayston 3 gange dagligt i gentagne behandlingsserier med 28-dages behandling 
+efterfulgt af 28 dage uden Cayston-behandling. De tre doser skal inhaleres med mindst fire 
+timers mellemrum og ved hjælp af en Altera-forstøver. Du skal bruge enten en eBase Controller 
+eller en eFlow rapid-styreenhed med Altera-forstøveren. </p>
+</li>
+<li>
+<p>Hver dosis består af et hætteglas med Cayston blandet med en ampul med solvens. Cayston skal 
+blandes med en solvens, før det inhaleres gennem Altera-forstøveren. </p>
+</li>
+</ul>
+<p>Anbring den forberedte Cayston opløsning i Altera-forstøveren (se nedenfor). Det tager cirka 2 til 
+3 minutter at inhalere hver behandling. </p>
+<p>Brug en bronkodilatator før hver dosis Cayston. Kortidsvirkende bronkodilatatorer kan tages mellem 
+15 minutter og 4 timer før, og langtidsvirkende bronkodilatatorer kan tages mellem 30 minutter og 
+12 timer før hver dosis Cayston. </p>
+<p>Hvis du får flere former for inhalationsbehandling af din cystiske fibrose, er den anbefalede 
+rækkefølge følgende: </p>
+<ol>
+<li>bronkodilatator </li>
+<li>mukolytika (medicin, som hjælper med at opløse det tykke slim, som dannes i lungerne) 
+og til sidst: </li>
+<li>Cayston. </li>
+</ol>
+<p>Cayston må ikke blandes med anden medicin i Altera-forstøveren. 
+- Du må ikke bruge Altera-forstøveren til anden medicin. 
+- Du må ikke bruge den form for aztreonam, der anvendes til indsprøjtninger (til intravenøs 
+injektion) i Altera-forstøveren. Intravenøs aztreonam er ikke egnet til inhalation. </p>
+<p>Sådan skal du bruge Cayston med Altera-forstøveren </p>
+<p>Du skal bruge følgende: </p>
+<ul>
+<li>
+<p>Et ravfarvet hætteglas med Cayston med et blåt låg. </p>
+</li>
+<li>
+<p>En plastampul med solvens (fortyndingsmiddel) (0,17% w/v natriumchlorid). De oplysninger, 
+der er anført på ampullen med solvens er kun på engelsk (se punkt 6). </p>
+</li>
+<li>
+<p>En Altera-forstøver med et Altera-aerosolapparat forbundet med en eFlow-styreenhed type (eFlow rapid) eller type 678 (eBase Controller). </p>
+</li>
+</ul>
+<p>Du skal benytte den Cayston-specifikke Altera-forstøver, som indeholder et Altera-
+aerosolapparat. Du må ikke prøve at inhalere Cayston ved hjælp af andre typer forstøvere (herunder 
+eFlow rapid-forstøveren). </p>
+<p>Kontroller, at forstøveren fungerer korrekt, før du påbegynder behandlingen med Cayston. Læs 
+omhyggeligt producentens brugervejledning, som leveres sammen med dit Altera-forstøversystem. </p>
+<p>Klargøring af Cayston til inhalation </p>
+<ul>
+<li>Du må ikke klargøre Cayston, før du er parat til at inhalere en dosis.  </li>
+<li>Brug ikke Cayston, hvis du bemærker, at pakken har været åbnet. </li>
+<li>Brug ikke Cayston, hvis det har været opbevaret uden for køleskab i mere end 28 dage. </li>
+<li>
+<p>Brug hverken solvensen eller klargjort Cayston, hvis væsken er uklar, eller hvis der er partikler i 
+opløsningen. </p>
+</li>
+<li>
+<p>Tag et ravfarvet hætteglas med Cayston frem og en ampul med solvens fra æsken. 
+Ampullerne med solvens skal adskilles ved forsigtigt at trække dem fra hinanden. </p>
+</li>
+<li>
+<p>Bank forsigtigt på det ravfarvede hætteglas med Cayston, så pulveret lægger sig på bunden. 
+Dette er med til at sikre, at du får den korrekte dosis medicin. </p>
+</li>
+<li>
+<p>Følg trin A til D i figur 1 nedenfor for at åbne det ravfarvede hætteglas:  </p>
+</li>
+</ul>
+<p>Trin A: Vend tappen på det blå låg mod dig, og 
+sæt hætteglasset på en plan overflade. Brug 
+den ene hånd til at holde hætteglasset stille og 
+den anden hånd til langsomt at løfte det blå låg 
+op. 
+Trin B: Træk det blå låg ned i plan (vandret) 
+position (så bunden af det blå låg vender 
+opad), for at gøre metalforseglingen klar til at 
+blive fjernet. Riv ikke helt igennem 
+metalforseglingen. </p>
+<p>Trin C: Fortsæt med at holde hætteglasset stille 
+med den ene hånd, og brug den anden hånd til 
+langsomt at trække det blå låg mod uret. Drej 
+ikke på det blå låg. 
+Trin D: Når metalforseglingen åbner sig, skal 
+du fortsætte med langsomt at trække det blå låg 
+mod uret, indtil metalforseglingen er helt 
+fjernet. 
+Figur 1 </p>
+<ol>
+<li>
+<p>Bortskaf metalforseglingen sikkert. Fjern forsigtigt gummiproppen (men bortskaf den ikke 
+endnu). </p>
+</li>
+<li>
+<p>Åbn ampullen med solvens ved at dreje toppen af. Pres hele indholdet ned i hætteglasset 
+(figur 2). Sving derefter forsigtigt hætteglasset rundt, indtil pulveret er helt opløst, og væsken er 
+klar. </p>
+</li>
+</ol>
+<p>Det er bedst at bruge Cayston umiddelbart efter, at du har klargjort opløsningen. Hvis du ikke 
+kan bruge den klargjorte dosis med det samme, skal du sætte proppen i hætteglasset igen og opbevare 
+det i køleskabet. Brug den klargjorte opløsning inden for 8 timer. </p>
+<p>Figur 2 </p>
+<p>Klargøring af Altera-forstøveren til brug af Cayston </p>
+<ol>
+<li>
+<p>Sørg for, at Altera-forstøveren ligger på en plan, stabil overflade. </p>
+</li>
+<li>
+<p>Fjern medicindækslet ved at dreje imod uret. </p>
+</li>
+<li>
+<p>Hæld hele den klargjorte Cayston-dosis fra hætteglasset ind i Altera-forstøverens 
+medicinbeholder (figur 3a). Sørg for at tømme hætteglasset helt. Bank om nødvendigt forsigtigt 
+hætteglasset mod siden på medicinbeholderen. </p>
+</li>
+<li>
+<p>Luk medicinbeholderen ved at sætte medicindækslets styretapper på linje med beholderens 
+riller. Tryk ned og drej dækslet med uret så langt som muligt (figur 3b). </p>
+</li>
+</ol>
+<p>Sådan anvender du Altera-forstøveren til at inhalere Cayston </p>
+<ol>
+<li>Begynd behandlingen. Sid i opret, afslappet stilling. Hold forstøveren vandret, placer 
+mundstykket i munden og luk læberne omkring det (figur 4). </li>
+</ol>
+<p>Hold forstøveren vandret. </p>
+<ol>
+<li>Tryk på knappen On/Off på styreenheden i få sekunder. Du vil høre et "bip", og statuslyset 
+lyser grønt. </li>
+</ol>
+<p>Figur 3a </p>
+<p>Figur 3b 
+Figur 4 </p>
+<ol>
+<li>
+<p>Efter nogle få sekunder begynder aerosoltågen at svæve ind i Altera-forstøverens 
+forstøverkammer. Hvis aerosoltågen ikke begynder at svæve, skal du se i Altera-manualen for at 
+få yderligere information. </p>
+</li>
+<li>
+<p>Træk vejret normalt (træk vejret ind og ud) igennem mundstykket. Undgå at trække vejret 
+gennem næsen. Bliv ved at trække vejret ind og ud på en afslappet måde, indtil inhalationen er 
+afsluttet. </p>
+</li>
+<li>
+<p>Når al medicinen er inhaleret, hører du en lyd, som betyder, at "inhalationen er afsluttet" 
+(2 bip). </p>
+</li>
+<li>
+<p>Når inhalationen er afsluttet, skal du åbne medicindækslet for at kontrollere, at al medicinen 
+er brugt. Efter inhalationen kan der være nogle få dråber medicin tilbage i beholderen. Hvis der 
+er mere end nogle få dråber tilbage, skal du sætte medicindækslet på igen og genoptage 
+inhalationen. </p>
+</li>
+<li>
+<p>Sluk for styreenheden, når inhalationen er afsluttet, og skil Altera-forstøveren ad for at 
+rengøre og desinficere den. Fyldestgørende oplysninger om rengøring og desinfektion findes i 
+producentens brugervejledning, som leveres sammen med din Altera-forstøver. </p>
+</li>
+</ol>
+<p>Hvad skal jeg gøre, hvis jeg har brug for at stoppe inhalationen, før jeg er færdig? 
+8. Hvis du af en eller anden grund skal stoppe inhalationen, før du er færdig, skal du trykke på 
+knappen On/Off i et helt sekund. Tryk på knappen On/Off i et helt sekund for at genoptage 
+inhalationen. </p>
+<p>Udskiftning af Altera-forstøveren </p>
+<p>Altera-forstøveren er fremstillet til at holde til tre 28-dages behandlingsforløb med Cayston ved den 
+foreskrevne brug. Derefter skal du udskifte Altera-forstøveren, herunder aerosolapparatet. Hvis du 
+bemærker, at apparatets virkning har ændret sig før dette tidspunkt (hvis det for eksempel tager 
+længere tid at forstøve opløsningen, mere end 5 minutter), skal du se i Altera-forstøverens 
+brugervejledning. </p>
+<p>Hvis du har brugt for meget Cayston </p>
+<p>Hvis du har brugt for meget Cayston, skal du straks tale med din læge eller apoteket. </p>
+<p>Hvis du har glemt at bruge Cayston </p>
+<p>Hvis du glemmer en dosis, kan du stadig inhalere alle 3 daglige doser, blot der er mindst 4 timer 
+imellem. Hvis det ikke er muligt at inhalere med 4 timers mellemrum, skal du blot springe den glemte 
+dosis over. </p>
+<p>Hvis du holder op med at bruge Cayston </p>
+<p>Du må ikke holde op med at bruge Cayston uden først at tale med lægen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl det straks til lægen, hvis du får udslæt, fordi det kan betyde, at du har en allergisk reaktion 
+over for Cayston. </p>
+<p>Meget almindelige bivirkninger (opstår hos mere end 1 bruger ud af 10) 
+- Hoste 
+- Tilstoppet næse 
+- Hvæsen 
+- Ondt i halsen 
+- Stakåndethed 
+- Feber. Dette kan være hyppigere hos børn end hos voksne. </p>
+<p>Almindelige bivirkninger (opstår hos 1 til 10 brugere ud af 100) 
+- Vejrtrækningsbesvær 
+- Ubehag i brystet<br />
+- Løbende næse 
+- Ophostning af blod 
+- Udslæt 
+- Ledsmerter 
+- Lavere resultater fra lungefunktionstest </p>
+<p>Ikke almindelige bivirkninger (opstår hos 1 til 10 brugere ud af 1.000) 
+- Hævede led </p>
+<p>Følgende bivirkninger er blevet observeret efter anvendelse af den form for aztreonam, der anvendes 
+til injektion, men ikke efter brug af Cayston: hævelse af ansigt, læber, tunge og/eller svælg med synke- eller åndedrætsproblemer, svedtendens, hudirritation og afskalling, kløende udslæt, rødmen, små røde 
+pletter og, meget sjældent, blærer på huden. Alt dette kan være tegn på en overfølsomhedsreaktion. </p>
+<p>Fortæl det til lægen, hvis du har nogen af disse bivirkninger. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cayston"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cayston"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket, ampullen med solvensen 
+og æsken. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Hætteglas med pulver og ampul med solvens: 
+Opbevares i køleskab (2 °C - 8 °C). De uåbnede hætteglas kan også opbevares uden for køleskab, men 
+under 25 °C, i op til 28 dage. </p>
+<p>Brug lægemidlet umiddelbart efter klargøring. Hvis den klargjorte opløsning ikke anvendes straks, 
+skal den opbevares ved 2 °C – 8 °C og kan så anvendes inden for 8 timer. Der må ikke klargøres mere 
+end én dosis ad gangen. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at pakken har været åbnet. </p>
+<p>Brug ikke lægemidlet, hvis det har været opbevaret uden for køleskab i mere end 28 dage. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cayston og solvensen indeholder:</p>
+<ul>
+<li>Hætteglasset med pulver indeholder 75 mg aztreonam (som lysin). </li>
+<li>Ampullen med solvens indeholder vand til injektionsvæsker og natriumchlorid. Ampullen har 
+kun engelsk tekst. De oplysninger, der er anført på ampullen er angivet nedenfor: </li>
+</ul>
+<p>Solvens til Cayston 
+Natriumchlorid 0,17% 
+Kun til inhalation 
+1 ml 
+GILEAD SCIENCES </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Cayston er et hvidt til offwhite pulver og solvens til opløsning til nebulisator. </p>
+<p>Cayston leveres i et 2 ml ravfarvet hætteglas med en grå gummiprop og aluminiumsforsegling til 
+afrivning med et blåt låg. </p>
+<p>Solvensen leveres i en 1 ml-plastampul. </p>
+<p>Hver 28-dages pakning med Cayston indeholder 84 hætteglas med frysetørret Cayston og 88 ampuller 
+med solvens. De fire ekstra ampuller med solvens medleveres til brug i tilfælde af spild. </p>
+<p>Fås i følgende pakningsstørrelser: </p>
+<ul>
+<li>
+<p>En 28-dages pakning med Cayston </p>
+</li>
+<li>
+<p>En pakning, som indeholder én 28-dages pakning med Cayston og én Altera-nebulisator </p>
+</li>
+</ul>
+<p>Begge pakningsstørrelser er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelse: </p>
+<p>Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIrland </p>
+<p>Fremstiller: </p>
+<p>Gilead Sciences Ireland UC 
+IDA Business &amp; Technology Park 
+Carrigtohill 
+County Cork 
+Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 2 401 35<br />
+Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+България 
+Gilead Sciences Ireland UC 
+Teл.: + 353 (0) 1 686 1 
+Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+Tél/Tel: + 32 (0) 2 401 35<br />
+Česká republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871 986  </p>
+<p>Magyarország 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36<br />
+Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1 
+Ελλάδα 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: +30 210 8930<br />
+Österreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260<br />
+España 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98<br />
+Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel: + 48 22 262 8 
+France 
+Gilead Sciences 
+Tél: + 33 (0) 1 46 09 41<br />
+Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928 
+Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+România 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18<br />
+Ireland 
+Gilead Sciences Ireland UC 
+Tel: +353 (0) 214 825<br />
+Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 
+Ísland 
+Gilead Sciences Sweden AB 
+Sími: + 46 (0) 8 5057 1 
+Slovenská republika 
+Gilead Sciences Slovakia s.r.o 
+Tel: + 421 232 121<br />
+Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439 
+Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1 
+Κύπρος 
+Gilead Sciences Ελλάς Μ.ΕΠΕ. 
+Τηλ: + 30 210 8930<br />
+Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1 
+Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113 </p>
+<p>Denne indlægsseddel blev senest ændret: </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d4f93e1067cc6b6405636501aeff5a7c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cayston Package Leaflet for language en"
+Description: "ePI document Bundle for cayston Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d4f93e1067cc6b6405636501aeff5a7c"
+* entry[0].resource = composition-en-d4f93e1067cc6b6405636501aeff5a7c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd4f93e1067cc6b6405636501aeff5a7c"
+* entry[=].resource = mpd4f93e1067cc6b6405636501aeff5a7c
+                            
+                    
+Instance: bundlepackageleaflet-da-d4f93e1067cc6b6405636501aeff5a7c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cayston Package Leaflet for language da"
+Description: "ePI document Bundle for cayston Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d4f93e1067cc6b6405636501aeff5a7c"
+* entry[0].resource = composition-da-d4f93e1067cc6b6405636501aeff5a7c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd4f93e1067cc6b6405636501aeff5a7c"
+* entry[=].resource = mpd4f93e1067cc6b6405636501aeff5a7c
+                            
+                    
+
+
+
+Instance: mpd4f93e1067cc6b6405636501aeff5a7c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cayston 75 mg powder and solvent for nebuliser solution."
-Description: "Cayston 75 mg powder and solvent for nebuliser solution."
+Title: "Medicinal Product cayston"
+Description: "cayston"
 Usage: #inline
 
  
@@ -480,7 +1041,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cayston 75 mg powder and solvent for nebuliser solution."
+  * productName = "cayston"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -507,29 +1068,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d4f93e1067cc6b6405636501aeff5a7c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cayston Package Leaflet for language en"
-Description: "ePI document Bundle for cayston Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d4f93e1067cc6b6405636501aeff5a7cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/543/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cayston"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d4f93e1067cc6b6405636501aeff5a7c"
-* entry[0].resource = composition-en-d4f93e1067cc6b6405636501aeff5a7c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4e3b6ac6e00f65876a899e8d2b683303"
-* entry[=].resource = mp4e3b6ac6e00f65876a899e8d2b683303
-                            
-                      
+* title = "List of all ePIs associated with cayston"
+
+* subject = Reference(mp4e3b6ac6e00f65876a899e8d2b683303)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cayston "cayston"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d4f93e1067cc6b6405636501aeff5a7c) // cayston en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d4f93e1067cc6b6405636501aeff5a7c) // cayston da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d4f93e1067cc6b6405636501aeff5a7c
+InstanceOf: List
+
+* insert d4f93e1067cc6b6405636501aeff5a7cListRuleset
+    

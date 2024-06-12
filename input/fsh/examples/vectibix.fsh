@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-fa1d1dbf5b18ae3c108f87c843db6e2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vectibix Package Leaflet"
@@ -364,12 +367,564 @@ Tel: +44 (0)1223 420This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-fa1d1dbf5b18ae3c108f87c843db6e2f
+InstanceOf: CompositionUvEpi
+Title: "Composition for vectibix Package Leaflet"
+Description:  "Composition for vectibix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7fa97e3d984d0120f01b3fa10ea3eadd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7fa97e3d984d0120f01b3fa10ea3eadd
+* title = "TEST PURPOSES ONLY - vectibix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at bruge Vectibix </li>
+<li>Sådan skal De bruge Vectibix </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vectibix is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vectibix is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vectibix anvendes til behandling af metastatisk kolorektalcancer (kræft i tyktarm og endetarm) hos 
+voksne patienter med en særlig type for tumor kendt som "vildtype-RAS". Vectibix anvendes alene 
+eller i kombination med anden medicin mod kræft. </p>
+<p>Vectibix indeholder det aktive stof panitumumab, som hører til en gruppe medicin, der kaldes for 
+monoklonale antistoffer. Monoklonale antistoffer er proteiner, som specifikt genkender og fastgør sig 
+(binder sig) til andre unikke proteiner i kroppen. </p>
+<p>Panitumumab genkender og binder sig specifikt til et protein, der kaldes for epidermal 
+vækstfaktorreceptor (EGFR), som findes på overfladen af visse cancerceller. Når vækstfaktorer (andre 
+kropsproteiner) fastgør sig til EGFR, stimuleres cancercellen til at vokse og dele sig. Panitumumab 
+binder sig til EGFR og forhindrer cancercellen i at modtage de meddelelser, den skal bruge for at 
+vokse og dele sig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vectibix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vectibix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Vectibix </p>
+<ul>
+<li>
+<p>hvis De er allergisk over for panitumumab eller et af de øvrige indholdsstoffer (angivet i 
+punkt 6). </p>
+</li>
+<li>
+<p>hvis De tidligere har haft eller har tegn på interstitiel lungebetændelse (hævelse i lungerne, der 
+medfører hoste og åndedrætsbesvær) eller lungefibrose (ardannelse og fortykkelse i lungerne 
+ledsaget af stakåndethed). </p>
+</li>
+<li>
+<p>i kombination med oxaliplatin-baseret kemoterapi, hvis Deres RAS-test viser, at De har tumor 
+med muteret RAS, eller hvis Deres RAS-tumorstatus er ukendt. Spørg Deres læge, hvis De er i 
+tvivl om Deres RAS-tumorstatus. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>De kan opleve hudreaktioner eller alvorlig hævelse og vævsbeskadigelse. Hvis disse forværres eller 
+bliver utålelige, skal De straks informere Deres læge eller sygeplejerske herom. Hvis De får en 
+alvorlig hudreaktion, vil Deres læge muligvis anbefale, at dosis af Vectibix justeres. Deres læge kan 
+stoppe behandlingen med Vectibix, hvis De får en alvorlig infektion eller feber på grund af 
+hudreaktioner. </p>
+<p>Det anbefales, at De begrænser den tid, De opholder Dem i solen, mens De får Vectibix, og hvis De 
+får hudreaktioner, da sollys kan forværre disse reaktioner. Brug solbeskyttelsescreme og en hat, hvis 
+De skal opholde Dem i solen. Deres læge vil muligvis råde Dem til at bruge fugtighedscreme, 
+solbeskyttelsescreme (solfaktor &gt; 15), steroidcreme og/eller orale antibiotika, der kan være en hjælp i 
+håndteringen af de hudbivirkninger, som kan være forbundet med anvendelsen af Vectibix. </p>
+<p>Før De får behandling med Vectibix, vil lægen kontrollere indholdet af bestemte stoffer i blodet, 
+herunder magnesium, calcium og kalium. Lægen vil kontrollere indholdet af magnesium og kalcium i 
+blodet regelmæssigt under behandlingen og op til 8 uger efter, at De er færdig med behandlingen. Hvis 
+niveauerne er for lave, kan lægen ordinere passende tilskud. </p>
+<p>Fortæl det til lægen eller sygeplejersken, hvis De får kraftig diarré, da De derved kan miste en masse 
+væske fra kroppen (blive dehydreret), hvilket kan skade Deres nyrer. </p>
+<p>Fortæl lægen, hvis De bruger kontaktlinser og/eller tidligere har haft øjenproblemer, for eksempel 
+alvorlig øjentørhed eller betændelse eller sår i den forreste del af øjet. </p>
+<p>Fortæl straks lægen eller en sygeplejerske, hvis De akut udvikler eller får forværring af rødmen og 
+smerter i øjnene, øget tåreflåd, sløret syn og/eller lysfølsomhed, da De kan have brug for akut 
+behandling (se "Bivirkninger" nedenfor). </p>
+<p>Deres læge vil drøfte med Dem, om De kan tåle Vectibix samtidig med kemoterapi på baggrund af 
+Deres alder (ældre end 65 år) eller Deres generelle helbred. </p>
+<p>Brug af anden medicin sammen med Vectibix </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis De bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept samt naturlægemidler. </p>
+<p>Vectibix bør ikke bruges i kombination med bevacizumab (et andet monoklonalt antistof, der bruges 
+mod kræft i tyktarmen og endetarmen) eller med en kombination af kræftlægemidler kendt som "IFL". </p>
+<p>Graviditet og amning </p>
+<p>Vectibix er ikke blevet afprøvet på gravide kvinder. Det er vigtigt at fortælle det til Deres læge, hvis 
+De er gravid, tror De kan være gravid eller planlægger at blive gravid. Vectibix kan påvirke Deres 
+ufødte barn eller evne til at forblive gravid. </p>
+<p>Kvinder i den fødedygtige alder skal anvende effektiv antikonception under behandling med Vectibix 
+og i 2 måneder efter den sidste dosis. </p>
+<p>Det anbefales, at De ikke ammer Deres barn under behandling med Vectibix og i 2 måneder efter den 
+sidste dosis. Det er vigtigt, at De fortæller det til Deres læge, hvis De planlægger at amme. </p>
+<p>Spørg Deres læge eller apoteket til råds, før De bruger nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>De bør tale med Deres læge, før De kører bil eller bruger maskiner, da visse bivirkninger kan forringe 
+Deres evne til at gøre dette sikkert. </p>
+<p>Vectibix indeholder natrium </p>
+<p>Dette lægemiddel indeholder 3,45 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. ml. 
+Dette svarer til 0,17 % af den anbefalede maximale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vectibix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vectibix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vectibix vil blive administreret på et hospital under tilsyn af en læge, der har erfaring med 
+anvendelsen af medicin mod cancer. </p>
+<p>Vectibix administreres intravenøst (i en vene) med en infusionspumpe (et apparat, der giver en 
+langsom injektion). </p>
+<p>Den anbefalede dosis Vectibix er 6 mg/kg (milligram pr. kg legemsvægt), som administreres én gang 
+hver anden uge. Behandlingen vil sædvanligvis blive givet over en periode på ca. 60 minutter. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De mest alvorlige bivirkninger og de væsentligste bivirkninger af Vectibix er angivet nedenfor: </p>
+<p>Infusionsrelaterede reaktioner </p>
+<p>Der kan opstå en infusionsrelateret reaktion under eller efter behandling. Sådanne reaktioner kan være 
+milde eller moderate (opstår sandsynligvis hos cirka 5 ud af 100 personer, der får Vectibix) eller 
+alvorlige (opstår sandsynligvis hos 1 ud af 100 personer, der får Vectibix). Symptomerne kan være 
+hovedpine, udslæt, kløe eller nældefeber, rødmen, hævelse (ansigt, læber, mund, omkring øjnene og 
+hals), hurtige og uregelmæssige hjerteslag, hurtig puls, øget svedtendens, kvalme, opkastning, 
+svimmelhed, åndedrætsbesvær eller synkebesvær eller et fald i blodtrykket, som kan være alvorligt 
+eller livstruende og i meget sjældne tilfælde dødeligt. Fortæl det straks til lægen, hvis De får et eller 
+flere af disse symptomer. Deres læge kan beslutte at nedsætte infusionshastigheden eller standse Deres 
+behandling med Vectibix. </p>
+<p>Overfølsomhedsreaktioner </p>
+<p>Der er i meget sjældne tilfælde opstået alvorlige allergiske reaktioner (overfølsomhedsreaktioner) med 
+symptomer svarende til en infusionsreaktion (se "Infusionsrelaterede reaktioner") mere end 24 timer 
+efter behandlingen, som har haft fatalt udfald. Søg omgående lægehjælp, hvis De får symptomer på en 
+overfølsomhedsreaktion over for Vectibix, herunder, men ikke begrænset til, vejrtrækningsbesvær, 
+trykken for brystet, kvælningsfornemmelse, svimmelhed eller besvimelse. </p>
+<p>Hudreaktioner </p>
+<p>Hudrelaterede reaktioner opstår med sandsynlighed hos cirka 94 ud af 100 personer, der får Vectibix, 
+og er normalt milde til moderate. Hududslættet ligner ofte acne og rammer ansigtet, den øverste del af 
+brystet og ryggen, men kan også opstå andre steder på kroppen. Nogle tilfælde af udslæt har været 
+forbundet med rødmen, kløe og skældannelse i huden, som kan blive alvorlig. Det kan i nogle tilfælde 
+medføre inficerede sår, der kræver medicinsk og/eller kirurgisk behandling, eller alvorlige 
+hudinfektioner, som i sjældne tilfælde kan være letale. Nogle patienter kan i sjældne tilfælde udvikle 
+blærer på huden, i munden og øjnene samt på kønsorganerne, hvilket kan være tegn på en alvorlig 
+hudreaktion, der kaldes for “Stevens-Johnsons syndrom", eller blærer på huden, hvilket kan være tegn 
+på en alvorlig hudreaktion, der kaldes for “toksisk epidermal nekrolyse". Fortæl det straks til Deres 
+læge, hvis De får blærer. Længerevarende ophold i solen kan forværre udslættet. Desuden er der 
+indberettet tør hud, revner i huden (hudfissurer) på fingre eller tæer, infektion eller inflammation i 
+neglelejerne på fingre eller tæer (paronychia). Hudreaktionerne forsvinder normalt, når behandlingen 
+afbrydes midlertidigt eller standses helt. Deres læge kan beslutte, at udslættet skal behandles, dosis 
+skal justeres, eller at behandling med Vectibix skal ophøre. </p>
+<p>Andre bivirkninger omfatter: </p>
+<p>Meget almindelige: kan ramme flere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>lavt antal røde blodlegemer (blodmangel), lave kaliumniveauer i blodet (hypokaliæmi), lave 
+magnesiumniveauer i blodet (hypomagnesiæmi) </p>
+</li>
+<li>
+<p>øjenbetændelse (conjunctivitis) </p>
+</li>
+<li>
+<p>lokalt eller udbredt udslæt, som kan være knoldet (med eller uden pletter), kløende, rødt eller 
+skællende </p>
+</li>
+<li>
+<p>hårtab (alopeci), mundsår og forkølelsessår (stomatitis), betændelse i munden 
+(slimhindeinflammation) </p>
+</li>
+<li>
+<p>diarré, kvalme, opkastning, mavesmerter, forstoppelse, nedsat appetit, vægttab </p>
+</li>
+<li>
+<p>ekstrem træthed (udmattelse), feber eller forhøjet temperatur (pyreksi), mangel på eller tab af 
+styrke (asteni), ophobning af væske i ekstremiteter (hævede arme/ben og hænder/fødder) 
+(perifert ødem) </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>søvnløshed </p>
+</li>
+<li>
+<p>hoste, dyspnø (åndedrætsbesvær) </p>
+</li>
+</ul>
+<p>Almindelige: kan ramme op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>lavt antal hvide blodlegemer (leukopeni), lave calciumniveauer i blodet (hypokalcæmi), lavt 
+niveau af fosfat i blodet (hypofosfatæmi), højt glukoseindhold i blodet (blodsukker) 
+(hyperglykæmi) </p>
+</li>
+<li>
+<p>vækst af øjenvipper, øget tåreflåd, røde øjne (okulær hyperæmi), øjentørhed, øjenkløe, 
+øjenirritation, øjenlågsinflammation (blefarit) </p>
+</li>
+<li>
+<p>hudsår, skorpedannelse, kraftig hårvækst (hypertrikose), hudrødme og hævelse i håndfladerne 
+eller på fodsålerne (hånd-fod-syndrom), kraftig svedtendens (hyperhidrose), hudreaktion 
+(dermatitis) </p>
+</li>
+<li>
+<p>spredning af en infektion under huden (cellulitis), hårfollikelbetændelse (folliculitis), lokal 
+infektion, hududslæt med pusfyldte blærer (pustuløst udslæt), urinvejsinfektion </p>
+</li>
+<li>
+<p>neglesygdom, flækkede negle (onychoclasis) </p>
+</li>
+<li>
+<p>væskemangel (dehydrering) </p>
+</li>
+<li>
+<p>mundtørhed, fordøjelsesbesvær (dyspepsi), blødning fra endetarmen, læbebetændelse (cheilitis), 
+halsbrand (gastroøsofageal refluks) </p>
+</li>
+<li>
+<p>brystsmerter, smerter, kulderystelser, smerter i ekstremiteter, immunreaktion (overfølsomhed), 
+hurtig hjerterytme (puls) (takykardi) </p>
+</li>
+<li>
+<p>blodprop i lungen (lungeemboli) symptomerne på dette kan være pludselig stakåndethed eller 
+brystsmerter, næseblod (epistaxis), blodprop i en dybtliggende blodåre (dyb venetrombose), højt 
+blodtryk (hypertension), rødme </p>
+</li>
+<li>
+<p>hovedpine, svimmelhed, angst </p>
+</li>
+</ul>
+<p>Ikke almindelige: kan ramme op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>blåfarvning af hud og slimhinder (cyanose) </p>
+</li>
+<li>
+<p>død af hudceller (hudnekrose) </p>
+</li>
+<li>
+<p>alvorlig hudreaktion med blærer på huden, i munden, øjnene samt på kønsorganer 
+(Stevens-Johnsons syndrom) </p>
+</li>
+<li>
+<p>alvorlig hudreaktion med blærer på huden (toksisk epidermal nekrolyse) </p>
+</li>
+<li>
+<p>en alvorlig tilstand med sårdannelse i den forreste del af øjet (hornhinden), som kræver akut 
+behandling (ulcerativ keratitis) </p>
+</li>
+<li>
+<p>betændelse i øjets hornhinde (keratitis) </p>
+</li>
+<li>
+<p>øjenlågsirritation, sprukne læber og/eller tørre læber, øjeninfektion, øjenlågsinfektion, 
+næsetørhed, løsning af neglene (onykolyse), nedgroede negle, kraftig hårvækst (hirsutisme) </p>
+</li>
+<li>
+<p>betændelsestilstand i lungerne (interstitiel lungesygdom) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis De oplever bivirkninger, bør De tale med Deres læge eller sygeplejersken. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vectibix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vectibix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vectibix vil blive opbevaret på hospitalet, hvor det anvendes. </p>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Opbevares i køleskab (2 °C-8 °C). 
+Må ikke nedfryses. 
+Opbevares i den originale karton for at beskytte mod lys. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på etiketten og pakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vectibix indeholder: </p>
+<ul>
+<li>
+<p>Hver ml koncentrat indeholder 20 mg panitumumab. Hvert hætteglas indeholder enten 100 mg 
+panitumumab i 5 ml eller 400 mg panitumumab i 20 ml. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: natriumchlorid, natriumacetattrihydrat, (is)eddikesyre og vand til 
+injektionsvæsker. Se punkt 2, “Vectibix indeholder natrium". </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Vectibix er en farveløs væske, der kan indeholde synlige partikler. Det leveres i et hætteglas. Hver 
+pakning indeholder et hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Nederlandene </p>
+<p>Indehaver af markedsføringstilladelsen 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Nederlandene </p>
+<p>Fremstiller 
+Amgen Technology (Ireland) Unlimited Company 
+Pottery Road 
+Dun Laoghaire 
+Co Dublin 
+Irland </p>
+<p>Fremstiller 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgien </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/Tél: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7 
+България 
+Амджен България ЕООД 
+Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen 
+Belgique/Belgien 
+Tel/Tél: +32 (0)2 7752 
+Česká republika 
+Amgen s.r.o. 
+Tel: +420 221 773<br />
+Magyarország 
+Amgen Kft. 
+Tel.: +36 1 35 44<br />
+Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen S.r.l. 
+Italy 
+Tel: +39 02 6241 
+Deutschland 
+Amgen GmbH 
+Tel.: +49 89 1490 
+Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732 
+Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09 
+Norge 
+Amgen AB 
+Tel: +47 23308 
+Ελλάδα 
+Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε. 
+Τηλ.: +30 210 3447 
+Österreich 
+Amgen GmbH 
+Tel: +43 (0)1 50<br />
+España 
+Amgen S.A. 
+Tel: +34 93 600 18<br />
+Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3 
+France 
+Amgen S.A.S. 
+Tél: +33 (0)9 69 363<br />
+Portugal 
+Amgen Biofarmacêutica, Lda. 
+Tel: +351 21 4220 
+Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57<br />
+România 
+Amgen România SRL 
+Tel: +4021 527 3 
+Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114<br />
+Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241 
+Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900 
+Kύπρος 
+C.A. Papaellinas Ltd 
+Τηλ.: +357 22741<br />
+Sverige 
+Amgen AB 
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG Rīgas filiāle 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Vectibix er kun beregnet til engangsbrug. Vectibix skal fortyndes med 9 mg/ml (0,9 %) 
+natriumchloridinjektionsvæske, opløsning, af en læge eller sygeplejerske vha. aseptisk teknik. 
+Hætteglasset må ikke rystes eller bevæges for meget. Vectibix skal kontrolleres visuelt inden 
+administration. Opløsningen skal være farveløs og kan indeholde synlige halvgennemsigtige til hvide, 
+amorfe, proteinlignende partikler (som fjernes ved integreret filtrering). Vectibix må ikke 
+administreres, hvis det ikke ser ud som beskrevet ovenfor. Udtag den nødvendige mængde Vectibix til 
+en dosis på 6 mg/kg, men kun med anvendelse af en subkutan kanyle med en diameter på 21 gauge 
+(G) eller derunder. Brug ikke nålefrie anordninger (f.eks. hætteglasadaptere) til udtagning af 
+hætteglassets indhold. Fortynd i en samlet mængde på 100 ml. Doser, der er højere end 1.000 mg, skal 
+fortyndes i 150 ml 9 mg/ml (0,9 %) natriumchloridinjektionsvæske, opløsning. Den endelige 
+koncentration bør ikke overskride 10 mg/ml. Den fortyndede opløsning skal blandes ved forsigtigt at 
+vende den om. Den må ikke rystes. </p>
+<p>Vectibix indeholder ikke noget antimikrobielt konserveringsmiddel eller bakteriehæmmende stof. 
+Efter fortynding skal lægemidlet anvendes straks. Hvis opløsningen ikke anvendes straks, er 
+opbevaringstid og -forhold før anvendelse brugerens ansvar, og opbevaringstiden må ikke overstige 
+24 timer ved 2 °C-8 °C. Den fortyndede infusionsvæske må ikke nedfryses. </p>
+<p>Kassér hætteglasset og eventuel resterende væske i hætteglasset efter engangsbrug. </p>
+<p>Infusionsslangen bør skylles med en natriumchloridinjektions/infusionsvæske før og efter 
+administration af Vectibix for at undgå at blande med andre lægemidler eller 
+injektions/infusionsvæsker. </p>
+<p>Vectibix skal administreres som en intravenøs infusion via en infusionspumpe med et indbygget lavt 
+proteinbindende 0,2 eller 0,22 μm integreret filter gennem en perifer slange eller et indlagt kateter. 
+Den anbefalede infusionstid er ca. 60 minutter. Doser, der er højere end 1.000 mg, bør infunderes over 
+ca. 90 minutter. </p>
+<p>Der er ikke observeret nogen uforligeligheder mellem Vectibix og 9 mg/ml (0,9 %) 
+natriumchloridinjektionsvæske, opløsning, i polyvinylchloridposer eller polyolefinposer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-fa1d1dbf5b18ae3c108f87c843db6e2f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vectibix Package Leaflet for language en"
+Description: "ePI document Bundle for vectibix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fa1d1dbf5b18ae3c108f87c843db6e2f"
+* entry[0].resource = composition-en-fa1d1dbf5b18ae3c108f87c843db6e2f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfa1d1dbf5b18ae3c108f87c843db6e2f"
+* entry[=].resource = mpfa1d1dbf5b18ae3c108f87c843db6e2f
+                            
+                    
+Instance: bundlepackageleaflet-da-fa1d1dbf5b18ae3c108f87c843db6e2f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vectibix Package Leaflet for language da"
+Description: "ePI document Bundle for vectibix Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-fa1d1dbf5b18ae3c108f87c843db6e2f"
+* entry[0].resource = composition-da-fa1d1dbf5b18ae3c108f87c843db6e2f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfa1d1dbf5b18ae3c108f87c843db6e2f"
+* entry[=].resource = mpfa1d1dbf5b18ae3c108f87c843db6e2f
+                            
+                    
+
+
+
+Instance: mpfa1d1dbf5b18ae3c108f87c843db6e2f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vectibix 20 mg/mL concentrate for solution for infusion."
-Description: "Vectibix 20 mg/mL concentrate for solution for infusion."
+Title: "Medicinal Product vectibix"
+Description: "vectibix"
 Usage: #inline
 
  
@@ -389,7 +944,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vectibix 20 mg/mL concentrate for solution for infusion."
+  * productName = "vectibix"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -416,29 +971,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-fa1d1dbf5b18ae3c108f87c843db6e2f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vectibix Package Leaflet for language en"
-Description: "ePI document Bundle for vectibix Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: fa1d1dbf5b18ae3c108f87c843db6e2fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/07/423/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vectibix"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-fa1d1dbf5b18ae3c108f87c843db6e2f"
-* entry[0].resource = composition-en-fa1d1dbf5b18ae3c108f87c843db6e2f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7fa97e3d984d0120f01b3fa10ea3eadd"
-* entry[=].resource = mp7fa97e3d984d0120f01b3fa10ea3eadd
-                            
-                      
+* title = "List of all ePIs associated with vectibix"
+
+* subject = Reference(mp7fa97e3d984d0120f01b3fa10ea3eadd)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vectibix "vectibix"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-fa1d1dbf5b18ae3c108f87c843db6e2f) // vectibix en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-fa1d1dbf5b18ae3c108f87c843db6e2f) // vectibix da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-fa1d1dbf5b18ae3c108f87c843db6e2f
+InstanceOf: List
+
+* insert fa1d1dbf5b18ae3c108f87c843db6e2fListRuleset
+    

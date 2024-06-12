@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-63388d6288bf341989180dcca08d726e
 InstanceOf: CompositionUvEpi
 Title: "Composition for bemfola Package Leaflet"
@@ -376,12 +379,609 @@ Hungary </p>
 
 
 
+Instance: composition-da-63388d6288bf341989180dcca08d726e
+InstanceOf: CompositionUvEpi
+Title: "Composition for bemfola Package Leaflet"
+Description:  "Composition for bemfola Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6ebeb5153df8b4b7075349c71b9ac0d1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6ebeb5153df8b4b7075349c71b9ac0d1
+* title = "TEST PURPOSES ONLY - bemfola"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Bemfola </li>
+<li>Sådan skal du bruge Bemfola </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What bemfola is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What bemfola is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Dette lægemiddel indeholder det aktive stof follitropin alfa, der næsten er identisk med det naturlige 
+hormon “follikelstimulerende hormon” (FSH), som kroppen selv producerer. FSH er et gonadotropin, 
+som er en type hormon, der er vigtig for menneskers frugtbarhed og forplantning. Hos kvinder er FSH 
+nødvendigt til vækst og udvikling af ægsækkene (folliklerne) i æggestokkene, som indeholder 
+ægcellerne. Hos mænd er FSH nødvendigt for sædproduktionen. </p>
+<p>Anvendelse </p>
+<p>Hos voksne kvinder bruges Bemfola: </p>
+<ul>
+<li>
+<p>til at hjælpe med at frigive et æg fra æggestokken (ægløsning) hos kvinder, som ikke har 
+ægløsning, og som ikke har reageret på behandling med et lægemiddel, der kaldes 
+“clomifencitrat”. </p>
+</li>
+<li>
+<p>sammen med et andet lægemiddel, der kaldes “lutropin alfa” (“luteiniserende hormon” eller 
+LH) til at hjælpe med at frigive æg fra æggestokken (ægløsning) hos kvinder, hvis krop 
+producerer meget få gonadotropiner (FSH og LH). </p>
+</li>
+<li>
+<p>til at hjælpe med at udvikle flere follikler (hver follikel indeholder et æg) hos kvinder, som 
+gennemgår assisteret reproduktionsteknologi (procedurer, der kan hjælpe dig med at blive 
+gravid), f.eks. reagensglasbefrugtning (”in vitro-fertilisering”), oplægning af en blanding af 
+sædceller og ægceller i æggelederne (”gamete intra-fallopian transfer”) eller oplægning af 
+befrugtede ægceller i æggelederne (”zygote intra-fallopian transfer”). </p>
+</li>
+</ul>
+<p>Hos voksne mænd bruges Bemfola: </p>
+<ul>
+<li>sammen med et andet lægemiddel, som kaldes ”humant choriongonadotropin” (hCG), til at 
+hjælpe med at producere sæd hos mænd, som er ufrugtbare på grund af et lavt niveau af visse 
+hormoner. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take bemfola"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take bemfola"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du og din partners frugtbarhed (fertilitet) skal vurderes af en læge med erfaring i at behandle 
+fertilitetsforstyrrelser, før behandlingen starter. </p>
+<p>Brug ikke Bemfola: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for follikelstimulerende hormon (FSH) eller et af de øvrige 
+indholdsstoffer (angivet i afsnit 6). </p>
+</li>
+<li>
+<p>hvis du har en tumor i hypotalamus eller hypofysen (begge er dele af hjernen). </p>
+</li>
+<li>
+<p>hvis du er kvinde:</p>
+</li>
+<li>
+<p>med store æggestokke eller væskefyldte hulrum i æggestokkene (ovariecyster) af ukendt 
+oprindelse. </p>
+</li>
+<li>med vaginalblødning uden kendt årsag. </li>
+<li>med kræft i æggestok, livmoder eller bryst. </li>
+<li>
+<p>med et helbred, som normalt umuliggør graviditet, f.eks. tidlig overgangsalder 
+(ovariesvigt) eller misdannede kønsorganer. </p>
+</li>
+<li>
+<p>hvis du er mand:</p>
+</li>
+<li>
+<p>med beskadigede testikler, som ikke kan kureres. </p>
+</li>
+</ul>
+<p>Brug ikke Bemfola, hvis noget af ovenstående gælder for dig. Er du i tvivl, så spørg lægen, inden du 
+tager dette lægemiddel. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du bruger Bemfola. </p>
+<p>Porfyri 
+Hvis du har porfyri, eller nogen i din familie har porfyri (manglende evne til at nedbryde porfyrin, 
+hvilket kan nedarves fra forældre til børn), skal du fortælle det til lægen, inden du starter 
+behandlingen. 
+Fortæl det straks til lægen: </p>
+<ul>
+<li>
+<p>hvis din hud bliver skrøbelig og let får blærer, specielt på steder, som ofte udsættes for sollys, 
+og/eller </p>
+</li>
+<li>
+<p>hvis du har smerter i maven, arme eller ben. </p>
+</li>
+</ul>
+<p>I sådanne tilfælde kan din læge anbefale, at du stopper behandlingen. </p>
+<p>Ovarielt hyperstimulationssyndrom (OHSS) 
+Hvis du er kvinde, vil dette lægemiddel øge risikoen for at udvikle OHSS. Det betyder, at dine 
+follikler udvikler sig for meget og bliver til store cyster. Hvis du får smerter i den nederste del af 
+underlivet, tager meget hurtigt på i vægt, får kvalme eller kaster op, eller hvis du har åndedrætsbesvær, 
+skal du straks tale med lægen, som kan bede dig om at holde op med at tage lægemidlet (se afsnit 4). 
+Hvis du ikke har ægløsning, og hvis den anbefalede dosis og behandlingsplan bliver overholdt, er 
+forekomsten af OHSS mindre sandsynlig. Bemfola-behandling fører sjældent til svær OHSS, 
+medmindre det lægemiddel, man anvender for at inducere afsluttende follikelmodning (indeholdende 
+humant choriongonadotropin – hCG) er indgivet. Hvis du udvikler OHSS, vil din læge måske ikke 
+give hCG i denne behandlingscyklus, og du vil muligvis blive bedt om ikke at have samleje eller at 
+bruge barriereprævention i mindst 4 døgn. </p>
+<p>Flerfoldsgraviditet 
+Når du bruger Bemfola, har du en højere risiko for at blive gravid med flere end ét foster ad gangen 
+(”flerfoldsgraviditet”, i de fleste tilfælde tvillinger), end hvis du bliver gravid ad naturlig vej. </p>
+<p>Flerfoldsgraviditet kan medføre medicinske komplikationer for dig selv og dine spædbørn. Du kan 
+nedsætte risikoen for flerfoldsgraviditet ved at tage den rette dosis Bemfola på de rette tidspunkter. 
+Risikoen for flerfoldsgraviditet som følge af assisteret befrugtning er relateret til din alder, kvaliteten 
+og antallet af befrugtede æg/embryoner, som opsættes i din livmoder. </p>
+<p>Spontan abort 
+Når du gennemgår assisteret befrugtning eller stimulation af æggestokkene for at producere æg, har du 
+større risiko for en abort end den gennemsnitlige kvinde. </p>
+<p>Problemer med blodpropper (tromboemboliske hændelser) 
+Hvis du tidligere eller for nylig har haft blodpropper i benene eller i lungerne eller et hjerteanfald eller 
+et slagtilfælde, eller hvis noget sådant er forekommet i din familie, kan du have højere risiko for, at 
+disse problemer opstår eller forværres med Bemfola-behandlingen. </p>
+<p>Mænd med for meget FSH i blodet 
+Hvis du er en mand, kan for meget FSH i blodet være et tegn på beskadigede testikler. Bemfola er 
+normalt ikke effektivt, hvis du har dette problem. Hvis din læge beslutter at prøve behandling med 
+Bemfola, vil du eventuelt blive bedt om at afgive sæd til analyse 4-6 måneder efter start af 
+behandlingen for at overvåge behandlingen. </p>
+<p>Børn og unge 
+Bemfola er ikke beregnet til brug hos børn og unge under 18 år. </p>
+<p>Brug af andre lægemidler sammen med Bemfola 
+Fortæl det altid til lægen, hvis du tager lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. </p>
+<ul>
+<li>
+<p>Hvis du bruger Bemfola sammen med andre lægemidler, som hjælper med ægløsning (f.eks. 
+hCG eller clomifencitrat), kan det øge folliklernes reaktion. </p>
+</li>
+<li>
+<p>Hvis du bruger Bemfola samtidig med lægemiddeltyper, der nedsætter kønshormonniveauerne 
+og stopper ægløsningen (GnRH-agonister eller -antagonister), kan du have brug for en højere 
+dosis Bemfola til at producere follikler. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Brug ikke Bemfola, hvis du er gravid eller ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det forventes ikke, at dette lægemiddel vil påvirke din evne til at føre motorkøretøj og betjene 
+maskiner. </p>
+<p>Bemfola indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det 
+væsentlige natrium-fri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take bemfola"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take bemfola"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Brug af dette lægemiddel </p>
+<ul>
+<li>
+<p>Bemfola er beregnet til indsprøjtning under huden (subkutant). De fyldte penne må kun 
+anvendes én gang hver, hvorefter de skal kasseres på sikker vis. Opløsningen må ikke 
+indgives, hvis den indeholder partikler eller ikke er klar. </p>
+</li>
+<li>
+<p>Den første injektion af Bemfola skal gives under overvågning af din læge. </p>
+</li>
+<li>
+<p>Din læge eller sygeplejerske vil vise dig, hvordan du bruger Bemfola fyldt pen til at injicere 
+lægemidlet selv. </p>
+</li>
+<li>
+<p>Hvis du selv injicerer Bemfola, skal du læse og følge instruktionerne grundigt i slutningen af 
+denne indlægsseddel i brugervejledningsafsnittet.  </p>
+</li>
+</ul>
+<p>Hvor meget skal du tage 
+Din læge afgør, hvor meget lægemiddel, du skal tage, og hvor ofte. Doserne, der er beskrevet 
+herunder, er anført i internationale enheder (IE) og milliliter (ml). </p>
+<p>Kvinder </p>
+<p>Hvis du ikke har ægløsning, og du har uregelmæssig eller ingen menstruation </p>
+<ul>
+<li>
+<p>Bemfola gives normalt dagligt. </p>
+</li>
+<li>
+<p>Hvis du har uregelmæssig menstruation, skal du starte med at tage Bemfola inden for de første 
+7 dage af din menstruationscyklus. Hvis du ikke har menstruation, kan du starte med at tage 
+lægemidlet på en dag, som passer dig. </p>
+</li>
+<li>
+<p>Den sædvanlige startdosis af Bemfola er 75 til 150 IE (0,12 til 0,25 ml) hver dag. </p>
+</li>
+<li>
+<p>Din Bemfola-dosis kan øges hver 7. eller hver 14. dag med 37,5 til 75 IE, indtil du opnår den 
+ønskede virkning. </p>
+</li>
+<li>
+<p>Den maksimale daglige dosis af Bemfola er sædvanligvis ikke højere end 225 IE (0,375 ml). </p>
+</li>
+<li>
+<p>Når du opnår den ønskede virkning, vil du få en enkelt injektion på 250 mikrogram 
+“rekombinant hCG” (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-
+teknik) eller 5 000 til 10 000 IE hCG 24 til 48 timer efter den sidste Bemfola-injektion. Det 
+bedste tidspunkt at have samleje er på selve dagen for hCG-injektionen og dagen efter. </p>
+</li>
+</ul>
+<p>Hvis din læge ikke kan se den ønskede virkning efter 4 uger, bør denne behandlingscyklus med 
+Bemfola stoppes. I den efterfølgende behandlingscyklus vil din læge give dig en højere startdosis af 
+Bemfola end før. </p>
+<p>Hvis din krop reagerer for kraftigt, vil behandlingen blive stoppet, og du vil ikke få hCG (se afsnit 2, 
+“Ovarielt hyperstimulationssyndrom (OHSS)”). I den efterfølgende cyklus vil din læge give dig en 
+lavere dosis af Bemfola end før. </p>
+<p>Hvis du er blevet diagnosticeret med meget lave niveauer af FSH- og LH-hormoner </p>
+<ul>
+<li>
+<p>Den sædvanlige startdosis er 75 til 150 IE (0,12 til 0,25 ml) Bemfola sammen med 75 IE 
+(0,12 ml) lutropin alfa. </p>
+</li>
+<li>
+<p>Du skal tage disse to lægemidler hver dag i op til fem uger. </p>
+</li>
+<li>
+<p>Din Bemfola-dosis kan øges hver 7. eller hver 14. dag med 37,5 til 75 IE, indtil du opnår den 
+ønskede virkning. </p>
+</li>
+<li>
+<p>Når du får den ønskede virkning, vil du få en enkelt injektion af 250 mikrogram ”rekombinant 
+hCG” (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig DNA-teknik) eller 
+5 000-10 000 IE hCG 24 til 48 timer efter de sidste injektioner af Bemfola og lutropin alfa. 
+Det bedste tidspunkt at have samleje er på selve dagen for hCG-injektionen og dagen efter. 
+Alternativt kan der foretages intrauterin insemination eller en anden medicinsk assisteret 
+reproduktionsprocedure, baseret på lægens bedømmelse. </p>
+</li>
+</ul>
+<p>Hvis din læge ikke ser den ønskede virkning efter 5 uger, bør denne behandlingscyklus med Bemfola 
+stoppes. I den efterfølgende behandlingscyklus vil din læge give dig en højere startdosis af Bemfola 
+end før. </p>
+<p>Hvis din krop reagerer for kraftigt, vil behandlingen med Bemfola blive stoppet, og du vil ikke få hCG 
+(se afsnit 2, “Ovarielt hyperstimulationssyndrom (OHSS)”). I den efterfølgende cyklus vil din læge 
+give dig en lavere dosis af Bemfola end før. </p>
+<p>Hvis du har behov for at udvikle flere æg til udtagning inden assisteret befrugtning </p>
+<ul>
+<li>
+<p>Den sædvanlige startdosis af Bemfola er 150 til 225 IE (0,25 til 0,37 ml) hver dag fra dag 2 
+eller 3 i din behandlingscyklus. </p>
+</li>
+<li>
+<p>Bemfola-dosis kan øges, afhængigt af den virkning, du opnår. Den maksimale daglige dosis er 
+450 IE (0,75 ml). </p>
+</li>
+<li>
+<p>Behandlingen fortsættes, indtil dine æg har udviklet sig til et ønsket punkt. Dette tager 
+sædvanligvis ca. 10 dage, men kan tage fra 5 og op til 20 dage. Din læge vil bruge blodprøver 
+og/eller et ultralydsapparat til at kontrollere, hvornår dette punkt er nået. </p>
+</li>
+<li>
+<p>Når dine æg er klar, vil du få en enkelt injektion af 250 mikrogram ”rekombinant hCG” (r-
+hCG, et hCG, som er fremstillet i et laboratorium ved en særlig rekombinant DNA-teknik) 
+eller 5 000 IE-10 000 IE hCG 24 til 48 timer efter den sidste Bemfola-injektion. Dette gør 
+æggene klar til udtagning. </p>
+</li>
+</ul>
+<p>I andre tilfælde vil din læge eventuelt først stoppe din ægløsning ved hjælp af et en GnRH-agonist 
+eller -antagonist. Dernæst startes Bemfola ca. to uger efter start af agonistbehandling. Bemfola og 
+GnRH-agonist gives dernæst begge, indtil dine follikler udvikler sig som ønsket. 150-225 IE Bemfola 
+gives f.eks. i 7 dage efter to uger med GnRH-agonistbehandling. Dosis reguleres dernæst i henhold til 
+virkningen på æggestokkene.  </p>
+<p>Mænd </p>
+<ul>
+<li>
+<p>Den sædvanlige dosis Bemfola er 150 IE (0,25 ml) i kombination med hCG. </p>
+</li>
+<li>
+<p>Du skal bruge disse to lægemidler tre gange om ugen i mindst 4 måneder. </p>
+</li>
+<li>
+<p>Hvis du ikke har haft nogen virkning af behandlingen efter 4 måneder, kan din læge foreslå at 
+fortsætte med disse to lægemidler i mindst 18 måneder. </p>
+</li>
+</ul>
+<p>Hvis du har brugt for meget Bemfola 
+Virkningerne af en overdosering af Bemfola er ukendt. Man kan dog antage, at ovarielt 
+hyperstimulationssyndrom (OHSS) indtræder, hvilket beskrives i afsnit. 4. OHSS vil kun opstå, hvis 
+hCG også indgives (se afsnit 2, under “Ovarielt hyperstimulationssyndrom (OHSS)”).  </p>
+<p>Hvis du har glemt at bruge Bemfola 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis, hvis du har glemt at tage 
+Bemfola. Tal med din læge så snart, du bemærker, at du har glemt en dosis. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger hos kvinder </p>
+<ul>
+<li>
+<p>Smerter i nederste del af maven i kombination med kvalme eller opkastning kan være 
+symptomer på ovarielt hyperstimulationssyndrom (OHSS). Dette kan være tegn på, at 
+æggestokkene har overreageret på behandlingen, og at der har udviklet sig store cyster i 
+æggestokkene (se også afsnit 2 “Ovarielt hyperstimulationssyndrom (OHSS)”). Denne 
+bivirkning er almindelig (kan optræde hos op til 1 ud af 10 behandlede). </p>
+</li>
+<li>
+<p>OHSS kan blive alvorligt med tydeligt forstørrede æggestokke, nedsat urinproduktion, 
+vægtøgning, åndedrætsbesvær og/eller mulig væskeophobning i maven eller brystkassen. 
+Denne bivirkning er ikke almindelig (kan optræde hos op til 1 ud af 100 behandlede). </p>
+</li>
+<li>
+<p>Komplikationer fra OHSS, f.eks. rotation af en æggestok (ovarietorsion) eller blodpropper kan 
+forekomme sjældent (kan optræde hos op til 1 ud af 1 000 behandlede). </p>
+</li>
+<li>
+<p>Alvorlige komplikationer med blodpropper (tromboemboliske hændelser), nogle gange 
+uafhængigt af OHSS kan forekomme meget sjældent (kan optræde hos op til 1 ud af 10 behandlede). Det kan give brystsmerter, stakåndethed, slagtilfælde eller hjerteanfald (se også 
+afsnit 2,”Problemer med blodpropper (tromboemboliske hændelser)”). </p>
+</li>
+</ul>
+<p>Alvorlige bivirkninger hos mænd og kvinder </p>
+<ul>
+<li>Overfølsomhedsreaktioner, såsom udslæt, hudrødme, nældefeber, hævelse af ansigt med 
+vejrtrækningsbesvær, kan nogle gange være alvorlige. Denne bivirkning er meget sjælden 
+(kan optræde hos op til 1 ud af 10 000 behandlede). </li>
+</ul>
+<p>Hvis du bemærker en eller flere af de ovenstående bivirkninger, skal du øjeblikkeligt kontakte lægen, 
+som eventuelt vil bede dig om at holde op med at tage Bemfola. </p>
+<p>Andre bivirkninger hos kvinder </p>
+<p>Meget almindelig (kan optræde hos mere end 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>Væskefyldte hulrum i æggestokkene (ovariecyster) </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Lokale reaktioner på injektionsstedet, f.eks. smerte, rødme, blåt mærke, hævelse og/eller 
+irritation </p>
+</li>
+</ul>
+<p>Almindelig (kan optræde hos op til 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Kvalme, opkastning, diarré, mavekramper og oppustet mave </p>
+</li>
+</ul>
+<p>Meget sjælden (kan optræde hos op til 1 ud af 10 000 behandlede): </p>
+<ul>
+<li>
+<p>Overfølsomhedsreaktioner, som f.eks. udslæt, rødmen af huden, nældefeber, hævelse i ansigtet 
+med vejrtrækningsbesvær, kan forekomme. Disse reaktioner kan undertiden være alvorlige </p>
+</li>
+<li>
+<p>Din astma kan forværres  </p>
+</li>
+</ul>
+<p>Andre bivirkninger hos mænd </p>
+<p>Meget almindelig (kan optræde hos mere end 1 ud af 10 behandlede): </p>
+<ul>
+<li>Lokale reaktioner på injektionsstedet, f.eks. smerte, rødme, blåt mærke, hævelse og/eller 
+irritation </li>
+</ul>
+<p>Almindelig (kan optræde hos op til 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>Opsvulmen af blodårerne over og bag testiklerne (årebrok i pungen) </p>
+</li>
+<li>
+<p>Brystudvikling, akne eller vægtøgning </p>
+</li>
+</ul>
+<p>Meget sjælden (kan optræde hos op til 1 ud af 10 000 behandlede): </p>
+<ul>
+<li>
+<p>Overfølsomhedsreaktioner, som f.eks. udslæt, rødmen af huden, nældefeber, hævelse i ansigtet 
+med vejrtrækningsbesvær, kan forekomme. Disse reaktioner kan undertiden være alvorlige. </p>
+</li>
+<li>
+<p>Din astma kan forværres. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store bemfola"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store bemfola"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pennens etiket og karton efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C-8 °C). Må ikke nedfryses. 
+Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Inden for produktets holdbarhed kan den uåbnede pen opbevares ved eller under temperaturer på 
+25 °C i op til 3 måneder uden at blive nedkølet igen og skal kasseres, hvis produktet ikke er brugt 
+inden 3 måneder. </p>
+<p>Brug ikke dette lægemiddel, hvis du bemærker synlige tegn på nedbrydning, eller hvis væsken 
+indeholder partikler eller er uklar. </p>
+<p>Efter åbning skal lægemidlet injiceres straks. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bemfola indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: Follitropin alfa </p>
+</li>
+<li>
+<p>Bemfola, 75 IE/0,125 ml: Hver cylinderampul indeholder 75 IE (svarende til 5,5 µg) 
+follitropin alfa i 0,125 ml opløsning. </p>
+</li>
+<li>
+<p>Bemfola, 150 IE/0,25 ml: Hver cylinderampul indeholder 150 IE (svarende til 11 µg) 
+follitropin alfa i 0,25 ml opløsning. </p>
+</li>
+<li>
+<p>Bemfola, 225 IE/0,375 ml: Hver cylinderampul indeholder 225 IE (svarende til 16,5 µg) 
+follitropin alfa i 0,375 ml opløsning. </p>
+</li>
+<li>
+<p>Bemfola, 300 IE/0,50 ml: Hver cylinderampul indeholder 300 IE (svarende til 22 µg) 
+follitropin alfa i 0,50 ml opløsning. </p>
+</li>
+<li>
+<p>Bemfola, 450 IE/0,75 ml: Hver cylinderampul indeholder 450 IE (svarende til 33 µg) 
+follitropin alfa i 0,75 ml opløsning. </p>
+</li>
+<li>
+<p>Hver ml opløsning indeholder 600 IE (svarende til 44 µg) follitropin alfa. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Poloxamer 188, saccharose, methionin, dinatriumphosphatdihydrat, 
+natriumdihydrogenphosphatdihydrat, phosphorsyre og vand til injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>Bemfola leveres som en klar, farveløs injektionsvæske, opløsning, i en fyldt pen (injektion). </p>
+</li>
+<li>
+<p>Bemfola leveres i pakninger med 1, 5 eller 10 fyldte penne, 1, 5 eller 10 engangskanyler og 1, 
+5 eller 10 spritservietter. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Gedeon Richter Plc. 
+Gyömrői út 19-21. 1103 Budapest 
+Ungarn </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<hr />
+<p>Bemfola, fyldt pen, 75 IE/0,125 ml 
+Bemfola, fyldt pen, 150 IE/0,25 ml 
+Bemfola, fyldt pen, 225 IE/0,375 ml 
+Bemfola, fyldt pen, 300 IE/0,50 ml 
+Bemfola, fyldt pen, 450 IE/0,75 ml </p>
+<p>Brugervejledning </p>
+<p>INDHOLD </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-63388d6288bf341989180dcca08d726e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bemfola Package Leaflet for language en"
+Description: "ePI document Bundle for bemfola Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-63388d6288bf341989180dcca08d726e"
+* entry[0].resource = composition-en-63388d6288bf341989180dcca08d726e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp63388d6288bf341989180dcca08d726e"
+* entry[=].resource = mp63388d6288bf341989180dcca08d726e
+                            
+                    
+Instance: bundlepackageleaflet-da-63388d6288bf341989180dcca08d726e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bemfola Package Leaflet for language da"
+Description: "ePI document Bundle for bemfola Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-63388d6288bf341989180dcca08d726e"
+* entry[0].resource = composition-da-63388d6288bf341989180dcca08d726e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp63388d6288bf341989180dcca08d726e"
+* entry[=].resource = mp63388d6288bf341989180dcca08d726e
+                            
+                    
+
+
+
+Instance: mp63388d6288bf341989180dcca08d726e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Bemfola 75 IU/0.125 mL solution for injection in pre-filled pen"
-Description: "Bemfola 75 IU/0.125 mL solution for injection in pre-filled pen"
+Title: "Medicinal Product bemfola"
+Description: "bemfola"
 Usage: #inline
 
  
@@ -401,7 +1001,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Bemfola 75 IU/0.125 mL solution for injection in pre-filled pen"
+  * productName = "bemfola"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -428,29 +1028,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-63388d6288bf341989180dcca08d726e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for bemfola Package Leaflet for language en"
-Description: "ePI document Bundle for bemfola Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 63388d6288bf341989180dcca08d726eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Bemfola 75 IU/0.125 mL:"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "bemfola"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-63388d6288bf341989180dcca08d726e"
-* entry[0].resource = composition-en-63388d6288bf341989180dcca08d726e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6ebeb5153df8b4b7075349c71b9ac0d1"
-* entry[=].resource = mp6ebeb5153df8b4b7075349c71b9ac0d1
-                            
-                      
+* title = "List of all ePIs associated with bemfola"
+
+* subject = Reference(mp6ebeb5153df8b4b7075349c71b9ac0d1)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#bemfola "bemfola"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-63388d6288bf341989180dcca08d726e) // bemfola en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-63388d6288bf341989180dcca08d726e) // bemfola da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-63388d6288bf341989180dcca08d726e
+InstanceOf: List
+
+* insert 63388d6288bf341989180dcca08d726eListRuleset
+    

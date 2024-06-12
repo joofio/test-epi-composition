@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c73255ba16f112f8e9f93b50083ae06f
 InstanceOf: CompositionUvEpi
 Title: "Composition for prezista Package Leaflet"
@@ -734,12 +737,847 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-c73255ba16f112f8e9f93b50083ae06f
+InstanceOf: CompositionUvEpi
+Title: "Composition for prezista Package Leaflet"
+Description:  "Composition for prezista Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp39b580a14ea37055d064811d37d5f054)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp39b580a14ea37055d064811d37d5f054
+* title = "TEST PURPOSES ONLY - prezista"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage PREZISTA
+3. Sådan skal du tage PREZISTA
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What prezista is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What prezista is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er PREZISTA?
+PREZISTA indeholder det aktive stof darunavir. PREZISTA er et lægemiddel, som forhindrer virus af 
+typen retrovirus i at formere sig (antiretroviralt lægemiddel). PREZISTA anvendes til behandling af 
+hiv-infektion (hiv: humant immundefektvirus). Det tilhører den lægemiddelgruppe, der kaldes 
+proteasehæmmere. PREZISTA virker ved at reducere mængden af hiv i kroppen. Dette forbedrer 
+immunforsvaret og nedsætter risikoen for at udvikle sygdomme, der er forbundet med hiv-infektion.
+Hvad anvendes det til?
+PREZISTA anvendes til at behandle hiv-infektion hos voksne samt hos børn fra 3 år og opefter med 
+en legemsvægt på mindst 15 kg (se Sådan skal du tage PREZISTA).
+PREZISTA skal tages i kombination med en lavdosis cobicistat eller ritonavir og anden hiv-medicin. 
+Din læge vil fortælle dig, hvilken medicinkombination, der er bedst for dig.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take prezista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take prezista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke PREZISTA</h2>
+<p>hvis du er allergisk over for darunavir eller et af de øvrige indholdsstoffer i PREZISTA 
+(angivet i punkt 6) eller over for cobicistat eller ritonavir.
+-
+hvis du har alvorlige leverproblemer. Du skal spørge din læge, hvis du ikke er sikker på, hvor 
+alvorlig din leversygdom er. Det kan være nødvendigt at foretage yderligere test.
+Fortæl lægen om alle lægemidler, du tager, herunder medicin, som du tager gennem munden, 
+inhalerer, indsprøjter eller påfører på huden.
+Du må ikke tage PREZISTA sammen med følgende medicin
+Hvis du tager et af disse lægemidler, skal du tale med din læge om at skifte til en anden medicin.
+144
+Medicin
+Formålet med medicinen
+Avanafil
+til behandling af impotens
+Astemizol eller terfenadin
+til behandling af symptomer på allergi
+Triazolam eller midazolam (indtaget gennem 
+munden)
+som sovemiddel og/eller til at afhjælpe angst
+Cisaprid
+til behandling af visse mavelidelser
+Colchicin (hvis du har problemer med nyrerne 
+og/eller leveren)
+til behandling af urinsur gigt eller familiær 
+middelhavsfeber
+Lurasidon, pimozid, quetiapin eller sertindol
+til behandling af psykiske lidelser
+Sekalealkaloider (f.eks. ergotamin, 
+dihydroergotamin, ergometrin og 
+methylergometrin)
+til behandling af migrænehovedpine
+Amiodaron, bepridil, dronedaron, ivabradin, 
+kinidin, ranolazin
+til behandling af visse hjertelidelser som f.eks. 
+unormal hjerterytme
+Lovastatin, simvastatin og lomitapid
+til nedsættelse af kolesterol i blodet
+Rifampicin
+til behandling af visse infektioner såsom 
+tuberkulose
+Kombinationsproduktet lopinavir/ritonavir
+denne medicin mod hiv tilhører samme gruppe 
+som PREZISTA
+Elbasvir/grazoprevir
+til behandling af hepatitis C-infektion
+Alfuzosin
+til behandling af forstørret blærehalskirtel
+(prostata)
+Sildenafil
+til behandling af for højt blodtryk i 
+lungekredsløbet
+Ticagrelor
+som hjælp til at hindre sammenklumpning af 
+blodplader hos patienter, der tidligere har haft et 
+hjerteanfald 
+Naloxegol
+til behandling af forstoppelse forårsaget af 
+opioidbehandling
+Dapoxetin
+til behandling af for tidlig sædafgang
+Domperidon
+til behandling af kvalme og opkastning
+PREZISTA må ikke kombineres med naturlægemidler, der indeholder perikon (Hypericum 
+perforatum).
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager PREZISTA.
+PREZISTA kan ikke helbrede hiv-infektion.
+Personer, der tager PREZISTA, kan stadig udvikle infektioner eller andre sygdomme forbundet med 
+hiv-infektion. Du skal være i løbende kontakt med din læge.
+Personer, der tager PREZISTA, kan udvikle hududslæt. I sjældne tilfælde kan hududslættet blive 
+alvorligt eller måske livstruende. Kontakt din læge, hvis du får hududslæt.
+Patienter, der får PREZISTA sammen med raltegravir (mod hiv-infektion), kan hyppigere få udslæt 
+end patienter, der kun får det ene af disse lægemidler. Udslættet vil generelt være mildt eller moderat.
+Fortæl din læge om dit helbred FØR og UNDER din behandling
+Sørg for at tjekke følgende punkter og fortæl din læge, hvis nogen af dem gælder for dig.
+-
+Fortæl din læge, hvis du tidligere har haft problemer med leveren, herunder hepatitis B- eller 
+C-infektion. Din læge kan vurdere, hvor alvorlig din leversygdom er, inden han eller hun 
+beslutter, om du kan tage PREZISTA.
+-
+Fortæl din læge, hvis du har sukkersyge (diabetes). PREZISTA kan forhøje 
+blodsukkerniveauet.
+145
+-
+Fortæl straks din læge, hvis du bemærker nogen symptomer på infektion (f.eks. forstørrede 
+lymfeknuder og feber). Hos nogle patienter med fremskreden hiv-infektion som tidligere har 
+haft infektioner på grund af svækket immunforsvar (opportunistisk infektion) kan der 
+forekomme tegn og symptomer på betændelsestilstand fra tidligere infektion kort tid efter 
+påbegyndelse af hiv-behandling. Det menes, at disse symptomer skyldes en forbedring af 
+kroppens immunforsvar, der gør det muligt for kroppen at bekæmpe infektioner, der kan have 
+været til stede uden nogen tydelige symptomer.
+-
+Ud over de opportunistiske infektioner kan autoimmune lidelser (skyldes, at immunsystemet 
+angriber sundt kropsvæv) også opstå, efter du er begyndt at tage medicin til behandling af din 
+hiv-infektion. Autoimmune lidelser kan opstå mange måneder efter, du er påbegyndt 
+behandling. Du skal straks informere din læge for at få den nødvendige behandling, hvis du 
+bemærker symptomer på infektion eller andre symptomer, såsom muskelsvaghed, svaghed 
+begyndende i hænder og fødder, og som bevæger sig op igennem kroppen, hjertebanken, rysten 
+eller hyperaktivitet.
+-
+Fortæl din læge, hvis du har en blødersygdom (hæmofili). PREZISTA kan øge risikoen for 
+blødning.
+-
+Fortæl din læge, hvis du er allergisk over for sulfonamider (anvendes f.eks. til behandling af 
+visse infektioner).
+-
+Fortæl din læge, hvis du har problemer med muskler eller knogler. Nogle patienter, der tager 
+antiretroviral kombinationsmedicin, kan udvikle en knoglesygdom, hvor knoglevævet dør på 
+grund af manglende blodforsyning til knoglen (osteonekrose). Varigheden af antiretroviral 
+kombinationsbehandling, brug af binyrebarkhormoner, alkoholforbrug, alvorlig svækkelse af 
+immunforsvaret og højt Body Mass Index (BMI) kan være nogle af de mange risikofaktorer for 
+udvikling af denne sygdom. Tegnene på osteonekrose omfatter: Stivhed, ømhed og smerter i led 
+(især hofter, knæ og skuldre) samt problemer med at bevæge sig. Hvis du bemærker nogen af 
+disse symptomer, bedes du kontakte din læge.
+Ældre
+PREZISTA har kun været anvendt til et begrænset antal patienter over 65 år. Hvis du tilhører denne 
+aldersgruppe, skal du spørge din læge, om du kan anvende PREZISTA.
+Børn
+PREZISTA er ikke beregnet til brug til børn under 3 år eller med en legemsvægt under 15 kg.
+Brug af anden medicin sammen med PREZISTA
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin.
+Nogle typer medicin må du ikke tage sammen med PREZISTA. Disse er nævnt ovenfor under 
+overskriften "Du må ikke tage PREZISTA sammen med følgende medicin"
+I de fleste tilfælde kan PREZISTA tages sammen med hiv-medicin, der tilhører en anden gruppe f.eks. 
+NRTI (nukleosid revers-transkriptase-hæmmere), NNRTI (non-nukleosid revers-transkriptase-
+hæmmere), CCR5-antagonister og FI (fusionshæmmere). PREZISTA med cobicistat eller ritonavir er 
+ikke blevet testet med alle proteasehæmmere og må ikke bruges med andre hiv-proteasehæmmere. I 
+nogle tilfælde kan der være behov for at ændre doseringen af andre lægemidler. Du skal derfor altid 
+fortælle din læge, hvis du tager anden hiv-medicin og følge din læges anvisninger nøje med hensyn til 
+hvilken medicin, der kan tages sammen.
+Virkningen af PREZISTA kan blive nedsat, hvis du tager et eller flere af følgende produkter. Du skal 
+fortælle din læge, hvis du tager:
+-
+phenobarbital, phenytoin (til forebyggelse af krampeanfald)
+-
+dexamethason (kortikosteroid)
+-
+efavirenz (til hiv-infektion)
+-
+rifapentin, rifabutin (medicin til behandling af visse infektioner som f.eks. tuberkulose)
+-
+saquinavir (til hiv-infektion).
+146
+Virkningen af anden medicin kan blive påvirket, hvis du tager PREZISTA, og din læge vil muligvis 
+tage yderligere blodprøver. Du skal fortælle din læge, hvis du tager:
+-
+amlodipin, diltiazem, disopyramid, carvedilol, felodipin, flecainid, lidocain, metoprolol, 
+mexiletin, nifedipin, nicardipin, propafenon, timolol, verapamil (til hjertesygdomme), da 
+behandlingsvirkningen eller bivirkninger af denne medicin kan blive forstærket
+-
+apixaban, dabigatranetexilat, edoxaban, rivaroxaban, warfarin, clopidogrel (til at hindre 
+blodpropper), da behandlingsvirkningen eller bivirkninger af denne medicin kan blive ændret
+-
+østrogenholdig prævention og hormonerstatningsbehandling. PREZISTA kan nedsætte 
+virkningen af disse. I forbindelse med svangerskabsforebyggelse anbefales det, at du i stedet 
+anvender prævention, der ikke indeholder hormoner
+-
+ethinylestradiol/drospirenon. PREZISTA kan muligvis øge risikoen for forhøjet kaliumindhold 
+i blodet pga. drospirenon.
+-
+atorvastatin, pravastatin, rosuvastatin (til nedsættelse af kolesterol i blodet). Risikoen for en 
+muskelskade kan være forhøjet. Din læge vil vurdere, hvilken kolesterolsænkende behandling, 
+der egner sig bedst til dig
+-
+clarithromycin (antibiotikum)
+-
+ciclosporin, everolimus, tacrolimus, sirolimus (til dæmpning af immunforsvaret), da 
+behandlingsvirkningen eller bivirkninger af denne medicin kan blive forstærket
+-
+kortikosteroider, herunder betamethason, budesonid, fluticason, mometason, prednison, 
+triamcinolon. Disse lægemidler anvendes til behandling af allergier, astma, inflammatoriske 
+tarmsygdomme, inflammatoriske tilstande i hud, øjne, led- og muskler samt andre 
+inflammatoriske tilstande. Disse lægemidler tages generelt gennem munden, inhaleres, injiceres
+eller smøres på huden. Du må kun bruge disse lægemidler, hvis andre lægemidler ikke kan 
+anvendes, og kun efter en lægelig vurdering og under tæt lægelig overvågning for 
+kortikosteroid-bivirkninger
+-
+buprenorphin/naloxon (medicin til behandling af afhængighed af morfin og lignende)
+-
+salmeterol (medicin til behandling af astma)
+-
+artemether/lumefantrin (et kombinationspræparat til behandling af malaria)
+-
+dasatinib, everolimus, irinotecan, nilotinib, vinblastin, vincristin (til behandling af kræft)
+-
+sildenafil, tadalafil, vardenafil (til behandling af impotens eller til behandling af en 
+hjerte/lungesygdom kaldet pulmonal arteriel hypertension)
+-
+glecaprevir/pibrentasvir (til behandling af hepatitis C-infektion)
+-
+fentanyl, oxycodon, tramadol (til behandling af smerter)
+-
+fesoterodin, solifenacin (til behandling af sygdomme i urinvejene).
+Din læge vil muligvis tage yderligere blodprøver, og doseringen af anden medicin skal muligvis 
+ændres, da behandlingsvirkningen eller bivirkninger af enten denne eller PREZISTA kan blive 
+påvirket, når de kombineres. Du skal fortælle det til din læge, hvis du tager:
+-
+dabigatranetexilat, edoxaban, warfarin (blodfortyndende medicin)
+-
+alfentanil (stærkt smertestillende middel til injektion med kort virkningstid, der anvendes ved 
+operationer)
+-
+digoxin (til behandling af visse hjertesygdomme)
+-
+clarithromycin (antibiotikum)
+-
+itraconazol, isavuconazol, fluconazol, posaconazol, clotrimazol (til behandling af 
+svampeinfektioner). Voriconazol må kun tages efter en medicinsk udredning
+-
+rifabutin (mod bakterieinfektioner)
+-
+sildenafil, vardenafil, tadalafil (mod impotens eller for højt blodtryk i lungekredsløbet)
+-
+amitriptylin, desipramin, imipramin, nortriptylin, paroxetin, sertralin, trazodon (til behandling 
+af depression og angst)
+-
+maraviroc (til hiv-infektion)
+-
+methadon (til behandling af opioidafhængighed)
+-
+carbamazepin, clonazepam (til forebyggelse af krampeanfald eller til behandling af visse typer 
+nervesmerter)
+-
+colchicin (til behandling af urinsur gigt eller familiær middelhavsfeber)
+-
+bosentan (til behandling af for højt blodtryk i lungekredsløbet)
+-
+buspiron, clorazepat, diazepam, estazolam, flurazepam, midazolam, når det tages som injektion, 
+zolpidem (beroligende midler)
+147
+-
+perphenazin, risperidon, thioridazin (til behandling af psykiske lidelser)
+-
+metformin (til behandling af type 2-diabetes).
+Dette er ikke en komplet liste over lægemidler. Fortæl din læge om al medicin, du tager.
+Brug af PREZISTA sammen med mad og drikke
+Se punkt 3 "Sådan skal du tage PREZISTA".
+Graviditet og amning
+Fortæl straks din læge, hvis du er gravid eller planlægger at blive gravid. Gravide kvinder bør ikke 
+tage PREZISTA sammen med ritonavir, medmindre lægen specifikt har foreskrevet det. Gravide 
+kvinder bør ikke tage PREZISTA sammen med cobicistat.
+På grund af risikoen for bivirkninger hos det ammede barn må kvinder ikke amme, hvis de får 
+PREZISTA.
+Amning frarådes hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet gennem 
+modermælken. Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.
+Trafik- og arbejdssikkerhed
+Du må ikke betjene maskiner eller køre bil, hvis du føler dig svimmel efter indtagelse af PREZISTA.
+PREZISTA oral suspension indeholder natriummethylparahydroxybenzoat
+Dette indholdsstof kan give allergiske reaktioner (kan optræde efter behandlingen).
+PREZISTA indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. ml, dvs. det er i det væsentlige 
+natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take prezista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take prezista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt som beskrevet i denne indlægsseddel eller efter lægens, 
+apotekspersonalets eller sygeplejerskens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet 
+eller sygeplejersken. Selvom du får det bedre, må du ikke stoppe med at tage PREZISTA og cobicistat
+eller ritonavir uden først at tale med din læge.
+Efter behandlingen er påbegyndt, må du ikke ændre dosis eller lægemiddelform eller afbryde 
+behandlingen uden først at tale med lægen.
+Dosis til børn fra 3 år og opefter med en legemsvægt på mindst 15 kg, som ikke tidligere har fået 
+medicin mod hiv-infektion (barnets læge vil afgøre dette)
+Lægen vil beregne den korrekte daglige dosis på grundlag af barnets vægt og alder (se tabellen 
+nedenfor). Dosis må ikke overstige den anbefalede dosis til voksne, som er 800 mg PREZISTA 
+sammen med 150 mg cobicistat eller 100 mg ritonavir en gang dagligt.
+Lægen vil fortælle dig, hvor meget PREZISTA oral suspension og hvor meget cobicistat (tablet) eller 
+ritonavir (kapsler, tabletter eller opløsning) barnet skal tage.
+Legemsvægt
+En dosis PREZISTA er
+En dosis ritonavira er
+En dosis cobicistat er
+mellem 15 og 30 kg
+600 mg (6 ml)
+100 mg (1,2 ml)
+Tag ikke
+mellem 30 og 40 kg
+675 mg (6,8 ml)
+100 mg (1,2 ml)
+Tag ikke
+mere end 40 kg
+800 mg (8 ml)
+100 mg (1,2 ml)
+150 mgb
+a
+ritonavir oral opløsning: 80 mg/ml
+b
+barnet skal være 12 år eller ældre
+Barnet skal tage PREZISTA hver dag og altid sammen med 150 mg cobicistat eller 100 mg ritonavir 
+og sammen med mad. PREZISTA virker ikke korrekt uden cobicistat eller ritonavir og mad. Barnet 
+148
+skal indtage et måltid eller et mellemmåltid inden for 30 minutter, før det tager PREZISTA og enten 
+cobicistat eller ritonavir. Typen af mad er ikke vigtig.
+Barnets læge vil afgøre, om barnet skal tage PREZISTA sammen med enten cobicistat eller ritonavir.
+Dosis til børn fra 3 år og opefter med en legemsvægt på mindst 15 kg, som tidligere har fået 
+medicin mod hiv-infektion (barnets læge vil afgøre dette)
+Lægen vil beregne den korrekte dosis på grundlag af barnets vægt og alder (se tabellen nedenfor). 
+Lægen vil afgøre, om en dosis en gang dagligt eller to gange dagligt er passende for barnet. Dosis må 
+ikke overstige den anbefalede dosis til voksne, der er 600 mg PREZISTA sammen med 150 mg
+cobicistat eller 100 mg ritonavir 2 gange dagligt eller 800 mg PREZISTA sammen med 100 mg
+ritonavir en gang dagligt.
+Lægen vil fortælle dig, hvor meget PREZISTA oral suspension og hvor meget cobicistat (tablet) eller 
+ritonavir (kapsler, tabletter eller oral opløsning) barnet skal have.
+Dosering to gange dagligt
+Legemsvægt 
+En dosis PREZISTA er
+En dosis ritonavira er
+mellem 15 og 30 kg
+380 mg (3,8 ml)
+50 mg (0,6 ml)
+mellem 30 og 40 kg
+460 mg (4,6 ml)
+60 mg (0,8 ml)
+mere end 40 kg
+600 mg (6 ml)
+100 mg (1,2 ml)
+a
+ritonavir oral opløsning: 80 mg/ml
+Dosering en gang dagligt
+Legemsvægt
+En dosis PREZISTA er
+En dosis ritonavira er
+En dosis cobicistat er
+mellem 15 og 30 kg
+600 mg (6 ml)
+100 mg (1,2 ml)
+Tag ikke
+mellem 30 og 40 kg
+675 mg (6,8 ml)
+100 mg (1,2 ml)
+Tag ikke
+mere end 40 kg
+800 mg (8 ml)
+100 mg (1,2 ml)
+150 mgb
+a
+ritonavir oral opløsning: 80 mg/ml
+b
+barnet skal være 12 år eller ældre
+Anvisninger for børn
+-
+Barnet skal altid tage PREZISTA sammen med cobicistat eller ritonavir. PREZISTA virker ikke 
+korrekt uden cobicistat eller ritonavir.
+-
+Barnet skal tage den beregnede dosis af PREZISTA og ritonavir 2 gange dagligt eller 1 gang 
+dagligt eller PREZISTA og cobicistat 1 gang dagligt. Hvis barnet skal have PREZISTA 2 gange 
+dagligt, skal det tage en dosis om morgenen og en dosis om aftenen. Barnets læge fastsætter den 
+rette behandling til dit barn.
+-
+Barnet skal tage PREZISTA sammen med mad. PREZISTA virker ikke korrekt uden mad. 
+Typen af mad er ikke vigtig.
+Dosis til voksne, som ikke tidligere har fået hiv-medicin (din læge vil afgøre dette)
+Den sædvanlige dosis PREZISTA er 800 mg en gang dagligt.
+Du skal tage PREZISTA hver dag og altid sammen med 150 mg cobicistat eller 100 mg ritonavir og 
+sammen med mad. PREZISTA virker ikke korrekt uden cobicistat eller ritonavir og mad. Du skal 
+indtage et måltid eller mellemmåltid inden for 30 minutter, før du tager PREZISTA og cobicistat eller 
+ritonavir. Typen af mad er ikke vigtig. Hold ikke op med at tage PREZISTA og cobicistat eller 
+ritonavir uden først at tale med din læge, selv om du får det bedre.
+Dosis til voksne, som tidligere har fået hiv-medicin (din læge vil afgøre dette)
+Dosis er enten:
+-
+600 mg PREZISTA sammen med 100 mg ritonavir to gange dagligt.
+ELLER
+-
+800 mg PREZISTA sammen med 150 mg cobicistat eller 100 mg ritonavir en gang dagligt.
+Tal med din læge om, hvilken dosis der er den rette til dig.
+149
+Anvisninger for voksne
+-
+Tag altid PREZISTA sammen med cobicistat eller ritonavir. PREZISTA virker ikke korrekt 
+uden cobicistat eller ritonavir.
+-
+Tag PREZISTA sammen med mad. PREZISTA virker ikke korrekt uden mad. Typen af mad er 
+ikke vigtig.
+Brugsanvisning
+Brug doseringssprøjten, der følger med pakningen, til at afmåle dosis nøjagtigt:
+1. Ryst flasken godt hver gang, du skal bruge den.
+2. Åbn flasken med PREZISTA oral suspension ved at trykke låget ned og dreje det mod uret.
+3. Tryk den vedlagte doseringssprøjte helt ned i flasken.
+4. Træk stemplet ud, indtil stempelpladen er ud for den streg, der svarer til den dosis, din læge har 
+foreskrevet.
+5. Udtag din dosis PREZISTA. Anbring spidsen af doseringssprøjten i munden. Tryk sprøjtens 
+stempel og synk dosen.
+6. Sæt låget på flasken efter brug og opbevar PREZISTA oral suspension som anvist under punkt 5 
+nedenfor.
+7. Fjern stemplet fra selve sprøjten og skyl begge dele med vand. Lad det lufttørre efter brug.
+8. Efter lufttørring skal doseringssprøjten samles igen og opbevares sammen med flasken med 
+PREZISTA.
+Doseringssprøjten må ikke anvendes til andre lægemidler.
+Hvis du har taget for meget PREZISTA
+Kontakt straks din læge, apotekspersonalet eller sygeplejersken.
+Hvis du har glemt at tage PREZISTA
+Hvis du tager PREZISTA to gange dagligt, og du kommer i tanke om den glemte dosis inden for 
+6 timer, skal du straks tage en dosis. Du skal altid tage PREZISTA med ritonavir og mad. Hvis du 
+kommer i tanke om det efter mere end 6 timer, skal du springe den pågældende dosis over og tage de 
+næste doser som sædvanligt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du tager PREZISTA én gang dagligt, og du kommer i tanke om den glemte dosis inden for 
+12 timer, skal du straks tage en dosis. Du skal altid tage PREZISTA med cobicistat eller ritonavir og 
+mad. Hvis du kommer i tanke om det efter mere end 12 timer, skal du springe den pågældende dosis 
+over og tage de næste doser som sædvanligt. Du må ikke tage en dobbeltdosis som erstatning for den 
+glemte dosis.
+Hvis du kaster op efter at have taget PREZISTA og cobicistat eller ritonavir
+Hvis du kaster op inden for 4 timer efter at have taget medicinen, skal du tage en ny dosis 
+PREZISTA og cobicistat eller ritonavir sammen med mad snarest muligt. Hvis du kaster op mere end 
+4 timer efter at have taget medicinen, behøver du ikke at tage en ny dosis PREZISTA og cobicistat 
+eller ritonavir, før det er tid til den næste planlagte dosis.
+Kontakt din læge, hvis du er i tvivl om, hvad du skal gøre, hvis du har glemt at tage en dosis eller har 
+kastet op.
+150
+Du må ikke stoppe med at tage PREZISTA uden først at tale med din læge
+Lægemidler til behandling af hiv kan få dig til at føle dig bedre. Selvom du har det bedre, må du ikke 
+stoppe med at tage PREZISTA. Tal med din læge først.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose 
+i blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse ændringer.
+Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Fortæl din læge, hvis du får nogen af de følgende bivirkninger
+Der er rapporteret om leverproblemer, der somme tider kan være alvorlige. Din læge bør udføre nogle 
+blodprøver, før du starter på PREZISTA. Hvis du har kronisk hepatitis B eller C, skal du oftere til 
+blodprøvekontrol hos lægen, fordi du så har en øget risiko for at få leverproblemer. Tal med din læge 
+om symptomerne på leverproblemer. De kan omfatte gulfarvning af huden og det hvide i øjene, mørk 
+(tefarvet) urin, bleg afføring, kvalme, opkastning, appetittab eller smerter, jag eller smerter og ubehag 
+i højre side under ribbenene.
+Hududslæt (ses oftere ved kombination af raltegravir), kløe. Udslættet er sændvanligvis mildt til 
+moderat. Et hududslæt kan også være et symptom på en sjælden, men alvorlig situation. Det er vigtigt 
+at tale med lægen, hvis du får udslæt. Din læge vil rådgive dig om, hvad du skal gøre ved 
+symptomerne, eller om du skal holde op med at tage PREZISTA.
+Andre alvorlige bivirkninger var diabetes (almindelig) og betændelse i bugspytkirtlen (ikke 
+almindelig).
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)
+-
+diarré
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)
+-
+opkastning, kvalme, mavesmerter eller -udspiling, fordøjelsesbesvær, luft i tarmene
+-
+hovedpine, træthed, svimmelhed, døsighed, følelsesløshed, prikken eller smerter i hænder eller 
+fødder, svækkelse af styrke, besvær med at falde i søvn
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer)
+-
+brystsmerter, ændringer i elektrokardiogram, hurtig puls
+-
+nedsat eller unormal hudfølsomhed, prikkende fornemmelse, opmærksomhedsforstyrrelser, 
+hukommelsestab, balanceproblemer
+-
+åndedrætsbesvær, hoste, næseblod, halsirritation
+-
+betændelse i mave eller mund, halsbrand, opkastningsfornemmelser, tør mund, ubehag i maven, 
+forstoppelse, ræben
+-
+nyresvigt, nyresten, besvær med vandladning, hyppig eller overdreven vandladning til tider om 
+natten
+-
+nældefeber, alvorlige hævelser i huden eller andre væv (hyppigst læber eller øjne), eksem, 
+meget kraftig svedafsondring, nattesved, hårtab, akne, skællet hud, misfarvning af negle
+-
+muskelsmerter, muskelkramper eller -svaghed, smerter i lemmerne, knogleskørhed
+-
+nedsættelse af skjoldbruskkirtlens funktion. Dette kan ses ved en blodprøve.
+-
+forhøjet blodtryk, rødme
+-
+røde eller tørre øjne
+-
+feber, hævede ben på grund af væske, utilpashed, irritabilitet, smerte
+-
+symptomer på infektion, herpes simplex
+-
+impotens, større bryster
+151
+-
+søvnproblemer, søvnighed, depression, angst, unormale drømme, nedgang i seksuallyst.
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 personer)
+-
+en reaktion kaldet DRESS [et alvorligt udslæt, der kan være ledsaget af feber, træthed, hævelser 
+i ansigt eller lymfekirtler, øgning i antallet af eosinofile celler (en type hvide blodlegemer), 
+påvirkning af lever, nyrer eller lunger]
+-
+hjerteanfald, langsom puls, hjertebanken
+-
+synsforstyrrelser
+-
+kulderystelser, unormal følelse
+-
+følelse af forvirring eller desorientering, humørændring, rastløshed
+-
+besvimelse, epileptiske anfald, ændring i eller tab af smagsoplevelse
+-
+mundsår, opkastning af blod, betændelse i læberne, tørre læber, belagt tunge
+-
+snue
+-
+beskadigelse af huden, tør hud
+-
+stive muskler eller led, ledsmerter med eller uden betændelse
+-
+ændringer i visse blodlegemer eller i blodets kemiske sammensætning. De fremgår af blod- eller 
+urinprøver. Lægen vil forklare dette for dig. Eksempel: stigning i antallet af visse hvide 
+blodlegemer
+-
+darunavir-krystaller i nyrerne, som forårsager nyresygdom.
+Nogle bivirkninger er typiske for hiv-medicin i samme gruppe som PREZISTA. Disse omfatter:
+-
+muskelsmerter, -ømhed eller svaghed. Disse muskellidelser har i sjældne tilfælde været 
+alvorlige.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store prezista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store prezista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og flasken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+Må ikke opbevares ved temperaturer over 30 °C.
+Må ikke opbevares i køleskab eller nedfryses. Må ikke udsættes for høje temperaturer.
+Opbevares i den originale beholder.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>PREZISTA indeholder:</h2>
+<h2>Aktivt stof: darunavir. Hver ml indeholder 100 mg darunavir (som ethanolat).</h2>
+<p>Øvrige indholdsstoffer: Hydroxypropylcellulose, mikrokrystallinsk cellulose og 
+carmellosenatrium, citronsyremonohydrat, sucralose, "jordbær med fløde" aroma, aroma til 
+smagskorrektion, natriummethylparahydroxybenzoat (E219), saltsyre (til justering af pH), 
+renset vand.
+152
+Udseende og pakningsstørrelser
+Hvid til offwhite opaliserende oral suspension. Udleveres i en 200 ml ravfarvet glasflaske med 
+børnesikret prop af polypropylen og vedlagt en 6 ml doseringssprøjte af lavdensitetspolyethylen 
+(LDPE) med målestreger for hver 0,2 ml. Flaskehalsen udfyldes af en LDPE-indsats til placering af 
+doseringssprøjten. Doseringssprøjten må ikke anvendes til andre lægemidler.
+PREZISTA fås også som 75 mg, 150 mg, 400 mg, 600 mg og 800 mg filmovertrukne tabletter.
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV, Turnhoutseweg 30, B-2340 Beerse, Belgien
+Fremstiller
+Janssen Pharmaceutica NV, Turnhoutseweg 30, B-2340 Beerse, Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+153
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 122
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+154
+Indlægsseddel: Information til brugeren
+PREZISTA 75 mg filmovertrukne tabletter
+darunavir
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c73255ba16f112f8e9f93b50083ae06f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prezista Package Leaflet for language en"
+Description: "ePI document Bundle for prezista Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c73255ba16f112f8e9f93b50083ae06f"
+* entry[0].resource = composition-en-c73255ba16f112f8e9f93b50083ae06f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc73255ba16f112f8e9f93b50083ae06f"
+* entry[=].resource = mpc73255ba16f112f8e9f93b50083ae06f
+                            
+                    
+Instance: bundlepackageleaflet-da-c73255ba16f112f8e9f93b50083ae06f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prezista Package Leaflet for language da"
+Description: "ePI document Bundle for prezista Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c73255ba16f112f8e9f93b50083ae06f"
+* entry[0].resource = composition-da-c73255ba16f112f8e9f93b50083ae06f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc73255ba16f112f8e9f93b50083ae06f"
+* entry[=].resource = mpc73255ba16f112f8e9f93b50083ae06f
+                            
+                    
+
+
+
+Instance: mpc73255ba16f112f8e9f93b50083ae06f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product PREZISTA 100 mg/ml oral suspension"
-Description: "PREZISTA 100 mg/ml oral suspension"
+Title: "Medicinal Product prezista"
+Description: "prezista"
 Usage: #inline
 
  
@@ -759,7 +1597,7 @@ Usage: #inline
 
 
 * name
-  * productName = "PREZISTA 100 mg/ml oral suspension"
+  * productName = "prezista"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -786,29 +1624,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c73255ba16f112f8e9f93b50083ae06f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for prezista Package Leaflet for language en"
-Description: "ePI document Bundle for prezista Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c73255ba16f112f8e9f93b50083ae06fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/06/380/006"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "prezista"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c73255ba16f112f8e9f93b50083ae06f"
-* entry[0].resource = composition-en-c73255ba16f112f8e9f93b50083ae06f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp39b580a14ea37055d064811d37d5f054"
-* entry[=].resource = mp39b580a14ea37055d064811d37d5f054
-                            
-                      
+* title = "List of all ePIs associated with prezista"
+
+* subject = Reference(mp39b580a14ea37055d064811d37d5f054)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#prezista "prezista"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c73255ba16f112f8e9f93b50083ae06f) // prezista en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c73255ba16f112f8e9f93b50083ae06f) // prezista da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c73255ba16f112f8e9f93b50083ae06f
+InstanceOf: List
+
+* insert c73255ba16f112f8e9f93b50083ae06fListRuleset
+    

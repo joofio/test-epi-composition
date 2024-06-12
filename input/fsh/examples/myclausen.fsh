@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6326621176bd18eaa128ab504c98c814
 InstanceOf: CompositionUvEpi
 Title: "Composition for myclausen Package Leaflet"
@@ -460,12 +463,726 @@ Tel: +49(0)3074460-This leaflet was last revised in {MM/YYYY} </p>
 
 
 
+Instance: composition-da-6326621176bd18eaa128ab504c98c814
+InstanceOf: CompositionUvEpi
+Title: "Composition for myclausen Package Leaflet"
+Description:  "Composition for myclausen Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3add4c595468b041b51e3f210a96027f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3add4c595468b041b51e3f210a96027f
+* title = "TEST PURPOSES ONLY - myclausen"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Myclausen 
+3. Sådan skal du tage Myclausen 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What myclausen is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What myclausen is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Myclausen indeholder mycophenolatmofetil. </p>
+<ul>
+<li>Det tilhører en gruppe lægemidler, som kaldes immunsuppressiva. </li>
+</ul>
+<p>Myclausen anvendes til at forhindre din krop i at afstøde et transplanteret organ. </p>
+<ul>
+<li>Nyre, hjerte eller lever. </li>
+</ul>
+<p>Myclausen skal bruges sammen med anden medicin: </p>
+<ul>
+<li>ciclosporin og kortikosteroider. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take myclausen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take myclausen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ADVARSEL 
+Mycophenolat forårsager medfødte misdannelser og abort. Hvis du er kvinde og kan blive gravid, skal 
+der foreligge en negativ graviditetstest, før behandlingen igangsættes, og du skal følge lægens råd 
+vedrørende prævention. </p>
+<p>Lægen vil tale med dig og give dig skriftlig information, især om mycophenolats virkninger på fosteret. 
+Læs informationen grundigt og følg vejledningen. Hvis du ikke helt forstår informationen, skal du bede 
+lægen om at forklare den igen, før du tager mycophenolat. Se også ydereligere information i dette afsnit 
+under "Advarsler og forsigtighedsregler" og "Graviditet, prævention og amning". </p>
+<p>Tag ikke Myclausen </p>
+<ul>
+<li>
+<p>hvis du er allergisk (overfølsom) over for mycophenolatmofetil, mycophenolsyre eller et af de 
+øvrige indholdsstoffer i lægemidlet (angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du er kvinde og kan blive gravid, og der ikke foreligger en negativ graviditetstest, før du har 
+fået den første recept, eftersom mycophenolat forårsager medfødte misdannelser og abort. </p>
+</li>
+<li>
+<p>hvis du er gravid eller planlægger at blive gravid eller tror, at du kan være gravid </p>
+</li>
+<li>
+<p>hvis du ikke anvender effektiv prævention (se "Graviditet, prævention og amning")  </p>
+</li>
+<li>
+<p>hvis du ammer. </p>
+</li>
+</ul>
+<p>Tag ikke dette lægemiddel, hvis noget af ovenstående gælder for dig. Spørg lægen eller på apoteket, før 
+du tager Myclausen, hvis der er noget, du er i tvivl om. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen med det samme, før behanding med Myclausen igangsættes: </p>
+<ul>
+<li>
+<p>hvis du er over 65 år, kan du have en øget risiko for at få bivirkninger såsom visse 
+virusinfektioner, blødninger i tarmen vand i lungerne sammenlignet med yngre patienter. </p>
+</li>
+<li>
+<p>hvis du har tegn på infektion såsom feber eller ondt i halsen </p>
+</li>
+<li>
+<p>hvis du uden grund får blå mærker eller bløder </p>
+</li>
+<li>
+<p>hvis du har eller nogensinde har haft problemer med fordøjelsessystemet, såsom mavesår </p>
+</li>
+<li>
+<p>hvis du planlægger at blive gravid, eller hvis du bliver gravid, mens du eller din partner tager 
+Myclausen. </p>
+</li>
+<li>
+<p>hvis du har en arvelig enzymmangel såsom Lesch-Nyhan og Kelley-Seegmiller syndrom. </p>
+</li>
+</ul>
+<p>Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), skal du tale med din læge med det 
+samme, før behandling med Myclausen igangsættes. </p>
+<p>Hvordan sollys påvirker dig<br />
+Myclausen nedsætter kroppens forsvar. Af denne grund er der en øget risiko for hudkræft. Begræns 
+mængden af sollys og UV-lys, som du udsættes for. Gør dette ved at:  </p>
+<ul>
+<li>
+<p>iklæde dig beskyttende beklædning, som også dækker hoved, hals, arme og ben  </p>
+</li>
+<li>
+<p>anvende solcreme med høj beskyttelsesfaktor.  </p>
+</li>
+</ul>
+<p>Børn 
+Giv ikke dette lægemiddel til børn under 2 år. Der er begrænsede data for sikkerhed og virkning 
+tilgængelige for denne aldersgruppe, og der kan derfor ikke gives nogen anbefalinger vedrørende 
+dosering. </p>
+<p>Brug af anden medicin sammen med Myclausen 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. Dette 
+gælder også medicin, som ikke er købt på recept f.eks. naturlægemidler og vitaminer og mineraler. Dette 
+skyldes, at Myclausen kan påvirke den måde, anden medicin virker på. Anden medicin kan også påvirke 
+den måde, Myclausen virker på. </p>
+<p>Fortæl især lægen eller apotekspersonalet, hvis du tager noget af nedenstående medicin, før du begynder 
+at tage Myclausen: </p>
+<ul>
+<li>
+<p>azathioprin eller anden medicin, som undertrykker immunsystemet (gives efter en 
+transplantation) </p>
+</li>
+<li>
+<p>colestyramin (bruges til behandling af forhøjet kolesterol) </p>
+</li>
+<li>
+<p>rifampicin (et antibiotikum, som bruges til forebyggelse og behandling af infektioner såsom 
+tuberkulose (TB)) </p>
+</li>
+<li>
+<p>syreneutraliserende midler eller protonpumpehæmmere (bruges mod for meget mavesyre, f.eks. 
+ved fordøjelsesbesvær) </p>
+</li>
+<li>
+<p>fosfatbindere (bruges til mennesker med kronisk nyresvigt for at reducere absorptionen af fosfat 
+til blodet). </p>
+</li>
+<li>
+<p>antibiotika (bruges til behandling af bakterielle infektioner) </p>
+</li>
+<li>
+<p>isavuconazol (bruges til behandling af svampeinfektioner) </p>
+</li>
+<li>
+<p>telmisartan (bruges til behandling af forhøjet blodtryk) </p>
+</li>
+</ul>
+<p>Vacciner 
+Hvis du skal vaccineres (med en levende vaccine), mens du tager Myclausen, skal du tale med lægen 
+eller apoteketspersonalet først. Din læge vil rådgive dig om, hvilke vacciner du må få. </p>
+<p>Du må ikke give blod under behandling med Myclausen og i mindst 6 uger efter behandlingens ophør.<br />
+Mænd må ikke være sæddonorer under behandling med Myclausen og i mindst 90 dage efter 
+behandlingens ophør.  </p>
+<p>Brug af Myclausen sammen med mad og drikke 
+Indtagelse af mad og drikke har ingen virkning på din behandling med Myclausen. </p>
+<p>Prævention hos kvinder, som tager Myclausen 
+Hvis du er kvinde og kan blive gravid, skal du bruge en effektiv præventionsmetode, mens du tager 
+Myclausen, herunder: </p>
+<ul>
+<li>
+<p>Før du starter med at tage Myclausen </p>
+</li>
+<li>
+<p>Under hele behandlingen med Myclausen </p>
+</li>
+<li>
+<p>I 6 uger efter du er stoppet med at tage Myclausen. 
+Tal med din læge om den bedst egnede prævention for dig. Det vil afhænge af din situation. Brug af to 
+former for prævention er bedre, da dette vil gøre risikoen for utilsigtet graviditet mindre. Kontakt lægen 
+så hurtig som muligt, hvis du tror at din prævention har svigtet, eller hvis du har glemt at tage de 
+svangerskabsforebyggende tabletter (f.eks. p-piller). </p>
+</li>
+</ul>
+<p>Du kan ikke blive gravid, hvis én eller flere af følgende tilstande gælder for dig: </p>
+<ul>
+<li>
+<p>Du har passeret overgangsalderen, dvs. er mindst 50 år, og din sidste menstruation var for mere 
+end et år siden (hvis din menstruation er stoppet, fordi du er blevet behandlet for kræft, er der stadigvæk 
+mulighed for, at du kan blive gravid) </p>
+</li>
+<li>
+<p>Dine æggeledere og begge æggestokke er blevet fjernet ved operation (bilateral salpingo-
+ooforektomi) </p>
+</li>
+<li>
+<p>Din livmoder (uterus) er blevet fjernet ved operation (hysterektomi) </p>
+</li>
+<li>
+<p>Dine æggestokke er ophørt med at fungere (for tidligt ovariesvigt, som er blevet bekræftet af en 
+speciallæge i gynækologi) </p>
+</li>
+<li>
+<p>Du blev født med en af følgende sjældne tilstande, som gør graviditet umulig: XY-genotype, 
+Turners syndrom eller manglende livmoder </p>
+</li>
+<li>
+<p>Du er barn eller teenager og endnu ikke har fået menstruation. </p>
+</li>
+</ul>
+<p>Prævention hos mænd, som tager Myclausen 
+Tilgængelige data indikerer ikke øget risiko for misdannelser eller abort hvis faderen tager 
+mycophenolat. En risiko kan dog ikke udelukkes helt. Som en sikkerhedsforanstaltning anbefales det, 
+at du eller din kvindelige partner bruger pålidelig prævention under behandlingen og i 90 dage efter, at 
+du er stoppet med at tage Myclausen.  </p>
+<p>Hvis du planlægger at få et barn, skal du tale med din læge om potentielle risici og alternative 
+behandlinger. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, tror, du kan være gravid, eller planlægger at få et barn, skal du spørge 
+lægen eller apotekspersonalet for vejledning, inden du tager denne medicin. Lægen vil tale med dig om 
+risici i forbindelse med graviditet og alternative behandlinger, du kan tage for at forhindre afstødning af 
+det transplanterede organ, hvis: </p>
+<ul>
+<li>
+<p>du planlægger at blive gravid </p>
+</li>
+<li>
+<p>du ikke får din menstruation eller tror, du ikke har fået din menstruation eller har en usædvanlig 
+menstruation eller tror, at du er gravid </p>
+</li>
+<li>
+<p>hvis du har sex uden at anvende effektiv prævention. 
+Hvis du bliver gravid under behandlingen med mycophenolat, skal du straks kontakte lægen. Fortsæt 
+dog behandlingen, indtil du ser lægen.  </p>
+</li>
+</ul>
+<p>Graviditet 
+Mycophenolat forårsager en meget høj frekvens af aborter (50%) og svære misdannelser (23-27%) hos 
+det ufødte barn. Medfødte misdannelser, som har været rapporteret, inkluderer abnormiteter i ører, øjne 
+og ansigt (læbe-gane spalte) eller i fingrenes udvikling, samt i hjerte, spiserør, nyrer og nervesystem 
+(f.eks. manglende sammenvoksning af ryggraden (spina bifida). Barnet kan have en eller flere af disse 
+misdannelser.  </p>
+<p>Hvis du er kvinde og kan blive gravid, skal der foreligge en negativ graviditetstest, før du må påbegynde 
+behandlingen, og du skal følge lægens råd om prævention. Lægen kan kræve mere end én test for at 
+sikre, at du ikke er gravid, før du påbegynder behandlingen. </p>
+<p>Amning 
+Tag ikke Myclausen, hvis du ammer. Dette skyldes, at små mængder af medicinen kan passere over i 
+mælken. </p>
+<p>Trafik- og arbejdssikkerhed 
+Myclausen påvirker i moderat grad din evne til at køre bil eller bruge værktøj eller maskiner. Hvis du 
+oplever døsighed, følelsesløshed eller forvirring, bør du tale med din læge eller sygeplejerske, og vente 
+med at køre bil eller bruge værktøj eller maskiner til du har fået det bedre.  </p>
+<p>Myclausen indeholder natrium 
+Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. den er i det væsentlige 
+natriumfri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take myclausen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take myclausen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvor meget skal du tage 
+Dosis afhænger af, hvilken transplantation du har fået udført. De sædvanlige doser er vist nedenfor. 
+Behandlingen skal fortsætte så længe, at du har behov, for at forhindre, afstødning det transplanterede 
+organ. </p>
+<p>Nyretransplantation 
+Voksne </p>
+<ul>
+<li>
+<p>Den første dosis gives inden for 3 dage efter transplantationen. </p>
+</li>
+<li>
+<p>Den daglige dosis er 4 tabletter (2 g af medicinen) indtaget som 2 separate doser. </p>
+</li>
+<li>
+<p>Tag 2 tabletter om morgenen og 2 tabletter om aftenen. </p>
+</li>
+</ul>
+<p>Børn 2-18 år </p>
+<ul>
+<li>
+<p>Dosis er afhængig af barnets størrelse. </p>
+</li>
+<li>
+<p>Lægen vil beregne den mest hensigtsmæssige dosis ud fra barnets højde og vægt 
+(legemsoverfladeareal - målt som kvadratmeter eller "m2"). Den anbefalede dosis er 600 mg/m2 
+to gange daglig. </p>
+</li>
+</ul>
+<p>Hjertetransplantation 
+Voksne </p>
+<ul>
+<li>
+<p>Den første dosis gives inden for 5 dage efter transplantationen. </p>
+</li>
+<li>
+<p>Den daglige dosis er 6 tabletter (3 g af medicinen) indtaget som 2 separate doser. </p>
+</li>
+<li>
+<p>Tag 3 tabletter om morgenen og derefter 3 tabletter om aftenen. </p>
+</li>
+</ul>
+<p>Børn </p>
+<ul>
+<li>Der er ingen information om brug af Myclausen til hjertetransplanterede børn. </li>
+</ul>
+<p>Levertransplantation 
+Voksne </p>
+<ul>
+<li>
+<p>Du får tidligst den første dosis Myclausen til indtagelse gennem munden 4 dage efter 
+transplantationen. Du skal også være i stand til at indtage medicin gennem munden. </p>
+</li>
+<li>
+<p>Den daglige dosis er 6 tabletter (3 g af medicinen) indtaget som 2 separate doser. </p>
+</li>
+<li>
+<p>Tag 3 tabletter om morgenen og 3 tabletter om aftenen. </p>
+</li>
+</ul>
+<p>Børn </p>
+<ul>
+<li>Der er ingen information om brug af Myclausen til levertransplanterede børn. </li>
+</ul>
+<p>Indtagelse af Myclausen </p>
+<ul>
+<li>
+<p>Synk tabletterne hele med et glas vand </p>
+</li>
+<li>
+<p>De må ikke brækkes over eller knuses. </p>
+</li>
+</ul>
+<p>Hvis du har taget for mange Myclausen 
+Hvis du tager flere Myclausen, end du har fået besked på, skal du straks tale med en læge eller tage på 
+sygehuset. Det skal du også gøre, hvis en anden ved et uheld har indtaget din medicin. Tag pakningen 
+med. </p>
+<p>Hvis du har glemt at tage Myclausen 
+Hvis du på noget tidspunkt glemmer at tage medicinen, skal du tage den, så snart du kommer i tanker 
+om det. Fortsæt derefter med at tage den til de sædvanlige tider. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Myclausen 
+Stop ikke med at tage Myclausen, medmindre lægen har bedt dig om det. Hvis du stopper behandlingen, 
+kan du øge risikoen for afstødning af det transplanterede organ. </p>
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Tal med en læge med det samme, hvis du bemærker nogen af nedenstående alvorlige bivirkninger 
+- du kan have brug for øjeblikkelig lægehjælp: </p>
+<ul>
+<li>
+<p>du har tegn på infektion, såsom feber eller ondt i halsen </p>
+</li>
+<li>
+<p>du uden grund får blå mærker eller bløder </p>
+</li>
+<li>
+<p>du får udslæt, opsvulmning af ansigtet, læber, tunge eller hals med åndedrætsbesvær - der kan 
+være tale om en alvorlig allergisk reaktion over for medicinen (såsom anafylaksi, angioødem). </p>
+</li>
+</ul>
+<p>Sædvanlige problemer 
+Nogle af de mere sædvanlige problemer er diarré, færre hvide eller røde blodlegemer i blodet, infektion 
+og opkastning. Lægen vil tage blodprøver regelmæssigt for at tjekke for ændringer i: </p>
+<ul>
+<li>antallet af blodceller eller tegn på infektion. 
+Børn kan have en større risiko end voksne for at få visse bivirkninger. Disse inkluderer diarré, 
+infektioner, færre hvide og røde blodlegemer i blodet. </li>
+</ul>
+<p>Bekæmpelse af infektioner 
+Myclausen nedsætter kroppens forsvar. Dette forhindrer afstødning af det transplanterede organ, men 
+bevirker også, at din krop ikke er så god til at bekæmpe infektioner som normalt. Dette betyder, at du 
+kan være modtagelig for flere infektioner end normalt. Dette inkluderer infektioner i hjernen, huden, 
+munden, maven og tarmene, lungerne og urinvejene. </p>
+<p>Lymfe- og hudkræft 
+Som det kan forekomme hos patienter, der tager denne type medicin (immunsuppressiva), har et meget 
+lille antal -patienter, der får Myclausen udviklet kræft i lymfevæv og hud. </p>
+<p>Generelle bivirkninger 
+Du kan få generelle bivirkninger, som kan påvirke hele din krop. Disse inkluderer alvorlige allergiske 
+reaktioner (såsom anafylaksi, angioødem), feber, træthedsfornemmelse, søvnbesvær, smerter (såsom 
+smerter i maven, brystkassen, led eller muskler), hovedpine, influenzasymptomer og opsvulmen. </p>
+<p>Andre bivirkninger kan omfatte: </p>
+<p>Hudlidelser såsom: </p>
+<ul>
+<li>akne, forkølelsessår, helvedesild (herpes zoster), øget hudvækst, hårtab, udslæt, kløe. </li>
+</ul>
+<p>Urinvejslidelser såsom: </p>
+<ul>
+<li>blod i urinen. </li>
+</ul>
+<p>Lidelser i mave-tarm-kanalen og i munden såsom: </p>
+<ul>
+<li>
+<p>hævede gummer og sår i mundhulen </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen, tarmen eller maven </p>
+</li>
+<li>
+<p>sygdomme i tarmen eller maven inklusive blødning </p>
+</li>
+<li>
+<p>leversygdomme </p>
+</li>
+<li>
+<p>diarré, forstoppelse, kvalme, fordøjelsesbesvær, appetitløshed, luft i maven. </p>
+</li>
+</ul>
+<p>Lidelser i nervesystemet såsom: </p>
+<ul>
+<li>
+<p>svimmelhed, døsighed eller følelsesløshed </p>
+</li>
+<li>
+<p>rysten, muskelkramper, kramper </p>
+</li>
+<li>
+<p>følelse af angst eller depression, ændringer i dit humør eller dine tanker. </p>
+</li>
+</ul>
+<p>Lidelser i hjerte og blodkar såsom: </p>
+<ul>
+<li>ændringer i blodtrykket, øget hjerterytme, udvidelse af blodkar </li>
+</ul>
+<p>Lungelidelser såsom: </p>
+<ul>
+<li>
+<p>lungebetændelse, bronkitis </p>
+</li>
+<li>
+<p>kortåndethed, hoste, som kan skyldes bronkiektasi (en tilstand, hvor luftvejene i lungerne er 
+unormalt udvidede) eller lungefibrose (ardannelse i lungerne). Tal med din læge, hvis du udvikler 
+vedvarende hoste eller kortåndethed </p>
+</li>
+<li>
+<p>vand i lungerne eller inde i brysthulen </p>
+</li>
+<li>
+<p>problemer med bihulerne. </p>
+</li>
+</ul>
+<p>Andre lidelser såsom: </p>
+<ul>
+<li>vægttab, urinsyregigt, forhøjet blodsukker, blødning, blå mærker. </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store myclausen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store myclausen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på blisterkort og karton. Udløbsdatoen (EXP) 
+er den sidste dag i den nævnte måned. </p>
+<p>Denne medicin kræver ikke særlige forholdsregler vedrørende opbevaring </p>
+<p>Smid ikke nogen form for medicin ud via spildevand eller husholdningsaffald. Spørg på apoteket, 
+hvordan du skal bortskaffe medicinrester du ikke længere bruger. Disse foranstaltninger vil bidrage til 
+at beskytte miljøet.. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Myclausen indeholder </p>
+<p>Aktivt stof: mycophenolatmofetil 
+Hver tablet indeholder 500 mg mycophenolatmofetil. </p>
+<p>Øvrige indholdsstoffer: </p>
+<p>Tablet-kerne: 
+Mikrokrystallinsk cellulose, povidon (K-30), croscarmellosenatrium, magnesiumstearat </p>
+<p>Tablet-overtræk: 
+Polyvinylalkohol (delvist hydrolyseret), titandioxid (E 171), macrogol 3000, talkum </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Hvide, runde, filmovertrukne tabletter. 
+Myclausen 500 mg filmovertrukne tabletter leveres i PVC-aluminium blisterkort indeholdende 
+10 tabletter. Hver karton indeholder enten 50 eller 150 tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Passauer Pharma GmbH 
+Eiderstedter Weg 3 
+14129 Berlin 
+Tyskland </p>
+<p>Fremstiller 
+Passauer Pharma GmbH 
+Eiderstedter Weg 3 
+14129 Berlin 
+Tyskland </p>
+<p>Hvis du vil have yderligere oplysninger om Myclausen, skal du henvende dig til den lokale repræsentant: </p>
+<p>België/Belgique/Belgien 
+Passauer Pharma GmbH, 
+Duitsland/Allemagne/Deutschland 
+Tél/Tel: +49(0)3074460-Lietuva 
+Passauer Pharma GmbH, 
+Vokietija 
+Tel: +49(0)3074460-България 
+Passauer Pharma GmbH, 
+Германия 
+Тел: +49(0)3074460-Luxembourg/Luxemburg 
+Passauer Pharma GmbH, 
+Allemagne/Deutschland 
+Tél/Tel: +49(0)3074460-Česká republika 
+Pharmagen CZ, s.r.o. 
+Česká republika 
+Tel: +420 721 137 Magyarország 
+Passauer Pharma GmbH, 
+Németország 
+Tel: +49(0)3074460-Danmark 
+Passauer Pharma GmbH, 
+Tyskland 
+Tlf: +49(0)3074460-Malta 
+Passauer Pharma GmbH, 
+Il-Ġermanja 
+Tel: +49(0)3074460-Deutschland 
+Aristo Pharma GmbH, 
+Deutschland 
+Tel: +49 3071094-4 
+Nederland 
+Passauer Pharma GmbH, 
+Duitsland 
+Tel: +49(0)3074460-Eesti 
+Passauer Pharma GmbH, 
+Saksamaa 
+Tel: +49(0)3074460-Norge 
+Passauer Pharma GmbH, 
+Tyskland 
+Tlf: +49(0)3074460-Ελλάδα 
+YAS Pharma L.P.<br />
+Λεωφ. Κηφισίας 120 &amp; Φλοίας 151 25 Μαρούσι,<br />
+Αθήνα - Ελλάδα<br />
+Τηλ: + 30 210-6194Österreich 
+Passauer Pharma GmbH, 
+Deutschland 
+Tel: +49(0)3074460-España 
+Passauer Pharma GmbH, 
+Alemania 
+Tel: +49(0)3074460-Polska 
+Passauer Pharma GmbH, 
+Niemcy 
+Tel: +49(0)3074460-France 
+Passauer Pharma GmbH, 
+Allemagne 
+Tél: +49(0)3074460-Portugal 
+Passauer Pharma GmbH, 
+Alemanha 
+Tel: +49(0)3074460-Hrvatska 
+Passauer Pharma GmbH, 
+Njemačka 
+Tel: +49(0)3074460-România 
+Passauer Pharma GmbH, 
+Germania 
+Tel: +49(0)3074460-Ireland 
+Passauer Pharma GmbH, 
+Germany 
+Tel: +49(0)3074460-Slovenija 
+Passauer Pharma GmbH, 
+Nemčija 
+Tel: +49(0)3074460-Ísland 
+Passauer Pharma GmbH, 
+Þýskaland 
+Sími: +49(0)3074460-Slovenská republika 
+Passauer Pharma GmbH, 
+Nemecko 
+Tel: +49(0)3074460-Italia 
+Passauer Pharma GmbH, 
+Germania 
+Tel: +49(0)3074460-Suomi/Finland 
+Passauer Pharma GmbH, 
+Saksa 
+Puh/Tel: +49(0)3074460-Κύπρος 
+ISANGEN PHARMA CYPRUS LTD 
+Guricon House, Ηνωμένων Εθνών 48, 2ος &amp; 3ος 
+όροφος 
+6042, Λάρνακα, Κύπρος 
+Τηλ.: +357-24-638 
+Sverige 
+Passauer Pharma GmbH, 
+Tyskland 
+Tel: +49(0)3074460-Latvija 
+Passauer Pharma GmbH, 
+Vācija 
+Tel: +49(0)3074460-United Kingdom (Northern Ireland) 
+Passauer Pharma GmbH, 
+Germany 
+Tel: +49(0)3074460- Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>De kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>Indlægsseddel: information til patienten </p>
+<p>Myclausen 250 mg håde kapsler 
+Mycophenolatmofetil </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage medicinen, da den indeholder 
+vigtige oplysninger for dig. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller på apoteket, hvis der er mere, du vil vide. 
+- Lægen har ordineret Myclausen til dig personligt. Lad derfor være med at give det videre til andre. 
+Det kan være skadeligt for andre, selv om de har de samme sygdomstegn, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt her. Se afsnit 4. Oversigt over indlægssedlen: 
+1 
+Virkning og anvendelse 
+2 
+Det skal du vide, før du begynder at tage Myclausen 
+3 
+Sådan skal du tage Myclausen 
+4 
+Bivirkninger 
+5 
+Opbevaring </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6326621176bd18eaa128ab504c98c814
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for myclausen Package Leaflet for language en"
+Description: "ePI document Bundle for myclausen Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6326621176bd18eaa128ab504c98c814"
+* entry[0].resource = composition-en-6326621176bd18eaa128ab504c98c814
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6326621176bd18eaa128ab504c98c814"
+* entry[=].resource = mp6326621176bd18eaa128ab504c98c814
+                            
+                    
+Instance: bundlepackageleaflet-da-6326621176bd18eaa128ab504c98c814
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for myclausen Package Leaflet for language da"
+Description: "ePI document Bundle for myclausen Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6326621176bd18eaa128ab504c98c814"
+* entry[0].resource = composition-da-6326621176bd18eaa128ab504c98c814
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6326621176bd18eaa128ab504c98c814"
+* entry[=].resource = mp6326621176bd18eaa128ab504c98c814
+                            
+                    
+
+
+
+Instance: mp6326621176bd18eaa128ab504c98c814
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Myclausen 500 mg film-coated tablets"
-Description: "Myclausen 500 mg film-coated tablets"
+Title: "Medicinal Product myclausen"
+Description: "myclausen"
 Usage: #inline
 
  
@@ -485,7 +1202,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Myclausen 500 mg film-coated tablets"
+  * productName = "myclausen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -512,29 +1229,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6326621176bd18eaa128ab504c98c814
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for myclausen Package Leaflet for language en"
-Description: "ePI document Bundle for myclausen Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6326621176bd18eaa128ab504c98c814ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/10/647/001-002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "myclausen"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6326621176bd18eaa128ab504c98c814"
-* entry[0].resource = composition-en-6326621176bd18eaa128ab504c98c814
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3add4c595468b041b51e3f210a96027f"
-* entry[=].resource = mp3add4c595468b041b51e3f210a96027f
-                            
-                      
+* title = "List of all ePIs associated with myclausen"
+
+* subject = Reference(mp3add4c595468b041b51e3f210a96027f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#myclausen "myclausen"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6326621176bd18eaa128ab504c98c814) // myclausen en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6326621176bd18eaa128ab504c98c814) // myclausen da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6326621176bd18eaa128ab504c98c814
+InstanceOf: List
+
+* insert 6326621176bd18eaa128ab504c98c814ListRuleset
+    

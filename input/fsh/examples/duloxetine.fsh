@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c7455b3adf2d63fefa0e8ddbeae0ba4e
 InstanceOf: CompositionUvEpi
 Title: "Composition for duloxetine Package Leaflet"
@@ -524,12 +527,767 @@ Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 
 
 
+Instance: composition-da-c7455b3adf2d63fefa0e8ddbeae0ba4e
+InstanceOf: CompositionUvEpi
+Title: "Composition for duloxetine Package Leaflet"
+Description:  "Composition for duloxetine Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5d0101bc471b9cbcc1e65335e866d916)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5d0101bc471b9cbcc1e65335e866d916
+* title = "TEST PURPOSES ONLY - duloxetine"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Duloxetine Zentiva 
+3. Sådan skal du tage Duloxetine Zentiva 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What duloxetine is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What duloxetine is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Duloxetine Zentiva indeholder det aktive stof duloxetin. Duloxetine Zentiva øger indholdet af 
+serotonin og noradrenalin i nervesystemet. </p>
+<p>Duloxetine Zentiva anvendes hos voksne til behandling af </p>
+<ul>
+<li>
+<p>depression </p>
+</li>
+<li>
+<p>angst (kronisk fornemmelse af angst og nervøsitet) </p>
+</li>
+<li>
+<p>diabetiske neuropatiske smerter (beskrives ofte som brændende, stikkende, sviende, jagende, 
+skærende eller som et elektrisk stød. Der kan forekomme følelsesløshed i det angrebne område, 
+eller påvirkninger såsom berøring, varme, kulde eller tryk kan fremkalde smerte). </p>
+</li>
+</ul>
+<p>Hos de fleste mennesker med depression eller angst begynder Duloxetine Zentiva at virke indenfor de 
+første to uger, men det kan vare 2-4 uger, før du får det bedre. Fortæl det til lægen, hvis du ikke 
+begynder at få det bedre efter det tidsrum. Din læge kan vælge at fortsætte din behandling med 
+Duloxetine Zentiva efter, at du har fået det bedre for at forebygge, at din depression eller angst skal 
+vende tilbage. </p>
+<p>Hos mennesker med diabetiske neuropatiske smerter kan det vare nogle uger, før de får det bedre. Tal 
+med din læge, hvis du ikke har det bedre efter 2 måneder. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take duloxetine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take duloxetine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Duloxetine Zentiva, hvis du: </p>
+<ul>
+<li>
+<p>er allergisk over for duloxetin eller et af de øvrige indholdsstoffer i Duloxetine Zentiva (angivet 
+i afsnit 6). </p>
+</li>
+<li>
+<p>har en leversygdom. </p>
+</li>
+<li>
+<p>har svært nedsat nyrefunktion. </p>
+</li>
+<li>
+<p>tager, eller inden for de sidste 14 dage har været i behandling med, en 
+monoaminoxidasehæmmer (MAO-hæmmer) (se "Brug af anden medicin sammen med 
+Duloxetine Zentiva"). </p>
+</li>
+<li>
+<p>tager fluvoxamin, som normalt anvendes til behandling af depression, ciprofloxacin eller 
+enoxacin, som bruges mod infektioner. </p>
+</li>
+<li>
+<p>hvis du tager andre lægemidler indeholdende duloxetin (se "Brug af anden medicin sammen 
+med Duloxetine Zentiva"). </p>
+</li>
+</ul>
+<p>Fortæl det til din læge, hvis du har forhøjet blodtryk eller en hjertesygdom. Hvis du kan tage 
+Duloxetine Zentiva, vil din læge sige det til dig. </p>
+<p>Advarsler og forsigtighedsregler 
+I følgende situationer kan du muligvis ikke anvende Duloxetine Zentiva. Kontakt lægen, før du tager 
+Duloxetine Zentiva, hvis du: </p>
+<ul>
+<li>
+<p>tager anden medicin til behandling af depression (se "Brug af anden medicin sammen med 
+Duloxetine Zentiva"). </p>
+</li>
+<li>
+<p>tager et naturlægemiddel, som indeholder perikon (Hypericum perforatum). </p>
+</li>
+<li>
+<p>har en nyresygdom </p>
+</li>
+<li>
+<p>tidligere har haft krampeanfald </p>
+</li>
+<li>
+<p>tidligere har haft mani </p>
+</li>
+<li>
+<p>lider af en bipolar sygdom </p>
+</li>
+<li>
+<p>har øjenproblemer, såsom visse typer af grøn stær (glaukom - forøget tryk i øjet) </p>
+</li>
+<li>
+<p>tidligere har lidt af blødningsforstyrrelser (tendens til blå mærker), især hvis du er gravid (se 
+"Graviditet og amning") </p>
+</li>
+<li>
+<p>har risiko for at få lavt natrium i blodet (for eksempel hvis du tager vanddrivende medicin, især 
+hvis du er ældre) </p>
+</li>
+<li>
+<p>er i samtidig behandling med medicin, som kan skade leveren </p>
+</li>
+<li>
+<p>tager opioide lægemidler, såsom buprenorphinholdig medicin, tramadol og pethidin. Brug af 
+disse lægemidler sammen med Duloxetine Zentiva kan medføre serotoninsyndrom, der er en 
+potentielt livstruende tilstand (se “Brug af anden medicin sammen med Duloxetine Zentiva"); </p>
+</li>
+<li>
+<p>samtidig tager anden medicin med duloxetin (se "Brug af anden medicin sammen med 
+Duloxetine Zentiva"). </p>
+</li>
+</ul>
+<p>Duloxetine Zentiva kan give en følelse af uro eller manglende evne til at sidde eller stå stille. Hvis det 
+sker for dig, bør du fortælle din læge dette. </p>
+<p>Lægemidler som Duloxetine Zentiva (såkaldte SSRI/SNRI'er) kan give symptomer på seksuel 
+dysfunktion (se afsnit 4). I nogle tilfælde er disse symptomer blevet ved efter ophør med 
+behandlingen. </p>
+<p>Selvmordstanker og forværring af din depression eller angstsygdom 
+Hvis du har en depression eller lider af en angstsygdom, kan du af og til få tanker om at skade dig selv 
+eller begå selvmord. Disse tanker kan forstærkes især i starten af behandlingen med antidepressiva, da 
+det tager nogen tid før denne slags medicin virker, sædvanligvis omkring to uger, men af og til 
+længere. 
+Du vil mere sandsynligt tænke på dette, hvis du: </p>
+<ul>
+<li>
+<p>tidligere har haft tanker om at begå selvmord eller at gøre skade på dig selv. </p>
+</li>
+<li>
+<p>er en yngre person. Erfaringer fra undersøgelser har vist, at der er en øget risiko for 
+selvmordsadfærd hos unge under 25 år med en psykisk forstyrrelse, som bliver behandlet med 
+antidepressiv medicin. </p>
+</li>
+</ul>
+<p>Hvis du på noget tidspunkt får tanker om at skade dig selv eller begå selvmord, skal du straks 
+kontakte din læge eller skadestuen. </p>
+<p>Det kan muligvis være til hjælp for dig, hvis du fortæller en ven eller slægtning, at du har en 
+depression eller en angstsygdom, og beder dem læse denne indlægsseddel. Du kan bede dem om at 
+fortælle det til dig, hvis de synes din depression eller angstsygdom bliver værre, eller hvis de er 
+bekymrede over ændringer i din adfærd. </p>
+<p>Børn og unge under 18 år 
+Duloxetine Zentiva bør normalt ikke bruges til behandling af børn og unge under 18 år. Du skal også 
+være klar over, at patienter under 18 år har en forøget risiko for bivirkninger såsom selvmordsforsøg, 
+selvmordstanker og fjendtlighed (overvejende aggression, modsættende adfærd og vrede), når de tager 
+denne type af medicin. På trods af dette kan din læge ordinere Duloxetine Zentiva til patienter under 
+18 år, hvis lægen skønner, at det er til patientens bedste. Du bedes henvende dig til din læge, hvis din 
+læge har udskrevet Duloxetine Zentiva til en patient under 18 år, og du gerne vil diskutere dette. Du 
+skal fortælle din læge, hvis et af ovenstående symptomer opstår eller forværres hos en patient under år, som er i behandling med Duloxetine Zentiva. Ydermere foreligger der endnu ikke data på 
+langtidssikkerhed hos denne aldersgruppe hvad angår vækst, modning, kognitiv- og adfærdsudvikling 
+ved brug af Duloxetine Zentiva. </p>
+<p>Brug af anden medicin sammen med Duloxetine Zentiva 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. 
+Det aktive stof (duloxetin) i Duloxetine Zentiva bruges i andre lægemidler mod andre tilstande: 
+Diabetisk neuropatisk smerte, depression, angst og stressinkontinens. Brug af flere end et af disse 
+lægemidler samtidig bør undgås. Spørg din læge om du allerede tager andre lægemidler indeholdende 
+duloxetin. </p>
+<p>Din læge bør afgøre, om Duloxetine Zentiva kan tages sammen med anden medicin. Start eller 
+afbryd ikke behandlingen med medicin, det gælder også for medicin, som ikke er på recept samt 
+naturlægemidler og kosttilskud, før du har talt med din læge. </p>
+<p>Du skal også fortælle din læge, hvis du tager noget af nedenstående medicin: </p>
+<ul>
+<li>
+<p>Monoaminoxidasehæmmere (MAO-hæmmere): Du må ikke tage Duloxetine Zentiva 
+sammen med en MAO- hæmmer eller inden for 14 dage efter afsluttet behandling med en 
+MAO-hæmmer. Eksempler på MAO-hæmmere er bl.a. moclobemid (mod depression) og 
+linezolid (antibiotika). Hvis du tager en MAO-hæmmer sammen med en række forskellige 
+receptpligtige lægemidler, heriblandt Duloxetine Zentiva, kan det medføre alvorlige og endda 
+livstruende bivirkninger. Du skal vente mindst 14 dage efter, at du er holdt op med at tage en 
+MAO-hæmmer, før du må begynde at tage Duloxetine Zentiva. Du skal ligeledes vente mindst 5 
+dage, efter at du er holdt op med at tage Duloxetine Zentiva, før du må begynde at tage en 
+MAO-hæmmer. </p>
+</li>
+<li>
+<p>Medicin, der kan virke sløvende: Dette omfatter receptpligtig medicin inklusive 
+benzodiazepiner, stærk smertestillende medicin, antipsykotika, phenobarbital og antihistaminer. </p>
+</li>
+<li>
+<p>Medicin, der øger niveauet af serotonin: Triptaner, tryptophan, SSRI-præparater (såsom 
+paroxetin og fluoxetin), SNRI-præparater (såsom venlafaxin), tricykliske antidepressiva (såsom 
+clomipramin, amitriptylin), perikon, MAO-hæmmere (såsom moclobemid og linezolid) og 
+opioide lægemidler, såsom buprenorphinholdig medicin, tramadol og pethidin. Disse typer 
+medicin øger risikoen for bivirkninger såsom serotoninsyndrom (se afsnittet “Advarsler og 
+forsigtighedsregler"). Oplever du uventede virkninger, mens du tager en af disse typer medicin 
+sammen med Duloxetine Zentiva, skal du kontakte din læge. </p>
+</li>
+<li>
+<p>Orale antikoagulantia eller medicin, der påvirker blodpladerne: Medicin, der fortynder 
+blodet og modvirker dannelse af blodpropper. Disse lægemidler, kan øge  risikoen for 
+blødninger. </p>
+</li>
+</ul>
+<p>Brug af Duloxetine Zentiva sammen med mad, drikke og alkohol 
+Duloxetine Zentiva kan tages med og uden mad. Du bør udvise forsigtighed, hvis du drikker alkohol, 
+samtidig med, at du er i behandling med Duloxetine Zentiva. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<ul>
+<li>
+<p>Fortæl din læge, hvis du bliver gravid, eller hvis du prøver at blive gravid, mens du tager 
+Duloxetine Zentiva. Du må kun tage Duloxetine Zentiva efter, at du har talt med din læge om de 
+mulige fordele for dig og de mulige risici for dit ufødte barn. </p>
+</li>
+<li>
+<p>Du skal sikre dig, at din jordemoder og/eller læge ved, at du tager Duloxetine Zentiva. Lignende 
+præparater (SSRI’er) kan, når de tages under graviditeten, øge risikoen for en alvorlig lidelse 
+kaldet persisterende pulmonal hypertension hos spædbørn (PPHN), hvilket gør barnet blåligt i 
+huden og får det til at trække vejret hurtigere. Symptomerne opstår som regel inden for de første 
+24 timer efter, at barnet er født. Du skal omgående kontakte din jordemoder og/eller læge, hvis 
+dette sker for dit barn. </p>
+</li>
+<li>
+<p>Hvis du tager Duloxetine Zentiva i slutningen af graviditeten, kan dit barn udvise visse 
+symptomer, når det bliver født. Som regel opstår de ved fødslen eller inden for få dage efter 
+fødslen. Symptomerne omfatter slappe muskler, skælven, spjætten, spisebesvær, 
+vejrtrækningsproblemer og krampeanfald. Du skal kontakte din læge eller jordemoder med 
+henblik på råd og vejledning, hvis dit barn udviser nogle af disse symptomer efter fødslen, eller 
+hvis du er bekymret for dit barns helbred. </p>
+</li>
+<li>
+<p>Hvis du tager Duloxetine Zentiva i slutningen af graviditeten, er der en øget risiko for kraftig 
+vaginal blødning kort efter fødslen, især hvis du tidligere har haft blødningsforstyrrelser. Din 
+læge eller jordemoder skal gøres opmærksom på, at du tager duloxetin, så de kan rådgive dig. </p>
+</li>
+<li>
+<p>Tilgængelige data fra brug af duloxetin i de første tre måneder af graviditeten viser ikke en øget 
+risiko for samlede fødselsdefekter hos barnet. Hvis duloxetin tages i løbet af anden halvdel af 
+graviditeten, kan der være en øget risiko for, at barnet fødes tidligt (yderligere 6 for tidligt fødte 
+børn for hver 100 kvinder, der tager duloxetin i anden halvdel af graviditeten), oftest mellem 
+uge 35 og 36 af graviditeten. </p>
+</li>
+<li>
+<p>Fortæl din læge, hvis du ammer. Det anbefales ikke at bruge Duloxetine Zentiva, mens du 
+ammer. Spørg din læge eller apotekspersonalet til råds. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Duloxetine Zentiva kan gøre dig søvnig og svimmel. Du må ikke køre bil eller arbejde med værktøj 
+eller maskiner, før du ved, hvordan Duloxetine Zentiva påvirker dig. </p>
+<p>Duloxetine Zentiva indeholder saccharose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take duloxetine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take duloxetine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Duloxetine Zentiva er til oral brug. Du skal synke kapslen hel og skylle den ned med et glas vand. </p>
+<p>Mod depression og diabetiske neuropatiske smerter: 
+Den anbefalede dosis af Duloxetine Zentiva er 60 mg én gang daglig. Din læge beslutter dog den rette 
+dosis for dig. </p>
+<p>Mod generaliseret angst: 
+Den sædvanlige startdosis af Duloxetine Zentiva er 30 mg en gang daglig, hvorefter de fleste patienter 
+vil få 60 mg en gang daglig, men din læge vil fastlægge den dosis, som passer til dig. Dosis kan 
+justeres op til 120 mg daglig afhængigt af dit respons på Duloxetine Zentiva. </p>
+<p>Det kan være lettere at huske at tage Duloxetine Zentiva, hvis du tager det på samme tidspunkt hver 
+dag. </p>
+<p>Tal med din læge om, hvor længe du skal blive ved med at tage Duloxetine Zentiva. Du må kun stoppe 
+behandlingen eller ændre dosis efter aftale med lægen. For at du kan få det bedre, er det vigtigt, at din 
+sygdom behandles korrekt. Hvis den ikke behandles, vil du måske ikke få det bedre, og din tilstand 
+kan forværres og blive sværere at behandle. </p>
+<p>Hvis du har taget for meget Duloxetine Zentiva 
+Kontakt omgående lægen eller apotekspersonalet, hvis du har taget mere Duloxetine Zentiva, end 
+lægen har ordineret. Symptomer på overdosering omfatter søvnighed, koma, serotoninsyndrom (en 
+sjælden bivirkning, som kan forårsage en unormal opstemthed, døsighed, klodsethed, rastløshed, en 
+følelse af at være beruset, feber, svedtendens og muskelstivhed), krampeanfald, opkastning og hurtig 
+puls. </p>
+<p>Hvis du har glemt at tage Duloxetine Zentiva 
+Glemmer du at tage en dosis, skal du tage den, så snart du kommer i tanke om det. Hvis det allerede er 
+blevet tid til din næste dosis, skal du springe den glemte dosis over og blot tage en enkelt dosis, som 
+du plejer. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Du må ikke tage mere 
+Duloxetine Zentiva pr. dag, end lægen har ordineret. </p>
+<p>Hvis du holder op med at tage Duloxetine Zentiva 
+DU MÅ IKKE holde op med at tage kapslerne uden at have konsulteret din læge, heller ikke selv om 
+du har fået det bedre. Hvis lægen mener, at du ikke længere behøver at tage Duloxetine Zentiva, vil 
+lægen bede dig reducere dosis over mindst 2 uger, før du stopper behandlingen helt. </p>
+<p>Nogle patienter, som pludselig holdt op med at tage Duloxetine Zentiva, oplevede symptomer som: </p>
+<ul>
+<li>svimmelhed, prikkende følelse som når noget sover eller følelse af elektriske stød (især i 
+hovedet), søvnforstyrrelser (livagtige drømme, mareridt, søvnløshed), træthed, søvnighed, 
+rastløshed eller uro, angst, kvalme eller opkastning, rystelser (tremor), hovedpine, 
+muskelsmerter, irritation, diaré, forøget tendens til at svede eller svimmelhed. 
+Disse symptomer er normalt ikke alvorlige og forsvinder inden for få dage, men hvis du oplever meget 
+generende symptomer, skal du rådføre dig med lægen. </li>
+</ul>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Bivirkningerne er normalt milde til moderate og forsvinder ofte efter få uger. </p>
+<p>Meget almindelige bivirkninger (kan ske hos flere end 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>hovedpine, søvnighed </p>
+</li>
+<li>
+<p>kvalme, mundtørhed </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan ske hos op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>appetitmangel </p>
+</li>
+<li>
+<p>søvnbesvær, ophidselse, mindre lyst til sex, angst, problemer med at opnå orgasme, mærkelige 
+drømme </p>
+</li>
+<li>
+<p>svimmelhed, følelse af ugidelighed, rysten, følelsesløshed inklusive følelsesløshed eller 
+prikken/snurren i huden </p>
+</li>
+<li>
+<p>sløret syn </p>
+</li>
+<li>
+<p>tinnitus (opfattelse af lyd i øret, når der ingen lyd er) </p>
+</li>
+<li>
+<p>hjertebanken </p>
+</li>
+<li>
+<p>forhøjet blodtryk, rødmen </p>
+</li>
+<li>
+<p>øget tendens til at gabe </p>
+</li>
+<li>
+<p>forstoppelse, diarré, mavesmerter, opkastning, halsbrand eller fordøjelsesbesvær, luft i maven </p>
+</li>
+<li>
+<p>øget tendens til at svede, (kløende) udslæt </p>
+</li>
+<li>
+<p>muskelsmerter, muskelkramper </p>
+</li>
+<li>
+<p>smertefuld vandladning, hyppig vandladning </p>
+</li>
+<li>
+<p>problemer med at få erektion, ændret ejakulation </p>
+</li>
+<li>
+<p>fald (oftest hos ældre), træthed </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+</ul>
+<p>Børn og unge under 18 år, som blev behandlet med dette lægemiddel, oplevede et vægttab i 
+begyndelsen af behandlingen. Efter 6 måneders behandling var vægten steget, så den svarede til deres 
+jævnaldrendes af samme køn. </p>
+<p>Ikke almindelige bivirkninger (kan ske hos op til 1 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>halsbetændelse, som forårsager hæs stemme </p>
+</li>
+<li>
+<p>selvmordstanker, søvnbesvær, tænderskæren eller sammenbidte tænder, desorientering, 
+manglende motivation </p>
+</li>
+<li>
+<p>pludselig, ufrivillig spjætten eller sitren i musklerne, følelse af rastløshed eller manglende evne 
+til at sidde eller stå stille, nervøsitet, koncentrationsbesvær, ændret smagsoplevelse, problemer 
+med at styre sine bevægelser f.eks. koordinationsbesvær eller ufrivillige muskelbevægelser, 
+restless legs syndrom (stærk uro og krybende fornemmelse i underbenene), dårlig søvnkvalitet </p>
+</li>
+<li>
+<p>store pupiller, synsforstyrrelser </p>
+</li>
+<li>
+<p>følelse af at være "rundtosset" (vertigo), ørepine </p>
+</li>
+<li>
+<p>hurtig og/eller uregelmæssig puls </p>
+</li>
+<li>
+<p>besvimelse, svimmelhed, uklarhed eller besvimelse efter at have rejst sig op, kolde fingre 
+og/eller tæer </p>
+</li>
+<li>
+<p>sammensnørret hals, næseblod </p>
+</li>
+<li>
+<p>opkastning af blod eller sort, tjærefarvet afføring (på grund af blod i afføringen), mave-tarm- katar, bøvsen, synkebesvær </p>
+</li>
+<li>
+<p>betændelse i leveren, som kan give mavesmerter og gulfarvning af huden eller det hvide i 
+øjnene </p>
+</li>
+<li>
+<p>natlig sveden, nældefeber, koldsved, øget følsomhed over for sollys, øget tendens til blå mærker </p>
+</li>
+<li>
+<p>muskelstivhed, muskelkramper </p>
+</li>
+<li>
+<p>besværet eller manglende evne til at lade vandet, besvær med at påbegynde vandladning, behov 
+for vandladning i løbet af natten, behov for hyppigere vandladning end normalt, nedsat 
+urinmængde </p>
+</li>
+<li>
+<p>unormal vaginalblødning, unormal menstruation herunder voldsom, smertefuld, uregelmæssig 
+eller forlænget blødning, usædvanlig sparsom eller manglende menstruation, smerter i 
+testiklerne eller pungen </p>
+</li>
+<li>
+<p>brystsmerter, kuldefølelse, tørst, skælven, varmefølelse, unormal gangart </p>
+</li>
+<li>
+<p>vægtøgning </p>
+</li>
+<li>
+<p>Duloxetine Zentiva kan medføre bivirkninger, som du måske ikke er opmærksom på, f.eks. 
+forhøjede leverenzymer eller forhøjede værdier af kalium, kreatinfosfokinase, sukker eller 
+kolesterol i blodet </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan ske hos op til 1 ud af 1.000 patienter) </p>
+<ul>
+<li>
+<p>alvorlige allergiske reaktioner, som forårsager åndedrætsbesvær eller svimmelhed og hævelse af 
+tunge eller læber, allergiske reaktioner </p>
+</li>
+<li>
+<p>nedsat aktivitet af skjoldbruskkirtlen, som kan forårsage træthed eller vægtøgning </p>
+</li>
+<li>
+<p>dehydrering (væskemangel), lavt indhold af natrium i blodet (oftest hos ældre mennesker; 
+symptomerne omfatter bl.a. svimmelhed, svaghed, forvirring, søvnighed eller udpræget træthed 
+eller kvalme og opkastning; mere alvorlige symptomer er besvimelse, krampeanfald eller fald), 
+syndrom med uhensigtsmæssig sekretion af anti-diuretisk hormon (SIADH) </p>
+</li>
+<li>
+<p>selvmordsrelateret adfærd, mani (overaktivitet, tanker, der løber løbsk og nedsat behov for 
+søvn), hallucinationer, aggressivitet og vrede </p>
+</li>
+<li>
+<p>Serotoninsyndrom (en sjælden bivirkning, der kan forårsage unormal opstemthed, døsighed, 
+klodsethed, rastløshed, en følelse af at være beruset, feber, tendens til at svede eller 
+muskelstivhed), krampeanfald </p>
+</li>
+<li>
+<p>øget tryk i øjet (grøn stær, glaukom) </p>
+</li>
+<li>
+<p>hoste, hvæsende vejrtrækning og åndenød, som kan være ledsaget af en høj temperatur </p>
+</li>
+<li>
+<p>betændelse i mundhulen, frisk rødt blod i afføringen, dårlig ånde, betændelse i tyktarmen 
+(medfører diaré) </p>
+</li>
+<li>
+<p>leversvigt, gulfarvning af huden eller det hvide i øjnene (gulsot) </p>
+</li>
+<li>
+<p>Stevens-Johnsons syndrom (en alvorlig lidelse med blærer i huden, munden, øjnene og på 
+kønsorganerne), alvorlige allergiske reaktioner, som kan forårsage hævelse i ansigtet eller 
+halsen (angioødem) </p>
+</li>
+<li>
+<p>sammenbidte kæber </p>
+</li>
+<li>
+<p>unormal urinlugt </p>
+</li>
+<li>
+<p>symptomer på overgangsalder, unormal mælkeproduktion hos mænd og kvinder </p>
+</li>
+<li>
+<p>kraftig vaginal blødning kort efter fødslen (postpartum blødning) </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger (kan ske hos op til 1 ud af 10.000 patienter) </p>
+<ul>
+<li>inflammation i hudens blodkar (kutan vasculitis) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store duloxetine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store duloxetine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Opbevares ved temperaturer under 30 °C. Opbevares i den originale emballage for at beskytte mod 
+fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Duloxetine Zentiva indeholder 
+Aktivt stof: Duloxetin. Hver kapsel indeholder 30 eller 60 mg duloxetin. </p>
+<p>Øvrige indholdsstoffer: 
+Kapselindhold: Saccharose, majsstivelse, hypromellose, talcum, hypromelloseacetatsuccinat, 
+triethylcitrat. </p>
+<p>Kapselskal: 
+Duloxetine Zentiva 30 mg: 
+Kapseltop: Indigotin (E132), titandioxid (E171), gelatine 
+Kapselbund: Titandioxid (E171), gelatine. 
+Duloxetine Zentiva 60 mg: 
+Kapseltop: Indigotin (E132), titandioxid (E171), gelatine. 
+Kapselbund: Gul jernoxid (E172), titandioxid (E171), gelatine. </p>
+<p>Udseende og pakningsstørrelser 
+Duloxetine Zentiva er en hård enterokapsel. Hver Duloxetine Zentiva kapsel indeholder pellets af 
+duloxetinhydrochlorid med en belægning, som beskytter dem mod mavesyre. </p>
+<p>Duloxetine Zentiva findes i to styrker: 30 mg og 60 mg. </p>
+<p>30 mg kapslerne er hårde, uigennemsigtige gelatinekapsler, cirka 15,9 mm lange med hvid, 
+uigennemsigtig kapseltop og lyseblå, uigennemsigtig kapselbund. Indeholder off-white til lysbrun-
+gullige, sfæriske pellets. </p>
+<p>60 mg kapslerne er hårde, uigennemsigtige gelatinekapsler, cirka 19,4 mm lange med beige, 
+uigennemsigtig kapseltop og lyseblå, uigennemsigtig kapselbund. Indeholder off-white til lysbrun-
+gullige, sfæriske pellets. </p>
+<p>Duloxetine Zentiva 30 mg findes i pakninger med 7, 28, 56, 84 og 98 kapsler. 
+Duloxetine Zentiva 60 mg findes i pakning med 14, 28, 56, 84 og 98 kapsler. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Zentiva, k.s. 
+U Kabelovny 102 37 Prag Tjekkiet </p>
+<p>Fremstiller 
+S.C. Zentiva S.A 
+Theodor Pallady Nr 032266 Bukarest 
+Rumænien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Zentiva, k.s. 
+Tél/Tel: +32 280 86 PV-Belgium@zentiva.com 
+Lietuva 
+Zentiva, k.s. 
+Tel: +370 52152PV-Lithuania@zentiva.com 
+България 
+Zentiva, k.s. 
+Тел: +35924417PV-Bulgaria@zentiva.com 
+Luxembourg/Luxemburg 
+Zentiva, k.s. 
+Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
+Magyarország 
+Zentiva Pharma Kft. 
+Tel.: +36 1 299 1PV-Hungary@zentiva.com 
+Danmark 
+Zentiva Denmark ApS 
+Tlf: +45 787 68 PV-Denmark@zentiva.com 
+Malta 
+Zentiva, k.s. 
+Tel: +356 2778 0PV-Malta@zentiva.com 
+Deutschland 
+Zentiva Pharma GmbH<br />
+Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com 
+Nederland 
+Zentiva, k.s. 
+Tel: +31 202 253 PV-Netherlands@zentiva.com </p>
+<p>Eesti 
+Zentiva, k.s. 
+Tel: +372 52 70PV-Estonia@zentiva.com 
+Norge 
+Zentiva Denmark ApS 
+Tlf: +47 219 66 PV-Norway@zentiva.com 
+Ελλάδα 
+Zentiva, k.s. 
+Τηλ: +30 211 198 7PV-Greece@zentiva.com 
+Österreich 
+Zentiva, k.s. 
+Tel: +43 720 778 PV-Austria@zentiva.com 
+España 
+Zentiva, k.s. 
+Tel: +34 931 815 PV-Spain@zentiva.com 
+Polska 
+Zentiva Polska Sp. z o.o. 
+Tel: + 48 22 375 92 PV-Poland@zentiva.com 
+France 
+Zentiva France 
+Tél: +33 (0) 800 089 219<br />
+PV-France@zentiva.com 
+Portugal 
+Zentiva Portugal, Lda 
+Tel: +351210601PV-Portugal@zentiva.com 
+Hrvatska 
+Zentiva d.o.o. 
+Tel: +385 1 6641 PV-Croatia@zentiva.com 
+România 
+ZENTIVA S.A. 
+Tel: +4 021.304.7PV-Romania@zentiva.com 
+Ireland 
+Zentiva, k.s. 
+Tel: +353 818 882 PV-Ireland@zentiva.com 
+Slovenija 
+Zentiva, k.s. 
+Tel: +386 360 00 PV-Slovenia@zentiva.com 
+Ísland 
+Zentiva Denmark ApS 
+Sími: +354 539 0PV-Iceland@zentiva.com 
+Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
+Italia 
+Zentiva Italia S.r.l. 
+Tel: +39-02-38598PV-Italy@zentiva.com 
+Suomi/Finland 
+Zentiva Denmark ApS 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com 
+Κύπρος 
+Zentiva, k.s. 
+Τηλ: +357 240 30 PV-Cyprus@zentiva.com 
+Sverige 
+Zentiva Denmark ApS 
+Tel: +46 840 838 PV-Sweden@zentiva.com 
+Latvija 
+Zentiva, k.s. 
+Tel: +371 67893PV-Latvia@zentiva.com 
+United Kingdom (Northern Ireland) 
+Zentiva, k.s. 
+Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c7455b3adf2d63fefa0e8ddbeae0ba4e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for duloxetine Package Leaflet for language en"
+Description: "ePI document Bundle for duloxetine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c7455b3adf2d63fefa0e8ddbeae0ba4e"
+* entry[0].resource = composition-en-c7455b3adf2d63fefa0e8ddbeae0ba4e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc7455b3adf2d63fefa0e8ddbeae0ba4e"
+* entry[=].resource = mpc7455b3adf2d63fefa0e8ddbeae0ba4e
+                            
+                    
+Instance: bundlepackageleaflet-da-c7455b3adf2d63fefa0e8ddbeae0ba4e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for duloxetine Package Leaflet for language da"
+Description: "ePI document Bundle for duloxetine Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c7455b3adf2d63fefa0e8ddbeae0ba4e"
+* entry[0].resource = composition-da-c7455b3adf2d63fefa0e8ddbeae0ba4e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc7455b3adf2d63fefa0e8ddbeae0ba4e"
+* entry[=].resource = mpc7455b3adf2d63fefa0e8ddbeae0ba4e
+                            
+                    
+
+
+
+Instance: mpc7455b3adf2d63fefa0e8ddbeae0ba4e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Duloxetine Zentiva 30 mg gastro-resistant hard capsules"
-Description: "Duloxetine Zentiva 30 mg gastro-resistant hard capsules"
+Title: "Medicinal Product duloxetine"
+Description: "duloxetine"
 Usage: #inline
 
  
@@ -549,7 +1307,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Duloxetine Zentiva 30 mg gastro-resistant hard capsules"
+  * productName = "duloxetine"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -576,29 +1334,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c7455b3adf2d63fefa0e8ddbeae0ba4e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for duloxetine Package Leaflet for language en"
-Description: "ePI document Bundle for duloxetine Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c7455b3adf2d63fefa0e8ddbeae0ba4eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Duloxetine Zentiva 30 mg gastro-resistant hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "duloxetine"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c7455b3adf2d63fefa0e8ddbeae0ba4e"
-* entry[0].resource = composition-en-c7455b3adf2d63fefa0e8ddbeae0ba4e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5d0101bc471b9cbcc1e65335e866d916"
-* entry[=].resource = mp5d0101bc471b9cbcc1e65335e866d916
-                            
-                      
+* title = "List of all ePIs associated with duloxetine"
+
+* subject = Reference(mp5d0101bc471b9cbcc1e65335e866d916)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#duloxetine "duloxetine"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c7455b3adf2d63fefa0e8ddbeae0ba4e) // duloxetine en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c7455b3adf2d63fefa0e8ddbeae0ba4e) // duloxetine da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c7455b3adf2d63fefa0e8ddbeae0ba4e
+InstanceOf: List
+
+* insert c7455b3adf2d63fefa0e8ddbeae0ba4eListRuleset
+    

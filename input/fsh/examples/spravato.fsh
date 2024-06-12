@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-15885cc7c5a4f088fdfc128fa6bb5034
 InstanceOf: CompositionUvEpi
 Title: "Composition for spravato Package Leaflet"
@@ -425,12 +428,745 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-15885cc7c5a4f088fdfc128fa6bb5034
+InstanceOf: CompositionUvEpi
+Title: "Composition for spravato Package Leaflet"
+Description:  "Composition for spravato Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp26d9f5e102acd70bc206ecadf4d70555)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp26d9f5e102acd70bc206ecadf4d70555
+* title = "TEST PURPOSES ONLY - spravato"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge Spravato
+3. Sådan skal du bruge Spravato
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What spravato is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What spravato is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Spravato
+Spravato indeholder det aktive stof esketamin. Det hører til en gruppe af lægemidler, der kaldes 
+antidepressive lægemidler, og du får dette lægemiddel til behandling af din depression.
+Hvad anvendes Spravato til
+Spravato anvendes til voksne til at lette symptomer på depression som f.eks. at føle sig trist, ængstelig
+eller værdiløs, søvnbesvær, appetitændringer, tab af interesse i yndlingsaktiviteter, følelse af at alt går 
+langsommere. Det gives sammen med et andet antidepressivt lægemiddel, hvis du har prøvet mindst 2 
+andre antidepressive lægemidler, men uden af disse har hjulpet.
+Spravato anvendes også til voksne til hurtigt at reducere symptomerne på depression i en situation, der 
+kræver øjeblikkelig behandling (også kaldet et akut psykiatrisk tilfælde).</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take spravato"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take spravato"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Spravato
+●
+hvis du er allergisk over for esketamin, et lignende lægemiddel, der hedder ketamin, som bruges 
+til bedøvelse, eller et af de øvrige indholdsstoffer i Spravato (angivet i afsnit 6).
+●
+hvis du nogensinde har haft visse sygdomme som f.eks.:
+-
+en "aneurisme" (et svagt punkt i en blodåre, hvor den udvides eller buler ud)
+-
+blødning i hjernen
+●
+hvis du for nylig har haft et hjerteanfald (inden for 6 uger)
+Dette er fordi, at Spravato kan medføre en midlertidig stigning i blodtrykket, hvilket kan føre til 
+alvorlige komplikationer af disse medicinske tilstande.
+Du må ikke bruge Spravato, hvis noget af ovenstående gælder for dig. Hvis du ikke er sikker, skal du 
+tale med lægen, før du bruger Spravato - lægen vil beslutte om du kan bruge dette lægemiddel eller ej.
+46
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du bruger Spravato, hvis du:
+●
+har et hjerteproblem, som ikke er velkontrolleret, som f.eks.: dårlig blodgennemstrømning i 
+blodkarrene til hjertet hyppigt med brystsmerter (f.eks. angina pectoris), forhøjet blodtryk, 
+hjerteklapsygdom eller hjertesvigt
+●
+på et eller andet tidspunkt har haft problemer med blodtilførslen til hjernen (f.eks. et
+slagtilfælde)
+●
+på et eller andet tidspunkt har haft problemer med stofmisbrug - receptpligtige lægemidler eller 
+illegale stoffer
+●
+på et eller andet tidspunkt har haft en sygdom, som kaldes psykose - hvor du tror, at uvirkelige 
+ting er virkelige (vrangforestillinger) eller ser, føler eller hører ting, som ikke eksisterer 
+(hallucinationer)
+●
+på et eller andet tidspunkt har haft en lidelse, som kaldes bipolar lidelse eller maniske 
+symptomer (hvor du bliver overaktiv eller overophidset)
+●
+på et eller andet tidspunkt har haft overaktiv skjoldbruskkirtel, der ikke er blevet behandlet på 
+passende vis (hyperthyreoidisme)
+●
+på et eller andet tidspunkt har haft lungeproblemer, der har givet vejrtrækningsbesvær 
+(lungeinsufficiens), herunder kronisk obstruktiv lungesygdom (KOL)
+●
+har søvnapnø og er ekstremt overvægtig 
+●
+på et eller andet tidspunkt har lidt af langsom eller hurtig hjerterytme, der har givet 
+stakåndethed, hjertebanken eller ubehag i brystet, følelse af svimmelhed eller besvimelse
+●
+har haft en alvorlig hovedskade eller alvorlige problemer, der påvirker hjernen, især i tilfælde, 
+hvor der er øget tryk i hjernen
+●
+har svære problemer med leveren.
+Tal med lægen, hvis noget af ovenstående passer på dig (eller du er i tvivl), før du bruger Spravato. 
+Din læge vil beslutte, om du kan bruge dette lægemiddel.
+Forværring af depressionen
+Kontakt straks lægen eller nærmeste hospital, hvis du har tanker om at skade dig selv eller begå 
+selvmord. 
+Det kan muligvis være en hjælp at tale med et familiemedlem eller en nær ven, hvis du føler dig 
+deprimeret, og spørge dem om de synes, at din depression bliver forværret, eller om de er bekymrede 
+for din adfærd. Du kan også bede dem om at læse denne indlægsseddel.
+Blodtryk
+Spravato kan øge dit blodtryk i cirka 1 til 2 timer efter at du har brugt det, så dit blodtryk vil blive 
+målt, før du begynder at bruge Spravato, og efter at du har brugt det.
+Hvis dit blodtryk er højt, før du bruger dette lægemiddel, vil lægen beslutte, hvorvidt du bør starte 
+behandlingen eller vente, indtil dit blodtryk falder. Hvis dit blodtryk stiger, efter du har brugt dette 
+lægemiddel, og forbliver højt i mere end et par timer, skal du måske have foretaget flere prøver.
+Dette lægemiddel kan give anledning til en midlertidig blodtryksstigning efter brug af en dosis. Dit 
+blodtryk vil blive målt, før og efter du tager dette lægemiddel. Du skal straks fortælle det til 
+sundhedspersonalet, hvis du får smerter i brystet, stakåndethed, pludselig og kraftig hovedpine, 
+synsforstyrrelser eller krampeanfald efter brugen af dette lægemiddel.
+Fortæl det til lægen, hvis du oplever nedenstående, mens du bruger Spravato
+●
+problemer med din opmærksomhed, dømmekraft og tankevirksomhed (se også "Trafik- og 
+arbejdssikkerhed" og "Bivirkninger"). Under og efter hver brug af dette lægemiddel vil din læge 
+kontrollere din tilstand og beslutte, hvor længe du skal holdes under opsyn. 
+●
+søvnighed (sedation), besvimelse, svimmelhed, snurrende fornemmelse, angst eller følelse af 
+ikke at være i kontakt med dig selv, dine tanker, følelser, rum og tid (dissociation), 
+vejrtrækningsbesvær (respirationsdepression). Fortæl det straks til sundhedspersonalet, hvis du 
+føler, at du ikke kan holde dig vågen, eller hvis du føler, at du er ved at besvime.
+47
+●
+smertefuld vandladning eller blod i urinen - dette kan være tegn på problemer med blæren. 
+Sådanne problemer kan forekomme ved brug af høje doser af et lignende lægemiddel (kaldet 
+ketamin) over lang tid.
+Fortæl det til lægen, hvis du oplever ovenstående, mens du tager Spravato.
+Ældre (&gt; 65 år)
+Hvis du er ældre (&gt; 65 år), vil du blive monitoreret nøje, da du kan have øget risiko for at falde, når du 
+begynder at bevæge dig rundt efter behandlingen.
+Børn og unge
+Dette lægemiddel må ikke gives til børn og unge under 18 år. Dette skyldes, at Spravato ikke er blevet 
+undersøgt til behandling af behandlingsresistent depression hos denne aldersgruppe.
+Brug af andre lægemidler sammen med Spravato
+Fortæl det altid til lægen, hvis du bruger andre lægemidler, for nylig har brugt andre lægemidler eller 
+planlægger at bruge andre lægemidler.
+Hvis du bruger Spravato sammen med visse andre lægemidler, kan det give bivirkninger. Det er især 
+vigtigt, at du fortæller det til lægen, hvis du tager:
+●
+Lægemidler, som bruges til at behandle forstyrrelser af nervesystemet eller kraftige smerter
+(f.eks. benzodiazepiner, opioider), eller lægemidler eller drikkevarer, der indeholder alkohol.
+●
+Stimulerende midler såsom dem, der anvendes til sygdomme som narkolepsi eller lægemidler 
+mod ADHD (f.eks. amfetaminer, methylphenidat, modafinil, armodafinil).
+●
+Lægemidler, som får dit blodtryk til at stige som f.eks. skjoldbruskhormoner, lægemidler mod 
+astma som f.eks. xanthinderivater, lægemidler mod blødning under fødsel (ergometrin) og 
+hjertemedicin som f.eks. vasopressin.
+●
+Lægemidler mod depression eller Parkinsons sygdom også kendt som 
+monoaminooxidasehæmmere (MAO-hæmmere) (f.eks. tranylcypromin, selegilin, phenelzin).
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel.
+Prævention
+Hvis du er i stand til at blive gravid, skal du bruge prævention under behandlingen. Tal med din læge 
+om egnede præventionsmetoder.
+Graviditet
+Brug ikke Spravato, hvis du er gravid.
+Hvis du bliver gravid, mens du er i behandling med Spravato, skal du straks fortælle det til din 
+læge - således at denne kan beslutte, om behandlingen bør afbrydes, og så du kan få oplysninger om 
+andre behandlingsmuligheder.
+Amning
+Brug ikke Spravato, hvis du ammer. Tal med lægen, før du bruger Spravato, hvis du ammer. Lægen vil 
+aftale med dig, om du enten skal holde op med at amme eller holde op med at tage lægemidlet. Lægen 
+vil opveje dit og barnets fordel ved amningen og din fordel ved behandlingen.
+Trafik- og arbejdssikkerhed
+Spravato kan få dig til at føle dig søvnig, svimmel, og det kan give andre bivirkninger, som 
+midlertidigt kan påvirke din evne til at føre motorkøretøj eller betjene maskiner og udføre aktiviteter, 
+der kræver din fulde opmærksomhed. Efter behandling med dette lægemiddel, må du ikke udføre 
+sådanne aktiviteter før næste dag, og efter en god nats søvn.
+48</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take spravato"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take spravato"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+Du skal selv bruge Spravato næsesprayen - men under opsyn af din læge eller en anden 
+sundhedsperson i lægens konsultation eller på en klinik.
+Din læge eller en anden sundhedsperson vil vise dig, hvordan du skal bruge næsesprayanordningen (se 
+også Brugsanvisning). 
+Hvor meget skal du bruge
+Din læge beslutter, om du har behov for 1, 2 eller 3 næsesprayanordninger, og hvor ofte du skal møde 
+op i lægens konsultation eller på klinikken for at få lægemidlet.
+●
+Én næsesprayanordning giver to pust (ét pust i hvert næsebor)
+●
+Spravato bruges to gange ugentligt i de første 4 uger
+Hvis din behandling fortsættes:
+●
+Bruges Spravato normalt én gang ugentligt i de efterfølgende 4 uger
+●
+Herefter bruges Spravato normalt enten én gang ugentligt eller én gang hver anden uge.
+Under og efter hver brug af dette lægemiddel vil din læge kontrollere dig og beslutte, hvor længe du 
+skal holdes under opsyn.
+Mad og drikke
+Nogle patienter, der bruger Spravato, kan opleve kvalme eller opkastning. Du bør undgå at spise 
+2 timer før behandling og ikke drikke væske 30 minutter før, du bruger dette lægemiddel.
+Næsesprays
+Hvis du har behov for steroidlægemidler eller midler mod tilstoppet næse (dekongestanter) som 
+næsespray, skal du undgå at bruge disse inden for 1 time før behandlingen med Spravato.
+Hvis du har brugt for meget Spravato
+Du skal bruge dette lægemiddel under opsyn af din læge i dennes konsultation eller klinik. Det er 
+derfor usandsynligt, at du vil bruge for meget.
+Hvis du bruger for meget Spravato, er det mere sandsynligt, at du får bivirkninger (se "Bivirkninger").
+Hvis du holder op med at bruge Spravato
+Det er vigtigt, at du husker at møde op til dine planlagte aftaler, så lægemidlet kan virke for dig.
+Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Fortæl det til lægen, hvis du bemærker en eller flere af følgende bivirkninger.
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer)
+●
+du føler at du ikke er i kontakt med dig selv, dine tanker, følelser og ting omkring dig
+●
+du føler dig svimmel
+●
+hovedpine
+●
+du føler dig søvnig
+●
+ændringer i smagssansen
+●
+nedsat følesans eller følsomhed, herunder i området omkring munden
+●
+du føler, at det hele drejer rundt ("vertigo")
+●
+opkastning
+●
+kvalme
+49
+●
+forhøjet blodtryk.
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+●
+du føler ængstelse
+●
+du føler dig overdrevent glad ("eufori")
+●
+du føler dig forvirret
+●
+du føler dig løsrevet fra virkeligheden
+●
+du føler dig irritabel
+●
+du ser, føler, hører eller lugter ting, som ikke er der (hallucinationer)
+●
+du føler dig oprevet
+●
+dine øjne, ører eller følesans fupper eller snyder dig på en eller anden måde (der er noget der 
+ikke er, som det ser ud til at være)
+●
+panikanfald
+●
+ændret tidsopfattelse
+●
+usædvanlig fornemmelse i munden (såsom en snurrende eller kravlende fornemmelse)
+●
+sitren i musklerne
+●
+problemer med at tænke
+●
+du føler dig meget søvnig og uden energi
+●
+talebesvær
+●
+koncentrationsbesvær
+●
+sløret syn
+●
+vedvarende ringen for ørerne (tinnitus)
+●
+øget følsomhed over for støj eller lyde
+●
+hurtig puls
+●
+højt blodtryk
+●
+næseubehag
+●
+irritation i svælget
+●
+ondt i halsen
+●
+næsetørhed herunder skorpedannelser i næsen
+●
+kløende næse
+●
+nedsat følelse eller følsomhed i munden
+●
+mundtørhed
+●
+kraftig sveden
+●
+hyppigt behov for at lade vandet
+●
+smerte, når du lader vandet
+●
+stærk trang til at lade vandet
+●
+unormal følelse
+●
+du føler dig beruset
+●
+kraftesløshed
+●
+gråd
+●
+du føler at din kropstemperatur ændrer sig.
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer)
+●
+tankevirksomhed, tale og fysiske bevægelser bliver langsommere
+●
+følelsesmæssig belastning
+●
+utilpashed eller anspændthed
+●
+hurtige øjenbevægelser, du ikke kan styre
+●
+hyperaktivitet
+●
+øget spytproduktion
+●
+koldsved
+●
+problemer med at gå.
+Sjælden (kan forekomme hos op til 1 ud af 1 000 personer)
+●
+åndedrætsbesvær (respirationsdepression).
+50
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store spravato"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store spravato"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten. Udløbsdatoen er den 
+sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Spravato indeholder:
+Aktivt stof: esketamin.
+Hver næsesprayanordning indeholder esketaminhydrochlorid svarende til 28 mg esketamin.
+Øvrige indholdsstoffer:
+Citronsyremonohydrat
+Dinatriumedetat
+Natriumhydroxid (til pH-justering)
+Vand til injektionsvæsker
+Udseende og pakningsstørrelser
+Spravato er en næsespray, opløsning. Lægemidlet er en klar, farveløs opløsning, der leveres i en 
+næsesprayanordning til engangsbrug.
+Spravato er tilgængelig i pakningsstørrelser indeholdende 1, 2, 3 eller 6 næsesprayanordninger og som 
+multipakninger med 12 (4 pakninger med 3) eller 24 (8 pakninger med 3) næsesprayanordninger.
+Hver enkelt næsesprayanordning er pakket individuelt i en forseglet blister.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+51
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+52
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+53
+Nedenstående oplysninger er kun til sundhedspersoner:
+Brugsanvisning
+SPRAVATO
+(esketamin)
+Næsesprayanordning
+28 mg pr. anordning
+Hver næsesprayanordning afgiver
+28 mg esketamin som to pust.
+Vigtigt
+Denne anordning er beregnet til at blive administreret af patienten selv, under supervision af en 
+sundhedsperson. Læs hele denne brugsanvisning, før du oplærer og superviserer patienter.
+Brug for hjælp?
+Hvis du har brug for yderligere assistance, eller hvis du har kommentarer, kan du finde 
+kontaktoplysningerne til den lokale repræsentant for indehaveren af markedsføringstilladelsen i 
+indlægssedlen.
+54
+Spids
+Næsekrave
+Indikator
+Fingergreb
+Stempel
+Næsesprayanordning
+Hver næsesprayanordning afgiver 28 mg esketamin
+som to pust.
+Indikator
+Hver anordning indeholder 2 pust
+(1 pust i hvert næsebor)</p>
+<hr />
+<p>2 grønne prikker (0 mg afgivet)</p>
+<hr />
+<p>1 grøn prik</p>
+<hr />
+<p>Ingen grønne prikker
+To pust (28 mg) afgivet
+Anordningen er 
+fuld
+Et pust afgivet
+Anordningen er tom
+55
+Kun før første anordning:
+Bed patienten om at pudse næse kun før første anordning.
+Bekræft det påkrævede antal anordninger.
+Klargøring
+Trin 1
+28 mg = 1 anordning
+56 mg = 2 anordninger
+84 mg = 3 anordninger
+56
+●
+Kontrollér udløbsdatoen ("EXP"). Skaf en ny anordning, hvis udløbsdatoen er overskredet.
+●
+Åbn blisterpakningen og tag anordningen ud.
+●
+Anordningen må ikke præaktiveres før brug. Dette vil resultere i spild af medicin.
+●
+Kontrollér, at indikatoren viser 2 grønne prikker. Hvis ikke, skal anordningen kasseres og en 
+ny fremskaffes.
+●
+Giv anordningen til patienten.
+Klargøring af 
+anordningen
+Trin 2
+57
+Instruer patienten om at:
+●
+Holde anordningen som vist med tommelfingeren forsigtigt på stemplet.
+●
+Tryk ikke på stemplet.
+Instruer patienten om at:
+●
+Bøje hovedet bagover cirka 45 grader under administrationen for at holde medicinen inde i
+næsen.
+Klargøring af patienten
+Trin 3
+Cirka 
+45°
+58
+Instruer patienten om at:
+●
+Føre spidsen lige op i det første næsebor.
+●
+Næsekraven skal berøre huden mellem næseborene.
+Instruer patienten om at:
+●
+Lukke det andet næsebor.
+●
+Trække vejret ind gennem næsen, mens stemplet skubbes hele vejen op, til det stopper.
+Instruer patienten om at:
+●
+Snøfte let for at holde medicinen i næsen.
+Patienten puster én gang i hvert næsebor
+Trin 4
+59
+Instruer patienten om at:
+●
+Skift hænder for at føre spidsen op i det andet næsebor.
+●
+Gentag trin 4 for at afgive det andet pust.
+60
+●
+Tag anordningen fra patienten.
+●
+Kontrollér, at indikatoren ikke viser nogen grønne prikker. Hvis der vises en grøn prik, skal 
+patient puste igen i det andet næsebor.
+●
+Kontrollér indikatoren igen for at bekræfte, at anordningen er tom.
+Instruer patienten om at:
+●
+Hvile sig i en komfortabel stilling (helst halvt tilbagelænet) i 5 minutter efter hver anordning.
+●
+Hvis der forekommer næseflåd, tørres næsen med en serviet.
+Undlad at pudse næse.
+Bekræftelse af afgivelsen og hvile
+Trin 5
+5
+MIN
+HVILEPERIODE
+61
+●
+Gentag trin 2-5, hvis der er behov for mere end én anordning.
+VIGTIGT: Sørg for, at patienten venter 5 minutter efter hver anordning, for at give 
+lægemidlet tid til at absorberes.
+Bortskaffelse
+De(n) brugte anordninger(er) skal bortskaffes i overensstemmelse med lokale krav.
+Revideret: {måned ÅÅÅÅ}
+Næste anordning (hvis påkrævet)</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-15885cc7c5a4f088fdfc128fa6bb5034
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spravato Package Leaflet for language en"
+Description: "ePI document Bundle for spravato Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-15885cc7c5a4f088fdfc128fa6bb5034"
+* entry[0].resource = composition-en-15885cc7c5a4f088fdfc128fa6bb5034
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp15885cc7c5a4f088fdfc128fa6bb5034"
+* entry[=].resource = mp15885cc7c5a4f088fdfc128fa6bb5034
+                            
+                    
+Instance: bundlepackageleaflet-da-15885cc7c5a4f088fdfc128fa6bb5034
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spravato Package Leaflet for language da"
+Description: "ePI document Bundle for spravato Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-15885cc7c5a4f088fdfc128fa6bb5034"
+* entry[0].resource = composition-da-15885cc7c5a4f088fdfc128fa6bb5034
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp15885cc7c5a4f088fdfc128fa6bb5034"
+* entry[=].resource = mp15885cc7c5a4f088fdfc128fa6bb5034
+                            
+                    
+
+
+
+Instance: mp15885cc7c5a4f088fdfc128fa6bb5034
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Spravato 28 mg nasal spray, solution"
-Description: "Spravato 28 mg nasal spray, solution"
+Title: "Medicinal Product spravato"
+Description: "spravato"
 Usage: #inline
 
  
@@ -450,7 +1186,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Spravato 28 mg nasal spray, solution"
+  * productName = "spravato"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -477,29 +1213,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-15885cc7c5a4f088fdfc128fa6bb5034
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for spravato Package Leaflet for language en"
-Description: "ePI document Bundle for spravato Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 15885cc7c5a4f088fdfc128fa6bb5034ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1410/001 (1 spray container)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "spravato"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-15885cc7c5a4f088fdfc128fa6bb5034"
-* entry[0].resource = composition-en-15885cc7c5a4f088fdfc128fa6bb5034
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp26d9f5e102acd70bc206ecadf4d70555"
-* entry[=].resource = mp26d9f5e102acd70bc206ecadf4d70555
-                            
-                      
+* title = "List of all ePIs associated with spravato"
+
+* subject = Reference(mp26d9f5e102acd70bc206ecadf4d70555)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#spravato "spravato"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-15885cc7c5a4f088fdfc128fa6bb5034) // spravato en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-15885cc7c5a4f088fdfc128fa6bb5034) // spravato da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-15885cc7c5a4f088fdfc128fa6bb5034
+InstanceOf: List
+
+* insert 15885cc7c5a4f088fdfc128fa6bb5034ListRuleset
+    

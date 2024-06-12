@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9a27641c92c3b8f37c07af63ced02da9
 InstanceOf: CompositionUvEpi
 Title: "Composition for riluzole Package Leaflet"
@@ -343,12 +346,414 @@ The CHMP recommends that the terms of the marketing authorisation(s) should be v
 
 
 
+Instance: composition-da-9a27641c92c3b8f37c07af63ced02da9
+InstanceOf: CompositionUvEpi
+Title: "Composition for riluzole Package Leaflet"
+Description:  "Composition for riluzole Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp426b2c49d3a7ba14afc86e203bc29cab)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp426b2c49d3a7ba14afc86e203bc29cab
+* title = "TEST PURPOSES ONLY - riluzole"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Riluzole Zentiva 
+3. Sådan skal du tage Riluzole Zentiva<br />
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What riluzole is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What riluzole is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Riluzole Zentiva er </p>
+<p>Det aktive indholdsstof i Riluzole Zentiva er riluzol, som virker på nervesystemet. </p>
+<p>Hvad Riluzole Zentiva anvendes til </p>
+<p>Riluzole Zentiva anvendes til patienter med amyotrofisk lateral sclerose (ALS). </p>
+<p>ALS er en form for motor-neuronsygdom, hvor angreb på de nerveceller, der er ansvarlige for at sende 
+instruktioner til musklerne, fører til muskelsvaghed, muskeltab og lammelse. </p>
+<p>Ødelæggelsen af nervecellerne i motor-neuronsygdomme kan skyldes for meget glutamat (et kemisk 
+stof) i hjernen og rygmarven. Riluzole Zentiva forhindrer frigivelsen af glutamat og dette kan hjælpe 
+med at forebygge, at nerveceller bliver ødelagt.<br />
+Få mere information hos din læge om ALS og hvorfor du får denne medicin </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take riluzole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take riluzole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Riluzole Zentiva 
+- hvis du er allergisk over for riluzol eller et af de øvrige indholdsstoffer i Riluzole Zentiva 
+(angivet i punkt 6). 
+- hvis du har en leversygdom eller forhøjede niveauer af visse lever-enzymer (aminotransferaser) 
+i blodet. 
+- hvis du er gravid eller ammer. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Riluzole Zentiva:</p>
+<ul>
+<li>hvis du har nogen form for leverproblemer: gulfarvning af huden eller det hvide i dine øjne 
+(gulsot), kløe over det hele, kvalme, opkastning </li>
+<li>
+<p>hvis dine nyrer ikke fungerer normalt </p>
+</li>
+<li>
+<p>hvis du får feber. Dette kan være et tegn på et fald i antallet af hvide blodlegemer, som kan 
+medføre forøget risiko for infektion 
+Hvis du oplever noget af ovenstående, eller hvis du føler dig usikker, så fortæl det til din læge, 
+som vil beslutte, hvad der skal gøres. </p>
+</li>
+</ul>
+<p>Børn og unge<br />
+Hvis du er under 18 år, anbefales det ikke, at du tager Riluzole Zentiva, da der ikke er nogen 
+information tilgængelig for denne patientgruppe. </p>
+<p>Brug af anden medicin sammen med Riluzole Zentiva 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
+nylig.  </p>
+<p>Graviditet, amning og frugtbarhed 
+Du må ikke tage Riluzole Zentiva, hvis du er gravid eller ammer, eller har mistanke om, at du er 
+gravid. </p>
+<p>Hvis du har mistanke om, du er gravid, eller hvis du overvejer at amme, skal du spørge din læge til 
+råds, før du tager Riluzole Zentiva.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan køre bil og anvende værktøj og maskiner, når du tager Riluzole Zentiva, medmindre du føler 
+dig svimmel eller omtåget. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take riluzole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take riluzole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er 1 tablet to gange om dagen.<br />
+Du bør indtage tabletterne oralt hver 12. time, på samme tidspunkt af dagen hver dag (for eksempel 
+om morgenen og om aftenen). </p>
+<p>Hvis du har taget for mange Riluzole Zentiva 
+Hvis du har taget for mange tabletter, skal du straks kontakte din læge eller skadestue. </p>
+<p>Hvis du har glemt at tage Riluzole Zentiva 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>VIGTIGT 
+Kontakt straks din læge 
+- hvis du får nogen form for feber (forhøjet temperatur), da Riluzole Zentiva kan medføre 
+nedsættelse af antallet af hvide blodlegemer. Din læge kan ønske at tage blodprøver for at 
+kontrollere antallet af hvide blodlegemer, som er vigtige for at kunne bekæmpe infektioner. </p>
+<ul>
+<li>
+<p>hvis du får nogen af følgende symptomer: Gulfarvning af huden eller det hvide i øjnene 
+(gulsot), kløe over hele kroppen, kvalme eller kaster op, da dette kan være tegn på 
+leverbetændelse (hepatitis). Din læge kan udføre regelmæssige blodprøver, mens du får 
+Riluzole Zentiva, for at sikre sig, at dette ikke sker. </p>
+</li>
+<li>
+<p>hvis du får hoste eller besvær med at trække vejret, da dette kan være tegn på en lungesygdom 
+(som hedder interstitiel lungesygdom). </p>
+</li>
+</ul>
+<p>Andre bivirkninger 
+Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 personer) af Riluzole 
+Zentiva er:</p>
+<ul>
+<li>træthed </li>
+<li>kvalme </li>
+<li>forføjet niveau af nogle enzymer (aminotransferaser) i blodet. </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) af Riluzole Zentiva er:</p>
+<ul>
+<li>svimmelhed </li>
+<li>prikken i munden </li>
+<li>opkastning </li>
+<li>søvnighed </li>
+<li>hurtigere hjerterytme </li>
+<li>diarré </li>
+<li>hovedpine </li>
+<li>mavesmerter </li>
+<li>smerter </li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) af Riluzole Zentiva er:</p>
+<ul>
+<li>blodmangel </li>
+<li>allergiske reaktioner </li>
+<li>betændelse i bugspytkirtlen (pancreatitis) </li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data):</p>
+<ul>
+<li>udslæt </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store riluzole"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store riluzole"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Riluzole Zentiva indeholder:</p>
+<ul>
+<li>Aktivt stof: Riluzol. </li>
+<li>Øvrige indholdsstoffer: 
+Kerne: vandfri calciumphosphat, mikrokrystallinsk cellulose, vandfri kolloid silica, magnesiumstearat, 
+samt croscarmellosenatrium. 
+Overtræk: hypromellose, macrogol 6000 og titandioxid (E171). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Tabletterne er filmovertrukne, kapselformede og hvide. Hver tablet indeholder 50 mg riluzol og har 
+“RPR 202" præget på den ene side af tabletten. 
+Riluzole Zentiva fås i en pakning med 28, 56, 98, 112 eller 168 tabletter til oral anvendelse. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Zentiva k.s.<br />
+U kabelovny 130<br />
+102 37 Prag Tjekkiet </p>
+<p>Fremstiller 
+Opella Healthcare International SAS 
+56, Route de Choisy 
+60200 Compiègne 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Zentiva, k.s. 
+Tél/Tel: +32 280 86 PV-Belgium@zentiva.com </p>
+<p>Lietuva 
+Zentiva, k.s. 
+Tel: +370 52152PV-Lithuania@zentiva.com 
+България 
+Zentiva, k.s. 
+Тел: +35924417PV-Bulgaria@zentiva.com </p>
+<p>Luxembourg/Luxemburg 
+Zentiva, k.s. 
+Tél/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241 PV-Czech-Republic@zentiva.com 
+Magyarország 
+Zentiva Pharma Kft. 
+Tel.: +36 1 299 1PV-Hungary@zentiva.com 
+Danmark 
+Zentiva Denmark ApS 
+Tlf: +45 787 68 PV-Denmark@zentiva.com </p>
+<p>Malta 
+Zentiva, k.s. 
+Tel: +356 277 82 PV-Malta@zentiva.com 
+Deutschland 
+Zentiva Pharma GmbH<br />
+Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com </p>
+<p>Nederland 
+Zentiva, k.s. 
+Tel: +31 202 253 PV-Netherlands@zentiva.com 
+Eesti 
+Zentiva, k.s. 
+Tel: +372 52 70PV-Estonia@zentiva.com </p>
+<p>Norge 
+Zentiva Denmark ApS 
+Tlf: +47 219 66 PV-Norway@zentiva.com 
+Ελλάδα 
+Zentiva, k.s. 
+Τηλ: +30 211 198 7PV-Greece@zentiva.com </p>
+<p>Österreich 
+Zentiva, k.s. 
+Tel: +43 720 778 PV-Austria@zentiva.com 
+España 
+Zentiva, k.s. 
+Tel: +34 931 815 PV-Spain@zentiva.com </p>
+<p>Polska 
+Zentiva Polska Sp. z o.o. 
+Tel: + 48 22 375 92 PV-Poland@zentiva.com </p>
+<p>France 
+Zentiva France 
+Tél: +33 (0) 800 089 219<br />
+PV-France@zentiva.com </p>
+<p>Portugal 
+Zentiva Portugal, Lda 
+Tel: +351210601PV-Portugal@zentiva.com 
+Hrvatska 
+Zentiva d. o. o. 
+Tel: +385 1 6641 PV-Croatia@zentiva.com </p>
+<p>Ireland 
+Zentiva, k.s. 
+Tel: +353 766 803 PV-Ireland@zentiva.com </p>
+<p>România 
+ZENTIVA S.A. 
+Tel: +4 021.304.7PV-Romania@zentiva.com </p>
+<p>Slovenija 
+Zentiva, k.s. 
+Tel: +386 360 00 PV-Slovenia@zentiva.com 
+Ísland 
+Zentiva Denmark ApS 
+Sími: +354 539 0PV-Iceland@zentiva.com </p>
+<p>Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
+Italia 
+Zentiva Italia S.r.l. 
+ +39-02-38598PV-Italy@zentiva.com 
+Suomi/Finland 
+Zentiva Denmark ApS 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com </p>
+<p>Κύπρος 
+Zentiva, k.s. 
+Τηλ: +357 240 30 PV-Cyprus@zentiva.com </p>
+<p>Sverige 
+Zentiva Denmark ApS 
+Tel: +46 840 838 PV-Sweden@zentiva.com 
+Latvija 
+Zentiva, k.s. 
+Tel: +371 67893PV-Latvia@zentiva.com 
+United Kingdom (Northern Ireland) 
+Zentiva, k.s. 
+Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Bilag IV </p>
+<p>Videnskabelige konklusioner og begrundelser for ændring af betingelserne 
+for markedsføringstilladelsen/-tilladelserne </p>
+<p>Videnskabelige konklusioner </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for riluzol er CHMP nået 
+frem til følgende videnskabelige konklusioner: </p>
+<p>I betragtning af tilgængelige data for udslæt fra spontane rapporter, inklusive tilfælde med en tæt 
+tidsmæssig sammenhæng, positiv de-challenge (symptomerne forsvandt ved seponering) og/eller 
+positiv re-challenge (symptomerne kom tilbage ved re-eksponering) konkluderede PRAC, at en kausal 
+sammenhæng mellem riluzol og udslæt i det mindste er en rimelig mulighed, og at 
+produktinformationen for produkter indeholdende riluzol bør ændres i overensstemmelse hermed. </p>
+<p>CHMP tilslutter sig PRAC's videnskabelige konklusioner. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
+<p>På baggrund af de videnskabelige konklusioner for riluzol er CHMP af den opfattelse, at benefit/risk-
+forholdet for det lægemiddel/de lægemidler, der indeholder riluzol, forbliver uændret under 
+forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne bør ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9a27641c92c3b8f37c07af63ced02da9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for riluzole Package Leaflet for language en"
+Description: "ePI document Bundle for riluzole Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9a27641c92c3b8f37c07af63ced02da9"
+* entry[0].resource = composition-en-9a27641c92c3b8f37c07af63ced02da9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9a27641c92c3b8f37c07af63ced02da9"
+* entry[=].resource = mp9a27641c92c3b8f37c07af63ced02da9
+                            
+                    
+Instance: bundlepackageleaflet-da-9a27641c92c3b8f37c07af63ced02da9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for riluzole Package Leaflet for language da"
+Description: "ePI document Bundle for riluzole Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9a27641c92c3b8f37c07af63ced02da9"
+* entry[0].resource = composition-da-9a27641c92c3b8f37c07af63ced02da9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9a27641c92c3b8f37c07af63ced02da9"
+* entry[=].resource = mp9a27641c92c3b8f37c07af63ced02da9
+                            
+                    
+
+
+
+Instance: mp9a27641c92c3b8f37c07af63ced02da9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Riluzole Zentiva 50 mg film-coated tablets"
-Description: "Riluzole Zentiva 50 mg film-coated tablets"
+Title: "Medicinal Product riluzole"
+Description: "riluzole"
 Usage: #inline
 
  
@@ -368,7 +773,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Riluzole Zentiva 50 mg film-coated tablets"
+  * productName = "riluzole"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -395,29 +800,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9a27641c92c3b8f37c07af63ced02da9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for riluzole Package Leaflet for language en"
-Description: "ePI document Bundle for riluzole Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9a27641c92c3b8f37c07af63ced02da9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/768/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "riluzole"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9a27641c92c3b8f37c07af63ced02da9"
-* entry[0].resource = composition-en-9a27641c92c3b8f37c07af63ced02da9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp426b2c49d3a7ba14afc86e203bc29cab"
-* entry[=].resource = mp426b2c49d3a7ba14afc86e203bc29cab
-                            
-                      
+* title = "List of all ePIs associated with riluzole"
+
+* subject = Reference(mp426b2c49d3a7ba14afc86e203bc29cab)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#riluzole "riluzole"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9a27641c92c3b8f37c07af63ced02da9) // riluzole en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9a27641c92c3b8f37c07af63ced02da9) // riluzole da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9a27641c92c3b8f37c07af63ced02da9
+InstanceOf: List
+
+* insert 9a27641c92c3b8f37c07af63ced02da9ListRuleset
+    

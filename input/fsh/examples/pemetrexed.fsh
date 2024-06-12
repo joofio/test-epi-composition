@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e0aa2bfe700a8fcff3620d6e0a596f13
 InstanceOf: CompositionUvEpi
 Title: "Composition for pemetrexed Package Leaflet"
@@ -437,12 +440,601 @@ Tel: + 44 (0) 1304 616This leaflet was last revised in month YYYY. </p>
 
 
 
+Instance: composition-da-e0aa2bfe700a8fcff3620d6e0a596f13
+InstanceOf: CompositionUvEpi
+Title: "Composition for pemetrexed Package Leaflet"
+Description:  "Composition for pemetrexed Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp370d0a69f767b95c1edc5793e51518b1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp370d0a69f767b95c1edc5793e51518b1
+* title = "TEST PURPOSES ONLY - pemetrexed"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal De vide, før De begynder at bruge Pemetrexed Pfizer
+3. Sådan skal De bruge Pemetrexed Pfizer
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What pemetrexed is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What pemetrexed is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pemetrexed Pfizer er et lægemiddel, der anvendes til behandling af kræft.
+Pemetrexed Pfizer anvendes sammen med cisplatin, en anden medicin mod kræft, til behandling af
+malignt pleuramesoteliom, en kræftform som påvirker lungehinderne, til patienter, som ikke tidligere 
+har fået kemoterapi.
+Pemetrexed Pfizer er også en behandling, som gives i kombination med cisplatin, som første 
+behandling af patienter med fremskreden lungecancer.
+Pemetrexed Pfizer kan ordineres til Dem, hvis De har fremskreden lungekræft, og Deres sygdom har
+reageret på behandling, eller hvis den stort set er uforandret efter den indledende 
+kemoterapibehandling.
+Pemetrexed Pfizer er også en behandling til patienter med fremskreden lungekræft, hvor
+sygdommen har udviklet sig, efter anden indledende behandling med kemoterapi har været
+forsøgt.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take pemetrexed"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take pemetrexed"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke Pemetrexed Pfizer</h2>
+<p>hvis De er overfølsom (allergisk) over for pemetrexed eller et af de øvrige indholdsstoffer i 
+Pemetrexed Pfizer (angivet i punkt 6).
+-
+hvis De ammer, skal De afbryde amningen under behandlingen med Pemetrexed Pfizer.
+-
+hvis De for nylig er blevet eller snart skal vaccineres mod gul feber.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller hospitalsapotekspersonalet, før De får Pemetrexed Pfizer.
+58
+Hvis De har eller tidligere har haft nyreproblemer, skal De tale med Deres læge eller
+hospitalsapotekspersonalet, da De muligvis ikke må få Pemetrexed Pfizer.
+Før hver indgivelse vil De få taget blodprøver til vurdering af, om Deres nyre- og leverfunktion er
+tilstrækkelig god, og for at kontrollere, om De har blodlegemer nok til at få Pemetrexed Pfizer. Deres
+læge kan beslutte at ændre dosen eller udskyde behandlingen, afhængigt af Deres generelle tilstand, 
+og hvis Deres blodtal er for lave. Hvis De også får cisplatin, vil Deres læge kontrollere, at De får
+tilstrækkelig med væske og får den rette behandling før og efter indgivelse af cisplatin for at
+forebygge opkastning.
+Hvis De har fået eller skal have strålebehandling, skal De fortælle det til Deres læge, idet
+Pemetrexed Pfizer kan medføre en tidlig eller sen strålingsreaktion.
+Informér Deres læge, hvis De for nylig er blevet vaccineret, da det muligvis kan forårsage dårlige
+virkninger med Pemetrexed Pfizer.
+Informér Deres læge, hvis De har en hjertesygdom eller tidligere har haft en hjertesygdom.
+Hvis De har en væskeansamling omkring lungerne, vil lægen muligvis beslutte at fjerne denne 
+væske, før De modtager behandling med Pemetrexed Pfizer.
+Børn og unge
+Dette lægemiddel må ikke anvendes til børn og unge, da der ikke er erfaringer med lægemidlet hos børn 
+og unge under 18 år.
+Brug af anden medicin sammen med Pemetrexed Pfizer
+Hvis De tager medicin mod smerter eller inflammation (betændelse/hævelse), såsom de såkaldte non-
+steroide anti-inflammatoriske lægemidler (NSAID-præparater), herunder ikke-receptpligtig medicin
+(som f.eks. ibuprofen), skal De fortælle det til lægen. Der findes mange slags NSAID-præparater
+med forskellig varighed af det aktive stof. Ud fra den planlagte dato for Deres infusion af
+pemetrexed og/eller status for Deres nyrefunktion skal Deres læge fortælle Dem, hvilke typer 
+medicin De må tage, og hvornår De må tage dem. Hvis De er usikker, skal De spørge lægen eller
+apoteketspersonalet om noget af den medicin, De tager, er et NSAID-prærarat.
+Fortæl altid lægen eller hospitalsapotekspersonalet, hvis De tager anden medicin eller har gjort det for 
+nylig. Dette gælder også medicin, som ikke er købt på recept.
+Graviditet
+Hvis De er gravid, har mistanke om, at De er gravid eller planlægger at blive gravid, skal De fortælle
+det til Deres læge. Pemetrexed må ikke anvendes under graviditet. Deres læge vil sammen med Dem
+drøfte den potentielle risiko ved at tage pemetrexed under graviditet. Kvinder skal anvende effektive
+svangerskabsforebyggende midler under behandlingen med pemetrexed og i 6 måneder efter 
+modtagelse af den sidste dosis.
+Amning
+Hvis De ammer, skal De fortælle Deres læge dette. Amningen skal afbrydes under behandling med
+pemetrexed.
+Frugtbarhed
+Mænd rådes til ikke at gøre en kvinde gravid hverken under eller i op til 3 måneder efter
+behandlingen med pemetrexed. Derfor skal der bruges effektive svangerskabsforebyggende midler
+under behandlingsforløbet med pemetrexed og i 3 måneder efter. Hvis De ønsker at gøre en kvinde
+gravid under behandlingsforløbet eller tidligere end 3 måneder efter, behandlingen er stoppet, skal
+De søge vejledning hos Deres læge eller på apoteket. Pemetrexed Pfizer kan påvirke Deres evne til at 
+få børn. Tal med Deres læge for at få rådgivning om opbevaring af sæd, inden behandlingen
+59
+påbegyndes.
+Trafik- og arbejdssikkerhed
+Pemetrexed Pfizer kan muligvis gøre Dem træt. Vær derfor forsigtig, hvis De kører bil eller betjener
+maskiner.
+Pemetrexed Pfizer indeholder natrium
+Pemetrexed Pfizer 100 mg pulver til koncentrat til infusionsvæske, opløsning
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
+væsentlige natriumfrit. 
+Pemetrexed Pfizer 500 mg pulver til koncentrat til infusionsvæske, opløsning
+Dette lægemiddel indeholder 54 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) pr. hætteglas. 
+Dette svarer til 2,7 % af det anbefalede maksimale daglige indtagelse af 2 g natrium for en voksen.
+Pemetrexed Pfizer 1000 mg pulver til koncentrat til infusionsvæske, opløsning
+Dette lægemiddel indeholder 108 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) pr. hætteglas. 
+Dette svarer til 5,4 % af det anbefalede maksimale daglige indtagelse af 2 g natrium for en voksen.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pemetrexed"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pemetrexed"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dosis er baseret på Deres højde og vægt (som anvendes til beregning af legemsoverfladearealet), idet
+der indgives, hvad der svarer til 500 mg Pemetrexed Pfizer per kvadratmeter legemsoverflade. Deres
+læge vil bruge dette mål på overfladeareal til at bestemme den rette dosis til Dem. Denne dosis skal
+muligvis justeres, eller behandlingen skal udskydes, afhængigt af Deres blodtal og generelle tilstand.
+Hospitalsapoteket, lægen eller sygeplejersken blander på forhånd Pemetrexed Pfizer-pulveret med
+natriumchloridopløsning 9 mg/ml (0,9 %) til injektion, før det indgives til Dem.
+De vil altid få Pemetrexed Pfizer som infusion i en af Deres blodårer. Infusionen tager omkring
+10 minutter.
+Når Pemetrexed Pfizer tages sammen med cisplatin:
+Lægen eller hospitalsfarmaceuten beregner den nødvendige dosis ud fra Deres højde og vægt.
+Cisplatin indgives også som infusion i en af Deres blodårer, cirka 30 minutter efter at infusionen med
+Pemetrexed Pfizer er afsluttet. Infusionen af cisplatin tager omkring 2 timer.
+De vil normalt få infusionen én gang hver tredje uge.
+Andre lægemidler:
+Kortikosteroider: Deres læge vil udskrive steroidtabletter til Dem (svarende til 4 milligram
+dexamethason 2 gange dagligt), som De skal tage på dagen før, på behandlingsdagen og dagen efter
+behandling med Pemetrexed Pfizer. De får denne medicin for at reducere hyppigheden og
+sværhedsgraden af eventuelle hudreaktioner, som De kan opleve under kræftbehandlingen.
+Vitamintilskud: Deres læge vil udskrive folsyretabletter (vitamin) eller en multivitamin indeholdende 
+folsyre (350-1000 mikrogram) som De skal tage 1 gang dagligt, mens De tager Pemetrexed Pfizer. De
+skal tage mindst 5 doser i løbet af de 7 dage op til den første dosis Pemetrexed Pfizer. De skal
+fortsætte med at tage folsyre i 21 dage efter indgift af den sidste dosis Pemetrexed Pfizer. De vil også
+få en injektion med B12-vitamin (1.000 mikrogram) i løbet af ugen op til første dosis Pemetrexed Pfizer
+og derefter cirka hver 9. uge (svarende til 3 Pemetrexed Pfizer behandlingsforløb). De får B12-vitamin
+og folsyre for at mindske risikoen for mulige toksiske virkninger af kræftbehandlingen.
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.
+60</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får
+bivirkninger.
+De skal omgående kontakte Deres læge, hvis De mærker nogen af følgende bivirkninger:
+
+Feber eller infektion (henholdsvis almindelig eller meget almindelig): Hvis Deres 
+temperatur er 38 ºC eller højere, hvis De sveder
+
+eller viser andre tegn på infektion (fordi De muligvis har færre hvide blodlegemer end 
+normalt, hvilket er meget almindeligt). En infektion (sepsis - blodforgiftning) kan være
+alvorlig og kan medføre døden.
+
+Hvis De begynder at føle brystsmerter (almindelig) eller har hjertebanken (ikke almindelig).
+
+Hvis De har smerter, rødmen, hævelse eller sår i munden (meget almindelig).
+
+Allergisk reaktion: Hvis De udvikler udslæt (meget almindelig)/en brændende eller
+prikkende fornemmelse (almindelig) eller feber (almindelig). Hudreaktioner kan i sjældne 
+tilfælde være alvorlige og kan medføre døden. Fortæl det til Deres læge, hvis De får
+alvorligt udslæt, kløen eller blæredannelse (Stevens-Johnsons syndrom eller toksisk
+epidermal nekrolyse).
+
+Hvis De føler træthed, svimmelhed, hurtigt mister vejret, eller hvis De er bleg (fordi
+De muligvis har mindre hæmoglobin end normalt, hvilket er meget almindeligt).
+
+Hvis De bløder fra gummer, næse eller mund eller anden blødning, som ikke vil stoppe, 
+rødlig eller lyserødlig urin, uventede blå mærker (fordi De muligvis har færre blodplader
+end normalt, hvilket er almindeligt).
+
+Hvis De pludselig får åndenød, stærke smerter i brystet eller hoste med blodigt spyt 
+(ikke almindeligt) (dette kan betyde, at der er en blodprop i en af lungernes blodårer).
+Bivirkninger med Pemetrexed Pfizer kan være:
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer)
+Infektion
+Svælgkatar (en øm hals)
+Lavt antal neutrofile granulocytter (en type hvide blodlegemer)
+Lavt antal hvide blodlegemer
+Lavt hæmoglobin niveau
+Smerter, rødmen, hævelse eller sår i munden
+Appetitløshed
+Opkastning
+Diarré
+Kvalme
+Udslæt
+Afskallende hud
+Unormale blodprøver, der viser nedsat nyrefunktion
+Træthed
+Almindelig (forekommer hos op til 1 ud af 10 personer)
+Infektion i blodet
+Feber med et lavt antal neutrofile granulocytter (en type hvide blodlegemer)
+Lavt antal blodplader
+Allergisk reaktion
+Tab af kropsvæske
+Smagsforstyrrelser
+Skader på de motoriske nerver, der kan forårsage muskelsvaghed og -svind, primært i arme og ben
+Skader på de sensoriske nerver, der kan forårsage tab af følesans, brændende smerter og ustabil gang
+Svimmelhed
+Betændelse eller hævelse i bindehinden (membranen, der omkranser øjenlågene og dækker det hvide i 
+øjet) 
+61
+Tørre øjne
+Våde øjne
+Tørhed i bindehinden (membranen, der omkranser øjenlågene og dækker det hvide i øjet) og 
+hornhinden (det klare lag foran iris og pupillen)
+Hævelse af øjenlågene
+Øjenlidelse med tørhed, tåreflåd, irritation og/eller smerter
+Hjertesvigt (tilstand, der påvirker dine hjertemusklers pumpekraft)
+Uregelmæssig hjerterytme
+Dårlig fordøjelse
+Forstoppelse
+Mavesmerter
+Lever: stigninger i de stoffer i blodet, der dannes af leveren
+Øget hudpigmentering
+Kløende hud
+Udslæt på kroppen, hvor hvert mærke ligner en skydeskive
+Hårtab
+Nældefeber
+Nyresvigt
+Nedsat nyrefunktion
+Feber
+Smerte
+Overskydende væske i kropsvævet, der forårsager hævelse
+Brystsmerter
+Betændelse og sårdannelse i slimhinderne i fordøjelseskanalen
+Ikke almindelig (forekommer hos op til 1 ud af 100 personer)
+Fald i antallet af røde og hvide blodlegemer samt blodplader
+Slagtilfælde
+Slagtilfælde, hvor en blodåre, der fører til hjernen, er blokeret
+Blødning på indersiden af kraniet
+Angina (brystsmerter forårsaget af et fald i blodgennemstrømningen til hjertet)
+Hjerteanfald
+Forsnævring eller blokering af koronararterierne
+Øget hjerterytme
+Mangelfuld tilførsel af blodet til arme og ben
+Blokering i en blodåre i lungerne
+Betændelse og ardannelse i hinden som dækker lungerne, samt åndedrætsproblemer
+Frisk, rødt blod fra endetarmsåbningen
+Blødning i mave-tarmkanalen
+Rifter i tarmen
+Betændelse i slimhinden i spiserøret
+Betændelse i slimhinden i tyktarmen som kan være ledsaget af blødning i tarm- eller endetarm (ses 
+kun i kombination med cisplatin)
+Betændelse, væskeansamling, hudrødme og beskadigelse af spiserørets slimhindeoverflade, forårsaget 
+af strålebehandling
+Betændelse i lungerne forårsaget af strålebehandling
+Sjælden (forekommer hos op til 1 ud af 1000 personer)
+Ødelæggelse af røde blodlegemer
+Anafylaktisk chok (alvorlig allergisk reaktion)
+Betændelsestilstand i leveren
+Rødmen af huden
+Hududslæt, der udvikler sig udover et tidligere bestrålet område
+Meget sjælden (forekommer hos op til 1 ud af 10.000 personer)
+Infektioner i hud og blødt væv
+Stevens-Johnson syndrom (en alvorlig reaktion i hud og slimhinderne, der kan være livstruende)
+62
+Toksisk epidermal nekrolyse (en alvorlig hudreaktion, der kan være livstruende)
+Autoimmun lidelse, der resulterer i hududslæt og blærer på ben, arme og mave
+Betændelse i huden med blæredannelse, der er fyldt med væske
+Skrøbelig hud, blærer, skader og ardannelse i huden
+Rødmen, smerter og hævelse hovedsageligt i benene
+Betændelse i hud og fedtlaget under huden (pseudocellulitis)
+Betændelse i huden (dermatitis)
+Huden kan blive betændt, kløende, rød, sprunken og ru
+Intenst kløende pletter
+Ikke kendt: hyppigheden kan ikke vurderes ud fra forhåndenværende data
+Diabetessygdom, som hovedsageligt skyldes nyresygdom
+Nyresygdom, hvor bestemte celler (tubulære epitelceller) i nyregangene dør.
+De vil muligvis kunne opleve nogle af disse symptomer og/eller tilstande. Hvis De begynder at mærke 
+nogle af dem, skal De hurtigst muligt fortælle det til Deres læge.
+Hvis De er bekymret over eventuelle bivirkninger, bør De tale med Deres læge.
+Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller deres pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pemetrexed"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pemetrexed"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Pemetrexed Pfizer utilgængeligt for børn.
+Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken og hætteglassets etiket efter EXP.
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring.
+Rekonstituerede opløsninger og infusionsopløsninger: Produktet skal anvendes med det samme. Hvis
+produktet er forberedt som angivet, har genfortyndede opløsninger og infusionsopløsninger af
+pemetrexed vist sig at have en kemisk og fysisk holdbarhed på 24 timer ved køleskabstemperatur 
+(2 °C til 8 °C).
+Den rekonstituerede opløsning er klar og varierer i farve fra farveløs til gul eller grøngul, hvilket ikke 
+påvirker produktets kvalitet. Lægemidler til injektion (parenterale lægemidler) skal undersøges 
+visuelt for partikler og misfarvning før indgift. Hvis der ses partikler, må medicinen ikke indgives.
+Dette lægemiddel er kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf bør bortskaffes
+i overensstemmelse med lokale krav.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pemetrexed Pfizer indeholder:
+Det aktive stof er pemetrexed.
+Pemetrexed Pfizer 100 mg pulver til koncentrat til infusionsvæske, opløsning: Hvert hætteglas
+63
+indeholder 100 milligram pemetrexed (som pemetrexeddinatriumhemipentahydrat).
+Pemetrexed Pfizer 500 mg pulver til koncentrat til infusionsvæske, opløsning: Hvert hætteglas
+indeholder 500 milligram pemetrexed (som pemetrexeddinatriumhemipentahydrat).
+Pemetrexed Pfizer 1.000 mg pulver til koncentrat til infusionsvæske, opløsning: Hvert hætteglas
+indeholder 1.000 milligram pemetrexed (som pemetrexeddinatriumhemipentahydrat).
+Efter rekonstitution indeholder opløsningen 25 mg/ml pemetrexed. Opløsningen skal fortyndes
+yderligere af sundhedsfagligt personale inden indgivelse.
+De øvrige indholdsstoffer er mannitol (E421), saltsyre (til pH justering) og natriumhydroxid (til pH 
+justering). Se punkt 2 "Pemetrexed Pfizer indeholder natrium".
+Udseende og pakningsstørrelser
+Pemetrexed Pfizer er et pulver til koncentrat til infusionsvæskeopløsning i hætteglas. Det er et hvidt til
+lysegult eller grøngult frysetørret pulver.
+Hver pakke indeholder et hætteglas med 100 mg, 500 mg eller 1.000 mg pemetrexed 
+(pemetrexeddinatriumhemipentahydrat).
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgium
+Fremstiller
+Pfizer Service Company BV
+Hoge Wei 10
+1930 Zaventem
+Belgien
+Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den
+lokale repræsentant for indehaveren af markedsføringstilladelsen.
+BE
+Pfizer SA/NV
+Tél/Tel: +32 2 554 62 11
+LT
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+BG
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+LU
+Pfizer SA/NV
+Tél/Tel: +32 2 554 62 11
+CZ
+Pfizer, spol. s r.o.
+Tel: +420-283-004-111
+HU
+Pfizer Kft.
+Tel: + 36 1 488 37 00
+DK
+Pfizer ApS
+Tlf: + 45 44 20 11 00
+MT
+Drugsales Ltd
+Tel.: + 356 21 419 070/1/2
+DE 
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+NL
+Pfizer bv
+Tel: +31 (0) 800 63 34 636
+64
+EE
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+NO
+Pfizer AS
+Tlf: +47 67 52 61 00
+EL
+Pfizer ΕΛΛΑΣ A.E.
+Τηλ.: +30 210 6785 800
+AT
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+ES
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+PL
+Pfizer Polska Sp. z o.o.
+Tel: +48 22 335 61 00
+FR
+Pfizer
+Tél: + 33 (0)1 58 07 34 40
+PT
+Laboratórios Pfizer, Lda.
+Tel: + 351 21 423 55 00
+HR
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+RO
+Pfizer România S.R.L.
+Tel: +40 (0)21 207 28 00
+IE
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0) 1304 616161
+SI
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+IS
+Icepharma hf.
+Sími: +354 540 8000
+SK
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421-2-3355 5500
+IT
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+FI
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+CY
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ.: +357 22817690
+SE
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+LV
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+UK (Northern Ireland)
+Pfizer Limited
+Tel: + 44 (0) 1304 616161
+Denne indlægsseddel blev senest ændret { MM/ÅÅÅÅ }
+De kan finde yderligere oplysninger om Pemetrexed Pfizer på Det Europæiske
+Lægemiddelagenturs hjemmeside http://www.ema.europa.eu.</p>
+<hr />
+<p>Nedenstående oplysninger er tiltænkt læger og sundhedspersonale:
+Instruktioner vedrørende anvendelse, håndtering samt bortskaffelse
+1. Anvend aseptisk teknik ved rekonstitution og yderligere fortynding af pemetrexed til intravenøs
+infusion.
+65
+2. Beregn den nødvendige dosis og det nødvendige antal hætteglas med Pemetrexed Pfizer. Hvert 
+hætteglas indeholder tilstrækkeligt pemetrexed til at levere den angivne mængde.
+3. Rekonstituer hvert 100 mg hætteglas med 4,2 ml natriumchloridopløsning 9 mg/ml (0,9 %) til 
+injektion, uden konserveringsmiddel, til en opløsning indeholdende 25 mg/ml pemetrexed.
+Rekonstituer hvert 500 mg hætteglas med 20 ml natriumchloridopløsning 9 mg/ml (0,9 %) til 
+injektion, uden konserveringsmiddel, til en opløsning indeholdende 25 mg/ml pemetrexed.
+Rekonstituer hvert 1.000 mg hætteglas med 40 ml natriumchloridopløsning 9 mg/ml (0,9 %) til 
+injektion, uden konserveringsmiddel, til en opløsning indeholdende 25 mg/ml pemetrexed.
+Sving forsigtigt hvert hætteglas, indtil pulveret er helt opløst. Opløsningen er klar og kan variere i 
+farve fra farveløs til gul eller grøngul, uden at det har negativ indflydelse på produktets kvalitet. 
+Den rekonstituerede opløsning har en pH-værdi på 6,6-7,8. Yderligere fortynding er nødvendig.
+4. Den passende mængde rekonstituerede pemetrexedopløsning skal fortyndes yderligere til 100 ml 
+med natriumchloridopløsning 9 mg/ml (0,9 %) til injektion, uden konserveringsmiddel, og 
+indgives som langsom intravenøs infusion over 10 minutter.
+5. Pemetrexedinfusionsopløsninger, der er forberedt som angivet ovenfor, er kompatible med 
+indgivelsessæt og dropposer, som er belagt med polyvinylchlorid og polyolefin. Pemetrexed er 
+fysisk inkompatibelt med fortyndinger, der indeholder calcium, heriblandt Ringers laktat og 
+Ringers væske.
+6. Parenterale lægemidler bør kontrolleres visuelt for partikler og misfarvning før indgivelse. Hvis 
+der observeres partikler, må opløsningen ikke indgives.
+7. Pemetrexedopløsninger er kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf bør 
+bortskaffes i overensstemmelse med lokale krav.
+Forsigtighedsregler i forbindelse med forberedelse og indgivelse: Som med et hvilket som helst
+andet potentielt toksisk lægemiddel til behandling af kræft skal der udvises forsigtighed ved hånd-
+tering og forberedelse af infusionsopløsninger af pemetrexed. Det anbefales at bruge handsker. Hvis
+pemetrexedopløsningen kommer i kontakt med huden, skal det berørte område straks vaskes grundigt
+med vand og sæbe. Hvis pemetrexedopløsningen kommer i kontakt med slimhinderne, skal de skylles
+grundigt med vand. Pemetrexed er ikke blæretrækkende. Der findes ikke en specifik modgift mod
+ekstravasation af pemetrexed. Der er rapporteret enkelte tilfælde af ekstravasation af pemetrexed,
+som investigatoren ikke betragtede som alvorlige. Som med andre ikke-blæretrækkende stoffer skal
+eventuel ekstravasation håndteres i henhold til lokal standardpraksis.
+66
+Indlægsseddel: Information til brugeren
+Pemetrexed Pfizer 25 mg/ml til koncentrat til infusionsvæske, opløsning
+pemetrexed
+Læs denne indlægsseddel grundigt, inden De begynder at bruge dette lægemiddel, da den
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. De kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, De vil vide.
+-
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e0aa2bfe700a8fcff3620d6e0a596f13
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pemetrexed Package Leaflet for language en"
+Description: "ePI document Bundle for pemetrexed Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e0aa2bfe700a8fcff3620d6e0a596f13"
+* entry[0].resource = composition-en-e0aa2bfe700a8fcff3620d6e0a596f13
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe0aa2bfe700a8fcff3620d6e0a596f13"
+* entry[=].resource = mpe0aa2bfe700a8fcff3620d6e0a596f13
+                            
+                    
+Instance: bundlepackageleaflet-da-e0aa2bfe700a8fcff3620d6e0a596f13
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pemetrexed Package Leaflet for language da"
+Description: "ePI document Bundle for pemetrexed Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e0aa2bfe700a8fcff3620d6e0a596f13"
+* entry[0].resource = composition-da-e0aa2bfe700a8fcff3620d6e0a596f13
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe0aa2bfe700a8fcff3620d6e0a596f13"
+* entry[=].resource = mpe0aa2bfe700a8fcff3620d6e0a596f13
+                            
+                    
+
+
+
+Instance: mpe0aa2bfe700a8fcff3620d6e0a596f13
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Pemetrexed Pfizer 100 mg powder for concentrate for solution for infusion"
-Description: "Pemetrexed Pfizer 100 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product pemetrexed"
+Description: "pemetrexed"
 Usage: #inline
 
  
@@ -462,7 +1054,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Pemetrexed Pfizer 100 mg powder for concentrate for solution for infusion"
+  * productName = "pemetrexed"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -489,29 +1081,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e0aa2bfe700a8fcff3620d6e0a596f13
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for pemetrexed Package Leaflet for language en"
-Description: "ePI document Bundle for pemetrexed Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e0aa2bfe700a8fcff3620d6e0a596f13ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1057/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "pemetrexed"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e0aa2bfe700a8fcff3620d6e0a596f13"
-* entry[0].resource = composition-en-e0aa2bfe700a8fcff3620d6e0a596f13
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp370d0a69f767b95c1edc5793e51518b1"
-* entry[=].resource = mp370d0a69f767b95c1edc5793e51518b1
-                            
-                      
+* title = "List of all ePIs associated with pemetrexed"
+
+* subject = Reference(mp370d0a69f767b95c1edc5793e51518b1)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#pemetrexed "pemetrexed"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e0aa2bfe700a8fcff3620d6e0a596f13) // pemetrexed en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e0aa2bfe700a8fcff3620d6e0a596f13) // pemetrexed da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e0aa2bfe700a8fcff3620d6e0a596f13
+InstanceOf: List
+
+* insert e0aa2bfe700a8fcff3620d6e0a596f13ListRuleset
+    

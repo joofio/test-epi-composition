@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d4e93c060506fdcc083b5b1a04e82522
 InstanceOf: CompositionUvEpi
 Title: "Composition for actelsar Package Leaflet"
@@ -452,12 +455,564 @@ Tel: +44 2075407This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-d4e93c060506fdcc083b5b1a04e82522
+InstanceOf: CompositionUvEpi
+Title: "Composition for actelsar Package Leaflet"
+Description:  "Composition for actelsar Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp59280408a348b0d03a2b54f964baa3e4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp59280408a348b0d03a2b54f964baa3e4
+* title = "TEST PURPOSES ONLY - actelsar"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Actelsar HCT </li>
+<li>Sådan skal du tage Actelsar HCT </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What actelsar is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What actelsar is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Actelsar HCT er en kombination af to aktive stoffer - telmisartan og hydrochlorthiazid - i én tablet. 
+Begge lægemiddelstoffer anvendes til at sænke forhøjet blodtryk. </p>
+<ul>
+<li>Telmisartan er en såkaldt angiotensin II-receptorantagonist. Angiotensin II er et naturligt stof i 
+kroppen, som får blodkarrene til at snævre ind. Når blodkarrene snævrer ind, stiger blodtrykket. 
+Telmisartan blokerer angiotensin IIs virkning, så blodkarrene afslappes, og blodtrykket falder. </li>
+<li>Hydrochlorthiazid er en såkaldt thiazid, som virker vanddrivende. Thiazider får urinmængden til 
+at stige, og det fører til, at blodtrykket falder. </li>
+</ul>
+<p>Hvis forhøjet blodtryk ikke behandles, kan der ske skader på blodkarrene i flere organer. Skaderne kan 
+føre til hjerteanfald, hjerte- eller nyresvigt, slagtilfælde eller blindhed. Man har normalt ingen 
+symptomer på forhøjet blodtryk, før en skade sker. Derfor er det vigtigt at få målt blodtrykket 
+regelmæssigt for at finde ud af, om det ligger i normalområdet. </p>
+<p>Actelsar HCT bruges til at sænke forhøjet blodtryk (essentiel hypertension) hos voksne, hvis 
+blodtryk ikke er sænket tilstrækkeligt med telmisartan. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take actelsar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take actelsar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Actelsar HCT 
+- hvis du er allergisk over for telmisartan eller et af de øvrige indholdsstoffer i Actelsar HCT 
+(angivet i punkt 6). 
+- hvis du er allergisk over for hydrochlorthiazid eller et andet sulfonamidholdigt lægemiddel. 
+- hvis du er mere end 3 måneder henne i graviditeten. (Du skal desuden helst undgå at bruge 
+Actelsar HCT tidligt i graviditeten – se afsnittet om Graviditet). 
+- hvis du har alvorlige leverproblemer, som f.eks. galdeophobning i galdegangene eller problemer 
+med udskillelse af galde fra leveren og galdeblæren, eller andre alvorlige leversygdomme. 
+- hvis du har alvorlig nyresygdom. 
+- hvis din læge i en blodprøve finder for lavt indhold af kalium eller for højt indhold af calcium, 
+og dette ikke bedres ved behandling. 
+- hvis du har sukkersyge eller nedsat nyrefunktion, og du også tager et blodtrykssænkende 
+lægemiddel, der indeholder aliskiren. </p>
+<p>Hvis et af ovennævnte punkter gælder for dig, skal du tale med din læge eller apoteket om det, inden 
+du tager Actelsar HCT. </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, før du tager Actelsar HCT, hvis du har eller har haft en medicinsk lidelse eller 
+sygdom, især hvis det er en af dem, der er nævnt nedenfor:</p>
+<ul>
+<li>Lavt blodtryk (hypotension), som kan forekomme, når du er dehydreret (har for lidt 
+kropsvæske) eller har saltmangel på grund af enten vanddrivende medicin, saltfattig diæt, diarré, 
+opkastning eller hæmodialyse. </li>
+<li>Nyresygdom eller nyretransplantation. </li>
+<li>Forsnævring af blodkarrene til den ene eller begge nyrer (nyre-arteriestenose). </li>
+<li>Leversygdom. </li>
+<li>Hjerteproblemer. </li>
+<li>Sukkersyge. </li>
+<li>Urinsyregigt (Podagra). </li>
+<li>Forhøjet aldosteronniveau (vand og salt ophobning i kroppen og ubalance i blodets indhold af 
+mineraler). </li>
+<li>Bindevævssygdommen systemisk lupus erythematosus (også kaldet lupus eller SLE), en 
+sygdom, hvor kroppens immunsystem angriber kroppen. </li>
+<li>Det aktive indholdsstof hydrochlorothiazid kan forårsage en usædvanlig reaktion, som fører til 
+synstab og øjensmerter. Disse kan være symptomer på væskeansamling i det vaskulære lag i 
+øjet (choroidal effusion) eller øget tryk i øjnene og kan forekomme inden for timer til uger fra 
+indtagelsen af Actelsar HCT. Dette kan medføre et permanent synsnedsættelse, hvis det ikke 
+behandles. </li>
+<li>Hvis du har haft hudkræft, eller hvis du udvikler en uventet hudlæsion under behandlingen. 
+Behandling med hydrochlorthiazid, navnlig ved langtidsbrug af høje doser, kan øge risikoen for 
+visse typer hud- og læbekræft (non-melanom hudkræft). Beskyt huden mod sollys og UV-
+stråler, mens du tager Actelsar HCT. </li>
+<li>Hvis du tidligere har haft vejrtræknings- eller lungeproblemer (herunder betændelse eller væske 
+i lungerne) efter indtagelse af hydrochlorthiazid. Hvis du udvikler alvorlig åndenød eller 
+vejrtrækningsbesvær efter at have taget Actelsar HCT, skal du straks søge lægehjælp. </li>
+</ul>
+<p>Kontakt lægen, før du tager Actelsar HCT, hvis du tager:</p>
+<ul>
+<li>
+<p>et af følgende lægemidler til behandling af for højt blodtryk:</p>
+</li>
+<li>
+<p>en ACE-hæmmer (f.eks. enalapril, lisinopril, ramipril), især hvis du har nyrerproblemer i 
+forbindelse med sukkersyge. </p>
+</li>
+<li>aliskiren. 
+Din læge vil eventuelt måle din nyrefunktion, dit blodtryk og elektrolytter (f.eks. kalium) i dit 
+blod med jævne mellemrum. Se også information under overskriften ”Tag ikke Actelsar HCT” </li>
+<li>digoxin. </li>
+</ul>
+<p>Fortæl din læge, hvis du tror, du er gravid (eller kan blive gravid). Actelsar HCT kan ikke anbefales til 
+gravide. Hvis Actelsar HCT tages mere end 3 måneder henne i graviditeten, kan det forårsage 
+alvorlige fosterskader (se afsnit Graviditet). </p>
+<p>Behandling med hydrochlorthiazid kan forårsage ændringer i kroppens saltbalance. Typiske 
+symptomer på væskemangel eller ubalance mellem kroppens salte er mundtørhed, svaghed, sløvhed, 
+døsighed, rastløshed, muskelsmerter eller kramper, kvalme, opkastning, trætte muskler og en unormal 
+hurtig hjerterytme (mere end 100 slag i minuttet). Hvis du oplever ét eller flere af ovenstående 
+symptomer, bør du tale med din læge. </p>
+<p>Fortæl din læge, hvis du ved solbadning hurtigere end ellers oplever symptomer på solskoldning 
+(såsom rødme, kløe, hævelse, blærer). </p>
+<p>Før en operation eller bedøvelse bør du fortælle din læge, at du tager Actelsar HCT. </p>
+<p>Actelsar HCT kan have en mindre blodtrykssænkende virkning hos sorte patienter. </p>
+<p>Børn og unge 
+Actelsar HCT bør ikke ordineres til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Actelsar HCT </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. Det er muligt, at lægen er nødt til at ændre din dosis 
+af disse andre lægemidler eller tage andre forholdsregler. I nogle tilfælde må du stoppe med at tage 
+noget af medicinen. Dette gælder specielt, hvis du samtidig med Actelsar HCT tager én af de typer 
+medicin, der er angivet herunder:</p>
+<ul>
+<li>Medicin, der indeholder lithium til behandling af visse typer af depression. </li>
+<li>Medicin, der kan forårsage lavt kaliumindhold i blodet (hypokaliæmi). Det kan være andre 
+vanddrivende tabletter (diuretika), afføringsmidler (f.eks. amerikansk olie), kortikosteroider 
+(f.eks.prednison), ACTH (et hormon), amphotericin (mod svampeinfektion), carbenoxolen (til 
+at behandle mundsår), benzylpenicillin (et antibiotikum) og salicylsyre og hermed beslægtede 
+stoffer. </li>
+<li>Medicin, der kan forhøje indholdet af kalium i blodet, såsom vanddrivende medicin, 
+kaliumtilskud, saltsubstitutter som indeholder kalium og ACE-hæmmere (blodtrykssænkende 
+medicin), ciclosporin ((undertrykker kroppens immunforsvar) og andre lægemidler såsom 
+heparinnatrium (blodfortyndende medicin). </li>
+<li>Medicin, der påvirkes af ændringer i kaliumindholdet i blodet, såsom hjertemedicin (f.eks. 
+digoxin) og medicin til at kontrollere hjerterytmen (f.eks. quinidin, disopyramid, amiodaron, 
+sotalol), medicin, som bruges til psykiske lidelser (f.eks. thioridazin, chlorpromazin, 
+levomepromazin) og andre lægemidler, såsom visse antibiotika (f.eks sparfloxacin, pentamidin) 
+eller visse lægemidler til behandling af allergiske reaktioner (f.eks terfenadin).  </li>
+<li>Medicin til behandling af diabetes (insulin eller orale lægemidler såsom metformin) </li>
+<li>Colestyramin og colestipol, medicin til at sænke blodets fedtindhold. </li>
+<li>Medicin til at øge blodtrykket, såsom noradrenalin. </li>
+<li>Muskelafslappende medicin, såsom tubocurarin. </li>
+<li>Kalktilskud og/eller D-vitamintilskud. </li>
+<li>Anti-cholinerge lægemidler (medicin til behandling af en række forskellige lidelser, såsom 
+mavekramper, urinblære spasmer, astma, transportsyge, muskelkramper, Parkinsons sygdom og 
+som en hjælp til bedøvelse) såsom atropin og biperiden. </li>
+<li>Amantadin (medicin til behandling af Parkinsons sygdom, som også bruges til at behandle eller 
+forebygge visse sygdomme forårsaget af virus). </li>
+<li>Blodtrykssænkende medicin, binyrebarkhormoner (kortikosteroider), smertestillende medicin 
+såsom non-steroide antiinflamatoriske lægemider (NSAID), medicin til behandling af cancer, 
+urinsyregigt (podagra) eller leddegigt. </li>
+<li>Hvis du samtidig tager en ACE-hæmmer eller aliskiren (se også information under 
+overskrifterne ”Tag ikke Actelsar HCT” og ”Advarsler og forsigtighedsregler”). </li>
+<li>Digoxin. </li>
+</ul>
+<p>Actelsar HCT kan forøge den blodtrykssænkende virkning af andre lægemidler mod for højt blodtryk 
+eller lægemidler, der kan sænke blodtrykket (f.eks. baclofen, amifostin). Lavt blodtryk kan desuden 
+forværres af alkohol, barbiturater, narkotika eller antidepressive midler. Du kan måske mærke dette 
+som svimmelhed, når du rejser dig op. Du bør derfor tale med din læge om eventuelt at få ændret 
+doseringen af din medicin. </p>
+<p>Blodtrykssænkningen med Actelsar HCT kan blive mindre ved samtidig brug af medicin mod gigt og 
+lette smerter (non-steroid antiinflammatorisk medicin (NSAID)), f.eks. acetylsalicylsyre eller 
+ibuprofen. </p>
+<p>Brug af Actelsar HCT sammen med mad og alkohol 
+Du kan tage Actelsar HCT med eller uden mad. 
+Undgå at drikke alkohol før du har talt med din læge. Alkohol kan få dit blodtryk til at falde yderligere 
+og/eller øge risikoen for at du bliver svimmel eller føler dig mat. </p>
+<p>Graviditet og amning 
+Graviditet 
+Fortæl din læge, hvis du tror, du er gravid (eller kan blive gravid). Normalt vil din læge anbefale dig at 
+stoppe med at tage Actelsar HCT, før du bliver gravid, eller så snart du ved, du er gravid. Din læge vil 
+anbefale en anden type medicin i stedet for Actelsar HCT. Det frarådes at anvende Actelsar HCT 
+under graviditeten, og det må ikke tages senere end 3 måneder henne i graviditeten, da det kan 
+forårsage alvorlige fosterskader. </p>
+<p>Amning 
+Fortæl din læge, hvis du ammer eller vil starte på at amme. Actelsar HCT anbefales ikke til ammende 
+mødre. Din læge vil vælge en anden behandling til dig, hvis du ønsker at amme. </p>
+<p>Trafik- og arbejdssikkerhed 
+Man kan føle sig svimmel eller blive træt, når man tager Actelsar HCT. Kør ikke bil eller motorcykel, 
+og lad være med at cykle eller arbejde med værktøj eller maskiner, hvis du føler dig svimmel eller 
+træt. </p>
+<p>Actelsar HCT indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take actelsar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take actelsar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid  denne medicin nøjagtigt efter lægens eller apotekets anvisning. Er du i tvivl, så spørg lægen 
+eller på apoteket. </p>
+<p>Den anbefalede dosis er én tablet daglig. Det er bedst at indtage tabletten på samme tid hver dag. 
+Tabletten kan tages både sammen med mad og alene. Tabletten synkes sammen med vand eller en 
+anden væske. Det er vigtigt, at du tager Actelsar HCT hver dag, så længe din læge ikke siger andet. </p>
+<p>Hvis din leverfunktion er nedsat, bør dosis ikke være højere end 40 mg/12,5 mg én gang om dagen. </p>
+<p>Hvis du har taget for meget Actelsar HCT 
+Hvis du har taget for mange tabletter, kan du få symptomer såsom lavt blodtryk og hjertebanken. 
+Langsom puls, svimmelhed, opkastning, nedsat nyrefunktion, herunder nyresvigt, er også rapporteret. 
+På grund af hydrochlorthiazid, kan markant lavt blodtryk og lavt indhold af kalium i blodet også 
+forekomme, hvilket kan resultere i kvalme, søvnighed og muskelkramper. Ved samtidig brug af 
+lægemidler som digoxin eller andre antiarytmiske behandlinger kan du få uregelmæssig hjerterytme. 
+Kontakt straks lægen, skadestuen eller apoteket. </p>
+<p>Hvis du har glemt at tage Actelsar HCT 
+Hvis du glemmer at tage medicinen, skal du tage den straks du kommer i tanke om det, og derefter 
+fortsætte som du plejer. Hvis du en dag ikke får taget din tablet, skal du blot tage den sædvanlige dosis 
+næste dag. Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige og kræver omgående lægehjælp: 
+Du skal straks kontakte din læge, hvis du får nogle af følgende symptomer: </p>
+<p>Sepsis* (ofte kaldet "blodforgiftning"), en alvorlig infektion med betændelsesreaktion i hele kroppen, 
+hurtig hævelse af hud og slimhinder (angioødem), blærer og afskalning af det øverste lag af huden 
+(toksisk epidermal nekrolyse). Disse bivirkninger er sjældne (kan forekomme hos op til 1 ud af 1.brugere) eller er af ukendt hyppigheden (toksisk epidermal nekrolyse), men er meget alvorlige. 
+Indtagelse af medicinen skal stoppe og lægen skal kontaktes straks. Hvis disse bivirkninger ikke bliver 
+behandlet, kan de være dødelige. En øget forekomst af sepsis er kun set med telmisartan, men kan ikke 
+udelukkes for Actelsar HCT. 
+Meget sjældne (kan forekomme hos op til 1 ud af 10.000 brugere): Akut åndedrætsbesvær (symptomer 
+omfatter svær åndenød, feber, svaghed og forvirring) </p>
+<p>Bivirkninger ved Actelsar HCT: </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 brugere): 
+Svimmelhed </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 brugere): 
+Nedsat kaliumindhold i blodet, angst, besvimelse, snurrende, prikkende og stikkende fornemmelse 
+(paræstesi), følelse af at dreje rundt (svimmelhed), hjertebanken (takykardi), forstyrret hjerterytme, 
+lavt blodtryk, et pludseligt fald i blodtrykket, når du rejser dig op, stakåndethed (dyspnø), diaré, 
+mundtørhed, luftafgang fra tarmen, rygsmerter, muskeltrækninger, muskelsmerter, erektil dysfunktion 
+(manglende evne til at få eller opretholde erektion), brystsmerter, forhøjet urinsyreindhold i blodet. </p>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 brugere): 
+Lungebetændelse (bronkitis), provokation eller forværring af systemisk lupus erythematosus (en 
+sygdom, hvor kroppens immunsystem angriber kroppen, hvilket forårsager ledsmerter, hududslæt og 
+feber); ondt i halsen, bihulebetændelse, tristhed (depression), besvær med at falde i søvn (insomni), 
+forringet syn, besvær med at trække vejret, mavesmerter, forstoppelse, oppustethed (dyspepsi), 
+utilpashed (opkastning), mavekatar, unormal leverfunktion (japanske patienter har større 
+sandsynlighed for at få denne bivirkning), rødme af huden, allergiske reaktioner såsom kløe eller 
+udslæt, øget svedproduktion, nældefeber (urticaria), ledsmerter (artralgi) og smerter i arme og ben, 
+muskelkramper, influenzalignende symptomer, smerter. Desuden kan der forekomme nedsat 
+natriumindhold, forhøjet serumkreatinin, forøgede leverenzymer samt kreatininkinase i blodet. </p>
+<p>Nedenstående bivirkninger, der er blevet rapporteret for de to aktive indholdsstoffer, er også mulige 
+bivirkninger for Actelsar HCT, selvom de ikke er set i kliniske studier med dette lægemiddel. </p>
+<p>Telmisartan 
+Hos patienter, der kun får telmisartan, er der i tillæg til ovenstående set følgende bivirkninger: </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 brugere): 
+Øvre luftvejsinfektion (f.eks. ondt i halsen, bihulebetændelse, almindelig forkølelse), 
+urinvejsinfektion, blodmangel (anæmi), høje kaliumniveauer, langsom hjerterytme (bradykardi), 
+nedsat nyrefunktion inklusive akut nyresvigt, svaghed, hoste. </p>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 brugere): 
+Lavt blodpladetal (trombocytopeni), øget mængde hvide blodlegemer (eosinofili), alvorlig allergisk 
+reaktion (f.eks. overfølsomhed, anafylaktisk reaktion, lægemiddelfremkaldt udslæt), lavt blodsukker 
+(hos diabetes patienter), maveproblemer, eksem, slidgigt, senebetændelse, nedsat hæmoglobin (et 
+blodprotein), søvnighed. </p>
+<p>Meget sjældne (kan forekomme hos op til 1 ud af 10.000 brugere): 
+Tiltagende arvævsdannelse i lungerne (interstitiel lungesygdom)** </p>
+<p>*Observationen kan være en tilfældighed eller kan være relateret til en mekanisme, som på nuværende 
+tidspunkt ikke er kendt. </p>
+<p>**Tilfælde af tiltagende arvævsdannelse i lungerne er blevet rapporteret ved indtagelse af telmisartan. 
+Det er imidlertid ikke kendt, hvorvidt telmisartan var årsagen.  </p>
+<p>Hydrochlorthiazid 
+Hos patienter, der kun får hydrochlorthiazid, er der, i tillæg til de bivirkninger, som er nævnt for 
+Actelsar HCT, set følgende bivirkninger: </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 brugere): 
+Utilpashed (kvalme), lavt magnesiumindhold i blodet. </p>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 brugere): 
+Reduktion i blodplader, som øger risikoen for blødning eller blå mærker (små lilla-røde mærker på 
+huden eller andet væv forårsaget af blødning), højt calciumindhold i blodet, hovedpine. </p>
+<p>Meget sjældne (kan forekomme hos op til 1 ud af 10.000 brugere): 
+Forhøjet pH-værdi (forstyrrelse i syre-base-balancen) på grund af lavt kloridindhold i blodet. </p>
+<p>Bivirkninger med ukendt hyppighed (hyppigheden kan ikke bestemmes ud fra de kendte data) 
+Betændelse i en spytkirtel, hud- og læbekræft (non-melanom hudkræft), lavt (eller endda manglende) 
+indhold af røde og hvide blodlegemer, alvorlig allergisk reaktion (f.eks. overfølsomhed, anafylaktisk 
+reaktion), appetitløshed, rastløshed, svimmelhed, sløret eller gulligt syn, synsnedsættelse og 
+øjensmerter (mulige tegn på væskeansamling i det vaskulære lag i øjet (choroidal effusion) eller akut 
+nærsynethed eller akut snævervinklet glaukom), betændelse i blodkarrene (nekrotiserende vaskulit), 
+betændt bugspytkirtel, maveproblemer, gul i huden eller øjnene (gulsot), lupus-lignende symptomer 
+(bivirkninger, som ligner en sygdom kaldet systemisk lupus erythematosus, hvor kroppens 
+immunsystem angriber kroppen), hudsygdomme som f.eks. betændte blodkar i huden, øget følsomhed 
+for sollys, udslæt, hudrødme, blærer på læber, øjne eller mund, afskalning af hud, feber (mulige tegn 
+på erythema multiforme), svaghed, nyrebetændelse eller nedsat nyrefunktion, sukker i urinen 
+(glykosuri), feber, forstyrrelse i elektrolytbalancen, højt indhold af kolesterol i blodet, nedsat 
+blodvolumen, forhøjet sukkerindhold i blodet, usikkerhed med at kontrollere sukkerindholdet i 
+blod/urin hos patienter med diabetes mellitus eller forhøjet fedtindhold i blodet. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store actelsar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store actelsar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, blisteret eller flaskeetiketten efter 
+”EXP”. Udløbsdatoen er den sidste dag i den nævnte måned. “Lot”, der er trykt på pakningen, 
+henviser til batch nummeret.  </p>
+<p>For Al/Al blister og HDPE tabletbeholder 
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>For Al/PVC/PVDC blister 
+Må ikke opbevares ved temperaturer over 30ºC. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Actelsar HCT indeholder<br />
+- Aktive stoffer: Telmisartan og hydrochlorthiazid. Én tablet indeholder 40 mg telmisartan og 
+12,5 mg hydrochlorthiazid. 
+- Øvrige indholdsstoffer: Magnesiumstearat (E470b), kaliumhydroxid, meglumin, povidon, 
+natriumstivelseglykollat (type A), mikrokrystallinsk cellulose, mannitol (E421). </p>
+<p>Actelsar HCT's udseende og pakningsstørrelse 
+Actelsar HCT 40 mg/12,5 mg tabletter er hvide eller næsten hvide, 6,55 x 13,6 mm ovale og 
+bikonvekse tabletter mærket med "TH" på den ene side. </p>
+<p>Pakningsstørrelser 
+AL/al blisterpakker: 14, 28, 30, 56, 84, 90 og 98 tabletter<br />
+Al/PVC/PVDC blisterpakker: 28, 56, 84, 90 and 98 tabletter 
+Tabletbeholdere: 30, 90 og 250 tabletter </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Actavis Group PTC ehf. 
+Dalshraun 1, 220 Hafnarfjörður, Island </p>
+<p>Fremstiller 
+Actavis Ltd. 
+BLB016, Bulebel Industrial Estate, Zejtun ZTN 3000, Malta </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Teл: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS A.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS A.E.<br />
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Actelsar HCT 80 mg/12,5 mg tabletter 
+telmisartan/hydrochlorothiazid </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret lægemidlet til dig personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d4e93c060506fdcc083b5b1a04e82522
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for actelsar Package Leaflet for language en"
+Description: "ePI document Bundle for actelsar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d4e93c060506fdcc083b5b1a04e82522"
+* entry[0].resource = composition-en-d4e93c060506fdcc083b5b1a04e82522
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd4e93c060506fdcc083b5b1a04e82522"
+* entry[=].resource = mpd4e93c060506fdcc083b5b1a04e82522
+                            
+                    
+Instance: bundlepackageleaflet-da-d4e93c060506fdcc083b5b1a04e82522
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for actelsar Package Leaflet for language da"
+Description: "ePI document Bundle for actelsar Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d4e93c060506fdcc083b5b1a04e82522"
+* entry[0].resource = composition-da-d4e93c060506fdcc083b5b1a04e82522
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd4e93c060506fdcc083b5b1a04e82522"
+* entry[=].resource = mpd4e93c060506fdcc083b5b1a04e82522
+                            
+                    
+
+
+
+Instance: mpd4e93c060506fdcc083b5b1a04e82522
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Actelsar HCT 40 mg/12.5 mg tablets"
-Description: "Actelsar HCT 40 mg/12.5 mg tablets"
+Title: "Medicinal Product actelsar"
+Description: "actelsar"
 Usage: #inline
 
  
@@ -477,7 +1032,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Actelsar HCT 40 mg/12.5 mg tablets"
+  * productName = "actelsar"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -504,29 +1059,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d4e93c060506fdcc083b5b1a04e82522
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for actelsar Package Leaflet for language en"
-Description: "ePI document Bundle for actelsar Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d4e93c060506fdcc083b5b1a04e82522ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "21"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "actelsar"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d4e93c060506fdcc083b5b1a04e82522"
-* entry[0].resource = composition-en-d4e93c060506fdcc083b5b1a04e82522
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp59280408a348b0d03a2b54f964baa3e4"
-* entry[=].resource = mp59280408a348b0d03a2b54f964baa3e4
-                            
-                      
+* title = "List of all ePIs associated with actelsar"
+
+* subject = Reference(mp59280408a348b0d03a2b54f964baa3e4)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#actelsar "actelsar"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d4e93c060506fdcc083b5b1a04e82522) // actelsar en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d4e93c060506fdcc083b5b1a04e82522) // actelsar da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d4e93c060506fdcc083b5b1a04e82522
+InstanceOf: List
+
+* insert d4e93c060506fdcc083b5b1a04e82522ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9dc703bc672ed093a819de38cd335ddf
 InstanceOf: CompositionUvEpi
 Title: "Composition for aclasta Package Leaflet"
@@ -445,12 +448,550 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-9dc703bc672ed093a819de38cd335ddf
+InstanceOf: CompositionUvEpi
+Title: "Composition for aclasta Package Leaflet"
+Description:  "Composition for aclasta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp518ac406479ec1c030d624ad342c9194)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp518ac406479ec1c030d624ad342c9194
+* title = "TEST PURPOSES ONLY - aclasta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at blive behandlet med Aclasta </li>
+<li>Sådan får du Aclasta </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What aclasta is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What aclasta is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aclasta indeholder det aktive stof zoledronsyre. Det tilhører en gruppe af stoffer, kaldet bisfosfonater, 
+og anvendes til behandling af post-menopausale kvinder og voksne mænd med osteoporose eller 
+osteoporose forårsaget af behandling med kortikosteroider brugt til behandling af betændelse, og 
+Pagets sygdom af knoglerne hos voksne. </p>
+<p>Osteoporose (knogleskørhed) 
+Osteoporose er en sygdom, hvor knoglerne bliver tyndere og svagere, og det er almindeligt hos 
+kvinder efter overgangsalderen (menopausen), men kan også forekomme hos mænd. I 
+overgangsalderen holder kvindens æggestokke op med at producere det kvindelige kønshormon 
+østrogen, som er med til at holde knoglerne sunde og raske. Efter overgangsalderen sker der 
+knogletab, og knoglerne bliver svagere og brækker lettere. Osteoporose kan også opstå hos mænd og 
+kvinder på grund af langtidsbrug af steroider, som kan påvirke styrken af knoglerne. Mange patienter 
+med osteoporose har ingen symptomer, men de har stadig risiko for knoglebrud, fordi osteoporosen 
+har svækket knoglerne. Nedsat niveau af cirkulerende kønshormoner, især østrogener omdannet fra 
+androgener spiller også en rolle i det mere gradvise knogletab, der ses hos mænd. Hos både mænd og 
+kvinder styrker Aclasta knoglerne og mindsker derfor risikoen for brud. Aclasta bruges også til 
+patienter, der for nylig har brækket deres hofte ved et mindre uheld, fx ved fald, og som derfor har 
+risiko for yderligere knoglebrud. </p>
+<p>Pagets sygdom 
+Det er normalt, at gammelt knoglevæv nedbrydes og erstattes med nyt knoglevæv. Denne proces 
+kaldes remodellering. Ved Pagets sygdom er knogleremodelleringen for hurtig, og nyt knoglevæv 
+dannes på en sygelig måde, som gør det svagere end normalt. Hvis sygdommen ikke behandles, kan 
+knoglerne blive deforme og smertefulde, og de kan brække. Aclasta virker ved at normalisere 
+remodelleringsprocessen, sikre dannelse af normalt knoglevæv og dermed genoprette knoglestyrken. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take aclasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take aclasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følg nøje alle lægens, apotekspersonalets eller sygeplejerskens instruktioner, før du får Aclasta. </p>
+<p>Du må ikke få Aclasta 
+- hvis du er allergisk over for zoledronsyre, andre bisfosfonater eller et af de øvrige 
+indholdsstoffer i dette lægemiddel (angivet i punkt 6). 
+- hvis du har hypokalcæmi (dvs. du har for lavt indhold af calcium i blodet). 
+- hvis du har alvorlige nyreproblemer. 
+- hvis du er gravid. 
+- hvis du ammer. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du får Aclasta:</p>
+<ul>
+<li>hvis du er i behandling med anden medicin, der også indeholder zoledronsyre, der er det samme 
+aktive stof i Aclasta (zoledronsyre bruges til voksne patienter med visse kræftformer for at 
+forebygge knoglekomplikationer eller for at nedsætte mængden af calcium). </li>
+<li>hvis du har eller har haft nyreproblemer. </li>
+<li>hvis du ikke kan tage dagligt kalktilskud. </li>
+<li>hvis du har fået fjernet en eller flere af biskjoldbruskkirtlerne på halsen ved en operation. </li>
+<li>hvis du har fået fjernet dele af tarmen. </li>
+</ul>
+<p>Efter markedsføring af produktet er en bivirkning kaldet osteonekrose i kæben (knogleskade i kæben) 
+blevet set hos patienter behandlet med Aclasta (zoledronsyre) mod osteoporose. Osteonekrose i kæben 
+kan også opstå efter, at behandlingen er stoppet. </p>
+<p>Det er vigtigt at prøve at undgå udvikling af osteonekrose i kæben, da det er en smertefuld lidelse, som 
+kan være svær at behandle. For at mindske risikoen for udvikling af osteonekrose i kæben, er der 
+nogle forholdsregler, du bør tage. </p>
+<p>Før du får Aclasta-behandling, skal du fortælle din læge, farmaceut eller sundhedspersonale, hvis 
+- du har nogle problemer med din mund eller tænder, som fx dårlig mundhygiejne, 
+tandkødslidelser, eller en planlagt tandudtrækning; 
+- du ikke får regelmæssig tandpleje eller ikke har haft et tandeftersyn i lang tid; 
+- du ryger (det kan øge risikoen for tandproblemer); 
+- du tidligere er blevet behandlet med bisfosfonat (bruges til at behandle eller forebygge 
+knoglekomplikationer); 
+- du tager medicin kaldet kortikosteroider (fx prednisolon eller dexamethason); 
+- du har kræft. </p>
+<p>Din læge vil måske bede dig om at få et tandeftersyn, før du starter behandling med Aclasta. </p>
+<p>Mens du er i behandling med Aclasta, skal du holde en god mundhygiejne (inkl. regelmæssig 
+tandbørstning) og gå til regelmæssige tandeftersyn. Hvis du bruger tandproteser, skal du sikre dig, at 
+de passer dig ordentligt. Hvis du er i gang med tandbehandling eller skal gennemgå kæbekirurgi (fx en 
+tandudtrækning), skal du fortælle din læge om din tandbehandling, og fortælle din tandlæge, at du er i 
+behandling med Aclasta. Kontakt straks din læge eller tandlæge, hvis du får nogle problemer med din 
+mund eller tænder, som fx tab af tænder, smerte eller hævelse, eller manglende sårheling eller pus fra 
+såret, da dette kan være tegn på osteonekrose i kæben. </p>
+<p>Overvågning 
+Din læge bør tage en blodprøve for at kontrollere din nyrefunktion (kreatininniveau) før hver 
+Aclastadosis. Det er vigtigt, at du drikker mindst 2 glas væske (fx vand) inden for et par timer før 
+behandling med Aclasta, som anvist af sundhedspersonalet. </p>
+<p>Børn og unge 
+Aclasta frarådes til personer under 18 år. </p>
+<p>Brug af anden medicin sammen med Aclasta 
+Fortæl altid lægen, apotekspersonalet eller sygeplejersken, hvis du bruger anden medicin, for nylig har 
+brugt anden medicin eller planlægger at bruge anden medicin. </p>
+<p>Det er vigtigt, at lægen har kendskab til al den medicin du bruger, specielt hvis du bruger anden 
+medicin, som man ved, kan skade nyrerne (fx aminoglykosider) eller diuretika (”vanddrivende 
+midler”), der kan forårsage dehydrering. </p>
+<p>Graviditet og amning 
+Du må ikke få Aclasta, hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller 
+planlægger at blive gravid. </p>
+<p>Spørg din læge, apotekspersonalet eller sygeplejersken til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Hvis du føler dig svimmel, mens du tager Aclasta, må du ikke køre bil eller betjene maskiner, før du 
+har det bedre. </p>
+<p>Aclasta indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) per 100 ml Aclasta (1 hætteglas), 
+dvs. det er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take aclasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take aclasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følg nøje alle instruktioner, du får af lægen eller sygeplejersken. Er du i tvivl, så spørg lægen eller 
+sygeplejersken. </p>
+<p>Osteoporose 
+Den sædvanlige dosis er 5 mg, der gives som én infusion pr. år i en vene af din læge eller 
+sygeplejerske. Infusionen vil vare mindst 15 minutter. </p>
+<p>Hvis du for nylig har brækket din hofte, anbefales det at Aclasta gives to eller flere uger efter din 
+hofteoperation. </p>
+<p>Det er vigtigt, at du tager tilskud af calcium og D-vitamin (fx tabletter) efter lægens anvisninger. </p>
+<p>For osteoporose virker Aclasta i 1 år. Din læge vil fortælle dig, hvornår du skal komme tilbage og få 
+din næste dosis. </p>
+<p>Pagets sygdom 
+Til behandling af Pagets sygdom bør Aclasta kun ordineres af læger med erfaring i behandlingen af 
+Pagets sygdom af knoglerne. </p>
+<p>Den sædvanlige dosis er 5 mg, som indgives af din læge eller sygeplejerske som en infusion i en vene. 
+Infusionen vil vare mindst 15 minutter. Aclasta kan virke i mere end et år, og din læge vil fortælle dig, 
+om du skal behandles igen. </p>
+<p>Din læge kan råde dig til at tage et tilskud af calcium og D-vitamin (fx tabletter) i mindst de første ti 
+dage, efter du har fået Aclasta. Det er vigtigt, at du følger dette råd nøje, så mængden af calcium i 
+blodet ikke bliver for lav i perioden efter infusionen. Din læge vil fortælle dig om de symptomer, som 
+forbindes med hypokalcæmi (for lavt indhold af calcium i blodet). </p>
+<p>Brug af Aclasta sammen med mad og drikke 
+Sørg for at drikke tilstrækkelig væske (mindst 1 eller 2 glas) før og efter behandling med Aclasta, som 
+din læge har fortalt dig. Det vil hjælpe dig med at undgå væsketab. Du kan spise normalt den dag, du 
+får behandling med Aclasta. Dette er specielt vigtigt for patienter, der tager diuretika (”vandrivende”) 
+og for ældre patienter (65 år eller derover). </p>
+<p>Hvis du har glemt en dosis Aclasta<br />
+Kontakt din læge eller dit hospital så hurtigt som muligt for at få en ny tid. </p>
+<p>Før Aclasta-behandlingen stoppes 
+Hvis du overvejer at stoppe Aclasta-behandlingen, bedes du gå til din næste tid og drøfte det med 
+lægen. Din læge vil vejlede dig og beslutte, hvor længe du skal behandles med Aclasta. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Det er meget almindeligt, at der ses bivirkninger efter den første infusion (ses hos flere end 30 % af 
+patienterne), mens det er mindre almindeligt efter de efterfølgende infusioner. Størstedelen af 
+bivirkningerne, såsom feber og kulderystelser, smerter i muskler eller led og hovedpine, opstår inden 
+for de første tre dage efter en dosis Aclasta. Symptomerne er almindeligvis milde til moderate og 
+forsvinder inden for tre dage. Din læge kan anbefale mild smertestillende medicin som ibuprofen eller 
+paracetamol for at mindske disse bivirkninger. Risikoen for at få disse bivirkninger aftager ved de 
+efterfølgende doser Aclasta. </p>
+<p>Nogle bivirkninger kan være alvorlige 
+Almindelige (kan forekomme hos op til 1 ud af 10 patienter) 
+Uregelmæssig hjerterytme (puls), kaldet atrieflimren, er set hos patienter behandlet med Aclasta for 
+post-menopausal osteoporose. Det er på nuværende tidspunkt uklart, om Aclasta forårsager denne 
+uregelmæssige hjerterytme, men du skal kontakte din læge, hvis du oplever sådanne symptomer, efter 
+du har fået Aclasta. </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter) 
+Hævelse omkring øjnene, røde øjne, øjensmerter og øjenkløe eller lysfølsomme øjne. </p>
+<p>Meget sjælden (kan forekomme hos op til 1 ud af 10.000 patienter) 
+Sig det til lægen, hvis du får øresmerter, udflåd fra øret og/eller betændelse i øret. Dette kan være tegn 
+på knoglebeskadigelse i øret. </p>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data) 
+Smerter i mund og/eller kæbe, hævelse eller manglende sårheling i munden eller kæben, pus fra såret, 
+følelsesløshed eller en følelse af tunghed i kæben, eller løsnen af en tand; dette kan være tegn på 
+knogleskade i kæben (osteonekrose). Kontakt straks din læge og tandlæge, hvis du oplever sådanne 
+symptomer, mens du er i behandling med Aclasta, eller efter at behandlingen er stoppet. </p>
+<p>Nyreproblemer (fx nedsat mængde urin) kan forekomme. Din læge bør tage en blodprøve for at 
+kontrollere din nyrefunktion før hver Aclastadosis. Det er vigtigt, at du drikker mindst 2 glas væske 
+(fx vand), inden for et par timer før behandling med Aclasta, som anvist af sundhedspersonalet. </p>
+<p>Hvis du oplever nogen af ovenstående bivirkninger, skal du straks kontakte din læge. </p>
+<p>Aclasta kan også give andre bivirkninger 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter) 
+Feber </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter) 
+Hovedpine, svimmelhed, kvalme, opkastninger, diarré, muskelsmerter, knogle- og/eller ledsmerter, 
+smerter i ryg, arme eller ben, influenzalignende symptomer (fx træthed, kuldegysninger, led- og 
+muskelsmerter), kuldegysninger, følelse af træthed og manglende interesse, svækkelse, smerter, 
+sygdomsfølelse, hævelse og/eller smerte ved infusionsstedet. </p>
+<p>Hos patienter med Pagets sygdom, er symptomer på grund af lavt calciumindhold i blodet, fx 
+muskelkramper, følelsesløshed eller en snurrende fornemmelse især omkring munden blevet 
+rapporteret. </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter) 
+Influenza, øvre luftvejsinfektioner, nedsat antal røde blodlegemer, appetitløshed, søvnløshed, 
+søvnighed, hvilket kan medføre nedsat opmærksomhed, prikkende følelse eller følelsesløshed, ekstrem 
+træthed, rysten, midlertidig tab af bevidsthed, øjeninfektion eller irritation eller betændelse med 
+smerter og rødme, følelse af snurren, forhøjet blodtryk, rødme, hoste, åndenød, maveproblemer, 
+mavesmerter, forstoppelse, mundtørhed, halsbrand, hududslæt, voldsom svedtendens, kløe, rødmen af 
+huden, smerter i nakken, stivhed i muskler, knogler og/eller led, hævede led, muskelkramper, 
+skuldersmerter, smerter i brystmuskler og brystkasse, betændelse i led, muskelsvaghed, unormal 
+nyrefunktionstest, hyppig vandladning, hævede hænder, ankler eller fødder, tørst, tandpine, 
+smagsforstyrrelser. </p>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 patienter) 
+Usædvanlige brud på lårbensknoglen, primært hos patienter i langtidsbehandling for osteoporose, kan 
+forekomme i sjældne tilfælde. Kontakt lægen, hvis du får smerter, svaghed eller ubehag i låret, hoften 
+eller lysken, idet det kan være tidlige tegn på et muligt brud på lårbensknoglen. Lavt indhold af fosfat i 
+blodet. </p>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) 
+Alvorlige allergiske reaktioner, inkl. svimmelhed og vejrtrækningsbesvær, hævelse hovedsageligt af 
+ansigt og hals, lavt blodtryk, dehydrering sekundært til akutfase reaktioner (symptomer som feber, 
+opkastning og diarré efter behandlingen). </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store aclasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store aclasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen, apotekspersonalet eller sygeplejersken ved, hvordan Aclasta skal opbevares korrekt. </p>
+<ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og flasken efter EXP. </li>
+<li>Den uåbnede flaske kræver ingen særlige forholdsregler vedrørende opbevaringen. </li>
+<li>Efter åbning skal produktet bruges med det samme for at undgå mikrober. Hvis det ikke 
+anvendes straks, er opbevaringstid og -forhold før brug brugerens ansvar og er normalt ikke 
+mere end 24 timer ved 2°C - 8°C. Lad den afkølede opløsning få stuetemperatur før 
+administration. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aclasta indeholder:</p>
+<ul>
+<li>Aktivt stof: zoledronsyre. En flaske med 100 ml opløsning indeholder 5 mg zoledronsyre (som 
+monohydrat). 
+En ml opløsning indeholder 0,05 mg zoledronsyre (som monohydrat). </li>
+<li>Øvrige indholdsstoffer: mannitol, natriumcitrat og vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Aclasta er en klar, farveløs væske. Den leveres i plastikflasker med 100 ml infusionsvæske klar til 
+brug. Den leveres i pakninger med én flaske eller i multipakninger med fem pakker, der hver 
+indeholder én flaske. Begge pakningsstørrelser er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Sandoz Pharmaceuticals d.d. 
+Verovškova ulica 1000 Ljubljana 
+Slovenien </p>
+<p>Fremstiller 
+Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sandoz N.V. 
+Telecom Gardens 
+Medialaan B-1800 Vilvoorde 
+Tél/Tel: +32 (0)2 722 97<br />
+Lietuva 
+Sandoz Pharmaceuticals d.d 
+Branch Office Lithuania 
+Seimyniskiu 3A 
+LT – 09312 Vilnius 
+Tel: +370 5 2636<br />
+България 
+КЧТ Сандоз България<br />
+Teл.: +359 2 970 47<br />
+Luxembourg/Luxemburg 
+Sandoz N.V. 
+Telecom Gardens 
+Medialaan B-1800 Vilvoorde 
+Tél/Tel: +32 (0)2 722 97<br />
+Česká republika 
+Sandoz s.r.o. 
+Na Pankráci 1724/CZ-140 00, Praha 4 
+Tel: +420 225 775 office.cz@ sandoz.com </p>
+<p>Magyarország 
+Sandoz Hungária Kft. 
+Bartók Béla út 43-H-1114 Budapest 
+Tel: +36 1 430 2Info.hungary@sandoz.com 
+Danmark 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 København S 
+Tlf: +45 6395 1info.danmark@sandoz.com </p>
+<p>Malta 
+Sandoz Pharmaceuticals d.d. 
+Verovskova SI-1000 Ljubljana 
+Slovenia 
+Tel: +356 21222Deutschland 
+Hexal AG 
+Industriestr. D-83607 Holzkirchen 
+Tel: +49 8024 908-0 
+service@hexal.com </p>
+<p>Nederland 
+Sandoz B.V. 
+Veluwezoom NL-1327 AH Almere 
+Tel: +31 (0)36 5241info.sandoz-nl@sandoz.com 
+Eesti 
+Sandoz d.d. Eesti filiaal 
+Pärnu mnt EE – 11312 Tallinn 
+Tel: +372 6652 
+Norge 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 København S 
+Danmark 
+Tlf: +45 6395 1info.norge@sandoz.com </p>
+<p>Ελλάδα 
+SANDOZ HELLAS<br />
+ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.<br />
+Τηλ: +30 216 600 5 
+Österreich 
+Sandoz GmbH 
+Biochemiestr. A-6250 Kundl 
+Tel: +43(0)1 86659-0 </p>
+<p>España 
+Bexal Farmacéutica, S.A. 
+Centro Empresarial Parque Norte 
+Edificio Roble 
+C/ Serrano Galvache, 28033 Madrid 
+Tel: +34 900 456<br />
+Polska 
+Sandoz Polska Sp. z o.o. 
+ul. Domaniewska 50 C 
+02 672 Warszawa 
+Tel.: +48 22 209 7maintenance.pl@sandoz.com 
+France 
+Sandoz SAS 
+49, avenue Georges Pompidou 
+F-92300 Levallois-Perret 
+Tél: +33 1 49 64 48  </p>
+<p>Portugal 
+Sandoz Farmacêutica Lda. 
+Avenida Professor Doutor Cavaco Silva, n.º10E 
+Taguspark 
+P-2740−255 Porto Salvo 
+Tel: +351 21 196 40 regaff.portugal@sandoz.com </p>
+<p>Hrvatska 
+Sandoz d.o.o. 
+Maksimirska 10 000 Zagreb 
+Tel : +385 1 235 3upit.croatia@sandoz.com </p>
+<p>România 
+Sandoz S.R.L. 
+Strada Livezeni Nr. 7a 
+540472 Târgu Mureș 
+Tel: +40 21 407 51<br />
+Ireland 
+Sandoz Pharmaceuticals d.d. 
+Verovškova ulica 1000 Ljubljana 
+Slovenia </p>
+<p>Slovenija 
+Lek farmacevtska družba d.d. 
+Verovškova SI-1526 Ljubljana 
+Tel: +386 1 580 21 Info.lek@sandoz.com 
+Ísland 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Kaupmaannahöfn S 
+Danmörk 
+Tlf: +45 6395 1info.danmark@sandoz.com </p>
+<p>Slovenská republika 
+Sandoz d.d. - organizačná zložka 
+Žižkova 22B 
+811 02 Bratislava 
+Tel: +421 2 48 200 sk.regulatory@sandoz.com </p>
+<p>Italia 
+Sandoz S.p.A. 
+Largo Umberto Boccioni, 1 
+I-21040 Origgio / VA 
+Tel: +39 02 96 54 1 
+regaff.italy@sandoz.com 
+Suomi/Finland 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Kööpenhamina S 
+Tanska 
+Puh: + 358 010 6133 info.suomi@sandoz.com </p>
+<p>Κύπρος 
+Sandoz Pharmaceuticals d.d. 
+Verovskova SI-1000 Ljubljana 
+Σλοβενία 
+Τηλ: +357 22 69 0 
+Sverige 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Köpenhamn S 
+Danmark 
+Tel: +45 6395 1info.sverige@sandoz.com </p>
+<p>Latvija 
+Sandoz d.d. Latvia filiāle 
+K.Valdemāra 33 – LV-1010 Rīga 
+Tel: +371 67892 
+United Kingdom (Northern Ireland) 
+Sandoz Pharmaceuticals d.d. 
+Verovskova SI-1000 Ljubljana 
+Slovenia 
+Tel: +43 5338 2 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>INFORMATION TIL LÆGER OG SUNDHEDSPERSONALE </p>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale (se afsnit 3): </p>
+<p>Tilberedelse og administration af Aclasta:</p>
+<ul>
+<li>Aclasta 5 mg infusionsvæske, opløsning er klar til brug. </li>
+</ul>
+<p>Kun til engangsbrug. Ubrugt opløsning skal kasseres. Kun en klar opløsning, fri for partikler og 
+misfarvning må benyttes. Aclasta må ikke blandes eller gives intravenøst med andre lægemidler og 
+skal gives gennem en separat infusionsslange med en konstant infusionshastighed. Infusionstiden må 
+ikke være mindre end 15 minutter. Aclasta må ikke komme i kontakt med calciumholdige opløsninger. 
+Hvis opløsningen opbevares i køleskab, skal den tempereres til stuetemperatur inden administration. 
+Aseptiske arbejdsmetoder skal følges ved tilberedelse af infusionen. Infusionen skal gennemføres i 
+henhold til medicinsk standardpraksis. </p>
+<p>Opbevaring af Aclasta </p>
+<ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Brug ikke lægemidlet efter den udløbsdato, der står på karton og flaske efter EXP. </li>
+<li>Den uåbnede flaske kræver ingen særlige forholdsregler vedrørende opbevaringen. </li>
+<li>Efter åbning skal præparatet bruges straks for at undgå mikrobiel forurening. Hvis præparatet 
+ikke bruges med det samme, er brugeren ansvarlig for opbevaringstid og -betingelser, som 
+normalt ikke vil være længere end 24 timer ved 2°C - 8°C. Opløsninger, som opbevares i 
+køleskab, skal have stuetemperatur før administration. </li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9dc703bc672ed093a819de38cd335ddf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aclasta Package Leaflet for language en"
+Description: "ePI document Bundle for aclasta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9dc703bc672ed093a819de38cd335ddf"
+* entry[0].resource = composition-en-9dc703bc672ed093a819de38cd335ddf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9dc703bc672ed093a819de38cd335ddf"
+* entry[=].resource = mp9dc703bc672ed093a819de38cd335ddf
+                            
+                    
+Instance: bundlepackageleaflet-da-9dc703bc672ed093a819de38cd335ddf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aclasta Package Leaflet for language da"
+Description: "ePI document Bundle for aclasta Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9dc703bc672ed093a819de38cd335ddf"
+* entry[0].resource = composition-da-9dc703bc672ed093a819de38cd335ddf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9dc703bc672ed093a819de38cd335ddf"
+* entry[=].resource = mp9dc703bc672ed093a819de38cd335ddf
+                            
+                    
+
+
+
+Instance: mp9dc703bc672ed093a819de38cd335ddf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Aclasta 5 mg solution for infusion"
-Description: "Aclasta 5 mg solution for infusion"
+Title: "Medicinal Product aclasta"
+Description: "aclasta"
 Usage: #inline
 
  
@@ -470,7 +1011,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Aclasta 5 mg solution for infusion"
+  * productName = "aclasta"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -497,29 +1038,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9dc703bc672ed093a819de38cd335ddf
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for aclasta Package Leaflet for language en"
-Description: "ePI document Bundle for aclasta Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9dc703bc672ed093a819de38cd335ddfListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/05/308/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "aclasta"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9dc703bc672ed093a819de38cd335ddf"
-* entry[0].resource = composition-en-9dc703bc672ed093a819de38cd335ddf
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp518ac406479ec1c030d624ad342c9194"
-* entry[=].resource = mp518ac406479ec1c030d624ad342c9194
-                            
-                      
+* title = "List of all ePIs associated with aclasta"
+
+* subject = Reference(mp518ac406479ec1c030d624ad342c9194)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#aclasta "aclasta"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9dc703bc672ed093a819de38cd335ddf) // aclasta en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9dc703bc672ed093a819de38cd335ddf) // aclasta da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9dc703bc672ed093a819de38cd335ddf
+InstanceOf: List
+
+* insert 9dc703bc672ed093a819de38cd335ddfListRuleset
+    

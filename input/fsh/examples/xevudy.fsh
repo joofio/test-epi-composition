@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-22dcb829aed4334e1e70ad5ac466fd85
 InstanceOf: CompositionUvEpi
 Title: "Composition for xevudy Package Leaflet"
@@ -316,12 +319,438 @@ requirements. </p>         </div>"""
 
 
 
+Instance: composition-da-22dcb829aed4334e1e70ad5ac466fd85
+InstanceOf: CompositionUvEpi
+Title: "Composition for xevudy Package Leaflet"
+Description:  "Composition for xevudy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp573f3525de0952f21cf7758065d4a654)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp573f3525de0952f21cf7758065d4a654
+* title = "TEST PURPOSES ONLY - xevudy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du får Xevudy  </li>
+<li>Sådan indgives Xevudy  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xevudy is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xevudy is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xevudy indeholder det aktive stof sotrovimab. Sotrovimab er et monoklonalt antistof, en type protein, 
+der er designet til at genkende et specifikt mål på SARS-CoV-2-virussen, som er den virus, der 
+forårsager COVID-19. Xevudy anvendes til behandling af COVID-19 hos voksne og unge (i alderen 12 år og derover, som 
+vejer minimum 40 kg). Det virker på det spikeprotein, som virussen bruger til at hæfte sig til cellerne, 
+og forhindrer dermed virussen i at komme ind i cellen og lave nye virusser. Ved at forhindre virussen i 
+at formere sig i kroppen kan Xevudy hjælpe din krop med at nedkæmpe infektionen og forhindre, at 
+du bliver alvorligt syg. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xevudy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xevudy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Xevudy   </p>
+<ul>
+<li>hvis du er allergisk over for sotrovimab eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). 
+ Tal med lægen, hvis du mener, at det gælder for dig. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Allergiske reaktioner<br />
+Xevudy kan forårsage allergiske reaktioner. 
+ Se ’Allergiske reaktioner’ i punkt 4. Infusions-relaterede reaktioner 
+Xevudy kan forårsage infusions-relaterede reaktioner. 
+ Se ’Infusions-relaterede reaktioner’ i punkt 4. Børn og unge 
+Xevudy bør ikke gives til børn og unge, der er under 12 år eller vejer mindre end 40 kg.  </p>
+<p>Brug af andre lægemidler sammen med Xevudy 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler.  </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge til råds, før du får Xevudy. Lægen vil rådgive dig om, hvorvidt fordelene ved behandling 
+med Xevudy er større end de sandsynlige risici for dig og dit barn. </p>
+<p>Det vides ikke, om indholdsstofferne i Xevudy kan gå over i modermælken. Hvis du ammer, skal du 
+kontakte lægen, før du får Xevudy. </p>
+<p>Trafik- og arbejdssikkerhed<br />
+Xevudy forventes ikke at påvirke evnen til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xevudy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xevudy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Den anbefalede dosis til voksne og unge (i alderen 12 år og derover, der vejer mindst 40 kg) er:  </p>
+<ul>
+<li>500 mg (ét hætteglas).  </li>
+</ul>
+<p>Lægen eller sygeplejersken klargør en opløsning med lægemidlet og giver dig den via et drop 
+(infusion) i en vene. Det tager op til 30 minutter at indgive hele dosen. Du bliver holdt under opsyn 
+under indgivelsen og i mindst 1 time derefter. </p>
+<p>Afsnittet "Vejledning til sundhedspersoner" nedenfor indeholder yderligere oplysninger til lægen, 
+apotekspersonalet og sygeplejersken om, hvordan Xevudy-infusionen klargøres og indgives. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Allergiske reaktioner </p>
+<p>Allergiske reaktioner over for Xevudy er almindelige (forekommer hos op til 1 ud af 10 patienter).  </p>
+<p>I sjældne tilfælde kan disse allergiske reaktioner være alvorlige (anafylaksi) (forekommer sjældent – 
+hos op til 1 ud af 1.000 patienter). Hvis du får et eller flere af følgende symptomer, efter du har fået 
+Xevudy, kan du have en allergisk reaktion og bør straks søge lægehjælp:<br />
+• Hududslæt, der ligner nældefeber (urticaria) eller rødme<br />
+• kløe 
+• hævelse, undertiden i ansigtet eller munden (angioødem) 
+• kraftig hiven efter vejret, hoste eller vejrtrækningsbesvær 
+• pludseligt indtrædende svaghedsfornemmelse eller svimmelhed (kan medføre bevidsthedstab 
+eller fald). </p>
+<p>Infusions-relaterede reaktioner 
+Når du får en infusion, er allergi-lignende reaktioner almindelige og kan forekomme hos op til 1 ud af 
+10 patienter. Disse udvikler sig normalt indenfor minutter eller timer, men kan udvikle sig op til 24 timer 
+efter behandling, eller senere. Mulige symptomer er anført nedenfor. Hvis du får nogle af følgende 
+symptomer efter at have fået Xevudy, har du muligvis en infusionsrelateret reaktion og bør straks søge 
+lægehjælp: </p>
+<ul>
+<li>
+<p>rødme </p>
+</li>
+<li>
+<p>kulderystelser </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>hurtig hjerterytme </p>
+</li>
+<li>
+<p>blodtryksfald. 
+Andre bivirkninger  </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter)<br />
+• Stakåndethed (dyspnø). </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xevudy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xevudy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>De sundhedspersoner, der giver dig behandling, har ansvaret for at opbevare lægemidlet og bortskaffe 
+eventuelle rester af præparatet korrekt. </p>
+<p>Opbevar lægemidlet utilgængeligt for børn.  </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Må ikke nedfryses. </p>
+<p>Inden fortynding: </p>
+<ul>
+<li>
+<p>Opbevares i køleskab (2°C – 8°C)  </p>
+</li>
+<li>
+<p>Opbevares i den originale karton for at beskytte mod lys. </p>
+</li>
+</ul>
+<p>Efter fortynding er dette lægemiddel beregnet til øjeblikkelig anvendelse. Hvis det ikke er muligt at 
+indgive opløsningen umiddelbart efter fortynding, kan den fortyndede opløsning opbevares ved 
+stuetemperatur (op til 25 °C) i op til 6 timer eller i køleskab (2 °C til 8 °C) i op til 24 timer fra 
+tidspunktet for fortynding til afslutning af indgivelsen. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xevudy indeholder:</p>
+<ul>
+<li>Aktivt stof: sotrovimab. Hvert hætteglas indeholder 500 mg sotrovimab i 8 ml koncentrat. </li>
+<li>Øvrige indholdsstoffer: histidin, histidinmonohydrochlorid, saccharose, polysorbat 80 (E 433), 
+methionin og vand til injektionsvæsker.  </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Xevudy er en klar, farveløs eller gul til brun væske, der leveres i et hætteglas til engangsbrug, der er 
+fremstillet af glas. Hætteglasset har en gummiprop og er forseglet med en flip off-hætte af aluminium. 
+Hver karton indeholder ét hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+GlaxoSmithKline Trading Services Limited 
+12 Riverwalk 
+Citywest Business Campus 
+Dublin Irland  </p>
+<p>Fremstiller<br />
+GlaxoSmithKline Manufacturing S.P.A 
+Strada Provinciale Asolana, No 43056 San Polo di Torrile, Parma 
+Italien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien<br />
+GlaxoSmithKline Pharmaceuticals s.a./n.v.<br />
+Tél/Tel: + 32 (0) 10 85 52 00  </p>
+<p>Lietuva<br />
+GlaxoSmithKline Trading Services Limited<br />
+Tel: + 370 80000334  </p>
+<p>България<br />
+GlaxoSmithKline Trading Services Limited<br />
+Teл.: + 359 80018205  </p>
+<p>Luxembourg/Luxemburg<br />
+GlaxoSmithKline Pharmaceuticals s.a./n.v.<br />
+Belgique/Belgien<br />
+Tél/Tel: + 32 (0) 10 85 52 00  </p>
+<p>Česká republika<br />
+GlaxoSmithKline, s.r.o.<br />
+Tel: + 420 222 001 111<br />
+cz.info@gsk.com<br />
+Magyarország<br />
+GlaxoSmithKline Trading Services Limited.<br />
+Tel: + 36 80088309  </p>
+<p>Danmark<br />
+GlaxoSmithKline Pharma A/S<br />
+Tlf.: + 45 36 35 91 00<br />
+dk-info@gsk.com  </p>
+<p>Malta<br />
+GlaxoSmithKline Trading Services Limited.<br />
+Tel: + 356 80065004<br />
+Deutschland<br />
+GlaxoSmithKline GmbH &amp; Co. KG<br />
+Tel.: + 49 (0)89 36044 8701<br />
+produkt.info@gsk.com<br />
+Nederland<br />
+GlaxoSmithKline BV<br />
+Tel: + 31 (0)33 2081100  </p>
+<p>Eesti<br />
+GlaxoSmithKline Trading Services Limited.<br />
+Tel: + 372 8002640  </p>
+<p>Norge<br />
+GlaxoSmithKline AS<br />
+Tlf: + 47 22 70 20 00  </p>
+<p>Ελλάδα<br />
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E.<br />
+Τηλ: + 30 210 68 82 100  </p>
+<p>Österreich<br />
+GlaxoSmithKline Pharma GmbH<br />
+Tel: + 43 (0)1 97075 0<br />
+at.info@gsk.com  </p>
+<p>España<br />
+GlaxoSmithKline, S.A.<br />
+Tel: + 34 900 202 700<br />
+es-ci@gsk.com  </p>
+<p>Polska<br />
+GSK Services Sp. z o.o.<br />
+Tel.: + 48 (0)22 576 9000<br />
+France<br />
+Portugal<br />
+Laboratoire GlaxoSmithKline<br />
+Tél: + 33 (0)1 39 17 84 44<br />
+diam@gsk.com  </p>
+<p>GlaxoSmithKline – Produtos Farmacêuticos, Lda.<br />
+Tel: + 351 21 412 95 00<br />
+FI.PT@gsk.com<br />
+Hrvatska<br />
+GlaxoSmithKline Trading Services Limited<br />
+Tel: +385 800787089  </p>
+<p>Ireland<br />
+GlaxoSmithKline (Ireland) Limited<br />
+Tel: + 353 (0)1 4955000  </p>
+<p>România<br />
+GlaxoSmithKline Trading Services Limited<br />
+Tel: + 40800672524  </p>
+<p>Slovenija<br />
+GlaxoSmithKline Trading Services Limited<br />
+Tel: + 386 80688869  </p>
+<p>Ísland<br />
+Vistor hf.<br />
+Sími: + 354 535 7000  </p>
+<p>Slovenská republika<br />
+GlaxoSmithKline Trading Services Limited<br />
+Tel: + 421 800500589  </p>
+<p>Italia<br />
+GlaxoSmithKline S.p.A.<br />
+Tel: + 39 (0)45 7741111<br />
+Suomi/Finland<br />
+GlaxoSmithKline Oy<br />
+Puh/Tel: + 358 (0)10 30 30 30  </p>
+<p>Κύπρος<br />
+GlaxoSmithKline Trading Services Limited<br />
+Τηλ: + 357 80070017  </p>
+<p>Sverige<br />
+GlaxoSmithKline AB<br />
+Tel: + 46 (0)8 638 93 00<br />
+info.produkt@gsk.com  </p>
+<p>Latvija<br />
+GlaxoSmithKline Trading Services Limited<br />
+Tel: + 371 80205045  </p>
+<p>United Kingdom (Northern Ireland)<br />
+GlaxoSmithKline Trading Services Limited<br />
+Tel: + 44 (0)800 221441<br />
+customercontactuk@gsk.com  </p>
+<p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: 
+Du kan finde yderligere oplysninger i produktresuméet. </p>
+<p>Behandlingen skal klargøres af en kvalificeret sundhedsperson ved brug af aseptisk teknik. </p>
+<p>Sporbarhed 
+For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres. </p>
+<p>Klargøring til fortynding 
+1. Tag et hætteglas med sotrovimab ud af køleskabet (2°C – 8°C). Lad hætteglasset stå i cirka 
+15 minutter (beskyttet mod lys), så det kan opnå stuetemperatur. 
+2. Gennemse hætteglasset for at sikre, at det ikke indeholder partikler eller har synlige skader. 
+Hvis hætteglasset viser sig at være ubrugeligt, skal det kasseres, og klargøringen skal startes 
+forfra med et nyt hætteglas. 
+3. Rotér forsigtigt hætteglasset adskillige gange før brug uden at frembringe luftbobler. 
+Hætteglasset må ikke omrystes eller udsættes for andre voldsomme bevægelser. </p>
+<p>Vejledning i fortynding<br />
+1. Udtag og kassér 8 ml fra en infusionspose, der indeholder 50 ml eller 100 ml natriumchlorid 
+9 mg/ml (0,9 %) infusionsvæske, opløsning eller 5 % glucose til infusionsvæsker. 
+2. Træk 8 ml op af hætteglasset med sotrovimab. 
+3. Injicer de 8 ml sotrovimab ind i infusionsposen via membranen. 
+4. Kassér eventuelt resterende indhold i hætteglasset. Hætteglasset er kun til engangsbrug og må 
+kun anvendes til én patient. 
+5. Vug forsigtigt infusionsposen frem og tilbage 3 til 5 gange inden infusionen. Infusionsposen 
+må ikke vendes på hovedet. Undgå at danne luftbobler. 
+Den fortyndede opløsning med sotrovimab er beregnet til øjeblikkelig anvendelse. Hvis det ikke er 
+muligt at indgive opløsningen umiddelbart efter fortynding, kan den fortyndede opløsning opbevares 
+ved stuetemperatur (op til 25 °C) i op til 6 timer eller i køleskab (2 °C til 8 °C) i op til 24 timer fra 
+tidspunktet for fortynding til afslutning af indgivelsen. </p>
+<p>Vejledning i indgivelse 
+1. Tilslut et infusionssæt til infusionsposen ved brug af en slange med indvendig 
+standarddiameter. Det anbefales at indgive den intravenøse opløsning med et 0,2 μm in-line-
+filter.<br />
+2. Infusionssættet primes.<br />
+3. Indgives via en intravenøs infusion over 15 minutter (ved brug af en 50 ml infusionspose) eller 
+over 30 minutter (ved brug af en 100 ml infusionspose) ved stuetemperatur. </p>
+<p>Bortskaffelse 
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-22dcb829aed4334e1e70ad5ac466fd85
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xevudy Package Leaflet for language en"
+Description: "ePI document Bundle for xevudy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-22dcb829aed4334e1e70ad5ac466fd85"
+* entry[0].resource = composition-en-22dcb829aed4334e1e70ad5ac466fd85
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp22dcb829aed4334e1e70ad5ac466fd85"
+* entry[=].resource = mp22dcb829aed4334e1e70ad5ac466fd85
+                            
+                    
+Instance: bundlepackageleaflet-da-22dcb829aed4334e1e70ad5ac466fd85
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xevudy Package Leaflet for language da"
+Description: "ePI document Bundle for xevudy Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-22dcb829aed4334e1e70ad5ac466fd85"
+* entry[0].resource = composition-da-22dcb829aed4334e1e70ad5ac466fd85
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp22dcb829aed4334e1e70ad5ac466fd85"
+* entry[=].resource = mp22dcb829aed4334e1e70ad5ac466fd85
+                            
+                    
+
+
+
+Instance: mp22dcb829aed4334e1e70ad5ac466fd85
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Xevudy 500 mg concentrate for solution for infusion"
-Description: "Xevudy 500 mg concentrate for solution for infusion"
+Title: "Medicinal Product xevudy"
+Description: "xevudy"
 Usage: #inline
 
  
@@ -341,7 +770,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Xevudy 500 mg concentrate for solution for infusion"
+  * productName = "xevudy"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -368,29 +797,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-22dcb829aed4334e1e70ad5ac466fd85
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xevudy Package Leaflet for language en"
-Description: "ePI document Bundle for xevudy Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 22dcb829aed4334e1e70ad5ac466fd85ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1562/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xevudy"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-22dcb829aed4334e1e70ad5ac466fd85"
-* entry[0].resource = composition-en-22dcb829aed4334e1e70ad5ac466fd85
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp573f3525de0952f21cf7758065d4a654"
-* entry[=].resource = mp573f3525de0952f21cf7758065d4a654
-                            
-                      
+* title = "List of all ePIs associated with xevudy"
+
+* subject = Reference(mp573f3525de0952f21cf7758065d4a654)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xevudy "xevudy"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-22dcb829aed4334e1e70ad5ac466fd85) // xevudy en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-22dcb829aed4334e1e70ad5ac466fd85) // xevudy da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-22dcb829aed4334e1e70ad5ac466fd85
+InstanceOf: List
+
+* insert 22dcb829aed4334e1e70ad5ac466fd85ListRuleset
+    

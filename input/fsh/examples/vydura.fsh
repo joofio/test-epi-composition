@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-443c755443342bac5ae9c42b145300e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for vydura Package Leaflet"
@@ -299,12 +302,416 @@ Tel: + 371 670 35 This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-443c755443342bac5ae9c42b145300e0
+InstanceOf: CompositionUvEpi
+Title: "Composition for vydura Package Leaflet"
+Description:  "Composition for vydura Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2f54f406d631dc10fc86540fa6e30f52)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2f54f406d631dc10fc86540fa6e30f52
+* title = "TEST PURPOSES ONLY - vydura"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage VYDURA
+3. Sådan skal du tage VYDURA
+4. Bivirkninger
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vydura is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vydura is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VYDURA indeholder det aktive indholdsstof rimegepant, som stopper aktiviteten af et stof i kroppen, 
+der kaldes calcitonin genrelateret peptid (CGRP). Personer, der lider af migræne, kan have forhøjede 
+niveauer af CGRP. Rimegepant binder til receptoren for CGRP og nedsætter CGRP’s evne til også at 
+binde til receptoren. Dette nedsætter aktiviteten af CGRP, hvilket har to virkninger:
+1) det kan stoppe et aktivt migræneanfald, og
+2) det kan, når det tages forebyggende, nedsætte antallet af migræneanfald, der opstår.
+VYDURA anvendes til at behandle og forebygge migræneanfald hos voksne.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vydura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vydura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke VYDURA</h2>
+<p>hvis du er allergisk over for rimegepant eller et af de øvrige indholdsstoffer i VYDURA 
+(angivet i punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager VYDURA, hvis noget af det følgende gælder for 
+dig:
+-
+hvis du har svære leverproblemer
+-
+hvis du har nedsat nyrefunktion eller er i nyredialyse
+24
+Under behandlingen med VYDURA skal du holde op med at tage lægemidlet og straks fortælle det til 
+lægen:
+-
+hvis du oplever symptomer på en allergisk reaktion, f.eks. vejrtrækningsbesvær eller et svært 
+udslæt. Disse symptomer kan opstå flere dage efter administration.
+Børn og unge
+VYDURA bør ikke gives til børn eller unge under 18 år, da det ikke er blevet undersøgt til denne 
+aldersgruppe.
+Brug af andre lægemidler sammen med VYDURA
+Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Dette skyldes, at nogle lægemidler kan påvirke 
+den måde, VYDURA virker på, eller VYDURA kan påvirke den måde, andre lægemidler virker på.
+Følgende liste er eksempler på lægemidler, der skal undgås, mens du tager VYDURA:
+-
+Itraconazol og clarithromycin (lægemidler, der anvendes til at behandle svampe- eller 
+bakterieinfektioner).
+-
+ritonavir og efavirenz (lægemidler til behandling af hiv-infektioner).
+-
+bosentan (et lægemiddel, der anvendes til at behandle højt blodtryk).
+-
+prikbladet perikon (et naturlægemiddel, der anvendes til at behandle depression).
+-
+phenobarbital (et lægemiddel, der anvendes til at behandle epilepsi).
+-
+rifampicin (et lægemiddel, der anvendes til at behandle tuberkulose).
+-
+modafinil (et lægemiddel, der anvendes til at behandle narkolepsi).
+Tag ikke VYDURA oftere end én gang i en 48 timers periode sammen med:
+-
+fluconazol og erythromycin (lægemidler, der anvendes til at behandle svampe- eller 
+bakterieinfektioner).
+-
+diltiazem, quinidin og verapamil (lægemidler, der anvendes til at behandle en unormal 
+hjerterytme, brystsmerter (angina) eller højt blodtryk).
+-
+ciclosporin (et lægemiddel, der anvendes til at forhindre organafstødning efter en 
+organtransplantation).
+Graviditet og amning
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din 
+læge eller apotekspersonalet til råds, før du tager dette lægemiddel. VYDURA bør undgås under 
+graviditeten, da virkningen af dette lægemiddel på gravide kvinder er ukendt.
+Hvis du ammer eller planlægger at amme, skal du kontakte lægen eller apotekspersonalet, inden du 
+bruger dette lægemiddel. Du og din læge skal beslutte, om du skal bruge VYDURA, mens du ammer.
+Trafik- og arbejdssikkerhed
+VYDURA forventes ikke at påvirke din evne til at føre køretøj eller betjene maskiner.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vydura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vydura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.
+Så meget skal du tage
+Til at forebygge migræne er den anbefalede dosis en frysetørret tablet (75 mg rimegepant) hver anden 
+dag.
+Til at behandle et migræneanfald, efter det er påbegyndt, er den anbefalede dosis en frysetørret tablet 
+(75 mg rimegepant) efter behov, ikke mere end én gang dagligt.
+Den maksimale daglige dosis er en frysetørret tablet (75 mg rimegepant) dagligt.
+25
+Sådan skal du tage dette lægemiddel
+VYDURA er til oral anvendelse.
+Den frysetørrede tablet kan tages sammen med eller uden mad eller vand.
+Anvisninger:
+Åbnes med tørre hænder. Foliebagsiden af en blister trækkes af, og den 
+frysetørrede tablet fjernes forsigtigt. Den frysetørrede tablet må ikke trykkes 
+gennem folien.
+Straks efter blisteren er åbnet, fjernes den frysetørrede tablet, og den placeres på 
+eller under tungen, hvor den vil blive opløst. Det er ikke nødvendigt at drikke 
+noget.
+Den frysetørrede tablet må ikke opbevares uden for blisteren til fremtidig brug.
+Hvis du har taget for meget VYDURA
+Kontakt lægen eller apotekspersonalet eller tag straks på hospitalet. Medbring lægemiddelpakningen 
+og denne indlægsseddel.
+Hvis du har glemt at tage VYDURA
+Hvis du tager VYDURA for at forebygge migræne, og du har glemt en dosis, skal du bare tage den 
+næste dosis på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den 
+glemte dosis.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Hold straks op med at bruge VYDURA og kontakt lægen, hvis du får tegn på en allergisk 
+reaktion, såsom kraftigt udslæt eller stakåndethed. Allergiske reaktioner med VYDURA er ikke 
+almindelige (kan forekomme hos op til 1 ud af 100 personer).
+En almindelig bivirkning (kan forekomme hos op til 1 ud af 10 personer) er kvalme.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vydura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vydura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+26
+Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale blister for at beskytte mod 
+fugt.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>VYDURA indeholder:</h2>
+<h2>Aktivt stof: rimegepant. Hver frysetørret tablet indeholder 75 mg rimegepant (som sulfat).</h2>
+<p>Øvrige indholdsstoffer: gelatine, mannitol, myntesmag og sucralose.
+Udseende og pakningsstørrelser
+VYDURA 75 mg frysetørrede tabletter er hvide til off-white, runde og præget med symbolet 
+.
+Pakningsstørrelser:
+
+2 x 1 frysetørret tablet i perforerede enkeltdosisblistere.
+
+8 x 1 frysetørret tablet i perforerede enkeltdosisblistere.
+
+16 x 1 frysetørret tablet i perforerede enkeltdosisblistere.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+HiTech Health Limited
+5-7 Main Street
+Blackrock
+Co. Dublin
+A94 R5Y4
+Irland
+Millmount Healthcare Limited
+Block-7, City North Business Campus
+Stamullen
+Co. Meath
+K32 YD60
+Irland
+Pfizer Ireland Pharmaceuticals
+Little Connell
+Newbridge
+Co. Kildare
+W12 HX57
+Irland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+27
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България 
+Тел: +359 2 970 4333
+Magyarország
+Pfizer Kft. 
+Tel.: + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel.: +356 21344610
+Danmark
+Pfizer ApS
+Tlf.: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0) 800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς Α.Ε.
+Τηλ.: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel.: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free) 
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+28
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ.: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: + 371 670 35 775
+Denne indlægsseddel blev senest ændret .
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-443c755443342bac5ae9c42b145300e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vydura Package Leaflet for language en"
+Description: "ePI document Bundle for vydura Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-443c755443342bac5ae9c42b145300e0"
+* entry[0].resource = composition-en-443c755443342bac5ae9c42b145300e0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp443c755443342bac5ae9c42b145300e0"
+* entry[=].resource = mp443c755443342bac5ae9c42b145300e0
+                            
+                    
+Instance: bundlepackageleaflet-da-443c755443342bac5ae9c42b145300e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vydura Package Leaflet for language da"
+Description: "ePI document Bundle for vydura Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-443c755443342bac5ae9c42b145300e0"
+* entry[0].resource = composition-da-443c755443342bac5ae9c42b145300e0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp443c755443342bac5ae9c42b145300e0"
+* entry[=].resource = mp443c755443342bac5ae9c42b145300e0
+                            
+                    
+
+
+
+Instance: mp443c755443342bac5ae9c42b145300e0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product VYDURA 75 mg oral lyophilisate"
-Description: "VYDURA 75 mg oral lyophilisate"
+Title: "Medicinal Product vydura"
+Description: "vydura"
 Usage: #inline
 
  
@@ -324,7 +731,7 @@ Usage: #inline
 
 
 * name
-  * productName = "VYDURA 75 mg oral lyophilisate"
+  * productName = "vydura"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -351,29 +758,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-443c755443342bac5ae9c42b145300e0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vydura Package Leaflet for language en"
-Description: "ePI document Bundle for vydura Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 443c755443342bac5ae9c42b145300e0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1645/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vydura"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-443c755443342bac5ae9c42b145300e0"
-* entry[0].resource = composition-en-443c755443342bac5ae9c42b145300e0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2f54f406d631dc10fc86540fa6e30f52"
-* entry[=].resource = mp2f54f406d631dc10fc86540fa6e30f52
-                            
-                      
+* title = "List of all ePIs associated with vydura"
+
+* subject = Reference(mp2f54f406d631dc10fc86540fa6e30f52)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vydura "vydura"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-443c755443342bac5ae9c42b145300e0) // vydura en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-443c755443342bac5ae9c42b145300e0) // vydura da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-443c755443342bac5ae9c42b145300e0
+InstanceOf: List
+
+* insert 443c755443342bac5ae9c42b145300e0ListRuleset
+    

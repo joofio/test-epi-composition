@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6083cc71113edb8591d330c3acd904d8
 InstanceOf: CompositionUvEpi
 Title: "Composition for actraphane Package Leaflet"
@@ -391,12 +394,570 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-6083cc71113edb8591d330c3acd904d8
+InstanceOf: CompositionUvEpi
+Title: "Composition for actraphane Package Leaflet"
+Description:  "Composition for actraphane Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp09343cea52b83d711b710e7e3f5fc671)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp09343cea52b83d711b710e7e3f5fc671
+* title = "TEST PURPOSES ONLY - actraphane"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Actraphane  </li>
+<li>Sådan skal du tage Actraphane  </li>
+<li>Bivirkninger </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger  </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What actraphane is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What actraphane is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Actraphane er en blanding af hurtigtvirkende og langtidsvirkende humant insulin. </p>
+<p>Actraphane anvendes til at sænke det høje blodsukkerniveau hos patienter med sukkersyge (diabetes 
+mellitus). Diabetes er en sygdom, hvor kroppen ikke producerer tilstrækkeligt insulin til at kontrollere 
+blodsukkerniveauet. Behandling med Actraphane kan hjælpe med at forhindre komplikationer fra din 
+diabetes. </p>
+<p>Actraphane begynder at nedsætte blodsukkeret ca. 30 minutter efter injektion, og virkningen varer i ca. 
+24 timer. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take actraphane"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take actraphane"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Actraphane </p>
+<p>► 
+Hvis du er allergisk over for humant insulin eller et af de øvrige indholdsstoffer i Actraphane, se 
+under punkt 6. ► 
+Hvis du har mistanke om begyndende hypoglykæmi (for lavt blodsukker), se Oversigt over 
+alvorlige og meget almindelige bivirkninger under punkt 4. ► 
+I insulininfusionspumper. 
+► 
+Hvis cylinderampullen eller injektionssystemet indeholdende cylinderampullen tabes, beskadiges 
+eller knuses. 
+► 
+Hvis insulinet ikke har været opbevaret korrekt, eller hvis det har været frosset, se punkt 5. ► 
+Hvis insulinet ikke fremstår ensartet hvidt og uklart efter opblanding. </p>
+<p>Hvis noget af ovenstående gør sig gældende, må du ikke bruge Actraphane. Tal med din læge, 
+apotekspersonalet eller sygeplejersken. </p>
+<p>Før du tager Actraphane </p>
+<p>► 
+Kontrollér på etiketten, at det er den rigtige insulintype. 
+► 
+Kontrollér altid cylinderampullen, herunder gummistemplet i bunden af cylinderampullen. Brug den 
+ikke, hvis den er beskadiget, eller hvis gummistemplet er trukket ud over det hvide bånd i bunden af 
+cylinderampullen. Dette kan være forårsaget af insulinlækage. Hvis du har en mistanke om, at 
+cylinderampullen er beskadiget, skal den returneres til apoteket. Se brugervejledningen til din pen 
+for yderligere information. 
+► 
+Brug altid en ny nål til hver injektion for at undgå forurening. 
+► 
+Nåle og Actraphane Penfill må ikke deles med andre. 
+► 
+Actraphane Penfill er kun egnet til indsprøjtning under huden ved hjælp af en genanvendelig pen. 
+Tal med lægen, hvis du har behov for at indsprøjte din insulin på en anden måde. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Nogle omstændigheder og aktiviteter kan have indflydelse på dit insulinbehov. Tal med din læge: 
+► 
+Hvis du har problemer med nyrer, lever, binyrer, hypofyse eller skjoldbruskkirtel. 
+► 
+Hvis du dyrker mere motion, end du plejer, eller ønsker at ændre din kost, da dette kan påvirke dit 
+blodsukkerniveau. 
+► 
+Hvis du bliver syg, skal du fortsætte med at tage insulin og kontakte din læge. 
+► 
+Hvis du har planer om at rejse til udlandet, kan en eventuel tidsforskel påvirke insulinbehovet og 
+injektionstidspunktet. </p>
+<p>Hudforandringer på injektionsstedet </p>
+<p>Injektionsstedet bør løbende skiftes for at hjælpe med at forebygge forandringer i fedtvævet under huden, 
+f.eks. fortykkelse af huden, hud der trækker sig sammen eller knuder under huden. Hvis du injicerer 
+insulinet i et område af huden med knuder, der har trukket sig sammen eller er fortykket, kan det være, at 
+insulinet ikke virker så godt (se punkt 3). Kontakt lægen, hvis du bemærker forandringer i huden ved 
+injektionsstedet. Kontakt lægen hvis du for øjeblikket injicerer i disse berørte områder, før du begynder at 
+injicere i et andet område. Det kan være, at lægen vil fortælle dig, at du skal kontrollere dit blodsukker 
+oftere og tilpasse insulindosen eller dosen af andre antidiabetiske lægemidler. </p>
+<p>Brug af anden medicin sammen med Actraphane </p>
+<p>Fortæl altid lægen, apotekspersonalet eller sygeplejersken, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin.<br />
+Nogle lægemidler påvirker dit blodsukkerniveau, og dette kan betyde at din insulindosis skal ændres. 
+Nedenstående liste omfatter en række almindelige lægemidler, som kan påvirke din insulinbehandling.  </p>
+<p>Dit blodsukkerniveau kan falde (hypoglykæmi), hvis du tager:  </p>
+<ul>
+<li>
+<p>Andre lægemidler til behandling af diabetes </p>
+</li>
+<li>
+<p>Monoaminoxidasehæmmere (MAO-hæmmere) (til behandling af depression) </p>
+</li>
+<li>
+<p>Betablokkere (til behandling af forhøjet blodtryk) </p>
+</li>
+<li>
+<p>Angiotensin konverterende enzym-hæmmere (ACE-hæmmere) (til behandling af visse hjertelidelser 
+eller forhøjet blodtryk) </p>
+</li>
+<li>
+<p>Salicylater (smertestillende og febernedsættende) </p>
+</li>
+<li>
+<p>Anabolske steroider (såsom testosteron) </p>
+</li>
+<li>
+<p>Sulfonamider (til behandling af infektioner). </p>
+</li>
+</ul>
+<p>Dit blodsukkerniveau kan stige (hyperglykæmi), hvis du tager: </p>
+<ul>
+<li>
+<p>Oral prævention (p-piller) </p>
+</li>
+<li>
+<p>Thiazider (til behandling af forhøjet blodtryk eller ved væskeophobning) </p>
+</li>
+<li>
+<p>Glukokortikoider (såsom "cortison" til behandling af inflammation (vævsirritation)) </p>
+</li>
+<li>
+<p>Skjoldbruskkirtelhormon (til behandling af sygdomme i skjoldbruskkirtlen) </p>
+</li>
+<li>
+<p>Sympatomimetika (såsom adrenalin, salbutamol eller terbutalin til behandling af astma) </p>
+</li>
+<li>
+<p>Væksthormon (lægemiddel, der stimulerer væksten af skelet og legeme og har en udtalt effekt på 
+kroppens stofskifteprocesser) </p>
+</li>
+<li>
+<p>Danazol (lægemiddel, der påvirker ægløsning). </p>
+</li>
+</ul>
+<p>Octreotid og lanreotid (til behandling af akromegali, en sjælden hormonel sygdom, der sædvanligvis 
+forekommer hos midaldrende voksne og skyldes, at hypofysen danner for meget væksthormon) kan enten 
+øge eller reducere dit blodsukkerniveau.  </p>
+<p>Betablokkere (til behandling af forhøjet blodtryk) kan svække eller fuldstændigt undertrykke de første 
+advarselssignaler på lavt blodsukker. </p>
+<p>Pioglitazon (tabletter, der bruges til behandling af type 2-diabetes) 
+Nogle patienter med årelang type 2-diabetes og hjertesygdom eller tidligere slagtilfælde, som er blevet 
+behandlet med pioglitazon og insulin, oplevede hjertesvigt. Fortæl det til din læge hurtigst muligt, hvis du 
+oplever tegn på hjertesvigt såsom usædvanlig kortåndethed, hurtig vægtstigning eller lokale 
+væskeansamlinger (ødemer). </p>
+<p>Fortæl det til din læge, apotekspersonalet eller sygeplejersken, hvis du tager noget af ovenstående 
+medicin. </p>
+<p>Brug af Actraphane sammen med alkohol </p>
+<p>► 
+Hvis du drikker alkohol, kan dit insulinbehov ændres, og dit blodsukkerniveau kan enten stige eller 
+falde. Omhyggelig kontrol anbefales. </p>
+<p>Graviditet og amning </p>
+<p>► 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, 
+skal du spørge din læge til råds, før du tager dette lægemiddel. Actraphane kan anvendes under 
+graviditet. Din insulindosis skal eventuelt ændres under graviditet og efter fødsel. Nøje kontrol med 
+din diabetes, specielt forebyggelse af hypoglykæmi (lavt blodsukker), er vigtigt for dit barns 
+helbred.<br />
+► 
+Der er ingen begrænsninger ved behandling med Actraphane under amning. </p>
+<p>Spørg din læge, apotekspersonalet eller sygeplejersken til råds, før du tager dette lægemiddel, hvis du er 
+gravid eller ammer. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>► 
+Spørg din læge, om du må køre bil eller arbejde med maskiner: </p>
+<ul>
+<li>
+<p>Hvis du ofte har hypoglykæmi. </p>
+</li>
+<li>
+<p>Hvis du har svært ved at opdage symptomerne på hypoglykæmi.  </p>
+</li>
+</ul>
+<p>Hvis dit blodsukker er lavt eller højt, kan det påvirke din koncentrations- og reaktionsevne og dermed 
+også din evne til at køre bil eller arbejde med maskiner. Vær opmærksom på, at du kan bringe dig selv og 
+andre i fare. </p>
+<p>Actraphane indeholder natrium </p>
+<p>Actraphane indeholder mindre end 1 mmol natrium (23 mg) per dosis, dvs. Actraphane er stort set 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take actraphane"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take actraphane"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dosis og hvornår du skal tage dit insulin </p>
+<p>Tag altid dit insulin og justér din dosis nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, 
+apotekspersonalet eller sygeplejersken. </p>
+<p>Spis et måltid eller et mellemmåltid indeholdende kulhydrater inden for 30 minutter efter injektionen for 
+at undgå lavt blodsukker. </p>
+<p>Du må ikke skifte insulin, medmindre din læge siger, at du skal. Hvis lægen ændrer dit insulin til en anden 
+insulintype eller et andet insulinmærke, er det muligt, at dosis skal justeres af din læge.  </p>
+<p>Brug til børn og unge </p>
+<p>Actraphane kan anvendes til børn og unge. </p>
+<p>Anvendelse til særlige patientgrupper </p>
+<p>Hvis du har nedsat nyre- eller leverfunktion, eller hvis du er over 65 år, skal du kontrollere dit blodsukker 
+mere regelmæssigt og diskutere ændringer af din insulindosis med lægen. </p>
+<p>Hvordan og hvor du skal injicere </p>
+<p>Actraphane administreres ved injektion under huden (subkutant). Du må aldrig selv injicere direkte i en 
+vene (intravenøst) eller muskel (intramuskulært). Actraphane Penfill er kun egnet til indsprøjtning under 
+huden ved hjælp af en genanvendelig pen. Tal med lægen, hvis du har behov for at indsprøjte din insulin 
+på en anden måde. </p>
+<p>For hver injektion skal du vælge et nyt injektionssted inden for det bestemte hudområde, som du bruger. 
+Dette kan nedsætte risikoen for at udvikle hudfortykkelse eller sprækker i huden, se punkt 4. De bedste 
+steder til injektion er: Foran på maven, ballen, foran på låret eller overarmen. Insulinet har en hurtigere 
+virkning, hvis du injicerer i maveskindet. Du skal altid måle dit blodsukker regelmæssigt. </p>
+<p>► 
+Cylinderampullen må ikke genopfyldes. Når den er tom, skal den kasseres. 
+► 
+Actraphane Penfill cylinderampuller er beregnet til anvendelse sammen med Novo Nordisk 
+insulindispenseringssystemer og NovoFine eller NovoTwist engangsnåle. 
+► 
+Hvis du behandles med Actraphane Penfill og en anden insulin Penfill cylinderampul, skal du 
+anvende to insulindispenseringssystemer, ét til hver insulintype. 
+► 
+Medbring altid en reserve Penfill cylinderampul i tilfælde af, at den anden bliver væk eller 
+beskadiget. </p>
+<p>Opblanding af Actraphane  </p>
+<p>Kontrollér, at der er nok insulin tilbage (mindst 12 enheder) i cylinderampullen for at sikre ensartet 
+opblanding. Brug en ny, hvis der ikke er nok insulin tilbage. Se brugervejledningen til pennen for 
+yderligere instruktioner. </p>
+<p>► 
+Hver gang du bruger en ny Actraphane Penfill (før du monterer cylinderampullen i 
+insulindispenseringssystemet) 
+•   Lad insulinet opnå stuetemperatur, før du bruger det. Det gør det lettere at opblande. 
+•   Bevæg cylinderampullen op og ned mellem position a og b (se tegningen), så glaskuglen bevæger 
+sig fra den ene ende af cylinderampullen til den anden mindst 20 gange. 
+•   Gentag denne bevægelse mindst 10 gange før hver af de følgende injektioner. 
+•   Bevægelsen skal altid gentages, indtil al væsken er ensartet hvid og uklar. 
+•   Fortsæt injektionsproceduren uden forsinkelse. </p>
+<p>Sådan injiceres Actraphane </p>
+<p>► 
+Injicér insulinet under din hud. Anvend den injektionsteknik din læge eller sygeplejerske har 
+anbefalet, og følg nøje instruktionerne for anvendelse af pennen. 
+► 
+Nålen skal forblive under huden i mindst 6 sekunder. Hold trykknappen helt nede, indtil nålen er 
+trukket ud fra huden. Dette vil sikre korrekt injektion og begrænse eventuelt tilbageløb af blod til 
+nålen og insulinkammeret. 
+► 
+Husk at fjerne og kassere nålen efter hver injektion, og opbevar Actraphane uden nålen påsat. Ellers 
+kan væsken løbe ud, hvilket kan forårsage ukorrekt dosering. </p>
+<p>Hvis du har taget for meget insulin </p>
+<p>Hvis du tager for meget insulin, bliver dit blodsukker for lavt (hypoglykæmi). Se Oversigt over alvorlige 
+og meget almindelige bivirkninger under punkt 4. Hvis du har glemt at tage insulin </p>
+<p>Hvis du glemmer at tage insulin, kan dit blodsukker blive for højt (hyperglykæmi). Se Følger af diabetes 
+under punkt 4. Hvis du holder op med at tage insulin </p>
+<p>Stop ikke med at tage insulin uden først at tale med din læge, der kan fortælle dig, hvad der skal gøres. 
+Manglende insulin kan føre til meget højt blodsukker (alvorlig hyperglykæmi) og ketoacidose. Se Følger 
+af diabetes under punkt 4. Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Oversigt over alvorlige og meget almindelige bivirkninger </p>
+<p>Lavt blodsukker (hypoglykæmi) er en meget almindelig bivirkning. Det kan forekomme hos flere end 1 
+ud af 10 behandlede. </p>
+<p>Lavt blodsukker kan forekomme, hvis du: </p>
+<ul>
+<li>
+<p>Injicerer for meget insulin. </p>
+</li>
+<li>
+<p>Spiser for lidt eller springer et måltid over. </p>
+</li>
+<li>
+<p>Motionerer mere end normalt. </p>
+</li>
+<li>
+<p>Drikker alkohol, se Brug af Actraphane sammen med alkohol under punkt 2. Tegn på lavt blodsukker: Koldsved, kold bleg hud, hovedpine, hjertebanken, kvalme, usædvanlig stor 
+sultfornemmelse, midlertidige synsforstyrrelser, døsighed, unormal træthed og svaghed, nervøsitet eller 
+rysten, bekymring, forvirring og koncentrationsbesvær. </p>
+</li>
+</ul>
+<p>Alvorligt lavt blodsukker kan føre til bevidstløshed. Hvis alvorligt lavt blodsukker forbliver ubehandlet i 
+længere tid, kan det medføre hjerneskade (midlertidig eller varig) og i værste fald død. Du kan genvinde 
+bevidstheden hurtigere, hvis du får en injektion med hormonet glucagon af en person, der er instrueret i, 
+hvordan det anvendes. Hvis du får glucagon, skal du have glucose eller et sukkerholdigt produkt at spise, 
+så snart du igen er ved bevidsthed. Hvis du ikke reagerer på glucagonbehandlingen, skal du behandles på 
+hospitalet. </p>
+<p>Du skal gøre følgende, hvis du oplever lavt blodsukker: 
+► 
+Hvis du oplever lavt blodsukker, skal du spise glucosetabletter eller et sukkerholdigt produkt (f.eks. 
+slik, kiks, frugtjuice). Mål dit blodsukker, hvis det er muligt, og hvil dig. Medbring for en 
+sikkerheds skyld altid glucosetabletter eller et sukkerholdigt produkt. 
+► 
+Når symptomerne på lavt blodsukker er forsvundet, eller når dit blodsukkerniveau er stabiliseret, 
+kan du fortsætte med insulinbehandlingen som sædvanligt. 
+► 
+Hvis du får så lavt blodsukker, at du besvimer, hvis du har haft behov for en injektion med glucagon, 
+eller hvis du har haft gentagne tilfælde af lavt blodsukker, skal du tale med din læge. Mængden af 
+eller tidspunktet for insulin, kost eller motion skal muligvis ændres. </p>
+<p>Fortæl relevante personer, at du har diabetes, og hvilke konsekvenser det kan have, herunder risikoen for 
+at besvime på grund af lavt blodsukker. Fortæl dem, at hvis du besvimer, skal du vendes om på siden, og 
+der skal straks tilkaldes lægehjælp. Du må ikke få noget at spise eller drikke, da du kan blive kvalt. </p>
+<p>Alvorlige allergiske reaktioner over for Actraphane eller et af indholdsstofferne (kaldet systemisk 
+allergisk reaktion) er en meget sjælden bivirkning, men den kan være livstruende. Kan forekomme hos 
+færre end 1 ud af 10.000 behandlede. </p>
+<p>Kontakt straks lægen: </p>
+<ul>
+<li>
+<p>Hvis allergisymptomerne spreder sig til andre dele af kroppen. </p>
+</li>
+<li>
+<p>Hvis du pludselig føler dig utilpas, og du begynder at svede, kaster op, får åndedrætsbesvær, 
+hjertebanken eller bliver svimmel.<br />
+► 
+Kontakt straks lægen, hvis du oplever nogle af disse symptomer. </p>
+</li>
+</ul>
+<p>Hudforandringer på injektionsstedet: Hvis du injicerer insulin på samme sted, kan fedtvævet enten 
+skrumpe (lipoartrofi) eller fortykkes (lipohypertrofi) (kan forekomme hos færre end 1 ud af behandlede). Knuder under huden kan også skyldes ophobning af et protein, der kaldes amyloid (kutan 
+amyloidose; hvor ofte dette forekommer er ikke kendt). Hvis du injicerer insulinet i et område af huden 
+med knuder, der har trukket sig sammen eller er fortykket, kan det være, at insulinet ikke virker så godt. 
+Skift injektionssted ved hver injektion for at hjælpe med at forebygge disse hudforandringer. </p>
+<p>Oversigt over andre bivirkninger </p>
+<p>Ikke almindelige bivirkninger 
+Kan forekomme hos færre end 1 ud af 100 behandlede. </p>
+<p>Symptomer på allergi: Lokale allergiske reaktioner (smerte, rødme, nældefeber (udslæt), inflammation 
+(vævsirritation), blå mærker, hævelse og kløe) på injektionsstedet kan forekomme. Symptomerne 
+forsvinder normalt inden for få uger ved fortsat insulinbehandling. Kontakt straks din læge, hvis 
+symptomerne ikke forsvinder, eller hvis de spreder sig til andre dele af kroppen. Se også Alvorlige 
+allergiske reaktioner ovenfor. </p>
+<p>Diabetisk retinopati (en øjensygdom med relation til diabetes, som kan medføre synstab): Hvis du lider 
+af diabetisk retinopati, kan dette forværres, hvis dit blodsukkerniveau forbedres meget hurtigt. Spørg din 
+læge til råds om dette. </p>
+<p>Hævede led: Når du påbegynder insulinbehandling, kan væskeophobning forårsage hævede led, specielt 
+ankler. Dette forsvinder normalt hurtigt. Hvis det ikke forsvinder, skal du tale med din læge. </p>
+<p>Smertefuld neuropati (smerte på grund af nervebeskadigelse): Hvis dit blodsukkerniveau forbedres 
+meget hurtigt, kan du få en nerverelateret smerte. Dette kaldes akut smertefuld neuropati og er normalt 
+forbigående.  </p>
+<p>Meget sjældne bivirkninger 
+Kan forekomme hos færre end 1 ud af 10.000 behandlede. </p>
+<p>Synsproblemer: Når du påbegynder insulinbehandling, kan du opleve synsforstyrrelser, men 
+forstyrrelserne er normalt midlertidige. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>
+<p>Følger af diabetes </p>
+<p>Højt blodsukker (hyperglykæmi) </p>
+<p>Højt blodsukker kan forekomme, hvis du: </p>
+<ul>
+<li>
+<p>Ikke har injiceret nok insulin. </p>
+</li>
+<li>
+<p>Glemmer at injicere dit insulin eller stopper med at tage insulin. </p>
+</li>
+<li>
+<p>Gentagne gange injicerer mindre insulin, end du har brug for. </p>
+</li>
+<li>
+<p>Får en infektion og/eller feber. </p>
+</li>
+<li>
+<p>Spiser mere, end du plejer. </p>
+</li>
+<li>
+<p>Dyrker mindre motion, end du plejer. </p>
+</li>
+</ul>
+<p>Advarselssignaler på højt blodsukker: 
+Advarselssignalerne kommer gradvist. De omfatter: Hyppig vandladning, tørst, appetitløshed, kvalme 
+eller opkastning, døsighed eller træthed, rød, tør hud, mundtørhed og frugtlugtende (acetonelugtende) 
+ånde. </p>
+<p>Du skal gøre følgende, hvis du får højt blodsukker:<br />
+► 
+Hvis du oplever nogle af ovennævnte signaler: Mål dit blodsukkerniveau, kontrollér om muligt 
+urinen for ketonstoffer og søg straks lægehjælp. 
+► 
+Disse symptomer kan betyde, at du har en meget alvorlig tilstand kaldet diabetisk ketoacidose 
+(ophobning af syre i blodet, da kroppen nedbryder fedt i stedet for sukker). Denne tilstand kan 
+ubehandlet resultere i diabetisk koma og i værste fald død. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store actraphane"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store actraphane"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn.  </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen med cylinderampuller efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Før ibrugtagning: Opbevares i køleskab ved 2°C – 8°C. Må ikke opbevares tæt på køleelementet. Må 
+ikke fryses. </p>
+<p>Under brug eller medbragt som reserve: Må ikke opbevares i køleskab eller fryses. Du kan have det 
+med dig og opbevare det ved stuetemperatur (under 30°C) i op til 6 uger. </p>
+<p>Opbevar altid cylinderampullen i den ydre karton, når du ikke anvender den, for at beskytte mod lys.  </p>
+<p>Kassér nålen efter hver injektion. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Actraphane 30 indeholder </p>
+<p>– 
+Aktivt stof: Humant insulin. Actraphane er en blanding bestående af 30% opløseligt humant insulin 
+og 70% humant isophaninsulin. 1 ml indeholder 100 IE humant insulin. Hver cylinderampul 
+indeholder 300 IE humant insulin i 3 ml injektionsvæske, suspension. 
+– 
+Øvrige indholdsstoffer: Zinkchlorid, glycerol, metacresol, phenol, dinatriumphosphatdihydrat, 
+natriumhydroxid, saltsyre, protaminsulfat og vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Actraphane er en injektionsvæske, suspension. Efter opblanding skal injektionsvæsken fremstå ensartet 
+hvid og uklar. 
+Pakningsstørrelser med 1, 5 og 10 cylinderampuller á 3 ml. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført. </p>
+<p>Injektionsvæsken er uklar, hvid og vandig. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Danmark </p>
+<p>Fremstiller 
+Novo Nordisk A/S 
+Novo Allé 
+DK-2880 Bagsværd,<br />
+Danmark </p>
+<p>Novo Nordisk Production SAS 
+45, Avenue d'Orléans 
+F-28000 Chartres,<br />
+Frankrig </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. 
+ Indlægsseddel: Information til brugeren </p>
+<p>Actraphane 30 InnoLet 100 IE/ml (internationale enheder/ml) injektionsvæske, suspension i fyldt 
+pen 
+humant insulin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger.<br />
+– 
+Gem indlægssedlen. Du kan få brug for at læse den igen. 
+– 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+– 
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+– 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, eller du får 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6083cc71113edb8591d330c3acd904d8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for actraphane Package Leaflet for language en"
+Description: "ePI document Bundle for actraphane Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6083cc71113edb8591d330c3acd904d8"
+* entry[0].resource = composition-en-6083cc71113edb8591d330c3acd904d8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6083cc71113edb8591d330c3acd904d8"
+* entry[=].resource = mp6083cc71113edb8591d330c3acd904d8
+                            
+                    
+Instance: bundlepackageleaflet-da-6083cc71113edb8591d330c3acd904d8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for actraphane Package Leaflet for language da"
+Description: "ePI document Bundle for actraphane Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6083cc71113edb8591d330c3acd904d8"
+* entry[0].resource = composition-da-6083cc71113edb8591d330c3acd904d8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6083cc71113edb8591d330c3acd904d8"
+* entry[=].resource = mp6083cc71113edb8591d330c3acd904d8
+                            
+                    
+
+
+
+Instance: mp6083cc71113edb8591d330c3acd904d8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Actraphane 30 40 international units/ml suspension for injection in vial."
-Description: "Actraphane 30 40 international units/ml suspension for injection in vial."
+Title: "Medicinal Product actraphane"
+Description: "actraphane"
 Usage: #inline
 
  
@@ -416,7 +977,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Actraphane 30 40 international units/ml suspension for injection in vial."
+  * productName = "actraphane"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -443,29 +1004,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6083cc71113edb8591d330c3acd904d8
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for actraphane Package Leaflet for language en"
-Description: "ePI document Bundle for actraphane Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6083cc71113edb8591d330c3acd904d8ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Actraphane 30 vial (40 international units/ml)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "actraphane"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6083cc71113edb8591d330c3acd904d8"
-* entry[0].resource = composition-en-6083cc71113edb8591d330c3acd904d8
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp09343cea52b83d711b710e7e3f5fc671"
-* entry[=].resource = mp09343cea52b83d711b710e7e3f5fc671
-                            
-                      
+* title = "List of all ePIs associated with actraphane"
+
+* subject = Reference(mp09343cea52b83d711b710e7e3f5fc671)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#actraphane "actraphane"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6083cc71113edb8591d330c3acd904d8) // actraphane en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6083cc71113edb8591d330c3acd904d8) // actraphane da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6083cc71113edb8591d330c3acd904d8
+InstanceOf: List
+
+* insert 6083cc71113edb8591d330c3acd904d8ListRuleset
+    

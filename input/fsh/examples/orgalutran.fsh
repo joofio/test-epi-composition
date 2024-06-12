@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-cb749713573713170146b8dc947ab1a6
 InstanceOf: CompositionUvEpi
 Title: "Composition for orgalutran Package Leaflet"
@@ -380,12 +383,468 @@ Tel: +44 (0) 208 159 3medicalinformationuk@organon.com  </p>
 
 
 
+Instance: composition-da-cb749713573713170146b8dc947ab1a6
+InstanceOf: CompositionUvEpi
+Title: "Composition for orgalutran Package Leaflet"
+Description:  "Composition for orgalutran Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf50fe3ce231c6cccaa34cb0b7e6b103b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf50fe3ce231c6cccaa34cb0b7e6b103b
+* title = "TEST PURPOSES ONLY - orgalutran"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at bruge Orgalutran 
+3. Sådan skal du bruge Orgalutran 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What orgalutran is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What orgalutran is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orgalutran indeholder det aktive stof ganirelix og tilhører gruppen af medicin, der kaldes 
+"antigonadotropin-frigivende hormoner", som virker imod det naturlige gonadotropinudskillende 
+hormon GnRH. GnRH regulerer udskillelsen af gonadotropiner (luteiniserende hormon (LH) og 
+follikelstimulerende hormon (FSH)). Gonadotropiner spiller en vigtig rolle i den menneskelige 
+frugtbarhed og graviditet. Hos kvinder bruges FSH til vækst og udvikling af follikler i æggestokkene. 
+Follikler er små runde poser, der indeholder ægceller. LH bruges til frigivelse af modnede ægceller fra 
+folliklerne og æggestokkene (ægløsning). Orgalutran hæmmer virkningen af GnRH, resulterende i 
+undertrykkelse af udskillelsen af specielt LH.  </p>
+<p>Orgalutran anvendes til </p>
+<p>Kvinder i medicinsk assisteret reproduktionsbehandling inklusive in vitro fertilisation (IVF) hvor der 
+sommetider forekommer for tidlig ægløsning, hvilket forårsager en signifikant nedsættelse af chancen 
+for at blive gravid. Orgalutran anvendes til at forhindre den tidlige bølge af LH, der kan forårsage en 
+for tidlig ægløsning. </p>
+<p>I kliniske studier blev Orgalutran anvendt sammen med rekombinant follikelstimulerende hormon 
+(FSH) eller corifollitropin alfa, et follikelstimulerende stof med langtidsvirkning.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take orgalutran"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take orgalutran"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke Orgalutran</h2>
+<p>hvis du er allergisk over for ganirelix eller et af de øvrige indholdsstoffer i Orgalutran (angivet i 
+punkt 6); 
+- 
+hvis du er overfølsom over for gonadotropinudskillende hormon (GnRH) eller en GnRH-
+analog; 
+- 
+hvis du har en moderat til svær nyre- eller leverlidelse; 
+- 
+hvis du er gravid eller ammer. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Orgalutran. </p>
+<p>Allergiske reaktioner </p>
+<p>Hvis du har en aktiv allergisk tilstand, skal du fortælle det til din læge. Afhængig af sværhedsgraden 
+vil lægen beslutte, om du skal overvåges særlig omhyggeligt under behandlingen. Der er rapporteret 
+om allergiske reaktioner så tidligt som ved første dosis. </p>
+<p>Der er rapporteret om allergiske reaktioner, både generaliserede og lokale, herunder nældefeber 
+(urticaria), hævelse af ansigt, læber, tunge og/eller svælg, som kan medføre besvær med at trække 
+vejret og/eller synke (angioødem og/eller anafylaksi) (se også punkt 4). Hvis du får en allergisk 
+reaktion, skal du stoppe med at tage Orgalutran og straks søge lægehjælp.  </p>
+<p>Latexallergi </p>
+<p>Kanylens beskyttelseshætte indeholder tørt naturgummi/latex, som kommer i berøring med kanylen og 
+kan fremkalde allergiske reaktioner. </p>
+<p>Ovarieoverstimulations-syndrom (OHSS) </p>
+<p>Under eller efter hormonel ovariestimulation kan der udvikles ovarieoverstimulations-syndrom. Dette 
+relateres til gonadotropinstimulationsproceduren. Læs venligst indlægssedlen for den 
+gonadotropinholdige medicin, der er ordineret til dig. </p>
+<p>Flere fødsler eller medfødte misdannelser </p>
+<p>Forekomsten af medfødte misdannelser efter medicinsk assisteret reproduktionsbehandling kan være 
+en smule højere end ved naturlig undfangelse. Denne lettere forhøjede forekomst tænkes at skyldes 
+egenskaber ved patienterne i reproduktionsbehandling (f.eks. kvindens alder, karakteristika ved 
+mandens sæd) samt den højere forekomst af befrugtning af flere ægceller efter medicinsk assisteret 
+reproduktionsbehandling. Forekomsten af medfødte misdannelser efter medicinsk assisteret 
+reproduktionsbehandling med Orgalutran adskiller sig ikke fra den ved brug af andre GnRH-
+præparater til brug i medicinsk assisteret reproduktionsbehandling.  </p>
+<p>Komplikationer i forbindelse med graviditet </p>
+<p>Der er en let øget risiko for graviditet uden for livmoderen (ektopisk graviditet) hos kvinder med 
+beskadigede æggeledere. </p>
+<p>Kvinder med en kropsvægt på under 50 kg eller over 90 kg </p>
+<p>Orgalutrans sikkerhed og virkning er ikke påvist hos kvinder, som vejer mindre end 50 kg eller mere 
+end 90 kg. Spørg din læge om yderligere information. </p>
+<p>Børn og unge 
+Brug ikke Orgalutran til børn eller unge. </p>
+<p>Brug af anden medicin sammen med Orgalutran 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin.  </p>
+<p>Graviditet, amning og frugtbarhed 
+Orgalutran anvendes under kontrolleret stimulation af æggestokkene i forbindelse med assisteret 
+reproduktionsteknik, ART, (fertilitetsbehandling). Brug ikke Orgalutran under graviditet og amning. </p>
+<p>Spørg din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed<br />
+Der er ikke foretaget undersøgelser af indflydelsen på evnen til at føre bil eller betjene maskiner. </p>
+<p>Orgalutran indeholder natrium 
+Orgalutran indeholder mindre end 1 mmol (23 mg) natrium pr. injektion (indsprøjtning), dvs. det er i 
+det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take orgalutran"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take orgalutran"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Orgalutran bruges som en del af behandlingen med medicinsk assisteret reproduktionsteknik (ART) 
+inklusive in vitro fertilisation (IVF).<br />
+Ovariestimulation med follikelstimulerende hormon (FSH) eller corifollitropin kan starte på 
+menstruationens 2. eller 3. dag. Orgalutran (0,25 mg) skal indsprøjtes lige under huden en gang 
+dagligt, startende på dag 5 eller dag 6 efter stimulation. Afhængigt af reaktionen fra dine æggestokke 
+kan din læge beslutte at starte behandlingen på en anden dag.<br />
+Orgalutran må ikke blandes med FSH, men begge præparater skal gives næsten samtidig, men ikke 
+samme sted.  </p>
+<p>Den daglige behandling med Orgalutran skal fortsætte indtil den dag, hvor der findes et tilstrækkeligt 
+antal follikler af passende størrelse. Sidste fase af modningen af ægcellerne i folliklerne fremskyndes 
+ved indgivelse af humant chorion gonadotropin (hCG). Tidsrummet mellem to Orgalutran-injektioner 
+og mellem den sidste Orgalutran-injektion og hCG-injektionen må ikke overstige 30 timer, idet der 
+ellers kan forekomme for tidlig ægløsning (frigivelse af ægceller). Ved indgift om morgenen skal 
+behandling med Orgalutran derfor fortsætte i hele gonadotropin behandlingsperioden, inkl. den dag 
+ægløsningen starter. Ved indgift om eftermiddagen skal den sidste Orgalutran injektion tages om 
+eftermiddagen før den dag, hvor ægløsningen starter. </p>
+<p>Brugsvejledning </p>
+<p>Injektionsstedet 
+Orgalutran findes i fyldte sprøjter og skal indsprøjtes langsomt lige under huden, helst i låret. 
+Kontroller opløsningen før anvendelse. Den må ikke anvendes, hvis den indeholder partikler eller er 
+uklar. Du kan måske se luftbobler i den fyldte sprøjte. Dette er forventeligt, og det er ikke nødvendigt 
+at fjerne luftboblerne. Hvis du selv eller din partner foretager de efterfølgende injektioner, skal du nøje 
+følge instruktionerne nedenfor. Bland ikke Orgalutran med anden medicin.  </p>
+<p>Klargøring af injektionsstedet 
+Vask hænderne omhyggeligt med vand og sæbe. Injektionsstedet skal renses med et desinficerende 
+middel (f.eks. sprit) for at fjerne bakterier på huden. Rens et område på ca. 5 cm rundt om 
+injektionsstedet og lad desinfektionsmidlet tørre i mindst 1 minut, før du går videre.  </p>
+<p>Indstik af kanylen 
+Fjern beskyttelseshætten. Tag fat i en stor hudfold med tommel- og pegefinger. Stik kanylen ind i 
+bunden af hudfolden i en vinkel på 45° på hudoverfladen. Du skal ændre injektionssted for hver 
+injektion.  </p>
+<p>Kontrol af kanylens korrekte position 
+Træk forsigtigt stemplet tilbage for at sikre, at kanylen er placeret korrekt. Hvis der suges blod tilbage 
+i sprøjten betyder det, at kanylens spids har gennemtrængt en blodåre. Skulle dette ske, skal du ikke 
+indsprøjte Orgalutran, men trække sprøjten ud, dække injektionsstedet med et stykke vat med 
+desinfektionsmiddel og presse ned på injektionsstedet; blødningen vil stoppe efter et par minutter. 
+Anvend ikke sprøjten og kasser den efter anvisningerne. Du skal starte forfra med en ny sprøjte.  </p>
+<p>Injektion af opløsningen 
+Når kanylen er korrekt placeret, trykkes stemplet langsomt og roligt ned, så opløsningen indsprøjtes 
+korrekt, og hudvævet ikke beskadiges.  </p>
+<p>Fjernelse af sprøjten 
+Træk sprøjten hurtigt ud og pres ned på injektionsstedet med et stykke vat med desinfektionsmiddel. 
+Brug kun sprøjten en gang. </p>
+<p>Hvis du har brugt for meget Orgalutran 
+Kontakt din læge.  </p>
+<p>Hvis du har glemt at bruge Orgalutran 
+Hvis du opdager, at du har glemt at indsprøjte Orgalutran, skal det gøres snarest muligt.<br />
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. 
+Hvis injektionen er givet mere end 6 timer for sent, så tidsrummet mellem to injektioner har oversteget 
+30 timer, skal du tage injektionen snarest muligt samt kontakte din læge for at få yderligere 
+rådgivning.  </p>
+<p>Hvis du holder op med at bruge Orgalutran 
+Du må ikke stoppe med Orgalutran, medmindre din læge råder dig til det, da dette kan påvirke 
+resultatet af din behandling. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Risikoen for at få en bivirkning er beskrevet ved hjælp af følgende kategorier: </p>
+<p>Meget almindelige bivirkninger: kan berøre flere end 1 ud af 10 kvinder 
+- Lokale hudreaktioner på injektionsstedet (især rødmen, med eller uden hævelse). Dette 
+forsvinder normalt inden for 4 timer efter injektionen.  </p>
+<p>Ikke almindelige bivirkninger: kan berøre op til 1 ud af 100 kvinder 
+- Hovedpine<br />
+- Kvalme<br />
+- Utilpashed  </p>
+<p>Meget sjældne bivirkninger: kan berøre op til 1 ud af 10.000 kvinder 
+- Allergiske reaktioner er set så tidligt som ved første dosis. </p>
+<ul>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Opsvulmet ansigt </p>
+</li>
+<li>
+<p>Vejrtrækningsbesvær (dyspnø) </p>
+</li>
+<li>
+<p>Hævelse af ansigt, læber, tunge og/eller svælg som kan medføre besvær med at trække 
+vejret og/eller synke (angioødem og/eller anafylaksi) </p>
+</li>
+<li>
+<p>Nældefeber (urticaria) </p>
+</li>
+<li>Forværring af allerede eksisterende udslæt (eksem) er rapporteret hos en patient efter den første 
+Orgalutran-dosis.  </li>
+</ul>
+<p>Herudover er der rapporteret andre bivirkninger, som er kendt for at optræde i forbindelse med den 
+kontrollerede ovarieoverstimulationsbehandling (f.eks. mavesmerter, ovarieoverstimulations-syndrom 
+(OHSS), graviditet uden for livmoderen (når fostret udvikler sig uden for livmoderen) og abort (læs 
+indlægssedlen for det FSH-lægemiddel, du bliver behandlet med)).  </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store orgalutran"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store orgalutran"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned.  </p>
+<p>Må ikke nedfryses.<br />
+Opbevares i den originale yderpakning for at beskytte mod lys.  </p>
+<p>Kontroller sprøjten før brug. Brug kun sprøjter med klar, partikelfri opløsning og i intakt emballage. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orgalutran indeholder:</p>
+<ul>
+<li>Aktivt stof: ganirelix (0,25 mg i 0,5 ml opløsning). </li>
+<li>Øvrige indholdsstoffer: eddikesyre, mannitol, vand til injektionsvæsker. pH-værdien (et mål for 
+surhedsgraden) kan være blevet justeret med natriumhydroxid og eddikesyre.  </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Orgalutran er en klar og farveløs vandig opløsning til injektion. Opløsningen er klar til brug og 
+beregnet til injektion under huden. Kanylens beskyttelseshætte indeholder tørt naturgummi/latex, 
+som kommer i berøring med kanylen. </p>
+<p>Orgalutran findes i pakker med 1 eller 5 fyldte sprøjter.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+N.V. Organon 
+Kloosterstraat 6 
+5349 AB Oss 
+Holland </p>
+<p>Fremstiller<br />
+N.V. Organon,<br />
+Kloosterstraat 6,<br />
+Postbus 20,<br />
+5340 BH Oss,<br />
+Holland.  </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Lietuva 
+Organon Pharma B.V. Lithuania atstovybė 
+Tel.: +370 52041dpoc.lithuania@organon.com </p>
+<p>България 
+Органон (И.А.) Б.В. - клон България 
+Тел.: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>Luxembourg/Luxemburg 
+Organon Belgium 
+Tél/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Česká republika 
+Organon Czech Republic s.r.o. 
+Tel: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarország 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS<br />
+Tlf: +45 4484 6info.denmark@organon.com </p>
+<p>Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel: +356 2277 8dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel.: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland 
+N.V. Organon 
+Tel: 00800 66550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com  </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>Ελλάδα 
+BIANEΞ Α.Ε. 
+Τηλ: +30 210 80091 Mailbox@vianex.gr </p>
+<p>Österreich 
+Organon Healthcare GmbH<br />
+Tel: +49 (0) 89 2040022 dpoc.austria@organon.com 
+España 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 organon_info@organon.com </p>
+<p>Polska 
+Organon Polska Sp. z o.o. 
+Tel.: +48 22 105 50 organonpolska@organon.com </p>
+<p>France 
+Organon France 
+Tél: +33 (0) 1 57 77 32<br />
+Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: +385 1 638 4dpoc.croatia@organon.com </p>
+<p>România 
+Organon Biosciences S.R.L. 
+Tel: +40 21 527 29 dpoc.romania@organon.com<br />
+Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podružnica Ljubljana 
+Tel: +386 1 300 10 dpoc.slovenia@organon.com 
+Ísland 
+Vistor hf. 
+Sími: + 354 535 7 
+Slovenská republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
+<p>Italia 
+Organon Italia S.r.l. 
+Tel: +39 06 90259dpoc.italy@organon.com </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Κύπρος 
+Organon Pharma B.V., Cyprus branch 
+Τηλ: +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
+<p>Latvija 
+Ārvalsts komersanta “Organon Pharma B.V." 
+pārstāvniecība 
+Tel: +371 66968dpoc.latvia@organon.com </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited 
+Tel: +44 (0) 208 159 3medicalinformationuk@organon.com  </p>
+<p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-cb749713573713170146b8dc947ab1a6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orgalutran Package Leaflet for language en"
+Description: "ePI document Bundle for orgalutran Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-cb749713573713170146b8dc947ab1a6"
+* entry[0].resource = composition-en-cb749713573713170146b8dc947ab1a6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcb749713573713170146b8dc947ab1a6"
+* entry[=].resource = mpcb749713573713170146b8dc947ab1a6
+                            
+                    
+Instance: bundlepackageleaflet-da-cb749713573713170146b8dc947ab1a6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orgalutran Package Leaflet for language da"
+Description: "ePI document Bundle for orgalutran Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-cb749713573713170146b8dc947ab1a6"
+* entry[0].resource = composition-da-cb749713573713170146b8dc947ab1a6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcb749713573713170146b8dc947ab1a6"
+* entry[=].resource = mpcb749713573713170146b8dc947ab1a6
+                            
+                    
+
+
+
+Instance: mpcb749713573713170146b8dc947ab1a6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Orgalutran 0.25 mg/0.5 mL solution for injection"
-Description: "Orgalutran 0.25 mg/0.5 mL solution for injection"
+Title: "Medicinal Product orgalutran"
+Description: "orgalutran"
 Usage: #inline
 
  
@@ -405,7 +864,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Orgalutran 0.25 mg/0.5 mL solution for injection"
+  * productName = "orgalutran"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -432,29 +891,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-cb749713573713170146b8dc947ab1a6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for orgalutran Package Leaflet for language en"
-Description: "ePI document Bundle for orgalutran Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: cb749713573713170146b8dc947ab1a6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/00/130/001, 1 pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "orgalutran"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-cb749713573713170146b8dc947ab1a6"
-* entry[0].resource = composition-en-cb749713573713170146b8dc947ab1a6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf50fe3ce231c6cccaa34cb0b7e6b103b"
-* entry[=].resource = mpf50fe3ce231c6cccaa34cb0b7e6b103b
-                            
-                      
+* title = "List of all ePIs associated with orgalutran"
+
+* subject = Reference(mpf50fe3ce231c6cccaa34cb0b7e6b103b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#orgalutran "orgalutran"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-cb749713573713170146b8dc947ab1a6) // orgalutran en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-cb749713573713170146b8dc947ab1a6) // orgalutran da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-cb749713573713170146b8dc947ab1a6
+InstanceOf: List
+
+* insert cb749713573713170146b8dc947ab1a6ListRuleset
+    

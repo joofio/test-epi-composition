@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f4a6bd0f84938c78fdaccb98fced40ad
 InstanceOf: CompositionUvEpi
 Title: "Composition for cymbalta Package Leaflet"
@@ -471,12 +474,597 @@ Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-f4a6bd0f84938c78fdaccb98fced40ad
+InstanceOf: CompositionUvEpi
+Title: "Composition for cymbalta Package Leaflet"
+Description:  "Composition for cymbalta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfd78cf219c8e358ffbd1b7e3ad982d72)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpfd78cf219c8e358ffbd1b7e3ad982d72
+* title = "TEST PURPOSES ONLY - cymbalta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen<br />
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Cymbalta 
+3. Sådan skal du tage Cymbalta 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cymbalta is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cymbalta is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cymbalta indeholder det aktive stof duloxetin. Cymbalta øger indholdet af serotonin og noradrenalin i 
+nervesystemet. </p>
+<p>Cymbalta anvendes hos voksne til behandling af  </p>
+<ul>
+<li>
+<p>depression   </p>
+</li>
+<li>
+<p>angst (kronisk fornemmelse af angst og nervøsitet) </p>
+</li>
+<li>
+<p>diabetiske neuropatiske smerter (beskrives ofte som brændende, stikkende, sviende, jagende, 
+skærende eller som et elektrisk stød. Der kan forekomme følelsesløshed i det angrebne område, 
+eller påvirkninger såsom berøring, varme, kulde eller tryk kan fremkalde smerte).  </p>
+</li>
+</ul>
+<p>Hos de fleste mennesker med depression eller angst begynder Cymbalta at virke inden for de første to 
+uger, men det kan vare 2-4 uger, før du får det bedre. Fortæl det til lægen, hvis du ikke begynder at få 
+det bedre efter det tidsrum. Din læge kan vælge at fortsætte din behandling med Cymbalta efter, at du 
+har fået det bedre for at forebygge, at din depression eller angst skal vende tilbage.  </p>
+<p>Hos mennesker med diabetiske neuropatiske smerter kan det vare nogle uger, før de får det bedre. Tal 
+med din læge, hvis du ikke har det bedre efter 2 måneder. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cymbalta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cymbalta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TAG IKKE Cymbalta hvis du 
+- er allergisk over for duloxetin eller et af de øvrige indholdsstoffer i Cymbalta (angivet i afsnit 6). 
+- har en leversygdom.<br />
+- har svært nedsat nyrefunktion.<br />
+- tager, eller inden for de sidste 14 dage har været i behandling med, en MAO-hæmmer 
+(monoaminoxidasehæmmer) (se ”Brug af anden medicin sammen med Cymbalta”). </p>
+<ul>
+<li>tager fluvoxamin, som normalt anvendes til behandling af depression, ciprofloxacin eller enoxacin, 
+som bruges mod infektioner. </li>
+<li>hvis du tager andre lægemidler indeholdende duloxetin (se ”Brug af anden medicin sammen med 
+Cymbalta”). 
+Fortæl det til din læge, hvis du har forhøjet blodtryk eller en hjertesygdom. Hvis du kan tage Cymbalta, 
+vil din læge sige det til dig. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+I følgende situationer kan du muligvis ikke anvende Cymbalta. Kontakt lægen, før du tager Cymbalta, 
+hvis du:</p>
+<ul>
+<li>tager anden medicin til behandling af depression (se ”Brug af anden medicin sammen med 
+Cymbalta”). </li>
+<li>tager et naturlægemiddel, som indeholder perikon (Hypericum perforatum). </li>
+<li>har en nyresygdom </li>
+<li>tidligere har haft krampeanfald </li>
+<li>tidligere har haft mani </li>
+<li>lider af en bipolar sygdom </li>
+<li>har øjenproblemer, såsom visse typer af grøn stær (glaukom - forøget tryk i øjet) </li>
+<li>tidligere har lidt af blødningsforstyrrelser (tendens til blå mærker), især hvis du er gravid (se 
+”Graviditet og amning”) </li>
+<li>har risiko for at få lavt natrium i blodet (for eksempel hvis du tager vanddrivende medicin, især 
+hvis du er ældre) </li>
+<li>er i samtidig behandling med medicin, som kan skade leveren </li>
+<li>samtidig tager anden medicin, som indeholder duloxetin (se ”Brug af anden medicin sammen med 
+Cymbalta”). </li>
+</ul>
+<p>Cymbalta kan give en følelse af uro eller manglende evne til at sidde eller stå stille. Hvis det sker for 
+dig, bør du fortælle din læge dette. </p>
+<p>Lægemidler som Cymbalta (såkaldte SSRI/SNRI'er) kan give symptomer på seksuel dysfunktion (se 
+pkt. 4). I nogle tilfælde er disse symptomer blevet ved efter ophør med behandlingen. </p>
+<p>Selvmordstanker og forværring af din depression eller angstsygdom<br />
+Hvis du har en depression eller lider af en angstsygdom, kan du af og til få tanker om at skade dig selv 
+eller begå selvmord. Disse tanker kan forstærkes især i starten af behandlingen med antidepressiva, da 
+det tager nogen tid før denne slags medicin virker, sædvanligvis omkring to uger, men af og til 
+længere. 
+Du vil mere sandsynligt tænke på dette, hvis du:</p>
+<ul>
+<li>tidligere har haft tanker om at begå selvmord eller at gøre skade på dig selv. </li>
+<li>er en yngre person. Erfaringer fra undersøgelser har vist, at der er en øget risiko for 
+selvmordsadfærd hos unge under 25 år med en psykisk forstyrrelse, som bliver behandlet med 
+antidepressiv medicin. </li>
+</ul>
+<p>Hvis du på noget tidspunkt får tanker om at skade dig selv eller begå selvmord, skal du straks 
+kontakte din læge eller skadestuen. </p>
+<p>Det kan muligvis være til hjælp for dig, hvis du fortæller en ven eller slægtning, at du har en 
+depression eller en angstsygdom, og beder dem læse denne indlægsseddel. Du kan bede dem om at 
+fortælle det til dig, hvis de synes, at din depression eller angstsygdom bliver værre, eller hvis de er 
+bekymrede over ændringer i din adfærd. </p>
+<p>Børn og unge under 18 år 
+Cymbalta bør normalt ikke bruges til behandling af børn og unge under 18 år. Du skal også være klar 
+over, at patienter under 18 år har en forøget risiko for bivirkninger såsom selvmordsforsøg, 
+selvmordstanker og fjendtlighed (overvejende aggression, modsættende adfærd og vrede), når de tager 
+denne type af medicin. På trods af dette kan din læge ordinere Cymbalta til patienter under 18 år, hvis 
+lægen skønner, at det er til patientens bedste. Du bedes henvende dig til din læge, hvis din læge har </p>
+<p>udskrevet Cymbalta til en patient under 18 år, og du gerne vil diskutere dette. Du skal fortælle din 
+læge, hvis et af ovenstående symptomer opstår eller forværres hos en patient under 18 år, som er i 
+behandling med Cymbalta. Ydermere foreligger der endnu ikke data på langtidssikkerhed hos denne 
+aldersgruppe hvad angår vækst, modning, kognitiv- og adfærdsudvikling ved brug af Cymbalta. </p>
+<p>Brug af anden medicin sammen med Cymbalta 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for 
+nylig.  </p>
+<p>Det aktive stof (duloxetin) i Cymbalta bruges i andre lægemidler mod andre tilstande: 
+• diabetisk neuropatisk smerte, depression, angst og stressinkontinens.  </p>
+<p>Brug af flere end et af disse lægemidler samtidig bør undgås. Spørg din læge om du allerede tager 
+andre lægemidler indeholdende duloxetin.  </p>
+<p>Din læge bør afgøre, om Cymbalta kan tages sammen med anden medicin. Start eller afbryd ikke 
+behandlingen med medicin, det gælder også for medicin, som ikke er på recept samt 
+naturlægemidler og kosttilskud, før du har talt med din læge. </p>
+<p>Du skal også fortælle din læge, hvis du tager noget af nedenstående medicin: </p>
+<p>Monoaminoxidasehæmmere (MAO-hæmmere): Du må ikke tage Cymbalta, hvis du tager, eller inden 
+for de sidste 14 dage har taget et antidepressivt lægemiddel kaldet en MAO-hæmmer. Eksempler på 
+MAO-hæmmere er bl.a. moclobemid (mod depression) og linezolid (antibiotika). Hvis du tager en 
+MAO-hæmmer sammen med en række forskellige receptpligtige lægemidler, heriblandt Cymbalta, 
+kan det medføre alvorlige og endda livstruende bivirkninger. Du skal vente mindst 14 dage efter, at du 
+er holdt op med at tage en MAO-hæmmer, før du må begynde at tage Cymbalta. Du skal ligeledes 
+vente mindst 5 dage, efter at du er holdt op med at tage Cymbalta, før du må begynde at tage en MAO-
+hæmmer. </p>
+<p>Medicin der kan virke sløvende: Dette omfatter receptpligtig medicin inklusive benzodiazepiner, 
+stærk smertestillende medicin, antipsykotika, phenobarbital og antihistaminer. </p>
+<p>Medicin, som øger niveauet af serotonin: Triptaner, tramadol, tryptophan, SSRI-præparater (såsom 
+paroxetin og fluoxetin), SNRI-præparater (såsom venlafaxin), tricykliske antidepressiva (såsom 
+clomipramin, amitriptylin), pethidin, perikon og MAO-hæmmere (såsom moclobemid og linezolid). 
+Disse typer medicin øger risikoen for bivirkninger. Hvis du får usædvanlige symptomer, når du tager 
+et af disse lægemidler sammen med Cymbalta, skal du kontakte din læge. </p>
+<p>Orale antikoagulantia eller medicin, der påvirker blodpladerne: Medicin, der fortynder blodet og 
+modvirker dannelse af blodpropper. Disse lægemidler kan øge risikoen for blødninger. </p>
+<p>Brug af Cymbalta sammen med mad, drikke og alkohol 
+Cymbalta kan tages med og uden mad. Du bør udvise forsigtighed, hvis du drikker alkohol, samtidig 
+med, at du er i behandling med Cymbalta.  </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<ul>
+<li>
+<p>Fortæl din læge, hvis du bliver gravid, eller hvis du prøver at blive gravid, mens du tager 
+Cymbalta. Du må kun bruge Cymbalta efter, at du har talt med din læge om de mulige fordele 
+for dig og de mulige risici for dit ufødte barn. </p>
+</li>
+<li>
+<p>Du skal sikre dig, at din jordemoder og/eller læge ved, at du tager Cymbalta. Lignende 
+præparater (SSRI’er) kan, når de tages under graviditeten, øge risikoen for en alvorlig lidelse 
+kaldet persisterende pulmonal hypertension hos spædbørn (PPHN), hvilket gør barnet blåligt i 
+huden og får det til at trække vejret hurtigere. Symptomerne opstår som regel inden for de </p>
+</li>
+</ul>
+<p>første 24 timer efter, at barnet er født. Du skal omgående kontakte din jordemoder og/eller 
+læge, hvis dette sker for dit barn. </p>
+<ul>
+<li>
+<p>Hvis du tager Cymbalta i slutningen af graviditeten, kan dit barn udvise visse symptomer, når 
+det bliver født. Som regel opstår de ved fødslen eller inden for få dage efter fødslen. 
+Symptomerne omfatter slappe muskler, skælven, spjætteri, spisebesvær, 
+vejrtrækningsproblemer og krampeanfald. Du skal kontakte din læge eller jordemoder med 
+henblik på råd og vejledning, hvis dit barn udviser nogle af disse symptomer efter fødslen, 
+eller hvis du er bekymret for dit barns helbred. </p>
+</li>
+<li>
+<p>Hvis du tager Cymbalta i slutningen af graviditeten, er der en øget risiko for kraftig vaginal 
+blødning kort efter fødslen, især hvis du tidligere har haft blødningsforstyrrelser. Din læge 
+eller jordemoder skal gøres opmærksom på, at du tager duloxetin, så de kan rådgive dig. </p>
+</li>
+<li>
+<p>Tilgængelige data fra brug af Cymbalta i de første tre måneder af graviditeten viser ikke en 
+generel øget risiko for samlede fødselsdefekter hos barnet. Hvis Cymbalta tages i løbet af 
+anden halvdel af graviditeten, kan der være en øget risiko for, at barnet fødes tidligt 
+(yderligere 6 for tidligt fødte børn for hver 100 kvinder, der tager Cymbalta i anden halvdel af 
+graviditeten), oftest mellem uge 35 og 36 af graviditeten. </p>
+</li>
+<li>
+<p>Fortæl din læge, hvis du ammer. Det anbefales ikke at bruge Cymbalta, mens du ammer. 
+Spørg din læge eller apoteket til råds. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Cymbalta kan gøre dig søvnig og svimmel. Du må ikke køre bil eller arbejde med værktøj eller 
+maskiner, før du ved, hvordan Cymbalta påvirker dig. </p>
+<p>Cymbalta indeholder saccharose 
+Cymbalta indeholder saccharose. Hvis din læge har fortalt dig, at du ikke kan tåle visse sukkerarter, 
+skal du kontakte din læge, inden du tager denne medicin.  </p>
+<p>Cymbalta indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cymbalta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cymbalta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>Cymbalta er til oral brug. Du skal synke kapslen hel sammen med et glas vand. </p>
+<p>Mod depression og diabetiske neuropatiske smerter: 
+Den anbefalede dosis af Cymbalta er 60 mg én gang dagligt. Din læge beslutter dog den rette dosis for 
+dig.  </p>
+<p>Mod generaliseret angst: 
+Den sædvanlige startdosis af Cymbalta er 30 mg en gang dagligt, hvorefter de fleste patienter vil få mg en gang dagligt, men din læge vil fastlægge den dosis, som passer til dig. Dosis kan justeres op til 
+120 mg dagligt afhængigt af dit respons på Cymbalta. </p>
+<p>Det kan være lettere at huske at tage Cymbalta, hvis du tager det på samme tidspunkt hver dag.  </p>
+<p>Tal med din læge om, hvor længe du skal blive ved med at tage Cymbalta. Du må kun stoppe 
+behandlingen eller ændre dosis efter aftale med lægen. For at du kan få det bedre, er det vigtigt, at din </p>
+<p>sygdom behandles korrekt. Hvis den ikke behandles, vil du måske ikke få det bedre, og din tilstand 
+kan forværres og blive sværere at behandle. </p>
+<p>Hvis du har taget for meget Cymbalta 
+Kontakt omgående lægen eller apoteket, hvis du har taget mere Cymbalta, end lægen har ordineret. 
+Symptomer på overdosering omfatter søvnighed, koma, serotoninsyndrom (en sjælden bivirkning, som 
+kan forårsage en unormal opstemthed, døsighed, klodsethed, rastløshed, en følelse af at være beruset, 
+feber, svedtendens og muskelstivhed), krampeanfald, opkastning og hurtig puls.  </p>
+<p>Hvis du har glemt at tage Cymbalta 
+Glemmer du at tage en dosis, skal du tage den, så snart du kommer i tanke om det. Hvis det allerede er 
+blevet tid til din næste dosis, skal du springe den glemte dosis over og blot tage en enkelt dosis, som 
+du plejer. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Du må ikke tage mere 
+Cymbalta pr. dag, end lægen har ordineret. </p>
+<p>Hvis du holder op med at tage Cymbalta 
+Du må ikke holde op med at tage kapslerne uden at have konsulteret din læge, heller ikke selv om du 
+har fået det bedre. Hvis lægen mener, at du ikke længere behøver at tage Cymbalta, vil lægen bede dig 
+reducere dosis over mindst 2 uger, før du stopper behandlingen helt.  </p>
+<p>Nogle patienter, som pludselig holdt op med at tage Cymbalta, oplevede symptomer som:  </p>
+<ul>
+<li>svimmelhed, prikkende følelse som når noget sover eller følelse af elektriske stød (især i 
+hovedet), søvnforstyrrelser (livagtige drømme, mareridt, søvnløshed), træthed, søvnighed, 
+rastløshed eller uro, angst, kvalme eller opkastning, rystelser (tremor), hovedpine, muskelsmerter, 
+irritation, diarré, forøget tendens til at svede eller svimmelhed.<br />
+Disse symptomer er normalt ikke alvorlige og forsvinder inden for få dage, men hvis du oplever meget 
+generende symptomer, skal du rådføre dig med lægen. </li>
+</ul>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
+Bivirkningerne er normalt milde til moderate og forsvinder ofte efter få uger.  </p>
+<p>Meget almindelige bivirkninger (kan ske hos flere end 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>hovedpine, søvnighed </p>
+</li>
+<li>
+<p>kvalme, mundtørhed </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan ske hos op til 1 ud af 10 patienter) 
+• appetitmangel 
+• søvnbesvær, ophidselse, mindre lyst til sex, angst, problemer med at opnå orgasme, mærkelige 
+drømme 
+• svimmelhed, følelse af ugidelighed, rysten, følelsesløshed inklusive følelsesløshed eller 
+prikken/snurren i huden 
+• sløret syn 
+• tinnitus (opfattelse af lyd i øret, når der ingen lyd er) 
+• hjertebanken 
+• forhøjet blodtryk, rødmen 
+• øget tendens til at gabe 
+• forstoppelse, diarré, mavesmerter, opkastning, halsbrand eller fordøjelsesbesvær, luft i maven 
+• øget tendens til at svede, (kløende) udslæt 
+• muskelsmerter, muskelkramper 
+• smertefuld vandladning, hyppig vandladning 
+• problemer med at få erektion, ændret ejakulation </p>
+<p>• fald (oftest hos ældre), træthed 
+• vægttab </p>
+<p>Børn og unge under 18 år, som blev behandlet med dette lægemiddel, oplevede et vægttab i 
+begyndelsen af behandlingen. Efter 6 måneders behandling var vægten steget, så den svarede til deres 
+jævnaldrendes af samme køn. </p>
+<p>Ikke almindelige bivirkninger (kan ske hos op til 1 ud af 100 patienter) 
+• halsbetændelse, som forårsager hæs stemme 
+• selvmordstanker, søvnbesvær, tænderskæren eller sammenbidte tænder, desorientering, 
+manglende motivation 
+• pludselig, ufrivillig spjætten eller sitren i musklerne, følelse af rastløshed eller manglende evne 
+til at sidde eller stå stille, nervøsitet, koncentrationsbesvær, ændret smagsoplevelse, problemer 
+med at styre sine bevægelser f.eks. koordinationsbesvær eller ufrivillige muskelbevægelser, 
+restless legs syndrom (stærk uro og krybende fornemmelse i underbenene), dårlig søvnkvalitet 
+• store pupiller, synsforstyrrelser 
+• følelse af at være ”rundtosset” (vertigo), ørepine 
+• hurtig og/eller uregelmæssig puls 
+• besvimelse, svimmelhed, uklarhed eller besvimelse efter at have rejst sig op, kolde fingre 
+og/eller tæer 
+• sammensnørret hals, næseblod 
+• opkastning af blod eller sort, tjærefarvet afføring (på grund af blod i afføringen), mave-tarm-
+katar, bøvsen, synkebesvær 
+• betændelse i leveren, som kan give mavesmerter og gulfarvning af huden eller det hvide i 
+øjnene 
+• natlig sveden, nældefeber, koldsved, øget følsomhed over for sollys, øget tendens til blå mærker 
+• muskelstivhed, muskelkramper 
+• besværet eller manglende evne til at lade vandet, besvær med at påbegynde vandladning, behov 
+for vandladning i løbet af natten, behov for hyppigere vandladning end normalt, nedsat 
+urinmængde 
+• unormal vaginalblødning, unormal menstruation herunder voldsom, smertefuld, uregelmæssig 
+eller forlænget blødning, usædvanlig sparsom eller manglende menstruation, smerter i 
+testiklerne eller pungen 
+• brystsmerter, kuldefølelse, tørst, skælven, varmefølelse, unormal gangart 
+• vægtøgning 
+• Cymbalta kan medføre bivirkninger, som du måske ikke er opmærksom på, f.eks. forhøjede 
+leverenzymer eller forhøjede værdier af kalium, kreatinkinase, sukker eller kolesterol i blodet </p>
+<p>Sjældne bivirkninger (kan ske hos op til 1 ud af 1.000 patienter) 
+• alvorlige allergiske reaktioner, som forårsager åndedrætsbesvær eller svimmelhed og hævelse af 
+tunge eller læber, allergiske reaktioner 
+• nedsat aktivitet af skjoldbruskkirtlen, som kan forårsage træthed eller vægtøgning 
+• dehydrering (væskemangel), lavt indhold af natrium i blodet (oftest hos ældre mennesker; 
+symptomerne omfatter bl.a. svimmelhed, svaghed, forvirring, søvnighed eller udpræget træthed 
+eller kvalme og opkastning; mere alvorlige symptomer er besvimelse, krampeanfald eller fald), 
+syndrom med uhensigtsmæssig sekretion af anti-diuretisk hormon (SIADH)<br />
+• selvmordsrelateret adfærd, mani (overaktivitet, tanker, der løber løbsk og nedsat behov for 
+søvn), hallucinationer, aggressivitet og vrede 
+• Serotoninsyndrom (en sjælden bivirkning, der kan forårsage unormal opstemthed, døsighed, 
+klodsethed, rastløshed, en følelse af at være beruset, feber, tendens til at svede eller 
+muskelstivhed), krampeanfald 
+• øget tryk i øjet (grøn stær, glaukom) 
+• hoste, hvæsende vejrtrækning og åndenød, som kan være ledsaget af en høj temperatur 
+• betændelseslignende tilstand (inflammation) i mundhulen, frisk rødt blod i afføringen, dårlig 
+ånde, inflammation i tyktarmen (kan medføre diarré) </p>
+<p>• leversvigt, gulfarvning af huden eller det hvide i øjnene (gulsot) 
+• Stevens-Johnsons syndrom (en alvorlig lidelse med blærer i huden, munden, øjnene og på 
+kønsorganerne), alvorlige allergiske reaktioner, som kan forårsage hævelse i ansigtet eller 
+halsen (angioødem) 
+• sammenbidte kæber 
+• unormal urinlugt 
+• symptomer på overgangsalder, unormal mælkeproduktion hos mænd og kvinder 
+• kraftig vaginal blødning kort efter fødslen (postpartum blødning) </p>
+<p>Meget sjældne bivirkninger (kan ske hos op til 1 ud af 10.000 patienter) </p>
+<ul>
+<li>Betændelse i hudens blodkar (kutan vaskulitis) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cymbalta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cymbalta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale emballage for at beskytte mod fugt. Må ikke opbevares ved temperaturer 
+over 30 °C. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cymbalta indeholder:</p>
+<ul>
+<li>Aktivt stof: Duloxetin. Hver kapsel indeholder 30 eller 60 mg duloxetin som hydrochlorid. </li>
+<li>Øvrige indholdsstoffer:<br />
+Kapselindhold: Hypromellose, hypromelloseacetatsuccinat, saccharose, saccharosekugler, talcum, 
+titandioxid (E171), triethylcitrat (se sidst i afsnit 2 for yderligere information om saccharose). 
+Kapsellåg og -bund: Gelatine, natriumlaurilsulfat, titandioxid (E171), indigotin (E132), gul jernoxid 
+(E172) (kun i 60 mg) og Edible Green Ink (30 mg) eller Edible White Ink (60 mg). 
+Edible green ink: Syntetisk sort jernoxid (E172), syntetisk gul jernoxid (E172), propylenglycol og 
+shellac. 
+Edible white ink: Titandioxid (E171), propylenglycol, shellac og povidon. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Cymbalta er en hård enterokapsel. Hver Cymbalta kapsel indeholder pellets af duloxetinhydrochlorid 
+med en belægning, som beskytter dem mod mavesyre. </p>
+<p>Cymbalta findes i to styrker: 30 mg og 60 mg: 
+30 mg kapslerne er blå og hvide med påskriften "30 mg" og koden "9543".<br />
+60 mg kapslerne er blå og grønne med påskriften "60 mg" og koden "9542". </p>
+<p>Cymbalta 30 mg findes i blisterpakninger med 7, 28 og 98 hårde enterokapsler.  </p>
+<p>Cymbalta 60 mg findes i blisterpakning med 28, 56, 84 og 98 hårde enterokapsler og i multipakninger 
+med 100 (5 pakninger a 20) og 500 (25 pakninger a 20) hårde enterokapsler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Indehaver af markedsføringstilladelsen: Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ 
+Utrecht, Holland.<br />
+Fremstiller: Lilly S.A., Avda. De la Industria, 30, 28108 Alcobendas, Madrid, Spanien. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84<br />
+Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649 
+България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41<br />
+Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664<br />
+Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5 
+Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60<br />
+Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600<br />
+Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25<br />
+Eesti 
+Eli Lilly Nederland B.V.<br />
+Tel: +372 6 817 Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18<br />
+Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4 </p>
+<p>Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711<br />
+España 
+Dista S.A.<br />
+Tel: + 34 91 623 17<br />
+Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33<br />
+France 
+Lilly France 
+Tél: +33-(0) 1 55 49 34<br />
+Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126 
+Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350 România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023 
+Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 </p>
+<p>Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00  </p>
+<p>Ísland 
+Icepharma hf. 
+Sími + 354 540 8 
+Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663<br />
+Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42 
+Suomi/Finland 
+Oy Eli Lilly Finland Ab 
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Tηλ: +357 22 715 
+Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā<br />
+Tel: +371 67364 
+United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/ </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f4a6bd0f84938c78fdaccb98fced40ad
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cymbalta Package Leaflet for language en"
+Description: "ePI document Bundle for cymbalta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f4a6bd0f84938c78fdaccb98fced40ad"
+* entry[0].resource = composition-en-f4a6bd0f84938c78fdaccb98fced40ad
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf4a6bd0f84938c78fdaccb98fced40ad"
+* entry[=].resource = mpf4a6bd0f84938c78fdaccb98fced40ad
+                            
+                    
+Instance: bundlepackageleaflet-da-f4a6bd0f84938c78fdaccb98fced40ad
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cymbalta Package Leaflet for language da"
+Description: "ePI document Bundle for cymbalta Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f4a6bd0f84938c78fdaccb98fced40ad"
+* entry[0].resource = composition-da-f4a6bd0f84938c78fdaccb98fced40ad
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf4a6bd0f84938c78fdaccb98fced40ad"
+* entry[=].resource = mpf4a6bd0f84938c78fdaccb98fced40ad
+                            
+                    
+
+
+
+Instance: mpf4a6bd0f84938c78fdaccb98fced40ad
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cymbalta 30 mg hard gastro-resistant capsules"
-Description: "Cymbalta 30 mg hard gastro-resistant capsules"
+Title: "Medicinal Product cymbalta"
+Description: "cymbalta"
 Usage: #inline
 
  
@@ -496,7 +1084,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cymbalta 30 mg hard gastro-resistant capsules"
+  * productName = "cymbalta"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -523,29 +1111,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f4a6bd0f84938c78fdaccb98fced40ad
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cymbalta Package Leaflet for language en"
-Description: "ePI document Bundle for cymbalta Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f4a6bd0f84938c78fdaccb98fced40adListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/04/296/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cymbalta"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f4a6bd0f84938c78fdaccb98fced40ad"
-* entry[0].resource = composition-en-f4a6bd0f84938c78fdaccb98fced40ad
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpfd78cf219c8e358ffbd1b7e3ad982d72"
-* entry[=].resource = mpfd78cf219c8e358ffbd1b7e3ad982d72
-                            
-                      
+* title = "List of all ePIs associated with cymbalta"
+
+* subject = Reference(mpfd78cf219c8e358ffbd1b7e3ad982d72)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cymbalta "cymbalta"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f4a6bd0f84938c78fdaccb98fced40ad) // cymbalta en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f4a6bd0f84938c78fdaccb98fced40ad) // cymbalta da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f4a6bd0f84938c78fdaccb98fced40ad
+InstanceOf: List
+
+* insert f4a6bd0f84938c78fdaccb98fced40adListRuleset
+    

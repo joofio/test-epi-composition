@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-70fa014e07592e69938a0c03f0ec3015
 InstanceOf: CompositionUvEpi
 Title: "Composition for vidprevtyn Package Leaflet"
@@ -291,12 +294,542 @@ Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-70fa014e07592e69938a0c03f0ec3015
+InstanceOf: CompositionUvEpi
+Title: "Composition for vidprevtyn Package Leaflet"
+Description:  "Composition for vidprevtyn Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd0baa394c65ff6b43565cc6085038786)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd0baa394c65ff6b43565cc6085038786
+* title = "TEST PURPOSES ONLY - vidprevtyn"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at få VidPrevtyn Beta 
+3. Sådan får du VidPrevtyn Beta 
+4. Bivirkninger<br />
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vidprevtyn is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vidprevtyn is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VidPrevtyn Beta er en vaccine, der anvendes til at forebygge COVID-19. VidPrevtyn Beta gives til voksne, som tidligere har fået enten en mRNA-vaccine eller en 
+adenovirus-vektor COVID-19 vaccine. </p>
+<p>Vaccinen stimulerer immunsystemet (kroppens naturlige forsvar) til at producere specifikke 
+antistoffer, der modarbejder virussen, for at give beskyttelse mod COVID-19. Ingen af 
+indholdsstofferne i denne vaccine kan forårsage COVID-19. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vidprevtyn"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vidprevtyn"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få VidPrevtyn Beta:<br />
+Hvis du er allergisk over for det aktive stof eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6);<br />
+Hvis du er allergisk over for octylphenolethoxylat, som er et stof, der bruges i 
+fremstillingsprocessen. Der kan være små mængder af dette stof tilbage efter fremstilling.  </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får vaccinen hvis:  </p>
+<ul>
+<li>
+<p>hvis du nogensinde har haft en alvorlig allergisk reaktion efter enhver anden vaccine-injektion, 
+eller efter du tidligere har fået VidPrevtyn Beta, </p>
+</li>
+<li>
+<p>hvis du nogensinde er besvimet efter en injektion med kanyle, </p>
+</li>
+<li>
+<p>hvis du har en alvorlig sygdom eller infektion med høj feber (over 38 °C). Du kan dog få din 
+vaccination, hvis du har let feber eller infektion i de øvre luftveje såsom forkølelse, </p>
+</li>
+<li>
+<p>hvis du har tendens til blødning eller blå mærker, eller hvis du tager blodfortyndende medicin 
+(for at forhindre blodpropper), 
+Lægemidlet er ikke længere autoriseret til salg</p>
+</li>
+<li>
+<p>hvis du har et svækket immunsystem (immundefekt), eller hvis du tager lægemidler, der 
+svækker immunsystemet (såsom kortikosteroider i høje doser eller lægemidler mod kræft). </p>
+</li>
+</ul>
+<p>Som for alle vacciner er det muligt, at vaccination med VidPrevtyn Beta ikke beskytter alle dem, der 
+får vaccinen. Det vides ikke, hvor længe du vil være beskyttet. </p>
+<p>Børn og unge 
+VidPrevtyn Beta anbefales ikke til børn under 18 år. På nuværende tidspunkt foreligger der ikke 
+tilstrækkelige oplysninger om anvendelse af VidPrevtyn Beta til børn og unge under 18 år. </p>
+<p>Brug af andre lægemidler sammen med VidPrevtyn Beta 
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre 
+lægemidler/vacciner, for nylig har taget andre lægemidler/vacciner eller planlægger at tage andre 
+lægemidler/vacciner. </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, 
+skal du spørge din læge, apotekspersonalet eller sygeplejersken til råds, før du får denne vaccine. </p>
+<p>Trafik- og arbejdssikkerhed<br />
+Nogle af bivirkningerne ved VidPrevtyn Beta, der er nævnt i punkt 4 (Bivirkninger), kan have en 
+forbigående påvirkning af din evne til at føre motorkøretøj og betjene maskiner. Vent indtil disse 
+bivirkninger er gået væk, inden du fører motorkøretøj eller betjener maskiner. </p>
+<p>VidPrevtyn Beta indeholder natrium og kalium<br />
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. 
+Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. det er i det 
+væsentlige kaliumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vidprevtyn"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vidprevtyn"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din læge, apotekspersonalet eller sygeplejersken vil give dig en injektion med vaccinen i en muskel, 
+som regel i overarmen. </p>
+<p>Du vil få én injektion. 
+Det anbefales, at du får VidPrevtyn Beta én gang som en booster dosis minimum 4 måneder efter 
+forudgående vaccinationsserie med enten en mRNA-vaccine eller en adenovirus–vektor COVID-vaccine. </p>
+<p>Efter injektionen vil din læge, apotekspersonalet eller sygeplejersken holde øje med dig i omkring 
+15 minutter for at overvåge for tegn på en allergisk reaktion. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af 
+denne vaccine. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De fleste af bivirkningerne opstår inden for 3 dage, efter du har fået vaccinen, og de forsvinder inden 
+for få dage efter de er opstået. Hvis symptomerne fortsætter, skal du kontakte din læge, 
+apotekspersonalet eller sygeplejersken.  </p>
+<p>Lægemidlet er ikke længere autoriseret til salg</p>
+<p>Søg omgående lægehjælp, hvis du får symptomer på en alvorlig allergisk reaktion kort efter 
+vaccinationen. Disse symptomer kan omfatte:  </p>
+<ul>
+<li>
+<p>en fornemmelse af at være ved at besvime eller at være ør i hovedet </p>
+</li>
+<li>
+<p>ændringer i dit hjerteslag </p>
+</li>
+<li>
+<p>stakåndethed </p>
+</li>
+<li>
+<p>pibende vejrtrækning </p>
+</li>
+<li>
+<p>hævelse af læber, ansigt eller svælg </p>
+</li>
+<li>
+<p>kløende hævelse under huden (nældefeber) eller udslæt </p>
+</li>
+<li>
+<p>kvalme eller opkastning </p>
+</li>
+<li>
+<p>mavesmerter. </p>
+</li>
+</ul>
+<p>De følgende bivirkninger kan forekomme med VidPrevtyn Beta: 
+Bivirkninger som kan forekomme hos op til 1 ud af 100 personer er muligvis ikke alle detekteret i 
+kliniske studier som er udført til dato. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):  </p>
+<ul>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Muskelsmerter </p>
+</li>
+<li>
+<p>Ledsmerter </p>
+</li>
+<li>
+<p>Utilpashed </p>
+</li>
+<li>
+<p>Kulderystelser </p>
+</li>
+<li>
+<p>Smerter, hvor vaccinen blev givet </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer):  </p>
+<ul>
+<li>
+<p>Feber (38 °C eller derover) </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Rødme eller hævelse, hvor vaccinen blev givet </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Forstørrede lymfeknuder </p>
+</li>
+<li>
+<p>Kløe, blå mærker eller varme, hvor vaccinen blev givet. </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>Allergiske reaktioner såsom udslæt eller nældefeber eller hævelse i ansigtet </p>
+</li>
+<li>
+<p>Alvorlige allergiske reaktioner (anafylaksi) </p>
+</li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1 000 personer): </p>
+<ul>
+<li>Svimmelhed </li>
+</ul>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vidprevtyn"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vidprevtyn"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn. </p>
+<p>Lægemidlet er ikke længere autoriseret til salg</p>
+<p>Oplysninger om opbevaring, anvendelse og håndtering er beskrevet i afsnittet beregnet til 
+sundhedspersoner til sidst i indlægssedlen. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VidPrevtyn Beta indeholder:  </p>
+<ul>
+<li>
+<p>Der er to flerdosis-hætteglas (hætteglas med antigen og hætteglas med adjuvans), der skal 
+blandes før brug. Efter blanding indeholder hætteglasset med vaccinen 10 doser à 0,5 ml. </p>
+</li>
+<li>
+<p>En dosis (0,5 ml) indeholder 5 mikrogram af rekombinant SARS-CoV-2 spike-protein antigen 
+(B.1.351-stamme). </p>
+</li>
+<li>
+<p>AS03 er tilsat denne vaccine som en adjuvans for at fremme produktionen af specifikke 
+antistoffer. Denne adjuvans består af squalen (10,69 milligram), DL-α-tocopherol 
+(11,86 milligram) og polysorbat 80 (4,86 milligram). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: natriumdihydrogenphosphatmonohydrat, 
+dinatriumphosphatdodecahydrat, natriumchlorid, polysorbat 20, dinatriumhydrogenphosphat, 
+kaliumdihydrogenphosphat, kaliumchlorid, vand til injektionsvæsker. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>Antigenopløsningen er en farveløs, klar væske. </p>
+</li>
+<li>
+<p>Adjuvans-emulsionen er en hvidlig til gullig homogen, mælkeagtig væske. </p>
+</li>
+<li>
+<p>Før administration, skal de to komponenter blandes. Den blandede vaccine er en hvidlig til 
+gullig homogen, mælkeagtig, flydende emulsion. </p>
+</li>
+</ul>
+<p>Hver pakning indeholder 10 flerdosis-hætteglas med antigen og 10 flerdosis-hætteglas med adjuvans. </p>
+<ul>
+<li>
+<p>Hvert hætteglas med antigen indeholder 2,5 ml antigenopløsning i et flerdosis-hætteglas 
+(type 1 glas) med en prop (chlorobutyl) og en aluminiumsforsegling med en grøn 
+afrivningshætte af plastik.  </p>
+</li>
+<li>
+<p>Hvert hætteglas med adjuvans indeholder 2,5 ml adjuvans-emulsion i et flerdosis-hætteglas 
+(type 1 glas) med en prop (chlorobutyl) og aluminiumsforsegling med en gul afrivningshætte 
+af plastik. </p>
+</li>
+</ul>
+<p>Efter blanding af antigenopløsningen med adjuvans-emulsionen indeholder hætteglasset 10 doser à 
+0,5 ml. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Sanofi Pasteur - 14 Espace Henry Vallée - 69007 Lyon – Frankrig </p>
+<p>Fremstiller 
+Sanofi Pasteur - 1541 avenue Marcel Mérieux - 69280 Marcy l'Etoile – Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+tel.: +32 2 710.54. Lietuva 
+Swixx Biopharma UAB 
+Tel.: +370 5 236 91 40   <br />
+България 
+Swixx Biopharma EOOD<br />
+Teл.: +359 (0)2 4942 Luxembourg/Luxemburg 
+Sanofi Belgium 
+tel.: +32 2 710.54. Lægemidlet er ikke længere autoriseret til salg</p>
+<p>Česká republika 
+Sanofi s.r.o. 
+Tel: +420 233 086 Magyarország 
+sanofi-aventis zrt 
+Tel.: +36 1 505 0Danmark 
+Sanofi A/S 
+Tel: +45 4516 7000  </p>
+<p>Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 54 54 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Eesti 
+Swixx Biopharma OÜ 
+Tel.: +372 640 10<br />
+Norge 
+Sanofi-aventis Norge AS 
+Tel: + 47 67 10 71 Ελλάδα 
+ΒΙΑΝΕΞ Α.Ε.<br />
+Τηλ: +30.210.8009Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185-0. España 
+sanofi-aventis, S.A.<br />
+Tel: +34 93 485 94 Polska 
+Sanofi Pasteur Sp. z o.o. 
+Tel.: + 48 22 280 00<br />
+Frankrig 
+Sanofi Pasteur Europe 
+Tél: 0800 222 Appel depuis l’étranger : +33 1 57 63 23 Portugal 
+Sanofi - Produtos Farmacêuticos, Lda. 
+Tel: + 351 21 35 89  </p>
+<p>Hrvatska 
+Swixx Biopharma d.o.o 
+Tel.: +385 1 2078<br />
+Ireland 
+sanofi-aventis Ireland T/A SANOFI 
+Tel: + 353 (0) 1 4035 România 
+Sanofi Romania SRL 
+Tel.: +40(21)317 31<br />
+Slovenija 
+Swixx Biopharma d.o.o. 
+Tel.: +386 1 235 51<br />
+Ísland 
+Vistor 
+Tel: +354 535 7Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel.: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800536389  </p>
+<p>Suomi/Finland 
+Sanofi Oy 
+Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ.: +357 22 741 </p>
+<p>Sverige 
+Sanofi AB 
+Tel: +46 8-634 50 Latvija 
+Swixx Biopharma SIA 
+Tel.: +371 6 616 4United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Lægemidlet er ikke længere autoriseret til salg</p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: https://www.ema.europa.eu.  </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. Du kan også scanne nedenstående QR-kode med en mobilenhed for at få indlægssedlen 
+på forskellige sprog eller besøg URL https://vidprevtyn-beta.info.sanofi. </p>
+<p>QR-kode skal indsættes </p>
+<p>------------------------------------------------------------------------------------------------------------------------ Nedenstående oplysninger er kun til sundhedspersoner:  </p>
+<p>Sporbarhed </p>
+<p>For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres. </p>
+<p>Dosering </p>
+<p>VidPrevtyn Beta administreres intramuskulært som en enkelt dosis på 0,5 ml. mindst 4 måneder efter 
+en tidligere COVID-19 vaccine. VidPrevtyn Beta kan gives én gang som en booster til voksne som 
+forudgående har fået vaccinationsserier med enten mRNA- eller adenovirus-vektor COVID-vacciner. </p>
+<p>Opbevaring før blanding </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses.<br />
+Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+<p>Brug ikke denne vaccine efter den udløbsdato, der står på etiketten og æsken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Håndteringsanvisninger </p>
+<p>Denne vaccine skal håndteres af sundhedspersoner ved anvendelse af aseptisk teknik for at sikre 
+steriliteten af hver dosis. </p>
+<p>VidPrevtyn Beta leveres som 2 separate hætteglas: et hætteglas med antigen og et hætteglas med 
+adjuvans. </p>
+<p>Før administration skal de to komponenter blandes i henhold til nedenstående trin. </p>
+<p>Trin 1: Placér hætteglassene ved stuetemperatur (op til 25 °C) i mindst 15 minutter før blanding, 
+beskyt dem mod lys. </p>
+<p>Trin 2: Vend (uden at omryste) hvert hætteglas og inspicér dem visuelt for partikler eller 
+misfarvning. Hvis en eller begge af disse tilstande forekommer, må vaccinen ikke administreres. </p>
+<p>Trin 3: Efter fjernelse af afrivningshætterne, renses begge hætteglaspropper med antiseptiske 
+vatpinde. </p>
+<p>Lægemidlet er ikke længere autoriseret til salg</p>
+<p>Trin 4: </p>
+<p>Hætteglas 2 af 2 
+Brug en steril 21-gauge eller smallere kanyle 
+og en steril sprøjte til at trække hele indholdet 
+fra hætteglasset med adjuvans (gul hætte) op i 
+en sprøjte. Vend hætteglasset med adjuvans på 
+hovedet for at gøre det lettere at trække hele 
+indholdet op. 
+Trin 5 </p>
+<p>Hætteglas 1 af 2 
+Overfør hele sprøjtens indhold til hætteglasset 
+med antigen (grøn hætte). 
+Trin 6: </p>
+<p>Hætteglas 1 af 2 
+Fjern sprøjten med kanylen fra hætteglasset 
+med antigen. Bland indholdet ved at vende 
+hætteglasset 5 gange. Må ikke omrystes. 
+Den blandede vaccine er en hvidlig til gullig 
+homogen, mælkeagtig, flydende emulsion.  </p>
+<p>Trin 7: Anfør dato og klokkeslæt for bortskaffelse (6 timer efter blanding) på det angivne område på 
+hætteglassets etiket.  </p>
+<p>Volumenet af vaccinen efter blanding er mindst 5 ml. Den indeholder 10 doser à 0,5 ml.<br />
+En ekstra overfyldning er inkluderet i hvert hætteglas for at sikre, at der kan leveres 10 doser à 
+0,5 ml. </p>
+<p>Administreres straks efter blanding eller opbevar vaccinen ved 2 °C - 8 °C, beskyttet mod lys, og 
+brug den inden for 6 timer. Efter dette tidsrum kasseres vaccinen.  </p>
+<p>Tilberedning af individuelle doser  </p>
+<p>Før hver administration blandes hætteglasset grundigt ved at vende det 5 gange. Må ikke omrystes.<br />
+Lægemidlet er ikke længere autoriseret til salg</p>
+<p>Inspicér hætteglassets indhold visuelt for partikler og misfarvning (se trin 6 for information om 
+vaccinens udseende). Hvis en eller begge af disse tilstande forekommer, må vaccinen ikke 
+administreres. </p>
+<p>Brug en passende sprøjte og kanyle til at trække 0,5 ml op fra hætteglasset med den blandede 
+vaccine og administrér intramuskulært.  </p>
+<p>Bortskaffelse </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. Af 
+hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>
+<p>Lægemidlet er ikke længere autoriseret til salg</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-70fa014e07592e69938a0c03f0ec3015
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vidprevtyn Package Leaflet for language en"
+Description: "ePI document Bundle for vidprevtyn Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-70fa014e07592e69938a0c03f0ec3015"
+* entry[0].resource = composition-en-70fa014e07592e69938a0c03f0ec3015
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp70fa014e07592e69938a0c03f0ec3015"
+* entry[=].resource = mp70fa014e07592e69938a0c03f0ec3015
+                            
+                    
+Instance: bundlepackageleaflet-da-70fa014e07592e69938a0c03f0ec3015
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vidprevtyn Package Leaflet for language da"
+Description: "ePI document Bundle for vidprevtyn Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-70fa014e07592e69938a0c03f0ec3015"
+* entry[0].resource = composition-da-70fa014e07592e69938a0c03f0ec3015
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp70fa014e07592e69938a0c03f0ec3015"
+* entry[=].resource = mp70fa014e07592e69938a0c03f0ec3015
+                            
+                    
+
+
+
+Instance: mp70fa014e07592e69938a0c03f0ec3015
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product VidPrevtyn Beta solution and emulsion for emulsion for injection"
-Description: "VidPrevtyn Beta solution and emulsion for emulsion for injection"
+Title: "Medicinal Product vidprevtyn"
+Description: "vidprevtyn"
 Usage: #inline
 
  
@@ -316,7 +849,7 @@ Usage: #inline
 
 
 * name
-  * productName = "VidPrevtyn Beta solution and emulsion for emulsion for injection"
+  * productName = "vidprevtyn"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -343,29 +876,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-70fa014e07592e69938a0c03f0ec3015
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vidprevtyn Package Leaflet for language en"
-Description: "ePI document Bundle for vidprevtyn Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 70fa014e07592e69938a0c03f0ec3015ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1580/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vidprevtyn"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-70fa014e07592e69938a0c03f0ec3015"
-* entry[0].resource = composition-en-70fa014e07592e69938a0c03f0ec3015
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd0baa394c65ff6b43565cc6085038786"
-* entry[=].resource = mpd0baa394c65ff6b43565cc6085038786
-                            
-                      
+* title = "List of all ePIs associated with vidprevtyn"
+
+* subject = Reference(mpd0baa394c65ff6b43565cc6085038786)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vidprevtyn "vidprevtyn"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-70fa014e07592e69938a0c03f0ec3015) // vidprevtyn en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-70fa014e07592e69938a0c03f0ec3015) // vidprevtyn da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-70fa014e07592e69938a0c03f0ec3015
+InstanceOf: List
+
+* insert 70fa014e07592e69938a0c03f0ec3015ListRuleset
+    

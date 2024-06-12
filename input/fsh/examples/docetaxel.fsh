@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-211825d32829aaffbdc41442ec401539
 InstanceOf: CompositionUvEpi
 Title: "Composition for docetaxel Package Leaflet"
@@ -416,12 +419,625 @@ important information for you.
 
 
 
+Instance: composition-da-211825d32829aaffbdc41442ec401539
+InstanceOf: CompositionUvEpi
+Title: "Composition for docetaxel Package Leaflet"
+Description:  "Composition for docetaxel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0950b09560721acdbc88896a04787a49)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0950b09560721acdbc88896a04787a49
+* title = "TEST PURPOSES ONLY - docetaxel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at bruge DOCETAXEL KABI 
+3. Sådan skal du bruge DOCETAXEL KABI 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What docetaxel is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What docetaxel is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Medicinen hedder DOCETAXEL KABI. Det er et handelsnavn for docetaxel. Docetaxel er et 
+stof, der udvindes af nålene fra takstræer. 
+Docetaxel hører til gruppen af kræftmedicin, der kaldes taxoider. </p>
+<p>DOCETAXEL KABI er ordineret af din læge til behandling af bryst- eller specielle former for 
+lungekræft (ikke-småcellet lungekræft), prostatakræft, gastrisk kræft eller hoved- og halskræft: </p>
+<ul>
+<li>
+<p>Ved behandling af fremskreden brystkræft kan DOCETAXEL KABI enten indgives 
+alene eller i kombination med doxorubicin, trastuzumab eller capecitabin. </p>
+</li>
+<li>
+<p>Ved behandling af tidlig brystkræft med eller uden spredning til lymfeknuder kan DOCETAXEL 
+KABI anvendes i kombination med doxorubicin eller cyclophosphamid. </p>
+</li>
+<li>
+<p>Ved behandling af lungekræft kan DOCETAXEL KABI  enten indgives alene eller i 
+kombination med cisplatin. </p>
+</li>
+<li>
+<p>Ved behandling af prostatakræft kan DOCETAXEL KABI  indgives i kombination med 
+prednison eller prednisolon. </p>
+</li>
+<li>
+<p>Ved behandling af metastatisk gastrisk kræft indgives DOCETAXEL KABI i kombination 
+med cisplatin og 5-fluoruracil. </p>
+</li>
+<li>
+<p>Til behandling af hoved- og halskræft indgives DOCETAXEL KABI  i kombination med 
+cisplatin og 5- fluoruracil. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take docetaxel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take docetaxel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke DOCETAXEL KABI 
+•  hvis du er allergisk (overfølsom) overfor docetaxel eller nogle af de andre indholdsstoffer i 
+DOCETAXEL KABI (angivet i punkt 6) 
+•  hvis antallet af hvide blodlegemer er for lavt 
+•  hvis du har en alvorlig leverlidelse </p>
+<p>Advarsler og forsigtighedsregler 
+Før hver behandling med DOCETAXEL KABI, vil du få taget blodprøver for at få kontrolleret, om du 
+har nok blodceller og den nødvendige leverfunktion til at få DOCETAXEL KABI. I tilfælde af 
+forstyrrelser af de hvide blodlegemer kan du få feber eller infektioner. </p>
+<p>Kontakt straks lægen, hospitalsfarmaceuten eller sundhedspersonalet, hvis du oplever mavesmerter 
+eller –ømhed, diaré, endetarmsblødning, blodig afførring eller feber. Disse symptomer kan være de 
+første tegn på en alvorlig mave-tarmforgiftning, som kan være dødelig. Din læge bør straks igangsætte 
+behandling. </p>
+<p>Kontakt lægen, hospitalsfarmaceuten elle sundhedspersonalet, hvis du oplever problemer med dit syn. 
+Hvis du får problemer med synet, særligt sløret syn, skal du straks have undersøgt dine øjne og dit syn. </p>
+<p>Kontakt lægen, hospitalsfarmaceuten eller sundhedspersonalet, hvis du har haft en allergisk reaktion 
+ved tidligere behandling med paclitaxel. </p>
+<p>Kontakt lægen, hospitalsfarmaceuten eller sundhedspersonalet, hvis du har hjerteproblemer. </p>
+<p>Hvis du udvikler akutte problemer med lungerne (feber, åndenød eller hoste), eller de bliver værre, 
+skal du straks fortælle det til lægen eller sundhedspersonalet. Lægen vil måske stoppe din behandling 
+med det samme. </p>
+<p>Du vil blive bedt om at tage præmedicin bestående af et oralt kortikosteroid såsom dexamethason 1 
+dag før DOCETAXEL KABI behandlingen. Du skal fortsætte med at tage præmedicinen i endnu 1 til 
+2 dage for at formindske visse bivirkninger, som kan forekomme efter infusionen af DOCETAXEL 
+KABI. Specielt kan der være tale om bivirkninger som allergiske reaktioner og væskeansamlinger 
+(hævede hænder, fødder, ben eller vægtøgning) </p>
+<p>Under behandlingen kan du få anden medicin til at opretholde antallet af blodcellerne. </p>
+<p>Alvorlige hudproblemer såsom Stevens-Johnson syndrom (SJS), toksisk epidermal nekrolyse (TEN) 
+og akut generaliseret eksantematøs pustulose (AGEP) er blevet rapporteret med Docetaxel Kabi:</p>
+<ul>
+<li>SJS/TEN symptomer kan omfatte blærer, afskrælning eller blødning på dele af huden (herunder 
+dine læber, øjne, mund, næse, kønsorganer, hænder eller fødder) med eller uden udslæt. Du kan 
+også have influenzalignende symptomer på samme tid, så som feber, kulderystelser eller ømme 
+muskler. </li>
+<li>AGEP symptomer kan omfatte et rødt skællende udbredt udslæt med knopper under den 
+ hævede hud (herunder dine hudfolder, mave og øvre ekstremiteter) og blærer ledsaget af feber. </li>
+</ul>
+<p>Kontakt straks lægen eller sundhedspersoner, hvis du oplever alvorlige hudreaktioner eller nogen af 
+reaktionerne nævnt ovenfor. </p>
+<p>Fortæl din læge, hospitalsfarmaceut eller sygeplejerske, hvis du har nyreproblemer eller høje niveauer 
+af urinsyre i blodet før påbegyndelse af behandling med DOCETAXEL KABI. </p>
+<p>DOCETAXEL KABI indeholder alkohol. Diskutér det med din læge, hvis du lider af 
+alkoholafhængighed, epilepsi eller nedsat leverfunktion. Se også afsnittet ”DOCETAXEL KABI<br />
+indeholder alkohol” nedenfor. </p>
+<p>Brug af anden medicin sammen med DOCETAXEL KABI 
+Mængden af alkohol i dette lægemiddel kan påvirke andre lægemidlers virkning. Kontakt lægen eller 
+apotekspersonalet, hvis du tager andre lægemidler. </p>
+<p>Fortæl det altid til lægen eller på apoteket, hvis du tager anden medicin eller har gjort det for nylig. 
+Dette gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler, vitaminer og mineraler. 
+Dette er fordi DOCETAXEL KABI eller den anden medicin måske ikke virker så godt som forventet, 
+og du måske lettere får bivirkninger.  </p>
+<p>Graviditet, amning og frugtbarhed 
+Spørg din læge til råds, før du tager nogen former for lægemidler. </p>
+<p>DOCETAXEL KABI  må IKKE anvendes, hvis du er gravid eller planlægger at blive gravid, 
+medmindre din læge udtrykkeligt ønsker det. </p>
+<p>Du må ikke blive gravid under behandlingen og 2 måneder efter, at du har stoppet behandlingen 
+med dette lægemiddel. Du skal bruge effektiv prævention under behandlingen og 2 måneder efter, 
+at du har stoppet behandlingen, fordi DOCETAXEL KABI kan skade det ufødte barn. Hvis du 
+bliver gravid under behandlingen, skal du straks fortælle det til din læge. </p>
+<p>Du må IKKE amme, mens du behandles med DOCETAXEL KABI. </p>
+<p>Hvis du er mand og i behandling med DOCETAXEL KABI, må du ikke blive far til et barn, og du skal 
+bruge effektiv prævention under behandlingen og 4 måneder efter, at du har stoppet behandlingen med 
+dette lægemiddel. Det anbefales at søge vejledning om opbevaring af sæd inden behandling, fordi 
+docetaxel kan nedsætte den mandlige fertilitet. </p>
+<p>Trafik- og arbejdssikkerhed 
+Mængden af alkohol i dette lægemiddel kan påvirke din evne til at føre motorkøretøj eller arbejde med 
+maskiner.<br />
+Du kan opleve bivirkninger af dette lægemiddel, som kan påvirke din evne til at føre motorkøretøj, 
+bruge værktøj eller betjene maskiner (se punkt 4 ”Bivirkninger”). Hvis dette sker, må du ikke føre 
+motorkøretøj, bruge værktøj eller maskiner, før du har talt med din læge, sundhedspersonalet eller 
+hospitalsfarmaceuten. </p>
+<p>DOCETAXEL KABI  indeholder ethanol (alkohol) 
+Dette lægemiddel indeholder 395 mg alkohol (ethanol) pr. 1 ml svarende til 39,5 % w/v.  Mængden i 
+en 9 ml dosis af dette lægemiddel svarer til 88,9 ml øl eller 35,6 ml vin. </p>
+<p>Alkoholen i dette lægemiddel vil sandsynligvis påvirke børn. Disse påvirkninger kan omfatte 
+søvnighed og adfærdsændringer. Det kan også påvirke deres koncentrationsevne og evnen til at 
+tage del i fysiske aktiviteter. </p>
+<p>Hvis du har epilepsi eller leverproblemer, skal du kontakte lægen, før du får dette lagemiddel. </p>
+<p>Hvis du er afhængig af alkohol, skal du kontakte lægen eller apotekspersonalet, før du får dette 
+lægemiddel. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take docetaxel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take docetaxel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DOCETAXEL KABI vil blive administreret af personale med en sundhedsfaglig uddannelse. </p>
+<p>Normal dosis 
+Dosis vil afhænge af din vægt og din almene tilstand. Din læge vil beregne din legemsoverflade i m2 
+og bestemme den dosis, du skal have. </p>
+<p>Metode og måden at give medicinen på 
+DOCETAXEL KABI gives som infusion i en vene (intravenøs anvendelse). Infusionen tager ca. en 
+time, mens du er på sygehuset. </p>
+<p>Hvor ofte gives medicinen 
+Du vil normalt få en infusion én gang hver 3. uge. </p>
+<p>Din læge kan ændre dosis og dosisfrekvensen afhængigt af dine blodprøver, din almene tilstand og din 
+reaktion på DOCETAXEL KABI. Vær særlig opmærksom på at informere din læge, hvis du får 
+diarré, sår i munden, følelsesløshed, stikkende og prikkende fornemmelser eller feber, og giv lægen 
+resultatet af dine blodprøver. Denne information vil give lægen mulighed for at vurdere om en 
+nedsættelse af dosis er nødvendig. Hvis du har yderligere spørgsmål om anvendelsen af dette 
+lægemiddel, så spørg din læge eller sygehusfarmaceut. </p>
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne medicin kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Din læge vil diskutere disse med dig og forklare fordele og mulige risici ved behandlingen. 
+De mest almindelige bivirkninger af DOCETAXEL KABI  givet alene er: Fald i antallet af røde 
+og hvide blodlegemer , hårtab, kvalme, opkastning, sår i munden, diarré og træthed. </p>
+<p>Alvorligheden af bivirkningerne ved DOCETAXEL KABI  kan forøges, når DOCETAXEL KABI 
+gives i kombination med andre kemoterapeutiske lægemidler. </p>
+<p>Følgende allergiske reaktioner  kan optræde under infusionen på hospitalet  (kan forekomme hos flere 
+end 1 ud af 10 patienter):  </p>
+<ul>
+<li>
+<p>Rødme i ansigtet, hudreaktioner, kløe </p>
+</li>
+<li>
+<p>Trykken for brystet, besvær med at trække vejret </p>
+</li>
+<li>
+<p>Feber eller kulderystelser </p>
+</li>
+<li>
+<p>Rygsmerter </p>
+</li>
+<li>
+<p>Lavt blodtryk </p>
+</li>
+</ul>
+<p>Mere alvorlige reaktioner kan forekomme. 
+Hvis du har haft en allergisk reaktion overfor paclitaxel, kan du også få en allergisk reaktion overfor 
+docetaxel, som kan være mere alvorlig. </p>
+<p>Din tilstand vil blive nøje kontrolleret af hospitalspersonalet under behandlingen. Hvis du får nogle af 
+disse bivirkninger, så fortæl det straks til lægen. </p>
+<p>Følgende kan ske mellem DOCETAXEL KABI infusionerne. Hyppigheden kan variere 
+alt efter kombinationen af de lægemidler, du får: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>Infektioner, fald i antallet af røde blodlegemer (anæmi), eller hvide blodlegemer (som er 
+vigtige for at bekæmpe infektioner) og blodplader </p>
+</li>
+<li>
+<p>Feber: Hvis dette forekommer, skal du straks fortælle det til din læge </p>
+</li>
+<li>
+<p>Allergiske reaktioner som beskrevet ovenfor </p>
+</li>
+<li>
+<p>Tab af appetit (anoreksi) </p>
+</li>
+<li>
+<p>Søvnløshed </p>
+</li>
+<li>
+<p>Følelsesløshed eller stikkende og prikkende fornemmelse eller smerte i led eller muskler </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Smagsforstyrrelser </p>
+</li>
+<li>
+<p>Betændelse i øjet eller øget tåreflåd </p>
+</li>
+<li>
+<p>Hævelse forårsaget af mangelfuld drænage af lymfe </p>
+</li>
+<li>
+<p>Åndedrætsbesvær </p>
+</li>
+<li>
+<p>Næseflåd, betændelse i hals og næse, hoste </p>
+</li>
+<li>
+<p>Næseblod </p>
+</li>
+<li>
+<p>Mundsår </p>
+</li>
+<li>
+<p>Opstød fra maven inklusive kvalme, opkastning og diarré, forstoppelse </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Fordøjelsesbesvær </p>
+</li>
+<li>
+<p>Hårtab (i de fleste tilfælde vil normal hårvækst vende tilbage). I nogle tilfælde (hyppighed ikke 
+kendt) er permanent hårtab observeret.  </p>
+</li>
+<li>
+<p>Rødme og hævelse af håndflader eller fodsåler, hvilket kan få huden til at skalle af (dette 
+kan også forekomme på arme, ansigt eller krop) </p>
+</li>
+<li>
+<p>Ændring af neglenes farve, som også kan løsne sig </p>
+</li>
+<li>
+<p>Muskelømhed og smerter, rygsmerter eller knoglesmerter </p>
+</li>
+<li>
+<p>Ændring eller udeblivelse af menstruationer </p>
+</li>
+<li>
+<p>Hævelse af hænder, fødder eller ben </p>
+</li>
+<li>
+<p>Træthed eller influenza-lignende symptomer </p>
+</li>
+<li>
+<p>Vægtforøgelse eller vægttab </p>
+</li>
+<li>
+<p>Infektion i de øvre luftveje </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>Betændelse i munden med hvid skimmelsvamp (Candida Albicans) </p>
+</li>
+<li>
+<p>Dehydrering </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Nedsat hørelse </p>
+</li>
+<li>
+<p>Fald i blodtrykket, uregelmæssig eller hurtig hjerterytme </p>
+</li>
+<li>
+<p>Hjertesvigt </p>
+</li>
+<li>
+<p>Betændelse i spiserøret </p>
+</li>
+<li>
+<p>Mundtørhed </p>
+</li>
+<li>
+<p>Synkebesvær eller smerter ved synkning </p>
+</li>
+<li>
+<p>Blødninger </p>
+</li>
+<li>
+<p>Forhøjede leverenzymer (derfor behovet for regelmæssige blodprøver) </p>
+</li>
+<li>
+<p>Stigning i blodsukkerniveauet (diabetes) </p>
+</li>
+<li>
+<p>Reduktion af kalium, calcium og/eller fosfat i dit blod </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>Besvimelse </p>
+</li>
+<li>
+<p>Hudreaktioner på injektionsstedet, betændelse eller hævelse af venen (flebitis) </p>
+</li>
+<li>
+<p>Blodpropper </p>
+</li>
+<li>
+<p>Akut myeloid leukæmi og myelodysplastisk syndrom (typer af blodkræft) kan forekomme hos 
+patienter, som behandles med docetaxel sammen med visse andre behandlinger mod kræft. </p>
+</li>
+</ul>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 patienter): </p>
+<ul>
+<li>Betændelse i tyktarm og/eller tyndtarm, som kan være dødelig (hyppighed ikke kendt); 
+perforering af tarmene. </li>
+</ul>
+<p>Ikke kendte (kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>Interstitiel lungesygdom (betændelse i lungerne, der forårsager hoste og vejrtrækningsbesvær. 
+Betændelse i lungerne kan også udvikles, når docetaxelbehandling anvendes sammen med 
+strålebehandling) </p>
+</li>
+<li>
+<p>Pneumoni (lungebetændelse) </p>
+</li>
+<li>
+<p>Lungefibrose (ardannelse og fortykkelse i lungerne samt åndenød) </p>
+</li>
+<li>
+<p>Sløret syn pga. hævet nethinde (cystoidt makulaødem) </p>
+</li>
+<li>
+<p>Nedsat indhold af natrium og/eller magnesium i blodet (forstyrrelse i elektrolytbalancen). </p>
+</li>
+<li>
+<p>Ventrikulær arytmi eller ventrikulær takykardi (manifesteret som uregelmæssig og / eller hurtig 
+hjerterytme, alvorlig åndenød, svimmelhed og / eller besvimelse). Nogle af disse symptomer 
+kan være alvorlige. Hvis dette sker, skal du omgående fortælle det til lægen </p>
+</li>
+<li>
+<p>Reaktioner på injektionsstedet på stedet for en tidligere reaktion </p>
+</li>
+<li>
+<p>Non-Hodgkins lymfom (en kræftform, som påvirker immunsystemet) og andre kræftformer kan 
+forekomme hos patienter, der behandles med docetaxel sammen med visse andre behandlinger 
+mod kræft </p>
+</li>
+<li>
+<p>Stevens-Johnson syndrom og toksisk epidermal nekrolyse (blærer, afskrælning eller blødning på 
+dele af huden (herunder dine læber, øjne, mund, næse, kønsorganer, hænder eller fødder) med 
+eller uden udslæt. Du kan også have influenzalignende symptomer på samme tid, såsom feber, 
+kulderystelser eller ømme muskler) </p>
+</li>
+<li>
+<p>Akut generaliseret eksantematøs pustulose (rødt skællende udbredt udslæt med knopper under 
+den hævede hud (herunder dine hudfolder, mave og øvre ekstremiteter) og blærer ledsaget af 
+feber) </p>
+</li>
+<li>
+<p>Tumorlyse syndrom er en alvorlig tilstand afsløret af ændringer i blodprøve såsom forøget 
+niveau af urinsyre, kalium, fosfor og nedsat niveau af calcium; og resulterer i symptomer, 
+såsom krampeanfald, nyresvigt (reduceret mængde urin eller mørkere urin) og forstyrrelse i 
+hjerterytmen. Hvis dette sker, skal du straks fortælle det til din læge. </p>
+</li>
+<li>
+<p>Myositis (betændelse i musklerne -varme, røde og hævede - som forårsager muskelsmerter og 
+svaghed) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger via det nationale rapporteringssystem anført i Appendiks V </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store docetaxel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store docetaxel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke denne medicin efter den udløbsdato, der står på pakningen og på hætteglassets etiket efter 
+Exp.Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares over 25ºC. 
+Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Anvend hætteglasset straks efter dets åbning. Hvis det ikke anvendes straks, er brugeren ansvarlig for 
+i-brug opbevaringstid- og betingelser. </p>
+<p>Fra et mikrobiologisk synspunkt skal rekonstituering/fortynding ske under kontrollerede og aseptiske 
+forhold. </p>
+<p>Anvendes straks, når medicinen er tilsat til en infusionspose. Hvis den ikke anvendes straks, er 
+brugeren ansvarlig for i-brug opbevaringstid- og betingelser, som normalt ikke vil være længere end 6 
+timer under 25˚C inklusive 1 times infusion.  </p>
+<p>Docetaxel infusionsvæske er overmættet og kan derfor udkrystallisere over tid. Hvis der opstår 
+krystaller, må opløsningen ikke længere anvendes og skal kasseres.  </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DOCETAXEL KABI indeholder:</p>
+<ul>
+<li>Aktivt stof: docetaxel vandfri. Hver ml koncentrat til infusionsvæske, opløsning indeholder mg docetaxel.  </li>
+<li>Øvrige indholdsstoffer: polysorbat 80, ethanol vandfri (se afsnit 2) og citronsyre vandfri (til pH-
+justering) </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+DOCETAXEL KABI koncentrat til infusionsvæske, opløsning er en klar, farveløs til svag gul 
+opløsning. </p>
+<p>6 ml klar, farveløs Type-I hætteglas, lukket med flurotec gummipropper og en grøn flip-off aluminium<br />
+kapsel, indeholdende 1 ml koncentrat.  </p>
+<p>Hver æske indeholder 1 hætteglas af 1 ml (20 mg docetaxel).  </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Fresenius Kabi Deutschland GmbH 
+Else-Kröner-Straße 1 
+61352 Bad Homburg v.d.Höhe 
+Tyskland  </p>
+<p>Fremstiller 
+Fresenius Kabi Deutschland GmbH 
+Pfingstweide 61169 Friedberg 
+Tyskland  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.  </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. 
+&lt;------------------------------------------------------------------------------------------------------------------------&gt; 
+Følgende oplysninger er tiltænkt sundhedspersonalet: </p>
+<p>FREMSTILLINGSVEJLEDNING TIL BRUG FOR DOCETAXEL KABI 20 mg/1 ml, 
+KONCENTRAT TIL INFUSIONSVÆSKE, OPLØSNING </p>
+<p>Det er vigtigt at læse hele indholdet af denne vejledning før tilberedelse af DOCETAXEL KABI 
+infusionsvæske.  </p>
+<p>Anbefalinger vedrørende sikker håndtering 
+DOCETAXEL KABI er et antineoplastisk stof, og ligesom andre potentielt toksiske stoffer skal det 
+behandles med forsigtighed ved håndtering og tilberedning af opløsningen. Det anbefales, at man 
+anvender handsker. </p>
+<p>Hvis DOCETAXEL KABI  koncentrat eller  infusionsvæske skulle komme på huden, så vask 
+omgående og grundigt med sæbe og vand. Hvis DOCETAXEL KABI koncentrat eller infusionsvæske 
+skulle komme i kontakt med slimhinderne, så vask omgående og grundigt med vand. </p>
+<p>Forberedelse til intravenøs administration </p>
+<p>Tilberedning af infusionsvæske 
+ANVEND IKKE andre docetaxel lægemidler, som består af 2 hætteglas (koncentrat og solvent) 
+med dette lægemiddel (DOCETAXEL KABI 20 mg/1 ml, koncentrat til infusionsvæske, 
+opløsning, som indeholder 1 hætteglas).  </p>
+<p>DOCETAXEL KABI 20 mg/1 ml, koncentrat til infusionsvæske, opløsning kræver INGEN 
+fortynding med solvent og er derfor klar til at blive tilsat til infusionsvæske.<br />
+ * Hvert hætteglas er til engangsbrug og skal anvendes straks efter åbning. Hvis det ikke anvendes 
+straks, er brugeren ansvarlig for i-brug opbevaringstid- og betingelser.Mere end 1 hætteglas af 
+DOCETAXEL KABI koncentrat til infusionsvæske, opløsning kan blive nødvendigt for at opnå 
+den påkrævede dosis til patienten. For eksempel, vil en dosis på 140 mg docetaxel kræve 7 ml 
+docetaxel koncentrat til infusionsvæske, opløsning.  * Udtræk aseptisk den påkrævede mængde koncentrat til infusionsvæske, opløsning med en 
+kalibreret sprøjte.  </p>
+<p>Koncentrationen er 20 mg/ml i DOCETAXEL KABI 20 mg/1 ml hætteglas. 
+ * Injicér derefter med en enkelt injektion (one shot) i en 250 ml infusionspose- eller flaske 
+indeholdende enten 5% glucoseopløsning eller natriumchlorid 9 mg/ml (0,9%) infusionsvæske. 
+Hvis en større dosis end 190 mg docetaxel er påkrævet, anvendes et større volumen 
+infusionsvehikel, således at en koncentration på 0,74 mg/ml docetaxel ikke overskrides.  * Bland infusionsposen- eller flasken manuelt med vippende bevægelser.  * Fra et mikrobiologisk synspunkt skal rekonstituering/fortynding ske under kontrollerede og 
+aseptiske forhold, og lægemidlet skal anvendes straks. Hvis det ikke anvendes straks, er brugeren 
+ansvarlig for i-brug opbevaringstid- og betingelser. Efter anbefalet tilsætning til infusionspose, er 
+docetaxel infusionsopløsningen stabil i 6 timer, hvis den opbevares under 25ºC. Den skal 
+anvendes indenfor 6 timer (inklusive 1 times administration af intravenøs infusion).<br />
+Docetaxel infusionsvæske er overmættet og kan derfor udkrystallisere over tid. Hvis der opstår 
+krystaller, må opløsningen ikke længere anvendes og skal kasseres.  * Tilsvarende andre parenterale produkter, skal DOCETAXEL KABI inspiceres visuelt før brug. 
+Opløsninger indeholdende et bundfald skal kasseres. 
+Bortskaffelse: 
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. Spørg på 
+apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i 
+afløbet, toilettet eller skraldespanden. 
+Indlægsseddel: Information til brugeren </p>
+<p>DOCETAXEL KABI 80 mg/4 ml koncentrat til infusionsvæske, opløsning </p>
+<p>docetaxel </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller sundhedspersonalet, hvis der er mere, du vil vide. 
+- Tal med lægen eller sundhedspersonalet, hvis en bivirkning bliver værre, eller du får 
+bivirkninger, som ikke er nævnt her. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-211825d32829aaffbdc41442ec401539
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for docetaxel Package Leaflet for language en"
+Description: "ePI document Bundle for docetaxel Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-211825d32829aaffbdc41442ec401539"
+* entry[0].resource = composition-en-211825d32829aaffbdc41442ec401539
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp211825d32829aaffbdc41442ec401539"
+* entry[=].resource = mp211825d32829aaffbdc41442ec401539
+                            
+                    
+Instance: bundlepackageleaflet-da-211825d32829aaffbdc41442ec401539
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for docetaxel Package Leaflet for language da"
+Description: "ePI document Bundle for docetaxel Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-211825d32829aaffbdc41442ec401539"
+* entry[0].resource = composition-da-211825d32829aaffbdc41442ec401539
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp211825d32829aaffbdc41442ec401539"
+* entry[=].resource = mp211825d32829aaffbdc41442ec401539
+                            
+                    
+
+
+
+Instance: mp211825d32829aaffbdc41442ec401539
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product DOCETAXEL KABI 20 mg/1 ml concentrate for solution for infusion"
-Description: "DOCETAXEL KABI 20 mg/1 ml concentrate for solution for infusion"
+Title: "Medicinal Product docetaxel"
+Description: "docetaxel"
 Usage: #inline
 
  
@@ -441,7 +1057,7 @@ Usage: #inline
 
 
 * name
-  * productName = "DOCETAXEL KABI 20 mg/1 ml concentrate for solution for infusion"
+  * productName = "docetaxel"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -468,29 +1084,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-211825d32829aaffbdc41442ec401539
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for docetaxel Package Leaflet for language en"
-Description: "ePI document Bundle for docetaxel Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 211825d32829aaffbdc41442ec401539ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/770/005"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "docetaxel"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-211825d32829aaffbdc41442ec401539"
-* entry[0].resource = composition-en-211825d32829aaffbdc41442ec401539
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0950b09560721acdbc88896a04787a49"
-* entry[=].resource = mp0950b09560721acdbc88896a04787a49
-                            
-                      
+* title = "List of all ePIs associated with docetaxel"
+
+* subject = Reference(mp0950b09560721acdbc88896a04787a49)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#docetaxel "docetaxel"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-211825d32829aaffbdc41442ec401539) // docetaxel en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-211825d32829aaffbdc41442ec401539) // docetaxel da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-211825d32829aaffbdc41442ec401539
+InstanceOf: List
+
+* insert 211825d32829aaffbdc41442ec401539ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-72698f459e623b86f3f80561e5b525b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for mevlyq Package Leaflet"
@@ -275,12 +278,331 @@ Germany </p>
 
 
 
+Instance: composition-da-72698f459e623b86f3f80561e5b525b7
+InstanceOf: CompositionUvEpi
+Title: "Composition for mevlyq Package Leaflet"
+Description:  "Composition for mevlyq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8489a15e8ec97409f9f3a38664e3a4df)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8489a15e8ec97409f9f3a38664e3a4df
+* title = "TEST PURPOSES ONLY - mevlyq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Mevlyq 
+3. Sådan skal du bruge Mevlyq 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What mevlyq is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What mevlyq is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mevlyq indeholder det aktive stof eribulin og er et lægemiddel mod kræft, som virker ved at stoppe 
+væksten og spredningen af kræftceller. </p>
+<p>Mevlyq anvendes hos voksne med lokalt fremskreden eller metastatisk brystkræft (brystkræft, som har 
+spredt sig udover den oprindelige kræftknude), når mindst en anden behandling er prøvet, men ikke 
+længere virker. </p>
+<p>Det anvendes også hos voksne med fremskreden eller metastatisk liposarkom (en type cancer, der 
+opstår fra fedtvævet), når tidligere behandling er prøvet, men ikke længere virker. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take mevlyq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take mevlyq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Mevlyq 
+- hvis du er allergisk over for eribulin eller et af de øvrige indholdsstoffer i Mevlyq (angivet i 
+punkt 6) 
+- hvis du ammer </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller sygeplejersken, før du bruger Mevlyq:</p>
+<ul>
+<li>hvis du har leverproblemer </li>
+<li>hvis du har feber eller en infektion </li>
+<li>hvis du oplever følelsesløshed, prikkende, stikkende fornemmelser, følsomhed over for berøring 
+eller muskelsvaghed </li>
+<li>hvis du har hjerteproblemer </li>
+</ul>
+<p>Hvis noget af dette påvirker dig, skal du fortælle det til lægen, som kan vælge at stoppe behandlingen 
+eller nedsætte dosis. </p>
+<p>Børn og unge 
+Mevlyq bør ikke anvendes til børn og unge under 18 år med pædiatriske sarkomer, da det stadig er 
+ukendt, hvor godt det virker hos denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Mevlyq 
+Fortæl altid lægen, hvis du bruger andre lægemidler, for nylig har brugt andre lægemidler eller 
+planlægger at bruge andre lægemidler. </p>
+<p>Graviditet, amning og frugtbarhed 
+Mevlyq kan forårsage alvorlige fødselsdefekter, og bør ikke anvendes hvis du er gravid, medmindre 
+det menes at være klart nødvendigt efter nøje overvejelse af alle risici for dig og barnet. Det kan også 
+forårsage permanente frugtbarhedsproblemer i fremtiden hos mænd, der bruger dette lægemiddel, og 
+de bør diskutere dette med deres læge, før de starter behandlingen. Kvinder i den frugtbare alder skal 
+anvende sikker prævention under behandlingen med Mevlyq og i op til 3 måneder efter behandlingen. </p>
+<p>Mevlyq må ikke anvendes under amning på grund af en mulig risiko for barnet. </p>
+<p>Trafik- og arbejdssikkerhed 
+Mevlyq kan forårsage bivirkninger, såsom træthed (meget almindelig) og svimmelhed (almindelig). 
+Lad være med at føre motorkøretøj eller betjene maskiner, hvis du føler dig træt eller er svimmel. </p>
+<p>Mevlyq indeholder alkohol (ethanol) og natrium 
+Dette lægemiddel indeholder 80 mg af alkohol (ethanol) pr. 2 ml hætteglas. Mængden pr. dosis (5 ml) 
+af dette lægemiddel svarer til mindre end 5 ml øl eller 2 ml vin. 
+Den mindre mængde alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 2 ml hætteglas, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take mevlyq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take mevlyq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Mevlyq af en kvalificeret sundhedsperson som en injektion i en vene, i løbet af en periode på 
+2 til 5 minutter. Den dosis, du får, er baseret på din krops overfladeareal (udtrykt i kvadratmeter, eller 
+m2), som beregnes ud fra din vægt og højde. Den normale dosis Mevlyq er 1,23 mg/m2, men lægen 
+kan justere den ud fra dine blodprøveresultater eller andre faktorer. For at sikre, at hele dosen af 
+Mevlyq er givet, anbefales det, at der skylles med en saltvandsopløsning i venen, efter Mevlyq er 
+indgivet. </p>
+<p>Hvor ofte vil du få Mevlyq? 
+Mevlyq indgives normalt på Dag 1 og 8 af hver 21-dags cyklus. Din læge vil bestemme, hvor mange 
+behandlingscyklusser du skal have. Afhængigt af resultaterne af dine blodprøver kan lægen udsætte 
+indgivelsen af lægemidlet, indtil blodprøverne igen er normale. Lægen kan på det tidspunkt også 
+beslutte sig for at reducere din dosis. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis du oplever nogle af følgende alvorlige bivirkninger, skal du holde op med at tage Mevlyq og 
+straks søge lægehjælp:</p>
+<ul>
+<li>Feber med en galoperende puls, hurtig overfladisk vejrtrækning, kold, bleg, klam eller spættet 
+hud og/eller forvirring. Dette kan være tegn på en tilstand, der kaldes sepsis (blodforgiftning) - 
+en svær og alvorlig reaktion på en infektion. Sepsis er ikke almindelig (kan forekomme hos op 
+til 1 ud af 100 personer) og kan være livstruende og medføre døden. </li>
+<li>
+<p>Vejrtrækningsproblemer eller hævelse af ansigt, mund, tunge eller hals. Disse kunne være tegn 
+på en ikke almindelig allergisk reaktion (kan forekomme hos op til 1 ud af 100 personer). </p>
+</li>
+<li>
+<p>Alvorligt hududslæt med vabler på huden, i munden, øjnene og kønsdelene. De kan være tegn 
+på en sygdom, der kaldes Stevens-Johnsons syndrom/toksisk epidermal nekrolyse. Hyppigheden 
+af denne sygdom er ikke kendt, men den kan være livstruende. </p>
+</li>
+</ul>
+<p>Andre bivirkninger: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) 
+- Nedsat antal hvide blodlegemer eller røde blodlegemer 
+- Træthed eller svaghed 
+- Kvalme, opkastning, forstoppelse, diarré 
+- Følelsesløshed, prikkende eller stikkende fornemmelse 
+- Feber 
+- Appetitløshed, vægttab 
+- Vejrtrækningsbesvær, hoste 
+- Smerter fra led, muskler og ryg 
+- Hovedpine 
+- Hårtab </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) 
+- Nedsat antal blodplader (hvilket kan føre til blå mærker eller det kan tage længere at stoppe en 
+blødning) 
+- Infektion med feber, lungebetændelse kulderystelser 
+- Hurtig puls, rødmen 
+- En følelse af, at alt snurrer rundt, svimmelhed 
+- Forøget tåreproduktion, konjunktivitis (rødmen og ømhed på øjets overflade), næseblod 
+- Dehydrering, mundtørhed, forkølelsessår, svampeinfektion i munden, fordøjelsesbesvær, 
+halsbrand, mavesmerter eller hævelse 
+- Hævelse af bløddele, smerter (især i brystet, ryggen og knoglesmerter), muskelspasmer eller 
+svaghed 
+- Mund-, luftvejs- og urinvejsinfektioner, smertefuld vandladning 
+- Ondt i halsen, øm eller løbende næse, influenzalignende symptomer, halssmerter 
+- Unormale leverfunktionsundersøgelser, ændret niveau af sukker, bilirubin, fosfat, kalium, 
+magnesium eller calcium i blodet 
+- Søvnløshed, depression, ændret smagssans 
+- Udslæt, kløe, negleproblemer, tør eller rød hud 
+- Overdreven svedtendens (herunder nattesved) 
+- Ringen for ørerne 
+- Blodpropper i lungerne 
+- Helvedesild 
+- Hævelse af hud og følelsesløshed i hænder og fødder </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) 
+- Blodpropper 
+- Unormale leverfunktionsundersøgelser (leverskade) 
+- Nyresvigt, blod eller protein i urinen 
+- Udbredt betændelse i lungerne, hvilket kan medføre ardannelse 
+- Betændelse i bugspytkirtlen 
+- Mundsår </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 personer) 
+- En alvorlig forstyrrelse af blodstørkningen, der fører til udbredt dannelse af blodpropper og 
+indre blødninger. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i </p>
+<p>Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store mevlyq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mevlyq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglasset efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Hvis Mevlyq fortyndes til infusion, skal den opbevares ved 2 °C - 8 °C i højst 72 timer. </p>
+<p>Hvis Mevlyq overføres til en injektionssprøjte som en ufortyndet opløsning, skal den opbevares ved 
+25 °C i højst 4 timer eller ved 2 °C - 8 °C i højst 24 timer. </p>
+<p>Fra et mikrobiologisk synspunkt skal produktet straks anvendes. Hvis det ikke straks anvendes er 
+opbevaringstiderne og forholdene under og inden anvendelse brugerens ansvar og vil normalt ikke 
+være over 24 timer ved temperaturer på 2 °C - 8 °C, medmindre fortyndingen blev udført under 
+kontrollerede og validerede aseptiske betingelser. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mevlyq indeholder:</p>
+<ul>
+<li>Aktivt stof: Eribulin. Hvert hætteglas indeholder eribulinmesilat svarende til 0,88 mg eribulin i 
+2 ml opløsning. </li>
+<li>Øvrige indholdsstoffer: Ethanol, vandfri, vand til injektionsvæsker, saltsyre (til justering af pH) 
+og natriumhydroxid (til justering af pH). Se punkt 2 "Mevlyq indeholder alkohol (ethanol) og 
+natrium". </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Mevlyq er en klar, farveløs, vandig opløsning i hætteglas indeholdende 2 ml injektionsvæske, 
+opløsning. Hver æske indeholder 1 hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen 
+YES Pharmaceutical Development Services GmbH 
+Basler Strasse 7 
+61352 Bad Homburg 
+Tyskland </p>
+<p>Fremstiller 
+A &amp; O Pharma GmbH 
+Am Sattel 79588 Efringen-Kirchen 
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu/. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-72698f459e623b86f3f80561e5b525b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mevlyq Package Leaflet for language en"
+Description: "ePI document Bundle for mevlyq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-72698f459e623b86f3f80561e5b525b7"
+* entry[0].resource = composition-en-72698f459e623b86f3f80561e5b525b7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp72698f459e623b86f3f80561e5b525b7"
+* entry[=].resource = mp72698f459e623b86f3f80561e5b525b7
+                            
+                    
+Instance: bundlepackageleaflet-da-72698f459e623b86f3f80561e5b525b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mevlyq Package Leaflet for language da"
+Description: "ePI document Bundle for mevlyq Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-72698f459e623b86f3f80561e5b525b7"
+* entry[0].resource = composition-da-72698f459e623b86f3f80561e5b525b7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp72698f459e623b86f3f80561e5b525b7"
+* entry[=].resource = mp72698f459e623b86f3f80561e5b525b7
+                            
+                    
+
+
+
+Instance: mp72698f459e623b86f3f80561e5b525b7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Mevlyq 0.44 mg/mL solution for injection"
-Description: "Mevlyq 0.44 mg/mL solution for injection"
+Title: "Medicinal Product mevlyq"
+Description: "mevlyq"
 Usage: #inline
 
  
@@ -300,7 +622,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Mevlyq 0.44 mg/mL solution for injection"
+  * productName = "mevlyq"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -327,29 +649,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-72698f459e623b86f3f80561e5b525b7
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for mevlyq Package Leaflet for language en"
-Description: "ePI document Bundle for mevlyq Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 72698f459e623b86f3f80561e5b525b7ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1789/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "mevlyq"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-72698f459e623b86f3f80561e5b525b7"
-* entry[0].resource = composition-en-72698f459e623b86f3f80561e5b525b7
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8489a15e8ec97409f9f3a38664e3a4df"
-* entry[=].resource = mp8489a15e8ec97409f9f3a38664e3a4df
-                            
-                      
+* title = "List of all ePIs associated with mevlyq"
+
+* subject = Reference(mp8489a15e8ec97409f9f3a38664e3a4df)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#mevlyq "mevlyq"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-72698f459e623b86f3f80561e5b525b7) // mevlyq en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-72698f459e623b86f3f80561e5b525b7) // mevlyq da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-72698f459e623b86f3f80561e5b525b7
+InstanceOf: List
+
+* insert 72698f459e623b86f3f80561e5b525b7ListRuleset
+    

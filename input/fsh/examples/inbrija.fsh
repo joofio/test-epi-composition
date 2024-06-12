@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-09457b67378eccc379f945623f721bcb
 InstanceOf: CompositionUvEpi
 Title: "Composition for inbrija Package Leaflet"
@@ -367,12 +370,618 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-09457b67378eccc379f945623f721bcb
+InstanceOf: CompositionUvEpi
+Title: "Composition for inbrija Package Leaflet"
+Description:  "Composition for inbrija Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc305b723e77246a208a1710e96d51ae9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc305b723e77246a208a1710e96d51ae9
+* title = "TEST PURPOSES ONLY - inbrija"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Inbrija 
+3. Sådan skal du bruge Inbrija 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What inbrija is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What inbrija is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Inbrija er levodopa. Inbrija er et lægemiddel, der anvendes ved hjælp af inhalation til 
+behandling af forværringen af dine symptomer i "off-perioderne" af Parkinsons sygdom. </p>
+<p>Parkinsons sygdom påvirker din bevægelse, og den behandles med et lægemiddel, som du tager 
+regelmæssigt. I off-perioder kontrollerer din sædvanlige medicin ikke tilstanden godt nok, og det er 
+sandsynligt, at det bliver vanskeligere for dig at bevæge dig. </p>
+<p>Du skal fortsætte med at tage din primære medicin mod Parkinsons sygdom og anvende Inbrija til at 
+kontrollere forværring af symptomer (såsom manglende evne til at bevæge dig) i off-perioder. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take inbrija"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take inbrija"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Inbrija 
+- hvis du er allergisk over for levodopa eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). 
+- hvis du får sløret syn, røde øjne, kraftig øjensmerte og hovedpine, ser ringe af lys omkring et 
+objekt, pupillerne i dine øjne er større end normal størrelse, og du får kvalme. Hvis du har et 
+eller flere af disse symptomer, kan du have en øjenlidelse, der kaldes snævervinklet glaukom, 
+som opstår pludselig. Tag ikke Inbrija, og søg akut lægehjælp. 
+- hvis du har en sjælden tumor i binyrekirtlen, der kaldes fæokromocytom. 
+- hvis du tager en bestemt type antidepressiva, der kaldes ikke-selektive MAO-hæmmere 
+(f.eks. isocarboxazid og phenelzin). Du skal stoppe med at tage disse lægemidler mindst 
+14 dage, før du starter på behandling med Inbrija. Se også under “Brug af anden medicin 
+sammen med Inbrija". 
+- hvis du tidligere har lidt af neuroleptisk malignt syndrom, en livstruende reaktion på visse 
+lægemidler, der anvendes til behandling af svære mentale forstyrrelser, eller hvis du har lidt af 
+ikke-traumatisk rhabdomyolyse, en sjælden muskellidelse, hvor beskadigede muskler hurtigt 
+nedbrydes. </p>
+<p>Advarsler og forsigtighedsregler 
+Søg akut lægehjælp, hvis du oplever rysten, uro, forvirring, feber, hurtig puls eller svimmelhed og 
+besvimmelse, når du rejser dig, eller du bemærker, at dine muskler bliver meget stive eller foretager 
+kraftige ryk. Disse kan være symptomer på “hedeslag opstået ved ophør af lægemiddel". For flere 
+oplysninger henvises til punkt 4. Kontakt lægen eller apotekspersonalet, før du bruger Inbrija, hvis du har eller tidligere har haft eller 
+du udvikler:</p>
+<ul>
+<li>astma, åndedrætsbesvær, såsom kronisk obstruktiv lungesygdom (KOL) eller andre langvarige 
+lungesygdomme eller åndedrætsproblemer, </li>
+<li>nogen form for svær mental forstyrrelse, såsom psykose, </li>
+<li>et hjerteanfald eller hjerterytmeproblemer. Lægen vil overvåge dig nøje, når behandlingen 
+startes, </li>
+<li>et sår i mavesækken eller tarmen, </li>
+<li>en øjenlidelse, der kaldes glaukom, da det kan være nødvendigt at overvåge trykket i dine øjne, </li>
+<li>svære problemer med nyrerne, </li>
+<li>svære problemer med leveren. </li>
+</ul>
+<p>Tal med lægen eller apotekspersonalet, før du bruger Inbrija, hvis du er i tvivl, om noget af 
+ovennævnte gælder for dig. </p>
+<p>Kontakt lægen eller apotekspersonalet, hvis du udvikler et eller flere af følgende symptomer 
+nedenfor, mens du bruger Inbrija:</p>
+<ul>
+<li>pludselige søvnanfald, eller du af og til føler dig meget søvnig, </li>
+<li>forandring eller forværring af din mentale tilstand, som kan være svær, såsom psykotisk og 
+selvmorderisk adfærd, </li>
+<li>hallucinationer samtidig med, at du er forvirret, ude af stand til at sove og har dybe drømme. 
+Unormale tanker, herunder angst, depression, uro, paranoia, vrangforestilling eller 
+desorientering, aggressiv adfærd og delirium, </li>
+<li>forværring af eventuelle åndedrætssymptomer, eller du får en luftvejsinfektion, </li>
+<li>en trang til at opføre dig på en måde, som er usædvanlig for dig, eller du ikke kan modstå 
+impulsen, trangen eller fristelsen til at udføre bestemte aktiviteter, som kan skade dig selv eller 
+andre. Denne adfærd betegnes impulskontrollidelser og kan omfatte ludomani, overdreven 
+spisning eller pengeforbrug, en unormalt høj sexdrift eller en forøgelse af seksuelle tanker eller 
+følelser. Din læge kan få brug for at gennemgå din behandling. </li>
+<li>nye eller forøgede abnorme kropsbevægelser (dyskinesi), </li>
+<li>svimmelhedsfølelse, når du rejser dig (lavt blodtryk) </li>
+<li>melanom (en type hudcancer) eller mistænkelige hudvækster eller mærker. </li>
+</ul>
+<p>Hvis du skal opereres, skal du fortælle lægen, at du bruger Inbrija. </p>
+<p>Undersøgelser 
+Det kan være nødvendigt, at du får lavet en undersøgelse af dit hjerte, din lever og dine nyrer samt 
+blodcelleanalyser under langtidsbehandling med dine lægemidler. Hvis du skal have undersøgt dit 
+blod eller din urin, skal du fortælle lægen eller sygeplejersken, at du tager Inbrija. Grunden hertil er, at 
+lægemidlet kan påvirke resultatet af nogle analyser. </p>
+<p>Børn og unge 
+Inbrija bør ikke anvendes til patienter under 18 år. </p>
+<p>Brug af anden medicin sammen med Inbrija 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Grunden hertil er, at andre lægemidler kan 
+påvirke måden, hvorpå Inbrija virker. </p>
+<p>Brug ikke Inbrija, hvis du har taget lægemidler, der kaldes ikke-selektive MAO-hæmmere, til 
+behandling af depression inden for de seneste 14 dage. Disse lægemidler inkluderer isocarboxazid og 
+phenelzin. Hvis dette gælder for dig, skal du undlade at tage Inbrija og spørge lægen eller 
+apotekspersonalet til råds. </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager:</p>
+<ul>
+<li>lægemidler mod din Parkinsons sygdom, der kaldes selektive MAO-hæmmere, såsom rasagilin, 
+selegilin og safinamid, COMT-hæmmere, såsom entacapon, tolcapon og opicapon, eller 
+antikolinergika, såsom orphenadrin og trihexyphenidyl, </li>
+<li>lægemidler mod mentale tilstande, herunder skizofreni, såsom benperidol, haloperidol, 
+risperidon, chlorpromazin, fluphenazindecanoat, phenotiazin, butyrophenon eller trifluoperazin, </li>
+<li>metoclopramid til behandling af kvalme, </li>
+<li>isoniazid, et antibiotikum til behandling af tuberkulose, </li>
+<li>lægemidler mod højt blodtryk, da det kan være nødvendigt at justere dosen, </li>
+<li>lægemidler mod depression, der kaldes tricykliske antidepressiva, såsom clomipramin, 
+desipramin eller doxepin, </li>
+<li>amantadin til behandling af influenza eller din Parkinsons sygdom. </li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Behandling med Inbrija bør ikke anvendes under graviditet og hos kvinder, der kan blive gravide, som 
+ikke bruger sikker prævention. </p>
+<p>Kvinder bør ikke amme, mens de behandles med Inbrija. </p>
+<p>Trafik- og arbejdssikkerhed 
+Inbrija kan forårsage udtalt døsighed, svimmelhed og pludselige søvnanfald. Hvis det sker for dig, 
+må du ikke føre motorkøretøj eller betjene værktøj eller maskiner. Du skal være sikker på, at du ikke 
+oplever pludselige søvnanfald, svimmelhed og døsighed, før du igen fører motorkøretøj eller betjener 
+maskiner. Du kan udsætte dig selv og andre for risiko for alvorlig skade eller død. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take inbrija"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take inbrija"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Før du starter på Inbrija, skal du være i regelmæssig behandling for Parkinsons sygdom med en 
+kombination af en såkaldt dopa-decarboxylasehæmmer og levodopa. </p>
+<p>Den anbefalede dosis af Inbrija er 2 kapsler til behandling af hver off-periode. Du må ikke bruge mere 
+end 2 kapsler til hver off-periode. Du kan bruge 2 kapsler op til fem gange om dagen. </p>
+<p>Den maksimale dosis af Inbrija er 10 kapsler pr. dag. </p>
+<p>Vigtig information, før du bruger Inbrija:</p>
+<ul>
+<li>Inbrija-kapsler må ikke sluges. </li>
+<li>Dette lægemiddel er udelukkende til brug ved hjælp af inhalation. </li>
+<li>Kapslerne må først tages ud af blisterpakningen umiddelbart før brug. </li>
+<li>Der skal inhaleres to kapsler af lægemidlet for at få den fulde dosis. </li>
+<li>Lægemidlet må kun bruges ved anvendelse af Inbrija-inhalatoren. </li>
+<li>Når du åbner en nyt karton, skal du altid bruge den nye inhalator, der medfølger. </li>
+<li>Lægen eller apotekspersonalet vil vise dig, hvordan du bruger medicinen korrekt. </li>
+</ul>
+<p>I afsnittet “Brugsanvisning" i slutningen af denne indlægssedlen kan du se, hvordan du skal bruge din 
+medicin med den medfølgende inhalator. </p>
+<p>Hvis du har brugt for meget Inbrija 
+Hvis du har brugt for meget Inbrija (eller en person ved et uheld har slugt Inbrija), skal der straks 
+søges lægehjælp. Du kan føle dig forvirret eller urolig, og din hjerterytme kan være langsommere 
+eller hurtigere end normalt. </p>
+<p>Hvis du har glemt at bruge Inbrija 
+Brug kun Inbrija i en off-periode. Hvis off-perioden er overstået, skal du ikke bruge Inbrija før den 
+næste off-periode. </p>
+<p>Hvis du holder op med at bruge Inbrija 
+Stop ikke med at bruge Inbrija uden at rådføre dig med lægen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Søg akut lægehjælp, hvis du får et allergisk ødem med symptomer, der indbefatter nældefeber, kløe, 
+udslæt, hævelse af ansigt, læber, tunge eller hals. Dette kan medføre problemer med at trække vejret 
+eller synke. </p>
+<p>Søg akut lægehjælp, hvis dine muskler bliver meget stive eller laver kraftige spjæt, du oplever rysten, 
+uro, forvirring, feber, hurtig puls eller store udsving i blodtrykket. Disse kan være symptomer på 
+neuroleptisk malignt syndrom (NMS, en sjælden svær reaktion på lægemidler, der anvendes til 
+behandling af forstyrrelser i centralnervesystemet) eller rhabdomyolyse (en sjælden svær 
+muskelforstyrrelse). </p>
+<p>Søg akut lægehjælp, hvis du får blødning i mavesækken eller tarmene, der kan ses som blod i 
+afføringen eller mørkfarvet afføring. </p>
+<p>Følgende bivirkninger kan forekomme med dette lægemiddel: 
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>hoste. </li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer):</p>
+<ul>
+<li>nye eller forøgede abnorme kropsbevægelser (dyskinesi), </li>
+<li>infektioner i næse, bihuler, hals eller lunger, </li>
+<li>ændring af farven af dit slim, </li>
+<li>misfarvet (det vil sige ikke klar) slim fra næsen, </li>
+<li>irriteret eller kløende hals, </li>
+<li>kvalme, opkastning, </li>
+<li>faldtendens. </li>
+</ul>
+<p>Andre bivirkninger du kan opleve, hvor hyppigheden er ukendt, indbefatter:</p>
+<ul>
+<li>kvælningsfornemmelse forbundet med lægemiddelpulveret, der påvirker bagsiden af halsen, 
+umiddelbart efter anvendelse, </li>
+<li>hudcancer, </li>
+<li>mangel på røde blodlegemer, så du er bleg og føler dig træ;, øget modtagelighed for infektioner 
+på grund af mangel på hvide blodlegemer; mangel på blodplader, der kan føre til blå mærker på 
+huden og blødningstendens, </li>
+<li>nedsat appetit, </li>
+<li>forvirring, hallucination, depression, angst, dårlige drømme, manglende evne til at sove, 
+unormal tankegang og sanseopfattelse, tab af kontakt med virkeligheden, urofølelse, 
+selvmordtanker, desorientering, overdreven lykkefølelse, forøget kønsdrift, tænderskæren, 
+paranoia og vrangforestilling, </li>
+<li>bevægelsesforstyrrelse, hvor en persons muskler trækker sig ukontrolleret sammen; pludselige 
+og undertiden uforudsigelige forandringer af symptomer på grund af tilbagevenden af 
+symptomer på Parkinsons sygdom; søvnighed, svimmelhed, forværring af Parkinsons sygdom, 
+en prikkende fornemmelse i huden, hovedpine, rysten, krampeanfald, pludeligt opstået 
+søvnanfald, uro i benene, ataksi (forstyrrelse, der påvirker koordination, balance og tale), ændret 
+smagssans; forstyrrelser af den mentale sundhed, som påvirker indlæring, hukommelse, 
+opfattelsesevne og problemløsning; Horners syndrom (en øjenforstyrrelse), demens, </li>
+<li>sløret syn, dobbeltsyn, forstørret pupil, langvarig opaddrejning af øjne, ufrivillig tæt lukning af 
+øjenlågene, </li>
+<li>hjerteproblemer; en bemærkelsesværdig hurtig, kraftig eller uregelmæssig hjerterytme, </li>
+<li>lavt blodtryk lige efter at have rejst sig, højt blodtryk, besvimelse, blodprop i en vene, hedeture, </li>
+<li>stakåndethed, vejrtrækningsbesvær, talebesvær, hikke, </li>
+<li>mavesmerter, forstoppelse, diarré, tør mund, mave- og tarmblødning, mavesår, synkebesvær, 
+fordøjelsesbesvær, brændende fornemmelse i munden, luft i maven, farveændring af spyt, mere 
+spyt end normalt, </li>
+<li>hævelse af ansigt, læber, tunge, arme, ben og kønsorganer; kraftig svedtendens, udslæt, kraftig 
+kløe på huden; tilstand, der kaldes Henoch-Schöenleins purpura, hvor symptomerne indbefatter 
+et blåligrødt plettet hududslæt; allergisk reaktion, der forårsager et udslæt af runde, røde, kraftigt 
+kløende strimer på huden; hårtab, misfarvet sved, </li>
+<li>muskelkramper, stivkrampe </li>
+<li>problemer med at tømme blæren, unormal urinfarve, tab af blærekontrol, </li>
+<li>smertefuld, unormalt langvarig erektion, </li>
+<li>hævede underben eller hænder, mathedsfølelse og energiløshed, træthedsfølelse, manglende 
+energi, problemer med at gå, brystsmerter, </li>
+<li>unormale resultater af blodundersøgelser, vægttab, vægtstigning. </li>
+</ul>
+<p>Du kan opleve følgende bivirkninger:</p>
+<ul>
+<li>
+<p>manglende evne til at modstå trangen til at udføre en handling, der kunne være skadelig, f.eks.:</p>
+</li>
+<li>
+<p>stærk trang til at gamble for meget trods alvorlige personlige eller familiemæssige 
+konsekvenser, </p>
+</li>
+<li>ændret eller øget seksuel interesse og adfærd, som du eller andre er meget bekymret over, for 
+eksempel en øget seksualdrift, </li>
+<li>overdrevne ukontrollerbare indkøbs- og forbrugsvaner, </li>
+<li>overspisning (spiser store mængder mad på kort tid) eller tvangsspisning (spiser mere mad 
+end normalt og mere end nødvendigt for at tilfredsstille din sult). </li>
+</ul>
+<p>Fortæl din læge, hvis du oplever et eller flere af disse adfærdsmønstre. Lægen vil drøfte 
+forskellige måder at håndtere eller reducere symptomerne på.  </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store inbrija"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store inbrija"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares ved temperaturer under 25°C. Opbevares i den originale yderpakning for at beskytte mod 
+lys og fugt, og tages først ud umiddelbart før brug. </p>
+<p>Anvend ikke en kapsel, der synes knust, beskadiget eller våd. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inbrija indeholder:</p>
+<ul>
+<li>Aktivt stof: levodopa. Hver hård kapsel indeholder 42 mg levodopa. Den dosis, der forlader 
+mundstykket på inhalatoren (den leverede dosis) er 33 mg levodopa. </li>
+<li>Øvrige indholdsstoffer i pulveret og kapslen: colfoscerilpalmitat (DPPC), natriumchlorid, 
+hypromellose, titandioxid (E 171), carrageenan, kaliumchlorid, carnaubavoks, majsstivelse, 
+shellac, sort jernoxid (E 172), propylenglycol og kaliumhydroxid. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Inbrija inhalationspulver, hårde kapsler består af et hvidt pulver til inhalation fyldt i hvide 
+uigennemsigtige kapsler med “A42" trykt i sort på overdelen af kapslen og to sorte bånd trykt på 
+underdelen af kapslen. </p>
+<p>I denne pakning finder du en inhalator sammen med aftrækningsblistre, der hver indeholder 4 hårde 
+kapsler.  </p>
+<p>Pakningsstørrelser er:</p>
+<ul>
+<li>en karton indeholdende 16 hårde kapsler (4 blisterstrips) og én inhalator </li>
+<li>en karton indeholdende 32 hårde kapsler (8 blisterstrips) og én inhalator </li>
+<li>en karton indeholdende 60 hårde kapsler (15 blisterstrips) og én inhalator </li>
+<li>en karton indeholdende 92 hårde kapsler (23 blisterstrips) og én inhalator </li>
+</ul>
+<p>Begge pakningsstørrelser er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Acorda Therapeutics Ireland Limited 
+10 Earlsfort Terrace 
+Dublin 2, D02 TIrland 
+Tlf: +353 (0)1 231 4 
+Fremstiller 
+ADOH B.V. 
+Godfried Bomansstraat 6543 JA Nijmegen 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>BE, BG, CZ, DK, EE, IE, EL, FR, HR, IT, CY, LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, SI, 
+SK, FI, SE, UK-NI: 
+Acorda Therapeutics Ireland Limited 
+Ирландия/Irsko/Irland/Ιρλανδία/Iirimaa/Irlanti/Irlande/Irska/Írország/Írland/Irlanda/Airija/Īrija/L-
+Irlanda/Ierland/Irlandia/Írsko/Irska 
+Tél/Tel/Tel./Teл./Tlf/Τηλ/Sími/ Puh: +353 (0)1 231 4 
+DE: 
+Esteve Pharmaceuticals GmbH 
+Tel.: +49 30 338427-0 </p>
+<p>ES: 
+ESTEVE PHARMACEUTICALS, S.A. 
+Tel: +34 93 446 60  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+------------------------------------------------------------------------------------------------------------------------ Brugsanvisning: </p>
+<p>Læs denne brugsanvisning, før du starter med at bruge Inbrija.<br />
+Resumé </p>
+<ul>
+<li>
+<p>Sørg for, at dine hænder er rene og tørre, når du bruger inhalatoren og kapslerne. </p>
+</li>
+<li>
+<p>Tag først kapslerne ud af blisteren umiddelbart før brug. </p>
+</li>
+<li>
+<p>En fuld dosis er 2 kapsler, der anvendes den ene efter den anden. </p>
+</li>
+<li>
+<p>Indsæt 1 kapsel i Inbrija-inhalatoren, luk læberne fast omkring mundstykket, træk herefter 
+vejret ind (inhalér), og hold vejret i 5 sekunder. Du skal høre kapslen “hvirvle". Herefter 
+fjernes den brugte kapsel, og en anden kapsel sættes i inhalatoren. Luk læberne fast omkring 
+mundstykket, og træk vejret ind, hvorefter du igen holder vejret i 5 sekunder. </p>
+</li>
+<li>
+<p>Du skal inhalere indholdet i den anden kapsel inden for 10 minutter efter den første kapsel. </p>
+</li>
+<li>
+<p>Undlad at sætte 2 kapsler i samtidig. </p>
+</li>
+<li>
+<p>Bortskaf alle brugte kapsler umiddelbart efter brug. </p>
+</li>
+<li>
+<p>Bortskaf inhalatoren, når du har brugt alle kapslerne i kartonen. 
+Dele af din Inbrija-inhalator </p>
+</li>
+</ul>
+<p>Indjusteringspile 
+Kapsler 
+Hver karton indeholder blistere 
+med 4 kapsler. </p>
+<p>Klargør og brug i alt 2 kapsler. 
+Brug én kapsel ad gangen. </p>
+<p>Fuld dosis = 2 kapsler. </p>
+<p>Klargør din dosis 
+Trin 1: Saml materialerne </p>
+<p>Find en ren og tør overflade. 
+Sørg for, at dine hænder er rene og tørre. 
+Læg inhalator og strip med kapsler frem. 
+Træk pakke med 2 kapsler af. </p>
+<p>En fuld dosis er 2 kapsler. 
+Trin 2: Tag den blå hætte af inhalatoren </p>
+<p>Træk hætten lige af. 
+Læg hætten til side. Du skal bruge den senere til 
+opbevaring af inhalatoren. 
+Trin 3: Drej og træk det hvide mundstykke 
+af </p>
+<p>Drej og træk mundstykket af, så det adskilles fra 
+håndtaget. 
+Anbring mundstykket og inhalatoren på en ren og 
+tør overflade. 
+Trin 4: Tag 1 kapsel ud af emballagen  </p>
+<p>Træk forsigtigt folien tilbage, og udtag 1 kapsel. 
+Tag kun 1 kapsel ud ad gangen og først umiddelbart 
+før brug. 
+Undlad at bruge en kapsel, der synes knust, 
+beskadiget eller våd. Bortskaf den, og tag en ny 
+kapsel. 
+Trin 5: Indsæt kapsel </p>
+<p>Hold inhalatoren lodret ved anvendelse af 
+håndtaget. 
+Lad 1 kapsel falde ind i åbningen på 
+kapselkammeret. 
+Indsæt ikke 2 kapsler samtidig. 
+Trin 6: Påsæt det hvide mundstykke 
+Ret de to pile på mundstykke og håndtag ind 
+med hinanden </p>
+<p>Ret de hvide pile på håndtaget og mundstykket ind 
+med hinanden. 
+Pres kun mundstykket sammen én gang </p>
+<p>Pres mundstykket og håndtaget fast sammen, indtil 
+du hører et klik. Dette punkterer kapslen. </p>
+<p>Pres ikke håndtaget og mundstykket sammen 
+mere end én gang. 
+Giv slip på mundstykket </p>
+<p>Giv slip på mundstykket. Mundstykket vil springe 
+tilbage og forblive fastgjort.<br />
+Din inhalator er nu klar til brug. 
+Undlad at presse håndtaget og mundstykket sammen mere end én gang. Dette kan beskadige kapslen, 
+og du får muligvis ikke den fulde dosis. Hvis dette sker, skal du starte forfra fra trin 4 ved anvendelse 
+af en ny kapsel. 
+Sørg for, at mundstykket er sikkert fastgjort og ikke vil falde af, før du går videre til trin 7. Tag din dosis 
+Trin 7: Hold inhalator væk fra dig og 
+foretag en udånding </p>
+<p>Stå eller sid med dit hoved og bryst ret op. 
+Hold inhalatoren vandret og væk fra munden. 
+Ånd fuldstændigt ud. 
+Undlad at ånde ud ind i mundstykket. 
+Trin 8: Tag en dyb indånding for at 
+inhalere pulveret </p>
+<p>Inhalatoren holdes vandret, og læberne lukkes fast 
+omkring mundstykket. </p>
+<p>Tag en dyb, behagelig indånding, indtil dine 
+lunger føles fyldte. Dette tager normalt adskillige 
+sekunder. </p>
+<p>Mens du ånder ind, vil du høre og føle, at kapslen 
+“hvirvler" (snurrer rundt). Dette betyder, at 
+inhalatoren virker, og du får din medicin. 
+Hvis du hoster eller stopper din dosis, skal du starte 
+igen fra begyndelsen af trin 7 ved anvendelse af den 
+samme kapsel. </p>
+<p>Vigtigt: Hvis ikke du hører eller føler, at kapslen 
+“hvirvler", mens du inhalerer, kan det måske 
+være nødvendigt, at du tager en dybere, længere 
+indånding, eller nødvendigt, at du rengør 
+mundstykket. (Undlad at skylle mundstykket 
+eller gøre inhalatoren våd). Se trin 13 - 
+Rengøring af mundstykke. Start igen fra 
+begyndelsen af trin 7 ved anvendelse af den 
+samme kapsel. 
+Trin 9: Hold vejret i 5 sekunder, og ånd 
+herefter ud </p>
+<p>Tag inhalatoren ud af munden, og hold vejret i 
+5 sekunder. 
+Ånd herefter ud. 
+Trin 10: Fjern kapslen fra inhalatoren 
+Drej og træk mundstykket af </p>
+<p>Drej og træk mundstykket af. 
+Fjern den brugte kapsel </p>
+<p>Tag den brugte kapsel ud.<br />
+Trin 11: Dosér med den 2. kapsel </p>
+<p>Gentag trin 4 til 10 med den anden kapsel for at få 
+den fulde dosis. </p>
+<p>Du skal inhalere indholdet af den anden kapsel 
+inden for 10 minutter efter den første kapsel. 
+Bortskaffelse og opbevaring 
+Trin 12: Bortskaffelse af brugte kapsler </p>
+<p>Bortskaf brugte kapsler i henhold til lokale 
+retningslinjer. 
+Trin 13: Rengøring af mundstykke 
+Det er normalt, at noget pulver bliver siddende i eller på inhalatoren. For at undgå ophobning 
+af pulver renses pulveret ud af mundstykkehullerne ved hjælp af en cirkulær bevægelse med 
+en ny tør vatpind efter behov. 
+Rens huller fra topenden af mundstykket </p>
+<p>Rens hullerne fra topenden af mundstykket. </p>
+<p>Rens huller fra bundenden af mundstykket </p>
+<p>Rens hullerne fra bundenden af mundstykket.  </p>
+<p>Du kan også bruge en tør serviet til at aftørre ydersiden af mundstykket efter behov. 
+Undlad at rengøre andre dele af inhalatoren. 
+Undlad at skylle mundstykket eller gøre inhalatoren våd. 
+Trin 14: Opbevaring af inhalator 
+Sørg for, at der ikke er nogen kapsler i 
+inhalatoren </p>
+<p>Sørg for, der ikke er nogen kapsler i inhalatoren, før 
+du opbevarer den. 
+Påsæt mundstykket </p>
+<p>Fastgør mundstykket til håndtaget ved at presse, 
+indtil du hører et klik. 
+Påsæt hætte </p>
+<p>Påsæt hætten over mundstykket. 
+Klar til opbevaring </p>
+<p>Din inhalator er nu klar til opbevaring.<br />
+Rengøring af inhalatoren </p>
+<ul>
+<li>
+<p>Det er normalt, at noget pulver bliver siddende i eller på inhalatoren. </p>
+</li>
+<li>
+<p>For at undgå pulverophobning renses pulveret ud af mundstykkehullerne ved hjælp af en 
+cirkulær bevægelse med en ny tør vatpind efter behov. </p>
+</li>
+<li>
+<p>Du kan også bruge en tør serviet til at aftørre indersiden og ydersiden af inhalatormundstykket. </p>
+</li>
+<li>
+<p>Undlad at rengøre andre dele af inhalatoren. Undlad at skylle mundstykket, eller gøre 
+inhalatoren våd. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-09457b67378eccc379f945623f721bcb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inbrija Package Leaflet for language en"
+Description: "ePI document Bundle for inbrija Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-09457b67378eccc379f945623f721bcb"
+* entry[0].resource = composition-en-09457b67378eccc379f945623f721bcb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp09457b67378eccc379f945623f721bcb"
+* entry[=].resource = mp09457b67378eccc379f945623f721bcb
+                            
+                    
+Instance: bundlepackageleaflet-da-09457b67378eccc379f945623f721bcb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inbrija Package Leaflet for language da"
+Description: "ePI document Bundle for inbrija Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-09457b67378eccc379f945623f721bcb"
+* entry[0].resource = composition-da-09457b67378eccc379f945623f721bcb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp09457b67378eccc379f945623f721bcb"
+* entry[=].resource = mp09457b67378eccc379f945623f721bcb
+                            
+                    
+
+
+
+Instance: mp09457b67378eccc379f945623f721bcb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Inbrija 33 mg inhalation powder, hard capsules"
-Description: "Inbrija 33 mg inhalation powder, hard capsules"
+Title: "Medicinal Product inbrija"
+Description: "inbrija"
 Usage: #inline
 
  
@@ -392,7 +1001,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Inbrija 33 mg inhalation powder, hard capsules"
+  * productName = "inbrija"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -419,29 +1028,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-09457b67378eccc379f945623f721bcb
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for inbrija Package Leaflet for language en"
-Description: "ePI document Bundle for inbrija Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 09457b67378eccc379f945623f721bcbListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1390/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "inbrija"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-09457b67378eccc379f945623f721bcb"
-* entry[0].resource = composition-en-09457b67378eccc379f945623f721bcb
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc305b723e77246a208a1710e96d51ae9"
-* entry[=].resource = mpc305b723e77246a208a1710e96d51ae9
-                            
-                      
+* title = "List of all ePIs associated with inbrija"
+
+* subject = Reference(mpc305b723e77246a208a1710e96d51ae9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#inbrija "inbrija"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-09457b67378eccc379f945623f721bcb) // inbrija en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-09457b67378eccc379f945623f721bcb) // inbrija da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-09457b67378eccc379f945623f721bcb
+InstanceOf: List
+
+* insert 09457b67378eccc379f945623f721bcbListRuleset
+    

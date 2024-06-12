@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-91b82fa9e403058f0812186a7025d512
 InstanceOf: CompositionUvEpi
 Title: "Composition for inovelon Package Leaflet"
@@ -386,12 +389,491 @@ effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-91b82fa9e403058f0812186a7025d512
+InstanceOf: CompositionUvEpi
+Title: "Composition for inovelon Package Leaflet"
+Description:  "Composition for inovelon Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc58260bfe5b746f34d284305ff1de0ac)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc58260bfe5b746f34d284305ff1de0ac
+* title = "TEST PURPOSES ONLY - inovelon"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Inovelon
+3. Sådan skal du tage Inovelon
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What inovelon is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What inovelon is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inovelon indeholder et lægemiddel, der kaldes rufinamid. Det tilhører en gruppe af lægemidler, der
+kaldes antiepileptika, og som bruges til at behandle epilepsi (en sygdom, hvor personen får anfald eller
+kramper).
+Inovelon bruges sammen med andre lægemidler til at behandle anfald i forbindelse med
+Lennox-Gastaut-syndrom hos voksne, unge og børn fra 1 år. Lennox-Gastaut-syndrom er det
+overordnede navn for en gruppe alvorlige epilepsityper, hvor der kan forekomme gentagne anfald af
+forskellige slags.
+Din læge har givet dig Inovelon for at reducere antallet af anfald eller kramper.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take inovelon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take inovelon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Inovelon:</h2>
+<p>hvis du er allergisk over for rufinamid eller triazolderivater eller et af de øvrige indholdsstoffer i
+Inovelon (angivet i punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen eller på apoteket:
+-
+hvis du har medfødt kort QT-syndrom eller har haft sådan et syndrom i familien (elektriske
+forstyrrelser af hjertet), da indtagelse af rufinamid kan forværre dette.
+-
+hvis du lider af leverproblemer. Der foreligger begrænsede oplysninger om brugen af rufinamid
+til denne gruppe, og det kan derfor være nødvendigt at øge dosis langsommere. Hvis du har en
+svær leversygdom, kan lægen beslutte, at Inovelon ikke kan anbefales til dig.
+-
+hvis du får udslæt på huden eller feber. Dette kan være tegn på en allergisk reaktion. Kontakt
+straks lægen, da det i meget sjældne tilfælde kan blive alvorligt.
+45
+-
+hvis hyppigheden, sværhedsgraden eller varigheden af dine anfald øges, skal du kontakte lægen
+omgående, hvis det sker.
+-
+hvis du oplever gangbesvær, unormale bevægelser, svimmelhed eller søvnighed, skal du
+informere lægen, hvis noget af dette sker.
+-
+hvis du tager dette lægemiddel, og på et eller andet tidspunkt tænker på at skade dig selv eller
+begå selvmord, skal du straks kontakte lægen eller tage på hospitalet (se punkt 4).
+Tal med din læge, også hvis disse hændelser skete tidligere.
+Børn
+Inovelon bør ikke gives til børn under 1 år, da der ikke er tilstrækkelige oplysninger om brug af
+lægemidlet til denne aldersgruppe.
+Brug af anden medicin sammen med Inovelon
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for nylig.
+Dette gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler og vitaminer og
+mineraler. Hvis du tager følgende lægemidler: phenobarbital, fosphenytoin, phenytoin eller primidon,
+kan det være nødvendigt at overvåge dig nøje i to uger ved begyndelsen af behandlingen eller efter
+endt behandling med rufinamid, eller efter alle markante dosisændringer. En dosisændring af anden
+medicin kan være nødvendig, da anden medicin bliver en smule mindre effektivt, når det gives
+sammen med rufinamid.
+Antiepileptika og Inovelon
+Hvis lægen ordinerer eller anbefaler en yderligere behandling mod epilepsi (f.eks. valproat) skal du
+fortælle lægen, at du tager Inovelon, da der kan være behov for at justere dosis.
+Voksne og unge, der tager valproat samtidigt med rufinamid, vil få høje niveauer af rufinamid i blodet.
+Fortæl det til lægen, hvis du tager valproat, da det kan være nødvendigt, at lægen reducerer din dosis
+af Inovelon.
+Fortæl lægen, hvis du tager hormonel/oral prævention, f.eks. p-piller. Inovelon kan bevirke, at p-pillen
+ikke effektivt forhindrer graviditet. Det anbefales derfor, at du bruger en ekstra sikker og effektiv
+præventionsmetode (såsom en barrieremetode, f.eks. kondomer), når du tager Inovelon.
+Fortæl lægen, hvis du tager det blodfortyndende middel warfarin. Lægen skal eventuelt justere dosis.
+Fortæl lægen, hvis du tager hjertemedicinen digoxin. Lægen skal eventuelt justere dosis.
+Brug af Inovelon sammen med mad og drikke
+Du kan læse om, hvordan Inovelon tages sammen med mad og drikke i pkt. 3, Sådan skal du tage
+Inovelon.
+Graviditet, amning og frugtbarhed
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge
+din læge eller apotekspersonalet til råds, før du tager Inovelon. Du må kun tage Inovelon under din
+graviditet, hvis lægen fortæller dig det.
+Du rådes til ikke at amme, mens du tager Inovelon, da det er ukendt, om rufinamid vil være til stede i
+modermælken.
+46
+Hvis du er en kvinde i den fødedygtige alder, skal du anvende svangerskabsforebyggende midler,
+mens du tager Inovelon.
+Spørg lægen eller apoteket til råds, inden du tager nogen form for medicin samtidigt med Inovelon.
+Trafik- og arbejdssikkerhed
+Inovelon kan få dig til at føle dig svimmel, døsig og kan påvirke dit syn, især i begyndelsen af
+behandlingen eller efter en forøgelse af dosis. Hvis det sker, må du ikke føre motorkøretøj eller
+betjene maskiner.
+Inovelon indeholder lactose
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse
+sukkerarter.
+Inovelon indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr.daglig dosis, dvs. det er i det
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take inovelon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take inovelon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på apoteket.
+Det kan tage et stykke tid at finde den bedste dosis Inovelon til dig. Dosis vil blive beregnet til dig af
+lægen og vil afhænge af din alder, vægt og hvorvidt du tager Inovelon sammen med et andet
+lægemiddel, der hedder valproat.
+Børn mellem 1 og 4 år
+Den anbefalede startdosis er 10 mg for hvert kg legemsvægt, hver dag. Den indtages i to lige store
+doser; halvdelen om morgenen og den anden halvdel om aftenen. Lægen vil beregne din dosis. Den
+kan blive øget med 10 mg for hvert kg legemsvægt, hver tredje dag.
+Den maksimale daglige dosis vil afhænge af, hvorvidt du også tager valproat. Den maksimale daglige
+dosis, hvis du ikke tager valproat, er 45 mg for hvert kg legemsvægt, hver dag. Den maksimale daglige
+dosis, hvis du tager valproat, er 30 mg for hvert kg legemsvægt, hver dag.
+Børn på 4 år eller derover, som vejer under 30 kg
+Den anbefalede startdosis er 200 mg (5 ml) dagligt. Den indtages i to lige store doser; halvdelen om
+morgenen og den anden halvdel om aftenen. Lægen vil beregne din dosis. Den kan blive øget med op
+til 200 mg hver tredje dag.
+Den maksimale daglige dosis vil afhænge af, hvorvidt du også tager valproat. Den maksimale daglige
+dosis, hvis du ikke tager valproat, er 1.000 mg hver dag. Den maksimale daglige dosis, hvis du tager
+valproat, er 600 mg hver dag.
+Voksne, unge og børn, der vejer 30 kg eller derover
+Den anbefalede startdosis er 400 mg dagligt. Den indtages i to lige store doser; halvdelen om
+morgenen og den anden halvdel om aftenen. Lægen vil beregne din dosis. Den kan blive øget med op
+til 400 mg hver anden dag.
+47
+Den maksimale daglige dosis vil afhænge af, hvorvidt du også tager valproat. Den maksimale daglige
+dosis, hvis du ikke tager valproat, er højst 3.200 mg afhængigt af din legemsvægt. Den maksimale
+daglige dosis, hvis du tager valproat, er højst 2.200 mg afhængigt af din legemsvægt.
+Nogle patienter kan respondere på lavere doser, og lægen kan justere din dosis, afhængigt af hvordan
+du reagerer på behandlingen.
+Hvis du får bivirkninger, kan lægen øge din dosis langsommere.
+Inovelon-tabletter skal tages to gange dagligt sammen med vand, om morgenen og om aftenen.
+Inovelon skal tages sammen med mad. Hvis du har svært ved at synke, kan du knuse tabletten og
+blande pulveret i et halvt glas vand (100 ml), der skal drikkes med det samme. Du kan også brække
+tabletterne i to lige store halvdele og synke dem med vand.
+Du må ikke nedsætte dosis eller holde op med at tage din medicin, medmindre din læge giver dig
+besked på at gøre dette.
+Hvis du har taget for mange Inovelon
+Hvis du har taget mere Inovelon, end der står her eller er foreskrevet af lægen, skal du straks fortælle
+det til lægen eller på apoteket, eller du skal kontakte den nærmeste skadestue. Tag medicinen med.
+Hvis du har glemt at tage Inovelon
+Hvis du glemmer at tage en dosis, skal du fortsætte med at tage medicinen som normalt. Du må ikke
+tage en dobbeltdosis som erstatning for den glemte dosis. Hvis du springer mere end en dosis over,
+skal du søge råd hos lægen.
+Hvis du holder op med at tage Inovelon
+Hvis lægen tilråder at holde op med behandlingen, skal du følge deres instrukser vedrørende den
+gradvise reduktion af Inovelon for at mindske risikoen for en øgning af anfald.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
+Følgende bivirkninger kan være meget alvorlige:
+Udslæt og/eller feber. Dette kan være tegn på en allergisk reaktion. Hvis det sker, skal du
+fortælle det til lægen eller straks tage på hospitalet.
+Ændringer i de anfald, du får/hyppigere anfald, der varer længe (der kaldes status epilepticus).
+Kontakt straks din læge.
+Et lille antal personer, som behandles med antiepileptika såsom Inovelon, har overvejet
+selvbeskadigende adfærd/haft selvmordstanker. Hvis du på noget tidspunkt har haft disse
+tanker, skal du straks kontakte din læge (se punkt 2).
+Du kan opleve de følgende bivirkninger med denne medicin. Hvis du får nogle af følgende
+bivirkninger, bør du fortælle det til lægen:
+Meget almindelige (mere end 1 ud af 10 patienter) bivirkninger af Inovelon er:
+48
+Svimmelhed, hovedpine, kvalme, opkastning, søvnighed, træthed.
+Almindelige (mere end 1 ud af 100 patienter) bivirkninger af Inovelon er:
+Problemer i forbindelse med nerver omfatter: Gangbesvær, unormale bevægelser,
+kramper/anfald, usædvanlige øjenbevægelser, sløret syn, rysten.
+Problemer i forbindelse med maven omfatter: Mavesmerter, forstoppelse, fordøjelsesbesvær, løs
+afføring (diaré), tab eller ændring af appetit, vægttab.
+Infektioner: øreinfektion, influenza, stoppet næse, lungebetændelse.
+Herudover har patienter oplevet: Angst, søvnløshed, næseblod, akne, udslæt, rygsmerter,
+uregelmæssig menstruation, blå mærker, beskadigelse af hovedet (som følge af kvæstelser
+under et anfald).
+Ikke almindelige (mellem 1 ud af 1.000 og 1 ud af 100 patienter) bivirkninger af Inovelon er:
+Allergiske reaktioner og en øgning af leverfunktionsmarkører (øgning af leverenzymer).
+Indberetning af bivirkninger
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store inovelon"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store inovelon"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen og æsken efter Exp.
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Må ikke opbevares ved temperaturer over 30 °C.
+Brug ikke lægemidlet, hvis du bemærker, at lægemidlets udseende har ændret sig.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide
+medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Inovelon indeholder:</h2>
+<p>Aktivt stof: rufinamid.
+Hver 100 mg filmovertrukket tablet indeholder 100 mg rufinamid.
+Hver 200 mg filmovertrukket tablet indeholder 200 mg rufinamid.
+Hver 400 mg filmovertrukket tablet indeholder 400 mg rufinamid.
+-
+Øvrige indholdsstoffer: lactosemonohydrat, mikrokrystallinsk cellulose (E460), majsstivelse,
+croscarmellosenatrium (E468), hypromellose (E464), magnesiumstearat, natriumlaurilsulfat og
+49
+kolloid vandfri silica. Filmovertrækket består af hypromellose (E464), macrogol (8000),
+titandioxid (E171), talcum og rød jernoxid (E172).
+Udseende og pakningstørrelser
+-
+Inovelon 100 mg tabletter er lyserøde, ovale, let hvælvede filmovertrukne tabletter med
+delekærv på begge sider, præget med ‘Є261’ på den ene side og blanke på den anden side.
+De findes i pakninger med 10, 30, 50, 60 og 100 filmovertrukne tabletter.
+-
+Inovelon 200 mg tabletter er lyserøde, ovale, let hvælvede filmovertrukne tabletter med
+delekærv på begge sider, præget med ‘Є262’ på den ene side og blanke på den anden side.
+De findes i pakninger med 10, 30, 50, 60 og 100 filmovertrukne tabletter.
+-
+Inovelon 400 mg tabletter er lyserøde, ovale, let hvælvede filmovertrukne tabletter med
+delekærv på begge sider, præget med ‘Є263’ på den ene side og blanke på den anden side.
+De findes i pakninger med 10, 30, 50, 60, 100 og 200 filmovertrukne tabletter.
+Indehaver af markedsføringstilladelsen og fremstiller
+Indehaver af markedsføringstilladelsen:
+Eisai GmbH
+Edmund-Rumpler-Straße 3
+60549 Frankfurt am Main
+Tyskland
+e-mail: medinfo_de@eisai.net
+Fremstiller:
+Eisai GmbH
+Edmund-Rumpler-Straße 3
+60549 Frankfurt am Main
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Eisai SA/NV
+Tél/Tel: +32 (0)800 158 58
+Lietuva
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+България
+Eisai GmbH
+Teл.: + 49 (0) 69 66 58 50
+Luxembourg/Luxemburg
+Eisai SA/NV
+Tél/Tel: +32 (0)800 158 58
+(Belgique/Belgien)
+Česká republika
+Eisai GesmbH organizačni složka
+Tel: + 420 242 485 839
+Magyarország
+Ewopharma Hungary Ltd.
+Tel.: +36 1 200 46 50
+Danmark
+Eisai AB
+Tlf: + 46 (0) 8 501 01 600
+(Sverige)
+Malta
+Cherubino LTD
+Tel.: +356 21343270
+50
+Deutschland
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+Nederland
+Eisai B.V.
+Tél/Tel: + 31 (0) 900 575 3340
+Eesti
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+(Saksamaa)
+Norge
+Eisai AB
+Tlf: + 46 (0) 8 501 01 600
+(Sverige)
+Ελλάδα
+Arriani Pharmaceutical S.A.
+Τηλ: + 30 210 668 3000
+Österreich
+Eisai GesmbH
+Tel: + 43 (0) 1 535 1980-0
+España
+Eisai Farmacéutica, S.A.
+Tel: + (34) 91 455 94 55
+Polska
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+(Niemcy)
+France
+Eisai SAS
+Tél: + (33) 1 47 67 00 05
+Portugal
+Eisai Farmacêtica, Unipessoal Lda
+Tel: + 351 214 875 540
+Hrvatska
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+România
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+(Germania)
+Ireland
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+Slovenija
+Ewopharma d.o.o.
+Tel: +386 590 848 40
+Ísland
+Eisai AB
+Sími: + 46 (0)8 501 01 600
+(Svíþjóð)
+Slovenská republika
+Eisai GesmbH organizačni složka
+Tel.: + 420 242 485 839
+(Česká republika)
+Italia
+Eisai S.r.l.
+Tel: + 39 02 5181401
+Suomi/Finland
+Eisai AB
+Puh/Tel: + 46 (0) 8 501 01 600
+(Ruotsi)
+Κύπρος
+Arriani Pharmaceuticals S.A.
+Τηλ: + 30 210 668 3000
+(Ελλάδα)
+Sverige
+Eisai AB
+Tel: + 46 (0) 8 501 01 600
+Latvija
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+(Vācija)
+United Kingdom (Northern Ireland)
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+(Germany)
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu/
+51
+Indlægsseddel: Information til brugeren
+Inovelon 40 mg/ml oral suspension
+Rufinamid
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger,
+som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-91b82fa9e403058f0812186a7025d512
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inovelon Package Leaflet for language en"
+Description: "ePI document Bundle for inovelon Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-91b82fa9e403058f0812186a7025d512"
+* entry[0].resource = composition-en-91b82fa9e403058f0812186a7025d512
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp91b82fa9e403058f0812186a7025d512"
+* entry[=].resource = mp91b82fa9e403058f0812186a7025d512
+                            
+                    
+Instance: bundlepackageleaflet-da-91b82fa9e403058f0812186a7025d512
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inovelon Package Leaflet for language da"
+Description: "ePI document Bundle for inovelon Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-91b82fa9e403058f0812186a7025d512"
+* entry[0].resource = composition-da-91b82fa9e403058f0812186a7025d512
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp91b82fa9e403058f0812186a7025d512"
+* entry[=].resource = mp91b82fa9e403058f0812186a7025d512
+                            
+                    
+
+
+
+Instance: mp91b82fa9e403058f0812186a7025d512
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Inovelon 100 mg film-coated tablets"
-Description: "Inovelon 100 mg film-coated tablets"
+Title: "Medicinal Product inovelon"
+Description: "inovelon"
 Usage: #inline
 
  
@@ -411,7 +893,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Inovelon 100 mg film-coated tablets"
+  * productName = "inovelon"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -438,29 +920,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-91b82fa9e403058f0812186a7025d512
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for inovelon Package Leaflet for language en"
-Description: "ePI document Bundle for inovelon Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 91b82fa9e403058f0812186a7025d512ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/06/378/001-005"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "inovelon"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-91b82fa9e403058f0812186a7025d512"
-* entry[0].resource = composition-en-91b82fa9e403058f0812186a7025d512
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc58260bfe5b746f34d284305ff1de0ac"
-* entry[=].resource = mpc58260bfe5b746f34d284305ff1de0ac
-                            
-                      
+* title = "List of all ePIs associated with inovelon"
+
+* subject = Reference(mpc58260bfe5b746f34d284305ff1de0ac)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#inovelon "inovelon"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-91b82fa9e403058f0812186a7025d512) // inovelon en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-91b82fa9e403058f0812186a7025d512) // inovelon da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-91b82fa9e403058f0812186a7025d512
+InstanceOf: List
+
+* insert 91b82fa9e403058f0812186a7025d512ListRuleset
+    

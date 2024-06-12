@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b75c9cca851bae600c4e2cbce08a2816
 InstanceOf: CompositionUvEpi
 Title: "Composition for adcetris Package Leaflet"
@@ -543,12 +546,617 @@ set. The infusion line should be flushed following administration with sodium ch
 
 
 
+Instance: composition-da-b75c9cca851bae600c4e2cbce08a2816
+InstanceOf: CompositionUvEpi
+Title: "Composition for adcetris Package Leaflet"
+Description:  "Composition for adcetris Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5fc39247392f56ab0c60b5c43e9c7872)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5fc39247392f56ab0c60b5c43e9c7872
+* title = "TEST PURPOSES ONLY - adcetris"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at få Adcetris </li>
+<li>Sådan indgives Adcetris </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What adcetris is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What adcetris is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Adcetris indeholder det aktive stof brentuximab vedotin, et middel mod kræft, som består af et 
+monoklonalt antistof bundet til et stof, der skal dræbe kræftceller. Stoffet føres til kræftcellerne af det 
+monoklonale antistof. Et monoklonalt antistof er et protein, der genkender visse kræftceller.  </p>
+<p>Hodgkin lymfom, systemisk anaplastisk storcellet lymfom og kutant T-celle-lymfom er kræfttyper, der 
+rammer de hvide blodlegemer. </p>
+<p>Klassisk Hodgkin lymfom udtrykker specifikke proteiner på celleoverfladen, som adskiller sig fra 
+ikke-klassisk Hodgkin lymfom.  </p>
+<p>Adcetris bruges til at behandle patienter med fremskreden klassisk Hodgkin lymfom, som ikke er 
+blevet behandlet før. Du vil få Adcetris sammen med doxorubicin, vinblastin og dacarbazin, som er 
+andre kemoterapilægemidler, der bruges til at behandle Hodgkin lymfom. </p>
+<p>Adcetris bruges alene for at mindske sandsynligheden for, at klassisk Hodgkin lymfom vender tilbage 
+efter en autolog stamcelletransplantation hos patienter med visse risikofaktorer. </p>
+<p>Adcetris alene bruges også alene til at behandle klassisk Hodgkin lymfom, der er:</p>
+<ul>
+<li>vendt tilbage eller ikke har reageret på infusion af dine egne raske stamceller i din krop (autolog 
+stamcelletransplantation), eller </li>
+<li>vendt tilbage efter eller aldrig har reageret på mindst to forudgående behandlinger, og hvor du 
+ikke kan modtage yderligere kombinationer af lægemidler mod cancer eller modtage en autolog 
+stamcelletransplantation. </li>
+</ul>
+<p>Systemisk anaplastisk storcellet lymfom er en type af non-Hodgkin lymfom, der findes i dine 
+lymfeknuder og/eller i andre dele af kroppen.  </p>
+<p>Adcetris anvendes til behandling af patienter med systemisk anaplastisk storcellet lymfom, som ikke 
+tidligere er behandlet. Adcetris vil blive givet til dig sammen med cyclophosphamid, doxorubicin og 
+prednison, som er andre kemoterapi-lægemidler, der bruges til at behandle disse tilstande. </p>
+<p>Adcetris bruges også til at behandle systemiske anaplastiske storcellede lymfomer, der:</p>
+<ul>
+<li>ikke har reageret på andre former for kræftbehandling, eller  </li>
+<li>er vendt tilbage efter tidligere behandlinger mod kræft. </li>
+</ul>
+<p>Kutant T-celle-lymfom er en form for kræft i en bestemt type hvide blodlegemer kaldet "T-celler", 
+som hovedsagelig påvirker huden. Adcetris bruges til at behandle kutant T-celle-lymfom, hvis der 
+er en bestemt type protein til stede på cellernes overflade. </p>
+<p>Adcetris bruges til at behandle kutant T-celle-lymfom hos patienter, som tidligere har fået mindst 
+ét kræft-lægemiddel, der optages via blodbanen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take adcetris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take adcetris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du bør ikke få Adcetris, hvis du </p>
+<ul>
+<li>er allergisk over for brentuximab vedotin eller et af de øvrige indholdsstoffer i Adcetris (angivet 
+i pkt. 6).  </li>
+<li>for øjeblikket får bleomycin, et middel mod kræft.  </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Når du begynder at få denne medicin og under behandlingsforløbet skal du fortælle lægen, hvis du:</p>
+<ul>
+<li>er konfus, har problemer med at tænke, hukommelsestab, uklart eller tab af synet, nedsat styrke, 
+nedsat kontrol eller følelse i en arm eller et ben, en forandring i måden at gå på eller tab af 
+balance, da dette kan være symptomer på en alvorlig og måske dødelig hjernesygdom, der 
+kaldes progressiv multifokal leukoencefalopati (PML). Hvis du har disse symptomer før 
+behandlingen med denne medicin, skal du omgående fortælle lægen om eventuelle ændringer af 
+disse symptomer. Du skal også informere din partner eller dine plejere om din behandling, da de 
+kan bemærke symptomer, som du ikke selv er opmærksom på </li>
+<li>har alvorlige og vedvarende mavesmerter med eller uden kvalme og opkastning, da disse kan 
+være symptomer på en alvorlig og måske dødelig tilstand kendt som pancreatitis (betændelse i 
+bugspytkirtlen) </li>
+<li>har nyopstået eller forværret åndenød eller hoste, da disse kan være symptomer på en alvorlig 
+og potentielt dødelig lungekomplikation (lungetoksicitet) </li>
+<li>får eller tidligere har fået medicin, der kan påvirke dit immunsystem, så som kemoterapi eller 
+immunsuppressive midler  </li>
+<li>har eller tror du har en infektion. Visse infektioner kan være alvorlige og kan skyldes virus, 
+bakterier eller andet, der kan være livstruende </li>
+<li>oplever en fløjtende lyd, når du trækker vejret (hvæsen), åndedrætsbesvær, udslæt, kløe eller 
+hævelser (tegn på en reaktion mod infusionen). For nærmere oplysninger henvises til 
+”Infusionsreaktioner” i pkt. 4 </li>
+<li>har problemer med en forandring af hudens følsomhed, specielt i hænder eller fødder, så som 
+følelsesløshed, snurren, en brændende fornemmelse, smerter, ubehag eller svækkelse 
+(neuropati) </li>
+<li>har hovedpine, føler dig træt, oplever svimmelhed, ser bleg ud (anæmi) eller har usædvanlige 
+blødninger eller blåfarvning under huden, bløder længere end normalt efter en blodprøve eller 
+bløder fra tandkødet (trombocytopeni)  </li>
+<li>får kuldegysninger eller kulderystelser eller føler dig varm; du bør tage din temperatur, da du 
+kan have feber. Feber samtidigt med lavt antal hvide blodlegemer kan være et tegn på alvorlig 
+infektion  </li>
+<li>oplever svimmelhed, mindre vandladning, konfusion, opkastning, kvalme, hævelse, 
+kortåndethed eller forstyrrelser af hjerterytmen (dette kan være en livstruende komplikation, der 
+kaldes tumorlysesyndrom) </li>
+<li>oplever influenza-lignende symptomer efterfulgt af et smertefuldt rødt eller lilla udslæt, der 
+breder sig og danner blærer herunder omfattende afskalning af huden, hvilket kan være 
+livstruende (dette kan være en alvorlig hudreaktion kaldet Stevens-Johnsons syndrom eller 
+toksisk epidermal nekrolyse) </li>
+<li>oplever udbredt udslæt, høj feber og forstørrede lymfeknuder (DRESS- eller 
+lægemiddeloverfølsomhed) </li>
+<li>har nye eller forværrede mavesmerter, kvalme, opkastning, forstoppelse, da disse tilstande kan 
+være symptomer på en alvorlig og potentielt dødelig mave- eller tarmkomplikation 
+(gastrointestinale komplikationer)har unormale levertestresultater, da dette kan have forbindelse 
+med en alvorlig og potentielt dødelig leverskade (hepatotoksicitet). Leversygdom og andre 
+medicinske tilstande, som kan have eksisteret, før du begyndte at få behandling med Adcetris, 
+og visse lægemidler, du tager, kan øge risikoen for leverskader </li>
+<li>føler dig træt, har hyppig vandladning, øget tørst, øget appetit med utilsigtet vægttab eller 
+irritabilitet (hyperglykæmi) </li>
+<li>mærker en brændende fornemmelse, føler smerter eller ømhed ved eller omkring infusionsstedet 
+under infusionen, da dette kan tyde på, at Adcetris er lækket ud uden for blodåren. Fortæl det til 
+lægen eller sygeplejersken med det samme. Hvis Adcetris er lækket ud uden for blodåren, kan 
+der forekomme rødme i, smerter i, misfarvning af, hævelse af, blæredannelse på, afskalning af 
+eller infektion i de dybere hudlag (cellulitis) af din hud ved eller omkring infusionsstedet inden 
+for dage eller uger efter infusionen. </li>
+<li>har nyre- eller leverproblemer </li>
+</ul>
+<p>Din læge vil jævnligt tage blodprøver for at sikre sig, at det er sikkert for dig at få denne medicin. </p>
+<p>Brug af anden medicin sammen med Adcetris </p>
+<p>Fortæl altid lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at 
+tage anden medicin. Dette gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler og 
+vitaminer og mineraler.  </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Du og din partner skal benytte to effektive præventionsmetoder under behandlingen med denne 
+medicin. Kvinder skal fortsætte med at bruge prævention i 6 måneder efter den sidste dosis Adcetris. </p>
+<p>Du må ikke bruge denne medicin, hvis du er gravid, medmindre du og din læge beslutter, at den gavn, 
+du har af medicinen, opvejer den mulige risiko for dit ufødte barn.  </p>
+<p>Det er vigtigt at fortælle lægen før og under behandlingen, hvis du er gravid, har mistanke om, at du er 
+gravid eller planlægger at blive gravid. </p>
+<p>Hvis du ammer, skal du drøfte med lægen, om du skal have denne medicin. </p>
+<p>Mænd, der behandles med dette lægemiddel, rådes til at få nedfrosset og opbevaret spermprøver før 
+behandlingen. Mænd, der behandles med dette lægemiddel, tilrådes ikke at avle børn under 
+behandlingen og i op til 6 måneder efter den sidste dosis af medicinen.  </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Din behandling kan påvirke din evne til at køre eller betjene maskiner. Hvis du føler dig utilpas under 
+behandlingen, bør du ikke køre bil eller bruge maskiner. </p>
+<p>Adcetris indeholder natrium </p>
+<p>Dette lægemiddel indeholder 13,2 mg natrium (hovedkomponent i madlavnings-/bordsalt) pr. 
+hætteglas. Dette svarer til 0,7 % af den anbefalede maksimale daglige indtagelse af natrium for en 
+voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take adcetris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take adcetris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis du er i tvivl om noget vedrørende brugen af denne medicin, så spørg den læge eller 
+sygeplejerske, der giver dig infusionen.  </p>
+<p>Dosering og hyppighed </p>
+<p>Dosis af denne medicin afhænger af din kropsvægt.  </p>
+<ul>
+<li>
+<p>Den sædvanlige dosis Adcetris, der gives i kombination med doxorubicin, vinblastin og 
+dacarbazin, er 1,2 mg/kg givet hver 2. uge i 6 måneder. </p>
+</li>
+<li>
+<p>Den sædvanlige dosis Adcetris, der gives i kombination med cyclophosphamid, doxorubicin og 
+prednison, er 1,8 mg/kg givet hver 3. uge i ca. 4-6 måneder. </p>
+</li>
+</ul>
+<p>Se indlægssedlen for disse lægemidler, der gives i kombination med Adcetris, for at få yderligere 
+oplysninger om deres anvendelse og virkning. Efter den første dosis af Adcetris i kombination med 
+kemoterapi vil din læge muligvis også give dig et lægemiddel, der vil hjælpe med at forhindre eller 
+nedsætte sværhedsgraden af neutropeni (nedsat antal hvide blodlegemer), som kan øge risikoen for 
+infektion. Fortæl det til lægen, hvis du har nyre- eller leverproblemer, da lægen så muligvis vil 
+nedsætte din startdosis eller fraråde behandling med Adcetris. </p>
+<ul>
+<li>Den sædvanlige dosis af Adcetris alene er 1,8 mg/kg givet en gang hver 3. uge i højst et år. Din 
+læge kan nedsætte startdosis til 1,2 mg/kg, hvis du har nyre- eller leverproblemer. </li>
+</ul>
+<p>Adcetris må kun gives til voksne. Den er ikke beregnet til brug hos børn.  </p>
+<p>Sådan gives Adcetris </p>
+<p>Medicinen gives i en vene (intravenøst) som en infusion. Den gives af en læge eller sygeplejerske over 
+30 minutter. Lægen eller sygeplejersken vil også holde øje med dig under og efter infusionen.  </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Infusionsreaktioner </p>
+<p>Medicin af denne type (monoklonale antistoffer) kan give infusionsreaktioner, så som:</p>
+<ul>
+<li>udslæt  </li>
+<li>kortåndethed </li>
+<li>åndedrætsbesvær </li>
+<li>hoste </li>
+<li>strammen over brystet  </li>
+<li>feber </li>
+<li>rygsmerter </li>
+<li>kulderystelser </li>
+<li>hovedpine </li>
+<li>kvalme eller opkastning. </li>
+</ul>
+<p>Infusionsreaktioner på denne medicin kan ramme flere end 1 ud af 10 personer.  </p>
+<p>Generelt forekommer disse former for reaktioner inden for minutter til flere timer efter afsluttet 
+infusion. Men de kan forekomme mere end adskillige timer efter afslutning af infusionen, selv om det 
+er usædvanligt. Disse infusionsreaktioner kan være alvorlige eller tilmed dødelige (kendt som en 
+anafylaktisk reaktion). Det vides ikke, hvor hyppigt infusionsrelaterede reaktioner på grund af denne 
+medicin er alvorlige eller dødelige.  </p>
+<p>Du får måske medicin, så som<br />
+- antihistaminer, kortikosteroider eller paracetamol<br />
+for at hjælpe med til at reducere nogle af de ovennævnte reaktioner, hvis du tidligere har oplevet disse, 
+når du fik denne form for medicin.  </p>
+<p>Hvis du mener, at du tidligere har haft en tilsvarende reaktion, skal du fortælle lægen om det, FØR du 
+får medicinen.<br />
+Hvis du får infusionsreaktioner (som angivet ovenfor), kan din læge måske stoppe med at give dig 
+denne medicin og påbegynde en støttebehandling. 
+Hvis din infusion genstartes, kan din læge forlænge den tid, som infusionen tager, så du måske bedre 
+kan tåle den.  </p>
+<p>Fortæl omgående lægen, hvis du bemærker nogen af følgende symptomer, fordi nogle af dem 
+kan være tegn på en alvorlig eller muligvis dødelig tilstand. 
+- progressiv multifokal leukoencefalopati (PML) så som konfusion, problemer med at tænke, 
+hukommelsestab, uklart syn eller synstab, nedsat styrke, nedsat kontrol eller følelse i en arm 
+eller et ben, en forandring i måden at gå på eller tab af balance (for nærmere informationer, se 
+punkt 2) (forekommer hos færre end 1 ud af 100 personer). 
+- symptomer på betændelse i bugspytkirtlen (pancreatitis), såsom alvorlige og vedvarende 
+mavesmerter med eller uden kvalme og opkastning (kan forekomme hos op til 1 ud af 
+100 personer). 
+- åndenød eller hoste (kan forekomme hos mere end 1 ud af 10 personer) 
+- influenza-lignende symptomer efterfulgt af et smertefuldt rødt eller lilla udslæt, der breder sig 
+og danner blærer herunder omfattende afskalning af huden (kan forekomme hos op til 1 ud af 
+100 personer) 
+- En forandring i følelse eller følsomhed, specielt i huden, følelsesløshed, snurren, ubehag, en 
+brændende fornemmelse, svaghed eller smerte i hænder eller fødder (neuropati; kan forekomme 
+hos flere end 1 ud af 10 personer) 
+- En følelse af svaghed (kan forekomme hos flere end 1 ud af 10 personer) 
+- Forstoppelse (kan forekomme hos flere end 1 ud af 10 personer) 
+- Diarré, opkastning (kan forekomme hos flere end 1 ud af 10 personer) 
+- Kuldegysninger eller kulderystelser (kan forekomme hos op til 1 ud af 10 personer) 
+- Træthedsfølelse, hyppig vandladning, øget tørst, øget appetit med utilsigtet vægttab og 
+irritabilitet (dette kan være tegn på hyperglykæmi, som kan forekomme hos op til 1 ud af 
+10 personer) 
+- Usædvanlig blødning eller blå mærker under huden, længere blødning end normalt efter 
+blodprøvetagning, eller blødning fra tandkødet (dette kan være tegn på trombocytopeni, som 
+kan forekomme hos op til 1 ud af 10 personer) 
+- hovedpine, oplever svimmelhed, ser bleg ud (dette kan være tegn på anæmi, der kan forekomme 
+hos flere end 1 ud af 10 personer) 
+- udbredt udslæt, høj feber og forstørrede lymfeknuder (DRESS eller lægemiddeloverfølsomhed) 
+(hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<p>Du kan opleve følgende bivirkninger: </p>
+<p>Følgende bivirkninger er rapporteret med Adcetris alene:  </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) 
+- nedsat antal hvide blodlegemer 
+- infektion i de øvre luftveje 
+- vægttab 
+- infektion 
+- kvalme<br />
+- mavesmerter 
+- kløe 
+- muskelsmerter 
+- ledsmerter eller smertende, hævede led </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) 
+- lungebetændelse 
+- ømme, cremegule hævede områder i munden (trøske) 
+- nedsat antal blodplader 
+- svimmelhed 
+- blærer, der kan danne skorpe eller sår 
+- forhøjet blodsukkerniveau 
+- forhøjede leverenzymniveauer 
+- usædvanligt hårtab eller udtynding </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) 
+- Tumorlysesyndrom – en potentielt livstruende tilstand, hvor du kan opleve svimmelhed, nedsat 
+vandladning, forvirring, opkastning, kvalme, hævelse, stakåndethed eller forstyrrelser af 
+hjerterytmen.<br />
+- nye eller tilbagevendende cytomegalovirusinfektioner (CMV) 
+- infektion i blodet (blodforgiftning) og/eller septisk shock (en livstruende form for 
+blodforgiftning) 
+- Stevens-Johnsons syndrom og toksisk epidermal nekrolyse – en sjælden, alvorlig sygdom, hvor 
+du kan opleve influenza-lignende symptomer efterfulgt af et smertefuldt rødt eller lilla udslæt, 
+der spreder sig og danner blærer, herunder omfattende afskalning af huden<br />
+- nedsat antal hvide blodlegemer med deraf følgende feber 
+- skader på nerver og nerveskeder (demyeliniserende polyneuropati)  </p>
+<p>Ikke kendte bivirkninger (hyppigheden kan ikke estimeres ud fra forhåndenværende data) 
+- Udsivning af lægemiddel fra blodåren til det omgivende væv (kaldes også ekstravasation).<br />
+Ekstravasation kan medføre rødme i, smerter i, misfarvning af, hævelse af, blærer på, afskalning 
+af eller infektion i de dybere hudlag (cellulitis) i huden ved eller omkring infusionsstedet. </p>
+<p>Følgende bivirkninger er rapporteret med Adcetris i kombination med kemoterapi-lægemidler: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) 
+- nedsat antal hvide blodlegemer 
+- nedsat antal hvide blodlegemer med deraf følgende feber 
+- infektion i de øvre luftveje 
+- vægttab 
+- infektion 
+- kvalme<br />
+- mavesmerter 
+- usædvanligt hårtab eller udtynding 
+- muskelsmerter 
+- ledsmerter eller smertende, hævede led 
+- svimmelhed 
+- nedsat appetit 
+- søvnløshed 
+- knoglesmerter 
+- blærer, der kan danne skorpe eller sår </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) 
+- infektion i blodet (blodforgiftning) og/eller septisk shock (en livstruende form for 
+blodforgiftning); 
+lungebetændelse 
+- ømhed eller betændelse i munden 
+- ømme, cremegule, hævede pletter i munden (trøske) 
+- nedsat antal blodplader 
+- kløe 
+- forhøjet blodsukker 
+- forhøjede leverenzymniveauer </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) 
+- Tumorlysesyndrom – en potentielt livstruende tilstand, hvor du kan opleve svimmelhed, nedsat 
+vandladning, forvirring, opkastning, kvalme, hævelse, stakåndethed eller forstyrrelser af 
+hjerterytmen.<br />
+- Stevens-Johnsons syndrom – en sjælden, alvorlig sygdom, hvor du kan opleve 
+influenza-lignende symptomer efterfulgt af et smertefuldt rødt eller lilla udslæt, der spreder sig 
+og danner blærer, herunder omfattende afskalning af huden<br />
+- nye eller tilbagevendende cytomegalovirusinfektioner (CMV) </p>
+<p>Bivirkningerne kan optræde hyppigere hos ældre patienter (≥ 65 år). </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejersken eller apotekspersonalet. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store adcetris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store adcetris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og æsken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
+<p>Uåbnede hætteglas: Opbevares i køleskab (2 °C-8 °C). Må ikke nedfryses. 
+Opbevares i den originale yderpakning for at beskytte produktet mod lys.  </p>
+<p>Opblandet/fortyndet opløsning: Skal bruges omgående efter opblanding eller opbevares i køleskab 
+(2 °C-8 °C) og bruges inden for 24 timer. </p>
+<p>Brug ikke dette lægemiddel, hvis der bemærkes partikler eller misfarvning før administrationen.  </p>
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Lægen 
+eller sundhedspersonalet vil bortskaffe medicinresterne.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Adcetris indeholder </p>
+<ul>
+<li>Aktivt stof: Brentuximab vedotin. Hvert hætteglas indeholder 50 mg brentuximab vedotin. Efter 
+rekonstitution indeholder hver ml i opløsningen 5 mg Adcetris.  </li>
+<li>Øvrige indholdsstoffer: Citronsyremonohydrat, natriumcitratdihydrat, α,α-trehalose-dihydrat og 
+polysorbat 80. Se pkt. 2 for yderligere oplysninger om natrium.  </li>
+</ul>
+<p>Udseende og pakningstørrelser </p>
+<p>Adcetris er en hvid til gullig substans eller pulver til koncentrat til infusionsvæske, opløsning, som 
+leveres i et hætteglas af glas.  </p>
+<p>Hver pakning med Adcetris indeholder et hætteglas.  </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Takeda Pharma A/S 
+Delta Park 2665 Vallensbæk Strand 
+Danmark  </p>
+<p>Fremstiller </p>
+<p>Takeda Austria GmbH 
+St. Peter-Straβe A-4020 Linz 
+Østrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Тел.: + 359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Česká republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: + 420 234 722 722<br />
+medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Drugsales Ltd 
+Tel: +356 21419safety@drugsalesltd.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com  </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Ελλάδα 
+Takeda ΕΛΛΑΣ Α.Ε. 
+Tηλ: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Österreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 50<br />
+medinfoEMEA@takeda.com </p>
+<p>España 
+Takeda Farmacéutica España S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+Tél: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmacêuticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>România<br />
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba 
+d.o.o. 
+Tel: +386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf.<br />
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia<br />
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος 
+A. Potamitis Medicare Ltd 
+Tηλ: +357 22583a.potamitismedicare@cytanet.com.cy </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>Denne indlægsseddel blev senest ændret . </p>
+<p>Du kan finde yderligere oplysninger om Adcetris på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>--------------------------------------------------------------------------------------------------------------------- Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Sporbarhed </p>
+<p>For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres. </p>
+<p>Bortskaffelse </p>
+<p>Adcetris er kun til engangsbrug. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Vejledning i rekonstitution  </p>
+<p>Hvert engangs-hætteglas skal rekonstitueres med 10,5 ml vand til injektioner til en endelig 
+koncentration på 5 mg/ml. Hvert hætteglas indeholder et overskud på 10 %, hvilket giver 55 mg 
+Adcetris per hætteglas og et samlet rekonstitueret mængde på 11 ml.<br />
+1. Ret strømmen mod hætteglassets væg og ikke direkte mod substansen eller pulveret.<br />
+2. Slyng forsigtigt hætteglasset for at hjælpe med opløsningen. MÅ IKKE RYSTES.<br />
+3. Den rekonstituerede opløsning i hætteglasset er en klar til let uklar, farveløs opløsning med en 
+endelig pH på 6,6. 4. Den rekonstituerede opløsning skal kontrolleres visuelt for eventuelle fremmed partikler og/eller 
+misfarvning. I tilfælde af at nogle af delene observeres, skal lægemidlet kasseres. </p>
+<p>Klargøring af infusionsvæsken </p>
+<p>Den passende mængde rekonstitueret Adcetris skal trækkes op af hætteglasset/ne og tilsættes til 
+infusionsposen indeholdende natriumchlorid 9 mg/ml (0,9 %) injektionsvæske for at opnå en endelig 
+koncentration på 0,4-1,2 mg/ml Adcetris.<br />
+Det anbefalede diluentvolumen er 150 ml.<br />
+Det allerede rekonstituerede Adcetris kan også fortyndes i 5 % dextrose til injektion eller Ringerlaktat 
+til injektion.  </p>
+<p>Vend forsigtigt posen for at blande den opløsning, der indeholder Adcetris. MÅ IKKE RYSTES.  </p>
+<p>Tilbageværende rester i hætteglasset, efter optrækket af volumenet til fortyndingen, skal bortskaffes i 
+henhold til lokale retningslinjer. </p>
+<p>Tilsæt ikke andre lægemidler til den klargjorte Adcetris-infusionsopløsning eller det intravenøse 
+infusionssæt. Infusionsslangen skal gennemskylles efter administrationen med natriumchlorid 9 mg/ml 
+(0,9 %) injektionsopløsning, 5 % dextrose til injektion eller Ringerlaktat til injektion.  </p>
+<p>Efter fortynding infunderes Adcetris-opløsningen umiddelbart ved den anbefalede infusionshastighed.  </p>
+<p>Den samlede opbevaringstid fra rekonstitution til infusion bør ikke overskride 24 timer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-b75c9cca851bae600c4e2cbce08a2816
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adcetris Package Leaflet for language en"
+Description: "ePI document Bundle for adcetris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b75c9cca851bae600c4e2cbce08a2816"
+* entry[0].resource = composition-en-b75c9cca851bae600c4e2cbce08a2816
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb75c9cca851bae600c4e2cbce08a2816"
+* entry[=].resource = mpb75c9cca851bae600c4e2cbce08a2816
+                            
+                    
+Instance: bundlepackageleaflet-da-b75c9cca851bae600c4e2cbce08a2816
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adcetris Package Leaflet for language da"
+Description: "ePI document Bundle for adcetris Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-b75c9cca851bae600c4e2cbce08a2816"
+* entry[0].resource = composition-da-b75c9cca851bae600c4e2cbce08a2816
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb75c9cca851bae600c4e2cbce08a2816"
+* entry[=].resource = mpb75c9cca851bae600c4e2cbce08a2816
+                            
+                    
+
+
+
+Instance: mpb75c9cca851bae600c4e2cbce08a2816
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ADCETRIS 50 mg powder for concentrate for solution for infusion."
-Description: "ADCETRIS 50 mg powder for concentrate for solution for infusion."
+Title: "Medicinal Product adcetris"
+Description: "adcetris"
 Usage: #inline
 
  
@@ -568,7 +1176,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ADCETRIS 50 mg powder for concentrate for solution for infusion."
+  * productName = "adcetris"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -595,29 +1203,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b75c9cca851bae600c4e2cbce08a2816
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for adcetris Package Leaflet for language en"
-Description: "ePI document Bundle for adcetris Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b75c9cca851bae600c4e2cbce08a2816ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/794/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "adcetris"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b75c9cca851bae600c4e2cbce08a2816"
-* entry[0].resource = composition-en-b75c9cca851bae600c4e2cbce08a2816
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5fc39247392f56ab0c60b5c43e9c7872"
-* entry[=].resource = mp5fc39247392f56ab0c60b5c43e9c7872
-                            
-                      
+* title = "List of all ePIs associated with adcetris"
+
+* subject = Reference(mp5fc39247392f56ab0c60b5c43e9c7872)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#adcetris "adcetris"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b75c9cca851bae600c4e2cbce08a2816) // adcetris en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-b75c9cca851bae600c4e2cbce08a2816) // adcetris da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-b75c9cca851bae600c4e2cbce08a2816
+InstanceOf: List
+
+* insert b75c9cca851bae600c4e2cbce08a2816ListRuleset
+    

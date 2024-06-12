@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-63de51a4556de5e7a2f7d84ffc03fbf9
 InstanceOf: CompositionUvEpi
 Title: "Composition for fampridine Package Leaflet"
@@ -257,12 +260,407 @@ C/ C, 12-14 Pol. Ind. Zona Franca, 08040 Barcelona, Spain </p>
 
 
 
+Instance: composition-da-63de51a4556de5e7a2f7d84ffc03fbf9
+InstanceOf: CompositionUvEpi
+Title: "Composition for fampridine Package Leaflet"
+Description:  "Composition for fampridine Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp39498dc221c8f1bc0b8c1dfe4bd3662c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp39498dc221c8f1bc0b8c1dfe4bd3662c
+* title = "TEST PURPOSES ONLY - fampridine"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Fampridine Accord </li>
+<li>Sådan skal du tage Fampridine Accord </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What fampridine is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What fampridine is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fampridine Accord indeholder det aktive stof fampridin, som tilhører en gruppe lægemidler, der 
+kaldes kaliumkanal-blokkere. Deres funktion er at forhindre kalium i at forlade de nerveceller, som er 
+blevet beskadiget af MS. Det antages, at lægemidlet virker ved at lade signaler passere mere normalt 
+ned gennem nerven, hvilket giver dig mulighed for at gå bedre. </p>
+<p>Fampridine Accord er et lægemiddel, der anvendes til at forbedre gangfunktionen hos voksne (18 år 
+og ældre) med gangproblemer grundet multipel sklerose (MS). Ved multipel sklerose ødelægger en 
+betændelsestilstand den beskyttende hinde omkring nerverne, hvilket medfører muskelsvaghed, 
+muskelstivhed og gangproblemer. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take fampridine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take fampridine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Fampridine Accord </p>
+<p>− 
+hvis du er allergisk over for fampridin eller et af de øvrige indholdsstoffer i Fampridine Accord 
+(angivet i punkt 6) 
+− 
+hvis du har kramper eller nogensinde har haft et krampeanfald (kaldes også anfald eller 
+kramper) 
+− 
+hvis din læge eller sygeplejersken har fortalt dig, at du har moderate eller svære nyreproblemer 
+− 
+hvis du tager et lægemiddel, som hedder cimetidin 
+− 
+hvis du tager andre lægemidler indeholdende fampridin. Det kan øge risikoen for alvorlige 
+bivirkninger </p>
+<p>Tal med din læge og lad være med at tage Fampridine Accord, hvis noget af dette gælder for dig. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apoteket, før du tager Fampridine Accord 
+− 
+hvis du kan mærke dine hjerteslag (har hjertebanken) 
+− 
+hvis du er tilbøjelig til at få infektioner 
+− 
+hvis der er faktorer, eller du får medicin, der påvirker din risiko for at få krampeanfald. 
+− 
+hvis din læge har fortalt dig, at du har lette nyreproblemer 
+− 
+hvis du tidligere har haft allergiske reaktioner </p>
+<p>Du skal bruge et hjælpemiddel til at gå såsom en stok efter behov. Da dette lægemiddel kan gøre dig 
+svimmel eller usikker på benene, kan det medføre en øget risiko for fald. </p>
+<p>Tal med din læge inden du tager Fampridine Accord, hvis noget af dette gælder for dig. </p>
+<p>Børn og unge </p>
+<p>Giv ikke lægemidlet til børn eller unge under 18 år. </p>
+<p>Ældre </p>
+<p>Inden du starter behandlingen og under behandlingen, vil din læge muligvis undersøge, om dine nyrer 
+fungerer, som de skal. </p>
+<p>Brug af anden medicin sammen med Fampridine Accord </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin.. </p>
+<p>Tag ikke Fampridine Accord, såfremt du tager anden medicin som indeholder fampridin. </p>
+<p>Anden medicin, som påvirker nyrerne </p>
+<p>Din læge vil være særlig forsigtig, hvis fampridin gives på samme tid som andre lægemidler, der kan 
+påvirke hvordan dine nyrer udskiller medicin, eksempelvis carvedilol, propranolol og metformin. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Fampridine Accord anbefales ikke under graviditet. </p>
+<p>Lægen vil overveje fordelene ved at behandle dig med Fampridine Accord i forhold til risikoen for dit 
+barn. </p>
+<p>Du bør ikke amme, mens du tager denne medicin. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Fampridine Accord kan påvirke evnen til at køre eller betjene maskiner, det kan forårsage 
+svimmelhed. Sørg for ikke at være påvirket, før du begynder at køre eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take fampridine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take fampridine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. Fampridine Accord er receptpligtigt og behandlingen skal forestås af læger med 
+erfaring i behandling af MS. </p>
+<p>Din læge vil starte med at udskrive medicin til 2 til 4 uger. Efter 2 til 4 uger vil behandlingen blive 
+revurderet. </p>
+<p>Den anbefalede dosis er </p>
+<p>Én tablet om morgenen og én tablet om aftenen (med 12 timers mellemrum). Tag ikke mere end to 
+tabletter om dagen. Lad der gå 12 timer mellem hver tablet. Tag ikke tabletterne oftere end hver 12. time. </p>
+<p>Fampridine Accord er til oral anvendelse. </p>
+<p>Tabletterne skal synkes hele med lidt vand. Tabletterne må hverken deles, knuses, opløses, suttes 
+eller tygges. Det kan øge bivirkningerne. </p>
+<p>Dette lægemiddel bør indtages uden mad, på tom mave. </p>
+<p>Hvis du har taget for meget Fampridine Accord 
+Kontakt straks lægen, hvis du har taget for mange tabletter. 
+Tag Fampridine Accord-æsken med til lægen. 
+Ved en overdosis kan du opleve sveden, små ufrivillige, rystende, rytmiske bevægelser (tremor), 
+svimmelhed, forvirring, hukommelsessvigt og krampeanfald. Du kan også opleve andre bivirkninger, 
+som ikke er nævnt her. </p>
+<p>Hvis du har glemt at tage Fampridine Accord 
+Hvis du har glemt at tage en tablet, må du ikke tage en dobbeltdosis som erstatning for den glemte 
+dosis. Du skal altid lade 12 timer gå mellem hver tablet. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis du får et krampeanfald, skal du omgående stoppe med at tage Fampridine Accord og 
+informere din læge herom. </p>
+<p>Hvis du oplever et eller flere af følgende symptomer på allergi (overfølsomhed): hævelse af ansigt, 
+mund, læber, hals eller tunge, hudrødme eller hudkløe, trykken for brystet og problemer med 
+vejrtrækningen, skal du stoppe med at tage Fampridine Accord og kontakte en læge med det 
+samme. </p>
+<p>Bivirkninger anføres i det følgende efter hyppighed: </p>
+<p>Meget almindelige bivirkninger </p>
+<p>Kan forekomme hos flere end 1 ud af 10 brugere: </p>
+<ul>
+<li>Urinvejsinfektion </li>
+</ul>
+<p>Almindelige bivirkninger </p>
+<p>Kan forekomme hos op til 1 ud af 10 brugere: </p>
+<ul>
+<li>
+<p>Usikkerhed på benene </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Rundtossethed (vertigo) </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Følelse af svaghed og træthed </p>
+</li>
+<li>
+<p>Søvnproblemer </p>
+</li>
+<li>
+<p>Angst </p>
+</li>
+<li>
+<p>Små ufrivillige, rystende, rytmiske bevægelser (tremor) </p>
+</li>
+<li>
+<p>Følelsesløshed eller prikken i huden </p>
+</li>
+<li>
+<p>Ondt i halsen </p>
+</li>
+<li>
+<p>Forkølelse (nasofaryngitis) </p>
+</li>
+<li>
+<p>Influenza </p>
+</li>
+<li>
+<p>Virusinfektion </p>
+</li>
+<li>
+<p>Åndedrætsbesvær (kortåndethed) </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Opkast </p>
+</li>
+<li>
+<p>Forstoppelse </p>
+</li>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Rygsmerter </p>
+</li>
+<li>
+<p>Hjertebanken, du kan mærke dine hjerteslag (palpitationer) </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger </p>
+<p>Kan forekomme hos op til 1 ud af 100 brugere </p>
+<ul>
+<li>
+<p>Krampeanfald </p>
+</li>
+<li>
+<p>Allergisk reaktion (overfølsomhed) </p>
+</li>
+<li>
+<p>Svær allergi (anafylaktisk reaktion) </p>
+</li>
+<li>
+<p>Hævelse af ansigt, læber, mund eller tunge (angioødem) </p>
+</li>
+<li>
+<p>Fremkomst af nye eller forværring af nervesmerter i ansigtet (trigeminusneuralgi) </p>
+</li>
+<li>
+<p>Hurtige hjerteslag (takykardi) </p>
+</li>
+<li>
+<p>Svimmelhed eller bevidsthedstab (hypotension) </p>
+</li>
+<li>
+<p>Udslæt/kløende udslæt (urticaria) </p>
+</li>
+<li>
+<p>Brystgener </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store fampridine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store fampridine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringen af dette lægemiddel. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fampridine Accord indeholder: </p>
+<p>− 
+Det aktive stof er fampridin. 
+− 
+Hver depottablet indeholder 10 mg fampridin 
+− 
+Øvrige indholdsstoffer: 
+− 
+Tabletkerne: hypromellose (E464), kolloid vandfri silica (E551), mikrokrystallinsk 
+cellulose (E460), magnesiumstearat (E572) 
+− 
+Filmovertræk: hypromellose (E464), titandioxid (E171), macrogol (E1521) </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Hvide til offwhite, ovale, bikonvekse filmovertrukne tabletter med facetslebne kanter, ca. 
+13,1 x 8,1 mm, præget med ‘FH6’ på den ene side og jævne på den anden side. </p>
+<p>Fampridine Accord 10 mg depottabletter er pakket i perforerede enhedsdosisblisterpakninger 
+indeholdende 28 x 1 eller 56 x 1 tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Accord Healthcare S.L.U. 
+World Trade Center, Moll de Barcelona s/n,<br />
+Edifici Est, 6a Planta,<br />
+Barcelona, 08Spanien </p>
+<p>Fremstiller </p>
+<p>Accord Healthcare Polska Sp.z.o.o. 
+Ul. Lutomierska 50, 
+95-200, Pabianice, Polen </p>
+<p>Pharmadox Healthcare Ltd. 
+KW20A Kordin Industrial Park, Paola PLA3000, Malta </p>
+<p>Laboratori Fundació DAU 
+C/ C, 12-14 Pol. Ind. Zona Franca, 08040 Barcelona, Spanien </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-63de51a4556de5e7a2f7d84ffc03fbf9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fampridine Package Leaflet for language en"
+Description: "ePI document Bundle for fampridine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-63de51a4556de5e7a2f7d84ffc03fbf9"
+* entry[0].resource = composition-en-63de51a4556de5e7a2f7d84ffc03fbf9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp63de51a4556de5e7a2f7d84ffc03fbf9"
+* entry[=].resource = mp63de51a4556de5e7a2f7d84ffc03fbf9
+                            
+                    
+Instance: bundlepackageleaflet-da-63de51a4556de5e7a2f7d84ffc03fbf9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fampridine Package Leaflet for language da"
+Description: "ePI document Bundle for fampridine Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-63de51a4556de5e7a2f7d84ffc03fbf9"
+* entry[0].resource = composition-da-63de51a4556de5e7a2f7d84ffc03fbf9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp63de51a4556de5e7a2f7d84ffc03fbf9"
+* entry[=].resource = mp63de51a4556de5e7a2f7d84ffc03fbf9
+                            
+                    
+
+
+
+Instance: mp63de51a4556de5e7a2f7d84ffc03fbf9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Fampridine Accord 10 mg prolonged-release tablets"
-Description: "Fampridine Accord 10 mg prolonged-release tablets"
+Title: "Medicinal Product fampridine"
+Description: "fampridine"
 Usage: #inline
 
  
@@ -282,7 +680,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Fampridine Accord 10 mg prolonged-release tablets"
+  * productName = "fampridine"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -309,29 +707,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-63de51a4556de5e7a2f7d84ffc03fbf9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for fampridine Package Leaflet for language en"
-Description: "ePI document Bundle for fampridine Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 63de51a4556de5e7a2f7d84ffc03fbf9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1477/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "fampridine"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-63de51a4556de5e7a2f7d84ffc03fbf9"
-* entry[0].resource = composition-en-63de51a4556de5e7a2f7d84ffc03fbf9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp39498dc221c8f1bc0b8c1dfe4bd3662c"
-* entry[=].resource = mp39498dc221c8f1bc0b8c1dfe4bd3662c
-                            
-                      
+* title = "List of all ePIs associated with fampridine"
+
+* subject = Reference(mp39498dc221c8f1bc0b8c1dfe4bd3662c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#fampridine "fampridine"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-63de51a4556de5e7a2f7d84ffc03fbf9) // fampridine en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-63de51a4556de5e7a2f7d84ffc03fbf9) // fampridine da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-63de51a4556de5e7a2f7d84ffc03fbf9
+InstanceOf: List
+
+* insert 63de51a4556de5e7a2f7d84ffc03fbf9ListRuleset
+    

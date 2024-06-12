@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-884e29a6cd7c9a1e73fd7a991d441624
 InstanceOf: CompositionUvEpi
 Title: "Composition for mysimba Package Leaflet"
@@ -544,12 +547,751 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-884e29a6cd7c9a1e73fd7a991d441624
+InstanceOf: CompositionUvEpi
+Title: "Composition for mysimba Package Leaflet"
+Description:  "Composition for mysimba Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7010598fca75eedca64d0579dba22662)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7010598fca75eedca64d0579dba22662
+* title = "TEST PURPOSES ONLY - mysimba"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Mysimba 
+3. Sådan skal du tage Mysimba 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What mysimba is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What mysimba is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mysimba indeholder 2 aktive stoffer: naltrexon-hydrochlorid og bupropion-hydrochlorid og anvendes 
+hos svært overvægtige eller overvægtige voksne til at håndtere vægt sammen med en kalorienedsat 
+kost og motion. Dette lægemiddel virker på områder i hjernen, der er involveret i kontrollen af 
+fødeindtagelse og energiforbrug. </p>
+<p>Svær overvægt hos voksne over 18 år er defineret som et BMI (body mass index) på mere end eller lig 
+med 30 og overvægt hos voksne over 18 år er defineret som et BMI på mere end eller lig med 27 og 
+mindre end 30. BMI beregnes som den målte kropsvægt (kg) divideret med den målte højde i 
+anden (m2). </p>
+<p>Mysimba er godkendt til brug hos patienter med et indledende BMI på 30 eller mere. Det kan også 
+gives til dem med et BMI på mellem 27 og 30, hvis de har yderligere vægt-relaterede sygdomme som 
+kontrolleret forhøjet blodtryk (hypertension), type 2-diabetes eller højt lipid (fedt) i blodet. </p>
+<p>Mysimba kan afbrydes af din læge efter 16 uger, hvis du ikke har tabt mindst 5 procent af din 
+oprindelige kropsvægt. Din læge kan også anbefale, at behandlingen afbrydes, hvis der er bekymringer 
+vedr. forhøjet blodtryk eller andre bekymringer med dette lægemiddels sikkerhed eller tolerabilitet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take mysimba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take mysimba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Mysimba:</p>
+<ul>
+<li>hvis du er allergisk over for naltrexon, bupropion eller et af de øvrige indholdsstoffer i Mysimba 
+(angivet i punkt 6). </li>
+<li>hvis du har et unormalt højt blodtryk (hypertension), der ikke kan kontrolleres med et 
+lægemiddel; </li>
+<li>hvis du har en tilstand, der forårsager anfald (krampeanfald), eller hvis du har en sygehistorik </li>
+</ul>
+<p>med krampeanfald; 
+- hvis du har en hjernesvulst; 
+- hvis du som regel drikker meget, og du netop er holdt op med at drikke alkohol, eller kommer til 
+at stoppe, mens du tager Mysimba; 
+- hvis du for nylig er holdt op med at tage beroligende midler eller medicin til behandling af angst 
+(især benzodiazepiner), eller hvis du kommer til at holde op med at tage dem, mens du tager 
+Mysimba; 
+- hvis du har eller har haft en bipolar lidelse (ekstreme humørsvingninger); 
+- hvis du bruger anden medicin, som indeholder bupropion eller naltrexon; 
+- hvis du har en spiseforstyrrelse eller havde en tidligere (fx. bulimi eller anoreksi); 
+- hvis du i øjeblikket er afhængig af kroniske opiater eller opiatagonister (fx. metadon), eller du 
+gennemgår en akut afvænning (kold tyrker); 
+- hvis du tager medicin mod depression eller Parkinsons sygdom kaldet 
+monoaminooxidasehæmmere (MAO-hæmmere) eller har taget dem i de sidste 14 dage; 
+- hvis du har alvorlig leversygdom; 
+- hvis du har nyresygdom i terminalfasen. </p>
+<p>Advarsler og forsigtighedsregler 
+Fortæl det til lægen eller på apoteket før du tager Mysimba. 
+Dette er vigtigt, fordi nogle forhold gør det mere sandsynligt, at du kunne få bivirkninger (se også 
+punkt 4). </p>
+<p>Hvis du føler dig deprimeret, overvejer selvmord, har en historik med at forsøge selvmord, 
+panikanfald eller andre psykiske problemer, skal du informere din læge, før du tager dette 
+lægemiddel. </p>
+<p>Anfald (kramper) 
+Mysimba har vist sig at forårsage anfald (krampeanfald) i op til 1 ud af 1.000 patienter (se også 
+punkt 4). Du bør informere din læge, før du tager dette lægemiddel: </p>
+<ul>
+<li>
+<p>hvis du har haft en alvorlig skade i hovedet eller hovedtraume; </p>
+</li>
+<li>
+<p>hvis du jævnligt drikker alkohol (se “Mysimba med alkohol"); </p>
+</li>
+<li>
+<p>hvis du regelmæssigt bruger medicin til at hjælpe dig med at sove (beroligende midler); </p>
+</li>
+<li>
+<p>hvis du i øjeblikket er afhængig af kokain eller andre stimulerende midler; </p>
+</li>
+<li>
+<p>hvis du har diabetes, som du bruger insulin eller oral medicin til, der kan forårsage lavt 
+sukkerindhold i blodet (hypoglykæmi); eller </p>
+</li>
+<li>
+<p>hvis du tager medicin, der kan øge risikoen for anfald (se “Brug af anden medicin sammen med 
+Mysimba"). 
+Hvis du får et krampeanfald, bør du stoppe med at tage Mysimba og straks kontakte din læge. </p>
+</li>
+</ul>
+<p>Overfølsomhedsreaktioner </p>
+<p>Du bør straks stoppe med at tage Mysimba og kontakte din læge, hvis du får symptomer på en 
+allergisk reaktion såsom hævelse af hals, tunge, læber eller ansigt, synkebesvær eller 
+vejrtrækningsbesvær, svimmelhed, feber, udslæt, smerter i leddene eller i musklerne, kløe eller 
+nældefeber efter indtagelse af denne medicin (se også punkt 4). </p>
+<p>Der er rapporteret alvorlige hudreaktioner, herunder Stevens-Johnsons syndrom og akut 
+generaliseret eksantematøs pustulose (AGEP), i forbindelse med Mysimba-behandling. Stop 
+med at bruge Mysimba og søg straks lægehjælp, hvis du bemærker nogen af symptomerne 
+relateret til disse alvorlige hudreaktioner beskrevet i punkt 4. Du bør tale med din læge, især hvis: </p>
+<ul>
+<li>
+<p>du har forhøjet blodtryk, før du tager Mysimba, fordi det kan blive værre. Du vil få målt dit 
+blodtryk og din puls, før du begynder at tage Mysimba og mens du tager det. Hvis dit blodtryk 
+eller din puls stiger betydeligt, så kan det være nødvendigt at stoppe med Mysimba. </p>
+</li>
+<li>
+<p>du har ukontrolleret koronararteriesygdom (en hjertesygdom forårsaget af dårlig </p>
+</li>
+</ul>
+<p>blodgennemstrømning i blodkarrene i hjertet) med symptomer som angina (karakteriseret ved 
+brystsmerter) eller et nyligt hjerteanfald. </p>
+<ul>
+<li>
+<p>du allerede har eller har haft en sygdom, der påvirker blodcirkulationen i hjernen 
+(cerebrovaskulær sygdom). </p>
+</li>
+<li>
+<p>du har nogen form for leverproblemer, før du starter med Mysimba. </p>
+</li>
+<li>
+<p>du har nogen form for nyreproblemer, før du starter med Mysimba. </p>
+</li>
+<li>
+<p>du har en sygehistorik med mani (følelse af at være opstemt eller eksalteret, som forårsager 
+usædvanlig opførsel). </p>
+</li>
+<li>
+<p>Hvis du tager medicin mod depression, kan brugen af disse lægemidler sammen med Mysimba føre 
+til serotoninsyndrom, en potentielt livstruende tilstand (se “Brug af anden medicin sammen med 
+Mysimba" under dette pkt. og pkt. 4.) </p>
+</li>
+</ul>
+<p>Brugada-syndrom 
+- hvis du har en tilstand kaldet Brugada-syndrom (et sjældent arveligt syndrom, der påvirker 
+hjerterytmen), eller hvis hjertestop eller pludselig død er opstået i din familie. </p>
+<p>Ældre personer 
+Vær forsigtig med brug af Mysimba, hvis du er 65 år eller ældre. Mysimba frarådes, hvis du er 
+over 75 år. </p>
+<p>Børn og unge 
+Der er ikke udført undersøgelser hos børn og unge under 18 år. Mysimba bør derfor ikke anvendes til 
+børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Mysimba 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. </p>
+<p>Tag ikke Mysimba sammen med: </p>
+<ul>
+<li>
+<p>Monoaminooxidasehæmmere (medicin til behandling af depression eller Parkinsons sygdom), 
+såsom phenelzin, selegilin eller rasagilin. Du skal stoppe med at tage disse lægemidler 
+mindst 14 dage før du begynder at tage Mysimba (se “Tag ikke Mysimba"). </p>
+</li>
+<li>
+<p>Opiater og opiat-lægemidler for eksempel til behandling af hoste og forkølelse (såsom 
+blandinger, der indeholder dextromethorphan eller kodein), opiatafhængighed (såsom metadon), 
+smerter (fx.morfin og kodein), diarré (fx. paregoric). Du skal være stoppet med at tage nogen 
+form for opiat-lægemidler mindst 7-10 dage før du begynder at tage Mysimba. Din læge kan 
+foretage en blodprøve for at sikre, at din krop har udskilt disse lægemidler, før du starter din 
+behandling. Naltrexon blokerer virkningerne af opiater. Hvis du tager højere doser af opiater for 
+at overvinde disse virkninger af naltrexon, kan du risikere en akut opiat-forgiftning, hvilket kan 
+være livstruende. Når du stopper behandlingen med Mysimba, kan du blive mere følsom over 
+for lave doser af opiater (se “Tag ikke Mysimba"). </p>
+</li>
+</ul>
+<p>Fortæl lægen, hvis du tager nogen af følgende lægemidler, da din læge så vil overvåge dig tæt 
+for bivirkninger: </p>
+<ul>
+<li>
+<p>Lægemidler, der kan, når det anvendes alene eller i kombination med naltrexon/bupropion, øge 
+risikoen for krampeanfald som fx.: </p>
+</li>
+<li>
+<p>lægemidler mod depression og andre psykiske problemer </p>
+</li>
+<li>
+<p>steroider (undtagen dråber, cremer eller lotion til øjen- og hudsygdomme eller inhalatorer 
+til vejrtrækningslidelser som astma) </p>
+</li>
+<li>
+<p>lægemidler, der anvendes til at forebygge malaria </p>
+</li>
+<li>
+<p>quinoloner (antibiotika, såsom ciprofloxacin til behandling af infektioner) </p>
+</li>
+<li>
+<p>tramadol (et smertestillende middel, tilhører klassen af opiater) </p>
+</li>
+<li>
+<p>teofyllin (bruges til behandling af astma) </p>
+</li>
+<li>
+<p>antihistaminer (lægemidler til behandling af høfeber, kløe og andre allergiske reaktioner), 
+der forårsager søvnighed (som fx. klorfenamin), lægemidler der sænker sukker i blodet 
+(såsom insulin, sulfonylurinstoffer som fx. glyburid eller glibenclamid, og meglitinider 
+som fx. nateglinid eller repaglinid) </p>
+</li>
+<li>
+<p>lægemidler der hjælper dig med at sove (beroligende midler såsom diazepam) </p>
+</li>
+<li>
+<p>Lægemidler til behandling af depression (såsom amitriptylin, desipramin, imipramin, 
+venlafaxin, paroxetin, fluoxetin, citalopram, escitalopram) eller andre psykiske problemer 
+(såsom risperidon, haloperidol, thioridazin). Mysimba og nogle lægemidler, der anvendes til 
+behandling af depression, kan påvirke hinanden, og du kan opleve et såkaldt serotoninsyndrom. 
+Symptomerne er ændringer i mental status (f.eks. rastløs uro, hallucinationer, koma) og andre 
+virkninger, såsom kropstemperatur over 38 °C, stigning i pulsen, ustabilt blodtryk og 
+overdrevne reflekser, muskelstivhed, manglende koordination og/eller mave-tarm symptomer 
+(f.eks. kvalme, opkastning, diarré) (se pkt. 4.) </p>
+</li>
+<li>
+<p>Nogle lægemidler til behandling af forhøjet blodtryk (betablokkere, såsom metoprolol, og 
+clonidin, et centralt virkende antihypertensiv) </p>
+</li>
+<li>
+<p>Nogle lægemidler til behandling af uregelmæssig hjerterytme (fx. propafenon, flecainid) </p>
+</li>
+<li>
+<p>Nogle lægemidler til behandling af kræft (fx. cyclofospamid, ifosfamid, tamoxifen) </p>
+</li>
+<li>
+<p>Nogle lægemidler mod Parkinsons sygdom (såsom levodopa, amantadin eller orphenadrin) </p>
+</li>
+<li>
+<p>Ticlopidin eller clopidogrel, hovedsagelig til behandling af hjertesygdomme eller slagtilfælde </p>
+</li>
+<li>
+<p>Lægemidler til behandling af HIV-infektion og AIDS, såsom efavirenz og ritonavir </p>
+</li>
+<li>
+<p>Lægemidler til behandling af epilepsi, såsom valproat, carbamazepin, phenytoin eller 
+phenobarbital. </p>
+</li>
+</ul>
+<p>Din læge vil nøje overvåge dig for bivirkninger og/eller vil måske justere dosis af de andre 
+lægemidler eller Mysimba. </p>
+<p>Mysimba kan gøre andre lægemidler mindre effektive, når de tages samtidigt: </p>
+<ul>
+<li>Hvis du tager digoxin for hjertet 
+Hvis det gælder for dig, skal du fortælle det til din læge. Lægen kan overveje at justere din dosis af 
+digoxin. </li>
+</ul>
+<p>Brug af Mysimba sammen med alkohol 
+Overdreven brug af alkohol under behandling med Mysimba kan øge risikoen for krampeanfald, 
+tilfælde af mental ubalance eller kan nedsætte alkoholtolerance. Din læge kan foreslå, at du ikke 
+drikker alkohol, mens du tager Mysimba, eller prøver at drikke så lidt som muligt. Hvis du drikker 
+meget nu, så må du ikke bare stoppe pludseligt, fordi det kan øge din risiko for at få et krampeanfald. </p>
+<p>Graviditet, amning og fertilitet 
+Mysimba bør ikke anvendes under graviditet eller af kvinder, der på nuværende tidspunkt planlægger 
+at blive gravide, eller under amning. 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Spørg din læge til råds, før du fører motorkøretøj og betjener maskiner, da Mysimba kan gøre dig 
+svimmel og søvnig, hvilket kan svække din evne til at koncentrere dig og reagere. </p>
+<p>Undlad at føre motorkøretøj, bruge værktøjer eller maskiner og udfør ikke farlige aktiviteter, indtil du 
+ved, hvordan dette lægemiddel påvirker dig. </p>
+<p>Hvis du oplever, at du besvimer, får muskelsvaghed eller krampeanfald under behandling, må du ikke 
+føre motorkøretøj eller betjene maskiner. </p>
+<p>Hvis du er i tvivl, skal du tale med din læge, som kan overveje at afbryde behandlingen, afhængigt af 
+din situation. </p>
+<p>Mysimba indeholder laktose (et sukkerstof). 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take mysimba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take mysimba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller på apoteket. </p>
+<p>Startdosis er normalt én tablet (8 mg naltrexon / 90 mg bupropion-hydrochlorid) én gang dagligt om 
+morgenen. Dosis vil blive gradvist tilpasset på følgende måde: </p>
+<ul>
+<li>
+<p>Uge 1: Én tablet dagligt om morgenen </p>
+</li>
+<li>
+<p>Uge 2: To tabletter hver dag, dvs. én tablet om morgenen og én tablet om aftenen </p>
+</li>
+<li>
+<p>Uge 3: Tre tabletter hver dag, dvs. to tabletter om morgenen og én tablet om aftenen </p>
+</li>
+<li>
+<p>Uge 4 og fremefter: Fire tabletter hver dag, dvs. to tabletter om morgenen og to tabletter om 
+aftenen </p>
+</li>
+</ul>
+<p>Den maksimale anbefalede daglige dosis af Mysimba er to tabletter, der tages to gange om dagen. 
+Efter 16 uger og hvert år efter behandlingsstart vil din læge vurdere, om du skal fortsætte med at tage 
+Mysimba. </p>
+<p>Hvis du har problemer med din lever eller dine nyrer, eller hvis du er ældre end 65 år, og afhængig af 
+sværhedsgraden af dine problemer, kan din læge nøje overveje, om dette lægemiddel er passende for 
+dig eller anbefale, at du tager en anden dosis, og følge dig tæt for mulige bivirkninger. Din læge vil 
+muligvis teste dit blod, før du starter behandling med Mysimba, hvis du har højt blodsukker 
+(sukkersyge) eller hvis du er ældre end 65, så lægen kan beslutte, om du skal tage dette lægemiddel, 
+eller hvis du bliver nødt til at tage en anden dosis. </p>
+<p>Denne medicin er til oral brug. Synk tabletterne hele. De må ikke skæres, tygges eller knuses. 
+Tabletterne skal helst tages sammen med mad. </p>
+<p>Hvis du har taget for meget Mysimba 
+Hvis du tager for mange tabletter, kan du være mere tilbøjelige til at få et anfald eller andre 
+bivirkninger svarende til dem, der er beskrevet i punkt 4 nedenfor. Vent ikke, kontakt straks lægen 
+eller den nærmeste skadestue. </p>
+<p>Hvis du har glemt at tage Mysimba 
+Spring den glemte dosis over og tag din næste dosis på det sædvanlige tidspunkt. Du må ikke tage en 
+dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Mysimba 
+Det kan være nødvendigt at tage Mysimba i mindst 16 uger for at få den fulde virkning. Du må ikke 
+stoppe med at tage Mysimba uden at tale med lægen først. </p>
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Kontakt din læge med det samme, hvis du bemærker nogen af følgende alvorlige bivirkninger:</p>
+<ul>
+<li>Selvmordstanker og følelse af at være deprimeret 
+Hyppigheden af bivirkningerne selvmordsforsøg, selvmordsadfærd, selvmordstanker og følelse 
+af at være deprimeret er ikke kendt og kan ikke estimeres ud fra de forhåndenværende data fra 
+personer, der tager Mysimba. 
+Der har været rapporter om depression, selvmordstanker og selvmordsforsøg i løbet af 
+behandling med Mysimba. Hvis du har tanker om at skade dig selv eller andre foruroligende 
+tanker, eller hvis du er deprimeret og bemærker, at du har det værre eller udvikler nye </li>
+</ul>
+<p>symptomer, skal du straks kontakte din læge eller opsøge et hospital. 
+- Anfald (kramper): 
+Sjælden - kan påvirke op til 1 ud af 1.000 personer, der tager Mysimba, med risiko for at få et 
+anfald. 
+Symptomer på et anfald omfatter kramper og som regel tab af bevidsthed. Nogen, der har haft et 
+anfald, kan være forvirret bagefter og kan måske ikke huske, hvad der er sket. Der er større 
+sandsynlighed for anfald, hvis du tager for meget, hvis du tager anden medicin, eller hvis du har 
+en højere end normal risiko for anfald (se punkt 2). 
+- Erythema multiforme og Stevens-Johnsons syndrom 
+Ikke kendt - hyppigheden kan ikke estimeres ud fra de forhåndenværende data hos personer, der 
+tager Mysimba. Erythema multiforme er en alvorlig tilstand i huden, som kan påvirke munden 
+og andre dele af kroppen med røde, ofte kløende pletter, der starter på lemmerne. Stevens- Johnsons syndrom er en sjælden hudlidelse med alvorlige vabler og blødning i læberne, øjne, 
+mund, næse og kønsorganer. 
+-  Akut generaliseret eksantematøs pustulose 
+Ikke kendt - hyppigheden kan ikke estimeres ud fra de forhåndenværende data hos personer, der 
+tager Mysimba. Et rødt, skællende udbredt udslæt med knopper under huden og vabler ledsaget 
+af feber. Symptomerne opstår normalt ved behandlingsstart. 
+- Rhabdomyolyse 
+Ikke kendt - hyppigheden kan ikke estimeres ud fra de forhåndenværende data hos personer, der 
+tager Mysimba. Rhabdomyolyse er en unormal nedbrydning af muskelvæv, som kan føre til 
+nyreproblemer. Symptomer omfatter svære muskelkramper, muskelsmerter eller 
+muskelsvaghed. 
+- Lupus hududslæt eller forværring af lupussymptomer 
+Ikke kendt - hyppigheden kan ikke beregnes ud fra de tilgængelige data for personer, der tager 
+Mysimba. Lupus er en sygdom i immunsystemet, der påvirker huden og andre organer. Hvis du 
+oplever udbrud af lupus, hududslæt eller læsioner (især på områder, der er udsat for solen), mens 
+du tager Mysimba, skal du straks kontakte lægen, da det kan være nødvendigt at stoppe 
+behandlingen. 
+- Serotoninsyndrom, der kan komme til udtryk som ændringer i mental status (f.eks. rastløs uro, 
+hallucinationer, koma) og andre virkninger, såsom kropstemperatur over 38 °C, stigning i 
+pulsen, ustabilt blodtryk og overdrevne reflekser, muskelstivhed, manglende koordination 
+og/eller mave-tarm symptomer (f.eks. kvalme, opkastning, diarré), mens du tager Mysimba 
+sammen med medicin anvendt til behandling af depression (f.eks. paroxetin, citalopram, 
+escitalopram, fluoxetin og venlafaxin (se punkt 2). 
+Ikke kendt - hyppigheden kan ikke beregnes ud fra de tilgængelige data hos personer, der tager 
+Mysimba. </p>
+<p>Andre bivirkninger omfatter: </p>
+<p>Meget almindelige bivirkninger (påvirker mere end 1 ud af 10 personer):</p>
+<ul>
+<li>Kvalme eller opkastning </li>
+<li>Forstoppelse </li>
+<li>Hovedpine </li>
+</ul>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer):</p>
+<ul>
+<li>Angst </li>
+<li>Svimmelhed, følelse af svimmelhed eller “snurren rundt" (vertigo) </li>
+<li>Følelse af rystelser (tremor) </li>
+<li>Søvnbesvær (tag ikke Mysimba lige inden sengetid) </li>
+<li>Ændringer i smagen af mad (smagsforstyrrelser), mundtørhed </li>
+<li>Koncentrationsbesvær </li>
+<li>Følelse af træthed (energiløshed) og søvnighed, sløvhed eller mangel på energi (letargi) </li>
+<li>Ringen for ørerne (tinnitus) </li>
+<li>Hurtig eller uregelmæssig hjerterytme </li>
+<li>Hedeture </li>
+<li>
+<p>Forhøjet blodtryk (nogle gange alvorligt) </p>
+</li>
+<li>
+<p>Smerter i den øvre del af maven </p>
+</li>
+<li>Mavesmerter </li>
+<li>Øget svedproduktion (hyperhidrosis) </li>
+<li>Udslæt, kløe (pruritus) </li>
+<li>Hårtab (alopeci) </li>
+<li>Irritabilitet </li>
+<li>Nervøsitet </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 personer):</p>
+<ul>
+<li>Nældefeber (uticaria) </li>
+<li>Overfølsomhed </li>
+<li>Unormale drømme </li>
+<li>Følelse af nervøsitet, følelse af at være excentrisk, anspændthed, ophidselse, humørsvingninger, </li>
+<li>Hovedrysten eller rystelser i arme eller ben, der øges, når man forsøger at udføre en bestemt 
+funktion (intention tremor) </li>
+<li>Balance-lidelse </li>
+<li>Hukommelsestab (amnesi) </li>
+<li>Prikken eller følelsesløshed i hænder eller fødder </li>
+<li>Transportsyge </li>
+<li>Bøvsen </li>
+<li>Maveubehag </li>
+<li>Fordøjelsesbesvær </li>
+<li>Betændelse i galdeblæren (cholecystitis) </li>
+<li>Øgede kreatininniveauer i blodet (hvilket indikerer tab af nyrefunktion) </li>
+<li>Forhøjede leverenzymer og bilirubin-niveauer, leversygdomme </li>
+<li>Vanskeligheder ved at få eller bevare en erektion </li>
+<li>Følelse af at være unormal, svaghed (asteni) </li>
+<li>Tørst, varmefølelse </li>
+<li>Brystsmerter </li>
+<li>Øget appetit, vægtøgning </li>
+</ul>
+<p>Sjældne bivirkninger (kan påvirke op til 1 ud af 1.000 personer):</p>
+<ul>
+<li>Lavt indhold a visse hvide blodlegemer (nedsat lymfocyttal) </li>
+<li>Nedsat hæmatokrit (hvilket indikerer tab af røde blodlegemer) </li>
+<li>Hævelse af øjenlåg, ansigt, læber, tunge eller hals, som kan forårsage store vanskeligheder med 
+at trække vejret (angioødem) </li>
+<li>Omfattende tab af kropsvæske (dehydrering) </li>
+<li>Hallucinationer </li>
+<li>Besvimelse, bevidsthedstab, være lige ved at besvime (præsynkope) </li>
+<li>Krampeanfald </li>
+<li>Passage af frisk blod gennem anus, som regel i eller med afføring (hæmatokezi) </li>
+<li>Fremhvælvning af et organ eller væv, der omfatter et organ gennem væggen af hulrummet, som 
+normalt indeholder det (brok) </li>
+<li>Tandpine </li>
+<li>Huller i tænderne </li>
+<li>Smerter i den nedre del af maven </li>
+<li>Leverskade på grund af lægemiddelforgiftning </li>
+<li>Kæbesmerter </li>
+<li>En lidelse, som er præget af en pludselig tvingende trang til at urinere (imperiøs vandladning) </li>
+<li>Uregelmæssig menstruationscyklus, vaginal blødning, tørhed i kvindens vulva eller skede </li>
+<li>Kolde ekstremiteter (hænder, fødder) </li>
+</ul>
+<p>Ikke kendte bivirkninger (hyppighed kan ikke estimeres ud fra forhåndenværende data):</p>
+<ul>
+<li>Hævede kirtler i hals, armhuler eller lyske (lymfadenopati) </li>
+<li>Humørsygdomme </li>
+<li>Irrationelle tanker (vrangforestillinger) </li>
+<li>
+<p>Psykose </p>
+</li>
+<li>
+<p>Følelse af akut og invaliderende angst (panikanfald) </p>
+</li>
+<li>Tab af seksuel lyst </li>
+<li>Følelse af fjendtlighed </li>
+<li>Overdreven mistanke (paranoia) </li>
+<li>Aggression </li>
+<li>Opmærksomhedsforstyrrelse </li>
+<li>Mareridt </li>
+<li>Forvirring, desorientering </li>
+<li>Hukommelsesbesvær </li>
+<li>Rastløshed </li>
+<li>Muskelstivhed, ukontrollerede bevægelser, problemer med gang eller koordination </li>
+<li>Sløret syn, øjensmerter, øjenirritation, hævelse af øjne, vandige øjne, øget følsomhed over for 
+lys (fotofobi) </li>
+<li>Øresmerter, ubehag i øret </li>
+<li>
+<ul>
+<li>Vejrtrækningsbesvær </li>
+</ul>
+</li>
+<li>Ubehag i næsen, tilstoppet næse, løbenæse, nysen, bihuleforstyrrelser </li>
+<li>Ondt i halsen, stemmeforstyrrelse, hosten, gaben </li>
+<li>Hæmorroider, mavesår </li>
+<li>Diarré </li>
+<li>Luftafgang fra tarmen (flatulens) </li>
+<li>Leverbetændelse </li>
+<li>Acne </li>
+<li>Lyskesmerter </li>
+<li>Muskelsmerter </li>
+<li>Ledsmerter </li>
+<li>Unormalt hyppig vandladning, smertefuld vandladning </li>
+<li>Kuldegysninger </li>
+<li>Øget energi </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke fremgår af denne indlægsseddel. Du kan også indberette bivirkninger direkte til 
+Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendix V. Ved at indrapportere 
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store mysimba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mysimba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blister efter Exp. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares over 30°C. </p>
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden. Spørg på 
+apoteket, hvordan du skal bortskaffe medicinrester. Disse forholdsregler er med til at beskytte miljøet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mysimba indeholder:</p>
+<ul>
+<li>Aktivt stof/aktive stoffer: naltrexonhydrochlorid og bupropionhydrochlorid. Hver tablet 
+indeholder 8 mg naltrexon-hydrochlorid, svarende til 7,2 mg naltrexon og 90 mg bupropion- hydrochlorid, hvilket svarer til 78 mg bupropion. </li>
+<li>Øvrige indholdsstoffer: </li>
+</ul>
+<p>Tabletkerne: mikrokrystallinsk cellulose, hydroxypropylcellulose, vandfri laktose, 
+laktosemonohydrat (se punkt 2 “Mysimba indeholder laktose"), cysteinhydrochlorid, 
+crospovidon type A, magnesiumstearat, hypromellose, dinatriumedetat, kolloidt siliciumdioxid, 
+og indigocarmin aluminium lake (E132). Filmovertræk: polyvinylalkohol, titandioxid (E171), 
+macrogol 3350, talkum og indigo carmine aluminium lake (E132). </p>
+<p>Udseende og pakningsstørrelser 
+Mysimba depottabletter er blå, bikonvekse, runde tabletter præget med “NB-890" på den ene side. 
+Mysimba er tilgængelige i pakninger, der indeholder 28, 112 tabletter. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Orexigen Therapeutics Ireland Limited 
+2nd Floor 
+Palmerston House, Fenian Street 
+Dublin 2 
+Irland </p>
+<p>Producent </p>
+<p>MIAS Pharma Ltd 
+Suite 1 Stafford House, Strand Road, Portmarnock, Co. Dublin, 
+Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+GOODLIFE Pharma SA/NV 
+Tel. +3280079Lietuva 
+B-LINK PHARMA UAB 
+Tel: 0880033България 
+PharmaSwiss EOOD 
+Teл.: 008001100Luxembourg/Luxemburg 
+GOODLIFE Pharma SA/NV 
+Tel. +352 800 23Česká republika 
+PharmaSwiss Česká republika s.r.o. 
+Tel: +42800202Magyarország 
+Bausch Health Magyarország Kft. 
+Tel: +36 680014Danmark 
+Navamedic AB 
+Tel.+4580253 
+Malta 
+Orexigen Therapeutics Ireland Limited 
+Tel. +44 1223771Deutschland 
+Orexigen Therapeutics Ireland Limited 
+Tel. +44 1223771Nederland 
+Goodlife Endocrinologie BV 
+Tel. 8000200Eesti 
+B-LINK PHARMA UAB 
+Tel: 8000112Norge 
+Navamedic AB 
+Tel. 800 315 Ελλάδα 
+WIN MEDICA S.A. 
+Τηλ: +30 8003252Österreich 
+Kwizda Pharma GmbH 
+Tel. +43800232 
+España 
+Orexigen Therapeutics Ireland Limited 
+Tel. +34 900 808 Polska 
+Bausch Health Poland sp. z o.o. 
+Tel.: +48 800999France 
+Orexigen Therapeutics Ireland Limited 
+Tel. +33 805543Portugal 
+Laboratório Medinfar - Produtos Farmacêuticos, S.A. 
+Tel. +351800509Hrvatska 
+Orexigen Therapeutics Ireland Limited 
+Tel. 0800200România 
+Orexigen Therapeutics Ireland Limited 
+Tel. 0040800896 
+Ireland 
+Consilient Health Limited 
+Tel. +3531800849 
+Slovenija 
+Orexigen Therapeutics Ireland Limited 
+Tel. +38680083Ísland 
+Navamedic AB 
+Tel. 8004 
+Slovenská republika 
+Bausch Health Slovakia s.r.o. 
+Tel: +42800601Italia 
+Bruno Farmaceutici S.p.A. 
+Tel. +39800187Suomi/Finland 
+Navamedic AB 
+Puh. 0800416203<br />
+Κύπρος 
+C.G.Papaloisou Ltd 
+Tel: +35780091 
+Sverige 
+Navamedic AB 
+Tel.+46200336Latvija 
+B-LINK PHARMA UAB 
+Tel: 80005 
+United Kingdom (Northern Ireland) 
+Orexigen Therapeutics Ireland Limited 
+Tel. +44 20 3966 0Liechtenstein 
+Orexigen Therapeutics Ireland Limited 
+Tel. +49 89121409 
+Denne indlægsseddel blev senest ændret. 
+Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<p>Bilag IV 
+Videnskabelige konklusioner og begrundelser for ændring af betingelserne for 
+markedsføringstilladelsen/-tilladelserne </p>
+<p>Videnskabelige konklusioner </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR’en/PSUR’erne for naltrexon/bupropion 
+er CHMP nået frem til følgende videnskabelige konklusioner: 
+ I lyset af tilgængelige data om akut generaliseret eksantematøs pustulose (AGEP), herunder fire 
+tilfælde med et tæt tidsmæssigt forhold og, understøttet af data for monostoffet bupropion, mener 
+PRAC, at en årsagssammenhæng mellem naltrexon/bupropion og AGEP i det mindste er en rimelig 
+mulighed. 
+ PRAC konkluderede, at produktinformationen for produkter indeholdende naltrexon/bupropion bør 
+ændres i overensstemmelse hermed. CHMP tilslutter sig PRAC's videnskabelige konklusioner. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
+<p>På baggrund af de videnskabelige konklusioner for naltrexon/bupropion er CHMP af den opfattelse, 
+at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder naltrexon/bupropion, 
+forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i 
+produktinformationen. 
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-884e29a6cd7c9a1e73fd7a991d441624
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mysimba Package Leaflet for language en"
+Description: "ePI document Bundle for mysimba Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-884e29a6cd7c9a1e73fd7a991d441624"
+* entry[0].resource = composition-en-884e29a6cd7c9a1e73fd7a991d441624
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp884e29a6cd7c9a1e73fd7a991d441624"
+* entry[=].resource = mp884e29a6cd7c9a1e73fd7a991d441624
+                            
+                    
+Instance: bundlepackageleaflet-da-884e29a6cd7c9a1e73fd7a991d441624
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mysimba Package Leaflet for language da"
+Description: "ePI document Bundle for mysimba Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-884e29a6cd7c9a1e73fd7a991d441624"
+* entry[0].resource = composition-da-884e29a6cd7c9a1e73fd7a991d441624
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp884e29a6cd7c9a1e73fd7a991d441624"
+* entry[=].resource = mp884e29a6cd7c9a1e73fd7a991d441624
+                            
+                    
+
+
+
+Instance: mp884e29a6cd7c9a1e73fd7a991d441624
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Mysimba 8 mg/90 mg prolonged-release tablets"
-Description: "Mysimba 8 mg/90 mg prolonged-release tablets"
+Title: "Medicinal Product mysimba"
+Description: "mysimba"
 Usage: #inline
 
  
@@ -569,7 +1311,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Mysimba 8 mg/90 mg prolonged-release tablets"
+  * productName = "mysimba"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -596,29 +1338,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-884e29a6cd7c9a1e73fd7a991d441624
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for mysimba Package Leaflet for language en"
-Description: "ePI document Bundle for mysimba Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 884e29a6cd7c9a1e73fd7a991d441624ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/988/001-002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "mysimba"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-884e29a6cd7c9a1e73fd7a991d441624"
-* entry[0].resource = composition-en-884e29a6cd7c9a1e73fd7a991d441624
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7010598fca75eedca64d0579dba22662"
-* entry[=].resource = mp7010598fca75eedca64d0579dba22662
-                            
-                      
+* title = "List of all ePIs associated with mysimba"
+
+* subject = Reference(mp7010598fca75eedca64d0579dba22662)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#mysimba "mysimba"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-884e29a6cd7c9a1e73fd7a991d441624) // mysimba en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-884e29a6cd7c9a1e73fd7a991d441624) // mysimba da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-884e29a6cd7c9a1e73fd7a991d441624
+InstanceOf: List
+
+* insert 884e29a6cd7c9a1e73fd7a991d441624ListRuleset
+    

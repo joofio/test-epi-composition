@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d4e8178d3a905eabdd581f1645891fb4
 InstanceOf: CompositionUvEpi
 Title: "Composition for prevymis Package Leaflet"
@@ -374,12 +377,586 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-d4e8178d3a905eabdd581f1645891fb4
+InstanceOf: CompositionUvEpi
+Title: "Composition for prevymis Package Leaflet"
+Description:  "Composition for prevymis Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbfc2b9171745ce6362620331b99ad218)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbfc2b9171745ce6362620331b99ad218
+* title = "TEST PURPOSES ONLY - prevymis"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Prevymis
+3. Sådan skal du tage Prevymis
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What prevymis is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What prevymis is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prevymis er et antiviralt (virusbekæmpende) receptpligtigt lægemiddel, der indeholder det aktive stof
+letermovir. 
+Prevymis er et lægemiddel til voksne, som for nylig har gennemgået en stamcelle (knoglemarvs)-
+transplantation eller en nyretransplantation. Lægemidlet hjælper med at forhindre, at du bliver syg af
+CMV (‘cytomegalovirus’).
+CMV er en virus. Hos de fleste personer skader CMV-virus dem ikke. Hvis du har et svækket
+immunsystem, efter at du har gennemgået en stamcelletransplantation eller en nyretransplantation, kan
+du imidlertid have en høj risiko for CMV-sygdom.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take prevymis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take prevymis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Prevymis</p>
+<ul>
+<li>
+<p>hvis du er allergisk over for letermovir eller et af de øvrige indholdsstoffer i Prevymis (angivet i
+punkt 6).</p>
+</li>
+<li>
+<p>hvis du tager et eller flere af disse lægemidler:<em> 
+pimozid - anvendes mod Tourettes syndrom</em> 
+sekalealkaloider (f.eks. ergotamin og dihydroergotamin) - anvendes mod
+migrænehovedpiner.</p>
+</li>
+<li>
+<p>hvis du tager følgende naturlægemiddel:<em> 
+perikon (Hypericum perforatum).
+Tag ikke Prevymis, hvis noget af ovenstående gælder for dig. Hvis du er i tvivl, så kontakt lægen,
+apotekspersonalet eller sygeplejersken, før du begynder at tage Prevymis.
+Hvis du tager Prevymis sammen med ciclosporin, må du ikke tage følgende lægemidler:</em> 
+dabigatran - anvendes mod blodpropper* 
+atorvastatin, simvastatin, rosuvastatin, pitavastatin - mod forhøjet kolesterol.
+87
+Advarsler og forsigtighedsregler
+Hvis du også tager et lægemiddel mod forhøjet kolesterol (se listen over lægemidler i punktet “Brug af
+andre lægemidler sammen med Prevymis" nedenfor), skal du straks kontakte din læge, hvis du har
+uforklarlige muskelsmerter, især hvis du føler dig utilpas eller har feber. Det kan i så fald være
+nødvendigt at ændre din medicin eller din dosis. Se indlægssedlen for anden medicin, du får, for
+yderligere oplysninger.
+Yderligere blodprøver kan være nødvendige for at monitorere følgende lægemidler:</p>
+</li>
+<li>
+<p>Ciclosporin, tacrolimus, sirolimus</p>
+</li>
+<li>
+<p>Voriconazol.
+Børn og unge
+Prevymis må ikke anvendes til børn og unge under 18 år. Dette skyldes, at Prevymis ikke er blevet
+undersøgt hos denne aldersgruppe.
+Brug af andre lægemidler sammen med Prevymis
+Fortæl lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre
+lægemidler eller planlægger at tage andre lægemidler. Årsagen er, at Prevymis kan påvirke, hvordan
+andre lægemidler virker, og andre lægemidler kan påvirke, hvordan Prevymis virker. Lægen eller
+apotekspersonalet vil fortælle dig, om det er sikkert at tage Prevymis sammen med andre lægemidler.
+Der er visse lægemidler, som du ikke må tage sammen med Prevymis (se listen under “Tag ikke
+Prevymis hvis:").
+Der er yderligere visse lægemidler, som du ikke må tage sammen med Prevymis og cyclosporin (se
+listen under "Hvis du tager Prevymis sammen med ciclosporin, må du ikke tage følgende
+lægemidler:").
+Fortæl det også til lægen, hvis du tager et eller flere af følgende lægemidler. Dette skyldes, at lægen
+kan blive nødt til at ændre på din medicin eller ændre på dosis af din medicin:</p>
+</li>
+<li>
+<p>alfentanil - mod stærke smerter</p>
+</li>
+<li>
+<p>fentanyl - mod stærke smerter</p>
+</li>
+<li>
+<p>quinidin - mod unormal hjerterytme</p>
+</li>
+<li>
+<p>ciclosporin, tacrolimus, sirolimus - anvendes til at forebygge afstødning af transplantat</p>
+</li>
+<li>
+<p>voriconazol - mod svampeinfektioner</p>
+</li>
+<li>
+<p>statiner, f.eks. atorvastatin, fluvastatin, rosuvastatin, simvastatin, pravastatin, pitavastatin - mod
+for højt kolesterol</p>
+</li>
+<li>
+<p>glyburid, repaglinid - mod for højt blodsukker</p>
+</li>
+<li>
+<p>carbamazepin, phenobarbital, phenytoin - mod epileptiske anfald eller krampeanfald</p>
+</li>
+<li>
+<p>dabigatran, warfarin - anvendes som blodfortyndende middel eller mod blodpropper</p>
+</li>
+<li>
+<p>midazolam - anvendes som et beroligende middel (sedativ)  </p>
+</li>
+<li>
+<p>amiodaron - anvendes til at afhjælpe uregelmæssig hjerterytme</p>
+</li>
+<li>
+<p>orale kontraceptive steroider - til prævention</p>
+</li>
+<li>
+<p>omeprazol, pantoprazol - mod mavesår eller andre maveproblemer</p>
+</li>
+<li>
+<p>nafcillin - mod bakterieinfektioner</p>
+</li>
+<li>
+<p>rifabutin, rifampicin - mod mykobakterielle infektioner</p>
+</li>
+<li>
+<p>thioridazin - mod psykiske forstyrrelser</p>
+</li>
+<li>
+<p>bosentan - mod højt blodtryk i blodkarrene i lungerne</p>
+</li>
+<li>
+<p>efavirenz, etravirin, nevapirin, lopinavir, ritonavir - mod hiv</p>
+</li>
+<li>
+<p>modafinil - mod narkolepsi.
+Du kan anmode lægen eller apotekspersonalet om en liste over de lægemidler, der kan interagere med
+Prevymis.
+88
+Graviditet
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge
+lægen til råds, før du tager dette lægemiddel. Prevymis anbefales ikke under graviditeten, da det ikke
+er undersøgt hos gravide. Det er ukendt, om Prevymis vil skade dit ufødte barn, mens du er gravid.
+Amning
+Hvis du ammer eller planlægger at amme, skal du fortælle det til lægen, før du tager dette lægemiddel.
+Undlad at amme, mens du tager Prevymis. Det er ukendt, om Prevymis udskilles i modermælken og
+overføres til dit barn.
+Trafik- og arbejdssikkerhed
+Prevymis kan i mindre grad påvirke din evne til at køre bil og betjene maskiner (se punkt 4
+“Bivirkninger" nedenfor). Nogle patienter har rapporteret træthedsfølelse eller vertigo (snurrende
+fornemmelse) under behandlingen med Prevymis. Hvis du får nogle af disse bivirkninger, må du ikke
+køre bil eller betjene maskiner, før bivirkningerne er aftaget. 
+Prevymis indeholder lactose
+Prevymis indeholder lactosemonohydrat. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har
+fortalt dig, at du ikke tåler visse sukkerarter.
+Prevymis indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
+væsentlige natriumfrit.</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take prevymis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take prevymis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg
+lægen eller apotekspersonalet.
+Så meget skal du tage
+Den anbefalede dosis af Prevymis er en 480 mg tablet en gang dagligt. Hvis du også tager ciclosporin,
+vil lægen nedsætte dosis af Prevymis til en 240 mg tablet en gang dagligt.</p>
+<ul>
+<li>
+<p>Tag Prevymis på samme tidspunkt hver dag.</p>
+</li>
+<li>
+<p>Tag medicinen med eller uden mad.
+Sådan skal du tage tabletterne</p>
+</li>
+<li>
+<p>Slug tabletten hel med vand. Du må ikke dele, knuse eller tygge tabletten.
+Hvis du har taget for meget Prevymis
+Hvis du har taget for meget Prevymis, skal du straks kontakte lægen.
+Hvis du har glemt at tage Prevymis
+Det er meget vigtigt, at du ikke glemmer at tage eller springer doser af Prevymis over.</p>
+</li>
+<li>
+<p>Hvis du glemmer en dosis, skal du tage den, så snart du kommer i tanke om det. Hvis det dog
+næsten er tid til den næste dosis, så spring den manglende dosis over. Tag din næste dosis på det
+sædvanlige tidspunkt.</p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis af Prevymis på samme tid som erstatning for den glemte dosis.</p>
+</li>
+<li>
+<p>Hvis du er i tvivl om, hvad du skal gøre, skal du kontakte lægen eller apotekspersonalet.
+Du må ikke holde op med at tage Prevymis
+Du må ikke holde op med at tage Prevymis uden først at have talt med lægen. Sørg for ikke at løbe tør
+for Prevymis. Derved får lægemidlet de bedste betingelser for at forhindre, at du bliver syg af CMV,
+efter at du har gennemgået en stamcelletransplantation eller en nyretransplantation.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.
+89</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Almindelig: kan forekomme hos op til 1 ud af 10 personer</p>
+<ul>
+<li>
+<p>diarré</p>
+</li>
+<li>
+<p>kvalme</p>
+</li>
+<li>
+<p>opkastning.
+Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer</p>
+</li>
+<li>
+<p>allergisk reaktion (overfølsomhed) - symptomerne kan omfatte hvæsende vejrtrækning,
+åndedrætsbesvær, udslæt eller nældefeber, kløe, hævelse</p>
+</li>
+<li>
+<p>appetitløshed</p>
+</li>
+<li>
+<p>ændret smagssans</p>
+</li>
+<li>
+<p>hovedpine</p>
+</li>
+<li>
+<p>snurrende fornemmelse (vertigo)</p>
+</li>
+<li>
+<p>mavesmerter</p>
+</li>
+<li>
+<p>unormale prøveresultater for leverfunktion (dvs. forhøjede leverenzymværdier)</p>
+</li>
+<li>
+<p>muskelkramper</p>
+</li>
+<li>
+<p>forhøjet kreatinin i blodet - fremgår af blodprøveresultater</p>
+</li>
+<li>
+<p>træthedsfølelse</p>
+</li>
+<li>
+<p>hævede hænder eller fødder.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller sygeplejersken. Dette
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
+information om sikkerheden af dette lægemiddel.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store prevymis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store prevymis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og blisterkortet efter EXP.
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i den
+originale yderkarton for at beskytte mod fugt.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
+90</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prevymis indeholder:</p>
+<ul>
+<li>Aktivt stof: letermovir. Hver filmovertrukken tablet indeholder 240 mg letermovir eller 480 mg
+letermovir.</li>
+<li>
+<p>Øvrige indholdsstoffer:
+Tabletkerne
+Mikrokrystallinsk cellulose (E460), croscarmellosenatrium (E468), povidon (E1201), kolloid
+vandfri silica (E551), magnesiumstearat (E470b).
+Filmovertræk
+Lactosemonohydrat, hypromellose (E464), titandioxid (E171), triacetin (E1518), gul
+jernoxid (E172), rød jernoxid (kun til 480 mg tabletter) (E172), carnaubavoks (E903). Se
+punkt 2 “Prevymis indeholder lactose" og “Prevymis indeholder natrium".
+Udseende og pakningsstørrelser
+Prevymis 240 mg filmovertrukken tablet (“tablet") er en gul oval tablet præget med “591" på den ene
+side og virksomhedslogo på den anden side. Tabletten er 16,5 mm lang og 8,5 mm bred.
+Prevymis 480 mg filmovertrukken tablet (“tablet") er en pink oval, bikonveks tablet præget med “595"
+på den ene side og virksomhedslogo på den anden side. Tabletten er 21,2 mm lang og 10,3 mm bred.
+28x1 tabletterne er pakket i en karton, der indeholder perforerede enkeltdosisblisterkort
+(polyamid/aluminium/PVC-aluminium) (28 tabletter i alt).
+Indehaver af markedsføringstilladelsen
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Fremstiller
+Organon Heist bv
+Industriepark 30
+2220 Heist-op-den-Berg
+Belgien
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium 
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium 
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+91
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft. 
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf.: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska:
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 333
+croatia_info@merck.com<br />
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+92
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.
+93
+Indlægsseddel: Information til patienten
+Prevymis 240 mg koncentrat til infusionsvæske, opløsning
+Prevymis 480 mg koncentrat til infusionsvæske, opløsning
+letermovir
+Læs denne indlægsseddel grundigt, inden du får dette lægemiddel, da den indeholder vigtige
+oplysninger.</p>
+</li>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen.</p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.</p>
+</li>
+<li>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d4e8178d3a905eabdd581f1645891fb4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prevymis Package Leaflet for language en"
+Description: "ePI document Bundle for prevymis Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d4e8178d3a905eabdd581f1645891fb4"
+* entry[0].resource = composition-en-d4e8178d3a905eabdd581f1645891fb4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd4e8178d3a905eabdd581f1645891fb4"
+* entry[=].resource = mpd4e8178d3a905eabdd581f1645891fb4
+                            
+                    
+Instance: bundlepackageleaflet-da-d4e8178d3a905eabdd581f1645891fb4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prevymis Package Leaflet for language da"
+Description: "ePI document Bundle for prevymis Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d4e8178d3a905eabdd581f1645891fb4"
+* entry[0].resource = composition-da-d4e8178d3a905eabdd581f1645891fb4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd4e8178d3a905eabdd581f1645891fb4"
+* entry[=].resource = mpd4e8178d3a905eabdd581f1645891fb4
+                            
+                    
+
+
+
+Instance: mpd4e8178d3a905eabdd581f1645891fb4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product PREVYMIS 240 mg film-coated tablets"
-Description: "PREVYMIS 240 mg film-coated tablets"
+Title: "Medicinal Product prevymis"
+Description: "prevymis"
 Usage: #inline
 
  
@@ -399,7 +976,7 @@ Usage: #inline
 
 
 * name
-  * productName = "PREVYMIS 240 mg film-coated tablets"
+  * productName = "prevymis"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -426,29 +1003,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d4e8178d3a905eabdd581f1645891fb4
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for prevymis Package Leaflet for language en"
-Description: "ePI document Bundle for prevymis Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d4e8178d3a905eabdd581f1645891fb4ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1245/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "prevymis"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d4e8178d3a905eabdd581f1645891fb4"
-* entry[0].resource = composition-en-d4e8178d3a905eabdd581f1645891fb4
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbfc2b9171745ce6362620331b99ad218"
-* entry[=].resource = mpbfc2b9171745ce6362620331b99ad218
-                            
-                      
+* title = "List of all ePIs associated with prevymis"
+
+* subject = Reference(mpbfc2b9171745ce6362620331b99ad218)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#prevymis "prevymis"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d4e8178d3a905eabdd581f1645891fb4) // prevymis en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d4e8178d3a905eabdd581f1645891fb4) // prevymis da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d4e8178d3a905eabdd581f1645891fb4
+InstanceOf: List
+
+* insert d4e8178d3a905eabdd581f1645891fb4ListRuleset
+    

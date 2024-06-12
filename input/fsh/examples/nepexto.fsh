@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5f1d2d45d01481d24ca0912f037c6116
 InstanceOf: CompositionUvEpi
 Title: "Composition for nepexto Package Leaflet"
@@ -498,12 +501,829 @@ Tel: 0080008250This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-5f1d2d45d01481d24ca0912f037c6116
+InstanceOf: CompositionUvEpi
+Title: "Composition for nepexto Package Leaflet"
+Description:  "Composition for nepexto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6e1f28bb45c977059b811992a950ccbf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6e1f28bb45c977059b811992a950ccbf
+* title = "TEST PURPOSES ONLY - nepexto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Brugervejledning </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Nepexto </li>
+<li>Sådan skal du bruge Nepexto </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What nepexto is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What nepexto is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nepexto indeholder det aktive stof etanercept. </p>
+<p>Nepexto er et lægemiddel fremstillet af to proteiner, som findes naturligt hos mennesker. Det blokerer 
+aktiviteten af et andet protein i kroppen, som forårsager betændelse. Dette lægemiddel virker ved at 
+reducere betændelsen i forbindelse med visse sygdomme. </p>
+<p>Hos voksne (18 år eller derover) kan Nepexto anvendes til: </p>
+<ul>
+<li>
+<p>moderat til svær leddegigt (langvarig autoimmun sygdom, der primært rammer leddene); </p>
+</li>
+<li>
+<p>psoriasisgigt (en type betændelsesagtig gigt, der kan ramme alle led i kroppen); </p>
+</li>
+<li>
+<p>svær aksial spondylartrit (en type kronisk betændelsesagtig gigt, der rammer rygsøjlen og/eller 
+sakroiliakaleddene), herunder rygsøjlegigt (en type gigt, der rammer rygsøjlen); </p>
+</li>
+<li>
+<p>moderat eller svær psoriasis (hævede, røde, skællende plamager på huden). 
+Nepexto bruges sædvanligvis, når andre gængse behandlinger har været utilstrækkelige eller ikke er 
+egnede til dig. </p>
+</li>
+</ul>
+<p>Dette lægemiddel anvendes oftest i kombination med methotrexat til behandling af leddegigt. Det kan 
+dog også anvendes alene, hvis behandling med methotrexat er uhensigtsmæssig for dig Hvad enten 
+Nepexto anvendes alene eller i kombination med methotrexat, kan hastigheden, hvormed leddene 
+beskadiges på grund af leddegigt, nedsættes, og dermed forbedres din evne til at udføre daglige 
+aktiviteter. </p>
+<p>Hos patienter med psoriasisgigt med flere angrebne led kan dette lægemiddel forbedre evnen til at 
+udføre normale daglige aktiviteter. </p>
+<p>Hos patienter med flere symmetriske, smertefulde eller opsvulmede led (f.eks. hænder, håndled og 
+fødder) kan dette lægemiddel nedsætte hastigheden, hvormed leddenes struktur ødelægges på grund af 
+sygdommen. </p>
+<p>Nepexto ordineres også til behandling af følgende sygdomme hos børn og unge: </p>
+<ul>
+<li>
+<p>Til følgende typer af børnegigt, hvor behandling med methotrexat har været utilstrækkelig eller 
+ikke kan anvendes: </p>
+</li>
+<li>
+<p>Polyartrit (reumafaktor-positiv eller -negativ) og udvidet oligoartrit hos patienter fra 2 år 
+og en vægt på 62,5 kg eller derover </p>
+</li>
+<li>
+<p>Psoriasisgigt hos patienter fra 12 år, der vejer 62,5 kg eller derover </p>
+</li>
+<li>
+<p>Enthesitis-relateret artrit hos patienter fra 12 år, der vejer 62,5 kg eller derover, når anden 
+behandling har været utilstrækkelig eller ikke kan anvendes. </p>
+</li>
+<li>
+<p>Svær psoriasis hos patienter fra 6 års-alderen, der vejer 62,5 kg eller derover, hvor virkningen af 
+lysbehandling eller systemisk behandling har været utilstrækkelig, eller patienten ikke har 
+kunnet tåle det. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take nepexto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take nepexto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Nepexto </p>
+<ul>
+<li>
+<p>hvis du eller dit barn er allergisk over for etanercept eller et af de øvrige indholdsstoffer i 
+Nepexto (angivet i afsnit 6). Hvis du eller barnet får allergiske reaktioner, som for eksempel 
+trykken for brystet, hiven efter vejret, svimmelhed eller udslæt, må du ikke injicere mere 
+Nepexto, og du skal straks kontakte lægen. </p>
+</li>
+<li>
+<p>hvis du eller barnet har eller er i risiko for at udvikle en alvorlig blodinfektion kaldet sepsis. 
+Kontakt lægen, hvis du er i tvivl. </p>
+</li>
+<li>
+<p>hvis du eller barnet lider af nogen form for infektion. Kontakt lægen, hvis du er i tvivl. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du bruger Nepexto. </p>
+<ul>
+<li>
+<p>Allergiske reaktioner: Hvis du eller barnet får allergiske reaktioner, som f.eks. trykken for 
+brystet, hiven efter vejret, svimmelhed eller udslæt, skal du stoppe med at bruge dette 
+lægemiddel, og du skal straks kontakte lægen. </p>
+</li>
+<li>
+<p>Infektioner/operation: Hvis du eller barnet udvikler en ny infektion eller skal gennemgå en 
+større operation i den nærmeste fremtid, vil lægen muligvis ønske at overvåge behandlingen 
+med dette lægemiddel. </p>
+</li>
+<li>
+<p>Infektioner/sukkersyge: Fortæl det til lægen, hvis du eller barnet lider af tilbagevendende 
+infektioner, sukkersyge eller andre tilstande, hvor risikoen for infektion kan være øget. </p>
+</li>
+<li>
+<p>Infektioner/overvågning: Fortæl det til lægen, hvis du eller barnet for nylig har rejst uden for 
+Europa. Hvis du eller barnet udvikler symptomer på en infektion, f.eks. feber, forkølelse eller 
+hoste, skal du straks fortælle det til lægen. Lægen kan beslutte at fortsætte med at kontrollere, 
+om du eller barnet har infektioner, efter at du eller barnet er holdt op med at bruge Nepexto. </p>
+</li>
+<li>
+<p>Tuberkulose: Der har været indberetninger om tuberkulose hos patienter i behandling med 
+Nepexto. Derfor vil lægen søge efter tegn eller symptomer på tuberkulose, inden behandlingen 
+med dette lægemiddel påbegyndes. Undersøgelsen kan omfatte en grundig gennemgang af din 
+eller barnets helbredstilstand, røntgenbillede af brystkassen og en tuberkulinundersøgelse. 
+Udførelsen af disse prøver skal noteres i ’Patientkort’. Det er meget vigtigt, at du fortæller </p>
+</li>
+</ul>
+<p>lægen, om du eller barnet nogensinde har haft tuberkulose, eller været i nær kontakt med nogen, 
+som har haft tuberkulose. Hvis du skulle få symptomer på tuberkulose (som f.eks. vedvarende 
+hoste, vægttab, sløvhed, let feber) eller nogen anden infektion under eller efter behandlingen, 
+skal du straks fortælle det til lægen. </p>
+<ul>
+<li>
+<p>Hepatitis B: Fortæl det til lægen, hvis du eller barnet har eller nogensinde har haft hepatitis B. 
+Lægen bør teste for tilstedeværelse af hepatitis B-infektion, før du eller barnet påbegynder 
+behandling med dette lægemiddel. Behandling med Nepexto kan medføre genopblussen af 
+hepatitis B hos patienter, som tidligere har haft hepatitis B-infektion. Hvis dette sker, skal du 
+ophøre med at bruge dette lægemiddel. </p>
+</li>
+<li>
+<p>Hepatitis C: Fortæl det til lægen, hvis du eller barnet har hepatitis C. Lægen kan ønske at 
+overvåge behandlingen med dette lægemiddel i tilfælde af, at infektionen forværres. </p>
+</li>
+<li>
+<p>Blodsygdomme: Fortæl det omgående til lægen, hvis du eller barnet har nogen tegn eller 
+symptomer, som f.eks. vedvarende feber, øm hals, blå mærker, blødning eller bleghed. Sådanne 
+symptomer kan pege på tilstedeværelsen af en potentielt livstruende blodsygdom, som kan 
+kræve, at behandling med Nepexto ophører. </p>
+</li>
+<li>
+<p>Sygdomme i nervesystemet eller øjnene: Fortæl det til lægen, hvis du eller barnet lider af 
+dissemineret sklerose, optisk neuritis (betændelse i øjets nerver) eller transversel myelitis 
+(betændelse i rygmarven). Lægen vil afgøre, om behandling med dette lægemiddel er 
+hensigtsmæssig. </p>
+</li>
+<li>
+<p>Hjertesvigt: Fortæl det til lægen, hvis du eller barnet lider af hjertesvigt (når hjertemusklen ikke 
+pumper blodet så godt rundt, som den burde), da dette lægemiddel i så fald skal bruges med 
+forsigtighed. </p>
+</li>
+<li>
+<p>Kræft: Fortæl det til lægen, før du bruger dette lægemiddel, hvis du har eller har kræft i 
+lymfesystemet (en type blodkræft) eller andre former for kræft. Patienter med alvorlig leddegigt, 
+som har haft sygdommen i lang tid, kan have større risiko end gennemsnittet for at udvikle kræft 
+i lymfesystemet. Børn og voksne, som bruger dette lægemiddel, kan have øget risiko for at 
+udvikle kræft i lymfesystemet eller andre former for kræft. Nogle børne- og teenage-patienter, 
+som har fået etanercept eller anden medicin, der virker på samme måde som etanercept, har 
+udviklet kræft, inkl. sjældne former for kræft, som nogle gange har medført død. Nogle 
+patienter i behandling med Nepexto har udviklet hudkræft. Fortæl det til lægen, hvis din eller 
+barnets hud på nogen måde ændrer udseende, eller der kommer udvækster. </p>
+</li>
+<li>
+<p>Skoldkopper: Fortæl det til lægen, hvis du eller barnet bliver udsat for skoldkopper under 
+behandlingen med dette lægemiddel. Lægen vil afgøre, om forebyggende behandling mod 
+skoldkopper er hensigtsmæssig. </p>
+</li>
+<li>
+<p>Alkoholmisbrug: Dette lægemiddel må ikke bruges til behandling af leverbetændelse i 
+forbindelse med alkoholmisbrug. Fortæl det til lægen, hvis du eller barnet har eller har haft et 
+alkoholmisbrug. </p>
+</li>
+<li>
+<p>Wegeners granulomatose: dette lægemiddel anbefales ikke til behandling af Wegeners 
+granulomatose (en sjælden betændelsessygdom). Hvis du eller dit barn lider af Wegeners 
+granulomatose, skal du tale med din læge. </p>
+</li>
+<li>
+<p>Medicin mod sukkersyge: Fortæl det til lægen, hvis du eller barnet har sukkersyge eller tager 
+medicin til behandling af sukkersyge. Lægen kan beslutte, at du eller barnet skal have en mindre 
+dosis medicin mod sukkersyge, mens du eller barnet får dette lægemiddel. </p>
+</li>
+</ul>
+<p>Børn og unge </p>
+<ul>
+<li>Vaccinationer: Hvis det er muligt, skal børn være ajour med alle vaccinationer inden brug af 
+Nepexto. Nogle vacciner, som for eksempel oral poliovaccine, må ikke gives, mens man får 
+dette lægemiddel. Kontakt lægen, inden du eller barnet får nogen vacciner. </li>
+</ul>
+<p>Nepexto bør ikke bruges til børn og unge, der vejer under 62,5 kg. </p>
+<p>Nepexto bør ikke bruges til behandling af polyartrit eller udvidet oligoartrit hos børn under 2 år, til 
+behandling af børn med enthesitis-relateret artrit eller psoriasisgigt under 12 år, eller til behandling af 
+psoriasis hos børn under 6 år. </p>
+<p>Brug af anden medicin sammen med Nepexto </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du eller barnet bruger anden medicin, for nylig 
+har brugt anden medicin eller planlægger at bruge anden medicin (herunder sulfasalazin). </p>
+<p>Du eller barnet bør ikke bruge Nepexto sammen med medicin, som indeholder de aktive stoffer 
+anakinra eller abatacept. </p>
+<p>Graviditet og amning </p>
+<p>Nepexto bør kun anvendes under graviditet, hvis det er absolut nødvendigt. Kontakt din læge, hvis du 
+bliver gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid. </p>
+<p>Hvis du har taget Nepexto under graviditeten, kan dit spædbarn have en øget risiko for at få en 
+infektion. Desuden viste et studie, at barnet hyppigere havde medfødte misdannelser, når kvinden 
+havde taget etanercept under graviditeten, sammenlignet med kvinder, der ikke havde taget dette 
+lægemiddel eller andre tilsvarende lægemidler (TNF-antagonister) under graviditet. Det var ikke en 
+bestemt type af medfødte misdannelser, der blev indberettet. Et andet studie fandt ingen øget risiko for 
+fødselsdefekter, hvis moderen havde taget etanercept under graviditeten. Din læge vil hjælpe dig med 
+at afgøre, om fordelene ved behandlingen opvejer den mulige risiko for dit barn. </p>
+<p>Tal med din læge, hvis du gerne vil amme, mens du er i behandling med Nepexto. Det er vigtigt, at du 
+fortæller barnets læge og andre sundhedspersoner om din brug af Nepexto under graviditet og amning, 
+før dit barn får en hvilken som helst vaccine. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Anvendelse af Nepexto forventes ikke at påvirke evnen til at køre bil eller betjene maskiner. </p>
+<p>Nepexto indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nepexto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nepexto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvis du føler, at virkningen af Nepexto er for stærk eller for svag, skal du kontakte din læge eller 
+apotekspersonalet. </p>
+<p>Brug til voksne </p>
+<p>Leddegigt, psoriasisgigt og aksial spondylartrit, herunder rygsøjlegigt: 
+Den sædvanlige dosis er 25 mg to gange om ugen eller 50 mg en gang om ugen givet som en injektion 
+under huden. Lægen kan dog beslutte en anden hyppighed for injicering af Nepexto. </p>
+<p>Plaque psoriasis 
+Den sædvanlige dosis er 25 mg to gange om ugen eller 50 mg en gang om ugen. </p>
+<p>Alternativt kan 50 mg indgives to gange om ugen i op til 12 uger efterfulgt af 25 mg to gange om ugen 
+eller 50 mg en gang om ugen. </p>
+<p>Lægen vil afgøre, hvor længe du skal bruge Nepexto, og om gentagende behandling er nødvendig, 
+afhængig af hvordan du reagerer på behandlingen. Hvis der ikke er nogen effekt af Nepexto- behandlingen efter 12 uger, fortæller lægen dig måske, at behandlingen skal stoppes. </p>
+<p>Brug til børn og unge </p>
+<p>Dosis og doseringshyppighed til børn og unge afhænger af deres kropsvægt og sygdom. 
+Lægen vil beregne den rette dosis for barnet og ordinere en passende styrke af etanercept. </p>
+<p>Nepexto bør ikke bruges til børn og unge, der vejer under 62,5 kg. 
+Etanercept fås i andre lægemiddelformer, der er velegnede til børn. 
+Til polyartrit eller udvidet oligoartrit hos patienter fra 2-årsalderen, og til enthesitis-relateret artrit eller 
+psoriasisgigt hos patienter fra 12-årsalderen er den sædvanlige dosis 0,4 mg etanercept per kg 
+kropsvægt (op til højst 25 mg per dosis) to gange om ugen, eller 0,8 mg etanercept per kg kropsvægt 
+(op til højst 50 mg per dosis) en gang om ugen. </p>
+<p>Til psoriasis hos patienter fra 6-årsalderen er den sædvanlige dosis 0,8 mg etanercept per kg kropsvægt 
+(op til højst 50 mg per dosis) en gang om ugen. Hvis Nepexto ikke har nogen virkning på barnets 
+tilstand efter 12 uger, kan lægen fortælle dig, at behandlingen stoppes. </p>
+<p>Anvendelsesmåde og indgivelsesvej </p>
+<p>Nepexto indgives som en injektion under huden (subkutan anvendelse). </p>
+<p>Detaljeret vejledning i klargøring og injektion af Nepexto findes i afsnit 7, "Brugervejledning". 
+Opløsningen må ikke blandes med anden medicin. 
+For at hjælpe dig med at huske hvilke ugedage Nepexto skal tages, kan det være en hjælp at skrive det 
+i en kalender. </p>
+<p>Hvis du har brug for meget Nepexto </p>
+<p>Hvis du har anvendt mere Nepexto, end du bør (enten ved at injicere for meget en enkelt gang eller 
+ved at anvende det for ofte), bør du straks tale med lægen eller apoteket. Medbring altid 
+medicinæsken, også selv om den er tom. </p>
+<p>Hvis du har glemt at injicere Nepexto </p>
+<p>Hvis du glemmer en injektion, skal du injicere, så snart du kommer i tanke om det, medmindre at den 
+næste planlagte dosis er den følgende dag. I det tilfælde skal du springe den glemte dosis over. Fortsæt 
+dernæst med at injicere din medicin på de sædvanlige dage. Hvis du ikke husker det før den dag, du 
+skal tage den næste dosis, må du ikke tage en dobbeltdosis (to doser på samme dag) som erstatning for 
+den glemte dosis. </p>
+<p>Hvis du holder op med at tage Nepexto </p>
+<p>Symptomerne kan vende tilbage, hvis behandlingen stopper. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Allergiske reaktioner </p>
+<p>Hvis en eller flere af følgende reaktioner optræder, må du ikke injicere mere Nepexto. Fortæl det 
+straks til lægen, eller tag på skadestuen på det nærmeste hospital. </p>
+<ul>
+<li>
+<p>Besvær med at synke eller trække vejret </p>
+</li>
+<li>
+<p>Opsvulmen af ansigt, hals, hænder eller fødder </p>
+</li>
+<li>
+<p>Følelse af nervøsitet eller angst, bankende fornemmelser eller pludselig rødmen i huden og/eller 
+en følelse af varme. </p>
+</li>
+<li>
+<p>Kraftigt udslæt, kløe eller nældefeber (hævede pletter af rød eller bleg hud, som ofte klør). </p>
+</li>
+</ul>
+<p>Alvorlige allergiske reaktioner er sjældne. Hvilket som helst af ovennævnte symptomer kan dog tyde 
+på en allergisk reaktion over for dette lægemiddel, og du skal derfor søge øjeblikkelig lægehjælp. </p>
+<p>Alvorlige bivirkninger </p>
+<p>Hvis du eller dit barn får en eller flere af følgende bivirkninger, kan du eller barnet have brug for 
+omgående lægehjælp. </p>
+<ul>
+<li>
+<p>Tegn på alvorlig infektion, som f.eks. høj feber evt. ledsaget af hoste, stakåndethed, 
+kuldegysninger, slaphed eller et varmt, rødt, ømt, smertende område på hud eller led; </p>
+</li>
+<li>
+<p>Tegn på blodsygdom, som f.eks. blødning, blå mærker eller bleghed; </p>
+</li>
+<li>
+<p>Tegn på nervesygdom, som f.eks. følelsesløshed eller snurren, synsforstyrrelser, øjensmerte 
+eller pludselig svaghed i en arm eller et ben; </p>
+</li>
+<li>
+<p>Tegn på hjertesvigt eller forværring af hjertesvigt, som f.eks. træthed eller stakåndethed ved 
+aktivitet, opsvulmen af anklerne, en følelse af oppustethed i nakken eller maven, stakåndethed 
+eller hoste om natten, blåligfarvning af neglene eller læberne; </p>
+</li>
+<li>
+<p>Tegn på kræft: Kræft kan påvirke hele kroppen, herunder hud og blod, og mulige tegn på kræft 
+afhænger af typen og lokalisering i kroppen. Disse symptomer kan være vægttab, feber, 
+hævelser (med eller uden smerte), vedvarende hoste, knuder eller udvækster på huden. </p>
+</li>
+<li>
+<p>Tegn på autoimmune reaktioner (hvor der dannes antistoffer, der kan skade normalt væv), 
+som f.eks. smerter, kløe, svaghed og unormal vejrtrækning, tankegang, følesans eller syn; </p>
+</li>
+<li>
+<p>Tegn på lupus eller lupuslignende syndrom, herunder vægtændringer, vedvarende udslæt, feber, 
+led- eller muskelsmerter, eller træthed; </p>
+</li>
+<li>
+<p>Tegn på betændelse i blodkarrene, herunder smerter, feber, rødme eller varme i huden eller kløe. </p>
+</li>
+</ul>
+<p>Dette er sjældne eller usædvanlige bivirkninger, men det er alvorlige tilstande (hvoraf nogle i sjældne 
+tilfælde kan være dødelige). Hvis disse tegn forekommer, skal du omgående fortælle det til lægen eller 
+tage på skadestuen på det nærmeste hospital. </p>
+<p>Nedenstående bivirkninger for etanercept er inddelt i grupper efter faldende frekvens: </p>
+<ul>
+<li>
+<p>Meget almindelig (forekommer hos flere end 1 ud af 10 personer): 
+Infektioner (herunder forkølelse, bihulebetændelse, bronkitis, urinvejsinfektioner og 
+hudinfektioner). Reaktioner på injektionsstedet (herunder blødning, blå mærker, rødme, kløe, 
+smerte og opsvulmen) (optræder ikke så ofte efter den første måneds behandling, nogle 
+patienter har haft en reaktion på et injektionssted, som har været brugt for nylig) og 
+hovedpine. </p>
+</li>
+<li>
+<p>Almindelig (forekommer hos mellem 1 og 10 ud af 100 personer): 
+Allergiske reaktioner, feber, udslæt, kløe, antistoffer mod normalt væv (autoantistofdannelse). </p>
+</li>
+<li>
+<p>Ikke almindelig (forekommer hos mellem 1 og 10 ud af 1.000 personer): 
+Alvorlige infektioner (herunder lungebetændelse, dybe hudinfektioner, ledinfektioner, 
+blodinfektion og infektioner andre steder), forværring af hjertesvigt, lavt antal røde blodceller, 
+lavt antal hvide blodceller, lavt antal neutrofiler (en type hvide blodceller), lavt antal 
+blodplader, hudkræft (ikke melanom), lokal opsvulmen af huden (angioødem), nældefeber 
+(hævede pletter af rød eller bleg hud, som ofte klør), betændelse i øjet, psoriasis (nyopstået 
+eller forværret), betændelsesagtig tilstand i blodkarrene, hvilket kan påvirke flere organer, 
+forhøjede tal for leverfunktion i blodprøver (hos patienter, der også får behandling med 
+methotrexat, er hyppigheden af forhøjede tal for leverfunktion i blodprøver almindelig), 
+mavekramper og -smerter, diarré, vægttab eller blod i afføringen (tegn på tarmproblemer). </p>
+</li>
+<li>
+<p>Sjælden (forekommer hos mellem 1 og 10 ud af 10.000 personer): 
+Alvorlige allergiske reaktioner (herunder alvorlig lokal opsvulmen af huden og hiven efter 
+vejret), lymfom (en form for blodkræft), leukæmi (en kræftform, der påvirker blod og 
+knoglemarv), melanom (en form for hudkræft), kombineret lavt antal blodplader, røde og 
+hvide blodceller, sygdomme i nervesystemet (med alvorlig muskelsvaghed og tegn og 
+symptomer svarende til dissemineret sklerose eller betændelse i øjets nerver eller nerver i 
+rygmarven), tuberkulose, nyopstået hjertesvigt, kramper, lupus eller lupuslignende syndrom 
+(symptomerne kan omfatte vedvarende udslæt, feber, ledsmerte og træthed), hududslæt som 
+kan føre til alvorlig blæredannelse og afskalning af huden, lichenoide reaktioner (kløende, 
+rødligt-lilla hududslæt og/eller trådlignende gråhvide linjer på slimhinderne), leverbetændelse, 
+der udløses af kroppens immunsystem (autoimmun hepatitis; hos patienter der samtidig får 
+behandling med methotrexat er hyppigheden’ ikke almindelig’), lidelse i immunsystemet, som 
+kan påvirke lunger, hud og lymfekirtler (sarkoidose), betændelse eller ardannelse i lungerne 
+(hos patienter som også behandles med methotrexat, er hyppigheden af betændelse eller 
+ardannelse i lungerne ’ikke almindelig’). </p>
+</li>
+<li>
+<p>Meget sjælden (forekommer hos færre end 1 ud af 10.000 personer): 
+Knoglemarvens manglende evne til at danne vigtige blodceller. </p>
+</li>
+<li>
+<p>Ikke kendt (hyppigheden kan ikke fastsættes ud fra forhåndenværende data): 
+En form for hudkræft (Merkelcellekarcinom); Kaposis sarkom, en sjælden type kræft, der er 
+forbundet med infektion med humant herpesvirus 8. Kaposis sarkom forekommer oftest som 
+lilla læsioner på huden; overaktivering af de hvide blodlegemer i forbindelse med betændelse 
+(makrofag-aktiverings-syndrom); genopblussen af hepatitis B (en type leverbetændelse); 
+beskadigelse af de bittesmå filtre inde i dine nyrer, hvilket fører til dårlig nyrefunktion 
+(glomerulonefritis), forværring af en tilstand kaldet dermatomyositis (viser sig ved svaghed 
+og en betændelseslignende reaktion i musklerne og hududslæt). </p>
+</li>
+</ul>
+<p>Hos børn og unge kan endvidere ses følgende bivirkninger: </p>
+<p>Bivirkninger og deres frekvens hos børn og unge svarer til dem, der er beskrevet ovenfor. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store nepexto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nepexto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og den fyldte pen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 C - 8 C) Må ikke nedfryses. </p>
+<p>Opbevar den fyldte pen i den ydre karton for at beskytte mod lys. </p>
+<p>Når pennen er taget ud af køleskabet, skal du vente ca. 30 minutter på, at Nepexto-injektionsvæsken i 
+pennen opnår stuetemperatur. Må ikke opvarmes på nogen anden måde. Anvend straks. </p>
+<p>Nepexto kan opbevares uden for køleskab ved temperaturer op til højst 25 C i en enkelt periode på op 
+til 4 uger, hvorefter det ikke må nedkøles igen. Nepexto skal kasseres, hvis det ikke er brugt inden for 
+4 uger efter, at det er taget ud af køleskabet. Det anbefales, at du noterer den dato, hvor Nepexto tages 
+ud af køleskabet, og den dato, hvor Nepexto skal kasseres (højst 4 uger efter, at det er taget ud af 
+køleskabet). </p>
+<p>Kontroller injektionsvæsken i pennen. Injektionsvæsken skal være klar eller opaliserende, farveløs til 
+gul og kan indeholde små, hvide eller næsten gennemsigtige proteinpartikler. Dette udseende er 
+normalt for Nepexto. Opløsningen må ikke bruges, hvis den er misfarvet eller uklar, eller hvis den 
+indeholder andre partikler end dem, der er beskrevet ovenfor. Hvis du er bekymret over opløsningens 
+udseende, skal du kontakte dit apotek for assistance. </p>
+<p>Spørg apoteketspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nepexto indeholder:</p>
+<ul>
+<li>Aktivt stof: etanercept. Hver fyldt pen indeholder 50 mg etanercept. </li>
+<li>Øvrige indholdsstoffer: natriumcitrat, natriumdihydrogenphosphatdihydrat, glycin, saccharose, 
+natriumchlorid og vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Nepexto leveres som en fyldt pen der indeholder en klar til opaliserende, farveløs til gul opløsning til 
+injektion. </p>
+<p>Nepexto fås i pakninger, der indeholder 4 eller 12 fyldte penne. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Biosimilar Collaborations Ireland Limited 
+Unit 35/Grange Parade, 
+Baldoyle Industrial Estate, 
+Dublin DUBLIN 
+Irland 
+D13 R20R </p>
+<p>Fremstiller 
+Biosimilar Collaborations Ireland Limited 
+Block B, The Crescent Building, Santry Demesne 
+Dublin 
+D09 C6X8 
+Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Biocon Biologics Belgium BV 
+Tél/Tel: 0080008250 
+Lietuva 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250 
+България 
+Biosimilar Collaborations Ireland Limited 
+Тел: 0080008250 
+Luxembourg/Luxemburg 
+Biocon Biologics France S.A.S 
+Tél/Tel: 0080008250Česká republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Magyarország 
+Biosimilar Collaborations Ireland Limited<br />
+Tel.: 0080008250 
+Danmark 
+Biocon Biologics Finland OY<br />
+Tlf: 0080008250Malta 
+Biosimilar Collaborations Ireland Limited<br />
+Tel.: 0080008250 
+Deutschland 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+Nederland 
+Biocon Biologics France S.A.S 
+Tel: 0080008250Eesti 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250Norge 
+Biocon Biologics Finland OY<br />
+Tlf: +47 800 62<br />
+Ελλάδα<br />
+Biocon Biologics Greece ΜΟΝΟΠΡΟΣΩΠΗ Ι.Κ.Ε 
+Τηλ.: 0080008250 
+Österreich 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+España 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Polska 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 
+France 
+Biocon Biologics France S.A.S<br />
+Tel: 0080008250Portugal 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Hrvatska 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+România 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 
+Ireland 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 1800 777<br />
+Slovenija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 </p>
+<p>Ísland 
+Biocon Biologics Finland OY<br />
+Sími: +345 800 4316  </p>
+<p>Slovenská republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+Italia 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Suomi/Finland 
+Biocon Biologics Finland OY<br />
+Puh/Tel: 99980008250 
+Κύπρος 
+Biosimilar Collaborations Ireland Limited<br />
+Τηλ: 0080008250 
+Sverige 
+Biocon Biologics Finland OY<br />
+Tel: 0080008250 
+Latvija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<ol>
+<li>Brugervejledning </li>
+</ol>
+<p>Læs brugervejledningen, inden du begynder at bruge Nepexto, og hver gang du får udleveret en ny 
+pakning. Der kan være nye oplysninger. </p>
+<ul>
+<li>Forsøg ikke at give dig selv injektionen, medmindre lægen eller sygeplejersken har vist dig, 
+hvordan injektionen skal indgives. </li>
+</ul>
+<p>Ikke inkluderet i pakningen: 
+• Alkoholserviet 
+• Gaze og plaster 
+• Kanyleboks </p>
+<p>Enhedens dele </p>
+<p>A. Klargør til injektion </p>
+<p>Vælg en ren, godt belyst, plan arbejdsflade, og find alt det nødvendige udstyr frem. </p>
+<ol>
+<li>Tag Nepexto-æsken med de fyldte penne ud af køleskabet, og placer den på en plan arbejdsflade. 
+Tag en fyldt pen og anbring den på arbejdsfladen. Den fyldte pen må ikke rystes. Stil æsken med de </li>
+</ol>
+<p>resterende fyldte penne tilbage i køleskabet. Sæt aldrig hætten tilbage på nålen. 
+Se venligst afsnit 5vedrørende opbevaring af Nepexto. Kontakt din læge, sygeplejerske eller apoteket 
+for yderligere instruktioner, hvis du har nogen spørgsmål om opbevaring. </p>
+<ul>
+<li>
+<p>Brug ikke den fyldte pen efter udløbsdatoen. </p>
+</li>
+<li>
+<p>Brug ikke den fyldte pen, hvis den er blevet tabt eller faldet ned på en hård overflade (delene i 
+den fyldte pen kan have taget skade). </p>
+</li>
+<li>
+<p>Brug ikke den fyldte pen, hvis nålehætten mangler eller ikke sidder ordentligt fast. </p>
+</li>
+<li>
+<p>Kontrollér opløsningen: 
+Kig på medicinen gennem inspektionsvinduet. </p>
+</li>
+<li>
+<p>Medicinen skal være klar eller opaliserende, farveløs til gul og kan indeholde små, hvide eller 
+næsten gennemsigtige proteinpartikler. </p>
+</li>
+<li>
+<p>Opløsningen må ikke bruges, hvis den er misfarvet eller uklar, eller hvis den indeholder andre 
+partikler end dem, der er beskrevet ovenfor. </p>
+</li>
+<li>
+<p>Lad medicinen opnå stuetemperatur: 
+Tag en fyldt pen ud af æsken, der står i køleskabet, og efterlad den ved stuetemperatur i mindst 
+30 minutter inden indgivelse. 
+Dette er vigtigt, da det gør injektionen af medicinen lettere og mere behagelig. </p>
+</li>
+<li>
+<p>Fjern ikke nålehætten, før du er klar til at injicere. </p>
+</li>
+<li>
+<p>Du må ikke anvende varmekilder, såsom mikroovn eller varmt vand, til at opvarme Nepexto. </p>
+</li>
+<li>
+<p>Vælg et injektionssted 
+Den fyldte pen er beregnet til subkutan injektion. 
+Den bør injiceres i låret, maven eller overarmen (se billedet til højre). 
+Skift injektionssted ved hver injektion. </p>
+</li>
+</ul>
+<p>Hvis du injicerer i maven, skal du vælge et sted, der er mindst 5 cm væk fra 
+navlen. </p>
+<ul>
+<li>
+<p>Du må ikke give en injektion på et område, der er rødt, hårdt, stødt eller 
+ømt. </p>
+</li>
+<li>
+<p>Du må ikke injicere i ar eller strækmærker. </p>
+</li>
+<li>
+<p>Hvis du har psoriasis, skal du ikke forsøge at injicere ind i hudområder, der er hævede, hårde, 
+røde eller skællede, eller læsioner. </p>
+</li>
+</ul>
+<p>B. Injektionstrin 
+Trin 1: 
+Vask dine hænder med sæbe og vand. </p>
+<p>Trin 2: </p>
+<p>Tør huden på injektionsstedet af med en alkoholserviet. 
+Se ‘4. Vælg et injektionssted’ for vejledning i valg af injektionssted. </p>
+<ul>
+<li>Rør ikke dette område igen før injektionen. </li>
+</ul>
+<p>Trin 3: </p>
+<p>Træk nålehætten ret af, og smid den i skraldespanden eller kanylebeholderen. </p>
+<ul>
+<li>
+<p>Undgå at bøje eller vride hætten, når du tager den af, da det kan beskadige 
+nålen. </p>
+</li>
+<li>
+<p>Sæt aldrig hætten tilbage på nålen. </p>
+</li>
+</ul>
+<p>Trin 4: </p>
+<p>Udstræk forsigtigt huden på det rengjorte injektionssted. 
+Anbring pennen i en vinkel på cirka 90 grader i forhold til huden. </p>
+<ul>
+<li>
+<p>Klem ikke om huden. </p>
+</li>
+<li>
+<p>Ved at udstrække huden skaber du en fast overflade. </p>
+</li>
+</ul>
+<p>Trin 5: </p>
+<p>Tryk den fyldte pen bestemt ind i injektionsstedet for at starte injektionen. 
+Enheden klikker, når injektionen begynder. 
+Bliv ved med at holde den fyldte pen godt presset ind i injektionsstedet. 
+Enheden klikker en gang mere. </p>
+<p>Trin 6: </p>
+<p>Efter det andet klik skal du tælle langsomt til 15 for at sikre, at injektionen er 
+afsluttet. </p>
+<ul>
+<li>
+<p>Slip ikke presset mod injektionsstedet, før injektionen er gennemført. </p>
+</li>
+<li>
+<p>Flyt ikke den fyldte pen under injektionen. </p>
+</li>
+</ul>
+<p>Trin 7: </p>
+<p>Fjern den tomme pen fra huden. 
+Nåleskjoldet vil dække nålen helt. 
+Kig efter den lyserøde stempelstang i vinduet for at kontrollere, at hele dosen er 
+blevet indgivet. </p>
+<p>Bortskaffelse: </p>
+<p>Smid den tomme pen i en godkendt kanylebeholder. 
+Spørg lægen, sygeplejersken eller apotekspersonalet, hvordan du bortskaffer 
+kanylebeholderen korrekt. 
+Du kan købe kanylebeholdere på dit lokale apotek. </p>
+<ul>
+<li>
+<p>Smid ikke kanylebeholderen ud med husholdningsaffaldet. </p>
+</li>
+<li>
+<p>Må ikke genbruges. </p>
+</li>
+<li>
+<p>Opbevar altid beholderen utilgængeligt for børn. </p>
+</li>
+</ul>
+<p>C. Pleje af injektionsstedet </p>
+<p>Tryk et stykke gaze over injektionsstedet, hvis det bløder. </p>
+<ul>
+<li>Gnub ikke på injektionsstedet. </li>
+</ul>
+<p>Hvis det er nødvendigt, kan du dække injektionsstedet med et plaster. </p>
+<p>Hvis du har spørgsmål eller brug for oplysninger, bedes du henvende dig til lægen, 
+sygeplejersken eller apotekspersonalet. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5f1d2d45d01481d24ca0912f037c6116
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nepexto Package Leaflet for language en"
+Description: "ePI document Bundle for nepexto Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5f1d2d45d01481d24ca0912f037c6116"
+* entry[0].resource = composition-en-5f1d2d45d01481d24ca0912f037c6116
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5f1d2d45d01481d24ca0912f037c6116"
+* entry[=].resource = mp5f1d2d45d01481d24ca0912f037c6116
+                            
+                    
+Instance: bundlepackageleaflet-da-5f1d2d45d01481d24ca0912f037c6116
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nepexto Package Leaflet for language da"
+Description: "ePI document Bundle for nepexto Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5f1d2d45d01481d24ca0912f037c6116"
+* entry[0].resource = composition-da-5f1d2d45d01481d24ca0912f037c6116
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5f1d2d45d01481d24ca0912f037c6116"
+* entry[=].resource = mp5f1d2d45d01481d24ca0912f037c6116
+                            
+                    
+
+
+
+Instance: mp5f1d2d45d01481d24ca0912f037c6116
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Nepexto 25 mg solution for injection in pre-filled syringe"
-Description: "Nepexto 25 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product nepexto"
+Description: "nepexto"
 Usage: #inline
 
  
@@ -523,7 +1343,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Nepexto 25 mg solution for injection in pre-filled syringe"
+  * productName = "nepexto"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -550,29 +1370,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5f1d2d45d01481d24ca0912f037c6116
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for nepexto Package Leaflet for language en"
-Description: "ePI document Bundle for nepexto Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5f1d2d45d01481d24ca0912f037c6116ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1436/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "nepexto"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5f1d2d45d01481d24ca0912f037c6116"
-* entry[0].resource = composition-en-5f1d2d45d01481d24ca0912f037c6116
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6e1f28bb45c977059b811992a950ccbf"
-* entry[=].resource = mp6e1f28bb45c977059b811992a950ccbf
-                            
-                      
+* title = "List of all ePIs associated with nepexto"
+
+* subject = Reference(mp6e1f28bb45c977059b811992a950ccbf)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#nepexto "nepexto"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5f1d2d45d01481d24ca0912f037c6116) // nepexto en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5f1d2d45d01481d24ca0912f037c6116) // nepexto da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5f1d2d45d01481d24ca0912f037c6116
+InstanceOf: List
+
+* insert 5f1d2d45d01481d24ca0912f037c6116ListRuleset
+    

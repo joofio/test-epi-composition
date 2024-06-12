@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-44ab08ec2fd441510cd1e000dae630ce
 InstanceOf: CompositionUvEpi
 Title: "Composition for zyclara Package Leaflet"
@@ -445,12 +448,599 @@ Meda Pharma SIA
 
 
 
+Instance: composition-da-44ab08ec2fd441510cd1e000dae630ce
+InstanceOf: CompositionUvEpi
+Title: "Composition for zyclara Package Leaflet"
+Description:  "Composition for zyclara Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5cd1272e657e3699cb40d713453e04c0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5cd1272e657e3699cb40d713453e04c0
+* title = "TEST PURPOSES ONLY - zyclara"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at bruge Zyclara 
+3. Sådan skal du bruge Zyclara 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zyclara is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zyclara is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zyclara 3,75 % creme indeholder det aktive stof imiquimod, som er en immunrespons modifikator (til 
+at stimulere det humane immunsystem). </p>
+<p>Dette lægemiddel er ordineret til behandling af aktinisk keratose hos voksne. </p>
+<p>Medicinen stimulerer din krops eget immunsystem til at producere naturlige stoffer, som hjælper med 
+at bekæmpe aktinisk keratose. </p>
+<p>Aktiniske keratoser er ru hudområder, som findes på personer, der har været udsat for meget sol i løbet 
+af deres levetid. Disse områder kan være den samme farve som din hud eller grålige, rosa, røde eller 
+brune. De kan være flade og skællede, eller bulede, ru, hårde og vortelignende. </p>
+<p>Denne medicin bør kun bruges til aktiniske keratoser i ansigtet eller hovedbunden, hvis din læge har 
+besluttet, at det er den mest hensigtsmæssige behandling til dig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zyclara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zyclara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Zyclara. </p>
+<ul>
+<li>hvis du er allergisk over for det aktive stof eller et af de øvrige indholdsstoffer i denne medicin 
+(angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, eller apotekspersonalet, før du bruger Zyclara: </p>
+<ul>
+<li>
+<p>hvis du tidligere har brugt dette lægemiddel eller andre lignende lægemidler i en anden 
+koncentration. </p>
+</li>
+<li>
+<p>hvis du lider af autoimmune sygdomme </p>
+</li>
+<li>
+<p>hvis du er blevet organtransplanteret </p>
+</li>
+<li>
+<p>hvis du har et unormalt blodtal. </p>
+</li>
+</ul>
+<p>Generelle instruktioner under behandlingen </p>
+<ul>
+<li>
+<p>Hvis du for nylig er opereret, eller har modtaget medicinsk behandling, skal du vente med at 
+anvende denne medicin, indtil området, der skal behandles, er helet </p>
+</li>
+<li>
+<p>Undgå kontakt med øjne, læber og næsebor. Hvis dette sker, ved et uheld, skal cremen straks 
+fjernes med vand. </p>
+</li>
+<li>
+<p>Anvend kun cremen udvendigt (på ansigtshuden eller på hovedbunden). </p>
+</li>
+<li>
+<p>Bug ikke mere creme end din læge har rådet dig til. </p>
+</li>
+<li>
+<p>Du må ikke dække det behandlede område med plaster eller andre bandager, efter at du har 
+anvendt medicinen.  </p>
+</li>
+<li>
+<p>Hvis du oplever for kraftigt ubehag på det behandlede sted, vask cremen af med mild sæbe og 
+vand. Så snart generne er ophørt, kan du begynde at bruge cremen igen, som anbefalet. Cremen 
+skal ikke påsmøres mere end én gang dagligt. </p>
+</li>
+<li>
+<p>Brug ikke højfjeldssol eller solarium og undgå udsættelse for sollys, så meget som muligt, 
+under behandlingen med denne medicin. Hvis du går udenfor i løbet af dagen, skal du anvende 
+solcreme og bære beskyttende tøj og en hat med bred skygge. </p>
+</li>
+</ul>
+<p>Lokale hudreaktioner  </p>
+<p>Mens du bruger Zyclara, kan du opleve lokale hudreaktioner på grund af den måde, det virker på din 
+hud. Disse reaktioner kan være et tegn på, at medicinen virker efter hensigten. </p>
+<p>Mens du bruger Zyclara og indtil ophelingen, vil behandlingsområdet sandsynligvis se markant 
+anderledes ud end normal hud. Der er også en mulighed for, at eksisterende betændelse midlertidigt 
+kan forværres. 
+Denne medicin kan også forårsage influenzalignende symptomer (inklusive træthed, kvalme, feber, 
+muskel- og ledsmerter og kuldegysninger) før eller under forekomsten af lokale hudreaktioner. 
+Hvis der optræder influenza-lignende symptomer eller stærke lokale hudreaktioner, kan en pause på 
+flere dage tages. Behandling med imiquimod creme kan genoptages, når hudreaktionen er aftaget. 
+Men ingen af de 2-ugers behandlingsperioder bør forlænges på grund af glemte doser eller pauser.<br />
+De lokale hudreaktioner har en tendens til at være svagere i anden behandlingsperiode sammenlignet 
+med den første behandlingsperiode med Zyclara. </p>
+<p>Reaktionen på behandlingen kan ikke i tilstrækkelig grad vurderes før opheling af de lokale 
+hudreaktioner. Du bør fortsætte behandlingen som foreskrevet. </p>
+<p>Denne medicin kan afsløre og behandle aktiniske keratoser, der ikke tidligere har været set eller 
+mærket, og disse kan senere gå væk. Du bør fortsætte påføringen i hele behandlingsforløbet, selv om 
+alle aktiniske keratoser ser ud til at være væk. </p>
+<p>Børn og unge  </p>
+<p>Denne medicin bør ikke gives til børn under 18 år, da sikkerhed og effekt hos patienter under 18 år 
+ikke er blevet undersøgt. Der er ingen tilgængelige data vedrørende brug af imiquimod til børn og 
+unge. </p>
+<p>Brug af anden medicin sammen med Zyclara </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin.   </p>
+<p>Hvis du tager immunosuppresive lægemidler, som hæmmer immunsystemet, skal du fortælle det til 
+din læge inden du starter behandlingen. 
+Undgå samtidig behandling med Zyclara og anden imiquimod creme i samme behandlingsområde. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apoteket til råds, før du bruger dette lægemiddel. </p>
+<p>Din læge vil fortælle om fordele og risici ved at bruge Zyclara under graviditet. Dyrestudier indikerer 
+ikke direkte eller indirekte skadelige virkninger under graviditet. </p>
+<p>Det vides ikke om imiquimod udskilles i brystmælk. Du bør ikke bruge Zyclara, hvis du ammer eller 
+planlægger at amme. Din læge vil fortælle, om du bør holde op med at amme eller stoppe 
+behandlingen med Zyclara.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Denne medicin har ingen eller ubetydelig indflydelse på evnen til at betjene maskiner eller føre 
+motorkøretøj. </p>
+<p>Denne medicin indeholder methylparahydroxybenzoat, propylparahydroxybenzoat, 
+cetylalkohol, stearylalkohol og benzylalkohol. </p>
+<p>Methylparahydroxybenzoat (E218) og propylparahydroxybenzoat (E 216) kan medføre allergiske 
+reaktioner (muligvis forsinkede). Cetylalkohol og stearylalkohol kan medføre lokale hudreaktioner 
+(f.eks. kontakt dermatitis). </p>
+<p>Denne medicin indeholder 5 mg benzylalkohol i hver brev. Benzylalkohol kan medføre allergiske 
+reaktioner og mild lokal irritation. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zyclara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zyclara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid dette lægemiddel nøjagtigt som lægen har fortalt dig. Er du i tvivl, så spørg lægen eller<br />
+apotekspersonalet. Brug ikke denne medicin før din læge har vist dig den rigtige måde at anvende den 
+på. </p>
+<p>Denne medicin skal kun bruges mod aktinisk keratose i ansigtet eller hovedbunden. </p>
+<p>Dosering 
+Påfør medicinen på det angrebne område én gang dagligt lige før sengetid. 
+Maksimum daglig dosis er 2 breve (500 mg = 2 breve af hver 250 mg). 
+Denne medicin må ikke påføres på større områder end enten hele ansigtet eller den skaldede 
+hovedbund. </p>
+<p>Påføringsmetode </p>
+<ol>
+<li>
+<p>Før du går i seng, skal du vaske dine hænder og det 
+område, som skal behandles, med mild sæbe og vand. Tør 
+hænderne grundigt og lad området tørre.  </p>
+</li>
+<li>
+<p>Åben et nyt brev af Zyclara lige før brug og klem 
+noget creme ud på din fingerspids. Der må ikke anvendes 
+mere end 2 breve pr. behandling.  </p>
+</li>
+<li>
+<p>Smør et tyndt lag Zyclara på det angrebne område. 
+Gnid forsigt cremen ind i området, indtil cremen ikke ses 
+længere. Undgå kontakt med øjne, læber og næsebor.  </p>
+</li>
+<li>
+<p>Smid det åbnede brev ud efter anvendelse af cremen. 
+Vask hænderne godt med sæbe og vand. </p>
+</li>
+<li>
+<p>Lad Zyclara sidde på huden i ca. 8 timer. Tag ikke 
+brusebad eller karbad i løbet af denne tid. Dæk ikke det 
+behandlede område med plaster eller anden forbinding. </p>
+</li>
+<li>
+<p>Vask efter ca. 8 timer det område, hvor Zyclara blev 
+påført, med mild sæbe og vand.  </p>
+</li>
+</ol>
+<p>Behandlingsvarighed 
+Behandlingen starter med én daglig påføring i 2 uger, efterfulgt af en pause uden påføring i 2 uger, og 
+derefter én daglig påføring igen i 2 uger.  </p>
+<p>Hvis du har brugt for meget Zyclara 
+Hvis du har påført for meget creme, skal den overskydende creme vaskes væk med en mild sæbe 
+og vand. Når en eventuel hudreaktion er forsvundet, kan du fortsætte med den anbefalede behandling. 
+Cremen skal ikke påføres mere end én gang dagligt. </p>
+<p>Hvis du ved et uheld kommer til at sluge Zyclara, skal du straks kontakte din læge. </p>
+<p>Hvis du har glemt at bruge Zyclara </p>
+<p>Hvis du har glemt at bruge Zyclara, skal du vente til næste aften med at påføre cremen og derefter 
+fortsætte med din behandlingsplan. Hver behandlingsplan skal ikke vare mere end 2 uger, heller 
+ikke hvis du har glemt at bruge den nogle gange.  </p>
+<p>Hvis du holder op med at bruge Zyclara 
+Kontakt lægen, hvis du ønsker at stoppe behandlingen med Zyclara. </p>
+<p>Hvis du har yderligere spørgsmål om brugen af dette lægemiddel, spørg din læge eller på apoteket. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne medicin kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt straks din læge hvis nogle af disse alvorlige bivirkninger opstår, når du bruger denne medicin:<br />
+Alvorlige hudreaktioner (hyppighed ikke kendt) med hudlæsioner eller pletter på din hud, som 
+begynder som små røde områder og udvikles til små cirkler, sandsynligvis med symptomer som 
+kløe, feber, følelse af ubehag, ømme led, synsproblemer, brændende, ømme eller kløende øjne og 
+mundsår. Hvis du oplever dette, skal du stoppe med at bruge denne medicin og øjeblikkeligt informere 
+din læge. </p>
+<p>Hos enkelte personer har man konstateret en sænkning af blodtallet (hyppighed ikke kendt). 
+Dette kan indebære, at du bliver mere modtagelig over for infektioner, lettere får blå mærker eller er 
+mere træt. Hvis du bemærker nogle af disse symptomer, skal du fortælle det til din læge. 
+Nogle patienter, som lider af autoimmune sygdomme, kan opleve forværring af deres tilstand. Hvis du 
+oplever nogen ændring under behandlingen med Zyclara, skal du fortælle det til lægen.  </p>
+<p>Hvis der er pus eller andre tegn på hudinfektion (hyppighed ikke kendt), skal du tale med din læge om 
+det. </p>
+<p>Mange af bivirkningerne ved denne medicin skyldes dets lokale indvirkning på din hud. Lokale 
+hudreaktioner kan være et tegn på, at behandlingen virker efter hensigten. Hvis din hud reagerer slemt 
+eller det bliver for ubehageligt, når du bruger medicinen, skal du stoppe med at påføre cremen og 
+vaske området med mild sæbe og vand. Kontakt derefter din læge eller apoteket. Han/hun vil måske 
+råde dig til at stoppe med at påføre Zyclara i nogle dage (svarende til at have en kort pause fra 
+behandlingen). </p>
+<p>Følgende bivirkninger er rapporteret med imiquimod: </p>
+<p>Meget almindelig (forekommer hos flere end 1 ud af 10 personer) 
+− 
+Rødme af huden, skorpedannelse, skæl, sekretion, tør hud, hævelser i huden, sår på huden, og 
+nedsat hudpigmentering på påføringsstedet.  </p>
+<p>Almindelig (forekommer hos op til 1 ud af 10 personer) 
+− 
+Yderligere reaktioner på påføringsstedet f.eks. hudbetændelse, kløe, smerter, brænden, irritation 
+og udslæt 
+− 
+Hævede kirtler 
+− 
+Hovedpine 
+− 
+Svimmelhed 
+− 
+Tab af appetit 
+− 
+Kvalme 
+− 
+Diarré 
+− 
+Opkast 
+− 
+Influenzalignende symptomer 
+− 
+Feber 
+− 
+Smerte 
+− 
+Muskel- og ledsmerter 
+− 
+Brystsmerter 
+− 
+Søvnløshed 
+− 
+Træthed 
+− 
+Virusinfektion (Herpes simplex) 
+− 
+Stigning i blodsukker </p>
+<p>Ikke almindelige (forekommer hos op til 1 ud af 100 personer) 
+− 
+Ændringer på påføringsstedet f.eks. blødning, små hævede områder i huden, betændelse, 
+prikken og stikken, øget følsomhed overfor berøring, ardannelse, følelse af at være varm, 
+nedbrydning af hud, blister eller pustler 
+− 
+Svaghed 
+− 
+Skælven 
+− 
+Tab af energi (letargi -søvnlignende sløvhedstilstand) 
+− 
+Følelse af ubehag 
+− 
+Hævelse af ansigtet 
+− 
+Rygsmerter 
+− 
+Smerter i lemmerne 
+− 
+Stoppet næse 
+− 
+Halssmerte 
+− 
+Irritation i øjnene 
+− 
+Hævelse af øjenlåg 
+− 
+Depression 
+− 
+Irritabilitet 
+− 
+Mundtørhed 
+− 
+Mavesmerter </p>
+<p>Sjældne (forekommer hos op til 1 ud af 1.000 patienter) 
+− 
+Opblussen af autoimmune tilstande (en autoimmun sygdom er en sygdom, som er resultatet af 
+en unormal reaktion fra immunsystemet) 
+− 
+Hudreaktioner fjernt fra påføringsstedet </p>
+<p>Frekvens ikke kendt (hyppigheden kan ikke estimeres udfra forhåndenværende data) 
+− 
+Ændringer i hudfarve 
+Nogle patienter har erfaret ændringer i hudfarve i området hvor Zyclara er påført. Disse 
+ændringer har en tendens til at forbedre sig med tiden, men kan hos nogle patienter være 
+permanente. 
+− 
+Hårtab 
+Et lille antal patienter har erfaret hårtab på behandlingsstedet eller det omkringliggende område. 
+− 
+Stigning i leverenzymer 
+Der har været rapporteret en øgning i leverenzymer </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zyclara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zyclara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken og etiketten efter EXP.<br />
+Må ikke opbevares over 25°C. </p>
+<p>Brevene må ikke bruges igen, når de har været åbnet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. Disse forholdsregler vil hjælpe med at 
+beskytte miljøet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zyclara indeholder </p>
+<ul>
+<li>Aktivt stof: Imiquimod. Hvert brev indeholder 9,375 mg imiquimod i 250 mg creme (100 mg 
+creme indeholder 3,75 mg imiquimod). </li>
+<li>Øvrige indholdsstoffer: Isostearinsyre, benzylalkohol, cetylalkohol, stearylalkohol, hvid blød 
+paraffin, polysorbat 60, sorbitanstearat, glycerol, methylparahydroxybenzoat (E218), 
+propylparahydroxybenzoat (E216), xanthangummi, renset vand (se også afsnit 2 “Zyclara 
+indeholder methylparahydroxybenzoat, propylparahydroxybenzoat, cetylalkohol 
+stearylalkohol, og benzylalkohol"). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>− 
+Hvert brev Zyclara 3,75 % creme indeholder 250 mg hvid til let gullig creme med et ensartet 
+udseende. 
+− 
+Hver æske indeholder 14, 28 eller 56 engangsbreve af polyester/hvid lavdensitets 
+polyethylen/aluminium. Ikke alle pakningsstørrelser markedsføres nødvendigvis. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Viatris Healthcare Limited 
+Damastown Industrial Park 
+Mulhuddart 
+Dublin DUBLIN 
+Irland </p>
+<p>Fremstiller </p>
+<p>Swiss Caps GmbH 
+Grassingerstraße 9 
+83043 Bad Aibling 
+Tyskland  </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: +32 2 658 61<br />
+Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: +32 2 658 61 (Belgique/Belgien) </p>
+<p>България 
+Майлан ЕООД 
+Тел.: +359 2 44 55<br />
+Magyarország 
+Viatris Healthcare Kft. 
+1138 Budapest 
+Váci út 150. Tel: +36 1 465 2 
+Česká republika 
+Viatris CZ s.r.o. 
+Tel: +420 222 004<br />
+Malta 
+V.J. Salomone Pharma Limited<br />
+Upper Cross Road 
+Marsa, MRS 1Tel: +356 21 22 01<br />
+Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69  </p>
+<p>Nederland 
+Mylan Healthcare B.V. 
+Krijgsman 1186 DM Amstelveen 
+Tel: +31 (0)20 426 3 
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700 Norge 
+Viatris AS<br />
+Hagaløkkveien 1383 Asker 
+Tlf: +47 66 75 33<br />
+Eesti 
+Viatris OÜ 
+Tel: +372 6363<br />
+Österreich 
+Viatris Austria GmbH 
+Guglgasse 1110 Wien 
+Tel: + 43 (0)1 86 390  </p>
+<p>Ελλάδα 
+Viatris Hellas Ltd 
+Τηλ: +30 210 010 0 
+Polska 
+Viatris Healthcare Sp. z o.o. 
+ul. Postępu 21B 
+02-676 Warszawa 
+Tel: +48 22 546 6 
+España 
+Viatris Pharmaceuticals, S.L. 
+Tel: +34 900 102<br />
+Portugal 
+Viatris Healthcare, Lda. 
+Av. D. João II,<br />
+Edifício Atlantis, nº 44C – 7.3 e 7.4 
+1990-095 Lisboa 
+Tel: +351 214 127<br />
+France 
+Viatris Santé 
+1 bis place de la Défense – Tour Trinity 
+92400 Courbevoie 
+Tél: +33 (0)1 40 80 15<br />
+România 
+BGP PRODUCTS SRL 
+Tel.: +40 372 579<br />
+Hrvatska 
+Viatris Hrvatska d.o.o. 
+Koranska 2 
+10 000  Zagreb 
+Tel: +385 1 2350<br />
+Slovenija 
+Viatris d.o.o. 
+Tel: +386 1 23 63<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+Ísland 
+Icepharma hf. 
+Sími: +354 540 8 
+Suomi/Finland 
+Viatris Oy 
+Vaisalantie 2-8/Vaisalavägen 2-8 
+02130 Espoo/Esbo 
+Puh/Tel: +358 20 720 9 
+Italia 
+Viatris Italia 
+Via Vittor Pisani, 2020124 Milano 
+Tel: +39 0261246 
+Sverige 
+Viatris AB 
+Box 23104 35 Stockholm 
++46 (0) 8 630 19 Κύπρος 
+GPA Pharmaceuticals Ltd 
+Τηλ: +357 22863 
+United Kingdom (Nordirland) 
+Mylan  IRE Healthcare Limited 
+Tel: +44 353 18711Latvija 
+Viatris SIA 
+101 Mūkusalas str. 
+Rīga LV‐1Tālr: +371 67616 </p>
+<p>Lietuva 
+Viatris UAB 
+Žalgirio str. 90-Vilnius LT-09303<br />
+Tel. + 370 52051 </p>
+<p>Denne indlægsseddel blev senest ændret (MM/YYYY) </p>
+<p>Du kan finde yderligere oplysninger om Zyclara på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-44ab08ec2fd441510cd1e000dae630ce
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zyclara Package Leaflet for language en"
+Description: "ePI document Bundle for zyclara Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-44ab08ec2fd441510cd1e000dae630ce"
+* entry[0].resource = composition-en-44ab08ec2fd441510cd1e000dae630ce
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp44ab08ec2fd441510cd1e000dae630ce"
+* entry[=].resource = mp44ab08ec2fd441510cd1e000dae630ce
+                            
+                    
+Instance: bundlepackageleaflet-da-44ab08ec2fd441510cd1e000dae630ce
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zyclara Package Leaflet for language da"
+Description: "ePI document Bundle for zyclara Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-44ab08ec2fd441510cd1e000dae630ce"
+* entry[0].resource = composition-da-44ab08ec2fd441510cd1e000dae630ce
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp44ab08ec2fd441510cd1e000dae630ce"
+* entry[=].resource = mp44ab08ec2fd441510cd1e000dae630ce
+                            
+                    
+
+
+
+Instance: mp44ab08ec2fd441510cd1e000dae630ce
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Zyclara 3.75% cream"
-Description: "Zyclara 3.75% cream"
+Title: "Medicinal Product zyclara"
+Description: "zyclara"
 Usage: #inline
 
  
@@ -470,7 +1060,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Zyclara 3.75% cream"
+  * productName = "zyclara"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -497,29 +1087,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-44ab08ec2fd441510cd1e000dae630ce
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zyclara Package Leaflet for language en"
-Description: "ePI document Bundle for zyclara Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 44ab08ec2fd441510cd1e000dae630ceListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/783/001-003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zyclara"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-44ab08ec2fd441510cd1e000dae630ce"
-* entry[0].resource = composition-en-44ab08ec2fd441510cd1e000dae630ce
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5cd1272e657e3699cb40d713453e04c0"
-* entry[=].resource = mp5cd1272e657e3699cb40d713453e04c0
-                            
-                      
+* title = "List of all ePIs associated with zyclara"
+
+* subject = Reference(mp5cd1272e657e3699cb40d713453e04c0)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zyclara "zyclara"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-44ab08ec2fd441510cd1e000dae630ce) // zyclara en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-44ab08ec2fd441510cd1e000dae630ce) // zyclara da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-44ab08ec2fd441510cd1e000dae630ce
+InstanceOf: List
+
+* insert 44ab08ec2fd441510cd1e000dae630ceListRuleset
+    

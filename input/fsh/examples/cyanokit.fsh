@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-58c65c2882289cd285f1ea0608d4e9f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for cyanokit Package Leaflet"
@@ -246,12 +249,438 @@ France </p>
 
 
 
+Instance: composition-da-58c65c2882289cd285f1ea0608d4e9f7
+InstanceOf: CompositionUvEpi
+Title: "Composition for cyanokit Package Leaflet"
+Description:  "Composition for cyanokit Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1aa40c625793313f84a5fafc0a53570c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1aa40c625793313f84a5fafc0a53570c
+* title = "TEST PURPOSES ONLY - cyanokit"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før Cyanokit bruges 
+3. Sådan skal Cyanokit bruges 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cyanokit is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cyanokit is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cyanokit indeholder det aktive stof hydroxocobalamin. 
+Cyanokit er en modgift til behandling af kendt eller formodet cyanidforgiftning hos alle aldersgrupper. 
+Behandlingen med Cyanokit skal foretages samtidig med, at der gennemføres passende afgiftning og 
+understøttende behandling. </p>
+<p>Cyanid er et meget giftigt kemikalie. Cyanidforgiftning kan forårsages af røggasser, som indåndes i 
+forbindelse med brand i hjemmet eller industribrand. Du kan også få cyanidforgiftning, hvis du 
+indånder eller indtager cyanid, eller hvis cyanid kommer i kontakt med din hud.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cyanokit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cyanokit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Advarsler og forsigtighedsregler </p>
+<p>Fortæl det til lægen eller sundhedspersonalet 
+ 
+hvis du er allergisk over for hydroxocobalamin eller B12-vitamin. Det skal de tage med i deres 
+overvejelser, inden de behandler dig med Cyanokit. 
+ 
+hvis du er blevet behandlet med Cyanokit og du skal have taget følgende: 
+ blod- eller urinprøver. Cyanokit kan ændre resultaterne af disse prøver.<br />
+ brandsårsvurdering. Cyanokit kan påvirke vurderingen, da det forårsager en rødfarvning af 
+huden. 
+ hæmodialyse. Cyanokit kan føre til, at hæmodialysemaskinen lukker ned, indtil det 
+elimineres fra blodet (mindst 5,5 til 6,5 dage). 
+ overvågning af nyrefunktionen: Cyanokit kan føre til nyresvigt og krystaller i urinen. </p>
+<p>Brug af anden medicin sammen med Cyanokit </p>
+<p>Fortæl altid lægen eller andet sundhedspersonale, hvis du bruger anden medicin eller har gjort det for 
+nylig. </p>
+<p>Der findes detaljerede oplysninger til din læge eller andet sundhedspersonale om, hvordan Cyanokit 
+anvendes sammen med anden medicin sidst i denne indlægsseddel (se 'Håndtering'). </p>
+<p>Graviditet og amning </p>
+<p>Dette lægemiddel er beregnet til akutbehandling i nødstilfælde. Det kan anvendes under graviditet og 
+amning. 
+Fortæl det til din læge så hurtigt som muligt, hvis du var gravid eller tror, du kan have været gravid 
+under behandlingen med Cyanokit. 
+Lægen vil anbefale, at du stopper amning efter behandling med Cyanokit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cyanokit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cyanokit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>En læge eller sundhedspersonalet vil give dig Cyanokit ved infusion gennem en blodåre. Du kan have 
+behov for én eller to infusioner. </p>
+<p>Din første infusion af Cyanokit vil vare ca. 15 min. For voksne er den indledende dosis 5 g. For børn 
+er den 70 mg/kg kropsvægt, op til en maksimal dosis på 5 g. Hvis du har brug for en yderligere 
+infusion, vil den vare fra ca. 15 min. til 2 timer. Det afhænger af, hvor alvorlig forgiftningen er. Den 
+maksimale totale anbefalede dosis er 10 g for voksne og 140 mg/kg for børn, op til et maksimum på 
+10 g. </p>
+<p>Der findes detaljerede oplysninger til din læge eller andet sundhedspersonale om, hvordan Cyanokit-
+infusionen klargøres og valg af dosis sidst i denne indlægsseddel (se 'Håndtering'). </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. De 
+følgende bivirkninger kan forventes (hyppigheden kan ikke estimeres ud fra forhåndenværende data):  </p>
+<p>Allergi (overfølsomhed) </p>
+<p>Kontakt straks din læge, hvis du har følgende symptomer under eller efter behandlingen: 
+ 
+hævelse omkring øjne, læber, tunge, hals eller hænder 
+ 
+vejrtrækningsbesvær, hæshed, talebesvær 
+ 
+rødme i huden, nældefeber (urticaria) eller kløe. 
+Sådanne bivirkninger kan være alvorlige og kræve øjeblikkelig lægehjælp. </p>
+<p>Hjerte og blodtryk </p>
+<p> 
+symptomer som hovedpine og svimmelhed, da de kan skyldes en stigning i blodtrykket. Denne 
+stigning i blodtrykket vil især forekomme hen mod afslutningen af behandlingen og vil 
+almindeligvis forsvinde igen inden for nogle timer 
+ 
+uregelmæssig hjertebanken 
+ 
+rødme i ansigtet (hedestigning). 
+Der er også set fald i blodtrykket og hurtigere hjerteslag hos patienter med cyanidforgiftning. </p>
+<p>Vejrtrækning </p>
+<p> 
+væske i brystet (pleural effusion) 
+ 
+vejrtrækningsbesvær 
+ 
+en følelse af sammensnøring i halsen<br />
+ 
+tør hals 
+ 
+trykken for brystet. </p>
+<p>Problemer med nyrerne og urinen </p>
+<p> 
+nyreskader, såsom akut nedsat nyrefuntkion og krystaller i urinen. 
+ 
+Rødfarvning af urinen. 
+Alle patienter får en stærk rødfarvning af urinen i de første tre dage efter behandlingen. Urinen kan 
+blive ved med at være farvet i op til 35 dage efter behandlingen med Cyanokit. Denne rødfarvning har 
+ikke andre virkninger på din krop. </p>
+<p>Fordøjelsen </p>
+<p> 
+ubehag i maven 
+ 
+fordøjelsesbesvær 
+ 
+diaré 
+ 
+kvalme 
+ 
+opkastning 
+ 
+synkebesvær. </p>
+<p>Øjne </p>
+<p> 
+hævelse, irritation, rødme. </p>
+<p>Hudreaktioner </p>
+<p> 
+de fleste patienter vil opleve en reversibel rødfarvning af huden og membranerne langs 
+kroppens hulrum (slimhinderne), der kan vare i op til 15 dage efter administration af Cyanokit. 
+ 
+udslæt med blærer på huden (pustuløst udslæt). Dette kan vare i flere uger og viser sig især på 
+ansigt og hals. 
+ 
+betændelse det sted på kroppen, hvor infusionen med medicin blev indgivet. </p>
+<p>Andre bivirkninger </p>
+<p> 
+rastløshed 
+ 
+hukommelsesproblemer 
+ 
+svimmelhed 
+ 
+hovedpine 
+ 
+hævede ankler 
+ 
+forandrede resultater af blodprøver for visse hvide blodlegemer (lymfocytter) 
+ 
+farvet blodplasma, som kan føre til en kunstig stigning i eller reduktion af niveauerne på visse 
+laboratorieprøver. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
+i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cyanokit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cyanokit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglasset, papæsken og pakningen efter 
+EXP. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p>
+<p>Cyanokit kan, til ambulant brug, i korte perioder udsættes for temperaturudsving under 
+ 
+almindelig transport (15 dage med temperaturer mellem 5 °C og 40 °C) 
+ 
+transport i ørkenen (4 dage med temperaturer mellem 5 °C og 60 °C) og 
+ 
+nedfrysnings-/optøningscyklusser (15 dage med temperaturer mellem -20 °C og 40 °C) </p>
+<p>Opbevaringsforhold for det rekonstituerede lægemiddel: se 'Håndtering' til sidst i denne 
+indlægsseddel.  </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cyanokit indeholder: 
+ 
+Aktivt stof: hydroxocobalamin. Hvert hætteglas indeholder 2,5 g hydroxocobalamin. Efter 
+opløsning i 100 ml fortyndingsvæske indeholder hver ml af infusionsvæsken 25 mg 
+hydroxocobalamin. 
+ 
+Øvrigt indholdsstof: saltsyre (til justering af pH) </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Cyanokit pulver til infusionsvæske, opløsning, er et mørkerødt, krystallinsk pulver, der leveres i et 
+hætteglas, som er lukket med en bromobutylgummiprop og et aluminiumslåg med en plastikmembran. </p>
+<p>Hver pakning indeholder to hætteglas (hvert hætteglas er pakket i en papæske), to sterile 
+overføringskanyler, et sterilt intravenøst infusionssæt og et sterilt kort kateter til brug til børn. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>SERB S.A. 
+Avenue Louise 480<br />
+1050 Brussels 
+Belgien </p>
+<p>Fremstiller </p>
+<p>Merck Santé s.a.s. / SEMOY 
+2, rue du Pressoir Vert 
+45400 Semoy 
+Frankrig </p>
+<p>Eller </p>
+<p>SERB S.A. 
+Avenue Louise 480<br />
+1050 Brussels 
+Belgien </p>
+<p>Eller </p>
+<p>SERB 
+40 Avenue George V 
+75008 Paris 
+Frankrig </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Følgende oplysninger er tiltænkt læger og sundhedspersonale: </p>
+<p>Håndtering </p>
+<p>Behandlingen af en cyanidforgiftning skal inkludere øjeblikkelig sikring af frie luftveje, 
+tilstrækkelig ilt- og væsketilførsel, kardiovaskulær understøttelse og behandling af 
+krampeanfald. Det er vigtigt, at metoden til dekontaminering udvælges afhængigt af 
+eksponeringsvejen. </p>
+<p>Cyanokit er ikke en erstatning for iltterapi og må ikke forsinke iværksættelsen af de ovenfor 
+anførte tiltag. </p>
+<p>Ofte erkendes tilstedeværelsen og graden af en cyanidforgiftning ikke i begyndelsen. Der findes 
+ingen let tilgængelig og hurtig blodtest, der kan bekræfte en cyanidforgiftning. Hvis man 
+alligevel ønsker at påvise cynanidniveauet i blodet, anbefales det, at blodprøven tages, før 
+behandlingen med Cyanokit indledes. Behandlingen fastlægges på baggrund af anamnese 
+og/eller tegn og symptomer på cyanidforgiftning. Ved klinisk mistanke om cyanidforgiftning 
+anbefales det kraftigt, at Cyanokit administreres omgående. </p>
+<p>Klargøring af Cyanokit </p>
+<p>Hvert hætteglas skal rekonstitueres med 100 ml solvens. Den vedlagte sterile overføringskanyle skal 
+anvendes. Den anbefalede solvens er natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning. 
+Kun i de tilfælde hvor natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, ikke er 
+tilgængelig, kan der anvendes Ringers lactat eller glucose 50 mg/ml (5 %) injektionsvæske, opløsning, 
+i stedet.  </p>
+<p>Cyanokit-hætteglasset skal vippes eller roteres i mindst 30 sekunder for at blande opløsningen. Det må 
+ikke rystes, da rystelse af hætteglasset kan medføre skumdannelse, hvilket kan besværliggøre kontrol 
+af opløsningen. Da den rekonstituerede opløsning er mørkerød, er det muligt, at nogle uopløselige 
+partikler måske ikke ses. Derfor skal det intravenøse infusionssæt, der medfølger i pakningen, 
+benyttes, da det indeholder et passende filter. Infusionssættet skal primes med den rekonstituerede 
+opløsning. Hvis det er nødvendigt, gentages denne procedure med det andet hætteglas. </p>
+<p>Dosering </p>
+<p>Initialdosis 
+Voksne: Den initiale dosis Cyanokit er 5 g (2 x 100 ml). </p>
+<p>Pædiatrisk population: Hos spædbørn, børn og unge (i alderen 0 til 18 år) er den initiale dosis 
+Cyanokit 70 mg/kg legemsvægt, dog højst 5 g. </p>
+<p>Legemsvægt 
+i kg </p>
+<p>5 </p>
+<p>Initialdosis 
+i g 
+i ml </p>
+<p>0, 
+0, 
+1, 
+2, 
+2, 
+3, 
+4, 
+Efterfølgende dosis 
+Afhængigt af forgiftningens sværhedsgrad og den kliniske respons kan der administreres en 
+efterfølgende dosis. </p>
+<p>Voksne: Den efterfølgende dosis Cyanokit er 5 g (2 x 100 ml). </p>
+<p>Pædiatrisk population: Hos spædbørn, børn og unge (i alderen 0 til 18 år) er den efterfølgende dosis 
+Cyanokit 70 mg/kg legemsvægt, dog højst 5 g. </p>
+<p>Maksimaldosis </p>
+<p>Voksne: Den maksimale totale anbefalede dosis er 10 g. </p>
+<p>Pædiatrisk population: Hos spædbørn, børn og unge (i alderen 0 til 18 år) er den maksimale totale 
+anbefalede dosis 140 mg/kg, dog højst 10 g. </p>
+<p>Nedsat nyre- eller leverfunktion </p>
+<p>Det er ikke nødvendigt at justere dosis hos disse patienter. </p>
+<p>Administration </p>
+<p>Den initiale dosis af Cyanokit administreres som en intravenøs infusion i løbet af 15 min. </p>
+<p>Infusionshastigheden for den efterfølgende dosis varierer fra 15 min. (for de patienter, hvis tilstand er 
+ekstremt ustabil) til 2 timer, afhængigt af patientens tilstand. </p>
+<p>Samtidig administration af Cyanokit og andre produkter </p>
+<p>Cyanokit må kun blandes med natriumchlorid 9 mg/ml (0,9 %) opløsning til injektion eller Ringers 
+lactat eller glucose 50 mg/ml (5 %) injektionsvæske, opløsning. </p>
+<p>Da der er påvist fysisk og kemisk uforligelighed med et antal udvalgte lægemidler, der ofte anvendes 
+ved genoplivning, må disse og andre lægemidler derfor ikke administreres samtidig med 
+hydroxocobalamin gennem den samme intravenøse adgang. </p>
+<p>Hvis blodprodukter (fuldblod, røde blodlegemer, trombocytkoncentrat og frisk frosset plasma) og 
+hydroxocobalamin administreres samtidig, anbefales det at bruge separate intravenøse adgange (helst 
+på kontralaterale ekstremiteter). </p>
+<p>Kombination med en anden cyanid-antidot: Der blev observeret kemisk uforligelighed med 
+natriumthiosulfat og natriumnitrit. Hvis det besluttes at administrere en anden cyanid-antidot sammen 
+med Cyanokit, må disse lægemidler ikke administreres samtidig gennem samme intravenøse adgang. </p>
+<p>Stabilitet af den rekonstituerede opløsning </p>
+<p>Der er påvist kemisk og fysisk stabilitet i den rekonstituerede opløsning med natriumchlorid 9 mg/ml 
+(0,9 %) i 6 timer ved en temperatur på mellem 2 °C og 40 °C.<br />
+Set fra et mikrobielt synspunkt skal lægemidlet anvendes omgående. Hvis det ikke anvendes 
+omgående, er opbevaringstid og -forhold før brug brugerens ansvar og vil normalt ikke overskride 
+6 timer ved 2 °C til 8 °C. 
+Indlægsseddel: Information til brugeren </p>
+<p>Cyanokit 5 g pulver til infusionsvæske, opløsning 
+Hydroxocobalamin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+ 
+Gem indlægssedlen. Du kan få brug for at læse den igen. 
+ 
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+ 
+Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
+som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-58c65c2882289cd285f1ea0608d4e9f7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cyanokit Package Leaflet for language en"
+Description: "ePI document Bundle for cyanokit Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-58c65c2882289cd285f1ea0608d4e9f7"
+* entry[0].resource = composition-en-58c65c2882289cd285f1ea0608d4e9f7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp58c65c2882289cd285f1ea0608d4e9f7"
+* entry[=].resource = mp58c65c2882289cd285f1ea0608d4e9f7
+                            
+                    
+Instance: bundlepackageleaflet-da-58c65c2882289cd285f1ea0608d4e9f7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cyanokit Package Leaflet for language da"
+Description: "ePI document Bundle for cyanokit Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-58c65c2882289cd285f1ea0608d4e9f7"
+* entry[0].resource = composition-da-58c65c2882289cd285f1ea0608d4e9f7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp58c65c2882289cd285f1ea0608d4e9f7"
+* entry[=].resource = mp58c65c2882289cd285f1ea0608d4e9f7
+                            
+                    
+
+
+
+Instance: mp58c65c2882289cd285f1ea0608d4e9f7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cyanokit 2.5 g powder for solution for infusion"
-Description: "Cyanokit 2.5 g powder for solution for infusion"
+Title: "Medicinal Product cyanokit"
+Description: "cyanokit"
 Usage: #inline
 
  
@@ -271,7 +700,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cyanokit 2.5 g powder for solution for infusion"
+  * productName = "cyanokit"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -298,29 +727,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-58c65c2882289cd285f1ea0608d4e9f7
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cyanokit Package Leaflet for language en"
-Description: "ePI document Bundle for cyanokit Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 58c65c2882289cd285f1ea0608d4e9f7ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/07/420/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cyanokit"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-58c65c2882289cd285f1ea0608d4e9f7"
-* entry[0].resource = composition-en-58c65c2882289cd285f1ea0608d4e9f7
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1aa40c625793313f84a5fafc0a53570c"
-* entry[=].resource = mp1aa40c625793313f84a5fafc0a53570c
-                            
-                      
+* title = "List of all ePIs associated with cyanokit"
+
+* subject = Reference(mp1aa40c625793313f84a5fafc0a53570c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cyanokit "cyanokit"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-58c65c2882289cd285f1ea0608d4e9f7) // cyanokit en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-58c65c2882289cd285f1ea0608d4e9f7) // cyanokit da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-58c65c2882289cd285f1ea0608d4e9f7
+InstanceOf: List
+
+* insert 58c65c2882289cd285f1ea0608d4e9f7ListRuleset
+    

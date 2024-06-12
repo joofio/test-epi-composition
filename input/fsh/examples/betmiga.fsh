@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f5fcc043447c207ce2e1eb4575399a55
 InstanceOf: CompositionUvEpi
 Title: "Composition for betmiga Package Leaflet"
@@ -329,12 +332,423 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-f5fcc043447c207ce2e1eb4575399a55
+InstanceOf: CompositionUvEpi
+Title: "Composition for betmiga Package Leaflet"
+Description:  "Composition for betmiga Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp72ec24cd554b7481051ac61162f461b2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp72ec24cd554b7481051ac61162f461b2
+* title = "TEST PURPOSES ONLY - betmiga"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Betmiga 
+3. Sådan skal du tage Betmiga 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What betmiga is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What betmiga is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Betmiga indeholder det aktive stof mirabegron. Det virker afslappende på blæremuskulaturen (er en 
+såkaldt beta 3-adrenoceptoragonist), som nedsætter aktiviteten i en overaktiv blære og behandler de 
+dermed forbundne symptomer. </p>
+<p>Betmiga anvendes til behandling af symptomerne på en overaktiv blære hos voksne<br />
+- med pludselig vandladningstrang (såkaldt imperiøs vandladning) 
+- med vandladningstrang oftere end normalt (såkaldt øget vandladningshyppighed)<br />
+- med manglende evne til at styre vandladningen (såkaldt urge-inkontinens) </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take betmiga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take betmiga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Betmiga 
+- hvis du er allergisk over for  mirabegron eller et af de øvrige indholdsstoffer i Betmiga (angivet i 
+punkt 6).<br />
+- hvis du har meget højt ukontrolleret blodtryk. 
+Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Betmiga 
+- hvis du har problemer med at tømme din blære eller har en svag urinstråle eller hvis du er i 
+behandling med andre lægemidler for overaktiv blære så som antikolinerge lægemidler.<br />
+- hvis du har nyre- eller leverproblemer. Din læge kan være nødt til at reducere din dosis eller kan 
+fortælle dig, at du ikke må tage Betmiga, især hvis du tager anden medicin, som f.eks. 
+itraconazol, ketoconazol (svampeinfektioner), ritonavir (HIV) og clarithromycin (bakterielle 
+infektioner). Fortæl din læge, hvilken anden medicin, du tager. 
+-  hvis du har en EKG (hjertekurve)-uregelmæssighed kendt som QT-forlængelse, eller hvis du 
+tager medicin, der vides at bevirke dette, såsom. * medicin, som anvendes mod unormal hjerterytme, som f.eks. quinidin, sotalol, 
+procainamid, ibutilid, flecainid, dofetilid og amiodaron;  * medicin som anvendes mod høfeber;<br />
+ * antipsykotika (lægemidler mod psykisk sygdom), som f.eks. thioridazin, mesoridazin, 
+haloperidol og chlorpromazin;  * medicin, som anvendes mod infektion, som f.eks. pentamidin, moxifloxacin, 
+erythromycin og clarithromycin. </p>
+<p>Mirabegron kan få dit blodtryk til at stige eller forværre dit blodtryk, hvis du tidligere har haft højt 
+blodtryk. Det anbefales, at din læge kontrollerer dit blodtryk, når du tager Mirabegron. 
+Børn og unge 
+Dette lægemiddel må ikke gives til børn og unge under 18 år, da Betmigas sikkerhed og virkning ikke 
+er klarlagt for denne aldersgruppe. 
+Brug af anden medicin sammen med Betmiga 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig.  </p>
+<p>Betmiga kan påvirke andre lægemidlers virkemåde, og andre lægemidler kan påvirke dette 
+lægemiddels virkemåde. 
+- Fortæl altid lægen, hvis du bruger thioridazin (et lægemiddel mod psykisk sygdom), propafenon 
+eller flecainid (lægemidler mod unormal hjerterytme), imipramin eller desipramin (lægemidler 
+mod depression). Lægen kan være nødt til at justere dosis af disse specifikke lægemidler. 
+- Fortæl altid lægen, hvis du bruger digoxin (et lægemiddel mod hjertesvigt eller unormal 
+hjerterytme). Lægen måler koncentrationen af dette lægemiddel i blodet. Hvis koncentrationen i 
+blodet er uden for det ønskede interval, kan lægen justere digoxindosis. 
+- Fortæl altid lægen, hvis du bruger dabigatran-etexilat (et lægemiddel som anvendes til at 
+mindske risikoen for at få en blodprop i hjernen eller andre steder i kroppen hos voksne 
+patienter, der har en unormal hjerterytme (atrieflimren) med andre risikofaktorer). Lægen kan 
+være nødt til at justere dosis af dette lægemiddel. 
+Graviditet og amning 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, må du ikke tage 
+Betmiga. </p>
+<p>Hvis du ammer, skal du spørge din læge eller apoteket til råds, før du tager dette lægemiddel. Det er 
+sandsynligt, at dette lægemiddel udskilles i modermælk. Du og din læge skal beslutte, om du skal tage 
+Betmiga eller amme. Du må ikke gøre begge dele. 
+Trafik- og arbejdssikkerhed 
+Der er ingen oplysninger, der tyder på, at dette lægemiddel påvirker din evne til at føre motorkøretøj 
+og betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take betmiga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take betmiga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på 
+apoteket.  </p>
+<p>Den sædvanlige dosis er én 50 mg tablet gennem munden én gang dagligt. Hvis du har nyre- eller 
+leverproblemer, kan lægen være nødt til at reducere din dosis til én 25 mg tablet én gang dagligt. Du 
+skal tage dette lægemiddel med væske og synke tabletten hel. Tabletten må ikke knuses eller tygges. 
+Betmiga kan tages med eller uden mad. 
+Hvis du har taget for meget Betmiga 
+Hvis du har taget flere tabletter, end du er blevet bedt om at tage, eller hvis en anden er kommet til at 
+tage dine tabletter, skal du straks kontakte din læge, apoteket eller en skadestue. </p>
+<p>Symptomer på overdosering kan omfatte kraftig hjertebanken, øget puls eller øget blodtryk. </p>
+<p>Hvis du har glemt at tage Betmiga 
+Hvis du har glemt at tage din medicin, skal du tage den glemte dosis, så snart du kommer i tanke om 
+det. Hvis der er mindre end 6 timer til din næste planlagte dosis, skal du springe den glemte dosis over 
+og fortsætte med at tage din medicin på det sædvanlige tidspunkt.  </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Hvis du har glemt flere doser, 
+skal du fortælle det til din læge og følge de råd, du får. 
+Hvis du holder op med at tage Betmiga 
+Stands ikke behandlingen med Betmiga før tid, hvis du ikke straks oplever en virkning. Din blære kan 
+have brug for tilvænningstid. Du skal fortsætte med at tage dine tabletter. Hold ikke op med at tage 
+dem ved bedring af din blæresygdom. Standsning af behandlingen kan resultere i tilbagevenden af 
+symptomer på overaktiv blære. </p>
+<p>Hold ikke op med at tage Betmiga uden først at tale med lægen, da dine symptomer på overaktiv blære 
+kan vende tilbage. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De mest alvorlige bivirkninger kan omfatte uregelmæssig puls (atrieflimren). Dette er en ikke 
+almindelig bivirkning (kan forekomme hos op til 1 ud af 100 personer), men opstår denne bivirkning, 
+skal du straks stoppe med at tage lægemidlet og med det samme kontakte lægen. </p>
+<p>Hvis du oplever hovedpine, især pludselig, migræne-lignende (dunkende) hovedpine, så kontakt din 
+læge. Dette kan være symptomer på stærkt forhøjet blodtryk.  </p>
+<p>Andre bivirkninger omfatter: </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer)<br />
+- Øget puls (takykardi) 
+- Infektion i de urinledende strukturer (urinvejsinfektioner) 
+- Kvalme 
+- Obstipation 
+- Hovedpine 
+- Diarré 
+- Svimmelhed </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) 
+- Blæreinfektion (cystitis) 
+- Du mærker dine hjerteslag (palpitationer) 
+- Skedeinfektion 
+- Fordøjelsesproblemer (dyspepsi) 
+- Maveinfektion (gastritis) 
+- Hævede led 
+- Kløe i de ydre kvindelige kønsorganer eller skeden (vulvovaginal pruritis) 
+- Øget blodtryk 
+- Stigning i niveauerne af leverenzymer (GGT, ASAT og ALAT)<br />
+- Kløe, udslæt eller nældefeber (urticaria, udslæt, makuløst udslæt, papuløst udslæt, pruritus) </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer) 
+- Hævet øjenlåg (øjenlågsødem) 
+- Hævet læbe (læbeødem) 
+- Hævelse af hudens dybere lag forårsaget af væskeophobning, hvilket kan påvirke alle dele af 
+kroppen, herunder ansigt, tunge eller svælg, og kan forårsage åndedrætsbesvær (angioødem) 
+- Små violette pletter på huden (purpura) 
+- Betændelse i små blodkar, som hovedsagelig forekommer i huden (leukocytoklastisk vasculitis) 
+- Manglende evne til at tømme blære helt (urinretention) </p>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 personer) 
+- Hypertensiv krise </p>
+<p>Ikke kendt (hyppighed kan ikke estimeres ud fra forhåndenværende data) 
+- Søvnløshed 
+- Forvirring </p>
+<p>Betmiga kan forøge din risiko for at ikke at kunne tømme blæren, hvis du har 
+blæreudgangsobstruktion eller tager andre lægemidler til behandling af overaktiv blære. Fortæl straks 
+lægen, hvis du ikke kan tømme din blære. 
+Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store betmiga"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store betmiga"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen eller blisteren efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.  </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Betmiga indeholder:</p>
+<ul>
+<li>Det aktive stof er mirabegron. 
+Betmiga 25 mg filmovertrukne depottabletter<br />
+Hver tablet indeholder 25 mg mirabegron. 
+Betmiga 50 mg filmovertrukne depottabletter<br />
+Hver tablet indeholder 50 mg mirabegron. </li>
+<li>Øvrige indholdsstoffer: 
+Tabletkerne: Macrogoler, hydroxypropylcellulose, butylhydroxytoluen, magnesiumstearat 
+Filmovertræk: Hypromellose, macrogol, jernoxidgult (E 172), jernoxidrødt (E 172) (kun 25 mg 
+tablet). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Betmiga 25 mg filmovertrukne depottabletter er ovale, brune filmovertrukne tabletter præget med 
+firmalogo og "325" på samme side.<br />
+Betmiga 50 mg filmovertrukne depottabletter er ovale, gule filmovertrukne tabletter præget med 
+firmalogo og "355" på samme side. </p>
+<p>Betmiga fås i aluminium/aluminium-blistre i pakninger med 10, 20, 30, 50, 60, 90, 100 eller tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. 
+Indehaver af markedsføringstilladelsen 
+Astellas Pharma Europe B.V. 
+Sylviusweg 2333 BE Leiden 
+Holland </p>
+<p>Fremstiller 
+Delpharm Meppel B.V. 
+Hogemaat 2 
+7942 JG Meppel 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Astellas Pharma B.V. Branch 
+Tél/Tel: +32 (0)2 5580 
+Lietuva 
+Biocodex UAB 
+Tel.: +370 37 408<br />
+България 
+Астелас Фарма ЕООД<br />
+Teл.: +359 2 862 53  </p>
+<p>Luxembourg/Luxemburg 
+Astellas Pharma B.V. Branch 
+Belgique/Belgien 
+Tél/Tel: +32 (0)2 5580 
+Česká republika 
+Astellas Pharma s.r.o. 
+Tel: +420 221 401<br />
+Magyarország 
+Astellas Pharma Kft. 
+Tel.: +36 1 577 8 
+Danmark 
+Astellas Pharma a/s 
+Tlf: +45 43 430 
+Malta 
+Astellas Pharmaceuticals AEBE 
+Tel: +30 210 8189 
+Deutschland 
+Astellas Pharma GmbH 
+Tel.: +49 (0)89 454 
+Nederland 
+Astellas Pharma B.V. 
+Tel: +31 (0)71 5455 
+Eesti 
+Biocodex OÜ 
+Tel: +372 6 056<br />
+Norge 
+Astellas Pharma<br />
+Tlf: +47 66 76 46<br />
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: +30 210 8189 
+Österreich 
+Astellas Pharma Ges.m.b.H. 
+Tel.: +43 (0)1 8772 </p>
+<p>España 
+Astellas Pharma S.A. 
+Tel: +34 91 4952 
+Polska 
+Astellas Pharma Sp.z.o.o. 
+Tel.: +48 225451<br />
+France 
+Astellas Pharma S.A.S. 
+Tél: +33 (0)1 55917 
+Portugal 
+Astellas Farma, Lda. 
+Tel: +351 21 4401 
+Hrvatska 
+Astellas d.o.o 
+Tel: +385 1670 0<br />
+România 
+S.C.Astellas Pharma SRL 
+Tel: +40 (0)21 361 04 95/96/ 
+Ireland 
+Astellas Pharma Co. Ltd. 
+Tel: +353 (0)1 4671 
+Slovenija 
+Astellas Pharma d.o.o 
+Tel: +386 14011 
+Ísland 
+Vistor hf 
+Sími: +354 535 7000  </p>
+<p>Slovenská republika 
+Astellas Pharma s.r.o.<br />
+Tel: +421 2 4444 2 
+Italia 
+Astellas Pharma S.p.A. 
+Tel: +39 (0)2 921 
+Suomi/Finland 
+Astellas Pharma 
+Puh/Tel: +358 (0)9 85606 
+Κύπρος 
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: +30 210 8189 
+Sverige 
+Astellas Pharma AB 
+Tel: +46 (0)40-650 15<br />
+Latvija 
+Biocodex SIATel: +371 67 619 
+United Kingdom (Northern Ireland) 
+Astellas Pharma Co., Limited 
+Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671 </p>
+<p>Denne indlægsseddel blev senest ændret {DD/MM/ÅÅÅÅ}<br />
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+http://www.ema.europa.eu hjemmeside.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f5fcc043447c207ce2e1eb4575399a55
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for betmiga Package Leaflet for language en"
+Description: "ePI document Bundle for betmiga Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f5fcc043447c207ce2e1eb4575399a55"
+* entry[0].resource = composition-en-f5fcc043447c207ce2e1eb4575399a55
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf5fcc043447c207ce2e1eb4575399a55"
+* entry[=].resource = mpf5fcc043447c207ce2e1eb4575399a55
+                            
+                    
+Instance: bundlepackageleaflet-da-f5fcc043447c207ce2e1eb4575399a55
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for betmiga Package Leaflet for language da"
+Description: "ePI document Bundle for betmiga Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f5fcc043447c207ce2e1eb4575399a55"
+* entry[0].resource = composition-da-f5fcc043447c207ce2e1eb4575399a55
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf5fcc043447c207ce2e1eb4575399a55"
+* entry[=].resource = mpf5fcc043447c207ce2e1eb4575399a55
+                            
+                    
+
+
+
+Instance: mpf5fcc043447c207ce2e1eb4575399a55
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Betmiga 25 mg prolonged-release tablets"
-Description: "Betmiga 25 mg prolonged-release tablets"
+Title: "Medicinal Product betmiga"
+Description: "betmiga"
 Usage: #inline
 
  
@@ -354,7 +768,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Betmiga 25 mg prolonged-release tablets"
+  * productName = "betmiga"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -381,29 +795,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f5fcc043447c207ce2e1eb4575399a55
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for betmiga Package Leaflet for language en"
-Description: "ePI document Bundle for betmiga Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f5fcc043447c207ce2e1eb4575399a55ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/809/001 - 006"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "betmiga"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f5fcc043447c207ce2e1eb4575399a55"
-* entry[0].resource = composition-en-f5fcc043447c207ce2e1eb4575399a55
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp72ec24cd554b7481051ac61162f461b2"
-* entry[=].resource = mp72ec24cd554b7481051ac61162f461b2
-                            
-                      
+* title = "List of all ePIs associated with betmiga"
+
+* subject = Reference(mp72ec24cd554b7481051ac61162f461b2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#betmiga "betmiga"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f5fcc043447c207ce2e1eb4575399a55) // betmiga en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f5fcc043447c207ce2e1eb4575399a55) // betmiga da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f5fcc043447c207ce2e1eb4575399a55
+InstanceOf: List
+
+* insert f5fcc043447c207ce2e1eb4575399a55ListRuleset
+    

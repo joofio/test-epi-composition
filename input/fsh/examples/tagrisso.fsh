@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d7f220f9031e8b4b6b6e866b11abbe3a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tagrisso Package Leaflet"
@@ -387,12 +390,570 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-d7f220f9031e8b4b6b6e866b11abbe3a
+InstanceOf: CompositionUvEpi
+Title: "Composition for tagrisso Package Leaflet"
+Description:  "Composition for tagrisso Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp20282c966eaa91f5d13cc6ea49d375ef)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp20282c966eaa91f5d13cc6ea49d375ef
+* title = "TEST PURPOSES ONLY - tagrisso"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage TAGRISSO
+3. Sådan skal du tage TAGRISSO
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tagrisso is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tagrisso is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TAGRISSO indeholder det aktive stof osimertinib, som tilhører en gruppe lægemidler kaldet
+proteinkinasehæmmere, der anvendes til behandling af kræft. TAGRISSO anvendes til behandling af 
+voksne med en type lungekræft, som kaldes "ikke-småcellet lungecancer". Hvis en prøve har vist, at 
+din kræftsygdom har visse ændringer (mutationer) i et gen kaldet "EGFR" (epidermal 
+vækstfaktorreceptor), vil din kræft sandsynligvis reagere på behandling med TAGRISSO. TAGRISSO 
+kan ordineres til dig:
+
+når din kræft er fuldstændigt fjernet eller som behandling efter operation (givet som
+tillægsbehandling)
+eller
+
+som det første lægemiddel, du får for din kræftsygdom, der har spredt sig til andre dele af 
+kroppen
+eller
+
+under visse omstændigheder, hvis du tidligere har været behandlet for kræft med andre 
+proteinkinasehæmmende lægemidler.
+Sådan virker TAGRISSO
+TAGRISSO virker ved at blokere for EGFR og kan hjælpe med at bremse eller standse din lungekræft 
+fra at vokse. Det kan også være med til at nedsætte tumorens størrelse og forhindre, at tumoren 
+kommer tilbage efter den er blevet fjernet ved en operation.
+
+Hvis du får TAGRISSO efter din kræft er blevet fjernet fuldstændigt, betyder det, at din kræft 
+indeholdt defekter i EGFR-genet, "exon 19-deletion" eller "exon 21-substitutionsmutation".
+
+Hvis TAGRISSO er det første proteinkinasehæmmende lægemiddel, du får, betyder det, at din 
+kræftsygdom indeholder defekter i EGFR-genet, for eksempel "exon 19-deletion" eller 
+"exon 21-substitutionsmutation".
+46
+
+Hvis din kræft har udviklet sig, mens du blev behandlet med andre proteinkinasehæmmende 
+lægemidler, betyder det, at din kræft indeholder en gendefekt kaldet "T790M". På grund af 
+denne defekt vil andre proteinkinaselægemidler muligvis ikke længere virke.
+Spørg lægen, hvis du har spørgsmål til, hvordan dette lægemiddel virker, eller hvorfor du skal have 
+dette lægemiddel.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tagrisso"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tagrisso"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke TAGRISSO hvis:
+
+du er allergisk over for osimertinib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6).
+
+du tager perikon (Hypericum perforatum).
+Spørg lægen, apotekspersonalet eller sygeplejersken, før du tager TAGRISSO, hvis du er i tvivl.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager TAGRISSO, hvis: 
+
+du tidligere har haft en betændelseslignende sygdom (inflammation) i dine lunger (en sygdom, 
+der hedder "interstitiel lungesygdom").
+
+du nogensinde har haft hjerteproblemer – lægen vil måske overvåge dig mere omhyggeligt. 
+
+du tidligere har haft problemer med øjnene.
+Tal med lægen, apotekspersonalet eller sygeplejersken, inden du tager dette lægemiddel, hvis noget af 
+ovenstående gælder for dig (eller hvis du er i tvivl).
+Fortæl det straks til lægen under behandlingen med dette lægemiddel, hvis:
+
+du pludseligt har besvær med at trække vejret og samtidig får hoste eller feber.
+
+din hud skaller i alvorlig grad.
+
+du oplever hurtig eller uregelmæssig puls, svimmelhed, ørhed, ubehag i brystet, åndenød og 
+besvimelse.
+
+dine øjne løber i vand, du bliver lysfølsom, du får øjensmerter, røde øjne eller forandringer af 
+synet.
+Se "alvorlige bivirkninger" i punkt 4 for yderligere information.
+
+du udvikler vedvarende feber, øget tendens til blå mærker eller blødning, bliver mere træt, får 
+bleg hud og infektioner. Se "Alvorlige bivirkninger" i punkt 4 for yderligere information.
+Børn og unge 
+TAGRISSO er ikke undersøgt hos børn og unge. Børn og unge under 18 år må ikke få dette 
+lægemiddel.
+Brug af andre lægemidler sammen med TAGRISSO
+Fortæl lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Dette gælder også naturlægemidler og 
+lægemidler, som ikke er købt på recept. Dette skyldes, at TAGRISSO kan påvirke den måde, hvorpå 
+andre lægemidler virker, og nogle andre lægemidler kan påvirke den måde, hvorpå TAGRISSO virker.
+Fortæl det til lægen, før du tager TAGRISSO, hvis du tager nogle af følgende lægemidler: 
+Nedenstående lægemidler kan nedsætte TAGRISSOs virkning:
+
+Phenytoin, carbamazepin og phenobarbital – bruges mod krampeanfald.
+
+Rifabutin og rifampicin – bruges mod tuberkulose (TB).
+
+Perikon (Hypericum perforatum) – et naturlægemiddel, der bruges mod depression.
+47
+TAGRISSO kan påvirke, hvor godt følgende lægemidler virker og/eller øge bivirkningerne af disse 
+lægemidler:
+
+Rosuvastatin - bruges til at sænke kolesterol.
+
+Orale (taget gennem munden) hormonelle svangerskabsforebyggende tabletter (f.eks. P-piller).
+
+Bosentan - bruges mod forhøjet blodtryk i lungerne
+
+Efavirenz og etravirin - bruges til behandling af HIV-infektioner/AIDS
+
+Modafinil - bruges mod søvnforstyrrelser
+
+Dabigatran – bruges forebyggende mod blodpropper
+
+Digoxin – bruges mod uregelmæssige hjerteslag eller andre hjerteproblemer
+
+Aliskiren – bruges mod forhøjet blodtryk
+Hvis du tager nogen af ovenstående lægemidler, skal du fortælle det til din læge, inden du tager 
+TAGRISSO. Lægen vil tale med dig om passende behandlingsmuligheder.
+Graviditet – information til kvinder
+
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge til råds, før du tager dette lægemiddel. Hvis du bliver gravid 
+under behandlingen, skal du straks fortælle det til lægen. Lægen vil sammen med dig beslutte, 
+om du skal fortsætte med at tage TAGRISSO. 
+
+Du må ikke blive gravid, mens du tager dette lægemiddel. Hvis du kan blive gravid, skal du 
+bruge effektiv prævention. Se "Prævention - information til kvinder og mænd" nedenfor.
+
+Hvis du planlægger at blive gravid, efter du har taget den sidste dosis af dette lægemiddel, skal 
+du spørge lægen om råd. Dette skyldes, at lægemidlet fortsat kan være i din krop (se rådene om 
+prævention nedenfor).
+Graviditet – information til mænd
+
+Hvis din partner bliver gravid, mens du tager dette lægemiddel, skal du straks fortælle det til din 
+læge.
+Prævention – information til kvinder og mænd
+Du skal bruge effektiv prævention under behandlingen.
+
+TAGRISSO kan påvirke, hvor godt svangerskabsforebyggende tabletter (f.eks. p-piller) virker. 
+Tal med lægen om de bedst egnede præventionsmetoder.
+
+TAGRISSO kan passere over i sæd. Derfor er det vigtigt, at mænd også bruger effektiv 
+prævention.
+Dette skal du også gøre efter afslutning af behandling med TAGRISSO:
+
+Kvinder – brug prævention i 2 måneder efter. 
+
+Mænd – brug prævention i 4 måneder efter.
+Amning
+Du må ikke amme, mens du tager dette lægemiddel. Dette skyldes, at det ikke er afklaret, om der er en 
+risiko for dit barn.
+Trafik- og arbejdssikkerhed
+TAGRISSO har ingen eller kun en ubetydelig indvirkning på evnen til at føre motorkøretøj og 
+anvende maskiner.
+TAGRISSO indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per tablet, dvs. det er i det 
+væsentlige natriumfrit.
+48</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tagrisso"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tagrisso"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.
+Så meget skal du tage
+
+Den anbefalede dosis er én 80 mg tablet hver dag.
+
+Om nødvendigt kan lægen nedsætte din dosis til én 40 mg tablet hver dag.
+Sådan skal du tage lægemidlet
+
+TAGRISSO indtages gennem munden. Synk tabletten hel med vand. Du må ikke knuse, dele 
+eller tygge tabletten.
+
+Tag TAGRISSO hver dag på samme tidspunkt.
+
+Du kan tage dette lægemiddel med eller uden mad.
+Hvis du har svært ved at synke tabletten, kan du blande den op i vand: 
+
+Put tabletten i et glas.
+
+Tilsæt 50 ml postevand (uden brus) – brug ikke andre væsker.
+
+Omrør vandet, indtil tabletten har delt sig i meget små stykker - tabletten vil ikke blive helt 
+opløst.
+
+Drik straks væsken.
+
+For at være sikker på, at du har fået alt lægemidlet, skal du skylle glasset grundigt med 
+yderligere 50 ml vand og drikke det.
+Hvis du har taget for meget TAGRISSO
+Hvis du har taget mere end din normale dosis, skal du straks kontakte lægen eller nærmeste skadestue.
+Hvis du har glemt at tage TAGRISSO
+Hvis du glemmer en dosis, skal du tage den så snart, du kommer i tanke om det. Hvis der er under 
+12 timer til din næste dosis, skal du dog springe den glemte dosis over. Tag din næste dosis på det 
+sædvanlige tidspunkt.
+Hvis du holder op med at tage TAGRISSO
+Du må ikke holde op med at tage dette lægemiddel - tal først med lægen. Det er vigtigt at tage dette 
+lægemiddel hver dag lige så længe, lægen ordinerer det til dig.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger
+Fortæl det straks til lægen, hvis du bemærker denne alvorlige bivirkning (se også punkt 2):
+
+Pludseligt besvær med at trække vejret samtidig med hoste eller feber - dette kan være tegn på 
+en betændelseslignende reaktion (inflammation) i lungerne (en sygdom, der hedder "interstitiel 
+lungesygdom"). De fleste tilfælde kan behandles, men nogle har været dødelige. Lægen kan 
+beslutte, at du skal stoppe med at tage TAGRISSO, hvis du får denne bivirkning. Denne 
+bivirkning er almindelig: kan forekomme hos op til 1 ud af 10 personer.
+
+Stevens-Johnsons syndrom og toksisk epidermal nekrolyse, der kan forekomme som rødlige 
+målskivelignende pletter eller runde områder, ofte med blærer centralt på kroppen, afskalning af 
+hud, sår i mund, hals, næse, på kønsorganer og i øjnene, og som kan komme efter feber og 
+influenzalignende symptomer. Stevens-Johnsons syndrom er sjældent: kan forekomme hos op 
+til 1 ud af 1 000 personer. Hyppigheden af toksisk epidermal nekrolyse kan ikke fastslås, da der 
+kun er rapporteret tilfælde efter markedsføring af TAGRISSO.
+49
+
+Ændringer i den elektriske aktivitet i hjertet (QTc-forlængelse) såsom hurtig eller uregelmæssig 
+puls, svimmelhed, ørhed, ubehag i brystet, åndenød og besvimelse. Denne bivirkning er ikke 
+almindelig; den kan forekomme hos op til 1 ud af 100 personer.
+
+Hvis dine øjne begynder at løbe i vand, bliver følsomme for lys, du får øjensmerter, røde øjne 
+eller synsforandringer. Denne bivirkning er ikke almindelig: kan forekomme hos op til 1 ud af 
+100 personer.
+
+En blodsygdom kaldet aplastisk anæmi, der skyldes, at knoglemarven stopper med at producere 
+nye blodlegemer – tegn, tydende på denne blodsygdom, kan omfatte vedvarende feber, øget
+tendens til blå mærker eller blødning, øget træthed og nedsat evne til at bekæmpe infektioner. 
+Denne bivirkning er sjælden: den kan påvirke op til 1 ud af 1 000 personer.
+
+En tilstand, hvor hjertet ikke pumper tilstrækkeligt blod ud af hjertet i ét slag så godt, som det 
+burde, hvilket kan resultere i åndenød, træthed og hævede ankler (dette tyder på hjertesvigt eller 
+nedsat venstre ventrikel uddrivningsfraktion).
+Fortæl det straks til lægen, hvis du bemærker ovenstående alvorlige bivirkninger.
+Andre bivirkninger
+Meget almindelige (kan påvirke mere end 1 ud af 10 personer)
+
+Diarré – dette kan komme og gå under behandlingen. Fortæl det til lægen, hvis diarréen ikke går 
+væk eller hvis den bliver voldsom. 
+
+Problemer med hud og negle – tegnene kan omfatte smerte, kløe, tør hud, udslæt, rødme 
+omkring fingerneglene. Dette sker oftere i områder, der er udsat for sol. Det kan hjælpe at bruge 
+fugtighedscreme på hud og negle regelmæssigt. Fortæl det til lægen, hvis problemerne med hud 
+og negle bliver værre.
+
+Stomatitis – betændelse i slimhinden i munden eller sår i munden.
+
+Appetitløshed
+
+Nedsat antal hvide blodlegemer (leukocytter, lymfocytter eller neutrofilocytter).
+
+Nedsat antal blodplader.
+Almindelige (kan påvirke op til 1 ud af 10 personer)
+
+Næseblod (epistaksis)
+
+Hårtab (alopeci)
+
+Nældefeber (urticaria) – kløende, hævede plamager forskellige steder på kroppen, som kan være 
+lyserøde eller røde og have en rund form. Fortæl det til lægen, hvis du får denne bivirkning.
+
+Hånd-fod-syndrom – dette kan omfatte rødme, hævelse, prikken eller en brændende 
+fornemmelse med revner i huden på håndfladerne og/eller fodsålerne.
+
+Øget forekomst af et stof i blodet, som kaldes kreatinin (det produceres af kroppen og fjernes af 
+nyrerne)
+
+Øget forekomst af et stof i blodet, som kaldes kreatinfosfokinase (et enzym, der frigives i 
+blodet, når musklen er beskadiget).
+Ikke almindelige (kan påvirke op til 1 ud af 100 personer)
+
+Grålig eller mørkere hud (hyperpigmentering).
+
+Hudlæsioner, der ligner ringe (mållæsioner) (tyder på erythema multiforme).
+
+Betændelse i blodkarrene i huden. Dette kan give anledning til blå mærker eller rødme på 
+huden, som ikke blegner i farven, når man trykker på stedet.
+Sjældne (kan påvirke op til 1 ud af 1 000 personer)
+
+Inflammation i muskulaturen, som kan resultere i muskelsmerter eller -svaghed.
+50
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tagrisso"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tagrisso"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterfolien og æsken efter EXP.
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på at have været åbnet.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TAGRISSO indeholder:
+
+Aktivt stof: osimertinib (som mesylat). Hver 40 mg filmovertrukket tablet indeholder 40 mg
+osimertinib. Hver 80 mg filmovertrukket tablet indeholder 80 mg osimertinib.
+
+Øvrige indholdsstoffer: mannitol, mikrokrystallinsk cellulose, lavsubstitueret
+hydroxypropylcellulose, natriumstearylfumarat, polyvinylalkohol, titandioxid, macrogol 3350, 
+talkum, gul jernoxid, rød jernoxid, sort jernoxid (se afsnit 2 "TAGRISSO indeholder natrium").
+Udseende og pakningsstørrelser
+TAGRISSO 40 mg leveres som beige, filmovertrukne, runde og bikonvekse tabletter, præget med 
+“AZ" og “40" på den ene side og uden prægning på den anden side.
+TAGRISSO 80 mg leveres som beige, filmovertrukne, ovale og bikonvekse tabletter, præget med 
+“AZ" og “80" på den ene side og uden prægning på den anden side.
+TAGRISSO leveres i blisterkort indeholdende 30 x 1 filmovertrukne tabletter, pakket i æsker 
+indeholdende 3 blisterkort med hver 10 tabletter.
+TAGRISSO leveres i blisterkort indeholdende 28 x 1 filmovertrukne tabletter, pakket i æsker 
+indeholdende 4 blisterkort med hver 7 tabletter.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Sverige
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen.
+51
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 80 90 34100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) 
+DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+52
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d7f220f9031e8b4b6b6e866b11abbe3a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tagrisso Package Leaflet for language en"
+Description: "ePI document Bundle for tagrisso Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d7f220f9031e8b4b6b6e866b11abbe3a"
+* entry[0].resource = composition-en-d7f220f9031e8b4b6b6e866b11abbe3a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd7f220f9031e8b4b6b6e866b11abbe3a"
+* entry[=].resource = mpd7f220f9031e8b4b6b6e866b11abbe3a
+                            
+                    
+Instance: bundlepackageleaflet-da-d7f220f9031e8b4b6b6e866b11abbe3a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tagrisso Package Leaflet for language da"
+Description: "ePI document Bundle for tagrisso Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d7f220f9031e8b4b6b6e866b11abbe3a"
+* entry[0].resource = composition-da-d7f220f9031e8b4b6b6e866b11abbe3a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd7f220f9031e8b4b6b6e866b11abbe3a"
+* entry[=].resource = mpd7f220f9031e8b4b6b6e866b11abbe3a
+                            
+                    
+
+
+
+Instance: mpd7f220f9031e8b4b6b6e866b11abbe3a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product TAGRISSO 40 mg film-coated tablets"
-Description: "TAGRISSO 40 mg film-coated tablets"
+Title: "Medicinal Product tagrisso"
+Description: "tagrisso"
 Usage: #inline
 
  
@@ -412,7 +973,7 @@ Usage: #inline
 
 
 * name
-  * productName = "TAGRISSO 40 mg film-coated tablets"
+  * productName = "tagrisso"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -439,29 +1000,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d7f220f9031e8b4b6b6e866b11abbe3a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tagrisso Package Leaflet for language en"
-Description: "ePI document Bundle for tagrisso Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d7f220f9031e8b4b6b6e866b11abbe3aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/16/1086/001 40 mg 30 film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tagrisso"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d7f220f9031e8b4b6b6e866b11abbe3a"
-* entry[0].resource = composition-en-d7f220f9031e8b4b6b6e866b11abbe3a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp20282c966eaa91f5d13cc6ea49d375ef"
-* entry[=].resource = mp20282c966eaa91f5d13cc6ea49d375ef
-                            
-                      
+* title = "List of all ePIs associated with tagrisso"
+
+* subject = Reference(mp20282c966eaa91f5d13cc6ea49d375ef)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tagrisso "tagrisso"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d7f220f9031e8b4b6b6e866b11abbe3a) // tagrisso en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d7f220f9031e8b4b6b6e866b11abbe3a) // tagrisso da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d7f220f9031e8b4b6b6e866b11abbe3a
+InstanceOf: List
+
+* insert d7f220f9031e8b4b6b6e866b11abbe3aListRuleset
+    

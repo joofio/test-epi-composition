@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a1d327760eabe9367684e5523c2c313b
 InstanceOf: CompositionUvEpi
 Title: "Composition for respreeza Package Leaflet"
@@ -361,12 +364,609 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-a1d327760eabe9367684e5523c2c313b
+InstanceOf: CompositionUvEpi
+Title: "Composition for respreeza Package Leaflet"
+Description:  "Composition for respreeza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1e25f5998a883f7e6a496da5ae2ecb89)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1e25f5998a883f7e6a496da5ae2ecb89
+* title = "TEST PURPOSES ONLY - respreeza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Respreeza
+3. Sådan skal du tage Respreeza
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What respreeza is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What respreeza is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
+Dette lægemiddel indeholder det aktive stof human alfa-1-proteinasehæmmer, som er en normal 
+bestanddel i blodet, og som findes i lungerne. Der er dets hovedfunktion at beskytte lungevævet ved at 
+begrænse virkningen af et bestemt protein kaldet neutrofil elastase. Neutrofil elastase kan forårsage 
+beskadigelse, hvis virkningen ikke kontrolleres (for eksempel i tilfælde af, at du har alfa-1-
+proteinasehæmmer-mangel).
+Anvendelse
+Dette lægemiddel anvendes til voksne med kendt alvorlig alfa-1-proteinasehæmmer-mangel (en 
+arvelig lidelse, der også kaldes alfa-1-antitrypsin-mangel), som har udviklet en lungelidelse kaldet 
+emfysem. 
+Emfysem udvikles, når manglen på alfa-1-proteinasehæmmer resulterer i en lidelse, hvor neutrofil 
+elastase ikke bliver korrekt kontrolleret, og som resulterer i beskadigelse af de meget små luftsække i 
+lungerne, som ilten passerer igennem ud i kroppen. På grund af denne beskadigelse fungerer lungerne 
+ikke korrekt.
+Regelmæssig anvendelse af dette lægemiddel øger lungernes og blodets indhold af alfa-1-
+proteinasehæmmer og forsinker således udviklingen af emfysem.
+41</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take respreeza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take respreeza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Respreeza
+
+hvis du er allergisk over for human alfa-1-proteinasehæmmer eller et af de øvrige 
+indholdsstoffer i Respreeza (angivet i punkt 6).
+
+hvis du har mangel på visse blodproteiner kaldet immunglobulin type A (IgA) og har udviklet 
+antistoffer mod dem.
+Advarsler og forsigtighedsregler
+
+Kontakt lægen eller sundhedspersonalet, før du tager Respreeza.
+Information om allergiske reaktioner: Hvornår kan det være nødvendigt at nedsætte hastigheden af
+infusionen eller standse den?
+Du kan være allergisk over for human alfa-1-proteinasehæmmer, selvom du tidligere har fået human 
+alfa-1-proteinasehæmmer og godt kunnet tåle det. I visse tilfælde kan der opstå alvorlige allergiske 
+reaktioner. Din læge vil informere dig om tegn på allergiske reaktioner (for eksempel kulderystelser, 
+blussen, hurtigere hjerteslag, fald i blodtrykket, svimmelhed, udslæt, allergiknopper, kløe, 
+vejrtræknings- eller synkebesvær samt hævelse af hænder, ansigt eller mund) (se også punkt 4).
+
+Fortæl det straks til lægen eller sundhedspersonalet, hvis du bemærker sådanne reaktioner 
+under infusionen af dette lægemiddel. Afhængigt af reaktionens beskaffenhed og 
+alvorlighedsgrad kan din læge bestemme, om infusionsvæsken skal indgives langsommere, eller 
+om infusionen helt skal standses. Lægen kan også starte den relevante behandling.
+
+Ved selviadministration (du giver dig selv lægemidlet)/hjemmebehandling skal du standse 
+infusionen straks og kontakte lægen eller sundhedspersonalet.
+Information om sikkerhed med hensyn til infektioner
+Respreeza er fremstillet ud fra humant blodplasma (den flydende del af blodet, efter blodlegemerne er 
+fjernet).
+Da blod kan være bærer for infektioner, skal der tages visse forholdsregler, når medicin bliver 
+fremstillet af blod eller plasma fra mennesker, for at hindre, at der er smitsomme stoffer til stede i 
+lægemidlet, der kan blive overført til patienter. Dette omfatter:
+
+nøje udvælgelse af donorer af blod og plasma for at sikre, at de, der har risiko for at overføre 
+infektioner, ekskluderes,
+
+testning af prøver fra det donerede blod og plasma for at forsøge at undgå at anvende materiale 
+med tegn på virus/infektioner,
+
+brug af trin under forarbejdningen af blod og plasma, der kan inaktivere eller fjerne vira.
+De forholdsregler, der tages, anses for effektive over for vira som humant immundefektvirus (HIV), 
+hepatitis A-virus, hepatitis B-virus, hepatitis C-virus og parvovirus B19. På trods af disse forholdsregler kan risikoen for at overføre en infektion imidlertid ikke udelukkes 
+fuldt ud, når der anvendes medicin, som er fremstillet ud fra blod eller plasma fra mennesker. Dette 
+gælder også ukendte eller nyopdagede virusser og andre typer af infektion. 
+Din læge kan anbefale, at du overvejer vaccination mod hepatitis A og B, hvis du 
+regelmæssigt/gentagne gange får proteinasehæmmer fremstillet ud fra plasma fra mennesker.
+
+Det anbefales kraftigt at registrere præparatets navn og batchnummer, hver gang du får en dosis 
+Respreeza, for at have en fortegnelse over de anvendte batcher.
+Rygevaner
+Da tobaksrygning er en vigtig risikofaktor for udvikling af og sygdomsforløb ved emfysem, rådes du 
+på det kraftigste til at ophøre med at ryge og at undgå passiv rygning.
+42
+Børn og unge
+Dette lægemiddel må ikke anvendes til børn og unge under 18 år.
+Brug af anden medicin sammen med Respreeza
+
+Fortæl altid lægen eller sundhedspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin.
+Graviditet, amning og frugtbarhed
+
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge eller sundhedspersonalet til råds, før du tager dette lægemiddel.
+Da alfa-1-proteinasehæmmer er en normal bestanddel i blodet hos mennesker, forventes den 
+anbefalede dosis af dette lægemiddel ikke at forårsage skade på fosteret. Da der imidlertid ikke er 
+nogen oplysninger tilgængelige vedrørende sikkerheden ved Respreeza under graviditet, skal der 
+udvises forsigtighed, hvis du er gravid og får dette lægemiddel.
+Det er ukendt, om Respreeza passerer over i mælken hos mennesker. Hvis du ammer, vil din læge tale 
+med dig om fordele og risici ved at tage dette lægemiddel.
+Der er ingen data vedrørende indvirkning på frugtbarhed, men da alfa-1-proteinasehæmmer er en 
+normal bestanddel i blodet, forventes der ingen negative virkninger på din frugtbarhed, hvis du 
+anvender Respreeza i den anbefalede dosis.
+Trafik- og arbejdssikkerhed
+Der kan opstå svimmelhed efter indgivelse af dette lægemiddel. Hvis du oplever svimmelhed, må du 
+ikke føre motorkøretøj eller betjene maskiner, før svimmelheden er overstået (se punkt 4).
+Respreeza indeholder natrium
+Dette lægemiddel indeholder cirka 37 mg natrium pr. hætteglas med 1.000 mg Respreeza, 149 mg 
+natrium pr. hætteglas med 4.000 mg Respreeza og 186 mg natrium pr. hætteglas med 5.000 mg 
+Respreeza, svarende til henholdsvis 1,9 %, 7,4 % og 9,3 % af den WHO-anbefalede maksimale 
+daglige indtagelse af 2 g natrium for en voksen. Din læge eller sundhedspersonalet vil have dette 
+under overvejelse, hvis du er på en kontrolleret saltfattig diæt.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take respreeza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take respreeza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Efter rekonstitution (opløsning) skal Respreeza gives som infusion i en vene. En læge eller 
+sygeplejerske med erfaring i behandlingen af alfa-1-proteinasehæmmer-mangel vil overvåge dig under 
+de første infusioner.
+Hjemmebehandling/selvadministration
+Efter de første infusioner kan du selv eller en omsorgsperson indgive Respreeza, men kun efter at have 
+fået tilstrækkelig oplæring. Hvis din læge beslutter, at du er egnet til en sådan 
+hjemmebehandling/selvadministration, vil han eller hun vise dig:
+
+hvordan du klargør og giver dette lægemiddel (se de illustrerede anvisninger sidst i denne 
+indlægsseddel i "Information til sundhedspersonale og til patienter, der er egnede til 
+hjemmebehandling/selvbehandling"),
+
+hvordan du opretholder et sterilt præparat (aseptiske infusionsteknikker),
+
+hvordan du fører en behandlingsdagbog,
+
+hvordan du identificerer bivirkninger, herunder tegn på allergiske reaktioner, og hvilke 
+foranstaltninger der skal træffes, hvis sådanne bivirkninger optræder (se også punkt 2 og punkt 
+4).
+43
+Din læge eller sundhedspersonalet vil regelmæssigt gennemgå din/din omsorgspersons infusionsteknik 
+for at sikre fortsat korrekt håndtering.
+Dosis
+Mængden af Respreeza, du skal have, er baseret på din kropsvægt. Den anbefalede dosis er 60 mg pr. 
+kg kropsvægt og skal gives en gang om ugen. Infusionsvæsken indgives normalt over ca. 15 minutter 
+(ca. 0,08 ml infusionsvæske pr. kg kropsvægt i minuttet). Din læge vil bestemme den korrekte 
+infusionshastighed for dig ved at tage højde for din vægt og for, hvor godt du tåler infusionen. 
+Hvis du har taget for meget Respreeza
+Konsekvenserne ved en overdosering er ukendte.
+
+Fortæl din læge eller sundhedspersonalet, hvis du tror, du har taget for meget Respreeza. Han 
+eller hun vil træffe de nødvendige foranstaltninger.
+Hvis du har glemt at tage Respreeza
+
+Fortsæt med din næste dosis straks og fortsæt med regelmæssige intervaller som tilrådet af din 
+læge eller sundhedspersonalet.
+
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du holder op med at tage Respreeza
+
+Hold ikke op med at tage dette lægemiddel uden at rådføre dig med lægen eller 
+sundhedspersonalet. Hvis du stopper behandlingen med Respreeza, kan din tilstand forværres.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Sådanne bivirkninger kan opstå, selv om du tidligere har fået human alfa-1-proteinasehæmmer og godt 
+kunne tåle det.
+Nogle bivirkninger kan være alvorlige:
+Der er blevet observeret allergiske reaktioner med hyppigheden "ikke almindelig" (kan forekomme 
+hos op til 1 ud af 100 mennesker). De kan i meget sjældne tilfælde (hos op 
+til 1 ud af 10.000 mennesker) udvikle sig til alvorlige allergiske reaktioner, selvom du ikke har udvist 
+tegn på allergi ved tidligere infusioner.
+
+Fortæl straks din læge eller sundhedspersonalet, hvis du bemærker tegn på allergiske reaktioner 
+(for eksempel kulderystelser, blussen, hurtigere hjerteslag, fald i blodtryk, svimmelhed, udslæt, 
+nældefeber, kløe, vejrtræknings- eller synkebesvær samt hævelse af hænder, i ansigt eller mund) 
+under indgivelse af Respreeza. Afhængigt af reaktionens beskaffenhed og alvorlighedsgrad kan 
+din læge eller sundhedspersonalet bestemme, om infusionsvæsken skal indgives langsommere,
+eller infusionen helt standses samt give den relevante behandling for reaktionen.
+Ved selvadministration/hjemmebehandling skal du straks stoppe infusionen og kontakte lægen 
+eller sundhedspersonalet.
+Andre bivirkninger kan omfatte:
+Almindelig (kan forekomme hos op til 1 ud af 10 mennesker)
+Svimmelhed, hovedpine, kortåndethed (dyspnø), kvalme.
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 mennesker)
+Ændret følesans som svie, snurren eller følelsesløshed i hænder, arme, ben eller fødder (paræstesi), 
+blussen, allergiknopper (nældefeber), skællet udslæt eller udslæt over hele kroppen, fysisk svaghed 
+(asteni), reaktioner på infusionsstedet (såsom svie, stikken, smerte, hævelse eller rødme på 
+infusionsstedet (hæmatom)).
+Meget sjælden (kan forekomme hos op til 1 ud af 10.000 mennesker)
+44
+Nedsat følesans som svie, snurren eller følelsesløshed i hænder, arme, ben eller fødder (hypæstesi), 
+stærkt øget svedtendens (hyperhidrose), kløe, brystsmerter, kulderystelser, feber.
+Hyppighed ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data)
+Smerter i lymfeknuder (ovale vævsmasser, der er fordelt i hele kroppen, og som man måske kan 
+mærke i armhulen, lysken eller på halsen), hævet ansigt, hævede øjne og læber.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller sundhedspersonalet. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med 
+at fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store respreeza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store respreeza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned.
+Må ikke opbevares ved temperaturer over 25 °C. Må ikke nedfryses.
+Efter fremstilling skal infusionsvæsken anvendes med det samme. Hvis dette ikke er muligt, kan 
+infusionsvæsken opbevares i op til 3 timer ved stuetemperatur (op til 25 °C). Infusionsvæsken må ikke 
+nedfryses.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Respreeza indeholder:</p>
+<ul>
+<li>Aktivt stof: human alfa1-proteinasehæmmer. Et hætteglas indeholder ca. 1.000 mg, 4.000 mg eller 
+5.000 mg human alfa1-proteinasehæmmer.</li>
+<li>Øvrige indholdsstoffer: natriumchlorid, natriumdihydrogenphosphatmonohydrat og mannitol (se 
+punkt 2).
+Solvens: Vand til injektionsvæsker.
+Udseende og pakningsstørrelser
+Dette lægemiddel er et hvidt til cremefarvet pulver.
+Når det er blevet opløst i vand til injektionsvæsker, skal opløsningen være klar, farveløs til let gul og 
+uden synlige partikler.
+Pakninger 
+Hver pakke indeholder:
+Respreeza 1.000 mg pulver og solvens til infusionsvæske, opløsning:
+
+1 hætteglas med pulver til engangsbrug
+
+1 hætteglas med 20 ml vand til injektionsvæsker
+
+1 overføringssæt 20/20 (Mix2Vial-sæt) til rekonstitution
+Respreeza 4.000 mg pulver og solvens til infusionsvæske, opløsning:
+
+1 hætteglas med pulver til engangsbrug
+
+1 hætteglas med 76 ml vand til injektionsvæsker
+
+1 overføringssæt 20/20 (Mix2Vial-sæt) til rekonstitution
+Administrationssæt (indre æske):
+
+1 i.v. infusionssæt
+45
+
+1 butterfly-sæt
+
+3 spritservietter
+Respreeza 5.000 mg pulver og solvens til infusionsvæske, opløsning:
+
+1 hætteglas med pulver til engangsbrug
+
+1 hætteglas med 95 ml vand til injektionsvæsker
+
+1 overføringssæt 20/20 (Mix2Vial-sæt) til rekonstitution
+Administrationssæt (indre æske):
+
+1 i.v. infusionssæt
+
+1 butterfly-sæt
+
+3 spritservietter
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+CSL Behring GmbH
+Emil-von-Behring-Strasse 76
+D-35041 Marburg
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0444
+България
+МагнаФарм България ЕАД
+Тел: +359 2 810 3949
+Luxembourg/Luxemburg
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Česká republika
+CSL Behring s.r.o.
+Tel: +420 702 137 233
+Magyarország
+CSL Behring Kft.
+Tel.: +36 1 213 4290
+Danmark
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Malta
+AM Mangion Ltd.
+Tel: +356 2397 6333
+Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584437
+Nederland
+CSL Behring BV
+Tel: +31 85 111 96 00
+Eesti
+CentralPharma Communications OÜ
+Tel: +3726015540
+Norge
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Ελλάδα
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Österreich
+CSL Behring GmbH
+Tel: +43 1 80101 2463
+España
+CSL Behring S.A.
+Tel: +34 933 67 1870
+Polska
+CSL Behring Sp. z o.o.
+Tel.: +48 22 213 22 65
+46
+France
+CSL Behring SA
+Tél: +33 1 53 58 54 00
+Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 30
+Hrvatska
+Marti Farm d.o.o.
+Tel: +385 1 5588297
+România
+Prisum Healthcare S.R.L.
+Tel: +40 21 322 01 71
+Ireland
+CSL Behring GmbH
+Tel: +49 69 30517254
+Slovenija
+EMMES BIOPHARMA GLOBAL s.r.o.-
+podružnica v Sloveniji
+Tel: +386 41 42 0002
+Ísland
+CSL Behring AB
+Sími: +46 8 544 966 70
+Slovenská republika
+CSL Behring s.r.o.
+Tel: +421 911 653 862
+Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 200
+Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 70
+Κύπρος
+CSL Behring ΕΠΕ
+Tηλ: +30 210 7255 660
+Latvija
+CentralPharma Communications SIA
+Tel: +371 6 7450497
+Sverige
+CSL Behring AB
+Tel: +46 8 544 966 70
+United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 30517254
+Denne indlægsseddel blev senest ændret 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</li>
+</ul>
+<hr />
+<p>Nedenstående oplysninger er til sundhedspersonale og til patienter, der er egnede til 
+hjemmebehandling/selvindgivelse
+Generel vejledning
+
+Rekonstitution skal foretages i henhold til nedenstående anvisninger.
+
+Produktet skal rekonstitueres, administreres og håndteres med forsigtighed under anvendelse af 
+aseptisk teknik for at opretholde produktets sterilitet.
+
+Brug ikke de medfølgende sterile hjælpematerialer til rekonstitution og administration, hvis 
+emballagen er åbnet, eller hvis hjælpemidlerne er beskadiget.
+
+Pulveret skal rekonstitueres med solvens (vand til injektionsvæsker).
+
+Total rekonstitution af pulveret bør opnås inden for 5 minutter (1.000 mg pakning) eller 
+10 minutter (4.000 mg og 5.000 mg pakning).
+
+Kontroller den rekonstituerede opløsning for partikler og misfarvning før administration.
+
+Den rekonstituerede opløsning skal være klar, farveløs til svagt gul og uden synlige partikler.
+Følg nedenstående trin ved klargøring og rekonstitution af Respreeza:
+1. Sørg for, at hætteglasset med Respreeza og hætteglasset med vand til injektionsvæsker har 
+stuetemperatur (op til 25 °C).
+2. Fjern flip-off-hætten af plast fra hætteglasset med vand til injektionsvæsker.
+47
+3. Rengør gummiproppen på hætteglasset med vand til injektionsvæsker med et antiseptisk middel, 
+f.eks. en spritserviet, og lad den tørre.
+4. Åbn Mix2Vial®-overføringssættet ved at trække forseglingen af (Figur 1). 
+Tag ikke Mix2Vial-sættet ud af blisterpakningen.
+Figur 1
+5. Anbring hætteglasset med vand til injektionsvæsker på en plan, ren 
+flade, og hold fast på hætteglasset. Tag Mix2Vial-sættet sammen med 
+blisterpakningen, og stik den blå spids på Mix2Vial-sættet lodret ned i 
+hætteglasset med vand til injektionsvæsker (Figur 2).
+Figur 2
+6. Fjern forsigtigt blisterpakningen fra Mix2Vial-sættet ved at holde på 
+kanten og trække lodret opad. Pas på, at du kun trækker blisterpakningen af 
+og ikke Mix2Vial-sættet (Figur 3).
+Figur 3
+7. Fjern flip-off-hætten af plast fra hætteglasset med Respreeza.
+8. Rengør gummiproppen på hætteglasset med Respreeza med et antiseptisk middel, f.eks. en 
+spritserviet, og lad den tørre.
+9. Anbring hætteglasset med Respreeza på en plan og fast flade. Vend 
+hætteglasset med vand til injektionsvæsker med Mix2Vial-sættet monteret, 
+og stik den transparente spids på Mix2Vial-sættet lodret ned i hætteglasset 
+med Respreeza (Figur 4). Vandet til injektionsvæsker vil automatisk løbe 
+ned i hætteglasset med Respreeza.
+BEMÆRK: Sørg for, at alt vandet er blevet overført til hætteglasset med 
+Respreeza.
+Figur 4
+10. Følg nedenstående trin for at fjerne hele Mix2Vial-sættet fra hætteglasset 
+med Respreeza:
+
+Tag godt fat om hætteglasset med Respreeza med den ene hånd, som 
+vist i Figur 5. 
+Tag med den anden hånd godt fat om hætteglasset med vand til 
+injektionsvæsker og den blå del af Mix2Vial-sættet.
+
+Bøj hele Mix2Vial-sættet til siden, indtil det frakobles hætteglasset 
+med Respreeza (Figur 5).
+Kasser hætteglasset med vand til injektionsvæsker med hele Mix2Vial-
+sættet.
+Figur 5
+48
+11. Hvirvl forsigtigt hætteglasset med Respreeza, indtil pulveret er helt 
+opløst (Figur 6). MÅ IKKE RYSTES. Pas på ikke at berøre gummiproppen 
+på hætteglasset.
+Figur 6
+12. Kontroller den rekonstituerede opløsning visuelt. Opløsningen skal være klar, farveløs til svagt gul 
+og uden synlige partikler. Brug ikke opløsninger, der er misfarvede, uklare eller har partikler.
+13. Hvis det er nødvendigt med mere end 1 hætteglas med Respreeza for at opnå den nødvendige 
+dosis, gentages anvisningerne 1 til 12 ovenfor med en ny pakning, der indeholder et ubrugt Mix2Vial-
+sæt.
+Brug et separat, ubrugt Mix2Vial-sæt og et hætteglas med vand til injektionsvæsker til hvert 
+hætteglas med Respreeza.
+14. De rekonstituerede opløsninger kan administreres sekventielt direkte fra hætteglasset. Alternativt 
+kan de rekonstituerede opløsninger overføres til en infusionsbeholder (f.eks. en tom intravenøs pose 
+eller glasflaske [ikke vedlagt] via et kommercielt tilgængeligt slangesæt til overføring af intravenøse
+væsker [ikke vedlagt]) inden administration.
+Anvend aseptisk teknisk til at overføre den rekonstituerede opløsning til en infusionsbeholder.
+Administration
+Den rekonstituerede opløsning skal administreres med et i.v. infusionssæt (leveres med pakninger på
+4.000 og 5.000 mg).
+1. Sørg for at udluftningen og rulleklemmen på i.v. infusionssættet er lukket. Stik VERTIKALT 
+hul på Respreeza-hætteglasset med i.v. infusionssættets indstiksspids, mens du vrider 
+indstiksspidsen forsigtigt, eller fastsæt den i en infusionsbeholder.
+2. Hæv Respreeza-hætteglasset/infusionsbeholderen op, eller hæng den på et infusionsstativ.
+3. Klargør drypkammeret ved at klemme på det, indtil Respreeza-opløsningen har fyldt kammeret 
+cirka halvvejs.
+4. Åbn for udluftningen på i.v. infusionssættet.
+5. Åbn rulleklemmen på i.v. infusionssættet langsomt, og lad Respreeza-opløsningen strømme ud, 
+indtil den når enden af slangen uden luftbobler.
+6. Luk rulleklemmen.
+7. Desinficer injektionsstedet med et antiseptisk middel, f.eks. en spritserviet, inden du forsigtigt 
+fører kanylen ind i venen. Sørg for, at der ikke er mere luft tilbage i butterfly-slangen.
+8. Tilslut enden af i.v. infusionssættet til butterfly-sættet, og åbn rulleklemmen igen.
+9. Infundér den rekonstituerede opløsning i venen. Opløsningen skal infunderes med en 
+infusionshastighed på omkring 0,08 ml pr. kg kropsvægt i minuttet, afhængig af din respons og 
+komfort. Det vil tage ca. 15 minutter at infundere den anbefalede dosis på 60 mg pr. kg 
+kropsvægt.
+Et hætteglas Respreeza er kun til engangsbrug.
+Eventuelt ubrugt medicin eller medicinrester skal bortskaffes som anvist af din læge eller 
+sundhedspersonalet.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a1d327760eabe9367684e5523c2c313b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for respreeza Package Leaflet for language en"
+Description: "ePI document Bundle for respreeza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a1d327760eabe9367684e5523c2c313b"
+* entry[0].resource = composition-en-a1d327760eabe9367684e5523c2c313b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa1d327760eabe9367684e5523c2c313b"
+* entry[=].resource = mpa1d327760eabe9367684e5523c2c313b
+                            
+                    
+Instance: bundlepackageleaflet-da-a1d327760eabe9367684e5523c2c313b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for respreeza Package Leaflet for language da"
+Description: "ePI document Bundle for respreeza Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a1d327760eabe9367684e5523c2c313b"
+* entry[0].resource = composition-da-a1d327760eabe9367684e5523c2c313b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa1d327760eabe9367684e5523c2c313b"
+* entry[=].resource = mpa1d327760eabe9367684e5523c2c313b
+                            
+                    
+
+
+
+Instance: mpa1d327760eabe9367684e5523c2c313b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Respreeza 1,000 mg powder and solvent for solution for infusion."
-Description: "Respreeza 1,000 mg powder and solvent for solution for infusion."
+Title: "Medicinal Product respreeza"
+Description: "respreeza"
 Usage: #inline
 
  
@@ -386,7 +986,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Respreeza 1,000 mg powder and solvent for solution for infusion."
+  * productName = "respreeza"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -413,29 +1013,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a1d327760eabe9367684e5523c2c313b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for respreeza Package Leaflet for language en"
-Description: "ePI document Bundle for respreeza Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a1d327760eabe9367684e5523c2c313bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1006/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "respreeza"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a1d327760eabe9367684e5523c2c313b"
-* entry[0].resource = composition-en-a1d327760eabe9367684e5523c2c313b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1e25f5998a883f7e6a496da5ae2ecb89"
-* entry[=].resource = mp1e25f5998a883f7e6a496da5ae2ecb89
-                            
-                      
+* title = "List of all ePIs associated with respreeza"
+
+* subject = Reference(mp1e25f5998a883f7e6a496da5ae2ecb89)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#respreeza "respreeza"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a1d327760eabe9367684e5523c2c313b) // respreeza en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a1d327760eabe9367684e5523c2c313b) // respreeza da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a1d327760eabe9367684e5523c2c313b
+InstanceOf: List
+
+* insert a1d327760eabe9367684e5523c2c313bListRuleset
+    

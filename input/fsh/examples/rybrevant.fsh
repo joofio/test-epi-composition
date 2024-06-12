@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a96793ea13ac1652c4391adeab5c5fd7
 InstanceOf: CompositionUvEpi
 Title: "Composition for rybrevant Package Leaflet"
@@ -355,12 +358,549 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-a96793ea13ac1652c4391adeab5c5fd7
+InstanceOf: CompositionUvEpi
+Title: "Composition for rybrevant Package Leaflet"
+Description:  "Composition for rybrevant Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbd38f4deed3810d182ad2bde7e742a45)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbd38f4deed3810d182ad2bde7e742a45
+* title = "TEST PURPOSES ONLY - rybrevant"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du får Rybrevant
+3. Sådan skal du få Rybrevant
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rybrevant is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rybrevant is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Rybrevant
+Rybrevant er et lægemiddel mod kræft. Det indeholder det aktive stof "amivantamab", som er et 
+antistof (en type protein), der er udviklet til at genkende og binde sig til specifikke mål i kroppen.
+Hvad anvendes Rybrevant mod
+Rybrevant anvendes til voksne med en type lungekræft, der kaldes "ikke-småcellet lungekræft". Det 
+anvendes, når kræften har spredt sig til andre dele af kroppen og har gennemgået visse ændringer 
+(Exon 20-insertionsmutationer) i et gen, der hedder "EGFR".
+Hvordan virker Rybrevant
+Det aktive stof i Rybrevant, amivantamab, retter sig mod to proteiner, som findes på kræftceller:
+
+epidermal vækstfaktor-receptor (EGFR), og
+
+mesenkymal-epitelial transitionsfaktor (MET).
+Dette lægemiddel virker ved at binde sig til disse proteiner. Dette kan hjælpe med at standse 
+lungekræften i at sprede sig eller nedsætte den hastighed, den spreder sig med. Det kan måske også 
+være med til at gøre tumoren mindre.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rybrevant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rybrevant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Rybrevant
+
+hvis du er allergisk over for amivantamab eller et af de øvrige indholdsstoffer i Rybrevant 
+(angivet i afsnit 6).
+Du må ikke bruge dette lægemiddel, hvis ovenstående gælder for dig. Hvis du er i tvivl, så tal med 
+lægen eller sygeplejersken, inden du får dette lægemiddel.
+26
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sygeplejersken, før du får Rybrevant:
+
+hvis du har haft betændelse i lungerne (en lidelse kaldet "interstitiel lungesygdom" eller 
+"pneumonitis").
+Fortæl det straks til lægen eller sygeplejersken, hvis du får nogen af følgende bivirkninger, mens 
+du tager dette lægemiddel, (se afsnit 4 for nærmere oplysninger):
+
+En hvilken som helst bivirkning, mens lægemidlet gives i din blodåre.
+
+Pludseligt opstået vejrtrækningsbesvær, hoste eller feber, som kan tyde på lungebetændelse.
+
+Hudproblemer. For at reducere risikoen for hudproblemer skal du holde dig ude af solen, bære 
+beskyttende tøj, bruge solcreme og regelmæssigt bruge fugtighedscreme på huden og neglene, 
+mens du tager dette lægemiddel. Du skal fortsætte med at gøre dette i 2 måneder, efter at du er 
+stoppet med behandlingen.
+
+Øjenproblemer. Hvis du får problemer med synet eller øjensmerter, skal du straks kontakte din 
+læge eller sygeplejerske. Hvis du bruger kontaktlinser og får nye symptomer fra øjnene, skal du 
+holde op med at bruge kontaktlinser og straks fortælle det til din læge.
+Børn og unge
+Giv ikke dette lægemiddel til børn eller unge under 18 år. Det skyldes, at det ikke vides, om 
+lægemidlet er sikkert og virkningsfuldt i denne aldersgruppe.
+Brug af andre lægemidler sammen med Rybrevant
+Fortæl det altid til lægen eller sygeplejersken, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler.
+Prævention
+
+Hvis du kan blive gravid, skal du bruge sikker prævention under Rybrevant-behandlingen og i 
+3 måneder, efter at du er holdt op med at få behandling.
+Graviditet
+
+Fortæl det til lægen eller sygeplejersken, inden du får dette lægemiddel, hvis du er gravid, har 
+mistanke om, at du er gravid, eller planlægger at blive gravid.
+
+Dette lægemiddel kan muligvis skade det ufødte barn. Hvis du bliver gravid, mens du er i 
+behandling med dette lægemiddel, skal du fortælle det til lægen eller sygeplejersken med det 
+samme. Du og din læge vil beslutte, om fordelen for dig ved at få lægemidlet er større end 
+risikoen for det ufødte barn.
+Amning
+Det vides ikke, om Rybrevant udskilles i modermælken. Spørg lægen til råds, inden du får dette 
+lægemiddel. Du og din læge skal beslutte, om fordelen ved amning er større end risikoen for barnet.
+Trafik‑ og arbejdssikkerhed
+Hvis du føler dig træt eller svimmel, eller hvis dine øjne er irriterede eller dit syn er påvirket, efter at 
+du har fået Rybrevant, må du ikke køre bil eller motorcykel eller betjene maskiner.
+Rybrevant indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
+væsentlige natriumfrit. Inden du får Rybrevant, kan det dog blandes med en opløsning, der indeholder 
+natrium. Tal med din læge, hvis du følger en diæt med lavt salt (natrium) -indhold.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rybrevant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rybrevant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Så meget vil du få
+Din læge vil udregne den korrekte dosis af Rybrevant til dig. Dosen af dette lægemiddel afhænger af 
+din kropsvægt, når du begynder behandlingen.
+27
+Den anbefalede dosis af Rybrevant er:
+
+1 050 mg hvis du vejer mindre end 80 kg.
+
+1 400 mg hvis du vejer 80 kg eller mere.
+Sådan får du lægemidlet
+Dette lægemiddel indgives af en læge eller sygeplejerske. Det gives som drop i en blodåre ("intravenøs 
+infusion") i løbet af flere timer.
+Rybrevant gives på denne måde:
+
+én gang om ugen i de første 4 uger
+
+derefter hver 2. uge fra og med uge 5, så længe du har gavn af behandlingen.
+I den første uge vil lægen give dig din dosis af Rybrevant fordelt over to dage.
+Lægemidler, du vil få under behandlingen med Rybrevant
+Inden hver infusion af Rybrevant vil du få lægemidler, som hjælper med at nedsætte risikoen for 
+infusionsrelaterede reaktioner. Disse kan omfatte:
+
+lægemidler mod en allergisk reaktion (antihistaminer)
+
+lægemidler mod betændelse (kortikosteroider)
+
+lægemidler mod feber (f.eks. paracetamol).
+Du vil måske også få andre lægemidler. Det afhænger af de symptomer, du måtte opleve.
+Hvis du får for meget Rybrevant
+Du får dette lægemiddel af lægen eller sygeplejersken. I det usandsynlige tilfælde, at du får for meget 
+(en overdosering), vil din læge kontrollere, om du får bivirkninger.
+Hvis du glemmer en aftale, hvor du skal have Rybrevant
+Det er meget vigtigt, at du kommer til alle dine aftaler. Hvis du udebliver fra en aftale, skal du aftale 
+en ny tid hurtigst muligt.
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger
+Fortæl det straks til lægen eller sygeplejersken, hvis du bemærker følgende alvorlige bivirkninger:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+Tegn på en reaktion på infusionen - for eksempel kulderystelser, åndenød, kvalme, rødmen, 
+ubehag i brystkassen og opkastning, mens lægemidlet gives. Dette kan især forekomme ved den 
+første dosis. Lægen vil måske give dig andre lægemidler, eller også skal infusionens hastighed 
+sænkes eller infusionen helt stoppes.
+
+Problemer med huden. - for eksempel udslæt (herunder bumser (akne)), infektion i huden 
+omkring neglene, tør hud, kløe, smerter og rødmen. Fortæl det til lægen, hvis dine problemer 
+med hud eller negle bliver værre.
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+
+Problemer med øjnene - for eksempel tørre øjne, hævede øjenlåg, kløende øjne, problemer 
+med synet, øjenvippevækst.
+
+Tegn på lungebetændelse - for eksempel pludseligt opstået vejrtrækningsbesvær, hoste eller 
+feber. Dette kan medføre permanente skader ("interstitiel lungesygdom"). Din læge vil måske 
+stoppe behandlingen med Rybrevant, hvis du får denne bivirkning.
+28
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer)
+
+betændelse i hornhinden (den forreste del af øjet)
+
+betændelse inde i øjet, som kan påvirke synet
+
+livstruende udslæt med blærer og afskalning af huden over en stor del af kroppen (toksisk 
+epidermal nekrolyse).
+Andre bivirkninger
+Fortæl det til lægen, hvis du bemærker en eller flere af følgende bivirkninger:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+lavt niveau af proteinet "albumin" i blodet
+
+hævelser, som skyldes væskeansamlinger i kroppen
+
+udpræget træthed
+
+sår i munden
+
+forstoppelse eller diarré
+
+nedsat appetit
+
+forhøjet niveau af leverenzymet "alaninaminotransferase" i blodet, et muligt tegn på 
+leverproblemer
+
+forhøjet niveau af enzymet "aspartataminotransferase" i blodet, et muligt tegn på leverproblemer
+
+svimmelhed
+
+forhøjet niveau af enzymet "basisk fosfatase" i blodet
+
+muskelsmerter
+
+lavt niveau af calcium i blodet.
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+
+mavesmerter
+
+lavt niveau af kalium i blodet
+
+lavt niveau af magnesium i blodet.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rybrevant"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rybrevant"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rybrevant opbevares på hospitalet eller klinikken.
+Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglassets etiket efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Kemisk og fysisk holdbarhed ved brug er blevet påvist i 10 timer ved 15 °C til 25 °C ved 
+rumbelysning. Ud fra et mikrobiologisk synspunkt skal produktet anvendes straks, medmindre 
+fortyndingsmetoden udelukker risiko for mikrobiel kontaminering. Hvis produktet ikke anvendes med 
+det samme, er holdbarhed i brug og opbevaringsforhold brugerens ansvar.
+Opbevares i køleskab (2 °C til 8 °C). Må ikke nedfryses.
+Opbevares i den originale yderpakning for at beskytte mod lys.
+29
+Af hensyn til miljøet må medicinrester ikke smides ud i afløbet, toilettet eller skraldespanden. Lægen 
+eller sygeplejersken vil smide eventuelle medicinrester ud, der ikke længere skal bruges.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rybrevant indeholder:
+
+Aktivt stof: amivantamab. Én ml koncentrat til infusionsvæske, opløsning indeholder 50 mg 
+amivantamab. Ét hætteglas med 7 ml koncentrat indeholder 350 mg amivantamab.
+
+Øvrige indholdsstoffer: ethylendiamintetraeddikesyre (EDTA), L-histidin, L-
+histidinhydrochloridmonohydrat, L-methionin, polysorbat 80, saccharose og vand til 
+injektionsvæsker (se afsnit 2).
+Udseende og pakningsstørrelser
+Rybrevant er et koncentrat til infusionsvæske, opløsning og er en farveløs til svagt gul væske. Dette 
+lægemiddel fås i en æske med 1 hætteglas af glas med 7 ml koncentrat.
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Biologics B.V.
+Einsteinweg 101
+2333 CB Leiden
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB “JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+30
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret
+Dette lægemiddel er godkendt under "betingede omstændigheder".
+Det betyder, at der forventes yderligere dokumentation for lægemidlet.
+Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
+lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført.
+31
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+32
+Nedenstående oplysninger er kun til sundhedspersoner:
+Dette lægemiddel må ikke blandes med andre lægemidler, bortset fra dem som er anført nedenfor.
+Klargør opløsningen til intravenøs infusion med aseptisk teknik som følger:
+Klargøring
+
+Bestem den nødvendige dosis (enten 1 050 mg eller 1 400 mg) og det nødvendige antal 
+Rybrevant-hætteglas ud fra patientens vægt ved baseline. Hvert hætteglas med Rybrevant 
+indeholder 350 mg amivantamab.
+
+Kontrollér, at Rybrevant-opløsningen er farveløs til svagt gul. Brug ikke opløsningen, hvis den 
+er misfarvet eller indeholder synlige partikler.
+
+Træk en mængde, der svarer til mængden af Rybrevant-opløsning, der skal tilsættes, op fra 
+250-ml infusionsposen med enten 5 % glucoseopløsning eller natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske, opløsning, og kassér denne mængde (kassér 7 ml fortyndingsmiddel fra 
+infusionsposen for hvert hætteglas). Infusionsposerne skal være fremstillet af polyvinylchlorid 
+(PVC), polypropylen (PP), polyethylen (PE) eller en polyolefinblanding (PP+PE).
+
+Træk 7 ml Rybrevant op fra hvert hætteglas, og tilsæt det til infusionsposen. Hvert hætteglas 
+indeholder 0,5 ml ekstra for at sikre et tilstrækkeligt ekstraherbart volumen. Det endelige 
+volumen i infusionsposen skal være 250 ml. Kassér ikke anvendt indhold af hætteglasset.
+
+Vend forsigtigt posen på hovedet for at blande opløsningen. Må ikke omrystes.
+
+Kontrollér opløsningen visuelt for partikler og misfarvning inden administration. Brug ikke 
+opløsningen, hvis der ses misfarvning eller synlige partikler.
+Administration
+
+Administrer den fortyndede opløsning via intravenøs infusion vha. et infusionssæt med påsat 
+flowregulator og sterilt, ikke-pyrogent PES-inlinefilter (polyethersulfon) med lav proteinbinding 
+(porestørrelse 0,22 eller 0,2 mikrometer). Administrationssættet skal være fremstillet af enten 
+polyurethan (PU), polybutadien (PBD), PVC, PP eller PE.
+
+Rybrevant må ikke infunderes samtidigt med andre stoffer i samme intravenøse slange.
+
+Den fortyndede opløsning skal administreres inden for 10 timer (inklusive infusionstiden) ved 
+stuetemperatur (15 °C til 25 °C) og ved rumbelysning.
+
+På grund af hyppigheden af IRR’er ved første dosis skal amivantamab infunderes via en perifer 
+vene i uge 1 og uge 2. Infusion via et centralkateter kan administreres i efterfølgende uger, når 
+risikoen for IRR er lavere.
+Bortskaffelse
+Dette lægemiddel er kun til engangsbrug, og ikke anvendt lægemiddel, som ikke administreres inden 
+for 10 timer, skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a96793ea13ac1652c4391adeab5c5fd7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rybrevant Package Leaflet for language en"
+Description: "ePI document Bundle for rybrevant Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a96793ea13ac1652c4391adeab5c5fd7"
+* entry[0].resource = composition-en-a96793ea13ac1652c4391adeab5c5fd7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa96793ea13ac1652c4391adeab5c5fd7"
+* entry[=].resource = mpa96793ea13ac1652c4391adeab5c5fd7
+                            
+                    
+Instance: bundlepackageleaflet-da-a96793ea13ac1652c4391adeab5c5fd7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rybrevant Package Leaflet for language da"
+Description: "ePI document Bundle for rybrevant Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a96793ea13ac1652c4391adeab5c5fd7"
+* entry[0].resource = composition-da-a96793ea13ac1652c4391adeab5c5fd7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa96793ea13ac1652c4391adeab5c5fd7"
+* entry[=].resource = mpa96793ea13ac1652c4391adeab5c5fd7
+                            
+                    
+
+
+
+Instance: mpa96793ea13ac1652c4391adeab5c5fd7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Rybrevant 350 mg concentrate for solution for infusion."
-Description: "Rybrevant 350 mg concentrate for solution for infusion."
+Title: "Medicinal Product rybrevant"
+Description: "rybrevant"
 Usage: #inline
 
  
@@ -380,7 +920,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Rybrevant 350 mg concentrate for solution for infusion."
+  * productName = "rybrevant"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -407,29 +947,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a96793ea13ac1652c4391adeab5c5fd7
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rybrevant Package Leaflet for language en"
-Description: "ePI document Bundle for rybrevant Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a96793ea13ac1652c4391adeab5c5fd7ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1594/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rybrevant"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a96793ea13ac1652c4391adeab5c5fd7"
-* entry[0].resource = composition-en-a96793ea13ac1652c4391adeab5c5fd7
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbd38f4deed3810d182ad2bde7e742a45"
-* entry[=].resource = mpbd38f4deed3810d182ad2bde7e742a45
-                            
-                      
+* title = "List of all ePIs associated with rybrevant"
+
+* subject = Reference(mpbd38f4deed3810d182ad2bde7e742a45)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rybrevant "rybrevant"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a96793ea13ac1652c4391adeab5c5fd7) // rybrevant en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a96793ea13ac1652c4391adeab5c5fd7) // rybrevant da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a96793ea13ac1652c4391adeab5c5fd7
+InstanceOf: List
+
+* insert a96793ea13ac1652c4391adeab5c5fd7ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-774fedb6c66b32bb4aacfa98a373a48f
 InstanceOf: CompositionUvEpi
 Title: "Composition for cholestagel Package Leaflet"
@@ -273,12 +276,357 @@ Genzyme Ireland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Irelan
 
 
 
+Instance: composition-da-774fedb6c66b32bb4aacfa98a373a48f
+InstanceOf: CompositionUvEpi
+Title: "Composition for cholestagel Package Leaflet"
+Description:  "Composition for cholestagel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp675d10f0c65074ad9145d3b9aebee72f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp675d10f0c65074ad9145d3b9aebee72f
+* title = "TEST PURPOSES ONLY - cholestagel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Cholestagel 
+3. Sådan skal De tage Cholestagel 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cholestagel is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cholestagel is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cholestagel indeholder det aktive stof colesevelam (som hydrochlorid). Cholestagel er med til at 
+sænke kolesterolindholdet i Deres blod. Deres læge bør kun give Dem Cholestagel, hvis en fedt- og 
+kolesterolfattig kost alene ikke virkede godt nok.  </p>
+<p>Cholestagel virker i Deres tarmsystem ved at binde galdesyrer, som leveren producerer, og føre 
+galdesyrerne ud af kroppen med afføringen. Dette forhindrer kroppen i at recirkulere galdesyrerne fra 
+tarmene, som det normalt sker. Uden denne recirkulation skal leveren fremstille yderligere galdesyrer. 
+Deres lever bruger kolesterol fra blodet til dette, hvilket sænker kolesterolindholdet i Deres blod.  </p>
+<p>Cholestagel ordineres til behandling af en tilstand, der kaldes primær hyperkolesterolæmi (når 
+kolesteroltallet i blodet er for højt) hos voksne.<br />
+- Cholestagel kan ordineres alene sammen med en diæt, der er fedt- og kolesterolfattig, når 
+behandling med et statin (en type kolesterolsænkende medicin, der virker i leveren) er 
+uhensigtsmæssigt eller ikke tåles godt.<br />
+- Cholestagel kan anvendes sammen med et statin og den fedt- og kolesterolfattige diæt, når 
+patienterne ikke behandles hensigtsmæssigt med statin alene. Medens De tager Cholestagel, skal 
+de også følge en kolesterolsænkende diæt.<br />
+- Cholestagel kan også − med eller uden statin − anvendes sammen med ezetimib (et 
+kolesterolsænkende lægemiddel, der virker ved at nedsætte optagelsen af kolesterol fra tarmen). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cholestagel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cholestagel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Cholestagel:</p>
+<ul>
+<li>hvis De er allergisk over for colesevelam eller et af de øvrige indholdsstoffer i Cholestagel 
+(angivet i punkt 6) </li>
+<li>hvis De har en blokering i tarmene eller galdegangene </li>
+</ul>
+<p>Hvis De får ordineret Cholestagel og anden medicin sammen, skal De også læse den indlægsseddel, 
+der følger med den pågældende medicin, før De begynder at tage medicinen.  </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De tager Cholestagel 
+- hvis Deres triglyceridniveauer (et fedtstof i blodet) er større end 3,4 mmol/l 
+- hvis De har problemer med at synke eller har en alvorlig mave- eller tarmsygdom 
+- hvis De lider af forstoppelse, da Cholestagel kan fremkalde eller forværre denne tilstand. Dette er 
+især vigtigt for patienter med koronar hjertesygdom og angina pectoris. </p>
+<p>Hvis De mener, at én af disse to betingelser gælder for Dem, skal De underrette Deres læge eller 
+apotek, før De begynder at tage Cholestagel. </p>
+<p>Før De påbegynder behandlingen med Cholestagel, skal Deres læge sikre, at visse tilstande ikke 
+bidrager til Deres forhøjede kolesteroltal. Der kan være tale om dårligt kontrolleret diabetes, 
+ubehandlet hypothyroidea (lavt niveau for thyroidhormon, som der ikke aktuelt gives nogen 
+behandling for), protein i urinen (nefrotisk syndrom), ændret proteinniveau i blodet (dysproteinæmi) 
+og blokering af transporten af galde til galdeblæren (obstruktiv leversygdom).  </p>
+<p>Børn og unge<br />
+Sikkerheden og virkningen hos børn (under 18 år) er ikke blevet undersøgt. Cholestagel anbefales 
+derfor ikke til brug til denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Cholestagel 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De tager anden medicin eller har gjort det for 
+nylig. 
+Hvis Deres læge har en mistanke om, at Cholestagel kan påvirke optagelsen af det andet lægemiddel, 
+vil De måske blive rådet til at tage Cholestagel mindst 4 timer før eller mindst 4 timer efter, at De har 
+taget det andet lægemiddel. Hvis De skal tage anden medicin mere end én gang om dagen, skal De 
+huske, at De kan tage Deres Cholestagel-tabletter én gang om dagen. </p>
+<p>Cholestagel kan påvirke den måde, som følgende lægemidler virker på: </p>
+<ul>
+<li>
+<p>Koagulationshæmmende behandling (lægemidler som warfarin, der anvendes til at fortynde 
+blodet). Hvis De er i behandling med blodfortyndende medicin, skal De kontakte Deres læge 
+med henblik på at kontrollere blodets koagulation. Cholestagel kan påvirke optagelsen af 
+vitamin K og derfor også aktiviteten af warfarin.  </p>
+</li>
+<li>
+<p>Thyroidea-erstatningsterapi (lægemidler, f.eks. thyroxin eller levothyroxin, der anvendes til at 
+behandle lave niveauer af skjoldbruskkirtelhormon). </p>
+</li>
+<li>
+<p>Oral prævention (lægemidler til forebyggelse af graviditet). Det er vigtigt, at De tager 
+Cholestagel mindst 4 timer efter orale præventionsmidler for at sikre, at den 
+svangerskabsforebyggende virkning ikke påvirkes. </p>
+</li>
+<li>
+<p>Verapamil eller olmesartan (lægemidler, der anvendes til behandling af for højt blodtryk). Det 
+er vigtigt, at De tager olmesartan mindst 4 timer inden, De tager Cholestagel. </p>
+</li>
+<li>
+<p>Antidiabetika (medicin, der anvendes til behandling af sukkersyge, såsom metformin 
+depottabletter, glimepirid, glipzid, pioglitazon, repaglinid eller glibenclamid). Hvis De tager 
+diabetesmedicin, skal De spørge Deres læge til råds, så De kan blive nøje overvåget. Det er 
+vigtigt, at De tager glimepirid og glipizid mindst 4 timer inden, De tager Cholestagel. </p>
+</li>
+<li>
+<p>Antiepileptika (medicin såsom phenytoin, der anvendes til behandling af epilepsi). </p>
+</li>
+<li>
+<p>Ciclosporin (et lægemiddel, der bruges til undertrykkelse af immunsystemet).  </p>
+</li>
+<li>
+<p>Ursodeoxycholsyre (medicin, der bruges til at opløse galdesten eller behandle specifikke 
+kroniske leversygdomme).  </p>
+</li>
+</ul>
+<p>Hvis De skal tage Cholestagel og ét af disse lægemidler samtidig, vil Deres læge måske ønske at tage 
+prøver for at sikre, at Cholestagel ikke påvirker den måde, hvorpå disse lægemidler virker.  </p>
+<p>Desuden gælder det, at hvis De har en sygdom, der eventuelt kan medføre mangel på vitamin A, D, E 
+eller K, vil Deres læge måske ønske at kontrollere Deres vitaminniveau jævnligt, medens De tager 
+Cholestagel. Om nødvendigt kan Deres læge råde Dem til at tage vitamintilskud. </p>
+<p>Graviditet og amning 
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<p>Hvis De får ordineret Cholestagel og et statin sammen, er det vigtigt, at De fortæller Deres læge det, 
+hvis De er gravid, eller hvis De planlægger at blive gravid, idet statiner ikke må anvendes under 
+graviditet; der henvises til den indlægsseddel, der følger med det pågældende statin. 
+Fortæl Deres læge det, hvis De ammer. Deres læge vil måske afbryde Deres medicinering. </p>
+<p>Trafik- og arbejdssikkerhed 
+Deres evne til at køre bil og betjene maskiner påvirkes ikke af, at De tager Cholestagel tabletter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cholestagel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cholestagel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Før De starter på behandling med Cholestagel, skal De have besked om at følge en kolesterolsænkende 
+diæt, og De skal fortsætte med denne diæt under behandlingen. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet. Hvis De tager andre lægemidler sammen med Cholestagel, er det 
+muligt, at Deres læge − som beskrevet i punkt 2 − vil råde Dem til at tage Cholestagel mindst 4 timer 
+før eller mindst 4 timer efter, at De har taget de andre lægemidler. 
+Hvis De tager medicin med navnet Sandimmun Neoral® eller ciclosporin, skal De sørge for at tage det 
+i et ensartet mønster sammen med Cholestagel, enten altid sammen eller adskilt af det samme antal 
+timer. </p>
+<p>De skal tage Cholestagel sammen med mad og væske. Tabletterne skal synkes hele. Tabletterne må 
+ikke deles, knuses eller tygges. </p>
+<p>Kombinationsbehandling 
+Den anbefalede dosis af Cholestagel, når det bruges sammen med et statin eller ezetimib eller begge 
+samtidig, er 4 til 6 tabletter gennem munden pr. dag. Deres læge vil muligvis bede Dem om at tage 
+Deres dosis af Cholestagel enten én gang om dagen eller to gange om dagen. I begge tilfælde skal 
+Cholestagel tages sammen med et måltid. Doseringen af statinet og ezetimib skal følge anvisningerne 
+for det pågældende lægemiddel. De lægemidler kan tages samtidig eller hver for sig, afhængig af 
+lægens ordination.  </p>
+<p>Enkeltstofbehandling 
+Den anbefalede dosis for Cholestagel er 3 tabletter to gange om dagen sammen med et måltid eller 6 
+tabletter om dagen sammen med et måltid. Deres læge kan eventuelt øge dosis til 7 tabletter om dagen.  </p>
+<p>Hvis De har taget for meget Cholestagel 
+Kontakt Deres læge. Forstoppelse eller oppustethed kan forekomme. </p>
+<p>Hvis De har glemt at tage Cholestagel 
+De kan tage Deres dosis sammen med et senere måltid, men De må aldrig på én dag tage mere end det 
+samlede antal tabletter, som Deres læge har ordineret til Dem.  </p>
+<p>Hvis De holder op med at tage Cholestagel 
+Deres kolesteroltal kan stige til det niveau, det lå på før behandlingens start.  </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Følgende bivirkninger er indberettet fra patienter, der har fået Cholestagel:<br />
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer): flatulens (luft i maven), 
+forstoppelse. 
+Almindelig (kan forekomme hos op til 1 ud af 10 personer): opkastning, diarré, fordøjelsesbesvær, 
+mavesmerter, unormal afføring, kvalme, oppustethed, hovedpine, forhøjede niveauer af triglycerider 
+(fedtstoffer) i blodet. 
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): muskelsmerter, forhøjede niveauer 
+af leverenzymer i blodet, synkebesvær. 
+Meget sjælden (kan forekomme hos op til 1 ud af 10.000 personer): betændelse i bugspytkirtlen. 
+Ikke kendt (kan ikke vurderes ud fra forhåndenværende data): blokeret tarm (tarmslyng – som kan 
+være hyppigere hos patienter, som tidligere har haft tarmslyng eller har fået dele af tarmen fjernet). </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cholestagel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cholestagel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter “EXP”. </p>
+<p>Hold tabletbeholderen tæt tillukket for at beskytte mod fugt. </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cholestagel indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: colesevelam (som hydrochlorid). Hver tablet indeholder 625 mg colesevelam.  </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer (hjælpestoffer):<br />
+Tabletkerne: 
+mikrokrystallinsk cellulose (E460) 
+silica, kolloid vandfri<br />
+magnesiumstearat 
+renset vand </p>
+</li>
+</ul>
+<p>Filmovertræk: 
+hypromellose (E464) 
+diacetylerede monoglycerider </p>
+<p>Tryk: 
+jernoxid, sort (E172) 
+hypromellose (E464) 
+propylenglycol </p>
+<p>Udseende og pakningsstørrelser 
+Cholestagel tabletter er offwhite, kapselformede, filmovertrukne tabletter med ‘C625’ påtrykt på den 
+ene side. Tabletterne er emballeret i plastbeholder med børnesikret lukning. Pakningsstørrelserne er 
+24 (1 x 24), 100 (2 x 50) og 180 (1 x 180) tabletter. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Indehaver af markedsføringstilladelsen 
+CHEPLAPHARM Arzneimittel GmbH 
+Ziegelhof 17489 Greifswald 
+Tyskland  </p>
+<p>Fremstiller 
+Genzyme Ireland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Irland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-774fedb6c66b32bb4aacfa98a373a48f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cholestagel Package Leaflet for language en"
+Description: "ePI document Bundle for cholestagel Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-774fedb6c66b32bb4aacfa98a373a48f"
+* entry[0].resource = composition-en-774fedb6c66b32bb4aacfa98a373a48f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp774fedb6c66b32bb4aacfa98a373a48f"
+* entry[=].resource = mp774fedb6c66b32bb4aacfa98a373a48f
+                            
+                    
+Instance: bundlepackageleaflet-da-774fedb6c66b32bb4aacfa98a373a48f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cholestagel Package Leaflet for language da"
+Description: "ePI document Bundle for cholestagel Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-774fedb6c66b32bb4aacfa98a373a48f"
+* entry[0].resource = composition-da-774fedb6c66b32bb4aacfa98a373a48f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp774fedb6c66b32bb4aacfa98a373a48f"
+* entry[=].resource = mp774fedb6c66b32bb4aacfa98a373a48f
+                            
+                    
+
+
+
+Instance: mp774fedb6c66b32bb4aacfa98a373a48f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cholestagel 625 mg film-coated tablets"
-Description: "Cholestagel 625 mg film-coated tablets"
+Title: "Medicinal Product cholestagel"
+Description: "cholestagel"
 Usage: #inline
 
  
@@ -298,7 +646,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cholestagel 625 mg film-coated tablets"
+  * productName = "cholestagel"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -325,29 +673,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-774fedb6c66b32bb4aacfa98a373a48f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cholestagel Package Leaflet for language en"
-Description: "ePI document Bundle for cholestagel Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 774fedb6c66b32bb4aacfa98a373a48fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/03/268/001-004"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cholestagel"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-774fedb6c66b32bb4aacfa98a373a48f"
-* entry[0].resource = composition-en-774fedb6c66b32bb4aacfa98a373a48f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp675d10f0c65074ad9145d3b9aebee72f"
-* entry[=].resource = mp675d10f0c65074ad9145d3b9aebee72f
-                            
-                      
+* title = "List of all ePIs associated with cholestagel"
+
+* subject = Reference(mp675d10f0c65074ad9145d3b9aebee72f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cholestagel "cholestagel"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-774fedb6c66b32bb4aacfa98a373a48f) // cholestagel en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-774fedb6c66b32bb4aacfa98a373a48f) // cholestagel da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-774fedb6c66b32bb4aacfa98a373a48f
+InstanceOf: List
+
+* insert 774fedb6c66b32bb4aacfa98a373a48fListRuleset
+    

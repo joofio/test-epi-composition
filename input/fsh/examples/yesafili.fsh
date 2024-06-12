@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-287bc5c0cd4c93468a645b4df30664e2
 InstanceOf: CompositionUvEpi
 Title: "Composition for yesafili Package Leaflet"
@@ -367,12 +370,566 @@ Hessen, 61Germany </p>
 
 
 
+Instance: composition-da-287bc5c0cd4c93468a645b4df30664e2
+InstanceOf: CompositionUvEpi
+Title: "Composition for yesafili Package Leaflet"
+Description:  "Composition for yesafili Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc76323b198258d6eed15860b3056db2f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc76323b198258d6eed15860b3056db2f
+* title = "TEST PURPOSES ONLY - yesafili"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at få Yesafili 
+3. Sådan får du Yesafili 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What yesafili is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What yesafili is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yesafili er en opløsning, der indsprøjtes i øjet for at behandle øjensygdomme hos voksne, som kaldes </p>
+<ul>
+<li>neovaskulær (våd) aldersrelateret makulær degeneration hos voksne (våd AMD) </li>
+<li>nedsat syn på grund af makulaødem sekundært til retinal veneokklusion (grenveneokklusion 
+(BRVO) eller centralveneokklusion (CRVO)) </li>
+<li>nedsat syn på grund af diabetisk makulaødem (DME) </li>
+<li>nedsat syn på grund af myopisk koroidal neovaskularisering (myopisk CNV) </li>
+</ul>
+<p>Aflibercept, det aktive stof i Yesafili, blokerer for aktiviteten af en gruppe faktorer, der kaldes 
+vaskulær endotelial vækstfaktor A (VEGF-A) og placenta-vækstfaktor (PIGF). </p>
+<p>Hos patienter med våd AMD og myopisk CNV er disse vækstfaktorer involveret i den unormale 
+dannelse af nye blodkar i øjet, hvis der er overskud af dem. Disse nye blodkar kan medføre, at der 
+lækkes bestanddele fra blodet ind i øjet, og dette kan evt. beskadige det væv i øjet, der gør dig i stand 
+til at se. </p>
+<p>Hos patienter med CRVO sker der en blokering i det største blodkar, som transporterer blod væk fra 
+nethinden. VEGF-niveauerne stiger som en reaktion på dette og forårsager udsivning af væske i 
+nethinden, hvilket medfører hævelse af makula (den del af nethinden, der er ansvarlig for, at vi kan 
+opfatte fine detaljer). Dette kaldes et makulaødem. Når makula er hævet på grund af væske, bliver det 
+centrale syn sløret. </p>
+<p>Hos patienter med BRVO er en eller flere grene af det store blodkar, der transporterer blod væk fra 
+nethinden, blokeret. VEGF-niveauerne stiger som en reaktion på dette og forårsager en udsivning af 
+væske i nethinden, hvilket fører til makulaødem. </p>
+<p>Diabetisk makulaødem er en hævelse af nethinden, der forekommer hos patienter med sukkersyge på 
+grund af, at blodkarrene i den gule plet (makula) lækker væske. Makula er den del af nethinden, der er 
+ansvarlig for det skarpe syn. Når makula er hævet på grund af væske, bliver det centrale syn sløret. </p>
+<p>Aflibercept har vist sig at stoppe væksten af nye unormale blodkar i øjet, der ofte lækker væske eller 
+bløder. Aflibercept kan hjælpe med at stabilisere og i mange tilfælde forbedre det synstab, der er 
+relateret til våd AMD, CRVO, BRVO, DME og myopisk CNV. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take yesafili"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take yesafili"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil ikke få Yesafili 
+- hvis du er allergisk over for aflibercept eller et af de øvrige indholdsstoffer i Yesafili (angivet i 
+punkt 6). 
+- hvis du har en aktiv eller formodet infektion i eller rundt om øjet (okulær eller periokulær 
+infektion). 
+- hvis du har en alvorlig øjenbetændelse (indikeret ved smerter eller rødmen). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du får Yesafili:</p>
+<ul>
+<li>hvis du har grøn stær. </li>
+<li>hvis du tidligere har set blinkende lys eller "flyvende fluer", og hvis de "flyvende fluer" 
+pludselig øges i antal eller bliver større. </li>
+<li>hvis du er blevet opereret, eller der planlægges operation i dit øje i de sidste eller næste fire 
+uger. </li>
+<li>hvis du har en alvorlig form for CRVO eller BRVO (iskæmisk CRVO eller BRVO), frarådes 
+behandling med Yesafili. </li>
+</ul>
+<p>Desuden er det vigtigt for dig at vide, at:</p>
+<ul>
+<li>aflibercepts sikkerhed og virkning ved administration i begge øjne samtidigt ikke er blevet 
+undersøgt, og kan, hvis det anvendes på denne måde, øge risikoen for bivirkninger. </li>
+<li>injektioner med Yesafili kan medføre et øget tryk i øjet (intraokulært tryk) hos nogle patienter 
+inden for 60 minutter efter injektionen. Dette vil blive kontrolleret efter hver injektion. </li>
+<li>hvis du får betændelse eller inflammation (betændelseslignende tilstand) inden i øjet 
+(endoftalmitis), eller du får andre komplikationer, kan du få øjensmerter, øget ubehag, 
+forværring af øjenrødme, sløret eller nedsat syn og øget lysfølsomhed. Det er vigtigt at få alle 
+symptomer diagnosticeret og behandlet hurtigst muligt. </li>
+<li>din øjenlæge vil undersøge, om du har andre risikofaktorer, der kan øge risikoen for rifter i eller 
+løsning af et af lagene bagest i øjet (løsning af eller rift i nethinden eller nethinde-pigment-
+epitelet). I disse tilfælde skal aflibercept gives med forsigtighed. </li>
+<li>aflibercept bør ikke anvendes under graviditeten, medmindre den potentielle fordel opvejer den 
+potentielle risiko for det ufødte barn. </li>
+<li>kvinder i den fertile alder skal anvende sikker prævention under behandlingen og i mindst 
+3 måneder efter den sidste injektion af Yesafili. </li>
+</ul>
+<p>Brug af VEGF-hæmmere, stoffer, der ligner det stof, der findes i Yesafili, i kroppen (systemisk brug), 
+er muligvis forbundet med risiko for blodpropper (arterielle tromboemboliske bivirkninger), hvilket 
+kan føre til hjerteanfald eller slagtilfælde. Der er en teoretisk risiko for sådanne hændelser, efter at 
+Yesafili er blevet indsprøjtet i øjet. Der er begrænsede data for sikkerhed ved behandling af patienter 
+med CRVO, BRVO, DME og myopisk CNV med tidligere slagtilfælde eller mini-slagtilfælde 
+(transitorisk iskæmisk anfald) eller hjerteanfald inden for de sidste 6 måneder. Hvis noget af dette 
+gælder for dig, vil du med stor forsigtighed blive behandlet med Yesafili. </p>
+<p>Der er kun begrænset erfaring ved behandling af 
+- patienter med DME, der skyldes type I-sukkersyge. 
+- sukkersygepatienter med meget højt gennemsnitligt blodsukker (HbA1c over 12 %). 
+- sukkersygepatienter med en øjensygdom forårsaget af sukkersyge, der kaldes proliferativ 
+diabetisk retinopati. </p>
+<p>Der er ingen erfaring ved behandling af 
+- patienter med akutte infektioner. 
+- patienter med andre øjensygdomme, såsom løsning af nethinden eller et hul i makula. 
+- sukkersygepatienter med ukontrolleret højt blodtryk. 
+- ikke-asiatiske patienter med myopisk CNV. 
+- patienter, der tidligere er blevet behandlet for myopisk CNV. 
+- patienter med skader uden for den centrale del af makula (ekstrafoveale læsioner) for myopisk 
+CNV. 
+Hvis noget af det ovenstående gælder for dig, kan øjenlægen overveje behandling med Yesafili på 
+trods af den manglende erfaring. </p>
+<p>Børn og unge 
+Anvendelsen af aflibercept til børn eller unge under 18 år er ikke blevet undersøgt, da våd AMD, 
+CRVO, BRVO, DME og myopisk CNV hovedsageligt forekommer hos voksne. Dets brug er derfor 
+ikke relevant til denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Yesafili 
+Fortæl det altid til lægen, hvis du bruger andre lægemidler, for nylig har brugt andre lægemidler eller 
+planlægger at bruge andre lægemidler. </p>
+<p>Graviditet og amning 
+Kvinder i den fertile alder skal anvende sikker prævention under behandlingen og i mindst 3 måneder 
+efter den sidste injektion af Yesafili. </p>
+<p>Der er ingen erfaring med at bruge aflibercept til gravide kvinder. Yesafili bør ikke anvendes under 
+graviditeten, medmindre den potentielle fordel opvejer den potentielle risiko for det ufødte barn. Hvis 
+du er gravid eller planlægger at blive gravid, skal du diskutere dette med din øjenlæge inden 
+behandlingen med Yesafili. </p>
+<p>Yesafili bør ikke anvendes under amning, da det er ukendt, om aflibercept udskilles i human mælk. 
+Spørg din øjenlæge til råds, før du starter behandling med Yesafili. </p>
+<p>Trafik- og arbejdssikkerhed 
+Efter din injektion med Yesafili kan du opleve nogle midlertidige synsforstyrrelser. Du må ikke føre 
+motorkøretøj eller betjene maskiner, så længe disse synsforstyrrelser varer ved. </p>
+<p>Vigtig information om nogle af indholdsstofferne i Yesafili 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take yesafili"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take yesafili"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>En øjenlæge med erfaring i at give øjeninjektioner vil indsprøjte Yesafili i dit øje under aseptiske (rene 
+og sterile) forhold. </p>
+<p>Den anbefalede dosis er 2 mg aflibercept (0,05 ml). 
+Yesafili gives som en injektion i øjet (intravitreal injektion). </p>
+<p>Før injektionen vil din øjenlæge anvende et desinficerende øjenbad, så dit øje bliver renset grundigt, 
+for at forebygge en infektion. Din øjenlæge vil også give dig et lokalbedøvende middel for at reducere 
+eller forhindre smerter, som du kan opleve under injektionen. </p>
+<p>Våd AMD </p>
+<p>Patienter med våd AMD vil blive behandlet med én injektion om måneden i tre på hinanden følgende 
+doser, efterfulgt af én injektion efter yderligere to måneder. </p>
+<p>Din øjenlæge vil beslutte om behandlingsintervallet mellem injektionerne skal forblive på to måneder 
+eller gradvist forlænges med 2- eller 4-ugers tillægsperioder, hvis din tilstand er stabil. </p>
+<p>Hvis din tilstand forværres, kan intervallet mellem injektionerne forkortes. </p>
+<p>Medmindre der opstår problemer, eller du får anden besked af din øjenlæge, er det ikke nødvendigt, at 
+du bliver undersøgt af øjenlægen mellem injektionerne. </p>
+<p>Makulaødem sekundært til RVO (grenveneokklusion eller centralveneokklusion) </p>
+<p>Din øjenlæge vil fastlægge en behandlingsplan, der passer til dig. Din behandling starter med en række 
+månedlige Yesafili-injektioner. </p>
+<p>Afstanden mellem to injektioner bør ikke være kortere end én måned. </p>
+<p>Øjenlægen kan beslutte at stoppe behandlingen med Yesafili, hvis du ikke har nogen gavn af fortsat 
+behandling. </p>
+<p>Behandlingen vil fortsætte med en injektion én gang om måneden, indtil din tilstand er stabil. Det kan 
+være nødvendigt at give tre eller flere injektioner. </p>
+<p>Øjenlægen overvåger, hvordan du reagerer på behandlingen. For at bevare en stabil tilstand kan 
+øjenlægen fortsætte behandlingen ved gradvist at øge tiden mellem injektionerne. Hvis din tilstand 
+begynder at bliver forværret, når intervallet mellem behandlingerne øges, vil øjenlægen afkorte 
+intervallet derefter. </p>
+<p>Afhængigt af hvordan du reagerer på behandlingen, fastlægger din øjenlæge en plan for efterfølgende 
+undersøgelser og behandlinger. </p>
+<p>Diabetisk makulaødem (DME) </p>
+<p>Patienter med DME vil blive behandlet med én injektion om måneden i de første fem på hinanden 
+følgende doser, efterfulgt af én injektion hver anden måned. </p>
+<p>Behandlingsintervallet fastholdes på to måneder eller justeres efter behov baseret på øjenlægens 
+undersøgelse. Din øjenlæge vil bestemme forløbet af de opfølgende undersøgelser. </p>
+<p>Øjenlægen kan vælge at stoppe med behandlingen med Yesafili, hvis det viser sig, at du ikke har gavn 
+af fortsat behandling. </p>
+<p>Myopisk CNV </p>
+<p>Patienter med myopisk CNV vil blive behandlet med en enkelt injektion. Du vil kun få flere 
+injektioner, hvis de undersøgelser, din øjenlæge foretager, viser, at din sygdom ikke er blevet bedre. </p>
+<p>Afstanden mellem to injektioner bør ikke være kortere end én måned. </p>
+<p>Hvis din sygdom forsvinder og igen vender tilbage, kan din øjenlæge genstarte behandlingen. Din 
+øjenlæge vil bestemme forløbet af de opfølgende undersøgelser. </p>
+<p>Hvis en dosis af Yesafili springes over 
+Aftal et nyt besøg for undersøgelse og injektion. </p>
+<p>Hvis du holder op med Yesafili-behandlingen 
+Kontakt øjenlægen, før du holder op med behandlingen. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Der kan muligvis forekomme allergiske reaktioner (overfølsomhed). Disse kan være alvorlige og 
+kræve, at du kontakter lægen øjeblikkeligt. </p>
+<p>I forbindelse med injektion af aflibercept kan der på grund af injektionsproceduren optræde nogle 
+bivirkninger, der påvirker øjnene. Nogle af disse kan være alvorlige, herunder blindhed, en alvorlig 
+infektion eller betændelse i øjet (endoftalmitis), løsning af nethinden eller rift eller blødning i 
+nethinden (det lysfølsomme lag bag i øjet (nethindeløsning eller rift i nethinden)), uklarhed i linsen 
+(katarakt), blødning i øjet (blødning i glaslegemet), løsning af den geléagtige substans i øjet fra 
+nethinden (glaslegemeløsning) og stigning i trykket i øjet, se punkt 2. Disse alvorlige bivirkninger, 
+der påvirker øjnene, forekom ved færre end 1 ud af 1 900 injektioner i kliniske studier. </p>
+<p>Hvis du oplever pludseligt nedsat syn eller øget smerte og rødme i øjet efter din injektion, skal du 
+kontakte lægen øjeblikkeligt. </p>
+<p>Liste over bivirkninger 
+Følgende er en liste over de bivirkninger, der er indberettet som værende muligvis relaterede til 
+injektionsproceduren eller lægemidlet. Bliv ikke bekymret, det er ikke sikkert, at du får nogen af disse 
+bivirkninger. Tal altid med din læge, hvis du har mistanke om eventuelle bivirkninger. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 behandlede):</p>
+<ul>
+<li>forringet syn </li>
+<li>blødning bagerst i øjet (retinalblødning) </li>
+<li>blodskudt øje på grund af blødning fra de små blodkar i øjets ydre lag (konjunktivalblødning) </li>
+<li>øjensmerter </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede):</p>
+<ul>
+<li>løsning af eller rift i et af lagene bag i øjet, hvilket giver lysglimt, der bevæger sig som flyvende 
+fluer og nogen gange udvikler sig til synstab (løsning af eller rift* i nethinden eller nethinde-
+pigment-epitelet) </li>
+<li>nedbrydning af nethinden (medfører synsforstyrrelser) </li>
+<li>blødning i øjet (blødning i glaslegemet) </li>
+<li>visse former for uklarhed af linsen (katarakt) </li>
+<li>beskadigelse af øjenæblets yderste lag (hornhinden) </li>
+<li>forhøjet tryk i øjet </li>
+<li>små pletter i synsfeltet ("flyvende fluer") </li>
+<li>løsning af den geléagtige substans inde i øjet fra nethinden (glaslegemeløsning, hvilket 
+medfører lysglimt/og eller flyvende fluer) </li>
+<li>en følelse af at have noget i øjet </li>
+<li>øget tåredannelse </li>
+<li>
+<p>hævelse af øjenlåget </p>
+</li>
+<li>
+<p>blødning på injektionsstedet </p>
+</li>
+<li>
+<p>rødt øje </p>
+</li>
+<li>
+<p>Rift i nethinde-pigment-epitelet vides at være forbundet med våd AMD; kun observeret hos patienter 
+med våd AMD. </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 behandlede):</p>
+<ul>
+<li>allergiske reaktioner (overfølsomhed)** </li>
+<li>alvorlig betændelseslignende reaktion (inflammation) eller infektion inden i øjet (endoftalmitis) </li>
+<li>betændelse i regnbuehinden eller andre dele af øjet (iritis, uveitis, iridocyklitis, lysglimt i 
+forreste kammer) </li>
+<li>unormal fornemmelse i øjet </li>
+<li>irritation af øjenlåget </li>
+<li>hævelse af øjeæblets yderste lag (hornhinden) </li>
+</ul>
+<p>** Der blev set allergiske reaktioner såsom udslæt, kløe (pruritus), nældefeber (urticaria) og få tilfælde 
+af alvorlige allergiske reaktioner (anafylaktiske/anafylaktoide reaktioner). </p>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 behandlede):</p>
+<ul>
+<li>blindhed </li>
+<li>uklarhed i linsen på grund af en skade (traumatisk katarakt) </li>
+<li>betændelseslignende reaktion (inflammation) i den geléagtige substans inden i øjet </li>
+<li>pus i øjet </li>
+</ul>
+<p>I kliniske studier var der en øget forekomst af blødning fra de små blodkar i de ydre lag af øjet 
+(konjunktival blødning) hos patienter med våd AMD, der fik blodfortyndende medicin. Den øgede 
+forekomst var sammenlignelig mellem patienter behandlet med ranibizumab og aflibercept. </p>
+<p>Brug af VEGF-hæmmere, stoffer, der ligner det stof, der findes i Yesafili, i kroppen (systemisk brug), 
+er muligvis forbundet med risiko for blodpropper (arterielle tromboemboliske bivirkninger), hvilket 
+kan føre til hjerteanfald eller slagtilfælde. Der er en teoretisk risiko for sådanne hændelser efter 
+injektion af aflibercept i øjet. </p>
+<p>Som med alle proteiner, der anvendes i behandlingsøjemed, er der en mulighed for en immunreaktion 
+(dannelse af antistoffer) ved anvendelse 
+af Yesafili. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store yesafili"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store yesafili"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p> 
+Opbevar lægemidlet utilgængeligt for børn. 
+ 
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. 
+ 
+Opbevares i køleskab (2 ºC – 8 ºC). Må ikke nedfryses. 
+ 
+Det uåbnede hætteglas kan opbevares uden for køleskab ved temperaturer under 25 °C i op til 
+24 timer. 
+ 
+Opbevares i den originale yderpakning for at beskytte mod lys. 
+ 
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må 
+du ikke smide lægemiddelrester i afløbet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yesafili indeholder:</p>
+<ul>
+<li>Aktivt stof: aflibercept. Et hætteglas indeholder et ekstraherbart volumen på mindst 0,1 ml 
+svarende til mindst 4 mg aflibercept. Et hætteglas giver en dosis på 2 mg aflibercept i 0,05 ml. </li>
+<li>Øvrige indholdsstoffer: histidin, histidinhydrochloridmonohydrat, polysorbat 20 (E 432), 
+trehalosedihydrat, vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningstørrelser 
+Yesafili er en injektionsvæske, opløsning (injektion) i et hætteglas. Opløsningen er farveløs til let gul. 
+Yesafili leveres i pakninger, der indeholder 1 hætteglas og 1 filterkanyle eller i pakninger, der 
+indeholder 1 hætteglas, 1 filterkanyle, 1 injektionssprøjte og 1 injektionskanyle. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Biosimilar Collaborations Ireland Limited 
+Unit 35/36<br />
+Grange Parade, 
+Baldoyle Industrial Estate, 
+Dublin DUBLIN 
+Irland<br />
+D13 R20R </p>
+<p>Fremstiller<br />
+McDermott Laboratories Limited T/A Mylan Dublin Biologics 
+Newenham Court,<br />
+Northern Cross,<br />
+Malahide Road 
+Dublin 17<br />
+Irland </p>
+<p>Mylan Germany GmbH 
+Zweigniederlassung Bad Homburg v. d. Hoehe, Benzstrasse 1 
+Bad Homburg v. d. Hoehe 
+Hessen, 61352<br />
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu  </p>
+<hr />
+<p>Nedenstående oplysninger er til sundhedspersoner </p>
+<p>Hætteglasset må kun anvendes til behandling af et enkelt øje. </p>
+<p>Hætteglasset indeholder mere end den anbefalede dosis på 2 mg aflibercept (svarende til 0,05 ml). Den 
+overskydende mængde skal bortskaffes før indgiften. </p>
+<p>Før injektion skal injektionsvæsken inspiceres visuelt for fremmedlegemer, misfarvning eller enhver 
+forandring i det fysiske udseende. Produktet bortskaffes, hvis en af dissee observeres. </p>
+<p>Det uåbnede hætteglas kan opbevares uden for køleskab ved temperaturer under 25 °C i op til 
+24 timer. Fortsæt under aseptiske forhold efter åbning af hætteglasset. 
+Anvend en 30 G × ½" kanyle til den intravitreale injektion. </p>
+<p>Figur A: Pakningsstørrelse med 1 hætteglas + 1 filterkanyle + 1 injektionssprøjte + 1 injektionskanyle </p>
+<p>Figur B: Pakningsstørrelse med 1 hætteglas + 1 filterkanyle </p>
+<p>1 ml steril Luer lock-
+injektionssprøjte (med markering 
+til afmåling af 0,05 ml) 
+Hætteglas 
+Steril injektionskanyle 
+(30 G x ½") 
+5-mikrometer steril 
+filterkanyle 
+(18 G x 1½") 
+Hætteglas 
+5‐mikrometer steril filterkanyle 
+(18 G x 1½") </p>
+<p>Brugsanvisning </p>
+<ol>
+<li>
+<p>Plastlåget fjernes, og den ydre del af 
+hætteglassets gummiprop desinficeres. </p>
+</li>
+<li>
+<p>18 G × 1½", 5-mikrometer filterkanylen 
+anvendes til at trække lægemidlet op af 
+hætteglasset. </p>
+</li>
+</ol>
+<p>Tag 18 G × 1½", 5-mikrometer filterkanylen og 
+1 ml injektionssprøjten ud af æsken. Sæt 
+filterkanylen på injektionssprøjten ved at vride 
+den fast på Luer-lock-injektionssprøjtens spids. </p>
+<ol>
+<li>
+<p>Pres filterkanylen ned midt i hætteglassets 
+gummiprop, indtil kanylen er stukket helt ned i 
+hætteglasset og spidsen berører bunden af 
+hætteglasset. </p>
+</li>
+<li>
+<p>Med en aseptisk teknik trækkes hele indholdet 
+af hætteglasset med Yesafili ind i 
+injektionssprøjten, mens hætteglasset holdes 
+lodret og en smule på skrå, så alt indholdet 
+trækkes op. For at undgå, at der kommer luft 
+med, skal du sikre dig, at kanylens skråspids er 
+neddyppet i væsken. Fortsæt med at holde 
+hætteglasset vippet mens væsken trækkes op, 
+samtidig med at du holder filterkanylens 
+skråspids neddyppet i væsken. </p>
+</li>
+<li>
+<p>Sørg for, at stempelstangen er trukket tilstrækkeligt tilbage, når hætteglasset tømmes, for at 
+tømme filterkanylen helt. </p>
+</li>
+<li>
+<p>Fjern filterkanylen og bortskaf den på korrekt vis. </p>
+</li>
+</ol>
+<p>Bemærk: Filterkanylen må ikke bruges til intravitreal injektion. </p>
+<p>Kanyleaffasnin
+gen peger 
+nedad 
+Opløsning </p>
+<ol>
+<li>Sørg for, at 30 G × ½" injektionskanylen 
+anvendes til intravitreal injektion. </li>
+</ol>
+<p>Tag 30 G × ½" injektionskanylen ud af æsken, 
+og drej den godt fast på Luer-lock-
+injektionssprøjtens spids med en aseptisk teknik. </p>
+<ol>
+<li>Tag kanylebeskyttelsen af plast af kanylen, når 
+du er klar til at give injektionen. </li>
+</ol>
+<p>Kontrollér, om det er bobler i injektionssprøjten, 
+ved at holde injektionssprøjten med kanylen 
+pegende opad. Hvis der er bobler, banker du let 
+på injektionssprøjten med fingeren, indtil 
+boblerne stiger opad. </p>
+<ol>
+<li>
+<p>Fjern alle bobler og sprøjt overskydende 
+lægemiddel ud ved langsomt at trykke stemplet 
+ned, så den flade kant af stemplet er på linje med 
+0,05 ml-markeringen på injektionssprøjten. </p>
+</li>
+<li>
+<p>Hætteglasset er kun til engangsbrug. Ekstraktion af flere doser fra ét hætteglas kan øge risikoen 
+for kontaminering og efterfølgende infektion.  </p>
+</li>
+</ol>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Doseringslinje til 0,05 ml 
+Opløsning efter luftbobler 
+og overskydende 
+lægemiddel er fjernet 
+Flad 
+stempelkant </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-287bc5c0cd4c93468a645b4df30664e2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yesafili Package Leaflet for language en"
+Description: "ePI document Bundle for yesafili Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-287bc5c0cd4c93468a645b4df30664e2"
+* entry[0].resource = composition-en-287bc5c0cd4c93468a645b4df30664e2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp287bc5c0cd4c93468a645b4df30664e2"
+* entry[=].resource = mp287bc5c0cd4c93468a645b4df30664e2
+                            
+                    
+Instance: bundlepackageleaflet-da-287bc5c0cd4c93468a645b4df30664e2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yesafili Package Leaflet for language da"
+Description: "ePI document Bundle for yesafili Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-287bc5c0cd4c93468a645b4df30664e2"
+* entry[0].resource = composition-da-287bc5c0cd4c93468a645b4df30664e2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp287bc5c0cd4c93468a645b4df30664e2"
+* entry[=].resource = mp287bc5c0cd4c93468a645b4df30664e2
+                            
+                    
+
+
+
+Instance: mp287bc5c0cd4c93468a645b4df30664e2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Yesafili 40 mg/mL solution for injection in a vial"
-Description: "Yesafili 40 mg/mL solution for injection in a vial"
+Title: "Medicinal Product yesafili"
+Description: "yesafili"
 Usage: #inline
 
  
@@ -392,7 +949,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Yesafili 40 mg/mL solution for injection in a vial"
+  * productName = "yesafili"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -419,29 +976,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-287bc5c0cd4c93468a645b4df30664e2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for yesafili Package Leaflet for language en"
-Description: "ePI document Bundle for yesafili Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 287bc5c0cd4c93468a645b4df30664e2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1751/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "yesafili"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-287bc5c0cd4c93468a645b4df30664e2"
-* entry[0].resource = composition-en-287bc5c0cd4c93468a645b4df30664e2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc76323b198258d6eed15860b3056db2f"
-* entry[=].resource = mpc76323b198258d6eed15860b3056db2f
-                            
-                      
+* title = "List of all ePIs associated with yesafili"
+
+* subject = Reference(mpc76323b198258d6eed15860b3056db2f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#yesafili "yesafili"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-287bc5c0cd4c93468a645b4df30664e2) // yesafili en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-287bc5c0cd4c93468a645b4df30664e2) // yesafili da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-287bc5c0cd4c93468a645b4df30664e2
+InstanceOf: List
+
+* insert 287bc5c0cd4c93468a645b4df30664e2ListRuleset
+    

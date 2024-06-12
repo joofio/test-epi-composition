@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-603d42b6b07783003b47c538f27a463d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rinvoq Package Leaflet"
@@ -511,12 +514,839 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-603d42b6b07783003b47c538f27a463d
+InstanceOf: CompositionUvEpi
+Title: "Composition for rinvoq Package Leaflet"
+Description:  "Composition for rinvoq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp89f67fa3cbfbdbb1ca3b52ba2df9ff6d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp89f67fa3cbfbdbb1ca3b52ba2df9ff6d
+* title = "TEST PURPOSES ONLY - rinvoq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage RINVOQ </li>
+<li>Sådan skal du tage RINVOQ </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rinvoq is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rinvoq is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RINVOQ indeholder det aktive stof upadacitinib. Det tilhører en gruppe af lægemidler, der kaldes 
+Janus-kinase-hæmmere. Ved at reducere aktiviteten af et enzym i kroppen, der kaldes Janus-kinase, 
+mindsker RINVOQ inflammation (betændelsestilstande) ved følgende sygdomme: </p>
+<ul>
+<li>
+<p>Leddegigt </p>
+</li>
+<li>
+<p>Psoriasisgigt </p>
+</li>
+<li>
+<p>Aksial spondyloartritis </p>
+</li>
+<li>
+<p>Ikke-radiografisk aksial spondyloartritis </p>
+</li>
+<li>
+<p>Rygsøjlegigt (AS, radiografisk aksial spondyloartritis) </p>
+</li>
+<li>
+<p>Atopisk eksem </p>
+</li>
+<li>
+<p>Colitis ulcerosa </p>
+</li>
+<li>
+<p>Crohns sygdom </p>
+</li>
+</ul>
+<p>Leddegigt 
+RINVOQ anvendes til behandling af voksne med leddegigt (reumatoid artritis). Leddegigt er en 
+sygdom, hvor der opstår betændelsestilstand i leddene. Hvis du har moderat til svært aktiv leddegigt, 
+kan det være, du først får andre lægemidler, hvoraf det ene typisk vil være methotrexat. Hvis disse 
+lægemidler ikke har tilstrækkelig virkning, vil du få RINVOQ enten alene eller i kombination med 
+methotrexat til behandling af din leddegigt. </p>
+<p>RINVOQ kan mindske træthed og forekomsten af ledsmerter, -stivhed og -hævelse, og det kan 
+forsinke skadevirkningerne på knogler og brusk i dine led. Lægemidlet kan derfor gøre det lettere for 
+dig at udføre hverdagens aktiviteter og dermed forbedre din livskvalitet. </p>
+<p>Psoriasisgigt 
+RINVOQ anvendes til behandling af voksne med psoriasisgigt (psoriasisartritis). Psoriasisgigt er en 
+sygdom, der medfører betændelse i leddene og psoriasis. Hvis du har aktiv psoriasisgigt, får du 
+muligvis andre lægemidler først. Hvis disse lægemidler ikke har tilstrækkelig virkning, vil du få 
+RINVOQ enten alene eller i kombination med methotrexat til behandling af din psoriasisgigt. </p>
+<p>RINVOQ kan hjælpe med at reducere smerter, stivhed og hævelser i og omkring dine led, smerter og 
+stivhed i din rygsøjle, psoriasisudslæt på huden og træthed, og det kan forsinke skader på knogler og 
+brusk i dine led. Lægemidlet kan derfor gøre det lettere for dig at udføre hverdagens aktiviteter og 
+dermed forbedre din livskvalitet. </p>
+<p>Aksial spondyloartritis (ikke-radiografisk aksial spondyloartritis og rygsøjlegigt) 
+RINVOQ anvendes til behandling af voksne med aksial spondyloartritis. Aksial spondyloartritis er en 
+sygdom, som primært medfører betændelse i rygraden. Hvis du har aktiv aksial spondyloartritis, får du 
+muligvis andre lægemidler først. Hvis disse lægemidler ikke har tilstrækkelig virkning, vil du få 
+RINVOQ til behandling af din aksiale spondyloartritis . </p>
+<p>RINVOQ kan hjælpe med at reducere rygsmerter, stivhed og betændelse i rygraden. Lægemidlet kan 
+derfor gøre det lettere for dig at udføre hverdagens aktiviteter og dermed forbedre din livskvalitet. </p>
+<p>Atopisk eksem 
+RINVOQ anvendes til behandling af voksne og unge i alderen 12 år eller derover med moderat til svær 
+atopisk eksem, også kaldet børneeksem eller atopisk dermatitis. RINVOQ kan anvendes sammen med 
+lægemidler mod eksem til at smøre på huden, eller det kan bruges alene. </p>
+<p>Brug af RINVOQ kan forbedre din huds tilstand og reducere kløe og opblussen. RINVOQ kan hjælpe 
+med at lette symptomer som smerter, angst og depression, som personer med atopisk eksem kan have. 
+RINVOQ kan også hjælpe med at lette dine søvnforstyrrelser og din generelle livskvalitet. </p>
+<p>Colitis ulcerosa 
+Colitis ulcerosa er en inflammatorisk sygdom i tyktarmen. RINVOQ anvendes til behandling af 
+voksne med colitis ulcerosa, som ikke har fået tilstrækkelig virkning af eller ikke kunne tåle tidligere 
+behandling. </p>
+<p>RINVOQ kan hjælpe med at reducere tegn og symptomer på sygdommen, herunder blodig afføring, 
+mavesmerter og behovet for at skynde sig på toilettet samt antallet af gange, du går på toilettet. Dette 
+kan gøre det muligt for dig at foretage dig almindelige daglige aktiviteter og reducere træthed. </p>
+<p>Crohns sygdom 
+Crohns sygdom er en inflammatorisk sygdom, der kan involvere en hvilken som helst del af 
+fordøjelseskanalen, men hyppigst rammer tarmen. RINVOQ anvendes til behandling af voksne med 
+Crohns sygdom, som ikke har fået tilstrækkelig virkning af eller ikke har kunnet tåle tidligere 
+behandling. </p>
+<p>RINVOQ kan hjælpe med at reducere tegn og symptomer på sygdommen, herunder behovet for 
+hurtige toiletbesøg og antallet af disse, mavesmerter samt inflammationen i slimhinden i din tarm. 
+Dette kan gøre det muligt for dig at foretage almindelige daglige aktiviteter og reducere træthed. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rinvoq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rinvoq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke RINVOQ </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for upadacitinib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du har en svær infektion (f.eks. lungebetændelse eller en bakterieinfektion i huden) </p>
+</li>
+<li>
+<p>hvis du har aktiv tuberkulose (TB) </p>
+</li>
+<li>
+<p>hvis du har alvorlige leverproblemer </p>
+</li>
+<li>
+<p>hvis du er gravid (se afsnittet Graviditet, amning og prævention). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager RINVOQ, eller mens du tager det: </p>
+<ul>
+<li>
+<p>hvis du har en infektion, eller hvis du ofte får infektioner. Fortæl det til lægen, hvis du får 
+symptomer som feber, sår, træthed eller problemer med tænderne, da disse symptomer kan være 
+tegn på infektion. RINVOQ kan nedsætte kroppens evne til at bekæmpe infektioner og kan 
+dermed forværre en eksisterende infektion eller øge sandsynligheden for, at du får en ny 
+infektion. Hvis du har diabetis eller er i alderen 65 år og derover, kan det øge sandsynligheden 
+for at få infektioner  </p>
+</li>
+<li>
+<p>hvis du har haft tuberkulose eller har været i tæt kontakt med nogen, der har tuberkulose. Lægen 
+vil teste dig for tuberkulose før behandling med RINVOQ og kan teste dig igen under 
+behandlingen </p>
+</li>
+<li>
+<p>hvis du har haft en herpes zoster infektion (helvedesild), da RINVOQ kan få den til at komme 
+tilbage. Sig det til lægen, hvis du oplever smertefulde hududslæt med blærer, da det kan være 
+tegn på helvedesild </p>
+</li>
+<li>
+<p>hvis du har haft hepatitis B eller C (leverbetændelse) </p>
+</li>
+<li>
+<p>hvis du for nylig har fået eller planlægger at få en vaccination (immunisering), da levende 
+vacciner ikke anbefales, mens du er i behandling med RINVOQ </p>
+</li>
+<li>
+<p>hvis du har eller har haft kræft, ryger eller har røget, da lægen så skal vurdere, om du er egnet til 
+at få RINVOQ. </p>
+</li>
+<li>
+<p>ikke-melanon hudkræft er set hos patienter, som tager RINVOQ. Din læge kan anbefale, at du 
+får regelmæssig hudundersøgelser, mens du tager RINVOQ. Tal med lægen, hvis der opstår nye 
+hudlæsioner under eller efter behandling, eller hvis hudlæsionerne skifter udseende.  </p>
+</li>
+<li>
+<p>hvis du har eller har haft hjerteproblemer, da lægen vil tale med dig, om RINVOQ er egnet til 
+dig. </p>
+</li>
+<li>
+<p>hvis du har nedsat leverfunktion </p>
+</li>
+<li>
+<p>hvis du tidligere har haft en blodprop i benet (dyb venetrombose) eller lungerne (lungeemboli) 
+eller har en øget risiko for at udvikle dette (f.eks hvis du for nylig har fået foretaget en større 
+operation, hvis du bruger hormonelle præventionsmidler/hormonel substitutionsterapi, hvis der 
+er konstateret en blodkoagualtionsforstyrrelse hos dig eller din familie). Din læge vil tale med 
+dig, om RINVOQ er egnet til dig. Sig det til lægen, hvis du får åndenød eller svært ved at 
+trække vejret, , brystsmerter eller smerter i det øverste af ryggen, hævelse af benet eller armen, 
+smerter eller ømhed i benene eller misfarvning i benet eller armen, da det kan være tegn på 
+blodprop i en vene (blodåre) </p>
+</li>
+<li>
+<p>hvis du har nyreproblemer. </p>
+</li>
+<li>
+<p>hvis du har uforklarlige mavesmerter, har eller har haft diverticulitis (smertefuld inflammation i 
+små lommer i slimhinden i din tarm) eller sår i mavesækken eller tarmen, eller du tager ikke-
+steroide antiinflammatoriske lægemidler. </p>
+</li>
+</ul>
+<p>Hvis du bemærker nogen af følgende alvorlige birkninger, skal du straks fortælle det til en læge: </p>
+<ul>
+<li>
+<p>Symptomer som udslæt (nældefeber), problemer med at trække vejret eller hævelse af dine 
+læber, tunge eller svælg, da du kan have en allergisk reaktion. Nogle patienter, som har taget 
+RINVOQ, har haft alvorllige allergiske reaktioner. Hvis du får nogen af disse symptomer, mens 
+du er i behandling med RINVOQ, stop med at tage RINVOQ og få akut lægehjælp med det 
+samme </p>
+</li>
+<li>
+<p>Alvorlige mavesmerter især ledsaget af feber, kvalme og opkastning. </p>
+</li>
+</ul>
+<p>Blodprøver 
+Du skal have taget blodprøver, før du begynder at tage RINVOQ, eller mens du er i behandling. Det er 
+for at tjekke, om du har lavt antal røde blodlegemer (anæmi), lavt antal hvide blodlegemer (neutropeni 
+eller lymfopeni), forhøjet kolesterol (fedtstof) i blodet eller forhøjede leverenzymer. Blodprøverne er 
+for at kontrollere, at behandling med RINVOQ ikke medfører problemer. </p>
+<p>Ældre 
+Der er højere forekomst af infektioner hos patienter i alderen 65 år og derover. Kontakt lægen, så snart 
+du bemærker tegn eller symptomer på en infektion. </p>
+<p>Patienter i alderen 65 år og derover kan have øget risiko for infektioner, hjerteproblemer inklusive 
+hjertetilfælde og nogle typer af kræft. Din læge vil tale med dig, om du er egnet til RINVOQ. </p>
+<p>Børn og unge </p>
+<p>RINVOQ anbefales ikke til børn med atopisk eksem, der er under 12 år, eller unge, der vejer mindre 
+end 30 kg, da lægemidlet ikke er undersøgt hos disse patienter. </p>
+<p>RINVOQ anbefales ikke til børn og unge med leddegigt, psoriasisgigt eller aksial spondyloartritis 
+(ikke-radiografisk aksial spondyloartritis og rygsøjlegigt), colitis ulcerosa eller Crohns sygdom, der er 
+under 18 år, da lægemidlet ikke er undersøgt hos denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med RINVOQ 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Dette er vigtigt, fordi nogen typer medicin kan 
+forringe virkningen af RINVOQ eller øge risikoen for bivirkninger. Det er især vigtigt, at du fortæller 
+det til lægen eller apotekspersonalet, hvis du tager et eller flere af nedenstående lægemidler: </p>
+<ul>
+<li>
+<p>medicin til behandling af svampeinfektioner (f.eks. itraconazol, posaconazol eller voriconazol)  </p>
+</li>
+<li>
+<p>medicin til behandling af bakterieinfektioner (f.eks. clarithromycin)  </p>
+</li>
+<li>
+<p>medicin til behandling af Cushings syndrom (f.eks. ketoconazol)  </p>
+</li>
+<li>
+<p>medicin til behandling af tuberkulose (f.eks. rifampicin)  </p>
+</li>
+<li>
+<p>medicin til behandling af krampeanfald (f.eks. phenytoin)  </p>
+</li>
+<li>
+<p>medicin med indvirkning på immunsystemet (f.eks. azathioprin, 6-mercaptopurin, ciclosporin 
+og tacrolimus). </p>
+</li>
+<li>
+<p>medicin, som kan øge din risiko for perforation i mave-tarm-kanalen eller diverticulitis, såsom 
+ikke-steroide antiinflammatoriske lægemidler (normalt brugt til behandling af smertefulde 
+og/eller inflammatoriske tilstande i muskler eller led) og/eller opioider (anvendt til at behandle 
+smerter) og/eller kortikosteroider (anvendes sædvanligvis til betændelsestilstande). </p>
+</li>
+<li>
+<p>medicin til behandling af diabetes, eller hvis du har diabetes. Din læge kan beslutte, om du har 
+brug for mindre anti-diabetisk medicin, mens du tager updacitinib. 
+Hvis noget af ovenstående gælder for dig, eller hvis du er i tvivl, skal du tale med lægen eller 
+apotekspersonalet, før du tager RINVOQ. </p>
+</li>
+</ul>
+<p>Graviditet, amning og prævention </p>
+<p>Graviditet 
+RINVOQ må ikke anvendes under graviditet. </p>
+<p>Amning 
+Hvis du ammer eller planlægger at amme, skal du spørge lægen til råds, før du tager dette lægemiddel. 
+Du bør ikke anvende RINVOQ, mens du ammer, da man ikke ved, om lægemidlet udskilles i 
+modermælk. Du og din læge skal beslutte, om du vil amme eller bruger RINVOQ. Du skal ikke gøre 
+begge dele. </p>
+<p>Prævention 
+Hvis du er en kvinde, der kan blive gravid, skal du anvende sikker prævention for at undgå at blive 
+gravid, mens du tager RINVOQ og i mindst 4 uger efter din sidste dosis RINVOQ. Hvis du bliver 
+gravid i dette tidsrum, skal du tale med lægen med det samme. </p>
+<p>Hvis dit barn får sin første menstruationsperiode, mens hun tager RINVOQ, skal du informere lægen 
+om dette.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Kør ikke motorkøretøj eller betjen maskiner, hvis du oplever svimmelhed eller en snurrende 
+fornemmelse (vertigo), når du er i behandling med RINVOQ, før disse tilstande ophører. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rinvoq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rinvoq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
+spørg lægen eller apotekspersonalet. </p>
+<p>Så meget skal du tage </p>
+<p>Hvis du har leddegigt, psoriasisgigt eller aksial spondyloartritis (ikke-radiografisk aksial 
+spondyloartritis og rygsøjlegigt) </p>
+<p>Den anbefalede dosis er én 15 mg-tablet én gang dagligt. </p>
+<p>Hvis du har atopisk eksem </p>
+<p>Voksne: 
+Den anbefalede dosis er 15 mg eller 30 mg som ordineret af lægen, som én tablet dagligt. 
+Lægen kan øge eller sænke din dosis, afhængigt af hvor godt lægemidlet virker. </p>
+<p>Ældre: 
+Hvis du er 65 år eller derover, er den anbefalede dosis 15 mg en gang dagligt. </p>
+<p>Unge (fra 12 til 17 år), der vejer mindst 30 kg: 
+Den anbefalede dosis er én 15 mg-tablet én gang dagligt. </p>
+<p>Hvis du har colitis ulcerosa </p>
+<p>Den anbefalede dosis er én 45 mg-tablet én gang dagligt i 8 uger. Lægen kan beslutte at udvide den 
+indledende dosis på 45 mg til yderligere 8 uger (i alt 16 uger). Dette efterfølges af én tablet på 15 mg 
+eller én tablet på 30 mg én gang dagligt til langtidsbehandling. Lægen kan øge eller sænke din dosis, 
+afhængigt af hvordan du reagerer på lægemidlet. </p>
+<p>Ældre: 
+Hvis du er 65 år eller derover, er den anbefalede dosis 15 mg én gang dagligt til langtidsbehandling. </p>
+<p>Lægen kan sænke dosis, hvis du har en nyresygdom, eller hvis du får visse andre lægemidler. </p>
+<p>Hvis du har Crohns sygdom </p>
+<p>Den anbefalede dosis er én 45 mg-tablet én gang dagligt i 12 uger. Dette efterfølges af én tablet på mg eller én tablet på 30 mg én gang dagligt til langtidsbehandling. Lægen kan øge eller sænke din 
+dosis, afhængigt af hvordan du reagerer på lægemidlet. </p>
+<p>Ældre: 
+Hvis du er 65 år eller derover, er den anbefalede dosis 15 mg én gang dagligt til langtidsbehandling. </p>
+<p>Lægen kan sænke dosis, hvis du har nyreproblemer, eller hvis du har fået ordineret visse andre 
+lægemidler. </p>
+<p>Sådan skal du tage tabletterne </p>
+<ul>
+<li>
+<p>Tabletten skal synkes hel sammen med vand. Du må ikke dele, knuse, tygge eller knække 
+tabletten, inden du sluger den, da det kan påvirke den mængde medicin, du får ind i kroppen. </p>
+</li>
+<li>
+<p>Tag RINVOQ på samme tidspunkt hver dag, så det er lettere at huske. </p>
+</li>
+<li>
+<p>Tabletterne kan tages med eller uden mad. </p>
+</li>
+<li>
+<p>Tørremidlet må ikke indtages. </p>
+</li>
+<li>
+<p>Undgå mad eller drikke, der indeholder grapefrugt, mens du tager (eller bliver behandlet med) 
+RINVOQ, da det kan gøre det mere sandsynligt, at du får bivirkninger, fordi mængden af 
+medicin i kroppen øges. </p>
+</li>
+</ul>
+<p>Hvis du har taget for meget RINVOQ 
+Hvis du har taget for meget RINVOQ, skal du kontakte lægen. Du kan få nogle af de bivirkninger, der 
+er angivet i pkt. 4. Hvis du har glemt at tage RINVOQ </p>
+<ul>
+<li>
+<p>Hvis du glemmer at tage en dosis, skal du tage den, så snart du kommer i tanker om det.  </p>
+</li>
+<li>
+<p>Hvis du glemmer at tage en dosis en hel dag, skal du springe dosen over og nøjes med at tage 
+den sædvanlige dosis dagen efter.  </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.  </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage RINVOQ 
+Stop ikke behandlingen med RINVOQ, medmindre lægen siger, du skal. </p>
+<p>Sådan åbner du beholderen </p>
+<p>Skær til åbning af folien - på 
+beholderens låg </p>
+<ol>
+<li>
+<p>Sådan åbner du folien 
+1a Tag låget af beholderen ved at trykke 
+det nedad og dreje det mod uret. 
+1b. Vend låget om, og anbring skæret 
+ved kanten af folieforseglingen. </p>
+</li>
+<li>
+<p>Tryk skæret nedad, så der kommer hul 
+på folien, og før det rundt langs hele 
+foliekanten. </p>
+</li>
+<li>
+<p>Når du har taget din tablet, skal du sætte 
+låget tilbage på plads og skrue det godt fast. </p>
+</li>
+</ol>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Tal med lægen eller søg læge med det samme, hvis du oplever : </p>
+<ul>
+<li>
+<p>Infektion som helvedesild (herpes zoster), der kan give smertefulde hududslæt med blærer - 
+almindelig bivirkning (kan forekomme hos op til 1 ud af 10 patienter) </p>
+</li>
+<li>
+<p>Lungebetændelse, der kan give åndenød, feber og hoste med slim -almindelig bivirkning (kan 
+forekomme hos op til 1 ud af 10 patienter) </p>
+</li>
+<li>
+<p>Infektion i blodet (sepsis)  - ikke almindelig bivirkning (kan forekomme hos op til 1 ud af 
+100 patienter) </p>
+</li>
+<li>
+<p>Allergiske reaktioner (trykken for brystet, hivende vejrtrækning, hævelse af læber, tunge og 
+svælg, nældefeber) - ikke almindelig bivirkning (kan forekomme hos op til 1 ud af 
+100 patienter) </p>
+</li>
+</ul>
+<p>Andre bivirkninger 
+Tal med lægen, hvis du oplever en eller flere af følgende bivirkninger: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>Infektion i svælg og næse </p>
+</li>
+<li>
+<p>Akne </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>Ikke-melanom hudkræft </p>
+</li>
+<li>
+<p>Hoste </p>
+</li>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Forkølelsessår (herpes simplex) </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Forhøjet niveau af enzymet kreatinkinase (påvises i blodprøver) </p>
+</li>
+<li>
+<p>Lavt antal hvide blodlegemer (påvises i blodprøver)  </p>
+</li>
+<li>
+<p>Forhøjet kolesterol (en type fedtstof i blodet (påvises i blodprøver)) </p>
+</li>
+<li>
+<p>Forhøjede leverenzymer (påvises i blodprøver (tegn på leverproblemer)) </p>
+</li>
+<li>
+<p>Vægtøgning </p>
+</li>
+<li>
+<p>Betændelse i (hævelse af) hårsækkene </p>
+</li>
+<li>
+<p>Influenza </p>
+</li>
+<li>
+<p>Blodmangel (anæmi) </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Træthed (du føler dig usædvanligt træt og svækket) </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Nældefeber (urticaria) </p>
+</li>
+<li>
+<p>Urinvejsinfektion </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>En snurrende fornemmelse (vertigo) </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>trøske i munden (hvide belægninger i munden) </p>
+</li>
+<li>
+<p>forhøjede triglycerider (en type fedtstof) i blodet (påvises i blodprøver) </p>
+</li>
+<li>
+<p>diverticulitis (smertefuld betændelse i små udposninger af din tarm). </p>
+</li>
+<li>
+<p>gastrointestinalperforation (et hul i tarmen) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rinvoq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rinvoq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen etiketten og æsken efter EXP. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
+<p>Opbevares i den originale blisterpakning eller beholder med tæt tillukket låg for at beskytte mod fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rinvoq indeholder: </p>
+<p>Aktivt stof: upadacitinib. </p>
+<p>RINVOQ 15 mg depottabletter </p>
+<ul>
+<li>
+<p>Hver depottablet indeholder upadacitinibhemihydrat svarende, til 15 mg upadacitinib. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+<li>
+<p>Tabletkerne: mikrokrystallinsk cellulose, mannitol, vinsyre, hypromellose, vandfri kolloid 
+silica, magnesiumstearat. </p>
+</li>
+<li>
+<p>Filmovertræk: polyvinylalkohol, macrogol, talcum, titandioxid (E171), rød jernoxid 
+(E172), sort jernoxid (E172). </p>
+</li>
+</ul>
+<p>RINVOQ 30 mg depottabletter </p>
+<ul>
+<li>
+<p>Hver depottablet indeholder 30 mg upadacitinibhemihydrat, svarende til 30 mg upadacitinib. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+<li>
+<p>Tabletkerne: mikrokrystallinsk cellulose, mannitol, vinsyre, hypromellose, vandfri kolloid 
+silica, magnesiumstearat. </p>
+</li>
+<li>
+<p>Filmovertræk: polyvinylalkohol, macrogol, talcum, titandioxid (E171), rød jernoxid 
+(E172). </p>
+</li>
+</ul>
+<p>RINVOQ 45 mg depottabletter </p>
+<ul>
+<li>
+<p>Hver depottablet indeholder upadacitinibhemihydrat, svarende til 45 mg upadacitinib. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+<li>
+<p>Tabletkerne: mikrokrystallinsk cellulose, mannitol, vinsyre, hypromellose, vandfri kolloid 
+silica, magnesiumstearat. </p>
+</li>
+<li>
+<p>Filmovertræk: polyvinylalkohol, macrogol, talcum, titandioxid (E171), gul jernoxid 
+(E172) og rød jernoxid (E172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>RINVOQ 15 mg-depottabletter </p>
+<p>RINVOQ 15 mg-depottabletter er lilla, aflange, bikonvekse (udadbuede) tabletter præget med "a15" 
+på den ene side. </p>
+<p>Tabletterne fås i blisterpakninger eller beholdere. </p>
+<p>RINVOQ fås i pakninger med 28 eller 98 depottabletter og i multipakninger med 84 depottabletter 
+fordelt i 3 æsker, der hver indeholder 28 depottabletter.<br />
+Hver kalenderblister indeholder 7 tabletter.  </p>
+<p>RINVOQ fås i beholdere (med tørremiddel), der indeholder 30 depottabletter, idet en pakning enten 
+indeholder 1 beholder (pakning med 30 tabletter) eller 3 beholdere (pakning med 90 tabletter).  </p>
+<p>RINVOQ 30 mg depottabletter </p>
+<p>RINVOQ 30 mg-depottabletter er røde, aflange, bikonvekse (udadbuede) tabletter præget med "a30" 
+på den ene side. </p>
+<p>Tabletterne fås i blisterpakninger eller beholdere. </p>
+<p>RINVOQ fås i pakninger med 28 eller 98 depottabletter.<br />
+Hver kalenderblister indeholder 7 tabletter. </p>
+<p>RINVOQ fås i beholdere (med tørremiddel), der indeholder 30 depottabletter, idet en pakning enten 
+indeholder 1 beholder (pakning med 30 tabletter) eller 3 beholdere (pakning med 90 tabletter). </p>
+<p>RINVOQ 45 mg depottabletter </p>
+<p>RINVOQ 45 mg depottabletter er gule til meleret gule, aflange, bikonvekse (udadbuede) tabletter 
+præget med "a45" på den ene side. </p>
+<p>Tabletterne fås i blisterpakninger eller beholdere. </p>
+<p>RINVOQ fås i pakninger med 28 depottabletter.<br />
+Hver kalenderblister indeholder 7 tabletter. </p>
+<p>RINVOQ fås i beholdere (med tørremiddel), der indeholder 28 depottabletter, idet en pakning 
+indeholder 1 beholder. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+AbbVie Deutschland GmbH &amp; Co. KG 
+Knollstrasse 
+67061 Ludwigshafen 
+Tyskland </p>
+<p>Fremstiller 
+AbbVie S.r.l.<br />
+S.R. 148 Pontina, km 52 SNC<br />
+04011 Campoverde di Aprilia (Latina)<br />
+Italien </p>
+<p>AbbVie Logistics B.V. 
+Zuiderzeelaan Zwolle, 8017 JV,<br />
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+AbbVie SA 
+Tél/Tel: +32 10 477Lietuva 
+AbbVie UAB<br />
+Tel: +370 5 205 3 
+България 
+АбВи ЕООД 
+Тел: +359 2 90 30 Luxembourg/Luxemburg 
+AbbVie SA 
+Belgique/Belgien 
+Tél/Tel: +32 10 477 
+Česká republika 
+AbbVie s.r.o.<br />
+Tel: +420 233 098 Magyarország 
+AbbVie Kft. 
+Tel.: +36 1 455 8 
+Danmark 
+AbbVie A/S 
+Tlf.: +45 72 30 20 Malta 
+V.J.Salomone Pharma Limited<br />
+Tel: +356 22983 
+Deutschland 
+AbbVie Deutschland GmbH &amp; Co. KG 
+Sími: 00800 222843 33 (gebührenfrei) 
+Tel: +49 (0) 611 / 1720-0 
+Nederland 
+AbbVie B.V. 
+Tel: +31 (0)88 322 2 </p>
+<p>Eesti 
+AbbVie OÜ<br />
+Tel: +372 623 1 
+Norge 
+AbbVie AS 
+Tlf.: +47 67 81 80<br />
+Ελλάδα 
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε. 
+Τηλ: +30 214 4165 Österreich 
+AbbVie GmbH<br />
+Tel: +43 1 20589-0 </p>
+<p>España 
+AbbVie Spain, S.L.U. 
+Tel: +34 91 384 09 Polska 
+AbbVie Sp. z o.o. 
+Tel.: +48 22 372 78 00  </p>
+<p>France 
+AbbVie 
+Tél: +33 (0) 1 45 60 13 Portugal 
+AbbVie, Lda.<br />
+Tel: +351 (0)21 1908 
+Hrvatska<br />
+AbbVie d.o.o. 
+Tel + 385 (0)1 5625 România 
+AbbVie S.R.L. 
+Tel: +40 21 529 30<br />
+Ireland 
+AbbVie Limited<br />
+Tel: +353 (0)1 4287Slovenija 
+AbbVie Biofarmacevtska družba d.o.o. 
+Tel: +386 (1)32 08<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+AbbVie s.r.o. 
+Tel: +421 2 5050 0 
+Italia 
+AbbVie S.r.l.<br />
+Tel: +39 06 928Suomi/Finland 
+AbbVie Oy<br />
+Puh/Tel: +358 (0)10 2411<br />
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ.: +357 22 34 74 Sverige 
+AbbVie AB 
+Tel: +46 (0)8 684 44<br />
+Latvija 
+AbbVie SIA<br />
+Tel: +371 67605United Kingdom (Northern Ireland) 
+AbbVie Deutschland GmbH &amp; Co. KG<br />
+Tel: +44 (0)1628 561 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Du kan også finde detaljerede og opdaterede oplysninger om dette lægemiddel ved at scanne den QR-
+kode, der er angivet nedenfor eller på den ydre æske, ved brug af en smartphone. Disse oplysninger er 
+også tilgængelige via følgende URL: www.rinvoq.eu. </p>
+<p>QR-kode skal anføres </p>
+<p>Hvis du ønsker at rekvirere denne indlægsseddel som <em>lydfil</em> eller <em>i brailleskrift</em> eller &lt; stor 
+skrift (magnaprint)&gt;, kan du kontakte den lokale repræsentant for indehaveren af 
+markedsføringstilladelsen. </p>
+<p>BILAG IV </p>
+<p>VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE  </p>
+<p>Videnskabelige konklusioner </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for upadacitinib, er PRAC 
+nået frem til følgende videnskabelige konklusioner: </p>
+<p>I lyset af tilgængelige data om vertigo fra spontane rapporter, herunder i de fleste tilfælde en tæt 
+tidsmæssig sammenhæng, 18 tilfælde med positiv de-challenge og 1 tilfælde med positiv re-challenge 
+og potentiel klasseeffekt, anser PRAC, at en årsagssammenhæng mellem upadacitinib og vertigo er 
+etableret. PRAC konkluderede, at produktinformationen for produkter indeholdende upadacitinib bør 
+ændres i overensstemmelse hermed. </p>
+<p>I lyset af tilgængelige data om svimmelhed fra spontane rapporter, herunder tilfælde med en tæt 
+tidsmæssig sammenhæng, 59 tilfælde med positiv de-challenge og 8 tilfælde med positiv re-challenge 
+og potentiel klasseeffekt, anser PRAC, at en årsagssammenhæng mellem upadacitinib og svimmelhed 
+er sandsynlig. PRAC konkluderede, at produktinformationen for produkter indeholdende upadacitinib 
+bør ændres i overensstemmelse hermed. </p>
+<p>Tilgængelige data om tilfælde af tuberkulose rapporteret fra kliniske studier og spontane rapporter 
+tyder på, at en vigtig risikofaktor for udvikling af tuberkulose, var tuberkulose i anamnesen eller 
+eksponering for tuberkulose. Det anbefales derfor, at ændre ordlyden i 
+risikominimeringsforanstaltningerne (oplysningsfolder til sundhedspersoner og patientkort) for at 
+tydeliggøre advarslen til sundhedspersoner og patienter). </p>
+<p>CHMP tilslutter sig PRAC's videnskabelige konklusioner. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
+<p>På baggrund af de videnskabelige konklusioner for upadacitinib er CHMP af den opfattelse, at 
+benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder upadacitinib, forbliver 
+uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-603d42b6b07783003b47c538f27a463d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rinvoq Package Leaflet for language en"
+Description: "ePI document Bundle for rinvoq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-603d42b6b07783003b47c538f27a463d"
+* entry[0].resource = composition-en-603d42b6b07783003b47c538f27a463d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp603d42b6b07783003b47c538f27a463d"
+* entry[=].resource = mp603d42b6b07783003b47c538f27a463d
+                            
+                    
+Instance: bundlepackageleaflet-da-603d42b6b07783003b47c538f27a463d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rinvoq Package Leaflet for language da"
+Description: "ePI document Bundle for rinvoq Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-603d42b6b07783003b47c538f27a463d"
+* entry[0].resource = composition-da-603d42b6b07783003b47c538f27a463d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp603d42b6b07783003b47c538f27a463d"
+* entry[=].resource = mp603d42b6b07783003b47c538f27a463d
+                            
+                    
+
+
+
+Instance: mp603d42b6b07783003b47c538f27a463d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product RINVOQ 15 mg prolonged-release tablets"
-Description: "RINVOQ 15 mg prolonged-release tablets"
+Title: "Medicinal Product rinvoq"
+Description: "rinvoq"
 Usage: #inline
 
  
@@ -536,7 +1366,7 @@ Usage: #inline
 
 
 * name
-  * productName = "RINVOQ 15 mg prolonged-release tablets"
+  * productName = "rinvoq"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -563,29 +1393,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-603d42b6b07783003b47c538f27a463d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rinvoq Package Leaflet for language en"
-Description: "ePI document Bundle for rinvoq Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 603d42b6b07783003b47c538f27a463dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1404/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rinvoq"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-603d42b6b07783003b47c538f27a463d"
-* entry[0].resource = composition-en-603d42b6b07783003b47c538f27a463d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp89f67fa3cbfbdbb1ca3b52ba2df9ff6d"
-* entry[=].resource = mp89f67fa3cbfbdbb1ca3b52ba2df9ff6d
-                            
-                      
+* title = "List of all ePIs associated with rinvoq"
+
+* subject = Reference(mp89f67fa3cbfbdbb1ca3b52ba2df9ff6d)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rinvoq "rinvoq"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-603d42b6b07783003b47c538f27a463d) // rinvoq en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-603d42b6b07783003b47c538f27a463d) // rinvoq da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-603d42b6b07783003b47c538f27a463d
+InstanceOf: List
+
+* insert 603d42b6b07783003b47c538f27a463dListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690
 InstanceOf: CompositionUvEpi
 Title: "Composition for vildagliptin Package Leaflet"
@@ -363,12 +366,455 @@ Netherlands </p>
 
 
 
+Instance: composition-da-0cf0f03b0e4fcf8a0933d166c0dbe690
+InstanceOf: CompositionUvEpi
+Title: "Composition for vildagliptin Package Leaflet"
+Description:  "Composition for vildagliptin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp555d0a7fb16f3bce450ed84172511640)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp555d0a7fb16f3bce450ed84172511640
+* title = "TEST PURPOSES ONLY - vildagliptin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Vildagliptin/Metformin hydrochloride Accord </li>
+<li>Sådan skal du tage Vildagliptin/Metformin hydrochloride Accord </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vildagliptin is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vildagliptin is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>De aktive stoffer i Vildagliptin/Metformin hydrochloride Accord, vildagliptin og 
+metforminhydrochlorid, tilhører en gruppe lægemidler, der kaldes "orale antidiabetika". </p>
+<p>Vildagliptin/Metformin hydrochloride Accord bruges til at behandle voksne patienter med type 2-
+diabetes (sukkersyge). Denne type diabetes kaldes også ikke-insulinkrævende diabetes mellitus. 
+Vildagliptin/Metformin hydrochloride Accord bruges når diabetes ikke er tilstrækkeligt kontrolleret 
+ved hjælp af kost og motion alene og/eller med andre lægemidler til behandling af diabetes (insulin 
+eller sulfonylurinstoffer). </p>
+<p>Du får type 2-diabetes, hvis kroppen ikke producerer insulin nok, eller hvis det insulin kroppen 
+producerer, ikke fungerer så godt, som det skulle. Du kan også få det, hvis kroppen producerer for 
+meget glucagon. </p>
+<p>Både insulin og glucagon produceres i bugspytkirtlen. Insulin er med til at sænke blodsukkeret, især 
+efter måltiderne. Glucagon får leveren til at producere sukker, hvilket får blodsukkeret til at stige. </p>
+<p>Hvordan Vildagliptin/Metformin hydrochloride Accord virker 
+De to aktive stoffer, vildagliptin og metformin, hjælper med at kontrollere blodsukkeret. Stoffet 
+vildagliptin virker ved at få bugspytkirtlen til at producere mere insulin og mindre glucagon. Stoffet 
+metformin virker ved at hjælpe kroppen til at udnytte insulinet bedre. Dette lægemiddel har vist sig at 
+nedsætte blodsukkerniveauet, og dette kan medføre, at du undgår komplikationer, som opstår på grund 
+af sukkersyge. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vildagliptin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vildagliptin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Vildagliptin/Metformin hydrochloride Accord 
+- hvis du er allergisk over for vildagliptin, metformin eller et af de øvrige indholdsstoffer (angivet 
+i punkt 6). Hvis du tror, at du måske er allergisk over for et eller flere af disse stoffer, så tal med 
+din læge, før du begynder at tage Vildagliptin/Metformin hydrochloride Accord. 
+- hvis du har dårligt kontrolleret diabetes, der eksempelvis er ledsaget af alvorlig hyperglykæmi 
+(højt blodsukker), kvalme, opkastning, diarré, hurtigt vægttab, laktatacidose (se "Risiko for 
+laktatacidose" nedenfor) eller ketoacidose. Ketoacidose er en tilstand, hvor såkaldte ketonstoffer 
+ophobes i blodet, hvilket kan føre til diabetisk prækoma. Symptomerne omfatter mavesmerter, 
+hurtig og dyb vejrtrækning og søvnighed, og din ånde kan få en usædvanlig frugtagtig lugt. 
+- hvis du for nylig har haft et hjerteanfald, eller hvis du har haft hjertesvigt eller alvorlige 
+problemer med blodcirkulationen eller åndedrætsbesvær, hvilket kan være tegn på 
+hjerteproblemer. 
+- hvis du har alvorligt nedsat nyrefunktion. 
+- hvis du har en alvorlig infektion eller er alvorligt dehydreret (har mistet en masse vand fra 
+kroppen). 
+- hvis du skal have udført en røntgenundersøgelse med kontraststof (en speciel type røntgen, der 
+involverer indsprøjtning af et farvestof). Se også information omkring dette i afsnittet 
+"Advarsler og forsigtighedsregler". 
+- hvis du har leverproblemer. 
+- hvis du drikker for meget alkohol (uanset om det er hver dag eller kun engang imellem). 
+- hvis du ammer (se også "Graviditet og amning"). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Risiko for laktatacidose 
+Vildagliptin/Metformin hydrochloride Accord kan forårsage en meget sjælden, men meget alvorlig 
+bivirkning, som kaldes laktatacidose, især hvis dine nyrer ikke fungerer korrekt. Risikoen for at 
+udvikle laktatacidose er også forhøjet ved dårligt kontrolleret diabetes, alvorlige infektioner, 
+længerevarende faste eller alkoholindtagelse, dehydrering (væskemangel (se yderligere oplysninger 
+nedenfor)), leverproblemer og enhver tilstand med nedsat iltforsyning til en legemsdel (såsom akut 
+alvorlig hjertesygdom). 
+Kontakt lægen for at få yderligere vejledning, hvis noget af ovennævnte gælder for dig. </p>
+<p>Stop med at tage Vildagliptin/Metformin hydrochloride Accord i en kort periode, hvis du har en 
+tilstand, som kan være forbundet med dehydrering (betydeligt tab af kropsvæsker), såsom alvorlig 
+opkastning, diarré, feber, udsættelse for varme eller indtagelse af mindre væske end normalt. Kontakt 
+lægen for at få yderligere rådgivning. </p>
+<p>Stop med at tage Vildagliptin/Metformin hydrochloride Accord og kontakt omgående læge eller 
+nærmeste hospital, hvis du får et eller flere af nedenstående symptomer på laktatacidose, da 
+denne tilstand kan føre til koma. 
+Symptomerne på laktatacidose omfatter: </p>
+<ul>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>muskelkramper </p>
+</li>
+<li>
+<p>almen utilpashed med udpræget træthed </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>nedsat kropstemperatur og langsommere puls  </p>
+</li>
+</ul>
+<p>Laktatacidose er en alvorlig tilstand, der skal behandles på et hospital. </p>
+<p>Vildagliptin/Metformin hydrochloride Accord kan ikke erstatte insulin. Du bør derfor ikke få 
+Vildagliptin/Metformin hydrochloride Accord til behandling af type 1-diabetes. </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Vildagliptin/Metformin 
+hydrochloride Accord, hvis du har eller har haft en sygdom i bugspytkirtlen. </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Vildagliptin/Metformin 
+hydrochloride Accord, hvis du tager lægemidler mod diabetes, kaldet sulfonylurinstof. For at undgå, at 
+du får lavt blodsukker [hypoglykæmi], vil din læge måske nedsætte din dosis af sulfonylurinstoffet, 
+når du tager det sammen med Vildagliptin/Metformin hydrochloride Accord. </p>
+<p>Du må ikke tage dette lægemiddel igen, hvis du tidligere har taget vildagliptin, men blev nødt til at 
+stoppe på grund af leversygdom. </p>
+<p>Diabetiske hudlæsioner er en almindelig komplikation ved diabetes. Du bør følge de anbefalinger med 
+hensyn til hud- og fodpleje, som du får af din læge eller sygeplejerske. Du bør også være særlig 
+opmærksom på nye frembrud af blærer eller sår, mens du tager Vildagliptin/Metformin hydrochloride 
+Accord. Skulle dette ske, skal du straks kontakte din læge. </p>
+<p>Hvis du skal have en større operation, skal du stoppe med at tage Vildagliptin/Metformin 
+hydrochloride Accord under indgrebet og i nogen tid herefter. Lægen vil beslutte, hvornår du skal 
+stoppe behandlingen med Vildagliptin/Metformin hydrochloride Accord, og hvornår du kan genoptage 
+den igen. </p>
+<p>Du vil få taget en blodprøve til undersøgelse af din leverfunktion, før du starter med 
+Vildagliptin/Metformin hydrochloride Accord-behandlingen, med tre måneders interval i det første år 
+og derefter regelmæssigt. Dette gøres for at opdage tegn på forhøjede leverenzymer så hurtigt som 
+muligt. </p>
+<p>Under behandlingen med Vildagliptin/Metformin hydrochloride Accord vil lægen kontrollere din 
+nyrefunktion mindst en gang om året eller hyppigere, hvis du er ældre, og/eller hvis din nyrefunktion 
+bliver dårligere. </p>
+<p>Lægen vil regelmæssigt teste dit blod og din urin for sukker. </p>
+<p>Børn og unge 
+Vildagliptin/Metformin hydrochloride Accord frarådes til børn og unge under 18 år. </p>
+<p>Brug af andre lægemidler sammen med Vildagliptin/Metformin hydrochloride Accord 
+Hvis du skal have sprøjtet et kontrastmiddel, som indeholder jod, ind i dit blod, for eksempel i 
+forbindelse med en røntgenundersøgelse eller scanning, skal du stoppe med at tage 
+Vildagliptin/Metformin hydrochloride Accord forud for eller på tidspunktet for injektionen. Lægen vil 
+beslutte, hvornår du skal stoppe behandlingen med Vildagliptin/Metformin hydrochloride Accord, og 
+hvornår du kan genoptage den igen. </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Du skal eventuelt have kontrolleret dit 
+blodsukker eller din nyrefunktion hyppigere, eller lægen kan ændre din dosis af 
+Vildagliptin/Metformin hydrochloride Accord. Det er især vigtigt, at du nævner følgende:</p>
+<ul>
+<li>lægemidler, der generelt bruges til behandling af betændelse (glukokortikoider) </li>
+<li>lægemidler, der generelt bruges til behandling af åndedrætssygdomme (beta-2-agonister) </li>
+<li>andre lægemidler, der bruges til at behandle diabetes </li>
+<li>vanddrivende lægemidler (diuretika) </li>
+<li>lægemidler mod smerter og betændelseslignende tilstande (NSAID’er og COX-2-hæmmere, 
+såsom ibuprofen og celecoxib) </li>
+<li>visse lægemidler, der nedsætter blodtrykket (ACE-hæmmere og angiotensin II-
+receptorantagonister) </li>
+<li>en bestemt type lægemidler, der påvirker skjoldbruskkirtlen </li>
+<li>en bestemt type lægemidler, der påvirker nervesystemet </li>
+<li>en bestemt type lægemidlertil behandling af hjertekrampe (angina) (fx ranolazin) </li>
+<li>en bestemt type lægemidlertil behandling af HIV-infektion (fx dolutegravir) </li>
+<li>en bestemt type lægemidlertil behandling af kræft i skjoldbruskkirtlen (medullær 
+thyroideacancer) (fx vandetanib) </li>
+<li>en bestemt type lægemidlertil behandling af halsbrand og mavesår (fx cimetidin) </li>
+</ul>
+<p>Brug af Vildagliptin/Metformin hydrochloride Accord sammen med alkohol 
+Undgå at indtage store mængder alkohol, mens du tager Vildagliptin/Metformin hydrochloride 
+Accord, da det kan øge risikoen for laktatacidose (se afsnittet "Advarsler og forsigtighedsregler"). </p>
+<p>Graviditet og amning 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du tager dette lægemiddel. Din læge vil tale med dig om de mulige 
+risici ved at tage Vildagliptin/Metformin hydrochloride Accord under graviditet. 
+Tag ikke Vildagliptin/Metformin hydrochloride Accord, hvis du er gravid eller ammer (se også 
+"Tag ikke Vildagliptin/Metformin hydrochloride Accord"). </p>
+<p>Spørg din læge eller apotekspersonalet til råds, før du bruger nogen form for lægemidler. </p>
+<p>Trafik- og arbejdssikkerhed 
+Hvis du føler dig svimmel, når du tager Vildagliptin/Metformin hydrochloride Accord, må du ikke 
+føre motorkøretøj eller betjene værktøj og maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vildagliptin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vildagliptin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det afhænger af din sygdom, hvor mange Vildagliptin/Metformin hydrochloride Accord-tabletter du 
+skal tage. Din læge vil fortælle dig helt nøjagtigt, hvor mange Vildagliptin/ Metformin hydrochloride 
+Accord du skal tage. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er en filmovertrukken tablet på enten 50 mg/850 mg eller 50 mg/1000 mg 
+2 gange daglig. </p>
+<p>Din læge kan ordinere en lavere dosis, hvis du har nedsat nyrefunktion. Din læge kan også ordinere en 
+lavere dosis, hvis du tager andre lægemidler (kaldet sulfonylurinstof) mod din diabetes. </p>
+<p>Din læge kan ordinere dette lægemiddel alene eller sammen med visse andre lægemidler, som sænker 
+blodsukkeret. </p>
+<p>Hvornår og hvordan du skal tage Vildagliptin/Metformin hydrochloride Accord 
+- Tabletterne synkes hele med et glas vand 
+- Tag én tablet om morgenen og den anden om aftenen sammen med eller lige efter mad. Hvis du 
+tager tabletten lige efter mad, vil det nedsætte risikoen for maveproblemer. </p>
+<p>Fortsæt med at følge eventuelle kostråd, som din læge har givet dig. Især hvis du følger en 
+diabetesdiæt med vægtkontrol, skal du fortsat følge denne, mens du tager Vildagliptin/Metformin 
+hydrochloride Accord. </p>
+<p>Hvis du har taget for meget Vildagliptin/Metformin hydrochloride Accord 
+Du skal straks kontakte en læge eller apotekspersonalet, hvis du har taget for mange 
+Vildagliptin/Metformin hydrochloride Accord-tabletter, eller hvis en anden tager dine tabletter. 
+Lægebehandling kan være nødvendig. Tag pakningen og denne indlægsseddel med, hvis det er 
+nødvendigt at gå til lægen eller på hospitalet. </p>
+<p>Hvis du har glemt at tage Vildagliptin/Metformin hydrochloride Accord 
+Hvis du glemmer at tage en tablet, skal du tage den sammen med det næste måltid, med mindre du 
+alligevel skal tage en tablet på det pågældende tidspunkt. Du må ikke tage en dobbeltdosis (to tabletter 
+på én gang) som erstatning for den glemte tablet. </p>
+<p>Hvis du holder op med at tage Vildagliptin/Metformin hydrochloride Accord 
+Bliv ved med at tage dette lægemiddel så længe din læge ordinerer det, så dit blodsukker vedbliver 
+kontrolleret. Hold ikke op med at tage Vildagliptin/Metformin hydrochloride Accord, medmindre 
+lægen siger det. Tal med din læge, hvis du har spørgsmål til, hvor længe du skal tage lægemidlet. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Du skal stoppe med at tage Vildagliptin/Metformin hydrochloride Accord og kontakte din læge 
+omgående, hvis du oplever en eller flere af følgende bivirkninger: 
+ 
+Laktatacidose (meget sjælden: kan forekomme hos op til 1 ud af 10.000 patienter): 
+Vildagliptin/Metformin hydrochloride Accord kan forårsage en meget sjælden (kan forekomme 
+hos op til 1 ud af 10.000 brugere), men meget alvorlig bivirkning, der kaldes laktatacidose (se 
+afsnittet "Advarsler og forsigtighedsregler"). Hvis dette sker for dig, skal du omgående stoppe 
+med at tage Vildagliptin/Metformin hydrochloride Accord og kontakte læge eller 
+nærmeste hospital, da laktatacidose kan føre til koma. 
+ 
+Angioødem (sjælden: kan forekomme hos op til 1 ud af 1.000 personer): symptomer inkluderer 
+opsvulmet ansigt, tunge eller hals, problemer med at synke, problemer med at trække vejret, 
+pludseligt udslæt eller nældefeber, der kan tyde på en reaktion, kaldet "angioødem". 
+ 
+Leversygdom (hepatitis) (ikke almindelig: kan forekomme hos op til 1 ud af 100 patienter): 
+symptomer inkluderer gul hud og øjne, kvalme, nedsat appetit eller mørk urin, hvilket kan tyde 
+på en leversygdom (hepatitis). 
+ 
+Betændelse i bugspytkirtlen (pankreatitis) (ikke almindelig: kan forekomme hos op til 1 ud af 
+100 patienter): Symptomerne inkluderer stærke og vedvarende smerter i maven, der eventuelt 
+breder sig til ryggen, samt kvalme og opkastning. </p>
+<p>Andre bivirkninger 
+Nogle patienter har oplevet følgende bivirkninger, mens de har taget Vildagliptin/Metformin 
+hydrochloride Accord: 
+ 
+Almindelige (kan forekomme hos op til 1 ud af 10 patienter): ondt i halsen, løbende næse, feber, 
+kløende udslæt, kraftig svedtendens, ledsmerter, svimmelhed, hovedpine, rystelser der ikke kan 
+styres, forstoppelse, kvalme, opkastning, diarré, luftafgang fra tarmen, sure opstød, smerter i og 
+omkring maven. 
+ 
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 patienter): træthed, svaghed, 
+metalsmag, lavt blodsukker, appetitløshed, hævede hænder, ankler eller fødder (ødem), 
+kulderystelser, betændelse i bugspytkirtlen (pankreatitis), muskelsmerter. 
+ 
+Meget sjældne (kan forekomme hos op til 1 ud af 10.000 patienter): tegn på et højt niveau af 
+mælkesyre i blodet (kaldes laktatacidose), som fx sløvhed eller svimmelhed, alvorlig kvalme 
+eller opkastning, mavesmerter, uregelmæssig hjerterytme eller dyb, hurtig vejrtrækning; rødme i 
+huden, kløe; nedsat niveau af B12-vitamin (bleghed, træthed, mentale symptomer såsom 
+forvirring eller problemer med hukommelsen). </p>
+<p>Siden dette lægemiddel er blevet markedsført er følgende bivirkninger blevet rapporteret: 
+ 
+Hyppighed ikke kendt (kan ikke estimeres ud fra forhåndenværende data): områder med 
+afskalning af huden eller blærer i huden, betændelse i blodkar (vaskulitis), som kan medføre 
+hududslæt eller tilspidsede, flade, røde, runde pletter under hudens overflade. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vildagliptin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vildagliptin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og æsken efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. 
+Lægemidlet kræver ingen særlige opbevaringsforhold. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vildagliptin/Metformin hydrochloride Accord indeholder:</p>
+<ul>
+<li>
+<p>Aktive stoffer er vildagliptin og metforminhydrochlorid 
+ Hver Vildagliptin/Metformin hydrochloride Accord 50 mg/850 mg filmovertrukken tablet 
+indeholder 50 mg vildagliptin og 850 mg metforminhydrochlorid (svarende til 660 mg 
+metformin). 
+ Hver Vildagliptin/Metformin hydrochloride Accord 50 mg/1000 mg filmovertrukken tablet 
+indeholder 50 mg vildagliptin og 1000 mg metforminhydrochlorid (svarende til 780 mg 
+metformin). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>Tabletkerne: Hydroxypropylcellulose, lavsubstitueret hydroxypropylcellulose, 
+mikrokrystallinsk cellulose, magnesiumstearat </p>
+</li>
+<li>Filmovertræk: Hypromellose, titandioxid (E171), gul jernoxid (E172), macrogol, talcum </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Vildagliptin/Metformin hydrochloride Accord 50 mg/850 mg filmovertrukne tabletter 
+Gule, ovale, bikonvekse filmovertrukne tabletter, præget med "GG2" på den ene side og glatte på den 
+anden side. Tabletten måler ca. 20,158,00 mm. </p>
+<p>Vildagliptin/Metformin hydrochloride Accord 50 mg/1000 mg filmovertrukne tabletter 
+Mørkegule, ovale, bikonvekse filmovertrukne tabletter, præget med "GG3" på den ene side og glatte 
+på den anden side. Tabletten måler ca. 21,118,38 mm. </p>
+<p>Vildagliptin/Metformin hydrochloride Accord fås i aluminium/aluminium-blisterstrips med 30, eller 180 filmovertrukne tabletter.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Accord Healthcare S.L.U 
+World Trade Center, Moll de Barcelona s/n,<br />
+Edifici Est, 6a planta, 
+08039 Barcelona, Spanien </p>
+<p>Fremstiller 
+LABORATORI FUNDACIÓ DAU 
+C/ C, 12-14 Pol. Ind. Zona Franca, 
+Barcelona, 08040, Spanien </p>
+<p>Pharmadox Healthcare Ltd. 
+KW20A Kordin Industrial Park 
+Paola, PLA 3Malta </p>
+<p>Accord Healthcare Polska Sp. z o.o. 
+Ul. Lutomierska 50,<br />
+95-200 Pabianice, Polen </p>
+<p>Accord Healthcare B.V. 
+Winthontlaan 200, Utrecht,3526 KV, 
+Holland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0cf0f03b0e4fcf8a0933d166c0dbe690
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vildagliptin Package Leaflet for language en"
+Description: "ePI document Bundle for vildagliptin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690"
+* entry[0].resource = composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0cf0f03b0e4fcf8a0933d166c0dbe690"
+* entry[=].resource = mp0cf0f03b0e4fcf8a0933d166c0dbe690
+                            
+                    
+Instance: bundlepackageleaflet-da-0cf0f03b0e4fcf8a0933d166c0dbe690
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vildagliptin Package Leaflet for language da"
+Description: "ePI document Bundle for vildagliptin Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0cf0f03b0e4fcf8a0933d166c0dbe690"
+* entry[0].resource = composition-da-0cf0f03b0e4fcf8a0933d166c0dbe690
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0cf0f03b0e4fcf8a0933d166c0dbe690"
+* entry[=].resource = mp0cf0f03b0e4fcf8a0933d166c0dbe690
+                            
+                    
+
+
+
+Instance: mp0cf0f03b0e4fcf8a0933d166c0dbe690
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vildagliptin/Metformin hydrochloride Accord 50 mg/850 mg film-coated tablets"
-Description: "Vildagliptin/Metformin hydrochloride Accord 50 mg/850 mg film-coated tablets"
+Title: "Medicinal Product vildagliptin"
+Description: "vildagliptin"
 Usage: #inline
 
  
@@ -388,7 +834,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vildagliptin/Metformin hydrochloride Accord 50 mg/850 mg film-coated tablets"
+  * productName = "vildagliptin"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -415,29 +861,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0cf0f03b0e4fcf8a0933d166c0dbe690
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vildagliptin Package Leaflet for language en"
-Description: "ePI document Bundle for vildagliptin Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0cf0f03b0e4fcf8a0933d166c0dbe690ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1611/001-006"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vildagliptin"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690"
-* entry[0].resource = composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp555d0a7fb16f3bce450ed84172511640"
-* entry[=].resource = mp555d0a7fb16f3bce450ed84172511640
-                            
-                      
+* title = "List of all ePIs associated with vildagliptin"
+
+* subject = Reference(mp555d0a7fb16f3bce450ed84172511640)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vildagliptin "vildagliptin"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0cf0f03b0e4fcf8a0933d166c0dbe690) // vildagliptin en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0cf0f03b0e4fcf8a0933d166c0dbe690) // vildagliptin da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0cf0f03b0e4fcf8a0933d166c0dbe690
+InstanceOf: List
+
+* insert 0cf0f03b0e4fcf8a0933d166c0dbe690ListRuleset
+    

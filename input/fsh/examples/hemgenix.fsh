@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6
 InstanceOf: CompositionUvEpi
 Title: "Composition for hemgenix Package Leaflet"
@@ -509,12 +512,651 @@ autoclaved, if possible.</p>         </div>"""
 
 
 
+Instance: composition-da-368e8679c0472a0d2aa9d82ac9fd7ab6
+InstanceOf: CompositionUvEpi
+Title: "Composition for hemgenix Package Leaflet"
+Description:  "Composition for hemgenix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3e84d8dfcf9451f4aecd07236bdddc86)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3e84d8dfcf9451f4aecd07236bdddc86
+* title = "TEST PURPOSES ONLY - hemgenix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få Hemgenix
+3. Sådan gives Hemgenix
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What hemgenix is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What hemgenix is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning og anvendelse
+Hemgenix er et lægemiddel til genterapi, som indeholder det aktive stof etranacogene dezaparvovec. 
+Lægemidler til genterapi virker ved at tilføre kroppen et gen for at korrigere en genfejl.
+Hemgenix anvendes til behandling af svær og moderat svær hæmofili B (medfødt faktor IX-mangel) hos 
+voksne, som ikke har eller har haft inhibitorer (neutraliserende antistoffer) mod faktor IX-proteinet.
+Personer med hæmofili B er født med en mutation i et gen, der er nødvendigt for dannelsen af faktor IX, 
+som er et vigtigt protein, der er nødvendigt for, at blodet kan størkne og blødninger kan stoppe. Personer 
+med hæmofili B har et utilstrækkeligt niveau af faktor IX og en øget tendens til indre eller ydre 
+blødninger.
+Sådan virker Hemgenix
+Det aktive stof i Hemgenix er baseret på en virus, som ikke forårsager sygdom hos mennesker. Virussen 
+er blevet modificeret, så den ikke kan sprede sig i kroppen, og så den kan levere en kopi af faktor IX-
+genet til levercellerne. Derved bliver leveren i stand til at danne faktor IX-proteinet og øge niveauet af 
+virksomt faktor IX i blodet. Dette bidrager til en mere normal blodstørkning og forhindrer eller reducerer 
+blødningsepisoder.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take hemgenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take hemgenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Du må ikke få Hemgenix</h2>
+<p>hvis du er allergisk over for etranacogene dezaparvovec eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6).
+35
+-
+Hvis du har en aktiv infektion, som enten er en akut (kortvarig) infektion eller en kronisk 
+(langvarig) infektion, som ikke er under kontrol med lægemidler.
+-
+Hvis din lever ikke fungerer korrekt som følge af fremskreden leverfibrose (arvæv og fortykkelse) 
+eller cirrose (arvæv på grund af kronisk leverskade).
+Kontakt lægen, før du får Hemgenix, hvis noget af ovenstående gør sig gældende for dig, eller du er i 
+tvivl derom.
+Advarsler og forsigtighedsregler
+Før behandlingen med Hemgenix
+Lægen vil gennemføre flere forskellige undersøgelser, før du får behandling med Hemgenix.
+Blodprøver for antistoffer
+Lægen vil tage nogle blodprøver for at tjekke blodet for nogle bestemte antistoffer (proteiner) inden 
+behandling med Hemgenix, herunder:
+
+Blodprøver, der viser, om du har antistoffer mod humant faktor IX-protein (faktor IX-inhibitorer) i<br />
+blodet.
+Hvis du bliver testet positiv for disse antistoffer, skal du have taget endnu en prøve efter cirka 
+2 uger. Hvis både den første og den anden test er positiv, vil du ikke få Hemgenix.
+
+Lægen vil muligvis også tage blodprøver for at tjekke mængden af antistoffer i dit blod, der er 
+rettet mod den virustype, der bliver brugt til at fremstille Hemgenix.
+Leversundhed
+For at vurdere, om dette lægemiddel er velegnet til dig, vil lægen kontrollere din leversundhed, før du 
+starter behandling med Hemgenix, ved hjælp af:
+
+Blodprøver til måling af niveauet af leverenzymer i dit blod
+
+Ultralydsundersøgelser af leveren
+
+Elastografi for at undersøge leveren for ardannelse og fortykkelse.
+Under eller umiddelbart efter infusion af Hemgenix
+Lægen vil overvåge dig under eller umiddelbart efter Hemgenix-infusionen.
+Infusionsrelaterede reaktioner
+Infusionsrelaterede bivirkninger kan forekomme, mens du får infusionen (droppet) med Hemgenix eller 
+kort tid derefter. Lægen vil overvåge dig under Hemgenix-infusionen og i mindst 3 timer derefter.
+
+Symptomerne på sådanne bivirkninger er angivet i afsnit 4 "Bivirkninger". Kontakt omgående
+lægen eller sygeplejersken, hvis du oplever disse eller andre symptomer under infusionen eller kort 
+tid derefter.
+
+Afhængigt af dine symptomer kan infusionen blive givet ved en lavere hastighed eller blive 
+afbrudt. Hvis infusionen bliver afbrudt, kan den genstartes ved en langsommere hastighed, når 
+infusionsreaktionen er forsvundet. Lægen vil også overveje, om du skal have kortikosteroider 
+(f.eks. prednisolon eller prednison) for at afhjælpe infusionsreaktionen.
+Efter behandling med Hemgenix
+Efter behandlingen med Hemgenix vil lægen fortsætte med at kontrollere dit helbred. Det er vigtigt, at 
+du drøfter planlægningen af blodprøver med lægen, så de kan gennemføres, som de skal.
+36
+Leverenzymer
+Hemgenix udløser et respons i dit immunsystem, som kan medføre en stigning i niveauet af visse 
+leverenzymer, kaldet transaminaser, i blodet (transaminitis). Lægen vil regelmæssigt kontrollere dit 
+niveau af leverenzymer for at sikre, at lægemidlet virker, som det skal:
+
+I de første 3 måneder, som minimum, efter du har fået Hemgenix, skal du have taget blodprøver en 
+gang om ugen for at kontrollere niveauet af leverenzymer.<em> Hvis du oplever en stigning i leverenzymer, skal du muligvis have taget hyppigere 
+blodprøver for at kontrollere niveauet af leverenzymer, indtil det vender tilbage til 
+normalniveauet. Du skal muligvis også tage andre lægemidler (kortikosteroider) til 
+behandling af disse bivirkninger.</em> Lægen kan også gennemføre yderligere undersøgelser for at udelukke andre årsager til 
+stigningen i leverenzymer, om nødvendigt i samråd med en læge, der har erfaring i 
+leversygdomme.
+
+Lægen vil gentage leverenzymundersøgelserne hver tredje måned fra måned 4 og indtil et år efter 
+behandlingen med Hemgenix for at holde løbende kontrol med din leversundhed. I det andet år 
+efter behandlingen med Hemgenix vil lægen følge op på dine leverenzymer hvert halve år. Efter 
+det andet år vil lægen kontrollere dine leverenzymer en gang om året i mindst 5 år efter 
+behandlingen med Hemgenix.
+Faktor IX-niveauer
+Lægen vil jævnligt kontrollere dit faktor IX-niveau for at se, om behandlingen med Hemgenix er en 
+succes.
+
+I minimum de første 3 måneder efter behandlingen med Hemgenix skal du have taget blodprøver 
+en gang om ugen for at kontrollere dit faktor IX-niveau.
+
+Lægen vil gentage disse prøver hver tredje måned fra måned 4 og indtil 1 år efter behandlingen 
+med Hemgenix for at holde løbende kontrol med dit faktor IX-niveau. I det andet år efter 
+behandlingen med Hemgenix vil lægen kontrollere dit faktor IX-niveau hvert halve år. Derefter vil 
+lægen kontrollere det en gang om året i mindst 5 år efter behandlingen med Hemgenix.
+
+Hvis du oplever en stigning i leverenzymer, eller hvis du skal have andre lægemidler (f.eks. 
+kortikosteroider), skal du have taget hyppigere blodprøver for at kontrollere dit faktor IX-niveau, 
+indtil dine leverenzymer vender tilbage til normalniveauet, eller du stopper med at tage de andre 
+lægemidler.
+Brug af andre hæmofilibehandlinger
+Efter brug af Hemgenix skal du kontakte lægen for at høre, om du skal stoppe med at tage dine andre 
+hæmofilibehandlinger, og i så fald hvornår, og for at få lavet en plan for, hvad der skal gøres i tilfælde af 
+en operation, et traume, blødninger eller procedurer, der potentielt kan øge risikoen for blødning. Det er 
+meget vigtigt, at du forsætter din kontrol og besøgene hos din læge for at klarlægge, om du har brug for at 
+tage andre hæmofilibehandlinger.
+Abnorm blodstørkning (tromboemboliske hændelser)
+Efter behandling med Hemgenix kan dit niveau af faktor IX-protein stige. Hos nogle patienter kan det 
+stige til et niveau, der ligger over normalområdet, i et stykke tid.
+-
+Usædvanligt høje faktor IX-niveauer kan medføre abnorm blødstørkning og dermed øge risikoen 
+for blodpropper, f.eks. i lungen (pulmonal tromboemboli) eller i et blodkar i benet (venøs eller 
+arteriel trombose). Den teoretiske risiko er lav som følge af din medfødte mangel i 
+blodstørkningskaskaden sammenlignet med raske personer.
+37
+-
+Du kan have risiko for abnorm blodstørkning, hvis du allerede har hjerte-kar-problemer (f.eks. 
+hjertesygdom (kardiovaskulær sygdom), tykke og stive arterier (åreforkalkning), højt blodtryk 
+(hypertension) i din sygehistorie), eller hvis du har sukkersyge eller er over 50 år).
+-
+Lægen vil jævnligt kontrollere dit blod for potentielle uregelmæssigheder i faktor IX-niveauet, især 
+hvis du fortsætter din sædvanlige forebyggende faktor IX-behandling (faktor IX-erstatningsterapi), 
+efter du har fået Hemgenix (se også afsnit 3 "Sådan gives Hemgenix").
+-
+Kontakt omgående lægen, hvis du bemærker tegn på abnorm blodstørkning, såsom pludselige 
+brystsmerter, åndenød, pludseligt indsættende muskelsvaghed, nedsat føleevne og/eller balance, 
+nedsat årvågenhed, talebesvær eller hævelse i et eller begge ben.
+Undgå bloddonationer og donationer til transplantation
+I en forbigående periode kan det aktive stof i Hemgenix blive udskilt via dit blod, din sæd, din 
+modermælk, din urin/afføring og sved via en proces, der kaldes for ’shedding’ (se også afsnit 2 
+"Graviditet, amning og frugtbarhed").
+For at forhindre, at personer uden hæmofili B bliver udsat for Hemgenix-dna via sheddingprocessen i din 
+krop og/eller sæd, må du ikke donere blod, sæd, organer, væv eller celler til transplantation, når du er 
+blevet behandlet med Hemgenix.
+Immunsvækkede patienter eller patienter med hiv eller anden infektion
+Hvis du har problemer med dit immunsystem (er immunsvækket), får eller skal have en behandling, der 
+undertrykker dit immunsystem, eller har hiv eller en anden nyopstået eller nylig infektion, vil lægen 
+vurdere, om du kan få Hemgenix.
+Neutraliserende antistoffer mod faktor IX-proteiner (faktor IX-inhibitorer)
+Neutraliserende antistoffer mod faktor IX-proteiner kan forhindre Hemgenix i at virke korrekt. Lægen vil 
+eventuelt kontrollere dit blod for disse antistoffer, hvis dine blødninger ikke kan kontrolleres, eller hvis 
+de vender tilbage, efter du har fået Hemgenix (se også afsnit 3 "Sådan gives Hemgenix").
+Behandling med genterapi igen i fremtiden
+Når du har fået Hemgenix, vil dit immunsystem være i stand til at danne antistoffer over for AAV-
+vektorens proteinmembran (kapsid). Det er endnu ikke klarlagt, om behandling med Hemgenix kan 
+gentages, eller under hvilke omstændigheder. Det er heller ikke klarlagt endnu, om efterfølgende 
+behandling med en anden genterapi er mulig, eller under hvilke omstændigheder.
+Potentiel risiko for ondartet sygdom i forbindelse med Hemgenix
+-
+Hemgenix sætter sig i dine leverceller og kan muligvis også sætte sig i levercellernes dna eller 
+andre kropscellers dna. Som følge deraf kan Hemgenix bidrage til en risiko for kræft, såsom 
+leverkræft (hepatocellulært karcinom). Selvom dette ikke er set i de kliniske studier til dato, er det 
+stadig en mulighed som følge af lægemidlets art. Du bør derfor drøfte dette med lægen.
+-
+Hvis du allerede har risikofaktorer for hepatocellulære karcinomer (f.eks. hvis du har leverfibrose 
+(arvæv og fortykkelse af leveren) eller hepatitis B, hepatitis C, fedtlever (non-alkoholisk fedtlever), 
+eller du drikker store mængder alkohol), vil lægen jævnligt (f.eks. en gang om året) kontrollere din 
+leversundhed i mindst 5 år efter Hemgenix-behandlingen og gennemføre følgende undersøgelser:
+
+Årlig ultralydsundersøgelse af leveren.
+
+Årlig blodprøve for at kontrollere blodet for forhøjet niveau af alfa-føtoprotein.
+-
+Efter Hemgenix-behandlingen forventes du at blive optaget i et opfølgende studie, der har til 
+formål at undersøge den langsigtede sikkerhed af behandlingen i 15 år, hvor godt den fortsætter 
+38
+med at virke, og hvilke bivirkninger, der kan være forbundet med behandlingen. I tilfælde af kræft 
+kan din læge tage en prøve af din kræft (biopsi) for at undersøge, om Hemgenix har sat sig i celle-
+dna’et.
+Børn og unge
+Hemgenix er ikke blevet undersøgt hos børn og unge under 18 år.
+Brug af anden medicin sammen med Hemgenix
+Fortæl det altid til lægen eller sygeplejersken, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin.
+Hvis du tager lægemidler, der kan være skadelige for leveren (hepatotoksiske lægemidler), kan lægen 
+beslutte, at du skal stoppe med at tage de pågældende lægemidler, før du kan få Hemgenix.
+Graviditet, amning og frugtbarhed
+Der er ingen data om brug af Hemgenix hos kvinder med hæmofili B.
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du får Hemgenix.
+-
+Behandling med Hemgenix er frarådet hos kvinder, der kan blive gravide. Det vides ikke, om det er 
+sikkert at anvende Hemgenix hos sådanne patienter, eftersom virkningerne på graviditeten og det 
+ufødte barn ikke er klarlagt.
+-
+Hemgenix bør ikke anvendes under graviditet. Det vides ikke, om dette lægemiddel kan skade dit 
+ufødte barn, hvis du får det i graviditeten. 
+-
+Hemgenix må ikke anvendes under amning. Det vides ikke, om dette lægemiddel udskilles i 
+modermælken. En risiko for nyfødte/spædbørn kan ikke udelukkes.
+Brug af prævention og forebyggelse af graviditet hos partner i en periode
+Når en mandlig patient er blevet behandlet med Hemgenix, skal patienten og dennes kvindelige partner 
+undgå graviditet i 12 måneder. I bør anvende sikker prævention (f.eks. barriereprævention såsom kondom 
+eller pessar). Det skyldes, at der er en teoretisk risiko for, at faktor IX-genet fra faderens Hemgenix-
+behandling bliver overført til barnet med ukendte konsekvenser. Af samme årsag må mandlige patienter 
+ikke donere sæd. Drøft egnede præventionsmetoder med lægen.
+Trafik- og arbejdssikkerhed
+Hemgenix påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner. Forbigående 
+svimmelhed, træthed og hovedpine kan forekomme kort tid efter infusion af Hemgenix. Hvis du oplever 
+dette, skal du udvise forsigtighed, indtil du er sikker på, at Hemgenix ikke påvirker din evne til at føre 
+motorkøretøj og betjene maskiner. Drøft dette med lægen.
+Hemgenix indeholder natrium og kalium
+-
+Dette lægemiddel indeholder 35,2 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
+hætteglas. Dette svarer til 1,8 % af den anbefalede maksimale daglige indtagelse af natrium for en 
+voksen.
+-
+Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. hætteglas, dvs. det er i det 
+væsentlige kaliumfrit.
+39</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take hemgenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take hemgenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du får Hemgenix på hospitalet under ledelse af en læge med erfaring og uddannelse i behandling af din 
+sygdom, hæmofili B.
+Du vil kun få Hemgenix én gang via en enkelt langsom infusion (et drop) i en vene. Det tager som regel 
+1 til 2 timer at gennemføre infusionen.
+Lægen vil beregne den korrekte dosis til dig på baggrund af din vægt.
+Ophør af behandling med eksogen faktor IX
+-
+Efter infusion af Hemgenix kan der gå adskillige uger, før der ses forbedret blødningskontrol, og 
+du skal muligvis fortsætte din erstatningsterapi med eksogen faktor IX i de første uger efter 
+Hemgenix-infusionen.
+-
+Lægen vil jævnligt kontrollere faktor IX-aktivitetsniveauet i dit blod, dvs. en gang om ugen i 
+minimum de første 3 måneder og derefter med jævne mellemrum, og beslutte, om du skal have, 
+reducere eller stoppe din behandling med eksogen faktor IX og i så fald hvornår (se afsnit 2).
+Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Følgende bivirkninger er set i kliniske studier med Hemgenix.
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter)
+
+Hovedpine
+
+Øget niveau af leverenzymer i blodet (øget alanin-aminotransferase)
+
+Øget niveau af leverenzymer i blodet (øget aspartat-aminotransferase)
+
+Influenzalignende sygdom
+
+Øget niveau af C-reaktivt protein, som er en markør for inflammation
+
+Infusionsrelateret reaktion (allergiske reaktioner (overfølsomhed), reaktion på infusionsstedet, 
+svimmelhed, øjenkløe (pruritus), hudrødme (blussen), smerter i øvre del af maven (abdomen), 
+kløende udslæt (nældefeber), brystgener og feber)
+Almindelige (kan forekomme hos op til 1 ud af 10 patienter)
+
+Svimmelhed
+
+Kvalme
+
+Træthed (fatigue)
+
+Almen utilpashed
+
+Øget niveau af bilirubin, som er et gult nedbrydningsprodukt fra de røde blodlegemer, i blodet
+
+Øget niveau af kreatinfosfokinase, som er et enzym (protein), der primært findes i hjertet, hjernen 
+og skeletmusklerne, i blodet
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel.
+40</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store hemgenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store hemgenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nedenstående oplysninger er kun til læger.
+Opbevar lægemidlet utilgængelig for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og æsken efter EXP.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
+Opbevar hætteglassene i den originale yderpakning for at beskytte mod lys.
+Lægemidlet skal fortyndes før brug.
+Efter fortynding med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske kan Hemgenix opbevares ved 
+15 °C - 25 °C i infusionsposen, beskyttet mod lys, i op til 24 timer efter klargøring af dosis.
+Brug ikke lægemidlet, hvis du bemærker partikler, uklarhed eller misfarvning.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Hemgenix indeholder:</h2>
+<p>Aktivt stof: etranacogene dezaparvovec. Hver ml etranacogene dezaparvovec indeholder 
+1 x 1013 genkopier (gc)/ml.
+-
+Øvrige indholdsstoffer (hjælpestoffer): saccharose, polysorbat 20, kaliumchlorid, 
+kaliumdihydrogenphosphat, natriumchlorid, natriumhydrogenphosphat, saltsyre (til pH-justering), 
+vand til injektionsvæsker (se også afsnit 2 "Hemgenix indeholder natrium og kalium").
+Dette lægemiddel indeholder genmodificerede organismer.
+Udseende og pakningsstørrelse
+Hemgenix er et koncentrat til infusionsvæske, opløsning (koncentrat, sterilt).
+Hemgenix er en klar, farveløs opløsning.
+Hemgenix leveres i et hætteglas, der indeholder 10 ml etranacogene dezaparvovec.
+Det samlede antal hætteglas i en pakning svarer til den enkelte patients dosisbehov, som afhænger af 
+patientens legemsvægt, og er angivet på emballagen.
+Indehaver af markedsføringstilladelsen og fremstiller
+CSL Behring GmbH
+Emil-von-Behring-Strasse 76
+D-35041 Marburg
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+Luxembourg/Luxemburg
+CSL Behring NV
+Tél/Tel: +32 15 28 89 20
+България
+МагнаФарм България ЕАД
+Magyarország
+CSL Behring Kft.
+41
+Тел: +359 2 810 3949
+Tel: +36 1 213 4290
+Česká republika
+CSL Behring s.r.o.
+Tel: +420 702 137 233
+Malta
+AM Mangion Ltd.
+Tel: +356 2397 6333
+Danmark
+CSL Behring AB
+Tel: +46 8 544 966 70
+Nederland
+CSL Behring BV
+Tel: +31 85 111 96 00
+Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584437
+Norge
+CSL Behring AB
+Tlf: +46 8 544 966 70
+Eesti
+CentralPharma Communications OÜ
+Tel: +3726015540
+Österreich
+CSL Behring GmbH
+Tel: +43 1 80101 2463
+Ελλάδα
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+Polska
+CSL Behring Sp. z o.o.
+Tel.: +48 22 213 22 65
+España
+CSL Behring S.A.
+Tel: +34 933 67 1870
+Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 30
+France
+CSL Behring SA
+Tél: +33 1 53 58 54 00
+Hrvatska
+Marti Farm d.o.o.
+Tel: +385 1 5588297
+România
+Prisum Healthcare S.R.L.
+Tel: +40 21 322 01 71
+Slovenija
+EMMES BIOPHARMA GLOBAL s.r.o -
+podružnica v Sloveniji
+Tel: +386 41 42 0002
+Ireland
+CSL Behring GmbH
+Tel: +49 69 305 17254
+Slovenská republika
+CSL Behring Slovakia s.r.o.
+Tel: +421 911 653 862
+Ísland
+CSL Behring AB
+Sími: +46 8 544 966 70
+Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 70
+Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 200
+Sverige
+CSL Behring AB
+Tel: +46 8 544 966 70
+Κύπρος
+CSL Behring ΕΠΕ
+Τηλ: +30 210 7255 660
+United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 305 17254
+Latvija
+CentralPharma Communications SIA
+Tel: +371 6 7450497
+Lietuva
+CentralPharma Communications UAB
+42
+Tel: +370 5 243 0444
+Denne indlægsseddel blev senest ændret
+Dette lægemiddel er godkendt under "betingede omstændigheder".
+Det betyder, at der forventes yderligere dokumentation for lægemidlet.
+Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om lægemidlet,
+og denne indlægsseddel vil om nødvendigt blive ajourført.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu
+Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside.</p>
+<hr />
+<p>Nedenstående oplysninger er til sundhedspersoner:
+Vigtigt: Se produktresuméet før brug.
+Sikkerhedsforanstaltninger, der skal træffes før håndtering og administration af lægemidlet
+Dette lægemiddel indeholder genmodificerede organismer (GMO’er).
+Der skal bæres personlige værnemidler, herunder handsker, beskyttelsesbriller, beskyttelsesdragt og 
+maske, i forbindelse med klargøring og administration af etranacogene dezaparvovec.
+Klargøring af etranacogene dezaparvovec inden administration
+1. Der skal anvendes aseptiske teknikker i forbindelse med klargøring og administration af 
+etranacogene dezaparvovec.
+2. Hætteglas med etranacogene dezaparvovec må kun anvendes én gang (hætteglas til engangsbrug).
+3. Kontrollér den påkrævede dosis af etranacogene dezaparvovec på baggrund af patientens 
+legemsvægt. Det samlede antal hætteglas i hver færdigpakning svarer til den enkelte patients 
+dosisbehov, som afhænger af patientens legemsvægt.
+4. Etranacogene dezaparvovec skal fortyndes med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske 
+inden administration.
+-
+Optræk et volumen svarende til den beregnede Hemgenix-dosis (i ml) fra 500 ml-
+infusionsposen/-poserne med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske. Det
+volumen, der skal trækkes op, afhænger af patientens legemsvægt.<em> For patienter &lt; 120 kg legemsvægt: Optræk et volumen af natriumchlorid 9 mg/ml 
+(0,9 %) injektionsvæske, der svarer til den totale Hemgenix-dosis (i ml), fra én 
+500 ml-infusionspose.</em> For patienter  ≥ 120 kg legemsvægt: Optræk et volumen af natriumchlorid 9 mg/ml 
+(0,9 %) injektionsvæske, der svarer til den totale Hemgenix-dosis (i ml), fra to 
+500 ml-infusionsposer ved at trække halvdelen af volumenet op fra hver af de to 
+500 ml-infusionsposer.
+-
+Tilsæt derefter den påkrævede Hemgenix-dosis til infusionsposen/-poserne for at opnå et
+totalt volumen i hver infusionspose på 500 ml.
+5. Tilsæt Hemgenix-dosen direkte i natriumchlorid 9 mg/ml (0,9 %) injektionsvæsken. Tilsæt ikke 
+Hemgenix-dosen i luften i infusionsposen i forbindelse med fortyndingen.
+6. Vend forsigtigt op og ned på infusionsposen/-poserne minimum 3 gange for at blande opløsningen 
+og sikre en jævn fordeling af det fortyndede produkt.
+7. For at undgå skumning:
+43
+-
+Hætteglasset/-glassene og den/de klargjorte infusionspose/-poser må ikke omrystes.
+-
+Der må ikke anvendes filterkanyler i forbindelse med klargøring af etranacogene 
+dezaparvovec.
+8. For at reducere risikoen for spild og/eller aerosoldannelse skal infusionsposen/-poserne leveres 
+med en tilsluttet infusionsslange, der på forhånd er blevet fyldt med steril natriumchlorid 9 mg/ml 
+(0,9 %) injektionsvæske.
+9. Infusionsslangen fyldt med steril natriumchlorid 9 mg/ml (0,9 %) injektionsvæske skal sluttes til 
+den primære intravenøse infusionslinje, som også er blevet primet med steril natriumchlorid
+9 mg/ml (0,9 %) injektionsvæske før brug.
+10. Der må kun anvendes natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, eftersom stabiliteten af 
+etranacogene dezaparvovec ikke er blevet klarlagt sammen med andre opløsninger og solvenser.
+11. Den fortyndede etranacogene dezaparvovec-opløsning må ikke infunderes i det samme intravenøse 
+drop som andre produkter.
+12. Brug ikke et centralt venekateter eller en central veneport.
+Administration
+13. Fortyndet etranacogene dezaparvovec skal gennemses inden administration. Fortyndet 
+etranacogene dezaparvovec skal være en klar, farveløs opløsning. Hvis der er synlige partikler, 
+uklarhed eller misfarvning i infusionsposen, må etranacogene dezaparvovec ikke anvendes.
+14. Anvend produktet så hurtigt som muligt efter fortynding. Opbevaringstiden for det fortyndede 
+produkt er angivet i pkt. 6.3 i produktresuméet og må ikke overskrides.
+15. Brug et integreret (in-line) filter på 0,2 µm, der er fremstillet af polyethersulfon (PES).
+16. Den fortyndede etranacogene dezaparvovec-opløsning skal administreres i en perifer vene via en 
+separat intravenøs infusionslinje gennem et perifert venekateter.
+17. Etranacogene dezaparvovec-opløsningen skal infunderes under nøje overholdelse af de 
+infusionshastigheder, der er angivet i pkt. 4.2 i produktresuméet. Administrationen skal være 
+fuldført inden for ≤ 24 timer efter klargøring af dosen (se pkt. 4.2 i produktresuméet).
+18. Når hele indholdet i infusionsposen/-poserne er blevet administreret, skal infusionslinjen 
+gennemskylles ved den samme infusionshastighed med natriumchlorid 9 mg/ml (0,9 %) 
+injektionsvæske for at sikre, at alt etranacogene dezaparvovec bliver infunderet.
+Foranstaltninger, der skal træffes i tilfælde af utilsigtet eksponering
+Ved utilsigtet eksponering skal de lokale retningslinjer for lægemiddelaffald følges.<em> Ved utilsigtet kontakt med øjnene skal øjnene omgående skylles med vand i minimum 15 minutter.
+Anvend ikke alkoholopløsning.</em> Ved utilsigtet eksponering via nålestik skal sårblødning understøttes, og injektionsområdet skal 
+vaskes grundigt med sæbe og vand.<em> Ved utilsigtet kontakt med huden skal det berørte område rengøres grundigt med sæbe og vand i 
+minimum 15 minutter. Anvend ikke alkoholopløsning.</em> Ved utilsigtet inhalation skal personen flyttes til frisk luft.<em> Ved utilsigtet oral kontakt skal munden skylles grundigt med vand.</em> I alle tilfælde skal der efterfølgende søges lægehjælp.
+Arbejdsflader og materialer, som potentielt har været i kontakt med etranacogene dezaparvovec, skal 
+dekontamineres efter brug med et passende desinfektionsmiddel med virusdræbende virkning (f.eks. et 
+klorfrigivende desinfektionsmiddel såsom hypoklorit indeholdende 0,1 % tilgængeligt klor (1000 ppm)).
+Forholdsregler, der skal træffes i forbindelse med bortskaffelse af lægemidlet
+Ikke anvendt lægemiddel og engangsmaterialer, som potentielt har været i kontakt med Hemgenix (fast 
+og flydende affald), skal bortskaffes i overensstemmelse med lokale retningslinjer for lægemiddelaffald.
+Risikoen for bivirkninger hos mennesker efter utilsigtet eksponering for Hemgenix og den miljømæssige 
+risiko vurderes imidlertid at være ubetydelig.
+44
+Omsorgspersoner skal rådgives om korrekt håndtering af affaldsmaterialer, der fremkommer fra 
+kontaminerede medicinske hjælpemidler i forbindelse med brug af Hemgenix.
+Arbejdsflader og materialer, som potentielt har været i kontakt med etranacogene dezaparvovec, skal 
+dekontamineres efter brug med et passende desinfektionsmiddel med virusdræbende virkning (f.eks. et 
+klorfrigivende desinfektionsmiddel såsom hypoklorit indeholdende 0,1 % tilgængeligt klor (1000 ppm)) 
+og derefter, om muligt, autoklaveres.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-368e8679c0472a0d2aa9d82ac9fd7ab6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hemgenix Package Leaflet for language en"
+Description: "ePI document Bundle for hemgenix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6"
+* entry[0].resource = composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp368e8679c0472a0d2aa9d82ac9fd7ab6"
+* entry[=].resource = mp368e8679c0472a0d2aa9d82ac9fd7ab6
+                            
+                    
+Instance: bundlepackageleaflet-da-368e8679c0472a0d2aa9d82ac9fd7ab6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hemgenix Package Leaflet for language da"
+Description: "ePI document Bundle for hemgenix Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-368e8679c0472a0d2aa9d82ac9fd7ab6"
+* entry[0].resource = composition-da-368e8679c0472a0d2aa9d82ac9fd7ab6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp368e8679c0472a0d2aa9d82ac9fd7ab6"
+* entry[=].resource = mp368e8679c0472a0d2aa9d82ac9fd7ab6
+                            
+                    
+
+
+
+Instance: mp368e8679c0472a0d2aa9d82ac9fd7ab6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Hemgenix 1 x 1013 genome copies/mL concentrate for solution for infusion"
-Description: "Hemgenix 1 x 1013 genome copies/mL concentrate for solution for infusion"
+Title: "Medicinal Product hemgenix"
+Description: "hemgenix"
 Usage: #inline
 
  
@@ -534,7 +1176,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Hemgenix 1 x 1013 genome copies/mL concentrate for solution for infusion"
+  * productName = "hemgenix"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -561,29 +1203,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-368e8679c0472a0d2aa9d82ac9fd7ab6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for hemgenix Package Leaflet for language en"
-Description: "ePI document Bundle for hemgenix Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 368e8679c0472a0d2aa9d82ac9fd7ab6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1715/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "hemgenix"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6"
-* entry[0].resource = composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3e84d8dfcf9451f4aecd07236bdddc86"
-* entry[=].resource = mp3e84d8dfcf9451f4aecd07236bdddc86
-                            
-                      
+* title = "List of all ePIs associated with hemgenix"
+
+* subject = Reference(mp3e84d8dfcf9451f4aecd07236bdddc86)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#hemgenix "hemgenix"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-368e8679c0472a0d2aa9d82ac9fd7ab6) // hemgenix en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-368e8679c0472a0d2aa9d82ac9fd7ab6) // hemgenix da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-368e8679c0472a0d2aa9d82ac9fd7ab6
+InstanceOf: List
+
+* insert 368e8679c0472a0d2aa9d82ac9fd7ab6ListRuleset
+    

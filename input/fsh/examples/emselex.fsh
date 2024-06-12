@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0d9fdb5a39ccb7b71c8ef7225226fb5e
 InstanceOf: CompositionUvEpi
 Title: "Composition for emselex Package Leaflet"
@@ -286,12 +289,428 @@ listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-0d9fdb5a39ccb7b71c8ef7225226fb5e
+InstanceOf: CompositionUvEpi
+Title: "Composition for emselex Package Leaflet"
+Description:  "Composition for emselex Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpda2c2e0c09123e4cc85f48ceb20a4afc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpda2c2e0c09123e4cc85f48ceb20a4afc
+* title = "TEST PURPOSES ONLY - emselex"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Emselex 
+3. Sådan skal du tage Emselex 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger  </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What emselex is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What emselex is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvordan virker Emselex 
+Emselex nedsætter aktiviteten af en overaktiv blære. Dette gør, at du kan vente længere, før du 
+behøver at gå på toilettet, og det øger den urinmængde, som din blære kan holde på. </p>
+<p>Hvad bruges Emselex til 
+Emselex hører til gruppen af stoffer som virker afslappende på blæremusklen. Det anvendes til voksne 
+til behandling af tilstande med symptomer på overaktiv blære - såsom pludselig trang til hurtigt at 
+skulle på toilettet, behov for hyppige toiletbesøg og/eller ikke at nå på toilettet i tide og derfor bliver 
+våd (urgeinkontinens). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take emselex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take emselex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Emselex: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for aliskiren eller et af de øvrige indholdsstoffer i Emselex (angivet i 
+punkt 6). </p>
+</li>
+<li>
+<p>hvis du har besvær med at tømme blæren (urinretension). </p>
+</li>
+<li>
+<p>hvis du har svært ved at tømme mavesækken for indhold (ventrikelretention). </p>
+</li>
+<li>
+<p>hvis du har højt tryk i øjet og ikke bliver behandlet for dette (snævervinklet glaukom). </p>
+</li>
+<li>
+<p>hvis du har myastenia gravis (en sygdom, som markerer sig ved usædvanlig træthed og svaghed 
+i bestemte muskler). </p>
+</li>
+<li>
+<p>hvis du har svær tyktarmsbetændelse (colitis ulcerosa) eller toksisk megacolon (akut udvidelse 
+af tyktarmen pga. komplikationer med infektion eller betændelse). </p>
+</li>
+<li>
+<p>hvis du har alvorlige leverproblemer. </p>
+</li>
+<li>
+<p>hvis du tager medicin der kraftigt nedsætter aktiviteten af nogle leverenzymer, såsom 
+ciclosporin (medicin, der bruges i forbindelse med transplantation for at forhindre 
+organafstødning eller til andre sygdomme fx reumatoid arthritis eller atopisk dermatitis), 
+verapamil (medicin, der bruges til at sænke blodtrykket, til at korrigere hjerterytmen eller til at 
+behandle angina pectoris), medicin mod svampeinfektioner (fx. ketoconazol og itraconazol) og 
+visse antivirale lægemidler (fx ritonavir), - se afsnittet "Brug af anden medicin sammen med 
+Emselex". </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Emselex </p>
+<ul>
+<li>
+<p>hvis du har autonom neuropati (skade på nerverne, der kommunikerer mellem hjernen og indre 
+organer, muskler, hud og blodårer for at regulere livsvigtige funktioner, inkl. hjerterytmen, 
+blodtrykket og tarmfunktionen) - din læge vil have fortalt dig det, hvis du lider af dette. </p>
+</li>
+<li>
+<p>hvis du har en tilstand, hvor et eller flere organer i maven har bevæget sig op i brystet gennem 
+et åbning i mellemgulvet, der fører til halsbrand og hyppig bøvsning. </p>
+</li>
+<li>
+<p>hvis du har besvær med at komme af med urinen og en svag urinstråle. </p>
+</li>
+<li>
+<p>hvis du lider af svær forstoppelse (2 eller færre gange afføring om ugen). </p>
+</li>
+<li>
+<p>hvis du har fordøjelsesproblemer. </p>
+</li>
+<li>
+<p>hvis du har en obstruktiv mave-tarmlidelse (enhver tilstopning af passagen i mave-tarm-
+kanalen, såsom forsnævring af pylorus, den nederste del af maven) - din læge vil have fortalt 
+dig, hvis du lider af dette. </p>
+</li>
+<li>
+<p>hvis du tager medicin, der kan forårsage eller forværre betændelse i spiserøret såsom orale 
+bisfosfonater (en klasse af lægemidler, der forebygger tab af knoglemasse og bruges til 
+behandling af knogleskørhed). </p>
+</li>
+<li>
+<p>hvis du er i behandling for højt tryk i øjet (snævervinklet glaukom). </p>
+</li>
+<li>
+<p>hvis du har en leversygdom. </p>
+</li>
+<li>
+<p>hvis du har en urinvejsinfektion eller andre nyreproblemer. </p>
+</li>
+<li>
+<p>hvis du har en overaktiv muskel, der kontrollerer tømningen af blæren, hvilket kan forårsage 
+utilsigtet urinafgang (en tilstand kaldet detrusor overaktivitet) - din læge vil have fortalt dig, 
+hvis du lider af dette. </p>
+</li>
+<li>
+<p>hvis du har en hjertesygdom. 
+Kontakt lægen, inden du begynder at tage Emselex, hvis nogen af ovenstående tilstande gælder for 
+dig. </p>
+</li>
+</ul>
+<p>Hvis du oplever hævelse af ansigt, læber, tunge og/eller svælg (tegn på angioødem) under behandling 
+med Emselex, skal du straks kontakte lægen og stoppe med at tage Emselex. </p>
+<p>Børn og unge 
+Emselex frarådes til brug hos børn og unge (&lt;18 år). </p>
+<p>Brug af anden medicin sammen med Emselex 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin eller har brugt det for 
+nylig. Dette gælder også medicin, som ikke er købt på recept. Dette er specielt vigtigt, hvis du tager et 
+af følgende lægemidler, da din læge muligvis skal justere din Emselexdosis og/eller det andet 
+lægemiddel: </p>
+<ul>
+<li>
+<p>visse antibiotika (fx erythromycin, clarithromycin, telithromycin og rifampicin), </p>
+</li>
+<li>
+<p>medicin mod svampeinfektion (fx ketoconazol og itraconazol - se afsnittet "Tag ikke Emselex", 
+fluconazole, terbinafin), </p>
+</li>
+<li>
+<p>medicin som bruges til at undertrykke immunsystemet, for eksempel efter organtransplantation 
+(fx ciclosporin - se afsnittet “Tag ikke Emselex"), </p>
+</li>
+<li>
+<p>antivirale lægemidler (fx ritonavir - se afsnittet “Tag ikke Emselex"), </p>
+</li>
+<li>
+<p>antipsykotisk medicin (fx thioridazin), </p>
+</li>
+<li>
+<p>bestemte typer af medicin mod depression (fx imipramin og paroxetin), </p>
+</li>
+<li>
+<p>visse krampestillende midler (carbamacepin, barbiturater), </p>
+</li>
+<li>
+<p>visse typer af medicin som bruges til behandling af problemer med hjertet (fx verapamil - se 
+afsnittet “Tag ikke Emselex", flecainid, digoxin og quinidin), </p>
+</li>
+<li>
+<p>visse typer af medicin som bruges til behandling af maveproblemer (fx cimetidin), </p>
+</li>
+<li>
+<p>andre antimuskarine lægemidler (fx tolterodin, oxybutynin og flavoxat). 
+Du skal også fortælle din læge, hvis du tager medicin, der indeholder perikon. </p>
+</li>
+</ul>
+<p>Brug af Emselex sammen med mad og drikke 
+Indtagelse af mad har ingen indflydelse på virkningen af Emselex. Grapefrugtjuice kan påvirke 
+virkningen af Emselex. Fortæl lægen, hvis du tager grapefrugtjuice regelmæssigt. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge Deres din læge til råds, før De du tager bruger dette lægemiddel. 
+Emselex frarådes under graviditet. 
+Brug af Emselex bør ske med forsigtighed under amning. </p>
+<p>Trafik- og arbejdssikkerhed 
+Emselex kan give bivirkninger såsom svimmelhed, sløret syn, søvnproblemer eller døsighed. Hvis du 
+oplever nogen af disse bivirkninger, mens du tager Emselex, skal du kontakte din læge for råd om 
+ændring af doseringen eller overvejelse af alternativ behandling. Du bør ikke køre bil eller betjene 
+maskiner, hvis du oplever disse bivirkninger. Disse bivirkninger er for Emselex rapporteret til at være 
+"ikke almindelige" (se pkt. 4). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take emselex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take emselex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Emselex nøjagtigt efter lægens anvisning. Er du i tvivl så spørg lægen eller på apoteket. Hvis 
+du mener, at virkningerne af Emselex er for kraftige eller for svage, bør du tale med din læge eller 
+apotek herom. </p>
+<p>Hvor meget Emselex skal du tage 
+Den anbefalede startdosis er 7,5 mg daglig. Dette gælder også for patienter over 65 år. Afhængigt af 
+virkningen af Emselex kan din læge øge doseringen til 15 mg daglig efter 2 ugers behandling. </p>
+<p>Denne dosering er egnet til patienter med milde leversygdomme eller patienter med nyrelidelser. </p>
+<p>Tag Emselex-tabletter en gang daglig sammen med væske, og på omtrent samme tid hver dag. </p>
+<p>Tabletterne kan tages med eller uden mad. Tabletterne skal synkes hele. Tabletterne må ikke tygges, 
+deles eller knuses. </p>
+<p>Hvis du har taget for meget Emselex 
+Hvis du har taget flere tabletter end lægen har foreskrevet, eller hvis en anden ved et uheld indtager 
+dine tabletter, skal du straks henvende dig til din læge eller på skadestuen for at få råd. Når du søger 
+lægehjælp, skal du sikre dig, at du medbringer denne indlægsseddel og pakningen med de resterende 
+tabletter for at vise dem til lægen. Folk, der har taget en overdosis, kan få tørhed i munden, 
+forstoppelse, hovedpine, fordøjelsesproblemer og tørhed i næsen. Overdosis af Emselex kan give 
+svære symptomer, der kræver akut behandling på sygehus. </p>
+<p>Hvis du har glemt at tage Emselex 
+Hvis du har glemt at tage Emselex til sædvanlig tid, skal du tage medicinen så snart, du husker det. Du 
+må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Emselex 
+Din læge vil fortælle dig hvor længe behandlingen med Emselex skal vare. Du må ikke stoppe 
+behandlingen, selvom du ikke mærker nogen umiddelbar virkning. Din blære har brug for nogen tid til 
+at tilpasse sig. Gennemfør behandlingsforløbet som din læge har foreskrevet. Hvis du ikke har mærket 
+nogen effekt ved behandlingens afslutning, skal du tale med din læge om det. </p>
+<p>Spørg lægen eller på apoteket hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Bivirkninger forårsaget af Emselex er normalt milde og forbigående. </p>
+<p>Nogle bivirkninger kan være alvorlige 
+Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data) 
+Alvorlige allergiske reaktioner inklusiv hævelse, hovedsageligt i ansigtet og halsen (angioødem). </p>
+<p>Andre bivirkninger 
+Meget almindelige (forekomme hos mere end 1 ud af 10 patienter) 
+Mundtørhed, forstoppelse. </p>
+<p>Almindelige bivirkninger (forekommer hos op til 1 ud af 10 patienter) 
+Hovedpine, mavesmerter, nedsat fordøjelse, utilpashed, tørre øjne, tørhed i næsen. </p>
+<p>Ikke almindelige (forekommer hos op til 1 ud af 100 patienter) 
+Træthed, utilsigtede skader, hævelse i ansigtet, forhøjet blodtryk, diarré, flatulens, sår i 
+mundslimhinden, forhøjede levertal (dette viser unormal funktion af leveren), hævelser inklusive 
+hævelse af hænder, ankler eller fødder, svimmelhed, søvnløshed, døsighed, unormal tankegang, 
+løbende næse (rinitis), hoste, åndenød, tør hud, kløe, hududslæt, svedtendens, synsforstyrrelser 
+inklusive sløret syn, smagsforstyrrelser, urinvejsforstyrrelser eller -infektion, impotens, udflåd og kløe 
+i skeden, blæresmerter, besvær med at tømme blæren. </p>
+<p>Ikke kendt (kan ikke vurderes ud fra tilgængelige data) 
+Nedtrykthed/humørsvingninger, hallucinationer. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store emselex"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store emselex"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisterkortet. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Opbevar blisterpakningen i den ydre karton for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet, hvis du bemærker at pakningen er beskadiget eller viser tegn på at have 
+været åbnet. </p>
+</li>
+<li>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Emselex indeholder 
+- Aktivt stof: darifenacin. Hver tablet indeholder 7,5 mg darifenacin (som hydrobromid). 
+- Øvrige indholdsstoffer: vandfrit calciumhydrogenphosphat, hypromellose, magnesiumstearat, 
+polyethylenglycol, titandioxid (E171) og talcum. </p>
+<p>Udseende og pakningsstørrelser 
+Emselex 7,5 mg depottabletter er runde, konvekse, hvide tabletter, som er præget med "DF" på den 
+ene side og "7.5" på den anden. </p>
+<p>Tabletterne er tilgængelige i blisterpakninger, som indeholder 7, 14, 28, 49, 56 eller 98 tabletter eller 
+som multipakninger indeholdende 140 (10x14) tabletter. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+pharmaand GmbH 
+Taborstrasse 1 
+1020 Wien 
+Østrig </p>
+<p>Fremstiller 
+DREHM Pharma GmbH 
+Grünbergstrasse 15/3/3 
+1120 Wien 
+Østrig </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder 
+Du kan finde yderligere information om Emselex på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu 
+Indlægsseddel: information til brugeren </p>
+<p>Emselex 15 mg depottabletter 
+Darifenacin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0d9fdb5a39ccb7b71c8ef7225226fb5e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emselex Package Leaflet for language en"
+Description: "ePI document Bundle for emselex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0d9fdb5a39ccb7b71c8ef7225226fb5e"
+* entry[0].resource = composition-en-0d9fdb5a39ccb7b71c8ef7225226fb5e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0d9fdb5a39ccb7b71c8ef7225226fb5e"
+* entry[=].resource = mp0d9fdb5a39ccb7b71c8ef7225226fb5e
+                            
+                    
+Instance: bundlepackageleaflet-da-0d9fdb5a39ccb7b71c8ef7225226fb5e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emselex Package Leaflet for language da"
+Description: "ePI document Bundle for emselex Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0d9fdb5a39ccb7b71c8ef7225226fb5e"
+* entry[0].resource = composition-da-0d9fdb5a39ccb7b71c8ef7225226fb5e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0d9fdb5a39ccb7b71c8ef7225226fb5e"
+* entry[=].resource = mp0d9fdb5a39ccb7b71c8ef7225226fb5e
+                            
+                    
+
+
+
+Instance: mp0d9fdb5a39ccb7b71c8ef7225226fb5e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Emselex 7.5 mg prolonged-release tablets"
-Description: "Emselex 7.5 mg prolonged-release tablets"
+Title: "Medicinal Product emselex"
+Description: "emselex"
 Usage: #inline
 
  
@@ -311,7 +730,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Emselex 7.5 mg prolonged-release tablets"
+  * productName = "emselex"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -338,29 +757,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0d9fdb5a39ccb7b71c8ef7225226fb5e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for emselex Package Leaflet for language en"
-Description: "ePI document Bundle for emselex Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0d9fdb5a39ccb7b71c8ef7225226fb5eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/04/294/001-006"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "emselex"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0d9fdb5a39ccb7b71c8ef7225226fb5e"
-* entry[0].resource = composition-en-0d9fdb5a39ccb7b71c8ef7225226fb5e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpda2c2e0c09123e4cc85f48ceb20a4afc"
-* entry[=].resource = mpda2c2e0c09123e4cc85f48ceb20a4afc
-                            
-                      
+* title = "List of all ePIs associated with emselex"
+
+* subject = Reference(mpda2c2e0c09123e4cc85f48ceb20a4afc)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#emselex "emselex"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0d9fdb5a39ccb7b71c8ef7225226fb5e) // emselex en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0d9fdb5a39ccb7b71c8ef7225226fb5e) // emselex da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0d9fdb5a39ccb7b71c8ef7225226fb5e
+InstanceOf: List
+
+* insert 0d9fdb5a39ccb7b71c8ef7225226fb5eListRuleset
+    

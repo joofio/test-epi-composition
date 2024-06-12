@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0870b0eb502814c6dc60255f3d34d5b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontilyv Package Leaflet"
@@ -285,12 +288,365 @@ tel: +351 22 986 61 fax: +351 22 986 61 e-mail: info@bial.com </p>
 
 
 
+Instance: composition-da-0870b0eb502814c6dc60255f3d34d5b4
+InstanceOf: CompositionUvEpi
+Title: "Composition for ontilyv Package Leaflet"
+Description:  "Composition for ontilyv Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfd443e0cc5b54408b1cb7cb4dfc3d785)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpfd443e0cc5b54408b1cb7cb4dfc3d785
+* title = "TEST PURPOSES ONLY - ontilyv"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Ontilyv 
+3. Sådan skal du tage Ontilyv 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ontilyv is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ontilyv is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ontilyv indeholder det aktive stof opicapon. Lægemidlet bruges til behandling af Parkinsons sygdom og 
+hermed forbundne bevægelsesproblemer. Parkinsons sygdom er en fremadskridende lidelse i 
+nervesystemet, som medfører rysten og påvirker dine bevægelser. </p>
+<p>Ontilyv er beregnet til brug til voksne, som allerede tager lægemidler indeholdende levodopa og DOPA-
+decarboxylasehæmmer. Lægemidlet øger levodopas virkning og hjælper til at mindske symptomerne på 
+Parkinsons sygdom og bevægelsesproblemer.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ontilyv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ontilyv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ontilyv:</p>
+<ul>
+<li>hvis du er allergisk over for opicapon eller et af de øvrige indholdsstoffer i Ontilyv (angivet i 
+punkt 6) </li>
+<li>hvis du har en tumor i binyrerne (kaldet fæokromocytom) eller i nervesystemet (kaldet 
+paragangliom) eller en anden tumor, som øger risikoen for meget højt blodtryk </li>
+<li>hvis du nogen sinde har haft malignt neuroleptikasyndrom, som er en sjælden reaktion på medicin 
+mod psykoser </li>
+<li>hvis du nogen sinde har lidt af en sjælden muskellidelse, der kaldes rabdomyolyse, som ikke 
+skyldes en skade </li>
+<li>hvis du tager visse lægemidler til behandling af depression, som kaldes monoaminoxidase (MAO)-
+hæmmere (f.eks. phenelzin, tranylcypromin eller moclobemid). Spørg din læge eller 
+apotekspersonalet, om du kan tage din medicin mod depression sammen med Ontilyv. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Ontilyv:</p>
+<ul>
+<li>hvis du har alvorlige leverproblemer og lider af appetitløshed, vægttab eller svaghed, eller hvis du 
+hurtigt bliver udmattet. Lægen kan tage din behandling op til overvejelse. </li>
+</ul>
+<p>Kontakt lægen eller apotekspersonalet, hvis du eller din familie/plejeansvarlige bemærker, at du udvikler 
+lyst eller trang til at udføre handlinger, som er usædvanlige for dig, eller hvis du ikke kan modstå 
+impulser, drifter eller fristelser til at udføre bestemte aktiviteter, som kan skade dig eller andre. Denne 
+adfærd kaldes manglende impulskontrol og kan omfatte øget spilletrang/ludomani, hyperseksualitet eller 
+en øget optagethed af seksuelle tanker eller følelser. Disse adfærdsmønstre er blevet rapporteret hos 
+patienter, som bruger anden medicin til behandling af Parkinsons sygdom. Lægen vil eventuelt tage din 
+behandling op til overvejelse. </p>
+<p>Børn og unge 
+Børn og unge under 18 år må ikke tage dette lægemiddel. Det er ikke blevet undersøgt hos denne 
+aldersgruppe, da behandling af Parkinsons sygdom ikke er relevant hos børn og unge. </p>
+<p>Brug af anden medicin sammen med Ontilyv 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden medicin 
+eller planlægger at tage anden medicin. </p>
+<p>Fortæl lægen, hvis du tager:</p>
+<ul>
+<li>lægemidler til behandling af depression eller angst, som f.eks. venlafaxin, maprotilin og desipramin. 
+Hvis du tager Ontilyv sammen med disse lægemidler, kan det øge risikoen for bivirkninger. Lægen 
+kan eventuelt justere din behandling; </li>
+<li>safinamid til behandling af Parkinsons sygdom. Der er ingen erfaring med samtidig behandling med 
+Ontilyv og safinamid. Lægen kan eventuelt justere din behandling; </li>
+<li>lægemidler til behandling af astma, som f.eks. rimiterol eller isoprenalin. Ontilyv kan øge 
+virkningen af disse lægemidler; </li>
+<li>lægemidler til behandling af allergiske reaktioner, som f.eks. adrenalin. Ontilyv kan øge virkningen 
+af disse lægemidler; </li>
+<li>lægemidler til behandling af hjertesvigt, som f.eks. dobutamin, dopamin eller dopexamin. Ontilyv 
+kan øge virkningen af disse lægemidler; </li>
+<li>lægemidler mod for højt kolesterol, som f.eks. rosuvastatin, simvastatin, atorvastatin eller 
+pravastatin. Ontilyv kan øge virkningen af disse lægemidler; </li>
+<li>lægemidler, der påvirker immunsystemet, som f.eks. methotrexat. Ontilyv kan øge virkningen af 
+disse lægemidler; </li>
+<li>lægemidler, der indeholder kinidin, som anvendes til behandling af unormal hjerterytme eller 
+malaria. Hvis du tager Ontilyv og kinidin sammen, det vil sige på samme tidspunkt, kan det 
+nedsætte virkningen af Ontilyv. </li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Ontilyv bør ikke anvendes, hvis du er gravid. Du skal bruge sikker prævention, hvis du kan blive gravid. </p>
+<p>Det er ukendt, om Ontilyv udskilles i mælken hos mennesker. Da en risiko for spædbarnet ikke kan 
+udelukkes, skal du stoppe med at amme, mens du er i behandling med Ontilyv. </p>
+<p>Trafik- og arbejdssikkerhed 
+Når du tager Ontilyv sammen med levodopa, kan du føle dig svimmel eller søvnig. </p>
+<p>Du må ikke køre motorkøretøj eller betjene maskiner, hvis du får disse bivirkninger. </p>
+<p>Ontilyv indeholder lactose og natrium 
+- Lactose: Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. 
+- Natrium: Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ontilyv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ontilyv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.  </p>
+<p>Den anbefalede dosis er 50 mg én gang dagligt. 
+Ontilyv skal helst tages ved sengetid. </p>
+<p>Tag Ontilyv mindst én time før eller efter, du tager din levodopa-medicin. </p>
+<p>Doser af anden medicin til behandling af Parkinsons sygdom 
+Det kan være nødvendigt at justere dosen af anden medicin til behandling af Parkinsons sygdom, når du 
+begynder at tage Ontilyv. Følg lægens anvisninger. </p>
+<p>Indtagelse 
+Ontilyv er til oral anvendelse (gennem munden). 
+Synk kapslen hel med et glas vand til.  </p>
+<p>Hvis du har taget for mange Ontilyv 
+Hvis du har taget flere Ontilyv, end du skulle, skal du straks kontakte din læge, apotekspersonalet eller et 
+hospital. Medbring medicinpakken og denne indlægsseddel. Det vil gøre det nemmere for lægen at finde 
+ud af, hvad du har taget. </p>
+<p>Hvis du har glemt at tage Ontilyv 
+Hvis du glemmer at tage en dosis, skal du fortsætte behandlingen og tage næste dosis som planlagt.<br />
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Ontilyv 
+Du må ikke stoppe med at tage Ontilyv, medmindre du har fået besked på det af lægen, da dine 
+symptomer kan blive værre. 
+Hvis du stopper med at tage Ontilyv, er det muligt, at din læge skal justere dosen af anden medicin, som 
+du tager til behandling af Parkinsons sygdom. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Bivirkninger forårsaget af Ontilyv er ofte lette til moderate og opstår for det meste inden for de første uger 
+af behandlingen. Nogle af bivirkningerne kan skyldes den øgede virkning ved samtidig brug af Ontilyv og 
+levodopa. </p>
+<p>Kontakt straks din læge, hvis du får bivirkninger i starten af behandlingen. Lægen kan behandle mange af 
+bivirkningerne ved at justere dosis af din levodopa-medicin. </p>
+<p>Du skal så hurtigt som muligt fortælle din læge, hvis du bliver opmærksom på nogle af følgende 
+bivirkninger: </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 patienter 
+- ufrivillige og ukontrollerbare bevægelser eller svært ved at bevæge kroppen eller smertefulde 
+bevægelser </p>
+<p>Almindelig: kan forekomme hos op til 1 ud af 10 patienter 
+- forstoppelse 
+- mundtørhed 
+- kvalme (nausea) 
+- opkastninger 
+- forhøjet niveau af enzymet kreatinkinase i blodet 
+- ufrivillige muskelsammentrækninger 
+- svimmelhed 
+- hovedpine 
+- døsighed 
+- besvær med at falde i søvn eller sove igennem<br />
+- underlige drømme<br />
+- sanseoplevelser, som ikke er virkelige (hallucinationer) 
+- blodtryksfald, når du rejser dig op, hvilket forårsager svimmelhed eller besvimelse </p>
+<p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 patienter 
+- hjertebanken eller uregelmæssig hjerterytme (puls) 
+- tilstoppede ører 
+- tørre øjne 
+- smerter eller hævelse i maveregionen 
+- fordøjelsesbesvær 
+- vægttab 
+- appetitløshed 
+- forhøjede triglycerider (fedtstoffer) i blodet 
+- muskeltrækninger, muskelstivhed eller muskelsmerter 
+- smerter i arme og ben 
+- ændret smagssans 
+- overdrevne kropsbevægelser<br />
+- besvimelse 
+- angst 
+- depression 
+- høre noget, som ikke eksisterer 
+- mareridt 
+- søvnbesvær 
+- unormal farve af urin 
+- behov for vandladning om natten 
+- kortåndethed 
+- højt eller lavt blodtryk </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
+Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ontilyv"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ontilyv"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperatur for dette lægemiddel. 
+Blistre: Opbevares i den originale blister for at beskytte mod fugt. 
+Flasker: Hold flasken tæt tillukket for at beskytte mod fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ontilyv indeholder:</p>
+<ul>
+<li>Aktivt stof: Opicapon. Hver kapsel indeholder 25 mg opicapon. </li>
+<li>Øvrige indholdsstoffer:  * 
+kapslens indhold: lactosemonohydrat, natriumstivelsesglykolat (type A), pregelatineret 
+majsstivelse og magnesiumstearat * 
+kapselskal: gelatine, indigocarmin (E 132), erythrosin (E 127) og titandioxid (E 171) * 
+prægeblæk: shellac, propylenglykol, ammoniakopløsning, koncentreret, indigocarmin 
+aluminiums lake (E 132)  </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Ontilyv 25 mg hårde kapsler er lyseblå, ca. 19 mm lang, med "OPC 25" og "Bial" præget på kapslerne.  </p>
+<p>Kapslerne er pakket i flasker eller blistre.  </p>
+<p>Flasker: 10 eller 30 kapsler. 
+Blister: 10 eller 30 kapsler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Bial - Portela &amp; Cª, S.A. 
+À Av. da Siderurgia Nacional 
+4745-457 S. Mamede do Coronado 
+Portugal<br />
+tlf.: +351 22 986 61 fax: +351 22 986 61 e-mail: info@bial.com </p>
+<p>Denne indlægsseddel blev senest ændret { MM/ÅÅÅÅ } </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Ontilyv 50 mg hårde kapsler 
+opicapon </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den indeholder 
+vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
+nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0870b0eb502814c6dc60255f3d34d5b4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ontilyv Package Leaflet for language en"
+Description: "ePI document Bundle for ontilyv Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0870b0eb502814c6dc60255f3d34d5b4"
+* entry[0].resource = composition-en-0870b0eb502814c6dc60255f3d34d5b4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0870b0eb502814c6dc60255f3d34d5b4"
+* entry[=].resource = mp0870b0eb502814c6dc60255f3d34d5b4
+                            
+                    
+Instance: bundlepackageleaflet-da-0870b0eb502814c6dc60255f3d34d5b4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ontilyv Package Leaflet for language da"
+Description: "ePI document Bundle for ontilyv Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0870b0eb502814c6dc60255f3d34d5b4"
+* entry[0].resource = composition-da-0870b0eb502814c6dc60255f3d34d5b4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0870b0eb502814c6dc60255f3d34d5b4"
+* entry[=].resource = mp0870b0eb502814c6dc60255f3d34d5b4
+                            
+                    
+
+
+
+Instance: mp0870b0eb502814c6dc60255f3d34d5b4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ontilyv 25 mg hard capsules"
-Description: "Ontilyv 25 mg hard capsules"
+Title: "Medicinal Product ontilyv"
+Description: "ontilyv"
 Usage: #inline
 
  
@@ -310,7 +666,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ontilyv 25 mg hard capsules"
+  * productName = "ontilyv"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -337,29 +693,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0870b0eb502814c6dc60255f3d34d5b4
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ontilyv Package Leaflet for language en"
-Description: "ePI document Bundle for ontilyv Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0870b0eb502814c6dc60255f3d34d5b4ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1578/001-010"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ontilyv"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0870b0eb502814c6dc60255f3d34d5b4"
-* entry[0].resource = composition-en-0870b0eb502814c6dc60255f3d34d5b4
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpfd443e0cc5b54408b1cb7cb4dfc3d785"
-* entry[=].resource = mpfd443e0cc5b54408b1cb7cb4dfc3d785
-                            
-                      
+* title = "List of all ePIs associated with ontilyv"
+
+* subject = Reference(mpfd443e0cc5b54408b1cb7cb4dfc3d785)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ontilyv "ontilyv"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0870b0eb502814c6dc60255f3d34d5b4) // ontilyv en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0870b0eb502814c6dc60255f3d34d5b4) // ontilyv da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0870b0eb502814c6dc60255f3d34d5b4
+InstanceOf: List
+
+* insert 0870b0eb502814c6dc60255f3d34d5b4ListRuleset
+    

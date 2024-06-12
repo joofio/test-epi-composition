@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-155f96d6fa2a1acb6bbe985e5b890f92
 InstanceOf: CompositionUvEpi
 Title: "Composition for carvykti Package Leaflet"
@@ -426,12 +429,712 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-155f96d6fa2a1acb6bbe985e5b890f92
+InstanceOf: CompositionUvEpi
+Title: "Composition for carvykti Package Leaflet"
+Description:  "Composition for carvykti Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp35ecec36d40e82f012c9b7786116dbcd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp35ecec36d40e82f012c9b7786116dbcd
+* title = "TEST PURPOSES ONLY - carvykti"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få CARVYKTI
+3. Sådan gives CARVYKTI
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What carvykti is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What carvykti is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+CARVYKTI er en type lægemiddel, som kaldes ”genmodificeret celleterapi”, og som er 
+fremstillet specielt til dig fra dine egne hvide blodlegemer, kaldet T-celler.
+
+CARVYKTI anvendes til at behandle voksne patienter med en knoglemarvskræft, som kaldes 
+myelomatose. Det gives, når mindst én anden behandling ikke har virket.
+Sådan virker CARVYKTI
+
+De hvide blodlegemer, der tages fra dit blod, modificeres på laboratoriet, hvor der indsættes et 
+gen, som gør dem i stand til at danne et protein, der kaldes kimærisk antigenreceptor (CAR).
+
+CAR kan binde til et specifikt protein på overfladen af myelomceller, så dine hvide blodlegemer 
+kan genkende og angribe myelomcellerne.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take carvykti"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take carvykti"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få CARVYKTI
+
+hvis du er allergisk over for et af indholdsstofferne i dette lægemiddel (angivet i pkt. 6).
+
+hvis du er allergisk over for et af indholdsstofferne i de lægemidler, du vil få for at reducere 
+antallet af hvide blodlegemer i dit blod (lymfodepleterende behandling) inden behandlingen
+med CARVYKTI (se også pkt. 3, Sådan gives CARVYKTI).
+Spørg lægen til råds, hvis du tror, at du måske er allergisk.
+44
+Advarsler og forsigtighedsregler
+Fortæl det til lægen, før du får CARVYKTI, hvis du:
+
+har eller har haft problemer med nervesystemet – for eksempel anfald, slagtilfælde, nyligt eller 
+forværret hukommelsestab
+
+har problemer med lungerne, hjertet eller blodtrykket (for højt eller for lavt)
+
+har problemer med leveren eller nyrerne
+
+har tegn eller symptomer på graft-versus-host-sygdom. Dette sker, hvis transplantationscellerne
+angriber din krop, hvilket forårsager symptomer såsom udslæt, kvalme, opkastning, diarré og 
+blodig afføring.
+Tal med lægen, inden du får CARVYKTI, hvis noget af ovenstående passer på dig (eller hvis du er 
+i tvivl).
+Prøver og kontroller
+Inden du får CARVYKTI, vil lægen:
+
+kontrollere niveauet af blodlegemer i dit blod
+
+kontrollere dine lunger, dit hjerte og dit blodtryk
+
+se efter tegn på infektion – hvis du har en infektion, vil den blive behandlet, inden du får 
+CARVYKTI
+
+kontrollere, om din kræft er i forværring
+
+kontrollere, om du har hepatitis B-, hepatitis C- eller hiv-infektion
+
+kontrollere, om du er blevet vaccineret inden for de seneste 6 uger, eller om der er planer om, at 
+du skal vaccineres inden for de næste par måneder.
+Efter behandling med CARVYKTI, vil lægen:
+
+regelmæssigt kontrollere dit blod, da antallet af blodlegemer og andre komponenter i blodet kan 
+falde.
+Fortæl det til lægen med det samme, hvis du får feber, kulderystelser eller andre tegn eller symptomer 
+på en infektion, hvis du føler dig træt eller hvis du får blå mærker eller bløder.
+Vær opmærksom på alvorlige bivirkninger
+Der er alvorlige bivirkninger, som du skal fortælle lægen eller sygeplejersken om med det samme, og 
+som kan medføre at du skal i lægelig behandling med det samme. Se ”Alvorlige bivirkninger” i pkt. 4. Børn og unge
+CARVYKTI må ikke bruges til børn og unge under 18 år, da lægemidlet ikke er blevet undersøgt i 
+denne aldersgruppe, og det ikke vides, om det er sikkert og virker.
+Brug af anden medicin sammen med CARVYKTI
+Fortæl det altid til lægen eller sygeplejersken, før du får CARVYKTI, hvis du tager anden medicin, for 
+nylig har taget anden medicin eller planlægger at tage anden medicin.
+Det er især vigtigt, at du fortæller lægen eller sygeplejersken, hvis du tager:
+
+lægemidler, som svækker immunsystemet, såsom kortikosteroider.
+Disse lægemidler kan forstyrre virkningen af CARVYKTI.
+Brug af vacciner sammen med CARVYKTI
+Du må ikke få visse vacciner, som kaldes levende vacciner:
+
+i de 6 uger op til du skal have det korte behandlingsforløb med kemoterapi (kaldet 
+lymfodepleterende kemoterapi), som skal gøre din krop klar til CARVYKTI-cellerne.
+
+efter behandlingen med CARVYKTI, mens dit immunsystem kommer sig.
+Fortæl det til lægen, hvis du skal vaccineres.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge lægen til råds, før du får dette lægemiddel.
+
+Det skyldes, at man ikke ved, hvordan CARVYKTI påvirker gravide eller ammende kvinder.
+45
+
+CARVYKTI kan skade det ufødte barn eller det ammede barn.
+Hvis du bliver gravid eller har mistanke om, at du er blevet gravid, efter behandlingen med 
+CARVYKTI, skal du fortælle det til lægen med det samme.
+Du skal have taget en graviditetstest, inden behandlingen starter. Du må kun få CARVYKTI, hvis 
+testen viser, at du ikke er gravid.
+Hvis du har fået behandling med CARVYKTI, skal du drøfte eventuelle planer om graviditet i 
+fremtiden med lægen.
+Trafik- og arbejdssikkerhed
+CARVYKTI kan i udtalt grad påvirke din evne til at føre motorkøretøj eller bruge værktøj eller 
+maskiner, da det kan give bivirkninger, som kan:
+
+få dig til at føle dig træt
+
+give dig problemer med at holde balancen og med koordinationsevnen
+
+få dig til at føle dig forvirret, kraftesløs eller svimmel.
+Du må ikke føre motorkøretøj eller bruge værktøj eller maskiner indtil mindst 8 uger efter, at du har 
+fået CARVYKTI, og hvis disse symptomer vender tilbage.
+CARVYKTI indeholder dimethylsulfoxid (DMSO) og kanamycin
+Dette lægemiddel indeholder DMSO (et stof, som bruges til at konservere frosne celler), og det kan 
+indeholde spor af kanamycin (et såkaldt aminoglycosid-antibiotikum), som begge nogle gange kan 
+give allergiske reaktioner. Lægen vil overvåge dig for eventuelle tegn på en allergisk reaktion.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take carvykti"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take carvykti"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil altid få CARVYKTI af en sundhedsperson på et godkendt behandlingscenter.
+Fremstilling af CARVYKTI fra dine egne blodlegemer
+CARVYKTI fremstilles ud fra dine egne hvide blodlegemer. Blodlegemerne bliver indsamlet fra dig, 
+så de kan blive brugt til at fremstille lægemidlet.
+
+Lægen vil tappe noget af dit blod med et kateter (en slange), som anlægges i en af dine blodårer.
+
+Nogle af de hvide blodlegemer separeres fra blodet – resten af dit blod sendes tilbage i kroppen 
+via blodåren. Denne proces kaldes ”leukaferese”.
+
+Processen kan tage 3 til 6 timer og skal måske gentages.
+
+De hvide blodlegemer sendes til fremstillingscenteret, hvor de modificeres for at fremstille 
+CARVYKTI. Denne proces tager ca. 4 uger.
+
+Mens CARVYKTI fremstilles, får du måske andre lægemidler til behandling af myelomatosen. 
+Dette gøres, for at kræften ikke skal blive værre.
+Lægemidler, der gives inden behandlingen med CARVYKTI
+Et par dage inden – Du vil få en behandling, som kaldes ”lymfodepleterende behandling”, for at gøre 
+kroppen klar til at få CARVYKTI. Denne behandling reducerer antallet af hvide blodlegemer i blodet, 
+så de genmodificerede hvide blodlegemer i CARVYKTI kan vokse i antal, når de returneres til din
+krop.
+30 til 60 minutter inden – Du vil måske få andre lægemidler. Disse kan omfatte:
+
+Antihistaminer, som er lægemidler mod en allergisk reaktion – for eksempel diphenhydramin
+
+lægemidler mod feber – for eksempel paracetamol.
+Lægen eller sygeplejersken vil omhyggeligt kontrollere, at den CARVYKTI-behandling, du får, 
+stammer fra dine egne hvide blodlegemer.
+46
+Sådan vil du få CARVYKTI
+CARVYKTI er en engangsbehandling. Du vil ikke få den igen.
+
+Lægen eller sygeplejersken vil give dig CARVYKTI via et drop i en blodåre. Det kaldes en 
+”intravenøs infusion” og varer som regel under 60 minutter.
+CARVYKTI er den genmodificerede udgave af dine hvide blodlegemer.
+
+Den sundhedsperson, der håndterer CARVYKTI, vil træffe passende sikkerhedsforanstaltninger 
+for at forebygge risikoen for overførsel af smitsomme sygdomme.
+
+Vedkommende vil også følge de lokale retningslinjer vedrørende rengøring eller bortskaffelse af 
+materiale, der har været i kontakt med CARVYKTI.
+Når du har fået CARVYKTI
+
+Du skal planlægge at opholde dig i nærheden af det hospital, hvor du blev behandlet, i mindst 
+4 uger efter, at du har fået CARVYKTI.
+-
+Du skal møde på hospitalet hver dag i mindst 14 dage, efter at du har fået CARVYKTI. 
+Dette skyldes, at lægen skal kunne undersøge, om din behandling virker, og behandle dig, 
+hvis du får bivirkninger. Hvis du udvikler alvorlige bivirkninger, skal du måske blive på 
+hospitalet, indtil dine bivirkninger er under kontrol, og det er sikkert for dig at forlade 
+hospitalet.
+-
+Hvis du glemmer en aftale, skal du hurtigst muligt ringe til lægen eller det godkendte 
+behandlingscenter for at aftale en ny tid.
+
+Du vil blive bedt om at indskrive dig i et register i mindst 15 år, så vi kan overvåge dit helbred 
+og få en bedre forståelse af, hvordan CARVYKTI virker på lang sigt.
+
+At du har CARVYKTI i blodet kan betyde, at visse hiv-test på markedet giver et fejlagtigt hiv-
+positivt svar, selvom du er hiv-negativ.
+
+Du må ikke donere blod, organer, væv eller celler til transplantationer, efter at du har fået 
+CARVYKTI.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+CARVYKTI kan give bivirkninger, som kan være alvorlige eller livstruende.
+Alvorlige bivirkninger
+Søg lægehjælp med det samme, hvis du får nogen af følgende alvorlige bivirkninger, som kan være 
+kraftige og kan være dødelige.
+
+En alvorlig immunreaktion kaldet ”cytokinfrigivelsessyndrom (cytokine release syndrome
+(CRS))”. Tegnene kan blandt andet være:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):<em> kulderystelser, feber (38 °C eller højere)</em> hurtige hjerteslag, åndedrætsbesvær<em> lavt blodtryk, som kan få dig til at føle dig svimmel eller ør
+
+Påvirkning af nervesystemet, med symptomer som kan forekomme dage eller uger efter 
+infusionen, og som til at begynde med kan være svage. Nogle af disse symptomer kan være tegn 
+på en alvorlig immunreaktion, som kaldes ”immuneffektorcelle-associeret 
+neurotoksicitetssyndrom” (ICANS), eller tegn og symptomer på parkinsonisme:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):</em> forvirring<em> manglende opmærksomhed, desorientering, angst, hukommelsestab</em> talebesvær eller utydelig tale<em> langsomme bevægelser, ændringer i håndskrift
+47
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):</em> tab af koordinationsevne, hvilket påvirker bevægelser og balanceevne<em> problemer med at læse, skrive og forstå ord</em> personlighedsforandringer, som blandt andet kan være, at du bliver mindre snakkesalig, 
+er uinteresseret i aktiviteter og har en nedsat ansigtsmimik
+
+CARVYKTI kan øge risikoen for livstruende infektioner, som kan medføre døden.
+Hvis du bemærker nogle af ovenstående bivirkninger, skal du søge lægehjælp med det samme.
+Andre bivirkninger
+Andre bivirkninger er anført nedenfor. Fortæl det til lægen eller sygeplejersken, hvis du får nogen af 
+disse bivirkninger.
+Meget almindelige (forekommer hos mere end 1 ud af 10 personer):
+
+infektion i næsen, bihulerne eller svælget (forkølelse)
+
+bakterieinfektion
+
+hoste, åndenød
+
+lungebetændelse (pneumoni)
+
+virusinfektion
+
+hovedpine
+
+søvnbesvær
+
+smerter, herunder muskel- og ledsmerter
+
+hævelser, som skyldes væskeansamlinger i kroppen
+
+udpræget træthed
+
+kvalme, nedsat appetit, forstoppelse, opkastning, diarré
+
+problemer med bevægelser, herunder muskelspasmer, muskelstramhed
+
+nerveskader, som kan medføre en snurrende fornemmelse i huden, smerter eller følelsesløshed
+
+lavt indhold af antistoffer kaldet immunglobuliner i blodet – hvilket kan føre til infektioner
+
+lavt iltindhold i blodet, hvilket giver åndenød, hoste, hovedpine og forvirring
+
+forhøjet blodtryk
+
+blødning, som kan være alvorlig kaldet ”hæmoragi”
+
+unormale blodprøver, som viser:
+-
+et lavt antal hvide blodlegemer (herunder neutrofiler og lymfocytter)
+-
+lavt indhold af ”blodplader” (celler, der hjælper blodet med at størkne) og røde 
+blodlegemer
+-
+lavt indhold i blodet af calcium, natrium, kalium, magnesium, fosfat
+-
+lavt indhold i blodet af ”albumin”, som er en type protein
+-
+blodpropper
+-
+forhøjet indhold i blodet af et protein kaldet ”ferritin”
+-
+forhøjet indhold i blodet af enzymer kaldet ”gammaglutamyltransferase” og 
+”transaminaser”
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+
+lavt antal hvide blodlegemer (neutrofiler), som kan forekomme sammen infektion og feber
+
+gastroenteritis (betændelse i mave og tarme)
+
+mavesmerter
+
+urinvejsinfektion
+
+svampeinfektion
+
+øget antal af en type hvide blodlegemer (lymfocytter)
+
+svær infektion i hele kroppen (blodforgiftning/sepsis)
+
+nyresvigt
+
+unormale hjerteslag
+48
+
+en alvorlig immunreaktion, som involverer blodlegemerne – som kan føre til forstørrelse af 
+leveren og milten, og som kaldes ”hæmofagocytisk lymfohistiocytose”
+
+en alvorlig tilstand, hvor væske siver ud af blodkarrene og ind i kroppens væv, kaldet 
+”kapillærlækagesyndrom”
+
+øget koncentration af enzymer i blodet kaldet ”basisk fosfatase”
+
+sitren i musklerne
+
+let muskelsvaghed på grund af nerveskade
+
+svær forvirring
+
+følelsesløshed i ansigtet, besvær med at bevæge ansigts- og øjenmuskler
+
+forhøjet indhold af ”bilirubin” i blodet
+
+blodpropper
+
+hududslæt
+
+forhøjet indhold af et protein i blodet kaldet C-reaktivt protein, som kan tyde på en infektion 
+eller betændelsestilstand
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):
+
+snurrende fornemmelse, følelsesløshed og smerter i hænder og fødder, gangbesvær, svaghed i 
+ben og/eller arme og vejrtrækningsbesvær
+Fortæl det til lægen eller sygeplejersken, hvis du får nogen af bivirkningerne ovenfor. Du må ikke 
+prøve selv at behandle dine symptomer med andre lægemidler.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store carvykti"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store carvykti"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nedenstående oplysninger er kun til læger.
+Brug ikke lægemidlet efter den udløbsdato, der står på beholderens etiket og infusionsposen efter 
+”EXP”.
+Opbevares nedfrosset i dampfasen af flydende nitrogen (≤ -120 °C), indtil det optøs til brug.
+Må ikke genfryses.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CARVYKTI indeholder:
+Aktivt stof: ciltacabtagene autoleucel.
+Hver infusionspose med CARVYKTI indeholder ciltacabtagene autoleucel celledispersion, der 
+indeholder 3,2 × 106 til 1 × 108 CAR-positive levedygtige T-celler, der er suspenderet i en 
+kryopræserverende opløsning.
+En infusionspose indeholder 30 ml eller 70 ml dispersionsvæske, infusion.
+Øvrige indholdsstoffer: en opløsning (Cryostor CS5), som bruges til at konservere frosne celler (se 
+pkt. 2, CARVYKTI indeholder DMSO og kanamycin).
+Dette lægemiddel indeholder genmodificerede humane celler.
+49
+Udseende og pakningsstørrelser
+CARVYKTI er en farveløs til hvid, herunder nuancer af hvid, gul og lyserød, 30 ml eller 70 ml celle
+infusionsvæske, dispersion, som leveres i enten en 50 ml eller en 250 ml infusionspose, som er 
+individuelt pakket i en kryo-kassette af aluminium.
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Biologics B.V.
+Einsteinweg 101
+2333 CB Leiden
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tel/Tél: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB ”JOHNSON &amp; JOHNSON”
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България” ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel:+356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB ”JOHNSON &amp; JOHNSON” Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen‑Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+50
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB ”JOHNSON &amp; JOHNSON” filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu.</p>
+<hr />
+<p>Nedenstående oplysninger er til sundhedspersoner:
+CARVYKTI må ikke bestråles, da bestråling kan inaktivere lægemidlet.
+Sikkerhedsforanstaltninger, der skal træffes før håndtering eller administration af lægemidlet
+CARVYKTI skal transporteres inden for behandlingsstedet i lukkede, brudsikre og lækagesikre 
+beholdere.
+Dette lægemiddel indeholder humane blodceller. Sundhedspersoner, der håndterer CARVYKTI, skal 
+træffe passende forholdsregler (bære handsker, beskyttelsesdragt og øjenværn) for at undgå potentiel 
+overførsel af infektionssygdomme.
+CARVYKTI skal til enhver tid holdes ved ≤ -120 °C, indtil posens indhold optøs til infusion.
+51
+Klargøring inden administration
+Timingen af optøning og infusion af CARVYKTI skal koordineres. Infusionstidspunktet skal 
+bekræftes på forhånd, og starttidspunktet for optøning skal tilpasses, så CARVYKTI er tilgængeligt til 
+infusion, når patienten er klar. Når lægemidlet er optøet, skal det administreres straks, og infusionen 
+skal være afsluttet efter senest 2,5 time.
+
+Inden klargøring af CARVYKTI skal patientens identitet bekræftes ved at matche patientens 
+identitet med patientidentifikatorerne på CARVYKTI-kryo-kassetten og 
+batchinformationsarket. CARVYKTI-infusionsposen må ikke tages ud af kryo-kassetten, hvis 
+oplysningerne på den patientspecifikke etiket ikke matcher den tilsigtede patient.
+
+Når patientidentifikationen er bekræftet, skal CARVYKTI-infusionsposen tages ud af kryo-
+kassetten.
+
+Infusionsposen skal kontrolleres for eventuelle brud på beholderens integritet, såsom brud eller 
+revner, inden og efter optøning. Produktet må ikke administreres, hvis posen ikke er intakt. Hvis 
+det er tilfældet, skal Janssen-Cilag International NV kontaktes.
+Optøning
+
+Inden optøning skal infusionsposen anbringes i en plastpose, der kan forsegles.
+
+CARVYKTI skal optøs ved 37 °C ± 2 °C vha. enten et vandbad eller en tøroptøningsanordning, 
+indtil der ikke er synlig is i infusionsposen. Den samlede tid fra påbegyndelse af optøning til 
+fuldførelse af optøning må ikke overstige 15 minutter.
+
+Infusionsposen skal tages ud af den forseglede plastpose og aftørres. Infusionsposens indhold 
+skal blandes forsigtigt for at dispergere klumper af cellemateriale. Hvis der stadig er synlige 
+celleklumper, skal posens indhold fortsat blandes forsigtigt. Små klumper af cellemateriale skal 
+dispergeres ved forsigtig, manuel blanding. CARVYKTI må ikke omhældes med filter til en 
+anden beholder, vaskes, centrifugeres og/eller resuspenderes i nyt medie inden infusionen.
+
+Efter optøning må lægemidlet ikke genfryses eller opbevares i køleskab.
+Administration
+
+CARVYKTI er udelukkende til autolog engangsanvendelse.
+
+Det skal sikres, at der er adgang til tocilizumab og nødudstyr inden infusionen og i 
+restitutionsperioden. I det usædvanlige tilfælde, at tocilizumab er utilgængeligt som følge af en 
+forsyningsvanskelighed, der er anført i Det Europæiske Lægemiddelagenturs katalog over 
+forsyningsvanskeligheder, skal det sikres, at velegnede alternative midler til behandling af CRS 
+i stedet for tocilizumab er tilgængelige på stedet.
+
+Bekræft patientens identitet i forhold til patientidentifikatorerne på CARVYKTI-infusionsposen 
+og batchinformationsarket. CARVYKTI må ikke infunderes, hvis oplysningerne på den 
+patientspecifikke etiket ikke matcher den tilsigtede patient.
+
+Når indholdet af CARVYKTI-posen er tøet op, skal hele indholdet administreres som en 
+intravenøs infusion på højst 2,5 timer ved stuetemperatur (20 °C til 25 °C) ved brug af 
+infusionssæt med inline-filter. Infusionen tager som regel under 60 minutter.
+
+Der må IKKE anvendes et leukocytdepleterende filter.
+
+Bland forsigtigt posens indhold under infusion af CARVYKTI for at dispergere celleklumper.
+
+Når hele posens indhold er infunderet, skylles administrationsslangen, inklusive inline-filteret, 
+med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, for at sikre, at hele lægemidlet 
+er blevet indgivet.
+Forholdsregler, der skal træffes i forbindelse med bortskaffelse af lægemidlet
+Ikke anvendt lægemiddel og alt materiale, der har været i kontakt med CARVYKTI (fast og flydende 
+affald), skal håndteres og bortskaffes som potentielt infektiøst affald i overensstemmelse med lokale 
+retningslinjer om håndtering af humant materiale.
+52
+Foranstaltninger, der skal træffes i tilfælde af utilsigtet eksponering
+Ved utilsigtet eksponering skal de lokale retningslinjer for håndtering af humant materiale følges. 
+Arbejdsflader og materialer, som potentielt har været i kontakt med CARVYKTI, skal dekontamineres 
+med passende desinfektionsmiddel.
+53
+BILAG IV
+KONKLUSIONER VEDRØRENDE ANMODNING OM 
+MARKEDSFØRINGSBESKYTTELSE I ET ÅR FREMLAGT AF DET EUROPÆISKE 
+LÆGEMIDDELAGENTUR
+54
+Konklusioner fremlagt af Det Europæiske Lægemiddelagentur vedrørende:
+
+Markedsføringsbeskyttelse i et år
+CHMP gennemgik de oplysninger, som indehaveren af markedsføringstilladelsen havde indsendt, jf. 
+artikel 14, stk. 11, i forordning (EC) nr. 726/2004, og er af den opfattelse, at den nye terapeutiske 
+indikation giver en væsentlig klinisk fordel sammenlignet med eksisterende behandlinger. Dette er 
+nærmere beskrevet i den europæiske offentlige vurderingsrapport.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-155f96d6fa2a1acb6bbe985e5b890f92
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for carvykti Package Leaflet for language en"
+Description: "ePI document Bundle for carvykti Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-155f96d6fa2a1acb6bbe985e5b890f92"
+* entry[0].resource = composition-en-155f96d6fa2a1acb6bbe985e5b890f92
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp155f96d6fa2a1acb6bbe985e5b890f92"
+* entry[=].resource = mp155f96d6fa2a1acb6bbe985e5b890f92
+                            
+                    
+Instance: bundlepackageleaflet-da-155f96d6fa2a1acb6bbe985e5b890f92
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for carvykti Package Leaflet for language da"
+Description: "ePI document Bundle for carvykti Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-155f96d6fa2a1acb6bbe985e5b890f92"
+* entry[0].resource = composition-da-155f96d6fa2a1acb6bbe985e5b890f92
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp155f96d6fa2a1acb6bbe985e5b890f92"
+* entry[=].resource = mp155f96d6fa2a1acb6bbe985e5b890f92
+                            
+                    
+
+
+
+Instance: mp155f96d6fa2a1acb6bbe985e5b890f92
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product CARVYKTI 3.2 × 106 – 1 × 108 cells dispersion for infusion"
-Description: "CARVYKTI 3.2 × 106 – 1 × 108 cells dispersion for infusion"
+Title: "Medicinal Product carvykti"
+Description: "carvykti"
 Usage: #inline
 
  
@@ -451,7 +1154,7 @@ Usage: #inline
 
 
 * name
-  * productName = "CARVYKTI 3.2 × 106 – 1 × 108 cells dispersion for infusion"
+  * productName = "carvykti"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -478,29 +1181,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-155f96d6fa2a1acb6bbe985e5b890f92
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for carvykti Package Leaflet for language en"
-Description: "ePI document Bundle for carvykti Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 155f96d6fa2a1acb6bbe985e5b890f92ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1648/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "carvykti"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-155f96d6fa2a1acb6bbe985e5b890f92"
-* entry[0].resource = composition-en-155f96d6fa2a1acb6bbe985e5b890f92
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp35ecec36d40e82f012c9b7786116dbcd"
-* entry[=].resource = mp35ecec36d40e82f012c9b7786116dbcd
-                            
-                      
+* title = "List of all ePIs associated with carvykti"
+
+* subject = Reference(mp35ecec36d40e82f012c9b7786116dbcd)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#carvykti "carvykti"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-155f96d6fa2a1acb6bbe985e5b890f92) // carvykti en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-155f96d6fa2a1acb6bbe985e5b890f92) // carvykti da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-155f96d6fa2a1acb6bbe985e5b890f92
+InstanceOf: List
+
+* insert 155f96d6fa2a1acb6bbe985e5b890f92ListRuleset
+    

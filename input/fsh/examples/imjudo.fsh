@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-7abe5e4c0a96659ff75905a068c8e8d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for imjudo Package Leaflet"
@@ -437,12 +440,875 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-7abe5e4c0a96659ff75905a068c8e8d2
+InstanceOf: CompositionUvEpi
+Title: "Composition for imjudo Package Leaflet"
+Description:  "Composition for imjudo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6d641aa5ef0fae66233e33e585fa5fd8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6d641aa5ef0fae66233e33e585fa5fd8
+* title = "TEST PURPOSES ONLY - imjudo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at få IMJUDO 
+3. Sådan får du IMJUDO 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What imjudo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What imjudo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMJUDO er et lægemiddel mod kræft. Det indeholder det aktive stof tremelimumab, som er en type 
+lægemiddel, der kaldes et monoklonalt antistof. Dette lægemiddel er udviklet til at genkende et 
+specifikt målrettet stof i kroppen. IMJUDO virker ved at hjælpe dit immunsystem med at bekæmpe 
+din kræftsygdom. </p>
+<p>IMJUDO bruges i kombination med durvalumab til at behandle en type leverkræft, som kaldes 
+fremskredent eller inoperabelt hepatocellulært karcinom (HCC). Det bruges, når dit HCC:  </p>
+<ul>
+<li>
+<p>ikke kan fjernes ved en operation (inoperabelt), og </p>
+</li>
+<li>
+<p>kan have spredt sig inde i din lever eller til andre dele af kroppen. </p>
+</li>
+</ul>
+<p>IMJUDO bruges til at behandle en type lungekræft kaldet fremskreden ikke-småcellet lungekræft hos 
+voksne. Det vil blive brugt sammen med andre lægemidler mod kræft (durvalumab og kemoterapi). </p>
+<p>Da IMJUDO gives i kombination med andre lægemidler mod kræft, er det vigtigt, at du også læser 
+indlægssedlen til disse andre lægemidler. Hvis du har spørgsmål om disse lægemidler, skal du spørge 
+lægen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take imjudo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take imjudo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få IMJUDO 
+hvis du er allergisk over for tremelimumab eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). Tal med lægen, hvis du er i tvivl. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du får IMJUDO, hvis: </p>
+<ul>
+<li>
+<p>du har en autoimmun sygdom (en sygdom, hvor kroppens immunsystem angriber sine egne 
+celler) </p>
+</li>
+<li>
+<p>du har fået en organtransplantation </p>
+</li>
+<li>
+<p>du har problemer med lungerne eller vejrtrækningen </p>
+</li>
+<li>
+<p>du har problemer med leveren. </p>
+</li>
+</ul>
+<p>Tal med lægen, før du får IMJUDO, hvis noget af dette gælder for dig. </p>
+<p>Når du får IMJUDO, kan du få nogle alvorlige bivirkninger. </p>
+<p>Din læge kan give dig anden medicin, der forebygger mere alvorlige komplikationer og som hjælper 
+dig med at mindske symptomerne. Lægen kan udsætte næste dosis IMJUDO eller stoppe behandlingen 
+med IMJUDO. Tal straks med lægen, hvis du får nogen af følgende bivirkninger: </p>
+<ul>
+<li>
+<p>ny eller forværret hoste, kortåndethed, brystsmerter (kan være tegn på betændelsestilstand i 
+lungerne) </p>
+</li>
+<li>
+<p>kvalme eller opkastning, du føler dig mindre sulten, smerter i højre side af maven, gulfarvning 
+af huden eller det hvide i øjnene, døsighed, mørk urin eller at du lettere end normalt får 
+blødninger eller blå mærker (kan være tegn på betændelsestilstand i leveren) </p>
+</li>
+<li>
+<p>diarré eller hyppigere afføring end normalt, sort, tjæret eller klistret afføring med blod eller slim, 
+alvorlige mavesmerter eller ømhed i maven (kan være tegn på betændelsestilstand i tarmen eller 
+hul i tarmen) </p>
+</li>
+<li>
+<p>hurtig hjerterytme, ekstrem træthed, øget vægt eller vægttab, svimmelhed eller besvimelse, 
+hårtab, kuldefornemmelse, forstoppelse, hovedpine, som ikke vil gå væk eller usædvanlige 
+hovedpiner (kan være tegn på kirtler med betændelsestilstand, særligt skjoldbruskkirtlen, 
+binyrer, hypofysen eller bugspytkirtlen) </p>
+</li>
+<li>
+<p>øget sultfornemmelse eller øget tørst i forhold til normalt, hyppigere vandladning end normalt, 
+forhøjet blodsukker, hurtig og dyb vejrtrækning, forvirring, din ånde har en sødlig lugt, en sød 
+eller metallisk smag i munden, eller din urin eller sved lugter anderledes (kan være tegn på 
+sukkersyge (diabetes)) </p>
+</li>
+<li>
+<p>fald i mængden af din urin (kan være tegn på betændelsestilstand i nyrerne) </p>
+</li>
+<li>
+<p>udslæt, kløe, blærer på huden eller sår i munden eller på andre fugtige overflader (kan være tegn 
+på betændelsestilstand i huden) </p>
+</li>
+<li>
+<p>brystsmerter, kortåndethed, uregelmæssigt hjerteslag (kan være tegn på betændelsestilstand i 
+hjertemusklen) </p>
+</li>
+<li>
+<p>muskelsmerter eller svaghed eller hurtig træthed i musklerne (kan være tegn på 
+betændelsestilstand eller andre problemer med musklerne) </p>
+</li>
+<li>
+<p>kulderystelser eller rysten, kløe eller udslæt, rødme, kortåndethed eller hvæsende vejrtrækning, 
+svimmelhed eller feber (kan være tegn på infusionsrelaterede reaktioner) </p>
+</li>
+<li>
+<p>krampeanfald, stivhed i nakken, hovedpine, feber, kulderystelser, opkastning, lysfølsomhed i 
+øjnene, forvirring og søvnighed (kan være tegn på betændelsestilstand i hjernen eller 
+membranen omkring hjernen og rygmarven)  </p>
+</li>
+<li>
+<p>smerter, svaghed og lammelse i hænder, fødder eller arme (kan være tegn på betændelsestilstand 
+i nerverne, Guillain-Barré syndrom) </p>
+</li>
+<li>
+<p>smerter, hævelse og/eller stivhed i leddene (kan være tegn på betændelsestilstand i leddene, 
+immunmedieret artritis) </p>
+</li>
+<li>
+<p>rødt øje, smerter i øjet, lysfølsomhed og/eller ændringer i synet (kan være tegn og symptomer på 
+betændelsestilstand i øjet, uveitis) </p>
+</li>
+<li>
+<p>blødning (fra næsen eller tandkødet) og/eller blå mærker (kan være tegn på lavt antal 
+blodplader). </p>
+</li>
+</ul>
+<p>Tal straks med lægen, hvis du har nogen af de ovenstående symptomer. </p>
+<p>Børn og unge<br />
+IMJUDO må ikke gives til børn og unge under 18 år, da det ikke er undersøgt til disse patienter. </p>
+<p>Brug af andre lægemidler sammen med IMJUDO 
+Fortæl lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller planlægger at 
+tage andre lægemidler. Dette omfatter naturlægemidler og medicin, der er købt uden recept. </p>
+<p>Graviditet og frugtbarhed 
+Dette lægemiddel bør ikke anvendes under graviditeten. Fortæl det til lægen, hvis du er gravid, har 
+mistanke om, at du er gravid, eller planlægger at blive gravid. Hvis du er kvinde og kan blive gravid, 
+skal du bruge effektiv prævention, mens du bliver behandlet med IMJUDO og i mindst 3 måneder 
+efter din sidste dosis. </p>
+<p>Amning 
+Fortæl det til lægen, hvis du ammer. Det vides ikke, om IMJUDO overføres til modermælken. 
+Spørg lægen, om du kan amme under eller efter behandlingen med IMJUDO. Du vil måske blive rådet 
+til ikke at amme under behandlingen og i mindst 3 måneder efter din sidste dosis. </p>
+<p>Trafik- og arbejdssikkerhed 
+IMJUDO vil sandsynligivs ikke påvirke din evne til at føre motorkøretøj eller betjene maskiner. Hvis 
+du får bivirkninger, der påvirker din koncentrations- og reaktionsevne, skal du dog udvise 
+forsigtighed, når du fører motorkøretøj eller betjener maskiner. </p>
+<p>IMJUDO indeholder en lav mængde natrium 
+IMJUDO indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take imjudo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take imjudo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få IMJUDO på et hospital eller en klinik under overvågning af en erfaren læge. Lægen vil give 
+dig IMJUDO som et drop i en blodåre (en infusion), der varer cirka en time.  </p>
+<p>Det bliver givet sammen med durvalumab mod leverkræft.  </p>
+<p>Den anbefalede dosis: </p>
+<ul>
+<li>
+<p>Hvis du vejer 40 kg eller mere, er dosis 300 mg som en enkelt dosis, du skal have én gang. </p>
+</li>
+<li>
+<p>Hvis du vejer mindre end 40 kg, vil dosis være 4 mg pr. kg legemsvægt.  </p>
+</li>
+</ul>
+<p>Når IMJUDO gives i kombination med durvalumab mod din leverkræft, vil du først få IMJUDO og 
+derefter durvalumab.  </p>
+<p>Det bliver givet sammen med durvalumab og kemoterapi mod lungekræft.  </p>
+<p>Den anbefalede dosis:  </p>
+<ul>
+<li>
+<p>Hvis du vejer 34 kg eller mere, er dosis 75 mg hver 3. uge </p>
+</li>
+<li>
+<p>Hvis du vejer mindre end 34 kg, vil dosis være 1 mg pr. kg legemsvægt hver 3. uge  </p>
+</li>
+</ul>
+<p>Du vil normalt få i alt 5 doser IMJUDO. De første 4 doser gives i uge 1, 4, 7 og 10. Den femte dosis 
+gives derefter normalt 6 uger senere, i uge 16. Lægen vil bestemme præcis hvor mange behandlinger, 
+du har brug for. </p>
+<p>Når IMJUDO gives i kombination med durvalumab og kemoterapi, vil du først få IMJUDO, derefter 
+durvalumab og derefter kemoterapi.  </p>
+<p>Hvis du glemmer en aftale 
+Det er meget vigtigt, at du ikke glemmer en dosis af denne medicin. Hvis du glemmer en aftale, skal 
+du straks ringe til din læge og lave en ny aftale. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Når du får IMJUDO kan du få nogle alvorlige bivirkninger. Se punkt 2 for en detaljeret liste over 
+disse bivirkninger.  </p>
+<p>Tal straks med lægen, hvis du får nogle af følgende bivirkninger, som er rapporteret i et klinisk 
+studie med patienter, der fik IMJUDO i kombination med durvalumab. </p>
+<p>Følgende bivirkninger er rapporteret i kliniske studier med patienter, der får IMJUDO i kombination 
+med durvalumab: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>underaktiv skjoldbruskkirtel, hvilket kan medføre træthed og øget vægt </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>unormale leverprøver (forhøjet aspartataminotransferase, forhøjet alaninaminotransferase) </p>
+</li>
+<li>
+<p>hududslæt </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>hævede ben (perifert ødem) </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>infektion i de øvre luftveje </p>
+</li>
+<li>
+<p>lungeinfektion (pneumoni) </p>
+</li>
+<li>
+<p>influenzalignende sygdom </p>
+</li>
+<li>
+<p>infektion i tænder og det bløde væv i munden  </p>
+</li>
+<li>
+<p>overaktiv skjoldbruskkirtel, hvilket kan medføre hurtig puls eller vægttab </p>
+</li>
+<li>
+<p>betændelsestilstand i skjoldbruskkirtlen (thyroiditis) </p>
+</li>
+<li>
+<p>nedsat hormonproduktion fra binyrerne, hvilket kan medføre træthed </p>
+</li>
+<li>
+<p>betændelsestilstand i lungerne (pneumonitis) </p>
+</li>
+<li>
+<p>unormale funktionstest for bugspytkirtlen   </p>
+</li>
+<li>
+<p>betændelsestilstand i mave eller tarm (colitis) </p>
+</li>
+<li>
+<p>betændelsestilstand i bugspytkirtlen (pankreatitis) </p>
+</li>
+<li>
+<p>betændelsestilstand i leveren (hepatitis) </p>
+</li>
+<li>
+<p>betændelsestilstand i huden </p>
+</li>
+<li>
+<p>nattesved  </p>
+</li>
+<li>
+<p>muskelsmerter (myalgi) </p>
+</li>
+<li>
+<p>unormal nyrefunktionstest (forhøjet kreatinin i blodet) </p>
+</li>
+<li>
+<p>smerter, når du lader vandet (dysuri) </p>
+</li>
+<li>
+<p>reaktion på infusion af medicinen, som kan medføre feber eller rødme </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>svampeinfektion i munden </p>
+</li>
+<li>
+<p>underaktiv hypofyse, betændelsestilstand i hypofysen </p>
+</li>
+<li>
+<p>en tilstand, hvor musklerne bliver svage, og hurtig træthed i musklerne (myasthenia gravis) </p>
+</li>
+<li>
+<p>betændelsestilstand i membranen omkring rygmarven og hjernen (meningitis) </p>
+</li>
+<li>
+<p>betændelsestilstand i hjertet (myocarditis) </p>
+</li>
+<li>
+<p>hæs stemme (dysfoni) </p>
+</li>
+<li>
+<p>ardannelse i lungevævet  </p>
+</li>
+<li>
+<p>blærer på huden </p>
+</li>
+<li>
+<p>betændelsestilstand i musklerne (myositis) </p>
+</li>
+<li>
+<p>betændelsestilstand i muskler og blodkar </p>
+</li>
+<li>
+<p>betændelsestilstand i nyrerne (nefritis), hvilket kan mindske mængden af urin </p>
+</li>
+<li>
+<p>betændelsestilstand i leddene (immunmedieret artritis) </p>
+</li>
+</ul>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1 000 personer) 
+• betændelsestilstand i øjet (uveitis) </p>
+<p>Andre bivirkninger, der er rapporteret med ikke kendt hyppighed (kan ikke estimeres ud fra 
+forhåndenværende data) </p>
+<ul>
+<li>
+<p>lavt antal blodplader med tegn på overdreven blødning og blå mærker (immuntrombocytopeni) </p>
+</li>
+<li>
+<p>diabetes insipidus </p>
+</li>
+<li>
+<p>type 1-diabetes mellitus </p>
+</li>
+<li>
+<p>betændelsestilstand i nerverne (Guillain-Barré syndrom) </p>
+</li>
+<li>
+<p>betændelsestilstand i hjernen (encefalitis) </p>
+</li>
+<li>
+<p>hul i tarmen (intestinal perforation) </p>
+</li>
+<li>
+<p>betændelsestilstand i urinblæren (cystitis). Tegn og symptomer kan omfatte hyppig og/eller 
+smertefuld vandladning, trang til vandladning, blod i urinen, smerter eller trykken i nedre del af 
+maven. </p>
+</li>
+</ul>
+<p>De følgende bivirkninger er rapporteret i et klinisk studie med patienter, der fik IMJUDO i 
+kombination med durvalumab og platinbaseret kemoterapi: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>infektioner i de øvre luftveje </p>
+</li>
+<li>
+<p>lungeinfektion (pneumoni) </p>
+</li>
+<li>
+<p>lavt antal røde blodlegemer </p>
+</li>
+<li>
+<p>lavt antal hvide blodlegemer </p>
+</li>
+<li>
+<p>lavt antal blodplader </p>
+</li>
+<li>
+<p>underaktiv skjoldbruskkirtel, hvilket kan medføre træthed og øget vægt </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>unormale leverprøver (forhøjet aspart-ataminotransferase, forhøjet alanin-aminotransferase) </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>hududslæt </p>
+</li>
+<li>
+<p>kløe  </p>
+</li>
+<li>
+<p>ledsmerter (artralgi) </p>
+</li>
+<li>
+<p>træthed eller svaghed </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>influenzalignende sygdom </p>
+</li>
+<li>
+<p>svampeinfektion i munden </p>
+</li>
+<li>
+<p>lavt antal hvide blodlegemer med tegn på feber </p>
+</li>
+<li>
+<p>lavt antal røde blodlegemer, hvide blodlegemer og blodplader (pancytopeni) </p>
+</li>
+<li>
+<p>overaktiv skjoldbruskkirtel, der kan medføre hurtig puls eller vægttab </p>
+</li>
+<li>
+<p>nedsat hormonproduktion fra binyrerne, hvilket kan medføre træthed </p>
+</li>
+<li>
+<p>underaktiv hypofyse, betændelse i hypofysen </p>
+</li>
+<li>
+<p>betændelsestilstand i skjoldbruskkirtlen (thyroiditis) </p>
+</li>
+<li>
+<p>betændelsestilstand i nerverne, der forårsager følelsesløshed, svaghed, snurren eller brændende 
+smerte i arme og ben (perifer neuropati) </p>
+</li>
+<li>
+<p>betændelsestilstand i lungerne (pneumonitis) </p>
+</li>
+<li>
+<p>hæs stemme (dysfoni) </p>
+</li>
+<li>
+<p>betændelsestilstand i mund eller læber </p>
+</li>
+<li>
+<p>unormale funktionsprøver af bugspytkirtlen </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>betændelsestilstand i mave eller tarm (colitis) </p>
+</li>
+<li>
+<p>betændelsestilstand i bugspytkirtlen (pankreatitis) </p>
+</li>
+<li>
+<p>betændelsestilstand i leveren, hvilket kan medføre kvalme eller at du føler dig mindre sulten 
+(hepatitis) </p>
+</li>
+<li>
+<p>muskelsmerter (myalgi) </p>
+</li>
+<li>
+<p>unormale nyrefunktionsprøver (forhøjet kreatinin i blodet) </p>
+</li>
+<li>
+<p>smerter, når du lader vandet (dysuri) </p>
+</li>
+<li>
+<p>hævede ben (perifere ødemer) </p>
+</li>
+<li>
+<p>reaktion på infusion af lægemidlet, som kan medføre feber eller rødme </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>infektioner i tænder og det bløde væv i munden </p>
+</li>
+<li>
+<p>lavt antal blodplader med tegn på overdreven blødning og blå mærker (immuntrombocytopeni) </p>
+</li>
+<li>
+<p>diabetes insipidus </p>
+</li>
+<li>
+<p>type 1-diabetes mellitus </p>
+</li>
+<li>
+<p>betændelsestilstand i hjernen (encefalitis) </p>
+</li>
+<li>
+<p>betændelsestilstand i hjertet (myocarditis) </p>
+</li>
+<li>
+<p>ardannelse i lungevævet </p>
+</li>
+<li>
+<p>blærer på huden </p>
+</li>
+<li>
+<p>nattesved </p>
+</li>
+<li>
+<p>betændelsestilstand i huden </p>
+</li>
+<li>
+<p>betændelsestilstand i musklerne (myositis) </p>
+</li>
+<li>
+<p>betændelsestilstand i muskler og blodkar </p>
+</li>
+<li>
+<p>betændelsestilstand i nyrerne (nefritis), hvilket kan mindske mængden af din urin </p>
+</li>
+<li>
+<p>betændelsestilstand i urinblæren (cystitis). Tegn og symptomer kan omfatte hyppig og/eller 
+smertefuld vandladning, trang til vandladning, blod i urinen, smerter eller trykken i nedre del af 
+maven. </p>
+</li>
+<li>
+<p>betændelse i øjet (uveitis) </p>
+</li>
+<li>
+<p>betændelsestilstand i leddene (immunmedieret artritis) </p>
+</li>
+</ul>
+<p>Andre bivirkninger, der er rapporteret med ikke kendt hyppighed (kan ikke estimeres ud fra 
+forhåndenværende data) </p>
+<ul>
+<li>
+<p>en tilstand, hvor musklerne bliver svage og hurtig træthed i musklerne (myasthenia gravis) </p>
+</li>
+<li>
+<p>betændelsestilstand i nerverne (Guillain-Barré syndrom) </p>
+</li>
+<li>
+<p>betændelsestilstand i membranen omkring rygmarven og hjernen (meningitis) </p>
+</li>
+<li>
+<p>hul i tarmen (perforering af tarmen) </p>
+</li>
+</ul>
+<p>Tal straks med lægen, hvis du får nogen af ovenstående bivirkninger. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som ikke er 
+medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
+Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere 
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store imjudo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store imjudo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få IMJUDO på et hospital eller en klinik, og en sundhedsperson er ansvarlig for opbevaringen. </p>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglassets etiket efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). 
+Må ikke nedfryses.<br />
+Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Brug ikke lægemidlet, hvis det er uklart, misfarvet eller indeholder synlige partikler. </p>
+<p>Eventuelt ubrugte mængder af infusionsopløsningen må ikke opbevares til genbrug. Ikke anvendt 
+lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMJUDO indeholder:</p>
+<ul>
+<li>Aktivt stof: tremelimumab 
+Hver ml koncentrat til infusionsvæske, opløsning indeholder 20 mg tremelimumab. </li>
+</ul>
+<p>Ét hætteglas indeholder enten 300 mg tremelimumab i 15 ml koncentrat eller 25 mg tremelimumab i 
+1,25 ml koncentrat. </p>
+<ul>
+<li>Øvrige indholdsstoffer: histidin, histidinhydrochloridmonohydrat, trehalosedihydrat, 
+dinatriumedetatdihydrat (se punkt 2 “ IMJUDO indeholder en lav mængde natrium"), 
+polysorbat 80 og vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+IMJUDO koncentrat til infusionsvæske, opløsning (sterilt koncentrat) er en opløsning uden 
+konserveringsmidler, som er klar til let opaliserende, farveløs til svagt gul og fri fra synlige partikler. </p>
+<p>Det fås i pakninger indeholdende enten 1 hætteglas af glas med 1,25 ml koncentrat eller 1 hætteglas af 
+glas med 15 ml koncentrat. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+AstraZeneca AB 
+SE-151 85 Södertälje 
+Sverige </p>
+<p>Fremstiller 
+AstraZeneca AB 
+Gärtunavägen 
+SE-152 57 Södertälje 
+Sverige </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+AstraZeneca S.A./N.V. 
+Tel: +32 2 370 48<br />
+Lietuva 
+UAB AstraZeneca Lietuva 
+Tel: +370 5 2660 
+България 
+АстраЗенека България ЕООД 
+Тел.: +359 24455 
+Luxembourg/Luxemburg 
+AstraZeneca S.A./N.V. 
+Tél/Tel: +32 2 370 48<br />
+Česká republika 
+AstraZeneca Czech Republic s.r.o. 
+Tel: +420 222 807<br />
+Magyarország 
+AstraZeneca Kft. 
+Tel.: +36 1 883 6 
+Danmark 
+AstraZeneca A/S 
+Tlf: +45 43 66 64<br />
+Malta 
+Associated Drug Co. Ltd 
+Tel: +356 2277 8 
+Deutschland 
+AstraZeneca GmbH 
+Tel: +49 40 809034 
+Nederland 
+AstraZeneca BV 
+Tel: +31 85 808 9<br />
+Eesti 
+AstraZeneca<br />
+Tel: +372 6549<br />
+Norge 
+AstraZeneca AS 
+Tlf: +47 21 00 64<br />
+Ελλάδα 
+AstraZeneca A.E. 
+Τηλ: +30 210 6871 
+Österreich 
+AstraZeneca Österreich GmbH 
+Tel: +43 1 711 31 0 </p>
+<p>España 
+AstraZeneca Farmacéutica Spain, S.A. 
+Tel: +34 91 301 91<br />
+Polska 
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel.: +48 22 245 73<br />
+France 
+AstraZeneca 
+Tél: +33 1 41 29 40<br />
+Portugal 
+AstraZeneca Produtos Farmacêuticos, Lda. 
+Tel: +351 21 434 61<br />
+Hrvatska 
+AstraZeneca d.o.o. 
+Tel: +385 1 4628<br />
+România 
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60<br />
+Ireland 
+AstraZeneca Pharmaceuticals (Ireland) 
+DAC 
+Tel: +353 1609 7 
+Slovenija 
+AstraZeneca UK Limited 
+Tel: +386 1 51 35<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7777  </p>
+<p>Italia 
+AstraZeneca S.p.A. 
+Tel: +39 02 00704 
+Suomi/Finland 
+AstraZeneca Oy 
+Puh/Tel: +358 10 23<br />
+Κύπρος 
+Αλέκτωρ Φαρµακευτική Λτδ 
+Τηλ: +357 22490 
+Sverige 
+AstraZeneca AB 
+Tel: +46 8 553 26<br />
+Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377 
+United Kingdom (Northern Ireland) 
+AstraZeneca UK Ltd 
+Tel: +44 1582 836  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>------------------------------------------------------------------------------------------------------------------------ Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Klargøring og administration af infusionen: </p>
+<ul>
+<li>
+<p>Parenterale lægemidler skal inspiceres visuelt for partikler og misfarvning inden administration. 
+Koncentratet er en klar til opaliserende, farveløs til svagt gul opløsning, der er fri for synlige 
+partikler. Kassér hætteglasset, hvis opløsningen er uklar, misfarvet eller der observeres synlige 
+partikler. </p>
+</li>
+<li>
+<p>Hætteglasset må ikke omrystes. </p>
+</li>
+<li>
+<p>Træk den nødvendige mængde koncentrat ud af hætteglasset/hætteglassene, og overfør den til 
+en infusionspose, der indeholder natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, 
+eller glucose 50 mg/ml (5 %) injektionsvæske, opløsning, så der klargøres en fortyndet 
+opløsning med en endelig koncentration inden for intervallet 0,1 til 10 mg/ml. Bland den 
+fortyndede opløsning ved at vende den forsigtigt. </p>
+</li>
+<li>
+<p>Brug lægemidlet straks efter fortynding. Den fortyndede opløsning må ikke nedfryses. Hvis den 
+ikke anvendes straks, må den samlede tid fra perforering af hætteglasset til start af 
+administration ikke overstige 24 timer ved 2 ºC til 8 ºC eller 12 timer ved stuetemperatur (op til 
+25 ºC). Hvis infusionsposerne sættes i køleskab, skal de opnå stuetemperatur inden brug. 
+Infusionsopløsningen administreres intravenøst i løbet af 1 time med et sterilt, 
+lavproteinsbindende filter i slangen på 0,2 eller 0,22 mikron. </p>
+</li>
+<li>
+<p>Må ikke administreres samtidig med andre lægemidler gennem samme infusionsslange. </p>
+</li>
+<li>
+<p>IMJUDO er en engangsdosis. Eventuelt ubrugt medicin, der er tilbage i hætteglasset, skal 
+kasseres. </p>
+</li>
+</ul>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-7abe5e4c0a96659ff75905a068c8e8d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imjudo Package Leaflet for language en"
+Description: "ePI document Bundle for imjudo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7abe5e4c0a96659ff75905a068c8e8d2"
+* entry[0].resource = composition-en-7abe5e4c0a96659ff75905a068c8e8d2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7abe5e4c0a96659ff75905a068c8e8d2"
+* entry[=].resource = mp7abe5e4c0a96659ff75905a068c8e8d2
+                            
+                    
+Instance: bundlepackageleaflet-da-7abe5e4c0a96659ff75905a068c8e8d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imjudo Package Leaflet for language da"
+Description: "ePI document Bundle for imjudo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-7abe5e4c0a96659ff75905a068c8e8d2"
+* entry[0].resource = composition-da-7abe5e4c0a96659ff75905a068c8e8d2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7abe5e4c0a96659ff75905a068c8e8d2"
+* entry[=].resource = mp7abe5e4c0a96659ff75905a068c8e8d2
+                            
+                    
+
+
+
+Instance: mp7abe5e4c0a96659ff75905a068c8e8d2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product IMJUDO 20 mg/ml concentrate for solution for infusion."
-Description: "IMJUDO 20 mg/ml concentrate for solution for infusion."
+Title: "Medicinal Product imjudo"
+Description: "imjudo"
 Usage: #inline
 
  
@@ -462,7 +1328,7 @@ Usage: #inline
 
 
 * name
-  * productName = "IMJUDO 20 mg/ml concentrate for solution for infusion."
+  * productName = "imjudo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -489,29 +1355,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-7abe5e4c0a96659ff75905a068c8e8d2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for imjudo Package Leaflet for language en"
-Description: "ePI document Bundle for imjudo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 7abe5e4c0a96659ff75905a068c8e8d2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1713/001 25 mg vial"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "imjudo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-7abe5e4c0a96659ff75905a068c8e8d2"
-* entry[0].resource = composition-en-7abe5e4c0a96659ff75905a068c8e8d2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6d641aa5ef0fae66233e33e585fa5fd8"
-* entry[=].resource = mp6d641aa5ef0fae66233e33e585fa5fd8
-                            
-                      
+* title = "List of all ePIs associated with imjudo"
+
+* subject = Reference(mp6d641aa5ef0fae66233e33e585fa5fd8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#imjudo "imjudo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-7abe5e4c0a96659ff75905a068c8e8d2) // imjudo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-7abe5e4c0a96659ff75905a068c8e8d2) // imjudo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-7abe5e4c0a96659ff75905a068c8e8d2
+InstanceOf: List
+
+* insert 7abe5e4c0a96659ff75905a068c8e8d2ListRuleset
+    

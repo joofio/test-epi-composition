@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-7f1553dfd98eb10665faba03861da449
 InstanceOf: CompositionUvEpi
 Title: "Composition for kapruvia Package Leaflet"
@@ -215,12 +218,321 @@ France </p>
 
 
 
+Instance: composition-da-7f1553dfd98eb10665faba03861da449
+InstanceOf: CompositionUvEpi
+Title: "Composition for kapruvia Package Leaflet"
+Description:  "Composition for kapruvia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp12daf8f8b645c2d494f4f8a7df1cb6e4)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp12daf8f8b645c2d494f4f8a7df1cb6e4
+* title = "TEST PURPOSES ONLY - kapruvia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Kapruvia </li>
+<li>Sådan skal du bruge Kapruvia </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What kapruvia is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What kapruvia is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kapruvia indeholder det aktive stof difelikefalin. Det bruges til at behandle kløe hos voksne med 
+kronisk nyresygdom, som har behov for dialyse til at få renset blodet. </p>
+<p>Kapruvia virker på steder i kroppen, som kaldes kappa-opioidreceptorer, som medvirker til at 
+kontrollere opfattelsen af kløe. Ved at stimulere disse receptorer på nerver og immunceller uden for 
+hjernen, lindrer Kapruvia følelsen af kløe, som skyldes kronisk nyresygdom. Det aktive stof, 
+difelikefalin, passerer ikke blod-hjerne-barrieren (den naturlige beskyttende barriere mellem 
+blodkarrene og hjernen), hvilket mindsker risikoen for bivirkninger. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take kapruvia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take kapruvia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Kapruvia </p>
+<ul>
+<li>hvis du er allergisk over for difelikefalin eller et af de øvrige indholdsstoffer i Kapruvia (angivet 
+i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller sygeplejersken, før du får Kapruvia, hvis du: </p>
+<ul>
+<li>
+<p>har et forøget kalium-niveau i blodet </p>
+</li>
+<li>
+<p>har eller har haft hjertesvigt eller en hjerterytmeforstyrrelse </p>
+</li>
+<li>
+<p>har nedsat funktion af blod-hjerne-barrieren, (som f.eks. kræft i hjernen eller 
+centralnervesystemet eller en sygdom i centralnervesystemet som multipel sklerose eller 
+demens), da det kan øge risikoen for bivirkninger. </p>
+</li>
+<li>
+<p>Er 65 år eller ældre, da du i så fald har større sandsynlighed for at blive døsig af medicinen </p>
+</li>
+</ul>
+<h2>* bruger lægemidler, som kan øge risikoen for døsighed eller svimmelhed som f.eks.:</h2>
+<p>lægemidler, der giver langsommere hjerneaktivitet, f.eks. lægemidler, der hjælper mod 
+søvnforstyrrelser og angst 
+- 
+lægemidler til behandling af allergi, forkølelse, kvalme og/eller opkastning, som kaldes 
+sederende (sløvende) antihistaminer 
+- 
+stærke smertestillende midler, kaldet opioide analgetika 
+Tal med lægen, hvis du tager nogle af disse lægemidler. </p>
+<p>Børn og unge 
+Kapruvia anbefales ikke til børn under 18 år, da det ikke er undersøgt i denne patientgruppe. </p>
+<p>Brug af anden medicin sammen med Kapruvia 
+Fortæl lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller planlægger at 
+bruge anden medicin. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får Kapruvia. </p>
+<p>Kapruvia er ikke undersøgt hos gravide kvinder. Det vides ikke, om Kapruvia kan skade det ufødte 
+barn. Din læge vil tale med dig om, hvorvidt du må bruge Kapruvia under graviditeten. </p>
+<p>Det vides ikke, om difelikefalin kan blive udskilt i brystmælk. Hvis du ammer, vil din læge rådgive 
+dig om, hvorvidt du skal holde op med at amme eller med at bruge Kapruvia, idet han eller hun afvejer 
+fordele og ulemper ved Kapruvia for barnet og dig, moderen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Kapruvia kan give døsighed og svimmelhed, som kan påvirke din reaktionsevne. Lad være med at 
+køre bil eller betjene maskiner, hvis din reaktionsevne er nedsat, eller hvis du ikke kender Kapruvias 
+virkning på din reaktionsevne. </p>
+<p>Kapruvia indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take kapruvia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take kapruvia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen vil finde frem til den rigtige dosis af Kapruvia til dig ud fra din kropsvægt. Lægemidlet vil 
+blive givet som en indsprøjtning i en vene af en læge eller sygeplejerske, når din dialysebehandling er 
+slut, via den slange, som forbinder dig med dialysemaskinen. </p>
+<p>Kapruvia vil blive givet 3 gange om ugen. Det stiger til 4 gange om ugen, hvis du skal have en fjerde 
+dialysebehandling. Der må højst gives 4 doser i løbet af en uge, selvom du får mere end 
+4 dialysebehandlinger. </p>
+<p>Hvis en dialysebehandling ikke afsluttes, vil din læge beslutte, om det er bedst for dig at få Kapruvia 
+efter den uafsluttede dialysebehandling eller vente til den næste dialysebehandling. 
+Hvis en dialysebehandling springes over, vil du få den samme dosis Kapruvia ved den næste 
+dialysebehandling. </p>
+<p>Kløen forventes at mindskes efter 2-3 ugers behandling med Kapruvia. </p>
+<p>Patienter med nedsat leverfunktion 
+Dosisreduktion er ikke nødvendig hos patienter med mild eller moderat nedsat leverfunktion. Kapruvia 
+anbefales ikke til patienter med svært nedsat leverfunktion, da det ikke er undersøgt i denne 
+patientgruppe. </p>
+<p>Hvis du har fået for meget Kapruvia 
+Dette øger forekomsten af de bivirkninger, som er angivet i punkt 4. Informer lægen, hvis du mener, at 
+det gælder for dig. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Følgende bivirkninger er rapporteret hos patienter, der får dette lægemiddel: </p>
+<p>Almindelige kan forekomme hos op til 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>døsighed </p>
+</li>
+<li>
+<p>føleforstyrrelse i huden som stikkende, prikkende eller brændende fornemmelse eller 
+følelsesløshed, nedsat følelse eller følsomhed </p>
+</li>
+</ul>
+<p>Ikke almindelige kan forekomme hos op til 1 ud af 100 personer: </p>
+<ul>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>ændringer i mental status (vågenhed og evne til at tænke klart), inkl. forvirring </p>
+</li>
+<li>
+<p>kvalme, opkastning </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store kapruvia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store kapruvia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kapruvia indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: difelikefalin. 
+Hvert hætteglas indeholder 50 mikrogram difelikefalin (som acetat) i 1.0 ml opløsning. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: eddikesyre (til regulering af pH), natriumacetattrihydrat (til regulering 
+af pH), natriumchlorid, vand til injektionsvæske. Se punkt 2 “Kapruvia indeholder natrium". </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Kapruvia er en klar, farveløs opløsning og fri for partikler (pH 4.5). Det leveres i hætteglas af glas med 
+gummiprop, aluminiumsforsegling og blå flip-off-plastikhætte. </p>
+<p>Pakningsstørrelser med 3 og 12 hætteglas. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Vifor Fresenius Medical Care Renal Pharma France 
+100-101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris La Défense Cedex 
+Frankrig </p>
+<p>Fremstiller 
+Vifor France 
+100-101 Terrasse Boieldieu 
+Tour Franklin La Défense 8 
+92042 Paris La Défense Cedex 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-7f1553dfd98eb10665faba03861da449
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kapruvia Package Leaflet for language en"
+Description: "ePI document Bundle for kapruvia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7f1553dfd98eb10665faba03861da449"
+* entry[0].resource = composition-en-7f1553dfd98eb10665faba03861da449
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7f1553dfd98eb10665faba03861da449"
+* entry[=].resource = mp7f1553dfd98eb10665faba03861da449
+                            
+                    
+Instance: bundlepackageleaflet-da-7f1553dfd98eb10665faba03861da449
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kapruvia Package Leaflet for language da"
+Description: "ePI document Bundle for kapruvia Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-7f1553dfd98eb10665faba03861da449"
+* entry[0].resource = composition-da-7f1553dfd98eb10665faba03861da449
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7f1553dfd98eb10665faba03861da449"
+* entry[=].resource = mp7f1553dfd98eb10665faba03861da449
+                            
+                    
+
+
+
+Instance: mp7f1553dfd98eb10665faba03861da449
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Kapruvia 50 micrograms/mL solution for injection"
-Description: "Kapruvia 50 micrograms/mL solution for injection"
+Title: "Medicinal Product kapruvia"
+Description: "kapruvia"
 Usage: #inline
 
  
@@ -240,7 +552,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Kapruvia 50 micrograms/mL solution for injection"
+  * productName = "kapruvia"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -267,29 +579,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-7f1553dfd98eb10665faba03861da449
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for kapruvia Package Leaflet for language en"
-Description: "ePI document Bundle for kapruvia Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 7f1553dfd98eb10665faba03861da449ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1643/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "kapruvia"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-7f1553dfd98eb10665faba03861da449"
-* entry[0].resource = composition-en-7f1553dfd98eb10665faba03861da449
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp12daf8f8b645c2d494f4f8a7df1cb6e4"
-* entry[=].resource = mp12daf8f8b645c2d494f4f8a7df1cb6e4
-                            
-                      
+* title = "List of all ePIs associated with kapruvia"
+
+* subject = Reference(mp12daf8f8b645c2d494f4f8a7df1cb6e4)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#kapruvia "kapruvia"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-7f1553dfd98eb10665faba03861da449) // kapruvia en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-7f1553dfd98eb10665faba03861da449) // kapruvia da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-7f1553dfd98eb10665faba03861da449
+InstanceOf: List
+
+* insert 7f1553dfd98eb10665faba03861da449ListRuleset
+    

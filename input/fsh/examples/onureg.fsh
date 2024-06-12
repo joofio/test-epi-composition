@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6b7b5522c872887b5587c6d7e9f380f6
 InstanceOf: CompositionUvEpi
 Title: "Composition for onureg Package Leaflet"
@@ -266,12 +269,425 @@ Netherlands </p>
 
 
 
+Instance: composition-da-6b7b5522c872887b5587c6d7e9f380f6
+InstanceOf: CompositionUvEpi
+Title: "Composition for onureg Package Leaflet"
+Description:  "Composition for onureg Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp65bcd7c363d32166b38a173064f1b270)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp65bcd7c363d32166b38a173064f1b270
+* title = "TEST PURPOSES ONLY - onureg"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Onureg 
+3. Sådan skal du tage Onureg 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What onureg is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What onureg is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Onureg er et lægemiddel mod kræft, der tilhører en gruppe lægemidler, der kaldes ’antimetabolitter’.<br />
+Onureg indeholder det aktive stof ’azacitidin’. </p>
+<p>Anvendelse 
+Onureg anvendes til voksne med akut myeloid leukæmi (AML). Det er en form for kræft, der påvirker 
+knoglemarven - og som kan forårsage problemer med den normale produktion af blodlegemer. </p>
+<p>Onureg anvendes til at holde sygdommen i kontrol (remission, hvor sygdommen er mindre alvorlig 
+eller ikke aktiv). </p>
+<p>Sådan virker Onureg 
+Onureg virker ved at forhindre kræftcellernes vækst. Azacitidin, den aktive ingrediens i Onureg, virker 
+ved at ændre den måde, cellerne tænder og slukker for generne på, samt ved at påvirke produktionen 
+af nyt genetisk materiale (RNA og DNA). Disse virkninger menes at blokere kræftcellernes vækst ved 
+leukæmi. </p>
+<p>Kontakt lægen eller sygeplejersken, hvis du har spørgsmål om Onuregs virkning eller hvorfor du har 
+fået ordineret dette lægemiddel. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take onureg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take onureg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Onureg </p>
+<ul>
+<li>hvis du er allergisk over for azacitidin eller et af de øvrige indholdsstoffer i dette lægemiddel 
+angivet i afsnit 6. * hvis du ammer. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Blodprøver 
+Du vil få taget blodprøver, inden du påbegynder behandlingen med Onureg - og under behandlingen 
+med Onureg for at kontrollere, at du har nok blodlegemer, og at din lever og dine nyrer fungerer 
+korrekt. Din læge vil vurdere hvor ofte du skal have taget blodprøver. </p>
+<p>Kontakt straks lægen, apotekspersonalet eller sygeplejersken, hvis du får nogle af disse symptomer 
+under behandlingen med Onureg: </p>
+<ul>
+<li>
+<p>blå mærker eller blødning - dette kan skyldes et lavt antal blodlegemer kaldet "blodplader". </p>
+</li>
+<li>
+<p>feber - dette kan skyldes en infektion, som følge af at have et lavt niveau af hvide 
+blodlegemer, hvilket kan være livstruende. </p>
+</li>
+<li>
+<p>diarré, opkastning eller kvalme (føler dig syg). </p>
+</li>
+</ul>
+<p>Det kan være nødvendigt for din læge at ændre i doseringen, afbryde behandlingen eller stoppe 
+behandlingen med Onureg fuldstændigt. Din læge kan udskrive andre lægemidler, som hjælper på 
+disse symptomer. </p>
+<p>Børn og unge<br />
+Onureg bør ikke anvendes til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Onureg 
+Fortæl altid lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at 
+tage anden medicin. Dette er fordi, at Onureg kan påvirke måde som anden medicin virker på. Anden 
+medicin kan også påvirke måden som Onureg virker på. </p>
+<p>Graviditet, prævention og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. Mænd bør ikke blive far under behandling 
+med Onureg. </p>
+<p>Graviditet 
+Du må ikke tage Onureg under graviditet, da det kan være skadeligt for fosteret. Fortæl det straks til 
+din læge, hvis du bliver gravid under behandlingen. </p>
+<p>Prævention 
+Hvis du er kvinde, som kan blive gravid, skal du bruge en sikker præventionsmetode under behandling 
+med Onureg og  i op til 6 måneder efter behandlingen med Onureg er stoppet. Mænd skal bruge en 
+sikker præventionsmetode under behandling med Onureg og i op til 3 måneder efter behandlingen med 
+Onureg er stoppet. </p>
+<p>Din læge vil snakke med dig om den bedst egnede præventionsmetode for dig at bruge. </p>
+<p>Amning 
+Du må ikke amme, mens du tager Onureg, da det kan skade dit barn. </p>
+<p>Frugtbarhed 
+Onureg kan påvirke din evne til at få børn. Tal med din læge om det, før du tager det. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan føle dig træt, svag eller have problemer med at koncentrere dig. Hvis du oplever dette eller du 
+har andre bivirkninger, skal du ikke føre motorkøretøj eller betjene værktøj eller maskiner. </p>
+<p>Onureg indeholder lactose<br />
+Onureg indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at 
+du ikke tåler visse sukkerarter. </p>
+<p>Onureg indeholder natrium<br />
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take onureg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take onureg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Så meget skal du tage </p>
+<ul>
+<li>
+<p>Den anbefalede dosis er 300 mg taget gennem munden én gang dagligt. </p>
+</li>
+<li>
+<p>Din læge kan nedsætte din dosis til 200 mg én gang dagligt. </p>
+</li>
+</ul>
+<p>Onureg gives i behandlingscyklusser af 28 dage. </p>
+<ul>
+<li>
+<p>Du skal tage Onureg hver dag i de første 14 dage af hver cyklus af 28 dage. </p>
+</li>
+<li>
+<p>Dette er efterfulgt af en behandlingsfri periode på 14 dage i resten af cyklussen. </p>
+</li>
+</ul>
+<p>Din læge vil fortælle dig hvilken dosis af Onureg du skal tage. Lægen kan beslutte at: </p>
+<ul>
+<li>
+<p>forlænge din behandling ud over 14 dage i hver behandlingscyklus </p>
+</li>
+<li>
+<p>nedsætte din dosis eller midlertidigt stoppe din behandling </p>
+</li>
+<li>
+<p>nedsætte din behandling til 7 dage. 
+Tag altid Onureg nøjagtigt efter lægens anvisning.  </p>
+</li>
+</ul>
+<p>Din læge vil give dig et lægemiddel, der hjælper mod kvalme (føler dig syg) og opkastning. Du skal 
+tage det 30 minutter før hver Onureg-tablet og under din første og anden behandlingscyklus. Din læge 
+vil bede dig om at tage det i en længere periode, hvis du behøver det. </p>
+<p>Sådan tager du medicinen </p>
+<ul>
+<li>
+<p>Tag Onureg én gang dagligt - på det samme tidspunkt hver dag. </p>
+</li>
+<li>
+<p>Synk tabletterne hele med et fuldt glas vand. </p>
+</li>
+<li>
+<p>For at være sikker på, at du får den rette dosis, må du ikke dele, knuse, opløse eller tygge 
+tabletterne. </p>
+</li>
+<li>
+<p>Du kan tage lægemidlet med mad eller mellem måltider. 
+Hvis du kaster op efter at have taget en tablet, skal du ikke tage en ny dosis på den samme dag. Vent i 
+stedet til den næste dag og tag da den næste planlagte dosis. Tag ikke to doser på den samme dag. </p>
+</li>
+</ul>
+<p>Hvis pulver fra en ødelagt tablet kommer i kontakt med din hud, skal du straks vaske huden grundigt 
+med sæbe og vand. Hvis pulveret kommer i kontakt med dine øjne, næse eller mund, skal du skylle 
+området grundigt med vand. </p>
+<p>Hvis du har taget for meget Onureg 
+Kontakt straks lægen eller tag på hospitalet, hvis du har taget for mange tabletter end du skulle. Hvis 
+det er muligt, tag lægemiddelpakningen og denne indlægsseddel med dig. </p>
+<p>Hvis du har glemt at tage Onureg 
+Hvis du har glemt at tage Onureg til det sædvanlige tidspunkt, skal du tage din sædvanlige dosis så 
+snart du kommer i tanke om det på samme dag og tag din næste dosis til sædvanlig tid den 
+efterfølgende dag. Du må ikke tage en dobbeltdosis som erstatning for den glemte eller opkastede 
+tablet. </p>
+<p>Hvis du holder op med at tage Onureg 
+Du må ikke holde op med at tage Onureg, medmindre din læge fortæller dig, at du skal holde op. </p>
+<p>Spørg lægen, hvis der er andet som du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Fortæl det straks til lægen, apotekspersonalet eller sygeplejersken, hvis du bemærker en eller flere 
+af følgende bivirkninger under behandling med Onureg: </p>
+<ul>
+<li>
+<p>blå mærker eller blødning - dette kan skyldes et lavt antal blodlegemer kaldet "blodplader". </p>
+</li>
+<li>
+<p>feber - dette kan skyldes en infektion, som følge af at have et lavt niveau af hvide 
+blodlegemer - hvilket kan være livstruende. </p>
+</li>
+<li>
+<p>diarré, opkastning eller kvalme (føler dig syg). </p>
+</li>
+</ul>
+<p>Andre bivirkninger inkluderer: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>smerte i maven </p>
+</li>
+<li>
+<p>betændelse (infektioner) i næsen, bihulerne og halsen </p>
+</li>
+<li>
+<p>lungebetændelse </p>
+</li>
+<li>
+<p>træthed eller svaghed </p>
+</li>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>smerte forskellige steder i kroppen - dette kan variere fra en skarp smerte til en svag smerte </p>
+</li>
+<li>
+<p>stive led </p>
+</li>
+<li>
+<p>rygsmerter. </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>influenza </p>
+</li>
+<li>
+<p>urinvejsinfektion (betændelse i urinvejene) </p>
+</li>
+<li>
+<p>høfeber </p>
+</li>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>vægttab. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte til 
+Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V.  </p>
+<p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
+af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store onureg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store onureg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på blisteren og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Onureg indeholder </p>
+<ul>
+<li>
+<p>Aktivt stof: azacitidin. Hver tablet indeholder enten 200 mg eller 300 mg azacitidin </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: croscarmellosenatrium (E468), magnesiumstearat (E572), mannitol 
+(E421) og silicificeret mikrokrystallinsk cellulose (E460, E551) </p>
+</li>
+<li>
+<p>200 mg tabletovertræk - Opadry II lyserød indeholder: hypromellose (E464), titandioxid 
+(E171), lactosemonohydrat, polyethylenglycol/macrogoler (E1521), triacetin (E1518) og 
+jernoxid, rød (E172). Se pkt. 2 “Onureg indeholder sodium". </p>
+</li>
+<li>
+<p>300 mg tabletovertræk - Opadry II brun indeholder: hypromellose (E464), titandioxid (E171), 
+lactosemonohydrat, polyethylenglycol/macrogoler (E1521), triacetin (E1518), jernoxid, rød 
+(E172), jernoxid, gul (E172) og jernoxid, sort (E172). Se pkt. 2. Udseende og pakningsstørrelser 
+Onureg 200 mg filmovertrukne tabletter er lyserød, ovalformede, præget med "200" på den ene side 
+og "ONU" på den anden side. </p>
+</li>
+</ul>
+<p>Onureg 300 mg filmovertrukne tabletter er brune, ovalformede, præget med "300" på den ene side og 
+"ONU" på den anden side. </p>
+<p>De filmovertrukne tabletter er pakket i aluminiumsfolieblister. </p>
+<p>Hver pakning indeholder enten 7 eller 14 filmovertrukne tabletter. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Fremstiller 
+Celgene Distribution B.V. 
+Orteliuslaan 13528 BD Utrecht 
+Holland </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6b7b5522c872887b5587c6d7e9f380f6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onureg Package Leaflet for language en"
+Description: "ePI document Bundle for onureg Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6b7b5522c872887b5587c6d7e9f380f6"
+* entry[0].resource = composition-en-6b7b5522c872887b5587c6d7e9f380f6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6b7b5522c872887b5587c6d7e9f380f6"
+* entry[=].resource = mp6b7b5522c872887b5587c6d7e9f380f6
+                            
+                    
+Instance: bundlepackageleaflet-da-6b7b5522c872887b5587c6d7e9f380f6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onureg Package Leaflet for language da"
+Description: "ePI document Bundle for onureg Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6b7b5522c872887b5587c6d7e9f380f6"
+* entry[0].resource = composition-da-6b7b5522c872887b5587c6d7e9f380f6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6b7b5522c872887b5587c6d7e9f380f6"
+* entry[=].resource = mp6b7b5522c872887b5587c6d7e9f380f6
+                            
+                    
+
+
+
+Instance: mp6b7b5522c872887b5587c6d7e9f380f6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Onureg 200 mg film-coated tablets"
-Description: "Onureg 200 mg film-coated tablets"
+Title: "Medicinal Product onureg"
+Description: "onureg"
 Usage: #inline
 
  
@@ -291,7 +707,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Onureg 200 mg film-coated tablets"
+  * productName = "onureg"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -318,29 +734,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6b7b5522c872887b5587c6d7e9f380f6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for onureg Package Leaflet for language en"
-Description: "ePI document Bundle for onureg Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6b7b5522c872887b5587c6d7e9f380f6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Onureg 200 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "onureg"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6b7b5522c872887b5587c6d7e9f380f6"
-* entry[0].resource = composition-en-6b7b5522c872887b5587c6d7e9f380f6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp65bcd7c363d32166b38a173064f1b270"
-* entry[=].resource = mp65bcd7c363d32166b38a173064f1b270
-                            
-                      
+* title = "List of all ePIs associated with onureg"
+
+* subject = Reference(mp65bcd7c363d32166b38a173064f1b270)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#onureg "onureg"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6b7b5522c872887b5587c6d7e9f380f6) // onureg en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6b7b5522c872887b5587c6d7e9f380f6) // onureg da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6b7b5522c872887b5587c6d7e9f380f6
+InstanceOf: List
+
+* insert 6b7b5522c872887b5587c6d7e9f380f6ListRuleset
+    

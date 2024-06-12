@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5be5abfec999fc8a1ea184754c57f783
 InstanceOf: CompositionUvEpi
 Title: "Composition for vafseo Package Leaflet"
@@ -325,12 +328,501 @@ Stamullen, Co. Meath, K32 YDIreland </p>
 
 
 
+Instance: composition-da-5be5abfec999fc8a1ea184754c57f783
+InstanceOf: CompositionUvEpi
+Title: "Composition for vafseo Package Leaflet"
+Description:  "Composition for vafseo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4b8981f67e2fe192613db106e0710226)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4b8981f67e2fe192613db106e0710226
+* title = "TEST PURPOSES ONLY - vafseo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Vafseo </li>
+<li>Sådan skal du tage Vafseo </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vafseo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vafseo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vafseo er et lægemiddel, der øger mængden af hæmoglobin (proteinet i dine røde blodlegemer, der 
+transporterer ilt rundt i kroppen) og antallet af røde blodlegemer i blodet. Det indeholder det aktive 
+stof vadadustat. </p>
+<p>Vafseo bruges til behandling af symptomer på anæmi (lave niveauer af røde blodlegemer eller 
+hæmoglobin i blodet) i forbindelse med kronisk nyresygdom (CKD) hos voksne, der er i kronisk 
+vedligeholdelsesdialyse. Når mængden af hæmoglobin eller antallet af røde blodlegemer er lavt, er der 
+risiko for, at cellerne i kroppen får for lidt ilt. Symptomerne på anæmi kan være træthed, svaghed eller 
+åndenød. </p>
+<p>Sådan virker Vafseo 
+Vafseo øger niveauet af et stof, der hedder "hypoksi-inducerbar faktor" (HIF), som øger produktionen 
+af røde blodlegemer, når iltniveauet er lavt. Ved at øge HIP-niveauerne øger Vafseo produktionen af 
+røde blodlegemer og niveauet af hæmoglobin. Det forbedrer iltforsyningen til kroppen og kan mindske 
+symptomerne på anæmi. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vafseo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vafseo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Vafseo </p>
+<ul>
+<li>hvis du er allergisk over for vadadustat eller et af de øvrige indholdsstoffer (angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Vafseo, hvis du: </p>
+<ul>
+<li>
+<p>har haft blodpropper tidligere og/eller har risikofaktorer for blodpropper. Dette lægemiddel 
+øger produktionen af røde blodlegemer og kan derfor øge risikoen for at få blodpropper. 
+Eksempler på risikofaktorer er:</p>
+</li>
+<li>
+<p>overvægt </p>
+</li>
+<li>diabetes </li>
+<li>hjertesygdomme </li>
+<li>længere tids sengeleje på grund af operation eller sygdom </li>
+<li>
+<p>indtagelse af oral prævention 
+Det er vigtigt, at du fortæller lægen om tidligere hjerteanfald, slagtilfælde, blodpropper eller 
+risikofaktorer, så lægen kan afgøre, om dette lægemiddel er egnet til behandling af din anæmi.<br />
+Kontakt straks lægen, hvis du mener, at du har udviklet en blodprop. Du kan finde en 
+beskrivelse af de mulige symptomer på blodpropper i punkt 4. * har for højt blodtryk (hypertension). Vafseo kan forværre dit høje blodtryk. Derfor er det 
+meget vigtigt, at du tager din blodtrykssænkende medicin regelmæssigt, og at du kontrollerer dit 
+blodtryk ofte. </p>
+</li>
+<li>
+<p>har svær leversygdom </p>
+</li>
+<li>
+<p>har et krampeanfald eller mulige advarselstegn om, at der kan opstå et krampeanfald, såsom 
+hovedpine, irritabilitet, frygt, forvirring eller usædvanlige følelser </p>
+</li>
+<li>
+<p>skifter fra høje doser af erytropoiesestimulerende midler (ESA), da du kan have behov for en 
+transfusion af røde blodlegemer eller supplerende ESA, mens lægen justerer din Vafseo-dosis. 
+Tal med din læge eller apotekspersonalet, før du tager Vafseo, hvis du har en eller flere af ovenstående 
+tilstande. </p>
+</li>
+</ul>
+<p>Misbrug kan føre til en stigning i røde blodlegemer og dermed gøre blodet mere tykt. Dette kan 
+forårsage livstruende problemer med hjertet eller blodkarrene. </p>
+<p>Blodprøver 
+Kronisk nyresygdom kan forårsage anæmi, som kan øge risikoen for hjerte-karproblemer og endda for 
+at dø. Derfor er det vigtigt at behandle din anæmi. Din læge vil kontrollere mængden af hæmoglobin i 
+dit blod regelmæssigt. 
+Behandlingen kan øge leverenzymerne. Din læge vil regelmæssigt kontrollere mængden af disse 
+enzymer i dit blod i starten af din behandling og derefter månedligt i de første 3 måneder af din 
+behandling. </p>
+<p>Børn og unge 
+Børn og unge under 18 år må ikke få Vafseo. Der er utilstrækkelig information om brug af det til den 
+aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Vafseo 
+Fortæl lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Vafseo kan påvirke andre lægemidlers virkning, 
+og andre lægemidler kan påvirke Vafseos virkning. </p>
+<p>Du skal især fortælle det til lægen eller apotekspersonalet, hvis du har taget eller tager et eller flere af 
+følgende lægemidler: </p>
+<ul>
+<li>
+<p>lægemidler til sænkning af fosfatindholdet i blodet (kaldet fosfatbindere), som for eksempel 
+sevelamercarbonat eller calciumacetat, og lægemidler eller tilskud, der indeholder jern, 
+såsom jerncitrat, sucroferrioxyhydroxid, jernsulfat, natriumjerncitrat </p>
+</li>
+<li>
+<p>probenecid, et lægemiddel til behandling af urinsyregigt </p>
+</li>
+<li>
+<p>sulfasalazin, et lægemiddel til behandling af svær tarmbetændelse eller ledbetændelse som 
+følge af gigt </p>
+</li>
+<li>
+<p>lægemidler, der kaldes statiner, til sænkning af kolesterol i blodet (blandt andet simvastatin, 
+rosuvastatin, fluvastatin eller pitavastatin) </p>
+</li>
+<li>
+<p>furosemid eller olmesartan, lægemidler til behandling af for højt blodtryk </p>
+</li>
+<li>
+<p>nelfinavir, efavirenz eller zidovudin, lægemidler til behandling af hiv </p>
+</li>
+<li>
+<p>topotecan, et lægemiddel til behandling af kræft </p>
+</li>
+<li>
+<p>famotidin, et lægemiddel til behandling af mavesår </p>
+</li>
+<li>
+<p>methotrexat, et lægemiddel til behandling af kræft og autoimmune sygdomme </p>
+</li>
+<li>
+<p>sitagliptin, et lægemiddel til behandling af diabetes </p>
+</li>
+<li>
+<p>celecoxib, et lægemiddel til behandling af smerter og betændelse </p>
+</li>
+<li>
+<p>warfarin, et lægemiddel til forebyggelse af blodpropper </p>
+</li>
+<li>
+<p>phenytoin, et lægemiddel til behandling af epilepsi </p>
+</li>
+<li>
+<p>benzylpenicillin, et lægemiddel til behandling af infektioner </p>
+</li>
+<li>
+<p>teriflunomid, et lægemiddel til behandling af multipel sklerose </p>
+</li>
+<li>
+<p>p-aminohippursyre, et diagnostisk stof, der bruges til undersøgelse af nyrerne </p>
+</li>
+<li>
+<p>bupropion, et lægemiddel til behandling af depression </p>
+</li>
+</ul>
+<p>Lægen vil beslutte, hvordan du skal bruge disse lægemidler, mens du bliver behandlet med Vafseo. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. 
+Det er uvist, om vadadustat udskilles i modermælk 
+Din læge vil afgøre, om du kan tage Vafseo, mens du er gravid eller ammer. 
+Det er uvist, om Vafseo påvirker fertiliteten. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er ikke sandsynligt, at Vafseo vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>
+<p>Vafseo indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. filmovertrukket tablet, dvs. det 
+er i det væsentlige "natriumfrit". </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vafseo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vafseo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Din dosis 
+Lægen vil fortælle dig, hvilken dosis Vafseo du skal tage. Behandlingen med Vafseo vil som regel 
+starte med en daglig dosis på 300 mg. Derefter kan lægen enten øge eller sænke din daglige dosis i trin 
+på 150 mg. Den laveste dosis er 150 mg dagligt, og den højeste dosis er 600 mg dagligt. 
+Tag altid Vafseo efter lægens anvisninger. </p>
+<p>Det er vigtigt, at lægen kontrollerer mængden af hæmoglobin i dit blod regelmæssigt. Ud fra disse 
+testresultater vil lægen eventuelt øge eller sænke din dosis. Hvis mængden af hæmoglobin i dit blod 
+bliver for høj, vil din behandling blive stoppet. Du må ikke genoptage behandlingen, før lægen siger, 
+at du skal, og du må kun tage den dosis, som lægen ordinerer. </p>
+<p>Sådan tages Vafseo </p>
+<ul>
+<li>
+<p>Vafseo filmovertrukne tabletter tages gennem munden med vand. </p>
+</li>
+<li>
+<p>Tag din Vafseo tablet hel uden at tygge eller knuse den. </p>
+</li>
+<li>
+<p>Tag din Vafseo dosis én gang dagligt. </p>
+</li>
+<li>
+<p>Vafseo kan tages med mad eller mellem måltiderne. </p>
+</li>
+<li>
+<p>Du kan tage Vafseo når som helst før, under eller efter dialysen. </p>
+</li>
+</ul>
+<p>Fosfatbindere og Vafseo 
+Hvis du bliver behandlet med fosfatbindere, som ikke inkluderer jern (for eksempel sevelamercarbonat 
+eller calciumacetat), eller lægemidler, der indeholder calcium, magnesium eller aluminium, skal du 
+tage Vafseo mindst 1 time før eller 2 timer efter, at du tager disse lægemidler, ellers vil vadadustat 
+ikke blive optaget ordentligt i din krop. Hvis den fosfatbinder, du tager, indeholder jern, skal du se 
+nedenstående oplysninger. </p>
+<p>Jernholdige præparater og Vafseo 
+Hvis du tager lægemidler, der indeholder jern, eller fosfatbindere, der indeholder jern, skal du tage 
+Vafseo mindst 1 time før disse præparater. Vadadustat vil ikke blive optaget ordentligt i din krop, hvis 
+du ikke følger disse anvisninger. </p>
+<p>Hvis du har taget for meget Vafseo 
+Hvis du har taget flere tabletter eller en højere dosis, end du skulle, skal du straks kontakte lægen. </p>
+<p>Hvis du har glemt at tage Vafseo </p>
+<ul>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Du må ikke tage to 
+tabletter på én dag. </p>
+</li>
+<li>
+<p>Hvis der er mere end 24 timer (1 dag) til din næste planlagte dosis, skal du tage den glemte 
+dosis så hurtigt som muligt og tage den næste dosis på den næste planlagte dag. </p>
+</li>
+<li>
+<p>Hvis der er mindre end 24 timer (1 dag) til din næste planlagte dosis, skal du springe den 
+glemte dosis over og tage den næste dosis på den næste planlagte dag. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Vafseo 
+Hvis du holder op med at tage Vafseo, kan din anæmi blive værre. Du må ikke holde op med at tage 
+dette lægemiddel, medmindre lægen siger, at du skal. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Mulige alvorlige bivirkninger 
+Kontakt straks lægen, hvis du får et eller flere af følgende: </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>for højt blodtryk (hypertension) </p>
+</li>
+<li>
+<p>blodpropper (tromboemboliske hændelser), som kan føre til:</p>
+</li>
+<li>
+<p>hjerteanfald (myokardieinfarkt) med symptomer som smerter i brystet og/eller andre dele 
+af kroppen, svimmelhed, åndenød, kvalme eller opkastning, angst </p>
+</li>
+<li>slagtilfælde med symptomer som pludselig voldsom hovedpine, krampeanfald, tab af 
+koordinationsevne, balancetab </li>
+<li>blodprop i et blodkar i lungen (lungeemboli) med symptomer som smerter i brystet eller 
+øverst i ryggen, vejrtrækningsbesvær, hoste med blodigt opspyt </li>
+<li>blodprop i en vene, såsom i benet (dyb venetrombose) med symptomer som smertefuld 
+hævelse og rødme </li>
+<li>"mini-slagtilfælde" (forbigående iskæmisk anfald, TIA) med symptomer som tale- og 
+synsforstyrrelse og følelsesløshed eller svaghed i ansigt, arme og ben </li>
+<li>stenose (arteriovenøs fisteltrombose og arteriovenøs grafttrombose) med symptomer som 
+blårøde, svulmende vener set gennem huden, som ligner åreknuder. </li>
+</ul>
+<p>Andre mulige bivirkninger 
+Kontakt lægen, hvis du får en eller flere af følgende bivirkninger: </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>diarré </li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>krampeanfald </p>
+</li>
+<li>
+<p>lavt blodtryk (hypotension) </p>
+</li>
+<li>
+<p>overfølsomhed </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>smerter øverst i maven </p>
+</li>
+<li>
+<p>forhøjede leverenzymer </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>forhøjet mængde bilirubin (et nedbrydningsprodukt af røde blodlegemer) i blodet </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vafseo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vafseo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige opbevaringsforhold. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.   </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vafseo indeholder </p>
+<p>Vafseo 150 mg filmovertrukne tabletter </p>
+<ul>
+<li>Aktivt stof: vadadustat. Én filmovertrukket tablet indeholder 150 mg vadadustat. </li>
+</ul>
+<p>Vafseo 300 mg filmovertrukne tabletter </p>
+<ul>
+<li>Aktivt stof: vadadustat. Én filmovertrukket tablet indeholder 300 mg vadadustat. </li>
+</ul>
+<p>Vafseo 450 mg filmovertrukne tabletter </p>
+<ul>
+<li>Aktivt stof: vadadustat. Én filmovertrukket tablet indeholder 450 mg vadadustat </li>
+</ul>
+<p>Øvrige indholdsstoffer: </p>
+<p>Tabletkerne </p>
+<p>Mikrokrystallinsk cellulose (E 460), natriumstivelsesglycolat, hypromellose (E 464), silica, kolloid 
+vandfri (E 551), magnesiumstearat. Se punkt 2 "Vafseo indeholder natrium". </p>
+<p>Tabletovertræk </p>
+<p>Polyvinylalkohol (E 1203), macrogol (E 1521), talkum (E 553b), titandioxid (E 171), gul jernoxid 
+(E 172) (kun til 300 mg), rød jernoxid (E 172) og jern(II,III)oxid (E 172) (begge kun til 450 mg). </p>
+<p>Udseende og pakningsstørrelser 
+Vafseo 150 mg filmovertrukne tabletter er runde og hvide med "VDT" præget på den ene side og 
+"150" på den anden side. 
+Vafseo 300 mg filmovertrukne tabletter er ovale og gule med "VDT" præget på den ene side og "300" 
+på den anden side. 
+Vafseo 450 mg filmovertrukne tabletter er ovale og lyserøde med "VDT" præget på den ene side og 
+"450" på den anden side. </p>
+<p>Vafseo filmovertrukne tabletter fås i æsker med 28 eller 98 filmovertrukne tabletter i 
+PVC/aluminiumsfolie-blistere. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Medice Arzneimittel Pütter GmbH &amp; Co. KG 
+Kuhloweg D-58638 Iserlohn 
+Tyskland<br />
+tlf. +49 2371 937-0 
+fax +49 2371 937-info@medice.de </p>
+<p>Fremstiller 
+Millmount Healthcare Limited 
+Block-7, City North Business Campus 
+Stamullen, Co. Meath, K32 YDIrland </p>
+<p>Medice Arzneimittel Pütter GmbH &amp; Co. KG 
+Kuhloweg 58638 Iserlohn 
+Tyskland  </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5be5abfec999fc8a1ea184754c57f783
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vafseo Package Leaflet for language en"
+Description: "ePI document Bundle for vafseo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5be5abfec999fc8a1ea184754c57f783"
+* entry[0].resource = composition-en-5be5abfec999fc8a1ea184754c57f783
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5be5abfec999fc8a1ea184754c57f783"
+* entry[=].resource = mp5be5abfec999fc8a1ea184754c57f783
+                            
+                    
+Instance: bundlepackageleaflet-da-5be5abfec999fc8a1ea184754c57f783
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vafseo Package Leaflet for language da"
+Description: "ePI document Bundle for vafseo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5be5abfec999fc8a1ea184754c57f783"
+* entry[0].resource = composition-da-5be5abfec999fc8a1ea184754c57f783
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5be5abfec999fc8a1ea184754c57f783"
+* entry[=].resource = mp5be5abfec999fc8a1ea184754c57f783
+                            
+                    
+
+
+
+Instance: mp5be5abfec999fc8a1ea184754c57f783
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vafseo 150 mg film-coated tablets"
-Description: "Vafseo 150 mg film-coated tablets"
+Title: "Medicinal Product vafseo"
+Description: "vafseo"
 Usage: #inline
 
  
@@ -350,7 +842,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vafseo 150 mg film-coated tablets"
+  * productName = "vafseo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -377,29 +869,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5be5abfec999fc8a1ea184754c57f783
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vafseo Package Leaflet for language en"
-Description: "ePI document Bundle for vafseo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5be5abfec999fc8a1ea184754c57f783ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1725/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vafseo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5be5abfec999fc8a1ea184754c57f783"
-* entry[0].resource = composition-en-5be5abfec999fc8a1ea184754c57f783
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4b8981f67e2fe192613db106e0710226"
-* entry[=].resource = mp4b8981f67e2fe192613db106e0710226
-                            
-                      
+* title = "List of all ePIs associated with vafseo"
+
+* subject = Reference(mp4b8981f67e2fe192613db106e0710226)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vafseo "vafseo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5be5abfec999fc8a1ea184754c57f783) // vafseo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5be5abfec999fc8a1ea184754c57f783) // vafseo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5be5abfec999fc8a1ea184754c57f783
+InstanceOf: List
+
+* insert 5be5abfec999fc8a1ea184754c57f783ListRuleset
+    

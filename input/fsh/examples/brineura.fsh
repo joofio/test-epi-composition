@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3552692c711f8f7419edb391c717f809
 InstanceOf: CompositionUvEpi
 Title: "Composition for brineura Package Leaflet"
@@ -286,12 +289,356 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-3552692c711f8f7419edb391c717f809
+InstanceOf: CompositionUvEpi
+Title: "Composition for brineura Package Leaflet"
+Description:  "Composition for brineura Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd00938196da2fc8650f267a71612143a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd00938196da2fc8650f267a71612143a
+* title = "TEST PURPOSES ONLY - brineura"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du eller dit barn får Brineura </li>
+<li>Sådan gives Brineura </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What brineura is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What brineura is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brineura indeholder det aktive stof cerliponase alfa, som tilhører en gruppe af lægemidler, der kaldes 
+enzymsubstitutionsbehandling. Det anvendes til at behandle patienter med sygdommen 
+neuronalceroidlipofuscinosis type 2 (CLN2) også kaldet TPP1-mangel (tripeptidyl peptidase-1). </p>
+<p>Mennesker med CLN2-sygdom har ikke et enzym, der hedder TPP1, eller de har for lidt af det, og det 
+forårsager en ophobning af stoffer, der hedder lysosomale aflejringer. Hos mennesker med CLN2-
+sygdom ophobes disse materialer i visse dele af kroppen, hovedsageligt i hjernen. </p>
+<p>Sådan virker Brineura 
+Dette lægemiddel erstatter det manglende enzym, TPP1, hvilket mindsker ophobningen af de 
+lysosomale aflejringer. Lægemidlet sinker sygdomsudviklingen.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take brineura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take brineura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Brineura 
+- hvis du eller dit barn har haft en livstruende allergisk reaktion på cerliponase alfa eller et af de 
+øvrige indholdsstoffer i dette lægemiddel (angivet i afsnit 6), og den allergiske reaktion sker 
+igen, når cerliponase alfa indgives igen. 
+- hvis du eller dit barn har et implanteret dræn for at tømme overskydende væske ud fra hjernen. 
+- hvis du eller dit barn har aktuelle tegn på betændelse i forbindelse med anordningen, eller der er 
+problemer med anordningen. Lægen kan beslutte at fortsætte behandlingen, når betændelsen 
+eller problemerne med anordningen er forsvundet.  </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du eller dit barn får Brineura. 
+- Du eller dit barn kan få problemer med den implanterede anordning, der bruges under 
+behandlingen med Brineura (se afsnit 4, ”Bivirkninger”), herunder infektion eller fejl ved 
+anordningen. Hvis du eller dit barn har en infektion, kan det vise sig ved feber, hovedpine, 
+nakkestivhed, lysfølsomhed, kvalme, opkastning og ændret sindstilstand. Hvis der er problemer 
+med anordningen, kan der opstå hævelse, rødme i hovedbunden, læk af væske fra anordningen 
+og udbulning af hovedbunden. Behandlingen kan blive afbrudt, hvis anordningen skal udskiftes, 
+eller indtil infektionen går væk. Inden for 4 års anvendelse skal adgangsudstyret muligvis 
+udskiftes; dette vil lægen afgøre. Tal med lægen, hvis der er noget ved den implanterede 
+anordning, du er i tvivl om. 
+- Det er muligt at få livstruende allergiske reaktioner (anafylaktiske reaktioner) ved behandling 
+med dette lægemiddel. Lægen overvåger dig eller dit barn for tegn på livstruende allergiske 
+reaktioner, såsom nældefeber, kløe eller rødme, hævede læber, tunge og/eller svælg, 
+kuldegysninger, hurtigere hjerterytme, kortåndethed, hæshed, blå fingerspidser eller læber, lav 
+muskeltonus, besvimelse, diarré eller inkontinens. Søg omgående lægehjælp, hvis disse 
+symptomer opstår. 
+- Lægen eller sygeplejersken vil måle din eller dit barns puls, blodtryk, vejrtrækningshastighed og 
+temperatur inden, under og efter behandlingen. Lægen kan beslutte at foretage yderligere 
+kontrol, hvis det er nødvendigt. 
+- Lægen eller sygeplejersken vil hver 6. måned tage et EKG for at undersøge, om der er unormal 
+elektrisk hjerteaktivitet. Hvis du eller dit barn tidligere har haft problemer med hjertet, vil lægen 
+eller sygeplejersken måle hjerteaktiviteten under hver infusion. 
+- Lægen sender måske prøver af hjernevæsken til analyse for at undersøge, om der er tegn på 
+infektion. 
+- Dette lægemiddel er ikke blevet givet til patienter med fremskreden sygdom i starten af 
+behandling eller til børn under 1 år gamle. Lægen vil tale med dig, om Brineura i behandlingen 
+er rigtig for dig eller dit barn. </p>
+<p>Brug af andre lægemidler sammen med Brineura 
+Fortæl altid lægen, hvis du eller dit barn tager andre lægemidler, for nylig har taget andre lægemidler 
+eller planlægger at tage andre lægemidler. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får behandling med dette lægemiddel. </p>
+<p>Du må ikke modtage behandling med dette lægemiddel under graviditet, medmindre det tydeligt er 
+nødvendigt. Det vides ikke, om dette lægemiddel kan skade dit ufødte barn. </p>
+<p>Du bør ikke få dette lægemiddel, hvis du ammer. Det vides ikke, om dette lægemiddel udskilles i 
+human modermælk. </p>
+<p>Det vides ikke, om dette lægemiddel påvirker frugtbarheden for mennesker. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det vides ikke, om dette lægemiddel påvirker evnen til at føre motorkøretøj eller betjene maskiner. Tal 
+med lægen. </p>
+<p>Brineura indeholder natrium og kalium 
+Dette lægemiddel indeholder 17,4 mg natrium (hoved komponent af madlavnings-/bordsalt) 
+pr. hætteglas. Dette svarer til 0,87 % af den anbefalede maximale daglige indtagelse af natrium for en 
+voksen. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. hætteglas, dvs. det er i det 
+væsentlige kaliumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take brineura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take brineura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du eller dit barn skal have en operation for at få implanteret den anordning, som dette lægemiddel skal 
+indgives gennem. Anordningen sørger for, at lægemidlet når en bestemt del af hjernen. </p>
+<p>Dette lægemiddel indgives af en læge, der ved, hvordan man indgiver medicin som infusion ind i 
+hjernevæsken (intracerebroventrikulær anvendelse) på et hospital eller en klinik. </p>
+<p>Dette lægemiddel er ikke blevet givet til patienter under 1 år gamle eller over 9 år gamle (ved starten 
+af det kliniske forsøg). </p>
+<p>Den anbefalede dosis af dette lægemiddel fastlægges ud fra din eller dit barns alder og indgives af en 
+læge eller sygeplejerske en gang hver anden uge efter denne doseringsplan:</p>
+<ul>
+<li>Fødsel til &lt; 6 måneder: 100 mg </li>
+<li>6 måneder til &lt; 1 år: 150 mg </li>
+<li>1 år til &lt; 2 år: 200 mg (første 4 doser), 300 mg (alle andre doser) </li>
+<li>≥ 2 år: 300 mg </li>
+</ul>
+<p>Lægen kan justere din eller dit barns dosis eller den tid hvori lægemidlet gives, hvis infusionen ikke 
+tolereres, der er en allergisk reaktion, eller der er en mulig stigning i trykket i hjernen. </p>
+<p>Lægemidlet pumpes langsomt gennem den implanterede anordning. Når lægemidlet er indgivet, følger 
+en kortere infusion med en væske for at skylle Brineura ud af infusionsudstyret, så hele dosen når 
+hjernen. Lægemidlet og skyllevæsken gives over et tidsrum på ca. 2 til 4 timer og 30 minutter ifølge 
+din eller dit barns dosis. Lægen kan nedsætte dosen eller den hastighed, som lægemidlet indgives ved, 
+afhængigt af hvordan du eller dit barn reagerer på behandlingen. </p>
+<p>Lægen giver muligvis dig eller dit barn anden medicin, såsom feberstillende midler mod feber eller 
+antihistaminer mod allergiske reaktioner, inden hver behandling med dette lægemiddel for at mindske 
+de bivirkninger, der kan opstå under eller kort efter behandlingen. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Du bør straks tale med lægen eller sygeplejersken, hvis du får en eller flere af følgende bivirkninger: </p>
+<p>Meget almindelige bivirkninger (kan påvirke flere end 1 ud af 10 personer):</p>
+<ul>
+<li>Krampeanfald </li>
+<li>Reaktioner under eller kort efter behandlingen, såsom nældefeber, kløe eller rødme, hævede 
+læber, tunge og/eller svælg, kortåndethed, hæshed, blå fingerspidser eller læber, lav 
+muskeltonus, besvimelse eller inkontinens </li>
+<li>Bakteriel infektion i forbindelse med den indlagte anordning  </li>
+</ul>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer):</p>
+<ul>
+<li>Alvorlig allergisk reaktion (anafylaktiske reaktioner) </li>
+</ul>
+<p>Ikke kendt (hyppighed kan ikke estimeres ud fra forhåndenværende data):</p>
+<ul>
+<li>Inflammation i hjernen (meningitis), som skyldes udstyrsrelateret infektion </li>
+</ul>
+<p>Dette lægemiddel kan give andre bivirkninger: </p>
+<p>Meget almindelige bivirkninger (kan påvirke flere end 1 ud af 10 personer):</p>
+<ul>
+<li>Feber </li>
+<li>Opkastning </li>
+<li>Irritabilitet </li>
+<li>Hovedpine </li>
+<li>Øget eller mindsket mængde protein i hjernevæsken registreret ved laboratorieovervågning </li>
+<li>Unormal elektrisk aktivitet i hjertet målt med EKG </li>
+<li>Øget celleantal i spinalvæsken registreret ved laboratorieovervågning </li>
+<li>Anordningen fungerer ikke korrekt pga. tilstopning, som registreres ved klargøring til infusion </li>
+<li>Lækage af anordningen </li>
+<li>Nåleproblem (infusionsnål falder ud af implanteret anordning) </li>
+</ul>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer):</p>
+<ul>
+<li>Langsommere hjerterytme  </li>
+<li>Udslæt </li>
+<li>Nældefeber </li>
+<li>Ødelagt anordning </li>
+<li>Irritation på anordningens placering </li>
+<li>Nervøsitet </li>
+<li>Mave- eller tarmbesvær </li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data):</p>
+<ul>
+<li>Anordningen forskubbes og fungerer ikke korrekt ved klargøring til infusion </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store brineura"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store brineura"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassene og æsken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
+<p>Opbevares opretstående i dybfryser (-25 °C til -15 °C). Opbevares i den originale yderpakning for at 
+beskytte mod lys. Transporteres og distribueres nedfrosset (-85 °C til -15 °C). </p>
+<p>Optøet Brineura og skyllevæske skal anvendes straks. Dette lægemiddel må kun udtages fra de 
+uåbnede hætteglas umiddelbart inden anvendelse. Hvis omgående anvendelse ikke er mulig, skal 
+uåbnede hætteglas med Brineura eller skyllevæske opbevares i køleskab(2 °C – 8 °C) og anvendes 
+inden 24 timer. </p>
+<p>Kemisk og fysisk stabilitet ved brug er blevet påvist i op til 12 timer ved stuetemperatur 
+(19 °C – 25 °C). Ud fra et mikrobiologisk synspunkt skal åbne hætteglas eller lægemiddelprodukt i 
+sprøjter anvendes øjeblikkeligt. Hvis de ikke anvendes straks, er opbevaringstider og -forhold før 
+anvendelse brugerens ansvar. </p>
+<p>Det er lægens eller apotekspersonalets ansvar at opbevare Brineura. Det er også deres ansvar at 
+bortskaffe eventuelt ikke anvendt Brineura på korrekt vis. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brineura indeholder:</p>
+<ul>
+<li>Aktivt stof: Cerliponase alfa. 1 hætteglas Brineura indeholder 150 mg cerliponase alfa i 5 ml 
+infusionsvæske. 1 ml infusionsvæske, opløsning, indeholder 30 mg cerliponase alfa.  </li>
+<li>Øvrige indholdsstoffer i Brineura infusionsvæske, opløsning og skyllevæsken: Dibasisk 
+natriumfosfat heptahydrat, natriumdihydrogenfosfat monohydrat, natriumchlorid, 
+kaliumchlorid, magnesiumchloridhexahydrat, calciumchloriddihydrat og vand til 
+injektionsvæske (se afsnit 2, ”Brineura indeholder natrium og kalium”). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Brineura og skyllevæsken er infusionsvæsker som opløsninger. Brineura infusionsvæske, opløsning er 
+klar til let opaliserende og farveløs til lysegul, som ind imellem kan indeholde tynde, gennemsigtige 
+fibre eller uigennemsigtige partikler. Skyllevæsken er klar og farveløs.  </p>
+<p>Pakningsstørrelse: Hver pakning indeholder 2 hætteglas med Brineura infusionsvæske, opløsning og 
+1 hætteglas med skyllevæske, der hver indeholder 5 ml væske. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+BioMarin International Limited 
+Shanbally, Ringaskiddy 
+County Cork 
+Irland </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>Dette lægemiddel er godkendt under ”særlige vilkår”. Det betyder, at det grundet sygdommens 
+sjældenhed ikke har været muligt at opnå fuldstændig dokumentation for lægemidlet. </p>
+<p>Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
+indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3552692c711f8f7419edb391c717f809
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for brineura Package Leaflet for language en"
+Description: "ePI document Bundle for brineura Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3552692c711f8f7419edb391c717f809"
+* entry[0].resource = composition-en-3552692c711f8f7419edb391c717f809
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3552692c711f8f7419edb391c717f809"
+* entry[=].resource = mp3552692c711f8f7419edb391c717f809
+                            
+                    
+Instance: bundlepackageleaflet-da-3552692c711f8f7419edb391c717f809
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for brineura Package Leaflet for language da"
+Description: "ePI document Bundle for brineura Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3552692c711f8f7419edb391c717f809"
+* entry[0].resource = composition-da-3552692c711f8f7419edb391c717f809
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3552692c711f8f7419edb391c717f809"
+* entry[=].resource = mp3552692c711f8f7419edb391c717f809
+                            
+                    
+
+
+
+Instance: mp3552692c711f8f7419edb391c717f809
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Brineura 150 mg solution for infusion"
-Description: "Brineura 150 mg solution for infusion"
+Title: "Medicinal Product brineura"
+Description: "brineura"
 Usage: #inline
 
  
@@ -311,7 +658,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Brineura 150 mg solution for infusion"
+  * productName = "brineura"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -338,29 +685,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3552692c711f8f7419edb391c717f809
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for brineura Package Leaflet for language en"
-Description: "ePI document Bundle for brineura Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3552692c711f8f7419edb391c717f809ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1192/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "brineura"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3552692c711f8f7419edb391c717f809"
-* entry[0].resource = composition-en-3552692c711f8f7419edb391c717f809
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd00938196da2fc8650f267a71612143a"
-* entry[=].resource = mpd00938196da2fc8650f267a71612143a
-                            
-                      
+* title = "List of all ePIs associated with brineura"
+
+* subject = Reference(mpd00938196da2fc8650f267a71612143a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#brineura "brineura"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3552692c711f8f7419edb391c717f809) // brineura en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3552692c711f8f7419edb391c717f809) // brineura da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3552692c711f8f7419edb391c717f809
+InstanceOf: List
+
+* insert 3552692c711f8f7419edb391c717f809ListRuleset
+    

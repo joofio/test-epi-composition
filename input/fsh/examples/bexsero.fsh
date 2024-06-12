@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-69c2bef02c7fe63e8cfc997db1e3d8f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for bexsero Package Leaflet"
@@ -372,12 +375,490 @@ Tel: +44(0)800 221customercontactuk@gsk.com </p>
 
 
 
+Instance: composition-da-69c2bef02c7fe63e8cfc997db1e3d8f8
+InstanceOf: CompositionUvEpi
+Title: "Composition for bexsero Package Leaflet"
+Description:  "Composition for bexsero Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc55ef957d1ecd9ad85e3d45a17e04439)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc55ef957d1ecd9ad85e3d45a17e04439
+* title = "TEST PURPOSES ONLY - bexsero"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du eller dit barn begynder at bruge Bexsero </li>
+<li>Sådan skal du bruge Bexsero </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What bexsero is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What bexsero is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bexsero er en Meningokok gruppe B-vaccine. </p>
+<p>Bexsero indeholder fire forskellige komponenter fra overfladen af bakterien Neisseria meningitidis 
+gruppe B. </p>
+<p>Bexsero gives til personer fra 2-måneders-alderen og derover til at hjælpe med at beskytte mod sygdom 
+forårsaget af bakterien Neisseria meningitidis gruppe B. Denne bakterie kan forårsage alvorlige og til tider 
+livstruende infektioner som meningitis (betændelse i hjernehinden og rygmarven) og sepsis (blodforgiftning). </p>
+<p>Vaccinen virker ved specifikt at stimulere kroppens naturlige forsvarssystem hos den vaccinerede 
+person. Dette resulterer i beskyttelse mod sygdommen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take bexsero"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take bexsero"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug IKKE Bexsero </p>
+<ul>
+<li>hvis du eller dit barn er allergisk over for de aktive stoffer eller et af de øvrige indholdsstoffer 
+i denne vaccine (angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller sygeplejersken, før du eller dit barn bruger Bexsero:</p>
+<ul>
+<li>hvis du eller dit barn har en alvorlig infektion med høj temperatur. Hvis dette er tilfældet, vil 
+vaccinationen blive udsat. Mindre infektioner, f.eks. en forkølelse, bør ikke kræve udsættelse af 
+vaccinationen, men tal med lægen eller sundhedspersonalet først. </li>
+<li>
+<p>hvis du eller dit barn har hæmofili eller andre problemer, der kan forhindre, at blodet størkner, 
+såsom behandling med blodfortyndende medicin (koagulationshæmmende midler). Tal med 
+lægen eller sundhedspersonalet før du bruger dette lægemiddel. </p>
+</li>
+<li>
+<p>hvis du eller dit barn modtager behandling, som blokerer den del af immunsystemet, kendt som 
+komplement aktivering, såsom eculizumab. Selvom du eller dit barn er blevet vaccineret med 
+Bexsero, er du og dit barn stadig i øget risiko for sygdom forårsagt af Neisseria meningitidis 
+bakterien gruppe B. </p>
+</li>
+<li>hvis dit barn er født for tidligt (før eller ved 28. uge af graviditeten), især hvis barnet havde 
+vejrtrækningsproblemer. I de første tre dage efter vaccinationen, er det mere almindeligt at disse 
+babyer kortvarrigt holder op med at trække vejret eller har uregelmæssig vejrtrækning, og de 
+kan defor have behov for særlig overvågning. </li>
+<li>hvis du eller dit barn har allergi over for antibiotikummet kanamycin. Niveauet af kanamycin 
+i vaccinen er lavt, hvis det er til stede. Tal med lægen eller sundhedspersonalet først, hvis du 
+eller dit barn muligvis er allergisk over for kanamycin. </li>
+</ul>
+<p>Besvimelse, følelse af svaghed eller andre stressrelaterede reaktioner kan opstå i forbindelse med 
+enhver injektion med kanyle. Fortæl det til lægen eller sundhedspersonalet, hvis du tidligere har haft 
+en sådan reaktion. </p>
+<p>Der er ingen data om brugen af Bexsero hos voksne over 50 år. Der er begrænset data om brugen af 
+Bexsero hos patienter med kroniske medicinske tilstande eller svækket immunforsvar. Hvis du eller dit 
+barn har svækket immunforsvar (for eksempel på grund af brugen af immunundertrykkende 
+lægemidler, HIV-infektion eller arvelige defekter i kroppens naturlige forsvarssystem), kan Bexseros 
+effektivitet muligvis være nedsat. </p>
+<p>Som for alle andre vacciner beskytter Bexsero ikke nødvendigvis alle personer fuldt ud, som bliver 
+vaccineret. </p>
+<p>Brug af anden medicin sammen med Bexsero </p>
+<p>Fortæl altid lægen eller sygeplejersken, hvis du eller dit barn bruger anden medicin, for nylig har brugt 
+anden medicin, planlægger at bruge anden medicin eller for nylig har fået en anden vaccine. </p>
+<p>Bexsero kan gives på samme tid som en af følgende vaccinekomponenter: difteri, stivkrampe, kighoste 
+(pertussis), Haemophilus influenzae type b, polio, hepatitis B, pneumokokker, mæslinger, fåresyge, 
+røde hunde, skoldkopper og meningokok A, C, W, Y. Tal med lægen eller sundhedspersonalet, hvis du 
+vil have flere oplysninger. </p>
+<p>Når det gives samtidigt med andre vacciner, skal Bexsero gives på et separat injektionssted. </p>
+<p>Lægen eller sundhedspersonalet kan bede dig om at give dit barn febersænkende medicin på 
+tidspunktet for vaccinationen og efter at Bexsero er givet. Dette vil bidrage til at mindske nogle 
+af bivirkningerne af Bexsero. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får Bexsero. Lægen kan anbefale, at du alligevel får Bexsero, hvis 
+du er i risiko for at blive udsat for meningokokinfektion. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Bexsero påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. 
+Visse af de virkninger, der er omtalt i punkt 4 ”Bivirkninger”, kan dog midlertidigt påvirke evnen til 
+at føre motorkøretøj og betjene maskiner. </p>
+<p>Bexsero indeholder natriumchlorid </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take bexsero"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take bexsero"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bexsero (0,5 ml) gives til dig eller dit barn af lægen eller sygeplejersken. Det injiceres i en muskel, 
+sædvanligvis i låret hos spædbørn eller overarmen hos børn, unge og voksne. </p>
+<p>Det er vigtigt at følge instruktionerne fra lægen eller sygeplejersken, så du eller dit barn fuldfører 
+injektionsforløbet. </p>
+<p>Spædbørn på 2 måneder til 5 måneder på tidspunktet for første dosis </p>
+<p>Dit barn bør indledningsvist have to eller tre injektioner af vaccinen efterfulgt af en supplerende 
+injektion (booster). 
+- Den første injektion skal gives tidligst ved 2-måneders-alderen. 
+- Hvis der gives tre indledende doser skal intervallet mellem injektionerne være mindst 1 måned. 
+- Hvis der gives to indledende doser skal intervallet mellem injektionerne være mindst 2 måneder. 
+- Boosteren gives, når barnet er mellem 12 og 15 måneder gammelt, efter et interval på mindst 6 
+måneder fra den sidste injektion af de indledende injektioner. Hvis injektionen udsættes, bør 
+boosteren ikke gives senere end ved 24-måneders-alderen. </p>
+<p>Spædbørn fra 6 til 11 måneder på tidspunktet for første dosis </p>
+<p>Spædbørn i alderen 6 til 11 måneder bør have to injektioner af vaccinen efterfulgt af en supplerende 
+injektion (booster). 
+- Intervallet mellem hver af injektionerne skal være mindst to måneder. 
+- Boosteren gives i det andet leveår med et interval på mindst to måneder efter den anden 
+injektion. </p>
+<p>Børn fra 12 måneder til 23 måneder på tidspunktet for første dosis </p>
+<p>Børn fra 12 måneder til 23 måneder skal have to injektioner af vaccinen efterfulgt af en supplerende 
+injektion (booster). 
+- Intervallet mellem injektionerne skal være mindst 2 måneder 
+- Boosteren gives med et interval på mellem 12 til 23 måneder efter den anden injektion. </p>
+<p>Børn fra 2 år til 10 år på tidspunktet for første dosis </p>
+<p>Børn fra 2 år til 10 år skal have to injektioner af vaccinen. 
+- Intervallet mellem injektionerne skal være mindst 1 måned. 
+Dit barn kan få en ekstra injektion (booster). </p>
+<p>Unge og voksne fra 11 år på tidspunktet for første dosis </p>
+<p>Unge (fra 11 år) og voksne skal have to injektioner af vaccinen. 
+- Intervallet mellem injektionerne skal være mindst 1 måned. 
+Du kan få en ekstra injektion (booster). </p>
+<p>Voksne på over 50 år </p>
+<p>Der foreligger ingen data for voksne på over 50 år. Spørg lægen til råds med hensyn til om det kan 
+være en fordel for dig at få Bexsero. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om vedrørende Bexsero. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre vacciner give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Når du eller dit barn har fået Bexsero, er de mest almindelige bivirkninger (kan forekomme hos 
+mere end 1 ud af 10 personer), som du eller dit barn kan opleve (indberettet i alle aldersgrupper):</p>
+<ul>
+<li>smerter/ømhed på injektionsstedet, rødme af huden på injektionsstedet, hævelse af huden på 
+injektionsstedet, hårdhed af huden på injektionsstedet. </li>
+</ul>
+<p>Følgende bivirkninger kan også forekomme efter modtagelse af denne vaccine. </p>
+<p>Spædbørn og børn (op til 10 år) </p>
+<p>Meget almindelige (disse kan forekomme hos mere end 1 ud af 10 personer): feber (38 °C eller 
+derover), appetitløshed, ømhed ved injektionsstedet (herunder svær ømhed ved injektionsstedet, 
+som resulterer i gråd ved bevægelse af den injicerede arm/ben), smerter i led, hududslæt (børn 
+i alderen 12 til 23 måneder) (ikke almindeligt efter booster), søvnighed, irritabilitet, usædvanlig gråd, 
+opkastning (ikke almindelig efter booster), diarré, hovedpine. </p>
+<p>Almindelige (disse kan forekomme hos op til 1 ud af 10 personer): hududslæt (spædbørn og børn 
+i alderen 2 til 10 år). </p>
+<p>Ikke almindelige (disse kan forekomme hos op til 1 ud af 100 personer): høj feber (40° C eller 
+derover), anfald (herunder feberkramper), tør hud, bleghed (sjælden efter booster). </p>
+<p>Sjældne (disse kan forekomme hos op til 1 ud af 1 000 personer): Kawasakis sygdom, der kan omfatte 
+symptomer som feber, der varer i mere end fem dage, forbundet med hududslæt på kroppen og nogle 
+gange efterfulgt af hudafskalning på hænder og fingre, hævede kirtler i halsen, røde øjne, læber, hals 
+og tunge, kløende udslæt, hududslæt. </p>
+<p>Unge (fra 11 år) og voksne </p>
+<p>Meget almindelige (disse kan forekomme hos mere end 1 ud af 10 personer): smerter på 
+injektionsstedet, som resulterer i manglende evne til at udføre normale daglige aktiviteter, smertefulde 
+muskler og led, kvalme, generel utilpashed, hovedpine. </p>
+<p>Følgende bivirkninger er forekommet, efter vaccinen kom på markedet: </p>
+<p>Forstørrede lymfeknuder. 
+Allergiske reaktioner, som kan omfatte alvorlig hævelse af læber, mund og/eller hals (hvilket kan gøre 
+det svært at synke), vejrtrækningsproblemer med hvæsen eller hoste, udslæt, bevidstløshed og meget 
+lavt blodtryk. 
+Kollaps (pludselig indsættende slaphed af musklerne), mindre kontaktbarhed eller manglende 
+opmærksomhed, og bleghed eller blålig misfarvning af huden hos små børn. 
+Følelse af svaghed eller besvimelse. 
+Hududslæt (unge fra 11 år og voksne). 
+Feber (unge fra 11 år og voksne). 
+Reaktioner på injektionsstedet med omfattende hævelse af den/det vaccinerede arm/ben, blærer på 
+eller omkring injektionsstedet og en hård knude på injektionsstedet (som kan være tilstede i mere end 
+en måned). Nakkestivhed eller ubehagelig følsomhed over for lys (fotofobi), der indikerer meningeal 
+irritation, er blevet rapporteret sporadisk, kort efter vaccinationen. Disse symptomer har været af mild 
+og forbigående karakter. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V.  </p>
+<p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
+af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store bexsero"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store bexsero"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn. </p>
+<p>Brug ikke vaccinen efter den udløbsdato, der står på æsken og den fyldte injektionssprøjte efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. 
+Opbevares i den originale yderpakning for at beskytte mod lys. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bexsero indeholder: </p>
+<p>En dosis (0,5 ml) indeholder: </p>
+<p>Aktive stoffer: </p>
+<p>Rekombinant Neisseria meningitidis gruppe B NHBA-fusionsprotein1, 2, 3 
+50 mikrogram 
+Rekombinant Neisseria meningitidis gruppe B NadA-protein1, 2, 3 
+50 mikrogram 
+Rekombinant Neisseria meningitidis gruppe B fHbp-fusionsprotein1, 2, 3 
+50 mikrogram 
+Ydre membranvesikler (OMV) fra Neisseria meningitidis gruppe B stamme 
+NZ98/254 målt som mængden af totalt protein, som indeholder PorA P1.25 mikrogram </p>
+<p>1 
+produceret i E. coli-celler ved brug af rekombinant DNA-teknologi 
+2 
+adsorberet på aluminiumhydroxid (0,5 mg Al3+) 
+3 
+NHBA (Neisserial heparinbindende antigen), NadA (Neisseria adhesin A), 
+fHbp (faktor H-bindende protein) </p>
+<p>Øvrige indholdsstoffer: 
+Natriumchlorid, histidin, saccharose og vand til injektionsvæsker (se punkt 2 for yderligere 
+information om natrium). </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Bexsero er en hvid opaliserende suspension. 
+Bexsero findes som 1 dosis fyldt injektionssprøjte, med eller uden separate kanyler, pakninger 
+med 1 eller 10. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>GSK Vaccines S.r.l. 
+Via Fiorentina 1 
+53100 Siena 
+Italien. </p>
+<p>Fremstiller </p>
+<p>GSK Vaccines S.r.l. 
+Bellaria-Rosia 
+53018 Sovicille (Siena) 
+Italien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+Tél/Tel: + 32 10 85 52<br />
+Lietuva 
+GSK Vaccines S.r.l. 
+Tel: +370 80000 </p>
+<p>България 
+GSK Vaccines S.r.l. 
+Тел. +359 80018 
+Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+Tél/Tel: + 32 10 85 52<br />
+Česká republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
+<p>Magyarország 
+GSK Vaccines S.r.l. 
+Tel.: +36 80088 
+Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GSK Vaccines S.r.l. 
+Tel: +356 80065 
+Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel: +49 (0)89 36044 8de.impfservice@gsk.com </p>
+<p>Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081 
+Eesti 
+GSK Vaccines S.r.l. 
+Tel: +372 8002 </p>
+<p>Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20<br />
+Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E 
+Tηλ: + 30 210 68 82<br />
+Österreich 
+GlaxoSmithKline Pharma GmbH. 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (22) 576 9 
+France 
+Laboratoire GlaxoSmithKline 
+Tél: + 33 (0) 1 39 17 84 diam@gsk.com </p>
+<p>Portugal 
+GlaxoSmithKline - Produtos Farmacêuticos, 
+Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com </p>
+<p>Hrvatska 
+GSK Vaccines S.r.l. 
+Tel.: +385 800787România 
+GSK Vaccines S.r.l. 
+Tel: +40 800672 </p>
+<p>Ireland 
+GlaxoSmithKline (Ireland) Ltd 
+Tel: + 353 (0)1 495 5 
+Slovenija 
+GSK Vaccines S.r.l. 
+Tel: +386 80688 </p>
+<p>Ísland 
+Vistor hf.<br />
+Sími: +354 535 7 
+Slovenská republika 
+GSK Vaccines S.r.l. 
+Tel: +421 800500 </p>
+<p>Italia 
+GlaxoSmithKline S.p.A. 
+Tel: +39 (0)45 7741<br />
+Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 10 30 30<br />
+Κύπρος 
+GSK Vaccines S.r.l. 
+Τηλ: +357 80070 </p>
+<p>Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+GSK Vaccines S.r.l. 
+Tel: +371 80205 
+United Kingdom (Northern Ireland) 
+GSK Vaccines S.r.l. 
+Tel: + 44 (0)800 221 customercontactuk@gsk.com </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Ved opbevaring kan der observeres et fint råhvidt bundfald i den fyldte injektionssprøjte med suspensionen. </p>
+<p>Den fyldte injektionssprøjte skal omrystes grundigt før brug, indtil der dannes en homogen suspension. </p>
+<p>Vaccinen skal inspiceres visuelt for partikler og misfarvning før administration. Hvis der observeres 
+fremmede partikler og/eller afvigende fysisk udseende, må vaccinen ikke administreres. Hvis 
+pakningen indeholder to kanyler i forskellige længder, skal den bedst egnede kanyle til at sikre 
+intramuskulær administration vælges. </p>
+<p>Må ikke nedfryses. </p>
+<p>Bexsero må ikke blandes med andre vacciner i samme sprøjte. </p>
+<p>Hvis samtidig administration af andre vacciner er nødvendig, skal vaccinerne administreres på 
+separate injektionssteder. </p>
+<p>Der skal drages omsorg for at sikre, at vaccinen kun injiceres intramuskulært. </p>
+<p>Instruktioner til den fyldte injektionssprøjte </p>
+<p>Hold på sprøjtens cylinder, ikke på stemplet. 
+Skru sprøjtens hætte af ved at dreje den imod 
+uret. </p>
+<p>Fastgør kanylen ved at forbinde nålebasen med 
+Luer Lock Adapteren og dreje en kvart omgang 
+med uret, indtil du mærker, at den låser. 
+Træk ikke stemplet ud af cylinderen. Hvis dette 
+sker, må vaccinen ikke administreres. </p>
+<p>Bortskaffelse 
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. 
+Stempel 
+Cylinder 
+Hætte 
+Luer Lock Adapter 
+Nålebase </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-69c2bef02c7fe63e8cfc997db1e3d8f8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bexsero Package Leaflet for language en"
+Description: "ePI document Bundle for bexsero Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-69c2bef02c7fe63e8cfc997db1e3d8f8"
+* entry[0].resource = composition-en-69c2bef02c7fe63e8cfc997db1e3d8f8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp69c2bef02c7fe63e8cfc997db1e3d8f8"
+* entry[=].resource = mp69c2bef02c7fe63e8cfc997db1e3d8f8
+                            
+                    
+Instance: bundlepackageleaflet-da-69c2bef02c7fe63e8cfc997db1e3d8f8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bexsero Package Leaflet for language da"
+Description: "ePI document Bundle for bexsero Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-69c2bef02c7fe63e8cfc997db1e3d8f8"
+* entry[0].resource = composition-da-69c2bef02c7fe63e8cfc997db1e3d8f8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp69c2bef02c7fe63e8cfc997db1e3d8f8"
+* entry[=].resource = mp69c2bef02c7fe63e8cfc997db1e3d8f8
+                            
+                    
+
+
+
+Instance: mp69c2bef02c7fe63e8cfc997db1e3d8f8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Bexsero suspension for injection in pre-filled syringe"
-Description: "Bexsero suspension for injection in pre-filled syringe"
+Title: "Medicinal Product bexsero"
+Description: "bexsero"
 Usage: #inline
 
  
@@ -397,7 +878,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Bexsero suspension for injection in pre-filled syringe"
+  * productName = "bexsero"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -424,29 +905,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-69c2bef02c7fe63e8cfc997db1e3d8f8
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for bexsero Package Leaflet for language en"
-Description: "ePI document Bundle for bexsero Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 69c2bef02c7fe63e8cfc997db1e3d8f8ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/812/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "bexsero"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-69c2bef02c7fe63e8cfc997db1e3d8f8"
-* entry[0].resource = composition-en-69c2bef02c7fe63e8cfc997db1e3d8f8
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc55ef957d1ecd9ad85e3d45a17e04439"
-* entry[=].resource = mpc55ef957d1ecd9ad85e3d45a17e04439
-                            
-                      
+* title = "List of all ePIs associated with bexsero"
+
+* subject = Reference(mpc55ef957d1ecd9ad85e3d45a17e04439)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#bexsero "bexsero"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-69c2bef02c7fe63e8cfc997db1e3d8f8) // bexsero en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-69c2bef02c7fe63e8cfc997db1e3d8f8) // bexsero da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-69c2bef02c7fe63e8cfc997db1e3d8f8
+InstanceOf: List
+
+* insert 69c2bef02c7fe63e8cfc997db1e3d8f8ListRuleset
+    

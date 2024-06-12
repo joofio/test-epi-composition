@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f7bd65adcf41880a5b8668a52603da99
 InstanceOf: CompositionUvEpi
 Title: "Composition for methylthioninium Package Leaflet"
@@ -405,12 +408,510 @@ Tel: + 33 1 41 12 65 This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-f7bd65adcf41880a5b8668a52603da99
+InstanceOf: CompositionUvEpi
+Title: "Composition for methylthioninium Package Leaflet"
+Description:  "Composition for methylthioninium Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp49d3194d1c5f2cc59486d3614e7366db)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp49d3194d1c5f2cc59486d3614e7366db
+* title = "TEST PURPOSES ONLY - methylthioninium"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at få Methylthioniniumchlorid Proveblue   </li>
+<li>Sådan gives Methylthioniniumchlorid Proveblue   </li>
+<li>Bivirkninger </li>
+<li>Opbevaring   </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What methylthioninium is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What methylthioninium is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Methylthioniniumchlorid (også kaldet methylenblåt) tilhører en gruppe af lægemidler kaldet modgifte. 
+Methylthioniniumchlorid Proveblue gives til dig eller dit barn (0-17 år) til behandling af problemer med dit 
+blod som følge af eksponering for visse lægemidler eller kemiske stoffer, der kan forårsage en sygdom kaldet 
+methæmoglobinæmi. 
+Ved methæmoglobinæmi indeholder dit blod for meget methæmoglobin (en unormal form af hæmoglobin, 
+der ikke kan transportere ilt rundt i din krop effektivt). Dette lægemiddel vil hjælpe dit hæmoglobin til at 
+vende til normalen og genoprette transporten af ilt i blodet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take methylthioninium"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take methylthioninium"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Methylthioniniumchlorid Proveblue <br />
+- Hvis du er allergisk over for methylthioniniumchlorid eller andre thiazinfarvestoffer. 
+- Hvis din krop ikke producerer nok af enzymet G6PD (glukose-6-phosphatdehydrogenase)<br />
+-<br />
+Hvis din krop ikke producerer nok af enzymet NADPH (nicotinamidadenindinucleotidphosphat) 
+reduktase 
+- Hvis din blodlidelse skyldes nitrit fremkaldt under behandling af cyanidforgiftning 
+- Hvis din blodlidelse skyldes chloratforgiftning. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller sygeplejersken, før du bruger Methylthioniniumchlorid Proveblue 
+- Hvis du har moderat eller svær nyresygdom; der er behov for lavere enkeltdosis (1 til 2 mg/kg 
+maksimum) 
+- Hvis din blodlidelse er forårsaget af det kemiske stof anilin, som findes i farvestoffer; lavere doser kan 
+være nødvendige, og den samlede kumulative dosis bør ikke overskride 4 mg/kg (jf. pkt. 3 i denne 
+indlægsseddel) </p>
+<ul>
+<li>Hvis din blodlidelse er forårsaget af lægemidlet dapson (der anvendes til behandling af spedalskhed og 
+andre hudlidelser); lavere doser kan være nødvendige, og den samlede kumulative dosis bør ikke 
+overskride 4 mg/kg (jf. pkt. 3) </li>
+<li>Hvis du lider af hyperglycæmi eller diabetes mellitus, da disse lidelser kan forværres af 
+glukoseopløsningen, der anvendes til opløsning af lægemidlet </li>
+<li>Din urin og afføring kan blive blågrøn, og din hud kan blive blåfarvet, når du behandles med 
+Methylthioniniumchlorid Proveblue. Misfarvningen er forventelig og vil forsvinde efter behandlingens 
+ophør.<br />
+Fortæl det til din læge, hvis noget af ovenstående gælder for dig. </li>
+</ul>
+<p>Lysfølsomhed 
+Methylthioniniumchlorid kan forårsage en lysfølsomhedsreaktion i huden (reaktion, der minder om 
+solskoldning) ved udsættelse for stærke lyskilder, såsom lysbehandling, lys på operationsstuer og 
+pulsoximetre. 
+Der skal tages forholdsregler, der beskytter mod lys. </p>
+<p>Monitoreringstest 
+Du vil blive udsat for monitoreringstest under og efter behandlingen med Methylthioniniumchlorid 
+Proveblue. </p>
+<p>Børn 
+Vær ekstra forsigtig med Methylthioniniumchlorid Proveblue:</p>
+<ul>
+<li>Hos nyfødte og børn under 3 måneder anbefales lavere doser (jf. pkt. 3 i denne indlægsseddel). </li>
+</ul>
+<p>Brug af anden medicin sammen med Methylthioniniumchlorid Proveblue 
+Fortæl det altid til lægen, på apotekspersonalet eller til sundhedspersonalet, hvis du bruger anden medicin 
+eller har brugt det for nylig.<br />
+Du bør ikke få Methylthioniniumchlorid samtidig med, at du tager visse lægemidler mod depression eller 
+angst, som påvirker et kemikalie i hjernen kaldet serotonin. Hvis methylthioniniumchlorid anvendes sammen 
+med disse lægemidler, kan det forårsage serotoninsyndrom, som kan være livstruende. Sådanne lægemidler 
+omfatter: </p>
+<ul>
+<li>
+<p>selektive serotoningenoptagelseshæmmere (SSRI) såsom citalopram, escitalopram, fluoxetin, 
+fluvoxamin, paroxetin, sertralin og zimelidin </p>
+</li>
+<li>
+<p>bupropion </p>
+</li>
+<li>
+<p>buspiron </p>
+</li>
+<li>
+<p>clomipramin </p>
+</li>
+<li>
+<p>mirtazapin  </p>
+</li>
+<li>
+<p>venlafaxin  </p>
+</li>
+<li>
+<p>monoaminooxidasehæmmere.   <br />
+Opioider, for eksempel tramadol, fentanyl, pethidine og dextromethorphan, kan også øge risikoen for at 
+udvikle serotoninsyndrom, hvis det anvendes i kombination med methylthioniniumchlorid. 
+Hvis en intravenøs anvendelse af Methylthioniniumchlorid ikke kan undgås, skal du have den lavest mulige 
+dosis, og du skal observeres nøje i op til 4 timer efter administrationen. 
+Tal med din læge, hvis du er i tvivl om, hvorvidt lægemidlet bør gives til dig. </p>
+</li>
+</ul>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du får dette lægemiddel.<br />
+Det anbefales ikke at bruge Methylthioniniumchlorid Proveblue under graviditeten, medmindre det er 
+absolut nødvendigt, f.eks. i en livstruende situation. 
+På grund af manglende data om, hvorvidt methylthioniniumchlorid udskilles i modermælk, bør amning 
+afbrydes i op til 8 dage efter behandling med dette lægemiddel.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Kør ikke bil og lad være med at arbejde med værktøj eller maskiner, da methylthioniniumchlorid i moderat 
+grad påvirker evnen til at føre motorkøretøj eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take methylthioninium"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take methylthioninium"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen injicerer dette lægemiddel i en vene (intravenøst) langsomt over et tidsrum på 5 minutter.  </p>
+<p>Voksne, børn over 3 måneder og ældre 
+Den normale dosis er 1 til 2 mg pr. kg legemsvægt, dvs. 0,2-0,4 ml pr. kg administreret over et tidsrum på 5 
+minutter. Om nødvendigt kan der gives endnu en dosis efter en time.<br />
+Den maksimale anbefalede kumulative dosis for hele behandlingsforløbet er på 7 mg/kg.<br />
+Hvis din blodlidelse er forårsaget af anilin eller dapson, bør den samlede kumulative dosis ikke overskride 4 
+mg/kg (jf. pkt. 2). 
+Behandlingen bør normalt ikke vare mere end en dag. </p>
+<p>Nedsat nyrefunktion 
+For spædbørn over 3 måneder, børn og unge samt hos voksne er den anbefalede dosis for patienter med 
+nedsat nyrefunktion (eGFR 30-59 ml/min 1,73 m2) 1-2 mg/kg kropsvægt. Hvis der gives en dosis på 
+1 mg/kg, kan der gives en gentagelsesdosis på 1 mg/kg en time efter den første dosis i tilfælde af vedvarende 
+eller tilbagevendende symptomer, eller hvis methæmoglobinniveauerne fortsat er signifikant højere end det 
+normale kliniske interval. Den maksimale, anbefalede kumulative dosis for behandlingsforløbet er 2 mg/kg. 
+For spædbørn over 3 måneder, børn og unge samt for voksne er den anbefalede dosis for patienter med svær 
+nedsat nyrefunktion (eGFR 15-29 ml/min 1,73 m2) en enkelt dosis 1 mg/kg kropsvægt. Den maksimale, 
+anbefalede kumulative dosis for behandlingsforløbet er 1 mg/kg. 
+Methylthioniniumchlorid bør anvendes med forsigtighed til spædbørn på 3 måneder eller yngre og nyfødte 
+spædbørn med moderat til svær nedsat nyrefunktion (eGFR 15-59 ml/min/1,73 m2), da der ikke foreligger 
+data, og methylthioniniumchlorid overvejende elimineres renalt. Lavere maksimale kumulative doser 
+(&lt;0,5 mg/kg legemsvægt) kan overvejes. 
+Der anbefales ingen justering af dosis hos patienter med let nedsat nyrefunktion (eGFR 60-
+89 ml/min/1,73 m2) </p>
+<p>Spædbørn på 3 måneder eller derunder<br />
+Den anbefalede dosis er 0,3 til 0,5 mg pr. kg legemsvægt, dvs. 0,06-0,1 ml/kg over et tidsrum på 5 minutter.<br />
+Der kan gives endnu en dosis (0,3-0,5 mg/kg legemsvægt, dvs. 0,06-0,1 ml/kg) efter en time, hvis 
+symptomerne varer ved eller dukker op igen. Behandlingen bør normalt ikke vare mere end en dag. </p>
+<p>Dette lægemiddel kan fortyndes i 50 ml glukose 50 mg/ml (5 %) injektionsvæske, opløsning for at undgå 
+lokale smerter, navnlig hos børn. </p>
+<p>Hvis du har fået for meget Methylthioniniumchlorid Proveblue<br />
+Da du får dette lægemiddel, mens du er på hospitalet, er det usandsynligt, at du vil få for meget eller for lidt, 
+men fortæl det til din læge, hvis du oplever en af nedenstående bivirkninger:</p>
+<ul>
+<li>kvalme </li>
+<li>mavesmerter  </li>
+<li>brystsmerter </li>
+<li>svimmelhed </li>
+<li>hovedpine </li>
+<li>svedtendens </li>
+<li>forvirring </li>
+<li>en stigning i methæmoglobinniveauet (en unormal form for hæmoglobin i blodet) </li>
+<li>højt blodtryk </li>
+<li>stakåndethed </li>
+<li>unormalt hurtig puls </li>
+<li>rysten  </li>
+<li>misfarvning af huden. Din hud kan blive blå </li>
+<li>reduktion i antallet af røde blodlegemer, som kan gøre din hud bleg og gøre dig stakåndet og svag </li>
+<li>gulsot (gulfarvning af huden og øjnene), dette er kun indberettet hos spædbørn. 
+Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Methylthioniniumchlorid Proveblue kan som al anden medicin give bivirkninger, men ikke alle får 
+bivirkninger.<br />
+Bivirkningerne er de samme hos voksne og børn med undtagelse af gulsot, som kun er indberettet for 
+spædbørn. </p>
+<h2>* Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 behandlede)</h2>
+<h2>smerter i arme eller ben</h2>
+<h2>svimmelhed</h2>
+<h2>øget svedtendens - misfarvning af huden. Din hud kan blive blå</h2>
+<h2>blå eller grøn urin</h2>
+<h2>følelsesløshed og snurren</h2>
+<h2>usædvanlig smag i munden</h2>
+<p>kvalme </p>
+<ul>
+<li>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede):</p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>brystsmerter </li>
+<li>hovedpine </li>
+<li>angst </li>
+<li>smerter på injektionsstedet </li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>Ikke kendt (hyppigheden kan ikke fastsættes ud fra de tilgængelige data):</p>
+</li>
+<li>
+<p>serotoninsyndrom, når Methylthioniniumchlorid Proveblue er blevet taget sammen med visse 
+lægemidler til behandling af depression eller angst, se afsnit 2 </p>
+</li>
+<li>nedsat hæmoglobin (protein i de røde blodlegemer, som transporterer ilt i blodet) kan ses i forbindelse 
+med blodprøver </li>
+<li>fald i antallet af røde blodlegemer, hvilket kan forårsage bleg hud, stakåndethed og svaghed </li>
+<li>lokal vævsskade på injektionsstedet </li>
+<li>gulsot (gulfarvning af hud og øjne) - dette er kun set hos spædbørn </li>
+<li>taleproblemer </li>
+<li>højt eller lavt blodtryk </li>
+<li>uro </li>
+<li>iltmangel </li>
+<li>uregelmæssigt hjerteslag, herunder abnormt langsomt eller hurtigt hjerteslag </li>
+<li>alvorlige allergiske reaktioner (såkaldte anafylaktiske reaktioner, som kan forårsage hævelse af svælg 
+eller ansigt, vejrtrækningsbesvær eller alvorligt udslæt) </li>
+<li>stigning i methæmoglobin (en abnorm form for hæmoglobin i blodet) </li>
+<li>stakåndethed  </li>
+<li>forvirring </li>
+<li>rysten </li>
+<li>nældefeber </li>
+<li>feber </li>
+<li>hurtig vejrtrækning </li>
+<li>udvidede pupiller </li>
+<li>misfarvet afføring. Den kan være grøn eller blå </li>
+<li>øget følsomhed over for lys i huden (lysfølsomhed). </li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store methylthioninium"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store methylthioninium"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og mærkaterne på ampullen efter Exp. 
+Udløbsdatoen (Exp) er den sidste dag i den nævnte måned. Lægen eller sundhedspersonalet kontrollerer, at 
+udløbsdatoen på mærkaten ikke er overskredet, før du får injektionen. 
+Må ikke opbevares i køleskab eller nedfryses. Ampullen opbevares i den originale yderpakning for at 
+beskytte mod lys. 
+Lægemidlet skal anvendes umiddelbart efter åbning eller opløsning. 
+Methylthioniniumchlorid Proveblue må ikke anvendes, hvis opløsningen er misfarvet, uklar, grumset, eller 
+hvis der er bundfald eller partikler i den. 
+Ikke anvendte lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinjer. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Methylthioniniumchlorid Proveblue indeholder:</p>
+<ul>
+<li>Aktivt stof: methylthioniniumchlorid.<br />
+Hver ml opløsning indeholder 5 mg methylthioniniumchlorid. 
+Hver 10 ml-ampul indeholder 50 mg methylthioniniumchlorid. 
+Hver 2 ml-ampul indeholder 10 mg methylthioniniumchlorid. </li>
+<li>Øvrige indholdsstoffer: vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Methylthioniniumchlorid Proveblue er en klar mørkeblå injektionsvæske, opløsning og leveres i klare 
+glasampuller.<br />
+Hver æske indeholder en bakke med 5 ampuller à 10 ml. 
+Hver æske indeholder en bakke med 5 ampuller à 2 ml. 
+Hver æske indeholder en bakke med 20 ampuller à 2 ml. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Provepharm SAS 
+22 rue Marc Donadille, 13013 Marseille, Frankrig </p>
+<p>Fremstiller 
+Cenexi 
+52, Rue Marcel et Jacques Gaucher, 94120 Fontenay-sous-Bois, Frankrig 
+Hvis du ønsker yderligere oplysninger om Methylthioniniumchlorid Proveblue, skal du henvende dig til den 
+lokale repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien<br />
+Pharmanovia Benelux B.V. 
+Tél/Tel: + 31 (0) 76-5600 
+Lietuva 
+Provepharm SAS 
+Tel: +33 (0)4 91 08 69<br />
+България 
+Provepharm SAS 
+Teл.: + 33 (0)4 91 08 69<br />
+Luxembourg/Luxemburg 
+Pharmanovia Benelux B.V.Tél/Tel: + 31 (0) 76-
+5600 
+Česká republika 
+LERAM pharmaceuticals s.r.o 
+Tel: +420 737 657 454<br />
+Magyarország 
+Mediwings Pharma Kft. 
+Tel.: + 36 28 410<br />
+Danmark 
+Pharmanovia A/S 
+Tlf: + 45 33 33 76<br />
+Malta 
+Provepharm SAS 
+Tel: + 33 (0)4 91 08 69<br />
+Deutschland 
+Dr. Franz Köhler Chemie GmbH 
+Tel: + 49 (0) 6251-1083-0 </p>
+<p>Nederland 
+Pharmanovia Benelux B.V. 
+Tel: + 31 (0) 76-5600 
+Eesti 
+Provepharm SAS 
+Tel: + 33 (0)4 91 08 69<br />
+Norge 
+Pharmanovia A/S 
+Tlf: + 45 33 33 76<br />
+Ελλάδα 
+a VIPharma International AE 
+Τηλ: + 30-210-6194 
+Österreich 
+Dr. Franz Köhler Chemie GmbH 
+Tel: + 49 (0) 6251-1083-0 </p>
+<p>España 
+Fresenius Kabi España, S.A.U.   <br />
+Tel: + 34 93 225 65<br />
+Polska 
+Apfel Pharm Sp. z o.o. 
+Tel.: + 48 694 775<br />
+France 
+Provepharm SAS 
+Tél: + 33 (0)4 91 08 69<br />
+Portugal 
+Labesfal - Laboratórios Almiro 
+Tel: + 351 232 831 
+Hrvatska 
+Provepharm SAS 
+Tel: + 33 (0)4 91 08 69<br />
+Ireland 
+Provepharm SAS 
+Tel: + 33 (0)4 91 08 69<br />
+România 
+Provepharm SAS 
+Tel: + 33 (0)4 91 08 69<br />
+Slovenija 
+Provepharm SAS 
+Tel: + 33 (0)4 91 08 69<br />
+Ísland 
+Pharmanovia A/S 
+Sími: + 45 33 33 76<br />
+Slovenská republika 
+LERAM pharmaceuticals s.r.o 
+Tel: +420 737 657 454<br />
+Italia 
+Altais Pharma S.r.l 
+Tel: +39 06 97 79 70<br />
+Suomi/Finland 
+Pharmanovia A/S 
+Puh/Tel: + 45 33 33 76  </p>
+<p>Κύπρος 
+Isangen Pharma Cyprus Ltd 
+Τηλ: + 357-24-638 
+Sverige 
+Pharmanovia A/S 
+Tel: + 45 33 33 76<br />
+Latvija 
+Provepharm SAS 
+Tel: + 33 (0)4 91 08 69<br />
+United Kingdom (Northern Ireland) 
+Provepharm SAS 
+Tel: + 33 (0)4 91 08 69  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om Methylthioniniumchlorid Proveblue på Det Europæiske 
+Lægemiddelagenturs hjemmeside: http://www.ema.europa.eu. </p>
+<p>&lt;--------------------------------------------------------------------------------------------------------------------------<br />
+Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Forberedelse til intravenøs administration </p>
+<p>Anvendes umiddelbart efter anbrud. Indgives meget langsomt over et tidsrum på 5 minutter. </p>
+<p>Methylthioniniumchlorid Proveblue er hypotonisk og kan fortyndes i 50 ml glukose 50 mg/ml (5 %) 
+injektionsvæske, opløsning for at undgå lokale smerter, navnlig hos den pædiatriske population.<br />
+Må ikke fortyndes med natriumchlorid 9 mg/ml (0.9%) injektionsvæske, opløsning, fordi det er blevet påvist, 
+at chlorid nedsætter opløseligheden af methylthioniniumchlorid. </p>
+<p>Yderligere oplysninger om, hvordan Methylthioniniumchlorid Proveblue kan indgives, findes i punkt 3 i 
+indlægssedlen. </p>
+<p>Ikke anvendte lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f7bd65adcf41880a5b8668a52603da99
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for methylthioninium Package Leaflet for language en"
+Description: "ePI document Bundle for methylthioninium Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f7bd65adcf41880a5b8668a52603da99"
+* entry[0].resource = composition-en-f7bd65adcf41880a5b8668a52603da99
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf7bd65adcf41880a5b8668a52603da99"
+* entry[=].resource = mpf7bd65adcf41880a5b8668a52603da99
+                            
+                    
+Instance: bundlepackageleaflet-da-f7bd65adcf41880a5b8668a52603da99
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for methylthioninium Package Leaflet for language da"
+Description: "ePI document Bundle for methylthioninium Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f7bd65adcf41880a5b8668a52603da99"
+* entry[0].resource = composition-da-f7bd65adcf41880a5b8668a52603da99
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf7bd65adcf41880a5b8668a52603da99"
+* entry[=].resource = mpf7bd65adcf41880a5b8668a52603da99
+                            
+                    
+
+
+
+Instance: mpf7bd65adcf41880a5b8668a52603da99
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Methylthioninium chloride Proveblue 5 mg/ml solution for injection"
-Description: "Methylthioninium chloride Proveblue 5 mg/ml solution for injection"
+Title: "Medicinal Product methylthioninium"
+Description: "methylthioninium"
 Usage: #inline
 
  
@@ -430,7 +931,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Methylthioninium chloride Proveblue 5 mg/ml solution for injection"
+  * productName = "methylthioninium"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -457,29 +958,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f7bd65adcf41880a5b8668a52603da99
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for methylthioninium Package Leaflet for language en"
-Description: "ePI document Bundle for methylthioninium Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f7bd65adcf41880a5b8668a52603da99ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/682/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "methylthioninium"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f7bd65adcf41880a5b8668a52603da99"
-* entry[0].resource = composition-en-f7bd65adcf41880a5b8668a52603da99
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp49d3194d1c5f2cc59486d3614e7366db"
-* entry[=].resource = mp49d3194d1c5f2cc59486d3614e7366db
-                            
-                      
+* title = "List of all ePIs associated with methylthioninium"
+
+* subject = Reference(mp49d3194d1c5f2cc59486d3614e7366db)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#methylthioninium "methylthioninium"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f7bd65adcf41880a5b8668a52603da99) // methylthioninium en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f7bd65adcf41880a5b8668a52603da99) // methylthioninium da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f7bd65adcf41880a5b8668a52603da99
+InstanceOf: List
+
+* insert f7bd65adcf41880a5b8668a52603da99ListRuleset
+    

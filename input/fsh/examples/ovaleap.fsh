@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c2b885df39c538ef6cd9dc7a6e1945aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for ovaleap Package Leaflet"
@@ -414,12 +417,543 @@ Germany </p>
 
 
 
+Instance: composition-da-c2b885df39c538ef6cd9dc7a6e1945aa
+InstanceOf: CompositionUvEpi
+Title: "Composition for ovaleap Package Leaflet"
+Description:  "Composition for ovaleap Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp082cdb3a1844097e9d094e47a82dba37)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp082cdb3a1844097e9d094e47a82dba37
+* title = "TEST PURPOSES ONLY - ovaleap"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Ovaleap  </li>
+<li>Sådan skal du bruge Ovaleap </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ovaleap is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ovaleap is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Dette lægemiddel indeholder det aktive stof follitropin alfa, som er næsten identisk med et naturligt 
+hormon, som kroppen danner, der kaldes "follikel-stimulerende hormon" (FSH). FSH er en 
+gonadotropin, en type hormon, som spiller en vigtig rolle i human fertilitet og reproduktion. Hos 
+kvinder er FSH nødvendigt til vækst og udvikling af sækkene (follikler) i æggestokkene (ovarierne), 
+der indeholder ægcellerne. Hos mænd er FSH nødvendigt for sædproduktionen. </p>
+<p>Anvendelse </p>
+<p>Hos voksne kvinder bruges Ovaleap: 
+ 
+til at hjælpe med ægløsning (ovulation, frigivelsen af en moden ægcelle fra folliklen) hos 
+kvinder, som ikke har ægløsning, og som ikke har reageret på behandling med en medicin, der 
+kaldes "clomifencitrat". 
+ 
+til at hjælpe follikeludvikling hos kvinder, som gennemgår assisteret reproduktionsteknologi 
+(procedurer, der kan hjælpe dig med at blive gravid), f.eks. reagensglasbefrugtning ("in 
+vitro-fertilisering"), "gamete intra-fallopian transfer" eller "zygote intra-fallopian transfer". 
+ 
+i kombination med en medicin, der kaldes "lutropin alfa" (en anden form for gonadotropin, 
+"luteiniseringshormon" eller LH) til at hjælpe med ægløsning hos kvinder, som producerer for 
+lidt FSH og LH. </p>
+<p>Hos voksne mænd bruges Ovaleap: 
+ 
+sammen med en anden medicin, som kaldes "humant choriongonadotropin" (hCG), til at hjælpe 
+med at producere sæd hos mænd, som er ufrugtbare på grund af lave niveauer af visse 
+hormoner.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ovaleap"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ovaleap"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ovaleap: 
+ 
+hvis du er allergisk over for follitropin alfa, follikel-stimulerende hormon (FSH) eller et af de 
+øvrige indholdsstoffer i Ovaleap (angivet i punkt 6). 
+ 
+hvis du har en tumor i hypothalamus eller hypofysen (begge er dele af hjernen). 
+ 
+hvis du er kvinde:</p>
+<ul>
+<li>med store æggestokke eller væskefyldte hulrum i æggestokkene (ovariecyster) af 
+ukendt oprindelse. </li>
+<li>med vaginalblødning uden kendt årsag. </li>
+<li>med kræft i æggestok, livmoder eller bryst. </li>
+<li>
+<p>med et helbred, som normalt umuliggør graviditet, f.eks. ovariesvigt (tidlig 
+overgangsalder), fibroide tumorer i livmoderen eller misdannede kønsorganer. 
+ 
+hvis du er mand:</p>
+</li>
+<li>
+<p>med beskadigede testikler, som ikke kan kureres. </p>
+</li>
+</ul>
+<p>Brug ikke dette lægemiddel, hvis noget af ovenstående gælder for dig. Er du i tvivl, så spørg lægen 
+eller apotekspersonalet, inden du tager denne medicin. </p>
+<p>Advarsler og forsigtighedsregler 
+Før behandlingen påbegyndes bør din og din partners frugtbarhed evalueres af en læge med erfaring i 
+behandling af frugtbarhedsproblemer. </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du anvender Ovaleap. </p>
+<p>Porfyri 
+Hvis du har porfyri, eller nogen i din familie har porfyri, skal du fortælle det til lægen, inden du starter 
+behandlingen. Det er en sygdom, der kan nedarves fra forældre til børn, hvilket betyder, at du ikke er i 
+stand til at nedbryde porfyriner (organiske stoffer). 
+Fortæl det straks til lægen: 
+ 
+hvis din hud bliver skrøbelig og let får blærer, specielt på steder, som ofte udsættes for sollys, 
+og/eller 
+ 
+hvis du har smerter i mave, arme eller ben 
+I sådanne tilfælde kan din læge anbefale, at du stopper behandlingen. </p>
+<p>Ovarielt hyper-stimulationssyndrom (OHSS) 
+Hvis du er kvinde, vil denne medicin øge risikoen for at udvikle OHSS. Det betyder, at dine follikler 
+udvikler sig for meget og bliver til store cyster. </p>
+<p>Fortæl det straks til lægen hvis: 
+ 
+du får smerter i den nederste del af maven 
+ 
+du tager meget hurtigt på i vægt 
+ 
+du føler dig utilpas eller kaster op 
+ 
+du har åndedrætsbesvær. 
+Hvis du oplever de ovenstående symptomer, kan lægen bede dig om at holde om med at tage 
+medicinen (se også pkt. 4 under "Alvorlige bivirkninger hos kvinder"). </p>
+<p>Hvis du ikke har ægløsning, og hvis den anbefalede dosis og behandlingsplan bliver overholdt, er 
+forekomsten af OHSS mindre sandsynlig. Ovaleap-behandling fører sjældent til svær OHSS, 
+medmindre medicinen man anvender for at inducere afsluttende follikelmodning (indeholdende 
+humant choriongonadotropin - hCG), er indgivet. Hvis du udvikler OHSS, vil din læge måske ikke 
+give hCG i denne behandlingscyklus, og du vil muligvis blive bedt om ikke at have samleje eller at 
+bruge barriereprævention i mindst 4 døgn. </p>
+<p>Flerfoldsgraviditet 
+Når du tager dette lægemiddel, har du en højere risiko for at blive gravid med flere end et foster ad 
+gangen ("flerfoldsgraviditet", i de fleste tilfælde tvillinger), end hvis du bliver gravid ad naturlig vej. 
+Flerfoldsgraviditet kan medføre medicinske komplikationer for dig selv og dine spædbørn. Du kan 
+nedsætte risikoen for flerfoldsgraviditet ved at tage den rette dosis af dette lægemiddel på de rette 
+tidspunkter. Risikoen for flerfoldsgraviditet som følge af assisteret befrugtning er relateret til din alder, 
+kvaliteten og antallet af befrugtede æg/embryoner, som opsættes i din livmoder. </p>
+<p>Spontan abort 
+Når du gennemgår assisteret befrugtning eller stimulation af æggestokkene for at producere æg, er 
+risikoen for en abort større hos dig end hos den gennemsnitlige kvinde. </p>
+<p>Ektopisk graviditet 
+Risikoen for en graviditet uden for livmoderen (en ektopisk graviditet) er større hos dig end hos den 
+gennemsnitlige kvinde, når du gennemgår assisteret befrugtning, og hvis du har beskadigede 
+æggeledere. </p>
+<p>Medfødte skader 
+Når et barn undfanges ved hjælp af assisteret befrugtning, kan det have en let forhøjet risiko for 
+medfødte skader end efter naturlig undfangelse. Dette kan være forbundet med flerfoldsgraviditet eller 
+forældrekarakteristik, såsom moderens alder og spermkvalitet. </p>
+<p>Problemer med blodpropper (tromboemboliske hændelser) 
+Hvis du tidligere eller for nylig har haft blodpropper i benene eller i lungerne, eller et hjerteanfald eller 
+et slagtilfælde, eller hvis noget sådant er forekommet i din familie, kan du have en højere risiko for, at 
+disse problemer opstår eller forværres med Ovaleap-behandlingen. </p>
+<p>Mænd med for meget FSH i blodet 
+Hvis du er en mand, kan for meget naturligt FSH i blodet være et tegn på beskadigede testikler. Dette 
+lægemiddel er normalt ikke effektivt, hvis du har dette problem. Hvis din læge beslutter at prøve 
+behandling med Ovaleap, vil du eventuelt blive bedt om at afgive sæd til analyse 4-6 måneder efter 
+start af behandlingen for at overvåge behandlingen. </p>
+<p>Børn og unge 
+Dette lægemiddel er ikke beregnet til anvendelse hos børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Ovaleap 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for nylig.<br />
+ 
+Hvis du bruger Ovaleap sammen med anden medicin, som hjælper med ægløsning, f.eks. 
+humant gonadotropin (hCG) eller clomifencitrat, kan det øge folliklernes reaktion. 
+ 
+Hvis du bruger Ovaleap samtidig med typer af medicin, der nedsætter kønshormonniveauerne 
+og stopper ægløsningen ("gonadotropin-frigivende hormon"-(GnRH)-agonist eller -antagonist), 
+kan du have brug for en højere dosis Ovaleap til at producere follikler. </p>
+<p>Graviditet og amning 
+Du må ikke bruge dette lægemiddel, hvis du er gravid eller ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det forventes ikke, at denne medicin vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>
+<p>Ovaleap indeholder natrium, benzalkoniumchlorid og benzylalkohol 
+Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
+natrium-fri. </p>
+<p>Denne medicin indeholder også 0,02 mg pr. ml benzalkoniumchlorid og 10,0 mg pr. ml benzylalkohol. 
+Spørg din læge eller apotek til råds, hvis du har en lever- eller nyresygdom, eller hvis du er gravid eller 
+ammer. Dette skyldes, at store mængder benzylalkohol kan ophobes i din krop og kan medføre 
+bivirkninger (kaldet "metabolisk acidose"). </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ovaleap"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ovaleap"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Dette lægemiddel gives som en injektion i vævet lige under huden (subkutan injektion). Lægen eller 
+sundhedspersonalet vil vise dig, hvordan du skal injicere lægemidlet. Hvis du giver dig selv 
+lægemidlet, skal du læse og følge "Brugsanvisning" for pennen </p>
+<p>Anbefalet dosis 
+Din læge afgør, hvor meget medicin, du skal tage, og hvor ofte. Doserne, der er beskrevet herunder, er 
+anført i internationale enheder (IE). </p>
+<p>Kvinder </p>
+<p>Hvis du ikke har ægløsning, og du har uregelmæssig eller ingen menstruation 
+ 
+Dette lægemiddel gives normalt dagligt. 
+ 
+Hvis du har uregelmæssig menstruation, skal du starte med at bruge dette lægemiddel inden for 
+de første 7 dage af din menstruationscyklus. Hvis du ikke har menstruation, kan du starte med at 
+tage medicinen på en dag, som passer dig. 
+ 
+Den sædvanlige startdosis af dette lægemiddel er 75 til 150 IE hver dag. 
+ 
+Din dosis af dette lægemiddel kan øges hver 7. eller hver 14. dag med 37,5 til 75 IE, indtil du 
+opnår den ønskede virkning. 
+ 
+Den maksimale daglige dosis af dette lægemiddel er sædvanligvis ikke højere end 225 IE. 
+ 
+Når du opnår den ønskede virkning, vil du få en enkelt injektion på 250 mikrogram 
+"rekombinant hCG" (r-hCG, et hCG, som er fremstillet i et laboratorium ved en særlig 
+DNA-teknik), eller 5 000 til 10 000 IE hCG, 24 til 48 timer efter den sidste Ovaleap-injektion. 
+Det bedste tidspunkt at have samleje er på selve dagen for hCG-injektionen og dagen efter. 
+Alternativt kan intrauterin insemination foretages ved at opsætte sæden i underlivet. </p>
+<p>Hvis din læge ikke kan se den ønskede virkning efter 4 uger, bør denne behandlingscyklus med 
+Ovaleap stoppes. I den efterfølgende behandlingscyklus vil din læge give dig en højere startdosis af 
+dette lægemiddel end før. </p>
+<p>Hvis din krop reagerer for kraftigt, vil behandlingen blive stoppet, og du vil ikke få hCG [se også 
+pkt. 2 under "Ovarielt hyper-stimulationssyndrom (OHSS)"]. I den efterfølgende cyklus vil din læge 
+give dig en lavere dosis af Ovaleap end i den forrige cyklus. </p>
+<p>Hvis du har behov for at udvikle flere æg til udtagning inden assisteret befrugtning 
+ 
+Den sædvanlige startdosis af dette lægemiddel er 150-225 IE hver dag, fra dag 2 eller 3 i din 
+menstruationsscyklus. 
+ 
+Dosis kan øges, afhængigt af den virkning, du opnår. Den maksimale daglige dosis er 450 IE. 
+ 
+Behandlingen fortsættes, indtil dine æg har udviklet sig til et ønsket punkt. Dette tager 
+sædvanligvis ca. 10 dage, men kan tage fra 5 og op til 20 dage. Din læge vil bruge blodprøver 
+og/eller et ultralydsapparat til at kontrollere, hvornår dette punkt er nået.t 
+ 
+Når dine æg er klar, vil du få hCG eller r-hCG. Den enkelte injektion vil være 250 mikrogram 
+r-hCG eller 5 000 til 10 000 IE hCG, 24 til 48 timer efter den sidste Ovaleap-injektion. Dette 
+gør æggene klar til udtagning. </p>
+<p>I andre tilfælde vil din læge eventuelt først stoppe din ægløsning ved hjælp af et 
+gonadotropin-frigivende hormon (GnRH)-agonist eller -antagonist. Dernæst startes Ovaleap ca. 2 uger 
+efter start af agonistbehandling. Ovaleap og GnRH-agonister gives dernæst begge, indtil dine follikler 
+udvikler sig som ønsket. </p>
+<p>Hvis du er blevet diagnosticeret med meget lave niveauer af FSH- og LH-hormoner </p>
+<ul>
+<li>Den sædvanlige startdosis af Ovaleap er 75-150 IE sammen med 75 IE lutropin alfa. 
+ 
+Du skal tage disse to lægemidler hver dag i op til 5 uger. 
+ 
+Din Ovaleap-dosis kan øges hver 7. eller hver 14. dag med 37,5 til 75 IE, indtil du får den 
+ønskede virkning. 
+ 
+Når du får den ønskede virkning, vil du få hCG eller r-hCG. Den enkelte injektion vil være 
+250 mikrogram r-hCG eller 5 000 til 10 000 IE hCG, 24 til 48 timer efter de sidste injektioner 
+med Ovaleap og lutropin alfa. Det bedste tidspunkt at have samleje er på selve dagen for 
+hCG-injektionen og dagen efter. Alternativt kan der foretages intrauterin insemination eller en 
+anden medicinsk assisteret reproduktionsprocedure, baseret på lægens bedømmelse. </li>
+</ul>
+<p>Hvis din læge ikke ser en virkning efter 5 uger, bør denne behandlingscyklus stoppes. I den 
+efterfølgende behandlingscyklus vil din læge give dig en højere startdosis af dette lægemiddel end før. </p>
+<p>Hvis din krop reagerer for kraftigt, vil behandlingen med Ovaleap blive stoppet, og du vil ikke få hCG 
+[se også pkt. 2 under "Ovarielt hyper-stimulationssyndrom (OHSS)"]. I den efterfølgende cyklus vil 
+din læge give dig en lavere dosis af Ovaleap end i den forrige cyklus. </p>
+<p>Mænd 
+ 
+Den sædvanlige dosis af dette lægemiddel er 150 IE i kombination med hCG. 
+ 
+Du skal bruge disse to lægemidler tre gange om ugen i mindst 4 måneder. 
+ 
+Hvis du ikke har haft nogen virkning af behandlingen efter 4 måneder, kan din læge foreslå at 
+fortsætte med disse to lægemidler i mindst 18 måneder. </p>
+<p>Hvordan gives injektionerne? 
+Dette lægemiddel gives som en injektion i vævet lige under huden (subkutan injektion) med 
+Ovaleap Pen. Ovaleap Pen er et instrument (en "pen") til at give injektioner i vævet lige under huden. </p>
+<p>Din læge kan foreslå, at du selv lærer at injicere dig med dette lægemiddel. Din læge eller 
+sundhedspersonalet vil give dig anvisninger i hvordan det gøres, og du kan også finde anvisningerne i 
+den separate brugsanvisning for pennen. Forsøg ikke at selvadministrere dette lægemiddel uden denne 
+træning fra din læge eller sundhedspersonalet. Den allerførste injektion af dette lægemiddel bør kun 
+gives, når der er en læge eller sundhedspersonale til stede.  </p>
+<p>Ovaleap injektionsvæske, opløsning i cylinderampuller er blevet udviklet til brug i Ovaleap Pen. Du 
+skal følge de separate brugsanvisninger for Ovaleap Pen nøje. Brugsanvisningerne for pennen leveres 
+sammen med Ovaleap Pen. En korrekt behandling af din sygdom kræver imidlertid nøje og konstant 
+samarbejde med lægen. </p>
+<p>Kasser brugte kanyler umiddelbart efter injektionen. </p>
+<p>Hvis du har brugt for meget Ovaleap 
+Virkningen af en overdosering af Ovaleap er ukendt. Man kan dog antage, at ovarielt 
+hyperstimulationssyndrom (OHSS) indtræder, hvilket beskrives i pkt. 4. under "Alvorlige bivirkninger 
+hos kvinder". OHSS vil kun opstå, hvis hCG også indgives [se også pkt. 2 under "Ovarielt 
+hyper-stimulationssyndrom (OHSS)"]. </p>
+<p>Hvis du har glemt at bruge Ovaleap 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Kontakt din læge så snart, du 
+opdager, at du har glemt en dosis. </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Vigtige bivirkninger </p>
+<p>Alvorlige bivirkninger hos mænd og kvinder 
+ 
+Allergiske reaktioner som hududslæt, kløende hævede hudområder og alvorlige allergiske 
+reaktioner med svaghed, blodtryksfald, åndedrætsbesvær og hævelse af ansigtet er blevet 
+rapporteret meget sjældent (kan forekomme hos op til 1 ud af 10 000 personer). Hvis du mener, 
+at du har denne type reaktion, skal du stoppe injektionen med Ovaleap og øjeblikkeligt søge 
+lægehjælp. </p>
+<p>Alvorlige bivirkninger hos kvinder 
+ 
+Smerter i nederste del af maven i kombination med kvalme eller opkastning kan være 
+symptomer på ovarielt hyper-stimulationssyndrom (OHSS). Dette kan være tegn på, at 
+æggestokkene har overreageret på behandlingen, og at der har udviklet sig store cyster i 
+æggestokkene [se også pkt. 2 under "Ovarielt hyper-stimulationssyndrom (OHSS)"]. Denne 
+bivirkning er almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+ 
+OHSS kan blive alvorligt med tydeligt forstørrede æggestokke, nedsat urinproduktion, 
+vægtøgning, åndedrætsbesvær og/eller mulig væskeophobning i maven eller brystkassen. Denne 
+bivirkning er ikke almindelig (kan forekomme hos op til 1 ud af 100 personer). 
+ 
+Komplikationer fra OHSS, f.eks. rotation af en æggestok (ovarietorsion) eller blodpropper kan 
+forekomme sjældent (kan forekomme hos op til 1 ud af 1 000 personer). 
+ 
+Alvorlige komplikationer med blodpropper (tromboemboliske hændelser), nogle gange 
+uafhængigt af OHSS, kan forekomme meget sjældent (kan forekomme hos op til 1 ud af 
+10 000 personer). Det kan give brystsmerter, stakåndethed, slagtilfælde eller hjerteslag [se også 
+pkt. 2 under "Blodstørkningsproblemer (tromboemboliske hændelser)"]. </p>
+<p>Hvis du bemærker en eller flere af de ovenstående bivirkninger, skal du øjeblikkeligt kontakte lægen, 
+som eventuelt vil bede dig om at holde op med at tage Ovaleap. </p>
+<p>Andre bivirkninger hos kvinder </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) 
+ 
+Lokale reaktioner på injektionsstedet, f.eks. smerte, rødme, blåt mærke, hævelse og/eller 
+irritation 
+ 
+Hovedpine 
+ 
+Væskefyldte hulrum i æggestokkene (ovariecyster) 
+Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+ 
+Mavesmerter 
+ 
+Oppustet mave 
+ 
+Mavekramper 
+ 
+Kvalme 
+ 
+Opkastning 
+ 
+Diarré 
+Meget sjælden (kan forekomme hos op til 1 ud af 10 000 personer) 
+ 
+Din astma kan forværres. </p>
+<p>Andre bivirkninger hos mænd </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) 
+ 
+Lokale reaktioner på injektionsstedet, f.eks. smerte, rødme, blåt mærke, hævelse og/eller 
+irritation 
+Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+ 
+Opsvulmen af blodårerne over og bag testiklerne (årebrok i pungen) 
+ 
+Brystudvikling 
+ 
+Akne 
+ 
+Vægtøgning 
+Meget sjælden (kan forekomme hos op til 1 ud af 10 000 personer) 
+ 
+Din astma kan forværres. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ovaleap"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ovaleap"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og den ydre karton efter Exp. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C-8 °C). </p>
+<p>Må ikke nedfryses. </p>
+<p>Opbevar cylinderampullen i den ydre karton for at beskytte mod lys. </p>
+<p>Før åbning og inden for produktets holdbarhed kan du fjerne lægemidlet fra køleskabet, uden at blive 
+nedkølet igen, i op til 3 måneder. Må ikke opbevares ved temperaturer over 25 °C. Du skal kassere 
+dette lægemiddel, hvis det ikke er brugt inden 3 måneder. </p>
+<p>Efter åbning kan cylinderampullen i pennen opbevares i højst 28 dage. Må ikke opbevares ved 
+temperaturer over 25 °C. Skriv datoen for første brug ned i patientens dagbog, som leveres sammen 
+med Ovaleap Pen. </p>
+<p>Sæt låget tilbage på Ovaleap Pen efter hver injektion for at beskytte cylinderampullen mod lys. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at det er uklart eller indeholder partikler. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ovaleap indeholder:</p>
+<ul>
+<li>Aktivt stof: follitropin alfa. 
+Ovaleap 300 IE/0,5 ml: Hver cylinderampul indeholder 300 IE (svarende til 22 mikrogram) 
+follitropin alfa i 0,5 ml opløsning. 
+Ovaleap 450 IE/0,75 ml: Hver cylinderampul indeholder 450 IE (svarende til 33 mikrogram) 
+follitropin alfa i 0,75 ml opløsning. 
+Ovaleap 900 IE/1,5 ml: Hver cylinderampul indeholder 900 IE (svarende til 66 mikrogram) 
+follitropin alfa i 1,5 ml opløsning. 
+Hver ml opløsning indeholder 600 IE (svarende til 44 mikrogram) follitropin alfa. </li>
+<li>Øvrige indholdsstoffer: natriumdihydrogenphosphatdihydrat, natriumhydroxid (2 M) (til 
+justering af pH), mannitol, methionin, polysorbat 20, benzylalkohol, benzalkoniumchlorid, vand 
+til injektionsvæsker. 
+Alle styrkerne anført ovenfor indeholder de andre indholdsstoffer. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Ovaleap er en injektionsvæske, opløsning (injektion). Ovaleap er en klar og farveløs opløsning. </p>
+<p>Ovaleap 300 IE/0,5 ml leveres i pakninger med 1 cylinderampul og 10 kanyler. 
+Ovaleap 450 IE/0,75 ml leveres i pakninger med 1 cylinderampul og 10 kanyler. 
+Ovaleap 900 IE/1,5 ml leveres i pakninger med 1 cylinderampul og 20 kanyler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Theramex Ireland Limited 
+3rd Floor, Kilmore House, 
+Park Lane, Spencer Dock, 
+Dublin 1 
+D01 YEIrland </p>
+<p>Fremstiller 
+Teva Biotech GmbH 
+Dornierstraße 89079 Ulm 
+Tyskland </p>
+<p>Teva Pharmaceuticals Europe B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Merckle GmbH 
+Graf-Arco-Straße 3 
+89079 Ulm,<br />
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c2b885df39c538ef6cd9dc7a6e1945aa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ovaleap Package Leaflet for language en"
+Description: "ePI document Bundle for ovaleap Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c2b885df39c538ef6cd9dc7a6e1945aa"
+* entry[0].resource = composition-en-c2b885df39c538ef6cd9dc7a6e1945aa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc2b885df39c538ef6cd9dc7a6e1945aa"
+* entry[=].resource = mpc2b885df39c538ef6cd9dc7a6e1945aa
+                            
+                    
+Instance: bundlepackageleaflet-da-c2b885df39c538ef6cd9dc7a6e1945aa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ovaleap Package Leaflet for language da"
+Description: "ePI document Bundle for ovaleap Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c2b885df39c538ef6cd9dc7a6e1945aa"
+* entry[0].resource = composition-da-c2b885df39c538ef6cd9dc7a6e1945aa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc2b885df39c538ef6cd9dc7a6e1945aa"
+* entry[=].resource = mpc2b885df39c538ef6cd9dc7a6e1945aa
+                            
+                    
+
+
+
+Instance: mpc2b885df39c538ef6cd9dc7a6e1945aa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ovaleap 300 IU/0.5 mL solution for injection"
-Description: "Ovaleap 300 IU/0.5 mL solution for injection"
+Title: "Medicinal Product ovaleap"
+Description: "ovaleap"
 Usage: #inline
 
  
@@ -439,7 +973,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ovaleap 300 IU/0.5 mL solution for injection"
+  * productName = "ovaleap"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -466,29 +1000,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c2b885df39c538ef6cd9dc7a6e1945aa
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ovaleap Package Leaflet for language en"
-Description: "ePI document Bundle for ovaleap Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c2b885df39c538ef6cd9dc7a6e1945aaListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Ovaleap 300 IU/0.5 mL solution for injection"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ovaleap"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c2b885df39c538ef6cd9dc7a6e1945aa"
-* entry[0].resource = composition-en-c2b885df39c538ef6cd9dc7a6e1945aa
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp082cdb3a1844097e9d094e47a82dba37"
-* entry[=].resource = mp082cdb3a1844097e9d094e47a82dba37
-                            
-                      
+* title = "List of all ePIs associated with ovaleap"
+
+* subject = Reference(mp082cdb3a1844097e9d094e47a82dba37)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ovaleap "ovaleap"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c2b885df39c538ef6cd9dc7a6e1945aa) // ovaleap en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c2b885df39c538ef6cd9dc7a6e1945aa) // ovaleap da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c2b885df39c538ef6cd9dc7a6e1945aa
+InstanceOf: List
+
+* insert c2b885df39c538ef6cd9dc7a6e1945aaListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0e387e560fa6e1178c04c02876196a66
 InstanceOf: CompositionUvEpi
 Title: "Composition for trepulmix Package Leaflet"
@@ -404,12 +407,573 @@ Tel: + 43 1 5037This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-0e387e560fa6e1178c04c02876196a66
+InstanceOf: CompositionUvEpi
+Title: "Composition for trepulmix Package Leaflet"
+Description:  "Composition for trepulmix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpcaff5d5bfc6c5e98185a9853c69868b2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpcaff5d5bfc6c5e98185a9853c69868b2
+* title = "TEST PURPOSES ONLY - trepulmix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Trepulmix 
+3. Sådan skal du bruge Trepulmix 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What trepulmix is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What trepulmix is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Trepulmix? 
+Det aktive stof i Trepulmix er treprostinil. 
+Treprostinil tilhører en gruppe lægemidler, der virker på samme måde som de naturligt forekommende 
+prostacycliner. Prostacycliner er hormonlignende stoffer, der sænker blodtrykket ved at få blodkarrene 
+til at slappe af, så de udvider sig, hvorved blodet lettere kan strømme. Prostacycliner kan også have en 
+hæmmende effekt på blodets størkningsevne. </p>
+<p>Hvad anvendes Trepulmix til? 
+Trepulmix anvendes til behandling af voksne patienter, som har kronisk tromboembolisk pulmonal 
+hypertension (CTEPH), der ikke kan opereres, eller som oplever vedvarende eller tilbagevendende 
+CTEPH efter kirurgisk behandling (sværhedsgrad svarende til WHO-funktionsklasse III eller IV), for 
+at forbedre deres fysiske kapacitet og bedre symptomerne på sygdommen. Kronisk tromboembolisk 
+pulmonal hypertension er en tilstand, hvor blodtrykket i blodkarrene mellem hjertet og lungerne er for 
+højt, hvilket giver symptomer som åndenød, svimmelhed, træthed, besvimelse, hjertebanken eller 
+unormal hjerterytme, tør hoste, brystsmerter og hævede ankler eller ben. </p>
+<p>Hvordan virker Trepulmix? 
+Trepulmix sænker blodtrykket i lungepulsåren ved at forbedre blodgennemstrømningen, så hjertet ikke 
+skal arbejde så hårdt. Forbedret blodgennemstrømning medfører forbedret forsyning af ilt til kroppen 
+og aflastning af hjertet, som derved kan fungere mere effektivt. Trepulmix bedrer symptomerne ved 
+CTEPH og den fysiske kapacitet hos patienter med aktivitetsbegrænsninger. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take trepulmix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take trepulmix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Trepulmix 
+− 
+hvis du er allergisk over for treprostinil eller et af de øvrige indholdsstoffer i Trepulmix (angivet 
+i punkt 6). 
+− 
+hvis du er diagnosticeret med lungesygdommen "pulmonal veneokklusiv sygdom". Det er en 
+sygdom, hvor de blodkar, der transporterer blod gennem lungerne, bliver hævede og tilstoppede 
+og derved giver et forhøjet tryk i blodkarrene mellem hjertet og lungerne. 
+− 
+hvis du har en alvorlig leversygdom 
+− 
+hvis du har hjerteproblemer, f.eks.: 
+• hjerteanfald (myokardieinfarkt) inden for de seneste seks måneder 
+• alvorlige ændringer i hjerterytmen 
+• alvorlig koronar hjertesygdom eller ustabil angina pectoris 
+• en diagnosticeret hjertefejl, f.eks. en defekt hjerteklap, der gør, at hjertet ikke fungerer, 
+som det skal 
+• enhver hjertesygdom, der ikke er i behandling eller under tæt lægelig overvågning 
+− 
+hvis du har særligt høj risiko for blødning, f.eks. pga. aktivt mavesår, skader eller andre 
+tilstande, der kan medføre blødning 
+− 
+hvis du har haft et slagtilfælde inden for de sidste 3 måneder eller anden afbrydelse af 
+blodtilførslen til hjernen. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger Trepulmix: 
+− 
+hvis du har en leversygdom 
+− 
+hvis du har en nyresygdom 
+− 
+hvis du har fået at vide, at du er svært overvægtig i medicinsk forstand (BMI &gt; 30 kg/m2) 
+− 
+hvis du er på natriumfattig diæt. </p>
+<p>Under behandling med Trepulmix skal du kontakte lægen: 
+− 
+hvis dit blodtryk falder (hypotension) 
+− 
+hvis du oplever hurtig forværring af åndedrætsbesvær eller vedvarende hoste (kan være 
+forbundet med blokering i lungerne, astma eller andre tilstande) — kontakt lægen med det 
+samme 
+− 
+hvis du oplever kraftig blødning, da treprostinil kan øge blødningsrisikoen ved at nedsætte 
+blodets størkningsevne. </p>
+<p>Børn og unge 
+Trepulmix må ikke anvendes til børn og unge. </p>
+<p>Brug af anden medicin sammen med Trepulmix 
+Fortæl det altid til lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller 
+planlægger at bruge anden medicin. Sig det til lægen, hvis du tager: 
+− 
+medicin mod forhøjet blodtryk (antihypertensiva/vasodilatorer) 
+− 
+vanddrivende medicin (diuretika), herunder furosemid 
+− 
+blodfortyndende medicin (antikoagulanter), f.eks. warfarin, heparin eller nitrogenoxid-baserede 
+produkter 
+− 
+non-steroide antiinflammatoriske lægemidler (NSAID'er) (f.eks. acetylsalicylsyre, ibuprofen) 
+− 
+lægemidler, der kan øge eller svække effekten af Trepulmix (f.eks. gemfibrozil, rifampicin, 
+trimethoprim, deferasirox, phenytoin, carbamazepin, phenobarbital, prikbladet perikon), da 
+lægen kan være nødt til at justere dosen af Trepulmix. </p>
+<p>Graviditet og amning 
+Trepulmix anbefales ikke, hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, medmindre lægen vurderer, at behandling er nødvendig. Sikkerheden ved brug af dette 
+lægemiddel under graviditet er ikke klarlagt. </p>
+<p>Det anbefales kraftigt at anvende prævention under behandling med Trepulmix. </p>
+<p>Trepulmix anbefales ikke under amning, medmindre lægen vurderer, at behandling er nødvendig. Det 
+anbefales, at du holder op med at amme, hvis du får ordineret Trepulmix, da det ikke vides, om 
+lægemidlet udskilles i modermælk. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge lægen til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Trepulmix kan medføre lavt blodtryk med svimmelhed eller besvimelse. Hvis du oplever disse 
+bivirkninger, må du ikke føre motorkøretøj eller betjene maskiner; spørg lægen til råds. </p>
+<p>Trepulmix indeholder natrium 
+Sig det til lægen, hvis du er på natriumkontrolleret diæt. Så vil der blive taget hensyn til det. </p>
+<p>Trepulmix 1 mg/ml infusionsvæske, opløsning 
+Dette lægemiddel indeholder 36,8 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) pr. 
+hætteglas, svarende til 1,8 % af det anbefalede maksimale daglige indtag af natrium for en voksen. </p>
+<p>Trepulmix 2,5 mg/ml infusionsvæske, opløsning 
+Dette lægemiddel indeholder 37,3 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) pr. 
+hætteglas, svarende til 1,9 % af det anbefalede maksimale daglige indtag af natrium for en voksen. </p>
+<p>Trepulmix 5 mg/ml infusionsvæske, opløsning 
+Dette lægemiddel indeholder 39,1 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) pr. 
+hætteglas, svarende til 2,0 % af det anbefalede maksimale daglige indtag af natrium for en voksen. </p>
+<p>Trepulmix 10 mg/ml infusionsvæske, opløsning 
+Dette lægemiddel indeholder 37,4 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) pr. 
+hætteglas, svarende til 1,9 % af det anbefalede maksimale daglige indtag af natrium for en voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take trepulmix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take trepulmix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Trepulmix indgives ufortyndet ved kontinuerlig subkutan infusion (under huden) gennem en lille 
+slange (kanyle), der er placeret i din mave eller dit lår; </p>
+<p>Trepulmix pumpes gennem slangen af en bærbar pumpe. </p>
+<p>Før du forlader hospitalet eller klinikken, vil lægen fortælle dig, hvordan du skal klargøre Trepulmix, 
+og med hvilken hastighed pumpen skal indgive lægemidlet. Du vil få forklaret, hvordan du bruger 
+pumpen korrekt, og hvad du skal gøre, hvis den holder op med at virke. Du vil også få at vide, hvem 
+du skal kontakte i en nødsituation. </p>
+<p>Det kan føre til utilsigtet overdosering, hvis infusionsslangen skylles, mens den er tilsluttet. </p>
+<p>Voksne patienter 
+Trepulmix fås som infusionsvæske, opløsning, a 1 mg/ml, 2,5 mg/ml, 5 mg/ml eller 10 mg/ml. Lægen 
+vil vurdere, hvilken infusionshastighed og dosis der passer til netop din tilstand. </p>
+<p>Ældre patienter 
+Det er ikke nødvendigt at justere dosis særskilt hos disse patienter. </p>
+<p>Patienter med lever- eller nyresygdom 
+Lægen vil vurdere, hvilken infusionshastighed og dosis der passer til netop din tilstand. </p>
+<p>Infusionshastighed 
+Infusionshastigheden kan reduceres eller øges individuelt, altid under lægeopsyn. </p>
+<p>Formålet med at justere infusionshastigheden er at finde en effektiv vedligeholdelseshastighed, hvor 
+symptomerne ved CTEPH bedres, og bivirkningerne samtidig minimeres. </p>
+<p>Hvis dine symptomer forværres, hvis du har brug for komplet hvile, hvis du er bundet til din seng eller 
+en stol, hvis fysisk aktivitet medfører ubehag, eller hvis du oplever symptomer under hvile, må du ikke 
+øge dosen uden at rådføre dig med lægen. Det kan være, at Trepulmix ikke længere er tilstrækkeligt til 
+at behandle din sygdom, så du måske skal have en anden behandling. </p>
+<p>Hvis du har brugt for meget Trepulmix 
+Hvis du kommer til at overdosere Trepulmix, kan du opleve kvalme, opkastning, diarré, lavt blodtryk 
+(svimmelhed, ørhed eller besvimelse), hudrødme og/eller hovedpine. </p>
+<p>Hvis en eller flere af disse bivirkninger bliver alvorlige, skal du kontakte lægen eller hospitalet med 
+det samme. Lægen kan reducere eller standse infusionen, indtil bivirkningerne har fortaget sig. 
+Derefter får du igen indgivet Trepulmix infusionsvæske, opløsning, i en dosis, som lægen anbefaler. </p>
+<p>Hvis du holder op med at bruge Trepulmix 
+Brug altid Trepulmix efter lægens eller hospitalets anvisninger. Du må ikke stoppe med at bruge 
+Trepulmix, medmindre lægen siger, du skal stoppe. </p>
+<p>For hurtigt stop af behandlingen eller pludselig reduktion i dosen af Trepulmix kan medføre, at 
+symptomerne ved pulmonal arteriel hypertension vender tilbage, og så er der risiko for hurtig og 
+alvorlig forværring af din tilstand. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>udvidede blodkar </p>
+</li>
+<li>
+<p>smerter ved infusionsstedet </p>
+</li>
+<li>
+<p>reaktion ved infusionsstedet </p>
+</li>
+<li>
+<p>blødning eller blå mærker ved infusionsstedet </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kæbesmerter </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>ørhed eller besvimelse pga. lavt blodtryk </p>
+</li>
+<li>
+<p>hududslæt </p>
+</li>
+<li>
+<p>muskelsmerter (myalgi) </p>
+</li>
+<li>
+<p>ledsmerter (artralgi) </p>
+</li>
+<li>
+<p>hævelse af fødder, ankler eller ben (væskeophobning) </p>
+</li>
+<li>
+<p>hedeture </p>
+</li>
+<li>
+<p>smerter i arme og/eller ben </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>hævede øjenlåg (øjenlågsødem) </p>
+</li>
+<li>
+<p>fordøjelsesbesvær </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>hudkløe </p>
+</li>
+<li>
+<p>hududslæt </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+</ul>
+<p>Andre mulige bivirkninger, der er set hos patienter med pulmonal arteriel hypertension: </p>
+<ul>
+<li>blødningsepisoder, herunder næseblod, ophostning af blod, blod i urinen, tandkødsblødning, 
+blod i afføringen </li>
+</ul>
+<p>Andre mulige bivirkninger, der er set i klinisk praksis: </p>
+<ul>
+<li>
+<p>infektion ved infusionsstedet </p>
+</li>
+<li>
+<p>bylddannelse ved infusionsstedet </p>
+</li>
+<li>
+<p>nedsat antal blodplader i blodet (trombocytopeni) </p>
+</li>
+<li>
+<p>knoglesmerter </p>
+</li>
+<li>
+<p>hududslæt med misfarvning eller knopper </p>
+</li>
+<li>
+<p>infektion i vævet under huden (cellulitis) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V.* Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trepulmix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trepulmix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglasset efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p>
+<p>Et hætteglas med Trepulmix skal anvendes inden for 30 dage efter anbrud, hvorefter det skal 
+bortskaffes. </p>
+<p>Ved kontinuerlig subkutan infusion skal en enkeltbeholder (sprøjte) med ufortyndet Trepulmix 
+anvendes inden for 72 timer. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker tegn på beskadigelse af hætteglasset, misfarvning eller anden 
+forringelse. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trepulmix indeholder:</p>
+<ul>
+<li>Aktivt stof: treprostinil </li>
+</ul>
+<p>Trepulmix 1 mg/ml infusionsvæske, opløsning 
+Hver ml opløsning indeholder 1 mg treprostinil (som natriumsalt). 
+Hvert 10 ml-hætteglas med opløsning indeholder 10 mg treprostinil (som natriumsalt). </p>
+<p>Trepulmix 2,5 mg/ml infusionsvæske, opløsning 
+Hver ml opløsning indeholder 2,5 mg treprostinil (som natriumsalt) 
+Hvert 10 ml-hætteglas med opløsning indeholder 25 mg treprostinil (som natriumsalt). </p>
+<p>Trepulmix 5 mg/ml infusionsvæske, opløsning 
+Hver ml opløsning indeholder 5 mg treprostinil (som natriumsalt). 
+Hvert 10 ml-hætteglas med opløsning indeholder 50 mg treprostinil (som natriumsalt). </p>
+<p>Trepulmix 10 mg/ml infusionsvæske, opløsning 
+Hver ml opløsning indeholder 10 mg treprostinil (som natriumsalt). 
+Hvert 10 ml-hætteglas med opløsning indeholder 100 mg treprostinil (som natriumsalt). </p>
+<p>Øvrige indholdsstoffer:</p>
+<ul>
+<li>natriumcitrat, natriumchlorid, natriumhydroxid, saltsyre, metacresol og vand til 
+injektionsvæsker. Se pkt. 2 "Trepulmix indeholder natrium". </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Trepulmix er en klar, farveløs til let gul opløsning, som fås i klare 10 ml-hætteglas af glas, der er 
+forseglet med en gummiprop og forsynet med en farvekodet hætte: </p>
+<p>Trepulmix 1 mg/ml infusionsvæske, opløsning 
+Trepulmix 1 mg/ml infusionsvæske, opløsning, har en gul gummihætte. </p>
+<p>Trepulmix 2,5 mg/ml infusionsvæske, opløsning 
+Trepulmix 2,5 mg/ml infusionsvæske, opløsning, har en blå gummihætte. </p>
+<p>Trepulmix 5 mg/ml infusionsvæske, opløsning 
+Trepulmix 5 mg/ml infusionsvæske, opløsning, har en grøn gummihætte. </p>
+<p>Trepulmix 10 mg/ml infusionsvæske, opløsning 
+Trepulmix 10 mg/ml infusionsvæske, opløsning, har en rød gummihætte. </p>
+<p>Hver æske indeholder ét hætteglas. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+SciPharm Sàrl 
+7, Fausermillen 
+L-6689 Mertert 
+Luxembourg </p>
+<p>Fremstiller 
+AOP Orphan Pharmaceuticals GmbH 
+Leopold-Ungar-Platz 2 
+1190 Wien 
+Østrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tél/Tel: +43 1 5037Lietuva<br />
+AOP Orphan Pharmaceuticals GmbH (Austrija) 
+Tel: + 43 1 5037 
+България<br />
+AOP Orphan Pharmaceuticals GmbH (Австрия) 
+Teл.: + 43 1 5037 </p>
+<p>Luxembourg/Luxemburg<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) <br />
+Tél/Tel: + 43 1 5037Česká republika<br />
+AOP Orphan Pharmaceuticals GmbH (Rakousko) 
+Tel: + 43 1 5037 
+Magyarország<br />
+AOP Orphan Pharmaceuticals GmbH (Ausztria) 
+Tel.: + 43 1 5037 
+Danmark<br />
+AOP Orphan Pharmaceuticals GmbH (Østrig) 
+Tlf: + 43 1 5037 
+Malta<br />
+AOP Orphan Pharmaceuticals GmbH (L-Awstrija) 
+Tel: + 43 1 5037 
+Deutschland<br />
+AOP Orphan Pharmaceuticals Germany GmbH 
+Tel: + 49 89 99 740 7 
+Nederland<br />
+AOP Orphan Pharmaceuticals GmbH (Oostenrijk) 
+Tel: + 43 1 5037 
+Eesti<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037 
+Norge<br />
+AOP Orphan Pharmaceuticals GmbH (Østerrike) 
+Tlf: + 43 1 5037 
+Ελλάδα<br />
+AOP Orphan Pharmaceuticals GmbH (Αυστρία) 
+Τηλ: + 43 1 5037 
+Österreich<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: + 43 1 5037 
+España<br />
+AOP Orphan Pharmaceuticals Iberia S.L. <br />
+Tel: +34 91 395 40<br />
+Polska<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel.: + 43 1 5037 
+France<br />
+AOP Orphan Pharmaceuticals GmbH (Autriche) 
+Tél: + 43 1 5037 
+Portugal<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037244  </p>
+<p>Hrvatska<br />
+AOP Orphan Pharmaceuticals GmbH (Austrija) 
+Tel: + 43 1 5037România<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037 
+Ireland<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037Slovenija<br />
+AOP Orphan Pharmaceuticals GmbH (Avstrija) 
+Tel: + 43 1 5037 
+Ísland<br />
+AOP Orphan Pharmaceuticals GmbH (Austurríki) 
+Sími: + 43 1 5037Slovenská republika<br />
+AOP Orphan Pharmaceuticals GmbH (Rakúsko) 
+Tel: + 43 1 5037 
+Italia<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037 
+Suomi/Finland<br />
+AOP Orphan Pharmaceuticals GmbH (Itävalta) 
+Puh/Tel: + 43 1 5037 </p>
+<p>Κύπρος<br />
+AOP Orphan Pharmaceuticals GmbH (Αυστρία) 
+Τηλ: + 43 1 5037244  </p>
+<p>Sverige<br />
+AOP Orphan Pharmaceuticals GmbH (Österrike) 
+Tel: + 43 1 5037 
+Latvija<br />
+AOP Orphan Pharmaceuticals GmbH (Austrija) 
+Tel: + 43 1 5037 
+United Kingdom (Northern Ireland)<br />
+AOP Orphan Pharmaceuticals GmbH (Austria) 
+Tel: + 43 1 5037 </p>
+<p>Denne indlægsseddel blev senest ændret . </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0e387e560fa6e1178c04c02876196a66
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trepulmix Package Leaflet for language en"
+Description: "ePI document Bundle for trepulmix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0e387e560fa6e1178c04c02876196a66"
+* entry[0].resource = composition-en-0e387e560fa6e1178c04c02876196a66
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0e387e560fa6e1178c04c02876196a66"
+* entry[=].resource = mp0e387e560fa6e1178c04c02876196a66
+                            
+                    
+Instance: bundlepackageleaflet-da-0e387e560fa6e1178c04c02876196a66
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trepulmix Package Leaflet for language da"
+Description: "ePI document Bundle for trepulmix Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0e387e560fa6e1178c04c02876196a66"
+* entry[0].resource = composition-da-0e387e560fa6e1178c04c02876196a66
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0e387e560fa6e1178c04c02876196a66"
+* entry[=].resource = mp0e387e560fa6e1178c04c02876196a66
+                            
+                    
+
+
+
+Instance: mp0e387e560fa6e1178c04c02876196a66
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Trepulmix 1 mg/ml solution for infusion"
-Description: "Trepulmix 1 mg/ml solution for infusion"
+Title: "Medicinal Product trepulmix"
+Description: "trepulmix"
 Usage: #inline
 
  
@@ -429,7 +993,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Trepulmix 1 mg/ml solution for infusion"
+  * productName = "trepulmix"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -456,29 +1020,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0e387e560fa6e1178c04c02876196a66
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for trepulmix Package Leaflet for language en"
-Description: "ePI document Bundle for trepulmix Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0e387e560fa6e1178c04c02876196a66ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1419/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "trepulmix"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0e387e560fa6e1178c04c02876196a66"
-* entry[0].resource = composition-en-0e387e560fa6e1178c04c02876196a66
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpcaff5d5bfc6c5e98185a9853c69868b2"
-* entry[=].resource = mpcaff5d5bfc6c5e98185a9853c69868b2
-                            
-                      
+* title = "List of all ePIs associated with trepulmix"
+
+* subject = Reference(mpcaff5d5bfc6c5e98185a9853c69868b2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#trepulmix "trepulmix"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0e387e560fa6e1178c04c02876196a66) // trepulmix en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0e387e560fa6e1178c04c02876196a66) // trepulmix da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0e387e560fa6e1178c04c02876196a66
+InstanceOf: List
+
+* insert 0e387e560fa6e1178c04c02876196a66ListRuleset
+    

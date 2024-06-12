@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-20340baf00f2c4ec417bbf6c08de7c1d
 InstanceOf: CompositionUvEpi
 Title: "Composition for fingolimod Package Leaflet"
@@ -637,12 +640,960 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-20340baf00f2c4ec417bbf6c08de7c1d
+InstanceOf: CompositionUvEpi
+Title: "Composition for fingolimod Package Leaflet"
+Description:  "Composition for fingolimod Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9215a0c64a02cdfc83cbdfbe8b9e06bf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp9215a0c64a02cdfc83cbdfbe8b9e06bf
+* title = "TEST PURPOSES ONLY - fingolimod"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Fingolimod Mylan </li>
+<li>Sådan skal du tage Fingolimod Mylan </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What fingolimod is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What fingolimod is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Fingolimod Mylan 
+Fingolimod Mylan indeholder det aktive stof fingolimod. </p>
+<p>Hvad anvendes Fingolimod Mylan til 
+Fingolimod Mylan anvendes til behandling af recidiverende-remitterende multipel sklerose (MS) hos 
+voksne og børn og unge (10 år og derover), mere specifikt til: </p>
+<ul>
+<li>
+<p>Patienter, som ikke har haft virkning af anden MS-behandling. 
+eller </p>
+</li>
+<li>
+<p>Patienter, som hurtigt har udviklet svær MS. </p>
+</li>
+</ul>
+<p>Fingolimod Mylan helbreder ikke MS, men det hjælper med at nedsætte antallet af anfald og forsinker 
+udviklingen af fysisk invaliditet grundet MS. </p>
+<p>Hvad er multipel sklerose 
+MS er en kronisk sygdom, der påvirker centralnervesystemet (CNS), som udgøres af hjernen og 
+rygmarven. Ved MS ødelægger betændelse fedtskallen (kaldet myelin), som ligger omkring nerverne i 
+CNS, og forhindrer derved nerverne i at fungere normalt. Det kaldes demyelinisering. </p>
+<p>Recidiverende-remitterende MS er kendetegnet ved gentagne attakker (anfald) med symptomer fra 
+nervesystemet på grund af betændelse i CNS. Symptomerne varierer fra patient til patient, men giver 
+typisk gangbesvær, følelsesløshed, synsproblemer eller balanceproblemer. Symptomerne på et anfald 
+kan forsvinde fuldstændigt, når anfaldet er ovre, men nogle af problemerne kan fortsætte. </p>
+<p>Sådan virker Fingolimod Mylan 
+Fingolimod Mylan hjælper med at beskytte mod immunsystemets attakker på CNS ved at nedsætte 
+evnen hos nogle hvide blodlegemer (lymfocytter) til at bevæge sig frit i kroppen og ved at forhindre 
+dem i at nå frem til hjernen og rygmarven. Det begrænser den beskadigelse af nerverne, som MS 
+forårsager. Dette lægemiddel nedsætter også nogle af kroppens immunreaktioner. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take fingolimod"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take fingolimod"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Fingolimod Mylan </p>
+<ul>
+<li>
+<p>Hvis du er allergisk over for fingolimod eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). </p>
+</li>
+<li>
+<p>Hvis du har nedsat immunrespons (på grund af immundefektsyndrom, sygdom eller medicin, 
+som undertrykker immunsystemet). </p>
+</li>
+<li>
+<p>Hvis du har en alvorlig, aktiv infektion eller aktiv kronisk infektion, såsom hepatitis eller 
+tuberkulose. </p>
+</li>
+<li>
+<p>Hvis du har en aktiv kræftsygdom. </p>
+</li>
+<li>
+<p>Hvis du har alvorlige leverproblemer. </p>
+</li>
+<li>
+<p>Hvis du inden for de seneste 6 måneder har haft hjerteanfald, hjertekrampe, slagtilfælde 
+eller advarsel om slagtilfælde eller visse typer hjertesvigt. </p>
+</li>
+<li>
+<p>Hvis du har visse typer uregelmæssig eller unormal hjerterytme (arytmi), inkl. patienter, hvor 
+elektrokardiogrammet (ekg) viser forlænget QT-interval. </p>
+</li>
+<li>
+<p>Hvis du tager eller for nylig har taget medicin mod uregelmæssig hjerterytme såsom 
+quinidin, disopyramid, amiodaron eller sotalol. </p>
+</li>
+<li>
+<p>Hvis du er gravid eller er en kvinde, der er i stand til at blive gravid, og ikke anvender 
+effektiv prævention. 
+Hvis dette gælder for dig, eller hvis du er usikker, skal du tale med lægen, før du tager Fingolimod 
+Mylan. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Fingolimod Mylan: </p>
+<ul>
+<li>
+<p>Hvis du har alvorlige åndedrætsproblemer under søvn (svær søvnapnø). </p>
+</li>
+<li>
+<p>Hvis du har fået fortalt, at du har et unormalt elektrokardiogram. </p>
+</li>
+<li>
+<p>Hvis du har symptomer på langsom puls (fx svimmelhed, kvalme eller hjertebanken). </p>
+</li>
+<li>
+<p>Hvis du tager eller for nylig har taget medicin, der nedsætter pulsen (som fx betablokkere, 
+verapamil, diltiazem eller ivabradin, digoxin, kolinesterasehæmmere eller pilocarpin). </p>
+</li>
+<li>
+<p>Hvis du tidligere pludselig har mistet bevidstheden eller er besvimet (synkope). </p>
+</li>
+<li>
+<p>Hvis du skal vaccineres. </p>
+</li>
+<li>
+<p>Hvis du aldrig har haft skoldkopper. </p>
+</li>
+<li>
+<p>Hvis du har eller har haft synsforstyrrelser eller andre tegn på hævelse i det centrale 
+synsområde (makula) bag i øjet (en tilstand, der kaldes makulaødem, se nedenfor), 
+øjenbetændelse eller -infektion (uveitis), eller hvis du har diabetes (som kan forårsage 
+øjenproblemer). </p>
+</li>
+<li>
+<p>Hvis du har leverproblemer. </p>
+</li>
+<li>
+<p>Hvis du har for højt blodtryk, som ikke kan kontrolleres med medicin. </p>
+</li>
+<li>
+<p>Hvis du har alvorlige lungeproblemer eller tobakshoste. 
+Hvis noget at dette gælder for dig, eller hvis du er usikker, skal du tale med lægen, før du tager 
+Fingolimod Mylan. </p>
+</li>
+</ul>
+<p>Langsom puls (bradykardi) og uregelmæssig hjerterytme 
+I begyndelsen af behandlingen, eller når du har taget den første dosis på 0,5 mg, når du skifter fra den 
+daglige dosis på 0,25 mg, bevirker Fingolimod Mylan, at du får en langsom puls. Du kan derfor føle 
+dig svimmel eller træt eller mærke dit hjerte slå, eller dit blodtryk kan falde. Hvis disse virkninger er 
+alvorlige, skal du sige det til din læge; det er måske nødvendigt, at du bliver behandlet straks. 
+Dette lægemiddel kan også bevirke, at hjertet slår uregelmæssigt, især efter første dosis. Uregelmæssig 
+hjerterytme bliver sædvanligvis normal igen i løbet af mindre end én dag. Langsom puls bliver 
+sædvanligvis normal igen i løbet af én måned. I denne periode forventes der normalt ingen særlig 
+påvirkning af pulsen. </p>
+<p>Din læge vil bede dig om at blive i afdelingen i mindst 6 timer, efter du har fået den første dosis 
+Fingolimod Mylan, eller efter du har fået den første dosis på 0,5 mg, når du skifter fra en daglig dosis 
+på 0,25 mg, så du kan få målt puls og blodtryk hver time, og passende forholdsregler kan træffes i 
+tilfælde af, at du får bivirkninger, der opstår i begyndelsen af behandlingen. Du skal have taget </p>
+<p>elektrokardiogram før den første dosis af dette lægemiddel og efter 6-timers-monitoreringsperioden. 
+Din læge kan vælge at overvåge dit elektrokardiogram hele tiden i denne periode. Hvis du efter 6-
+timers-perioden har meget langsom eller faldende puls, eller hvis dit elektrokardiogram er unormalt, 
+kan det være nødvendigt at overvåge dig i en længere periode (i mindst 2 timer til og muligvis natten 
+over), indtil dette er ophørt. Det samme kan gælde, hvis du genoptager Fingolimod Mylan-
+behandlingen, efter den har været afbrudt, afhængig af både hvor lang tid den har været afbrudt, og 
+hvor længe du har taget det før afbrydelsen. </p>
+<p>Hvis du har eller er i risiko for at få uregelmæssig eller unormal hjerterytme, hvis dit 
+elektrokardiogram er unormalt, eller hvis du hjertesygdom eller hjertesvigt, er Fingolimod Mylan 
+måske ikke hensigtsmæssigt til dig. </p>
+<p>Hvis du tidligere har haft langsom puls eller oplevet pludseligt at tabe bevidstheden, er Fingolimod 
+Mylan måske ikke den rigtige medicin for dig. Du vil blive undersøgt af en hjertelæge (kardiolog), 
+som vil rådgive dig i, hvordan du skal starte behandlingen, herunder overvågning den første nat. </p>
+<p>Hvis du tager medicin, der kan forårsage, at din hjertefrekvens sænkes, er Fingolimod Mylan måske 
+ikke den rigtige medicin for dig. Du vil blive undersøgt af en hjertelæge, som vil se, om du kan skiftes 
+til nogle andre lægemidler, som ikke sænker din hjertefrekvens, så du kan komme i behandling med 
+Fingolimod Mylan. Hvis et skift er umuligt, vil hjertelægen give rådgivning om, hvordan du skal starte 
+behandling med Fingolimod Mylan, herunder overvågning den første nat. </p>
+<p>Hvis du aldrig har haft skoldkopper 
+Hvis du aldrig har haft skoldkopper, vil lægen kontrollere din immunitet over for den virus, der giver 
+skoldkopper (varicella zoster virus). Hvis du ikke er beskyttet mod denne virus, skal du måske 
+vaccineres, før du påbegynder behandling med Fingolimod Mylan. I så fald vil din læge udsætte 
+behandlingen indtil en måned efter, at det fulde vaccinationsprogram er afsluttet. </p>
+<p>Infektioner 
+Fingolimod Mylan sænker antallet af hvide blodlegemer (især lymfocyttallet). Hvide blodlegemer 
+bekæmper infektioner. Mens du tager dette lægemiddel (og op til 2 måneder efter, at du er holdt op 
+med at tage det), kan du være mere modtagelig over for infektioner. Enhver infektion, som du allerede 
+har, kan forværres. Infektioner kan være alvorlige og livstruende. Hvis du tror, du har en infektion, har 
+feber, føler det, som om du har influenza, har helvedesild eller har hovedpine med ledsagende 
+nakkestivhed, øget følsomhed for lys, kvalme, udslæt og/eller er konfus eller har krampeanfald 
+(anfald) (dette kan være symptomer på meningitis og/eller encefalitis forårsaget af en svampeinfektion 
+eller herpes virusinfektion), skal du straks kontakte din læge, da det kan være alvorligt og livstruende.  </p>
+<p>Hvis du synes, at din multiple sklerose bliver værre (svaghed eller ændret syn), eller hvis du bemærker 
+nye symptomer, skal du straks tale med din læge, da dette kan være symptomer på en sjælden 
+hjernebetændelse kaldet progressiv multifokal leukoencefalopati (PML). PML er en alvorlig tilstand, 
+som kan medføre svær invaliditet eller døden. Din læge vil overveje at udføre en MR-scanning med 
+henblik på vurdering af PML og vil derefter beslutte, om du skal stoppe med at tage fingolimod. </p>
+<p>Der er der rapporteret tilfælde af infektion med human papillomavirus-infektion (HPV), herunder 
+godartet knude (papillom), celleforandring (dysplasi), vorter og HPV-relateret kræft, hos patienter 
+behandlet med Fingolimod Mylan. Din læge vil overveje, om du skal have vaccination mod HPV, 
+inden du starter behandling. Hvis du er en kvinde, vil din læge også anbefale HPV-screening. </p>
+<p>Makulaødem 
+Hvis du har eller har haft synsforstyrrelser eller andre tegn på hævelse i det centrale synsområde 
+(makula) bag i øjet, øjenbetændelse eller -infektion (uveitis) eller diabetes, vil din læge måske have, at 
+du får foretaget en øjenundersøgelse, før du begynder at tage Fingolimod Mylan. </p>
+<p>Lægen vil måske have, at du får foretaget en øjenundersøgelse 3-4 måneder efter, at behandlingen med 
+Fingolimod Mylan er startet. </p>
+<p>Makula er et lille område på nethinden bag i øjet, som gør, at man kan se former, farver og detaljer 
+tydeligt og skarpt. Fingolimod Mylan kan forårsage hævelser i makula, en tilstand, der kaldes 
+makulaødem. Hævelsen opstår normalt i løbet af de første 4 måneder, man behandles. </p>
+<p>Risikoen for at udvikle makulaødem er højere, hvis du har diabetes eller har haft en øjenbetændelse, 
+som kaldes uveitis. Hvis dette er tilfældet, vil din læge sørge for, at du får foretaget en 
+øjenundersøgelse med henblik på at opdage makulaødem. </p>
+<p>Hvis du har haft makulaødem, skal du fortælle det til din læge, før du genoptager behandling med 
+Fingolimod Mylan.  </p>
+<p>Makulaødem kan give nogle af de samme synsforstyrrelser som et MS-attak (synsnervebetændelse). 
+Tidligt 
+i behandlingen er der måske ingen symptomer. Det er vigtigt, at du siger det til din læge, hvis du 
+oplever nogen som helst ændringer i dit syn. 
+Lægen vil måske have, at du får foretaget en øjenundersøgelse, især hvis: </p>
+<ul>
+<li>
+<p>midten af synsfeltet bliver tåget eller har skygger. </p>
+</li>
+<li>
+<p>der opstår en blind plet midt i synsfeltet. </p>
+</li>
+<li>
+<p>det bliver svært at se farver og små detaljer. </p>
+</li>
+</ul>
+<p>Leverfunktionsprøver 
+Hvis du har alvorlige leverproblemer, må du ikke tage Fingolimod Mylan. Det kan påvirke 
+leverfunktionen. Du vil sandsynligvis ikke bemærke nogen symptomer, men hvis du bemærker, at din 
+hud eller det hvide i øjnene bliver gult, urinen bliver unormalt mørk (brunfarvet), du får smerter i højre 
+side af maven, bliver træt, føler dig mindre sulten end normalt eller du får kvalme eller opkastninger, 
+som du ikke kan forklare, skal du straks fortælle det til din læge. </p>
+<p>Hvis du får et eller flere af disse symptomer, efter at du er startet med Fingolimod Mylan, skal du 
+straks fortælle det til din læge. </p>
+<p>Før, under og efter behandlingen vil din læge rekvirere blodprøvetagning til måling af 
+leverfunktionen. Hvis analyserne viser, at der er et problem med din lever, vil det måske være 
+nødvendigt at afbryde behandlingen med Fingolimod Mylan. </p>
+<p>For højt blodtryk 
+Da Fingolimod Mylan forårsager en lille forhøjelse af blodtrykket, vil din læge måske måle dit 
+blodtryk regelmæssigt. </p>
+<p>Lungeproblemer 
+Fingolimod Mylan har en beskeden virkning på lungefunktionen. Patienter med alvorlige 
+lungeproblemer eller med tobakshoste kan have en øget risiko for at udvikle bivirkninger. </p>
+<p>Blodtal 
+Den ønskede virkning af Fingolimod Mylan-behandlingen er en nedsættelse af antallet af hvide 
+blodlegemer i blodet. Det vil sædvanligvis vende tilbage til normalt niveau indenfor 2 måneder efter, 
+at behandlingen er stoppet. Hvis du skal have taget blodprøver, skal du sige til lægen, at du tager dette 
+lægemiddel. Ellers kan lægen måske ikke forstå resultaterne, og for visse blodprøvers vedkommende 
+skal der måske bruges mere blod end normalt. </p>
+<p>Før du starter behandling med Fingolimod Mylan vil din læge kontrollere, om du har nok hvide 
+blodlegemer i blodet, og han vil måske gentage kontrollen regelmæssigt. I tilfælde af, at du ikke har 
+nok hvide blodlegemer, kan det blive nødvendigt at afbryde behandlingen. </p>
+<p>Posteriort reversibelt encefalopati-syndrom (PRES) 
+Der er rapporteret sjældne tilfælde af en tilstand, som kaldes PRES hos MS-patienter behandlet med 
+fingolimod. Symptomerne kan inkludere pludseligt opstået kraftig hovedpine, forvirring, kramper og 
+synsforstyrrelser. Fortæl det straks til din læge, hvis du oplever nogen af disse symptomer, mens du er </p>
+<p>i behandling, da det kan være alvorligt. </p>
+<p>Kræft 
+Der er rapporteret tilfælde af hudkræft hos MS-patienter behandlet med fingolimod. Tal straks med 
+din læge, hvis du bemærker nogen hudknuder (fx skinnende perleformede knuder), pletvise eller åbne 
+sår, som ikke heler inden for uger. Symptomer på hudkræft kan omfatte unormal vækst eller ændringer 
+i hudvæv (fx underlige modermærker) med en ændring i farve, form eller størrelse over tid. Inden du 
+starter behandling med Fingolimod Mylan, skal der laves en hudundersøgelse for at tjekke, om du har 
+hudknuder. Din læge vil også undersøge din hud regelmæssigt under behandlingen. Hvis du får 
+problemer med din hud, kan din læge vælge at henvise dig til en hudlæge, som efter en konsultation 
+måske beslutter, at det er vigtigt, at du bliver undersøgt regelmæssigt. </p>
+<p>En type cancer i lymfesystemet (lymfom) er blevet indberettet for MS-patienter behandlet med 
+fingolimod. </p>
+<p>Ophold i solen og beskyttelse mod solen 
+Fingolimod svækker dit immunsystem. Dette øger din risiko for at udvikle kræft, især hudkræft. Du 
+bør begrænse din udsættelse for sol og UV-stråler ved at: </p>
+<ul>
+<li>
+<p>Gå med tøj, der beskytter dig mod solens stråler. </p>
+</li>
+<li>
+<p>Regelmæssigt påsmøre solcreme med høj solfaktor (mod UV-stråler). </p>
+</li>
+</ul>
+<p>Usædvanlige hjernelæsioner forbundet med anfald af MS<br />
+Der er blevet rapporteret sjældne tilfælde af usædvanligt store hjernelæsioner forbundet med anfald af 
+MS hos patienter, der er blevet behandlet med fingolimod. I tilfælde af svære anfald vil din læge 
+overveje at udføre en MR-scanning for at vurdere denne tilstand og vil beslutte, om du skal stoppe 
+behandlingen. </p>
+<p>Skift fra andre behandlinger til Fingolimod Mylan 
+Lægen kan skifte din behandling direkte fra beta-interferon, glatirameracetat eller dimethylfumarat til 
+Fingolimod Mylan, hvis der ikke er nogen tegn på abnormiteter forårsaget af din tidligere behandling. 
+Din læge kan blive nødt til at tage en blodprøve for at udelukke sådanne uregelmæssigheder. Efter du 
+stopper med natalizumab, skal du måske vente 2-3 måneder, inden du kan begynde behandling med 
+Fingolimod Mylan. Ved skift fra teriflunomid kan din læge råde dig til at vente en vis tid eller til at 
+gennemgå en accelereret udskillelsesprocedure. Hvis du er blevet behandlet med alemtuzumab, er en 
+grundig vurdering og samtale med lægen nødvendig, før det kan besluttes, om Fingolimod Mylan er 
+egnet til at behandle dig. </p>
+<p>Fertile kvinder<br />
+Fingolimod Mylan kan skade det ufødte barn, hvis det tages under graviditet. Inden du begynder 
+behandling, vil din læge forklare risikoen for dig og bede dig om at tage en graviditetstest for at være 
+sikker på, at du ikke er gravid. Din læge vil udlevere et kort, som forklarer, hvorfor du ikke må blive 
+gravid, mens du tager Fingolimod Mylan. Det forklarer også, hvad du bør gøre for at undgå at blive 
+gravid, mens du tager dette lægemiddel. Du skal bruge sikker prævention under behandlingen og i 
+2 måneder efter, at du har stoppet behandlingen (se afsnittet om "Graviditet og amning"). </p>
+<p>Forværring af MS efter ophør af behandling med Fingolimod Mylan<br />
+Du må ikke stoppe med at tage dette lægemiddel eller ændre din dosis uden at tale med din læge først.  </p>
+<p>Fortæl det med det samme til din læge, hvis du synes, at din MS er forværret efter, at du er stoppet 
+med behandling med Fingolimod Mylan. Dette kan være alvorligt (se "Hvis du holder op med at tage 
+Fingolimod Mylan" i punkt 3, og også punkt 4 "Bivirkninger"). </p>
+<p>Ældre 
+Erfaringer med fingolimod til ældre patienter (over 65 år) er begrænsede. Tal med din læge, hvis du på 
+nogen måde er i tvivl. </p>
+<p>Børn og unge </p>
+<p>Fingolimod Mylan er ikke beregnet til brug hos børn under 10 år, da lægemidlet ikke er undersøgt hos 
+MS-patienter i denne aldersgruppe. </p>
+<p>Ovennævnte advarsler og forsigtighedsregler gælder også for børn og unge. Følgende oplysninger er 
+særligt vigtige for børn og unge og deres omsorgspersoner: </p>
+<ul>
+<li>
+<p>Din læge vil tjekke din vaccinationsstatus, inden du starter med Fingolimod Mylan. Hvis du 
+ikke har fået bestemte vaccinationer, kan det være nødvendigt, at du får disse vaccinationer, 
+inden behandling med dette lægemiddel kan påbegyndes. </p>
+</li>
+<li>
+<p>Første gang du får Fingolimod Mylan, eller når du skifter fra en daglig dosis på 0,25 mg til en 
+daglig dosis på 0,5 mg, vil din læge overvåge din puls og hjerterytme (se "Langsom puls 
+(bradykardi) og uregelmæssig hjerterytme" ovenfor). </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du oplever kramper eller krampeanfald, før eller når du tager 
+Fingolimod Mylan. </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du lider af depression eller angst, eller hvis du bliver deprimeret eller 
+får angst, mens du tager Fingolimod Mylan. Du skal måske undersøges nøjere. </p>
+</li>
+</ul>
+<p>Brug af anden medicin sammen med Fingolimod Mylan 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. Fortæl det til lægen, hvis du tager følgende medicin: </p>
+<ul>
+<li>
+<p>Medicin, der hæmmer eller ændrer immunsystemet, herunder anden medicin til 
+behandling af MS, fx beta-interferon, glatirameracetat, natalizumab, mitoxantron, teriflunomid, 
+dimethylfumarat eller alemtuzumab. Du må ikke bruge Fingolimod Mylan sammen med disse 
+typer medicin, da dette kan forstærke virkningen på immunsystemet (se også "Tag ikke 
+Fingolimod Mylan"). </p>
+</li>
+<li>
+<p>Kortikosteroider, grundet mulig additiv virkning på immunsystemet. </p>
+</li>
+<li>
+<p>Vacciner. Hvis du skal vaccineres, skal du først søge råd hos din læge. Under og i op til 
+2 måneder efter behandling med Fingolimod Mylan må du ikke få visse typer vaccine (levende, 
+svækkede vacciner), da de kan udløse den infektion, som de skulle forebygge. Andre vacciner 
+vil måske ikke være så effektive som normalt, hvis de gives i denne periode. </p>
+</li>
+<li>
+<p>Medicin, der nedsætter hjerterytmen (fx betablokkere, såsom atenolol). Hvis Fingolimod 
+Mylan bruges sammen med denne type medicin, kan det forstærke virkningen på hjerterytmen 
+de første dage, efter at du er startet med behandlingen. </p>
+</li>
+<li>
+<p>Medicin for uregelmæssig hjerterytme, fx quinidin, disopyramid, amiodaron eller sotalol. Du 
+må ikke få Fingolimod Mylan, hvis du tager medicin af den type, fordi det kan forstærke 
+virkningen på uregelmæssig hjerterytme (se også "Tag ikke Fingolimod Mylan"). </p>
+</li>
+<li>
+<p>Anden medicin: * 
+proteasehæmmere, anti-infektionsmedicin såsom ketoconazol, svampemidler af azol-
+typen, clarithromycin eller telithromycin. * 
+carbamazepin, rifampicin, phenobarbital, phenytoin, efavirenz eller perikon (Hypericum 
+perforatum) (muligvis risiko for forringet virkning af Fingolimod Mylan). </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>Graviditet 
+Tag ikke Fingolimod Mylan under graviditet, hvis du planlægger at blive gravid eller, hvis du er en 
+kvinde, der kan blive gravid og ikke anvender sikker prævention. Der er risiko for at skade det ufødte 
+barn, hvis dette lægemiddel tages under graviditet. Hyppigheden af medfødte misdannelser er omkring 
+2 gange højere hos børn, der har været udsat for fingolimod under graviditeten, end den er for den 
+generelle befolkning (hvor hyppigheden af medfødte misdannelser er omkring 2-3 %). De hyppigst 
+rapporterede misdannelser inkluderede hjerte-, nyre-, muskel- og knoglemisdannelser. </p>
+<p>Derfor, hvis du er en kvinde, der kan blive gravid: </p>
+<ul>
+<li>vil din læge informere dig om risikoen for det ufødte barn, inden du begynder på behandling 
+med Fingolimod Mylan, og bede dig om at tage en graviditetstest for at være helt sikker på, at </li>
+</ul>
+<p>du ikke er gravid. 
+og </p>
+<ul>
+<li>du skal anvende sikker prævention, mens du tager dette lægemiddel og i to måneder efter, at 
+du er holdt op med at tage det, for at undgå at blive gravid. Tal med din læge om effektive 
+præventionsmetoder. </li>
+</ul>
+<p>Din læge vil udlevere et kort, som forklarer, hvorfor du ikke må blive gravid, mens du tager 
+Fingolimod Mylan. </p>
+<p>Hvis du bliver gravid, mens du tager Fingolimod Mylan, skal du straks fortælle det til din læge. 
+Din læge vil beslutte at stoppe med behandlingen (se "Hvis du holder op med at tage Fingolimod 
+Mylan" i punkt 3, og også punkt 4 "Bivirkninger"). Der vil blive lavet specialiserede undersøgelser på 
+dit ufødte barn (prænatal undersøgelse). </p>
+<p>Amning 
+Du må ikke amme, mens du tager Fingolimod Mylan. Det kan gå over i modermælk, og der er en 
+risiko for alvorlige bivirkninger hos barnet. </p>
+<p>Trafik- og arbejdssikkerhed 
+Din læge vil fortælle dig, om det er tilladt at køre bil eller betjene maskiner, herunder at cykle, når 
+man har din sygdom. Fingolimod Mylan forventes ikke at have indflydelse på evnen til at føre 
+motorkøretøj eller betjene værktøj og maskiner. </p>
+<p>Ved indledning af behandlingen vil du dog blive bedt om at blive i afdelingen de første 6 timer, efter 
+du har fået den første dosis af dette lægemiddel. Din evne til at køre bil eller betjene maskiner kan 
+være nedsat i og muligvis efter denne periode. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take fingolimod"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take fingolimod"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med Fingolimod Mylan vil være overvåget af en læge, som har erfaring med behandling af 
+multipel sklerose. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Den anbefalede dosis er: </p>
+<p>Voksne 
+Dosis er én 0,5 mg kapsel om dagen. </p>
+<p>Brug til børn og unge (10 år og derover)<br />
+Dosis afhænger af kropsvægten: </p>
+<ul>
+<li>
+<p>Børn og unge med en kropsvægt på eller under 40 kg: én 0,25 mg kapsel/dag. </p>
+</li>
+<li>
+<p>Børn og unge med en kropsvægt over 40 kg: én 0,5 mg kapsel/dag.  </p>
+</li>
+</ul>
+<p>Børn og unge, som starter med en 0,25 mg kapsel om dagen, og som senere når op på en stabil 
+kropsvægt over 40 kg, vil få besked fra lægen om at skifte til én 0,5 mg kapsel om dagen. I dette 
+tilfælde, anbefales det at gentage observationsperioden for første dosis. </p>
+<p>Fingolimod Mylan fås kun som 0,5 mg hårde kapsler, som ikke er egnede til børn og unge med en 
+kropsvægt på eller under 40 kg.<br />
+Der fås andre lægemidler med fingolimod i styrken 0,25 mg. 
+Spørg din læge eller apotekspersonalet. </p>
+<p>Den anbefalede dosis må ikke overskrides. </p>
+<p>Fingolimod Mylan skal tages gennem munden. </p>
+<p>Tag Fingolimod Mylan en gang dagligt sammen med et glas vand. Kapslerne skal altid synkes hele og 
+må ikke åbnes. Dette lægemiddel kan tages sammen med eller uden mad. 
+Hvis du tager Fingolimod Mylan på samme tidspunkt hver dag, vil du lettere kunne huske, hvornår du 
+skal tage din medicin. </p>
+<p>Hvis du har spørgsmål om, hvor længe du skal tage dette lægemiddel, skal du tale med din læge eller 
+apoteket. </p>
+<p>Hvis du har taget for meget Fingolimod Mylan 
+Hvis du har taget for mange kapsler, skal du straks kontakte din læge. </p>
+<p>Hvis du har glemt at tage Fingolimod Mylan 
+Hvis du har taget dette lægemiddel i mindre end én måned, og du glemmer at tage én dosis en hel dag, 
+skal du kontakte din læge, før du tager næste dosis. Din læge kan beslutte at holde dig under 
+observation, når du tager næste dosis. </p>
+<p>Hvis du har taget Fingolimod Mylan i mindst én måned og har glemt at tage medicinen i mere end 
+2 uger, skal du kontakte din læge, før du tager næste dosis. Din læge kan beslutte at holde dig under 
+observation, når du tager næste dosis. Hvis du har glemt at tage medicinen i op til 2 uger, kan du dog 
+tage den næste dosis efter planen. </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Fingolimod Mylan 
+Du må ikke stoppe med at tage dette lægemiddel eller ændre din dosis uden at tale med din læge først. </p>
+<p>Fingolimod Mylan vil være i kroppen i op til 2 måneder efter, at du er holdt op med at tage det. 
+Antallet af hvide blodlegemer (lymfocyttallet) kan også stadig være lavt i denne periode, og de 
+bivirkninger, der er beskrevet i denne indlægsseddel, kan stadig forekomme. Hvis du holder op med at 
+tage dette lægemiddel, skal du måske vente 6-8 uger inden, du kan starte på en ny MS-behandling. </p>
+<p>Hvis du bliver nødt til at genstarte med Fingolimod Mylan mere end 2 uger efter, at du er stoppet, kan 
+den virkning på hjertefrekvensen, der normalt ses i starten af behandlingen, forekomme igen, og det er 
+nødvendigt, at du bliver overvåget på hospitalsafdelingen i forbindelse med genstart af behandlingen. 
+Efter en behandlingspause på mere end to uger må du ikke genstarte med dette lægemiddel uden at 
+have søgt rådgivning hos din læge. </p>
+<p>Din læge vil beslutte, om og hvordan du skal overvåges, efter at du er stoppet med Fingolimod Mylan. 
+Fortæl det med det samme til din læge, hvis du synes, at din MS er forværret efter, at du er stoppet 
+med behandlingen. Dette kan være alvorligt. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være eller blive alvorlige: </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Hoste med slim, ubehag i brystet, feber (tegn på lungesygdom) </p>
+</li>
+<li>
+<p>Herpes-virusinfektion (helvedesild eller herpes zoster) med symptomer, som fx vabler, svie, 
+kløe eller smerter i huden, typisk på overkroppen eller i ansigtet. Andre symptomer kan være 
+feber og svaghed i de tidlige stadier af infektionen, efterfulgt af følelsesløshed, kløe eller røde 
+pletter med kraftig smerte </p>
+</li>
+<li>
+<p>Langsom puls (bradykardi), uregelmæssig hjerterytme </p>
+</li>
+<li>
+<p>En type hudkræft, der kaldes basalcellekarcinom (BCC), som ofte viser sig som perleformede 
+knuder, men som også kan have andre former </p>
+</li>
+<li>
+<p>Depression og angst forekommer med øget hyppighed hos patienter med multipel sklerose og er 
+også blevet rapporteret for pædiatriske patienter behandlet med fingolimod </p>
+</li>
+<li>
+<p>Vægttab </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Lungebetændelse med symptomer som feber, hoste, åndedrætsbesvær </p>
+</li>
+<li>
+<p>Makulaødem (hævelse i det centrale synsområde på retina bag i øjet) med symptomer som 
+skygger eller en blind plet midt i synsfeltet, sløret syn, problemer med at se farver eller detaljer </p>
+</li>
+<li>
+<p>Nedsat antal blodplader, hvilket øger risikoen for blødning eller blå mærker </p>
+</li>
+<li>
+<p>Malignt melanom (en type hudkræft, som normalt opstår fra et usædvanligt modermærke). 
+Mulige tegn på melanom omfatter modermærker, der kan ændre størrelse, form, højde eller 
+farve over tid, eller nye modermærker. Modermærkerne kan klø, bløde eller danne sår </p>
+</li>
+<li>
+<p>Kramper, krampeanfald (ses oftere hos børn og unge end hos voksne) </p>
+</li>
+</ul>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>En tilstand, som kaldes posteriort reversibelt encefalopati-syndrom (PRES). Symptomerne kan 
+inkludere pludseligt opstået kraftig hovedpine, forvirring, kramper og/eller synsforstyrrelser </p>
+</li>
+<li>
+<p>Lymfom (en kræfttype, som påvirker lymfesystemet) </p>
+</li>
+<li>
+<p>Pladecellekarcinom: en type hudkræft, der kan fremstå som en fast, rød knude, et sår med 
+skorpe eller et nyt sår på et eksisterende ar </p>
+</li>
+</ul>
+<p>Meget sjældne (kan forekomme hos op til 1 ud af 10.000 personer) </p>
+<ul>
+<li>
+<p>Unormalt elektrokardiogram (T-takinversion) </p>
+</li>
+<li>
+<p>Tumor i forbindelse med en infektion med humant herpesvirus 8 (Kaposis sarkom) </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data) </p>
+<ul>
+<li>
+<p>Allergiske reaktioner, herunder symptomer på udslæt eller kløende nældefeber, hævelse af 
+læber, tunge eller ansigt, som oftest forekommer den dag du starter behandling med Fingolimod 
+Mylan </p>
+</li>
+<li>
+<p>Tegn på leversygdom (herunder leversvigt), såsom gulfarvning af din hud eller det hvide i dine 
+øjne (gulsot), kvalme eller opkastning, smerter i højre side af maven, mørk urin (brunfarvet), 
+mindre sultfølelse end normalt, træthed og unormale leverfunktionsprøver. I meget få tilfælde 
+kan leversvigt føre til levertransplantation </p>
+</li>
+<li>
+<p>Risiko for en sjælden hjernebetændelse kaldet progressiv multifokal leukoencefalopati (PML). 
+Symptomerne på PML kan minde om tilbagefald af multipel sklerose. Der kan også optræde 
+symptomer, som du ikke selv lægger mærke til, som f.eks. humørændringer og ændret adfærd, 
+hukommelsesbesvær og problemer med at tale og kommunikere med andre. Det kan være 
+nødvendigt, at din læge undersøger dig nærmere for at udelukke PML. Hvis du synes, at din 
+multiple sklerose bliver værre, eller hvis du eller nogen, som er tæt på dig, bemærker nye eller 
+usædvanlige symptomer, er det meget vigtigt, at du taler med din læge hurtigst muligt </p>
+</li>
+<li>
+<p>Kryptokokinfektioner (en type svampeinfektion), herunder kryptokokmeningitis med 
+symptomer som hovedpine ledsaget af nakkestivhed, følsomhed over for lys, kvalme og/eller 
+forvirring </p>
+</li>
+<li>
+<p>Merkelcellekarcinom (en type hudkræft). Mulige tegn på Merkelcellekarcinom omfatter 
+kødfarvet eller blålig-rød, ikke-øm knude, ofte på ansigt, hoved eller hals. Merkelcellekarcinom 
+kan også vise sig som en hård ikke-øm knude eller masse. Langvarig udsættelse for sol og et 
+svagt immunsystem kan påvirke risikoen for udvikling af Merkelcellekarcinom </p>
+</li>
+<li>
+<p>Efter behandlingsophør med Fingolimod Mylan kan symptomer på MS komme tilbage og 
+måske blive værre, end de var før eller under behandling. </p>
+</li>
+<li>
+<p>Autoimmun form for blodmangel (nedsat antal røde blodlegemer), hvor røde blodlegemer bliver 
+ødelagt (autoimmun hæmolytisk anæmi). </p>
+</li>
+</ul>
+<p>Hvis du oplever nogen af disse bivirkninger, skal du straks fortælle det til din læge. </p>
+<p>Andre bivirkninger 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Infektion fra influenzavirus med symptomer som træthed, kuldegysninger, ondt i halsen, led- og 
+muskelsmerter, feber </p>
+</li>
+<li>
+<p>Følelse af tryk eller smerte i kinder og pande (bihulebetændelse) </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Rygsmerter </p>
+</li>
+<li>
+<p>Forhøjede niveauer af leverenzymer i blodprøver </p>
+</li>
+<li>
+<p>Hoste </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Ringorm, en svampeinfektioner i hud (tinea versicolor) </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Kraftig hovedpine, ofte ledsaget af kvalme, opkastning og lysfølsomhed (migræne) </p>
+</li>
+<li>
+<p>Lavt antal hvide blodlegemer (lymfocytter, leukocytter) </p>
+</li>
+<li>
+<p>Svaghed </p>
+</li>
+<li>
+<p>Kløende, rødt, sviende udslæt (eksem) </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Forhøjet niveau af fedt (triglycerider) i blodet </p>
+</li>
+<li>
+<p>Hårtab </p>
+</li>
+<li>
+<p>Stakåndethed </p>
+</li>
+<li>
+<p>Depression </p>
+</li>
+<li>
+<p>Sløret syn (se også afsnittet om makulaødem under "Nogle bivirkninger kan være eller blive 
+alvorlige") </p>
+</li>
+<li>
+<p>Hypertension (Fingolimod Mylan kan forårsage en let forhøjelse af blodtrykket) </p>
+</li>
+<li>
+<p>Muskelsmerter </p>
+</li>
+<li>
+<p>Ledsmerter </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Lavt niveau af visse hvide blodlegemer (neutrofiler) </p>
+</li>
+<li>
+<p>Sænket stemningsleje </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+</ul>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>Kræft i lymfesystemet (lymfom) </li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data) </p>
+<ul>
+<li>Perifer hævelse </li>
+</ul>
+<p>Hvis nogen af disse bivirkninger bliver alvorlige, skal du fortælle det til din læge. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store fingolimod"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store fingolimod"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<ul>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisterfolien/beholderen 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Må ikke opbevares ved temperaturer over 25 ºC. </p>
+</li>
+<li>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
+</li>
+<li>
+<p>Brug ikke dette lægemiddel, hvis du bemærker, at pakningen er beskadiget eller viser tegn på at 
+have været åbnet. </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fingolimod Mylan indeholder:</p>
+<ul>
+<li>Aktivt stof: fingolimod. Hver kapsel indeholder 0,5 mg fingolimod (som hydrochlorid). </li>
+<li>Øvrige indholdsstoffer: 
+• Kapselindhold: calciumhydrogenphosphatdihydrat, glycin, kolloidt, vandfrit silica samt 
+magnesiumstearat. 
+• Kapselskal: gelatine, titandioxid (E 171), gul jernoxid (E 172) og rød jernoxid (E 172). 
+• Blæk: shellak (E 904), propylenglycol (E 1520), sort jernoxid (E 172) samt kaliumhydroxid. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+En hård kapsel med brunorange uigennemsigtig overdel og hvid uigennemsigtig hoveddel med påtrykt 
+"MYLAN" over "FD 0.5" med sort blæk på både overdel og hoveddel. </p>
+<p>Fingolimod Mylan 0,5 mg-kapsler fås i: 
+Blisterpakninger med 28, 30, 84 eller 98 hårde kapsler 
+Multipakninger med 3 kartoner, som hver indeholder 28 hårde kapsler 
+Kalenderpakninger med 28 eller 84 hårde kapsler 
+Enkeltdosisblisterpakninger med 7 x 1, 28 x 1, 90 x 1 eller 98 x 1 hårde kapsler 
+Beholdere med 90 eller 100 hårde kapsler  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Mylan Ireland Limited, Unit 35/36 Grange Parade, Baldoyle Industrial Estate, Dublin 13, Irland. </p>
+<p>Fremstillere 
+Mylan Hungary Kft, Mylan utca 1, Komarom, H-2900, Ungarn </p>
+<p>Mylan Germany GmbH, Zweigniederlassung Bad Homburg v. d. Höhe, Benzstrasse 1, Bad Homburg 
+v. d. Höhe, Hessen, 61352, Tyskland.  </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af 
+markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Viatris UAB<br />
+Tel: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ s.r.o.<br />
+Tel: + 420 222 004 Magyarország 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2 </p>
+<p>Danmark 
+Viatris ApS<br />
+Tlf: +45 28 11 69 32  </p>
+<p>Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH<br />
+Tel: +49 800 0700 800  </p>
+<p>Nederland 
+Mylan BV 
+Tel: +31 (0)20 426 3Eesti 
+Viatris OÜ 
+Tel: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33 Ελλάδα<br />
+Viatris Hellas Ltd<br />
+Τηλ: +30 2100 100<br />
+Österreich 
+Arcana Arzneimittel GmbH 
+Tel: +43 1 416 2 
+España 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64<br />
+France 
+Viatris Santé 
+Tél: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127<br />
+Hrvatska 
+Viatris Hrvatska d.o.o.<br />
+Tel: +385 1 23 50 <br />
+România 
+BGP Products SRL 
+Tel: +40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63<br />
+Ísland 
+Icepharma hf.<br />
+Sími: +354 540 8000  </p>
+<p>Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199 Italia 
+Viatris Italia S.r.l.<br />
+Tel: + 39 (0) 2 612 46 
+Suomi/Finland 
+Viatris OY 
+Puh/Tel: +358 20 720 9 
+Κύπρος 
+Varnavas Hadjipanayis Ltd 
+Τηλ: +357 2220 7Sverige 
+Viatris AB<br />
+Tel: + 46 (0)8630 19<br />
+Latvija 
+Viatris SIA<br />
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
++353 18711600  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-20340baf00f2c4ec417bbf6c08de7c1d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fingolimod Package Leaflet for language en"
+Description: "ePI document Bundle for fingolimod Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-20340baf00f2c4ec417bbf6c08de7c1d"
+* entry[0].resource = composition-en-20340baf00f2c4ec417bbf6c08de7c1d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp20340baf00f2c4ec417bbf6c08de7c1d"
+* entry[=].resource = mp20340baf00f2c4ec417bbf6c08de7c1d
+                            
+                    
+Instance: bundlepackageleaflet-da-20340baf00f2c4ec417bbf6c08de7c1d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fingolimod Package Leaflet for language da"
+Description: "ePI document Bundle for fingolimod Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-20340baf00f2c4ec417bbf6c08de7c1d"
+* entry[0].resource = composition-da-20340baf00f2c4ec417bbf6c08de7c1d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp20340baf00f2c4ec417bbf6c08de7c1d"
+* entry[=].resource = mp20340baf00f2c4ec417bbf6c08de7c1d
+                            
+                    
+
+
+
+Instance: mp20340baf00f2c4ec417bbf6c08de7c1d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Fingolimod Mylan 0.5 mg hard capsules"
-Description: "Fingolimod Mylan 0.5 mg hard capsules"
+Title: "Medicinal Product fingolimod"
+Description: "fingolimod"
 Usage: #inline
 
  
@@ -662,7 +1613,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Fingolimod Mylan 0.5 mg hard capsules"
+  * productName = "fingolimod"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -689,29 +1640,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-20340baf00f2c4ec417bbf6c08de7c1d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for fingolimod Package Leaflet for language en"
-Description: "ePI document Bundle for fingolimod Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 20340baf00f2c4ec417bbf6c08de7c1dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1573/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "fingolimod"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-20340baf00f2c4ec417bbf6c08de7c1d"
-* entry[0].resource = composition-en-20340baf00f2c4ec417bbf6c08de7c1d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9215a0c64a02cdfc83cbdfbe8b9e06bf"
-* entry[=].resource = mp9215a0c64a02cdfc83cbdfbe8b9e06bf
-                            
-                      
+* title = "List of all ePIs associated with fingolimod"
+
+* subject = Reference(mp9215a0c64a02cdfc83cbdfbe8b9e06bf)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#fingolimod "fingolimod"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-20340baf00f2c4ec417bbf6c08de7c1d) // fingolimod en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-20340baf00f2c4ec417bbf6c08de7c1d) // fingolimod da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-20340baf00f2c4ec417bbf6c08de7c1d
+InstanceOf: List
+
+* insert 20340baf00f2c4ec417bbf6c08de7c1dListRuleset
+    

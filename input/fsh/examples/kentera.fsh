@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a346fcd48e1745156d4e5145052e15e4
 InstanceOf: CompositionUvEpi
 Title: "Composition for kentera Package Leaflet"
@@ -396,12 +399,555 @@ Tel: +353 214619This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-a346fcd48e1745156d4e5145052e15e4
+InstanceOf: CompositionUvEpi
+Title: "Composition for kentera Package Leaflet"
+Description:  "Composition for kentera Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb9d5e42163934a28483a9ffc8d570d66)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb9d5e42163934a28483a9ffc8d570d66
+* title = "TEST PURPOSES ONLY - kentera"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Kentera </li>
+<li>Sådan skal du bruge Kentera </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What kentera is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What kentera is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kentera anvendes hos voksne til at kontrollere symptomer på ufrivillig vandladning (urge-inkontinens) 
+og/eller øget vandladningshyppighed og -trang. </p>
+<p>Kentera virker ved at gøre det muligt for blæren at udvide sig og rumme mere urin.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take kentera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take kentera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Kentera </p>
+<ul>
+<li>hvis du er allergisk) over for oxybutynin eller et af de øvrige indholdsstoffer i Kentera (angivet i 
+punkt 6).  </li>
+<li>hvis du lider af en sjælden sygdom, der hedder myasthenia gravis, der får musklerne i kroppen 
+til at blive svage og hurtigt trætte. </li>
+<li>hvis du oplever ufuldstændig blæreudtømning under vandladning, kan brugen af oxybutynin 
+forværre dette problem, og du bør i det tilfælde tale med din læge, inden du anvender Kentera. </li>
+<li>hvis du har fordøjelsesproblemer som følge af forringet udtømning af mavesækken efter et 
+måltid, bør du rådføre dig med din læge, inden du anvender Kentera. </li>
+<li>hvis du har glaukom eller forekomst af glaukom i familien, skal du fortælle det til lægen. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du bruger Kentera 
+hvis ét eller flere af følgende punkter gælder for dig. 
+- leverproblemer 
+- nyreproblemer 
+- vandladningsbesvær 
+- blokering af tarmene<br />
+- blodig afføring 
+- generel muskelsvaghed 
+- smerter, når du synker  </p>
+<p>Da behandling med oxybutynin kan forårsage nedsat svedproduktion, har du en øget risiko for feber 
+og hedeslag, hvis du udsættes for høje temperaturer i dine omgivelser. </p>
+<p>Børn og unge 
+Kentera anbefales ikke til behandling af børn eller unge. </p>
+<p>Brug af anden medicin sammen med Kentera </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Hvis du bruger Kentera-plasteret samtidig med at du bruger andre lægemidler, der har lignende 
+bivirkninger såsom mundtørhed, forstoppelse og døsighed, kan hyppigheden og sværhedsgraden af 
+disse bivirkninger opleves som øget. </p>
+<p>Oxybutynin kan få fordøjelseskanalen til at arbejde langsommere og derved påvirke optagelsen af 
+andre lægemidler, der tages gennem munden, og brugen af dette lægemiddel sammen med anden 
+medicin kan øge virkningen af oxybutynin. Dette gælder særligt:</p>
+<ul>
+<li>Ketoconazol, itraconazol eller fluconazol (anvendes til behandling af svampeinfektioner) </li>
+<li>Erythromycin, et makrolidantibiotikum (anvendes til behandling af bakterielle infektioner) </li>
+<li>Biperiden, levodopa eller amantadin (anvendes til behandling af Parkinsons sygdom) </li>
+<li>Antihistaminer (anvendes til behandling af allergi såsom høfeber) </li>
+<li>Phenothiaziner eller clozapin (anvendes til behandling af psykiske lidelser) </li>
+<li>Tricykliske antidepressiva (anvendes til behandling af depression) </li>
+<li>Dipyridamol (anvendes til behandling af problemer med blodets koagulation) </li>
+<li>Atropin og anden antikolinerg medicin (anvendes til behandling af mavelidelser såsom irritabel 
+tyktarm) </li>
+</ul>
+<p>Brug af Kentera sammen med alkohol </p>
+<p>Oxybutynin kan forårsage døsighed og sløret syn. Døsigheden kan forværres ved indtagelse af alkohol. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Kentera bør ikke anvendes under graviditeten, medmindre det er klart nødvendigt. </p>
+<p>Når oxybutynin anvendes under amning, udskilles der en lille mængde i modermælk. Oxybutynin bør 
+derfor ikke anvendes i amningsperioden. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Da Kentera kan medføre døsighed, søvnighed eller sløret syn, skal patienterne rådes til at udvise 
+forsigtighed, når de fører motorkøretøj eller betjener maskiner.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take kentera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take kentera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Påfør et nyt Kentera-plaster to gange ugentligt (hver 3. til 4. dag) i overensstemmelse med 
+brugsvejledningen. Skift plaster på de to samme ugedage hver uge, for eksempel hver søndag og 
+onsdag eller hver mandag og torsdag.  </p>
+<p>Trykt på indersiden af Kentera-pakningen finder du en Kentera-kalendercheckliste, der hjælper dig til 
+at huske doseringsplanen. Sæt kryds ved den plan, du følger, og husk altid at skifte plaster på de 
+samme to ugedage i den uge, du har valgt i kalenderen. Sørg for kun at bære ét plaster ad gangen og 
+bær plasteret uafbrudt, indtil det er tid til at påsætte et nyt. </p>
+<p>Hvor påføres plasteret? 
+Påsæt plasteret på et rent, tørt, glat hudområde på mave, hofter eller balder.Undgå at placere plasteret i 
+taljeområdet, så stramt tøj ikke kan gnide mod plasteret. Plasteret må ikke udsættes for sollys. Placer 
+plasteret under tøjet. Skift påføringssted ved hver ny påføring. Påfør ikke plastre samme sted på 
+kroppen i mindst 1 uge. </p>
+<p>Hvordan påsættes Kentera? </p>
+<p>Hvert plaster er forseglet enkeltvis i et beskyttende brev. Læs nedenstående oplysninger omhyggeligt, 
+før du begynder at påsætte Kentera. </p>
+<p>Sådan påsætter du Kentera: </p>
+<p>Trin 1: Vælg et område til plasteret, der er:</p>
+<ul>
+<li>Nyligt afvasket, men alligevel tørt og køligt (vent et par minutter efter et varmt kar- eller 
+brusebad). </li>
+<li>Fri for kropspudder, lotion og olie. </li>
+<li>Fri for sår, udslæt eller anden form for hudirritation. </li>
+</ul>
+<p>Trin 2: Åbn brevet, der indeholder plasteret. </p>
+<ul>
+<li>Riv langs pileafmærkningen på højre side af brevet, som vist på tegningen nedenfor. </li>
+<li>Klip ikke i brevet med en saks, da dette kan beskadige plasteret indeni. </li>
+<li>Træk plasteret ud. </li>
+<li>Klip og del ikke plasteret, brug ikke beskadigede plastre. </li>
+<li>Sæt straks plasteret på huden; opbevar det aldrig uden for det forseglede brev. </li>
+</ul>
+<p>Trin 3: Påfør den ene halvdel af plasteret på huden. </p>
+<ul>
+<li>Bøj forsigtigt plasteret og fjern det første stykke beskyttende folie, som dækker den </li>
+<li>klæbende overflade. </li>
+<li>Tryk plasteret godt fast uden at berøre den klæbende overflade, som skal vende nedad på det 
+valgte hudområde på mave, hofter eller balder. </li>
+</ul>
+<p>Trin 4: Påfør den anden halvdel af plasteret på huden. </p>
+<ul>
+<li>Bøj plasteret bag over sig selv. Tryk det fast ned over folien. </li>
+<li>Skub folien en lille smule frem, så en kant frigøres. </li>
+<li>Tag fat i et af hjørnerne på den løse kant og træk det sidste stykke folie af. Undgå berøring af 
+plasterets klæbende overflade. </li>
+<li>Tryk hele plasteret godt fast på huden med fingerspidserne. Tryk i mindst 10 sekunder, så det 
+sikres, at plasteret holdes på plads. Sørg for, at hele plasteret klæber til huden, også rundt om 
+kanterne. </li>
+<li>Smid den beskyttende folie ud. </li>
+</ul>
+<p>Badning, svømning og motion 
+Bær hvert plaster hele tiden, indtil du påsætter et nyt. Karbad, brusebad, svømning og motion påvirker 
+ikke Kentera-plasteret, så længe du ikke gnider på det under afvaskning. Undgå opblødning i varmt 
+karbad i længere tid, da dette kan få plasteret til at falde af. </p>
+<p>Hvis plasteret falder af 
+Hvis plasteret løfter sig fra huden, så tryk det let fast med fingerspidserne. Plasteret er konstrueret til at 
+genklæbe. I sjældne tilfælde falder plasteret helt af. Hvis det sker, så prøv at sætte det samme plaster 
+fast igen på samme sted. Hvis hele plasteret klæber fast igen, så lad det sidde. Hvis ikke, så tag det af 
+og sæt et nyt plaster fast på et nyt sted. Uanset hvilken dag dette sker, skal du fortsætte med den 
+samme påføring to gange ugentligt efter skemaet, som du har afmærket på plasteræsken. </p>
+<p>Hvis du glemmer at skifte plaster efter 3-4 dage 
+Fjern det gamle plaster, så snart du kommer i tanke om det, og påfør et nyt plaster på et nyt sted på 
+mave, hofter eller balder. Uanset hvilken dag dette sker, skal du fortsætte med det samme 
+påføringsskema to gange ugentligt for det næste plaster, også selvom det betyder skift af plaster, før de 
+3 til 4 dage er forløbet. </p>
+<p>Hvordan fjernes Kentera? </p>
+<p>Ved skift af plasteret fjernes det gamle plaster langsomt. Fold det én gang (med de klæbende sider 
+mod hinanden) og kassér det, så det er utilgængeligt for børn og husdyr. Der kan forekomme en let 
+rødmen på påføringsstedet. Denne rødmen skulle forsvinde i løbet af nogle timer efter at plasteret er 
+fjernet. Hvis irritationen varer ved, bedes du kontakte din læge. </p>
+<p>Forsigtig afvaskning af påføringsområdet med varmt vand og mild sæbe skulle fjerne eventuelle rester 
+af klæbestof på huden efter fjernelse af plasteret. Der kan også anvendes en lille smule babyolie til at 
+fjerne eventuelle rester af klæbestof. Det kan blive nødvendigt at fjerne ringe af snavset klæbestof. 
+Spørg apotekspersonalet hvordan du bedst kan fjerne det. Alkohol og andre stærke opløsningsmidler 
+kan medføre hudirritation og bør ikke anvendes. </p>
+<p>Efter brug indeholder plasteret stadig betydelige mængder aktive stoffer. Rester af aktive stoffer fra 
+plasteret kan være skadelige for vandmiljøet. Derfor skal det brugte plaster foldes én gang, så de 
+klæbende sider vender mod hinanden, og den stofafgivende hinde er tildækket. Det brugte plaster 
+anbringes derefter i det originale brev og bortskaffes på forsvarlig vis og utilgængeligt for børn. 
+Brugte og ubrugte plastre skal bortskaffes i henhold til lokale retningslinjer eller indleveres på 
+apoteket. Brugte plastre må ikke skylles ud i toilet eller afløb.  </p>
+<p>Hvis du har brugt for meget Kentera 
+Du må ikke anvende mere end ét plaster ad gangen. </p>
+<p>Hvis du har glemt at bruge Kentera 
+Sæt et Kentera-plaster på, så snart du opdager, at dit plaster mangler, eller du har glemt at påsætte et 
+nyt plaster på en planlagt dag. </p>
+<p>Hvis du holder op med at bruge Kentera 
+Din urge-inkontinens kan komme igen, og du kan opleve en øget vandladningshyppighed, hvis du 
+beslutter dig for at holde op med at bruge plasteret. Fortsæt med at bruge Kentera, så længe som din 
+læge har anvist. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kentera kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelig bivirkning (kan forekomme hos flere end 1 ud af 10 personer) 
+- kløen omkring applikationsstedet </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) 
+- rødme eller udslæt på applikationsstedet 
+- tør mund 
+- forstoppelse 
+- diarré 
+- dårlig mave 
+- mavesmerter 
+- hovedpine eller søvnighed 
+- urinvejsinfektioner 
+- sløret syn 
+- svimmelhed </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) 
+- infektioner i de øvre luftveje eller svampeinfektion 
+- angst 
+- forvirring 
+- nervøsitet </p>
+<ul>
+<li>sindsbevægelse </li>
+<li>søvnbesvær </li>
+<li>hjertebanken </li>
+<li>hedeture </li>
+<li>rygsmerter </li>
+<li>urinretention </li>
+<li>vandladningsbesvær </li>
+<li>almindelig forkølelse </li>
+<li>skader ved uheld </li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer) 
+- panikreaktion 
+- delirium 
+- hallucinationer 
+- desorientering 
+- hukommelsesbesvær 
+- hukommelsestab 
+- abnorm træthed 
+- nedsat koncentrationsevne </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store kentera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store kentera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på brevet og æsken. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Må ikke opbevares i køleskab eller nedfryses. </p>
+<p>Det brugte plaster skal foldes én gang, så de klæbende sider vender mod hinanden, og den 
+stofafgivende hinde er tildækket. Det brugte plaster anbringes derefter i det originale brev og 
+bortskaffes på forsvarlig vis, så det er utilgængeligt for børn. Brugte og ubrugte plastre skal 
+bortskaffes i henhold til lokale retningslinjer eller indleveres på apoteket. Brugte plastre må ikke 
+skylles ud i toilet eller afløb. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kentera indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: oxybutynin.<br />
+Hvert depotplaster frigør 3,9 mg oxybutynin pr. 24 timer. Hvert depotplaster på 39 cm2 
+indeholder 36 mg oxybutynin. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:<br />
+Hvert plaster indeholder triacetin og akrylklæbestof. Oxybutynin, triacetin og akrylklæbestof 
+sidder på en klar PET/EVA-foringsfilm og er dækket af en beskyttende folie af silikoniseret 
+polyester. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Kentera er et depotplaster, som er pakket i æsker med 2, 8 eller 24 plastre. Hvert plaster består af en 
+klar beskyttende foringsfilm på den side af plasteret, hvor de farmaceutiske indholdsstoffer befinder 
+sig. Foringsfilmen skal fjernes før applikation af plasteret. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Fremstiller </p>
+<p>Merckle GmbH 
+Ludwig-Merckle-Straße 3 
+89143 Blaubeuren 
+Tyskland </p>
+<p>Teva Pharmaceuticals Europe B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland<br />
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Laboratorios Gebro Pharma, S.A. 
+Tel: +34 932058 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Accord Healthcare Ireland Ltd. 
+Ireland 
+Tel: +353 214619 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>ENTYDIG IDENTIFIKATOR - 2D-STREGKODE </p>
+<p>Der er anført en 2D-stregkode, som indeholder en entydig identifikator. </p>
+<ol>
+<li>ENTYDIG IDENTIFIKATOR - MENNESKELIGT LÆSBARE DATA </li>
+</ol>
+<p>PC 
+SN 
+NN </p>
+<p>MINDSTEKRAV TIL MÆRKNING PÅ SMÅ INDRE EMBALLAGER </p>
+<p>BREV </p>
+<ol>
+<li>LÆGEMIDLETS NAVN OG ADMINISTRATIONSVEJ(E) </li>
+</ol>
+<p>Kentera 3,9 mg/24 timers depotplaster 
+oxybutynin<br />
+Kun til transdermal anvendelse. </p>
+<ol>
+<li>ADMINISTRATIONSMETODE </li>
+</ol>
+<p>Påføres straks efter fjernelse fra brevet. 
+Læs indlægssedlen inden brug. </p>
+<ol>
+<li>UDLØBSDATO </li>
+</ol>
+<p>EXP </p>
+<ol>
+<li>BATCHNUMMER </li>
+</ol>
+<p>Lot </p>
+<ol>
+<li>INDHOLD ANGIVET SOM VÆGT, VOLUMEN ELLER ENHEDER </li>
+</ol>
+<p>Indeholder 1 depotplaster. </p>
+<ol>
+<li>ANDET </li>
+</ol>
+<p>Må ikke opbevares i køleskab eller nedfryses.  </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Kentera 3,9 mg / 24 timers depotplaster 
+Oxybutynin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret Kentera til dig personligt. Lad derfor være med at give medicinen til andre. 
+Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, som ikke er nævnt i denne 
+indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a346fcd48e1745156d4e5145052e15e4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kentera Package Leaflet for language en"
+Description: "ePI document Bundle for kentera Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a346fcd48e1745156d4e5145052e15e4"
+* entry[0].resource = composition-en-a346fcd48e1745156d4e5145052e15e4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa346fcd48e1745156d4e5145052e15e4"
+* entry[=].resource = mpa346fcd48e1745156d4e5145052e15e4
+                            
+                    
+Instance: bundlepackageleaflet-da-a346fcd48e1745156d4e5145052e15e4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kentera Package Leaflet for language da"
+Description: "ePI document Bundle for kentera Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a346fcd48e1745156d4e5145052e15e4"
+* entry[0].resource = composition-da-a346fcd48e1745156d4e5145052e15e4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa346fcd48e1745156d4e5145052e15e4"
+* entry[=].resource = mpa346fcd48e1745156d4e5145052e15e4
+                            
+                    
+
+
+
+Instance: mpa346fcd48e1745156d4e5145052e15e4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Kentera 3.9 mg / 24 hours transdermal patch"
-Description: "Kentera 3.9 mg / 24 hours transdermal patch"
+Title: "Medicinal Product kentera"
+Description: "kentera"
 Usage: #inline
 
  
@@ -421,7 +967,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Kentera 3.9 mg / 24 hours transdermal patch"
+  * productName = "kentera"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -448,29 +994,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a346fcd48e1745156d4e5145052e15e4
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for kentera Package Leaflet for language en"
-Description: "ePI document Bundle for kentera Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a346fcd48e1745156d4e5145052e15e4ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/03/270/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "kentera"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a346fcd48e1745156d4e5145052e15e4"
-* entry[0].resource = composition-en-a346fcd48e1745156d4e5145052e15e4
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb9d5e42163934a28483a9ffc8d570d66"
-* entry[=].resource = mpb9d5e42163934a28483a9ffc8d570d66
-                            
-                      
+* title = "List of all ePIs associated with kentera"
+
+* subject = Reference(mpb9d5e42163934a28483a9ffc8d570d66)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#kentera "kentera"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a346fcd48e1745156d4e5145052e15e4) // kentera en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a346fcd48e1745156d4e5145052e15e4) // kentera da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a346fcd48e1745156d4e5145052e15e4
+InstanceOf: List
+
+* insert a346fcd48e1745156d4e5145052e15e4ListRuleset
+    

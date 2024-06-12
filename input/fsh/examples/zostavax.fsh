@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e635923c4f0c1291555b7edc27db8608
 InstanceOf: CompositionUvEpi
 Title: "Composition for zostavax Package Leaflet"
@@ -342,12 +345,451 @@ See also section </p>         </div>"""
 
 
 
+Instance: composition-da-e635923c4f0c1291555b7edc27db8608
+InstanceOf: CompositionUvEpi
+Title: "Composition for zostavax Package Leaflet"
+Description:  "Composition for zostavax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7d8c11ef8e580f61f3097df087a2c1ec)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7d8c11ef8e580f61f3097df087a2c1ec
+* title = "TEST PURPOSES ONLY - zostavax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du får ZOSTAVAX
+3. Sådan får du ZOSTAVAX
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zostavax is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zostavax is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZOSTAVAX er en vaccine, der anvendes til at forebygge helvedesild (herpes zoster) og herpes zoster-
+relateret postherpetisk neuralgi (PHN), dvs. de langvarige nervesmerter, der følger efter helvedesild.
+ZOSTAVAX anvendes til vaccination af personer i alderen 50 år og derover.
+ZOSTAVAX kan ikke anvendes til behandling af helvedesild i udbrud eller smerter forbundet med
+helvedesild i udbrud.
+Oplysninger om helvedesild:
+Hvad er helvedesild?
+Helvedesild er et smertefuldt, blæredannende udslæt. Det er normalt begrænset til et bestemt område på
+kroppen, og det kan vare adskillige uger. Helvedesild kan medføre svære og langvarige smerter samt
+ardannelser. Mindre hyppigt kan der forekomme bakterielle hudinfektioner, slaphed, muskellammelse og
+tab af hørelse eller syn. Helvedesild skyldes den samme virus, som forårsager skoldkopper. Når man har
+haft skoldkopper, bliver den virus, som var skyld i sygdommen, i kroppen i nervecellerne. Undertiden
+bliver virussen aktiv igen efter mange år og forårsager helvedesild. 
+Hvad er PHN?
+Efter at blærerne i forbindelse med helvedesild er helet op, kan smerterne blive ved i månedsvis eller
+årevis, og de kan være svære. Disse langvarige nervesmerter kaldes postherpetisk neuralgi eller PHN. </p>
+<p>40</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zostavax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zostavax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få ZOSTAVAX
+ 
+hvis du er allergisk over for det aktive stof eller et af de øvrige indholdsstoffer i denne vaccine
+(herunder neomycin (som kan forekomme som reststof) eller et eller flere af indholdsstofferne, der
+er angivet under punkt 6) 
+ 
+hvis du har en blodsygdom eller enhver form for kræft, der svækker immunsystemet
+ 
+hvis lægen har fortalt dig, at du har et svækket immunsystem som følge af sygdom, lægemidler
+eller anden behandling
+ 
+hvis du har aktiv tuberkulose, der ikke behandles
+ 
+hvis du er gravid (graviditet skal endvidere undgås 1 måned efter vaccination, se Graviditet og
+amning).
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du får ZOSTAVAX, hvis du har oplevet et eller flere af
+følgende:
+ 
+hvis du har eller har haft sygdomsrelaterede problemer eller allergiske reaktioner
+ 
+hvis du har feber
+ 
+hvis du har hiv-infektion
+Fortæl det til lægen, inden du får denne vaccine, hvis du på noget tidspunkt har haft en allergisk reaktion
+på indholdsstofferne i vaccinen (herunder neomycin (som kan forekomme som reststof) eller et eller flere
+af indholdsstofferne, der er angivet under punkt 6).
+Som med mange vacciner beskytter ZOSTAVAX muligvis ikke fuldstændigt alle personer, der
+vaccineres.
+Hvis du har en sygdom, der vedrører blodets evne til at størkne, eller hvis du har for få blodplader i blodet,
+skal indsprøjtningen gives under huden, da det kan begynde at bløde, hvis den bliver givet i en muskel.
+Brug af anden medicin sammen med ZOSTAVAX 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin (eller vacciner), for nylig har
+brugt anden medicin (eller vacciner) eller planlægger at bruge anden medicin (eller vacciner). 
+ZOSTAVAX kan gives samtidig med inaktiveret influenzavaccine. De to vacciner skal gives som separate
+injektioner forskellige steder på kroppen.
+Kontakt lægen eller sygeplejersken for information om samtidig administration af ZOSTAVAX og
+pneumokokpolysaccharidvaccinen.
+Graviditet og amning
+ZOSTAVAX må ikke gives til gravide. Kvinder i den fødedygtige alder skal tage nødvendige
+forholdsregler for at undgå graviditet i 1 måned efter vaccination.
+Rådfør dig med lægen, hvis du ammer eller planlægger at amme. Lægen vil afgøre, om du kan vaccineres
+med ZOSTAVAX.
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du
+spørge din læge eller apotekspersonalet til råds, før du bliver vaccineret.
+Trafik- og arbejdssikkerhed
+Der foreligger ingen oplysninger, som antyder, at ZOSTAVAX påvirker evnen til at køre bil og betjene
+maskiner.</p>
+<p>41
+ZOSTAVAX indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 milligram) natrium pr. dosis, dvs. det er i det
+væsentlige natriumfrit.
+ZOSTAVAX indeholder kalium
+Dette lægemiddel indeholder mindre end 1 mmol (39 milligram) kalium pr. dosis, dvs. det er i det
+væsentlige kaliumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zostavax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zostavax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZOSTAVAX skal injiceres under huden eller i en muskel, helst på overarmen.
+Hvis du har en sygdom, der vedrører blodets evne til at størkne, eller hvis du har for få blodplader i blodet,
+bliver indsprøjtningen givet under huden.
+ZOSTAVAX gives i en enkelt dosis.
+Rekonstitutionsanvisninger til læger og sundhedspersonale findes sidst i indlægssedlen.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre vacciner og lægemidler give bivirkninger, men ikke alle får
+bivirkninger.
+I sjældne tilfælde (kan forekomme hos op til 1 ud af 1.000 personer) kan der forekomme allergiske
+reaktioner. Nogle af disse reaktioner kan være alvorlige og omfatte åndedrætsbesvær eller synkebesvær.
+Hvis du får en allergisk reaktion, skal du omgående søge læge.
+Der er set følgende bivirkninger:
+ 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer): rødme, smerter, hævelse og
+kløe på injektionsstedet.<em>  
+Almindelige (kan forekomme hos op til 1 ud af 10 personer): varmefornemmelse, blå mærker, en
+hård knude og udslæt på injektionsstedet</em>, hovedpine<em>, smerter i arme eller ben</em>, ledsmerter,
+muskelsmerter, feber, udslæt. 
+ 
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer): kvalme, hævede lymfeknuder
+(halsen, armhulen).
+ 
+Sjældne (kan forekomme hos op til 1 ud af 1.000 personer): nældefeber på injektionsstedet.
+ 
+Meget sjældne (kan forekomme hos op til 1 ud af 10.000 personer): skoldkopper (varicella),
+helvedesild og beskadigelse af retina forårsaget af inflammation med efterfølgende synsmæssige
+forandringer (hos patienter, som modtager immunsuppressiv terapi).</p>
+<p>*Disse bivirkninger er set i videnskabelige forsøg og ved opfølgning efter markedsføring. De fleste af de
+bivirkninger, der blev set i de videnskabelige forsøg, blev rapporteret som værende af mild sværhedsgrad.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
+information om sikkerheden af dette lægemiddel.</p>
+<p>42</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zostavax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zostavax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar denne vaccine utilgængeligt for børn.
+Brug ikke denne vaccine efter den udløbsdato, der står på den ydre karton efter EXP. Udløbsdatoen er den
+sidste dag i den nævnte måned.
+Opbevares i køleskab og transporteres nedkølet (2 °C-8 °C). Må ikke nedfryses. Opbevar hætteglasset i
+den ydre karton for at beskytte mod lys.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZOSTAVAX indeholder:
+Efter rekonstitution indeholder en dosis (0,65 ml):
+Aktivt stof:
+Varicella-zoster-virus1, Oka/Merck-stamme, (levende, svækket) ikke under 19.400 PFU (plaquedannende
+enheder).
+1 Produceret i humane diploide (MRC-5) celler.
+Øvrige indholdsstoffer:
+Pulver
+Saccharose, hydrolyseret gelatine, natriumchlorid (NaCl), kaliumdihydrogenphosphat, kaliumchlorid
+(KCl), mononatrium-L-glutamatmonohydrat, dinatriumphosphat, natriumhydroxid (NaOH) (til justering
+af pH) og urinstof.
+Solvens
+Vand til injektionsvæsker
+Udseende og pakningsstørrelser
+Vaccinen er et pulver, der skal opløses før injektion, opbevaret i et hætteglas, som indeholder en enkelt
+dosis. Indholdet rekonstitueres med solvens, der følger med pulveret.
+Pulveret er en hvid til råhvid kompakt krystallinsk masse. Solvensen er en klar og farveløs væske. 
+ZOSTAVAX fås i pakninger med 1 eller 10 stk. Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+Indehaver af markedsføringstilladelsen: Merck Sharp &amp; Dohme B.V., Waarderweg 39, 2031 BN Haarlem,
+Holland
+Fremstiller: Merck Sharp and Dohme B.V., Waarderweg 39, 2031 BN Haarlem, Holland
+43
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370.5.2780.247
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД, 
+тел.: + 359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o. 
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: + 36.1.888.5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited.
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com 
+Eesti
+Merck Sharp &amp; Dohme OÜ, 
+Tel: +372.614.4200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel.: +48.22.549.51.00
+msdpolska@merck.com
+France
+MSD France 
+Tél: +33 (0)1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: +385 1 66 11 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L
+Tel: + 4021 529 29 00
+msdromania@merck.com</p>
+<p>44
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386.1.520.4201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r.* Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi 
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ:  800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija 
+SIA Merck Sharp &amp; Dohme Latvija 
+Tel: +371.67364.msd_lv@merck.com 
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme (Human Health) Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt;&lt;{måned ÅÅÅÅ}&gt;.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu/.</p>
+<p>45
+Nedenstående oplysninger er til læger og sundhedspersonale:
+Før opblanding med solvensen er vaccinens pulver en hvid til råhvid kompakt krystallinsk masse.
+Solvensen er en klar, farveløs væske. Efter rekonstitution er ZOSTAVAX en let sløret til
+gennemskinnelig, råhvid til bleggul væske.
+Undgå kontakt med desinficerende midler, da disse kan inaktivere vaccinevirus.
+Brug den vedlagte solvens til rekonstitution af vaccinen. 
+Det er vigtigt at anvende en separat steril injektionssprøjte og kanyle til hver enkelt person for at
+forebygge transmission af smitsomme stoffer fra en person til en anden.
+Der skal anvendes en kanyle til rekonstitution, og en anden separat kanyle skal anvendes til injektion.
+Rekonstitutionsanvisninger
+Træk hele indholdet i hætteglasset med solvens op i en injektionssprøjte. Hele sprøjtens indhold injiceres i
+hætteglasset med pulver. Omryst forsigtigt for at opløse pulveret fuldstændigt. 
+Inden administration skal den rekonstituerede vaccine undersøges visuelt for fremmede partikler og/eller
+usædvanligt udseende. Hvis noget af dette forekommer, skal vaccinen kasseres.
+Det anbefales, at vaccinen gives straks efter rekonstitution for at minimere tab af styrke. Den
+rekonstituerede vaccine skal bortskaffes, hvis den ikke anvendes inden for 30 minutter.
+Den rekonstituerede vaccine må ikke nedfryses.
+Hele hætteglassets indhold af rekonstitueret vaccine trækkes op i en injektionssprøjte, kanylen skiftes og
+hele mængden injiceres subkutant eller intramuskulært.
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
+Se også punkt </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e635923c4f0c1291555b7edc27db8608
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zostavax Package Leaflet for language en"
+Description: "ePI document Bundle for zostavax Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e635923c4f0c1291555b7edc27db8608"
+* entry[0].resource = composition-en-e635923c4f0c1291555b7edc27db8608
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe635923c4f0c1291555b7edc27db8608"
+* entry[=].resource = mpe635923c4f0c1291555b7edc27db8608
+                            
+                    
+Instance: bundlepackageleaflet-da-e635923c4f0c1291555b7edc27db8608
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zostavax Package Leaflet for language da"
+Description: "ePI document Bundle for zostavax Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e635923c4f0c1291555b7edc27db8608"
+* entry[0].resource = composition-da-e635923c4f0c1291555b7edc27db8608
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe635923c4f0c1291555b7edc27db8608"
+* entry[=].resource = mpe635923c4f0c1291555b7edc27db8608
+                            
+                    
+
+
+
+Instance: mpe635923c4f0c1291555b7edc27db8608
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ZOSTAVAX powder and solvent for suspension for injection"
-Description: "ZOSTAVAX powder and solvent for suspension for injection"
+Title: "Medicinal Product zostavax"
+Description: "zostavax"
 Usage: #inline
 
  
@@ -367,7 +809,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ZOSTAVAX powder and solvent for suspension for injection"
+  * productName = "zostavax"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -394,29 +836,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e635923c4f0c1291555b7edc27db8608
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zostavax Package Leaflet for language en"
-Description: "ePI document Bundle for zostavax Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e635923c4f0c1291555b7edc27db8608ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/06/341/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zostavax"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e635923c4f0c1291555b7edc27db8608"
-* entry[0].resource = composition-en-e635923c4f0c1291555b7edc27db8608
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7d8c11ef8e580f61f3097df087a2c1ec"
-* entry[=].resource = mp7d8c11ef8e580f61f3097df087a2c1ec
-                            
-                      
+* title = "List of all ePIs associated with zostavax"
+
+* subject = Reference(mp7d8c11ef8e580f61f3097df087a2c1ec)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zostavax "zostavax"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e635923c4f0c1291555b7edc27db8608) // zostavax en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e635923c4f0c1291555b7edc27db8608) // zostavax da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e635923c4f0c1291555b7edc27db8608
+InstanceOf: List
+
+* insert e635923c4f0c1291555b7edc27db8608ListRuleset
+    

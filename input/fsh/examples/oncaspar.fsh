@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-214e72709936235d4c7554be3fb82817
 InstanceOf: CompositionUvEpi
 Title: "Composition for oncaspar Package Leaflet"
@@ -359,12 +362,512 @@ Tel: + 371 67502United Kingdom (Northern Ireland)
 
 
 
+Instance: composition-da-214e72709936235d4c7554be3fb82817
+InstanceOf: CompositionUvEpi
+Title: "Composition for oncaspar Package Leaflet"
+Description:  "Composition for oncaspar Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe936fd27c4e4b14673d1fc1ad0dfffe0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe936fd27c4e4b14673d1fc1ad0dfffe0
+* title = "TEST PURPOSES ONLY - oncaspar"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at bruge Oncaspar </li>
+<li>Sådan skal du bruge Oncaspar </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What oncaspar is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What oncaspar is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oncaspar indeholder pegaspargase, som er et enzym (asparaginase), der nedbryder asparagin, der er en 
+vigtig byggesten af proteiner, som celler skal bruge for at overleve. Normale celler kan selv lave 
+asparagin, mens nogle af kræftcellerne ikke kan. Oncaspar sænker indholdet af asparagin i 
+kræftcellerne i blodet og stopper kræftcellernes vækst.  </p>
+<p>Oncaspar bruges til at behandle akut lymfoblastær leukæmi (ALL) hos børn fra fødslen til 18 år og hos 
+voksne. ALL er en kræfttype i de hvide blodlegemer, hvor visse umodne hvide blodlegemer (de 
+hedder lymfoblaster) begynder at vokse ukontrollabelt, og det forhindrer, at kroppen kan producere 
+funktionsdygtige blodlegemer. Oncaspar bruges sammen med andre lægemidler. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take oncaspar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take oncaspar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Oncaspar 
+- hvis du er allergisk over for pegaspargase eller over for et af de øvrige indholdsstoffer i 
+Oncaspar (angivet i punkt 6).<br />
+- hvis du har en alvorlig leversygdom. 
+- hvis du nogensinde har haft betændelse i bugspytkirtlen. 
+- hvis du nogensinde har haft blødninger i svær grad efter behandling med asparaginase. 
+- hvis du nogensinde har haft blodpropper efter behandling med asparaginase. </p>
+<p>Fortæl det til lægen, hvis noget af det ovenstående gælder for dig. Hvis du er forælder til et barn, der 
+bliver behandlet med Oncaspar, skal du fortælle det til lægen, hvis noget af det ovenstående gælder for 
+dit barn. </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, før du bruger Oncaspar. Dette lægemiddel er muligvis ikke egnet til dig:</p>
+<ul>
+<li>Hvis du har haft alvorlige allergiske reaktioner mod andre former for asparaginase, for eksempel 
+kløe, rødme i ansigtet eller hævelse i luftvejene, da der kan opstå alvorlige allergireaktioner mod 
+Oncaspar. </li>
+<li>Hvis du lider af en blødersygdom eller har haft alvorlige blodpropper.  </li>
+<li>Hvis du får feber. Dette lægemiddel kan gøre dig mere modtagelig over for infektioner. </li>
+<li>Hvis du har haft dårlig leverfunktion eller bruger andre lægemidler, der kan skade leveren. Når 
+Oncaspar bruges i kombination med andre midler mod kræft, kan der opstå skader i leveren eller 
+centralnervesystemet. </li>
+<li>Hvis du lider af mavesmerter. Der kan opstå betændelse i bugspytkirtlen, som i nogle tilfælde 
+forårsagede dødsfald ved behandling med Oncaspar. </li>
+</ul>
+<p>Dette lægemiddel kan føre til svingninger i indholdet af størkningsfaktorer i blodet og kan øge 
+risikoen for blødninger og/eller blodpropper. </p>
+<p>Der er blevet indberettet en bivirkning efter markedsføring, der kaldes osteonekrose (knogleskade), 
+hos børn og unge, der får Oncaspar (der er set en højere forekomst hos piger), når det tages samtidig 
+med glukokortikoider (f.eks. dexamethason). </p>
+<p>Hvis du er forælder til et barn, der bliver behandlet med Oncaspar, skal du fortælle det til lægen, hvis 
+noget af det ovenstående gælder for dit barn. </p>
+<p>Forholdsregler i løbet af behandlingen med Oncaspar 
+Under administration af Oncaspar vil du blive overvåget tæt i en time efter, at behandlingen er startet, 
+for at holde øje med tegn på alvorlige allergiske reaktioner. Der vil være medicinsk udstyr parat lige i 
+nærheden til behandling af allergiske reaktioner. </p>
+<p>Flere test til overvågning af patienten 
+Sukkerindholdet i blod og urin, leverens og bugspytkirtlens funktion og andre test vil blive udført 
+regelmæssigt for at overvåge dit helbred i løbet af og efter behandlingen, da dette lægemiddel kan 
+påvirke blod og organer. </p>
+<p>Brug af anden medicin sammen med Oncaspar 
+Fortæl altid lægen, hvis du bruger anden medicin, for nylig har brugt anden medicin eller planlægger 
+at bruge anden medicin. Dette er vigtigt, da Oncaspar kan øge bivirkningerne af andre lægemidler, 
+fordi det påvirker leveren, der har en vigtig rolle, når lægemidlerne skal ud af kroppen igen. Desuden 
+er det særligt vigtigt, at du fortæller det til din læge, hvis du også bruger nogle af følgende lægemidler:</p>
+<ul>
+<li>Immunisering med levende vacciner inden for tre måneder efter fuldført leukæmibehandling. 
+Dette øger risikoen for alvorlige infektioner.  </li>
+<li>Vincristin, et andet lægemiddel mod kræft. Hvis dette lægemiddel bruges sammen med 
+Oncaspar, er der øget risiko for bivirkninger eller allergiske reaktioner. </li>
+<li>Lægemidler, der nedsætter blodets størkningsevne. Det kan være blodfortyndende midler (f.eks. 
+coumarin/warfarin og heparin), dipyridamol, acetylsalicylsyre eller nonsteroide 
+antiinflammatoriske lægemidler (f.eks. ibuprofen eller naproxen). Hvis disse lægemidler bruges 
+sammen med Oncaspar, er der større risiko for sygdomme med blødninger.  </li>
+<li>Lægemidler, der kræver celledeling for at virke, for eksempel methotrexat (et lægemiddel, der 
+både bruges mod kræft og gigt), kan have nedsat virkning. </li>
+<li>Prednison, som er et binyrebarkhormon (steroid). Hvis det bruges samtidigt med Oncaspar, vil 
+virkningen på blodets størkningsevne blive større. </li>
+<li>Glukokortikoider, når de tages samtidig som en del af den anbefalede leukæmibehandling. 
+Oncaspar kan øge risikoen for osteonekrose (knogleskade) forårsaget af steroid hos børn og 
+unge, med en højere forekomst hos piger. Hvis du får nye knoglesmerter (dvs. smerter i hofte, 
+knæ eller ryg), skal du derfor fortælle det til din læge hurtigst muligt. </li>
+<li>Cytarabin, som er et lægemiddel, der kan bruges i kræftbehandling, kan muligvis påvirke 
+virkningen af Oncaspar. </li>
+</ul>
+<p>Oncaspar kan også forårsage ændringer i leverens funktion, hvilket kan påvirke den måde, andre 
+lægemidler virker på. </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. </p>
+<p>Du må ikke få Oncaspar, hvis du er gravid, da dets virkning under graviditet ikke er undersøgt. Din 
+læge vil afgøre, om din sygdom kræver behandling. Kvinder, som kan blive gravide, skal bruge 
+pålidelig prævention i løbet af behandlingen og i mindst 6 måneder efter, at behandlingen med 
+Oncaspar er ophørt. Orale præventionsmidler (p-piller) yder ikke effektiv prævention under 
+behandlingen med Oncaspar. Spørg lægen til råds om, hvilken præventionsmetode der er bedst for dig. 
+Mænd skal også bruge effektiv prævention, så længe de selv eller deres partner behandles med 
+Oncaspar. </p>
+<p>Det er ukendt, om pegaspargase udskilles i human mælk. For en sikkerheds skyld skal amning ophøre 
+under behandling med Oncaspar og må ikke startes igen, før behandlingen med Oncaspar er ophørt. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke føre motorkøretøj eller betjene maskiner, når du får dette lægemiddel, da det kan få dig til 
+at føle dig sløv, træt eller forvirret. </p>
+<p>Oncaspar indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium pr. dosis, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take oncaspar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take oncaspar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det kan være, at du får en kombination af lægemidler før administrationen for at reducere risikoen for 
+at få allergiske reaktioner. Din læge vil afgøre, om en sådan præmedicinering er nødvendig. </p>
+<p>Behandlingen med Oncaspar er ordineret af en læge med erfaring med lægemidler til kræftbehandling. 
+Lægen vil afgøre, hvilken dosis af lægemidlet, der er behov for, og hvor ofte det skal gives, ud fra din 
+alder og dit legemsoverfladeareal, som beregnes ud fra din højde og vægt. </p>
+<p>Lægemidlet gives som en opløsning via injektion i en muskel eller, hvis dette er mere 
+hensigtsmæssigt, i en vene. </p>
+<p>Hvis du har brugt for meget Oncaspar 
+Da din læge vil indgive lægemidlet, er det meget usandsynligt, at du vil få mere, end du behøver. </p>
+<p>I det usandsynlige tilfælde, at du ved et uheld får en overdosis, vil du blive overvåget nøje af det 
+sundhedsfaglige personale og få relevant behandling.  </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Fortæl det straks til din læge, hvis du får en eller flere af følgende bivirkninger: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter) 
+- Betændelse eller andre sygdomme i bugspytkirtlen (pancreatitis), som forårsager stærke 
+mavesmerter, der kan sprede sig til ryggen, opkastning, stigning i niveauet af blodsukkeret<br />
+- Alvorlige allergiske reaktioner med symptomer som udslæt, kløe, hævelse, nældefeber, 
+vejrtrækningsbesvær, hurtigt hjerteslag og blodtryksfald 
+- Blodpropper 
+- Feber med lavt antal hvide blodlegemer </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter) 
+- Blødning i svær grad eller blå mærker 
+- Voldsomme rystelser (kramper) og bevidstløshed 
+- Svær infektion med meget høj feber 
+- Problemer med leveren (f.eks. ændring i hudens, urinens eller afføringens farve og 
+laboratorieresultater med forhøjede leverenzymer eller forhøjet bilirubin) </p>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 patienter) 
+- Leversvigt 
+- Gulsot 
+- Blokeret galdeflow fra leveren (kolestase) 
+- Nedbrydning af leverceller (levercellenekrose) </p>
+<p>Ikke kendte (hyppighed kan ikke estimeres ud fra forhåndenværende data) 
+- Svær hudreaktion, som kaldes toksisk epidermal nekrolyse 
+- Nedsat nyrefunktion (f.eks. ændring i urinmængde, hævelse i fødder og ankler) 
+- Slagtilfælde 
+- Alvorlig allergisk reaktion, der kan forårsage bevidsthedstab, og som kan være livstruende 
+(anafylaktisk shock) 
+- Knogleskade (osteonekrose) </p>
+<p>Andre bivirkninger<br />
+Tal med lægen, hvis du får nogen af følgende: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 patienter) 
+- Ændringer i bugspytkirtlens funktion 
+- Vægttab 
+- Smerter i benet (hvilket kan være et symptom på en blodprop), brystsmerter eller åndenød 
+(hvilket kan være et symptom på blodpropper i lungerne, kaldet lungeemboli) 
+- Mangel på appetit, almen svaghed, opkastning, diarré, kvalme 
+- Højt blodsukker </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 patienter) 
+- Nedsat antal røde blodlegemer 
+- Ophobning af væske i maven (ascites) 
+- Feber og influenzalignende symptomer 
+- Sår i munden 
+- Smerter i ryg, led eller maveregion 
+- Høje niveauer af fedtstof og kolesterol i blodet; lavt kaliumniveau i blodet </p>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 patienter) 
+- Reversibelt posterior leukoencefalopati-syndrom (RPLS), et syndrom der er kendetegnet ved 
+hovedpine, forvirring, kramper og synstab, som fortager sig efter nogen tid </p>
+<p>Ikke kendte (hyppighed kan ikke estimeres ud fra forhåndenværende data) 
+- Nedsat antal hvide blodlegemer og blodplader 
+- Feber 
+- Cyste i bugspytkirtlen, hævede spytkirtler 
+- Høje niveauer af urinstof i blodet; antistoffer mod Oncaspar; højt ammoniak niveau i blodet; 
+lavt blodsukker 
+- Søvnighed, forvirring, lette muskeltrækninger i fingrene </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, som du tror kan være forbundet med din kemoterapi, bør du tale med din 
+læge. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller 
+dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store oncaspar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store oncaspar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten eller kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C).<br />
+Må ikke nedfryses. </p>
+<p>Når lægemidlet er blevet rekonstitueret og fortyndet, skal opløsningen bruges straks. Hvis den 
+fortyndede opløsning ikke kan bruges straks, kan den opbevares ved 2 °C - 8 °C i højst 48 timer. </p>
+<p>Dette lægemiddel må ikke anvendes, hvis du bemærker, at den rekonstituerede opløsning er uklar eller 
+indeholder synlige partikler. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller toilettet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oncaspar indeholder: 
+Aktivt stof: pegaspargase. Hvert hætteglas indeholder 3.750 E pegaspargase. </p>
+<p>Efter rekonstitution indeholder 1 ml opløsning 750 E pegaspargase (750 E/ml) </p>
+<p>Øvrige indholdsstoffer: dinatriumfosfatheptahydrat, natriumdihydrogenfosfatmonohydrat, 
+natriumchlorid, saccharose, natriumhydroxid (til pH-justering), saltsyre (til pH-justering) (se 
+punkt 2 - "Oncaspar indeholder natrium"). </p>
+<p>Udseende og pakningsstørrelser 
+Oncaspar er et hvidt til offwhite pulver. Efter rekonstitution er opløsningen klar, farveløs og fri for 
+synlige fremmede partikler.<br />
+Hver pakning indeholder 1 hætteglas af glas med 3.750 E pegaspargase. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Les Laboratoires Servier 
+50, rue Carnot 
+92284 Suresnes cedex 
+Frankrig </p>
+<p>Fremstiller 
+Les Laboratoires Servier Industrie 
+905 Route de Saran 
+45520 Gidy<br />
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Lietuva 
+UAB “SERVIER PHARMA" 
+Tel: +370 (5) 2 63 86 България 
+Сервие Медикал ЕООД 
+Тел.: +359 2 921 57<br />
+Luxembourg/Luxemburg 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43<br />
+Česká republika 
+Servier s.r.o. 
+Tel: +420 222 118 Magyarország 
+Servier Hungaria Kft. 
+Tel: +36 1 238 7 
+Danmark 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Malta 
+V.J. Salomone Pharma Ltd<br />
+Tel: + 356 21 22 01 <br />
+Deutschland 
+Servier Deutschland GmbH 
+Tel: +49 (0)89 57095<br />
+Nederland 
+Servier Nederland Farma B.V. 
+Tel: +31 (0)71 5246 
+Eesti 
+Servier Laboratories OÜ<br />
+Tel:+ 372 664 5 
+Norge 
+Servier Danmark A/S 
+Tlf: +45 36 44 22<br />
+Eλλάδα 
+ΣΕΡΒΙΕ ΕΛΛΑΣ ΦΑΡΜΑΚΕΥΤΙΚΗ ΕΠΕ 
+Τηλ: +30 210 939 1 
+Österreich 
+Servier Austria GmbH 
+Tel: +43 (1) 524 39<br />
+España 
+Laboratorios Servier S.L. 
+Tel: +34 91 748 96<br />
+Polska 
+Servier Polska Sp. z o.o. 
+Tel: +48 (0) 22 594 90 France 
+Les Laboratoires Servier 
+Tel: +33 (0)1 55 72 60<br />
+Portugal 
+Servier Portugal, Lda 
+Tel.: +351 21 312 20 Hrvatska 
+Servier Pharma, d. o. o. 
+Tel.: +385 (0)1 3016<br />
+România 
+Servier Pharma SRL 
+Tel: +4 021 528 52<br />
+Ireland 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +353 (0)1 663 8 
+Slovenija 
+Servier Pharma d. o. o.<br />
+Tel.: +386 (0)1 563 48 Ísland 
+Servier Laboratories 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Servier Slovensko spol. s r.o. 
+Tel.:+421 (0) 2 5920 41 Italia 
+Servier Italia S.p.A. 
+Tel: +39 06 669Suomi/Finland 
+Servier Finland Oy 
+P. /Tel: +358 (0)9 279 80<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22741 
+Sverige 
+Servier Sverige AB 
+Tel : +46 (0)8 522 508<br />
+Latvija 
+SIA Servier Latvia 
+Tel: +371 67502 
+United Kingdom (Northern Ireland) 
+Servier Laboratories (Ireland) Ltd. 
+Tel: +44 (0)1753 666 
+Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Det anbefales kraftigt, at produktets navn og lotnummer registreres, hver gang Oncaspar administreres 
+til en patient, for at forbinde patienten med produktets lot. </p>
+<p>I betragtning af uforudsigeligheden af bivirkningerne må Oncaspar kun administreres af 
+sundhedspersoner med erfaring i brug af lægemidler til kemoterapi mod cancer.  </p>
+<p>Især hos patienter med kendt overfølsomhed over for de andre former for L-asparaginase kan der opstå 
+overfølsomhedsreaktioner i løbet af behandlingen, f.eks. anafylaksi. En rutinemæssig forholdsregel, 
+der skal overholdes, er at patienterne skal overvåges i en time, hvor genoplivningsudstyr og andre 
+nødvendige midler til behandling af anafylaksi er klargjort (adrenalin, oxygen, intravenøse steroider 
+mv.).  </p>
+<p>Patienterne skal informeres om muligheden for overfølsomhedsreaktioner mod Oncaspar, herunder 
+øjeblikkelig anafylaksi. Patienter, der får Oncaspar, har forhøjet risiko for blødninger og 
+trombosesygdomme. Patienterne skal have information om, at Oncaspar ikke må anvendes samtidigt 
+med andre lægemidler, der medfører en øget risiko for blødninger (se punkt 2 - "Brug af anden 
+medicin sammen med Oncaspar"). </p>
+<p>Dette lægemiddel kan forårsage irritation ved kontakt. Pulveret skal derfor håndteres og administreres 
+med særlig omhu. Inhalation af damp og kontakt med hud og slimhinder, især i øjnene, skal undgås. 
+Hvis lægemidlet kommer i kontakt med øjne, hud eller slimhinder, skylles straks med rigeligt vand i 
+mindst 15 minutter. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Instruktioner vedrørende klargøring, opbevaring og bortskaffelse af Oncaspar: 
+Instruktioner vedrørende håndtering 
+1. Personalet bør undervises i håndtering og overførsel af lægemidlet (gravide medlemmer af 
+personalet må ikke arbejde med dette lægemiddel). 
+2. Der skal anvendes aseptisk teknik. 
+3. Procedurerne for korrekt håndtering af antineoplastiske midler skal følges. 
+4. Det anbefales at bruge engangshandsker og beskyttelsesbeklædning ved håndtering af Oncaspar. 
+5. Alle genstande, som har været brugt ved administration eller rengøring, herunder handsker, skal 
+anbringes i højrisikoaffaldsposer til forbrænding ved høj temperatur. </p>
+<p>Rekonstitution 
+1. 5,2 ml vand til injektionsvæsker injiceres i hætteglasset ved hjælp af en injektionssprøjte og en 
+kanyle på 21 gauge. 
+2. Hætteglasset skal svinges forsigtigt, indtil pulveret er rekonstitueret. 
+3. Efter rekonstitution skal opløsningen fremstå klar og farveløs og fri for synlige fremmede 
+partikler. Må ikke anvendes, hvis den rekonstituerede opløsning er uklar, eller der er dannet 
+bundfald. Må ikke omrystes. 
+4. Opløsningen skal anvendes højst 24 timer efter rekonstitution, når den opbevares ved 
+temperaturer under 25 °C. </p>
+<p>Administration 
+1. Parenterale lægemidler skal inspiceres for partikelmateriale før administration, og opløsningen 
+må kun anvendes, hvis den fremstår klar og farveløs og fri for synlige fremmede partikler. 
+2. Lægemidlet skal administreres intravenøst eller intramuskulært. Opløsningen skal administreres 
+langsomt. 
+Ved intramuskulær injektion må mængden ikke overstige 2 ml til børn og unge og 3 ml til 
+voksne.<br />
+Ved intravenøs administration skal den rekonstituerede opløsning fortyndes med 100 ml 
+natriumchloridopløsning, 9 mg/ml (0,9 %), som injektionsvæske, opløsning eller med en 5 % 
+glucoseopløsning. 
+Den fortyndede opløsning kan gives i løbet af 1-2 timer sammen med en igangværende infusion 
+af enten natriumchloridopløsning 9 mg/ml (0,9 %) eller 5 % glucoseopløsning. Der må ikke 
+infunderes andre lægemidler i samme intravenøse linje under administrationen af Oncaspar. 
+Opløsningen skal bruges straks efter fortynding. Hvis den fortyndede opløsning ikke kan bruges 
+straks, kan den opbevares ved 2 °C - 8 °C i højst 48 timer. </p>
+<p>Bortskaffelse 
+Oncaspar er udelukkende til engangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes 
+i henhold til lokale retningslinjer. 
+Yderligere oplysninger med flere detaljer fremgår af produktresuméet. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-214e72709936235d4c7554be3fb82817
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oncaspar Package Leaflet for language en"
+Description: "ePI document Bundle for oncaspar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-214e72709936235d4c7554be3fb82817"
+* entry[0].resource = composition-en-214e72709936235d4c7554be3fb82817
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp214e72709936235d4c7554be3fb82817"
+* entry[=].resource = mp214e72709936235d4c7554be3fb82817
+                            
+                    
+Instance: bundlepackageleaflet-da-214e72709936235d4c7554be3fb82817
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oncaspar Package Leaflet for language da"
+Description: "ePI document Bundle for oncaspar Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-214e72709936235d4c7554be3fb82817"
+* entry[0].resource = composition-da-214e72709936235d4c7554be3fb82817
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp214e72709936235d4c7554be3fb82817"
+* entry[=].resource = mp214e72709936235d4c7554be3fb82817
+                            
+                    
+
+
+
+Instance: mp214e72709936235d4c7554be3fb82817
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Oncaspar 750 U/ml powder for solution for injection/infusion."
-Description: "Oncaspar 750 U/ml powder for solution for injection/infusion."
+Title: "Medicinal Product oncaspar"
+Description: "oncaspar"
 Usage: #inline
 
  
@@ -384,7 +887,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Oncaspar 750 U/ml powder for solution for injection/infusion."
+  * productName = "oncaspar"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -411,29 +914,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-214e72709936235d4c7554be3fb82817
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for oncaspar Package Leaflet for language en"
-Description: "ePI document Bundle for oncaspar Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 214e72709936235d4c7554be3fb82817ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1070/002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "oncaspar"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-214e72709936235d4c7554be3fb82817"
-* entry[0].resource = composition-en-214e72709936235d4c7554be3fb82817
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe936fd27c4e4b14673d1fc1ad0dfffe0"
-* entry[=].resource = mpe936fd27c4e4b14673d1fc1ad0dfffe0
-                            
-                      
+* title = "List of all ePIs associated with oncaspar"
+
+* subject = Reference(mpe936fd27c4e4b14673d1fc1ad0dfffe0)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#oncaspar "oncaspar"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-214e72709936235d4c7554be3fb82817) // oncaspar en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-214e72709936235d4c7554be3fb82817) // oncaspar da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-214e72709936235d4c7554be3fb82817
+InstanceOf: List
+
+* insert 214e72709936235d4c7554be3fb82817ListRuleset
+    

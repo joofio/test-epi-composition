@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5723af3498c13864107ed05f36f04f5d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rasilez Package Leaflet"
@@ -322,12 +325,390 @@ http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-da-5723af3498c13864107ed05f36f04f5d
+InstanceOf: CompositionUvEpi
+Title: "Composition for rasilez Package Leaflet"
+Description:  "Composition for rasilez Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf62e4d37245483fe5372a8eb4977108e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf62e4d37245483fe5372a8eb4977108e
+* title = "TEST PURPOSES ONLY - rasilez"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Rasilez 
+3. Sådan skal du tage Rasilez 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rasilez is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rasilez is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne medicin indeholder et aktivt stof, som kaldes aliskiren. Aliskiren tilhører en klasse af medicin, 
+kaldet reninhæmmere. Reninhæmmere nedsætter den mængde angiotensin-II, kroppen kan producere. 
+Angiotensin-II får blodkarrene til at trække sig sammen, hvilket øger blodtrykket. Når mængden af 
+angiotensin-II mindskes, kan blodkarrene slappe af, og det sænker blodtrykket. </p>
+<p>Dette hjælper til at sænke forhøjet blodtryk hos voksne patienter. Forhøjet blodtryk øger belastningen 
+på hjerte og blodkar. Hvis det fortsætter i lang tid, kan det beskadige blodkarrene i hjernen, hjertet og 
+nyrerne, som kan føre til slagtilfælde, hjertesvigt, hjerteanfald eller nyresvigt. Når blodtrykket sænkes 
+til normalt niveau, mindskes risikoen for at få disse sygdomme. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rasilez"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rasilez"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Rasilez 
+- hvis du er allergisk over for aliskiren eller et af de øvrige indholdsstoffer i Rasilez (angivet i 
+punkt 6). Hvis du mener, at du er allergisk, skal du bede lægen om vejledning. 
+- hvis du har oplevet følgende former for angioødem (svært ved at trække vejret eller synke eller 
+har haft hævet ansigt, hænder og fødder, øjenomgivelser, læber og/eller tunge):</p>
+<ul>
+<li>angioødem når du har taget aliskiren. </li>
+<li>arveligt angioødem. </li>
+<li>angioødem uden kendt årsag. </li>
+<li>de sidste 6 måneder af graviditeten eller hvis du ammer, se afsnittet om "Graviditet og amning". </li>
+<li>hvis du tager ciclosporin (medicin, der bruges til organtransplantation for at undgå afstødning af 
+organet. Bruges også til andre tilstande fx gigt eller hudeksem), itraconazol (medicin, der bruges 
+til behandling af svampeinfektioner) eller quinidin (medicin, som bruges til at korrigere 
+hjerterytmen). </li>
+<li>
+<p>hvis du har sukkersyge eller nedsat nyrefunktion, og du bliver behandlet med nogen af følgende 
+typer lægemidler, som bruges til at behandle for højt blodtryk:</p>
+</li>
+<li>
+<p>en angiotensin-konverteringsenzym (ACE)-hæmmer, som fx enalapril, lisinopril, 
+ramipril. 
+eller </p>
+</li>
+<li>en angiotensin II-receptorblokker, som fx valsartan, telmisartan, irbesartan. </li>
+<li>hvis patienten er under 2 år. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Rasilez:</p>
+<ul>
+<li>hvis du tager et diuretikum (kaldes også vanddrivende tabletter, som øger den mængde urin, du 
+producerer). </li>
+<li>
+<p>hvis du tager nogen af følgende typer lægemidler, som bruges til at behandle for højt blodtryk:</p>
+</li>
+<li>
+<p>en angiotensin-konverteringsenzym (ACE)-hæmmer, som fx enalapril, lisinopril, 
+ramipril. 
+eller </p>
+</li>
+<li>en angiotensin-II receptorblokker, som fx valsartan, telmisartan, irbesartan. </li>
+<li>hvis du har nedsat nyrefunktion, vil din læge nøje overveje, om denne medicin er egnet til dig, 
+og kan vælge at følge dig nøje. </li>
+<li>hvis du allerede har haft svært ved at trække vejret eller at synke eller har haft hævet ansigt, 
+hænder og fødder, øjenomgivelser, læber og/eller tunge (angioødem). Hvis det sker, skal du 
+stoppe med at tage denne medicin og kontakte din læge. </li>
+<li>hvis du har nyrearteriestenose (forsnævring af blodtilførslen til en eller begge nyrer). </li>
+<li>hvis du har alvorlig hjertesvigt (en hjertesygdom, hvor dit hjerte ikke kan pumpe nok blod rundt 
+i din krop). </li>
+</ul>
+<p>Hvis du har kraftig og vedvarende diarré skal du stoppe med at tage Rasilez. </p>
+<p>Din læge vil eventuelt måle din nyrefunktion, dit blodtryk og elektrolytter (fx kalium) i dit blod med 
+jævne mellemrum. </p>
+<p>Se også information under punktet "Tag ikke Rasilez". </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke bruges til behandling af babyer fra fødslen og op til 2 år. Det bør ikke 
+bruges til børn fra 2 år og op til 6 år og anbefales ikke til børn og unge fra 6 år og op til 18 år. Det er 
+fordi lægemidlets sikkerhed og virkning hos denne population ikke kendes. </p>
+<p>Ældre 
+Den normale anbefalede startdosis af aliskiren til ældre patienter i en alder på 65 år eller derover er 
+150 mg. Hos størstedelen af patienter på 65 år og derover giver en dosis på 300 mg af Rasilez ikke 
+ekstra nedsat blodtryk sammenlignet med en dosis på 150 mg. </p>
+<p>Brug af anden medicin sammen med Rasilez 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for nylig. </p>
+<p>Det kan være nødvendigt for din læge at ændre din dosis og/eller tage andre forsigtighedsregler, hvis 
+du tager et af følgende lægemidler:</p>
+<ul>
+<li>medicin, der kan øge mængden af kalium i dit blod. Dette gælder også kaliumbesparende 
+diuretika og kaliumtilskud. </li>
+<li>Furosemid eller torasemid, er medicin, der tilhører gruppen diuretika. De kaldes også 
+vanddrivende tabletter og bruges til at øge urinproduktionen. </li>
+<li>en angiotensin-II receptorblokker eller en angiotensin-konverteringsenzym (ACE)-hæmmer (se 
+punkterne "Tag ikke Rasilez" og "Advarsler og forsigtighedsregler". </li>
+<li>ketoconazol, medicin, der bruges til at behandle svampeinfektioner. </li>
+<li>verapamil, medicin, der bruges til at sænke forhøjet blodtryk, til at korrigere hjerterytmen eller 
+til at behandle hjertekrampe (angina pectoris). </li>
+<li>visse typer af smertestillende medicin kaldet ikke-steroide antiinflammatoriske lægemidler 
+(NSAID). </li>
+</ul>
+<p>Brug af Rasilez sammen med mad og drikke 
+Du skal tage dette lægemiddel enten sammen med et let måltid mad eller uden mad, én gang daglig, 
+fortrinsvis på samme tidspunkt hver dag. Du skal undgå at tage dette lægemiddel sammen med 
+frugtjuice og/eller drikkevarer, der indeholder planteekstrakter (inkl. urteteer), da det kan reducere 
+lægemidlets effekt. </p>
+<p>Graviditet og amning 
+Graviditet 
+Du må ikke tage dette lægemiddel hvis du er gravid (se afsnittet "Tag ikke Rasilez"). Hvis du bliver 
+gravid, mens du tager dette lægemiddel, skal du straks stoppe med at tage det og kontakte din læge. 
+Hvis du har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge din læge 
+eller apoteket til råds, før du tager dette lægemiddel. Normalt vil din læge råde dig til at stoppe med at 
+tage denne medicin, inden du bliver gravid og råde dig til at tage anden medicin i stedet. Denne 
+medicin frarådes i den tidlige periode af graviditeten, og må ikke tages, hvis du er mere end 3 måneder 
+henne i graviditeten, fordi det kan forårsage alvorlig skade på dit barn, hvis det tages efter tredje 
+måned af graviditeten. </p>
+<p>Amning 
+Fortæl det til din læge, hvis du ammer, eller hvis du skal starte med at amme. Behandling med denne 
+medicin frarådes til mødre, som ammer. Hvis du ønsker at amme, kan din læge vælge en anden 
+behandling til dig. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel kan få dig til at føle dig svimmel, og det kan påvirke din koncentrationsevne. Du 
+skal sørge for at finde ud af, hvordan du reagerer på dette lægemiddel, før du kører bil, betjener 
+maskiner eller udfører andre aktiviteter, som kræver koncentration. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rasilez"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rasilez"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Mennesker med forhøjet blodtryk bemærker ofte ingen tegn på problemet. Mange føler sig helt raske. 
+Det er meget vigtigt, at du tager medicinen nøjagtigt efter lægens anvisninger, hvis du vil opnå det 
+bedste resultat og mindske risikoen for bivirkninger. Overhold dine aftaler med lægen, også selvom du 
+føler dig rask. </p>
+<p>Den sædvanlige startdosis er en tablet på 150 mg én gang daglig. Den blodtrykssænkende virkning ses 
+inden for to uger efter behandlingsstart. </p>
+<p>Ældre mennesker </p>
+<p>Den normale anbefalede startdosis af aliskiren til ældre patienter er 150 mg. Hos størstedelen af 
+patienter på 65 år og derover giver en dosis på 300 mg af aliskiren ikke ekstra nedsat blodtryk 
+sammenlignet med en dosis på 150 mg. </p>
+<p>Lægen kan ordinere en højere dosis på en tablet på 300 mg én gang daglig, alt efter hvordan du 
+reagerer på behandlingen. Din læge kan ordinere denne medicin sammen med anden medicin, der 
+bruges til at behandle forhøjet blodtryk. </p>
+<p>Indtagelse 
+Slug tabletten hel med vand. Du skal tage dette lægemiddel én gang daglig, altid med eller uden mad, 
+og helst på samme tidspunkt hver dag. Du bør indføre en praktisk daglig rutine, så du tager lægemidlet 
+på samme måde hver dag i et regelmæssigt mønster i forhold til dine måltider. Du skal undgå at tage 
+dette lægemiddel sammen med frugtjuice og/eller drikkevarer, der indeholder planteekstrakt (inkl. 
+urteteer). I løbet af behandlingen kan lægen justere dosis afhængigt af dit blodtryk. </p>
+<p>Hvis du har taget for meget Rasilez 
+Hvis du er kommet til at tage for mange tabletter af denne medicin, skal du straks kontakte en læge. 
+Det kan være nødvendigt med lægebehandling. </p>
+<p>Hvis du har glemt at tage Rasilez 
+Hvis du glemmer at tage en dosis af denne medicin, skal du tage det så snart, du kommer i tanker om 
+det, og derefter tage den næste dosis til sædvanlig tid. Hvis det næsten er tid til den næste dosis, skal 
+du bare tage den næste tablet til sædvanlig tid. Du må ikke tage en dobbeltdosis som erstatning for den 
+glemte dosis. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige (hyppighed ikke kendt): 
+Nogle få patienter har oplevet disse alvorlige bivirkninger. Kontakt din læge med det samme, hvis 
+du oplever noget af følgende: </p>
+<ul>
+<li>Alvorlige allergiske reaktioner med symptomer som fx udslæt, kløe, hævet ansigt, læber eller 
+tunge, svært ved trække vejret, svimmelhed. </li>
+</ul>
+<p>Bivirkninger: 
+Almindelige bivirkninger (forekommer hos op til 1 ud af 10 patienter): Diarré, ledsmerter, højt 
+indhold af kalium i blodet, svimmelhed. 
+Ikke almindelige bivirkninger (forekommer hos op til 1 ud af 100 patienter): Hududslæt (dette kan 
+også være symptomer på en overfølsomhedsreaktion eller angioødem - se "Sjældne" bivirkninger 
+herunder), nyreproblemer inklusive akut nyresvigt (svært nedsat urinproduktion), hævede hænder, 
+ankler eller fødder (væskeansamlinger), alvorlige hudreaktioner (toksisk epidermal nekrolyse og/eller 
+bivirkninger fra slimhinden i munden - rød hud, blæredannelse omkring læber, øjne eller mund, 
+hudafskalning, feber), lavt blodtryk, hjertebanken, hoste, kløe, kløende udslæt (nældefeber), forhøjet 
+leverensymer. 
+Sjældne bivirkninger (forekommer hos op til 1 ud af 1.000 patienter): Forhøjet indhold af kreatinin i 
+blodet, nedsat indhold af hæmoglobin i blodet (anæmi), nedsat niveau af røde blodceller, rødmen af 
+huden (erytem). 
+Ikke kendt (kan ikke vurderes ud fra tilgængelige data): Følelse af at dreje rundt, lavt indhold af 
+natrium i blodet, kortåndethed, kvalme, opkastning, tegn på leverproblemer (kvalme, tab af appetit, 
+mørkfarvet urin eller gulfarvning af hud og øjne). </p>
+<p>Fortæl det til din læge, hvis nogle af disse bivirkninger påvirker dig alvorligt. Det kan være 
+nødvendigt at stoppe behandlingen med Rasilez. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rasilez"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rasilez"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisterkortet efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. 
+Må ikke opbevares ved temperaturer over 25 °C. 
+Opbevares i den originale pakning for at beskytte mod fugt. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rasilez indeholder 
+- Aktivt stof: aliskiren (som hemifumarat).  </p>
+<p>Rasilez 150 mg filmovertrukne tabletter 
+- Hver tablet indeholder 150 mg aliskiren (som hemifumarat). </p>
+<h2>Rasilez 300 mg filmovertrukne tabletter</h2>
+<p>Hver tablet indeholder 300 mg aliskiren (som hemifumarat). 
+Øvrige indholdsstoffer: crospovidon type A, hypromellose substitutionstype 2910 (3 mPa s), 
+magnesiumstearat, macrogol 4000, mikrokrystallinsk cellulose, povidon K-30, kolloid vandfri 
+silica, talcum, titandioxid (E171), sort jernoxid (E172), rød jernoxid (E172). </p>
+<p>Udseende og pakningsstørrelser 
+Rasilez 150 mg filmovertrukne tabletter er lyse pink, udadbuede, runde tabletter, præget med "IL" på 
+den ene side og "NVR" på den anden side. </p>
+<p>Rasilez 300 mg filmovertrukne tabletter er lyse røde, udadbuede, ovale tabletter, præget med "IU" på 
+den ene side og "NVR" på den anden side. </p>
+<p>Rasilez 150 mg filmovertrukne tabletter er tilgængelig i følgende pakninger:</p>
+<ul>
+<li>Enkeltpakning, der indeholder 14, 28, 30, 50, 56, 90 eller 98 tabletter </li>
+<li>Enkeltpakninger, der indeholder 56x1 tabletter i perforeret enkeltdosisblister </li>
+<li>Multipakninger, der indeholder 280 (20x14) tabletter </li>
+<li>Multipakninger, der indeholder 98 (2x49x1) tabletter i perforeret enkeltdosisblister </li>
+</ul>
+<p>Rasilez 300 mg filmovertrukne tabletter er tilgængelig i følgende pakninger:</p>
+<ul>
+<li>Enkeltpakning, der indeholder 14, 28, 30, 50, 56, 90 eller 98 tabletter </li>
+<li>Enkeltpakninger, der indeholder 56x1 tabletter i perforeret enkeltdosisblister </li>
+<li>Multipakninger, der indeholder 280 (20x14) tabletter </li>
+<li>Multipakninger, der indeholder 98 (2x49x1) tabletter i perforeret enkeltdosisblister </li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Noden Pharma DAC 
+D'Olier Chambers 
+16A D'Olier Street 
+Dublin 2 
+Irland </p>
+<p>Fremstiller 
+Delpharm Milano S.R.L., 
+Via Carnevale, 1, 
+Segrate (MI), 
+20054, 
+Italien </p>
+<p>Denne indlægsseddel blev senest ændret 02/2 
+Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5723af3498c13864107ed05f36f04f5d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rasilez Package Leaflet for language en"
+Description: "ePI document Bundle for rasilez Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5723af3498c13864107ed05f36f04f5d"
+* entry[0].resource = composition-en-5723af3498c13864107ed05f36f04f5d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5723af3498c13864107ed05f36f04f5d"
+* entry[=].resource = mp5723af3498c13864107ed05f36f04f5d
+                            
+                    
+Instance: bundlepackageleaflet-da-5723af3498c13864107ed05f36f04f5d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rasilez Package Leaflet for language da"
+Description: "ePI document Bundle for rasilez Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5723af3498c13864107ed05f36f04f5d"
+* entry[0].resource = composition-da-5723af3498c13864107ed05f36f04f5d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5723af3498c13864107ed05f36f04f5d"
+* entry[=].resource = mp5723af3498c13864107ed05f36f04f5d
+                            
+                    
+
+
+
+Instance: mp5723af3498c13864107ed05f36f04f5d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Rasilez 150 mg film-coated tablets"
-Description: "Rasilez 150 mg film-coated tablets"
+Title: "Medicinal Product rasilez"
+Description: "rasilez"
 Usage: #inline
 
  
@@ -347,7 +728,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Rasilez 150 mg film-coated tablets"
+  * productName = "rasilez"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -374,29 +755,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5723af3498c13864107ed05f36f04f5d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rasilez Package Leaflet for language en"
-Description: "ePI document Bundle for rasilez Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5723af3498c13864107ed05f36f04f5dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Rasilez 150 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rasilez"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5723af3498c13864107ed05f36f04f5d"
-* entry[0].resource = composition-en-5723af3498c13864107ed05f36f04f5d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf62e4d37245483fe5372a8eb4977108e"
-* entry[=].resource = mpf62e4d37245483fe5372a8eb4977108e
-                            
-                      
+* title = "List of all ePIs associated with rasilez"
+
+* subject = Reference(mpf62e4d37245483fe5372a8eb4977108e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rasilez "rasilez"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5723af3498c13864107ed05f36f04f5d) // rasilez en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5723af3498c13864107ed05f36f04f5d) // rasilez da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5723af3498c13864107ed05f36f04f5d
+InstanceOf: List
+
+* insert 5723af3498c13864107ed05f36f04f5dListRuleset
+    

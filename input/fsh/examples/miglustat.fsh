@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e8ab7070a1e099803634040c1dcebc5b
 InstanceOf: CompositionUvEpi
 Title: "Composition for miglustat Package Leaflet"
@@ -358,12 +361,434 @@ Tel: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
 
 
 
+Instance: composition-da-e8ab7070a1e099803634040c1dcebc5b
+InstanceOf: CompositionUvEpi
+Title: "Composition for miglustat Package Leaflet"
+Description:  "Composition for miglustat Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpae4a147c14d59af582955e51056af606)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpae4a147c14d59af582955e51056af606
+* title = "TEST PURPOSES ONLY - miglustat"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Miglustat Gen.Orph 
+3. Sådan skal De tage Miglustat Gen.Orph 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What miglustat is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What miglustat is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Miglustat Gen.Orph indeholder det aktive stof miglustat, som tilhører en gruppe af lægemidler, som 
+påvirker stofskiftet. Det anvendes til behandling af to tilstande: </p>
+<ul>
+<li>Miglustat Gen.Orph anvendes til behandling af let til moderat Gauchers sygdom, type 1, hos 
+voksne. </li>
+</ul>
+<p>Ved Gauchers sygdom, type 1 er der et stof kaldet glucosylceramid, som ikke fjernes fra kroppen. Det 
+ophobes i visse celler i kroppens immunsystem. Dette kan medføre forstørrelse af lever og milt, 
+forandringer i blodet og knoglesygdom.  </p>
+<p>Den almindelige behandling af Gauchers sygdom, type 1 er enzymsubstitutionsterapi. Miglustat 
+Gen.Orph anvendes kun, når en patient anses for uegnet til behandling med enzymsubstitutionsterapi. </p>
+<ul>
+<li>Miglustat Gen.Orph anvendes også til behandling af fremadskridende neurologiske 
+symptomer ved Niemann-Picks sygdom, type C, hos voksne og børn. </li>
+</ul>
+<p>Hvis De har Niemann-Picks sygdom, type C, ophobes fedt f.eks. glycosphingolipider i cellerne i Deres 
+hjerne. Det kan resultere i forstyrrelser i neurologiske funktioner som f.eks. langsomme 
+øjenbevægelser, balance, synkning og hukommelse samt i krampeanfald. </p>
+<p>Miglustat Gen.Orph virker ved at hæmme et enzym, som kaldes ’glucosylceramidsyntase’, som er 
+ansvarlig for det første trin i omdannelsen af de fleste glycosphingolipider. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take miglustat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take miglustat"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Miglustat Gen.Orph 
+- hvis De er allergisk over for miglustat eller et af de øvrige indholdsstoffer i Miglustat Gen.Orph 
+(angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De tager Miglustat Gen.Orph, 
+- hvis De lider af en nyresygdom 
+- hvis De lider af en leversygdom </p>
+<p>Deres læge vil gennemføre følgende tests, før og under behandling med Miglustat Gen.Orph:</p>
+<ul>
+<li>en undersøgelse for at kontrollere nerverne i Deres arme og ben </li>
+<li>måling af vitamin B12-niveauerne </li>
+<li>kontrollere Deres vækst, hvis De er barn eller ung med Niemann-Picks sygdom, type C </li>
+<li>kontrollere antallet af blodplader </li>
+</ul>
+<p>Årsagen til disse prøver er, at visse patients har snurren eller følelsesløshed i hænder og fødder, eller 
+taber i vægt, når de tager Miglustat Gen.Orph. Prøverne vil hjælpe lægen til at beslutte, om disse 
+virkninger skyldes Deres sygdom eller eksisterende tilstande eller er bivirkninger af Miglustat 
+Gen.Orph (se punkt 4 for nærmere oplysninger). </p>
+<p>Hvis De har diarré, vil Deres læge måske bede Dem om følgende: At De ændrer Deres kost for at 
+reducere indtagelsen af lactose og kulhydrater såsom sukrose (sukker), at De ikke tager Miglustat 
+Gen.Orph sammen med måltider, eller at De nedsætter Deres dosis midlertidigt. I nogle tilfælde vil 
+lægen ordinere et lægemiddel mod diarré, for eksempel loperamid. Henvend Dem til Deres læge, hvis 
+Deres diarré ikke reagerer på disse foranstaltninger, eller hvis De har andre maveproblemer. Hvis det er 
+tilfældet vil Deres læge muligvis beslutte, at der skal gennemføres flere undersøgelser. </p>
+<p>Mandlige patienter bør anvende pålidelige præventionsmidler under behandling med Miglustat 
+Gen.Orph og i 3 måneder efter, at behandlingen er afsluttet. </p>
+<p>Børn og unge 
+Giv ikke denne medicin til børn og unge (under 18 år) med Gauchers sygdom, type 1, da det ikke vides, 
+om den virker. </p>
+<p>Brug af anden medicin sammen med Miglustat Gen.Orph 
+Fortæl det altid til lægen eller apoteketspersonalet, hvis De tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Fortæl det til lægen, hvis De tager lægemidler, der indeholder imiglucerase, som nogle gange bruges 
+samtidigt med Miglustat Gen.Orph. Imiglucerase kan nedsætte mængden af Miglustat Gen.Orph i 
+kroppen. </p>
+<p>Graviditet, amning og frugtbarhed 
+De må ikke tage Miglustat Gen.Orph, hvis De er gravid, eller hvis De overvejer at blive gravid. Deres 
+læge kan give Dem yderligere oplysninger. De skal benytte effektiv prævention, mens De tager 
+Miglustat Gen.Orph. De må ikke amme, mens De tager Miglustat Gen.Orph. </p>
+<p>Mænd skal anvende sikker prævention under behandlingen og i 3 måneder efter, behandlingen med 
+Miglustat Gen.Orph er afsluttet. </p>
+<p>Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Miglustat Gen.Orph kan forårsage svimmelhed. Lad være med at køre bil eller arbejde med værktøj 
+eller maskiner, hvis De føler Dem svimmel. </p>
+<p>Miglustat Gen.Orph indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hård kapsel, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take miglustat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take miglustat"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<ul>
+<li>
+<p>Ved Gauchers sygdom, type 1: Til voksne er den sædvanlige dosis én kapsel (100 mg) tre 
+gange dagligt (morgen, eftermiddag og aften). Det vil sige maksimalt tre kapsler (300 mg) om 
+dagen. </p>
+</li>
+<li>
+<p>Ved Niemann-Picks sygdom, type C: Til voksne og unge (over 12 år) er den sædvanlige dosis 
+på to kapsler (200 mg) tre gange dagligt (morgen, eftermiddag og aften). Det vil sige maksimalt 
+seks kapsler (600 mg) om dagen. </p>
+</li>
+</ul>
+<p>Lægen vil tilpasse dosis hos børn under 12 år med Niemann-Picks sygdom, type C. </p>
+<p>Hvis De har problemer med Deres nyrer, skal De muligvis starte med en lavere dosis. Hvis De lider af 
+diarré under behandlingen med Miglustat Gen.Orph, vil Deres læge muligvis sætte Deres dosis ned, 
+f.eks. til én kapsel (100 mg) én eller to gange dagligt (se punkt 4). Deres læge vil fortælle Dem, hvor 
+længe behandlingen skal vare. </p>
+<p>Miglustat Gen.Orph kan tages sammen med eller uden mad. De skal synke kapslen hel med et glas 
+vand. </p>
+<p>Hvis De har taget for mange Miglustat Gen.Orph 
+Hvis De tager flere kapsler, end De har fået besked på, skal De straks søge læge. Miglustat Gen.Orph er 
+blevet anvendt i kliniske forsøg med doser op til 3 000 mg: Dette medførte et fald i antallet af hvide 
+blodlegemer og andre bivirkninger svarende til dem, der er beskrevet i punkt 4. Hvis De har glemt at tage Miglustat Gen.Orph 
+Tag den næste kapsel til sædvanlig tid. De må ikke tage en dobbeltdosis som erstatning for den glemte 
+dosis.  </p>
+<p>Hvis De holder op med at tage Miglustat Gen.Orph 
+Stop ikke med at tage Miglustat Gen.Orph uden at rådføre Dem med lægen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Mest alvorlige bivirkninger:<br />
+Nogle patienter har haft snurren eller følelsesløshed i hænder og fødder (almindelig bivirkning). 
+Dette kan være tegn på perifer neuropati, som skyldes bivirkninger af Miglustat Gen.Orph, eller det kan 
+være på grund af eksisterende lidelser. Deres læge vil gennemføre nogle prøver før og under 
+behandling med Miglustat Gen.Orph for at bedømme dette (se punkt 2).  </p>
+<p>Hvis De får nogle af disse bivirkninger, skal De søge rådgivning hos lægen så hurtigt som muligt. </p>
+<p>Hvis De får en let rysten, sædvanligvis af hænderne, skal De søge rådgivning hos lægen så hurtigt 
+som muligt. Denne rysten forsvinder ofte, uden at det er nødvendigt at stoppe behandlingen. Af og til 
+vil det være nødvendigt for lægen at nedsætte dosis eller stoppe behandlingen med Miglustat Gen.Orph 
+for at stoppe denne rysten. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 behandlede) 
+De almindeligste bivirkninger er diarré, flatulens (luft i maven), mavesmerter, vægttab og nedsat 
+appetit.  </p>
+<p>Hvis De taber i vægt, når De starter behandling med Miglustat Gen.Orph, skal De ikke blive 
+bekymret. Normalt ophører vægttabet ved fortsat behandling. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede)<br />
+Almindelige bivirkninger af behandlingen omfatter hovedpine, svimmelhed, paræstesi (snurrende 
+fornemmelse eller følelsesløshed), koordinationsforstyrrelser, hypoæstesi (nedsat følesans), 
+fordøjelsesbesvær (halsbrand), kvalme (utilpashed), forstoppelse og opkastning, hævelse eller ubehag i 
+underlivet (maven) og trombocytopeni (nedsat antal blodplader). De neurologiske symptomer og 
+trombocytopeni kan skyldes den underliggende sygdom. </p>
+<p>Andre mulige bivirkninger er muskelkramper eller -svaghed, træthed, kulderystelser og utilpashed, 
+depression, søvnbesvær, glemsomhed og nedsat lyst til sex (libido). </p>
+<p>De fleste patienter oplever en eller flere af disse bivirkninger, i reglen i starten af behandlingen eller 
+med mellemrum under behandlingen. De fleste tilfælde er lette og forsvinder ret hurtigt. Hvis nogle af 
+disse bivirkninger giver anledning til problemer, skal De rådføre Dem med lægen. Han eller hun kan 
+nedsætte Deres dosis af Miglustat Gen.Orph eller anbefale anden medicin, der kan hjælpe med at 
+kontrollere bivirkningerne. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store miglustat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store miglustat"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.  </p>
+<p>Spørg på apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Miglustat Gen.Orph indeholder: </p>
+<p>Aktivt stof: miglustat 100 mg. </p>
+<p>Øvrige indholdsstoffer: 
+Natriumstivelsesglycolat (type A)<br />
+Povidon (K30) 
+Magnesiumstearat 
+Gelatine<br />
+Titandioxid (E171) 
+Se punkt 2 "Miglustat Gen.Orph indeholder natrium". 
+Udseende og pakningsstørrelser 
+Miglustat Gen.Orph 100 mg fås som hårde kapsler med en hvid uigennemsigtig overdel og underdel; 
+kapslerne er fremstillet af hård gelatine, og de har str. 4 og en længde på 14 mm. 
+Pakningsstørrelse på 84 hårde kapsler i ikke-perforeret blister og 84x1 hårde kapsler i perforeret 
+enkeltdosisblister. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen: </p>
+<p>Gen.Orph 
+185 Bureaux de la Colline 
+92213 Saint Cloud Cedex 
+Frankrig </p>
+<p>Fremstillere: 
+Delpharm Reims 
+10 rue Colonel Charbonneaux 
+51100 Reims 
+Frankrig </p>
+<p>eller </p>
+<p>Centre Lab 
+ZA Granderaie 
+23000 Guéret 
+Frankrig </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien<br />
+Gen.Orph<br />
+Tél/Tel: +32 (0)496 85 87 e-mail: reg@studiopharma.be  </p>
+<p>Lietuva<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com </p>
+<p>България<br />
+Диакомерс ЕООД 
+Тел.: +359 2 807 50 Е-mail: diacommerce@diacommerce.bg </p>
+<p>Luxembourg/Luxemburg<br />
+Gen.Orph 
+Tél/Tel.: +32 (0)496 85 87 email: reg@studiopharma.be </p>
+<p>Česká republika<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com 
+Magyarország<br />
+HMS Pharma Kft. 
+Tel.: +36 30 375 8e-mail: pharmacovigilance@hmspharma.com<br />
+Danmark<br />
+Gen.Orph 
+Tlf: +46 (0)8 21 54 e-mail: pharmacovigilance.SE@propharmagroup.com </p>
+<p>Malta<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com 
+Deutschland<br />
+Gen.Orph 
+Tel: +49 30 8560687email: pharmacovigilance.DE@propharmagroup.com </p>
+<p>Nederland<br />
+Gen.Orph 
+Tel: +32 (0)496 85 87 e-mail: reg@studiopharma.be  </p>
+<p>Eesti<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
+<p>Norge<br />
+Gen.Orph 
+Tlf: +46 (0)8 21 54 e-mail: pharmacovigilance.SE@propharmagroup.com </p>
+<p>Ελλάδα<br />
+Gen.Orph 
+Τηλ: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
+<p>Österreich<br />
+Gen.Orph 
+Tel : +33 (0)1 47 71 04 e-mail: contact@gen-orph.com 
+España<br />
+Pharma International S.A. 
+Tel: +34 915 635 e-mail: farmacovigilancia@pharmaintl.net </p>
+<p>Polska<br />
+Gen.Orph 
+Tel.: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com </p>
+<p>France<br />
+Gen.Orph 
+Tél.: +33 (0)1 47 71 04 e-mail : contact@gen-orph.com </p>
+<p>Portugal<br />
+Biojam, S.A. 
+Tel:  +351 212 697 e-mail: farmacovigilancia@phagecon.pt </p>
+<p>Hrvatska<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 e-mail : contact@gen-orph.com </p>
+<p>România<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com 
+Ireland<br />
+Gen.Orph 
+Tel : +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
+<p>Slovenija<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
+<p>Ísland<br />
+Gen.Orph 
+Sími: +33 (0)1 47 71 04 e-mail : contact@gen-orph.com </p>
+<p>Slovenská republika<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com 
+Italia<br />
+Biovalley Investments Partner S.r.l. 
+Tel: +39 040 899 2e.mail:info@biovalleyinvestmentspartner.it </p>
+<p>Suomi/Finland<br />
+Gen.Orph 
+Puh/Tel : +46 (0)8 21 54 e-mail : pharmacovigilance.SE@propharmagroup.com </p>
+<p>Κύπρος<br />
+Gen.Orph 
+Τηλ: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
+<p>Sverige<br />
+Gen.Orph 
+Tel: +46 (0)8 21 54 e-mail : pharmacovigilance.SE@propharmagroup.com </p>
+<p>Latvija<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 e-mail : contact@gen-orph.com 
+United Kingdom<br />
+Gen.Orph 
+Tel: +33 (0)1 47 71 04 e-mail: contact@gen-orph.com </p>
+<p>Denne indlægsseddel blev senest ændret: {måned ÅÅÅÅ} </p>
+<p>De kan finde yderligere oplysninger om Miglustat Gen.Orph på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e8ab7070a1e099803634040c1dcebc5b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for miglustat Package Leaflet for language en"
+Description: "ePI document Bundle for miglustat Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e8ab7070a1e099803634040c1dcebc5b"
+* entry[0].resource = composition-en-e8ab7070a1e099803634040c1dcebc5b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe8ab7070a1e099803634040c1dcebc5b"
+* entry[=].resource = mpe8ab7070a1e099803634040c1dcebc5b
+                            
+                    
+Instance: bundlepackageleaflet-da-e8ab7070a1e099803634040c1dcebc5b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for miglustat Package Leaflet for language da"
+Description: "ePI document Bundle for miglustat Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e8ab7070a1e099803634040c1dcebc5b"
+* entry[0].resource = composition-da-e8ab7070a1e099803634040c1dcebc5b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe8ab7070a1e099803634040c1dcebc5b"
+* entry[=].resource = mpe8ab7070a1e099803634040c1dcebc5b
+                            
+                    
+
+
+
+Instance: mpe8ab7070a1e099803634040c1dcebc5b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Miglustat Gen.Orph 100 mg hard capsules"
-Description: "Miglustat Gen.Orph 100 mg hard capsules"
+Title: "Medicinal Product miglustat"
+Description: "miglustat"
 Usage: #inline
 
  
@@ -383,7 +808,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Miglustat Gen.Orph 100 mg hard capsules"
+  * productName = "miglustat"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -410,29 +835,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e8ab7070a1e099803634040c1dcebc5b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for miglustat Package Leaflet for language en"
-Description: "ePI document Bundle for miglustat Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e8ab7070a1e099803634040c1dcebc5bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1232/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "miglustat"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e8ab7070a1e099803634040c1dcebc5b"
-* entry[0].resource = composition-en-e8ab7070a1e099803634040c1dcebc5b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpae4a147c14d59af582955e51056af606"
-* entry[=].resource = mpae4a147c14d59af582955e51056af606
-                            
-                      
+* title = "List of all ePIs associated with miglustat"
+
+* subject = Reference(mpae4a147c14d59af582955e51056af606)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#miglustat "miglustat"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e8ab7070a1e099803634040c1dcebc5b) // miglustat en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e8ab7070a1e099803634040c1dcebc5b) // miglustat da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e8ab7070a1e099803634040c1dcebc5b
+InstanceOf: List
+
+* insert e8ab7070a1e099803634040c1dcebc5bListRuleset
+    

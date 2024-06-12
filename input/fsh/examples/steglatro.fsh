@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3e75a55b0a0d0f0feaac242115a6585e
 InstanceOf: CompositionUvEpi
 Title: "Composition for steglatro Package Leaflet"
@@ -427,12 +430,599 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-3e75a55b0a0d0f0feaac242115a6585e
+InstanceOf: CompositionUvEpi
+Title: "Composition for steglatro Package Leaflet"
+Description:  "Composition for steglatro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0ba332ce66bd57d96e0a86b187ec978b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0ba332ce66bd57d96e0a86b187ec978b
+* title = "TEST PURPOSES ONLY - steglatro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Steglatro 
+3. Sådan skal du tage Steglatro 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What steglatro is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What steglatro is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Steglatro er
+Steglatro indeholder det aktive stof ertugliflozin.
+Steglatro tilhører en lægemiddelklasse kaldet SGLT2-hæmmere (natrium-glucose-co-transporter 2).
+Anvendelse
+ 
+Steglatro sænker blodsukkerniveauet hos voksne patienter (i alderen 18 år og derover) med
+type 2-diabetes. 
+ 
+Det kan også medvirke til at forhindre hjertesvigt hos patienter med type 2-diabetes.
+ 
+Steglatro kan anvendes alene eller sammen med visse andre lægemidler, der sænker
+blodsukkeret. 
+ 
+Du skal fortsætte med at følge din kost- og motionsplan, mens du tager Steglatro.
+Virkning
+Ertugliflozin virker ved at blokere SGLT2-proteinerne i nyrerne. Dette medfører, at blodsukker
+udskilles med urinen.
+Hvad er type 2-diabetes?
+Type 2-diabetes er en tilstand, hvor kroppen ikke producerer nok insulin. Samtidig virker den insulin,
+som kroppen producerer, ikke så godt, som den burde. Dette fører til et højt sukkerindhold i blodet.
+Når dette sker, kan det føre til alvorlige helbredsproblemer som hjertesygdom, nyresygdom, blindhed
+og dårligt kredsløb.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take steglatro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take steglatro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Steglatro
+ 
+hvis du er allergisk over for ertugliflozin eller et af de øvrige indholdsstoffer i Steglatro (angivet
+i punkt 6).
+40
+Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før og mens du tager Steglatro, hvis du:
+ 
+har nyreproblemer. Lægen vil måske tage blodprøver for at kontrollere, hvor godt dine nyrer
+fungerer.
+ 
+har eller har haft urinvejsinfektioner.
+ 
+har eller har haft svampeinfektion i skeden eller penis.
+ 
+har type 1-diabetes. Steglatro må ikke anvendes til at behandle denne sygdom, da det kan øge
+risikoen for diabetisk ketoacidose hos disse patienter.
+ 
+tager anden diabetesmedicin; du vil være mere tilbøjelig til at få lavt blodsukker med visse
+lægemidler.
+ 
+har risiko for dehydrering (f.eks. hvis du tager medicin, der øger urinproduktionen
+(vanddrivende medicin [diuretika]) eller sænker blodtrykket, eller hvis du er over 65 år). Spørg,
+hvordan du undgår dehydrering.
+ 
+oplever hurtigt vægttab, kvalme eller opkastning, mavesmerter, ekstrem tørst, hurtig og dyb
+vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, sødlig ånde, sødlig eller metallisk
+smag i munden, eller at din urin eller sved lugter anderledes. I så fald skal du straks kontakte en
+læge eller det nærmeste hospital. Disse symptomer kan være tegn på “diabetisk ketoacidose" –
+en tilstand der kan opstå i forbindelse med diabetes som følge af forhøjet indhold af
+“ketonstoffer" i urin- eller blodtest. Risiko for at udvikle diabetisk ketoacidose kan øges ved
+langvarig faste, meget stort alkoholforbrug, dehydrering, pludselige nedsættelser af insulindosis
+eller et større behov for insulin på grund af større operation eller alvorlig sygdom.
+Det er vigtigt, at du regelmæssigt kontrollerer dine fødder og overholder de retningslinjer for fodpleje,
+som du får af lægen eller sygeplejersken. 
+Kontakt øjeblikkeligt lægen, hvis du oplever en kombination af smerter, ømhed, rødme eller hævelse
+af kønsdelene eller i området mellem kønsdelene og anus med feber eller generel utilpashed. Disse
+symptomer kan være et tegn på en sjælden, men alvorlig og muligvis livstruende infektion (såkaldt
+nekrotiserende fasciitis i mellemkødet eller Fourniers gangræn), der ødelægger vævet under huden.
+Fourniers gangræn skal behandles øjeblikkeligt.
+Når dette lægemiddel tages sammen med insulin eller lægemidler, der øger insulinfrigivelsen fra
+bugspytkirtlen, kan der forekomme lavt blodsukker (hypoglykæmi). Lægen vil eventuelt nedsætte din
+dosis af insulin eller anden medicin.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.
+Sukker i urinen 
+På grund af dette lægemiddels virkemåde vil en urinprøve vise, at du har sukker (glucose) i urinen,
+mens du tager dette lægemiddel.
+Børn og unge
+Børn og unge under 18 år må ikke tage dette lægemiddel. Det er ukendt, om dette lægemiddel er
+sikkert og effektivt, når det anvendes hos børn og unge under 18 år.
+Brug af anden medicin sammen med Steglatro
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden
+medicin eller planlægger at bruge anden medicin. 
+Du skal især fortælle lægen: 
+ 
+hvis du tager medicin, der øger urinproduktionen (vanddrivende medicin (diuretika)). 
+ 
+hvis du tager anden medicin, der sænker blodsukkeret, f.eks. insulin eller lægemidler, der øger
+insulinfrigivelsen fra bugspytkirtlen. 
+Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), skal du tale med lægen.
+41
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Det er ukendt, om Steglatro kan skade dit ufødte barn. Hvis du er gravid, skal du tale med lægen om,
+hvordan dit blodsukker bedst kontrolleres under graviditeten. Tag ikke Steglatro, hvis du er gravid.
+Det er ukendt, om Steglatro går over i modermælken. Tal med lægen om, hvordan du bedst giver dit
+barn mad, hvis du tager Steglatro. Tag ikke Steglatro, hvis du ammer.
+Trafik- og arbejdssikkerhed
+Dette lægemiddel påvirker ikke eller kun i ubetydelig grad evnen til at køre bil og betjene maskiner.
+Brug af dette lægemiddel i kombination med insulin eller lægemidler, der øger insulinfrigivelsen fra
+bugspytkirtlen, kan dog medføre, at blodsukkerniveauet bliver for lavt (hypoglykæmi), hvilket kan
+forårsage symptomer som rysten, svedtendens og ændret syn, og kan påvirke evnen til at føre
+motorkøretøj og betjene maskiner. Du må ikke køre bil eller betjene maskiner, hvis du føler dig
+svimmel, når du tager Steglatro.
+Steglatro indeholder lactose
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse
+sukkerarter.
+Steglatro indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take steglatro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take steglatro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg
+lægen eller apotekspersonalet. 
+Så meget skal du tage
+ 
+Startdosis for Steglatro er en 5 mg-tablet hver dag. Lægen beslutter, om din dosis skal øges til
+15 mg.
+ 
+Lægen vil ordinere den dosis, der passer bedst til dig. Du må ikke ændre dosis, medmindre
+lægen har bedt dig om det.
+Sådan skal du tage medicinen
+ 
+Synk tabletten; tabletten kan deles eller knuses, hvis du har synkebesvær.
+ 
+Tag en tablet hver morgen. Tag så vidt muligt tabletten på samme tidspunkt hver dag. Det gør
+det nemmere at huske at tage den.
+ 
+Du kan tage tabletten med eller uden mad. 
+ 
+Du skal fortsætte med at følge din kost- og motionsplan, mens du tager Steglatro.
+Hvis du har taget for meget Steglatro
+Hvis du har taget for meget Steglatro, skal du straks kontakte en læge eller apotekspersonalet.
+Hvis du har glemt at tage Steglatro
+Hvad du skal gøre, hvis du har glemt at tage en tablet, afhænger af, hvor lang tid der er til din næste
+dosis.
+ 
+Hvis der er 12 timer eller mere til din næste dosis, skal du tage Steglatro, så snart du kommer i
+tanker om det. Derefter skal du tage din næste dosis på det sædvanlige tidspunkt.
+ 
+Hvis der er mindre end 12 timer til næste dosis, så spring den glemte dosis over. Derefter skal
+du tage din næste dosis på det sædvanlige tidspunkt.
+Du må ikke tage en dobbeltdosis (to doser på samme dag) som erstatning for den glemte dosis.
+42
+Hvis du holder op med at tage Steglatro
+Du må ikke stoppe med at tage dette lægemiddel uden at have talt med lægen. Dit blodsukker kan
+stige, hvis du holder op med at tage lægemidlet.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Kontakt straks en læge eller det nærmeste hospital, hvis du får en eller flere af følgende
+alvorlige bivirkninger:
+Diabetisk ketoacidose (sjælden, kan forekomme hos op til 1 ud af 1 000 personer)
+Følgende er tegn på diabetisk ketoacidose (se også punktet “Advarsler og forsigtighedsregler"): 
+ 
+øget indhold af “ketonstoffer" i urinen eller blodet 
+ 
+hurtigt vægttab 
+ 
+kvalme eller opkastning 
+ 
+mavesmerter 
+ 
+overdreven tørst 
+ 
+hurtig og dyb vejrtrækning 
+ 
+forvirring 
+ 
+usædvanlig søvnighed eller træthed 
+ 
+en sødlig ånde, en sødlig eller metallisk smag i munden, eller at din urin eller sved lugter
+anderledes
+Dette kan forekomme uanset blodsukkerniveauet. Lægen kan beslutte at stoppe din behandling med
+Steglatro midlertidigt eller permanent.
+Nekrotiserende fasciitis i mellemkødet (Fourniers gangræn) (ikke kendt, kan ikke vurderes ud
+fra tilgængelige data)
+En alvorlig bløddelsinfektion i kønsdelene eller området mellem kønsdelene og anus (se punktet
+“Advarsler og forsigtighedsregler" for symptomer).
+Hvis du bemærker en eller flere af ovenstående bivirkninger, skal du straks kontakte en læge eller det
+nærmeste hospital. 
+Kontakt lægen hurtigst muligt, hvis du bemærker følgende bivirkninger:
+Urinvejsinfektion (meget almindelig, kan forekomme hos flere end 1 ud af 10 personer) 
+Følgende er tegn på urinvejsinfektion:
+ 
+en sviende fornemmelse ved vandladning
+ 
+urinen ser uklar ud 
+ 
+smerter i bækkenet eller midt på ryggen (når nyrerne er betændte)
+Hvis du har feber eller ser blod i urinen, skal du straks fortælle det til din læge; dette forekommer dog
+sjældent.
+Dehydrering (for stort væsketab fra kroppen; almindelig, kan forekomme hos op til 1 ud af
+10 personer)
+Symptomer på dehydrering omfatter:
+ 
+mundtørhed
+ 
+svimmelhed, ørhed eller mathed, især når du rejser dig op
+ 
+besvimelse
+43
+Du vil have større tendens til at blive dehydreret, hvis du:
+ 
+har nyreproblemer
+ 
+tager medicin, der øger urinproduktionen (vanddrivende medicin (diuretika)) eller sænker
+blodtrykket 
+ 
+er 65 år eller derover
+Lavt blodsukker (hypoglykæmi; almindelig) 
+Din læge vil fortælle dig, hvordan du skal behandle lavt blodsukker, og hvad du skal gøre, hvis du
+oplever en eller flere af følgende tegn eller symptomer. Lægen kan nedsætte din dosis af insulin eller
+anden diabetesmedicin.</p>
+<p>Tegn og symptomer på lavt blodsukker kan omfatte:
+ 
+hovedpine
+ 
+døsighed
+ 
+irritabilitet
+ 
+sult
+ 
+svimmelhed
+ 
+forvirring
+ 
+svedtendens
+ 
+nervøsitet
+ 
+mathed
+ 
+hurtig hjerterytme
+Hvis du bemærker en eller flere af ovenstående bivirkninger, skal du kontakte din læge hurtigst
+muligt. 
+Andre bivirkninger, når du tager Steglatro:
+Meget almindelig
+ 
+svampeinfektion i skeden (trøske)
+Almindelig
+ 
+svampeinfektioner i penis
+ 
+ændret vandladning, herunder pludselig og hyppigere trang til at lade vandet, i større mængder
+eller om natten
+ 
+tørst
+ 
+kløe i skeden
+ 
+blodprøver kan vise ændringer i mængden af urinstof i blodet
+ 
+blodprøver kan vise ændringer i mængden af totalt og "dårligt" kolesterol (kaldet lav densitet
+lipoprotein (LDL)-kolesterol - en type fedt i blodet)
+ 
+blodprøver kan vise ændringer i mængden af røde blodlegemer i blodet (kaldet hæmoglobin)
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer)
+ 
+blodprøver kan vise ændringer i nyrefunktionen (såsom ‘kreatinin’)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
+information om sikkerheden af dette lægemiddel.
+44</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store steglatro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store steglatro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Tag ikke lægemidlet efter den udløbsdato, der står på blister og karton efter EXP. Udløbsdatoen er den
+sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Tag ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på, at den har været åbnet.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
+smide medicinrester i afløbet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Steglatro indeholder: 
+ 
+Aktivt stof: ertugliflozin * 
+Hver Steglatro 5 mg filmovertrukken tablet indeholder ertugliflozin L-pyroglutaminsyre
+svarende til 5 mg ertugliflozin.<em> 
+Hver Steglatro 15 mg filmovertrukken tablet indeholder ertugliflozin L-pyroglutaminsyre
+svarende til 15 mg ertugliflozin.
+ 
+Øvrige indholdsstoffer:</em> 
+Tabletkerne: mikrokrystallinsk cellulose (E460), lactosemonohydrat (se punkt 2),
+natriumstivelsesglycolat (Type A), magnesiumstearat (E470b).* 
+Filmovertræk: hypromellose 2910/6 (E464), lactosemonohydrat (se punkt 2), macrogol
+3350 (E1521), triacetin (E1518), titandioxid (E171), rød jernoxid (E172).
+Udseende og pakningsstørrelser
+ 
+Steglatro 5 mg filmovertrukne tabletter (tabletter) er lyserøde, 6,4 x 6,6 mm, trekantede, med
+“701" på den ene side og uden prægning på den anden side. 
+ 
+Steglatro 15 mg filmovertrukne tabletter (tabletter) er røde, 9,0 x 9,4 mm, trekantede, med
+“702" på den ene side og uden prægning på den anden side.
+Steglatro fås i Alu/PVC/PA/Alu-blistre. Pakningsstørrelserne er 14, 28, 30, 84, 90 og
+98 filmovertrukne tabletter i ikke-perforerede blistre og 30 x 1 filmovertrukne tabletter i perforerede
+enkeltdosisblistre.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Fremstiller
+Organon Heist bv
+Industriepark 30
+2220 Heist-op-den-Berg
+Belgien
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+45
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel: + 370 5 2780247
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Teл.: + 359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: + 36 1 888-5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp and Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V. 
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel: + 372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: + 47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: + 30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o. 
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tlf.: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: + 351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 333
+croatia_info@merck.com<br />
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+46
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: + 386 1 5204201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s.r.o.
+Tel: + 421 (2) 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: + 358 (0)9 804650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 800 00 673
++357 22866700
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tfn: + 46 (0)77 570 04 88
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371 67 364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited 
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3e75a55b0a0d0f0feaac242115a6585e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for steglatro Package Leaflet for language en"
+Description: "ePI document Bundle for steglatro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3e75a55b0a0d0f0feaac242115a6585e"
+* entry[0].resource = composition-en-3e75a55b0a0d0f0feaac242115a6585e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3e75a55b0a0d0f0feaac242115a6585e"
+* entry[=].resource = mp3e75a55b0a0d0f0feaac242115a6585e
+                            
+                    
+Instance: bundlepackageleaflet-da-3e75a55b0a0d0f0feaac242115a6585e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for steglatro Package Leaflet for language da"
+Description: "ePI document Bundle for steglatro Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3e75a55b0a0d0f0feaac242115a6585e"
+* entry[0].resource = composition-da-3e75a55b0a0d0f0feaac242115a6585e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3e75a55b0a0d0f0feaac242115a6585e"
+* entry[=].resource = mp3e75a55b0a0d0f0feaac242115a6585e
+                            
+                    
+
+
+
+Instance: mp3e75a55b0a0d0f0feaac242115a6585e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Steglatro 5 mg film-coated tablets"
-Description: "Steglatro 5 mg film-coated tablets"
+Title: "Medicinal Product steglatro"
+Description: "steglatro"
 Usage: #inline
 
  
@@ -452,7 +1042,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Steglatro 5 mg film-coated tablets"
+  * productName = "steglatro"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -479,29 +1069,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3e75a55b0a0d0f0feaac242115a6585e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for steglatro Package Leaflet for language en"
-Description: "ePI document Bundle for steglatro Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3e75a55b0a0d0f0feaac242115a6585eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Steglatro 5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "steglatro"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3e75a55b0a0d0f0feaac242115a6585e"
-* entry[0].resource = composition-en-3e75a55b0a0d0f0feaac242115a6585e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0ba332ce66bd57d96e0a86b187ec978b"
-* entry[=].resource = mp0ba332ce66bd57d96e0a86b187ec978b
-                            
-                      
+* title = "List of all ePIs associated with steglatro"
+
+* subject = Reference(mp0ba332ce66bd57d96e0a86b187ec978b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#steglatro "steglatro"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3e75a55b0a0d0f0feaac242115a6585e) // steglatro en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3e75a55b0a0d0f0feaac242115a6585e) // steglatro da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3e75a55b0a0d0f0feaac242115a6585e
+InstanceOf: List
+
+* insert 3e75a55b0a0d0f0feaac242115a6585eListRuleset
+    

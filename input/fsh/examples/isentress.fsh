@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-240cb856767cdf385c31b86b973619ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for isentress Package Leaflet"
@@ -434,12 +437,664 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-240cb856767cdf385c31b86b973619ae
+InstanceOf: CompositionUvEpi
+Title: "Composition for isentress Package Leaflet"
+Description:  "Composition for isentress Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6cb55e817d4a2ad5edbb68fd6afeeb65)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6cb55e817d4a2ad5edbb68fd6afeeb65
+* title = "TEST PURPOSES ONLY - isentress"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Isentress
+3. Sådan skal du tage Isentress
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What isentress is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What isentress is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Isentress er
+Isentress indeholder det aktive stof raltegravir. Isentress er et antivirus, som virker mod humant
+immundefekt-virus (hiv). Det er dette virus, som forårsager erhvervet immundefekt-syndrom (aids). 
+Sådan virker Isentress
+Virus producerer et enzym, der hedder hiv-integrase. Dette hjælper virus med at formere sig i
+kroppens celler. Isentress stopper virkningen af dette enzym. Når Isentress tages sammen med anden
+medicin, kan det nedsætte mængden af hiv i blodet (dette kaldes "virusbelastning") og øge CD4-
+celletallet (en type hvide blodlegemer, der spiller en vigtig rolle i vedligeholdelsen af et sundt
+immunforsvar, der hjælper med at bekæmpe infektion). Nedsættelse af hiv-mængden i blodet kan
+forbedre funktionen af immunforsvaret. Dette betyder, at kroppen bedre kan bekæmpe infektion. 
+Hvornår Isentress skal anvendes
+Isentress bruges til behandling af personer, som er smittet med hiv. Din læge har ordineret Isentress
+som middel til at hjælpe med at holde din hiv-infektion under kontrol. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take isentress"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take isentress"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Isentress </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for raltegravir eller et af de øvrige indholdsstoffer i Isentress (angivet i
+punkt 6).
+126
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Isentress. Husk, at Isentress ikke
+helbreder hiv-infektion. Dette betyder, at du måske bliver ved med at få infektioner eller andre
+sygdomme, der er forbundet med hiv. Du skal fortsætte med at gå til lægen regelmæssigt, imens du
+tager dette lægemiddel.
+Psykiske helbredsproblemer
+Fortæl det til lægen, hvis du har eller tidligere har haft depression eller psykisk sygdom. Der er
+rapporteret om depression, herunder selvmordstanker og -adfærd hos nogle patienter, som tager dette
+lægemiddel, især hos patienter, som tidligere har haft depression eller psykisk sygdom.
+Knogleproblemer
+Nogle patienter, som får antiretroviral kombinationsbehandling, kan udvikle en knoglesygdom, som
+hedder osteonekrose (hvor knoglevævet dør pga. manglende blodforsyning til knoglen). Følgende kan
+være nogle af de mange risikofaktorer, der findes for at udvikle denne sygdom: Varigheden af den
+antiretrovirale kombinationsbehandling, brug af kortikosteroider, alkoholforbrug, alvorligt nedsat
+dannelse af antistoffer (immunsuppression), højt BMI. Tegn på osteonekrose er ledstivhed, ledsmerter
+(især i hofte, knæ og skulder) samt besvær med at bevæge sig. Hvis du bemærker et eller flere af disse
+symptomer, skal du kontakte lægen.
+Leverproblemer
+Fortæl det til lægen, apotekspersonalet eller sygeplejersken, hvis du tidligere har haft problemer med
+leveren, herunder hepatitis B eller C. Din læge kan vurdere, hvor alvorlig din leversygdom er, før
+han/hun beslutter, om du kan tage dette lægemiddel.
+Infektioner
+Fortæl det straks til din læge, apotekspersonalet eller sygeplejersken, hvis du bemærker symptomer på
+infektion, såsom feber og/eller utilpashed. Patienter med fremskreden hiv-infektion, som tidligere har
+haft en infektion, der kun forekommer under særlige betingelser (opportunistisk infektion), kan få tegn
+og symptomer på betændelse fra tidligere infektioner. Symptomerne vil vise sig kort efter, at hiv-
+behandlingen er startet. Det antages, at disse symptomer skyldes en forbedring i kroppens
+immunforsvar, som så gør kroppen i stand til at bekæmpe infektioner, der kan have været til stede
+uden tydelige symptomer.
+Ud over de opportunistiske infektioner kan autoimmune lidelser (skyldes, at immunsystemet angriber
+sundt kropsvæv) også opstå, efter du er begyndt at tage medicin til behandling af din hiv-infektion.
+Autoimmune lidelser kan opstå mange måneder efter, du er påbegyndt behandling. Du skal straks
+informere din læge for at få den nødvendige behandling, hvis du bemærker symptomer på infektion
+eller andre symptomer, såsom muskelsvaghed, svaghed begyndende i hænder og fødder, og som
+bevæger sig op igennem kroppen, hjertebanken, rysten eller hyperaktivitet.
+Muskelproblemer
+Kontakt straks lægen, apotekspersonalet eller sygeplejersken, hvis du oplever uforklarlige
+muskelsmerter, -ømhed eller -svaghed, mens du tager dette lægemiddel.
+Hudproblemer
+Kontakt straks lægen, hvis du får udslæt. Der er rapporteret om alvorlige og livstruende hudreaktioner
+og overfølsomhedsreaktioner hos nogle patienter, der tager dette lægemiddel. 
+Brug af anden medicin sammen med Isentress
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for
+nylig. 
+Isentress kan påvirke virkningen af anden medicin, ligesom anden medicin kan påvirke virkningen af
+Isentress. 
+127
+Fortæl det til lægen, apotekspersonalet eller sygeplejersken, hvis du tager anden medicin, for nylig har
+taget anden medicin eller planlægger at tage anden medicin:</p>
+</li>
+<li>
+<p>antacida (lægemidler, der modvirker eller neutraliserer mavesyren til lindring af
+fordøjelsesbesvær og halsbrand). Det frarådes at tage Isentress sammen med visse lægemidler
+mod for meget mavesyre (de, der indeholder aluminium og/eller magnesium). Tal med lægen
+om andre lægemidler, du kan tage mod for meget mavesyre.
+•
+jernsalte (til at behandle og forebygge jernmangel eller blodmangel (anæmi)). Der skal gå
+mindst to timer imellem, at du tager Isentress og jernsalte, da disse lægemidler kan nedsætte
+virkningen af Isentress.
+•
+rifampicin (medicin til behandling af infektioner som fx tuberkulose), da det kan nedsætte
+indholdet af Isentress i blodet. Lægen kan overveje at øge din Isentress-dosis, hvis du tager
+rifampicin.
+Brug af Isentress sammen med mad og drikke
+Se punkt 3. Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid eller planlægger at blive gravid, skal
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.</p>
+</li>
+<li>
+<p>Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet
+gennem modermælken.</p>
+</li>
+<li>
+<p>Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.
+Spørg din læge, apotekspersonalet eller sygeplejersken til råds, før du tager nogen form for medicin,
+hvis du er gravid eller ammer.
+Trafik- og arbejdssikkerhed
+Du må ikke arbejde med maskiner, køre bil eller cykle, hvis du føler dig svimmel, efter du har taget
+dette lægemiddel. 
+Isentress indeholder lactose
+Dette lægemiddel indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har
+fortalt dig, at du ikke tåler visse sukkerarter. 
+Isentress indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
+væsentlige natriumfrit.</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take isentress"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take isentress"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens, apotekspersonalets eller sygeplejerskens anvisning. Er du
+i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken. Isentress skal tages sammen med anden
+hiv-medicin. 
+Hvor meget du skal tage
+Voksne
+Den anbefalede dosis Isentress er 1 tablet (400 mg) gennem munden to gange dagligt.
+Brug til børn og unge
+Den anbefalede dosis Isentress er 400 mg gennem munden to gange dagligt til unge samt børn, der
+vejer mindst 25 kg. 
+Du må ikke tygge, knuse eller dele tabletterne, da dette kan ændre koncentrationen af medicin i
+kroppen. Lægemidlet kan tages med eller uden mad eller drikke.
+128
+Isentress fås også som en 600 mg tablet, en tyggetablet og som granulat til oral suspension.
+Skift ikke mellem 400 mg tabletten, 600 mg tabletten, tyggetabletten eller granulatet til oral
+suspension uden først at tale med lægen, apotekspersonalet eller sygeplejersken.
+Hvis du har taget for meget Isentress
+Tag ikke flere tabletter, end lægen anbefaler. Hvis du tager for mange tabletter, skal du kontakte
+lægen.
+Hvis du har glemt at tage Isentress</p>
+<ul>
+<li>
+<p>Hvis du glemmer at tage en dosis, skal du tage den, så snart du kommer i tanke om det.</p>
+</li>
+<li>
+<p>Hvis det imidlertid er tid for din næste dosis, skal du springe den glemte dosis over og tage den
+næste tablet til sædvanlig tid.</p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis du holder op med at tage Isentress
+Det er vigtigt, at du tager Isentress nøjagtigt, som din læge har anvist. Du må ikke ændre dosis eller
+stoppe med at tage lægemidlet uden først at tale med lægen, apotekspersonalet eller sygeplejersken.
+Hold ikke op med at tage det da:</p>
+</li>
+<li>
+<p>Det er vigtigt at tage al din hiv-medicin som foreskrevet og på det rigtige tidspunkt på dagen.
+Dette hjælper medicinen til at virke bedre. Det nedsætter også risikoen for, at medicinen
+ophører med at bekæmpe hiv (også kaldet medicinresistens).</p>
+</li>
+<li>
+<p>Når din Isentress er ved at være brugt op, skal du hente mere hos din læge eller på apoteket,
+fordi det er meget vigtigt ikke at være uden medicin, selv i kort tid. Under en kort afbrydelse af
+medicinen kan mængden af virus i blodet stige. Dette kan betyde, at hiv-virus vil udvikle
+resistens over for Isentress og dermed blive vanskeligere at behandle. 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger - disse er ikke almindelige (kan berøre op til 1 ud af 100 personer)
+Søg straks læge, hvis du bemærker en eller flere af følgende bivirkninger:</p>
+<ul>
+<li>
+<p>Herpesinfektion, fx helvedesild</p>
+</li>
+<li>
+<p>Blodmangel, fx pga. jernmangel</p>
+</li>
+<li>
+<p>Tegn og symptomer på infektion eller betændelse</p>
+</li>
+<li>
+<p>Mental forstyrrelse</p>
+</li>
+<li>
+<p>Selvmordshensigt eller -forsøg</p>
+</li>
+<li>
+<p>Betændelse i mavens slimhinde</p>
+</li>
+<li>
+<p>Leverbetændelse</p>
+</li>
+<li>
+<p>Leversvigt</p>
+</li>
+<li>
+<p>Allergisk udslæt</p>
+</li>
+<li>
+<p>Visse typer nyresygdomme</p>
+</li>
+<li>
+<p>Indtagelse af større mængde lægemiddel end anbefalet.
+Søg straks læge, hvis du bemærker en eller flere af ovenstående bivirkninger.
+Almindelige: følgende kan berøre op til 1 ud af 10 personer</p>
+</li>
+<li>
+<p>Nedsat appetit</p>
+</li>
+<li>
+<p>Besvær med at sove, unormale drømme, mareridt, unormal adfærd, depression</p>
+</li>
+<li>
+<p>Svimmelhed, hovedpine</p>
+</li>
+<li>
+<p>Snurrende fornemmelse
+129</p>
+</li>
+<li>
+<p>Oppustethed, mavesmerter, diarré, usædvanlig meget luft i mave eller tarme, kvalme,
+opkastning, fordøjelsesproblemer, opstød</p>
+</li>
+<li>
+<p>Visse former for udslæt (oftest ved anvendelse sammen med darunavir)</p>
+</li>
+<li>
+<p>Træthed, usædvanlig træthed eller svaghed, feber</p>
+</li>
+<li>
+<p>Forhøjede leverblodprøver, unormalt antal hvide blodlegemer, øget indhold af fedt i blodet,
+stigning i enzymer fra spytkirtler eller bugspytkirtel.
+Ikke almindelige: følgende kan berøre op til 1 ud af 100 personer</p>
+</li>
+<li>
+<p>Infektion i hårsækkene, influenza, hudinfektion fremkaldt af virus, opkastning eller diarré
+forårsaget af smitstof, infektion i øvre luftveje, byld i lymfeknude</p>
+</li>
+<li>
+<p>Vorter</p>
+</li>
+<li>
+<p>Lymfekirtelsmerter, lavt antal hvide blodlegemer, som bekæmper infektion, hævede kirtler på
+halsen, i armhulerne og lysken</p>
+</li>
+<li>
+<p>Allergisk reaktion</p>
+</li>
+<li>
+<p>Øget appetit, sukkersyge (diabetes mellitus), forhøjet kolesterol og fedtstoffer (lipider) i blodet,
+højt indhold af sukker i blodet, voldsom tørst, alvorligt vægttab, forhøjet indhold af fedt i blodet
+(fx kolesterol og triglycerider), unormal fordeling af kropsfedt</p>
+</li>
+<li>
+<p>Angst, forvirring, nedtrykthed, humørsvingninger, panikanfald</p>
+</li>
+<li>
+<p>Hukommelsestab, smerter i hænderne på grund af tryk på nerver, opmærksomhedsforstyrrelse,
+svimmelhed i forbindelse med hurtig ændring af stilling, smagsforstyrrelse, øget søvnbehov,
+mangel på energi, glemsomhed, migrænelignende hovedpine, følelsesløshed eller følelse af
+svaghed i arme og/eller ben, prikkende fornemmelse, søvnighed, spændingshovedpine, rysten,
+dårlig søvnkvalitet</p>
+</li>
+<li>
+<p>Synsforstyrrelser</p>
+</li>
+<li>
+<p>Summende, hvislende, fløjtende, ringende eller anden vedvarende støj i ørerne</p>
+</li>
+<li>
+<p>Hjertebanken, langsom hjerterytme, hurtig eller uregelmæssig hjerterytme</p>
+</li>
+<li>
+<p>Hedeture, forhøjet blodtryk</p>
+</li>
+<li>
+<p>Grov, hæs eller anstrengt stemme, næseblod, stoppet næse</p>
+</li>
+<li>
+<p>Smerter i øverste del af maven, gener i endetarmen, forstoppelse, tør mund, halsbrand,
+synkesmerter, betændelse i bugspytkirtlen, sår eller ømhed i maven eller øvre del af mave-tarm-
+kanalen, blødning ved endetarmen, mavegener, tandkødsbetændelse, hævet, rød, øm tunge</p>
+</li>
+<li>
+<p>Ophobning af fedt i leveren</p>
+</li>
+<li>
+<p>Uren hud (akne), usædvanligt hårtab, rødme af huden, unormal fordeling af fedt på kroppen,
+som kan omfatte fedttab fra ben, arme og ansigt og øget fedt på maven, kraftig svedafsondring,
+nattesved, fortykkelse af huden og kløe i huden på grund af gentagen kradsen, hudlæsioner, tør
+hud</p>
+</li>
+<li>
+<p>Ledsmerter, smertefuld ledsygdom, rygsmerter, smerter i knogler/muskler, muskelømhed eller -
+svaghed, nakkesmerter, smerter i arme og/eller ben, senebetændelse, fald i knoglemineraler</p>
+</li>
+<li>
+<p>Nyresten, natlig vandladning, nyrecyster</p>
+</li>
+<li>
+<p>Impotens, brystforstørrelse hos mænd, symptomer på overgangsalder</p>
+</li>
+<li>
+<p>Gener i brystet, kuldegysninger, hævelser i ansigtet, anspændthed, generel utilpashed, hævet
+hals, hævede hænder, ankler eller fødder, smerter</p>
+</li>
+<li>
+<p>Fald i antal hvide blodlegemer, fald i antal blodplader (celler der får blodet til at størkne),
+blodprøver med tegn på nedsat nyrefunktion, forhøjet blodsukker, forhøjet mængde
+muskelenzymer i blodet, sukker i urinen, røde blodlegemer i urinen, vægtøgning, øget taljemål,
+fald i blodprotein (albumin), forlængelse af blodets størkningstid.
+Yderligere bivirkninger hos børn og unge</p>
+</li>
+<li>
+<p>Hyperaktivitet.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
+information om sikkerheden af dette lægemiddel.
+130</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store isentress"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store isentress"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn.</p>
+</li>
+<li>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på flasken efter EXP. Udløbsdatoen er den
+sidste dag i den nævnte måned.</p>
+</li>
+<li>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.</p>
+</li>
+<li>
+<p>Hold flasken tæt tillukket og behold tørremidlet i flasken for at beskytte mod fugt. Tørremidlet
+må ikke sluges.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Isentress indeholder:
+Aktivt stof: raltegravir. Hver filmovertrukken tablet indeholder 400 mg raltegravir (som kalium).
+Øvrige indholdsstoffer: lactosemonohydrat; mikrokrystallinsk cellulose; calciumphosphat, dibasisk,
+vandfrit; hypromellose 2208; poloxamer 407; natriumstearylfumarat og magnesiumstearat. Derudover
+indeholder filmovertrækket følgende inaktive indholdsstoffer: Polyvinylalkohol; titandioxid;
+polyethylenglycol 3350; talcum; rød jernoxid og sort jernoxid.
+Udseende og pakningsstørrelser
+Den filmovertrukne 400 mg tablet er oval, lyserød, mærket "227" på den ene side. 
+Der findes to pakningsstørrelser: pakninger med 1 flaske med 60 tabletter og multipakninger med
+3 flasker med 60 tabletter i hver. Flasken indeholder tørremiddel.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 53 00
+hungary_msd@merck.com
+131
+Danmark
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: + 30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp.z o.o. 
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: + 40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health) Lim-
+ited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila
+d.o.o.
+Tel: + 386 1 5204201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+132
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364 224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human
+Health) Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}.&gt;
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.
+133
+Indlægsseddel: Information til brugeren
+Isentress 600 mg filmovertrukne tabletter
+raltegravir
+Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den
+indeholder vigtige oplysninger. Hvis du har et barn, der tager Isentress, skal du læse denne
+information grundigt sammen med barnet.</p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen.</p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.</p>
+</li>
+<li>
+<p>Lægen har ordineret Isentress til dig eller dit barn personligt. Lad derfor være med at give
+medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som
+du har.</p>
+</li>
+<li>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-240cb856767cdf385c31b86b973619ae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for isentress Package Leaflet for language en"
+Description: "ePI document Bundle for isentress Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-240cb856767cdf385c31b86b973619ae"
+* entry[0].resource = composition-en-240cb856767cdf385c31b86b973619ae
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp240cb856767cdf385c31b86b973619ae"
+* entry[=].resource = mp240cb856767cdf385c31b86b973619ae
+                            
+                    
+Instance: bundlepackageleaflet-da-240cb856767cdf385c31b86b973619ae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for isentress Package Leaflet for language da"
+Description: "ePI document Bundle for isentress Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-240cb856767cdf385c31b86b973619ae"
+* entry[0].resource = composition-da-240cb856767cdf385c31b86b973619ae
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp240cb856767cdf385c31b86b973619ae"
+* entry[=].resource = mp240cb856767cdf385c31b86b973619ae
+                            
+                    
+
+
+
+Instance: mp240cb856767cdf385c31b86b973619ae
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ISENTRESS 400 mg film-coated tablets"
-Description: "ISENTRESS 400 mg film-coated tablets"
+Title: "Medicinal Product isentress"
+Description: "isentress"
 Usage: #inline
 
  
@@ -459,7 +1114,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ISENTRESS 400 mg film-coated tablets"
+  * productName = "isentress"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -486,29 +1141,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-240cb856767cdf385c31b86b973619ae
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for isentress Package Leaflet for language en"
-Description: "ePI document Bundle for isentress Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 240cb856767cdf385c31b86b973619aeListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/07/436/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "isentress"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-240cb856767cdf385c31b86b973619ae"
-* entry[0].resource = composition-en-240cb856767cdf385c31b86b973619ae
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6cb55e817d4a2ad5edbb68fd6afeeb65"
-* entry[=].resource = mp6cb55e817d4a2ad5edbb68fd6afeeb65
-                            
-                      
+* title = "List of all ePIs associated with isentress"
+
+* subject = Reference(mp6cb55e817d4a2ad5edbb68fd6afeeb65)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#isentress "isentress"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-240cb856767cdf385c31b86b973619ae) // isentress en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-240cb856767cdf385c31b86b973619ae) // isentress da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-240cb856767cdf385c31b86b973619ae
+InstanceOf: List
+
+* insert 240cb856767cdf385c31b86b973619aeListRuleset
+    

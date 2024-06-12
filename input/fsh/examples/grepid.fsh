@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-744dd2d849c3e92fc852e3f500b2711e
 InstanceOf: CompositionUvEpi
 Title: "Composition for grepid Package Leaflet"
@@ -393,12 +396,522 @@ http://www.ema.europa.eu/  </p>         </div>"""
 
 
 
+Instance: composition-da-744dd2d849c3e92fc852e3f500b2711e
+InstanceOf: CompositionUvEpi
+Title: "Composition for grepid Package Leaflet"
+Description:  "Composition for grepid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp625f1a5ae11d8c7c8368ae9181192295)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp625f1a5ae11d8c7c8368ae9181192295
+* title = "TEST PURPOSES ONLY - grepid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Grepid<br />
+3. Sådan skal du tage Grepid<br />
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What grepid is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What grepid is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Grepid indeholder clopidogrel og tilhører en lægemiddelgruppe, der kaldes blodfortyndende medicin. 
+Blodplader er meget små bestanddele i blodet, mindre end de røde og hvide blodlegemer, og de 
+klumper sig sammen i forbindelse med, at blodet størkner. Ved at forhindre denne sammenklumpning 
+nedsætter et blodpropopløsende præparat risikoen for, at der dannes blodpropper (en proces, der 
+kaldes trombose). </p>
+<p>Grepid tages af voksne for at forebygge dannelse af blodpropper (trombi) i blodårer (arterier), som er 
+blevet stive ved en proces kaldet aterotrombose, hvilket kan føre til f.eks. apopleksi, hjerteanfald og 
+død (aterotrombotiske hændelser).  </p>
+<p>Du har fået recept på Grepid til forebyggelse af blodpropper og nedsættelse af risikoen for disse 
+alvorlige hændelser, fordi:</p>
+<ul>
+<li>
+<p>Du lider af åreforkalkning (også kaldet aterosklerose) - og </p>
+</li>
+<li>
+<p>Du tidligere har haft et hjerteanfald, apopleksi eller kredsløbsforstyrrelser i arme eller ben 
+eller </p>
+</li>
+<li>Du har haft en alvorlig form for smerter i brystet, som kaldes hjertekrampe (ustabil angina 
+pectoris) eller hjerteanfald (myokardieinfarkt). Til behandling af denne tilstand kan din læge 
+have indsat en stent i den blokerede eller forsnævrede arterie for at genoprette en effektiv 
+blodgennemstrømning. Du får muligvis også acetylsalicylsyre (et stof, som indgår i mange 
+lægemidler, og som anvendes til at afhjælpe smerter og sænke feber såvel som til at forebygge 
+dannelse af blodpropper). </li>
+<li>Du har haft symptomer på et slagtilfælde, der forsvinder i løbet af kort tid (kaldes også en 
+forbigående blodprop), eller et lille iskæmisk slagtilfælde. Du har muligvis også fået 
+acetylsalicylsyre af lægen inden for de første 24 timer. </li>
+<li>Du har uregelmæssig hjerterytme (en sygdom kaldet ”atrieflimren”) og ikke må tage medicin 
+kendt som orale antikoagulantia (vitamin K-antagonister), der kan forebygge dannelsen af nye 
+blodpropper og forhindre eksisterende blodpropper i at vokse. Du bør være blevet informeret 
+om, at ”orale antikoagulantia” er mere effektive mod denne sygdom end acetylsalicylsyre eller 
+kombinationen af Grepid og acetylsalicylsyre. Din læge bør have udskrevet Grepid plus 
+acetylsalicylsyre, hvis du ikke må tage ”orale antikoagulantia”, og du ikke har risiko for </li>
+</ul>
+<p>alvorlig blødning.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take grepid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take grepid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen kan have foreskrevet anden anvendelse eller dosering end angivet i denne information. Følg 
+altid lægens anvisning og oplysningerne på doseringsetiketten. </p>
+<p>Tag ikke Grepid </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for clopidogrel eller et af de øvrige indholdsstoffer i dette 
+lægemiddel(se afsnit 6). </p>
+</li>
+<li>
+<p>hvis du har en aktiv blødning såsom et mavesår eller en blødning i hjernen. </p>
+</li>
+<li>
+<p>hvis du lider af alvorlig leversygdom. </p>
+</li>
+</ul>
+<p>Hvis du mener, at ovenstående gælder for dig, eller hvis du overhovedet er i tvivl, så rådfør dig med 
+din læge, inden du tager Grepid </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Grepid. 
+Hvis nogen af følgende situationer gælder for dig, skal du oplyse det til din læge, før du tager Grepid: </p>
+<ul>
+<li>
+<p>hvis du har risiko for blødninger f.eks. på grund af:</p>
+</li>
+<li>
+<p>en medicinsk lidelse, der medfører risiko for indre blødninger (såsom et mavesår).  </p>
+</li>
+<li>en blødningslidelse, der giver dig tendens til indre blødning (blødning inde i et af kroppens væv, 
+organer eller led). </li>
+<li>en nylig alvorlig kvæstelse. </li>
+<li>et nyligt kirurgisk indgreb (gælder også tandoperationer).  </li>
+<li>
+<p>et planlagt kirurgisk indgreb (gælder også tandoperationer) inden for de næste 7 dage. </p>
+</li>
+<li>
+<p>hvis du har haft en blodprop i en åre (arterie) i hjernen (iskæmisk apopleksi), inden for de 
+seneste 7 dage. </p>
+</li>
+<li>
+<p>hvis du lider af en nyre- eller leversygdom. </p>
+</li>
+<li>
+<p>hvis du har haft allergi over for eller en reaktion på et lægemiddel, der anvendes til at behandle 
+din sygdom. </p>
+</li>
+<li>
+<p>hvis du har en sygehistorie med ikke-traumatisk hjerneblødning. </p>
+</li>
+</ul>
+<p>Mens du er i behandling med Grepid: </p>
+<ul>
+<li>
+<p>Skal du fortælle din læge, at du er i behandling med Grepid hvis du skal have foretaget en 
+planlagt operation (også hos tandlægen). </p>
+</li>
+<li>
+<p>Skal du også fortælle det til din læge med det samme, hvis du udvikler en medicinsk tilstand 
+(trombocytisk trombocytopenisk purpura eller TTP), der giver feber og blå mærker under 
+huden, der kan fremstå som små røde prikker, med eller uden uforklarlig ekstrem træthed, 
+forvirring, gulfarvning af huden eller øjnene (gulsot) (se afsnit 4 ’Bivirkninger’) </p>
+</li>
+<li>
+<p>Kan det tage lidt længere end normalt, før blødningen stopper, hvis du skærer dig eller 
+kommer til skade. Dette skyldes medicinens virkemåde, da den forhindrer blodet i at størkne. 
+Ved mindre sår og skader, som hvis du f.eks. skærer dig under barbering, er dette som regel 
+ikke noget problem. Hvis du er bekymret over din blødning, skal du omgående kontakte din 
+læge (se afsnit 4 ’Bivirkninger’). </p>
+</li>
+<li>
+<p>Kan din læge bede om blodprøver </p>
+</li>
+</ul>
+<p>Børn og unge 
+Anvend ikke dette lægemiddel til børn, da det er uden effekt på dem. </p>
+<p>Brug af andre lægemidler sammen med Grepid: 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Dette gælder også medicin, som ikke er 
+købt på recept. 
+Visse andre lægemidler kan påvirke brugen af Grepid eller omvendt. </p>
+<p>Det er særlig vigtigt, at du fortæller det til din læge, hvis du tager: 
+− 
+medicin, der kan øge risikoen for blødning, såsom: * blodfortyndende medicin, der tages gennem munden for at nedsætte dannelse af blodpropper * en type smertestillende medicin (nonsteroide antiinflammatoriske lægemidler, NSAID’er), 
+som normalt gives til behandling af smertefulde og/eller betændelseslignende tilstande i 
+muskler eller led * heparin eller anden medicin til indsprøjtning for at nedsætte dannelse af blodpropper * ticlopidin, eller anden medicin mod blodpropper  * selektive serotoningenoptagelseshæmmere (inklusive, men ikke begrænset til fluoxetin og 
+fluvoxamin), der normalt anvendes mod depression * rifampicin (anvendes til behandling af svære infektioner) 
+− 
+omeprazol eller esomeprazol til behandling af for meget mavesyre 
+− 
+fluconazol eller voriconazol, der anvendes til behandling af svampeinfektioner 
+− 
+   efavirenz, eller andre antiretrovirale lægemidler (anvendt til behandling af hiv-infektion)<br />
+− 
+carbamazepin, der anvendes mod bestemte former for epilepsi 
+− 
+moclobemid, medicin mod depression 
+− 
+repaglinid, medicin til behandling af diabetes 
+− 
+paclitaxel, medicin til behandling af kræft 
+− 
+opioider: mens du er i behandling med clopidogrel, bør du fortælle det til lægen, før du får 
+ordineret enhver form for behandling med opioider (anvendes til behandling af svære smerter). 
+−       rosuvastatin (anvendes til at sænke kolesterolniveauet). </p>
+<p>Hvis du har haft alvorlige smerter i brystet (hjertekrampe (ustabil angina pectoris) eller hjerteanfald), 
+en forbigående blodprop eller et lille iskæmisk slagtilfælde, kan din læge ordinere Grepid i 
+kombination med acetylsalicylsyre, som er et stof, der indgår i mange typer medicin til smertelindring 
+og febersænkning. Lejlighedsvis brug af acetylsalicylsyre (højst 1000 mg i løbet af et døgn) skulle 
+generelt ikke give problemer. Under andre omstændigheder skal langvarig brug overvejes i samråd 
+med din læge. </p>
+<p>Brug af Grepid sammen med mad og drikke 
+Grepid kan tages med eller uden mad. </p>
+<p>Graviditet og amning<br />
+Det er bedst ikke at tage denne medicin under graviditet og amning. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.<br />
+Hvis du bliver gravid, mens du tager Grepid, skal du omgående kontakte din læge, da det frarådes at 
+tage Grepid under graviditet. </p>
+<p>Du må ikke amme, når du tager denne medicin.<br />
+Hvis du ammer eller planlægger at amme, skal du tale med din læge, før du tager denne medicin.   </p>
+<p>Spørg din læge eller apoteket til råds, inden du tager nogen form for medicin. </p>
+<p>Trafik og arbejdssikkerhed 
+Det er usandsynligt, at Grepid vil påvirke din evne til at køre eller betjene maskiner. </p>
+<p>Grepid indeholder lactose 
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>Grepid indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take grepid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take grepid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisninger. Er du i tvivl, så 
+spørg lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis, herunder også til patienter med ”atrieflimmer” (uregelmæssig hjerterytme), er 1 
+Grepid -tablet på 75 mg dagligt på samme tidspunkt hver dag. Tabletten indtages gennem munden 
+med eller uden mad. </p>
+<p>Hvis du har haft alvorlige brystsmerter (ustabil angina pectoris eller hjertetilfælde), vil din læge måske 
+indlede behandlingen med at give dig 300 mg eller 600 mg Grepid på en gang (4 eller 8 tabletter på mg). Derefter er den anbefalede dosis 1 Grepid-tablet på 75 mg dagligt som beskrevet ovenfor. </p>
+<p>Hvis du har haft symptomer på et slagtilfælde, der forsvinder i løbet af kort tid (kaldes også en 
+forbigående blodprop), eller et lille iskæmisk slagtilfælde, vil lægen måske indlede behandlingen med 
+at give dig 300 mg Grepid på en gang (4 tabletter på 75 mg). Derefter er den anbefalede dosis 1 
+Grepid-tablet på 75 mg dagligt, som beskrevet ovenfor, sammen med acetylsalicylsyre i 3 uger. 
+Derefter vil lægen ordinere enten kun Grepid eller kun acetylsalicylsyre. </p>
+<p>Du skal fortsætte med at tage Grepid, så længe din læge udskriver det til dig. </p>
+<p>Hvis du har taget for meget Grepid: 
+Kontakt lægen, skadestuen eller apoteket, hvis du har taget mere af Grepid end der står i denne 
+information eller mere end lægen har foreskrevet, og du føler dig utilpas. </p>
+<p>Hvis du har glemt at tage Grepid: 
+Hvis du glemmer at tage en dosis Grepid til sædvanlig tid, men kommer i tanke om det i løbet af timer, skal du omgående tage tabletten og dernæst tage den næste tablet til sædvanlig tid. </p>
+<p>Hvis du glemmer at tage en tablet i over 12 timer, skal du blot tage den næste enkeltdosis til sædvanlig 
+tid. Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+<p>Hvis du holder op med at tage Grepid: 
+Du må ikke ophøre med behandlingen, medmindre din læge fortæller dig, at du skal gøre 
+det.Kontakt din læge eller på apoteket, før du holder op. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Kontakt din læge med det samme, hvis du oplever:</p>
+<ul>
+<li>fald i visse blodlegemer: feber, tegn på infektion eller alvorlig kraftesløshed (asteni).  </li>
+<li>leverproblemer: gulfarvning af huden og/eller øjnene (gulsot), uanset om det sker i forbindelse 
+med blødninger, som viser sig under huden som små røde prikker og/eller forvirring (se afsnit 
+2 ’Advarsler og forsigtighedsregler’) </li>
+<li>allergiske reaktioner: hævelser i munden eller hudproblemer såsom udslæt og kløe, blærer på 
+huden.  </li>
+</ul>
+<p>Den almindeligste bivirkning, der er set med Grepid, er blødning, 
+Blødning kan forekomme i form af blødninger fra mave eller tarm, blå mærker, hæmatom (usædvanlig 
+blødning eller blodudtrædning i underhuden), næseblod, blod i urinen, i nogle enkelte tilfælde er der 
+indberettet blødning i øjne, hoved, lunger eller led.  </p>
+<p>Hvis du får langvarige blødninger, mens du tager Grepid 
+Hvis du skærer dig eller kommer til skade, kan det tage lidt længere end normalt, før blødningen 
+stopper. Dette skyldes medicinens virkemåde, da den forhindrer blodet i at størkne. Ved mindre sår og 
+skader, som hvis du f.eks. skærer dig under barbering, er dette som regel ikke noget problem. Hvis du 
+er bekymret over din blødning, skal du omgående kontakte din læge (se afsnit 2 ’Advarsler og 
+forsigtighedsregler). </p>
+<p>Øvrige bivirkninger omfatter: 
+Almindelige bivirkninger (kan påvirke op til 1 ud af 10 patienter):<br />
+diarré, mavesmerter, fordøjelsesbesvær eller halsbrand </p>
+<p>Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 patienter):<br />
+hovedpine, mavesår, opkastninger, kvalme, forstoppelse, luft i maven eller tarmene, udslæt, kløe, 
+svimmelhed, prikkende fornemmelse og følelsesløshed.  </p>
+<p>Sjældne bivirkninger (kan påvirke op til 1 ud af 1.000 patienter):<br />
+svimmelhed (fornemmelse af at snurre rundt), forstørrede bryster hos mænd. </p>
+<p>Meget sjældne bivirkninger (kan påvirke op til 1 ud af 10.000 patienter):<br />
+Gulsot; alvorlige mavesmerter med eller uden rygsmerter; feber, åndedrætsbesvær ind imellem<br />
+ledsaget af hoste; generelle allergiske reaktioner (f.eks. varmefølelse over hele kroppen med pludselig 
+almen utilpashed og eventuel besvimelse); hævelse i munden; blærer på huden; allergi på huden; 
+ømhed i munden (stomatitis); blodtryksfald; forvirring; hallucinationer; ledsmerter; muskelsmerter; 
+smagsforstyrrelser eller mangel på smagssans. </p>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra eksisterende oplysninger): 
+Overfølsomhedsreaktioner med bryst- eller mavesmerter, vedvarende symptomer på lavt blodsukker. </p>
+<p>I øvrigt kan din læge eventuelt finde ændringer i resultaterne af dine blod- eller urinprøver. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store grepid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store grepid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og pakningen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Skal det opbevares ved temperaturer under 25 ºC.  </p>
+<p>Der kræves ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker synlige tegn på nedbrydning. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Grepid indeholder:  </p>
+<p>Det aktive stof er clopidogrel. Hver tablet indeholder 75 mg clopidogrel (besilat). </p>
+<p>De øvrige indholdsstoffer er (se afsnit 2 ’Grepid indeholder lactose’): 
+Tabletkerne: mikrokrystallinsk cellulose, hydroxypropylcellulose (E463), mannitol (E421), 
+crospovidone, (type A), citronsyremonohydrat, macrogol 6000, stearinsyre, 
+natriumstearylfumarat 
+Tabletovertræk: hypromellose (E464), rød jernoxid (E172), lactose monohydrat, triacetin 
+(E1518), titandioxid (E171) </p>
+<p>Udseende og pakningsstørrelse </p>
+<p>Grepid filmovertrukne tabletter er lyserøde, runde og bikonvekse.<br />
+De udleveres i blisterpakninger af PVC/PE/PVDC/aluminumblister, der indeholder 10, 14, 28, 30, 50, 
+84, 90 og 100 filmovertrukne tabletter.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Pharmathen S.A., 
+6 Dervenakion 
+15351 Pallini Attiki 
+Grækenland </p>
+<p>Fremstiller: 
+Pharmathen S.A., 
+6 Dervenakion 
+15351 Pallini Attiki 
+Grækenland </p>
+<p>Eller </p>
+<p>Pharmathen International S.A 
+Industrial Park Sapes,<br />
+Rodopi Prefecture, Block No 5,<br />
+Rodopi 69300,<br />
+Grækenland </p>
+<p>Eller </p>
+<p>Orifarm Generics A/S 
+Energivej 5260 Odense S,<br />
+Danmark </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Pharmathen S.A. 
+Tél/Tel: +30 210 66 04<br />
+Lietuva 
+SIA ELVIM 
+Tel: +371 67808 </p>
+<p>България<br />
+Pharmathen S.A. 
+Teл.: +30 210 66 04<br />
+Luxembourg/Luxemburg 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Česká republika 
+Pharmathen S.A. 
+Puh/Tel: +30 210 66 04 Magyarország<br />
+Pharmathen S.A. 
+Tel.: +30 210 66 04<br />
+Danmark 
+Orifarm Generics A/S 
+Tlf: +45 63 95 27<br />
+Malta 
+Pharmathen S.A. 
+Tel: +30 210 66 04 Deutschland 
+Pharmathen S.A.<br />
+Tel: +30 210 66 04<br />
+Nederland 
+Glenmark Pharmaceuticals B.V. 
+Tel: +31 (0)8003355 
+Eesti (Estonia) 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Norge 
+Orifarm Generics AS 
+Tlf: + 47 21 69 69 Ελλάδα 
+INNOVIS PHARMA ΑΕΒΕ 
+Τηλ: +30 210 6664805- Österreich<br />
+Pharmathen S.A. 
+Tel: +30 210 66 04 España 
+Pharmathen S.A. 
+Tel: +30 210 66 04 Polska 
+Symphar Sp. z o.o. 
+Tel.: +48 22 822 93 France 
+Pharmathen S.A. 
+Tél: +30 210 66 04 Portugal 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Hrvatska 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+România 
+Neola Pharma SRL                                                        <br />
+Tel: +40-(0)21-233 17<br />
+Ireland 
+Pinewood Healthcare 
+Tel: + 353 52 6186 
+Slovenija 
+Pharmathen S.A. 
+Tel: +30 210 66 04 Ísland 
+Alvogen ehf. 
+Sími: +354 522 2 
+Slovenská republika<br />
+Valeant Slovakia s.r.o.<br />
+Tel: + 421 2 6920 3 
+Italia 
+Pharmathen S.A. 
+Tel: +30 210 66 04<br />
+Suomi/Finland 
+Ailon Pharma Oy<br />
+Puh/Tel: +358 40 702 4Κύπρος 
+The Star Medicines Importers Co. Ltd<br />
+Τηλ: +357 25371Sverige<br />
+Orifarm Generics AB 
+Tel: +46 40 680 02 Latvija<br />
+SIA ELVIM 
+Tel: +371 67808United Kingdom (Northern Ireland) 
+Athlone Pharmaceuticals 
+Tel: +44 (0) 845 4375 </p>
+<p>Denne indlægsseddel blev senest ændret <em>måned ÅÅÅÅ</em> </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs<br />
+hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-744dd2d849c3e92fc852e3f500b2711e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for grepid Package Leaflet for language en"
+Description: "ePI document Bundle for grepid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-744dd2d849c3e92fc852e3f500b2711e"
+* entry[0].resource = composition-en-744dd2d849c3e92fc852e3f500b2711e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp744dd2d849c3e92fc852e3f500b2711e"
+* entry[=].resource = mp744dd2d849c3e92fc852e3f500b2711e
+                            
+                    
+Instance: bundlepackageleaflet-da-744dd2d849c3e92fc852e3f500b2711e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for grepid Package Leaflet for language da"
+Description: "ePI document Bundle for grepid Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-744dd2d849c3e92fc852e3f500b2711e"
+* entry[0].resource = composition-da-744dd2d849c3e92fc852e3f500b2711e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp744dd2d849c3e92fc852e3f500b2711e"
+* entry[=].resource = mp744dd2d849c3e92fc852e3f500b2711e
+                            
+                    
+
+
+
+Instance: mp744dd2d849c3e92fc852e3f500b2711e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Grepid 75 mg film-coated tablets"
-Description: "Grepid 75 mg film-coated tablets"
+Title: "Medicinal Product grepid"
+Description: "grepid"
 Usage: #inline
 
  
@@ -418,7 +931,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Grepid 75 mg film-coated tablets"
+  * productName = "grepid"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -445,29 +958,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-744dd2d849c3e92fc852e3f500b2711e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for grepid Package Leaflet for language en"
-Description: "ePI document Bundle for grepid Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 744dd2d849c3e92fc852e3f500b2711eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/535/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "grepid"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-744dd2d849c3e92fc852e3f500b2711e"
-* entry[0].resource = composition-en-744dd2d849c3e92fc852e3f500b2711e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp625f1a5ae11d8c7c8368ae9181192295"
-* entry[=].resource = mp625f1a5ae11d8c7c8368ae9181192295
-                            
-                      
+* title = "List of all ePIs associated with grepid"
+
+* subject = Reference(mp625f1a5ae11d8c7c8368ae9181192295)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#grepid "grepid"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-744dd2d849c3e92fc852e3f500b2711e) // grepid en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-744dd2d849c3e92fc852e3f500b2711e) // grepid da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-744dd2d849c3e92fc852e3f500b2711e
+InstanceOf: List
+
+* insert 744dd2d849c3e92fc852e3f500b2711eListRuleset
+    

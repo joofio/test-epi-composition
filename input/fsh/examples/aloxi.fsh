@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e32583165e64f7b46ac4a8e9d8029de8
 InstanceOf: CompositionUvEpi
 Title: "Composition for aloxi Package Leaflet"
@@ -255,12 +258,332 @@ Ireland. </p>
 
 
 
+Instance: composition-da-e32583165e64f7b46ac4a8e9d8029de8
+InstanceOf: CompositionUvEpi
+Title: "Composition for aloxi Package Leaflet"
+Description:  "Composition for aloxi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8c6dee4c1c691616095410343bc90da7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8c6dee4c1c691616095410343bc90da7
+* title = "TEST PURPOSES ONLY - aloxi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Aloxi 
+3. Sådan skal De tage Aloxi 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What aloxi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What aloxi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aloxi indeholder det aktive stof palonosetron. Det hører til en gruppe af lægemidler, der kaldes 
+”serotonin (5HT3)- antagonister”. </p>
+<p>Aloxi anvendes til voksne som en hjælp til at stoppe Deres kvalme eller opkastning, når De får 
+kræftbehandlinger, som kaldes kemoterapi. </p>
+<p>Det virker ved at blokere virkningen af et kemisk stof, der kaldes serotonin, som kan give kvalme eller 
+medføre opkastning. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take aloxi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take aloxi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Aloxi, hvis: </p>
+<ul>
+<li>De er allergisk over for palonosetron eller et af de øvrige indholdsstoffer i Aloxi (angivet i 
+punkt 6). 
+De må ikke tage Aloxi, hvis noget af det ovenstående gælder for Dem. Kontakt lægen eller 
+apotekspersonalet, før De tager dette lægemiddel, hvis De er i tvivl. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De bruger Aloxi, hvis: </p>
+<ul>
+<li>
+<p>De har en blokeret tarm eller tidligere har haft gentagne tilfælde med forstoppelse </p>
+</li>
+<li>
+<p>De har haft hjerteproblemer, eller hvis der er tendens til hjerteproblemer i Deres familie, såsom 
+ændringer af Deres hjerteslag (”QT-forlængelse”) </p>
+</li>
+<li>
+<p>De har en ubalance af visse mineraler i blodet, som ikke er blevet behandlet, såsom kalium og 
+magnesium. </p>
+</li>
+</ul>
+<p>Børn 
+Dette lægemiddel må ikke gives til børn. </p>
+<p>Brug af anden medicin sammen med Aloxi 
+Fortæl altid lægen eller apotekspersonalet, hvis De tager anden medicin eller har gjort det for nylig. De 
+skal især fortælle dem det, hvis De tager de følgende lægemidler: </p>
+<p>Lægemidler mod depression eller angst 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De tager lægemidler mod depression eller 
+angst, herunder: 
+• lægemidler, der kaldes SSRI’er (”selektive serotoningenoptagshæmmere”), såsom fluoxetin, 
+paroxetin, sertralin, fluvoxamin, citalopram, escitalopram 
+• lægemidler, der kaldes SNRI’er (”serotonin-noradrenalingenoptagshæmmere”), såsom 
+venlafaxin, duloxetin (kan føre til udvikling af serotoninsyndrom og bør anvendes med 
+forsigtighed). </p>
+<p>Kontakt lægen eller apotekspersonalet, før De tager Aloxi, hvis noget af det ovenstående gælder for 
+Dem (eller De er i tvivl). </p>
+<p>Lægemidler, der kan påvirke Deres hjerteslag 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De tager lægemidler, der påvirker hjerteslaget. 
+Dette skyldes, at disse lægemidler kan medføre problemer med hjerteslaget, når de tages sammen 
+med Aloxi. De omfatter: 
+• lægemidler mod hjerteproblemer, såsom amiodaron, nicardipin, quinidin 
+• lægemidler mod infektioner, såsom moxifloxacin, erythromycin 
+• lægemidler mod alvorlige psykiske problemer, såsom haloperidol, chlorpromazin, quetiapin, 
+thioridazin 
+• et lægemiddel mod kvalme eller opkastning kaldet domperidon. </p>
+<p>Kontakt lægen eller apotekspersonalet, før De tager Aloxi, hvis noget af det ovenstående gælder for 
+Dem (eller De er i tvivl). Dette skyldes, at disse lægemidler kan medføre problemer med hjerteslaget, 
+når de tages sammen med Aloxi. </p>
+<p>Graviditet 
+Hvis De er gravid eller har mistanke om, at De er gravid, vil Deres læge ikke behandle Dem med 
+Aloxi, medmindre det er strengt nødvendigt. Dette skyldes, at vi ikke ved, om Aloxi kan skade barnet. </p>
+<p>Spørg Deres læge eller apotekspersonalet til råds, før De bruger dette lægemiddel, hvis De er gravid 
+eller har mistanke om, at De er gravid. </p>
+<p>Amning 
+Det er ukendt, om Aloxi udskilles i mælk. 
+Spørg Deres læge eller apotekspersonalet til råds, før De bruger dette lægemiddel, hvis De ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+De kan føle Dem svimmel eller træt, efter De har taget dette lægemiddel. Hvis dette sker, må De ikke 
+føre motorkøretøj eller betjene værktøj eller maskiner. </p>
+<p>Aloxi indeholder sorbitol og kan indeholde spor af soja 
+Dette lægemiddel indeholder 7 mg sorbitol (en form for sukker) i hver kapsel. Kontakt lægen, før De 
+tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse sukkerarter. </p>
+<p>Aloxi kan indeholde spor af lecithin, som udvindes af soja. De må ikke tage Aloxi, hvis De er 
+overfølsom over for jordnødder eller soja. De skal konsultere Deres læge med det samme, hvis De 
+bemærker et eller flere tegn på allergisk reaktion. Tegnene kan bestå i hævelse af læber, ansigt, tunge 
+eller svælg, vejrtrækningsbesvær eller kollaps, og De kan også bemærke et kløende, ujævnt udslæt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take aloxi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take aloxi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Aloxi nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg lægen 
+eller på apoteket. </p>
+<ul>
+<li>
+<p>Den anbefalede dosis er én kapsel (500 mikrogram). </p>
+</li>
+<li>
+<p>De skal normalt tage kapslen ca. 60 minutter før starten af Deres kemoterapi, </p>
+</li>
+<li>
+<p>Dette lægemiddel kan tages med eller uden mad. </p>
+</li>
+</ul>
+<p>De bør ikke tage Aloxi i dagene efter kemoterapi, medmindre De skal have endnu et kemoterapi-
+forløb. </p>
+<p>Hvis De har taget for meget Aloxi 
+Hvis De mener, De har taget for meget, skal De straks fortælle det til lægen. </p>
+<p>Hvis De har glemt at tage Aloxi 
+Det er ikke sandsynligt, at De glemmer at tage dette lægemiddel. Hvis De mener, De har glemt at tage 
+Deres dosis, skal De fortælle det til lægen med det samme. </p>
+<p>Hvis De holder op med at tage Aloxi 
+De må ikke holde op med at tage dette lægemiddel uden at tale med lægen. Hvis De beslutter Dem for 
+ikke at tage Aloxi (eller andre lignende lægemidler), er det sandsynligt, at Deres kemoterapi vil give 
+Dem kvalme eller medføre opkastning. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
+De følgende bivirkninger kan opstå med dette lægemiddel: </p>
+<p>Alvorlige bivirkninger 
+Fortæl det straks til lægen, hvis De bemærker en eller flere af de følgende alvorlige bivirkninger: </p>
+<ul>
+<li>Allergisk reaktion – tegnene kan omfatte hævelse af læber, ansigt, tunge eller hals, 
+vejrtrækningsbesvær eller kollaps, kløende, ujævnt udslæt (nældefeber). Dette er meget sjældent: 
+kan forekomme hos op til 1 ud af 10.000 personer. 
+Fortæl det straks til lægen, hvis De bemærker en eller flere af de alvorlige bivirkninger anført overfor. </li>
+</ul>
+<p>Andre bivirkninger 
+Fortæl det til lægen, hvis De bemærker en eller flere af de følgende bivirkninger: 
+Almindelige: kan forekomme hos op til 1 ud af 10 personer 
+• Hovedpine. </p>
+<p>Ikke almindelige: kan forekomme hos op til 1 ud af 100 personer 
+• Søvnbesvær 
+• Stakåndethed 
+• Hævelser ved øjnene 
+• Unormale elektriske impulser i hjertet 
+• Forstoppelse 
+• Kvalme 
+• Høje niveauer af pigmentet bilirubin (tegn på leverproblemer) i blodet 
+• Muskelsmerter. 
+Fortæl det til lægen, hvis De bemærker en eller flere af bivirkningerne anført ovenfor. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store aloxi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store aloxi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og pakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aloxi indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: palonosetron. Hver kapsel indeholder 500 mikrogram palonosetron (som 
+hydrochlorid). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: glycerolmonocaprylocaproat (type I), polyglycerololeat, glycerol, renset 
+vand, butylhydroxyanisol, gelatine, sorbitol, titandioxid. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Aloxi 500 mikrogram bløde kapsler er ikke prægede, lys beige, uigennemsigtige, runde til ovale, bløde 
+kapsler fyldt med en klar gullig opløsning. De leveres i polyamid/aluminium/PVC-blisterpakninger 
+med én eller fem kapsler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller: </p>
+<p>Helsinn Birex Pharmaceuticals Ltd. 
+Damastown 
+Mulhuddart 
+Dublin Irland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>De kan finde yderligere oplysninger om Aloxi på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e32583165e64f7b46ac4a8e9d8029de8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aloxi Package Leaflet for language en"
+Description: "ePI document Bundle for aloxi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e32583165e64f7b46ac4a8e9d8029de8"
+* entry[0].resource = composition-en-e32583165e64f7b46ac4a8e9d8029de8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe32583165e64f7b46ac4a8e9d8029de8"
+* entry[=].resource = mpe32583165e64f7b46ac4a8e9d8029de8
+                            
+                    
+Instance: bundlepackageleaflet-da-e32583165e64f7b46ac4a8e9d8029de8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aloxi Package Leaflet for language da"
+Description: "ePI document Bundle for aloxi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e32583165e64f7b46ac4a8e9d8029de8"
+* entry[0].resource = composition-da-e32583165e64f7b46ac4a8e9d8029de8
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe32583165e64f7b46ac4a8e9d8029de8"
+* entry[=].resource = mpe32583165e64f7b46ac4a8e9d8029de8
+                            
+                    
+
+
+
+Instance: mpe32583165e64f7b46ac4a8e9d8029de8
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Aloxi 250 micrograms solution for injection."
-Description: "Aloxi 250 micrograms solution for injection."
+Title: "Medicinal Product aloxi"
+Description: "aloxi"
 Usage: #inline
 
  
@@ -280,7 +603,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Aloxi 250 micrograms solution for injection."
+  * productName = "aloxi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -307,29 +630,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e32583165e64f7b46ac4a8e9d8029de8
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for aloxi Package Leaflet for language en"
-Description: "ePI document Bundle for aloxi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e32583165e64f7b46ac4a8e9d8029de8ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/04/306/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "aloxi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e32583165e64f7b46ac4a8e9d8029de8"
-* entry[0].resource = composition-en-e32583165e64f7b46ac4a8e9d8029de8
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8c6dee4c1c691616095410343bc90da7"
-* entry[=].resource = mp8c6dee4c1c691616095410343bc90da7
-                            
-                      
+* title = "List of all ePIs associated with aloxi"
+
+* subject = Reference(mp8c6dee4c1c691616095410343bc90da7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#aloxi "aloxi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e32583165e64f7b46ac4a8e9d8029de8) // aloxi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e32583165e64f7b46ac4a8e9d8029de8) // aloxi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e32583165e64f7b46ac4a8e9d8029de8
+InstanceOf: List
+
+* insert e32583165e64f7b46ac4a8e9d8029de8ListRuleset
+    

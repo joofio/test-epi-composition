@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a3cd214d19f3341c3aa081ac17f909d1
 InstanceOf: CompositionUvEpi
 Title: "Composition for sutent Package Leaflet"
@@ -524,12 +527,701 @@ http://www.ema.europa.eu.  </p>         </div>"""
 
 
 
+Instance: composition-da-a3cd214d19f3341c3aa081ac17f909d1
+InstanceOf: CompositionUvEpi
+Title: "Composition for sutent Package Leaflet"
+Description:  "Composition for sutent Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpeb4bb8ce06db6a92bc85756f61e9bd8a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpeb4bb8ce06db6a92bc85756f61e9bd8a
+* title = "TEST PURPOSES ONLY - sutent"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Sutent
+3. Sådan skal du tage Sutent
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sutent is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sutent is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sutent indeholder det aktive stof sunitinib, som er en proteinkinasehæmmer. Sutent  bruges til 
+behandling af kræft ved at forebygge aktiviteten af en særlig gruppe af proteiner, som er kendt for at 
+være involveret i væksten og spredningen af kræftcellerne.
+Sutent bruges til behandling af voksne med følgende typer af kræft:
+-
+Bindevævssvulst i mave-tarmkanalen (GIST), hvor imatinib (et andet lægemiddel mod kræft) ikke 
+virker, eller hvor imatinib ikke kan bruges.
+-
+Svulster i nyrecellerne, hvor kræften har spredt sig til andre dele af kroppen (mRCC).
+-
+Svulster i bugspytkirtlen (i de hormonproducerende celler) (pNET), som er fremadskreden eller 
+ikke kan opereres
+Tal med din læge, hvis du har spørgsmål om, hvordan Sutent virker, eller hvorfor dette lægemiddel er 
+ordineret til dig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sutent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sutent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Sutent
+Hvis du er allergisk over for sunitinib eller et af de øvrige indholdsstoffer (angivet i punkt 6).
+61
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du tager Sutent:
+-
+Hvis du har for højt blodtryk. Sutent kan få blodtrykket til at stige. Lægen vil måle blodtrykket 
+under behandlingen med Sutent, og hvis det er nødvendigt, bliver du behandlet med lægemidler
+for at sænke blodtrykket.
+-
+Hvis du har eller har haft sygdomme i blodet, blødningstendens eller tendens til blå mærker. 
+Under behandlingen med Sutent kan du risikere at have større tendens til blødning eller ændringer 
+i blodet, som kan medføre blodmangel eller påvirke blodets evne til at størkne. Hvis du tager 
+blodfortyndende lægemidler som warfarin eller coumarin, har du en større risiko for blødninger. 
+Fortæl det til lægen, hvis der opstår blødninger under behandlingen med Sutent.
+-
+Hvis du har hjerteproblemer. Sutent kan give hjerteproblemer. Fortæl det til lægen, hvis du føler 
+dig meget træt, har vejtrækningsbesvær (stakåndethed) eller hævede ankler eller fødder.
+-
+Hvis du har forstyrrelser i hjerterytmen. Sutent kan give forstyrrelser i hjerterytmen. Lægen vil
+muligvis tage et elektrokadiogram, for at undersøge hjertet for disse forstyrrelser under 
+behandlingen med Sutent. Fortæl det til lægen, hvis du føler dig svimmel, eller besvimer eller 
+mærker unormale hjerteslag, mens du tager Sutent.
+-
+Hvis du for nylig har haft problemer med blodpropper, inklusive slagtilfælde og 
+hjertetilfælde. Ring straks til lægen, ved symptomer som smerter eller trykken i brystet, smerter i 
+armene, ryggen, nakken eller kæben, åndenød, følelsesløshed eller svaghed i den ene side af 
+kroppen, problemer med at gå, hovedpine eller svimmelhed, mens du bliver behandlet med Sutent.
+-
+Hvis du har eller har haft et aneurisme (udvidelse ogsvækkelse af en blodårevæg) eller en 
+rift i en blodårevæg.
+-
+Hvis du har eller har haft trombotisk mikroangiopati (TMA), en sygdom hvor der er 
+beskadigelse på de mindste blodkar. Fortæl det til din læge, hvis du får feber, oplever 
+udmattethed, træthed eller forvirring, får blå mærker eller blødning, hævelser, synstab eller 
+kramper.
+-
+Hvis du har problemer med stofskiftet. Sutent kan give problemer med skjoldbruskkirtlen. 
+Fortæl det til lægen, hvis du hurtigt bliver træt, føler dig kuldskær eller hvis din stemme bliver 
+dybere, mens du tager Sutent. Dit stofskifte skal måles, inden du begynder at tage Sutent og 
+regelmæssigt under behandlingen. Hvis skjoldbruskkirtlen ikke producerer nok hormon, kan du 
+blive behandlet med skjoldbruskkirtelhormon-erstatning.
+-
+Hvis du har eller har haft problemer med bugspytkirtlen eller galdeblæren. Fortæl det til 
+lægen, hvis du får nogle af de følgende symptomer: smerter i den øverste del af maven, kvalme, 
+opkastning og feber. Dette kan skyldes betændelse i bugspytkirtlen eller galdeblæren.
+-
+Hvis du har eller har haft problemer med leveren. Fortæl det til lægen, hvis du får nogle af de 
+følgende symptomer på leverproblemer under behandlingen med Sutent: kløe, gulfarvning af øjne 
+eller hud, mørk urin, eller smerter og ubehag i den øvre højre side af maven. Lægen vil tage 
+blodprøver før og under behandlingen med Sutent, og hvis det ellers er nødvendigt.
+-
+Hvis du har eller har haft problemer med nyrerne. Lægen vil måle nyrefunktionen.
+-
+Hvis du skal opereres eller er blevet det for nylig. Sutent kan påvirke sårhelingen. Normalt 
+bliver behandlingen med Sutent stoppet, hvis du skal opereres. Lægen beslutter, hvornår du kan 
+starte med Sutent-behandlingen igen.
+62
+-
+Du vil muligvis blive anbefalet at få foretaget et tandeftersyn, før du begynder behandlingen 
+med Sutent: 
+-
+Hvis du har eller har haft smerter i munden, tænderne og/eller kæben, hævelse eller sår inde 
+i munden, følelsesløshed eller tyngdefornemmelse i kæben, eller hvis tænderne bliver løse, 
+skal du straks fortælle det til deres læge og tandlæge.
+-
+Hvis du skal have foretaget tandudtrækninger eller kirurgisk tandbehandling, skal du 
+fortælle tandlægen, at du bliver behandlet med Sutent, især hvis du også bliver eller er 
+blevet behandlet med indsprøjtninger med bisfosfonater. Bisfosfonater er lægemidler til 
+forebyggelse af knogleskørhed.
+-
+Hvis du har eller har haft hudproblemer. Mens du tager dette lægemiddel, kan du få 
+smertefulde sår på huden (gangrænøs pyoderma) eller nekrotiserende fasciitis (en infektion, der 
+hurtigt spreder sig i huden/vævet, og som kan være livstruende). Du skal omgående kontakte din 
+læge, hvis du får symptomer på infektion omkring en hudskade, herunder feber, smerter, rødme, 
+hævelse eller sivning af pus eller blod.Dette forsvinder sædvanligvis, når behandlingen ophører. 
+Alvorlige hudreaktioner (Stevens-Johnsons syndrom, toksisk epidermal nekrolyse og erythema 
+multiforme) er rapporteret ved anvendelse af sunitinib. Det ses først på kroppen som rødlige 
+pletter eller som runde pletter og ofte med blærer i midten. Udslættet kan udvikle sig til udbredt 
+blæredannelse eller afskalning af huden og kan være livstruende. Hvis du udvikler disse 
+hudsymptomer, skal du straks kontakte en læge.
+-
+Hvis du får eller har haft krampeanfald. Fortæl det så hurtigt som muligt til lægen, hvis du har 
+højt blodtryk, hovedpine eller oplever synstab.
+-
+Hvis du har diabetes (sukkersyge). Dit blodsukkerniveau skal kontrolleres jævnligt, så lægen 
+kan vurdere, om dosis af diabeteslægemidler skal justeres for at nedsætte risikoen for lavt 
+blodsukker. Kontakt din læge omgående, hvis du oplever symptomer på lavt blodsukker (træthed, 
+hjertebanken, øget svedafsondring, øget appetit og tab af bevidsthed).
+Børn og unge
+Sutent anbefales ikke til børn under 18 år.
+Brug af andre lægemidler sammen med Sutent
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. Dette gælder også lægemidler, som ikke 
+er købt på recept.
+Visse lægemidler kan påvirke mængden af Sutent i kroppen. Fortæl det derfor til lægen, hvis du
+bruger lægemidler, som indeholder nogle af følgende aktive stoffer: 
+
+ketoconazol, itraconazol – bruges til behandling af svampeinfektion
+
+erythromycin, clarithromycin, rifampicin – bruges til behandling af infektion
+
+ritonavir – til behandling af hiv
+
+dexamethason – et binyrebarkhormon, som bruges til behandling af flere forskellige tilstande 
+(som fx allergi/vejrtrækningsproblemer og hudsygdomme)
+
+phenytoin, carbamazepin, phenobarbital – bruges til behandling af bl.a. epilepsi og andre 
+forstyrrelser i nervesystemet 
+
+naturlægemiddel, som indeholder perikon (Hypericum perforatum) – bruges til 
+lindring af nervøsitet og nedtrykthed
+Brug af Sutent sammen med mad og drikke
+Sutent bør ikke tages sammen med grapefrugtjuice. 
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager Sutent.
+63
+Hvis du er i den fødedygtige alder, skal du bruge sikker prævention, mens du tager Sutent.
+Fortæl det til din læge, hvis du ammer. Du må ikke amme, når du tager Sutent.
+Trafik- og arbejdssikkerhed
+Sutent kan gøre dig svimmel eller meget træt. Det skal du tage hensyn til, hvis du skal færdes i 
+trafikken eller arbejde med maskiner.
+Sutent indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sutent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sutent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+Lægen vil fastsætte, hvilken dosis du skal have afhængig af den type kræft, du skal behandles for.
+Hvis du skal behandles for:
+
+GIST eller kræft i nyrerne (MRCC), er den sædvanlige dosis 50 mg 1 gang dagligt i 28 dage 
+(4 uger), efterfulgt af en pause på 14 dage (2 uger) (uden lægemidlet). Gives i en 
+behandlingsperiode på 6 uger. 
+
+pNET, er den sædvanlige dosis 37,5 mg 1 gang dagligt uden behandlingspause.
+Lægen vil fastsætte den dosis du har brug for samt, hvornår du skal stoppe behandlingen med Sutent.
+Sutent kan tages med eller uden mad.
+Hvis du har taget for meget Sutent
+Hvis du har taget for mange kapsler, skal du omgående kontakte lægen eller skadestuen. Du kan 
+måske få brug for lægehjælp.
+Hvis du har glemt at tage Sutent
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Du skal straks kontakte din læge, hvis du får nogle af disse alvorlige bivirkninger (se også Det skal du 
+vide før du begynder at tage Sutent):
+Hjerteproblemer. Fortæl det til lægen, hvis du føler dig meget træt, har vejtrækningsbesvær 
+(stakåndethed) eller hævede ankler eller fødder. Dette kan være symptomer på hjerteproblemer som 
+hjertesvigt eller hjertemuskelproblemer (kardiomyopati).
+Lunge- eller vejrtrækningsproblemer. Fortæl det til lægen, hvis du får hoste, smerter i brystet, 
+pludseligt åndedrætsbesvær eller hoster blod op. Det kan være symptomer på blodprop i lungen, som 
+opstår når en blodprop føres til lungen.
+64
+Nyreproblemer. Fortæl det til lægen, hvis dit vandladningsmønster ændrer sig eller vandladningen 
+ophører, det kan være symptomer på nyresvigt.
+Blødninger. Fortæl det til lægen, hvis du får nogle af disse symptomer eller alvorlige blødninger 
+under behandlingen med Sutent: smertende, udspilet mave, kaster blod op, sort, klistret afføring, blod i 
+urinen, hovedpine eller ændret sindstilstand, ophostning af blod eller blodigt opspyt fra lunger eller 
+luftveje.
+Nedbrydning af svulst, som fører til hul i tarmene. Fortæl det til lægen, hvis du har kraftige 
+mavesmerter, feber, kvalme, opkastning, blod i afføringen eller ændrede afføringsvaner
+Andre bivirkninger ved Sutent kan være:
+Meget almindelige: hos flere end 1 ud af 10 personer
+
+Nedsat antal blodplader og røde og hvide blodlegemer.
+
+Åndenød.
+
+Højt blodtryk.
+
+Ekstrem træthed, manglende kræfter.
+
+Hævelse af væv på grund af væske under huden og omkring øjnene, dybtliggende allergisk 
+udslæt.
+
+Mundsmerter/-irritation, mundsår/-betændelse/-tørhed, smagsforstyrrelser, mavebesvær, 
+kvalme, opkastning, diarré, forstoppelse, mavesmerter/udspiling af maven, nedsat appetit.
+
+Nedsat funktion af skjoldbruskkirtlen.
+
+Svimmelhed.
+
+Hovedpine.
+
+Næseblod.
+
+Rygsmerter, ledsmerter.
+
+Smerter i arme og ben.
+
+Gulfarvning af huden/misfarvning af huden, mørkfarvning af huden, ændring af hårfarve, 
+udslæt på håndflader og fodsåler,udslæt, tør hud.
+
+Hoste.
+
+Feber.
+
+Besvær med at falde i søvn.
+Almindelige: forekommer hos optil 1 ud af 10 personer
+
+Blodpropper i blodkarrene. 
+
+Manglende blodtilførsel til hjertemusklen på grund af blokering eller forsnævring af 
+kranspulsårerne. 
+
+Smerter i brystet.
+
+Hjertet pumper mindre blod rundt i kroppen.
+
+Væskeophobning, også omkring lungerne
+
+Infektioner.
+
+Komplikationer i forbindelse med alvorlig infektion (infektion i blodbanen) der kan resultere i
+
+vævsskade, organsvigt og dødsfald.
+
+Nedsat blodsukkerniveau (se afsnit 2).
+
+Tab af protein gennem urinen, hvilket kan føre til hævelser.
+
+Influenzalignende symptomer.
+
+Unormale blodprøveresultater  fx for bugspytkirtel- og leverenzymer.
+
+Forhøjet indhold af urinsyre i blodet.
+
+Hæmorider, smerter i endetarmen, blødende tandkød, synkebesvær.
+
+Brændende eller smertende fornemmelse i tungen, betændelseslignende reaktion i mave-
+tarmkanalens slimhinde, for meget luft i maven eller tarmene.
+
+Vægttab.
+65
+
+Smerter i muskler og knogler, muskelsvaghed, muskeltræthed, muskelsmerter, muskelkramper.
+
+Tørhed i næsen, tilstoppet næse.
+
+Rindende øjne.
+
+Unormal berøringsfølelse i huden,  kløende, skallende og betændt hud, blærer, bumser, 
+misfarvning af negle, hårtab.
+
+Prikkende, snurrende fornemmelser, følelsesløshed eller lammelser eller evt. smerter i hænder 
+og fødder.
+
+Unormal nedsat/øget følsomhed, især ved berøring.
+
+Halsbrand.
+
+Væskemangel (dehydrering). 
+
+Hedeture.
+
+Unormalt farvet urin.
+
+Depression.
+
+Kulderystelser.
+Ikke almindelige: forekommer hos op til 1 ud af 100 personer
+
+Livstruende infektion i bløddele (fx muskler, sener, ledkapsler, fedtvæv eller andet væv) 
+inklusive området omkring endetarmen og skridtet (se afsnit 2).
+
+Slagtilfælde.
+
+Hjerteanfald på grund af afbrudt eller nedsat blodtilførsel til hjertet.
+
+Ændringer i hjertets elektriske aktivitet eller unormal hjerterytme.
+
+Væske omkring hjertet (perikardie-ekssudat).
+
+Leversvigt.
+
+Smerter i maven (mavepine) på grund af betændelse i bugspytkirtlen.
+
+Nedbrydning af svulst, som kan give hul i tarmene (perforation).
+
+Betændelse i galdeblæren med eller uden galdesten.
+
+Unormal, rørformet passage mellem to normale hulrum i kroppen eller huden. 
+
+Smerter i munden, tænderne og/eller kæben, hævelse eller sår inde i munden, følelsesløshed 
+eller tyngdefornemmelse i kæben, løse tænder. Disse symptomer kan være tegn på knogleskade 
+i kæben (osteonekrose) (se afsnit 2). Overproduktion af skjoldbruskkirtlens hormoner, hvilket 
+medfører øget stofskifte i hvile. 
+
+Problemer med sårheling efter operation.
+
+Forhøjet indhold af muskelenzym (kreatinkinase) i blodet.
+
+Voldsom reaktion på allergifremkaldende stoffer, herunder høfeber, hududslæt, kløende hud, 
+nældefeber, hævelser/ødemer og åndedrætsbesvær.
+
+Tarmbetændelse (colitis, iskæmisk colitis).
+Sjældne bivirkninger: forekommer hos op til 1 ud af 1.000 personer
+
+Alvorlige reaktioner i hud og/eller slimhinder (Stevens-Johnsons syndrom, toksisk epidermal 
+nekrolyse og erythema multiforme).
+
+Tumorlysesyndrom, som er forskellige komplikationer, der kan opstå under behandling af kræft. 
+Disse skyldes nedbrydning af døende kræftceller og kan omfatte: kvalme, stakåndethed, 
+uregelmæssige hjerteslag (puls), muskelkramper, krampeanfald, grumset urin, træthed 
+kombineret med unormale blodprøveresultater (høje koncentrationer af kalium-, urinsyre- og 
+fosfat i blodet og lav koncentration af kalcium i blodet). Dette kan føre til ændringer i 
+nyrefunktionen og akut nyresvigt.
+
+Unormal nedbrydning af muskelvæv, som kan give nyreproblemer (rhabdomyolyse).
+
+Forstyrrelser i hjernen, der kan give forskellige symptomer som hovedpine, forvirring, kramper 
+og synstab (reversibel posterior leukoencefalopati syndrom).
+
+Smertefulde sår på huden (gangrænøs pyoderma).
+
+Leverbetændelse (hepatitis).
+
+Betændelse i skjoldbruskkirtlen.
+
+Trombotisk mikroangiopati (TMA), en sygdom hvor der er beskadigelse på de mindste blodkar. 
+66
+Hyppighed ikke kendt (kan ikke estimeres fra forhåndenværende data):
+
+En udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner).
+
+Manglende energi, forvirring, søvnighed, bevidstløshed/koma – disse symptomer kan være tegn 
+på forgiftning af hjernen som følge af et højt indhold af ammonium i blodet 
+(hyperammonæmisk encefalopati).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sutent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sutent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Opbevar lægemidlet utilgængeligt for børn.
+
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken, beholderen og blisterfolien efter 
+"EXP". Udløbsdatoen er den sidste dag i den nævnte måned.
+
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+
+Brug ikke lægemidlet, hvis du opdager at pakningen er ødelagt eller viser tegn på forfalskning.
+Spørg apotekspersonalet hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sutent indeholder:
+Sutent 12,5 mg hårde kapsler
+Aktivt stof: sunitinib. 
+Hver kapsel indeholder sunitinibmalat svarende til 12,5 mg sunitinib.
+Øvrige indholdsstoffer: 
+Kapselindhold: mannitol (E421), croscarmellosenatrium, povidon (K-25) og magnesiumstearat.
+Kapselskal: gelatine, rød jernoxid (E172) og titandioxid (E171).
+Trykkeblæk: shellac, propylenglycol, natriumhydroxid, povidon og titandioxid (E171).
+Sutent 25 mg hårde kapsler
+Aktivt stof: sunitinib. 
+Hver kapsel indeholder sunitinibmalat svarende til 25 mg sunitinib.
+Øvrige indholdsstoffer: 
+Kapselindhold: mannitol (E421), croscarmellosenatrium, povidon (K-25) og magnesiumstearat.
+Kapselskal: gelatine, titandioxid (E171), gul jernoxid (E172), rød jernoxid (E172), sort 
+jernoxid (E172).
+Trykkeblæk: shellac, propylenglycol, natriumhydroxid, povidon og titandioxid (E171).
+Sutent 37,5 mg hårde kapsler
+Aktivt stof: sunitinib. 
+Hver kapsel indeholder sunitinibmalat svarende til 37,5 mg sunitinib.
+67
+Øvrige indholdsstoffer: 
+Kapselindhold: mannitol (E421), croscarmellosenatrium, povidon (K-25) og magnesiumstearat.
+Kapselskal: gelatine, titandioxid (E171), gul jernoxid (E172).
+Trykkeblæk: shellac, propylenglycol, kaliumhydroxid, sort jernoxid (E172).
+Sutent 50 mg hårde kapsler
+Aktivt stof: sunitinib. 
+Hver kapsel indeholder sunitinibmalat svarende til 50 mg sunitinib.
+Øvrige indholdsstoffer: 
+Kapselindhold: mannitol (E421), croscarmellosenatrium, povidon (K-25) og magnesiumstearat.
+Kapselskal: gelatine, titandioxid (E171), gul jernoxid (E172), rød jernoxid (E172) og sort jernoxid 
+(E172).
+Trykkeblæk: shellac, propylenglycol, natriumhydroxid, povidon og titandioxid (E171).
+Udseende og pakningstørrelser
+Sutent 12,5 mg er hårde gelatinekapsler med orange overdel og orange underdel, der med hvidt blæk 
+er mærket "Pfizer" på overdelen, "STN 12,5 mg" på underdelen, indeholdende et gult til orange 
+granulat. 
+Sutent 25 mg er hårde gelatinekapsler med karamelfarvet overdel og orange underdel, der med hvidt 
+blæk er mærket "Pfizer" på overdelen, "STN 25 mg" på underdelen, indeholdende et gult til orange 
+granulat.
+Sutent 37,5 mg er hårde gelatinekapsler med gul overdel og gul underdel, der med sort blæk er mærket 
+"Pfizer" på overdelen, "STN 37,5 mg" på underdelen, indeholdende et gult til orange granulat.
+Sutent 50 mg er hårde gelatinekapsler med karamelfarvet overdel og karamelfarvet underdel, der med 
+hvidt blæk er mærket "Pfizer" på overdelen, "STN 50 mg" på underdelen, indeholdende et gult til 
+orange granulat.
+Sutent findes i plastikbeholder med 30 kapsler og i en perforeret enkeltdosis-blisterpakning med 
+28 x 1 kapsel.
+Ikke alle styrker og pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Pfizer Italia S.r.l.
+Via del Commercio – Zona Industriale 63100 Marino del Tronto (Ascoli Piceno)
+Italien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien 
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje 
+Tel. +370 52 51 4000
+68
+България
+Пфайзер Люксембург САРЛ, Клон България 
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.<br />
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf.: +45 44 20 11 00
+Nederland
+Pfizer BV
+Tel: +31 (0)10 406 43 01
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τλ: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel.:+421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh./Tel: +358(0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς A.E. (Cyprus Branch)<br />
+Tηλ.:+ 357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+69
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: +371 670 35 775
+Denne indlægsseddel blev senest ændret 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.
+70
+BILAG IV
+VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE
+71
+Videnskabelige konklusioner
+Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for sunitinib er PRAC nået 
+frem til følgende videnskabelige konklusioner:
+I lyset af forhåndenværende data om risikoen for hyperammonæmisk encefalopati fra litteraturen, 
+spontane indberetninger, herunder i visse tilfælde en tæt tidsmæssig sammenhæng, samt en positiv 
+dechallenge og/eller rechallenge, anser PRAC en årsagssammenhæng mellem sunitinib og 
+hyperammonæmisk encefalopati som i det mindste en rimelig mulighed. PRAC konkluderede, at 
+produktinformationen for produkter, der indeholder sunitinib, skal ændres i overensstemmelse hermed.
+Efter at have gennemgået PRAC's anbefaling tilslutter CHMP sig PRAC's overordnede konklusioner 
+og begrundelser for anbefaling.
+Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne
+På baggrund af de videnskabelige konklusioner for sunitinib er CHMP af den opfattelse, at 
+benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder sunitinib, forbliver uændret
+under forudsætning af, at de foreslåede ændringer indføres i produktinformationen.
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a3cd214d19f3341c3aa081ac17f909d1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sutent Package Leaflet for language en"
+Description: "ePI document Bundle for sutent Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a3cd214d19f3341c3aa081ac17f909d1"
+* entry[0].resource = composition-en-a3cd214d19f3341c3aa081ac17f909d1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa3cd214d19f3341c3aa081ac17f909d1"
+* entry[=].resource = mpa3cd214d19f3341c3aa081ac17f909d1
+                            
+                    
+Instance: bundlepackageleaflet-da-a3cd214d19f3341c3aa081ac17f909d1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sutent Package Leaflet for language da"
+Description: "ePI document Bundle for sutent Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a3cd214d19f3341c3aa081ac17f909d1"
+* entry[0].resource = composition-da-a3cd214d19f3341c3aa081ac17f909d1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa3cd214d19f3341c3aa081ac17f909d1"
+* entry[=].resource = mpa3cd214d19f3341c3aa081ac17f909d1
+                            
+                    
+
+
+
+Instance: mpa3cd214d19f3341c3aa081ac17f909d1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Sutent 12.5 mg hard capsules"
-Description: "Sutent 12.5 mg hard capsules"
+Title: "Medicinal Product sutent"
+Description: "sutent"
 Usage: #inline
 
  
@@ -549,7 +1241,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Sutent 12.5 mg hard capsules"
+  * productName = "sutent"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -576,29 +1268,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a3cd214d19f3341c3aa081ac17f909d1
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sutent Package Leaflet for language en"
-Description: "ePI document Bundle for sutent Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a3cd214d19f3341c3aa081ac17f909d1ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Sutent 12.5 mg hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sutent"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a3cd214d19f3341c3aa081ac17f909d1"
-* entry[0].resource = composition-en-a3cd214d19f3341c3aa081ac17f909d1
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpeb4bb8ce06db6a92bc85756f61e9bd8a"
-* entry[=].resource = mpeb4bb8ce06db6a92bc85756f61e9bd8a
-                            
-                      
+* title = "List of all ePIs associated with sutent"
+
+* subject = Reference(mpeb4bb8ce06db6a92bc85756f61e9bd8a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sutent "sutent"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a3cd214d19f3341c3aa081ac17f909d1) // sutent en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a3cd214d19f3341c3aa081ac17f909d1) // sutent da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a3cd214d19f3341c3aa081ac17f909d1
+InstanceOf: List
+
+* insert a3cd214d19f3341c3aa081ac17f909d1ListRuleset
+    

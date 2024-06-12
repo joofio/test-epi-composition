@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c96fdfd81478e739fb65928482a4a6c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for protopic Package Leaflet"
@@ -328,12 +331,504 @@ Tel: +44 (0) 1844 347This leaflet was last revised in. </p>
 
 
 
+Instance: composition-da-c96fdfd81478e739fb65928482a4a6c6
+InstanceOf: CompositionUvEpi
+Title: "Composition for protopic Package Leaflet"
+Description:  "Composition for protopic Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3efc2c9dc22bb0adec1eb248d91d18b8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3efc2c9dc22bb0adec1eb248d91d18b8
+* title = "TEST PURPOSES ONLY - protopic"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Protopic 
+3. Sådan skal du bruge Protopic 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What protopic is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What protopic is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Protopic, tacrolimusmonohydrat, er et immunomodulerende lægemiddel. </p>
+<p>Protopic 0,03% salve benyttes til at behandle moderat til svær atopisk dermatitis (eksem) hos voksne, 
+der ikke responderer tilfredsstillende på eller ikke tåler konventionelle behandlinger såsom topikale 
+kortikosteroider og til børn (2 år og ældre), der ikke har responderet tilfredsstillende på konventionel 
+behandling såsom topikale kortikosteroider.  </p>
+<p>Når moderat til alvorlig atopisk dermatitis er helet eller næsten helet efter op til 6 ugers behandling af 
+et eksemudbrud, og hvis du oplever jævnlige eksemudbrud (dvs. 4 eller flere gange om året), kan det 
+være muligt at forebygge tilbagevenden af eksemudbrud eller at forlænge den tid, du er fri for 
+eksemudbrud ved at bruge Protopic 0,03% salve to gange ugentlig.  </p>
+<p>Ved atopisk dermatitis ses inflammation af huden (kløe, rødme og tørhed) på grund af en overreaktion 
+af hudens immunsystem. Protopic dæmper den unormale hudreaktion og lindrer hudinflammation og 
+kløe. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take protopic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take protopic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Protopic 
+- hvis du er allergisk over for tacrolimus eller et af de øvrige indholdsstoffer i Protopic (angivet i 
+punkt 6) eller over for makrolidantibiotika (f.eks. azithromycin, clarithromycin, erythromycin). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger Protopic: </p>
+<ul>
+<li>
+<p>hvis du har leversvigt. </p>
+</li>
+<li>
+<p>hvis du har ondartede hudsygdomme (tumorer), eller hvis du har et svækket immunsystem 
+(er immunkompromitteret) uanset årsagen. </p>
+</li>
+<li>
+<p>hvis du har en arvelig hudbarrieresygdom såsom Nethertons syndrom, lamelløs iktyose 
+(kraftig afskalning af huden på grund af fortykkelse af det øverste hudlag), hvis du har en 
+inflammatorisk hudsygdomme som f.eks. pyoderma gangrenosum eller hvis du lider af 
+generaliseret erytrodermi (rødme på grund af vævsirritation og afskalning af huden overalt på 
+kroppen). </p>
+</li>
+<li>
+<p>hvis du har hudreaktioner, som skyldes, at transplanteret knoglemarv reagerer mod kroppens 
+egne celler (kutan transplantat mod vært reaktion − en immunreaktion fra huden, som er en 
+hyppig komplikation hos patienter, der er blevet knoglemarvstransplanteret). </p>
+</li>
+<li>
+<p>hvis du har hævede lymfekirtler ved behandlingens start. Hvis du får hævede lymfekirtler 
+under behandlingen med Protopic, skal du tale med lægen. </p>
+</li>
+<li>
+<p>hvis du har betændt, beskadiget hud. Du må ikke smøre salve på betændt, beskadiget hud. </p>
+</li>
+<li>
+<p>hvis du bemærker nogen ændring i din huds udseende. Fortæl lægen det.  </p>
+</li>
+<li>
+<p>Baseret på resultaterne af langtidsstudier og erfaring er der ikke bekræftet nogen forbindelse 
+mellem behandling med Protopic salve og udvikling af maligniteter, men der kan ikke drages 
+endelige konklusioner.  </p>
+</li>
+<li>
+<p>Undgå at udsætte huden for langvarig sollys eller kunstigt sollys som f.eks. solarielys. Hvis du 
+opholder dig udendørs efter at have påsmurt Protopic, brug da et solbeskyttelsesmiddel og tag 
+løst tøj på, der beskytter huden mod solen. Spørg desuden lægen til råds om andre passende 
+solbeskyttelsesmetoder. Hvis du får ordineret lysbehandling, skal du fortælle lægen, at du 
+bruger Protopic, da samtidig brug af Protopic og lysbehandling frarådes. </p>
+</li>
+<li>
+<p>Hvis din læge siger, at du skal bruge Protopic to gange ugentligt for at undgå eksemudbrud, bør 
+lægen vurdere din tilstand mindst hver 12. måned, selv om sygdommen forbliver under kontrol. 
+Hos børn bør vedligeholdelsesbehandling stoppes efter 12 måneder for at afklare, om 
+behandlingen stadig behøves. </p>
+</li>
+<li>
+<p>Det anbefales at bruge Protopic salve med den laveste styrke og den laveste hyppighed i kortest 
+nødvendig tid. Denne beslutning skal være baseret på din læges vurdering af, hvordan dit eksem 
+reagerer på Protopic salve. </p>
+</li>
+</ul>
+<p>Børn </p>
+<ul>
+<li>
+<p>Protopic salve er ikke godkendt til børn under 2 år. Derfor bør den ikke anvendes til denne 
+aldersgruppe. Tal med lægen. </p>
+</li>
+<li>
+<p>Virkningen af behandling med Protopic salve på udviklingen af immunsystemet hos børn, 
+specielt mindre børn, kendes ikke. </p>
+</li>
+</ul>
+<p>Brug af anden medicin og af kosmetik sammen med Protopic 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. </p>
+<p>Du kan bruge fugtighedscreme og lotion under behandlingen med Protopic, men det må ikke bruges 
+2 timer før og efter påsmøring af Protopic salve. </p>
+<p>Brugen af Protopic på samme tid som andre hudmidler, eller mens du tager kortikosteroider (f.eks. 
+kortison) som kapsler eller tabletter, eller lægemidler, der påvirker immunsystemet, er ikke undersøgt. </p>
+<p>Brug af Protopic sammen med alkohol 
+Når man er i behandling med Protopic, kan indtagelse af alkohol medføre pludselig rødmen (flush) og 
+varme i huden. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Protopic indeholder butylhydroxytoluen (E321) 
+Protopic indeholder butylhydroxytoluen (E321), som kan medføre lokale hudreaktioner (f.eks. 
+kontaktdermatitis) eller irritation af øjne og slimhinder. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take protopic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take protopic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<ul>
+<li>
+<p>Påsmør Protopic i et tyndt lag på de angrebne hudområder. </p>
+</li>
+<li>
+<p>Protopic kan anvendes på de fleste steder af kroppen, også i ansigtet og på halsen, og på 
+bøjefurene af albuer og knæ. </p>
+</li>
+<li>
+<p>Undgå at smøre salven i næsen, munden eller i øjnene. Hvis der kommer salve på disse steder, 
+skal den omhyggeligt tørres af og/eller skylles af med vand. </p>
+</li>
+<li>
+<p>Dæk ikke behandlede områder med forbindinger. </p>
+</li>
+<li>
+<p>Vask hænder efter påsmøring af Protopic, medmindre hænderne også skal behandles. </p>
+</li>
+<li>
+<p>Før påsmøring af Protopic salve efter et bad skal du være sikker på, at huden er fuldstændig tør. </p>
+</li>
+</ul>
+<p>Børn (2 år og ældre) 
+Påsmør Protopic 0,03% salve 2 gange om dagen i op til 3 uger, en gang om morgenen og en gang om 
+aftenen. Derefter skal salven benyttes 1 gang om dagen på de angrebne hudområder indtil eksemen er 
+forsvundet. </p>
+<p>Voksne (16 år og ældre) 
+Der findes to styrker Protopic salve (Protopic 0,03% og Protopic 0,1% salve) til brug for voksne 
+patienter (16 år og derover). Lægen vil afgøre, hvilken styrke der er bedst for dig.  </p>
+<p>Sædvanligvis starter man behandlingen med Protopic 0,1% salve 2 gange om dagen, en gang om 
+morgenen og en gang om aftenen, indtil eksemen er forsvundet. Afhængig af, hvordan dit eksem 
+reagerer, vil lægen afgøre om hyppigheden af påsmøringer kan reduceres eller den svagere salve, 
+Protopic 0,03% salve, kan benyttes. </p>
+<p>Alle angrebne hudområder skal behandles indtil eksemen er forsvunden. Man ser sædvanligvis 
+bedring indenfor den første uge. Hvis du ikke ser bedring efter 2 uger skal du tale med lægen om andre 
+mulige behandlinger.  </p>
+<p>Din læge kan fortælle dig, at du skal bruge Protopic salve to gange ugentlig, når dit eksem er helet 
+eller næsten helet (Protopic 0,03% til børn og Protopic 0,1% til voksne). Du skal påsmøre Protopic 
+salve en gang daglig to gange om ugen (f.eks. mandag og torsdag) på de områder af kroppen, som 
+sædvanligvis er angrebet af eksem. Der bør være 2 - 3 dage mellem påsmøringerne af Protopic. Hvis 
+symptomerne vender tilbage, bør du benytte Protopic to gange daglig som anvist ovenfor og aftale tid 
+hos din læge til vurdering af din behandling. </p>
+<p>Hvis du ved et uheld kommer til at indtage noget salve 
+Hvis du ved en fejltagelse er kommet til at indtage salven, skal du hurtigst muligt kontakte din læge 
+eller apotekspersonalet. Du skal ikke forsøge at fremkalde en opkastning. </p>
+<p>Hvis du har glemt at bruge Protopic 
+Hvis du glemmer at påsmøre salven på det fastsatte tidspunkt, påsmør salve straks du kommer i tanke 
+om det, og fortsæt behandlingen som tidligere. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelig (kan påvirke flere end 1 ud af 10 behandlede): </p>
+<ul>
+<li>brændende fornemmelse og kløe  </li>
+</ul>
+<p>Disse symptomer er sædvanligvis lette til moderate og forsvinder almindeligvis efter en uges brug af 
+Protopic.  </p>
+<p>Almindelig (kan påvirke mellem 1 og 10 ud af 100 behandlede): </p>
+<ul>
+<li>
+<p>rødme </p>
+</li>
+<li>
+<p>varmefølelse </p>
+</li>
+<li>
+<p>smerte  </p>
+</li>
+<li>
+<p>øget hudfølsomhed (særlig over for varme og kulde) </p>
+</li>
+<li>
+<p>prikken i huden </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>lokal hudinfektion uanset specifik årsag, herunder men ikke begrænset til: vævsirritation eller 
+betændelse i hårsække, herpesvirus-infektioner (f.eks. forkølelsessår, udbredte herpes simplex-
+infektioner)  </p>
+</li>
+<li>
+<p>ansigtsrødme eller hudirritation efter indtagelse af alkohol  </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan påvirke mellem 1 og 10 ud af 1.000 behandlede): </p>
+<ul>
+<li>akne  </li>
+</ul>
+<p>I forbindelse med behandling to gange ugentligt er infektioner på påsmøringsstedet indberettet for 
+børn og voksne. Børnesår, en overfladisk bakterieinfektion, der sædvanligvis danner blærer eller sår på 
+huden, er indberettet for børn. </p>
+<p>Rosacea (rødme af huden i ansigtet), rosacea-lignende eksem, lentigo (brune pletter på huden), ødem 
+(hævelse) ved applikationsstedet og herpes øjeninfektioner er blevet indberettet, efter præparatet er 
+kommet på markedet. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store protopic"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store protopic"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på tuben og æsken efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. 
+Må ikke opbevares ved temperaturer over 25 °C. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Protopic indeholder:</p>
+<ul>
+<li>Aktivt stof: Tacrolimusmonohydrat. 
+Et gram af Protopic 0,03% salve indeholder 0,3 mg tacrolimus (som tacrolimusmonohydrat). </li>
+<li>Øvrige indholdsstoffer: Hvid vaselin, paraffinolie, propylencarbonat, hvidt voks, paraffin, 
+butylhydroxytoluen (E321) og all-rac-α-tocopherol.  </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Protopic er en hvid, lidt gullig salve. Den findes i tuber med enten 10, 30 eller 60 gram salve. Ikke alle 
+pakningsstørrelser er nødvendigvis markedsført. Protopic findes i to styrker (Protopic 0,03% og 
+Protopic 0,1% salve). </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+LEO Pharma A/S 
+Industriparken 2750 Ballerup 
+Danmark </p>
+<p>Fremstiller<br />
+Astellas Ireland Co. Ltd. 
+Killorglin 
+County Kerry 
+Irland </p>
+<p>LEO Laboratories Ltd. 
+285 Cashel Road 
+Crumlin, Dublin Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+LEO Pharma N.V./S.A 
+Tél/Tel: +32 3 740 7 
+Lietuva 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+България 
+LEO Pharma A/S 
+Teл.: +45 44 94 58<br />
+Luxembourg/Luxemburg 
+LEO Pharma N.V./S.A 
+Tél/Tel: +32 3 740 7 
+Česká republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575 982  </p>
+<p>Magyarország 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Danmark 
+LEO Pharma AB 
+Tlf: +45 70 22 49 11  </p>
+<p>Malta 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Deutschland 
+LEO Pharma GmbH 
+Tel: +49 6102 2 
+Nederland 
+LEO Pharma B.V. <br />
+Tel: +31 205104 
+Eesti<br />
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Norge 
+LEO Pharma AS 
+Tlf: +47 22514 
+Ελλάδα 
+LEO Pharmaceutical Hellas S.A. 
+Τηλ: +30 210 68 34 
+Österreich 
+LEO Pharma GmbH 
+Tel: +43 1 503 6 </p>
+<p>España 
+Laboratorios LEO Pharma, S.A. 
+Tel: +34 93 221 3 
+Polska 
+LEO Pharma Sp. z o.o. 
+Tel: +48 22 244 18<br />
+France 
+Laboratoires LEO 
+Tél: +33 1 3014 40<br />
+Portugal 
+LEO Farmacêuticos Lda.<br />
+Tel: +351 21 711 0 
+Hrvatska 
+LEO Pharma A/S                                                            <br />
+Tel:+45 44 94 58<br />
+România 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Ireland 
+LEO Laboratories Ltd 
+Tel: +353 (0) 1 490 8 
+Slovenija 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575 <br />
+Italia 
+LEO Pharma S.p.A.<br />
+Tel: +39 06 52625 
+Suomi/Finland 
+LEO Pharma Oy 
+Puh./Tel: +358 20 721 8 
+Κύπρος 
+The Star Medicines Importers Co. Ltd. 
+Τηλ: +357 2537 1056  </p>
+<p>Sverige 
+LEO Pharma AB 
+Tel: +46 40 3522 00  </p>
+<p>Latvija 
+LEO Pharma A/S 
+Tel: +45 44 94 58<br />
+United Kingdom (Northern Ireland) 
+LEO Laboratories Ltd 
+Tel: +44 (0) 1844 347 
+Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Protopic 0,1% salve 
+tacrolimusmonohydrat </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret Protopic til dig personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c96fdfd81478e739fb65928482a4a6c6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for protopic Package Leaflet for language en"
+Description: "ePI document Bundle for protopic Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c96fdfd81478e739fb65928482a4a6c6"
+* entry[0].resource = composition-en-c96fdfd81478e739fb65928482a4a6c6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc96fdfd81478e739fb65928482a4a6c6"
+* entry[=].resource = mpc96fdfd81478e739fb65928482a4a6c6
+                            
+                    
+Instance: bundlepackageleaflet-da-c96fdfd81478e739fb65928482a4a6c6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for protopic Package Leaflet for language da"
+Description: "ePI document Bundle for protopic Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c96fdfd81478e739fb65928482a4a6c6"
+* entry[0].resource = composition-da-c96fdfd81478e739fb65928482a4a6c6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc96fdfd81478e739fb65928482a4a6c6"
+* entry[=].resource = mpc96fdfd81478e739fb65928482a4a6c6
+                            
+                    
+
+
+
+Instance: mpc96fdfd81478e739fb65928482a4a6c6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Protopic 0.03% ointment"
-Description: "Protopic 0.03% ointment"
+Title: "Medicinal Product protopic"
+Description: "protopic"
 Usage: #inline
 
  
@@ -353,7 +848,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Protopic 0.03% ointment"
+  * productName = "protopic"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -380,29 +875,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c96fdfd81478e739fb65928482a4a6c6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for protopic Package Leaflet for language en"
-Description: "ePI document Bundle for protopic Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c96fdfd81478e739fb65928482a4a6c6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/02/201/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "protopic"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c96fdfd81478e739fb65928482a4a6c6"
-* entry[0].resource = composition-en-c96fdfd81478e739fb65928482a4a6c6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3efc2c9dc22bb0adec1eb248d91d18b8"
-* entry[=].resource = mp3efc2c9dc22bb0adec1eb248d91d18b8
-                            
-                      
+* title = "List of all ePIs associated with protopic"
+
+* subject = Reference(mp3efc2c9dc22bb0adec1eb248d91d18b8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#protopic "protopic"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c96fdfd81478e739fb65928482a4a6c6) // protopic en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c96fdfd81478e739fb65928482a4a6c6) // protopic da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c96fdfd81478e739fb65928482a4a6c6
+InstanceOf: List
+
+* insert c96fdfd81478e739fb65928482a4a6c6ListRuleset
+    

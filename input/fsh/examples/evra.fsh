@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9d34314ad8d36a42a39a37ea1d4e2b34
 InstanceOf: CompositionUvEpi
 Title: "Composition for evra Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp7dec5a07ee04562ee5398d1eccec0833)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -775,9 +778,1360 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-9d34314ad8d36a42a39a37ea1d4e2b34
+InstanceOf: CompositionUvEpi
+Title: "Composition for evra Package Leaflet"
+Description:  "Composition for evra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7dec5a07ee04562ee5398d1eccec0833)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - evra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge EVRA 
+3. Sådan skal du bruge EVRA 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What evra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What evra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>EVRA indeholder to typer af kønshormoner, et gestagen kaldet norelgestromin og et østrogen kaldet 
+ethinylestradiol. </p>
+<p>EVRA kaldes et ’kombineret hormonelt præventionsmiddel’, fordi det indeholder to hormoner. </p>
+<p>Det bruges til at forebygge graviditet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take evra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take evra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Generelle bemærkninger 
+Inden du begynder at bruge EVRA, skal du læse oplysningerne om blodpropper i punkt 2. Det er især 
+vigtigt at læse om symptomerne på en blodprop - se punkt 2 “Blodpropper". </p>
+<p>Brug ikke EVRA i disse tilfælde 
+Du må ikke bruge EVRA, hvis du har nogle af nedenstående tilstande. Fortæl det til din læge, hvis du 
+har nogle af nedenstående tilstande. Din læge vil drøfte med dig, hvilken anden form for prævention, 
+der kan være bedre for dig. </p>
+<ul>
+<li>
+<p>hvis du har (eller har haft) en blodprop i et blodkar i dine ben (dyb venetrombose, DVT), dine 
+lunger (lungeemboli, PE) eller andre organer. </p>
+</li>
+<li>
+<p>hvis du ved, at du har en sygdom, der påvirker størkningen af dit blod - f.eks. protein C-mangel, 
+protein S-mangel, antitrombin-III-mangel, faktor V Leiden eller antifosfolipid-antistoffer. </p>
+</li>
+<li>
+<p>hvis du skal opereres, eller hvis du sidder eller ligger ned i længere tid (se punktet 
+‘Blodpropper’). </p>
+</li>
+<li>
+<p>hvis du tidligere har haft et hjerteanfald eller et slagtilfælde. </p>
+</li>
+<li>
+<p>hvis du har (eller tidligere har haft) angina pectoris (en tilstand, der giver svære brystsmerter, og 
+som kan være det første tegn på et hjerteanfald) eller forbigående iltmangel i hjernen på grund 
+af en blodprop (transitorisk iskæmisk anfald). </p>
+</li>
+<li>
+<p>hvis du har en af følgende sygdomme, der kan øge din risiko for en blodprop i arterierne:</p>
+</li>
+<li>
+<p>svær diabetes med beskadigelse af blodkar </p>
+</li>
+<li>meget højt blodtryk </li>
+<li>et meget højt indhold af fedt i blodet (kolesterol eller triglycerider) </li>
+<li>
+<p>en tilstand kendt som hyperhomocysteinæmi </p>
+</li>
+<li>
+<p>hvis du har (eller tidligere har haft) en form for migræne kaldet ‘migræne med aura’. </p>
+</li>
+<li>
+<p>hvis du er allergisk over for norelgestromin, ethinylestradiol eller et af de øvrige indholdsstoffer 
+i dette lægemiddel (angivet i punkt 6). </p>
+</li>
+<li>
+<p>hvis du nogensinde er blevet orienteret om, at du muligvis har brystkræft eller kræft i livmoder, 
+livmoderhals eller skede. </p>
+</li>
+<li>
+<p>hvis du nogensinde har haft en tumor (svulst) i leveren eller en leversygdom, der bevirker, at din 
+lever ikke fungerer ordentligt. </p>
+</li>
+<li>
+<p>hvis du har uforklarlig blødning fra skeden. </p>
+</li>
+<li>
+<p>hvis du har hepatitis C og tager et lægemiddel, der indeholder ombitasvir/paritaprevir/ritonavir, 
+dasabuvir, glecaprevir/pibrentasvir eller sofosbuvir/velpatasvir/voxilaprevir (se også punktet 
+"Brug af anden medicin sammen med EVRA"). </p>
+</li>
+</ul>
+<p>Brug ikke dette lægemiddel, hvis noget af ovennævnte er relevant for dig. Hvis du er usikker, skal du 
+tale med lægen, apotekspersonalet eller sygeplejersken, før du bruger dette lægemiddel. </p>
+<p>Vær særlig forsigtig med EVRA i disse tilfælde 
+Hvornår skal du kontakte din læge? </p>
+<p>Søg akut lægehjælp </p>
+<ul>
+<li>hvis du bemærker mulige tegn på en blodprop, der kan betyde, at du har fået en blodprop i 
+benet (dvs. dyb venetrombose), en blodprop i lungen (dvs. lungeemboli), et hjerteanfald eller 
+et slagtilfælde (se punktet ‘Blodprop [trombose]‘ herunder). </li>
+</ul>
+<p>Yderligere oplysninger om symptomerne på disse alvorlige bivirkninger findes i "Sådan opdager du 
+en blodprop". </p>
+<p>Advarsler og forsigtighedsregler 
+Før du begynder at bruge dette lægemiddel, skal du have foretaget en helbredsundersøgelse hos 
+din læge. </p>
+<p>Fortæl det til din læge, hvis nogle af følgende tilstande gælder for dig. </p>
+<p>Du skal fortælle det til din læge, hvis tilstanden udvikles eller forværres, mens du bruger EVRA. </p>
+<ul>
+<li>
+<p>hvis du har Crohns sygdom eller ulcerativ colitis (kronisk inflammatorisk tarmsygdom). </p>
+</li>
+<li>
+<p>hvis du har systemisk lupus erythematosus (SLE - en sygdom, der påvirker dit naturlige 
+forsvarssystem). </p>
+</li>
+<li>
+<p>hvis du har hæmolytisk-uræmisk syndrom (HUS - en blodstørkningsforstyrrelse, der forårsager 
+nyresvigt). </p>
+</li>
+<li>
+<p>hvis du har seglcelleanæmi (en arvelig sygdom i de røde blodlegemer). </p>
+</li>
+<li>
+<p>hvis du har forhøjet indhold af fedt i blodet (hypertriglyceridæmi), eller hvis nogen i din familie 
+har denne tilstand. Hypertriglyceridæmi er blevet forbundet med en øget risiko for at udvikle 
+pankreatit (bugspytkirtelbetændelse). </p>
+</li>
+<li>
+<p>hvis du skal opereres, eller hvis du sidder eller ligger ned i længere tid (se punkt 2 
+‘Blodpropper’). </p>
+</li>
+<li>
+<p>hvis du lige har født, har du også en øget risiko for blodpropper. Du skal spørge din læge, hvor 
+hurtigt efter fødslen, du kan begynde at tage EVRA. </p>
+</li>
+<li>
+<p>hvis du har en betændelseslignende reaktion (inflammation) i venerne under huden (superficiel 
+tromboflebitis). </p>
+</li>
+<li>
+<p>hvis du har åreknuder. </p>
+</li>
+<li>
+<p>du skal kontakte din læge øjeblikkeligt, hvis du oplever symptomer på angioødem som f.eks. 
+hævelser i ansigt, tunge og/eller svælg og/eller synkebesvær eller nældefeber muligvis med 
+vejrtrækningsbesvær. Produkter indeholdende østrogener kan fremkalde eller forværre 
+symptomerne på arveligt og erhvervet angioødem. </p>
+</li>
+</ul>
+<p>BLODPROPPER </p>
+<p>Hvis du anvender et kombineret hormonelt præventionsmiddel som f.eks. EVRA, har du en større 
+risiko for at udvikle en blodprop sammenlignet med, hvis du ikke anvender et sådant middel. En 
+blodprop kan i sjældne tilfælde blokere blodkar og give alvorlige problemer. </p>
+<p>Blodpropper kan dannes </p>
+<ul>
+<li>
+<p>i vener (kaldet en ‘venetrombose’, ‘venøs tromboemboli’ eller VTE) </p>
+</li>
+<li>
+<p>i arterier (kaldet en ‘arteriel trombose’, ‘arteriel tromboemboli’ eller ATE). </p>
+</li>
+</ul>
+<p>Det er ikke altid muligt at komme sig fuldstændigt efter blodpropper. Der kan i sjældne tilfælde være 
+alvorlige varige virkninger, og i meget sjældne tilfælde kan en blodprop være dødelig. </p>
+<p>Det er vigtigt at huske på, at den samlede risiko for en skadelig blodprop på grund af EVRA 
+er lille. </p>
+<p>SÅDAN OPDAGER DU EN BLODPROP </p>
+<p>Søg akut lægehjælp, hvis du bemærker nogle af følgende tegn eller symptomer. </p>
+<p>Har du nogle af disse tegn? 
+Hvilken tilstand kan det være? </p>
+<ul>
+<li>
+<p>hævelse i et ben eller langs en vene i benet eller foden, især 
+når det ledsages af:</p>
+</li>
+<li>
+<p>smerte eller ømhed i benet, som du muligvis kun 
+mærker, når du står eller går. </p>
+</li>
+<li>øget varme i det pågældende ben. </li>
+<li>
+<p>ændring i benets hudfarve, huden bliver f.eks. bleg, 
+rød eller blå. 
+Dyb venetrombose </p>
+</li>
+<li>
+<p>pludseligt opstået uforklaret åndenød eller hurtig 
+vejrtrækning. </p>
+</li>
+<li>
+<p>pludseligt opstået hoste uden en tydelig årsag, eventuelt med 
+opspyt af blod. </p>
+</li>
+<li>
+<p>pludselig stærk smerte i brystet, som kan blive værre ved 
+dybe vejrtrækninger. </p>
+</li>
+<li>
+<p>svær ørhed eller svimmelhed. </p>
+</li>
+<li>
+<p>hurtige eller uregelmæssige hjerteslag. </p>
+</li>
+<li>
+<p>svære mavesmerter. </p>
+</li>
+</ul>
+<p>Tal med en læge, hvis du er i tvivl, da nogle af disse symptomer, 
+f.eks. hoste eller åndenød, kan forveksles med en mildere tilstand 
+som f.eks. en luftvejsinfektion (f.eks. en ‘almindelig forkølelse’). 
+Lungeemboli 
+Symptomer, som normalt kun forekommer i det ene øje: </p>
+<ul>
+<li>
+<p>øjeblikkeligt synstab eller </p>
+</li>
+<li>
+<p>uklart syn uden smerter; det kan udvikle sig til synstab 
+Retinal venetrombose 
+(blodprop i øjet) </p>
+</li>
+<li>
+<p>brystsmerte, ubehag, tryk, tyngdefornemmelse. </p>
+</li>
+<li>
+<p>knugende fornemmelse eller oppustethed i brystet, armen 
+eller under brystbenet. </p>
+</li>
+<li>
+<p>oppustethed, fordøjelsesbesvær eller kvælningsfornemmelse </p>
+</li>
+<li>
+<p>ubehag i overkroppen, der stråler ud til ryggen, kæben, 
+halsen, armen og maven. </p>
+</li>
+<li>
+<p>sveden, kvalme, opkastning eller svimmelhed. </p>
+</li>
+<li>
+<p>ekstrem svækkelse, angst eller åndenød. </p>
+</li>
+<li>
+<p>hurtige eller uregelmæssige hjerteslag. 
+Hjerteanfald </p>
+</li>
+<li>
+<p>pludseligt opstået følelsesløshed eller slaphed i ansigtet, 
+armen eller benet, især på den ene side af kroppen. </p>
+</li>
+<li>
+<p>pludseligt opstået forvirring, tale- eller forståelsesbesvær. </p>
+</li>
+<li>
+<p>pludseligt opstået synsbesvær på et eller begge øjne. </p>
+</li>
+<li>
+<p>pludseligt opstået gangbesvær, svimmelhed, tab af balance 
+eller koordination. </p>
+</li>
+<li>
+<p>pludseligt opstået, svær eller langvarig hovedpine uden 
+kendt årsag. </p>
+</li>
+<li>
+<p>bevidsthedstab eller besvimelse med eller uden 
+krampeanfald. </p>
+</li>
+</ul>
+<p>Symptomerne på et slagtilfælde kan nogle gange være kortvarige 
+med en næsten øjeblikkelig og fuldstændig bedring, men du skal 
+alligevel søge akut lægehjælp, da du kan have risiko for at få et nyt 
+slagtilfælde. 
+Slagtilfælde </p>
+<ul>
+<li>
+<p>hævelse og blålig misfarvning af en arm eller et ben. </p>
+</li>
+<li>
+<p>svære mavesmerter (akut abdomen). 
+Blodpropper, der blokerer 
+andre blodkar </p>
+</li>
+</ul>
+<p>BLODPROPPER I EN VENE </p>
+<p>Hvad kan der ske, hvis der dannes en blodprop i en vene? </p>
+<ul>
+<li>
+<p>Anvendelse af kombinerede hormonelle præventionsmidler er blevet forbundet med en stigning 
+i risikoen for blodpropper i en vene (venetrombose). Disse bivirkninger er dog sjældne. De 
+forekommer hyppigst i det første år, hvor et kombineret hormonelt præventionsmiddel 
+anvendes. </p>
+</li>
+<li>
+<p>Hvis en blodprop dannes i en vene i benet eller foden, kan det forårsage en dyb venetrombose 
+(DVT). </p>
+</li>
+<li>
+<p>Hvis en blodprop vandrer fra benet og sætter sig i lungen, kan det forårsage en lungeemboli. </p>
+</li>
+<li>
+<p>En prop kan i meget sjældne tilfælde dannes i en vene i et andet organ, f.eks. øjet (retinal 
+venetrombose). </p>
+</li>
+</ul>
+<p>Hvornår er risikoen for at udvikle en blodprop i en vene størst? 
+Risikoen for at udvikle en blodprop i en vene er størst i løbet af det første år, hvor et kombineret 
+hormonelt præventionsmiddel tages for første gang. Risikoen kan også være større, hvis du begynder 
+at tage et kombineret hormonelt præventionsmiddel (det samme præparat eller et andet præparat) efter 
+en pause på 4 uger eller mere. </p>
+<p>Efter det første år bliver risikoen mindre, men den er altid en smule større, end hvis du ikke brugte et 
+kombineret hormonelt præventionsmiddel. </p>
+<p>Når du stopper med EVRA, går der et par uger, hvorefter din risiko for at få en blodprop ikke længere 
+er forhøjet. </p>
+<p>Hvad er risikoen for at udvikle en blodprop? 
+Risikoen afhænger af din naturlige risiko for VTE, og hvilken type kombineret hormonelt 
+præventionsmiddel du tager. </p>
+<p>Den samlede risiko for at få en blodprop i benet eller lungen (DVT eller PE) med EVRA er lille. </p>
+<ul>
+<li>Ud af 10.000 kvinder, der ikke bruger et kombineret hormonelt præventionsmiddel, og som ikke 
+er gravide, vil ca. 2 kvinder udvikle en blodprop i løbet af et år. </li>
+<li>Ud af 10.000 kvinder, der bruger et kombineret hormonelt præventionsmiddel indeholdende 
+levonorgestrel, norethisteron eller norgestimat, vil ca. 5-7 kvinder udvikle en blodprop i løbet af 
+et år. </li>
+<li>Ud af 10.000 kvinder, der bruger et kombineret hormonelt præventionsmiddel indeholdende 
+etonorgestrel eller norelgestromin, som f.eks. EVRA, vil ca. 6-12 kvinder udvikle en blodprop i 
+løbet af et år. </li>
+<li>Risikoen for at få en blodprop varierer afhængigt af din personlige sygehistorie (se "Faktorer, 
+der øger din risiko for at få en blodprop" herunder). </li>
+</ul>
+<p>Risiko for at udvikle en blodprop i 
+løbet af et år 
+Kvinder, der ikke bruger et kombineret hormonelt 
+præventionsmiddel (pille/plaster/ring), og som ikke er 
+gravide 
+Ca. 2 ud af 10.000 kvinder 
+Kvinder, der bruger en p-pille af kombinationstypen 
+indeholdende levonorgestrel, norethisteron eller 
+norgestimat 
+Ca. 5-7 ud af 10.000 kvinder 
+Kvinder, der bruger EVRA<br />
+Ca. 6-12 ud af 10.000 kvinder </p>
+<p>Faktorer, der øger din risiko for at få en blodprop i en vene 
+Risikoen for at få en blodprop med EVRA er lille, men nogle tilstande vil øge risikoen. Din risiko er 
+højere: </p>
+<ul>
+<li>
+<p>hvis du er meget overvægtig (body mass index eller BMI på over 30 kg/m2). </p>
+</li>
+<li>
+<p>hvis en person i din nærmeste familie har haft en blodprop i benet, lungen eller andet organ i en 
+ung alder (f.eks. under 50 år). I dette tilfælde kan du muligvis have en arvelig fejl i blodets 
+størkning. </p>
+</li>
+<li>
+<p>hvis du skal opereres, eller hvis du sidder eller ligger ned i længere tid på grund af en skade eller 
+sygdom, eller hvis du har benet i gips. Det kan være nødvendigt at stoppe med EVRA flere uger 
+før operationen, eller mens du er mindre mobil. Hvis det er nødvendigt, at du stopper med 
+EVRA, skal du spørge din læge om, hvornår du kan begynde at bruge det igen. </p>
+</li>
+<li>
+<p>efterhånden som du bliver ældre (især over ca. 35 år). </p>
+</li>
+<li>
+<p>hvis du har født for under et par uger siden. </p>
+</li>
+</ul>
+<p>Risikoen for at udvikle en blodprop stiger jo flere risikofaktorer, du har. </p>
+<p>Flyrejse (&gt;4 timer) kan midlertidigt øge din risiko for en blodprop, især hvis du har nogle af de andre 
+anførte risikofaktorer. </p>
+<p>Det er vigtigt at fortælle din læge, hvis nogle af disse tilstande gælder for dig, også hvis du ikke er 
+sikker. Din læge kan beslutte, at du skal stoppe med EVRA. </p>
+<p>Hvis nogle af ovenstående tilstande ændres, mens du bruger EVRA, f.eks. hvis et nært familiemedlem 
+får en blodprop uden kendt årsag, eller hvis du tager meget på i vægt, er det vigtigt, at du kontakter 
+din læge. </p>
+<p>BLODPROPPER I EN ARTERIE </p>
+<p>Hvad kan der ske, hvis der dannes en blodprop i en arterie? 
+På samme måde som en blodprop i en vene kan en blodprop i en arterie give alvorlige problemer. Det 
+kan f.eks. forårsage et hjerteanfald eller et slagtilfælde. </p>
+<p>Faktorer, der øger din risiko for at få en blodprop i en arterie 
+Det er vigtigt at lægge mærke til, at risikoen for at få et hjerteanfald eller et slagtilfælde pga. brugen af 
+EVRA er meget lille, men den kan stige: </p>
+<ul>
+<li>
+<p>med stigende alder (efter ca. 35 år). </p>
+</li>
+<li>
+<p>hvis du ryger. Du rådes til at holde op med at ryge, når du bruger et kombineret hormonelt 
+præventionsmiddel som EVRA. Hvis du ikke kan holde op med at ryge, og du er ældre end 
+35 år, vil din læge muligvis råde dig til at bruge en anden form for prævention. </p>
+</li>
+<li>
+<p>hvis du er overvægtig. </p>
+</li>
+<li>
+<p>hvis du har højt blodtryk. </p>
+</li>
+<li>
+<p>hvis et medlem af din nærmeste familie har haft et hjerteanfald eller et slagtilfælde i en ung 
+alder (under ca. 50 år). I dette tilfælde kan du også have en større risiko for at få et hjerteanfald 
+eller et slagtilfælde. </p>
+</li>
+<li>
+<p>hvis du, eller nogen i din nærmeste familie, har et højt indhold af fedt i blodet (kolesterol eller 
+triglycerider). </p>
+</li>
+<li>
+<p>hvis du får migræne, især migræne med aura. </p>
+</li>
+<li>
+<p>hvis du har et problem med dit hjerte (fejl i en hjerteklap, forstyrrelser i hjerterytmen kaldet 
+atrieflimren). </p>
+</li>
+<li>
+<p>hvis du har sukkersyge. </p>
+</li>
+</ul>
+<p>Hvis du har mere end én af disse tilstande, eller hvis én af tilstandene er særligt alvorlig, kan risikoen 
+for at udvikle en blodprop være endnu større. </p>
+<p>Hvis nogle af ovenstående tilstande ændres, mens du bruger EVRA, f.eks. hvis du begynder at ryge, et 
+nært familiemedlem får en blodprop uden kendt årsag, eller hvis du tager meget på i vægt, er det 
+vigtigt at du kontakter din læge. </p>
+<p>Psykiske forstyrrelser 
+Nogle kvinder, der anvender hormonelle præventionsmidler, herunder EVRA, har rapporteret om 
+depression eller nedtrykthed. Depression kan være alvorligt og kan nogle gange føre til 
+selvmordstanker. Hvis du oplever humørforandringer og depressive symptomer, skal du kontakte din 
+læge for yderligere rådgivning så hurtigt som muligt. </p>
+<p>Du skal også kontakte lægen, apotekspersonalet eller sygeplejersken, før du bruger EVRA, hvis du har 
+en af følgende tilstande, eller hvis de indtræffer eller forværres, mens du bruger EVRA: </p>
+<ul>
+<li>
+<p>Du tror, at du er gravid. </p>
+</li>
+<li>
+<p>Du lider af hovedpine, og den tager til eller indtræffer oftere. </p>
+</li>
+<li>
+<p>Du vejer 90 kg eller derover. </p>
+</li>
+<li>
+<p>Du har højt blodtryk, eller dit blodtryk stiger. </p>
+</li>
+<li>
+<p>Du har en sygdom i galdeblæren, herunder galdesten eller betændelse i galdeblæren. </p>
+</li>
+<li>
+<p>Du har en blodsygdom kaldet porfyri. </p>
+</li>
+<li>
+<p>Du har en nervesygdom, der indebærer pludselige bevægelser af kroppen, kaldet ’Sydenhams 
+chorea’. </p>
+</li>
+<li>
+<p>Du havde en hudsygdom med blærer i forbindelse med graviditet (kaldet ’herpes gestationis’). </p>
+</li>
+<li>
+<p>Du har høretab. </p>
+</li>
+<li>
+<p>Du har sukkersyge. </p>
+</li>
+<li>
+<p>Du har en depression. </p>
+</li>
+<li>
+<p>Du har epilepsi eller andre tilstande, der kan forårsage krampeanfald. </p>
+</li>
+<li>
+<p>Du har leverproblemer, der omfatter gulfarvning af huden og det hvide i øjnene (gulsot). </p>
+</li>
+<li>
+<p>Du har eller har haft gulbrune pigmentpletter, sommetider kaldet graviditetspletter, især i 
+ansigtet (kloasma). Disse pletter går muligvis ikke helt væk, selv efter at du holder op med at 
+tage EVRA. Beskyt huden mod sollys eller ultraviolette stråler. Det kan hjælpe dig til ikke at få 
+disse pletter eller hindre dem i at tage til. </p>
+</li>
+<li>
+<p>Du har nyreproblemer. </p>
+</li>
+</ul>
+<p>Kontakt din læge eller apotekspersonalet, hvis du er usikker på, om nogen af de ovenfor nævnte 
+tilstande er gældende for dig, før du bruger EVRA. </p>
+<p>Seksuelt overførte sygdomme 
+Dette lægemiddel beskytter dig ikke mod hiv-infektion (aids) eller andre seksuelt overførte 
+sygdomme. De omfatter klamydia, herpes genitalis, kønsvorter, gonorré, hepatitis B og syfilis. Brug 
+altid kondom for at beskytte dig mod disse sygdomme. </p>
+<p>Laboratorieundersøgelser </p>
+<ul>
+<li>Hvis du skal have taget blod- eller urinprøver, skal du fortælle lægen eller laboratoriepersonalet, 
+at du bruger EVRA, da hormonelle præventionsmidler kan påvirke visse prøveresultater. </li>
+</ul>
+<p>Børn og unge 
+EVRA er ikke undersøgt hos børn og unge under 18 år. EVRA må ikke anvendes til børn og unge, der 
+endnu ikke har haft deres første menstruation. </p>
+<p>Brug af andre lægemidler sammen med EVRA 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Du må ikke bruge EVRA, hvis du har hepatitis C og tager et lægemiddel, der indeholder 
+ombitasvir/paritaprevir/ritonavir, dasabuvir, glecaprevir/pibrentasvir eller 
+sofosbuvir/velpatasvir/voxilaprevir, da disse produkter kan give anledning til forhøjede 
+leverfunktionstal (stigninger i leverenzymet ALAT). Din læge vil ordinere en anden type prævention, 
+før du påbegynder behandlingen med sådanne lægemidler. EVRA kan startes igen cirka 2 uger efter 
+afslutningen af denne behandling. Se punktet “Brug ikke EVRA i disse tilfælde". </p>
+<p>Visse lægemidler eller naturlægemidler kan hindre, at EVRA fungerer korrekt. Hvis dette sker, kan du 
+blive gravid eller få uventede blødninger. 
+Dette omfatter lægemidler til behandling af: </p>
+<ul>
+<li>
+<p>visse antiretrovirale lægemidler til behandling af hiv/aids og hepatitis C-virusinfektion (såkaldte 
+proteasehæmmere og non-nukleosid revers transkriptasehæmmere som f.eks. ritonavir, 
+nevirapin, efavirenz) </p>
+</li>
+<li>
+<p>lægemidler til behandling af infektion (såsom rifampicin og griseofulvin) </p>
+</li>
+<li>
+<p>lægemidler mod epilepsi (som f.eks. barbiturater, topiramat, phenytoin, carbamazepin, 
+primidon, oxcarbazepin og felbamat) </p>
+</li>
+<li>
+<p>bosentan (lægemiddel mod forhøjet blodtryk i blodkarrene i lungerne) </p>
+</li>
+<li>
+<p>perikon (naturlægemiddel, der bruges mod depression). </p>
+</li>
+</ul>
+<p>Hvis du tager nogen af de ovennævnte lægemidler eller naturlægemidler, kan det være nødvendigt, at 
+du bruger en anden præventionsform (f.eks. kondom, pessar eller skum). For nogle af disse lægemidler 
+kan påvirkningen vare i op til 28 dage, efter at du er holdt op med at tage dem. Tal med din læge eller 
+apotekspersonalet om at anvende en anden form for prævention, hvis du bruger EVRA og et af de 
+ovennævnte lægemidler samtidigt. </p>
+<p>EVRA kan gøre visse lægemidler mindre effektive, f.eks.: </p>
+<ul>
+<li>
+<p>lægemidler, der indeholder ciclosporin </p>
+</li>
+<li>
+<p>lamotrigin mod epilepsi [kan øge risikoen for kramper (epileptiske anfald)]. </p>
+</li>
+</ul>
+<p>Det kan være nødvendigt, at lægen justerer dosis af det andet lægemiddel. Spørg din læge eller 
+apotekspersonalet til råds, før du tager nogen form for medicin. </p>
+<p>Graviditet og amning </p>
+<ul>
+<li>
+<p>Brug ikke dette lægemiddel, hvis du er gravid eller du tror, at du er gravid. </p>
+</li>
+<li>
+<p>Hold straks op med at bruge dette lægemiddel, hvis du bliver gravid. </p>
+</li>
+<li>
+<p>Brug ikke dette lægemiddel, hvis du ammer eller planlægger at amme. </p>
+</li>
+</ul>
+<p>Hvis du har mistanke om at du er gravid eller planlægger at blive gravid, skal du spørge din læge eller 
+apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan køre bil og anvende maskiner, mens du bruger dette lægemiddel. </p>
+<p>Risici ved brug af kombinerede hormonelle præventionsmidler 
+Følgende oplysninger er baseret på information om kombinations-p-piller. Da EVRA depotplastre 
+indeholder hormoner svarende til dem, der anvendes i kombinations-p-piller, er det sandsynligt, at de 
+medfører samme risici. Alle kombinations-p-piller er forbundet med risici, der kan medføre invaliditet 
+eller død. </p>
+<p>Det er ikke påvist, at et depotplaster som EVRA er mere sikkert end en kombinations-p-pille, der 
+indtages gennem munden. </p>
+<p>Kombinerede hormonelle præventionsmidler og kræft </p>
+<p>Kræft i livmoderhalsen 
+Kræft i livmoderhalsen forekommer oftere hos kvinder, der tager kombinerede hormonelle 
+præventionsmidler. Men dette kan skyldes andre årsager som f.eks. seksuelt overførte sygdomme. </p>
+<p>Brystkræft 
+Brystkræft bliver påvist hyppigere hos kvinder, der bruger kombinerede hormonelle 
+præventionsmidler, men det vides ikke, om det skyldes de kombinerede hormonelle 
+præventionsmidler. Det kan være, at kvinder, som tager kombinerede hormonelle præventionsmidler, 
+bliver undersøgt oftere. Dette kan betyde, at der er en større chance for, at brystkræft bliver opdaget. 
+Den øgede risiko mindskes gradvist efter ophør med de kombinerede hormonelle præventionsmidler. 
+Efter ti år er risikoen for at få brystkræft den samme som for kvinder, der aldrig har brugt 
+kombinerede hormonelle præventionsmidler. </p>
+<p>Leverkræft 
+I sjældne tilfælde er der fundet godartede leversvulster, og endnu sjældnere er der fundet ondartede 
+leversvulster hos kvinder, der anvender kombinerede hormonelle præventionsmidler. Dette kan 
+forårsage indre blødning og voldsomme smerter i maveregionen. Hvis det sker for dig, skal du 
+omgående kontakte din læge. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take evra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take evra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. </p>
+<ul>
+<li>
+<p>Hvis du ikke gør det, kan det øge din risiko for at blive gravid. </p>
+</li>
+<li>
+<p>Er du i tvivl, så spørg lægen eller apotekspersonalet. </p>
+</li>
+<li>
+<p>Du bør altid sørge for at have ikke-hormonelle præventionsmidler (f.eks. kondomer, skum eller 
+svamp) ved hånden, som du kan bruge som supplerende prævention, hvis du laver en fejl ved 
+brug af plasteret. </p>
+</li>
+</ul>
+<p>Så mange plastre skal der bruges </p>
+<ul>
+<li>
+<p>Uge 1, 2 og 3: 
+Sæt ét plaster på, og lad det sidde i nøjagtig syv dage. </p>
+</li>
+<li>
+<p>Uge 4:  </p>
+</li>
+</ul>
+<p>Denne uge skal der ikke bruges plaster. </p>
+<p>Hvis du ikke har brugt hormonelle præventionsmidler under din foregående cyklus </p>
+<ul>
+<li>
+<p>Kan du starte med dette lægemiddel på dag 1 i din næste menstruation. </p>
+</li>
+<li>
+<p>Hvis der er gået én eller flere dage siden starten af din menstruation, skal du tale med lægen om 
+midlertidigt brug af et ikke-hormonelt præventionsmiddel. </p>
+</li>
+</ul>
+<p>Hvis du skifter fra p-piller til EVRA 
+Hvis du skifter fra p-piller til dette lægemiddel: </p>
+<ul>
+<li>
+<p>Vent, til du får din menstruation. </p>
+</li>
+<li>
+<p>Sæt dit første plaster på i løbet af de første 24 timer af menstruationen. </p>
+</li>
+</ul>
+<p>Hvis plastret påsættes efter dag 1 i din menstruation, skal du: </p>
+<ul>
+<li>Anvende et ikke-hormonelt præventionsmiddel indtil dag 8, når du skifter plastret. </li>
+</ul>
+<p>Hvis du ikke får menstruationen inden for 5 dage efter at have taget den sidste p-pille, skal du kontakte 
+din læge, før du begynder at bruge dette lægemiddel. </p>
+<p>Hvis du skifter fra tabletter, der kun indeholder gestagen (minipiller), implantat eller injektion 
+til EVRA </p>
+<ul>
+<li>
+<p>Du kan begynde at bruge dette lægemiddel når som helst, efter at du holder op med at tage 
+tabletter, der kun indeholder gestagen (minipiller), eller den dag, hvor du får fjernet et implantat, 
+eller du skulle have den næste injektion. </p>
+</li>
+<li>
+<p>Sæt plastret på den første dag efter, at du er stoppet med tabletter, der kun indeholder gestagen 
+(minipiller), har fået fjernet implantatet eller skulle have haft den næste injektion. </p>
+</li>
+<li>
+<p>Du skal benytte et ikke-hormonelt præventionsmiddel indtil dag 8, når du skifter plastret. </p>
+</li>
+</ul>
+<p>Efter en spontan eller provokeret abort inden 20. uge i graviditeten </p>
+<ul>
+<li>
+<p>Tal med lægen. </p>
+</li>
+<li>
+<p>Du kan begynde at bruge lægemidlet med det samme. </p>
+</li>
+</ul>
+<p>Hvis der er gået en eller flere dage siden din spontane eller provokerede abort, når du starter med dette 
+lægemiddel, skal du tale med lægen om midlertidigt brug af et ikke hormonelt præventionsmiddel. </p>
+<p>Efter en spontan eller provokeret abort efter 20. uge i graviditeten </p>
+<ul>
+<li>Tal med lægen. </li>
+</ul>
+<p>Du kan begynde at bruge lægemidlet på dag 21 efter aborten, eller på den første dag i den næste 
+menstruation, alt efter hvad der indtræffer først. </p>
+<p>Efter en fødsel </p>
+<ul>
+<li>
+<p>Tal med lægen. </p>
+</li>
+<li>
+<p>Hvis du har fået barn, men ikke ammer det, bør du først begynde at bruge dette lægemiddel, når 
+der er gået 4 uger efter fødslen. </p>
+</li>
+<li>
+<p>Hvis der er gået over 4 uger efter fødslen, skal du i de første 7 dage samtidig bruge et 
+præventionsmiddel, der ikke er et hormonpræparat. </p>
+</li>
+</ul>
+<p>Hvis du har haft sex efter fødslen, skal du vente til den første menstruation, eller gå til lægen for at 
+sikre dig, at du ikke er gravid, før du begynder at bruge dette lægemiddel. </p>
+<p>Hvis du ammer </p>
+<ul>
+<li>
+<p>Tal med lægen. </p>
+</li>
+<li>
+<p>Brug ikke dette lægemiddel, hvis du ammer eller planlægger at amme (se også punkt 2 
+Graviditet og amning). </p>
+</li>
+</ul>
+<p>Vigtige punkter at følge, når du bruger plastret </p>
+<ul>
+<li>
+<p>Skift EVRA den samme dag hver uge, da det er beregnet til at virke i 7 dage. </p>
+</li>
+<li>
+<p>Du bør aldrig være uden plaster i mere end 7 dage i træk. </p>
+</li>
+<li>
+<p>Brug kun ét plaster ad gangen. </p>
+</li>
+<li>
+<p>Du må ikke skære i plasteret eller forsøge at ændre det på anden vis. </p>
+</li>
+<li>
+<p>Undgå at sætte plasteret på hud, der er rød, irriteret eller sprukken. </p>
+</li>
+<li>
+<p>Plasteret skal klæbe ordentligt til huden, for at det kan fungere korrekt. </p>
+</li>
+<li>
+<p>Plasteret skal trykkes fast, indtil kanterne klæber godt. </p>
+</li>
+<li>
+<p>Brug ikke creme, olie, lotion, pudder eller make-up på huden, hvor du skal sætte et plaster eller i 
+nærheden af, hvor du har et plaster siddende. Dette kan få plasteret til at løsne sig. </p>
+</li>
+<li>
+<p>Påsæt ikke et nyt plaster på samme hudområde som det det plaster, du lige har fjernet. Hvis du 
+gør det, kan det lettere medføre irritation. </p>
+</li>
+<li>
+<p>Kontrollér hver dag, at plasteret ikke er faldet af. </p>
+</li>
+<li>
+<p>Hold ikke op med at bruge plastrene, selv om du ikke dyrker sex særligt ofte. </p>
+</li>
+</ul>
+<p>Brugsanvisning: </p>
+<p>Hvis det er første gang, du bruger EVRA, så vent til den dag, du får din 
+menstruation. </p>
+<ul>
+<li>
+<p>Sæt plasteret på i løbet af de første 24 timer af menstruationen. </p>
+</li>
+<li>
+<p>Hvis plasteret påsættes efter 1. dag i din menstruation, skal du 
+anvende et ikke-hormonelt præventionsmiddel indtil dag 8, hvor du 
+skifter plasteret. </p>
+</li>
+<li>
+<p>Den dag, hvor du sætter det første plaster på, vil være dag 1. Din 
+"plasterskiftedag" vil være denne ugedag hver uge. </p>
+</li>
+</ul>
+<p>Vælg et sted på kroppen at sætte plasteret på. </p>
+<ul>
+<li>
+<p>Sæt altid plasteret på ren, tør, ubehåret hud. </p>
+</li>
+<li>
+<p>Sæt det på balden, maven, ydre overarm eller øverst på ryggen - et 
+sted, hvor det ikke bliver gnedet af stramtsiddende tøj. </p>
+</li>
+<li>
+<p>Sæt aldrig plasteret på brysterne. </p>
+</li>
+</ul>
+<p>Brug fingrene til at åbne foliebrevet. </p>
+<ul>
+<li>
+<p>Åbn foliebrevet ved at rive langs kanten (brug ikke saks). </p>
+</li>
+<li>
+<p>Tag fat i et hjørne af plasteret, og tag det forsigtigt ud af foliebrevet. </p>
+</li>
+<li>
+<p>Der er en gennemsigtig beskyttelsesfilm på plasteret. </p>
+</li>
+<li>
+<p>Sommetider kan plastrene klistre til indersiden af brevet - pas på 
+ikke utilsigtet at fjerne den gennemsigtige film, når du tager 
+plasteret ud. </p>
+</li>
+<li>
+<p>Træk derefter halvdelen af den gennemsigtige beskyttelsesfilm af 
+(se billede). Undgå at berøre klæbefladen. </p>
+</li>
+</ul>
+<p>Sæt plasteret på huden. </p>
+<ul>
+<li>
+<p>Fjern derefter den anden halvdel af filmen. </p>
+</li>
+<li>
+<p>Tryk plasteret fast med håndfladen i 10 sekunder. </p>
+</li>
+<li>
+<p>Sørg for, at kanterne sidder godt fast. </p>
+</li>
+</ul>
+<p>Hav plasteret på i 7 dage (en uge). </p>
+<ul>
+<li>
+<p>Tag det brugte plaster af på den første "plasterskiftedag", dag 8. * Sæt omgående et nyt plaster på. </p>
+</li>
+<li>
+<p>Fjern plastret på dag 15 (uge 3). </p>
+</li>
+<li>
+<p>Sæt et nyt plaster på. </p>
+</li>
+</ul>
+<p>Dette giver i alt i tre uger med plastre. </p>
+<p>For at undgå irritation må det nye plaster ikke sættes på nøjagtigt det 
+samme sted på huden som det foregående plaster. </p>
+<p>Tag ikke plaster på i uge 4 (dag 22 til dag 28). </p>
+<ul>
+<li>
+<p>Du får sandsynligvis din menstruation i dette tidsrum. </p>
+</li>
+<li>
+<p>Du er kun beskyttet mod at blive gravid i denne uge, hvis du starter. 
+med dit næste plaster til tiden.  </p>
+</li>
+</ul>
+<p>Den næste fire-ugers cyklus: </p>
+<ul>
+<li>Påsæt et nyt plaster på din normale "plasterskiftedag", dagen efter 
+dag 28. * Gør dette uanset, hvornår din menstruation starter eller slutter. </li>
+</ul>
+<p>Hvis du ønsker at ændre din "plasterskiftedag" til en anden ugedag, skal du tale med din læge om det. 
+I så fald skal du gennemføre den aktuelle cyklus og fjerne det tredje plaster som planlagt. I uge 4 kan 
+du vælge en ny skiftedag og påsætte det første plaster på denne dag. Du må højst være uden plaster i 
+7 dage i træk. </p>
+<p>Hvis du ønsker at udskyde menstruationen, skal du påsætte et plaster først i uge 4 (på dag 22) i stedet 
+for ikke at anvende plaster i uge 4. Du vil måske bløde lidt eller få en gennembrudsblødning. Du må 
+højst bruge 6 plastre i træk (dvs. 6 uger i træk). Når du har brugt 6 plastre i træk (dvs. brugt plaster i 
+6 uger i træk), må du ikke sætte et nyt plaster på i uge 7. Efter en pause på 7 dage kan du atter sætte et 
+plaster på og starte en ny cyklus - dette er så dag 1. Tal med lægen, før du beslutter dig for at udskyde 
+menstruationen. </p>
+<p>Hverdagsaktiviteter mens du bruger plastrene </p>
+<ul>
+<li>
+<p>Normale aktiviteter som badning, brusebad, sauna og motion skulle ikke påvirke 
+plasterets virkning. </p>
+</li>
+<li>
+<p>Plasteret er beregnet til at blive siddende under disse former for aktivitet. </p>
+</li>
+<li>
+<p>Det anbefales dog, at du kontrollerer, at plasteret ikke er faldet af efter at have udført disse 
+aktiviteter. </p>
+</li>
+</ul>
+<p>Hvis du er nødt til at sætte plasteret på et nyt sted på en anden dag end din "plasterskiftedag" 
+Hvis det plaster, du har på, føles ubehageligt eller forårsager irritation: </p>
+<ul>
+<li>
+<p>Kan du tage det af og udskifte det med et nyt plaster et andet sted indtil din næste 
+"plasterskiftedag". </p>
+</li>
+<li>
+<p>Du må kun bruge ét plaster ad gangen. </p>
+</li>
+</ul>
+<p>Hvis du har svært ved at huske at skifte dit plaster </p>
+<ul>
+<li>Tal med din læge, apotekspersonalet eller sygeplejersken. Han/hun kan muligvis gøre dit 
+plasterskifte lettere for dig. Han/hun kan også anbefale dig at benytte en anden 
+præventionsmetode. </li>
+</ul>
+<p>Hvis plasteret går løs, løsnes i kanterne eller falder helt af </p>
+<p>I mindre end en dag (op til 24 timer): </p>
+<ul>
+<li>
+<p>Prøv at sætte det fast igen, eller sæt omgående et nyt plaster på. </p>
+</li>
+<li>
+<p>Ingen supplerende prævention er nødvendig. </p>
+</li>
+<li>
+<p>Din "plasterskiftedag" skal forblive den samme. </p>
+</li>
+<li>
+<p>Forsøg ikke at sætte et plaster på igen, hvis:</p>
+</li>
+<li>
+<p>det ikke længere klæber. </p>
+</li>
+<li>det klæber fast til sig selv eller en anden overflade. </li>
+<li>andet materiale klæber til det. </li>
+<li>
+<p>det er anden gang, at det løsner sig eller falder af. </p>
+</li>
+<li>
+<p>Du må ikke bruge tape eller bandager for at holde plasteret på plads. </p>
+</li>
+<li>
+<p>Hvis et plaster ikke kan sættes fast igen, skal der omgående sættes et nyt på. </p>
+</li>
+</ul>
+<p>I mere end en dag (24 timer eller mere), eller hvis du ikke er sikker på hvor længe: </p>
+<ul>
+<li>
+<p>Start omgående en ny fire-ugers cyklus ved at sætte et nyt plaster på. </p>
+</li>
+<li>
+<p>Du har nu fået en ny dag 1 og en ny "plasterskiftedag". </p>
+</li>
+<li>
+<p>Du skal anvende et ikke-hormonelt præventionsmiddel som supplement i den første uge efter 
+påbegyndelse af den nye cyklus. </p>
+</li>
+</ul>
+<p>Du kan blive gravid, hvis du ikke følger disse instruktioner. </p>
+<p>Hvis du glemmer at skifte dit plaster </p>
+<p>I starten af en plastercyklus (uge 1 (dag 1)): 
+Hvis du glemmer at sætte dit plaster på, kan du være specielt udsat for blive gravid. </p>
+<ul>
+<li>
+<p>Du skal bruge et ikke-hormonelt præventionsmiddel som supplement i en uge. </p>
+</li>
+<li>
+<p>Sæt det første plaster i din nye cyklus på, så snart du kommer i tanke om det. </p>
+</li>
+<li>
+<p>Du har nu fået en ny "plasterskiftedag" og en ny dag 1. Midt i din plastercyklus (uge 2 eller uge 3): 
+Hvis du glemmer at skifte plaster i en eller to dage (op til 48 timer): </p>
+</li>
+<li>
+<p>Sæt et nyt plaster på, så snart du kommer i tanke om det. </p>
+</li>
+<li>
+<p>Sæt det næste plaster på til den normale "plasterskiftedag". </p>
+</li>
+</ul>
+<p>Ingen supplerende prævention er nødvendig. </p>
+<p>I mere end 2 dage (48 timer eller mere): </p>
+<ul>
+<li>
+<p>Hvis du glemmer at skifte dit plaster i mere end 2 dage, kan du blive gravid. </p>
+</li>
+<li>
+<p>Start en ny fire-ugers cyklus, så snart du kommer i tanke om det, ved at sætte et nyt plaster på. </p>
+</li>
+<li>
+<p>Du har nu fået en ny  plasterskiftedag og en ny dag 1. * Du skal bruge supplerende prævention i den første uge af din nye cyklus. </p>
+</li>
+</ul>
+<p>I slutningen af din plastercyklus (uge 4): 
+Hvis du glemmer at tage plasteret af: </p>
+<ul>
+<li>
+<p>Fjern det, så snart du kommer i tanke om det. </p>
+</li>
+<li>
+<p>Start den næste cyklus på din normale "plasterskiftedag", dagen efter dag 28. Supplerende prævention er ikke nødvendig. </p>
+</li>
+</ul>
+<p>Hvis du har udeblivende eller uregelmæssig blødning ved brug af EVRA 
+Dette lægemiddel kan forårsage uventet blødning fra skeden eller pletblødning i løbet af de uger, hvor 
+du har plasteret på. </p>
+<ul>
+<li>
+<p>Det stopper sædvanligvis efter de første par cyklusser. </p>
+</li>
+<li>
+<p>Fejl i forbindelse med brugen af plasteret kan også forårsage pletblødninger eller lette 
+blødninger. </p>
+</li>
+<li>
+<p>Fortsæt med at bruge dette lægemiddel, og kontakt din læge eller apotekspersonalet, hvis 
+blødningen varer længere end de første 3 cyklusser. </p>
+</li>
+</ul>
+<p>Selv om du ikke får menstruation i løbet af den plasterfrie uge (uge 4), skal du fortsat bruge et nyt 
+plaster på din sædvanlige "plasterskiftedag". </p>
+<ul>
+<li>
+<p>Hvis du har brugt dette lægemiddel korrekt, og din menstruation udebliver, betyder det ikke 
+nødvendigvis, at du er gravid. </p>
+</li>
+<li>
+<p>Tal med din læge eller apotekspersonalet, hvis din menstruation udebliver 2 gange i træk, idet 
+du kan være gravid. </p>
+</li>
+</ul>
+<p>Hvis du har brugt for meget EVRA (mere end ét EVRA plaster ad gangen) 
+Tag plastrene af, og kontakt omgående en læge. </p>
+<p>Brug af for mange plastre kan medføre følgende: </p>
+<ul>
+<li>
+<p>Kvalme og opkastning </p>
+</li>
+<li>
+<p>Blødning fra skeden. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at bruge EVRA 
+Du kan få uregelmæssig, svag eller ingen menstruation, især i de først tre måneder, og især hvis din 
+menstruation ikke var regelmæssig, før du startede med at bruge dette lægemiddel. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Hvis du oplever bivirkninger, især hvis de er svære og vedvarende, eller hvis du oplever en ændring i 
+dit helbred, som du mener kan skyldes EVRA, skal du tale med din læge. </p>
+<p>Kontakt en læge øjeblikkeligt, hvis du oplever nogen af følgende symptomer på angioødem: 
+hævelse i ansigt, tunge og/eller svælg og/eller synkebesvær eller nældefeber muligvis med 
+vejrtrækningsbesvær (se også punktet "Advarsler og forsigtighedsregler"). 
+Alle kvinder, der tager kombinerede hormonelle præventionsmidler, har en øget risiko for blodpropper 
+i venerne [venøs tromboemboli (VTE)] eller blodpropper i arterierne [arteriel tromboemboli (ATE)]. 
+Du kan finde yderligere oplysninger om de forskellige risici ved at tage kombinerede hormonelle 
+præventionsmidler i punkt 2 "Det skal du vide, før du begynder at bruge EVRA". </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 kvinder): </p>
+<ul>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Brystspændinger. </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 kvinder): </p>
+<ul>
+<li>
+<p>Svampeinfektion i skeden, kaldes også trøske </p>
+</li>
+<li>
+<p>Humørproblemer såsom depression, humørforandringer eller humørsvingninger, angst, gråd </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Migræne </p>
+</li>
+<li>
+<p>Mavesmerter eller oppustethed </p>
+</li>
+<li>
+<p>Opkastning eller diarré </p>
+</li>
+<li>
+<p>Akne, hududslæt, kløe i huden eller hudirritation </p>
+</li>
+<li>
+<p>Muskelspasmer </p>
+</li>
+<li>
+<p>Brystproblemer såsom smerter, forstørrelse eller knuder i brystet </p>
+</li>
+<li>
+<p>Forandringer i menstruationsblødningsmønsteret, livmoderkramper, menstruationssmerter, 
+udflåd fra skeden </p>
+</li>
+<li>
+<p>Gener på det hudområde, hvor plasteret har siddet, f.eks. rødme, irritation, kløe eller udslæt </p>
+</li>
+<li>
+<p>Træthed eller almen utilpashed </p>
+</li>
+<li>
+<p>Vægtstigning. </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 kvinder): </p>
+<ul>
+<li>
+<p>Allergisk reaktion, nældefeber </p>
+</li>
+<li>
+<p>Hævelse på grund af væskeophobning i kroppen </p>
+</li>
+<li>
+<p>Højt indhold af fedtstoffer i blodet (f.eks. kolesterol eller triglycerider) </p>
+</li>
+<li>
+<p>Søvnproblemer (insomni) </p>
+</li>
+<li>
+<p>Nedsat lyst til sex </p>
+</li>
+<li>
+<p>Eksem, rødme i huden </p>
+</li>
+<li>
+<p>Unormal mælkeproduktion </p>
+</li>
+<li>
+<p>Præmenstruelt syndrom </p>
+</li>
+<li>
+<p>Tørhed i skeden </p>
+</li>
+<li>
+<p>Andre gener der, hvor plasteret har siddet på huden </p>
+</li>
+<li>
+<p>Hævelse </p>
+</li>
+<li>
+<p>Højt blodtryk eller blodtryksstigning </p>
+</li>
+<li>
+<p>Øget appetit </p>
+</li>
+<li>
+<p>Hårtab </p>
+</li>
+<li>
+<p>Følsomhed over for sollys </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 kvinder): </p>
+<ul>
+<li>
+<p>Skadelige blodpropper i en vene eller en arterie f.eks.:</p>
+</li>
+<li>
+<p>i et ben eller en fod (dvs. DVT) </p>
+</li>
+<li>i en lunge (dvs. PE) </li>
+<li>hjerteanfald </li>
+<li>slagtilfælde </li>
+<li>symptomer, der ligner et mini-slagtilfælde eller et midlertidigt slagtilfælde, kendt som et 
+transitorisk iskæmisk anfald (TIA) </li>
+<li>
+<p>blodpropper i leveren, maven/tarmene, nyrerne eller øjet. 
+Risikoen for at få en blodprop kan være større, hvis du har andre tilstande, der øger denne risiko 
+(Se punkt 2 for yderligere oplysninger om de tilstande, der kan øge risikoen for blodpropper og 
+symptomerne på en blodprop). </p>
+</li>
+<li>
+<p>Brystkræft, livmoderhalskræft eller leverkræft </p>
+</li>
+<li>
+<p>Problemer såsom udslæt med blærer eller sår på det hudområde, hvor plasteret har siddet </p>
+</li>
+<li>
+<p>Godartede svulster i brysterne eller leveren, der ikke skyldes kræft </p>
+</li>
+<li>
+<p>Fibromer (muskelknuder) i livmoderen </p>
+</li>
+<li>
+<p>Vrede eller frustration </p>
+</li>
+<li>
+<p>Øget lyst til sex </p>
+</li>
+<li>
+<p>Smagsforstyrrelser </p>
+</li>
+<li>
+<p>Problemer med brug af kontaktlinser </p>
+</li>
+<li>
+<p>Pludselig og brat stigning i blodtrykket (hypertensiv krise) </p>
+</li>
+<li>
+<p>Betændelsestilstand i galdeblære eller tyktarm </p>
+</li>
+<li>
+<p>Celleforandringer i livmoderhalsen </p>
+</li>
+<li>
+<p>Brune pletter eller skjolder i ansigtet </p>
+</li>
+<li>
+<p>Galdesten eller tilstoppet galdegang </p>
+</li>
+<li>
+<p>Gulfarvning af huden og det hvide i øjnene </p>
+</li>
+<li>
+<p>Unormale sukker- eller insulinværdier i blodet </p>
+</li>
+<li>
+<p>En alvorlig allergisk reaktion, som kan omfatte hævelser i ansigt, læber, mund, tunge eller 
+svælg, som kan gøre det vanskeligt at synke eller trække vejret </p>
+</li>
+<li>
+<p>Hududslæt med ømme, røde knuder på skinneben og ben </p>
+</li>
+<li>
+<p>Hudkløe </p>
+</li>
+<li>
+<p>Afskallende hud med kløe og rødme </p>
+</li>
+<li>
+<p>Nedsat mælkeproduktion </p>
+</li>
+<li>
+<p>Udflåd fra skeden </p>
+</li>
+<li>
+<p>Væskeansamlinger i benene </p>
+</li>
+<li>
+<p>Væskeansamlinger </p>
+</li>
+<li>
+<p>Hævelser i arme, hænder, ben eller fødder. </p>
+</li>
+</ul>
+<p>Hvis du lider af mavebesvær </p>
+<ul>
+<li>
+<p>Den mængde hormoner, som du får fra EVRA, påvirkes normalt ikke af opkastning eller diarré. </p>
+</li>
+<li>
+<p>Du behøver ikke anvende ekstra prævention, hvis du har dårlig mave. </p>
+</li>
+</ul>
+<p>Du kan opleve pletblødninger eller svage blødninger eller brystspændinger eller få kvalme i de første 
+3 cyklusser. Problemet går sædvanligvis over, men hvis det ikke er tilfældet, skal du kontakte din læge 
+eller apotekspersonalet. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store evra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store evra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten efter "EXP". Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys og fugt. </p>
+<p>Må ikke opbevares i køleskab eller nedfryses. </p>
+<p>Brugte plastre indeholder fortsat aktive hormoner og skal af hensyn til miljøet bortskaffes på en 
+forsvarlig måde. Ved bortskaffelse af det brugte plaster skal du: </p>
+<ul>
+<li>
+<p>trække bortskaffelsesetiketten på dosisbrevets yderside tilbage. </p>
+</li>
+<li>
+<p>anbringe det brugte plaster på bortskaffelsesetiketten, så den klæbende flade dækker det tonede 
+område. </p>
+</li>
+<li>
+<p>lukke etiketten således, at det brugte plaster forsegles indeni, og bortskaffe det på en sådan 
+måde, at det er utilgængeligt for børn. </p>
+</li>
+</ul>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>EVRA indeholder: 
+Aktive stoffer: norelgestromin og ethinylestradiol. Hvert 20 cm2 depotplaster indeholder 6 mg 
+norelgestromin og 600 mikrogram ethinylestradiol. De aktive stoffer frigøres over 7 dage med 
+gennemsnitligt 203 mikrogram norelgestromin og 34 mikrogram ethinylestradiol for hver 24. time. </p>
+<p>Øvrige indholdsstoffer: bagsidelag: pigmenteret lavdensitetspolyethylen i det ydre lag, polyester i det 
+indre lag. Det mellemste lag: polyisobutylen/polybuten-klæbemiddel, crospovidon, uvævet 
+polyesterstof, lauryllactat. Det tredje lag: film af polyethylenterephthalat (PET), belægning af 
+polydimethylsiloxan. </p>
+<p>Udseende og pakningsstørrelser 
+EVRA er et tyndt, beigefarvet depotplaster af plastik præget med "EVRA". Den klæbende side 
+fastgøres på huden, efter at den gennemsigtige, beskyttende plastfilm er fjernet. </p>
+<p>EVRA fås i følgende pakningsstørrelser: æsker med 3, 9 eller 18 plastre i individuelle folieforede 
+breve, omgivet af en gennemsigtig, perforeret plastfilm med 3 breve i hver. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Indehaver af markedsføringstilladelsen:<br />
+Gedeon Richter Plc. 
+Gyömrői út 19-21. 1103 Budapest 
+Ungarn </p>
+<p>Fremstiller:<br />
+Janssen Pharmaceutica NV, Turnhoutseweg 30, B-2340 Beerse, Belgien. </p>
+<p>Gedeon Richter Plc. 
+Gyömrői út 19-21. 1103 Budapest 
+Ungarn </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-9d34314ad8d36a42a39a37ea1d4e2b34
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for evra Package Leaflet for language en"
@@ -796,5 +2150,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-9d34314ad8d36a42a39a37ea1d4e2b34"
 * entry[0].resource = composition-en-9d34314ad8d36a42a39a37ea1d4e2b34
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9d34314ad8d36a42a39a37ea1d4e2b34"
+* entry[=].resource = mp9d34314ad8d36a42a39a37ea1d4e2b34
+                            
+                    
+Instance: bundlepackageleaflet-da-9d34314ad8d36a42a39a37ea1d4e2b34
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evra Package Leaflet for language da"
+Description: "ePI document Bundle for evra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9d34314ad8d36a42a39a37ea1d4e2b34"
+* entry[0].resource = composition-da-9d34314ad8d36a42a39a37ea1d4e2b34
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9d34314ad8d36a42a39a37ea1d4e2b34"
+* entry[=].resource = mp9d34314ad8d36a42a39a37ea1d4e2b34
+                            
+                    
+
+
+
+Instance: mp9d34314ad8d36a42a39a37ea1d4e2b34
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product evra"
+Description: "evra"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/02/223/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Female contraception"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "evra"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: 9d34314ad8d36a42a39a37ea1d4e2b34ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "evra"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with evra"
+
+* subject = Reference(mp7dec5a07ee04562ee5398d1eccec0833)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#evra "evra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9d34314ad8d36a42a39a37ea1d4e2b34) // evra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9d34314ad8d36a42a39a37ea1d4e2b34) // evra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9d34314ad8d36a42a39a37ea1d4e2b34
+InstanceOf: List
+
+* insert 9d34314ad8d36a42a39a37ea1d4e2b34ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d70366d9de20b85af1c498f11302a348
 InstanceOf: CompositionUvEpi
 Title: "Composition for efmody Package Leaflet"
@@ -362,12 +365,455 @@ Ireland </p>
 
 
 
+Instance: composition-da-d70366d9de20b85af1c498f11302a348
+InstanceOf: CompositionUvEpi
+Title: "Composition for efmody Package Leaflet"
+Description:  "Composition for efmody Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8ba9a122884680f068463a5b65eba094)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8ba9a122884680f068463a5b65eba094
+* title = "TEST PURPOSES ONLY - efmody"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Efmody </li>
+<li>Sådan skal du tage Efmody </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What efmody is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What efmody is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel indeholder det aktive stof hydrokortison. Hydrokortison tilhører en gruppe 
+lægemidler, der kaldes binyrebarkhormoner (kortikosteroider). </p>
+<p>Hydrokortison er en kopi af hormonet kortisol. Kortisol produceres i kroppen af binyrerne. Efmody 
+anvendes, når binyrerne ikke producerer nok kortisol ved den arvelige sygdom adrenogenitalt 
+syndrom. Efmody er beregnet til brug hos voksne og unge fra 12 årsalderen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take efmody"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take efmody"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Efmody 
+- hvis du er allergisk over for hydrokortison eller et af de øvrige indholdsstoffer i Efmody 
+(angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Efmody, hvis følgende gælder for dig: </p>
+<p>Addison krise 
+- Du har Addison krise. Hvis du kaster op eller er meget utilpas, kan du have brug for en injektion 
+med hydrokortison. Lægen vil instruere dig i, hvordan dette gøres i en nødsituation. </p>
+<p>Infektioner 
+- Du har en infektion, eller du føler dig utilpas. Lægen vil muligvis ordinere ekstra hydrokortison 
+midlertidigt. </p>
+<p>Immunisering 
+- Du skal vaccineres. Brug af Efmody bør normalt ikke afholde dig fra at blive vaccineret. </p>
+<h2>Frugtbarhed</h2>
+<p>Hvis du har haft nedsat frugtbarhed på grund af medfødt binyrehyperplasi, kan din frugtbarhed 
+genoprettes, nogle gange kort efter start af Efmody. Det gælder både mænd og kvinder. Tal med 
+din læge om dit præventionsbehov, før du starter med Efmody. </p>
+<p>Andet 
+- Du skal opereres. Fortæl kirurgen eller narkoselægen inden operationen, at du får Efmody. 
+- Du har en kronisk sygdom i fordøjelsessystemet (f.eks. kronisk diarré), der påvirker dine tarmes 
+evne til at optage mad. Lægen kan ordinere et andet lægemiddel i stedet for eller overvåge dig 
+tættere for at kontrollere, at du får den rette mængde af medicinen. </p>
+<p>Du må ikke holde op med at tage Efmody uden at rådføre dig med lægen, da det kan gøre dig alvorligt 
+syg meget hurtigt. </p>
+<p>Da Efmody erstatter det naturlige hormon, som du mangler, er det mindre sandsynligt, at lægemidlet 
+giver bivirkninger, men </p>
+<ul>
+<li>
+<p>For meget Efmody kan påvirke knoglerne, og derfor vil lægen overvåge din dosis omhyggeligt. </p>
+</li>
+<li>
+<p>Nogle patienter i behandling med hydrokortison i form af Efmody har oplevet angst, depression 
+eller forvirring. Sig det til lægen, hvis du udvikler usædvanlig adfærd eller får selvmordstanker 
+efter påbegyndelse af medicinen (se pkt. 4). </p>
+</li>
+<li>
+<p>I sjældne tilfælde kan der forekomme allergi over for hydrokortison. Personer, der allerede har 
+allergier over for andre lægemidler, kan være mere tilbøjelige til at udvikle allergi over for 
+hydrokortison. Kontakt omgående lægen, hvis du får en reaktion som f.eks. hævelse eller 
+åndenød efter at have taget Efmody (se pkt. 4). </p>
+</li>
+<li>
+<p>Hydrokortison kan forårsage diabetes. Hvis du oplever symptomer som kraftig tørst eller 
+voldsom vandladningstrang, skal du straks kontakte lægen. </p>
+</li>
+<li>
+<p>Behandling med steroider kan føre til lavt niveau af kalium i blodet. Lægen vil overvåge dit 
+kaliumniveau for at tjekke for ændringer. </p>
+</li>
+<li>
+<p>Hydrokortison kan reducere væksten hos børn. Lægen vil overvåge din vækst, mens du får 
+Efmody. </p>
+</li>
+<li>
+<p>Børn med adrenogenitalt syndrom, der tager hydrokortison, kan udvise tegn på kønsudvikling 
+(pubertet) tidligere end normalt forventet. Lægen vil overvåge din udvikling, mens du får 
+Efmody. </p>
+</li>
+<li>
+<p>Kontakt lægen, hvis du oplever sløret syn eller andre synsforstyrrelser. </p>
+</li>
+</ul>
+<p>Brug af anden medicin sammen med Efmody 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Nogle lægemidler kan påvirke den måde, Efmody virker på, og det kan betyde, at lægen bliver nødt til 
+at ændre din Efmody-dosis. </p>
+<p>Lægen kan være nødt til at øge din Efmody-dosis, hvis du tager visse andre lægemidler, herunder:</p>
+<ul>
+<li>Lægemidler til behandling af epilepsi: phenytoin, carbamazepin, oxcarbazepin og barbiturater 
+som f.eks. phenobarbital og primidon. </li>
+<li>Lægemidler til behandling af infektioner (antibiotika): rifampicin og rifabutin. </li>
+<li>Lægemidler til behandling af humant immundefektvirus (hiv)-infektion og aids: efavirenz og 
+nevirapin. </li>
+<li>Naturlægemidler til behandling af depression, f.eks. prikbladet perikum. </li>
+</ul>
+<p>Lægen kan være nødt til at nedsætte din Efmody-dosis, hvis du tager visse andre lægemidler, 
+herunder:</p>
+<ul>
+<li>Svampemidler: itraconazol, posaconazol og voriconazol. </li>
+<li>Lægemidler til behandling af infektioner (antibiotika): erythromycin og clarithromycin. </li>
+<li>Lægemidler til behandling af humant immundefektvirus (hiv)-infektion og aids: ritonavir. </li>
+</ul>
+<p>Brug af Efmody sammen med mad og drikke 
+Nogle føde- og drikkevarer kan påvirke den måde, Efmody virker på, og det kan betyde, at lægen 
+bliver nødt til at nedsætte din Efmody-dosis. Disse omfatter:</p>
+<ul>
+<li>Grapefrugtjuice </li>
+<li>Lakrids. </li>
+</ul>
+<p>Graviditet, amning og frugtbarhed 
+Man ved, at hydrokortison passerer moderkagen under graviditet og udskilles i modermælk, men der 
+er ingen dokumentation for, at det forårsager nogen skade på barnet. Hvis du er gravid eller ammer, 
+har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge lægen til råds, før du 
+tager dette lægemiddel. </p>
+<p>Hvis du er en kvinde, der ikke har været igennem overgangsalderen, kan dine menstruationer vende 
+tilbage eller blive mere regelmæssige. Den genoprettede frugtbarhed kan medføre uventet graviditet, 
+selv før menstruationsblødningen opstår igen. Se også afsnittet "Advarsler og forholdsregler" 
+vedrørende frugtbarhed hos både mænd og kvinder. </p>
+<p>Trafik- og arbejdssikkerhed 
+Efmody påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner. Ubehandlet 
+binyrebarkinsufficiens kan påvirke evnen til at føre motorkøretøj og betjene maskiner. Sig det til 
+lægen med det samme, hvis du føler dig træt eller svimmel, når du tager Efmody. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take efmody"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take efmody"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens, sygeplejerskens eller apotekspersonalets anvisning. Er du 
+i tvivl, så spørg dem. </p>
+<p>Lægen vil fastsætte den rigtige startdosis af Efmody og justere dosen ved behov. Hvis du bliver syg, 
+skal opereres eller oplever alvorlig stress, vil lægen måske ordinere et andet binyrebarkhormon, som 
+du skal tage i stedet for eller sammen med Efmody. </p>
+<p>Den indledende daglige dosis kan inddeles i to doser, hvor to tredjedele til tre fjerdedele af din daglige 
+dosis tages om aftenen ved sengetid og resten om morgenen. </p>
+<p>Morgendosen af hydrokortison i hårde kapsler med modificeret udløsning bør tages på tom mave 
+mindst 1 time før et måltid, og aftendosen bør tages ved sengetid mindst 2 timer efter dagens sidste 
+måltid. </p>
+<p>Brug til børn 
+Der foreligger ingen data om Efmodys sikkerhed og virkning hos børn under 12 år. Der findes andre 
+hydrokortisonholdige lægemidler til børn under 12 år. </p>
+<p>Sådan skal du tage dette lægemiddel 
+Kapslerne synkes med vand og må ikke tygges, da det kan medføre ændret frigivelse af medicinen. </p>
+<p>Hvis du har taget for meget Efmody 
+Hvis du har taget for meget Efmody, skal du kontakte lægen eller apotekspersonalet og få yderligere 
+vejledning så hurtigt som muligt. </p>
+<p>Hvis du har glemt at tage Efmody 
+Hvis du har glemt at tage en dosis, skal du tage dosen så hurtigt som muligt. </p>
+<p>Hvis du holder op med at tage Efmody 
+Du må ikke holde op med at tage Efmody uden først at tale med lægen. Pludseligt ophør med 
+medicinen kan hurtigt føre til en Addison krise. </p>
+<p>Hvis du får det dårligt 
+Sig det lægen eller apotekspersonalet, hvis du bliver syg, får alvorlig stress, kommer til skade eller 
+skal opereres, da lægen måske vil ordinere et andet binyrebarkhormon, som du skal tage i stedet for 
+eller sammen med Efmody (se pkt. 2). 
+Hvis du har taget for meget Efmody 
+Forgiftning eller dødsfald ses sjældent, hvis en patient har taget for meget Efmody, men du skal 
+kontakte lægen med det samme. 
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<ul>
+<li>
+<p>Hvis du får en reaktion som f.eks. hævelse eller åndenød efter at have taget Efmody, skal du 
+søge lægehjælp med det samme og underrette lægen så hurtigt som muligt, da dette kan være 
+tegn på en alvorlig allergisk reaktion (anafylaktoid reaktion) (se pkt. 2). </p>
+</li>
+<li>
+<p>Symptomer på Addison krise og binyrebarkinsufficiens er hyppigt indberettede (kan forekomme 
+hos op til 1 ud af 10 personer). Hvis du får mindre hydrokortison, end du har brug for, kan du 
+blive alvorligt utilpas. Hvis du føler dig utilpas, og især hvis du begynder at kaste op, skal du 
+kontakte lægen med det samme, da du kan have brug for yderligere hydrokortison (evt. en 
+injektion med hydrokortison). </p>
+</li>
+</ul>
+<p>Hvis du får en eller flere af nedenstående bivirkninger, skal du kontakte lægen så hurtigt som 
+muligt: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 patienter) 
+- Træthed </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) 
+- Kvalme 
+- Mavesmerter 
+- Nedsat energi eller svaghed 
+- Øget eller nedsat appetit og vægtøgning eller vægttab 
+- Muskelsmerter og muskelsvaghed 
+- Ledsmerter 
+- Hovedpine 
+- Svimmelhed 
+- Smerter eller snurrende fornemmelse i tommelfingeren eller de andre fingre 
+(karpaltunnelsyndrom) 
+- Prikkende fornemmelse </p>
+<ul>
+<li>Søvnløshed, søvnbesvær eller usædvanlige drømme </li>
+<li>Nedtrykthed </li>
+<li>Akne </li>
+<li>Hårvækst </li>
+<li>Ændrede nyre- og glukoseværdier i blodprøver </li>
+</ul>
+<p>Langvarig behandling med hydrokortison kan nedsætte knogletætheden. Lægen vil overvåge dine 
+knogler (se pkt. 2). </p>
+<p>Personer, der har behov for behandling med steroider, kan have forhøjet risiko for hjertesygdom. 
+Lægen vil overvåge dig for dette. </p>
+<p>Langvarig behandling med hydrokortison kan påvirke væksten hos børn og unge. Lægen vil overvåge 
+væksten hos børn og unge patienter. Nogle børn med adrenogenitalt syndrom, der behandles med 
+hydrokortison, kan komme i puberteten hurtigere end forventet. Lægen vil overvåge din udvikling (se 
+pkt. 2). </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. </p>
+<p>Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
+nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store efmody"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store efmody"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderen og æsken efter EXP.<br />
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
+<p>Opbevares i den originale pakning. </p>
+<p>Hold beholderen tæt tillukket for at beskytte mod fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Efmody indeholder:</p>
+<ul>
+<li>Aktivt stof: hydrokortison * Efmody 5 mg hårde kapsler med modificeret udløsning: Hver hård kapsel med 
+modificeret udløsning indeholder 5 mg hydrokortison * Efmody 10 mg hårde kapsler med modificeret udløsning: Hver hård kapsel med 
+modificeret udløsning indeholder 10 mg hydrokortison * Efmody 20 mg hårde kapsler med modificeret udløsning: Hver hård kapsel med 
+modificeret udløsning indeholder 20 mg hydrokortison </li>
+<li>Øvrige indholdsstoffer: mikrokrystallinsk cellulose, povidon, methacrylsyre-methylmethacrylat 
+copolymer, talcum og dibutylsebacat. </li>
+</ul>
+<p>Kapsel 
+Kapslen er fremstillet af gelatine. </p>
+<p>Efmody 5 mg hårde kapsler med modificeret udløsning (hvide/blå) 
+Titandioxid (E171) og indigotin (E132) </p>
+<p>Efmody 10 mg hårde kapsler med modificeret udløsning (hvide/grønne) 
+Titandioxid (E171), indigotin (E132) og gul jernoxid (E172) </p>
+<p>Efmody 20 mg hårde kapsler med modificeret udløsning (hvide/orange) 
+Titandioxid (E171), gul jernoxid (E172) og rød jernoxid (E172) </p>
+<p>Trykfarve 
+Trykfarven på kapslerne indeholder shellac, sort jernoxid (E172), propylenglycol og kaliumhydroxid </p>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>Efmody 5 mg hårde kapsler med modificeret udløsning 
+En kapsel (ca.19 mm lang) med uigennemsigtig blå overdel og uigennemsigtig hvid underdel 
+påtrykt "CHC 5mg", der indeholder hvidt til råhvidt granulat. </p>
+</li>
+<li>
+<p>Efmody 10 mg hårde kapsler med modificeret udløsning 
+En kapsel (ca.19 mm lang) med uigennemsigtig grøn overdel og uigennemsigtig hvid underdel 
+påtrykt "CHC 10mg", der indeholder hvidt til råhvidt granulat. </p>
+</li>
+<li>
+<p>Efmody 20 mg hårde kapsler med modificeret udløsning 
+En kapsel (ca. 22 mm lang) med uigennemsigtig orange overdel og uigennemsigtig hvid 
+underdel påtrykt "CHC 20mg", der indeholder hvidt til råhvidt granulat. </p>
+</li>
+</ul>
+<p>Efmody fås i beholdere af højdensitetspolyetylen med børnesikret, forseglet polypropylenskruelåg 
+med integreret tørremiddel.  En beholder indeholder 50 hårde kapsler med modificeret udløsning. </p>
+<p>Pakningsstørrelse: 
+Æske med 1 beholder, der indeholder 50 hårde kapsler med modificeret udløsning. 
+Æske med 2 beholdere, der indeholder 50 hårde kapsler med modificeret udløsning (100 kapsler). </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Diurnal Europe B.V. 
+Van Heuven Goedhartlaan 935 A 
+1181LD Amstelveen 
+Holland </p>
+<p>Fremstiller 
+Delpharm Lille SAS 
+Parc d'Activités Roubaix-Est 
+22 rue de Toufflers CS 50Lys Lez Lannoy, 59 Frankrig </p>
+<p>Wasdell Europe Limited 
+IDA Dundalk Science and Technology Park 
+Mullagharlin 
+Dundalk<br />
+Co. Louth, A91 DET0 
+Irland  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<p>BILAG IV </p>
+<p>VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE 
+FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE </p>
+<p>Videnskabelige konklusioner </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for hydrocortison (for 
+centralt godkendte præparater til binyrebarkinsufficiens, medfødt adrenal hyperplasi, formuleringer 
+med modificeret frigivelse) er CHMP nået frem til følgende videnskabelige konklusioner: </p>
+<p>På baggrund af tilgængelige data om tidlig forbedret fertilitet fra kliniske forsøg og spontane 
+rapporter, herunder syv tilfælde med en tæt tidsmæssig sammenhæng, og på baggrund af en plausibel 
+virkningsmekanisme, vurderer PRAC en kausal sammenhæng mellem Efmody og tidlig forbedring af 
+infertilitet er som minimum en rimelig mulighed. PRAC konkluderede, at produktinformationen for 
+Efmody skal ændres i overensstemmelse hermed. </p>
+<p>Produktresuméets pkt. 4.4. og pkt. 4.6. skal opdateres med tilføjelse af en forholdsregel om uventet 
+tidlig forbedring af infertilitet (pkt. 4.4) og sletning af oplysning vedr. fertilitet (pkt. 4.6). 
+Indlægssedlen skal opdateres i overensstemmelse hermed. </p>
+<p>CHMP tilslutter sig PRAC's videnskabelige konklusioner. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
+<p>På baggrund af de videnskabelige konklusioner for hydrocortison (for centralt godkendte præparater til 
+binyrebarkinsufficiens, medfødt adrenal hyperplasi, formuleringer med modificeret frigivelse) er 
+CHMP af den opfattelse, at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder 
+hydrocortison forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i 
+produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d70366d9de20b85af1c498f11302a348
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for efmody Package Leaflet for language en"
+Description: "ePI document Bundle for efmody Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d70366d9de20b85af1c498f11302a348"
+* entry[0].resource = composition-en-d70366d9de20b85af1c498f11302a348
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd70366d9de20b85af1c498f11302a348"
+* entry[=].resource = mpd70366d9de20b85af1c498f11302a348
+                            
+                    
+Instance: bundlepackageleaflet-da-d70366d9de20b85af1c498f11302a348
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for efmody Package Leaflet for language da"
+Description: "ePI document Bundle for efmody Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d70366d9de20b85af1c498f11302a348"
+* entry[0].resource = composition-da-d70366d9de20b85af1c498f11302a348
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd70366d9de20b85af1c498f11302a348"
+* entry[=].resource = mpd70366d9de20b85af1c498f11302a348
+                            
+                    
+
+
+
+Instance: mpd70366d9de20b85af1c498f11302a348
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Efmody 5 mg modified-release hard capsules"
-Description: "Efmody 5 mg modified-release hard capsules"
+Title: "Medicinal Product efmody"
+Description: "efmody"
 Usage: #inline
 
  
@@ -387,7 +833,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Efmody 5 mg modified-release hard capsules"
+  * productName = "efmody"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -414,29 +860,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d70366d9de20b85af1c498f11302a348
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for efmody Package Leaflet for language en"
-Description: "ePI document Bundle for efmody Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d70366d9de20b85af1c498f11302a348ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Efmody 5 mg modified-release hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "efmody"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d70366d9de20b85af1c498f11302a348"
-* entry[0].resource = composition-en-d70366d9de20b85af1c498f11302a348
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8ba9a122884680f068463a5b65eba094"
-* entry[=].resource = mp8ba9a122884680f068463a5b65eba094
-                            
-                      
+* title = "List of all ePIs associated with efmody"
+
+* subject = Reference(mp8ba9a122884680f068463a5b65eba094)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#efmody "efmody"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d70366d9de20b85af1c498f11302a348) // efmody en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d70366d9de20b85af1c498f11302a348) // efmody da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d70366d9de20b85af1c498f11302a348
+InstanceOf: List
+
+* insert d70366d9de20b85af1c498f11302a348ListRuleset
+    

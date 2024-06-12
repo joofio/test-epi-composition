@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6ff79951b10cf21bd6fd953fc17e7cc0
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumigan Package Leaflet"
@@ -390,12 +393,549 @@ effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-6ff79951b10cf21bd6fd953fc17e7cc0
+InstanceOf: CompositionUvEpi
+Title: "Composition for lumigan Package Leaflet"
+Description:  "Composition for lumigan Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp84c2b61b98b29ffabeedeb2d71e2c028)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp84c2b61b98b29ffabeedeb2d71e2c028
+* title = "TEST PURPOSES ONLY - lumigan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at bruge LUMIGAN 0,1 mg/ml 
+3. Sådan skal De bruge LUMIGAN 0,1 mg/ml 
+4. Bivirkninger
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lumigan is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lumigan is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>LUMIGAN er et lægemiddel til behandling af glaukom (grøn stær). Det tilhører en gruppe lægemidler, 
+der kaldes prostamider.
+LUMIGAN øjendråber anvendes til at sænke forhøjet tryk i øjet. Dette lægemiddel kan anvendes alene 
+eller sammen med øjendråber, som kaldes beta-blokkere, der også nedsætter trykket. 
+Øjet indeholder en klar, vandig væske, som giver næring til øjet. Væsken løber konstant ud af øjet, og 
+der dannes ny væske som erstatning. Såfremt væsken ikke kan løbe hurtigt nok væk, stiger trykket i 
+øjet. Dette lægemiddel virker ved at øge den mængde væske, der løber væk. Hermed nedsættes trykket 
+i øjet. Såfremt det forhøjede tryk ikke nedsættes, kan det medføre en sygdom, der hedder grøn stær 
+(glaukom), og måske skade Deres syn.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lumigan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lumigan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke LUMIGAN 0,1 mg/ml</h2>
+<p>hvis De er allergisk over for bimatoprost eller et af de øvrige indholdsstoffer i LUMIGAN 0,1 
+mg/ml (angivet i punkt 6).
+-
+hvis De tidligere har måttet ophøre med at anvende øjendråber på grund af konserveringsmidlet 
+benzalkoniumchlorid.
+Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De bruger LUMIGAN 0,1 mg/ml.
+De bør tale med Deres læge: 
+-
+Hvis De har åndedrætsproblemer.
+-
+Hvis De har lever- eller nyreproblemer. 
+-
+Hvis De tidligere er blevet opereret for grå stær
+-
+Hvis de har tørre øjne
+-
+Hvis de har eller har haft problemer med Deres hornhinde (den forreste gennemsigtige del af 
+øjet)
+53
+-
+Hvis De bruger kontaktlinser (se "LUMIGAN 0,1 mg/ml indeholder benzalkoniumchlorid")
+-
+Hvis De har eller har haft lavt blodtryk eller langsom hjerterytme (puls)
+-
+Hvis De har haft en virusinfektion eller betændelse i øjet
+Under behandling kan LUMIGAN forårsage tab af fedtvæv omkring øjet, hvilket kan medføre, at 
+Deres øjenlågsfure bliver dybere, Deres øjne ser indsunkne ud (enoftalmi), Deres øverste øjenlåg 
+kommer til at hænge (ptose), huden omkring Deres øjne bliver stram (involution af dermatochalase), 
+og at den nederste hvide del af Deres øjne bliver mere synlig (synlig inferior sclera). Forandringerne er 
+typisk milde, men hvis de er udtalte, kan de påvirke synsfeltet. Forandringerne kan forsvinde, hvis De 
+holder op med at bruge LUMIGAN. LUMIGAN kan måske forårsage, at Deres øjenvipper bliver 
+mørkere og vokser, samt få huden omkring øjenlåget til at blive mørkere. Farven på regnbuehinden 
+(iris) kan også blive mørkere. Disse forandringer kan måske blive permanente. Forandringerne
+bemærkes mere, såfremt kun det ene øje behandles.
+Børn og unge
+LUMIGAN er ikke afprøvet på børn under 18 år og bør derfor ikke anvendes af patienter under 18 år.
+Brug af anden medicin sammen med LUMIGAN
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. 
+Graviditet og amning
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De bruger dette lægemiddel.
+LUMIGAN udskilles måske i mælken og må derfor ikke anvendes af ammende kvinder.
+Trafik- og arbejdssikkerhed
+Deres syn kan blive sløret i en kort periode lige efter inddrypning af LUMIGAN. Derfor bør De ikke 
+køre bil eller betjene maskiner, før synet er klart igen.
+LUMIGAN 0,1 mg/ml indeholder benzalkoniumchlorid
+Dette lægemiddel indeholder 0,6 mg benzalkoniumchlorid i hver 3 ml opløsning, svarende til 
+0,2 mg/ml.
+Anvend ikke øjendråberne samtidig med, at De bærer kontaktlinser. Benzalkoniumchlorid, som er et 
+konserveringsmiddel i LUMIGAN, kan absorberes af bløde kontaktlinser og kan ændre farven af 
+kontaktlinserne. De skal tage kontaktlinserne ud, inden lægemidlet bruges, og vente mindst
+15 minutter, før De sætter kontaktlinserne i igen. Benzalkoniumchlorid kan også give øjenirritation, 
+især hvis De har tørre øjne eller problemer med hornhinderne (det klare lag forrest i øjet). Hvis De har 
+unormale fornemmelser i øjet såsom svie eller smerte, når De bruger dette lægemiddel, skal De tale 
+med Deres læge.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lumigan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lumigan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet. 
+LUMIGAN må kun anvendes som øjendråber. Den anbefalede dosis er 1 dråbe LUMIGAN en gang 
+daglig om aftenen i det øje/de øjne, som skal behandles. 
+Hvis De bruger anden øjenmedicin, skal der gå mindst fem minutter imellem, at De bruger LUMIGAN 
+og den anden øjenmedicin. 
+De må ikke bruge LUMIGAN mere end én gang dagligt, da det kan nedsætte behandlingens virkning. 
+Brugsvejledning:
+54
+Anvend ikke flasken, hvis forseglingen på flaskehalsen er brudt, før den tages i brug første gang. 
+1. Vask hænderne. Læg hovedet tilbage og se op i loftet.
+2. Træk forsigtigt det nederste øjenlåg ned, så der dannes en lille lomme.
+3. Vend flasken og tryk for at udløse 1 dråbe i øjet.
+4. Slip det nederste øjenlåg, og luk øjet i 30 sekunder.
+Eventuelt overskydende lægemiddel, som løber ned ad kinden, skal tørres væk.
+Såfremt dråben løber ved siden af øjet, dryppes igen.
+For at undgå infektioner og øjenskade må flaskespidsen ikke berøre øjet eller andet. Skru hætten på 
+igen umiddelbart efter brug.
+Hvis De har brugt for meget LUMIGAN 0,1 mg/ml 
+Hvis De har brugt for meget LUMIGAN, er det usandsynligt, at det skulle forårsage nogen skade. 
+Næste dosis tages på det sædvanlige tidspunkt. Hvis De er bekymret, så kontakt Deres læge eller 
+apotekspersonalet. 
+Hvis De har glemt at bruge LUMIGAN 0,1 mg/ml 
+Hvis De har glemt at bruge LUMIGAN, inddryppes en enkelt dråbe, så snart De husker det. Fortsæt 
+derefter den normale rutine. De må ikke bruge en dobbeltdosis som erstatning for den glemte dosis.
+Hvis De holder op med at bruge LUMIGAN 0,1 mg/ml 
+LUMIGAN bør bruges hver dag for at opnå fuld effekt. Hvis De holder op med at bruge LUMIGAN, 
+kan trykket i Deres øje stige. Tal derfor med Deres læge, inden behandlingen afbrydes.
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Meget almindelige bivirkninger 
+Kan forekomme hos flere ud af 10 brugere
+Bivirkninger i øjet 
+
+Let rødme (hos op til 29 %)
+
+Tab af fedtvæv i øjenområdet, som kan føre til fordybning af øjenlågsfuren, indfaldne øjne 
+(enoftalmi), hængende øjenlåg (ptose), stramning af huden omkring øjet (involution af 
+dermatochalase), og den nederste hvide del af øjet bliver mere synlig (synlig inferior sclera)
+Almindelige bivirkninger
+Kan forekomme hos mellem 1 og 10 ud af 100 brugere
+Bivirkninger i øjet
+55
+
+Små brud i øjets slimhinde med eller uden betændelse
+
+Irritation
+
+Kløende øjne
+
+Længere øjenvipper
+
+Irritation nå øjet dryppes
+
+Smerter
+Bivirkninger i huden 
+
+Røde og kløende øjenlåg 
+
+Mørkere hudfarve rundt om øjet
+
+Hårvækst rundt om øjet
+Ikke almindelige bivirkninger
+Kan forekomme hos mellem 1 og 10 ud af 1.000 brugere
+Bivirkninger i øjet
+
+Mørkere farve på iris
+
+Træthed i øjet
+
+Hævelse af øjets overflade
+
+Sløret syn
+
+Tab af øjenvipper
+Bivirkninger på huden
+
+Tør hud
+
+Skorpedannelse på kanten af øjenlåget
+
+Hævet øjenlåg
+
+Kløe
+Bivirkninger i kroppen
+
+Hovedpine
+
+Kvalme
+Bivirkninger, hvor hyppigheden ikke er kendt
+Bivirkninger i øjet
+
+Makulaødem (hævelse af nethinden bagerst i øjet, der kan give dårligere syn)
+
+Mørkere farve på øjenlåget
+
+Tørre øjne
+
+Klistrede øjne
+
+En fornemmelse af at have noget i øjet
+
+Hævelse af øjet
+
+Øget tåredannelse
+
+Ubehag i øjnene
+
+Øget lysfølsomhed
+Bivirkninger i kroppen
+
+Astma
+
+Forværring af astma
+
+Forværring af lungesygdommen kaldet kronisk obstruktiv lungesygdom (KOL)
+
+Kortåndethed
+
+Symptomer på allergisk reaktion (hævelse, røde øjne og hududslæt)
+
+Svimmelhed
+
+Forhøjet blodtryk
+
+Misfarvning af huden rundt om øjet
+56
+Ud over bivirkningerne for LUMIGAN 0,1 mg/ml har man set følgende bivirkninger ved medicin, der 
+indeholder en større mængde bimatoprost (0,3 mg/ml):
+
+En brændende fornemmelse i øjet
+
+En allergisk reaktion i øjet
+
+Betændte øjenlåg
+
+Besvær med at se klart
+
+Forværring af synet
+
+Hævelse af det gennemsigtige lag, der dækker øjet
+
+Tåreflåd
+
+Mørkere øjenvipper
+
+Nethindeblødning
+
+Vævsirritation i øjet
+
+Cystoidt makulaødem (nethinden i øjet svulmer op, så man får dårligere syn)
+
+Sitrende øjenlåg
+
+Øjenlåget krymper og bevæger sig væk fra øjets overflade
+
+Rødme af huden omkring øjet
+
+Mathed
+
+Forhøjede blodprøver for leverfunktion
+Andre bivirkninger indberettet fra øjendråber, der indeholder fosfater.
+I meget sjældne tilfælde har nogle patienter med alvorlige skader på den forreste klare del af øjet 
+(hornhinden) i løbet af behandlingen udviklet uklare pletter på hornhinden, som skyldes dannelse af 
+kalk.
+Indberetning af bivirkninger
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken.
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lumigan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lumigan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på flaskens etiket og på kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Flasken skal kasseres senest fire uger efter første åbning, selv om der stadig er nogle øjendråber 
+tilbage. Dette forhindrer infektion. For at huske datoen for første åbning bør De skrive denne dato ned 
+i feltet på kartonen. 
+Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>LUMIGAN 0,1 mg/ml indeholder:</h2>
+<h2>Aktivt stof: Bimatoprost. 1 ml opløsning indeholder 0,1 mg bimatoprost.</h2>
+<p>Øvrige indholdsstoffer: Benzalkoniumchlorid (konserveringsmiddel), natriumchlorid, 
+dinatriumphosphatheptahydrat, citronsyremonohydrat og renset vand. Der kan tilsættes små 
+mængder saltsyre eller natriumhydroxid for at holde syreniveauet (pH-niveauet) normalt.
+57
+Udseende og pakningsstørrelser
+LUMIGAN er en farveløs, klar øjendråbeopløsning i en pakning, der indeholder enten 1 plastflaske 
+eller 3 plastflasker med skruelåg. Hver flaske er ca. halvt fyldt og indeholder 3 ml opløsning. Det er 
+tilstrækkeligt til 4 ugers forbrug. Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen 
+AbbVie Deutschland GmbH &amp; Co. KG
+Knollstraße
+67061 Ludwigshafen
+Tyskland
+Fremstiller
+Allergan Pharmaceuticals Ireland
+Castlebar Road
+Westport
+Co. Mayo
+Irland
+Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AbbVie SA
+Tél/Tel: +32 10 477811
+Lietuva
+AbbVie UAB 
+Tel: + 370 5 205 3023
+България
+АбВи ЕООД
+Тел:+359 2 90 30 430
+Luxembourg/Luxemburg 
+AbbVie SA
+Belgique/Belgien
+Tél/Tel: +32 10 477811
+Česká republika
+AbbVie s.r.o. 
+Tel.: +420 233 098 111
+Magyarország
+AbbVie Kft.
+Tel:+36 1 455 8600
+Danmark
+AbbVie A/S
+Tlf: +45 72 30 20 28
+Malta
+Vivian Corporation Ltd.
+Tel: +356 27780Deutschland
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel.: 00800 222843 33 (gebührenfrei)
+Tel.: +49 (0) 611 / 1720-0
+Nederland
+AbbVie B.V.
+Tel: +31 (0)88 322 2843
+Eesti
+AbbVie OÜ
+Tel. +372 6231011
+Norge
+AbbVie AS
+Tlf: +47 67 81 80 00
+Ελλάδα
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε.
+Τηλ: +30 214 4165 555
+Österreich
+AbbVie GmbH 
+Tel: +43 1 20589-0
+España
+AbbVie Spain, S.L.U.
+Tel: +34 913840910
+Polska
+AbbVie Sp. z o.o.
+Tel.: +48 22 372 78 00
+58
+France
+AbbVie
+Tél: +33 (0) 1 45 60 13 00
+Portugal
+AbbVie, Lda.
+Tel.: +351 (0)21 1908400
+Hrvatska
+AbbVie d.o.o.
+Tel: + 385 (0)1 5625 501
+România
+AbbVie S.R.L.
+Tel: +40 21 529 30 35
+Ireland
+AbbVie Limited
+Tel: +353 (0)1 4287900
+Slovenija
+AbbVie Biofarmacevtska družba d.o.o.
+Tel: +386 (1)32 08 060
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AbbVie s.r.o.
+Tel: +421 2 5050 0777
+Italia
+AbbVie S.r.l.
+Tel: +39 06 928921
+Suomi/Finland
+AbbVie Oy
+Puh/Tel: +358 (0)10 2411 200
+Κύπρος
+Lifepharma (Z.A.M.) Ltd
+Τηλ: +357 22 34 74 40
+Sverige
+AbbVie AB
+Tel: +46 (0)8 684 44 600
+Latvija
+AbbVie SIA 
+Tel: +371 67605000
+United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561090
+Denne indlægsseddel blev senest ændret
+De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+59
+Indlægsseddel: Information til brugeren
+LUMIGAN 0,3 mg/ml, øjendråber, opløsning
+Bimatoprost
+Læs denne indlægsseddel grundigt, inden De begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. De kan få brug for at læse den igen.
+-
+Spørg lægen eller apotekspersonalet, hvis der er mere, De vil vide. 
+-
+Lægen har ordineret dette lægemiddel til Dem personligt. Lad derfor være med at give 
+medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
+De har.
+-
+Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6ff79951b10cf21bd6fd953fc17e7cc0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lumigan Package Leaflet for language en"
+Description: "ePI document Bundle for lumigan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6ff79951b10cf21bd6fd953fc17e7cc0"
+* entry[0].resource = composition-en-6ff79951b10cf21bd6fd953fc17e7cc0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6ff79951b10cf21bd6fd953fc17e7cc0"
+* entry[=].resource = mp6ff79951b10cf21bd6fd953fc17e7cc0
+                            
+                    
+Instance: bundlepackageleaflet-da-6ff79951b10cf21bd6fd953fc17e7cc0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lumigan Package Leaflet for language da"
+Description: "ePI document Bundle for lumigan Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6ff79951b10cf21bd6fd953fc17e7cc0"
+* entry[0].resource = composition-da-6ff79951b10cf21bd6fd953fc17e7cc0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6ff79951b10cf21bd6fd953fc17e7cc0"
+* entry[=].resource = mp6ff79951b10cf21bd6fd953fc17e7cc0
+                            
+                    
+
+
+
+Instance: mp6ff79951b10cf21bd6fd953fc17e7cc0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product LUMIGAN 0.1 mg/ml eye drops, solution"
-Description: "LUMIGAN 0.1 mg/ml eye drops, solution"
+Title: "Medicinal Product lumigan"
+Description: "lumigan"
 Usage: #inline
 
  
@@ -415,7 +955,7 @@ Usage: #inline
 
 
 * name
-  * productName = "LUMIGAN 0.1 mg/ml eye drops, solution"
+  * productName = "lumigan"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -442,29 +982,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6ff79951b10cf21bd6fd953fc17e7cc0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lumigan Package Leaflet for language en"
-Description: "ePI document Bundle for lumigan Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6ff79951b10cf21bd6fd953fc17e7cc0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/02/205/003-004"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lumigan"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6ff79951b10cf21bd6fd953fc17e7cc0"
-* entry[0].resource = composition-en-6ff79951b10cf21bd6fd953fc17e7cc0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp84c2b61b98b29ffabeedeb2d71e2c028"
-* entry[=].resource = mp84c2b61b98b29ffabeedeb2d71e2c028
-                            
-                      
+* title = "List of all ePIs associated with lumigan"
+
+* subject = Reference(mp84c2b61b98b29ffabeedeb2d71e2c028)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lumigan "lumigan"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6ff79951b10cf21bd6fd953fc17e7cc0) // lumigan en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6ff79951b10cf21bd6fd953fc17e7cc0) // lumigan da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6ff79951b10cf21bd6fd953fc17e7cc0
+InstanceOf: List
+
+* insert 6ff79951b10cf21bd6fd953fc17e7cc0ListRuleset
+    

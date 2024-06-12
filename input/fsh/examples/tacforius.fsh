@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-dff98a1057e854dd22ade83cc61ef07f
 InstanceOf: CompositionUvEpi
 Title: "Composition for tacforius Package Leaflet"
@@ -566,12 +569,670 @@ Tel: +44 2075407This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-dff98a1057e854dd22ade83cc61ef07f
+InstanceOf: CompositionUvEpi
+Title: "Composition for tacforius Package Leaflet"
+Description:  "Composition for tacforius Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3eebcb6e815fd5eac911d15cea136628)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3eebcb6e815fd5eac911d15cea136628
+* title = "TEST PURPOSES ONLY - tacforius"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Tacforius </li>
+<li>Sådan skal du tage Tacforius </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelse og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tacforius is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tacforius is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tacforius indeholder det aktive stof tacrolimus. Det er et immundæmpende lægemiddel. Efter en 
+organtransplantation (lever, nyre), vil kroppens immunsystem forsøge at afstøde det nye organ. 
+Tacforius benyttes til at kontrollere din krops immunreaktion, således at kroppen kan acceptere det nye 
+transplanterede organ. </p>
+<p>Du kan også få ordineret Tacforius ved en igangværende afstødning af den transplanterede lever, nyre, 
+hjerte eller andet organ, hvis din tidligere behandling ikke kunne kontrollere immunreaktionen efter 
+transplantationen. </p>
+<p>Tacforius anvendes til voksne. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tacforius"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tacforius"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Tacforius 
+- hvis du er allergisk over for tacrolimus eller et af de øvrige indholdsstoffer i Tacforius 
+(angivet i punkt 6). 
+- hvis du er allergisk over for sirolimus eller over for makrolidantibiotika (f.eks. erythomycin, 
+clarithromycin, josamycin). </p>
+<p>Advarsler og forsigtighedsregler 
+Almindelige tacrolimus kapsler, der virker umiddelbart (f.eks. Tacniteva), og Tacforius depotkapsler 
+indeholder begge det aktive stof tacrolimus. Tacforius depotkapsler tages dog kun en gang daglig, 
+mens kapslerne, der virker umiddelbart, tages to gange daglig. Dette skyldes, at Tacforius-
+depotkapsler har en langvarig frigivelse af tacrolimus (langsommere frigivelse over en længere 
+periode). Tacforius depotkapsler og tacrolimus kapsler, der virker umiddelbart, kan ikke udskiftes med 
+hinanden. </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Tacforius:</p>
+<ul>
+<li>hvis du tager noget af den medicin, som er nævnt under "Brug af anden medicin sammen med 
+Tacforius". </li>
+<li>hvis du eller har haft leverproblemer. </li>
+<li>hvis du har diarré i mere end én dag. </li>
+<li>hvis du får stærke mavesmerter med eller uden andre symptomer, som kulderystelser, feber, 
+kvalme eller opkastning. </li>
+<li>hvis du har en ændring i hjerterytmen, som kaldes “QT-forlængelse". </li>
+<li>hvis De har eller har haft beskadigelse af de mindste blodkar, også kendt som trombotisk 
+mikroangiopati/trombotisk trombocytopenisk purpura/hæmolytisk uræmisk syndrom. Fortæl 
+det til Deres læge, hvis De oplever feber, blå mærker under huden (kan vise sig som røde 
+prikker), uforklarlig træthed, forvirring, gulfarvning af huden eller øjnene, lav urinmængde, 
+synstab eller krampeanfald (se punkt 4). Når tacrolimus tages sammen med sirolimus eller 
+everolimus, kan risikoen for at udvikle disse symptomer stige. </li>
+</ul>
+<p>Undlad at tage naturlægemidler, f.eks. perikon (Hypericum perforatum) eller andre naturlægemidler, 
+da dette kan påvirke virkningen og den dosis af Tacforius, som De har brug for. Spørg lægen, før De 
+tager nogen naturlægemidler eller urtemedicin, hvis De er i tvivl. </p>
+<p>Din læge skal måske justere din Tacforius dosis. </p>
+<p>Du bør jævnligt være i kontakt med din læge. Fra tid til anden kan det være nødvendigt for lægen at 
+tage blod- eller urinprøver eller undersøge dit hjerte eller dine øjne for at bestemme den rette Tacforius 
+dosis. </p>
+<p>Du bør begrænse din udsættelse for sollys og UV (ultraviolet) lys, mens du tager Tacforius. Dette 
+skyldes, at immundæmpende behandling kan øge risikoen for ondartede hudlidelser. Bær passende 
+beskyttende beklædning og anvend en solcreme med høj solbeskyttende faktor. </p>
+<p>Forsigtighedsregler ved håndtering: 
+Direkte kontakt med noget sted på kroppen, såsom hud eller øjne, eller indånding af pulver fra 
+kapslerne skal undgås. Hvis en sådan kontakt forekommer, skal huden vaskes og øjnene skylles. </p>
+<p>Børn og unge 
+Tacforius bør ikke gives til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Tacforius 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Tacforius må ikke tages sammen med ciclosporin (anden medicin der anvendes til at undgå afstødning 
+af transplanteret organ). </p>
+<p>Hvis du har brug for at gå til en anden læge end din transplantationsspecialist, skal du fortælle 
+lægen, at du tager tacrolimus. Din læge kan have brug for at kontakte dit 
+transplantationsspecialist, hvis du bruger anden medicin, der kan øge eller reducere 
+blodkoncentrationen af tacrolimus. </p>
+<p>Indholdet af Tacforius i blodet kan påvirkes af anden medicin, og Tacforius kan påvirke indholdet af 
+anden medicin i blodet. Det kan derfor være nødvendigt at øge eller nedsætte dosis af Tacforius eller 
+holde en pause i behandlingen.  </p>
+<p>Nogle patienter har oplevet forhøjede blodkoncentrationer af tacrolimus, mens de har taget anden 
+medicin. Dette kan medføre alvorlige bivirkninger, såsom problemer med nyrerne, problemer med 
+nervesystemet og forstyrrelser i hjerterytmen (se punkt 4). 
+Der kan ses en påvirkning af blodkoncentrationen af Tacforius meget kort tid efter, du er begyndt at 
+bruge en anden medicin. Derfor kan det fortsat være nødvendigt med hyppig overvågning af </p>
+<p>blodkoncentrationen af Tacforius i de første dage efter start på en anden medicin og hyppigt under 
+fortsat behandling med den anden medicin. Nogle andre lægemidler kan få blodkoncentrationen af 
+tacrolimus til at falde, hvilket kan øge risikoen for, at det transplanterede organ afstødes. Du skal i 
+særdeleshed oplyse det til lægen, hvis du tager eller for nylig har taget medicin såsom:</p>
+<ul>
+<li>svampemidler og antibiotika, især såkaldte makrolide antibiotika til behandling af infektioner 
+f.eks. ketoconazol, fluconazol, itraconazol, posaconazol, voriconazol, clotrimazol, 
+isavuconazol, miconazol, caspofungin, telithromycin, erythromycin, clarithromycin, 
+josamycin, azithromycin, rifampicin, rifabutin, isoniazid og flucloxacillin </li>
+<li>letermovir, bruges til at forebygge sygdomme forårsaget af CMV (human cytomegalovirus) </li>
+<li>hiv-proteasehæmmere (f.eks. ritonavir, nelfinavir, saquinavir), boostermedicinen cobicitstat og 
+kombinationstabletter, eller non-nukleosid revers transkriptase-hæmmere mod hiv (efavirenz, 
+etravirin, nevirapin), som bruges ved behandling af hiv-infektion </li>
+<li>HCV-proteasehæmmere (f.eks. telaprevir, boceprevir, kombinationen 
+ombitasvir/paritaprevir/ritonavir med eller uden dasabuvir, elbasvir/grazoprevir og 
+glecaprevir/pibrentasvir), som bruges til behandling af hepatitis C-infektion </li>
+<li>nilotinib og imatinib, idelalisib, ceritinib, crizotinib, apalutamid, enzalutamid eller mitotan 
+(bruges til behandling af visse typer cancer) </li>
+<li>mycophenolsyre, som bruges til at undertrykke immunsystemet for at forhindre afstødning af 
+et transplantat </li>
+<li>medicin til forebyggelse og behandling af mavesår og spiserørskatar (f.eks. omeprazol, 
+lansoprazol eller cimetidin) </li>
+<li>antiemetika, der anvendes til behandling af kvalme og opkastning (f.eks. metoclopramid) </li>
+<li>cisaprid eller det syreneutraliserende middel magnesium-aluminium-hydroxid, der anvendes 
+til behandling af halsbrand </li>
+<li>p-piller eller anden hormonbehandling med ethinylestradiol, hormonbehandling med danazol </li>
+<li>medicin mod forhøjet blodtryk eller hjerteproblemer (f.eks. nifedipin, nicardipin, diltiazem og 
+verapamil)  </li>
+<li>antiarytmika (amiodaron), som bruges til behandling af arytmier (uregelmæssig hjerterytme) </li>
+<li>lægemidler kendt som "statiner" til behandling af forhøjet kolesterol og triglycerider </li>
+<li>carbamazepin, fenytoin eller fenobarbital, til behandling af epilepsi </li>
+<li>cannabidiol (anvendes bl.a. til behandling af krampeanfald) </li>
+<li>metamizol, som bruges til behandling af smerter og feber </li>
+<li>kortikosteroiderne prednisolon og methylprednisolon, der anvendes til behandling af 
+betændelsestilstande eller til at undertrykke immunsystemet (f.eks. ved afstødning af organ 
+efter transplantation) </li>
+<li>nefazodon til behandling af depression </li>
+<li>naturmedicin, der indeholder perikon (Hypericum perforatum) eller ekstrakt af Schisandra 
+sphenanthera. </li>
+</ul>
+<p>Du skal fortælle det til lægen, hvis du får behandling mod hepatitis C. Behandlingen med medicin mod 
+hepatitis C kan ændre din leverfunktion og kan påvirke blodkoncentrationen af tacrolimus. 
+Blodkoncentrationen af tacrolimus kan falde eller stige afhængigt af, hvilken medicin der er udskrevet 
+mod hepatitis C. Det kan være nødvendigt, at lægen overvåger blodkoncentrationen af tacrolimus tæt 
+og foretager nødvendige justeringer af din Tacforius-dosis, efter du er startet på behandling af 
+hepatitis C. </p>
+<p>Fortæl det til din læge, hvis du tager eller har brug for at tage ibuprofen (behandling af feber, 
+betændelsestilstande og smerte), antibiotika (cotrimoxazol, vancomycin eller aminoglykosid-
+antibiotika, såsom gentamicin), amphotericin B (behandling af svampeinfektioner) eller antivirale 
+midler (behandling af virusinfektioner f.eks. aciclovir, ganciclovir, cidofovir, foscarnet). Disse kan 
+forværre problemer med nyrerne eller centralnervesystemet, hvis de tages sammen med Tacforius. </p>
+<p>Fortæl det til Deres læge, hvis De tager sirolimus eller everolimus. Når tacrolimus tages sammen med 
+sirolimus eller everolimus, kan risikoen for at udvikle trombotisk mikroangiopati, trombotisk 
+trombocytopenisk purpura og hæmolytisk uræmisk syndrom stige (se punkt 4). </p>
+<p>Lægen skal også vide, om du tager kaliumtilskud eller særlig vanddrivende medicin, som bruges ved 
+hjertesvigt, hypertension og nyresygdom (f.eks. amilorid, triamteren eller spironolacton), eller 
+antibiotikaene trimethoprim eller cotrimoxazol, der kan øge niveauet af kalium i dit blod, non-steroide 
+anti-inflammatoriske midler (NSAID, f.eks. ibuprofen), som bruges ved feber, betændelsestilstande og 
+smerter, blodfortyndende medicin (antikoagulantia) eller oral medicin mod diabetes (sukkersyge), 
+mens du tager Tacforius. </p>
+<p>Hvis du har brug for at blive vaccineret, så fortæl din læge det på forhånd. </p>
+<p>Brug af Tacforius sammen med mad og drikke 
+Undgå grapefrugt (også som juice) under behandling med Tacforius, da det kan påvirke indholdet af 
+Tacforius i blodet. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel. 
+Tacrolimus passerer over i modermælken. Derfor bør du ikke amme, når du tager Tacforius. </p>
+<p>Trafik- og arbejdssikkerhed 
+Kør ikke bil, og lad være med at bruge værktøj eller maskiner, hvis du føler dig svimmel eller søvnig 
+eller har problemer med at se klart, efter du har taget Tacforius. Disse virkninger ses oftere, hvis du 
+også drikker alkohol. </p>
+<p>Tacforius indeholder lactose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>Tacforius 5 mg kapsler indeholder ponceau 4R 
+Kan medføre allergiske reaktioner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tacforius"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tacforius"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. 
+Denne medicin bør kun udskrives til dig af en læge med erfaring i behandling af transplanterede 
+patienter. </p>
+<p>Sørg for, at du får den samme tacrolimusmedicin hver gang, du henter din medicin, medmindre din 
+transplantationslæge har godkendt at skifte til en anden tacrolimusmedicin. Denne medicin bør tages 
+én gang daglig. Hvis medicinen ikke ser ud, som den plejer, eller hvis doseringsanvisningerne er 
+ændret, så kontakt lægen eller apotekspersonalet hurtigst muligt for at sikre, at du har fået den rigtige 
+medicin. </p>
+<p>Lægen vil beregne den rigtige startdosis for at undgå afstødning af det transplanterede organ ud fra din 
+vægt. Startdosis lige efter transplantationen vil sædvanligvis ligge i intervallet </p>
+<p>0,10 - 0,30 mg/kg legemsvægt pr. døgn </p>
+<p>afhængigt af, hvilket organ der er transplanteret. Samme dosis kan anvendes til behandling af 
+afstødning. </p>
+<p>Dosis afhænger af din generelle tilstand, og af hvilken anden immundæmpende medicin du tager. </p>
+<p>Efter behandlingen med Tacforius er påbegyndt, vil lægen ofte tage blodprøver for at bestemme den 
+korrekte dosis. Herefter vil lægen regelmæssigt tage blodprøver for at fastlægge den korrekte dosis og </p>
+<p>for løbende at justere dosis. Lægen vil sædvanligvis reducere dosis af Tacforius, når din tilstand er 
+stabiliseret. Lægen vil oplyse dig om præcis, hvor mange kapsler du skal tage. </p>
+<p>Du skal tage Tacforius hver dag så længe, du har behov for immundæmpende medicin, for at 
+forebygge afstødning af dit transplanterede organ. Du bør jævnligt være i kontakt med din læge. </p>
+<p>Tacforius tages oralt én gang daglig om morgenen. Tag Tacforius på tom mave eller 2 til 3 timer efter 
+et måltid. Vent mindst 1 time før det næste måltid. Tag kapslerne umiddelbart efter, at de er fjernet fra 
+blisteren. Kapslerne skal sluges hele med et glas vand. 
+Indtag ikke tørremidlet, som findes i folieposen. </p>
+<p>Hvis du har taget for meget Tacforius 
+Hvis du ved en fejl har taget for mange kapsler, skal du straks kontakte lægen eller den nærmeste 
+skadestue. </p>
+<p>Hvis du har glemt at tage Tacforius 
+Hvis du har glemt at tage dine kapsler om morgenen, skal du tage dem så hurtigt som muligt den 
+samme dag. Du må ikke tage en dobbeltdosis den næste morgen. </p>
+<p>Hvis du holder op med at tage Tacforius 
+Afbrydelse af behandlingen med Tacforius kan øge risikoen for afstødning af det transplanterede 
+organ. Du må ikke ophøre med behandlingen uden at have talt med lægen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler, give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Tacforius nedsætter kroppens egen forsvarsmekanisme (immunsystemet), som så ikke vil kunne 
+bekæmpe infektioner så godt som normalt. Derfor kan du få flere infektioner, når du tager Tacforius.<br />
+Nogle infektioner kan være alvorlige eller dødelige og kan omfatte infektioner forårsaget af bakterier, 
+vira, svampe, parasitter eller andre infektioner. 
+Fortæl det straks til din læge, hvis du får tegn på en infektion, herunder:</p>
+<ul>
+<li>Feber, hoste, ondt i halsen, føler sig svag eller generelt utilpas. </li>
+<li>Hukommelsestab, problemer med at tænke, gangbesvær eller synstab – disse kan skyldes en meget 
+sjælden, alvorlig hjerneinfektion, som kan være dødelig (Progressiv Multifocal 
+Leukoencephalopati eller PML). </li>
+</ul>
+<p>Alvorlige bivirkninger kan forekomme, herunder allergiske og anafylaktiske reaktioner. Der er set 
+godartede og ondartede svulster efter behandling med Tacforius. </p>
+<p>Fortæl det straks til din læge, hvis du har eller mistænker, at du har nogen af følgende alvorlige 
+bivirkninger: </p>
+<p>Alvorlige almindelige bivirkninger (kan forekomme hos op til1 ud af 10 behandlede) 
+- Perforation af mave-tarm-kanalen: stærke mavesmerter ledsaget (eller ikke) af andre symptomer, 
+såsom kuldegysninger, feber, kvalme eller opkastning. 
+- Utilstrækkelig funktion af det transplanterede organ. 
+- Sløret syn. </p>
+<p>Alvorlige ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 behandlede) 
+- Trombotisk mikroangiopati (beskadigelse af de mindste blodkar), herunder hæmolytisk uræmisk 
+syndrom, en sygdom med følgende symptomer: lav eller ingen urinmængde (akut nyresvigt), 
+ekstrem træthed, gulfarvning af huden eller øjnene (gulsot) og unormale blå mærker eller blødning 
+og tegn på infektion. </p>
+<p>Alvorlige sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 behandlede) 
+- Trombotisk trombocytopenisk purpura: en sygdom, der involverer beskadigelse af de mindste 
+blodkar og er kendetegnet ved feber og blå mærker under huden, der kan forekomme som små røde 
+prikker, med eller uden uforklarlig ekstrem træthed, forvirring, gulfarvning af huden eller øjnene 
+(gulsot) med symptomer på akut nyresvigt (lav eller ingen urinmængde), synstab og krampeanfald. 
+- Toksisk epidermal nekrolyse: nedbrydning af og blæredannelse på huden eller i slimhinder, rød 
+hævet hud, der kan falde af kroppen i store stykker. 
+- Blindhed. </p>
+<p>Alvorlige meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10 000 behandlede) 
+- Stevens-Johnson syndrom: uforklarlige udbredte smerter i huden, hævelse i ansigtet, alvorlig 
+sygdom med blærer på huden, i munden, øjnene og på kønsorganerne, nældefeber, hævet tunge, 
+rødt eller lilla hududslæt, der breder sig, afskalning af huden. 
+- Torsades de pointes: forandringer i hjerterytmen, der kan være ledsaget (eller ikke) af symptomer, 
+såsom brystsmerter (angina), mathed, svimmelhed eller kvalme, hjertebanken (du kan mærke dit 
+hjerteslag) og vejrtrækningsbesvær. </p>
+<p>Alvorlige ikke kendte bivirkninger (hyppigheden kan ikke estimeres ud fra forhåndenværende data) 
+- Opportunistiske infektioner (bakterie-, svampe-, virus- og protozoinfektioner): langvarig diarré, 
+feber og ondt i halsen. 
+- Godartede og ondartede tumorer er rapporteret efter behandling på grund af immunsuppression. 
+- Der er rapporteret tilfælde af Pure Red Cell Aplasia (en meget alvorlig reduktion i antallet af røde 
+blodlegemer), hæmolytisk anæmi (nedsat antal røde blodlegemer på grund af unormal nedbrydning 
+ledsaget af træthed) og febril neutropeni (et fald i typen af hvide blodlegemer der bekæmper 
+infektion, ledsaget af feber). Det vides ikke nøjagtigt, hvor ofte disse bivirkninger forekommer. Det 
+kan være, at du ingen symptomer har, eller afhængigt af sygdommens sværhedsgrad kan du opleve: 
+træthed, ligegyldighed, unormalt bleg hud, kortåndethed, svimmelhed, hovedpine, brystsmerter og 
+kolde hænder og fødder. 
+- Tilfælde af agranulocytose (alvorligt reduceret antal hvide blodlegemer ledsaget af sår i munden, 
+feber og infektion(er)). Det kan være, at du ingen symptomer har, eller du kan få pludselig feber, 
+stivhed og ondt i halsen. 
+- Allergiske og anafylaktiske reaktioner med følgende symptomer: et pludseligt kløende udslæt 
+(nældefeber), hævelse af hænder, fødder, ankler, ansigt, læber, mund eller hals (som kan forårsage 
+besvær med at synke eller trække vejret), og det kan føles, som om du skal besvime. 
+- Posterior reversibel encefalopati-syndrom (PRES): hovedpine, forvirring, humørsvingninger, 
+kramper og synsforstyrrelser. Dette kan være tegn på en sygdom, der kaldes posterior reversibel 
+encefalopati-syndrom, som er rapporteret hos nogle patienter, der er behandlet med tacrolimus. 
+- Optisk neuropati (forandringer i synsnerven): problemer med dit syn såsom sløret syn, ændringer i 
+farvesynet, problemer med at se detaljer eller begrænsning af dit synsfelt. </p>
+<p>Bivirkningerne, der er opstillet nedenfor, kan også forekomme efter, at du har fået Tacforius, og de 
+kan være alvorlige: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) 
+- Forhøjet blodsukker, sukkersyge, øget kaliumindhold i blodet 
+- Søvnløshed 
+- Rysten, hovedpine 
+- Forhøjet blodtryk 
+- Unormale leverfunktionstests 
+- Diarré, kvalme 
+- Nyreproblemer </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
+- Nedsat antal blodceller (plader, røde eller hvide blodlegemer), øget antal hvide blodlegemer, 
+ændret antal røde blodlegemer (ses i blodprøver) </p>
+<ul>
+<li>Nedsat indhold af magnesium, fosfat, kalium, calcium eller natrium i blodet, væskeoverbelastning, 
+stigning af urinsyre eller fedt i blodet, nedsat appetit, øget surhed af blodet, andre ændringer i 
+blodets salte (ses i blodprøver) </li>
+<li>Angstsymptomer, forvirring og desorientering, depression, humørsvingninger, mareridt, 
+hallucinationer, forstyrret sindstilstand </li>
+<li>Anfald, bevidsthedsforstyrrelser, prikken og følelsesløshed (nogle gange smertefuld) i hænder og 
+fødder, svimmelhed, nedsat skriveevne, forstyrrelser i nervesystemet </li>
+<li>Øget lysfølsomhed, problemer med øjnene </li>
+<li>Ringen for ørene </li>
+<li>Nedsat blodgennemstrømning i hjertets blodkar, øget puls </li>
+<li>Blødning, delvis eller fuldstændig blokering af blodkar, nedsat blodtryk </li>
+<li>Stakåndethed, forandring i lungevæv, væskeansamling omkring lungen, betændelse i svælget, 
+hoste, influenzalignende symptomer </li>
+<li>Betændelse eller mavesår som giver mavesmerter eller diarré, maveblødning, betændelse eller sår i 
+munden, væskeansamling i bughulen, opkastning, mavesmerter, fordøjelsesbesvær, forstoppelse, 
+luftafgang fra tarmen, oppustethed, løs afføring, maveproblemer </li>
+<li>Galdegangssygdomme, gulsot på grund af leverproblemer, ødelæggelse af levervæv og 
+leverbetændelse </li>
+<li>Kløe, udslæt, hårtab, akne, svedudbrud </li>
+<li>Smerter i led, lemmer, ryg og fødder, muskelspasmer </li>
+<li>Utilstrækkelig nyrefunktion, nedsat urindannelse, forringet eller smertefuld vandladning </li>
+<li>Generel svaghed, feber, væskeansamling i kroppen, smerter og ubehag, øget indhold af enzymet 
+basisk fosfatase i blodet, vægtstigning, ændret opfattelse af kropstemperatur </li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) 
+- Ændret blodstørkning, nedsat antal af alle typer af blodceller (ses i blodprøver) 
+- Dehydrering 
+- Nedsat protein og sukker i blodet, øget fosfat i blodet 
+- Koma, blødning i hjernen, slagtilfælde, lammelse, forandringer i hjernen, tale- og 
+sprogforstyrrelser, hukommelsesproblemer 
+- Uklarhed af øjenlinsen, 
+- Nedsat hørelse 
+- Uregelmæssigt hjerteslag, hjertestop, nedsat hjertefunktion, forstyrrelser i hjertemuskulaturen, 
+forstørret hjertemuskulatur, kraftigere hjerteslag, unormalt EKG, unormalt hjerterytme og puls 
+- Blodprop i vene i lemmerne, shock 
+- Åndedrætsbesvær, lidelser i luftvejene, astma 
+- Tarmslyng, øget blodniveau af enzymet amylase, tilbageløb af maveindhold, forsinket tømning af 
+mavesækken 
+- Betændelsestilstand i huden, brændende fornemmelse i sollys 
+- Ledproblemer 
+- Manglende evne til at lade vandet, smertefuld menstruation og unormal menstruationsblødning 
+- Multiorgansvigt, influenzalignende sygdom, øget temperaturfølsomhed, trykken for brystet, 
+nervøsitet eller fremmedfølelse, stigning i enzymet laktatdehydrogenase i blodet, vægttab </p>
+<p>Sjældner (kan forekomme hos op til 1ud af 1 000 personer) 
+- Små blødninger i huden på grund af blodpropper 
+- Øget muskelstivhed 
+- Døvhed 
+- Væskeansamling omkring hjertet 
+- Akut åndenød 
+- Cystedannelse i bugspytkirtlen 
+- Problemer med blodcirkulation i leveren 
+- Alvorlig sygdom med blærer i huden, munden, øjnene og kønsorganerne, øget behåring 
+- Tørst, øget tendens til at falde, trykken for brystet, nedsat bevægelighed, sår </p>
+<p>Meget sjældne (kan forekomme hos op til 1 ud af 10 000 personer) 
+- Muskelsvaghed </p>
+<ul>
+<li>Unormal hjerteundersøgelse </li>
+<li>Leversvigt </li>
+<li>Smertefuld vandladning med blod i urinen </li>
+<li>Øget fedtvæv </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tacforius"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tacforius"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der star på kartonen og blisteren efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys og fugt. 
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
+<p>Brug alle de hårde depotkapsler inden for 1 år efter, at aluminiumsposen er åbnet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tacforius indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: tacrolimus. 
+Hver kapsel Tacforius 0,5 mg indeholder 0,5 mg tacrolimus (som monohydrat). 
+Hver kapsel Tacforius 1 mg indeholder 1 mg tacrolimus (som monohydrat). 
+Hver kapsel Tacforius 3 mg indeholder 3 mg tacrolimus (som monohydrat). 
+Hver kapsel Tacforius 5 mg indeholder 5 mg tacrolimus (som monohydrat). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: 
+Kapselindhold 
+Hypromellose 2910, ethylcellulose, lactose, magnesiumstearat. 
+Kapselskal 
+Tacforius 0,5 mg/1 mg/3 mg hårde depotkapsler: rød jernoxid (E172), gul jernoxid (E172), 
+titandioxid (E171), gelatine. 
+Tacforius 5 mg hårde depotkapsler: rød jernoxid (E172), gul jernoxid (E172), titandioxid 
+(E171), sort jernoxid (E172), ponceau 4R (E124), gelatine. 
+Trykfarve 
+Shellac, propylenglycol, sort jernoxid (E172), kaliumhydroxid. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Tacforius 0,5 mg hårde depotkapsler 
+Hårde gelatinekapsler præget med “TR" på den lysegule kapseltop og “0.5 mg" på den lysorange 
+kapselbund. 
+Tacforius 1 mg hårde depotkapsler </p>
+<p>Hårde gelatinekapsler præget med “TR" på den hvide kapseltop og “1 mg" på den lysorange 
+kapselbund. 
+Tacforius 3 mg hårde depotkapsler 
+Hårde gelatinekapsler præget med “TR" på den lysorange kapseltop og “3 mg" på den lysorange 
+kapselbund. 
+Tacforius 5 mg hårde depotkapsler 
+Hårde gelatinekapsler præget med “TR" på den grårøde kapseltop og “5 mg" på den lysorange 
+kapselbund. </p>
+<p>Tacforius 0,5 mg/3 mg/5 mg hårde depotkapsler 
+Leveres i blistere eller perforede enkeltdosisblistere med 10 kapsler i en beskyttende foliepose med et 
+tørremiddel. Pakningsstørrelser på 30, 50 og 100 hårde depotkapsler fås i blistere og 
+pakningsstørrelser på 30×1, 50×1 og 100×1 depotkapsler fås i perforerede enkeltdosisblistere. </p>
+<p>Tacforius 1 mg hårde depotkapsler 
+Leveres i blistere eller perforerede enkeltdosisblistere med 10 kapsler i en beskyttende foliepose med 
+et tørremiddel. Pakningsstørrelser på 30, 50, 60 eller 100 depotkapsler fås i blistere og 
+pakningsstørrelser på 30×1, 50×1, 60×1 eller 100×1 depotkapsler fås i perforerede enkeltdosisblistere. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Teva B.V 
+Swensweg 5 
+2031GA Haarlem 
+Holland </p>
+<p>Fremstiller </p>
+<p>Merckle GmbH 
+Ludwig-Merckle-Straße 3 
+89143 Blaubeuren 
+Tyskland </p>
+<p>PLIVA Hrvatska d.o.o. 
+Prilaz baruna Filipovića 10 000 Zagreb 
+Kroatien </p>
+<p>Teva Czech Industries s.r.o. 
+Ostravská 29, c.p. Opava-Komárov 
+747 70<br />
+Tjekkiet </p>
+<p>Teva Operations Poland Sp. z.o.o 
+ul. Mogilska 31-546 Krakow 
+Polen </p>
+<p>Teva Pharma S.L.U. 
+C/C, n. 4, Poligono Industrial Malpica 
+ES-50016 Zaragoza 
+Spanien </p>
+<p>Teva Pharmaceutical Works Private Limited Company 
+Pallagi út 4042 Debrecen<br />
+Ungarn </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+ratiopharm GmbH 
+Allemagne/Deutschland 
+Tél/Tel: +49 73140 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Nordic Pharma, S.A.U. 
+Tel.: +34 916404 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: + 385 13720 
+România 
+Teva Pharmaceuticals S.R.L 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 </p>
+<p>Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-dff98a1057e854dd22ade83cc61ef07f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tacforius Package Leaflet for language en"
+Description: "ePI document Bundle for tacforius Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-dff98a1057e854dd22ade83cc61ef07f"
+* entry[0].resource = composition-en-dff98a1057e854dd22ade83cc61ef07f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdff98a1057e854dd22ade83cc61ef07f"
+* entry[=].resource = mpdff98a1057e854dd22ade83cc61ef07f
+                            
+                    
+Instance: bundlepackageleaflet-da-dff98a1057e854dd22ade83cc61ef07f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tacforius Package Leaflet for language da"
+Description: "ePI document Bundle for tacforius Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-dff98a1057e854dd22ade83cc61ef07f"
+* entry[0].resource = composition-da-dff98a1057e854dd22ade83cc61ef07f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdff98a1057e854dd22ade83cc61ef07f"
+* entry[=].resource = mpdff98a1057e854dd22ade83cc61ef07f
+                            
+                    
+
+
+
+Instance: mpdff98a1057e854dd22ade83cc61ef07f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Tacforius 0.5 mg prolonged-release hard capsules"
-Description: "Tacforius 0.5 mg prolonged-release hard capsules"
+Title: "Medicinal Product tacforius"
+Description: "tacforius"
 Usage: #inline
 
  
@@ -591,7 +1252,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Tacforius 0.5 mg prolonged-release hard capsules"
+  * productName = "tacforius"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -618,29 +1279,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-dff98a1057e854dd22ade83cc61ef07f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tacforius Package Leaflet for language en"
-Description: "ePI document Bundle for tacforius Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: dff98a1057e854dd22ade83cc61ef07fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Tacforius 0.5 mg prolonged-release hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tacforius"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-dff98a1057e854dd22ade83cc61ef07f"
-* entry[0].resource = composition-en-dff98a1057e854dd22ade83cc61ef07f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3eebcb6e815fd5eac911d15cea136628"
-* entry[=].resource = mp3eebcb6e815fd5eac911d15cea136628
-                            
-                      
+* title = "List of all ePIs associated with tacforius"
+
+* subject = Reference(mp3eebcb6e815fd5eac911d15cea136628)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tacforius "tacforius"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-dff98a1057e854dd22ade83cc61ef07f) // tacforius en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-dff98a1057e854dd22ade83cc61ef07f) // tacforius da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-dff98a1057e854dd22ade83cc61ef07f
+InstanceOf: List
+
+* insert dff98a1057e854dd22ade83cc61ef07fListRuleset
+    

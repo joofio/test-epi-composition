@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5777eb2944401c2b658d055d99fe5e6c
 InstanceOf: CompositionUvEpi
 Title: "Composition for refixia Package Leaflet"
@@ -271,12 +274,741 @@ DK-2880 Bagsv rd, Denmark  </p>
 
 
 
+Instance: composition-da-5777eb2944401c2b658d055d99fe5e6c
+InstanceOf: CompositionUvEpi
+Title: "Composition for refixia Package Leaflet"
+Description:  "Composition for refixia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc8f798e760ac59865c415b8df9c58eb1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc8f798e760ac59865c415b8df9c58eb1
+* title = "TEST PURPOSES ONLY - refixia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen  </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at bruge Refixia  </li>
+<li>Sådan skal du bruge Refixia  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger  </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What refixia is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What refixia is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning<br />
+Refixia indeholder det aktive stof nonacog betapegol. Det er en langtidsvirkende version af 
+rekombinant koagulationsfaktor IX. Faktor IX er et protein, som findes naturligt i blodet, og som 
+hjælper med at stoppe blødning.  </p>
+<p>Anvendelse<br />
+Refixia anvendes til at behandle og forebygge blødning hos patienter i alle aldersgrupper med 
+hæmofili B (medfødt faktor IX-mangel).  </p>
+<p>Patienter med hæmofili B mangler faktor IX, eller faktor IX virker ikke korrekt. Refixia erstatter den 
+defekte eller manglende faktor IX og hjælper blodet til at størkne ved blødningsstedet.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take refixia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take refixia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Refixia  </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for det aktive stof eller et af de øvrige indholdsstoffer i Refixia (angivet 
+i punkt 6).  </p>
+</li>
+<li>
+<p>hvis du er allergisk over for hamsterproteiner.  </p>
+</li>
+</ul>
+<p>Kontakt lægen, før du bruger dette lægemiddel, hvis du er usikker på, om noget af ovenstående gælder 
+for dig.  </p>
+<p>Advarsler og forsigtighedsregler 
+Sporbarhed </p>
+<p>Det er vigtigt at registrere batchnummeret på Refixia. Så hver gang du får en ny pakke Refixia, skal du 
+notere datoen og batchnummeret (som står på emballagen efter Lot) og opbevare denne information på 
+et sikkert sted.  </p>
+<p>Allergiske reaktioner og udvikling af inhibitorer<br />
+Der er en lille risiko for, at du oplever en pludselig og alvorlig allergisk reaktion (f.eks. en anafylaktisk 
+reaktion) over for Refixia. Stop injektionen, og søg omgående læge eller tag på skadestuen, hvis du får 
+tegn på en allergisk reaktion såsom udslæt, nældefeber, hævelse, kløe på store områder af huden, 
+rødme og/eller hævelse af læber, tunge, ansigt eller hænder, synke- eller åndedrætsbesvær, åndenød, 
+hiven efter vejret, trykken for brystet, bleg og kold hud, hurtige hjerteslag (puls) og/eller svimmelhed.  </p>
+<p>Disse reaktioner kan kræve omgående lægebehandling. Din læge kan også tage en blodprøve for at 
+kontrollere, om du har dannet faktor IX-inhibitorer (neutraliserende antistoffer) mod dit lægemiddel, 
+da der kan dannes inhibitorer i forbindelse med allergiske reaktioner. Hvis du har dannet sådanne 
+inhibitorer, kan du have højere risiko for pludselige og alvorlige allergiske reaktioner (f.eks. en 
+anafylaktisk reaktion) ved fremtidige behandlinger med faktor IX.  </p>
+<p>På grund af risikoen for allergiske reaktioner med faktor IX bør din første behandling med Refixia 
+gives på en lægeklinik eller under opsyn af sundhedspersonale, så der kan ydes korrekt behandling af 
+allergiske reaktioner, hvis det er nødvendigt.  </p>
+<p>Tal straks med din læge, hvis din blødning ikke stopper som forventet, eller hvis du er nødt til at øge 
+mængden af Refixia, som du skal bruge for at stoppe en blødning. Din læge vil tage en blodprøve for 
+at kontrollere, om du har dannet inhibitorer (neutraliserende antistoffer) mod Refixia. Risikoen for at 
+danne inhibitorer er størst hos personer, som ikke er blevet behandlet med faktor IX-lægemidler før, 
+typisk små børn.  </p>
+<p>Blodpropper<br />
+Fortæl det til din læge, hvis noget af følgende gælder for dig, da der er øget risiko for blodpropper 
+under behandling med Refixia:  </p>
+<ul>
+<li>
+<p>du er blevet opereret for nylig </p>
+</li>
+<li>
+<p>du lider af andre alvorlige sygdomme, f.eks. leversygdom, hjertesygdom eller kræft </p>
+</li>
+<li>
+<p>du har risikofaktorer for hjertesygdom, f.eks. forhøjet blodtryk, svær overvægt eller rygning. </p>
+</li>
+</ul>
+<p>Nyresygdom (nefrotisk syndrom)<br />
+Der er en lille risiko for at udvikle en særlig nyresygdom, som kaldes nefrotisk syndrom, efter brug af 
+høje doser af faktor IX hos hæmofili B-patienter med faktor IX-inhibitorer, der tidligere har haft 
+allergiske reaktioner.  </p>
+<p>Kateterrelaterede problemer<br />
+Hvis du har et centralt venekateter (CVAD), kan du udvikle infektioner eller blodpropper på 
+kateterstedet.  </p>
+<p>Brug af andre lægemidler sammen med Refixia<br />
+Fortæl altid lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler.  </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger Refixia.  </p>
+<p>Trafik- og arbejdssikkerhed<br />
+Refixia påvirker ikke evnen til at føre motorkøretøj og betjene maskiner.  </p>
+<p>Refixia indeholder natrium<br />
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) per hætteglas, dvs. det er i det 
+væsentlige natriumfrit. Hvis der behandles med flere hætteglas, skal det totale natriumindhold 
+overvejes.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take refixia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take refixia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med Refixia skal påbegyndes af en læge, som har erfaring med at behandle patienter med 
+hæmofili B. Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl så spørg lægen.  </p>
+<p>Din læge vil beregne den rette dosis til dig. Dosis afhænger af din legemsvægt, og hvad lægemidlet 
+anvendes til.  </p>
+<p>Forebyggelse af blødning<br />
+Den sædvanlige dosis af Refixia er 40 IE (Internationale Enheder) per kg legemsvægt. Dosis gives 
+som én injektion hver uge. Din læge kan vælge en anden dosis eller ændre på, hvor ofte injektionen 
+skal gives, ud fra dine behov.  </p>
+<p>Behandling af blødning<br />
+Den sædvanlige dosis af Refixia er 40 IE (Internationale Enheder) per kg legemsvægt. Afhængigt af 
+blødningsstedet og blødningens sværhedsgrad har du muligvis brug for en højere dosis (80 IE per kg) 
+eller yderligere injektioner. Tal med din læge om, hvilken dosis og hvor mange injektioner du har brug 
+for.  </p>
+<p>Børn og unge<br />
+Refixia kan bruges af børn og unge i alle aldersgrupper. Dosis til børn og unge beregnes også i forhold 
+til legemsvægt og er den samme som til voksne.  </p>
+<p>Sådan gives Refixia<br />
+Refixia findes som et pulver og solvens til injektionsvæske, som blandes op til en opløsning 
+(rekonstitution) og gives som en injektion i en vene. Se ’Brugervejledning til Refixia’ for yderligere 
+information.  </p>
+<p>Hvis du har taget for meget Refixia<br />
+Hvis du har taget for meget Refixia, skal du kontakte din læge.  </p>
+<p>Hvis du er nødt til at øge mængden af Refixia, som du skal bruge for at stoppe en blødning, skal du 
+straks kontakte din læge. Se punkt 2 under ’Allergiske reaktioner og udvikling af inhibitorer’ for 
+yderligere information.  </p>
+<p>Hvis du har glemt at tage Refixia<br />
+Hvis du har glemt en dosis, skal du injicere den glemte dosis, så snart du kommer i tanke om det. Du 
+må ikke injicere en dobbeltdosis som erstatning for den glemte dosis. Spørg lægen, hvis du er i tvivl.  </p>
+<p>Hvis du holder op med at tage Refixia<br />
+Hvis du holder op med at tage Refixia, er du måske ikke længere beskyttet mod blødning eller mod, at 
+en aktuel blødning ikke stopper. Du må ikke holde op med at tage Refixia uden først at have talt med 
+din læge om det.  </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Der kan forekomme allergiske reaktioner med dette lægemiddel.<br />
+Hvis der forekommer pludselige og alvorlige allergiske reaktioner (f.eks. anafylaktiske reaktioner), 
+skal injektionen straks ophøre. Du skal omgående søge læge eller tage på skadestuen, hvis du får 
+tidlige tegn på en alvorlig allergisk reaktion (anafylaktisk reaktion), såsom:  </p>
+<ul>
+<li>
+<p>besvær med at synke eller med at trække vejret  </p>
+</li>
+<li>
+<p>åndenød eller hiven efter vejret  </p>
+</li>
+<li>
+<p>trykken for brystet  </p>
+</li>
+<li>
+<p>rødme og/eller hævelse af læber, tunge, ansigt eller hænder  </p>
+</li>
+<li>
+<p>udslæt, nældefeber, hævelse eller kløe  </p>
+</li>
+<li>
+<p>bleg og kold hud, hurtige hjerteslag (puls) og/eller svimmelhed (for lavt blodtryk).  </p>
+</li>
+</ul>
+<p>For børn, der ikke tidligere er behandlet med faktor IX-medicin, kan der dannes hæmmere (se pkt. 2) 
+med hyppigheden almindelig (op til 1 ud af 10 patienter). Hvis dette sker, kan lægemidlet holde op 
+med at virke ordentligt, og dit barn kan opleve vedvarende blødning. Hvis dette sker, skal du straks 
+kontakte din læge.  </p>
+<p>Følgende bivirkninger er set med Refixia:  </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede)  </p>
+<ul>
+<li>
+<p>allergiske reaktioner (overfølsomhed). Disse kan blive alvorlige og være livstruende 
+(anafylaktiske reaktioner)  </p>
+</li>
+<li>
+<p>kløe  </p>
+</li>
+<li>
+<p>hudreaktioner på injektionsstedet  </p>
+</li>
+<li>
+<p>kvalme  </p>
+</li>
+<li>
+<p>udtalt træthed  </p>
+</li>
+<li>
+<p>udslæt  </p>
+</li>
+<li>
+<p>Børn, der ikke tidligere er behandlet med faktor IX-medicin: neutraliserende antistoffer 
+(hæmmere), anafylaktiske reaktioner.  </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 behandlede)  </p>
+<ul>
+<li>
+<p>hjertebanken </p>
+</li>
+<li>
+<p>hedeture. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apotekspersonalet. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store refixia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store refixia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
+<p>Brug ikke Refixia efter den udløbsdato, der står på pakningen efter "EXP" på kartonen og etiketten på 
+hætteglasset og den fyldte sprøjte. Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
+<p>Opbevares i køleskab (2°C - 8°C). Må ikke fryses. Opbevar hætteglasset i kartonen for at beskytte 
+mod lys.  </p>
+<p>Refixia kan tages ud af køleskabet og opbevares ved stuetemperatur (op til 30°C) i en periode på højst 
+6 måneder. Notér den dato på kartonen, hvor Refixia tages ud af køleskabet og opbevares ved 
+stuetemperatur. Denne nye udløbsdato må aldrig overskride den oprindelige udløbsdato, der er angivet 
+på den ydre karton. Hvis lægemidlet ikke er blevet anvendt inden den nye udløbsdato, skal det 
+kasseres. Efter opbevaring ved stuetemperatur må lægemidlet ikke sættes tilbage i køleskab.  </p>
+<p>Brug injektionsvæsken straks efter opblanding til en opløsning (rekonstitution). Hvis den ikke kan 
+bruges straks, skal den bruges inden for 24 timer, hvis den har været opbevaret i køleskab ved 2°C - 
+8°C, eller inden for 4 timer, hvis den har været opbevaret uden for køleskab ved en temperatur på højst 
+30°C.  </p>
+<p>Pulveret i hætteglasset fremstår som et hvidt eller råhvidt pulver. Brug ikke pulveret, hvis farven er 
+forandret.  </p>
+<p>Den opblandede injektionsvæske er klar og farveløs til let gullig. Brug ikke injektionsvæsken, hvis du 
+bemærker nogen partikler eller misfarvning.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Refixia indeholder:  </p>
+<ul>
+<li>
+<p>Aktivt stof: Nonacog betapegol (pegyleret human koagulationsfaktor IX (rDNA)). Hvert 
+hætteglas med Refixia indeholder nominelt 500 IE, 1000 IE, 2000 IE eller 3000 IE 
+nonacog betapegol svarende til henholdsvis cirka 125 IE/ml, 250 IE/ml, 500 IE/ml eller 
+750 IE/ml efter opblanding med histidinsolvens. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer i pulveret: Natriumchlorid, histidin, saccharose, polysorbat 80, mannitol, 
+natriumhydroxid og saltsyre. Se punkt 2 "Refixia indeholder natrium".  </p>
+</li>
+<li>
+<p>Indholdsstoffer i den sterile solvens: Histidin, vand til injektionsvæsker, natriumhydroxid og 
+saltsyre. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser  </p>
+<ul>
+<li>
+<p>Refixia leveres som pulver og solvens til injektionsvæske, opløsning (500 IE, 1000 IE, 2000 IE 
+eller 3000 IE pulver i et hætteglas og 4 ml solvens i en fyldt sprøjte, en stempelstang og en 
+hætteglasadapter - pakninger med 1 sæt). </p>
+</li>
+<li>
+<p>Pulveret er hvidt eller råhvidt, og solvensen er klar og farveløs. </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen og fremstiller  </p>
+<p>Novo Nordisk A/S<br />
+Novo Allé<br />
+DK-2880 Bagsværd, Danmark  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>
+<p>Brugervejledning til Refixia </p>
+<p>Læs denne brugervejledning omhyggeligt, inden du bruger Refixia. </p>
+<p>Refixia leveres som et pulver. Før injektion skal det opblandes til en opløsning (rekonstitution) med 
+den solvens, der medfølger i sprøjten. Solvensen er en histidinopløsning. Den opblandede 
+injektionsvæske skal injiceres i en vene (intravenøs (i.v.) injektion). Udstyret i denne pakning er 
+beregnet til opblanding og injektion af Refixia. </p>
+<p>Du skal desuden bruge et infusionssæt (slange og sommerfuglenål), sterile alkoholservietter, 
+gazebind og plaster. Disse ting er ikke vedlagt i pakningen med Refixia. </p>
+<p>Brug ikke udstyret uden ordentlig undervisning fra din læge eller sygeplejerske. </p>
+<p>Vask altid dine hænder, og sørg for at området omkring dig er rent. </p>
+<p>Når du klargør og injicerer et lægemiddel direkte ind i en vene, er det vigtigt at bruge en ren og 
+bakteriefri (aseptisk) metode. En forkert fremgangsmåde kan forårsage en bakterieinfektion i 
+blodet. </p>
+<p>Åbn ikke udstyret, før du er klar til at bruge det. </p>
+<p>Anvend ikke udstyret, hvis det har været tabt, eller det er ødelagt. Tag i stedet en ny pakning i 
+brug. </p>
+<p>Anvend ikke udstyret, hvis det er udløbet. Tag i stedet en ny pakning i brug. Udløbsdatoen står 
+på den ydre karton, på hætteglasset, på hætteglasadapteren og på den fyldte sprøjte. </p>
+<p>Anvend ikke udstyret, hvis du har mistanke om, at det er forurenet. Tag i stedet en ny pakning 
+i brug. </p>
+<p>Smid ikke nogen af tingene ud, før du har injiceret den opblandede injektionsvæske. </p>
+<p>Udstyret er kun til engangsbrug. 
+Indhold 
+Pakningen indeholder: </p>
+<ul>
+<li>
+<p>1 hætteglas med Refixia pulver </p>
+</li>
+<li>
+<p>1 hætteglasadapter </p>
+</li>
+<li>
+<p>1 fyldt sprøjte med solvens </p>
+</li>
+<li>
+<p>1 stempelstang (placeret under sprøjten) </p>
+</li>
+</ul>
+<p>Hætteglas med Refixia pulver 
+Plastikhætte 
+Gummiprop 
+(under plastikhætten) 
+Oversigt </p>
+<p>Hætteglasadapter 
+Beskyttelseshætte 
+Spids 
+(under beskyttelsespapiret) 
+Beskyttelses- papir </p>
+<p>Fyldt sprøjte med solvens 
+Sprøjtespids 
+(under sprøjtehætten) Skala 
+Stempel 
+Sprøjtehætte </p>
+<p>Stempelstang 
+Gevind 
+Bred 
+ende </p>
+<ol>
+<li>
+<p>Klargøring af hætteglas og sprøjte </p>
+</li>
+<li>
+<p>Tag det antal pakninger med Refixia, 
+du har brug for. </p>
+</li>
+<li>
+<p>Kontrollér udløbsdatoen. </p>
+</li>
+<li>
+<p>Kontrollér navnet, styrken og farven på 
+pakningen for at sikre, at den indeholder 
+det rigtige præparat. </p>
+</li>
+<li>
+<p>Vask dine hænder, og tør dem af i et rent 
+håndklæde, eller lufttør dem. </p>
+</li>
+<li>
+<p>Tag hætteglasset, hætteglasadapteren og 
+den fyldte sprøjte ud af kartonen. Lad 
+stempelstangen være urørt i kartonen. </p>
+</li>
+<li>
+<p>Lad hætteglasset og den fyldte sprøjte 
+opnå stuetemperatur. Du kan gøre dette 
+ved at holde dem i dine hænder, indtil de 
+føles lige så varme som dine hænder. </p>
+</li>
+<li>
+<p>Anvend ikke andre metoder til at 
+opvarme hætteglasset og den fyldte 
+sprøjte. 
+ A </p>
+</li>
+<li>
+<p>Fjern plastikhætten fra hætteglasset. 
+Brug ikke hætteglasset, hvis 
+plastikhætten mangler eller sidder løst. </p>
+</li>
+<li>
+<p>Tør gummiproppen på hætteglasset af 
+med en steril alkoholserviet, og lad den 
+lufttørre i nogle sekunder før brug for at 
+sikre, at den er så bakteriefri som muligt. </p>
+</li>
+<li>
+<p>Rør ikke ved gummiproppen med dine 
+fingre, da dette kan overføre bakterier. 
+ B </p>
+</li>
+<li>
+<p>Påsæt hætteglasadapteren </p>
+</li>
+<li>
+<p>Fjern beskyttelsespapiret fra 
+hætteglasadapteren. </p>
+</li>
+</ol>
+<p>Brug ikke hætteglasadapteren, hvis 
+beskyttelsespapiret ikke er helt 
+forseglet eller er ødelagt. </p>
+<p>Tag ikke hætteglasadapteren ud af 
+beskyttelseshætten med dine fingre. 
+Hvis du rører spidsen på 
+hætteglasadapteren, kan der blive overført 
+bakterier fra dine fingre. 
+ C </p>
+<ul>
+<li>
+<p>Placer hætteglasset på en flad og fast 
+overflade. </p>
+</li>
+<li>
+<p>Vend beskyttelseshætten, og klik 
+hætteglasadapteren fast på hætteglasset. </p>
+</li>
+</ul>
+<p>Fjern ikke hætteglasadapteren fra 
+hætteglasset, efter den er påsat. 
+ D </p>
+<ul>
+<li>Tryk let på beskyttelseshætten med 
+tommel- og pegefinger som vist på 
+figuren. </li>
+</ul>
+<p>Fjern beskyttelseshætten fra 
+hætteglasadapteren. </p>
+<p>Løft ikke hætteglasadapteren op fra 
+hætteglasset, når du fjerner 
+beskyttelseshætten. 
+ E </p>
+<ol>
+<li>
+<p>Påsæt stempelstangen og sprøjten </p>
+</li>
+<li>
+<p>Tag stempelstangen i den brede ende, og 
+tag den ud af kartonen. Rør ikke ved 
+siderne eller gevindet på 
+stempelstangen. Hvis du rører ved 
+siderne eller gevindet, kan der blive 
+overført bakterier fra dine fingre. </p>
+</li>
+<li>
+<p>Påsæt straks stempelstangen til sprøjten 
+ved at dreje den i urets retning ind i 
+gummistemplet inde i den fyldte sprøjte, 
+indtil der mærkes modstand. 
+ F </p>
+</li>
+<li>
+<p>Fjern sprøjtehætten fra den fyldte 
+sprøjte ved at bøje den ned, indtil 
+perforeringen knækker. </p>
+</li>
+<li>
+<p>Rør ikke ved sprøjtens spids under 
+sprøjtehætten. Hvis du rører ved 
+sprøjtens spids, kan der blive overført 
+bakterier fra dine fingre. </p>
+</li>
+</ol>
+<p>Brug ikke den fyldte sprøjte, hvis 
+sprøjtehætten er løs eller mangler. 
+ G </p>
+<ul>
+<li>
+<p>Skru den fyldte sprøjte fast på 
+hætteglasadapteren, indtil der mærkes 
+modstand. 
+ H </p>
+</li>
+<li>
+<p>Opblanding af pulver med solvens </p>
+</li>
+<li>
+<p>Hold den fyldte sprøjte en smule skråt 
+med hætteglasset nedad. </p>
+</li>
+<li>
+<p>Pres stempelstangen ned for at injicere al 
+solvensen ind i hætteglasset. 
+ I </p>
+</li>
+<li>
+<p>Hold stempelstangen nede, mens 
+hætteglasset hvirvles forsigtigt rundt, 
+indtil alt pulveret er opløst. </p>
+</li>
+</ul>
+<p>Ryst ikke hætteglasset, da dette vil 
+medføre skumdannelse. </p>
+<ul>
+<li>Tjek den opblandede opløsning. Den 
+skal være klar og farveløs til let gullig, og 
+der må ikke være synlige partikler. Brug 
+den ikke, hvis der er partikler eller 
+misfarvning. Brug i stedet en ny pakning. 
+ J </li>
+</ul>
+<p>Det anbefales, at Refixia bruges straks efter opblanding. Hvis det opbevares, er lægemidlet 
+muligvis ikke længere sterilt, og dette kan forårsage en infektion. </p>
+<p>Hvis du ikke kan bruge den opblandede Refixia injektionsvæske straks, skal den bruges inden 
+for 4 timer, hvis den har været opbevaret ved stuetemperatur (op til 30°C), og inden for 24 timer, 
+hvis den har været opbevaret i køleskab (2°C - 8°C). Opbevar den opblandede injektionsvæske i 
+hætteglasset. </p>
+<p>Opblandet Refixia injektionsvæske må ikke fryses eller opbevares i sprøjter. </p>
+<p>Opblandet Refixia injektionsvæske må ikke opbevares i direkte lys. </p>
+<p>Hvis din dosis kræver mere end et hætteglas, gentages trinene A til J med yderligere hætteglas, 
+hætteglasadaptere og fyldte sprøjter, indtil du har blandet den nødvendige dosis. </p>
+<ul>
+<li>
+<p>Hold stempelstangen presset helt i 
+bund. </p>
+</li>
+<li>
+<p>Vend sprøjten med hætteglasset på 
+hovedet. </p>
+</li>
+<li>
+<p>Stop med at holde stempelstangen i 
+bund, og lad den trække sig tilbage af 
+sig selv, mens den opblandede 
+injektionsvæske fyldes i sprøjten. </p>
+</li>
+<li>
+<p>Træk stempelstangen en smule tilbage 
+for at trække injektionsvæsken ind i 
+sprøjten. </p>
+</li>
+<li>
+<p>I tilfælde af at du ikke har brug for hele 
+dosen i hætteglasset, skal du bruge 
+skalaen på sprøjten for at se, hvor 
+meget injektionsvæske du trækker ind i 
+sprøjten, som din læge eller 
+sygeplejerske har anvist. </p>
+</li>
+</ul>
+<p>Hvis der på noget tidspunkt er luft i 
+sprøjten, skal luften injiceres tilbage i 
+hætteglasset. </p>
+<ul>
+<li>
+<p>Med hætteglasset vendt på hovedet 
+bankes der let på sprøjten for at lade 
+eventuelle luftbobler stige til tops. </p>
+</li>
+<li>
+<p>Pres forsigtigt på stempelstangen, indtil 
+alle luftbobler er væk. 
+ K </p>
+</li>
+<li>
+<p>Skru hætteglasadapteren af 
+hætteglasset. </p>
+</li>
+<li>
+<p>Rør ikke ved sprøjtens spids. Hvis du 
+rører ved sprøjtens spids, kan der blive 
+overført bakterier fra dine fingre. 
+ L </p>
+</li>
+<li>
+<p>Injicér den opblandede injektionsvæske </p>
+</li>
+</ul>
+<p>Refixia er nu klar til at blive injiceret i en vene. </p>
+<ul>
+<li>
+<p>Injicér injektionsvæsken som instrueret af din læge eller sygeplejerske. </p>
+</li>
+<li>
+<p>Injicér langsomt over 1 til 3 minutter. </p>
+</li>
+<li>
+<p>Bland ikke Refixia med andre intravenøse infusionsvæsker eller lægemidler. </p>
+</li>
+</ul>
+<p>Injektion af Refixia via anordninger uden nål til intravenøse (i.v.) katetre </p>
+<p>Advarsel: Den fyldte sprøjte er lavet af glas og er designet til at passe sammen med standard luer-
+lock anordninger. Nogle anordninger uden nål har en indvendig spids og passer ikke sammen med 
+den fyldte sprøjte. Når anordning og sprøjte ikke passer sammen, kan det forhindre indgivelse af 
+lægemidlet og/eller resultere i, at anordningen uden nål beskadiges. </p>
+<p>Injektion af injektionsvæsken gennem et udstyr til central venøs adgang (CVAD), såsom et centralt 
+venekateter eller en subkutan port: </p>
+<ul>
+<li>
+<p>Anvend en ren og bakteriefri (aseptisk) metode. Følg instruktionen for brug af din anordning 
+og CVAD i samråd med din læge eller sygeplejerske. </p>
+</li>
+<li>
+<p>Injektion ind i et CVAD kræver muligvis en steril 10 ml plastiksprøjte til optrækning af den 
+opblandede injektionsvæske. Dette skal gøres lige efter trin J. </p>
+</li>
+<li>
+<p>Hvis slangen til CVAD skal skylles igennem enten før eller efter injektion af Refixia, skal du 
+bruge 9 mg/ml natriumchlorid-injektionsvæske. 
+Bortskaffelse </p>
+</li>
+<li>
+<p>Efter injektion kasseres alt ikke anvendt 
+Refixia injektionsvæske, sprøjten med 
+infusionssættet, hætteglasset med 
+hætteglasadapteren samt andet affald, som 
+instrueret af apotekspersonalet. </p>
+</li>
+</ul>
+<p>Smid det ikke ud med 
+husholdningsaffaldet.<br />
+ M </p>
+<p>Skil ikke udstyret fra hinanden før bortskaffelse. </p>
+<p>Genbrug ikke udstyret. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5777eb2944401c2b658d055d99fe5e6c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for refixia Package Leaflet for language en"
+Description: "ePI document Bundle for refixia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5777eb2944401c2b658d055d99fe5e6c"
+* entry[0].resource = composition-en-5777eb2944401c2b658d055d99fe5e6c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5777eb2944401c2b658d055d99fe5e6c"
+* entry[=].resource = mp5777eb2944401c2b658d055d99fe5e6c
+                            
+                    
+Instance: bundlepackageleaflet-da-5777eb2944401c2b658d055d99fe5e6c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for refixia Package Leaflet for language da"
+Description: "ePI document Bundle for refixia Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5777eb2944401c2b658d055d99fe5e6c"
+* entry[0].resource = composition-da-5777eb2944401c2b658d055d99fe5e6c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5777eb2944401c2b658d055d99fe5e6c"
+* entry[=].resource = mp5777eb2944401c2b658d055d99fe5e6c
+                            
+                    
+
+
+
+Instance: mp5777eb2944401c2b658d055d99fe5e6c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Refixia 500 IU powder and solvent for solution for injection"
-Description: "Refixia 500 IU powder and solvent for solution for injection"
+Title: "Medicinal Product refixia"
+Description: "refixia"
 Usage: #inline
 
  
@@ -296,7 +1028,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Refixia 500 IU powder and solvent for solution for injection"
+  * productName = "refixia"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -323,29 +1055,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5777eb2944401c2b658d055d99fe5e6c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for refixia Package Leaflet for language en"
-Description: "ePI document Bundle for refixia Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5777eb2944401c2b658d055d99fe5e6cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1193/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "refixia"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5777eb2944401c2b658d055d99fe5e6c"
-* entry[0].resource = composition-en-5777eb2944401c2b658d055d99fe5e6c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc8f798e760ac59865c415b8df9c58eb1"
-* entry[=].resource = mpc8f798e760ac59865c415b8df9c58eb1
-                            
-                      
+* title = "List of all ePIs associated with refixia"
+
+* subject = Reference(mpc8f798e760ac59865c415b8df9c58eb1)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#refixia "refixia"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5777eb2944401c2b658d055d99fe5e6c) // refixia en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5777eb2944401c2b658d055d99fe5e6c) // refixia da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5777eb2944401c2b658d055d99fe5e6c
+InstanceOf: List
+
+* insert 5777eb2944401c2b658d055d99fe5e6cListRuleset
+    

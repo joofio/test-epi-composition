@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9c57e69f60995207b09a78762e7a972a
 InstanceOf: CompositionUvEpi
 Title: "Composition for vimpat Package Leaflet"
@@ -414,12 +417,730 @@ Tel: + 353 / (0)1-46 37 This leaflet was last revised in {month/YYYY}. </p>
 
 
 
+Instance: composition-da-9c57e69f60995207b09a78762e7a972a
+InstanceOf: CompositionUvEpi
+Title: "Composition for vimpat Package Leaflet"
+Description:  "Composition for vimpat Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7b9df88504f6fa7a244e41f0be5a7449)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7b9df88504f6fa7a244e41f0be5a7449
+* title = "TEST PURPOSES ONLY - vimpat"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:<br />
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Vimpat 
+3. Sådan skal De tage Vimpat 
+4. Bivirkninger 
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vimpat is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vimpat is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Vimpat er 
+Vimpat indeholder lacosamid. Dette tilhører en gruppe lægemidler kaldet "antiepileptiske lægemidler". 
+Disse lægemidler bruges til behandling af epilepsi. </p>
+<ul>
+<li>De har fået dette lægemiddel for at nedbringe antallet af anfald (krampeanfald) De oplever. </li>
+</ul>
+<p>Hvad Vimpat bruges til 
+▪ 
+Vimpat bruges: 
+▪ 
+alene eller sammen med andre antiepileptiske lægemidler hos voksne, unge og børn i 
+alderen fra 2 år og ældre til at behandle en bestemt type epilepsi karakteriseret ved 
+forekomsten af partielle anfald med eller uden sekundær generalisering. I denne type 
+epilepsi påvirker anfaldene i begyndelsen kun den ene side af hjernen. Anfaldene kan dog 
+spredes til større områder i begge sider af hjernen; 
+▪ 
+sammen med andre antiepileptiske lægemidler hos voksne, unge og børn i alderen fra 4 år 
+og ældre til at behandle primære generaliserede tonisk-kloniske anfald (større anfald, 
+herunder tab af bevidsthed) hos patienter med idiopatisk generaliseret epilepsi (den type 
+epilepsi, der menes at have en genetisk årsag). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vimpat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vimpat"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Vimpat: </p>
+<ul>
+<li>
+<p>hvis De er allergisk over for lacosamid eller et af de øvrige indholdsstoffer i Vimpat (angivet i 
+punkt 6). Hvis De ikke er sikker på, om De er allergisk, så drøft det med lægen. </p>
+</li>
+<li>
+<p>hvis De har en bestemt form for hjertesygdom kaldet AV-blok af anden eller tredje grad. </p>
+</li>
+</ul>
+<p>Tag ikke Vimpat, hvis noget af ovenstående gælder for Dem. Hvis De ikke er sikker, skal De tale 
+med lægen eller apotekspersonalet før De tager dette lægemiddel. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før De tager Vimpat, hvis: </p>
+<ul>
+<li>
+<p>De har tanker om at gøre skade på eller dræbe Dem selv. Et lille antal mennesker, der 
+behandles med antiepileptiske lægemidler som lacosamid, har haft tanker om at skade eller 
+dræbe sig selv. Hvis De på noget tidspunkt får nogen af disse tanker, skal De straks fortælle det 
+til lægen. </p>
+</li>
+<li>
+<p>De har et hjerteproblem, der påvirker hjerterytmen, og De ofte har en særlig langsom, hurtig 
+eller uregelmæssig puls (som f.eks. AV-blok atrieflimren og atrieflagen). </p>
+</li>
+<li>
+<p>De har en alvorlig hjertesygdom såsom hjertesvigt eller har haft et hjerteanfald.  </p>
+</li>
+<li>
+<p>De ofte bliver svimmel eller falder. Vimpat kan medføre svimmelhed, der vil kunne øge 
+risikoen for tilskadekomst eller fald. Dette betyder, at De skal være forsigtig, indtil De har 
+vænnet Dem til, hvilken virkning denne medicin har. 
+Hvis noget af ovenstående gælder for Dem (eller De er usikker), skal De tale med lægen eller 
+apotekspersonalet, inden De tager Vimpat. 
+Hvis De tager Vimpat, skal De tale med lægen, hvis De oplever en ny type anfald eller forværring af 
+eksisterende anfald. 
+Hvis De tager Vimpat, og De oplever symptomer på unormal puls (såsom langsom, hurtig eller 
+uregelmæssig puls, hjertebanken, åndenød, følelse af at være uklar, være ved at besvime), skal De 
+straks søge læge (se punkt 4). </p>
+</li>
+</ul>
+<p>Børn 
+Vimpat bør ikke anvendes til børn under 2 år med epilepsi karakteriseret ved forekomsten af partielle 
+anfald, og anbefales ikke til børn under 4 år med primære generaliserede tonisk-kloniske anfald. 
+Dette skyldes, at vi endnu ikke ved, om det virker og om det er sikkert for børn i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Vimpat 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Fortæl det især til lægen eller apotekspersonalet, hvis De tager nogen af følgende lægemidler, der 
+påvirker Deres hjerte - det skyldes, at Vimpat også kan påvirke Deres hjerte: </p>
+<ul>
+<li>
+<p>Medicin til behandling af hjerteproblemer; </p>
+</li>
+<li>
+<p>Medicin, der kan øge "PR-intervallet" ved hjerteskanning (EKG eller elektrokardiogram) såsom 
+lægemidler mod epilepsi eller smerte kaldet carbamazepin, lamotrigin eller pregabalin; </p>
+</li>
+<li>
+<p>Medicin, der anvendes til behandling af visse typer af uregelmæssig puls eller hjertesvigt. 
+Hvis noget af ovenstående gælder for Dem (eller De er usikker), skal De tale med lægen eller 
+apotekspersonalet, før De tager Vimpat. </p>
+</li>
+</ul>
+<p>Fortæl det også til lægen eller apotekspersonalet, hvis De tager nogen af følgende lægemidler, da de 
+kan forøge eller formindske effekten af Vimpat på Deres krop: </p>
+<ul>
+<li>
+<p>Medicin mod svampeinfektioner såsom fluconazol, itraconazol eller ketoconazol; </p>
+</li>
+<li>
+<p>Lægemidler mod HIV såsom ritonavir; </p>
+</li>
+<li>
+<p>Medicin, der anvendes til behandling af bakterieinfektioner, såsom clarithromycin eller 
+rifampicin; </p>
+</li>
+<li>
+<p>En urtemedicin, der anvendes til behandling af mild angst og depression kaldet perikum. 
+Hvis noget af ovenstående gælder for Dem (eller De ikke er sikker), skal De tale med lægen eller 
+apotekspersonalet før De tager Vimpat. </p>
+</li>
+</ul>
+<p>Brug af Vimpat sammen med alkohol 
+Som sikkerhedsforanstaltning bør Vimpat ikke tages sammen med alkohol. </p>
+<p>Graviditet og amning 
+Kvinder, som er i stand til at få børn, bør drøfte brug af prævention med lægen. </p>
+<p>Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, 
+skal De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<p>Det frarådes at tage Vimpat, hvis De er gravid, da Vimpats virkning på graviditeten og det ufødte barn 
+ikke er kendt.<br />
+Det frarådes, at De ammer Deres barn, mens De tager Vimpat, da Vimpat udskilles i modermælken. 
+Søg omgående råd fra Deres læge, hvis De bliver gravid eller planlægger at blive gravid. Lægen vil 
+hjælpe Dem med at beslutte, om De skal tage Vimpat eller ej. </p>
+<p>Stop ikke behandlingen uden først at tale med lægen, da dette kan øge antallet af anfald 
+(krampeanfald). En forværring af Deres sygdom kan også skade Deres barn. </p>
+<p>Trafik- og arbejdssikkerhed 
+De må ikke føre motorkøretøj eller betjene maskiner, før De ved, om medicinen påvirker Deres evne 
+til at udføre disse aktiviteter. Dette skyldes, at Vimpat kan gøre Dem svimmel eller forårsage sløret 
+syn. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vimpat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vimpat"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet. Andre former af dette lægemiddel kan være mere hensigtsmæssige til 
+børn; spørg Deres læge eller apotekspersonalet. </p>
+<p>Hvordan Vimpat tages </p>
+<ul>
+<li>
+<p>Tag Vimpat to gange om dagen – med ca. 12 timers mellemrum. </p>
+</li>
+<li>
+<p>Prøv at tage det på omtrent samme tidspunkt hver dag. </p>
+</li>
+<li>
+<p>Slug Vimpat-tabletten med et glas vand. </p>
+</li>
+<li>
+<p>De må tage Vimpat sammen med eller uden mad. </p>
+</li>
+</ul>
+<p>De starter som regel ved at tage en lav dosis hver dag, og lægen vil langsomt øge dette i løbet af et par 
+uger. Når De når den dosis, der virker for Dem, kaldes dette "vedligeholdelsesdosis". De tager derefter 
+den samme dosis hver dag. Vimpat bruges som langtidsbehandling. De skal fortsætte med at tage 
+Vimpat, indtil lægen beder Dem om at stoppe. </p>
+<p>Hvor meget De skal tage 
+Nedenfor er de normale anbefalede doser af Vimpat til forskellige aldersgrupper og vægte angivet. 
+Lægen kan ordinere en anden dosis, hvis De har problemer med Deres nyrer eller lever. </p>
+<p>Unge og børn der vejer 50 kg eller derover og voksne 
+Hvis De kun tager Vimpat mod epilepsi 
+- Den sædvanlige startdosis af Vimpat er 50 mg to gange dagligt. 
+- Lægen kan også ordinere en startdosis på 100 mg Vimpat to gange dagligt. 
+- Lægen kan øge hver af Deres to daglige doseringer med 50 mg hver uge. Dette vil være indtil 
+De når en vedligeholdelsesdosis mellem 100 mg og 300 mg to gange dagligt. </p>
+<p>Hvis De tager Vimpat sammen med anden medicin mod epilepsi 
+- Behandlingsstart (de første 4 uger) 
+Denne pakke (behandlingsstartpakken) skal bruges, når De starter på behandling med Vimpat. 
+Pakken indeholder 4 forskellige æsker til de første 4 ugers behandling, én æske for hver uge. Hver 
+æske indeholder 14 tabletter, hvilket svarer til 2 tabletter dagligt i 7 dage. 
+Hver æske indeholder en forskellig Vimpat-dosisstyrke, så Deres dosis vil stige gradvist. 
+De starter behandlingen med en lav dosis Vimpat, almindeligvis 50 mg 2 gange dagligt, og dosis øges 
+uge efter uge. Den sædvanlige dosis, som kan tages dagligt i hver af de første 4 behandlingsuger, </p>
+<p>fremgår af nedenstående tabel. Lægen vil informere Dem, om De har brug for alle 4 æsker. </p>
+<p>Tabel: Behandlingsstart (de første 4 uger) 
+Uge  </p>
+<p>Æske, der skal<br />
+bruges 
+Første dosis<br />
+(om morgenen) 
+Anden dosis<br />
+(om aftenen) 
+TOTAL<br />
+daglig dosis 
+Uge 1<br />
+Æske mærket<br />
+"Uge 1" 
+50 mg 
+(1 Vimpat-tablet 50 mg) 
+50 mg 
+(1 Vimpat-tablet 50 mg) 
+100 mg 
+Uge 2<br />
+Æske mærket<br />
+"Uge 2"<br />
+100 mg 
+(1 Vimpat-tablet 100 mg) 
+100 mg 
+(1 Vimpat-tablet 100 mg) 
+200 mg 
+Uge 3 
+Æske mærket<br />
+"Uge 3" 
+150 mg 
+(1 Vimpat-tablet 150 mg) 
+150 mg 
+(1 Vimpat-tablet 150 mg) 
+300 mg 
+Uge 4 
+Æske mærket<br />
+"Uge 4" 
+200 mg 
+(1 Vimpat-tablet 200 mg) 
+200 mg 
+(1 Vimpat-tablet 200 mg) 
+400 mg </p>
+<ul>
+<li>Vedligeholdelsesbehandling (efter de første 4 uger) 
+Efter de første 4 behandlingsuger kan lægen justere dosis til den, som de skal fortsætte Deres 
+langtidsbehandling med. Denne dosis kaldes vedligeholdelsesdosis og vil afhænge af, hvordan De 
+reagerer på Vimpat. For de fleste patienter ligger vedligeholdelsesdosis mellem 200 mg og 400 mg 
+dagligt. </li>
+</ul>
+<p>Børn og unge, der vejer mindre end 50 kg 
+Behandlingsstartpakken er ikke egnet til børn og unge, der vejer mindre end 50 kg. </p>
+<p>Hvis De har taget for meget Vimpat 
+Kontakt straks lægen, hvis De har taget for meget Vimpat. Forsøg ikke at køre bil. 
+De kan opleve: </p>
+<ul>
+<li>
+<p>Svimmelhed;  </p>
+</li>
+<li>
+<p>Sygdomsfornemmelse (kvalme) eller sygdom (opkastning);  </p>
+</li>
+<li>
+<p>Anfald (krampeanfald), hjerteslagsproblemer, såsom langsom, hurtig eller uregelmæssig puls, 
+koma eller et blodtryksfald med hurtig hjerterytme og svedtendens. </p>
+</li>
+</ul>
+<p>Hvis De har glemt at tage Vimpat  </p>
+<ul>
+<li>
+<p>Hvis De har glemt at tage en dosis inden for de første 6 timer efter den planlagte dosis, skal De 
+tage den, så snart De husker det.  </p>
+</li>
+<li>
+<p>Hvis De har glemt at tage en dosis mere end 6 timer efter den planlagte dosis, må De ikke 
+længere tage den glemte tablet. I stedet skal De tage Vimpat næste gang, at De normalt ville 
+tage den.  </p>
+</li>
+<li>
+<p>De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+</li>
+</ul>
+<p>Hvis De holder op med at tage Vimpat </p>
+<ul>
+<li>
+<p>Stop ikke med at tage Vimpat uden først at tale med Deres læge, da Deres epilepsi kan komme 
+tilbage igen eller blive værre.  </p>
+</li>
+<li>
+<p>Hvis lægen beslutter at stoppe behandlingen med Vimpat, vil han eller hun fortælle Dem, 
+hvordan De reducerer dosis trin for trin. 
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Tal med lægen eller apotekspersonalet, hvis De får nogen af følgende: </p>
+<p>Meget almindelige: kan påvirke flere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Hovedpine; </p>
+</li>
+<li>
+<p>Følelse af svimmelhed eller sygdomsfornemmelse (kvalme); </p>
+</li>
+<li>
+<p>Dobbeltsyn (diplopi). </p>
+</li>
+</ul>
+<p>Almindelige: kan påvirke op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Korte ryk i en muskel eller muskelgruppe (myokloniske anfald); </p>
+</li>
+<li>
+<p>Vanskeligheder ved at koordinere Deres bevægelser eller gang; </p>
+</li>
+<li>
+<p>Problemer med at holde balancen, rysten (tremor), prikkende og stikkende fornemmelse i 
+huden (paræstesi) eller muskelspasmer, falder let og får blå mærker; </p>
+</li>
+<li>
+<p>Hukommelsesbesvær, problemer med at tænke eller finde ord, forvirring; </p>
+</li>
+<li>
+<p>Hurtige og ukontrollerbare øjenbevægelser (nystagmus), sløret syn; </p>
+</li>
+<li>
+<p>En roterende fornemmelse (svimmelhed), følelse af at være fuld; </p>
+</li>
+<li>
+<p>At være syg (opkastning), tør mund, forstoppelse, fordøjelsesbesvær, overdreven gas i mave 
+eller tarm, diarré; </p>
+</li>
+<li>
+<p>Nedsat følelse eller følsomhed, vanskeligheder med at udtale ord, 
+opmærksomhedsforstyrrelser; </p>
+</li>
+<li>
+<p>Støj i øret som summen, ringen eller fløjten; </p>
+</li>
+<li>
+<p>Irritabilitet, søvnbesvær, depression; </p>
+</li>
+<li>
+<p>Søvnighed, træthed eller svaghed (asteni); </p>
+</li>
+<li>
+<p>Kløe, udslæt. </p>
+</li>
+</ul>
+<p>Ikke almindelige: kan påvirke op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>Langsom puls, hjertebanken, uregelmæssig puls eller andre ændringer i hjertets elektriske 
+aktivitet (ledningsforstyrrelse); </p>
+</li>
+<li>
+<p>Overdreven følelse af velvære, De ser og/eller hører ting, der ikke er der; </p>
+</li>
+<li>
+<p>Allergisk reaktion over for lægemidlet, nældefeber; </p>
+</li>
+<li>
+<p>Blodprøver kan vise unormal leverfunktion, leverskade; </p>
+</li>
+<li>
+<p>Tanker om at gøre skade på eller dræbe Dem selv eller selvmordsforsøg: Fortæl det straks til 
+Deres læge; </p>
+</li>
+<li>
+<p>En følelse af at være vred eller agiteret; </p>
+</li>
+<li>
+<p>Unormale tanker eller manglende virkelighedsopfattelse; </p>
+</li>
+<li>
+<p>Alvorlig allergisk reaktion, som medfører hævelse af ansigt, hals, hænder, fødder, ankler eller 
+underben; </p>
+</li>
+<li>
+<p>Besvimelse; </p>
+</li>
+<li>
+<p>Unormale, ufrivillige bevægelser (dyskinesi). </p>
+</li>
+</ul>
+<p>Ikke kendt: hyppigheden kan ikke vurderes ud fra tilgængelige data </p>
+<ul>
+<li>
+<p>Unormalt hurtig puls (ventrikulær takyarytmi); </p>
+</li>
+<li>
+<p>Øm hals, høj temperatur og får flere infektioner end normalt. Blodprøver kan vise et alvorligt 
+fald i en specifik klasse af hvide blodlegemer (agranulocytose); </p>
+</li>
+<li>
+<p>En alvorlig hudreaktion, som kan inkludere høj temperatur og andre influenzalignende 
+symptomer, udslæt på ansigtet, udvidet udslæt, hævede kirtler (forstørrede lymfeknuder). 
+Blodprøver kan vise øgede niveauer af leverenzymer og en type hvide blodlegemer (eosinofili); </p>
+</li>
+<li>
+<p>Udbredt udslæt med blærer og skællende hud, især omkring munden, næsen, øjnene og 
+kønsdelene (Stevens-Johnsons syndrom), og en mere alvorlig form, der forårsager 
+hudafskalning på mere end 30 % af kropsoverfladen (toksisk epidermal nekrolyse); </p>
+</li>
+<li>
+<p>Kramper. </p>
+</li>
+</ul>
+<p>Øvrige bivirkninger hos børn </p>
+<p>De øvrige bivirkninger observeret hos børn var feber (pyreksi), løbende næse (nasopharyngitis), ondt 
+i halsen (pharyngitis), spiser mindre end normalt (nedsat appetit), ændringer i adfærd, virker ikke som </p>
+<p>sig selv (unormal adfærd) og mangel på energi (letargi). Følelse af at være søvnig (somnolens) er en 
+meget almindelig bivirkning hos børn og kan påvirke flere end 1 ud af 10 børn. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vimpat"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vimpat"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken eller blisterpakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vimpat indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: lacosamid. 
+En 50 mg Vimpat-tablet indeholder 50 mg lacosamid. 
+En 100 mg Vimpat-tablet indeholder 100 mg lacosamid. 
+En 150 mg Vimpat-tablet indeholder 150 mg lacosamid. 
+En 200 mg Vimpat-tablet indeholder 200 mg lacosamid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: 
+Tabletkerne: Mikrokrystallinsk cellulose, hydroxypropylcellulose, lavsubstitueret 
+hydroxypropylcellulose, kolloid vandfri silica, crospovidon (polyplasdon XL-10), 
+magnesiumstearat. 
+Filmovertræk: Polyvinylalkohol, polyethylenglycol, talcum, titandioxid (E 171), farvestoffer* </p>
+</li>
+<li>
+<p>Farvestofferne er: 
+50 mg tablet: Rød jernoxid (E 172), sort jernoxid (E 172), indigocarmin aluminium lake 
+(E 132). 
+100 mg tablet: Gul jernoxid (E 172). 
+150 mg tablet: Gul jernoxid (E 172), rød jernoxid (E 172), sort jernoxid (E 172). 
+200 mg tablet: Indigocarmin aluminium lake (E 132). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>
+<p>Vimpat 50 mg er lyserødlige, ovale filmovertrukne tabletter med omtrentlige dimensioner 
+på 10,4 mm x 4,9 mm og præget med ‘SP’ på den ene side og ‘50’ på den anden. </p>
+</li>
+<li>
+<p>Vimpat 100 mg er mørkegule, ovale filmovertrukne tabletter med omtrentlige dimensioner 
+på 13,2 mm x 6,1 mm og præget med ‘SP’ på den ene side og ‘100’ på den anden. </p>
+</li>
+<li>
+<p>Vimpat 150 mg er laksefarvede, ovale filmovertrukne tabletter med omtrentlige dimensioner 
+på 15,1 mm x 7,0 mm og præget med ‘SP’ på den ene side og ‘150’ på den anden. </p>
+</li>
+<li>
+<p>Vimpat 200 mg er blå, ovale filmovertrukne tabletter med omtrentlige dimensioner 
+på 16,6 mm x 7,8 mm og præget med ‘SP’ på den ene side og ‘200’ på den anden. </p>
+</li>
+</ul>
+<p>Behandlingsstartpakken indeholder 56 filmovertrukne tabletter i 4 æsker: </p>
+<ul>
+<li>
+<p>æsken mærket ‘Uge 1’ indeholder 14 tabletter á 50 mg, </p>
+</li>
+<li>
+<p>æsken mærket ‘Uge 2’ indeholder 14 tabletter á 100 mg, </p>
+</li>
+<li>
+<p>æsken mærket ‘Uge 3’ indeholder 14 tabletter á 150 mg, </p>
+</li>
+<li>
+<p>æsken mærket ‘Uge 4’ indeholder 14 tabletter á 200 mg. </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen 
+UCB Pharma S.A., Allée de la Recherche 60, B-1070 Bruxelles, Belgien. </p>
+<p>Fremstiller 
+UCB Pharma S.A., Chemin du Foriest, B-1420 Braine-l’Alleud, Belgien<br />
+eller<br />
+Aesica Pharmaceuticals GmbH, Alfred-Nobel Strasse 10, D-40789 Monheim am Rhein, Tyskland. </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+UCB Pharma SA/NV 
+Tél/Tel: + 32/(0)2 559 92<br />
+Lietuva 
+UCB Pharma Oy Finland 
+Tel: + 358 9 2514 4221 (Suomija) 
+България 
+Ю СИ БИ България ЕООД 
+Teл.: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
+UCB Pharma SA/NV 
+Tél/Tel: + 32/(0)2 559 92 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+UCB s.r.o. 
+Tel: + 420 221 773<br />
+Magyarország 
+UCB Magyarország Kft. 
+Tel.: + 36-(1) 391 0 
+Danmark 
+UCB Nordic A/S 
+Tlf: + 45/32 46 24<br />
+Malta 
+Pharmasud Ltd. 
+Tel: + 356/21 37 64<br />
+Deutschland 
+UCB Pharma GmbH 
+Tel: + 49 /(0) 2173 48 4 
+Nederland 
+UCB Pharma B.V. 
+Tel.: + 31/(0)76-573 11<br />
+Eesti 
+UCB Pharma Oy Finland<br />
+Tel: + 358 9 2514 4221 (Soome) </p>
+<p>Norge 
+UCB Nordic A/S 
+Tlf: + 47 / 67 16 5 
+Ελλάδα 
+UCB Α.Ε.<br />
+Τηλ: + 30/2109974 
+Österreich 
+UCB Pharma GmbH 
+Tel: + 43 (0)1 291 80 España 
+UCB Pharma, S.A. 
+Tel: + 34/91 570 34<br />
+Polska 
+UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
+Tel.: + 48 22 696 99<br />
+France 
+UCB Pharma S.A. 
+Tél: + 33/(0)1 47 29 44 Portugal 
+UCB Pharma (Produtos Farmacêuticos), Lda<br />
+Tel: + 351 21 302 5 
+Hrvatska 
+Medis Adria d.o.o. 
+Tel: +385 (0) 1 230 34  </p>
+<p>România 
+UCB Pharma Romania S.R.L. 
+Tel: + 40 21 300 29<br />
+Ireland 
+UCB (Pharma) Ireland Ltd. 
+Slovenija 
+Medis, d.o.o. </p>
+<p>Tel: + 353/(0)1-46 37 395  </p>
+<p>Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf. 
+Simi: + 354 535 7Slovenská republika 
+UCB s.r.o., organizačná zložka 
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A. 
+Tel: + 39/02 300 Suomi/Finland 
+UCB Pharma Oy Finland 
+Puh/Tel: + 358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ: + 357 22 05 63<br />
+Sverige 
+UCB Nordic A/S 
+Tel: + 46/(0) 40 29 49 Latvija 
+UCB Pharma Oy Finland 
+Tel: + 358 9 2514 4221 (Somija) </p>
+<p>United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd 
+Tel : + 353 / (0)1-46 37<br />
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
+<p>Andre informationskilder </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/ </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Vimpat 10 mg/ml syrup 
+lacosamid </p>
+<p>Læs denne indlægsseddel grundigt, inden De begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. De kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Spørg lægen eller apotekspersonalet, hvis der er mere, De vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret dette lægemiddel til Dem personligt. Lad derfor være med at give 
+medicinen til andre. Det kan være skadeligt for andre, selvom de har samme symptomer, som 
+De har. </p>
+</li>
+<li>
+<p>Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9c57e69f60995207b09a78762e7a972a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vimpat Package Leaflet for language en"
+Description: "ePI document Bundle for vimpat Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9c57e69f60995207b09a78762e7a972a"
+* entry[0].resource = composition-en-9c57e69f60995207b09a78762e7a972a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9c57e69f60995207b09a78762e7a972a"
+* entry[=].resource = mp9c57e69f60995207b09a78762e7a972a
+                            
+                    
+Instance: bundlepackageleaflet-da-9c57e69f60995207b09a78762e7a972a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vimpat Package Leaflet for language da"
+Description: "ePI document Bundle for vimpat Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9c57e69f60995207b09a78762e7a972a"
+* entry[0].resource = composition-da-9c57e69f60995207b09a78762e7a972a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9c57e69f60995207b09a78762e7a972a"
+* entry[=].resource = mp9c57e69f60995207b09a78762e7a972a
+                            
+                    
+
+
+
+Instance: mp9c57e69f60995207b09a78762e7a972a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vimpat 50 mg film-coated tablets"
-Description: "Vimpat 50 mg film-coated tablets"
+Title: "Medicinal Product vimpat"
+Description: "vimpat"
 Usage: #inline
 
  
@@ -439,7 +1160,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vimpat 50 mg film-coated tablets"
+  * productName = "vimpat"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -466,29 +1187,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9c57e69f60995207b09a78762e7a972a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vimpat Package Leaflet for language en"
-Description: "ePI document Bundle for vimpat Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9c57e69f60995207b09a78762e7a972aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/08/470/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vimpat"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9c57e69f60995207b09a78762e7a972a"
-* entry[0].resource = composition-en-9c57e69f60995207b09a78762e7a972a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7b9df88504f6fa7a244e41f0be5a7449"
-* entry[=].resource = mp7b9df88504f6fa7a244e41f0be5a7449
-                            
-                      
+* title = "List of all ePIs associated with vimpat"
+
+* subject = Reference(mp7b9df88504f6fa7a244e41f0be5a7449)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vimpat "vimpat"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9c57e69f60995207b09a78762e7a972a) // vimpat en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9c57e69f60995207b09a78762e7a972a) // vimpat da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9c57e69f60995207b09a78762e7a972a
+InstanceOf: List
+
+* insert 9c57e69f60995207b09a78762e7a972aListRuleset
+    

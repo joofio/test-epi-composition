@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-dce45db374fd85c6f1ce99ef66d24944
 InstanceOf: CompositionUvEpi
 Title: "Composition for ivemend Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp3600cdc961ebc03a24a3107a7265e1a7)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -419,9 +422,477 @@ section 6.2).</p>         </div>"""
 
 
 
+Instance: composition-da-dce45db374fd85c6f1ce99ef66d24944
+InstanceOf: CompositionUvEpi
+Title: "Composition for ivemend Package Leaflet"
+Description:  "Composition for ivemend Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3600cdc961ebc03a24a3107a7265e1a7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - ivemend"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge IVEMEND
+3. Sådan skal du bruge IVEMEND 
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ivemend is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ivemend is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IVEMEND indeholder det aktive stof fosaprepitant, der omdannes til aprepitant i kroppen. Det tilhører
+en gruppe af lægemidler, der kaldes "neurokinin 1 (NK1) receptorantagonister". I hjernen er der et
+særligt område, som kontrollerer kvalme og opkastning. IVEMEND virker ved at blokere signalerne
+til dette område, hvorved kvalme og opkastning mindskes. IVEMEND anvendes hos voksne, unge og
+børn i alderen 6 måneder eller derover i kombination med anden medicin til at forebygge kvalme og
+opkastning i forbindelse med kemoterapi (behandling af cancer), som er en kraftig eller moderat
+udløser af kvalme og opkastning. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ivemend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ivemend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke IVEMEND</p>
+<ul>
+<li>
+<p>hvis du er allergisk over for fosaprepitant, aprepitant, eller over for polysorbat-80 eller et eller
+flere af de øvrige indholdsstoffer (angivet i punkt 6).</p>
+</li>
+<li>
+<p>sammen med medicin, som indeholder pimozid (til behandling af psykiske lidelser), terfenadin
+og astemizol (til behandling af høfeber og andre allergitilstande), cisaprid (til behandling af
+problemer med fordøjelsen). Fortæl det til din læge, hvis du anvender disse lægemidler, da
+behandlingen i så fald skal justeres, før du begynder behandling med IVEMEND.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger IVEMEND.
+Før behandling med dette lægemiddel skal du fortælle lægen, hvis du har en leversygdom, da leveren
+er vigtig ved nedbrydning af medicinen i kroppen. Det kan derfor være nødvendigt for lægen at
+kontrollere din leverfunktion.
+Børn og unge
+Giv ikke IVEMEND til børn under 6 måneder eller som vejer under 6 kg, da det ikke er undersøgt i
+denne population.
+31
+Brug af anden medicin sammen med IVEMEND
+IVEMEND kan påvirke virkningen af andre lægemidler både under og efter behandling med
+IVEMEND. Nogle lægemidler må ikke tages sammen med IVEMEND (såsom pimozid, terfenadin,
+astemizol og cisaprid). Det kan være nødvendigt at justere dosis (se også Brug ikke IVEMEND). 
+Virkningen af IVEMEND eller anden medicin kan påvirkes, hvis du tager IVEMEND sammen med
+anden medicin, herunder de lægemidler, der er nævnt nedenfor. Fortæl altid lægen eller
+apotekspersonalet, hvis du tager et eller flere af følgende lægemidler:</p>
+</li>
+<li>
+<p>Prævention, som kan omfatte p-piller, præventions-plastre, implantater og visse
+præventionsmidler, som placeres i livmoderen, og som frigør hormoner, vil måske ikke være
+effektiv, når den bruges sammen med IVEMEND. Andre eller supplerende ikke-hormonelle
+former for prævention skal anvendes under behandling med IVEMEND og i op til 2 måneder
+efter brug af IVEMEND.</p>
+</li>
+<li>Ciclosporin, tacrolimus, sirolimus, everolimus (medicin der hæmmer dannelsen af antistoffer)</li>
+<li>Alfentanil, fentanyl (til behandling af smerter)</li>
+<li>Quinidin (til behandling af uregelmæssig hjerterytme)</li>
+<li>Irinotecan, etoposid, vinorelbin, ifosfamid (medicin til behandling af cancer)</li>
+<li>Lægemidler der indeholder sekalealkaloidderivater såsom ergotamin og diergotamin (til
+behandling af migræne)</li>
+<li>Warfarin, acenocoumarol (midler til blodfortynding; det kan måske være nødvendigt at tage
+blodprøver)</li>
+<li>Rifampicin, clarithromycin, telithromycin (antibiotika til behandling af infektioner)</li>
+<li>Phenytoin (til behandling af krampeanfald)</li>
+<li>Carbamazepin (til behandling af depression eller epilepsi)</li>
+<li>Midazolam, triazolam, phenobarbital (beroligende midler eller sovemidler)</li>
+<li>Perikon (et naturlægemiddel til behandling af depression)</li>
+<li>Proteasehæmmere (til behandling hiv-infektioner)</li>
+<li>Ketoconazol undtagen shampoo (til behandling af Cushings syndrom - når kroppen producerer
+for meget kortisol) </li>
+<li>Itraconazol, voriconazol, posaconazol (svampemidler)</li>
+<li>Nefazodon (til behandling af depression)</li>
+<li>Diltiazem (til behandling af forhøjet blodtryk)</li>
+<li>Kortikosteroider (såsom dexamethason)</li>
+<li>Angstdæmpende midler (såsom alprazolam)</li>
+<li>Tolbutamid (medicin til behandling af diabetes (sukkersyge)).
+Fortæl altid lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at
+tage anden medicin. Dette gælder også medicin, som ikke er købt på recept, fx naturlægemidler og
+vitaminer og mineraler.
+Graviditet og amning
+Dette lægemiddel må ikke anvendes under graviditet, medmindre det er klart nødvendigt. Hvis du er
+gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge
+din læge til råds, før du får dette lægemiddel.
+For information angående prævention, se "Brug af anden medicin sammen med IVEMEND".
+Det er ukendt, om IVEMEND udskilles i mælken hos mennesker. Derfor må du ikke amme under
+behandling med dette lægemiddel. Før du får lægemidlet, er det vigtigt, at fortælle lægen, om du
+ammer eller planlægger at amme.
+Trafik og arbejdssikkerhed
+Bemærk, at nogle mennesker bliver svimle eller søvnige efter at have fået IVEMEND. Hvis du bliver
+svimmel eller søvnig, skal du undgå at køre bil eller betjene maskiner, efter du har fået dette
+lægemiddel (se punkt 4 Bivirkninger).
+32
+IVEMEND indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det
+væsentlige natriumfrit.</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ivemend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ivemend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hos voksne (i alderen 18 år og derover) er den anbefalede dosis af IVEMEND 150 mg fosaprepitant
+på dag 1 (dagen for kemoterapi).
+Hos børn og unge (i alderen 6 måneder til 17 år) er den anbefalede dosis af IVEMEND baseret på
+patientens alder og vægt. Afhængigt af typen af kemoterapibehandling er der to måder, hvorpå
+IVEMEND kan gives:
+IVEMEND gives kun på dag 1 (på en enkelt dag med kemoterapi)
+IVEMEND gives på dag 1, 2 og 3 (på en enkelt dag eller over flere dage med kemoterapi)* 
+Orale formuleringer af aprepitant kan ordineres på dag 2 og 3 i stedet for IVEMEND.
+Pulveret opløses og fortyndes før brug. Opløsningen gives som drop (intravenøs infusion) af en læge
+eller sygeplejerske ca. 30 minutter før du begynder på kemoterapibehandling hos voksne, eller 60 -
+90 minutter før du begynder på kemoterapi hos børn og unge. Lægen kan bede dig om at tage anden
+medicin, herunder et kortikosteroid (fx dexamethason) og en "5HT3-antagonist" (fx ondansetron) til at
+forebygge kvalme og opkastning. Er du i tvivl, så spørg lægen eller apotekspersonalet.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Stop med at tage IVEMEND og kontakt straks lægen, hvis De bemærker en eller flere af
+følgende bivirkninger, som kan være alvorlige, og for hvilke akut lægebehandling kan være
+nødvendig:</p>
+<ul>
+<li>Nældefeber, udslæt, kløe, vejrtræknings- eller synkebesvær eller et alvorligt blodtryksfald
+(hyppigheden er ikke kendt, kan ikke estimeres ud fra forhåndenværende data); disse
+symptomer er tegn på alvorlig allergisk reaktion</li>
+<li>
+<p>Reaktioner på infusionsstedet ved eller nær ved infusionsstedet. De fleste alvorlige reaktioner på
+infusionsstedet er forekommet med en vis type kemoterapibehandling, som kan brænde din hud
+eller danne blærer på huden (vesicant) med bivirkninger, inklusive smerter, hævelser og rødme.
+Vævsdød (nekrose) er forekommet hos nogle personer, der får denne type
+kemoterapibehandling.
+Andre bivirkninger, som er rapporteret, er anført nedenfor.
+Almindelige bivirkninger (forekommer hos mellem 1 og 10 ud af 100 personer):</p>
+</li>
+<li>
+<p>Forstoppelse, fordøjelsesbesvær</p>
+</li>
+<li>Hovedpine</li>
+<li>Træthed</li>
+<li>Appetitløshed</li>
+<li>Hikke</li>
+<li>
+<p>Forhøjet indhold af leverenzymer i blodet.
+Ikke almindelige bivirkninger (forekommer hos mellem 1 og 10 ud af 1.000 personer):</p>
+</li>
+<li>
+<p>Svimmelhed, søvnighed</p>
+</li>
+<li>Akne, udslæt  </li>
+<li>Angst </li>
+<li>Opstød, kvalme, opkastning, halsbrand, mavesmerter, mundtørhed, luftafgang fra tarmen, sår i
+munden </li>
+<li>Øget smertefuld og sviende fornemmelse ved vandladning 
+33</li>
+<li>Svækkelse, generel følelse af utilpashed</li>
+<li>Rødmen i ansigtet, hudrødme, hedeture </li>
+<li>Hurtig eller uregelmæssig hjerterytme (puls), forhøjet blodtryk </li>
+<li>Feber med øget risiko for infektion, fald i antal røde blodlegemer</li>
+<li>
+<p>Smerte, rødme og/eller kløe på infusionsstedet, irritation i åren, hvor infusionen bliver givet.
+Sjældne bivirkninger (forekommer hos 1 ud af 1.000 personer):</p>
+</li>
+<li>
+<p>Koncentrationsbesvær, manglende energi, smagsforstyrrelser</p>
+</li>
+<li>Hudfølsomhed over for solen, øget svedtendens, fedtet hud, sår på huden, kløende udslæt,
+Stevens-Johnsons syndrom/toksisk epidermal nekrolyse (sjælden, alvorlig hudreaktion)</li>
+<li>Eufori (ekstrem lykkefølelse), desorientering</li>
+<li>Bakterieinfektion, svampeinfektion</li>
+<li>Svær forstoppelse, mavesår, betændelse i tyndtarm og tyktarm, sår i munden, oppustethed</li>
+<li>Hyppig vandladning, større urinmængde end normalt, sukker i urinen</li>
+<li>Gener i brystet, hævelser, ændringer i måden at gå på</li>
+<li>Hoste, slim bagest i svælget, irritation i svælget, nysen, ondt i halsen</li>
+<li>Tåreflåd, øjenkløe</li>
+<li>Ringen for ørerne (tinnitus)</li>
+<li>Muskelkramper, muskelsvækkelse</li>
+<li>Udtalt tørst</li>
+<li>Langsom hjerterytme (puls), sygdom i hjerte- eller blodkar</li>
+<li>Fald i antal hvide blodlegemer, lavt indhold af natrium i blodet, vægttab</li>
+<li>Hård infiltration på infusionsstedet.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
+information om sikkerheden af dette lægemiddel.</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ivemend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ivemend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke IVEMEND efter den udløbsdato, der står på pakningen og hætteglasset efter EXP. De første
+2 tal angiver måneden; de næste 4 tal angiver årstallet.
+Opbevares i køleskab (2-8 °C).
+Den endelige, blandede og fortyndede opløsning er stabil i 24 timer ved højst 25 °C.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IVEMEND indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: Fosaprepitant. Hvert hætteglas indeholder fosaprepitant dimeglumin svarende til
+150 mg fosaprepitant. Efter rekonstitution og fortynding indeholder 1 ml opløsning 1 mg
+fosaprepitant (1 mg/ml).</p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: Dinatriumedetat (E386); polysorbat 80 (E433); lactose, vandfri;
+natriumhydroxid (E524) (til justering af pH) og/eller saltsyre, fortyndet (E507) (til justering af
+pH).
+34
+Udseende og pakningsstørrelser
+IVEMEND er et hvidt til off-white pulver til infusionsvæske.
+Pulveret er i et hætteglas af klart glas med gummiprop og aluminiumsforsegling med gråt plastik flip-
+off låg.
+Et hætteglas indeholder 150 mg fosaprepitant. Pakningsstørrelser: 1 eller 10 hætteglas.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+Belgique/België/Belgien 
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. +370 5278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@msd.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o. 
+Tel: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +361 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com 
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland 
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com 
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Eλλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+35
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o. 
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: +33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@msd.com 
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila
+d.o.o. 
+Tel: +386 1 5204 201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Simi: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s.r.o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com</p>
+</li>
+</ul>
+<p>Ιtalia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited 
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com 
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija 
+Tel: +371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human
+Health) Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+(EMAs) hjemmeside http://www.ema.europa.eu.</p>
+<h2>36</h2>
+<p>Nedentående oplysninger er til læger og sundhedspersonale:
+Instruktion i at blande og fortynde IVEMEND 150 mg:
+1. Sprøjt 5 ml natriumchloridopløsning 9 mg/ml (0,9%) ind i hætteglasset. Vær sikker på at
+natriumchloridopløsningen 9 mg/ml (0,9%) tilsættes langs hætteglassets væg for at undgå, at det
+skummer. Vend hætteglasset forsigtigt rundt. Undgå at ryste hætteglasset og at sprøjte
+natriumchloridopløsningen 9 mg/ml (0,9%) ind i en hård stråle.
+2. Tilbered en infusionspose med 145 ml natriumchloridopløsning 9 mg/ml (0,9%) til injektion (fx
+ved at fjerne 105 ml natriumchloridopløsning 9 mg/ml (0,9%) til injektion fra en 250 ml
+infusionspose med natriumchloridopløsning 9 mg/ml (0,9%) til injektion).
+3. Træk hele indholdet op af hætteglasset og overfør det til infusionsposen med de 145 ml
+natriumchloridopløsning 9 mg/ml (0,9%), så det i alt giver 150 ml og en endelig
+koncentration på 1 mg/ml. Vend forsigtigt posen op og ned 2-3 gange (se Sådan skal De bruge
+IVEMEND).
+4. Bestem det volumen, der skal administreres fra den tilberedte infusionspose på basis af den
+anbefalede dosis (se pkt. 4.2 i produktresuméet). </p>
+<p>Voksne</p>
+<p>Hele indholdet af den tilberedte infusionspose (150 ml) skal administreres.</p>
+<p>Pædiatriske patienter
+Hos patienter i alderen 12 år og derover beregnes det volumen, der skal administreres, på
+følgende måde: 
+• Volumen, der skal administreres (ml) er lig med den anbefalede dosis (mg) 
+Hos patienter i alderen 6 måneder til under 12 år beregnes det volumen, der skal administreres,
+på følgende måde:
+• Volumen, der skal administreres (ml) = anbefalet dosis (mg/kg) x vægt (kg) * 
+Bemærk: Må ikke overskride de maksimale doser (se pkt. 4.2 i
+produktresuméet).
+5. Om nødvendigt ved et volumen på under 150 ml kan det beregnede volumen overføres til en
+pose eller sprøjte af en passende størrelse før administration via infusion.
+Den endelige rekonstituerede og fortyndede opløsning er stabil i 24 timer ved 25 ºC.
+Parenterale lægemidler skal undersøges visuelt for partikler og misfarvning før administration, hvis
+det er muligt.
+Den rekonstituerede opløsning og fortyndingsvæsken har samme udseende.
+Bortskaf eventuel resterende rekonstitueret og fortyndet opløsning samt affald. Ikke anvendt
+lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
+Lægemidlet må ikke rekonstitueres eller blandes med opløsninger, for hvilke der ikke er fastslået
+fysisk og kemisk kompatibilitet (se pkt. 6.2 i produktresuméet).</p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-dce45db374fd85c6f1ce99ef66d24944
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for ivemend Package Leaflet for language en"
@@ -440,5 +911,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-dce45db374fd85c6f1ce99ef66d24944"
 * entry[0].resource = composition-en-dce45db374fd85c6f1ce99ef66d24944
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdce45db374fd85c6f1ce99ef66d24944"
+* entry[=].resource = mpdce45db374fd85c6f1ce99ef66d24944
+                            
+                    
+Instance: bundlepackageleaflet-da-dce45db374fd85c6f1ce99ef66d24944
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ivemend Package Leaflet for language da"
+Description: "ePI document Bundle for ivemend Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-dce45db374fd85c6f1ce99ef66d24944"
+* entry[0].resource = composition-da-dce45db374fd85c6f1ce99ef66d24944
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdce45db374fd85c6f1ce99ef66d24944"
+* entry[=].resource = mpdce45db374fd85c6f1ce99ef66d24944
+                            
+                    
+
+
+
+Instance: mpdce45db374fd85c6f1ce99ef66d24944
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product ivemend"
+Description: "ivemend"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/07/437/003"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Prevention of nausea and vomiting associated with highly and moderately emetogenic cancer"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "ivemend"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: dce45db374fd85c6f1ce99ef66d24944ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ivemend"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with ivemend"
+
+* subject = Reference(mp3600cdc961ebc03a24a3107a7265e1a7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ivemend "ivemend"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-dce45db374fd85c6f1ce99ef66d24944) // ivemend en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-dce45db374fd85c6f1ce99ef66d24944) // ivemend da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-dce45db374fd85c6f1ce99ef66d24944
+InstanceOf: List
+
+* insert dce45db374fd85c6f1ce99ef66d24944ListRuleset
+    

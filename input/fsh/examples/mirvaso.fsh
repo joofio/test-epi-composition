@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-7f09c8319207b8e58a7db33f5a93be62
 InstanceOf: CompositionUvEpi
 Title: "Composition for mirvaso Package Leaflet"
@@ -415,12 +418,510 @@ web site: http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-da-7f09c8319207b8e58a7db33f5a93be62
+InstanceOf: CompositionUvEpi
+Title: "Composition for mirvaso Package Leaflet"
+Description:  "Composition for mirvaso Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd532a5d39628e90ddc8420c0bb984f9e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd532a5d39628e90ddc8420c0bb984f9e
+* title = "TEST PURPOSES ONLY - mirvaso"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at bruge Mirvaso
+3. Sådan skal du bruge Mirvaso
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What mirvaso is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What mirvaso is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mirvaso indeholder det aktive stof brimonidin, der tilhører en gruppe lægemidler, som normalt 
+kaldes "alfa-agonister".
+Det påføres huden på ansigtet til behandling af rødme, der skyldes rosacea hos voksne patienter.
+Ansigtsrødme på grund af rosacea skyldes kraftig blodgennemstrømning af huden i ansigtet, hvilket 
+igen skyldes udvidelse af hudens små blodkar.
+Ved påføring får Mirvaso disse små blodkar til at trække sig sammen igen, så der ikke strømmer så 
+meget blod igennem ansigtet og giver rødme.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take mirvaso"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take mirvaso"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke Mirvaso:</h2>
+<p>hvis du er allergisk over for brimonidin eller et af de øvrige indholdsstoffer i dette lægemiddel
+(angivet i punkt 6).
+-
+til børn under 2 år, som de kan have en øget risiko for bivirkninger af det lægemiddel, der 
+optages gennem huden.
+-
+hvis du tager visse typer medicin mod depression eller Parkinsons sygdom, herunder de såkaldte 
+monoaminooxidasehæmmere (MAO-hæmmere - for eksempel selegilin eller moclobemid), eller 
+tricykliske antidepressiva (såsom imipramin) eller tetracykliske antidepressiva (såsom 
+maprotilin, mianserin eller mirtazapin). Der kan forekomme blodtryksfald, når Mirvaso bruges 
+sammen med disse lægemidler.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotek, før du bruger Mirvaso, især hvis:
+23
+-
+huden i ansigtet er irriteret eller har åbne sår.
+-
+du har problemer med hjerte eller kredsløb eller din blodcirkulation.
+-
+du har depression, nedsat blodstrømning til hjernen eller hjertet, fald i blodtrykket når du rejser 
+dig, nedsat blodstrømning til hænder, fødder eller hud, eller Sjögrens syndrom (en kronisk 
+sygdom, hvor kroppens naturlige forsvarsmekanisme - immunsystemet - angriber de 
+fugtproducerende kirtler).
+-
+du har nyre- eller leverproblemer eller tidligere har haft det.
+- du har fået foretaget, eller planlægger at få foretaget, en laserprocedure på huden i dit ansigt.
+Det er vigtigt at starte behandlingen med en lille mængde gel, øge dosen gradvist men brug ikke mere 
+end maksimumdosen på 1 gram (ca. en mængde på størrelse med "5 ærter" ). Se også instruktionen
+'Sådan bruger du Mirvaso'.
+Påfør ikke Mirvaso mere end én gang om dagen, og overskrid ikke den daglige maksimumdosis på 
+1 gram (cirka 5 mængder på størrelse med en ært). Se også anvisningerne i ‘Sådan skal du bruge
+Mirvaso’.
+Forværring af rødme af huden, rødmen og varmefornemmelse i ansigtet eller brændende fornemmelse 
+i huden
+Op til 1 ud af 6 patienter oplever, at deres rødme vender tilbage og er værre, end den var første gang. 
+En sådan forværring af rødme udvikles sædvanligvis inden for de første 2 uger med behandling med 
+Mirvaso. Almindeligvis falder den til ro af sig selv, efter at behandlingen er stoppet. Virkningen bør 
+aftage gradvist inden for nogle få dage i de fleste tilfælde. Inden du igen starter på behandlingen med 
+Mirvaso topisk gel, skal du prøve at smøre den på et lille område af ansigtet en dag, hvor du kan blive 
+hjemme. Hvis du ikke oplever en forværring af rødmen eller brænden, fortsætter du med den 
+sædvanlige behandling (se punkt 3).
+I tilfælde af forværring eller uventet rødme skal du ophøre med behandlingen og kontakte din læge.
+Kontakt lægen, hvis et af disse punkter passer på dig, da dette lægemiddel måske så ikke er egnet 
+til dig.
+Børn og unge
+Giv ikke dette lægemiddel til børn og unge under 18 år, da sikkerhed og virkning hos denne 
+aldersgruppe ikke er klarlagt. Dette er særligt vigtigt, når det gælder børn under 2 år (se ’Brug ikke 
+Mirvaso’).
+Brug af andre lægemidler sammen med Mirvaso
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler eller har gjort det for 
+nylig, da disse lægemidler kan påvirke din behandling med Mirvaso, eller Mirvaso kan påvirke din 
+behandling med disse lægemidler.
+Tag ikke Mirvaso sammen med selegilin, moclobemid, imipramin eller paprotilin, som er lægemidler, 
+der anvendes mod depression eller Parkinsons sygdom, da det kunne påvirke effekten af Mirvaso eller 
+øge risikoen for bivirkninger såsom blodtryksfald (se under ’Brug ikke Mirvaso’).
+Fortæl også lægen, hvis du tager nogle af følgende lægemidler:
+-
+medicin til behandling af smerter, søvnforstyrrelser eller angst.
+-
+medicin, der bruges til behandling af psykiske lidelser (chlorpromazin) eller der bruges ved 
+hyperaktivitet (methylphenidat), eller der bruges ved højt blodtryk (reserpin).
+-
+medicin, der påvirker den samme mekanisme i kroppen som Mirvaso (andre alfa-agonister, 
+f.eks. clonidin, sålkaldte alfablokkere eller alfa-antagonister, f.eks. prazosin, isoprenalin, der 
+oftest bruges til behandling af højt blodtryk, langsom puls eller astma).
+-
+hjerteglykosider (f.eks. digoxin) mod hjerteproblemer.
+-
+blodtrykssænkende medicin såsom betablokkere eller calciumantagonister (f.eks. propranolol, 
+amlodipin).
+Kontakt lægen, hvis et af disse punkter passer på dig, eller hvis du har mistanke om det.
+24
+Brug af Mirvaso sammen med alkohol
+Fortæl det til lægen, hvis du jævnligt drikker alkohol, da det kan påvirke din behandling med dette 
+lægemiddel.
+Graviditet og amning
+Det frarådes at anvende Mirvaso under graviditeten. Det skyldes, at medicinens virkning på dit ufødte 
+barn ikke kendes. Du bør ikke anvende dette lægemiddel under amning, da det ikke er kendt, om dette 
+lægemiddel passerer ind i modermælken.
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger dette lægemiddel.
+Trafik- og arbejdssikkerhed
+Mirvaso påvirker ikke i væsentlig grad evnen til at føre motorkøretøj og betjene maskiner.
+Mirvaso indeholder methylparahydroxybenzoat (E218) der kan give allergiske reaktioner 
+(kan optræde efter behandlingen). Dette lægemiddel indeholder også 55 mg propylenglycol (E1520)
+pr. gram, svarende til 5,5% w/w, der kan give irritation af huden.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take mirvaso"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take mirvaso"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Vigtigt: Mirvaso er kun beregnet til voksne og kun til anvendelse på huden i ansigtet. Brug ikke dette 
+lægemiddel på andre dele af kroppen og især ikke på fugtige overflader som f.eks. i øjnene, munden, 
+næsen eller skeden.
+Må ikke sluges.
+Opbevar Mirvaso gel utilgængeligt for børn.
+Sådan skal du bruge Mirvaso
+Mirvaso bør kun påføres en gang dagligt i ansigtet.
+Påbegynd behandlingen med en lille mængde gel (en mængde på størrelse med en "ært"  ) i den første 
+uge, sådan som din læge eller sygeplejerske har forklaret. 
+Hvis dine symptomer forbliver de samme eller bedres lidt, kan du gradvist øge mængden af gel. Påfør 
+den glat og jævnt i et meget tyndt lag som anvist af lægen eller sygeplejersken. Det er vigtigt ikke at 
+overskride den daglige maksimumdosis på 1 gram (5 mængder på størrelse med en ært påføres i hele 
+ansigtet).
+Du skal vaske dine hænder straks efter anvendelse af denne medicin.
+Hvis dine symptomer bliver værre under behandling med Mirvaso (øget rødme eller brænden), skal du 
+stoppe behandlingen og få en tid hos lægen - se også afsnit 2 under "Advarsler og 
+forsigtighedsregler".
+Du skal undgå øjne, øjenlåg, læber, mund og indersiden af næsen. Hvis du får gel på disse områder, 
+skal du straks vaske dem med rigelige mængder vand. Hvis du oplever forværring af rødme eller 
+brænden, skal du stoppe med at bruge Mirvaso og om nødvendigt kontakte din læge.
+Påfør ikke andre hudlægemidler eller kosmetik umiddelbart før den daglige påføring af Mirvaso.
+Du må først bruge disse produkter, når Mirvaso er tørt.
+25
+Når du åbner tuben/pumpen første gang, skal du passe på, at der ikke kommer en større mængde ud, 
+end du skal bruge. Hvis dette sker, skal du kassere den overskydende gel, så du ikke påfører mere end 
+den anbefalede dosis. Se afsnittet ’Sådan skal du bruge Mirvaso’ ovenfor.
+[EU/1/13/904/004-006, EU/1/13/904/008-009]
+Sådan åbnes tuben med børnesikret hætte
+Klem ikke tuben under åbning eller dosering, så gelen spildes.
+Tryk hætten ned og drej den mod uret (drej mod venstre). Træk dernæst hætten af.
+Sådan lukkes tuben med børnesikret hætte
+Tryk ned og drej med uret (drej mod højre).
+[EU/1/13/904/007]
+Sådan åbnes pumpen med børnesikret hætte
+Tryk hætten ned og drej den mod uret (drej mod venstre), indtil hætten kan tages af. 
+Bemærk: Når hætten er taget af, er pumpen ikke børnesikret.
+Inden brug første gang primes pumpen ved at trykke ned flere gange, indtil der kommer medicin ud på 
+en fingerspids.
+Tryk en mængde Mirvaso på størrelse med en ært fra pumpen ud på en fingerspids, når du vil påføre 
+Mirvaso-gel i ansigtet. Fortsæt med at trykke ned på pumpen for at få det antal "ærter" (mængde), du 
+har brug for i henhold til din læges recept (men ikke mere end svarende til 5 "ærter" i alt).
+Når pumpen skal lukkes, sættes hætten på pumpen igen. Tryk ned og drej hætten mod højre (med 
+uret), indtil den stopper. Pumpen er igen børnesikret.
+26
+Hvis du har brugt for meget Mirvaso
+Hvis du bruger mere end den maksimale daglige dosis af 1 gram i løbet af en 24-timers periode, kan 
+det give hudirritation eller andre bivirkninger på påføringsstedet. Gentagne doser i løbet af den 
+samme 24-timers periode kan resultere i bivirkninger, f.eks. lavt blodtryk, søvnighed eller døsighed.
+Kontakt lægen, som kan rådgive dig om, hvad du skal gøre.
+Hvis andre, særligt et barn, ved et uheld sluger Mirvaso, kan de få alvorlige bivirkninger og 
+skulle have hospitalsbehandling.
+Kontakt straks lægen eller tag på skadestuen, hvis du selv, et barn eller nogen anden har indtaget 
+medicinen og får nogen af følgende symptomer: svimmelhed på grund af lavt blodtryk, opkastning,
+træthed eller søvnighed, lav eller uregelmæssig puls, små pupiller, besværet eller langsom 
+vejrtrækning, slaphed, lav kropstemperatur eller kramper (anfald). Tag medicinpakningen med dig, 
+så lægen ved, hvilken medicin det drejer sig om.
+Hvis du har glemt at bruge Mirvaso
+Mirvaso virker på et dagligt grundlag allerede fra den første behandlingsdag. Din rødme vil ikke blive 
+reduceret på en dag, hvor du glemmer den daglige dosis. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis og fortsæt din behandling som foreskrevet.
+Hvis du holder op med at tage Mirvaso
+En potentiel konsekvens ved at stoppe behandlingen inden afslutningen af behandlingsforløbet er, at 
+sygdommen kommer tilbage til sin oprindelige tilstand. Kontakt lægen, hvis du ønsker at holde pause 
+eller stoppe behandlingen, så lægen kunne rådgive om en anden behandling efter behov.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
+Hvis du udvikler ualmindelige bivirkninger af alvorlig hudirritation eller betændelse, hududslæt, 
+hudsmerter eller ubehag, tør hud, varm følelse i huden, prikken eller følelse af stikken af nåle i huden, 
+hævelse i ansigtet eller almindelige bivirkninger som forværring af rosacea, afbryd da behandlingen og 
+tal med din læge, da dette lægemiddel måske ikke passer til dig. I nogle tilfælde kan symptomerne 
+strække sig ud over det behandlede område. Se også afsnit 2 under 'Advarsler og forholdsregler'.
+Hvis du udvikler kontaktallergi (f.eks. allergisk reaktion, udslæt) eller sjældent angioødem (en alvorlig 
+allergisk reaktion, ses ret   sædvanligvis som hævelse af ansigt, mund eller tunge), stop da med at 
+bruge Mirvaso og søg straks lægehjælp.
+Mirvaso kan også give følgende andre bivirkninger:
+Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer):
+-
+rødmen og varmefornemmelse i ansigtet
+-
+udtalt bleghed på det sted, hvor gelen er påført
+-
+rødme af huden, brændende fornemmelse i huden eller kløe
+Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer):
+-
+acne
+-
+mundtørhed
+27
+-
+kold fornemmelse i hænder og fødder
+-
+varmefølelse
+-
+hovedpine
+-
+tilstoppet næse
+-
+hævet øjenlåg
+-
+nældefeber
+-
+svimmelhed
+Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer):
+-
+hypotension (nedsat blodtryk)
+-
+fald i hjerterytme (langsom puls, kendt som bradykardi).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apotekspersonalet. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store mirvaso"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mirvaso"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen, tuben og pumpen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlig forholdsregel vedrørende opbevaringen.
+Opbevares ved temperaturer under 30 °C. Må ikke nedfryses.
+Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Mirvaso indeholder:</h2>
+<p>Aktivt stof: brimonidin. Et gram gel indeholder 3,3 mg brimonidin svarende til 5 mg 
+brimonidintartrat.
+-
+Øvrige indholdsstoffer: carbomer, methylparahydroxybenzoat (E218), phenoxyethanol, 
+glycerol, titandioxid, propylenglycol (E1520), natriumhydroxid, renset vand. Se sidst i 
+punkt 2 for oplysninger om methylparahydroxybenzoat og propylenglycol.
+Udseende og pakningsstørrelser
+Mirvaso er en hvid til let gul, uklar gel. Den leveres i tuber med 2, 10 eller 30 g gel eller i et 
+ikke-ventileret pumpesystem med 30 g gel.
+Pakningsstørrelse: 1 tube eller 1 pumpe.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Galderma International
+Tour Europlaza, 20 avenue André Prothin - La Défense 4
+La Défense Cedex 92927
+Frankrig
+28
+Fremstiller
+Laboratoires Galderma
+Z.I. Montdésir
+74540 Alby-sur-Chéran
+Frankrig
+eller
+Galderma Laboratorium GmbH
+Toulouser Allee 19a-23a,
+Pempelfort,
+Düsseldorf,
+North Rhine-Westphalia,
+40211,
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+Österreich
+Galderma Austria GmbH
+Tel: 0043 732 715 993
+e-mail: austria@galderma.com
+Italia
+Galderma Italia S.p.A.
+Tel: + 39 337 1176197
+e-mail: vigilanza@galderma.com
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Galderma Benelux BV
+Tél/Tel: +31 183691919
+e-mail: info.be@galderma.com
+Latvija
+Tamro SIA, Latvia 
+Tel. +371 67067800
+България
+PHOENIX PHARMA EOOD, 
+Bulgaria 
+Tel. +359 2 9658 100
+Lietuva
+Tamro UAB, Lithuania 
+Tel. +37037401099
+Česká republika
+Slovenská republika
+4 LIFE PHARMA CZ, s.r.o. 
+Czech
+Tel. +420 244 403 003
+e-mail: Info@4lifepharma.eu
+Magyarország
+Ewopharma Hungary Kft.
+Tel.: +36 1 200 4650
+e-mail: info@ewopharma.hu
+Danmark
+Norge
+Ísland
+Suomi/Finland
+Sverige
+Galderma Nordic AB
+Tlf/Sími/Puh/Tel: + 46 18 444 0330
+e-mail: nordic@galderma.com
+Malta
+Prohealth Limited
+Tel. +356 21461851, +356 21460164
+e-mail: info@prohealth.com.mt
+29
+Deutschland
+Galderma Laboratorium GmbH
+Tel: + 49 (0) 800 - 5888850
+e-mail: patientenservice@galderma.com
+Nederland
+Galderma Benelux BV
+Tel: + 31 183691919
+e-mail: info.nl@galderma.com
+Eesti
+Tamro Eesti OÜ, Estonia 
+Tel. +372 650 3600
+Polska
+Galderma Polska Sp. z o.o.
+Tel.: + 48 22 331 21 80
+e-mail: info.poland@galderma.com
+Ελλάδα
+Κύπρος
+Pharmassist Ltd 
+Τηλ: + 30 210 6560700
+e-mail: safety@pharmassist.gr
+Portugal
+Laboratorios Galderma, SA - Sucursal em 
+Portugal
+Tel: + 351 21 315 19 40
+e-mail: galderma.portugal@galderma.com
+España
+Laboratorios Galderma SA
+Tel: + 34 902 02 75 95
+e-mail: RegulatorySpain@galderma.com
+România
+Neola Pharma SRL
+Tel: + 40 21 233 17 81
+e-mail: office.neola@neolapharma.ro
+France
+Hrvatska
+Ireland
+Slovenija
+Galderma International
+Tél: +33 08.00.00.99.38
+e-mail: pharmacovigilance.france@galderma.com
+United Kingdom (Northern Ireland)
+Galderma (UK) Ltd.
+Tel: +44 (0)300 3035674
+e-mail: medinfo.uk@galderma.com
+Denne indlægsseddel blev senest ændret 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-7f09c8319207b8e58a7db33f5a93be62
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mirvaso Package Leaflet for language en"
+Description: "ePI document Bundle for mirvaso Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7f09c8319207b8e58a7db33f5a93be62"
+* entry[0].resource = composition-en-7f09c8319207b8e58a7db33f5a93be62
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7f09c8319207b8e58a7db33f5a93be62"
+* entry[=].resource = mp7f09c8319207b8e58a7db33f5a93be62
+                            
+                    
+Instance: bundlepackageleaflet-da-7f09c8319207b8e58a7db33f5a93be62
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mirvaso Package Leaflet for language da"
+Description: "ePI document Bundle for mirvaso Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-7f09c8319207b8e58a7db33f5a93be62"
+* entry[0].resource = composition-da-7f09c8319207b8e58a7db33f5a93be62
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7f09c8319207b8e58a7db33f5a93be62"
+* entry[=].resource = mp7f09c8319207b8e58a7db33f5a93be62
+                            
+                    
+
+
+
+Instance: mp7f09c8319207b8e58a7db33f5a93be62
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Mirvaso 3 mg/g gel"
-Description: "Mirvaso 3 mg/g gel"
+Title: "Medicinal Product mirvaso"
+Description: "mirvaso"
 Usage: #inline
 
  
@@ -440,7 +941,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Mirvaso 3 mg/g gel"
+  * productName = "mirvaso"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -467,29 +968,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-7f09c8319207b8e58a7db33f5a93be62
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for mirvaso Package Leaflet for language en"
-Description: "ePI document Bundle for mirvaso Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 7f09c8319207b8e58a7db33f5a93be62ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Polyethylene (PE)/Copolymer/Aluminium (Al)/Copolymer/Polyethylene (PE) polyfoil tubes:"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "mirvaso"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-7f09c8319207b8e58a7db33f5a93be62"
-* entry[0].resource = composition-en-7f09c8319207b8e58a7db33f5a93be62
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd532a5d39628e90ddc8420c0bb984f9e"
-* entry[=].resource = mpd532a5d39628e90ddc8420c0bb984f9e
-                            
-                      
+* title = "List of all ePIs associated with mirvaso"
+
+* subject = Reference(mpd532a5d39628e90ddc8420c0bb984f9e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#mirvaso "mirvaso"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-7f09c8319207b8e58a7db33f5a93be62) // mirvaso en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-7f09c8319207b8e58a7db33f5a93be62) // mirvaso da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-7f09c8319207b8e58a7db33f5a93be62
+InstanceOf: List
+
+* insert 7f09c8319207b8e58a7db33f5a93be62ListRuleset
+    

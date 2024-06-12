@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e607211528f92c3963caeeb4fd500657
 InstanceOf: CompositionUvEpi
 Title: "Composition for myfenax Package Leaflet"
@@ -488,12 +491,742 @@ Detailed information on this medicine is available on the website of the Europea
 
 
 
+Instance: composition-da-e607211528f92c3963caeeb4fd500657
+InstanceOf: CompositionUvEpi
+Title: "Composition for myfenax Package Leaflet"
+Description:  "Composition for myfenax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe9376b60be8ce68a7fc777bbfe6aa519)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe9376b60be8ce68a7fc777bbfe6aa519
+* title = "TEST PURPOSES ONLY - myfenax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Myfenax 
+3. Sådan skal du tage Myfenax 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What myfenax is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What myfenax is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Myfenax er medicin, der anvendes til at nedsætte immunforsvaret. </p>
+<p>Det aktive stof i denne medicin hedder mycophenolatmofetil. </p>
+<p>Myfenax anvendes til at forhindre kroppen i at afstøde en transplanteret nyre, hjerte eller lever. Det 
+anvendes sammen med anden medicin med tilsvarende virkning (inklusive ciclosporin og 
+binyrebarkhormon). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take myfenax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take myfenax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ADVARSEL 
+Mycophenolat forårsager medfødte misdannelser og abort. Hvis du er kvinde og kan blive gravid, skal 
+der foreligge en negativ graviditetstest, før behandlingen igangsættes, og du skal følge lægens råd 
+vedrørende prævention. 
+Lægen vil tale med dig og give dig skriftlig information, især om mycophenolats virkninger på 
+fosteret. Læs informationen grundigt og følg vejledningen. 
+Hvis du ikke helt forstår informationen, skal du bede lægen om at forklare den igen, før du tager 
+mycophenolat. Se også yderligere information i dette afsnit under "Advarsler og forsigtighedsregler" 
+og "Graviditet, prævention og amning". </p>
+<h2>Tag ikke Myfenax</h2>
+<p>Hvis du er allergisk over for mycophenolatmofetil, mycophenolsyre eller et af de øvrige 
+indholdsstoffer i Myfenax (angivet i punkt 6). 
+- Hvis du er kvinde og kan blive gravid, og der ikke foreligger en negativ graviditetstest, før du 
+har fået den første recept, eftersom mycophenolat forårsager medfødte misdannelser og abort. 
+- Hvis du er gravid eller planlægger at blive gravid eller tror, at du kan være gravid. 
+- Hvis du ikke anvender sikker prævention (se "Graviditet, prævention og amning"). </p>
+<ul>
+<li>Hvis du ammer. 
+Tag ikke dette lægemiddel, hvis noget af ovenstående gælder for dig. Spørg lægen eller på apoteket, 
+før du tager Myfenax, hvis der er noget, du er i tvivl om. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen med det samme, før behandling med Myfenax igangsættes:</p>
+<ul>
+<li>Hvis du er over 65 år, kan du have en øget risiko for at få bivirkninger såsom visse 
+virusinfektioner, blødninger i tarmen og vand i lungerne sammenlignet med yngre patienter. </li>
+<li>Hvis du oplever nogen form for tegn på infektion (f.eks. feber, ondt i halsen), uventede blå 
+mærker og/eller blødning. </li>
+<li>Hvis du har eller nogensinde har haft problemer med dit fordøjelsessystem, f.eks. mavesår </li>
+<li>Hvis du planlægger at blive gravid, eller hvis du bliver gravid, mens du eller din partner tager 
+Myfenax. </li>
+<li>Hvis du har en arvelig enzymmangel såsom Lesch-Nyhan og Kelley-Seegmiller syndrom. </li>
+</ul>
+<p>Myfenax nedsætter din organismes forsvarsmekanismer. Af denne grund er der en øget risiko for 
+hudkræft. Derfor skal du begrænse din udsættelse for sollys og ultraviolet (UV) lys ved hjælp af 
+beskyttende beklædning og solblokker med høj beskyttelsesfaktor. </p>
+<p>Du må ikke give blod under behandling med Myfenax og i mindst 6 uger efter behandlingens ophør. 
+Mænd må ikke være sæddonorer under behandling med Myfenax og i mindst 90 dage efter 
+behandlingens ophør. </p>
+<p>Børn og unge 
+Myfenax anvendes til børn og unge (2-18 år) for at forhindre, at deres krop afstøder en transplanteret 
+nyre. 
+Myfenax bør ikke anvendes til børn og unge (2-18 år) i forbindelse med hjerte- eller 
+levertransplantation. 
+Myfenax bør under ingen omstændigheder anvendes til børn under 2 år, da der er begrænsede data for 
+sikkerhed og virkning tilgængelige for denne aldersgruppe, og der kan derfor ikke gives nogen 
+anbefalinger vedrørende dosering. </p>
+<p>Brug af anden medicin sammen med Myfenax 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin.  </p>
+<p>Hvis du kan svare ja til nogen af de følgende spørgsmål, skal du tale med din læge, før du begynder at 
+tage Myfenax: 
+• Tager du nogen form for medicin, som indeholder:  * azathioprin eller andre stoffer der nedsætter immunforsvaret (som undertiden gives til patienter 
+efter en transplantationsoperation),  * colestyramin (som bruges til behandling af patienter med for højt kolesteroltal),  * rifampicin (antibiotika),  * mavesårsmedicin eller protonpumpehæmmere (bruges mod for meget mavesyre, f.eks. ved 
+fordøjelsesbesvær, phosphatbindere (bruges til patienter med kronisk nyresvigt for at reducere 
+absorptionen af phosphat), * antibiotika - bruges til behandling af bakterielle infektioner * isavuconazol - bruges til behandling af svampeinfektioner * telmisartan - bruges til behandling af forhøjet blodtryk *  eller anden medicin (inklusive håndkøbsmedicin), som din læge ikke er bekendt med? 
+• Skal du vaccineres (levende vaccine)? Din læge vil rådgive dig om, hvilke vacciner du må bruge. </p>
+<p>Graviditet, prævention og amning </p>
+<p>Prævention hos kvinder, som tager Myfenax 
+Hvis du er en kvinde og kan blive gravid, skal du bruge en effektiv præventionsmetode, mens du tager 
+Myfenax, herunder: </p>
+<p>• Før du starter med at tage Myfenax 
+• Under hele behandlingen med Myfenax 
+• I 6 uger efter du er stoppet med at tage Myfenax. 
+Kontakt lægen om den bedst egnede prævention for dig. Det vil afhænge af din situation. Brug af to 
+former for prævention er bedre, da dette vil gøre risikoen for utilsigtet graviditet mindre. Kontakt 
+lægen så hurtigt som muligt, hvis du tror at din prævention har svigtet, eller hvis du har glemt 
+at tage de svangerskabsforebyggende tabletter (f.eks. p-piller). </p>
+<p>Du kan ikke blive gravid, hvis én af følgende tilstande gælder for dig: 
+• Du har passeret overgangsalderen, dvs. er mindst 50 år, og din sidste menstruation var for mere end 
+et år siden (hvis din menstruation er stoppet, fordi du er blevet behandlet for kræft, er der 
+stadigvæk mulighed for, at du kan blive gravid). 
+• Dine æggeledere og begge dine æggestokke er blevet fjernet ved operation (bilateral salpingo- ooforektomi). 
+• Din livmoder (uterus) er blevet fjernet ved operation (hysterektomi). 
+• Dine æggestokke er ophørt med at fungere (for tidligt ovariesvigt, som er blevet bekræftet af en 
+speciallæge i gynækologi). 
+• Du blev født med en af følgende sjældne tilstande, som gør graviditet umulig: XY-genotype, 
+Turners syndrom eller manglende livmoder. 
+• Du er barn eller teenager og endnu ikke har fået menstruation. </p>
+<p>Prævention hos mænd, som tager Myfenax 
+Tilgængelige data indikerer ikke øget risiko for misdannelser eller abort hvis faderen tager 
+mycophenolat. En risiko kan dog ikke udelukkes helt. Som en sikkerhedsforanstaltning anbefales det, 
+at du eller din kvindelige partner bruger pålidelig prævention under behandlingen og i 90 dage efter, at 
+du er stoppet med at tage Myfenax.  </p>
+<p>Hvis du planlægger at få et barn, skal du tale med din læge om potentielle risici og alternative 
+behandlinger. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. Lægen vil tale med 
+dig om risici i forbindelse med graviditet og alternative behandlinger, du kan tage for at forhindre 
+afstødning af det transplanterede organ, hvis: 
+• Du planlægger at blive gravid. 
+• Du ikke får din menstruation eller tror, du ikke har fået din menstruation eller har en usædvanlig 
+menstruation eller tror, at du er gravid. 
+• Hvis du har sex uden at anvende sikker prævention. 
+Hvis du bliver gravid under behandlingen med mycophenolat, skal du straks kontakte lægen. Fortsæt 
+dog behandlingen med Myfenax, indtil du ser lægen. </p>
+<p>Graviditet 
+Mycophenolat forårsager en meget høj frekvens af aborter (50 %) og svære misdannelser (23-27 %) 
+hos det ufødte barn. Medfødte misdannelser, som har været rapporteret, inkluderer abnormiteter i ører, 
+øjne og ansigt (læbe-gane spalte) eller i fingrenes udvikling, samt i hjerte, spiserør, nyrer og 
+nervesystem (f.eks. manglende sammenvoksning af rygraden (spina bifida)). Barnet kan have en eller 
+flere af disse misdannelser. 
+Hvis du er kvinde og kan blive gravid, skal der foreligge en negativ graviditetstest, før du må 
+påbegynde behandlingen, og du skal følge lægens råd om prævention. Lægen kan kræve mere end én 
+test for at sikre, at du ikke er gravid, før du påbegynder behandlingen. </p>
+<p>Amning 
+Tag ikke Myfenax, hvis du ammer. Dette skyldes, at små mængder af medicinen kan passere over i 
+mælken. </p>
+<p>Trafik- og arbejdssikkerhed 
+Myfenax påvirker i moderat grad din evne til at føre motorkøretøj og bruge værktøj eller maskiner. 
+Hvis du oplever døsighed, følelsesløshed eller forvirring, bør du tale med din læge eller sygeplejerske, 
+og vente med at føre motorkøretøj og bruge værktøj eller maskiner til du har fået det bedre. </p>
+<p>Myfenax indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take myfenax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take myfenax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Din behandling startes af og overvåges af en læge, som er specialiseret i transplantationer.  </p>
+<p>Den sædvanlige dosis er: </p>
+<p>Nyretransplantation </p>
+<p>Voksne 
+Den første dosis gives inden for 72 timer efter transplantationen. Den anbefalede daglige dosis er 
+8 kapsler (2 g af den aktive bestanddel) indtaget som to separate doser. Det vil sige, at man skal tage 
+4 kapsler om morgenen og 4 kapsler om aftenen. </p>
+<p>Børn og unge (2-18 år) 
+Dosis afhænger af barnets størrelse. Din læge afgør den mest passende dosis baseret på 
+legemsoverfladens areal (højde og vægt). Den anbefalede dosis er 600 mg/m² to gange dagligt. </p>
+<p>Hjertetransplantation </p>
+<p>Voksne 
+Den første dosis gives inden for 5 døgn efter transplantationen. Den anbefalede daglige dosis er 
+12 kapsler (3 g af den aktive bestanddel) indtaget som to separate doser. Det vil sige, at man skal tage 
+6 kapsler om morgenen og 6 kapsler om aftenen. </p>
+<p>Børn 
+Der er ingen information om brug af Myfenax til hjertetransplanterede børn.  </p>
+<p>Levertransplantation </p>
+<p>Voksne 
+Den første dosis Myfenax til indtagelse gennem munden gives tidligst 4 dage efter transplantationen, 
+og når du er i stand til at indtage medicin gennem munden. Den anbefalede daglige dosis er 12 kapsler 
+(3 g aktivt stof) indtaget som to separate doser. Det vil sige, at man skal tage 6 kapsler om morgenen 
+og 6 kapsler om aftenen. </p>
+<p>Børn 
+Der er ingen information om brug af Myfenax til levertransplanterede børn. </p>
+<p>Anvendelsesmåde og indgivelsesvej 
+Synk kapslerne hele med et glas vand. Du kan tage dem med eller uden mad. De må ikke brækkes 
+over eller knuses. Indtag ikke kapsler, der er åbnede eller gået itu. Undgå kontakt med pulver fra 
+itugåede kapsler. Hvis en kapsel går i stykker ved et uheld, og du har fået noget af pulveret på huden, 
+skal du vaske huden med sæbe og vand. Hvis du får pulver fra en itugået kapsel i øjnene eller i 
+munden, skal du skylle grundigt med rigeligt, frisk vand. </p>
+<p>Behandlingen skal fortsætte så længe, du har behov for at få nedsat immunforsvaret, for at hindre 
+afstødning af det transplanterede organ. </p>
+<p>Hvis du har taget for meget Myfenax 
+Det er vigtigt ikke at indtage for mange kapsler. Kontakt det nærmeste hospital, den nærmeste 
+skadestue eller din læge, hvis du har slugt flere kapsler, end du har fået anvist, eller hvis du formoder, 
+at et barn har slugt nogle af kapslerne. </p>
+<p>Hvis du har glemt at tage Myfenax 
+Hvis du på noget tidspunkt har glemt at tage medicinen, skal du tage den, så snart du kommer i tanke 
+om det. Fortsæt derefter med at tage den til de sædvanlige tider. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Myfenax 
+Stop ikke med at tage Myfenax, bare fordi du måtte få det bedre. Det er vigtigt at indtage medicinen så 
+lang tid, som din læge har fortalt dig. Hvis behandlingen med Myfenax stoppes, kan risikoen for 
+afstødning af det transplanterede organ øges. Stop ikke med at tage din medicin, medmindre lægen har 
+bedt dig om det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt straks lægen, hvis du bemærker nogle af de følgende alvorlige bivirkninger - du kan 
+have behov for akut medicinsk behandling: </p>
+<ul>
+<li>
+<p>du har tegn på infektion, såsom feber eller ondt i halsen. </p>
+</li>
+<li>
+<p>du har uventede blå mærker eller blødninger. </p>
+</li>
+<li>
+<p>du har et udslæt, hævelse af ansigt, læber, tunge eller halsen, med vejrtrækningsbesvær - du kan 
+have en alvorlig allergisk reaktion på lægemidlet (såsom anafylaksi, angioødem). </p>
+</li>
+<li>
+<p>din afføring er sort eller blodig, eller du kaster blod op eller mørke partikler, der ligner 
+kaffegrums. Det kan være tegn på blødning i mave eller tarm. </p>
+</li>
+</ul>
+<p>Hyppigheden af visse bivirkninger afhænger af det transplanterede organ, dvs. nogle bivirkninger kan 
+forekomme mere eller mindre hyppigt, afhængigt af om lægemidlet tages for at forhindre, at din krop 
+afstøder et transplanteret hjerte eller en transplanteret nyre. For klarhedens skyld anføres hver 
+bivirkning altid under dens største hyppighed. </p>
+<p>Andre bivirkninger </p>
+<p>Meget almindelig (kan forekomme hos flere end l ud af 10 patienter) </p>
+<ul>
+<li>
+<p>bakterielle, virale og/eller svampeinfektioner </p>
+</li>
+<li>
+<p>alvorlig infektion, som kan påvirke hele kroppen </p>
+</li>
+<li>
+<p>fald i antallet af hvide blodceller, blodplader eller røde blodceller, hvilket kan resultere i en øget 
+risiko for infektioner, blå mærker, blødninger, kortåndethed og svaghed </p>
+</li>
+<li>
+<p>blødning under huden </p>
+</li>
+<li>
+<p>stigning i antallet af hvide blodceller </p>
+</li>
+<li>
+<p>for megen syre i kroppen </p>
+</li>
+<li>
+<p>højt niveau af kolesterol og/eller fedtstoffer i blodet </p>
+</li>
+<li>
+<p>højt niveau af sukker i blodet </p>
+</li>
+<li>
+<p>højt niveau af kalium i blodet, lavt niveau af kalium, magnesium, calcium og/eller fosfat i blodet </p>
+</li>
+<li>
+<p>højt niveau af urinsyre i blodet, podagra (urinsyregigt) </p>
+</li>
+<li>
+<p>rastløshed, unormale tanker; opfattelse og bevidsthedsniveauer, depression, angst, søvnbesvær </p>
+</li>
+<li>
+<p>øget muskelspænding, rysten, søvnighed, svimmelhed, hovedpine, snurren, prikken eller 
+følelsesløshed </p>
+</li>
+<li>
+<p>hurtigere hjerteslag </p>
+</li>
+<li>
+<p>lavt/højt blodtryk, blodkarudvidelse </p>
+</li>
+<li>
+<p>væskeophobning i lungen, stakåndethed, hoste </p>
+</li>
+<li>
+<p>oppustet mave </p>
+</li>
+<li>
+<p>opkastning, mavesmerter, diarré, kvalme </p>
+</li>
+<li>
+<p>forstoppelse, fordøjelsesbesvær, luft i maven (flatulens) </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>ændringer i forskellige laboratorieparametre </p>
+</li>
+<li>
+<p>leverbetændelse, gulfarvning af huden og det hvide i øjnene </p>
+</li>
+<li>
+<p>vækst i huden, udslæt, akne </p>
+</li>
+<li>
+<p>muskelsvaghed </p>
+</li>
+<li>
+<p>ledsmerter </p>
+</li>
+<li>
+<p>nyreproblemer </p>
+</li>
+<li>
+<p>blod i urinen </p>
+</li>
+<li>
+<p>feber, kuldefornemmelse, smerter, svaghed og kraftløshed </p>
+</li>
+<li>
+<p>væskeophobning i kroppen </p>
+</li>
+<li>
+<p>del af et indvendigt organ eller væv, som buler ud gennem et svagt sted i mavemusklerne </p>
+</li>
+<li>
+<p>muskelsmerter, nakke- og rygsmerter </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>hudkræft eller godartede vækster på huden </p>
+</li>
+<li>
+<p>abnorm og overdriven vævsvækst </p>
+</li>
+<li>
+<p>fald i antallet af alle blodceller </p>
+</li>
+<li>
+<p>godartet forstørrelse af lymfeknuderne, betændelsesændringer i huden (pseudolymfom) </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>abnorm tankevirksomhed </p>
+</li>
+<li>
+<p>anfald </p>
+</li>
+<li>
+<p>ændringer i smagssansen </p>
+</li>
+<li>
+<p>blodprop, der dannes i en vene </p>
+</li>
+<li>
+<p>betændelse i det væv, der dækker den indre væg af bughulen (abdomen) og dækker de fleste 
+organer i bughulen </p>
+</li>
+<li>
+<p>tarmblokering </p>
+</li>
+<li>
+<p>tyktarmsbetændelse, som giver mavesmerter eller diarré (nogle gange forårsaget af 
+cytomegalovirus), sår i munden og/eller mavesår og/eller sår i tolvfingertarmen, betændelse i 
+maven, spiserøret og/eller munden og læberne </p>
+</li>
+<li>
+<p>bøvsen </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>følelse af utilpashed </p>
+</li>
+<li>
+<p>overvækst af tandkødet </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen, som giver svære smerter i maven og ryggen </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>infektioner med protozoer (encellede organismer) </p>
+</li>
+<li>
+<p>spredning af lymfevæv, herunder kræftsvulster </p>
+</li>
+<li>
+<p>utilstrækkelig produktion af røde blodceller </p>
+</li>
+<li>
+<p>alvorlige sygdomme i knoglemarven </p>
+</li>
+<li>
+<p>ophobning af lymfevæske i kroppen </p>
+</li>
+<li>
+<p>kortåndethed, hoste, som kan skyldes bronkiektasi (en tilstand, hvor bronkierne er abnormalt 
+udvidede) eller lungefibrose (dannelse af arvæv i lungene). Kontakt lægen, hvis du udvikler 
+vedvarende hoste eller kortåndethed. </p>
+</li>
+<li>
+<p>fald i antallet af antistoffer i blodet </p>
+</li>
+<li>
+<p>betydelig reduktion af antallet af visse hvide blodceller (mulige symptomer er feber, ondt i 
+halsen, hyppige infektioner (agranulocytose). </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>ændringer i den indre tyndtarmsvæg (intestinal villus atrofi) </p>
+</li>
+<li>
+<p>alvorlig betændelse af hinden, der dækker hjernen og rygmarven </p>
+</li>
+<li>
+<p>alvorlig betændelse i hjertet og hjerteklapperne </p>
+</li>
+<li>
+<p>bakterieinfektioner, der sædvanligvis resulterer i en alvorlig lungesygdom (tuberkulose, atypisk 
+mycobakteriel infektion) </p>
+</li>
+<li>
+<p>alvorlig nyresygdom (BK-virus forbundet med nefropati) </p>
+</li>
+<li>
+<p>alvorlig sygdom i centralnervesystemet (JC-virus forbundet med progressiv multifokal 
+leukoencefalopati) </p>
+</li>
+<li>
+<p>fald i antallet af visse hvide blodceller (neutropeni) </p>
+</li>
+<li>
+<p>ændring af formen af visse hvide blodceller </p>
+</li>
+</ul>
+<p>Stop ikke med at tage din medicin, medmindre du først har talt med din læge. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store myfenax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store myfenax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisteret og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Denne medicin kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Myfenax indeholder:</p>
+<ul>
+<li>Aktivt stof: mycophenolatmofetil. 
+Hver kapsel indeholder 250 mg mycophenolatmofetil </li>
+<li>Øvrige indholdsstoffer: 
+Kapselindhold 
+Pregelatineret majsstivelse 
+Povidon K-Croscarmellosenatrium 
+Magnesiumstearat 
+Kapselskal 
+Hoved 
+Indigo carmin (E132) 
+Titandioxid (E 171) 
+Gelatine 
+Krop 
+Rød jernoxid (E172) </li>
+</ul>
+<p>Gul jernoxid (E172) 
+Titandioxid (E 171) 
+Gelatine 
+Sort blæk indeholder: Sort jernoxid (E172), propylenglycol og kaliumhydroxid </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Hårde kapsler 
+Krop: 
+er uigennemsigtig karamelfarvet printet "250" aksialt med sort blæk.<br />
+Hoved: er uigennemsigtig lyseblå printet "M" aksialt med sort blæk.  </p>
+<p>Myfenax 250 mg hårde kapsler fås i PVC/PVdC-aluminium blister i<br />
+pakningsstørrelser på 100, 300 eller 100x1 kapsler i multipakninger indeholdende 300 (3 pakninger 
+med 100) kapsler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+Holland </p>
+<p>Fremstiller 
+Teva Pharmaceutical Works Private Limited Company 
+Pallagi út 13. Debrecen H-4Ungarn </p>
+<p>Teva Operations Poland Sp. Z.o.o. 
+Mogilska 80 Str. 
+31-546 Krakow 
+Polen </p>
+<p>Pharmachemie B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Nederlandene </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 </p>
+<p>Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+TEVA HELLAS Α.Ε. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917 
+Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Alvogen ehf. 
+Sími: +354 5222Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+TEVA HELLAS Α.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret i {MM/ÅÅÅÅ}. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+http://www.ema.europa.eu hjemmeside. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Myfenax 500 mg filmovertrukne tabletter 
+mycophenolatmofetil </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selv om de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk . </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e607211528f92c3963caeeb4fd500657
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for myfenax Package Leaflet for language en"
+Description: "ePI document Bundle for myfenax Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e607211528f92c3963caeeb4fd500657"
+* entry[0].resource = composition-en-e607211528f92c3963caeeb4fd500657
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe607211528f92c3963caeeb4fd500657"
+* entry[=].resource = mpe607211528f92c3963caeeb4fd500657
+                            
+                    
+Instance: bundlepackageleaflet-da-e607211528f92c3963caeeb4fd500657
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for myfenax Package Leaflet for language da"
+Description: "ePI document Bundle for myfenax Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e607211528f92c3963caeeb4fd500657"
+* entry[0].resource = composition-da-e607211528f92c3963caeeb4fd500657
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe607211528f92c3963caeeb4fd500657"
+* entry[=].resource = mpe607211528f92c3963caeeb4fd500657
+                            
+                    
+
+
+
+Instance: mpe607211528f92c3963caeeb4fd500657
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Myfenax 250 mg hard capsules"
-Description: "Myfenax 250 mg hard capsules"
+Title: "Medicinal Product myfenax"
+Description: "myfenax"
 Usage: #inline
 
  
@@ -513,7 +1246,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Myfenax 250 mg hard capsules"
+  * productName = "myfenax"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -540,29 +1273,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e607211528f92c3963caeeb4fd500657
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for myfenax Package Leaflet for language en"
-Description: "ePI document Bundle for myfenax Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e607211528f92c3963caeeb4fd500657ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/07/438/001 (100 capsules)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "myfenax"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e607211528f92c3963caeeb4fd500657"
-* entry[0].resource = composition-en-e607211528f92c3963caeeb4fd500657
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe9376b60be8ce68a7fc777bbfe6aa519"
-* entry[=].resource = mpe9376b60be8ce68a7fc777bbfe6aa519
-                            
-                      
+* title = "List of all ePIs associated with myfenax"
+
+* subject = Reference(mpe9376b60be8ce68a7fc777bbfe6aa519)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#myfenax "myfenax"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e607211528f92c3963caeeb4fd500657) // myfenax en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e607211528f92c3963caeeb4fd500657) // myfenax da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e607211528f92c3963caeeb4fd500657
+InstanceOf: List
+
+* insert e607211528f92c3963caeeb4fd500657ListRuleset
+    

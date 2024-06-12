@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f38fd388d9d557d533fdef41848d682d
 InstanceOf: CompositionUvEpi
 Title: "Composition for nustendi Package Leaflet"
@@ -378,12 +381,577 @@ Tel: +49-(0) 89 7808 0 </p>
 
 
 
+Instance: composition-da-f38fd388d9d557d533fdef41848d682d
+InstanceOf: CompositionUvEpi
+Title: "Composition for nustendi Package Leaflet"
+Description:  "Composition for nustendi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp196cd1cdef318691d38c9b7a1e4581a5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp196cd1cdef318691d38c9b7a1e4581a5
+* title = "TEST PURPOSES ONLY - nustendi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Nustendi </li>
+<li>Sådan skal du tage Nustendi </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What nustendi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What nustendi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Nustendi, og hvordan virker det? </p>
+<p>Nustendi er et lægemiddel, der sænker niveauet af det såkaldt "dårlige" kolesterol (LDL-kolesterol), 
+der er en type fedt i blodet. </p>
+<p>Nustendi indeholder to aktive stoffer, der reducerer kolesterolet på to måder: </p>
+<ul>
+<li>
+<p>Bempedoinsyre sænker produktionen af kolesterol i leveren og øger fjernelsen af LDL-
+kolesterol fra blodet. </p>
+</li>
+<li>
+<p>Ezetimib virker i tarmen ved at reducere den mængde kolesterol, der optages fra maden. </p>
+</li>
+</ul>
+<p>Hvad anvendes Nustendi til? </p>
+<p>Nustendi gives til voksne med primær hyperkolesterolæmi eller blandet dyslipidæmi, som er 
+sygdomme, der forårsager et højt kolesterolniveau i blodet. Nustendi gives i tillæg til 
+kolesterolsænkende diæt. </p>
+<p>Nustendi gives: </p>
+<ul>
+<li>
+<p>hvis du har brugt et statin (f.eks. simvastatin, et almindeligt anvendt lægemiddel til behandling 
+af forhøjet kolesterol) sammen med ezetimib, uden at det har sænket dit LDL-kolesterol 
+tilstrækkeligt </p>
+</li>
+<li>
+<p>hvis du har brugt ezetimib, uden at det har sænket dit LDL-kolesterol tilstrækkeligt </p>
+</li>
+<li>
+<p>i stedet for bempedoinsyre og ezetimib, hvis du har taget disse lægemidler som separate 
+tabletter. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take nustendi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take nustendi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Nustendi: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for bempedoinsyre, ezetimib eller et af de øvrige indholdsstoffer i 
+Nustendi (angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du er gravid </p>
+</li>
+<li>
+<p>hvis du ammer </p>
+</li>
+<li>
+<p>hvis du tager over 40 mg simvastatin dagligt (et andet kolesterolsænkende lægemiddel) </p>
+</li>
+<li>
+<p>sammen med et statin, hvis du aktuelt har leverproblemer </p>
+</li>
+<li>
+<p>Nustendi indeholder ezetimib. Hvis Nustendi gives sammen med et statin, bør du også læse de 
+oplysninger om ezetimib, der står i indlægssedlen for det pågældende statin. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Nustendi: </p>
+<ul>
+<li>
+<p>hvis du tidligere har haft urinsyregigt </p>
+</li>
+<li>
+<p>hvis du har alvorlige nyreproblemer </p>
+</li>
+<li>
+<p>hvis du har moderate eller alvorlige leverproblemer. Nustendi anbefales ikke i disse tilfælde. </p>
+</li>
+</ul>
+<p>Lægen bør tage en blodprøve, før du begynder at tage Nustendi sammen med et statin, for at se, hvor 
+godt din lever fungerer. </p>
+<p>Børn og unge </p>
+<p>Nustendi må ikke gives til børn og unge under 18 år. Anvendelse af Nustendi er ikke undersøgt hos 
+denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Nustendi </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Fortæl det især til lægen, hvis du tager 
+lægemidler, der indeholder nogen af følgende aktive stoffer: </p>
+<ul>
+<li>
+<p>atorvastatin, fluvastatin, pitavastatin, pravastatin, rosuvastatin eller simvastatin (såkaldte 
+statiner, der sænker kolesterolniveauet). 
+Risikoen for muskelsygdom kan øges ved samtidig anvendelse af et statin og Nustendi. Sig det 
+til lægen med det samme, hvis du oplever uventet smerte, ømhed eller svaghed i musklerne </p>
+</li>
+<li>
+<p>bosentan (til behandling af forhøjet blodtryk i lungearterierne) </p>
+</li>
+<li>
+<p>fimasartan (til behandling af forhøjet blodtryk og hjertesvigt) </p>
+</li>
+<li>
+<p>asunaprevir, glecaprevir, grazoprevir eller voxilaprevir (til behandling af hepatitis C) </p>
+</li>
+<li>
+<p>fenofibrat (sænker også kolesterolniveauet). 
+Der foreligger ingen oplysninger om effekten af samtidig anvendelse af Nustendi og fibrater 
+(kolesterolsænkende midler) </p>
+</li>
+<li>
+<p>ciclosporin (anvendes ofte hos organtransplanterede patienter) </p>
+</li>
+<li>
+<p>colestyramin (sænker også kolesterolniveauet), da det påvirker ezetimibs virkemåde </p>
+</li>
+<li>
+<p>lægemidler til forebyggelse af blodpropper, f.eks. warfarin, acenocoumarol, fluindion og 
+phenprocoumon. </p>
+</li>
+</ul>
+<p>Graviditet og amning </p>
+<p>Du må ikke tage dette lægemiddel, hvis du er gravid, har mistanke om, at du er gravid, eller 
+planlægger at blive gravid, da det muligvis kan være skadeligt for det ufødte barn. Hvis du bliver 
+gravid, mens du tager dette lægemiddel, skal du straks kontakte lægen og holde op med at tage 
+Nustendi. </p>
+<ul>
+<li>Graviditet 
+Inden du påbegynder behandling, skal du bekræfte, at du ikke er gravid, og at du bruger sikker 
+prævention som anvist af lægen. Hvis du bruger p-piller og oplever diarré eller opkastning, der 
+varer mere end 2 dage, skal du bruge en anden præventionsmetode (f.eks. kondom eller pessar) i 
+7 dage, efter at symptomerne har fortaget sig. </li>
+</ul>
+<p>Hvis du efter at være startet på Nustendi beslutter, at du ønsker at blive gravid, skal du sige det 
+til lægen, da din behandling så skal ændres. </p>
+<ul>
+<li>Amning 
+Du må ikke tage Nustendi, hvis du ammer, da det der ukendt, om Nustendi udskilles i 
+modermælk. </li>
+</ul>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Nustendi påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner. </p>
+<p>Nogle kan imidlertid opleve svimmelhed, når de tager Nustendi. Undlad at føre motorkøretøj eller 
+betjene maskiner, hvis du vurderer, at din reaktionsevne er nedsat. </p>
+<p>Nustendi indeholder lactose og natrium </p>
+<p>Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerartergal. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nustendi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nustendi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er én tablet én gang dagligt. </p>
+<p>Hvis du tager colestyramin, skal du enten tage Nustendi mindst 2 timer inden eller mindst 4 timer 
+efter, at du har taget colestyramin. </p>
+<p>Tabletten skal synkes hel og kan tages med eller uden mad. </p>
+<p>Hvis du har taget for meget Nustendi </p>
+<p>Kontakt lægen eller apotekspersonalet med det samme. </p>
+<p>Hvis du har glemt at tage Nustendi </p>
+<p>Hvis du opdager, at du har glemt: </p>
+<ul>
+<li>
+<p>at tage din dosis sent på dagen, skal du tage den glemte dosis og tage den næste dosis på det 
+sædvanlige tidspunkt næste dag. </p>
+</li>
+<li>
+<p>at tage din dosis dagen før, skal du tage din nye tablet på det sædvanlige tidspunkt; du må ikke 
+tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Nustendi </p>
+<p>Du må ikke holde op med at tage Nustendi uden lægens godkendelse, da dit kolesterol kan stige igen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt lægen med det samme, hvis du oplever en eller flere af følgende alvorlige bivirkninger 
+(hyppighed ikke kendt): </p>
+<ul>
+<li>
+<p>muskelsmerter eller muskelsvaghed </p>
+</li>
+<li>
+<p>gulfarvning af hud og øjne, mavesmerter, mørk urin, hævede ankler, nedsat appetit og træthed 
+(kan være tegn på leverproblemer) </p>
+</li>
+<li>
+<p>allergiske reaktioner, herunder udslæt og nældefeber, hævet rødt udslæt, indimellem med 
+skydeskiveformede læsioner (erythema multiforme) </p>
+</li>
+<li>
+<p>galdesten eller galdeblærebetændelse (som kan give mavesmerter, kvalme og opkastning), 
+betændelse i bugspytkirtlen (giver ofte kraftige mavesmerter) </p>
+</li>
+<li>
+<p>nedsat antal blodplader (trombocytopeni - kan give blå mærker/blødning) </p>
+</li>
+</ul>
+<p>Andre bivirkninger kan optræde med følgende hyppigheder: </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>nedsat antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>nedsat hæmoglobin (et protein i de røde blodlegemer, der transporterer ilt) </p>
+</li>
+<li>
+<p>øget urinsyre i blodet, urinsyregigt </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>svimmelhed, hovedpine </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>forstoppelse, diarré, mavesmerter </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>oppustet mave, luft i maven, betændelse i maveslimhinden (gastritis) </p>
+</li>
+<li>
+<p>unormale levertal i blodprøver </p>
+</li>
+<li>
+<p>muskelspasmer, muskelsmerter, smerter i skuldre, arme eller ben, rygsmerter, forhøjet 
+kreatinkinase i blodprøver (laboratorietest for muskelskade), muskelsvaghed, ledsmerter 
+(artralgi) </p>
+</li>
+<li>
+<p>forhøjet kreatinin og karbamid i blodet (laboratorietest for nyrefunktion) </p>
+</li>
+<li>
+<p>usædvanlig træthed eller svaghed </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>hedeture </p>
+</li>
+<li>
+<p>smerter i øvre maveregion, halsbrand, fordøjelsesbesvær </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>hævede ben eller hænder </p>
+</li>
+<li>
+<p>nakkesmerter, brystsmerter, smerter </p>
+</li>
+<li>
+<p>nedsat glomerulær filtrationshastighed (et mål for nyrefunktionen) </p>
+</li>
+</ul>
+<p>Hyppighed ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>prikkende fornemmelse </p>
+</li>
+<li>
+<p>depression </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store nustendi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nustendi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i den 
+originale yderpakning for at beskytte mod fugt. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nustendi indeholder: </p>
+<ul>
+<li>
+<p>Aktive stoffer: bempedoinsyre og ezetimib. Hver filmovertrukket tablet indeholder 180 mg 
+bempedoinsyre og 10 mg ezetimib. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>lactosemonohydrat (se til sidst i pkt. 2 under "Nustendi indeholder lactose og natrium") </p>
+</li>
+<li>mikrokrystallinsk cellulose (E460) </li>
+<li>natriumstivelsesglycolat (type A) (se til sidst i pkt. 2 under "Nustendi indeholder lactose og 
+natrium") </li>
+<li>hydroxypropylcellulose (E463) </li>
+<li>magnesiumstearat (E470b) </li>
+<li>vandfri kolloid silica (E551) </li>
+<li>natriumlaurylsulfat (E487) (se til sidst i pkt. 2 under "Nustendi indeholder lactose og 
+natrium") </li>
+<li>povidon (K30) (E1201) </li>
+<li>delvist hydrolyseret polyvinylalkohol (E1203), talkum (E553b), titandioxid (E171), 
+indigocarmin-aluminiumlak (E132), glycerolmonocaprylocaprat, brilliant blue FCF-
+aluminiumlak (E133) </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Filmovertrukne tabletter, der er blå, ovale og præget med "818" på den ene side og "ESP" på den 
+anden side. Tabletstørrelse: 15 mm × 7 mm × 5 mm. </p>
+<p>Nustendi fås i plast/aluminium-blisterkort i æsker med 10, 14, 28, 30, 84, 90, 98 eller 
+100 filmovertrukne tabletter eller enkeltdosisblisters i æsker med 10 x 1, 50 x 1 eller 
+100 x 1 filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i Danmark. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Daiichi Sankyo Europe GmbH 
+Zielstattstrasse 81379 München 
+Tyskland </p>
+<p>Fremstiller </p>
+<p>Daiichi Sankyo Europe GmbH 
+Luitpoldstrasse 1 
+85276 Pfaffenhofen 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Daiichi Sankyo Belgium N.V.-S.A 
+Tél/Tel: +32-(0) 2 227 18 Lietuva 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+България 
+Daiichi Sankyo Europe GmbH 
+тел.: +49-(0) 89 7808 0 
+Luxembourg/Luxemburg 
+Daiichi Sankyo Belgium N.V.-S.A 
+Tél/Tel: +32-(0) 2 227 18 Česká republika 
+Zentiva, k.s. 
+Tel: +420 267 241 Magyarország 
+Daiichi Sankyo Europe GmbH 
+Tel.: +49-(0) 89 7808 0 
+Danmark 
+Daiichi Sankyo Europe GmbH 
+Tlf: +49-(0) 89 7808 0 
+Malta 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Deutschland 
+Daiichi Sankyo Deutschland GmbH 
+Tel: +49-(0) 89 7808 0 
+Nederland 
+Daiichi Sankyo Nederland B.V. 
+Tel: +31-(0) 20 4 07 20 Eesti 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Norge 
+Daiichi Sankyo Europe GmbH 
+Tlf: +49-(0) 89 7808 0 
+Ελλάδα 
+Daiichi Sankyo Europe GmbH 
+Τηλ: +49-(0) 89 7808 0 
+Österreich 
+Daiichi Sankyo Austria GmbH 
+Tel: +43 (0) 1 485 86 42 0 
+España 
+Daiichi Sankyo España, S.A. 
+Tel: +34 91 539 99 Polska 
+Daiichi Sankyo Europe GmbH 
+Tel.: +49-(0) 89 7808 0 
+France 
+Daiichi Sankyo France S.A.S. 
+Tél: +33 (0) 1 55 62 14 Portugal 
+Daiichi Sankyo Portugal, Unip. LDA 
+Tel: +351 21 4232Hrvatska 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+România 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Ireland 
+Daiichi Sankyo Ireland Ltd 
+Tel: +353-(0) 1 489 3Slovenija 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Ísland 
+Daiichi Sankyo Europe GmbH 
+Sími: +49-(0) 89 7808 0 
+Slovenská republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3Italia 
+Daiichi Sankyo Italia S.p.A. 
+Tel: +39-06 85 2Suomi/Finland 
+Daiichi Sankyo Europe GmbH 
+Puh/Tel: +49-(0) 89 7808 0 
+Κύπρος 
+Daiichi Sankyo Europe GmbH 
+Τηλ: +49-(0) 89 7808 0 
+Sverige 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+Latvija 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 
+United Kingdom (Northern Ireland) 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 </p>
+<p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f38fd388d9d557d533fdef41848d682d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nustendi Package Leaflet for language en"
+Description: "ePI document Bundle for nustendi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f38fd388d9d557d533fdef41848d682d"
+* entry[0].resource = composition-en-f38fd388d9d557d533fdef41848d682d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf38fd388d9d557d533fdef41848d682d"
+* entry[=].resource = mpf38fd388d9d557d533fdef41848d682d
+                            
+                    
+Instance: bundlepackageleaflet-da-f38fd388d9d557d533fdef41848d682d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nustendi Package Leaflet for language da"
+Description: "ePI document Bundle for nustendi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f38fd388d9d557d533fdef41848d682d"
+* entry[0].resource = composition-da-f38fd388d9d557d533fdef41848d682d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf38fd388d9d557d533fdef41848d682d"
+* entry[=].resource = mpf38fd388d9d557d533fdef41848d682d
+                            
+                    
+
+
+
+Instance: mpf38fd388d9d557d533fdef41848d682d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Nustendi 180 mg/10 mg film-coated tablets"
-Description: "Nustendi 180 mg/10 mg film-coated tablets"
+Title: "Medicinal Product nustendi"
+Description: "nustendi"
 Usage: #inline
 
  
@@ -403,7 +971,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Nustendi 180 mg/10 mg film-coated tablets"
+  * productName = "nustendi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -430,29 +998,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f38fd388d9d557d533fdef41848d682d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for nustendi Package Leaflet for language en"
-Description: "ePI document Bundle for nustendi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f38fd388d9d557d533fdef41848d682dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1424/001 - 011"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "nustendi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f38fd388d9d557d533fdef41848d682d"
-* entry[0].resource = composition-en-f38fd388d9d557d533fdef41848d682d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp196cd1cdef318691d38c9b7a1e4581a5"
-* entry[=].resource = mp196cd1cdef318691d38c9b7a1e4581a5
-                            
-                      
+* title = "List of all ePIs associated with nustendi"
+
+* subject = Reference(mp196cd1cdef318691d38c9b7a1e4581a5)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#nustendi "nustendi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f38fd388d9d557d533fdef41848d682d) // nustendi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f38fd388d9d557d533fdef41848d682d) // nustendi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f38fd388d9d557d533fdef41848d682d
+InstanceOf: List
+
+* insert f38fd388d9d557d533fdef41848d682dListRuleset
+    

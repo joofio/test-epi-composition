@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-274e38fd037e90bae4b20ed78bb2e359
 InstanceOf: CompositionUvEpi
 Title: "Composition for skytrofa Package Leaflet"
@@ -397,12 +400,867 @@ Denmark </p>
 
 
 
+Instance: composition-da-274e38fd037e90bae4b20ed78bb2e359
+InstanceOf: CompositionUvEpi
+Title: "Composition for skytrofa Package Leaflet"
+Description:  "Composition for skytrofa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpae31772fe52c358bfcb3ba4af68ad0a2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpae31772fe52c358bfcb3ba4af68ad0a2
+* title = "TEST PURPOSES ONLY - skytrofa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du eller dit barn vide, før du eller dit barn begynder at bruge Skytrofa 
+3. Sådan skal du bruge Skytrofa 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What skytrofa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What skytrofa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Skytrofa er et lægemiddel, der indeholder det aktive stof lonapegsomatropin. Det er et stof, som 
+kroppen kan omdanne til somatropin, der også kaldes humant væksthormon (hGH). Somatropin er 
+nødvendigt for, at knogler og muskler kan vokse, og det hjælper kroppen med at udvikle den rette 
+mængde fedt- og muskelvæv.  </p>
+<p>Skytrofa bruges til behandling af børn og unge i alderen 3 til 18 år, som ikke er vokset, fordi deres 
+krop enten ikke producerer væksthormon, eller ikke producerer nok væksthormon. Lægerne kalder 
+dette for væksthormonmangel (GHD). Efter injektion omdannes Skytrofa langsomt til somatropin og 
+supplerer det manglende væksthormon. </p>
+<ol>
+<li>Det skal du eller dit barn vide, før du eller dit barn begynder at bruge Skytrofa </li>
+</ol>
+<p>Brug ikke Skytrofa  </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for lonapegsomatropin eller et af de øvrige indholdsstoffer i Skytrofa 
+(angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du har en tumor (kræft), der vokser. Du skal have afsluttet din tumorbehandling, og 
+tumorer skal være inaktive, før du påbegynder behandlingen med Skytrofa </p>
+</li>
+<li>
+<p>hvis du for nylig har fået en åben hjerteoperation, en maveoperation, kvæstelser som følge af 
+ulykke eller akut vejrtrækningssvigt </p>
+</li>
+<li>
+<p>hvis din læge har fortalt dig, at de dele af knoglerne, der vokser og gør dig højere (vækstplader 
+eller epifyser), er lukkede og er stoppet med at vokse </p>
+</li>
+</ul>
+<p>Fortæl det til lægen, før du påbegynder behandlingen, hvis noget af følgende gælder for dig. </p>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Skytrofa. Det er særligt vigtigt at 
+tale om de ting, der er nævnt nedenfor: </p>
+<ul>
+<li>
+<p>Hvis du tidligere har haft en intrakraniel tumor, vil du blive undersøgt regelmæssigt af en 
+læge under din behandling for at kontrollere, om din tumor eller anden kræft vender tilbage. </p>
+</li>
+<li>
+<p>Hvis du udvikler en kraftig hovedpine, synsforstyrrelser, opkastning eller manglende evne 
+til at koordinere frivillige muskelbevægelser (ataksi), særligt i behandlingens første uger, 
+skal du straks fortælle det til lægen. Dette kan være tegn på øget tryk i kraniet (intrakranielt 
+tryk). Se punkt 4, Bivirkninger. </p>
+</li>
+<li>
+<p>Hvis du har diabetes mellitus, forhøjet blodsukker (glucoseintolerans) eller yderligere 
+risikofaktorer for diabetes, kan det være nødvendigt at kontrollere dit blodsukker regelmæssigt, 
+og dosen af din diabetesmedicin skal muligvis justeres. </p>
+</li>
+<li>
+<p>Hvis du er i behandling for binyrebarkinsufficiens med kortikosteroider, skal du tale med 
+lægen, da din steroiddosis måske skal justeres regelmæssigt. </p>
+</li>
+<li>
+<p>Hvis du er i behandling med skjoldbruskkirtelhormoner, eller hvis du skal begynde på 
+skjoldbruskkirtelhormonerstatning, vil lægen teste din skjoldbruskkirtelfunktion regelmæssigt, 
+og dosis skal måske justeres. </p>
+</li>
+<li>
+<p>Hvis du har vedvarende smerter i hofter eller knæ, når du går, eller hvis du begynder at halte 
+under din behandling med væksthormoner, skal du fortælle det til lægen. Dette kan være 
+symptomer på en lidelse, der påvirker lårbenet, hvor det går ind i hoften (løsning af caput 
+femoris-epifyse), og dette forekommer hyppigere hos børn, der behandles med væksthormoner. </p>
+</li>
+<li>
+<p>Hvis du bemærker en sidelæns krumning af din rygsøjle (skoliose), skal du undersøges 
+regelmæssigt af din læge. </p>
+</li>
+<li>
+<p>Hvis du får mavepine, som bliver værre, skal du fortælle det til lægen. Lægen vil undersøge 
+dig for pankreatitis, som er betændelse i det organ, der hedder bugspytkirtlen. Se punkt 4, 
+Bivirkninger. </p>
+</li>
+<li>
+<p>Hvis du har tegn og symptomer på en pludselig alvorlig allergisk reaktion (f.eks. 
+vejrtrækningsbesvær, hævelse af ansigt, mund eller tunge, hurtigt hjerteslag, nældefeber, udslæt, 
+feber), skal du straks søge lægehjælp. </p>
+</li>
+<li>
+<p>Hvis du har Prader-Willi syndrom, må du ikke blive behandlet med Skytrofa, medmindre du 
+også har væksthormonmangel. Skytrofa er ikke undersøgt hos personer med Prader-Willi 
+syndrom, og derfor er effekten ved behandling af denne sygdom ikke kendt. </p>
+</li>
+<li>
+<p>Et lille antal patienter, der får væksthormonerstatning, har udviklet en type kræft i blodet og 
+knoglemarven (leukæmi). Det er dog ikke bevist, at denne kræft skyldes behandling med 
+væksthormoner. </p>
+</li>
+<li>
+<p>Hvis du har fået umiddelbare komplikationer efter åben hjerteoperation, maveoperation, en slem 
+ulykke (traume) eller en akut kritisk sygdom som akut vejrtrækningssvigt. </p>
+</li>
+<li>
+<p>Hvis du er kvinde og tager p-piller (oral prævention) eller hormonerstatningsbehandling 
+med østrogen, skal din dosis af Skytrofa muligvis sættes op. Hvis du eller dit barn stopper med 
+at bruge oralt østrogen, skal dosis af Skytrofa muligvis sættes ned. </p>
+</li>
+</ul>
+<p>Brug af andre lægemidler sammen med Skytrofa 
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du bruger andre lægemidler, for 
+nylig har brugt andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Fortæl det særligt til lægen, hvis du tager eller for nylig har taget et af følgende lægemidler:  </p>
+<ul>
+<li>
+<p>Insulin eller andre lægemidler til behandling af diabetes mellitus </p>
+</li>
+<li>
+<p>Behandling med skjoldbruskkirtelhormoner såsom levothyroxin </p>
+</li>
+<li>
+<p>Tabletter, der indeholder østrogen, herunder tabletter til østrogenerstatningsbehandling eller til 
+prævention  </p>
+</li>
+<li>
+<p>Steroider eller syntesiske binyrebarkhormoner (kortikosteroider eller glucokortikoider) </p>
+</li>
+<li>
+<p>Medicin til behandling af epilepsi eller kramper (anfald) - krampestillende medicin 
+(antikonvulsiva) såsom carbamazepin </p>
+</li>
+<li>
+<p>Ciclosporin (immunsupprimerende medicin) - en medicin, der undertrykker dit immunsystem </p>
+</li>
+<li>
+<p>Theophyllin, en medicin til behandling af astma og andre kroniske lungesygdomme </p>
+</li>
+</ul>
+<p>Lægen skal måske justere dosis af disse lægemidler eller dosis af Skytrofa. </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>Graviditet<br />
+Hvis der er mulighed for, at du kan blive gravid, må du ikke bruge Skytrofa, medmindre du også 
+bruger pålidelig prævention. Der er ingen data fra anvendelse af Skytrofa til gravide kvinder. Skytrofa 
+må ikke anvendes under graviditeten. Det skyldes, at det ikke vides, om det kan skade dit ufødte barn. 
+Tal med lægen, hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid. 
+Hvis du bliver gravid under behandlingen, skal du straks fortælle det til din læge. </p>
+<p>Amning 
+Det er ukendt, om Skytrofa kan passere over i modermælken. Da lonapegsomatropin ikke indtages via 
+munden, er det imidlertid usandsynligt, at det påvirker det ammede spædbarn negativt. Hvis du ammer 
+eller har planer om at amme, skal du spørge din læge til råds, før du bruger Skytrofa. Skytrofa kan 
+anvendes under amning, hvis det er strengt nødvendigt efter aftale med lægen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Skytrofa påvirker ikke evnen til at føre motorkøretøj eller betjene maskiner.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take skytrofa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take skytrofa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne medicin ordineres kun af en læge, som har erfaring med væksthormonbehandling, og som har 
+bekræftet din diagnose. </p>
+<p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. Lægen vil vise 
+dig, hvordan du bruger Skytrofa. </p>
+<p>Skytrofa gives som en injektion under huden (subkutan injektion). Det betyder, at det injiceres med en 
+kort kanyle i fedtvævet under huden på maven, ballen eller låret. Det er vigtigt hver uge at skifte det 
+sted, hvor du får injektionen, for at undgå at beskadige huden. Lægen eller sygeplejersken vil 
+informere dig om den korrekte dosis og vise dig, hvordan man giver injektionen, når du påbegynder 
+behandlingen. </p>
+<p>Anbefalet dosis 
+Lægen vil beregne din dosis af Skytrofa ud fra din kropsvægt i kilogram. Da lonapegsomatropin 
+omdannes til somatropin i kroppen, er doserne af Skytrofa beskrevet ud fra den mængde somatropin, 
+som produceres. Den anbefalede dosis af Skytrofa er 0,24 mg somatropin pr. kilogram kropsvægt, som 
+gives én gang om ugen.  </p>
+<p>Hvis der skiftes fra daglig somatropinbehandling til Skytrofa én gang om ugen, vil din læge bede dig 
+vente mindst 8 timer mellem den sidste dosis somatropin én gang dagligt og den første dosis af 
+Skytrofa. Den anbefalede dosis kan nedsættes i overensstemmelse med den tidligere daglige dosis af 
+somatropin. </p>
+<p>Hvornår skal du bruge Skytrofa 
+Du skal injicere Skytrofa én gang om ugen, på samme dag hver uge, når som helst på dagen.  </p>
+<p>Om nødvendigt kan du ændre den dag, hvor du får din ugentlige injektion. Skytrofa kan gives 2 dage 
+før eller 2 dage efter den planlagte doseringsdag. Der skal gå mindst 5 dage fra din sidste injektion på 
+den gamle dag og den første dosis på den nye dag. Når du har valgt en ny doseringsdag, skal du 
+fortsætte med at give dig selv injektionen på den dag hver uge. Spørg lægen, hvis du er i tvivl om, 
+hvordan du skal gøre det. </p>
+<p>Klargøring og indgivelse 
+Læs "Brugsanvisning" i slutningen af denne indlægsseddel, inden du begynder at bruge dette 
+lægemiddel.  </p>
+<p>Skytrofa leveres i en cylinderampul med to kamre, som indeholder både medicin (pulver) og en 
+solvens (væske). Den skal bruges sammen med de medfølgende kanyler. For at kunne give injektioner 
+skal du også have en Skytrofa Auto-Injector. Skytrofa Auto-Injector leveres separat.  </p>
+<p>Skytrofa Auto-Injector blander pulveret og solvensen sammen til en injektionsvæskeopløsning. Efter 
+blanding er opløsningen klar til brug, og medicinen kan injiceres under huden ved hjælp af Skytrofa 
+Auto-Injector. </p>
+<p>Læs den brugsanvisning, der fulgte med Skytrofa Auto-Injector. </p>
+<p>Hvis du eller dit barn har brugt for meget Skytrofa 
+Hvis du har injiceret mere Skytrofa end du skulle, skal du kontakte lægen for at få rådgivning. Hvis du 
+injicerer for meget Skytrofa, kan dit blodsukkerniveau blive alt for lavt og senere stige alt for meget. 
+Længerevarende overdosering kan medføre uregelmæssig vækst. </p>
+<p>Hvis du eller dit barn har glemt at bruge Skytrofa 
+Hvis du glemmer din ugentlige dosis, og den er 1 eller 2 dage forsinket: Tag injektionen i dag og 
+derefter på den sædvanlige dag næste uge. Hvis den er 3 dage forsinket eller mere: Spring den glemte 
+dosis over, og genoptag injektionerne på din næste normale doseringsdag. Der skal gå mindst 5 hele 
+dage mellem injektionerne. </p>
+<p>Hvis du eller dit barn holder op med at bruge Skytrofa 
+Du må ikke stoppe med at bruge Skytrofa uden at tale med lægen. Hvis du stopper for tidligt med at 
+tage Skytrofa, kan din væksthastighed falde, og din endelige højde kan blive lavere, end hvis du havde 
+fuldført hele behandlingen. 
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take skytrofa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take skytrofa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>Hovedpine </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Lavt niveau af hormonet thyroxin, hvilket kan ses i blodprøver (sekundær hypothyroidisme) </p>
+</li>
+<li>
+<p>Ledsmerter (artralgi) </p>
+</li>
+<li>
+<p>Reaktioner på injektionsstedet. Huden omkring injektionsstedet kan blive ujævn eller bulet, men 
+dette bør ikke ske, hvis du bruger et nyt sted hver gang. </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Pludselige alvorlige allergiske reaktioner, herunder angioødem (hurtig hævelse af slimhinder 
+eller huden, som kan forekomme i ansigtet, munden, på tungen, maven eller arme og ben) </p>
+</li>
+<li>
+<p>Et fald i niveauet af hormonet kortisol, hvilket kan ses i blodprøver </p>
+</li>
+<li>
+<p>Stive led (artritis) </p>
+</li>
+<li>
+<p>En øget sidekrumning af rygsøjlen (skoliose)  </p>
+</li>
+<li>
+<p>Vokseværk </p>
+</li>
+<li>
+<p>Forstørrede bryster hos mænd </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) 
+De nedenstående bivirkninger er set for andre lægemidler, der indeholder væksthormoner. </p>
+<ul>
+<li>
+<p>Leukæmi </p>
+</li>
+<li>
+<p>Type 2-diabetes mellitus </p>
+</li>
+<li>
+<p>Øget tryk i den væske, der omgiver hjernen (hvilket giver symptomer såsom kraftig hovedpine, 
+synsforstyrrelser og opkastning) </p>
+</li>
+<li>
+<p>Følelsesløshed/prikken </p>
+</li>
+<li>
+<p>Muskelsmerter </p>
+</li>
+<li>
+<p>Hævelse af underben og fødder og/eller arme og hænder </p>
+</li>
+<li>
+<p>Hævelse af ansigtet </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Nældefeber </p>
+</li>
+</ul>
+<p>Hvis nogle af bivirkningerne bliver alvorlige, skal du fortælle det til lægen eller apotekspersonalet. </p>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Opbevares i den originale yderpakning for at 
+beskytte mod lys. </p>
+<p>Skytrofa kan tages ud af køleskabet i en periode på maksimalt 6 måneder og opbevares ved 
+temperaturer op til 30 °C. I løbet af disse 6 måneder kan lægemidlet sættes tilbage i køleskabet 
+(2 °C - 8 °C) igen. Notér på æsken den dato, hvor Skytrofa første gang tages ud af køleskabet. Kassér 
+dette lægemiddel 6 måneder efter den dato, hvor det første gang blev opbevaret uden for køleskabet. </p>
+<p>Pulveret er hvidt til offwhite, og solvensen er en klar, farveløs opløsning. </p>
+<p>Den blandede opløsning er farveløs og klar. Opløsningen kan ind imellem indeholde luftbobler, og 
+dette er okay. Brug ikke lægemidlet, hvis du bemærker synlige partikler i den blandede opløsning. 
+Injiceres straks efter, at pulver og solvens er blevet blandet sammen ved hjælp af Skytrofa 
+Auto-Injector. Hvis du ikke kan bruge den blandede opløsning straks, skal den bruges inden for 
+4 timer. </p>
+<p>Når du er færdig med at bruge en cylinderampul med kanyle, skal du bortskaffe den forsigtigt i en 
+egnet beholder. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store skytrofa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store skytrofa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Skytrofa indeholder: </p>
+<p>Aktivt stof: lonapegsomatropin. 
+Cylinderampullerne findes i 9 forskellige styrker: </p>
+<p>Skytrofa 3 mg pulver og solvens til injektionsvæske, opløsning (injektionsvæske) i cylinderampul 
+Hver cylinderampul med to kamre indeholder 3 mg somatropin (svarende til 8,6 mg 
+lonapegsomatropin [pulver]) og 0,279 ml solvens (væske). Efter blanding er 
+somatropinkoncentrationen 11 mg/ml. </p>
+<p>Skytrofa 3,6 mg pulver og solvens til injektionsvæske, opløsning (injektionsvæske) i cylinderampul 
+Hver cylinderampul med to kamre indeholder 3,6 mg somatropin (svarende til 10,3 mg 
+lonapegsomatropin [pulver]) og 0,329 ml solvens (væske). Efter blanding er 
+somatropinkoncentrationen 11 mg/ml. </p>
+<p>Skytrofa 4,3 mg pulver og solvens til injektionsvæske, opløsning (injektionsvæske) i cylinderampul 
+Hver cylinderampul med to kamre indeholder 4,3 mg somatropin (svarende til 12,3 mg 
+lonapegsomatropin [pulver]) og 0,388 ml solvens (væske). Efter blanding er 
+somatropinkoncentrationen 11 mg/ml. </p>
+<p>Skytrofa 5,2 mg pulver og solvens til injektionsvæske, opløsning (injektionsvæske) i cylinderampul 
+Hver cylinderampul med to kamre indeholder 5,2 mg somatropin (svarende til 14,8 mg 
+lonapegsomatropin [pulver]) og 0,464 ml solvens (væske). Efter blanding er 
+somatropinkoncentrationen 11 mg/ml. </p>
+<p>Skytrofa 6,3 mg pulver og solvens til injektionsvæske, opløsning (injektionsvæske) i cylinderampul 
+Hver cylinderampul med to kamre indeholder 6,3 mg somatropin (svarende til 18 mg 
+lonapegsomatropin [pulver]) og 0,285 ml solvens (væske). Efter blanding er 
+somatropinkoncentrationen 22 mg/ml. </p>
+<p>Skytrofa 7,6 mg pulver og solvens til injektionsvæske, opløsning (injektionsvæske) i cylinderampul 
+Hver cylinderampul med to kamre indeholder 7,6 mg somatropin (svarende til 21,7 mg 
+lonapegsomatropin [pulver]) og 0,338 ml solvens (væske). Efter blanding er 
+somatropinkoncentrationen 22 mg/ml. </p>
+<p>Skytrofa 9,1 mg pulver og solvens til injektionsvæske, opløsning (injektionsvæske) i cylinderampul 
+Hver cylinderampul med to kamre indeholder 9,1 mg somatropin (svarende til 25,9 mg 
+lonapegsomatropin [pulver]) og 0,4 ml solvens (væske). Efter blanding er somatropinkoncentrationen 
+22 mg/ml. </p>
+<p>Skytrofa 11 mg pulver og solvens til injektionsvæske, opløsning (injektionsvæske) i cylinderampul 
+Hver cylinderampul med to kamre indeholder 11 mg somatropin (svarende til 31,4 mg 
+lonapegsomatropin [pulver]) og 0,479 ml solvens (væske). Efter blanding er 
+somatropinkoncentrationen 22 mg/ml. </p>
+<p>Skytrofa 13,3 mg pulver og solvens til injektionsvæske, opløsning (injektionsvæske) i cylinderampul </p>
+<p>Hver cylinderampul med to kamre indeholder 13,3 mg somatropin (svarende til 37,9 mg 
+lonapegsomatropin [pulver]) og 0,574 ml solvens (væske). Efter blanding er 
+somatropinkoncentrationen 22 mg/ml. </p>
+<ul>
+<li>Øvrige indholdsstoffer (for alle styrker): </li>
+</ul>
+<p>Pulver: succinsyre, trehalosedihydrat, trometamol </p>
+<p>Solvens: vand til injektionsvæsker </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Skytrofa indeholder medicin som et pulver sammen med en solvens til dannelse af en 
+injektionsvæskeopløsning, i en cylinderampul med to kamre, der indeholder pulver i det ene kammer 
+og solvens i det andet. </p>
+<p>Pulveret er hvidt til offwhite, og solvensen er en klar, farveløs opløsning. Når pulver og solvens er 
+blevet blandet sammen til en injektionsvæskeopløsning, er opløsningen farveløs og klar. </p>
+<p>Hver pakning med Skytrofa indeholder 4 cylinderampuller med to kamre til engangsbrug, som er 
+pakket i individuelle blistere, og 6 engangskanyler (to ekstra kanyler). Hver cylinderampul har en 
+specifik etiket med et tildelt tofarvet kodebånd, som kun er til brug for Skytrofa Auto-Injector, så de 
+rette blandingsindstillinger vælges. Styrkens farve er angivet på kartonen og blisterfolien og skal 
+bruges til at skelne mellem de individuelle styrker. </p>
+<p>Styrkens farve på kartonen og blisteren angiver, hvilken styrke din Skytrofa-medicin har: </p>
+<p>Styrkefarver på 
+karton/blister 
+Styrke<br />
+Tofarvet etiket på 
+cylinderampul 
+(bund/top) 
+Lys abrikos 
+3 mg<br />
+Gul/grøn 
+Cyan 
+3,6 mg<br />
+Gul/cyan 
+Mørkegrå 
+4,3 mg<br />
+Gul/pink 
+Gul 
+5,2 mg<br />
+Grøn/pink 
+Orange 
+6,3 mg<br />
+Cyan/gul 
+Mørkelilla 
+7,6 mg<br />
+Cyan/pink 
+Gyldenbrun 
+9,1 mg 
+Pink/gul 
+Mørkeblå 
+11 mg 
+Pink/grøn 
+Mørkerød 
+13,3 mg<br />
+Pink/cyan </p>
+<p>Skytrofa er beregnet til brug sammen med de medfølgende kanyler og Skytrofa Auto-Injector. 
+Skytrofa Auto-Injector er ikke inkluderet i denne pakning og leveres separat. Brugsanvisning til 
+Skytrofa Auto-Injector leveres i din æske med Skytrofa Auto-Injector.  </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Ascendis Pharma Endocrinology Division A/S 
+Tuborg Boulevard DK-2900 Hellerup 
+Danmark </p>
+<p>Fremstiller 
+Ascendis Pharma A/S 
+Tuborg Boulevard DK-2900 Hellerup 
+Danmark </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Brugsanvisning </p>
+<p>Denne vejledning har til formål at hjælpe dig med at klargøre, blande og injicere din 
+Skytrofa-medicin. </p>
+<p>Anvisningerne er inddelt i 5 trin </p>
+<p>Lær delene i din eller dit barns medicin at kende </p>
+<p>Klargøring af din eller dit barns medicin </p>
+<p>Blanding af din eller dit barns medicin </p>
+<p>Injektion af din eller dit barns medicin </p>
+<p>Efter injektion af din eller dit barns medicin </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du eller dit barn på noget tidspunkt 
+har brug for hjælp. </p>
+<p>Det skal du vide, før du får i gang </p>
+<ul>
+<li>
+<p>Læs altid indlægssedlen inden brug. </p>
+</li>
+<li>
+<p>Vask og tør altid dine hænder. </p>
+</li>
+<li>
+<p>Der skal bruges en ny cylinderampul til hver injektion. </p>
+</li>
+<li>
+<p>Der skal bruges en ny kanyle til hver injektion. Genbrug ikke kanylen. </p>
+</li>
+<li>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der er trykt efter "EXP" på den ydre karton 
+og på cylinderampullens pakning, eller 6 måneder efter den dato, hvor det første gang blev taget 
+ud af køleskabet (alt efter hvad der indtræffer først). </p>
+</li>
+<li>
+<p>Brug ikke dette lægemiddel, hvis du bemærker, at det indeholder synlige partikler. </p>
+</li>
+<li>
+<p>Cylinderampullen og kanylen er til engangsbrug og er udelukkende beregnet til brug sammen 
+med Skytrofa Auto-Injector [i det følgende kaldet auto-injektoren]. </p>
+</li>
+</ul>
+<p>Lær delene i din eller dit barns Skytrofa-medicin at kende </p>
+<p>Skytrofa er pulver og solvens til injektionsvæske, opløsning i en cylinderampul. Hver pakning 
+indeholder 4 cylinderampuller til engangsbrug og 6 engangskanyler. Din cylinderampul indeholder 
+medicin i form af pulver og solvens til at blande pulveret med. </p>
+<p>Cylinderampul med to kamre 
+Kanyle 
+Solvens<br />
+Pulver </p>
+<p>For at kunne give injektioner skal du også have en Skytrofa Auto-Injector. Den er ikke inkluderet i 
+Skytrofa-pakningen, men leveres i en separat æske. Læs også den brugsanvisning, der fulgte med din 
+Skytrofa Auto-Injector. 
+Klargøring af din eller dit barns medicin </p>
+<p>Hvis du opbevarer medicinen i køleskabet, skal du tage den ud 15 minutter før brug. </p>
+<ol>
+<li>
+<p>Kontrollér og saml cylinderampul og kanyle </p>
+</li>
+<li>
+<p>Tag pakningen med cylinderampullen ud. </p>
+</li>
+<li>
+<p>Kontrollér udløbsdatoen og dosisstyrken 
+på cylinderampullens pakning. </p>
+</li>
+<li>
+<p>Du må ikke bruge den, hvis 
+udløbsdatoen, som er trykt efter "EXP", er 
+overskredet.  </p>
+</li>
+<li>
+<p>Åbn cylinderampullens pakning helt hen 
+til det røde STOP-mærke. Det vil sikre, at 
+den orange patron bliver siddende i 
+cylinderampullens pakning. For at sikre, 
+at cylinderampullens prop bliver siddende 
+under transporten, fastgøres en orange 
+patron til cylinderampullen i blisteren. </p>
+</li>
+<li>
+<p>Løft cylinderampullen ud af pakningen. </p>
+</li>
+<li>
+<p>Hvis der stadig sidder en orange patron på 
+din cylinderampul, skal du fjerne den 
+orange patron ved at trække den lige af og 
+smide den ud. </p>
+</li>
+<li>
+<p>Tag en ny kanyle ud. Hvis 
+beskyttelsespapiret ikke forsegler kanylen 
+helt, eller hvis den er knækket, må du 
+ikke bruge den. </p>
+</li>
+<li>
+<p>Tag beskyttelsespapiret af. </p>
+</li>
+</ol>
+<p>Udløbsdato 
+Styrke 
+Lad denne 
+del sidde 
+på 
+STOP 
+HER 
+UDLØB 
+LOT </p>
+<ul>
+<li>
+<p>Skru kanylen fast på cylinderampullen 
+ved at dreje med uret, indtil den sidder 
+godt fast. </p>
+</li>
+<li>
+<p>Fjern ikke kanylens plastikhætte.  </p>
+</li>
+<li>
+<p>Tænd auto-injektoren </p>
+</li>
+<li>
+<p>Tryk på den grønne knap, og slip den igen 
+for at tænde auto-injektoren. </p>
+</li>
+<li>
+<p>Du hører 2 høje bip 
+, batterikonet </p>
+</li>
+</ul>
+<p>lyser op, og den grønne top begynder at 
+blinke. </p>
+<ol>
+<li>
+<p>Indsæt cylinderampullen </p>
+</li>
+<li>
+<p>Indsæt cylinderampullen i den 
+blinkende grønne top. </p>
+</li>
+<li>
+<p>Klik cylinderampullen på plads. Den 
+grønne top stopper med at blinke, det 
+grønne blandingsikon 
+ lyser, og 
+batteriikonet slukker. </p>
+</li>
+<li>
+<p>Når cylinderampullen er klikket på 
+plads, kan du fjerne fingeren fra 
+cylinderampullen. </p>
+</li>
+</ol>
+<p>Blanding af din eller dit barns medicin </p>
+<ol>
+<li>
+<p>Vent, mens den blander </p>
+</li>
+<li>
+<p>Vent 4 til 8 minutter på, at 
+auto-injektoren blander din medicin. </p>
+</li>
+<li>
+<p>Hold øje med statuslinjen, der gradvist 
+lyser op. </p>
+</li>
+<li>
+<p>Vent, indtil du hører 2 høje bip, og hele 
+statuslinjen begynder at blinke. </p>
+</li>
+<li>
+<p>Vend auto-injektoren opad og nedad </p>
+</li>
+<li>
+<p>Vend auto-injektoren opad og nedad. 
+En tikkende lyd bekræfter, at du vender 
+den korrekt. </p>
+</li>
+<li>
+<p>Vend den 5 til 10 gange, indtil du 
+hører 2 høje bip, og statuslinjen, med 
+undtagelse af topelementet, lyser op. </p>
+</li>
+</ol>
+<p>Vent 4 til 
+8 minutter </p>
+<ol>
+<li>
+<p>Færdiggør blandingen </p>
+</li>
+<li>
+<p>Hold auto-injektoren lodret, indtil du 
+hører 2 høje bip, og hele statuslinjen lyser. </p>
+</li>
+<li>
+<p>Træk kanylens hætte af. </p>
+</li>
+<li>
+<p>Du må ikke dreje den. </p>
+</li>
+<li>
+<p>Gem kanylens hætte til senere. </p>
+</li>
+</ol>
+<p>(Det grønne øje-ikon         lyser) </p>
+<p>Injektion af din eller dit barns medicin </p>
+<ol>
+<li>
+<p>Kontrollér den blandede opløsning </p>
+</li>
+<li>
+<p>Opløsningen er OK, hvis den er farveløs 
+og klar (der må gerne være nogle 
+luftbobler). </p>
+</li>
+<li>
+<p>Brug ikke opløsningen, hvis den 
+indeholder synlige partikler. Hvis der er 
+synlige partikler, skal du trykke på den 
+grønne knap i 3 sekunder og fjerne 
+cylinderampullen. </p>
+</li>
+<li>
+<p>Gør klar til injektionen </p>
+</li>
+<li>
+<p>Vælg injektionssted: mave, lår eller baller. 
+Skift injektionssted hver uge. </p>
+</li>
+</ol>
+<p>Bagfra 
+Forfra 
+Baller 
+Mave Lår 
+OK </p>
+<ul>
+<li>
+<p>Vask og tør dine hænder. </p>
+</li>
+<li>
+<p>Rens injektionsstedet med en spritserviet. </p>
+</li>
+<li>
+<p>Du må ikke injicere gennem tøjet. </p>
+</li>
+<li>
+<p>Injicér medicinen </p>
+</li>
+<li>
+<p>Tryk den grønne top mod injektionsstedet, 
+og hold den dér i 10 til 15 sekunder, indtil 
+du hører 2 høje bip. (Den grønne top 
+blinker to gange, og det grønne 
+flueben-ikon        lyser).  </p>
+</li>
+<li>
+<p>Fjern auto-injektoren fra huden, og vent, 
+indtil du hører 2 høje bip. (Den grønne top 
+begynder at blinke). </p>
+</li>
+</ul>
+<p>Efter injektion af din eller dit barns medicin </p>
+<ol>
+<li>
+<p>Fjern cylinderampullen </p>
+</li>
+<li>
+<p>Tryk kanylens hætte ind i den 
+blinkende grønne top. </p>
+</li>
+<li>
+<p>Tryk kanylens hætte ned for at frigøre 
+cylinderampullen. </p>
+</li>
+<li>
+<p>Fjern den brugte cylinderampul. </p>
+</li>
+<li>
+<p>Bortskaf cylinderampul og kanyle </p>
+</li>
+<li>
+<p>Kontrollér, at cylinderampullen er tom. 
+Brug ikke auto-injektoren, hvis der er 
+medicin tilbage i cylinderampullen efter 
+injektionen. </p>
+</li>
+<li>
+<p>Bortskaf den brugte cylinderampul og 
+kanyle på sikker vis som anvist af 
+apotekspersonalet. </p>
+</li>
+<li>
+<p>Du må ikke smide den ud sammen med 
+almindeligt husholdningsaffald. </p>
+</li>
+</ol>
+<p>Kræver din ugentlige dosis 2 cylinderampuller? </p>
+<ul>
+<li>Så skal du tage den anden injektion ved at gentage trin 1-11 med en ny cylinderampul og 
+kanyle. </li>
+</ul>
+<p>1</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Sæt den beskyttende hætte på, og opbevar 
+den ved stuetemperatur, så den er klar til 
+brug næste gang. </li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-274e38fd037e90bae4b20ed78bb2e359
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for skytrofa Package Leaflet for language en"
+Description: "ePI document Bundle for skytrofa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-274e38fd037e90bae4b20ed78bb2e359"
+* entry[0].resource = composition-en-274e38fd037e90bae4b20ed78bb2e359
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp274e38fd037e90bae4b20ed78bb2e359"
+* entry[=].resource = mp274e38fd037e90bae4b20ed78bb2e359
+                            
+                    
+Instance: bundlepackageleaflet-da-274e38fd037e90bae4b20ed78bb2e359
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for skytrofa Package Leaflet for language da"
+Description: "ePI document Bundle for skytrofa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-274e38fd037e90bae4b20ed78bb2e359"
+* entry[0].resource = composition-da-274e38fd037e90bae4b20ed78bb2e359
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp274e38fd037e90bae4b20ed78bb2e359"
+* entry[=].resource = mp274e38fd037e90bae4b20ed78bb2e359
+                            
+                    
+
+
+
+Instance: mp274e38fd037e90bae4b20ed78bb2e359
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Skytrofa 3 mg powder and solvent for solution for injection in cartridge"
-Description: "Skytrofa 3 mg powder and solvent for solution for injection in cartridge"
+Title: "Medicinal Product skytrofa"
+Description: "skytrofa"
 Usage: #inline
 
  
@@ -422,7 +1280,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Skytrofa 3 mg powder and solvent for solution for injection in cartridge"
+  * productName = "skytrofa"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -449,29 +1307,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-274e38fd037e90bae4b20ed78bb2e359
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for skytrofa Package Leaflet for language en"
-Description: "ePI document Bundle for skytrofa Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 274e38fd037e90bae4b20ed78bb2e359ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1607/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "skytrofa"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-274e38fd037e90bae4b20ed78bb2e359"
-* entry[0].resource = composition-en-274e38fd037e90bae4b20ed78bb2e359
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpae31772fe52c358bfcb3ba4af68ad0a2"
-* entry[=].resource = mpae31772fe52c358bfcb3ba4af68ad0a2
-                            
-                      
+* title = "List of all ePIs associated with skytrofa"
+
+* subject = Reference(mpae31772fe52c358bfcb3ba4af68ad0a2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#skytrofa "skytrofa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-274e38fd037e90bae4b20ed78bb2e359) // skytrofa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-274e38fd037e90bae4b20ed78bb2e359) // skytrofa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-274e38fd037e90bae4b20ed78bb2e359
+InstanceOf: List
+
+* insert 274e38fd037e90bae4b20ed78bb2e359ListRuleset
+    

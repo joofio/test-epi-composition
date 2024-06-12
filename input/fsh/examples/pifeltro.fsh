@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d9e1f5caf32113b1e6722af1d88782c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for pifeltro Package Leaflet"
@@ -378,12 +381,604 @@ http://www.ema.europa.eu .</p>         </div>"""
 
 
 
+Instance: composition-da-d9e1f5caf32113b1e6722af1d88782c1
+InstanceOf: CompositionUvEpi
+Title: "Composition for pifeltro Package Leaflet"
+Description:  "Composition for pifeltro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1eba750c00bf990fa2415eddb80cfc48)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1eba750c00bf990fa2415eddb80cfc48
+* title = "TEST PURPOSES ONLY - pifeltro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Pifeltro
+3. Sådan skal du tage Pifeltro
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What pifeltro is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What pifeltro is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Pifeltro er
+Pifeltro anvendes til behandling af infektion med hiv (‘humant immundefekt-virus’). Det tilhører en
+gruppe af lægemidler, der kaldes ‘antiretrovirale lægemidler’.
+Pifeltro indeholder det aktive stof doravirin - en non-nukleosid revers transkriptasehæmmer (NNRTI).
+Anvendelse
+Pifeltro anvendes til behandling af hiv-infektion hos voksne og unge i alderen 12 år og derover, som
+vejer mindst 35 kg. Hiv er det virus, der forårsager aids (‘erhvervet immundefektsyndrom’). Du må
+ikke tage Pifeltro, hvis lægen har fortalt dig, at det virus, som forårsager din infektion, er resistent
+(modstandsdygtigt) over for doravirin.
+Pifeltro skal anvendes i kombination med andre lægemidler mod hiv.
+Virkning
+Når Pifeltro anvendes sammen med andre lægemidler, virker det ved at hæmme hiv-virusets evne til at
+formere sig (lave kopier af sig selv) i kroppen. Dette hjælper med at:</p>
+<ul>
+<li>
+<p>nedsætte mængden af hiv i dit blod (dette kaldes din ‘virusmængde’)</p>
+</li>
+<li>
+<p>øge antallet af en slags hvide blodlegemer, der kaldes ‘CD4+ T-celler’. Dette kan gøre dit
+immunforsvar stærkere og kan nedsætte din risiko for tidlig død eller for at få infektioner, som
+følge af at dit immunforsvar er svækket.
+37</p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take pifeltro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take pifeltro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Pifeltro</p>
+<ul>
+<li>
+<p>hvis du er allergisk over for doravirin eller et af de øvrige indholdsstoffer i Pifeltro (angivet i
+punkt 6) </p>
+</li>
+<li>
+<p>hvis du tager et eller flere af følgende lægemidler:</p>
+</li>
+<li>
+<p>carbamazepin, oxcarbazepin, phenobarbital, phenytoin (lægemidler mod krampeanfald)</p>
+</li>
+<li>rifampicin, rifapentin (lægemidler mod tuberkulose)</li>
+<li>perikon (Hypericum perforatum, et naturlægemiddel mod depression og angst) eller
+lægemidler, der indeholder perikon</li>
+<li>mitotan (et lægemiddel til behandling af kræft)</li>
+<li>enzalutamid (et lægemiddel til behandling af prostatakræft)</li>
+<li>
+<p>lumacaftor (et lægemiddel til behandling af cystisk fibrose).
+Tag ikke Pifeltro, hvis ovenstående gælder for dig. Hvis du er i tvivl, så kontakt lægen,
+apotekspersonalet eller sundhedspersonalet, før du tager Pifeltro. Se også punktet “Brug af andre
+lægemidler sammen med Pifeltro".
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Pifeltro.
+Immunreaktiveringssyndrom
+Dette kan opstå, når du begynder at tage en hvilken som helst hiv-medicin, herunder dette lægemiddel.
+Dit immunforsvar kan blive stærkere og begynde at bekæmpe infektioner, der har været skjult i din
+krop i lang tid. Fortæl det straks til lægen, hvis du begynder at få nye symptomer, efter at du er startet
+med din hiv-medicin.
+Autoimmune sygdomme (skyldes, at immunsystemet angriber sundt kropsvæv) kan også opstå, efter
+du er begyndt at tage medicin til behandling af din hiv-infektion. Autoimmune sygdomme kan opstå
+mange måneder efter, du er påbegyndt behandling. Du skal straks informere din læge for at få den
+nødvendige behandling, hvis du bemærker symptomer på infektion eller andre symptomer såsom
+muskelsvaghed, svaghed begyndende i hænder og fødder, og som bevæger sig op igennem kroppen,
+hjertebanken, rysten eller hyperaktivitet.
+Børn og unge
+Dette lægemiddel må ikke anvendes til børn under 12 år eller børn, som vejer under 35 kg.
+Anvendelse af Pifeltro til børn under 12 år eller børn, som vejer under 35 kg, er endnu ikke undersøgt.
+Brug af andre lægemidler sammen med Pifeltro
+Fortæl lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre lægemidler, for nylig har
+taget andre lægemidler eller planlægger at tage andre lægemidler. Årsagen er, at andre lægemidler kan
+påvirke, hvordan Pifeltro virker, og Pifeltro kan påvirke, hvordan andre lægemidler virker.
+Der er visse lægemidler, som du ikke må tage sammen med Pifeltro. Se listen under punktet “Tag ikke
+Pifeltro".
+38
+Kontakt lægen, før du tager følgende lægemidler sammen med Pifeltro, da lægen kan blive nødt til at
+ændre på dosis af din medicin:</p>
+</li>
+<li>
+<p>bosentan (et lægemiddel til behandling af lungesygdom)</p>
+</li>
+<li>
+<p>dabrafenib (et lægemiddel til behandling af hudkræft)</p>
+</li>
+<li>
+<p>lesinurad (et lægemiddel til behandling af urinsyregigt)</p>
+</li>
+<li>
+<p>modafinil (et lægemiddel til behandling af overdreven søvnighed)</p>
+</li>
+<li>
+<p>nafcillin (et lægemiddel til behandling af visse bakterieinfektioner)</p>
+</li>
+<li>
+<p>rifabutin (et lægemiddel til behandling af visse bakterieinfektioner, f.eks. tuberkulose)</p>
+</li>
+<li>
+<p>telotristatethyl (et lægemiddel til behandling af diarré hos personer med karcinoidsyndrom)</p>
+</li>
+<li>
+<p>thioridazin (et lægemiddel til behandling af psykiske lidelser såsom skizofreni).
+Hvis lægen beslutter, at du skal tage disse lægemidler sammen med Pifeltro, skal du tage 1 tablet
+Pifeltro to gange dagligt (med ca. 12 timers mellemrum).
+Det kan være nødvendigt for lægen at kontrollere medicinindholdet i blodet eller holde øje med, om du
+får bivirkninger, hvis du tager følgende lægemidler sammen med Pifeltro:</p>
+</li>
+<li>
+<p>sirolimus (et lægemiddel, der anvendes til at kontrollere din krops immunrespons efter en
+transplantation)</p>
+</li>
+<li>
+<p>tacrolimus (et lægemiddel, der anvendes til at kontrollere din krops immunrespons efter en
+transplantation).
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal
+du spørge lægen til råds om risici og fordele ved at tage Pifeltro. Det bør undgås at anvende dette
+lægemiddel under graviditet. Dette skyldes, at det ikke er undersøgt under graviditet, og det er ukendt,
+om det kan skade dit ufødte barn, mens du er gravid.
+Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet
+gennem modermælken.
+Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.
+Trafik- og arbejdssikkerhed
+Vær forsigtig, når du fører motorkøretøj, kører på cykel eller betjener maskiner, hvis du føler dig
+svimmel, træt eller søvnig, efter at du har taget dette lægemiddel.
+Pifeltro indeholder lactose
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse
+sukkerarter (lactose).</p>
+</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pifeltro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pifeltro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens, apotekspersonalets eller sygeplejerskens anvisning. Er du i
+tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken. Lægemidlet skal anvendes i kombination
+med andre lægemidler mod hiv.
+Så meget skal du tage
+Den anbefalede dosis er 1 tablet en gang dagligt. Hvis du tager visse lægemidler, kan lægen blive nødt
+til at ændre den mængde doravirin, du tager. Se punktet “Brug af andre lægemidler sammen med
+Pifeltro" for en liste over lægemidler.
+Sådan skal du tage dette lægemiddel</p>
+<ul>
+<li>
+<p>Slug tabletten hel (du må ikke knuse eller tygge tabletten).</p>
+</li>
+<li>
+<p>Dette lægemiddel kan tages med mad eller mellem måltiderne.
+39
+Hvis du har taget for meget Pifeltro
+Du må ikke tage mere end den anbefalede dosis. Hvis du kommer til at tage mere, skal du kontakte
+lægen.
+Hvis du har glemt at tage Pifeltro</p>
+</li>
+<li>
+<p>Det er vigtigt, at du ikke glemmer eller springer doser af dette lægemiddel over.</p>
+</li>
+<li>
+<p>Hvis du glemmer at tage en dosis, skal du tage den, så snart du kommer i tanke om det. Hvis din
+næste dosis imidlertid skal tages inden for 12 timer, så spring den glemte dosis over, og tag den
+næste dosis på det sædvanlige tidspunkt. Fortsæt herefter din behandling som før.</p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.</p>
+</li>
+<li>
+<p>Hvis du er i tvivl om, hvad du skal gøre, skal du kontakte lægen eller apotekspersonalet.
+Hvis du holder op med at tage Pifeltro
+Sørg for ikke at løbe tør for dette lægemiddel. Forny din recept, eller kontakt lægen, inden du løber
+tør.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. Du
+må ikke holde op med at tage dette lægemiddel uden først at have talt med lægen.
+Almindelig: kan forekomme hos op til 1 ud af 10 personer:</p>
+<ul>
+<li>
+<p>unormale drømme, søvnbesvær (søvnløshed)</p>
+</li>
+<li>
+<p>hovedpine, svimmelhed, søvnighed</p>
+</li>
+<li>
+<p>kvalme, diarré, mavesmerter, opkastning, luft i maven (flatulens)</p>
+</li>
+<li>
+<p>udslæt</p>
+</li>
+<li>
+<p>træthedsfølelse.
+Blodprøver kan også vise:</p>
+</li>
+<li>
+<p>øget indhold af leverenzymer (ALAT).
+Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer:</p>
+</li>
+<li>
+<p>mareridt, depression, angst, irritabilitet, forvirring, selvmordstanker</p>
+</li>
+<li>
+<p>koncentrationsbesvær, hukommelsesproblemer, prikken og snurren i hænder og fødder,
+muskelstivhed, dårlig søvnkvalitet</p>
+</li>
+<li>
+<p>højt blodtryk</p>
+</li>
+<li>
+<p>forstoppelse, mavegener, hævet eller oppustet mave (abdominal distension),
+fordøjelsesproblemer, blød afføring, mavekramper  </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>muskelsmerter, ledsmerter</p>
+</li>
+<li>
+<p>svaghedsfølelse, generel følelse af ubehag.
+Blodprøver kan også vise:</p>
+</li>
+<li>
+<p>nedsat indhold af fosfat</p>
+</li>
+<li>
+<p>forhøjet indhold af leverenzymer (ASAT)</p>
+</li>
+<li>
+<p>forhøjet indhold af lipase</p>
+</li>
+<li>
+<p>forhøjet indhold af amylase </p>
+</li>
+<li>
+<p>nedsat indhold af hæmoglobin. 
+Sjælden: kan forekomme hos op til 1 ud af 1 000 personer:</p>
+</li>
+<li>
+<p>aggression, hallucinationer, besvær med at tilpasse sig forandringer, humørsvingninger,
+søvngængeri</p>
+</li>
+<li>
+<p>vejrtrækningsproblemer, forstørrede mandler
+40</p>
+</li>
+<li>
+<p>følelse af ufuldstændig tømning efter afføring</p>
+</li>
+<li>
+<p>inflammation i huden på grund af allergi, rødme på kinder, næse, hage eller pande, buler eller
+bumser i ansigtet</p>
+</li>
+<li>
+<p>nyreskade, nyreproblemer, nyresten</p>
+</li>
+<li>
+<p>brystsmerter, kuldefølelse, smerter, tørst.
+Blodprøver kan også vise:</p>
+</li>
+<li>
+<p>nedsat indhold af magnesium</p>
+</li>
+<li>
+<p>forhøjet indhold af kreatinfosfokinase.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller sygeplejersken. Dette
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
+information om sikkerheden af dette lægemiddel.</p>
+</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pifeltro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pifeltro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn.</p>
+</li>
+<li>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på flasken efter EXP. Lægemidlet skal
+anvendes inden for 35 dage efter første åbning af flasken.</p>
+</li>
+<li>
+<p>Flasken indeholder et tørremiddel, som beskytter tabletterne mod fugt. Lad tørremidlet blive i
+flasken og lad være med at kassere det, før du er færdig med at tage al medicinen. </p>
+</li>
+<li>
+<p>Hold flasken tæt tillukket for at beskytte mod fugt.</p>
+</li>
+<li>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.</p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må
+du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pifeltro indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: doravirin 100 mg.</p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: croscarmellosenatrium (E468), hypromelloseacetatsuccinat,
+lactosemonohydrat, magnesiumstearat (E470b), mikrokrystallinsk cellulose (E460) og silica,
+kolloid vandfri (E551). Tabletterne er filmovertrukket med et overtræksmateriale med følgende
+indholdsstoffer: carnaubavoks (E903), hypromellose (E464), lactosemonohydrat, titandioxid
+(E171) og triacetin (E1518).
+Udseende og pakningsstørrelser
+Pifeltro fås som en hvid, oval, filmovertrukken tablet med virksomhedslogo og 700 præget på den ene
+side og uden prægning på den anden side.
+Følgende pakningsstørrelser er tilgængelige:</p>
+</li>
+<li>
+<p>1 flaske med 30 filmovertrukne tabletter</p>
+</li>
+<li>
+<p>90 filmovertrukne tabletter (3 flasker a 30 filmovertrukne tabletter).
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+Merck Sharp &amp; Dohme B.V., Waarderweg 39, 2031 BN Haarlem, Holland
+41
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: 32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft. 
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf.: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+42
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 333
+croatia_info@merck.com 
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija 
+SIA Merck Sharp &amp; Dohme Latvija 
+Tel: + 371 67364msd_lv@merck.com </p>
+</li>
+</ul>
+<p>United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d9e1f5caf32113b1e6722af1d88782c1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pifeltro Package Leaflet for language en"
+Description: "ePI document Bundle for pifeltro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d9e1f5caf32113b1e6722af1d88782c1"
+* entry[0].resource = composition-en-d9e1f5caf32113b1e6722af1d88782c1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd9e1f5caf32113b1e6722af1d88782c1"
+* entry[=].resource = mpd9e1f5caf32113b1e6722af1d88782c1
+                            
+                    
+Instance: bundlepackageleaflet-da-d9e1f5caf32113b1e6722af1d88782c1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pifeltro Package Leaflet for language da"
+Description: "ePI document Bundle for pifeltro Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d9e1f5caf32113b1e6722af1d88782c1"
+* entry[0].resource = composition-da-d9e1f5caf32113b1e6722af1d88782c1
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd9e1f5caf32113b1e6722af1d88782c1"
+* entry[=].resource = mpd9e1f5caf32113b1e6722af1d88782c1
+                            
+                    
+
+
+
+Instance: mpd9e1f5caf32113b1e6722af1d88782c1
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Pifeltro 100 mg film-coated tablets"
-Description: "Pifeltro 100 mg film-coated tablets"
+Title: "Medicinal Product pifeltro"
+Description: "pifeltro"
 Usage: #inline
 
  
@@ -403,7 +998,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Pifeltro 100 mg film-coated tablets"
+  * productName = "pifeltro"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -430,29 +1025,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d9e1f5caf32113b1e6722af1d88782c1
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for pifeltro Package Leaflet for language en"
-Description: "ePI document Bundle for pifeltro Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d9e1f5caf32113b1e6722af1d88782c1ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1332/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "pifeltro"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d9e1f5caf32113b1e6722af1d88782c1"
-* entry[0].resource = composition-en-d9e1f5caf32113b1e6722af1d88782c1
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1eba750c00bf990fa2415eddb80cfc48"
-* entry[=].resource = mp1eba750c00bf990fa2415eddb80cfc48
-                            
-                      
+* title = "List of all ePIs associated with pifeltro"
+
+* subject = Reference(mp1eba750c00bf990fa2415eddb80cfc48)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#pifeltro "pifeltro"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d9e1f5caf32113b1e6722af1d88782c1) // pifeltro en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d9e1f5caf32113b1e6722af1d88782c1) // pifeltro da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d9e1f5caf32113b1e6722af1d88782c1
+InstanceOf: List
+
+* insert d9e1f5caf32113b1e6722af1d88782c1ListRuleset
+    

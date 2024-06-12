@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-74d4a84c8c26d0880630461280f3d19f
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebymect Package Leaflet"
@@ -484,12 +487,685 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-74d4a84c8c26d0880630461280f3d19f
+InstanceOf: CompositionUvEpi
+Title: "Composition for ebymect Package Leaflet"
+Description:  "Composition for ebymect Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpffadfbbb8ec345ca2a32cb25ea9eb077)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpffadfbbb8ec345ca2a32cb25ea9eb077
+* title = "TEST PURPOSES ONLY - ebymect"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Ebymect
+3. Sådan skal du tage Ebymect
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ebymect is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ebymect is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ebymect indeholder to forskellige aktive stoffer, der hedder dapagliflozin og metformin. Begge 
+tilhører en gruppe medicin, der kaldes orale antidiabetika. Begge stoffer er medicin mod diabetes, der 
+indtages gennem munden.
+Ebymect anvendes til en type diabetes, der hedder “type 2-diabetes" hos voksne patienter (18 år og 
+derover). Hvis du har type 2-diabetes producerer din bugspytkirtel ikke nok insulin, eller din krop er 
+ikke i stand til at udnytte det insulin, den producerer, godt nok. Dette medfører højt indhold af sukker 
+(glukose) i dit blod. 
+
+Dapagliflozin virker ved at fjerne det overskydende sukker fra din krop via urinen og nedsætter 
+mængden af sukker i dit blod. Det kan også hjælpe med at forebygge hjertesygdom.
+
+Metformin virker hovedsageligt ved at hæmme produktionen af glukose i leveren.
+Til behandling af type 2-diabetes:
+
+Denne medicin tages i kombination med diæt og motion.
+
+Dette lægemiddel anvendes, hvis din diabetes ikke kan kontrolleres med andre lægemidler til 
+behandling af diabetes.
+
+Lægen kan bede dig om at tage dette lægemiddel alene eller sammen med anden medicin til 
+behandling af diabetes. Det kan være et andet lægemiddel indtaget gennem munden, og/eller 
+medicin indgivet ved injektion.
+
+Hvis du allerede tager både dapagliflozin og metformin som særskilte tabletter kan lægen bede 
+dig om at skifte til dette lægemiddel. For at undgå en overdosis, skal du stoppe med at tage 
+dapagliflozin- og metformintabletter, hvis du tager Ebymect.
+Det er vigtigt, at du fortsætter med at følge de råd om kost og motion, som din læge, apotekspersonalet 
+eller sundhedspersonalet har givet dig.
+56</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ebymect"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ebymect"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ebymect
+•
+hvis du er allergisk over for dapagliflozin, metformin eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6).
+•
+hvis du for nylig har haft diabetisk koma.
+•
+hvis du har dårligt kontrolleret diabetes, der eksempelvis er ledsaget af alvorlig hyperglykæmi 
+(højt blodsukker), kvalme, opkastning, diarré, hurtigt vægttab, laktatacidose (se "Risiko for 
+laktatacidose" nedenfor) eller ketoacidose. Ketoacidose er en tilstand, hvor såkaldte ketonstoffer 
+ophobes i blodet, hvilket kan føre til diabetisk prækoma. Symptomerne omfatter mavesmerter, 
+hurtig og dyb vejrtrækning og søvnighed, og din ånde kan få en usædvanlig frugtagtig lugt.
+•
+hvis du har alvorligt nedsat nyrefunktion.
+•
+hvis du har tilstande, der kan forværre din nyrefunktion, som for eksempel
+-
+tab af meget væske fra kroppen (dehydrering), f.eks. på grund af langvarig eller alvorlig 
+diarre, eller hvis du har kastet op flere gange i træk
+-
+alvorlig infektion
+-
+alvorlige problemer med kredsløbet (kredsløbschok)
+•
+hvis du har en sygdom, der kan forårsage problemer med at få blod ud til dine organer, for 
+eksempel hvis du har
+-
+hjertesvigt
+-
+vejrtrækningsbesvær på grund af akut hjerte- eller lungesygdom
+-
+for nylig har haft et hjerteanfald
+-
+alvorlige problemer med kredsløbet (kredsløbschok)
+•
+hvis du har problemer med din lever.
+•
+hvis du indtager større mængder alkohol, enten hver dag eller kun ind imellem (se afsnittet “Brug 
+af Ebymect sammen med alkohol").
+Tag ikke dette lægemiddel, hvis noget af ovennævnte gælder for dig.
+Advarsler og forsigtighedsregler
+Risiko for laktatacidose
+Ebymect kan forårsage en meget sjælden, men meget alvorlig bivirkning, som kaldes laktatacidose, 
+især hvis dine nyrer ikke fungerer korrekt. Risikoen for at udvikle laktatacidose er også forhøjet ved 
+dårligt kontrolleret diabetes, alvorlige infektioner, længerevarende faste eller alkoholindtagelse, 
+dehydrering (væskemangel) (se yderligere oplysninger nedenfor), leverproblemer og enhver tilstand 
+med nedsat iltforsyning til en legemsdel (såsom akut alvorlig hjertesygdom).
+Kontakt lægen for at få yderligere vejledning, hvis noget af ovennævnte gælder for dig.
+Stop med at tage Ebymect i en kort periode, hvis du har en tilstand, som kan være forbundet 
+med dehydrering (betydeligt tab af kropsvæsker), såsom alvorlig opkastning, diarré, feber, udsættelse 
+for varme eller indtagelse af mindre væske end normalt. Kontakt lægen for at få yderligere rådgivning.
+Stop med at tage Ebymect og kontakt omgående læge eller nærmeste hospital, hvis du får et 
+eller flere af nedenstående symptomer på laktatacidose, da denne tilstand kan føre til koma.
+Symptomerne på laktatacidose omfatter:
+-
+opkastning
+-
+mavesmerter
+-
+muskelkramper
+-
+almen utilpashed med udpræget træthed
+-
+vejrtrækningsbesvær
+-
+nedsat kropstemperatur og langsommere puls 
+Laktatacidose er en alvorlig tilstand, der skal behandles på et hospital.
+57
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Ebymect og under 
+behandling:
+
+hvis du oplever hurtigt vægttab, kvalme, opkastning, mavesmerter, udtalt tørst, hurtig og dyb 
+vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, din ånde lugter sødligt, en sød 
+eller metallisk smag i munden eller en forandret lugt af din urin eller sved skal du straks 
+kontakte læge eller skadestue. Disse symptomer kan være tegn på "diabetisk ketoacidose" - en
+sjælden, men alvorlig, til tider livstruende komplikation, du kan få ved diabetes på grund af 
+forhøjet niveau af "ketonstoffer" i urinen eller blodet, som kan ses i laboratorieanalyser. 
+Risikoen for at udvikle diabetisk ketoacidose kan være forøget ved længerevarende faste, 
+overdreven alkoholindtagelse, dehydrering, pludselig nedsættelse af insulindosis eller øget 
+behov for insulin på grund af større operationer eller alvorlig sygdom.
+
+hvis du har "type 1-diabetes", producerer kroppen ikke noget insulin. Ebymect må ikke bruges 
+til behandlling af denne sygdom.
+
+hvis du har meget høje niveauer af glukose (sukker) i blodet, som kan gøre dig dehydreret (få 
+dig til at tabe for meget kropsvæske). Mulige tegn på dehydrering er anført i punkt 4. Kontakt 
+lægen, før du tager dette lægemiddel, hvis du får et af disse symptomer.
+
+hvis du tager medicin, der skal sænke dit blodtryk (antihypertensiva) og har en sygehistorie med 
+for lavt blodtryk (hypotension). Herom yderligere oplysninger under "Brug af anden medicin
+sammen med Ebymect".
+
+hvis du ofte får urinvejsinfektioner. Denne medicin kan give dig urinvejsinfektioner, og lægen 
+vil måske overvåge dig mere intenst. Lægen kan overveje kortvarigt at ændre din behandling, 
+hvis du udvikler en alvorlig infektion.
+Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), så tal med lægen, apotekspersonalet 
+eller sygeplejersken, før du begynder at tage dette lægemiddel.
+Kontakt øjeblikkeligt lægen, hvis du oplever en kombination af smerter, ømhed, rødme eller hævelse 
+af kønsdelene eller i området mellem kønsdelene og anus med feber eller generel utilpashed. Disse 
+symptomer kan være et tegn på en sjælden, men alvorlig og muligvis livstruende infektion (såkaldt 
+nekrotiserende fasciitis i mellemkødet eller Fourniers gangræn), der ødelægger vævet under huden. 
+Fourniers gangræn skal behandles øjeblikkeligt.
+Operationer
+Hvis du skal have foretaget en større operation, skal du stoppe med at tage Ebymect før indgrebet og i 
+nogen tid herefter. Lægen vil beslutte, hvornår du skal stoppe behandlingen med Ebymect, og hvornår 
+du kan genoptage den igen.
+Nyrefunktionen
+Dine nyrer skal kontrolleres, før du begynder at tage Ebymect. Under behandlingen med dette 
+lægemiddel vil lægen kontrollere din nyrefunktion en gang om året eller hyppigere, hvis du er ældre 
+og/eller hvis din nyrefunktion bliver dårligere.
+Fodpleje
+Det er vigtigt, at du får kontrolleret dine fødder regelmæssigt og overholder en hvilken som helst
+rådgivning om fodpleje, som du får af sundhedspersonalet.
+Glukose i urinen
+På grund af dette lægemiddels virkemåde vil urinprøver vise, at du har sukker (glukose) i urinen, mens 
+du tager denne medicin.
+58
+Ældre (65 år og derover)
+Hvis du er ældre, kan der være forhøjet risiko for, at din nyrefunktion er mindre god samt at du bliver 
+behandlet med andre lægemidler (se også "Nyrefunktionen" ovenfor og "Brug af anden medicin 
+sammen med Ebymect" nedenfor).
+Børn og unge
+Dette lægemiddel frarådes til børn og unge under 18 år, da det ikke er blevet undersøgt hos disse 
+patienter.
+Brug af anden medicin sammen med Ebymect
+Hvis du skal have sprøjtet et kontrastmiddel, som indeholder jod, ind i dit blod, for eksempel i 
+forbindelse med en røntgenundersøgelse eller scanning, skal du stoppe med at tage Ebymect forud for 
+eller på tidspunktet for injektionen. Lægen vil beslutte, hvornår du skal stoppe behandlingen med 
+Ebymect, og hvornår du kan genoptage den igen.
+Fortæl det altid til lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller 
+planlægger at tage anden medicin. Du skal eventuelt have kontrollere dit blodsukker eller din 
+nyrefunktion hyppigere, eller lægen kan ændre din dosis af Ebymect. Det er især vigtigt, at du nævner 
+følgende:
+
+hvis du tager vanddrivende medicin (diuretika).
+
+hvis du tager anden medicin, som sænker sukkerindholdet i blodet, såsom insulin eller et 
+"sulfonylurinstof". Din læge kan ønske at nedsætte dosen af disse andre lægemidler for at 
+undgå, at du får et for lavt blodsukkerniveau (hypoglykæmi).
+
+hvis du tager cimetidin, der er en medicin mod maveproblemer.
+
+hvis du tager bronchodilatorer (beta-2 agonister), der bruges til behandling af astma.
+
+hvis du bruger kortikosteroider til behandling af betændelseslignende reaktioner i forbindelse 
+med sygdomme som astma og leddegigt, som gives gennem munden, som en insprøjtning eller 
+som inhalation.
+
+hvis du tager lægemidler mod smerter og betændelseslignende tilstande (NSAID’er og COX-2-
+hæmmere, såsom ibuprofen og celecoxib).
+
+hvis du tager visse lægemidler, der nedsætter blodtrykket (ACE-hæmmere og angiotensin II-
+receptorantagonister).
+Brug af Ebymect sammen med alkohol
+Du skal undgå at indtage store mængder alkohol, mens du er i behandling med Ebymect, da det kan 
+øge risikoen for laktatacidose (se afsnittet "Advarsler og forsigtighedsregler").
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. Hold op med at tage dette lægemiddel, hvis 
+du bliver gravid, da det ikke bør tages i andet og tredje trimester (de sidste seks måneder) af 
+graviditeten. Tal med din læge om den bedste måde at kontrollere dit blodsukker på, mens du er 
+gravid.
+Tal med din læge, før du tager dette lægemiddel, hvis du ammer eller ønsker at amme. Du bør ikke 
+tage dette lægemiddel, hvis du ammer. Metformin passerer over i modermælk i små mængder. Det 
+vides ikke, om dapagliflozin går over i modermælken.
+Trafik- og arbejdssikkerhed
+Dette lægemiddel påvirker ikke eller kun i mindre grad arbejdssikkerheden og evnen til at færdes 
+sikkert i trafikken. Hvis du tager det sammen med andre lægemidler, der nedsætter mængden af sukker 
+i dit blod, f.eks. insulin eller et "sulfonylurinstof", kan dit blodsukker blive for lavt (hypoglykæmi), 
+hvilket kan give symptomer såsom svaghed, svimmelhed, øget svedudbrud, hurtig hjerterytme, 
+synspåvirkning eller koncentrationsbesvær og kan påvirke din evne til at færdes i trafikken eller 
+betjene maskiner. Lad være med at køre i trafikken eller arbejde med værktøj eller maskiner, hvis du
+begynder at få disse symptomer.
+59
+Ebymect indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per dosis, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ebymect"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ebymect"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Så meget skal du tage
+
+Den mængde af dette lægemiddel, som du skal tage, afhænger af din tilstand og de doser, du på 
+nuværende tidspunkt tager af metformin og/eller separate tabletter af dapagliflozin og 
+metformin. Din læge vil fortælle dig præcis hvilken styrke af dette lægemiddel, du skal tage.
+
+Den anbefalede dosis er 1 tablet to gange dagligt.
+Sådan indtager du medicinen
+
+Synk tabletten hel med et halvt glas vand.
+
+Tag din tablet sammen med mad. Dette skal du gøre for at nedsætte risikoen for bivirkninger i 
+maven.
+
+Tag din tablet to gange dagligt, én gang om morgenen (morgenmad) og én gang om aftenen 
+(aftensmad).
+Din læge kan ordinere dette lægemiddel sammen med et eller flere andre lægemidler for at sænke 
+sukkerindholdet i blodet. Det kan være lægemidler, som indtages via munden, eller indgivet ved 
+injektion, såsom insulin eller en GLP-1-receptoragonist. Husk at tage disse andre lægemidler, som din 
+læge har fortalt dig. Det vil hjælpe med at opnå de bedste resultater for dit helbred.
+Diæt og motion
+For at kontrollere din diabetes skal du stadig følge kostrådene og motionere, også selvom du tager 
+denne medicin. Derfor er det vigtigt, at du fortsætter med at følge de råd om kost og motion, som din
+læge, apotekspersonalet eller sundhedspersonalet har givet dig. Især hvis du følger en diabetesdiæt 
+med vægtkontrol, skal du fortsat følge denne, mens du tager dette lægemiddel.
+Hvis du har taget for meget Ebymect
+Hvis du har taget flere Ebymect-tabletter end du skulle, kan du få laktatacidose. Symptomerne på 
+laktatacidose omfatter kvalme eller opkastning, mavesmerter, muskelkramper, udtalt træthed eller 
+vejrtrækningsbesvær. Hvis det sker for dig, kan du have behov for akut medicinsk behandling, da 
+laktatacidose kan medføre koma. Du skal omgående stoppe med at tage dette lægemiddel og straks 
+kontakte en læge eller nærmeste hospital (se punkt 2). Tag lægemiddelpakningen med dig.
+Hvis du har glemt at tage Ebymect
+Hvis du glemmer en dosis, så tag den så snart du kommer i tanker om det. Hvis du først kommer i 
+tanker om det, når det er tid til din næste dosis, skal du springe den glemte dosis over og tage næste 
+dosis som planlagt. Du må ikke tage en dobbeltdosis af dette lægemiddel som erstatning for den 
+glemte dosis.
+Hvis du holder op med at tage Ebymect
+Hold ikke op med at tage dette lægemiddel uden først at tale med din læge. Dit blodsukker kan stige, 
+hvis du ikke tager din medicin.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+60
+Stop med at tage Ebymect og opsøg straks en læge, hvis du får nogen af følgende alvorlige eller 
+potentielt alvorlige bivirkninger:
+
+Laktatacidose, ses meget sjældent (kan forekomme hos op til 1 ud af 10.000 personer).
+Ebymect kan forårsage en meget sjælden, men meget alvorlig bivirkning, der kaldes laktatacidose (se 
+afsnittet "Advarsler og forsigtighedsregler"). Hvis dette sker for dig, skal du omgående stoppe med at 
+tage Ebymect og kontakte læge eller nærmeste hospital, da laktatacidose kan føre til koma.
+Kontakt straks en læge eller nærmeste skadestue, hvis du får nogen af følgende bivirkninger:
+
+Diabetisk ketoacidose, ses sjældent (kan forekomme hos op til 1 ud af 1.000 personer)
+Nedenstående symptomer er tegnene på diabetisk ketoacidose (se også punkt 2 Advarsler og
+forsigtighedsregler):</p>
+<ul>
+<li>forhøjet niveau af "ketonstoffer" i urinen eller blodet</li>
+<li>hurtigt vægttab</li>
+<li>kvalme eller opkastning</li>
+<li>mavesmerter</li>
+<li>udtalt tørst</li>
+<li>hurtig og dyb vejrtrækning</li>
+<li>forvirring</li>
+<li>usædvanlig søvnighed eller træthed</li>
+<li>
+<p>dine ånde lugter sødligt, en sød eller metallisk smag i munden eller en forandret lugt af din 
+urin eller sved.
+Dette kan forekomme uanset niveauet af blodsukker. Lægen kan beslutte at stoppe behandlingen med 
+Ebymect midlertidigt eller permanent.
+
+Nekrotiserende fasciitis i mellemkødet (Fourniers gangræn), en alvorlig bløddelsinfektion i 
+kønsdelene eller området mellem kønsdelene og anus; forekommer meget sjældent.
+Stop med at tage Ebymect, og opsøg hurtigst muligt en læge, hvis du får nogen af følgende 
+alvorlige eller potentielt alvorlige bivirkninger:
+
+Urinvejsinfektion - en almindelig bivirkning (kan forekomme hos op til 1 ud af 10 personer).
+Følgende er tegn på en alvorlig urinvejsinfektion:</p>
+</li>
+<li>
+<p>feber og/eller kulderystelser</p>
+</li>
+<li>brændende fornemmelse ved vandladning</li>
+<li>
+<p>smerter i ryggen eller siden.
+Hvis du ser blod i urinen, skal du straks fortælle det til din læge; dette forekommer dog sjældent.
+Kontakt straks din læge, hvis du får nogen af følgende bivirkninger:
+
+Lavt blodsukker (hypoglykæmi) - en meget almindelig bivirkning (kan forekomme hos mere 
+end 1 ud af 10 personer) - når denne medicin tages sammen med et sulfonylurinstof eller anden 
+medicin, der sænker mængden af sukker i dit blod, som f.eks. insulin.
+Følgende er tegn på lavt blodsukker:</p>
+</li>
+<li>
+<p>rysten, svedtendens, stærk angstfølelse, hurtig hjerterytme (puls)</p>
+</li>
+<li>sultfornemmelse, hovedpine, synsforstyrrelser</li>
+<li>humørsvingninger eller forvirring.
+Din læge vil fortælle dig, hvordan du skal behandle for lavt blodsukker, og hvad du skal gøre, hvis du 
+får nogen af ovenstående tegn. Hvis du har symptomer på lavt blodsukker, skal du spise nogle 
+glukosetabletter, et mellemmåltid med højt sukkerindhold eller drikke noget frugtjuice. Mål dit 
+blodsukker om muligt og hvil dig.
+Andre bivirkninger omfatter:
+Meget almindelig
+
+kvalme, opkastning
+
+diarré eller mavepine
+61
+
+appetitløshed
+Almindelig
+
+infektion i kønsorganerne (trøske) på penis eller i skeden (tegn på dette kan være irritation, kløe, 
+usædvanlig udflåd eller lugt)
+
+rygsmerter
+
+ubehag ved vandladning, vandladning af større mængder urin end sædvanligt eller hyppigere 
+vandladningstrang
+
+ændringer i mængden af kolesterol eller fedtstoffer i blodet (påvist i blodprøver)
+
+øgning af mængden af røde blodlegemer i blodet (påvist i blodprøver)
+
+nedsat kreatininclearance (påvist i blodprøver) i starten af behandlingen
+
+smagsændringer
+
+svimmelhed
+
+udslæt
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer)
+
+tab af for meget væske fra din krop (dehydrering; tegnene kan omfatte meget tør eller klæbrig 
+mund, at lade lidt eller ingen urin eller hurtig hjerterytme)
+
+svampeinfektion
+
+tørst
+
+forstoppelse
+
+opvågning om natten for at lade vandet
+
+mundtørhed
+
+vægttab
+
+forhøjet kreatinin (påvist i laboratorieblodprøver) i starten af behandlingen
+
+forhøjet urea (påvist i laboratorieblodprøver)
+Meget sjælden
+
+nedsatte vitamin B12-niveauer i blodet
+
+abnormiteter i leverfunktionstests, leverbetændelse (hepatitis)
+
+rødme af huden (erytem), kløe eller kløende udslæt (nældefeber)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ebymect"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ebymect"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisteren eller æsken efter ‘EXP’. Udløbsdatoen 
+er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.
+62</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ebymect indeholder
+
+Aktive stoffer: dapagliflozin og metforminhydrochlorid (metformin HCl).
+Hver Ebymect 5 mg/850 mg filmovertrukket tablet (tablet) indeholder 
+dapagliflozinpropandiolmonohydrat svarende til 5 mg dapagliflozin og 850 mg 
+metforminhydrochlorid.
+Hver Ebymect 5 mg/1000 mg filmovertrukket tablet (tablet) indeholder 
+dapagliflozinpropandiolmonohydrat svarende til 5 mg dapagliflozin og 1000 mg 
+metforminhydrochlorid.
+
+Øvrige indholdsstoffer:
+ tabletkerne: hydroxypropylcellulose (E463), mikrokrystallinsk cellulose (E460(i)), 
+magnesiumstearat (E470b), natriumstivelsesglycolat (type A).
+ filmovertræk: polyvinylalkohol (E1203), macrogol (3350) (E1521), talcum (E553b),
+titandioxid (E171), gul jernoxid (E172), rød jernoxid (E172) (kun for 
+Ebymect 5 mg/850 mg).
+Udseende og pakningsstørrelser
+
+Ebymect 5 mg/850 mg er 9,5 x 20 mm ovale, brune filmovertrukne tabletter. De har “5/850" på 
+den ene side og “1067" på den anden side.
+
+Ebymect 5 mg/1000 mg er 10,5 x 21,5 mm ovale, gule filmovertrukne tabletter. De har 
+“5/1000" på den ene side og “1069" på den anden side.
+Ebymect 5 mg/850 mg filmovertrukne tabletter og Ebymect 5 mg/1000 mg filmovertrukne tabletter er 
+tilgængelige i PVC/PCTFE/Alu-blister. Pakningsstørrelserne er 14, 28, 56 og 196 (2 pakninger a 
+98) filmovertrukne tabletter i ikke-perforerede kalenderblistere med 14 tabletter, 60 filmovertrukne 
+tabletter i ikke-perforerede blistere med 10 tabletter og 60x1 filmovertrukne tabletter i perforerede 
+enkeltdosisblistere.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Sverige
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 (2) 44 55 000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+63
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 2 106871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+Esteve Pharmaceuticals, S.A.
+Tel: +34 93 446 60 00
+Laboratorio Tau, S. A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+BIAL-Portela &amp; Cª., S.A.
+Tel.: +351 22 986 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7777
+Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+64
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-74d4a84c8c26d0880630461280f3d19f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ebymect Package Leaflet for language en"
+Description: "ePI document Bundle for ebymect Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-74d4a84c8c26d0880630461280f3d19f"
+* entry[0].resource = composition-en-74d4a84c8c26d0880630461280f3d19f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp74d4a84c8c26d0880630461280f3d19f"
+* entry[=].resource = mp74d4a84c8c26d0880630461280f3d19f
+                            
+                    
+Instance: bundlepackageleaflet-da-74d4a84c8c26d0880630461280f3d19f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ebymect Package Leaflet for language da"
+Description: "ePI document Bundle for ebymect Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-74d4a84c8c26d0880630461280f3d19f"
+* entry[0].resource = composition-da-74d4a84c8c26d0880630461280f3d19f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp74d4a84c8c26d0880630461280f3d19f"
+* entry[=].resource = mp74d4a84c8c26d0880630461280f3d19f
+                            
+                    
+
+
+
+Instance: mp74d4a84c8c26d0880630461280f3d19f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ebymect 5 mg/850 mg film-coated tablets"
-Description: "Ebymect 5 mg/850 mg film-coated tablets"
+Title: "Medicinal Product ebymect"
+Description: "ebymect"
 Usage: #inline
 
  
@@ -509,7 +1185,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ebymect 5 mg/850 mg film-coated tablets"
+  * productName = "ebymect"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -536,29 +1212,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-74d4a84c8c26d0880630461280f3d19f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ebymect Package Leaflet for language en"
-Description: "ePI document Bundle for ebymect Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 74d4a84c8c26d0880630461280f3d19fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Ebymect 5 mg/850 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ebymect"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-74d4a84c8c26d0880630461280f3d19f"
-* entry[0].resource = composition-en-74d4a84c8c26d0880630461280f3d19f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpffadfbbb8ec345ca2a32cb25ea9eb077"
-* entry[=].resource = mpffadfbbb8ec345ca2a32cb25ea9eb077
-                            
-                      
+* title = "List of all ePIs associated with ebymect"
+
+* subject = Reference(mpffadfbbb8ec345ca2a32cb25ea9eb077)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ebymect "ebymect"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-74d4a84c8c26d0880630461280f3d19f) // ebymect en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-74d4a84c8c26d0880630461280f3d19f) // ebymect da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-74d4a84c8c26d0880630461280f3d19f
+InstanceOf: List
+
+* insert 74d4a84c8c26d0880630461280f3d19fListRuleset
+    

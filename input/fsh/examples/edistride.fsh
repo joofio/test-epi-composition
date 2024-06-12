@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0ee00d4506e3873c8f0ac45771449e6f
 InstanceOf: CompositionUvEpi
 Title: "Composition for edistride Package Leaflet"
@@ -444,12 +447,622 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-0ee00d4506e3873c8f0ac45771449e6f
+InstanceOf: CompositionUvEpi
+Title: "Composition for edistride Package Leaflet"
+Description:  "Composition for edistride Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1f54e876248662d616215fe1f0631057)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1f54e876248662d616215fe1f0631057
+* title = "TEST PURPOSES ONLY - edistride"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Edistride
+3. Sådan skal du tage Edistride
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What edistride is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What edistride is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
+Edistride indeholder det aktive stof dapagliflozin. Det tilhører en gruppe medicin kaldet “natrium-
+glukose-kotransportør-2 (SGLT2)-hæmmere". De virker ved at blokere SGLT2-proteinet i dine nyrer. 
+Ved at blokere dette protein fjernes blodsukker (glukose), salt (natrium) og vand fra din krop via 
+urinen.
+Anvendelse
+Edistride anvendes til behandling af:
+
+Type 2-diabetes
+-
+hos voksne og børn i alderen 10 år og derover.
+-
+hvis din type 2-diabetes ikke kan kontrolleres med diæt og motion.
+-
+Edistride kan anvendes alene eller sammen med anden medicin til behandling af diabetes.
+-
+Det er vigtigt, at du fortsætter med at følge de råd om kost og motion, som din læge, 
+apotekspersonalet eller sygeplejersken har givet dig.
+
+Hjertesvigt
+-
+hos voksne (18 år og derover), når hjertet ikke pumper blodet så godt som det burde.
+
+Kronisk nyresygdom
+-
+hos voksne med nedsat nyrefunktion.
+Hvad er type 2-diabetes, og hvordan hjælper Edistride?
+
+Ved type 2-diabetes producerer din krop ikke nok insulin eller er ikke i stand til at udnytte det 
+insulin, som den producerer, godt nok. Dette fører til et højt sukkerindhold i dit blod. Dette kan 
+føre til alvorlige problemer som hjerte- eller nyresygdom, blindhed og dårlig blodcirkulation i 
+dine arme og ben.
+
+Edistride virker ved at fjerne overskydende sukker fra kroppen. Det kan det også hjælpe med at 
+forebygge hjertesygdomme.
+53
+Hvad er hjertesvigt, og hvordan hjælper Edistride?
+
+Denne type hjertesvigt opstår, når hjertet ikke pumper blod til lungerne og resten af kroppen så 
+godt som det burde. Dette kan føre til alvorlige medicinske problemer og behov for 
+hospitalsbehandling.
+
+De mest almindelige symptomer på hjertesvigt er åndenød, en følelse af at være træt eller meget 
+træt hele tiden og hævelse af anklerne.
+
+Edistride beskytter dit hjerte mod at få det værre og forbedrer dine symptomer. Det kan mindske 
+behovet for at komme på hospitalet og kan hjælpe nogle patienter med at leve længere.
+Hvad er kronisk nyresygdom, og hvordan hjælper Edistride?
+
+Når du har kronisk nyresygdom, kan dine nyrer gradvist miste funktionen. Dette betyder, at de 
+ikke vil være i stand til at rense og filtrere dit blod, som det ellers er meningen. Manglende 
+nyrefunktion kan medføre alvorlige helbredsproblemer og behov for hospitalsbehandling.
+
+Edistride hjælper med at beskytte dine nyrer mod at miste deres funktion. Det kan hjælpe nogle 
+patienter til at leve længere.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take edistride"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take edistride"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Edistride
+
+hvis du er allergisk over for dapagliflozin eller et af de øvrige indholdsstoffer (angivet i
+punkt 6).
+Advarsler og forsigtighedsregler
+Du skal straks kontakte læge eller nærmeste hospital
+Diabetisk ketoacidose:
+
+Hvis du har diabetes og oplever kvalme, opkastning, mavesmerter, udtalt tørst, hurtig og dyb 
+vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, dine ånde lugter sødligt, en sød 
+eller metallisk smag i munden eller en forandret lugt af din urin eller sved, eller hurtigt vægttab.
+
+De ovennævnte symptomer kan være tegn på "diabetisk ketoacidose" - en sjælden, men
+alvorlig, til tider livstruende komplikation, du kan få ved diabetes på grund af forhøjet niveau af 
+"ketonstoffer" i urinen eller blodet, som kan ses i laboratorieanalyser. 
+
+Risikoen for at udvikle diabetisk ketoacidose kan være forøget ved længerevarende faste, 
+overdreven alkoholindtagelse, dehydrering, pludselig nedsættelse af insulindosis eller øget 
+behov for insulin på grund af større operationer eller alvorlig sygdom.
+
+Når du behandles med Edistride, kan diabetisk ketoacidose forekomme, selvom dit 
+blodsukkerniveau er normalt.
+Hvis du har mistanke om, at du har diabetisk ketoacidose, skal du straks kontakte en læge eller 
+nærmeste hospital og tag ikke denne medicin.
+Nekrotiserende fasciitis i mellemkødet:
+
+Kontakt øjeblikkeligt lægen, hvis du oplever en kombination af smerter, ømhed, rødme eller 
+hævelse af kønsdelene eller i området mellem kønsdelene og anus med feber eller generel 
+utilpashed. Disse symptomer kan være et tegn på en sjælden, men alvorlig og muligvis 
+livstruende infektion (såkaldt nekrotiserende fasciitis i mellemkødet eller Fourniers gangræn), 
+der ødelægger vævet under huden. Fourniers gangræn skal behandles øjeblikkeligt.
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Edistride
+
+Hvis du har "type 1-diabetes" - den type, der normalt starter, når du er ung, og din krop ikke 
+producerer noget insulin. Edistride må ikke anvendes til at behandle denne sygdom.
+
+Hvis du har diabetes og et nyreproblem - din læge vil måske bede dig om at tage nogle andre 
+eller et andet lægemiddel for at kontrollere dit blodsukker.
+
+Hvis du har et leverproblem - din læge vil måske give dig en lavere startdosis.
+
+Hvis du tager medicin, der skal sænke dit blodtryk (anti-hypertensiva) og har en sygehistorie 
+54
+med for lavt blodtryk (hypotension). Der gives yderligere oplysninger under "Brug af anden 
+medicin sammen med Edistride".
+
+Hvis du har meget høje niveauer af sukker i blodet, som kan gøre dig dehydreret (få dig til at 
+tabe for meget kropsvæske). Mulige tegn på dehydrering er anført i punkt 4. Kontakt lægen, før 
+du tager Edistride, hvis du får et af disse symptomer.
+
+Hvis du har eller senere får kvalme, opkastning eller feber, eller hvis du ikke er i stand til at 
+spise eller drikke. I så fald kan du komme i væskeunderskud (blive dehydreret). For at 
+forebygge dehydrering vil din læge måske opfordre dig til at stoppe med Edistride, indtil du får 
+det bedre.
+
+Hvis du ofte får urinvejsinfektioner. Dette lægemiddel kan give urinvejsinfektioner, og lægen 
+vil måske følge dig tættere. Lægen kan vælge midlertidigt at ændre din behandling, hvis du får 
+en alvorlig infektion.
+Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), så tal med din læge, apoteks-
+personalet eller sygeplejersken, før du begynder at tage Edistride.
+Diabetes og fodpleje
+Hvis du har diabetes, er det vigtigt, at du får kontrolleret din fødder regelmæssigt og overholder den 
+rådgivning om fodpleje, som du får af din læge eller sygeplejerske.
+Glukose i urinen
+På grund af Edistrides virkemåde vil urinprøver vise, at du har sukker (glukose) i urinen, mens du 
+tager denne medicin.
+Ældre (65 år og derover)
+Hvis du er ældre, kan der være forhøjet risiko for, at din nyrefunktion er mindre god samt at du bliver 
+behandlet med andre lægemidler (se også "Nyrefunktionen" ovenfor og "Brug af anden medicin 
+sammen med Edistride" nedenfor).
+Børn og unge
+Edistride kan bruges til børn i alderen 10 år og derover til behandling af type 2-diabetes. Der er ingen 
+data tilgængelige hos børn under 10 år.
+Edistride frarådes til børn og unge under 18 år til behandling af hjertesvigt eller til behandling af
+kronisk nyresygdom, da det ikke er blevet undersøgt hos disse patienter.
+Brug af anden medicin sammen med Edistride
+Fortæl det altid til lægen, apotekspersonalet eller sundhedspersonalet, hvis du bruger anden medicin, 
+for nylig har brugt anden medicin eller planlægger at bruge anden medicin.
+Fortæl det altid til lægen:
+
+Hvis du tager vanddrivende medicin (diuretika).
+
+Hvis du tager anden medicin, som sænker sukkerindholdet i blodet, som f.eks. insulin eller en 
+medicin med "sulfonylurinstof". Din læge kan ønske at nedsætte dosen af disse andre 
+lægemidler for at undgå at du får for lavt blodsukker (hypoglykæmi).
+
+Hvis du tager lithium, fordi Edistride kan sænke niveauet af lithium i dit blod.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. Hold op med at tage dette lægemiddel, hvis 
+du bliver gravid, da det ikke bør tages i de sidste seks måneder af graviditeten. Tal med din læge om 
+den bedste måde at kontrollere dit blodsukker på, mens du er gravid.
+Tal med din læge, før du tager dette lægemiddel, hvis du ammer eller ønsker at amme. Du må ikke
+tage Edistride, hvis du ammer. Det vides ikke, om dette lægemiddel går over i modermælken.
+Trafik- og arbejdssikkerhed
+Edistride påvirker ikke eller kun i mindre grad evnen til at føre motorkøretøj og betjene maskiner.
+55
+Hvis du tager dette lægemiddel sammen med visse andre lægemidler såsom sulfonylurinstoffer eller
+insulin, kan dit blodsukker blive for lavt (hypoglykæmi), hvilket kan give symptomer såsom rysten, 
+svedudbrug eller synspåvirkning og kan påvirke din evne til at føre motorkøretøj og betjene maskiner.
+Lad være med at føre motorkøretøj og arbejde med værktøj eller maskiner, hvis du bliver svimmel, når 
+du tager Edistride.
+Edistride indeholder laktose
+Edistride indeholder laktose (mælkesukker). Kontakt din læge, før du tager dette lægemiddel, hvis 
+lægen har fortalt dig, at du ikke kan tåle visse sukkerstoffer.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take edistride"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take edistride"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet 
+eller sygeplejersken.
+Hvor meget skal du tage
+
+Den anbefalede dosis er én 10 mg tablet hver dag.
+
+Din læge kan starte din behandling med en 5 mg dosis, hvis du har en leversygdom.
+
+Din læge vil ordinere den styrke, der passer til dig.
+Sådan tages denne medicin
+
+Slug tabletten hel med et halvt glas vand.
+
+Du kan tage tabletten med eller uden mad.
+
+Tabletten kan indtages når som helst på dagen. Du bør dog forsøge at tage den på samme 
+tidspunkt hver dag. Dette vil hjælpe dig til at huske at tage den.
+Din læge kan ordinere Edistride sammen med anden medicin. Husk at tage denne anden medicin, som 
+din læge har fortalt dig. Det vil hjælpe med at opnå de bedste resultater for dit helbred.
+Kost og motion kan hjælpe din krop med at bruge blodsukkeret bedre. Hvis du har diabetes, er det 
+vigtigt at forblive på et diæt- og træningsprogram, som lægen anbefaler, mens du tager Edistride.
+Hvis du har taget for meget Edistride
+Hvis du har taget flere Edistride tabletter, end du skulle, skal du straks tale med lægen eller tage på 
+hospitalet. Medbring medicinens emballage.
+Hvis du har glemt at tage Edistride
+Hvis du har glemt at tage en tablet, skal du gøre som beskrevet nedenfor (afhængigt af hvor længe, der
+er til næste dosis):
+
+Hvis der er 12 timer eller mere til din næste dosis: Tag en dosis Edistride, så snart du kommer i
+tanke om det. Tag derpå den næste dosis på det sædvanlige tidspunkt.
+
+Hvis der er mindre end 12 timer til den næste dosis: Spring den glemte tablet over. Tag derpå 
+den næste dosis på det sædvanlige tidspunkt.
+
+Du må ikke tage en dobbeltdosis Edistride som erstatning for den glemte dosis.
+Hvis du holder op med at tage Edistride
+Hold ikke op med at tage Edistride uden først at tale med din læge. Hvis du har diabetes, kan dit 
+blodsukker stige, hvis du ikke tager din medicin.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>56
+Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Kontakt straks en læge eller nærmeste skadestue, hvis du får nogen af følgende bivirkninger:
+
+angioødem, meget sjældent (kan forekomme hos op til 1 ud af 10.000 personer)
+Nedenstående symptomer er tegnene på angioødem:</p>
+<ul>
+<li>hævelse af ansigt, tunge eller hals</li>
+<li>synkebesvær</li>
+<li>
+<p>nældefeber og åndedrætsbesvær.
+
+diabetisk ketoacidose, dette er sjældent hos patienter med type 2-diabetes (kan forekomme hos 
+op til 1 ud af 1.000 personer)
+Nedenstående symptomer er tegnene på diabetisk ketoacidose (se også punkt 2 Advarsler og 
+forsigtighedsregler):</p>
+</li>
+<li>
+<p>forhøjet niveau af "ketonstoffer" i urinen eller blodet</p>
+</li>
+<li>kvalme eller opkastning</li>
+<li>mavesmerter</li>
+<li>udtalt tørst</li>
+<li>hurtig og dyb vejrtrækning</li>
+<li>forvirring</li>
+<li>usædvanlig søvnighed eller træthed</li>
+<li>dine ånde lugter sødligt, en sød eller metallisk smag i munden eller en forandret lugt af din 
+urin eller sved.</li>
+<li>hurtigt vægttab.
+Dette kan forekomme uanset niveauet af blodsukker. Lægen kan beslutte at stoppe behandlingen med 
+Edistride midlertidigt eller permanent.
+
+nekrotiserende fasciitis i mellemkødet (Fourniers gangræn), en alvorlig bløddelsinfektion i 
+kønsdelene eller området mellem kønsdelene og anus, forekommer meget sjældent.
+Stop med at tage Edistride og opsøg hurtigst muligt en læge, hvis du får nogen af følgende
+alvorlige bivirkninger:
+
+urinvejsinfektion - en almindelig bivirkning (kan forekomme hos op til 1 ud af 10 personer).
+Følgende er tegn på en alvorlig urinvejsinfektion:
+-
+feber og/eller kulderystelser
+-
+brændende fornemmelse ved vandladning
+-
+smerter i ryggen eller siden.
+Hvis du ser blod i urinen, skal du straks fortælle det til din læge, dette forekommer dog sjældent.
+Kontakt snarest muligt din læge, hvis du får en af følgende bivirkninger:
+
+lavt blodsukker (hypoglykæmi) er meget almindeligt (kan forekomme hos flere end 1 ud
+af 10 personer) hos diabetespatienter, når dette lægemiddel tages sammen med et
+sulfonylurinstof eller insulin.
+Følgende er tegn på lavt blodsukker:
+-
+rysten, svedtendens, stærk angstfølelse, hurtig hjerterytme (puls)
+-
+sultfornemmelse, hovedpine, synsforstyrrelser
+-
+humørsvingninger eller forvirring.
+Din læge vil fortælle dig, hvordan du skal behandle for lavt blodsukker, og hvad du skal gøre, hvis du 
+får nogen af ovenstående tegn.
+Andre bivirkninger, når du tager Edistride:
+Almindelige
+
+infektion i kønsorganerne (trøske) på penis eller i skeden (tegn på dette kan være irritation, kløe
+usædvanlig udflåd eller lugt)
+57
+
+rygsmerter
+
+ubehag, når du lader vandet, vandladning af større mængder urin end sædvanligt og hyppigere 
+vandladningstrang
+
+ændringer i mængden af kolesterol eller fedtstoffer i blodet (påvist i blodprøver)
+
+øgning af antal røde blodlegemer i blodet (påvist i blodprøver)
+
+nedsat kreatininclearance (påvist i prøver) i starten af behandlingen
+
+svimmelhed
+
+udslæt
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer)
+
+svampeinfektion
+
+tab af for meget væske fra din krop (dehydrering; tegnene kan omfatte meget tør eller klæbrig 
+mund, at lade lidt eller ingen urin eller hurtig hjerterytme)
+
+tørst
+
+forstoppelse
+
+opvågnen om natten for at lade vandet
+
+mundtørhed
+
+vægttab
+
+forhøjet kreatinin (viser sig ved laboratorieblodprøver) i starten af behandlingen
+
+forhøjet urea (viser sig ved laboratorieblodprøver)
+Meget sjældne
+
+betændelse i nyrerne (tubulointerstitiel nefritis)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store edistride"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store edistride"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke Edistride efter den udløbsdato, der står på blisterkort og pakning efter "EXP". Udløbsdatoen
+er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Edistride indeholder:
+
+Aktivt stof: dapagliflozin.
+Hver Edistride 5 mg filmovertrukket tablet (tablet) indeholder
+dapagliflozinpropanediolmonohydrat svarende til 5 mg dapagliflozin.
+Hver Edistride 10 mg filmovertrukket tablet (tablet) indeholder 
+dapagliflozinpropanediolmonohydrat svarende til 10 mg dapagliflozin.
+
+Øvrige indholdsstoffer:
+
+tabletkerne: mikrokrystallinsk cellulose (E460i), laktose (se punkt 2 "Edistride indeholder 
+laktose"), crospovidon (E1202), siliciumdioxid (E551), magnesiumstearat (E470b).
+58
+
+filmovertræk: polyvinylalkohol (E1203), titandioxid (E171), macrogol (3350) (E1521), 
+talkum (E553b), gul jernoxid (E172).
+Udseende og pakningsstørrelser
+Edistride 5 mg filmovertrukne tabletter er gule og runde med en diameter på 0,7 cm. Der står "5" på 
+den ene side og "1427" på den anden side.
+Edistride 10 mg filmovertrukne tabletter er gule og ruderformede og måler ca. 1,1 x 0,8 cm diagonalt.
+Der står "10" på den ene side og "1428" på den anden side.
+Edistride 5 mg tabletter og Edistride 10 mg tabletter fås som blisterkort af aluminium i pakninger med
+14, 28 eller 98 filmovertrukne tabletter i ikke-perforerede kalender-blisterkort og 30x1 eller 
+90x1 filmovertrukne tabletter i perforerede enkeltdosis-blisterkort.
+Ikke alle pakningsstørrelser markedsføres nødvendigvis i dit land.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Sverige
+AstraZeneca UK Limited
+Silk Road Business Park
+Macclesfield
+SK10 2NA
+Storbritannien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 (2) 44 55 000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+Norge
+59
+AstraZeneca
+Tel: +372 6549 600
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 2 106871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+Esteve Pharmaceuticals, S.A.
+Tel: +34 93 446 60 00
+Laboratorio Tau, S. A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+BIAL-Portela &amp; Cª., S.A.
+Tel.: +351 22 986 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7777
+Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0ee00d4506e3873c8f0ac45771449e6f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for edistride Package Leaflet for language en"
+Description: "ePI document Bundle for edistride Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0ee00d4506e3873c8f0ac45771449e6f"
+* entry[0].resource = composition-en-0ee00d4506e3873c8f0ac45771449e6f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0ee00d4506e3873c8f0ac45771449e6f"
+* entry[=].resource = mp0ee00d4506e3873c8f0ac45771449e6f
+                            
+                    
+Instance: bundlepackageleaflet-da-0ee00d4506e3873c8f0ac45771449e6f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for edistride Package Leaflet for language da"
+Description: "ePI document Bundle for edistride Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0ee00d4506e3873c8f0ac45771449e6f"
+* entry[0].resource = composition-da-0ee00d4506e3873c8f0ac45771449e6f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0ee00d4506e3873c8f0ac45771449e6f"
+* entry[=].resource = mp0ee00d4506e3873c8f0ac45771449e6f
+                            
+                    
+
+
+
+Instance: mp0ee00d4506e3873c8f0ac45771449e6f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Edistride 5 mg film-coated tablets"
-Description: "Edistride 5 mg film-coated tablets"
+Title: "Medicinal Product edistride"
+Description: "edistride"
 Usage: #inline
 
  
@@ -469,7 +1082,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Edistride 5 mg film-coated tablets"
+  * productName = "edistride"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -496,29 +1109,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0ee00d4506e3873c8f0ac45771449e6f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for edistride Package Leaflet for language en"
-Description: "ePI document Bundle for edistride Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0ee00d4506e3873c8f0ac45771449e6fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Edistride 5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "edistride"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0ee00d4506e3873c8f0ac45771449e6f"
-* entry[0].resource = composition-en-0ee00d4506e3873c8f0ac45771449e6f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1f54e876248662d616215fe1f0631057"
-* entry[=].resource = mp1f54e876248662d616215fe1f0631057
-                            
-                      
+* title = "List of all ePIs associated with edistride"
+
+* subject = Reference(mp1f54e876248662d616215fe1f0631057)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#edistride "edistride"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0ee00d4506e3873c8f0ac45771449e6f) // edistride en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0ee00d4506e3873c8f0ac45771449e6f) // edistride da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0ee00d4506e3873c8f0ac45771449e6f
+InstanceOf: List
+
+* insert 0ee00d4506e3873c8f0ac45771449e6fListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c94566dbffd326c95bc4d8ce17a5489a
 InstanceOf: CompositionUvEpi
 Title: "Composition for ghryvelin Package Leaflet"
@@ -238,12 +241,468 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-c94566dbffd326c95bc4d8ce17a5489a
+InstanceOf: CompositionUvEpi
+Title: "Composition for ghryvelin Package Leaflet"
+Description:  "Composition for ghryvelin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp933b74ec04cf208e6fa86ebb0b27b399)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp933b74ec04cf208e6fa86ebb0b27b399
+* title = "TEST PURPOSES ONLY - ghryvelin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får GHRYVELIN  </li>
+<li>Sådan skal du tage GHRYVELIN  </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ghryvelin is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ghryvelin is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægemidlet indeholder det aktive stof macimorelin. Macimorelin virker ligesom et naturligt hormon 
+og får hypofysen til at frigive væksthormon til blodbanen. </p>
+<p>GHRYVELIN anvendes hos voksne for at undersøge kroppens evne til at producere væksthormon. 
+Det anvendes, når lægen mener, at du måske ikke har nok væksthormon (væksthormonmangel hos 
+voksne). Det er ikke en behandling til patienter, der ikke har tilstrækkeligt væksthormon. Det er en 
+test, der hjælper lægen med at diagnosticere denne tilstand. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ghryvelin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ghryvelin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få GHRYVELIN  </p>
+<ul>
+<li>hvis du er allergisk over for macimorelin eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). </li>
+</ul>
+<p>Hvis du er i tvivl, så spørg lægen eller sundhedspersonalet, før du får GHRYVELIN . </p>
+<p>Advarsler og forsigtighedsregler 
+For at sikre, at testresultatet er pålideligt, skal du følge nedenstående regler: </p>
+<ul>
+<li>
+<p>Faste – du må ikke spise i mindst 8 timer før testen og under testen. </p>
+</li>
+<li>
+<p>Fysisk aktivitet – undgå hård fysisk aktivitet 24 timer før testen. </p>
+</li>
+<li>
+<p>Drikke – du må drikke op til 100 ml vand uden brus inden for 1 time før samt inden for 1 time 
+efter indtagelse af macimorelin. </p>
+</li>
+</ul>
+<p>Tal med lægen eller sundhedspersonalet: </p>
+<ul>
+<li>
+<p>hvis du for nylig er blevet behandlet med væksthormon (somatotropin) eller lægemidler, der 
+påvirker hypofysens udskillelse af væksthormon. En sådan behandling skal være ophørt senest 
+1 måned før testen </p>
+</li>
+<li>
+<p>hvis du for nylig er blevet behandlet for Cushings sygdom (en forstyrrelse, der medfører et højt 
+niveau af hormonet kortisol), eller hvis du får en høj dosis hydrokortison, da testen i så fald kan 
+medføre et falsk positivt resultat </p>
+</li>
+<li>
+<p>hvis din krop mangler et andet hormon, f.eks. kortisol, skjoldbruskkirtelhormon, kønshormon eller 
+vasopressin (ved diabetes insipidus); en sådan tilstand skal behandles med relevant 
+erstatningsterapi, før testen for væksthormonmangel kan gennemføres. Andre hormonmangler kan 
+ubehandlet medføre unøjagtige resultater af væksthormonstimulationstesten </p>
+</li>
+<li>
+<p>hvis du har hjertesygdom eller problemer med din hjerterytme (herunder medfødt eller erhvervet 
+langt QT-syndrom eller tidligere torsades de pointes-takykardi). GHRYVELIN kan medføre 
+forandringer i EKG-målinger (hjertediagram), herunder forlængelse af QT-intervallet, der er 
+forbundet med en øget risiko for hjerterytmeforstyrrelser. Disse eventuelle forandringer vil være 
+midlertidige og kortvarige. </p>
+</li>
+</ul>
+<p>Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), skal du tale med lægen eller 
+sundhedspersonalet, før du får dette lægemiddel. </p>
+<p>GHRYVELIN er indiceret til indtagelse som enkeltdosis i forbindelse med diagnostisk test. Der 
+foreligger ingen data om macimorelins sikkerhed og virkning ved længerevarende brug. </p>
+<p>Ved tidlig sygdom kan en gentagelse af testen være nødvendig. </p>
+<p>Hvis væksthormonmanglen først er startet for nylig, og hvis manglen skyldes en skade i den del af 
+hjernen, der hedder hypothalamus, kan resultatet af testen være negativt, selvom du har sygdommen. I 
+dette tilfælde kan en gentagelse af testen være nødvendig. </p>
+<p>Børn og unge 
+GHRYVELIN må ikke anvendes hos børn og unge under 18 år, da sikkerheden og virkningen i denne 
+gruppe ikke er fastlagt endnu. </p>
+<p>Brug af anden medicin sammen med GHRYVELIN 
+Fortæl det til lægen, hvis du bruger anden medicin eller har gjort det for nylig. </p>
+<p>Fortæl det til lægen, hvis du tager lægemidler, der kan ændre din hjerterytme, f.eks.: </p>
+<ul>
+<li>
+<p>lægemidler mod psykose (f.eks. chlorpromazin og haloperidol) </p>
+</li>
+<li>
+<p>lægemidler mod infektioner (antibiotika som f.eks. erythromycin, clarithromycin og moxifloxacin) </p>
+</li>
+<li>
+<p>lægemidler til korrektion af hjerterytmen (antiarytmika som f.eks. amiodaron, procainamid, 
+quinidin og sotalol) </p>
+</li>
+<li>
+<p>ethvert andet lægemiddel, der kan forlænge QT-intervallet eller inducere torsades de pointes. </p>
+</li>
+</ul>
+<p>Fortæl det til lægen, hvis du tager medicin, der kan øge nedbrydningen af macimorelin, f.eks. 
+specifikke lægemidler til behandling af: </p>
+<ul>
+<li>
+<p>krampeanfald/epilepsi (carbamazepin, esclicarbazepin, fosphenytoin, oxcarbazepin, phenobarbital, 
+phenytoin og primidon) </p>
+</li>
+<li>
+<p>søvnforstyrrelser (modafinil og pitolisant) </p>
+</li>
+<li>
+<p>lette til moderate depressive episoder (prikbladet perikum (Hypericum perforatum)) </p>
+</li>
+<li>
+<p>cystisk fibrose (lumacaftor) </p>
+</li>
+<li>
+<p>infektioner (antibiotika som f.eks. rifabutin og rifampicin) </p>
+</li>
+<li>
+<p>hiv (efavirenz og nevirapin) </p>
+</li>
+<li>
+<p>type 2-diabetes (pioglitazon) </p>
+</li>
+<li>
+<p>kræft (dabrafenib og enzalutamid). </p>
+</li>
+</ul>
+<p>Fortæl det til lægen, hvis du tager medicin, der kan påvirke nøjagtigheden af den diagnostiske test. 
+Undgå samtidig anvendelse af medicin: </p>
+<ul>
+<li>
+<p>der kan have en direkte indflydelse på hypofysens udskillelse af væksthormon (f.eks. somatostatin, 
+insulin, glukokortikoider, acetylsalicylsyre og indometacin) </p>
+</li>
+<li>
+<p>der kan øge væksthormon-niveauet (f.eks. clonidin, levodopa, insulin) </p>
+</li>
+<li>
+<p>der kan mindske væksthormonresponset på macimorelin (f.eks. atropin, propylthiouracil, 
+væksthormon-lægemidler). </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge lægen eller sundhedspersonalet til råds, før du får dette lægemiddel. GHRYVELIN 
+anbefales ikke under graviditet. Hvis du er en kvinde, der kan blive gravid, skal du bruge sikker 
+prævention for at sikre, at du ikke er gravid på tidspunktet for testen. Hvis du ammer eller har planlagt 
+at amme, kan en risiko for det ammede barn ikke udelukkes. Spørg lægen, om du skal holde op med at 
+amme, eller om du skal lade være med at få foretaget macimorelin-testen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Svimmelhed kan forekomme ved anvendelse af GHRYVELIN . Hvis du føler sig svimmel, må du ikke 
+køre motorkøretøj eller betjene maskiner. </p>
+<p>GHRYVELIN indeholder lactose 
+Hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter, skal du tale med lægen, før du får dette 
+lægemiddel. </p>
+<p>GHRYVELIN indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. brev, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ghryvelin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ghryvelin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>En sundhedsperson skal overvåge klargøringen og anvendelsen af GHRYVELIN . Bagerst i denne 
+indlægsseddel er der en vejledning i klargøring af testen. </p>
+<p>Beskrivelsen i indlægssedlen er blot til orientering. </p>
+<p>Du skal have fastet i mindst 8 timer, før du får GHRYVELIN. Du må ikke dyrke hård fysisk motion 
+24 timer før testen. Du må drikke op til 100 ml vand uden brus inden for 1 time før samt inden for 
+1 time efter indtagelse af Macimorelin. </p>
+<p>Dosis 
+Den anbefalede dosis er 0,5 mg GHRYVELIN pr. kg legemsvægt. 
+Det svarer til en mængde på 1 ml af den klargjorte suspension pr. kg legemsvægt. </p>
+<p>Du skal drikke hele test-dosen inden for 30 sekunder. </p>
+<p>Du vil få taget tre blodprøver til måling af væksthormon-niveauet (45, 60 og 90 minutter efter 
+indtagelse af dosen). </p>
+<p>Hvis du har fået for meget GHRYVELIN<br />
+Hvis du har fået for meget GHRYVELIN, skal du fortælle det til lægen eller sundhedspersonalet. 
+Mulige bivirkninger i tilfælde af overdosering omfatter hovedpine, kvalme, opkastning og diarré. Hvis 
+du har fået hjerterytmeforstyrrelser, vil der blive taget et EKG (hjertediagram). </p>
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>
+<p>en bitter eller metallisk smag (dysgeusi) </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>varmefølelse. </p>
+</li>
+</ul>
+<p>Disse bivirkninger er typisk lette, varer ikke lang tid og går normalt hurtigt væk uden behandling. </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 patienter): </p>
+<ul>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>kuldefølelse </p>
+</li>
+<li>
+<p>sult </p>
+</li>
+<li>
+<p>hjertebanken </p>
+</li>
+<li>
+<p>hjerterytme, der er langsommere end normalt (sinusbradykardi) </p>
+</li>
+<li>
+<p>søvnighed </p>
+</li>
+<li>
+<p>tørst </p>
+</li>
+<li>
+<p>skælven </p>
+</li>
+<li>
+<p>rundtossethed. 
+Hyppighed ikke kendt (kan ikke estimeres ud fra forhåndenværende data): </p>
+</li>
+<li>
+<p>ændringer i EKG (hjertediagram). </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ghryvelin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ghryvelin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og brevet efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys og fugt. 
+Opbevares i køleskab (2 °C - 8 °C). </p>
+<p>Uåbnet brev </p>
+<p>Holdbarhedstiden for et brev er 4 år. </p>
+<p>Rekonstitueret suspension </p>
+<p>Suspensionen skal tages inden for 30 minutter efter klargøring. 
+Ubrugt suspension skal bortskaffes af lægen eller sundhedspersonalet i henhold til lokaleretningslinjer. </p>
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>GHRYVELIN indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: macimorelin. Hvert brev indeholder 60 mg macimorelin (som acetat). 1 ml 
+rekonstitueret suspension indeholder 500 mikrogram macimorelin. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: lactosemonohydrat (se pkt. 2 under "GHRYVELIN indeholder lactose"), 
+silica; kolloid vandfri, crospovidon type A, saccharinnatriumdihydrat og natriumstearylfumarat (se 
+pkt. 2 under "GHRYVELIN indeholder natrium"). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+GHRYVELIN fås som et hvidt til råhvidt granulat til oral suspension. Hvert brev indeholder 1.817 mg 
+granulat. Hver kartonæske indeholder 1 brev. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Atnahs Pharma Netherlands B. V. 
+Copenhagen Towers 
+Ørestads Boulevard 108, 5.tv 
+DK-2300 København S 
+Danmark </p>
+<p>Fremstiller 
+Aeterna Zentaris GmbH 
+Weismüllerstrasse D-60314 Frankfurt am Main 
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>VEJLEDNING I KLARGØRING OG ANVENDELSE </p>
+<p>Suspensionen skal klargøres og administreres af en sundhedsperson. </p>
+<p>Nødvendigt udstyr: GHRYVELIN brev, postevand i en kande, målebæger af glas eller gennemsigtig 
+plast, rørepind, 50 ml målesprøjte uden kanyle, et drikkeglas </p>
+<p>Trin 1 
+Vej patienten. </p>
+<p>Trin 2 
+Bestem, hvor mange GHRYVELIN breve der skal bruges, ud fra legemsvægten: Der skal bruges ét 
+brev til en patient, der vejer op til 120 kg, og to breve til en patient, der vejer mere end 120 kg. </p>
+<p>Trin 3 
+Kom den nødvendige mængde vand i et målebæger af glas eller gennemsigtig plast. Opløs hele 
+brevindholdet i vandet: ét brev i 120 ml, to breve i 240 ml. </p>
+<p>Omrør forsigtigt suspensionen i 2 minutter (en lille mængde uopløste partikler vil være tilbage, hvilket 
+giver en lidt uklar suspension). Suspensionen omrøres, indtil der ikke er nogen partikler tilbage på 
+bunden af beholderen (den er dog stadig lidt uklar). Suspensionen bør omrøres på ny, hvis nogle af 
+partiklerne lægger sig på bunden af beholderen, f.eks. hvis suspensionen efterlades i et stykke tid. </p>
+<p>Trin 4 
+Beregn, hvor stor en mængde suspension der er nødvendig for at opnå den anbefalede dosis 
+macimorelin på 0,5 mg/kg. Suspensionsmængden i ml svarer til patientens legemsvægt i kg. 
+Eksempelvis skal der bruges 70 ml macimorelin suspension til en patient på 70 kg. </p>
+<p>Opmål den ønskede mængde ved hjælp af en 50 ml målesprøjte uden kanyle. </p>
+<p>Overfør den beregnede mængde til et drikkeglas. </p>
+<p>Trin 5 
+Bed patienten om at drikke hele glassets indhold inden for 30 sekunder. </p>
+<p>Suspensionen skal anvendes inden for 30 minutter efter klargøring. Eventuel tiloversbleven suspension 
+må ikke gemmes, men skal bortskaffes. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Trin 6 
+Tag venøse blodprøver til test af væksthormonniveauet 45, 60 og 90 minutter efter administration. </p>
+<p>Trin 7 
+Klargør plasma- eller serumprøver, og send dem til et laboratorium med henblik på bestemmelse af 
+væksthormonniveauet. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c94566dbffd326c95bc4d8ce17a5489a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ghryvelin Package Leaflet for language en"
+Description: "ePI document Bundle for ghryvelin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c94566dbffd326c95bc4d8ce17a5489a"
+* entry[0].resource = composition-en-c94566dbffd326c95bc4d8ce17a5489a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc94566dbffd326c95bc4d8ce17a5489a"
+* entry[=].resource = mpc94566dbffd326c95bc4d8ce17a5489a
+                            
+                    
+Instance: bundlepackageleaflet-da-c94566dbffd326c95bc4d8ce17a5489a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ghryvelin Package Leaflet for language da"
+Description: "ePI document Bundle for ghryvelin Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c94566dbffd326c95bc4d8ce17a5489a"
+* entry[0].resource = composition-da-c94566dbffd326c95bc4d8ce17a5489a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc94566dbffd326c95bc4d8ce17a5489a"
+* entry[=].resource = mpc94566dbffd326c95bc4d8ce17a5489a
+                            
+                    
+
+
+
+Instance: mpc94566dbffd326c95bc4d8ce17a5489a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product GHRYVELIN 60 mg granules for oral suspension in sachet"
-Description: "GHRYVELIN 60 mg granules for oral suspension in sachet"
+Title: "Medicinal Product ghryvelin"
+Description: "ghryvelin"
 Usage: #inline
 
  
@@ -263,7 +722,7 @@ Usage: #inline
 
 
 * name
-  * productName = "GHRYVELIN 60 mg granules for oral suspension in sachet"
+  * productName = "ghryvelin"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -290,29 +749,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c94566dbffd326c95bc4d8ce17a5489a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ghryvelin Package Leaflet for language en"
-Description: "ePI document Bundle for ghryvelin Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c94566dbffd326c95bc4d8ce17a5489aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1337/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ghryvelin"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c94566dbffd326c95bc4d8ce17a5489a"
-* entry[0].resource = composition-en-c94566dbffd326c95bc4d8ce17a5489a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp933b74ec04cf208e6fa86ebb0b27b399"
-* entry[=].resource = mp933b74ec04cf208e6fa86ebb0b27b399
-                            
-                      
+* title = "List of all ePIs associated with ghryvelin"
+
+* subject = Reference(mp933b74ec04cf208e6fa86ebb0b27b399)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ghryvelin "ghryvelin"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c94566dbffd326c95bc4d8ce17a5489a) // ghryvelin en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c94566dbffd326c95bc4d8ce17a5489a) // ghryvelin da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c94566dbffd326c95bc4d8ce17a5489a
+InstanceOf: List
+
+* insert c94566dbffd326c95bc4d8ce17a5489aListRuleset
+    

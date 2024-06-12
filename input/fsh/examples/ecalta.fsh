@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d1ac9f4f2138f35170941f82d23b13ed
 InstanceOf: CompositionUvEpi
 Title: "Composition for ecalta Package Leaflet"
@@ -325,12 +328,542 @@ Tel: +371 670 35 This leaflet was last revised in {MM/YYYY}. </p>
 
 
 
+Instance: composition-da-d1ac9f4f2138f35170941f82d23b13ed
+InstanceOf: CompositionUvEpi
+Title: "Composition for ecalta Package Leaflet"
+Description:  "Composition for ecalta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpfecaea9ea23b50714ac80a4e5737dcf8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpfecaea9ea23b50714ac80a4e5737dcf8
+* title = "TEST PURPOSES ONLY - ecalta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du eller dit barn bliver behandlet med ECALTA
+3. Sådan skal du bruge ECALTA
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ecalta is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ecalta is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ECALTA indeholder det aktive stof anidulafungin og bruges hos voksne og pædiatriske patienter i 
+alderen 1 måned til under 18 år til at behandle en type af svampeinfektion i blodet eller andre indre 
+organer, som kaldes invasiv candidiasis. Infektionen forårsages af svampeceller (gærceller), som 
+kaldes Candida. 
+ECALTA hører til gruppen af medicin, der kaldes echinocandiner. Denne medicin bruges til at 
+behandle alvorlige svampeinfektioner.
+ECALTA hindrer normal udvikling af svampens cellevæg. Ved tilstedeværelse af ECALTA vil 
+svampeceller have ufuldstændige eller defekte cellevægge, som gør dem svage eller ude af stand til at 
+vokse. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ecalta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ecalta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Du må ikke få ECALTA:</h2>
+<p>hvis du er allergisk over for anidulafungin, andre echinocandiner (f.eks. capsofunginacetate) 
+eller et af de øvrige indholdsstoffer i dette lægemiddel (angivet i punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før De bruger ECALTA.
+Lægen kan beslutte at overvåge dig nøje:
+-
+hvis du udvikler leverproblemer under behandlingen.
+-
+hvis du får bedøvelse under behandling med ECALTA.
+-
+hvis du får tegn på en allergisk reaktion såsom kløe, hvæsende vejrtrækning, skjoldet hud.
+-
+hvis du får en infusionsrelateret reaktion som kan omfatte udslæt, nældefeber, kløe, rødmen.
+-
+hvis du får vejrtrækningsbesvær, svimmelhed, uklarhed.
+27
+Børn og unge
+ECALTA må ikke bruges til børn og unge under 1 måned.
+Brug af anden medicin sammen med ECALTA
+Fortæl det altid til lægen eller apotekspersonalet, hvis du eller dit barn bruger anden medicin, for nylig
+har brugt anden medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som 
+ikke er købt på recept, f.eks. naturlægemidler og vitaminer og mineraler.
+Graviditet og amning
+Virkningen af ECALTA på gravide kvinder kendes ikke. Derfor bør ECALTA ikke bruges under 
+graviditet. Hvis du er i den fødedygtige alder, skal du bruge sikker prævention. Kontakt straks lægen, 
+hvis du bliver gravid, mens du tager ECALTA.
+Virkningen af ECALTA på ammende kvinder kendes ikke. Spørg lægen eller apoteket til råds, før du 
+tager ECALTA, hvis du ammer.
+Spørg din læge eller apoteket til råds, før du tager nogen form for medicin.
+ECALTA indeholder fructose
+Denne medicin indeholder 119 mg fructose (en slags sukker) i hvert hætteglas. Kontakt lægen, før du
+tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.
+Hvis du (eller dit barn) har arvelig fructoseintolerans (HFI), en sjælden genetisk lidelse, må du (eller 
+dit barn) ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde fructose, hvilket kan medføre 
+alvorlige bivirkninger.
+Fortæl det til lægen, inden du får dette lægemiddel, hvis du (eller dit barn) har HFI, eller hvis dit barn 
+ikke længere kan tage sød mad eller drikke, fordi det føler sig sygt, kaster op eller får ubehagelige 
+virkninger som oppustethed, mavekramper eller diarré.
+ECALTA indeholder natrium
+Dette længemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas. Dvs. at det i det 
+væsentlige er "natriumfrit".</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ecalta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ecalta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ECALTA vil altid blive blandet og givet til dig eller dit barn af en læge eller sygeplejerske (der findes 
+mere information om blanding i slutningen af denne information under "Følgende oplysninger er 
+tiltænkt læger og sundhedspersonale").
+Behandlingen starter med 200 mg den første dag (støddosis) hos voksne. Derefter vil du få 100 mg 
+dagligt (vedligeholdelsesdosis).
+Behandlingen starter med 3,0 mg/kg (må ikke overstige 200 mg) den første dag (støddosis) hos børn 
+og unge (i alderen 1 måned til under 18 år). Derefter vil barnet/den unge få 1,5 mg/kg (må ikke 
+overstige 100 mg) dagligt (vedligeholdelsesdosis). Den dosis, der gives, afhænger af patientens vægt.
+ECALTA skal indgives 1 gang dagligt ved langsom indgivelse i en blodåre. Hos voksne vil det tage 
+mindst 1½ time for vedligeholdelsesdosis og 3 timer for startdosis. Hos børn og unge kan infusionen 
+tage mindre tid, afhængigt af patientens vægt.
+28
+Lægen fastlægger behandlingens varighed og daglige dosis. Lægen vil kontrollere, hvordan du
+reagerer på medicinen, og hvordan du har det.
+Du vil sædvanligvis blive behandlet i mindst 14 dage efter den sidste dag, hvor der er fundet Candida i 
+blodet.
+Hvis du har fået for meget ECALTA-infusionsvæske
+Kontakt straks lægen eller sygeplejersken, hvis du tror, du har fået for meget af ECALTA.
+Hvis du har glemt at få ECALTA
+Da du vil få denne medicin under tæt medicinsk overvågning, er det mindre sandsynligt, at en dosis vil 
+blive glemt. Spørg lægen, hvis du mener, at en dosis er blevet glemt.
+Du må ikke få en dobbeltdosis af lægen.
+Hvis du holder op med at få ECALTA
+Du skulle ikke opleve nogle bivirkninger, når du stopper behandlingen med ECALTA.
+Lægen vil måske give dig anden medicin, når du har stoppet behandlingen med ECALTA for at 
+forhindre, at svampeinfektionen kommer igen.
+Fortæl det straks til lægen eller sygeplejersken, hvis dine oprindelige symptomer kommer igen.
+Spørg lægen,  apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om, eller 
+føler dig usikker på.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Nogle af disse bivirkninger vil blive registreret af din læge, mens din tilstand og reaktion på 
+behandlingen overvåges.
+Under behandling med ECALTA er der i sjældne tilfælde set livstruende allergiske reaktioner, der kan 
+omfatte vejrtrækningsbesvær og hvæsende vejrtrækning eller forværring af eksisterende udslæt. 
+Alvorlige bivirkninger - fortæl det straks til lægen, hvis du oplever nogen af følgende 
+bivirkninger:
+-
+Kramper (anfald)
+-
+Rødmen i ansigtet
+-
+Udslæt, kløe
+-
+Hedeturer
+-
+Nældefeber
+-
+Pludselig sammentrækning af musklerne i luftvejene, der fører til hvæsende vejrtrækning eller 
+hoste
+-
+Vejrtrækningsbesvær
+Andre bivirkninger
+Meget almindelige bivirkninger (det sker hos flere end 1 ud af 10 behandlede):
+-
+For lavt kaliumindhold i blodet (hypokaliæmi)
+29
+-
+Diarré
+-
+Kvalme
+Almindelige bivirkninger (det sker hos op til 1 ud af 10 behandlede):
+-
+Kramper (anfald)
+-
+Hovedpine
+-
+Opkastning
+-
+Ændringer i blodprøver for leverfunktionen
+-
+Udslæt, kløe
+-
+Ændringer i blodprøver for nyrefunktionen
+-
+Unormal strøm af galde fra galdeblæren ind i tarmen (kolestase)
+-
+Højt sukkerindhold i blodet
+-
+Højt blodtryk
+-
+Lavt blodtryk
+-
+Pludselig sammentrækning af musklerne i luftvejene, der fører til hvæsende vejrtrækning eller 
+hoste
+-
+Åndedrætsbesvær
+Ikke almindelige bivirkninger (det sker hos op til 1 ud af 100 behandlede): 
+-
+Problemer med blodets størkning
+-
+Ansigtsrødme
+-
+Hedeture
+-
+Mavesmerter
+-
+Nældefeber
+-
+Smerter på injektionsstedet.
+Hyppigheden ikke kendt:
+-
+Livstruende allergiske reaktioner
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ecalta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ecalta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar ECALTA utilgængeligt for børn.
+Brug ikke ECALTA efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned.
+Opbevares i køleskab (2 °C - 8 °C). Den rekonstituerede opløsning kan opbevares ved op til 25 °C i op 
+til 24 timer.
+Infusionsopløsningen kan opbevares ved 25 °C i 48 timer (må ikke nedfryses) og bør gives ved 
+stuetemperatur (25 °C) inden for 48 timer.
+Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.
+30</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>ECALTA indeholder:</h2>
+<h2>Aktivt stof: anidulafungin. Hvert hætteglas med pulver indeholder 100 mg anidulafungin.</h2>
+<p>Øvrige indholdsstoffer: 
+Fructose (se pkt 2 "ECALTA indeholder fructose"), mannitol, polysorbat 80, vinsyre, 
+natriumhydroxid (til pH-justering) (se pkt 2 "ECALTA indeholder natrium"), saltsyre (til pH-
+justering)
+Udseende og pakningstørrelse
+ECALTA findes i en pakning med 1 hætteglas, der indeholder 100 mg pulver til koncentrat til 
+infusionsvæske, opløsning.
+Pulveret er et hvidt til råhvidt pulver.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG, Boulevard de la Plaine 17, 1050 Bruxelles, Belgien
+Fremstiller
+Pfizer Manufacturing Belgium NV, Rijksweg 12, 2870 Puurs-Sint-Amands, Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL 
+filialas Lietuvoje
+Tel. +3705 2514000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel. + 36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420-283-004-111
+Malta
+Vivian Corporation Ltd.
+Tel : +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer ΕΛΛΑΣ A.E.
+Τηλ.: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.,
+Tel.: +48 22 335 61 00
+31
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: + 351 214 235 500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer România S.R.L
+Tel: +40 (0)21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)152 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421-2-3355 5500
+Ísland
+Icepharma hf., 
+Sími: + 354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358(0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 5505 2000
+Kύπρος
+Pfizer ΕΛΛΑΣ Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL
+Filiāle Latvijā
+Tel: +371 670 35 775
+Denne indlægsseddel blev senest ændret:
+De kan finde yderligere oplysninger om ECALTA på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/</p>
+<hr />
+<p>Følgende oplysninger er tiltænkt læger og sundhedspersonale og gælder kun for et enkelt hætteglas 
+ECALTA 100 mg pulver til koncentrat til infusionsvæske, opløsning:
+Indholdet i hætteglasset skal rekonstitueres med vand til injektionsvæske, og derefter skal det 
+fortyndes med kun 9 mg/ml (0,9 %) natriumchloridinfusionsvæske eller 50 mg/ml (5 %) 
+glucoseinfusionsvæske. Der er ikke foretaget forligelighedsundersøgelser med andre intravenøse 
+substanser, additiver eller lægemidler end 9 mg/ml (0,9 %) natriumchloridinfusionsvæske eller 
+50 mg/ml (5 %) glucoseinfusionsvæske. Infusionsopløsningen må ikke nedfryses.
+Rekonstituering
+Hvert hætteglas rekonstitueres med 30 ml vand til injektionsvæske for at opnå en koncentration på 
+3,33 mg/ml under aseptiske forhold. Rekonstitutionstiden kan være op til 5 minutter. Hvis der ses 
+partikler eller misfarvning efter yderligere fortynding, skal opløsningen kasseres.
+32
+Den rekonstituerede opløsning kan opbevares ved op til 25 ºC i op til 24 timer inden yderligere 
+fortynding.
+Fortynding og infusion
+Parenterale lægemidler skal kontrolleres visuelt for partikler og misfarvning før administration, 
+når opløsning og beholder tillader det. Opløsningen skal smides væk, hvis der ses partikler eller 
+misfarvning.
+Voksne patienter
+Indholdet af det (de) rekonstituerede hætteglas overføres aseptisk til den intravenøse pose (eller 
+flaske), der indeholder enten 9 mg/ml (0,9 %) natriumchloridinfusionsvæske eller 50 mg/ml (5%) 
+glucoseinfusionsvæske for at opnå en passende koncentration af anidulafungin. Nedenstående skema 
+viser fortynding til en koncentration på 0,77 mg/ml for den endelige infusionsopløsning og 
+anvisninger om infusion for hver dosis.
+Krav til fortynding ved ECALTA-administration
+Dosis
+Antal 
+hætte-
+glas 
+med 
+pulver
+Total 
+rekonstitueret 
+volumen
+Infusions-
+volumen A
+Total 
+infusions-
+volumenB
+Infusionshastigh
+ed
+Mindste 
+varighed af 
+infusionen
+100 mg
+1
+30 ml
+100 ml
+130 ml
+1,4 ml/min eller 
+84 ml/time
+90 min
+200 mg
+2
+60 ml 
+200 ml
+260 ml
+1,4 ml/min eller 
+84 ml/time
+180 min
+A Enten 9 mg/ml (0,9%) natriumchloridinfusionsvæske eller 50 mg/ml (5%) glucoseinfusionsvæske.
+B Koncentration af infusionsopløsning er 0,77 mg/ml.<br />
+Infusionshastigheden bør ikke overskride 1,1 mg/min. (svarende til 1,4 ml/min. eller 84 ml/time efter 
+rekonstitution og fortynding jvf. instruktionerne).
+Pædiatriske patienter
+Hos pædiatriske patienter i alderen 1 måned &lt; 18 år varierer mængden af infusionsopløsning, der er 
+påkrævet for at administrere dosen, afhængigt af patientens vægt. Den rekonstituerede opløsning skal 
+fortyndes yderligere til en koncentration på 0,77 mg/ml i den endelige infusionsopløsning. Det 
+anbefales at anvende en indstillelig sprøjte eller infusionspumpe. Infusionshastigheden bør ikke 
+overskride 1,1 mg/min. (svarende til 1,4 ml/min. eller 84 ml/time efter rekonstitution og 
+fortynding jvf. instruktionerne) (se pkt. 4.2 og 4.4).
+1. Beregn patientdosis, og rekonstituer de(t) nødvendige hætteglas i henhold til instruktionerne 
+for rekonstituering, så der opnås en koncentration på 3,33 mg/ml (se pkt. 2 og 4.2).
+2. Beregn det nødvendige volumen (ml) af den rekonstituerede anidulafungin:
+
+Volumen anidulafungin (ml) = Dosis anidulafungin  3,33 mg/ml
+3. Beregn de samlede volumen af doseringsopløsningen (ml), der er nødvendig for at opnå en 
+endelig koncentration på 0,77 mg/ml:
+
+Doseringsopløsning i alt (ml) = anidulafungin-dosis (mg) ÷ 0,77 mg/ml
+4. Beregn det samlede volumen til fortynding [5 % dextrose til injektion, USP eller 0,9 % 
+natriumchlorid til injektion, USP (normalt saltvand)], der er nødvendigt for at tilberede 
+doseringsopløsningen:
+33
+
+Volumen fortyndingsmiddel (ml) = Samlet volumen af doseringsopløsningen (ml) -
+volumen af anidulafungin (ml)
+5. Overfør de nødvendige volumener (ml) af anidulafungin og 5 % dextrose til injektion, USP 
+eller 0,9 % natriumklorid til injektion, USP (normalt saltvand) til den infusionssprøjte eller 
+intravenøse pose, der skal bruges til administrationen.
+Kun til éngangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale 
+retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d1ac9f4f2138f35170941f82d23b13ed
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ecalta Package Leaflet for language en"
+Description: "ePI document Bundle for ecalta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d1ac9f4f2138f35170941f82d23b13ed"
+* entry[0].resource = composition-en-d1ac9f4f2138f35170941f82d23b13ed
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd1ac9f4f2138f35170941f82d23b13ed"
+* entry[=].resource = mpd1ac9f4f2138f35170941f82d23b13ed
+                            
+                    
+Instance: bundlepackageleaflet-da-d1ac9f4f2138f35170941f82d23b13ed
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ecalta Package Leaflet for language da"
+Description: "ePI document Bundle for ecalta Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d1ac9f4f2138f35170941f82d23b13ed"
+* entry[0].resource = composition-da-d1ac9f4f2138f35170941f82d23b13ed
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd1ac9f4f2138f35170941f82d23b13ed"
+* entry[=].resource = mpd1ac9f4f2138f35170941f82d23b13ed
+                            
+                    
+
+
+
+Instance: mpd1ac9f4f2138f35170941f82d23b13ed
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ECALTA 100 mg powder for concentrate for solution for infusion"
-Description: "ECALTA 100 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product ecalta"
+Description: "ecalta"
 Usage: #inline
 
  
@@ -350,7 +883,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ECALTA 100 mg powder for concentrate for solution for infusion"
+  * productName = "ecalta"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -377,29 +910,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d1ac9f4f2138f35170941f82d23b13ed
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ecalta Package Leaflet for language en"
-Description: "ePI document Bundle for ecalta Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d1ac9f4f2138f35170941f82d23b13edListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/07/416/002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ecalta"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d1ac9f4f2138f35170941f82d23b13ed"
-* entry[0].resource = composition-en-d1ac9f4f2138f35170941f82d23b13ed
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpfecaea9ea23b50714ac80a4e5737dcf8"
-* entry[=].resource = mpfecaea9ea23b50714ac80a4e5737dcf8
-                            
-                      
+* title = "List of all ePIs associated with ecalta"
+
+* subject = Reference(mpfecaea9ea23b50714ac80a4e5737dcf8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ecalta "ecalta"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d1ac9f4f2138f35170941f82d23b13ed) // ecalta en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d1ac9f4f2138f35170941f82d23b13ed) // ecalta da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d1ac9f4f2138f35170941f82d23b13ed
+InstanceOf: List
+
+* insert d1ac9f4f2138f35170941f82d23b13edListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9c8cbb392febab27edfe92cab530d10b
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyqvia Package Leaflet"
@@ -717,12 +720,1123 @@ Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 
 
 
+Instance: composition-da-9c8cbb392febab27edfe92cab530d10b
+InstanceOf: CompositionUvEpi
+Title: "Composition for hyqvia Package Leaflet"
+Description:  "Composition for hyqvia Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6157d74e41d80ef3b10a3ced9cfb7985)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6157d74e41d80ef3b10a3ced9cfb7985
+* title = "TEST PURPOSES ONLY - hyqvia"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge HyQvia </li>
+<li>Sådan skal du bruge HyQvia </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What hyqvia is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What hyqvia is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er HyQvia? </p>
+<p>HyQvia indeholder 2 opløsninger til infusion (drop) under huden (subkutan eller s.c. infusion). Det 
+leveres som en pakning, der indeholder: </p>
+<ul>
+<li>
+<p>et hætteglas med humant normalt immunglobulin 10 % (det aktive stof) </p>
+</li>
+<li>
+<p>et hætteglas med rekombinant humant hyaluronidase (et stof, som hjælper humant normalt 
+immunglobulin 10 % med at komme ud i blodet). </p>
+</li>
+</ul>
+<p>Humant normalt immunglobulin 10 % tilhører en gruppe lægemidler, der kaldes "humane normale 
+immunglobuliner". Immunglobuliner er også kendt som antistoffer og findes i raske menneskers 
+blod. Antistofferne er en del af immunsystemet (kroppens naturlige forsvar) og hjælper din krop med at 
+bekæmpe infektioner. </p>
+<p>Hvordan virker HyQvia? </p>
+<p>Det rekombinante humane hyaluronidase er et protein, der gør det lettere for immunglobulinerne at 
+blive infunderet (subkutant) under huden og nå ud i dit blodkredsløb.  </p>
+<p>Hætteglasset med immunglobuliner er fremstillet af blod fra raske mennesker. Immunglobuliner 
+produceres af menneskekroppens immunsystem. De hjælper din krop med at bekæmpe infektioner, der 
+er forårsaget af bakterier og vira, eller vedligeholder dit immunsystems balance (også kaldet 
+immunmodulation). Medicinen virker på samme måde som det immunglobulin, der findes naturligt i 
+blodet. </p>
+<p>Hvad bruges HyQvia til? </p>
+<p>Substitutionsbehandling hos voksne og børn (0 til 18 år) </p>
+<p>HyQvia anvendes til patienter med svækket immunsystem, som ikke har tilstrækkelige mængder 
+antistoffer i blodet og har tendens til at få hyppige infektioner, herunder følgende grupper: </p>
+<ul>
+<li>
+<p>patienter med medfødt manglende eller nedsat evne til at producere antistoffer (primære 
+immundefekter). </p>
+</li>
+<li>
+<p>Patienter, som oplever svære eller tilbagevendende infektioner på grund af et svækket 
+immunsystem, som er et resultat af andre lidelser eller behandlinger (sekundære immundefekter).  </p>
+</li>
+</ul>
+<p>Regelmæssige og tilstrækkelige doser HyQvia kan øge et usædvanligt lavt indhold af immunglobulin i 
+dit blod til normale niveauer (substitutionsbehandling). </p>
+<p>Immunmodulerende behandling hos voksne, børn og unge (0 til 18 år) </p>
+<p>HyQvia bruges til voksne, børn og unge (0 til 18 år) med kronisk inflammatorisk demyeliniserende 
+polyneuropati (CIDP), en form for autoimmun sygdom. CIDP karakteriseres ved kronisk inflammation 
+af de perifere nerver, der forårsager muskelsvækkelse og/eller følelsesløshed, hovedsageligt i ben og 
+arme. Man mener, at kroppens eget forsvarssystem angriber de perifere nerver og forårsager nerveskade 
+og inflammation. Immunglobuliner i HyQvia menes at hjælpe med at beskytte nerverne mod at blive 
+beskadiget af immunsystemet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take hyqvia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take hyqvia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke injicere eller infundere HyQvia </p>
+<ul>
+<li>hvis du er allergisk over for immunglobulin, hyaluronidase, rekombinant hyaluronidase eller et af 
+de øvrige indholdsstoffer i HyQvia (angivet i punkt 6, "Pakningsstørrelser og yderligere 
+oplysninger"). </li>
+<li>Hvis du har antistoffer mod immunglobulin A (IgA) i dit blod. Dette kan forekomme, hvis du har 
+IgA-mangel. Da HyQvia indeholder spormængder af IgA, kan du muligvis få en allergisk 
+reaktion. </li>
+<li>i en blodåre (intravenøst) eller i en muskel (intramuskulært). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller sygeplejersken, før du bruger HyQvia. 
+► 
+Fortæl det til lægen eller det sundhedsfaglige personale før behandlingen, hvis nogen af de 
+forhold, der er beskrevet nedenfor, gør sig gældende for dig: </p>
+<ul>
+<li>
+<p>Du kan være allergisk over for immunglobulin, uden at du ved det. Allergiske reaktioner såsom 
+pludseligt fald i blodtrykket eller anafylaktisk chok (et brat fald i blodtrykket med andre symptomer 
+såsom hævelse i halsen, åndedrætsbesvær og hududslæt) er sjældne, men de kan af og til 
+forekomme, selvom du ikke tidligere har haft problemer med lignende behandlinger. Du har 
+forhøjet risiko for allergiske reaktioner, hvis du har IgA-mangel med anti-IgA-antistoffer. Tegn og 
+symptomer på disse sjældne allergiske reaktioner omfatter: * en følelse af svimmelhed, ørhed eller svaghed, * hududslæt og kløe, hævelse i mund eller hals, åndedrætsbesvær, hvæsende åndedræt, * unormal hjerterytme, smerter i brystregionen, blå læber eller fingre og tæer, * sløret syn. 
+► 
+Hvis du bemærker nogen af disse tegn under infusionen, skal du omgående fortælle 
+det til din læge eller sygeplejerske. De vil beslutte, om infusionshastigheden skal 
+sænkes, eller om infusionen skal stoppes helt. 
+Lægen eller sygeplejersken vil først infundere HyQvia langsomt og overvåge dig nøje ved de første 
+infusioner, så eventuelle allergiske reaktioner opdages og kan behandles med det samme. </p>
+</li>
+<li>
+<p>Lægen vil være særligt omhyggelig, hvis du er overvægtig, har en høj alder, har diabetes, har være 
+sengeliggende i længere tid, har højt blodtryk, har en lav blodmængde (hypovolæmi), har problemer 
+med dine blodkar (karsygdomme), har øget tendens til at danne blodpropper (trombofili eller 
+trombotiske episoder) eller har en sygdom eller tilstand, der gør, at dit blod bliver tykt (hyperviskøst 
+blod). Under disse omstændigheder kan immunglobuliner øge risikoen for hjerteanfald 
+(hjerteinfarkt), stroke, blodprop i lungen (lungeemboli) eller blokering af et blodkar i benet. Dette 
+forekommer dog kun meget sjældent. 
+► 
+Hvis du bemærker nogen af disse tegn og symptomer, herunder åndenød, smerter, hævelse 
+af arm eller ben samt smerter i brystet under infusionen, skal du omgående fortælle det til 
+din læge eller sygeplejerske. Lægen eller sygeplejersken vil beslutte, om 
+infusionshastigheden skal sænkes, eller om infusionen skal stoppes helt. 
+Lægen eller sygeplejersken vil overvåge dig nøje under alle infusioner, så eventuelle tromboemboliske 
+hændelser opdages og kan behandles med det samme. </p>
+</li>
+<li>
+<p>Du får høje doser af dette lægemiddel over enten 1 dag eller 2 dage, og hvis du har blodtype A, B 
+eller AB og har en underliggende betændelsestilstand. I disse tilfælde er det blevet rapporteret med 
+hyppigheden almindeligt, at immunglobuliner øger risikoen for nedbrydning af røde blodlegemer 
+(hæmolyse).  </p>
+</li>
+<li>
+<p>Der er blevet rapporteret forekomst af betændelse i de hinder, der omgiver hjernen og rygmarven 
+(aseptisk meningitissyndrom), i forbindelse med immunglobulinbehandling. 
+► 
+Hvis du bemærker nogen af disse tegn eller symptomer, herunder kraftig hovedpine, 
+nakketivhed, døsighed, feber, lysfølsomhed, kvalme og opkastning efter infusionen, skal du 
+omgående fortælle det til din læge eller sygeplejerske. 
+Lægen vil beslutte, om der er behov for yderligere undersøgelser, og om du skal fortsætte behandlingen 
+med HyQvia. </p>
+</li>
+</ul>
+<p>Infusionshastighed </p>
+<p>Det er meget vigtigt at infundere lægemidlet med den rigtige hastighed. Din læge eller sygeplejerske vil 
+rådgive dig om, hvilken infusionshastighed det vil være passende at bruge, når du får infusionen 
+hjemme (se punkt 3, "Sådan skal du bruge HyQvia"). </p>
+<p>Overvågning under infusionen </p>
+<p>Visse bivirkninger kan forekomme hyppigere, hvis:</p>
+<ul>
+<li>du får HyQvia for første gang. </li>
+<li>du har fået et andet immunglobulinpræparat og er skiftet til HyQvia. </li>
+<li>der er gået en lang periode (f.eks. mere end 2 eller 3 infusionsintervaller), siden du sidst fik 
+HyQvia. 
+► 
+I sådanne tilfælde vil du blive overvåget tæt, mens du får din første infusion, og i den første 
+time efter at infusionen er stoppet. </li>
+</ul>
+<p>I alle andre tilfælde bør du blive overvåget under infusionen og i mindst 20 minutter de første gange, 
+efter at du har fået HyQvia. </p>
+<p>Hjemmebehandling </p>
+<p>Inden du begynder på hjemmebehandling, bør du have en aftale med en person, som skal være 
+din hjælper. Du og din hjælper vil blive oplært i at opdage tidlige tegn på bivirkninger, især 
+allergiske reaktioner. Din hjælper skal være med til at holde øje med mulige bivirkninger. 
+Under infusionen skal du være opmærksom på de første tegn på bivirkninger (du finder 
+yderligere oplysninger i punkt 4, "Bivirkninger"). 
+► 
+Hvis du oplever bivirkninger af nogen art, skal du eller din hjælper straks stoppe infusionen 
+og søge lægehjælp. 
+► 
+Hvis du oplever en alvorlig bivirkning, skal du eller din hjælper straks søge akut 
+behandling. </p>
+<p>Spredning af lokale infektioner </p>
+<p>Du må ikke få infusion med HyQvia i eller omkring et inficeret eller rødt og hævet område af huden, da 
+det kan få infektionen til at sprede sig. </p>
+<p>Der sås ingen langvarige (kroniske) hudforandringer i de kliniske studier. Informer din læge om alle 
+tilfælde af langvarig inflammation, små knuder eller inflammation, der opstår på infusionsstedet og 
+varer mere end nogle få dage. </p>
+<p>Påvirkning af blodprøver </p>
+<p>HyQvia indeholder mange forskellige antistoffer, hvoraf nogle kan påvirke blodprøver 
+(serologiske prøver). 
+► 
+Fortæl din læge om din behandling med HyQvia, inden du får taget blodprøver. </p>
+<p>Information om materialet til HyQvia </p>
+<p>Humant normalt immunglobulin 10 % og humant serumalbumin (et indholdsstof i rekombinant humant 
+hyaluronidase) fremstilles af plasma fra mennesker (plasma er væsken i blodet). Når medicin fremstilles 
+af humant blod eller plasma, tages der visse forholdsregler for at forhindre, at der overføres infektioner 
+til patienter. Disse inkluderer:</p>
+<ul>
+<li>omhyggelig udvælgelse af blod- og plasmadonorer for at sikre, at dem, der har risiko for at være 
+smittebærere, bliver udelukket, og </li>
+<li>test af hver enkelt bloddonation og plasmapulje for tegn på virus/infektioner. </li>
+</ul>
+<p>Producenterne af disse præparater medtager desuden nogle trin i forarbejdningen af blodet eller 
+plasmaet, som kan inaktivere eller fjerne virus. På trods af disse forholdsregler kan risikoen for 
+overførsel af infektion ikke helt udelukkes, når der anvendes præparater fremstillet af humant blod 
+eller plasma. Dette gælder også ukendte eller nyopdagede virus eller andre infektionstyper. </p>
+<p>De forholdsregler, der tages ved fremstillingen af HyQvia, anses for effektive over for kappeklædte 
+virus, såsom hiv (human immundefektvirus), hepatitis B-virus og hepatitis C-virus og over for det 
+ikke-kappeklædte hepatitis A-virus og parvovirus B19. Immunglobuliner er ikke blevet forbundet med infektioner med hepatitis A eller parvovirus B19, 
+muligvis fordi antistofferne mod disse infektioner, som findes i HyQvia, beskytter patienten. </p>
+<p>► 
+Det anbefales stærkt, at følgende data registreres i din infusionsdagbog, hver gang du 
+bruger HyQvia: 
+▪ 
+dato for administration af lægemiddel, 
+▪ 
+batchnummer fra lægemiddelpakning og 
+▪ 
+den injicerede mængde, indgivelseshastighed, antal infusionssteder og 
+infusionsstedernes placering. </p>
+<p>Børn og unge </p>
+<p>Substitutionsbehandling </p>
+<p>Der gælder de samme indikationer og den samme dosis og infusionshyppighed for børn og unge 
+(0 til 18 år) som for voksne. </p>
+<p>Immunmodulerende behandling af CIDP-patienter </p>
+<p>HyQvias sikkerhed og virkning hos børn og unge (0 til 18 år) med CIDP er endnu ikke klarlagt. </p>
+<p>Brug af anden medicin sammen med HyQvia </p>
+<p>Fortæl altid lægen, apotekspersonalet eller sygeplejersken, hvis du tager anden medicin, for nylig har 
+taget anden medicin eller planlægger at tage anden medicin. </p>
+<p>Vaccinationer </p>
+<p>HyQvia kan nedsætte virkningen af nogle virusvacciner, såsom mæslinger, røde hunde, fåresyge 
+og skoldkopper (vacciner med levende virus). Efter at du har fået HyQvia, skal du derfor muligvis vente 
+op til 3 måneder, før du får visse vacciner. Du skal muligvis vente i op til 1 år, efter at du har fået 
+HyQvia, før du kan få din mæslingevaccine. 
+► 
+Fortæl den læge eller sygeplejerske, som vaccinerer dig, om din behandling med HyQvia. </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Data vedrørende langtidsvirkningen på graviditet, amning og frugtbarhed ved brug af rekombinant 
+humant hyaluronidase er begrænsede. HyQvia må kun anvendes af gravide og ammende kvinder efter 
+samråd med lægen. </p>
+<p>Trafik og arbejdssikkerhed </p>
+<p>Patienterne kan opleve bivirkninger (f.eks. svimmelhed eller kvalme) under behandling med HyQvia, 
+som kan påvirke evnen til at føre motorkøretøj og betjene maskiner. Hvis dette sker, bør du vente, til 
+reaktionerne er forsvundet. </p>
+<p>HyQvia Indeholder natrium </p>
+<p>Dette lægemiddel indeholder 5,0 til 60,5 mg natrium (hovedkomponenten i køkken-/bordsalt) i hvert 
+hætteglas af HyQvia med rekombinant humant hyaluronidase. Det svarer til 0,25 til 3 % af den 
+anbefalede maksimale daglige indtagelse af natrium for en voksen. IG 10 %-komponenten er i det 
+væsentlige natriumfri.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take hyqvia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take hyqvia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>HyQvia skal gives som infusion under huden (subkutan / s.c.-administration). </p>
+<p>Behandlingen med HyQvia vil blive påbegyndt af din læge eller sygeplejerske, men du får muligvis lov 
+til at bruge medicinen hjemme, når du har fået de første infusioner under medicinsk overvågning, og du 
+(og/eller din hjælper) er blevet oplært tilstrækkeligt i det. Du og din læge vil afgøre, om du kan bruge 
+HyQvia hjemme. Begynd ikke på behandling med HyQvia hjemme, før du har modtaget fuldstændige 
+instruktioner. </p>
+<p>Dosering </p>
+<p>Substitutionsbehandling </p>
+<p>Din læge vil beregne den korrekte dosis til dig ud fra din kropsvægt, eventuel tidligere behandling, som 
+du har fået, og hvordan du reagerer på behandlingen. Den anbefalede startdosis er en dosis, der 
+giver 400 til 800 mg af det aktive stof pr. kg kropsvægt om måneden. I starten vil du få det kvarte 
+af denne dosis med 1 uges mellemrum. Denne dosis vil blive øget trinvist til større doser, som gives i de 
+næste infusioner med 3 til 4 ugers mellemrum. Af og til vil din læge muligvis anbefale, at større doser 
+deles op og administreres 2 steder på en gang. Din læge kan også justere din dosis ud fra, hvordan 
+du reagerer på behandlingen. </p>
+<p>Immunmodulerende behandling </p>
+<p>Din læge vil beregne den korrekte dosis til dig baseret på de tidligere behandlinger, du eventuelt har 
+modtaget, og din respons på behandlingen. Behandlingen påbegyndes 1 til 2 uger efter din seneste 
+immunglobulininfusion, administreret subkutant ved den beregnede tilsvarende ugentlige dosis. Lægen 
+kan tilpasse dosen og frekvensen baseret på din respons på behandlingen. </p>
+<p>Hvis den maksimale daglige dosis overskrides (&gt; 120 g), eller hvis du ikke kan tåle mængden af 
+administreret immunglobulin, kan dosen opdeles og gives over flere dage, med 48 til 72 timer mellem 
+doserne, så der kan ske passende absorption. administration af hyaluronidase skal også opdeles på 
+passende vis. </p>
+<p>Behandlingsstart </p>
+<p>Du vil i starten få behandlingen af en læge eller sygeplejerske, der har erfaring i at behandle 
+patienter med et svagt immunsystem (immundefekt) og CIDP og i at vejlede patienter i 
+hjemmebehandling. Der vil blive holdt omhyggeligt øje med dig under hele infusionen og i 
+mindst 1 time, efter at infusionen er stoppet, for at se, hvor godt du tåler medicinen. I starten vil din 
+læge eller sygeplejerske bruge en langsom infusionshastighed og øge den gradvist i løbet af den første 
+infusion og ved de efterfølgende infusioner. Når først lægen eller sygeplejersken har fundet den dosis og 
+infusionshastighed, der er den rigtige for dig, vil du måske få lov til at behandle dig selv hjemme. </p>
+<p>Hjemmebehandling </p>
+<p>Du må ikke bruge HyQvia derhjemme, før du er blevet instrueret og oplært af sundhedspersonalet. </p>
+<p>Du vil få instruktion i:</p>
+<ul>
+<li>Bakteriefri (aseptisk) infusionsteknik </li>
+<li>Brug af infusionspumpe eller sprøjtepumpe (ved behov), </li>
+<li>At udfylde en infusiondagbog </li>
+<li>Forholdsregler, der skal tages i tilfælde af alvorlige bivirkninger. </li>
+</ul>
+<p>Du skal følge din læges instruktioner nøje med hensyn til dosis, infusionshastighed og tidsplan for 
+infusionerne med HyQvia, så behandlingen virker på dig. </p>
+<p>Følgende infusionshastigheder anbefales for IG 10 % pr. infusionssted: </p>
+<p>Personer &lt; 40 kg 
+Personer ≥ 40 kg 
+Interval/minutter 
+2 første 
+infusioner 
+(ml/time/ 
+infusionssted) 
+Efterfølgende<br />
+2 til 3 infusioner 
+(ml/time/ 
+infusionssted) 
+2 første 
+infusioner 
+(ml/time/ 
+infusionssted) 
+Efterfølgende<br />
+2 til 3 infusioner 
+(ml/time/ 
+infusionssted) 
+10 minutter 
+5 
+10 minutter 
+10 minutter 
+10 minutter 
+Resterende infusioner </p>
+<p>Ovenstående infusionshastigheder er for et enkelt infusionssted. I tilfælde, hvor patienten har behov for 
+2 eller 3 infusionssteder, kan infusionshastigheden tilpasses som konsekvens heraf (dvs. fordoblet eller 
+tredoblet baseret på pumpens maksimale infusionshastighed). </p>
+<p>Hvis der er en utæthed ved infusionsstedet </p>
+<p>Spørg din læge, apotekspersonalet eller en sygeplejerske, om en anden kanylestørrelse ville passe bedre 
+til dig. 
+Et eventuelt skift af kanylestørrelse skal overvåges af den behandlende læge. </p>
+<p>Hvis du har brugt for meget HyQvia </p>
+<p>Hvis du tror, at du har brugt mere HyQvia end du skulle, skal du tale med din læge hurtigst muligt. </p>
+<p>Hvis du har glemt at bruge HyQvia </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Hvis du tror, at du har glemt 
+en dosis, skal du tale med din læge hurtigst muligt. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>
+<p>En detaljeret brugsanvisning findes i afsnittet nedenfor. </p>
+<ol>
+<li>
+<p>Tag HyQvia ud af æsken: </p>
+</li>
+<li>
+<p>Lad hætteglassene nå stuetemperatur. Dette kan tage op 
+til 60 minutter. Brug ikke apparater til opvarmning, 
+herunder mikrobølgeovn. </p>
+</li>
+<li>
+<p>HyQvia må ikke varmes op eller omrystes. </p>
+</li>
+<li>
+<p>Kontroller hvert hætteglas med HyQvia før brug. </p>
+</li>
+<li>
+<p>Udløbsdato: Brug ikke præparatet efter 
+udløbsdatoen. </p>
+</li>
+<li>
+<p>Farve: * 
+Det rekombinante humane hyaluronidase skal 
+være klart og farveløst. * 
+Humant normalt immunglobulin 10 % skal være 
+klart og farveløst eller svagt gul. * 
+Hvis nogen af væskerne er uklare eller indeholder 
+partikler, må de ikke bruges. </p>
+</li>
+<li>
+<p>Låg: Der er et lilla beskyttelseslåg på enheden med 
+de to hætteflasker. Brug ikke produktet, hvis låget 
+ikke sidder på. </p>
+</li>
+<li>
+<p>Saml alle tingene: 
+Saml alt det, du skal bruge til infusionen. Det er: 
+HyQvia-enheden/-enhederne med to hætteglas, infusionsudstyr 
+(sæt med subkutane kanyler, beholder til opløsningen (pose eller 
+sprøjte), sterilt klart plaster og tape, slanger til pumpen, 
+overførselsudstyr, sprøjter, gaze og tape), affaldsbeholder til 
+skarpe og spidse genstande, pumpe, logbog over behandlingen og 
+andet udstyr efter behov. </p>
+</li>
+<li>
+<p>Klargør en ren arbejdsflade. </p>
+</li>
+<li>
+<p>Vask hænder: 
+Vask dine hænder grundigt. Læg alle de indsamlede ting frem, 
+og åbn dem i henhold til sundhedspersonalets instruktioner. </p>
+</li>
+<li>
+<p>Åbn HyQvia-enheden/-erne med de to hætteglas: </p>
+</li>
+<li>
+<p>Fjern de lilla beskyttelseslåg og husk at sikre dig, at de blå 
+låg på hætteglassene er fjernet. Hvis de blå låg ikke er 
+blevet fjernet, så fjern dem manuelt for at fritlægge 
+hætteglassenes propper. </p>
+</li>
+<li>
+<p>Forbered overførslen af den rekombinante humane 
+hyaluronidasekomponent i HyQvia ved at aftørre propperne 
+på hætteglassene med en spritserviet, hvis det er anvist, og 
+lade dem lufttørre (i mindst 30 sekunder). </p>
+</li>
+<li>
+<p>Klargør hætteglasset med rekombinant humant 
+hyaluronidase (HY): </p>
+</li>
+<li>
+<p>Tag den mindste sterile sprøjte ud af pakningen, og sæt den 
+på en stift uden ventilering eller en kanyle til udtrækning. </p>
+</li>
+<li>
+<p>Træk stemplet tilbage, og fyld den mindste sprøjte med luft 
+svarende til mængden af rekombinant humant hyaluronidase 
+i hætteglasset/hætteglassene HY. </p>
+</li>
+<li>
+<p>Fjern låget fra kanylen/overførselsudstyret uden ventilering. </p>
+</li>
+<li>
+<p>Indfør spidsen af kanylen/overførselsudstyret uden 
+ventilering midt i hætteglassets prop, og tryk nedad i lige 
+retning. Skub luften ind i hætteglasset. </p>
+</li>
+<li>
+<p>Vend bunden op på hætteglasset, mens 
+kanylen/overførselsudstyret uden ventilering stadig sidder i 
+hætteglasset. Sprøjtens spids peger nu opad. </p>
+</li>
+<li>
+<p>Træk hele indholdet af rekombinant humant hyaluronidase 
+ind i sprøjten. </p>
+</li>
+<li>
+<p>Gentag trin 6, hvis der skal bruges mere end et hætteglas 
+med rekombinant humant hyaluronidase til din dosis. </p>
+</li>
+<li>
+<p>Hvis det er muligt, skal alt det rekombinante humane 
+hyaluronidase, der skal bruges til hele dosen med IgG, 
+samles i den samme sprøjte. </p>
+</li>
+<li>
+<p>Peg sprøjtespidsen opad, og fjern eventuelle luftbobler ved 
+at pege sprøjtespidsen opad og banke blidt på sprøjten med 
+fingeren. Tryk langsomt og forsigtigt stemplet ind for at 
+fjerne eventuel resterende luft. </p>
+</li>
+<li>
+<p>Klargør kanylesættet med det rekombinante humane 
+hyaluronidase (HY): 
+HVIS manuel infusion af HY: </p>
+</li>
+<li>
+<p>Sæt sprøjten med det rekombinante humane hyaluronidase 
+på kanylesættet </p>
+</li>
+<li>
+<p>Tryk på stemplet i den mindste sprøjte for at fjerne luften og 
+fyld kanylesættet op til kanylens vinger med rekombinant 
+humant hyaluronidase. </p>
+</li>
+<li>
+<p>Bemærk: Sundhedspersonalet kan anbefale at bruge en 
+Y-kobling (til flere indstikssteder) eller en anden 
+kanylesætsammensætning. 
+HVIS pumpe-metoden bruges til infusion (HY): </p>
+</li>
+<li>
+<p>Sæt sprøjten med det rekombinante humane hyaluronidase 
+(HY) på pumpeslangen, og sæt kanylesættet på </p>
+</li>
+<li>
+<p>Tryk på sprøjtens stempel (størrelse kan variere grundet 
+større volumen) for at fjerne luften, og fyld pumpeslangen og 
+kanylesættet op til kanylens vinger med rekombinant humant 
+hyaluronidase. </p>
+</li>
+<li>
+<p>Forbered hætteglasset med humant normalt 
+immunglobulin 10 %: </p>
+</li>
+<li>
+<p>Forbered overførslen af komponenten immunglobulin 10 % 
+i HyQvia ved at aftørre propperne på hætteglassene med en 
+separat spritserviet, hvis det er anvist, og lade dem lufttørre 
+(i mindst 30 sekunder). </p>
+</li>
+<li>
+<p>Komponenten humant normalt immunglobulin 10 % 
+i HyQvia administreres enten * 
+ved at samle indholdet fra hætteglassene enten i den 
+største sprøjte (a) eller en infusionspose (b) i henhold 
+til instruktionerne fra sundhedspersonalet, alt 
+afhængigt af hvilken pumpe der bruges; eller * 
+direkte fra hætteglasset IG. Indfør stiften i 
+pumpeslangen med ventilering eller stift og 
+ventileringsnål i hætteglasset (hætteglassene) med 
+humant normalt immunglobulin 10 %. Fyld 
+administrationspumpens slanger, og lad dem ligge, 
+indtil det rekombinante humane hyaluronidase er 
+administreret. </p>
+</li>
+<li>
+<p>Hvis der er behov for mere end et hætteglas til en hel dosis, 
+skal spyddet først indføres i de efterfølgende hætteglas, efter 
+at det første hætteglas er helt administreret. </p>
+</li>
+</ol>
+<p>(a) 
+(b) </p>
+<ol>
+<li>
+<p>Gør pumpen klar: 
+Følg producentens anvisninger til klargøring af pumpen. </p>
+</li>
+<li>
+<p>Forbered infusionsstedet: </p>
+</li>
+<li>
+<p>Vælg infusionssted(er) i enten den midterste eller øverste 
+del af maven eller i låret. Se billedet af infusionsstedernes 
+placering. * 
+Vælg steder på hver sin side af kroppen, hvis du 
+er blevet instrueret i at give infusionen på to steder 
+med doser over 600 ml. * 
+Hvis der bruges tre steder, skal stederne være mindst 
+10 cm fra hinanden. </p>
+</li>
+<li>
+<p>Undgå områder med knogler, synlige blodkar, ar og 
+eventuelle områder med betændelse eller infektion. </p>
+</li>
+<li>
+<p>Skift mellem infusionsstederne ved hver gang at vælge 
+den modsatte side af kroppen til den næste infusion. </p>
+</li>
+<li>
+<p>Hvis sundhedspersonalet har instrueret dig i dette, skal 
+du rense infusionsstedet (-stederne) med en spritserviet. 
+Lad det tørre (i mindst 30 sekunder). </p>
+</li>
+<li>
+<p>Indfør kanylen: </p>
+</li>
+<li>
+<p>Fjern kanylehætten. Tag et fast greb i huden og fold 
+mindst 2 til 2,5 cm hud mellem to fingre. </p>
+</li>
+<li>
+<p>Indfør kanylen helt til kanylens vinger med en hurtig 
+bevægelse lige ind i huden i en vinkel på 90 grader. 
+Kanylens vinger skal ligge fladt op mod huden. </p>
+</li>
+<li>
+<p>Fastgør kanylen til stedet med steril tape. </p>
+</li>
+<li>
+<p>Gentag dette trin, hvis du har to eller tre infusionssteder. </p>
+</li>
+</ol>
+<p>90-graders vinkel i 
+forhold til huden </p>
+<ol>
+<li>
+<p>Kontroller, at kanylen er placeret rigtigt, før du begynder 
+på infusionen, hvis du har fået instruktion i dette af 
+sundhedspersonalet. </p>
+</li>
+<li>
+<p>Fastgør kanylen til huden: </p>
+</li>
+<li>
+<p>Fastgør kanylen(kanylerne) til stedet ved at sætte et sterilt 
+klart plaster over kanylen. </p>
+</li>
+<li>
+<p>Kontroller infusionsstedet (-stederne) af og til under hele 
+infusionen for at se, om noget har flyttet sig eller lækker. </p>
+</li>
+<li>
+<p>Indgiv det rekombinante humane hyaluronidase først: 
+Opdel indholdet ligeligt mellem alle steder, hvis mere end ét sted 
+benyttes. 
+HVIS manuel infusion af HY: </p>
+</li>
+<li>
+<p>Tryk langsomt på stemplet i den mindste sprøjte med det 
+rekombinante humane hyaluronidase med en starthastighed 
+til ca. 1 til 2 ml pr. minut for hvert infusionssted, som kan 
+øges alt efter hvad der tolereres.<br />
+HVIS pumpe-metoden bruges til infusion af HY: </p>
+</li>
+<li>
+<p>Hvis du bruger en pumpe, gør du pumpen klar til at give 
+infusionen med det rekombinante humane hyaluronidase 
+med en starthastighed på 60 til 120 ml/time/sted for hvert 
+infusionssted og øge hastigheden efter, hvad du tåler. </p>
+</li>
+<li>
+<p>Indgiv humant normalt immunglobulin 10 %: 
+Efter at du har fået infusionen af hele indholdet af den mindste 
+sprøjte (rekombinant humant hyaluronidase), fjerner du sprøjten 
+fra infusionssættet. 
+Sæt pumpeslangen på IG-beholderen/hætteglasset eller den største 
+sprøjte med humant normalt immunglobulin 10 % på 
+infusionssættet.<br />
+Klargør humant normalt immunglobulin 10 % med en pumpe med 
+de hastigheder, som sundhedspersonalet har angivet, og start 
+infusionen. </p>
+</li>
+<li>
+<p>Når infusionen er færdig, skylles infusionssættet hvis 
+du har fået instruktion i dette af sundhedspersonalet: </p>
+</li>
+<li>
+<p>Hvis sundhedspersonalet har instrueret dig i det, skal du 
+sætte en pose med natriumchloridopløsning på pumpens 
+slange eller kanylesættet for at skubbe humant normalt 
+immunglobulin 10 % op til kanylens vinger. </p>
+</li>
+<li>
+<p>Fjern kanylesættet: </p>
+</li>
+<li>
+<p>Fjern kanylesættet ved at løsne plasteret i alle kanterne. </p>
+</li>
+<li>
+<p>Træk kanylens vinger lige op og ud. </p>
+</li>
+<li>
+<p>Tryk blidt et lille stykke gaze over indstiksstedet, og dæk 
+det med et beskyttende plaster. </p>
+</li>
+<li>
+<p>Smid kanylen (kanylerne) ud i affaldsbeholderen til skarpe 
+og spidse genstande. * 
+Bortskaf affaldsbeholderen til skarpe og spidse 
+genstande efter de instruktioner, der fulgte med 
+affaldsbeholderen, eller kontakt sundhedspersonalet. </p>
+</li>
+<li>
+<p>Registrer infusionen: </p>
+</li>
+<li>
+<p>Fjern den aftagelige etiket fra HyQvia-hætteglasset, hvor 
+produktets batchnummer og udløbsdato er anført, og sæt 
+etiketten ind i din registrerings-/logbog over behandlingen. </p>
+</li>
+<li>
+<p>Skriv dato, tidspunkt, dosis, infusionssted(er) (som en hjælp 
+til at skifte mellem stederne) og eventuelle reaktioner efter 
+hver infusion. </p>
+</li>
+<li>
+<p>Bortskaf alt ikke anvendt lægemiddel i hætteglasset 
+samt engangsudstyr i henhold til sundhedspersonalets 
+anbefalinger. </p>
+</li>
+<li>
+<p>Følg op med lægen som anvist. </p>
+</li>
+</ol>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Visse bivirkninger, såsom hovedpine, kuldegysninger eller smerter i kroppen, kan mindskes ved at 
+sænke infusionshastigheden. </p>
+<p>Alvorlige bivirkninger </p>
+<p>Infusion med medicin som HyQvia kan af og til medføre alvorlige, men sjældne, allergiske reaktioner. 
+Du kan opleve et pludseligt fald i blodtrykket og i enkelstående tilfælde anafylaktisk chok. Lægerne er 
+klar over disse mulige bivirkninger og vil overvåge dig under og efter de første infusioner. 
+Typiske tegn eller symptomer omfatter: en følelse af svimmelhed, ørhed eller svaghed, hududslæt og 
+kløe, hævelse i mund eller hals, åndedrætsbesvær, hvæsende åndedræt, unormal hjerterytme, smerter i 
+brystregionen, blå læber eller fingre og tæer, sløret syn. </p>
+<ul>
+<li>
+<p>Fortæl det straks til lægen eller sundhedspersonalet, hvis du bemærker nogen af disse tegn 
+under infusionen. </p>
+</li>
+<li>
+<p>Når du bruger HyQvia hjemme, skal du udføre infusionen, når der er en person til stede, 
+som er udpeget som hjælper, og som hjælper dig med at holde øje med allergiske 
+reaktioner, stoppe infusionen og skaffe hjælp, hvis der er behov for det. </p>
+</li>
+<li>
+<p>Se også punkt 2 i denne indlægsseddel vedrørende risiko for allergiske reaktioner og brug 
+af HyQvia hjemme. </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger (kan forekomme ved mere end 1 ud af 10 infusioner): </p>
+<p>Lokale reaktioner på infusionsstedet (omfatter alle de reaktioner på infusionsstedet, der er anført 
+nedenfor). Disse reaktioner går normalt væk inden for nogle få dage. </p>
+<p>Almindelige bivirkninger (kan forekomme ved op til 1 ud af 10 infusioner): </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>mavesmerter/ømhed i maveregionen </p>
+</li>
+<li>
+<p>rødme af huden (erytem) </p>
+</li>
+<li>
+<p>reaktioner på infusionsstedet, herunder smerter, ubehag, ømhed, rødme, hævelse og kløe </p>
+</li>
+<li>
+<p>varmefornemmelse, feber </p>
+</li>
+<li>
+<p>svaghedsfornemmelse (asteni), træthed (udmattelse), manglende energi (letargi) og generel 
+utilpashed </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme ved op til 1 ud af 100 infusioner): </p>
+<ul>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>migræne </p>
+</li>
+<li>
+<p>føleforstyrrelser såsom følelsesløshed, snurren, prikken (paræstesi) </p>
+</li>
+<li>
+<p>rysten (tremor) </p>
+</li>
+<li>
+<p>hurtigt hjerteslag (takykardi) </p>
+</li>
+<li>
+<p>højt blodtryk (hypertension) </p>
+</li>
+<li>
+<p>udspilet mave (abdominal distension) </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>kløe (pruritus) </p>
+</li>
+<li>
+<p>kløende udslæt (nældefeber/urticaria) </p>
+</li>
+<li>
+<p>muskelsmerter (myalgi) </p>
+</li>
+<li>
+<p>ledsmerter (artralgi) </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>smerter i arme og/eller ben (herunder ubehag i arme og/eller ben) </p>
+</li>
+<li>
+<p>smerter i muskler og knogler i brystet </p>
+</li>
+<li>
+<p>ledstivhed </p>
+</li>
+<li>
+<p>reaktioner på infusionsstedet (såsom misfarvning, blå mærker, rødme (hæmatom), blødning, 
+punktur af blodkar, knude, hårdhed (induration), hævelse (ødem), kulderystelser, brændende 
+fornemmelse, udslæt) </p>
+</li>
+<li>
+<p>hævelser på kønsorganer </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme ved op til 1 ud af 1 000 infusioner): </p>
+<ul>
+<li>
+<p>stroke </p>
+</li>
+<li>
+<p>lavt blodtryk (hypotension) </p>
+</li>
+<li>
+<p>åndenød (dyspnø) </p>
+</li>
+<li>
+<p>lyskesmerter </p>
+</li>
+<li>
+<p>brunfarvet urin (hæmosiderinuri) </p>
+</li>
+<li>
+<p>kraftig svedtendens (hyperhidrose) </p>
+</li>
+<li>
+<p>betændelse på infusionsstedet </p>
+</li>
+<li>
+<p>varmefornemmelse på infusionsstedet </p>
+</li>
+<li>
+<p>føleforstyrrelser såsom følelsesløshed, snurren, prikken på infusionstedet (paræstesi på 
+infusionsstedet) </p>
+</li>
+<li>
+<p>positivt resultat af Coombs’ test </p>
+</li>
+</ul>
+<p>Hyppighed ikke kendt (kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>betændelse i de hinder, der omgiver hjernen og rygmarven (aseptisk meningitis) </p>
+</li>
+<li>
+<p>allergiske reaktioner (overfølsomhed) </p>
+</li>
+<li>
+<p>utæthed ved infusionsstedet </p>
+</li>
+<li>
+<p>influenzalignende sygdom </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store hyqvia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store hyqvia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. </p>
+<p>Må ikke omrystes. </p>
+<p>Opbevar hætteglassene i den ydre karton for at beskytte dem mod lys. </p>
+<p>Brug ikke lægemidlet, hvis opløsningerne er uklare eller indeholder partikler eller udfældninger. </p>
+<p>Bortskaf eventuel ikke anvendt opløsning i hætteglassene efter åbning. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>HyQvia indeholder: </p>
+<p>HyQvia er en enhed med to hætteglas, der indeholder:</p>
+<ul>
+<li>en opløsning med rekombinant humant hyaluronidase (trin 1 i HyQvia / indgiv dette først) og </li>
+<li>en opløsning med humant normalt immunglobulin 10 % (trin 2 i HyQvia / indgiv dette som nr. 2). </li>
+</ul>
+<p>Indholdet af hvert hætteglas er bekrevet nedenfor: </p>
+<ol>
+<li>Rekombinant humant hyaluronidase </li>
+</ol>
+<p>Dette hætteglas indeholder rekombinant humant hyaluronidase. </p>
+<p>Øvrige indholdsstoffer: natriumchlorid, natriumfosfat, humant albumin, 
+ethylendiamintetraeddikesyre (EDTA) dinatrium, calciumchlorid og vand til injektionsvæsker 
+(se også punkt 2, "HyQvia indeholder natrium"). </p>
+<ol>
+<li>Humant normalt immunglobulin 10 % </li>
+</ol>
+<p>En ml af opløsningen i dette hætteglas indeholder 100 mg humant normalt immunglobulin, hvoraf 
+mindst 98 % er immunglobulin G (IgG). </p>
+<p>Aktivt stof i HyQvia: humant normalt immunglobulin. Dette lægemiddel indeholder spormængder 
+af immunglobulin A (IgA) (højst 140 mikrogram/ml, 37 mikrogram i gennemsnit). </p>
+<p>Øvrige indholdsstoffer i dette hætteglas: glycin og vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>HyQvia 100 mg/ml infusionsvæske, opløsning, til subkutan anvendelse (infusion under huden) </p>
+<p>HyQvia leveres som en pakning, der indeholder: </p>
+<ul>
+<li>
+<p>et hætteglas med rekombinant humant hyaluronidase og </p>
+</li>
+<li>
+<p>et hætteglas med humant normalt immunglobulin 10 %. </p>
+</li>
+</ul>
+<p>Det rekombinante humane hyaluronidase er en klar og farveløs opløsning. 
+Humant normalt immunglobulin 10 % er en klar og farveløs eller svagt gul opløsning. </p>
+<p>HyQvia fås i følgende pakningsstørrelser: </p>
+<p>Rekombinant humant hyaluronidase 
+Humant normalt immunglobulin 10 % 
+Indhold (ml) 
+Protein (g) 
+Indhold (ml) 
+1,2,5 
+2,5 
+5 
+5 </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Baxalta Innovations GmbH 
+Industriestrasse A-1221 Wien 
+Østrig </p>
+<p>Fremstiller: 
+Baxalta Belgium Manufacturing SA 
+Boulevard René Branquart B-7860 Lessines 
+Belgien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 11<br />
+medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>България 
+Такеда България ЕООД 
+Тел.: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tél/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>Česká republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarország 
+Takeda Pharma Kft. 
+Tel: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Τakeda HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Ελλάδα 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Tηλ: +30 210 6387medinfoEMEA@takeda.com 
+Österreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 50<br />
+medinfoEMEA@takeda.com </p>
+<p>España 
+Takeda Farmacéutica España, S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+Tél. + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmacêuticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>România 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska družba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovenská republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Κύπρος 
+Τakeda ΕΛΛΑΣ Α.Ε. 
+Τηλ.: +30 210 6387medinfoEMEA@takeda.com 
+Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
+<p>Denne indlægsseddel blev senest ændret . </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9c8cbb392febab27edfe92cab530d10b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hyqvia Package Leaflet for language en"
+Description: "ePI document Bundle for hyqvia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9c8cbb392febab27edfe92cab530d10b"
+* entry[0].resource = composition-en-9c8cbb392febab27edfe92cab530d10b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9c8cbb392febab27edfe92cab530d10b"
+* entry[=].resource = mp9c8cbb392febab27edfe92cab530d10b
+                            
+                    
+Instance: bundlepackageleaflet-da-9c8cbb392febab27edfe92cab530d10b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hyqvia Package Leaflet for language da"
+Description: "ePI document Bundle for hyqvia Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9c8cbb392febab27edfe92cab530d10b"
+* entry[0].resource = composition-da-9c8cbb392febab27edfe92cab530d10b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9c8cbb392febab27edfe92cab530d10b"
+* entry[=].resource = mp9c8cbb392febab27edfe92cab530d10b
+                            
+                    
+
+
+
+Instance: mp9c8cbb392febab27edfe92cab530d10b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product HyQvia 100 mg/mL solution for infusion for subcutaneous use"
-Description: "HyQvia 100 mg/mL solution for infusion for subcutaneous use"
+Title: "Medicinal Product hyqvia"
+Description: "hyqvia"
 Usage: #inline
 
  
@@ -742,7 +1856,7 @@ Usage: #inline
 
 
 * name
-  * productName = "HyQvia 100 mg/mL solution for infusion for subcutaneous use"
+  * productName = "hyqvia"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -769,29 +1883,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9c8cbb392febab27edfe92cab530d10b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for hyqvia Package Leaflet for language en"
-Description: "ePI document Bundle for hyqvia Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9c8cbb392febab27edfe92cab530d10bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/840/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "hyqvia"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9c8cbb392febab27edfe92cab530d10b"
-* entry[0].resource = composition-en-9c8cbb392febab27edfe92cab530d10b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6157d74e41d80ef3b10a3ced9cfb7985"
-* entry[=].resource = mp6157d74e41d80ef3b10a3ced9cfb7985
-                            
-                      
+* title = "List of all ePIs associated with hyqvia"
+
+* subject = Reference(mp6157d74e41d80ef3b10a3ced9cfb7985)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#hyqvia "hyqvia"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9c8cbb392febab27edfe92cab530d10b) // hyqvia en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9c8cbb392febab27edfe92cab530d10b) // hyqvia da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9c8cbb392febab27edfe92cab530d10b
+InstanceOf: List
+
+* insert 9c8cbb392febab27edfe92cab530d10bListRuleset
+    

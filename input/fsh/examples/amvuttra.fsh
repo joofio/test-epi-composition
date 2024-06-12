@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-390f2bf9e603dd85f443eae025f147b6
 InstanceOf: CompositionUvEpi
 Title: "Composition for amvuttra Package Leaflet"
@@ -321,12 +324,537 @@ Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
 
 
 
+Instance: composition-da-390f2bf9e603dd85f443eae025f147b6
+InstanceOf: CompositionUvEpi
+Title: "Composition for amvuttra Package Leaflet"
+Description:  "Composition for amvuttra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd78bfb9a5c3664d3eba081127b3661b1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd78bfb9a5c3664d3eba081127b3661b1
+* title = "TEST PURPOSES ONLY - amvuttra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får Amvuttra </li>
+<li>Sådan får du Amvuttra </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What amvuttra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What amvuttra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Amvuttra er vutrisiran. </p>
+<p>Anvendelse </p>
+<p>Amvuttra anvendes til at behandle en sygdom kaldet hereditær ATTR (hATTR) amyloidose. Det er en 
+arvelig sygdom. hATTR amyloidose er forårsaget af problemer med et protein i kroppen, som kaldes 
+“transthyretin” (TTR). Proteinet fremstilles primært i leveren og bærer vitamin A og andre stoffer 
+rundt i kroppen. </p>
+<p>Hos personer med denne sygdom klumper små fibre af TTR-proteiner sig sammen og producerer 
+aflejringer, som kaldes “amyloid”. Amyloid kan ophobe sig omkring eller i nerverne, hjertet og andre 
+steder i kroppen og forhindrer dem i at fungere normalt. Dette forårsager symptomerne på 
+sygdommen. </p>
+<p>Virkning </p>
+<p>Amvuttra virker ved at reducere mængden af TTR-protein, som leveren fremstiller, hvilket betyder, at 
+der er mindre TTR-protein i blodet, som kan danne amyloid. Dette kan hjælpe med at reducere 
+effekterne af denne sygdom. </p>
+<p>Amvuttra må kun bruges til voksne. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take amvuttra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take amvuttra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Amvuttra: </p>
+<ul>
+<li>Hvis du nogensinde har haft en allergisk reaktion over for vutrisiran eller et af de øvrige 
+indholdsstoffer (angivet i pkt. 6). </li>
+</ul>
+<p>Hvis du ikke er sikker, skal du tale med din læge, apoteket eller sygeplejerske, inden du får dette 
+lægemiddel. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Nedsatte vitamin A-niveauer i blodet og vitamintilskud </p>
+<p>Amvuttra nedsætter mængden af vitamin A i blodet. 
+Lægen vil bede dig tage et dagligt tilskud af vitamin A. Følg lægens anbefalinger angående vitamin A-
+dosis. 
+Tegn på A-vitaminmangel kan være: synsproblemer, især om natten, tørre øjne, sløret eller uklart syn. </p>
+<ul>
+<li>Hvis du bemærker en ændring i dit syn eller andre øjenproblemer, når du bruger Amvuttra, skal 
+du tale med lægen. Lægen kan henvise dig til kontrol hos en øjenlæge, hvis det er nødvendigt. </li>
+</ul>
+<p>Både for høje og for lave niveauer af vitamin A kan have en skadelig virkning på udviklingen af det 
+ufødte barn. Kvinder i den fødedygtige alder skal derfor udelukke graviditet inden de starter 
+behandlingen med Amvuttra og bruge sikker prævention (se nedenstående punkt ”Graviditet, amning 
+og prævention”). </p>
+<ul>
+<li>
+<p>Vitamin A-niveauer kan være lave i mere end 12 måneder efter den sidste dosis Amvuttra. </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du har planer om at blive gravid. Lægen vil beslutte, at du skal stoppe 
+med at tage Amvuttra og tilskud af vitamin A. Lægen vil også sikre, at dit niveau af vitamin A 
+er vendt tilbage til normal inden undfangelse forsøges. </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du har en ikke planlagt graviditet. Lægen vil beslutte, at du skal stoppe 
+med at tage Amvuttra. I løbet af de første 3 måneder kan lægen beslutte, at du skal stoppe med 
+at tage et tilskud af vitamin A. I løbet af de sidste 6 måneder af graviditeten kan din læge bede 
+dig om at begynde at tage tilskud af vitamin A igen, hvis niveauerne af vitamin A i dit blod 
+endnu ikke er normale, på grund af en øget risiko for mangel på vitamin A i graviditetens sidste 
+3 måneder. </p>
+</li>
+</ul>
+<p>Børn og unge </p>
+<p>Amvuttra anbefales ikke til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Amvuttra </p>
+<p>Fortæl altid lægen, apotekspersonalet eller sygeplejersken, hvis du tager anden medicin, for nylig har 
+taget anden medicin eller planlægger at tage anden medicin. </p>
+<p>Graviditet, amning og prævention </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, inden du begynder tage dette lægemiddel. </p>
+<p>Graviditet </p>
+<p>Du bør ikke bruge Amvuttra, hvis du er gravid. </p>
+<p>Kvinder i den fødedygtige alder </p>
+<p>Amvuttra nedsætter mængden af vitamin A i blodet, og vitamin A er vigtigt for et ufødt barns normale 
+udvikling (se ”Advarsler og forsigtighedsregler” ovenfor).  </p>
+<ul>
+<li>
+<p>Hvis du er kvinde og kan blive gravid, bør du anvende sikker prævention, mens du behandles 
+med Amvuttra.  </p>
+</li>
+<li>
+<p>Tal med lægen eller sygeplejersken om egnede præventionsmetoder.  </p>
+</li>
+<li>
+<p>Graviditet skal udelukkes, inden behandlingen med Amvuttra påbegyndes. </p>
+</li>
+<li>
+<p>Fortæl det til lægen, hvis du planlægger at blive gravid, eller hvis du har en uplanlagt graviditet. 
+Lægen vil bede dig om at stoppe med at tage Amvuttra. </p>
+</li>
+</ul>
+<p>Amning </p>
+<p>Det vides ikke, om vutrisiran udskilles i modermælk. Lægen vil overveje de mulige fordele ved din 
+behandling sammenlignet med risiciene ved at amme dit barn. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Amvuttra menes ikke eller kun i ubetydelig grad at påvirke din evne til at føre motorkøretøjer eller 
+betjene maskiner. Din læge vil fortælle dig, om du sikkert kan føre motorkøretøj og betjene maskiner i 
+din tilstand. </p>
+<p>Amvuttra indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. ml, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take amvuttra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take amvuttra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du får lægemidlet af en læge, apotekspersonalet eller sygeplejerske. </p>
+<p>Så meget Amvuttra vil du få </p>
+<p>Den anbefalede dosis Amvuttra er 25 mg en gang hver 3. måned. </p>
+<p>Hvor indgives injektionen </p>
+<p>Amvuttra gives som injektion under huden (’subkutan injektion’) i maveområdet, overarm eller lår. </p>
+<p>Så længe skal Amvuttra bruges </p>
+<p>Din læge vil fortælle dig, hvor længe du skal have Amvuttra. Stop ikke behandling med Amvuttra, 
+med mindre din læge instruerer dig derom. </p>
+<p>Hvis du har fået for meget Amvuttra </p>
+<p>I det usandsynlige tilfælde, at du får for meget Amvuttra (en overdosis), vil lægen eller sygeplejersken 
+kontrollere dig for bivirkninger. </p>
+<p>Hvis du har glemt at få din dosis Amvuttra </p>
+<p>Hvis du ikke kommer til et besøg/en aftale, hvor du skal gives Amvuttra, skal du kontakte lægen, 
+apotekspersonalet eller sygeplejersken snarest muligt for at aftale et nyt besøg til at få den glemte 
+injektion. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl lægen, apotekspersonalet eller sygeplejersken, hvis du får nogen af følgende bivirkninger: </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Ledsmerter </p>
+</li>
+<li>
+<p>Smerter i arme og ben </p>
+</li>
+</ul>
+<p>Almindelig: kan påvirke op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Åndenød </p>
+</li>
+<li>
+<p>Hudrødme, smerter, kløe, blå mærker eller varmefornemmelse, hvor injektionen blev givet </p>
+</li>
+<li>
+<p>Blodprøver, der viser forhøjelse af leverenzymer kaldet alkalisk phosphatase </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store amvuttra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store amvuttra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten, trugets låg og pakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares over 30 °C. Må ikke nedfryses. </p>
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden. Din læge eller 
+sygeplejerske vil kassere medicinresterne. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Amvuttra indeholder </p>
+<ul>
+<li>
+<p>Aktivt stof: vutrisiran 
+Hver fyldt injektionssprøjte indeholder vutrisirannatrium svarende til 25 mg vutrisiran i 0,5 ml 
+opløsning. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: natriumdihydrogenphosphatdihydrat, dinatriumphosphatdihydrat, 
+natriumchlorid, og vand til injektionsvæsker. Natriumhydroxid og phosphorsyre kan anvendes 
+til at justere pH (se ”Amvuttra indeholder natrium” i punkt 2). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Lægemidlet er en klar, farveløs til gullig opløsning til injektionsvæske (injektion). Hver pakke 
+indeholder en fyldt injektionssprøjte til engangsbrug. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Alnylam Netherlands B.V. 
+Antonio Vivaldistraat 1083 HP Amsterdam 
+Nederlandene </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Alnylam Netherlands B.V. 
+Tél/Tel: 0800 81 443 (+32 234 208 71) 
+medinfo@alnylam.com </p>
+<p>Luxembourg/Luxemburg 
+Alnylam Netherlands B.V. 
+Tél/Tel: 80085235 (+352 203 014 48) 
+medinfo@alnylam.com </p>
+<p>България 
+Genesis Pharma Bulgaria EOOD 
+Teл.: +359 2 969 3medinfo@genesispharmagroup.com </p>
+<p>Malta 
+Genesis Pharma (Cyprus) Ltd 
+Tel: +357 22765medinfo@genesispharmagroup.com </p>
+<p>Česká republika 
+Alnylam Czech s.r.o. 
+Tel: 800 050 450 (+420 234 092 195) 
+medinfo@alnylam.com </p>
+<p>Nederland 
+Alnylam Netherlands B.V. 
+Tel: 08002820025 (+31 203697861) 
+medinfo@alnylam.com </p>
+<p>Danmark 
+Alnylam Sweden AB 
+Tlf: 433 105 15 (+45 787 453 01) 
+medinfo@alnylam.com </p>
+<p>Norge 
+Alnylam Sweden AB 
+Tlf: 800 544 00 (+472 1405 657) 
+medinfo@alnylam.com </p>
+<p>Deutschland 
+Alnylam Germany GmbH 
+Tel: 08002569526 (+49 8920190112) 
+medinfo@alnylam.com </p>
+<p>Österreich 
+Alnylam Austria GmbH 
+Tel: 0800070339 (+43 720 778 072) 
+medinfo@alnylam.com </p>
+<p>Ελλάδα 
+ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε 
+Τηλ: +30 210 87 71 medinfo@genesispharmagroup.com </p>
+<p>Portugal 
+Alnylam Portugal 
+Tel: 707201512 (+351 707502642) 
+medinfo@alnylam.com </p>
+<p>España 
+Alnylam Pharmaceuticals Spain SL 
+Tel: 900810212 (+34 910603753) 
+medinfo@alnylam.com </p>
+<p>România 
+Genesis Biopharma Romania SRL 
+Tel: +40 21 403 4medinfo@genesispharmagroup.com </p>
+<p>France 
+Alnylam France SAS 
+Tél: 0805542656 (+33 187650921) 
+medinfo@alnylam.com </p>
+<p>Slovenija 
+Genesis Pharma Adriatic d.o.o 
+Tel: +385 1 5813 medinfo@genesispharmagroup.com </p>
+<p>Hrvatska 
+Genesis Pharma Adriatic d.o.o 
+Tel: +385 1 5813 medinfo@genesispharmagroup.com </p>
+<p>Suomi/Finland 
+Alnylam Sweden AB 
+Puh/Tel: 0800 417 452 (+358 942 727 020) 
+medinfo@alnylam.com </p>
+<p>Ireland 
+Alnylam Netherlands B.V. 
+Tel: 1800 924260 (+353 818 882213) 
+medinfo@alnylam.com </p>
+<p>Sverige 
+Alnylam Sweden AB 
+Tel: 020109162 (+46 842002641) 
+medinfo@alnylam.com </p>
+<p>Italia 
+Alnylam Italy S.r.l. 
+Tel: 800 90 25 37 (+39 02 89 73 22 91) 
+medinfo@alnylam.com </p>
+<p>United Kingdom (Northern Ireland) 
+Alnylam UK Ltd. 
+Tel: 08001412569 (+44 1628 878592) 
+medinfo@alnylam.com </p>
+<p>Κύπρος 
+Genesis Pharma (Cyprus) Ltd 
+Τηλ: +357 22765medinfo@genesispharmagroup.com </p>
+<p>Eesti, Ísland, Latvija, Lietuva, Magyarország, 
+Polska, Slovenská republika 
+Alnylam Netherlands B.V. 
+Tel/Sími: +31 20 369 7medinfo@alnylam.com </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Amvuttra 25 mg opløsning til injektionsvæske, fyldt injektionssprøjte 
+vutrisiran </p>
+<p>Læger og sundhedspersonale skal læse produktresuméet for udførlige ordineringsoplysninger. </p>
+<p>Dosering og administration </p>
+<p>Behandlingen skal påbegyndes under tilsyn af en læge med kendskab til behandling af amyloidose. </p>
+<p>Dosering 
+Den anbefalede dosis er 25 mg vutrisiran administreret som subkutan injektion en gang hver 3. måned. </p>
+<p>Glemt dosis 
+Hvis en dosis glemmes, skal Amvuttra administreres snarest muligt. Genoptag dosering hver 3. måned 
+fra den seneste administrerede dosis. </p>
+<p>Administration 
+Amvuttra er udelukkende til subkutan anvendelse og skal administreres af sundhedspersonale. </p>
+<p>Inden administration, hvis opbevaret koldt, skal Amvuttra opvarmes ved at lade kartonen stå ved 
+stuetemperatur i ca. 30 minutter. </p>
+<ul>
+<li>
+<p>Administrer den subkutane injektion på et af følgende steder: maven, lårene eller overarmene. 
+Må ikke injiceres i arvæv eller områder, der er røde, betændte eller hævede. </p>
+</li>
+<li>
+<p>Hvis injiceret i maven, undgå området omkring navlen. </p>
+</li>
+<li>
+<p>Hver 25 mg dosis administreres med en enkelt fyldt injektionssprøjte. Hver fyldte 
+injektionssprøjte er udelukkende til engangsbrug. </p>
+</li>
+</ul>
+<p>Sådan ser injektionssprøjten ud før og efter brug: 
+Før brug 
+Efter brug </p>
+<p>Kanylehætte 
+Kanyle 
+Lægemiddel-
+opløsning 
+Finger-
+flange 
+Stempel-
+stang 
+Injektions-
+sprøjte 
+Sprøjte-
+etiket 
+Tommelfinger-
+stempel 
+Kanyle- skjold 
+(låst) 
+1. Klargør injektionssprøjten </p>
+<p>Hvis opbevaret koldt, lad injektionssprøjten opvarme ved stuetemperatur i 30 minutter inden 
+brug. </p>
+<p>Tag injektionssprøjten ud af pakken ved at tage fat i injektionssprøjtens cylinder. </p>
+<p>Rør ikke ved stempelstangen, før du er klar til at injicere. </p>
+<p>Amvuttra er en steril, klar, farveløs til gul opløsning uden konserveringsmiddel. Inspicer 
+opløsningen visuelt. Må ikke anvendes, hvis den indeholder partikler, eller hvis den er tåget 
+eller misfarvet. </p>
+<p>Kontroller: </p>
+<ul>
+<li>
+<p>At injektionssprøjten ikke er beskadiget, såsom revnet eller utæt. </p>
+</li>
+<li>
+<p>At kanylehætten er påsat injektionssprøjten. </p>
+</li>
+<li>
+<p>Udløbsdatoen på injektionssprøjtens etiket. </p>
+</li>
+</ul>
+<p>Anvend ikke injektionssprøjten, hvis der konstateres problemer, når injektionssprøjten 
+kontrolleres. </p>
+<ol>
+<li>Vælg injektionsstedet </li>
+</ol>
+<p>Vælg et injektionssted fra de følgende områder: maven, lår eller 
+overarme. </p>
+<p>Undgå: </p>
+<ul>
+<li>
+<p>Området omkring navlen. </p>
+</li>
+<li>
+<p>Arvæv eller områder, der er røde, betændte eller hævede. </p>
+</li>
+</ul>
+<p>Rengør det valgte injektionssted </p>
+<ol>
+<li>Klargør injektionen </li>
+</ol>
+<p>Hold injektionssprøjten med den ene hånd. Træk kanylehætten af i en 
+lige bevægelse med den anden hånd og kasser straks kanylehætten. 
+Det er normalt at se en dråbe væske på spidsen af kanylen. </p>
+<p>Rør ikke ved kanylen og lad den ikke berøre nogen flade. </p>
+<p>Sæt ikke hætten på injektionssprøjten igen. </p>
+<p>Anvend ikke injektionssprøjten, hvis den tabes. </p>
+<ol>
+<li>Administrer injektionen </li>
+</ol>
+<p>Klem den rengjorte hud sammen. </p>
+<p>Før kanylen helt ind i den sammenklemte hud i en vinkel på 45-90°. </p>
+<p>Injicer alt lægemiddel </p>
+<p>Skub stempelstangen så langt ned, som den kan komme for at 
+administrere dosen og aktivere kanyleskjoldet. </p>
+<p>Slip stempelstangen, så kanyleskjoldet kan dække kanylen. </p>
+<p>Bloker ikke stempelstangens bevægelse. </p>
+<ol>
+<li>Kasser injektionssprøjten </li>
+</ol>
+<p>Kasser straks den brugte injektionssprøjte i en kanylebeholder. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-390f2bf9e603dd85f443eae025f147b6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for amvuttra Package Leaflet for language en"
+Description: "ePI document Bundle for amvuttra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-390f2bf9e603dd85f443eae025f147b6"
+* entry[0].resource = composition-en-390f2bf9e603dd85f443eae025f147b6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp390f2bf9e603dd85f443eae025f147b6"
+* entry[=].resource = mp390f2bf9e603dd85f443eae025f147b6
+                            
+                    
+Instance: bundlepackageleaflet-da-390f2bf9e603dd85f443eae025f147b6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for amvuttra Package Leaflet for language da"
+Description: "ePI document Bundle for amvuttra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-390f2bf9e603dd85f443eae025f147b6"
+* entry[0].resource = composition-da-390f2bf9e603dd85f443eae025f147b6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp390f2bf9e603dd85f443eae025f147b6"
+* entry[=].resource = mp390f2bf9e603dd85f443eae025f147b6
+                            
+                    
+
+
+
+Instance: mp390f2bf9e603dd85f443eae025f147b6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Amvuttra 25 mg solution for injection in pre-filled syringe"
-Description: "Amvuttra 25 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product amvuttra"
+Description: "amvuttra"
 Usage: #inline
 
  
@@ -346,7 +874,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Amvuttra 25 mg solution for injection in pre-filled syringe"
+  * productName = "amvuttra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -373,29 +901,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-390f2bf9e603dd85f443eae025f147b6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for amvuttra Package Leaflet for language en"
-Description: "ePI document Bundle for amvuttra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 390f2bf9e603dd85f443eae025f147b6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1681/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "amvuttra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-390f2bf9e603dd85f443eae025f147b6"
-* entry[0].resource = composition-en-390f2bf9e603dd85f443eae025f147b6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd78bfb9a5c3664d3eba081127b3661b1"
-* entry[=].resource = mpd78bfb9a5c3664d3eba081127b3661b1
-                            
-                      
+* title = "List of all ePIs associated with amvuttra"
+
+* subject = Reference(mpd78bfb9a5c3664d3eba081127b3661b1)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#amvuttra "amvuttra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-390f2bf9e603dd85f443eae025f147b6) // amvuttra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-390f2bf9e603dd85f443eae025f147b6) // amvuttra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-390f2bf9e603dd85f443eae025f147b6
+InstanceOf: List
+
+* insert 390f2bf9e603dd85f443eae025f147b6ListRuleset
+    

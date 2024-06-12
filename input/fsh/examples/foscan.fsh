@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-395326013d549ebdb9d953865850ffcf
 InstanceOf: CompositionUvEpi
 Title: "Composition for foscan Package Leaflet"
@@ -296,12 +299,486 @@ Tel.: +49 3641 5195Fax: +49 3641 5195This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-395326013d549ebdb9d953865850ffcf
+InstanceOf: CompositionUvEpi
+Title: "Composition for foscan Package Leaflet"
+Description:  "Composition for foscan Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpec0004fd793e2f4582f0ce6310965f45)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpec0004fd793e2f4582f0ce6310965f45
+* title = "TEST PURPOSES ONLY - foscan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at bruge Foscan 
+3. Sådan skal De bruge Foscan 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What foscan is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What foscan is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Foscan er temoporfin. </p>
+<p>Foscan er et porfyrint, lysfølsomhedsfremkaldende lægemiddel, der øger Deres følsomhed over for lys 
+og aktiveres af lys fra en laser i en behandling, der hedder fotodynamisk terapi. </p>
+<p>Foscan anvendes til behandling af kræft i hoved og hals hos patienter, der ikke kan få anden 
+behandling.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take foscan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take foscan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Foscan:</p>
+<ul>
+<li>hvis De er allergisk over for temoporfin eller et af de øvrige indholdsstoffer i Foscan (angivet i 
+punkt 6), </li>
+<li>hvis De er overfølsom (allergisk) over for porfyriner, </li>
+<li>hvis De har porfyri eller nogen anden sygdom, der forværres af lys, </li>
+<li>hvis tumoren, som skal behandles, går igennem et stort blodkar, </li>
+<li>hvis De skal opereres inden for de næste 30 dage, </li>
+<li>hvis De har en øjensygdom, der skal undersøges med stærkt lys inden for de næste 30 dage, </li>
+<li>hvis De allerede behandles med et lysfølsomhedsfremkaldende middel. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p> 
+Foscan vil gøre Dem følsom over for lys i ca. 15 dage efter injektionen. Det betyder, at 
+normalt dagslys eller stærk indendørs belysning kan give Dem hudforbrændinger. For at 
+undgå dette skal De nøje følge instruktionerne for gradvis udsættelse for stigende lysniveauer 
+indendørs i løbet af den første uge og udendørs i skyggen i løbet af den anden uge efter 
+behandlingen (se tabellen sidst i denne folder).<br />
+ 
+De bedes venligst drøfte dette med Deres læge, efter at De har fået indsprøjtningen med 
+Foscan.<br />
+ 
+Solbeskyttelsescreme vil ikke forhindre denne følsomhed.<br />
+ 
+De vil efterhånden blive mindre følsom over for lys. Normalt kan man begynde at vende 
+tilbage til normalt udendørs lys efter 15 dages forløb.  </p>
+<p> 
+Lad ikke en optiker eller øjenlæge undersøge Deres øjne med stærkt lys i 30 dage efter 
+indsprøjtningen med Foscan.<br />
+ 
+Brug ikke UV-solarier, og tag ikke solbad i 3 måneder efter indsprøjtningen med Foscan.<br />
+ 
+Undgå langvarig direkte udsættelse for sollys af armen med injektionsstedet i 6 måneder efter 
+behandling med Foscan. Hvis der planlægges langvarig udendørs aktivitet, bør 
+injektionsarmen som forebyggende forholdsregel beskyttes ved at bære langærmet, farvet tøj. </p>
+<p>Skemaet med instruktioner fortæller Dem, hvad De skal gøre for at forebygge 
+hudforbrændinger. De skal følge disse instruktioner nøje.  </p>
+<p>Spørg Deres læge eller sundhedspersonalet til råds, hvis der er noget, De er i tvivl om. </p>
+<p>Tid efter 
+injektion med 
+Foscan 
+Hvad bør jeg gøre for at forebygge forbrændinger? </p>
+<p>Dag 1 (0-timer) </p>
+<p>Ophold Dem indendørs i et mørklagt rum. Træk gardinerne for, og brug 
+elektriske pærer med en styrke på 60W eller derunder. 
+Undgå udsættelse for direkte sollys. </p>
+<p>Dag 2-7 </p>
+<p>De kan gradvist vende tilbage til normal indendørs belysning. Husk at 
+undgå direkte sollys, der kommer gennem vinduet eller direkte lys fra 
+elektriske apparater i hjemmet som f.eks. læselamper. De må godt se 
+fjernsyn.  </p>
+<p>De kan gå udendørs efter mørkets frembrud. </p>
+<p>Hvis det er absolut nødvendigt at gå udendørs, når det er lyst, skal De være 
+omhyggelig med at dække al huden til, også ansigtet og hænderne, og 
+bruge mørke briller.  </p>
+<p>De skal have følgende type tøj på:<br />
+ 
+Bredskygget hat: for hoved, hals, næse og ører 
+ 
+Tørklæde: for hoved og hals 
+ 
+Solbriller med sidestykker: for øjne og huden omkring øjnene 
+ 
+Langærmet trøje: for overkrop/arme 
+ 
+Lange bukser: for nederste del af kroppen/benene 
+ 
+Handsker: for hænder, håndled og fingre 
+ 
+Sokker: for fødder og ankler 
+ 
+Lukkede sko: for fødder. 
+ 
+Brug ikke meget tyndt tøj, da det ikke vil beskytte Dem mod 
+stærkt lys. Brug mørkt, tætvævet tøj. 
+ 
+Hvis De ved et uheld udsætter Dem selv for lys, kan De få en 
+prikkende eller sviende fornemmelse på huden. De skal straks gå 
+ud af lyset. </p>
+<p>Deres øjne kan være meget følsomme over for stærkt lys i denne uge. De 
+kan få ondt i øjnene eller hovedet, når der tændes for lyset. Hvis De har 
+dette problem, skal De bruge mørke briller. </p>
+<p>Dag 8- De må nu godt begynde at gå udendørs, når det er lyst. Ophold Dem i 
+skyggen eller gå ud, når det er overskyet. Bliv ved med at bruge mørkt, 
+tætvævet tøj. </p>
+<p>Begynd dag 8 med 10-15 minutter udendørs. Hvis huden ikke bliver rød i 
+løbet af de næste 24 timer, kan De efterhånden øge den tid, De tilbringer 
+udendørs i ugens løb. </p>
+<p>Undgå direkte sollys og stærk indendørs belysning. Ophold Dem i 
+skyggen. </p>
+<p>Fra og med dag </p>
+<p>Deres følsomhed over for lys bliver efterhånden normal igen.  </p>
+<p>De skal afprøve dette forsigtigt ved at udsætte håndryggen for solen i 5 
+minutter. Vent 24 timer for at se, om huden er blevet rød. Hvis den bliver 
+rød, skal De undgå direkte sollys i endnu 24 timer. De kan så gentage 
+prøven. </p>
+<p>Hvis huden ikke er blevet rød, kan De efterhånden øge udsættelsen for 
+sollys dag for dag. Ophold Dem ikke længere end 15 minutter i solen 
+første gang. De fleste mennesker vil kunne gå tilbage til deres normale 
+rutine på dag 22. På den første dag efter hudprøven kan De forblive i direkte sollys i minutter. De kan øge udsættelsen med 15 minutter hver dag, dvs. den 
+anden dag 30 minutter, den tredje dag 45 minutter, fjerde dag 60 minutter 
+osv.<br />
+Hvis De på noget tidspunkt bemærker en stikkende eller brændende 
+fornemmelse eller ser, at huden bliver rød efter udsættelse for sol, skal De 
+vente til disse symptomer forsvinder, før De udsætter huden for lys i dette 
+tidsrum igen. </p>
+<p>I 30 dage efter behandlingen med Foscan skal De undgå øjenprøver, hvor 
+der bruges stærkt lys. I 3 måneder efter behandlingen med Foscan skal De 
+undgå UV-solarier. De må ikke solbade. </p>
+<p>De skal i 6 måneder sørge for at undgå direkte langvarig udsættelse for 
+sollys af den arm, der er blevet brugt til injektion af Foscan. Hvis der 
+planlægges langvarig udendørs aktivitet, skal injektionsarmen som 
+forebyggende forholdsregel beskyttes ved at bære langærmet, farvet tøj. </p>
+<p>Brug af anden medicin sammen med Foscan 
+Fortæl det altid til lægen, hvis De bruger anden medicin eller har gjort det for nylig. </p>
+<p>Graviditet og amning 
+ 
+De skal undgå at blive gravid i 3 måneder efter behandlingen med Foscan. 
+ 
+Spørg Deres læge eller apotekspersonale til råds, før De tager nogen form for medicin, hvis 
+De er gravid. </p>
+<p>De må ikke amme i mindst 1 måned efter injektionen med Foscan. </p>
+<p>Trafik- og arbejdssikkerhed 
+ 
+Alkoholmængden i dette produkt lægemiddel kan i nogle få timer efter injektionen forringe 
+Deres evne til at køre eller betjene maskiner.<br />
+ 
+På grund af de begrænsninger mod udsættelse for lys, der anbefales i de første 15 dage efter 
+injektionen med Foscan, frarådes det at føre motorkøretøj og betjene maskiner.  </p>
+<p>Foscan indeholder ethanol (alkohol): 
+ 
+Dette præparat indeholder 48 vol % alkohol, dvs. op til 4,2 g pr. dosis, svarende til 84 ml øl 
+eller 35 ml vin pr. dosis. Præparatet er skadeligt for alkoholikere. Børn, gravide og ammende 
+kvinder og patienter i højrisikogruppe, som patienter med epilepsi og leversygdomme, er også 
+i risiko.<br />
+Alkoholmængden i dette produkt kan ændre virkningen af anden medicin. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take foscan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take foscan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p> 
+Deres læge eller sygeplejerske vil give Dem Foscan ved langsom indsprøjtning i en vene. Det 
+tager ca. 6 minutter. </p>
+<p> 
+4 dage efter indsprøjtningen vil Deres læge behandle Deres cancer med laserlys. Deres læge 
+vil dække det normale væv rundt om din kræft og rette laserlyset direkte mod kræften i ca. 
+5 minutter. Laserlyset er ikke varmt og vil ikke brænde Dem. </p>
+<p>Hvis De har fået for meget Foscan 
+ 
+De må ikke få laserbehandling.<br />
+ 
+De kan være følsom over for lys i over 15 dage.  </p>
+<p>De skal nøje følge instruktionerne for at forebygge hudforbrændinger. </p>
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Foscan kan som al anden medicin give bivirkninger. </p>
+<p> 
+Enhver, der tager Foscan, bliver følsom for lys i ca. 15 dage efter indsprøjtningen.<br />
+ 
+De skal følge de instruktioner, som De får, med hensyn til at undgå sollys og stærkt indendørs 
+lys.<br />
+ 
+Disse instruktioner er skrevet i denne indlægsseddel. Deres læge vil også fortælle Dem, hvad 
+De skal gøre.<br />
+Hvis De ikke følger disse instruktioner, kan De få alvorlig solskoldning, som medfører 
+permanent ardannelse.  </p>
+<p>De fleste bivirkninger med relation til fotodynamisk behandling er lokale virkninger, der ses som følge 
+af, at Foscan aktiveres af laseren. De kan føle smerter efter laserbehandlingen. Disse smerter vil blive 
+kontrolleret med smertestillende midler. Fortæl det til lægen eller sundhedspersonalet, hvis De har 
+smerter, eller hvis de smertestillende midler, De har fået, ikke fjerner smerterne. Desuden vil De 
+sandsynligvis bemærke hævelse og rødme rundt om det behandlede område. De kan få noget medicin 
+til at reducere hævelsen. Efter 2 til 4 dage vil det behandlede område blive sort. Denne sorte farve 
+skyldes døde kræftceller (nekrose). Foscan kan også beskadige vævet rundt om tumoren. </p>
+<p>Meget almindelige bivirkninger (kan forekomme flere end 1 af 10 personer): 
+ 
+De kan føle nogen smerte, når Foscan indsprøjtes.<br />
+ 
+Efter laserbehandlingen kan De føle nogen smerte i det behandlede område, f.eks. smerter i 
+ansigtet eller hovedpine.<br />
+ 
+Der kan også være blødende sår, hævelse i det behandlede område, såsom hævelse i ansigtet 
+eller af tungen og ardannelse.<br />
+ 
+De kan få forstoppelse. 
+Disse bivirkninger kan gøre det vanskeligt at spise og drikke. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 af 10 personer): 
+ 
+Der kan forekomme en vis irritation, en brændende fornemmelse eller beskadigelse af huden 
+på det sted, hvor Foscan er sprøjtet ind, men dette vil ikke vare længe.<br />
+ 
+De kan også få sår, vabler, huden kan blive rød eller mørk.<br />
+ 
+Opkastning 
+ 
+Feber 
+ 
+Kvalme 
+ 
+Anæmi 
+ 
+Lysfølsomhed 
+ 
+Solforbrænding 
+ 
+Forbrændinger 
+ 
+Synkebesvær 
+ 
+Svimmelhed  </p>
+<p> 
+Der kan komme hævelse, eller De kan få stivhed i kæben. Nogle personer kan få infektioner 
+på det behandlede sted, f.eks. betændelse i halsen eller munden. </p>
+<p>Hændelser, der forekommer med en ikke kendt hyppighed (hyppigheden kan ikke vurderes ud 
+fra tilgængelige data): 
+ 
+Blokering af luftvejene som følge af hævelse i det behandlede område 
+ 
+Fistel i det behandlede område 
+ 
+Sepsis 
+ 
+Karruptur </p>
+<p>Alvorlige bivirkninger, såsom betændelse af galdevejene eller i galdeblæren, byld på leveren eller 
+perforation af det behandlede område er blevet rapporteret ved brug til andre kræfttyper end i hoved 
+og hals. Kontakt lægen for flere oplysninger. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller sygeplejerske. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store foscan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store foscan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen. Udløbsdatoen er den 
+sidste dag i den nævnte måned. 
+Foscan vil blive opbevaret på hospitalsapoketet. 
+Må ikke opbevares ved temperaturer over 25 °C. 
+Opbevares i den originale yderpakning for at beskytte mod lys. Når medicinen er taget ud af 
+emballagen, skal den bruges omgående. 
+Hvert hætteglas er en enkeltdosis, og evt. ubrugt medicin skal kasseres. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Foscan indeholder:</p>
+<ul>
+<li>Aktivt stof: temoporfin. Hver ml indeholder 1 mg temoporfin </li>
+<li>Øvrige indholdsstoffer: vandfri ethanol (E1510) og propylenglycol (E1520). </li>
+</ul>
+<p>Udseende og pakningstørrelser  </p>
+<p>Foscan injektionsvæske, opløsning er en mørkviolet opløsning i et gult hætteglas, der indeholder 1 ml, 
+3 ml eller 6 ml opløsning. 
+Hver pakning indeholder 1 hætteglas og et filter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>biolitec Pharma Ltd. 
+Otto-Schott-Str. 07745 Jena 
+Tyskland </p>
+<p>Tlf.: +49 3641 5195Fax: +49 3641 5195 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>De kan finde yderligere oplysninger om Foscan på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu. </p>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>FOSCAN 1 mg/ml injektionsvæske, opløsning 
+Temoporfin </p>
+<ol>
+<li>PAKNINGENS INDHOLD </li>
+</ol>
+<p>Det aktive stof er temoporfin. Hver ml opløsning indeholder 1 mg temoporfin. Hjælpestofferne er 
+ethanol (vandfri) og propylenglycol. Der medfølger et filter med Luer-Lock samlinger til sprøjte og 
+kanyle. </p>
+<p>I hver pakke findes 1 hætteglas, der indeholder 1 ml, 3 ml eller 6 ml injektionsvæske, opløsning. </p>
+<p>Hvert hætteglas repræsenterer en enkelt dosis, og evt. ubrugt væske skal kasseres. </p>
+<ol>
+<li>BEREGNING AF DOSIS </li>
+</ol>
+<p>Den nødvendige dosis af Foscan beregnes efter patientens legemsvægt. Dosen er 0,15 mg/kg 
+legemsvægt. </p>
+<ol>
+<li>INDGIVELSE AF FOSCAN (96 timer før laserbelysning på behandlingsstedet) </li>
+</ol>
+<p>Foscan skal indgives intravenøst via en indlagt kanyle i en stor vene i et proksimalt lem, helst i fossa 
+cubiti. Den indlagte kanyles åbenhed bør afprøves inden injektionen. </p>
+<p>Væskens mørkviolette farve sammen med det gule hætteglas gør en visuel kontrol for partikler 
+umulig. Derfor skal der anvendes et in-line filter som en forebyggende foranstaltning, og dette 
+medfølger i pakken. </p>
+<p>Træk hele indholdet af hætteglasset med Foscan op i en sprøjte, og fjern luften (Figur 1). </p>
+<p>Figur 1 </p>
+<p>Montér filteret på sprøjten (Figur 2). </p>
+<p>Figur 2 </p>
+<p>Tryk sprøjtens stempel ind for at fylde alt dødrum inde i filteret. Fortsæt med at trykke på 
+stemplet for at fjerne overskydende Foscan, indtil det ønskede volumen er tilbage i sprøjten, 
+men lad nok være tilbage til at dække dødrummet i den intravenøse kanyle (Figur 3). </p>
+<p>Figur 3 </p>
+<p>Montér sprøjten og filteret på kanylen. Indgiv den ønskede dosis Foscan ved langsom 
+intravenøs injektion i løbet af ikke mindre end 6 minutter (Figur 4). </p>
+<p>Figur 4 </p>
+<p>Fjern omgående den intravenøse kanyle efter injektionen. Skyl IKKE med vandige opløsninger 
+såsom 9 mg/ml (0,9 %) natriumkloridopløsning til injektion eller vand til injektion. </p>
+<p>Der skal udvises særlig forsigtighed for at undgå ekstravasation på injektionsstedet. Hvis der opstår 
+ekstravasation, skal området beskyttes mod lys i mindst 3 måneder. Der er ingen kendt fordel ved at 
+injicere et andet stof på ekstravasionsstedet. </p>
+<p>Foscan er lysfølsom. Når lægemidlet først er taget ud af pakningen, skal det indgives omgående. Hvor 
+forsinkelse er uundgåelig, skal væsken beskyttes mod lys. </p>
+<ol>
+<li>LASERBELYSNING AF BEHANDLINGSSTEDET </li>
+</ol>
+<p>Se venligst brugsanvisningen til laseren eller mikrolinse-fiberoptikken. </p>
+<p>96 timer efter indgivelsen af Foscan skal behandlingsstedet belyses med 652 nm lys fra en godkendt 
+laserkilde. Hele tumorens overflade skal belyses ved brug af godkendt mikrolinse-fiberoptik. Hvor det 
+er muligt, skal det belyste område gå ud over tumormarginen i en afstand af 0,5 cm. </p>
+<p>Lysbehandling må gives ikke mindre end 90 timer eller mere end 110 timer efter Foscaninjektion. </p>
+<p>Incidenslysdosen er 20 J/cm2, leveret med mikrolinse-fiberoptik i et rundt felt på en tumoroverflade 
+med en irradians på 100 mW/cm2, hvilket betyder en belysningstid på 200 sekunder. </p>
+<p>Hvert felt må kun belyses én gang ved hver behandling. Flere ikke-overlappende felter kan belyses. 
+Der skal udvises forsigtighed for at sikre, at intet område af vævet modtager mere end den anførte 
+lysdosis. Væv uden for målområdet skal tildækkes helt for at undgå fotoaktivering ved spredt eller 
+reflekteret lys. </p>
+<ol>
+<li>SIKKERHEDSOPLYSNINGER </li>
+</ol>
+<p>Foscan er ikke irriterende. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-395326013d549ebdb9d953865850ffcf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for foscan Package Leaflet for language en"
+Description: "ePI document Bundle for foscan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-395326013d549ebdb9d953865850ffcf"
+* entry[0].resource = composition-en-395326013d549ebdb9d953865850ffcf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp395326013d549ebdb9d953865850ffcf"
+* entry[=].resource = mp395326013d549ebdb9d953865850ffcf
+                            
+                    
+Instance: bundlepackageleaflet-da-395326013d549ebdb9d953865850ffcf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for foscan Package Leaflet for language da"
+Description: "ePI document Bundle for foscan Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-395326013d549ebdb9d953865850ffcf"
+* entry[0].resource = composition-da-395326013d549ebdb9d953865850ffcf
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp395326013d549ebdb9d953865850ffcf"
+* entry[=].resource = mp395326013d549ebdb9d953865850ffcf
+                            
+                    
+
+
+
+Instance: mp395326013d549ebdb9d953865850ffcf
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Foscan 1 mg/ml solution for injection"
-Description: "Foscan 1 mg/ml solution for injection"
+Title: "Medicinal Product foscan"
+Description: "foscan"
 Usage: #inline
 
  
@@ -321,7 +798,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Foscan 1 mg/ml solution for injection"
+  * productName = "foscan"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -348,29 +825,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-395326013d549ebdb9d953865850ffcf
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for foscan Package Leaflet for language en"
-Description: "ePI document Bundle for foscan Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 395326013d549ebdb9d953865850ffcfListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/01/197/003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "foscan"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-395326013d549ebdb9d953865850ffcf"
-* entry[0].resource = composition-en-395326013d549ebdb9d953865850ffcf
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpec0004fd793e2f4582f0ce6310965f45"
-* entry[=].resource = mpec0004fd793e2f4582f0ce6310965f45
-                            
-                      
+* title = "List of all ePIs associated with foscan"
+
+* subject = Reference(mpec0004fd793e2f4582f0ce6310965f45)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#foscan "foscan"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-395326013d549ebdb9d953865850ffcf) // foscan en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-395326013d549ebdb9d953865850ffcf) // foscan da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-395326013d549ebdb9d953865850ffcf
+InstanceOf: List
+
+* insert 395326013d549ebdb9d953865850ffcfListRuleset
+    

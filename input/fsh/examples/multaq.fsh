@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e920daef4740e3503bcd6e771765f8e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for multaq Package Leaflet"
@@ -405,12 +408,541 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-e920daef4740e3503bcd6e771765f8e6
+InstanceOf: CompositionUvEpi
+Title: "Composition for multaq Package Leaflet"
+Description:  "Composition for multaq Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb3d5bfa89e9b810c488378f8109e984b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb3d5bfa89e9b810c488378f8109e984b
+* title = "TEST PURPOSES ONLY - multaq"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage MULTAQ 
+3. Sådan skal du tage MULTAQ 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What multaq is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What multaq is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>MULTAQ indeholder et aktivt stof, der hedder dronedaron. Det tilhører en gruppe lægemidler, der hedder 
+antiarytmika, som hjælper med at regulere dit hjertes slag.  </p>
+<p>MULTAQ anvendes, hvis du har problemer med dit hjerte, så hjertet slår ude af takt (atrieflimren), og 
+spontant, eller under en behandling kaldet kardiovertering har ændret dit hjerteslag, så rytmen (pulsen) er 
+normal. 
+MULTAQ forebygger gentagelse af lidelsen med uregelmæssig hjerterytme. MULTAQ bruges kun af 
+voksne. </p>
+<p>Din læge vil overveje alle tilgængelige behandlingsmuligheder før MULTAQ ordineres til dig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take multaq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take multaq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke MULTAQ:</p>
+<ul>
+<li>hvis du er allergisk over for dronedaron eller et af de øvrige indholdsstoffer i MULTAQ (angivet i 
+punkt 6), </li>
+<li>hvis du har problemer med nerveimpulser i hjertet (grenblok). Dit hjerte kan slå meget langsomt, eller 
+du kan føle dig svimmel. Hvis du har fået indopereret en pacemaker for dette problem, kan du anvende 
+MULTAQ, </li>
+<li>hvis du har meget lav puls (under 50 slag pr. minut), </li>
+<li>hvis dit ekg (elektrokardiogram) viser et hjerteproblem, der kaldes "forlænget QT-korrigeret interval" 
+(intervallet er længere end 500 millisekunder), </li>
+<li>hvis du har en type atrieflimren, der kaldes permanent atrieflimren (AF). Ved permanent AF har AF 
+været til stede længe (mindst 6 måneder), og der er truffet beslutning om ikke at ændre din hjerterytme 
+tilbage til normal rytme med kardiovertering, </li>
+<li>
+<p>hvis du har ustabilitet ("fald") i dit blodtryk som kan føre til utilstrækkelig arterielt blodcirklation i 
+dine organer. </p>
+</li>
+<li>
+<p>hvis du har eller har haft en  lidelse, hvor hjertet ikke kan pumpe blodet rundt i kroppen, så godt som 
+det burde (en tilstand, der kaldes hjertesvigt). Du kan have hævede fødder eller ben, 
+vejrtrækningsproblemer, når du ligger ned eller sover, eller du får åndenød, når du bevæger dig, </p>
+</li>
+<li>hvis den mængde blod, der forlader dit hjerte hver gang, det trækker sig sammen, er for lille (en 
+tilstand, der kaldes systolisk dysfunktion af venstre ventrikel), </li>
+<li>hvis du for nylig har taget amiodaron (et andet antiarytmika) og fået problemer med lungerne eller 
+leveren, </li>
+<li>hvis du tager medicin mod infektioner (inklusive svampeinfektioner eller AIDS), allergi, problemer 
+med pulsslagene, depression, efter organtransplantation (se afsnittet nedenfor: "Brug af anden medicin 
+sammen med MULTAQ", som giver dig flere præcise detaljer om, hvilken medicin du ikke må tage 
+sammen med MULTAQ), </li>
+<li>hvis du har en alvorlig leversygdom, </li>
+<li>hvis du har en alvorlig nyresygdom, </li>
+<li>hvis du tager dabigatran (se afsnittet "Brug af anden medicin sammen med MULTAQ" nedenfor). </li>
+</ul>
+<p>Hvis noget af det ovenstående gælder for dig, må du ikke tage MULTAQ. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager MULTAQ, hvis 
+ 
+du lider af en sygdom, der medfører et lavt niveau af kalium eller magnesium i dit blod. Dette problem 
+skal behandles, inden du begynder på behandlingen med MULTAQ, 
+ 
+du er over 75 år, 
+ 
+du har en lidelse, hvor de kar, der forsyner hjertet med blod, bliver hårde og forsnævrede (forkalkning 
+af kranspulsårene). </p>
+<p>Mens du er i behandling med MULTAQ, fortæl din læge, hvis 
+ 
+din atrieflimren bliver permanent, mens du tager MULTAQ. Du skal ophøre med at tage MULTAQ, 
+ 
+du får hævede fødder eller ben, vejrtrækningsproblemer, når du ligger ned eller under søvn, åndenød, 
+når du går, eller du tager på i vægt (hvilket er tegn og symptomer på hjertesvigt), 
+ 
+hvis du udvikler nedenstående tegn og symptomer på leverproblemer, skal du straks fortælle det til din 
+læge: smerter i maveregionen eller ubehag, appetitløshed, kvalme, opkastning, gulfarvning af huden 
+eller det hvide i øjnene (gulsot), usædvanlig mørkfarvning af urinen, træthed (særligt i forbindelse med 
+andre symptomer anført ovenfor), kløe, 
+ 
+du bliver stakåndet eller har uproduktiv hoste. Fortæl din læge det, han/hun vil kontrollere dine lunger. </p>
+<p>Hvis dette gælder for dig (eller du er i tvivl), skal du tale med din læge eller spørge på apoteket, før du tager 
+MULTAQ. </p>
+<p>Undersøgelser af dit hjerte, lunger og blod 
+Mens du tager MULTAQ, vil din læge muligvis udføre nogle undersøgelser for at tjekke din sygdomstilstand 
+og for at se, hvordan medicinen virker på dig. 
+ 
+Din læge kan se på hjertets elektriske aktivitet ved hjælp af ekg-udstyr (elektrokardiogram). 
+ 
+Din læge vil tage blodprøver for at tjekke din leverfunktion, før du begynder at tage MULTAQ samt 
+under behandlingen.<br />
+ 
+Hvis du tager medicin mod dannelse af blodpropper såsom warfarin, vil din læge bestille en blodprøve, 
+som kaldes INR, for at kontrollere, hvor godt din medicin virker. 
+ 
+Din læge kan også tage andre blodprøver. Resultatet af en af disse blodprøver, som kontrollerer 
+nyrefunktionen (blodkreatinin-niveauet), kan være ændret på grund af MULTAQ. Din læge vil tage 
+højde for dette i sin vurdering af blodprøven og vil bruge en anden standardværdi for blodkreatinin. 
+ 
+Din læge vil måske kontrollere dine lunger. 
+I nogle tilfælde kan det være nødvendigt at stoppe behandlingen med MULTAQ. </p>
+<p>Hvis der er andre personer, der undersøger dit blod, skal du sige til dem, at du er i behandling med 
+MULTAQ. </p>
+<p>Børn og unge<br />
+MULTAQ anbefales ikke til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med MULTAQ 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager, har gjort det for nylig eller måske vil tage anden 
+medicin.<br />
+Alt efter din tilstand kan din læge anbefale, at du tager blodfortyndende medicin (mod dannelse af 
+blodpropper). </p>
+<p>MULTAQ og andre typer medicin kan påvirke hinanden og medføre alvorlige bivirkninger. Din læge kan 
+ændre dosis af en hvillken som helst anden medicin du tager. </p>
+<p>Du må ikke tage noget af følgende medicin sammen med MULTAQ: 
+ 
+anden medicin der bruges til at behandle uregelmæssige eller hurtige hjerteslag såsom flecainid, 
+propafenon, quinidin, disopyramid, dofetilid, sotalol, amiodaron, 
+ 
+visse typer medicin mod svampeinfektioner såsom ketoconazol, voriconazol, itraconazol eller 
+posaconazol, 
+ 
+visse typer medicin mod depression, som kaldes tricykliske antidepressiva, 
+ 
+visse typer beroligende medicin, kaldet phenothiaziner, 
+ 
+bepridil mod brystsmerter pga. hjertesygdom, 
+ 
+telithromycin, erythromycin eller clarithromycin (antibiotika mod infektioner), 
+ 
+terfenadin (medicin mod allergi) 
+ 
+nefazodon (medicin mod depression) 
+ 
+cisaprid (medicin mod opstød af mad og mavesyre op i munden), 
+ 
+ritonavir (medicin mod aids), 
+ 
+dabigatran (medicin til forebyggelse af blodpropper). </p>
+<p>Du skal fortælle det til lægen eller sige det på apoteket, hvis du tager noget af følgende medicin: 
+ 
+anden medicin mod forhøjet blodtryk, mod brystsmerter pga. hjertesygdom eller andre 
+hjerteproblemer, såsom verapamil, diltiazem, nifedipin, metoprolol, propranol eller digoxin, 
+ 
+visse typer kolesterolsænkende medicin (såsom simvastatin, lovastatin, atorvastatin eller rosuvastatin), 
+ 
+visse typer medicin mod blodpropper såsom warfarin, rivaroxaban, edoxaban og apixaban. 
+ 
+visse typer medicin mod epilepsi, der kaldes phenobarbital, carbamazepin eller phenytoin, 
+ 
+sirolimus, tacrolimus, everolimus og ciclosporin (anvendes efter organtransplantation), 
+ 
+perikon - naturlægemiddel mod depression, 
+ 
+rifampicin - mod tuberkulose. </p>
+<p>Brug af MULTAQ sammen med mad og drikke 
+Du må ikke drikke grapefrugtjuice, når du er i behandling med MULTAQ. Det kan øge blodets indhold af 
+dronedaron, og kan øge din risiko for at få bivirkninger.  </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du tager dette lægemiddel.<br />
+ 
+MULTAQ anbefales ikke, hvis du er gravid, eller hvis du overvejer at blive gravid. 
+ 
+Du må ikke tage MULTAQ, hvis du er kvinde i den fødedygtige alder, og du ikke anvender pålidelig 
+prævention. </p>
+<p> 
+Du skal stoppe med at tage dine tabletter og straks tale med din læge, hvis du bliver gravid, mens du er 
+i behandling med MULTAQ. 
+ 
+Det vides ikke om MULTAQ passerer over i modermælken. Du skal tale med din læge og beslutte om 
+du vil tage MULTAQ eller amme. Du bør ikke gøre begge dele.<br />
+Trafik- og arbejdssikkerhed 
+MULTAQ påvirker normalt ikke evnen til at køre bil og bruge maskiner. Dog kan din evne til at køre bil og 
+bruge maskiner påvirkes af bivirkninger som træthed. </p>
+<p>MULTAQ indeholder lactose 
+Lactose er en sukkerart. Hvis din læge har fortalt dig, at du ikke tåler visse sukkerarter, skal du tale med din 
+læge, inden du tager dette lægemiddel. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take multaq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take multaq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på apoteket.<br />
+Behandling med MULTAQ vil blive overvåget af en læge med erfaring i behandling af hjertesygdomme  </p>
+<p>Hvis du skal skifte fra amiodaron (en anden medicin mod uregelmæssig hjerterytme) til MULTAQ, kan din 
+læge give specielle anbefalinger f.eks. pause for amiodaron før der skiftes. Fortæl din læge om al den 
+medicin du tager.  </p>
+<p>Hvor meget du skal tage 
+Den sædvanlige dosis er en tablet af 400 mg to gange daglig. Tag: 
+ én tablet i forbindelse med dit morgenmåltid og 
+ én tablet i forbindelse med dit aftensmåltid. </p>
+<p>Hvis du tror, at din medicin er for kraftig eller for svag, skal du tale med din læge eller spørge på apoteket. </p>
+<p>Hvordan du skal tage medicinen 
+Du skal synke tabletten hel med et glas vand i forbindelse med et måltid. Tabletten kan ikke deles i to lige 
+store doser. </p>
+<p>Hvis du har taget for meget MULTAQ 
+Kontakt straks din læge eller nærmeste skadestue/hospital. Tag medicinpakningen med dig. </p>
+<p>Hvis du har glemt at tage MULTAQ 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. Tag den næste dosis som planlagt. </p>
+<p>Hvis du holder op med at tage MULTAQ 
+Du må ikke holde op med at tage medicinen uden først at tale med din læge eller spørge på apoteket. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Følgende bivirkninger ved denne medicin er blevet indberettet: </p>
+<p>Kontakt straks lægen, hvis du oplever nogle af de følgende bivirkning - du kan have brug for akut 
+lægehjælp </p>
+<p>Meget almindelig (forekommer hos flere end 1 patient ud af 10)<br />
+ problem hvor dit hjerte ikke kan pumpe blodet rundt i kroppen, så godt som det burde 
+(hjerteinsufficiens). I kliniske studier blev denne bivirkning set med samme hyppighed hos de patienter, 
+der fik MULTAQ, og de patienter, der fik uvirksom medicin (placebo). Symptomer inkluderer hævede 
+fødder eller ben, vejrtrækningsproblemer når du ligger ned eller sover, åndenød når du bevæger dig, 
+eller vægtøgning. </p>
+<p>Almindelig (forekommer hos 1 til 10 patienter ud af 100)<br />
+ 
+diarré, udtalt opkastning, da det kan føre til nyreproblemer, 
+ 
+langsom puls. </p>
+<p>Ikke almindelig (forekommer hos 1 til 10 patienter ud af 1.000) 
+ 
+inflammation (betændelsesagtig tilstand) i lungerne (med dannelse af arvæv og fortykkelse af lungerne). 
+Symptomer inkluderer åndenød eller tør hoste. </p>
+<p>Sjælden (forekommer hos 1 til 10 patienter ud af 10.000) 
+ 
+leverproblemer inklusive livstruende leversvigt. Symptomer inkluderer smerte eller ubehag i 
+maveregion, manglende appetit, kvalme, opkastning, gulfarvning af hud eller det hvide af øjnene 
+(gulsot), ualmindelig mørkfarvning af urin, træthed (særligt i forbindelse med symptomer anført 
+ovenfor), kløe. 
+ 
+allergiske reaktioner, herunder hævelser i ansigtet, læberne, munden, tungen eller halsen. </p>
+<p>Andre bivirkninger inkluderer: 
+Meget almindelig<br />
+ 
+ændringer i resultatet af en blodprøve, der viser, hvor meget kreatinin du har i blodet, 
+ 
+ændringer i dit ekg (elektrokardiogram) kaldet langvarig QTc Bazett. </p>
+<p>Almindelig<br />
+ 
+problemer med dit fordøjelsessystem såsom fordøjelsesbesvær, diarré, kvalme, opkastning og 
+mavesmerter.<br />
+ 
+du føler dig træt, 
+ 
+hudproblemer såsom udslæt eller kløe, 
+ 
+ændring i resultaterne af blodprøver til kontrol af din leverfunktion. </p>
+<p>Ikke almindelig 
+ 
+andre hudproblemer såsom hudrødme eller eksem (rødme, kløe, brændende fornemmelse eller 
+blisterdannelse), 
+ 
+din hud bliver mere følsom over for sollys, 
+ 
+ændringer i smagssansen. </p>
+<p>Sjælden<br />
+ 
+tab af smagssans, 
+ 
+betændelse (inflammation) i blodkarrene (vasculitis inklusive leukocytoklastisk vasculitis). </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i </p>
+<p>Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store multaq"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store multaq"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på blisterkort og pakning efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p>
+<p>Brug ikke dette lægemiddel, hvis der er synlige tegn på nedbrydning (se punkt 6). </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>MULTAQ indeholder:</p>
+<ul>
+<li>Aktivt stof: dronedaron. 
+Hver filmovertrukken tablet indeholder 400 mg dronedaron (som hydrochlorid). </li>
+<li>Øvrige indholdsstoffer i tabletkernen: hypromellose (E464), majsstivelse, crospovidon (E1202), 
+poloxamer 407, lactosemonohydrat (se pkt. 2 under ’MULTAQ indeholder lactose’), kolloid vandfri 
+silica, magnesiumstearat (E572). </li>
+<li>Øvrige indholdsstoffer i filmovertrækket: hypromellose (E464), macrogol 6000, titandioxid (E171), 
+carnaubavoks (E903). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+MULTAQ er en hvid, oval, filmovertrukket tablet (tablet) med en dobbeltbølge på den ene side, og "4142" 
+på den anden side. </p>
+<p>MULTAQ filmovertrukne tabletter fås i pakninger af 20, 50, 60 tabletter i matte PVC- og aluminiumsblister, 
+og 100x1 tabletter fås i matte, perforerede PVC- og aluminium-endosisblister. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Sanofi Winthrop Industrie 
+82 avenue Raspail 
+94250 Gentilly 
+Frankrig </p>
+<p>Fremstiller 
+Sanofi Winthrop Industrie 
+1 rue de la Vierge, Ambarès &amp; Lagrave, 
+F-33565 Carbon Blanc Cedex - Frankrig </p>
+<p>Sanofi-Aventis Deutschland GmbH 
+Brüningstrasse Industriepark Höchst,  </p>
+<p>D-65926 Frankfurt 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf.: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE 
+Τηλ: +30 210 900 16<br />
+Österreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda. 
+Tel: +351 21 35 89<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31<br />
+Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51  </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800.536<br />
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija<br />
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Denne indlægsseddel blev senest ændret { MM/ÅÅÅÅ } </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e920daef4740e3503bcd6e771765f8e6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for multaq Package Leaflet for language en"
+Description: "ePI document Bundle for multaq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e920daef4740e3503bcd6e771765f8e6"
+* entry[0].resource = composition-en-e920daef4740e3503bcd6e771765f8e6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe920daef4740e3503bcd6e771765f8e6"
+* entry[=].resource = mpe920daef4740e3503bcd6e771765f8e6
+                            
+                    
+Instance: bundlepackageleaflet-da-e920daef4740e3503bcd6e771765f8e6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for multaq Package Leaflet for language da"
+Description: "ePI document Bundle for multaq Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e920daef4740e3503bcd6e771765f8e6"
+* entry[0].resource = composition-da-e920daef4740e3503bcd6e771765f8e6
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe920daef4740e3503bcd6e771765f8e6"
+* entry[=].resource = mpe920daef4740e3503bcd6e771765f8e6
+                            
+                    
+
+
+
+Instance: mpe920daef4740e3503bcd6e771765f8e6
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product MULTAQ 400 mg film-coated tablets"
-Description: "MULTAQ 400 mg film-coated tablets"
+Title: "Medicinal Product multaq"
+Description: "multaq"
 Usage: #inline
 
  
@@ -430,7 +962,7 @@ Usage: #inline
 
 
 * name
-  * productName = "MULTAQ 400 mg film-coated tablets"
+  * productName = "multaq"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -457,29 +989,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e920daef4740e3503bcd6e771765f8e6
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for multaq Package Leaflet for language en"
-Description: "ePI document Bundle for multaq Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e920daef4740e3503bcd6e771765f8e6ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/591/001 - cartons of 20 film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "multaq"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e920daef4740e3503bcd6e771765f8e6"
-* entry[0].resource = composition-en-e920daef4740e3503bcd6e771765f8e6
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb3d5bfa89e9b810c488378f8109e984b"
-* entry[=].resource = mpb3d5bfa89e9b810c488378f8109e984b
-                            
-                      
+* title = "List of all ePIs associated with multaq"
+
+* subject = Reference(mpb3d5bfa89e9b810c488378f8109e984b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#multaq "multaq"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e920daef4740e3503bcd6e771765f8e6) // multaq en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e920daef4740e3503bcd6e771765f8e6) // multaq da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e920daef4740e3503bcd6e771765f8e6
+InstanceOf: List
+
+* insert e920daef4740e3503bcd6e771765f8e6ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b4a7586c3f2386c190c1701cbb794f3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rystiggo Package Leaflet"
@@ -319,12 +322,542 @@ Tel: + 353 / (0)1-46 37 This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-b4a7586c3f2386c190c1701cbb794f3c
+InstanceOf: CompositionUvEpi
+Title: "Composition for rystiggo Package Leaflet"
+Description:  "Composition for rystiggo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpcc009952159ad0aa71dd8d450351e4ac)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpcc009952159ad0aa71dd8d450351e4ac
+* title = "TEST PURPOSES ONLY - rystiggo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Rystiggo </li>
+<li>Sådan skal du bruge Rystiggo </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rystiggo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rystiggo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning </p>
+<p>Rystiggo indeholder det aktive stof rozanolixizumab. Rozanolixizumab er et monoklonalt antistof (en 
+type protein), der er designet til at genkende og binde sig til FcRn, som er et protein, der holder 
+immunglobulin G (IgG)-antistoffer i kroppen i længere tid. </p>
+<p>Rystiggo bruges sammen med standardbehandling hos voksne til behandling af generaliseret 
+myasthenia gravis (gMG), en autoimmun sygdom, der forårsager muskelsvaghed, som kan påvirke 
+flere muskelgrupper i hele kroppen. Tilstanden kan også føre til åndenød, ekstrem træthed og 
+synkebesvær. Rystiggo anvendes hos voksne med gMG, der producerer IgG-autoantistoffer mod 
+acetylcholinreceptorer eller muskelspecifikke tyrosinkinasereceptorer. </p>
+<p>Ved generaliseret myasthenia gravis (gMG) angriber og beskadiger disse IgG-autoantistoffer 
+(proteiner i immunsystemet, der angriber dele af en persons egen krop) proteiner, der er involveret i 
+kommunikationen mellem nerver og muskler, kaldet acetylcholinreceptorer eller muskelspecifikke 
+tyrosinkinasereceptorer. Ved at binde sig til FcRn reducerer Rystiggo niveauet af IgG-antistoffer, 
+herunder IgG-autoantistoffer, og hjælper derved med at forbedre symptomerne på sygdommen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rystiggo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rystiggo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Rystiggo </p>
+<ul>
+<li>hvis du er allergisk over for rozanolixizumab eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger dette lægemiddel, hvis noget af 
+følgende gælder for dig: </p>
+<p>Myasten krise 
+Din læge må ikke ordinere dette lægemiddel, hvis du er eller sandsynligvis kan komme i respirator på 
+grund af muskelsvaghed forårsaget af generaliseret myasthenia gravis (myasten krise). </p>
+<p>Betændelse i den membran, der omgiver hjernen og rygmarven (aseptisk meningitis) 
+Aseptisk meningitis er blevet observeret i forbindelse med dette lægemiddel ved en højere dosis. Søg 
+omgående lægehjælp, hvis du udvikler symptomer på aseptisk meningitis, såsom svær hovedpine, 
+feber, stivhed i nakken, kvalme, opkastning og/eller følsomhed over for stærkt lys. </p>
+<p>Infektioner 
+Dette lægemiddel kan reducere din naturlige modstand mod infektioner. Du skal fortælle det til din 
+læge, hvis du har nogen former for symptomer på infektion (følelse af varme, feber, kuldegysninger 
+eller kulderystelser, hoste, ondt i halsen eller forkølelsessår, der kan være tegn på en infektion), før du 
+påbegynder behandlingen eller under behandlingen med dette lægemiddel. </p>
+<p>Overfølsomhed (allergiske reaktioner) 
+Dette lægemiddel indeholder et protein, der kan forårsage reaktioner såsom udslæt, hævelse eller kløe 
+hos nogle personer. Du vil blive overvåget for tegn på en reaktion forårsaget af infusionen under 
+behandlingen og i 15 minutter efter behandlingen. </p>
+<p>Immuniseringer (vaccinationer) 
+Fortæl din læge, hvis du har fået en vaccine i løbet af de sidste 4 uger, eller hvis du planlægger at blive 
+vaccineret i den nærmeste fremtid. </p>
+<p>Børn og unge </p>
+<p>Dette lægemiddel må ikke gives til børn under 18 år, da brug af Rystiggo ikke er blevet undersøgt hos 
+denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Rystiggo </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Hvis du bruger Rystiggo sammen med andre lægemidler, kan det medføre, at virkningen af disse 
+lægemidler, herunder terapeutiske antistoffer (såsom rituximab) eller subkutane eller intravenøse 
+immunglobuliner, nedsættes. Andre lægemidler, herunder subkutane eller intravenøse 
+immunglobuliner eller indgreb såsom plasmaferese (en proces, hvor den flydende del af blodet eller 
+plasmaet adskilles fra blod, der er tappet fra en person) kan forringe virkningen af Rystiggo. Fortæl det 
+til lægen, hvis du tager andre lægemidler, eller planlægger at gøre det. </p>
+<p>Fortæl lægen, at du får behandling med Rystiggo, før du skal have en vaccination. Dette lægemiddel 
+kan forringe virkningen af vacciner. Vaccination med såkaldte levende, svækkede eller levende 
+vacciner frarådes under behandling med Rystiggo. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Virkningerne af dette lægemiddel under graviditet kendes ikke. Brug derfor ikke dette lægemiddel, 
+hvis du er gravid eller tror, at du kan være gravid, medmindre din læge specifikt anbefaler det. </p>
+<p>Det vides ikke, om dette lægemiddel udskilles i modermælken. Din læge vil hjælpe dig med at 
+beslutte, om du bør amme og bruge Rystiggo. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Rystiggo vil sandsynligvis ikke påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>
+<p>Rystiggo indeholder prolin </p>
+<p>Dette lægemiddel indeholder 29 mg prolin i hver ml lægemiddel. 
+Prolin kan være skadeligt for patienter med hyperprolinæmi, som er en sjælden genetisk sygdom, hvor 
+der ophobes et overskud af aminosyren prolin i kroppen. 
+Hvis du har hyperprolinæmi, skal du fortælle det til din læge. Du må ikke bruge dette lægemiddel, 
+medmindre din læge har anbefalet det. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rystiggo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rystiggo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med Rystiggo vil blive påbegyndt og overvåget af en speciallæge med erfaring i 
+behandlingen af neuromuskulære eller neuroinflammatoriske sygdomme.  </p>
+<p>Hvor meget Rystiggo gives og hvor længe </p>
+<p>Du vil få Rystiggo i cyklusser af 1 infusion om ugen i 6 uger. 
+Din læge vil beregne den korrekte dosis for dig, baseret på din vægt:</p>
+<ul>
+<li>hvis du vejer mere end 100 kg, er den anbefalede dosis 840 mg pr. infusion (6 ml pr. 
+administration er påkrævet) </li>
+<li>hvis du vejer fra 70 kg til mindre end 100 kg, er den anbefalede dosis 560 mg pr. infusion 
+(4 ml pr. administration er påkrævet) </li>
+<li>hvis du vejer fra 50 kg til mindre end 70 kg, er den anbefalede dosis 420 mg pr. infusion (3 ml 
+pr. administration er påkrævet) </li>
+<li>hvis du vejer fra 35 kg til mindre end 50 kg, er den anbefalede dosis 280 mg pr. infusion (2 ml 
+pr. administration er påkrævet) </li>
+</ul>
+<p>Hyppigheden af behandlingscyklusser varierer for hver patient og din læge vil overveje, hvorvidt og 
+hvornår en ny behandlingscyklus er passende for dig. </p>
+<p>Din læge vil rådgive dig om, hvor længe du bør behandles med dette lægemiddel. </p>
+<p>Sådan gives Rystiggo </p>
+<p>Du vil få Rystiggo af en læge eller sygeplejerske. </p>
+<p>Du vil få dette lægemiddel som en infusion under huden (subkutan anvendelse). Det injiceres normalt i 
+den nedre del af maven, under navlen. Injektionerne må ikke gives i områder, hvor huden er øm, har 
+blå mærker, er rød eller hård. </p>
+<p>Hver administration udføres ved hjælp af en infusionspumpe, der er indstillet til en flowhastighed på 
+op til 20 ml/t. </p>
+<p>Hvis du har fået for meget Rystiggo </p>
+<p>Hvis du har mistanke om, at du ved et uheld har fået en højere dosis Rystiggo end ordineret, skal du 
+kontakte din læge for at få rådgivning. </p>
+<p>Hvis du glemmer eller udebliver fra et besøg, hvor du skal have Rystiggo </p>
+<p>Hvis du glemmer en dosis, skal du straks kontakte din læge for at få rådgivning, og for at aftale et 
+besøg inden for de næste 4 dage, hvor du kan få Rystiggo. Derefter skal den næste dosis gives i 
+henhold til den oprindelige doseringsplan, indtil behandlingscyklussen er afsluttet. </p>
+<p>Hvis du holder op med at bruge Rystiggo </p>
+<p>Du må ikke holde op med at bruge dette lægemiddel uden først at have talt med din læge om det. 
+Afbrydelse eller ophør af behandlingen med Rystiggo kan få dine symptomer på generaliseret 
+myasthenia gravis til at vende tilbage.  </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nedenstående bivirkninger, vist i rækkefølge efter faldende hyppighed, er blevet observeret med 
+Rystiggo: </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer 
+- Hovedpine (herunder migræne) 
+- Diarré 
+- Feber (pyreksi) </p>
+<p>Almindelig: kan forekomme hos op til 1 ud af 10 personer 
+- Hurtigt indtrædende hævelse under huden i områder såsom ansigtet, halsen, armene og benene 
+(angioødem) 
+- Ledsmerter (artralgi) 
+- Hududslæt, nogle gange med røde knopper (papuløst udslæt) 
+- Reaktion på injektionsstedet herunder udslæt på injektionsstedet, rødme af huden (erytem), 
+inflammation, ubehag og smerter på infusionsstedet </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rystiggo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rystiggo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og den ydre karton efter 
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). 
+Må ikke nedfryses. </p>
+<p>Opbevar hætteglasset i yderpakningen for at beskytte mod lys. </p>
+<p>Hvert hætteglas med injektionsvæske, opløsning, må kun bruges én gang (engangsbrug). Alt ubrugt 
+produkt eller affaldsmateriale skal bortskaffes i overensstemmelse med lokale krav. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at væsken er uklar, indeholder fremmede partikler eller har 
+skiftet farve. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rystiggo indeholder:</p>
+<ul>
+<li>Aktivt stof: rozanolixizumab. Hver ml opløsning indeholder 140 mg rozanolixizumab. Hvert 
+hætteglas med 2 ml indeholder 280 mg rozanolixizumab. </li>
+<li>Øvrige indholdsstoffer: histidin, histidinhydrochloridmonohydrat, prolin, polysorbat 80 og 
+vand til injektionsvæsker. Se punkt 2 "Rystiggo indeholder prolin". </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Rystiggo er en injektionsvæske, opløsning. Hver æske indeholder 1 hætteglas med 2 ml opløsning til 
+injektion. Opløsningen en farveløs til svagt brun-gul, klar til let opaliserende. 
+Det udstyr, der anvendes til administration, skal anskaffes separat. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>UCB Pharma S.A., Allée de la Recherche 60, B-1070 Bruxelles, Belgien </p>
+<p>Fremstiller </p>
+<p>UCB Pharma S.A., Chemin du Foriest, B-1420 Braine-l’Alleud, Belgien. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+UCB Pharma S.A./NV 
+Tél/Tel: + 32 / (0)2 559 92<br />
+Lietuva 
+UAB Medfiles 
+Tel: + 370 5 246 16 България 
+Ю СИ БИ България ЕООД 
+Teл.: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
+UCB Pharma S.A./NV 
+Tél/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+UCB s.r.o. 
+Tel: + 420 221 773 Magyarország 
+UCB Magyarország Kft. 
+Tel.: + 36-(1) 391 0 
+Danmark 
+UCB Nordic A/S 
+Tlf: + 45 / 32 46 24 Malta 
+Pharmasud Ltd. 
+Tel: + 356 / 21 37 64<br />
+Deutschland 
+UCB Pharma GmbH 
+Tel: + 49 /(0) 2173 48 4Nederland 
+UCB Pharma B.V. 
+Tel: + 31 / (0)76-573 11<br />
+Eesti 
+OÜ Medfiles 
+Tel: + 372 730 5Norge 
+UCB Nordic A/S 
+Tlf: + 47 / 67 16 5 
+Ελλάδα 
+UCB Α.Ε. 
+Τηλ: + 30 / 2109974Österreich 
+UCB Pharma GmbH 
+Tel: + 43-(0)1 291 80<br />
+España 
+UCB Pharma, S.A. 
+Tel: + 34 / 91 570 34 Polska 
+UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
+Tel.: + 48 22 696 99<br />
+France 
+UCB Pharma S.A. 
+Tél: + 33 / (0)1 47 29 44 Portugal 
+UCB Pharma (Produtos Farmacêuticos), Lda 
+Tel: + 351 21 302 5 
+Hrvatska 
+Medis Adria d.o.o. 
+Tel: +385 (0) 1 230 34<br />
+România 
+UCB Pharma Romania S.R.L. 
+Tel: + 40 21 300 29<br />
+Ireland 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37 Slovenija 
+Medis, d.o.o. 
+Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf. 
+Sími: + 354 535 7Slovenská republika 
+UCB s.r.o., organizačná zložka 
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A. 
+Tel: + 39 / 02 300 Suomi/Finland 
+UCB Pharma Oy Finland 
+Puh/Tel: + 358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ: + 357 22 056 
+Sverige 
+UCB Nordic A/S 
+Tel: + 46 / (0) 40 294 Latvija 
+Medfiles SIA 
+Tel: + 371 67 370 United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37  </p>
+<p>Denne indlægsseddel blev senest ændret . </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Brugsanvisning til sundhedspersoner 
+Håndtering af Rystiggo ved brug af udstyr til at foretage infusionen 
+f.eks. en infusionspumpe </p>
+<p>Kun til subkutan anvendelse. </p>
+<p>Antallet af hætteglas (2 ml pr. hætteglas), der skal anvendes, afhænger af patientens kropsvægt. For at 
+administrere dosen på 280 mg til patienter, der vejer ≥ 35 til &lt; 50 kg, skal der anvendes 2 ml. For at 
+administrere dosen på 420 mg til patienter, der vejer ≥ 50 kg til &lt; 70 kg, skal der anvendes 3 ml. For at 
+administrere dosen på 560 mg til patienter, der vejer ≥ 70 til &lt; 100 kg, skal der anvendes 4 ml. For at 
+administrere dosen på 840 mg til patienter, der vejer ≥ 100 kg, skal der anvendes 6 ml. Se punkt 3. Rozanolixizumab injektionsvæske, opløsning kan administreres ved hjælp af polypropylensprøjter samt 
+infusionssæt indeholdende polyethylen (PE), lavdensitetspolyethylen (LDPE), polyester, 
+polyvinylchlorid (PVC uden DEHP), polycarbonat (PC), fluorineret ethylenpolypropylen (FEP), 
+urethan/acrylat, polyurethan, meta-acrylonitrilbutadienstyren (MABS), silikone eller cyclohexanon. 
+Brug ikke administrationsudstyr, der indeholder di(2-ethylhexyl)phthalat (DEHP). </p>
+<p>Læs ALLE nedenstående anvisninger, før du administrerer Rystiggo. </p>
+<p>1 
+Tag Rystiggo ud af æsken: </p>
+<ul>
+<li>
+<p>Lad hætteglassene opnå stuetemperatur. Det tager mindst 30 minutter og op til 
+120 minutter. Brug ikke eksterne varmekilder. </p>
+</li>
+<li>
+<p>Efterse hvert hætteglas før brug: </p>
+</li>
+</ul>
+<p>*Udløbsdato: Må ikke anvendes efter udløbsdatoen. </p>
+<p>*Farve: Opløsningen skal være farveløs til svagt brun-gul, klar til let 
+opaliserende. Brug ikke hætteglasset, hvis væsken er uklar, indeholder fremmede 
+partikler eller har skiftet farve. </p>
+<p>*Hætte: Må ikke anvendes, hvis hætteglassets beskyttelseshætte mangler eller er 
+defekt. </p>
+<p>2 
+Saml alle genstande: </p>
+<ul>
+<li>Saml alle genstande til infusionen. Ud over 
+hætteglasset/hætteglassene, indsamles følgende, som ikke 
+medfølger: sprøjte, kanyle(r), alkoholserviet, infusionssæt, tape 
+eller gennemsigtig forbinding, infusionspumpe og beholder til 
+skarpe genstande. </li>
+</ul>
+<p>3 
+Anvend aseptisk teknik ved klargøring og administration af dette produkt </p>
+<p>4 
+Klargør Rystiggo til infusion </p>
+<ul>
+<li>
+<p>Brug overføringskanyler til at fylde sprøjten. </p>
+</li>
+<li>
+<p>Tag beskyttelseshætten af hætteglasset og rengør hætteglassets 
+prop med en spritserviet. Lad den tørre. </p>
+</li>
+<li>
+<p>Træk hele hætteglassets indhold op i sprøjten. Der vil være en 
+lille mængde tilbage i hætteglasset, denne rest skal kasseres. </p>
+</li>
+<li>
+<p>Ved anvendelse af flere hætteglas: Brug en ny kanyle og 
+gentag de foregående trin. </p>
+</li>
+<li>
+<p>Tag kanylen af sprøjten, og fastgør infusionssættet på sprøjten. </p>
+</li>
+</ul>
+<p>5 
+Klargør infusionen </p>
+<ul>
+<li>
+<p>Følg de instruktioner, der følger med infusionspumpen, for at 
+klargøre pumpen og infusionsslangen. Foretag administration 
+straks efter klargøring af infusionssættet. </p>
+</li>
+<li>
+<p>Hvert hætteglas indeholder overskydende volumen (for at 
+muliggøre klargøring af infusionsslangen). Derfor skal pumpen 
+forudindstilles til at levere den ordinerede volumen. For 
+pumper, der ikke kan forudindstilles, efter klargøring af infusionsslangen, justeres 
+den volumen, der skal administreres, ved at udtømme eventuel overskydende 
+volumen. </p>
+</li>
+</ul>
+<p>6 
+Klargør infusionsstedet </p>
+<ul>
+<li>
+<p>Vælg et infusionsområde: Nederste højre eller nederste venstre 
+del af maven, under navlen. Injicér aldrig i områder, hvor 
+huden er øm, har blå mærker, er rød eller hård. Undgå at 
+injicere i ar eller strækmærker. </p>
+</li>
+<li>
+<p>Rengør infusionsstedet med en spritserviet. Lad det tørre.  </p>
+</li>
+</ul>
+<p>7 
+Indfør infusionssættets kanyle </p>
+<ul>
+<li>
+<p>Tag fat om en hudfold på maven mellem to fingre. </p>
+</li>
+<li>
+<p>Før infusionssættets kanyle ind i det subkutane væv. </p>
+</li>
+</ul>
+<p>8 
+Fastgør kanylen til huden </p>
+<ul>
+<li>Brug om nødvendigt tape eller gennemsigtig forbinding til at 
+holde kanylen på plads. </li>
+</ul>
+<p>9 
+Start infusion </p>
+<ul>
+<li>Følg producentens anvisninger for brug af pumpen. </li>
+</ul>
+<p>Afslut infusion </p>
+<ul>
+<li>
+<p>Når infusionen er afsluttet, må infusionsslangen ikke skylles, 
+da infusionsvolumenet er blevet justeret under hensyntagen til 
+tabet i slangen. </p>
+</li>
+<li>
+<p>Fjern kanylen fra infusionsstedet. </p>
+</li>
+</ul>
+<p>Rengøring </p>
+<ul>
+<li>Bortskaf alle genstande med tilbageværende produkt i en beholder til skarpe 
+genstande, dvs. delvist brugte hætteglas, infusionssæt og eventuelle remedier 
+anvendt til administrationen. </li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-b4a7586c3f2386c190c1701cbb794f3c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rystiggo Package Leaflet for language en"
+Description: "ePI document Bundle for rystiggo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b4a7586c3f2386c190c1701cbb794f3c"
+* entry[0].resource = composition-en-b4a7586c3f2386c190c1701cbb794f3c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb4a7586c3f2386c190c1701cbb794f3c"
+* entry[=].resource = mpb4a7586c3f2386c190c1701cbb794f3c
+                            
+                    
+Instance: bundlepackageleaflet-da-b4a7586c3f2386c190c1701cbb794f3c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rystiggo Package Leaflet for language da"
+Description: "ePI document Bundle for rystiggo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-b4a7586c3f2386c190c1701cbb794f3c"
+* entry[0].resource = composition-da-b4a7586c3f2386c190c1701cbb794f3c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb4a7586c3f2386c190c1701cbb794f3c"
+* entry[=].resource = mpb4a7586c3f2386c190c1701cbb794f3c
+                            
+                    
+
+
+
+Instance: mpb4a7586c3f2386c190c1701cbb794f3c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Rystiggo 140 mg/ml solution for injection"
-Description: "Rystiggo 140 mg/ml solution for injection"
+Title: "Medicinal Product rystiggo"
+Description: "rystiggo"
 Usage: #inline
 
  
@@ -344,7 +877,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Rystiggo 140 mg/ml solution for injection"
+  * productName = "rystiggo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -371,29 +904,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b4a7586c3f2386c190c1701cbb794f3c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rystiggo Package Leaflet for language en"
-Description: "ePI document Bundle for rystiggo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b4a7586c3f2386c190c1701cbb794f3cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1780/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rystiggo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b4a7586c3f2386c190c1701cbb794f3c"
-* entry[0].resource = composition-en-b4a7586c3f2386c190c1701cbb794f3c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpcc009952159ad0aa71dd8d450351e4ac"
-* entry[=].resource = mpcc009952159ad0aa71dd8d450351e4ac
-                            
-                      
+* title = "List of all ePIs associated with rystiggo"
+
+* subject = Reference(mpcc009952159ad0aa71dd8d450351e4ac)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rystiggo "rystiggo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b4a7586c3f2386c190c1701cbb794f3c) // rystiggo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-b4a7586c3f2386c190c1701cbb794f3c) // rystiggo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-b4a7586c3f2386c190c1701cbb794f3c
+InstanceOf: List
+
+* insert b4a7586c3f2386c190c1701cbb794f3cListRuleset
+    

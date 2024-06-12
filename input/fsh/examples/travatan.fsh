@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a38db6f0b3670face0412d6c2e00cd92
 InstanceOf: CompositionUvEpi
 Title: "Composition for travatan Package Leaflet"
@@ -339,12 +342,441 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-a38db6f0b3670face0412d6c2e00cd92
+InstanceOf: CompositionUvEpi
+Title: "Composition for travatan Package Leaflet"
+Description:  "Composition for travatan Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf2861ec5ad179bd5f60928f2d5f70426)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf2861ec5ad179bd5f60928f2d5f70426
+* title = "TEST PURPOSES ONLY - travatan"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge TRAVATAN </li>
+<li>Sådan skal du bruge TRAVATAN </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What travatan is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What travatan is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TRAVATAN indeholder travoprost, der tilhører en gruppe lægemidler, der kaldes prostaglandin-
+analoger. Det virker ved at sænke trykket i øjet. Det kan bruges alene eller sammen med andre 
+øjendråber f.eks. betablokkere, som også sænker trykket i øjet. </p>
+<p>TRAVATAN øjendråber bruges til at sænke forhøjet tryk i øjet hos voksne, unge og børn i 
+alderen fra 2 måneder og opefter. Forhøjet tryk i øjet kan føre til en sygdom kaldet glaukom (grøn 
+stær). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take travatan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take travatan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke TRAVATAN 
+ 
+Hvis du er allergisk over for travoprost eller et af de øvrige indholdsstoffer angivet i punkt 6. Spørg din læge, hvis dette er aktuelt for dig. </p>
+<p>Advarsler og forsigtighedsregler 
+ 
+TRAVATAN kan give længere og/eller tykkere øjenvipper og kan ændre farven og/eller antal 
+hår af dine øjenvipper samt medføre usædvanlig hårvækst på dine øjenlåg. Forandringer af 
+øjenlåg, herunder usædvanlig hårvækst eller hårvækst i huden omkring øjet er også set. 
+ 
+TRAVATAN kan ændre din irisfarve (den farvede del af dine øjne). Denne farveændring kan 
+være permanent. En ændring af hudfarven omkring øjet kan også forekomme. 
+ 
+Hvis du har gennemgået en operation for katarakt (grå stær), skal du tale med lægen, inden du 
+bruger TRAVATAN. Hvis du tidligere har haft en betændelseslignende tilstand 
+(inflammation) i øjnene (iritis eller uveitis), skal du tale med lægen, inden du bruger 
+TRAVATAN. 
+ 
+TRAVATAN kan i sjældne tilfælde give åndenød eller hvæsen eller forværre 
+astmasymptomer. Hvis du bliver bekymret over eventuelle ændringer ved din vejrtrækning, 
+mens du er i behandling med TRAVATAN, skal du hurtigst muligt kontakte din læge. 
+ 
+Travoprost kan optages gennem huden. Hvis øjendråberne kommer i kontakt med huden 
+skylles straks med vand. Det gælder især kvinder, som er gravide eller forsøger at blive det. 
+ 
+Hvis du bruger bløde kontaktlinser, skal du ikke bruge dråberne med kontaktlinserne i øjnene. 
+Vent mindst 15 minutter efter, du har dryppet øjet/øjnene, før du sætter linserne i igen. </p>
+<p>Børn og unge 
+TRAVATAN kan anvendes til børn under 18 år i samme doser som til voksne. TRAVATAN 
+anbefales ikke til børn under 2 måneder. </p>
+<p>Brug af anden medicin sammen med TRAVATAN 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. </p>
+<p>Graviditet, amning og frugtbarhed 
+Brug ikke TRAVATAN, hvis du er gravid. Hvis du har mistanke om, at du er gravid, skal du straks 
+tale med din læge. Hvis du kan blive gravid, skal du bruge passende prævention, mens du bruger 
+TRAVATAN. </p>
+<p>Brug ikke TRAVATAN, hvis du ammer. TRAVATAN kan udskilles i mælken. </p>
+<p>Spørg din læge eller apoteket til råds, før du bruger nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan opleve, at dit syn bliver midlertidigt sløret lige efter, at du har brugt TRAVATAN. Du må ikke 
+køre bil eller arbejde med maskiner, før dit syn er klart igen. </p>
+<p>TRAVATAN indeholder hydrogeneret, polyoxyleret ricinusolie og propylenglycol, som kan 
+medføre hudreaktioner og hudirritation. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take travatan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take travatan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid TRAVATAN nøjagtigt efter anvisning fra din eller dit barns læge. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er 
+en dråbe i det/de pågældende øje/øjne, én gang dagligt - om aftenen. 
+Brug kun TRAVATAN i begge øjne, hvis din eller dit barns læge har ordineret det. Brug øjendråberne 
+så længe, som lægen har ordineret det. </p>
+<p>TRAVATAN må kun bruges i dine eller dit barns øjne. </p>
+<p>1 
+2 
+3 
+4 </p>
+<p> 
+Umiddelbart før brug første gang skal du fjerne beskyttelsesfolien og tage flasken ud (figur 1), 
+samt skrive åbningsdatoen, hvor der er gjort plads på kartonen. 
+ 
+Vask dine hænder 
+ 
+Skru hætten af 
+ 
+Hold flasken i hånden med spidsen pegende nedad, mellem din tommelfinger og de andre fingre 
+ 
+Læn dit eller dit barns hoved tilbage. Træk forsigtigt ned i det nederste øjenlåg, indtil der 
+dannes en “lomme" mellem øjenlåget og øjet. Dråben skal lægge sig der (figur 2) 
+ 
+Hold spidsen af flasken tæt hen til øjet. Brug et spejl, hvis det gør det nemmere 
+ 
+Undgå at berøre øjet eller øjenlåget, omgivende områder eller andre overflader med 
+spidsen af flasken. Det kan forurene dråberne 
+ 
+Tryk forsigtigt på flasken for at frigøre en dråbe TRAVATAN ad gangen (figur 3) 
+ 
+Når du har dryppet med TRAVATAN, skal du lukke øjet og forsigtigt trykke en finger mod 
+øjenkrogen ind mod næsen (figur 4) i mindst 1 minut. Det forhindrer, at TRAVATAN kommer 
+ud i resten af kroppen 
+ 
+Gentag processen i det andet øje, hvis det er ordineret af din læge 
+ 
+Luk flasken omhyggeligt lige efter brug 
+ 
+Brug kun én flaske ad gangen. Bryd ikke beskyttelsesfolien på en ny flaske, før du har brug for 
+en ny flaske. </p>
+<p>Hvis en dråbe ikke rammer øjet, prøv da igen med en ny dråbe. </p>
+<p>Hvis du eller dit barn bruger andre øjenpræparater, så vent mindst 5 minutter mellem 
+TRAVATAN og de andre øjenpræparater. </p>
+<p>Hvis du eller dit barn har brugt for meget TRAVATAN 
+Skyl alt lægemidlet ud med lunkent vand. Dryp ikke flere dråber i øjnene, før det er tid til næste dosis. </p>
+<p>Hvis du har glemt at bruge TRAVATAN 
+Genoptag behandlingen med næste dosis i henhold til planen. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis. Dosis må ikke overskride 1 dråbe dagligt i det/de pågældende 
+øje/øjne. </p>
+<p>Hvis du holder op med at bruge TRAVATAN 
+Du må ikke holde op med at bruge TRAVATAN uden først at tale med din eller dit barns læge. 
+Trykket i dit eller dit barns øje vil ikke blive holdt nede, hvilket kan medføre tab af synet. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>
+<p>Vend </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Du kan oftest fortsætte med at bruge dine øjendråber, hvis bivirkningerne ikke er alvorlige. Spørg 
+lægen eller på apoteket, hvis der er noget, du er i tvivl om. Du må ikke holde op med at bruge 
+TRAVATAN, uden at du har talt med din læge. </p>
+<p>Der er set følgende bivirkninger med TRAVATAN </p>
+<p>Meget almindelige: Kan forekomme hos flere end 1 ud af 10 personer </p>
+<p>Reaktioner i øjet: Røde øjne </p>
+<p>Almindelige: Kan forekomme hos op til 1 ud af 10 personer </p>
+<p>Reaktioner i øjet: Ændring i irisfarve (den farvede del af øjet), øjensmerter, ubehag i øjet, øjentørhed, 
+øjenkløe, øjenirritation </p>
+<p>Ikke almindelige: Kan forekomme hos op til 1 ud af 100 personer </p>
+<p>Reaktioner i øjet: Hornhindelidelse, betændelse slignende tilstand (inflammation) i øjet, 
+betændelseslignende tilstand (inflammation) i iris, betændelseslignende tilstand (inflammation) 
+indvendigt i øjet, betændelseslignende tilstand (inflammation) på øjets overflade med/uden 
+beskadigelse af overfladen, lysfølsomhed, sekret fra øjet, betændelseslignende tilstand (inflammation) 
+i øjenlåget, røde øjenlåg, hævelse omkring øjet, kløende øjenlåg, sløret syn, øget tåreproduktion, 
+betændelse slignende tilstand (infektion eller inflammation) i bindehinden (det hvide i øjet), udadvendt 
+nedre øjenlåg, uklarhed i øjet, skorper på øjenlåget, vækst af øjenvipper. </p>
+<p>Generelle bivirkninger: Øgede allergiske symptomer, hovedpine, uregelmæssige hjerteslag, hoste, 
+tilstoppet næse, halsirritation, mørkere hud omkring øjnene, mørkere hud, unormal hårstruktur, øget 
+hårvækst. </p>
+<p>Sjældne: Kan forekomme hos op til 1 ud af 1.000 personer </p>
+<p>Reaktioner i øjet: Opfattelse af lysglimt, eksem på øjenlåget, unormalt placerede øjenvipper, som 
+vokser tilbage mod øjet, hævelse af øjet, nedsat syn, lysringe om genstande, nedsat følelse i øjet, 
+inflammation i øjenlågets kirtler, pigmentdannelse indvendigt i øjet, forstørrede pupiller, fortykkelse 
+af øjenvipper, ændring i øjenvippernes farve, trætte øjne. </p>
+<p>Generelle bivirkninger: Virusinfektion i øjet, svimmelhed, dårlig smag i munden, uregelmæssig eller 
+langsom hjerterytme (puls), blodtryksstigning eller blodtryksfald, stakåndethed, astma, allergi eller 
+betændelse i næsen, næsetørhed, stemmeforandring, mavebesvær eller mavesår, forstoppelse, 
+mundtørhed, rødme eller kløe i huden, udslæt, ændret hårfarve, tab af øjenvipper, ledsmerter, muskel- og knoglesmerter, svaghedsfølelse. </p>
+<p>Ikke kendt: Hyppigheden kan ikke vurderes ud fra tilgængelige data </p>
+<p>Reaktioner i øjet: Betændelseslignende tilstand (inflammation) på bagsiden af øjet, øjnene ser mere 
+indsunkne ud. </p>
+<p>Generelle bivirkninger: Depression, angst, søvnløshed, falsk fornemmelse af bevægelse, ringen for 
+ørene, brystsmerter, unormal hjerterytme, hurtigere puls, forværring af astma, diarré, næseblod, 
+mavesmerter, kvalme, opkastning, kløe, unormal hårvækst, smertefuld eller ufrivillig vandladning, 
+forhøjet prostatacancer-markør </p>
+<p>De hyppigste bivirkninger ved brug af TRAVATAN hos børn og unge er røde øjne og vækst af 
+øjenvipper. Begge bivirkninger er set hyppigere hos børn og unge end hos voksne. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indberette bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store travatan"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store travatan"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke TRAVATAN efter den udløbsdato, der står på flasken og æsken efter "EXP". Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Flasken skal kasseres 4 uger efter åbning for at forhindre øjeninfektioner. Du skal derefter starte på 
+en ny flaske. Skriv åbningsdatoen, hvor der er gjort plads til det på flaskens karton. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TRAVATAN indeholder: </p>
+<p>Aktivt stof: Travoprost 40 mikrogram/ml. </p>
+<p>Øvrige indholdsstoffer: Polyquaternium-1, polyoxyleret, hydrogeneret ricinusolie (HCO-40), 
+propylenglycol, natriumchlorid, borsyre, mannitol og renset vand. Der er tilsat små mængder 
+saltsyre/natriumhydroxid for at holde surhedsgraden (pH-niveauet) normal. </p>
+<p>Udseende og pakningsstørrelser 
+TRAVATAN er en væske (en klar, farveløs opløsning), der fås i en pakning med en 4 ml plasticflaske 
+med skruelåg. Hver flaske indeholder 2,5 ml travoprost-øjendråber, og hver flaske er pakket i en 
+beskyttelsesfolie. 
+Pakningsstørrelser: 1 eller 3 flasker 
+Begge pakningsstørrelser er ikke nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spanien </p>
+<p>S.A. Alcon-Couvreur N.V. 
+Rijksweg B-2870 Puurs 
+Belgien </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>Siegfried El Masnou, S.A. 
+Camil Fabra El Masnou 
+08320 Barcelona 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 
+Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a38db6f0b3670face0412d6c2e00cd92
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for travatan Package Leaflet for language en"
+Description: "ePI document Bundle for travatan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a38db6f0b3670face0412d6c2e00cd92"
+* entry[0].resource = composition-en-a38db6f0b3670face0412d6c2e00cd92
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa38db6f0b3670face0412d6c2e00cd92"
+* entry[=].resource = mpa38db6f0b3670face0412d6c2e00cd92
+                            
+                    
+Instance: bundlepackageleaflet-da-a38db6f0b3670face0412d6c2e00cd92
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for travatan Package Leaflet for language da"
+Description: "ePI document Bundle for travatan Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a38db6f0b3670face0412d6c2e00cd92"
+* entry[0].resource = composition-da-a38db6f0b3670face0412d6c2e00cd92
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa38db6f0b3670face0412d6c2e00cd92"
+* entry[=].resource = mpa38db6f0b3670face0412d6c2e00cd92
+                            
+                    
+
+
+
+Instance: mpa38db6f0b3670face0412d6c2e00cd92
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product TRAVATAN 40 micrograms/mL eye drops, solution"
-Description: "TRAVATAN 40 micrograms/mL eye drops, solution"
+Title: "Medicinal Product travatan"
+Description: "travatan"
 Usage: #inline
 
  
@@ -364,7 +796,7 @@ Usage: #inline
 
 
 * name
-  * productName = "TRAVATAN 40 micrograms/mL eye drops, solution"
+  * productName = "travatan"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -391,29 +823,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a38db6f0b3670face0412d6c2e00cd92
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for travatan Package Leaflet for language en"
-Description: "ePI document Bundle for travatan Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a38db6f0b3670face0412d6c2e00cd92ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/01/199/001-004"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "travatan"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a38db6f0b3670face0412d6c2e00cd92"
-* entry[0].resource = composition-en-a38db6f0b3670face0412d6c2e00cd92
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf2861ec5ad179bd5f60928f2d5f70426"
-* entry[=].resource = mpf2861ec5ad179bd5f60928f2d5f70426
-                            
-                      
+* title = "List of all ePIs associated with travatan"
+
+* subject = Reference(mpf2861ec5ad179bd5f60928f2d5f70426)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#travatan "travatan"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a38db6f0b3670face0412d6c2e00cd92) // travatan en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a38db6f0b3670face0412d6c2e00cd92) // travatan da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a38db6f0b3670face0412d6c2e00cd92
+InstanceOf: List
+
+* insert a38db6f0b3670face0412d6c2e00cd92ListRuleset
+    

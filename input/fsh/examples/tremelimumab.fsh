@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-61c550567cdacc51b535f7056828dfc2
 InstanceOf: CompositionUvEpi
 Title: "Composition for tremelimumab Package Leaflet"
@@ -378,12 +381,548 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-61c550567cdacc51b535f7056828dfc2
+InstanceOf: CompositionUvEpi
+Title: "Composition for tremelimumab Package Leaflet"
+Description:  "Composition for tremelimumab Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf5927907425756433ea74a74c91babd0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf5927907425756433ea74a74c91babd0
+* title = "TEST PURPOSES ONLY - tremelimumab"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at få Tremelimumab AstraZeneca
+3. Sådan får du Tremelimumab AstraZeneca
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tremelimumab is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tremelimumab is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tremelimumab AstraZeneca er et lægemiddel mod kræft. Det indeholder det aktive stof 
+tremelimumab, som er en type lægemiddel, der kaldes et monoklonalt antistof. Dette lægemiddel er 
+udviklet til at genkende et specifikt målrettet stof i kroppen. Tremelimumab AstraZeneca virker ved at 
+hjælpe dit immunsystem med at bekæmpe kræften.
+Tremelimumab AstraZeneca bruges til at behandle en type lungekræft (fremskreden ikke-småcellet 
+lungekræft) hos voksne. Det vil blive brugt sammen med andre lægemidler mod kræft (durvalumab og 
+kemoterapi).
+Da Tremelimumab AstraZeneca gives i kombination med andre lægemidler mod kræft, er det vigtigt, 
+at du også læser indlægssedlen til disse andre lægemidler. Hvis du har spørgsmål om, hvordan 
+Tremelimumab AstraZeneca virker, eller hvorfor du skal have dette lægemiddel, skal du spørge lægen 
+eller apotekspersonalet.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tremelimumab"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tremelimumab"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Du må ikke få Tremelimumab AstraZeneca</h2>
+<p>hvis du er allergisk over for tremelimumab eller et af de øvrige indholdsstoffer i Tremelimumab 
+AstraZeneca (angivet i punkt 6). Tal med lægen, hvis du er i tvivl.
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du får Tremelimumab AstraZeneca, hvis:
+
+du har en autoimmun sygdom (en sygdom, hvor kroppens immunsystem angriber sine egne 
+celler)
+
+du har fået en organtransplantation
+
+du har problemer med lungerne eller vejrtrækningsproblemer
+35
+
+du har problemer med leveren.
+Tal med lægen, før du får Tremelimumab AstraZeneca, hvis noget af dette gælder for dig.
+Når du får Tremelimumab AstraZeneca, kan du få nogle alvorlige bivirkninger.
+Din læge kan give dig anden medicin, der forebygger mere alvorlige komplikationer og som hjælper 
+dig med at mindske symptomerne. Lægen kan udsætte næste dosis Tremelimumab AstraZeneca eller 
+stoppe behandlingen med Tremelimumab AstraZeneca. Tal straks med lægen, hvis du får nogen af 
+følgende bivirkninger:
+
+ny eller forværret hoste, kortåndethed, brystsmerter (kan være tegn på betændelsestilstand i
+lungerne)
+
+kvalme eller opkastning, du føler dig mindre sulten, smerter i højre side af maven, gulfarvning 
+af huden eller det hvide i øjnene, døsighed, mørk urin eller at du lettere end normalt får
+blødninger eller blå mærker (kan være tegn på betændelsestilstand i leveren)
+
+diarré eller hyppigere afføring end normalt, sort, tjæret eller klistret afføring med blod eller slim, 
+alvorlige mavesmerter eller ømhed i maven (kan være tegn på betændelsestilstand i tarmen eller 
+hul i tarmen)
+
+hurtig hjerterytme, ekstrem træthed, øget vægt eller vægttab, svimmelhed eller besvimelse, 
+hårtab, kuldefornemmelse, forstoppelse, hovedpine, som ikke vil gå væk eller usædvanlige 
+hovedpiner (kan være tegn på kirtler med betændelsestilstand, særligt skjoldbruskkirtlen, 
+binyrer, hypofysen eller bugspytkirtlen)
+
+øget sultfornemmelse eller øget tørst i forhold til normalt, hyppigere vandladning end normalt, 
+forhøjet blodsukker, hurtig og dyb vejrtrækning, forvirring, din ånde har en sødlig lugt, en sød 
+eller metallisk smag i munden, eller din urin eller sved lugter anderledes (kan være tegn på 
+sukkersyge (diabetes))
+
+fald i mængden af din urin (kan være tegn på betændelsestilstand i nyrerne)
+
+udslæt, kløe, blærer på huden eller sår i munden eller på andre fugtige overflader (kan være tegn 
+på betændelsestilstand i huden)
+
+brystsmerter, kortåndethed, uregelmæssigt hjerteslag (kan være tegn på betændelsestilstand i
+hjertemusklen)
+
+muskelsmerter eller svaghed eller hurtig træthed i musklerne (kan være tegn på 
+betændelsestilstand eller andre problemer med musklerne)
+
+kulderystelser eller rysten, kløe eller udslæt, rødme, kortåndethed eller hvæsende vejrtrækning, 
+svimmelhed eller feber (kan være tegn på infusionsrelaterede reaktioner)
+
+krampeanfald, stivhed i nakken, hovedpine, feber, kulderystelser, opkastning, lysfølsomhed i 
+øjnene, forvirring og søvnighed (kan være tegn på betændelsestilstand i hjernen eller 
+membranen omkring hjernen og rygmarven)
+
+smerter, svaghed og lammelse i hænder, fødder eller arme (kan være tegn på betændelsestilstand
+i nerverne, Guillain-Barré syndrom)
+
+blødning (fra næsen eller tandkødet) og/eller blå mærker (kan være tegn på lavt antal 
+blodplader).
+Tal straks med lægen, hvis du har nogen af de ovenstående symptomer.
+Børn og unge
+Tremelimumab AstraZeneca må ikke bruges til børn og unge under 18 år.
+Brug af andre lægemidler sammen med Tremelimumab AstraZeneca
+Fortæl lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller planlægger at 
+tage andre lægemidler. Dette omfatter naturlægemidler og medicin, der er købt uden recept.
+Graviditet og frugtbarhed
+Dette lægemiddel bør ikke anvendes under graviditeten. Fortæl det til lægen, hvis du er gravid, har 
+mistanke om, at du er gravid, eller planlægger at blive gravid. Hvis du er kvinde og kan blive gravid, 
+36
+skal du bruge effektiv prævention, mens du bliver behandlet med Tremelimumab AstraZeneca og i 
+mindst 3 måneder efter din sidste dosis.
+Amning
+Fortæl det til lægen, hvis du ammer. Det vides ikke, om Tremelimumab AstraZeneca overføres til 
+modermælken.
+Du vil måske blive rådet til ikke at amme under behandlingen og i mindst 3 måneder efter din sidste 
+dosis.
+Trafik- og arbejdssikkerhed
+Tremelimumab AstraZeneca vil sandsynligivs ikke påvirke din evne til at føre motorkøretøj og betjene 
+maskiner. Hvis du får bivirkninger, der påvirker din koncentrations- og reaktionsevne, skal du dog 
+udvise forsigtighed, når du fører motorkøretøj eller betjener maskiner.
+Tremelimumab AstraZeneca indeholder en lav mængde natrium
+Tremelimumab AstraZeneca indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tremelimumab"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tremelimumab"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Tremelimumab AstraZeneca på et hospital eller en klinik under overvågning af en erfaren 
+læge.
+Det bliver givet sammen med durvalumab og kemoterapi. 
+Den anbefalede dosis: 
+
+Hvis du vejer 34 kg eller mere, er dosis 75 mg hver 3. uge
+
+Hvis du vejer mindre end 34 kg, vil dosis være 1 mg pr. kg legemsvægt hver 3. uge
+Lægen vil give dig Tremelimumab AstraZeneca som et drop i en blodåre (en infusion) i cirka 1 time. 
+Du vil normalt få i alt 5 doser Tremelimumab AstraZeneca. De første 4 doser gives i uge 1, 4, 7 og 10. Den femte dosis gives derefter normalt 6 uger senere, i uge 16. Lægen vil bestemme præcis hvor 
+mange behandlinger, du har brug for.
+Når Tremelimumab AstraZeneca gives i kombination med durvalumab og kemoterapi, vil du først få 
+Tremelimumab AstraZeneca, derefter durvalumab og derefter kemoterapi. 
+Hvis du glemmer en aftale om at få Tremelimumab AstraZeneca
+Det er meget vigtigt, at du ikke glemmer en dosis af denne medicin. Hvis du glemmer en aftale, skal 
+du straks ringe til din læge og lave en ny aftale.
+Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Når du får Tremelimumab AstraZeneca kan du få nogle alvorlige bivirkninger. Se punkt 2 for en 
+detaljeret liste over disse bivirkninger. 
+Tal straks med lægen, hvis du får nogle af følgende bivirkninger, som er rapporteret i et klinisk studie 
+med patienter, der fik Tremelimumab AstraZeneca i kombination med durvalumab og kemoterapi:
+37
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer)
+
+infektioner i de øvre luftveje
+
+lungebetændelse (pneumoni)
+
+lavt antal røde blodlegemer
+
+lavt antal hvide blodlegemer
+
+lavt antal blodplader
+
+underaktiv skjoldbruskkirtel, hvilket kan medføre træthed og øget vægt
+
+nedsat appetit
+
+hoste
+
+kvalme
+
+diarré
+
+opkastning
+
+forstoppelse
+
+unormale leverprøver (forhøjet aspart-ataminotransferase, forhøjet alanin-aminotransferase)
+
+hårtab
+
+hududslæt
+
+kløe
+
+ledsmerter (artralgi)
+
+træthed eller svaghed
+
+feber
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+ influenzalignende sygdom
+ svampeinfektion i munden
+ lavt antal hvide blodlegemer med tegn på feber
+ lavt antal røde blodlegemer, hvide blodlegemer og blodplader (pancytopeni)
+ overaktiv skjoldbruskkirtel, der kan medføre hurtig puls eller vægttab
+ nedsat hormonproduktion fra binyrerne, hvilket kan medføre træthed
+ underaktiv hypofyse, betændelse i hypofysen
+ betændelsestilstand i skjoldbruskkirtlen (thyroiditis)
+ betændelsestilstand i lungerne (pneumonitis)
+ hæs stemme (dysfoni)
+ betændelsestilstand i mund eller læber
+ unormale funktionsprøver af bugspytkirtlen
+ mavesmerter
+ betændelsestilstand i mave eller tarm (colitis)
+ betændelsestilstand i bugspytkirtlen (pankreatitis)
+ betændelsestilstand i leveren, hvilket kan medføre kvalme eller at du føler dig mindre sulten
+(hepatitis)
+ muskelsmerter (myalgi)
+ unormale nyrefunktionsprøver (forhøjet kreatinin i blodet)
+ smerter, når du lader vandet (dysuri)
+ hævede ben (perifere ødemer)
+ reaktion på infusion af lægemidlet, som kan medføre feber eller rødme
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer)
+ infektioner i tænder og det bløde væv i munden
+ lavt antal blodplader med tegn på overdreven blødning og blå mærker (immuntrombocytopeni)
+ diabetes insipidus
+ type 1-diabetes mellitus
+ betændelsestilstand i hjernen (encefalitis)
+ betændelsestilstand i hjertet (myocarditis)
+ ardannelse i lungevævet
+ blærer på huden
+38
+ nattesved
+ betændelsestilstand i huden
+ betændelsestilstand i musklerne (myositis)
+ betændelsestilstand i muskler og blodkar
+ betændelsestilstand i nyrerne (nefritis), hvilket kan mindske mængden af din urin
+ betændelsestilstand i urinblæren (cystitis). Tegn og symptomer kan omfatte hyppig og/eller 
+smertefuld vandladning, trang til vandladning, blod i urinen, smerter eller trykken i nedre del 
+af maven.
+Andre bivirkninger, der er rapporteret med ikke kendt hyppighed (kan ikke estimeres ud fra 
+forhåndenværende data)
+ en tilstand, hvor musklerne bliver svage og hurtig træthed i musklerne (myasthenia gravis)
+ betændelsestilstand i nerverne (Guillain-Barré syndrom)
+ betændelsestilstand i membranen omkring rygmarven og hjernen (meningitis)
+ hul i tarmen (perforering af tarmen)
+Tal straks med lægen, hvis du får nogen af de ovenstående bivirkninger.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tremelimumab"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tremelimumab"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Tremelimumab AstraZeneca på et hospital eller en klinik, og sundhedspersonalet er 
+ansvarligt for opbevaringen.
+Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglassets etiket efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares i køleskab (2 °C – 8 °C).
+Må ikke nedfryses. 
+Opbevares i den originale yderpakning for at beskytte mod lys.
+Brug ikke lægemidlet, hvis det er uklart, misfarvet eller indeholder synlige partikler.
+Eventuelt ubrugte mængder af infusionsopløsningen må ikke opbevares til genbrug. Ikke anvendt 
+lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tremelimumab AstraZeneca indeholder:
+Aktivt stof: tremelimumab
+Hver ml koncentrat til infusionsvæske, opløsning indeholder 20 mg tremelimumab.
+Hvert hætteglas indeholder enten 300 mg tremelimumab i 15 ml koncentrat eller 25 mg tremelimumab
+i 1,25 ml koncentrat.
+39
+Øvrige indholdsstoffer: histidin, histidinhydrochloridmonohydrat, trehalosedihydrat,
+dinatriumedetatdihydrat (se punkt 2 “Tremelimumab AstraZeneca indeholder en lav mængde
+natrium"), polysorbat 80, vand til injektionsvæsker.
+Udseende og pakningsstørrelser
+Tremelimumab AstraZeneca koncentrat til infusionsvæske, opløsning (sterilt koncentrat) er en steril 
+opløsning uden konserveringsmidler, som er klar til let opaliserende, farveløs til svagt gul og fri fra 
+synlige partikler.
+Det fås i pakninger indeholdende enten 1 hætteglas af glas med 1,25 ml koncentrat eller 1 hætteglas af 
+glas med 15 ml koncentrat.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+AstraZeneca AB
+Gärtunavägen
+SE-152 57 Södertälje
+Sverige
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 79 363 2222
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+40
+Tel: +34 91 301 91 00
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) 
+DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 9801 1
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu
+------------------------------------------------------------------------------------------------------------------------&gt;
+Nedenstående oplysninger er kun til sundhedspersoner:
+Klargøring og administration af infusionen
+•
+Parenterale lægemidler skal inspiceres visuelt for partikler og misfarvning inden administration. 
+Koncentratet er en klar til opaliserende, farveløs til svagt gul opløsning, der er fri for synlige 
+partikler. Kassér hætteglasset, hvis opløsningen er uklar, misfarvet eller der observeres synlige 
+partikler.
+•
+Hætteglasset må ikke omrystes.
+•
+Træk den nødvendige mængde koncentrat ud af hætteglasset/hætteglassene, og overfør den til 
+en infusionspose, der indeholder natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, 
+eller glucose 50 mg/ml (5 %) injektionsvæske, opløsning, så der klargøres en fortyndet 
+opløsning med en endelig koncentration inden for intervallet 0,1 til 10 mg/ml. Bland den 
+fortyndede opløsning ved at vende den forsigtigt.
+•
+Brug lægemidlet straks efter fortynding. Den fortyndede opløsning må ikke nedfryses. Hvis den 
+ikke anvendes straks må den samlede tid fra perforering af hætteglasset til start af administration 
+ikke overstige 24 timer ved 2 ºC til 8 ºC eller 12 timer ved stuetemperatur (op til 25 ºC). Hvis 
+41
+infusionsposerne sættes i køleskab, skal de opnå stuetemperatur inden brug. Infusionen 
+administreres intravenøst i løbet af 1 time med et sterilt, lavproteinsbindende filter i slangen på 
+0,2 eller 0,22 mikron.
+•
+Må ikke administreres samtidig med andre lægemidler gennem samme infusionsslange.
+•
+Tremelimumab AstraZeneca er en engangsdosis. Eventuelt ubrugt medicin, der er tilbage i 
+hætteglasset, skal kasseres.
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-61c550567cdacc51b535f7056828dfc2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tremelimumab Package Leaflet for language en"
+Description: "ePI document Bundle for tremelimumab Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-61c550567cdacc51b535f7056828dfc2"
+* entry[0].resource = composition-en-61c550567cdacc51b535f7056828dfc2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp61c550567cdacc51b535f7056828dfc2"
+* entry[=].resource = mp61c550567cdacc51b535f7056828dfc2
+                            
+                    
+Instance: bundlepackageleaflet-da-61c550567cdacc51b535f7056828dfc2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tremelimumab Package Leaflet for language da"
+Description: "ePI document Bundle for tremelimumab Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-61c550567cdacc51b535f7056828dfc2"
+* entry[0].resource = composition-da-61c550567cdacc51b535f7056828dfc2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp61c550567cdacc51b535f7056828dfc2"
+* entry[=].resource = mp61c550567cdacc51b535f7056828dfc2
+                            
+                    
+
+
+
+Instance: mp61c550567cdacc51b535f7056828dfc2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Tremelimumab AstraZeneca 20 mg/ml concentrate for solution for infusion."
-Description: "Tremelimumab AstraZeneca 20 mg/ml concentrate for solution for infusion."
+Title: "Medicinal Product tremelimumab"
+Description: "tremelimumab"
 Usage: #inline
 
  
@@ -403,7 +942,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Tremelimumab AstraZeneca 20 mg/ml concentrate for solution for infusion."
+  * productName = "tremelimumab"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -430,29 +969,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-61c550567cdacc51b535f7056828dfc2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tremelimumab Package Leaflet for language en"
-Description: "ePI document Bundle for tremelimumab Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 61c550567cdacc51b535f7056828dfc2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1712/001 25 mg vial"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tremelimumab"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-61c550567cdacc51b535f7056828dfc2"
-* entry[0].resource = composition-en-61c550567cdacc51b535f7056828dfc2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf5927907425756433ea74a74c91babd0"
-* entry[=].resource = mpf5927907425756433ea74a74c91babd0
-                            
-                      
+* title = "List of all ePIs associated with tremelimumab"
+
+* subject = Reference(mpf5927907425756433ea74a74c91babd0)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tremelimumab "tremelimumab"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-61c550567cdacc51b535f7056828dfc2) // tremelimumab en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-61c550567cdacc51b535f7056828dfc2) // tremelimumab da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-61c550567cdacc51b535f7056828dfc2
+InstanceOf: List
+
+* insert 61c550567cdacc51b535f7056828dfc2ListRuleset
+    

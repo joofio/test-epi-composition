@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9690a7f47a287edf985eddd979c0833b
 InstanceOf: CompositionUvEpi
 Title: "Composition for imnovid Package Leaflet"
@@ -537,12 +540,979 @@ Netherlands </p>
 
 
 
+Instance: composition-da-9690a7f47a287edf985eddd979c0833b
+InstanceOf: CompositionUvEpi
+Title: "Composition for imnovid Package Leaflet"
+Description:  "Composition for imnovid Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6d50bf1e702a2cfc45f6cbd02f0e3c16)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6d50bf1e702a2cfc45f6cbd02f0e3c16
+* title = "TEST PURPOSES ONLY - imnovid"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Imnovid </li>
+<li>Sådan skal du tage Imnovid </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What imnovid is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What imnovid is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Imnovid indeholder det aktive stof ‘pomalidomid’. Dette lægemiddel er i familie med thalidomid og 
+tilhører en gruppe lægemidler, som påvirker immunsystemet (kroppens naturlige forsvar).  </p>
+<p>Anvendelse 
+Imnovid bruges til at behandle voksne med en type kræft, der kaldes ‘myelomatose’. </p>
+<p>Imnovid bruges enten sammen med:  </p>
+<ul>
+<li>to andre lægemidler - der kaldes ‘bortezomib’ (en type kemoterapi) og ‘dexamethason’ (et 
+antiinflammatorisk lægemiddel), til personer, som har fået mindst én anden behandling - herunder lenalidomid. </li>
+</ul>
+<p>Eller </p>
+<ul>
+<li>ét andet lægemiddel - der kaldes ‘dexamethason’, til personer, hvis myelomatose er forværret, 
+selvom de har fået mindst to andre behandlinger - herunder lenalidomid og bortezomib. </li>
+</ul>
+<p>Hvad er myelomatose? 
+Myelomatose er en kræfttype, der påvirker visse hvide blodlegemer (der kaldes ‘plasmaceller’). Disse 
+celler vokser ukontrolleret og ophobes i knoglemarven. Dette fører til beskadigelse af knogler og 
+nyrer. 
+Myelomatose kan normalt ikke helbredes. Behandling kan imidlertid nedsætte tegn og symptomer, 
+eller få dem til at forsvinde i en periode. Når dette forekommer, kaldes det en ’remission’.  </p>
+<p>Sådan virker Imnovid 
+Imnovid virker på flere forskellige måder: </p>
+<ul>
+<li>
+<p>ved at stoppe myelomcellernes udvikling. </p>
+</li>
+<li>
+<p>ved at stimulere immunsystemet, så kræftcellerne angribes. </p>
+</li>
+<li>
+<p>ved at stoppe dannelsen af blodkar, som forsyner kræftcellerne. </p>
+</li>
+</ul>
+<p>Fordelen ved at bruge Imnovid sammen med bortezomib og dexamethason 
+Når Imnovid anvendes sammen med bortezomib og dexamethason hos personer, som har fået mindst 
+én anden behandling, kan det forhindre, at myelomatosen forværres: </p>
+<ul>
+<li>Når Imnovid bruges sammen med bortezomib og dexamethason, har det i gennemsnit varet 
+op til 11 måneder, før myelomatosen vendte tilbage - sammenlignet med 7 måneder, når 
+patienterne kun fik bortezomib og dexamethason. 
+Fordelen ved at bruge Imnovid sammen med dexamethason 
+Når Imnovid anvendes sammen med dexamethason hos personer, som har fået mindst to andre 
+behandlinger, kan det forhindre, at myelomatosen forværres: 
+• Når Imnovid bruges sammen med dexamethason, har det i gennemsnit varet op til 4 måneder, 
+før myelomatosen vendte tilbage - sammenlignet med 2 måneder, når patienterne kun fik 
+dexamethason. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take imnovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take imnovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Imnovid: </p>
+<ul>
+<li>
+<p>hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid - da 
+Imnovid forventes at være skadeligt for det ufødte barn. (Mænd og kvinder, som tager dette 
+lægemiddel, skal læse punktet "Graviditet, prævention og amning - information til kvinder og 
+mænd" nedenfor). </p>
+</li>
+<li>
+<p>hvis du kan blive gravid, med mindre du træffer alle nødvendige forholdsregler for at undgå at 
+blive gravid (se "Graviditet, prævention og amning - information til kvinder og mænd"). Hvis 
+du kan blive gravid, vil din læge notere, at alle nødvendige forholdsregler er blevet truffet, og 
+vil bekræfte dette over for dig, hver gang du får ordineret lægemidlet.  </p>
+</li>
+<li>
+<p>hvis du er allergisk over for pomalidomid eller et af de øvrige indholdsstoffer i Imnovid 
+(angivet i punkt 6). Hvis du mener, du kan være allergisk, skal du spørge lægen til råds. </p>
+</li>
+</ul>
+<p>Hvis du er i tvivl, om nogle af ovenstående betingelser gælder for dig, så spørg lægen, 
+apotekspersonalet eller sygeplejersken, før du tager Imnovid. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Imnovid: </p>
+<ul>
+<li>
+<p>hvis du tidligere har haft blodpropper. Under din behandling med Imnovid vil du have en øget 
+risiko for at få blodpropper i dine vener og arterier. Din læge kan anbefale, at du tager ekstra 
+lægemidler (f.eks. warfarin), eller lægen kan reducere dosis af Imnovid, for at nedsætte risikoen 
+for, at du får blodpropper. </p>
+</li>
+<li>
+<p>hvis du tidligere har haft en allergisk reaktion, såsom udslæt, kløe, hævelse, svimmelhedsfølelse 
+eller vejrtrækningsbesvær, mens du har taget beslægtede lægemidler, der hed enten ‘thalidomid’ 
+eller ‘lenalidomid’. </p>
+</li>
+<li>
+<p>hvis du har haft et hjerteanfald, lider af hjertesvigt, har vejrtrækningsbesvær, eller hvis du ryger, 
+har højt blodtryk eller forhøjet kolesterol. </p>
+</li>
+<li>
+<p>hvis du har en høj total tumorbyrde i hele kroppen, herunder i knoglemarven. Dette kan føre til 
+en tilstand, hvor tumorerne nedbrydes og giver usædvanlige niveauer af salte i blodet, hvilket 
+kan føre til nyreskade. Du kan også opleve uregelmæssige hjerteslag. Denne tilstand kaldes 
+tumorlysesyndrom. </p>
+</li>
+<li>
+<p>hvis du har eller tidligere har haft neuropati (nerveskade, der forårsager prikken eller smerter i 
+hænder eller fødder).  </p>
+</li>
+<li>
+<p>hvis du har eller tidligere har haft en infektion med hepatitis B. Behandling med Imnovid kan 
+føre til, at hepatitis B-virus igen bliver aktiv hos patienter, der er bærer af virus, og medføre, at 
+infektionen vender tilbage. Din læge bør teste, om du nogensinde har haft hepatitis B-infektion. </p>
+</li>
+<li>
+<p>hvis du oplever eller tidligere har oplevet en kombination af nogle af følgende symptomer: 
+udslæt i ansigtet eller udbredt udslæt, hudrødme, høj feber, influenzalignende symptomer, 
+forstørrede lymfeknuder (tegn på en alvorlig hudreaktion, der kaldes lægemiddelfremkaldt 
+reaktion med eosinofili og systemiske symptomer (DRESS) eller 
+lægemiddeloverfølsomhedssyndrom, toksisk epidermal nekrolyse (TEN) eller Stevens-
+Johnsons syndrom (SJS). Se også punkt 4 “Bivirkninger"). </p>
+</li>
+</ul>
+<p>Det er vigtigt at bemærke, at patienter med myelomatose, der behandles med pomalidomid, kan 
+udvikle andre typer kræft. Derfor skal lægen nøje vurdere fordele og risici, når du får dette lægemiddel 
+ordineret. </p>
+<p>Du skal øjeblikkeligt fortælle det til lægen eller sygeplejersken, hvis du på noget tidspunkt under eller 
+efter behandlingen oplever noget af følgende: sløret syn, synstab, dobbeltsyn, talebesvær, svækkelse af 
+en arm eller et ben, ændring af den måde, du går på, eller problemer med at holde balancen, 
+vedvarende følelsesløshed, nedsat føleevne, tab af føleevne, hukommelsestab eller forvirring. Alle 
+disse reaktioner kan være symptomer på en alvorlig og potentielt dødelig hjernelidelse, der kaldes 
+progressiv multifokal leukoencefalopati (PML). Hvis du havde disse symptomer før behandlingen med 
+Imnovid, skal du fortælle det til lægen, hvis du oplever en ændring af dem. </p>
+<p>Ved behandlingens afslutning skal du aflevere alle ubrugte kapsler på apoteket. </p>
+<p>Graviditet, prævention og amning - information til kvinder og mænd 
+Følgende skal overholdes som beskrevet i "Programmet til svangerskabsforebyggelse" for Imnovid. 
+Kvinder, der tager Imnovid, må ikke blive gravide, og mænd må ikke blive fædre. Dette skyldes, at 
+pomalidomid kan skade barnet. Du og din partner skal anvende sikker prævention, mens du tager dette 
+lægemiddel. </p>
+<p>Kvinder 
+Tag ikke Imnovid, hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid. 
+Dette skyldes, at lægemidlet forventes at skade det ufødte barn. Før behandlingen indledes, skal du 
+fortælle det til lægen, hvis du er i stand til at blive gravid, selvom du tror, det er usandsynligt. </p>
+<p>Hvis du kan blive gravid: </p>
+<ul>
+<li>
+<p>skal du bruge sikker prævention i mindst 4 uger før, behandlingen påbegyndes, i al den tid, du 
+får behandlingen, og i mindst 4 uger efter behandlingsophør. Tal med lægen om den bedste 
+præventionsmetode for dig. </p>
+</li>
+<li>
+<p>hver gang din læge skriver en recept til dig, vil han sikre, at du forstår de nødvendige 
+forholdsregler, som skal tages for at undgå graviditet.  </p>
+</li>
+<li>
+<p>din læge vil sørge for, at der bliver udført graviditetstest før behandlingen, mindst hver 4. uge 
+under behandlingen, og mindst 4 uger efter behandlingen er ophørt.  </p>
+</li>
+</ul>
+<p>Hvis du bliver gravid trods svangerskabsforebyggelse:  </p>
+<ul>
+<li>skal du omgående stoppe behandlingen og straks kontakte lægen. </li>
+</ul>
+<p>Amning 
+Det er ukendt, om Imnovid udskilles i human brystmælk. Fortæl det til lægen, hvis du ammer eller 
+planlægger at amme. Din læge vil rådgive dig, om du skal stoppe eller fortsætte amningen. </p>
+<p>Mænd 
+Imnovid udskilles i sæden hos mennesker. </p>
+<ul>
+<li>
+<p>Hvis din partner er eller kan blive gravid, skal du bruge kondom i al den tid, du får 
+behandlingen, og i 7 dage efter behandlingsophør. </p>
+</li>
+<li>
+<p>Hvis din partner bliver gravid, mens du tager Imnovid, skal du straks fortælle det til lægen. Din 
+partner skal også straks fortælle det til sin læge. 
+Du må ikke donere sæd eller sperm under behandlingen og i 7 dage efter behandlingsophør. </p>
+</li>
+</ul>
+<p>Bloddonation og blodprøver 
+Du må ikke være bloddonor under behandlingen og i 7 dage efter behandlingsophør. 
+Du vil få taget blodprøver før behandlingen og regelmæssigt under behandlingen med Imnovid. Dette 
+skyldes, at lægemidlet kan forårsage et nedsat antal blodlegemer, der hjælper med at bekæmpe 
+infektion (hvide blodlegemer), og et nedsat antal blodplader, der hjælper med at stoppe blødningen. </p>
+<p>Din læge vil bede dig om at få taget en blodprøve: </p>
+<ul>
+<li>
+<p>før behandling  </p>
+</li>
+<li>
+<p>hver uge de første 8 uger af behandlingen </p>
+</li>
+<li>
+<p>mindst hver måned derefter, så længe du tager Imnovid. </p>
+</li>
+</ul>
+<p>Ud fra disse prøver kan lægen ændre din dosis af Imnovid eller standse behandlingen. Lægen kan også 
+ændre dosis eller stoppe behandlingen på grund af din almene helbredstilstand. </p>
+<p>Børn og unge<br />
+Imnovid bør ikke anvendes til børn og unge mennesker under 18 år. </p>
+<p>Brug af andre lægemidler sammen med Imnovid 
+Fortæl altid lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre lægemidler, for nylig 
+har taget andre lægemidler eller planlægger at tage andre lægemidler. Dette skyldes, at Imnovid kan 
+påvirke den måde, nogle af de andre lægemidler virker på. Andre lægemidler kan også påvirke den 
+måde, Imnovid virker på.  </p>
+<p>Fortæl især lægen, apotekspersonalet eller sygeplejersken, før du tager Imnovid, hvis du tager nogen af 
+de følgende lægemidler: </p>
+<ul>
+<li>
+<p>nogle lægemidler mod svampeinfektion, såsom ketoconazol </p>
+</li>
+<li>
+<p>nogle antibiotika (for eksempel ciprofloxacin, enoxacin) </p>
+</li>
+<li>
+<p>visse lægemidler mod depression, såsom fluvoxamin. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Nogle personer føler sig trætte, svimle, forvirrede eller mindre opmærksomme, når de tager Imnovid. 
+Hvis dette forekommer, må du ikke føre motorkøretøj eller betjene værktøj eller maskiner. </p>
+<p>Imnovid indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take imnovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take imnovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Imnovid af en læge med erfaring i at behandle myelomatose. </p>
+<p>Tag altid dine lægemidler nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, 
+apotekspersonalet eller sygeplejersken. </p>
+<p>Hvornår skal du tage Imnovid sammen med andre lægemidler? </p>
+<p>Imnovid sammen med bortezomib og dexamethason </p>
+<ul>
+<li>
+<p>Se indlægssedlerne, der følger med bortezomib og dexamethason, for yderligere oplysninger om 
+brug og virkning. </p>
+</li>
+<li>
+<p>Imnovid, bortezomib og dexamethason tages i ’behandlingscyklusser’. Hver cyklus varer 
+21 dage (3 uger). </p>
+</li>
+<li>
+<p>Diagrammet nedenfor viser, hvad du skal tage hver dag i en 3-ugers cyklus:  * 
+Hver dag skal du kigge i diagrammet og finde den korrekte dag for at se hvilke 
+lægemidler, du skal tage.  * 
+Nogle dage tager du alle 3 lægemidler, nogle dage kun 2 lægemidler eller 1 lægemiddel 
+og nogle dage slet ikke nogen. </p>
+</li>
+<li>
+<p>IMN: Imnovid; BOR: Bortezomib; DEX: Dexamethason </p>
+</li>
+</ul>
+<p>Cyklus 1 til 8 </p>
+<p>Cyklus 9 og fremover </p>
+<p>Lægemiddelnavn </p>
+<p>Lægemiddelnavn 
+Dag 
+IMN 
+BOR 
+DEX </p>
+<p>Dag 
+IMN 
+BOR 
+DEX 
+1 
+√ 
+√ 
+√ </p>
+<p>1 
+√ 
+√ 
+√ 
+2 
+√ </p>
+<p>√ </p>
+<p>2 
+√ </p>
+<p>√ 
+3 
+√ </p>
+<p>3 
+√ </p>
+<p>4 
+√ 
+√ 
+√ </p>
+<p>4 
+√ </p>
+<p>5 
+√ </p>
+<p>√ </p>
+<p>5 
+√ </p>
+<p>6 
+√ </p>
+<p>6 
+√ </p>
+<p>7 
+√ </p>
+<p>7 
+√ </p>
+<p>8 
+√ 
+√ 
+√ </p>
+<p>8 
+√ 
+√ 
+√ 
+9 
+√ </p>
+<p>√ </p>
+<p>9 
+√ </p>
+<p>√ 
+√ </p>
+<p>√ </p>
+<p>√ 
+√ 
+√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<ul>
+<li>Efter hver 3-ugers cyklus er gennemført, skal der startes en ny. </li>
+</ul>
+<p>Imnovid kun sammen med dexamethason  </p>
+<ul>
+<li>Se indlægssedlen, der følger med dexamethason, for yderligere oplysninger om brug og 
+virkning af dexamethason.  </li>
+</ul>
+<p>Imnovid og dexamethason tages i behandlingscyklusser.Hver cyklus varer 28 dage (4 uger). </p>
+<ul>
+<li>
+<p>Diagrammet nedenfor viser, hvad du skal tage hver dag i en 4-ugers cyklus:  * 
+Hver dag skal du kigge i diagrammet og finde den korrekte dag for at se hvilke 
+lægemidler, du skal tage.  * 
+Nogle dage tager du begge lægemidler, nogle dage kun 1 lægemiddel og nogle dage slet 
+ingen.  </p>
+</li>
+<li>
+<p>IMN: Imnovid; DEX: Dexamethason </p>
+</li>
+</ul>
+<p>Lægemiddelnavn 
+Dag 
+IMN 
+DEX 
+1 
+√ 
+√ 
+2 
+√ </p>
+<p>3 
+√ </p>
+<p>4 
+√ </p>
+<p>5 
+√ </p>
+<p>6 
+√ </p>
+<p>7 
+√ </p>
+<p>8 
+√ 
+√ 
+9 
+√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ 
+√ 
+√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<p>√ </p>
+<ul>
+<li>Efter hver 4-ugers cyklus er gennemført, skal der startes en ny. </li>
+</ul>
+<p>Hvor meget Imnovid skal der tages sammen med andre lægemidler? </p>
+<p>Imnovid sammen med bortezomib og dexamethason </p>
+<ul>
+<li>
+<p>Den anbefalede startdosis af Imnovid er 4 mg pr. dag.  </p>
+</li>
+<li>
+<p>Den anbefalede startdosis af bortezomib vil blive beregnet af din læge på baggrund af din højde 
+og vægt (1,3 mg/m2 legemsoverfladeareal).  </p>
+</li>
+<li>
+<p>Den anbefalede startdosis af dexamethason er 20 mg pr. dag. Hvis du imidlertid er over 75 år, er 
+den anbefalede startdosis 10 mg pr. dag. </p>
+</li>
+</ul>
+<p>Imnovid kun sammen med dexamethason </p>
+<ul>
+<li>
+<p>Den anbefalede dosis af Imnovid er 4 mg pr. dag. </p>
+</li>
+<li>
+<p>Den anbefalede startdosis af dexamethason er 40 mg pr. dag. Hvis du imidlertid er over 75 år, er 
+den anbefalede startdosis 20 mg pr. dag. </p>
+</li>
+</ul>
+<p>Det kan være nødvendigt, at lægen nedsætter dosis af Imnovid, bortezomib eller dexamethason eller 
+stopper et eller flere af disse lægemidler ud fra resultaterne af dine blodprøver, din almentilstand, 
+andre lægemidler, du evt. tager (f.eks. ciprofloxacin, enoxacin og fluvoxamin), eller hvis du får 
+bivirkninger (især udslæt eller hævelse) af behandlingen. Hvis du lider af lever- eller nyreproblemer, 
+vil lægen kontrollere din tilstand meget omhyggeligt, så længe du får dette lægemiddel. </p>
+<p>Hvordan tages Imnovid </p>
+<ul>
+<li>
+<p>Kapslerne må ikke knækkes, åbnes eller tygges. Hvis pulveret fra en knækket kapsel får kontakt 
+med huden, vaskes huden straks grundigt med sæbe og vand. </p>
+</li>
+<li>
+<p>Sundhedspersonale, omsorgspersoner og pårørende skal bære engangshandsker, når de 
+håndterer blisteren eller kapslen. Handskerne skal derefter tages forsigtigt af for at forhindre 
+eksponering af huden, anbringes i en plastpose af polyethylen, som kan forsegles, og bortskaffes 
+i overensstemmelse med de lokale krav. Derefter skal hænderne vaskes grundigt med sæbe og 
+vand. Kvinder, der er gravide, eller tror, de kan være gravide, må ikke håndtere blisteren eller 
+kapslen. </p>
+</li>
+<li>
+<p>Slug kapslerne hele, helst med vand. </p>
+</li>
+<li>
+<p>Du kan tage kapslerne enten sammen med eller uden mad. </p>
+</li>
+<li>
+<p>Tag dine kapsler på cirka samme tidspunkt hver dag. </p>
+</li>
+</ul>
+<p>Tag kapslen ud af blisteren ved kun at trykke på den ene ende af kapslen, når den presses gennem 
+folien. Tryk ikke midt på kapslen, da det kan forårsage, at den knækker. </p>
+<p>Lægen vil rådgive dig om, hvordan og hvornår du skal tage Imnovid, hvis du har nyreproblemer og får 
+dialysebehandling. </p>
+<p>Varigheden af behandling med Imnovid 
+Du skal fortsætte med dine behandlingscyklusser, indtil lægen fortæller dig, at du skal stoppe. </p>
+<p>Hvis du har taget for meget Imnovid 
+Hvis du har taget for meget Imnovid, skal du straks tale med en læge eller tage på hospitalet. 
+Medbring lægemiddelpakningen. </p>
+<p>Hvis du har glemt at tage Imnovid 
+Hvis du har glemt at tage Imnovid på en dag, hvor du skulle, skal du tage din næste kapsel som 
+sædvanligt den næste dag. Du må ikke øge det antal kapsler, du tager, for at erstatte den kapsel, som 
+du ikke tog den foregående dag. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Alvorlige bivirkninger </p>
+<p>Hold op med at tage Imnovid og kontakt straks lægen, hvis du bemærker en af de følgende 
+alvorlige bivirkninger - du kan have behov for akut lægehjælp  </p>
+<ul>
+<li>
+<p>Feber, kulderystelser, ondt i halsen, hoste, mundsår eller andre tegn på infektion (skyldes færre 
+hvide blodlegemer, der bekæmper infektioner). </p>
+</li>
+<li>
+<p>Blødning eller blå mærker uden årsag, herunder næseblod og blødning fra tarmen eller maven 
+(skyldes virkningen på blodlegemer, der kaldes ‘blodplader’). </p>
+</li>
+<li>
+<p>Hurtig vejrtrækning, hurtig puls, feber og kulderystelser, udskillelse af meget lidt eller ingen 
+urin, kvalme og opkastning, forvirring, bevidstløshed (skyldes en infektion af blodet, der kaldes 
+sepsis eller septisk shock). </p>
+</li>
+<li>
+<p>Alvorlig, vedvarende eller blodig diarré (muligvis med mavesmerter eller feber) forårsaget af 
+bakterier, der kaldes Clostridium difficile. </p>
+</li>
+<li>
+<p>Brystsmerter eller bensmerter og hævelse, især nederst på benet eller i læggen (forårsaget af 
+blodpropper).  </p>
+</li>
+<li>
+<p>Vejrtrækningsbesvær (fra alvorlige brystinfektioner, lungebetændelse, hjertesvigt eller 
+blodpropper). </p>
+</li>
+<li>
+<p>Hævelse af ansigt, læber, tunge og hals, hvilket kan forårsage vejrtrækningsbesvær (skyldes 
+alvorlige former for allergisk reaktion, der kaldes angioødem og anafylaksi). </p>
+</li>
+<li>
+<p>Visse typer hudkræft (planocellulært karcinom og basalcellekarcinom), som kan ændre din huds 
+udseende eller forårsage vækster på din hud. Hvis du bemærker nogle hudændringer, mens du 
+tager Imnovid, skal du så hurtigt som muligt fortælle det til lægen. </p>
+</li>
+<li>
+<p>Tilbagevendende hepatitis B-infektion, som kan forårsage gulfarvning af hud og øjne, 
+mørkebrun urin, smerter i den højre side af maven, feber og kvalme eller opkastning. Fortæl det 
+straks til lægen, hvis du bemærker nogle af disse symptomer. </p>
+</li>
+<li>
+<p>Udbredt udslæt, høj legemstemperatur, forstørrede lymfeknuder og involvering af andre 
+kropsorganer (lægemiddelfremkaldt reaktion med eosinofili og systemiske symptomer, som 
+også kaldes DRESS eller lægemiddeloverfølsomhedssyndrom, toksisk epidermal nekrolyse eller 
+Stevens-Johnsons syndrom). Stop med at bruge pomalidomid, hvis du udvikler disse 
+symptomer, og kontakt straks din læge, eller søg lægehjælp. Se også punkt 2. Hold op med at tage Imnovid og tag straks til lægen, hvis du bemærker en eller flere af de alvorlige 
+bivirkninger anført ovenfor - du kan have behov for akut medicinsk behandling. </p>
+</li>
+</ul>
+<p>Andre bivirkninger 
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Åndenød (dyspnø). </p>
+</li>
+<li>
+<p>Lungeinfektioner (pneumoni og bronkitis).  </p>
+</li>
+<li>
+<p>Infektioner i næsen, bihulerne og halsen, forårsaget af bakterier eller vira. </p>
+</li>
+<li>
+<p>Influenzelignende symptomer (influenza). </p>
+</li>
+<li>
+<p>Lavt antal røde blodlegemer, hvilket kan forårsage blodmangel (anæmi) og medføre træthed og 
+svaghed. </p>
+</li>
+<li>
+<p>Lavt niveau af kalium i blodet (hypokaliæmi), hvilket kan forårsage svaghed, muskelkramper, 
+muskelsmerter, hjertebanken, prikkende fornemmelse eller følelsesløshed, dyspnø, 
+humørforandringer. </p>
+</li>
+<li>
+<p>Højt blodsukkerniveau. </p>
+</li>
+<li>
+<p>En hurtig og uregelmæssig puls (atrieflimmer). </p>
+</li>
+<li>
+<p>Appetitløshed. </p>
+</li>
+<li>
+<p>Forstoppelse, diarré eller kvalme. </p>
+</li>
+<li>
+<p>Opkastning. </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Manglende energi. </p>
+</li>
+<li>
+<p>Problemer med at falde i søvn eller blive ved med at sove. </p>
+</li>
+<li>
+<p>Svimmelhed, tremor.  </p>
+</li>
+<li>
+<p>Muskelspasmer, muskelsvaghed. </p>
+</li>
+<li>
+<p>Knoglesmerter, rygsmerter. </p>
+</li>
+<li>
+<p>Følelsesløshed, stikkende eller brændende fornemmelse i huden, smerter i hænder eller fødder 
+(perifer sensorisk neuropati). </p>
+</li>
+<li>
+<p>Hævelser i kroppen, herunder hævede arme og ben. </p>
+</li>
+<li>
+<p>Udslæt. </p>
+</li>
+<li>
+<p>Urinvejsinfektion, hvilket kan forårsage en brændende fornemmelse, når du lader vandet, eller 
+en hyppigere vandladningstrang. </p>
+</li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Faldtendens. </p>
+</li>
+<li>
+<p>Blødning inde i kraniet. </p>
+</li>
+<li>
+<p>Nedsat evne til at bevæge eller nedsat følelse i hænder, arme, fødder og ben som følge af 
+nerveskader (perifer sensomotorisk neuropati). </p>
+</li>
+<li>
+<p>Følelsesløshed, kløe og en følelse af stikken og prikken i huden (paræstesi). </p>
+</li>
+<li>
+<p>En snurrende fornemmelse i hovedet, som gør det besværligt at stå op og bevæge sig normalt. </p>
+</li>
+<li>
+<p>Hævelse forårsaget af væske. </p>
+</li>
+<li>
+<p>Nældefeber (urticaria). </p>
+</li>
+<li>
+<p>Kløende hud. </p>
+</li>
+<li>
+<p>Helvedesild. </p>
+</li>
+<li>
+<p>Hjerteanfald (brystsmerter, der spreder sig til arme, hals, kæbe, svedtendens og åndenød, 
+kvalme eller opkastning). </p>
+</li>
+<li>
+<p>Brystsmerter, brystinfektion. </p>
+</li>
+<li>
+<p>Forhøjet blodtryk. </p>
+</li>
+<li>
+<p>Nedsat antal røde og hvide blodlegemer og blodplader på samme tid (pancytopeni), hvilket vil 
+give dig en større tendens til at bløde og få blå mærker. Du kan føle dig træt og svag og blive 
+stakåndet, og det er også mere sandsynligt, at du får infektioner. </p>
+</li>
+<li>
+<p>Nedsat antal lymfocytter (en type hvide blodlegemer), ofte forårsaget af infektion (lymfopeni). </p>
+</li>
+<li>
+<p>Lavt niveau af magnesium i blodet (hypomagnesiæmi), som kan forårsage træthed, en generel 
+svaghedsfølelse, muskelkramper, irritabilitet og kan føre til et lavt niveau af calcium i blodet 
+(hypocalcæmi), hvilket kan forårsage følelsesløshed og/eller en stikkende fornemmelse i 
+hænder, fødder eller læber, muskelkramper, muskelsvaghed, ørhed, forvirring. </p>
+</li>
+<li>
+<p>Lavt niveau af fosfat i blodet (hypofosfatæmi), som kan forårsage muskelsvaghed og irritabilitet 
+eller forvirring. </p>
+</li>
+<li>
+<p>Højt niveau af calcium i blodet (hypercalcæmi), hvilket kan forårsage langsommere reflekser og 
+svaghed i skeletmuskulaturen. </p>
+</li>
+<li>
+<p>Forhøjet kalium i blodet, hvilket kan forårsage unormal hjerterytme. </p>
+</li>
+<li>
+<p>Nedsat natrium i blodet, hvilket kan forårsage træthed og forvirring, muskeltrækninger, 
+epileptiske anfald og koma. </p>
+</li>
+<li>
+<p>Højt niveau af urinsyre i blodet, hvilket kan forårsage en form for gigt, der kaldes podagra. </p>
+</li>
+<li>
+<p>Lavt blodtryk, hvilket kan forårsage svimmelhed eller besvimelse. </p>
+</li>
+<li>
+<p>Ømhed eller tørhed i munden. </p>
+</li>
+<li>
+<p>Ændringer af smagssans. </p>
+</li>
+<li>
+<p>Opspilet mave. </p>
+</li>
+<li>
+<p>Forvirring.  </p>
+</li>
+<li>
+<p>Nedtrykthed. </p>
+</li>
+<li>
+<p>Bevidstløshed, besvimelse. </p>
+</li>
+<li>
+<p>Uklarhed af øjet (grå stær). </p>
+</li>
+<li>
+<p>Nyreskader. </p>
+</li>
+<li>
+<p>Vandladningsbesvær / vandladningsstop. </p>
+</li>
+<li>
+<p>Unormal leverprøve. </p>
+</li>
+<li>
+<p>Smerter i bækkenet.  </p>
+</li>
+<li>
+<p>Vægttab </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Slagtilfælde. </p>
+</li>
+<li>
+<p>Betændelse i leveren (hepatitis), hvilket kan forårsage hudkløe, gulfarvning af huden og det 
+hvide i øjnene (gulsot), bleg afføring, mørk urin og mavesmerter. </p>
+</li>
+<li>
+<p>Nedbrydningen af kræftceller medfører, at giftige stoffer frigives til blodet (tumorlysesyndrom). 
+Dette kan føre til nyreproblemer. </p>
+</li>
+<li>
+<p>Underaktiv skjoldbruskkirtel, hvilket kan forårsage symptomer som træthed, sløvhed, 
+muskelsvaghed, langsom hjerterytme, vægtstigning. </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>Afstødning af transplanterede solide organer (såsom hjerte eller lever). </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store imnovid"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store imnovid"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisteret og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Brug ikke Imnovid, hvis du bemærker, at pakningen er beskadiget eller udviser tegn på at have været 
+åbnet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet, må du 
+ikke smide lægemiddelrester i afløbet eller skraldespanden. Al ikke anvendt lægemiddel skal afleveres 
+til apotekspersonalet efter endt behandling. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Imnovid indeholder </p>
+<ul>
+<li>
+<p>Aktivt stof: pomalidomid. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: mannitol (E421),stivelse; prægelatineret og natriumstearylfumarat. </p>
+</li>
+</ul>
+<p>Imnovid 1 mg hård kapsel: </p>
+<ul>
+<li>
+<p>Hver kapsel indeholder 1 mg pomalidomid. </p>
+</li>
+<li>
+<p>Kapselskallen indeholder: gelatine, titandioxid (E171), indigotin (E132) og gul jernoxid (E172) 
+samt hvidt og sort blæk. </p>
+</li>
+<li>
+<p>Prægeblækket indeholder: shellac, titandioxid (E171), simeticon, propylenglycol (E1520) og 
+ammoniumhydroxid (E527) (hvidt blæk) og shellac, jernoxid, sort (E172), propylenglycol 
+(E1520) og ammoniumhydroxid (E527) (sort blæk). </p>
+</li>
+</ul>
+<p>Imnovid 2 mg hård kapsel: </p>
+<ul>
+<li>
+<p>Hver kapsel indeholder 2 mg pomalidomid. </p>
+</li>
+<li>
+<p>Kapselskallen indeholder: gelatine, titandioxid (E171), indigotin (E132), gul jernoxid (E172), 
+erythrosin (E127) samt hvidt blæk. </p>
+</li>
+<li>
+<p>Prægeblækket indeholder: hvidt blæk - shellac, titandioxid (E171), simeticon, propylenglycol 
+(E1520) og ammoniumhydroxid (E527). </p>
+</li>
+</ul>
+<p>Imnovid 3 mg hård kapsel: </p>
+<ul>
+<li>
+<p>Hver kapsel indeholder 3 mg pomalidomid. </p>
+</li>
+<li>
+<p>Kapselskallen indeholder: gelatine, titandioxid (E171), indigotin (E132), gul jernoxid (E172) 
+samt hvidt blæk. </p>
+</li>
+<li>
+<p>Prægeblækket indeholder: hvidt blæk - shellac, titandioxid (E171), simeticon, propylenglycol 
+(E1520) og ammoniumhydroxid (E527). </p>
+</li>
+</ul>
+<p>Imnovid 4 mg hård kapsel: </p>
+<ul>
+<li>
+<p>Hver kapsel indeholder 4 mg pomalidomid. </p>
+</li>
+<li>
+<p>Kapselskallen indeholder: gelatine, titandioxid (E171), indigotin (E132), brilliant blue FCF 
+(E133) samt hvidt blæk. </p>
+</li>
+<li>
+<p>Prægeblækket indeholder: hvidt blæk - shellac, titandioxid (E171), simeticon, propylenglycol 
+(E1520) og ammoniumhydroxid (E527). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Imnovid 1 mg hårde kapsler: Mørkeblå, uigennemsigtig hætte og gul uigennemsigtig kapselunderdel, 
+præget med "POML1 mg". 
+Imnovid 2 mg hårde kapsler: Mørkeblå, uigennemsigtig hætte og orange uigennemsigtig 
+kapselunderdel, præget med "POML2 mg".<br />
+Imnovid 3 mg hårde kapsler: Mørkeblå, uigennemsigtig hætte og grøn uigennemsigtig kapselunderdel, 
+præget med "POML3 mg". 
+Imnovid 4 mg hårde kapsler: Mørkeblå, uigennemsigtig hætte og blå uigennemsigtig kapselunderdel, 
+præget med "POML4 mg".  </p>
+<p>Hver pakning indeholder 14 eller 21 kapsler. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIrland </p>
+<p>Fremstiller </p>
+<p>Celgene Distribution B.V. 
+Orteliuslaan 13528 BD Utrecht<br />
+Holland </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<p>Detaljerede og opdaterede oplysninger om dette lægemiddel kan ses ved at scanne QR-koden på den 
+ydre emballage med en smarttelefon. De samme oplysninger kan også ses ved at klikke på følgende 
+URL: www.imnovid-eu-pil.com. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9690a7f47a287edf985eddd979c0833b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imnovid Package Leaflet for language en"
+Description: "ePI document Bundle for imnovid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9690a7f47a287edf985eddd979c0833b"
+* entry[0].resource = composition-en-9690a7f47a287edf985eddd979c0833b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9690a7f47a287edf985eddd979c0833b"
+* entry[=].resource = mp9690a7f47a287edf985eddd979c0833b
+                            
+                    
+Instance: bundlepackageleaflet-da-9690a7f47a287edf985eddd979c0833b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imnovid Package Leaflet for language da"
+Description: "ePI document Bundle for imnovid Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9690a7f47a287edf985eddd979c0833b"
+* entry[0].resource = composition-da-9690a7f47a287edf985eddd979c0833b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9690a7f47a287edf985eddd979c0833b"
+* entry[=].resource = mp9690a7f47a287edf985eddd979c0833b
+                            
+                    
+
+
+
+Instance: mp9690a7f47a287edf985eddd979c0833b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Imnovid 1 mg hard capsules"
-Description: "Imnovid 1 mg hard capsules"
+Title: "Medicinal Product imnovid"
+Description: "imnovid"
 Usage: #inline
 
  
@@ -562,7 +1532,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Imnovid 1 mg hard capsules"
+  * productName = "imnovid"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -589,29 +1559,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9690a7f47a287edf985eddd979c0833b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for imnovid Package Leaflet for language en"
-Description: "ePI document Bundle for imnovid Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9690a7f47a287edf985eddd979c0833bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Imnovid 1 mg hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "imnovid"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9690a7f47a287edf985eddd979c0833b"
-* entry[0].resource = composition-en-9690a7f47a287edf985eddd979c0833b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6d50bf1e702a2cfc45f6cbd02f0e3c16"
-* entry[=].resource = mp6d50bf1e702a2cfc45f6cbd02f0e3c16
-                            
-                      
+* title = "List of all ePIs associated with imnovid"
+
+* subject = Reference(mp6d50bf1e702a2cfc45f6cbd02f0e3c16)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#imnovid "imnovid"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9690a7f47a287edf985eddd979c0833b) // imnovid en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9690a7f47a287edf985eddd979c0833b) // imnovid da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9690a7f47a287edf985eddd979c0833b
+InstanceOf: List
+
+* insert 9690a7f47a287edf985eddd979c0833bListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8e9729f37593f28a655449a0b1bb5596
 InstanceOf: CompositionUvEpi
 Title: "Composition for trisenox Package Leaflet"
@@ -290,12 +293,396 @@ A91 P9KD, Ireland </p>
 
 
 
+Instance: composition-da-8e9729f37593f28a655449a0b1bb5596
+InstanceOf: CompositionUvEpi
+Title: "Composition for trisenox Package Leaflet"
+Description:  "Composition for trisenox Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdcf711b4ec1ee1082f9f89b0578451a8)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpdcf711b4ec1ee1082f9f89b0578451a8
+* title = "TEST PURPOSES ONLY - trisenox"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at få TRISENOX<br />
+3. Sådan gives TRISENOX 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What trisenox is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What trisenox is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TRISENOX anvendes til voksne patienter med nydiagnosticeret lav til intermediær risiko akut 
+promyelocyt-leukæmi (APL), og til voksne patienter, hvis sygdom ikke har reageret på andre 
+behandlinger. APL er en speciel type myeloid leukæmi, en sygdom, hvor der forekommer unormale 
+hvide blodlegemer og unormal blødning og blå mærker. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take trisenox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take trisenox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TRISENOX skal indgives under tilsyn af en læge, der har erfaring med behandlingen af akut leukæmi.  </p>
+<p>Du må ikke få TRISENOX 
+Hvis du er allergisk over for arsentrioxid eller et af de øvrige indholdsstoffer i TRISENOX (angivet i 
+punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Du skal kontakte lægen eller sundhedspersonalet, før du får TRISENOX, hvis 
+- du har nedsat nyrefunktion, 
+- du har leverproblemer. </p>
+<p>Din læge vil tage følgende forsigtighedsregler:</p>
+<ul>
+<li>Der vil blive taget prøver for at kontrollere mængden af kalium, magnesium, calcium og 
+kreatinin i blodet, inden du får din første dosis TRISENOX.  </li>
+<li>Du skal have taget et elektrokardiogram (ekg) inden din første dosis.  </li>
+<li>Blodprøver (for kalium, calcium, magnesium og til kontrol af leverfunktionen) bør gentages 
+under behandlingen med TRISENOX.  </li>
+<li>Derudover vil du få taget et elektrokardiogram to gange ugentlig.  </li>
+<li>Hvis der er risiko for, at du har en bestemt type unormal hjerterytme (f.eks. torsades de pointes 
+eller QT-forlængelse), vil dit hjerte blive kontrolleret løbende. </li>
+<li>Din læge vil overvåge dit helbred under og efter behandlingen, da arsentrioxid, det aktive stof i 
+TRISENOX, kan forårsage andre kræftformer. Du skal fortælle om alle nye og usædvanlige 
+symptomer og omstændigheder, når du ser lægen. </li>
+<li>Opfølgning af dine kognitive funktioner og din mobilitet, hvis du har risiko for B1-
+vitaminmangel. </li>
+</ul>
+<p>Børn og unge 
+TRISENOX anbefales ikke til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med TRISENOX 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
+nylig. Dette gælder også medicin, som ikke er købt på recept. </p>
+<p>Fortæl det især altid til lægen 
+− hvis du bruger forskellige typer medicin, som kan forårsage en ændring i din hjerterytme. Disse 
+kan bl.a. være: 
+• visse typer antiarytmika (medicin, som bruges til at korrigere uregelmæssig hjerterytme, 
+f.eks. kinidin, amiodaron, sotalol, dofetilid) 
+• medicin til behandling af psykose (manglende realitetsopfattelse, f.eks. thioridazin) 
+• medicin til behandling af depression (f.eks. amitriptylin) 
+• visse typer medicin til behandling af bakterieinfektioner (f.eks. erythromycin og 
+sparfloxacin) 
+• visse typer medicin til behandling af allergier, f.eks. høfeber (antihistaminer, f.eks. 
+terfenadin og astemizol) 
+• medicin, som medfører nedsat indhold af magnesium eller kalium i dit blod (f.eks. 
+amphotericin B) 
+• cisaprid (medicin som bruges til at lindre visse maveproblemer) 
+Disse lægemidlers virkning på din hjerterytme kan forværres af TRISENOX. Du skal sørge 
+for at fortælle din læge om al den medicin, du tager.<br />
+- hvis du tager eller for nyligt har taget medicin, der kan påvirke leveren. Vis beholderen eller 
+pakningen til lægen, hvis du er i tvivl. </p>
+<p>Brug af TRISENOX sammen med mad og drikke 
+Der er ingen begrænsninger med hensyn til mad og drikke, mens du får TRISENOX. </p>
+<p>Graviditet 
+Spørg din læge eller apotekspersonalet til råds, før du tager nogen form for medicin. 
+Du må ikke få TRISENOX, hvis du er gravid, da det kan skade fosteret. 
+Hvis du er i den fødedygtige alder, skal du bruge sikker prævention under behandlingen med 
+TRISENOX og i 6 måneder efter behandlingen er gennemført. </p>
+<p>Hvis du er gravid, eller du bliver gravid under behandlingen med TRISENOX, skal du spørge din læge 
+til råds.  </p>
+<p>Mænd skal bruge sikker prævention rådes til ikke at undfange et barn, mens de får TRISENOX og i 
+3 måneder efter behandlingen er gennemført.. </p>
+<p>Amning 
+Spørg din læge eller apotekspersonalet til råds, før du tager nogen former for medicin. 
+Arsentrioxid i TRISENOX udskilles i mælken. Da TRISENOX kan være skadeligt for spædbørn, der 
+ammes, må du ikke amme, så længe du får TRISENOX og indtil to uger efter den sidste dosis. </p>
+<p>Trafik- og arbejdssikkerhed 
+TRISENOX forventes ikke at påvirke eller påvirker kun i ubetydelig grad evnen til at føre 
+motorkøretøj og betjene maskiner. Hvis du mærker ubehag eller føler dig utilpas efter en TRISENOX-
+infusion, skal du vente, indtil symptomerne forsvinder, før du fører motorkøretøj eller betjener 
+maskiner. </p>
+<p>TRISENOX indeholder natrium 
+TRISENOX indeholder mindre end 1 mmol (23 mg) natrium pr. dosis. Det betyder, at medicinen i det 
+væsentlige er natriumfri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take trisenox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take trisenox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandlingens varighed, og hvor tit du skal have TRISENOX </p>
+<p>Patienter med nydiagnosticeret akut promyelocyt-leukæmi 
+Lægen vil give dig TRISENOX én gang om dagen som en infusion. I den første behandlingscyklus vil 
+du blive behandlet hver dag i op til højst 60 dage, eller indtil lægen bestemmer, at din sygdom er i 
+bedring. Hvis din sygdom reagerer positivt på TRISENOX, vil du få yderligere 
+4 behandlingscyklusser. Hver cyklus består af 20 doser. Du vil få en dosis 5 dage om ugen (efterfulgt 
+af en pause på 2 dage) i 4 uger efterfulgt af 4 ugers pause. Din læge beslutter nøjagtigt, hvor længe du 
+skal fortsætte behandlingen med TRISENOX. </p>
+<p>Patienter med akut promyelocyt-leukæmi, hvor sygdommen ikke har reageret på andre behandlinger 
+Lægen vil give dig TRISENOX én gang om dagen som en infusion. I den første behandlingscyklus vil 
+du blive behandlet hver dag i op til højst 50 dage, eller indtil lægen bestemmer, at din sygdom er i 
+bedring. Hvis din sygdom reagerer positivt på TRISENOX, vil du få yderligere en behandlingscyklus 
+med 25 doser. Du vil få en dosis 5 dage om ugen (efterfulgt af en pause på 2 dage) i 5 uger. Lægen vil 
+beslutte nøjagtigt, hvor længe du skal fortsætte behandlingen med TRISENOX. </p>
+<p>Anvendelsesmåde og administrationsvej </p>
+<p>TRISENOX skal fortyndes med en injektionsvæske, der indeholder enten glucose eller natriumchlorid. </p>
+<p>TRISENOX gives normalt af en læge eller en sygeplejerske. Den gives som et drop (infusion) i en 
+vene i løbet af 1-2 timer, men infusionen kan vare længere, hvis der optræder bivirkninger som 
+blussen og svimmelhed. </p>
+<p>TRISENOX må ikke blandes med andre lægemidler eller gives som infusion gennem samme slange 
+som anden medicin.  </p>
+<p>Hvis din læge eller sundhedspersonalet giver dig for meget TRISENOX 
+Du kan opleve kramper, muskelsvaghed og forvirring. Hvis dette sker, skal behandlingen med 
+TRISENOX omgående stoppes, og din læge vil behandle arsen-overdoseringen.  </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Du skal straks fortælle det til lægen eller sygeplejersken, hvis du oplever følgende bivirkninger, 
+da disse kan være tegn på en alvorlig tilstand kaldet "differentieringssyndrom", som kan være 
+dødelig:</p>
+<ul>
+<li>vejrtrækningsbesvær </li>
+<li>hoste  </li>
+<li>smerter i brystet  </li>
+<li>feber  </li>
+</ul>
+<p>Du skal straks fortælle det til lægen eller sygeplejersken, hvis du oplever følgende bivirkninger, 
+da disse kan være tegn på en allergisk reaktion:</p>
+<ul>
+<li>vejrtrækningsbesvær  </li>
+<li>feber  </li>
+<li>pludselig vægtstigning  </li>
+<li>ophobning af væske (f.eks. hævede hænder og fødder) </li>
+<li>besvimelse  </li>
+<li>kraftig hjertebanken. </li>
+</ul>
+<p>Mens du er i behandling med TRISENOX, kan du opleve nogle af følgende reaktioner:<br />
+Meget almindelig: (kan forekomme hos mere end 1 ud af 10 personer) 
+- træthed (mathed), smerter, feber, hovedpine 
+- kvalme, opkastning, diarré, 
+- svimmelhed, muskelsmerter, følelsesløshed eller snurrende fornemmelser i huden, 
+- udslæt eller kløe, 
+- øget blodsukker, ødemer (hævelse som følge af væskeophobning), 
+- kortåndethed, hurtig hjerterytme (puls), unormalt hjertediagram (ekg),<br />
+- nedsat indhold af kalium eller magnesium i blodet, unormale prøver for leverfunktion inklusive 
+forhøjet indhold af bilirubin eller gammaglutamyltransferase i blodet. </p>
+<p>Almindelig: (kan forekomme hos op til 1 ud af 10 personer) 
+- nedsat antal blodceller (blodplader, røde og/eller hvide blodlegemer), øget antal hvide 
+blodlegemer, 
+- kulderystelser, vægtstigning, 
+- feber på grund af infektion og lavt antal hvide blodlegemer, herpes zoster-infektion, 
+- smerter i brystet, blødning i lungerne, hypoksi (lavt iltniveau), væskeansamling omkring hjertet 
+eller lungerne, lavt blodtryk, unormal hjerterytme (hjerteslag), 
+- krampeanfald, led- eller knoglesmerter, årebetændelse, 
+- forhøjet natrium eller magnesium, ketoner i blod og urin (ketoacidose), unormale prøver for 
+nyrefunktion, nyresvigt, 
+- mavesmerter, 
+- hudrødme, opsvulmet ansigt, sløret syn </p>
+<p>Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data) 
+- lungebetændelse, blodforgiftning 
+- inflammation (betændelsesagtig tilstand) i lungerne som medfører smerter i brystet og åndenød, 
+hjertesvigt 
+- væskemangel (dehydrering), forvirring<br />
+- cerebral sygdom (encefalopati, Wernickes encefalopati) med forskellige manifestationer, 
+herunder problemer med at bruge arme og ben, talebesvær og forvirring </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trisenox"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trisenox"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på ampuletiketten og æsken. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Efter fortynding: Hvis præparatet ikke bruges umiddelbart efter fortynding, er opbevaringstider og 
+betingelser din læges, apotekspersonalets eller sygeplejerskens ansvar, og det vil normalt ikke være 
+længere end 24 timer ved 2 til 8°C, medmindre fortyndingen har fundet sted i et sterilt miljø. </p>
+<p>Brug ikke lægemidlet, hvis der er fremmede partikler i infusionsvæsken, eller hvis den er misfarvet. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TRISENOX indeholder:</p>
+<ul>
+<li>Aktivt stof: arsentrioxid. Hver ml koncentrat indeholder 1 mg arsentrioxid. Hver ampul med 
+10 ml indeholder 10 mg arsentrioxid. </li>
+<li>Øvrige indholdsstoffer: natriumhydroxid, saltsyre og vand til injektionsvæsker. Se punkt 2 
+"TRISENOX indeholder natrium". </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+- TRISENOX er et koncentrat til infusionsvæske, opløsning (sterilt koncentrat). TRISENOX 
+leveres i glasampuller som en koncentreret, klar, farveløs, vandig opløsning.<br />
+- Hver æske indeholder 10 glasampuller til engangsbrug. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Teva B.V., Swensweg 5, 2031 GA Haarlem, Holland  </p>
+<p>Fremstiller 
+Almac Pharma Services Limited, Almac House, 20 Seagoe Industrial Estate, Craigavon, BT63 5QD, 
+Storbritannien </p>
+<p>Almac Pharma Services (Ireland) Limited; Finnabair Industrial Estate, Dundalk, Co. Louth, 
+A91 P9KD, Irland </p>
+<p>Teva Pharmaceuticals Europe B.V., Swensweg 5, 2031 GA Haarlem, Holland </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+Der er også links til andre websteder om sjældne sygdomme og om, hvordan de behandles. </p>
+<h2>&lt;--------------------------------------------------------------------------------------------------------------------------</h2>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: 
+ASEPTISK TEKNIK SKAL NØJE OVERHOLDES UNDER HELE HÅNDTERINGEN AF 
+TRISENOX, DA DET IKKE INDEHOLDER KONSERVERINGSMIDDEL. </p>
+<p>Fortynding af TRISENOX 
+TRISENOX skal fortyndes før indgift. <br />
+Personalet skal uddannes i håndtering og fortynding af arsentrioxid og skal bruge passende 
+beskyttelsesbeklædning. </p>
+<p>Åbning af ampullen: Hold ampullen med TRISENOX med det farvede punkt opad og foran dig. Ryst 
+eller bank let på ampullen for at få eventuel væske i skaftet ned i ampullens hoveddel. Tryk nu med 
+tommelfingeren på det farvede punkt og knæk ampullen ved at holde godt fast om ampullens hoveddel 
+med den anden hånd. </p>
+<p>Fortynding: Før forsigtigt kanylen på en injektionssprøjte ind i ampullen og træk alt indholdet op. 
+TRISENOX skal derefter straks fortyndes med 100 til 250 ml 50 mg/ml (5 %) glucose 
+injektionsvæske, opløsning, eller 9 mg/ml (0,9 %) natriumchlorid injektionsvæske, opløsning.  </p>
+<p>Ubrugte portioner fra hver ampul skal bortskaffes forsvarligt. Gem ikke de ikke-anvendte portioner til 
+senere indgift. </p>
+<p>Anvendelse af TRISENOX<br />
+TRISENOX er kun til engangsbrug. Det må ikke blandes med eller indgives i samme intravenøse 
+slange samtidigt med andre lægemidler. </p>
+<p>TRISENOX skal indgives intravenøst over 1-2 timer. Infusionsvarigheden kan øges op til 4 timer, hvis 
+der observeres vasomotoriske reaktioner. Et centralt venekateter er ikke påkrævet. </p>
+<p>Den fortyndede infusionsvæske skal være klar og farveløs. Alle parenterale opløsninger skal nøje 
+efterses for partikler og misfarvning forud for indgivelsen. Infusionsvæsken må ikke anvendes, hvis 
+den indeholder fremmede partikler.  </p>
+<p>Efter fortynding i intravenøse opløsninger er TRISENOX kemisk og fysisk stabilt i 24 timer ved 
+15-30 °C og i 72 timer i køleskab ved 2-8 °C. Ud fra et mikrobiologisk synspunkt skal produktet 
+anvendes umiddelbart. Hvis det ikke anvendes umiddelbart, vil anvendelsesholdbarheden 
+og -forholdene være at betragte som brugerens ansvar og vil normalt ikke være længere end 24 timer 
+ved 2-8 °C, medmindre fortynding har fundet sted under kontrollerede og aseptiske forhold. </p>
+<p>Procedure for korrekt bortskaffelse </p>
+<p>Ikke anvendt lægemiddel, eventuelle genstande, der kommer i kontakt hermed samt affald heraf skal 
+bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>TRISENOX 2 mg/ml, koncentrat til infusionsvæske, opløsning 
+arsentrioxid </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at få dette lægemiddel, da den indeholder 
+vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er mere, du vil vide. 
+- Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8e9729f37593f28a655449a0b1bb5596
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trisenox Package Leaflet for language en"
+Description: "ePI document Bundle for trisenox Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8e9729f37593f28a655449a0b1bb5596"
+* entry[0].resource = composition-en-8e9729f37593f28a655449a0b1bb5596
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e9729f37593f28a655449a0b1bb5596"
+* entry[=].resource = mp8e9729f37593f28a655449a0b1bb5596
+                            
+                    
+Instance: bundlepackageleaflet-da-8e9729f37593f28a655449a0b1bb5596
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trisenox Package Leaflet for language da"
+Description: "ePI document Bundle for trisenox Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8e9729f37593f28a655449a0b1bb5596"
+* entry[0].resource = composition-da-8e9729f37593f28a655449a0b1bb5596
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e9729f37593f28a655449a0b1bb5596"
+* entry[=].resource = mp8e9729f37593f28a655449a0b1bb5596
+                            
+                    
+
+
+
+Instance: mp8e9729f37593f28a655449a0b1bb5596
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product TRISENOX 1 mg/ml concentrate for solution for infusion"
-Description: "TRISENOX 1 mg/ml concentrate for solution for infusion"
+Title: "Medicinal Product trisenox"
+Description: "trisenox"
 Usage: #inline
 
  
@@ -315,7 +702,7 @@ Usage: #inline
 
 
 * name
-  * productName = "TRISENOX 1 mg/ml concentrate for solution for infusion"
+  * productName = "trisenox"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -342,29 +729,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8e9729f37593f28a655449a0b1bb5596
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for trisenox Package Leaflet for language en"
-Description: "ePI document Bundle for trisenox Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8e9729f37593f28a655449a0b1bb5596ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "TRISENOX 1 mg/ml concentrate for solution for infusion"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "trisenox"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8e9729f37593f28a655449a0b1bb5596"
-* entry[0].resource = composition-en-8e9729f37593f28a655449a0b1bb5596
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpdcf711b4ec1ee1082f9f89b0578451a8"
-* entry[=].resource = mpdcf711b4ec1ee1082f9f89b0578451a8
-                            
-                      
+* title = "List of all ePIs associated with trisenox"
+
+* subject = Reference(mpdcf711b4ec1ee1082f9f89b0578451a8)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#trisenox "trisenox"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8e9729f37593f28a655449a0b1bb5596) // trisenox en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8e9729f37593f28a655449a0b1bb5596) // trisenox da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8e9729f37593f28a655449a0b1bb5596
+InstanceOf: List
+
+* insert 8e9729f37593f28a655449a0b1bb5596ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-eb08c3555eb0d4fb795135600da399fc
 InstanceOf: CompositionUvEpi
 Title: "Composition for targretin Package Leaflet"
@@ -352,12 +355,477 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-eb08c3555eb0d4fb795135600da399fc
+InstanceOf: CompositionUvEpi
+Title: "Composition for targretin Package Leaflet"
+Description:  "Composition for targretin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp461d39f14658c39181551a0ec02b02b6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp461d39f14658c39181551a0ec02b02b6
+* title = "TEST PURPOSES ONLY - targretin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Targretin
+3. Sådan skal du tage Targretin
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What targretin is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What targretin is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det virksomme stof i Targretin, bexaroten, tilhører en gruppe af lægemidler, som er kendt under 
+betegnelsen retinoider. De er beslægtet med A vitamin. 
+Targretin-kapsler anvendes af patienter med T-celle-lymfom i huden (CTCL) på et fremskredet 
+stadium, hvis sygdom ikke reagerer på andre behandlingsformer. CTCL er en lidelse, hvor visse 
+celler i kroppens lymfesystem, kendt under betegnelsen T-lymfocytter, bliver ramt af kræft og 
+påvirker huden.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take targretin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take targretin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Targretin:</h2>
+<p>hvis du er allergisk over for bexaroten eller et af de øvrige indholdsstoffer i Targretin
+(angivet i punkt 6).
+-
+hvis du er gravid eller ammer, eller hvis du kan blive gravid og ikke anvender effektive, 
+præventive forholdsregler.
+-
+hvis du tidligere har haft betændelse af bugspytkirtlen, har ukontrolleret lipid (fedtstoffer i 
+blodet) forhøjelse (dvs. højt indhold af kolesterol eller triglycerid i blodet), har en tilstand 
+kendt som hypervitaminosis A, har ukontrolleret skjoldbruskkirtelsygdom, har 
+utilstrækkelig leverfunktion eller har en vedvarende, systemisk infektion.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager Targretin,
+-
+hvis du er allergisk over for retinoider (beslægtet med vitamin A), lider af 
+leversygdomme, har højt niveau af fedtstoffer i blodet eller tager medicin, som kan 
+22
+forårsage højt niveau af fedtstoffer i blodet, har ukontrolleret diabetes mellitus 
+(sukkersyge), eller hvis du har haft sygdomme i galdeblæren eller galdegangen eller 
+indtager store mængder alkohol.
+-
+hvis du nogensinde tidligere har haft problemer med din mentale sundhed, herunder 
+depression, aggressive tendenser eller humørsvingninger. Det kan nemlig påvirke dit 
+humør at tage Targretin.
+Det kan være nødvendigt at måle dit niveau af fedtstoffer i blodet på fastende mave, før et 
+behandlingsforløb påbegyndes, derefter en gang om ugen og så en gang om måneden, mens du 
+tager dette lægemiddel.
+Før behandlingen påbegyndes, vil der blive taget blodprøver for at vurdere din lever- og 
+skjoldbruskkirtelfunktion samt for at måle antallet af røde og hvide blodceller. Disse blodprøver
+vil blive kontrolleret gennem behandlingsforløbet.
+Hvis der opstår synsbesvær, mens du tager dette lægemiddel, kan det være nødvendigt, at du får 
+lavet øjenundersøgelser periodisk.
+Du skal så vidt muligt undgå sollys og undgå brug af solarium eller højfjeldssol.
+Tag ikke mere end 15.000 internationale enheder vitamin A som tilskud pr. dag under 
+behandlingen.
+Problemer med mental sundhed
+Du bemærker muligvis ikke selv visse ændringer i dit humør og din opførsel, så det er meget 
+vigtigt, at du fortæller dine venner og din familie, at dette lægemiddel kan påvirke dit humør og 
+din opførsel. De kan bemærke disse ændringer og hjælpe dig med at finde ud af, om du har 
+problemer, som du skal tale med lægen om.
+Børn og unge
+Targretin-kapsler bør ikke anvendes til børn og unge.
+Brug af anden medicin sammen med Targretin
+Fortæl altid lægen, hvis du tager anden medicin eller har gjort det for nylig eller planlægger at 
+tage lægemidler som 
+
+ketoconazol og itraconazol (anvendes mod svampe-infektioner), 
+
+erythromycin, clarithromycin og rifampicin (anvendes mod bakterielle infektioner), 
+
+phenytoin og phenobarbital (anvendes mod epileptiske anfald), 
+
+gemfibrozil (anvendes til nedbringelse af højt niveau af fedt i blodet såsom kolesterol og 
+triglycerider), 
+
+A-vitamintilskud, proteasehæmmere (anvendes mod virusinfektioner), 
+
+tamoxifen (anvendes mod visse former for kræft),
+
+dexamethason (anvendes mod betændelsestilstande),
+
+insulin, lægemidler som fremmer udskillelsen af insulin eller lægemidler som fremmer 
+insulinfølsomhed (anvendes til diabetes mellitus).
+Det er vigtigt, da samtidig brug af mere end et lægemiddel kan forstærke eller svække 
+lægemidlernes virkning.
+Brug af Targretin sammen med mad og drikke
+Targretin skal tages sammen med mad (se punkt 3). Hvis du har et regelmæssigt forbrug af 
+grapefrugt eller grapefrugtjuice, bedes du kontakte din læge, da disse eventuelt kan ændre 
+kroppens reaktion på Targretin-terapi.
+23
+Graviditet og amning
+Spørg din læge eller apoteket til råds, før du tager nogen form for medicin.
+Targretin kan være skadeligt for et foster under udvikling. Tag IKKE Targretin, hvis du er 
+gravid eller ammer. Hvis du er gravid eller ammer, har mistanke om, at du er gravid eller 
+planlægger at blive gravid, skal du spørge din læge eller apotekspersonalet til råds, før du tager 
+dette lægemiddel. 
+Hvis du kan blive gravid, skal du udføre en graviditetsprøve inden for en uge, inden du 
+påbegynder behandlingen, for at bekræfte at du ikke er gravid. Du skal anvende effektiv 
+prævention (svangerskabsforebyggende middel) hele tiden fra en måned før til en måned efter 
+behandling med Targretin. Det anbefales at anvende to pålidelige former for prævention
+samtidigt. Hvis du tager et hormonalt præventionsmiddel (for eksempel p-piller), skal du drøfte 
+dette med din læge.
+For mænds vedkommende gælder det, at der skal benyttes præservativer (kondomer) under 
+samleje, såfremt din partner er gravid, eller kan blive gravid. Dette bør overholdes, så længe du 
+tager bexaroten, og fortsættes i mindst en måned efter den sidste dosis.
+Trafik- og arbejdssikkerhed
+Det vides ikke, om Targretin påvirker evnen til at føre bil eller betjene maskiner. Hvis du 
+oplever svimmelhed eller synsproblemer under behandlingen, må du ikke køre bil eller betjene 
+maskiner.
+Targretin indeholder sorbitol og butyleret hydroxyanisol
+Targretin indeholder en lille mængde sorbitol (en slags sukker). Kontakt lægen, inden du tager 
+dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.
+Butyleret hydroxyanisol kan forårsage irritation af slimhinderne. Kapslerne skal derfor sluges 
+hele og må ikke tygges.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take targretin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take targretin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
+spørg lægen eller apotekspersonalet. 
+Lægen vil ordinere en passende dosis til dig. Den anbefalede dosis er som regel er 4-10 kapsler, 
+som indtages én gang dagligt. Tag det ordinerede antal Targretin-kapsler på samme tidspunkt 
+hver dag sammen med et måltid. Kapslerne kan tages umiddelbart før, under eller efter måltidet, 
+alt efter behag. Kapslerne bør sluges hele og ikke tygges.
+Hvor længe du skal tage Targretin
+Selvom nogle patienter oplever bedring inden for de første uger, har de fleste patienter behov for 
+behandling i flere måneder eller mere for at opnå bedring.
+Hvis du har taget for mange Targretin kapsler
+Kontakt lægen, skadestuen eller apoteket, hvis du har taget flere Tagretin-kapsler, end der står 
+her, eller flere end lægen har foreskrevet.
+24
+Hvis du har glemt at tage Targretin
+Hvis du glemmer at tage en dosis, skal du tage din daglige dosis med dit næste måltid samme 
+dag. Tag derefter din sædvanlige dosis den næste dag. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis.
+Hvis du holder op med at tage Targretin
+Din læge vil afgøre, hvor længe du skal tage Targretin, og hvornår behandlingen skal standses. 
+Du må ikke stoppe med at tage din medicin, før lægen råder dig til det.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
+Fortæl det til din læge hurtigst muligt, hvis du føler en forværring af din tilstand, mens du tager 
+Targretin. Nogle gange er det nødvendigt at justere dosen eller afbryde behandlingen. Din læge 
+vil fortælle dig, hvad der bør gøres.
+Følgende bivirkninger er indberettet fra CTCL-patienter, som modtog behandling med den 
+anbefalede, indledende dosis Targretin-kapsler.
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 behandlede):
+Lavt antal hvide blodceller.
+Sænkning af koncentrationen af skjoldbruskkirtelhormoner.
+Forhøjet niveau af fedtstoffer i blodet (triglycerider og kolesterol).
+Hudreaktioner (kløe, rødme, irritation, hudafskalning).
+Hovedpine, træthed, smerte.
+Almindelig (kan forekomme hos op til 1 ud af 10 behandlede):
+Lavt antal røde blodceller, forstørrede lymfeknuder, forværret lymfom.
+Skjoldbruskkirtelforstyrrelse.
+Forhøjet niveau af leverenzymer, nedsat nyrefunktion, lavt proteinindhold i blodet, 
+vægtforøgelse.
+Søvnløshed, svimmelhed, nedsat hudfølsomhed.
+Tørre øjne, døvhed, unormale fornemmelser i øjnene omfattende irritation og tunge øjne.
+Hævelse af ben og arme.
+Kvalme, diarré, tør mund, tørre læber, appetittab, forstoppelse, overdreven tarmvind, abnorm 
+leverfunktion, opkastning.
+Hududtørring, hudlidelse, hårtab, sårdannelse på huden, filipenser, fortykkelse af huden, 
+hudknude, øget svedning.
+Ledsmerter, knoglesmerter, muskelømhed.
+Kulderystelser, mavesmerte, allergisk reaktion, infektion.
+Ikke almindelig (kan forekomme hos op til 1 ud af 100 behandlede):
+Blodforstyrrelser, eosinofili, leukocytose, lymfocytose, purpura (spontan blødning i hud og 
+slimhinder), forhøjet eller nedsat antal blodplader.
+Overaktiv skjoldbruskkirtel.
+Forhøjet bilirubinindhold i blodet, nedsat nyrefunktion, gigt, nedsat HDL-kolesterol.
+Ophidselse, balancevanskeligheder, depression, forhøjet hudfølsomhed ved berøring, abnorme 
+nerveindtryk, svimmelhed.
+Abnormt syn, uskarpt syn, betændelse af øjenlågene, stær, betændelsestilstand af øjets hvide del, 
+hornhindelæsion, ørelidelse, defekt synsfelt.
+25
+Hævelse, blødning, højt blodtryk, hurtigt hjerteslag, synlig blodåreforstørrelse, udvidelse af 
+blodkar.
+Mave-tarmforstyrrelse, leversvigt, betændelsestilstand af bugspytkirtlen.
+Hårforandringer, herpes simplex, negleforandringer, pustuløst udslæt, serøs dræning, 
+hudmisfarvning.
+Muskelsvaghed.
+Proteiner i urinen, abnorm nyrefunktion.
+Rygsmerte, hudinfektion, feber, parasitinfektion, abnorme laboratorieprøver, lidelse i 
+slimhinder, svulst.
+Sjældne bivirkninger med dødeligt udfald er akut betændelsestilstand af bugspytkirtlen, 
+hovedblødning og leversvigt.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store targretin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store targretin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikkelægemidlet efter den udløbsdato, der står på pakningen. Udløbsdatoen er den sidste 
+dag i den nævnte måned.
+Må ikke opbevares ved temperaturer over 30 C. Hold flasken tæt tillukket.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Targretin indeholder:</h2>
+<h2>Aktivt stof: Hver Targretin-kapsel indeholder 75 mg af det virksomme stof, bexaroten.</h2>
+<p>Øvrige indholdsstoffer: Kapslen indeholder macrogol, polysorbat, povidon og butyleret 
+hydroxyanisol. Kapslens skal består af gelatine, sorbitol-special-glycerinblanding 
+(glycerin, sorbitol, sorbitolanhydrider, (1,4-sorbitan), mannitol og vand), titandioxid 
+(E171) og trykfarve (SDA 35A alkohol (ethanol og ætylacetat), propylenglykol (E1520), 
+sort jernoxid (E172), polyvinylacetatphthalat, renset vand, isopropylalkohol, macrogol 
+400, ammoniumhydroxid 28%).
+Udseende og pakningstørrelser
+Targretin fås som bløde kapsler til indtagelse gennem munden, og leveres i hvide plastikflasker 
+indeholdende 100 kapsler.
+26
+Indehaveren af markedsføringstilladelsen
+Eisai GmbH
+Edmund-Rumpler-Straße 3 
+60549 Frankfurt am Main
+Tyskland
+e-mail: medinfo_de@eisai.net
+Fremstiller
+Eisai GmbH
+Edmund-Rumpler-Straße 3 
+60549 Frankfurt am Main
+Tyskland
+Hvis du ønsker yderligere oplysninger om Targretin, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Eisai SA/NV
+Tél/Tel: +32 (0)800 158 58
+Lietuva
+Ewopharma AG atstovybė
+Tel: +370 5 2430444
+България
+Ewopharma AG
+Teл.: +359 2 962 12 00
+Luxembourg/Luxemburg
+Eisai SA/NV
+Tél/Tel: +32 (0)800 158 58
+(Belgique/Belgien)
+Česká republika
+Eisai GesmbH organizačni složka
+Tel: + 420 242 485 839
+Magyarország
+Ewopharma Hungary Ltd.
+Tel: +36 1 200 46 50
+Danmark
+Eisai AB
+Tlf: + 46 (0) 8 501 01 600
+(Sverige)
+Malta
+Cherubino LTD
+Tel: +356 21343270
+Deutschland
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+Nederland
+Eisai B.V.
+Tel: + 31 (0) 900 575 3340
+Eesti
+Ewopharma AG Eesti filiaal
+Tel: +372 6015540
+Norge
+Eisai AB
+Tlf: + 46 (0) 8 501 01 600
+(Sverige)
+Ελλάδα
+Arriani Pharmaceutical S.A.
+Τηλ: + 30 210 668 3000
+Österreich
+Eisai GesmbH
+Tel: + 43 (0) 1 535 1980-0
+España
+Eisai Farmacéutica, S.A.
+Tel: + (34) 91 455 94 55
+Polska
+Ewopharma AG Sp. z o.o.
+Tel: +48 (22) 620 11 71
+27
+France
+Eisai SAS
+Tél: + (33) 1 47 67 00 05
+Portugal
+Eisai Farmacêtica, Unipessoal Lda
+Tel: + 351 214 875 540
+Hrvatska
+Ewopharma d.o.o
+Tel: +385 (0) 1 6646 563
+România
+Ewopharma AG
+Tel: +40 21 260 13 44
+Ireland
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+(Germany)
+Slovenija
+Ewopharma d.o.o.
+Tel: +386 590 848 40
+Ísland
+Eisai AB
+Sími: + 46 (0)8 501 01 600
+(Svíþjóð)
+Slovenská republika
+Eisai GesmbH organizačni složka
+Tel.: + 420 242 485 839
+(Česká republika)
+Italia
+Eisai S.r.l.
+Tel: + 39 02 5181401
+Suomi/Finland
+Eisai AB
+Puh/Tel: + 46 (0) 8 501 01 600
+(Ruotsi)
+Κύπρος
+Arriani Pharmaceuticals S.A.
+Τηλ: + 30 210 668 3000
+(Ελλάδα)
+Sverige
+Eisai AB
+Tel: + 46 (0) 8 501 01 600
+Latvija
+Ewopharma AG Pārstāvniecība
+Tel: +371 67450497
+United Kingdom (Northern Ireland)
+Eisai GmbH
+Tel: + 49 (0) 69 66 58 50
+(Germany)
+Denne indlægsseddel blev senest ændret .
+Andre informationskilder
+Du kan finde yderligere oplysninger om Targretin på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-eb08c3555eb0d4fb795135600da399fc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for targretin Package Leaflet for language en"
+Description: "ePI document Bundle for targretin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-eb08c3555eb0d4fb795135600da399fc"
+* entry[0].resource = composition-en-eb08c3555eb0d4fb795135600da399fc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpeb08c3555eb0d4fb795135600da399fc"
+* entry[=].resource = mpeb08c3555eb0d4fb795135600da399fc
+                            
+                    
+Instance: bundlepackageleaflet-da-eb08c3555eb0d4fb795135600da399fc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for targretin Package Leaflet for language da"
+Description: "ePI document Bundle for targretin Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-eb08c3555eb0d4fb795135600da399fc"
+* entry[0].resource = composition-da-eb08c3555eb0d4fb795135600da399fc
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpeb08c3555eb0d4fb795135600da399fc"
+* entry[=].resource = mpeb08c3555eb0d4fb795135600da399fc
+                            
+                    
+
+
+
+Instance: mpeb08c3555eb0d4fb795135600da399fc
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Targretin 75 mg soft capsules"
-Description: "Targretin 75 mg soft capsules"
+Title: "Medicinal Product targretin"
+Description: "targretin"
 Usage: #inline
 
  
@@ -377,7 +845,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Targretin 75 mg soft capsules"
+  * productName = "targretin"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -404,29 +872,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-eb08c3555eb0d4fb795135600da399fc
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for targretin Package Leaflet for language en"
-Description: "ePI document Bundle for targretin Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: eb08c3555eb0d4fb795135600da399fcListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/01/178/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "targretin"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-eb08c3555eb0d4fb795135600da399fc"
-* entry[0].resource = composition-en-eb08c3555eb0d4fb795135600da399fc
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp461d39f14658c39181551a0ec02b02b6"
-* entry[=].resource = mp461d39f14658c39181551a0ec02b02b6
-                            
-                      
+* title = "List of all ePIs associated with targretin"
+
+* subject = Reference(mp461d39f14658c39181551a0ec02b02b6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#targretin "targretin"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-eb08c3555eb0d4fb795135600da399fc) // targretin en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-eb08c3555eb0d4fb795135600da399fc) // targretin da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-eb08c3555eb0d4fb795135600da399fc
+InstanceOf: List
+
+* insert eb08c3555eb0d4fb795135600da399fcListRuleset
+    

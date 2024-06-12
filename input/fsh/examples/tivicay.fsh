@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e8001a6516c891d8a1ff3a481f290741
 InstanceOf: CompositionUvEpi
 Title: "Composition for tivicay Package Leaflet"
@@ -433,12 +436,707 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 
 
 
+Instance: composition-da-e8001a6516c891d8a1ff3a481f290741
+InstanceOf: CompositionUvEpi
+Title: "Composition for tivicay Package Leaflet"
+Description:  "Composition for tivicay Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp7763b58a0454239ac38b73fa7c070cb3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp7763b58a0454239ac38b73fa7c070cb3
+* title = "TEST PURPOSES ONLY - tivicay"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Tivicay  </li>
+<li>Sådan skal du tage Tivicay </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tivicay is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tivicay is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tivicay indeholder det aktive stof dolutegravir. Dolutegravir tilhører en gruppe af antiretrovirale 
+lægemidler, der kaldes integrasehæmmere (INI'er). </p>
+<p>Tivicay anvendes til behandling af hiv (humant immundefektvirus)-infektion hos voksne, unge og 
+børn fra 6 år og derover, som vejer mindst 14 kg. </p>
+<p>Tivicay helbreder ikke hiv-infektion, men det nedsætter mængden af virus i kroppen og holder antallet 
+på et lavt niveau. På grund af dette øger Tivicay også antallet af CD4-celler i dit blod. CD4-celler er 
+en type hvide blodceller, der spiller en vigtig rolle, når kroppen skal bekæmpe infektioner. </p>
+<p>Behandlingen med Tivicay virker ikke ens på alle. Lægen vil holde øje med, hvor effektiv din 
+behandling er. </p>
+<p>Tivicay anvendes altid i kombination med andre antiretrovirale lægemidler (kombinationsbehandling). 
+For at kontrollere din hiv-infektion og for at forhindre din sygdom i at blive værre, skal du blive ved 
+med at tage alle dine lægemidler, medmindre lægen foreskriver andet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tivicay"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tivicay"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Tivicay </p>
+<ul>
+<li>
+<p>hvis du (eller dit barn, hvis barnet er patienten) er allergisk over for dolutegravir eller et 
+af de øvrige indholdsstoffer i Tivicay (angivet i punkt 6) </p>
+</li>
+<li>
+<p>hvis du (eller dit barn) tager et andet lægemiddel, der kaldes fampridin (også kendt som 
+dalfampridin; anvendt til multipel sklerose) 
+→ Fortæl lægen, hvis du tror, at noget af ovenstående gælder for dig (eller dit barn). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Hold øje med vigtige symptomer 
+Nogle personer, der tager lægemidler mod hiv-infektion, får andre tilstande, der kan være alvorlige. 
+Disse tilstande omfatter: </p>
+<ul>
+<li>
+<p>symptomer på infektion og betændelse </p>
+</li>
+<li>
+<p>ledsmerter, stive led og knogleproblemer. 
+Det er nødvendigt, at du har kendskab til vigtige tegn og symptomer, som du skal holde øje med, mens 
+du (eller dit barn, hvis barnet er patienten) tager Tivicay. 
+→ Læs oplysningerne under punkt 4 i denne indlægsseddel. </p>
+</li>
+</ul>
+<p>Børn 
+Børn under 6 år, som vejer under 14 kg, eller som har hiv-infektion, der er resistent (modstandsdygtig) 
+over for andre lægemidler af samme type som Tivicay, må ikke få denne medicin. Tivicay 
+filmovertrukne tabletter er endnu ikke blevet undersøgt hos børn under 6 år og børn, som vejer under 
+14 kg. </p>
+<p>Børn skal overholde planlagte lægebesøg (se "Brug til børn og unge" i punkt 3 for at få flere 
+oplysninger). </p>
+<p>Brug af anden medicin sammen med Tivicay 
+Fortæl altid lægen, hvis du (eller dit barn) tager anden medicin, for nylig har taget anden medicin eller 
+planlægger at tage anden medicin. </p>
+<p>Tag ikke Tivicay sammen med følgende lægemiddel: </p>
+<ul>
+<li>fampridin (også kendt som dalfampridin, anvendt til multipel sklerose). </li>
+</ul>
+<p>Nogle lægemidler kan påvirke virkningen af Tivicay eller gøre det mere sandsynligt, at du får 
+bivirkninger. Tivicay kan også påvirke virkningen af andre lægemidler.<br />
+Fortæl lægen, hvis du (eller dit barn) tager nogle af lægemidlerne, der står på følgende liste: </p>
+<ul>
+<li>
+<p>metformin, til behandling af diabetes (sukkersyge). </p>
+</li>
+<li>
+<p>lægemidler kaldet antacida (syreneutraliserende lægemidler), til behandling af 
+fordøjelsesbesvær og halsbrand. Tag ikke et antacida, i 6 timer før du tager Tivicay, 
+eller i mindst 2 timer efter at du har taget Tivicay. (Se også punkt 3). </p>
+</li>
+<li>
+<p>calciumtilskud, jerntilskud og multivitaminer. Tag ikke calciumtilskud, jerntilskud 
+eller multivitaminer i 6 timer før du tager Tivicay, eller i mindst 2 timer efter at du har 
+taget Tivicay (se også punkt 3). </p>
+</li>
+<li>
+<p>etravirin, efavirenz, fosamprenavir/ritonavir, nevirapin eller tipranavir/ritonavir, til 
+behandling af hiv-infektion. </p>
+</li>
+<li>
+<p>rifampicin, til behandling af tuberkulose (TB) og andre bakterieinfektioner. </p>
+</li>
+<li>
+<p>phenytoin og phenobarbital, til behandling af epilepsi. </p>
+</li>
+<li>
+<p>oxcarbamazepin og carbamazepin, til behandling af epilepsi eller bipolar lidelse 
+(sindslidelse). </p>
+</li>
+<li>
+<p>Perikon (hypericum perforatum), som er et naturpræparat til behandling af depression. </p>
+</li>
+</ul>
+<p>→ Fortæl lægen eller apotekspersonalet, hvis du (eller dit barn) tager nogle af disse 
+lægemidler. Lægen vil beslutte, om din dosis skal ændres, eller om du har brug for flere 
+kontroller. </p>
+<p>Graviditet 
+Hvis du er gravid, har mistanke om, at du er gravid eller planlægger at blive gravid: </p>
+<p>→ Tal med din læge om fordele og risici ved at tage Tivicay. </p>
+<p>Hvis du tager Tivicay på det tidspunkt, hvor du bliver gravid eller i de første seks uger af graviditeten, 
+kan det øge risikoen for en type fødselsdefekt, kaldet neuralrørsdefekt, såsom rygmarvsbrok 
+(misdannet rygmarv). . </p>
+<p>Hvis du kan blive gravid, mens du får Tivicay: 
+→  Tal med din læge og diskuter, om der er behov for prævention, såsom kondom eller p-piller.  </p>
+<p>Fortæl det straks til din læge, hvis du bliver gravid eller planlægger at blive gravid. Din læge vil 
+gennemgå din behandling. Stop ikke med at tage Tivicay uden at konsultere din læge, da det kan<br />
+skade dig og dit ufødte barn. </p>
+<p>Amning 
+Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken.  </p>
+<p>En lille mængde af indholdsstofferne i Tivicay kan overføres til din modermælk.  </p>
+<p>Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Tivicay kan gøre dig svimmel og give andre bivirkninger, som gør dig mindre opmærksom. </p>
+<p>→ Du må ikke føre motorkøretøjer og betjene maskiner, medmindre du er sikker på, at du 
+ikke er påvirket.  </p>
+<p>Tivicay indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tivicay"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tivicay"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<ul>
+<li>
+<p>Den sædvanlige dosis er 50 mg én gang dagligt.  </p>
+</li>
+<li>
+<p>Hvis du tager visse andre lægemidler er dosis 50 mg 2 gange dagligt. </p>
+</li>
+<li>
+<p>Ved hiv, der er resistent over for andre lægemidler af samme type som Tivicay, er den 
+sædvanlige dosis 50 mg 2 gange dagligt. </p>
+</li>
+</ul>
+<p>Lægen vil afgøre, hvilken dosis Tivicay, der er den rigtige til dig. </p>
+<p>Synk tabletten eller tabletterne med væske.  </p>
+<p>Tivicay kan tages med eller uden mad. Når Tivicay tages 2 gange dagligt, kan lægen anbefale dig at 
+tage det med mad. </p>
+<p>Tivicay findes også som dispergible tabletter. Filmovertrukne tabletter og dispergible tabletter er 
+ikke det samme, og du må derfor ikke skifte mellem filmovertrukne tabletter og dispergible tabletter 
+uden først at tale med lægen.  </p>
+<p>Brug til børn og unge </p>
+<ul>
+<li>Børns dosis af Tivicay skal justeres, efterhånden som de bliver ældre eller tager på i 
+vægt. </li>
+</ul>
+<p>→ Det er derfor vigtigt, at børn overholder planlagte lægebesøg. </p>
+<ul>
+<li>
+<p>Børn og unge, som vejer mindst 20 kg, kan tage den samme dosis som voksne på 50 mg 
+én gang dagligt eller 25 mg to gange dagligt. Din læge vil beslutte, hvordan Tivicay bør 
+gives. </p>
+</li>
+<li>
+<p>Hos børn fra 6 år op til 12 år vil lægen afgøre, hvilken dosis af Tivicay der er den rigtige i 
+forhold til barnets vægt. </p>
+</li>
+<li>
+<p>For at mindske risikoen for kvælning må børn ikke synke mere end én tablet ad 
+gangen. </p>
+</li>
+<li>
+<p>Tivicay bør ikke anvendes til børn og unge med hiv-infektion, der er resistent over for 
+andre lægemidler af samme type som Tivicay. </p>
+</li>
+</ul>
+<p>Antacida (syreneutraliserende lægemidler) 
+Antacida, der anvendes til behandling af fordøjelsesbesvær og halsbrand, kan modvirke optagelsen 
+af Tivicay i kroppen og gøre det mindre effektivt. 
+Tag ikke et antacida, i 6 timer før du tager Tivicay, eller i mindst 2 timer efter at du har taget 
+Tivicay. Andre syreneutraliserende lægemidler som ranitidin og omeprazol kan tages på samme 
+tidspunkt som Tivicay.<br />
+→ Tal med lægen for at få yderligere råd til, hvordan du skal tage syreneutraliserende 
+lægemidler sammen med Tivicay. </p>
+<p>Calciumtilskud, jerntilskud eller multivitaminer 
+Calciumtilskud, jerntilskud eller multivitaminer kan modvirke optagelsen af Tivicay i kroppen og gøre 
+det mindre effektivt. 
+Tag ikke tilskud af kalk (calcium) eller jern eller multivitamin i 6 timer før du tager Tivicay, og i 
+mindst 2 timer efter, at du har taget Tivicay.<br />
+→ Tal med lægen for yderligere råd om, hvordan du skal tage calciumtilskud, jerntilskud eller 
+multivitaminer sammen med Tivicay. </p>
+<p>Hvis du har taget for meget Tivicay 
+Kontakt lægen eller apotekspersonalet, hvis du (eller dit barn) har taget mere Tivicay, end der står i 
+denne information, eller mere end lægen har foreskrevet. Tag Tivicay-pakningen med, hvis det er 
+muligt. </p>
+<p>Hvis du har glemt at tage Tivicay 
+Hvis du (eller dit barn) glemmer en dosis, skal du tage den, så snart du kommer i tanke om det. Hvis 
+din næste dosis skal tages inden for 4 timer, skal du dog springe den glemte dosis over og tage den 
+næste dosis på det sædvanlige tidspunkt. Fortsæt herefter behandlingen som før.  </p>
+<p>→ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Du må ikke stoppe med at tage Tivicay, medmindre lægen foreskriver det. 
+Tag Tivicay så længe, som lægen anbefaler. Du må ikke stoppe med at tage Tivicay, medmindre 
+lægen foreskriver det.  </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Allergiske reaktioner 
+Disse er "ikke almindelige" hos personer, der tager Tivicay. Tegnene omfatter: </p>
+<ul>
+<li>
+<p>hududslæt </p>
+</li>
+<li>
+<p>høj kropstemperatur (feber) </p>
+</li>
+<li>
+<p>manglende energi (træthed) </p>
+</li>
+<li>
+<p>hævelse, nogle gange af ansigtet eller munden (angioødem), hvilket giver 
+vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>muskel- eller ledsmerter. 
+→ Gå til lægen straks. Lægen kan beslutte at foretage undersøgelser af din lever, dine nyrer 
+eller dit blod, og vil måske bede dig om at stoppe med at tage Tivicay. </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger<br />
+Kan forekomme hos flere end 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kvalme. </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger<br />
+Kan forekomme hos op til 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>ubehag i maven </p>
+</li>
+<li>
+<p>vægtøgning </p>
+</li>
+<li>
+<p>søvnløshed </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>unormale drømme </p>
+</li>
+<li>
+<p>depression (følelse af dyb bedrøvelse eller af at være værdiløs) </p>
+</li>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>manglende energi (træthed) </p>
+</li>
+<li>
+<p>luftafgang fra tarmen (flatulens) </p>
+</li>
+<li>
+<p>øget niveau af leverenzymer </p>
+</li>
+<li>
+<p>øget niveau af enzymer, der dannes i musklerne (kreatinkinase). </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger<br />
+Kan forekomme hos op til 1 ud af 100 personer: </p>
+<ul>
+<li>
+<p>leverbetændelse (hepatitis) </p>
+</li>
+<li>
+<p>selvmordsforsøg* </p>
+</li>
+<li>
+<p>selvmordstanker* </p>
+</li>
+<li>
+<p>panikanfald </p>
+</li>
+<li>
+<p>smerter i led </p>
+</li>
+<li>
+<p>muskelsmerter. </p>
+</li>
+</ul>
+<p>*særligt hos patienter, som tidligere har haft depression eller psykiske problemer. </p>
+<p>Sjældne bivirkninger 
+Kan forekomme hos op til 1 ud af 1.000 personer: </p>
+<ul>
+<li>
+<p>leversvigt (tegn kan omfatte gulfarvning af huden og det hvide i øjnene eller usædvanlig 
+mørk urin) </p>
+</li>
+<li>
+<p>stigning i bilirubin (en test af leverfunktionen) i dit blod </p>
+</li>
+<li>
+<p>selvmord (særligt hos patienter, som tidligere har haft depression eller psykiske 
+problemer). </p>
+</li>
+</ul>
+<p>→ Fortæl det omgående til lægen, hvis du oplever psykiske problemer (se også andre psykiske 
+problemer ovenfor). </p>
+<p>Symptomer på infektion og betændelse<br />
+Personer med fremskreden hiv-infektion (aids) har et svækket immunforsvar og har større risiko for at 
+udvikle alvorlige infektioner (opportunistiske infektioner). Sådanne infektioner kan have været ’stille’ 
+og ikke opdaget af det svage immunsystem inden behandlingen blev startet. Efter start af behandlingen 
+bliver immunforsvaret stærkere og kan bekæmpe infektioner, hvilket kan give symptomer som 
+infektion eller betændelse. Symptomer involverer som regel feber, samt nogle af følgende: </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>mavepine </p>
+</li>
+<li>
+<p>vejrtrækningsbesvær. 
+I sjældne tilfælde kan immunsystemet, efterhånden som det bliver stærkere, også angribe raskt 
+kropsvæv (autoimmune forstyrrelser). Symptomerne på autoimmune forstyrrelser kan udvikle sig 
+mange måneder efter, at du er startet med at tage medicin til behandling af din hiv-infektion. 
+Symptomerne kan omfatte: </p>
+</li>
+<li>
+<p>hjertebanken (hurtig eller uregelmæssig puls) eller rysten </p>
+</li>
+<li>
+<p>hyperaktivitet (udtalt rastløshed og bevægelse) </p>
+</li>
+<li>
+<p>svaghed, der starter i hænderne og fødderne og efterfølgende bevæger sig ind mod 
+kropsstammen. </p>
+</li>
+</ul>
+<p>Hvis du (eller dit barn) får nogle symptomer på infektion og betændelse, eller hvis du bemærker 
+nogen af ovennævnte symptomer: </p>
+<p>→ Fortæl det omgående til lægen. Tag ikke andre lægemidler mod infektionen, medmindre lægen 
+har foreskrevet det. </p>
+<p>Ledsmerter, stive led og knogleproblemer 
+Nogle personer, der får kombinationsbehandling mod hiv-infektion, udvikler en tilstand, der kaldes 
+osteonekrose. Denne tilstand medfører, at dele af knoglevævet dør på grund af nedsat blodtilførsel til 
+knoglerne. Man har større risiko for at få denne tilstand: </p>
+<ul>
+<li>
+<p>hvis man har fået kombinationsbehandling i lang tid </p>
+</li>
+<li>
+<p>hvis man også tager en form for antiinflammatorisk (betændelsesdæmpende) medicin, der 
+kaldes kortikosteroider </p>
+</li>
+<li>
+<p>hvis man drikker alkohol </p>
+</li>
+<li>
+<p>hvis ens immunforsvar er meget svækket </p>
+</li>
+<li>
+<p>hvis man er overvægtig. 
+Symptomerne på osteonekrose omfatter: </p>
+</li>
+<li>
+<p>stive led </p>
+</li>
+<li>
+<p>ømhed og smerter i leddene (særligt i hofter, knæ eller skuldre) </p>
+</li>
+<li>
+<p>bevægelsesbesvær. 
+Hvis du bemærker nogen af disse symptomer: </p>
+</li>
+</ul>
+<p>→ Fortæl det til lægen. </p>
+<p>Virkning på vægt, blodlipid og blodglukose<br />
+Under behandling af hiv kan der ske en stigning i vægt og i niveauer af blodlipider og glukose. Dette 
+er delvist knyttet til genoprettet sundhed og livsstil og undertiden til selve hiv-medicinen. Din læge vil 
+teste for disse ændringer. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tivicay"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tivicay"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og tabletbeholderen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
+<p>Tivicay 10 mg filmovertrukne tabletter 
+Opbevares i den originale yderpakning for at beskytte mod fugt. Hold beholderen tæt tillukket. Fjern 
+ikke tørremidlet. Tørremidlet må ikke indtages. Der er ingen særlige krav vedrørende 
+opbevaringstemperaturer for dette lægemiddel. </p>
+<p>Tivicay 25 mg og 50 mg filmovertrukne tabletter 
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tivicay indeholder:</p>
+<ul>
+<li>Aktivt stof: dolutegravir. Hver tablet indeholder dolutegravirnatrium svarende til 10 mg, 25 mg 
+eller 50 mg dolutegravir. </li>
+<li>Øvrige indholdsstoffer: mannitol (E421), mikrokrystallinsk cellulose, povidon, 
+natriumstivelsesglycolat, natriumstearylfumarat, poly(vinylalkohol) - delvist hydrolyseret, 
+titandioxid (E171), macrogol, talcum og for 25 mg og 50 mg tabletterne, gult jernoxid (E172). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Tivicay 10 mg filmovertrukne tabletter er hvide, runde, bikonvekse tabletter mærket med 'SV 572' på 
+den ene side og '10' på den anden. Beholderen indeholder et tørremiddel for at mindske fugtindholdet. 
+Tørremidlet skal forblive i beholderen efter åbning, det må ikke fjernes. </p>
+<p>Tivicay 25 mg filmovertrukne tabletter er svagt gule, runde, bikonvekse tabletter mærket med 'SV 572' 
+på den ene side og '25' på den anden. </p>
+<p>Tivicay 50 mg filmovertrukne tabletter er gule, runde, bikonvekse filmovertrukne tabletter mærket 
+med koden 'SV 572' på den ene side og '50' på den anden.  </p>
+<p>De filmovertrukne tabletter fås i pakninger med 30 eller 90 tabletter.<br />
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.  </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+ViiV Healthcare BV 
+Van Asch van Wijckstraat 55H 
+3811 LP Amersfoort 
+Holland </p>
+<p>Fremstiller<br />
+Glaxo Wellcome, S.A., Avda. Extremadura 3, 09400 Aranda De Duero, Burgos, Spanien 
+Eller 
+Delpharm Poznań Spółka Akcyjna, ul., Grunwaldzka 189, 60-322 Poznan, Polen. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+ViiV Healthcare srl/bv<br />
+Tél/Tel: + 32 (0) 10 85 65 Lietuva 
+ViiV Healthcare BV 
+Tel: + 370 80000 </p>
+<p>България 
+ViiV Healthcare BV 
+Teл.: + 359 80018 </p>
+<p>Luxembourg/Luxemburg 
+ViiV Healthcare srl/bv<br />
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 65<br />
+Česká republika 
+GlaxoSmithKline, s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+ViiV Healthcare BV 
+Tel.: + 36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+ViiV Healthcare BV 
+Tel: + 356 80065Deutschland 
+ViiV Healthcare GmbH<br />
+Tel.: + 49 (0)89 203 0038-10<br />
+viiv.med.info@viivhealthcare.com </p>
+<p>Nederland 
+ViiV Healthcare BV<br />
+Tel: + 31 (0)33 2081 
+Eesti 
+ViiV Healthcare BV 
+Tel: + 372 8002 
+Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 firmapost@gsk.no </p>
+<p>Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Tηλ: + 30 210 68 82 100   </p>
+<p>Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+Laboratorios ViiV Healthcare, S.L.<br />
+Tel: + 34 900 923 501<br />
+es-ci@viivhealthcare.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9 
+France 
+ViiV Healthcare SAS<br />
+Tél.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com </p>
+<p>Portugal 
+VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
+Tel: + 351 21 094 08 01<br />
+viiv.fi.pt@viivhealthcare.com </p>
+<p>Hrvatska 
+ViiV Healthcare BV 
+Tel: + 385 800787 
+România 
+ViiV Healthcare BV 
+Tel: + 40800672Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955 
+Slovenija 
+ViiV Healthcare BV 
+Tel: + 386 80688<br />
+Ísland 
+Vistor hf. 
+Sími: + 354 535 7Slovenská republika 
+ViiV Healthcare BV 
+Tel: + 421 800500589  </p>
+<p>Italia 
+ViiV Healthcare S.r.l<br />
+Tel: + 39 (0)45 7741Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+ViiV Healthcare BV 
+Τηλ: + 357 80070 </p>
+<p>Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+ViiV Healthcare BV 
+Tel: + 371 80205 </p>
+<p>United Kingdom (Northern Ireland) 
+ViiV Healthcare BV 
+Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. 
+Indlægsseddel: Information til patienten </p>
+<p>Tivicay 5 mg dispergible tabletter 
+dolutegravir </p>
+<p>Læs denne indlægsseddel grundigt, inden du (eller dit barn, hvis barnet er patienten) begynder 
+at tage dette lægemiddel, da den indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt (eller dit barn, hvis barnet er patienten). 
+Lad derfor være med at give medicinen til andre. Det kan være skadeligt for andre, selvom de 
+har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e8001a6516c891d8a1ff3a481f290741
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tivicay Package Leaflet for language en"
+Description: "ePI document Bundle for tivicay Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e8001a6516c891d8a1ff3a481f290741"
+* entry[0].resource = composition-en-e8001a6516c891d8a1ff3a481f290741
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe8001a6516c891d8a1ff3a481f290741"
+* entry[=].resource = mpe8001a6516c891d8a1ff3a481f290741
+                            
+                    
+Instance: bundlepackageleaflet-da-e8001a6516c891d8a1ff3a481f290741
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tivicay Package Leaflet for language da"
+Description: "ePI document Bundle for tivicay Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e8001a6516c891d8a1ff3a481f290741"
+* entry[0].resource = composition-da-e8001a6516c891d8a1ff3a481f290741
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe8001a6516c891d8a1ff3a481f290741"
+* entry[=].resource = mpe8001a6516c891d8a1ff3a481f290741
+                            
+                    
+
+
+
+Instance: mpe8001a6516c891d8a1ff3a481f290741
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Tivicay 10 mg film-coated tablets"
-Description: "Tivicay 10 mg film-coated tablets"
+Title: "Medicinal Product tivicay"
+Description: "tivicay"
 Usage: #inline
 
  
@@ -458,7 +1156,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Tivicay 10 mg film-coated tablets"
+  * productName = "tivicay"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -485,29 +1183,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e8001a6516c891d8a1ff3a481f290741
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tivicay Package Leaflet for language en"
-Description: "ePI document Bundle for tivicay Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e8001a6516c891d8a1ff3a481f290741ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/892/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tivicay"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e8001a6516c891d8a1ff3a481f290741"
-* entry[0].resource = composition-en-e8001a6516c891d8a1ff3a481f290741
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp7763b58a0454239ac38b73fa7c070cb3"
-* entry[=].resource = mp7763b58a0454239ac38b73fa7c070cb3
-                            
-                      
+* title = "List of all ePIs associated with tivicay"
+
+* subject = Reference(mp7763b58a0454239ac38b73fa7c070cb3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tivicay "tivicay"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e8001a6516c891d8a1ff3a481f290741) // tivicay en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e8001a6516c891d8a1ff3a481f290741) // tivicay da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e8001a6516c891d8a1ff3a481f290741
+InstanceOf: List
+
+* insert e8001a6516c891d8a1ff3a481f290741ListRuleset
+    

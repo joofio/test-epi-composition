@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-2be054305b85e2d13e65aa3cf1a561c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tovanor Package Leaflet"
@@ -543,12 +546,664 @@ Screen </p>         </div>"""
 
 
 
+Instance: composition-da-2be054305b85e2d13e65aa3cf1a561c0
+InstanceOf: CompositionUvEpi
+Title: "Composition for tovanor Package Leaflet"
+Description:  "Composition for tovanor Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp37163f22f94d0768d110f93d4333c290)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp37163f22f94d0768d110f93d4333c290
+* title = "TEST PURPOSES ONLY - tovanor"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Tovanor Breezhaler </li>
+<li>Sådan skal du bruge Tovanor Breezhaler </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tovanor is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tovanor is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Dette lægemiddel indeholder et aktivt stof, der kaldes glycopyrroniumbromid. Tovanor Breezhaler 
+tilhører en gruppe lægemidler, der kaldes bronkodilatorer. </p>
+<p>Anvendelse 
+Dette lægemiddel anvendes til at lette vejrtrækning hos voksne patienter, som lider af 
+åndedrætsbesvær pga. en lungesygdom kaldet kronisk obstruktiv lungesygdom (KOL). </p>
+<p>Ved KOL trækker musklerne sig sammen omkring luftvejene. Dette gør det svært at trække vejret. 
+Dette lægemiddel hindrer, at musklerne i lungerne trækker sig sammen, og gør det derved nemmere at 
+trække vejret ind og ud af lungerne. </p>
+<p>Hvis du tager dette lægemiddel én gang dagligt, vil det mindske påvirkningen af KOL i din dagligdag. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tovanor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tovanor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Tovanor Breezhaler 
+- hvis du er allergisk over for glycopyrroniumbromid eller et af de øvrige indholdsstoffer i 
+Tovanor Breezhaler (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du bruger Tovanor Breezhaler, hvis nogen af nedenstående forhold gælder for dig:</p>
+<ul>
+<li>hvis du har nyreproblemer. </li>
+<li>hvis du har en øjenlidelse, som kaldes snævervinklet glaukom. </li>
+<li>hvis du har vandladningsbesvær. </li>
+</ul>
+<p>Under behandling med Tovanor Breezhaler, stop med at tage medicinen og fortæl det øjeblikkeligt 
+til din læge:</p>
+<ul>
+<li>hvis du oplever trykken for brystet, hoste, hvæsen eller åndenød umiddelbart efter, du har taget 
+Tovanor Breezhaler (tegn på bronkospasme). </li>
+<li>hvis du oplever problemer med at trække vejret eller synke, hævelse af tunge, læber eller ansigt, 
+hududslæt, kløe og nældefeber (tegn på allergisk reaktion). </li>
+<li>hvis du oplever øjensmerter eller -ubehag, midlertidig sløring af synet, visuelle ringe eller farvet 
+syn i forbindelse med røde øjne. Dette kan være tegn på et akut anfald af snævervinklet 
+glaukom. </li>
+</ul>
+<p>Tovanor Breezhaler anvendes som vedligeholdelsesbehandling af din KOL. Brug ikke dette 
+lægemiddel til behandling af pludselige anfald af åndenød eller hvæsen. </p>
+<p>Børn og unge 
+Denne medicin må ikke gives til børn eller unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Tovanor Breezhaler 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for nylig. 
+Det gælder også for medicin tilsvarende Tovanor Breezhaler, som bruges i forbindelse med din 
+lungelidelse, f.eks. ipratropium, oxitropium eller tiotropium (såkaldte antikolinerge lægemidler). </p>
+<p>Der er ikke blevet indberettet yderligere bivirkninger, når Tovanor Breezhaler er blevet brugt sammen 
+med anden medicin til behandling af KOL, som fx behovsinhalatorer (fx salbutamol), methylxanthiner 
+(fx theophyllin) og/eller orale og inhalerede steroider (fx prednisolon). </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Der er ingen data om brug af dette lægemiddel til gravide kvinder, og det vides ikke, hvorvidt det 
+aktive stof i denne medicin udskilles i human mælk. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel menes ikke at påvirke evnen til at køre bil eller betjene maskiner. </p>
+<p>Tovanor Breezhaler indeholder lactose 
+Dette lægemiddel indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har 
+fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tovanor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tovanor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Så meget Tovanor Breezhaler skal du tage 
+Den sædvanlige dosis er inhalation af én kapsel dagligt. 
+Du skal kun inhalere én gang dagligt, da virkningen af dette lægemiddel varer i 24 timer. 
+Brug ikke mere end den dosis lægen anbefaler dig at bruge. </p>
+<p>Ældre 
+Du kan bruge denne medicin ved samme dosis som for andre voksne, hvis du er 75 år eller ældre. </p>
+<p>Tidspunkt for inhalering af Tovanor Breezhaler 
+Brug dette lægemiddel på samme tidspunkt hver dag. Det hjælper dig også med at huske at tage 
+medicinen. 
+Du kan inhalere denne medicin på hvilket som helst tidspunkt før og efter indtagelse af mad og drikke. </p>
+<p>Sådan skal du inhalere Tovanor Breezhaler 
+- Denne pakning indeholder en inhalator og kapsler (i blister), som indeholder medicinen i form 
+af et inhalationspulver. Brug kun kapslerne sammen med den vedlagte inhalator (Tovanor 
+Breezhaler-inhalator). Kapslerne skal forblive i blisteren, indtil de skal bruges. 
+- Tryk ikke kapslen gennem folien. 
+- Når du starter på en ny pakning, skal du bruge den nye Tovanor Breezhaler-inhalator, som er 
+vedlagt pakningen. 
+- Smid inhalatoren i hver pakning ud efter alle kapsler i pakningen er brugt. 
+- Kapslerne må ikke synkes. 
+- Læs brugsanvisningen sidst i denne indlægsseddel for at få yderligere oplysninger om, hvordan 
+du bruger inhalatoren. </p>
+<p>Hvis du har brugt for meget Tovanor Breezhaler 
+Hvis du har inhaleret for meget af dette lægemiddel, eller hvis andre personer ved et uheld bruger dine 
+kapsler, skal du øjeblikkeligt fortælle det til din læge eller henvende dig til den nærmeste skadestue. 
+Vis dem pakken med Tovanor Breezhaler. Behandling kan være nødvendig. </p>
+<p>Hvis du har glemt at bruge Tovanor Breezhaler 
+Hvis du har glemt at inhalere en dosis, så tag den hurtigst muligt. Du må ikke tage to doser den samme 
+dag. Tag derefter næste dosis til sædvanlig tid. </p>
+<p>Hvor længe skal du fortsætte med Tovanor Breezhaler-behandling 
+- Fortsæt med at bruge dette lægemiddel, så længe din læge siger, at du skal gøre det. 
+- KOL er en kronisk sygdom, og du skal bruge dette lægemiddel hver dag og ikke blot, når du har 
+åndedrætsbesvær eller andre symptomer på KOL. 
+Hvis du har spørgsmål om, hvor lang tid du skal fortsætte din behandling med dette lægemiddel, skal 
+du tale med din læge eller apotekspersonalet. </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige og er ikke almindelige 
+(kan forekomme hos flere end 1 ud af 100 patienter) 
+ 
+Uregelmæssig hjerterytme 
+ 
+Højt blodsukkerniveau (hyperglykæmi: sædvanlige symptomer er overdreven tørst eller sult og 
+hyppig vandladning) 
+ 
+Udslæt, kløe, nældefeber, problemer med at trække vejret eller synke, svimmelhed (mulige tegn 
+på allergisk reaktion) 
+ 
+Hævelse, hovedsagelig af tunge, læber, ansigt eller hals (mulige tegn på angioødem) 
+Hvis oplever en af disse bivirkninger, skal du kontakte din læge med det samme. </p>
+<p>Nogle bivirkninger kan være alvorlige, men hyppigheden af disse bivirkninger er ikke kendt 
+(hyppighed kan ikke estimeres ud fra forhåndenværende data) 
+ 
+Vejrtrækningsbesvær med hiven efter vejret eller hoste (tegn på paradoks bronkospasme) </p>
+<p>Nogle bivirkninger er almindelige 
+(kan forekomme hos flere end 1 ud af 10 patienter) 
+ 
+Mundtørhed 
+ 
+Søvnbesvær 
+ 
+Løbende eller tilstoppet næse, nysen, ondt i halsen 
+ 
+Diare eller mavesmerter 
+ 
+Muskel- og skeletsmerter </p>
+<p>Nogle bivirkninger er ikke almindelige 
+(kan forekomme hos flere end 1 ud af 100 patienter) 
+ 
+Vanskelig og smertefuld vandladning 
+ 
+Smertefuld eller hyppig vandladning 
+ 
+Hjertebanken 
+ 
+Udslæt 
+ 
+Følelsesløshed 
+ 
+Hoste med opspyt 
+ 
+Huller i tænderne 
+ 
+En fornemmelse af trykken eller smerter i kinder og pande 
+ 
+Næseblod 
+ 
+Smerter i arme eller ben 
+ 
+Smerter i muskler, knogler eller led i brystet 
+ 
+Ubehag i maven efter måltider 
+ 
+Irritation i halsen 
+ 
+Træthed 
+ 
+Svaghed 
+ 
+Kløe 
+ 
+Ændring af stemmen (hæshed) 
+ 
+Kvalme 
+ 
+Opkastning </p>
+<p>Visse ældre patienter over 75 år kan opleve hovedpine (almindeligt forekommende) og 
+urinvejsinfektion (almindeligt forekommende). </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tovanor"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tovanor"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisteren efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p>
+<p>Opbevar kapslerne i den originale blister for at beskytte mod fugt. Må først tages ud af blisteren lige 
+før brug. </p>
+<p>Smid inhalatoren i hver pakning ud når alle kapsler i pakningen er brugt. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker at pakningen er beskadiget eller viser tegn på at have været 
+åbnet. </p>
+<p>Spørg på apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tovanor Breezhaler indeholder 
+- Aktivt stof: glycopyrroniumbromid. Hver kapsel indeholder 63 mikrogram 
+glycopyrroniumbromid (svarende til 50 mikrogram glycopyrronium). Leveret dosis (den dosis, 
+som afgives fra mundstykket af inhalatoren) svarer til 44 mikrogram glycopyrronium. 
+- Øvrige indholdsstoffer i inhalationspulveret: lactosemonohydrat og magnesiumstearat. </p>
+<p>Udseende og pakningsstørrelser 
+Tovanor Breezhaler 44 mikrogram inhalationspulver, hårde kapsler er gennemsigtige og orange og 
+indeholder et hvidt pulver. De har påtrykt en sort produktkode "GPL50" over og virksomhedens logo (
+) er påtrykt i sort under en sort bjælke. </p>
+<p>Hver pakning indeholder en inhalator, samt kapsler i blister. Hvert blisterkort indeholder enten 6 eller 
+10 hårde kapsler. </p>
+<p>Følgende pakningsstørrelser er tilgængelige: 
+Pakninger med 6 x 1, 10 x 1, 12 x 1 og 30 x 1 kapsler og 1 inhalator. </p>
+<p>Multipakning bestående af 90 kapsler (3 pakninger af 30 x 1) og 3 inhalatorer. 
+Multipakning bestående af 96 kapsler (4 pakninger af 24 x 1) og 4 inhalatorer. 
+Multipakning bestående af 150 kapsler (15 pakninger af 10 x 1) og 15 inhalatorer. 
+Multipakning bestående af 150 kapsler (25 pakninger af 6 x 1) og 25 inhalatorer. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Farmacéutica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spanien </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft.Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 28 11 ή 
+INNOVIS PHARMA ΑΕΒΕ 
+Τηλ: +30 210 66 64 805-6 </p>
+<p>Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Laboratorios Gebro Pharma, S.A. 
+Tel: +34 93 205 86<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Laboratório Medinfar - Produtos Farmacêuticos, 
+S.A. 
+Tel: +351 21 499 7 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Alfasigma S.p.A. 
+Tel: +39 06 91 39 4Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Norhern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>Brugsanvisning til Tovanor Breezhaler-inhalator </p>
+<p>Læs venligst den fulde anvisning for brug inden du bruger Tovanor Breezhaler. </p>
+<p>Læg en kapsel i 
+Perforer og slip 
+Inhaler dybt 
+Tjek, at kapslen er tom </p>
+<p>Trin 1a: 
+Fjern hætten 
+Trin 2a: 
+Perforer kapslen én 
+gang 
+Hold inhalatoren lodret. 
+Perforer kapslen ved 
+samtidigt at trykke begge 
+sideknapper helt ind. 
+Trin 3a: 
+Tag en dyb udånding 
+Du må ikke puste i 
+mundstykket. 
+Tjek, at kapslen er tom 
+Åben inhalatoren for at 
+kontrollere, om der er 
+overskydende pulver i 
+kapslen. </p>
+<p>Du vil høre et klik, når 
+kapslen perforeres. 
+Perforer kun kapslen én 
+gang. </p>
+<p>Hvis der er overskydende 
+pulver i kapslen: 
+ 
+Luk inhalatoren. 
+ 
+Gentag trin 3a til 3c. 
+Trin 1b: 
+Åben inhalatoren </p>
+<p>Trin 2b: 
+Slip sideknapperne helt 
+Trin 3b: 
+Inhaler medicinen dybt 
+Hold inhalatoren som 
+vist på billedet. Tag 
+mundstykket i munden, 
+og luk læberne tæt 
+omkring det. 
+Tryk ikke på 
+sideknapperne. </p>
+<p>Overskydende 
+Tom 
+pulver 
+1 
+2 
+3 
+Tjek </p>
+<p>Tag en hurtig og så dyb 
+indånding som muligt. 
+Under inhalationen vil du 
+høre en snurrende lyd. 
+Du kan muligvis smage 
+medicinen mens du 
+inhalerer. </p>
+<p>Trin 1c: 
+Fjern kapslen 
+Adskil en blister fra 
+blisterkortet. 
+Åbn blisteren og fjern 
+kapslen. 
+Tryk ikke kapslen gennem 
+folien. 
+Kapslen må ikke synkes. </p>
+<p>Trin 3c: 
+Hold vejret 
+Hold vejret i op til 
+5 sekunder. 
+Fjern den tomme kapsel 
+Smid kapslen ud sammen 
+med almindeligt 
+husholdningsaffald. 
+Luk inhalatoren, og sæt 
+hætten på igen. </p>
+<p>Trin 1d: 
+Læg kapslen i 
+kapselkammeret 
+Læg aldrig en kapsel 
+direkte i mundstykket. </p>
+<p>Vigtig information 
+ Tovanor Breezhaler 
+kapsler skal altid 
+opbevares i den originale 
+blister og må først tages 
+ud umiddelbart inden 
+anvendelse. 
+ Tryk ikke kapslen 
+gennem folien for at 
+fjerne den fra 
+blisterkortet. 
+ Kapslerne må ikke 
+synkes. 
+ Brug ikke Tovanor 
+Breezhaler kapsler med 
+nogen anden inhalator. 
+ Brug ikke Tovanor 
+Breezhaler inhalatoren 
+til at tage anden kapsel-
+medicin. 
+ Læg aldrig kapslen 
+direkte i munden eller i 
+inhalatorens 
+mundstykke. 
+ Tryk ikke på 
+sideknapperne mere end 
+én gang. 
+ Pust ikke ind i 
+mundstykket. 
+ Tryk ikke på 
+sideknapperne mens du 
+inhalerer gennem 
+mundstykket. 
+ Håndter ikke kapslerne 
+med fugtige hænder. 
+ Vask aldrig din inhalator 
+med vand. </p>
+<p>Trin 1e: 
+Luk inhalatoren </p>
+<p>Din Tovanor Breezhaler inhalatorpakning 
+indeholder: 
+ En Tovanor Breezhaler inhalator 
+ Et eller flere blisterkort, som hver indeholder 
+enten 6 eller 10 Tovanor Breezhaler kapsler til 
+brug i inhalatoren </p>
+<p>Ofte stillede spørgsmål </p>
+<p>Hvorfor lavede 
+inhalatoren ikke en lyd 
+da jeg inhalerede? 
+Kapslen kan muligvis 
+sidde fast i kammeret. 
+Hvis dette er tilfældet, skal 
+du forsigtigt løsne kapslen 
+ved at banke let på 
+inhalatorens underdel. 
+Inhaler medicinen igen ved 
+at gentage trin 3a til 3c. </p>
+<p>Hvad skal jeg gøre, hvis 
+der er overskydende 
+pulver i kapslen? 
+Du har ikke fået en 
+tilstrækkeligt mængde af 
+din medicin. Luk 
+inhalatoren og gentag 
+trin 3a til 3c. </p>
+<p>Jeg hostede efter jeg 
+inhalerede – betyder det 
+noget? 
+Dette kan forekomme. Så 
+længe kapslen er tom, har 
+du fået en tilstrækkelig 
+mængde af din medicin. </p>
+<p>Jeg kunne mærke små 
+stykker af kapslen på 
+min tunge – betyder det 
+noget? 
+Dette kan forekomme, og 
+det er ikke farligt. 
+Risikoen for at kapslen går 
+i små stykker forøges, hvis 
+kapslen perforeres mere 
+end én gang. 
+Rengøring af inhalatoren 
+Tør inderside og yderside 
+af mundstykket med en 
+ren, tør og fnugfri klud for 
+at fjerne eventuelle 
+pulverrester. Hold 
+inhalatoren tør. Vask 
+aldrig din inhalator med 
+vand. 
+Bortskaffelse af inhalator 
+efter brug 
+Hver inhalator skal 
+bortskaffes efter alle 
+kapslerne er brugt. Spørg 
+på apoteket hvordan du 
+skal bortskaffe medicin og 
+inhalatorer, som du ikke 
+længere har behov for. </p>
+<p>Blisterkort 
+Blister 
+Inhalatorunderdel 
+Inhalator 
+Underdel 
+Hætte 
+Sideknapper 
+Kapselkammer 
+Mundstykke 
+Gitter </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-2be054305b85e2d13e65aa3cf1a561c0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tovanor Package Leaflet for language en"
+Description: "ePI document Bundle for tovanor Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2be054305b85e2d13e65aa3cf1a561c0"
+* entry[0].resource = composition-en-2be054305b85e2d13e65aa3cf1a561c0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2be054305b85e2d13e65aa3cf1a561c0"
+* entry[=].resource = mp2be054305b85e2d13e65aa3cf1a561c0
+                            
+                    
+Instance: bundlepackageleaflet-da-2be054305b85e2d13e65aa3cf1a561c0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tovanor Package Leaflet for language da"
+Description: "ePI document Bundle for tovanor Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-2be054305b85e2d13e65aa3cf1a561c0"
+* entry[0].resource = composition-da-2be054305b85e2d13e65aa3cf1a561c0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2be054305b85e2d13e65aa3cf1a561c0"
+* entry[=].resource = mp2be054305b85e2d13e65aa3cf1a561c0
+                            
+                    
+
+
+
+Instance: mp2be054305b85e2d13e65aa3cf1a561c0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Tovanor Breezhaler 44 micrograms inhalation powder, hard capsules"
-Description: "Tovanor Breezhaler 44 micrograms inhalation powder, hard capsules"
+Title: "Medicinal Product tovanor"
+Description: "tovanor"
 Usage: #inline
 
  
@@ -568,7 +1223,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Tovanor Breezhaler 44 micrograms inhalation powder, hard capsules"
+  * productName = "tovanor"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -595,29 +1250,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-2be054305b85e2d13e65aa3cf1a561c0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tovanor Package Leaflet for language en"
-Description: "ePI document Bundle for tovanor Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 2be054305b85e2d13e65aa3cf1a561c0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/790/001-008"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tovanor"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-2be054305b85e2d13e65aa3cf1a561c0"
-* entry[0].resource = composition-en-2be054305b85e2d13e65aa3cf1a561c0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp37163f22f94d0768d110f93d4333c290"
-* entry[=].resource = mp37163f22f94d0768d110f93d4333c290
-                            
-                      
+* title = "List of all ePIs associated with tovanor"
+
+* subject = Reference(mp37163f22f94d0768d110f93d4333c290)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tovanor "tovanor"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-2be054305b85e2d13e65aa3cf1a561c0) // tovanor en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-2be054305b85e2d13e65aa3cf1a561c0) // tovanor da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-2be054305b85e2d13e65aa3cf1a561c0
+InstanceOf: List
+
+* insert 2be054305b85e2d13e65aa3cf1a561c0ListRuleset
+    

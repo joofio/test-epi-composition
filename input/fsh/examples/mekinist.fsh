@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a2f0520006a5864136cdf3a6777cfd07
 InstanceOf: CompositionUvEpi
 Title: "Composition for mekinist Package Leaflet"
@@ -668,12 +671,1161 @@ http://www.ema.europa.eu. </p>
 
 
 
+Instance: composition-da-a2f0520006a5864136cdf3a6777cfd07
+InstanceOf: CompositionUvEpi
+Title: "Composition for mekinist Package Leaflet"
+Description:  "Composition for mekinist Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc418782e1bed24a9f531c126c2d9a0ef)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc418782e1bed24a9f531c126c2d9a0ef
+* title = "TEST PURPOSES ONLY - mekinist"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Mekinist </li>
+<li>Sådan skal du tage Mekinist </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What mekinist is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What mekinist is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mekinist er et lægemiddel, der indeholder det aktive stof trametinib. Det anvendes enten alene eller i 
+kombination med et lægemiddel, der indeholder dabrafenib, til at behandle en form for hudkræft, der 
+kaldes malignt melanom, som har spredt sig til andre dele af kroppen eller ikke kan fjernes ved 
+operation. </p>
+<p>Mekinist i kombination med dabrafenib anvendes også til at forebygge tilbagefald af melanom efter, at 
+det er blevet fjernet ved operation. </p>
+<p>Mekinist i kombination med dabrafenib anvendes også til at behandle en type lungekræft, der kaldes 
+ikke-småcellet lungekræft (NSCLC). </p>
+<p>Begge kræfttyper har en bestemt ændring (mutation) ved position V600 i et gen, der kaldes BRAF. 
+Denne ændring i genet kan have været årsagen til udviklingen af kræften. Dit lægemiddel er rettet mod 
+proteiner, der er lavet fra dette muterede gen, og hæmmer eller stopper udviklingen af din kræft. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take mekinist"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take mekinist"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mekinist må kun anvendes til behandling af melanomer og NSCLC med BRAF-mutation. Lægen vil 
+derfor teste for denne mutation, inden behandlingen bliver startet. </p>
+<p>Hvis lægen beslutter, at du skal behandles med en kombination af Mekinist og dabrafenib, skal du 
+læse både denne indlægsseddel og indlægssedlen for dabrafenib omhyggeligt. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>
+<p>Tag ikke Mekinist </p>
+<ul>
+<li>hvis du er allergisk over for trametinib eller et af de øvrige indholdsstoffer i Mekinist (angivet i 
+punkt 6). 
+Tal med lægen, hvis du tror, dette gælder for dig. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager dette lægemiddel. Lægen skal vide, om du: </p>
+<ul>
+<li>
+<p>har leverproblemer. Lægen vil måske tage blodprøver for at kontrollere din leverfunktion, 
+mens du tager dette lægemiddel. </p>
+</li>
+<li>
+<p>har eller har haft nyreproblemer. </p>
+</li>
+<li>
+<p>har eller nogensinde har haft lunge- eller vejrtrækningsproblemer. </p>
+</li>
+<li>
+<p>har hjerteproblemer, såsom hjertesvigt (som kan forårsage åndenød, vejrtrækningsbesvær, når 
+du ligger ned, og hævede fødder eller ben) eller problemer med den måde, dit hjerte slår på. Din 
+læge bør undersøge din hjertefunktion før og under behandling. </p>
+</li>
+<li>
+<p>har øjenproblemer, herunder blokering af den vene, der leder væske fra øjet (retinal 
+veneokklusion) eller hævelse i øjet, som kan være forårsaget af væskeophobning 
+(korioretinopati). </p>
+</li>
+</ul>
+<p>Inden du tager Mekinist i kombination med dabrafenib, skal lægen vide, om du: </p>
+<ul>
+<li>har haft en anden kræftform end malignt melanom eller NSCLC, da du vil have en større 
+risiko for at udvikle andre kræftformer end hudkræft, når du tager Mekinist. </li>
+</ul>
+<p>Tal med lægen, hvis du tror, at noget af dette gælder for dig. </p>
+<p>Tilstande, som du skal holde øje med </p>
+<p>Nogle personer, der tager Mekinist, udvikler andre tilstande, der kan være alvorlige. Det er 
+nødvendigt, at du kender til vigtige symptomer, som du skal holde øje med. </p>
+<p>Blødning 
+Indtagelse af Mekinist eller kombinationen af Mekinist og dabrafenib kan forårsage alvorlig blødning i 
+hjernen, fordøjelsessystemet (såsom maven, endetarmen eller tarmen), lungerne og andre organer og 
+kan medføre døden. Symptomerne kan være: </p>
+<ul>
+<li>
+<p>hovedpine, svimmelhed eller svaghed </p>
+</li>
+<li>
+<p>blod i afføringen eller sort afføring </p>
+</li>
+<li>
+<p>blod i urinen </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>ophostning/opkastning af blod </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du får nogen af disse symptomer. </p>
+<p>Feber 
+Behandling med Mekinist eller med kombination af Mekinist og dabrafenib kan forårsage feber, men 
+risikoen er størst, hvis du tager kombinationsbehandlingen (se også punkt 4). I nogle tilfælde kan 
+personer med feber udvikle lavt blodtryk, svimmelhed eller andre symptomer. 
+Fortæl det straks til lægen, hvis du får feber over 38 ºC eller hvis du føler, at du er ved at få feber, 
+mens du tager dette lægemiddel. </p>
+<p>Hjerteproblemer 
+Mekinist kan give hjerteproblemer eller forværre allerede eksisterende hjerteproblemer (se også 
+“Hjerteproblemer" i punkt 4) hos personer, der tager Mekinist i kombination med dabrafenib. 
+Fortæl det til lægen, hvis du har problemer med hjertet. Lægen vil foretage nogle undersøgelser 
+for at kontrollere, om dit hjerte fungerer, som det skal, før og under behandlingen med dette 
+lægemiddel. Fortæl det straks til lægen, hvis du føler hjertebanken, galopperende hjerte, 
+uregelmæssige hjerteslag, eller hvis du oplever svimmelhed, træthed, ørhed, åndenød eller hævelse i 
+benene. Hvis det bliver nødvendigt, kan lægen beslutte at afbryde din behandling midlertidigt eller 
+stoppe den helt. </p>
+<p>Ændringer i din hud, som kan være tegn på ny hudkræft 
+Lægen vil undersøge din hud, inden du begynder at tage dette lægemiddel, og derefter regelmæssigt, 
+så længe du tager det. Fortæl det straks til lægen, hvis du bemærker nogen ændringer i din hud, 
+mens du tager dette lægemiddel eller efter behandlingen (se også punkt 4). </p>
+<p>Øjenproblemer 
+Du skal have undersøgt dine øjne af lægen, mens du tager dette lægemiddel. 
+Fortæl det omgående til lægen, hvis du får røde eller irriterede øjne, sløret syn, øjensmerter eller 
+andre ændringer i synet under behandlingen (se også punkt 4). 
+Mekinist kan give øjenproblemer, herunder blindhed. Mekinist anbefales ikke, hvis du har haft 
+blokade af den vene, som leder væske fra øjet (retinal veneokklusion). Fortæl det straks til lægen, hvis 
+du under behandlingen får følgende symptomer på øjenproblemer: sløret syn, nedsat syn eller andre 
+ændringer i synet, farvede prikker i synsfeltet eller ser haloer (uskarpe konturer omkring genstande). 
+Hvis det bliver nødvendigt, kan lægen beslutte at afbryde behandlingen midlertidigt eller stoppe den 
+helt. </p>
+<p>Leverproblemer 
+Mekinist alene eller i kombination med dabrafenib kan forårsage leverproblemer, som kan udvikle sig 
+til alvorlige tilstande, såsom leverbetændelse og leversvigt, som kan være dødeligt. Lægen vil tjekke 
+dig regelmæssigt. Tegn på, at din lever ikke fungerer ordentligt, kan være: </p>
+<ul>
+<li>
+<p>manglende appetit </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>gulfarvning af huden eller det hvide i øjnene (gulsot) </p>
+</li>
+<li>
+<p>mørk urin </p>
+</li>
+<li>
+<p>hudkløe </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du får nogen af disse symptomer. </p>
+<p>Lunge- eller vejrtrækningsproblemer 
+Fortæl det til lægen, hvis du har lunge- eller vejrtrækningsproblemer, herunder 
+vejrtrækningsbesvær, som ofte er ledsaget af en tør hoste, åndenød og træthed. Lægen vil eventuelt 
+sørge for, at du får kontrolleret din lungefunktion, inden du begynder at tage lægemidlet. </p>
+<p>Muskelsmerter 
+Mekinist kan medføre nedbrydning af muskelvæv (rabdomyolyse). Fortæl det straks til lægen, hvis 
+du får nogen af disse symptomer: </p>
+<ul>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>mørk urin (som følge af nyreskader) </p>
+</li>
+</ul>
+<p>Hvis det bliver nødvendigt, kan lægen beslutte at afbryde din behandling midlertidigt eller stoppe den 
+helt. </p>
+<p>→ 
+Læs oplysningerne under “Alvorlige bivirkninger" i punkt 4 i denne indlægsseddel. </p>
+<p>Hul i maven eller tarmen (perforation) 
+At tage Mekinist eller kombinationen af Mekinist og dabrafenib kan øge risikoen for at udvikle huller i 
+tarmvæggen. Fortæl det straks til lægen, hvis du får kraftige mavesmerter. </p>
+<p>Alvorlige hudreaktioner 
+Der er rapporteret tilfælde af alvorlige hudreaktioner hos personer, der tog Mekinist i kombination 
+med dabrafenib. Fortæl det straks til lægen, hvis du bemærker forandringer i huden (se punkt 4 for 
+symptomer du bør være opmærksom på). </p>
+<p>En inflammatorisk sygdom, der primært påvirker hud, lunger, øjne og lymfeknuder 
+En inflammatorisk sygdom, der primært påvirker hud, lunger, øjne og lymfeknuder (sarkoidose). 
+Almindelige symptomer på sarkoidose kan omfatte hoste, åndenød, hævede lymfeknuder, 
+synsforstyrrelser, feber, træthed, smerter og hævelse i leddene og ømme knuder på huden. Fortæl det 
+til lægen, hvis du får nogen af disse symptomer. </p>
+<p>Immunforsvaret 
+Mekinist i kombination med dabrafenib kan i sjældne tilfælde medføre en tilstand (hæmofagocytisk 
+lymfohistiocytose, HLH), hvor immunforsvaret producerer for mange infektionsbekæmpende celler, 
+der kaldes histiocytter og lymfocytter. Symptomerne omfatter forstørret lever og/eller milt, hududslæt, 
+forstørrede lymfeknuder, vejrtrækningsbesvær, tendens til blå mærker, nyreproblemer og 
+hjerteproblemer. Fortæl det straks til lægen, hvis du samtidig får flere symptomer såsom feber, hævede 
+lymfekirtler, blå mærker eller hududslæt. </p>
+<p>Tumorlyse syndrom 
+Hvis du oplever følgende symptomer, skal du straks fortælle det til lægen, da dette kan være tegn på 
+en livstruende tilstand: kvalme, åndenød, uregelmæssig hjerterytme, muskelkramper, krampeanfald, 
+uklar urin, nedsat urinproduktion og træthed. Disse symptomer kan være forårsaget af en gruppe 
+metaboliske komplikationer, der kan opstå under behandling af kræft, som er forårsaget af 
+nedbrydningsprodukter fra døende kræftceller (tumorlyse syndrom eller TLS) og kan føre til 
+ændringer i nyrefunktionen (se også punkt 4). </p>
+<p>Børn og unge 
+Mekinist anbefales ikke til børn og unge, da virkningerne af Mekinist hos personer, der er yngre end 
+18 år, ikke kendes. </p>
+<p>Brug af andre lægemidler sammen med Mekinist 
+Før du starter behandlingen: Fortæl lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre 
+lægemidler, for nylig har taget andre lægemidler eller planlægger at tage andre lægemidler. Dette 
+gælder også lægemidler, som ikke er købt på recept. Hav en liste over de lægemidler, du tager, med 
+dig, så du kan vise den til lægen, apotekspersonalet eller sygeplejersken, når du får et nyt lægemiddel. </p>
+<p>Brug af Mekinist sammen med mad og drikke 
+Det er vigtigt at tage Mekinist på tom mave, da mad påvirker den måde, som lægemidlet optages i 
+kroppen på (se punkt 3). </p>
+<p>Graviditet, amning og frugtbarhed 
+Mekinist anbefales ikke under graviditet. </p>
+<ul>
+<li>
+<p>Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du tager dette lægemiddel. Mekinist kan skade det ufødte barn. </p>
+</li>
+<li>
+<p>Hvis du er kvinde og kan blive gravid, skal du bruge en sikker præventionsmetode 
+(svangerskabsforebyggende middel), mens du tager Mekinist, og i mindst 16 uger efter at du er 
+holdt op med at tage det. </p>
+</li>
+<li>
+<p>Svangerskabsforebyggende lægemidler, der indeholder hormoner (fx tabletter, injektioner eller 
+plastre), vil muligvis ikke være sikre, hvis du tager Mekinist sammen med dabrafenib. Det er 
+nødvendigt, at du bruger en anden sikker svangerskabsforebyggende metode, så du ikke bliver 
+gravid, mens du tager denne kombination af lægemidler. Spørg lægen, apotekspersonalet eller 
+sygeplejersken til råds. </p>
+</li>
+<li>
+<p>Fortæl det straks til lægen, hvis du bliver gravid, mens du tager Mekinist. </p>
+</li>
+</ul>
+<p>Mekinist anbefales ikke under amning 
+Det vides ikke, om indholdsstofferne i Mekinist går over i modermælken. 
+Hvis du ammer eller planlægger at amme, skal du fortælle det til lægen. Det anbefales, at du ikke 
+ammer, mens du tager Mekinist. Du og din læge vil sammen afgøre, om du skal tage Mekinist eller 
+amme. </p>
+<p>Frugtbarhed - både mænd og kvinder 
+Mekinist kan nedsætte frugtbarheden hos både mænd og kvinder. </p>
+<p>Indtagelse af Mekinist sammen med dabrafenib: Dabrafenib kan muligvis nedsætte mænds 
+frugtbarhed permanent. Derudover kan mænd, som tager dabrafenib, have nedsat sædkvalitet (nedsat 
+antal sædceller), og deres sædkvalitet bliver muligvis ikke normal igen, efter de er holdt op med at 
+tage dette lægemiddel. </p>
+<p>Inden du påbegynder behandlingen med dabrafenib, så tal med lægen om dine muligheder for at 
+forbedre dine chancer for at få børn i fremtiden. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du har flere spørgsmål om virkningen af 
+dette lægemiddel på fertiliteten. </p>
+<p>Trafik- og arbejdssikkerhed 
+Mekinist kan give bivirkninger, der kan påvirke din evne til at føre motorkøretøj og betjene maskiner. 
+Undgå at føre motorkøretøj og betjene maskiner, hvis du føler dig træt eller svag, hvis du har 
+problemer med dit syn, eller hvis dit energiniveau er lavt. 
+Beskrivelser af disse bivirkninger kan findes i andre afsnit (se punkt 2 og 4). Læs alle oplysninger i 
+denne indlægsseddel for at få vejledning. 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du er i tvivl om noget. Din sygdom, dine 
+symptomer og din behandlingssituation kan også påvirke din evne til at føre motorkøretøj og betjene 
+maskiner. </p>
+<p>Mekinist indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take mekinist"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take mekinist"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens, apotekspersonalets eller sygeplejerskens anvisning. 
+Er du i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken. </p>
+<p>Dosis 
+Den anbefalede dosis af Mekinist, enten alene eller i kombination med dabrafenib, er én tablet på 2 mg 
+en gang daglig. Den anbefalede dosis af dabrafenib, når det anvendes i kombination med Mekinist, er 
+150 mg to gange dagligt. </p>
+<p>Lægen kan beslutte at nedsætte dosis, hvis du får bivirkninger. </p>
+<p>Tag ikke mere Mekinist, end lægen har foreskrevet, da det kan øge risikoen for at få bivirkninger. </p>
+<p>Sådan skal du tage Mekinist 
+Synk tabletten hel med et helt glas vand. 
+Tag Mekinist en gang om dagen på tom mave (mindst 1 time før et måltid eller mindst 2 timer efter et 
+måltid). Dette betyder, at: </p>
+<ul>
+<li>
+<p>du skal vente mindst 1 time, før du spiser efter du har taget Mekinist. </p>
+</li>
+<li>
+<p>du skal vente mindst 2 timer efter du har spist, før du tager Mekinist. </p>
+</li>
+</ul>
+<p>Tag Mekinist på omtrent samme tidspunkt hver dag. </p>
+<p>Hvis du har taget for meget Mekinist 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du har taget for mange Mekinist-tabletter. 
+Vis dem Mekinist-pakningen og denne indlægsseddel, hvis det er muligt. </p>
+<p>Hvis du har glemt at tage Mekinist 
+Hvis den glemte dosis skulle være taget for mindre end 12 timer siden, skal du tage den, så snart du 
+kommer i tanke om det. 
+Hvis den glemte dosis skulle være taget for mere end 12 timer siden, skal du springe den dosis over og 
+tage din næste dosis på det sædvanlige tidspunkt. Fortsæt herefter med at tage dine tabletter på de 
+sædvanlige tidspunkter, som du plejer. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Mekinist 
+Tag Mekinist, så længe som lægen foreskriver. Hold ikke op med at tage Mekinist, medmindre lægen 
+foreskriver det. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>
+<p>Sådan skal du tage Mekinist i kombination med dabrafenib </p>
+<ul>
+<li>
+<p>Tag Mekinist i kombination med dabrafenib nøjagtigt efter lægens, apotekspersonalets eller 
+sygeplejerskens anvisning. Du må ikke ændre din dosis eller stoppe med at tage Mekinist eller 
+dabrafenib, medmindre lægen, apotekspersonalet eller sygeplejersken beder dig om det. </p>
+</li>
+<li>
+<p>Tag Mekinist en gang dagligt, og tag dabrafenib to gange dagligt. Det kan være en god idé, 
+at du vænner dig til at tage begge lægemidler på samme tid hver dag. Mekinist skal enten tages 
+sammen med morgendosen af dabrafenib eller aftendosen af dabrafenib. Der skal være ca. 
+12 timer mellem dabrafenib-doserne. </p>
+</li>
+<li>
+<p>Tag Mekinist og dabrafenib på tom mave mindst en time før eller to timer efter et måltid. 
+Tabletterne skal synkes hele med et helt glas vand. </p>
+</li>
+<li>
+<p>Hvis du glemmer at tage en dosis af Mekinist eller dabrafenib, skal du tage den, så snart du 
+kommer i tanke om det. Erstat ikke glemte doser, og tag blot din næste dosis på det sædvanlige 
+tidspunkt: * 
+Hvis der er mindre end 12 timer til din næste planlagte dosis af Mekinist, som tages en 
+gang dagligt. * 
+Hvis der er mindre end 6 timer til din næste planlagte dosis af dabrafenib, som tages to 
+gange dagligt. </p>
+</li>
+<li>
+<p>Hvis du har taget for meget Mekinist eller dabrafenib, skal du straks kontakte lægen, 
+apotekspersonalet eller sygeplejersken. Tag Mekinist-tabletterne og dabrafenib-kapslerne med 
+dig, hvis det er muligt. Vis dem om muligt Mekinist- og dabrafenib-pakningerne med hver sin 
+indlægsseddel. </p>
+</li>
+<li>
+<p>Hvis du får bivirkninger, kan lægen beslutte, at du skal tage en lavere dosis af Mekinist og 
+dabrafenib. Tag doserne af Mekinist og dabrafenib nøjagtigt efter lægens, apotekspersonalets 
+eller sygeplejerskens anvisning. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger </p>
+<p>Hjerteproblemer 
+Mekinist kan påvirke, hvor godt dit hjerte pumper blod. Der er større sandsynlighed for, at dette 
+påvirker personer, der i forvejen har et hjerteproblem. Det vil løbende blive kontrolleret, om du har 
+hjerteproblemer, mens du tager Mekinist. Tegn og symptomer på hjerteproblemer omfatter: </p>
+<ul>
+<li>
+<p>hjertebanken, galopperende hjerte eller uregelmæssige hjerteslag </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>følelse af ørhed </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>hævelse i benene. </p>
+</li>
+</ul>
+<p>Fortæl det hurtigst muligt til lægen, hvis du får nogen af disse symptomer - både hvis de optræder 
+for første gang, eller hvis de bliver værre. </p>
+<p>Forhøjet blodtryk 
+Mekinist kan give eller forværre allerede eksisterende højt blodtryk (hypertension). Lægen eller 
+sygeplejersken vil måle dit blodtryk under din behandling med Mekinist. Kontakt straks lægen eller 
+sygeplejersken, hvis du får forhøjet blodtryk, hvis dit høje blodtryk forværres eller hvis du har alvorlig 
+hovedpine, føler dig svimmel eller ør. </p>
+<p>Blødningsproblemer 
+Mekinist kan give alvorlige blødningsproblemer, specielt i din hjerne eller mave. Hvis du oplever 
+unormale tegn på blødning, skal du straks kontakte lægen eller sygeplejersken. Tegn på blødning kan 
+omfatte: </p>
+<ul>
+<li>
+<p>hovedpine, svimmelhed eller svaghed </p>
+</li>
+<li>
+<p>ophostning af blod eller blodklumper </p>
+</li>
+<li>
+<p>opkastning med blod eller som ligner "kaffegrums" </p>
+</li>
+<li>
+<p>rød afføring eller sort afføring, som kan ligne tjære. </p>
+</li>
+</ul>
+<p>Øjenproblemer (synsproblemer) 
+Mekinist kan give øjenproblemer. Mekinist anbefales ikke, hvis du har eller har haft en blokering af 
+den vene, der fører blodet væk fra øjet (retinal veneokklusion). Lægen vil måske henvise dig til en 
+øjenundersøgelse, før du begynder at tage Mekinist, og mens du tager det. Lægen vil måske stoppe din 
+behandling med Mekinist eller henvise dig til en specialist, hvis du udvikler tegn og symptomer på 
+øjenproblemer, der omfatter: </p>
+<ul>
+<li>
+<p>nedsat syn </p>
+</li>
+<li>
+<p>røde eller irriterede øjne </p>
+</li>
+<li>
+<p>farvede prikker i dit synsfelt </p>
+</li>
+<li>
+<p>haloer (ser uskarpe konturer omkring genstande) </p>
+</li>
+<li>
+<p>sløret syn. </p>
+</li>
+</ul>
+<p>Forandringer i huden 
+Der er rapporteret tilfælde af alvorlige hudreaktioner hos personer, der tog Mekinist i kombination 
+med dabrafenib (hyppigheden er ukendt). Hvis du bemærker noget af følgende: </p>
+<ul>
+<li>
+<p>rødlige pletter på kroppen, der er cirkulære eller skydeskiveformet med centrale blærer. 
+Afskallet hud. Sår i munden, halsen, kønsorganerne og øjnene. Disse alvorlige hududslæt kan 
+følge efter udbrud af feber og influenza-lignende symptomer (Stevens-Johnsons syndrom). </p>
+</li>
+<li>
+<p>udbredt udslæt, feber og forstørrede lymfeknuder (DRESS-syndrom eller lægemiddel 
+overfølsomhedssyndrom). 
+➔ 
+stop med at tage lægemidlet og søg lægehjælp med det samme. </p>
+</li>
+</ul>
+<p>Op til 3 ud af 100 personer, der tager Mekinist i kombination med dabrafenib, kan udvikle en anden 
+form for hudkræft, der kaldes kutant pladecellekarcinom (cuSCC). Andre kan udvikle en form for 
+hudkræft, der kaldes basalcellekarcinom (BCC). Normalt forbliver disse hudændringer på et 
+begrænset område og kan fjernes ved operation, og behandlingen med Mekinist og dabrafenib kan 
+fortsættes uden afbrydelse. </p>
+<p>Nogle personer, der tager Mekinist i kombination med dabrafenib, bemærker muligvis også, at der er 
+opstået nye melanomer. Disse melanomer fjernes normalt ved operation, og behandlingen med 
+Mekinist og dabrafenib kan fortsættes uden afbrydelse. </p>
+<p>Lægen vil undersøge din hud, inden du begynder at tage dabrafenib, og derefter undersøge den igen en 
+gang om måneden, så længe du tager dabrafenib, og i 6 måneder efter, at du er holdt op med at tage 
+det. Det er for at se, om der er nye forekomster af hudkræft. </p>
+<p>Lægen vil også undersøge dit hoved, hals, mund og lymfekirtler, og du vil regelmæssigt få foretaget 
+scanninger af bryst- og maveområdet (kaldet CT-scanninger). Du vil muligvis også få taget 
+blodprøver. Disse undersøgelser har til formål at kontrollere, om der udvikles andre former for kræft, 
+herunder pladecellekarcinom, inde din krop. En gynækologisk undersøgelse (for kvinder) og en anal 
+undersøgelse anbefales også ved behandlingens start og afslutning. </p>
+<p>Mekinist, som monoterapi eller i kombination med dabrafenib, kan give udslæt eller aknelignende 
+udslæt. Følg lægens anvisninger for, hvad du kan gøre for at hjælpe med at undgå udslæt. Fortæl det 
+hurtigst muligt til lægen eller sygeplejersken, hvis du får nogen af disse symptomer for første gang, 
+eller hvis de bliver værre. 
+Kontakt straks lægen, hvis du får et alvorligt hududslæt med nogen af følgende symptomer: blærer 
+på huden, blærer eller sår i munden, afskalning af huden, feber, rødme eller hævelse af dit ansigt eller 
+dine fodsåler. </p>
+<p>Fortæl det hurtigst muligt til lægen eller sygeplejersken, hvis du får nogen form for hududslæt, 
+eller hvis du har et udslæt, der bliver værre. </p>
+<p>Muskelsmerter 
+Mekinist kan medføre nedbrydning af musklerne (rabdomyolyse). Fortæl det til lægen eller 
+sygeplejersken, hvis du får nye eller forværrede symptomer, herunder: </p>
+<ul>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>mørk urin (på grund af skader i nyrerne). </p>
+</li>
+</ul>
+<p>Lunge- og vejrtrækningsproblemer 
+Mekinist kan give betændelse i lungerne (pneumonitis eller interstitiel lungesygdom). Fortæl det til 
+lægen eller sygeplejersken, hvis du oplever nye eller forværringer af symptomer på lunge- eller 
+vejrtrækningsproblemer, herunder: </p>
+<ul>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+</ul>
+<p>Immunforsvaret 
+Hvis du samtidig får flere symptomer såsom feber, hævede lymfekirtler, blå mærker eller hududslæt, 
+skal du straks fortælle det til lægen. Disse kan være tegn på en tilstand, hvor immunforsvaret 
+producerer for mange infektionsbekæmpende celler af typen histiocytter og lymfocytter, der kan 
+forårsage forskellige symptomer (hæmofagocytisk lymfohistiocytose), se punkt 2 (hyppighed 
+sjælden). </p>
+<p>Tumorlyse syndrom 
+Fortæl det straks til lægen, hvis du oplever følgende symptomer: kvalme, åndenød, uregelmæssig 
+hjerterytme, muskelkramper, krampeanfald, uklar urin, nedsat urinproduktion og træthed. Disse kan 
+være tegn på en tilstand, der skyldes en hurtig nedbrydning af kræftceller, som hos nogle mennesker 
+kan være dødelig (tumorlyse syndrom eller TLS), se punkt 2 (hyppighed ikke kendt). </p>
+<p>Bivirkninger hos patienter, der tager Mekinist alene </p>
+<p>Bivirkninger, som du kan få, når du tager Mekinist alene: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>forhøjet blodtryk (hypertension) </p>
+</li>
+<li>
+<p>blødninger forskellige steder i kroppen, som kan være lette eller alvorlige </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kvalme, opkastning </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>hududslæt, aknelignende udslæt, rødme i ansigtet, tør eller kløende hud (se også “Forandringer i 
+huden" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>usædvanligt hårtab eller udtynding af håret </p>
+</li>
+<li>
+<p>manglende energi eller en følelse af svaghed eller træthed </p>
+</li>
+<li>
+<p>hævede hænder eller fødder (perifert ødem) </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger, der kan ses i blodprøver </p>
+<ul>
+<li>unormale blodprøveresultater for leverfunktionen </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>betændelse i hårsækkene i huden </p>
+</li>
+<li>
+<p>neglelidelser, fx forandringer i neglelejet, neglesmerter, betændte og hævede neglebånd </p>
+</li>
+<li>
+<p>hudinfektion (cellulitis) </p>
+</li>
+<li>
+<p>hududslæt med pusfyldte blærer (se også “Forandringer i huden" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>allergisk reaktion (overfølsomhed) </p>
+</li>
+<li>
+<p>dehydrering (vand- eller væskemangel) </p>
+</li>
+<li>
+<p>sløret syn </p>
+</li>
+<li>
+<p>hævelse omkring øjnene </p>
+</li>
+<li>
+<p>synsproblemer (se også “Øjenproblemer (synsproblemer)" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>ændringer i, hvordan hjertet pumper blod (dårlig funktion af venstre hjertekammer) (se også 
+“Hjerteproblemer" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>puls (hjertefrekvens), der er under det normale interval, og/eller nedsat puls </p>
+</li>
+<li>
+<p>lokal vævshævelse </p>
+</li>
+<li>
+<p>inflammation (betændelseslignende reaktion) i lungerne (pneumonitis eller interstitiel 
+lungesygdom) </p>
+</li>
+<li>
+<p>ømhed eller blærer i munden, inflammation i slimhinderne </p>
+</li>
+<li>
+<p>hudrødme, sprukken eller revnet hud </p>
+</li>
+<li>
+<p>røde, smertefulde hænder og fødder </p>
+</li>
+<li>
+<p>hævelse af ansigtet </p>
+</li>
+<li>
+<p>betændelse i slimhinder </p>
+</li>
+<li>
+<p>følelse af svaghed </p>
+</li>
+<li>
+<p>nerveproblemer, som kan medføre smerter, tab af følesans eller prikken i hænder og fødder 
+og/eller muskelsvaghed (perifer neuropati) </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger, der kan ses i blodprøver </p>
+<ul>
+<li>nedsat antal røde blodlegemer (anæmi), unormalt niveau af kreatinkinase, som er et enzym, der 
+primært findes i hjertet, hjernen og skeletmusklerne </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>hævelse i øjet forårsaget af væskeophobning (korioretinopati) (se også “Øjenproblemer 
+(synsproblemer)" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>hævelse af nerverne i øjets bagre del (papilødem) (se også “Øjenproblemer (synsproblemer)" 
+tidligere i punkt 4) </p>
+</li>
+<li>
+<p>løsgørelse af den lysfølsomme membran på bagsiden af øjet (nethinden) fra dens understøttende 
+lag (nethindeløsning) (se også “Øjenproblemer (synsproblemer)" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>blokering af den vene, der fører blodet væk fra øjet (retinal veneokklusion) (se også 
+“Øjenproblemer (synsproblemer)" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>hjertet pumper mindre effektivt, hvilket giver åndenød, udtalt træthed og hævede ankler og ben 
+(hjertesvigt) </p>
+</li>
+<li>
+<p>et hul i maven eller tarmene </p>
+</li>
+<li>
+<p>inflammation i tarmene (colitis) </p>
+</li>
+<li>
+<p>nedbrydning af muskelvæv, hvilket kan give muskelsmerter og nyreskade (rabdomyolyse) </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>uregelmæssig hjerterytme (atrioventrikulært blok) </li>
+</ul>
+<p>Bivirkninger, når Mekinist og dabrafenib tages sammen </p>
+<p>Når du tager Mekinist og dabrafenib sammen, kan du måske få en hvilken som helst af de 
+bivirkninger, der er angivet ovenfor, omend hyppigheden kan ændre sig (hyppigere eller sjældnere). </p>
+<p>Du kan også få yderligere bivirkninger, fordi du tager dabrafenib samtidig med Mekinist, se 
+nedenfor. </p>
+<p>Fortæl det hurtigst muligt til lægen, hvis du får nogen af disse symptomer - enten for første gang, eller 
+hvis de bliver værre. </p>
+<p>Læs indlægssedlen for dabrafenib med oplysninger om de bivirkninger, du kan få ved at tage 
+dette lægemiddel. </p>
+<p>De bivirkninger, du måske vil få, når du tager Mekinist i kombination med dabrafenib, er følgende: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>betændelse i næse og hals </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>forhøjet blodtryk (hypertension) </p>
+</li>
+<li>
+<p>blødninger forskellige steder i kroppen, som kan være lette eller alvorlige (hæmoragi) </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kvalme, opkastning </p>
+</li>
+<li>
+<p>udslæt, tør hud, kløe, hudrødme </p>
+</li>
+<li>
+<p>ledsmerter, muskelsmerter eller smerter i hænder eller fødder </p>
+</li>
+<li>
+<p>ufrivillige muskelsammentrækninger </p>
+</li>
+<li>
+<p>manglende energi, svaghed </p>
+</li>
+<li>
+<p>kulderystelser </p>
+</li>
+<li>
+<p>hævede hænder eller fødder (perifert ødem) </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>influenzalignende symptomer </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger, der kan ses i blodprøver </p>
+<ul>
+<li>unormale blodprøveresultater for leverfunktionen </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>urinvejsinfektion </p>
+</li>
+<li>
+<p>hudreaktioner, herunder betændelse i huden (cellulitis), betændelse i hudens hårsække, 
+negleforandringer såsom forandringer i neglelejet, neglesmerter, betændte og hævede 
+neglebånd, hududslæt med pusfyldte blærer, kutant pladecellekarcinom (en form for hudkræft), 
+papillom (en form for hudtumor, som normalt ikke er farlig), vortelignende vækster, øget 
+følsomhed af huden over for solen (se også "Forandringer i huden" tidligere i punkt 4) </p>
+</li>
+<li>
+<p>dehydrering (vand- eller væskemangel) </p>
+</li>
+<li>
+<p>sløret syn, synsproblemer, betændelse i øjet (uveitis) </p>
+</li>
+<li>
+<p>nedsættelse af hjertets pumpeevne </p>
+</li>
+<li>
+<p>lavt blodtryk (hypotension) </p>
+</li>
+<li>
+<p>lokal vævshævelse </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>ømhed eller blærer i munden, inflammation i slimhinder </p>
+</li>
+<li>
+<p>aknelignende problemer </p>
+</li>
+<li>
+<p>fortykkelse af det yderste hudlag (hyperkeratose), tykke, skællede eller skorpede pletter på 
+huden (aktinisk keratose), sprukken eller revnet hud </p>
+</li>
+<li>
+<p>kraftig svedproduktion, nattesved </p>
+</li>
+<li>
+<p>usædvanligt hårtab eller udtynding af håret </p>
+</li>
+<li>
+<p>røde, smertefulde hænder og fødder </p>
+</li>
+<li>
+<p>inflammation i fedtlaget under huden (panniculitis) </p>
+</li>
+<li>
+<p>betændelse af slimhinder </p>
+</li>
+<li>
+<p>hævelse af ansigtet </p>
+</li>
+<li>
+<p>nerveproblemer, som kan medføre smerter, tab af følesans eller prikken i hænder og fødder 
+og/eller muskelsvaghed (perifer neuropati) </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger, der kan ses i blodprøver </p>
+<ul>
+<li>
+<p>lavt antal hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer (anæmi), blodplader (celler, der hjælper blodet med at størkne) 
+og en type hvide blodlegemer (leukopeni) </p>
+</li>
+<li>
+<p>lavt indhold af natrium (hyponatriæmi) eller fosfat (hypofosfatæmi) i blodet </p>
+</li>
+<li>
+<p>højt blodsukker </p>
+</li>
+<li>
+<p>stigning i kreatinkinase, et enzym, der hovedsageligt findes i hjertet, hjernen og 
+skeletmuskulaturen </p>
+</li>
+<li>
+<p>stigning i nogle stoffer (enzymer), som produceres af leveren </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>fremkomst af ny hudkræft (melanom) </p>
+</li>
+<li>
+<p>stilkevorter (skin tags) </p>
+</li>
+<li>
+<p>allergiske reaktioner (overfølsomhed) </p>
+</li>
+<li>
+<p>øjenforandringer, herunder hævelse i øjet forårsaget af udsivning af væske (korioretinopati), 
+løsning af den lysfølsomme membran bagerst i øjet (nethinden) fra dens understøttende lag 
+(nethindeløsning) og hævelse omkring øjnene </p>
+</li>
+<li>
+<p>puls (hjertefrekvens), der er under det normale interval og/eller nedsat puls </p>
+</li>
+<li>
+<p>inflammation (betændelseslignende tilstand) i lungerne (pneumonitis) </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen </p>
+</li>
+<li>
+<p>inflammation i tarmene (colitis) </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+<li>
+<p>inflammation i nyrerne </p>
+</li>
+<li>
+<p>inflammatorisk sygdom, der primært påvirker hud, lunger, øjne og lymfeknuder (sarkoidose) </p>
+</li>
+<li>
+<p>uregelmæssig hjerterytme (atrioventrikulært blok) </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 personer): </p>
+<ul>
+<li>et hul (perforation) i maven eller tarmene </li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>
+<p>inflammation i hjertemusklen (myokarditis), hvilket kan medføre kortåndethed, feber, 
+hjertebanken og brystsmerter </p>
+</li>
+<li>
+<p>betændt, skællende hud (eksfoliativ dermatitis) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store mekinist"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mekinist"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. 
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. 
+Opbevares i den originale beholder for at beskytte mod lys og fugt. 
+Hold beholderen tæt tillukket med tørremidlet indeni (lille cylinderformet beholder). 
+Når beholderen er anbrudt, kan den opbevares i 30 dage ved temperaturer ikke højere end 30 °C. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mekinist indeholder:</p>
+<ul>
+<li>Aktivt stof: trametinib. Hver filmovertrukken tablet indeholder trametinibdimethylsulfoxid 
+svarende til 0,5 mg eller 2 mg trametinib. </li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>Tablet: mannitol (E421), mikrokrystallinsk cellulose (E460), hypromellose (E464), 
+croscarmellosenatrium (E468), magnesiumstearat (E470b), natriumlaurilsulfat og kolloid 
+silica (E551). </p>
+</li>
+<li>Filmovertræk: hypromellose (E464), titandioxid (E171), polyethylenglycol, gul jernoxid 
+(E172) (0,5 mg tabletter), polysorbat 80 (E433) og rød jernoxid (E172) (2 mg tabletter). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+De filmovertrukne 0,5 mg Mekinist-tabletter er gule, bikonvekse, med modificeret oval form og 
+virksomhedens logo påtrykt på den ene side og “TT" på den anden side. </p>
+<p>De filmovertrukne 2 mg Mekinist-tabletter er lyserøde, runde, bikonvekse med virksomhedens logo 
+påtrykt på den ene side og “LL" på den anden side. </p>
+<p>De filmovertrukne tabletter leveres i uigennemsigtige, hvide plastikbeholdere med plastiklåg med 
+gevind. Hver beholder indeholder enten 7 eller 30 tabletter. </p>
+<p>Beholderen indeholder også et tørremiddel bestående af silicagel i en lille cylinderformet beholder. 
+Tørremidlet skal forblive i beholderen og må ikke spises. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Lek Pharmaceuticals d.d. 
+Verovskova ulica 1526, Ljubljana 
+Slovenien </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova ulica 1000, Ljubljana 
+Slovenien </p>
+<p>Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>Glaxo Wellcome, S.A. 
+Avda. Extremadura, 3 
+09400, Aranda de Duero 
+Burgos 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf.: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a2f0520006a5864136cdf3a6777cfd07
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mekinist Package Leaflet for language en"
+Description: "ePI document Bundle for mekinist Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a2f0520006a5864136cdf3a6777cfd07"
+* entry[0].resource = composition-en-a2f0520006a5864136cdf3a6777cfd07
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2f0520006a5864136cdf3a6777cfd07"
+* entry[=].resource = mpa2f0520006a5864136cdf3a6777cfd07
+                            
+                    
+Instance: bundlepackageleaflet-da-a2f0520006a5864136cdf3a6777cfd07
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mekinist Package Leaflet for language da"
+Description: "ePI document Bundle for mekinist Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a2f0520006a5864136cdf3a6777cfd07"
+* entry[0].resource = composition-da-a2f0520006a5864136cdf3a6777cfd07
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa2f0520006a5864136cdf3a6777cfd07"
+* entry[=].resource = mpa2f0520006a5864136cdf3a6777cfd07
+                            
+                    
+
+
+
+Instance: mpa2f0520006a5864136cdf3a6777cfd07
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Mekinist 0.5 mg film-coated tablets"
-Description: "Mekinist 0.5 mg film-coated tablets"
+Title: "Medicinal Product mekinist"
+Description: "mekinist"
 Usage: #inline
 
  
@@ -693,7 +1845,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Mekinist 0.5 mg film-coated tablets"
+  * productName = "mekinist"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -720,29 +1872,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a2f0520006a5864136cdf3a6777cfd07
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for mekinist Package Leaflet for language en"
-Description: "ePI document Bundle for mekinist Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a2f0520006a5864136cdf3a6777cfd07ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Mekinist 0.5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "mekinist"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a2f0520006a5864136cdf3a6777cfd07"
-* entry[0].resource = composition-en-a2f0520006a5864136cdf3a6777cfd07
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc418782e1bed24a9f531c126c2d9a0ef"
-* entry[=].resource = mpc418782e1bed24a9f531c126c2d9a0ef
-                            
-                      
+* title = "List of all ePIs associated with mekinist"
+
+* subject = Reference(mpc418782e1bed24a9f531c126c2d9a0ef)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#mekinist "mekinist"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a2f0520006a5864136cdf3a6777cfd07) // mekinist en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a2f0520006a5864136cdf3a6777cfd07) // mekinist da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a2f0520006a5864136cdf3a6777cfd07
+InstanceOf: List
+
+* insert a2f0520006a5864136cdf3a6777cfd07ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-24658ce59b10f683d894acb365dd27b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for granpidam Package Leaflet"
@@ -309,12 +312,379 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-24658ce59b10f683d894acb365dd27b9
+InstanceOf: CompositionUvEpi
+Title: "Composition for granpidam Package Leaflet"
+Description:  "Composition for granpidam Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb74880010ee00fa085fc324d80a57036)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb74880010ee00fa085fc324d80a57036
+* title = "TEST PURPOSES ONLY - granpidam"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Granpidam 
+3. Sådan skal du tage Granpidam 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What granpidam is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What granpidam is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Granpidam indeholder sildenafil, der hører til en gruppe af lægemidler, som kaldes fosfodiesterase-
+type 5- (PDE5)-hæmmere. </p>
+<p>Granpidam nedsætter blodtrykket i lungerne ved at udvide blodkarrene i lungerne. </p>
+<p>Granpidam bruges til at behandle voksne, børn og unge fra 1-17 år med for højt blodtryk i blodkarrene 
+i lungerne (pulmonal arteriel hypertension). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take granpidam"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take granpidam"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Granpidam 
+- hvis du er allergisk over for sildenafil eller et af de øvrige indholdsstoffer i Granpidam (angivet 
+i punkt 6). 
+- hvis du tager lægemidler, som indeholder nitrater eller nitrogenoxiddonorer som amylnitrit 
+(“poppers”). Denne type lægemiddel gives ofte til lindring af smerter i brystet (eller “angina 
+pectoris”). Granpidam kan øge disse præparaters virkning i uønsket, alvorlig grad. Fortæl det til 
+din læge, hvis du tager nogle af disse præparater. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. 
+- hvis du tager riociguat. Dette lægemiddel bruges til at behandle pulmonal arteriel hypertension 
+(højt blodtryk i lungerne) og kronisk tromboembolisk pulmonal hypertension (højt blodtryk i 
+lungerne som følge af blodpropper). PDE5-hæmmere, såsom sildenafil, har vist sig at øge den 
+blodtrykssænkende virkning af dette lægemiddel. Tal med din læge, hvis du tager riociguat eller 
+er i tvivl. 
+- hvis du for nylig har haft et slagtilfælde, eller et hjerteanfald, eller hvis du har alvorlig 
+leversygdom eller meget lavt blodtryk (&lt;90/50 mmHg). 
+- hvis du tager lægemidler til behandling af svampeinfektioner som f.eks. ketoconazol eller 
+itraconazol eller lægemidler, som indeholder ritonavir (mod hiv). </p>
+<ul>
+<li>hvis du på noget tidspunkt tidligere har haft tab af synet på grund af problemer med 
+blodtilførslen til nerven i øjet, tilstanden kaldes non-arteritis anterior iskæmisk opticusneuropati 
+(NAION). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Granpidam, hvis du 
+- hvis du har sygdom forårsaget af blokeret eller forsnævret vene i lungerne og ikke en blokeret 
+eller forsnævret arterie. 
+- hvis du har et alvorligt hjerteproblem. 
+- hvis du har problemer med, at hjertekamrene ikke pumper normalt. 
+- hvis du har for højt blodtryk i blodkarrene i lungerne. 
+- hvis du har lavt blodtryk i hvile. 
+- hvis du har mistet store mængder væske (dehydrering), dette kan ske, hvis du sveder meget, 
+eller hvis du ikke drikker nok væske. Det kan ske, hvis du er syg med feber, kaster op eller har 
+diarré. 
+- hvis du har en sjælden, arvelig øjensygdom (retinitis pigmentosa). 
+- hvis du har unormale røde blodlegemer (seglcelleanæmi), blodkræft (leukæmi), 
+knoglemarvskræft (myelomatose/multipelt myelom) 
+- hvis du har en hvilken som helst sygdom eller deformitet af penis. 
+- for tiden har mavesår eller har blødningsforstyrrelse (som f.eks. hæmofili) eller hyppigt får 
+næseblod. 
+- hvis du tager lægemiddel for impotens (erektil dysfunktion). </p>
+<p>Når PDE5-hæmmere, herunder sildenafil, bruges til behandling af rejsningsproblemer hos mænd, er 
+der med ukendt hyppighed set bivirkninger, der påvirker synet: delvist, pludseligt, midlertidigt eller 
+permanent nedsat syn eller synstab på det ene eller begge øjne. </p>
+<p>Hvis du oplever pludseligt nedsat syn eller synstab, skal du stoppe med at tage Granpidam og 
+straks kontakte lægen (se også punkt 4). </p>
+<p>Vedvarende og nogle gange smertefulde erektioner er set hos mænd efter indtagelse af sildenafil. Hvis 
+du får erektion, som varer længere end 4 timer, skal du stoppe med at tage Granpidam og straks 
+kontakte lægen (se også punkt 4). </p>
+<p>Særlige hensyn i forbindelse med patienter med nyre- eller leverproblemer 
+Fortæl lægen, hvis du har nyre- eller leverproblemer, da dosis måske skal justeres. </p>
+<p>Børn 
+Granpidam bør ikke gives til børn under 1 år. </p>
+<p>Brug af andre lægemidler sammen med Granpidam 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<ul>
+<li>lægemidler, der indeholder nitrater eller såkaldte nitrogenoxiddonorer som f.eks. amylnitrit 
+(“poppers”). Denne type lægemidler bruges ofte til lindring af angina pectoris eller 
+“brystsmerter” (se punkt 2 Brug ikke Granpidam). </li>
+<li>lægemidler, der indeholder riociguat. </li>
+<li>behandling af pulmonal hypertension (f.eks. bosentan eller iloprost). </li>
+<li>lægemidler, der indeholder perikon (naturlægemidler), rifampicin (mod tuberkulose), 
+carbamazepin, phenytoin og phenobarbital (bruges bl.a. til behandling af epilepsi). </li>
+<li>blodfortyndende lægemidler (f.eks. warfarin), selv om det ikke resulterede i bivirkninger. </li>
+<li>
+<p>lægemidler, der indeholder erythromycin, clarithromycin, telithromycin (antibiotika til at 
+behandle visse typer bakterieinfektioner), saquinavir (mod hiv) eller nefazodon (mod 
+depression), da dosis måske skal justeres. </p>
+</li>
+<li>
+<p>alfa-blokker (f.eks. doxazosin) til behandling af for højt blodtryk eller vandladningsbesvær ved 
+forstørret blærehalskirtel (prostata), da kombination af disse to lægemidler kan give symptomer 
+på grund af blodtryksnedsættelse (f.eks. svimmelhed). </p>
+</li>
+<li>medicin, der indeholder sacubitril/valsartan, som bruges til behandling af hjertesvigt. </li>
+</ul>
+<p>Brug af Granpidam sammen med mad og drikke </p>
+<p>Du må ikke drikke grapefrugtjuice, mens du er i behandling med Granpidam. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. Granpidam må kun bruges under graviditet, 
+hvis det er strengt nødvendigt. 
+Granpidam må ikke gives til kvinder i den fødedygtige alder, medmindre der benyttes sikker 
+prævention. Granpidam udskilles i modermælken i meget små mængder og forventes ikke at skade 
+barnet. </p>
+<p>Trafik- og arbejdssikkerhed 
+Granpidam kan give svimmelhed og kan påvirke synet. Vær opmærksom på, hvordan du reagerer på 
+lægemidler, inden du fører motorkøretøj eller betjener maskiner. </p>
+<p>Granpidam indeholder lactose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>Granpidam indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take granpidam"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take granpidam"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.  </p>
+<p>Til voksne er den sædvanlige dosis 20 mg 3 gange dagligt (taget med 6-8 timers mellemrum). 
+Tabletten tages sammen med eller uden mad. </p>
+<p>Brug til børn og unge 
+Den sædvanlige dosis til børn og unge i alderen 1-17 år er 10 mg 3 gange dagligt ved legemsvægt 
+20 kg eller derunder og 20 mg 3 gange dagligt ved legemsvægt over 20 kg. Granpidam kan tages 
+sammen med eller uden mad. Der må ikke bruges højere doser til børn. Dette lægemiddel må kun 
+bruges i de tilfælde, hvor dosis er 20 mg 3 gange dagligt. Andre lægemiddelformer kan være bedre 
+egnet til patienter ved legemsvægt 20 kg eller derunder og yngre patienter som ikke kan synke 
+tabletter. </p>
+<p>Hvis du har taget for meget Granpidam 
+Du må ikke tage mere lægemiddel, end din læge har foreskrevet. 
+Kontakt straks lægen, hvis du har taget mere lægemiddel, end lægen har foreskrevet. Hvis du har taget 
+mere Granpidam, end du skal, kan det øge risikoen for bivirkninger. </p>
+<p>Hvis du har glemt at tage Granpidam 
+Hvis du glemmer at tage Granpidam, så tag en dosis, så snart du kommer i tanke om det, og fortsæt så 
+med at tage dit lægemiddel til den sædvanlige tid. Du må ikke tage en dobbeltdosis som erstatning for 
+den glemte dosis. </p>
+<p>Hvis Du holder op med at tage Granpidam </p>
+<p>Hvis du pludseligt stopper med at tage Granpidam, kan dine symptomer blive forværret. Stop ikke 
+med at tage Granpidam, medmindre det sker i samråd med lægen. Lægen vil bede dig om, at nedsætte 
+dosis over nogle få dage, førend du standser behandlingen fuldstændigt. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis du oplever en af følgende bivirkninger, skal du stoppe med at tage Granpidam og straks søge 
+læge (se også punkt 2):</p>
+<ul>
+<li>pludseligt nedsat syn eller synstab (hyppighed er ukendt) </li>
+<li>erektion, som varer uafbrudt i mere end 4 timer. Vedvarende og til tider smertefulde erektion er 
+set hos mænd efter indtagelse af sildenafil (hyppighed er ukendt). </li>
+</ul>
+<p>Voksne </p>
+<p>Meget almindelige bivirkninger (kan forkomme hos flere end 1 ud af 10 patienter) er hovedpine, 
+rødmen i ansigtet, mavebesvær, diarré og smerter i arme og ben. </p>
+<p>Almindelige bivirkninger (kan forkomme hos op til 1 ud af 10 patienter) er: Infektion under huden, 
+influenzalignende symptomer, bihulebetændelse, nedsat antal røde blodlegemer (blodmangel), 
+væskeansamling, søvnbesvær, angst, migræne, rysten, prikkende og stikkende fornemmelse, 
+brændende fornemmelse, nedsat følesans, blødning bag i øjet, påvirkning af synet, sløret syn og 
+lysfølsom, ændret farvesyn, øjenirritation, blodsprængte øjne/røde øjne, svimmelhed, bronkitis, 
+næseblod, løbende næse, hoste, tilstoppet næse, mavekatar, maveonde, hjertebanken, hæmorroider, 
+oppustet mave, mundtørhed, hårtab, rødmen af huden, svedtendens om natten, muskelsmerter, 
+rygsmerter, forhøjet legemstemperatur. </p>
+<p>Ikke almindelige bivirkninger (kan forkomme hos op til 1 ud af 100 patienter) omfatter: nedsat 
+skarpsyn, dobbeltsyn, unormal følelse i øjet, blødning fra penis, blod i sæden og/eller urinen samt 
+forstørrelse af brysterne hos mænd. </p>
+<p>Hududslæt og pludselig hørenedsættelse eller døvhed og for lavt blodtryk er også set (hyppighed er 
+ukendt, kan ikke vurderes ud fra tilgængelige data). </p>
+<p>Børn og unge </p>
+<p>Følgende alvorlige bivirkninger er almindelige (kan forkomme hos op til 1 ud af 10 patienter): 
+lungebetændelse, hjertesvigt, højresidigt hjertesvigt, shock pga. hjerteproblemer, højt blodtryk i 
+lungerne, smerter i brystet, besvimelse, infektion i luftvejene, bronkitis, virusinfektion i maven og 
+tarmen, urinvejsinfektion og huller i tænderne. </p>
+<p>Følgende alvorlige bivirkninger betragtes som forbundet med behandlingen og er ikke almindelige 
+(kan forkomme hos op til 1 ud af 100 patienter): allergisk reaktion (såsom hududslæt, hævelser i 
+ansigt, læber og tunge, hvæsende vejrtrækning, åndedrætsbesvær og synkebesvær), kramper, 
+uregelmæssig puls, nedsat hørelse, åndenød, betændelseslignende reaktion i mave-tarmkanalen og 
+hvæsende vejrtrækning pga. blokering af luftvejene. </p>
+<p>Meget almindelige bivirkninger (kan forkomme hos flere end 1 ud af 10 patienter): hovedpine, 
+opkastning, halsbetændelse, feber, diarré, influenza og næseblod. </p>
+<p>Almindelige bivirkninger (kan forkomme hos op til 1 ud af 10 patienter): kvalme, hyppigere, 
+forlænget eller kraftigere erektion, herunder spontan erektion, lungebetændelse og løbenæse. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via nationale rapporteringssystem 
+anført i Appendiks V.Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store granpidam"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store granpidam"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisterpakningen (efter EXP). 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Granpidam indeholder </p>
+<ul>
+<li>Aktivt stof: sildenafil. Hver tablet indeholder 20 mg sildenafil (som citrat). </li>
+<li>Øvrige indholdsstoffer: 
+Tabletkerne: Mikrokrystallinsk cellulose, calciumhydrogenfosfat, croscarmellosenatrium (se 
+punkt 2 ”Granpidam indeholder natrium”), hypromellose 2910 (E464), magnesiumstearat. 
+Filmovertræk: Hypromellose 2910 (E464), titandioxid (E171), lactosemonohydrat, triacetin. </li>
+</ul>
+<p>Udseende og pakningsstørrelse 
+Hvide til råhvide, runde, bikonvekse, filmovertrukne tabletter med en diameter på ca. 6,6 mm, præget 
+med ”20” på den ene side og glatte på den anden side. </p>
+<p>Granpidam 20 mg filmovertrukne tabletter leveres i PVC/alu-blisterpakninger med 90 tabletter og 
+300 tabletter. </p>
+<p>Granpidam 20 mg filmovertrukne tabletter fås også i PVC/Alu perforeret enhedsdosis-blisterpakninger 
+med 151, 901 og 3001 tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Accord Healthcare S.L.U.<br />
+World Trade Center, Moll de Barcelona, s/n,<br />
+Edifici Est 6ª planta,<br />
+08039 Barcelona,<br />
+Spanien </p>
+<p>Fremstiller 
+Laboratori Fundació DAU 
+C/ C, 12-14 Pol. Ind. Zona Franca,  08040 Barcelona, 
+Spanien </p>
+<p>eller </p>
+<p>Accord Healthcare Polska Sp.z o.o., 
+ul. Lutomierska 50,95-200 Pabianice, Polen </p>
+<p>eller </p>
+<p>Accord Healthcare B.V.,<br />
+Winthontlaan 200,<br />
+3526 KV Utrecht,<br />
+Holland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-24658ce59b10f683d894acb365dd27b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for granpidam Package Leaflet for language en"
+Description: "ePI document Bundle for granpidam Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-24658ce59b10f683d894acb365dd27b9"
+* entry[0].resource = composition-en-24658ce59b10f683d894acb365dd27b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp24658ce59b10f683d894acb365dd27b9"
+* entry[=].resource = mp24658ce59b10f683d894acb365dd27b9
+                            
+                    
+Instance: bundlepackageleaflet-da-24658ce59b10f683d894acb365dd27b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for granpidam Package Leaflet for language da"
+Description: "ePI document Bundle for granpidam Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-24658ce59b10f683d894acb365dd27b9"
+* entry[0].resource = composition-da-24658ce59b10f683d894acb365dd27b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp24658ce59b10f683d894acb365dd27b9"
+* entry[=].resource = mp24658ce59b10f683d894acb365dd27b9
+                            
+                    
+
+
+
+Instance: mp24658ce59b10f683d894acb365dd27b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Granpidam 20 mg film-coated tablets"
-Description: "Granpidam 20 mg film-coated tablets"
+Title: "Medicinal Product granpidam"
+Description: "granpidam"
 Usage: #inline
 
  
@@ -334,7 +704,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Granpidam 20 mg film-coated tablets"
+  * productName = "granpidam"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -361,29 +731,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-24658ce59b10f683d894acb365dd27b9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for granpidam Package Leaflet for language en"
-Description: "ePI document Bundle for granpidam Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 24658ce59b10f683d894acb365dd27b9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/16/1137/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "granpidam"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-24658ce59b10f683d894acb365dd27b9"
-* entry[0].resource = composition-en-24658ce59b10f683d894acb365dd27b9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb74880010ee00fa085fc324d80a57036"
-* entry[=].resource = mpb74880010ee00fa085fc324d80a57036
-                            
-                      
+* title = "List of all ePIs associated with granpidam"
+
+* subject = Reference(mpb74880010ee00fa085fc324d80a57036)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#granpidam "granpidam"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-24658ce59b10f683d894acb365dd27b9) // granpidam en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-24658ce59b10f683d894acb365dd27b9) // granpidam da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-24658ce59b10f683d894acb365dd27b9
+InstanceOf: List
+
+* insert 24658ce59b10f683d894acb365dd27b9ListRuleset
+    

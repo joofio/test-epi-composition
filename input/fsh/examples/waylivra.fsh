@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0095f17772ab958f3f5be1c6c1d9bbac
 InstanceOf: CompositionUvEpi
 Title: "Composition for waylivra Package Leaflet"
@@ -307,12 +310,578 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-0095f17772ab958f3f5be1c6c1d9bbac
+InstanceOf: CompositionUvEpi
+Title: "Composition for waylivra Package Leaflet"
+Description:  "Composition for waylivra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp557fe9fc5abd94cbebf55d3db9db5ff0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp557fe9fc5abd94cbebf55d3db9db5ff0
+* title = "TEST PURPOSES ONLY - waylivra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at bruge Waylivra  </li>
+<li>Sådan skal du bruge Waylivra  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What waylivra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What waylivra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Waylivra indeholder det aktive stof volanesorsen, som hjælper med at behandle en sygdom, der kaldes 
+familiært chylomikronæmisyndrom (FCS). FCS er en genetisk sygdom, der medfører unormalt høje 
+niveauer af nogle fedtstoffer i blodet, der kaldes triglycerider. Dette kan føre til betændelse i 
+bugspytkirtlen med kraftige smerter til følge. Når Waylivra tages sammen med en kontrolleret diæt med 
+lavt fedtindhold, hjælper det med at sænke indholdet af triglycerider i dit blod. </p>
+<p>Du vil muligvis få Waylivra, efter du allerede har fået andre lægemidler til sænkning af indholdet af 
+triglycerider i dit blod, som dog ikke har haft nogen særlig virkning. </p>
+<p>Du vil kun få Waylivra, hvis det er blevet bekræftet gennem genetisk testning, at du har FCS, og din 
+risiko for betændelse i bugspytkirtlen betragtes som at være meget høj. </p>
+<p>Du skal fortsætte med at følge den meget fedtfattige diæt, som lægen har anvist, under behandlingen med 
+Waylivra.  </p>
+<p>Dette lægemiddel er beregnet til patienter over 18 år. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take waylivra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take waylivra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Waylivra:</p>
+<ul>
+<li>hvis du er allergisk over for volanesorsen eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). </li>
+<li>hvis du har trombocytopeni, som er en tilstand, hvor du har et meget lavt antal blodplader i blodet 
+(under 140 x 109/l). Dette kan f.eks. ses, hvis du kommer til skade og bløder, og det tager lang tid, 
+før blødningen stopper (mere end 5-6 minutter for en rift i huden). Lægen vil kontrollere dig for 
+dette inden opstart af behandling med dette lægemiddel. Du vil muligvis ikke være klar over, at 
+du har denne sygdom før dette tidspunkt, eller hvad der muligvis har forårsaget den. </li>
+</ul>
+<p>Kontakt lægen, sundhedspersonalet eller apotekspersonalet, inden du begynder at bruge Waylivra, hvis 
+noget af ovenstående gør sig gældende for dig, eller du er i tvivl. </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du bruger Waylivra, hvis du har eller har 
+haft et af nedenstående helbredsproblemer:</p>
+<ul>
+<li>Meget højt triglyceridniveau, som ikke skyldes FCS. </li>
+<li>Lavt antal blodplader, som er en type celler i blodet, der klumper sammen og hjælper blodet med 
+at størkne (trombocytopeni); lægen vil tage en blodprøve, inden du begynder at bruge dette 
+lægemiddel, for at kontrollere antallet af blodplader i dit blod.  </li>
+<li>Lever- eller nyreproblemer. </li>
+</ul>
+<p>Blodprøver 
+Lægen vil tage en blodprøve for at kontrollere antallet af blodplader, inden du begynder at bruge dette 
+lægemiddel og regelmæssigt under behandlingen med Waylivra. <br />
+Kontakt omgående lægen, hvis du får tegn på et lavt antal blodplader, såsom usædvanlig eller langvarig 
+blødning, røde pletter på huden (kaldet petekkier), uforklarlige blå mærker, blødning, der ikke vil stoppe, 
+eller næseblødning, eller hvis du får nakkestivhed eller kraftig hovedpine. </p>
+<p>Din læge vil muligvis også foretage en blodprøve hver tredje måned for at se, om der er skader på din 
+lever. Du bør straks kontakte din læge, hvis du får tegn på leverskader, såsom gulfarvning af din hud og 
+øjne, smerter eller hævelser i maven, kvalme eller opkastning, forvirring eller en generel følelse af 
+utilpashed. </p>
+<p>Lægen vil om nødvendigt ændre på, hvor ofte du skal bruge dette lægemiddel, eller stoppe behandlingen i 
+en periode. Det vil muligvis være nødvendigt at konsultere en læge med speciale i blodsygdomme for at 
+afgøre, om du skal fortsætte behandlingen med Waylivra.  </p>
+<p>Urinprøver 
+Din læge vil muligvis foretage en urin og/eller blodprøve hver tredje måned for at se, om der er skader på 
+dine nyrer. Du bør straks kontakte din læge, hvis du får tegn på nyreskader, såsom hævelse af dine ankler, 
+ben og fødder, eller hvis du har mindre urinmængder end sædvanligt, åndenød, kvalme, forvirring eller 
+føler dig meget træt eller døsig. </p>
+<p>Diæt 
+Inden du begynder at tage dette lægemiddel, bør du følge en diæt, der hjælper med at sænke indholdet af 
+triglycerider i blodet.  </p>
+<p>Det er vigtigt at du fortsætter denne triglyceridsænkende diæt under behandlingen med Waylivra. </p>
+<p>Børn og unge 
+Waylivra må ikke anvendes til børn og unge under 18 år. Waylivra er ikke blevet undersøgt hos patienter 
+under 18 år.  </p>
+<p>Brug af anden medicin sammen med Waylivra 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. Det er 
+vigtigt, at du fortæller det til lægen, hvis du allerede er i behandling med nogen af nedenstående 
+lægemidler:</p>
+<ul>
+<li>Lægemidler til forebyggelse af blodpropper, f.eks. acetylsalicylsyre, dipyridamol eller warfarin. </li>
+<li>Andre lægemidler, der kan påvirke blodstørkningen, herunder non-steroide antiinflammatoriske 
+lægemidler såsom ibuprofen, lægemidler til forebyggelse af hjerteanfald og slagtilfælde såsom 
+clopidogrel, ticagrelor og prasugrel, antibiotika såsom penicillin, lægemidler såsom ranitidin 
+(anvendes mod for meget mavesyre) og kinin (anvendes til behandling af malaria). </li>
+<li>Lægemidler, der kan forårsage leverproblemer, såsom paracetamol. </li>
+</ul>
+<p>Brug af Waylivra sammen med alkohol 
+Virkningen af anvendelse af Waylivra i kombination med alkohol er ikke kendt. Du bør undgå alkohol 
+under behandlingen med dette lægemiddel på grund af risikoen for leverproblemer. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. Det er bedst at undgå 
+anvendelse af Waylivra under graviditet. </p>
+<p>Det vides ikke, om Waylivra går over i modermælken. Du bør drøfte amning med lægen for at finde ud 
+af, hvad der er bedst for dig og dit barn. </p>
+<p>Trafik- og arbejdssikkerhed 
+Waylivra påvirker sandsynligvis ikke evnen til at føre motorkøretøj eller betjene maskiner. </p>
+<p>Waylivra indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take waylivra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take waylivra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Før du får dette lægemiddel, vil din læge udelukke andre årsager til høje triglyceridniveauer, såsom 
+diabetes eller problemer med din skjoldbruskkirtel. </p>
+<p>Lægen vil fortælle dig, hvor ofte du skal tage dette lægemiddel. Lægen kan ændre på, hvor ofte du skal 
+bruge det, eller stoppe behandlingen i en periode eller permanent på baggrund af dine blod- og 
+urinprøveresultater eller forekomsten af bivirkninger. </p>
+<p>Du eller din omsorgsperson vil blive undervist i at indgive Waylivra i henhold til vejledningen i denne 
+indlægsseddel. Waylivra skal sprøjtes ind under huden (subkutant eller ‘s.c.’ indgivelse) på den måde, 
+som lægen, sundhedspersonalet eller apotekspersonalet har vist dig, og du skal sørge for at indsprøjte al 
+væsken i sprøjten. Hver fyldt injektionssprøjte til engangsbrug giver dig en dosis på 285 mg i 1,5 ml. </p>
+<p>Inden du bruger dette lægemiddel, er det vigtigt, at du har læst og forstået anvisningerne i denne 
+brugsvejledning, som du skal følge nøje. </p>
+<p>Du finder brugsvejledningen sidst i denne indlægsseddel. </p>
+<p>Hvis du har brugt for meget Waylivra 
+Kontakt omgående lægen eller apotekspersonalet, eller tag til nærmeste skadestue, hvis du har indsprøjtet 
+for meget Waylivra, også selvom du ikke har nogen symptomer. </p>
+<p>Hvis du har glemt at bruge Waylivra 
+Kontakt lægen for at høre, hvornår du skal tage den næste dosis, hvis du har glemt at tage en dosis. Hvis 
+du opdager, at du har glemt at tage en dosis inden for 48 timer, skal du tage den glemte dosis så hurtigt 
+som muligt. Hvis du ikke opdager det inden for 48 timer, skal den glemte dosis springes over og den 
+næste planlagte injektion foretages. Du må ikke indsprøjte mere end én dosis inden for 2 dage. </p>
+<p>Hvis du holder op med at bruge Waylivra<br />
+Du må ikke holde op med at bruge Waylivra, medmindre du har drøftet det med lægen. </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger<br />
+Kontakt straks lægen, hvis du får en eller flere af følgende bivirkninger:</p>
+<ul>
+<li>Symptomer på lavt antal blodplader i blodet (blodplader er vigtige for blodstørkningen). Kontakt 
+omgående lægen, hvis du får tegn på et lavt antal blodplader, såsom usædvanlig eller langvarig 
+blødning, røde pletter på huden (kaldet petekkier), uforklarlige blå mærker, blødning, der ikke vil 
+stoppe, eller næseblødning, eller hvis du får nakkestivhed eller kraftig hovedpine. </li>
+</ul>
+<p>Andre bivirkninger </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>Reaktioner på injektionsstedet (udslæt, smerter, rødme, hede eller varme, tørhed, hævelse, kløe, 
+snurren, hærdning, nældefeber, blæredannelse, knopper, blå mærker, blødning, følelsesløshed, 
+bleghed, farveændring eller svie på injektionsstedet). Du kan nedsætte risikoen for reaktioner på 
+injektionsstedet, hvis du lader Waylivra opnå rumtemperatur inden indgivelsen, og hvis du bruger 
+is på injektionsstedet efter indgivelsen. </li>
+<li>Hovedpine </li>
+<li>Muskelsmerter </li>
+<li>Kulderystelser </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) 
+- Usædvanligt højt antal hvide blodlegemer i blodet, hvilket ses i blodprøver. 
+- Usædvanligt lavt antal hvide blodlegemer i blodet, hvilket ses i blodprøver (kaldes for 
+lymfopeni). 
+- Øget tendens til blå mærker eller uforklarlige blå mærker. 
+- Blødning under huden, der viser sig som udslæt, blødning fra tandkødet eller munden, blod i urin 
+og afføring, næseblødning eller usædvanligt kraftig menstruation. 
+- En allergisk reaktion med symptomer såsom hududslæt, ledstivhed eller feber. 
+- Blod eller protein i urinen 
+- Ændringer i visse blodprøveresultater, herunder:  * Øget niveau af visse stoffer i blodet: kreatinin, karbamid, transaminaser, leverenzymer * Forlænget blodstørkningstid  * Fald i niveauet af hæmoglobin i blodet * Nedsat blodgennemstrømning i nyrerne 
+- Diabetes med symptomer såsom øget tørst, hyppig vandladning (især om natten), meget stor sult, 
+udpræget træthed og uforklarligt vægttab. 
+- Søvnproblemer. 
+- Følelsesløshed, snurren eller prikken og stikken i huden, besvimelsesfornemmelse eller 
+besvimelse, svimmelhed eller rysten 
+- Synsforstyrrelser såsom blinkende lys eller kortvarig og forbigående blindhed på ét øje, blødning 
+under øjets overflade eller sløret syn<br />
+- Højt blodtryk 
+- Hedeture, øget svedtendens, nattesved, varmefølelse, influenzalignende sygdom eller almen 
+utilpashed 
+- Hoste, vejrtrækningsbesvær, tilstoppet næse, hævelse i svælget, pibende vejrtrækning 
+- Kvalme eller opkastning, mundtørhed, diarré, hævelse af nakken, ansigtet eller tandkødet, 
+mavesmerter eller -udspiling, fordøjelsesbesvær 
+- Hudrødme, udslæt, knopper, fortykkelse af huden eller ardannelse eller kløe i huden kaldet 
+’nældefeber’ (urticaria) 
+- Smerter i hænder eller fødder, smerter i de store led i arme og ben, herunder albuer, håndled, knæ 
+og ankler, andre ledsmerter eller -stivhed, rygsmerter, nakkesmerter, smerter i kæben, 
+muskelsammentrækninger eller smerter i andre dele af kroppen. 
+- Udpræget træthed (fatigue), svaghed eller manglende energi, væskeophobning, brystsmerter uden 
+relation til hjertet </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store waylivra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store waylivra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængelig for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten på sprøjten efter ’EXP’. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). 
+Opbevares i den originale karton for at beskytte mod lys.  </p>
+<p>Waylivra kan opbevares ved rumtemperatur (op til 30 °C) i den originale karton i op til 6 uger efter 
+udtagning af køleskabet. I løbet af denne periode kan lægemidlet enten opbevares ved rumtemperatur 
+eller sættes tilbage i køleskabet efter behov. Notér datoen for første udtagning af køleskabet på den ydre 
+karton, hvor der er gjort plads til det. Hvis du ikke har brugt lægemidlet 6 uger efter udtagning af 
+køleskabet, skal du bortskaffe det. Hvis udløbsdatoen på sprøjteetiketten overskrides i løbet af den 6-
+ugers periode ved rumtemperatur, må du ikke anvende sprøjten, og den skal bortskaffes. </p>
+<p>Brug ikke lægemidlet, hvis opløsningen er uklar eller indeholder partikler. Opløsningen skal være klar og 
+farveløs til let gullig.  </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Waylivra indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: volanesorsen. Hver ml indeholder 200 mg volanesorsennatrium svarende til 190 g 
+volanesorsen. Hver fyldt injektionssprøjte indeholder en enkeltdosis på 285 mg volanesorsen i 1,5 
+ml opløsning.  </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: vand til injektionsvæsker, natriumhydroxid og saltsyre (til justering af 
+surhedsgraden, se ’Waylivra indeholder natrium’ i punkt 2). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Waylivra udleveres i en karton med en enkeltdosissprøjte med kanyle og kanylehætte, der er fyldt med en 
+klar og farveløs til let gullig opløsning. Den fyldte injektionssprøjte afgiver 1,5 ml opløsning, hvis 
+stemplet presses helt i bund.  </p>
+<p>Waylivra fås i en karton med 1 fyldt injektionssprøjte eller i en multipakning med 4 (4 kartoner à 1) fyldte 
+sprøjter.  </p>
+<p>Indehaver af markedsføringstilladelsen 
+Akcea Therapeutics Ireland Ltd. 
+St. James House 
+72 Adelaide Road, Dublin 2 
+D02 YIrland </p>
+<p>Fremstiller 
+Almac Pharma Services Ireland Ltd. 
+Finnabair Industrial Estate 
+Dundalk 
+Co. Louth 
+Ireand  </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Dette lægemiddel er godkendt under "betingede omstændigheder".<br />
+Det betyder, at der forventes yderligere dokumentation for lægemidlet. 
+Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om lægemidlet, 
+og produktresuméet vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Brugsanvisning </p>
+<p>Waylivra gives som en injektion under huden ved brug af den fyldte injektionssprøjte til engangsbrug. </p>
+<p>Brug ikke Waylivra, før du har forstået den nedenfor beskrevne fremgangsmåde fuldstændigt. Kontakt 
+lægen eller apoteksspørgsmålet, hvis du har spørgsmål vedrørende brugen af Waylivra. </p>
+<p>Den fyldte injektionssprøjtes dele </p>
+<p>Klargøring </p>
+<ol>
+<li>Vask hænder, og find det nødvendige udstyr frem </li>
+</ol>
+<p>Vask hænderne grundigt med sæbe (i mindst 3 minutter), og tør dem godt. 
+Anbring følgende artikler på en ren, flad overflade i et område med god belysning (figur A). </p>
+<p>Figur A </p>
+<ol>
+<li>Lad injektionen opnå rumtemperatur </li>
+</ol>
+<p>Hvis den fyldte injektionssprøjte har ligget i 
+køleskabet, skal du tage den ud af køleskabet mindst </p>
+<p>Kanyle 
+Stempelstav 
+Fingergreb 
+Stempelhoved 
+Cylinder 
+Nålehætte 
+Kanylebeholder 
+Is/ispose 
+(valgfrit) 
+Alkoholserviet 
+Plaster 
+(valgfrit) 
+Waylivra fyldt 
+injektionssprøjte 
+Ispose 
+Vatkugle/ 
+gazetampon 
+(valgfrit) 
+30 minutter inden injektionen, så den opnår 
+rumtemperatur. </p>
+<p>Indgivelse af kold væske kan forårsage reaktioner på 
+injektionsstedet, såsom smerter, rødme eller hævelse. </p>
+<p>Du må ikke opvarme sprøjten på andre måder, f.eks. i 
+mikrobølgeovnen eller varmt vand. </p>
+<p>Figur B </p>
+<ol>
+<li>Kontrollér udløbsdatoen </li>
+</ol>
+<p>Kontrollér udløbsdatoen på kartonen. </p>
+<p>Udløbsdatoen på pakningen gælder ved opbevaring i køleskabet.  </p>
+<p>Notér datoen for første udtagning af køleskabet på den ydre karton, hvor der er gjort plads til det. </p>
+<p>Du må ikke bruge Waylivra, hvis udløbsdatoen er overskredet, eller hvis lægemidlet har været 
+opbevaret ved rumtemperatur i mere end 6 uger. Kontakt lægen eller apotekspersonalet for nye 
+forsyninger. </p>
+<ol>
+<li>Tag sprøjten ud, og kontrollér medicinen </li>
+</ol>
+<p>Åbn kartonen, og tag sprøjten ud ved at tage fat om 
+sprøjtecylinderen og trække den ret op (figur C). </p>
+<p>Figur C </p>
+<p>Se på væsken i sprøjten. Medicinen skal være klar til let 
+gullig i farven. Det er helt normalt, hvis du ser en stor 
+luftboble (figur D). </p>
+<p>Du må ikke forsøge at fjerne luftboblen inden 
+indgivelsen. Det er ufarligt at indgive opløsningen med 
+luftboblen. </p>
+<p>Du må ikke bruge den fyldte injektionssprøjte, hvis 
+væsken er uklar eller indeholder flydende partikler. </p>
+<p>Figur D </p>
+<ol>
+<li>Vælg et injektionssted </li>
+</ol>
+<p>Hvis du skal give dig selv en injektion: </p>
+<p>Mave – Maveområde med undtagelse af 5 cm 
+omkring navlen, som vist. </p>
+<p>Lår – Forreste, midterste område, som vist 
+(figur E). </p>
+<p>Figur E 
+Hvis du er omsorgsperson og skal give en injektion til 
+en anden; udover ovennævnte steder: </p>
+<p>Arme – Bagerste, øvre område, som vist (figur F).  </p>
+<p>Gælder alle injektioner: </p>
+<p>Skift injektionsområde ved hver injektion.  </p>
+<p>Undgå injektioner i taljeområdet, hvor dit tøj kan gnide 
+mod eller trykke på injektionsområdet.  </p>
+<p>Du må ikke indgive injektionen i tatoveringer, 
+skønhedspletter, ar, modermærker, blå mærker, udslæt 
+eller områder, hvor huden er øm, rød, hård, skadet, 
+forbrændt eller betændt. </p>
+<p>Kontakt lægen, hvis du er i tvivl om, hvor injektionen 
+skal gives. </p>
+<p>Figur F </p>
+<p>Injektion </p>
+<ol>
+<li>Klargør injektionsstedet </li>
+</ol>
+<p>Rengør det valgte injektionssted med en alkoholserviet<br />
+(figur G). </p>
+<p>Figur G </p>
+<ol>
+<li>Tag kanylehætten af </li>
+</ol>
+<p>Tag kanylehætten af ved at holde fat om sprøjtecylinderen 
+med kanylen pegende væk fra dig selv og trække 
+nålehætten ret af (figur H) </p>
+<p>Der kan være en dråbe væske ved kanylens spids. Dette er 
+helt normalt. </p>
+<p>Hold ikke fat om stempelstaven eller stempelhovedet, når 
+du trækker kanylehætten af. </p>
+<p>Brug ikke den fyldte injektionssprøjte, hvis kanylen er 
+beskadiget. </p>
+<p>Brug ikke den fyldte injektionssprøjte, hvis du taber 
+den, efter du har taget kanylehætten af. </p>
+<p>Figur H </p>
+<ol>
+<li>Klem fat om huden </li>
+</ol>
+<p>Klem fat om huden omkring injektionsstedet med den fri 
+hånd (figur I). </p>
+<p>Figur I </p>
+<ol>
+<li>Indfør kanylen </li>
+</ol>
+<p>Før kanylen ind i injektionsstedet i en hurtig og bestemt 
+bevægelse uden at røre ved stempelhovedet. Kanylen skal 
+indføres i en vinkel på 45 grader i forhold til 
+hudoverfladen (figur J).  </p>
+<p>Figur J </p>
+<ol>
+<li>Indgiv Waylivra </li>
+</ol>
+<p>Indgiv væsken ved at holde sprøjten med tommelfingeren 
+på stemplet og trykke langsomt på stemplet, indtil det 
+ikke kan komme længere, og sprøjten er helt tømt 
+(figur K og L). </p>
+<p>Figur K </p>
+<p>Figur L </p>
+<ol>
+<li>Træk kanylen ud </li>
+</ol>
+<p>Træk kanylen ud af injektionsstedet i samme vinkel, som 
+du indførte den i (figur M). </p>
+<p>Figur M </p>
+<p>Efter injektionen </p>
+<ol>
+<li>Bortskaf den brugte sprøjte i en kanylebeholder </li>
+</ol>
+<p>Bortskaf sprøjten umiddelbart efter injektionen i henhold 
+til lægens eller sundhedspersonalets anvisninger, typisk i 
+en kanylebeholder (figur N), ved at følge disse trin.  </p>
+<p>Bortskaf kanylehætten efter injektionen. </p>
+<p>Sæt ikke hætten tilbage på sprøjten. </p>
+<p>Hvis du ikke har en kanylebeholder, kan du bruge en 
+husholdningsbeholder, som: </p>
+<p>• Er fremstillet af hård plast,<br />
+• Kan lukkes tæt til og har et punkturfast låg, så skarpe 
+genstande ikke kan komme ud,<br />
+• Kan stå ret og stabilt,<br />
+• Er tæt,<br />
+• Er mærket korrekt, så man kan se, at den indeholder 
+farligt affald. </p>
+<p>Figur N 
+Når kanylebeholderen er ved at være fuld, skal den bortskaffes i henhold til de lokale retningslinjer. 
+Der kan være særlige lokale lovkrav vedrørende bortskaffelse af brugte kanyler og sprøjter. Kontakt 
+apotekspersonalet, eller se de lokale sundhedsmyndigheders hjemmeside (hvis en sådan findes) 
+vedrørende yderligere oplysninger om, hvordan du skal bortskaffe skarpe genstande i dit område.  </p>
+<p>Du må ikke bortskaffe den brugte kanylebeholder med husholdningsaffaldet.  </p>
+<p>Du må ikke genbruge kanylebeholderen. </p>
+<p>Opbevar altid kanylebeholderen utilgængeligt for børn og kæledyr. </p>
+<ol>
+<li>Behandl injektionsstedet </li>
+</ol>
+<p>Hvis der er blod på injektionsstedet, kan du trykke let på 
+stedet med en steril vatkugle eller gazetampon og om 
+nødvendigt sætte et plaster på (figur O). </p>
+<p>Gnub ikke på injektionsstedet efter injektionen. </p>
+<p>Figur O 
+Du kan også lægge is på injektionsstedet for at lindre 
+smerter, rødme eller ubehag (figur P). </p>
+<p>Figur P </p>
+<p>Opbevaring </p>
+<p>Opbevaringsoplysninger </p>
+<p>Når du får udleveret de fyldte injektionssprøjter med Waylivra, skal du opbevare dem i pakningen i 
+køleskabet (2 °C – 8 °C). </p>
+<p>Waylivra kan opbevares i op til 6 uger ved rumtemperatur (8 °C – 30 °C) i den ydre karton for at 
+beskytte mod lys. I løbet af denne 6-ugers periode kan lægemidlet enten opbevares ved 
+rumtemperatureller sættes tilbage i køleskabet. </p>
+<p>Den fyldte injektionssprøjte med Waylivra må ikke nedfryses. </p>
+<p>Du må ikke tage sprøjten ud af pakningen eller tage kanylehætten af, før du er klar til at indgive 
+injektionen. </p>
+<p>Bortskaf lægemidlet med det samme, hvis det ikke bliver brugt i løbet af 6 uger efter første udtagning 
+af køleskabet. Se den dato, du har noteret på kartonen, for at være sikker. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0095f17772ab958f3f5be1c6c1d9bbac
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for waylivra Package Leaflet for language en"
+Description: "ePI document Bundle for waylivra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0095f17772ab958f3f5be1c6c1d9bbac"
+* entry[0].resource = composition-en-0095f17772ab958f3f5be1c6c1d9bbac
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0095f17772ab958f3f5be1c6c1d9bbac"
+* entry[=].resource = mp0095f17772ab958f3f5be1c6c1d9bbac
+                            
+                    
+Instance: bundlepackageleaflet-da-0095f17772ab958f3f5be1c6c1d9bbac
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for waylivra Package Leaflet for language da"
+Description: "ePI document Bundle for waylivra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0095f17772ab958f3f5be1c6c1d9bbac"
+* entry[0].resource = composition-da-0095f17772ab958f3f5be1c6c1d9bbac
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0095f17772ab958f3f5be1c6c1d9bbac"
+* entry[=].resource = mp0095f17772ab958f3f5be1c6c1d9bbac
+                            
+                    
+
+
+
+Instance: mp0095f17772ab958f3f5be1c6c1d9bbac
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Waylivra 285 mg solution for injection in pre-filled syringe"
-Description: "Waylivra 285 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product waylivra"
+Description: "waylivra"
 Usage: #inline
 
  
@@ -332,7 +901,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Waylivra 285 mg solution for injection in pre-filled syringe"
+  * productName = "waylivra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -359,29 +928,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0095f17772ab958f3f5be1c6c1d9bbac
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for waylivra Package Leaflet for language en"
-Description: "ePI document Bundle for waylivra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0095f17772ab958f3f5be1c6c1d9bbacListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1360/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "waylivra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0095f17772ab958f3f5be1c6c1d9bbac"
-* entry[0].resource = composition-en-0095f17772ab958f3f5be1c6c1d9bbac
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp557fe9fc5abd94cbebf55d3db9db5ff0"
-* entry[=].resource = mp557fe9fc5abd94cbebf55d3db9db5ff0
-                            
-                      
+* title = "List of all ePIs associated with waylivra"
+
+* subject = Reference(mp557fe9fc5abd94cbebf55d3db9db5ff0)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#waylivra "waylivra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0095f17772ab958f3f5be1c6c1d9bbac) // waylivra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0095f17772ab958f3f5be1c6c1d9bbac) // waylivra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0095f17772ab958f3f5be1c6c1d9bbac
+InstanceOf: List
+
+* insert 0095f17772ab958f3f5be1c6c1d9bbacListRuleset
+    

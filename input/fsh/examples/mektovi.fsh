@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1fc6739ba81d50a7087579c92c2a7274
 InstanceOf: CompositionUvEpi
 Title: "Composition for mektovi Package Leaflet"
@@ -392,12 +395,593 @@ France </p>
 
 
 
+Instance: composition-da-1fc6739ba81d50a7087579c92c2a7274
+InstanceOf: CompositionUvEpi
+Title: "Composition for mektovi Package Leaflet"
+Description:  "Composition for mektovi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9187db410785789892311e07733ebee2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp9187db410785789892311e07733ebee2
+* title = "TEST PURPOSES ONLY - mektovi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Mektovi  </li>
+<li>Sådan skal du tage Mektovi  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What mektovi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What mektovi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mektovi er et lægemiddel mod kræft, som indeholder det aktive stof binimetinib. Det anvendes i 
+kombination med et andet lægemiddel, der indeholder encorafenib, til at behandle en form for 
+hudkræft hos voksne, der kaldes for melanom, når det har </p>
+<ul>
+<li>
+<p>en bestemt forandring (mutation) i et gen, der er ansvarligt for at producere et protein, der kaldes 
+BRAF, og </p>
+</li>
+<li>
+<p>spredt sig til andre dele af kroppen eller ikke kan fjernes ved operation. </p>
+</li>
+</ul>
+<p>Mutationer i BRAF-genet kan producere proteiner, der får melanomet til at vokse. Mektovi er rettet 
+mod et andet protein, der hedder "MEK", og som stimulerer væksten af kræftceller. Når Mektovi 
+anvendes i kombination med encorafenib (som er rettet mod det ændrede "BRAF"-protein), hæmmer 
+kombinationen væksten af din kræft eller stopper den. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take mektovi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take mektovi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen vil undersøge dig for BRAF-mutationen, inden du starter på behandlingen. </p>
+<p>Eftersom Mektovi skal anvendes i kombination med encorafenib, bør du også læse indlægssedlen for 
+encorafenib grundigt. </p>
+<p>Tag ikke Mektovi 
+- hvis du er allergisk over for binimetinib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i afsnit 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Inden du begynder at tage Mektovi, skal du tale med lægen, apotekspersonalet eller 
+sundhedspersonalet om alle dine helbredsproblemer, især om du har: </p>
+<ul>
+<li>
+<p>hjerteproblemer </p>
+</li>
+<li>
+<p>blødningsproblemer; eller om du bruger medicin, der kan forårsage blødning </p>
+</li>
+<li>
+<p>øjenproblemer, herunder grøn stær eller øget tryk i øjet </p>
+</li>
+<li>
+<p>muskelproblemer </p>
+</li>
+<li>
+<p>højt blodtryk </p>
+</li>
+<li>
+<p>blodpropper </p>
+</li>
+<li>
+<p>lunge- eller vejrtrækningsproblemer </p>
+</li>
+<li>
+<p>leverproblemer </p>
+</li>
+</ul>
+<p>Fortæl det til lægen, hvis du nogensinde har haft en tilstopning af den blodåre, der fører blodet væk fra 
+øjet (retinal veneokklusion), da Mektovi ikke bør anvendes i sådanne tilfælde. </p>
+<p>Fortæl det til lægen, hvis du har haft en anden type kræft end melanom, da binimetinib kan forværre 
+visse andre kræfttyper, når det anvendes sammen med encorafenib. </p>
+<p>Fortæl det omgående til lægen, apotekspersonalet eller sundhedspersonalet, hvis du får noget af 
+følgende, mens du tager dette lægemiddel: </p>
+<ul>
+<li>
+<p>Hjerteproblemer: Mektovi kan få dit hjerte til at arbejde mindre godt eller forværre 
+eksisterende hjerteproblemer. Lægen vil undersøge dit hjerte før og under behandlingen med 
+dette lægemiddel for at sikre, at det fungerer korrekt. Tal straks med lægen, hvis du har 
+symptomer på hjerteproblemer, som f.eks. at du føler dig svimmel, træt, omtumlet, hvis du har 
+åndenød, hvis du føler, at dit hjerte hamrer, slår hurtigt eller uregelmæssigt, eller hvis du får 
+hævede ben. </p>
+</li>
+<li>
+<p>Blødningsproblemer: Mektovi kan forårsage alvorlige blødningsproblemer.  Kontakt 
+omgående lægen, hvis du får tegn på blødningsproblemer som f.eks. at du hoster blod op eller 
+får blodpropper, har opkast, der er blodig eller ligner "kaffegrums", har røde eller sorte 
+afføringer, der ligner tjære, har blod i urinen, mavesmerter, usædvanlig blødning fra skeden. 
+Kontakt ligeledes lægen, hvis du har ondt i hovedet, føler dig svimmel eller svag. </p>
+</li>
+<li>
+<p>Øjenproblemer: Mektovi kan forårsage alvorlige øjenproblemer. Kontakt omgående lægen, 
+hvis du får sløret syn, synstab eller andre ændringer af synet (f.eks. farvede pletter i dit 
+synsfelt), korona (ser et sløret omrids rundt om genstande). Lægen vil undersøge dine øjne for 
+eventuelle synsproblemer, mens du tager Mektovi.  </p>
+</li>
+<li>
+<p>Muskelproblemer: Mektovi kan forårsage nedbrydning af muskler (rabdomyolyse). Lægen vil 
+tage nogle blodprøver for at kontrollere for muskelproblemer før og under behandlingen. Som 
+forholdsregel skal du drikke rigelig væske under behandlingen. Kontakt omgående lægen, hvis 
+du får smerter i musklerne, kramper, stivhed, spasmer, mørkfarvet urin. </p>
+</li>
+<li>
+<p>Højt blodtryk: Mektovi kan forhøje blodtrykket. Lægen eller sundhedspersonalet kontrollerer 
+dit blodtryk før og under behandlingen med Mektovi. Kontakt omgående lægen, hvis du får 
+voldsom hovedpine, føler dig svimmel eller omtumlet, eller hvis du måler dit blodtryk på en 
+blodtryksmåler derhjemme, og det er meget højere end sædvanligt. </p>
+</li>
+<li>
+<p>Blodpropper: Mektovi kan forårsage blodpropper i armene eller benene, og hvis en blodprop 
+føres videre til lungerne kan den medføre døden. Kontakt omgående lægen, hvis du får 
+smerter i brystet, pludselig åndenød, vejrtrækningsproblemer, smerter i benene med eller uden 
+hævelse, hævede arme og ben eller en kølig, bleg arm eller ditto ben. Om nødvendigt vil 
+lægen afbryde behandlingen midlertidigt eller stoppe den helt. </p>
+</li>
+<li>
+<p>Lunge- eller vejrtrækningsproblemer: Dette lægemiddel kan forårsage lunge- eller 
+vejrtrækningsproblemer, herunder lungebetændelse (pneumonitis eller interstitiel 
+lungesygdom); tegn og symptomer herpå kan omfatte: hoste, stakåndethed eller træthed. Om 
+nødvendigt vil lægen afbryde behandlingen midlertidigt eller stoppe den helt.  </p>
+</li>
+<li>
+<p>Hudforandringer: Når Mektovi anvendes sammen med encorafenib, kan det forårsage andre 
+typer af hudkræft, såsom kutant planocellulært karcinom. Lægen vil kontrollere din hud for ny 
+hudkræft inden behandlingen, hver anden måned under behandlingen og i op til seks måneder, 
+efter du er stoppet med at tage disse lægemidler. Kontakt omgående lægen, hvis du opdager 
+eventuelle hudforandringer under eller efter behandlingen, herunder: nye vorter, sår i huden 
+eller en rødlig bule, der bløder eller ikke heler, eller ændringer i et modermærkes størrelse 
+eller farve. 
+Derudover skal lægen undersøge dit hoved, din hals, din mund og dine lymfekirtler for 
+planocellulært karcinom, og du skal have regelmæssige CT-scanninger. Dette gøres som 
+forholdsregel for at kontrollere for udvikling af et planocellulært karcinom i kroppen. Der bør 
+desuden gennemføres gynækologiske undersøgelser (hos kvinder) og undersøgelser af 
+endetarmen før og efter behandlingen. </p>
+</li>
+<li>
+<p>Leverproblemer: Mektovi kan give uregelmæssige blodprøveresultater med hensyn til, 
+hvordan din lever virker (forhøjede niveauer af leverenzymer). Din læge vil tage nogle 
+blodprøver før og under behandlingen for at kontrollere din lever.  </p>
+</li>
+</ul>
+<p>Hvis du oplever følgende symptomer, skal du kontakte lægen med det samme, da det kan være en 
+livstruende tilstand: kvalme, stakåndethed, uregelmæssigt hjerteslag, muskelkramper, krampeanfald, 
+uklar urin, nedsat urinudskillelse og træthed. Disse symptomer kan skyldes en række 
+stofskiftekomplikationer, der kan opstå under kræftbehandling på grund af nedbrydningsprodukter fra 
+døende kræftceller (tumorlysesyndrom (TLS)), og kan medføre ændringer i nyrefunktionen (se også 
+afsnit 4: Bivirkninger). </p>
+<p>Børn og unge 
+Mektovi bør ikke anvendes til børn og unge under 18 år. Dette lægemiddel er ikke blevet undersøgt i 
+denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Mektovi 
+Fortæl det altid til lægen, apotekspersonalet eller sundhedspersonalet, hvis du tager anden medicin 
+eller har gjort det for nylig.<br />
+Nogle lægemidler kan påvirke virkningen af Mektovi eller øge din risiko for at få bivirkninger. Det er 
+særligt vigtigt, at du fortæller det til lægen, hvis du tager noget fra denne liste eller anden medicin:  </p>
+<ul>
+<li>
+<p>visse lægemidler til behandling af bakterieinfektioner såsom rifampicin, ciprofloxin </p>
+</li>
+<li>
+<p>visse lægemidler, der typisk bruges til behandling af epilepsi såsom phenobarbital, phenytoin, 
+carbamazepin </p>
+</li>
+<li>
+<p>visse lægemidler til behandling af hiv såsom indinavir, atazanavir </p>
+</li>
+<li>
+<p>et lægemiddel til karcinombehandling kaldet sorafenib </p>
+</li>
+<li>
+<p>et naturlægemiddel for depression: prikbladet perikon </p>
+</li>
+<li>
+<p>et lægemiddel, der bruges til behandling af depression såsom duloxetin </p>
+</li>
+<li>
+<p>et lægemiddel, der typisk bruges til behandling af et forhøjet kolesterol såsom pravastatin </p>
+</li>
+<li>
+<p>et lægemiddel, der bruges til behandling af vejrtrækningsproblemer, theophyllin </p>
+</li>
+</ul>
+<p>Graviditet 
+Mektovi bør ikke anvendes i graviditeten. Mektovi kan forårsage permanente fosterskader eller 
+misdannelser. 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge til råds, før du tager dette lægemiddel. 
+Hvis du er kvinde, og du kan blive gravid, skal du bruge sikker prævention, mens du tager Mektovi og 
+i mindst 1 måned efter din sidste dosis. Kontakt omgående lægen, hvis du bliver gravid, mens du tager 
+Mektovi.  </p>
+<p>Amning 
+Mektovi bør ikke anvendes under amning. Det vides ikke, om binimetinib går over i modermælken. 
+Spørg lægen til råds, før du tager dette lægemiddel, hvis du ammer eller planlægger at amme.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Mektovi kan påvirke din evne til at føre motorkøretøj og betjene maskiner. Undlad at føre 
+motorkøretøj og betjene maskiner, hvis du får synsproblemer eller får andre bivirkninger, som kan 
+påvirke din evne til at føre motorkøretøj eller betjene maskiner, mens du tager Mektovi. Tal med din 
+læge, hvis du ikke er sikker på, at du kan køre.  </p>
+<p>Mektovi indeholder lactose 
+Tal med lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take mektovi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take mektovi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Så meget skal du tage<br />
+Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>Den anbefalede dosis af Mektovi er 45 mg (3 tabletter à 15 mg) to gange dagligt med cirka 12 timers 
+mellemrum (svarende til en daglig dosis på 90 mg). Du vil også blive behandlet med et andet 
+lægemiddel, encorafenib. </p>
+<p>Hvis du får alvorlige bivirkninger (såsom hjerte-, øjen- eller hudproblemer), kan lægen nedsætte din 
+dosis eller stoppe behandlingen midlertidigt eller permanent. </p>
+<p>Sådan skal du tage Mektovi 
+Tabletterne skal synkes hele med vand. Mektovi kan tages sammen med mad eller mellem måltiderne. </p>
+<p>Hvis du kaster op<br />
+Hvis du kaster op, efter du har taget Mektovi, skal du ikke tage en ekstra dosis. Tag den næste dosis på 
+det sædvanlige tidspunkt. </p>
+<p>Hvis du har taget for meget Mektovi 
+Kontakt omgående lægen, apotekspersonalet eller sundhedspersonalet, hvis du har taget for mange 
+tabletter. Vis dem om muligt denne indlægsseddel og pakningen. </p>
+<p>Hvis du har glemt at tage Mektovi 
+Hvis du har glemt at tage en dosis, skal du tage den, så snart du kommer i tanke om det. Hvis det er 
+mere end 6 timer siden, du skulle have taget dosen, skal du dog springe den glemte dosis over og tage 
+den næste dosis på det sædvanlige tidspunkt. Fortsæt så med at tage tabletterne på de normale 
+tidspunkter. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Mektovi 
+Det er vigtigt, at du tager Mektovi, så længe lægen foreskriver det. Du må ikke stoppe behandlingen, 
+medmindre lægen siger det. </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger </p>
+<p>Mektovi kan forårsage alvorlige bivirkninger. Kontakt straks lægen, hvis du får en af følgende 
+alvorlige bivirkninger for første gang, eller hvis den bliver værre (se også afsnit 2):  </p>
+<p>Hjerteproblemer: Mektovi kan påvirke hjertets virkning (nedsat ejektionsfraktion i venstre ventrikel); 
+tegn og symptomer herpå kan omfatte: </p>
+<ul>
+<li>
+<p>svimmelhed, træthed eller omtumlethed </p>
+</li>
+<li>
+<p>stakåndethed </p>
+</li>
+<li>
+<p>følelse af, at hjertet hamrer, galoperer eller slår uregelmæssigt </p>
+</li>
+<li>
+<p>hævelse i benene </p>
+</li>
+</ul>
+<p>Højt blodtryk: Mektovi kan øge blodtrykket. Kontakt straks lægen, hvis du får kraftig hovedpine, føler 
+dig svimmel eller omtumlet, eller hvis dit blodtryk, målt på et blodtryksapparat derhjemme, er meget 
+højere end sædvanligt. </p>
+<p>Blodpropper: Mektovi kan forårsage blodpropper (venøs tromboemboli, herunder lungeemboli); tegn 
+og symptomer herpå kan omfatte: </p>
+<ul>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>pludselig indtræden af stakåndethed eller vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>smerter i benet med eller uden hævelse </p>
+</li>
+<li>
+<p>hævelse af arme og ben </p>
+</li>
+<li>
+<p>kold, bleg arm eller ben </p>
+</li>
+</ul>
+<p>Øjenproblemer: Mektovi kan være årsag til, at væske siver ud under nethinden i øjet, hvilket kan føre 
+til løsning af forskellige lag i øjet (løsning af retinalt pigmentepitel) eller blokering af en vene i øjet 
+(retinal veneokklusion), hvilket kan forårsage: </p>
+<ul>
+<li>
+<p>sløret syn, synstab eller andre synsforstyrrelser (såsom farvede prikker i synsfeltet) </p>
+</li>
+<li>
+<p>haloer (du ser uskarpe konturer omkring ting) </p>
+</li>
+<li>
+<p>smerter, hævelse eller rødme i øjet </p>
+</li>
+</ul>
+<p>Muskelproblemer: Mektovi kan forårsage muskelnedbrydning (rabdomyolyse), hvilket kan forårsage 
+nyreskade og være dødelig; tegn og symptomer herpå kan omfatte: </p>
+<ul>
+<li>
+<p>muskelsmerter, -kramper, -stivhed eller -sammentrækninger </p>
+</li>
+<li>
+<p>mørkfarvet urin </p>
+</li>
+</ul>
+<p>Blødningsproblemer: Mektovi kan forårsage alvorlige blødningsproblemer. Kontakt straks lægen, hvis 
+du får usædvanlige blødninger eller tegn på blødning, herunder: </p>
+<ul>
+<li>
+<p>hovedpine, svimmelhed eller svaghed </p>
+</li>
+<li>
+<p>ophostning af blod eller blodklumper </p>
+</li>
+<li>
+<p>opkastning, der indeholder blod eller ligner "kaffegrums" </p>
+</li>
+<li>
+<p>rød afføring eller sort, tjærelignende afføring </p>
+</li>
+<li>
+<p>blod i urinen  </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>usædvanlig blødning fra skeden </p>
+</li>
+</ul>
+<p>Andre former for hudkræft: Når Mektovi tages sammen med encorafenib, kan patienten udvikle 
+forskellige former for hudkræft, såsom kutant planocellulært karcinom. Disse tilfælde af hudkræft 
+(se også afsnit 2) er som regel begrænset til et lille område og kan fjernes ved en operation, og 
+behandlingen med Mektovi (og encorafenib) kan fortsætte uden afbrydelser. </p>
+<p>Tumorlysesyndrom: Mektovi kan forårsage hurtig nedbrydning af kræftceller, hvilket kan være 
+dødeligt hos nogle personer. Symptomerne herpå kan omfatte kvalme, stakåndethed, uregelmæssigt 
+hjerteslag, muskelkramper, krampeanfald, uklar urin, nedsat urinudskillelse og træthed. </p>
+<p>Andre bivirkninger ved samtidig brug af Mektovi og encorafenib 
+Udover ovenstående alvorlige bivirkninger kan personer, der tager Mektovi og encorafenib sammen, 
+også få følgende bivirkninger.  </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 behandlede) 
+- nedsat antal røde blodlegemer (anæmi) 
+- nerveproblemer, der resulterer i smerter, nedsat følesans eller snurren i hænder og fødder<br />
+- hovedpine 
+- svimmelhed 
+- blødning forskellige steder i kroppen 
+- problemer med synet (nedsat syn) 
+- mavesmerter 
+- diarré 
+- opkastning 
+- kvalme 
+- forstoppelse 
+- kløe 
+- tør hud 
+- hårtab eller tyndere hår (alopeci) 
+- forskellige typer af hududslæt 
+- fortykkelse af hudens yderste lag 
+- ledsmerter (artralgi) 
+- muskelsmerter, -svaghed eller -sammentrækninger 
+- rygsmerter 
+- smerter i arme og ben 
+- feber 
+- hævelse af hænder eller fødder (perifert ødem), lokal hævelse 
+- træthed 
+- uregelmæssige blodprøveresultater for leverfunktionen 
+- uregelmæssige blodprøveresultater for kreatinkinase, hvilket tyder på skader i hjertet og 
+skeletmuskulaturen </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) 
+- visse typer af tumorer i huden, såsom hudpapillom og basalcellekarcinom 
+- allergisk reaktion, som kan omfatte hævelse af ansigtet og vejrtrækningsbesvær<br />
+- ændringer i smagssansen 
+- betændelse i øjet (uveitis) 
+- betændelse i tyktarmen (colitis) 
+- rødme, revner eller sprækker i huden 
+- betændelse i fedtlaget under huden; symptomerne omfatter ømme knuder i huden 
+- hududslæt med et fladt misfarvet område eller hævede knuder ligesom akne (akneiform 
+dermatitis) 
+- rødme, hudafskalning eller blæredannelse på hænder og fødder (palmo-plantar erythrodysæstesi 
+eller hånd-fod-syndrom) 
+- nyresvigt 
+- uregelmæssige resultater af nyrefunktionstest (stigning i kreatinin) 
+- uregelmæssige blodprøveresultater for leverfunktionen (basisk fosfatase i blodet) 
+- uregelmæssige blodprøveresultater af bugspytkirtelfunktionen (amylase, lipase) 
+- øget følsomhed i huden over for sollys </p>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) 
+- svaghed og lammelse af ansigsmuskler<br />
+- betændelse i bugspytkirtlen (pancreatitis) med svære mavesmerter til følge </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store mektovi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store mektovi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mektovi indeholder:</p>
+<ul>
+<li>Aktivt stof: binimetinib. Hver filmovertrukken tablet indeholder 15 mg binimetinib. </li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+<li>
+<p>Tabletkerne: lactosemonohydrat, cellulose, mikrokrystallinsk (E460i), silica, kolloid 
+vandfri (E551), croscarmellosenatrium (E468) og magnesiumstearat (E470b). Se afsnit 2 
+"Mektovi indeholder lactose". </p>
+</li>
+<li>
+<p>Tabletfilmovertræk: poly(vinylalkohol) (E1203), macrogol 3350 (E1521), titandioxid 
+(E171), talcum (E533b), gul jernoxid (E172) og sort jernoxid (E172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Mektovi filmovertrukne tabletter er gule/mørkegule, bikonvekse, ovale, filmovertrukne tabletter uden 
+delekærv, der er præget med “A" på den ene side og “15" på den anden side. </p>
+<p>Mektovi fås i pakninger med 84 tabletter (7 blisterkort med 12 tabletter hver) eller 168 tabletter 
+(14 blisterkort med 12 tabletter hver). 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+PIERRE FABRE MEDICAMENT 
+Les Cauquillous 
+81500 Lavaur 
+Frankrig </p>
+<p>Fremstiller 
+PIERRE FABRE MEDICAMENT PRODUCTION<br />
+Site Progipharm, rue du Lycée 
+45500 GIEN 
+Frankrig </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu. </p>
+<p>Bilag iv </p>
+<p>Videnskabelige konklusioner og begrundelser for ændring af betingelserne for 
+markedsføringstilladelsen/-tilladelserne </p>
+<p>Videnskabelige konklusioner </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR'en/PSUR'erne for binimetinib er PRAC 
+nået frem til følgende videnskabelige konklusioner: </p>
+<p>I lyset af tilgængelige data om tumolysesyndrom fra både kliniske forsøg og spontane indberetninger, 
+herunder 3 tilfælde med en tæt tidsmæssig sammenhæng, og i lyset af en plausibel 
+virkningsmekanisme, vurderer PRAC, at en årsagsmæssig sammenhæng mellem binimetinib og 
+tumorlysesyndrom som minimum er en rimelig mulighed. PRAC har konkluderet, at 
+produktinformationen for produkter indeholdende binimetinib bør ændres i overensstemmelse hermed. </p>
+<p>Efter gennemgang af PRAC’s anbefaling tilslutter CHMP sig PRAC's overordnede konklusioner og 
+begrundelser for anbefalingen. </p>
+<p>Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
+<p>På baggrund af de videnskabelige konklusioner for binimetinib er CHMP af den opfattelse, at 
+benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder binimetinib, forbliver uændret 
+under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1fc6739ba81d50a7087579c92c2a7274
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mektovi Package Leaflet for language en"
+Description: "ePI document Bundle for mektovi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1fc6739ba81d50a7087579c92c2a7274"
+* entry[0].resource = composition-en-1fc6739ba81d50a7087579c92c2a7274
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1fc6739ba81d50a7087579c92c2a7274"
+* entry[=].resource = mp1fc6739ba81d50a7087579c92c2a7274
+                            
+                    
+Instance: bundlepackageleaflet-da-1fc6739ba81d50a7087579c92c2a7274
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mektovi Package Leaflet for language da"
+Description: "ePI document Bundle for mektovi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1fc6739ba81d50a7087579c92c2a7274"
+* entry[0].resource = composition-da-1fc6739ba81d50a7087579c92c2a7274
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1fc6739ba81d50a7087579c92c2a7274"
+* entry[=].resource = mp1fc6739ba81d50a7087579c92c2a7274
+                            
+                    
+
+
+
+Instance: mp1fc6739ba81d50a7087579c92c2a7274
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Mektovi 15 mg film-coated tablets"
-Description: "Mektovi 15 mg film-coated tablets"
+Title: "Medicinal Product mektovi"
+Description: "mektovi"
 Usage: #inline
 
  
@@ -417,7 +1001,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Mektovi 15 mg film-coated tablets"
+  * productName = "mektovi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -444,29 +1028,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1fc6739ba81d50a7087579c92c2a7274
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for mektovi Package Leaflet for language en"
-Description: "ePI document Bundle for mektovi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1fc6739ba81d50a7087579c92c2a7274ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1315/001 84 film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "mektovi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1fc6739ba81d50a7087579c92c2a7274"
-* entry[0].resource = composition-en-1fc6739ba81d50a7087579c92c2a7274
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9187db410785789892311e07733ebee2"
-* entry[=].resource = mp9187db410785789892311e07733ebee2
-                            
-                      
+* title = "List of all ePIs associated with mektovi"
+
+* subject = Reference(mp9187db410785789892311e07733ebee2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#mektovi "mektovi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1fc6739ba81d50a7087579c92c2a7274) // mektovi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1fc6739ba81d50a7087579c92c2a7274) // mektovi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1fc6739ba81d50a7087579c92c2a7274
+InstanceOf: List
+
+* insert 1fc6739ba81d50a7087579c92c2a7274ListRuleset
+    

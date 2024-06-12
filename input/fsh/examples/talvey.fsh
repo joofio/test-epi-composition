@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f69e07644f479bf7649f8c501a410e55
 InstanceOf: CompositionUvEpi
 Title: "Composition for talvey Package Leaflet"
@@ -428,12 +431,938 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-f69e07644f479bf7649f8c501a410e55
+InstanceOf: CompositionUvEpi
+Title: "Composition for talvey Package Leaflet"
+Description:  "Composition for talvey Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp422807d58553b49bc8c736592d963ad6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp422807d58553b49bc8c736592d963ad6
+* title = "TEST PURPOSES ONLY - talvey"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at få Talvey
+3. Sådan får du Talvey
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What talvey is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What talvey is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Talvey er et lægemiddel mod kræft, som indeholder det aktive stof "talquetamab". Talquetamab er et 
+antistof, en type protein, som genkender og knytter sig til specifikke mål i din krop. Det er blevet 
+designet til at binde sig til proteinet GPRC5D (G-proteinkoblet receptorfamilie C, gruppe 5, 
+medlem D), der findes på myelomatose-kræftceller, og til CD3, et protein på "T-cellerne" (en type 
+hvide blodlegemer). T-celler er en del af kroppens naturlige forsvar og hjælper med at beskytte 
+kroppen mod infektioner. De kan også ødelægge kræftceller. Når dette lægemiddel binder sig til disse 
+celler, fører det kræftcellerne og T-cellerne sammen. Dette tilskynder T-cellerne til at ødelægge 
+myelomatose-kræftcellerne.
+Talvey anvendes til behandling af voksne med myelomatose, en kræftsygdom i knoglemarven.
+Det anvendes hos patienter, der har fået mindst tre andre typer behandling, som ikke har virket eller er 
+holdt op med at virke.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take talvey"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take talvey"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Talvey
+
+hvis du er allergisk over for talquetamab eller et af de øvrige indholdsstoffer i TALVEY
+(angivet i afsnit 6).
+Du må ikke få Talvey, hvis ovenstående gælder for dig. Kontakt lægen eller sygeplejersken, før du får 
+Talvey, hvis du er i tvivl.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sygeplejersken, før du får Talvey.
+40
+Alvorlige bivirkninger
+Der kan opstå alvorlige bivirkninger når du begynder at tage Talvey. Du skal fortælle det til lægen 
+eller sygeplejersken med det samme, hvis disse opstår, da de kan kræve, at du får øjeblikkelig 
+lægehjælp.
+Fortæl det straks til lægen eller sygeplejersken, hvis du oplever et eller flere af følgende:
+
+Tegn på en lidelse, der kaldes "cytokin-release-syndrom" (CRS). CRS er en alvorlig 
+immunreaktion med symptomer som feber, lavt blodtryk, kulderystelser, vejrtrækningsbesvær, 
+træthed, hovedpine, hurtig hjerterytme og øget niveau af leverenzymer i blodet.
+
+Virkninger på dit nervesystem. Symptomerne omfatter følelse af forvirring, følelse af 
+desorientering, følelse af søvnighed, følelse af mindre årvågenhed, besvær med at tænke, ændret 
+tankegang eller nedsat bevidsthed, forvirring, besvær med at tale og forstå tale. Nogle af disse 
+kan være tegn på en alvorlig immunreaktion, som kaldes "immuneffektorcelle-associeret 
+neurotoksicitetssyndrom" (ICANS).
+
+Gener i munden, såsom smagstab, mundtørhed, synkebesvær og betændelse i slimhinden i 
+munden.
+
+Hudproblemer, såsom hududslæt, rødmen og negleforandringer.
+
+Varm fornemmelse, feber, kulderystelser, ondt i halsen eller sår i munden kan være tegn på en 
+infektion.
+Talvey og vacciner
+Kontakt lægen eller sygeplejersken, før du får Talvey, hvis du for nylig har fået en vaccination eller 
+skal have en vaccination. Dit immunsystem (kroppens naturlige forsvar) reagerer muligvis ikke så 
+effektivt på vaccination, når du tager dette lægemiddel.
+Du må ikke få levende vacciner, en særlig type vaccine, fra mindst 4 uger før du starter din behandling
+med Talvey til mindst 4 uger efter din sidste dosis.
+Prøver og kontroller
+Før du får Talvey, vil lægen kontrollere dine blodtal for at se om der er tegn på infektion. Hvis du har 
+en infektion, vil den blive behandlet, inden du får lægemidlet.
+Efter du har fået Talvey, vil lægen overvåge dig for bivirkninger. Lægen vil også regelmæssigt få 
+kontrolleret dine blodtal, da antallet af blodlegemer og andre blodkomponenter kan falde, når du 
+anvender dette lægemiddel.
+Børn og unge
+Talvey må ikke anvendes til børn og unge under 18 år, fordi lægemidlet ikke er blevet undersøgt i 
+denne aldersgruppe, og det ikke vides, hvordan lægemidlet vil påvirke dem.
+Brug af andre lægemidler sammen med Talvey
+Fortæl det altid til lægen eller sygeplejersken, hvis du tager andre lægemidler, for nylig har taget andre 
+lægemidler eller planlægger at tage andre lægemidler. Dette gælder også håndkøbslægemidler og 
+naturlægemidler.
+Graviditet, prævention og amning
+Graviditet og prævention
+Talvey kan potentielt blive overført fra moderen til fosteret i udvikling. Virkningerne af Talvey på det 
+udviklende foster er ukendte, og det kan ikke udelukkes, at der er en risiko for nyfødte/spædbørn.
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge lægen eller sygeplejersken til råds, før du får dette lægemiddel.
+Hvis du bliver gravid, mens du er i behandling med dette lægemiddel, skal du fortælle det til lægen 
+eller sygeplejersken med det samme.
+41
+Hvis du kan blive gravid, skal du bruge sikker prævention under behandlingen og i 3 måneder efter, at 
+du er holdt op med at få behandling med Talvey. Lægen vil kontrollere, om du er gravid, før 
+behandlingen påbegyndes.
+Hvis din partner bliver gravid, mens du er i behandling med dette lægemiddel, skal du fortælle det til 
+lægen med det samme.
+Hvis du har fået dette lægemiddel under graviditet, må dit nyfødte barn ikke få levende vacciner, før 
+han eller hun er mindst fire uger gammel.
+Amning
+Det vides ikke, om Talvey udskilles i modermælken. Der kan være en risiko forbundet med amning af
+nyfødte/spædbørn. Spørg lægen til råds, før du får dette lægemiddel. Du og lægen skal beslutte, om 
+fordelene for barnet ved amning er større end risikoen. Hvis du og lægen beslutter, at du skal holde op 
+med at tage dette lægemiddel, må du ikke amme i 3 måneder efter afbrydelsen af behandlingen.
+Trafik- og arbejdssikkerhed
+Nogle kan føle sig trætte, svimle eller forvirrede, mens de tager Talvey. Du må ikke køre bil, bruge 
+værktøj eller betjene maskiner fra du får din første dosis til mindst 48 timer efter, at du har modtaget 
+din første behandlingsdosis af Talvey, eller som anvist af lægen.
+Talvey indeholder natrium
+Talvey indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
+natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take talvey"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take talvey"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Så meget vil du få
+Du vil få Talvey under opsyn af en læge med erfaring i behandling af patienter med myelomatose.
+Lægen beslutter hvor meget Talvey du skal have. Dosen af Talvey afhænger af din vægt.
+Talvey gives enten én gang om ugen eller én gang hver anden uge, afhængig af dosen, som følger:
+0,4 mg/kg én gang om ugen:
+
+Som din første dosis vil du få 0,01 mg pr. kilogram kropsvægt.
+
+Som din anden dosis, der gives 2-4 dage senere, vil du få 0,06 mg pr. kilogram kropsvægt.
+
+Som din tredje dosis vil du få en "behandlingsdosis" på 0,4 mg pr. kilogram kropsvægt 2-4 dage 
+efter din anden dosis.
+
+Efter din tredje dosis vil du få en "behandlingsdosis" en gang om ugen derefter.
+
+Behandlingen vil fortsætte, så længe du har gavn af Talvey.
+Lægen vil overvåge dig for bivirkninger efter hver af dine første tre doser. Lægen vil gøre dette i 
+2 dage efter hver dosis. Du skal opholde dig i nærheden af en sundhedsinstitution efter hver af de
+første tre doser, i tilfælde af at du skulle få bivirkninger.
+Hvis du oplever bivirkninger efter en af de første to doser, kan lægen beslutte at vente i op til 7 dage 
+med at give dig den næste dosis.
+0,8 mg/kg én gang hver anden uge:
+
+Som din første dosis vil du få 0,01 mg pr. kilogram kropsvægt.
+
+Som din anden dosis, der gives 2-4 dage senere, vil du få 0,06 mg pr. kilogram kropsvægt.
+
+Som din tredje dosis, der gives 2-4 dage senere, vil du få 0,4 mg pr. kilogram kropsvægt.
+
+Som din fjerde dosis vil du få en "behandlingsdosis" på 0,8 mg pr. kilogram kropsvægt 2-4 dage 
+efter din tredje dosis.
+
+Efter din fjerde dosis vil du få en "behandlingsdosis" en gang hver anden uge derefter.
+42
+
+Behandlingen vil fortsætte, så længe du har gavn af Talvey.
+Lægen vil overvåge dig for bivirkninger efter hver af dine første fire doser. Lægen vil gøre dette i 
+2 dage efter hver dosis. Du skal opholde dig i nærheden af en sundhedsinstitution efter hver af de 
+første fire doser, i tilfælde af at du skulle få bivirkninger.
+Hvis du oplever bivirkninger efter en af de første tre doser, kan lægen beslutte at vente i op til 7 dage 
+med at give dig den næste dosis.
+Beslutningen om at bruge enten 0,4 mg/kg én gang ugentligt eller 0,8 mg/kg hver anden uge træffes i 
+samråd med lægen.
+Sådan får du lægemidlet
+Talvey gives af lægen eller sygeplejersken som en indsprøjtning under huden ("subkutan injektion"). 
+Det administreres i maveregionen (abdomen) eller låret.
+Andre lægemidler, der bruges under behandlingen med Talvey
+Før de første tre doser (hvis du får 0,4 mg/kg kropsvægt) eller de første fire doser (hvis du får 
+0,8 mg/kg kropsvægt) af Talvey vil du få lægemidler, som hjælper med at mindske risikoen for 
+bivirkninger. Disse kan omfatte:
+
+Lægemidler, som dæmper en allergisk reaktion (antihistaminer)
+
+Lægemidler, som dæmper betændelse (kortikosteroider)
+
+Lægemidler, som dæmper feber (f.eks. paracetamol)
+Du vil måske også få disse lægemidler når du får senere doser af Talvey. Dette afhænger af, hvilke 
+eventuelle symptomer du har.
+Du vil måske også få andre lægemidler. Dette afhænger af eventuelle symptomer, du måtte opleve, 
+eller din sygehistorie.
+Hvis du har fået for meget Talvey
+Du får dette lægemiddel af lægen eller sygeplejersken. Skulle du få for meget (en overdosering), vil 
+lægen kontrollere, om du får bivirkninger.
+Hvis du har glemt en aftale, hvor du skulle have Talvey
+Det er meget vigtigt, at du kommer til alle dine aftaler for at sikre, at behandlingen virker. Hvis du 
+udebliver fra en aftale, skal du aftale en ny tid hurtigst muligt.
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger
+Søg lægehjælp med det samme, hvis du får nogen af følgende alvorlige bivirkninger, som kan være 
+kraftige og kan være dødelige.
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+Immuneffektorcelle-associeret neurotoksicitetssyndrom (ICANS), en alvorlig immunreaktion, 
+som kan påvirke dit nervesystem. Nogle af symptomerne er:<em> forvirring</em> nedsat årvågenhed/opmærksomhed<em> desorientering</em> søvnighed
+43<em> lav energi</em> nedsat tænkeevne
+
+Cytokin-release-syndrom (CRS), en alvorlig immunreaktion. CRS kan forårsage symptomer 
+som:<em> feber</em> lavt blodtryk<em> kulderystelser</em> lavt iltniveau i blodet<em> hovedpine</em> hurtig hjerterytme* øget niveau af leverenzymer i blodet
+
+lave niveauer af neutrofiler (neutropeni), en type hvide blodlegemer, der hjælper med at 
+bekæmpe infektion
+
+lavt antal af blodplader (trombocytopeni), der hjælper blodet med at størkne.
+Fortæl det straks til lægen, hvis du bemærker en af ovenstående alvorlige bivirkninger.
+Andre bivirkninger
+Andre bivirkninger er anført nedenfor. Fortæl det til lægen eller sygeplejersken, hvis du får en eller 
+flere af disse bivirkninger.
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+negleforandringer
+
+smerter i muskler og knogler (muskuloskeletale smerter)
+
+lavt antal røde blodlegemer (anæmi)
+
+træthedsfølelse
+
+kulderystelser
+
+vægttab
+
+unormalt tør hud eller slimhinder, såsom mund og øjne (xerose)
+
+lavt antal af lymfocytter (lymfopeni), en type hvide blodlegemer
+
+problemer med at frembringe eller kontrollere bevægelser (motorisk dysfunktion)
+
+svimmelhed
+
+nerveskade, som kan medføre en snurrende fornemmelse i huden, smerter eller følelsesløshed
+(sensorisk neuropati)
+
+skade eller sygdom, som påvirker hjernens funktion (encefalopati)
+
+diarré, kvalme eller forstoppelse
+
+mavesmerter
+
+opkastning
+
+infektion i næsen, bihulerne eller svælget (infektion i de øvre luftveje)
+
+kløe (pruritus)
+
+nedsat appetit
+
+smerter
+
+lavt antal hvide blodlegemer (leukopeni)
+
+lavt indhold af kalium i blodet (hypokaliæmi)
+
+lavt indhold af fosfat i blodet (hypofosfatæmi)
+
+lavt indhold af magnesium i blodet (hypomagnesiæmi)
+
+lavt indhold af immunglobuliner, en type antistof i blodet (hypogammaglobulinæmi), som kan 
+øge sandsynligheden for infektioner
+
+hævelser, som skyldes væskeansamlinger i kroppen (ødem)
+
+irritation eller smerter på injektionsstedet
+
+forhøjede leverenzymer i blodet
+
+covid-19-infektion
+
+blodprøver kan vise, at blodet er længere tid om at størkne (nedsat fibrinogen, forhøjet INR og 
+forlænget PTT)
+44
+
+bakterieinfektion
+
+smerter i munden
+
+svampeinfektion
+
+feber (pyreksi)
+
+hovedpine
+
+vejrtrækningsbesvær (dyspnø)
+
+hoste
+
+mund- og synkeproblemer, såsom smagsforstyrrelser (dysgeusi), mundtørhed, synkebesvær 
+(dysfagi), og betændelse i slimhinden i munden (stomatitis).
+
+hudproblemer, herunder hududslæt.
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+
+hårtab
+
+blødning, som kan være kraftig
+
+lungebetændelse (pneumoni)
+
+virusinfektion
+
+blodforgiftning (sepsis)
+
+lavt antal af visse typer hvide blodlegemer (neutrofiler), med feber.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dette gælder også mulige
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store talvey"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store talvey"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Talvey opbevares på hospitalet eller klinikken af lægen. De følgende oplysninger henvender sig derfor 
+primært til sundhedspersoner.
+Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hætteglasetiketten efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
+Opbevares i den originale yderpakning for at beskytte mod lys.
+Før du bruger lægemidlet, skal du kontrollere opløsningen for partikler eller misfarvning. Opløsningen 
+skal være farveløs til lysegul. Brug ikke lægemidlet, hvis det er uigennemsigtigt eller misfarvet eller 
+indeholder synlige partikler.
+Sundhedspersoner vil bortskaffe eventuelle lægemiddelrester. Af hensyn til miljøet må 
+lægemiddelrester ikke smides i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Talvey indeholder:
+
+Aktivt stof: talquetamab. Talvey fås i to forskellige styrker:<em> 2 mg/ml – et 1,5 ml hætteglas indeholder 3 mg talquetamab</em> 40 mg/ml – et 1 ml hætteglas indeholder 40 mg talquetamab
+45
+
+Øvrige indholdsstoffer: EDTA dinatriumsaltdihydrat, iseddikesyre, polysorbat 20, 
+natriumacetattrihydrat, saccharose, vand til injektionsvæsker (se "Talvey indeholder natrium" i 
+afsnit 2).
+Udseende og pakningsstørrelser
+Talvey er en injektionsvæske, opløsning (injektionsvæske) og er en farveløs til lysegul væske.
+Talvey leveres i en karton, der indeholder 1 hætteglas af glas.
+Indehaver af markedsføringstilladelsen
+Janssen‑Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Biologics B.V.
+Einsteinweg 101
+2333 CB Leiden
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Tηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+46
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 00
+contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 122
+medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tel: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+medinfo@its.jnj.com
+Denne indlægsseddel blev senest ændret
+Dette lægemiddel er godkendt under "betingede omstændigheder". Det betyder, at der forventes 
+yderligere dokumentation for lægemidlet.
+Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
+lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+47
+&lt;------------------------------------------------------------------------------------------------------------------------&gt;
+Nedenstående oplysninger er kun til sundhedspersoner:
+Talvey hætteglas leveres som en brugsklar injektionsvæske, opløsning, der ikke skal fortyndes før 
+administration.
+Talvey hætteglas i forskellige koncentrationer må ikke kombineres for at opnå behandlingsdosis.
+Der skal anvendes aseptisk teknik til at klargøre og administrere Talvey.
+Klargøring af Talvey
+
+Der henvises til følgende referencetabeller for klargøring af Talvey<em> Brug tabel 1 til at bestemme den samlede dosis, injektionsvolumen og antallet af 
+hætteglas, der skal bruges til dosen på 0,01 mg/kg med Talvey 2 mg/ml hætteglas, baseret 
+på patientens faktiske kropsvægt.
+Tabel 1:
+Dosis på 0,01 mg/kg: injektionsvolumener ved brug af Talvey 2 mg/ml hætteglas
+Dosis på 
+0,01 mg/kg
+Kropsvægt
+(kg)
+Samlet dosisa
+(mg)
+Injektionsvolumen 
+(ml)
+Antal hætteglas
+(1 hætteglas = 1,5 ml)
+35 til 39
+0,38
+0,19
+1
+40 til 45
+0,42
+0,21
+1
+46 til 55
+0,5
+0,25
+1
+56 til 65
+0,6
+0,3
+1
+66 til 75
+0,7
+0,35
+1
+76 til 85
+0,8
+0,4
+1
+86 til 95
+0,9
+0,45
+1
+96 til 105
+1,0
+0,5
+1
+106 til 115
+1,1
+0,55
+1
+116 til 125
+1,2
+0,6
+1
+126 til 135
+1,3
+0,65
+1
+136 til 145
+1,4
+0,7
+1
+146 til 155
+1,5
+0,75
+1
+156 til 160
+1,6
+0,8
+1
+a
+Den samlede dosis (mg) er beregnet baseret på afrundet injektionsvolumen (ml)</em> Brug tabel 2 til at bestemme den samlede dosis, injektionsvolumen og antallet af 
+hætteglas, der skal bruges til dosen på 0,06 mg/kg med Talvey 2 mg/ml hætteglas, baseret 
+på patientens faktiske kropsvægt.
+48
+Tabel 2:
+Dosis på 0,06 mg/kg: injektionsvolumener ved brug af Talvey 2 mg/ml hætteglas
+Dosis på 
+0,06 mg/kg
+Kropsvægt
+(kg)
+Samlet dosisa
+(mg)
+Injektionsvolumen 
+(ml)
+Antal hætteglas
+(1 hætteglas = 1,5 ml)
+35 til 39
+2,2
+1,1
+1
+40 til 45
+2,6
+1,3
+1
+46 til 55
+3
+1,5
+1
+56 til 65
+3,6
+1,8
+2
+66 til 75
+4,2
+2,1
+2
+76 til 85
+4,8
+2,4
+2
+86 til 95
+5,4
+2,7
+2
+96 til 105
+6
+3
+2
+106 til 115
+6,6
+3,3
+3
+116 til 125
+7,2
+3,6
+3
+126 til 135
+7,8
+3,9
+3
+136 til 145
+8,4
+4,2
+3
+146 til 155
+9
+4,5
+3
+156 til 160
+9,6
+4,8
+4
+a
+Den samlede dosis (mg) er beregnet baseret på afrundet injektionsvolumen (ml)<em> Brug tabel 3 til at bestemme den samlede dosis, injektionsvolumen og antallet af 
+hætteglas, der skal bruges til dosen på 0,4 mg/kg med Talvey 40 mg/ml hætteglas, baseret 
+på patientens faktiske kropsvægt.
+Tabel 3:
+Dosis på 0,4 mg/kg: injektionsvolumener ved brug af Talvey 40 mg/ml hætteglas
+Dosis på 
+0,4 mg/kg
+Kropsvægt
+(kg)
+Samlet dosisa
+(mg)
+Injektionsvolumen 
+(ml)
+Antal hætteglas
+(1 hætteglas = 1,0 ml)
+35 til 39
+14,8
+0,37
+1
+40 til 45
+16
+0,4
+1
+46 til 55
+20
+0,5
+1
+56 til 65
+24
+0,6
+1
+66 til 75
+28
+0,7
+1
+76 til 85
+32
+0,8
+1
+86 til 95
+36
+0,9
+1
+96 til 105
+40
+1
+1
+106 til 115
+44
+1,1
+2
+116 til 125
+48
+1,2
+2
+126 til 135
+52
+1,3
+2
+136 til 145
+56
+1,4
+2
+146 til 155
+60
+1,5
+2
+156 til 160
+64
+1,6
+2
+a
+Den samlede dosis (mg) er beregnet baseret på afrundet injektionsvolumen (ml)</em> Brug tabel 4 til at bestemme den samlede dosis, injektionsvolumen og antallet af 
+hætteglas, der skal bruges til dosen på 0,8 mg/kg med Talvey 40 mg/ml hætteglas, baseret 
+på patientens faktiske kropsvægt.
+49
+Tabel 4:
+Dosis på 0,8 mg/kg: injektionsvolumener ved brug af Talvey 40 mg/ml hætteglas
+Dosis på 0,8 mg/kg
+Kropsvægt
+(kg)
+Samlet dosisa
+(mg)
+Injektionsvolumen 
+(ml)
+Antal hætteglas
+(1 hætteglas = 1,0 ml)
+35 til 39
+29,6
+0,74
+1
+40 til 45
+34
+0,85
+1
+46 til 55
+40
+1
+1
+56 til 65
+48
+1,2
+2
+66 til 75
+56
+1,4
+2
+76 til 85
+64
+1,6
+2
+86 til 95
+72
+1,8
+2
+96 til 105
+80
+2
+2
+106 til 115
+88
+2,2
+3
+116 til 125
+96
+2,4
+3
+126 til 135
+104
+2,6
+3
+136 til 145
+112
+2,8
+3
+146 til 155
+120
+3
+3
+156 til 160
+128
+3,2
+4
+a
+Den samlede dosis (mg) er beregnet baseret på afrundet injektionsvolumen (ml)
+
+Kontrollér, at Talvey injektionsvæske, opløsning er farveløs til lysegul. Opløsningen må ikke 
+anvendes, hvis den er misfarvet, uigennemsigtig eller indeholder fremmedlegemer.
+
+Tag hætteglasset med den relevante Talvey-styrke ud af køleskabet (2 °C – 8 °C), og lad det nå 
+den omgivende temperatur (15 °C – 30 °C) i mindst 15 minutter. Undlad at opvarme Talvey på 
+nogen anden måde.
+
+Når hætteglasset har nået den omgivende temperatur, svinges det forsigtigt rundt i ca. 
+10 sekunder for at blande. Må ikke omrystes.
+
+Træk det nødvendige injektionsvolumen af Talvey op fra hætteglasset/hætteglassene i en 
+passende størrelse sprøjte ved hjælp af en overføringskanyle.* Hvert injektionsvolumen må ikke overstige 2,0 ml. Fordel doser, der kræver mere end 
+2,0 ml, ligeligt i flere sprøjter.
+
+Talvey er kompatibelt med injektionskanyler i rustfrit stål og sprøjtemateriale af polypropylen 
+eller polycarbonat.
+
+Udskift overføringskanylen med en passende størrelse injektionskanyle.
+Administration af Talvey
+
+Talvey skal administreres som subkutan injektion.
+
+Talvey skal administreres af en sundhedsperson med tilstrækkeligt medicinsk udstyr og 
+personale til at håndtere alvorlige reaktioner, herunder CRS.
+
+Injicer den påkrævede mængde Talvey i det subkutane væv i abdomen (foretrukket 
+injektionssted). Alternativt kan Talvey injiceres i det subkutane væv andre steder (f.eks. i låret). 
+Hvis der kræves flere injektioner, skal Talvey injektionerne være mindst 2 cm fra hinanden.
+
+Må ikke injiceres i tatoveringer eller ar eller områder, hvor huden er rød, har blå mærker eller er 
+øm, hård eller ikke er intakt.
+
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f69e07644f479bf7649f8c501a410e55
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for talvey Package Leaflet for language en"
+Description: "ePI document Bundle for talvey Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f69e07644f479bf7649f8c501a410e55"
+* entry[0].resource = composition-en-f69e07644f479bf7649f8c501a410e55
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf69e07644f479bf7649f8c501a410e55"
+* entry[=].resource = mpf69e07644f479bf7649f8c501a410e55
+                            
+                    
+Instance: bundlepackageleaflet-da-f69e07644f479bf7649f8c501a410e55
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for talvey Package Leaflet for language da"
+Description: "ePI document Bundle for talvey Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f69e07644f479bf7649f8c501a410e55"
+* entry[0].resource = composition-da-f69e07644f479bf7649f8c501a410e55
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf69e07644f479bf7649f8c501a410e55"
+* entry[=].resource = mpf69e07644f479bf7649f8c501a410e55
+                            
+                    
+
+
+
+Instance: mpf69e07644f479bf7649f8c501a410e55
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product TALVEY 2 mg/mL solution for injection"
-Description: "TALVEY 2 mg/mL solution for injection"
+Title: "Medicinal Product talvey"
+Description: "talvey"
 Usage: #inline
 
  
@@ -453,7 +1382,7 @@ Usage: #inline
 
 
 * name
-  * productName = "TALVEY 2 mg/mL solution for injection"
+  * productName = "talvey"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -480,29 +1409,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f69e07644f479bf7649f8c501a410e55
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for talvey Package Leaflet for language en"
-Description: "ePI document Bundle for talvey Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f69e07644f479bf7649f8c501a410e55ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1748/001 (2 mg/ml)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "talvey"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f69e07644f479bf7649f8c501a410e55"
-* entry[0].resource = composition-en-f69e07644f479bf7649f8c501a410e55
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp422807d58553b49bc8c736592d963ad6"
-* entry[=].resource = mp422807d58553b49bc8c736592d963ad6
-                            
-                      
+* title = "List of all ePIs associated with talvey"
+
+* subject = Reference(mp422807d58553b49bc8c736592d963ad6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#talvey "talvey"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f69e07644f479bf7649f8c501a410e55) // talvey en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f69e07644f479bf7649f8c501a410e55) // talvey da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f69e07644f479bf7649f8c501a410e55
+InstanceOf: List
+
+* insert f69e07644f479bf7649f8c501a410e55ListRuleset
+    

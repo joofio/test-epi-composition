@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d6a8f1a1ebaa6583d4e909e9b830debb
 InstanceOf: CompositionUvEpi
 Title: "Composition for levitra Package Leaflet"
@@ -354,12 +357,437 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-d6a8f1a1ebaa6583d4e909e9b830debb
+InstanceOf: CompositionUvEpi
+Title: "Composition for levitra Package Leaflet"
+Description:  "Composition for levitra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpdef564168f4075ea6c8bb0804265caa3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpdef564168f4075ea6c8bb0804265caa3
+* title = "TEST PURPOSES ONLY - levitra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Levitra 
+3. Sådan skal De tage Levitra 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What levitra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What levitra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Levitra indeholder vardenafil og tilhører en gruppe lægemidler, der kaldes fosfodiesterase type 5-
+hæmmere. De anvendes til behandling af voksne mænd med manglende evne til at få eller 
+vedligeholde rejsning af penis (erektil dysfunktion). </p>
+<p>Mindst 1 ud af 10 mænd har problemer med at opnå eller vedligeholde en erektion over et givent 
+tidsrum. Dette kan skyldes fysiske eller psykologiske årsager, eller mest sandsynligt en kombination af 
+begge dele. Uanset årsagen er effekten den samme: Muskel- og blodkarsændringer gør, at der ikke er 
+tilstrækkeligt blod i penis til at opnå og bevare stivhed. </p>
+<p>Levitra fungerer kun i forbindelse med seksuel stimulation. Det nedsætter funktionen af det naturlige 
+stof i kroppen, der fjerner en erektion. Levitra lader en erektion vare længe nok til, at De på 
+tilfredsstillende måde kan gennemføre en seksuel aktivitet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take levitra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take levitra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Levitra 
+- Hvis De er allergisk over for vardenafil eller et af de øvrige indholdsstoffer i Levitra (angivet i 
+punkt 6). Tegn på en allergisk reaktion omfatter hududslæt, kløe, opsvulmet ansigt, opsvulmede 
+læber og åndenød. 
+- Hvis De tager medicin, som indeholder nitrater, som nitroglycerin for angina, eller 
+nitrogenoxid-donorer som amylnitrit. Indtagelse af denne medicin sammen med Levitra kan 
+have en alvorlig påvirkning på Deres blodtryk. 
+- Hvis De tager ritonavir eller indinavir, medicin mod human immundefekt virusinfektion (HIV). 
+- Hvis De er over 75 år og tager ketoconazol eller itraconazol, medicin mod svampeinfektioner. 
+- Hvis De har et alvorligt hjerte- eller leverproblem. 
+- Hvis De modtager dialysebehandling. 
+- Hvis De for nylig har haft et slagtilfælde eller hjertetilfælde. 
+- Hvis De har eller har haft lavt blodtryk. 
+- Hvis der i Deres familie har været tilfælde af degenerative øjensygdomme (som f.eks. retinitis 
+pigmentosa). 
+- Hvis De på noget tidspunkt tidligere har haft tab af synet på grund af beskadigelse af 
+synsnerven i forbindelse med utilstrækkelig forsyning af blod til synsnerven, også kendt som 
+non-arteritis anterior iskæmisk opticusneuropati (NAION). 
+- Hvis De tager riociguat. Dette lægemiddel bruges til at behandle pulmonal arteriel hypertension 
+(dvs. højt blodtryk i lungerne) og kronisk tromboembolisk pulmonal hypertension (dvs. højt 
+blodtryk i lungerne som følge af blodpropper). PDE5-hæmmere, så som Levitra, har vist sig at 
+øge den blodtrykssænkende virkning af denne medicin. Tal med Deres læge, hvis De tager 
+riociguat eller er usikker. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De tager Levitra. </p>
+<p>Vær ekstra forsigtig med at tage Levitra 
+- Hvis De har problemer med hjertet. Det kan være risikabelt for Dem at have sex. 
+- Hvis De lider af hjerterytmeforstyrrelser eller en medfødt hjertesygdom, der påvirker Deres 
+elektrokardiogram. 
+- Hvis De har en fysisk tilstand, som påvirker formen af penis. Dette omfatter tilstande kaldet 
+krummerik, Peyronies plaque og cavernosa fibrose. 
+- Hvis De har en sygdom der kan medføre erektioner, som ikke forsvinder (priapisme). Disse 
+omfatter seglcelleanæmi, multipel myeloma og leukæmi. 
+- Hvis De har mavesår. 
+- Hvis De har en blødningsforstyrrelse (som f.eks. hæmofili). 
+- Hvis De bruger andre lægemidler for erektionsproblemer, herunder Levitra smeltetabletter (se 
+afsnittet "Brug af anden medicin sammen med Levitra"). 
+- Hvis De oplever pludselige nedsættelser af synet eller tab af synet, skal De stoppe med at tage 
+Levitra og straks søge læge. </p>
+<p>Børn og unge 
+Levitra er ikke beregnet til børn og unge under 18 år.  </p>
+<p>Brug af anden medicin sammen med Levitra 
+Fortæl altid lægen eller apotekspersonalet, hvis De bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept, f.eks. naturlægemidler og vitaminer og mineraler. 
+Visse typer medicin kan give problemer, især disse:</p>
+<ul>
+<li>Nitrater, medicin for angina, eller nitrogen-oxid-donorer, som amylnitrit. Indtagelse af disse typer 
+medicin sammen med Levitra kan have en alvorlig påvirkning på Deres blodtryk. </li>
+<li>Medicin til behandling af hjerterytmeforstyrrelser, som for eksempel quinidin, procainamid, 
+amiodaron eller sotalol. </li>
+<li>Ritonavir eller indinavir, medicin for HIV. </li>
+<li>Ketoconazol eller itraconazol, anti-svampemidler. </li>
+<li>Erythromycin eller clarithromycin, antibiotika. </li>
+<li>Alfa-blokkere, medicin til behandling af forhøjet blodtryk og godartet forstørret blærehalskirtel. </li>
+<li>Riociguat. </li>
+</ul>
+<p>Tag ikke Levitra filmovertrukne tabletter sammen med anden behandling for erektil dysfunktion, 
+herunder Levitra smeltetabletter. </p>
+<p>Brug af Levitra sammen med mad, drikke og alkohol 
+- De kan tage Levitra uafhængigt af måltider, men helst ikke efter et massivt måltid eller et meget 
+fedtholdigt måltid, da det kan forsinke virkningen. 
+- Drik ikke grapefrugtjuice, når De bruger Levitra. Det kan påvirke effekten af medicinen. 
+- Alkoholiske drikke kan forværre erektionsproblemer. </p>
+<p>Graviditet og amning 
+Levitra er ikke beregnet til brug hos kvinder. </p>
+<p>Trafik- og arbejdssikkerhed 
+Levitra kan medføre svimmelhed eller synspåvirkning hos nogle. Hvis De føler Dem svimmel eller 
+Deres syn er påvirket efter at have taget Levitra, bør De ikke køre bil eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take levitra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take levitra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller på 
+apoteket. Den anbefalede dosis er 10 mg. </p>
+<p>Tag en Levitra-tablet cirka 25 til 60 minutter før seksuel aktivitet. I forbindelse med seksuel 
+stimulation kan De opnå en erektion i tidsrummet fra 25 minutter op til 4-5 timer efter at have taget 
+Levitra. 
+- En tablet synkes med et glas vand. </p>
+<p>Tag ikke Levitra filmovertrukne tabletter sammen med andre former for Levitra. </p>
+<p>De må ikke tage Levitra mere end én gang i løbet af døgnet. </p>
+<p>Tal med Deres læge, hvis De mener, at Levitra er for kraftige eller for svage. Lægen kan da foreslå, at 
+De skifter til en anden formulering af Levitra med en anden dosis, afhængigt af hvordan virkningen er 
+på Dem. </p>
+<p>Hvis De har taget for meget Levitra 
+Mænd, som tager for meget Levitra, kan opleve flere bivirkninger eller få alvorlige rygsmerter. Fortæl 
+lægen, hvis De har taget for meget Levitra. </p>
+<p>Spørg lægen eller på apoteket, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemideler give bivirkninger, men ikke alle får bivirkninger. 
+De fleste af bivirkningerne er som regel milde eller moderate. </p>
+<p>Nogle patienter har oplevet delvist, pludseligt, midlertidigt eller permanent nedsat syn eller synstab på 
+det ene eller begge øjne. Stop med at tage Levitra og kontakt øjeblikkeligt Deres læge.<br />
+Der er rapporteret pludseligt nedsat hørelse eller høretab.  </p>
+<p>Tilfælde af pludselig død, hurtig eller ændret hjerteslag, hjerteanfald, brystsmerter og problemer i 
+cerebral cirkulation (inklusive midlertidigt nedsat blodforsyning til dele af hjernen og blødning i 
+hjernen), har været rapporteret hos mænd, der tager vardenafil. De fleste af de mænd, som oplevede 
+disse bivirkninger, havde hjerteproblemer, før de tog denne medicin. Det er ikke muligt at afgøre, om 
+disse hændelser var direkte relateret til vardenafil. </p>
+<p>Risikoen for at få en bivirkning er beskrevet med følgende hyppigheder: </p>
+<p>Meget almindelige bivirkninger:<br />
+forekommer hos flere end 1 ud af 10 behandlede 
+- Hovedpine </p>
+<p>Almindelige bivirkninger:<br />
+forekommer hos op til 1 ud af 10 behandlede 
+- Svimmelhed 
+- Ansigtsrødme 
+- Stoppet eller rindende næse 
+- Fordøjelsesbesvær </p>
+<p>Ikke almindelige bivirkninger:<br />
+forekommer hos op til 1 ud af 100 behandlede 
+-  Hævelser i hud og slimhinder, herunder hævelse i ansigt, læber eller hals<br />
+-  Søvnforstyrrelser<br />
+-  Følelsesløshed og nedsat fornemmelse af berøring<br />
+-  Søvnighed 
+-  Påvirkning af synet, røde øjne, ændret farvesyn, øjensmerter og -ubehag, lysfølsomhed<br />
+-  Ringen for ørerne, svimmelhed 
+-  Hurtig puls eller hjertebanken 
+-  Åndenød<br />
+-  Stoppet næse 
+-  Sure opstød, mavekatar, mavesmerter, diarré, opkastning, kvalme, tør mund<br />
+-  Forhøjede niveauer af leverenzymer i blodet<br />
+-  Udslæt, hudrødme 
+-  Ryg- og muskelsmerter, øget muskelenzym i blodet (kreatinfosfokinase), muskelstivhed<br />
+-  Vedvarende erektion 
+-  Ubehag </p>
+<p>Sjældne bivirkninger:<br />
+forekommer hos op til 1 ud af 1.000 behandlede 
+- Øjenbetændelse (conjunktivitis) 
+- Allergisk reaktion 
+- Angst 
+- Besvimelse 
+- Hukommelsestab 
+- Kramper 
+- Øget tryk i øjet (glaukom), øget tåreflåd 
+- Påvirkning af hjertet (f.eks. hjerteanfald, ændret hjerterytme eller hjertekramper (angina)) 
+-  Højt eller lavt blodtryk 
+-  Næseblod 
+-  Indvirkning på resultaterne af blodprøver for leverfunktion 
+-  Øget hudfølsomhed over for sollys 
+- Smertefulde erektioner 
+- Smerter i brystet 
+- Midlertidigt nedsat blodforsyning til dele af hjernen </p>
+<p>Meget sjældne eller ikke kendte bivirkninger: 
+forekommer hos færre end 1 ud af 10.000 behandlede 
+- Blod i urinen (hæmaturi) 
+- Blødning fra penis 
+- Blod i sæden<br />
+- Pludselig død 
+- Blødning i hjernen </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge. Dette gælder også mulige  bivirkninger, 
+som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store levitra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store levitra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken efter "EXP". Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Levitra indeholder:</p>
+<ul>
+<li>Aktivt stof: vardenafil. Hver tablet indeholder 5 mg vardenafil (som hydrochlorid). </li>
+<li>Øvrige indholdsstoffer: 
+Tabletkernen: Crospovidon, magnesiumstearat, mikrokrystallinsk cellulose, kolloid vandfri 
+silica. 
+Filmovertræk: Macrogol 400, hypromellose, titandioxid (E 171), gul jernoxid (E 172), rød 
+jernoxid (E 172). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Levitra 5 mg filmovertrukne tabletter er orange med BAYER-korset på den ene side og styrken (5) på 
+den anden side. Tabletterne findes i blisterpakninger, som indeholder 2, 4, 8, 12, eller 20 tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bayer AG 
+51368 Leverkusen 
+Tyskland </p>
+<p>Fremstiller 
+Bayer AG 
+Kaiser-Wilhelm-Allee 
+51368 Leverkusen 
+Tyskland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Lietuva 
+UAB Bayer 
+Tel: +370 523 36 България 
+Байер България ЕООД 
+Tел.: +359-(0)2-424 72 80<br />
+Luxembourg/Luxemburg 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Česká republika 
+Bayer s.r.o. 
+Tel: +420 266 101 Magyarország 
+Bayer Hungária KFT 
+Tel.: +36 14 87-4Danmark 
+Bayer A/S 
+Tlf: +45 45 23 50 Malta 
+Alfred Gera and Sons Ltd. 
+Tel: +35 621 44 62 Deutschland 
+Jenapharm GmbH &amp; Co. KG 
+Tel: +49 (0)3641-87 97 Nederland 
+Bayer B.V. 
+Tel: +31-(0)23 799 1Eesti 
+Bayer OÜ 
+Tel: +372 655 85 Norge 
+Bayer AS 
+Tlf: +47-23 13 05 Ελλάδα 
+Bayer Ελλάς ΑΒΕΕ 
+Τηλ: +30 210 61 87 Österreich 
+Bayer Austria Ges. m. b. H. 
+Tel: +43-(0)1-711 46-0 
+España 
+Bayer Hispania S.L. 
+Tel: +34-93-495 65 Polska 
+Bayer Sp. z o.o. 
+Tel.: +48 22 572 35 France 
+Bayer HealthCare 
+Tél (N° vert) : +33-(0)800 87 54 Portugal 
+Bayer Portugal, Lda. 
+Tel: +351 21 416 42 Hrvatska 
+Bayer d.o.o. 
+Tel: + 385-(0)1-6599 România 
+SC Bayer SRL. 
+Tel: +40-21-529 59 Ireland 
+Bayer Limited 
+Tel: +353 1 216 3Slovenija 
+Bayer d. o. o. 
+Tel: +386 (0)1 58 14 Ísland 
+Icepharma hf. 
+Sími: +354-540 8Slovenská republika 
+Bayer, spol. s r.o. 
+Tel: +421 2-59 21 31 Italia 
+Bayer S.p.A. 
+Tel: +39 02 397 Suomi/Finland 
+Bayer Oy 
+Puh/Tel: +358-20 785 Κύπρος 
+NOVAGEM Limited 
+Τηλ: +357 22 48 38 Sverige 
+Bayer AB 
+Tel: +46 (0)8 580 223 Latvija 
+SIA Bayer 
+Tel: +371 67 845 United Kingdom (Northern Ireland) 
+Bayer AG<br />
+Tel: +44-(0)118 206 3 
+Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder<br />
+De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+Indlægsseddel: Information til brugeren </p>
+<p>Levitra 10 mg filmovertrukne tabletter 
+vardenafil </p>
+<p>Læs denne indlægsseddel grundigt, inden De begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. De kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, De vil vide. 
+- Lægen har ordineret dette lægemiddel til Dem personligt. Lad derfor være med at give det til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
+- Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d6a8f1a1ebaa6583d4e909e9b830debb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for levitra Package Leaflet for language en"
+Description: "ePI document Bundle for levitra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d6a8f1a1ebaa6583d4e909e9b830debb"
+* entry[0].resource = composition-en-d6a8f1a1ebaa6583d4e909e9b830debb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd6a8f1a1ebaa6583d4e909e9b830debb"
+* entry[=].resource = mpd6a8f1a1ebaa6583d4e909e9b830debb
+                            
+                    
+Instance: bundlepackageleaflet-da-d6a8f1a1ebaa6583d4e909e9b830debb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for levitra Package Leaflet for language da"
+Description: "ePI document Bundle for levitra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d6a8f1a1ebaa6583d4e909e9b830debb"
+* entry[0].resource = composition-da-d6a8f1a1ebaa6583d4e909e9b830debb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd6a8f1a1ebaa6583d4e909e9b830debb"
+* entry[=].resource = mpd6a8f1a1ebaa6583d4e909e9b830debb
+                            
+                    
+
+
+
+Instance: mpd6a8f1a1ebaa6583d4e909e9b830debb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Levitra 5 mg film-coated tablets"
-Description: "Levitra 5 mg film-coated tablets"
+Title: "Medicinal Product levitra"
+Description: "levitra"
 Usage: #inline
 
  
@@ -379,7 +807,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Levitra 5 mg film-coated tablets"
+  * productName = "levitra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -406,29 +834,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d6a8f1a1ebaa6583d4e909e9b830debb
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for levitra Package Leaflet for language en"
-Description: "ePI document Bundle for levitra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d6a8f1a1ebaa6583d4e909e9b830debbListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/03/248/001-004, 021"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "levitra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d6a8f1a1ebaa6583d4e909e9b830debb"
-* entry[0].resource = composition-en-d6a8f1a1ebaa6583d4e909e9b830debb
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpdef564168f4075ea6c8bb0804265caa3"
-* entry[=].resource = mpdef564168f4075ea6c8bb0804265caa3
-                            
-                      
+* title = "List of all ePIs associated with levitra"
+
+* subject = Reference(mpdef564168f4075ea6c8bb0804265caa3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#levitra "levitra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d6a8f1a1ebaa6583d4e909e9b830debb) // levitra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d6a8f1a1ebaa6583d4e909e9b830debb) // levitra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d6a8f1a1ebaa6583d4e909e9b830debb
+InstanceOf: List
+
+* insert d6a8f1a1ebaa6583d4e909e9b830debbListRuleset
+    

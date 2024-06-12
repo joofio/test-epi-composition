@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5137745e381296dea05060d82180475d
 InstanceOf: CompositionUvEpi
 Title: "Composition for actos Package Leaflet"
@@ -291,12 +294,368 @@ CHEPLAPHARM Arzneimittel GmbH, Ziegelhof 23-24, 17489 Greifswald, Germany.  </p>
 
 
 
+Instance: composition-da-5137745e381296dea05060d82180475d
+InstanceOf: CompositionUvEpi
+Title: "Composition for actos Package Leaflet"
+Description:  "Composition for actos Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa49ec91256a8b35220393b36a2c62cbf)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa49ec91256a8b35220393b36a2c62cbf
+* title = "TEST PURPOSES ONLY - actos"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Actos  </li>
+<li>Sådan skal De tage Actos </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What actos is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What actos is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Actos indeholder pioglitazon. Det er medicin mod sukkersyge og anvendes til behandling af 
+type 2-diabetes mellitus (ikke-insulinkrævende sukkersyge) hos voksne, når metformin ikke er egnet 
+eller ikke har haft tilstrækkelig virkning. Type 2-diabetes mellitus er den diabetesform, der normalt 
+udvikler sig i voksenalderen.  </p>
+<p>Actos hjælper med at kontrollere sukkerniveauet i Deres blod, hvis De har type 2-diabetes, ved at 
+hjælpe Deres krop til bedre at udnytte den insulin, kroppen producerer. Når De har taget Actos i 
+3-6 måneder, vil Deres læge undersøge, om medicinen virker. </p>
+<p>Actos kan anvendes alene til patienter, som ikke er i stand til at tage metformin, og hos hvem diæt og 
+motion ikke har været i stand til at kontrollere blodsukkeret, eller det kan anvendes som supplement til 
+andre lægemidler (såsom metformin, sulfonylurinstof eller insulin), hvis disse ikke har været i stand til 
+at kontrollere blodsukkeret tilstrækkeligt.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take actos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take actos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Actos 
+- hvis De er allergisk over for pioglitazon eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). 
+- hvis De lider af hjertesvigt eller tidligere har haft hjertesvigt.<br />
+- hvis De har leversygdom.<br />
+- hvis De har haft diabetisk ketoacidose (en komplikation ved diabetes, der giver hurtigt vægttab, 
+kvalme eller opkastning). 
+- hvis De har eller nogensinde har haft blærekræft. 
+- hvis De har blod i urinen, og Deres læge ikke har undersøgt årsagen. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De tager Actos (se også punkt 4) 
+- hvis De har vand i kroppen (ødemer) eller har problemer med hjertesvigt, specielt hvis De er 
+over 75 år. Hvis De tager antiinflammatoriske (betændelseshæmmende) lægemidler, som også 
+kan forårsage væskeophobning og hævelse, skal De også fortælle det til lægen. 
+- hvis De lider af en særlig diabetisk øjenlidelse, som hedder makulaødem (væskeansamling i det 
+bagerste af øjet). 
+- hvis De har cyster på æggestokkene (polycystisk ovariesyndrom). Der kan være større 
+sandsynlighed for at blive gravid, fordi De kan få ægløsning igen, når De tager Actos. Hvis 
+dette er relevant for Dem, skal De anvende sikker prævention, så De undgår uønsket graviditet. 
+- hvis De har problemer med Deres lever eller hjerte. Før De begynder at tage Actos, vil De få 
+taget en blodprøve til kontrol af leverfunktionen. Denne kontrol skal måske udføres løbende. 
+Nogle patienter, som har haft type 2-diabetes i mange år og samtidig har hjertesygdom, eller 
+som har haft et slagtilfælde, har udviklet hjertesvigt, når de blev behandlet med Actos og insulin 
+samtidig. Kontakt lægen hurtigst muligt, hvis De oplever tegn på hjertesvigt såsom usædvanlig 
+åndenød, hurtig vægtstigning eller lokale væskeansamlinger (ødemer). </p>
+<p>Hvis De tager Actos sammen med anden diabetesmedicin, er der en større risiko for, at Deres 
+blodsukker falder til under det normale niveau (hypoglykæmi). </p>
+<p>De kan også få blodmangel (anæmi). </p>
+<p>Knoglebrud 
+Der er set et øget antal knoglebrud hos patienter, særligt kvinder, der tog pioglitazon. Deres læge vil 
+tage dette i betragtning ved planlægning af Deres behandling. </p>
+<p>Børn og unge 
+Actos anbefales ikke til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Actos 
+Fortæl det altid til lægen eller på apoteket, hvis De bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept. </p>
+<p>De kan normalt blive ved med at tage anden medicin, mens De får Actos. Visse typer medicin er dog 
+særlig tilbøjelige til at påvirke blodsukkeret:</p>
+<ul>
+<li>gemfibrozil (til at sænke kolesteroltallet) </li>
+<li>rifampicin (mod tuberkulose og andre infektioner) 
+Fortæl det til lægen eller på apoteket, hvis De får et af disse lægemidler. De vil få kontrolleret 
+blodsukkeret for at se, om De skal have ændret dosis af Actos. </li>
+</ul>
+<p>Brug af Actos sammen med mad og drikke 
+De kan tage Deres tabletter i forbindelse med et måltid, men det er ikke nødvendigt. De skal tage 
+tabletterne med et glas vand.  </p>
+<p>Graviditet og amning 
+Fortæl Deres læge<br />
+- hvis De er, tror De er eller planlægger at blive gravid.<br />
+- hvis De ammer eller ønsker at amme Deres barn. 
+Deres læge vil råde Dem til at stoppe med at tage denne medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel vil ikke påvirke Deres evne til at køre bil eller arbejde med maskiner, men vær 
+forsigtig, hvis De får synsforstyrrelser. </p>
+<p>Actos indeholder lactosemonohydrat 
+Kontakt lægen, før De tager Actos, hvis lægen har fortalt Dem, at De ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take actos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take actos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den normale start dosis er 1 tablet på 15 mg eller 30 mg pioglitazon en gang daglig. Deres læge kan 
+øge dosis til maksimalt 45 mg en gang daglig. Deres læge vil fortælle Dem hvilken dosis, De skal 
+tage.  </p>
+<p>Tal med lægen, hvis De har indtryk af, at effekten af Actos er for svag. </p>
+<p>Når Actos tages sammen med andre lægemidler, der anvendes til behandling af sukkersyge (f.eks. 
+insulin, chlorpropamid, glibenclamid, gliclazid, tolbutamid), vil Deres læge give Dem besked på, om 
+De skal tage en mindre dosis af lægemidlerne. </p>
+<p>Deres læge vil bede Dem om at få taget blodprøver periodevis, mens De er i behandling med Actos. 
+Dette sker for at checke, at Deres lever fungerer normalt.  </p>
+<p>Hvis De følger en særlig diæt på grund af Deres diabetes, skal De fortsætte med denne diæt, mens De 
+tager Actos. </p>
+<p>De skal tjekke Deres vægt med jævne mellemrum; hvis vægten stiger, underret da Deres læge. </p>
+<p>Hvis De har taget for meget Actos 
+Kontakt lægen, skadestuen eller apoteket, hvis De ved en fejltagelse har taget for mange tabletter, eller 
+hvis en anden eller et barn tager Deres medicin. Blodsukkeret kan derved falde til under det normale 
+niveau og kan bringes til at stige igen ved indtagelse af sukker. Det anbefales, at De altid medbringer 
+sukkerknalder, slik, kiks eller sød frugtjuice. </p>
+<p>Hvis De har glemt at tage Actos 
+Tag Actos dagligt som foreskrevet. Hvis De glemmer en dosis, skal De imidlertid bare fortsætte med 
+den næste dosis som normalt. De må ikke tage en dobbeltdosis som erstatning for glemte enkeltdoser. </p>
+<p>Hvis De holder op med at tage Actos<br />
+For at opnå den ønskede virkning skal De tage Actos hver dag. Hvis De holder op med at tage Actos, 
+kan Deres blodsukker stige. Tal med lægen, før De stopper behandlingen. </p>
+<p>Spørg lægen eller apoteketspersonalet, hvis der er noget, De er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Patienterne har især oplevet følgende alvorlige bivirkninger: </p>
+<p>Hjertesvigt har været almindeligt forekommende (kan påvirke op til 1 ud af 10 behandlede) hos 
+patienter, der tager Actos i kombination med insulin. Symptomerne er usædvanlig åndenød, hurtig 
+vægtstigning eller lokale væskeansamlinger (ødemer). Kontakt hurtigst muligt Deres læge, hvis De 
+oplever nogle af disse bivirkninger, særligt hvis De er over 65 år. </p>
+<p>Blærekræft forekommer med hyppigheden "ikke almindelig" (kan påvirke op til 
+1 ud af 100 behandlede) hos patienter, der tager Actos. Tegn og symptomer omfatter blod i urinen, </p>
+<p>smerter ved vandladning eller en pludselig vandladningstrang. Hvis De oplever nogen af disse 
+symptomer, skal De hurtigst muligt kontakte Deres læge. </p>
+<p>Lokale væskeansamlinger (ødemer) har ligeledes været meget almindeligt forekommende (kan påvirke 
+flere end 1 ud af 10 behandlede) hos patienter, der tager Actos i kombination med insulin. Kontakt 
+hurtigst muligt Deres læge, hvis De oplever denne bivirkning. </p>
+<p>Knoglebrud har været almindeligt forekommende (kan påvirke op til 1 ud af 10 behandlede) hos 
+kvindelige patienter, der tager Actos, og er ligeledes indberettet hos mandlige patienter (hyppighed 
+kan ikke vurderes ud fra de tilgængelige data). Kontakt hurtigst muligt Deres læge, hvis De oplever 
+denne bivirkning. </p>
+<p>Synsforstyrrelser på grund af hævelse (eller væske) bagest i øjet er ligeledes blevet indberettet hos 
+patienter, der tager Actos (hyppigheden kan ikke vurderes ud fra de tilgængelige data). Hvis De får 
+disse symptomer for første gang, eller hvis de bliver værre, skal De kontakte lægen snarest muligt. De 
+skal også kontakte Deres læge hurtigst muligt, hvis De allerede har sløret syn, og symptomerne 
+forværres. </p>
+<p>Der er rapporteret om allergiske reaktioner med ukendt hyppighed (kan ikke vurderes ud fra de 
+tilgængelige data) hos patienter, der tager Actos. Hvis du får en alvorlig allergisk reaktion, herunder 
+nældefeber og hævelse af ansigtet, læber, tunge eller svælg, der kan forårsage vejrtræknings- eller 
+synkebesvær, skal du afbryde behandlingen og kontakte en læge så hurtigt som muligt. </p>
+<p>Andre bivirkninger, der er forekommet hos nogle patienter, når de har taget Actos: </p>
+<p>almindelige (kan påvirke op til 1 ud af 10 behandlede) 
+- luftvejsinfektion 
+- synsforstyrrelser 
+- vægtstigning 
+- følelsesløshed </p>
+<p>ikke almindelige (kan påvirke op til 1 ud af 100 behandlede) 
+- bihulebetændelse (sinuitis)<br />
+- søvnløshed (insomni) </p>
+<p>ikke kendt (hyppigheden kan ikke vurderes ud fra de tilgængelige data) 
+- forhøjede leverenzymer 
+- allergiske reaktioner </p>
+<p>Andre bivirkninger, der er forekommet hos nogle patienter, når de har taget Actos sammen med anden 
+medicin mod diabetes: </p>
+<p>meget almindelige (kan påvirke mere end 1 ud af 10 behandlede) 
+- lavt blodsukker (hypoglykæmi)  </p>
+<p>almindelige (kan påvirke op til 1 ud af 10 behandlede) 
+- hovedpine 
+- svimmelhed<br />
+- ledsmerter 
+- impotens 
+- rygsmerter 
+- kortåndethed 
+- let nedsat antal røde blodlegemer (blodmangel) 
+- luftafgang fra tarmen </p>
+<p>ikke almindelige (kan påvirke op til 1 ud af 100 behandlede) 
+- sukker i urinen, protein i urinen </p>
+<ul>
+<li>forhøjede enzymtal </li>
+<li>svimmelhed, hvor det føles som om, at verden drejer rundt (vertigo) </li>
+<li>svedudbrud </li>
+<li>træthed </li>
+<li>øget appetit </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store actos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store actos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterkortet efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apoteketspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Actos indeholder 
+− 
+Aktivt stof: pioglitazon.<br />
+Hver Actos 15 mg tablet indeholder 15 mg pioglitazon (som hydrochlorid). 
+Hver Actos 30 mg tablet indeholder 30 mg pioglitazon (som hydrochlorid). 
+Hver Actos 45 mg tablet indeholder 45 mg pioglitazon (som hydrochlorid). 
+− 
+Øvrige indholdsstoffer: lactosemonohydrat, hydroxypropylcellulose, carmellosecalcium og 
+magnesiumstearat. Se punkt 2 ”Actos indeholder lactosemonohydrat”. </p>
+<p>Udseende og pakningsstørrelser 
+− 
+Actos 15 mg tabletter er hvide til grålighvide, runde, konvekse tabletter, der er mærkede med 
+‘15’ på den ene side og ‘ACTOS’ på den anden side.<br />
+− 
+Actos 30 mg tabletter er hvide til grålighvide, runde, flade tabletter, der er mærkede med ‘30’ på 
+den ene side og ‘ACTOS’ på den anden side.<br />
+− 
+Actos 45 mg tabletter er hvide til grålighvide, runde, flade tabletter, der er mærkede med ‘45’ på 
+den ene side og ‘ACTOS’ på den anden side.<br />
+Tabletterne leveres i blisterpakninger a 28, 56, 98 eller 112 tabletter.<br />
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+CHEPLAPHARM Arzneimittel GmbH 
+Ziegelhof 17489 Greifswald 
+Tyskland  </p>
+<p>Fremstiller 
+Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Irland.<br />
+Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas (Madrid), Spanien. 
+CHEPLAPHARM Arzneimittel GmbH, Ziegelhof 24, 17489 Greifswald, Tyskland  </p>
+<p>Denne indlægsseddel blev senest ændret august 2023. De kan finde yderligere oplysninger om Actos på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5137745e381296dea05060d82180475d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for actos Package Leaflet for language en"
+Description: "ePI document Bundle for actos Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5137745e381296dea05060d82180475d"
+* entry[0].resource = composition-en-5137745e381296dea05060d82180475d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5137745e381296dea05060d82180475d"
+* entry[=].resource = mp5137745e381296dea05060d82180475d
+                            
+                    
+Instance: bundlepackageleaflet-da-5137745e381296dea05060d82180475d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for actos Package Leaflet for language da"
+Description: "ePI document Bundle for actos Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5137745e381296dea05060d82180475d"
+* entry[0].resource = composition-da-5137745e381296dea05060d82180475d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5137745e381296dea05060d82180475d"
+* entry[=].resource = mp5137745e381296dea05060d82180475d
+                            
+                    
+
+
+
+Instance: mp5137745e381296dea05060d82180475d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Actos 15 mg tablets"
-Description: "Actos 15 mg tablets"
+Title: "Medicinal Product actos"
+Description: "actos"
 Usage: #inline
 
  
@@ -316,7 +675,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Actos 15 mg tablets"
+  * productName = "actos"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -343,29 +702,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5137745e381296dea05060d82180475d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for actos Package Leaflet for language en"
-Description: "ePI document Bundle for actos Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5137745e381296dea05060d82180475dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/00/150/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "actos"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5137745e381296dea05060d82180475d"
-* entry[0].resource = composition-en-5137745e381296dea05060d82180475d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa49ec91256a8b35220393b36a2c62cbf"
-* entry[=].resource = mpa49ec91256a8b35220393b36a2c62cbf
-                            
-                      
+* title = "List of all ePIs associated with actos"
+
+* subject = Reference(mpa49ec91256a8b35220393b36a2c62cbf)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#actos "actos"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5137745e381296dea05060d82180475d) // actos en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5137745e381296dea05060d82180475d) // actos da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5137745e381296dea05060d82180475d
+InstanceOf: List
+
+* insert 5137745e381296dea05060d82180475dListRuleset
+    

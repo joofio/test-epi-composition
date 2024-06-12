@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e27db7be57c176c4d945aa1d06a95aa5
 InstanceOf: CompositionUvEpi
 Title: "Composition for raloxifene Package Leaflet"
@@ -318,12 +321,448 @@ Tel: +44 2075407This leaflet was last revised in MM/YYYY </p>
 
 
 
+Instance: composition-da-e27db7be57c176c4d945aa1d06a95aa5
+InstanceOf: CompositionUvEpi
+Title: "Composition for raloxifene Package Leaflet"
+Description:  "Composition for raloxifene Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp23d6595bbf73925278d43977a555a313)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp23d6595bbf73925278d43977a555a313
+* title = "TEST PURPOSES ONLY - raloxifene"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at tage Raloxifen Teva 
+3. Sådan skal du tage Raloxifen Teva 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What raloxifene is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What raloxifene is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Raloxifen Teva bruges til at behandle og forebygge knogleskørhed hos kvinder, der har passeret 
+overgangsalderen. Raloxifen Teva nedsætter risikoen for brud på rygsøjlen hos kvinder med 
+knogleskørhed efter overgangsalderen. En nedsat risiko for hoftebrud er ikke set. </p>
+<p>Virkning </p>
+<p>Raloxifen Teva tilhører en gruppe af ikke-hormonale lægemidler, som kaldes selektive 
+østrogenreceptormodulatorer (SERM). Når en kvinde kommer i overgangsalderen, falder 
+produktionen af det kvindelige kønshormon, østrogen. Raloxifen Teva efterligner nogle af de gavnlige 
+virkninger af østrogen efter overgangsalderen. </p>
+<p>Knogleskørhed er en sygdom, som gør dine knogler tynde og skrøbelige. Denne sygdom er især 
+almindelig hos kvinder efter overgangsalderen. Selvom knogleskørhed i begyndelsen ikke giver 
+symptomer, kan den øge risikoen for, at du brækker dine knogler, specielt rygsøjlen, hofterne og 
+håndleddene. Knogleskørhed kan også medføre, at du får rygsmerter, bliver lavere og får en rund ryg. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take raloxifene"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take raloxifene"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Raloxifen Teva 
+- hvis du er allergisk over for raloxifen eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). 
+- hvis du stadigvæk har mulighed for at blive gravid. Raloxifen Teva kan skade det ufødte barn. 
+- hvis du bliver eller har været behandlet for blodpropper (blodprop i de dybe vener (dyb 
+venetrombose), blodprop i lungerne (lungeemboli) eller blodprop i øjets nethinde 
+(nethindevenetrombose). 
+- hvis du har en leversygdom (eksempler på leversygdomme omfatter skrumpelever, let nedsat 
+leverfunktion og gulsot på grund af afløbshindring). 
+- hvis du af ukendt årsag har blødning fra underlivet. Dette skal undersøges af din læge. 
+- hvis du har aktiv livmoderkræft, da der er utilstrækkelig erfaring med Raloxifen Teva hos 
+kvinder med denne sygdom. 
+- hvis du har en alvorlig nyresygdom. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apoteket, før du begynder at tage Raloxifen Teva:</p>
+<ul>
+<li>hvis du ikke kan bevæge dig normalt i nogen tid fordi du sidder i kørestol, skal på hospitalet 
+eller ligge i sengen efter en operation eller en uventet sygdom. </li>
+<li>hvis du tager hormontabletter med østrogen. </li>
+<li>hvis du har brystkræft, idet der er begrænset erfaring med brug af Raloxifen Teva hos kvinder 
+med denne sygdom. </li>
+<li>hvis du har haft et slagtilfælde, eller hvis din læge har fortalt dig, at du har høj risiko for at 
+få et. </li>
+<li>hvis du har leverproblemer, da der er utilstrækkelig erfaring hos mennesker med </li>
+</ul>
+<p>leverproblemer. Hvis du har leverproblemer, og din læge stadig anbefaler behandling, kan det </p>
+<p>være nødvendigt, at du skal have taget nogle blodprøver under behandlingen. </p>
+<p>Det er usandsynligt, at Raloxifen Teva vil give blødning fra underlivet. Enhver form for blødning fra 
+underlivet, mens du tager Raloxifen Teva, er derfor uventet. Du bør have dette undersøgt af din læge. </p>
+<p>Raloxifen Teva kan ikke lindre symptomer, såsom hedestigninger, som opstår i forbindelse med 
+overgangsalderen. </p>
+<p>Raloxifen Teva sænker det samlede kolesterol og LDL ("farligt") kolesterol. Generelt set påvirker det 
+hverken triglycerider eller HDL ("sundt") kolesterol. Hvis du imidlertid tidligere har taget østrogen, 
+og du har haft voldsomme stigninger i blodets triglycerider, bør du tale med din læge, før du tager 
+Raloxifen Teva. </p>
+<p>Brug af anden medicin sammen med Raloxifen Teva 
+Fortæl altid lægen eller apoteket, hvis du bruger anden medicin eller har brugt det for nylig. </p>
+<p>Hvis du tager digitalispræparater på grund af dit hjerte eller antikoagulantia for at fortynde dit 
+blod (f.eks. warfarin), er din læge måske nødt til at justere din dosis af denne medicin. </p>
+<p>Fortæl det til din læge, hvis du får colestyramin, der hovedsageligt anvendes som lipidsænkede 
+medicin. </p>
+<p>Graviditet og amning 
+Raloxifen Teva må kun anvendes af kvinder, der har passeret overgangsalderen og må ikke anvendes 
+af kvinder, der stadig kan få børn. Raloxifen Teva kunne skade det ufødte barn. </p>
+<p>Anvend ikke Raloxifen Teva hvis du ammer, da det muligvis udskilles i modermælk. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Raloxifen Teva påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take raloxifene"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take raloxifene"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på 
+apoteket.  </p>
+<p>Den anbefalede dosis er én tablet dagligt. Det er lige meget, hvornår på dagen du tager din tablet, men 
+hvis du tager tabletten på samme tidspunkt hver dag, er det nemmere at huske. Du kan tage tabletten 
+med eller uden mad. </p>
+<p>Tabletterne er til oral anvendelse. 
+Synk tabletten hel. Du bør synke tabletten med et glas vand eller anden væske. </p>
+<p>Deres læge vil fortælle dig, hvor længe du skal tage Raloxifen Teva. Din læge vil måske også råde dig 
+til at tage kalk- eller D-vitamintilskud. </p>
+<p>Hvis du har taget for mange RaloxifenTeva filmovertrukne tabletter 
+Tal med lægen eller apoteket. Du kan få kramper i benene eller blive svimmel, hvis du har taget flere 
+Raloxifen Teva, end du skal. </p>
+<p>Hvis du har glemt at tage Raloxifen Teva 
+Tag en tablet lige så snart, du husker det, og fortsæt derefter som før.<br />
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Raloxifen Teva 
+Du bør først tale med din læge om det. 
+Det er vigtigt, at du fortsætter med at tage Raloxifen Teva i så lang tid, som lægen har ordineret 
+medicinen. Raloxifen Teva kan kun behandle eller forebygge knogleskørhed, hvis du fortsætter med at 
+tage tabletterne. </p>
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
+Størstedelen af de bivirkninger, som er set med Raloxifen Teva, har været milde. </p>
+<p>Meget almindelig (kan ramme flere end 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>Hedestigninger. </p>
+</li>
+<li>
+<p>Influenzasymptomer. </p>
+</li>
+<li>
+<p>Gener fra mave-tarm-kanalen, såsom kvalme, opkastning, mavesmerter, fordøjelsesbesvær. </p>
+</li>
+<li>
+<p>Forhøjet blodtryk. </p>
+</li>
+</ul>
+<p>Almindelig (kan ramme 1 til 10 ud af 100 patienter) </p>
+<ul>
+<li>
+<p>Hovedpine, herunder migræne.  </p>
+</li>
+<li>
+<p>Kramper i benene. </p>
+</li>
+<li>
+<p>Hævede hænder, fødder og ben (perifer væskeophobning). </p>
+</li>
+<li>
+<p>Galdesten. </p>
+</li>
+<li>
+<p>Hududslæt. </p>
+</li>
+<li>
+<p>Lette symptomer i brystet, såsom smerter, hævelse, ømhed. </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan ramme 1 til 10 ud af 1.000 patienter) </p>
+<ul>
+<li>
+<p>Øget risiko for blodpropper i benene (dyb venetrombose). </p>
+</li>
+<li>
+<p>Øget risiko for blodpropper i lungerne (lungeemboli). </p>
+</li>
+<li>
+<p>Øget risiko for blodproper i øjet (nethinde-venetrombose). </p>
+</li>
+<li>
+<p>Rød og smertende hud omkring en vene (årebetændelse med blodprop i huden). </p>
+</li>
+<li>
+<p>Blodprop i en arterie (f.eks. slagtilfælde samt en øget risiko for at dø af et slagtilfælde). </p>
+</li>
+<li>
+<p>Færre blodplader i blodet. </p>
+</li>
+</ul>
+<p>I sjældne tilfælde kan blodets indhold af leverenzymer stige under behandling med Raloxifen Teva. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
+i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store raloxifene"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store raloxifene"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakken efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 25°C. Opbevares i original emballage for at beskytte mod 
+fugt. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Raloxifen Teva indeholder:</p>
+<ul>
+<li>Det aktive stof er raloxifenhydrochlorid. Hver filmovertrukken tablet indeholder 60 mg 
+raloxifenhydrochlorid, hvilket svarer til 56 mg raloxifen. </li>
+<li>Øvrige indholdsstoffer:<br />
+Tabletkerne: Prægelatineret stivelse (majs), magnesiumstearat, povidon (K30), kolloid vandfri 
+silica og mikrokrystallinsk cellulose, silicificeret.<br />
+Tabletovertræk: Polydextrose (E1200), titandioxid (E171), hypromellose (E464) og macrogol </li>
+<li>Udseende og pakningsstørrelser </li>
+</ul>
+<p>De filmovertrukne tabletter er hvide til offwhite ovale tabletter præget med nummeret "60" på den ene 
+side og "N" på den anden side.  </p>
+<p>Raloxifen Teva 60 mg fås i pakningsstørrelser a 14, 28 eller 84 filmovertrukne tabletter.  </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen: 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+Holland </p>
+<p>Fremstillere: 
+Teva Pharmaceutical Works Private Limited Company 
+Pallagi út Debrecen H-4Ungarn </p>
+<p>Pharmachemie B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Merckle GmbH 
+Ludwig-Merckle-Straße 3 
+89143 Blaubeuren 
+Tyskland </p>
+<p>Hvis du vil have yderligere oplysninger om Raloxifen Teva, skal du henvende dig til den lokale 
+repræsentant: </p>
+<p>België/Belgique/Belgien<br />
+Teva Pharma Belgium N.V./S.A./AG<br />
+Tél/Tel: +32 38207373  </p>
+<p>Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660България<br />
+Тева Фарма ЕАД 
+Тел: +359 24899<br />
+Luxembourg/Luxemburg<br />
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207<br />
+Česká republika<br />
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251007111<br />
+Magyarország<br />
+Teva Gyógyszergyár Zrt.<br />
+Tel: +36 12886400  </p>
+<p>Danmark<br />
+Teva Denmark A/S<br />
+Tlf: +45 44985511<br />
+Malta<br />
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland<br />
+Teva Nederland B.V. 
+Tel: +31 8000228400  </p>
+<p>Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775590<br />
+Ελλάδα 
+Specifar A.B.E.E. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873280   </p>
+<p>Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Santé 
+Tél: +33 155917Portugal 
+Teva Pharma - Produtos Farmacêuticos, 
+Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503300  </p>
+<p>Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere information om Raloxifen Teva på Det europæiske Lægemiddelagenturs 
+(EMAs) hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e27db7be57c176c4d945aa1d06a95aa5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for raloxifene Package Leaflet for language en"
+Description: "ePI document Bundle for raloxifene Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e27db7be57c176c4d945aa1d06a95aa5"
+* entry[0].resource = composition-en-e27db7be57c176c4d945aa1d06a95aa5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe27db7be57c176c4d945aa1d06a95aa5"
+* entry[=].resource = mpe27db7be57c176c4d945aa1d06a95aa5
+                            
+                    
+Instance: bundlepackageleaflet-da-e27db7be57c176c4d945aa1d06a95aa5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for raloxifene Package Leaflet for language da"
+Description: "ePI document Bundle for raloxifene Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e27db7be57c176c4d945aa1d06a95aa5"
+* entry[0].resource = composition-da-e27db7be57c176c4d945aa1d06a95aa5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe27db7be57c176c4d945aa1d06a95aa5"
+* entry[=].resource = mpe27db7be57c176c4d945aa1d06a95aa5
+                            
+                    
+
+
+
+Instance: mpe27db7be57c176c4d945aa1d06a95aa5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Raloxifene Teva 60 mg film-coated tablets"
-Description: "Raloxifene Teva 60 mg film-coated tablets"
+Title: "Medicinal Product raloxifene"
+Description: "raloxifene"
 Usage: #inline
 
  
@@ -343,7 +782,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Raloxifene Teva 60 mg film-coated tablets"
+  * productName = "raloxifene"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -370,29 +809,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e27db7be57c176c4d945aa1d06a95aa5
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for raloxifene Package Leaflet for language en"
-Description: "ePI document Bundle for raloxifene Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e27db7be57c176c4d945aa1d06a95aa5ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/10/627/001-003"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "raloxifene"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e27db7be57c176c4d945aa1d06a95aa5"
-* entry[0].resource = composition-en-e27db7be57c176c4d945aa1d06a95aa5
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp23d6595bbf73925278d43977a555a313"
-* entry[=].resource = mp23d6595bbf73925278d43977a555a313
-                            
-                      
+* title = "List of all ePIs associated with raloxifene"
+
+* subject = Reference(mp23d6595bbf73925278d43977a555a313)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#raloxifene "raloxifene"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e27db7be57c176c4d945aa1d06a95aa5) // raloxifene en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e27db7be57c176c4d945aa1d06a95aa5) // raloxifene da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e27db7be57c176c4d945aa1d06a95aa5
+InstanceOf: List
+
+* insert e27db7be57c176c4d945aa1d06a95aa5ListRuleset
+    

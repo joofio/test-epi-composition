@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-61ed8c3f1f4d3021b93672950d48db1a
 InstanceOf: CompositionUvEpi
 Title: "Composition for nimenrix Package Leaflet"
@@ -340,12 +343,543 @@ Tel.: + 371 670 35 This leaflet was last revised in {MM/YYYY} </p>
 
 
 
+Instance: composition-da-61ed8c3f1f4d3021b93672950d48db1a
+InstanceOf: CompositionUvEpi
+Title: "Composition for nimenrix Package Leaflet"
+Description:  "Composition for nimenrix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp05a92a7d52bdb43d3855ad6b867da1d0)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp05a92a7d52bdb43d3855ad6b867da1d0
+* title = "TEST PURPOSES ONLY - nimenrix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du får Nimenrix
+3. Sådan gives Nimenrix
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What nimenrix is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What nimenrix is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning og anvendelse
+Nimenrix er en vaccine, der beskytter mod infektioner, som forårsages af bakterier, der kaldes 
+"Neisseria meningitidis" af typerne A, C, W-135 og Y.
+"Neisseria meningitidis" type A-, C-, W-135- og Y-bakterier kan give alvorlige sygdomme, f.eks.:
+
+meningitis (hjernehindebetændelse) - en infektion i den hinde, der omgiver hjernen og 
+rygmarven.
+
+blodforgiftning - en infektion i blodet.
+Disse infektioner overføres let fra person til person, og kan medføre dødsfald, hvis de ikke behandles.
+Nimenrix kan gives til voksne, unge, børn og spædbørn over  6 uger.
+Virkning
+Nimenrix hjælper kroppen med at danne sin egen beskyttelse (antistoffer) mod bakterierne. Disse 
+antistoffer er med til at beskytte dig mod sygdommene.
+Nimenrix beskytter kun mod de infektioner, der forårsages af bakterierne "Neisseria meningitidis" 
+type A, C, W-135 og Y.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take nimenrix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take nimenrix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Nimenrix:
+
+hvis du er allergisk over for de aktive stoffer eller et af de øvrige indholdsstoffer i denne vaccine 
+(angivet i punkt 6).
+Tegn på en allergisk reaktion kan være kløende hududslæt, åndenød og hævet ansigt eller tunge. 
+Kontakt straks lægen, hvis du får et eller flere af disse symptomer.
+Spørg lægen eller sygeplejersken, før du bliver vaccineret med Nimenrix, hvis der er noget, du er i 
+tvivl om.
+69
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sygeplejersken, før du får Nimenrix hvis:
+
+du har en infektion og høj feber (over 38 °C). Hvis dette gælder for dig, vil vaccinationen ikke 
+blive givet, før du har det bedre. En mindre infektion som forkølelse er normalt ikke noget 
+problem. Du skal dog fortælle det til lægen eller sygeplejersken først.
+
+du har blødningsproblemer eller let får blå mærker.
+Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), skal du tale med lægen eller 
+sygeplejersken, før du får Nimenrix.
+Nimenrix giver ikke nødvendigvis alle vaccinerede fuld beskyttelse. Hvis du har nedsat immunforsvar 
+(f.eks. på grund af hiv-infektion eller medicin, der påvirker immunforsvaret), får du muligvis ikke fuld 
+gavn af Nimenrix.
+Besvimelse kan forekomme (overvejende hos unge) efter og endda før nålestik. Du skal derfor fortælle 
+det til lægen eller sygeplejersken, hvis du eller dit barn tidligere er besvimet i forbindelse med 
+nålestik.
+Brug af anden medicin sammen med Nimenrix
+Fortæl altid lægen eller sygeplejersken, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. Dette gælder også andre vacciner og medicin, som 
+ikke er købt på recept. 
+Virkningen af Nimenrix kan være nedsat, hvis du bruger medicin, der påvirker dit immunforsvar.
+Hos spædbørn kan Nimenrix gives samtidig med kombinerede vacciner mod difteri-stivkrampe-
+kighoste (DTaP)-hepatitis B-virus (HBV)-inaktiveret poliovirus (IPV) /Haemophilus influenzae type b 
+(Hib) og 10-valent konjugeret pneumokok-vaccine.
+Til børn fra 1 år og derover kan Nimenrix gives samtidig med enhver af følgende vacciner:
+hepatitis A (HAV)- og hepatitis B (HBV)-vacciner, mæslinge-fåresyge-røde hunde (MFR)-vaccine, 
+mæslinge-fåresyge-røde hunde-skoldkoppe (MFRV)-vaccine, 10-valent konjugeret pneumokok<br />
+vaccine eller ikke-adjuveret vaccine mod sæsonbestemt influenza.
+I andet leveår kan Nimenrix også gives samtidigt med kombinerede difteri-stivkrampe-kighoste-
+vacciner (herunder difteri-stivkrampe-kighoste-kombinationsvacciner med hepatitis B-virus, 
+inaktiveret poliovirus eller Haemophilus influenzae type b, f.eks. DTaP-HBV-IPV/Hib-vaccine) og 13-
+valent konjugeret pneumokokvaccine.
+Hos personer i alderen 9-25 år kan Nimenrix gives samtidig med humant papillomavirus (type 16 og 
+18)-vaccine og en kombinationsvaccine mod difteri-stivkrampe-kighoste (med reduceret indhold af 
+difteriantigen).
+Når det er muligt, skal Nimenrix gives samtidig med en vaccine mod stivkrampe f.eks. DTaP-HBV-
+IPV/Hib-vaccine, eller Nimenrix skal gives mindst 1 måned før vaccinen mod stivkrampe.
+Vaccinerne vil blive indsprøjtet på forskellige steder.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du fortælle det til lægen, inden du får Nimenrix.
+Trafik- og arbejdssikkerhed
+Der er intet, der tyder på, at Nimenrix påvirker arbejdssikkerheden eller evnen til at færdes sikkert i 
+trafikken. Du må dog ikke køre i trafikken eller arbejde med maskiner, hvis du føler dig utilpas.
+70
+Nimenrix indeholder natrium
+Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. den er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nimenrix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nimenrix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sådan gives vaccinen 
+Lægen eller sygeplejersken vil vaccinere dig med Nimenrix.
+Nimenrix bliver altid indsprøjtet i en muskel, normalt i overarmen eller låret.
+Primær immunisering
+Spædbørn fra 6 uger til mindre end 6 måneder 
+Der gives 2 indsprøjtninger, med 2 måneders mellemrum, f.eks når barnet er 2 og 4 måneder gammelt 
+(den første indsprøjtning kan gives, når barnet er 6 uger).
+Spædbørn fra 6 måneder, børn, unge eller voksne
+Én indsprøjtning.
+Boosterdosis
+Spædbørn fra 6 uger til mindre end 12 måneder:
+En boosterdosis ved 12-måneders alderen, mindst 2 måneder efter den sidste dosis Nimenrix.
+Tidligere vaccinerede personer i alderen 12 måneder og derover:
+Fortæl det til lægen, hvis du tidligere er blevet vaccineret med en anden meningokok-vaccine. 
+Lægen vil fortælle dig om og hvornår, du har behov for en yderligere dosis Nimenrix, især hvis du 
+eller dit barn:
+
+fik den første dosis i alderen 6-14 måneder og kan have særlig risiko for infektion forårsaget af
+Neisseria meningitidis typerne W-135 og Y
+
+fik dosen for mere end ca. et år siden og kan have risko for infektion forårsaget af Neisseria 
+meningitidis type A
+
+fik den første dosis i alderen 12-23 måneder og kan have særlig risiko for infektion forårsaget af 
+Neisseria meningitidis typerne A, C, W-135 og Y
+Du vil få at vide, hvornår du eller dit barn skal komme igen for at få den næste indsprøjtning. Det er 
+vigtigt, at du laver en ny aftale for dig eller dit barn, hvis der glemmes en planlagt indsprøjtning.
+Sørg for, at du eller dit barn afslutter hele vaccinationsforløbet.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Dette lægemiddel kan have følgende bivirkninger:
+Meget almindelige (kan forekomme ved flere end 1 ud af 10 vaccinedoser):
+
+feber
+
+træthed
+
+hovedpine
+
+døsighed
+
+appetitmangel
+
+irritabilitet
+
+hævelse, smerter og rødme ved injektionsstedet.
+71
+Almindelige (kan forekomme ved op til 1 ud af 10 vaccinedoser):
+
+blå mærker (hæmatomer) ved injektionsstedet
+
+mave- og fordøjelsesproblemer, f.eks. diaré, opkastning og kvalme.
+
+udslæt (spædbørn).
+Ikke almindelige (kan forekomme ved op til 1 ud af 100 vaccinedoser):
+
+udslæt
+
+nældefeber
+
+kløe
+
+gråd
+
+svimmelhed
+
+muskelsmerter 
+
+smerter i arme eller ben
+
+generel utilpashed 
+
+problemer med at sove 
+
+nedsat følelse eller følsomhed, især i huden
+
+reaktioner ved injektionsstedet, f.eks. kløe, varme eller følelsesløshed eller en hård knude.
+Sjældne (kan forekomme ved op til 1 ud af 1.000 vaccinedoser):
+
+krampeanfald i forbindelse med feber (feberkramper)
+Ikke kendt: hyppigheden kan ikke vurderes ud fra tilgængelige data
+
+hævelse og rødmen på injektionsstedet, som kan brede sig til et større område på den 
+vaccinerede arm eller det vaccinerede ben
+
+forstørrede lymfeknuder.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store nimenrix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nimenrix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Opbevar lægemidlet utilgængeligt for børn.
+
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+
+Opbevares i køleskab (2 °C - 8 °C).
+
+Opbevares i den originale yderpakning for at beskytte mod lys.
+
+Må ikke nedfryses.
+
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden.
+72</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nimenrix indeholder:
+
+Aktive stoffer:</p>
+<ul>
+<li>
+<p>Efter rekonstitution indeholder 1 dosis (0,5 ml):
+Neisseria meningitidis gruppe A-polysaccharid1
+5 mikrogram
+Neisseria meningitidis gruppe C-polysaccharid1
+5 mikrogram
+Neisseria meningitidis gruppe W-135-polysaccharid1
+5 mikrogram
+Neisseria meningitidis gruppe Y-polysaccharid1
+5 mikrogram
+1konjugeret til tetanustoxoid-carrier-protein
+44 mikrogram
+
+Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>pulver: saccharose og trometamol</p>
+</li>
+<li>solvens: natriumchlorid (se afsnit 2 Nimenrix indeholder natrium) og vand til 
+injektionsvæsker.
+Udseende og pakningsstørrelser
+Nimenrix er et pulver og en solvens til opløsning til injektion.
+Nimenrix leveres som et hvidt pulver eller pulverkage i enkeltdosishætteglas og en klar, farveløs 
+solvens i fyldt injektionssprøjte.
+Disse skal blandes sammen inden brug. Den klargjorte vaccine vil være en klar, farveløs opløsning.
+Nimenrix fås i pakningsstørrelser på 1 eller 10, med eller uden nåle.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+Indehaver af markedsføringstilladelsen: 
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller ansvarlig for batchfrigivelse:
+Pfizer Manufacturing Belgium NV
+Rijksweg 2870 Puurs-Sint-Amands
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer S.A./N.V.
+Tél/Tel: + 32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон 
+България
+Teл: +359 2 970 4333
+Magyarország
+Pfizer Kft
+Tel: +36 1 488 3700
+Česká Republika
+Pfizer, spol. s r.o. 
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: + 35621 344610
+Danmark
+Pfizer ApS
+Tlf: + 45 44 201 100
+Nederland
+Pfizer BV
+Tel: +31 (0)800 63 34 363
+73
+Deutschland
+Pfizer Pharma GmbH
+Tel: + 49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 526 100
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H
+Tel: + 43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ.: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Télf: +34914909900
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél +33 1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel.: + 386 (0) 1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL,
+organizačná zložka
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf
+Simi: + 354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Tηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited 
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Denne indlægsseddel blev senest ændret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.</li>
+</ul>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale:
+74
+Vaccinen er kun til intramuskulær anvendelse. Vaccinen må ikke administreres intravaskulært, 
+intradermalt eller subkutant.
+Hvis Nimenrix administreres samtidigt med andre vacciner, skal de injiceres på forskellige steder.
+Nimenrix må ikke blandes med andre vacciner. 
+Instruktion i rekonstituering af vaccine med solvens i fyldt injektionssprøjte:
+Nimenrix skal rekonstitueres ved at tilsætte alt indhold fra den fyldte injektionssprøjte med solvens til 
+hætteglasset med pulver.
+Kanylen sættes på injektionssprøjten som vist på billedet. De leverede injektionssprøjter med 
+Nimenrix kan dog være lidt forskellige (uden gevind) fra injektionssprøjten på billedet. Hvis dette er 
+tilfældet, skal kanylen sættes på uden at dreje.
+1. Mens injektionssprøjtens cylinder holdes i den ene hånd 
+(undgå at holde på stemplet), 
+skrues injektionssprøjtens hætte af 
+ved at dreje den mod uret.
+2. Kanylen sættes på injektionssprøjten 
+ved at dreje kanylen med uret ind i 
+injektionssprøjten, indtil du føler, 
+at den låses (se billede).
+3. Kanylehætten (beskyttelseshætten) tages af. 
+Den kan af og til være lidt stram.
+4. Tilsæt solvensen til pulveret. Når solvensen er tilsat pulveret, omrystes blandingen godt, indtil 
+pulveret er helt opløst i solvensen.
+Den rekonstituerede vaccine er en klar, farveløs opløsning.
+Den rekonstituerede vaccine inspiceres visuelt for partikler og/eller ændringer i det fysiske udseende 
+før administration. Hvis nogen af delene observeres, skal vaccinen kasseres.
+Efter rekonstitution skal vaccinen bruges straks.
+Der skal bruges en ny kanyle til administration af vaccinen.
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
+Stempel
+Sprøjtecylinder
+Sprøjtehætte
+Kanylehætte
+75
+Indlægsseddel: Information til brugeren
+Nimenrix pulver og solvens til injektionsvæske, opløsning i hætteglas
+Meningokokgrupperne A, C, W-135 og Y konjugeret vaccine
+Læs denne indlægsseddel grundigt, inden du får denne vaccine, da den indeholder vigtige 
+oplysninger.
+
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+
+Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide.
+
+Lægen har ordineret Nimenrix til dig eller dit barn personligt. Lad derfor være med at give det 
+til andre. 
+
+Kontakt lægen eller apotekspersonalet, hvis får bivirkninger, herunder bivirkninger, som ikke er 
+nævnt i denne indlægsseddel. Se punkt 4. Denne indlægsseddel er skrevet til den, der får vaccinen. Da vaccinen kan gives til både voksne og 
+børn, kan du eventuelt læse den for dit barn.
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-61ed8c3f1f4d3021b93672950d48db1a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nimenrix Package Leaflet for language en"
+Description: "ePI document Bundle for nimenrix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-61ed8c3f1f4d3021b93672950d48db1a"
+* entry[0].resource = composition-en-61ed8c3f1f4d3021b93672950d48db1a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp61ed8c3f1f4d3021b93672950d48db1a"
+* entry[=].resource = mp61ed8c3f1f4d3021b93672950d48db1a
+                            
+                    
+Instance: bundlepackageleaflet-da-61ed8c3f1f4d3021b93672950d48db1a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nimenrix Package Leaflet for language da"
+Description: "ePI document Bundle for nimenrix Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-61ed8c3f1f4d3021b93672950d48db1a"
+* entry[0].resource = composition-da-61ed8c3f1f4d3021b93672950d48db1a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp61ed8c3f1f4d3021b93672950d48db1a"
+* entry[=].resource = mp61ed8c3f1f4d3021b93672950d48db1a
+                            
+                    
+
+
+
+Instance: mp61ed8c3f1f4d3021b93672950d48db1a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Nimenrix powder and solvent for solution for injection in pre-filled syringe"
-Description: "Nimenrix powder and solvent for solution for injection in pre-filled syringe"
+Title: "Medicinal Product nimenrix"
+Description: "nimenrix"
 Usage: #inline
 
  
@@ -365,7 +899,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Nimenrix powder and solvent for solution for injection in pre-filled syringe"
+  * productName = "nimenrix"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -392,29 +926,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-61ed8c3f1f4d3021b93672950d48db1a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for nimenrix Package Leaflet for language en"
-Description: "ePI document Bundle for nimenrix Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 61ed8c3f1f4d3021b93672950d48db1aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/12/767/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "nimenrix"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-61ed8c3f1f4d3021b93672950d48db1a"
-* entry[0].resource = composition-en-61ed8c3f1f4d3021b93672950d48db1a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp05a92a7d52bdb43d3855ad6b867da1d0"
-* entry[=].resource = mp05a92a7d52bdb43d3855ad6b867da1d0
-                            
-                      
+* title = "List of all ePIs associated with nimenrix"
+
+* subject = Reference(mp05a92a7d52bdb43d3855ad6b867da1d0)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#nimenrix "nimenrix"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-61ed8c3f1f4d3021b93672950d48db1a) // nimenrix en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-61ed8c3f1f4d3021b93672950d48db1a) // nimenrix da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-61ed8c3f1f4d3021b93672950d48db1a
+InstanceOf: List
+
+* insert 61ed8c3f1f4d3021b93672950d48db1aListRuleset
+    

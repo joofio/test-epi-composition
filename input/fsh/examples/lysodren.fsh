@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-96958c1c1275e460bebf23cdf143ad79
 InstanceOf: CompositionUvEpi
 Title: "Composition for lysodren Package Leaflet"
@@ -314,12 +317,381 @@ Tel: + 33 1 40 33 93 medinfo-rd@hra-pharma.com </p>         </div>"""
 
 
 
+Instance: composition-da-96958c1c1275e460bebf23cdf143ad79
+InstanceOf: CompositionUvEpi
+Title: "Composition for lysodren Package Leaflet"
+Description:  "Composition for lysodren Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6fb43842b99315263e0f9002caa88cc3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6fb43842b99315263e0f9002caa88cc3
+* title = "TEST PURPOSES ONLY - lysodren"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Lysodren 
+3. Sådan skal De tage Lysodren 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lysodren is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lysodren is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lysodren er et antitumormiddel. </p>
+<p>Dette lægemiddel anvendes til behandling af symptomer på fremskredne ikke-operable, metastatiske 
+eller tilbagevendende maligne tumorer i binyrerne.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lysodren"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lysodren"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Lysodren 
+- hvis De er allergisk over for mitotan eller et af de øvrige indholdsstoffer i Lysodren (angivet i 
+punkt 6). 
+- hvis De ammer. De må ikke amme, mens De tager Lysodren. 
+- hvis De bliver behandlet med lægemidler med spironolacton (se "Brug af andre lægemidler 
+sammen med Lysodren"). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apoteketspersonalet, før De tager Lysodren. 
+De skal fortælle lægen, hvis noget af følgende gælder for Dem:</p>
+<ul>
+<li>Hvis De kommer til skade (shock, alvorligt traume), får en infektion, eller hvis De bliver syg, 
+mens De tager Lysodren. Fortæl det straks til Deres læge, som kan beslutte at stoppe Lysodren 
+for en tid. </li>
+<li>
+<p>Hvis De har leverproblemer: Fortæl det til lægen, hvis De udvikler et af følgende tegn og 
+symptomer på leverproblemer under behandling med Lysodren: kløe, gulfarvning af øjne eller 
+hud, mørk urin og smerter eller ubehag øverst til højre i maveregionen. Lægen skal tage nogle 
+blodprøver for at kontrollere Deres leverfunktion før og under behandling med Lysodren og 
+desuden, hvis der er klinisk behov for det. </p>
+</li>
+<li>
+<p>Hvis De har svære nyreproblemer. </p>
+</li>
+<li>Hvis De bruger lægemidler, der er nævnt herunder (Se "Brug af andre lægemidler sammen med 
+Lysodren"). </li>
+<li>Hvis De har underlivsproblemer som blødning og/eller smerter.  </li>
+</ul>
+<p>Dette lægemiddel bør ikke håndteres af andre personer end patienten og hans/hendes plejere. Dette 
+gælder særligt gravide kvinder. Plejere bør bruge engangshandsker, når de håndterer tabletterne. </p>
+<p>Deres læge kan ordinere hormonbehandling (steroider), når De tager Lysodren. </p>
+<p>Hav altid det patientkort, der findes til sidst i denne indlægsseddel, på Dem. </p>
+<p>Brug af andre lægemidler sammen med Lysodren 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. Dette gælder også lægemidler, som ikke 
+er købt på recept.  </p>
+<p>De må ikke bruge Lysodren sammen med lægemidler, som indeholder spironolacton, der ofte bruges 
+som et vanddrivende middel til hjerte-, lever- og nyresygdomme. </p>
+<p>Lysodren kan påvirke adskillige lægemidler. De bør derfor informere Deres læge, hvis De bruger 
+lægemidler, der indeholder et af følgende aktive stoffer:</p>
+<ul>
+<li>Warfarin eller andre antikoagulantia (blodfortyndende midler), der bruges til at forebygge 
+blodpropper. Dosis af Deres blodfortyndende midler skal måske justeres. </li>
+<li>Antiepileptika. </li>
+<li>Rifabutin eller rifampicin, der bruges til behandling af tuberkulose. </li>
+<li>Griseofulvin, der bruges til behandling af svampeinfektioner </li>
+<li>Naturmedicin, der indeholder perikon (Hypericum perforatum). </li>
+<li>Sunitinib, etoposid: til behandling af kræft </li>
+</ul>
+<p>Brug af Lysodren sammen med mad og drikke 
+Lysodren bør fortrinsvis tages i forbindelse med måltider med madvarer med et højt indhold af fedt, 
+såsom mælk, chokolade, olie. </p>
+<p>Graviditet, amning og frugtbarhed 
+Spørg Deres læge eller apotekspersonalet til råds, før De tager nogen form for lægemidler. </p>
+<p>Lysodren kan skade fostret. Hvis De er gravid eller planlægger at blive gravid, skal De fortælle det til 
+Deres læge. Hvis De har mulighed for at blive gravid, bør De anvende sikker kontraception under 
+behandlingen med Lysodren, og når behandlingen er slut. Spørg Deres læge til råds. </p>
+<p>De må ikke amme, mens De tager Lysodren og heller ikke efter, De er holdt op. Spørg Deres læge til 
+råds. </p>
+<p>Trafik- og arbejdssikkerhed 
+Lysodren påvirker i væsentlig grad evnen til at føre og betjene maskiner. Spørg Deres læge til råds. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lysodren"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lysodren"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller på 
+apotekspersonalet. </p>
+<p>Den sædvanlige dosis er 
+Den normale startdosis for en voksen er 2 til 3 g (4 til 6 tabletter) om dagen. 
+Deres læge kan starte behandlingen med højere doser, som f.eks. 4 til 6 g (8 til 12 tabletter).  </p>
+<p>For at finde den optimale dosis til Dem vil Deres læge regelmæssigt overvåge niveauet af Lysodren i </p>
+<p>Deres blod. Deres læge kan beslutte at stoppe behandlingen med Lysodren for en tid eller at sænke 
+dosis, hvis De oplever visse bivirkninger.  </p>
+<p>Brug til børn og unge 
+Den daglige startdosis Lysodren er 1,5 til 3,5 g/m² legemsoverflade (dette vil blive beregnet af Deres 
+læge ud fra barnets vægt og størrelse). Erfaringen med patienter i denne aldersgruppe er meget 
+begrænset. </p>
+<p>Indgivelsesmåde 
+De skal sluge tabletter med et glas vand i forbindelse med måltider med madvarer med et højt 
+fedtindhold. Den totale daglige dosis kan fordeles på to eller tre doser. </p>
+<p>Hvis De har taget for meget Lysodren 
+Underret straks Deres læge, hvis De ved et uheld har taget flere Lysodren-tabletter, end De skulle, 
+eller hvis et barn ved et uheld har slugt nogle. </p>
+<p>Hvis De har glemt at tage Lysodren 
+Hvis De ved et uheld springer en dosis over, så tag bare den næste dosis som planlagt. De må ikke tage 
+en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Fortæl det straks til Deres læge, hvis De oplever nogen af følgende bivirkninger:</p>
+<ul>
+<li>Nedsat funktion af binyrebarken: Træthed, mavesmerter, kvalme, opkastning, diarré og 
+forvirring. </li>
+<li>Anæmi: Bleghed, muskelsvaghed, stakåndethed, svimmelhed, især når De rejser Dem. </li>
+<li>Leverskade: Gulfarvning af hud og øjne, kløe, kvalme, diarré, træthed, mørk urin </li>
+<li>Neurologiske forstyrrelser: Bevægelses- og koordinationsforstyrrelser, unormale fornemmelser 
+såsom sovende fornemmelse, hukommelsestab, koncentrationsbesvær, talebesvær, svimmelhed. </li>
+</ul>
+<p>Disse symptomer kan være tegn på komplikationer, som kan behandles med bestemte lægemidler. </p>
+<p>Bivirkninger kan forekomme med visse hyppigheder, der defineres som følger:</p>
+<ul>
+<li>Meget almindelig: Kan forekomme flere end 1 ud af 10 personer. </li>
+<li>Almindelig: Kan forekomme op til 1 ud af 10 personer. </li>
+<li>Ikke kendt: Hyppigheden kan ikke estimeres ud fra forhåndenværende data. </li>
+</ul>
+<p>Meget almindelige bivirkninger 
+- Opkastning, kvalme, diarré, mavesmerter. 
+- Manglende appetit. 
+- Unormale følelser, såsom sovende fornemmelse. 
+- Bevægelses- og koordinationsforstyrrelser, svimmelhed, forstyrrelse. 
+- Søvnighed, træthed, muskelsvaghed (muskeltræthed under anstrengelse). 
+- Inflammation (hævelse, varme, smerter) i slimhinder, hududslæt. 
+- Blødningsforstyrrelser (forlænget blødningstid). 
+- Forhøjet kolesterol, triglycerider (fedtstoffer) og leverenzymer (i blodprøver). 
+- Fald i antallet af hvide blodlegemer. 
+- Udvikling af bryster hos mænd. 
+- Nedsat funktion af binyrebarken. </p>
+<p>Almindelige bivirkninger 
+- Svimmelhed, hovedpine. </p>
+<ul>
+<li>Lidelser i det perifere nervesystem: Fornemmelse af føleforstyrrelser, muskelsvaghed og 
+muskelsvind, nedsat senerefleks og kredsløbssymptomer, såsom hedeture, sved, og 
+søvnforstyrrelser. </li>
+<li>Mental svækkelse (såsom hukommelsestab, koncentrationsbesvær). </li>
+<li>Bevægelsesforstyrrelser. </li>
+<li>Fald i antallet af røde blodlegemer (anæmi, med symptomer såsom bleghed og træthed), fald i 
+antallet af blodplader (gør Dem mere udsat for blå mærker og blødning). </li>
+<li>Hepatitis (autoimmun, dvs. kroppens celler angriber sig selv) (kan forårsage gulfarvning af hud 
+og øjne, mørk urin). </li>
+<li>Koordinationsbesvær. </li>
+</ul>
+<p>Hyppighed ikke kendt 
+- Feber. 
+- Generaliseret ømhed. 
+- Rødme, for højt eller lavt blodtryk, svimmelhed/vertigo (fornemmelse af at snurre rundt), når 
+De rejser Dem pludseligt. 
+- Øget spytproduktion. 
+- Øjenlidelser: Synssvækkelse, sløret syn, dobbeltsyn, billedforvrængning, blænding. 
+- Svampeinfektion. 
+- Leverskade (kan forårsage gulfarvning af hud og øjne, mørk urin). 
+- Nedsat urinsyre i blodprøver. 
+- Blæreinflammation med blødninger. 
+- Blod i urinen, protein i urinen. 
+- Balanceproblem. 
+- Smagsforstyrrelser. 
+- Nedsat fordøjelse. 
+- Cyster på æggestokkene (med symptomer som underlivssmerter og blødning). 
+- Nedsat androstendion (forstadium til kønshormoner) i blodprøver hos kvinder. 
+- Nedsat testosteron (kønshormon) i blodprøver hos kvinder. 
+- Forhøjet kønshormonbindende globulin (protein, der binder kønshormoner) i blodprøver. 
+- Nedsat frit testosteron (kønshormon) i blodprøver hos mænd. 
+- Hypogonadisme hos mænd (med symptomer som udvikling af bryster, nedsat sexlyst, 
+rejsningsproblemer, frugtbarhedsforstyrrelser). 
+- Allergiske reaktioner, kløe. </p>
+<p>Hos børn og unge er der blevet observeret thyroideaproblemer (problemer med skjoldbruskkirtlen), 
+neuropsykologisk retardering, væksthæmning og et tilfælde af encefalopati (forstyrrelse af hjernens 
+funktion). Derudover er der blevet observeret nogle tegn på hormonelle ændringer (såsom 
+overudvikling af bryster hos mænd og vaginal blødning og/eller tidlig brystudvikling hos kvinder). </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V*. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lysodren"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lysodren"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Opbevares i den originale pakning. Efter åbning: 1 år. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer for 
+cytotoksiske lægemidler. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lysodren indeholder:</p>
+<ul>
+<li>Aktivt stof: mitotan. Hver tablet indeholder 500 mg mitotan. </li>
+<li>Øvrige indholdsstoffer: majsstivelse, mikrokrystallinsk cellulose (E460), macrogol 3350 og 
+silica, kolloid, vandfri. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Lysodrentabletter er hvide, bikonvekse, runde tabletter med delekærv. 
+Lysodren findes i plastflasker med 100 tabletter. </p>
+<p>Indehaver af markedsføringstilladelsen 
+HRA Pharma Rare Diseases 
+200 avenue de Paris 
+92320 CHATILLON 
+Frankrig </p>
+<p>Fremstiller 
+Latina Pharma S.p.A. 
+Via Murillo, 7 <br />
+04013 Sermoneta (LT) 
+Italien </p>
+<p>eller </p>
+<p>CENTRE SPECIALITES PHARMACEUTIQUES 
+76-78, avenue du Midi 
+63800 COURNON D’AUVERGNE 
+FRANKRIG </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme, 
+og om, hvordan de behandles. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>
+<p>─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  </p>
+<p>LYSODREN-PATIENTKORT </p>
+<p>Jeg er i behandling med Lysodren (mitotan)  </p>
+<p>Jeg er disponeret for akut 
+binyrebarkinsufficiens </p>
+<p>I tilfælde af, at jeg har behov for akut hjælp,<br />
+bør der tages forsigtighedsforanstaltninger </p>
+<p>Min læges navn er: </p>
+<p>……………………………………….. 
+Tlf.: …………………………………. </p>
+<p>For information om produktet, kontakt: 
+ HRA Pharma Rare Diseases 
+Tlf.: + 33 1 40 33 93 Medinfo-rd@hra-pharma.com </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-96958c1c1275e460bebf23cdf143ad79
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lysodren Package Leaflet for language en"
+Description: "ePI document Bundle for lysodren Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-96958c1c1275e460bebf23cdf143ad79"
+* entry[0].resource = composition-en-96958c1c1275e460bebf23cdf143ad79
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp96958c1c1275e460bebf23cdf143ad79"
+* entry[=].resource = mp96958c1c1275e460bebf23cdf143ad79
+                            
+                    
+Instance: bundlepackageleaflet-da-96958c1c1275e460bebf23cdf143ad79
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lysodren Package Leaflet for language da"
+Description: "ePI document Bundle for lysodren Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-96958c1c1275e460bebf23cdf143ad79"
+* entry[0].resource = composition-da-96958c1c1275e460bebf23cdf143ad79
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp96958c1c1275e460bebf23cdf143ad79"
+* entry[=].resource = mp96958c1c1275e460bebf23cdf143ad79
+                            
+                    
+
+
+
+Instance: mp96958c1c1275e460bebf23cdf143ad79
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Lysodren 500 mg tablets"
-Description: "Lysodren 500 mg tablets"
+Title: "Medicinal Product lysodren"
+Description: "lysodren"
 Usage: #inline
 
  
@@ -339,7 +711,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Lysodren 500 mg tablets"
+  * productName = "lysodren"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -366,29 +738,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-96958c1c1275e460bebf23cdf143ad79
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lysodren Package Leaflet for language en"
-Description: "ePI document Bundle for lysodren Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 96958c1c1275e460bebf23cdf143ad79ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/04/273/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lysodren"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-96958c1c1275e460bebf23cdf143ad79"
-* entry[0].resource = composition-en-96958c1c1275e460bebf23cdf143ad79
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6fb43842b99315263e0f9002caa88cc3"
-* entry[=].resource = mp6fb43842b99315263e0f9002caa88cc3
-                            
-                      
+* title = "List of all ePIs associated with lysodren"
+
+* subject = Reference(mp6fb43842b99315263e0f9002caa88cc3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lysodren "lysodren"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-96958c1c1275e460bebf23cdf143ad79) // lysodren en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-96958c1c1275e460bebf23cdf143ad79) // lysodren da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-96958c1c1275e460bebf23cdf143ad79
+InstanceOf: List
+
+* insert 96958c1c1275e460bebf23cdf143ad79ListRuleset
+    

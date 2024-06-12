@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-691dd468387a7314644483dde7be004c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyxeos Package Leaflet"
@@ -275,12 +278,557 @@ Tel: +353 1 968 1Email: medinfo-int@jazzpharma.com </p>
 
 
 
+Instance: composition-da-691dd468387a7314644483dde7be004c
+InstanceOf: CompositionUvEpi
+Title: "Composition for vyxeos Package Leaflet"
+Description:  "Composition for vyxeos Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd2a97e090854a35edc2fdb1746bce745)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd2a97e090854a35edc2fdb1746bce745
+* title = "TEST PURPOSES ONLY - vyxeos"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får Vyxeos liposomal </li>
+<li>Sådan får du Vyxeos liposomal </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vyxeos is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vyxeos is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Vyxeos liposomal? 
+Vyxeos liposomal tilhører en gruppe lægemidler, der kaldes for ‘antineoplastiske midler’, og som 
+bruges i behandlingen af kræft. Det indeholder to aktive stoffer, daunorubicin og cytarabin, i form af 
+bittesmå partikler, der kaldes for liposomer. Disse aktive stoffer virker på forskellige måder for at 
+dræbe kræftceller ved at forhindre dem i at vokse og dele sig. Ved at pakke dem ind i liposomer 
+forlænges deres virkning i kroppen, og de kan bedre komme ind i kræftcellerne og dræbe dem. </p>
+<p>Hvad bruges Vyxeos liposomal til? 
+Vyxeos liposomal bruges til behandling af patienter med nyligt diagnosticeret akut myeloid leukæmi 
+(kræft i de hvide blodlegemer). Det gives, hvis leukæmien skyldes tidligere behandlinger (kaldet for 
+behandlingsrelateret akut myeloid leukæmi), eller hvis der er bestemte forandringer i knoglemarven 
+(kaldet for akut myeloid leukæmi med “myelodysplasi-relaterede forandringer"). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vyxeos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vyxeos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Vyxeos liposomal </p>
+<ul>
+<li>hvis du er allergisk over for de aktive stoffer (daunorubicin eller cytarabin) eller et af de øvrige 
+indholdsstoffer i Vyxeos liposomal (angivet i afsnit 6), </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Din læge vil overvåge dig under behandlingen. Kontakt lægen eller sygeplejersken, før du får Vyxeos 
+liposomal: </p>
+<ul>
+<li>
+<p>hvis du har lave antal af blodplader, røde eller hvide blodlegemer i dit blod (du vil få taget en 
+blodprøve, inden behandlingen starter). Hvis dette gør sig gældende for dig:</p>
+</li>
+<li>
+<p>vil din læge muligvis også give dig medicin, som skal forebygge infektioner </p>
+</li>
+<li>
+<p>vil din læge under behandlingen også tjekke dig for infektioner.  </p>
+</li>
+<li>
+<p>hvis du nogensinde har haft hjerteproblemer eller et hjerteanfald, eller du tidligere har fået 
+kræftmedicin, der kaldes for antracykliner. Hvis det gælder for dig, vil din læge muligvis 
+kontrollere dit hjerte, inden behandlingen starter og under behandlingen. </p>
+</li>
+<li>
+<p>hvis du mener, du kan være gravid. Du skal bruge en sikker præventionsmetode, for at du eller 
+din partner undgår at blive gravid under behandlingen og i 6 måneder efter din sidste dosis. </p>
+</li>
+<li>
+<p>hvis du har haft allergiske reaktioner (overfølsomhed). Din læge vil muligvis afbryde 
+behandlingen midlertidigt eller helt eller sætte droppets hastighed ned, hvis der opstår 
+overfølsomhed.  </p>
+</li>
+<li>
+<p>hvis du har haft problemer med nyrer eller lever. Din læge vil kontrollere dig under 
+behandlingen. </p>
+</li>
+<li>
+<p>hvis du nogensinde har haft en tilstand, der hedder Wilsons sygdom, eller anden kobberrelateret 
+sygdom, da Vyxeos liposomal har et indholdsstof, der kaldes for kobbergluconat. </p>
+</li>
+<li>
+<p>hvis du skal have en vaccine. </p>
+</li>
+</ul>
+<p>Din læge vil kontrollere dig hvad angår dit generelle helbred under behandlingen og vil muligvis også 
+give dig anden medicin til at understøtte din behandling – enten inden behandling med Vyxeos 
+liposomal eller samtidigt. Tal med din lægen, apotekspersonalet eller sundhedspersonalet, før du får 
+Vyxeos liposomal, hvis et eller flere af ovenstående punkter gør sig gældende for dig, eller du er i 
+tvivl. </p>
+<p>Børn og unge 
+Vyxeos liposomal anbefales ikke til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Vyxeos liposomal 
+Fortæl det altid til lægen eller sygeplejersken, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Det skyldes, at Vyxeos liposomal kan påvirke den 
+måde, anden medicin virker på. Desuden kan anden medicin påvirke den måde, Vyxeos liposomal 
+virker på. </p>
+<p>Fortæl det især til lægen eller sundhedspersonalet, hvis du bruger følgende medicin: </p>
+<ul>
+<li>
+<p>kræftmedicin, der kan påvirke dit hjerte, for eksempel doxorubicin </p>
+</li>
+<li>
+<p>medicin, som kan påvirke din lever </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Du må ikke bruge Vyxeos liposomal under graviditet, da det kan være skadeligt for barnet. Brug en 
+sikker præventionsform under behandlingen og i 6 måneder efter behandlingen. Fortæl det straks til 
+din læge, hvis du bliver gravid under behandlingen.  </p>
+<p>Du må ikke amme, mens du er i behandling med Vyxeos liposomal, da det kan være skadeligt for 
+barnet. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får dette lægemiddel. </p>
+<p>Prævention til mænd 
+Brug en sikker præventionsform under behandlingen og i 6 måneder efter behandling med Vyxeos 
+liposomal. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan føle dig søvnig eller svimmel, efter du har fået Vyxeos liposomal. Hvis det sker, må du ikke 
+køre bil, motorcykel eller cykle eller bruge værktøj og maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vyxeos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vyxeos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vyxeos liposomal skal gives af en læge eller sundhedspersonale, der har erfaring med behandling af 
+AML. </p>
+<ul>
+<li>
+<p>Det vil blive givet som et drop (en infusion) ind i en vene. </p>
+</li>
+<li>
+<p>Infusionen gives i et tidsrum på halvanden time (90 minutter). </p>
+</li>
+</ul>
+<p>Din læge eller sundhedspersonalet vil beregne din dosis af medicinen på baggrund af din vægt og 
+højde. Din behandling vil blive givet i cyklusser. Hver cyklus gives som en separat infusion og kan 
+blive givet med ugers mellemrum. </p>
+<p>Du vil få en første behandlingscyklus, og lægen vil beslutte, om du skal have yderligere cyklusser, 
+afhængigt af hvordan du reagerer på behandlingen og af de bivirkninger, du eventuelt får. Efter hver 
+cyklus vil din læge vurdere, hvordan du reagerer på behandlingen. </p>
+<ul>
+<li>I den første behandlingscyklus vil du få en infusion på dag 1, 3 og 5. * I yderligere behandlingscyklusser vil du få en infusion på dag 1 og 3. Dette kan om nødvendigt 
+gentages. </li>
+</ul>
+<p>Mens du er i behandling med Vyxeos liposomal, vil din læge regelmæssigt tage blodprøver fra dig for 
+at vurdere, hvordan du reagerer på behandlingen, og for at kontrollere, at du godt kan tåle den. Din 
+læge vil muligvis også undersøge din hjerte, da Vyxeos liposomal kan påvirke hjertet. </p>
+<p>Hvis du har fået for meget Vyxeos liposomal 
+Du vil få dette lægemiddel på et hospital, hvor det bliver givet af en læge eller sygeplejerske. Det er 
+usandsynligt, at du vil få for meget. Fortæl det alligevel til lægen eller sygeplejersken, hvis der er 
+noget, du er bekymret over. </p>
+<p>Hvis du har glemt en konsultation 
+Kontakt din læge eller sygeplejersken snarest muligt. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger, der kan ramme mere end 1 ud af 10 personer (meget almindelige) 
+Vyxeos liposomal kan mindske antallet af hvide blodlegemer, som bekæmper infektioner, og desuden 
+de blodceller, som får blodet til at størkne (blodplader). Dette fører til blødningsforstyrrelser, for 
+eksempel næseblod og blå mærker. Vyxeos liposomal kan desuden medføre hjerteproblemer og 
+beskadigelse af hjertemusklen. </p>
+<p>Du skal derfor straks fortælle det til din læge, hvis du får: </p>
+<ul>
+<li>
+<p>feber, kulderystelser, ondt i halsen, hoste, mundsår eller andre symptomer på en infektion </p>
+</li>
+<li>
+<p>blødning eller blå mærker, uden at du har slået dig </p>
+</li>
+<li>
+<p>brystsmerter eller smerter i benene </p>
+</li>
+<li>
+<p>stakåndethed </p>
+</li>
+</ul>
+<p>Fortæl det straks til din læge, hvis du får en eller flere af ovenstående bivirkninger. </p>
+<p>Andre bivirkninger </p>
+<p>Meget almindelige bivirkninger (kan ramme mere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>et fald i antallet af blodplader (celler, der får blodet til at størkne), som kan medføre blå mærker 
+eller blødningfeber, ofte med andre tegn på infektion, som skyldes et meget lavt antal hvide 
+blodlegemer (febril neutropeni) </p>
+</li>
+<li>
+<p>langsom, hurtig eller uregelmæssig hjerterytme, brystsmerter (som kan være et tegn på 
+infektion)  </p>
+</li>
+<li>
+<p>problemer med synet, sløret syn </p>
+</li>
+<li>
+<p>smerter eller hævelse i vævet omkring fordøjelsessystemet (mucositis) eller smerter i maven, 
+forstoppelse, appetitløshed, diaré, kvalme eller opkastning </p>
+</li>
+<li>
+<p>rødme i huden, udslæt, muskelømhed, hovedpine, knoglesmerter, ledsmerter, træthed, 
+generaliseret hævelse, herunder hævelse på arme og ben </p>
+</li>
+<li>
+<p>hovedpine, svimmelhed, forvirring, søvnproblemer, angst </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+<li>
+<p>stakåndethed, hoste, væske i lungerne </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>blødning </p>
+</li>
+<li>
+<p>forhøjet blodtryk eller fald i blodtrykket </p>
+</li>
+<li>
+<p>kulderystelser, lav kropstemperatur eller høj kropstemperatur </p>
+</li>
+<li>
+<p>øget svedproduktion </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan ramme op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>et fald i antallet af røde blodlegemer (anæmi), som forårsager træthed og svækkelse </p>
+</li>
+<li>
+<p>nyresvigt og unormale blodprøver på grund af omfattende kræftcelledød (tumorlysesyndrom) </p>
+</li>
+<li>
+<p>mavepine eller meget luft i maven </p>
+</li>
+<li>
+<p>kraftig nattesved </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan ramme op til 1 ud af 100 personer): </p>
+<ul>
+<li>følelsesløshed og udslæt på hænder og fødder (palmoplantar erytrodysæstesi-syndrom). </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vyxeos"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vyxeos"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og hætteglasset efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Opbevares i køleskab (2 °C til 8 °C). </p>
+</li>
+<li>
+<p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Opbevares i opret position. </p>
+</li>
+<li>
+<p>Efter rekonstituering skal hætteglassene opbevares i køleskab (2 °C til 8 °C) i op til 4 timer i 
+opret position.  </p>
+</li>
+<li>
+<p>Efter fortynding skal infusionsvæsken i infusionsposer opbevares i køleskab (2 °C til 8 °C) i op 
+til 4 timer. Den maksimale, samlede opbevaringstid må ikke overstige 4 timer for det 
+rekonstituerede produkt i hætteglasset ved opbevaring i lodret position og det rekonstituerede 
+produkt efter fortynding i en infusionspose. Den 90-minutters infusionstid er ud over 
+opbevaringstiden på op til 4 timer. </p>
+</li>
+<li>
+<p>Brug ikke dette lægemiddel, hvis der er partikler i den fortyndede opløsning. </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet.  </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vyxeos liposomal indeholder  </p>
+<ul>
+<li>
+<p>Aktivt stof/aktive stoffer: daunorubicin og cytarabin. Hvert 50 ml hætteglas indeholder 44 mg 
+daunorubicin og 100 mg cytarabin. </p>
+</li>
+<li>
+<p>Efter rekonstituering indeholder opløsningen 2,2 mg/ml daunorubicin og 5 mg/ml cytarabin 
+indkapslet i liposomer </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: distearoylphosphatidylcholin, distearoylphosphatidylglycerol, 
+cholesterol, kobbergluconat, trolamin og saccharose. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Vyxeos liposomal er et violet pulver til koncentrat til infusionsvæske, opløsning, der leveres i et 
+hætteglas.<br />
+Hver pakning indeholder 1 hætteglas, 2 hætteglas eller 5 hætteglas. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Jazz Pharmaceuticals Ireland Ltd<br />
+5th Floor 
+Waterloo Exchange 
+Waterloo Road 
+Dublin 
+D04 E5W7 
+Irland 
+Tlf.: +353 1 968 1E-mail: medinfo-int@jazzpharma.com </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Vyxeos liposomal er et cytotoksisk lægemiddel. Særlige gældende procedurer for håndtering og 
+bortskaffelse skal følges. Produktet er kun beregnet til engangsbrug. Det indeholder ingen 
+konserveringsmidler. Ubrugte portioner må ikke gemmes til senere brug. </p>
+<p>Instruktioner til klargøring </p>
+<ul>
+<li>
+<p>Bestem dosis og antal hætteglas med Vyxeos liposomal baseret på den enkelte patients 
+legemsoverfladeareal (BSA) og som beskrevet i pkt. 4.2. * Tag det nødvendige antal hætteglas med Vyxeos liposomal ud af køleskabet og lad det stå i 
+cirka 30 minutter, til det har opnået stuetemperatur (15 °C til 30 °C). </p>
+</li>
+<li>
+<p>Rekonstituér derefter hvert hætteglas med 19 ml sterilt vand til injektionsvæsker med 
+anvendelse af en 20 ml sprøjte. Start umiddelbart derefter en 5-minutters tidtager. </p>
+</li>
+<li>
+<p>Skvulp forsigtigt hætteglassets indhold i 5 minutter, mens hætteglasset vendes forsigtigt om 
+hvert halve minut. </p>
+</li>
+<li>
+<p>Må ikke opvarmes, hvirvles eller omrystes kraftigt. </p>
+</li>
+<li>
+<p>Lad det hvile i 15 minutter efter rekonstituering. </p>
+</li>
+<li>
+<p>Det rekonstituerede produkt skal være en uigennemsigtig, violet, homogen dispersion, der ikke i 
+væsentlig grad indeholder synlige partikler. </p>
+</li>
+<li>
+<p>Opbevar det rekonstituerede produkt i køleskab (2 ºC til 8 ºC) i op til 4 timer, hvis det ikke 
+straks fortyndes ind i en infusionspose. </p>
+</li>
+<li>
+<p>Efter opbevaring af det rekonstituerede produkt i hætteglasset i op til 4 timer ved 2 ºC til 8 ºC i 
+lodret position skal det rekonstituerede produkt straks fortyndes i en infusionsvæske og 
+gennemløbe den 90-minutters infusionstid. * Det rekonstituerede produkt i hætteglasset og rekonstitueret produkt, der er fortyndet i en 
+infusionsvæske, er stabilt i en maksimalt, samlet opbevaringstid på op til 4 timer, når det 
+opbevares ved 2 ºC til 8 ºC. Efter den 4-timers stabilitetsperiode for det rekonstituerede 
+produkt i hætteglasset er der ikke mulighed for en yderligere 4-timers stabilitetsperiode, 
+når den relevante dosis fra det rekonstituerede hætteglas er fortyndet i infusionsvæsken. * Den 4-timers stabilitetsperiode, der gælder for det rekonstituerede produkt, der er 
+fortyndet i infusionsposen og opbevaret ved 2 °C til 8 °C, omfatter ikke den tid, der 
+medgår til rekonstitution, og heller ikke den 90-minutters infusionstid. * Den fortyndede infusionsvæske skal infunderes med det samme over den 90-minutters 
+infusionstid efter stabilitetsperioden på op til 4 timer. </p>
+</li>
+<li>
+<p>Beregn den nødvendige mængde rekonstitueret Vyxeos liposomal med anvendelse af følgende 
+formel: 
+[nødvendig mængde (ml) = dosis daunorubicin (mg/m2) x patientens BSA (m2)/2,2 (mg/ml)]. 
+Den rekonstituerede opløsnings koncentration er 44 mg/20 ml (2,2 mg/ml) daunorubicin 
+og 100 mg/20 ml (5 mg/ml) cytarabin. </p>
+</li>
+<li>
+<p>Vend forsigtigt hvert hætteglas om 5 gange, inden koncentratet til fortynding trækkes op. </p>
+</li>
+<li>
+<p>Træk den beregnede mængde rekonstitueret Vyxeos liposomal aseptisk op af hætteglasset 
+(hætteglassene) med en steril injektionssprøjte og overfør den til en infusionspose, der 
+indeholder 500 ml natriumchlorid 9 mg/ml (0,9%) injektionsvæske eller 5% glucose. Der kan 
+stadig være restprodukt i hætteglasset. Kassér den ubrugte del. </p>
+</li>
+<li>
+<p>Vend forsigtigt posen om, så væsken blandes. Fortyndingen af det rekonstituerede produkt giver 
+en mørkviolet, gennemsigtig, homogen dispersion. </p>
+</li>
+<li>
+<p>Hvis den fortyndede infusionsvæske ikke bruges straks, skal den opbevares i køleskab (2 °C 
+til 8 °C) i op til 4 timer. </p>
+</li>
+<li>
+<p>Vend forsigtigt posen om, så væsken blandes, efter opbevaring i køleskab. </p>
+</li>
+</ul>
+<p>Instruktioner til administration </p>
+<ul>
+<li>
+<p>Vyxeos liposomal må ikke blandes med andre lægemidler eller administreres som en infusion 
+med andre lægemidler. </p>
+</li>
+<li>
+<p>Administrér Vyxeos liposomal som en konstant intravenøs infusion i 90 minutter via en 
+infusionspumpe gennem et centralt venekateter eller et perifert indført centralt kateter. Der kan 
+anvendes et in-line-membranfilter til intravenøs infusion af Vyxeos liposomal under 
+forudsætning af, at filterets mindste porediameter er større end eller lig med 15 µm. </p>
+</li>
+<li>
+<p>Skyl slangen efter administration med natriumchlorid 9 mg/ml (0,9%) injektionsvæske. </p>
+</li>
+</ul>
+<p>Bortskaffelse 
+Dette lægemiddel kan potentielt udgøre en risiko for miljøet på grund af de cytotoksiske og 
+antimitotiske aktiviteter, der muligvis kan fremkalde virkninger på reproduktionsevnen. Alle 
+materialer, der er brugt til fortynding og administration, skal kasseres i overensstemmelse med de 
+lokale procedurer, der gælder for bortskaffelse af antineoplastiske midler. Ikke anvendt lægemiddel 
+samt affald heraf skal bortskaffes i henhold til lokale retningslinjer for cytotoksiske midler. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-691dd468387a7314644483dde7be004c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyxeos Package Leaflet for language en"
+Description: "ePI document Bundle for vyxeos Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-691dd468387a7314644483dde7be004c"
+* entry[0].resource = composition-en-691dd468387a7314644483dde7be004c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp691dd468387a7314644483dde7be004c"
+* entry[=].resource = mp691dd468387a7314644483dde7be004c
+                            
+                    
+Instance: bundlepackageleaflet-da-691dd468387a7314644483dde7be004c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyxeos Package Leaflet for language da"
+Description: "ePI document Bundle for vyxeos Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-691dd468387a7314644483dde7be004c"
+* entry[0].resource = composition-da-691dd468387a7314644483dde7be004c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp691dd468387a7314644483dde7be004c"
+* entry[=].resource = mp691dd468387a7314644483dde7be004c
+                            
+                    
+
+
+
+Instance: mp691dd468387a7314644483dde7be004c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vyxeos liposomal 44 mg/100 mg powder for concentrate for solution for infusion."
-Description: "Vyxeos liposomal 44 mg/100 mg powder for concentrate for solution for infusion."
+Title: "Medicinal Product vyxeos"
+Description: "vyxeos"
 Usage: #inline
 
  
@@ -300,7 +848,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vyxeos liposomal 44 mg/100 mg powder for concentrate for solution for infusion."
+  * productName = "vyxeos"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -327,29 +875,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-691dd468387a7314644483dde7be004c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vyxeos Package Leaflet for language en"
-Description: "ePI document Bundle for vyxeos Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 691dd468387a7314644483dde7be004cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1308/001 1 vial"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vyxeos"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-691dd468387a7314644483dde7be004c"
-* entry[0].resource = composition-en-691dd468387a7314644483dde7be004c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd2a97e090854a35edc2fdb1746bce745"
-* entry[=].resource = mpd2a97e090854a35edc2fdb1746bce745
-                            
-                      
+* title = "List of all ePIs associated with vyxeos"
+
+* subject = Reference(mpd2a97e090854a35edc2fdb1746bce745)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vyxeos "vyxeos"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-691dd468387a7314644483dde7be004c) // vyxeos en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-691dd468387a7314644483dde7be004c) // vyxeos da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-691dd468387a7314644483dde7be004c
+InstanceOf: List
+
+* insert 691dd468387a7314644483dde7be004cListRuleset
+    

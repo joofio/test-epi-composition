@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b22e4f6e000233f7a0ddfe37c0cbf809
 InstanceOf: CompositionUvEpi
 Title: "Composition for pluvicto Package Leaflet"
@@ -423,12 +426,527 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-b22e4f6e000233f7a0ddfe37c0cbf809
+InstanceOf: CompositionUvEpi
+Title: "Composition for pluvicto Package Leaflet"
+Description:  "Composition for pluvicto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp282b475bedc35c71f1d394ab9074296b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp282b475bedc35c71f1d394ab9074296b
+* title = "TEST PURPOSES ONLY - pluvicto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du får Pluvicto </li>
+<li>Sådan får du Pluvicto </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What pluvicto is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What pluvicto is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Pluvicto 
+Pluvicto indeholder lutetium (177Lu) vipivotidtetraxetan. Dette lægemiddel er et radiofarmaceutisk 
+lægemiddel, der udelukkende anvendes til behandling. </p>
+<p>Hvad anvendes Pluvicto til 
+Pluvicto bruges til at behandle voksne med progressiv kastrationsresistent prostatakræft, som har 
+spredt sig til andre dele af kroppen (metastatisk), og som allerede er blevet behandlet med andre 
+kræftbehandlinger. Kastrationsresistent prostatakræft er en kræft i prostata (blærehalskirtlen, en kirtel i 
+det mandlige reproduktionssystem), som ikke reagerer på behandling, der reducerer mandlige 
+hormoner. Pluvicto anvendes, hvis prostatakræftcellerne har et protein på deres overflade, kaldet 
+prostataspecifik membranantigen (PSMA). </p>
+<p>Sådan virker Pluvicto 
+Pluvicto binder sig til PSMA, som findes på overfladen af prostatakræftcellerne. Når det er bundet, vil 
+den radioaktive substans i Pluvicto, lutetium-177, udsende stråling, som får prostatakræftcellerne til at 
+dø. </p>
+<p>Din læge vil udføre tests for at se, om der er PSMA på overfladen af kræftcellerne. Det er mere 
+sandsynligt, at din kræftsygdom reagerer på behandlingen med Pluvicto, hvis testresultatet er positivt. </p>
+<p>Anvendelsen af Pluvicto indebærer, at du bliver udsat for mængder af radioaktivitet. Din læge og 
+nuklearmedicineren har vurderet, at den kliniske gavn, du vil få af behandling med et 
+radiofarmaceutisk lægemiddel, er større end risikoen ved stråling. </p>
+<p>Hvis du har spørgsmål til, hvordan Pluvicto virker, eller hvorfor dette lægemiddel er blevet ordineret 
+til dig, så tal med nuklearmedicineren. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take pluvicto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take pluvicto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følg omhyggeligt alle anvisninger fra nuklearmedicineren. De kan måske være forskellige fra de 
+generelle oplysninger i denne indlægsseddel. </p>
+<p>Du må ikke få Pluvicto 
+- hvis du er allergisk over for lutetium (177Lu) vipivotidtetraxetan eller et af de øvrige 
+indholdsstoffer i dette lægemiddel (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Hvis noget af dette gælder for dig, skal du fortælle det til nuklearmedicineren, før du får Pluvicto:</p>
+<ul>
+<li>hvis du har lave niveauer af visse celletyper i blodet (røde blodlegemer, hvide blodlegemer, 
+neutrofiler, blodplader) </li>
+<li>hvis du lider eller har lidt af træthed, svaghed, bleg hud, åndenød, tendens til at få blødninger 
+eller blå mærker lettere end normalt eller blødning længere end normalt, eller hyppige 
+infektioner med tegn som feber, kulderystelser, ondt i halsen eller mundsår (mulige tegn på 
+myelosuppression [en tilstand, hvor knoglemarven ikke kan lave nok blodlegemer]) </li>
+<li>hvis du har eller har haft nyreproblemer </li>
+<li>hvis du har eller har haft nogen anden form for kræft eller har fået kræftbehandling, da Pluvicto 
+bidrager til din totale samlede strålingseksponering på lang sigt </li>
+</ul>
+<p>Før du får Pluvicto, skal du:</p>
+<ul>
+<li>drikke rigeligt med vand for at forblive hydreret og lade vandet så ofte som muligt i de første 
+timer efter, at du har fået Pluvicto </li>
+</ul>
+<p>Børn og unge 
+Sikkerheden og virkningen af dette lægemiddel er ikke klarlagt hos børn og unge under 18 år. Dette 
+lægemiddel bør ikke gives til børn eller unge under 18 år, fordi der ikke er data tilgængelige for denne 
+aldersgruppe. </p>
+<p>Graviditet, amning og frugtbarhed 
+Pluvicto er ikke beregnet til brug hos kvinder. </p>
+<p>Inden du får Pluvicto, skal du fortælle det til nuklearmedicineren, hvis du er seksuelt aktiv, da alle 
+radiofarmaceutiske lægemidler, herunder Pluvicto, potentielt kan skade et ufødt barn. </p>
+<p>Frugtbarhed 
+Pluvicto kan forårsage infertilitet (ufrugtbarhed). Spørg din læge, hvordan dette kan påvirke dig, især 
+hvis du planlægger at få børn i fremtiden. Du kan eventuelt søge råd om bevaring af sæd, inden 
+behandlingen påbegyndes. </p>
+<p>Prævention hos mænd 
+- Du skal undgå seksuel aktivitet i 7 dage efter, at du har fået Pluvicto. 
+- Du må ikke blive gøre en kvinde gravid, og du skal bruge kondom under samleje gennem hele 
+behandlingen med Pluvicto og i 14 uger efter din sidste dosis. 
+- Fortæl det straks til din nuklearmediciner, hvis du gør en kvinde gravid i løbet af denne periode. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det anses for usandsynligt, at Pluvicto vil påvirke din evne til at føre motorkøretøj eller betjene 
+maskiner. </p>
+<p>Pluvicto indeholder natrium 
+Dette lægemiddel indeholder op til 88,75 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
+hætteglas. Dette svarer til 4,4 % af den anbefalede maximale daglige indtagelse af natrium for en 
+voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pluvicto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pluvicto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Der gælder strenge lovbestemmelser for anvendelse, håndtering og bortskaffelse af radiofarmaceutiske 
+lægemidler. Pluvicto vil kun blive anvendt i særlige, kontrollerede områder. Dette radiofarmaceutiske 
+lægemiddel må kun håndteres og gives til dig af personale, der er oplært i og kvalificerede til at 
+anvende det på en sikker måde. De pågældende vil sikre, at det radiofarmaceutiske lægemiddel 
+anvendes på en sikker måde, og vil holde dig orienteret om, hvad de foretager sig. </p>
+<p>Så meget Pluvicto vil du få 
+Det anbefalede behandlingsregime for Pluvicto er 7 400 MBq (megabecquerel, den enhed, der bruges 
+til at udtrykke radioaktivitet), hvilket gives ca. hver 6. uge op til i alt 6 doser. </p>
+<p>Sådan gives Pluvicto og gennemførelse af behandlingen 
+Pluvicto gives direkte i en vene. </p>
+<p>Behandlingens varighed 
+Nuklearmedicineren vil fortælle dig om behandlingens normale varighed. </p>
+<p>Hvis du har spørgsmål om, hvor længe du skal have Pluvicto, skal du tale med nuklearmedicineren. </p>
+<p>Behandlingsovervågning 
+Nuklearmedicineren vil tage blodprøver før og under behandlingen for at kontrollere din tilstand og 
+for at opdage eventuelle bivirkninger så tidligt som muligt. På baggrund af resultaterne kan 
+nuklearmedicineren beslutte at udsætte, ændre eller stoppe din behandling med Pluvicto, hvis det er 
+nødvendigt. </p>
+<p>Når du har fået Pluvicto, skal du:</p>
+<ul>
+<li>drikke rigeligt med vand i 2 dage for at forblive hydreret og lade vandet så ofte som muligt for 
+at fjerne det radiofarmaceutiske lægemiddel fra kroppen </li>
+</ul>
+<p>Da dette lægemiddel er radioaktivt, skal du følge instruktionerne nedenfor for at minimere den 
+mængde stråling andre udsættes for, medmindre du er blevet instrueret i andet af din 
+nuklearmediciner. </p>
+<p>Kontakt med andre i husstanden, børn og/eller gravide kvinder 
+- Begræns tæt kontakt (under 1 meter) til:</p>
+<ul>
+<li>andre i husstanden i 2 dage </li>
+<li>børn og gravide i 7 dage </li>
+<li>
+<p>Sov i et andet soveværelse end:</p>
+</li>
+<li>
+<p>andre i husstanden i 3 dage </p>
+</li>
+<li>børn i 7 dage </li>
+<li>gravide kvinder i 15 dage </li>
+<li>Undgå seksuel aktivitet i 7 dage </li>
+<li>Du må ikke gøre en kvinde gravid, og du skal bruge kondom under samleje gennem hele 
+behandlingen med Pluvicto og i 14 uger efter din sidste dosis </li>
+</ul>
+<p>Brug af toiletter 
+Tag særlige forholdsregler for at undgå kontaminering i 2 dage efter, at du har fået Pluvicto:</p>
+<ul>
+<li>Du skal altid sidde ned, når du er på toilettet. </li>
+<li>Det er vigtigt, at du bruger toiletpapir, hver gang du har været på toilettet. </li>
+<li>Vask altid hænder grundigt efter brug af toilettet. </li>
+<li>Skyl alle vådservietter og/eller toiletpapir ud i toilettet straks efter brug. </li>
+<li>Skyl alle papirservietter eller andre genstande, der indeholder noget fra din krop, såsom blod, 
+urin og fæces, ud i toilettet. Ting, der ikke kan skylles ud i toilettet, såsom bandager, skal 
+placeres i separate affaldsposer (i henhold til anbefalingen i punktet "Affaldshåndtering" 
+nedenfor). </li>
+<li>Særligt medicinsk udstyr, der kan blive forurenet af dine kropsvæsker (fx kateterposer, 
+stomiposer, bækkener, vanddyser), skal straks tømmes ud i toilettet og derefter rengøres. </li>
+</ul>
+<p>Brusebad og tøjvask 
+- Tag et bad hver dag i mindst 7 dage efter, at du har fået Pluvicto. 
+- Vask dit undertøj, pyjamas, lagner samt alt tøj, der indeholder sved, blod eller urin på normal 
+vis, men separat fra vasketøjet fra andre medlemmer af din husstand. Du behøver ikke at bruge 
+blegemiddel og vasketøjet behøver ikke ekstra skylninger. </p>
+<p>Omsorgspersoner 
+I 2-3 dage efter, at du har fået Pluvicto:</p>
+<ul>
+<li>Personer, der er sengeliggende eller har nedsat mobilitet, vil fortrinsvis få hjælp fra 
+omsorgspersoner. Det anbefales, at omsorgspersoner bruger engangshandsker, når de hjælper 
+dig på badeværelset. </li>
+<li>Omsorgspersonale, som tørrer opkast, blod, urin eller afføring op, skal bruge plastikhandsker, 
+som skal bortskaffes i en separat affaldspose (se "Affaldshåndtering" nedenfor). </li>
+</ul>
+<p>Affaldshåndtering 
+- Alle genstande, som skal smides ud, skal bortskaffes i en separat affaldspose, der kun anvendes 
+til dette formål. 
+- Opbevar affaldsposerne adskilt fra andet husholdningsaffald og væk fra børn og dyr. 
+- Hospitalspersonalet vil fortælle dig, hvordan og hvornår du skal bortskaffe affaldet. </p>
+<p>Hospitalsindlæggelse og akut behandling 
+- Hvis du af en eller anden grund har brug for akut lægehjælp eller bliver uplanlagt indlagt på 
+hospitalet i løbet af de første 7 dage efter, at du har fået Pluvicto, skal du informere 
+sundhedspersonalet om navn, dato og dosis af din radioaktive behandling. </p>
+<p>Andre forholdsregler 
+- Nuklearmedicineren vil informere dig om, hvorvidt du skal tage nogen særlige forholdsregler, 
+efter at have fået dette lægemiddel. Kontakt nuklearmedicineren, hvis du har spørgsmål. </p>
+<p>Hvis du har fået for meget Pluvicto 
+Det er ikke sandsynligt, at du vil få en overdosis, fordi du kun vil modtage Pluvicto i doser, der er 
+præcist kontrollede af nuklearmedicineren, der har ansvar for behandlingen. Skulle du alligevel få en 
+overdosis, vil du få den nødvendige behandling. </p>
+<p>Hvis du har glemt at få Pluvicto 
+Hvis du glemmer en aftale om at få Pluvicto, skal du kontakte nuklearmedicineren så hurtigt som 
+muligt for at aftale en ny tid. </p>
+<p>Hvis du har yderligere spørgsmål om brugen af Pluvicto, skal du spørge nuklearmedicineren, der har 
+ansvar for behandlingen. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige 
+Hvis du oplever en eller flere af følgende alvorlige bivirkninger, skal du fortælle det til 
+nuklearmedicineren med det samme. </p>
+<p>Meget almindelige: kan forekomme hos flere end 1 ud af 10 patienter 
+- træthed, svaghed, bleg hud eller åndenød (mulige tegn på lave niveauer af røde blodlegemer 
+[blodmangel]) 
+- tendens til blødning eller blå mærker lettere end normalt eller blødning længere end normalt 
+(kan være tegn på lave niveauer af blodplader [trombocytopeni]) 
+- hyppige infektioner med tegn som feber, ondt i halsen eller mundsår (kan være tegn på lave 
+niveauer af hvide blodlegemer [leukopeni, lymfopeni]) </p>
+<p>Almindelige: kan forekomme hos op til 1 ud af 10 patienter 
+- mindre hyppig vandladning eller meget mindre urinmængde end normalt (kan være tegn på 
+nyreproblemer [akut nyreskade]) 
+- træthed, svaghed, bleg hud, åndenød, tendens til at få blødninger eller blå mærker lettere end 
+normalt eller blødning længere end normalt eller hyppige infektioner med tegn som feber, 
+kulderystelser, ondt i halsen eller mundsår (mulige tegn på et lave niveauer af blodlegemer 
+[pancytopeni]) </p>
+<p>Øvrige bivirkninger 
+Øvrige bivirkninger er anført nedenfor. Hvis disse bivirkninger bliver alvorlige, skal du fortælle det til 
+nuklearmedicineren. </p>
+<p>Meget almindelige: kan forekomme hos flere end 1 ud af 10 patienter 
+- træthed 
+- mundtørhed 
+- kvalme 
+- manglende appetit 
+- ændringer i afføringen (forstoppelse eller diarré) 
+- opkastning 
+- hyppig vandladning med smerter eller en brændende fornemmelse (urinvejsinfektion) 
+- urinvejsinfektion 
+- mavesmerter 
+- vægttab </p>
+<p>Almindelige: kan forekomme hos op til 1 ud af 10 patienter 
+- hævede hænder, ankler eller fødder (perifert ødem) 
+- svimmelhed 
+- hovedpine 
+- smagsforstyrrelser (dysgeusi) 
+- feber (pyreksi) 
+- tørre øjne 
+- svimmelhed med en fornemmelse af, at alting drejer rundt (vertigo) </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med nuklearmedicineren. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pluvicto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pluvicto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du skal ikke selv opbevare dette lægemiddel. Opbevaring af lægemidlet sker under ansvar af 
+specialuddannet personale i særlige lokaler. Opbevaring af radiofarmaceutiske lægemidler skal ske i 
+overensstemmelse med nationale bestemmelser om radioaktive materialer. </p>
+<p>Oplysningerne nedenfor er kun beregnet til det specialuddannede personale:</p>
+<ul>
+<li>Opbevar lægemidlet utilgængeligt for børn. </li>
+<li>Må ikke nedfryses. </li>
+<li>Opbevares i den originale pakning for at beskytte mod ioniserende stråling (blyafskærmning). </li>
+<li>Pluvicto må ikke anvendes efter den udløbsdato og det tidspunkt, der står på 
+blyafskærmningsbeholderens og hætteglassets etiket efter EXP. </li>
+<li>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pluvicto indeholder:</p>
+<ul>
+<li>Aktivt stof: lutetium (177Lu) vipivotidtetraxetan. En ml opløsning indeholder 1 000 MBq 
+lutetium (177Lu) vipivotidtetraxetan på datoen og tidspunktet for kalibrering. </li>
+<li>Øvrige indholdsstoffer: eddikesyre, natriumacetat, gentisinsyre, natriumascorbat, pentetatsyre, 
+vand til injektionsvæsker (se "Pluvicto indeholder natrium" i punkt 2). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Pluvicto er en klar, farveløs til svagt gul opløsning, der leveres i et klart, farveløst type I-hætteglas, 
+lukket med en brombutylgummiprop og aluminiumsforsegling. 
+Hvert hætteglas indeholder en mængde opløsning, der kan variere fra 7,5 ml til 12,5 ml, svarende til 
+en radioaktivitet på 7 400 MBq ± 10 % på datoen og tidspunktet for administration. 
+Hætteglasset er indesluttet i en blybeholder for beskyttende afskærmning. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Advanced Accelerator Applications (Italy) S.R.L. 
+Via Ribes 5 
+10Colleretto Giacosa (TO) 
+Italien </p>
+<p>Advanced Accelerator Applications Ibérica, S.L.U. 
+Polígono Industrial la Cuesta - Sector 3 
+Parcelas 1 y 2 La Almunia de Doña Godina 
+50100 Zaragoza 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16 Lietuva 
+SAM Nordic 
+Švedija 
+Tel: +46 8 720 58<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16 Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65<br />
+Danmark 
+SAM Nordic 
+Sverige 
+Tel: +46 8 720 58<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2 
+Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SAM Nordic 
+Rootsi 
+Tel: +46 8 720 58<br />
+Norge 
+SAM Nordic 
+Sverige 
+Tlf: +46 8 720 58<br />
+Ελλάδα 
+ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
+Τηλ: +30 22920 63ή 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Advanced Accelerator Applications Ibérica, 
+S.L.U. 
+Tel: +34 97 6600<br />
+Polska 
+Advanced Accelerator Applications Polska Sp. z 
+o.o. 
+Tel.: +48 22 275 56<br />
+France 
+Advanced Accelerator Applications 
+Tél: +33 1 55 47 63<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+Ísland 
+SAM Nordic 
+Svíþjóð 
+Sími: +46 8 720 58<br />
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+SAM Nordic 
+Ruotsi/Sverige 
+Puh/Tel: +46 8 720 58<br />
+Κύπρος 
+ΒΙΟΚΟΣΜΟΣ ΑΕΒΕ 
+Τηλ: +30 22920 63ή 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+SAM Nordic 
+Tel: +46 8 720 58<br />
+Latvija 
+SAM Nordic 
+Zviedrija 
+Tel: +46 8 720 58<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu .  </p>
+<p>--------------------------------------------------------------------------------------------------------------------------- Nedenstående oplysninger er til sundhedspersoner: </p>
+<p>Det fuldstændige produktresumé for Pluvicto er indlagt separat i pakningen, så sundhedspersoner kan 
+få supplerende videnskabelige og praktiske oplysninger om administration og anvendelse af dette 
+radiofarmaceutiske lægemiddel. </p>
+<p>Se produktresuméet. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-b22e4f6e000233f7a0ddfe37c0cbf809
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pluvicto Package Leaflet for language en"
+Description: "ePI document Bundle for pluvicto Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b22e4f6e000233f7a0ddfe37c0cbf809"
+* entry[0].resource = composition-en-b22e4f6e000233f7a0ddfe37c0cbf809
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb22e4f6e000233f7a0ddfe37c0cbf809"
+* entry[=].resource = mpb22e4f6e000233f7a0ddfe37c0cbf809
+                            
+                    
+Instance: bundlepackageleaflet-da-b22e4f6e000233f7a0ddfe37c0cbf809
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pluvicto Package Leaflet for language da"
+Description: "ePI document Bundle for pluvicto Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-b22e4f6e000233f7a0ddfe37c0cbf809"
+* entry[0].resource = composition-da-b22e4f6e000233f7a0ddfe37c0cbf809
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb22e4f6e000233f7a0ddfe37c0cbf809"
+* entry[=].resource = mpb22e4f6e000233f7a0ddfe37c0cbf809
+                            
+                    
+
+
+
+Instance: mpb22e4f6e000233f7a0ddfe37c0cbf809
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Pluvicto 1 000 MBq/mL solution for injection/infusion"
-Description: "Pluvicto 1 000 MBq/mL solution for injection/infusion"
+Title: "Medicinal Product pluvicto"
+Description: "pluvicto"
 Usage: #inline
 
  
@@ -448,7 +966,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Pluvicto 1 000 MBq/mL solution for injection/infusion"
+  * productName = "pluvicto"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -475,29 +993,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b22e4f6e000233f7a0ddfe37c0cbf809
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for pluvicto Package Leaflet for language en"
-Description: "ePI document Bundle for pluvicto Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b22e4f6e000233f7a0ddfe37c0cbf809ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1703/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "pluvicto"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b22e4f6e000233f7a0ddfe37c0cbf809"
-* entry[0].resource = composition-en-b22e4f6e000233f7a0ddfe37c0cbf809
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp282b475bedc35c71f1d394ab9074296b"
-* entry[=].resource = mp282b475bedc35c71f1d394ab9074296b
-                            
-                      
+* title = "List of all ePIs associated with pluvicto"
+
+* subject = Reference(mp282b475bedc35c71f1d394ab9074296b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#pluvicto "pluvicto"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b22e4f6e000233f7a0ddfe37c0cbf809) // pluvicto en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-b22e4f6e000233f7a0ddfe37c0cbf809) // pluvicto da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-b22e4f6e000233f7a0ddfe37c0cbf809
+InstanceOf: List
+
+* insert b22e4f6e000233f7a0ddfe37c0cbf809ListRuleset
+    

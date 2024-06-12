@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-cef8236d2ba001c606577d8a44188d3e
 InstanceOf: CompositionUvEpi
 Title: "Composition for conbriza Package Leaflet"
@@ -304,12 +307,433 @@ site: http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-da-cef8236d2ba001c606577d8a44188d3e
+InstanceOf: CompositionUvEpi
+Title: "Composition for conbriza Package Leaflet"
+Description:  "Composition for conbriza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4d86cf335848cd2a36334e4173cb1d3b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4d86cf335848cd2a36334e4173cb1d3b
+* title = "TEST PURPOSES ONLY - conbriza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage CONBRIZA
+3. Sådan skal du tage CONBRIZA
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What conbriza is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What conbriza is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CONBRIZA indeholder det aktive stof bazedoxifen og er et lægemiddel, der hører til en gruppe af 
+ikke-hormonale lægemidler benævnt selektive østrogenreceptormodulatorer (SERM). Det anvendes til 
+behandling af knogleskørhed hos kvinder, som har nået klimakteriet og har en øget risiko for 
+knoglebrud. Det virker ved at hæmme eller stoppe mindskningen af knogletætheden hos disse kvinder. 
+Dette lægemiddel bør ikke anvendes til behandling af knogleskørhed hos mænd. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take conbriza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take conbriza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke CONBRIZA
+
+hvis du er allergisk over for bazedoxifen eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6).
+
+hvis du har eller har haft en blodprop (for eksempel i blodkarrene i dine ben, lunger eller øjne).
+
+hvis du er gravid eller stadig kan blive gravid. Denne medicin kan skade dit ufødte barn, hvis 
+det tages under graviditeten.
+
+hvis du har en uforklaret blødning fra skeden. Dette skal undersøges af din læge. 
+
+hvis du har aktiv livmoderkræft. 
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager CONBRIZA
+
+da din risiko for at få blodpropper kan være øget. Selvom disse blodpropper ikke forekommer 
+særligt hyppigt, kan de medføre alvorlige medicinske problemer, invaliditet eller død. Tal med 
+din læge for at finde ud af, om du har en øget risiko for blodpropper. 
+26
+
+hvis du er ude af stand til at røre dig (immobil) i nogen tid, fordi du sidder i kørestol, skal sidde 
+ned i et længere stykke tid eller er sengeliggende, mens du kommer dig efter en operation eller 
+en sygdom. Hvis du er på længerevarende rejser, bør du rejse dig og gå omkring eller bruge 
+dine ben og fødder regelmæssigt. Det bør du gøre, fordi blodomløbet kan hæmmes, når man
+sidder ned i lang tid i samme stilling, og det kan øge risikoen for blodpropper. Hvis du er nødt 
+til at sidde eller ligge stille i længere tid eller venter på en planlagt operation, er det vigtigt, at 
+du taler med lægen om, hvordan du kan mindske risikoen for blodpropper. 
+
+hvis du ikke er kommet i overgangsalderen (ikke har nået menopausen). CONBRIZA er kun 
+blevet undersøgt hos kvinder, der er kommet i overgangsalderen og bør kun anvendes til dem.. 
+
+hvis du tidligere har haft forhøjede niveauer af den type fedt i blodet, der hedder triglycerider,
+
+hvis du har problemer med leveren eller svære problemer med nyrerne.
+
+hvis du oplever en blødning fra skeden, mens du tager CONBRIZA. Tal med  med lægen om 
+det. 
+
+hvis du har brystkræft, da der ikke er tilstrækkelig erfaring med brug af denne medicin til 
+kvinder med denne sygdom. 
+De ovennævnte punkter er nogle af årsagerne til, at dette lægemiddel måske ikke egner sig til dig. Tal 
+med din læge, inden du tager CONBRIZA, hvis et eller flere af punkterne gælder for dig.
+Brug af anden medicin sammen med CONBRIZA
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for nylig.<br />
+Graviditet og amning
+CONBRIZA må kun bruges til behandling af kvinder, der har nået klimakteriet. Det må ikke tages af 
+kvinder, der er gravide, eller som stadig kan få børn. Tag ikke dette lægemiddel, hvis du ammer, da 
+det ikke vides, om det udskilles i modermælken.
+Trafik- og arbejdssikkerhed
+Hvis du føler dig døsig efter at have taget dette lægemiddel, skal du undgå at føre motorkøretøj eller 
+betjene maskiner.
+Du kan muligvis opleve problemer med dit syn, f.eks. sløret syn, mens du tager dette lægemiddel. 
+Hvis det sker, må du ikke køre bil eller motorcykel eller arbejde med værktøj eller maskiner, før du 
+har talt med din læge, om det er sikkert at gøre det. 
+CONBRIZA indeholder lactose og natrium 
+Dette lægemiddel indeholder lactose, der er en sukkerart. Hvis din læge har fortalt dig, at du ikke kan 
+tåle visse sukkerarter, skal du kontakte din læge, før du tager dette lægemiddel. Dette lægemiddel 
+indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take conbriza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take conbriza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. Du skal tage dette lægemiddel så længe, som din læge har anvist. Dette 
+lægemiddel skal tages hver dag for at behandle knogleskørhed.
+
+Den anbefalede dosis er 1 tablet dagligt via munden. Det er ikke mere effektivt at tage mere end 
+én tablet om dagen, og det kan medføre flere risici ved behandlingen.
+
+Du kan tage tabletten på et hvilket som helst tidspunkt af dagen i forbindelse med et måltid eller 
+mellem måltider. 
+27
+
+Dette lægemiddel skal tages sammen med en passende mængde calcium og D-vitamin. Spørg 
+din læge for at finde ud af, om dit indtag af calcium og D-vitamin via kosten er tilstrækkeligt, 
+og om du har brug for supplerende calcium og D-vitamin. Hvis du tager supplerende calcium 
+og/eller D-vitamin, kan det tages samtidig med dette lægemiddel. 
+Hvis du har taget for mange CONBRIZA-tabletter
+Fortæl det til lægen eller på apotekspersonalet, hvis du ved en fejltagelse tager for mange 
+CONBRIZA.
+Hvis du har glemt at tage CONBRIZA
+Hvis du har glemt at tage en tablet, skal du tage den så snart, du kommer i tanker om det. Hvis det 
+imidlertid næsten er tid til din næste dosis af dette lægemiddel, skal du springe den dosis over, som du 
+glemte at tage, og tage din næste planlagte dosis. Du må ikke tage en dobbeltdosis som erstatning for 
+den glemte tablet.
+Hvis du holder op med at tage CONBRIZA
+Hvis du beslutter dig til at holde op med at tage dette lægemiddel før planlagt afslutning, skal du først 
+tale med din læge herom.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger – stop med at tage CONBRIZA og kontakt lægen omgående. 
+Ikke almindelige (det sker hos op til 1 ud af 100 patienter)
+
+Hvis du får symptomer på en blodprop i benene eller lungerne, f.eks. smertefulde hævelser og 
+rødme på benene, pludselige brystsmerter eller vejrtrækningsbesvær. 
+
+Hvis du får symptomer på en blodprop i øjet (i nethindens blodkar), f.eks. ensidige 
+synsforstyrrelser eller forringet syn eller sløret syn eller synstab på ét øje.
+
+Hvis du får nogen af problemerne nævnt under ”Tag ikke CONBRIZA”
+Ikke kendt hyppighed (kan ikke estimeres ud fra forhåndenværende data):
+
+Hvis du har andre bivirkninger, som påvirker øjne og/eller syn (hvis du ser gnister eller 
+lysglimt, indsnævring af synsfeltet og hævede øjne eller øjenlåg).
+Andre bivirkninger
+Visse patienter oplever følgende bivirkninger, når de tager CONBRIZA
+Meget almindelige (det sker hos flere end 1 ud af 10 patienter)
+
+Muskelkramper (herunder kramper i benene)
+
+Hedeture
+
+Hævede hænder, fødder og ben (perifert ødem)
+28
+Almindelige (det sker hos op til 1 ud af 10 patienter)
+
+Allergiske reaktioner (inklusive overfølsomhed og nældefeber)
+
+Udslæt, kløe
+
+Mundtørhed
+
+Forhøjet niveau af den type fedt i blodet, der hedder blodtriglycerider 
+
+Stigning i leverenzymtal
+
+Døsighed
+Ikke kendt hyppighed (kan ikke estimeres ud fra forhåndenværende data):
+
+Hjertebanken (bevidsthed om din hjerterytme)
+
+Tørre øjne, øjensmerter, nedsat synsskarphed, synsforringelse, unormal, ufrivillig blinken eller 
+muskelsammentrækninger i øjenlågene (blefarospasme).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store conbriza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store conbriza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og blisterkortet efter EXP. 
+Udløbsdatoen (EXP) er den sidste dag i den nævnte måned.
+Må ikke opbevares ved temperaturer over 25ºC.
+Spørg på apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet eller, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>CONBRIZA indeholder:</h2>
+<p>Aktivt stof: Bazedoxifen. Hver filmovertrukken tablet indeholder bazedoxifenacetat svarende 
+til 20 mg bazedoxifen.
+-
+Øvrige indholdsstoffer: Lactosemonohydrat, mikrokrystallinsk cellulose, prægelatineret stivelse 
+(majs), natriumstivelsesglycolat, natriumlaurilsulfat, kolloid vandfri silica, magnesiumstearat, 
+ascorbinsyre, hypromellose, titandioxid (E171) og macrogol 400 (se punkt 2 ”CONBRIZA 
+indeholder lactose og natrium”).
+Udseende og pakningstørrelser
+CONBRIZA leveres som en hvid til offwhite, kapselformet, filmovertrukket tablet præget med 
+“WY20”. Tabletten er ca. 1,5 cm lang. Tabletterne er pakket i PVC-/Aclar-blisterkort og fås i 
+pakninger med 7, 28, 30, 84 og 90 tabletter. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+29
+Indehaver af markedsføringstilladelsen og fremstiller
+Indehaver af markedsføringstilladelsen: Pfizer Europe MA EEIG, Boulevard de la Plaine 17, 1Bruxelles, Belgien.
+Fremstiller: Pfizer Ireland Pharmaceuticals, Little Connell Newbridge, County Kildare, Irland.
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel:+32 (0)2 554 62 11
+Latvijā
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+България
+Пфайзер Люксембург САРЛ, 
+Клон България
+Teл.: +359 2 970 4333
+Lietuva
+Pfizer Luxembourg SARL filialas 
+Lietuvoje
+Tel: +370 52 51 4000
+Česká republika
+Pfizer, spol. s r.o. 
+Tel: +420-283-004-111
+Magyarország
+Pfizer Kft
+Tel.: +36 1 488 3700
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Nederland
+Pfizer BV
+Tel: +31 (0)10 406 43 01
+Eesti 
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Norge
+Pfizer AS
+Tlf: +47 67 526 100
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785 800
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Polska
+Pfizer Polska Sp. z o.o. 
+Tel.: +48 22 335 61 00
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+30
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s
+področja
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Slovenská republika
+Pfizer Luxembourg SARL, 
+organizačná zložka 
+Tel: +421 2 3355 5500
+Italia
+Pfizer S.r.l. 
+Tel: +39 06 33 18 21
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22 817690
+Sverige 
+Pfizer AB 
+Tel: +46 (0)8 550 520 00
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}.
+Andre informationskilde
+Du kan finde yderligere oplysninger om CONBRIZA på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-cef8236d2ba001c606577d8a44188d3e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for conbriza Package Leaflet for language en"
+Description: "ePI document Bundle for conbriza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-cef8236d2ba001c606577d8a44188d3e"
+* entry[0].resource = composition-en-cef8236d2ba001c606577d8a44188d3e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcef8236d2ba001c606577d8a44188d3e"
+* entry[=].resource = mpcef8236d2ba001c606577d8a44188d3e
+                            
+                    
+Instance: bundlepackageleaflet-da-cef8236d2ba001c606577d8a44188d3e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for conbriza Package Leaflet for language da"
+Description: "ePI document Bundle for conbriza Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-cef8236d2ba001c606577d8a44188d3e"
+* entry[0].resource = composition-da-cef8236d2ba001c606577d8a44188d3e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcef8236d2ba001c606577d8a44188d3e"
+* entry[=].resource = mpcef8236d2ba001c606577d8a44188d3e
+                            
+                    
+
+
+
+Instance: mpcef8236d2ba001c606577d8a44188d3e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product CONBRIZA 20 mg film-coated tablets"
-Description: "CONBRIZA 20 mg film-coated tablets"
+Title: "Medicinal Product conbriza"
+Description: "conbriza"
 Usage: #inline
 
  
@@ -329,7 +753,7 @@ Usage: #inline
 
 
 * name
-  * productName = "CONBRIZA 20 mg film-coated tablets"
+  * productName = "conbriza"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -356,29 +780,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-cef8236d2ba001c606577d8a44188d3e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for conbriza Package Leaflet for language en"
-Description: "ePI document Bundle for conbriza Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: cef8236d2ba001c606577d8a44188d3eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/511/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "conbriza"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-cef8236d2ba001c606577d8a44188d3e"
-* entry[0].resource = composition-en-cef8236d2ba001c606577d8a44188d3e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4d86cf335848cd2a36334e4173cb1d3b"
-* entry[=].resource = mp4d86cf335848cd2a36334e4173cb1d3b
-                            
-                      
+* title = "List of all ePIs associated with conbriza"
+
+* subject = Reference(mp4d86cf335848cd2a36334e4173cb1d3b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#conbriza "conbriza"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-cef8236d2ba001c606577d8a44188d3e) // conbriza en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-cef8236d2ba001c606577d8a44188d3e) // conbriza da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-cef8236d2ba001c606577d8a44188d3e
+InstanceOf: List
+
+* insert cef8236d2ba001c606577d8a44188d3eListRuleset
+    

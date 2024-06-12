@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-bb22e3a2d3ee768b14a39522c099f1f4
 InstanceOf: CompositionUvEpi
 Title: "Composition for columvi Package Leaflet"
@@ -407,12 +410,747 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-bb22e3a2d3ee768b14a39522c099f1f4
+InstanceOf: CompositionUvEpi
+Title: "Composition for columvi Package Leaflet"
+Description:  "Composition for columvi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe04f63154a59dfcaae4149cd5a6b01fc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe04f63154a59dfcaae4149cd5a6b01fc
+* title = "TEST PURPOSES ONLY - columvi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at få Columvi </li>
+<li>Sådan får du Columvi </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What columvi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What columvi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Columvi? </p>
+<p>Columvi er et kræftlægemiddel, der indeholder det aktive stof glofitamab. </p>
+<p>Hvad anvendes Columvi til? </p>
+<p>Columvi anvendes til behandling af voksne med en kræftsygdom kaldet "diffust storcellet B-celle-
+lymfom" (DLBCL). Den anvendes, når kræften: </p>
+<ul>
+<li>
+<p>er vendt tilbage (tilbagefald) eller  </p>
+</li>
+<li>
+<p>ikke responderede på tidligere behandlinger.  </p>
+</li>
+</ul>
+<p>Diffust storcellet B-celle lymfom er en kræftsygdom i en del af dit immunsystem (kroppens forsvar). </p>
+<ul>
+<li>
+<p>Den påvirker en type hvide blodlegemer, der kaldes "B-celler".  </p>
+</li>
+<li>
+<p>Ved DLBCL formerer B-cellerne sig ukontrolleret og ophober sig i vævet. </p>
+</li>
+</ul>
+<p>Hvordan virker Columvi </p>
+<ul>
+<li>Det aktive stof i Columvi, glofitamab, er et bispecifikt monoklonalt antistof, en type protein, der 
+binder sig to specifikke steder i kroppen. Det binder sig til et specifikt protein på overfladen af 
+B-celler, herunder også de ondartede B-celler, og også til et andet protein på overfladen af “T-
+celler” (en anden type hvide blodlegemer). Dette aktiverer T-cellerne og får dem til at formere 
+sig. Dette forårsager en hurtig nedbrydning af B-cellerne, herunder de ondartede celler. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take columvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take columvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Få ikke Columvi </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for glofitamab eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i afsnit 6). </p>
+</li>
+<li>
+<p>hvis du er allergisk over for obinutuzumab, et andet lægemiddel, som du har fået, før du 
+påbegynder behandlingen med Columvi (se også afsnit 3 “Sådan får du Columvi”) eller et af de 
+øvrige indholdsstoffer i dette lægemiddel </p>
+</li>
+</ul>
+<p>Hvis du er i tvivl om ovenstående gælder for dig, skal du tale med lægen eller sygeplejersken, før du 
+får Columvi. </p>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Kontakt lægen, før du får Columvi, hvis </p>
+<ul>
+<li>
+<p>du har en infektion </p>
+</li>
+<li>
+<p>du har haft en langvarig infektion (kronisk) eller en infektion, der bliver ved med at komme 
+tilbage (tilbagevendende)  </p>
+</li>
+<li>
+<p>du har eller har haft problemer med nyrer, lever eller hjerte  </p>
+</li>
+<li>
+<p>du ved, at du skal have en vaccine i den nærmeste fremtid. </p>
+</li>
+</ul>
+<p>Hvis noget af ovenstående gælder for dig (eller du er i tvivl), skal du tale med lægen, før du får 
+Columvi.  </p>
+<p>Vær opmærksom på alvorlige bivirkninger.  </p>
+<p>Nogle bivirkninger af Columvi er alvorlige og kan være livstruende. De kan opstå når som helst under 
+behandlingen med Columvi.  </p>
+<p>Fortæl det straks til lægen, hvis du får en eller flere af nedenstående bivirkninger, mens du får 
+Columvi. Symptomerne på hver enkelt bivirkning er anført i afsnit 4. * Cytokinfrigivelsessyndrom: en overdreven inflammatorisk tilstand, der er forbundet med 
+medicin, der stimulerer T-celler, karakteriseret ved feber og svækkelse af flere organer i 
+kroppen. Cytokinfrigivelsessyndrom sker oftest i serie 1 efter Columvi er givet (se afsnit 
+3 ”Sådan får du Columvi”). Tæt monitorering er nødvendig. Før hver infusion kan du få 
+medicin, som hjælper med at mindske eventuelle bivirkninger af cytokinfrigivelsessyndrom. </p>
+<ul>
+<li>
+<p>Tumorlysesyndrom: nogle mennesker kan få usædvanlige niveauer af nogle salte i blodet (for 
+eksempel kalium og urinsyre) – forårsaget af den hurtige nedbrydning af kræftceller under 
+behandlingen. Lægen eller sygeplejersken vil tage blodprøver for at kontrollere for denne 
+tilstand. Før hver infusion skal du være velhydreret, og du kan få medicin, der kan hjælpe med 
+at reducere et højt niveau af urinsyre. Dette kan hjælpe med at reducere mulige bivirkninger af 
+tumorlysesyndrom. </p>
+</li>
+<li>
+<p>Tumorflare: en reaktion på visse former for medicin, som virker på immunsystemet, hvorved 
+kræftsygdommen bliver/synes at blive værre. </p>
+</li>
+<li>
+<p>Infektioner: Du kan få tegn på infektion, som kan variere afhængigt af, hvor i kroppen 
+infektionen er. </p>
+</li>
+</ul>
+<p>Fortæl det straks til lægen, hvis du får, eller tror at du har, et eller flere af ovennævnte symptomer:<br />
+Lægen kan:  </p>
+<ul>
+<li>
+<p>give dig andre lægemidler for at mindske symptomerne og forebygge komplikationer </p>
+</li>
+<li>
+<p>stoppe din behandling i en kortere periode eller  </p>
+</li>
+<li>
+<p>stoppe din behandling helt.  </p>
+</li>
+</ul>
+<p>Børn og unge </p>
+<p>Dette lægemiddel må ikke gives til børn og unge under 18 år. Det skyldes, at Columvi ikke er blevet 
+undersøgt i denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Columvi </p>
+<p>Fortæl lægen eller sygeplejersken, hvis du tager, for nylig har taget eller planlægger at tage andre 
+lægemidler. Dette omfatter også håndkøbsmedicin og naturmedicin.  </p>
+<p>Graviditet og prævention </p>
+<ul>
+<li>
+<p>Hvis du er gravid, har mistanke om, at du er gravid eller planlægger at blive gravid, skal du 
+spørge lægen til råds, før du tager dette lægemiddel. </p>
+</li>
+<li>
+<p>Du må ikke få Columvi, hvis du er gravid. Det skyldes, at Columvi muligvis kan skade dit 
+ufødte barn. </p>
+</li>
+<li>
+<p>Hvis du kan blive gravid, skal du bruge effektiv prævention, mens du er i behandling med 
+Columvi og i 2 måneder efter sidste dosis. </p>
+</li>
+<li>
+<p>Hvis du bliver gravid, mens du er i behandling med Columvi, skal du straks fortælle det til 
+lægen. </p>
+</li>
+</ul>
+<p>Amning </p>
+<p>Du må ikke amme, mens du får Columvi og i mindst 2 måneder efter sidste dosis. Dette skyldes, at 
+man ikke ved, om dette lægemiddel kan udskilles i modermælken og skade dit barn. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Columvi har mindre indflydelse på din evne til at køre bil, cykle eller bruge værktøj eller maskiner.  </p>
+<p>Hvis du har symptomer som kan påvirke din evne til at køre bil, inklusive symptomer på 
+cytokinfrigivelsessyndrom (f.eks. feber, hurtig puls, svimmelhed, kuldegysninger eller åndenød), må 
+du ikke køre bil, cykle eller bruge værktøj eller maskiner, før du har det bedre. Se afsnit 4 for mere 
+information om bivirkninger. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take columvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take columvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Columvi på et hospital eller en klinik under tilsyn af en læge med erfaring i kræftbehandling. </p>
+<p>Lægemidler som gives før behandling med Columvi </p>
+<ul>
+<li>
+<p>Syv dage før behandlingen med Columvi påbegyndes, får du et andet lægemiddel, 
+obinutuzumab, for at nedbringe antallet af B-celler i blodet, hvilket kan forhindre 
+cytokinfrigivelsessyndrom.  </p>
+</li>
+<li>
+<p>30 til 60 minutter, før du får Columvi, kan du få andre lægemidler (præmedicinering), som 
+kan reducere reaktioner i forbindelse med cytokinfrigivelsessyndrom. Disse lægemidler kan 
+omfatte:</p>
+</li>
+<li>
+<p>Et kortikosteroid som f.eks. dexamethason </p>
+</li>
+<li>Febernedsættende medicin som f.eks. paracetamol </li>
+<li>Et antihistamin som f.eks. diphenhydramin </li>
+</ul>
+<p>Hvor meget og hvor ofte du vil få Columvi  </p>
+<p>Du kan få op til 12 behandlingsserier med Columvi.<br />
+Hver serie varer 21 dage. I de første to serier vil lægen påbegynde behandlingen med Columvi ved en 
+lav dosis og gradvist øge den til den fulde dosis. </p>
+<p>En typisk tidsplan er vist nedenfor.  </p>
+<p>Serie 1: Dette omfatter en forbehandling og 2 lave doser Columvi i løbet af de 21 dage: </p>
+<ul>
+<li>
+<p>Dag 1 - Forbehandling med obinutuzumab </p>
+</li>
+<li>
+<p>Dag 8 - Første dosis Columvi på 2,5 mg </p>
+</li>
+<li>
+<p>Dag 15 - Mellemliggende dosis Columvi på 10 mg </p>
+</li>
+</ul>
+<p>Serie 2 til serie 12: Der vil kun være én dosis på de 21 dage: </p>
+<ul>
+<li>Dag 1 - fuld dosis Columvi på 30 mg </li>
+</ul>
+<p>Indgivelse af Columvi og overvågning </p>
+<p>Columvi gives som et drop i en blodåre (intravenøs infusion). Lægen vil justere den tid, der er 
+nødvendig for at give infusionen, afhængigt af hvordan du reagerer på behandlingen. </p>
+<ul>
+<li>
+<p>Din første infusion vil blive givet over 4 timer. Lægen vil overvåge dig nøje under den første 
+infusion og i 10 timer efter afsluttet infusion. Dette er for at holde øje med eventuelle tegn eller 
+symptomer på cytokinfrigivelsessyndrom.  </p>
+</li>
+<li>
+<p>Ved de efterfølgende infusioner kan lægen kræve, at du overvåges efter infusionen afsluttet 
+infusion. Dette er nødvendigt, hvis du har haft moderat eller svært cytokinfrigivelsessyndrom 
+med den tidligere dosis. </p>
+</li>
+<li>
+<p>Hvis du ikke har cytokinfrigivelsessyndrom efter 3 doser, kan lægen give dig de efterfølgende 
+infusioner over 2 timer. </p>
+</li>
+</ul>
+<p>Hvis du glemmer at få en dosis Columvi </p>
+<p>Hvis du glemmer en aftale, skal du med det samme lave en ny aftale. For at behandlingen skal være 
+fuldt effektiv, er det meget vigtigt ikke at gå glip af en dosis. </p>
+<p>Før du stopper behandlingen med Columvi </p>
+<p>Tal med lægen, inden du stopper med behandlingen. Dette skyldes, at det kan gøre din tilstand værre 
+at stoppe behandlingen. </p>
+<p>Spørg lægen eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af dette lægemiddel. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger </p>
+<p>Fortæl lægen med det samme, hvis du får en eller flere af de alvorlige bivirkninger, der er anført 
+nedenfor – du kan have brug for akut medicinsk behandling.  </p>
+<ul>
+<li>
+<p>Cytokinfrigivelsessyndrom (meget almindelig): Symptomerne kan omfatte, men er ikke 
+begrænset til, feber, hurtig puls, svimmelhed eller omtågethed, kvalme, hovedpine, kløen, 
+forvirret tilstand, kuldegysninger, åndenød </p>
+</li>
+<li>
+<p>Infektioner (meget almindelig): Symptomerne kan omfatte, men er ikke begrænset til, feber, 
+kuldegysninger, åndedrætsbesvær, brændende smerter under vandladning </p>
+</li>
+<li>
+<p>Tumorflare (meget almindelig): Symptomerne kan omfatte, men er ikke begrænset til, ømme, 
+hævede lymfekirtler, brystsmerter, besværet vejrtrækning, smerter på tumorstedet </p>
+</li>
+<li>
+<p>Tumorlysesyndrom (almindelig): Symptomerne kan omfatte, men er ikke begrænset til, 
+svaghed, åndenød, forvirring, uregelmæssig hjerterytme, muskelkramper </p>
+</li>
+</ul>
+<p>Andre bivirkninger  </p>
+<p>Fortæl lægen eller sygeplejersken med det samme, hvis du får nogen af følgende bivirkninger, eller 
+hvis de forværres: </p>
+<p>Meget almindelige (forekommer hos flere end 1 ud af 10 behandlede) </p>
+<ul>
+<li>
+<p>lavt indhold målt i blodprøver af:</p>
+</li>
+<li>
+<p>neutrofiler (en type hvide blodlegemer, neutropeni), som kan forårsage feber eller 
+symptomer på en infektion </p>
+</li>
+<li>røde blodlegemer (anæmi), som kan forårsage træthed, utilpashed og bleg hud  </li>
+<li>
+<p>blodplader (en type blodlegeme, trombocytopeni), som kan forårsage blå mærker eller 
+blødninger  </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>lavt indhold målt i blodprøver af:</p>
+</li>
+<li>
+<p>fosfat, magnesium, calcium eller kalium </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>virusinfektioner, som f.eks. lungeinfektion, helvedesild </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+</ul>
+<p>Almindelige (forekommer hos op til 1 ud af 10 behandlede) </p>
+<ul>
+<li>
+<p>lavt indhold af natrium målt i blodprøver, hvilket kan forårsage træthed, muskeltrækninger eller 
+kramper </p>
+</li>
+<li>
+<p>forhøjet indhold målt i blodprøver af leverenzymer og bilirubin (gult stof i blodet), hvilket kan 
+forårsage gulfarvning af hud eller øjne og mørk urin  </p>
+</li>
+<li>
+<p>bakterieinfektioner, som f.eks. urinvejsinfektion, infektion i eller omkring maven </p>
+</li>
+<li>
+<p>svampeinfektion  </p>
+</li>
+<li>
+<p>infektioner i næse og svælg (infektion i de øvre luftveje) </p>
+</li>
+<li>
+<p>infektioner i lungerne, som f.eks. bronkitis eller lungebetændelse (infektion i de nedre luftveje), 
+som kan forårsage feber, hoste og vejrtrækningsbesvær </p>
+</li>
+<li>
+<p>blodforgiftning (sepsis), som kan forårsage feber, kuldegysninger og forvirring </p>
+</li>
+<li>
+<p>lavt indhold, målt i blodprøver, af lymfocytter (en type hvide blodlegemer, lymfopeni) </p>
+</li>
+<li>
+<p>feber med et lavt antal neutrofile granulocytter (febril neutropeni) </p>
+</li>
+<li>
+<p>opkastning  </p>
+</li>
+<li>
+<p>blødning i maven eller tarmen (gastrointestinal blødning), som kan forårsage sort afføring eller 
+blod i opkast  </p>
+</li>
+<li>
+<p>forvirring </p>
+</li>
+<li>
+<p>rysten  </p>
+</li>
+<li>
+<p>søvnighed </p>
+</li>
+</ul>
+<p>Ualmindelige (forekommer hos færre end 1 ud af 100 behandlede) </p>
+<ul>
+<li>hævelse af rygmarven (myelitis), som kan forårsage muskelsvaghed eller følelsesløshed </li>
+</ul>
+<p>Fortæl lægen med det samme, hvis du får en eller flere af ovenstående bivirkninger, eller hvis de 
+forværres. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte 
+til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store columvi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store columvi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen, apotekspersonalet eller sygeplejersken er ansvarlig for at opbevare og bortskaffe ubrugt 
+produkt korrekt. Følgende oplysninger er beregnet til sundhedspersoner.  </p>
+<ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke dette lægemidlet efter den udløbsdato, der står på etiketten på æsken og hætteglasset 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
+</li>
+<li>
+<p>Må ikke nedfryses. </p>
+</li>
+<li>
+<p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet, hvis det er uklart, misfarvet eller indeholder partikler. </p>
+</li>
+</ul>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Columvi indeholder  </p>
+<ul>
+<li>
+<p>Det aktive stof er glofitamab.  </p>
+</li>
+<li>
+<p>Columvi 2,5 mg: Hvert hætteglas indeholder 2,5 milligram glofitamab (i 2,5 ml koncentrat) i en 
+koncentration på 1 mg/ml </p>
+</li>
+<li>
+<p>Columvi 10 mg: Hver hætteglas indeholder 10 milligram glofitamab (i 10 ml koncentrat) i en 
+koncentration på 1 mg/ml </p>
+</li>
+<li>
+<p>De øvrige indholdsstoffer er: L-histidin, L-histidinhydrochlorid-monohydrat, L-methionin, 
+sukrose, polysorbat 20 (E432) og vand til injektion. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Columvi, koncentrat til infusionsvæske, opløsning (sterilt koncentrat) er en farveløs, klar opløsning i 
+et hætteglas.  </p>
+<p>Hver pakning med Columvi indeholder ét hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Roche Registration GmbH 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Tyskland </p>
+<p>Fremstiller </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/ Belgique/Belgien 
+N.V. Roche S.A.<br />
+Tél/Tel: +32 (0) 2 525 82 Lietuva 
+UAB “Roche Lietuva”<br />
+Tel: +370 5 2546 
+България 
+Рош България ЕООД<br />
+Тел: +359 2 818 44<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) 
+Česká republika 
+Roche s. r. o.<br />
+Tel: +420 - 2 20382Magyarország 
+Roche (Magyarország) Kft.<br />
+Tel: +36 - 1 279 4 
+Danmark 
+Roche Pharmaceuticals A/S<br />
+Tlf: +45 - 36 39 99<br />
+Malta 
+(Se Irland) </p>
+<p>Deutschland 
+Roche Pharma AG<br />
+Tel: +49 (0) 7624 140<br />
+Nederland 
+Roche Nederland B.V.<br />
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti OÜ<br />
+Tel: + 372 - 6 177 380<br />
+Norge 
+Roche Norge AS<br />
+Tlf: +47 - 22 78 90<br />
+Ελλάδα 
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH<br />
+Tel: +43 (0) 1 27España 
+Roche Farma S.A.<br />
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o.<br />
+Tel: +48 - 22 345 18<br />
+France 
+Roche<br />
+Tél: +33 (0) 1 47 61 40 00<br />
+Portugal 
+Roche Farmacêutica Química, Lda<br />
+Tel: +351 - 21 425 70<br />
+Hrvatska 
+Roche d.o.o.<br />
+Tel: +385 1 4722 333<br />
+România 
+Roche România S.R.L.<br />
+Tel: +40 21 206 47 01  </p>
+<p>Ireland 
+Roche Products (Ireland) Ltd.<br />
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska družba d.o.o.<br />
+Tel: +386 - 1 360 26<br />
+Ísland 
+Roche Pharmaceuticals A/S 
+Sími: +354 540 8Slovenská republika 
+Roche Slovensko, s.r.o.<br />
+Tel: +421 - 2 52638201  </p>
+<p>Italia 
+Roche S.p.A.<br />
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 500  </p>
+<p>Κύπρος 
+Γ.Α.Σταμάτης &amp; Σια Λτδ.<br />
+Τηλ: +357 - 22 76 62 76<br />
+Sverige 
+Roche AB<br />
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA<br />
+Tel: +371 - 6 7039831<br />
+United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd.<br />
+Tel: +44 (0) 1707 366 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Dette lægemiddel er godkendt under "betingede omstændigheder". Det betyder, at der forventes 
+yderligere dokumentation for lægemidlet. 
+Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
+lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>
+<hr />
+<p>Nedenstående oplysninger er til sundhedspersoner: </p>
+<p>Columvi skal administreres som en intravenøs infusion gennem en dertil egnet infusionsslange. Det 
+må ikke gives som intravenøs stød- eller bolusinjektion.  </p>
+<p>For instruktioner om fortynding af Columvi før administration, se nedenfor. </p>
+<p>Fortyndingsvejledning </p>
+<ul>
+<li>
+<p>Columvi indeholder ingen konserveringsmidler og er kun beregnet til engangsbrug. </p>
+</li>
+<li>
+<p>Columvi skal fortyndes af en sundhedsperson ved brug af aseptisk teknik forud for intravenøs 
+administration. </p>
+</li>
+<li>
+<p>Ryst ikke hætteglasset. Hætteglasset med Columvi skal kontrolleres visuelt for partikler og 
+misfarvning inden administration. Columvi er en farveløs, klar opløsning. Kassér hætteglasset, 
+hvis opløsningen er uklar, misfarvet eller indeholder synlige partikler. </p>
+</li>
+<li>
+<p>Træk den relevante mængde natriumchlorid 9 mg/ml (0,9 %) injektionsvæske eller 
+natriumchlorid 4,5 mg/ml (0,45 %) injektionsvæske, som beskrevet i tabel 1, ud af 
+infusionsposen ved hjælp af en steril kanyle og sprøjte, og kassér det. </p>
+</li>
+<li>
+<p>Træk den krævede mængde af Columvi-koncentrat ud af hætteglasset ved hjælp af en steril 
+kanyle og sprøjte og fortynd i infusionsposen (se tabel 1 nedenfor). Kassér eventuel ubrugt 
+opløsning, der er tilbage i hætteglasset. </p>
+</li>
+<li>
+<p>Den endelige glofitamabkoncentration efter fortynding skal være 0,1 mg/ml til 0,6 mg/ml. </p>
+</li>
+<li>
+<p>Vend forsigtigt infusionsposen for at blande opløsningen uden at den skummer for meget. Må 
+ikke rystes! </p>
+</li>
+<li>
+<p>Undersøg infusionsposen for partikler og kassér, hvis der findes partikler. </p>
+</li>
+<li>
+<p>Inden den intravenøse infusion påbegyndes skal indholdet i infusionsposen have stuetemperatur 
+(25 °C). </p>
+</li>
+</ul>
+<p>Tabel 1. Fortynding af Columvi til infusion </p>
+<p>Dosis af Columvi, 
+der skal indgives 
+Størrelse af 
+infusionspose 
+Volumen af 
+natriumchlorid 9 mg/ml 
+(0,9 %) eller 4,5 mg/ml 
+(0,45 %) injektionsvæske, 
+der skal udtages og 
+kasseres 
+Mængde Columvi-
+koncentrat, der skal 
+tilsættes 
+2,5 mg 
+50 ml 
+27,5 ml 
+2,5 ml 
+100 ml 
+77,5 ml 
+2,5 ml 
+10 mg 
+50 ml 
+10 ml 
+10 ml 
+100 ml 
+10 ml 
+10 ml 
+30 mg 
+50 ml 
+30 ml 
+30 ml 
+100 ml 
+30 ml 
+30 ml </p>
+<p>Der må kun anvendes natriumchlorid 9 mg/ml (0,9 %) eller 4,5 mg/ml (0,45 %) injektionsvæske til at 
+fortynde Columvi, da andre opløsningsmidler ikke er undersøgt. </p>
+<p>Columvi er, når det er fortyndet med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, forligeligt med 
+intravenøse infusionsposer bestående af polyvinylchlorid (PVC), polyethylen (PE), polypropylen (PP) 
+eller ikke-PVC-polyolefin. Ved fortynding med natriumchlorid 4,5 mg/ml (0,45 %) injektionsvæske er 
+Columvi er forligeligt med intravenøse infusionsposer bestående af PVC. </p>
+<p>Der er ikke observeret uforligeligheder med infusionssæt med produktkontaktflader af polyurethan 
+(PUR), PVC eller PE og in-line filtermembraner af polyethersulfon (PES) eller polysulfon. 
+Anvendelse af in-line-filtermembraner er valgfri. </p>
+<p>Fortyndet opløsning til intravenøs infusion </p>
+<p>Der er påvist kemisk og fysisk stabilitet under brug i højst 72 timer ved 2 °C til 8 °C og 24 timer ved 
+30 °C efterfulgt af en maksimal infusionstid på 8 timer. </p>
+<p>Af mikrobiologiske hensyn skal den fortyndede opløsning anvendes straks. Hvis produktet ikke 
+anvendes straks, er opbevaringstiden og -betingelserne inden anvendelse brugerens ansvar og bør 
+normalt ikke overstige 24 timer ved 2 °C til 8 °C, medmindre fortynding er foretaget under 
+kontrollerede og validerede aseptiske forhold. </p>
+<p>Bortskaffelse </p>
+<p>Columvi er kun beregnet til engangsbrug. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-bb22e3a2d3ee768b14a39522c099f1f4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for columvi Package Leaflet for language en"
+Description: "ePI document Bundle for columvi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bb22e3a2d3ee768b14a39522c099f1f4"
+* entry[0].resource = composition-en-bb22e3a2d3ee768b14a39522c099f1f4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbb22e3a2d3ee768b14a39522c099f1f4"
+* entry[=].resource = mpbb22e3a2d3ee768b14a39522c099f1f4
+                            
+                    
+Instance: bundlepackageleaflet-da-bb22e3a2d3ee768b14a39522c099f1f4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for columvi Package Leaflet for language da"
+Description: "ePI document Bundle for columvi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-bb22e3a2d3ee768b14a39522c099f1f4"
+* entry[0].resource = composition-da-bb22e3a2d3ee768b14a39522c099f1f4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbb22e3a2d3ee768b14a39522c099f1f4"
+* entry[=].resource = mpbb22e3a2d3ee768b14a39522c099f1f4
+                            
+                    
+
+
+
+Instance: mpbb22e3a2d3ee768b14a39522c099f1f4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Columvi 2.5 mg concentrate for solution for infusion"
-Description: "Columvi 2.5 mg concentrate for solution for infusion"
+Title: "Medicinal Product columvi"
+Description: "columvi"
 Usage: #inline
 
  
@@ -432,7 +1170,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Columvi 2.5 mg concentrate for solution for infusion"
+  * productName = "columvi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -459,29 +1197,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-bb22e3a2d3ee768b14a39522c099f1f4
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for columvi Package Leaflet for language en"
-Description: "ePI document Bundle for columvi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: bb22e3a2d3ee768b14a39522c099f1f4ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1742/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "columvi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-bb22e3a2d3ee768b14a39522c099f1f4"
-* entry[0].resource = composition-en-bb22e3a2d3ee768b14a39522c099f1f4
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe04f63154a59dfcaae4149cd5a6b01fc"
-* entry[=].resource = mpe04f63154a59dfcaae4149cd5a6b01fc
-                            
-                      
+* title = "List of all ePIs associated with columvi"
+
+* subject = Reference(mpe04f63154a59dfcaae4149cd5a6b01fc)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#columvi "columvi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-bb22e3a2d3ee768b14a39522c099f1f4) // columvi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-bb22e3a2d3ee768b14a39522c099f1f4) // columvi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-bb22e3a2d3ee768b14a39522c099f1f4
+InstanceOf: List
+
+* insert bb22e3a2d3ee768b14a39522c099f1f4ListRuleset
+    

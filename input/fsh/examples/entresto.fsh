@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a75d7e9d67efdcc2afd6268e67a7d0cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for entresto Package Leaflet"
@@ -403,12 +406,635 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-a75d7e9d67efdcc2afd6268e67a7d0cd
+InstanceOf: CompositionUvEpi
+Title: "Composition for entresto Package Leaflet"
+Description:  "Composition for entresto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe1749529de4c81256804f5b509cb2f55)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe1749529de4c81256804f5b509cb2f55
+* title = "TEST PURPOSES ONLY - entresto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Entresto </li>
+<li>Sådan skal du tage Entresto </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What entresto is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What entresto is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entresto er hjertemedicin, som indeholder en angiotensinreceptor-neprilysinhæmmer. Det består af to 
+aktive stoffer, sacubitril og valsartan. </p>
+<p>Entresto anvendes til behandling af en langvarig type af hjertesvigt hos voksne, børn og unge (i 
+alderen ét år og derover). </p>
+<p>Denne type hjertesvigt opstår, når hjertet er svagt og ikke kan pumpe nok blod til lungerne og resten af 
+kroppen. De mest almindelige symptomer på hjertesvigt er åndenød, mathed, træthed og hævelse af 
+ankler. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take entresto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take entresto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Entresto </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for sacubitril, valsartan eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). </p>
+</li>
+<li>
+<p>hvis du bruger en anden type lægemiddel, som kaldes en angiotensin-konverterings-
+enzymhæmmer (ACE-hæmmer) (fx enalapril, lisinopril eller ramipril), som bruges til at 
+behandle for højt blodtryk eller hjertesvigt. Hvis du har taget en ACE-hæmmer, skal du vente i 
+36 timer efter at have taget den sidste dosis, før du begynder at tage Entresto (se "Brug af andre 
+lægemidler sammen med Entresto"). </p>
+</li>
+<li>
+<p>hvis du nogensinde har haft en reaktion, som kaldes angioødem (hurtig hævelse under huden i 
+områder omkring ansigt, hals, arme og ben, som kan være livstruende, hvis hævelsen i halsen 
+blokerer luftvejene) når du har taget en ACE-hæmmer eller en angiotensin-receptorblokker 
+(ARB) (som fx valsartan, telmisartan eller irbesartan). </p>
+</li>
+<li>
+<p>hvis du tidligere har haft angioødem, som er arveligt, eller hvor årsagen er ukendt (idiopatisk). </p>
+</li>
+<li>
+<p>hvis du har sukkersyge eller nedsat nyrefunktion, og du bliver behandlet med et 
+blodtrykssænkende lægemiddel, der indeholder aliskiren (se "Brug af andre lægemidler sammen 
+med Entresto"). </p>
+</li>
+<li>
+<p>hvis du har en alvorlig leversygdom. </p>
+</li>
+<li>
+<p>hvis du er gravid og er mere end 3 måneder henne (se "Graviditet og amning"). 
+Hvis noget af ovenstående passer på dig, må du ikke tage Entresto, før du har talt med din læge. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken før eller når du tager Entresto: </p>
+<ul>
+<li>
+<p>hvis du bliver behandlet med en angiotensin-receptorblokker (ARB) eller aliskiren (se "Tag ikke 
+Entresto"). </p>
+</li>
+<li>
+<p>hvis du nogensinde har haft angioødem (se "Tag ikke Entresto" og punkt 4 "Bivirkninger"). </p>
+</li>
+<li>
+<p>hvis du har et lavt blodtryk eller tager andre lægemidler, som kan nedsætte dit blodtryk (fx et 
+lægemiddel, som øger urinproduktionen (vanddrivende middel)) eller lider af opkastning eller 
+diarré, især hvis du er 65 år eller derover, eller hvis du har en nyresygdom eller lavt blodtryk. </p>
+</li>
+<li>
+<p>hvis du har en nyresygdom. </p>
+</li>
+<li>
+<p>hvis du er dehydreret </p>
+</li>
+<li>
+<p>hvis du har en forsnævret nyrearterie. </p>
+</li>
+<li>
+<p>hvis du har en leversygdom. </p>
+</li>
+<li>
+<p>hvis du oplever hallucinationer, paranoia (vrangforestillinger) eller ændret søvnmønster, under 
+behandlingen med Entresto. </p>
+</li>
+<li>
+<p>hvis du har hyperkaliæmi (høje niveauer af kalium i blodet). </p>
+</li>
+<li>
+<p>hvis du lider af hjertesvigt klassificeret som NYHA klasse IV (ude af stand til at udøve nogen 
+fysisk aktivitet uden ubehag, og du kan have symptomer, selv når du hviler). </p>
+</li>
+</ul>
+<p>Hvis noget af ovenstående passer på dig, skal du tale med din læge, apotekspersonalet eller 
+sygeplejersken, før du tager Entresto. </p>
+<p>Din læge vil måske regelmæssigt undersøge mængden af kalium og natrium i dit blod i løbet af din 
+behandling med Entresto. Derudover kan din læge kontrollere dit blodtryk ved behandlingsstart, og 
+når doserne øges. </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke gives til børn under 1 år, da der ikke er gennemført forsøg for denne 
+aldersgruppe. Til børn på ét år og derover med en kropsvægt under 40 kg, vil dette lægemiddel blive 
+givet som granulat (i stedet for tabletter). </p>
+<p>Brug af andre lægemidler sammen med Entresto 
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du bruger andre lægemidler, for 
+nylig har brugt andre lægemidler eller planlægger at bruge andre lægemidler. Det kan være nødvendigt 
+at ændre dosis, tage andre forholdsregler eller endda stoppe brugen af et af lægemidlerne. Dette er 
+særlig vigtigt for følgende lægemidler: </p>
+<ul>
+<li>
+<p>ACE-hæmmere. Tag ikke Entresto sammen med ACE-hæmmere. Hvis du har taget en ACE-
+hæmmer, skal du vente i 36 timer efter at have taget den sidste dosis ACE-hæmmer, før du kan 
+starte med at tage Entresto (se "Tag ikke Entresto"). Hvis du stopper med at tage Entresto, skal 
+du vente i 36 timer efter at have taget din sidste dosis Entresto, før du må begynde at tage en 
+ACE-hæmmer. </p>
+</li>
+<li>
+<p>andre lægemidler brugt til at behandle hjertesvigt eller til at sænke blodtrykket, som fx 
+angiotensin-receptorblokker eller aliskiren (se "Tag ikke Entresto"). </p>
+</li>
+<li>
+<p>nogle lægemidler kendt som statiner, der bruges til at sænke høje kolesteroltal (fx atorvastatin). </p>
+</li>
+<li>
+<p>sildenafil, tadalafil, vardenafil eller avanafil, som er lægemidler, der bruges til at behandle 
+rejsningsproblemer eller for højt blodtryk i lungerne. </p>
+</li>
+<li>
+<p>lægemidler, som øger mængden af kalium i blodet. Disse omfatter kaliumtilskud, kaliumholdige 
+salterstatninger, kaliumbesparende lægemidler og heparin. </p>
+</li>
+<li>
+<p>smertestillende medicin af den type, der kaldes non-steroide antiinflammatoriske midler 
+(NSAID) eller selektive cyclooxygenase-2 (Cox-2) hæmmere. Hvis du tager noget af dette, vil 
+din læge måske ønske at kontrollere din nyrefunktion, når du starter eller ved justering af 
+behandlingen (se "Advarsler og forsigtighedsregler"). </p>
+</li>
+<li>
+<p>lithium, et lægemiddel som bruges til at behandle visse typer psykiatriske sygdomme. </p>
+</li>
+<li>
+<p>furosemid, som er et vanddrivende lægemiddel, der bruges til at forøge den mængde af urin, du 
+producerer. </p>
+</li>
+<li>
+<p>nitroglycerin, som er et lægemiddel, der bruges til behandling af angina pectoris. </p>
+</li>
+<li>
+<p>visse typer antibiotika (rifamycingruppen), ciclosporin (bruges til at forebygge afstødning af 
+transplanterede organer) eller antivirale midler, som fx ritonavir (bruges til behandling af 
+HIV/AIDS). </p>
+</li>
+<li>
+<p>metformin, som er et lægemiddel, der bruges til behandling af sukkersyge. 
+Hvis noget af ovenstående passer på dig, skal du tale med din læge eller apotekspersonalet, før 
+du tager Entresto. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Graviditet 
+Du skal fortælle det til din læge, hvis du tror, du er (eller planlægger at blive) gravid. Din læge vil 
+normalt råde dig til at stoppe med at tage dette lægemiddel, før du bliver gravid, eller så snart du ved, 
+at du er gravid og vil råde dig til at tage et andet lægemiddel end Entresto. </p>
+<p>Dette lægemiddel bør ikke bruges i den tidlige fase af graviditeten, og det må ikke tages, når du er 
+mere end 3 måneder henne i graviditeten, da det kan føre til alvorlig skade på din baby, hvis det 
+bruges efter tredje måned i graviditetsforløbet. </p>
+<p>Amning 
+Entresto frarådes til mødre, som ammer. Tal med din læge, hvis du ammer eller skal til at starte 
+amning. </p>
+<p>Trafik- og arbejdssikkerhed 
+Før du kører bil, bruger værktøj eller betjener maskiner eller udfører andre aktiviteter, som kræver 
+koncentration, skal du sikre dig, at du ved, hvordan Entresto påvirker dig. Hvis du føler dig svimmel 
+eller meget træt, mens du tager dette lægemiddel, må du ikke køre bil, cykle eller bruge noget værktøj 
+eller maskiner. </p>
+<p>Entresto indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 97 mg/103 mg dosis, dvs. det er 
+i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take entresto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take entresto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Voksne 
+Du vil normalt skulle starte med at tage en 24 mg/26 mg eller 49 mg/51 mg tablet to gange daglig (én 
+tablet om morgenen og én tablet om aftenen). Din læge vil bestemme din nøjagtige startdosis baseret 
+på, hvilke lægemidler du tidligere har taget og dit blodtryk. Din læge vil derefter justere dosis hver 2.-
+4. uge afhængigt af, hvordan du reagerer på behandlingen, indtil den bedste dosis for dig er fundet. </p>
+<p>Den normalt anbefalede vedligeholdelsesdosis er 97 mg/103 mg to gange daglig (én tablet om 
+morgenen og én tablet om aftenen). </p>
+<p>Børn og unge (i alderen ét år og derover) 
+Din/dit barns læge vil bestemme startdosis baseret på kropsvægt og andre faktorer herunder tidligere 
+anvendte lægemidler. Lægen vil justere dosis hver 2.-4. uge, indtil den bedste dosis er fundet. </p>
+<p>Entresto skal gives to gange om dagen (én tablet om morgenen, og én tablet om aftenen). </p>
+<p>Entresto filmovertrukne tabletter er ikke beregnet til børn, som vejer under 40 kg. Til disse patienter 
+fås Entresto som granulat. </p>
+<p>Patienter, der tager Entresto, kan få lavt blodtryk (svimmelhed, uklarhed), et højt niveau af kalium i 
+blodet (som bliver opdaget, når din læge tager en blodprøve) eller nedsat nyrefunktion. Hvis dette 
+sker, kan din læge vælge at nedsætte dosis af eventuelle andre lægemidler, du tager, nedsætte dosis af 
+Entresto midlertidigt, eller fuldstændigt stoppe behandlingen med Entresto. </p>
+<p>Synk tabletten med et glas vand. Du kan tage Entresto med eller uden mad. Du bør ikke knuse eller 
+dele tabletten. </p>
+<p>Hvis du har taget for meget Entresto 
+Hvis du ved et uheld har taget for mange Entresto-tabletter, eller hvis nogen anden har taget dine 
+tabletter, skal du kontakte din læge så hurtigt som muligt. Hvis du bliver voldsomt svimmel og/eller 
+besvimer, skal du fortælle det til din læge hurtigst muligt og lægge dig ned. </p>
+<p>Hvis du har glemt at tage Entresto 
+Det anbefales at tage lægemidlet på samme tidspunkt hver dag. Hvis du imidlertid har glemt at tage en 
+dosis, skal du tage den næste på det planlagte tidspunkt for næste dosis. Du må ikke tage en 
+dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Entresto 
+Hvis du stopper behandlingen med Entresto, kan din tilstand forværres. Stop ikke med at tage 
+lægemidlet, medmindre din læge har bedt dig om det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle bivirkninger kan være alvorlige. </p>
+<ul>
+<li>Stop med at tage Entresto og søg straks læge, hvis du mærker hævelse af ansigt, læber, tunge 
+og/eller hals, som kan give vejrtrækningsbesvær eller synkebesvær. Dette kan være tegn på 
+angioødem (en ikke almindelig bivirkning, der kan forekomme hos op til 1 ud af 100 personer). </li>
+</ul>
+<p>Andre bivirkninger: 
+Hvis nogle af de bivirkninger, som er angivet nedenfor, bliver alvorlige, så fortæl det til din læge eller 
+apotekspersonalet. </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>lavt blodtryk, som kan forårsage symptomer såsom svimmelhed og uklarhed (hypertension) </p>
+</li>
+<li>
+<p>højt indhold af kalium i blodet, påvist i en blodprøve (hyperkaliæmi) </p>
+</li>
+<li>
+<p>nedsat nyrefunktion </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>lavt niveau af røde blodlegemer, påvist i en blodprøve (anæmi) </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>(akut) manglende evne til at få nyrerne til at fungere korrekt (nyresvigt) </p>
+</li>
+<li>
+<p>lavt indhold af kalium i blodet, påvist i en blodprøve (hypokaliæmi) </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>besvimelse (synkope) </p>
+</li>
+<li>
+<p>svaghed (asteni) </p>
+</li>
+<li>
+<p>føle sig syg (kvalme) </p>
+</li>
+<li>
+<p>lavt blodtryk (svimmelhed, uklarhed) ved skift fra siddende eller liggende til stående stilling </p>
+</li>
+<li>
+<p>gastritis (mavesmerter, kvalme) </p>
+</li>
+<li>
+<p>følelse af, at alt drejer rundt (svimmelhed) </p>
+</li>
+<li>
+<p>lavt blodsukkerniveau, påvist i en blodprøve (hypoglykæmi) </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>allergisk reaktion med udslæt og kløe (hypersensitivitet) </p>
+</li>
+<li>
+<p>svimmelhed ved skift fra siddende til stående stilling (postural svimmelhed) </p>
+</li>
+<li>
+<p>lavt niveau af natrium i blodet, påvist i en blodprøve (hyponatriæmi) </p>
+</li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1 000 personer) </p>
+<ul>
+<li>
+<p>ser, hører eller føler ting, som ikke er der (hallucinationer) </p>
+</li>
+<li>
+<p>ændringer i søvnmønster (søvnforstyrrelser) </p>
+</li>
+</ul>
+<p>Meget sjælden (kan forekomme hos op til 1 ud af 10 000 personer) </p>
+<ul>
+<li>paranoia (vrangforestillinger) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store entresto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store entresto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på pakning og blister efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. 
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. 
+Opbevares i den originale yderpakning for at beskytte mod fugt. 
+Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på at have været 
+åbnet. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entresto indeholder: </p>
+<ul>
+<li>
+<p>Aktive stoffer: sacubitril og valsartan. * 
+Hver 24 mg/26 mg filmovertrukken tablet indeholder 24,3 mg sacubitril og 25,7 mg 
+valsartan (som sacubitril-valsartan- natriumsaltkompleks). * 
+Hver 49 mg/51 mg filmovertrukken tablet indeholder 48,6 mg sacubitril og 51,4 mg 
+valsartan (sacubitril-valsartan-som natriumsaltkompleks). * 
+Hver 97 mg/103 mg filmovertrukken tablet indeholder 97,2 mg sacubitril og 102,8 mg 
+valsartan (som sacubitril-valsartan-natriumsaltkompleks). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer i tabletkernen: mikrokrystallinsk cellulose, lavsubstitueret 
+hydroxypropylcellulose, crospovidon, magnesiumstearat, talcum og silica, kolloid vandfri (se 
+sidst i punkt 2 under "Entresto indeholder natrium"). </p>
+</li>
+<li>
+<p>Overtrækket for 24 mg/26 mg og 97 mg/103 mg tabletterne indeholder hypromellose, 
+titandioxid (E171), Macrogol (4000), talcum, rød jernoxid (E172), og sort jernoxid (E172). </p>
+</li>
+<li>
+<p>Overtrækket for 49 mg/51 mg tabletten indeholder hypromellose, titandioxid (E171), Macrogol 
+(4000), talcum, rød jernoxid (E172) og gul jernoxid (E172).  </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Entresto 24 mg/26 mg filmovertrukne tabletter er violet-hvide ovale tabletter med "NVR" på den ene 
+side og "LZ" på den anden side. Tabletdimensioner: ca. 13,1 mm x 5,2 mm. 
+Entresto 49 mg/51 mg filmovertrukne tabletter er svagt gule ovale tabletter med "NVR" på den ene 
+side og "L1" på den anden side. Tabletdimensioner: ca. 13,1 mm x 5,2 mm. 
+Entresto 97 mg/103 mg filmovertrukne tabletter er lyserøde ovale tabletter med "NVR" på den ene 
+side og "L11" på den anden side. Tabletdimensioner: ca. 15,1 mm x 6,0 mm. </p>
+<p>Tabletterne leveres i pakninger med 14, 20, 28, 56, 168 eller 196 tabletter og i multipakninger med 
+7 pakninger med 28 tabletter i hver pakning. 49 mg/51 mg og 97 mg/103 mg tabletterne findes også i 
+multipakninger med 3 pakninger med 56 tabletter i hver pakning. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Pharmaceutical Manufacturing LLC 
+Verovskova Ulica 1000 Ljubljana 
+Slovenien </p>
+<p>Novartis Farma S.p.A 
+Via Provinciale Schito 80058 Torre Annunziata (NA) 
+Italien </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse D-90429 Nürnberg 
+Tyskland </p>
+<p>LEK farmacevtska družba d. d., Poslovna enota PROIZVODNJA LENDAVA 
+Trimlini 2D 
+Lendava 9Slovenien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20<br />
+Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Entresto 6 mg/6 mg granulat i kapsler til åbning 
+Entresto 15 mg/16 mg granulat i kapsler til åbning 
+sacubitril/valsartan </p>
+<p>Læs denne indlægsseddel grundigt, inden du/dit barn begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig/dit barn personligt. Lad derfor være med at give 
+lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
+som du/dit barn har. 
+- Kontakt lægen eller apotekspersonalet, hvis du/dit barn får bivirkninger, herunder bivirkninger, 
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a75d7e9d67efdcc2afd6268e67a7d0cd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for entresto Package Leaflet for language en"
+Description: "ePI document Bundle for entresto Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a75d7e9d67efdcc2afd6268e67a7d0cd"
+* entry[0].resource = composition-en-a75d7e9d67efdcc2afd6268e67a7d0cd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa75d7e9d67efdcc2afd6268e67a7d0cd"
+* entry[=].resource = mpa75d7e9d67efdcc2afd6268e67a7d0cd
+                            
+                    
+Instance: bundlepackageleaflet-da-a75d7e9d67efdcc2afd6268e67a7d0cd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for entresto Package Leaflet for language da"
+Description: "ePI document Bundle for entresto Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a75d7e9d67efdcc2afd6268e67a7d0cd"
+* entry[0].resource = composition-da-a75d7e9d67efdcc2afd6268e67a7d0cd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa75d7e9d67efdcc2afd6268e67a7d0cd"
+* entry[=].resource = mpa75d7e9d67efdcc2afd6268e67a7d0cd
+                            
+                    
+
+
+
+Instance: mpa75d7e9d67efdcc2afd6268e67a7d0cd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Entresto 24 mg/26 mg film-coated tablets"
-Description: "Entresto 24 mg/26 mg film-coated tablets"
+Title: "Medicinal Product entresto"
+Description: "entresto"
 Usage: #inline
 
  
@@ -428,7 +1054,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Entresto 24 mg/26 mg film-coated tablets"
+  * productName = "entresto"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -455,29 +1081,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a75d7e9d67efdcc2afd6268e67a7d0cd
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for entresto Package Leaflet for language en"
-Description: "ePI document Bundle for entresto Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a75d7e9d67efdcc2afd6268e67a7d0cdListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Entresto 24 mg/26 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "entresto"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a75d7e9d67efdcc2afd6268e67a7d0cd"
-* entry[0].resource = composition-en-a75d7e9d67efdcc2afd6268e67a7d0cd
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe1749529de4c81256804f5b509cb2f55"
-* entry[=].resource = mpe1749529de4c81256804f5b509cb2f55
-                            
-                      
+* title = "List of all ePIs associated with entresto"
+
+* subject = Reference(mpe1749529de4c81256804f5b509cb2f55)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#entresto "entresto"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a75d7e9d67efdcc2afd6268e67a7d0cd) // entresto en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a75d7e9d67efdcc2afd6268e67a7d0cd) // entresto da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a75d7e9d67efdcc2afd6268e67a7d0cd
+InstanceOf: List
+
+* insert a75d7e9d67efdcc2afd6268e67a7d0cdListRuleset
+    

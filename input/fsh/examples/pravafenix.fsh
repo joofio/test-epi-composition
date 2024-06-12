@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5e54bc899d36944f074c62413ee87b7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for pravafenix Package Leaflet"
@@ -407,12 +410,515 @@ http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-da-5e54bc899d36944f074c62413ee87b7a
+InstanceOf: CompositionUvEpi
+Title: "Composition for pravafenix Package Leaflet"
+Description:  "Composition for pravafenix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpadeb899cb972e030038b9e9592b4796d)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpadeb899cb972e030038b9e9592b4796d
+* title = "TEST PURPOSES ONLY - pravafenix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Pravafenix 
+3. Sådan skal du tage Pravafenix 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What pravafenix is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What pravafenix is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pravafenix indeholder to aktive stoffer: pravastatin og fenofibrat. Begge stoffer er kolesterol-
+/lipidmodificerende lægemidler.  </p>
+<p>Pravafenix anvendes som supplement til en fedtfattig kost hos voksne 
+- For at sænke niveauet af det "dårlige" kolesterol (LDL-kolesterol). Dette sker ved at sænke 
+niveauet af total-kolesterol og af de fedtstoffer i blodet, der kaldes triglycerider. 
+- For at øge niveauet af det "gode" kolesterol (HDL-kolesterol). </p>
+<p>Hvad bør jeg vide om kolesterol og triglycerider? 
+Kolesterol er et af de mange fedtstoffer, som dit blod indeholder. Total-kolesterol består hovedsageligt 
+af LDL- og HDL-kolesterol. </p>
+<p>LDL-kolesterol kaldes ofte det "dårlige" kolesterol, fordi det kan sætte sig på arterievægge og danne 
+belægninger. Med tiden kan dannelsen af sådanne belægninger føre til tilstopning af dine arterier. 
+Denne tilstopning kan forsinke eller blokere blodtilstrømningen til vitale organer som hjertet og 
+hjernen. Når blodtilstrømningen blokeres, kan resultatet være et hjerteanfald eller et slagtilfælde. </p>
+<p>HDL-kolesterol kaldes ofte det "gode" kolesterol, fordi det er med til at forhindre det "dårlige" 
+kolesterol i at sætte sig i arterierne, og fordi det beskytter mod hjertesygdom. </p>
+<p>Triglycerider er et andet fedtstof i blodet. De kan øge din risiko for at få hjerteproblemer. </p>
+<p>Hos de fleste mennesker er der ingen tegn på kolesterolproblemer til at begynde med. Din læge kan 
+måle dit kolesterol med en enkel blodprøve. Gå til læge regelmæssigt for at holde øje med dit 
+kolesterolniveau. </p>
+<p>Pravafenix anvendes, hvis du er en voksen patient med forhøjet risiko for hjertesygdomme og har brug 
+for at forbedre kolesterol- og triglyceridfedtniveauerne i blodet, når dit niveau af "dårligt" kolesterol 
+kontrolleres tilstrækkeligt med pravastatin alene (et statin, som er et kolesterolsænkende lægemiddel). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take pravafenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take pravafenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Pravafenix 
+- hvis du er allergisk over for fenofibrat, pravastatin eller et af de øvrige indholdsstoffer i 
+Pravafenix (angivet i afsnit 6) 
+- hvis du lider af leversygdom 
+- hvis du er under 18 år gammel 
+- hvis du lider af nyresygdom 
+- hvis du har haft fotoallergi (en allergisk reaktion, der skyldes sollys eller udsættelse for UV-lys) 
+eller får fototoksiske reaktioner (skader på huden som følge af udsættelse for sollys eller UV-lys) 
+under behandlingen med fibrater (lipidmodificerende lægemidler) eller ketoprofen (et 
+antiinflammatorisk lægemiddel, som kan tages via munden eller smøres på huden mod muskel- og knogleforstyrrelser, og som kan tages via munden mod urinsyregigt eller 
+menstruationssmerter) 
+- hvis du lider af galdeblæresygdom 
+- hvis du lider af pancreatitis (betændelse i bugspytkirtlen, der giver mavesmerter) 
+- hvis du er gravid eller ammer<br />
+- hvis du tidligere har haft muskelproblemer (som f.eks. muskelsvaghed eller nedbrydning af 
+tværstribet muskulatur) under behandling med kolesterolkontrollerende lægemidler, der kaldes 
+statiner (f.eks. simvastatin, atorvastatin, pravastatin eller rosuvastatin) eller fibrater (f.eks. 
+fenofibrat og bezafibrat). </p>
+<p>Tag ikke Pravafenix, hvis noget af ovenstående gælder for dig. Er du i tvivl, så spørg lægen eller 
+apoteket, inden du tager Pravafenix. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før du tager Pravafenix. </p>
+<p>Før du tager Pravafenix, skal du fortælle det til lægen, hvis du har eller har haft nogen 
+helbredsproblemer. 
+- Fortæl lægen om alle dine sygdomme, også allergier. 
+- Fortæl lægen, hvis du drikker store mængder alkohol (se punktet nedenfor om "Brug af Pravafenix 
+sammen med mad og drikke"), -eller hvis du nogensinde har haft en leversygdom. 
+- Din læge skal tage en blodprøve, inden du begynder at tage Pravafenix. Formålet med blodprøven 
+er at tjekke, hvor godt din lever og dine nyrer fungerer. 
+- Din læge kan også tage blodprøver for at tjekke, hvor godt din lever fungerer, efter at du er 
+begyndt at tage Pravafenix. 
+- Hvis du har eller har haft myasteni (en sygdom med generel muskelsvækkelse, herunder i nogle 
+tilfælde de muskler du bruger, når du trækker vejret), eller okulær myasteni (en sygdom, der 
+medfører svækkelse i øjenmusklerne), da statiner undertiden kan forværre sygdommen eller 
+medføre myasteni (se punkt 4). </p>
+<p>Fortæl det straks til lægen, hvis du oplever uforklarlige muskelsmerter, ømhed eller svaghed. I sjældne 
+tilfælde kan muskelproblemerne nemlig være alvorlige og omfatte en muskelnedbrydning, der 
+resulterer i nyreskader, og i meget sjældne tilfælde er der set dødsfald. </p>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis du har vedvarende muskelsvaghed. Det kan være 
+nødvendigt med ekstra prøver og lægemidler for at stille diagnosen og behandle det. </p>
+<p>Risikoen for muskelnedbrydning er større hos nogle patienter. Fortæl det til lægen, hvis noget af 
+følgende gælder for dig:</p>
+<ul>
+<li>Lever- eller nyreproblemer. </li>
+<li>Problemer med skjoldbruskkirtlen. </li>
+<li>Du er over 70 år gammel. </li>
+<li>Du har tidligere haft muskelproblemer under en behandling med kolesterolsænkende lægemidler </li>
+</ul>
+<p>såsom et statin eller fibrat. 
+- Du tager eller har inden for de sidste syv dage taget medicin, der hedder fusidinsyre (et lægemiddel 
+mod bakterieinfektion) enten gennem munden eller som indsprøjtning. Kombinationen af fusidinsyre 
+og Pravafenix kan medføre alvorlige muskelproblemer (rabdomyolyse). 
+- Du eller dine nærmeste familiemedlemmer har en arvelig muskelsygdom. 
+- Du har alkoholproblemer (du drikker regelmæssigt store mængder alkohol). </p>
+<p>Tal med lægen eller apotekspersonalet, inden du tager Pravafenix, hvis du har svært nedsat 
+åndedrætsfunktion, f.eks. hvis du har vejrtrækningsproblemer, der omfatter vedvarende ikke-produktiv 
+(tør) hoste, generel helbredsforringelse såsom træthed, vægttab og/eller stakåndethed eller feber. Hvis 
+du har nogen af disse symptomer, skal du holde op med at tage Pravafenix og fortælle det til din læge. </p>
+<p>Hvis du har sukkersyge (diabetes) eller er i risiko for at udvikle sukkersyge, vil din læge overvåge dit 
+helbred nøje, så længe du tager dette lægemiddel. Du vil sandsynligvis have risiko for at udvikle 
+sukkersyge, hvis du har et højt indhold af sukker eller fedt i blodet, er overvægtig eller har forhøjet 
+blodtryk. </p>
+<p>Børn 
+Tag ikke Pravafenix, hvis du er under 18 år. </p>
+<p>Brug af anden medicin sammen med Pravafenix 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin.. Dette gælder også medicin, som ikke er købt 
+på recept. Det er vigtigt, at du fortæller det til lægen, hvis du allerede bliver behandlet med et af 
+følgende lægemidler:</p>
+<ul>
+<li>Galdesyrebindende resin såsom kolestyramin/kolestipol (et kolesterolsænkende lægemiddel), 
+eftersom det påvirker den måde, som Pravafenix virker på. </li>
+<li>Ciclosporin (et lægemiddel, der ofte anvendes til organtransplanterede patienter). </li>
+<li>Lægemidler, der forebygger blodpropper, såsom warfarin, fluindion, phenprocoumon eller 
+acenocoumarol (antikoagulerende midler) </li>
+<li>Et antibiotikum, såsom erythromycin eller clarithromycin, til behandling af infektioner, der skyldes 
+bakterier. </li>
+<li>Fusidinsyre: Hvis du har brug for at tage fusidinsyre gennem  munden for at behandle en 
+bakterieinfektion, skal du midlertidigt stoppe med at tage dette lægemiddel. Din læge vil fortælle 
+dig, hvornår det er sikkert at begynde at tage Pravafenix igen. Hvis man tager Pravafenix sammen 
+med fusidinsyre, kan det i sjældne tilfælde medføre muskelsvækkelse, -ømhed eller -smerter 
+(rabdomyolyse). Se yderligere oplysninger om rabdomyolyse i punkt 4. - Glecaprevir/pibrentasvir (bruges som behandling for infektion med hepatitis C-virus) fordi det kan 
+øge visse bivirkninger såsom muskelproblemer. </li>
+<li>en bestemt klasse medicin til behandling af diabetes (såsom rosiglitazon, pioglitazon). </li>
+</ul>
+<p>Brug af Pravafenix sammen med mad og drikke og alkohol 
+- Tag altid Pravafenix sammen med mad, eftersom Pravafenix ikke absorberes lige så godt på tom 
+mave. 
+- Du bør altid holde dit alkoholindtag på et minimum. Hvis du er usikker på, hvor meget alkohol, du 
+kan drikke, mens du tager dette lægemiddel, skal du tale med din læge. </p>
+<p>Følg lægens råd, hvis du er i tvivl. </p>
+<p>Graviditet og amning 
+Spørg din læge eller apotekspersonalet til råds, før du tager nogen form for medicin. </p>
+<p>Tag ikke Pravafenix, hvis du er gravid eller forsøger at blive gravid, eller hvis du har mistanke om, at 
+du er gravid. 
+Hvis du planlægger at blive gravid eller bliver gravid, skal du straks fortælle det til din læge. Du skal 
+holde op med at tage lægemidlet, fordi der er en potentiel risiko for fosteret. </p>
+<p>Du må ikke tage Pravafenix, hvis du ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Pravafenix påvirker sædvanligvis ikke evnen til at føre motorkøretøj eller betjene maskiner. Hvis du 
+oplever nogen form for svimmelhed, sløret syn eller dobbeltsyn under behandlingen, skal du sikre dig, 
+at du er i stand til at føre motorkøretøj eller betjene maskiner, inden du forsøger at gøre dette. </p>
+<p>Pravafenix indeholder lactose og natrium 
+Pravafenix indeholder et sukkerstof, der kaldes lactose. Hvis lægen har fortalt dig, at du ikke tåler 
+visse sukkerstoffer, skal du kontakte lægen, inden du tager dette lægemiddel. 
+Dette lægemiddel indeholder 33,3 mg natrium (den vigtigste madlavnings-/bordsaltbestanddel) pr. 
+kapsel (hjælpestoffer og aktivt stof). Dette svarer til 1,7% af en voksnes anbefalede maksimale daglige 
+natriumindtag. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pravafenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pravafenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. 
+- Før du begynder at tage Pravafenix, skal du være på en diæt, der har til formål at sænke dit 
+kolesterolniveau. 
+- Du skal forblive på denne diæt, mens du tager Pravafenix. </p>
+<p>Den sædvanlige dosis til voksne er én kapsel, som tages én gang om dagen i forbindelse med 
+aftensmåltidet. Synk kapslen med vand. Det er vigtigt at tage kapslen med mad, eftersom den ikke 
+virker lige så godt på tom mave. </p>
+<p>Hvis din læge har ordineret Pravafenix sammen med kolestyramin eller andre galdesyrebindende 
+resiner (lægemidler, der sænker kolesterolniveauet), skal du tage Pravafenix 1 time før eller 4-6 timer 
+efter resinet. Det skyldes, at kolestyramin og andre galdesyrebindende resiner ofte reducerer 
+absorptionen af lægemidler, når de tages for tæt på hinanden, og at de derfor kan forhindre </p>
+<p>absorptionen af Pravafenix. Hvis du tager fordøjelsesmidler (som anvendes for at neutralisere 
+mavesyre), skal du tage Pravafenix 1 time efter. </p>
+<p>Hvis du har taget for meget Pravafenix 
+Kontakt lægen eller apoteket. </p>
+<p>Hvis du har glemt at tage Pravafenix 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis, men skal blot tage den normale 
+mængde Pravafenix på det sædvanlige tidspunkt næste dag. </p>
+<p>Hvis du holder op med at tage Pravafenix 
+Hold ikke op med at tage Pravafenix uden at tale med lægen først. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Hvis bivirkningerne ikke forsvinder i løbet af et par dage, eller du på anden måde føler dig utilpas, 
+skal du tale med lægen, inden du tager den næste dosis.<br />
+Fortæl det straks til lægen, hvis du oplever uforklarlige muskelsmerter, muskelkramper, ømhed eller 
+svaghed. I meget sjældne tilfælde kan muskelproblemerne nemlig være alvorlige og omfatte en 
+muskelnedbrydning, der resulterer i nyreskader, og i meget sjældne tilfælde er der set dødsfald. 
+Pludselige alvorlige allergiske reaktioner, herunder hævelser i ansigtet, læberne, tungen eller luftrøret, 
+kan gøre det meget vanskeligt at trække vejret. Dette er en meget sjælden reaktion, der kan være 
+alvorlig, når den opstår. Fortæl det straks til lægen, hvis denne reaktion opstår. </p>
+<p>Følgende bivirkninger er vigtige og kræver omgående handling. </p>
+<p>Almindelige bivirkninger (forekommer hos 1 til 10 ud af 100 patienter) 
+• Bivirkninger, der vedrører fordøjelsen: mave- eller tarmforstyrrelser (mavesmerter, kvalme, 
+opkastning, diarré og luft i maven, forstoppelse, mundtørhed, smerter i den øverste del af maven og 
+oppustethed (dyspepsi), bøvsen (opstød). 
+• Bivirkninger, der vedrører leveren: forhøjede serumtransaminaser. </p>
+<p>Ikke almindelige bivirkninger (forekommer hos 1 til 10 ud af 1.000 patienter) 
+• Unormal hjerterytme (hjertebanken), dannelse af blodpropper i årerne (dyb venetrombose) og 
+blokering af lungernes arterier med blodpropper (lungeemboli). 
+• Udslæt, hududslæt, kløe, nældefeber eller reaktion på sollys eller udsættelse for UV-lys 
+(lysfølsomhedsreaktioner), uregelmæssigheder i hår/hovedbund (herunder hårtab). 
+• Bivirkninger, der vedrører nervesystemet: svimmelhed, hovedpine, søvnforstyrrelser (herunder 
+søvnbesvær og mareridt), prikkende og snurrende fornemmelse (paræstesi). 
+• Muskel- og ledsmerter (myalgi, ledsmerter), rygsmerter, forandringer i nogle laboratorieblodprøver 
+til undersøgelse af muskelfunktionen. 
+• Synsforstyrrelser såsom sløret syn eller dobbeltsyn. 
+• Nyreproblemer (øget eller nedsat niveau af visse enzymer i kroppen, der viser sig i en test), 
+blæreproblemer (smertefuld eller hyppig vandladning, natlig vandladning), seksuel dysfunktion 
+• Træthed, svaghed, influenzalignende sygdom. 
+• Overfølsomhed. </p>
+<p>• Forhøjet kolesteroltal, forhøjede triglycerider i blodet, forhøjet LDL, forhøjet 
+gammaglutamyltransferase (forskellige leverenzymer), leversmerter (smerter i øverste højre del af 
+maven med eller uden rygsmerter), vægtstigning. 
+• Overvægt. 
+• Muskelbetændelse (myositis), muskelkramper og svaghed. </p>
+<p>Sjældne bivirkninger (forekommer hos 1 til 10 ud af 10.000 patienter) 
+• Reduceret hæmoglobin (iltbærende pigment i blodet) og leukocytter (hvide blodlegemer). </p>
+<p>Meget sjældne bivirkninger (forekommer hos mindre end 1 ud af 10.000 patienter) 
+• Leverbetændelse (hepatitis), hvor symptomerne kan være en let gulfarvning af huden og det hvide i 
+øjnene (gulsot), mavesmerter og kløe. 
+• Muskelnedbrydning (rabdomyolyse), visse tilfælde af senelidelser, som undertiden kompliceres af 
+brud. 
+• En tilstand, der kendetegnes ved inflammation (viser sig com f.eks. rødme og irritation), af 
+musklerne og huden (dermatomyositis). 
+• Hududslæt, muligvis med ledsmerter (erytematøst lupuslignende syndrom). 
+• Snurrende fornemmelse i huden og følelsesløshed (perifer polyneuropati). </p>
+<p>Bivirkninger med ukendt hyppighed:<br />
+• Vedvarende muskelsvaghed. 
+• Muskelruptur. 
+• Hududslæt (likenoidt udslæt). 
+• Myasthenia gravis (en sygdom, der medfører generel muskelsvækkelse, herunder i nogle tilfælde 
+de muskler du bruger, når du trækker vejret).<br />
+• Okulær myasteni (en sygdom, der medfører svækkelse af øjenmusklerne).<br />
+Tal med lægen, hvis du oplever svækkelse i arme eller ben, som forværres efter aktivitetsperioder, 
+dobbeltsyn eller hængende øjenlåg, synkebesvær eller åndenød. </p>
+<p>Bivirkninger, der er indberettet for visse statiner (samme type kolesterolsænkende lægemidler 
+som pravastatin) 
+• Hukommelsestab. 
+• Depression. 
+• Vejrtrækningsproblemer, herunder vedvarende hoste/eller stakåndethed eller feber. 
+• Sukkersyge: Det er større risiko, hvis du har et højt indhold af sukker eller fedt i blodet, er 
+overvægtig eller har forhøjet blodtryk. Din læge vil overvåge dit helbred, imens du tager dette </p>
+<p>lægemiddel. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pravafenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pravafenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterkortet/beholderen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pravafenix indeholder: </p>
+<ul>
+<li>
+<p>Aktive stoffer: fenofibrat og pravastatinnatrium. En hård kapsel indeholder 40 mg 
+pravastatinnatrium og  160 mg fenofibrat. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:</p>
+</li>
+<li>
+<p>Kapslens indhold: lactosemonohydrat, mikrokrystallinsk cellulose, ascorbylpalmitat, povidon, 
+natriumstivelsesglycolat, magnesiumstearat, talkum, triacetin, natriumhydrogencarbonat, 
+lauroyl macrogolglycerider, hydroxypropylcellulose, macrogol 20 000. - Kapselskal: gelatine, indigotin (E132), sort jernoxid (E172), titaniumdioxid (E171), gul 
+jernoxid (E172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Kapslerne er hårde gelatinekapsler med olivengrøn hætte og lysegrøn krop, som indeholder en 
+voksagtig, beigehvid masse og en tablet. Kapslerne leveres i polyamid-aluminium-PVC/aluminium 
+blisterpakninger med 30, 60 eller 90 kapsler og i uigennemsigtige, hvide plasticbeholder med enten 14, 
+30, 60 eller 90 kapsler. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Fremstiller </p>
+<p>Laboratoires SMB s.a.  </p>
+<p>SMB Technology s.a. 
+Rue de la Pastorale, 26-  </p>
+<p>Rue du Parc Industriel B-1080 Bruxelles </p>
+<p>B-6900 Marche en Famenne 
+Belgien  </p>
+<p>Belgien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Laboratoires SMB S.A. 
+Tél/Tel: + 32.2.411.48.28. Lietuva 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. България 
+Thea Pharma LtdTeл.: +359.2.444.24. Luxembourg/Luxemburg 
+Laboratoires SMB S.A. 
+Tél/Tel: + 32.2.411.48.28. Česká republika 
+Magyarország </p>
+<p>Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Laboratoires SMB S.A. 
+Tel.: + 32.2.411.48.28. Danmark 
+Galephar Nordic ApS 
+Tlf: +45 5666 0Malta 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Deutschland 
+Galephar Pharma GmbH<br />
+Tel: +49 7164 66<br />
+Nederland 
+Galephar B.V. 
+Tel: +31 71 562 15<br />
+Eesti 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Norge 
+Laboratoires SMB S.A. 
+Tlf: + 32.2.411.48.28. Ελλάδα 
+Meditrina LTD 
+Tηλ: +30 2106726Österreich 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. España 
+Lacer S.A. 
+Tel: +34 934 46 53<br />
+Polska 
+Laboratoires SMB S.A. 
+Tel.: + 32.2.411.48.28. France 
+Laboratoires SMB S.A. 
+Tél: + 32.2.411.48.28. Portugal 
+Tecnimede Sociedade<br />
+Técnico-Medicinal S.A. 
+Tel: +351 21 041 41<br />
+Hrvatska<br />
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. România 
+Meditrina Pharmaceuticals S.r.l 
+Tel: +40 21 211 71 Ireland 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Slovenija 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Ísland 
+Laboratoires SMB S.A. 
+Sími: + 32.2.411.48.28. Slovenská republika 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Italia 
+Abiogen Pharma S.p.A. 
+Tel: +39 050 3154<br />
+Suomi/Finland 
+Laboratoires SMB S.A. 
+Puh/Tel: + 32.2.411.48.28. Κύπρος 
+Multi-Pharm Co. Ltd. 
+Τηλ: +357 22438Sverige 
+Galephar Nordic ApS 
+Tlf: +45 5666 0 
+Latvija 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. United Kingdom (Northern Ireland) 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om Pravafenix på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk. </p>
+<p>BILAG IV  </p>
+<p>VIDENSKABELIGE KONKLUSIONER OG BEGRUNDELSER FOR ÆNDRING AF 
+BETINGELSERNE FOR MARKEDSFØRINGSTILLADELSEN/-TILLADELSERNE </p>
+<p>Videnskabelige konklusioner </p>
+<p>Under hensyntagen til PRAC's vurderingsrapport om PSUR(s) for fenofibrat / pravastatin er PRAC's 
+videnskabelige konklusioner som følger:  </p>
+<p>I lyset af tilgængelige data om muskelbristninger fra litteraturen og spontane rapporter, herunder i tilfælde en tæt tidsmæssig sammenhæng, en positiv de-challenge (14 tilfælde) og/eller re-challenge (2 
+tilfælde) og i lyset af en plausibel virkningsmekanisme, mener PRAC, at en årsagssammenhæng 
+mellem pravastatin og muskelbristninger i det mindste er en rimelig mulighed. PRAC konkluderede, 
+at produktinformationen for produkter, der indeholder fenofibrat/pravastatin, bør ændres i 
+overensstemmelse hermed.  </p>
+<p>Efter at have gennemgået PRAC's anbefaling er CHMP enig i PRAC's overordnede konklusioner og 
+begrundelse for anbefalingen. </p>
+<p>Begrundelse for ændring af betingelserne for markedsføringstilladelsen/-tilladelserne </p>
+<p>På baggrund af de videnskabelige konklusioner for fenofibrat / pravastatin er CHMP af den opfattelse, 
+at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder fenofibrat / pravastatin, 
+forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen.  </p>
+<p>CHMP anbefaler, at betingelserne i markedsføringstilladelsen/markedsføringstilladelserne ændres. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5e54bc899d36944f074c62413ee87b7a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pravafenix Package Leaflet for language en"
+Description: "ePI document Bundle for pravafenix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5e54bc899d36944f074c62413ee87b7a"
+* entry[0].resource = composition-en-5e54bc899d36944f074c62413ee87b7a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5e54bc899d36944f074c62413ee87b7a"
+* entry[=].resource = mp5e54bc899d36944f074c62413ee87b7a
+                            
+                    
+Instance: bundlepackageleaflet-da-5e54bc899d36944f074c62413ee87b7a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pravafenix Package Leaflet for language da"
+Description: "ePI document Bundle for pravafenix Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5e54bc899d36944f074c62413ee87b7a"
+* entry[0].resource = composition-da-5e54bc899d36944f074c62413ee87b7a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5e54bc899d36944f074c62413ee87b7a"
+* entry[=].resource = mp5e54bc899d36944f074c62413ee87b7a
+                            
+                    
+
+
+
+Instance: mp5e54bc899d36944f074c62413ee87b7a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Pravafenix 40 mg/160 mg hard capsules"
-Description: "Pravafenix 40 mg/160 mg hard capsules"
+Title: "Medicinal Product pravafenix"
+Description: "pravafenix"
 Usage: #inline
 
  
@@ -432,7 +938,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Pravafenix 40 mg/160 mg hard capsules"
+  * productName = "pravafenix"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -459,29 +965,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5e54bc899d36944f074c62413ee87b7a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for pravafenix Package Leaflet for language en"
-Description: "ePI document Bundle for pravafenix Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5e54bc899d36944f074c62413ee87b7aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/679/001-007"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "pravafenix"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5e54bc899d36944f074c62413ee87b7a"
-* entry[0].resource = composition-en-5e54bc899d36944f074c62413ee87b7a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpadeb899cb972e030038b9e9592b4796d"
-* entry[=].resource = mpadeb899cb972e030038b9e9592b4796d
-                            
-                      
+* title = "List of all ePIs associated with pravafenix"
+
+* subject = Reference(mpadeb899cb972e030038b9e9592b4796d)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#pravafenix "pravafenix"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5e54bc899d36944f074c62413ee87b7a) // pravafenix en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5e54bc899d36944f074c62413ee87b7a) // pravafenix da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5e54bc899d36944f074c62413ee87b7a
+InstanceOf: List
+
+* insert 5e54bc899d36944f074c62413ee87b7aListRuleset
+    

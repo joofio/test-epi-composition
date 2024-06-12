@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d21a665ebc1011132a02f9a335304090
 InstanceOf: CompositionUvEpi
 Title: "Composition for keppra Package Leaflet"
@@ -452,12 +455,688 @@ effects not listed in this leaflet. See section 4.</p>
 
 
 
+Instance: composition-da-d21a665ebc1011132a02f9a335304090
+InstanceOf: CompositionUvEpi
+Title: "Composition for keppra Package Leaflet"
+Description:  "Composition for keppra Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp8f0cbade55abad0d90063977c5019f07)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp8f0cbade55abad0d90063977c5019f07
+* title = "TEST PURPOSES ONLY - keppra"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen<br />
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Keppra. 
+3. Sådan skal De tage Keppra 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What keppra is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What keppra is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Levetiracetam er et lægemiddel mod epilepsi (et lægemiddel, som anvendes til behandling af 
+epileptiske anfald). </p>
+<p>Keppra anvendes:  </p>
+<ul>
+<li>
+<p>som monoterapi (eneste lægemiddel) hos voksne og unge over 16 år med nydiagnosticeret 
+epilepsi til behandling af en bestemt type epilepsi. Epilepsi er en tilstand, hvor patienter har 
+gentagne anfald. Levetiracetam anvendes til den type epilepsi, hvor anfaldene til at begynde 
+med kun påvirker en side af hjernen, men kan efterfølgende udvide sig til større områder i 
+begge sider af hjernen (partielt udløste anfald med eller uden sekundær generalisering). De har 
+fået levetiracetam af Deres læge for at nedbringe antallet af anfald. </p>
+</li>
+<li>
+<p>som tillæg til andre lægemidler mod epilepsi til behandling af: 
+▪ 
+partielt udløste anfald med eller uden generalisering hos voksne, unge, børn og spædbørn 
+over 1 måned; 
+▪ 
+myoklone anfald (korte, chok-lignende ryk i en muskel eller i en gruppe af muskler) hos 
+voksne og unge over 12 år med juvenil myoklon epilepsi 
+▪ 
+primært generaliserede tonisk-kloniske anfald (større anfald inklusiv bevidstløshed) hos 
+voksne og unge over 12 år med idiopatisk generaliseret epilepsi (den type epilepsi, som 
+menes at være genetisk forårsaget). </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take keppra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take keppra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Keppra </p>
+<ul>
+<li>Hvis De er allergisk over for levetiracetam, pyrrolidonderivater eller et af de øvrige 
+indholdsstoffer i Keppra (angivet i punkt 6).  </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, før De tager Keppra </p>
+<ul>
+<li>
+<p>Hvis De lider af nyreproblemer. Følg lægens instruktioner. Han/hun kan afgøre, om Deres dosis 
+skal justeres. </p>
+</li>
+<li>
+<p>Hvis De bemærker en stagnation i væksten eller uventet pubertetsudvikling hos Deres barn, så 
+kontakt Deres læge. </p>
+</li>
+<li>
+<p>En lille andel af de personer, der bliver behandlet med epilepsimedicin, som for eksempel 
+Keppra, har haft selvmordstanker eller tanker om at gøre skade på sig selv. Hvis De har 
+symptomer på depression og/eller selvmordstanker, så kontakt Deres læge. </p>
+</li>
+<li>
+<p>Hvis De eller nogen i Deres familie har eller tidligere har haft uregelmæssig hjerterytme (synlig 
+på et elektrokardiogram), eller hvis De har en sygdom og/eller får en behandling, der gør, at De 
+er tilbøjelig til at få uregelmæssig hjerterytme eller forstyrrelser i saltbalancen.  </p>
+</li>
+</ul>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis en af følgende bivirkninger bliver alvorlig eller varer 
+længere end et par dage: </p>
+<ul>
+<li>
+<p>Unormale tanker, følelse af irritation eller mere aggressive reaktioner end normalt, eller hvis De 
+eller Deres familie og venner bemærker væsentlige humør- eller adfærdsændringer hos Dem. </p>
+</li>
+<li>
+<p>Forværring af epilepsi: 
+Deres krampeanfald kan i sjældne tilfælde blive værre eller forekomme hyppigere, 
+hovedsageligt i den første måned efter behandlingsstart eller dosisoptrapning.<br />
+Ved en meget sjælden form for tidligt debuterende epilepsi (epilepsi forbundet med SCN8A-
+mutationer), der forårsager flere typer anfald og tab af færdigheder, kan De muligvis bemærke, 
+at anfaldene stadig forekommer eller bliver værre under Deres behandling. </p>
+</li>
+</ul>
+<p>Hvis De oplever et eller flere af disse nye symptomer, mens De tager Keppra, skal De søge læge så 
+hurtigt som muligt. </p>
+<p>Børn og unge </p>
+<ul>
+<li>Keppra, som eneste lægemiddel (monoterapi), er ikke indiceret til børn og unge under 16 år. </li>
+</ul>
+<p>Brug af anden medicin sammen med Keppra 
+Fortæl altid lægen eller apotekspersonalet, hvis De tager anden medicin, har gjort det for nylig eller 
+planlægger at tage anden medicin.  </p>
+<p>Tag ikke macrogol (et lægemiddel, som anvendes som afføringsmiddel) en time før og en time efter 
+levetiracetam, da dette kan medføre tab af levetiracetams virkning.  </p>
+<p>Graviditet og amning 
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge til råds, før De tager dette lægemiddel. Levetiracetam må kun anvendes under 
+graviditeten, hvis Deres læge efter omhyggelig vurdering mener, at det er nødvendigt.<br />
+De bør ikke standse med behandlingen uden aftale med Deres læge. 
+Risiko for medfødte misdannelser hos Deres ufødte barn kan ikke udelukkes helt.<br />
+Det anbefales ikke at amme under behandlingen.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Keppra kan påvirke Deres evne til at køre bil, motorcykel, cykle eller betjene værktøj og maskiner, da 
+det kan give døsighed. Dette er mere sandsynligt i begyndelsen af behandlingen eller efter forøgelse af 
+dosis. De må ikke køre bil, motorcykel, cykle eller anvende maskiner, før De er helt sikker på, at 
+Deres evne til at udføre sådanne aktiviteter ikke er påvirket. </p>
+<p>Keppra 750 mg filmovertrukne tabletter indeholder sunset yellow FCF (E110) 
+Sunset yellow FCF (E 110) er et farvestof, som kan give allergiske reaktioner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take keppra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take keppra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>Tag det antal tabletter, som lægen har ordineret. 
+Keppra skal tages to gange dagligt, én gang om morgenen og én gang om aftenen, på omtrent samme 
+tidspunkt hver dag. </p>
+<p>Tillægsbehandling og monoterapi (fra 16 år) </p>
+<ul>
+<li>
+<p>Voksne (≥18 år) og unge (12 til 17 år), som vejer 50 kg eller mere: 
+Den anbefalede dosis er mellem 1000 mg og 3000 mg dagligt. 
+Når De begynder at tage Keppra, vil Deres læge ordinere en lavere dosis i 2 uger, før De får 
+den laveste daglige dosis. 
+Eksempel: Hvis Deres daglige dosis er bestemt til at være 1000 mg, er Deres lavere startdosis 1 
+tablet på 250 mg om morgenen og 1 tablet på 250 mg om aftenen, og dosis vil blive gradvist 
+forhøjet, så den når 1000 mg dagligt efter 2 uger. </p>
+</li>
+<li>
+<p>Unge (12 til 17 år), der vejer 50 kg eller mindre: 
+Deres læge vil ordinere den mest passende lægemiddelorm af Keppra i henhold til vægt og 
+dosis. </p>
+</li>
+<li>
+<p>Dosis til spædbørn (1 måned til 23 måneder) og børn (2 til 11 år), som vejer under 50 kg: 
+Deres læge vil ordinere den mest hensigtsmæssige lægemiddelform af Keppra afhængigt af 
+alder, vægt og dosis. </p>
+</li>
+</ul>
+<p>Keppra 100 mg/ml oral opløsning er den bedst egnede lægemiddelformulering til spædbørn og 
+børn under 6 år og til børn og unge (fra 6 til 17 år), som vejer mindre end 50 kg, og hvor 
+tabletter ikke muliggøre nøjagtig dosis. </p>
+<p>Indtagelsesmåde 
+Keppra tabletter synkes med rigelig væske (f.eks. et glas vand). De kan tage Keppra med eller uden 
+mad. Der kan opleves en bitter smag i munden efter oral indtagelse af levetiracetam. </p>
+<p>Behandlingsvarighed </p>
+<ul>
+<li>
+<p>Keppra anvendes til kronisk behandling. De skal fortsætte behandlingen med Keppra så lang tid, 
+som Deres læge har fortalt Dem. </p>
+</li>
+<li>
+<p>Stop ikke behandlingen uden lægens anbefaling, da dette kan øge antallet af anfald.  </p>
+</li>
+</ul>
+<p>Hvis De har taget for mange Keppra 
+Bivirkningerne ved overdosering af Keppra er søvnighed, uro, aggressiv adfærd, nedsat årvågenhed, 
+vejrtrækningsbesvær og koma. 
+Kontakt lægen, hvis De har taget flere tabletter, end De skal. Deres læge vil fastlægge den bedst 
+mulige behandling af overdosering. </p>
+<p>Hvis De har glemt at tage Keppra 
+Kontakt lægen, hvis De har glemt en eller flere doser.<br />
+De må ikke tage en dobbeltdosis som erstatning for den glemte tablet.  </p>
+<p>Hvis De holder op med at tage Keppra 
+Ved ophør af behandling skal Keppra nedtrappes gradvist for at undgå en forøgelse af anfald. Hvis 
+lægen beslutter at stoppe Deres behandling med Keppra, vil han/hun instruere Dem i, hvordan De 
+gradvist skal ophøre med at tage Keppra. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt omgående lægen eller skadestuen, hvis De oplever: </p>
+<ul>
+<li>
+<p>svaghed, føler Dem ør i hovedet eller svimmel, eller har vejrtrækningsbesvær, da disse 
+symptomer kan være tegn på en alvorlig allergisk (anafylaktisk) reaktion </p>
+</li>
+<li>
+<p>hævelse af ansigt, læber, tunge eller svælg (Quinckes ødem) </p>
+</li>
+<li>
+<p>influenzalignende symptomer og udslæt i ansigtet, som efterfølges af udbredt udslæt med feber, 
+forhøjede leverenzymniveauer i blodprøver og et forhøjet antal af en bestemt type hvide 
+blodlegemer (eosinofili) og forstørrede lymfekirtler (lægemiddelreaktion med eosinofili og 
+systemiske reaktioner [DRESS]) </p>
+</li>
+<li>
+<p>symptomer, såsom nedsat urinmængde, træthed, kvalme, opkastning, forvirring og hævelse af 
+benene, anklerne eller fødderne, da disse kan være tegn på pludseligt nedsat nyrefunktion </p>
+</li>
+<li>
+<p>et hududslæt, der kan danne blærer, og som ligner små skydeskiver (mørk plet i midten omgivet 
+af et blegere område, med en mørk ring om kanten) (erythema multiforme) </p>
+</li>
+<li>
+<p>et udbredt udslæt med blærer og skællende hud, især omkring munden, næsen, øjnene og 
+kønsorganerne (Stevens-Johnson syndrom) </p>
+</li>
+<li>
+<p>et mere alvorligt udslæt, der forårsager afskalning af huden på mere end 30 % af 
+kropsoverfladen (toksisk epidermal nekrolyse) </p>
+</li>
+<li>
+<p>tegn på alvorlige mentale forandringer, eller hvis nogen omkring Dem bemærker tegn på 
+forvirring, somnolens (døsighed), amnesi (hukommelsestab), hukommelsessvækkelse 
+(glemsomhed), unormal adfærd, eller andre neurologiske tegn, herunder ufrivillige eller 
+ukontrollerede bevægelser. Disse symptomer kan være tegn på hjernepåvirkning (encefalopati).  </p>
+</li>
+</ul>
+<p>De oftest rapporterede bivirkninger er snue, døsighed, hovedpine, træthed og svimmelhed. I 
+begyndelsen af behandlingen eller i forbindelse med dosisøgning kan nogle af bivirkningerne såsom 
+søvnighed, træthed og svimmelhed være mere almindelige. Disse bivirkninger vil imidlertid normalt 
+mindskes efterhånden. </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 patienter  </p>
+<ul>
+<li>
+<p>snue; </p>
+</li>
+<li>
+<p>døsighed, hovedpine. </p>
+</li>
+</ul>
+<p>Almindelig: kan forekomme hos op til 1 ud af 10 patienter </p>
+<ul>
+<li>
+<p>appetitløshed; </p>
+</li>
+<li>
+<p>depression, fjendtlighed eller aggression, angst, søvnløshed, nervøsitet eller irritabilitet; </p>
+</li>
+<li>
+<p>kramper, problemer med at holde balancen, svimmelhed (følelse af usikker gang), letargi 
+(mangel på energi og entusiasme), tremor (ufrivillig rysten); </p>
+</li>
+<li>
+<p>vertigo (følelse af at snurre rundt); </p>
+</li>
+<li>
+<p>hoste; </p>
+</li>
+<li>
+<p>mavesmerter, diarré, dyspepsi (fordøjelsesbesvær), opkastning, kvalme; </p>
+</li>
+<li>
+<p>udslæt; </p>
+</li>
+<li>
+<p>kraftesløshed og svaghed/træthed. </p>
+</li>
+</ul>
+<p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 patienter </p>
+<ul>
+<li>
+<p>nedsat antal blodplader og hvide blodlegemer;  </p>
+</li>
+<li>
+<p>vægttab, vægtstigning; </p>
+</li>
+<li>
+<p>selvmordsforsøg og selvmordstanker, mental ubalance, unormal adfærd, hallucinationer, vrede, 
+forvirring, panikanfald, følelsesmæssig ustabilitet/humørsvingninger, rastløs uro; </p>
+</li>
+<li>
+<p>amnesi (hukommelsestab), hukommelsessvækkelse (glemsomhed), koordinationsbesvær, 
+paræstesi (prikkende, snurrende fornemmelser eller følelsesløshed i huden), 
+opmærksomhedsforstyrrelser (koncentrationsbesvær); </p>
+</li>
+<li>
+<p>dobbeltsyn, sløret syn; </p>
+</li>
+<li>
+<p>forhøjede/unormale værdier i leverfunktionsprøver; </p>
+</li>
+<li>
+<p>hårtab, eksem, kløe;  </p>
+</li>
+<li>
+<p>muskelsvaghed, muskelsmerter;  </p>
+</li>
+<li>
+<p>skader ved uheld. </p>
+</li>
+</ul>
+<p>Sjælden: kan forekomme hos op til 1 ud af 1000 patienter </p>
+<ul>
+<li>
+<p>infektion; </p>
+</li>
+<li>
+<p>nedsat antal af alle typer blodlegemer;  </p>
+</li>
+<li>
+<p>alvorlige allergiske reaktioner (DRESS, anafylaktisk reaktion (alvorlig og vigtig allergisk 
+reaktion), Quinckes ødem (hævelse af ansigt, læber, tunge og svælg)); </p>
+</li>
+<li>
+<p>nedsat natriumindhold i blodet; </p>
+</li>
+<li>
+<p>selvmord, personlighedsforstyrrelser (adfærdsproblemer), unormal tankevirksomhed (langsom 
+tankegang, koncentrationsbesvær); </p>
+</li>
+<li>
+<p>delirium (uklarhed, forvirring og desorientering); </p>
+</li>
+<li>
+<p>encefalopati (se underafsnittet "Kontakt omgående lægen" for en detaljeret beskrivelse af 
+symptomer); </p>
+</li>
+<li>
+<p>krampeanfald kan forværres eller forekomme hyppigere; </p>
+</li>
+<li>
+<p>ukontrollerede muskelspasmer med indvirkning på hovedet, kroppen samt arme og ben; 
+vanskelighed med at kontrollere kroppens bevægelser, ufrivillige bevægelser; </p>
+</li>
+<li>
+<p>ændring af hjerterytmen (elektrokardiogram); </p>
+</li>
+<li>
+<p>betændelse i bugspytkirtlen; </p>
+</li>
+<li>
+<p>leversvigt, leverbetændelse; </p>
+</li>
+<li>
+<p>pludseligt nedsat nyrefunktion; </p>
+</li>
+<li>
+<p>hududslæt, der kan danne blærer, og som ligner små skydeskiver (mørk plet i midten omgivet af 
+et blegere område, med en mørk ring om kanten) (erythema multiforme), et udbredt udslæt med 
+blærer og skællende hud, især omkring munden, næsen, øjnene og kønsorganerne (Stevens-
+Johnson syndrom) eller en mere alvorlig form, der forårsager afskalning af huden på mere end 
+30 % af kropsoverfladen (toksisk epidermal nekrolyse); </p>
+</li>
+<li>
+<p>rabdomyolyse (nedbrydning af muskelvæv) og forbundet med forhøjet indhold af kreatinkinase 
+i blodet. Forekomsten er betydeligt højere hos patienter af japansk afstamning i forhold til 
+patienter af ikke-japansk afstamning;  </p>
+</li>
+<li>
+<p>halten eller gangbesvær; </p>
+</li>
+<li>
+<p>kombination af feber, muskelstivhed, ustabilt blodtryk og puls, forvirring, lavt 
+bevidsthedsniveau (kan være tegn på en lidelse kaldet neuroleptisk malignt syndrom). 
+Forekomsten er betydeligt højere hos patienter af japansk afstamning i forhold til patienter af 
+ikke-japansk afstamning. </p>
+</li>
+</ul>
+<p>Meget sjælden: kan forekomme hos op til 1 ud af 10.000 patienter </p>
+<ul>
+<li>gentagne uønskede tanker eller fornemmelser eller trang til at gøre noget igen og igen (obsessiv-
+kompulsiv lidelse). </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apoteket. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store keppra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store keppra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterkortet efter Exp.<br />
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keppra indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: levetiracetam.<br />
+En Keppra 250 mg tablet indeholder 250 mg levetiracetam. 
+En Keppra 500 mg tablet indeholder 500 mg levetiracetam. 
+En Keppra 750 mg tablet indeholder 750 mg levetiracetam. 
+En Keppra 1000 mg tablet indeholder 1000 mg levetiracetam. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:<br />
+Tabletkerne: Croscarmellosenatrium, macrogol 6000, kolloid vandfri  silica, magnesiumstearat. 
+Filmovertræk: Delvist hydrolyseret polyvinylalkohol, titandioxid (E 171), macrogol 3350, talcum, 
+farvestoffer*. </p>
+</li>
+<li>
+<p>Farvestoffer: 
+250 mg tablet: indigotin I (E 132) 
+500 mg tablet: gul jernoxid (E 172) 
+750 mg tablet: sunset yellow FCF aluminium lake (E 110), rød jernoxid (E 172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Keppra 250 mg filmovertrukne tabletter er blå, 13 mm aflange, med delekærv og præget med koden 
+"ucb" og "250" på den ene side. 
+Tabletten har kun delekærv for at muliggøre deling af tabletten, så den er nemmere at sluge. Tabletten 
+kan ikke deles i to lige store doser. </p>
+<p>Keppra 500 mg filmovertrukne tabletter er gule, 16 mm aflange, med delekærv og præget med koden 
+"ucb" og "500" på den ene side. 
+Tabletten har kun delekærv for at muliggøre deling af tabletten, så den er nemmere at sluge. Tabletten 
+kan ikke deles i to lige store doser. </p>
+<p>Keppra 750 mg filmovertrukne tabletter er orange, 18 mm aflange, med delekærv og præget med 
+koden "ucb" og "750" på den ene side.<br />
+Tabletten har kun delekærv for at muliggøre deling af tabletten, så den er nemmere at sluge. Tabletten 
+kan ikke deles i to lige store doser. </p>
+<p>Keppra 1000 mg filmovertrukne tabletter er hvide, 19 mm aflange, med delekærv og præget med 
+koden "ucb" og "1000" på den ene side.<br />
+Tabletten har kun delekærv for at muliggøre deling af tabletten, så den er nemmere at sluge. Tabletten 
+kan ikke deles i to lige store doser. </p>
+<p>Keppra tabletter er pakket i blisterpakninger og udleveres i papæsker indeholdende: </p>
+<ul>
+<li>
+<p>250 mg: 20, 30, 50, 60, 100 x 1, 100 filmovertrukne tabletter og multipakning indeholdende (2 pakninger med 100) filmovertrukne tabletter </p>
+</li>
+<li>
+<p>500 mg: 10, 20, 30, 50, 60, 100 x 1, 100, 120 filmovertrukne tabletter og multipakning 
+indeholdende 200 (2 pakninger med 100) filmovertrukne tabletter </p>
+</li>
+<li>
+<p>750 mg: 20, 30, 50, 60, 80, 100 x 1, 100 filmovertrukne tabletter og multipakning indeholdende 
+200 (2 pakninger med 100) filmovertrukne tabletter </p>
+</li>
+<li>
+<p>1000 mg: 10, 20, 30, 50, 60, 100 x 1, 100 filmovertrukne tabletter og multipakning 
+indeholdende 200 (2 pakninger med 100) filmovertrukne tabletter </p>
+</li>
+</ul>
+<p>Pakningen med 100 x 1 tabletter fås i perforeret enkeltdosis aluminium/PVC-blisterkort. Alle andre 
+pakninger fås med standard aluminium/PVC-blisterkort. </p>
+<p>Ikke alle pakningsstørrelser e nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>UCB Pharma SA, Allée de la Recherche 60, B-1070 Bryssel, Belgien. </p>
+<p>Fremstiller 
+UCB Pharma SA, Chemin du Foriest, B-1420 Braine-l’Alleud, Belgien eller 
+Aesica Pharmaceuticals S.r.l, Via Praglia, 15, I-10044 Pianezza, Italien </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+UCB Pharma SA/NV 
+Tel/Tél: + 32 / (0)2 559 92<br />
+Lietuva 
+UCB Pharma Oy Finland 
+Tel: +358 9 2514 4231 (Suomija) </p>
+<p>България 
+Ю СИ БИ 
+ България ЕООД 
+Teл.: + 359 (0) 2 962 30<br />
+Luxembourg/Luxemburg 
+UCB Pharma SA/NV 
+Tél/Tel: + 32 / (0)2 559 92<br />
+Česká republika 
+UCB s.r.o. 
+Tel: + 420 221 773<br />
+Magyarország 
+UCB Magyarország Kft. 
+Tel.: + 36-(1) 391 0 
+Danmark 
+UCB Nordic A/S 
+Tlf: + 45 / 32 46 24<br />
+Malta 
+Pharmasud Ltd. 
+Tel: + 356 / 21 37 64<br />
+Deutschland 
+UCB Pharma GmbH 
+Tel: + 49 /(0) 2173 48 4 
+Nederland 
+UCB Pharma B.V. 
+Tel.: + 31 / (0)76-573 11<br />
+Eesti 
+UCB Pharma Oy Finland 
+Tel: +358 9 2514 4231 (Soome) </p>
+<p>Norge 
+UCB Nordic A/S 
+Tlf: + 45 / 32 46 24<br />
+Ελλάδα 
+UCB Α.Ε.<br />
+Τηλ: + 30 / 2109974 
+Österreich 
+UCB Pharma GmbH 
+Tel: + 43 (0)1 291 80 00  </p>
+<p>España 
+UCB Pharma, S.A. 
+Tel: + 34 / 91 570 34<br />
+Polska 
+UCB Pharma Sp. z o.o. 
+Tel: + 48 22 696 99<br />
+France 
+UCB Pharma S.A. 
+Tél: + 33 / (0)1 47 29 44<br />
+Portugal 
+UCB Pharma (Produtos Farmacêuticos), Lda. 
+Tel: + 351 / 21 302 5 
+Hrvatska 
+Medis Adria d.o.o. 
+Tel: +385 (0) 1 230 34<br />
+România 
+UCB Pharma România S.R.L. 
+Tel: + 40 21 300 29<br />
+Ireland 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37 395  </p>
+<p>Slovenija 
+Medis, d.o.o. 
+Tel: + 386 1 589 69<br />
+Ísland 
+Vistor hf. 
+Tel: + 354 535 7 
+Slovenská republika 
+UCB s.r.o., organizačná zložka 
+Tel: + 421 (0) 2 5920 2 
+Italia 
+UCB Pharma S.p.A. 
+Tel: + 39 / 02 300 Suomi/Finland 
+UCB Pharma Oy Finland 
+Puh/Tel: +358 9 2514 4 
+Κύπρος 
+Lifepharma (Z.A.M.) Ltd 
+Τηλ: + 357 22 34 74 40  </p>
+<p>Sverige 
+UCB Nordic A/S 
+Tel: + 46 / (0) 40 29 49<br />
+Latvija 
+UCB Pharma Oy Finland 
+Tel: +358 9 2514 4231 (Somija) </p>
+<p>United Kingdom (Northern Ireland) 
+UCB (Pharma) Ireland Ltd. 
+Tel: + 353 / (0)1-46 37<br />
+Denne indlægsseddel blev senest ændret {}  </p>
+<p>Andre informationskilder </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmesidehttp://www.ema.europa.eu/ http://www.ema.europa.eu og på Lægemiddelstyrelsens 
+hjemmeside http://www.laegemiddelstyrelsen.dk. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>Keppra 100 mg/ml oral opløsning 
+Levetiracetam </p>
+<p>Læs denne indlægsseddel grundigt, inden De eller Deres barn begynder at tage dette 
+lægemiddel, da den indeholder vigtige oplysninger. 
+- Gem indlægssedlen. De kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere De vil vide. 
+- Lægen har ordineret Keppra til Dem personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
+- Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d21a665ebc1011132a02f9a335304090
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for keppra Package Leaflet for language en"
+Description: "ePI document Bundle for keppra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d21a665ebc1011132a02f9a335304090"
+* entry[0].resource = composition-en-d21a665ebc1011132a02f9a335304090
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd21a665ebc1011132a02f9a335304090"
+* entry[=].resource = mpd21a665ebc1011132a02f9a335304090
+                            
+                    
+Instance: bundlepackageleaflet-da-d21a665ebc1011132a02f9a335304090
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for keppra Package Leaflet for language da"
+Description: "ePI document Bundle for keppra Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d21a665ebc1011132a02f9a335304090"
+* entry[0].resource = composition-da-d21a665ebc1011132a02f9a335304090
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd21a665ebc1011132a02f9a335304090"
+* entry[=].resource = mpd21a665ebc1011132a02f9a335304090
+                            
+                    
+
+
+
+Instance: mpd21a665ebc1011132a02f9a335304090
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Keppra 250 mg film-coated tablets"
-Description: "Keppra 250 mg film-coated tablets"
+Title: "Medicinal Product keppra"
+Description: "keppra"
 Usage: #inline
 
  
@@ -477,7 +1156,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Keppra 250 mg film-coated tablets"
+  * productName = "keppra"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -504,29 +1183,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d21a665ebc1011132a02f9a335304090
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for keppra Package Leaflet for language en"
-Description: "ePI document Bundle for keppra Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d21a665ebc1011132a02f9a335304090ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/00/146/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "keppra"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d21a665ebc1011132a02f9a335304090"
-* entry[0].resource = composition-en-d21a665ebc1011132a02f9a335304090
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp8f0cbade55abad0d90063977c5019f07"
-* entry[=].resource = mp8f0cbade55abad0d90063977c5019f07
-                            
-                      
+* title = "List of all ePIs associated with keppra"
+
+* subject = Reference(mp8f0cbade55abad0d90063977c5019f07)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#keppra "keppra"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d21a665ebc1011132a02f9a335304090) // keppra en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d21a665ebc1011132a02f9a335304090) // keppra da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d21a665ebc1011132a02f9a335304090
+InstanceOf: List
+
+* insert d21a665ebc1011132a02f9a335304090ListRuleset
+    

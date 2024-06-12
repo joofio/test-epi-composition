@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-31b0725ade6496816df8ac216511de2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for tukysa Package Leaflet"
@@ -334,12 +337,503 @@ Tel: +44 330 818 0This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-31b0725ade6496816df8ac216511de2c
+InstanceOf: CompositionUvEpi
+Title: "Composition for tukysa Package Leaflet"
+Description:  "Composition for tukysa Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp96a2770893faca379fee3152cb2ad6db)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp96a2770893faca379fee3152cb2ad6db
+* title = "TEST PURPOSES ONLY - tukysa"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage TUKYSA 
+3. Sådan skal du tage TUKYSA 
+4. Bivirkninger 
+5. Opbevaring af TUKYSA 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tukysa is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tukysa is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning af TUKYSA 
+TUKYSA er et lægemiddel mod brystkræft. Det indeholder det aktive stof tucatinib, og det tilhører en 
+gruppe lægemidler, der hedder proteinkinasehæmmere, som forhindrer væksten af nogle typer 
+kræftceller i kroppen. </p>
+<p>Anvendelse af TUKYSA 
+TUKYSA anvendes til voksne, der har brystkræft, som:</p>
+<ul>
+<li>har en receptor (et mål) på kræftcellerne, der kaldes human epidermal vækstfaktorreceptor 2 
+(HER2-positiv brystkræft) </li>
+<li>har spredt sig ud over den oprindelige tumor eller til andre organer, som hjernen, eller som ikke 
+kan fjernes kirurgisk </li>
+<li>tidligere er blevet behandlet med visse andre brystkræftbehandlinger </li>
+</ul>
+<p>TUKYSA tages sammen med to andre kræft-lægemidler, trastuzumab og capecitabin. Separate 
+indlægssedler fås for disse lægemidler. Bed din læge om at fortælle dig om dem. </p>
+<p>Sådan fungerer TUKYSA 
+TUKYSA fungerer ved at blokere HER2-receptorerne på kræftceller. HER2 danner signaler, som kan 
+hjælpe kræften med at vokse, og hvis det blokeres kan det forsinke kræftcellerne eller få dem til at 
+ophøre med at vokse eller måske slå dem helt ihjel. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tukysa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tukysa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke TUKYSA </p>
+<ul>
+<li>hvis du er allergisk over for tucatinib eller et af de øvrige indholdsstoffer i TUKYSA (angivet i 
+afsnit 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<ul>
+<li>
+<p>Kontakt lægen, før du tager TUKYSA, hvis du har leverproblemer. Under din behandling vil 
+lægen foretage undersøgelser for at kontrollere, at din lever fungerer korrekt. </p>
+</li>
+<li>
+<p>TUKYSA kan medføre alvorlig diarré. Kontakt straks lægen ved første tegn på diarré (løs 
+afføring), og hvis din diarré vedvarer med kvalme og/eller opkastning. </p>
+</li>
+<li>
+<p>TUKYSA kan medføre skader på det ufødte barn, hvis det tages af gravide kvinder. Kontakt 
+lægen, før du tager TUKYSA, hvis du tror, at du er gravid, eller hvis du planlægger at blive 
+gravid. Se afsnittet om "Graviditet og amning" nedenfor. </p>
+</li>
+</ul>
+<p>Børn og unge 
+TUKYSA bør ikke anvendes af børn under 18 år. TUKYSA's sikkerhed og virkning er ikke blevet 
+undersøgt i denne aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med TUKYSA 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Nogle lægemidler kan påvirke måden TUKYSA virker på eller TUKYSA kan påvirke den måde, de 
+virker på. Disse lægemidler omfatter nogle i de følgende grupper: </p>
+<ul>
+<li>
+<p>Prikbladet perikum – et naturlægemiddel, der bruges til at behandle depression </p>
+</li>
+<li>
+<p>itraconazol, ketoconazol, voriconazol, posaconazol – bruges til at behandle svampeinfektioner </p>
+</li>
+<li>
+<p>rifampicin – bruges til at behandle bakterieinfektioner, </p>
+</li>
+<li>
+<p>darunavir, saquinavir, tipranavir – anvendes til behandling af HIV </p>
+</li>
+<li>
+<p>phenytoin, carbamazepin – anvendes til at behandle epilepsi eller en smertefuld sygdom i 
+ansigtet, der kaldes trigeminusneuralgi, eller til at kontrollere alvorlige humørsvingninger, når 
+andre lægemidler ikke virker </p>
+</li>
+<li>
+<p>buspiron – anvendes til at behandle visse mentale forstyrrelser </p>
+</li>
+<li>
+<p>sirolimus, tacrolimus – anvendes til at kontrollere kroppens immunforsvar efter en transplantation </p>
+</li>
+<li>
+<p>digoxin – anvendes til behandling af hjerteproblemer </p>
+</li>
+<li>
+<p>lomitapid, lovastatin – anvendes til behandling af anormale kolesterolniveauer </p>
+</li>
+<li>
+<p>alfentanil – anvendes til smertelindring </p>
+</li>
+<li>
+<p>avanafil, vardenafil – anvendes til behandling af erektil dysfunktion (impotens) </p>
+</li>
+<li>
+<p>darifenacin – anvendes til behandling af urininkontinens </p>
+</li>
+<li>
+<p>midazolam, triazolam – anvendes til behandling af kramper, angstlidelser, panikangst, uro og 
+søvnløshed </p>
+</li>
+<li>
+<p>repaglinid – anvendes til behandling af type 2-diabetes </p>
+</li>
+<li>
+<p>ebastin – et antihistamin, der anvendes til behandling af sæsonbetinget- og 
+helårshøfeber </p>
+</li>
+<li>
+<p>everolimus, ibrutinib – anvendes til behandling af visse kræfttyper </p>
+</li>
+<li>
+<p>naloxegol – anvendes til behandling af forstoppelse </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+TUKYSA kan medføre skadelige virkninger på det ufødte barn, hvis det tages af gravide kvinder. Din 
+læge vil tage en graviditetstest, inden du begynder at tage TUKYSA. </p>
+<ul>
+<li>
+<p>Hvis du er gravid, har mistanke om, at du er gravid eller planlægger at blive gravid, skal du 
+spørge din læge til råds, før du tager dette lægemiddel. Lægen vil afveje den mulige fordel for dig 
+mod risikoen for det ufødte barn. </p>
+</li>
+<li>
+<p>Anvend sikker prævention for at undgå at blive gravid, mens du tager TUKYSA og mindst 1 
+uge efter den sidste dosis. </p>
+</li>
+<li>
+<p>Hvis du er mand og har en kvindelig partner, der kan blive gravid, skal du anvende 
+sikker prævention for at undgå graviditet, mens du tager TUKYSA i mindst 1 uge efter den 
+sidste dosis. </p>
+</li>
+<li>
+<p>Hvis du bliver gravid under behandling med TUKYSA, skal du kontakte lægen. Lægen vil 
+vurdere den mulige fordel for dig ved at fortsætte dette lægemiddel og vurdere risikoen for det 
+ufødte barn. </p>
+</li>
+</ul>
+<p>Det vides ikke, om TUKYSA udskilles i modermælk. </p>
+<ul>
+<li>Hvis du ammer eller planlægger at amme, skal du spørge din læge til råds, før du tager dette 
+lægemiddel. Du bør ikke amme under behandling med TUKYSA og i mindst 1 uge efter den sidste 
+dosis. Tal med lægen om, hvordan du bedst giver dit barn mad under behandlingen. </li>
+</ul>
+<p>Spørg din læge eller apotekspersonalet til råds, før du tager TUKYSA, hvis du har spørgsmål. </p>
+<p>Trafik- og arbejdssikkerhed 
+TUKYSA forventes ikke at påvirke evnen til at føre motorkøretøj eller betjene maskiner. Du har 
+imidlertid selv ansvaret for at beslutte, om du kan føre et motorkøretøj eller udføre andre opgaver, der 
+kræver øget koncentration. </p>
+<p>TUKYSA indeholder natrium og kalium 
+Dette lægemiddel indeholder 55,3 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 300 mg 
+dosis. Dette svarer til 2,75 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>
+<p>Dette lægemiddel indeholder 60,6 mg kalium pr. 300 mg dosis. Hvis du har nedsat nyrefunktion og/eller 
+får kaliumfattig diæt, skal du tage hensyn hertil. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tukysa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tukysa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Dosering 
+Den anbefalede dosis er 300 mg (to 150 mg tabletter) gennem munden to gange dagligt. </p>
+<p>Din læge kan ændre din TUKYSA-dosis, hvis du får visse bivirkninger. For at kunne muliggøre en 
+lavere dosis, kan din læge ordinere tabletter på 50 mg. </p>
+<p>Administration 
+TUKYSA kan tages med mad eller mellem måltider. </p>
+<ul>
+<li>
+<p>Synk tabletterne hele, en ad gangen. </p>
+</li>
+<li>
+<p>Tag hver dosis med ca. 12 timers mellemrum på samme tid hver dag. </p>
+</li>
+<li>
+<p>Tabletterne må ikke tygges eller knuses. </p>
+</li>
+<li>
+<p>Du må ikke tage en supplerende dosis, hvis du kaster op efter, at du har taget TUKYSA, men 
+fortsætte med den næste, planlagte dosis. </p>
+</li>
+</ul>
+<p>Hvis du har taget for meget TUKYSA 
+Tal med en læge eller apotekspersonalet med det samme. Vis dem lægemiddelpakningen, hvis det er 
+muligt. </p>
+<p>Hvis du har glemt at tage TUKYSA 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag blot den næste dosis på det 
+planlagte tidspunkt. </p>
+<p>Hvis du holder op med at tage TUKYSA 
+TUKYSA er til langvarig behandling, og du skal tage det kontinuerligt. Du må ikke holde op med at 
+tage TUKYSA uden at tale med din læge. </p>
+<p>Mens du tager TUKYSA </p>
+<ul>
+<li>
+<p>Afhængigt af de bivirkninger, du har, kan din læge anbefale at reducere dosen eller midlertidigt 
+standse din behandling. </p>
+</li>
+<li>
+<p>Lægen vil også tjekke din leverfunktion under behandlingen med TUKYSA. </p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. Der 
+kan ses følgende bivirkninger med dette lægemiddel. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>mundsår, betændelse i munden </p>
+</li>
+<li>
+<p>leverproblemer, som kan forårsage kløe, gulfarvning af øjne og hud, mørk urin og smerter eller 
+ubehag i mavens øvre, højre område </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>ledsmerter </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>næseblod. </p>
+</li>
+</ul>
+<p>Fortæl lægen eller apotekspersonalet, hvis du bemærker bivirkninger. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. </p>
+<p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
+dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tukysa"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tukysa"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på blisteren og æsken. Udløbsdatoen er den sidste dag 
+i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TUKYSA indeholder: 
+Aktivt stof: tucatinib. Hver filmovertrukket tablet indeholder enten 50 mg eller 150 mg tucatinib. 
+Øvrige indholdsstoffer: </p>
+<ul>
+<li>
+<p>Tabletkerne: copovidon, crospovidon, natriumchlorid, kaliumchlorid, natriumhydrogencarbonat, 
+silica; kolloid vandfri, magnesiumstearat, mikrokrystallinsk cellulose (se afsnit 2 "TUKYSA 
+indeholder natrium og kalium"). </p>
+</li>
+<li>
+<p>Filmovertræk: polyvinylalkohol, titandioxid, macrogol, talcum, gul jernoxid. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser for TUKYSA 
+TUKYSA 50 mg filmovertrukne tabletter (tabletter) er runde, gule og præget med "TUC" på den ene side 
+og "50" på den anden side. 
+TUKYSA 150 mg filmovertrukne tabletter (tabletter) er ovale, gule og præget med "TUC" på den ene 
+side og "150" på den anden side. </p>
+<p>TUKYSA leveres i blistere af aluminiumfolie. Hver pakning indeholder: 
+TUKYSA 50 mg filmovertrukne tabletter </p>
+<ul>
+<li>
+<p>88 tabletter (11 blistere med 8 tabletter i hver). 
+TUKYSA 150 mg filmovertrukne tabletter </p>
+</li>
+<li>
+<p>84 tabletter (21 blistere med 4 tabletter i hver). </p>
+</li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Seagen B.V. 
+Evert van de Beekstraat 1-1118CL Schiphol 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Seagen B.V. (Nederland/Pays-Bas/Niederlande) 
+Tél/Tel: +32 7848 27 Lietuva 
+Swixx Biopharma UAB<br />
+Tel: +370 5 236 9България 
+Swixx Biopharma EOOD <br />
+Teл.: +359 2 4942 Luxembourg/Luxemburg 
+Seagen B.V. (Pays-Bas/Niederlande) 
+Tél/Tel: +352 27 867 Česká republika 
+Swixx Biopharma s.r.o.<br />
+Tel: +420 242 434 Magyarország 
+Swixx Biopharma Kft. 
+Tel.: +36 1 9206 Danmark 
+Seagen Denmark ApS 
+Tlf.: +45 89 88 83 Malta 
+Genesis Pharma (Cyprus) Ltd (Ċipru/Cyprus) 
+Tel: +357 22 765Deutschland 
+Seagen Germany GmbH 
+Tel: +49 893 803 6Nederland 
+Seagen B.V. 
+Tel: +31 202 419Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 1Norge 
+Seagen B.V. (Nederland) 
+Tlf: +45 89 88 83 Ελλάδα 
+ΓΕΝΕΣΙΣ ΦΑΡΜΑ Α.Ε<br />
+Τηλ: +30 210 87 71 Österreich 
+Seagen B.V. (Niederlande) 
+Tel: (+43) 720 778España 
+Pfizer, S.L. 
+Tel: +34 91 490 99 Polska 
+Swixx Biopharma Sp.z o.o. 
+Tel.: +48 22 460 07 France 
+Seagen France SAS 
+Tél: +33 184 88 80 Portugal 
+Seagen B.V. (Países Baixos) 
+Tel: (+351) 211 451 Hrvatska 
+Swixx Biopharma d.o.o.<br />
+Tel: +385 1 2078 România 
+Swixx Biopharma S.R.L. 
+Tel: +40 371 530 Ireland 
+Seagen B.V. (Netherlands) 
+Tel: +353 1903 9Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 2355 Ísland 
+Seagen B.V. (Holland) 
+Sími: +354 539 0Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 20833 Italia 
+Seagen Italy S.r.l. 
+Tel: (+39) 02 82952Suomi/Finland 
+Seagen B.V. (Alankomaat/Nederländerna) 
+Puh/Tel: +358 753 252 Κύπρος 
+Genesis Pharma (Cyprus) Ltd<br />
+Τηλ: +357 22 765Sverige 
+Seagen B.V. (Nederländerna) 
+Tel: (+46) 108 885 Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 6164 United Kingdom (Northern Ireland) 
+Seagen B.V. (Netherlands) 
+Tel: +44 330 818 0 
+Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside:<br />
+http://www.ema.europa.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-31b0725ade6496816df8ac216511de2c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tukysa Package Leaflet for language en"
+Description: "ePI document Bundle for tukysa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-31b0725ade6496816df8ac216511de2c"
+* entry[0].resource = composition-en-31b0725ade6496816df8ac216511de2c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp31b0725ade6496816df8ac216511de2c"
+* entry[=].resource = mp31b0725ade6496816df8ac216511de2c
+                            
+                    
+Instance: bundlepackageleaflet-da-31b0725ade6496816df8ac216511de2c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tukysa Package Leaflet for language da"
+Description: "ePI document Bundle for tukysa Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-31b0725ade6496816df8ac216511de2c"
+* entry[0].resource = composition-da-31b0725ade6496816df8ac216511de2c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp31b0725ade6496816df8ac216511de2c"
+* entry[=].resource = mp31b0725ade6496816df8ac216511de2c
+                            
+                    
+
+
+
+Instance: mp31b0725ade6496816df8ac216511de2c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product TUKYSA 50 mg film-coated tablets"
-Description: "TUKYSA 50 mg film-coated tablets"
+Title: "Medicinal Product tukysa"
+Description: "tukysa"
 Usage: #inline
 
  
@@ -359,7 +853,7 @@ Usage: #inline
 
 
 * name
-  * productName = "TUKYSA 50 mg film-coated tablets"
+  * productName = "tukysa"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -386,29 +880,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-31b0725ade6496816df8ac216511de2c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tukysa Package Leaflet for language en"
-Description: "ePI document Bundle for tukysa Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 31b0725ade6496816df8ac216511de2cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "TUKYSA 50 mg film-coated tablets: EU/1/20/1526/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tukysa"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-31b0725ade6496816df8ac216511de2c"
-* entry[0].resource = composition-en-31b0725ade6496816df8ac216511de2c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp96a2770893faca379fee3152cb2ad6db"
-* entry[=].resource = mp96a2770893faca379fee3152cb2ad6db
-                            
-                      
+* title = "List of all ePIs associated with tukysa"
+
+* subject = Reference(mp96a2770893faca379fee3152cb2ad6db)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tukysa "tukysa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-31b0725ade6496816df8ac216511de2c) // tukysa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-31b0725ade6496816df8ac216511de2c) // tukysa da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-31b0725ade6496816df8ac216511de2c
+InstanceOf: List
+
+* insert 31b0725ade6496816df8ac216511de2cListRuleset
+    

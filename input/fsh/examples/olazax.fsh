@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e71576be929eba887e5dad10b630fab2
 InstanceOf: CompositionUvEpi
 Title: "Composition for olazax Package Leaflet"
@@ -289,12 +292,381 @@ website: http://www.emae.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-da-e71576be929eba887e5dad10b630fab2
+InstanceOf: CompositionUvEpi
+Title: "Composition for olazax Package Leaflet"
+Description:  "Composition for olazax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp04828e87860e870fa9fe5c0ffeb91818)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp04828e87860e870fa9fe5c0ffeb91818
+* title = "TEST PURPOSES ONLY - olazax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Olazax 
+3. Sådan skal du tage Olazax 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What olazax is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What olazax is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olazax  indeholder det aktive stof olanzapin. Olazax tilhører en gruppe af lægemidler, der kaldes 
+antipsykotika. De anvendes til behandling af følgende lidelser: 
+ 
+Skizofreni, en lidelse med symptomer såsom: mistro, ualmindelig mistænksomhed og 
+indesluttethed eller at man hører, ser og mærker ting, som ikke eksisterer. Mennesker med 
+denne lidelse kan også føle sig deprimerede, angste eller anspændte. </p>
+<p> 
+Moderate til svære maniske episoder, en tilstand med symptomer som begejstring og eufori.  </p>
+<p>Det er vist, at OLAZAX forebygger tilbagefald af disse symptomer ved bipolar lidelse (maniodepressiv 
+sygdom) hos patienter, hvis maniske episode har reageret på olanzapinbehandling. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take olazax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take olazax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Olazax 
+ 
+hvis du er allergisk (overfølsom) over for olanzapin eller et af de øvrige indholdsstoffer i dette 
+lægemiddel  (angivet i punkt 6). En allergisk reaktion kan kendes ved udslæt, kløe, hævelse af 
+ansigt eller læber eller kortåndethed. Hvis du har oplevet dette, skal du fortælle det til lægen. 
+ 
+hvis du tidligere har fået at vide, at du har en bestemt slags glaukom (grøn stær) med øget tryk i 
+øjet. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager OLAZAX. 
+ 
+OLAZAX anbefales ikke til ældre, demente patienter, da det kan have alvorlige bivirkninger 
+ 
+Denne type medicin kan forårsage usædvanlige bevægelser af især ansigt eller tunge. Hvis dette 
+forekommer, når du har taget Olazax, skal du fortælle det til lægen.Yderst sjældent forårsager </p>
+<p>denne slags medicin en kombination af feber, hurtigere vejrtrækning, svedtendens, 
+muskelstivhed og døsighed/søvnighed. Hvis dette forekommer, skal du omgående kontakte din 
+læge.<br />
+ 
+Yderst sjældent forårsager denne slags medicin en kombination af feber, hurtigere vejrtrækning, 
+svedtendens, muskel¬stivhed og døsighed/søvnighed. Hvis dette forekommer, skal du 
+omgående kontakte din læge. 
+ 
+Vægtøgning er set hos patienter, som tager OLAZAX. Du og din læge bør jævnligt kontrollere 
+din vægt. Henvisning til en diætist eller hjælp med at lægge en kostplan bør om nødvendigt 
+overvejes. 
+ 
+Højt sukker- og fedtindhold (triglycerider og kolesterol) i blodet er set hos patienter, som tager 
+ZYPREXA. Inden du påbegynder behandling med OLAZAX samt jævnligt i løbet af 
+behandlingen skal din læge tage blodprøver for at kontrollere indholdet af sukker og fedt i dit 
+blod.<br />
+ 
+Fortæl det til lægen, hvis du eller nogen i din familie tidligere har haft blodpropper, da denne 
+type medicin kan være forbundet med dannelse af blodpropper. </p>
+<p>Hvis du lider af en af de følgende sygdomme, skal du fortælle det til din læge hurtigst muligt: 
+ 
+Slagtilfælde eller forbigående symptomer på slagtilfælde 
+ 
+Parkinsons sygdom 
+ 
+Problemer med prostata (blærehalskirtlen) 
+ 
+Tarmslyng (paralytisk ileus) 
+ 
+Lever- eller nyresygdom 
+ 
+Blodsygdomme 
+ 
+Hjertesygdom 
+ 
+Sukkersyge (diabetes mellitus)<br />
+ 
+Krampeanfald 
+ 
+Saltmangel som følge af langvarig alvorlig diarré og opkastning eller brug af vanddrivende 
+medicin (diuretika) </p>
+<p>Hvis du lider af demens, bør du, din pårørende eller en anden, der hjælper dig, fortælle din læge, hvis du 
+nogensinde har haft et slagtilfælde, også hvis du ikke har nogen følger efter det. </p>
+<p>Som almindelig forholdsregel bør du - hvis du er over 65 år - have målt dit blodtryk hos din læge.  </p>
+<p>Børn og unge 
+Olazax er ikke til patienter under 18 år. </p>
+<p>Brug af anden medicin sammen med OLAZAX 
+Tag kun anden medicin sammen med Olazax, hvis din læge siger, at du må. Du kan komme til at føle 
+dig døsig, hvis Olazax tages sammen med depressionsmidler eller medicin til behandling af angst eller 
+søvnløshed (sovepiller). </p>
+<p>Fortæl  altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept, f.eks. naturlægemidler og vitaminer og mineraler. </p>
+<p>Det er især vigtigt at fortælle lægen, hvis du tager: 
+ 
+Medicin for Parkinsons sygdom. 
+ 
+Carbamazepin (mod epilepsi og stemningsforstyrrelser), fluvoxamin (mod depression) eller 
+ciprofloxacin (mod infektion), da det kan blive nødvendigt at ændre din OLAZAX-dosis </p>
+<p>Brug af Olazax sammen med alkohol 
+Drik ikke nogen form for alkohol, når du får Olazax, da det sammen med alkohol kan gøre dig døsig. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel.  Du bør ikke få denne 
+medicin, mens du ammer, da små mængder Olazax kan overføres til modermælken. </p>
+<p>Følgende symptomer kan forekomme hos nyfødte af mødre, som har taget OLAZAX i sidste trimester 
+(de sidste tre måneder af graviditeten): rystelser, muskelstivhed og/eller svaghed, søvnighed, ophidselse, 
+vejrtrækningsbesvær og besvær med at indtage føde. Hvis dit barn får nogle af disse symptomer, bør du 
+kontakte din læge. </p>
+<p>Trafik- og arbejdssikkerhed 
+Der er risiko for døsighed, når du får Olazax. Hvis dette opstår, må du ikke føre bil eller betjene værktøj 
+eller maskiner. Fortæl det til din læge. </p>
+<p>Olazax tabletter indeholder aspartam, der er en phenylalaninkilde. Det kan være skadeligt for 
+mennesker med fenylketonuri.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take olazax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take olazax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid  lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, s å spørg lægen eller 
+apotekspersonalet. </p>
+<p>Din læge vil fortælle dig, hvor mange Olazax tabletter, du skal tage og i hvor lang tid, du skal tage dem. 
+Dagsdosis for Olazax er mellem 5 mg og -20 mg. Konsulter din læge, hvis dine symptomer vender 
+tilbage, men stop ikke med at tage Olazax medmindre din læge siger det. </p>
+<p>Du bør tage Olazax tabletter én gang dagligt efter din læges anvisning. Forsøg at tage tabletterne på 
+samme tidspunkt hver dag. Det er ligegyldigt, om du tager tabletterne til et måltid eller ej. Olazax 
+overtrukne tabletter er til at synke. Du bør synke Olazax tabletterne hele med vand. </p>
+<p>Hvis du har taget for meget Olazax<br />
+Patienter, som har taget mere Olazax end de burde, har oplevet følgende symptomer: Hurtig 
+hjerterytme, ophidselse/aggression, problemer med at tale, usædvanlige bevægelser (især af ansigt eller 
+tunge) eller nedsat bevidsthedsniveau (døsighed). Andre symptomer kan være: Akut forvirring, 
+krampeanfald (epilepsi),  koma, en kombination af feber, hurtigere vejrtrækning, svedtendens, 
+muskelstivhed og døsighed/søvnighed, langsommere vejrtrækning, aspiration, højt eller lavt blodtryk, 
+unormal hjerterytme. Kontakt omgående din læge eller dit sygehus, hvis du får nogen af de ovennævnte 
+symptomer. Vis tabletpakningen til lægen. </p>
+<p>Hvis du har glemt at tage Olazax 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag dine tabletter lige s å snart, 
+du kommer i tanke om det. Du m å ikke tage to doser på en dag. </p>
+<p>Hvis du holder op med at tage Olazax<br />
+Du må ikke holde op med at tage tabletterne, fordi du har fået det bedre. Det er vigtigt, du fortsætter 
+med at tage Olazax, s å længe lægen beder dig om det. </p>
+<p>Hvis du pludseligt holder op med at tage Olazax, kan der forekomme symptomer som svedtendens, 
+søvnbesvær, rysten, angst, kvalme og opkastning. Din læge vil måske foresl å dig, at du nedsætter din 
+dosis gradvist, før du helt stopper. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl straks lægen, hvis du får: 
+ 
+Unormale bevægelser (en almindelig bivirkning, som forekommer hos op til 1 ud af patienter) særligt i ansigtet eller tungen (grimasser); 
+ 
+Blodpropper i venerne (en ikke almindelig bivirkning, som forekommer hos op til 1 ud af patienter), særligt i benene (symptomerne omfatter hævelse og smerte i benet samt hudrødme). 
+Blodproppen kan rive sig løs og flyde med blodet til lungerne og kan dermed forårsage 
+brystsmerter og vejrtrækningsproblemer. Hvis du bemærker nogle af disse symptomer, skal du 
+omgående søge læge.<br />
+ 
+En kombination af feber, hurtigt åndedræt, svedtendens, muskelstivhed og sløvhed eller 
+søvnighed (hyppigheden af denne bivirkning kan ikke bestemmes ud fra tilgængelige data). </p>
+<p>Meget almindelige bivirkninger (forekommer hos flere end 1 ud af 10 patienter) omfatter vægtstigning, 
+søvnighed samt forhøjede niveauer af prolaktin i blodet.  I begyndelsen af behandlingen kan nogle 
+patienter føle svimmelhed eller svaghed (med langsom puls), særligt når de rejser sig fra liggende eller 
+siddende stilling. Det vil sædvanligvis gå over af sig selv, men hvis det ikke gør, så fortæl det til lægen. </p>
+<p>Almindelige bivirkninger (forekommer hos op til 1 ud af 10 patienter) omfatter ændringer i mængden af 
+visse blodceller, cirkulerende fedtstoffer i blodet samt forbigående forhøjede leverenzymer tidligt i 
+behandlingen; forhøjet sukker i blodet og urinen; forhøjet urinsyre og kreatinkinase i blodet; øget 
+sultfornemmelse; svimmelhed; rastløshed; rysten; unormale bevægelser (dyskinesi); forstoppelse; 
+mundtørhed; hududslæt; tab af styrke; udpræget træthed; væskeophobning, som medfører hævede 
+hænder, ankler eller fødder; feber; ledsmerter og seksuelle problemer såsom nedsat sexlyst (libido) hos 
+mænd og kvinder eller rejsningsbesvær hos mænd </p>
+<p>Ikke almindelige bivirkninger (forekommer hos op til 1 ud af 100 patienter) omfatter overfølsomhed 
+(f.eks. hævelser i mund og hals, kløe, hududslæt); sukkersyge eller forværring af sukkersyge, af og til 
+ledsaget af syreforgiftning (ketoacidose - ketonstoffer i blod og urin) eller bevidstløshed; krampeanfald, 
+sædvanligvis hos patienter med tidligere krampeanfald (epilepsi); muskelstivhed eller muskelkramper 
+(herunder øjenbevægelser); restless legs-syndrom; problemer med at tale; stammen; langsom 
+hjertefrekvens (puls); følsomhed over for sollys; næseblod; udspilet mave; tendens til at savle; 
+hukommelsestab eller glemsomhed; ufrivillig vandladning (urininkontinens); vandladningsbesvær; 
+hårtab; manglende menstruation eller længere intervaller mellem menstruationerne; brystforandringer 
+hos mænd og kvinder, såsom unormal produktion af brystmælk eller unormal vækst.  </p>
+<p>Sjældne bivirkninger (forekommer hos op til 1 ud af 1.000 patienter) omfatter ; nedsat kropstemperatur; 
+unormal hjerterytme; pludselig uforklarlig død; betændelse i bugspytkirtlen, som forårsager voldsomme 
+mavesmerter, feber og utilpashed; leversygdom, som viser sig ved gulfarvning af huden og af det hvide i 
+øjnene; muskelsygdom, som viser sig med uforklarlige smerter; forlænget og/eller pinefuld erektion. </p>
+<p>Meget sjældne bivirkninger inkluderer alvorlige allergiske reaktioner såsom lægemiddelfremkaldt 
+reaktion med eosinofili og systemiske symptomer (DRESS). DRESS fremtræder indledningsvist som 
+influenzalignende symptomer med udslæt i ansigtet og sidenhen med mere udbredt udslæt, høj 
+temperatur, forstørrede lymfeknuder, forhøjede tal for leverenzymer i blodprøver og et øget antal 
+eosinofile granulocytter (en type hvide blodlegemer). </p>
+<p>Ældre patienter med demens kan under behandling med olanzapin opleve slagtilfælde, lungebetændelse 
+og urininkontinens. De kan også falde, blive voldsomt trætte, få synsbedrag, forhøjet kropstemperatur, 
+rødme i huden og få besvær med at gå. Der er set nogle dødsfald i denne gruppe af patienter. </p>
+<p>Hos patienter med Parkinsons sygdom kan Olazax forværre symptomerne. </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel.Du ellerdine pårørende kan også 
+indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om </p>
+<p>sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store olazax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store olazax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen  er den 
+sidste dag i den nævnte måned. </p>
+<p>Opbevares ved under 30ºC. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Olazax indeholder: 
+ 
+Det aktive stof er olanzapin 
+ 
+Hver Olazax tablet indeholder enten 5 mg, 7,5 mg, 10 mg, 15 mg eller 20 mg olanzapin. 
+ 
+Øvrige indholdstoffer er mannitol (E 421), mikrokrystallinsk cellulose, aspartame (E 951), 
+crospovidon, magnesiumstearat. </p>
+<p>Udseende og pakningsstørrelser 
+Olazax  5 mg leveres som gule, cirkulære tabletter med flad afrundet kant med ’B’ præget på den ene 
+side. 
+Olazax 7,5 mg leveres som gule, cirkulære tabletter med flad afrundet kant med ’C’ præget på den ene 
+side. 
+Olazax 10 mg leveres som gule, cirkulære tabletter med flad afrundet kant med ’OL’ præget på den ene 
+side og ’D’ præget på den anden side. 
+Olazax 15 mg leveres som gule, cirkulære tabletter med flad afrundet kant med ’OL’ præget på den ene 
+side og ’E’  præget på den anden side. 
+Olazax 20 mg leveres som gule, cirkulære tabletter med flad afrundet kant med ’OL’ præget på den ene 
+side og ’F’ præget på den anden side. 
+Olazax  5 mg, 7,5 mg, 10 mg, 15 mg, 20 mg findes i aluminium blisterpakninger  med 28, 56  tabletter.  </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Glenmark Pharmaceuticals s.r.o. 
+Hvĕzdova 1716/2b, 140 78 Prag 4 
+Tjekkiet </p>
+<p>Fremstiller 
+Glenmark Pharmaceuticals s.r.o. 
+Hvezdova 1716/2b, 140 78 Prag 4 
+Tjekkiet </p>
+<p>Denne indlægsseddel blev sidst ændret (MM/YYYY) </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e71576be929eba887e5dad10b630fab2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for olazax Package Leaflet for language en"
+Description: "ePI document Bundle for olazax Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e71576be929eba887e5dad10b630fab2"
+* entry[0].resource = composition-en-e71576be929eba887e5dad10b630fab2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe71576be929eba887e5dad10b630fab2"
+* entry[=].resource = mpe71576be929eba887e5dad10b630fab2
+                            
+                    
+Instance: bundlepackageleaflet-da-e71576be929eba887e5dad10b630fab2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for olazax Package Leaflet for language da"
+Description: "ePI document Bundle for olazax Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e71576be929eba887e5dad10b630fab2"
+* entry[0].resource = composition-da-e71576be929eba887e5dad10b630fab2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe71576be929eba887e5dad10b630fab2"
+* entry[=].resource = mpe71576be929eba887e5dad10b630fab2
+                            
+                    
+
+
+
+Instance: mpe71576be929eba887e5dad10b630fab2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Olazax 5 mg tablets"
-Description: "Olazax 5 mg tablets"
+Title: "Medicinal Product olazax"
+Description: "olazax"
 Usage: #inline
 
  
@@ -314,7 +686,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Olazax 5 mg tablets"
+  * productName = "olazax"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -341,29 +713,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e71576be929eba887e5dad10b630fab2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for olazax Package Leaflet for language en"
-Description: "ePI document Bundle for olazax Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e71576be929eba887e5dad10b630fab2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/09/597/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "olazax"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e71576be929eba887e5dad10b630fab2"
-* entry[0].resource = composition-en-e71576be929eba887e5dad10b630fab2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp04828e87860e870fa9fe5c0ffeb91818"
-* entry[=].resource = mp04828e87860e870fa9fe5c0ffeb91818
-                            
-                      
+* title = "List of all ePIs associated with olazax"
+
+* subject = Reference(mp04828e87860e870fa9fe5c0ffeb91818)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#olazax "olazax"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e71576be929eba887e5dad10b630fab2) // olazax en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e71576be929eba887e5dad10b630fab2) // olazax da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e71576be929eba887e5dad10b630fab2
+InstanceOf: List
+
+* insert e71576be929eba887e5dad10b630fab2ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0f7d092ba8e4ed3275cffe67db6bbcc7
 InstanceOf: CompositionUvEpi
 Title: "Composition for recarbrio Package Leaflet"
@@ -440,12 +443,643 @@ reconstitution and the end of intravenous infusion should not exceed two hours. 
 
 
 
+Instance: composition-da-0f7d092ba8e4ed3275cffe67db6bbcc7
+InstanceOf: CompositionUvEpi
+Title: "Composition for recarbrio Package Leaflet"
+Description:  "Composition for recarbrio Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp43e94861d809ba65608392f1c0e5fe93)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp43e94861d809ba65608392f1c0e5fe93
+* title = "TEST PURPOSES ONLY - recarbrio"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du får Recarbrio
+3. Sådan får du Recarbrio
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What recarbrio is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What recarbrio is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Recarbrio er et antibiotikum. Det indeholder de aktive stoffer imipenem, cilastatin og relebactam.
+Recarbrio anvendes til voksne til behandling af:
+ 
+visse bakterieinfektioner i lungerne (pneumoni (lungebetændelse))
+ 
+infektioner i blodet i forbindelse med ovennævnte infektioner i lungen
+ 
+infektioner, der skyldes bakterier, som andre antibiotika muligvis ikke kan dræbe
+Recarbrio anvendes til patienter i alderen 18 år og derover.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take recarbrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take recarbrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Recarbrio, hvis
+ 
+du er allergisk over for imipenem, cilastatin, relebactam eller et af de øvrige indholdsstoffer i
+Recarbrio (angivet i punkt 6)
+ 
+du er allergisk over for carbapenem-antibiotika
+ 
+du nogensinde har haft en alvorlig allergisk reaktion over for penicillin-antibiotika eller
+cefalosporin-antibiotika
+Du må ikke få Recarbrio, hvis noget af ovenstående gælder for dig. Hvis du er i tvivl, så spørg lægen
+eller sygeplejersken, før du får Recarbrio.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sygeplejersken, før du får Recarbrio, hvis
+ 
+du er allergisk over for lægemidler - især antibiotika
+ 
+du nogensinde har haft krampeanfald
+ 
+du nogensinde har oplevet forvirring eller muskeltrækninger med et lægemiddel
+28
+ 
+du tager et lægemiddel, der indeholder valproinsyre
+ 
+du tidligere har haft diarré, mens du tog antibiotika
+ 
+du har nyreproblemer - lægen kan reducere din dosis
+Fortæl det straks til lægen, hvis du får en allergisk reaktion, krampeanfald, diarré eller udvikler
+nyreproblemer, mens du får Recarbrio (se punkt 3).
+Børn og unge
+Recarbrio må ikke anvendes til børn eller unge under 18 år. Dette skyldes, at det er ukendt, om
+medicinen er sikker at bruge hos disse patienter.
+Brug af anden medicin sammen med Recarbrio
+Fortæl det altid til lægen eller sygeplejersken, hvis du tager anden medicin, for nylig har taget anden
+medicin eller planlægger at tage anden medicin.
+Fortæl lægen om al den medicin, du tager, især hvis du tager:
+ 
+medicin, der indeholder ganciclovir, som bruges til behandling af visse virusinfektioner
+ 
+medicin, der indeholder valproinsyre eller divalproexnatrium, som normalt bruges til behandling
+af epilepsi, bipolar lidelse eller migræne
+ 
+blodfortyndende medicin såsom warfarin
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal
+du spørge din læge til råds, før du får dette lægemiddel.
+Trafik- og arbejdssikkerhed
+Recarbrio kan få dig til at føle dig svimmel, få dig til at ryste eller kan medføre krampeanfald. Dette
+kan påvirke din evne til at føre motorkøretøj eller betjene maskiner.
+Recarbrio indeholder natrium
+Dette lægemiddel indeholder ca. 37,5 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) i hvert
+hætteglas. Dette svarer til ca. 2 % af den anbefalede maksimale daglige mængde natrium for en
+voksen, som du skal indtage, og som skal tages i betragtning, hvis du er på en diæt med et lavt
+natriumindhold.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take recarbrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take recarbrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Den sædvanlige dosis er et hætteglas (indeholdende 500 mg imipenem, 500 mg cilastatin og 250 mg
+relebactam) hver 6. time. Hvis du har nyreproblemer, kan lægen reducere din dosis.
+Det gives som et drop direkte i en vene (‘intravenøs infusion’). Infusionen tager 30 minutter.
+Behandlingsforløbet varer normalt fra 5 op til 14 dage, afhængigt af den type infektion du har, og
+hvordan du reagerer på behandlingen.
+Hvis du har fået for meget Recarbrio
+Du får Recarbrio af en læge eller sygeplejerske, så det er usandsynligt, at du får en forkert dosis. Hvis
+du tror, du har fået for meget Recarbrio, skal du straks fortælle det til lægen eller sygeplejersken.
+Hvis en Recarbrio-dosis er glemt
+Fortæl det straks til din læge eller sygeplejersken, hvis du tror, du ikke har fået din Recarbrio-dosis.
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.
+29</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Alvorlige bivirkninger
+Kontakt straks din læge, hvis du bemærker en eller flere af følgende alvorlige bivirkninger - medicinen
+skal stoppes:
+ 
+allergiske reaktioner - tegnene kan omfatte nældefeber, hævelser af ansigt, læber, tunge eller
+svælg, åndedrætsbesvær eller synkebesvær
+ 
+alvorlige hudreaktioner (f.eks. svært udslæt, afskalning af huden eller blæredannelse)
+Andre bivirkninger
+Almindelig: (kan forekomme hos op til 1 ud af 10 personer)
+ 
+kvalme, opkastning, diarré
+ 
+resultater af blodprøver, der måske viser forandringer i leveren
+ 
+resultater af blodprøver, der måske viser en stigning i antallet af visse blodlegemer kaldet
+‘eosinofiler’
+ 
+resultater af blodprøver, der måske viser en stigning i antallet af visse hvide blodlegemer
+ 
+udslæt
+ 
+betændelse og smerter forårsaget af en blodansamling i venen
+Ikke almindelig: (kan forekomme hos op til 1 ud af 100 personer)
+ 
+nældefeber
+ 
+hudkløe
+ 
+krampeanfald og problemer med nervesystemet såsom skælven
+ 
+forvirring
+ 
+se, høre eller føle ting som i virkeligheden ikke er der (hallucinationer)
+ 
+svimmelhed, søvnighed
+ 
+lavt blodtryk
+ 
+resultater af blodprøver, der måske viser forandringer i nyrerne
+ 
+resultater af blodprøver, der måske viser et nedsat antal røde blodlegemer, hvide blodlegemer og
+blodplader
+ 
+resultater af blodprøver, der måske viser et forhøjet antal blodplader (trombocytose)
+ 
+unormal nyre-, lever- og blodfunktion påvist ved blodprøver
+ 
+smerter eller rødme eller dannelse af en fast knude, hvor medicinen blev indsprøjtet
+ 
+feber
+ 
+resultater af blodprøver (kaldet en Coombs test), der viser antistoffer, der kan forårsage anæmi ved
+at ødelægge røde blodlegemer
+Sjælden: (kan forekomme hos op til 1 ud af 1.000 personer)
+ 
+svampeinfektion (candidiasis)
+ 
+smagsforstyrrelser
+ 
+sygdom i hjernen, prikkende, stikkende fornemmelse, lokaliseret skælven (tremor)
+ 
+høretab
+ 
+misfarvning af tænder og/eller tunge
+ 
+betændelsestilstand (inflammation) i tyktarmen med svær diarré (colitis)
+ 
+et lavt antal hvide blodlegemer, som kan gøre det vanskeligt for din krop at bekæmpe infektioner
+ 
+betændelsestilstand i leveren 
+ 
+leversvigt
+ 
+unormal nyrefunktion
+ 
+ændret mængde urin, ændring af urinens farve
+ 
+hævelse under huden
+ 
+smertefuldt udslæt med influenzalignende symptomer
+ 
+rødme og afskalning af huden
+30
+Meget sjælden: (kan forekomme hos op til 1 ud af 10.000 personer)
+ 
+betændelsestilstand i mave eller tarm (gastro-enteritis)
+ 
+anæmi på grund af ødelæggelse af røde blodlegemer, der medfører symptomer såsom træthed,
+bleg hud
+ 
+hovedpine
+ 
+forværring af en sjælden sygdom forbundet med muskelsvaghed (forværring af myasthenia gravis)
+ 
+snurrende bevægelsesfornemmelse (vertigo)
+ 
+ringen for ørerne (tinnitus)
+ 
+uregelmæssigt hjerteslag, kraftige eller hurtige hjerteslag
+ 
+brystgener, vejrtrækningsproblemer, unormalt hurtig og overfladisk vejrtrækning, smerter i den
+øvre del af rygraden
+ 
+halssmerter
+ 
+ansigtsrødme, blåfarvning af ansigt og læber, forandringer i hudens struktur, overdreven
+svedtendens
+ 
+øget spytproduktion
+ 
+betændelsestilstand i tarmen med blodig diarré (hæmoragisk colitis)
+ 
+mavesmerter
+ 
+halsbrand
+ 
+rødlig opsvulmet tunge, forstørrelse af tungens struktur, der giver et behåret udseende
+ 
+alvorligt nedsat leverfunktion pga. betændelsestilstand (fulminant hepatitis)
+ 
+smerter i adskillige led
+ 
+kløe i de ydre kvindelige kønsorganer
+ 
+svaghed, manglende energi
+Ikke kendt: (hyppigheden kan ikke vurderes ud fra tilgængelige data)
+ 
+uro
+ 
+ufrivillige bevægelser
+ 
+gulsot (gulfarvning af hud og øjne)
+ 
+blodprøver, der viser en stigning i et stof kaldet LDH (laktatdehydrogenase), hvilket kan være et
+tegn på vævsskader 
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om
+sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store recarbrio"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store recarbrio"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på hætteglasset efter EXP. Udløbsdatoen er den
+sidste dag i den nævnte måned.
+Opbevar lægemidlet i den ydre karton for at beskytte mod lys.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
+smide medicinrester i afløbet eller toilettet.
+31</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Recarbrio indeholder: 
+ 
+Aktive stoffer: imipenem, cilastatin og relebactam. Hvert hætteglas indeholder 500 mg
+imipenem, 500 mg cilastatin og 250 mg relebactam.
+ 
+Øvrige indholdsstoffer: natriumhydrogencarbonat.
+Pakningsstørrelser og yderligere oplysninger
+Recarbrio er et hvidt til lysegult pulver til infusionsvæske, opløsning, i hætteglas. Pakningsstørrelsen
+er 25 hætteglas.
+Indehaver af markedsføringstilladelsen og fremstiller
+Indehaver af markedsføringstilladelsen
+Fremstiller
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+FAREVA Mirabel
+Route de Marsat, Riom
+63963, Clermont-Ferrand Cedex 9
+Frankrig
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel: + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft. 
+Tel: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+32
+Ελλάδα
+MSD Α.Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com 
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside: http://www.ema.europa.eu
+33
+&lt;------------------------------------------------------------------------------------------------------------------------&gt;
+Nedenstående oplysninger er til læger og sundhedspersonale:
+Recarbrio fås som tørt pulver i et enkeltdosis-hætteglas, der skal rekonstitueres og yderligere fortyndes
+ved hjælp af aseptisk teknik før intravenøs infusion som angivet nedenfor:
+ 
+For at klargøre infusionsvæsken skal indholdet i hætteglasset overføres til 100 ml af en
+egnet infusionsvæske: 9 mg/ml (0,9 %) natriumchlorid. Under særlige omstændigheder,
+hvor 9 mg/ml (0,9 %) natriumchlorid af kliniske grunde ikke kan bruges, kan 5 % glucose
+bruges i stedet for.
+ 
+Træk 20 ml (10 ml gange 2) af fortyndingsvæsken op fra den relevante infusionspose, og
+rekonstituer hætteglasset med 10 ml af fortyndingsvæsken. Den rekonstituerede
+suspension må ikke administreres som direkte intravenøs infusion.
+ 
+Efter rekonstitution skal hætteglasset rystes grundigt, og den færdige suspension skal
+overføres til de resterende 80 ml i infusionsposen.
+ 
+Tilsæt de øvrige 10 ml af fortyndingsvæsken til infusion i hætteglasset, og ryst
+hætteglasset grundigt for at sikre, at hele indholdet overføres. Gentag overførslen af den
+færdige suspension til infusionsvæsken før administration. Omryst den færdige blanding,
+indtil den fremstår som klar. 
+ 
+Rekonstituerede infusionsvæsker af Recarbrio fremstår som farveløse til gule i udseende.
+Farvevariationer inden for dette område påvirker ikke produktets kvalitet.
+ 
+For patienter med nedsat nyrefunktion vil en reduceret Recarbrio-dosis blive administreret
+i henhold til patientens CrCl, bestemt ud fra nedenstående tabel. Klargør 100 ml
+infusionsvæske som angivet ovenfor. Vælg det volumen (ml) af den færdige
+infusionsvæske, der er nødvendig til en passende Recarbrio-dosis som vist i nedenstående
+tabel.
+Parenterale lægemidler skal inspiceres visuelt for partikler og misfarvning før administration, når
+opløsning og beholder gør det muligt. Det parenterale lægemiddel kasseres, hvis der ses misfarvning
+eller synlige partikler.
+Klargøring af Recarbrio-doser
+Kreatininclearance
+(ml/min)
+Dosering af Recarbrio
+(imipenem/cilastatin/relebactam)
+(mg)
+Volumen (ml) af
+opløsning, der skal
+udtages og kasseres ifm.
+klargøringen
+Volumen (ml) af den
+færdige
+infusionsvæske, der
+påkræves til dosering
+Større end eller lig
+med 90
+500/500/250
+N/A
+100
+Mindre end 90 til
+større end eller lig
+med 60
+400/400/200
+20
+80
+Mindre end 60 til
+større end eller lig
+med 30
+300/300/150
+40
+60
+Mindre end 30 til
+større end eller lig
+med 15 eller ESRD
+i hæmodialyse
+200/200/100
+60
+40
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
+34
+Kompatible lægemidler
+Den fysiske kompatibilitet af Recarbrio med udvalgte injicerbare lægemidler blev evalueret i to
+almindeligt tilgængelige fortyndingsvæsker på et Y-infusionssted. Kompatible lægemidler med den
+tilsvarende kompatible fortyndingsvæske (dvs. 5 % glucose-injektionsvæske eller 0,9 %
+natriumchlorid-injektionsvæske) er angivet nedenfor. Recarbrio må ikke administreres gennem den
+samme intravenøse slange (eller kanyle) samtidigt med andre lægemidler, end de nedenfor anførte, da
+der ikke foreligger kompatibilitetsdata. Se produktresuméet for det/de samtidigt administrerede
+lægemiddel/lægemidler for at få bekræftet kompatibiliteten ved samtidig administration. Dette
+lægemiddel må ikke blandes med andre lægemidler end dem, der er anført nedenfor.
+Liste over kompatible injicerbare lægemidler til brug med 5 % glucose-injektionsvæske eller 0,9 %
+natriumchlorid-injektionsvæske som fortyndingsvæsker
+ dexmedetomidin
+ dopamin
+ epinefrin
+ fentanyl
+ heparin
+ midazolam
+ noradrenalin
+ phenylephrin
+Kompatible intravenøse infusionsposer og infusionssæt
+Recarbrio er kompatibelt med følgende intravenøse infusionsposer og infusionssæt. Intravenøse
+infusionsposer eller infusionssæt, der ikke er angivet nedenfor, må ikke anvendes.
+Intravenøse infusionsposer fremstillet af
+Polyvinylchlorid (PVC) og polyolefin (polypropylen og polyethylen)
+Intravenøse infusionssæt (med slange) fremstillet af
+PVC + Di-(2-ethylhexyl)phthalat (DEHP) og polyethylen (PE)-foret PVC
+Inkompatible lægemidler
+Recarbrio infusionsvæske, opløsning, er fysisk inkompatibelt med propofol i 5 % glucose- eller 0,9 %
+natriumchloridinjektionsvæske.
+Efter rekonstitution og fortynding
+Fortyndede infusionsvæsker skal anvendes straks. Der må højst gå 2 timer fra rekonstitutionen
+påbegyndes til den intravenøse infusion er afsluttet.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0f7d092ba8e4ed3275cffe67db6bbcc7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for recarbrio Package Leaflet for language en"
+Description: "ePI document Bundle for recarbrio Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0f7d092ba8e4ed3275cffe67db6bbcc7"
+* entry[0].resource = composition-en-0f7d092ba8e4ed3275cffe67db6bbcc7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0f7d092ba8e4ed3275cffe67db6bbcc7"
+* entry[=].resource = mp0f7d092ba8e4ed3275cffe67db6bbcc7
+                            
+                    
+Instance: bundlepackageleaflet-da-0f7d092ba8e4ed3275cffe67db6bbcc7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for recarbrio Package Leaflet for language da"
+Description: "ePI document Bundle for recarbrio Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0f7d092ba8e4ed3275cffe67db6bbcc7"
+* entry[0].resource = composition-da-0f7d092ba8e4ed3275cffe67db6bbcc7
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0f7d092ba8e4ed3275cffe67db6bbcc7"
+* entry[=].resource = mp0f7d092ba8e4ed3275cffe67db6bbcc7
+                            
+                    
+
+
+
+Instance: mp0f7d092ba8e4ed3275cffe67db6bbcc7
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Recarbrio 500 mg/500 mg/250 mg powder for solution for infusion"
-Description: "Recarbrio 500 mg/500 mg/250 mg powder for solution for infusion"
+Title: "Medicinal Product recarbrio"
+Description: "recarbrio"
 Usage: #inline
 
  
@@ -465,7 +1099,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Recarbrio 500 mg/500 mg/250 mg powder for solution for infusion"
+  * productName = "recarbrio"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -492,29 +1126,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0f7d092ba8e4ed3275cffe67db6bbcc7
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for recarbrio Package Leaflet for language en"
-Description: "ePI document Bundle for recarbrio Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0f7d092ba8e4ed3275cffe67db6bbcc7ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1420/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "recarbrio"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0f7d092ba8e4ed3275cffe67db6bbcc7"
-* entry[0].resource = composition-en-0f7d092ba8e4ed3275cffe67db6bbcc7
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp43e94861d809ba65608392f1c0e5fe93"
-* entry[=].resource = mp43e94861d809ba65608392f1c0e5fe93
-                            
-                      
+* title = "List of all ePIs associated with recarbrio"
+
+* subject = Reference(mp43e94861d809ba65608392f1c0e5fe93)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#recarbrio "recarbrio"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0f7d092ba8e4ed3275cffe67db6bbcc7) // recarbrio en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0f7d092ba8e4ed3275cffe67db6bbcc7) // recarbrio da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0f7d092ba8e4ed3275cffe67db6bbcc7
+InstanceOf: List
+
+* insert 0f7d092ba8e4ed3275cffe67db6bbcc7ListRuleset
+    

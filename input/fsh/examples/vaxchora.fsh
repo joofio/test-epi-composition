@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6ae111423490277c4fbffcad4c0c9c2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxchora Package Leaflet"
@@ -334,12 +337,502 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-6ae111423490277c4fbffcad4c0c9c2c
+InstanceOf: CompositionUvEpi
+Title: "Composition for vaxchora Package Leaflet"
+Description:  "Composition for vaxchora Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp9c3ac48183df2dccd2651c889f74bdd7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp9c3ac48183df2dccd2651c889f74bdd7
+* title = "TEST PURPOSES ONLY - vaxchora"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Vaxchora </li>
+<li>Sådan skal du tage Vaxchora </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vaxchora is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vaxchora is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaxchora er en oral vaccine mod kolera, som stimulerer immunforsvaret i tarmen. Vaccinen anvendes 
+til beskyttelse mod kolera hos voksne og børn på 2 år og derover. Du skal tage vaccinen mindst 
+10 dage, før du rejser til et koleraramt område. </p>
+<p>Sådan virker Vaxchora </p>
+<p>Vaxchora forbereder immunsystemet (kroppens forsvar) på at forsvare sig mod kolera. Når en person 
+tager vaccinen, producerer immunsystemet proteiner, der kaldes antistoffer, og som modvirker 
+kolerabakterien og dens toksin (et skadeligt stof), som forårsager diarré. På denne måde er 
+immunsystemet klar til at bekæmpe kolerabakterier, hvis personen kommer i kontakt med dem. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vaxchora"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vaxchora"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Vaxchora 
+– 
+hvis du er allergisk over for et eller flere af indholdsstofferne i dette lægemiddel (angivet i 
+afsnit 6). 
+– 
+hvis du har haft en allergisk reaktion i forbindelse med tidligere indtagelse af Vaxchora. 
+– 
+hvis du har et svækket immunsystem – f.eks. hvis du er født med et svækket immunsystem, eller 
+hvis du modtager behandlinger som f.eks. behandling med kortikosteroider i høje doser, 
+lægemidler mod kræft eller strålebehandling, der kan svække immunsystemet. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Vaxchora. </p>
+<p>Ikke alle, der tager Vaxchora, opnår fuld beskyttelse mod kolera. Det er vigtigt, at du altid følger 
+hygiejnerådene og udviser særlig forsigtighed med hensyn til mad og vand i koleraramte områder. </p>
+<p>Vaxchora kan være mindre effektiv, hvis du har hiv. </p>
+<p>Bakterier fra vaccinen kan være til stede i din afføring i mindst 7 dage efter, at du har taget vaccinen. 
+For at forhindre smitte skal du vaske hænderne grundigt, når du har været på toilettet, efter bleskift og 
+inden du tilbereder mad, i mindst 14 dage, efter at du har taget Vaxchora. </p>
+<p>Børn og unge 
+Giv ikke denne vaccine til børn under 2 år, da det ikke vides, hvor godt den virker til børn i denne 
+aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Vaxchora 
+Fortæl lægen, apotekspersonalet eller sygeplejersken, hvis du tager anden medicin eller andre vacciner, 
+for nylig har taget anden medicin eller andre vacciner eller planlægger at tage anden medicin eller 
+andre vacciner. Dette gælder også håndkøbsmedicin, herunder naturlægemidler. Det skyldes, at 
+Vaxchora kan påvirke virkningen af andre lægemidler og vacciner. </p>
+<p>Det er især vigtigt, at du fortæller det til lægen, apotekspersonalet eller sygeplejersken, hvis du tager: </p>
+<ul>
+<li>
+<p>antibiotika – Vaxchora virker måske ikke, hvis du tager den, mens du også tager antibiotika. Tag 
+tidligst Vaxchora 14 dage efter den sidste dosis antibiotika. Undgå antibiotika i 10 dage efter 
+indtagelse af Vaxchora. </p>
+</li>
+<li>
+<p>klorokin til beskyttelse mod malaria – Vaxchora virker måske ikke, hvis du tager den, mens du 
+også tager klorokin. Tag Vaxchora mindst 10 dage, inden du starter på klorokin, eller mindst 
+14 dage efter, at du har taget klorokin. </p>
+</li>
+<li>
+<p>tyfusvaccinen Ty21a – Vaxchora virker måske ikke, hvis du tager den samtidig med Ty21a. Du 
+bør tage Vaxchora mindst 2 timer før eller efter, at du har taget Ty21a. </p>
+</li>
+</ul>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, inden du tager Vaxchora, hvis noget af 
+ovenstående gør sig gældende for dig. </p>
+<p>Brug af Vaxchora sammen med mad og drikke 
+Du må ikke indtage mad og drikkevarer i 60 minutter før og efter, at du har taget Vaxchora, da det kan 
+reducere vaccinens effektivitet. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er usandsynligt, at Vaxchora påvirker evnen til at føre motorkøretøj eller betjene maskiner. Hvis 
+du føler dig utilpas, skal du dog undlade at føre motorkøretøj eller betjene maskiner. </p>
+<p>Vaxchora indeholder lactose, saccharose og natrium 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter. </p>
+<p>Denne vaccine indeholder 863 mg natrium (hovedbestanddelen i køkken-/bordsalt) pr. dosis. Dette 
+svarer til 43 % af den anbefalede daglige indtagelse af natrium for en voksen. Du skal tage højde for 
+dette, hvis du er på natrium- eller saltfattig diæt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vaxchora"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vaxchora"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid vaccinen nøjagtigt efter lægens, apotekspersonalets eller sygeplejerskens anvisning. Er du i 
+tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken. </p>
+<p>Den anbefalede dosis er indholdet af begge breve i æsken. I tilfælde af børn i alderen fra 2 til under 6 
+år skal trin 8 i vejledningen om klargøring af vaccinen, der findes herunder, dog følges. </p>
+<p>Beskyttelsen mod kolera indtræder i løbet af 10 dage efter indtagelse af Vaxchora. Lægen, 
+apotekspersonalet eller sygeplejersken vil fortælle dig, hvor lang tid inden rejsen du skal tage 
+vaccinen. </p>
+<p>Vejledning: </p>
+<p>KLARGØR DENNE VACCINE NØJAGTIGT SOM BESKREVET I DENNE 
+INDLÆGSSEDDEL </p>
+<p>Læs nedenstående, inden du begynder: </p>
+<p>Vaxchora virker måske ikke i nedenstående tilfælde: </p>
+<ul>
+<li>
+<p>Ukorrekt opbevaring. Vaccinen skal opbevares i køleskab. </p>
+</li>
+<li>
+<p>Brug af en ukorrekt mængde vand. Der skal anvendes 100 ml. </p>
+</li>
+<li>
+<p>Brug af en ukorrekt type vand. Der skal anvendes vand på flaske uden brus eller med brus. 
+Vandet skal være koldt eller have rumtemperatur. </p>
+</li>
+<li>
+<p>Blanding af brevenes indhold i forkert rækkefølge; Indholdet i brev 1 skal tilsættes vandet først. 
+Hvis brevenes indhold blandes i forkert rækkefølge, skal du kassere vaccinen og bede om at få 
+en erstatningsdosis. </p>
+</li>
+<li>
+<p>Indtagelse af mad og drikkevarer; Dette skal undgås i 60 minutter før og efter indtagelse af 
+vaccinen. Indtagelse af mad og drikke kan gøre vaccinen mindre effektiv. </p>
+</li>
+</ul>
+<p>For at undgå smitte må du ikke røre ved dine øjne, mens du klargør vaccinen. </p>
+<p>Hvis du spilder pulver eller væske, skal du rengøre overfladen med varmt vand og sæbe eller et 
+antibakterielt desinfektionsmiddel. </p>
+<p>Hvis du spilder en betydelig mængde (mere end nogle få dråber væske eller pulverkorn), skal du 
+kassere vaccinen og få en ny hos lægen eller apotekspersonalet. TAG IKKE den resterende medicin. 
+Trin 1 </p>
+<p>Find materialer frem: </p>
+<ul>
+<li>
+<p>Rent glas </p>
+</li>
+<li>
+<p>Røreredskab </p>
+</li>
+<li>
+<p>Vand på flaske (uden brus eller med 
+brus, skal være koldt eller have 
+rumtemperatur, 25 °C eller derunder) </p>
+</li>
+<li>
+<p>Redskab til afmåling af 100 ml 
+flaskevand (f.eks. et målebæger) </p>
+</li>
+<li>
+<p>Saks 
+Trin 2 </p>
+</li>
+</ul>
+<p>Tag vaccinen ud af køleskabet. </p>
+<p>Trin 3 </p>
+<p>Find de to breve frem: brevene er mærket 1 og 
+2. Brev 1 indeholder “Natriumhydrogencarbonat 
+brusepulver" (buffer) og er sort og hvidt. Brev 
+2 indeholder “Vaxchora® Aktivt stof" og er 
+blåt og hvidt. </p>
+<p>Hvis et af brevene ikke er intakt, må du ikke 
+bruge nogen af brevene. Kontakt lægen, 
+apotekspersonalet eller sygeplejersken for at få 
+en erstatningsdosis. Hvis du bruger et brev, der 
+ikke er intakt, kan vaccinen være mindre 
+effektiv. 
+Trin 4 </p>
+<p>Afmål 100 ml vand uden brus eller med brus, 
+der er på flaske, og som er koldt eller har 
+rumtemperatur, og hæld det i et rent glas. </p>
+<p>Der skal anvendes vand på flaske, for at 
+vaccinen kan virke optimalt – brug af vand, 
+som ikke er på flaske (f.eks. vand fra hanen), 
+kan gøre vaccinen ineffektiv. 
+Trin 5 </p>
+<p>Klip toppen af brev 1 med en saks. </p>
+<p>Put ikke fingrene i brevet. Vask hænder for at 
+nedsætte smitterisikoen, hvis du rører ved 
+brevets indhold. 
+Trin 6 </p>
+<p>Hæld hele indholdet i brev 1 ned i vandet i 
+glasset. Det bruser. 
+Trin 7 </p>
+<p>Omrør blandingen, indtil pulveret er helt 
+opløst. 
+Trin 8 </p>
+<p>KUN til børn i alderen 2 til &lt; 6 år 
+Hæld halvdelen af bufferopløsningen ud og 
+kassér den. (Bemærk: Dette trin er IKKE 
+påkrævet til børn over 6 år og voksne) 
+ 50 ml 
+100 ml 
+Trin 9 </p>
+<p>Klip toppen af brev 2 med en saks. </p>
+<p>Put ikke fingrene i brevet. Vask hænder for at 
+nedsætte smitterisikoen, hvis du rører ved 
+brevets indhold. 
+Trin<br />
+Hæld hele indholdet i brev 2 ned i glasset. 
+Trin<br />
+Omrør i mindst 30 sekunder. Pulveret i brev 2 
+kan måske ikke opløses helt. Det danner en let 
+uklar blanding med nogle hvide partikler. </p>
+<p>Hvis det ønskes kan der, efter omrøring af de 2 
+breve i mindst 30 sekunder, tilsættes 
+steviasødemiddel (ikke mere end 1 gram eller 
+¼ teskefuld) eller sukker (saccharose, ikke 
+mere end 4 gram eller 1 teskefuld) som 
+derefter røres i opløsningen. Tilsæt IKKE 
+andre sødemidler, da dette kan reducere 
+vaccinens effektivitet. 
+Trin<br />
+Drik hele indholdet i glasset senest 15 minutter 
+efter klargøring. Der kan restere lidt bundfald i 
+glasset, som skal kasseres. Hvis du eller dit 
+barn tager mindre end halvdelen af dosen, skal 
+du straks kontakte lægen, apotekspersonalet 
+eller sygeplejersken vedrørende behovet for en 
+gentagen dosis. 
+Trin  </p>
+<p>Bortskaf de tomme breve i henhold til lokale 
+retningslinjer for biosikkerhed. 
+Spørg lægen, apotekspersonalet eller 
+sygeplejersken, hvordan du skal bortskaffe 
+affald fra lægemidler. </p>
+<p>Trin<br />
+Hvis du spilder noget af lægemidlet, mens du 
+blander eller drikker det, eller hvis der er rester 
+(pulver eller væske fra røreredskabet, glasset 
+eller en anden ting) på arbejdsfladen, skal det 
+spildte materiale eller resterne fjernes, 
+fortrinsvis ved brug af en papirserviet/klud til 
+engangsbrug samt varmt vand og sæbe eller et 
+antibakterielt desinfektionsmiddel. Bortskaf 
+papirservietten sammen med brevene (se 
+herover). 
+Trin<br />
+Vask glasset og skeen eller rørepinden med 
+sæbe og varmt vand.<br />
+Trin<br />
+Vask hænderne grundigt med sæbe og varmt 
+vand for at forebygge smitte. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt omgående lægen, hvis du får følgende alvorlige bivirkninger: </p>
+<ul>
+<li>alvorlige allergiske reaktioner, der forårsager hævelse i ansigtet eller svælget, nældefeber, 
+kløende udslæt, åndenød og/eller et fald i blodtrykket og besvimelse. </li>
+</ul>
+<p>Andre bivirkninger: 
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>hovedpine, </p>
+</li>
+<li>
+<p>mavesmerter, </p>
+</li>
+<li>
+<p>kvalme eller opkastning, </p>
+</li>
+<li>
+<p>appetitløshed, </p>
+</li>
+<li>
+<p>træthed. </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>diarré. </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>luft i maven, </p>
+</li>
+<li>
+<p>forstoppelse, </p>
+</li>
+<li>
+<p>oppustethed (udspilet mave), </p>
+</li>
+<li>
+<p>fordøjelsesbesvær, </p>
+</li>
+<li>
+<p>unormal afføring, </p>
+</li>
+<li>
+<p>mundtørhed, </p>
+</li>
+<li>
+<p>ræben, </p>
+</li>
+<li>
+<p>feber, </p>
+</li>
+<li>
+<p>svimmelhed, </p>
+</li>
+<li>
+<p>ledsmerter, </p>
+</li>
+<li>
+<p>udslæt. </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>kulderystelser. </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vaxchora"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vaxchora"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn. </p>
+<p>Brug ikke Vaxchora efter den udløbsdato (EXP), der står på æsken. Udløbsdatoen er den sidste dag i 
+den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). 
+Opbevares i den originale pakning. 
+I den originale pakning er Vaxchora stabilt i op til 12 timer ved 25 °C. Udsæt ikke Vaxchora for 
+temperaturer over 25 °C. </p>
+<p>Brug ikke vaccinen, hvis du bemærker, at brevene er beskadigede. Kontakt lægen, apotekspersonalet 
+eller sygeplejersken for at få en erstatningsdosis. </p>
+<p>Dette lægemiddel indeholder genmodificerede organismer. Ikke anvendt lægemiddel eller affald heraf 
+skal bortskaffes i henhold til lokale retningslinjer for biosikkerhed. Spørg lægen, apotekspersonalet 
+eller sygeplejersken, hvordan du skal bortskaffe medicinrester eller affald heraf. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaxchora indeholder: 
+– 
+Hver dosis indeholder 4×108 til 2×109 levedygtige celler fra V. cholerae-stamme CVD 103-
+HgR. 
+– 
+Øvrige indholdsstoffer: saccharose, hydrolyseret kasein, ascorbinsyre, lactose, 
+natriumbicarbonat og natriumcarbonat. 
+– 
+Denne vaccine indeholder genmodificerede organismer (GMO’er). </p>
+<p>Udseende og pakningsstørrelser 
+Æsken indeholder to breve. Det ene brev indeholder et hvidt til grålighvidt brusepulver med 
+natriumhydrogencarbonat (buffer). Det andet brev indeholder et hvidt til beige pulver med aktivt stof 
+(vaccine). </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Bavarian Nordic A/S, Philip Heymans Alle 3, DK-2900 Hellerup, Danmark. </p>
+<p>Fremstiller </p>
+<p>IL-CSM GmbH 
+Marie-Curie-Strasse 8 
+D-79539 Lörrach 
+Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-6ae111423490277c4fbffcad4c0c9c2c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaxchora Package Leaflet for language en"
+Description: "ePI document Bundle for vaxchora Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6ae111423490277c4fbffcad4c0c9c2c"
+* entry[0].resource = composition-en-6ae111423490277c4fbffcad4c0c9c2c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6ae111423490277c4fbffcad4c0c9c2c"
+* entry[=].resource = mp6ae111423490277c4fbffcad4c0c9c2c
+                            
+                    
+Instance: bundlepackageleaflet-da-6ae111423490277c4fbffcad4c0c9c2c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaxchora Package Leaflet for language da"
+Description: "ePI document Bundle for vaxchora Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6ae111423490277c4fbffcad4c0c9c2c"
+* entry[0].resource = composition-da-6ae111423490277c4fbffcad4c0c9c2c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6ae111423490277c4fbffcad4c0c9c2c"
+* entry[=].resource = mp6ae111423490277c4fbffcad4c0c9c2c
+                            
+                    
+
+
+
+Instance: mp6ae111423490277c4fbffcad4c0c9c2c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vaxchora effervescent powder and powder for oral suspension"
-Description: "Vaxchora effervescent powder and powder for oral suspension"
+Title: "Medicinal Product vaxchora"
+Description: "vaxchora"
 Usage: #inline
 
  
@@ -359,7 +852,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vaxchora effervescent powder and powder for oral suspension"
+  * productName = "vaxchora"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -386,29 +879,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-6ae111423490277c4fbffcad4c0c9c2c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vaxchora Package Leaflet for language en"
-Description: "ePI document Bundle for vaxchora Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 6ae111423490277c4fbffcad4c0c9c2cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1423/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vaxchora"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-6ae111423490277c4fbffcad4c0c9c2c"
-* entry[0].resource = composition-en-6ae111423490277c4fbffcad4c0c9c2c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp9c3ac48183df2dccd2651c889f74bdd7"
-* entry[=].resource = mp9c3ac48183df2dccd2651c889f74bdd7
-                            
-                      
+* title = "List of all ePIs associated with vaxchora"
+
+* subject = Reference(mp9c3ac48183df2dccd2651c889f74bdd7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vaxchora "vaxchora"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6ae111423490277c4fbffcad4c0c9c2c) // vaxchora en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6ae111423490277c4fbffcad4c0c9c2c) // vaxchora da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6ae111423490277c4fbffcad4c0c9c2c
+InstanceOf: List
+
+* insert 6ae111423490277c4fbffcad4c0c9c2cListRuleset
+    

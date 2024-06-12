@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9d6bde1dfdbe6ae73a503b7573b2e412
 InstanceOf: CompositionUvEpi
 Title: "Composition for entacapone Package Leaflet"
@@ -384,12 +387,553 @@ http://www.ema.europa.eu  </p>         </div>"""
 
 
 
+Instance: composition-da-9d6bde1dfdbe6ae73a503b7573b2e412
+InstanceOf: CompositionUvEpi
+Title: "Composition for entacapone Package Leaflet"
+Description:  "Composition for entacapone Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp45d137f4f64dad93f181591653834dd6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp45d137f4f64dad93f181591653834dd6
+* title = "TEST PURPOSES ONLY - entacapone"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Entacapone Teva 
+3. Sådan skal du tage Entacapone Teva 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What entacapone is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What entacapone is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entacapone Teva-tabletter indeholder entacapon og bruges sammen med levodopa til behandling af 
+Parkinsons sygdom. Entacapone Teva understøtter levodopa og lindrer derved symptomerne på 
+Parkinsons sygdom. Entacapone Teva har kun lindrende virkning på symptomerne fra Parkinsons 
+sygdom, hvis det tages sammen med levodopa. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take entacapone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take entacapone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Entacapone Teva </p>
+<ul>
+<li>
+<p>hvis du er (allergisk over for entacapon eller et af de øvrige indholdsstoffer i Entacapone Teva 
+(angivet i punkt 6); </p>
+</li>
+<li>
+<p>hvis du har en svulst på binyren (kaldet fæokromocytoma; det kan øge risikoen for svært 
+forhøjet blodtryk); </p>
+</li>
+<li>
+<p>hvis du tager visse former for lægemidler mod depression (antidepressiva). Kontakt din læge 
+eller apoteket, som kan undersøge, om din medicin kan tages sammen med Entacapone Teva; </p>
+</li>
+<li>
+<p>hvis du har en leversygdom; </p>
+</li>
+<li>
+<p>hvis du tidligere har haft en sjælden reaktion på antipsykotisk medicin kaldet malignt 
+neuroleptikasyndrom (NMS). Se symptomer på NMS i punkt 4 Bivirkninger  </p>
+</li>
+<li>
+<p>hvis du tidligere har haft en sjælden muskelsygdom, der kaldes rhabdomyolyse, som ikke var 
+udløst af en skade. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apoteket før du tager Entacapone Teva:<br />
+Rådfør dig med din læge, hvis noget af følgende gælder for dig: </p>
+<ul>
+<li>
+<p>hvis du har haft et hjertetilfælde eller andre hjertesygdomme; </p>
+</li>
+<li>
+<p>hvis du tager medicin, som kan medføre svimmelhed (på grund af lavt blodtryk), når du rejser 
+dig fra en stol eller sengen; </p>
+</li>
+<li>
+<p>hvis du får længerevarende diarré. Kontakt lægen, da det kan være tegn på betændelse i 
+tyktarmen; </p>
+</li>
+<li>
+<p>hvis du får diarré. Regelmæssig kontrol af din vægt anbefales for at undgå et eventuelt meget 
+stort vægttab; </p>
+</li>
+<li>
+<p>hvis du inden for relativt kort tid får tiltagende appetitløshed, føler dig svækket, udmattet og 
+taber i vægt. Din læge bør overveje, om der skal foretages en generel medicinsk bedømmelse 
+inklusive undersøgelse af din leverfunktion. </p>
+</li>
+</ul>
+<p>Fortæl din læge, hvis du eller din familie/behandler bemærker, at du udvikler stærk trang eller adfærd, 
+som er usædvanlig for dig, eller hvis du ikke kan modstå lysten eller fristelsen for at udføre bestemte 
+aktiviteter, som kan skade dig selv eller andre. Denne form for opførsel kaldes sygelig vane- og 
+impulshandlinger og kan omfatte sygelig spilletrang, overdreven spisning eller brug af penge,<br />
+unormal stor  sexlyst eller øget antal sexuelle tanker og følelser. Der kan være behov for, at din læge 
+ændrer din behandling. </p>
+<p>Da Entacapone Teva-tabletter skal tages sammen med andre levodopa-lægemidler, skal du også læse 
+indlægssedlen for disse lægemidler omhyggeligt. </p>
+<p>Når du starter med at tage Entacapone Teva, kan det være nødvendigt at justere din dosis af andre 
+lægemidler mod Parkinsons sygdom. Følg den vejledning lægen har givet dig. </p>
+<p>Malignt neuroleptika syndrom (NMS) er en alvorlig, men sjælden reaktion på visse lægemidler, som 
+især kan forekomme, hvis behandling med Entacapone Teva og andre lægemidler til behandling af 
+Parkinsons sygdom pludseligt stoppes, eller hvis dosis pludseligt nedsættes. Se symptomer på NMS i 
+punkt 4 Bivirkninger. Din læge kan råde dig til langsomt at stoppe behandlingen med Entacapone 
+Teva og andre lægemidler til behandling af Parkinsons sygdom. </p>
+<p>Samtidig brug af Entacapone Teva og levodopa kan gøre dig mere sløv, og nogen gange kan du 
+pludseligt falde i søvn. Hvis dette sker, må du ikke køre bil eller betjene maskiner (se Trafik- og 
+arbejdssikkerhed). </p>
+<p>Brug af anden medicin sammen med Entacapone Teva: 
+Fortæl altid  lægen eller på apoteket, hvis du bruger anden medicin eller har gjort det for nylig. Du 
+skal især fortælle det til lægen, hvis du tager noget af følgende: </p>
+<ul>
+<li>
+<p>rimiterol, isoprenalin, adrenalin, noradrenalin, dopamin, dobutamin, alfa-methyldopa, 
+apomorfin </p>
+</li>
+<li>
+<p>lægemidler mod depression, herunder desipramin, maprotilin, venlafaxin, paroxetin </p>
+</li>
+<li>
+<p>warfarin (blodfortyndende medicin) </p>
+</li>
+<li>
+<p>jerntilskud. Entacapone Teva kan gøre det sværere at optage jern. Du må derfor ikke tage 
+Entacapone Teva og jerntilskud på samme tid. Vent mindst 2 til 3 timer efter at du har taget 
+det ene af dem, til du tager det andet. </p>
+</li>
+</ul>
+<p>Graviditet, amning og frugtbarhed 
+Du må ikke tage Entacapone Teva under graviditet, eller hvis du ammer.<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apoteket til råds, før du tager dette lægemiddel.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Entacapone Teva taget sammen med levodopa kan nedsætte dit blodtryk, hvilket kan få dig til at føle 
+dig ør i hovedet eller svimmel. Du skal være meget forsigtig, når du kører bil eller betjener maskiner.  </p>
+<p>Entacapone Teva taget sammen med levodopa kan endvidere gøre dig meget søvnig eller af og til få 
+dig til pludseligt at falde i søvn. Hvis du får disse bivirkninger, må du ikke køre bil motorcykel eller 
+arbejde med værktøj eller maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take entacapone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take entacapone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Entacapone Teva nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
+spørg lægen eller på apoteket.  </p>
+<p>Entacapone Teva tages sammen med medicin, der indeholder levodopa (enten levodopa/carbidopa-
+præparater eller levodopa/benserazid-præparater). Du kan også tage anden medicin til behandling af 
+Parkinsons sygdom samtidigt. </p>
+<p>Den anbefalede  dosis af Entacapone Teva er en 200 mg tablet sammen med hver levodopadosis. Den 
+højeste anbefalede dosis er 10 tabletter pr. dag, dvs. 2.000 mg Entacapone Teva. </p>
+<p>Hvis du er i dialyse på grund af nedsat nyrefunktion, vil din læge måske bede dig om at øge tiden 
+mellem doserne.  </p>
+<p>Brug til børn og teenagere 
+Der er begrænset erfaring med brug af Entacapone Teva til patienter under 18 år. Brug af Entacapone 
+Teva frarådes derfor til børn. </p>
+<p>Hvis du har taget for mange Entacapone Teva<br />
+Hvis du har taget en overdosis af Entacapone Teva, skal du straks henvende dig til din læge, på 
+apoteket eller nærmeste hospital.  </p>
+<p>Hvis du har glemt at tage Entacapone Teva 
+Hvis du har glemt at tage din Entacapone Teva-tablet sammen med din levodopadosis, genoptager du 
+behandlingen ved at tage den næste Entacapone Teva-tablet sammen med den næste levodopadosis. </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+<p>Hvis du holder op med at tage Entacapone Teva 
+Du må kun ophøre med at tage Entacapone Teva, hvis din læge har sagt det.  </p>
+<p>Hvis du stopper, kan det være nødvendigt for din læge at justere doseringen af din anden medicin til 
+behandling af Parkinsons sygdom. Pludseligt stop med brug af Entacapone Teva og anden medicin til 
+behandling af Parkinsons sygdom kan give uønskede bivirkninger. Se punkt 2 Advarsler og 
+forsigtighedsregler. </p>
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. De 
+hyppigste bivirkninger, der skyldes brug af Entacapone Teva, er milde til moderate. </p>
+<p>Nogle af bivirkningerne skyldes oftest en øget virkning af levodopabehandlingen og er mest 
+almindelige i begyndelsen af behandlingen. Hvis du oplever sådanne bivirkninger i begyndelsen af 
+behandlingen med Entacapone Teva, skal du kontakte din læge, som kan vælge at justere din 
+levodopadosis.  </p>
+<p>Hyppighederne er defineret som: 
+Meget almindelig (kan påvirke flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>ukontrollerbare bevægelser med besvær med at udføre ønskede bevægelser (dyskinesier) </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>harmløs farveændring af urinen. </p>
+</li>
+</ul>
+<p>Almindelig (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>overdrevne bevægelser (hyperkinesier), forværring af symptomer på Parkinsons sygdom, 
+langvarige muskelkramper (dystoni) </p>
+</li>
+<li>
+<p>opkastning, diarré, mavesmerter, forstoppelse, mundtørhed </p>
+</li>
+<li>
+<p>svimmelhed, træthed, øget svedtendens, fald </p>
+</li>
+<li>
+<p>hallucinationer (se/høre/føle/lugte noget, som i virkeligheden ikke er der), søvnløshed, livlige 
+drømme, forvirring </p>
+</li>
+<li>
+<p>symptomer på hjerte- eller karsygdom (f.eks. brystsmerter). </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan påvirke op til 1 ud af 100 personer) </p>
+<ul>
+<li>hjerteanfald. </li>
+</ul>
+<p>Sjælden (kan påvirke op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>hududslæt </p>
+</li>
+<li>
+<p>unormale leverfunktionsprøver. </p>
+</li>
+</ul>
+<p>Meget sjælden (kan påvirke op til 1 ud af 10.000 personer) </p>
+<ul>
+<li>
+<p>uro </p>
+</li>
+<li>
+<p>nedsat appetit, vægttab </p>
+</li>
+<li>
+<p>nældefeber. </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke bestemmes ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>tyktarmsbetændelse (colitis), leverbetændelse (hepatitis) med gulfarvning af huden og det hvide i 
+øjnene </p>
+</li>
+<li>
+<p>misfarvning af hud, hår, skæg og negle. </p>
+</li>
+</ul>
+<p>Hvis Entacapone Teva gives i større doser: 
+Ved doser på 1.400 til 2.000 mg pr. dag er følgende bivirkninger mere almindelige: </p>
+<ul>
+<li>
+<p>ukontrollable bevægelser </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+</ul>
+<p>Følgende vigtige bivirkninger kan også forekomme: </p>
+<ul>
+<li>
+<p>Entacapone Teva taget sammen med levodopa kan i sjældne tilfælde få dig til at føle dig meget 
+døsig om dagen og medføre, at du pludseligt falder i søvn. </p>
+</li>
+<li>
+<p>malignt neuroleptikasyndrom (NMS) er en sjælden, men alvorlig bivirkning til medicin, der 
+anvendes til behandling af forstyrrelser i nervesystemet. Det er karakteriseret ved stivhed, 
+muskeltrækninger, rysten, uro og forvirring, bevidstløshed, høj feber, hurtig hjerterytme og 
+ustabilt blodtryk.  </p>
+</li>
+<li>
+<p>en sjælden, men alvorlig muskelsygdom (rhabdomyolyse), som medfører muskelsmerter, -ømhed 
+og -svaghed, og som kan give nyreproblemer. </p>
+</li>
+</ul>
+<p>Du kan opleve følgende bivirkninger: </p>
+<ul>
+<li>Manglende evne til at modstå trangen til at gøre noget, som kan være skadeliget, hvilket  kan 
+være: 
+• Sygelig spilletrang på trods af alvorlige personlige eller familiære konsekvenser 
+• Ændret eller øget seksuel interesse og opførsel, der skaber bekymring for dig eller andre, for 
+eksempel øget sexlyst 
+• Ukontrolleret og overdreven shopping eller brug af penge 
+• Spiseorgie (spiser store mængder mad på meget kort tid) eller tvangsspisning (spiser mere 
+mad end normalt eller mere end der skal til for at gøre dig mæt). </li>
+</ul>
+<p>Fortæl din læge, hvis du oplever nogen af disse symptomer; Lægen vil diskutere måder at 
+reducere og kontrollere disse symptomer. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
+pårørende kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe 
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store entacapone"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store entacapone"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen og på etiketten på 
+tabletbeholderen efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg på apoteket, hvordan du skal aflevere medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entacapone Teva indeholder:</p>
+<ul>
+<li>Aktivt stof: Entacapon. Hver filmovertrukken tablet indeholder 200 mg entacapon. </li>
+<li>Øvrige indholdsstoffer i tabletkernen: cellulose, mikrokrystallinsk; povidon, stivelse, 
+prægelatineret, magnesiumstearat og i filmovertrækket poly(vinylalkohol); talcum; titandioxid 
+(E171); macrogol; jernoxid-gul (E172); lecithin, soja og jernoxid-rød (E172). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Entacapone Teva 200 mg filmovertrukne tabletter er lysebrune, bikonvekse, ellipseformede tabletter 
+med en længde på ca. 18 mm og en bredde på ca. 10 mm, præget med "E200" på den ene side og uden 
+prægning på den anden side. </p>
+<p>Entacapone Teva fås i HPDE-tabletbeholdere med skruelåg i polypropylen med isat tørremiddel med 
+30, 60, 100 eller 175 filmovertrukne tabletter. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem </p>
+<p>Nederlandene </p>
+<p>Fremstiller 
+TEVA Pharmaceutical Works Private Limited Company 
+Pallagi út 13, 
+4042 Debrecen, 
+Ungarn </p>
+<p>Pharmachemie B.V.<br />
+Swensweg 5, 
+2031 GA Haarlem,<br />
+Nederlandene </p>
+<p>Teva Czech Industries s.r.o.<br />
+Ostravska 29, c.p. 305, 
+74770 Opava-Komarov, 
+Den Tjekkiske Republik </p>
+<p>Teva Operations Poland Sp.z.o.o. 
+ul. Mogilska 80, 
+31-546, Krakow, 
+Polen </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien<br />
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207373<br />
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България<br />
+Тева Фарма ЕАД 
+Teл: +359 24899585<br />
+Luxembourg/Luxemburg<br />
+ratiopharm GmbH<br />
+Allemagne/Deutschland 
+Tél/Tel: +49 73140 
+Česká republika<br />
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251007111<br />
+Magyarország<br />
+Teva Gyógyszergyár Zrt.<br />
+Tel: +36 12886 
+Danmark<br />
+Teva Denmark A/S<br />
+Tlf: +45 44985511<br />
+Malta<br />
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140Nederland<br />
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Norge 
+Teva Norway AS 
+Tlf: +47 66775 </p>
+<p>Ελλάδα 
+Specifar Α.Β.Ε.Ε. 
+Τηλ: +30 2118805Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Teva Santé 
+Tél: +33 155917Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 </p>
+<p>Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar Α.Β.Ε.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121 </p>
+<p>Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret iseptember 2015. Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på det Europæiske Lægemiddelagenturs 
+hjemmeeside http://www.ema.europa.eu/  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9d6bde1dfdbe6ae73a503b7573b2e412
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for entacapone Package Leaflet for language en"
+Description: "ePI document Bundle for entacapone Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9d6bde1dfdbe6ae73a503b7573b2e412"
+* entry[0].resource = composition-en-9d6bde1dfdbe6ae73a503b7573b2e412
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9d6bde1dfdbe6ae73a503b7573b2e412"
+* entry[=].resource = mp9d6bde1dfdbe6ae73a503b7573b2e412
+                            
+                    
+Instance: bundlepackageleaflet-da-9d6bde1dfdbe6ae73a503b7573b2e412
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for entacapone Package Leaflet for language da"
+Description: "ePI document Bundle for entacapone Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9d6bde1dfdbe6ae73a503b7573b2e412"
+* entry[0].resource = composition-da-9d6bde1dfdbe6ae73a503b7573b2e412
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9d6bde1dfdbe6ae73a503b7573b2e412"
+* entry[=].resource = mp9d6bde1dfdbe6ae73a503b7573b2e412
+                            
+                    
+
+
+
+Instance: mp9d6bde1dfdbe6ae73a503b7573b2e412
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Entacapone Teva 200 mg film-coated tablets"
-Description: "Entacapone Teva 200 mg film-coated tablets"
+Title: "Medicinal Product entacapone"
+Description: "entacapone"
 Usage: #inline
 
  
@@ -409,7 +953,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Entacapone Teva 200 mg film-coated tablets"
+  * productName = "entacapone"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -436,29 +980,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9d6bde1dfdbe6ae73a503b7573b2e412
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for entacapone Package Leaflet for language en"
-Description: "ePI document Bundle for entacapone Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9d6bde1dfdbe6ae73a503b7573b2e412ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/10/665/001 - 30 tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "entacapone"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9d6bde1dfdbe6ae73a503b7573b2e412"
-* entry[0].resource = composition-en-9d6bde1dfdbe6ae73a503b7573b2e412
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp45d137f4f64dad93f181591653834dd6"
-* entry[=].resource = mp45d137f4f64dad93f181591653834dd6
-                            
-                      
+* title = "List of all ePIs associated with entacapone"
+
+* subject = Reference(mp45d137f4f64dad93f181591653834dd6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#entacapone "entacapone"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9d6bde1dfdbe6ae73a503b7573b2e412) // entacapone en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9d6bde1dfdbe6ae73a503b7573b2e412) // entacapone da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9d6bde1dfdbe6ae73a503b7573b2e412
+InstanceOf: List
+
+* insert 9d6bde1dfdbe6ae73a503b7573b2e412ListRuleset
+    

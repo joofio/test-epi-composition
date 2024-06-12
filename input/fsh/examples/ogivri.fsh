@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3063ae54c8b95c21a8b236c970f9eb21
 InstanceOf: CompositionUvEpi
 Title: "Composition for ogivri Package Leaflet"
@@ -500,12 +503,813 @@ Tel: 0080008250This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-3063ae54c8b95c21a8b236c970f9eb21
+InstanceOf: CompositionUvEpi
+Title: "Composition for ogivri Package Leaflet"
+Description:  "Composition for ogivri Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpaae8d931abe2f2d9085b87555b9bb088)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpaae8d931abe2f2d9085b87555b9bb088
+* title = "TEST PURPOSES ONLY - ogivri"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du får Ogivri<br />
+3. Sådan får du Ogivri 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ogivri is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ogivri is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ogivri indeholder det aktive stof trastuzumab, som er et monoklonalt antistof. Monoklonale 
+antistoffer binder til specifikke proteiner eller antigener. Trastuzumab er designet til at binde selektivt 
+til et antigen kaldet human epidermal vækstfaktorreceptor 2 (HER2). HER2 findes i store mængder 
+på overfladen af nogle kræftceller, hvor det stimulerer deres vækst. Når Ogivri bindes til HER2, 
+stopper det væksten af sådanne celler, hvilket resulterer i, at de dør. </p>
+<p>Din læge kan ordinere Ogivri til behandling af bryst- og mavekræft, hvis: </p>
+<ul>
+<li>
+<p>Du har tidlig brystkræft med høje koncentrationer af et protein, som kaldes HER2. * Du har metastatisk brystkræft (brystkræft, som har spredt sig ud over den oprindelige tumor) 
+med høje koncentrationer af HER2. Ogivri kan ordineres i kombination med kemoterapi-
+lægemidlerne paclitaxel og docetaxel som første behandling for metastatisk brystkræft, eller det 
+kan ordineres alene, hvis andre behandlinger har vist sig ikke at virke. Det anvendes også i 
+kombination med medicin, som kaldes aromatasehæmmere til patienter med høje 
+koncentrationer af HER2 samt hormonreceptor-positiv metastatisk brystkræft (brystkræft, der 
+er følsom over for tilstedeværelsen af kvindelige kønshormoner). </p>
+</li>
+<li>
+<p>Du har metastatisk mavekræft med høje koncentrationer af HER2, når det er i kombination 
+med de andre kræftlægemidler capecitabin eller 5-fluoruracil og cisplatin. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ogivri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ogivri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ogivri: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for trastuzumab, murine proteiner (fra mus) eller et af de øvrige 
+indholdsstoffer i Ogivri (angivet i afsnit 6). </p>
+</li>
+<li>
+<p>hvis du har alvorlige problemer med at trække vejret i hvile på grund af din cancer, eller 
+hvis du har behov for behandling med ilt. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler<br />
+Din læge vil nøje overvåge din behandling. </p>
+<p>Kontrol af hjertet 
+Behandling med Ogivri alene eller sammen med et taxan kan påvirke hjertet, især hvis du tidligere 
+har fået antracykliner (taxaner og antracykliner er to andre slags lægemidler, der anvendes til at 
+behandle kræft). 
+Påvirkningerne kan være moderate til svære og kan forårsage død. Derfor skal din hjertefunktion 
+kontrolleres før, under (hver tredje måned) og efter behandlingen med Ogivri (op til to til fem år). 
+Hvis du udvikler tegn på hjertesvigt (dårlig pumpefunktion af hjertet), kan din hjertefunktion blive 
+undersøgt oftere (hver 6. til 8. uge). Det kan være nødvendigt, at du får behandling for hjertesvigt, 
+eller at du stopper behandlingen med Ogivri. </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får Ogivri, hvis: </p>
+<ul>
+<li>
+<p>du har haft hjertesvigt, koronararteriesygdom, hjerteklapsygdom (hjertemislyd) eller forhøjet 
+blodtryk, eller hvis du tager eller har taget medicin mod forhøjet blodtryk. </p>
+</li>
+<li>
+<p>du nogensinde har fået eller på nuværende tidspunkt får medicin kaldet doxorubicin eller 
+epirubicin (medicin til at behandle kræft). Disse lægemidler (og ethvert andet antracyklin) kan 
+skade hjertemusklen og øge risikoen for hjerteproblemer sammen med Ogivri. </p>
+</li>
+<li>
+<p>du har åndenød, særligt hvis du i øjeblikket får et taxan. Ogivri kan forårsage 
+vejrtrækningsproblemer, specielt når det gives første gang. Dette kan blive alvorligt, hvis du 
+allerede har åndenød. I meget sjældne tilfælde er det sket, at patienter, som havde alvorlige 
+vejrtrækningsproblemer inden behandlingsstart, døde, da de fik Ogivri. </p>
+</li>
+<li>
+<p>du nogensinde har fået andre kræftbehandlinger. </p>
+</li>
+</ul>
+<p>Hvis du får Ogivri sammen med andre lægemidler til at behandle kræft, såsom paclitaxel, docetaxel, 
+en aromatasehæmmer, capecitabin, 5-fluoruracil eller cisplatin, skal du også læse indlægssedlerne for 
+disse lægemidler. </p>
+<p>Børn og unge 
+Ogivri er frarådet til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Ogivri 
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du tager anden medicin 
+eller har gjort det for nylig. </p>
+<p>Det kan tage op til 7 måneder at udskille Ogivri fra organismen. Du bør derfor fortælle din læge, 
+apotekspersonalet eller sygeplejersken, at du har fået Ogivri, hvis du begynder at anvende enhver form 
+for nyt lægemiddel inden for 7 måneder efter ophør med Ogivri-behandlingen. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, 
+skal du spørge din læge, apotekspersonalet eller sygeplejersken til råds, før du tager dette 
+lægemiddel. </p>
+<p>Graviditet </p>
+<ul>
+<li>
+<p>Du skal anvende sikker kontraception under behandlingen med Ogivri og i mindst 
+7 måneder efter, at behandlingen er stoppet. </p>
+</li>
+<li>
+<p>Lægen vil rådgive dig om risici og fordele ved at tage Ogivri under graviditet. I sjældne 
+tilfælde er der hos gravide kvinder, der får trastuzumab, blevet observeret en nedsat 
+mængde fostervand (den væske, der omgiver barnet i livmoderen). Denne tilstand kan være 
+skadelig for dit foster og er blevet forbundet med ufuldstændig udvikling af lungerne, 
+hvilket kan resultere i fosterdød. </p>
+</li>
+</ul>
+<p>Amning </p>
+<p>Du må ikke amme dit barn under behandling med Ogivri og i de første 7 måneder efter, du har fået 
+den sidste dosis Ogivri, da Ogivri kan overføres til dit barn gennem mælken. Spørg din læge eller 
+apotekspersonalet til råds, inden du tager nogen form for medicin. </p>
+<p>Trafik- og arbejdssikkerhed 
+Ogivri kan påvirke evnen til at føre motorkøretøj eller betjene maskiner. Hvis du under behandlingen 
+får symptomer såsom svimmelhed, søvnighed, kulderystelser eller feber, må du ikke føre 
+motorkøretøj eller betjene maskiner, før symptomerne er forsvundet. </p>
+<p>Ogivri indeholder sorbitol (E420) og natrium 
+Ogivri 150 mg pulver til koncentrat til infusionsvæske, opløsning 
+Dette lægemiddel indeholder 115,2 mg sorbitol i hvert hætteglas. </p>
+<p>Ogivri 420 mg pulver til koncentrat til infusionsvæske, opløsning 
+Dette lægemiddel indeholder 322,6 mg sorbitol i hvert hætteglas. </p>
+<p>Sorbitol er en kilde til fructose. Hvis du har arvelig fructoseintolerans (HFI), en sjælden genetisk 
+lidelse, må du ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde fructose, hvilket kan 
+medføre alvorlige bivirkninger.<br />
+Inden du får dette lægemiddel, skal du fortælle din læge, hvis du har HFI, eller hvis du ikke længere 
+må få sød mad eller drikke, fordi du føler dig syg, kaster op eller får ubehagelige bivirkninger som 
+oppustethed, mavekramper eller diarré. </p>
+<p>Ogivri indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ogivri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ogivri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inden din behandling påbegyndes, vil lægen bestemme mængden af HER2 i din tumor. Kun patienter 
+med store mængder HER2 vil blive behandlet med Ogivri. Ogivri må kun gives af en læge eller 
+sygeplejerske. Din læge vil ordinere en dosis og en behandlingsmåde, som passer til dig. Ogivri-dosis 
+afhænger af din legemsvægt. </p>
+<p>Den første dosis af din behandling gives over 90 minutter, og du vil blive observeret af 
+sundhedspersonale, mens den indgives, i tilfælde af at du får nogle bivirkninger. Hvis den første dosis 
+tåles godt, kan de efterfølgende doser gives over 30 minutter (se afsnit 2 under "Advarsler og 
+forsigtighedsregler"). Antallet af infusioner, som du får, vil afhænge af, hvordan du reagerer på 
+behandlingen. Din læge vil drøfte dette med dig. </p>
+<p>Ogivri gives som en infusion i en vene (intravenøs infusion, drop). Denne intravenøse formulering er 
+ikke beregnet til subkutan brug og må kun gives som en intravenøs infusion. </p>
+<p>Ved tidlig brystkræft, metastatisk brystkræft og metastatisk mavekræft gives Ogivri hver 3. uge. 
+Ogivri kan også gives én gang om ugen ved metastatisk brystkræft. </p>
+<p>For at undgå fejlmedicinering er det vigtigt at kontrollere hætteglassets etiket for at sikre, at det 
+præparat, som klargøres og gives, er Ogivri (trastuzumab) og ikke et andet lægemiddel, der 
+indeholder trastuzumab (eksempelvis trastuzumabemtansin eller trastuzumab deruxtecan).  </p>
+<p>Hvis du holder op med at bruge Ogivri 
+Stop ikke med at få dette lægemiddel uden at tale med din læge først. Alle doser skal tages på det 
+rigtige tidspunkt hver uge eller hver tredje uge (afhængigt af dit doseringsskema). Dette får 
+lægemidlet til at virke bedst muligt. </p>
+<p>Det kan tage op til 7 måneder at udskille Ogivri fra kroppen. Derfor kan din læge beslutte at 
+fortsætte med at undersøge din hjertefunktion, efter din behandling er stoppet. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Nogle af bivirkningerne kan være alvorlige og føre til hospitalsindlæggelse. </p>
+<p>Under en Ogivri-infusion kan der forekomme kulderystelser, feber og andre influenzalignende 
+symptomer. Disse bivirkninger er meget almindelige (kan forekomme hos flere end 1 ud af behandlede).<br />
+Andre symptomer, som har forbindelse med infusionen, er: utilpashedsfølelse (kvalme), 
+opkastning, smerter, forøget muskelspænding og rystelser, hovedpine, svimmelhed, besvær med at 
+trække vejret, forhøjet eller for lavt blodtryk, forstyrrelser i hjerterytmen (hjertebanken, flakkende 
+hjerte eller uregelmæssig hjerterytme), hævelse i ansigtet og læberne, udslæt og træthedsfølelse.<br />
+Nogle af disse symptomer kan være alvorlige, og nogle patienter er døde (se afsnit 2 under 
+"Advarsler og forsigtighedsregler"). </p>
+<p>Disse reaktioner indtræffer hovedsageligt i forbindelse med første intravenøse infusion i din blodåre 
+(drop) og i løbet af de første få timer, efter infusionen er påbegyndt. De er for det meste forbigående. 
+Du vil blive observeret af en læge eller sygeplejerske under infusionen og i mindst 6 timer efter 
+påbegyndelse af den første infusion og i 2 timer efter påbegyndelse af de efterfølgende infusioner. 
+Hvis du får en reaktion, vil de nedsætte infusionshastigheden eller stoppe infusionen og muligvis give 
+dig behandling, der modvirker bivirkningerne. Infusionen kan fortsættes, når symptomerne er blevet 
+formindsket. </p>
+<p>Lejlighedsvis kan symptomerne indtræffe senere end 6 timer efter, at infusionen er påbegyndt. 
+Hvis dette sker for dig, skal du øjeblikkeligt kontakte en læge. Nogle gange kan symptomerne 
+mindskes og senere igen blive værre. </p>
+<p>Alvorlige bivirkninger 
+Andre bivirkninger kan indtræffe på ethvert tidspunkt under behandlingen med Ogivri og er ikke 
+kun relateret til en infusion. Fortæl øjeblikkeligt din læge eller sygeplejerske, hvis du oplever en 
+af følgende bivirkninger:  </p>
+<ul>
+<li>Hjerteproblemer kan nogle gange forekomme under behandlingen og lejlighedsvis efter, at 
+behandlingen er stoppet, og kan være alvorlige. De inkluderer svækkelse af hjertemusklen, der 
+muligvis kan føre til hjertesvigt, betændelse i hinden omkring hjertet og forstyrrelser i 
+hjerterytmen. Dette kan medføre symptomer somåndenød (herunder åndenød om natten), hoste, 
+væskeretention (hævelser) i ben eller arme, og hjertebanken (hjerteflagren eller uregelmæssig 
+hjerterytme) (se Kontrol af hjertet" i pkt. 2 "). </li>
+</ul>
+<p>Lægen vil kontrollere dit hjerte regelmæssigt under og efter behandlingen, men du skal 
+øjeblikkeligt fortælle det til lægen, hvis du får nogle af ovenstående symptomer. </p>
+<ul>
+<li>Tumorlyse syndrom (en gruppe af metaboliske komplikationer, der sker efter behandling mod 
+kræft, som er karakteriseret ved høje blodværdier af kalium og fosfat og lave blodværdier af 
+kalcium). Symptomerne kan være nyreproblemer (svaghed, åndenød, træthed og forvirring), </li>
+</ul>
+<p>hjerteproblemer (hjerteflagren eller en hurtigere eller langsommere hjerterytme), krampeanfald, 
+opkast eller diarré, og prikkende fornemmelse i munden, på hænderne eller fødderne. </p>
+<p>Hvis du får nogle af ovenstående symptomer, når behandlingen med Ogivri er stoppet, skal du 
+kontakte din læge og fortælle, at du tidligere er blevet behandlet med Ogivri. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>infektioner </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>halsbrand (dyspepsi) </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>hududslæt </p>
+</li>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>ledsmerter </p>
+</li>
+<li>
+<p>lavt antal røde blodceller og hvide blodceller (som hjælper med at bekæmpe infektion) nogle 
+gange med feber </p>
+</li>
+<li>
+<p>muskelsmerter </p>
+</li>
+<li>
+<p>øjenbetændelse (udflåd med kløe i øjnene og skorper på øjenlågene) </p>
+</li>
+<li>
+<p>øjnene løber i vand </p>
+</li>
+<li>
+<p>næseblod </p>
+</li>
+<li>
+<p>løbende næse </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>rysten </p>
+</li>
+<li>
+<p>hedeture </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>sygdom i neglene </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>manglende appetit </p>
+</li>
+<li>
+<p>søvnløshed (insomni) </p>
+</li>
+<li>
+<p>ændret smagssans </p>
+</li>
+<li>
+<p>lavt antal blodplader </p>
+</li>
+<li>
+<p>blå mærker </p>
+</li>
+<li>
+<p>følelsesløshed eller stikken og prikken i fingre og tæer, som i nogle tilfælde kan brede sig til resten 
+af lemmerne. </p>
+</li>
+<li>
+<p>rødme, hævelse eller sår i munden og/eller svælget </p>
+</li>
+<li>
+<p>smerter, hævelse, rødme eller snurren i hænder og/eller fødder </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>allergiske reaktioner </p>
+</li>
+<li>
+<p>mund- og hudtørhed </p>
+</li>
+<li>
+<p>halsinfektioner </p>
+</li>
+<li>
+<p>tørre øjne </p>
+</li>
+<li>
+<p>infektion i blæren og huden </p>
+</li>
+<li>
+<p>sveden </p>
+</li>
+<li>
+<p>svagheds- og utilpashedsfølelse </p>
+</li>
+<li>
+<p>betændelse i brystet </p>
+</li>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>betændelse i leveren </p>
+</li>
+<li>
+<p>depression </p>
+</li>
+<li>
+<p>nyresygdomme </p>
+</li>
+<li>
+<p>øget muskeltonus eller muskelspænding (hypertoni) </p>
+</li>
+<li>
+<p>astma </p>
+</li>
+<li>
+<p>lungeinfektion </p>
+</li>
+<li>
+<p>smerter i armene og/eller benene </p>
+</li>
+<li>
+<p>lungesygdomme </p>
+</li>
+<li>
+<p>kløende udslæt </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>søvnighed (døsighed) </p>
+</li>
+<li>
+<p>nakkesmerter </p>
+</li>
+<li>
+<p>hæmorider (hævede blodkar rundt om endetarmen) </p>
+</li>
+<li>
+<p>knoglesmerter </p>
+</li>
+<li>
+<p>kløen </p>
+</li>
+<li>
+<p>akne </p>
+</li>
+<li>
+<p>kramper i benene </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>døvhed </p>
+</li>
+<li>
+<p>knudret udslæt </p>
+</li>
+<li>
+<p>hiven efter vejret </p>
+</li>
+<li>
+<p>betændelse eller arvæv i lungerne </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>
+<p>gulsot (gulfarvning af huden og det hvide i øjnene) </p>
+</li>
+<li>
+<p>anafylaktiske reaktioner (pludselig alvorlig allergisk reaktion med symptomer såsom udslæt, kløe i 
+huden, vejrtrkningsbesvær eller følelse af svimmelhed eller besvimelse) </p>
+</li>
+</ul>
+<p>Bivirkninger, hvor hyppigheden ikke er kendt (hyppigheden kan ikke vurderes ud fra tilgængelige 
+data): </p>
+<ul>
+<li>
+<p>unormal eller dårligere blodstørkning </p>
+</li>
+<li>
+<p>høje kaliumkoncentrationer </p>
+</li>
+<li>
+<p>hævelse eller blødning bagest i øjnene </p>
+</li>
+<li>
+<p>shock (et farligt blodtryksfald med symptomer såsom hurtig overfladisk vejrtrækning, kold og 
+klam hud, hurtig svag puls, svimmelhed, svaghed og besvimelse) </p>
+</li>
+<li>
+<p>unormal hjerterytme </p>
+</li>
+<li>
+<p>åndedrætsbesvær </p>
+</li>
+<li>
+<p>åndedrætssvigt </p>
+</li>
+<li>
+<p>akut væskeansamling i lungerne </p>
+</li>
+<li>
+<p>akut forsnævring af luftvejene </p>
+</li>
+<li>
+<p>abnormt lave iltkoncentrationer i blodet </p>
+</li>
+<li>
+<p>problemer med at trække vejret i liggende stilling </p>
+</li>
+<li>
+<p>leverskade </p>
+</li>
+<li>
+<p>hævelse af ansigtet, læberne og svælget </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+<li>
+<p>unormalt lidt fostervand omkring barnet i livmoderen </p>
+</li>
+<li>
+<p>utilstrækkelig udvikling af fostrets lunger i livmoderen </p>
+</li>
+<li>
+<p>unormal udvikling af fostrets nyrer i livmoderen </p>
+</li>
+</ul>
+<p>Nogle af de bivirkninger, som du oplever, kan skyldes din underliggende brystkræft. Hvis du får 
+Ogivri i kombination med kemoterapi, kan nogle af bivirkningerne skyldes kemoterapien.  </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller 
+dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med 
+at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ogivri"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ogivri"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på etiketten på hætteglasset 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C-8 °C). </p>
+<p>Infusionsopløsninger skal anvendes umiddelbart efter fortynding. Brug ikke Ogivri, hvis du bemærker 
+nogle partikler eller misfarvning inden brug. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ogivri indeholder:</p>
+<ul>
+<li>Aktivt stof: trastuzumab. Hvert hætteglas indeholder enten: * 150 mg trastuzumab, som skal opløses i 7,2 ml vand til injektionsvæsker, eller * 420 mg trastuzumab, som skal opløses i 20 ml vand til injektionsvæsker.  </li>
+<li>Den endelige opløsning indeholder ca. 21 mg/ml trastuzumab. </li>
+<li>Øvrige indholdsstoffer: L-histidinhydrochlorid, L-histidin, sorbitol (E420 [se afsnit 2 “Ogivri 
+indeholder sorbitol (E420) og natrium"]), Macrogol 3350, saltsyre og natriumhydroxid (til 
+justering af pH). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Ogivri er et pulver til koncentrat til intravenøs infusionsvæske, opløsning, som leveres i et hætteglas 
+med en gummiprop og indeholder enten 150 mg eller 420 mg trastuzumab. Pulveret består af små 
+hvide til svagt gule kugler. Hver pakning indeholder 1 hætteglas med pulver. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Biosimilar Collaborations Ireland Limited 
+Unit 35/36<br />
+Grange Parade, 
+Baldoyle Industrial Estate, 
+Dublin DUBLIN 
+Irland<br />
+D13 R20R </p>
+<p>Fremstiller 
+Biosimilar Collaborations Ireland Limited 
+Block B, The Crescent Building, Santry Demesne 
+Dublin </p>
+<p>D09 C6X8 
+Irland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Biocon Biologics Belgium BV 
+Tél/Tel: 0080008250 
+Lietuva 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250 
+България 
+Biosimilar Collaborations Ireland Limited 
+Тел: 0080008250 
+Luxembourg/Luxemburg 
+Biocon Biologics France S.A.S 
+Tél/Tel: 0080008250 
+Česká republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Magyarország 
+Biosimilar Collaborations Ireland Limited<br />
+Tel.: 0080008250 
+Danmark 
+Biocon Biologics Finland OY<br />
+Tlf: 0080008250Malta 
+Biosimilar Collaborations Ireland Limited<br />
+Tel.: 0080008250 
+Deutschland 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+Nederland 
+Biocon Biologics France S.A.S 
+Tel: 0080008250Eesti 
+Biosimilar Collaborations Ireland Limited 
+Tel: 0080008250Norge 
+Biocon Biologics Finland OY<br />
+Tlf: +47 800 62<br />
+Ελλάδα<br />
+Biocon Biologics Greece ΜΟΝΟΠΡΟΣΩΠΗ 
+Ι.Κ.Ε 
+Τηλ.: 0080008250 
+Österreich 
+Biocon Biologics Germany GmbH 
+Tel: 0080008250 
+España 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Polska 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 
+France 
+Biocon Biologics France S.A.S<br />
+Tel: 0080008250Portugal 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Hrvatska 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250 
+România 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 
+Ireland 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 1800 777<br />
+Slovenija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 </p>
+<p>Ísland 
+Biocon Biologics Finland OY<br />
+Sími: +345 8004 
+Slovenská republika 
+Biocon Biologics Germany GmbH<br />
+Tel: 0080008250Italia 
+Biocon Biologics Spain S.L. 
+Tel: 0080008250 
+Suomi/Finland 
+Biocon Biologics Finland OY<br />
+Puh/Tel: 99980008250 
+Κύπρος 
+Biosimilar Collaborations Ireland Limited<br />
+Τηλ: 0080008250 
+Sverige 
+Biocon Biologics Finland OY<br />
+Tel: 0080008250 
+Latvija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Nedenstående oplysninger er til læger og sundhedspersonale </p>
+<p>For at undgå fejlmedicinering er det vigtigt at kontrollere hætteglassets etiket for at sikre, at det 
+præparat, som klargøres og gives, er Ogivri (trastuzumab) og ikke et andet lægemiddel, der indeholder 
+trastuzumab (eksempelvis trastuzumabemtansin eller trastuzumab deruxtecan). </p>
+<p>Opbevar altid dette lægemiddel i den lukkede originalpakning i køleskab ved en temperatur på 2 °C-
+8 °C. Et hætteglas Ogivri rekonstitueret med vand til injektionsvæsker (følger ikke med) er stabilt i 
+10 dage efter rekonstitueringen ved 2 ºC-8 ºC, og det må ikke nedfryses. </p>
+<p>Ogivri skal behandles med forsigtighed under rekonstitution. Stærk skumdannelse under 
+rekonstitution eller omrysten af den rekonstituerede opløsning kan medføre problemer med hensyn 
+til den mængde Ogivri, der kan trækkes op af hætteglasset. </p>
+<p>Ogivri 150 mg pulver til koncentrat til infusionsvæske, opløsning<br />
+Der skal anvendes en passende aseptisk teknik. Hvert 150 mg hætteglas Ogivri rekonstitueres med 
+7,2 ml vand til injektionsvæsker (følger ikke med). Brug af andre rekonstitueringsopløsninger bør 
+undgås. Resultatet er 7,4 ml opløsning til enkeltdosisbrug, som indeholder ca. 21 mg/ml 
+trastuzumab. Et volumenoverskud på 4 % sikrer, at den angivne dosis på 150 mg kan trækkes op af 
+hvert hætteglas. </p>
+<p>Ogivri 420 mg pulver til koncentrat til infusionsvæske, opløsning<br />
+Hvert 420 mg hætteglas Ogivri rekonstitueres med 20 ml vand til injektionsvæsker (følger ikke 
+med). Brug af andre rekonstitutionsopløsninger bør undgås. Resultatet er 21 ml opløsning til 
+enkeltdosisbrug, som indeholder ca. 21 mg/ml trastuzumab. Et volumenoverskud på 4,8 % sikrer, 
+at den angivne dosis på 420 mg kan trækkes op af hvert hætteglas. </p>
+<p>Ogivri hætteglas </p>
+<p>Volumen vand til 
+injektionsvæsker </p>
+<p>Slutkoncentration 
+150 mg hætteglas 
++ 
+7,2 ml 
+= 
+21 mg/ml 
+420 mg hætteglas 
++ 
+20 ml 
+= 
+21 mg/ml </p>
+<p>Instruktioner for rekonstituering </p>
+<p>1) Anvend en steril sprøjte og injicer langsomt den passende mængde (som nævnt ovenfor) 
+vand til injektionsvæsker i hætteglasset, som indeholder det frysetørrede Ogivri, idet strålen 
+rettes mod det frysetørrede kompakte pulver. </p>
+<p>2) Vip hætteglasset forsigtigt for at understøtte rekonstitueringen. HÆTTEGLASSET MÅ IKKE 
+OMRYSTES! </p>
+<p>Let skumdannelse ved rekonstitueringen er ikke ualmindelig. Lad hætteglasset stå i ro i ca. 
+5 minutter. Det rekonstituerede Ogivri resulterer i en farveløs til svagt gul, klar opløsning, som 
+hovedsaglig skal være fri for synlige partikler. </p>
+<p>Beregn det nødvendige volumen af opløsningen: </p>
+<ul>
+<li>baseret på en støddosis på 4 mg trastuzumab/kg legemsvægt eller en efterfølgende 
+ugentlig dosis på 2 mg trastuzumab/kg legemsvægt: </li>
+</ul>
+<p>Volumen (ml) = Legemsvægt (kg) x dosis (4 mg/kg som støddosis eller 2 mg/kg til vedligeholdelse) 
+21 (mg/ml, koncentration af rekonstitueret 
+opløsning) </p>
+<ul>
+<li>baseret på en støddosis på 8 mg trastuzumab/kg legemsvægt eller en efterfølgende dosis 
+hver 3. uge på 6 mg trastuzumab/kg legemsvægt: </li>
+</ul>
+<p>Volumen (ml) = Legemsvægt (kg) x dosis (8 mg/kg som støddosis eller 6 mg/kg til vedligeholdelse) 
+21 (mg/ml, koncentration af rekonstitueret 
+opløsning) </p>
+<p>Træk den beregnede volumenmængde af opløsningen ud af hætteglasset ved hjælp af en steril 
+kanyle og sprøjte og tilsæt den til en polyvinylchlorid-, polyethylen- eller polypropylen-
+infusionspose indeholdende 250 ml natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning. 
+Der må ikke anvendes glucoseopløsninger. Vend forsigtigt posen op og ned for at blande 
+opløsningen og for at undgå skumdannelse. Parenterale opløsninger bør inspiceres visuelt for 
+partikler og misfarvning før administrationen. Når infusionsvæsken er klargjort, skal den indgives 
+med det samme. Hvis infusionsvæsken er fortyndet under aseptiske betingelser, kan den opbevares 
+i op til 90 dage ved 2 °C-8 °C og i 24 timer ved temperaturer, som ikke overstiger 30 °C.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3063ae54c8b95c21a8b236c970f9eb21
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ogivri Package Leaflet for language en"
+Description: "ePI document Bundle for ogivri Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3063ae54c8b95c21a8b236c970f9eb21"
+* entry[0].resource = composition-en-3063ae54c8b95c21a8b236c970f9eb21
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3063ae54c8b95c21a8b236c970f9eb21"
+* entry[=].resource = mp3063ae54c8b95c21a8b236c970f9eb21
+                            
+                    
+Instance: bundlepackageleaflet-da-3063ae54c8b95c21a8b236c970f9eb21
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ogivri Package Leaflet for language da"
+Description: "ePI document Bundle for ogivri Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3063ae54c8b95c21a8b236c970f9eb21"
+* entry[0].resource = composition-da-3063ae54c8b95c21a8b236c970f9eb21
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3063ae54c8b95c21a8b236c970f9eb21"
+* entry[=].resource = mp3063ae54c8b95c21a8b236c970f9eb21
+                            
+                    
+
+
+
+Instance: mp3063ae54c8b95c21a8b236c970f9eb21
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ogivri 150 mg powder for concentrate for solution for infusion"
-Description: "Ogivri 150 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product ogivri"
+Description: "ogivri"
 Usage: #inline
 
  
@@ -525,7 +1329,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ogivri 150 mg powder for concentrate for solution for infusion"
+  * productName = "ogivri"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -552,29 +1356,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3063ae54c8b95c21a8b236c970f9eb21
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ogivri Package Leaflet for language en"
-Description: "ePI document Bundle for ogivri Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3063ae54c8b95c21a8b236c970f9eb21ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1341/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ogivri"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3063ae54c8b95c21a8b236c970f9eb21"
-* entry[0].resource = composition-en-3063ae54c8b95c21a8b236c970f9eb21
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpaae8d931abe2f2d9085b87555b9bb088"
-* entry[=].resource = mpaae8d931abe2f2d9085b87555b9bb088
-                            
-                      
+* title = "List of all ePIs associated with ogivri"
+
+* subject = Reference(mpaae8d931abe2f2d9085b87555b9bb088)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ogivri "ogivri"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3063ae54c8b95c21a8b236c970f9eb21) // ogivri en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3063ae54c8b95c21a8b236c970f9eb21) // ogivri da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3063ae54c8b95c21a8b236c970f9eb21
+InstanceOf: List
+
+* insert 3063ae54c8b95c21a8b236c970f9eb21ListRuleset
+    

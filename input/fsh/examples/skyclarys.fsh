@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3c1db916d2062445ec61cc58880ca8a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for skyclarys Package Leaflet"
@@ -359,12 +362,455 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-3c1db916d2062445ec61cc58880ca8a2
+InstanceOf: CompositionUvEpi
+Title: "Composition for skyclarys Package Leaflet"
+Description:  "Composition for skyclarys Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5f1b6a08602b0e042c9881eca3fea4f5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5f1b6a08602b0e042c9881eca3fea4f5
+* title = "TEST PURPOSES ONLY - skyclarys"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Skyclarys </li>
+<li>Sådan skal du tage Skyclarys </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What skyclarys is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What skyclarys is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Skyclarys indeholder det aktive stof omaveloxolon, som aktiverer et bestemt protein, Nrf2, i kroppen. </p>
+<p>Anvendelse 
+Skyclarys bruges til at behandle voksne og unge på mindst 16 år, som har Friedreichs ataksi, som er en 
+neurodegenerativ lidelse i bevægeapparatet. Friedreichs ataksi er en sjælden nedarvet sygdom, som 
+forårsager fremadskridende skade på nervesystemet og problemer med bevægeapparatet. </p>
+<p>Sådan virker Skyclarys 
+Proteinet, der kaldes Nrf2, i din krop har en nøglerolle i håndteringen af oxidativ stress (en tilstand, 
+der kan beskadige kroppens celler) og spiller en beskyttende rolle mod neurodegenerative sygdomme. 
+Hos patienter med Friedreichs ataksi er aktiviteten af Nrf2 nedsat. Skyclarys aktiverer Nrf2, så det kan 
+håndtere oxidativ stress. </p>
+<p>I kliniske studier scorede patienter, der blev behandlet med Skyclarys, bedre i tests af neurologisk 
+funktion end patienter, der blev behandlet med et inaktivt stof. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take skyclarys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take skyclarys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Skyclarys, hvis du er allergisk over for omaveloxolon eller et af de øvrige indholdsstoffer i 
+Skyclarys (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du tager Skyclarys:</p>
+<ul>
+<li>Hvis du har problemer med leveren, vil din læge måske vælge at ændre dosen eller undlade at 
+påbegynde behandlingen med Skyclarys. </li>
+<li>Fortæl din læge om alle de lægemidler, du tager, før du begynder at tage Skyclarys. </li>
+</ul>
+<p>Din læge vil undersøge, hvor godt din lever fungerer, og måle dit kolesterolniveau, før du begynder at 
+tage Skyclarys. Din læge vil også måle dit niveau af BNP (B-type natriuretisk peptid, en blodprøve for 
+hjerteproblemer), før du begynder at tage Skyclarys. </p>
+<p>Tal med lægen, mens du tager Skyclarys 
+Kontakt straks din læge, hvis du pludselig får vægtstigning, hævede ben, ankler eller fødder eller 
+åndenød, hvilket kan være tegn eller symptomer på hjerteproblemer, mens du tager Skyclarys. Din 
+læge vil tage stilling til behandlingen, og om du skal fortsætte med Skyclarys. </p>
+<p>Din læge vil kontrollere blodprøver, mens du tager Skyclarys. Dette vil omfatte leverblodprøver til 
+måling af, hvordan din lever fungerer, mens du tager Skyclarys. Din læge vil afgøre, om du skal holde 
+op med at tage Skyclarys, hvis du får leverproblemer. Din læge vil også tage blodprøver til kontrol af 
+kolesterol og BNP, efter at du er begyndt at tage Skyclarys. </p>
+<p>Fortæl det til din læge, hvis du taber dig, mens du tager Skyclarys. </p>
+<p>Børn og unge 
+Skyclarys må ikke gives til børn og unge under 16 år, fordi det endnu ikke er blevet undersøgt hos 
+denne gruppe patienter. </p>
+<p>Brug af andre lægemidler sammen med Skyclarys 
+Fortæl det altid til lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. Det skal du gøre, fordi nogle lægemidler kan påvirke måden, 
+Skyclarys virker på. Skyclarys kan også påvirke måden, andre lægemidler virker på. </p>
+<p>Nogle lægemidler kan øge risikoen for at få bivirkninger af Skyclarys ved at øge mængden af 
+Skyclarys i blodet. Nogle af disse lægemidler omfatter:</p>
+<ul>
+<li>itraconazol, fluconazol eller ketoconazol (lægemidler mod svamp, der bruges til at behandle 
+en række svampeinfektioner) </li>
+<li>ciclosporin (et lægemiddel, der bruges efter organtransplantation) </li>
+<li>ciprofloxacin eller clarithromycin (antibiotika, der bruges mod bakterieinfektioner) </li>
+<li>fluvoxamin (et lægemiddel mod depression, som kaldes en selektiv 
+serotoningenoptagelseshæmmer [SSRI]) 
+Hvis din læge ordinerer et af disse lægemidler, bliver din Skyclarys-dosis måske sat ned for at 
+forebygge bivirkninger, når begge lægemidler tages samtidigt. </li>
+</ul>
+<p>Nogle lægemidler kan nedsætte virkningen af Skyclarys ved at mindske mængden af Skyclarys i 
+blodet. Nogle af disse lægemidler omfatter:</p>
+<ul>
+<li>Prikbladet perikon (et naturlægemiddel, der bruges mod lette depressioner) </li>
+<li>rifampicin (bruges til behandling af tuberkulose) </li>
+<li>carbamazepin, phenobarbital, phenytoin, primidon (bruges til behandling af epilepsi) </li>
+<li>efavirenz (lægemiddel mod hiv) </li>
+</ul>
+<p>Skyclarys kan nedsætte virkningen af visse andre lægemidler ved at mindske mængden af disse 
+lægemidler i blodet. Nogle af disse lægemidler omfatter:</p>
+<ul>
+<li>midazolam (bruges som beroligende middel og til at behandle stærk uro) </li>
+<li>repaglinid (et lægemiddel til at kontrollere type II-diabetes) </li>
+<li>rosuvastatin (et statin-lægemiddel, der bruges til at reducere skadeligt fedt i blodet) </li>
+<li>hormonel prævention (en præventionstype, der bruger hormoner til at forebygge graviditet, 
+såsom p-piller, p-plaster eller p-ring) </li>
+</ul>
+<p>Tal med din læge, hvis du tager nogen form for lægemidler, især dem, der er nævnt ovenfor, da de 
+kan påvirke måden Skyclarys eller andre lægemidler virker på. </p>
+<p>Brug af Skyclarys sammen med mad og drikke 
+Undgå at spise grapefrugt eller drikke grapefrugtjuice, mens du tager Skyclarys. </p>
+<p>Graviditet 
+Du må ikke tage Skyclarys, hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at 
+blive gravid. Fortæl det straks til lægen, hvis du bliver gravid, mens du bliver behandlet med 
+Skyclarys. </p>
+<p>Prævention 
+Brug af Skyclarys kan nedsætte virkningen af hormonel prævention. Du skal bruge en anden 
+præventionsmetode, såsom spiral uden hormon, eller barriereprævention, såsom kondomer. Der skal 
+bruges en sikker præventionsmetode under behandlingen med Skyclarys og i 28 dage efter, at 
+behandlingen med Skyclarys er stoppet. Tal med din læge om, hvilken prævention der er den bedste 
+for dig. </p>
+<p>Amning 
+Du må ikke amme dit barn, mens du bliver behandlet med Skyclarys. Det vides ikke, om dette 
+lægemiddel passerer over i brystmælken. </p>
+<p>Trafik- og arbejdssikkerhed 
+Nogle patienter kan føle sig trætte efter at have taget dette lægemiddel. Hvis du føler dig træt efter at 
+have taget Skyclarys, skal du undgå at føre motorkøretøj eller betjene maskiner. </p>
+<p>Skyclarys indeholder en ubetydelig mængde natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take skyclarys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take skyclarys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
+<p>Den anbefalede dosis er 150 mg (3 kapsler) én gang dagligt. </p>
+<p>Sådan skal du tage Skyclarys 
+- Tag kapslerne på tom mave mindst 1 time før eller 2 timer efter indtagelse af mad. 
+- Tag kapslerne på omtrent samme tidspunkt i løbet af dagen. 
+- Slug kapslerne hele med et glas vand. 
+- Hvis du ikke er i stand til at sluge kapslerne hele, kan du åbne dem og drysse hele indholdet på 
+2 spiseskefulde æblemos. Du skal spise hele blandingen af æblemos og lægemiddel, så snart 
+du har lavet den. Blandingen af æblemos og lægemiddel må ikke gemmes til senere brug. 
+Hvis du har problemer med leveren, vil din læge måske vælge at ændre dosen eller undlade at 
+påbegynde behandling med Skyclarys. </p>
+<p>Nogle lægemidler kan give bivirkninger, når de tages samtidig med Skyclarys. Hvis din læge ordinerer 
+et af disse lægemidler, mens du tager Skyclarys, vil lægen måske sætte din Skyclarys-dosis ned for at 
+forebygge bivirkninger, når begge lægemidler tages samtidigt. </p>
+<p>Hvis du kaster op efter at have taget din sædvanlige dosis, må du ikke tage flere kapsler som 
+erstatning. Tag kapslerne som sædvanligt dagen efter. </p>
+<p>Hvis du har taget for meget Skyclarys 
+Hvis du har taget mere Skyclarys, end din læge har ordineret, skal du straks kontakte lægen. Tag 
+denne indlægsseddel med til lægen. </p>
+<p>Hvis du har glemt at tage Skyclarys 
+Hvis du glemmer at tage en dosis Skyclarys, skal du tage den næste dosis som sædvanligt dagen efter. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Skyclarys 
+Du må ikke holde op med at tage dette lægemiddel, medmindre lægen siger, at du skal. 
+Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Nogle af bivirkningerne ved Skyclarys kan være eller kan blive alvorlige </p>
+<p>Fortæl det straks til lægen, hvis du får en eller flere af disse bivirkninger: 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) 
+- fordøjelsesproblemer. Du kan få følgende symptomer 
+− kvalme 
+− diarré 
+− opkastning 
+− mavesmerter 
+− vægttab 
+Tal med lægen, hvis du får en eller flere af disse bivirkninger. </p>
+<p>Ud fra dine blodprøver vil din læge måske fortælle dig, at du har:</p>
+<ul>
+<li>forhøjede leverenzymer i blodet (meget almindelig, kan forekomme hos flere end 1 ud af 
+10 personer) </li>
+<li>forhøjet BNP (en markør for hjerteproblemer) (almindelig, kan forekomme hos op til 1 ud af 
+10 personer) </li>
+<li>ændringer af kolesterol og triglycerider i dit blod (almindelig, kan forekomme hos op til 1 ud 
+af 10 personer) 
+Din læge vil tage stilling til behandlingen, og om du skal fortsætte med at tage Skyclarys. </li>
+</ul>
+<p>Andre mulige bivirkninger ved Skyclarys 
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) 
+- hovedpine 
+- træthed 
+- ondt i halsen 
+- rygsmerter 
+- muskelspasmer 
+- influenza 
+- nedsat appetit </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) 
+- urinvejsinfektion 
+- menstruationssmerter hos kvinder </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store skyclarys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store skyclarys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter "EXP". Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Hvis kapslen åbnes og blandes med æblemos, skal du spise hele blandingen af æblemos/lægemiddel, 
+så snart du har lavet den. Se punkt 3, Sådan skal du tage Skyclarys. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at emballagen er beskadiget eller viser tegn på forsøg på 
+åbning. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Skyclarys indeholder 
+- Aktivt stof: omaveloxolon. 
+- Hver hård kapsel indeholder 50 mg omaveloxolon. 
+- Øvrige indholdsstoffer: 
+Kapselfyld: pregelatineret majsstivelse, mikrokrystallinsk cellulose, croscarmellosenatrium, 
+magnesiumstearat, silica, kolloid vandfri 
+Kapselskal: hypromellose, titandioxid (E171), Brilliant Blue FCF (E133), jernoxid gul (E172) 
+Trykfarve: shellac (E904), titandioxid (E171) </p>
+<p>Udseende og pakningsstørrelser 
+Skyclarys 50 mg hårde kapsler består af et ugennemsigtigt grønt legeme med "RTA 408" påtrykt med 
+hvid farve og en blå hætte med "50" påtrykt med hvid farve. </p>
+<p>Skyclarys 50 mg fås i en pakning, der indeholder 90 hårde kapsler, og i en pakning med 3 beholdere, 
+der hver indeholder 90 hårde kapsler. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Reata Ireland Limited 
+Block A, George’s Quay Plaza 
+George’s Quay 
+Dublin 2 
+D02 E440<br />
+Irland </p>
+<p>Fremstiller(e) 
+Reata Ireland Limited,<br />
+77 Sir John Rogersons Quay Block C, Spaces South Docklands 
+Dublin 2 
+D02 VKIrland </p>
+<p>Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Biogen Belgium N.V./S.A. 
+Tél/Tel: +32 2 219 12<br />
+Lietuva 
+Biogen Lithuania UAB 
+Tel: +370 5 259 6България 
+ТП ЕВОФАРМА 
+Teл.: +359 2 962 12<br />
+Luxembourg/Luxemburg 
+Biogen Belgium N.V./S.A. 
+Tél/Tel: +32 2 219 12<br />
+Česká republika 
+Biogen (Czech Republic) s.r.o. 
+Tel: +420 255 706<br />
+Magyarország 
+Biogen Hungary Kft. 
+Tel.: +36 (1) 899 9Danmark 
+Biogen (Denmark) A/S 
+Tlf: +45 77 41 57<br />
+Malta 
+Pharma MT limited 
+Tel: +356 213 37008/9 </p>
+<p>Deutschland 
+Biogen GmbH 
+Tel: +49 (0) 89 99 6 
+Nederland 
+Biogen Netherlands B.V. 
+Tel: +31 20 542 2Eesti 
+Biogen Estonia OÜ 
+Tel: + 372 618 9 
+Norge 
+Biogen Norway AS 
+Tlf: +47 23 40 01 Ελλάδα 
+Genesis Pharma SA 
+Τηλ: +30 210 8771 
+Österreich 
+Biogen Austria GmbH 
+Tel: +43 1 484 46<br />
+España 
+Biogen Spain SL 
+Tel: +34 91 310 7 
+Polska 
+Biogen Poland Sp. z o.o. 
+Tel.: +48 22 351 51<br />
+France 
+Biogen France SAS 
+Tél: +33 (0)1 41 37 95 Portugal 
+Biogen Portugal 
+Tel.: +351 21 318 8 
+Hrvatska 
+Biogen Pharma d.o.o. 
+Tel: +385 (0) 1 775 73<br />
+România 
+Ewopharma AG Representative Office 
+Tel: + 40 377 881 Ireland 
+Biogen Idec (Ireland) Ltd. 
+Tel: +353 (0)1 463 7 
+Slovenija 
+Biogen Pharma d.o.o. 
+Tel.: +386 1 511 02<br />
+Ísland 
+Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika 
+Biogen Slovakia s.r.o. 
+Tel.: +421 2 323 340 Italia 
+Biogen Italia s.r.l. 
+Tel: +39 02 584 9 
+Suomi/Finland 
+Biogen Finland Oy 
+Puh/Tel: +358 207 401<br />
+Κύπρος 
+Genesis Pharma Cyprus Ltd 
+Τηλ: +357 22765 
+Sverige 
+Biogen Sweden AB 
+Tel: +46 8 594 113<br />
+Latvija 
+Biogen Latvia SIA 
+Tel: + 371 68 688<br />
+United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Limited 
+Tel: +44 (0) 1628 50 1 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3c1db916d2062445ec61cc58880ca8a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for skyclarys Package Leaflet for language en"
+Description: "ePI document Bundle for skyclarys Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3c1db916d2062445ec61cc58880ca8a2"
+* entry[0].resource = composition-en-3c1db916d2062445ec61cc58880ca8a2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3c1db916d2062445ec61cc58880ca8a2"
+* entry[=].resource = mp3c1db916d2062445ec61cc58880ca8a2
+                            
+                    
+Instance: bundlepackageleaflet-da-3c1db916d2062445ec61cc58880ca8a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for skyclarys Package Leaflet for language da"
+Description: "ePI document Bundle for skyclarys Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3c1db916d2062445ec61cc58880ca8a2"
+* entry[0].resource = composition-da-3c1db916d2062445ec61cc58880ca8a2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3c1db916d2062445ec61cc58880ca8a2"
+* entry[=].resource = mp3c1db916d2062445ec61cc58880ca8a2
+                            
+                    
+
+
+
+Instance: mp3c1db916d2062445ec61cc58880ca8a2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Skyclarys 50 mg hard capsules"
-Description: "Skyclarys 50 mg hard capsules"
+Title: "Medicinal Product skyclarys"
+Description: "skyclarys"
 Usage: #inline
 
  
@@ -384,7 +830,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Skyclarys 50 mg hard capsules"
+  * productName = "skyclarys"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -411,29 +857,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3c1db916d2062445ec61cc58880ca8a2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for skyclarys Package Leaflet for language en"
-Description: "ePI document Bundle for skyclarys Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3c1db916d2062445ec61cc58880ca8a2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1786/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "skyclarys"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3c1db916d2062445ec61cc58880ca8a2"
-* entry[0].resource = composition-en-3c1db916d2062445ec61cc58880ca8a2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5f1b6a08602b0e042c9881eca3fea4f5"
-* entry[=].resource = mp5f1b6a08602b0e042c9881eca3fea4f5
-                            
-                      
+* title = "List of all ePIs associated with skyclarys"
+
+* subject = Reference(mp5f1b6a08602b0e042c9881eca3fea4f5)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#skyclarys "skyclarys"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3c1db916d2062445ec61cc58880ca8a2) // skyclarys en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3c1db916d2062445ec61cc58880ca8a2) // skyclarys da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3c1db916d2062445ec61cc58880ca8a2
+InstanceOf: List
+
+* insert 3c1db916d2062445ec61cc58880ca8a2ListRuleset
+    

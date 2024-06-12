@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-49f2652f369e152b2094223d335e67b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for xofluza Package Leaflet"
@@ -291,12 +294,428 @@ Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-49f2652f369e152b2094223d335e67b9
+InstanceOf: CompositionUvEpi
+Title: "Composition for xofluza Package Leaflet"
+Description:  "Composition for xofluza Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4ab7fafe565da99ce128d0509cf85e39)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4ab7fafe565da99ce128d0509cf85e39
+* title = "TEST PURPOSES ONLY - xofluza"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Xofluza </li>
+<li>Sådan skal du tage Xofluza </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xofluza is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xofluza is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning </p>
+<p>Xofluza indeholder baloxavirmarboxil. Stoffet tilhører en gruppe af antivirale lægemidler, der kaldes 
+cap-afhængige endonuclease-hæmmere.  </p>
+<p>Xofluza bruges til at behandle og forebygge influenza. Lægemidlet forhindrer influenza-virusset i at 
+sprede sig i kroppen og hjælper dig med at komme dig hurtigere.  </p>
+<p>Anvendelse </p>
+<ul>
+<li>
+<p>Xofluza bruges til at behandle influenza hos patienter på 1 år og derover, som har haft 
+influenzasymptomer i mindre end 48 timer,  </p>
+</li>
+<li>
+<p>Xofluza bruges til at forebygge influenza hos personer på 1 år og derover, som har været i tæt 
+kontakt med én, der har eller formodes at have influenza. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xofluza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xofluza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Xofluza </p>
+<ul>
+<li>hvis du er allergisk over for baloxavirmarboxil eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Xofluza. </p>
+<p>Spædbørn og børn  </p>
+<p>Dette lægemiddel må ikke gives til børn, der er under 1 år. Det skyldes, at Xofluzas virkning hos 
+denne aldersgruppe ikke er kendte.  </p>
+<p>Brug af anden medicin sammen med Xofluza </p>
+<p>Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Tag ikke Xofluza samtidig med:  </p>
+<ul>
+<li>afføringsmidler, syreneutraliserende midler (antacida) eller orale kosttilskud, der indeholder 
+jern, zink, selen, calcium eller magnesium </li>
+</ul>
+<p>Disse midler kan nedsætte virkningen af Xofluza.  </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, bør 
+du for en sikkerheds skyld undgå at bruge Xofluza. Spørge din læge eller apotekspersonalet til råds, 
+før du tager dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Det er ikke sandsynligt, at Xofluza vil påvirke din evne til at føre motorkøretøj eller anvende 
+maskiner. </p>
+<p>Xofluza indeholder laktose </p>
+<p>Xofluza indeholder lactose (en slags sukker). Kontakt lægen, før du tager dette lægemiddel, hvis 
+lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>Xofluza indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 23 mg natrium per tablet, dvs. det er i det væsentlige 
+natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xofluza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xofluza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Hvornår skal du tage Xofluza </p>
+<p>Hvis du har influenza, skal du tage Xofluza som én enkeltdosis så hurtigt som muligt inden for timer efter influenzasymptomerne er begyndt. </p>
+<p>Hvis du skal forebygge influenza, skal du tage Xofluza som én enkeltdosis, så hurtigt som muligt 
+inden for 48 timer efter du har været sammen med en influenzasmittet person. </p>
+<p>Så meget Xofluza, skal du tage </p>
+<p>Dosis af Xofluza afhænger af, hvor meget du vejer. Lægen eller apotekspersonalet vil fortælle dig, 
+hvor meget du skal tage. </p>
+<p>Din vægt </p>
+<p>Xofluza-dosis 
+&lt; 20 kg 
+Se indlægssedlen for Xofluza-granulat til oral suspension </p>
+<p>≥ 20 kg til &lt; 80 kg </p>
+<p>Enkeltdosis på 40 mg, der tages som 
+- 2 x 20 mg tabletter </p>
+<p>80 kg eller derover </p>
+<p>Enkeltdosis på 80 mg, der tages som <br />
+- 2 x 40 mg tabletter </p>
+<p>Xofluza kan tages med eller uden mad. Tag alle tabletterne med vand. </p>
+<p>Hvis du har taget for meget Xofluza </p>
+<p>Hvis du ved en fejl kommer til at tage for meget Xofluza, skal du kontakte lægen eller 
+apotekspersonalet for at få vejledning. </p>
+<p>Hvis du har glemt at tage Xofluza </p>
+<p>Hvis du har glemt at tage noget af dosis eller hele dosis, skal du tage den så hurtigt som muligt.  </p>
+<p>Ved behandling af influenza, skal Xofluza tages inden for 48 timer efter influenzasymptomerne er 
+startet. </p>
+<p>Ved forebyggelse af influenza, skal Xofluza tages inden for 48 timer efter tæt kontakt med én person, 
+der vides eller mistænkes for at have influenza. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Voksne, unge og børn 
+Søg straks lægehjælp, hvis du oplever én eller flere af følgende alvorlige bivirkninger: </p>
+<ul>
+<li>Svær allergisk reaktion (anafylaksi) med fx hævelser i ansigtet eller huden, kløende udslæt, lavt 
+blodtryk og vejrtrækningsbesvær. </li>
+</ul>
+<p>Hyppigheden af disse bivirkninger kan ikke fastslås på baggrund af de tilgængelige data.  </p>
+<p>Andre mulige bivirkninger: 
+Følgende bivirkning er ikke almindelig (kan forekomme hos op til 1 ud af 100 patienter):  </p>
+<ul>
+<li>Kløende udslæt </li>
+</ul>
+<p>Børn (1 til &lt; 12 år) 
+Følgende bivirkning er almindelig (kan forekomme hos op til 1 ud af 10 patienter): </p>
+<ul>
+<li>Diarré, udslæt og opkast </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte til 
+Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xofluza"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xofluza"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på blisterkortet og æsken efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xofluza indeholder: </p>
+<ul>
+<li>
+<p>Det aktive stof er baloxavirmarboxil.  </p>
+</li>
+<li>
+<p>Hver 20 mg filmovertrukket tablet indeholder 20 mg baloxavirmarboxil. Hver 40 mg 
+filmovertrukket tablet indeholder 40 mg baloxavirmarboxil. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: laktose-monohydrat (se punkt 2 ’Xofluza indeholder laktose’), 
+croscarmellosenatrium ((E468) (se punkt 2 ’Xofluza indeholder natrium’)), povidon (K25) 
+(E1201), mikrokrystallinsk cellulose (E460), natriumstearylfumarat i tabletkernen og 
+hypromellose (E464), talcum (E553b) og titandioxid (E171) i filmovertrækket. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Xofluza 20 mg tabletter er hvide til lysegule, aflange, filmovertrukne tabletter med “
+ 772" trykt på 
+den ene side og “20" på den anden side. </p>
+<p>Xofluza 20 mg filmovertrukne tabletter fås i blisterpakninger med 2 stk.  </p>
+<p>Xofluza 40 mg tabletter er hvide til lysegule, aflange, filmovertrukne tabletter med “BXM40" trykt på 
+den ene side.  </p>
+<p>Xofluza 40 mg filmovertrukne tabletter fås i blisterpakninger med 2 stk. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Roche Registration GmbH 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Tyskland </p>
+<p>Fremstiller </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+N.V. Roche S.A. 
+Tél/Tel: +32 (0) 2 525 82<br />
+Lietuva 
+UAB “Roche Lietuva" 
+Tel: +370 5 2546 
+България 
+Рош България ЕООД 
+Тел: +359 2 818 44<br />
+Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>Česká republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarország 
+Roche (Magyarország) Kft. 
+Tel: +36 - 1 279 4Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99<br />
+Malta 
+(Se Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624<br />
+Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438 
+Eesti 
+Roche Eesti OÜ 
+Tel: + 372 - 6 177<br />
+Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90  </p>
+<p>Ελλάδα 
+Roche (Hellas) A.E.<br />
+Τηλ: +30 210 61 66<br />
+Österreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27 
+España 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 00  </p>
+<p>Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 88. France 
+Roche 
+Tél: +33  (0)1 47 61 40<br />
+Portugal 
+Roche Farmacêutica Química, Lda 
+Tel: +351 - 21 425 70<br />
+Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22<br />
+România 
+Roche România S.R.L. 
+Tel: +40 21 206 47<br />
+Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0 
+Slovenija 
+Roche farmacevtska družba d.o.o. 
+Tel: +386 - 1 360 26<br />
+Ísland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+Sími: +354 540 8 
+Slovenská republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638 
+Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554  </p>
+<p>Kύπρος<br />
+Γ.Α.Σταμάτης &amp; Σια Λτδ. 
+Τηλ: +357 - 22 76 62<br />
+Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1 
+Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039 
+United Kingdom (Northern Ireland) 
+Roche Products  (Ireland) Ltd. 
+Tel: +44 (0) 1707 366 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Indlægsseddel Information til patienten </p>
+<p>Xofluza 40 mg filmovertrukne tabletter 
+ Xofluza 80 mg filmovertrukne tabletter 
+baloxavirmarboxil </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får.  Se sidst i 
+punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen.  </p>
+</li>
+<li>
+<p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </p>
+</li>
+<li>
+<p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt i denne indlægsseddel. Se afsnit 4. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-49f2652f369e152b2094223d335e67b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xofluza Package Leaflet for language en"
+Description: "ePI document Bundle for xofluza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-49f2652f369e152b2094223d335e67b9"
+* entry[0].resource = composition-en-49f2652f369e152b2094223d335e67b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp49f2652f369e152b2094223d335e67b9"
+* entry[=].resource = mp49f2652f369e152b2094223d335e67b9
+                            
+                    
+Instance: bundlepackageleaflet-da-49f2652f369e152b2094223d335e67b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xofluza Package Leaflet for language da"
+Description: "ePI document Bundle for xofluza Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-49f2652f369e152b2094223d335e67b9"
+* entry[0].resource = composition-da-49f2652f369e152b2094223d335e67b9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp49f2652f369e152b2094223d335e67b9"
+* entry[=].resource = mp49f2652f369e152b2094223d335e67b9
+                            
+                    
+
+
+
+Instance: mp49f2652f369e152b2094223d335e67b9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Xofluza 20 mg film-coated tablets"
-Description: "Xofluza 20 mg film-coated tablets"
+Title: "Medicinal Product xofluza"
+Description: "xofluza"
 Usage: #inline
 
  
@@ -316,7 +735,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Xofluza 20 mg film-coated tablets"
+  * productName = "xofluza"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -343,29 +762,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-49f2652f369e152b2094223d335e67b9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xofluza Package Leaflet for language en"
-Description: "ePI document Bundle for xofluza Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 49f2652f369e152b2094223d335e67b9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1500/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xofluza"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-49f2652f369e152b2094223d335e67b9"
-* entry[0].resource = composition-en-49f2652f369e152b2094223d335e67b9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4ab7fafe565da99ce128d0509cf85e39"
-* entry[=].resource = mp4ab7fafe565da99ce128d0509cf85e39
-                            
-                      
+* title = "List of all ePIs associated with xofluza"
+
+* subject = Reference(mp4ab7fafe565da99ce128d0509cf85e39)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xofluza "xofluza"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-49f2652f369e152b2094223d335e67b9) // xofluza en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-49f2652f369e152b2094223d335e67b9) // xofluza da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-49f2652f369e152b2094223d335e67b9
+InstanceOf: List
+
+* insert 49f2652f369e152b2094223d335e67b9ListRuleset
+    

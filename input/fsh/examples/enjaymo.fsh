@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-c419fe066011304c4fef1d514818ee22
 InstanceOf: CompositionUvEpi
 Title: "Composition for enjaymo Package Leaflet"
@@ -327,12 +330,577 @@ Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-c419fe066011304c4fef1d514818ee22
+InstanceOf: CompositionUvEpi
+Title: "Composition for enjaymo Package Leaflet"
+Description:  "Composition for enjaymo Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1f3d2079284012706f23bdfbaa6caa5e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1f3d2079284012706f23bdfbaa6caa5e
+* title = "TEST PURPOSES ONLY - enjaymo"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at få Enjaymo </li>
+<li>Sådan vil du få Enjaymo </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What enjaymo is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What enjaymo is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Enjaymo indeholder det aktive stof sutimlimab og tilhører en klasse af lægemidler, der kaldes 
+monoklonale antistoffer.  </p>
+<p>Kuldeagglutininsyndrom (CAD, Cold Agglutinin Disease) er en sjælden blodsygdom, som medfører at 
+visse antistoffer i immunsystemet binder sig til de røde blodlegemer. Dette forårsager en nedbrydning 
+af røde blodlegemer (hæmolytisk anæmi) ved aktivering af den klassiske komplementaktiveringsvej 
+(en del af immunforsvarssystemet). Enjaymo blokerer aktiveringen af denne del af immunforsvaret. </p>
+<p>Enjaymo anvendes til behandling af hæmolytisk anæmi hos voksne, som har kuldeagglutininsyndrom. 
+Det reducerer blodmangel (anæmi) og mindsker træthed. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take enjaymo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take enjaymo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Enjaymo 
+- hvis du er allergisk over for sutimlimab eller et af de øvrige indholdsstoffer i Enjaymo (angivet i 
+punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Tal med lægen, før du får Enjaymo. </p>
+<p>Infektioner </p>
+<p>Fortæl det til lægen, hvis du har en infektion, herunder en vedvarende infektion såsom hiv, 
+hepatitis B eller hepatitis C, eller hvis du har en nedsat evne til at bekæmpe infektioner. </p>
+<p>Vaccinationer </p>
+<p>Kontakt din læge for at få bekræftet, at du er tilstrækkeligt vaccineret, og også har fået 
+meningokok- og streptokokvacciner. </p>
+<p>Det anbefales, at du er vaccineret mindst 2 uger før, du påbegynder behandlingen med Enjaymo. Vær 
+også opmærksom på, at vaccination ikke altid forhindrer, at du får disse typer infektioner. Kontakt 
+straks lægen, hvis der opstår tegn på infektion. Se punkt 4 "Bivirkninger". </p>
+<p>Overfølsomhedsreaktioner </p>
+<p>Søg straks lægehjælp, hvis du oplever tegn og symptomer på en overfølsomhedsreaktion under eller 
+efter, du har fået dette lægemiddel. Symptomerne kan ses i punkt 4 "Bivirkninger". </p>
+<p>Infusionsrelaterede reaktioner </p>
+<p>Du kan få infusionsrelaterede reaktioner under infusionen eller umiddelbart efter infusionen. 
+Fortæl det straks til din sundhedsperson, hvis du får symptomer forbundet med Enjaymo-infusionen. 
+Symptomerne kan ses i punkt 4 "Bivirkninger". </p>
+<p>Systemisk lupus erythematosus (SLE) </p>
+<p>Fortæl det til lægen, hvis du har en autoimmun sygdom såsom systemisk lupus erythematosus (SLE), 
+som også er kendt som lupus. Søg lægehjælp, hvis du udvikler symptomer på SLE såsom ledsmerter 
+eller hævelse, udslæt på kinderne og næsen eller uforklarlig feber. </p>
+<p>Børn og unge 
+Enjaymo bør ikke anvendes til børn og unge under 18 år, da kuldeagglutininsyndrom normalt ikke 
+forekommer i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med Enjaymo 
+Fortæl det altid til lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller 
+planlægger at tage anden medicin. </p>
+<p>Graviditet og amning </p>
+<p>Graviditet </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får dette lægemiddel. Det vides ikke, om Enjaymo kan påvirke dit 
+ufødte barn.<br />
+Hvis du er gravid, bør du kun få Enjaymo, hvis din læge tydeligt har anbefalet dig det. </p>
+<p>Amning </p>
+<p>Det er ukendt, om Enjaymo udskilles i human mælk. Hvis du ammer eller planlægger at amme, skal 
+du tale med din læge før du bruger dette lægemiddel. Du og din læge skal beslutte, om du bør amme 
+eller om du vil få Enjaymo. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p>
+<p>Enjaymo indeholder natrium 
+Dette lægemiddel indeholder 3,5 mg pr. ml eller 77 mg natrium (hovedkomponent af madlavnings-
+/bordsalt) pr. hætteglas. Dette svarer til 3,85 % af den anbefalede maksimale daglige indtagelse af 
+natrium for en voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take enjaymo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take enjaymo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Enjaymo af en sundhedsperson. Det gives som en infusion (drop) i en vene (intravenøst). 
+Din dosis er baseret på din kropsvægt. </p>
+<p>Infusionen tager normalt 1 til 2 timer. Efter hver infusion vil du blive overvåget for allergiske 
+reaktioner: Efter den første infusion vil du blive overvåget i mindst 2 timer. Efter de efterfølgende 
+infusioner bliver du overvåget i mindst 1 time. 
+Du vil normalt få: </p>
+<ul>
+<li>
+<p>en startdosis af Enjaymo </p>
+</li>
+<li>
+<p>en dosis af Enjaymo en uge senere </p>
+</li>
+<li>
+<p>derefter vil du begynde at få Enjaymo hver 2. uge </p>
+</li>
+</ul>
+<p>Hjemmeinfusion </p>
+<ul>
+<li>
+<p>Du vil få Enjaymo på hospitalet eller ambulant på en klinik i mindst 3 måneder. </p>
+</li>
+<li>
+<p>Efterfølgende vil lægen overveje, om du kan få infusionen af Enjaymo derhjemme. </p>
+</li>
+<li>
+<p>Hjemmeinfusion vil blive udført af en sundhedsperson. </p>
+</li>
+</ul>
+<p>Hvis du har fået for meget Enjaymo 
+Enjaymo gives af en sundhedsperson. Hvis du har mistanke om, at du ved et uheld har fået en højere 
+dosis af Enjaymo end ordineret, skal du kontakte lægen og spørge om råd. </p>
+<p>Hvis du har glemt at få Enjaymo 
+Hvis du glemmer en aftale, hvor du skal modtage Enjaymo, skal du straks kontakte din læge, for at 
+aftale en ny tid til din infusion. </p>
+<p>Hvis du holder op med at få Enjaymo 
+Virkningen af Enjaymo vil aftage efter afslutningen af behandlingen. Hvis du holder op med at få 
+Enjaymo, bør din læge overvåge dig nøje for at holde øje med om tegn eller symptomer, der tyder på 
+kuldeagglutininsyndrom, vender tilbage. Symptomerne er forårsaget af nedbrydning af dine røde 
+blodlegemer og kan omfatte træthed, åndenød, hurtig puls eller mørk urin. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Du skal straks fortælle det til sundhedspersonalet, som giver dig Enjaymo, hvis du oplever tegn 
+på en overfølsomhedsreaktion under eller efter, du har fået dette lægemiddel. Sådanne tegn kunne 
+være: </p>
+<ul>
+<li>
+<p>åndedrætsbesvær eller synkebesvær </p>
+</li>
+<li>
+<p>hævelse af ansigt, læber, tunge eller hals </p>
+</li>
+<li>
+<p>kraftig kløe med rødt udslæt eller knopper </p>
+</li>
+<li>
+<p>fornemmelse af at besvime. 
+Hvis du oplever nogen af ovenstående symptomer under infusionen, skal infusionen straks stoppes. </p>
+</li>
+</ul>
+<p>Du skal straks fortælle det til sundhedspersonalet, som giver dig Enjaymo, hvis du oplever tegn 
+på en infusionsrelateret reaktion efter, du har fået dette lægemiddel. Almindelig (kan forekomme 
+hos op til 1 ud af 10 personer). Sådanne tegn kunne være: </p>
+<ul>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>rødmen og varmefornemmelse </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>hurtig puls. 
+Du skal du straks fortælle det til lægen, hvis du får symptomer eller tegn på en infektion, så som: </p>
+</li>
+<li>
+<p>feber med eller uden udslæt, kulderystelser, influenzalignende symptomer, 
+hoste/åndedrætsbesvær, hovedpine med kvalme, opkastning, nakkestivhed, stivhed i ryggen, 
+forvirring, lysfølsomme øjne, smerter ved vandladningen eller øget vandladning. </p>
+</li>
+<li>
+<p>infektioner: Urinveje, øvre luftveje, mave og tarm, almindelig forkølelse, løbenæse er meget 
+almindelig (kan forekomme hos flere end 1 ud af 10 personer). </p>
+</li>
+<li>
+<p>infektioner: Nedre luftveje, urinveje, herpes infektion er almindelig (kan forekomme hos op til 1 
+ud af 10 personer). 
+Fortæl det til lægen eller sygeplejersken, hvis du får nogen af følgende bivirkninger: </p>
+</li>
+</ul>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): 
+• hovedpine 
+• højt blodtryk 
+• dårlig cirkulation med misfarvning af huden på hænder og fødder som reaktion på kulde og 
+stress (Raynauds fænomen, akrocyanose) 
+• mavesmerter 
+• kvalme. </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): 
+• infusionsrelaterede reaktioner 
+• feber 
+• kuldefølelse 
+• svimmelhed 
+• aura (forbigående synsforstyrrelser, føleforstyrrelser og/eller taleforstyrrelser i forbindelse med 
+hovedpine) 
+• lavt blodtryk 
+• diarré 
+• ubehag i maven 
+• mundsår (aftøst mavesår) 
+• ubehag i brystet 
+• kløe. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store enjaymo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store enjaymo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses </p>
+<p>Opbevares i den originale karton for at beskytte mod lys. </p>
+<p>Enjaymo må ikke smides i afløbet, toilettet eller skraldespanden. Din sundhedsperson er ansvarlig for 
+korrekt bortskaffelse af medicinrester. Dette er af hensyn til miljøet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Enjaymo indeholder:</p>
+<ul>
+<li>Aktivt stof: sutimlimab. Hvert 22 ml hætteglas indeholder 1.100 mg sutimlimab. </li>
+<li>Øvrige indholdsstoffer: polysorbat 80 (E433), natriumchlorid, dibasisk natriumphosphat (E339), 
+monobasisk natriumphosphat (E339) og vand til injektionsvæsker. </li>
+</ul>
+<p>Dette lægemiddel indeholder natrium (se punkt 2 "Enjaymo indeholder natrium"). </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Enjaymo er en opaliserende, farveløs til lysegul opløsning til infusion, der stort set er fri for partikler.  </p>
+<p>Hver pakning indeholder 1 eller 6 hætteglas. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Sanofi B.V. 
+Paasheuvelweg 1105 BP Amsterdam 
+Holland </p>
+<p>Fremstiller 
+Sanofi-Aventis Deutschland GmbH 
+Brüningstr. Frankfurt am Main, 65Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+Sanofi s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0 </p>
+<p>Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4 
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+Sanofi-Aventis Μονοπρόσωπη AEBE<br />
+Τηλ: +30 210 900 16<br />
+Österreich 
+Sanofi-Aventis GmbH 
+Tel: +43 1 80 185 - 0 </p>
+<p>España 
+sanofi-aventis, S.A.<br />
+Tel: +34 93 485 94<br />
+Polska 
+Sanofi sp. z o.o. 
+Tel.: + 48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie<br />
+Tél: 0 800 222 Appel depuis l’étranger: +33 1 57 63 23<br />
+Portugal 
+Sanofi- Produtos Farmacêuticos, Lda 
+Tel: +351 21 35 89<br />
+Hrvatska<br />
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31  </p>
+<p>Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7000  </p>
+<p>Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33<br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800 536<br />
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija 
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre hjemmesider om sjældne 
+sygdomme og om, hvordan de behandles. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside og på hjemmesiden: www.enjaymo.info.sanofi, eller ved at scanne QR-koden nedenfor 
+(også inkluderet på yderkartonen) med en smartphone. </p>
+<p>&lt;pladsholder til QR-kode&gt; </p>
+<p>-------------------------------------------------------------------------------------------------------------------------- Nedenstående oplysninger er til sundhedspersoner: 
+Sporbarhed 
+For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres. </p>
+<p>Klargøring 
+Enjaymo leveres som en opløsning i et enkeltdosishætteglas og bør klargøres af en sundhedsperson 
+ved brug af aseptisk teknik. 
+1. Tag Enjaymo ud af køleskabet. For at mindske skumdannelse, må hætteglasset ikke omrystes. 
+2. Inspicér hætteglassene visuelt for partikler og misfarvning inden administration. Opløsningen er 
+en opaliserende og farveløs til lysegul væske. Må ikke administreres, hvis det er misfarvet eller 
+indeholder partikler. 
+3. Træk det beregnede volumen op fra det nødvendige antal hætteglas i henhold til den anbefalede 
+dosis (se tabel 1) og overfør det til en tom infusionspose. Kassér eventuel ubrugt opløsning, der 
+er tilbage i hætteglasset. 
+4. Den klargjorte opløsning bør administreres straks.  </p>
+<p>Administration 
+1. Lad infusionsopløsningen opnå stuetemperatur (18 °C - 25 °C) før administration. Se tabel 1 for 
+infusionshastighed. Infusionen bør administreres over 1 - 2 timer afhængigt af patientens 
+legemsvægt. Infusion må kun administreres gennem et 0,22 micron filter med en 
+polyethersulfon (PES)-membran. Der kan anvendes infusionsvarmere, men overskrid ikke en 
+temperatur på 40 °C. 
+2. Infusionskateteret og slangen skal primes med doseringsopløsningen umiddelbart før infusionen 
+og skylles umiddelbart efter afslutning af infusionen med en tilstrækkelig mængde (ca. 20 ml) 
+natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning. 
+3. Der er ikke observeret uforligeligheder mellem Enjaymo infusionsvæske, opløsning og 
+infusionsposer lavet af di-(2-ethylhexyl)phthalat (DEHP) plastificeret polyvinylchlorid (PVC), 
+ethylenvinylacetat (EVA) og polyolefin (PO); administrationssæt lavet af DEHP plastificeret 
+PVC, DEHP-frit polypropylen (PP) og polyethylen (PE); og hætteglasadaptere lavet af 
+polycarbonat (PC) og acrylonitril-butadien-styren (ABS). 
+Tabel 1 - Tabel over infusionsreferencer 
+Legemsvægt interval 
+Dosis (mg) 
+Antal 
+hætteglas 
+Volumen 
+(ml) 
+Maksimal 
+infusionshastighed 
+Mere end eller lig med 
+39 kg til mindre end 75 kg 
+6.6 
+130<br />
+130 ml/time 
+75 kg eller derover<br />
+7.7 
+150<br />
+150 ml/time </p>
+<p>Opbevaringsbetingelser 
+Uåbnet hætteglas </p>
+<ul>
+<li>
+<p>Opbevares i køleskab (2 °C - 8 °C). </p>
+</li>
+<li>
+<p>Opbevares i den originale karton for at beskytte mod lys. </p>
+</li>
+</ul>
+<p>Efter åbning </p>
+<ul>
+<li>
+<p>Der er blevet påvist kemisk og fysisk stabilitet under brug i 16 timer ved 18 °C til 25 °C eller i 
+72 timer ved 2 °C til 8 °C. Ud fra et mikrobiologisk synspunkt bør produktet anvendes med det 
+samme.  </p>
+</li>
+<li>
+<p>Hvis produktet ikke anvendes med det samme, er opbevaringstider og -betingelser inden 
+anvendelse brugerens ansvar, og vil normalt ikke være længere end 24 timer ved 2 °C til 8 °C 
+eller 8 timer ved stuetemperatur, medmindre at åbning af hætteglas og samling i infusionsposen 
+har fundet sted under kontrollerede og validerede aseptiske forhold. </p>
+</li>
+</ul>
+<p>Hjemmeinfusioner 
+Hjemmeinfusioner bør udføres af en sundhedsperson. 
+Beslutningen om hjemmeinfusion bør være baseret på patientens individuelle kliniske karakteristika 
+og patientens individuelle behov. Omstilling af infusionen fra kliniske omgivelser til 
+hjemmeadministration indebærer, at det sikres, at passende infrastruktur og ressourcer er på plads og i 
+overensstemmelse med den behandlende læges instrukser. Hjemmeinfusion af Enjaymo kan overvejes 
+til patienter, som har tolereret deres infusion godt i klinikken, og som ikke har haft infusionsrelaterede 
+reaktioner. En patients underliggende komorbiditeter og evne til at overholde kravene til 
+hjemmeinfusion skal tages i betragtning, når det vurderes om patienten er egnet til at få 
+hjemmeinfusioner. Derudover bør følgende kriterier overvejes: </p>
+<ul>
+<li>
+<p>Patienten må ikke have nogen eksisterende lidelser, som efter lægens vurdering kan udsætte 
+patienten for en større risiko, når infusionen administreres i hjemmet frem for i klinikken. Der 
+bør foretages en grundig vurdering, før opstart af hjemmeinfusion, for at sikre, at patienten er 
+medicinsk stabil. </p>
+</li>
+<li>
+<p>Patienten skal have modtaget vellykkede infusioner med Enjaymo i klinikken (hospitalet eller 
+ambulant) i mindst 3 måneder under opsyn af en læge eller en anden sundhedsperson, der har 
+erfaring med behandlingen af patienter med kuldeagglutininsyndrom.  </p>
+</li>
+<li>
+<p>Patienten skal være indforstået med og i stand til at følge procedurerne for hjemmeinfusioner og 
+den behandlende læges eller sundhedspersons anbefalinger.  </p>
+</li>
+<li>
+<p>Sundhedspersonen, der administrerer hjemmeinfusionen, bør være tilgængelig under hele 
+hjemmeinfusionen og i mindst 1 time efter infusionen.  </p>
+</li>
+</ul>
+<p>Hvis patienten oplever bivirkninger under hjemmeinfusionen, bør infusionsprocessen straks stoppes, 
+der bør opstartes passende medicinsk behandling og den behandlende læge bør underrettes. I sådanne 
+tilfælde bør den behandlende læge beslutte, om efterfølgende infusioner bør finde sted og i så fald, om 
+infusionerne bør administreres på et hospital eller under opsyn i ambulante omgivelser. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-c419fe066011304c4fef1d514818ee22
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for enjaymo Package Leaflet for language en"
+Description: "ePI document Bundle for enjaymo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c419fe066011304c4fef1d514818ee22"
+* entry[0].resource = composition-en-c419fe066011304c4fef1d514818ee22
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc419fe066011304c4fef1d514818ee22"
+* entry[=].resource = mpc419fe066011304c4fef1d514818ee22
+                            
+                    
+Instance: bundlepackageleaflet-da-c419fe066011304c4fef1d514818ee22
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for enjaymo Package Leaflet for language da"
+Description: "ePI document Bundle for enjaymo Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-c419fe066011304c4fef1d514818ee22"
+* entry[0].resource = composition-da-c419fe066011304c4fef1d514818ee22
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc419fe066011304c4fef1d514818ee22"
+* entry[=].resource = mpc419fe066011304c4fef1d514818ee22
+                            
+                    
+
+
+
+Instance: mpc419fe066011304c4fef1d514818ee22
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Enjaymo 50 mg/mL solution for infusion"
-Description: "Enjaymo 50 mg/mL solution for infusion"
+Title: "Medicinal Product enjaymo"
+Description: "enjaymo"
 Usage: #inline
 
  
@@ -352,7 +920,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Enjaymo 50 mg/mL solution for infusion"
+  * productName = "enjaymo"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -379,29 +947,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-c419fe066011304c4fef1d514818ee22
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for enjaymo Package Leaflet for language en"
-Description: "ePI document Bundle for enjaymo Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: c419fe066011304c4fef1d514818ee22ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1687/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "enjaymo"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-c419fe066011304c4fef1d514818ee22"
-* entry[0].resource = composition-en-c419fe066011304c4fef1d514818ee22
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1f3d2079284012706f23bdfbaa6caa5e"
-* entry[=].resource = mp1f3d2079284012706f23bdfbaa6caa5e
-                            
-                      
+* title = "List of all ePIs associated with enjaymo"
+
+* subject = Reference(mp1f3d2079284012706f23bdfbaa6caa5e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#enjaymo "enjaymo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-c419fe066011304c4fef1d514818ee22) // enjaymo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-c419fe066011304c4fef1d514818ee22) // enjaymo da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-c419fe066011304c4fef1d514818ee22
+InstanceOf: List
+
+* insert c419fe066011304c4fef1d514818ee22ListRuleset
+    

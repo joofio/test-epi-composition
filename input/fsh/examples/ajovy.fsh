@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-684d3ac7eb172f49f26955be7ae4a00d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ajovy Package Leaflet"
@@ -290,12 +293,525 @@ Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>
 
 
 
+Instance: composition-da-684d3ac7eb172f49f26955be7ae4a00d
+InstanceOf: CompositionUvEpi
+Title: "Composition for ajovy Package Leaflet"
+Description:  "Composition for ajovy Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2caf3f6a7794c47a88d111bf584d112e)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2caf3f6a7794c47a88d111bf584d112e
+* title = "TEST PURPOSES ONLY - ajovy"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge AJOVY 
+3. Sådan skal du bruge AJOVY 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ajovy is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ajovy is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er AJOVY 
+AJOVY er et lægemiddel, der indeholder det aktive stof fremanezumab, som er et monoklonalt 
+antistof. Det er en type protein, der genkender og binder sig til et specifikt mål i kroppen. </p>
+<p>Sådan virker AJOVY 
+Der er et stof i kroppen, som kaldes calcitonin gen-relateret peptid (CGRP). Det spiller en vigtig rolle i 
+forbindelse med migræne. Fremanezumab binder sig til CGRP og forhindrer det i at virke. Dette fald i 
+aktiviteten af CGRP mindsker migræneanfaldene. </p>
+<p>Hvad AJOVY bruges til 
+AJOVY bruges til at forebygge migræne hos voksne, som har mindst 4 migrænedage om måneden. </p>
+<p>Hvad er fordelene ved at bruge AJOVY 
+AJOVY sænker hyppigheden af migræneanfald og dage med hovedpine. Denne medicin mindsker 
+også de invaliderende symptomer, som forekommer i forbindelse med migræne, og den mindsker 
+behovet for lægemidler til behandling af migræneanfald. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ajovy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ajovy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke AJOVY 
+Brug ikke dette lægemiddel, hvis du er allergisk over for fremanezumab eller et af de øvrige 
+indholdsstoffer i AJOVY (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt straks lægen, apotekspersonalet eller sygeplejersken, hvis du får tegn på en alvorlig allergisk 
+reaktion, f.eks. vejrtrækningsbesvær, hævelse af læber og tunge eller svært udslæt efter injektion af 
+AJOVY. Disse reaktioner kan forekomme inden for 24 timer efter, at du har fået AJOVY, men kan 
+nogle gange forekomme senere. </p>
+<p>Fortæl det til din læge, hvis du har eller har haft hjerte-karsygdomme (problemer, der påvirker hjertet 
+og blodkarrene), før du tager denne medicin, da AJOVY ikke er undersøgt hos patienter med bestemte 
+hjerte-karsygdomme. </p>
+<p>Børn og unge 
+AJOVY anbefales ikke til børn og unge under 18 år, fordi det ikke er undersøgt i denne aldersgruppe. </p>
+<p>Brug af anden medicin sammen med AJOVY 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. </p>
+<p>Graviditet og amning 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. Det anbefales at undgå at 
+bruge AJOVY under graviditeten, da virkningen af denne medicin er ukendt hos gravide. </p>
+<p>Hvis du ammer eller planlægger at amme, skal du kontakte lægen eller apotekspersonalet, før du 
+bruger denne medicin. Du og din læge skal beslutte, om du kan bruge AJOVY, så længe du ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
+<p>AJOVY indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ajovy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ajovy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Læs brugsanvisningen for den fyldte injektionssprøjte nøje, før du bruger AJOVY. </p>
+<p>Hvornår og hvor meget skal du injicere 
+Din læge vil drøfte og beslutte den mest hensigtsmæssige doseringsplan sammen med dig. Der er to 
+forskellige anbefalede doseringsmuligheder:</p>
+<ul>
+<li>én injektion (225 mg) én gang om måneden (månedlig dosering) eller </li>
+<li>tre injektioner (675 mg) hver 3. måned (kvartalsvis dosering) </li>
+</ul>
+<p>Hvis din dosis er på 675 mg, skal du injicere de tre injektioner, en efter en, hver på et forskelligt sted. </p>
+<p>AJOVY gives som en injektion under huden (subkutan injektion). Lægen eller sygeplejersken eller din 
+omsorgsperson vil forklare dig, hvordan du skal tage injektionen. Du må ikke injicere AJOVY, før du 
+eller din omsorgsperson er blevet trænet af lægen eller sygeplejersken. </p>
+<p>Brug en påmindelsesmetode, fx ved at notere det i din kalender eller dagbog, så du ikke glemmer en 
+dosis eller får en dosis for hurtigt efter den sidste dosis. </p>
+<p>Hvis du har brugt for meget AJOVY 
+Fortæl det til lægen, hvis du har brugt mere AJOVY, end du skulle. </p>
+<p>Hvis du har glemt at bruge AJOVY<br />
+Hvis du har glemt at injicere en dosis AJOVY, skal den manglende dosis injiceres snarest muligt. Du 
+må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Hvis du er i tvivl om, hvornår du 
+skal injicere AJOVY, skal du kontakte lægen, apotekspersonalet eller sygeplejersken. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Følgende bivirkninger kan forekomme: </p>
+<p>Meget almindelig (kan påvirke flere end 1 ud af 10 personer) 
+Smerter, hård hud eller rødme på injektionsstedet </p>
+<p>Almindelig (kan påvirke op til 1 ud af 10 personer) 
+Kløe på injektionsstedet </p>
+<p>Ikke almindelig (kan påvirke op til 1 ud af 100 personer) 
+Udslæt på injektionsstedet 
+Allergiske reaktioner, såsom udslæt, hævelse eller nældefeber </p>
+<p>Sjælden (kan påvirke op til 1 ud af 1.000 personer) 
+Alvorlige allergiske reaktioner (tegn kan være vejrtrækningsbesvær, hævelse af læber eller tunge eller 
+kraftigt udslæt) (se punkt 2 “Advarsler og forsigtighedsregler”). </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ajovy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ajovy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på injektionssprøjtens etiket og den ydre æske 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. 
+Opbevar den fyldte injektionssprøjte i den ydre æske for at beskytte lægemidlet mod lys. </p>
+<p>Dette lægemiddel kan tages ud af køleskabet og opbevares ved en temperatur på op til 30 °C i et 
+tidsrum på maks. 7 dage. Lægemidlet skal bortskaffes, hvis det har været opbevaret uden for 
+køleskabet i mere end 7 dage. Efter det har været opbevaret ved stuetemperatur, må det ikke sættes 
+tilbage i køleskabet. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at den ydre æske viser tegn på åbningsforsøg, 
+injektionssprøjten er beskadiget, eller lægemidlet er uklart, misfarvet eller indeholder partikler. </p>
+<p>Injektionssprøjten er udelukkende til engangsbrug. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AJOVY indeholder:</p>
+<ul>
+<li>Aktivt stof: fremanezumab. 
+Hver fyldt injektionssprøjte indeholder 225 mg fremanezumab. </li>
+<li>Øvrige indholdsstoffer: L-histidin, L-histidinhydrochloridmonohydrat, saccharose, 
+dinatriumethylenediaminetetraeddikesyre (EDTA)-dihydrat, polysorbat 80 og vand til 
+injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+AJOVY er en injektionsvæske, opløsning (injektion) i en fyldt injektionssprøjte med fast kanyle i 
+blister. AJOVY er en klar, farveløs til svagt gul opløsning. Hver fyldt injektionssprøjte indeholder 
+1,5 ml opløsning. </p>
+<p>AJOVY er tilgængelig i pakninger med 1 eller 3 fyldte injektionssprøjter. Ikke alle pakningsstørrelser 
+er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+TEVA GmbH 
+Graf-Arco-Str. 3 
+89079 Ulm 
+Tyskland </p>
+<p>Fremstiller 
+Merckle GmbH 
+Graf-Arco-Str. 3 
+89079 Ulm 
+Tyskland </p>
+<p>Teva Pharmaceuticals Europe B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207373  </p>
+<p>Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД<br />
+Teл: +359 24899 
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+Tél/Tel: +32 38207 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarország 
+Teva Gyógyszergyár Zrt.<br />
+Tel: +36 12886400<br />
+Danmark 
+Teva Denmark A/S<br />
+Tlf: +45 44985511  </p>
+<p>Malta 
+Teva Pharmaceuticals Ireland<br />
+L-Irlanda<br />
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140208<br />
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228400  </p>
+<p>Eesti 
+UAB Teva Baltics Eesti filiaal<br />
+Tel: +372 6610 
+Norge 
+Teva Norway AS<br />
+Tlf: +47 66775590  </p>
+<p>Ελλάδα 
+TEVA HELLAS Α.Ε. 
+Τηλ: +30 2118805Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH<br />
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U.<br />
+Tel: +34 913873280<br />
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o.<br />
+Tel: +48 223459300  </p>
+<p>France 
+Teva Santé<br />
+Tél: +33 155917800  </p>
+<p>Portugal 
+Teva Pharma - Produtos Farmacêuticos, Lda.<br />
+Tel: +351 214767550<br />
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720000  </p>
+<p>România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306524  </p>
+<p>Ireland 
+Teva Pharmaceuticals Ireland<br />
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o.<br />
+Tel: +386 15890Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o.<br />
+Tel: +421 257267911<br />
+Italia 
+Teva Italia S.r.l.<br />
+Tel: +39 028917981<br />
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805900  </p>
+<p>Κύπρος 
+TEVA HELLAS Α.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB<br />
+Tel: +46 42121100  </p>
+<p>Latvija 
+UAB Teva Baltics filiāle Latvijā<br />
+Tel: +371 67323666  </p>
+<p>United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Brugsanvisning </p>
+<p>AJOVY 225 mg injektionsvæske, opløsning i fyldt injektionssprøjte 
+fremanezumab </p>
+<p>Før du bruger den fyldte injektionssprøjte med AJOVY, skal du læse og følge de trinvise 
+instruktioner omhyggeligt. </p>
+<p>Vigtige oplysninger: </p>
+<ul>
+<li>
+<p>Læs omhyggeligt indlægssedlen til AJOVY for at få mere at vide om din medicin. </p>
+</li>
+<li>
+<p>Du må ikke trække stemplet tilbage på noget tidspunkt, da dette kan få den fyldte 
+injektionssprøjte til at knække. </p>
+</li>
+<li>
+<p>Du må ikke ryste den fyldte injektionssprøjte. </p>
+</li>
+<li>
+<p>Sæt straks æsken tilbage i køleskabet, hvis der er ubrugte fyldte injektionssprøjter i æsken. </p>
+</li>
+</ul>
+<p>Dele af AJOVY-fyldt injektionssprøjte </p>
+<p>Trin 1: Klargøring til injektion 
+a) Indsaml følgende tilbehør til din injektion: 
+− 1 eller 3 AJOVY fyldte injektionssprøjter, så der er nok til 1 eller 3 injektioner, 
+afhængigt af din dosis 
+− 1 spritserviet pr. injektion 
+− 1 gazekompres eller en vatkugle pr. injektion 
+− 1 affaldsbøtte til skarpe genstande eller en punkturbestandig beholder 
+b) Læg alt, hvad du skal bruge, på en ren, plan overflade: 
+c) Lad AJOVY stå i 30 minutter, så den opnår stuetemperatur. Derved mindskes ubehaget 
+under injektionen. 
+− Den fyldte injektionssprøjte må ikke efterlades i direkte sollys. 
+− 
+Den fyldte injektionssprøjte må ikke opvarmes i en mikrobølgeovn eller på andre 
+varmekilder. 
+− 
+Kanylehætten må ikke fjernes. 
+d) Vask hænderne med vand og sæbe, og tør dem grundigt med et rent håndklæde. 
+e) Efterse din AJOVY fyldte injektionssprøjte. 
+− Kontroller etiketten på injektionssprøjten. Kontroller, at navnet AJOVY står på 
+etiketten. 
+− Kontroller, at lægemidlet inde i sprøjten er klart og er farveløst til svagt gult. 
+− Du kan muligvis se små luftbobler i den fyldte injektionssprøjte. Det er normalt. 
+− Brug ikke den fyldte injektionssprøjte, hvis du ser noget af følgende: </p>
+<ul>
+<li>
+<p>Injektionssprøjten ser beskadiget ud. </p>
+</li>
+<li>
+<p>Udløbsdatoen er overskredet, eller den fyldte injektionssprøjte har været 
+opbevaret uden for køleskabet i mere end 7 dage. </p>
+</li>
+<li>
+<p>Medicinen er uklar, misfarvet eller indeholder partikler. </p>
+</li>
+</ul>
+<p>f) Vælg dit injektionssted. 
+− Vælg et injektionssted fra følgende områder: </p>
+<ul>
+<li>
+<p>Din mave, undgå ca. 5 cm omkring navlen </p>
+</li>
+<li>
+<p>Forsiden af dine lår, ca. 5 cm over knæet, og 5 cm under lysken </p>
+</li>
+<li>
+<p>Bagsiden af dine overarme, i fyldige områder bag på overarmen 
+− 
+Hvis flere injektioner er påkrævet, kan de gives på samme eller forskellige områder 
+(mave, lår og overarm), men du bør undgå at injicere på nøjagtigt samme sted. </p>
+</li>
+</ul>
+<p>g) Rengøring af injektionsstedet. 
+− Rengør det valgte injektionssted med en ny spritserviet. 
+− Vent 10 sekunder, så huden er tør, før du giver injektionen. 
+− Du må ikke injicere AJOVY på steder, hvor huden er følsom, rød, varm, har blå 
+mærker, er hård, har tatoveringer, ar eller strækmærker. </p>
+<p>Trin 2: Sådan gives injektionen 
+a) Træk kun kanylehætten af i lige retning, når du er klar til at injicere, og bortskaf den. 
+− 
+Du må ikke sætte kanylehætten tilbage igen på den fyldte injektionssprøjte på grund 
+af risiko for skade og infektion. 
+− 
+Du må ikke røre ved selve kanylen. </p>
+<p>b) Injicer ved at følge de 4 nedenstående trin. 
+1. Tag fat om en hudfold 
+på mindst 2,5 cm af 
+den hud, som du har 
+renset forinden. 
+2. Indstik kanylen i 
+hudfolden med en vinkel 
+på 45 ° til 90 °. 
+3. Tryk 
+langsomt 
+stemplet 
+ind. 
+4. Tryk stemplet 
+helt i bund, så 
+langt som det 
+kan komme, for 
+at injicere al 
+medicinen. </p>
+<p>c) Kanylen fjernes fra huden. 
+− Efter du har injiceret al medicinen, trækkes kanylen ud i lige retning. 
+− Hætten må ikke sættes tilbage på kanylen på grund af risiko for skade og infektion. </p>
+<p>d) Påfør tryk på injektionsstedet. 
+− 
+Brug en ren, tør vatkugle eller et gazekompres til at trykke let på injektionsstedet i et 
+par sekunder. 
+− 
+Du må ikke gnubbe injektionsstedet eller genbruge den fyldte injektionssprøjte. </p>
+<p>Trin 3: Bortskaffelse af den fyldte injektionssprøjte 
+a) Bortskaf dine fyldte injektionssprøjte med det samme. 
+− 
+Bortskaf dine brugte fyldte injektionssprøjter (stadig med kanylerne påsat) i en 
+affaldsbeholder beregnet til skarpe genstande med det samme efter brug. 
+− 
+Du må ikke smide (bortskaffe) løse kanyler, sprøjter, eller fyldte injektionssprøjter ud 
+sammen med dit husholdningsaffald. 
+− 
+Du må ikke genbruge brugte affaldsbeholdere til skarpe genstande 
+b) Spørg lægen, apotekspersonalet eller sygeplejersken til råds om, hvordan beholderne 
+skal bortskaffes. </p>
+<p>Hvis din dosis er 675 mg, skal du gentage trin 1 e) til 3 a) med den anden og den tredje fyldte 
+injektionssprøjte for at injicere hele dosen. </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>AJOVY 225 mg injektionsvæske, opløsning i fyldt pen 
+fremanezumab </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-684d3ac7eb172f49f26955be7ae4a00d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ajovy Package Leaflet for language en"
+Description: "ePI document Bundle for ajovy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-684d3ac7eb172f49f26955be7ae4a00d"
+* entry[0].resource = composition-en-684d3ac7eb172f49f26955be7ae4a00d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp684d3ac7eb172f49f26955be7ae4a00d"
+* entry[=].resource = mp684d3ac7eb172f49f26955be7ae4a00d
+                            
+                    
+Instance: bundlepackageleaflet-da-684d3ac7eb172f49f26955be7ae4a00d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ajovy Package Leaflet for language da"
+Description: "ePI document Bundle for ajovy Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-684d3ac7eb172f49f26955be7ae4a00d"
+* entry[0].resource = composition-da-684d3ac7eb172f49f26955be7ae4a00d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp684d3ac7eb172f49f26955be7ae4a00d"
+* entry[=].resource = mp684d3ac7eb172f49f26955be7ae4a00d
+                            
+                    
+
+
+
+Instance: mp684d3ac7eb172f49f26955be7ae4a00d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product AJOVY 225 mg solution for injection in pre-filled syringe"
-Description: "AJOVY 225 mg solution for injection in pre-filled syringe"
+Title: "Medicinal Product ajovy"
+Description: "ajovy"
 Usage: #inline
 
  
@@ -315,7 +831,7 @@ Usage: #inline
 
 
 * name
-  * productName = "AJOVY 225 mg solution for injection in pre-filled syringe"
+  * productName = "ajovy"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -342,29 +858,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-684d3ac7eb172f49f26955be7ae4a00d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ajovy Package Leaflet for language en"
-Description: "ePI document Bundle for ajovy Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 684d3ac7eb172f49f26955be7ae4a00dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ajovy"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-684d3ac7eb172f49f26955be7ae4a00d"
-* entry[0].resource = composition-en-684d3ac7eb172f49f26955be7ae4a00d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2caf3f6a7794c47a88d111bf584d112e"
-* entry[=].resource = mp2caf3f6a7794c47a88d111bf584d112e
-                            
-                      
+* title = "List of all ePIs associated with ajovy"
+
+* subject = Reference(mp2caf3f6a7794c47a88d111bf584d112e)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ajovy "ajovy"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-684d3ac7eb172f49f26955be7ae4a00d) // ajovy en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-684d3ac7eb172f49f26955be7ae4a00d) // ajovy da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-684d3ac7eb172f49f26955be7ae4a00d
+InstanceOf: List
+
+* insert 684d3ac7eb172f49f26955be7ae4a00dListRuleset
+    

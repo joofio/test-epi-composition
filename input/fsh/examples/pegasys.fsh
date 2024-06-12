@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0b227cd2a54454e66a70766913e35ba2
 InstanceOf: CompositionUvEpi
 Title: "Composition for pegasys Package Leaflet"
@@ -517,12 +520,689 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-0b227cd2a54454e66a70766913e35ba2
+InstanceOf: CompositionUvEpi
+Title: "Composition for pegasys Package Leaflet"
+Description:  "Composition for pegasys Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp77f41e5fe647bc1f9ee4b4b2f15dd315)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp77f41e5fe647bc1f9ee4b4b2f15dd315
+* title = "TEST PURPOSES ONLY - pegasys"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Pegasys 
+3. Sådan skal du tage Pegasys 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What pegasys is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What pegasys is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pegasys indeholder det aktive indholdsstof peginterferon alfa-2a, som er et langtidsvirkende 
+interferon. Interferon er et proteinstof, som modificerer responset fra kroppens immunsystem for at 
+hjælpe til med at bekæmpe infektioner og svære sygdomme. Pegasys anvendes til behandling af 
+kronisk hepatitis B eller kronisk hepatitis C hos voksne. Det anvendes også til behandling af kronisk 
+hepatitis B hos børn og unge, som er 3 år og ældre, samt kronisk hepatitis C hos børn og unge, som er 
+5 år og ældre, og som ikke er blevet behandlet før. Både kronisk hepatitis B og C er virusinfektioner i 
+leveren. </p>
+<p>Kronisk hepatitis B: Pegasys anvendes normalt alene. 
+Kronisk hepatitis C: Pegasys anvendes i kombination med andre lægemidler til behandling af kronisk 
+hepatitis C. </p>
+<p>Læs også indlægssedlerne for de lægemidler, som anvendes i kombination med Pegasys.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take pegasys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take pegasys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Pegasys 
+● 
+hvis du er allergisk over for peginterferon alfa-2a, andre interferoner eller et af de øvrige 
+indholdsstoffer i Pegasys (angivet i punkt 6). 
+● 
+hvis du nogensinde har haft et hjerteanfald eller har været indlagt på hospitalet med alvorlige 
+brystsmerter inden for de seneste seks måneder. 
+● 
+hvis du har såkaldt autoimmun hepatitis. 
+● 
+hvis du har fremskreden leversygdom og din lever ikke fungerer, som den skal (f.eks. hvis din 
+hud bliver gul). 
+● 
+hvis patienten er et barn under 3 år. 
+● 
+hvis patienten er et barn, som på et tidspunkt har haft en alvorlig psykiatrisk lidelse såsom svær 
+depression eller selvmordstanker.<br />
+● 
+hvis du har infektioner med både hepatitis C og hiv og din lever ikke fungerer, som den skal 
+(f.eks. hvis din hud bliver gul). 
+● 
+hvis du bliver behandlet med telbivudin, som er et lægemiddel mod hepatitis B-infektion 
+(se "Brug af andre lægemidler sammen med Pegasys"). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du tager Pegasys 
+● 
+hvis du har haft en alvorlig nervesygdom eller psykisk lidelse. 
+● 
+hvis du nogensinde har haft en depression eller symptomer på depression (f.eks. føler dig 
+nedtrykt, modløs osv.). 
+● 
+hvis du er voksen og har eller tidligere har haft et stofmisbrug (f.eks. alkohol eller 
+narkotika/medicin). 
+● 
+hvis du har psoriasis, kan den forværres under behandlingen med Pegasys. 
+● 
+hvis du har andre problemer med leveren end hepatitis B eller C. 
+● 
+hvis du har sukkersyge eller forhøjet blodtryk, vil lægen måske bede dig om at blive undersøgt 
+af en øjenlæge. 
+● 
+hvis du har fået at vide at du har VKH-syndrom 
+● 
+hvis du har en sygdom i skjoldbruskkirtlen, som ikke kan kontrolleres med medicin. 
+● 
+hvis du nogensinde har haft blodmangel. 
+● 
+hvis du har fået en organtransplantation (lever eller nyre) eller er indstillet til at blive 
+transplanteret i den nærmeste fremtid. 
+● 
+hvis du også er smittet med hiv og behandles med anti-hiv-medicin. 
+● 
+hvis du har afbrudt tidligere behandling af hepatitis C på grund af blodmangel eller lav </p>
+<p>blodprocent. </p>
+<p>Når din behandling med Pegasys er påbegyndt, skal du kontakte lægen, sundhedspersonalet eller 
+apotekspersonalet: 
+● 
+ hvis du får symptomer forbundet med depression (f.eks. er ked af det, føler dig nedtrykt osv.) 
+(se punkt 4). 
+● 
+hvis du mærker forandringer med synet. 
+● 
+hvis du får symptomer på forkølelse eller andre luftvejsinfektioner (som f.eks. hoste, feber eller      <br />
+åndenød). 
+● 
+hvis du tror, du er ved at få en infektion (som f.eks. lungebetændelse), da du forbigående kan 
+være mere udsat for at få en infektion, mens du får Pegasys.<br />
+● 
+kontakt lægen med det samme, hvis du får tegn på blødning eller uventede blå mærker. 
+● 
+søg straks lægehjælp, hvis du får symptomer på en svær allergisk reaktion (såsom åndenød, 
+hiven efter vejret eller kløende udslæt), mens du får dette lægemiddel. 
+● 
+hvis du udvikler symptomer på Vogt-Koyanagi-Haradas syndrom: en kombination af 
+symptomer i form af stivhed i nakken, hovedpine, tab af farve i hud eller hår, øjenforstyrrelse 
+(såsom uklart syn) og/eller problemer med hørelsen (såsom ringen for ørerne). </p>
+<p>Under behandlingen vil din læge regelmæssigt tage blodprøver for at undersøge evt. ændringer i dine 
+hvide blodceller (celler der bekæmper infektion), røde blodceller (celler der bærer ilt), blodplader 
+(celler der får blodet til at størkne), leverfunktionen, glukose (blodsukkeret) eller ændringer i andre 
+laboratorieværdier. </p>
+<p>Sygdomme i tænder og gummer, som kan medføre tab af tænder, er blevet rapporteret hos patienter, 
+der får behandling med Pegasys, samtidigt med ribavirin. Mundtørhed kan endvidere have en skadelig 
+virkning på tænder og belægninger i munden under langtidsbehandling med kombinationen af Pegasys 
+og ribavirin. Du bør børste dine tænder grundigt 2 gange om dagen og få foretaget regelmæssige 
+tandeftersyn. Endvidere oplever nogle patienter opkastning. Hvis du oplever dette, så skyl munden 
+grundigt efterfølgende. </p>
+<p>Børn og unge 
+Anvendelse af Pegasys er begrænset til børn og unge med kronisk hepatitis C som er 5 år og ældre, 
+eller børn og unge med kronisk hepatitis B, som er 3 år og ældre. Pegasys må ikke gives til børn under 
+3 år, fordi det indeholder benzylalkohol og kan forårsage giftige reaktioner og allergiske reaktioner 
+hos disse børn.<br />
+● 
+Hvis dit barn har eller har haft en psykiatrisk sygdom, skal du tale med din læge, som vil 
+monitorere dit barn for symptomer på depression (se punkt 4). 
+● 
+Dit barn kan have langsommere vækst og udvikling, mens barnet får Pegasys (se punkt 4). </p>
+<p>Brug af andre lægemidler sammen med Pegasys 
+Tag ikke Pegasys, hvis du tager telbivudin (se "Tag ikke Pegasys"), da kombinationen af disse 
+lægemidler øger risikoen for at udvikle perifer neuropati (følelsesløshed, prikken og/eller brændende 
+fornemmelse i arme og/eller ben). Kombinationen af Pegasys og telbivudin er derfor kontraindiceret. 
+Fortæl det til din læge eller apotekspersonalet, hvis du bliver behandlet med telbivudin. 
+Du skal fortælle det til lægen, hvis du tager astmamedicin, fordi det kan være nødvendigt at ændre 
+dosis af din astmamedicin.<br />
+Patienter som også er hiv-inficerede: Fortæl din læge hvis du er i anti-hiv-behandling. 
+Mælkesyreacidose og forværret leverfunktion er bivirkninger, som forbindes med "Highly Active 
+Anti-Retroviral Therapy", HAART, som er en hiv-behandling. Hvis du bliver behandlet med HAART, 
+og i tillæg dertil skal behandles med Pegasys og ribavirin kan det forøge risikoen for 
+mælkesyreacidose eller leversvigt. Din læge vil overvåge dig for tegn og symptomer for disse 
+tilstande. Patienter, som får zidovudin i kombination med ribavirin og interferon alfa, har øget risiko 
+for at udvikle blodmangel (anæmi). Patienter, som får azathioprin i kombination med ribavirin og 
+peginterferon, har øget risiko for at udvikle alvorlige blodsygdomme. Vær opmærksom på også at 
+læse indlægssedlen for ribavirin. </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler eller har gjort det for nylig.  </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. 
+Når Pegasys gives sammen med ribavirin, skal både mandlige og kvindelige patienter være yderst 
+påpasselige i deres seksuelle aktivitet, hvis der er en mulighed for, at kvinden kan blive gravid, idet 
+ribavirin kan være yderst skadelig for det ufødte barn: </p>
+<ul>
+<li>
+<p>hvis du er en kvinde i den fertile alder og tager Pegasys sammen med ribavirin, skal du have 
+foretaget en graviditetstest, der er negativ, før behandlingen påbegyndes, hver måned under 
+behandlingen og i hver af de 4 måneder efter behandlingen er stoppet. Du skal anvende en 
+effektiv præventionsform i hele den periode, du er i behandling og i 4 måneder efter 
+behandlingen er stoppet. Dette kan diskuteres med din læge. </p>
+</li>
+<li>
+<p>hvis du er en mand, der tager Pegasys sammen med ribavirin, må du ikke have sex med en 
+gravid kvinde, medmindre du anvender kondom. Dette vil mindske risikoen for, at ribavirin 
+efterlades i kvindens krop. Hvis din kvindelige partner ikke er gravid på nuværende tidspunkt, 
+men er i den fertile alder, skal hun have foretaget graviditetstest hver måned under behandlingen 
+og i hver af de 7 måneder efter behandlingen er stoppet. Du eller din partner skal anvende en 
+effektiv præventionsform i hele den periode, du er i behandling, og i 7 måneder efter 
+behandlingen er stoppet. Dette kan diskuteres med din læge. </p>
+</li>
+</ul>
+<p>Spørg din læge eller apotekspersonalet til råds, inden du tager nogen form for lægemidler.<br />
+Det vides ikke, om dette lægemiddel udskilles i human mælk. Du må derfor ikke amme, hvis du tager 
+Pegasys. Hvis du samtidig får ribavirin, vær da særlig opmærksom på de respektive indlægssedler for 
+lægemidler, der indeholder ribavirin. </p>
+<p>Læs også indlægssedlerne for de lægemidler, som anvendes i kombination med Pegasys.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Du må ikke køre bil eller motorcykel og lad være med at cykle eller arbejde med værktøj eller 
+maskiner, hvis du føler dig omtåget, træt eller konfus, mens du tager Pegasys. </p>
+<p>Benzylalkohol 
+Pegasys indeholder 10 mg benzylalkohol pr. hætteglas, svarende til 10 mg/ml.  </p>
+<p>Benzylalkohol kan forårsage toksiske reaktioner og allergiske reaktioner.  </p>
+<p>Benzylalkohol er blevet forbundet med risikoen for alvorlige bivirkninger, herunder åndedrætsbesvær 
+(kaldet "gasping syndrome") hos unge børn. Pegasys må ikke gives til for tidligt fødte babyer, nyfødte 
+eller børn op til 3 år.  </p>
+<p>Spørg din læge eller apotekspersonalet til råds, hvis du er gravid eller ammer eller hvis du har lever- eller nyresygdomme. Det skyldes, at store mængder af benzylalkohol kan ophobe sig i kroppen, og 
+kan give bivirkninger (kaldet "metabolisk acidose") </p>
+<p>Natrium 
+Pegasys indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. den er i det væsentlige 
+natrium-fri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take pegasys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take pegasys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Dosering af Pegasys 
+Lægen har fastsat den nøjagtige dosis Pegasys efter dine individuelle behov og lægen vil fortælle dig, 
+hvor ofte du skal anvende det. Om nødvendigt, kan dosis blive ændret under behandlingen. Overskrid 
+ikke den anbefalede dosis. </p>
+<p>Pegasys gives kun alene, hvis du af en eller anden årsag ikke kan tage ribavirin. </p>
+<p>Når Pegasys gives alene eller i kombination med ribavirin, gives det normalt i en dosis på 
+180 mikrogram én gang om ugen.<br />
+Varigheden af kombinationsbehandlingen varierer fra 4 til 18 måneder, afhængig af den type 
+virus du er smittet med, din respons på behandlingen og om du er blevet behandlet før. Tjek det 
+hos din læge og følg den anbefalede behandlingsvarighed. 
+Injektion med Pegasys skal normalt gives ved sengetid. </p>
+<p>Brug hos børn og unge 
+Din læge har fastsat den nøjagtige dosis Pegasys for dit barn, og lægen vil fortælle dig, hvor ofte dit 
+barn skal anvende det. Den sædvanlige dosis af Pegasys er baseret på dit barns højde og vægt. Om 
+nødvendigt, kan dosis blive ændret under behandlingen. Det anbefales at bruge Pegasys fyldte 
+injektionssprøjter til børn og unge, idet de tillader dosisjusteringer. Overskrid ikke den anbefalede 
+dosis. </p>
+<p>Varigheden af kombinationsbehandling hos børn med kronisk hepatitis C varierer fra 6 til 12 måneder, 
+afhængig af den type virus dit barn er smittet med og barnets respons på behandlingen. Varigheden af 
+Pegasys behandlingen for kronisk hepatitis B er 48 uger. Forhør dig hos din læge og følg den 
+anbefalede varighed af behandlingen. Pegasys injektion gives normalt ved sengetid. </p>
+<p>Pegasys er beregnet til subkutan anvendelse (under huden). Det betyder, at Pegasys injiceres med en 
+kort kanyle i fedtvævet under huden på maven eller låret. Hvis du selv injicerer lægemidlet, vil du 
+blive instrueret i, hvordan injektionen skal gives. Der findes en detaljeret brugsanvisning i slutningen 
+af denne indlægsseddel (se "Hvordan foretages injektion af Pegasys"). </p>
+<p>Anvend Pegasys nøjagtigt og i så lang tid, som lægen har foreskrevet det. 
+Hvis du mener, at virkningerne af Pegasys er for kraftige eller for svage, bør du tale med din læge eller 
+apotekspersonalet herom. </p>
+<p>Kombinationsbehandling med ribavirin ved kronisk hepatitis C 
+Hvis Pegasys gives i kombination med ribavirin, skal du følge den dosering, som din læge har 
+anbefalet. </p>
+<p>Kombinationsbehandling med andre lægemidler ved kronisk hepatitis C 
+Hvis Pegasys gives i kombination med andre lægemidler, skal du følge den dosering, som din 
+læge har anbefalet, og læse indlægssedlerne for de andre lægemidler. </p>
+<p>Hvis du har taget for meget Pegasys 
+Kontakt din læge eller apotekspersonalet så hurtigt som muligt. </p>
+<p>Hvis du har glemt at tage Pegasys 
+Hvis du opdager, at du har glemt injektionen 1-2 dage efter, den var planlagt, skal du injicere den 
+anbefalede dosis så hurtigt som muligt. Giv den næste injektion på den planlagte dag. 
+Hvis du opdager, at du har glemt injektionen 3-5 dage efter, den var planlagt, skal du injicere den 
+anbefalede dosis så hurtigt som muligt. Tag de næste doser med 5 dages mellemrum, indtil du igen når 
+den planlagte ugedag. 
+Eksempelvis: Normalt tager du den ugentlige Pegasys-injektion om mandagen. Om fredagen 
+kommer du i tanker om, at du glemte at tage injektionen om mandagen (4 dage senere). Du skal 
+nu tage injektionen om fredagen så hurtigt som muligt og tage den næste injektion om onsdagen 
+(5 dage senere). Næste injektion tages om mandagen, 5 dage efter injektionen om onsdagen. Du 
+er nu tilbage i dit regelmæssige skema og skal fortsætte dine injektioner hver mandag. 
+Hvis du opdager, at du har glemt injektionen 6 dage efter, den var planlagt, skal du vente med at tage 
+den indtil næste dag, som er din normalt planlagte dag. 
+Kontakt lægen eller apotekspersonalet, hvis du har brug for hjælp med hensyn til, hvad du skal gøre, 
+hvis du glemmer at tage en Pegasys-dosis. </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for en glemt dosis. 
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Nogle patienter bliver deprimerede, når de tager Pegasys alene eller i kombination med ribavirin, og 
+nogle patienter har haft selvmordstanker eller er blevet aggressive (nogle gange rettet mod andre 
+såsom tanker om at true andre på livet). Nogle patienter har endog begået selvmord. Søg omgående 
+behandling, hvis du bemærker, at du bliver deprimeret eller får selvmordstanker eller hvis din adfærd 
+ændrer sig. Måske bør du overveje at bede et medlem af familien eller en god ven om at hjælpe dig 
+med at være opmærksom på tegn på depression eller ændringer i din adfærd. </p>
+<p>Vækst og udvikling (børn og unge): 
+Nogle børn og unge behandlet med Pegasys for kronisk hepatitis B i 48 uger voksede ikke eller tog 
+ikke på i vægt som forventet for deres alder. Det vides endnu ikke, om de vil vende tilbage til deres 
+forventede højde og vægt efter afsluttet behandling. </p>
+<p>Efter op til et års behandling med Pegasys i kombination med ribavirin er det set, at nogle børn og 
+unge med kronisk hepatitis C ikke er vokset eller har taget på i vægt som forventet. Efter afslutning af 
+behandlingen opnåede  de fleste børn deres forventede højde inden for to år, og hovedparten af de 
+resterende børn inden for seks år efter afsluttet behandling. Der er dog stadig en mulighed for, at 
+Pegasys kan påvirke børnenes voksenhøjde. </p>
+<p>Fortæl straks lægen, hvis du bemærker nogle af følgende bivirkninger: Svære brystsmerter, 
+vedvarende hoste, uregelmæssige hjerteslag, åndedrætsbesvær, konfusion, depression, svære 
+mavesmerter, blod i afføringen (eller sort, tjærefarvet afføring), svær næseblod, feber eller 
+kulderystelser eller problemer med synet. Disse bivirkninger kan være alvorlige og du kan få brug for 
+øjeblikkelig lægehjælp. </p>
+<p>Meget almindelige bivirkninger efter kombinationen af Pegasys og ribavirin (kan påvirke flere end 1 
+ud af 10 patienter) er: </p>
+<p>Metabolisme: Appetitløshed 
+Psykiske forstyrrelser og nervesystemet: Du føler dig deprimeret (føler dig ringe, tænker dårligt om 
+dig selv eller føler dig håbløs), angst, søvnløshed, hovedpine, koncentrationsbesvær og svimmelhed 
+Luftveje: Hoste, kortåndethed 
+Fordøjelsessystemet: Diarré, kvalme og mavesmerter 
+Hud: Hårtab og hudreaktioner (herunder kløe, dermatitis og tør hud) 
+Muskler og knogler: Smerter i led og muskler 
+Almene symptomer: Feber, slaphed, træthed, rystelser, kuldegysninger, smerter, irritation på 
+injektionsstedet og irritabilitet (bliver let sur) </p>
+<p>Almindelige bivirkninger efter kombinationen af Pegasys og ribavirin (kan påvirke op til 1 ud af patienter) er: </p>
+<p>Infektioner: Svampeinfektioner, virale og bakterielle infektioner. Infektion i de øvre luftveje, 
+bronkitis, svampeinfektion i munden og herpes (en almindelig tilbagevendende virusinfektion omkring 
+læber og mund) 
+Blod: Nedsat antal blodplader (påvirker blodets størkningsevne), blodmangel (nedsat antal røde 
+blodceller) og forstørrede lymfekirtler 
+Hormonsystemet: For stærk og for svag funktion af skjoldbruskkirtlen 
+Psykiske forstyrrelser og nervesystemet: Ændring i følelser og stemningsleje, vrede, nervøsitet, nedsat 
+seksuallyst, svækket hukommelse, besvimelse, nedsat muskelstyrke, migræne, følelsesløshed samt 
+prikken og brændende fornemmelse, rysten, smagsforstyrrelser, mareridt, søvnighed 
+Øjne: Sløret syn, smerter i øjnene, øjenbetændelse og tørre øjne 
+Øre: Øresmerter 
+Hjerte og blodkar: Hurtig hjerterytme, pulserende hjerteslag, hævede ekstremiteter, rødmen 
+Luftveje: Kortåndethed ved bevægelse, næseblod, betændelse i næse og hals, infektion i næsen og 
+bihulerne (luftfyldte områder fundet i knoglerne i hoved og ansigt), løbende næse, halsbetændelse 
+Fordøjelsessystemet: Opkastning, mavebesvær, synkebesvær, sår i munden, blødning i gummerne, 
+betændelse i tunge og mund, flatulens (overskud af luft eller gasser i tarmene), mundtørhed og vægttab 
+Hud: Udslæt, øget svedtendens, psoriasis, nældefeber, eksem, lysfølsomhed, nattesved 
+Muskler og knogler: Rygsmerter, inflammation i led (betændelseslignende reaktion), muskelsvaghed, 
+knoglesmerter, nakkesmerter, muskelsmerter, muskelkramper 
+Det reproduktive system: Impotens (manglende evne til at opretholde en erektion) 
+Almene reaktioner: Brystsmerter, influenza-lignende symptomer, utilpashed, ekstrem træthed, 
+hedestigninger, tørst </p>
+<p>Ikke almindelige bivirkninger efter kombinationen af Pegasys og ribavirin (kan påvirke op til 1 ud af 
+100 patienter) er: </p>
+<p>Infektioner: Lungeinfektion, hudinfektion 
+Godartede samt ondartede svulster: Leversvulst 
+Immunsystemet: Sarcoidose (områder med betændt væv over hele kroppen) og betændelse i 
+skjoldbruskkirtlen 
+Hormonsystemet: Diabetes (højt indhold af sukker i blodet) 
+Metaboliske forstyrrelser: Dehydrering<br />
+Psykiske forstyrrelser og nervesystemet: Selvmordstanker og hallucinationer, perifer neuropati 
+(forstyrrelser i nerverne der påvirker ben og arme) 
+Øjne: Blødning i nethinden (bagsiden af øjet) 
+Øre: Høretab 
+Hjerte og blodkar: Højt blodtryk 
+Luftveje: Hiven efter vejret 
+Fordøjelsessystemet: Blødning i mave-tarmkanalen 
+Lever: Dårlig leverfunktion </p>
+<p>Sjældne bivirkninger efter kombinationen af Pegasys og ribavirin (kan påvirke op til 1 ud af 1.patienter) er: </p>
+<p>Infektioner: Hjerteinfektion og infektion i det ydre øre 
+Blod: Svær nedsættelse i antallet af røde blodceller, hvide blodceller samt blodplader 
+Immunsystemet: Svær allergisk reaktion, systemisk lupus erythematosus (en sygdom hvor kroppen 
+angriber egne celler) og kronisk leddegigt (en autoimmun sygdom) 
+Hormonsystemet: Diabetisk ketoacidose (en komplikation, der skyldes ukontrolleret diabetes) 
+Psykiske forstyrrelser og nervesystemet: Selvmord og psykotiske forstyrrelser(svære problemer med 
+personligheden og forringelse af normal social funktion), koma (en dyb vedvarende 
+bevidstløshedstilstand), krampeanfald og ansigtslammelse (svækkelse af ansigtsmusklerne) 
+Øjne: Betændelse i og hævelse af synsnerven, betændelse i nethinden og sår på hornhinden 
+Hjerte og blodkar: Hjerteanfald, hjertesvigt, smerter i hjertet, hurtig hjerterytme, rytmeforstyrrelser 
+eller betændelse i hjertets beklædning og hjertemuskel, hjerneblødning og betændelse i blodkarrene 
+Luftveje: Interstitiel pneumoni (lungebetændelse inklusive dødelig udgang) og blodprop i lungerne 
+Fordøjelsessystemet: Mavesår og betændelse i bugspytkirtlen 
+Lever: Nedsat leverfunktion, betændelse i galdegangen og fedtlever 
+Muskler og knogler: Muskelbetændelse 
+Nyrer: Nedsat nyrefunktion 
+Traumer og forgiftninger: Overdosering </p>
+<p>Meget sjældne bivirkninger efter kombinationen af Pegasys og ribavirin (kan påvirke op til 1 ud af 
+10.000 patienter) er: </p>
+<p>Blod: Aplastisk anæmi (svigt i knoglemarvens produktion af røde blodceller, hvide blodceller og 
+blodplader). 
+Immunsystemet: Idiopatisk (eller trombotisk) trombocytopenisk purpura (flere blå mærker, blødning, 
+nedsat antal blodplader, blodmangel og ekstrem svaghed) 
+Øjne: Synstab 
+Hud: Toksisk epidermal nekrolyse/Stevens-Johnsons syndrom/erytem multiforme (en række udslæt 
+med forskellige sværhedsgrader, herunder dødsfald, som kan være forbundet med blister i munden, 
+næsen, øjnene og andre slimhinder samt afstødning af væv fra de angrebne hudområder) og 
+angioødem (hævelse af hud og slimhinder). </p>
+<p>Bivirkninger, hvor frekvensen ikke kendes: </p>
+<p>Blod: Pure red cell aplasia (en alvorlig form for blodmangel, hvor produktionen af de røde blodceller 
+er nedsat eller ophørt). Det kan give symptomer, såsom en følelse af at være meget træt og uden 
+energi. 
+Immunsystemet: Vogt-Koyanagi-Haradas syndrom (en sjælden sygdom karakteriseret ved tab af syn, 
+hørelse og hudpigmentering, afstødelse af transplanteret lever eller nyre). 
+Psykiske forstyrrelser og nervesystemet: Mani (episoder med overdrevet opstemthed) og manio-
+depressiv sindslidelse (episoder med overdreven opstemthed, som veksler med tungsind og 
+håbløshed), tanker om at true andre på livet, slagtilfælde 
+Øjne: Sjælden form for løsrivelse af nethinden med væske i nethinden. 
+Hjerte og blodkar: Perifer iskæmi (utilstrækkelig blodtilførsel til arme og ben) 
+Fordøjelsessystemet: Iskæmisk colitis (utilstrækkelig blodforsyning til tarmene) , ændring af farven på 
+tungen 
+Muskler og knogler: Alvorlig muskelskade og muskelsmerte. 
+Luftveje: Pulmonal arteriel hypertension - en sygdom, der medfører svær forsnævring af blodkarrene i 
+lungerne med deraf følgende højt blodtryk i de blodkar, der fører blodet fra hjertet til lungerne. Dette 
+kan navnlig forekomme hos patienter med risikofaktorer såsom hivinfektion eller svære 
+leverproblemer (cirrose). Bivirkningerne kan indtræde på forskellige tidspunkter under behandlingen, 
+typisk flere måneder efter påbegyndelse af behandlingen med Pegasys.  </p>
+<p>Hvis Pegasys anvendes som eneste præparat hos patienter med hepatitis B eller C forekommer nogle 
+af disse bivirkninger sjældnere. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pegasys"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pegasys"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Opbevar hætteglasset i den ydre karton for at 
+beskytte mod lys. </p>
+<p>Brug ikke dette lægemiddel, hvis du opdager, at hætteglasset eller pakningen er beskadiget, hvis 
+opløsningen er uklar, eller hvis den indeholder partikler, eller hvis den ikke er farveløs eller lysegul, 
+men har en anden farve. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pegasys indeholder 
+● 
+Aktivt stof: peginterferon alfa-2a. Hvert hætteglas med 1,0 ml opløsning indeholder 
+180 mikrogram peginterferon alfa-2a. 
+● 
+Øvrige indholdsstoffer: natriumchlorid, polysorbat 80, benzylalkohol, natriumacetat, eddikesyre 
+og vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser 
+Pegasys findes som injektionsvæske, opløsning i et hætteglas (1 ml). Det findes i pakninger, der 
+indeholder 1 eller 4 enkeltdosis hætteglas. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+pharmaand GmbH 
+Taborstrasse 1<br />
+1020 Wien 
+Østrig </p>
+<p>Fremstiller 
+Loba biotech GmbH 
+Fehrgasse 7 
+2401 Fischamend 
+Østrig </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>Hvordan foretages injektion af Pegasys </p>
+<p>Nedenstående anvisninger forklarer, hvordan Pegasys enkeltdosishætteglas anvendes, når du skal give 
+dig selv eller dit barninjektionen. Læs anvisningerne omhyggeligt og følg dem trin for trin. Lægen 
+eller dennes assistent vil instruere dig i, hvordan du giver injektionerne. </p>
+<p>Forberedelser </p>
+<p>Vask hænderne grundigt, før du foretager dig yderligere: </p>
+<p>Tag de nødvendige ting frem, før du påbegynder injektionen: 
+Indlagt i pakningen: 
+● 
+et hætteglas med Pegasysopløsning til injektion 
+Ikke indlagt i pakningen: 
+● 
+en 1 ml sprøjte 
+● 
+en lang kanyle til at trække Pegasys op af hætteglasset 
+● 
+en kort kanyle til subkutan injektion 
+● 
+et stykke vat<br />
+● 
+et lille plaster eller steril gaze 
+● 
+hæfteplaster 
+● 
+en beholder til affald </p>
+<p>Afmåling af Pegasysdosis </p>
+<ul>
+<li>
+<p>Fjern beskyttelseshætten fra Pegasys hætteglasset (1).  </p>
+</li>
+<li>
+<p>Rens gummiet på toppen af hætteglasset med et stykke rensevat.<br />
+Du kan gemme vattet til at rense huden, hvor du vil injicere Pegasys.  </p>
+</li>
+<li>
+<p>Tag sprøjten ud af pakningen. Rør ikke ved spidsen af sprøjten.  </p>
+</li>
+<li>
+<p>Tag den lange kanyle og sæt den fast på spidsen af sprøjten (2).  </p>
+</li>
+<li>
+<p>Fjern beskyttelseshætten fra kanylen uden at røre ved kanylen og behold sprøjten med kanylen i 
+hånden.  </p>
+</li>
+<li>
+<p>Stik kanylen gennem gummihætten på toppen af hætteglasset med Pegasys (3).  </p>
+</li>
+<li>
+<p>Hold hætteglas og sprøjte i den ene hånd og vend hætteglasset opad og sprøjten nedad (4).  </p>
+</li>
+</ul>
+<p>4 </p>
+<p>Med sprøjten pegende opad forvisser du dig om, at kanylens spids befinder sig i Pegasysopløsningen. 
+Den anden hånd har du fri til at bevæge sprøjtens stempel.  </p>
+<ul>
+<li>
+<p>Træk langsomt stemplet tilbage for at trække lidt mere end den ordinerede dosis op i sprøjten.  </p>
+</li>
+<li>
+<p>Hold sprøjten med kanylen i hætteglasset pegende opad og fjern, uden at røre ved spidsen af 
+sprøjten, sprøjten fra den lange kanyle, mens kanylen bliver i hætteglasset.  </p>
+</li>
+<li>
+<p>Tag den korte kanyle og sæt den fast på spidsen af sprøjten (5).  </p>
+</li>
+<li>
+<p>Fjern beskyttelseshætten fra kanylen på sprøjten.  </p>
+</li>
+<li>
+<p>Tjek sprøjten for luftbobler. Hvis du bemærker luftbobler, skal du langsomt trække stemplet 
+tilbage. For at fjerne luftboblerne skal du holde sprøjten med kanylen pegende opad. Bank let på 
+sprøjten for at få boblerne op til toppen. Skub langsomt stemplet op til den korrekte dosis. Sæt 
+beskyttelseshætten tilbage på kanylen og anbring sprøjten i vandret stilling, indtil den skal 
+bruges. </p>
+</li>
+<li>
+<p>Sørg for, at opløsningen har stuetemperatur, før injektionen eller varm sprøjten mellem 
+håndfladerne. </p>
+</li>
+<li>
+<p>Undersøg opløsningen visuelt før administrationen: Anvend den ikke, hvis den er misfarvet, 
+eller hvis den indeholder partikler. Du er nu klar til at injicere en dosis. </p>
+</li>
+</ul>
+<p>Injektion af opløsningen </p>
+<ul>
+<li>
+<p>Vælg et injektionssted på maven eller låret (bortset fra navlen eller taljen). Skift injektionssted 
+hver gang. </p>
+</li>
+<li>
+<p>Rens og desinficer huden, hvor injektionen skal foretages, med et stykke vat.  </p>
+</li>
+<li>
+<p>Vent til huden er tør.  </p>
+</li>
+<li>
+<p>Fjern beskyttelseshætten fra kanylen.  </p>
+</li>
+<li>
+<p>Klem med den ene hånd en løs hudfold sammen. Tag sprøjten i den anden hånd, ligesom du 
+holder på en blyant.  </p>
+</li>
+<li>
+<p>Stik kanylen helt ind i den sammenklemte hud i en vinkel på 45° til 90° (6).  </p>
+</li>
+<li>
+<p>Injicer opløsningen ved blidt at skubbe stemplet helt i bund. </p>
+</li>
+<li>
+<p>Træk kanylen ud af huden.  </p>
+</li>
+<li>
+<p>Tryk på injektionsstedet med en lille bandage eller med et sterilt gazebind, om nødvendigt i et 
+par sekunder.  </p>
+</li>
+</ul>
+<p>Lad være med at massere injektionsstedet. Hvis det bløder, dækkes til med et plaster. </p>
+<p>Bortskaffelse af injektionsmaterialet </p>
+<p>Sprøjten, kanylen og al injektionsmateriale er beregnet til engangsbrug og skal bortkastes efter 
+injektionen. Anbring sprøjten og kanylen sikkert i en lukket beholder. Spørg lægen, sygehuset eller 
+apotekspersonalet om en egnet beholder.<br />
+Indlægsseddel: Information til brugeren </p>
+<p>Pegasys 90 mikrogram injektionsvæske, opløsning i en fyldt injektionssprøjte 
+Pegasys 135 mikrogram injektionsvæske, opløsning i en fyldt injektionssprøjte 
+Pegasys 180 mikrogram injektionsvæske, opløsning i en fyldt injektionssprøjte 
+peginterferon alfa-2a </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+● 
+Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
+● 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+● 
+Lægen har ordineret Pegasys til dig personligt. Lad derfor være med at give lægemidlet til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+● 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0b227cd2a54454e66a70766913e35ba2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pegasys Package Leaflet for language en"
+Description: "ePI document Bundle for pegasys Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0b227cd2a54454e66a70766913e35ba2"
+* entry[0].resource = composition-en-0b227cd2a54454e66a70766913e35ba2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0b227cd2a54454e66a70766913e35ba2"
+* entry[=].resource = mp0b227cd2a54454e66a70766913e35ba2
+                            
+                    
+Instance: bundlepackageleaflet-da-0b227cd2a54454e66a70766913e35ba2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pegasys Package Leaflet for language da"
+Description: "ePI document Bundle for pegasys Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0b227cd2a54454e66a70766913e35ba2"
+* entry[0].resource = composition-da-0b227cd2a54454e66a70766913e35ba2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0b227cd2a54454e66a70766913e35ba2"
+* entry[=].resource = mp0b227cd2a54454e66a70766913e35ba2
+                            
+                    
+
+
+
+Instance: mp0b227cd2a54454e66a70766913e35ba2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Pegasys 180 micrograms solution for injection"
-Description: "Pegasys 180 micrograms solution for injection"
+Title: "Medicinal Product pegasys"
+Description: "pegasys"
 Usage: #inline
 
  
@@ -542,7 +1222,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Pegasys 180 micrograms solution for injection"
+  * productName = "pegasys"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -569,29 +1249,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0b227cd2a54454e66a70766913e35ba2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for pegasys Package Leaflet for language en"
-Description: "ePI document Bundle for pegasys Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0b227cd2a54454e66a70766913e35ba2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Pegasys 180 micrograms solution for injection"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "pegasys"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0b227cd2a54454e66a70766913e35ba2"
-* entry[0].resource = composition-en-0b227cd2a54454e66a70766913e35ba2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp77f41e5fe647bc1f9ee4b4b2f15dd315"
-* entry[=].resource = mp77f41e5fe647bc1f9ee4b4b2f15dd315
-                            
-                      
+* title = "List of all ePIs associated with pegasys"
+
+* subject = Reference(mp77f41e5fe647bc1f9ee4b4b2f15dd315)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#pegasys "pegasys"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0b227cd2a54454e66a70766913e35ba2) // pegasys en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0b227cd2a54454e66a70766913e35ba2) // pegasys da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0b227cd2a54454e66a70766913e35ba2
+InstanceOf: List
+
+* insert 0b227cd2a54454e66a70766913e35ba2ListRuleset
+    

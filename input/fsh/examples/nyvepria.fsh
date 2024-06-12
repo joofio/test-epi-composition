@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-51634c89fd4b34ec036bc5c7b8243dfa
 InstanceOf: CompositionUvEpi
 Title: "Composition for nyvepria Package Leaflet"
@@ -446,12 +449,613 @@ Apply a plaster if needed.</p>         </div>"""
 
 
 
+Instance: composition-da-51634c89fd4b34ec036bc5c7b8243dfa
+InstanceOf: CompositionUvEpi
+Title: "Composition for nyvepria Package Leaflet"
+Description:  "Composition for nyvepria Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp690d92d0f03da279d152968209c68415)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp690d92d0f03da279d152968209c68415
+* title = "TEST PURPOSES ONLY - nyvepria"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal De vide, før De begynder at bruge Nyvepria
+3. Sådan skal De bruge Nyvepria
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What nyvepria is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What nyvepria is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nyvepria indeholder det aktive stof pegfilgrastim. Det bruges til at behandle patienter, som er blevet
+behandlet med kemoterapi (der ødelægger hurtigt voksende celler) til at nedsætte varigheden af 
+neutropeni (for få hvide blodlegemer) og forekomsten af febergivende neutropeni (for få hvide 
+blodlegemer og feber). Nyvepria er beregnet til voksne på 18 år eller derover.
+Hvide blodlegemer er vigtige, da de hjælper Deres krop med at bekæmpe infektion. Hvis antallet af 
+hvide blodlegemer falder til et lavt niveau, er der risiko for, at der ikke er nok celler tilbage i kroppen 
+til at bekæmpe bakterier, og derfor kan De have en øget risiko for infektion. Pegfilgrastim ligner 
+meget et naturligt protein i kroppen, der kaldes granolocytkoloni-stimulerende faktor). Det virker ved 
+at stimulere Deres knoglemarv til at producere flere hvide blodlegemer, der hjælper Deres krop med at 
+bekæmpe infektioner.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take nyvepria"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take nyvepria"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Nyvepria
+•
+hvis De er allergisk over for pegfilgrastim, filgrastim eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før De tager Nyvepria, hvis De:
+•
+for nylig har haft en alvorlig lungebetændelse (pneumoni), væske i lungerne (lungeødem), 
+24
+inflammation (betændelseslignende reaktion) i lungerne (interstitiel lungesygdom) eller fået 
+taget røntgenbilleder af brystet, der viste unormale forhold (lungeinfiltration).
+•
+er klar over, at De har ændrede blodtal (for eksempel en stigning i hvide blodlegemer eller 
+anæmi) eller fald i antallet af blodplader (trombocytopeni), hvilket reducerer blodets evne til at 
+størkne. Deres læge vil muligvis overvåge Dem nøjere.
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før De tager Nyvepria, hvis De:
+•
+er patient med bryst- eller lungekræft, da pegfilgrastim i kombination med kemoterapi og/eller
+stråleterapi kan øge Deres risiko for en blodsygdom, som er et forstadie til kræft, og som 
+kaldes myelodysplastisk syndrom (MDS), eller en form for blodkræft, som kaldes akut 
+myeloid leukæmi (AML). Symptomerne kan omfatte træthed, feber og tendens til blå mærker 
+eller blødning.
+•
+får en allergisk reaktion, herunder svaghedsfølelse, blodtryksfald, åndedrætsbesvær, hævelse i 
+ansigtet, læber, tunge eller andre steder på kroppen (anafylaksi), rødme og hedeture,
+hududslæt eller nældefeber og kløende områder på huden.
+•
+får hoste, feber og åndedrætsbesvær. Det kan være et tegn på shocklunge (ARDS).
+•
+får en eller flere af følgende bivirkninger:
+-
+hævelse eller oppustethed, som kan være forbundet med sjældnere vandladning, 
+åndedrætsbesvær, oppustet mave og mæthedsfølelse samt en generel følelse af træthed.
+Dette kan være symptomer på en tilstand, der kaldes for “kapillær lækage-syndrom", som får 
+blodet til at lække fra de små blodkar ud i kroppen. Se afsnit 4. •
+får smerter øverst i maveregionen eller smerter yderst på skulderen. Det kan være tegn på 
+problemer med milten (forstørret milt).
+•
+får feber, mavesmerter, utilpashed og rygsmerter, det kan være tegn på betændelse i den store 
+pulsåre (der transporterer blodet fra hjertet ud i kroppen). Disse symptomer opstår sjældent hos 
+hos kræftpatienter og raske donorer.
+Deres læge vil regelmæssigt kontrollere Deres blod og urin, da Nyvepria kan beskadige de bittesmå 
+filtre i nyrerne (glomerulonefritis).
+Der er rapporteret om alvorlige hudreaktioner (Stevens-Johnsons syndrom, en hudlidelse med 
+smertefulde vabler, sår i huden og på slimhinder især i munden) ved brug af pegfilgrastim. Hold op 
+med at bruge Nyvepria, og søg øjeblikkeligt lægehjælp, hvis De bemærker rødlige pletter, der ligner 
+målskiver eller cirkler og ofte har blærer i midten på brystet, hudafskalning, sår i munden, svælget, 
+næsen, kønsorganerne eller øjnene, og som eventuelt starter med feber eller influenzalignende 
+symptomer. Se afsnit 4. Tal med Deres læge om risikoen for at udvikle kræft i blodet. Hvis De udvikler kræft i blodet, eller det 
+er sandsynligt, at De vil gøre det, bør De ikke bruge Nyvepria, medmindre Deres læge sagt, at De skal 
+gøre det.
+Manglende virkning af pegfilgrastim
+Hvis pegfilgrastim behandlingen ikke virker, eller hvis virkningen ikke opretholdes, vil Deres læge 
+undersøge grunden til det, for eksempel om De har udviklet antistoffer, der kan neutralisere 
+pegfilgrastims aktivitet.
+Børn og unge
+Nyvepria anbefales ikke til børn og unge på grund af utilstrækkelige information om sikkerhed og 
+virkning af Nyvepria.
+Brug af anden medicin sammen med Nyvepria
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger anden medicin eller har gjort det for 
+nylig.
+25
+Graviditet og amning
+Hvis De er gravid eller ammer, har mistanke om, at De kan være gravid, eller planlægger at blive 
+gravid, skal De spørge lægen eller apotekspersonalet, før De tager dette lægemiddel.
+Nyvepria er ikke undersøgt hos gravide kvinder. Derfor kan lægen beslutte, at De ikke bør tage dette 
+lægemiddel.
+Hvis De bliver gravid, mens De behandles med Nyprevia, skal De kontakte lægen.
+Medmindre lægen kommer med andre anbefalinger, bør De stoppe med at amme, hvis De er i 
+behandling med Nyvepria.
+Trafik- og arbejdssikkerhed
+Nyvepria har ingen eller kun ubetydelig virkning på evnen til at køre bil og betjene maskiner.
+Nyvepria indeholder sorbitol (E420) og natrium
+Dette lægemiddel indeholder 30 mg sorbitol i hver fyldt injektionssprøjte, hvilket svarer til 50 mg/ml.
+Den additive virkning af samtidigt administrerede produkter indeholdende fructose (eller sorbitol) og 
+diætindtagelse af fructose (eller sorbitol) bør tages i betragtning.
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 6 mg dosis, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nyvepria"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nyvepria"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nyvepria er beregnet til voksne fra 18 år og opefter.
+Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet.
+Den anbefalede dosis er én 6 mg subkutan indsprøjtning (indsprøjtning under huden) ved hjælp af en 
+fyldt injektionssprøjte, og den bør gives mindst 24 timer efter Deres sidste dosis kemoterapi ved 
+afslutningen af hver kemoterapi-cyklus.
+Hvis De selv skal foretage indsprøjtning med Nyvepria
+Deres læge kan beslutte, at De selv indsprøjter Nyvepria. Deres læge eller sygeplejerske vil vise Dem, 
+hvordan De tager en indsprøjtning. Prøv ikke selv at indsprøjte, hvis De ikke er blevet undervist heri.
+Læs sidste pkt. i denne indlægsseddel for at få vejledning i, hvordan De selv indsprøjter Nyvepria.
+Ryst ikke Nyvepria kraftigt, da dette kan have negativ indflydelse på dets virkning.
+Hvis De har brugt for meget Nyvepria
+Kontakt Deres læge, sygeplejerske eller apotek for at få et råd, hvis De har taget mere Nyvepria, end 
+De skal.
+Hvis De har glemt at bruge Nyvepria
+Hvis De selv foretager injektionerne og har glemt en dosis Nyvepria, kontakt da Deres læge for at 
+aftale, hvornår De skal tage den næste dosis.
+26
+Er De i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Fortæl det straks til Deres læge, hvis De får en af følgende bivirkninger:
+•
+hævelse eller oppustethed, sjældnere vandladning, åndedrætsbesvær, oppustet mave og 
+mæthedsfølelse samt en generel følelse af træthed Disse symptomer opstår generelt hurtigt.
+Det kan være symptomer på en ikke almindelig tilstand (kan ramme op til 1 ud af 100 personer), der 
+kaldes for “kapillærlækage-syndrom", som medfører, at der siver blod fra de små blodkar ud i 
+kroppen. Denne tilstand kræver øjeblikkelig behandling.
+Meget almindelige: kan ramme flere end 1 ud af 10 personer
+•
+smerter i knoglerne. Deres læge vil fortælle Dem, hvad De kan tage for at lindre 
+knoglesmerterne.
+•
+kvalme og hovedpine.
+Almindelige: kan ramme op til 1 ud af 10 personer
+•
+smerte ved injektionsstedet.
+•
+generel ømhed og smerter i led og muskler.
+•
+der kan forekomme forandringer i blodet, men de vil blive opdaget ved de rutinemæssige 
+blodprøver. Antallet af hvide blodlegemer kan blive kortvarigt forøget. Antallet af blodplader 
+kan blive reduceret, hvilket kan medføre blå mærker.
+•
+smerter i brystet, som ikke er relateret til hjerteproblemer
+Ikke almindelige: kan ramme op til 1 ud af 100 personer
+•
+allergi-lignende reaktioner, herunder rødmen, hududslæt og kløende hævelser af huden.
+•
+alvorlige allergiske reaktioner, herunder anafylaksi (svaghed, blodtryksfald, åndedrætsbesvær, 
+hævelse i ansigtet).
+•
+forstørret milt (milten er et organ i bughulen til venstre for mavesækken, som fjerner blodceller 
+og er en del af immunsystemet). Fortæl lægen, hvis De mærker en forstørrelse i øverste venstre 
+side af maven.
+•
+bristet milt (miltruptur), som kan være dødelig. Det er vigtigt, at De kontakter lægen med det 
+samme, hvis De får smerter i den øverste venstre side af maven eller op mod venstre skulder, da 
+dette kan skyldes problemer med milten.
+•
+åndedrætsproblemer. Hvis De får hoste, feber og åndedrætsbesvær, skal De kontakte lægen.
+•
+Sweet’s syndrom (blommefarvede, hævede og smertefulde læsioner på lemmer og nogle gange i 
+ansigtet og på halsen i forbindelse med feber).
+•
+kutan vaskulitis (irritation eller betændelse i blodkarrene i huden).
+•
+beskadigelse af nyrerne (glomerulonefritis).
+•
+rødme på injektionsstedet.
+•
+ophostning af blod (hæmoptyse).
+•
+blodsygdomme (myelodysplastisk syndrom (MDS) eller akut myeloid leukæmi (AML)).
+Sjældne: kan ramme op til 1 ud af 1.000 personer
+•
+betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i kroppen). Se afsnit 2. •
+blødning i lungerne (pulmonal blødning).
+•
+Stevens-Johnsons syndrom, som kan vise sig på brystet som rødlige pletter, der ligner målskiver 
+eller cirkler og ofte har blærer i midten, hudafskalning, sår i munden, svælget, næsen, 
+kønsorganerne og øjnene, med feber eller influenzalignende symptomer. Hold op med at bruge 
+Nyvepria, hvis De udvikler disse symptomer, og kontakt Deres læge, eller søg øjeblikkeligt 
+lægehjælp. Se også afsnit 2. 27
+Indberetning af bivirkninger
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelsstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store nyvepria"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nyvepria"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og på injektionssprøjtens etiket. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares i køleskab (2°C - 8°C).
+De må tage Nyvepria ud af køleskabet og opbevare det ved stuetemperatur (ikke over 25°C) i højst 
+15 dage. I det øjeblik en injektionssprøjte tages ud af køleskabet, og har nået stuetemperatur (ikke 
+over 25°C), skal den anvendes indenfor 15 dage eller bortskaffes.
+Må ikke nedfryses. Nyvepria kan anvendes, hvis det ved et uheld har været nedfrosset en enkelt gang i 
+mindre end 24 timer.
+Opbevar beholderen i den ydre karton for at beskytte mod lys.
+Brug ikke lægemidlet, hvis De bemærker, at det er grumset eller at der er partikler i det.
+Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Nyvepria indeholder:</h2>
+<p>Aktivt stof: pegfilgrastim. Hver fyldt injektionssprøjte indeholder 6 mg pegfilgrastim i 0,6 ml 
+opløsning.
+-
+Øvrige indholdsstoffer: natriumacetattrihydrat, iseddikesyre, sorbitol (E420), polysorbat 20 og 
+vand til injektionsvæsker. (se afsnit 2 "Nyvepria indeholder Sorbitol (E420) og natriumacetat").
+Udseende af Nyvepria og pakningsstørrelser
+Nyvepria er en klar, farveløs, opløsning uden synlige partikler til injektion i en fyldt injektionssprøjte 
+(6 mg/0,6 ml).
+Hver pakning indeholder 1 fyldt injektionssprøjte af glas med en påsat kanyle af rustfrit stål og 
+nålehætte og en automatisk kanylebeskyttelse.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+28
+Fremstiller
+Hospira Zagreb d.o.o.
+Prudnička cesta 60
+10291 Prigorje Brdovečko
+Kroatien
+Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Kύπρος
+PFIZER EΛΛAΣ A.E. (CYPRUS BRANCH)
+T: +357 22 817690
+Česká Republika
+Pfizer, spol. s r.o.
+Tel: +420-283-004-111
+Magyarország
+Pfizer Kft.
+Tel: +36 1 488 3700
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Malta
+Drugsales Ltd
+Tel: +356 21 419 070/1/2
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Tel: +31 (0)10800 4063 434 01636
+Pfizer bv
+Tel: +31 (0)10 406 43 01
+България
+Пфайзер Люксембург САРЛ,
+Клон България
+Teл: +359 2 970 4333
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+PFIZER EΛΛAΣ A.E.
+Τηλ.: +30 210 67 85 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL, Pfizer, podružnica
+za svetovanje s področja farmacevtske
+dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+29
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská Republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Tel: +354 540 8000
+Suomi/Finland
+Pfizer PFE Finland Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel. +371 67035775
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. +3705 2514000
+Denne indlægsseddel blev senest ændret .Andre informationskilder
+De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+30
+Brugervejledning for anvendelse af Nyvepria:
+Vejledning til delene
+Inden brug
+Efter brug
+Vigtigt
+Læs disse vigtige informationer, inden De tager den fyldte Nyvepria -injektionssprøjte med 
+automatisk kanylebeskyttelse i brug:
+
+Det er vigtigt, at De ikke forsøger at give Dem selv injektionen, medmindre De har fået 
+instruktioner af Deres læge eller sygeplejersken. Hvis De har spørgsmål til, hvordan man 
+injicerer, skal De kontakte lægen eller sygeplejersken for at få hjælp.
+
+Kontrollér, at navnet Nyvepria vises på kartonen og på etiketten på den fyldte injektionssprøjte.
+
+Kontrollér kartonen og den fyldte injektionssprøjte for at sikre, at doseringsstyrken er 6 mg 
+(6 mg/0,6 ml).
+
+Nyvepria gives som en injektion i vævet lige under huden (subkutan injektion).
+
+Brug ikke den fyldte injektionssprøjte, hvis udløbsdatoen er overskredet.
+
+Tag ikke kanylehætten af den fyldte injektionssprøjte, før De er klar til at tage injektionen.
+
+Brug ikke den fyldte injektionssprøjte, hvis De har tabt den på en hård overflade. Brug en ny 
+fyldt injektionssprøjte og kontakt Deres læge eller sygeplejersken.
+
+Forsøg ikke at aktivere den fyldte injektionssprøjte inden injektionen.
+
+Forsøg ikke at tage den gennemsigtige kanylebeskyttelse af den fyldte injektionssprøjte.
+
+Forsøg ikke at fjerne den aftagelige etiket på den fyldte beholder, inden injektionen gives.
+Kontakt Deres læge eller sygeplejersken, hvis De har spørgsmål.
+31
+Trin 1: Forberedelse
+A
+Tag kartonen med den fyldte injekstionssprøjte ud af køleskabet. Tag den indvendige karton 
+med fyldt injektionssprøjte ud af den udvendige karton ved at trække coveret af, og saml de ting 
+sammen, der skal bruges til injektionen: afspritningsservietter, vat eller gazekompresser, plaster 
+og en kanylebøtte (følger ikke med).
+Lad den fyldte injektionssprøjte ligge ved stuetemperatur (ikke over 25°C) i cirka 30 minutter. Det vil 
+gøre injektionen mere behagelig. Vask Deres hænder grundigt med vand og sæbe.
+Anbring den fyldte injektionssprøjte og de øvrige materialer på en ren overflade, hvor lyset er godt.
+
+Opvarm ikke den fyldte injektionssprøjte i varmt vand eller mikrobølgeovn.
+
+Lad ikke den fyldte injektionssprøjte ligge i direkte sollys.
+
+Ryst ikke den fyldte injektionssprøjte.
+•
+Opbevar de fyldte injektionssprøjter utilgængeligt for børn.
+B
+Åbn den indvendige karton med injektionssprøjten ved at trække emballagen af. Tag fat i 
+injektionssprøjtens kanylebeskyttelse, og tag den fyldte injektionssprøjte ud af kartonen.
+Af sikkerhedsmæssige grunde:
+
+Hold ikke på stempelstangen
+
+Hold ikke på kanylehætten
+C
+Kontrollér lægemidlet og den fyldte injektionssprøjte.
+
+Brug ikke den fyldte injektionssprøjte, hvis:
+•
+Lægemidlet er grumset, eller der er partikler i den. Det skal være en klar og farveløs 
+væske.
+•
+Der er dele, som ser ud til at være revnede eller ødelagte.
+•
+Kanylehætte mangler eller ikke er sat ordentligt på.
+•
+Udløbsdatoen, der er trykt på etiketten, er overskredet (den sidste dag i den viste måned 
+er passeret).
+Hvis noget af ovenstående er tilfældet, skal De kontakte Deres læge eller sygeplejersken.
+32
+Trin 2: Klargøring
+A
+Vask Deres hænder grundigt. Klargør og afrens injektionsstedet.
+De kan bruge:
+•
+et sted på den øverste del af lårene
+•
+maven, bortset fra et område på 5 cm omkring navlen
+•
+forsiden af overarmen (kun, hvis en anden person giver Dem injektionen)
+Afrens injektionsstedet med en afspritningsserviet. Lad huden tørre. 
+
+Rør ikke ved injektionsstedet inden injektionen
+Giv ikke injektionen på steder, hvor huden er øm, ødelagt, rød eller hård. Undgå at injicere på 
+steder, hvor der er ar eller strækmærker.
+33
+B
+Hold fast i den fyldte injektionssprøjte ved nålebeskyttelsen. Træk forsigtigt kanylehætten af i 
+en lige bevægelse væk fra kroppen. Kassér kanylehætten i beholderen til skarpe genstande. 
+Sæt ikke hætten på igen.</p>
+<p>C
+Tag fat i huden på injektionsstedet, så der dannes en fast fold.
+Det er vigtigt, at huden også klemmes sammen under injektionen.
+34
+Trin 3: Injektion
+A
+Bliv ved med at holde sammen på huden. STIK kanylen ind i huden ved en vinkel på 45 til grader.
+
+Rør ikke ved det afrensede område af huden.
+B
+PRES stempelstangen ned med et langsomt og konstant tryk, indtil det når bunden.
+35
+C
+LØFT derefter sprøjten væk fra huden, når den er tom.
+Injektionssprøjtens kanylebeskyttelse vil dække kanylen, når stempelstangen slippes.
+
+Sæt ikke kanylehætten på igen på en brugt injektionssprøjte.
+Hvis det ser ud til, at der stadig er medicin i beholderen, når du fjerner injektionssprøjten, 
+betyder det, at du ikke har modtaget fuld dosis. Kontakt lægen eller en sundhedsperson med 
+det samme.
+36
+Kun for læger og sundhedspersonale
+Handelsnavnet på det administrerede præparat skal registreres tydeligt i patientjournalen.
+Tag etiketten på den fyldte injektionssprøjte af og gem den.
+Drej på stempelstangen for at få etiketten i en position, hvor den kan tages af.
+Trin 4: Afslut
+A
+Kassér den brugte injektionssprøjte og andre materialer i en kanylebøtte.
+Medicin skal bortskaffes i overensstemmelse med lokale retningslinjer. Spørg apotekspersonalet, 
+hvordan De skal bortskaffe medicinrester. Disse forholdsregler er med til at beskytte miljøet.
+Opbevar injektionssprøjter og kanylebøtte utilgængeligt for børn.
+
+Den fyldte injektionssprøjte må ikke genbruges
+
+Brugte injektionssprøjter må ikke smides til genbrug eller kasseres sammen med 
+husholdningsaffaldet
+B
+Undersøg injektionsstedet.
+Tryk en tot vat eller et gazekompres ned på injektionsstedet, hvis det bløder. Gnid ikke på 
+injektionsstedet. Sæt om nødvendigt et plaster på.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-51634c89fd4b34ec036bc5c7b8243dfa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nyvepria Package Leaflet for language en"
+Description: "ePI document Bundle for nyvepria Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-51634c89fd4b34ec036bc5c7b8243dfa"
+* entry[0].resource = composition-en-51634c89fd4b34ec036bc5c7b8243dfa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp51634c89fd4b34ec036bc5c7b8243dfa"
+* entry[=].resource = mp51634c89fd4b34ec036bc5c7b8243dfa
+                            
+                    
+Instance: bundlepackageleaflet-da-51634c89fd4b34ec036bc5c7b8243dfa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nyvepria Package Leaflet for language da"
+Description: "ePI document Bundle for nyvepria Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-51634c89fd4b34ec036bc5c7b8243dfa"
+* entry[0].resource = composition-da-51634c89fd4b34ec036bc5c7b8243dfa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp51634c89fd4b34ec036bc5c7b8243dfa"
+* entry[=].resource = mp51634c89fd4b34ec036bc5c7b8243dfa
+                            
+                    
+
+
+
+Instance: mp51634c89fd4b34ec036bc5c7b8243dfa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Nyvepria 6 mg solution for injection"
-Description: "Nyvepria 6 mg solution for injection"
+Title: "Medicinal Product nyvepria"
+Description: "nyvepria"
 Usage: #inline
 
  
@@ -471,7 +1075,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Nyvepria 6 mg solution for injection"
+  * productName = "nyvepria"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -498,29 +1102,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-51634c89fd4b34ec036bc5c7b8243dfa
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for nyvepria Package Leaflet for language en"
-Description: "ePI document Bundle for nyvepria Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 51634c89fd4b34ec036bc5c7b8243dfaListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1486/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "nyvepria"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-51634c89fd4b34ec036bc5c7b8243dfa"
-* entry[0].resource = composition-en-51634c89fd4b34ec036bc5c7b8243dfa
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp690d92d0f03da279d152968209c68415"
-* entry[=].resource = mp690d92d0f03da279d152968209c68415
-                            
-                      
+* title = "List of all ePIs associated with nyvepria"
+
+* subject = Reference(mp690d92d0f03da279d152968209c68415)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#nyvepria "nyvepria"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-51634c89fd4b34ec036bc5c7b8243dfa) // nyvepria en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-51634c89fd4b34ec036bc5c7b8243dfa) // nyvepria da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-51634c89fd4b34ec036bc5c7b8243dfa
+InstanceOf: List
+
+* insert 51634c89fd4b34ec036bc5c7b8243dfaListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8e4b99b58ac1302c60e1a3d75920f33f
 InstanceOf: CompositionUvEpi
 Title: "Composition for otezla Package Leaflet"
@@ -430,12 +433,669 @@ www.otezla-eu-pil.com. </p>
 
 
 
+Instance: composition-da-8e4b99b58ac1302c60e1a3d75920f33f
+InstanceOf: CompositionUvEpi
+Title: "Composition for otezla Package Leaflet"
+Description:  "Composition for otezla Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb26c48d16067cf21ad4f0d13a74c4874)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb26c48d16067cf21ad4f0d13a74c4874
+* title = "TEST PURPOSES ONLY - otezla"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Otezla </li>
+<li>Sådan skal du tage Otezla </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What otezla is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What otezla is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning </p>
+<p>Otezla indeholder det aktive stof ’apremilast’. Det tilhører en gruppe af lægemidler, der kaldes 
+phosphodiesterase 4-hæmmere, som hjælper med at reducere inflammation. </p>
+<p>Anvendelse </p>
+<p>Otezla anvendes til at behandle voksne med de følgende sygdomme: </p>
+<ul>
+<li>
+<p>Aktiv psoriasis artritis - hvis du ikke kan bruge en anden lægemiddeltype, der kaldes 
+’sygdomsmodificerende antireumatiske lægemidler’ (Disease-Modifying Antirheumatic Dugs, 
+DMARDs) eller hvis du har prøvet et af disse lægemidler, og det ikke virkede. </p>
+</li>
+<li>
+<p>Moderat til svær kronisk plaque psoriasis - hvis du ikke kan bruge en af de følgende 
+behandlinger, eller hvis du har prøvet en af disse behandlinger uden virkning:</p>
+</li>
+<li>
+<p>fototerapi -en behandling, hvor visse hudområder eksponeres over for ultraviolet lys </p>
+</li>
+<li>
+<p>systemisk behandling - en behandling, der påvirker hele kroppen i stedet for kun ét lokal 
+område, såsom ’ciclosporin’, ’methotrexat’ eller ’psoralen’. </p>
+</li>
+<li>
+<p>Behcets sygdom - til behandling af mundsårene som er et almindeligt problem for personer 
+med denne sygdom. </p>
+</li>
+</ul>
+<p>Hvad er psoriasis artritis? </p>
+<p>Psoriasis artritis er en inflammatorisk ledsygdom, sædvanligvis ledsaget af psoriasis, en 
+inflammatorisk hudsygdom. </p>
+<p>Hvad er plaque psoriasis? </p>
+<p>Psoriasis er en inflammatorisk hudsygdom, der forårsager røde, skallende, tykke, kløende, smertefulde 
+pletter på huden, og som også kan påvirke hårbunden og neglene. </p>
+<p>Hvad er Behcets sygdom? </p>
+<p>Behcets sygdom er en sjælden type inflammatorisk sygdom, som påvirker mange dele af kroppen. Det 
+mest almindelige problem er mundsår. </p>
+<p>Sådan virker Otezla </p>
+<p>Psoriasis artritis, psoriasis og Behcets sygdom er normalt sygdomme, der varer hele livet, og de kan 
+ikke på nuværende tidspunkt helbredes. Otezla virker ved at reducere aktiviteten af et enzym i 
+kroppen, der kaldes ’phosphodiesterase 4’, som er involveret i inflammationsprocessen. Ved at 
+reducere aktiviteten af dette enzym, kan Otezla hjælpe med at kontrollere inflammationen forbundet 
+med psoriasis artritis, psoriasis og Behcets sygdom, og dermed reducere tegnene og symptomerne på 
+disse sygdomme. </p>
+<p>Ved psoriasis artritis kan behandling med Otezla føre til en forbedring af de hævede og smertefulde 
+led, og det kan forbedre den generelle fysiske funktion. </p>
+<p>Ved psoriasis kan behandlingen med Otezla føre til en reduktion i psoriatiske hudpletter samt andre 
+tegn og symptomer for sygdommen. </p>
+<p>Ved Behcets sygdom reducerer behandling med Otezla antallet af mundsår og kan få dem til at 
+forsvinde helt. Det kan også reducere den forbundne smerte. </p>
+<p>Otezla har også vist sig at forbedre livskvaliteten for patienter med psoriasis, psoriasis artritis og 
+Behcets sygdom. Dette betyder, at den påvirkning, din sygdom har på daglige aktiviteter, forhold og 
+andre faktorer bør være mindre end før. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take otezla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take otezla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Otezla: </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for apremilast eller et af de øvrige indholdsstoffer i Otezla (angivet i 
+punkt 6). </p>
+</li>
+<li>
+<p>hvis du er gravid eller tror du kan være gravid. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Otezla. </p>
+<p>Depression og selvmordstanker </p>
+<p>Fortæl din læge, før du starter Otezla, hvis du lider af depression, der bliver værre med 
+selvmordstanker. </p>
+<p>Du eller din omsorgsperson skal også fortælle din læge med det samme om eventuelle ændringer i 
+adfærd eller humør, følelse af depression og selvmordstanker, du måtte have efter indtagelse af Otezla. </p>
+<p>Svære nyreproblemer </p>
+<p>Hvis du har alvorlige nyreproblemer, vil din dosis være anderledes - se punkt 3. Hvis du er undervægtig </p>
+<p>Tal med din læge, mens du tager Otezla hvis du oplever et uønsket vægttab. </p>
+<p>Maveproblemer </p>
+<p>Hvis du oplever alvorlig diarré, kvalme eller opkastning, skal du kontakte lægen. </p>
+<p>Børn og unge </p>
+<p>Otezla er ikke blevet undersøgt hos børn og unge. Derfor bør det ikke anvendes til børn og unge i 
+alderen 17 år og derunder. </p>
+<p>Brug af anden medicin sammen med Otezla </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette gælder også medicin, som ikke er købt på 
+recept, f.eks. naturlægemidler og vitaminer og mineraler. Dette skyldes, at Otezla kan påvirke den 
+måde, nogle andre lægemidler virker på. Andre lægemidler kan også påvirke den måde, Otezla virker 
+på. </p>
+<p>Du skal især fortælle det til lægen eller apotekspersonalet, hvis du tager nogle af de følgende 
+lægemidler: </p>
+<ul>
+<li>
+<p>rifampicin - et antibiotikum, der anvendes mod tuberkulose </p>
+</li>
+<li>
+<p>phenytoin, phenobarbital og carbamazepin - lægemidler, der anvendes til behandling af 
+krampeanfald eller epilepsi </p>
+</li>
+<li>
+<p>prikbladet perikon - et naturlægemiddel mod let angst og depression. </p>
+</li>
+</ul>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. 
+Der er kun få oplysninger om Otezlas virkning under graviditeten. Du bør ikke blive gravid, mens du 
+tager dette lægemiddel, og du bør anvende en sikker præventionsmetode i løbet af behandlingen med 
+Otezla.<br />
+Det er ukendt, om dette lægemiddel udskilles i modermælk. Du bør ikke anvende Otezla, mens du 
+ammer. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Otezla påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>
+<p>Otezla indeholder lactose </p>
+<p>Otezla indeholder lactose (en form for sukker). Kontakt lægen, før du tager dette lægemiddel, hvis 
+lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take otezla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take otezla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvor meget skal der tages? </p>
+<ul>
+<li>
+<p>Når du først begynder at tage Otezla, vil du modtage en ’pakning med indledende behandling’, 
+som indeholder alle de doser, der er opgivet i tabellen nedenfor. </p>
+</li>
+<li>
+<p>’Pakningen med indledende behandling’ er tydeligt etiketteret for at sikre, at du tager den 
+korrekte tablet på det korrekte tidspunkt. </p>
+</li>
+<li>
+<p>Din behandling vil starte med en lavere dosis, og den vil øges gradvist i løbet af de første 
+6 dages behandling. </p>
+</li>
+<li>
+<p>’Pakningen med indledende behandling’ vil også indeholde nok tabletter til endnu 8 dage med 
+den anbefalede dosis (dag 7 til 14). </p>
+</li>
+<li>
+<p>Den anbefalede dosis Otezla er 30 mg to gange dagligt efter titreringsfasen er gennemført- en 
+30 mg dosis om morgenen og en 30 mg dosis om aftenen med ca. 12 timers mellemrum 
+sammen med eller uden mad. </p>
+</li>
+<li>
+<p>Dette er en daglig dosis på i alt 60 mg. Ved slutningen af dag 6 vil du have nået til denne 
+anbefalede dosis. </p>
+</li>
+<li>
+<p>Når den anbefalede dosis er blevet nået, vil du kun få tabletter med styrken 30 mg i dine 
+ordinerede pakninger. Du vil kun behøve at gå igennem dette trin med en gradvis dosisøgning 
+én gang, selv hvis du genstarter behandlingen. </p>
+</li>
+</ul>
+<p>Personer med svære nyreproblemer </p>
+<p>Hvis du har svære nyreproblemer, er den anbefalede dosis af Otezla 30 mg én gang dagligt 
+(morgendosis). Din læge vil tale med dig om hvordan din dosis skal øges, når du først begynder med 
+at tage Otezla. </p>
+<p>Hvordan og hvornår skal du tage Otezla?  </p>
+<ul>
+<li>
+<p>Otezla er til oral anvendelse. </p>
+</li>
+<li>
+<p>Slug tabletterne hele, helst med vand. </p>
+</li>
+<li>
+<p>Du kan tage tabletterne sammen med eller uden mad. </p>
+</li>
+<li>
+<p>Tag Otezla på omtrent det samme tidspunkt hver dag, én tablet om morgenen, og en tablet om 
+aftenen. </p>
+</li>
+</ul>
+<p>Hvis din sygdom ikke er i bedring efter seks måneders behandling, skal du kontakte lægen. </p>
+<p>Hvis du har taget for meget Otezla </p>
+<p>Hvis du har taget for meget Otezla, bør du straks kontakte en læge eller tage på hospitalet. Medbring 
+lægemiddelpakningen og denne indlægsseddel. </p>
+<p>Hvis du har glemt at tage Otezla </p>
+<ul>
+<li>
+<p>Hvis du har glemt en dosis af Otezla, skal du tage den så snart du husker på det. Hvis det er tæt 
+på tidspunktet for din næste dosis, skal du blot springe den glemte dosis over. Tag den næste 
+dosis til normal tid. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. 
+Dag 
+Morgendosis 
+Aftendosis 
+Daglig 
+dosis i alt 
+Dag 1 
+10 mg (lyserød) 
+Du må ikke tage en dosis 
+10 mg 
+Dag 2 
+10 mg (lyserød) 
+10 mg (lyserød) 
+20 mg 
+Dag 3 
+10 mg (lyserød) 
+20 mg (brun) 
+30 mg 
+Dag 4 
+20 mg (brun) 
+20 mg (brun) 
+40 mg 
+Dag 5 
+20 mg (brun) 
+30 mg (beige) 
+50 mg 
+Dag 6 og fremover 
+30 mg (beige) 
+30 mg (beige) 
+60 mg </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Otezla </p>
+<ul>
+<li>
+<p>Du bør fortsætte med at tage Otezla, indtil lægen fortæller dig, at du skal stoppe. </p>
+</li>
+<li>
+<p>Du må ikke holde op med at tage Otezla, uden først at kontakte din læge. </p>
+</li>
+</ul>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger - depression og selvmordstanker </p>
+<p>Fortæl straks din læge om eventuelle ændringer i adfærd eller humør, følelse af depression, 
+selvmordstanker eller selvmordsadfærd (dette er ikke almindeligt). </p>
+<p>Meget almindelig bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>infektioner i de øvre luftveje såsom forkølelse, rindende næse, infektion i bihulerne </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>træthedsfølelse </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>hyppige afføringer </p>
+</li>
+<li>
+<p>søvnbesvær (insomni) </p>
+</li>
+<li>
+<p>fordøjelsesbesvær eller halsbrand </p>
+</li>
+<li>
+<p>betændelse og hævelse af kanalerne i dine lunger (bronkitis) </p>
+</li>
+<li>
+<p>almindelig forkølelse (nasofaryngitis) </p>
+</li>
+<li>
+<p>depression </p>
+</li>
+<li>
+<p>migræne </p>
+</li>
+<li>
+<p>spændingshovedpine </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>nældefeber (urticaria) </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>allergisk reaktion </p>
+</li>
+<li>
+<p>blødning i tarmen eller maven </p>
+</li>
+<li>
+<p>selvmordstanker eller -adfærd </p>
+</li>
+</ul>
+<p>Ikke kendte bivirkninger (hyppigheden kan ikke estimeres ud fra forhåndenværende data): </p>
+<ul>
+<li>svær allergisk reaktion (kan omfatte hævelse af ansigt, læber, mund, tunge eller hals, som kan 
+føre til vejrtræknings- eller synkebesvær) </li>
+</ul>
+<p>Hvis du er 65 år eller ældre, kan du have en højere risiko for komplikationer med alvorlig diarré, 
+kvalme og opkastning. Hvis dine maveproblemer bliver alvorlige, bør du tale med din læge. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store otezla"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store otezla"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisteren eller på doseringskortet eller på 
+æsken efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller udviser tegn på at 
+have været åbnet. </p>
+</li>
+</ul>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Otezla indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: apremilast. </p>
+</li>
+<li>
+<p>Otezla 10 mg filmovertrukne tabletter: hver filmovertrukket tablet indeholder 10 mg apremilast. </p>
+</li>
+<li>
+<p>Otezla 20 mg filmovertrukne tabletter: hver filmovertrukket tablet indeholder 20 mg apremilast. </p>
+</li>
+<li>
+<p>Otezla 30 mg filmovertrukne tabletter: hver filmovertrukket tablet indeholder 30 mg apremilast. </p>
+</li>
+</ul>
+<p>Øvrige indholdsstoffer i tabletkernen: cellulose, mikrokrystallinsk, lactosemonohydrat, 
+croscarmellosenatrium og magnesiumstearat. </p>
+<ul>
+<li>
+<p>Filmovertrækket indeholder poly (vinylalkohol), titandioxid (E171), - macrogol (3350), talcum, 
+jernoxid, rød (E172). </p>
+</li>
+<li>
+<p>Den filmovertrukne tablet med 20 mg indeholder også jernoxid, gul (E172). </p>
+</li>
+<li>
+<p>Den filmovertrukne tablet med 30 mg indeholder også jernoxid, gul (E172) og jernoxid, sort 
+(E172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Otezla 10 mg filmovertrukket tablet er en lyserød, diamantformet, filmovertrukket tablet med "APR" 
+graveret på den ene side, og "10" på den modsatte side. 
+Otezla 20 mg filmovertrukket tablet er en brun, diamantformet, filmovertrukket tablet med "APR" 
+graveret på den ene side, og "20" på den modsatte side. 
+Otezla 30 mg filmovertrukket tablet er en beige, diamantformet, filmovertrukket tablet med "APR" 
+graveret på den ene side, og "30" på den modsatte side. </p>
+<p>Pakningsstørrelser </p>
+<ul>
+<li>
+<p>Pakningen med den indledende behandling er en yderkarton, der indeholder 27 filmovertrukne 
+tabletter: 4 x 10 mg tabletter, 4 x 20 mg tabletter og 19 x 30 mg tabletter. </p>
+</li>
+<li>
+<p>Standardpakningen for en måned indeholder 56 x 30 mg filmovertrukne tabletter. </p>
+</li>
+<li>
+<p>Standardpakningen for tre måneder indeholder 168 x 30 mg filmovertrukne tabletter. </p>
+</li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Amgen Europe B.V. 
+Minervum 7061<br />
+4817 ZK Breda 
+Holland </p>
+<p>Indehaver af markedsføringstilladelsen 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Holland  </p>
+<p>Fremstiller 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/Tél: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7 
+България 
+Амджен България ЕООД 
+Тел.: +359 (0)2 424 7 
+Luxembourg/Luxemburg 
+s.a. Amgen<br />
+Belgique/Belgien 
+Tel/Tél: +32 (0)2 7752 
+Česká republika 
+Amgen s.r.o. 
+Tel: +420 221 773<br />
+Magyarország 
+Amgen Kft. 
+Tel.: +36 1 35 44<br />
+Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732 
+Deutschland 
+AMGEN GmbH 
+Tel: +49 89 1490 
+Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732 
+Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09 
+Norge 
+Amgen AB 
+Tel: +47 23308 
+Ελλάδα 
+Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε.<br />
+Τηλ: +30 210 3447Österreich 
+Amgen GmbH<br />
+Tel: +43 (0)1 50<br />
+España 
+Amgen S.A. 
+Tel: +34 93 600 18 60  </p>
+<p>Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3 
+France 
+Amgen S.A.S. 
+Tél: +33 (0)9 69 363<br />
+Portugal 
+Amgen Biofarmacêutica, Lda. 
+Tel: +351 21 4220 </p>
+<p>Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57<br />
+România 
+Amgen România SRL 
+Tel: +4021 527 3000   </p>
+<p>Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114<br />
+Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241 
+Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900 
+Kύπρος 
+C.A. Papaellinas Ltd 
+Τηλ: +357 22741 Sverige 
+Amgen AB<br />
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG Rīgas filiāle 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Detaljerede og opdaterede oplysninger om dette lægemiddel kan ses ved at scanne QR-koden på den 
+ydre emballage med en smarttelefon. De samme oplysninger kan også ses ved at klikke på følgende 
+URL: www.otezla-eu-pil.com. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8e4b99b58ac1302c60e1a3d75920f33f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for otezla Package Leaflet for language en"
+Description: "ePI document Bundle for otezla Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8e4b99b58ac1302c60e1a3d75920f33f"
+* entry[0].resource = composition-en-8e4b99b58ac1302c60e1a3d75920f33f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e4b99b58ac1302c60e1a3d75920f33f"
+* entry[=].resource = mp8e4b99b58ac1302c60e1a3d75920f33f
+                            
+                    
+Instance: bundlepackageleaflet-da-8e4b99b58ac1302c60e1a3d75920f33f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for otezla Package Leaflet for language da"
+Description: "ePI document Bundle for otezla Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8e4b99b58ac1302c60e1a3d75920f33f"
+* entry[0].resource = composition-da-8e4b99b58ac1302c60e1a3d75920f33f
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8e4b99b58ac1302c60e1a3d75920f33f"
+* entry[=].resource = mp8e4b99b58ac1302c60e1a3d75920f33f
+                            
+                    
+
+
+
+Instance: mp8e4b99b58ac1302c60e1a3d75920f33f
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Otezla 10 mg film-coated tablets"
-Description: "Otezla 10 mg film-coated tablets"
+Title: "Medicinal Product otezla"
+Description: "otezla"
 Usage: #inline
 
  
@@ -455,7 +1115,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Otezla 10 mg film-coated tablets"
+  * productName = "otezla"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -482,29 +1142,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8e4b99b58ac1302c60e1a3d75920f33f
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for otezla Package Leaflet for language en"
-Description: "ePI document Bundle for otezla Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8e4b99b58ac1302c60e1a3d75920f33fListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Otezla 10 mg, 20 mg, 30 mg film-coated tablets (initiation pack)"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "otezla"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8e4b99b58ac1302c60e1a3d75920f33f"
-* entry[0].resource = composition-en-8e4b99b58ac1302c60e1a3d75920f33f
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb26c48d16067cf21ad4f0d13a74c4874"
-* entry[=].resource = mpb26c48d16067cf21ad4f0d13a74c4874
-                            
-                      
+* title = "List of all ePIs associated with otezla"
+
+* subject = Reference(mpb26c48d16067cf21ad4f0d13a74c4874)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#otezla "otezla"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8e4b99b58ac1302c60e1a3d75920f33f) // otezla en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8e4b99b58ac1302c60e1a3d75920f33f) // otezla da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8e4b99b58ac1302c60e1a3d75920f33f
+InstanceOf: List
+
+* insert 8e4b99b58ac1302c60e1a3d75920f33fListRuleset
+    

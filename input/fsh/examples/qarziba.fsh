@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e8b67f07b418969c3e83d3aef06331ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for qarziba Package Leaflet"
@@ -351,12 +354,537 @@ requirements. </p>         </div>"""
 
 
 
+Instance: composition-da-e8b67f07b418969c3e83d3aef06331ab
+InstanceOf: CompositionUvEpi
+Title: "Composition for qarziba Package Leaflet"
+Description:  "Composition for qarziba Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpc4c16a48ac49597099fd0a00a176f2b9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpc4c16a48ac49597099fd0a00a176f2b9
+* title = "TEST PURPOSES ONLY - qarziba"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at få Qarziba </li>
+<li>Sådan får du Qarziba </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What qarziba is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What qarziba is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qarziba indeholder dinutuximab beta, der tilhører en gruppe lægemidler, der kaldes monoklonale 
+antistoffer. Det er proteiner, der specifikt er i stand til at genkende og binde sig til andre unikke 
+proteiner i kroppen. Dinutuximab beta binder til et molekyle, der kaldes disialogangliosid 2 (GD2), 
+der findes på kræftceller, og dette aktiverer kroppens immunsystem til at angribe kræftceller. </p>
+<p>Qarziba anvendes til at behandle neuroblastom, der har en høj risiko for at vende tilbage, efter en 
+række behandlinger, der omfatter en stamcelletransplantation til genopbygning af immunsystemet. Det 
+anvendes også til at behandle neuroblastom, der er vendt tilbage (relaps), eller som ikke kunne 
+behandles fuldstændigt med de foregående behandlinger.  </p>
+<p>Før behandling af relaps af neuroblastom vil din læge stabilisere alle andre aktive progressive 
+sygdomme med andre egnede midler. </p>
+<p>Din læge vil endvidere beslutte, om du samtidig skal have et andet lægemiddel, interleukin-2, til at 
+behandle din cancer. </p>
+<p>Neuroblastom er en type cancer, der vokser fra abnorme nerveceller i kroppen, og specielt i kirtler 
+over nyrerne. Det er en af de mest almindelige kræftsygdomme hos børn. </p>
+<p>Stoffet kan anvendes til patienter fra 12 måneder og opefter. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take qarziba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take qarziba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Få ikke Qarziba, hvis du </p>
+<ul>
+<li>
+<p>er allergisk over for dinutuximab beta eller et af de øvrige indholdsstoffer i Qarziba (angivet i 
+punkt 6) </p>
+</li>
+<li>
+<p>har akut graft versus host-sygdom af grad 3 eller 4 eller massiv langvarig graft versus host-
+sygdom 
+Graft versus host-sygdom er en reaktion, hvor cellerne i det transplanterede væv angriber 
+kroppens celler. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Før du får Qarziba, vil du få taget blodprøver for at kontrollere, hvordan din lever, dine lunger og 
+nyrer samt din knoglemarv fungerer. </p>
+<p>Du vil måske bemærke følgende, når du får Qarziba og under behandlingen: </p>
+<ul>
+<li>
+<p>Smerter 
+Smerter er en af de hyppigste bivirkninger ved Qarziba. De starter normalt ved begyndelsen af 
+infusionen. Derfor vil din læge give dig passende smertebehandling fra 3 dage før og under 
+behandlingen med Qarziba. </p>
+</li>
+<li>
+<p>Allergiske reaktioner og andre reaktioner på infusionen 
+Fortæl din læge eller sundhedspersonalet, hvis du får en eller anden form for reaktion under 
+eller efter infusionen, som f.eks.:</p>
+</li>
+<li>
+<p>feber, kulderystelser og/eller lavt blodtryk (bliver svimmel) </p>
+</li>
+<li>besvær med at trække vejret </li>
+<li>
+<p>hududslæt, nældefeber. 
+Du vil få passende behandling for at forebygge disse reaktioner og blive nøje overvåget for 
+sådanne symptomer under infusionen af Qarziba. </p>
+</li>
+<li>
+<p>Sivning fra små blodkar (kapillærlækage-syndrom) 
+Sivning af blodceller fra små blodkar kan forårsage hurtig opsvulmning i arme, ben og andre 
+steder i kroppen. Hurtigt fald i blodtrykket, svimmelhed og åndedrætsbesvær er yderligere tegn. </p>
+</li>
+<li>
+<p>Øjenproblemer 
+Du vil muligvis mærke ændringer i dit syn. </p>
+</li>
+<li>
+<p>Nerveproblemer 
+Du kan bemærke følelsesløshed, prikkende eller brændende fornemmelse i hænder, fødder, 
+arme eller ben, og nedsat følsomhed eller svaghed i forbindelse med bevægelse. </p>
+</li>
+<li>
+<p>Rygmarvs- og hjerneproblemer (centralnervesystemet, CNS) 
+Tal med lægen eller sygeplejersken, hvis du har nogen form for CNS-symptomer, såsom: 
+væsentlig langvarig neurologisk funktionsforstyrrelse uden en klar årsag, såsom muskelsvaghed 
+eller tab af muskelstyrke i benene (eller armene), eller mobilitetsproblemer eller 
+føleforstyrrelser og følelsesløshed. Vedvarende eller pludseligt opstået hovedpine eller 
+fremadskridende tab af hukommelse og kognitiv funktionsevne, små personlighedsændringer, 
+manglende koncentrationsevne, sløvhed og fremadskridende bevidsthedstab. </p>
+</li>
+</ul>
+<p>Kontakt lægen med det samme, hvis du bemærker en eller flere af disse bivirkninger. </p>
+<p>Lægen kan beslutte at stoppe din behandling, hvis du har nogen af ovennævnte problemer. I nogle 
+tilfælde kan det være muligt at starte din behandling igen efter en afbrydelse eller ved en langsommere 
+hastighed, men undertiden kan det være nødvendigt at stoppe behandlingen helt. </p>
+<p>Din læge vil tage blodprøver og muligvis teste dine øjne, mens du tager dette lægemiddel. </p>
+<p>Børn </p>
+<p>Dette lægemiddel må ikke gives til børn under 12 måneder, da der er for få erfaringer hos denne 
+aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Qarziba </p>
+<p>Fortæl det altid til lægen, hvis du bruger andre lægemidler, for nylig har brugt andre lægemidler eller 
+planlægger at bruge andre lægemidler. </p>
+<p>Undgå at anvendelægemidler, der svækker immunsystemet, fra 2 uger før den første dosis af 
+Qarziba og indtil 1 uge efter, den sidste behandlingsserie er afsluttet, medmindre din læge har 
+ordineret det. Eksempler på lægemidler, der svækker immunsystemet, er kortikosteroider, der 
+anvendes til at behandle inflammation (betændelseslignende reaktioner) og forebygge afstødning af et 
+transplantat. </p>
+<p>Undgå at blive vaccineret under behandlingen med Qarziba og i 10 uger efter, behandlinger er 
+afsluttet. </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får dette lægemiddel. </p>
+<p>Tal med din læge, før du skal have Qarziba, hvis du er en kvinde i den fødedygtige alder. Det 
+anbefales at anvende kontraception 6 måneder efter, at behandlingen med Qarziba er afsluttet. Du må 
+kun få Qarziba, hvis din læge vurderer, at dine fordele ved behandlingen opvejer risiciene for fosteret. </p>
+<p>Sig det til lægen, hvis du ammer. Undgå at amme under behandling med Qarziba og i 6 måneder efter 
+den sidste dosis. Det vides ikke, om lægemidlet kan udskilles i mælken. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Qarziba har adskillige bivirkninger, der kan påvirke dine evner til at køre bil og betjene maskiner. Du 
+må ikke udføre disse aktiviteter, hvis du føler, at din evne til at koncentrere dig og din reaktionsevne er 
+påvirket. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take qarziba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take qarziba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>En læge med erfaring i brug af lægemidler til behandling af kræft vil overvåge din behandling. Du vil 
+få lægemidlet af en læge eller sygeplejerske, mens du befinder dig på hospitalet. Det vil blive sprøjtet 
+direkte ind i din blodåre (intravenøs infusion), normalt ved anvendelse af specielle slanger (katetre) og 
+en pumpe. Du vil løbende blive kontrolleret for infusionsrelaterede bivirkninger under og efter 
+infusionen. </p>
+<p>Du vil få Qarziba i 5 behandlingsserier på hver 35 dage, og infusionen vil blive givet i 5 eller 10 dage i 
+begyndelsen af hver behandlingsserie. Den anbefalede dosis er 100 mg dinutuximab beta pr. 
+kvadratmeter legemsoverfladeareal i hver behandlingsserie. Lægen vil beregne dit 
+legemsoverfladeareal ud fra din højde og vægt. </p>
+<p>Hvis din læge finder, at samtidig behandling med interleukin-2 er gavnlig, vil det blive givet som 
+subkutan injektion 2 gange i hver serie, hver gang i 5 på hinanden følgende dage (før og under 
+behandlingen med Qarziba). </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Tal omgående med din læge eller sygeplejerske, hvis du bemærker noget af følgende: 
+Meget almindelig (forekommer hos mere end 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>hurtig opsvulmning af arme, ben og andre kropsdele, hurtigt blodtryksfald, svimmelhed og 
+åndedrætsbesvær (kapillærlækage-syndrom) </p>
+</li>
+<li>
+<p>smerter i mave, hals, bryst, ansigt, hænder, fødder, ben, arme, ryg, nakke, led eller muskler </p>
+</li>
+<li>
+<p>allergiske reaktioner og cytokinfrigivelsessyndrom med symptomer såsom opsvulmning af 
+ansigt eller hals, åndedrætsbesvær, svimmelhed, nældefeber, hurtige hjerteslag (puls) eller 
+hjertebanken, lavt blodtryk, udslæt, feber eller kvalme. </p>
+</li>
+</ul>
+<p>Andre bivirkninger og deres hyppighed er: </p>
+<p>Meget almindelig (forekommer hos flere end 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>feber, kuldegysninger </p>
+</li>
+<li>
+<p>opkastning, diarré, forstoppelse </p>
+</li>
+<li>
+<p>betændelse i mundhulen og på læber (stomatitis) </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>kløe, hududslæt </p>
+</li>
+<li>
+<p>lavt blodtryk (svimmelhed), hurtigere hjerteslag (puls) </p>
+</li>
+<li>
+<p>iltmangel </p>
+</li>
+<li>
+<p>hævelse (i ansigt, læber, rundt om øjnene, i benene) </p>
+</li>
+<li>
+<p>vægtstigning </p>
+</li>
+<li>
+<p>infektion, specielt infektion ved kateteret, der bruges i forbindelse med indgivelse af lægemidlet </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>større pupiller eller unormale pupilreaktioner </p>
+</li>
+<li>
+<p>unormale blod- eller urinprøver (blodceller og andre bestanddele i blodet, leverfunktion, 
+nyrefunktion) </p>
+</li>
+</ul>
+<p>Almindelig (forekommer hos op til 1 ud af 10 behandlede): </p>
+<ul>
+<li>
+<p>livstruende infektion (blodforgiftning - sepsis) </p>
+</li>
+<li>
+<p>epileptiske anfald </p>
+</li>
+<li>
+<p>ophidselse, nervøsitet </p>
+</li>
+<li>
+<p>nerveforstyrrelser i arme og/eller ben (med unormale fornemmelser eller svaghed), svimmelhed, 
+rysten, muskelkramper </p>
+</li>
+<li>
+<p>lammelse af øjenmuskler, sløret syn, lysfølsomhed, opsvulmning af nethinden </p>
+</li>
+<li>
+<p>højt blodtryk </p>
+</li>
+<li>
+<p>hjertesvigt, væske rundt om hjertet </p>
+</li>
+<li>
+<p>svigt af åndedrættet, væske i lungerne </p>
+</li>
+<li>
+<p>pludselig blokering af luftvejene (bronkospasme, larynxspasme), hurtig vejrtrækning </p>
+</li>
+<li>
+<p>nedsat appetit, kvalme, udspiling af maven, ophobning af væske i bughulen </p>
+</li>
+<li>
+<p>reaktioner på injektionsstedet, hudproblemer såsom rødme, tør hud, eksem, overdreven 
+svedproduktion, unormal reaktion på lys </p>
+</li>
+<li>
+<p>manglende evne til at lade vandet eller lader en mindre mængde urin </p>
+</li>
+<li>
+<p>vægttab, væsketab (dehydrering) </p>
+</li>
+</ul>
+<p>Ikke almindelig (forekommer hos op til 1 ud af 100 behandlede): </p>
+<ul>
+<li>
+<p>Shock pga. nedsat væskemængde i kroppen </p>
+</li>
+<li>
+<p>dannelse af blodpropper i de små blodkar (dissemineret intravaskulær koagulation) </p>
+</li>
+<li>
+<p>en type allergi (serumsygdom) med feber, udslæt, betændelse i led </p>
+</li>
+<li>
+<p>en forstyrrelse i hjernen karakteriseret ved hovedpine, forvirring, kramper og synstab (posteriort 
+reversibelt encefalopati-syndrom) </p>
+</li>
+<li>
+<p>betændelse i tarmen, leverskade </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+<li>
+<p>en tilstand, hvor nogle af de små blodårer i leveren er stoppede (veno-okklusiv sygdom) </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. Dette gælder også mulige 
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
+sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store qarziba"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store qarziba"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, der står på etiketten og på kartonen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C til 8 °C). Opbevar hætteglasset i den ydre karton for at beskytte det mod 
+lys. </p>
+<p>Efter åbning bør Qarziba anvendes med det samme. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Qarziba indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: dinutuximab beta. 
+1 ml koncentrat indeholder 4,5 mg dinutuximab beta. Et hætteglas indeholder 20 mg 
+dinutuximab beta i 4,5 ml. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: histidin, saccharose, polysorbat 20, vand til injektionsvæsker, saltsyre 
+(til pH-regulering). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Qarziba er en farveløs til let gullig væske, der leveres i et klart hætteglas med gummiprop og 
+aluminiumsforsegling. 
+Hver æske indeholder 1 hætteglas. </p>
+<ul>
+<li>
+<p>Indehaver af markedsføringstilladelsen 
+Recordati Netherlands B.V. 
+Beechavenue 54, 
+1119PW Schiphol-Rijk 
+Holland </p>
+</li>
+<li>
+<p>Fremstiller 
+Millmount Healthcare Ltd 
+Block 7, City North Business Campus 
+Stamullen, Co. Meath 
+K32 YDIrland </p>
+</li>
+</ul>
+<p>Patheon Italia S.P.A. 
+Via Morolense, 
+5 - 03013 Ferentino 
+Italien </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Qarziba er begrænset til brug på hospitaler og må kun administreres under supervision af en læge med 
+erfaring inden for onkologisk behandling. Det skal administreres af sundhedspersonale med erfaring i 
+håndtering af alvorlige allergiske reaktioner, heriblandt anafylaksi, i omgivelser, hvor fuldt 
+genoplivningsudstyr er umiddelbart tilgængeligt. </p>
+<p>Dosering 
+Behandling med Qarziba består af 5 på hinanden følgende behandlingsserier, hvor hver serie varer 
+35 dage. Den individuelle dosis bestemmes ud fra legemsoverfladeareal og skal samlet være på mg/m2 pr. serie. </p>
+<p>Der findes to doseringsmetoder: </p>
+<ul>
+<li>
+<p>Kontinuerlig infusion over de første 10 dage i hver behandlingsserie (samlet 240 timer) med en 
+daglig dosis på 10 mg/m2 </p>
+</li>
+<li>
+<p>eller fem daglige infusioner med 20 mg/m2 administreret over 8 timer, på de første 5 dage af 
+hver behandlingsserie. </p>
+</li>
+</ul>
+<p>Hvis IL-2 kombineres med dinutuximab beta, skal IL-2 administreres som subkutan injektion 5 på 
+hinanden følgende dage to gange i hver behandlingsserie. Den første 5-dages-periode skal starte 
+7 dage før den første dinutuximab beta-infusion. Den anden 5-dages-periode med IL-2 skal starte 
+samtidig med dinutuximab beta-infusionen (dag 1 til 5 i hver serie). IL-2 administreres som 
+6×106 IE/m2/dag, resulterende i en samlet dosis på 60×106 IE/m2/serie. </p>
+<p>Fremstilling af infusionsvæske 
+Infusionsvæsken skal fremstilles under aseptiske forhold. Infusionsvæsken må ikke udsættes for 
+direkte sollys eller varme. </p>
+<p>Den patientspecifikke daglige dosis af Qarziba beregnes på grundlag af legemsoverfladearealet (se 
+pkt. 4.2). 
+Qarziba skal fortyndes aseptisk til den patientspecifikke koncentration/dosis med 9 mg/ml (0,9 %) 
+natriumchloridinfusionsvæske indeholdende 1 % humant albumin (f.eks. 5 ml humant albumin 20 % 
+til 100 ml natriumchloridinfusionsvæske). </p>
+<ul>
+<li>
+<p>Ved kontinuerlig infusion kan infusionsvæsken fremstilles hver dag eller i en mængde, der er 
+tilstrækkelig til op til 5 dages kontinuerlig infusion. Den daglig dosis er 10 mg/m2. Det daglige 
+infusionsvolumen (i en behandlingsserie på 10 på hinanden følgende dage) er 48 ml eller 240 ml 
+til dosering i 5 dage. Det anbefales at fremstille 50 ml infusionsvæske i en 50 ml sprøjte eller 
+250 ml i en infusionspose, der er egnet til den anvendte infusionspumpe, dvs. med en overfyldning 
+på 2 ml (sprøjte) eller 10 ml (infusionspose) for at modregne dødvolumenet i infusionssystemet. </p>
+</li>
+<li>
+<p>Ved gentagne daglige 8-timers infusioner er den daglige dosis 20 mg/m2, og den beregnede dosis 
+skal fortyndes med 100 ml 9 mg/ml (0,9 %) natriumchloridinfusionsvæske indeholdende 1 % 
+humant albumin. </p>
+</li>
+</ul>
+<p>Administration af infusionen 
+Infusionsvæsken skal administreres via et perifert eller centralt venekateter. Andre samtidigt 
+administrerede intravenøse lægemidler skal indgives gennem en separat infusionsslange. Inden 
+administration skal beholderen inspiceres visuelt for partikler. Det anbefales, at et in-line 0,mikrometer filter anvendes under infusionen. </p>
+<p>Ved kontinuerlig infusion kan infusionsapparatur egnet til infusion ved en hastighed på 2 ml pr. time 
+benyttes, f.eks. infusionspumpe/infusionsapparatur til sprøjte og elektronisk ambulant infusionspumpe. 
+Bemærk at elastomer-pumper ikke er egnede til brug sammen med in-line-filtre. </p>
+<p>Opbevaring af fortyndet koncentrat (infusionsvæske) 
+Der er vist kemisk og fysisk i-brug-stabilitet i op til 48 timer ved 25 °C (50 ml sprøjte) og i op til 7 
+dage ved 37 ºC (250 ml infusionspose) efter kumulativ opbevaring i køleskab (2 °C - 8 °C) i 72 timer 
+(se pkt. 6.6). </p>
+<p>Ud fra en mikrobiologisk synsvinkel skal præparatet anvendes straks. Hvis præparatet ikke anvendes 
+straks, er opbevaringstider under brug og forhold før brug brugerens ansvar og må normalt ikke være 
+længere end 24 timer ved temperaturer fra 2 til 8 ºC, medmindre fortynding har fundet sted under 
+kontrollerede og validerede aseptiske forhold. </p>
+<p>Bortskaffelse 
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e8b67f07b418969c3e83d3aef06331ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qarziba Package Leaflet for language en"
+Description: "ePI document Bundle for qarziba Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e8b67f07b418969c3e83d3aef06331ab"
+* entry[0].resource = composition-en-e8b67f07b418969c3e83d3aef06331ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe8b67f07b418969c3e83d3aef06331ab"
+* entry[=].resource = mpe8b67f07b418969c3e83d3aef06331ab
+                            
+                    
+Instance: bundlepackageleaflet-da-e8b67f07b418969c3e83d3aef06331ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qarziba Package Leaflet for language da"
+Description: "ePI document Bundle for qarziba Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e8b67f07b418969c3e83d3aef06331ab"
+* entry[0].resource = composition-da-e8b67f07b418969c3e83d3aef06331ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe8b67f07b418969c3e83d3aef06331ab"
+* entry[=].resource = mpe8b67f07b418969c3e83d3aef06331ab
+                            
+                    
+
+
+
+Instance: mpe8b67f07b418969c3e83d3aef06331ab
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Qarziba 4.5 mg/mL concentrate for solution for infusion"
-Description: "Qarziba 4.5 mg/mL concentrate for solution for infusion"
+Title: "Medicinal Product qarziba"
+Description: "qarziba"
 Usage: #inline
 
  
@@ -376,7 +904,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Qarziba 4.5 mg/mL concentrate for solution for infusion"
+  * productName = "qarziba"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -403,29 +931,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e8b67f07b418969c3e83d3aef06331ab
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for qarziba Package Leaflet for language en"
-Description: "ePI document Bundle for qarziba Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e8b67f07b418969c3e83d3aef06331abListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1191/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "qarziba"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e8b67f07b418969c3e83d3aef06331ab"
-* entry[0].resource = composition-en-e8b67f07b418969c3e83d3aef06331ab
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpc4c16a48ac49597099fd0a00a176f2b9"
-* entry[=].resource = mpc4c16a48ac49597099fd0a00a176f2b9
-                            
-                      
+* title = "List of all ePIs associated with qarziba"
+
+* subject = Reference(mpc4c16a48ac49597099fd0a00a176f2b9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#qarziba "qarziba"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e8b67f07b418969c3e83d3aef06331ab) // qarziba en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e8b67f07b418969c3e83d3aef06331ab) // qarziba da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e8b67f07b418969c3e83d3aef06331ab
+InstanceOf: List
+
+* insert e8b67f07b418969c3e83d3aef06331abListRuleset
+    

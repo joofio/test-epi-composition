@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8c380d27bbc2d53daf7f5dedc85cca7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for trydonis Package Leaflet"
@@ -619,12 +622,905 @@ effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-8c380d27bbc2d53daf7f5dedc85cca7a
+InstanceOf: CompositionUvEpi
+Title: "Composition for trydonis Package Leaflet"
+Description:  "Composition for trydonis Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp56823c4f34244d3f92fc7ca182fdf5eb)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp56823c4f34244d3f92fc7ca182fdf5eb
+* title = "TEST PURPOSES ONLY - trydonis"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Trydonis 
+3. Sådan skal du bruge Trydonis 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What trydonis is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What trydonis is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trydonis er et lægemiddel, der hjælper dig med at trække vejret, og indeholder de tre aktive stoffer: </p>
+<ul>
+<li>
+<p>beclometasondipropionat </p>
+</li>
+<li>
+<p>formoterolfumaratdihydrat og </p>
+</li>
+<li>
+<p>glycopyrronium. </p>
+</li>
+</ul>
+<p>Beclometasondipropionat tilhører en gruppe lægemidler, der kaldes kortikosteroider, som virker ved at 
+reducere hævelse og irritation i lungerne. </p>
+<p>Formoterol og glycopyrronium er lægemidler, der kaldes langtidsvirkende bronkodilatatorer. De virker 
+på forskellige måder for at afslappe musklerne i luftvejene, hvorved luftvejene får hjælp til at åbne 
+mere, og gøre det muligt for dig nemmere at trække vejret. </p>
+<p>Regelmæssig behandling med disse tre aktive stoffer hjælper med at lindre og forhindre symptomer 
+såsom stakåndethed, hvæsende vejrtrækning og hoste hos voksne patienter med kronisk obstruktiv 
+lungesygdom (KOL). Trydonis kan nedsætte eksacerbationer (pludselige forværringer) af KOL-
+symptomer. KOL er en alvorlig langvarig sygdom, hvor luftvejene blokeres, og luftsækkene i lungerne 
+beskadiges, hvilket fører til vejrtrækningsbesvær. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take trydonis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take trydonis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Trydonis </p>
+<p>Hvis du er allergisk over for beclometasondipropionat formoterolfumaratdihydrat og/eller 
+glycopyrronium eller et af de øvrige indholdsstoffer i Trydonis (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Trydonis anvendes som vedligeholdelsesbehandling af din obstruktive lungesygdom. Du må ikke 
+bruge dette lægemiddel til at behandle pludselige anfald af åndenød eller en hvæsende vejrtrækning. </p>
+<p>Hvis din vejrtrækning bliver værre </p>
+<p>Hvis du udvikler en forværring af din stakåndethed eller hvæsende vejrtrækning (vejrtrækningen har 
+en pibende lyd) umiddelbart efter du indånder dit lægemiddel, skal du holde op med at bruge 
+Trydonis-inhalatoren, og du skal øjeblikkeligt bruge din hurtigtvirkende "lindrende" inhalator. Du bør 
+straks kontakte lægen. Lægen vil vurdere dine symptomer, og kan starte dig på en anden behandling, 
+hvis det er nødvendigt. 
+Se også punkt 4, "Bivirkninger". </p>
+<p>Hvis din lungesygdom bliver værre </p>
+<p>Hvis dine symptomer bliver værre, eller de er svære at kontrollere (f.eks. hvis du hyppigere bruger en 
+separat "lindrende" inhalator), eller hvis din "lindrende" inhalator ikke forbedrer dine symptomer, skal 
+du straks gå til lægen. Din lungesygdom kan være blevet værre, og det kan være nødvendigt, at lægen 
+ordinerer en anden behandling. </p>
+<p>Kontakt lægen eller apotekspersonalet, før du bruger Trydonis: </p>
+<ul>
+<li>
+<p>hvis du har hjerteproblemer, såsom angina (hjertesmerter, smerter i brystet), har haft et 
+hjerteanfald for nylig (myokardieinfarkt), hjertesvigt, forsnævring af arterierne rundt om hjertet 
+(koronar hjertesygdom), sygdom i hjerteklapperne eller andre anomalier af hjertet, eller hvis du 
+har en sygdom, der kaldes hypertrofisk obstruktiv kardiomyopati (også kaldet HOCM, en 
+sygdom, hvor hjertemuskulaturen er unormal). </p>
+</li>
+<li>
+<p>hvis du har hjerterytmeforstyrrelser, såsom en øget eller uregelmæssig hjertefrekvens, en hurtig 
+puls eller hjertebanken, eller hvis du har fået at vide, at dit hjertediagram (EKG) er unormalt.  </p>
+</li>
+<li>
+<p>hvis du har en forsnævring af arterierne (også kaldet arteriosklerose), hvis du har højt blodtryk 
+eller hvis du ved, at du har et aneurisme (en unormal udposning af væggen på et blodkar). </p>
+</li>
+<li>
+<p>hvis du har en overaktiv skjoldbruskkirtel. </p>
+</li>
+<li>
+<p>hvis du har lave niveauer af kalium i blodet (hypokaliæmi). Kombinationen af Trydonis med 
+nogle andre lægemidler mod KOL, eller lægemidler som f.eks. diuretika (lægemidler, der får 
+kroppen til at udskille vand, til at behandle hjertesygdom eller højt blodtryk), kan forårsage et 
+brat fald i niveauet i kalium i blodet. Derfor kan det være, at lægen gerne vil måle 
+kaliumniveauet i blodet fra tid til anden. </p>
+</li>
+<li>
+<p>hvis du har lever- eller nyresygdomme. </p>
+</li>
+<li>
+<p>hvis du har sukkersyge. Store doser formoterol kan øge dit sukkerindhold i blodet, og derfor kan 
+det være nødvendigt at tage nogle ekstra blodprøver for at kontrollere dit blodsukker, når du 
+begynder at bruge dette lægemiddel, og fra tid til anden i løbet af behandlingen. </p>
+</li>
+<li>
+<p>hvis du har en svulst i binyrerne (som kaldes et fæokromocytom). </p>
+</li>
+<li>
+<p>hvis du skal bedøves. Afhængigt af typen af bedøvelse kan det være nødvendigt at stoppe med 
+at bruge Trydonis i mindst 12 timer før bedøvelsen. </p>
+</li>
+<li>
+<p>hvis du bliver, eller nogensinde er blevet, behandlet for tuberkulose (TB), eller hvis du har en 
+infektion i brystet. </p>
+</li>
+<li>
+<p>hvis du har et øjenproblem, der kaldes snævervinklet grøn stær. </p>
+</li>
+<li>
+<p>hvis du har svært ved at lade vandet. </p>
+</li>
+<li>
+<p>hvis du har en infektion i munden eller halsen. </p>
+</li>
+</ul>
+<p>Hvis noget af det ovenstående gælder for dig, skal du fortælle det til lægen, før du bruger Trydonis. 
+Hvis du har eller har haft nogle medicinske problemer eller allergier, eller hvis du er i tvivl om du kan 
+bruge Trydonis, skal du kontakte lægen eller apotekspersonalet, før du bruger inhalatoren. </p>
+<p>Hvis du allerede bruger Trydonis </p>
+<p>Hvis du bruger Trydonis eller højere doser af andre inhalerede kortikosteroider i lange perioder, og du 
+kommer i en situation med stress (f.eks. hvis du bringes på hospitalet efter et uheld, hvis du har en 
+alvorlig skade eller før en operation), kan du have behov for mere af dette lægemiddel. I sådanne 
+tilfælde kan lægen øge din dosis kortikosteroider, så du kan klare den stressede situation, og lægen kan 
+ordinere dem som tabletter eller injektioner. 
+Sig det til lægen, hvis du oplever sløret syn eller andre synsforstyrrelser. </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke gives til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Trydonis 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette gælder også for lægemidler, der ligner Trydonis 
+og bruges til din lungesygdom. </p>
+<p>Nogle lægemidler kan øge virkningen af Trydonis, og din læge vil overvåge dig omhyggeligt, hvis du 
+tager sådanne lægemidler (inklusive visse former for hiv-medicin, herunder ritonavir og cobicistat). </p>
+<p>Du må ikke bruge dette lægemidldel sammen med beta-blokkere (anvendes til at behandle visse 
+hjerteproblemer, såsom angina eller til at sænke blodtrykket), medmindre lægen har valgt en 
+betablokker, der ikke påvirker din vejrtrækning. Beta-blokkere (herunder øjendråber med beta-
+blokkere) kan reducere virkningen af formoterol, eller få det til slet ikke at virke. På den anden side 
+kan det øge virkningen af formoterol, hvis der bruges andre beta2-agonist lægemidler (der virker på 
+samme måde som formoterol). </p>
+<p>Brug af Trydonis sammen med: </p>
+<ul>
+<li>lægemidler til behandling af </li>
+<li>unormale hjerterytmer (quinidin, disopyramid, procainamid), </li>
+<li>allergiske reaktioner (antihistaminer), </li>
+<li>
+<p>symptomer på depression eller psykiske sygdomme, såsom monoaminoxidase-hæmmere (for 
+eksempel phenelzin og isocarboxazid), tricykliske antidepressiva (for eksempel amitriptylin 
+og imipramin), phenothiaziner 
+kan forårsage nogle ændringer i elektrokardiogrammet (EKG, hjertediagrammet). Det kan også 
+øge risikoen for forstyrrelser af hjerterytmen (ventrikulære arytmier). </p>
+</li>
+<li>
+<p>lægemidler til behandling af Parkinsons sygdom (levodopa), til behandling af en underaktiv 
+skjoldbruskkirtel (levothyroxin), lægemidler, der indeholder oxytocin (som forårsager 
+livmodersammentrækninger) og alkohol øge risikoen for bivirkninger fra formoterol på hjertet. </p>
+</li>
+<li>
+<p>monoaminoxidase-hæmmere (MAOI'er), herunder lægemidler med tilsvarende egenskaber, 
+såsom furazolidon og procarbazin, bruges til at behandle psykiske sygdomme, kan forårsage en 
+forhøjelse af blodtrykket. </p>
+</li>
+<li>
+<p>lægemidler til at behandle hjertesygdomme (digoxin) kan forårsage en reduktion af dit 
+kaliumniveau i blodet. Dette kan øge sandsynligheden for unormale hjerterytmer. </p>
+</li>
+<li>
+<p>andre lægemidler, der bruges til at behandle KOL (theophyllin, aminophyllin eller 
+kortikosteroider) og diuretika kan også forårsage en reduktion af dit kaliumniveau. </p>
+</li>
+<li>
+<p>nogle bedøvelser kan øge risikoen for unormale hjerterytmer. </p>
+</li>
+<li>
+<p>disulfiram, et lægemiddel, der bruges til at behandle personer med alkoholisme 
+(alkoholproblemer) eller metronidazol, et antibiotikum, der bruges til at behandle infektion i din 
+krop kan forårsage bivirkninger (f.eks. kvalme, opkastning, mavesmerter) på grund af den lille 
+mængde alkohol i Trydonis. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Du må kun anvende Trydonis under graviditet, hvis lægen har rådet dig til det. Det er bedst ikke at 
+anvende Trydonis under fødslen, på grund af den hæmmende virkning af formoterol på 
+livmoderkontraktioner. 
+Du må ikke anvende Trydonis under amning. Du skal sammen med lægen beslutte, om amning skal 
+ophøre eller behandling med Trydonis stoppes, idet der tages højde for fordelene ved amning for 
+barnet i forhold til de terapeutiske fordele for dig. </p>
+<p>Trafik- og arbejdssikkerhed 
+Det er ikke sandsynligt, at Trydonis vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>
+<p>Trydonis indeholder ethanol 
+Trydonis indeholder 8,856 mg alkohol (ethanol) pr. pust, svarende til 17,712 mg pr. dosis med to pust. 
+Mængden i to pust af dette lægemiddel svarer til mindre end 1 ml vin eller øl. Den mindre mængde 
+alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take trydonis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take trydonis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er to pust om morgenen og to pust om aftenen. </p>
+<p>Hvis du mener, at lægemidlet ikke virker ret godt, skal du kontakte lægen. 
+Hvis du tidligere har brugt en anden inhalator, der indeholdt beclometasondipropionat, skal du spørge 
+lægen til råds, da den effektive dosis af beclometasondipropionat i Trydonis til behandling af KOL kan 
+være lavere end dosis for andre inhalatorer. </p>
+<p>Administrationsvej 
+Trydonis er til inhalation. 
+Du skal inhalere lægemidlet gennem munden, og dette bringer lægemidlet direkte ned i lungerne. </p>
+<p>Dette lægemiddel er indkapslet i en trykbeholder i en plasticinhalator med et mundstykke. </p>
+<p>Trydonis fås i tre beholderstørrelser: </p>
+<ul>
+<li>
+<p>en beholder, der leverer 60 pust </p>
+</li>
+<li>
+<p>en beholder, der leverer 120 pust </p>
+</li>
+<li>
+<p>en beholder, der leverer 180 pust. </p>
+</li>
+</ul>
+<p>Hvis du har fået ordineret en beholder, der leverer 60 pust eller 120 pust 
+Der er en dosistæller bag på inhalatoren, som viser dig hvor mange doser, der er tilbage. Hver gang du 
+trykker på trykbeholderen, leveres et pust af medicin, og dosistælleren vil tælle ned med en. Sørg for 
+ikke at tabe inhalatoren, da det kan få dosistælleren til at tælle ned. </p>
+<p>Hvis du har fået ordineret en beholder, der leverer 180 pust 
+Der er en indikator bag på inhalatoren, som viser dig, hvor mange doser der er tilbage. Hver gang du 
+trykker på trykbeholderen, leveres et pust af medicin, og dosisindikatoren roterer lidt. Antallet af pust 
+vises med intervaller på 20. Sørg for ikke at tabe inhalatoren, da det kan få dosisindikatoren til at tælle 
+ned. </p>
+<p>Test af din inhalator 
+Før du bruger inhalatoren første gang, skal du teste din inhalator for at sikre, at den virker korrekt, på 
+følgende måde. 
+1. Afhængig af den beholderstørrelse, du har fået ordineret, skal du kontrollere, at dosistælleren 
+står på 61 eller 121, og at dosisindikatoren står på 2. Fjern beskyttelseslåget fra mundstykket 
+3. Hold din inhalator lodret med mundstykket forneden 
+4. Sørg for, at mundstykket vender væk fra dig, og tryk med en fast hånd ned på trykbeholderen, 
+for at levere et pust 
+5. Kontroller dosistælleren eller dosisindikatoren. Hvis du tester din inhalator for første gang, skal 
+tælleren stå på:</p>
+<ul>
+<li>når du bruger beholderen, 
+der leverer 60 pust </li>
+<li>når du bruger beholderen, 
+der leverer 120 pust </li>
+<li>når du bruger beholderen, 
+der leverer 180 pust </li>
+</ul>
+<p>Sådan skal du bruge din inhalator 
+Stå eller sid op, mens du bruger din inhalator. 
+VIGTIGT: Udfør ikke trin 2 til 5 for hurtigt. </p>
+<ol>
+<li>Fjern beskyttelseslåget fra mundstykket, og kontroller, at mundstykket er rent og uden støv og 
+snavs. </li>
+<li>Pust ud så langsomt og dybt som muligt for at tømme lungerne. </li>
+<li>Hold inhalatoren opret med mundstykket forneden, og placer mundstykket mellem tænderne 
+uden at bide i det. Luk læberne rundt om mundstykket med en flad tunge nedenunder. </li>
+<li>
+<p>Træk vejret langsomt og dybt ind gennem munden for at fylde lungerne med luft (dette bør tage 
+omtrent 4–5 sekunder). Lige efter du begynder at trække vejret ind, skal du med en fast hånd 
+trykke ned foroven på trykbeholderen for at levere et pust. 
+Dosistæller 
+Dosistæller 
+Dosis-
+indikator </p>
+</li>
+<li>
+<p>Hold vejret så længe som muligt, og fjern til sidst inhalatoren fra munden, og pust langsomt ud. 
+Du må ikke puste ud i inhalatoren. </p>
+</li>
+<li>Kontroller, at dosistælleren (60/120 pust) har talt ned med en, eller at dosisindikatoren 
+(180 pust) har roteret lidt. </li>
+</ol>
+<p>For det andet pust skal du holde inhalatoren opret i ca. et halvt minut, og så gentage trin 2 til 5. Hvis du ser en 'vandtåge' fra toppen af inhalatoren, eller fra mundvigene, betyder det, at Trydonis ikke 
+kommer ned i lungerne, som det skal. Tag et til pust, og følg anvisningerne fra trin 2. Sæt beskyttelseslåget på igen efter brug. </p>
+<p>For at undgå en svampeinfektion i munden og halsen, skal du skylle munden og gurgle med vand uden 
+at sluge det, eller børste tænder efter hver brug af din inhalator. </p>
+<p>Hvornår skal du have en ny inhalator? 
+Du bør få en ny inhalator, når dosistælleren eller indikatoren viser tallet 20. Hold op med at bruge 
+inhalatoren, når dosistælleren eller indikatoren viser 0, da det resterende lægemiddel i inhalatoren 
+måske ikke er nok til at give dig et helt pust. </p>
+<p>Hvis du har et svagt greb, kan det være nemmere at holde inhalatoren med begge hænder. Hold den 
+øvre del af inhalatoren med begge pegefingre, og den lavere del med begge tommelfingre. </p>
+<p>Hvis du finder det svært at bruge inhalatoren, når du begynder at trække vejret ind, kan du bruge 
+AeroChamber Plus spacer-anordningen. Spørg lægen eller apotekspersonalet om denne anordning. 
+Det er vigtigt, at du læser indlægssedlen, som leveres sammen med din AeroChamber Plus spacer-
+anordning, og at du nøje følger anvisningerne i, hvordan du skal bruge AeroChamber Plus spacer-
+anordningen, og hvordan du skal rengøre den. </p>
+<p>Rengøring af Trydonis-inhalatoren 
+Du bør rengøre din inhalator én gang om ugen. 
+1. Du må ikke fjerne trykbeholderen fra inhalatoren, og brug ikke vand eller andre væsker til at 
+rengøre inhalatoren. 
+2. Fjern beskyttelseslåget fra mundstykket ved at trække det væk fra inhalatoren. 
+3. Tør indersiden og ydersiden af mundstykket og inhalatoren af med en ren, tør klud eller serviet. 
+4. Sæt låget på mundstykket på igen. </p>
+<p>Hvis du har brugt for meget Trydonis 
+Det er vigtigt, at du tager din dosis efter lægens anvisninger. Du må ikke overskride din ordinerede 
+dosis uden at kontakte lægen. 
+Hvis du har brugt for meget Trydonis, kan der forekomme bivirkninger, som beskrevet i punkt 4. Fortæl lægen, hvis du har brugt for meget Trydonis, og hvis du oplever nogle af disse symptomer. Det 
+kan være, at lægen gerne vil tage nogle blodprøver. </p>
+<p>Hvis du har glemt at bruge Trydonis 
+Brug det så snart, som du husker på det. Hvis det næsten er tid til din næste dosis, må du ikke tage den 
+glemte dosis, men tag kun den næste dosis på det korrekte tidspunkt. Du må ikke tage en dobbeltdosis. </p>
+<p>Hvis du holder op med at bruge Trydonis 
+Det er vigtigt, at du bruger Trydonis hver dag. Du må ikke holde op med at bruge Trydonis eller bruge 
+en lavere dosis, selvom du har det bedre, eller du ikke har nogen symptomer. Hvis du gerne vil gøre 
+dette, skal du kontakte lægen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Der er en risiko for forværret stakåndethed og en hvæsende vejrtrækning umiddelbart efter brug af 
+Trydonis, og dette kaldes paradoks bronkospasme (kan forekomme hos op til 1 ud af 1.000 personer). 
+Hvis dette opstår, skal du straks holde op med at bruge Trydonis, og bruge din hurtigtvirkende 
+"lindrende" inhalator for at behandle stakåndethed og en hvæsende vejrtrækning. Du bør straks 
+kontakte lægen. </p>
+<p>Fortæl det straks til lægen </p>
+<ul>
+<li>
+<p>hvis du oplever allergiske reaktioner, såsom hudallergier, nældefeber, hudkløe, hududslæt (kan 
+forekomme hos op til 1 ud af 100 personer), hudrødmen, hævelse af hud eller slimhinder, især i 
+øjnene, ansigtet, læber og hals (kan forekomme hos op til 1 ud af 1.000 personer). </p>
+</li>
+<li>
+<p>hvis du oplever øjensmerter eller -besvær, forbigående sløret syn, visuelle haloer eller farvet syn 
+i forbindelse med røde øjne. Det kan være tegn på et akut anfald af snævervinklet grøn stær (kan 
+forekomme hos op til 1 ud af 10.000 personer). </p>
+</li>
+</ul>
+<p>Kontakt lægen, hvis du oplever nogle af følgende symptomer, mens du bruger Trydonis. De kan være 
+tegn på lungebetændelse (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>feber eller kulderystelser </p>
+</li>
+<li>
+<p>øget slimproduktion, ændring i slimens farve </p>
+</li>
+<li>
+<p>tiltagende hoste eller tiltagende vejrtrækningsbesvær. </p>
+</li>
+</ul>
+<p>Mulige bivirkninger er opstillet nedenfor efter hyppighed. </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>ondt i halsen </p>
+</li>
+<li>
+<p>løbende eller tilstoppet næse og nysen </p>
+</li>
+<li>
+<p>svampeinfektioner i munden. Hvis du skyller mund eller gurgler med vand og børster tænder 
+umiddelbart efter inhalationen, kan det hjælpe med at undgå disse bivirkninger </p>
+</li>
+<li>
+<p>hæshed </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>urinvejsinfektion. </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>influenza </p>
+</li>
+<li>
+<p>bihulebetændelse </p>
+</li>
+<li>
+<p>kløende, løbende eller tilstoppet næse </p>
+</li>
+<li>
+<p>svampeinfektioner i halsen eller i 
+spiserøret (øsofagus) </p>
+</li>
+<li>
+<p>svampeinfektioner i skeden </p>
+</li>
+<li>
+<p>rastløshed </p>
+</li>
+<li>
+<p>rysten </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>unormal eller nedsat smagssans </p>
+</li>
+<li>
+<p>følelsesløshed </p>
+</li>
+<li>
+<p>ørebetændelse </p>
+</li>
+<li>
+<p>uregelmæssigt hjerteslag </p>
+</li>
+<li>
+<p>ændringer i elektrokardiogrammet 
+(hjertediagrammet) </p>
+</li>
+<li>
+<p>usædvanligt hurtigt hjerteslag og 
+hjerterytmeforstyrrelser </p>
+</li>
+<li>
+<p>hjertebanken (følelse af, at hjertet banker 
+unormalt) </p>
+</li>
+<li>
+<p>halsirritation </p>
+</li>
+<li>
+<p>næseblod </p>
+</li>
+<li>
+<p>rødme i svælget </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>synkebesvær </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>dårlig mave </p>
+</li>
+<li>
+<p>mavebesvær efter måltider </p>
+</li>
+<li>
+<p>brændende fornemmelse på læberne </p>
+</li>
+<li>
+<p>huller i tænderne </p>
+</li>
+<li>
+<p>hududslæt, nældefeber, hudkløe </p>
+</li>
+<li>
+<p>betændelse i mundens slimhinder med eller 
+uden mundsår </p>
+</li>
+<li>
+<p>øget svedtendens </p>
+</li>
+<li>
+<p>muskelkramper og smerter i musklerne </p>
+</li>
+<li>
+<p>smerter i arme og ben </p>
+</li>
+<li>
+<p>smerter i muskler, knogler eller led i brystet </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>rødme i ansigtet </p>
+</li>
+<li>
+<p>øget blodtilførsel til noget væv i kroppen </p>
+</li>
+<li>
+<p>astmaanfald </p>
+</li>
+<li>
+<p>hoste og produktiv hoste </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+<li>
+<p>en reduktion af nogle af bestanddelene i 
+blodet: af visse hvide blodlegemer, der kaldes 
+granulocytter, af kalium eller af kortisol </p>
+</li>
+<li>
+<p>øget niveau af nogle af bestanddelene i blodet: 
+af glucose, C-reaktivt protein, af antallet af 
+blodplader, af frie fedtsyrer eller af ketoner. </p>
+</li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>svampeinfektioner i brystet </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>søvnforstyrrelser (for lidt eller for meget 
+søvn) </p>
+</li>
+<li>
+<p>trykkende brystsmerter </p>
+</li>
+<li>
+<p>en fornemmelse af, at hjertet springer et 
+slag over, eller fornemmelse af ekstra 
+hjerteslag, usædvanligt langsomt hjerteslag </p>
+</li>
+<li>
+<p>forværring af astma </p>
+</li>
+<li>
+<p>udsivning af blod fra et kar til det 
+omgivende væv </p>
+</li>
+<li>
+<p>nedsat blodtryk </p>
+</li>
+<li>
+<p>svaghed </p>
+</li>
+<li>
+<p>smerter bagest i munden og halsen </p>
+</li>
+<li>
+<p>betændelse i svælget </p>
+</li>
+<li>
+<p>tør i halsen </p>
+</li>
+<li>
+<p>smertefuld og hyppig vandladning </p>
+</li>
+<li>
+<p>besvær og smerter under vandladning </p>
+</li>
+<li>
+<p>nyrebetændelse. </p>
+</li>
+</ul>
+<p>Meget sjælden (kan forekomme hos op til 1 ud af 10.000 personer) </p>
+<ul>
+<li>
+<p>lavt antal af visse blodlegemer, der kaldes trombocytter </p>
+</li>
+<li>
+<p>åndenød eller stakåndethed </p>
+</li>
+<li>
+<p>hævelse af hænder og fødder </p>
+</li>
+<li>
+<p>væksthæmning hos børn og unge. </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>sløret syn </li>
+</ul>
+<p>Hvis højdosis inhalerede kortikosteroider bruges i en lang periode, kan det føre til virkninger på 
+kroppen i meget sjældne tilfælde: </p>
+<ul>
+<li>
+<p>problemer med, hvordan dine binyrer virker (adrenal suppression) </p>
+</li>
+<li>
+<p>nedsat knoglemineralsk densitet (knoglerne bliver mere skøre) </p>
+</li>
+<li>
+<p>uklar linse i øjnene (grå stær). </p>
+</li>
+</ul>
+<p>Trydonis indeholder ikke et højdosis, inhaleret kortikosteroid, men lægen kan ønske at måle 
+kortisolniveauet i dit blod fra tid til anden. </p>
+<p>De følgende bivirkninger kan også forekomme med højdosis, inhalerede kortikosteroider, der bruges i 
+en lang periode, men hyppigheden er ikke kendt (hyppigheden kan ikke estimeres ud fra 
+forhåndenværende data) på nuværende tidspunkt: </p>
+<ul>
+<li>
+<p>depression </p>
+</li>
+<li>
+<p>bekymret, nervøs, overspændt eller irritabel. 
+Det er mere sandsynligt, at disse hændelser forekommer hos børn. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trydonis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trydonis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Må ikke nedfryses. 
+Må ikke udsættes for temperaturer over 50 °C. 
+Trykbeholderen må ikke perforeres. </p>
+<p>Før udlevering: 
+Opbevares i køleskab (2 °C – 8 °C). </p>
+<p>Efter udlevering (du får udleveret dette lægemiddel af apotekspersonalet): 
+Trykbeholder med 60 pust: 
+Inhalatoren opbevares ved temperaturer under 25 °C i 
+maksimalt 2 måneder. 
+Trykbeholder med 120 (fra en enkelt- eller<br />
+multipakning) og 180 pust: 
+Inhalatoren opbevares ved temperaturer under 25 °C i 
+maksimalt 4 måneder. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trydonis indeholder: 
+Aktive stoffer: beclometasondipropionat, formoterolfumaratdihydrat og glycopyrronium. </p>
+<p>Hver leveret dosis (der forlader mundstykket) indeholder 87 mikrogram beclometasondipropionat, 
+5 mikrogram formoterolfumaratdihydrat og 9 mikrogram glycopyrronium (som 11 mikrogram 
+glycopyrroniumbromid). </p>
+<p>Hver afmålt dosis (der forlader ventilen) indeholder 100 mikrogram beclometasondipropionat, 
+6 mikrogram formoterolfumaratdihydrat og 10 mikrogram glycopyrronium (som 12,5 mg 
+glycopyrroniumbromid). </p>
+<p>Øvrige indholdsstoffer: vandfrit ethanol (se punkt 2), saltsyre, drivmiddel: norfluran. </p>
+<p>Udseende og pakningsstørrelser 
+Trydonis er en inhalationsspray, opløsning. </p>
+<p>Trydonis leveres i en trykbeholder (belagt aluminium) med en doseringsventil. Trykbeholderen er 
+indsat i en plasticinhalator. Denne består af et mundstykke, der leveres med et beskyttelseslåg af 
+plastic, og enten en dosistæller (beholdere med 60 og 120 pust) eller en dosisindikator (beholdere med 
+180 pust). </p>
+<p>Hver pakning indeholder en trykbeholder, der lever 60 pust, 120 pust eller 180 pust. Desuden er der 
+multipakninger, der indeholder enten 240 pust (2 trykbeholdere, hver med 120 pust) eller 360 pust 
+(3 trykbeholdere, hver med 120 pust). </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo 26/A 
+43122 Parma 
+Italien </p>
+<p>Fremstiller 
+Chiesi Farmaceutici S.p.A. 
+Via San Leonardo 43122 Parma 
+Italien </p>
+<p>Chiesi SAS 
+2 rue des Docteurs Alberto et Paolo Chiesi 
+41260 La Chaussée Saint Victor 
+Frankrig </p>
+<p>Chiesi Pharmaceuticals GmbH 
+Gonzagagasse 16/1010 Wien 
+Østrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42<br />
+Lietuva 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+България 
+Chiesi Bulgaria EOOD 
+Teл.: + 359 29201 
+Luxembourg/Luxemburg 
+Chiesi sa/nv 
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+Chiesi CZ s.r.o. 
+Tel: + 420 261221 
+Magyarország 
+Chiesi Hungary Kft. 
+Tel.: + 36-1-429 1 
+Danmark 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Malta 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 
+Deutschland 
+Chiesi GmbH 
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V. 
+Tel: + 31 88 501 64<br />
+Eesti 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+Norge 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Chiesi Hellas AEBE 
+Τηλ: + 30 210 6179 
+Österreich 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+España 
+Laboratorios BIAL, S.A. 
+Tel: + 34 91 562 41<br />
+Polska 
+Chiesi Poland Sp. z.o.o. 
+Tel.: + 48 22 620 1 
+France 
+Chiesi S.A.S. 
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 </p>
+<p>Hrvatska 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+România 
+Chiesi Romania S.R.L. 
+Tel: + 40 212023 
+Ireland 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Slovenija 
+CHIESI SLOVENIJA, d.o.o. 
+Tel: + 386-1-43 00<br />
+Ísland 
+Chiesi Pharma AB 
+Sími: +46 8 753 35<br />
+Slovenská republika 
+Chiesi Slovakia s.r.o. 
+Tel: + 421 259300 
+Italia 
+Chiesi Italia S.p.A. 
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Chiesi Farmaceutici S.p.A. 
+Τηλ: + 39 0521 2 
+Sverige 
+Chiesi Pharma AB 
+Tel: +46 8 753 35<br />
+Latvija 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073 
+United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2 </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Trydonis 88 mikrogram/5 mikrogram/9 mikrogram inhalationspulver 
+beclometasondipropionat/formoterolfumaratdihydrat/glycopyrronium 
+(beclometasoni dipropionas/formoteroli fumaras dihydricus/glycopyrronium) </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8c380d27bbc2d53daf7f5dedc85cca7a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trydonis Package Leaflet for language en"
+Description: "ePI document Bundle for trydonis Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8c380d27bbc2d53daf7f5dedc85cca7a"
+* entry[0].resource = composition-en-8c380d27bbc2d53daf7f5dedc85cca7a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8c380d27bbc2d53daf7f5dedc85cca7a"
+* entry[=].resource = mp8c380d27bbc2d53daf7f5dedc85cca7a
+                            
+                    
+Instance: bundlepackageleaflet-da-8c380d27bbc2d53daf7f5dedc85cca7a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trydonis Package Leaflet for language da"
+Description: "ePI document Bundle for trydonis Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8c380d27bbc2d53daf7f5dedc85cca7a"
+* entry[0].resource = composition-da-8c380d27bbc2d53daf7f5dedc85cca7a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8c380d27bbc2d53daf7f5dedc85cca7a"
+* entry[=].resource = mp8c380d27bbc2d53daf7f5dedc85cca7a
+                            
+                    
+
+
+
+Instance: mp8c380d27bbc2d53daf7f5dedc85cca7a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Trydonis 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
-Description: "Trydonis 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
+Title: "Medicinal Product trydonis"
+Description: "trydonis"
 Usage: #inline
 
  
@@ -644,7 +1540,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Trydonis 87 micrograms/5 micrograms/9 micrograms pressurised inhalation, solution"
+  * productName = "trydonis"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -671,29 +1567,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8c380d27bbc2d53daf7f5dedc85cca7a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for trydonis Package Leaflet for language en"
-Description: "ePI document Bundle for trydonis Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8c380d27bbc2d53daf7f5dedc85cca7aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1274/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "trydonis"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8c380d27bbc2d53daf7f5dedc85cca7a"
-* entry[0].resource = composition-en-8c380d27bbc2d53daf7f5dedc85cca7a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp56823c4f34244d3f92fc7ca182fdf5eb"
-* entry[=].resource = mp56823c4f34244d3f92fc7ca182fdf5eb
-                            
-                      
+* title = "List of all ePIs associated with trydonis"
+
+* subject = Reference(mp56823c4f34244d3f92fc7ca182fdf5eb)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#trydonis "trydonis"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8c380d27bbc2d53daf7f5dedc85cca7a) // trydonis en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8c380d27bbc2d53daf7f5dedc85cca7a) // trydonis da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8c380d27bbc2d53daf7f5dedc85cca7a
+InstanceOf: List
+
+* insert 8c380d27bbc2d53daf7f5dedc85cca7aListRuleset
+    

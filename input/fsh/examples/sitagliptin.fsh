@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-0dd5f884d9dc5fa6d9fea8dd6125a60a
 InstanceOf: CompositionUvEpi
 Title: "Composition for sitagliptin Package Leaflet"
@@ -330,12 +333,408 @@ Tel. +44 (0) 208 848 8This leaflet was last revised in                    . </p>
 
 
 
+Instance: composition-da-0dd5f884d9dc5fa6d9fea8dd6125a60a
+InstanceOf: CompositionUvEpi
+Title: "Composition for sitagliptin Package Leaflet"
+Description:  "Composition for sitagliptin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1d807a5793d9ed8ae1b8970d04c06750)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1d807a5793d9ed8ae1b8970d04c06750
+* title = "TEST PURPOSES ONLY - sitagliptin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Sitagliptin SUN 
+3. Sådan skal De tage Sitagliptin SUN 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sitagliptin is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sitagliptin is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sitagliptin SUN indeholder det aktive stof sitagliptin, som tilhører en klasse af lægemidler, som kaldes 
+DPP-4- hæmmere (dipeptylpeptidase-4-hæmmere). Disse lægemidler sænker blodsukkeret hos voksne 
+patienter med type 2-diabetes mellitus. Dette lægemiddel hjælper med at øge mængden af insulin, der 
+frigives efter et måltid, og nedsætter mængden af sukker, der dannes af kroppen. </p>
+<p>Deres læge har foreskrevet dette lægemiddel som en hjælp til at sænke Deres blodsukker, som er for 
+højt på grund af Deres type 2-diabetes. Lægemidlet kan bruges alene eller sammen med visse andre 
+lægemidler (insulin, metformin, sulfonylurinstof eller glitazoner), som sænker blodsukkeret, og som 
+De måske allerede tager for Deres diabetes, samtidig med at De følger en diæt- og motionsplan. </p>
+<p>Hvad er type 2-diabetes? 
+Type 2-diabetes er en tilstand, hvor Deres krop ikke danner nok insulin, samtidig med at det insulin, 
+som Deres krop danner, ikke virker så godt, som det burde. Deres krop kan også danne for meget 
+sukker. Når dette sker, øges sukkerindholdet (glucose) i blodet. Dette kan føre til alvorlige 
+helbredsproblemer som hjertesygdom, nyresygdom, blindhed og amputation. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sitagliptin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sitagliptin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Sitagliptin SUN 
+- hvis De er allergisk over for sitagliptin eller et af de øvrige indholdsstoffer i lægemidlet (angivet 
+i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Der er indberettet tilfælde af betændelse i bugspytkirtlen (pankreatitis) hos patienter, der får sitagliptin 
+(se punkt 4). </p>
+<p>Hvis De får blærer på huden, kan det være et tegn på en hudsygdom kaldet bulløs pemfigoid. Lægen 
+vil måske bede Dem om at stoppe med at tage Sitagliptin SUN. </p>
+<p>Fortæl Deres læge, om De har eller har haft:</p>
+<ul>
+<li>En sygdom i bugspytkirtlen (f.eks. pankreatitis). </li>
+<li>Galdesten, alkoholafhængighed eller et meget højt indhold af triglycerider (en fedtstoftype) i 
+blodet. Disse sygdomme kan forøge risikoen for at få pankreatitis (se punkt 4). </li>
+<li>Type 1-diabetes. </li>
+<li>Komplikation til diabetes med forhøjet blodsukker, hurtigt vægttab, kvalme eller opkastning 
+(diabetisk ketoacidose). </li>
+<li>Tidligere eller nuværende nyreproblemer. </li>
+<li>Allergisk reaktion over for sitagliptin (se punkt 4). </li>
+</ul>
+<p>Dette lægemiddel vil ikke forårsage lavt blodsukker, fordi det ikke virker, når Deres blodsukker er lavt. 
+Når lægemidlet tages sammen med et sulfonylurinstof eller sammen med insulin, kan lavt blodsukker 
+(hypoglykæmi) forekomme. 
+Lægen vil måske nedsætte dosis af sulfonylurinstof eller insulin. </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke anvendes til børn og unge under 18 år. Det er ikke effektivt hos børn og 
+unge i alderen 10 til 17 år. Det er ukendt, om dette lægemiddel er sikkert og effektivt, når det anvendes 
+hos børn under 10 år. </p>
+<p>Brug af anden medicin sammen med Sitagliptin SUN 
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin. </p>
+<p>Fortæl det især til lægen, hvis De tager digoxin (et lægemiddel til behandling af uregelmæssig 
+hjerterytme og andre hjerteproblemer). Det kan være nødvendigt at kontrollere indholdet af digoxin i 
+Deres blod, hvis De tager sitagliptin. </p>
+<p>Graviditet og amning 
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. De bør ikke tage 
+dette lægemiddel under graviditet. </p>
+<p>Det vides ikke, om lægemidlet går over i mælken. De bør ikke tage dette lægemiddel, hvis De ammer 
+eller planlægger at amme. </p>
+<p>Trafik- og arbejdssikkerhed 
+Lægemidlet påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. Der 
+har dog været rapporter om svimmelhed og døsighed, hvilket kan påvirke Deres evne til at køre bil 
+eller betjene maskiner. </p>
+<p>Hvis De tager dette lægemiddel sammen med medicin, der kaldes sulfonylurinstof eller sammen med 
+insulin, kan det medføre for lavt blodsukker (hypoglykæmi), som kan påvirke Deres evne til at køre bil 
+og betjene maskiner, eller hvis De arbejder uden sikkert fodfæste. </p>
+<p>Sitagliptin SUN indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>
+<p>Sitagliptin SUN indeholder hydrogeneret ricinusolie 
+Kan forårsage mavebesvær og diarré. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sitagliptin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sitagliptin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den almindelige anbefalede dosis er:</p>
+<ul>
+<li>En 100 mg filmovertrukken tablet. </li>
+<li>En gang dagligt. </li>
+<li>Gennem munden. </li>
+</ul>
+<p>Hvis De har nyreproblemer, kan Deres læge ordinere en lavere dosis (såsom 25 mg eller 50 mg).   </p>
+<p>De kan tage dette lægemiddel med eller uden mad. </p>
+<p>Deres læge kan ordinere dette lægemiddel alene eller sammen med visse andre lægemidler, der sænker 
+blodsukkeret. </p>
+<p>Diæt og motion kan hjælpe Dem, så kroppen bruger sit blodsukker bedre. Det er vigtigt at forblive på 
+den diæt og motion, som lægen anbefaler, mens De tager sitagliptin. </p>
+<p>Hvis De har taget for meget Sitagliptin SUN 
+Kontakt straks Deres læge, hvis De har taget mere end den foreskrevne dosis af dette lægemiddel. </p>
+<p>Hvis De har glemt at tage Sitagliptin SUN 
+Hvis De glemmer en dosis, så tag den, så snart De kommer i tanke om det. Hvis De ikke kommer i 
+tanke om det, før det er tid til næste dosis, skal De springe den glemte dosis over og tage den næste 
+dosis som normalt. De må ikke tage en dobbeltdosis som erstatning for den glemte dosis af 
+lægemidlet. </p>
+<p>Hvis De holder op med at tage Sitagliptin SUN 
+Fortsæt med at tage Sitagliptin SUN, så længe Deres læge ordinerer det, så De fortsat kan få hjælp til 
+at kontrollere Deres blodsukker. De bør ikke holde op med at tage dette lægemiddel uden at tale med 
+lægen først. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>STOP med at tage sitagliptin og kontakt straks lægen, hvis De får nogen af følgende alvorlige 
+bivirkninger:</p>
+<ul>
+<li>Svære og vedvarende smerter i maven, som kan stråle ud i ryggen, med eller uden kvalme og 
+opkastning, da det kan være tegn på betændelse i bugspytkirtlen (pankreatitis). </li>
+</ul>
+<p>Hvis De får en alvorlig allergisk reaktion (hyppighed ikke kendt), herunder udslæt, nældefeber, blærer 
+på huden/hudafskalning og hævelse af ansigt, læber, tunge og svælg, som kan medføre vejrtræknings- og synkebesvær, skal De stoppe med at tage dette lægemiddel og kontakte lægen omgående. Lægen 
+kan ordinere et lægemiddel til behandling af Deres allergiske reaktion og et andet lægemiddel til 
+Deres diabetes. </p>
+<p>Nogle patienter har oplevet følgende bivirkninger, efter at sitagliptin er blevet føjet til metformin: 
+Almindelige (kan berøre op til 1 ud af 10): Lavt blodsukker, kvalme, øget luftafgang fra tarmen, 
+opkastning. 
+Ikke almindelige (kan berøre op til 1 ud af 100): Mavesmerter, diarré, forstoppelse, døsighed. </p>
+<p>Nogle patienter har oplevet forskellige typer mavegener, når de er startet med at kombinere sitagliptin 
+og metformin (hyppighed: almindelig). </p>
+<p>Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin sammen med et </p>
+<p>sulfonylurinstof og metformin: 
+Meget almindelig (kan berøre flere end 1 ud af 10): Lavt blodsukker.<br />
+Almindelig: Forstoppelse. </p>
+<p>Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin og pioglitazon: 
+Almindelige: Øget luftafgang fra tarmen, hævede hænder eller ben. </p>
+<p>Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin sammen med pioglitazon 
+og metformin: 
+Almindelige: Hævede hænder eller ben. </p>
+<p>Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin sammen med insulin 
+(med eller uden metformin): 
+Almindelig: Influenza.<br />
+Ikke almindelig: Tør mund. </p>
+<p>Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin alene i kliniske studier 
+eller ved anvendelse efter markedsføring alene og/eller sammen med anden diabetesmedicin: 
+Almindelige: Lavt blodsukker, hovedpine, infektion i øvre luftveje, stoppet næse eller snue og ondt i 
+halsen, betændelse i led og den tilgrænsende knogle, smerter i arme eller ben. 
+Ikke almindelige: Svimmelhed, forstoppelse, kløe.<br />
+Sjælden: Nedsat antal blodplader. 
+Hyppighed ikke kendt: Nyreproblemer (som kan kræve dialyse), opkastning, ledsmerter, 
+muskelsmerter, rygsmerter, interstitiel lungesygdom, bulløs pemfigoid (en type blærer på huden). </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sitagliptin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sitagliptin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og kartonen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Denne medicin kræver ikke særlige opbevaringsforhold. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sitagliptin SUN indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: sitagliptin: * 
+Hver Sitagliptin SUN 25 mg filmovertrukken tablet indeholder sitagliptin fumarat, der 
+svarer til 25 mg sitagliptin. * 
+Hver Sitagliptin SUN 50 mg filmovertrukken tablet indeholder sitagliptin fumarat, der 
+svarer til 50 mg sitagliptin. * 
+Hver Sitagliptin SUN 100 mg filmovertrukken tablet indeholder sitagliptin fumarat, der 
+svarer til 100 mg sitagliptin. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer:  * 
+Tabletkerne: Calciumhydrogenphosphat (E341), crospovidon type A (E1202), 
+hydrogeneret ricinusolie, glycerol-dibehenat, magnesiumstearat (E470b).  * 
+Filmovertræk: Hypromellose 2910/5 (E464), titandioxid (E171), macrogol 6000 (E1521), 
+talcum (E553b), rød jernoxid (E172), gul jernoxid (E172). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+- Sitagliptin SUN 25 mg filmovertrukne tabletter: Lyserøde, runde filmovertrukne tabletter, 
+dimensioner ca. 6 mm x 3 mm, præget med F1 på den ene side og glat på den anden side. 
+- Sitagliptin SUN 50 mg filmovertrukne tabletter: Lysbeige, runde filmovertrukne tabletter, 
+dimensioner ca. 8 mm x 4 mm, præget med F2 på den ene side og glat på den anden side. 
+- Sitagliptin SUN 100 mg filmovertrukne tabletter: Beige, runde filmovertrukne tabletter, 
+dimensioner ca. 10 mm x 4,5 mm, præget med F3 på den ene side og glat på den anden side. </p>
+<p>Sitagliptin SUN filmovertrukne tabletter er pakket i PA/Alu/PE + tørremiddel/HDPE/Al 
+blisterpakninger. De fås i pakningsstørrelser med 28, 56 eller 98 filmovertrukne tabletter. </p>
+<p>Sitagliptin SUN filmovertrukne tabletter fås også i pakninger indeholdende en HDPE-flaske med filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Sun Pharmaceutical Industries Europe B.V.<br />
+Polarisavenue 2132JH Hoofddorp 
+Holland </p>
+<p>Fremstiller 
+Sun Pharmaceutical Industries Europe B.V.<br />
+Polarisavenue 2132JH Hoofddorp 
+Holland </p>
+<p>Terapia S.A. 
+Str. Fabricii nr. Cluj-Napoca, 400Rumænien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien/България/Česká republika/ 
+Danmark/Eesti/Ελλάδα/Hrvatska/Ireland/Ísland/ 
+Κύπρος/Latvija/Lietuva/Luxembourg/Luxemburg/Magyarország/ 
+Malta/Nederland/Norge/Österreich/Portugal/ 
+Slovenija/Slovenská republika/Suomi/Finland/Sverige 
+Sun Pharmaceutical Industries Europe B.V. 
+Polarisavenue 2132 JH Hoofddorp 
+Nederland/Pays-Bas/Niederlande/Нидерландия/Nizozemsko/ 
+Nederlandene/Holland/Ολλανδία/Nizozemska/The Netherlands/Holland/ 
+Ολλανδία/Nīderlande/Nyderlandai/Pays-Bas/Niederlande/Hollandia/ 
+L-Olanda/Nederland/Nederland/Niederlande/Países Baixos/ 
+Nizozemska/Holandsko/Alankomaat/Nederländerna/Nederländerna 
+Tel./тел./tlf./τηλ./Sími/τηλ./Tlf./Puh./ 
+ +31 (0)23 568 5 </p>
+<p>Deutschland 
+Sun Pharmaceuticals Germany GmbH 
+Hemmelrather Weg 51377 Leverkusen 
+Deutschland 
+Tel. +49 (0) 214 40399 0 </p>
+<p>España 
+Sun Pharma Laboratorios, S.L.<br />
+Rambla de Catalunya 53-08007 Barcelona 
+España 
+tel. +34 93 342 78<br />
+France 
+Sun Pharma France 
+11-15, Quai de Dion Bouton 
+92800 Puteaux 
+France 
+Tel. +33 1 41 44 44<br />
+Italia 
+Sun Pharma Italia Srl 
+Viale Giulio Richard, 1 
+20143 Milano 
+Italia 
+tel. +39 02 33 49 07<br />
+Polska 
+Ranbaxy (Poland) Sp. Z o. o. 
+ul. Kubickiego 11<br />
+02-954 Warszawa<br />
+Polska 
+Tel. +48 22 642 07<br />
+România 
+Terapia S.A. 
+Str. Fabricii nr Cluj-Napoca, Judeţul Cluj 
+România 
+Tel. +40 (264) 501<br />
+United Kingdom (Northern Ireland) 
+Sun Pharma UK Limited 
+6-9 The Square,<br />
+Stockley Park, 
+Uxbridge 
+UB11 1FW 
+United Kingdom 
+Tel. +44 (0) 208 848 8 
+Denne indlægsseddel blev senest ændret                            . </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-0dd5f884d9dc5fa6d9fea8dd6125a60a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sitagliptin Package Leaflet for language en"
+Description: "ePI document Bundle for sitagliptin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0dd5f884d9dc5fa6d9fea8dd6125a60a"
+* entry[0].resource = composition-en-0dd5f884d9dc5fa6d9fea8dd6125a60a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0dd5f884d9dc5fa6d9fea8dd6125a60a"
+* entry[=].resource = mp0dd5f884d9dc5fa6d9fea8dd6125a60a
+                            
+                    
+Instance: bundlepackageleaflet-da-0dd5f884d9dc5fa6d9fea8dd6125a60a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sitagliptin Package Leaflet for language da"
+Description: "ePI document Bundle for sitagliptin Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-0dd5f884d9dc5fa6d9fea8dd6125a60a"
+* entry[0].resource = composition-da-0dd5f884d9dc5fa6d9fea8dd6125a60a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0dd5f884d9dc5fa6d9fea8dd6125a60a"
+* entry[=].resource = mp0dd5f884d9dc5fa6d9fea8dd6125a60a
+                            
+                    
+
+
+
+Instance: mp0dd5f884d9dc5fa6d9fea8dd6125a60a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Sitagliptin SUN 25 mg film-coated tablets"
-Description: "Sitagliptin SUN 25 mg film-coated tablets"
+Title: "Medicinal Product sitagliptin"
+Description: "sitagliptin"
 Usage: #inline
 
  
@@ -355,7 +754,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Sitagliptin SUN 25 mg film-coated tablets"
+  * productName = "sitagliptin"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -382,29 +781,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-0dd5f884d9dc5fa6d9fea8dd6125a60a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sitagliptin Package Leaflet for language en"
-Description: "ePI document Bundle for sitagliptin Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 0dd5f884d9dc5fa6d9fea8dd6125a60aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Sitagliptin SUN 25 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sitagliptin"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-0dd5f884d9dc5fa6d9fea8dd6125a60a"
-* entry[0].resource = composition-en-0dd5f884d9dc5fa6d9fea8dd6125a60a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1d807a5793d9ed8ae1b8970d04c06750"
-* entry[=].resource = mp1d807a5793d9ed8ae1b8970d04c06750
-                            
-                      
+* title = "List of all ePIs associated with sitagliptin"
+
+* subject = Reference(mp1d807a5793d9ed8ae1b8970d04c06750)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sitagliptin "sitagliptin"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0dd5f884d9dc5fa6d9fea8dd6125a60a) // sitagliptin en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-0dd5f884d9dc5fa6d9fea8dd6125a60a) // sitagliptin da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-0dd5f884d9dc5fa6d9fea8dd6125a60a
+InstanceOf: List
+
+* insert 0dd5f884d9dc5fa6d9fea8dd6125a60aListRuleset
+    

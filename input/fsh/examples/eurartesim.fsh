@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5908d361fd5ea6267d242f3bbae1b944
 InstanceOf: CompositionUvEpi
 Title: "Composition for eurartesim Package Leaflet"
@@ -389,12 +392,527 @@ Suomi/Finland, Sverige, United Kingdom (Northern Ireland). </p>
 
 
 
+Instance: composition-da-5908d361fd5ea6267d242f3bbae1b944
+InstanceOf: CompositionUvEpi
+Title: "Composition for eurartesim Package Leaflet"
+Description:  "Composition for eurartesim Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp27a5f43865e3126a1ea3f48f5cf92be9)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp27a5f43865e3126a1ea3f48f5cf92be9
+* title = "TEST PURPOSES ONLY - eurartesim"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:<br />
+1. Virkning og anvendelse 
+2. Det skal du vide, før du eller dit barn begynder at tage Eurartesim 
+3. Sådan skal du tage Eurartesim<br />
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What eurartesim is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What eurartesim is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Eurartesim indeholder de aktive stoffer piperaquintetrafosfat og artenimol. Det anvendes til at 
+behandle ukompliceret malaria, når det er hensigtsmæssigt at give medicin via munden. </p>
+<p>Malaria forårsages af en infektion med en parasit kaldet Plasmodium, som spredes via et stik fra en 
+inficeret mosquito. Der er forskellige typer af parasitten Plasmodium. Eurartesim dræber parasitten 
+Plasmodium falciparum. </p>
+<p>Medicinen kan tages af voksne, unge, børn og spædbørn over 6 måneder, som vejer 5 kg eller derover.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take eurartesim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take eurartesim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Eurartesim hvis du eller dit barn: </p>
+<ul>
+<li>
+<p>er allergiske over for de aktive stoffer, piperaquintetrafosfat eller artenimol eller et af de øvrige 
+indholdsstoffer i Eurartesim (angivet i punkt 6),  </p>
+</li>
+<li>
+<p>har en alvorlig form for malariainfektion, som har påvirket legemsdele såsom hjernen, lungerne 
+eller nyrerne, </p>
+</li>
+<li>
+<p>har en hjertesygdom, såsom ændringer af hjerterytmen eller hvor hurtigt hjertet slår, eller en 
+hjertesygdom, </p>
+</li>
+<li>
+<p>ved at et familiemedlem (forældre, bedsteforældre, brødre eller søstre) døde pludseligt på grund 
+af et hjerteproblem, eller havde medfødte hjerteproblemer, </p>
+</li>
+<li>
+<p>lider af ændringer i saltniveauet i kroppen (elektrolytforstyrrelser), </p>
+</li>
+<li>
+<p>tager anden medicin, der kan have en virkning på hjerterytmen, såsom:</p>
+</li>
+<li>
+<p>quinidin, disopyramid, procainamid, amiodaron, dofetilid, ibutilid, hydroquinidin eller 
+sotalol, </p>
+</li>
+<li>medicin, der anvendes til at behandle depression, såsom amitriptylin, fluoxetin eller 
+sertralin, </li>
+<li>
+<p>medicin, der anvendes til at behandle psykiatriske problemer, såsom phenothiazimer, 
+sertindol, sultoprid, chlorpromazin, haloperidol, mesoridazin, pimozid eller tioridazin, </p>
+</li>
+<li>
+<p>medicin, der anvendes til at behandle infektioner. Disse omfatter nogle former for 
+medicin, der anvendes til at behandle bakterielle infektioner (makrolider [såsom 
+erythromycin eller clarithromycin] og fluoroquinoloner [såsom moxifloxacin og 
+sparfloxacin]), eller svampeinfektioner (herunder fluconazol og imidazol) samt 
+pentamidin (anvendes til at behandle en specifik form for lungebetændelse) og saquinavir 
+(til behandling af hiv), </p>
+</li>
+<li>antihistaminer, der anvendes til at behandle allergier eller betændelse, såsom terfenadin, 
+astemizol eller mizolastin, </li>
+<li>visse former for medicin, der anvendes til at behandle maveproblemer, såsom cisaprid, 
+domperidon eller droperidol, </li>
+<li>
+<p>anden medicin, såsom vinca alkaloider og arseniktrioxid (anvendes til at behandle visse 
+former for kræft), bepridil (anvendes til at behandle angina), diphemanil (anvendes til at 
+behandle maveforstyrrelser), levomethadyl og methadon (anvendes til at behandle 
+afhængighed af lægemidler) og probucol (anvendes til at behandle høje niveauer af 
+kolesterol i blodet). </p>
+</li>
+<li>
+<p>er for nyligt (for eksempel inden for ca. en måned) blevet behandlet for malaria med visse 
+former for medicin, eller har taget visse former for medicin for at undgå malaria. Disse former 
+for medicin omfatter: mefloquin, halofantrin, lumefantrin, chloroquin eller quinin. </p>
+</li>
+</ul>
+<p>Hvis noget af det ovenstående gælder for dig eller dit barn, eller du er i tvivl, skal du fortælle det til 
+lægen eller apotekspersonalet, før du tager eller giver Eurartesim. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før I tager denne medicin, hvis du eller dit barn: </p>
+<ul>
+<li>
+<p>har problemer med lever- eller nyrer, </p>
+</li>
+<li>
+<p>har en malariainfektion, som er forårsaget af en anden parasit end Plasmodium falciparum, </p>
+</li>
+<li>
+<p>tager eller har taget anden medicin til behandling af malaria (udover dem, der er nævnt 
+ovenfor),  </p>
+</li>
+<li>
+<p>er i graviditetens 1. trimester eller ammer (se nedenfor), </p>
+</li>
+<li>
+<p>er kvinde, ældre (over 65 år) eller kaster op, </p>
+</li>
+<li>
+<p>tager visse former for anden medicin, som kan give mulige metaboliske interaktioner. 
+Eksempler findes i afsnittet “Brug af anden medicin sammen med Eurartesim", </p>
+</li>
+<li>
+<p>hvis malariainfektion forekommer gentagne gange eller ikke er helbredt efter behandling med 
+Eurartesim, kan din læge ordinere et andet lægemiddel. 
+Hvis du er i tvivl om noget af det ovenstående, skal du spørge din læge eller apotekspersonalet. </p>
+</li>
+</ul>
+<p>Børn 
+Denne medicin må ikke gives til spædbørn under 6 måneder eller med en vægt på under 5 kg. </p>
+<p>Brug af anden medicin sammen med Eurartesim 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du eller dit barn tager anden medicin, for nylig 
+har taget anden medicin eller planlægger at tage anden medicin. Nogle former for medicin kan påvirke 
+den måde, Eurartesim virker på, og din læge kan beslutte, at Eurartesim ikke er hensigtsmæssigt, eller 
+at yderligere kontroller er nødvendige, mens du eller dit barn tager medicin, som kan give mulige 
+interaktioner. Eksempler findes nedenfor (men der er flere andre):</p>
+<ul>
+<li>nogle former for medicin, der anvendes til at behandle høje kolesterolniveauer i blodet (såsom 
+atorvastatin, lovastatin, simvastatin), </li>
+<li>medicin, der anvendes til at behandle hypertension og hjerteproblemer (såsom diltiazem, 
+nifedipin, nitrendipin, verapamil, felodipin, amlodipin), </li>
+<li>nogle former for medicin, der anvendes til at behandle hiv (antiretroviral medicin): 
+hiv-proteasehæmmere (såsom atazanavir, darunavir, indinavir, lopinavir, ritonavir), 
+non-nukleosid revers transcriptase-hæmmere (såsom efavirenz, nevirapin), </li>
+<li>nogle former for medicin, som anvendes til at behandle mikrobielle infektioner (såsom 
+telithromycin, rifampicin, dapson), </li>
+<li>
+<p>medicin, der anvendes til at hjælpe dig med at falde i søvn: benzodiazepiner (såsom midazolam, 
+triazolam, diazepam, alprazolam), zaleplon, zolpidem, </p>
+</li>
+<li>
+<p>medicin, der anvendes til at forebygge/behandle epileptiske anfald: barbiturater (såsom 
+phenobarbital), carbamazepin eller phenytoin, </p>
+</li>
+<li>medicin, der anvendes efter organtransplantation og ved autoimmunsygdomme (såsom 
+cyclosporin, tacrolimus), </li>
+<li>kønshormoner, herunder dem, der findes i hormonale præventionsmidler (såsom gestoden, 
+progesteron, østradiol), testosteron, </li>
+<li>glukokortikoider (hydrokortison, dexamethason), </li>
+<li>omeprazol (anvendes til at behandle sygdomme relateret til produktionen af mavesyre), </li>
+<li>paracetamol (anvendes til at behandle smerter og feber), </li>
+<li>theophyllin (anvendes til at forbedre den bronkiale luftgennemstrømning), </li>
+<li>nefazodon (anvendes til at behandle depression), </li>
+<li>aprepitant (anvendes til at behandle kvalme), </li>
+<li>nogle gasser (såsom enfluran, halothan og isofluran) anvendes til at give generel anæstesi. </li>
+</ul>
+<p>Brug af Eurartesim sammen med mad og drikke 
+Du bør kun tage Eurartesim tabletter sammen med vand.<br />
+Eurartesim må ikke tages sammen med grapefrugt juice på grund af mulige interaktioner. </p>
+<p>Graviditet og amning 
+Fortæl det til lægen, hvis du er i graviditetens 1. trimester, har mistanke om, at du er gravid eller bliver 
+gravid, eller hvis du ammer. Baseret på data fra dyreforsøg er Eurartesim under mistanke for at skade 
+det ufødte barn, hvis det anvendes i løbet af de første 3 måneder af graviditeten. Eurartesim må derfor 
+ikke anvendes i graviditetens 1. trimester, hvis din læge kan give dig en alternativ medicin. Hvis du 
+finder ud af, at du er gravid, inden for én måned, efter du har taget Eurartesim, bedes du informere din 
+læge. Eksponering af gravide kvinder i det 2. og 3. trimester har ikke været forbundet med nogen 
+skade på det ufødte barn. Hvis Eurartesim er mere egnet til en gravid kvinde end andre artemisinin-
+baserede kombinationsbehandlinger med et højere erfaringsgrundlag (eller sulfadoxin-pyrimethamin), 
+kan Eurartesim anvendes i det 2. og 3. trimester. </p>
+<p>Du bør ikke amme dit barn mens du tager denne medicin, da medicinen kan overføres til dit barn via 
+brystmælken. </p>
+<p>Hvis du tager folattilskud for at forhindre mulige neuralrørsdefekter, kan du fortsætte med at tage dem 
+samtidigt med Eurartesim. </p>
+<p>Spørg lægen eller apotekspersonalet til råds, før du tager nogen form for medicin i løbet af 
+graviditeten eller mens du ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan føre motorkøretøj eller betjene maskiner efter du tager Eurartesim, når du er over din sygdom. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take eurartesim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take eurartesim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Euratesim nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.  </p>
+<p>Du eller dit barn skal tage denne medicin på en tom mave. Du eller dit barn skal tage hver dosis ikke 
+senere end 3 timer efter sidste måltid, og intet måltid skal tages inden for 3 timer efter hver dosis 
+Eurartesim. Du eller dit barn kan til enhver tid drikke vand. </p>
+<p>Hvis der er besværligt at sluge tabletterne, kan du knuse dem og blande dem med vand. Drik straks 
+blandingen. </p>
+<p>Et behandlingsforløb med Eurartesim varer i tre på hinanden følgende dage. Tag en dosis hver dag. Du 
+skal forsøge at tage dosis på ca. det samme tidspunkt på hver af de tre dage. </p>
+<p>Den daglige dosis afhænger af patientens legemsvægt. Din læge bør have ordineret den dosis, der er 
+hensigtsmæssig for din vægt eller dit barns vægt, på følgende måde: </p>
+<p>Legemsvægt 
+(kg) 
+Daglig dosis (mg) 
+Totalt antal tabletter til 
+behandling 
+5 til under 7 
+En halv 160 mg/20 mg tablet dagligt 
+1.5 tablet<br />
+7 til under En 160 mg/20 mg tablet dagligt 
+3 tabletter 
+13 til under En 320 mg/40 mg tablet dagligt 
+3 tabletter 
+24 til under To 320 mg/40 mg tabletter dagligt 
+6 tabletter 
+36 til under Tre 320 mg/40 mg tabletter dagligt 
+9 tabletter 
+75 og derover 
+Fire 320 mg/40 mg tabletter dagligt 
+12 tabletter </p>
+<p>Opkastning efter indtagelse af denne medicin 
+Hvis dette sker inden for:  </p>
+<ul>
+<li>
+<p>30 minutter af indtagelsen af Eurartesim, skal hele dosis tages igen. </p>
+</li>
+<li>
+<p>31-60 minutter, halvdelen af dosis skal tages igen.<br />
+Hvis du eller dit barn også kaster den anden dosis op, skal du ikke tage eller give dit barn en til dosis. 
+Kontakt omgående lægen for at få en alternative behandling mod malaria. </p>
+</li>
+</ul>
+<p>Indtagelse af denne medicin, hvis malariainfektionen vender tilbage </p>
+<ul>
+<li>
+<p>Hvis du eller dit barn igen får et malaria-anfald, kan du tage et andet behandlingsforløb med 
+Eurartesim inden for et år, eller hvis lægen mener, at dette er hensigtsmæssig behandling. Du 
+eller dit barn må ikke tage over to behandlingsforløb inden for et år. Tal med lægen hvis dette 
+sker. Du eller dit barn må ikke tage et andet forløb med Eurartesim inden for 2 måneder fra det 
+første forløb. </p>
+</li>
+<li>
+<p>Hvis du eller dit barn inficeres mere end to gange på et år, vil lægen ordinere en alternativ 
+behandling. </p>
+</li>
+</ul>
+<p>Hvis du eller dit barn har taget for mange Eurartesim tabletter 
+Hvis du eller dit barn har taget mere end den anbefalede dosis, skal du fortælle det til lægen. Din læge 
+kan foreslå, at du eller dit barn overvåges særligt, da doser over de anbefalede kan have uønskede, 
+alvorlige virkninger på hjertet (se også pkt. 4). </p>
+<p>Hvis du eller dit barn har glemt at tage Eurartesim 
+Hvis du eller dit barn har glemt at tage den anden Eurartesim-dosis til det rigtige tidspunkt, skal du 
+tage den så snart, du husker det.Tag derefter den tredje (sidste) dosis ca. 24 timer efter den anden 
+dosis. Hvis du eller dit barn har glemt at tage den tredje (sidste) dosis til det rigtige tidspunkt, skal du 
+tage den så snart, du husker det. Tag aldrig mere end en dosis på samme dag som erstatning for den 
+glemte dosis.<br />
+Er du i tvivl, så spørg lægen eller apotekspersonalet. </p>
+<p>Hvis du eller dit barn holder op med at tage Eurartesim 
+For at medicinen virker effektivt, skal du eller dit barn tage tabletterne som anvist, og I skal 
+gennemføre det 3-dages behandlingsforløb. Hvis du eller dit barn ikke er i stand til at gøre dette, skal I 
+kontakte lægen eller apotekspersonalet. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger er ikke alvorlige, og forsvinder normalt i løbet af få dage eller uger efter 
+behandlingen.  </p>
+<p>Hvis dit barn får udslæt, hævelse af ansigt, læber, tunge eller hals med synke- eller 
+vejrtrækningsbesvær, kan det være tegn på en allergisk reaktion. Fortæl det straks til din læge eller tag 
+straks på skadestuen på dit nærmeste hospital, og medbring denne indlægsseddel. </p>
+<p>Et hjerteproblem, som kaldes QT-forlængelse, kan forekomme hos patienter, der tager Eurartesim, og i 
+nogle dage efter indtagelse af den sidste dosis. Dette kan forårsage en unormal hjerterytme, der kan 
+være livstruende.<br />
+Din læge kan optage den elektriske aktivitet af hjertet (elektrokardiogram, EKG) under 
+behandlingen af dig eller dit barn, og efter den sidste dosis. Din læge vil informere dig om 
+hvornår disse aflæsninger vil tages. 
+Hvis du bemærker noget anderledes ved dit eller dit barns hjerterytme eller hvis I har 
+symptomer (såsom hjertebanken eller uregelmæssigt hjerteslag), skal du snarest muligt 
+kontakte lægen, og før næste dosis skal indgives. </p>
+<p>Der kan undertiden opstå et problem med de røde blodlegemer, som kaldes hæmolytisk anæmi, efter 
+malariabehandling. Kontakt straks lægen, hvis du eller dit barn får et eller flere af følgende symptomer 
+efter behandling med Eurartesim: bleg hud, generel træthed, hovedpine, stakåndethed og hurtig 
+hjerterytme (især ved fysisk anstrengelse), forvirring, svimmelhed eller mørkfarvet urin. </p>
+<p>Bivirkninger hos voksne </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+Anæmi, hovedpine, forstyrrelser af hjerterytmen (EKG-ændringer eller registrering af usædvanligt 
+hurtigt hjerteslag eller hjertebanken), feber, generaliseret svaghed. </p>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) 
+Influenza, luftvejsinfektion, dårlig appetit eller mangel på appetit, svimmelhed, krampeanfald, 
+uregelmæssig eller langsom puls, hoste, opkastning, mavesmerter, diarré, kvalme, betændelse eller 
+forstørrelse af leveren, beskadigelse af leverceller, unormale leverfunktionsprøver, kløe, smerter i 
+muskler eller led.  </p>
+<p>Bivirkninger hos børn </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) 
+Influenza, hoste, feber. </p>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) 
+Luftvejsinfektion, ørebetændelse, anæmi, forstyrrelser af forskellige typer blodlegemer (hvide 
+blodlegemer og blodplader), dårlig appetit eller manglende appetit, øjenbetændelse, forstyrrelser af 
+hjerterytmen (ændringer som for voksne, EKG-ændringer), mavesmerter, opkastning, diarré, 
+betændelse af hud, udslæt, generaliseret svaghed. </p>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) 
+Forstyrrelser af røde blodlegemer, et for stort antal blodplader, forstørrelser af nogle organer (såsom 
+leveren eller milten), hævede lymfeknuder, krampeanfald, hovedpine, unormale hjertelyde (som din 
+læge har hørt med et stetoskop), næseblod, rindende næse, kvalme, mundbetændelse, forstørrelse af 
+leveren, gulsot, unormale leverfunktionsblodprøver, hudkløe og betændelse, smerter i leddene.    </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store eurartesim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store eurartesim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. 
+Opbevares i den originale yderpakning for at beskytte mod lys og fugt. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at blisteren er åben.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Eurartesim indeholder: 
+Aktive stoffer: piperaquintetraphosphat og artenimol. 
+Hver filmovertrukne tablet indeholder 160 mg piperaquintetrafosfat (som tetrahydrat) og 20 mg 
+artenimol. </p>
+<p>Øvrige indholdsstoffer: 
+Tabletkerne: prægelatiniseret stivelse, dextrin, hypromellose (E464), croscarmellose natrium, 
+magnesiumstearat (E572). 
+Filmovertræk: Hypromellose, titandioxid (E171), macrogol 400. Udseende og pakningsstørrelser 
+Eurartesim tabletter er hvide filmovertrukne tabletter, præget og med en delekærv langs midten. </p>
+<p>160 mg/20 mg tabletterne har bogstaverne ‘S’ og ‘T’ bogstav på den ene side, og kommer i blisters, 
+der indeholder 3 tabletter. </p>
+<p>Indehaver af markedsføringstilladelsen  </p>
+<p>Alfasigma S.p.A. 
+Via Ragazzi del ’99, n. 5 
+40133 Bologna 
+Italien </p>
+<p>Tlf.: +39 051 6489Fax: +39 051 388E-mail: antonietta.pazardjiklian@alfasigma.com </p>
+<p>Fremstiller </p>
+<p>Alfasigma S.p.A. 
+Via Pontina, km. 30,00071 Pomezia (Rom) 
+Italien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien , 
+Luxembourg/Luxemburg 
+Alfasigma Belgium sprl/bvba 
+Tel: +32 (0)2 420 93 eurartesim.be@alfasigma.com </p>
+<p>Nederland  </p>
+<p>Deutschland 
+Alfasigma Nederland BV </p>
+<p>Pharmore GmbH 
+Tel: +31 30 6702 </p>
+<p>Tel: +49 (0) 5451 9690-0 
+info.nl@alfasigma.com  </p>
+<p>service@pharmore.de </p>
+<p>España </p>
+<p>Portugal 
+Alfasigma España, S.L.  </p>
+<p>Alfasigma Portugal, Lda 
+Tel: +34 93 415 48 22   </p>
+<p>Tel: + 351 217 226 110<br />
+info.es@alfasigma.com   </p>
+<p>geral@alfasigma.com  </p>
+<p>France </p>
+<p>Alfasigma France </p>
+<p>Tél: +33 1 45 21 02 69  </p>
+<p>regulatory.fr@alfasigma.com  </p>
+<p>Ελλάδα 
+A VIPharma International A.E. 
+Τηλ: +30 210-6194170  </p>
+<p>info@avipharma.gr </p>
+<p>Italy 
+Alfasigma S.p.A. 
+Tel: +39 051 6489antonietta.pazardjiklian@alfasigma.com </p>
+<p>Κύπρος 
+ISANGEN PHARMA CYPRUS LTD 
+Τηλ: +357 24-638info@isangenpharma.com.cy </p>
+<p>България, Česká republika, Danmark, Eesti, Hrvatska, Ireland, Ísland, Latvija, Lietuva, 
+Magyarország, Malta, Norge, Österreich, Polska, România, Slovenija, Slovenská republika, 
+Suomi/Finland, Sverige, United Kingdom (Northern Ireland). </p>
+<p>Alfasigma S.p.A. 
+Италия, Olaszország, Itàlie, Italja, Italien, Italia, Itaalia, Włochy, Italija, Ítalía, taliansko, Itālija </p>
+<p>Teл/Tel/Tlf/Sími/Puh: +39 051 6489alfasigmaspa@legalmail.it 
+Denne indlægsseddel blev senest ændret måned ÅÅÅÅ </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Eurartesim 320 mg/40 mg filmovertrukne tabletter<br />
+Piperaquintetrafosfat/artenimol </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
+er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5908d361fd5ea6267d242f3bbae1b944
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for eurartesim Package Leaflet for language en"
+Description: "ePI document Bundle for eurartesim Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5908d361fd5ea6267d242f3bbae1b944"
+* entry[0].resource = composition-en-5908d361fd5ea6267d242f3bbae1b944
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5908d361fd5ea6267d242f3bbae1b944"
+* entry[=].resource = mp5908d361fd5ea6267d242f3bbae1b944
+                            
+                    
+Instance: bundlepackageleaflet-da-5908d361fd5ea6267d242f3bbae1b944
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for eurartesim Package Leaflet for language da"
+Description: "ePI document Bundle for eurartesim Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5908d361fd5ea6267d242f3bbae1b944"
+* entry[0].resource = composition-da-5908d361fd5ea6267d242f3bbae1b944
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5908d361fd5ea6267d242f3bbae1b944"
+* entry[=].resource = mp5908d361fd5ea6267d242f3bbae1b944
+                            
+                    
+
+
+
+Instance: mp5908d361fd5ea6267d242f3bbae1b944
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Eurartesim 160 mg/20 mg film-coated tablets."
-Description: "Eurartesim 160 mg/20 mg film-coated tablets."
+Title: "Medicinal Product eurartesim"
+Description: "eurartesim"
 Usage: #inline
 
  
@@ -414,7 +932,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Eurartesim 160 mg/20 mg film-coated tablets."
+  * productName = "eurartesim"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -441,29 +959,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5908d361fd5ea6267d242f3bbae1b944
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for eurartesim Package Leaflet for language en"
-Description: "ePI document Bundle for eurartesim Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5908d361fd5ea6267d242f3bbae1b944ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/716/005"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "eurartesim"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5908d361fd5ea6267d242f3bbae1b944"
-* entry[0].resource = composition-en-5908d361fd5ea6267d242f3bbae1b944
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp27a5f43865e3126a1ea3f48f5cf92be9"
-* entry[=].resource = mp27a5f43865e3126a1ea3f48f5cf92be9
-                            
-                      
+* title = "List of all ePIs associated with eurartesim"
+
+* subject = Reference(mp27a5f43865e3126a1ea3f48f5cf92be9)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#eurartesim "eurartesim"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5908d361fd5ea6267d242f3bbae1b944) // eurartesim en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5908d361fd5ea6267d242f3bbae1b944) // eurartesim da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5908d361fd5ea6267d242f3bbae1b944
+InstanceOf: List
+
+* insert 5908d361fd5ea6267d242f3bbae1b944ListRuleset
+    

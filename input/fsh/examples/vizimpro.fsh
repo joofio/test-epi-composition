@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-99b35aa72c0e418c8749ea99edf139d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for vizimpro Package Leaflet"
@@ -338,12 +341,446 @@ Tel.: + 371 670 35 This leaflet was last revised in MM/YYYY </p>
 
 
 
+Instance: composition-da-99b35aa72c0e418c8749ea99edf139d2
+InstanceOf: CompositionUvEpi
+Title: "Composition for vizimpro Package Leaflet"
+Description:  "Composition for vizimpro Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa05b3b03b528b8e7156a6b16d80452fc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa05b3b03b528b8e7156a6b16d80452fc
+* title = "TEST PURPOSES ONLY - vizimpro"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Vizimpro
+3. Sådan skal du tage Vizimpro
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vizimpro is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vizimpro is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vizimpro indeholder det aktive stof dacomitinib, som tilhører en gruppe af lægemidler kaldet
+proteintyrosinkinasehæmmere, som bruges til at behandle kræft. 
+Vizimpro bruges til behandling af voksne patienter med en type lungekræft, som kaldes "ikke-
+småcellet lungekræft". Hvis en test har vist, at du har kræft med ændringer (mutationer) i et gen kaldet 
+EGFR (human epidermal vækstfaktorreceptor) og kræften har spredt sig til den anden lunge eller 
+andre organer, vil kræften sandsynligvis reagere på behandling med Vizimpro. 
+Vizimpro kan bruges som din første behandling, når lungekræften har spredt sig til den anden lunge 
+eller andre organer.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vizimpro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vizimpro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Vizimpro
+
+Hvis du er allergisk over for dacomitinib eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6). 
+Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Vizimpro:
+
+Hvis du har andre lungeproblemer. Visse lungeproblemer kan blive værre under behandling 
+med Vizimpro, eftersom Vizimpro kan forårsage betændelse i lungerne under behandlingen. 
+Symptomerne kan være de samme, som dem der opstår ved lungekræft. Fortæl det straks til 
+lægen, hvis du får nye eller forværrede symptomer, herunder åndedrætsbesvær, åndenød eller 
+hoste med eller uden slim eller feber. 
+
+Hvis du bliver behandlet med et af de lægemidler, der er anført i afsnittet Brug af anden 
+medicin sammen med Vizimpro.
+33
+Fortæl det straks til lægen, når du tager dette lægemiddel:
+
+Hvis du får diarré. Det er vigtigt, at diarré behandles med det samme. 
+
+Hvis du får hududslæt. Det er vigtigt, at hududslæt behandles med det samme.
+
+Hvis du har symptomer på et leverproblem. Det kan være: gulfarvning af huden eller af det 
+hvide i øjnene (gulsot), mørk eller brun (tefarvet) urin, lys afføring.
+Børn og unge
+Vizimpro er ikke blevet undersøgt hos børn eller unge, og det må ikke gives til patienter under 18 år. 
+Brug af andre lægemidler sammen med Vizimpro
+Fortæl altid lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget andre
+lægemidler eller planlægger at tage andre lægemidler.
+Virkningen af visse andre lægemidler kan muligvis forstærkes, når de tages sammen med Vizimpro. 
+Disse omfatter blandt andet:
+
+Procainamid, som anvendes til at behandle uregelmæssig hjerterytme
+
+Pimozid og thioridazin, som anvendes til behandling af skizofreni og psykose
+Du må ikke tage disse lægemidler, mens du behandles med Vizimpro.
+De følgende lægemidler kan nedsætte virkningen af Vizimpro:
+
+Langtidsvirkende lægemidler, der nedsætter produktionen af mavesyre såsom 
+syrepumpehæmmere (til mavesår, fordøjelsesbesvær og halsbrand).
+Du må ikke tage disse lægemidler, mens du behandles med Vizimpro. Som alternativ kan du tage et 
+korttidsvirkende lægemiddel, fx syreneutraliserende medicin eller et lægemiddel, der nedsætter 
+produktionen af mavesyre, en såkaldt "H2-blokker". Hvis du tager en "H2-blokker", skal du tage din 
+Vizimpro-dosis mindst 2 timer før eller 10 timer efter, at du har taget lægemidlet, der blokerer H2. Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Graviditet
+Du må ikke blive gravid under behandling med Vizimpro, da dette lægemiddel kan skade barnet. Hvis 
+der er mulighed for, at du kan blive gravid, skal du anvende sikker prævention under behandlingen, og 
+i mindst 17 dage efter behandlingens ophør. Du skal omgående fortælle det til lægen, hvis du bliver 
+gravid, mens du tager dette lægemiddel.
+Amning
+Du må ikke amme, mens du tager dette lægemiddel, eftersom det ikke vides, om denne medicin kan 
+skade barnet. 
+Trafik- og arbejdssikkerhed
+Træthed og øjenirritation kan forekomme hos patienter, som tager Vizimpro. Hvis du føler dig træt, 
+eller hvis dine øjne er irriterede, skal du udvise forsigtighed, Når du fører motorkøretøj eller anvender
+maskiner.
+Vizimpro indeholder lactose og natrium
+Dette lægemiddel indeholder lactose (som findes i mælk og mejeriprodukter). Kontakt lægen, før du 
+tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke kan tåle visse sukkerarter.
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det
+væsentlige natriumfrit.
+34</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vizimpro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vizimpro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. 
+
+Den anbefalede dosis er 45 mg dagligt som tages gennem munden. 
+
+Tag tabletten på omtrent samme tid hver dag. 
+
+Slug tabletten hel med et glas vand.
+
+Du kan tage tabletten sammen med eller uden mad. 
+Din læge vil måske nedsætte din dosis af lægemidlet afhængigt af, hvor godt du tåler det.
+Hvis du har taget for meget Vizimpro
+Hvis du har taget for mange Vizimpro tabletter, skal du straks kontakte en læge eller tage på 
+hospitalet. 
+Hvis du har glemt at tage Vizimpro
+Hvis du glemmer en dosis eller kaster op, skal du tage din næste dosis som planlagt. Du må ikke tage 
+en dobbeltdosis som erstatning for den glemte tablet.
+Hvis du holder op med at tage Vizimpro
+Du må ikke stoppe med at tage Vizimpro, medmindre din læge fortæller dig det. Spørg lægen, 
+apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Kontakt straks din læge, hvis du får en eller flere af følgende bivirkninger, da du kan have behov for 
+akut lægehjælp.
+ Lungebetændelse (almindelig, kan forekomme hos op til 1 ud af 10 personer):
+Åndedrætsbesvær, åndenød, muligvis med hoste eller feber. Det betyder, at du måske har en 
+betændelse i lungerne, der kaldes interstitiel lungesygdom, som kan være dødelig. 
+ Diarré (meget almindelig, kan forekomme hos flere end 1 ud af 10 personer): 
+Diarré kan føre til væsketab (almindeligt), lavt kaliumindhold i blodet (meget almindeligt) og 
+forværret nyrefunktion, og kan være dødelig. Ved de første tegn på øget hyppighed af 
+afføring, skal du straks kontakte din læge, du skal drikke masser af væske og starte behandling 
+mod diarré så hurtigt som muligt. Du skal have et lægemiddel mod diarré tilgængeligt, inden 
+du begynder at tage Vizimpro. 
+ Hududslæt (meget almindeligt)
+Det er vigtigt, at udslættet behandles tidligt. Fortæl det til lægen, hvis du får begyndende 
+udslæt. Hvis behandlingen for udslæt ikke virker, eller udslættet bliver værre (fx hvis huden 
+skaller af eller der opstår revner i huden), skal du straks fortælle det til din læge, da din læge 
+kan beslutte at stoppe behandlingen med Vizimpro. Udslæt kan opstå eller forværres i 
+områder, der udsættes for sol. Beskyt dig mod solen ved hjælp af beskyttende tøj og solcreme.
+Kontakt din læge hurtigst muligt, hvis du opdager en eller flere af de følgende bivirkninger:
+Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):
+ Betændelse i munden og læberne
+ Negleproblemer
+ Hudtørhed
+ Tab af appetit
+ Tørre, røde eller kløende øjne
+ Vægttab
+35
+ Hårtab
+ Kløe
+ Unormale blodtests af leverenzymer
+ Kvalme eller opkastning
+ Rødmende eller smertefulde håndflader eller fodsåler
+ Træthed
+ Svækkelse
+ Revner i huden
+Almindelig (kan forekomme hos op til 1 ud af 10 personer):
+ Smagsforstyrrelser
+ Hudafskalning
+ Øjenbetændelse
+ Unormal hårvækst på kroppen
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vizimpro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vizimpro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Tag ikke lægemidlet efter den udløbsdato, der står på pakningen og blisteren efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Dette lægemiddel kan udgøre en risiko for miljøet. Spørg apotekspersonalet, hvordan du skal 
+bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, 
+toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Vizimpro indeholder:</h2>
+<p>Aktivt stof: dacomitinib (som dacomitinibmonohydrat). Vizimpro filmovertrukne tabletter 
+findes i forskellige styrker.
+Vizimpro 15 mg: hver filmovertrukken tablet indeholder 15 mg dacomitinib
+Vizimpro 30 mg: hver filmovertrukken tablet indeholder 30 mg dacomitinib
+Vizimpro 45 mg: hver filmovertrukken tablet indeholder 45 mg dacomitinib
+-
+Øvrige indholdsstoffer: 
+Tabletkerne: lactosemonohydrat, mikrokrystallinsk cellulose, natriumstivelsesglykolat, 
+magnesiumstearat (se pkt. 2 Vizimpro indeholder laktose og natrium).
+Filmovertræk: Opadry II Blue 85F30716 indeholdende polyvinylalkohol – delvist hydrolyseret 
+(E1203), talcum (E553b), titandioxid (E171), macrogol (E1521), Indigo carmine aluminium lake 
+(E132).
+Udseende og pakningsstørrelser
+-
+Vizimpro 15 mg filmovertrukne tabletter leveres som blå, runde, bikonvekse filmovertrukne 
+tabletter, der er præget med “Pfizer" på den ene side og “DCB15" på den anden side.
+36
+-
+Vizimpro 30 mg filmovertrukne tabletter leveres som blå, runde, bikonvekse filmovertrukne 
+tabletter, der er præget med “Pfizer" på den ene side og “DCB30" på den anden side.
+-
+Vizimpro 45 mg filmovertrukne tabletter leveres som blå, runde, bikonvekse filmovertrukne 
+tabletter, der er præget med “Pfizer" på den ene side og “DCB45" på den anden side.
+Vizimpro findes i blisterpakninger med 30 filmovertrukne tabletter (tabletter).
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Pfizer Manufacturing Deutschland GmbH
+Betriebsstätte Freiburg
+Mooswaldallee 1
+79090 Freiburg
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel. + 370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36-1-488-37-00
+Česká republika
+Pfizer, spol. s-r.o.
+Tel.: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: + 35621 344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer BV
+Tel: +31 (0)10 406 43 01
+Deutschland
+PFIZER PHARMA
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel.: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ.: +30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.:+48 22 335 61 00
+España
+Pfizer S.L.
+Tél: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+37
+France
+Pfizer 
+Tel: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel.: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka 
+Tel.: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh./Tel: +358 (0)9 43 00 40
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0) 1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel.: + 371 670 35 775
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-99b35aa72c0e418c8749ea99edf139d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vizimpro Package Leaflet for language en"
+Description: "ePI document Bundle for vizimpro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-99b35aa72c0e418c8749ea99edf139d2"
+* entry[0].resource = composition-en-99b35aa72c0e418c8749ea99edf139d2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp99b35aa72c0e418c8749ea99edf139d2"
+* entry[=].resource = mp99b35aa72c0e418c8749ea99edf139d2
+                            
+                    
+Instance: bundlepackageleaflet-da-99b35aa72c0e418c8749ea99edf139d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vizimpro Package Leaflet for language da"
+Description: "ePI document Bundle for vizimpro Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-99b35aa72c0e418c8749ea99edf139d2"
+* entry[0].resource = composition-da-99b35aa72c0e418c8749ea99edf139d2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp99b35aa72c0e418c8749ea99edf139d2"
+* entry[=].resource = mp99b35aa72c0e418c8749ea99edf139d2
+                            
+                    
+
+
+
+Instance: mp99b35aa72c0e418c8749ea99edf139d2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vizimpro 15 mg film-coated tablets"
-Description: "Vizimpro 15 mg film-coated tablets"
+Title: "Medicinal Product vizimpro"
+Description: "vizimpro"
 Usage: #inline
 
  
@@ -363,7 +800,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vizimpro 15 mg film-coated tablets"
+  * productName = "vizimpro"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -390,29 +827,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-99b35aa72c0e418c8749ea99edf139d2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vizimpro Package Leaflet for language en"
-Description: "ePI document Bundle for vizimpro Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 99b35aa72c0e418c8749ea99edf139d2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1354/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vizimpro"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-99b35aa72c0e418c8749ea99edf139d2"
-* entry[0].resource = composition-en-99b35aa72c0e418c8749ea99edf139d2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa05b3b03b528b8e7156a6b16d80452fc"
-* entry[=].resource = mpa05b3b03b528b8e7156a6b16d80452fc
-                            
-                      
+* title = "List of all ePIs associated with vizimpro"
+
+* subject = Reference(mpa05b3b03b528b8e7156a6b16d80452fc)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vizimpro "vizimpro"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-99b35aa72c0e418c8749ea99edf139d2) // vizimpro en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-99b35aa72c0e418c8749ea99edf139d2) // vizimpro da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-99b35aa72c0e418c8749ea99edf139d2
+InstanceOf: List
+
+* insert 99b35aa72c0e418c8749ea99edf139d2ListRuleset
+    

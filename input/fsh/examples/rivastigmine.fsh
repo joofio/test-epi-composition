@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e0ec42c68686885cc176ad73b71e1d80
 InstanceOf: CompositionUvEpi
 Title: "Composition for rivastigmine Package Leaflet"
@@ -459,12 +462,681 @@ effects not listed in this leaflet.See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-e0ec42c68686885cc176ad73b71e1d80
+InstanceOf: CompositionUvEpi
+Title: "Composition for rivastigmine Package Leaflet"
+Description:  "Composition for rivastigmine Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp56a3636ae6f80e816f0696ff5327a74a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp56a3636ae6f80e816f0696ff5327a74a
+* title = "TEST PURPOSES ONLY - rivastigmine"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Rivastigmin Sandoz 
+3. Sådan skal du tage Rivastigmin Sandoz 
+4. Bivirkninger 
+5. Opbevaring af Rivastigmin Sandoz 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What rivastigmine is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What rivastigmine is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Rivastigmin Sandoz er rivastigmin. </p>
+<p>Rivastigmin tilhører en medicingruppe, der kaldes kolinesterasehæmmere. Hos patienter med 
+Alzheimer sygdom eller demens, som skyldes Parkinsons sygdom, dør visse nerveceller i hjernen, 
+hvilket fører til lave niveauer af acetylkolin-neurotransmitter (et stof, der gør det muligt for nerveceller 
+at kommunikere med hinanden). Rivastigmin virker ved at blokere de enzymer, der nedbryder 
+acetylkolin: acetylkolinesterase og butyrylkolinesterase. Ved at blokere disse enzymer, lader 
+Rivastigmin Sandoz acetylkolinniveauerne stige i hjernen, og det hjælper til at reducere symptomerne 
+af Alzheimers sygdom og demens, som skyldes Parkinsons sygdom. </p>
+<p>Rivastigmine Sandoz anvendes til  behandling af hukommelsesproblemer hos patienter med 
+Alzheimers sygdom og demens, som er en progressiv hjernesygdom, der lidt efter lidt påvirker 
+hukommelse, intelligens og adfærd. Kapsler og miksturen kan også anvendes til behandling af demens 
+hos voksne patienter med Parkinsons sygdom. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rivastigmine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rivastigmine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Rivastigmin Sandoz 
+- hvis du er allergisk over for rivastigmin (det aktive stof i Rivastigmin Sandoz) eller et af de 
+øvrige indholdsstoffer i dette lægemiddel angivet i pkt. 6. - hvis du tidligere har haft en hudreaktion, der tyder på allergisk kontakteksem forårsaget af 
+rivastigmin. </p>
+<p>Hvis dette gælder for dig, skal du fortælle det til din læge og ikke tage Rivastigmin Sandoz. </p>
+<p>Advarsler og forholdsregler 
+Kontakt lægen, før du tager Rivastigmin Sandoz 
+- hvis du har eller har haft uregelmæssig eller langsom hjerterytme (puls). 
+- hvis du har eller har haft mavesår. 
+- hvis du har eller har haft vandladningsbesvær. 
+- hvis du har eller har haft krampeanfald. 
+- hvis du har eller har haft astma eller en svær luftvejssygdom. 
+- hvis du har eller har haft nedsat nyrefunktion. 
+- hvis du har eller har haft nedsat leverfunktion. 
+- hvis du ryster meget. 
+- hvis din kropsvægt er lav. 
+- hvis du har gener fra mave-tarmkanalen, såsom kvalme, opkastning og diarré. Du kan blive 
+dehydreret (få væskemangel), hvis du kaster op eller har diarré i længere tid. </p>
+<p>Hvis en eller flere af disse symptomer gælder for dig, kan det være nødvendigt, at din læge følger dig 
+tæt, så længe du tager denne medicin. </p>
+<p>Hvis du ikke har taget Rivastigmine Sandoz i mere end tre dage, må du ikke tage den næste dosis, før 
+du har talt med din læge. </p>
+<p>Børn og unge 
+Der er ingen relevant brug af Rivastigmin Sandoz hos den pædiatriske population til behandling af 
+Alzheimers sygdom. </p>
+<p>Brug af anden medicin sammen med Rivastigmin Sandoz 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin.  </p>
+<p>Du må ikke tage Rivastigmine Sandoz samtidigt med andre lægemidler der har en virkning, der ligner 
+Rivastigmine Sandoz. Rivastigmine Sandoz kan påvirke antikolinerg medicin (medicin, der bruges 
+mod mavekramper og Parkinsons sygdom eller til at forebygge transportsyge). 
+Rivastigmine Sandoz må ikke indgives samtidig med metoclopramid (et lægemiddel, der bruges til at 
+lindre eller forebygge kvalme og opkastning). Hvis de to lægemidler tages samtidig, kan det give 
+problemer som f.eks. stive arme og ben og rysten i hænderne. </p>
+<p>Hvis du skal opereres, mens du er i behandling med Rivastigmine Sandoz, skal du fortælle det til din 
+læge, inden du får nogen form for bedøvende medicin, da Rivastigmine Sandoz kan forstærke effekten 
+af muskelafslappende midler under bedøvelse. </p>
+<p>Udvis forsigtighed, når Rivastigmine Sandoz tages sammen med betablokkere (lægemidler såsom 
+atenolol anvendes til behandling af forhøjet blodtryk, angina og andre hjertelidelser). Hvis de to 
+lægemidler tages samtidig, kan det give problemer som f.eks. langsommere hjerteslag (bradykardi), 
+der fører til besvimelse eller tab af bevidsthed. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid,  eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Hvis du er gravid, skal fordelene ved at tage Rivastigmin Sandoz holdes op imod de mulige 
+indvirkninger på dit ufødte barn. Rivastigmin Sandoz bør ikke tages under graviditet, medmindre det 
+er absolut nødvendigt. </p>
+<p>Du bør ikke amme mens du er under behandling med Rivastigmine Sandoz.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Din læge vil fortælle dig, om du kan køre bil eller betjene maskiner i forbindelse med din sygdom. 
+Rivastigmine Sandoz kan give svimmelhed og døsighed, specielt i starten af behandlingen, eller når 
+dosis øges. Hvis du føler dig svimmel eller træt, skal du lade være med at køre bil, betjene maskiner 
+eller gøre andet, som kræver opmærksomhed. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take rivastigmine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take rivastigmine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Start af behandling 
+Din læge vil fortælle dig, hvilken dosis Rivastigmine Sandoz du skal tage. </p>
+<ul>
+<li>
+<p>Behandlingen starter normalt med en lav dosis. </p>
+</li>
+<li>
+<p>Din læge vil gradvist øge din dosis afhængigt af, hvordan du reagerer på behandlingen. </p>
+</li>
+<li>
+<p>Den højeste dosis, som bør tages, er 6 mg to gange daglig. </p>
+</li>
+</ul>
+<p>Din læge vil løbende vurdere, om medicinen har den ønskede effekt. Din læge vil også holde øje med 
+din vægt, så længe du tager denne medicin. </p>
+<p>Hvis du ikke har taget Rivastigmine Sandoz i mere end tre dage, skal du tale med din læge, før du 
+tager den næste dosis. </p>
+<p>Brug af denne medicin </p>
+<ul>
+<li>
+<p>Fortæl dine nærmeste, at du er i behandling med Rivastigmine Sandoz. </p>
+</li>
+<li>
+<p>Du skal tage medicinen hver dag for at få gavn af den. </p>
+</li>
+<li>
+<p>Tag Rivastigmine Sandoz to gange om dagen (morgen og aften) sammen med mad. </p>
+</li>
+<li>
+<p>Synk kapslerne hele sammen med væske. </p>
+</li>
+<li>
+<p>Kapslerne må hverken åbnes eller knuses. </p>
+</li>
+</ul>
+<p>Hvis du har taget for meget Rivastigmine Sandoz 
+Hvis du ved en fejltagelse er kommet til at tage mere Rivastigmine Sandoz, end du har fået besked på, 
+skal du sige det til din læge. Du kan have brug for lægehjælp. Nogle personer, som er kommet til at 
+tage for meget Rivastigmine Sandoz, har oplevet kvalme, opkastning, diarré, forhøjet blodtryk og 
+hallucinationer. Langsom hjerterytme og besvimelsesanfald kan ligeledes forekomme. </p>
+<p>Hvis du har glemt at tage Rivastigmine Sandoz 
+Hvis du finder ud af, at du har glemt at tage en dosis Rivastigmine Sandoz, skal du blot vente og tage 
+næste dosis på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den 
+glemte dosis. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Du kan oftere få bivirkninger, når du starter med medicinen eller går op til en højere dosis. I de fleste 
+tilfælde vil bivirkningerne gradvist forsvinde, når kroppen vænner sig til medicinen. </p>
+<p>Meget almindelig (kan ramme flere end 1 patient ud af 10) </p>
+<ul>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Appetitløshed </p>
+</li>
+<li>
+<p>Maveproblemer, såsom kvalme eller opkastning, diarré </p>
+</li>
+</ul>
+<p>Almindelig (kan ramme op til 1 patient ud af 10) </p>
+<ul>
+<li>
+<p>Angst </p>
+</li>
+<li>
+<p>Svedtendens </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Halsbrand </p>
+</li>
+<li>
+<p>Vægttab </p>
+</li>
+<li>
+<p>Mavesmerter </p>
+</li>
+<li>
+<p>Følelse af uro </p>
+</li>
+<li>
+<p>Træthed- eller svaghedsfornemmelse </p>
+</li>
+<li>
+<p>Generel utilpashed </p>
+</li>
+<li>
+<p>Rysten eller følelse af forvirring </p>
+</li>
+<li>
+<p>Nedsat appetit </p>
+</li>
+<li>
+<p>Mareridt </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan ramme op til 1 patient ud af 100) </p>
+<ul>
+<li>
+<p>Depression </p>
+</li>
+<li>
+<p>Søvnbesvær </p>
+</li>
+<li>
+<p>Besvimelsesanfald eller fald ved et uheld </p>
+</li>
+<li>
+<p>Ændringer i leverfunktionen </p>
+</li>
+</ul>
+<p>Sjælden (kan ramme 1 patient ud af 1.000) </p>
+<ul>
+<li>
+<p>Brystsmerter </p>
+</li>
+<li>
+<p>Udslæt, kløe </p>
+</li>
+<li>
+<p>Krampeanfald </p>
+</li>
+<li>
+<p>Mavesår eller sår på tarmen </p>
+</li>
+</ul>
+<p>Meget sjælden (kan ramme op til 1 patient ud af 10.000) </p>
+<ul>
+<li>
+<p>Forhøjet blodtryk </p>
+</li>
+<li>
+<p>Urinvejsinfektion </p>
+</li>
+<li>
+<p>Ser ting, der ikke er der i virkeligheden (hallucinationer) </p>
+</li>
+<li>
+<p>Hurtig eller langsom hjerterytme (puls) </p>
+</li>
+<li>
+<p>Blødning i tarmen - blod i afføringen eller ved opkastning </p>
+</li>
+<li>
+<p>Betændelse i bugspytkirtlen - symptomerne omfatter alvorlige smerter øverst i maven, ofte med 
+kvalme eller opkastning </p>
+</li>
+<li>
+<p>Symptomer på Parkinsons sygdom bliver værre, eller der optræder parkinsonlignende 
+symptomer - såsom muskelstivhed og bevægelsesbesvær </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppighed kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>Voldsom opkastning, der kan medføre hul (ruptur) i spiserøret </p>
+</li>
+<li>
+<p>Dehydrering (for stort væsketab) </p>
+</li>
+<li>
+<p>Leversygdomme (gulfarvet hud, gulfarvning af det hvide i øjnene, unormalt mørk urin eller 
+uforklarlig kvalme, opkastning, træthed og appetitløshed) </p>
+</li>
+<li>
+<p>Aggressiv adfærd, rastløshed </p>
+</li>
+<li>
+<p>Uregelmæssig hjerterytme (puls) </p>
+</li>
+</ul>
+<p>Patienter med demens og Parkinsons sygdom 
+Disse patienter får visse bivirkninger oftere. De får også visse andre bivirkninger: </p>
+<p>Meget almindelig (kan ramme flere end 1 patient ud af 10) </p>
+<ul>
+<li>
+<p>Rysten </p>
+</li>
+<li>
+<p>Besvimelsesanfald </p>
+</li>
+<li>
+<p>Tilfældige fald </p>
+</li>
+</ul>
+<p>Almindelig (kan ramme op til 1 patient ud af 10) </p>
+<ul>
+<li>
+<p>Angst </p>
+</li>
+<li>
+<p>Rastløshed </p>
+</li>
+<li>
+<p>Langsom og hurtig hjerterytme (puls) </p>
+</li>
+<li>
+<p>Søvnbesvær </p>
+</li>
+<li>
+<p>For meget spyt, dehydrering </p>
+</li>
+<li>
+<p>Unormalt langsomme eller ukontrollerede bevægelser </p>
+</li>
+<li>
+<p>Symptomer på Parkinsons sygdom bliver værre, eller der optræder parkinsonlignende 
+symptomer - såsom muskelstivhed, bevægelsesbesvær og muskelsvaghed </p>
+</li>
+</ul>
+<p>Sjælden (kan ramme op til en patient ud af 100) </p>
+<ul>
+<li>Uregelmæssig hjerterytme (puls), dårlig kontrol over bevægelser </li>
+</ul>
+<p>Andre bivirkninger, der er set med depotplaster, og som kan forekomme ved brug af hårde 
+kapsler: </p>
+<p>Almindelig (kan ramme op til 1 patient ud af 10) </p>
+<ul>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Svær forvirring </p>
+</li>
+<li>
+<p>Urininkontinens (kan ikke holde tilstrækkelig mængde urin tilbage) </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan ramme op til 1 patient ud af 100) </p>
+<ul>
+<li>Hyperaktivitet (højt aktivitetsniveau, rastløshed) </li>
+</ul>
+<p>Ikke kendt (hyppighed kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>Allergisk reaktion hvor depotplaster blev brugt, som f.eks. blærer, hudinflammation </li>
+</ul>
+<p>Kontakt din læge, hvis sådanne symptomer opstår, da du muligvis har brug for lægehjælp. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
+indrapportere bivirkninger, kan du hjælpe med til at fremskaffe mere information om sikkerheden af 
+dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rivastigmine"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rivastigmine"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke Rivastigmin Sandoz efter den udløbsdato, der står på blisteren, flasken og æsken efter 
+“EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rivastigmine Sandoz indeholder:</p>
+<ul>
+<li>Aktivt stof: rivastigmin. </li>
+<li>Øvrige indholdsstoffer: hypromellose, magnesiumstearat, mikrokrystallinsk cellulose, kolloidt 
+silica, gelatine, gul jernoxid, rød jernoxid, titandioxid og shellac. </li>
+</ul>
+<p>Hver Rivastigmine Sandoz 1,5 mg kapsel indeholder 1,5 mg rivastigmin. 
+Hver Rivastigmine Sandoz 3 mg kapsel indeholder 3 mg rivastigmin. 
+Hver Rivastigmine Sandoz 4,5 mg kapsel indeholder 4,5 mg rivastigmin. 
+Hver Rivastigmine Sandoz 6 mg kapsel indeholder 6 mg rivastigmin. </p>
+<p>Rivastigmine Sandoz’ udseende og pakningsstørrelser 
+- Rivastigmine Sandoz 1,5 mg hårde kapsler, som indeholder et råhvidt til svagt gulligt pulver, 
+har en gul hætte og en gul skal med "RIV 1,5 mg" præget med rødt på kapselskallen. </p>
+<ul>
+<li>
+<p>Rivastigmine Sandoz 3 mg hårde kapsler, som indeholder et råhvidt til svagt gulligt pulver, har 
+en orange hætte og en orange skal med "RIV 3 mg" præget med rødt på kapselskallen. </p>
+</li>
+<li>
+<p>Rivastigmine Sandoz 4,5 mg hårde kapsler, som indeholder et råhvidt til svagt gulligt pulver, 
+har en rød hætte og en rød skal med "RIV 4,5 mg" præget med hvidt på kapselskallen. </p>
+</li>
+<li>
+<p>Rivastigmine Sandoz 6 mg hårde kapsler, som indeholder et råhvidt til svagt gulligt pulver, har 
+en rød hætte og en orange skal med "RIV 6 mg" præget med rødt på kapselskallen. </p>
+</li>
+</ul>
+<p>De er pakket i blisters, som findes i tre forskellige pakningsstørrelser (28, 56 eller 112 kapsler). Ikke 
+alle pakningsstørrelser er nødvendigvis tilgængelige. </p>
+<p>Indehaveren af markedsføringstilladelsen 
+Sandoz GmbH<br />
+Biochemiestraße 10 <br />
+A-6250 Kundl 
+Østrig </p>
+<p>Fremstiller 
+Novartis Farmacéutica, S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spanien </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om Rivastigmine Sandoz, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Sandoz N.V. 
+Telecom Gardens, Medialaan B-1800 Vilvoorde 
+Tél/Tel: + 32 (0)2 722 97<br />
+Luxembourg/Luxemburg 
+Sandoz N.V. 
+Telecom Gardens, Medialaan B 1800 Vilvoorde 
+Tél/Tel: + 32 (0)2 722 97<br />
+България 
+Сандоз България КЧТ 
+Teл.: + 359 2 970 47 regaffairs.bg@sandoz.com </p>
+<p>Magyarország 
+Sandoz Hungária Kft. 
+Bartók Béla út 43-H-1114 Budapest 
+Tel.: + 36 1 430 2E-mail: info.hungary@sandoz.com </p>
+<p>Česká republika 
+Sandoz s.r.o. 
+Na Pankráci 1724/CZ-14000 Praha 4 - Nusle 
+E-mail: office.cz@sandoz.com 
+Tel: +420 225 775<br />
+Malta 
+Sandoz Pharmaceuticals d.d. 
+Tel: +35699644Danmark 
+Sandoz A/S 
+Nederland 
+Sandoz B.V. 
+Edvard Thomsens Vej DK-2300 København S 
+Danmark 
+Tlf: +45 6395 1info.danmark@sandoz.com </p>
+<p>Veluwezoom 22<br />
+NL-1327 AH Almere 
+Tel: + 31 36 5241E-mail: info.sandoz-nl@sandoz.com </p>
+<p>Deutschland 
+Hexal AG 
+Industriestraße D-83607 Holzkirchen 
+Tel: + 49 8024 908 0 
+E-mail: service@hexal.com </p>
+<p>Norge 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 København S 
+Danmark 
+Tlf: +45 6395 1info.norge@sandoz.com </p>
+<p>Eesti 
+Sandoz d.d. Eesti filiaal 
+Pärnu mnt EE-11312 Tallinn 
+Tel: +372 6652 
+Österreich 
+Sandoz GmbH 
+Biochemiestrasse A-6250 Kundl 
+Tel: + 43 (0)53382 
+Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17 Polska 
+Sandoz Polska Sp.z o.o. 
+ul. Domaniewska 50 C 
+PL-02-672 Warszawa 
+Tel: + 48 22 549 15<br />
+España 
+Sandoz Farmacéutica, S.A<br />
+Centro Empresarial Parque Norte 
+Edificio Roble 
+C/ Serrano Galvache Nº 56,<br />
+28033 Madrid 
+Tel: +34 900 456 registros.spain@sandoz.com 
+Portugal 
+Sandoz Farmacêutica Lda. 
+Avenida Professor Doutor Cavaco Silva, n.º 10E 
+Taguspark 
+2740-255 Porto Salvo 
+Portugal 
+Tel: +351 211 964<br />
+France 
+Sandoz SAS 
+49, avenue Georges Pompidou 
+F-92593 Levallois-Perret Cedex 
+Tél: + 33 1 4964 4 
+România 
+Sandoz S.R.L. 
+Str Livezeni nr. 7A,<br />
+Târgu Mureș, 540472<br />
+România 
+Tel: +40 21 310 44<br />
+Ireland 
+Rowex Ltd. 
+Newtown 
+IE-Bantry Co. Cork 
+P75 VTel: +353 27 50Slovenija 
+Lek Pharmaceuticals d.d. 
+Verovśkova SI-1526 Ljubljana 
+Tel: + 386 1 5802E-mail: info.lek@sandoz.com </p>
+<p>Ísland 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Kaupmaannahöfn S 
+Danmörk 
+Tlf: +45 6395 1info.danmark@sandoz.com </p>
+<p>Slovenská republika 
+Sandoz d.d. - organizačná zložka 
+Žižkova 22B 
+SK-811 02 Bratislava 
+Tel: +421 2 48 200 Italia 
+Sandoz S.p.a<br />
+Largo Umberto Boccioni 1 
+I-21040 Origgio (VA) 
+Tel: + 39 02 96 
+Suomi/Finland 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Kööpenhamina S/Köpenhamn S 
+Danmark 
+Puh: +358 010 6133 info.suomi@sandoz.com </p>
+<p>Κύπρος 
+Sandoz Pharmaceuticals d.d. 
+Τηλ: +357 22 69 0 
+Sverige 
+Sandoz A/S 
+Edvard Thomsens Vej DK-2300 Köpenhamn S 
+Danmark 
+Tel: +45 6395 1info.sverige@sandoz.com </p>
+<p>Latvija 
+Sandoz d.d. Latvia filiāle 
+K.Valdemāra Str. 33 - LV-1010 Riga 
+Tel: + 371 67892 </p>
+<p>United Kingdom (Northern Ireland) 
+Sandoz Ltd 
+Frimley Business Park 
+Frimley Camberley Surrey GU16 7SR 
+Tel: +44 1276 69 8E-mail: uk.drugsafety@sandoz.com </p>
+<p>Lietuva 
+Sandoz Pharmaceuticals d.d., Branch Office 
+Lithuania 
+Seimyniskiu Str. 3A 
+LT-09312 Vilnius 
+Tel: + 370 5 2636 
+Hrvatska 
+Sandoz d.o.o. 
+Maksimirska 10 000 Zagreb 
+Tel: +38512353E-mail: upit.croatia@sandoz.com </p>
+<p>Denne indlægsseddel blev senest ændret 
+Du kan finde yderligere oplysninger om Rivastigmine Sandoz på Det Europæiske 
+Lægemiddelagenturs hjemmeside http://www.ema.europa.eu. 
+Indlægsseddel: Information til patienten </p>
+<p>Rivastigmine Sandoz 2 mg/ml oral opløsning 
+rivastigmin </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har  ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, også selvom de har de samme symptomer, som du 
+har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, , herunder bivirkninger som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e0ec42c68686885cc176ad73b71e1d80
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rivastigmine Package Leaflet for language en"
+Description: "ePI document Bundle for rivastigmine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e0ec42c68686885cc176ad73b71e1d80"
+* entry[0].resource = composition-en-e0ec42c68686885cc176ad73b71e1d80
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe0ec42c68686885cc176ad73b71e1d80"
+* entry[=].resource = mpe0ec42c68686885cc176ad73b71e1d80
+                            
+                    
+Instance: bundlepackageleaflet-da-e0ec42c68686885cc176ad73b71e1d80
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rivastigmine Package Leaflet for language da"
+Description: "ePI document Bundle for rivastigmine Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e0ec42c68686885cc176ad73b71e1d80"
+* entry[0].resource = composition-da-e0ec42c68686885cc176ad73b71e1d80
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe0ec42c68686885cc176ad73b71e1d80"
+* entry[=].resource = mpe0ec42c68686885cc176ad73b71e1d80
+                            
+                    
+
+
+
+Instance: mpe0ec42c68686885cc176ad73b71e1d80
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Rivastigmine Sandoz 1.5 mg hard capsules"
-Description: "Rivastigmine Sandoz 1.5 mg hard capsules"
+Title: "Medicinal Product rivastigmine"
+Description: "rivastigmine"
 Usage: #inline
 
  
@@ -484,7 +1156,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Rivastigmine Sandoz 1.5 mg hard capsules"
+  * productName = "rivastigmine"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -511,29 +1183,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e0ec42c68686885cc176ad73b71e1d80
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for rivastigmine Package Leaflet for language en"
-Description: "ePI document Bundle for rivastigmine Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e0ec42c68686885cc176ad73b71e1d80ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Rivastigmine Sandoz 1.5 mg hard capsules:"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "rivastigmine"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e0ec42c68686885cc176ad73b71e1d80"
-* entry[0].resource = composition-en-e0ec42c68686885cc176ad73b71e1d80
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp56a3636ae6f80e816f0696ff5327a74a"
-* entry[=].resource = mp56a3636ae6f80e816f0696ff5327a74a
-                            
-                      
+* title = "List of all ePIs associated with rivastigmine"
+
+* subject = Reference(mp56a3636ae6f80e816f0696ff5327a74a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#rivastigmine "rivastigmine"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e0ec42c68686885cc176ad73b71e1d80) // rivastigmine en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e0ec42c68686885cc176ad73b71e1d80) // rivastigmine da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e0ec42c68686885cc176ad73b71e1d80
+InstanceOf: List
+
+* insert e0ec42c68686885cc176ad73b71e1d80ListRuleset
+    

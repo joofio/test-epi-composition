@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-65865425d1dbd81837221de546e96e8c
 InstanceOf: CompositionUvEpi
 Title: "Composition for opfolda Package Leaflet"
@@ -398,12 +401,595 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-65865425d1dbd81837221de546e96e8c
+InstanceOf: CompositionUvEpi
+Title: "Composition for opfolda Package Leaflet"
+Description:  "Composition for opfolda Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0d000d866c5e67bf5e0f3b5680d42261)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0d000d866c5e67bf5e0f3b5680d42261
+* title = "TEST PURPOSES ONLY - opfolda"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Opfolda 
+3. Sådan skal du tage Opfolda 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger  </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What opfolda is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What opfolda is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Opfolda 
+Opfolda er et lægemiddel, der anvendes til behandling af sent debuterende Pompes sygdom hos 
+voksne. Dette lægemiddel indeholder det aktive stof “miglustat". </p>
+<p>Hvad anvendes det til 
+Opfolda anvendes altid sammen med et andet lægemiddel kaldet “cipaglucosidase alfa", en type 
+enzymsubstitutionsbehandling (ERT). Det er derfor meget vigtigt, at du også læser indlægssedlen for 
+cipaglucosidase alfa.  </p>
+<p>Spørg lægen eller apotekspersonalet, hvis du har spørgsmål om din medicin. </p>
+<p>Sådan virker Opfolda 
+Personer med Pompes sygdom har lave niveauer af enzymet  sur alfa-glucosidase (GAA). Dette 
+enzym hjælper med at kontrollere niveauet af glykogen (en type kulhydrater) i kroppen. </p>
+<p>Ved Pompes sygdom ophobes høje niveauer af glykogen i kroppens muskler. Det forhindrer 
+musklerne, såsom de muskler, der hjælper dig med at gå, musklerne under lungerne, der hjælper dig 
+med at trække vejret, og hjertemusklen i at fungere korrekt.   </p>
+<p>Opfolda binder sig til cipaglucosidase alfa under behandlingen. Det gør formen af cipaglucosidase alfa 
+mere stabil, så den lettere kan absorberes fra blodet af de muskelceller, der er påvirket af Pompes 
+sygdom. Når cipaglucosidase alfa er i cellerne, virker det som GAA og hjælper med at nedbryde 
+glykogen og kontrollere niveauet af glykogen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take opfolda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take opfolda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Opfolda  </p>
+<ul>
+<li>
+<p>hvis du er allergiske over for miglustat eller et af de øvrige indholdsstoffer i lægemidlet (angivet i 
+punkt 6). </p>
+</li>
+<li>
+<p>hvis du er allergiske over for cipaglucosidase alfa. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Opfolda. </p>
+<p>Hold øje med alvorlige bivirkninger 
+Opfolda bruges sammen med cipaglucosidase alfa, en type enzymsubstitutionsbehandling (ERT), så 
+du bør også læse indlægssedlen til cipaglucosidase alfa. Disse lægemidler kan give bivirkninger, som 
+du straks skal fortælle din læge om. Dette omfatter allergiske reaktioner. Tegn på allergiske reaktioner 
+er anført i pkt. 4 “Allergiske reaktioner". Disse kan være alvorlige og kan forekomme, når du får 
+medicinen eller i timerne derefter. </p>
+<p>Fortæl det straks til en læge eller sygeplejerske, hvis du oplever infusionsrelaterede eller allergiske 
+reaktioner eller tror, at du oplever dem. Fortæl din læge eller sygeplejerske, hvis du nogensinde har 
+haft en sådan reaktion med en anden ERT, før du får Opfolda.  </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke gives til patienter under 18 år. Det skyldes, at virkningerne af Opfolda i 
+forbindelse med cipaglucosidase alfa i denne aldersgruppe ikke kendes. </p>
+<p>Brug af anden medicin sammen med Opfolda 
+Fortæl lægen eller sygeplejerske det, hvis du tager anden medicin, for nylig har taget anden medicin 
+eller planlægger at tage anden medicin. Dette gælder også håndkøbsmedicin og naturlægemidler. </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.  </p>
+<p>Der er ingen erfaring med anvendelse af Opfolda i kombination med cipaglucosidase alfa under 
+graviditet. Din læge vil tale med dig om risici og fordele ved at tage disse lægemidler. </p>
+<ul>
+<li>
+<p>Du må ikke tage Opfolda og/eller tage cipaglucosidase alfa, hvis du er gravid. Sørg for straks at 
+fortælle din læge, hvis du bliver gravid, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid. Der kan være risici for det ufødte barn. </p>
+</li>
+<li>
+<p>Opfolda i kombination med cipaglucosidase alfa bør ikke gives til kvinder, som ammer. Det skal 
+besluttes, om amning eller behandling skal ophøre. </p>
+</li>
+</ul>
+<p>Prævention og frugtbarhed 
+Kvindelige patienter i den fødedygtige alder skal bruge pålidelige præventionsmidler, mens de tager 
+disse lægemidler, og i 4 uger efter, at de er holdt op med at tage begge lægemidler. </p>
+<p>Trafik- og arbejdssikkerhed 
+Opfolda påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. 
+Du bør også læse indlægssedlen til cipaglucosidase alfa, da dette lægemiddel kan have en indvirkning. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take opfolda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take opfolda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvor meget Opfolda skal du tage </p>
+<ul>
+<li>
+<p>Opfolda (miglustat) kapsler skal bruges sammen med cipaglucosidase alfa. Se også indlægssedlen 
+til cipaglucosidase alfa. </p>
+</li>
+<li>
+<p>Hvis du vejer 50 kg eller mere, er den anbefalede dosis 4 kapsler, der hver indeholder 65 mg 
+miglustat. </p>
+</li>
+<li>
+<p>Hvis du vejer mellem 40 kg og 50 kg, er den anbefalede dosis 3 kapsler. </p>
+</li>
+</ul>
+<p>Hvor ofte skal du tage Opfolda </p>
+<ul>
+<li>
+<p>Du vil få Opfolda og cipaglucosidase alfa én gang hver anden uge. Begge anvendes samme dag.  </p>
+</li>
+<li>
+<p>Tag begge lægemidler nøjagtigt efter lægens anvisning, se figur 1. Det er for at sikre, at din 
+behandling virker så godt som muligt. </p>
+</li>
+</ul>
+<p>Brug af Opfolda sammen med mad 
+Du skal tage Opfolda gennem munden på tom mave. </p>
+<ul>
+<li>
+<p>Du skal faste i 2 timer før og 2 timer efter, at du har taget dette lægemiddel. </p>
+</li>
+<li>
+<p>I løbet af denne fasteperiode på 4 timer må du gerne drikke vand, skummetmælk, og te eller kaffe. 
+Brug ikke fløde, sødmælk, letmælk, vegetabilsk mælk, sukker eller sødestoffer. Du kan komme 
+skummetmælk i din te eller kaffe.  </p>
+</li>
+<li>
+<p>To timer efter du har taget Opfolda, kan du genoptage normal indtagelse af mad og drikke. </p>
+</li>
+</ul>
+<p>Figur 1. Tidslinje for dosering </p>
+<ul>
+<li>Miglustat 65 mg hårde kapsler bør tages ca. 1 time, men ikke mere end 3 timer, før start af cipaglucosidase alfa-infusionen. </li>
+</ul>
+<p>Skift fra en anden enzymsubstitutionsbehandling (ERT) 
+Hvis du i øjeblikket behandles med en anden ERT: </p>
+<ul>
+<li>
+<p>Din læge vil fortælle dig, hvornår du skal stoppe den anden ERT, inden du starter Opfolda. </p>
+</li>
+<li>
+<p>Fortæl din læge, når du har afsluttet din sidste dosis. </p>
+</li>
+</ul>
+<p>Hvis du har taget for meget Opfolda 
+Fortæl det straks til lægen eller tag på hospitalet, hvis du ved et uheld kommer til at tage flere kapsler, 
+end du fik ordineret. Du kan have øget risiko for at få bivirkninger af dette lægemiddel (se punkt 4). 
+Din læge vil yde passende støttebehandling. </p>
+<p>Hvis du har glemt at tage Opfolda 
+Hvis du glemmer en dosis af Opfolda, skal du tale med din læge eller sygeplejerske. Kontakt straks 
+lægen eller sygeplejersken for at aftale et nyt tidspunkt for miglustat i kombination med 
+cipaglucosidase alfa så hurtigt som muligt.  </p>
+<p>Hvis du holder op med at tage Opfolda 
+Tal med din læge, hvis du ønsker at stoppe behandlingen med Opfolda. Symptomerne på din sygdom 
+kan forværres, hvis du stopper behandlingen. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Opfolda anvendes sammen med cipaglucosidase alfa, og der kan forekomme bivirkninger med begge 
+disse lægemidler. </p>
+<p>Følgende bivirkninger kan forekomme: </p>
+<p>Allergiske reaktioner 
+Allergiske reaktioner kan omfatte symptomer såsom udslæt hvor som helst på kroppen, hævede øjne, 
+længerevarende vejrtrækningsbesvær, hoste, hævelse af læber, tunge eller hals, kløende hud og 
+nældefeber. </p>
+<p>Fortæl det straks til en læge eller sygeplejerske, hvis du oplever eller tror, at du oplever allergiske 
+reaktioner. Informer din læge eller sygeplejerske, hvis du nogensinde har haft en sådan reaktion. </p>
+<p>Meget almindelige (kan påvirke flere end 1 ud af 10 personer) </p>
+<ul>
+<li>Hovedpine </li>
+</ul>
+<p>Almindelig (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Åndenød (dyspnø) </p>
+</li>
+<li>
+<p>Pludselig rødmen af ansigt, hals eller øvre del af brystet </p>
+</li>
+<li>
+<p>Blodtryksstigning </p>
+</li>
+<li>
+<p>Mavesmerter  </p>
+</li>
+<li>
+<p>Oppustethed </p>
+</li>
+<li>
+<p>Tarmluft </p>
+</li>
+<li>
+<p>Løs, løbende afføring </p>
+</li>
+<li>
+<p>Afføringsbesvær </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Meget kløende nældefeber (urticaria) </p>
+</li>
+<li>
+<p>Kløende udslæt, trang til at kradse sig (pruritus) </p>
+</li>
+<li>
+<p>Kulderystelser </p>
+</li>
+<li>
+<p>Muskelkramper, muskelsmerter, muskelsvaghed  </p>
+</li>
+<li>
+<p>Ufrivillig rysten af en eller flere dele af kroppen </p>
+</li>
+<li>
+<p>Øget svedtendens </p>
+</li>
+<li>
+<p>Smerter </p>
+</li>
+<li>
+<p>Ændret smagssans </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan påvirke op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Astma </p>
+</li>
+<li>
+<p>Allergiske reaktioner </p>
+</li>
+<li>
+<p>Utilpashed i maven </p>
+</li>
+<li>
+<p>Fordøjelsesbesvær </p>
+</li>
+<li>
+<p>Øm eller irriteret hals </p>
+</li>
+<li>
+<p>Smertefulde og unormale sammentrækninger i halsen </p>
+</li>
+<li>
+<p>Følelse af utilpashed, generel følelse af træghed </p>
+</li>
+<li>
+<p>Følelse af nervøsitet </p>
+</li>
+<li>
+<p>Hævelse i hænder, fødder, ankler, ben </p>
+</li>
+<li>
+<p>Konstant følelse af at være træt </p>
+</li>
+<li>
+<p>Usædvanlig bleghed i huden </p>
+</li>
+<li>
+<p>Lavt blodtryk </p>
+</li>
+<li>
+<p>Fald i blodplader eller en type hvide blodlegemer - påvist i blodprøver </p>
+</li>
+<li>
+<p>Smerter i led </p>
+</li>
+<li>
+<p>Smerter i området mellem hofte og ribben </p>
+</li>
+<li>
+<p>Muskeltræthed </p>
+</li>
+<li>
+<p>Øget muskelstivhed </p>
+</li>
+<li>
+<p>Døsighed </p>
+</li>
+<li>
+<p>Smerter i en eller begge sider af hovedet, dunkende smerter, aura, øjensmerter, lysfølsomhed 
+(migræne) </p>
+</li>
+<li>
+<p>Misfarvet hud </p>
+</li>
+<li>
+<p>Balanceforstyrrelse  </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store opfolda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store opfolda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på beholderen og æsken efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden.   </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opfolda indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: miglustat. Hver hård kapsel indeholder 65 mg miglustat. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+</ul>
+<p>Kapselindhold 
+Prægelatineret stivelse (majs) 
+Magnesiumstearat (E470b) 
+Mikrokrystallinsk cellulose (E-460i) 
+Sucralose (E955) 
+Kolloid siliciumdioxid </p>
+<p>Kapselskal 
+Gelatine 
+Titandioxid (E171) 
+Sort jernoxid (E172) </p>
+<p>Spiseligt blæk 
+Sort jernoxid (E172) 
+Kaliumhydroxid (E525) 
+Propylenglykol (E1520) 
+Stærk ammoniakopløsning (E527) 
+Shellac (E904) </p>
+<p>Udseende og pakningsstørrelser </p>
+<p>Flasker med 4 og 24 hårde kapsler. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Størrelse 2 hård kapsel med en grå, uigennemsigtig kapsel og hvid, uigennemsigtig bund med 
+“AT2221" trykt i sort på bunden, der indeholder hvidt til off-white pulver. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Amicus Therapeutics Europe Limited 
+Block 1, Blanchardstown Corporate Park 
+Ballycoolin Road 
+Blanchardstown, Dublin 
+D15 AKK1, Irland 
+Tel: +353 (0) 1 588 0Fax: +353 (0) 1 588 6e-mail: info@amicusrx.co.uk </p>
+<p>Fremstiller 
+Manufacturing Packaging Farmaca (MPF) B.V. 
+Neptunus 12, Heerenveen, 8448CN, Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Amicus Therapeutics Europe Limited 
+Tél/Tel: (+32) 0800 89e-mail: MedInfo@amicusrx.com </p>
+<p>Lietuva 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+370) 8800 33El. paštas: MedInfo@amicusrx.com 
+България 
+Amicus Therapeutics Europe Limited<br />
+Teл.: (+359) 00800 111 3имейл: MedInfo@amicusrx.com </p>
+<p>Luxembourg/Luxemburg 
+Amicus Therapeutics Europe Limited<br />
+Tél/Tel: (+352) 800 27e-mail: MedInfo@amicusrx.com 
+Česká republika 
+Amicus Therapeutics Europe Limited<br />
+Tel.: (+420) 800 142 e-mail: MedInfo@amicusrx.com </p>
+<p>Magyarország 
+Amicus Therapeutics Europe Limited<br />
+Tel.: (+36) 06 800 21e-mail: MedInfo@amicusrx.com 
+Danmark 
+Amicus Therapeutics Europe Limited<br />
+Tlf: (+45) 80 253 e-mail: MedInfo@amicusrx.com </p>
+<p>Malta 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+356) 800 62e-mail: MedInfo@amicusrx.com </p>
+<p>Deutschland 
+Amicus Therapeutics GmbH 
+Tel: (+49) 0800 000 2e-mail: MedInfo@amicusrx.com </p>
+<p>Nederland 
+Amicus Therapeutics BV 
+Tel: (+31) 0800 022 8e-mail: MedInfo@amicusrx.com 
+Eesti 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+372) 800 0111 e-post: MedInfo@amicusrx.com </p>
+<p>Norge 
+Amicus Therapeutics Europe Limited<br />
+Tlf: (+47) 800 13e-post: MedInfo@amicusrx.com 
+Ελλάδα 
+Amicus Therapeutics Europe Limited<br />
+Τηλ: (+30) 00800 126 e-mail: MedInfo@amicusrx.com </p>
+<p>Österreich 
+Amicus Therapeutics Europe Limited<br />
+Tel: (+43) 0800 909 e-mail: MedInfo@amicusrx.com 
+España 
+Amicus Therapeutics S.L.U. 
+Tel: (+34) 900 941 616<br />
+e-mail: MedInfo@amicusrx.com </p>
+<p>Polska 
+Amicus Therapeutics Europe Limited<br />
+Tel.: (+48) 0080 012 15e-mail: MedInfo@amicusrx.com 
+France 
+Amicus Therapeutics SAS 
+Tél: (+33) 0 800 906 e-mail: MedInfo@amicusrx.com </p>
+<p>Portugal 
+Amicus Therapeutics Europe Limited 
+Tel: (+351) 800 812 e-mail: MedInfo@amicusrx.com 
+Hrvatska 
+Amicus Therapeutics Europe Limited 
+Tel: (+358) 0800 222 e-pošta: MedInfo@amicusrx.com </p>
+<p>Ireland 
+Amicus Therapeutics Europe Limited 
+Tel: (+353) 1800 936 e-mail: MedInfo@amicusrx.com </p>
+<p>România 
+Amicus Therapeutics Europe Limited 
+Tel.: (+40) 0808 034 e-mail: MedInfo@amicusrx.com </p>
+<p>Slovenija 
+Amicus Therapeutics Europe Limited 
+Tel.: (+386) 0800 81e-pošta: MedInfo@amicusrx.com </p>
+<p>Ísland 
+Amicus Therapeutics Europe Limited 
+Sími: (+354) 800 7Netfang: MedInfo@amicusrx.com 
+Slovenská republika 
+Amicus Therapeutics Europe Limited 
+Tel: (+421) 0800 002 e-mail: MedInfo@amicusrx.com </p>
+<p>Italia 
+Amicus Therapeutics S.r.l. 
+Tel: (+39) 800 795 e-mail: MedInfo@amicusrx.com </p>
+<p>Suomi/Finland 
+Amicus Therapeutics Europe Limited 
+Puh/Tel: (+358) 0800 917 sähköposti/e-mail: MedInfo@amicusrx.com </p>
+<p>Κύπρος 
+Amicus Therapeutics Europe Limited<br />
+Τηλ: (+357) 800 97e-mail: MedInfo@amicusrx.com </p>
+<p>Sverige 
+Amicus Therapeutics Europe Limited 
+Tfn: (+46) 020 795 e-post: MedInfo@amicusrx.com </p>
+<p>Latvija 
+Amicus Therapeutics Europe Limited 
+Tel: (+371) 800 05e-pasts: MedInfo@amicusrx.com </p>
+<p>United Kingdom (Northern Ireland) 
+Amicus Therapeutics, UK Limited<br />
+Tel: (+44) 08 0823 46e-mail: MedInfo@amicusrx.com </p>
+<p>Denne indlægsseddel blev senest ændret den </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-65865425d1dbd81837221de546e96e8c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opfolda Package Leaflet for language en"
+Description: "ePI document Bundle for opfolda Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-65865425d1dbd81837221de546e96e8c"
+* entry[0].resource = composition-en-65865425d1dbd81837221de546e96e8c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp65865425d1dbd81837221de546e96e8c"
+* entry[=].resource = mp65865425d1dbd81837221de546e96e8c
+                            
+                    
+Instance: bundlepackageleaflet-da-65865425d1dbd81837221de546e96e8c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opfolda Package Leaflet for language da"
+Description: "ePI document Bundle for opfolda Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-65865425d1dbd81837221de546e96e8c"
+* entry[0].resource = composition-da-65865425d1dbd81837221de546e96e8c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp65865425d1dbd81837221de546e96e8c"
+* entry[=].resource = mp65865425d1dbd81837221de546e96e8c
+                            
+                    
+
+
+
+Instance: mp65865425d1dbd81837221de546e96e8c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Opfolda 65 mg hard capsules"
-Description: "Opfolda 65 mg hard capsules"
+Title: "Medicinal Product opfolda"
+Description: "opfolda"
 Usage: #inline
 
  
@@ -423,7 +1009,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Opfolda 65 mg hard capsules"
+  * productName = "opfolda"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -450,29 +1036,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-65865425d1dbd81837221de546e96e8c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for opfolda Package Leaflet for language en"
-Description: "ePI document Bundle for opfolda Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 65865425d1dbd81837221de546e96e8cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/23/1737/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "opfolda"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-65865425d1dbd81837221de546e96e8c"
-* entry[0].resource = composition-en-65865425d1dbd81837221de546e96e8c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0d000d866c5e67bf5e0f3b5680d42261"
-* entry[=].resource = mp0d000d866c5e67bf5e0f3b5680d42261
-                            
-                      
+* title = "List of all ePIs associated with opfolda"
+
+* subject = Reference(mp0d000d866c5e67bf5e0f3b5680d42261)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#opfolda "opfolda"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-65865425d1dbd81837221de546e96e8c) // opfolda en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-65865425d1dbd81837221de546e96e8c) // opfolda da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-65865425d1dbd81837221de546e96e8c
+InstanceOf: List
+
+* insert 65865425d1dbd81837221de546e96e8cListRuleset
+    

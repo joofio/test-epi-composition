@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b5b875180b10dd24ad24a5a713e37047
 InstanceOf: CompositionUvEpi
 Title: "Composition for budesonideformoterol Package Leaflet"
@@ -550,10 +553,38 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
-Instance: mpa4d99deff1636304f5476e0b4b40347d
+                    
+Instance: bundlepackageleaflet-en-b5b875180b10dd24ad24a5a713e37047
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for budesonideformoterol Package Leaflet for language en"
+Description: "ePI document Bundle for budesonideformoterol Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b5b875180b10dd24ad24a5a713e37047"
+* entry[0].resource = composition-en-b5b875180b10dd24ad24a5a713e37047
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb5b875180b10dd24ad24a5a713e37047"
+* entry[=].resource = mpb5b875180b10dd24ad24a5a713e37047
+                            
+                    
+
+
+
+Instance: mpb5b875180b10dd24ad24a5a713e37047
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Budesonide/Formoterol Teva Pharma B.V. 160 micrograms / 4.5 micrograms inhalation powder"
-Description: "Budesonide/Formoterol Teva Pharma B.V. 160 micrograms / 4.5 micrograms inhalation powder"
+Title: "Medicinal Product budesonideformoterol"
+Description: "budesonideformoterol"
 Usage: #inline
 
  
@@ -573,7 +604,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Budesonide/Formoterol Teva Pharma B.V. 160 micrograms / 4.5 micrograms inhalation powder"
+  * productName = "budesonideformoterol"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -600,29 +631,46 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b5b875180b10dd24ad24a5a713e37047
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for budesonideformoterol Package Leaflet for language en"
-Description: "ePI document Bundle for budesonideformoterol Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b5b875180b10dd24ad24a5a713e37047ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1403/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "budesonideformoterol"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b5b875180b10dd24ad24a5a713e37047"
-* entry[0].resource = composition-en-b5b875180b10dd24ad24a5a713e37047
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa4d99deff1636304f5476e0b4b40347d"
-* entry[=].resource = mpa4d99deff1636304f5476e0b4b40347d
-                            
-                      
+* title = "List of all ePIs associated with budesonideformoterol"
+
+* subject = Reference(mpa4d99deff1636304f5476e0b4b40347d)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#budesonideformoterol "budesonideformoterol"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b5b875180b10dd24ad24a5a713e37047) // budesonideformoterol en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-b5b875180b10dd24ad24a5a713e37047
+InstanceOf: List
+
+* insert b5b875180b10dd24ad24a5a713e37047ListRuleset
+    

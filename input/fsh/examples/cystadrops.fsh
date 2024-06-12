@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a88819de549a51e3dd5eb81cc2cbcd10
 InstanceOf: CompositionUvEpi
 Title: "Composition for cystadrops Package Leaflet"
@@ -397,12 +400,594 @@ Tel: +44 (0)1491 414This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-a88819de549a51e3dd5eb81cc2cbcd10
+InstanceOf: CompositionUvEpi
+Title: "Composition for cystadrops Package Leaflet"
+Description:  "Composition for cystadrops Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpa0b384d10cb35219f7a939d832ec4615)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpa0b384d10cb35219f7a939d832ec4615
+* title = "TEST PURPOSES ONLY - cystadrops"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at bruge Cystadrops 
+3. Sådan skal du bruge Cystadrops 
+4. Bivirkninger<br />
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What cystadrops is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What cystadrops is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Om Cystadrops 
+Cystadrops er øjendråber, der indeholder det aktive stof cysteamin (kaldes også mercaptamin). </p>
+<p>Anvendelse 
+Øjendråberne anvendes til at nedsætte mængden af cystinkrystaller på øjets overflade (hornhinden) 
+hos voksne og børn fra 2 år med cystinose. </p>
+<p>Hvad er cystinose 
+Cystinose er en sjælden arvelig sygdom, hvor kroppen ikke er i stand til at fjerne overskud af cystin 
+(en aminosyre), hvilket forårsager, at der ophobes cystinkrystaller i forskellige organer (f.eks. nyrerne 
+og øjnene). Ophobning af krystaller i øjnene kan medføre øget følsomhed for lys (fotofobi), 
+nedbrydning af hornhinden (keratopati) og synstab. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take cystadrops"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take cystadrops"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Cystadrops 
+hvis du er allergisk over for cysteamin eller et af de øvrige indholdsstoffer i Cystadrops (angivet i 
+afsnit 6). </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen eller apotekspersonalet, før du bruger Cystadrops. </p>
+<p>Brug af anden medicin sammen med Cystadrops 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. </p>
+<p>Graviditet og amning 
+Selvom indholdet af Cystadrops i blodet er ubetydeligt, bør der træffes forholdsregler. 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik og arbejdssikkerhed 
+Dit syn kan være sløret i et par minutter, lige efter du har brugt Cystadrops. Du må ikke køre 
+motorkøretøj eller betjene maskiner, hvis du ikke kan se klart. </p>
+<p>Cystadrops indeholder benzalkoniumchlorid 
+Dette lægemiddel indeholder 5 mikrogram benzalkoniumchlorid i hver dråbe, hvilket svarer til 
+0,1 mg/ml. 
+Benzalkoniumchlorid kan absorberes af bløde kontaktlinser og kan ændre farven af kontaktlinserne. Du 
+skal tage kontaktlinserne ud, inden lægemidlet bruges, og vente mindst 15 minutter, før du sætter 
+kontaktlinserne i igen. 
+Benzalkoniumchlorid kan også give øjenirritation, især hvis du har tørre øjne eller problemer med 
+hornhinderne (det klare lag forrest i øjet). Hvis du har unormale fornemmelser i øjet såsom svie eller 
+smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take cystadrops"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take cystadrops"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Anbefalet dosis </p>
+<ul>
+<li>
+<p>Den anbefalede dosis er 1 dråbe i hvert øje 4 gange dagligt i dagtimerne (mens du er vågen).  </p>
+</li>
+<li>
+<p>Det anbefales, at der går 4 timer mellem hver drypning (du kan f.eks. bruge øjendråberne kl. 8.00, 
+kl.12.00, kl.16.00 og kl. 20.00).  </p>
+</li>
+<li>
+<p>Det anbefales, at du kommer den sidste dråbe i øjnene mindst 30 minutter før sengetid for at 
+undgå, at dine øjenlåg er klistret sammen om morgenen.  </p>
+</li>
+<li>
+<p>Din læge kan gradvist nedsætte din dosis (til mindst 1 dråbe i hvert øje dagligt), afhængigt af 
+resultatet af øjenundersøgelser. </p>
+</li>
+</ul>
+<p>Dråberne må kun anvendes i øjnene. </p>
+<p>Følg nøje nedenstående anvisninger i brug af øjendråberne. Du kan også se disse instruktioner i en 
+animeret film på www.cystadrops.net ‘QR-code skal inkluderes’ </p>
+<p>Trin 1: Inden du bruger en flaske første gang </p>
+<ul>
+<li>
+<p>Inden du anvender Cystadrops første gang, skal øjendråberne have stuetemperatur. Det gør 
+anvendelse af dråberne lettere. </p>
+</li>
+<li>
+<p>Umiddelbart inden du bruger en flaske første gang, skal du skrive den dato, du åbner flasken, i 
+det dertil beregnede felt på kartonæsken. </p>
+</li>
+<li>
+<p>Vask hænderne grundigt for at undgå bakteriel forurening af flaskens indhold. </p>
+</li>
+<li>
+<p>Fjern den grønne beskyttelseshætte (billede 1). </p>
+</li>
+<li>
+<p>Fjern metalforseglingen (billede 2). </p>
+</li>
+<li>
+<p>Fjern den grå prop fra flasken (billede 3). </p>
+</li>
+<li>
+<p>Rør ikke ved flaskens åbning, når du har taget den grå prop af. </p>
+</li>
+<li>
+<p>Tag dråbetælleren ud af posen uden at berøre den ende, der skal sættes på flasken. Sæt 
+dråbetælleren på flasken (billede 4) og tag den ikke af igen. </p>
+</li>
+<li>
+<p>Sørg for, at du ikke mister den lille hvide hætte (billede 5), der sidder på spidsen af 
+dråbetælleren. </p>
+</li>
+</ul>
+<p>Trin 2: Inden du bruger øjendråberne </p>
+<ul>
+<li>
+<p>Tjek den dato, du skrev på kartonæsken. Cystadrops må bruges i op til 7 dage efter, flasken 
+blevet åbnet.  </p>
+</li>
+<li>
+<p>Tag pipetteflasken og et spejl. </p>
+</li>
+<li>
+<p>Vask hænderne. </p>
+</li>
+</ul>
+<p>Trin 3: Sådan bruger du øjendråberne </p>
+<ul>
+<li>
+<p>Hold pipetteflasken med fingrene, flasken skal vende nedad. Ryst pipetteflasken op og ned for 
+at fylde dråbetælleren. </p>
+</li>
+<li>
+<p>Skru den lille, hvide hætte af dråbetælleren. </p>
+</li>
+<li>
+<p>Læg hovedet tilbage. Træk ned i nederste øjenlåg med en ren finger, indtil der dannes en 
+lomme mellem øjenlåget og øjet. Her skal dråben placeres (billede 6). </p>
+</li>
+</ul>
+<p></p>
+<p>flaske 
+flaske 
+dråbetæller 
+dråbetæller 
+lille hvid hætte 
+drej og pres 
+for at påsætte 
+lille hvid hætte 
+fjern 
+fjern 
+fjern 
+metalforsegling 
+flaske 
+grøn 
+beskyttelseshætte 
+grå 
+prop </p>
+<ul>
+<li>
+<p>Før pipetteflaskens spids tæt på øjet. Brug spejlet, hvis det hjælper. </p>
+</li>
+<li>
+<p>Dråbetælleren må ikke røre ved dit øje, øjenlåg, øjenomgivelserne eller andre 
+overflader. Det kan forurene dråberne. </p>
+</li>
+<li>
+<p>Tryk let på dråbetælleren for at få én dråbe Cystadrops ud ad gangen. Vær ekstra forsigtig 
+med ikke at røre ved spidsen af dråbetælleren med dine fingre.  </p>
+</li>
+<li>
+<p>Når du har brugt Cystadrops, skal du sætte en finger mod øjenkrogen ind mod næsen (billede 
+7) og forsigtigt massere dit øverste øjenlåg for at sprede øjendråberne over øjet. </p>
+<pre><code>                                                         
+</code></pre>
+</li>
+<li>
+<p>Fjern overskydende medicin med en fugtig serviet (billede 8) for at undgå mulig irritation. </p>
+</li>
+<li>
+<p>Gentag trin 3 for det andet øje. </p>
+</li>
+<li>
+<p>Sæt den lille hvide hætte på dråbetælleren igen straks efter brug. </p>
+<pre><code>                                                     
+</code></pre>
+</li>
+</ul>
+<p>Trin 4: Opbevaring af øjendråberne efter brug </p>
+<ul>
+<li>
+<p>Læg pipetteflasken ned i kartonæsken. </p>
+</li>
+<li>
+<p>Opbevar Cystadrops ved stuetemperatur (det gør det lettere at bruge dråbetælleren). </p>
+</li>
+<li>
+<p>Kasser flasken 7 dage efter åbning. </p>
+</li>
+</ul>
+<p>Hvis en dråbe ikke kommer ind i øjet 
+Prøv igen.  </p>
+<p>Hvis du bruger Cystadrops sammen med et andet lægemiddel til øjnene 
+Sørg for, at der går mindst 10 minutter mellem brug af Cystadrops og det andet lægemiddel. Du skal 
+bruge øjensalve sidst. </p>
+<p>Hvis du går med bløde kontaktlinser 
+Du må ikke komme øjendråberne i øjnene, mens du har linserne i. Når du har brugt dråberne, skal du 
+vente 15 minutter, før du må sætte kontaktlinserne i igen. </p>
+<p>Hvis du brugt for meget Cystadrops 
+Hvis du kommer for mange dråber i øjnene, skal du skylle øjnene - helst med saltvand (hvis du ikke 
+har saltvand, skal du bruge varmt vand). Du må ikke komme flere dråber i, før det er tid til din næste 
+sædvanlige dosis. </p>
+<p>Hvis du har glemt at bruge Cystadrops 
+Vent indtil næste planlagte drypning og fortsæt så, som du plejer. Du må ikke tage en dobbeltdosis 
+som erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at bruge Cystadrops 
+Cystadrops skal bruges hver dag, for at medicinen virker korrekt. Hvis du holder op med at bruge 
+Cystadrops, kan ophobningen af cystinkrystaller i hornhinden vokse og medføre øget følsomhed for 
+lys (fotofobi), nedbrydning af hornhinden (keratopati) og synstab. Du skal derfor tale med din læge, 
+inden du stopper behandlingen. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Du kan normalt fortsætte med at bruge dråberne, medmindre bivirkningerne er alvorlige. Tal med 
+lægen eller apotekspersonalet, hvis du er bekymret. Du må ikke holde op med at bruge Cystadrops 
+uden at tale med din læge. </p>
+<p>Følgende bivirkninger er rapporteret: </p>
+<p>Meget almindelige bivirkninger (kan påvirke flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>øjensmerter </p>
+</li>
+<li>
+<p>røde øjne, øjenkløe, irritation i øjnene (svie) </p>
+</li>
+<li>
+<p>øjne, der løber i vand </p>
+</li>
+<li>
+<p>tågesyn </p>
+</li>
+<li>
+<p>gener på det sted, dråberne er dryppet i (hovedsageligt sammenklistrede øjenlåg og vipper), 
+medicinrester på øjenvipperne og rundt om øjnene </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>unormal fornemmelse i øjnene, følelse af at have noget i øjet </p>
+</li>
+<li>
+<p>tørre øjne  </p>
+</li>
+<li>
+<p>hævede øjenlåg </p>
+</li>
+<li>
+<p>irritation i øjenlåg </p>
+</li>
+<li>
+<p>nedsat syn </p>
+</li>
+<li>
+<p>smerter på det sted, dråberne er dryppet i </p>
+</li>
+<li>
+<p>bygkorn </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cystadrops"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cystadrops"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Inden åbning:  </p>
+<ul>
+<li>
+<p>Opbevares i køleskab (2 °C-8 °C). </p>
+</li>
+<li>
+<p>Opbevar pipetteflasken i den ydre karton for at beskytte mod lys. </p>
+</li>
+</ul>
+<p>Efter åbning: </p>
+<ul>
+<li>
+<p>Skriv datoen, hvor du åbner flasken, i feltet på kartonæsken. </p>
+</li>
+<li>
+<p>Cystadrops må bruges i op til 7 dage efter, flasken er blevet åbnet. </p>
+</li>
+<li>
+<p>Opbevar pipetteflasken tæt tillukket i den ydre karton for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Opbevares ved temperaturer under 25 °C. </p>
+</li>
+<li>
+<p>Må ikke nedfryses. </p>
+</li>
+<li>
+<p>Du skal kassere pipetteflasken 7 dage efter åbning, også selvom den ikke er tom. Tag en 
+ny flaske i brug.  </p>
+</li>
+</ul>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cystadrops indeholder:</p>
+<ul>
+<li>Aktivt stof: cysteamin (mercaptamin) som hydrochlorid. En ml øjendråber, opløsning, 
+indeholder 3,8 mg cysteamin. </li>
+<li>Øvrige indholdsstoffer: benzalkoniumchlorid (se afsnit 2 under "Cystadrops indeholder 
+benzalkoniumchlorid"), natriumedetat, carmellosenatrium, citronsyremonohydrat, 
+natriumhydroxid, saltsyre og vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Cystadrops er klare og tyktflydende øjendråber (opløsning).  </p>
+<p>Hver æske indeholder: </p>
+<ul>
+<li>
+<p>1 ravfarvet glasflaske med 5 ml øjendråber </p>
+</li>
+<li>
+<p>1 dråbetæller. </p>
+</li>
+</ul>
+<p>Cystadrops er tilgængelige i pakke med 1 æske eller i multipakke med 4 æsker. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land </p>
+<p>Indehaver af markedsføringstilladelsen 
+Recordati Rare Diseases 
+Immeuble “Le Wilson”<br />
+70 Avenue du Général de Gaulle 
+92800 Puteaux<br />
+Frankrig </p>
+<p>Fremstiller 
+Recordati Rare Diseases 
+Immeuble “Le Wilson”<br />
+70 Avenue du Général de Gaulle 
+92800 Puteaux<br />
+Frankrig </p>
+<p>eller </p>
+<p>Recordati Rare Diseases 
+Eco River Parc 
+30, rue des Peupliers<br />
+F-92000 Nanterre 
+Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+Recordati 
+Tél/Tel: +32 2 46101 Lietuva 
+Recordati AB. 
+Tel: + 46 8 545 80 Švedija </p>
+<p>България 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 Франция 
+Luxembourg/Luxemburg 
+Recordati 
+Tél/Tel: +32 2 46101 Belgique/Belgien </p>
+<p>Česká republika 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 Francie </p>
+<p>Magyarország 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 Franciaország  </p>
+<p>Danmark 
+Recordati AB. 
+Tlf.: +46 8 545 80 230<br />
+Sverige </p>
+<p>Malta 
+Recordati Rare Diseases 
+Tel: +33 1 47 73 64 Franza </p>
+<p>Deutschland 
+Recordati Rare Diseases Germany GmbH 
+Tel: +49 731 140 554 0 
+Nederland 
+Recordati 
+Tel: +32 2 46101 België </p>
+<p>Eesti 
+Recordati AB. 
+Tel: + 46 8 545 80 230<br />
+Rootsi </p>
+<p>Norge 
+Recordati AB. 
+Tlf.: +46 8 545 80 Sverige  </p>
+<p>Ελλάδα 
+Recordati Rare Diseases 
+Τηλ: +33 1 47 73 64 Γαλλία </p>
+<p>Österreich 
+Recordati Rare Diseases Germany GmbH 
+Tel: +49 731 140 554 0 
+Deutschland </p>
+<p>España 
+Recordati Rare Diseases Spain S.L.U. 
+Tel: + 34 91 659 28 Polska 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 Francja  </p>
+<p>Frankrig 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64<br />
+Portugal 
+Jaba Recordati S.A. 
+Tel: +351 21 432 95<br />
+Hrvatska 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 Francuska </p>
+<p>România 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 Franţa  </p>
+<p>Ireland 
+Recordati Rare Diseases 
+Tel: +33 (0)1 47 73 64 France 
+Slovenija 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 Francija  </p>
+<p>Ísland 
+Recordati AB. 
+Simi:+46 8 545 80 Svíþjóð 
+Slovenská republika 
+Recordati Rare Diseases 
+Tél: +33 (0)1 47 73 64 Francúzsko  </p>
+<p>Italia 
+Recordati Rare Diseases Italy Srl 
+Tel: +39 02 487 87<br />
+Suomi/Finland 
+Recordati AB. 
+Puh/Tel: +46 8 545 80 Sverige </p>
+<p>Κύπρος 
+Recordati Rare Diseases 
+Τηλ: +33 1 47 73 64 Γαλλία 
+Sverige 
+Recordati AB. 
+Tel: +46 8 545 80  </p>
+<p>Latvija 
+Recordati AB. 
+Tel: + 46 8 545 80 230<br />
+Zviedrija 
+United Kingdom (Northern Ireland) 
+Recordati Rare Diseases UK Ltd. 
+Tel: +44 (0)1491 414 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre hjemmesider om sjældne 
+sygdomme og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a88819de549a51e3dd5eb81cc2cbcd10
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cystadrops Package Leaflet for language en"
+Description: "ePI document Bundle for cystadrops Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a88819de549a51e3dd5eb81cc2cbcd10"
+* entry[0].resource = composition-en-a88819de549a51e3dd5eb81cc2cbcd10
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa88819de549a51e3dd5eb81cc2cbcd10"
+* entry[=].resource = mpa88819de549a51e3dd5eb81cc2cbcd10
+                            
+                    
+Instance: bundlepackageleaflet-da-a88819de549a51e3dd5eb81cc2cbcd10
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cystadrops Package Leaflet for language da"
+Description: "ePI document Bundle for cystadrops Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a88819de549a51e3dd5eb81cc2cbcd10"
+* entry[0].resource = composition-da-a88819de549a51e3dd5eb81cc2cbcd10
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa88819de549a51e3dd5eb81cc2cbcd10"
+* entry[=].resource = mpa88819de549a51e3dd5eb81cc2cbcd10
+                            
+                    
+
+
+
+Instance: mpa88819de549a51e3dd5eb81cc2cbcd10
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Cystadrops 3.8 mg/mL eye drops solution"
-Description: "Cystadrops 3.8 mg/mL eye drops solution"
+Title: "Medicinal Product cystadrops"
+Description: "cystadrops"
 Usage: #inline
 
  
@@ -422,7 +1007,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Cystadrops 3.8 mg/mL eye drops solution"
+  * productName = "cystadrops"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -449,29 +1034,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a88819de549a51e3dd5eb81cc2cbcd10
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for cystadrops Package Leaflet for language en"
-Description: "ePI document Bundle for cystadrops Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a88819de549a51e3dd5eb81cc2cbcd10ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/15/1049/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cystadrops"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a88819de549a51e3dd5eb81cc2cbcd10"
-* entry[0].resource = composition-en-a88819de549a51e3dd5eb81cc2cbcd10
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpa0b384d10cb35219f7a939d832ec4615"
-* entry[=].resource = mpa0b384d10cb35219f7a939d832ec4615
-                            
-                      
+* title = "List of all ePIs associated with cystadrops"
+
+* subject = Reference(mpa0b384d10cb35219f7a939d832ec4615)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cystadrops "cystadrops"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a88819de549a51e3dd5eb81cc2cbcd10) // cystadrops en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a88819de549a51e3dd5eb81cc2cbcd10) // cystadrops da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a88819de549a51e3dd5eb81cc2cbcd10
+InstanceOf: List
+
+* insert a88819de549a51e3dd5eb81cc2cbcd10ListRuleset
+    

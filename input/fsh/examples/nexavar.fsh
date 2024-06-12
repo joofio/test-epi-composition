@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-a79877ebbdc6a1bef13ecf627450a2db
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexavar Package Leaflet"
@@ -397,12 +400,476 @@ Tel: +44-(0)118 206 3This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-a79877ebbdc6a1bef13ecf627450a2db
+InstanceOf: CompositionUvEpi
+Title: "Composition for nexavar Package Leaflet"
+Description:  "Composition for nexavar Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp841a8d0a253d93da2511c37fa474a83a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp841a8d0a253d93da2511c37fa474a83a
+* title = "TEST PURPOSES ONLY - nexavar"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Nexavar 
+3. Sådan skal De tage Nexavar 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What nexavar is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What nexavar is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nexavar bruges til behandling af levercancer (hepatocellulært karcinom). 
+Nexavar bruges også til behandling af nyrecancer (fremskredent renalcellekarcinom) på et 
+fremskredent stadie. Nexavar bruges, når standardbehandling ikke har hjulpet til at stoppe Deres 
+sygdom, eller når den ikke anses for at være den bedste løsning.<br />
+Nexavar anvendes til at behandle kræft i skjoldbruskkirtlen (differentieret thyreoideacancer). </p>
+<p>Nexavar er en såkaldt multikinase-hæmmer. Den virker ved at nedsætte hastigheden af cancercellernes 
+vækst og afskære den blodforsyning, der gør, at cellerne kan vokse. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take nexavar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take nexavar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Nexavar 
+- hvis De er allergisk over for sorafenib eller et af de øvrige indholdsstoffer i Nexavar (angivet i 
+punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De tager Nexavar. </p>
+<p>Vær ekstra forsigtig med at tage Nexavar 
+- hvis De får hudproblemer. Nexavar kan forårsage udslæt og hudreaktioner, især på hænder og 
+fødder. Disse kan sædvanligvis behandles af Deres læge. Hvis det ikke er tilfældet, kan Deres 
+læge beslutte at afbryde behandlingen eller stoppe den helt. 
+- hvis De har et højt blodtryk. Nexavar kan øge blodtrykket, og Deres læge vil som regel følge 
+Deres blodtryk og kan beslutte at give Dem et lægemiddel til behandling af Deres høje blodtryk. 
+- hvis du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i 
+en blodårevæg.  </p>
+<ul>
+<li>hvis De har diabetes. Blodsukkerniveauer hos patienter med diabetes skal tjekkes regelmæssigt 
+for at undersøge om dosering af lægemidler mod diabetes skal justeres for at mindske risikoen for 
+lavt blodsukker. </li>
+<li>hvis De får blødningsproblemer, eller De behandles med warfarin eller phenprocoumon. 
+Behandling med Nexavar kan føre til højere risiko for blødning. Hvis De tager warfarin eller 
+phenprocoumon, som er lægemidler, som fortynder blodet for at forebygge blodpropper, kan der 
+være øget risiko for blødning. </li>
+<li>hvis De får brystsmerter eller hjerteproblemer. Deres læge kan beslutte at afbryde 
+behandlingen eller stoppe den helt. </li>
+<li>hvis De har en hjerterytmeforstyrrelse såsom et unormalt elektrisk signal, der kaldes 
+"forlængelse af QT-intervallet". </li>
+<li>hvis De skal opereres, eller De for nylig er blevet opereret. Nexavar kan påvirke, hvordan 
+Deres sår heler. De vil oftest skulle stoppe med at tage Nexavar, hvis De skal opereres. Deres læge 
+vil beslutte, hvornår De skal starte med Nexavar igen. </li>
+<li>hvis De tager irinotecan eller får docetaxel, som også er lægemidler mod cancer. Nexavar kan 
+øge effekten og især bivirkningerne af disse lægemidler. </li>
+<li>hvis De tager neomycin eller andre antibiotika, kan Nexavars virkning blive nedsat. </li>
+<li>hvis De har svært nedsat leverfunktion. De kan i så fald få flere svære bivirkninger ved 
+indtagelse af dette lægemiddel. </li>
+<li>hvis De har dårlig nyrefunktion. Deres læge vil overvåge Deres væske- og elektrolytbalance. </li>
+<li>fertilitet. Nexavar kan reducere fertiliteten hos både mænd og kvinder. Tal med Deres læge, hvis 
+De er bekymret. </li>
+<li>Hul på mave-tarm-kanalen (gastrointestinal perforation) kan forekomme under behandlingen 
+(se også Bivirkninger, punkt 4). Hvis dette forekommer, vil Deres læge afbryde behandlingen.  </li>
+<li>Hvis De har kræft i skjoldbruskkirtlen. Deres læge vil overvåge indholdet af calcium og 
+skjoldbruskkirtel-hormon i blodet. </li>
+<li>hvis De oplever følgende symptomer, skal De straks kontakte lægen, da det kan være en 
+livstruende tilstand: kvalme, åndenød, uregelmæssig hjerterytme, muskelkramper, krampeanfald, 
+uklar urin og træthed. Disse kan forårsages af en gruppe af metaboliske komplikationer, der kan 
+opstå under behandling af kræft, som skyldes nedbrydningen af kræftceller (tumorlysesyndrom 
+(TLS)), og som kan føre til ændringer i nyrefunktionen og akut nyresvigt (se også pkt. 4: 
+Bivirkninger). </li>
+</ul>
+<p>Fortæl det til Deres læge, hvis noget af dette berører Dem. De kan have brug for behandling for 
+dette, eller Deres læge kan beslutte at ændre Deres dosis af Nexavar eller stoppe behandlingen helt (se 
+også Bivirkninger, punkt 4). </p>
+<p>Børn og unge 
+Nexavar er ikke blevet undersøgt på børn og unge. </p>
+<p>Brug af andre lægemidlersammen med Nexavar 
+Andre lægemidler kan påvirke virkningen af Nexavar, og Nexavar kan påvirke virkningen af andre 
+lægemidler. Fortæl det altid til lægen eller apotekspersonalet, hvis De tager nedenstående lægemidler 
+eller andre lægemidler, for nylig har taget andre lægemidler eller planlægger at tage andre lægemidler. 
+Dette gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler og vitaminer og 
+mineraler:</p>
+<ul>
+<li>Rifampicin, neomycin eller andre lægemidler mod infektioner (antibiotika) </li>
+<li>Perikon, et naturlægemiddel mod depression </li>
+<li>Phenytoin, carbamazepin eller phenobarbital, lægemidler mod epilepsi og andre sygdomme </li>
+<li>Dexamethason, et kortikosteroid mod forskellige tilstande </li>
+<li>Warfarin eller phenprocoumon, blodfortyndende medicin til forebyggelse af blodpropper  </li>
+<li>Doxorubicin, capecitabin, docetaxel, paclitaxel og irinotecan, som er andre lægemidler mod 
+kræft </li>
+<li>Digoxin, et lægemiddel mod hjertesygdom. </li>
+</ul>
+<p>Graviditet og amning 
+Spørg Deres læge eller apotekspersonalet til råds, før De tager Nexavar. </p>
+<p>Undgå at blive gravid under behandling med Nexavar. Hvis De er en kvinde i den fødedygtige 
+alder, skal De bruge effektiv prævention, mens De er under behandling. Hvis De bliver gravid under 
+behandlingen, fortæl da øjeblikkeligt dette til Deres læge, som så vil beslutte, om behandlingen skal 
+fortsættes. </p>
+<p>De må ikke amme Deres barn under behandlingen med Nexavar, da dette lægemiddel kan påvirke 
+Deres barns vækst og udvikling. </p>
+<p>Trafik- og arbejdssikkerhed 
+Der er intet, der tyder på, at Nexavar vil påvirke evnen til at køre eller betjene maskiner. </p>
+<p>Nexavar indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nexavar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nexavar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller på apoteket. </p>
+<p>Den anbefalede dosis af Nexavar til voksne er 2 x 200 mg tabletter to gange dagligt. Dette svarer 
+til en daglig dosis på 800 mg eller fire tabletter om dagen. </p>
+<p>Synk Nexavar tabletterne med et glas vand, enten uden mad eller med et lavt eller moderat 
+fedtholdigt måltid. Tag ikke dette lægemiddel med et måltid med højt fedtindhold, da dette kan gøre 
+Nexavar mindre effektiv. Hvis De har i sinde at indtage et måltid med højt fedtindhold, skal De tage 
+tabletterne mindst 1 time før eller 2 timer efter måltidet. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller på apoteket. </p>
+<p>Det er vigtigt at tage dette lægemiddel omkring samme tid hver dag, så der er en jævn mængde i 
+blodet. </p>
+<p>De skal normalt blive ved med at tage dette lægemiddel så længe, De har gavn af behandlingen og 
+ikke har uacceptable bivirkninger. </p>
+<p>Hvis De har taget for meget Nexavar 
+Fortæl det øjeblikkeligt til Deres læge, hvis De (eller andre) har taget mere end Deres foreskrevne 
+dosis. 
+At tage en for stor mængde Nexavar øger risikoen for bivirkninger eller svære bivirkninger, især 
+diarré og hududslæt. Deres læge kan beslutte, at De skal stoppe med at tage dette lægemiddel. </p>
+<p>Hvis De har glemt at tage Nexavar 
+Hvis De har glemt at tage en dosis, så tag den, så snart De opdager det. Hvis det er lige før den næste 
+dosis, se da bort fra den glemte dosis, og fortsæt som normalt. 
+De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Tal med lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som ikke 
+fremgår af denne indlægsseddel. </p>
+<p>Dette lægemiddel kan også påvirke resultaterne af visse blodprøver. </p>
+<p>Meget almindelige bivirkninger 
+forekommer hos flere end 1 ud af 10 behandlede 
+- diaré 
+- kvalme 
+- følelse af svaghed og træthed 
+- smerte (inklusive smerter i munden og maven, hovedpine, smerter i knoglerne, smerter i svulster) 
+- hårtab (alopeci) 
+- røde eller smertefulde håndflader og fodsåler (hånd-fod-hud-reaktion) 
+- kløe og udslæt 
+- opkastning<br />
+- blødning (inklusive blødning i hjernen, tarmvæggen og luftvejene; hæmoragi)<br />
+- højt blodtryk eller blodtryksstigning (hypertension) 
+- infektioner 
+- appetitløshed 
+- forstoppelse 
+- ledsmerter (artralgi) 
+- feber 
+- vægttab 
+- tør hud </p>
+<p>Almindelige bivirkninger<br />
+forekommer hos op til 1 ud af 10 behandlede 
+- influenzalignende sygdom<br />
+- dårlig fordøjelse (dyspepsi) 
+- synkebesvær 
+- betændelseslignende reaktion i munden eller tør mund, smerter i tungen (stomatitis og slimhinde-
+inflammation) 
+- lavt calciumindhold i blodet (hyperkalcæmi) 
+- lavt kaliumindhold i blodet (hypokaliæmi) 
+- lavt blodsukkerniveau (hypoglykæmi) 
+- muskelsmerter (myalgi) 
+- føleforstyrrelser i fingre og tæer, inklusive stikken og følelsesløshed (perifer sensorisk neuropati) 
+- depression 
+- erektionsproblemer (impotens) 
+- ændret stemme 
+- akne 
+- betændt, tør eller skællende hud (dermatitis, hudafskalning) 
+- hjertesvigt 
+- hjerteanfald (myokardieinfarkt) eller brystsmerter 
+- tinnitus (susen for ørerne) 
+- nyresvigt 
+- unormalt højt indhold af proteiner i urinen (proteinuri) 
+- generel svaghed eller tab af styrke 
+- nedsat antal hvide blodlegemer (leukopeni og neutropeni) 
+- nedsat antal røde blodlegemer (anæmi) 
+- lavt antal blodplader (trombocytopeni) 
+- infektion i hårsækkene 
+- nedsat aktivitet i skjoldbruskkirtlen (hypotyroidisme) 
+- lavt natriumindhold i blodet (hyponatriæmi) 
+- smagsforstyrrelser 
+- rødme i ansigt og ofte på andre hudområder (flushing) 
+- næseflåd 
+- halsbrand (gastroøsofageal refluks) 
+- hudkræft (keratoakantom)/spinocellulært karcinom i huden) 
+- fortykkelse af hudens øverste lag (hyperkeratose) 
+- pludselige, ufrivillige muskelsammentrækninger (muskelspasmer) </p>
+<p>Ikke almindelige bivirkninger 
+forekommer hos op til 1 ud af 100 behandlede 
+- betændelse i maveslimhinde (gastritis) 
+- mavesmerter på grund af betændelse i bugspytkirtlen, galdeblærebetændelse og/eller 
+galdegangsbetændelse<br />
+- gul hud og øjne (gulsot) på grund af forhøjede niveauer af galdepigment (hyperbilirubinæmi) 
+- allergi-lignende reaktioner (inklusive hudreaktioner og nældefeber) 
+- væskemangel 
+- forstørrede bryster hos mænd (gynækomasti) 
+- åndedrætsbesvær (lungesygdom) 
+- eksem 
+- øget aktivitet i skjoldbruskkirtlen (hypertyreoidisme) 
+- udbredt hududslæt (erythema multiforme) 
+- unormalt højt blodtryk 
+- huller i tarmvæggen (gastrointestinal perforation) 
+- reversibel hævelse i hjernens bagerste del, som kan forbindes med hovedpine, påvirket bevidsthed, 
+krampeanfald og symptomer forbundet med synet, inklusive synstab (reversibel posterior 
+leukoencefalopati) 
+- en pludselig, alvorlig allergisk reaktion (anafylaktisk reaktion) </p>
+<p>Sjældne bivirkninger 
+forekommer hos op til 1 ud af 1.000 behandlede 
+- allergisk reaktion med hævelser i huden (f.eks. ansigt og tunge), hvilket kan medføre 
+vejrtrækningsbesvær eller synkebesvær (angioødem) 
+- unormal hjerterytme (QT-forlængelse)<br />
+- betændelse i leveren, hvilket kan medføre kvalme, opkastning, mavesmerter og gulsot 
+(lægemiddelinduceret hepatitis) 
+- udslæt, der ligner solskoldning, kan forekomme på hud, der tidligere har været udsat for 
+strålebehandling. Det kan være alvorligt (radiation recall dermatitis) 
+- alvorlige reaktioner i hud og/eller slimhinder, herunder smertefulde blærer og feber (Stevens-
+Johnsons syndrom) 
+- unormal nedbrydning af musklerne, hvilket kan medføre nyreproblemer (rabdomyolyse) 
+- nyreskade, der forårsager udsivning af en stor mængde protein (nefrotisk syndrom) 
+- betændelse i blodårerne i huden, hvilket kan medføre udslæt (leukocytoklastisk vasculitis) </p>
+<p>Ikke kendt 
+kan ikke estimeres ud fra tilgængelige data 
+- forstyrrelser i hjernen, der kan give f.eks. døsighed, adfærdsændringer eller forvirring 
+(encephalapati). Kontakt straks læge eller skadestue. Ring evt. 112. - en udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og arterielle 
+dissektioner). 
+- kvalme, åndenød, uregelmæssig hjerterytme, muskelkramper, krampeanfald, uklar urin og træthed 
+(tumorlysesyndrom (TLS)) (se pkt. 2). </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejersken eller apotekpersonalet. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store nexavar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nexavar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og på hver blister efter angiv 
+forkortelsen for udløbsdatoen. Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
+ikke smide lægemiddelresteri afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nexavar indeholder:</p>
+<ul>
+<li>Aktivt stof: Sorafenib. Hver filmovertrukken tablet indeholder 200 mg sorafenib (som tosylat). </li>
+<li>Øvrige indholdsstoffer: 
+Tabletkerne: Croscarmellosenatrium; cellulose, mikrokrystallinsk; hypromellose; 
+natriumlaurilsulfat; magnesiumstearat. 
+Filmovertræk: Hypromellose; macrogol; titandioxid (E 171); jernoxid (E 172). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Nexavar 200 mg facetterede, filmovertrukne tabletter er røde og runde med et Bayer-kors på den ene 
+side og "200" på den anden side. De fås i kalenderpakninger a 112 tabletter: fire transparente blister 
+med 28 tabletter i hver. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Bayer AG 
+51368 Leverkusen 
+Tyskland </p>
+<p>Fremstiller 
+Bayer AG 
+Kaiser-Wilhelm-Allee 
+51368 Leverkusen 
+Tyskland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België / Belgique / Belgien 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Lietuva 
+UAB Bayer 
+Tel. +37 05 23 36 България 
+Байер България ЕООД 
+Тел.: +359-(0)2-424 72 Luxembourg / Luxemburg 
+Bayer SA-NV 
+Tél/Tel: +32-(0)2-535 63 Česká republika 
+Bayer s.r.o. 
+Tel: +420 266 101 Magyarország 
+Bayer Hungária KFT 
+Tel:+36 14 87-41 Danmark 
+Bayer A/S 
+Tlf: +45 45 23 50 Malta 
+Alfred Gera and Sons Ltd. 
+Tel: +35 621 44 62 Deutschland 
+Bayer Vital GmbH 
+Tel: +49 (0)214-30 513 Nederland 
+Bayer B.V. 
+Tel: +31-(0)23-799 1Eesti 
+Bayer OÜ 
+Tel: +372 655 8Norge 
+Bayer AS 
+Tlf +47 24 11 18 Ελλάδα 
+Bayer Ελλάς ΑΒΕΕ 
+Τηλ: +30 210 61 87 Österreich 
+Bayer Austria Ges.m.b.H. 
+Tel: +43-(0)1-711 46-0 
+España 
+Bayer Hispania S.L. 
+Tel: +34-93-495 65 Polska 
+Bayer Sp. z o.o. 
+Tel: +48 22 572 35 France 
+Bayer HealthCare 
+Tél(N° vert): +33-(0)800 87 54 Portugal 
+Bayer Portugal, Lda. 
+Tel: +351 21 416 42 Hrvatska 
+Bayer d.o.o. 
+Tel: + 385-(0)1-6599 România 
+SC Bayer SRL<br />
+Tel: +40 21 529 59 Ireland 
+Bayer Limited 
+Tel: +353 1 216 3Slovenija 
+Bayer d. o. o. 
+Tel: +386 (0) 1 58 14 Ísland 
+Icepharma hf. 
+Sími: +354 540 8Slovenská republika 
+Bayer spol. s r.o. 
+Tel: +421 2 59 21 31 Italia 
+Bayer S.p.A. 
+Tel: +39 02 397 Suomi/Finland 
+Bayer Oy 
+Puh/Tel: +358 20 785 Κύπρος 
+NOVAGEM Limited 
+Τηλ: +357 22 48 38 Sverige 
+Bayer AB 
+Tel: +46 (0) 8 580 223 Latvija 
+SIA Bayer 
+Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
+Bayer AG 
+Tel: +44-(0)118 206 3 
+Denne indlægsseddel blev senest ændret   </p>
+<p>De kan finde yderligere oplysninger om Nexavar på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu/. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-a79877ebbdc6a1bef13ecf627450a2db
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nexavar Package Leaflet for language en"
+Description: "ePI document Bundle for nexavar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a79877ebbdc6a1bef13ecf627450a2db"
+* entry[0].resource = composition-en-a79877ebbdc6a1bef13ecf627450a2db
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa79877ebbdc6a1bef13ecf627450a2db"
+* entry[=].resource = mpa79877ebbdc6a1bef13ecf627450a2db
+                            
+                    
+Instance: bundlepackageleaflet-da-a79877ebbdc6a1bef13ecf627450a2db
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nexavar Package Leaflet for language da"
+Description: "ePI document Bundle for nexavar Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-a79877ebbdc6a1bef13ecf627450a2db"
+* entry[0].resource = composition-da-a79877ebbdc6a1bef13ecf627450a2db
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa79877ebbdc6a1bef13ecf627450a2db"
+* entry[=].resource = mpa79877ebbdc6a1bef13ecf627450a2db
+                            
+                    
+
+
+
+Instance: mpa79877ebbdc6a1bef13ecf627450a2db
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Nexavar 200 mg film-coated tablets"
-Description: "Nexavar 200 mg film-coated tablets"
+Title: "Medicinal Product nexavar"
+Description: "nexavar"
 Usage: #inline
 
  
@@ -422,7 +889,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Nexavar 200 mg film-coated tablets"
+  * productName = "nexavar"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -449,29 +916,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-a79877ebbdc6a1bef13ecf627450a2db
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for nexavar Package Leaflet for language en"
-Description: "ePI document Bundle for nexavar Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: a79877ebbdc6a1bef13ecf627450a2dbListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/06/342/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "nexavar"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-a79877ebbdc6a1bef13ecf627450a2db"
-* entry[0].resource = composition-en-a79877ebbdc6a1bef13ecf627450a2db
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp841a8d0a253d93da2511c37fa474a83a"
-* entry[=].resource = mp841a8d0a253d93da2511c37fa474a83a
-                            
-                      
+* title = "List of all ePIs associated with nexavar"
+
+* subject = Reference(mp841a8d0a253d93da2511c37fa474a83a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#nexavar "nexavar"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a79877ebbdc6a1bef13ecf627450a2db) // nexavar en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-a79877ebbdc6a1bef13ecf627450a2db) // nexavar da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-a79877ebbdc6a1bef13ecf627450a2db
+InstanceOf: List
+
+* insert a79877ebbdc6a1bef13ecf627450a2dbListRuleset
+    

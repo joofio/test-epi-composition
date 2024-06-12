@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-bef5164082ea0e74f1594414cc1788ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for tandemact Package Leaflet"
@@ -370,12 +373,441 @@ http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: composition-da-bef5164082ea0e74f1594414cc1788ab
+InstanceOf: CompositionUvEpi
+Title: "Composition for tandemact Package Leaflet"
+Description:  "Composition for tandemact Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1f9da6d952147df3e2a17629da9b0dc6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1f9da6d952147df3e2a17629da9b0dc6
+* title = "TEST PURPOSES ONLY - tandemact"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at tage Tandemact </li>
+<li>Sådan skal De tage Tandemact </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What tandemact is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What tandemact is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tandemact indeholder pioglitazon og glimepirid, som er antidiabetiske lægemidler, der anvendes til at 
+kontrollere blodsukkerniveauet. </p>
+<p>Det bruges hos voksne, når metformin ikke er egnet til behandling af type 2-diabetes mellitus 
+(ikke-insulinkrævende). Denne type 2-diabetes udvikler sig som regel i voksenalderen, hvor kroppen 
+enten ikke producerer nok insulin (et hormon, som kontrollerer blodsukkerniveauet) eller ikke kan 
+udnytte den insulin, som den producerer, effektivt. </p>
+<p>Når De har type 2-diabetes hjælper Tandemact med til at regulere niveauet af sukker i Deres blod ved 
+at øge mængden af tilgængelig insulin og hjælpe kroppen med at udnytte den bedre. Når De har taget 
+Tandemact i 3-6 måneder, vil Deres læge undersøge, om medicinen virker. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take tandemact"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take tandemact"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Tandemact 
+- hvis De er allergisk over for pioglitazon, glimepirid, andre sulfonylurinstoffer eller 
+sulfonamider eller over for et af de øvrige indholdsstoffer i dette lægemiddel (angivet i punkt 6) 
+- hvis De lider af eller tidligere har lidt af hjertesvigt 
+- hvis De har en leversygdom 
+- hvis De har diabetisk ketoacidose (en komplikation ved diabetes med hurtigt vægttab, kvalme 
+eller opkastning) 
+- hvis De har alvorlige nyreproblemer 
+- hvis De har eller nogensinde har haft blærekræft 
+- hvis De har blod i urinen, og Deres læge ikke har undersøgt årsagen 
+- hvis De har insulinkrævende diabetes (type 1) 
+- hvis De er i diabetisk koma 
+- hvis De er gravid 
+- hvis De ammer </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De tager Tandemact (se også punkt 4), 
+- hvis De har problemer med hjertet. Nogle patienter med langvarig type 2-diabetes mellitus og 
+hjertesygdom eller tidligere slagtilfælde, som blev behandlet med pioglitazon og insulin 
+samtidig, oplevede udvikling af hjertesvigt. Fortæl lægen hurtigst muligt, hvis De oplever tegn 
+på hjertesvigt som f.eks. unormal åndenød eller hurtig vægtstigning eller lokal hævelse (ødem). 
+- hvis De ophober væske (væskeretention) eller har problemer med hjertesvigt, især hvis De er 
+over 75 år. Hvis De tager antiinflammatoriske (betændelseshæmmende) lægemidler, som også 
+kan forårsage væskeophobning og hævelse, skal De også fortælle det til lægen. 
+- hvis De har en særlig type af diabetisk øjensygdom kaldet makulært ødem (hævelse i det 
+bagerste af øjet). Tal med lægen, hvis Deres syn ændrer sig. 
+- hvis De har problemer med leveren. Inden De begynder at tage Tandemact, får De taget en 
+blodprøve for at tjekke leverfunktionen. Denne test kan gentages med mellemrum. Fortæl lægen 
+hurtigst muligt, hvis De udvikler symptomer, som kunne tyde på et problem med leveren (f.eks. 
+kvalme uden nogen forklaring, opkastning, mavesmerter, træthed, tab af appetit og/eller mørk 
+urin), da Deres leverfunktion i så fald skal tjekkes. 
+- hvis De har cyster på æggestokkene (polycystisk ovariesyndrom). Der kan være en øget 
+sandsynlighed for at blive gravid, da De muligvis får ægløsning igen, når De tager Tandemact. 
+Hvis dette er relevant for Dem, skal De anvende passende prævention for at undgå risikoen for 
+en ikke-planlagt graviditet. 
+- hvis De allerede tager anden medicin til behandling af diabetes. 
+- hvis De har problemer med et enzym kaldet glukose-6-fosfat-dehydrogenase, da det kan 
+forårsage et fald i antallet af røde blodlegemer. </p>
+<p>De vil muligvis opleve et nedsat antal blodceller (anæmi). Deres læge kan tage blodprøver for at 
+overvåge antallet af blodceller og leverfunktionen. </p>
+<p>Hypoglykæmi 
+Når De tager Tandemact, kan Deres blodsukker falde til under det normale niveau (hypoglykæmi). 
+Hvis De får symptomer på hypoglykæmi som f.eks. koldsved, træthed, hovedpine, hurtige hjerteslag, 
+stik af sult, irritabilitet, nervøsitet eller kvalme, skal De indtage lidt sukker for at få blodsukkerniveauet 
+til at stige igen. Bed Deres læge eller apoteket om yderligere information, hvis De ikke er sikker på, at 
+De kan genkende disse symptomer. Det anbefales, at De altid medbringer sukkerknalder, slik, kiks 
+eller sød frugtjuice. </p>
+<p>Knoglebrud 
+Der blev observeret flere knoglebrud hos patienter, særligt kvinder, som tog pioglitazon. Deres læge 
+tager højde for dette ved behandling af Deres diabetes. </p>
+<p>Børn og unge 
+Anvendelse hos børn og unge under 18 år anbefales ikke. </p>
+<p>Brug af anden medicin sammen med Tandemact 
+Fortæl altid lægen eller apotekspersonalet, hvis De tager anden medicin for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Det skyldes, at nogle lægemidler kan svække eller 
+forstærke den virkning, Tandemact har på niveauet af sukker i Deres blod. </p>
+<p>Følgende lægemidler kan øge den blodsukkersænkende virkning af Tandemact. Dette kan medføre en 
+risiko for hypoglykæmi (lavt blodsukker):</p>
+<ul>
+<li>gemfibrozil og fibrater (for at sænke højt kolesteroltal) </li>
+<li>insulin, metformin eller andre lægemidler til behandling af diabetes mellitus </li>
+<li>phenylbutazon, azopropazon, oxyphenbutazon, aspirin-lignende lægemidler (til behandling af 
+smerter og inflammation) </li>
+<li>langtidsvirkende sulfonamider, tetracykliner, chloramphenicol, fluconazol, miconazol, 
+quinoloner, clarithromycin (til behandling af bakterie- og svampeinfektioner) </li>
+<li>anabolske steroider (til muskelopbygning) eller erstatningsbehandling med mandlige 
+kønshormoner  </li>
+<li>fluoxetin, MAO-hæmmere (til behandling af depression) </li>
+<li>angiotensinkonverterende enzym (ACE)-hæmmere, sympatolytika, disopyramid, pentoxifyllin, 
+coumarin-derivater som f.eks. warfarin (til behandling af hjerte- eller blodproblemer) </li>
+<li>allopurinol, probenecid, sulfinpyrazon (til behandling af gigt) </li>
+<li>cyclophosphamid, ifosfamid, trofosfamid (til behandling af kræft) </li>
+<li>fenfluramin (til vægtreduktion) </li>
+<li>tritoqualin (til behandling af allergier) </li>
+</ul>
+<p>Følgende lægemidler kan nedsætte den blodsukkersænkende virkning af Tandemact. Dette kan 
+medføre en risiko for hyperglykæmi (højt blodsukker):</p>
+<ul>
+<li>østrogener, progestogener (kvindelige kønshormoner) </li>
+<li>thiaziddiuretika og saluretika, også kaldet vanddrivende tabletter (til behandling af højt 
+blodtryk) </li>
+<li>levothyroxin (til stimulering af skjoldbruskkirtlen) </li>
+<li>glukokortikoider (til behandling af allergier og inflammation)  </li>
+<li>chlorpromazin og andre phenothiazin-derivater (til behandling af svære psykiske lidelser) </li>
+<li>adrenalin og sympatomimetika (til øgning af hjerterytmen, behandling af astma eller tilstoppet 
+næse, hoste og forkølelse eller i akutte livstruende nødsituationer)  </li>
+<li>nikotinsyre (til behandling af højt kolesteroltal) </li>
+<li>langvarig brug af laksativer (til behandling af forstoppelse) </li>
+<li>phenytoin (til behandling af krampeanfald) </li>
+<li>barbiturater (til behandling af nervøsitet og søvnproblemer) </li>
+<li>azetazolamid (til behandling af øget tryk i øjet, også kaldet glaukom) </li>
+<li>diazoxid (til behandling af højt blodtryk eller lavt blodsukker) </li>
+<li>rifampicin (til behandling af infektioner, tuberkulose) </li>
+<li>glukagon (til behandling af lavt blodsukker i alvorlig grad) </li>
+</ul>
+<p>Følgende lægemidler kan øge eller nedsætte den blodsukkersænkende virkning af Tandemact. 
+- H2-antagonister (til behandling af mavesår) 
+- betablokkere, clonidin, guanethidin og reserpin (til behandling af højt blodtryk eller hjertesvigt) 
+Disse kan også skjule tegnene på hypoglykæmi, så der skal udvises forsigtighed ved indtagelse 
+af disse lægemidler </p>
+<p>Tandemact kan enten øge eller svække virkningerne af følgende lægemidler:</p>
+<ul>
+<li>coumarin-derivater som f.eks. warfarin (bruges til at sinke eller stoppe blodpropdannelse) </li>
+</ul>
+<p>Fortæl lægen eller på apoteket, hvis du tager et eller flere af disse lægemidler. Deres blodsukker vil 
+blive tjekket, og det vil muligvis være nødvendigt at ændre Deres dosis af Tandemact. </p>
+<p>Brug af Tandemact sammen med alkohol 
+Undgå at indtage alkohol under behandlingen med Tandemact, da alkohol uforudsigeligt kan øge eller 
+nedsætte den blodsukkersænkende virkning af Tandemact. </p>
+<p>Graviditet og amning 
+De bør ikke tage Tandemact, hvis De er gravid. Fortæl lægen, hvis De er gravid, har mistanke om, at 
+De er gravid eller planlægger at blive gravid. Deres læge vil råde dem til at ophøre med at tage dette 
+lægemiddel. De bør ikke tage Tandemact, hvis De ammer eller planlægger at amme (se punkt "Tag 
+ikke Tandemact").  </p>
+<p>Trafik- og arbejdssikkerhed 
+Opmærksomheden og reaktionstiden kan være nedsat. Det skyldes, at et af de aktive stoffer i 
+Tandemact (glimepirid) kan medføre lavt eller højt blodsukker. Dette er især tilfældet, når 
+behandlingen påbegyndes, efter ændring af behandlingen, eller hvis De ikke tager Tandemact 
+regelmæssigt. Dette kan påvirke Deres evne til at køre bil og betjene maskiner. 
+De skal udvise forsigtighed, hvis De oplever unormalt syn. </p>
+<p>Tandemact indeholder lactosemonohydrat 
+Kontakt lægen, før De tager Tandemact, hvis lægen har fortalt Dem, at De ikke tåler visse sukkerarter. </p>
+<p>Tandemact indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take tandemact"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take tandemact"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er én tablet taget én gang daglig kort tid inden eller sammen med det første 
+hovedmåltid. Deres læge vil ordinere den dosis medicin, som De skal tage eller om nødvendigt 
+ordinere Dem en anden dosis. De skal tage tabletterne med et glas vand. </p>
+<p>Hvis De fornemmer, at virkningen af Tandemact er for svag, skal De tale med Deres læge om det. </p>
+<p>Hvis De følger en speciel diabetesdiæt, skal De fortsætte med denne, mens De tager Tandemact. </p>
+<p>Deres vægt bør kontrolleres med jævne mellemrum. Hvis Deres vægt stiger, skal De kontakte Deres 
+læge. </p>
+<p>Deres læge vil bede Dem om at de i perioder får foretaget forskellige blodprøver, mens de behandles 
+med Tandemact. </p>
+<p>Hvis De har taget for meget Tandemact 
+Hvis De ved en fejltagelse tager for mange tabletter, eller hvis en anden eller et barn tager Deres 
+medicin, skal De omgående kontakte en læge eller en farmaceut. Deres blodsukkerniveau kan falde til 
+under det normale niveau. Symptomerne kan omfatte koldsved, træthed, hovedpine, hurtige hjerteslag, 
+stik af sult, irritabilitet, nervøsitet, kvalme, koma eller krampeanfald. Dit blodsukkerniveau kan øges 
+ved indtagelse af sukker. Det anbefales, at De altid medbringer et par sukkerknalder, lidt slik, kiks 
+eller sukkerholdig frugtjuice. </p>
+<p>Hvis De har glemt at tage Tandemact 
+De skal tage Deres Tandemact-tabletter dagligt som foreskrevet. Hvis De glemmer en dosis, skal De 
+imidlertid springe den glemte dosis over og bare fortsætte med den næste dosis som normalt. De må 
+ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+<p>Hvis De holder op med at tage Tandemact 
+Tandemact skal tages hver dag for at virke ordentligt. Hvis De stopper med at tage Tandemact, kan 
+blodsukkeret stige. Tal med Deres læge, inden De ophører med denne behandling. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Patienterne har især oplevet følgende alvorlige bivirkninger: </p>
+<p>Blærekræft forekommer med hyppigheden "ikke almindelig" (kan forekomme hos op til 1 ud af 
+100 behandlede) hos patienter, der tager Tandemact. Tegn og symptomer omfatter blod i urinen, 
+smerter ved vandladning eller en pludselig vandladningstrang. Hvis De oplever nogen af disse 
+symptomer, skal De hurtigst muligt kontakte Deres læge. </p>
+<p>Hypoglykæmi (lavt blodsukker) er rapporteret med hyppigheden "ikke almindelig" (kan forekomme 
+hos op til 1 ud af 100 behandlede) hos patienter, som tager Tandemact. Symptomerne kan omfatte 
+koldsved, træthed, hovedpine, hurtige hjerteslag, stik af sult, irritabilitet, nervøsitet eller kvalme. Det 
+er vigtigt at vide hvilke symptomer, man kan forvente i tilfælde af hypoglykæmi (lavt blodsukker). 
+Bed Deres læge eller apotek om yderligere oplysninger, hvis De ikke er sikker på, hvordan De skal 
+genkende symptomerne, og hvad De skal gøre, hvis De oplever disse symptomer. </p>
+<p>Fald i antallet af blodplader (hvilket øger risikoen for blødning eller blodudtrædning), røde 
+blodlegemer (hvilket gør huden bleg og forårsager svaghed eller åndenød) og hvide blodlegemer 
+(hvilket øger risikoen for infektioner) er rapporteret hos patienter, som får Tandemact med 
+hyppigheden "sjælden" (kan forekomme hos op til 1 ud af 1.000 behandlede). Hvis De oplever denne 
+bivirkning, skal De hurtigst muligt kontakte Deres læge. Disse problemer fortager sig som regel, når 
+De ophører med at tage Tandemact. </p>
+<p>Lokal hævelse (ødem) er også observeret med hyppigheden "almindelig" (kan forekomme hos op til 
+1 ud af 10 behandlede hos patienter, som får Tandemact i kombination med insulin. Hvis De oplever 
+denne bivirkninger, skal De hurtigst muligt kontakte Deres læge. </p>
+<p>Knoglebrud har været almindeligt forekommende (kan påvirke op til 1 ud af 10 behandlede) hos 
+kvindelige patienter, der tager Tandemact, og er ligeledes indberettet hos mandlige patienter 
+(hyppighed kan ikke vurderes ud fra de tilgængelige data). Kontakt hurtigst muligt Deres læge, hvis 
+De oplever denne bivirkning. </p>
+<p>Sløret syn på grund af hævelse (eller væske) bagest i øjet (makulaødem) er også rapporteret hos 
+patienter, som får Tandemact (hyppigheden kan ikke vurderes ud fra tilgængelige data). Hvis De 
+oplever dette symptom for første gang, skal De hurtigst muligt kontakte Deres læge. Hvis De allerede 
+har sløret syn, og symptomet forværres, skal De hurtigst muligt kontakte Deres læge. </p>
+<p>Der er rapporteret om allergiske reaktioner med ukendt hyppighed (kan ikke vurderes ud fra 
+tilgængelige data) hos patienter, der tager Tandemact. Hvis du får en alvorlig allergisk reaktion, 
+herunder nældefeber og hævelse af ansigtet, læber, tunge eller svælg, der kan forårsage 
+vejrtræknings- eller synkebesvær, skal du afbryde behandlingen og kontakte en læge øjeblikkeligt. </p>
+<p>Nogle patienter har oplevet følgende bivirkninger, mens De tog pioglitazon og sulfonylurinstoffer, 
+herunder glimepirid: </p>
+<p>Almindelige: (kan påvirke op til 1 ud af 10 behandlede) </p>
+<ul>
+<li>vægtstigning </li>
+<li>svimmelhed </li>
+<li>luft i maven </li>
+<li>luftvejsinfektion </li>
+<li>følelsesløshed </li>
+</ul>
+<p>Ikke almindelige: (kan påvirke op til 1 ud af 100 behandlede) </p>
+<ul>
+<li>hovedpine </li>
+<li>bihulebetændelse (sinuitis) </li>
+<li>svimmelhed </li>
+<li>abnormt syn (synsforstyrrelser) </li>
+<li>svedudbrud </li>
+<li>træthed </li>
+<li>problemer med at falde i søvn (søvnløshed) </li>
+<li>nedsat blodsukker </li>
+<li>sukker i urinen </li>
+<li>proteiner i urinen </li>
+<li>øget appetit </li>
+<li>forhøjelse af et enzym kaldet laktisk dehydrogenase (LDH) </li>
+</ul>
+<p>Sjældne: (Kan forekomme hos op til 1 ud af 1.000 behandlede) 
+- væsentlige forandringer i blodet </p>
+<p>Meget sjældne (Kan forekomme hos op til 1 ud af 10.000 behandlede) 
+- leversygdom 
+- allergiske reaktioner herunder allergisk shock 
+- kvalme (nausea), opkastning og diarre 
+- mavesmerter 
+- trykken i maven 
+- oppustethed i maven 
+- øget følsomhed for lys 
+- nedsat indhold af salt (natrium) i blodet </p>
+<p>Ikke kendt (hyppighed kan ikke beregnes ud fra de foreliggende data) 
+- forhøjelse af leverenzymer 
+- hudkløe 
+- hævet og kløende udslæt (nældefeber) </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekespersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via. det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store tandemact"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tandemact"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterkortet efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekespersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tandemact indeholder:</p>
+<ul>
+<li>Aktive stoffer: pioglitazon og glimepirid.  </li>
+</ul>
+<p>Hver Tandemact 30 mg/2 mg tablet indeholder 30 mg pioglitazon (som hydrochlorid) og 2 mg 
+glimepirid. </p>
+<p>Hver Tandemact 30 mg/4 mg tablet indeholder 30 mg pioglitazon (som hydrochlorid) og 4 mg 
+glimepirid. 
+- Øvrige indholdsstoffer: mikrokrystallinsk cellulose, croscarmellosenatrium, 
+hydroxypropylcellulose, lactosemonohydrat (se punkt 2 "Tandemact indeholder 
+lactosemonohydrat"), magnesiumstearat og polysorbat 80. Udseende og pakningsstørrelser 
+- Tandemact 30 mg/2 mg tabletterne er hvide til off-white, runde og konvekse og præget 
+‘4833 G’ på den ene side og ‘30/2’ på den anden side.<br />
+- Tandemact 30 mg/4 mg tabletterne er hvide til off-white, runde og konvekse og præget 
+‘4833 G’ på den ene side og ‘30/4’ på den anden side.<br />
+Tabletterne leveres i aluminium/aluminium-blisterpakninger med enten 28 tabletter. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+CHEPLAPHARM Arzneimittel GmbH 
+Ziegelhof 17489 Greifswald 
+Tyskland  </p>
+<p>Fremstiller<br />
+Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Irland 
+Delpharm Novara S.r.l., Via Crosa, 86, 28065 Cerano (NO), Italien<br />
+Takeda GmbH, Production Site Oranienburg,Lehnitzstrasse 70 – 98, 16515 Oranienburg, Tyskland </p>
+<p>Denne indlægsseddel blev senest ændret 08/2023. Andre informationskilder </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-bef5164082ea0e74f1594414cc1788ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tandemact Package Leaflet for language en"
+Description: "ePI document Bundle for tandemact Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bef5164082ea0e74f1594414cc1788ab"
+* entry[0].resource = composition-en-bef5164082ea0e74f1594414cc1788ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbef5164082ea0e74f1594414cc1788ab"
+* entry[=].resource = mpbef5164082ea0e74f1594414cc1788ab
+                            
+                    
+Instance: bundlepackageleaflet-da-bef5164082ea0e74f1594414cc1788ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tandemact Package Leaflet for language da"
+Description: "ePI document Bundle for tandemact Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-bef5164082ea0e74f1594414cc1788ab"
+* entry[0].resource = composition-da-bef5164082ea0e74f1594414cc1788ab
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbef5164082ea0e74f1594414cc1788ab"
+* entry[=].resource = mpbef5164082ea0e74f1594414cc1788ab
+                            
+                    
+
+
+
+Instance: mpbef5164082ea0e74f1594414cc1788ab
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Tandemact 30 mg/2 mg tablets"
-Description: "Tandemact 30 mg/2 mg tablets"
+Title: "Medicinal Product tandemact"
+Description: "tandemact"
 Usage: #inline
 
  
@@ -395,7 +827,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Tandemact 30 mg/2 mg tablets"
+  * productName = "tandemact"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -422,29 +854,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-bef5164082ea0e74f1594414cc1788ab
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for tandemact Package Leaflet for language en"
-Description: "ePI document Bundle for tandemact Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: bef5164082ea0e74f1594414cc1788abListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/06/366/006"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "tandemact"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-bef5164082ea0e74f1594414cc1788ab"
-* entry[0].resource = composition-en-bef5164082ea0e74f1594414cc1788ab
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1f9da6d952147df3e2a17629da9b0dc6"
-* entry[=].resource = mp1f9da6d952147df3e2a17629da9b0dc6
-                            
-                      
+* title = "List of all ePIs associated with tandemact"
+
+* subject = Reference(mp1f9da6d952147df3e2a17629da9b0dc6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#tandemact "tandemact"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-bef5164082ea0e74f1594414cc1788ab) // tandemact en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-bef5164082ea0e74f1594414cc1788ab) // tandemact da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-bef5164082ea0e74f1594414cc1788ab
+InstanceOf: List
+
+* insert bef5164082ea0e74f1594414cc1788abListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-b0ec338c010ecf0f95bd7dc099830384
 InstanceOf: CompositionUvEpi
 Title: "Composition for invokana Package Leaflet"
@@ -468,12 +471,648 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-b0ec338c010ecf0f95bd7dc099830384
+InstanceOf: CompositionUvEpi
+Title: "Composition for invokana Package Leaflet"
+Description:  "Composition for invokana Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpca62d9634f145f319859e1d111d6bbf3)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpca62d9634f145f319859e1d111d6bbf3
+* title = "TEST PURPOSES ONLY - invokana"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Invokana
+3. Sådan skal du tage Invokana
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What invokana is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What invokana is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Invokana indeholder det aktive stof canagliflozin, som hører til en gruppe lægemidler, der kaldes 
+“blodglucosesænkende midler".
+Invokana anvendes til at:
+
+behandle voksne med type 2-diabetes.
+Dette lægemiddel virker ved at øge den mængde sukker, der fjernes fra kroppen med urinen. Derved 
+nedsættes mængden af sukker i blodet, hvilket kan medvirke til at forebygge hjertesygdomme hos 
+patienter med type 2-diabetes mellitus (T2DM). Udover at sænke blodglucose medvirker det også til at 
+bremse forværring af nyrefunktionen hos patienter med T2DM.
+Invokana kan bruges alene eller sammen med andre lægemidler, som du kan anvende til behandling af 
+type 2-diabetes (f.eks. metformin, insulin, en DPP-IV-hæmmer [f.eks. sitagliptin, saxagliptin eller 
+linagliptin], et sulfonylurinstof [f.eks. glimepirid eller glipizid] eller pioglitazon) for at sænke 
+blodsukkeret. Måske får du allerede et eller flere af disse midler mod type 2-diabetes.
+Det er også vigtigt, at du altid følger de råd om kost og motion, som du får af din læge eller 
+sygeplejersken.
+Hvad er type 2-diabetes?
+Type 2-diabetes er en tilstand, hvor kroppen ikke producerer nok insulin, og den insulin, som kroppen 
+faktisk producerer, ikke virker tilstrækkeligt. Det er også muligt, at kroppen producerer for meget 
+sukker. Når det er tilfældet, sker der en ophobning af sukker (glucose) i blodet. Det kan føre til en 
+række alvorlige lidelser såsom hjertesygdom, nyresygdom, blindhed og amputation.
+42</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take invokana"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take invokana"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Invokana
+
+hvis du er allergisk over for canagliflozin eller et af de øvrige indholdsstoffer i Invokana 
+(angivet i punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Invokana og under behandlingen:
+
+for at få at vide, hvad du kan gøre for at forebygge dehydrering (se punkt 4 for tegn på 
+dehydrering).
+
+hvis du har type 1-diabetes, da Invokana ikke må anvendes til behandling af denne sygdom.
+
+hvis du taber dig meget hurtigt, får kvalme eller kaster op, får mavesmerter, er voldsomt tørstig, 
+trækker vejret hurtigt og dybt, er forvirret, er usædvanligt søvnig eller træt, din ånde lugter 
+sødligt, du har en sødlig eller metallisk smag i munden, eller din urin eller sved lugter 
+anderledes. I disse tilfælde skal du omgående søge læge eller tage til det nærmeste hospital. 
+Symptomerne kan være tegn på “diabetisk ketoacidose", som er en sjælden men alvorlig og 
+somme tider livstruende komplikation, du kan få ved sukkersyge på grund af forhøjet niveau af 
+“ketonstoffer" i urinen eller blodet. Dette kan påvises i laboratorieanalyser. Risikoen for at 
+udvikle diabetisk ketoacidose kan øges, hvis du faster i længere tid, har et stort alkoholforbrug, 
+er dehydreret, pludseligt nedsætter insulindosis eller får et større insulinbehov på grund af en 
+større operation eller alvorlig sygdom.
+
+hvis du har diabetisk ketoacidose (en følgesygdom til diabetes med højt blodsukker, hurtigt 
+vægttab, kvalme eller opkastning). Invokana må ikke anvendes til behandling af denne sygdom.
+
+hvis du har alvorlige nyreproblemer eller er i dialyse.
+
+hvis du har alvorlige leverproblemer.
+
+hvis du nogensinde har lidt af alvorlig hjertesygdom eller har haft et slagtilfælde.
+
+hvis du får medicin til at sænke blodtrykket (antihypertensiva) eller nogensinde har lidt af lavt 
+blodtryk (hypotension). Du kan finde yderligere oplysninger nedenfor under “Brug af anden 
+medicin sammen med Invokana".
+
+hvis du har fået foretaget amputation af en underekstremitet.
+
+det er vigtigt, at du regelmæssigt kontrollerer dine fødder og overholder de retningslinjer for 
+fodpleje og passende væskeindtagelse, som du får af lægen eller sygeplejersken. Du skal straks 
+fortælle det til din læge, hvis du opdager sår eller misfarvninger, eller hvis du oplever ømhed 
+eller smerter i fødderne. Visse studier peger på, at det at tage canagliflozin kan bidrage til 
+risikoen for amputation af en underekstremitet (primært amputation af tå og mellemfod).
+
+kontakt øjeblikkeligt lægen, hvis du oplever en kombination af smerter, ømhed, rødme eller 
+hævelse af kønsdelene eller i området mellem kønsdelene og anus med feber eller generel 
+utilpashed. Disse symptomer kan være tegn på en sjælden, men alvorlig og muligvis livstruende 
+infektion (såkaldt nekrotiserende fasciitis i mellemkødet eller Fourniers gangræn), der 
+ødelægger vævet under huden. Fourniers gangræn skal behandles øjeblikkeligt.
+
+hvis du har tegn på en infektion med gærsvamp omkring kønsdelene. Sådanne tegn kan omfatte 
+irritation, kløe, unormalt udflåd eller en unormal lugt.
+
+hvis du har en alvorlig nyre- eller urinvejsinfektion med feber. Lægen kan bede dig om at 
+stoppe med at tage Invokana, indtil du er rask.
+Tal med lægen, apotekspersonalet eller sygeplejersken, hvis et af disse punkter passer på dig (eller 
+hvis du har mistanke om det), før du tager dette lægemiddel.
+Nyrefunktionen
+Du vil få undersøgt dine nyrer ved hjælp af en simpel blodprøve, før du begynder at tage dette 
+lægemiddel og under behandlingen.
+Uringlucose
+På grund af medicinens virkemåde vil en urinprøve vise, at du har sukker (glucose) i urinen, mens du 
+får dette lægemiddel.
+43
+Børn og unge
+Børn og unge under 18 år må normalt ikke få Invokana.
+Brug af anden medicin sammen med Invokana
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. 
+Dette lægemiddel kan påvirke behandlingen med anden medicin, og/eller anden medicin kan påvirke 
+behandlingen med dette lægemiddel.
+Det er særlig vigtigt, at du fortæller det til lægen, hvis du tager et af følgende midler:
+
+andre lægemidler mod diabetes (antidiabetika) - enten insulin eller et sulfonylurinstof (f.eks. 
+glimepirid eller glipizid) - i så fald vil lægen måske nedsætte din dosis for at undgå, at dit 
+blodsukkerniveau bliver alt for lavt (hypoglykæmi)
+
+lægemidler til at sænke blodtrykket (antihypertensiva), herunder vanddrivende midler 
+(diuretika), da dette lægemiddel også kan sænke blodtrykket ved at fjerne for meget væske i 
+kroppen. Se listen over symptomer på for stort væsketab fra kroppen i punkt 4. 
+perikon (naturlægemiddel mod depression)
+
+carbamazepin, phenytoin eller phenobarbital (midler til kontrol af krampeanfald)
+
+lithium (lægemiddel til behandling af bipolar lidelse)
+
+efavirenz eller ritonavir (middel til at behandle hiv-infektion)
+
+rifampicin (antibiotikum til at behandle tuberkulose)
+
+colestyramin (middel til at nedsætte blodets indhold af kolesterol). Se punkt 3 under "Sådan skal 
+du tage medicinen".
+
+digoxin eller digitoxin (middel mod visse hjerteproblemer). Du skal måske have målt blodets 
+indhold af digoxin eller digitoxin, hvis du tager disse midler sammen med Invokana.
+
+dabigatran (blodfortyndende middel, der nedsætter risikoen for at danne blodpropper).
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager eller fortsætter med at tage dette 
+lægemiddel. Invokana bør ikke anvendes under graviditeten. Tal med din læge, så snart du ved, at du 
+er gravid, om hvordan du bedst kan stoppe med Invokana og kontrollere dit blodsukker.
+Du bør ikke tage dette lægemiddel, hvis du ammer. Tal med din læge om at holde op med at tage 
+medicinen eller stoppe amningen.
+Trafik- og arbejdssikkerhed
+Invokana påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller motorcykel, cykle eller 
+betjene værktøj eller maskiner. Der er dog forekommet svimmelhed og uklarhed, som kan påvirke din 
+evne til at køre, cykle eller betjene værktøj eller maskiner.
+Hvis du tager Invokana sammen med visse andre midler mod diabetes, såkaldte sulfonylurinstoffer 
+(f.eks. glimepirid eller glipizid) eller sammen med insulin, kan du have en øget risiko for at få lavt 
+blodsukker (hypoglykæmi). Tegn på dette omfatter uskarpt syn, snurren i læberne, skælven, 
+svedudbrud, bleghed, humørforandring eller en følelse af ængstelse eller forvirring. Det kan påvirke 
+din evne til at køre bil, cykle og bruge værktøj og maskiner. Kontakt lægen snarest muligt, hvis du 
+bemærker tegn på lavt blodsukker.
+Invokana indeholder lactose
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter.
+Invokana indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.
+44</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take invokana"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take invokana"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller på apoteket.
+Så meget skal du tage
+
+Startdosis af Invokana er 1 tablet a 100 mg om dagen. Din læge afgør, om du skal øge dosis til 
+300 mg.
+
+Hvis du har nyreproblemer, kan lægen begrænse dosis til 100 mg.
+
+Din læge vil ordinere den styrke, der passer bedst til dig.
+Sådan skal du tage medicinen
+
+Synk tabletten hel med vand.
+
+Du kan tage tabletten alene eller sammen med mad. Det er bedst at tage tabletten før dagens 
+første måltid.
+
+Forsøg at tage tabletten til samme tid hver dag. Så kan du lettere huske at tage den.
+
+Hvis din læge har foreskrevet canagliflozin sammen med en galdesyrebindende ionbytter,
+såsom colestyramin (middel til sænkning af kolesteroltallet), skal du tage canagliflozin mindst 
+1 time før eller 4-6 timer efter ionbytteren.
+Din læge kan ordinere Invokana sammen med et andet glucosesænkende lægemiddel. Husk at tage alle 
+lægemidler efter lægens anvisninger, så du opnår den bedste behandling af din sygdom.
+Kost og motion
+For at kontrollere din diabetes skal du samtidig følge de råd, du får om kost og motion fra din læge, 
+apotekspersonalet eller sygeplejersken. Hvis du er på diabetesdiæt med vægtkontrol, skal du fortsat 
+følge diæten, mens du tager dette lægemiddel.
+Hvis du har taget for mange Invokana
+Hvis du har taget mere af dette lægemiddel, end du burde, kontakt da din læge eller tag øjeblikkeligt til 
+det nærmeste hospital.
+Hvis du har glemt at tage Invokana
+
+Hvis du glemmer at tage en dosis, skal du tage den, så snart du kommer i tanke om det. Hvis det 
+næsten er tid til næste dosis, skal du springe den glemte dosis over.
+
+Du må ikke tage en dobbeltdosis (to doser på samme dag) som erstatning for den glemte dosis.
+Hvis du holder op med at tage Invokana
+Dit blodsukker kan stige, hvis du holder op med at tage dette lægemiddel. Kontakt lægen, hvis du 
+ønsker at holde pause eller stoppe behandlingen med Invokana.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Stop med at tage Invokana og kontakt din læge, eller tag øjeblikkeligt til det nærmeste hospital, 
+hvis du får en af følgende alvorlige bivirkninger:
+Alvorlig allergisk reaktion (sjælden, kan berøre op til 1 ud af 1.000 personer)
+Mulige tegn på en alvorlig allergisk reaktion kan omfatte:
+
+hævelser af ansigt, læber, mund, tunge eller svælg, som kan gøre det vanskeligt at trække vejret 
+eller synke.
+45
+Diabetisk ketoacidose (sjælden, kan berøre op til 1 ud af 1.000 personer)
+Symptomerne på diabetisk ketoacidose (se også punkt 2) er:
+
+forhøjet niveau af “ketonstoffer" i urinen eller blodet
+
+hurtigt vægttab
+
+kvalme eller opkastning
+
+mavesmerter
+
+voldsom tørst
+
+hurtig og dyb vejrtrækning
+
+forvirring
+
+usædvanlig søvnighed eller træthed
+
+din ånde lugter sødligt, du har en sødlig eller metallisk smag i munden, eller din urin eller sved 
+lugter anderledes.
+Dette kan forekomme uanset blodglucoseniveau. Diabetisk ketoacidose kan forekomme oftere, når 
+nyrefunktionen bliver værre. Lægen kan beslutte at stoppe behandlingen med Invokana midlertidigt 
+eller permanent.
+Dehydrering (ikke almindelig, kan berøre op til 1 ud af 100 personer)
+
+et voldsomt væsketab fra kroppen (dehydrering). Det forekommer oftere hos ældre 
+(over 75 år), personer med nyreproblemer og personer, der får vanddrivende medicin 
+(diuretika).
+Mulige tegn på dehydrering:
+-
+du føler dig ør eller svimmel
+-
+du besvimer, er svimmel eller bliver svimmel, når du rejser dig
+-
+meget tør eller klæbrig mund, voldsom tørst
+-
+meget afkræftet eller træt
+-
+kun lidt eller ingen urin ved vandladning
+-
+hurtig puls.
+Tal med lægen snarest muligt, hvis du får en eller flere af følgende symptomer:
+Hypoglykæmi (meget almindelig, kan berøre flere end 1 ud af 10 personer)
+
+lavt blodsukker (hypoglykæmi) - når dette lægemiddel tages sammen med insulin eller et 
+sulfonylurinstof (såsom glimepirid eller glipizid).
+Mulige tegn på lavt blodsukker:
+-
+uskarpt syn
+-
+snurren i læberne
+-
+skælven, svedudbrud, blegt udseende
+-
+humørforandring, ængstelse eller forvirring.
+Din læge vil fortælle dig, hvordan du skal behandle lavt blodsukker, og hvad du skal gøre, hvis du 
+bemærker et af de nævnte tegn.
+Urinvejsinfektioner (almindelige, kan berøre op til 1 ud af 10 personer)
+
+Disse er tegn på en alvorlig infektion i urinvejene, f.eks.:
+-
+feber og/eller kulderystelser
+-
+brændende fornemmelse ved vandladning
+-
+smerter i ryggen eller siden.
+Det forekommer ikke hyppigt, men du skal straks fortælle det til din læge, hvis du ser blod i urinen.
+Andre bivirkninger:
+Meget almindelige (kan berøre flere end 1 ud af 10 personer)
+
+svampeinfektion i skeden.
+Almindelige (kan berøre op til 1 ud af 10 personer)
+
+udslæt eller rødme på penis eller forhuden (svampeinfektion)
+46
+
+ændringer i vandladning (herunder hyppigere vandladning eller større urinmængde, akut trang 
+til at lade vandet, natlig trang til at lade vandet)
+
+forstoppelse
+
+tørst
+
+kvalme
+
+blodprøver kan vise ændringer i blodets fedtindhold (kolesteroltal) og et øget antal røde 
+blodlegemer i blodet (hæmatokrit).
+Ikke almindelige (kan berøre op til 1 ud af 100 personer)
+
+udslæt eller rødmen i huden, som kan være ledsaget af kløe og omfatte hævede områder i 
+huden, udsivende væske eller blærer
+
+nældefeber
+
+blodprøver kan vise forandringer i nyrefunktionen (forhøjet kreatinin eller urinstof) eller 
+forhøjet kalium
+
+blodprøver kan vise stigninger i blodets indhold af fosfat
+
+knoglebrud
+
+nyresvigt (hovedsageligt som en konsekvens af et forhøjet væsketab fra kroppen)
+
+amputation af en underekstremitet (primært en tå), især hvis du har høj risiko for hjertesygdom
+
+forhudsforsnævring - problemer med at trække forhuden omkring penishovedet tilbage
+
+hudreaktioner efter eksponering for sollys.
+Ikke kendt (hyppigheden kan ikke fastslås ud fra forhåndenværende data)
+
+nekrotiserende fasciitis i mellemkødet (Fourniers gangræn), en alvorlig bløddelsinfektion i 
+kønsdelene eller området mellem kønsdelene og anus.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store invokana"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store invokana"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og æsken efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Brug ikke Invokana, hvis pakningen er beskadiget eller viser tegn på, at den har været åbnet.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Invokana indeholder:
+
+Aktivt stof: canagliflozin.
+-
+En tablet indeholder canagliflozinhemihydrat svarende til 100 mg eller 300 mg 
+canagliflozin.
+47
+
+Øvrige indholdsstoffer:
+-
+tabletkerne: lactose (se punkt 2 "Invokana indeholder lactose"), mikrokrystallinsk 
+cellulose, hydroxypropylcellulose, croscarmellosenatrium og magnesiumstearat.
+-
+filmovertræk: polyvinylalkohol, titandioxid (E171), macrogol 3350 og talcum. Tabletten 
+på 100 mg indeholder også gul jernoxid (E172).
+Udseende og pakningsstørrelser
+
+Invokana 100 mg filmovertrukne tabletter er gule, kapselformede tabletter, 11 mm lange, med 
+“CFZ" på den ene side og “100" på den anden side.
+
+Invokana 300 mg filmovertrukne tabletter er hvide, kapselformede tabletter, 17 mm lange, med 
+“CFZ" på den ene side og “300" på den anden side.
+Invokana udleveres i perforeret enkeltdosisblister af PVC/aluminium. Pakningsstørrelserne er æsker 
+med 10x1, 30x1, 90x1 eller 100x1 tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen-Cilag SpA
+Via C. Janssen
+Borgo San Michele
+04100 Latina
+Italien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Menarini Benelux NV/SA
+Tél/Tel: +32 (0)2 721 4545
+medical@menarini.be
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+“Берлин-Хеми/А. Менарини България" 
+EООД
+тел.: +359 2 454 0950
+bcsofia@berlin-chemie.com
+Luxembourg/Luxemburg
+Menarini Benelux NV/SA
+Tél/Tel: +32 (0)2 721 4545
+medical@menarini.be
+Česká republika
+Berlin-Chemie/A.Menarini Ceska republika 
+s.r.o.
+Tel: +420 267 199 333
+office@berlin-chemie.cz
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Berlin-Chemie AG
+Tlf: +45 78 71 31 21
+Malta
+AM MANGION LTD.
+Tel: +356 2397 6333
+48
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955-955
+jancil@its.jnj.com
+Nederland
+Menarini Benelux NV/SA
+Tel: +32 (0)2 721 4545
+medical@menarini.be
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Berlin-Chemie AG
+Tlf: +45 78 71 31 21
+Ελλάδα
+MENARINI HELLAS AE
+Tηλ: +30 210 8316111-13
+info@menarini.gr
+Österreich
+A. Menarini Pharma GmbH
+Tel: +43 1 879 95 85-0
+office@menarini.at
+España
+Laboratorios Menarini, S.A.
+Tel: +34 93 462 88 00
+info@menarini.es
+Polska
+Berlin-Chemie/Menarini Polska Sp. z o.o.
+Tel.: +48 22 566 21 00
+biuro@berlin-chemie.com
+France
+MENARINI France
+Tél: +33 (0)1 45 60 77 20
+im@menarini.fr
+Portugal
+A. Menarini Portugal - Farmacêutica, S.A.
+Tel: +351 210 935 500
+menporfarma@menarini.pt
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+A. Menarini Pharmaceuticals Ireland Ltd
+Tel: +353 1 284 6744
+medinfo@menarini.ie
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o
+Tel: +421 2 544 30 730
+slovakia@berlin-chemie.com
+Italia
+Laboratori Guidotti S.p.A.
+Tel: +39 050 971011
+contatti@labguidotti.it
+Suomi/Finland
+Berlin-Chemie/A. Menarini Suomi Oy
+Puh/Tel: +358 403 000 760
+fi@berlin-chemie.com
+Κύπρος
+MENARINI HELLAS AE
+Τηλ: +30 210 8316111-13
+info@menarini.gr
+Sverige
+Berlin-Chemie AG
+Tfn: +45 78 71 31 21
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+A. Menarini Farmaceutica Internazionale S.R.L.
+Tel: +44 (0)1628 856400
+menarini@medinformation.co.uk
+49
+Denne indlægsseddel blev godkendt {måned ÅÅÅÅ}.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-b0ec338c010ecf0f95bd7dc099830384
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for invokana Package Leaflet for language en"
+Description: "ePI document Bundle for invokana Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b0ec338c010ecf0f95bd7dc099830384"
+* entry[0].resource = composition-en-b0ec338c010ecf0f95bd7dc099830384
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb0ec338c010ecf0f95bd7dc099830384"
+* entry[=].resource = mpb0ec338c010ecf0f95bd7dc099830384
+                            
+                    
+Instance: bundlepackageleaflet-da-b0ec338c010ecf0f95bd7dc099830384
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for invokana Package Leaflet for language da"
+Description: "ePI document Bundle for invokana Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-b0ec338c010ecf0f95bd7dc099830384"
+* entry[0].resource = composition-da-b0ec338c010ecf0f95bd7dc099830384
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb0ec338c010ecf0f95bd7dc099830384"
+* entry[=].resource = mpb0ec338c010ecf0f95bd7dc099830384
+                            
+                    
+
+
+
+Instance: mpb0ec338c010ecf0f95bd7dc099830384
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Invokana 100 mg film-coated tablets"
-Description: "Invokana 100 mg film-coated tablets"
+Title: "Medicinal Product invokana"
+Description: "invokana"
 Usage: #inline
 
  
@@ -493,7 +1132,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Invokana 100 mg film-coated tablets"
+  * productName = "invokana"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -520,29 +1159,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-b0ec338c010ecf0f95bd7dc099830384
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for invokana Package Leaflet for language en"
-Description: "ePI document Bundle for invokana Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: b0ec338c010ecf0f95bd7dc099830384ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Invokana 100 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "invokana"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-b0ec338c010ecf0f95bd7dc099830384"
-* entry[0].resource = composition-en-b0ec338c010ecf0f95bd7dc099830384
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpca62d9634f145f319859e1d111d6bbf3"
-* entry[=].resource = mpca62d9634f145f319859e1d111d6bbf3
-                            
-                      
+* title = "List of all ePIs associated with invokana"
+
+* subject = Reference(mpca62d9634f145f319859e1d111d6bbf3)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#invokana "invokana"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-b0ec338c010ecf0f95bd7dc099830384) // invokana en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-b0ec338c010ecf0f95bd7dc099830384) // invokana da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-b0ec338c010ecf0f95bd7dc099830384
+InstanceOf: List
+
+* insert b0ec338c010ecf0f95bd7dc099830384ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-74e50e4505c090a88581d2832252680c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vfend Package Leaflet"
@@ -539,12 +542,747 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-74e50e4505c090a88581d2832252680c
+InstanceOf: CompositionUvEpi
+Title: "Composition for vfend Package Leaflet"
+Description:  "Composition for vfend Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0f05547bddcfd192c846044104a0e6ff)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0f05547bddcfd192c846044104a0e6ff
+* title = "TEST PURPOSES ONLY - vfend"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage VFEND
+3. Sådan skal du tage VFEND
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vfend is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vfend is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VFEND indeholder det aktive stof voriconazol og er et middel mod svampeinfektioner. Det virker ved 
+at dræbe eller stoppe væksten af de svampe, som forårsager infektioner. 
+Det bruges til behandling af patienter (voksne og børn over 2 år) med:
+
+invasiv aspergillose (en infektion forårsaget af Aspergillus-arter)
+
+infektion i blodet forårsaget af Candida-arter (candidæmi) hos patienter, der ikke har et lavt antal 
+hvide blodlegemer
+
+alvorlige invasive infektioner med Candida-arter, når svampen er resistent over for fluconazol (et 
+andet middel mod svampeinfektion)
+
+alvorlige svampeinfektioner forårsaget af Scedosporium- eller Fusarium-arter (to andre typer af 
+svamp).
+VFEND er beregnet til patienter med forværrede og potentielt livstruende svampeinfektioner.
+Forebyggelse af svampeinfektioner hos højrisikopatienter, der har fået en knoglemarvstransplantation.
+Dette lægemiddel bør kun anvendes under opsyn af en læge.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vfend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vfend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke VFEND
+Hvis du er allergisk over for voriconazol eller et af de øvrige indholdsstoffer i dette lægemiddel
+(angivet i punkt 6).
+Det er meget vigtigt, at du fortæller det til lægen eller apotekspersonalet, hvis du tager andre 
+lægemidler eller har taget andre lægemidler. Dette gælder også lægemidler, som ikke er købt på 
+122
+recept, eller naturlægemidler.
+Følgende lægemidler må ikke indtages under behandlingen med VFEND:
+
+Terfenadin (lægemiddel mod allergi)
+
+Astemizol (lægemiddel mod allergi)
+
+Cisaprid (lægemiddel mod maveproblemer)
+
+Pimozid (lægemiddel mod psykiske sygdomme)
+
+Quinidin (lægemiddel mod uregelmæssig puls)
+
+Ivabradin (lægemiddel mod symptomer på kronisk hjertesvigt)
+
+Rifampicin (lægemiddel mod tuberkulose)
+
+Efavirenz (til behandling af hiv) i doser på 400 mg og derover 1 gang dagligt
+
+Carbamazepin (lægemiddel mod epilepsi og kramper)
+
+Phenobarbital (lægemiddel mod alvorlig søvnløshed og krampeanfald)
+
+Sekalealkaloider (f.eks. ergotamin, dihydroergotamin, som bruges mod migræne)
+
+Sirolimus (anvendes hos transplanterede patienter)
+
+Ritonavir (lægemiddel mod hiv) i doser på 400 mg og derover 2 gange dagligt
+
+Perikon (naturlægemddel)
+
+Naloxegol (bruges til behandling af forstoppelse, der specifikt skyldes de smertestillende 
+lægemidler, der kaldes opioider (f.eks. morfin, oxycodon, fentanyl, tramadol, kodein))
+
+Tolvaptan (bruges til behandling af lave niveauer af natrium (salt) i blodet (hyponatriæmi) eller 
+til at bremse tabet af nyrefunktion hos patienter med polycystisk nyresygdom)
+
+Lurasidon (anvendes til behandling af depression)
+
+Venetoclax (anvendes til behandling af patienter med kronisk lymfatisk leukæmi (CLL)).
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager VFEND, hvis:
+
+du har haft en allergisk reaktion over for andre azoler.
+
+du lider af eller har lidt af en leversygdom. Hvis du har en leversygdom, kan din læge ordinere 
+en lavere dosis af VFEND. Din læge vil også kontrollere din leverfunktion under behandling 
+med VFEND ved at tage blodprøver.
+
+du ved, at du har problemer i hjertemuskulaturen (kardiomyopati), uregelmæssig puls, langsom 
+puls eller et unormalt elektrokardiogram (ekg), et såkaldt "forlænget QTc-syndrom". 
+Du skal helt undgå sollys og ophold i solen under behandlingen. Det er vigtigt at tildække huden og 
+bruge solcreme med høj solbeskyttelsesfaktor (SPF), da du kan være særlig følsom for solens UV-
+stråler. Dette kan øges yderligere med andre lægemidler, som øger hudens følsomhed for sollys, som 
+f.eks. methotrexat. Disse forsigtighedsregler gælder også for børn.
+Mens du er i behandling med VFEND:
+
+Fortæl straks din læge, hvis du får<em> solskoldning</em> alvorligt hududslæt eller blærer* knoglesmerter. 
+Hvis du får skader på huden som beskrevet ovenfor, vil lægen måske henvise dig til en hudlæge, som 
+efter en undersøgelse muligvis beslutter, at det er vigtigt, at du går til regelmæssig kontrol. Der er en 
+lille risiko for, at langvarig brug af VFEND kan forårsage hudkræft. 
+Fortæl det til lægen, hvis du udvikler tegn på "binyreinsufficiens", hvor binyrerne ikke producerer 
+tilstrækkelige mængder af visse steroidhormoner, som f.eks. kortisol, som kan medføre symptomer 
+som: kronisk eller langvarig træthed, muskelsvaghed, appetitløshed, vægttab, mavesmerter.
+Kontakt lægen, hvis du udvikler tegn på "Cushings syndrom", hvor kroppen danner for meget af 
+hormonet kortisol, hvilket kan medføre symptomer såsom: vægtstigning, fedtpukkel mellem 
+123
+skuldrene, måneansigt, mørkfarvning af huden på maven, lårene, brysterne og armene, tynd hud, øget 
+tendens til blå mærker, højt blodsukker, øget hårvækst, øget svedtendens.
+Din læge vil tage blodprøver til vurdering af din lever- og nyrefunktion.
+Børn og unge
+VFEND må ikke gives til børn under 2 år.
+Brug af andre lægemidler sammen med VFEND
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. Dette gælder også lægemidler, som ikke 
+er købt på recept.
+Visse lægemidler kan påvirke virkningen af VFEND, eller VFEND kan påvirke virkningen af andre 
+lægemidler, når de tages samtidig med VFEND. 
+Fortæl det til lægen, hvis du tager følgende lægemidler, da behandling samtidig med VFEND bør 
+undgås, hvis det er muligt: 
+
+Ritonavir (lægemiddel mod hiv) i doser på 100 mg 2 gange dagligt.
+
+Glasdegib (lægemiddel mod kræft) – hvis du har behov for at bruge begge lægemidler, vil din 
+læge overvåge din hjerterytme hyppigt.
+Fortæl det til lægen, hvis du tager følgende lægemidler, da behandling samtidig med VFEND bør 
+undgås, hvis det er muligt. Det kan være nødvendigt at justere voriconazoldosis:
+
+Rifabutin (lægemiddel mod tuberkulose). Hvis du allerede er i behandling med rifabutin, er det 
+nødvendigt at tage blodprøver samt være opmærksom på bivirkninger forbundet med rifabutin.
+
+Phenytoin (lægemiddel mod epilepsi). Hvis du allerede er i behandling med phenytoin, er det 
+nødvendigt, at måle mængden af phenytoin i dit blod under behandling med VFEND, og det kan 
+være nødvendigt at justere dosis.
+Fortæl det til lægen, hvis du tager et af følgende lægemidler, da det kan være nødvendigt at justere 
+dosis og kontrollere, om lægemidlet og/eller VFEND stadig har den ønskede virkning:
+
+Warfarin og andre blodfortyndende lægemidler (f.eks. phenprocoumon, acenocoumarol; bruges 
+til at nedsætte blodets evne til at størkne) 
+
+Ciclosporin (anvendes hos transplanterede patienter)
+
+Tacrolimus (anvendes hos transplanterede patienter)
+
+Sulfonylurinstoffer (f.eks. tolbutamid, glipizid og glyburid) (lægemidler mod diabetes)
+
+Statiner (f.eks. atorvastatin, simvastatin) (kolesterolsænkende lægemidler)
+
+Benzodiazepiner (f.eks. midazolam, triazolam) (lægemidler mod alvorlig søvnløshed og stress)
+
+Omeprazol (lægemiddel mod mavesår)
+
+Orale svangerskabsforebyggende lægemidler (hvis du tager VFEND sammen med orale
+svangerskabsforebyggende lægemidler, kan du få bivirkninger, såsom kvalme og 
+menstruationsforstyrrelser) 
+
+Vinkaalkaloider (f.eks. vincristin og vinblastin) (lægemidler til behandling af cancer)
+
+Tyrosinkinasehæmmere (f.eks. axitinib, bosutinib, cabozantinib, ceritinib, cobimetinib, 
+dabrafenib, dasatinib, nilotinib, sunitinib, ibrutinib, ribociclib) (bruges til behandling af kræft)
+
+Tretinoin (bruges til behandling af leukæmi)
+
+Indinavir og andre hiv-proteasehæmmere (lægemidler mod hiv)
+
+Non-nukleosid revers transkriptasehæmmere (f.eks. efavirenz, delavirdin, nevirapin) 
+(lægemidler mod hiv) (nogle doser af efavirenz kan IKKE tages på samme tid som VFEND)
+
+Methadon (lægemiddel mod heroinmisbrug)
+
+Alfentanil og fentanyl samt andre korttidsvirkende opiater, såsom sufentanil (smertestillende 
+lægemidler, der bruges ved operationer)
+124
+
+Oxycodon og andre langtidsvirkende opiater, såsom hydrocodon (bruges mod moderate og 
+stærke smerter)
+
+Non-steroide anti-inflammatoriske lægemidler (f.eks. ibuprofen og diclofenac) (bruges til 
+behandling af smerter og betændelsestilstande)
+
+Fluconazol (bruges mod svampeinfektioner)
+
+Everolimus (bruges til behandling af fremskreden nyrekræft og hos patienter, der er blevet 
+transplanteret)
+
+Letermovir (bruges til forebyggelse af sygdom forårsaget af cytomegalovirus (CMV) efter 
+knoglemarvstransplantation)
+
+Ivacaftor: bruges til behandling af cystisk fibrose
+
+Flucloxacillin (antibiotikum mod bakterieinfektioner).
+Graviditet og amning
+Du må ikke tage VFEND under graviditet, medmindre det er ordineret af din læge. Hvis du er i den 
+fødedygtige alder, skal du bruge sikker prævention. Kontakt straks din læge, hvis du bliver gravid, 
+mens du tager VFEND.
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Trafik- og arbejdssikkerhed
+VFEND kan forårsage sløring af synet eller ubehagelig lysfølsomhed. Hvis dette sker, bør du ikke 
+køre bil eller betjene maskiner. Kontakt din læge, hvis du oplever dette. 
+VFEND indeholder lactose
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.
+VFEND indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 50 mg tablet, dvs. det er i det 
+væsentlige natriumfrit.
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 200 mg tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vfend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vfend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller apoteksper-
+sonalet.
+Lægen fastlægger dosis for hver enkelt patient afhængig af vægt og infektionstype.
+Den anbefalede dosis til voksne (også ældre patienter) er:
+Tabletter
+Patienter på 40 kg og derover
+Patienter under 40 kg
+Dosis i de første 24 timer
+(Initialdosis)
+400 mg hver 12. time i de første 
+24 timer
+200 mg hver 12. time i 
+de første 24 timer
+Dosis efter de første 24 timer
+(Vedligeholdelsesdosis)
+200 mg 2 gange dagligt
+100 mg 2 gange dagligt
+Afhængigt af hvordan behandlingen virker, vil lægen måske øge dosis til 300 mg 2 gange dagligt.
+Lægen kan beslutte, at dosis skal nedsættes, hvis du har let til moderat skrumpelever.
+125
+Brug til børn og unge
+Den anbefalede dosis til børn og unge er følgende:
+Tabletter
+Børn fra 2 år til under 12 år 
+samt unge fra 12 til 14 år, der 
+vejer mindre end 50 kg
+Unge fra 12 til 14 år, der vejer 50 kg
+eller mere, samt alle unge over 14 år
+Dosis i de første 24 timer
+(Initialdosis)
+Behandlingen af barnet vil 
+blive startet som en 
+indsprøjtning
+400 mg hver 12. time i de første timer
+Dosis efter de første 24 timer
+(Vedligeholdelsesdosis)
+9 mg/kg 2 gange dagligt 
+(højst 350 mg 2 gange 
+dagligt)
+200 mg 2 gange dagligt
+Afhængigt af hvordan behandlingen virker, vil lægen måske øge eller nedsætte dosis.
+
+Tabletterne må kun gives, hvis barnet er i stand til at sluge tabletterne. 
+Du skal tage tabletten mindst én time før eller én time efter et måltid. Tabletterne synkes hele sammen 
+med vand.
+Hvis du eller dit barn tager VFEND til forebyggelse af svampeinfektioner, kan lægen stoppe 
+behandlingen med VFEND, hvis du eller dit barn får behandlingsrelaterede bivirkninger. 
+Hvis du har taget for meget VFEND
+Kontakt straks lægen eller skadestuen, hvis du har taget flere tabletter, end du har fået ordineret (eller 
+hvis andre tager dine tabletter). Tag æsken med VFEND tabletter med. Hvis du har taget for meget
+VFEND, kan du opleve unormal intolerance over for lys.
+Hvis du har glemt at tage VFEND
+Det er vigtigt, at du tager VFEND tabletter regelmæssigt på samme tidspunkt hver dag. Hvis du 
+glemmer at tage en dosis, så tag næste dosis, når det er tid. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis.
+Hvis du holder op med at tage VFEND
+Det er blevet påvist, at når man tager alle doser regelmæssigt, øges lægemidlets virkning. Derfor er det 
+vigtigt, at du fortsætter med at tage VFEND som beskrevet ovenfor, medmindre din læge beder dig
+stoppe behandlingen.
+Fortsæt med at tage VFEND indtil din læge siger, at du skal stoppe. Stop ikke behandlingen i utide, da 
+din infektion muligvis ikke er kureret. Patienter med et nedsat immunsystem eller med alvorlige 
+infektioner kan have behov for behandling i lang tid for at undgå, at infektionen kommer igen.
+Når din læge stopper VFEND-behandlingen, bør du ikke kunne mærke det. 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+De fleste bivirkninger er milde og forbigående. Dog kan der forekomme alvorligere bivirkninger, hvor 
+lægehjælp er nødvendig.
+126
+Alvorlige bivirkninger – stop med at tage VFEND, og søg straks læge
+
+Udslæt
+
+Gulsot, ofte med hudkløe; ændringer i blodprøver for leverfunktion
+
+Voldsomme mavesmerter og feber pga. betændelse i bugspytkirtlen.
+Andre bivirkninger
+Meget almindelige: kan forekomme hos flere end 1 ud af 10 personer
+
+Nedsat syn (ændring i synet såsom sløret syn, ændringer i farvesyn, unormal intolerance ved 
+synsopfattelse af lys, farveblindhed, øjensygdom, lyscirkler, natteblindhed, gyngende syn, 
+gnister, synsaura, nedsat synsskarphed, synsklarhed, tab af dele af det sædvanlige synsfelt, 
+pletter for øjnene)
+
+Feber
+
+Udslæt
+
+Kvalme, opkastning, diarré
+
+Hovedpine
+
+Hævelse af arme og ben 
+
+Mavesmerter
+
+Vejrtrækningsbesvær 
+
+Forhøjede leverenzymer.
+Almindelige: kan forekomme hos op til 1 ud af 10 personer
+
+Bihulebetændelse, betændelse i gummerne, kulderystelser, svaghed
+
+Lavt antal, herunder alvorligt, af visse typer røde (sommetider immunrelateret) og/eller hvide 
+blodlegemer (sommetider med feber), lavt antal celler, som kaldes blodplader (trombocytter), 
+der hjælper blodet med at størkne
+
+Lavt blodsukker, lavt indhold af kalium i blodet, lavt indhold af natrium i blodet
+
+Angst, depression, forvirring, uro, søvnløshed, hallucinationer 
+
+Krampeanfald, rysten eller ukontrollerede muskelbevægelser, prikken eller unormal 
+hudfornemmelse, øget muskelspænding, søvnighed, svimmelhed
+
+Blødning i øjet
+
+Forstyrrelser i hjerterytmen, herunder meget hurtig puls, meget langsom puls, besvimelse
+
+Lavt blodtryk, betændelsestilstand i en vene (som kan forbindes med dannelse af blodpropper) 
+
+Akut vejrtrækningsbesvær, brystsmerter, hævelser i ansigtet (mund, læber og området omkring 
+øjnene), ophobning af væske i lungerne
+
+Forstoppelse, fordøjelsesbesvær, betændelse i læber
+
+Gulsot, leverbetændelse og leverskade
+
+Hududslæt, der kan medføre udbredt blæredannelse og afskalning af huden, og som er 
+kendetegnet ved et fladt, rødt område på huden, der er dækket af små sammenflydende 
+ujævnheder, hudrødme
+
+Kløe
+
+Hårtab
+
+Rygsmerter 
+
+Nyresvigt, blod i urinen, ændringer i prøver for nyrefunktionen
+
+Solskoldning eller kraftige hudreaktioner pga. lys eller solens stråler
+
+Hudkræft.
+Ikke almindelige: kan forekomme hos op til 1 ud af 100 personer
+
+Influenzalignende symptomer, irritation og betændelse i mave-tarm-kanalen, betændelse i 
+mave-tarm-kanalen, der forårsager diarré i forbindelse med antibiotika, betændelse i lymfekar
+
+Betændelse i den tynde hinde på indersiden af bugvæggen (bughinden)
+
+Forstørrede lymfekirtler (undertiden smertefuldt), knoglemarvssvigt, øget eosinofiltal
+
+Hæmning af binyrefunktionen, nedsat funktion af skjoldbruskkirtlen
+127
+
+Unormal hjernefunktion, Parkinson-lignende symptomer, nerveskade, som giver følelsesløshed, 
+smerter, prikkende eller brændende fornemmelse i hænder eller fødder
+
+Balance- eller koordinationsproblemer 
+
+Hævelse af hjernen
+
+Dobbeltsyn, alvorlige øjentilstande, herunder smerter og betændelsestilstand i øjne og øjenlåg, 
+unormale øjenbevægelser, beskadigelse af synsnerven, der medfører nedsat syn, hævelse af 
+synsnervepapillen
+
+Nedsat følsomhed ved berøring
+
+Smagsforstyrrelser
+
+Problemer med hørelsen, ringen for ørerne, fornemmelse af, at alting drejer rundt
+
+Betændelse i visse indre organer - bugspytkirtlen og tolvfingertarmen, hævelse og 
+betændelsestilstand i tungen 
+
+Forstørret lever, leversvigt, problemer med galdeblæren, galdesten 
+
+Ledbetændelse, betændelse i årerne under huden (som kan forbindes med dannelse af 
+blodpropper)
+
+Betændelsestilstand i nyrerne, proteiner i urinen, nyreskader
+
+Meget hurtig puls eller uregelmæssig hjerterytme, sommetider med uregelmæssige elektriske 
+impulser
+
+Unormalt elektrokardiogram (EKG)
+
+Forhøjet kolesterol i blodet, forhøjet urinstof i blodet
+
+Allergiske hudreaktioner (undertiden alvorlige), herunder livstruende hudsygdom, der giver 
+smertende blærer og sår på hud og slimhinder, især i munden, betændelse i huden, nældefeber, 
+hudrødme og hudirritation, rød eller violet misfarvning af huden, som kan være forårsaget af et 
+lavt antal blodplader, eksem
+
+Reaktioner på infusionsstedet
+
+Overfølsomhedsreaktion eller overdreven immunreaktion
+
+Betændelse i vævet omkring knoglerne.
+Sjældne: kan forekomme hos op til 1 ud af 1.000 personer
+
+Øget funktion af skjoldbruskkirtlen
+
+Nedsat hjernefunktion, der er en alvorlig komplikation i forbindelse med leversygdom
+
+Tab af de fleste fibre i synsnerven, uklar hornhinde, ufrivillige øjenbevægelser
+
+Blæreformet eksem pga. lysfølsomhed
+
+Lidelse, hvor kroppens immunsystem angriber dele af det perifere nervesystem
+
+Problemer med hjerterytmen eller -ledning (sommetider livstruende)
+
+Livstruende allergisk reaktion 
+
+Forstyrrelse i blodets evne til at størkne
+
+Allergiske hudreaktioner (undertiden alvorlige), herunder hurtig hævelse (ødem) i huden, 
+underhuden, slimhinder og vævet under slimhinderne, kløende eller ømme pletter af tyk, rød 
+hud med sølvfarvede hudskæl, irritation i hud og slimhinder, livstruende hudtilstand, der får 
+store dele af overhuden, det yderste hudlag, til at løsnes fra hudlagene nedenunder.
+
+Små, tørre, skællede hudpletter, af og til fortykket med hård eller horn-lignende hud.
+Ikke kendt (hyppigheden kan ikke vurderes ud fra tilgængelige data):
+
+Fregner og pigmentpletter.
+Andre betydelige bivirkninger, hvis hyppighed ikke er kendt, men som lægen straks skal informeres
+om:
+
+Røde, skællede pletter eller ringformede hudlæsioner, der kan være symptomer på den 
+autoimmune sygdom, som kaldes kutan lupus erythematosus. 
+Da VFEND påvirker lever og nyrer, vil din læge tage blodprøver for at kontrollere lever- og 
+nyrefunktionen. Du skal kontakte lægen, hvis du får mavesmerter, eller hvis din afføring får en anden 
+konsistens.
+Der er set tilfælde af hudkræft hos patienter, der blev behandlet med VFEND igennem længere tid.
+128
+Solskoldning eller kraftig hudreaktion pga. lys eller solens stråler blev hyppigere set hos børn. Hvis du 
+eller dit barn udvikler hudlidelser, kan lægen henvise dig til en hudspecialist, som efter konsultation 
+kan beslutte, at det er vigtigt, at du eller dit barn tilses regelmæssigt. Forhøjede leverenzymer er også 
+set oftere hos børn.
+Hvis bivirkningerne fortsætter eller er generende, skal du kontakte lægen. 
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vfend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vfend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Tag ikke lægemidlet efter den udløbsdato, der står på etiketten. Udløbsdatoen er den sidste dag i den 
+nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VFEND indeholder:
+
+Aktivt stof: voriconazol. Hver tablet indeholder enten 50 mg voriconazol (VFEND 50 mg 
+filmovertrukne tabletter) eller 200 mg voriconazol (VFEND 200 mg filmovertrukne tabletter).
+
+Øvrige indholdsstoffer: lactosemonohydrat, prægelatineret stivelse, croscarmellose-natrium, 
+povidon og magnesiumstearat, der udgør tabletkernen og hypromellose, titandioxid (E171), 
+lactosemonohydrat og glyceroltriacetat, der udgør filmovertrækket (se pkt. 2, VFEND 50 mg 
+filmovertrukne tabletter eller VFEND 200 mg filmovertrukne tabletter indeholder lactose og 
+natrium).
+Udseende og pakningsstørrelser
+VFEND 50 mg filmovertrukne tabletter er hvide til råhvide, runde filmovertrukne tabletter, som er 
+præget med "Pfizer" på den ene side og "VOR50" på den anden side.
+VFEND 200 mg filmovertrukne tabletter er hvide til råhvide, kapselformede filmovertrukne tabletter, 
+som er præget med "Pfizer" på den ene side og "VOR200" på den anden side.
+VFEND 50 mg filmovertrukne tabletter og VFEND 200 mg filmovertrukne tabletter findes i 
+pakninger med 2, 10, 14, 20, 28, 30, 50, 56 og 100 tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG, Boulevard de la Plaine 17, 1050 Bruxelles, Belgien.
+129
+Fremstillere
+R-Pharm Germany GmbH
+Heinrich-Mack-Str. 35, 89257 Illertissen
+Tyskland
+Pfizer Italia S.r.l.
+Località Marino del Tronto
+63100 Ascoli Piceno (AP)
+Italien
+Hvis du ønsker yderligere oplysninger om VFEND, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen.
+België /Belgique/Belgien/
+Luxembourg/Luxemburg
+Pfizer NV/SA<br />
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva 
+Pfizer Luxembourg SARL 
+Filialas Lietuvoje 
+Tel. +3705 2514000
+България 
+Пфайзер Люксембург САРЛ, Клон България 
+Тел.: +359 2 970 4Magyarország 
+Pfizer Kft. 
+Tel. + 36 1 488 37 00
+Česká republika 
+Pfizer, spol. s.r.o.
+Tel: +420-283-004-111
+Malta 
+Vivian Corporation Ltd. 
+Tel : +356 21344610
+Danmark 
+Pfizer ApS 
+Tlf: +45 44 20 11 Nederland 
+Pfizer bv 
+Tel: +31 (0)800 63 34 636
+Deutschland 
+PFIZER PHARMA GmbH 
+Tel: +49 (0)30 550055-51000
+Norge 
+Pfizer AS 
+Tlf: +47 67 52 61 00
+Eesti 
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7Österreich 
+Pfizer Corporation Austria Ges.m.b.H. Tel: 
++43 (0)1 521 15-0
+Ελλάδα
+Pfizer ΕΛΛΑΣ A.E.
+Τηλ.: +30 210 6785 800
+Polska 
+Pfizer Polska Sp. z o.o., 
+Tel.: +48 22 335 61 00
+España 
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal 
+Laboratórios Pfizer, Lda. 
+Tel: + 351 214 235 500
+France
+Pfizer
+Tél: +33 (0)1 58 07 34 România 
+Pfizer România S.R.L 
+Tel: +40 (0)21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija 
+Pfizer Luxembourg SARL 
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana 
+Tel: + 386 (0)152 11 130
+Ireland 
+Pfizer Healthcare Ireland 
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421-2-3355 5500
+Ísland 
+Icepharma hf., 
+Sími: + 354 540 8Suomi/Finland
+Pfizer Oy 
+Puh/Tel: +358(0)9 43 00 40
+Italia 
+Pfizer S.r.l. 
+Tel: +39 06 33 18 Sverige<br />
+Pfizer AB 
+Tel: +46 (0)8 5505 2000
+Kύπρος
+Pfizer ΕΛΛΑΣ Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited 
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL 
+Filiāle Latvijā 
+Tel: +371 670 35 775
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.
+131
+Indlægsseddel: Information til brugeren
+VFEND 200 mg pulver til infusionsvæske, opløsning
+voriconazol
+Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. Du kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
+-
+Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
+-
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.
+Oversigt over indlægssedlen</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-74e50e4505c090a88581d2832252680c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vfend Package Leaflet for language en"
+Description: "ePI document Bundle for vfend Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-74e50e4505c090a88581d2832252680c"
+* entry[0].resource = composition-en-74e50e4505c090a88581d2832252680c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp74e50e4505c090a88581d2832252680c"
+* entry[=].resource = mp74e50e4505c090a88581d2832252680c
+                            
+                    
+Instance: bundlepackageleaflet-da-74e50e4505c090a88581d2832252680c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vfend Package Leaflet for language da"
+Description: "ePI document Bundle for vfend Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-74e50e4505c090a88581d2832252680c"
+* entry[0].resource = composition-da-74e50e4505c090a88581d2832252680c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp74e50e4505c090a88581d2832252680c"
+* entry[=].resource = mp74e50e4505c090a88581d2832252680c
+                            
+                    
+
+
+
+Instance: mp74e50e4505c090a88581d2832252680c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product VFEND 50 mg film-coated tablets"
-Description: "VFEND 50 mg film-coated tablets"
+Title: "Medicinal Product vfend"
+Description: "vfend"
 Usage: #inline
 
  
@@ -564,7 +1302,7 @@ Usage: #inline
 
 
 * name
-  * productName = "VFEND 50 mg film-coated tablets"
+  * productName = "vfend"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -591,29 +1329,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-74e50e4505c090a88581d2832252680c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vfend Package Leaflet for language en"
-Description: "ePI document Bundle for vfend Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 74e50e4505c090a88581d2832252680cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "VFEND 50 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vfend"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-74e50e4505c090a88581d2832252680c"
-* entry[0].resource = composition-en-74e50e4505c090a88581d2832252680c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0f05547bddcfd192c846044104a0e6ff"
-* entry[=].resource = mp0f05547bddcfd192c846044104a0e6ff
-                            
-                      
+* title = "List of all ePIs associated with vfend"
+
+* subject = Reference(mp0f05547bddcfd192c846044104a0e6ff)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vfend "vfend"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-74e50e4505c090a88581d2832252680c) // vfend en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-74e50e4505c090a88581d2832252680c) // vfend da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-74e50e4505c090a88581d2832252680c
+InstanceOf: List
+
+* insert 74e50e4505c090a88581d2832252680cListRuleset
+    

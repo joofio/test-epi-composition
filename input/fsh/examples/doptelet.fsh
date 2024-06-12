@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-fe68e84ae2a5a5a43e0a98992e2c4775
 InstanceOf: CompositionUvEpi
 Title: "Composition for doptelet Package Leaflet"
@@ -339,12 +342,622 @@ SE-112 Sweden </p>
 
 
 
+Instance: composition-da-fe68e84ae2a5a5a43e0a98992e2c4775
+InstanceOf: CompositionUvEpi
+Title: "Composition for doptelet Package Leaflet"
+Description:  "Composition for doptelet Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6d0c4e3ac4d47713b8a7974aa3a7eede)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6d0c4e3ac4d47713b8a7974aa3a7eede
+* title = "TEST PURPOSES ONLY - doptelet"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Doptelet  </li>
+<li>Sådan skal du tage Doptelet  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What doptelet is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What doptelet is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Doptelet indeholder et aktivt stof, der kaldes avatrombopag. Det tilhører en gruppe lægemidler, der 
+kaldes trombopoietin-receptor-agonister. </p>
+<p>Doptelet bruges til voksne med kronisk leversygdom til at behandle et lavt antal blodplader (lavt 
+trombocyttal, trombocytopeni), inden de skal have udført et indgreb, hvor der er risiko for blødning. </p>
+<p>Doptelet bruges til at behandle voksne med lavt antal blodplader på grund af kronisk primær immun 
+trombocytopeni (ITP), når en tidligere behandling af ITP (f.eks. kortikosteroider eller 
+immunoglobuliner) ikke har virket godt nok. 
+Doptelet virker ved at hjælpe med at øge antallet af blodplader i blodet. Blodplader er blodlegemer, 
+som hjælper blodet med at størkne og dermed mindsker eller forebygger blødning. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take doptelet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take doptelet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Doptelet 
+- hvis du er allergisk over for avatrombopag eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6). Tal med lægen eller apotekspersonalet, inden du tager Doptelet, 
+hvis du er i tvivl. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Doptelet, hvis:</p>
+<ul>
+<li>du har risiko for blodpropper i dine blodårer, eller hvis nogen i din familie har haft en blodprop </li>
+<li>du har en anden blodsygdom, kendt som myelodysplastisk syndrom (MDS). Hvis du tager 
+Doptelet, kan det forværre MDS. </li>
+</ul>
+<p>Du kan have højere risiko for at få blodpropper med alderen, eller hvis:</p>
+<ul>
+<li>du har været sengeliggende igennem længere tid </li>
+<li>du har kræft </li>
+<li>du tager p-piller eller får hormonbehandling </li>
+<li>du er blevet opereret eller er kommet til skade for nylig </li>
+<li>du er meget overvægtig </li>
+<li>du ryger </li>
+<li>du har fremskreden, kronisk leversygdom. </li>
+</ul>
+<p>Tal med lægen eller apotekspersonalet, inden du tager Doptelet, hvis noget af ovenstående gælder for 
+dig, eller hvis du er i tvivl. </p>
+<p>Blodprøver til måling af antal blodplader 
+Hvis du stopper med at tage Doptelet, vil dit antal blodplader sandsynligvis blive lavere, som før 
+behandlingen eller endda lavere, med risiko for blødning. Dette kan ske i løbet af nogle dage. Antallet 
+af blodplader vil blive overvåget, og lægen vil tale med dig om passende forholdsregler. </p>
+<p>Prøver til kontrol af din knoglemarv 
+Hos personer, som har problemer med knoglemarven, kan lægemidler som Doptelet forværre 
+problemerne. Tegn på ændringer i knoglemarven kan konstateres som unormale resultater i dine 
+blodprøver. Lægen vil muligvis også tage en direkte prøve af din knoglemarv under behandlingen med 
+Doptelet. </p>
+<p>Børn og unge 
+Doptelet må ikke gives til personer under 18 år. Dette lægemiddels sikkerhed og virkning hos personer 
+i denne aldersgruppe kendes ikke. </p>
+<p>Brug af andre lægemidler sammen med Doptelet 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Hvis du tager andre lægemidler mod ITP, skal du muligvis tage en lavere dosis eller stoppe med at 
+tage dem, mens du tager Doptelet. </p>
+<p>Graviditet og amning<br />
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. Doptelet frarådes under 
+graviditeten og til kvinder, som kan blive gravide, og som ikke bruger prævention. </p>
+<p>Hvis du ammer, skal du spørge lægen eller apotekspersonalet til råds, inden du tager Doptelet. Dette 
+lægemiddel kan passere over i modermælken. Din læge vil hjælpe dig med at beslutte, om fordelene 
+ved amning opvejer eventuelle risici for dit barn, mens du ammer. </p>
+<p>Trafik- og arbejdssikkerhed 
+Doptelet forventes ikke at påvirke din evne til at føre motorkøretøj eller cykel eller til at bruge værktøj 
+og maskiner. </p>
+<p>Doptelet indeholder lactose 
+Doptelet indeholder lactose (en type sukker). Kontakt lægen, før du tager dette lægemiddel, hvis lægen 
+har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take doptelet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take doptelet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>Hvis du har kronisk leversygdom og et lavt antal blodplader, skal dit indgreb være planlagt til at blive 
+udført 5 til8 dage efter den sidste dosis Doptelet. </p>
+<p>Hvis du har kronisk ITP, vil lægen fortælle dig, hvor meget Doptelet du skal tage, og hvor ofte du skal 
+tage det. </p>
+<p>Så meget skal du tage </p>
+<p>Hvis du har kronisk leversygdom og dit invasive indgreb er planlagt </p>
+<ul>
+<li>
+<p>Doptelet fås i 20 mg tabletter. Den sædvanlige anbefalede dosis er enten 40 mg (2 tabletter) 
+eller 60 mg (3 tabletter) hver dag i 5 dage i træk. </p>
+</li>
+<li>
+<p>Din dosis afhænger af antallet af blodplader i dit blod (dit trombocyttal). </p>
+</li>
+<li>
+<p>Lægen eller apotekspersonalet vil fortælle dig, hvor mange tabletter du skal tage, og hvornår du 
+skal tage dem. </p>
+</li>
+</ul>
+<p>Hvis du har kronisk ITP </p>
+<ul>
+<li>
+<p>Den sædvanlige anbefalede startdosis er 20 mg (1 tablet) om dagen. Hvis du tager visse andre 
+lægemidler, skal du muligvis have en anden startdosis. </p>
+</li>
+<li>
+<p>Lægen eller apotekspersonalet vil fortælle dig, hvor mange tabletter du skal tage, og hvornår du 
+skal tage dem. </p>
+</li>
+<li>
+<p>Lægen vil regelmæssigt overvåge dit antal blodplader og justere din dosis efter behov. </p>
+</li>
+</ul>
+<p>Indtagelse af lægemidlet </p>
+<ul>
+<li>Tabletterne skal synkes hele og tages sammen med mad på samme tidspunkt hver dag, du tager 
+Doptelet. </li>
+</ul>
+<p>Hvis du har kronisk leversygdom og et lavt antal blodplader </p>
+<ul>
+<li>
+<p>Begynd at tage Doptelet 10 til 13 dage før dit planlagte medicinske indgreb. </p>
+</li>
+<li>
+<p>Din læge eller apotekspersonalet vil fortælle dig, hvor mange tabletter du skal tage, og hvornår 
+du skal tage dem. </p>
+</li>
+</ul>
+<p>Hvis du har kronisk ITP </p>
+<ul>
+<li>Din læge eller apotekspersonalet vil fortælle dig, hvor mange tabletter du skal tage, og hvornår 
+du skal tage dem. </li>
+</ul>
+<p>Hvis du har taget for meget Doptelet </p>
+<ul>
+<li>Tal med en læge eller apotekspersonalet med det samme. </li>
+</ul>
+<p>Hvis du har glemt at tage Doptelet </p>
+<ul>
+<li>
+<p>Tag den glemte dosis, så snart du kommer i tanke om det, og tag derefter den næste dosis på det 
+sædvanlige tidspunkt. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Doptelet 
+Du skal tage Doptelet så længe, som din læge har fortalt dig. Du må ikke holde op med at tage 
+Doptelet, medmindre lægen beder dig om det. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis du får en eller flere af følgende bivirkninger. </p>
+<p>De følgende bivirkninger er rapporteret at være forbundet med behandling med Doptelet hos 
+voksne patienter med kronisk leversygdom: </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>træthed </li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>lavt antal røde blodlegemer (blodmangel/anæmi) </p>
+</li>
+<li>
+<p>blodprop i portvenen (et blodkar, der fører blod til leveren fra tarmene), hvilket kan medføre 
+smerter eller hævelser i den øverste del af maven </p>
+</li>
+<li>
+<p>knoglesmerter </p>
+</li>
+<li>
+<p>muskelømhed </p>
+</li>
+<li>
+<p>feber. </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke beregnes ud fra tilgængelige data) </p>
+<ul>
+<li>allergiske reaktioner, herunder hævet ansigt, hævet tunge og hudændringer, såsom udslæt og 
+kløe </li>
+</ul>
+<p>De følgende bivirkninger er rapporteret at være forbundet med behandling med Doptelet hos 
+voksne patienter med kronisk primær ITP: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+</ul>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>rygsmerter, muskelsmerter, ledsmerter, smerter i arme eller ben </p>
+</li>
+<li>
+<p>ubehag eller smerter i knogler, muskler, ledbånd, sener og nerver </p>
+</li>
+<li>
+<p>kvalme, diarré, opkastning, mavesmerter, luft i maven </p>
+</li>
+<li>
+<p>svimmelhed, ubehag i hovedet, migræne </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>svaghed </p>
+</li>
+<li>
+<p>næseblødninger </p>
+</li>
+<li>
+<p>hududslæt, kløe, akne, røde pletter på huden </p>
+</li>
+<li>
+<p>brændende, prikkende eller følelsesløs fornemmelse, ofte kaldet en “sovende fornemmelse” </p>
+</li>
+<li>
+<p>forstørret milt </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+<li>
+<p>forhøjet blodtryk </p>
+</li>
+<li>
+<p>tendens til blå mærker eller blødning (lavt antal blodplader) </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger, der kan konstateres i blodprøver </p>
+<ul>
+<li>
+<p>forhøjede fedtstoffer (kolesterol, triglycerider) </p>
+</li>
+<li>
+<p>forhøjet eller nedsat blodsukker (glucose) </p>
+</li>
+<li>
+<p>forhøjet leverenzym (alaninaminotransferase) </p>
+</li>
+<li>
+<p>forhøjet lactatdehydrogenase </p>
+</li>
+<li>
+<p>forhøjet gastrin </p>
+</li>
+<li>
+<p>nedsat antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>forhøjet eller nedsat antal blodplader </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>rødme, hævelse og smerter i en vene forårsaget af en blodprop </p>
+</li>
+<li>
+<p>smerter, hævelse og ømhed i et af dine ben (sædvanligvis læggen) med varm hud i det berørte 
+område (tegn på en blodprop i en dyb vene) </p>
+</li>
+<li>
+<p>blodpropper i de vener, som fører blodet væk fra hjernen </p>
+</li>
+<li>
+<p>indsnævring af blodkarrene (vasokonstriktion) </p>
+</li>
+<li>
+<p>pludselig åndenød, især når den ledsages af stærk smerte i brystkassen og/eller hurtig 
+vejrtrækning, som kan være tegn på en blodprop i lungerne </p>
+</li>
+<li>
+<p>blokering eller indsnævring af venen, der fører blod til leveren </p>
+</li>
+<li>
+<p>slagtilfælde eller mildt slagtilfælde </p>
+</li>
+<li>
+<p>hjerteanfald </p>
+</li>
+<li>
+<p>uregelmæssige hjerteslag </p>
+</li>
+<li>
+<p>hæmorider </p>
+</li>
+<li>
+<p>udvidelse af rektale vener </p>
+</li>
+<li>
+<p>inflammation (hævelse) og infektion i næse, bihuler, hals, mandler eller mellemøre (øvre 
+luftvejsinfektion) </p>
+</li>
+<li>
+<p>ardannelse i knoglemarven </p>
+</li>
+<li>
+<p>tab af vand eller legemsvæsker (dehydrering) </p>
+</li>
+<li>
+<p>øget appetit, sult </p>
+</li>
+<li>
+<p>humørudsving </p>
+</li>
+<li>
+<p>unormal tankegang </p>
+</li>
+<li>
+<p>ændringer i smags- og lugtesans, hørelse, syn </p>
+</li>
+<li>
+<p>øjenproblemer, herunder irritation, ubehag, kløe, hævelse, tåreflod, lysfølsomhed, sløret syn, 
+nedsat syn, synstab </p>
+</li>
+<li>
+<p>ørepine </p>
+</li>
+<li>
+<p>øget følsomhed over for hverdagslyde </p>
+</li>
+<li>
+<p>ophostning af blod </p>
+</li>
+<li>
+<p>tilstoppet næse </p>
+</li>
+<li>
+<p>smerter, besvær eller oppustning af mave </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>opstød </p>
+</li>
+<li>
+<p>syrerefluks </p>
+</li>
+<li>
+<p>brændende eller sviende fornemmelse i munden </p>
+</li>
+<li>
+<p>følelsesløshed i munden, hævet tunge, tungeproblemer </p>
+</li>
+<li>
+<p>følelsesløshed </p>
+</li>
+<li>
+<p>hårtab </p>
+</li>
+<li>
+<p>bylder </p>
+</li>
+<li>
+<p>tør hud </p>
+</li>
+<li>
+<p>mørkelilla pletter på huden (udsivning af blod fra blodkar, blå mærker) </p>
+</li>
+<li>
+<p>overdreven svedtendens </p>
+</li>
+<li>
+<p>ændringer i hudfarve </p>
+</li>
+<li>
+<p>kløende udslæt </p>
+</li>
+<li>
+<p>hudirritation </p>
+</li>
+<li>
+<p>unormalt led </p>
+</li>
+<li>
+<p>muskelkramper, muskelsvaghed </p>
+</li>
+<li>
+<p>blod i urinen </p>
+</li>
+<li>
+<p>kraftig menstruation </p>
+</li>
+<li>
+<p>smerter i brystvorterne </p>
+</li>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>smerter </p>
+</li>
+<li>
+<p>hævede ben eller arme </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger der kan konstateres i blodprøver </p>
+<ul>
+<li>
+<p>bakterier i blodet </p>
+</li>
+<li>
+<p>forhøjet antal hvide blodlegemer </p>
+</li>
+<li>
+<p>nedsat jern i blodet </p>
+</li>
+<li>
+<p>forhøjet leverenzym (aspartataminotransferase), unormale leverprøver </p>
+</li>
+</ul>
+<p>Ikke kendt (hyppigheden kan ikke beregnes ud fra tilgængeligedata) </p>
+<ul>
+<li>allergiske reaktioner, herunder hævet ansigt, hævet tunge og hudændringer, såsom udslæt og 
+kløe </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store doptelet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store doptelet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på pakningen og hvert blisterkort efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Doptelet indeholder:</p>
+<ul>
+<li>
+<p>Aktivt stof: avatrombopag. En filmovertrukket tablet indeholder avatrombopagmaleat svarende 
+til 20 mg avatrombopag. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: 
+Tabletkerne: lactosemonohydrat (se afsnit 2, "Doptelet indeholder lactose"); mikrokrystallinsk 
+cellulose [E460(i)]; crospovidon type B [E1202]; silica, kolloid vandfri [E551]; 
+magnesiumstearat [E470b]. 
+Filmovertræk: polyvinylalkohol [E1203]; talcum [E553b]; macrogol 3350 [E1521]; titandioxid 
+[E171]; gul jernoxid [E172]. </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Doptelet 20 mg filmovertrukne tabletter (tabletter) er bleggule, runde tabletter, som buer ud foran og 
+bagpå og har "AVA" trykt på den ene side og "20" på den anden. </p>
+<p>Tabletterne udleveres i æsker med én eller to aluminiumsblisters. En blister indeholder enten 
+10 eller 15 tabletter. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Swedish Orphan Biovitrum AB (publ) 
+SE-112 76 Stockholm 
+Sverige </p>
+<p>Fremstiller 
+Swedish Orphan Biovitrum AB (publ) 
+Strandbergsgatan Stockholm 
+SE-112 Sverige </p>
+<p>Denne indlægsseddel blev senest ændret . </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-fe68e84ae2a5a5a43e0a98992e2c4775
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for doptelet Package Leaflet for language en"
+Description: "ePI document Bundle for doptelet Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fe68e84ae2a5a5a43e0a98992e2c4775"
+* entry[0].resource = composition-en-fe68e84ae2a5a5a43e0a98992e2c4775
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfe68e84ae2a5a5a43e0a98992e2c4775"
+* entry[=].resource = mpfe68e84ae2a5a5a43e0a98992e2c4775
+                            
+                    
+Instance: bundlepackageleaflet-da-fe68e84ae2a5a5a43e0a98992e2c4775
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for doptelet Package Leaflet for language da"
+Description: "ePI document Bundle for doptelet Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-fe68e84ae2a5a5a43e0a98992e2c4775"
+* entry[0].resource = composition-da-fe68e84ae2a5a5a43e0a98992e2c4775
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfe68e84ae2a5a5a43e0a98992e2c4775"
+* entry[=].resource = mpfe68e84ae2a5a5a43e0a98992e2c4775
+                            
+                    
+
+
+
+Instance: mpfe68e84ae2a5a5a43e0a98992e2c4775
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Doptelet 20 mg film-coated tablets"
-Description: "Doptelet 20 mg film-coated tablets"
+Title: "Medicinal Product doptelet"
+Description: "doptelet"
 Usage: #inline
 
  
@@ -364,7 +977,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Doptelet 20 mg film-coated tablets"
+  * productName = "doptelet"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -391,29 +1004,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-fe68e84ae2a5a5a43e0a98992e2c4775
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for doptelet Package Leaflet for language en"
-Description: "ePI document Bundle for doptelet Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: fe68e84ae2a5a5a43e0a98992e2c4775ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1373/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "doptelet"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-fe68e84ae2a5a5a43e0a98992e2c4775"
-* entry[0].resource = composition-en-fe68e84ae2a5a5a43e0a98992e2c4775
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6d0c4e3ac4d47713b8a7974aa3a7eede"
-* entry[=].resource = mp6d0c4e3ac4d47713b8a7974aa3a7eede
-                            
-                      
+* title = "List of all ePIs associated with doptelet"
+
+* subject = Reference(mp6d0c4e3ac4d47713b8a7974aa3a7eede)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#doptelet "doptelet"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-fe68e84ae2a5a5a43e0a98992e2c4775) // doptelet en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-fe68e84ae2a5a5a43e0a98992e2c4775) // doptelet da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-fe68e84ae2a5a5a43e0a98992e2c4775
+InstanceOf: List
+
+* insert fe68e84ae2a5a5a43e0a98992e2c4775ListRuleset
+    

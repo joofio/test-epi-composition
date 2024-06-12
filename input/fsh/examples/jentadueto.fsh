@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-dea6bb992c7a311f66506a0f31878b7e
 InstanceOf: CompositionUvEpi
 Title: "Composition for jentadueto Package Leaflet"
@@ -475,12 +478,585 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-dea6bb992c7a311f66506a0f31878b7e
+InstanceOf: CompositionUvEpi
+Title: "Composition for jentadueto Package Leaflet"
+Description:  "Composition for jentadueto Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4a6df9382a38fa0325cd31154738cc12)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4a6df9382a38fa0325cd31154738cc12
+* title = "TEST PURPOSES ONLY - jentadueto"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Jentadueto
+3. Sådan skal du tage Jentadueto
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What jentadueto is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What jentadueto is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Navnet på dette lægemiddel er Jentadueto. Det indeholder to forskellige aktive stoffer, linagliptin og 
+metformin.
+-
+Linagliptin tilhører en klasse af lægemidler, der kaldes DPP-4-hæmmere (dipeptidylpeptidase-4-
+hæmmere).
+-
+Metformin tilhører en klasse af lægemidler, der kaldes biguanider.
+Sådan virker Jentadueto
+De to aktive stoffer supplerer hinanden med at kontrollere blodsukkeret hos voksne patienter med en 
+form for diabetes kaldet type 2-diabetes mellitus. Sammen med diæt og motion hjælper dette 
+lægemiddel med at forbedre insulinniveauet og -virkningen efter et måltid og nedsætter mængden af 
+sukker, der dannes af kroppen.
+Dette lægemiddel kan bruges alene eller sammen med visse andre typer lægemidler til behandling af 
+diabetes, f.eks. sulfonylurinstof, empagliflozin eller insulin.
+Hvad er type 2-diabetes?
+Type 2-diabetes er en tilstand, hvor din krop ikke danner tilstrækkeligt meget insulin samtidig med, at 
+det insulin, som kroppen danner, ikke virker så godt, som det burde. Din krop kan også danne for 
+meget sukker. Når dette sker, ophobes sukker (glucose) i blodet og dette kan føre til alvorlige 
+helbredsproblemer som hjertesygdom, nyresygdom, blindhed og amputation.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take jentadueto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take jentadueto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Jentadueto</h2>
+<p>hvis du er allergisk over for linagliptin, metformin eller et af de øvrige indholdsstoffer 
+i Jentadueto (angivet i afsnit 6)
+-
+hvis du har alvorligt nedsat nyrefunktion
+51
+-
+hvis du har diabetes, der ikke er under kontrol, f.eks. med alvorlig hyperglykæmi (højt 
+blodsukker), kvalme, opkastning, diarré, hurtigt vægttab, laktatacidose (se "Risiko for 
+laktatacidose" nedenfor) eller ketoacidose. Ketoacidose er en tilstand, hvor såkaldte ketonstoffer 
+ophobes i blodet, hvilket kan medføre diabetisk prækoma. Symptomerne omfatter mavesmerter, 
+hurtig og dyb vejrtrækning og søvnighed, og din ånde kan få en udsædvanlig frugtagtig lugt
+-
+hvis du på noget tidspunkt har været ramt af diabetisk prækoma
+-
+hvis du har en alvorlig infektion som f.eks. en infektion, der påvirker dine lunger, bronkier eller 
+nyrer. Alvorlige infektioner kan medføre nyreproblemer, hvorved du risikerer at få laktatacidose
+(se "Advarsler og forsigtighedsregler")
+-
+hvis du har mistet en masse vand fra kroppen (dehydrering), f.eks. på grund af langvarig eller 
+svær diarré eller hvis du har kastet op flere gange efter hinanden. Dehydrering kan medføre 
+nyreproblemer, hvorved du risikerer at få laktatacidose (se "Advarsler og forsigtighedsregler")
+-
+hvis du er behandlet for akut hjertesvigt eller for nylig har haft et hjerteanfald, har alvorlige 
+kredsløbsproblemer (f.eks. shock) eller vejrtrækningsbesvær. Det kan føre til manglende ilt ud i 
+vævene, hvorved du risikerer at få laktatacidose (se "Advarsler og forsigtighedsregler")
+-
+hvis du har en leversygdom
+-
+hvis du drikker meget alkohol, enten hver dag eller kun nogle gange (se afsnittet "Jentadueto 
+sammen med alkohol").
+Tag ikke Jentadueto, hvis du mener, at noget af ovenstående passer på dig. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet, før du tager dette lægemiddel.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Jentadueto, hvis du:
+-
+har type 1-diabetes (din krop danner ikke insulin). Jentadueto må ikke bruges til behandling af
+denne tilstand.
+-
+tager insulin eller et antidiabetisk lægemiddel, der kaldes "sulfonylurinstof" sammen med 
+Jentadueto, vil din læge måske nedsætte dosis af insulin eller sulfonylurinstof for at undgå lavt 
+blodsukker (hypoglykæmi).
+-
+har eller tidligere har haft sygdom i bugspytkirtlen.
+Hvis du har symptomer på akut pankreatitis, såsom vedvarende, svære mavesmerter, skal du kontakte 
+din læge.
+Hvis der dannes blærer på din hud, kan det være et tegn på en tilstand, der kaldes bulløs pemfigoid. 
+Din læge kan beslutte, at du skal stoppe med at tage Jentadueto.
+Hvis du er usikker på, om noget af ovenstående passer på dig, skal du kontakte lægen, 
+apotekspersonalet eller sygeplejersken, før du tager Jentadueto.
+Diabetiske hudproblemer er en almindelig komplikation ved diabetes. Det er vigtigt, at du følger
+anbefalingerne for hud- og fodpleje, som du har fået af din læge eller sygeplejerske.
+Risiko for laktatacidose
+På grund af metformin-indholdet kan Jentadueto give en meget sjælden, men meget alvorlig 
+komplikation, der kaldes laktatacidose, især hvis du har nedsat nyrefunktion. Der er også øget risiko 
+for at udvikle laktatacidose ved ukontrolleret diabetes, alvorlige infektioner, langvarig faste eller 
+alkoholindtagelse, dehydrering (se yderligere oplysninger nedenfor), leverproblemer og enhver 
+medicinsk tilstand med nedsat iltforsyning til en legemsdel (såsom akut alvorlig hjertesygdom).
+Kontakt lægen for at få yderligere vejledning, hvis noget af ovennævnte gælder for dig.
+Stop med at tage Jentadueto i en kort periode, hvis du har en tilstand, som kan være forbundet 
+med dehydrering (betydeligt tab af kropsvæsker), såsom alvorlig opkastning, diarré, feber, udsættelse
+for varme eller indtagelse af mindre væske end normalt. Kontakt din læge for at få yderligere 
+rådgivning.
+52
+Stop med at tage Jentadueto og kontakt omgående læge eller nærmeste hospital, hvis du får et 
+eller flere af nedenstående symptomer på laktatacidose, da denne tilstand kan føre til koma.
+Symptomerne på laktatacidose omfatter:
+-
+opkastning
+-
+mavesmerter (abdominalsmerter)
+-
+muskelkramper
+-
+almen utilpashed med udpræget træthed
+-
+vejrtrækningsbesvær
+-
+nedsat kropstemperatur og langsommere puls.
+Laktatacidose er en medicinsk akuttilstand, der skal behandles på et hospital.
+Hvis du skal have en større operation, skal du stoppe med at tage Jentadueto under indgrebet og i 
+nogen tid herefter. Din læge vil beslutte, hvornår du skal stoppe behandlingen med Jentadueto, og 
+hvornår du kan genoptage den igen.
+Under behandlingen med Jentadueto vil din læge kontrollere din nyrefunktion mindst én gang om året 
+eller hyppigere, hvis du er ældre, og/eller hvis din nyrefunktion bliver dårligere.
+Børn og unge
+Dette lægemiddel bør ikke anvendes til børn og unge under 18 år. Det er ikke effektivt til børn og unge 
+i alderen fra 10 til 17 år. Det er ukendt, om dette lægemiddel er sikkert og effektivt, hvis det anvendes 
+til børn under 10 år.
+Brug af andre lægemidler sammen med Jentadueto
+Hvis du skal have en injektion i blodet med et kontrastmiddel, som indeholder jod, for eksempel i 
+forbindelse med en røntgenundersøgelse eller scanning, skal du stoppe med at tage Jentadueto forud 
+for eller på tidspunktet for injektionen. Din læge vil beslutte, hvornår du skal stoppe behandlingen 
+med Jentadueto, og hvornår du kan genoptage den igen.
+Fortæl det altid til lægen, hvis du tager andre lægemidler, for nylig har taget andre lægemidler eller 
+planlægger at tage andre lægemidler. Du skal eventuelt have kontrolleret dit blodsukker eller din 
+nyrefunktion hyppigere, eller lægen kan ændre din dosering af Jentadueto. Det er især vigtigt, at du 
+nævner følgende:
+-
+Vanddrivende lægemidler (diuretika)
+-
+Lægemidler mod smerter og betændelseslignende tilstande (NSAID og COX-2-hæmmere, 
+såsom ibuprofen og celecoxib)
+-
+Visse lægemidler til behandling af højt blodtryk (ACE-hæmmere og angiotensin II-
+receptorantagonister)
+-
+Lægemidler, der kan ændre mængden af metformin i dit blod, især hvis du har nedsat 
+nyrefunktion (f.eks. verapamil, rifampicin, cimetidin, dolutegravir, ranolazin, trimethoprim, 
+vandetanib, isavuconazol, crizotinib, olaparib)
+-
+Carbamazepin, phenobarbital eller phenytoin. Disse er lægemidler, der kan bruges til at 
+kontrollere krampeanfald eller mod kroniske smerter
+-
+Rifampicin. Dette er et antibiotikum, der bruges til behandling af infektioner såsom tuberkulose
+-
+Lægemidler, der anvendes til behandling af sygdomme, der medfører betændelsestilstande, som 
+f.eks. astma og gigt (kortikosteroider)
+-
+Bronkodilatorer (β-sympatomimetika), der bruges til behandling af bronkial astma
+-
+Lægemidler, der indeholder alkohol.
+Brug af Jentadueto sammen med alkohol
+Du skal undgå at indtage store mængder alkohol, mens du tager Jentadueto, da det kan øge risikoen for 
+laktatacidose (se afsnittet "Advarsler og forsigtighedsregler").
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+53
+Brug ikke Jentadueto, hvis du er gravid. Det er ukendt, om dette lægemiddel er skadeligt for det ufødte 
+barn.
+Metformin går over i modermælken i små mængder. Det er ukendt, om linagliptin går over i 
+modermælken. Kontakt din læge, hvis du ønsker at amme, mens du tager dette lægemiddel.
+Trafik- og arbejdssikkerhed
+Jentadueto påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner.
+Jentadueto kan dog sammen med lægemidler kaldet sulfonylurinstoffer eller insulin medføre for lavt 
+blodsukker (hypoglykæmi). Dette kan påvirke evnen til at føre motorkøretøj og betjene maskiner eller 
+arbejde uden sikkert fodfæste.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take jentadueto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take jentadueto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet.
+Hvor meget skal du tage
+Din dosis af Jentadueto afhænger af din helbredstilstand og af den dosis, du i øjeblikket tager af 
+metformin og/eller af individuelle linagliptin- og metformin-tabletter. Lægen vil fortælle dig præcist, 
+hvilken dosis af dette lægemiddel, du skal tage.
+Sådan skal du tage dette lægemiddel
+-
+1 tablet to gange dagligt gennem munden i den dosis, din læge har ordineret.
+-
+sammen med et måltid for at undgå maveproblemer.
+Du bør ikke overskride den maksimalt anbefalede daglige dosis på 5 mg linagliptin og 2 000 mg
+metformin.
+Fortsæt med at tage Jentadueto til at kontrollere dit blodsukker, så længe din læge ordinerer det. Din 
+læge kan ordinere dette lægemiddel sammen med andre antidiabetika, som tages gennem munden, 
+eller insulin. For at få den bedste virkning på dit helbred skal alle lægemidler tages, som foreskrevet af 
+lægen.
+Du skal fortsætte med din diæt, mens du får Jentadueto, og sørge for, at din indtagelse af kulhydrater 
+fordeles jævnt over dagen. Hvis du er overvægtig, skal du fortsætte med din energibegrænsede diæt, 
+som du er blevet instrueret i. Det er ikke sandsynligt, at dette lægemiddel medfører unormalt lavt 
+blodsukker (hypoglykæmi). Når Jentadueto tages sammen med et sulfonylurinstof eller med insulin, 
+kan lavt blodsukker forekomme, og lægen vil måske nedsætte dosis af sulfonylurinstof eller insulin.
+Hvis du har taget for meget Jentadueto
+Hvis du har taget for mange Jentadueto tabletter, kan du få laktatacidose. Symptomer på laktatacidose
+er uspecifikke, f.eks. svær kvalme eller opkastning, mavesmerter med muskelkramper, generel 
+utilpashed med voldsom træthed, og vejrtrækningsbesvær. Andre symptomer er nedsat 
+kropstemperatur og langsommere puls. Hvis du får nogen af disse symptomer, kan du have brug 
+for omgående behandling på et hospital, da laktatacidose kan føre til koma. Du skal omgående 
+stoppe med at tage dette lægemiddel og straks kontakte en læge eller det nærmeste hospital (se 
+afsnit 2). Tag lægemiddelpakningen med.
+Hvis du har glemt at tage Jentadueto
+Hvis du har glemt at tage en dosis, så tag den straks, du kommer i tanke om det. Hvis det næsten er tid 
+til næste dosis, så spring den glemte dosis over. Du må ikke tage en dobbeltdosis som erstatning for 
+den glemte dosis. Tag aldrig to doser på samme tid (morgen eller aften).
+54
+Hvis du holder op med at tage Jentadueto
+Fortsæt med at tage Jentadueto indtil lægen fortæller dig, at du skal holde op. Dette lægemiddel er med 
+til at holde dit blodsukker under kontrol.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Nogle symptomer kræver øjeblikkelig lægehjælp
+Du skal stoppe med at tage Jentadueto og straks kontakte en læge ved følgende symptomer på for lavt 
+blodsukker (hypoglykæmi): Rysten, svedeture, angst, sløret syn, prikkende fornemmelse på læberne, 
+bleghed, humørsvingninger eller forvirring. Hypoglykæmi er en kendt bivirkning (hyppighed: meget 
+almindelig, kan forekomme hos op til 1 ud af 10 personer) ved behandling med både Jentadueto og et
+sulfonylurinstof, og ved behandling med både Jentadueto og insulin.
+Jentadueto kan forårsage en meget sjælden (kan forekomme hos op til 1 ud af 10 000 personer), men 
+meget alvorlig bivirkning, der kaldes laktatacidose (se afsnittet "Advarsler og forsigtighedsregler"). 
+Hvis dette sker for dig, skal du omgående stoppe med at tage Jentadueto og kontakte læge eller 
+nærmeste hospital, da laktatacidose kan føre til koma.
+Betændelse i bugspytkirtlen (pankreatitis) er set hos nogle patienter (hyppighed sjælden, kan 
+forekomme hos op til 1 ud af 1 000 personer).
+STOP med at tage Jentadueto og kontakt læge med det samme, hvis du bemærker en eller flere af 
+følgende alvorlige bivirkninger:
+-
+Svære og vedvarende smerter i maven (maveregionen), som kan stråle ud til ryggen, samt 
+kvalme og opkastning, da det kan være et tegn på betændelse i bugspytkirtlen (pankreatitis).
+Andre bivirkninger ved Jentadueto omfatter:
+Nogle patienter har haft allergiske reaktioner (hyppighed sjælden), der kan være alvorlige, og 
+inkludere hvæsende vejrtrækning og åndenød (bronkial hyperreaktivitet; hyppighed ikke almindelig
+(kan forekomme hos op til 1 ud af 100 personer)). Nogle patienter fik udslæt (hyppighed ikke 
+almindelig), nældefeber (urticaria; hyppighed sjælden) samt hævelse af ansigt, læber, tunge og svælg, 
+hvilket kan forårsage problemer med at trække vejret eller synke (angioødem; hyppighed sjælden). 
+Hvis du oplever nogen af ovenstående tegn på sygdom, skal du holde op med at tage Jentadueto og 
+straks kontakte din læge. Din læge kan ordinere et lægemiddel til behandling af din allergiske reaktion 
+og en anden type medicin til din diabetes.
+Nogle patienter har oplevet følgende bivirkninger, mens de tog Jentadueto:
+-
+Almindelige (kan forekomme hos op til 1 ud af 10 personer): Diarré, stigning i blodenzymer
+(forhøjet lipase), kvalme
+-
+Ikke almindelige: Betændelse i næse eller svælg (nasofaryngitis), hoste, appetitløshed (nedsat 
+appetit), opkastning, stigning i blodenzymer (forhøjet amylase), kløe (pruritus)
+-
+Sjælden: Blæredannelse på huden (bulløs pemfigoid).
+Nogle patienter har oplevet følgende bivirkninger, mens de tager Jentadueto sammen med insulin
+-
+Ikke almindelig: Nedsat leverfunktion, forstoppelse.
+Bivirkninger, når du tager metformin alene, og som ikke er set med Jentadueto:
+-
+Meget almindelig: Mavesmerter
+-
+Almindelig (kan forekomme hos op til 1 ud af 10 personer): Metalsmag i munden 
+(smagsforstyrrelse), nedsat eller lavt niveau af B12-vitamin i blodet (symptomerne kan omfatte 
+ekstrem træthed (udmattelse), en øm og rød tunge (glossitis), en stikkende eller prikkende
+fornemmelse (paræstesi) eller bleg eller gul hud). Lægen vil eventuelt sørge for, at der tages
+55
+prøver for at undersøge årsagen til dine symptomer, da nogle af dem også kan skyldes diabetes 
+eller andre urelaterede helbredsproblemer
+-
+Meget sjælden (kan forekomme hos op til 1 ud af 10 000 personer): Leverbetændelse (hepatitis, 
+et problem med leveren), hudreaktioner såsom rødme af huden (erytem).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store jentadueto"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store jentadueto"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisteren, beholderen og æsken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.
+Blister: Opbevares i den originale yderpakning for at beskytte mod fugt.
+Beholder: Hold beholderen tæt tillukket for at beskytte mod fugt.
+Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på at være forsøgt åbnet.
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Jentadueto indeholder:</h2>
+<h2>Aktive stoffer: Linagliptin og metforminhydrochlorid.</h2>
+<p>Hver Jentadueto 2,5 mg/850 mg filmovertrukket tablet indeholder 2,5 mg linagliptin og 850 mg
+metforminhydrochlorid.
+-
+Hver Jentadueto 2,5 mg/1 000 mg filmovertrukket tablet indeholder 2,5 mg linagliptin og 
+1 000 mg metforminhydrochlorid.
+-
+Øvrige indholdsstoffer:
+-
+Tabletkerne: Arginin, copovidon, magnesiumstearat, majsstivelse, kolloid vandfri silica.
+-
+Filmovertræk: Hypromellose, titaniumdioxid (E171), talcum, propylenglycol.
+Jentadueto 2,5 mg/850 mg filmovertrukne tabletter indeholder også rød jernoxid (E172) 
+og gul jernoxid (E172).
+Jentadueto 2,5 mg/1 000 mg filmovertrukne tabletter indeholder også rød jernoxid 
+(E172).
+Udseende og pakningsstørrelser
+Jentadueto 2,5 mg/850 mg er ovale, bikonvekse, lysorange filmovertrukne tabletter (tabletter). De er 
+præget med "D2/850" på den ene side og Boehringer Ingelheims logo på den anden.
+Jentadueto 2,5 mg/1 000 mg er ovale, bikonvekse, lyserøde filmovertrukne tabletter (tabletter). De er 
+præget med "D2/1 000" på den ene side og Boehringer Ingelheims logo på den anden.
+56
+Jentadueto fås i perforerede enkeltdosisblistere med 10 × 1, 14 × 1, 28 × 1, 30 × 1, 56 × 1, 60 × 1, 
+84 × 1, 90 × 1, 98 × 1, 100 × 1 og 120 × 1 filmovertrukne tabletter og multipakninger med 120 × 1 
+(2 pakninger af 60 × 1), 180 × 1 (2 pakninger af 90 × 1), 180 × 1 (3 pakninger af 60 × 1) og 200 × 1 
+(2 pakninger af 100 × 1) filmovertrukne tabletter.
+Jentadueto fås også i plastbeholdere med plastskruelåg og silicagel (tørremiddel). Beholderne 
+indeholder 14, 60 eller 180 filmovertrukne tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført i dit land.
+Indehaver af markedsføringstilladelsen
+Boehringer Ingelheim International GmbH
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Fremstiller
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 173
+55216 Ingelheim am Rhein
+Tyskland
+Boehringer Ingelheim Hellas Single Member S.A.
+5th km Paiania - Markopoulo
+Koropi Attiki, 19441
+Grækenland
+Dragenopharm Apotheker Püschl GmbH
+Göllstraße 1
+84529 Tittmoning
+Tyskland
+57
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel: +370 5 2595942
+България
+Бьорингер Ингелхайм РЦВ ГмбХ и Ко. КГ
+Тел: +359 2 958 79 98
+Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+Tél/Tel: +32 2 773 33 11
+Česká republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 111
+Magyarország
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Magyarországi Fióktelepe
+Tel: +36 1 299 8900
+Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf.: +45 39 15 88 88
+Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 900
+Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 889
+Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8000
+Norge
+Boehringer Ingelheim Danmark
+Norwegian branch
+Tlf: +47 66 76 13 00
+Ελλάδα
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Österreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7870
+España
+Boehringer Ingelheim España, S.A.
+Tel: +34 93 404 51 00
+Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel: +48 22 699 0 699
+France
+Boehringer Ingelheim France S.A.S.
+Tél: +33 3 26 50 45 33
+Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 00
+Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 600
+România
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucureşti
+Tel: +40 21 302 28 00
+Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Podružnica Ljubljana
+Tel: +386 1 586 40 00
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+organizačná zložka
+Tel: +421 2 5810 1211
+58
+Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 800
+Κύπρος
+Boehringer Ingelheim Ελλάς Μονοπρόσωπη Α.Ε.
+Tηλ: +30 2 10 89 06 300
+Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 00
+Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas filiāle
+Tel: +371 67 240 011
+United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9620
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-dea6bb992c7a311f66506a0f31878b7e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jentadueto Package Leaflet for language en"
+Description: "ePI document Bundle for jentadueto Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-dea6bb992c7a311f66506a0f31878b7e"
+* entry[0].resource = composition-en-dea6bb992c7a311f66506a0f31878b7e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdea6bb992c7a311f66506a0f31878b7e"
+* entry[=].resource = mpdea6bb992c7a311f66506a0f31878b7e
+                            
+                    
+Instance: bundlepackageleaflet-da-dea6bb992c7a311f66506a0f31878b7e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jentadueto Package Leaflet for language da"
+Description: "ePI document Bundle for jentadueto Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-dea6bb992c7a311f66506a0f31878b7e"
+* entry[0].resource = composition-da-dea6bb992c7a311f66506a0f31878b7e
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdea6bb992c7a311f66506a0f31878b7e"
+* entry[=].resource = mpdea6bb992c7a311f66506a0f31878b7e
+                            
+                    
+
+
+
+Instance: mpdea6bb992c7a311f66506a0f31878b7e
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Jentadueto 2.5 mg/850 mg film-coated tablets"
-Description: "Jentadueto 2.5 mg/850 mg film-coated tablets"
+Title: "Medicinal Product jentadueto"
+Description: "jentadueto"
 Usage: #inline
 
  
@@ -500,7 +1076,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Jentadueto 2.5 mg/850 mg film-coated tablets"
+  * productName = "jentadueto"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -527,29 +1103,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-dea6bb992c7a311f66506a0f31878b7e
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for jentadueto Package Leaflet for language en"
-Description: "ePI document Bundle for jentadueto Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: dea6bb992c7a311f66506a0f31878b7eListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Jentadueto 2.5 mg/850 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "jentadueto"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-dea6bb992c7a311f66506a0f31878b7e"
-* entry[0].resource = composition-en-dea6bb992c7a311f66506a0f31878b7e
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4a6df9382a38fa0325cd31154738cc12"
-* entry[=].resource = mp4a6df9382a38fa0325cd31154738cc12
-                            
-                      
+* title = "List of all ePIs associated with jentadueto"
+
+* subject = Reference(mp4a6df9382a38fa0325cd31154738cc12)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#jentadueto "jentadueto"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-dea6bb992c7a311f66506a0f31878b7e) // jentadueto en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-dea6bb992c7a311f66506a0f31878b7e) // jentadueto da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-dea6bb992c7a311f66506a0f31878b7e
+InstanceOf: List
+
+* insert dea6bb992c7a311f66506a0f31878b7eListRuleset
+    

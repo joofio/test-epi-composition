@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-53644ac8be35bb2e5f6359de25449b5d
 InstanceOf: CompositionUvEpi
 Title: "Composition for aranesp Package Leaflet"
@@ -562,12 +565,756 @@ side effects not listed in this leaflet (see section 4). </p>         </div>"""
 
 
 
+Instance: composition-da-53644ac8be35bb2e5f6359de25449b5d
+InstanceOf: CompositionUvEpi
+Title: "Composition for aranesp Package Leaflet"
+Description:  "Composition for aranesp Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0a6c21c1cc6d4b9039f9be8d46554a4f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0a6c21c1cc6d4b9039f9be8d46554a4f
+* title = "TEST PURPOSES ONLY - aranesp"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instruktioner til injektion med den fyldte injektionssprøjte med Aranesp </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal De vide, før De begynder at bruge Aranesp </li>
+<li>Sådan skal De bruge Aranesp </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger  </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What aranesp is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What aranesp is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Deres læge har ordineret Aranesp (et lægemiddel mod blodmangel) til Dem for at behandle Deres 
+blodmangel. Blodmangel vil sige, at Deres blod ikke indeholder et tilstrækkeligt antal røde 
+blodlegemer. Symptomerne kan være træthed, mathed og åndenød.  </p>
+<p>Aranesp virker på nøjagtig samme måde som det naturligt forekommende hormon erythropoietin. 
+Erythropoietin produceres i nyrerne og stimulerer Deres knoglemarv til at producere flere røde 
+blodlegemer. Det aktive stof i Aranesp er darbepoetin alfa som er fremstillet ved hjælp af genteknologi 
+i ovarieceller fra kinesiske hamstre (CHO-K1).  </p>
+<p>Hvis De lider af kronisk nyresvigt  </p>
+<p>Aranesp bruges til at behandle symptomatisk blodmangel (anæmi) ved kronisk nyresvigt hos voksne 
+og børn. Ved nyresvigt producerer nyrerne ikke nok af det naturlige hormon erythropoietin, hvilket 
+ofte kan forårsage blodmangel.  </p>
+<p>Fordi det vil tage Deres krop lidt tid at producere røde blodlegemer vil det vare omkring fire uger før 
+De vil mærke nogen effekt. Deres normale dialyserutine vil ikke påvirke Aranesps evne til at behandle 
+Deres blodmangel. </p>
+<p>Hvis De er i kemoterapi </p>
+<p>Aranesp bruges til at behandle symptomatisk blodmangel hos voksne cancerpatienter med 
+ikke-myeloid malignitet som er i kemoterapi. </p>
+<p>En af hovedbivirkningerne ved kemoterapi er, at den forhindrer knoglemarven i at producere 
+tilstrækkeligt mange røde blodlegemer. Ved slutningen af Deres kemoterapibehandling vil antallet af 
+Deres røde blodlegemer falde, især hvis De har fået meget kemoterapi, og dermed forårsage 
+blodmangel. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take aranesp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take aranesp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Aranesp 
+- hvis De er allergisk over for darbepoetin alfa eller et af de øvrige indholdsstoffer i dette 
+lægemiddel angivet i afsnit 6. - hvis De har fået stillet diagnosen forhøjet blodtryk, og blodtrykket ikke kan kontrolleres med 
+anden medicin, der er ordineret af Deres læge. </p>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før De bruger Aranesp. </p>
+<p>Fortæl Deres læge, hvis De lider af eller tidligere har lidt af:</p>
+<ul>
+<li>forhøjet blodtryk, der behandles med anden medicin ordineret af Deres læge, </li>
+<li>seglcelleanæmi, </li>
+<li>epileptiske anfald,  </li>
+<li>kramper (krampeanfald),  </li>
+<li>leversygdom, </li>
+<li>signifikant mangel på effekt af lægemidler, der bruges til behandling af blodmangel, </li>
+<li>latexallergi (nålehætten på den fyldte injektionssprøjte indeholder et derivat af latex) eller </li>
+<li>hepatitis C. </li>
+</ul>
+<p>Forsigtighedsregler:</p>
+<ul>
+<li>
+<p>Hvis De har symptomer, der omfatter unormal træthed og mangel på energi, kan det betyde, at 
+De har pure red cell aplasi (PRCA), der er blevet rapporteret hos patienter. PRCA betyder, at 
+kroppen har standset eller reduceret produktionen af røde blodlegemer, hvilket medfører 
+alvorlig anæmi. Hvis De oplever disse symptomer, skal De kontakte din læge, som vil finde det 
+bedste handlingsforløb til behandling af Deres anæmi.  </p>
+</li>
+<li>
+<p>Vær særlig forsigtig med andre produkter, der stimulerer produktionen af røde blodlegemer: 
+Aranesp er ét produkt blandt en gruppe produkter, der stimulerer produktionen af røde 
+blodlegemer, som det humane protein erytropoietin gør. Deres læge bør altid registrere nøjagtig 
+det produkt, De bruger. </p>
+</li>
+<li>
+<p>Lægen vil kontrollere Deres dosis af Aranesp, hvis De har kronisk nyresvigt, og især, hvis De 
+ikke reagerer ordentligt på Aranesp. Det skyldes, at risikoen for at få problemer med hjerte eller 
+blodkar og risikoen for hjerteanfald (myokardieinfarkt), hjerneblødning og død kan blive større, 
+hvis Deres dosis af Aranesp gentagne gange forhøjes. </p>
+</li>
+<li>
+<p>Deres læge skal forsøge at holde Deres hæmoglobinkoncentration på mellem 10 g/dl 
+(6,2 mmol/l) og 12 g/dl (7,5 mmol/l). Deres læge vil kontrollere, at Deres 
+hæmoglobinkoncentration ikke overskrider et bestemt niveau, da høje 
+hæmoglobinkoncentrationer kan medføre, at De kommer i risikogruppe for at få problemer med 
+hjerte eller blodkar, og øge risikoen for hjerteanfald (myokardieinfarkt), hjerneblødning og død. </p>
+</li>
+<li>
+<p>Hvis De har symptomer, der blandt andet kan være kraftig hovedpine, døsighed, forvirring, 
+synsforstyrrelser, kvalme, opkastning eller kramper (krampeanfald), kan det betyde, at De har et 
+meget højt blodtryk. Kontakt Deres læge, hvis De får disse symptomer. </p>
+</li>
+<li>
+<p>Hvis du er cancerpatient, skal du være opmærksom på, at Aranesp kan fungere som 
+blodcellevækstfaktor og at det under visse omstændigheder kan have en negativ virkning på din 
+cancer. En blodtransfusion kan være at foretrække afhængigt af din individuelle situation. Du 
+bedes tale med din læge om dette. </p>
+</li>
+<li>
+<p>Hos raske mennesker kan ukorrekt anvendelse medføre livstruende problemer med hjerte og 
+kredsløb. </p>
+</li>
+<li>
+<p>Der er rapporteret om alvorlige hudreaktioner, herunder Stevens-Johnsons syndrom (SJS) og 
+toksisk epidermal nekrolyse (TEN), i forbindelse med behandling med epoetin. SJS/TEN kan i 
+begyndelsen vise sig på kroppen som rødlige pletter, der ligner skydeskiver, eller runde pletter, 
+ofte med blærer i midten. Desuden kan der opstå sår i mund, hals og næse, på kønsorganerne og 
+i øjnene (røde og hævede øjne). Disse alvorlige hududslæt kommer ofte efter feber og/eller 
+influenzalignende symptomer. Udslættet kan udvikle sig til omfattende afskalning af hud og 
+livstruende komplikationer.<br />
+Stop med at tage Aranesp og kontakt straks Deres læge eller søg anden lægehjælp, hvis De får 
+et alvorligt udslæt eller et eller flere af disse andre hudsymptomer. </p>
+</li>
+</ul>
+<p>Brug af anden medicin sammen med Aranesp </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis De bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. </p>
+<p>Ciclosporin og tacrolimus (lægemidler, der undertrykker immunsystemet) kan påvirkes af antallet af 
+røde blodlegemer i Deres blod. Det er derfor vigtigt, at De fortæller lægen, hvis De får nogle af disse 
+lægemidler. </p>
+<p>Brug af Aranesp sammen med mad og drikke </p>
+<p>Mad og drikkevarer påvirker ikke virkningen af Aranesp. </p>
+<p>Graviditet og amning </p>
+<p>Hvis De er gravid eller ammer, har mistanke om, De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. </p>
+<p>Aranesp er ikke blevet testet på gravide kvinder. Det er vigtigt at fortælle Deres læge, hvis De: </p>
+<ul>
+<li>
+<p>er gravid,  </p>
+</li>
+<li>
+<p>tror De er gravid eller </p>
+</li>
+<li>
+<p>planlægger at blive gravid.  </p>
+</li>
+</ul>
+<p>Det vides ikke, om darbepoetin alfa udskilles i mælken hos mennesker. De skal stoppe med at amme, 
+hvis De tager Aranesp. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Aranesp påvirker ikke evnen til at køre bil eller betjene maskiner. </p>
+<p>Aranesp indeholder natrium </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take aranesp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take aranesp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet.  </p>
+<p>Ud fra blodprøveresultater har Deres læge vurderet, at De har behov for Aranesp, fordi Deres 
+hæmoglobinkoncentration er på 10 g/dl (6,2 mmol/l) eller derunder. Deres læge vil fortælle Dem, hvor 
+meget og hvor ofte De skal tage Aranesp for at opretholde en hæmoglobinkoncentration på mellem 
+10 g/dl (6,2 mmol/l) og 12 g/dl (7,5 mmol/l). Dette kan variere afhængigt af, om De er voksen eller 
+barn.  </p>
+<p>Selv-injektion af Aranesp </p>
+<p>Deres læge kan beslutte, at det er bedst for Dem, hvis De selv eller en sygeplejerske injicerer Aranesp. 
+Deres læge, sygeplejerske eller farmaceut vil vise Dem, hvordan De injicerer Dem selv med den fyldte 
+injektionssprøjte. Forsøg ikke at injicere Dem selv, hvis De ikke er blevet instrueret i det. De må 
+aldrig selv injicere Aranesp i en vene.  </p>
+<p>Hvis De lider af kronisk nyresvigt </p>
+<p>Hos alle voksne og børn (≥ 1 år) med kronisk nyresvigt gives Aranesp som en enkelt indsprøjtning 
+enten under huden (subkutant) eller i en vene (intravenøst). </p>
+<p>For at kontrollere Deres anæmi vil initialdosis af Aranesp pr. kilogram legemsvægt være enten: </p>
+<ul>
+<li>
+<p>0,75 mikrogram én gang hver anden uge eller </p>
+</li>
+<li>
+<p>0,45 mikrogram én gang ugentligt. 
+Hos voksne patienter, der ikke er i dialyse, kan der også anvendes en initialdosis på 1,5 mikrogram/kg 
+én gang om måneden. </p>
+</li>
+</ul>
+<p>Alle voksne patienter og børn ≥ 1 år med kronisk nyresvigt kan, når deres anæmi er korrigeret, 
+fortsætte med at få Aranesp som en enkelt injektion, enten én gang ugentligt eller én gang hver anden 
+uge. For alle voksne og pædiatriske patienter ≥ 11 år, som ikke er i dialyse, kan Aranesp også gives 
+som en injektion én gang om måneden. </p>
+<p>Deres læge vil regelmæssigt tage blodprøver for at måle, hvordan Deres anæmi reagerer på 
+behandlingen og justere Deres dosis hver fjerde uge, hvis det er nødvendigt for at sikre langvarig 
+kontrol af anæmien. </p>
+<p>Lægen vil bruge den laveste effektive dosis til kontrol af symptomerne på anæmi. </p>
+<p>Hvis De ikke reagerer tilstrækkeligt på Aranesp, vil lægen kontrollere Deres dosis og informere Dem, 
+hvis De skal ændre Deres dosis af Aranesp. </p>
+<p>Deres læge vil jævnligt kontrollere Deres blodtryk, hyppigst i begyndelsen af behandlingen. </p>
+<p>I nogle tilfælde vil Deres læge anbefale, at De tager et jerntilskud. </p>
+<p>Deres læge kan beslutte at ændre administreringsform (enten under huden eller i en vene). Hvis denne 
+ændring sker, vil De starte med den samme dosis som De fik tidligere, og Deres læge vil tage 
+blodprøver for at sikre sig at Deres blodmangel stadig behandles korrekt. </p>
+<p>Hvis Deres læge beslutter at skifte Deres behandling fra r-HuEPO (genfremstillet erythropoietin) til 
+Aranesp, vælger lægen også, om De skal have en Aranesp-injektion én gang om ugen eller én gang 
+hver anden uge. Det injiceres på samme måde som r-HuEPO, men Deres læge vil fortælle hvilken 
+dosis De skal tage og hvornår De skal tage den og vil om nødvendigt justere Deres dosis. </p>
+<p>Hvis De er i kemoterapi </p>
+<p>Aranesp gives som en enkeltdosis injektion enten én gang om ugen eller én gang hver tredje uge under 
+huden.  </p>
+<p>For at rette op på Deres blodmangel, vil initialdosis være: </p>
+<ul>
+<li>
+<p>500 mikrogram én gang hver tredje uge (6,75 mikrogram Aranesp pr. kilo kropsvægt); eller </p>
+</li>
+<li>
+<p>2,25 mikrogram Aranesp (én gang ugentligt) pr. kilogram kropsvægt. </p>
+</li>
+</ul>
+<p>Deres læge vil regelmæssigt tage blodprøver for at måle, hvorledes effekten på Deres blodmangel er, 
+og vil om nødvendigt tilpasse dosis. Behandlingen skal fortsætte til cirka 4 uger efter endt kemoterapi. 
+Deres læge vil informere Dem om, hvornår De skal stoppe Deres Aranesp-behandling. </p>
+<p>I nogle tilfælde vil Deres læge anbefale, at De tager et jerntilskud. </p>
+<p>Hvis De har brugt for meget Aranesp </p>
+<p>De kan få alvorlige problemer, for eksempel meget højt blodtryk, hvis De tager mere Aranesp, end De 
+har brug for. Hvis det sker, skal De kontakte Deres læge, sygeplejerske eller apotek. Hvis De føler 
+Dem utilpas på nogen måde, bør De omgående kontakte Deres læge, sygeplejerske eller apotek. </p>
+<p>Hvis De har glemt at bruge Aranesp </p>
+<p>De må ikke tage en dobbeltdosis som erstatning for den glemte dosis.  </p>
+<p>Hvis De har glemt en dosis Aranesp, kontakt da Deres læge for at aftale, hvornår De skal indsprøjte 
+den næste dosis. </p>
+<p>Hvis De holder op med at bruge Aranesp </p>
+<p>Hvis De ønsker at holde op med at bruge Aranesp, skal De først drøfte det med Deres læge. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
+<p>Følgende bivirkninger er opstået for nogle patienter, som fik Aranesp: </p>
+<p>Patienter med kronisk nyresvigt </p>
+<p>Meget almindelig: kan ramme mere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Forhøjet blodtryk (hypertension) </p>
+</li>
+<li>
+<p>Allergiske reaktioner </p>
+</li>
+</ul>
+<p>Almindelig: kan ramme op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Slagtilfælde </p>
+</li>
+<li>
+<p>Smerter på injektionsstedet  </p>
+</li>
+<li>
+<p>Udslæt og/eller hudrødmen </p>
+</li>
+</ul>
+<p>Ikke almindelig: kan ramme op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>Blodpropper (trombose) </p>
+</li>
+<li>
+<p>Krampeanfald </p>
+</li>
+<li>
+<p>Blodudtrædning og blødning ved injektionsstedet  </p>
+</li>
+<li>
+<p>Blodpropper ved dialyseadgang </p>
+</li>
+</ul>
+<p>Ikke kendt: kan ikke vurderes ud fra forhåndenværende data </p>
+<ul>
+<li>Pure red cell aplasi (PRCA) – (anæmi, unormal træthed, mangel på energi) </li>
+</ul>
+<p>Cancerpatienter </p>
+<p>Meget almindelig: kan ramme mere end 1 ud af 10 personer </p>
+<ul>
+<li>Allergiske reaktioner </li>
+</ul>
+<p>Almindelig: kan ramme op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Forhøjet blodtryk (hypertension) </p>
+</li>
+<li>
+<p>Blodpropper (trombose) </p>
+</li>
+<li>
+<p>Smerter på injektionsstedet  </p>
+</li>
+<li>
+<p>Udslæt og/eller hudrødmen </p>
+</li>
+<li>
+<p>Væskeophobning (ødem) </p>
+</li>
+</ul>
+<p>Ikke almindelig: kan ramme op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>Krampeanfald </p>
+</li>
+<li>
+<p>Blodudtrædning og blødning ved injektionsstedet </p>
+</li>
+</ul>
+<p>Alle patienter </p>
+<p>Ikke kendt: kan ikke vurderes ud fra forhåndenværende data </p>
+<ul>
+<li>
+<p>Alvorlige allergiske reaktioner, som kan omfatte: </p>
+</li>
+<li>
+<p>Pludselig, livstruende overfølsomhedsreaktion (anafylaksi) </p>
+</li>
+<li>
+<p>Opsvulmen af ansigt, læber, mund, tunge eller hals, hvilket kan føre til besvær med at 
+synke eller trække vejret (angioødem) </p>
+</li>
+<li>
+<p>Stakåndethed (allergisk bronkospasme) </p>
+</li>
+<li>
+<p>Hududslæt </p>
+</li>
+<li>
+<p>Nældefeber (urticaria) </p>
+</li>
+<li>
+<p>Der er rapporteret om alvorlige hududslæt, herunder Stevens-Johnsons syndrom (SJS) og 
+toksisk epidermal nekrolyse (TEN), i forbindelse med behandling med epoetin. Dette kan vise 
+sig på kroppen som rødlige pletter, der ligner skydeskiver, eller runde pletter, ofte med blærer i 
+midten, hudafskalning, sår i mund, hals og næse, på kønsorganerne og i øjnene og kan komme 
+efter feber og influenzalignende symptomer.<br />
+Stop med at tage Aranesp og kontakt straks Deres læge eller søg anden lægehjælp, hvis De får 
+disse symptomer (se afsnit 2). </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store aranesp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store aranesp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.  </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og på den fyldte injektionssprøjte 
+efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C – 8 °C). Må ikke nedfryses. Brug ikke Aranesp, hvis De tror, at det har 
+været nedfrosset. </p>
+<p>Opbevar den fyldte sprøjte i den ydre pakning for at beskytte mod lys. </p>
+<p>Når sprøjten er taget ud af køleskabet og har været opbevaret ved stuetemperatur i ca. 30 minutter før 
+injektionen, skal den anvendes indenfor 7 dage eller bortskaffes. </p>
+<p>Brug ikke lægemidlet, hvis indholdet i sprøjten er grumset, eller der er partikler i det. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aranesp indeholder:</p>
+<ul>
+<li>Aktivt stof: darbepoetin alfa, r-HuEPO (erythropoietin, produceret ved hjælp af genteknologi). 
+Aranesp leveres i fyldte injektionssprøjter som indeholder 10, 15, 20, 30, 40, 50, 60, 80, 100, 
+130, 150, 300 eller 500 mikrogram darbepoetin alfa.  </li>
+<li>Øvrige indholdsstoffer: natriumdihydrogenphosphat, dinatriumphosphat, natriumchlorid, 
+polysorbat 80 og vand til injektionsvæsker. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Aranesp er en klar, farveløs eller svagt perlemorsfarvet opløsning i en fyldt injektionssprøjte.  </p>
+<p>Aranesp findes i pakninger med 1 eller 4 fyldte injektionssprøjter. De fyldte injektionssprøjter leveres 
+enten i (1- og 4-pakninger) eller uden (enkeltvis) blisterpakning. Ikke alle pakningsstørrelser er 
+nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Amgen Europe B.V.<br />
+Minervum 7061<br />
+4817 ZK Breda<br />
+Holland </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+Holland </p>
+<p>Fremstiller 
+Amgen Technology (Ireland) Unlimited Company 
+Pottery Road 
+Dun Laoghaire 
+Co Dublin 
+Irland </p>
+<p>Fremstiller 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgien </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/Tél: +32 (0)2 7752 
+Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7България 
+Амджен България ЕООД 
+Тел.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen<br />
+Belgique/Belgien 
+Tel/Tél: +32 (0)2 7752 
+Česká republika 
+Amgen s.r.o. 
+Tel: +420 221 773 Magyarország 
+Amgen Kft. 
+Tel.: +36 1 35 44 Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617 
+Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732 
+Deutschland 
+AMGEN GmbH 
+Tel.: +49 89 1490 
+Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732 
+Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09Norge 
+Amgen AB 
+Tel: +47 23308 
+Ελλάδα 
+Amgen Ελλάς Φαρμακευτικά Ε.Π.Ε.<br />
+Τηλ.: +30 210 3447 
+Österreich 
+Amgen GmbH<br />
+Tel: +43 (0)1 50<br />
+España 
+Amgen S.A. 
+Tel: +34 93 600 18 60  </p>
+<p>Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3France 
+Amgen S.A.S. 
+Tél: +33 (0)9 69 363 363<br />
+Portugal 
+Amgen Biofarmacêutica, Lda. 
+Tel: +351 21 4220 
+Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57 România 
+Amgen România SRL 
+Tel: +4021 527 3 
+Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527 
+Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 </p>
+<p>Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114<br />
+Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900 
+Kύπρος 
+C.A. Papaellinas Ltd 
+Τηλ.: +357 22741 Sverige 
+Amgen AB<br />
+Tel: +46 (0)8 6951 
+Latvija 
+Amgen Switzerland AG Rīgas filiāle 
+Tel: +371 257 25 
+United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder  </p>
+<p>De kan finde yderligere oplysninger om Aranesp på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://www.laegemiddelstyrelsen.dk. </p>
+<p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
+hjemmeside. </p>
+<ol>
+<li>Instruktioner til injektion med den fyldte injektionssprøjte med Aranesp  </li>
+</ol>
+<p>Dette afsnit giver information om, hvordan De selv kan foretage indsprøjtning med Aranesp. Det er 
+vigtigt, at De ikke selv begynder at give Dem selv indsprøjtning, medmindre De har modtaget 
+undervisning af Deres læge, sygeplejerske eller farmaceut. Hvis De ikke er sikker på, hvordan De skal 
+foretage indsprøjtningen, eller De har andre spørgsmål, så spørg Deres læge, sygeplejerske eller 
+apotek om hjælp. </p>
+<p>Hvordan skal De eller den person, der foretager indsprøjtningen, bruge den fyldte 
+injektionssprøjte med Aranesp? </p>
+<p>Deres læge har bestemt, at De skal foretage indsprøjtningen med den fyldte injektionssprøjten med 
+Aranesp i vævet lige under huden. Deres læge eller sygeplejerske vil fortælle Dem, hvor meget 
+Aranesp De har behov for, og hvor ofte det skal injiceres.  </p>
+<p>Udstyr: </p>
+<p>For at foretage injektion skal De bruge: </p>
+<ul>
+<li>
+<p>en ny fyldt injektionssprøjte med Aranesp og </p>
+</li>
+<li>
+<p>afspritningsservietter eller lignende. </p>
+</li>
+</ul>
+<p>Hvad skal jeg gøre før jeg selv foretager subkutan indsprøjtning med Aranesp? </p>
+<ol>
+<li>
+<p>Tag den fyldte Aranesp injektionssprøjte ud af køleskabet. Opbevar den fyldte injektionssprøjte 
+ved stuetemperatur i cirka 30 minutter. Dette vil gøre injektionen mere behagelig. Aranesp må 
+ikke opvarmes på nogen anden måde (fx i mikrobølgeovn eller varmt vand). Desuden må 
+sprøjten ikke efterlades i direkte sollys. </p>
+</li>
+<li>
+<p>Ryst ikke den fyldte injektionssprøjte. </p>
+</li>
+<li>
+<p>Tag ikke hætten af sprøjten, før De er klar til at injicere indholdet. </p>
+</li>
+<li>
+<p>Kontroller, at det er den korrekte dosis, den som Deres læge har ordineret. </p>
+</li>
+<li>
+<p>Kontroller udløbsdatoen på den fyldte injektionssprøjtes etiket (EXP). Brug ikke sprøjten, hvis 
+den sidste dag i den påtrykte måned er passeret. </p>
+</li>
+<li>
+<p>Kontroller udseendet af Aranesp. Det skal være en klar, farveløs eller svagt perlemorsfarvet 
+væske. Hvis den er uklar eller der er partikler i, må De ikke bruge den. </p>
+</li>
+<li>
+<p>Vask Deres hænder grundigt. </p>
+</li>
+<li>
+<p>Find et behageligt, godt oplyst og rent sted, og læg al det udstyr, De skal bruge i Deres nærhed.  </p>
+</li>
+</ol>
+<p>Hvordan forbereder jeg min Aranesp injektion? </p>
+<p>Før De indsprøjter Aranesp, skal De gøre følgende: </p>
+<ol>
+<li>Fjern forsigtigt kanylens beskyttelseshætte uden at vride, så kanylen 
+ikke bøjes. Dette vises på billederne 1 og 2. 2. Rør ikke ved kanylen og skub ikke til stemplet. </li>
+<li>Det kan være, at De kan se en lille luftboble i den fyldte 
+injektionssprøjten. De behøver ikke at fjerne luftboblen forud for 
+injektion. Injektion af væsken med boble er ikke skadeligt. </li>
+<li>Den fyldte injektionssprøjte er nu klar til brug. </li>
+</ol>
+<p>Hvor skal jeg foretage indsprøjtningen? </p>
+<p>De bedste steder at give indsprøjtningen er højt oppe på låret og i 
+maveregionen. Hvis en anden person foretager injektionen, kan bagsiden 
+af armene også bruges. </p>
+<p>De skal vælge et andet injektionssted, hvis De bemærker, at det valgt 
+område er rødt eller ømt. </p>
+<p>Hvordan foretager jeg selv indsprøjtningen? </p>
+<ol>
+<li>
+<p>Desinficer Deres hud ved at benytte en afspritningsserviet, og tag fat i huden (uden at klemme 
+hårdt til) med tommeltot og pegefinger. </p>
+</li>
+<li>
+<p>Stik kanylen helt ind i huden, som Deres læge, sygeplejerske eller farmaceut har vist Dem. </p>
+</li>
+<li>
+<p>Injicer den ordinerede dosis subkutant efter lægens, sygeplejerskens eller farmaceut anvisninger. </p>
+</li>
+<li>
+<p>Tryk på stemplet med et langsomt, konstant pres, idet der hele tiden holdes fast i huden, indtil 
+sprøjten er tom. </p>
+</li>
+<li>
+<p>Fjern kanylen og slip huden. </p>
+</li>
+<li>
+<p>Hvis De bemærker en plet af blod, kan De forsigtigt duppe den væk med en tot vat eller serviet. 
+Gnid ikke på injektionsstedet. De kan om nødvendigt dække injektionsstedet med et plaster. </p>
+</li>
+<li>
+<p>Anvend kun hver fyldt injektionssprøjte til én indsprøjtning. Anvend ikke eventuel 
+tilbagebleven Aranesp i den fyldte injektionssprøjten. </p>
+</li>
+</ol>
+<p>Husk: Hvis De har problemer, så vær ikke tilbageholdende med at spørge Deres læge eller 
+sygeplejerske om hjælp og råd. </p>
+<p>Bortskaffelse af brugte injektionssprøjter </p>
+<ul>
+<li>
+<p>Sæt ikke beskyttelseshætten tilbage på brugte kanyler, da De kan komme til at stikke Dem ved 
+et uheld. </p>
+</li>
+<li>
+<p>Opbevar de brugte sprøjte utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Bortskaf den brugte fyldte injektionssprøjte i overensstemmelse med de lokale bestemmelser. 
+Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De 
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>
+</li>
+</ul>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Aranesp 10 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 15 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 20 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 30 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 40 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 50 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 60 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 80 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 100 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 130 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 150 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 300 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+Aranesp 500 mikrogram injektionsvæske, opløsning i fyldt pen (SureClick) 
+darbepoetin alfa </p>
+<p>Læs denne indlægsseddel grundigt, inden De begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. De kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, De vil vide. 
+- Lægen har ordineret Aranesp til Dem personligt. Lad derfor være med at give det til andre. Det 
+kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, eller De 
+får bivirkninger, som ikke er nævnt i denne indlægsseddel (se afsnit 4).  </p>
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-53644ac8be35bb2e5f6359de25449b5d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aranesp Package Leaflet for language en"
+Description: "ePI document Bundle for aranesp Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-53644ac8be35bb2e5f6359de25449b5d"
+* entry[0].resource = composition-en-53644ac8be35bb2e5f6359de25449b5d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp53644ac8be35bb2e5f6359de25449b5d"
+* entry[=].resource = mp53644ac8be35bb2e5f6359de25449b5d
+                            
+                    
+Instance: bundlepackageleaflet-da-53644ac8be35bb2e5f6359de25449b5d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aranesp Package Leaflet for language da"
+Description: "ePI document Bundle for aranesp Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-53644ac8be35bb2e5f6359de25449b5d"
+* entry[0].resource = composition-da-53644ac8be35bb2e5f6359de25449b5d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp53644ac8be35bb2e5f6359de25449b5d"
+* entry[=].resource = mp53644ac8be35bb2e5f6359de25449b5d
+                            
+                    
+
+
+
+Instance: mp53644ac8be35bb2e5f6359de25449b5d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Aranesp 10 micrograms solution for injection in pre-filled syringe."
-Description: "Aranesp 10 micrograms solution for injection in pre-filled syringe."
+Title: "Medicinal Product aranesp"
+Description: "aranesp"
 Usage: #inline
 
  
@@ -587,7 +1334,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Aranesp 10 micrograms solution for injection in pre-filled syringe."
+  * productName = "aranesp"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -614,29 +1361,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-53644ac8be35bb2e5f6359de25449b5d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for aranesp Package Leaflet for language en"
-Description: "ePI document Bundle for aranesp Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 53644ac8be35bb2e5f6359de25449b5dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Aranesp 10 micrograms solution for injection pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "aranesp"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-53644ac8be35bb2e5f6359de25449b5d"
-* entry[0].resource = composition-en-53644ac8be35bb2e5f6359de25449b5d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0a6c21c1cc6d4b9039f9be8d46554a4f"
-* entry[=].resource = mp0a6c21c1cc6d4b9039f9be8d46554a4f
-                            
-                      
+* title = "List of all ePIs associated with aranesp"
+
+* subject = Reference(mp0a6c21c1cc6d4b9039f9be8d46554a4f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#aranesp "aranesp"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-53644ac8be35bb2e5f6359de25449b5d) // aranesp en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-53644ac8be35bb2e5f6359de25449b5d) // aranesp da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-53644ac8be35bb2e5f6359de25449b5d
+InstanceOf: List
+
+* insert 53644ac8be35bb2e5f6359de25449b5dListRuleset
+    

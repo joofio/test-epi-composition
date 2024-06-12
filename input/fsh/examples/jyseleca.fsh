@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-86797ea5a5b2ca41d08f535ddec98397
 InstanceOf: CompositionUvEpi
 Title: "Composition for jyseleca Package Leaflet"
@@ -344,12 +347,430 @@ Tel: 0800 072 7This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-86797ea5a5b2ca41d08f535ddec98397
+InstanceOf: CompositionUvEpi
+Title: "Composition for jyseleca Package Leaflet"
+Description:  "Composition for jyseleca Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbfae041ba11313d36de63dbd51a69786)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbfae041ba11313d36de63dbd51a69786
+* title = "TEST PURPOSES ONLY - jyseleca"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Jyseleca </li>
+<li>Sådan skal du tage Jyseleca </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What jyseleca is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What jyseleca is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jyseleca indeholder det aktive stof filgotinib. Det tilhører en gruppe lægemidler, der kaldes Janus 
+kinase-hæmmere, som hjælper med at reducere inflammation. </p>
+<p>Reumatoid artritis 
+Jyseleca anvendes til at behandle voksne med reumatoid artritis, en inflammationssygdom i leddene. 
+Det kan anvendes, hvis tidligere behandling ikke virkede godt nok, eller ikke var tolereret. Jyseleca 
+kan anvendes alene eller sammen med et andet lægemiddel mod artritis, methotrexat. </p>
+<p>Jyseleca reducerer inflammation i kroppen. Det hjælper med at reducere smerter, træthed, stivhed og 
+hævelse i leddene, og det forsinker skader på leddenes knogler og brusk. Disse virkninger kan hjælpe 
+dig med at udføre dine normale daglige aktiviteter og forbedre din livskvalitet. </p>
+<p>Colitis ulcerosa 
+Jyseleca anvendes til at behandle voksne med colitis ulcerosa, en inflammationssygdom i tarmen. Det 
+kan anvendes, hvis du ikke reagerede godt nok på eller ikke kunne tåle den tidligere behandling. Det 
+hjælper med at mindske tegn og symptomer på colitis ulcerosa og mindske dit behov for steroider. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take jyseleca"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take jyseleca"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Jyseleca </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for filgotinib eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6). </p>
+</li>
+<li>
+<p>hvis du har aktiv tuberkulose (TB). </p>
+</li>
+<li>
+<p>hvis du har en aktiv alvorlig infektion (se afsnittet “Advarsler og forsigtighedsregler"). </p>
+</li>
+<li>
+<p>hvis du er gravid, eller har mistanke om, at du er gravid. </p>
+</li>
+</ul>
+<p> Hvis noget af dette gælder for dig, må du ikke tage Jyseleca, og du skal straks informere din 
+læge. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager Jyseleca: </p>
+<ul>
+<li>
+<p>hvis du har en infektion, eller hvis du tit får infektioner. Fortæl det altid til lægen, hvis du får 
+symptomer såsom feber, sår, føler dig mere træt end normalt eller tandproblemer, da de kan 
+være tegn på infektion. Jyseleca kan reducere kroppens evne til at bekæmpe infektioner og kan 
+gøre en eksisterende infektion værre eller øge risikoen for at få en ny infektion. Hvis du har 
+diabetes eller er 65 år eller derover, kan du have en øget risiko for at få infektioner. </p>
+</li>
+<li>
+<p>hvis du nogensinde har haft tuberkulose (TB), eller er kommet i kontakt med nogen med TB. 
+Det kan være nødvendigt at blive undersøgt for tuberkulose, inden og under behandling med 
+Jyseleca. </p>
+</li>
+<li>
+<p>hvis du har haft en herpes zoster infektion (helvedesild) tidligere. Jyseleca kan få det til at 
+vende tilbage. Fortæl det til lægen, hvis du får et smertefuldt hududslæt med blærer i løbet af 
+behandling med Jyseleca, da disse kan være tegn på helvedesild. </p>
+</li>
+<li>
+<p>hvis du nogensinde har haft hepatitis-B eller C. </p>
+</li>
+<li>
+<p>hvis du har eller har haft kræft, ryger eller tidligere har røget, vil din læge drøfte med dig, 
+om Jyseleca er egnet til dig.. </p>
+</li>
+<li>
+<p>Der er blevet observeret non-melanom hudkræft hos patienter, som tager Jyseleca. Din 
+læge kan anbefale, at du får regelmæssige hudundersøgelser, mens du tager Jyseleca. Hvis en ny 
+hudlæsion forekommer under eller efter behandlingen, eller hvis nuværende læsioner ændrer 
+udseende, skal du tale med lægen. </p>
+</li>
+<li>
+<p>hvis du for nylig er blevet vaccineret, eller skal have en vaccination. Visse typer vacciner 
+(levende vacciner) anbefales ikke, mens der bruges Jyseleca. Tal med lægen eller 
+apotekspersonalet, før du begynder at tage Jyseleca. De vil muligvis sikre sig, at du er opdateret 
+med hensyn til vaccinationer. </p>
+</li>
+<li>
+<p>hvis du har eller har haft hjerteproblemer, vil lægen drøfte med dig, om Jyseleca er egnet til 
+dig. </p>
+</li>
+<li>
+<p>hvis du tidligere har haft blodpropper i venerne i dine ben (dyb venetrombose) eller lunger 
+(lungeembolisme) eller har en øget risiko for at udvikle det (f.eks. hvis du for nylig har fået en 
+større operation, hvis du bruger hormonprævention/hormonsubstitutionsterapi, hvis der findes 
+en koagulationsdefekt hos dig eller dine nære slægtninge. Din læge vil drøfte med dig, om 
+Jyseleca er egent til dig. Fortæl det til lægen, hvis du får pludselig åndenød eller besvær med at 
+trække vejret, brystsmerter eller smerter i den øvre del af ryggen, hævet ben eller arm, smerter 
+eller ømhed i benet, eller hvis benet eller armen bliver rød(t) eller misfarvet, da disse kan være 
+tegn på blodpropper i venerne. </p>
+</li>
+</ul>
+<p>Ældre </p>
+<p>Patienter i alderen 65 år og derover kan have en øget risiko for infektioner, hjerteanfald og nogle 
+former for kræft. Din læge kan beslutte, at Jyseleca ikke er egnet til dig. </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke gives til børn og unge under 18 år, da det ikke er undersøgt i denne 
+aldersgruppe. </p>
+<p>Brug af andre lægemidler sammen med Jyseleca 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler en eller planlægger at tage andre lægemidler, især hvis du tager lægemidler, der 
+påvirker dit immunsystem (såsom ciclosporin eller tacrolimus). 
+Det er også meget vigtigt at tale med lægen eller apotekspersonalet, hvis du tager noget af de følgende: </p>
+<ul>
+<li>
+<p>lægemidler til at behandle hjertesvigt, hjertesygdom eller forhøjet blodtryk (såsom diltiazem 
+eller carvedilol) </p>
+</li>
+<li>
+<p>lægemidlet fenofibrat (anvendt til at behandle forhøjet kolesterol) </p>
+</li>
+</ul>
+<p>Graviditet, prævention og amning 
+Graviditet 
+Jyseleca må ikke anvendes under graviditet. Hvis du er gravid, eller har mistanke om, at du er 
+gravid eller planlægger at blive gravid, må du ikke tage dette lægemiddel. Spørg lægen til råds, før du 
+tager Jyseleca. </p>
+<p>Prævention 
+Du skal undgå at blive gravid, mens du tager Jyseleca. Du skal anvende sikker prævention, mens 
+du tager Jyseleca, og i mindst 1 uge efter du tager din sidste dosis Jyseleca. Hvis du bliver gravid, 
+mens du tager Jyseleca, skal du stoppe med at tage tabletterne og straks informere din læge. </p>
+<p>Amning 
+Du må ikke amme, mens du tager Jyseleca. Det vides ikke, om det aktive stof passerer ind i 
+modermælk. </p>
+<p>Trafik- og arbejdssikkerhed 
+Jyseleca kan forårsage svimmelhed og en fornemmelse af at snurre rundt (vertigo). Hvis du føler dig 
+svimmel, mens du tager Jyseleca, må du ikke føre motorkøretøj eller anvende nogen redskaber eller 
+maskiner. </p>
+<p>Jyseleca indeholder lactose 
+Hver Jyseleca 100 mg filmovertrukket tablet indeholder 76 mg lactose, og hver Jyseleca 200 mg 
+filmovertrukket tablet indeholder 152 mg lactose. Hvis lægen har fortalt dig, at du er intolerant over 
+for bestemte sukkerarter, skal du kontakte lægen, før du tager dette lægemiddel. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take jyseleca"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take jyseleca"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Den anbefalede dosis er en 200 mg eller 100 mg tablet en gang dagligt. </p>
+<p>Hvis du er i alderen 65 år eller derover og har reumatoid artritis eller hvis du har nyreproblemer, kan 
+din læge anbefale en dosis på en 100 mg tablet en gang dagligt. Jyseleca anbefales ikke til dig, hvis du 
+er over 75 år og har colitis ulcerosa. Tal med din læge, hvis du har alvorlige leverproblemer, da 
+Jyseleca ikke anbefales til dig. </p>
+<p>Slug tabletten med et glas vand. Tabletten må ikke deles, knuses eller tygges før den sluges, da det kan 
+ændre hvor meget lægemiddel der bliver optaget i kroppen. Jyseleca kan tages med mad eller mellem 
+måltider. Tørremidlet må ikke sluges. </p>
+<p>Tag Jyseleca på samme tid hver dag. Det vil hjælpe dig med at huske at tage tabletterne. </p>
+<p>Din læge kan stoppe behandlingen midlertidigt eller permanent, hvis blodprøver viser et lavt antal 
+hvide eller røde blodceller. </p>
+<p>Hvis du har taget for meget Jyseleca 
+Hvis du har taget flere tabletter, end du skulle, skal du straks fortælle det til lægen. </p>
+<p>Hvis du har glemt at tage Jyseleca </p>
+<ul>
+<li>
+<p>Hvis du glemmer en dosis, skal du tage den så snart, du kommer i tanke om det. </p>
+</li>
+<li>
+<p>Hvis du har gået et helt døgn (24 timer) uden at tage en dosis, skal du blot springe den glemte 
+dosis over og tage en enkelt dosis på det sædvanlige tidspunkt. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Jyseleca 
+Hvis du holder op med at tage Jyseleca, skal du fortælle det til lægen med det samme. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger 
+Kontakt lægen eller søg lægehjælp med det samme, hvis du får tegn på en alvorlig infektion såsom: </p>
+<ul>
+<li>
+<p>feber og symptomer på urinvejsinfektion (hyppigere vandladninger end normalt, smerter eller 
+ubehag ved vandladning eller rygsmerter). Urinvejsinfektioner er almindelige (kan berøre op til 
+1 ud af 10 personer) og nogle af dem kan være alvorlige. </p>
+</li>
+<li>
+<p>lungeinfektion (lungebetændelse): symptomer kan omfatte vedvarende hoste, feber, åndenød og 
+træthed. Dette er ikke almindeligt (kan berøre op til 1 ud af 100 personer). </p>
+</li>
+<li>
+<p>helvedesild: symptomer kan omfatte et smertefuldt hududslæt med blærer. Dette er ikke 
+almindeligt (kan berøre op til 1 ud af 100 personer). </p>
+</li>
+<li>
+<p>Blodinfektion (sepsis): ikke almindelig (kan berøre op til 1 ud af 100 personer). </p>
+</li>
+</ul>
+<p>Andre bivirkninger 
+Kontakt lægen, hvis du bemærker nogen af følgende bivirkninger: </p>
+<p>Almindelig 
+(kan berøre op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>hals- og næseinfektioner </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+</ul>
+<p>Blodprøver kan vise: </p>
+<ul>
+<li>et lavt antal hvide blodlegemer (lymfocytter). </li>
+</ul>
+<p>Ikke almindelig 
+(kan berøre op til 1 ud af 100 personer) </p>
+<ul>
+<li>fornemmelse af at snurre rundt (vertigo) </li>
+</ul>
+<p>Blodprøver kan vise: </p>
+<ul>
+<li>
+<p>et lavt antal hvide blodlegemer (neutrofiler) </p>
+</li>
+<li>
+<p>en stigning i et muskelenzym kaldet kreatininfosfokinase </p>
+</li>
+<li>
+<p>en stigning i blodfedtindholdet (kolesterol). </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store jyseleca"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store jyseleca"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Tag ikke lægemidlet efter den udløbsdato, der står på æsken og beholderen efter EXP. Udløbsdatoen 
+er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale pakning for at beskytte mod fugt. Hold beholderen tæt tillukket. Tag ikke 
+lægemidlet, hvis du bemærker, at forseglingen over beholderens åbning er brudt eller mangler. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jyseleca indeholder: </p>
+<ul>
+<li>
+<p>Aktivt stof: filgotinib. Hver filmovertrukket tablet indeholder 100 eller 200 mg filgotinib (som 
+filgotinibmaleat). </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: 
+Tabletkerne: mikrokrystallinsk cellulose, lactosemonohydrat, prægelatiniseret stivelse, kolloid 
+siliciumdioxid, fumarsyre, magnesiumstearat 
+Filmovertræk: polyvinylalkohol, titandioxid (E171), macrogol, talcum, gul jernoxid (E172), rød 
+jernoxid (E172) </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Jyseleca 100 mg filmovertrukne tabletter er beige, 12 mm × 7 mm store, kapselformede med “G" på 
+den ene side og “100" på den anden side. </p>
+<p>Jyseleca 200 mg filmovertrukne tabletter er beige, 17 mm × 8 mm store, kapselformede med “G" på 
+den ene side og “200" på den anden side. </p>
+<p>Jyseleca 100 mg og 200 mg fås i beholdere med 30 tabletter og i pakker med 3 beholdere, hver med 
+30 tabletter. Hver beholder indeholder et tørremiddel af silicagel, der skal forblive i beholderen for at 
+beskytte tabletterne. Tørremidlet af silicagel er indeholdt i et/en separat pose eller kapsel og må ikke 
+sluges. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Galapagos NV 
+Gen. De Wittelaan L11 A3 
+2800 Mechelen 
+Belgien </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<p>QR-kode indsættes 
+www.jyseleca.eu </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-86797ea5a5b2ca41d08f535ddec98397
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jyseleca Package Leaflet for language en"
+Description: "ePI document Bundle for jyseleca Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-86797ea5a5b2ca41d08f535ddec98397"
+* entry[0].resource = composition-en-86797ea5a5b2ca41d08f535ddec98397
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp86797ea5a5b2ca41d08f535ddec98397"
+* entry[=].resource = mp86797ea5a5b2ca41d08f535ddec98397
+                            
+                    
+Instance: bundlepackageleaflet-da-86797ea5a5b2ca41d08f535ddec98397
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jyseleca Package Leaflet for language da"
+Description: "ePI document Bundle for jyseleca Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-86797ea5a5b2ca41d08f535ddec98397"
+* entry[0].resource = composition-da-86797ea5a5b2ca41d08f535ddec98397
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp86797ea5a5b2ca41d08f535ddec98397"
+* entry[=].resource = mp86797ea5a5b2ca41d08f535ddec98397
+                            
+                    
+
+
+
+Instance: mp86797ea5a5b2ca41d08f535ddec98397
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Jyseleca 100 mg film-coated tablets"
-Description: "Jyseleca 100 mg film-coated tablets"
+Title: "Medicinal Product jyseleca"
+Description: "jyseleca"
 Usage: #inline
 
  
@@ -369,7 +790,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Jyseleca 100 mg film-coated tablets"
+  * productName = "jyseleca"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -396,29 +817,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-86797ea5a5b2ca41d08f535ddec98397
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for jyseleca Package Leaflet for language en"
-Description: "ePI document Bundle for jyseleca Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 86797ea5a5b2ca41d08f535ddec98397ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Jyseleca 100 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "jyseleca"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-86797ea5a5b2ca41d08f535ddec98397"
-* entry[0].resource = composition-en-86797ea5a5b2ca41d08f535ddec98397
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbfae041ba11313d36de63dbd51a69786"
-* entry[=].resource = mpbfae041ba11313d36de63dbd51a69786
-                            
-                      
+* title = "List of all ePIs associated with jyseleca"
+
+* subject = Reference(mpbfae041ba11313d36de63dbd51a69786)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#jyseleca "jyseleca"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-86797ea5a5b2ca41d08f535ddec98397) // jyseleca en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-86797ea5a5b2ca41d08f535ddec98397) // jyseleca da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-86797ea5a5b2ca41d08f535ddec98397
+InstanceOf: List
+
+* insert 86797ea5a5b2ca41d08f535ddec98397ListRuleset
+    

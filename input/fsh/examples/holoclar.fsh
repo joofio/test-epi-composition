@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9435ec03e40e267b4ae7d35097656572
 InstanceOf: CompositionUvEpi
 Title: "Composition for holoclar Package Leaflet"
@@ -254,12 +257,428 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-9435ec03e40e267b4ae7d35097656572
+InstanceOf: CompositionUvEpi
+Title: "Composition for holoclar Package Leaflet"
+Description:  "Composition for holoclar Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpddb44d6d0a30e19ebe7dea543cae7e63)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpddb44d6d0a30e19ebe7dea543cae7e63
+* title = "TEST PURPOSES ONLY - holoclar"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at få Holoclar 
+3. Sådan får du Holoclar 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What holoclar is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What holoclar is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Holoclar er et lægemiddel, der anvendes til at udskifte beskadigede celler i hornhinden (det klare lag, 
+der dækker den farvede iris foran i øjet), herunder limbale celler, som normalt hjælper med at holde dit 
+øje raskt. </p>
+<p>Holoclar består af et lag af dine celler, som er blevet dyrket (ex vivo-ekspanderet) fra en prøve limbale 
+celler, der blev taget fra dit øje ved et lille kirurgisk indgreb, som kaldes en biopsi. Hvert Holoclar-
+præparat fremstilles individuelt og er kun beregnet til en enkelt behandling, selvom behandlinger kan 
+gentages. Cellerne, der anvendes til at fremstille Holoclar, er kendt som autologe, limbale celler. </p>
+<ul>
+<li>
+<p>Autolog betyder, at det er dine egne celler. </p>
+</li>
+<li>
+<p>Limbus er en del af øjet. Det er kanten, der omkranser den farvede midte (iris) i øjet. 
+Billedetviser, hvorlimbusbefinder sig iøjet. </p>
+</li>
+<li>
+<p>Limbus indeholder limbale celler, som normalt hjælper med til at bevare øjets sundhed 
+og nogle af disse er stamceller, som kan generere nye celler. Disse nye celler kan 
+erstatte de beskadigede celler i øjet. </p>
+</li>
+</ul>
+<p>Bindehinde 
+Hornhinde 
+Holoclar implanteres for at reparere øjets beskadigede overflade hos voksne. Når øjet er svært 
+beskadiget af fysiske eller kemiske forbrændinger, kan der opstå en hel del ardannelse, og limbus kan 
+blive beskadiget. Beskadigelse af limbus standser normal heling, hvilket betyder, at beskadigelsen af 
+dit øje aldrig helt kan repareres. </p>
+<p>Ved at tage nogle raske limbale celler, dyrkes et nyt lag raskt væv i laboratoriet på et understøttende 
+fibrinlag, som er en proteinstruktur. En kirurg implanterer dernæst dette vævslag i den beskadigede 
+hornhinde, som hjælper dit øje med at hele normalt. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take holoclar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take holoclar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Holoclar:</p>
+<ul>
+<li>hvis du er allergisk over for et af de øvrige indholdsstoffer i Holoclar (angivet i punkt 6) eller 
+over for bovint serum og museceller. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt kirurgen, før du får Holoclar. </p>
+<p>Holoclar fremstilles individuelt fra dine egne celler, så de matcher dig, og må ikke anvendes af andre 
+end dig selv. </p>
+<p>Hvis du har en akut øjeninfektion eller hævede, røde (betændte) øjne, skal din behandling udsættes, 
+indtil du er blevet rask. </p>
+<p>I fremstillingen af Holoclar anvendes der to indholdsstoffer fra dyr. Et er føtalt bovint serum, som 
+stammer fra køer, og som anvendes i dyrkningen af dine celler. Det andet indholdsstof er en særlig 
+slags inaktiveret musecelle, som anvendes til at dyrke dine limbale celler. Hvis du er allergisk over 
+for et eller begge disse indholdsstoffer, vil du ikke få dette lægemiddel (se ovenfor under ’Du må 
+ikke få Holoclar’). </p>
+<p>Hvis du har et af de følgende problemer med øjnene, skal de behandles, før dette lægemiddel 
+anvendes: 
+• Ujævne øjenlåg 
+• Ardannelse på bindehinden (det beskyttende lag over det hvide i øjet) med beskadigelse, 
+hvor den forbindes til indersiden af øjenlågene (fornix-forkortelse). 
+• Øjnenes manglende evne til at mærke smerte (følelsesløs hornhinde eller bindehinde eller 
+nedsat følelse) 
+• Vækst af bindehinden over hornhinden (pterygium) 
+• Ekstremt tørre øjne. </p>
+<p>Andre tilfælde, hvor Holoclar ikke kan anvendes 
+Selvom kirurgen allerede har taget en lille prøve limbale celler (en biopsi), der er nødvendig for at 
+kunne fremstille lægemidlet, er det muligt, at du ikke vil kunne få behandling med Holoclar. Dette er 
+tilfældet, hvis biopsien ikke er god nok til at fremstille Holoclar, cellerne ikke kan dyrkes i laboratoriet 
+eller de dyrkede celler ikke opfylder alle kvalitetskrav. Din kirurg vil informere dig om dette. </p>
+<p>Børn og unge 
+Kun et meget lille antal børn er blevet behandlet indtil videre, så der er begrænset data, om hvorvidt 
+behandlingen er sikker at anvende til børn eller hvor effektivt den er. </p>
+<p>Nyre- og leverproblemer 
+Hvis du har lever- eller nyresygdom, skal du inden behandlingens start tale med kirurgen. </p>
+<p>Brug af anden medicin sammen med Holoclar 
+Nogle øjendråber indeholder et konserveringsmiddel kaldet "benzalkoniumchlorid". Dette 
+indholdsstof beskadiger cellerne, som Holoclar er fremstillet af. Brug ikke øjendråber, der indeholder 
+benzalkoniumchlorid og/eller andre konserveringsmidler. Spørg din læge eller apotekspersonalet til 
+råds. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, bør 
+behandlingen med dette lægemiddel udsættes.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Holoclar gives til dig via et indgreb i øjet og dette vil påvirke din evne til at føre motorkøretøj og 
+betjene maskiner. Derfor må du ikke føre motorkøretøj eller betjene maskiner, når du har fået 
+Holoclar anbragt i øjet, indtil kirurgen fortæller dig, at det er sikkert at gøre dette. Følg kirurgens råd 
+nøje. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take holoclar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take holoclar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Holoclar kan kun ordineres og gives af en øjenkirurg på et hospital. 
+Behandlingen med Holoclar er en procedure i 2 trin. </p>
+<p>Besøg 1: Biopsi tages 
+Ved det første besøg vil kirurgen udføre en biopsi, som betyder fjernelse af en meget lille mængde 
+væv med limbale celler (fra øjet). Før biopsien vil kirurgen give dig øjendråber til at bedøve dit øje 
+og udtage biopsien ved et lille indgreb. Denne biopsi vil dernæst blive anvendt til at fremstille 
+Holoclar. Når biopsien er blevet taget, vil kirurgen ordinere en antibiotikakur til dig for at reducere 
+risikoen for en infektion. 
+Det vil tage adskillige uger at fremstille Holoclar. </p>
+<p>Besøg 2: Holoclar-implantation 
+Ved det andet besøg vil kirurgen: </p>
+<ul>
+<li>
+<p>Bedøve dit øje </p>
+</li>
+<li>
+<p>Fjerne hornhindens arrede overflade </p>
+</li>
+<li>
+<p>Erstatte den med Holoclar 
+På dagen for indgrebet vil kirurgen bedøve dit øje og vil dernæst fastgøre kanten af din nye hornhinde 
+med sting for at sikre, at Holoclar bliver på plads. Dit øjenlåg vil blive lukket med plaster i tre dage, og 
+du skal have en forbinding over øjet i 10 til 15 dage efter implantationen. </p>
+</li>
+</ul>
+<p>Efter indgrebet vil du få ordineret en kur med lægemidler for at sikre en fuldstændig heling: 
+Antibiotika for at reducere risikoen for en infektion og steroider for at reducere hævelse og irritation. 
+Det er meget vigtigt, at du bruger alle lægemidler, der er ordineret af din kirurg, da Holoclar måske 
+ellers ikke virker. Du bedes læse indlægssedlen for de enkelte lægemidler, du får, for yderligere 
+information om disse lægemidler. </p>
+<p>Spørg kirurgen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>De fleste bivirkninger påvirker øjet, hvoraf nogle er forårsaget af indgrebet eller tilhørende 
+lægemiddelbehandling. De fleste bivirkninger er lette og forsvinder nogle uger efter indgrebet. </p>
+<p>De alvorligste bivirkninger er problemer med cornea (erosion) og perforation af cornea, forårsaget 
+af behandlingssvigt, hvilket kan forekomme inden for 3 måneder efter Holoclar implantation. 
+Sker det, skal du kontakte din læge. </p>
+<p>Almindelig: kan påvirke op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Blødning rundt om indgrebsstedet, hvor Holoclar blev indsat </p>
+</li>
+<li>
+<p>Problemer med hornhinden (erosion) </p>
+</li>
+<li>
+<p>Øget tryk i øjet (glaukom) </p>
+</li>
+<li>
+<p>Øjensmerter </p>
+</li>
+<li>
+<p>Betændelse i hornhinden  </p>
+</li>
+<li>
+<p>Betændelse i øjenlågene (blepharitis) </p>
+</li>
+<li>
+<p>Øjenkomplikationer på grund af operationen  </p>
+</li>
+</ul>
+<p>Ikke almindelig: kan påvirke op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>Øjenlidelser - klæbrighed af øjenlåget, blodskudte øjne, hævelse og betændelse i øjet, 
+perforation, udtynding og uigennemsigtighed af hornhinden, øjenirritation, drejning af 
+øjenlåget, indadgående vækst af øjenvipper, udvidelse af pupillen og tåredannelse </p>
+</li>
+<li>
+<p>Lysfølsomhed </p>
+</li>
+<li>
+<p>Overvækst rundt om implantatet (metaplasi) </p>
+</li>
+<li>
+<p>Følelse af fremmedlegeme i øjet </p>
+</li>
+<li>
+<p>Infektion i cornea </p>
+</li>
+<li>
+<p>Øjenbetændelse </p>
+</li>
+<li>
+<p>Stingene knækker </p>
+</li>
+<li>
+<p>Besvimelse </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Blødning fra øjenlågets hud </p>
+</li>
+<li>
+<p>Allergisk kontakteksem </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med kirurgen. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
+direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført Appendix V*. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store holoclar"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store holoclar"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følgende information er kun beregnet til læger. </p>
+<p>Opbevar lægemidlet utilgængeligt for børn. 
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten efter EXP. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C eller under 15 °C. 
+Må ikke opbevares i køleskab eller nedfryses. 
+Opbevar Holoclar i stålbeholderen i plastposen indtil indgrebet. Det er for at beskytte det mod 
+forurening med bakterier. 
+Holoclar må ikke bestråles eller steriliseres. </p>
+<p>Da lægemidlet vil blive anvendt under et indgreb, er hospitalspersonalet ansvarligt for den korrekte 
+opbevaring af lægemidlet før og under dets anvendelse, samt for den korrekte bortskaffelse. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Holoclar indeholder:</p>
+<ul>
+<li>Aktivt stof: 300.000-1.200.000 af dine levende øjenceller, af hvilket 3,5 % gennemsnitligt 
+er stamceller. Hver kvadratcentimeter af Holoclar indeholder 79.000-316.000 celler. </li>
+<li>Øvrige indholdsstoffer: et er fibrin - et klart, understøttende lag, der anvendes til at holde 
+Holoclar intakt, det andet er en væske, der indeholder aminosyrer, vitaminer, salte og 
+kulhydrater, til at opbevare cellerne i hætteglasset kaldet Dulbecco’s Modified Eagles-medium, 
+suppleret med L-glutamin. </li>
+</ul>
+<p>Udseende og pakningsstørrelse 
+Holoclar er et lag celler til implantation i dit øje. Cellerne holdes i live i en lille, steril beholder. 
+Lægemidlet anbringes i flere lag emballage, som beskytter lægemidlet mod bakterier og sikrer, 
+at Holoclar opbevares ved en stabil temperatur i 36 timer, hvis det opbevares ved 
+stuetemperatur (15-25°C). </p>
+<p>Hver pakke indeholder en individuel behandlingsdosis, som er stor nok til at dække din hornhinde. </p>
+<p>Indehaver af markedsføringstilladelsen og Fremstiller 
+Holostem s.r.l. 
+Via Glauco Gottardi 100, Modena, 41125, Italien 
+Telefon: +39 059 2058Fax: +39 059 2058 
+Denne indlægsseddel blev senest ændret  &lt;{MM/YYYY}&gt; </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu/. </p>
+<hr />
+<p>Følgende information er kun beregnet til læger. </p>
+<p>Forholdsregler, der skal tages før håndtering eller administration af lægemidlet </p>
+<p>Holoclar skal transporteres indenfor hospitalsafdelingen i lukkede, brudsikre, lækagesikre beholdere. </p>
+<p>Dette lægemiddel indeholder humane corneale epitelceller. Sundhedspersoner, der håndterer Holoclar, 
+skal tage passende forholdsregler iført handsker, beskyttelsestøj og øjenværn for at undgå potentiel 
+overførsel af infektionssygdomme. </p>
+<p>Forberedelse inden administration </p>
+<p>Holoclar er et lægemiddel beregnet til avanceret terapi, klar til implantation. 
+Holoclar skal administreres af en passende uddannet og kvalificeret kirurg. </p>
+<p>Administration </p>
+<p>Implantation 
+Holoclar er udelukkende beregnet til autolog brug og må under ingen omstændigheder administreres 
+til andre patienter. Holoclar må ikke administreres, hvis oplysningerne på produktetiketterne og batch 
+nummeret ikke stemmer overens med patientens identitet.  </p>
+<p>Holoclar skal administreres under aseptiske forhold i forbindelse med limbalperitomi, mobilisering af 
+conjunctiva og ekscision af corneasfibrovaskulære væv ved klargøring af det defekte lag. Dernæst 
+tilpasses det dyrkede væv under den mobiliserede conjunctiva. Implantatets overskydende stykke 
+skæres væk og kanten dækkes med conjunctiva med 2 til 3 sting (suturer) af vikryl eller silke 8/0 for at 
+kunne danne en fysisk lukning af læsionen og for at fastgøre implantatet. Øjenlågene holdes lukkede 
+over implantatet med et steri-strip-tape. </p>
+<p>Holoclar implanteres generelt under topisk retrobulbær eller parabulbær anæstesi. Andre 
+anæstesiologiske procedurer kan følges efter kirurgens skøn, undtagen brug af lidocain lokalanalgetika 
+eller analgetika indeholdende adrenalin.  </p>
+<p>Samtidig brug af Holoclar og øjendråber, der indeholder benzalkoniumchlorid og/eller andre 
+konserveringsmidler, anbefales ikke. </p>
+<p>Proceduren for Holoclar-administration inkluderer brugen af antibiotika og kortikosteroider. 
+Efter implantation skal der gives et passende regime med topisk og systemisk antiinflammatorisk og 
+profylaktisk antibiotikabehandling. </p>
+<p>Implantationen skal følges op af en passende monitoreringsplan. </p>
+<p>Forholdsregler i tilfælde af utilsigtet eksponering </p>
+<p>I tilfælde af utilsigtet eksponering skal lokale retningslinjer for håndtering af materiale af human 
+oprindelse følges. Arbejdsflader og materialer, der potentielt har været i kontakt med Holoclar, skal 
+dekontamineres med passende desinfektionsmiddel. </p>
+<p>Forholdsregler, der skal tages ved bortskaffelse af lægemidlet </p>
+<p>Ikke anvendt lægemiddel og alt materiale, som har været i kontakt med Holoclar (fast og flydende 
+affald), skal håndteres og bortskaffes som potentielt smitsomt affald i overensstemmelse med de lokale 
+retningslinier om håndering af materiale af human oprindelse. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9435ec03e40e267b4ae7d35097656572
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for holoclar Package Leaflet for language en"
+Description: "ePI document Bundle for holoclar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9435ec03e40e267b4ae7d35097656572"
+* entry[0].resource = composition-en-9435ec03e40e267b4ae7d35097656572
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9435ec03e40e267b4ae7d35097656572"
+* entry[=].resource = mp9435ec03e40e267b4ae7d35097656572
+                            
+                    
+Instance: bundlepackageleaflet-da-9435ec03e40e267b4ae7d35097656572
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for holoclar Package Leaflet for language da"
+Description: "ePI document Bundle for holoclar Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9435ec03e40e267b4ae7d35097656572"
+* entry[0].resource = composition-da-9435ec03e40e267b4ae7d35097656572
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9435ec03e40e267b4ae7d35097656572"
+* entry[=].resource = mp9435ec03e40e267b4ae7d35097656572
+                            
+                    
+
+
+
+Instance: mp9435ec03e40e267b4ae7d35097656572
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Holoclar 79,000 - 316,000 cells/cm2 living tissue equivalent"
-Description: "Holoclar 79,000 - 316,000 cells/cm2 living tissue equivalent"
+Title: "Medicinal Product holoclar"
+Description: "holoclar"
 Usage: #inline
 
  
@@ -279,7 +698,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Holoclar 79,000 - 316,000 cells/cm2 living tissue equivalent"
+  * productName = "holoclar"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -306,29 +725,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9435ec03e40e267b4ae7d35097656572
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for holoclar Package Leaflet for language en"
-Description: "ePI document Bundle for holoclar Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9435ec03e40e267b4ae7d35097656572ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "10"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "holoclar"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9435ec03e40e267b4ae7d35097656572"
-* entry[0].resource = composition-en-9435ec03e40e267b4ae7d35097656572
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpddb44d6d0a30e19ebe7dea543cae7e63"
-* entry[=].resource = mpddb44d6d0a30e19ebe7dea543cae7e63
-                            
-                      
+* title = "List of all ePIs associated with holoclar"
+
+* subject = Reference(mpddb44d6d0a30e19ebe7dea543cae7e63)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#holoclar "holoclar"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9435ec03e40e267b4ae7d35097656572) // holoclar en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9435ec03e40e267b4ae7d35097656572) // holoclar da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9435ec03e40e267b4ae7d35097656572
+InstanceOf: List
+
+* insert 9435ec03e40e267b4ae7d35097656572ListRuleset
+    

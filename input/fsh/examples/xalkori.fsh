@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1c9a12a6360cb16de82a801c02ba58e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for xalkori Package Leaflet"
@@ -466,12 +469,663 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-1c9a12a6360cb16de82a801c02ba58e9
+InstanceOf: CompositionUvEpi
+Title: "Composition for xalkori Package Leaflet"
+Description:  "Composition for xalkori Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp3ac3a2b78bfd9ad0744ce1b4373a6817)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp3ac3a2b78bfd9ad0744ce1b4373a6817
+* title = "TEST PURPOSES ONLY - xalkori"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage XALKORI
+3. Sådan skal du tage XALKORI
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What xalkori is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What xalkori is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>XALKORI er medicin, der bruges til behandling af kræft. XALKORI indeholder det aktive stof 
+crizotinib, som anvendes til behandling af voksne med en særlig form for lungekræft, som kaldes ikke-
+småcellet lungekræft, hvor der er en ændring eller en fejl i enten et gen, som kaldes anaplastisk 
+lymfomkinase (ALK), eller et gen, som kaldes ROS1. XALKORI kan ordineres til dig til den indledende behandling, hvis din lungekræft er i et fremskredent 
+stadium.
+XALKORI kan ordineres til dig, hvis din sygdom er i et fremskredent stadium og hvis tidligere 
+behandling ikke har virket.
+XALKORI kan hæmme eller standse lungekræftens vækst. Det kan også få tumoren til at skrumpe.
+XALKORI bruges til at behandle børn og unge (i alderen ≥ 6 år til &lt; 18 år) med en type tumor, der 
+kaldes anaplastisk storcellet lymfom (ALCL), eller en type tumor, der kaldes inflammatorisk 
+myofibroblasttumor (IMT), som har en bestemt omstrukturering eller defekt i et gen, der kaldes 
+anaplastisk lymfomkinase (ALK).
+XALKORI kan udskrives til børn og unge som behandling af ALCL, hvis tidligere behandling ikke 
+har hjulpet med at standse sygdommen.
+XALKORI kan udskrives til børn og unge som behandling af IMT, hvis operation ikke har hjulpet 
+med at standse sygdommen.
+57
+Du må kun få dette lægemiddel under tilsyn af en læge, der har erfaring med kræftbehandling. Kontakt 
+lægen, hvis du har spørgsmål om, hvordan XALKORI virker, eller hvorfor du har fået denne medicin.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take xalkori"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take xalkori"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke XALKORI:</h2>
+<p>hvis du er allergisk over for crizotinib eller et af de øvrige indholdsstoffer i XALKORI (angivet 
+i punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, før du tager XALKORI:
+
+Hvis du har haft moderat eller alvorlig leversygdom.
+
+Hvis du på noget tidspunkt har haft andre lungeproblemer. Nogle lungeproblemer bliver værre 
+under behandlingen med XALKORI fordi XALKORI kan give en betændelseslignende tilstand 
+i lungerne under behandlingen. Symptomer kan minde om symptomer på lungekræft. Fortæl det 
+straks til lægen, hvis du får nye forværrede symptomer herunder besvær med at trække vejret, 
+åndenød, hoste med eller uden slim eller feber.
+
+Hvis du har fået at vide, at du har forstyrrelser i hjerterytmen kaldet forlænget QT-interval, som 
+kan ses på et elektrokardiogram (ekg).
+
+Hvis din puls er langsom.
+
+Hvis du på noget tidspunkt har haft mave- eller tarmproblemer som f.eks. huller (perforering), 
+eller hvis du har lidelser, der giver betændelse i maven (divertikulitis), eller hvis du har kræft, 
+der har bredt sig i maven (metastase).
+
+Hvis du har synsforstyrrelser (ser lysglimt, har sløret syn eller dobbeltsyn).
+
+Hvis du har alvorligt nedsat nyrefunktion.
+
+Hvis du bliver behandlet med medicin nævnt under afsnittet "Brug af anden medicin sammen 
+med XALKORI".
+Fortæl det til lægen, hvis noget af ovenstående gælder for dig.
+Kontakt straks lægen, når du har taget XALKORI:
+
+Hvis du oplever stærke smerter i maven eller underlivet, feber, kulderystelser, åndenød, 
+hjertebanken, delvist eller fuldstændigt synstab (på et eller begge øjne) eller ændringer i 
+afføringsmønstret.
+Der er mest information om voksne patienter med en særlig celletype af ALK-positiv eller 
+ROS1-positiv ikke-småcellet lungekræft (adenokarcinom). Der er begrænset information om patienter 
+med andre celletyper.
+Børn og unge
+Indikationen ikke-småcellet lungekræft omfatter ikke børn og unge. Giv ikke dette lægemiddel til børn 
+under 6 år med ALK-positiv ALCL eller ALK-positiv IMT. Det skal konstateres, at barnet eller den 
+unge er i stand til at synke kapslerne hele, før XALKORI udskrives. En voksen skal føre tilsyn, når 
+XALKORI gives til børn og unge.
+Brug af anden medicin sammen med XALKORI
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin.
+Medicinen nævnt herunder kan især øge risikoen for at få bivirkninger af XALKORI:
+58
+
+Clarithromycin, telithromycin, erythromycin, antibiotika til behandling af infektioner med 
+bakterier.
+
+Ketoconazol, itraconazol, posaconazol, voriconazol, bruges til behandling af svampeinfektion.
+
+Atazanavir, ritonavir, cobicistat bruges til behandling af hiv-infektioner/AIDS.
+Medicinen nævnt herunder kan nedsætte virkningen af XALKORI
+
+Phenytoin, carbamazepin eller phenobarbital, medicin mod epileptiske kramper eller anfald.
+
+Rifabutin, rifampicin, bruges til behandling af tuberkulose.
+
+Naturlægemiddel, som indeholder perikon - til lindring af nervøsitet og nedtrykthed.
+XALKORI kan øge bivirkninger i forbindelse med følgende lægemidler:
+
+Alfentanil og anden korttidsvirkende stærk smertestillende medicin som fx fentanyl (anvendes 
+under operation).
+
+Kinidin, digoxin, disopyramid, amiodaron, sotalol, dofetilid, ibutilid, verapamil, diltiazem til 
+behandling af problemer med hjertet.
+
+Medicin mod forhøjet blodtryk, der kaldes beta-blokkere, fx atenolol, propranolol og labetolol.
+
+Pimozid, til behandling af psykisk sygdom.
+
+Metformin, til behandling af sukkersyge (diabetes mellitus).
+
+Procainamid, til behandling af forstyrrelser i hjerterytmen.
+
+Cisaprid, til behandling af maveproblemer.
+
+Ciclosporin, sirolimus og tacrolimus til patienter, der er blevet transplanteret.
+
+Migrænemidler som ergotamin, dihydroergotamin og lignende.
+
+Dabigatran, får blodet til at størkne langsommere.
+
+Colchicin, til behandling af urinsyregigt.
+
+Pravastatin, til behandling af for højt kolesterol.
+
+Clonidin, guanfacin, til behandling af for højt blodtryk.
+
+Mefloquin, til forebyggelse af malaria.
+
+Pilocarpin, til behandling af forhøjet tryk i øjet (grøn stær – en alvorlig øjensygdom).
+
+Antikolinerge midler, til at genoprette muskelfunktion.
+
+Medicin mod psykose, psykisk lidelse.
+
+Moxifloxacin, til behandling af bakterieinfektioner. 
+
+Methadon, til behandling af smerter og til behandling af misbrug.
+
+Bupropion, til behandling af depression samt til rygeafvænning.
+
+Efavirenz, raltegravir til behandling af hiv-infektion.
+
+Irinotecan, medicin til behandling af kræft i tyktarm og endetarm.
+
+Morphin, til behandling af stærke smerter.
+
+Naloxon, til behandling af afhængighed og abstinenser af opioider.
+Du skal undgå ovenstående medicin under behandlingen med XALKORI.
+Prævention i form af tabletter
+XALKORI kan nedsætte virkningen af p-piller og mini-piller.
+Brug af XALKORI sammen med mad og drikke
+Du kan tage XALKORI med og uden mad. Du bør dog ikke drikke grapefrugtjuice eller spise 
+grapefrugt, mens du er i behandling med XALKORI, fordi grapefrugt kan ændre på mængden af 
+XALKORI i kroppen. 
+59
+Solbeskyttelse
+Du skal undgå at opholde dig i solen i længere perioder. XALKORI kan gøre huden følsom over for 
+sollys (fotosensitivitet), og du bliver måske nemmere solskoldet. Du skal bære beskyttende tøj og/eller 
+bruge solcreme, som dækker huden, som en hjælp til at beskytte dig mod solskoldning, hvis du er nødt 
+til at opholde dig i solen, mens du er i behandling med XALKORI.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager XALKORI. 
+Kvinder bør ikke blive gravide og mænd bør ikke blive fædre under behandlingen med XALKORI, da 
+lægemidlet kan skade fostret. Hvis du er i den fødedygtige alder, skal du bruge sikker prævention 
+(ikke p-piller, fordi XALKORI kan nedsætte virkningen af p-piller), mens du tager XALKORI og 
+mindst 90 dage efter du har afsluttet behandlingen med XALKORI.
+Du må ikke amme, når du tager XALKORI, da XALKORI kan skade barnet. 
+Trafik- og arbejdssikkerhed
+Hvis du får synsforstyrrelser eller føler dig svimmel eller meget træt, mens du tager XALKORI, skal 
+du tage hensyn hertil, hvis du skal færdes i trafikken eller arbejde med maskiner.
+XALKORI indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 200 mg eller 250 mg, dvs. det er 
+i det væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take xalkori"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take xalkori"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet.
+
+Den anbefalede dosis til voksne med NSCLC er 1 kapsel på 250 mg, som synkes 2 gange 
+dagligt (i alt 500 mg).
+
+Den anbefalede dosis til børn og unge med ALK-positivt ALCL eller ALK-positiv IMT er 
+280 mg/m2, som synkes 2 gange dagligt. Den anbefalede dosis udregnes af barnets læge og 
+afhænger af barnets legemsoverfladeareal. Den højeste daglige dosis til børn og unge må ikke 
+overskride 1.000 mg. En voksen skal føre tilsyn, når XALKORI gives.
+
+Tag den anbefalede dosis én gang om morgenen og 1 gang om aftenen.
+
+Tag kapslerne på nogenlunde samme tid hver dag.
+
+Du kan tage kapslerne med eller uden mad, men undgå altid grapefrugt.
+
+Synk kapslen hel, kapslen må hverken knuses, opløses eller åbnes.
+Lægen kan om nødvendigt nedsætte dosis. Lægen kan beslutte at afbryde din behandling med 
+XALKORI permanent, hvis du ikke kan tåle at få XALKORI.
+Hvis du har taget for mange XALKORI
+Hvis du har taget for mange kapsler, skal du omgående kontakte lægen eller skadestuen. Du kan 
+måske få brug for lægehjælp.
+Hvis du har glemt at tage XALKORI
+60
+Hvad du skal gøre, hvis du har glemt at tage en dosis afhænger af, hvor lang tid der er, til du skal tage 
+den næste dosis:
+
+Hvis du skal tage den næste dosis om 6 timer eller mere, skal du tage den glemte kapsel lige så 
+snart, du kommer i tanke om det. Tag derefter næste kapsel til sædvanlig tid.
+
+Hvis du skal tage den næste dosis om mindre end 6 timer, skal du springe den glemte kapsel 
+over. Tag derefter næste kapsel til sædvanlig tid.
+Fortæl lægen om den glemte dosis ved næste besøg.
+Du må ikke tage en dobbeltdosis (2 kapsler på samme tid) som erstatning for den glemte kapsel.
+Hvis du kaster op efter at have taget en dosis XALKORI, må du ikke tage en ekstra dosis, du skal blot 
+tage din næste dosis på det sædvanlige tidspunkt.
+Hvis du holder op med at tage XALKORI
+Det er vigtigt at tage XALKORI hver dag, ligeså længe som lægen har sagt. Hvis du ikke er i stand til 
+at tage medicinen, som lægen har anvist, eller du føler, at du ikke behøver den mere, skal du straks 
+kontakte lægen.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Tal med lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger også bivirkninger, 
+som ikke er nævnt i denne indlægsseddel. 
+Det er ikke alle bivirkninger, der er set hos voksne med NSCLC, som er blevet observeret hos børn og 
+unge med ALCL eller IMT, men de samme bivirkninger, der forekommer hos voksne patienter med 
+lungekræft, bør tages i betragtning for børn og unge med ALCL eller IMT.
+Nogle bivirkninger kan være alvorlige. Kontakt straks lægen, hvis du får nogle af de følgende 
+alvorlige bivirkninger (se også afsnit 2 "Det skal du vide, før du begynder at tage XALKORI"):
+
+Leversvigt
+Fortæl det straks til lægen, hvis du føler dig mere træt end normalt, får gulfarvning af hud eller 
+øjne, mørkfarvning af urinen (tefarvet), kvalme, opkastning eller nedsat appetit eller smerter i 
+højre side af maven, kløe eller hvis du lettere får blå mærker end du plejer. For at kontrollere 
+leverfunktionen vil lægen tage blodprøver, og hvis værdierne er for høje, kan det være 
+nødvendigt, at lægen sætter dosis af XALKORI ned eller stopper behandlingen.
+
+Betændelsesagtig tilstand i lungerne
+Kontakt straks lægen, hvis du får åndenød især hvis du også har hoste og feber.
+
+Nedsat antal hvide blodlegemer (herunder neutrofile granulocytter)
+Fortæl straks lægen, hvis du får feber eller en infektion. Lægen kan tage en blodprøve, og hvis 
+værdierne er unormale, kan det være nødvendigt, at lægen nedsætter dosis af XALKORI.
+
+Uklarhed/svimmel, med besvimelse eller ubehag i brystet
+Kontakt straks lægen, hvis du får disse symptomer, det kan være tegn på ændringer i hjertets 
+elektriske impulser (kan ses på elektrokardigram (ekg)) eller unormal hjerterytme. Det kan være 
+nødvendigt, at lægen undersøger dit hjerte ved hjælp af et ekg under behandlingen med 
+XALKORI.
+61
+
+Delvist eller fuldstændigt synstab på et eller begge øjne
+Kontakt straks lægen, hvis du får nye problemer med synet, synstab eller synsændringer såsom 
+problemer med at se med et eller begge øjne. Din læge vil måske sætte behandlingen med 
+XALKORI på pause eller standse den permanent og henvise dig til en øjenlæge.
+Børn og unge, der tager XALKORI til behandling af ALK-positivt ALCL eller ALK-positiv 
+IMT: Lægen skal henvise dig til en øjenlæge, inden behandlingen med XALKORI starter, og 
+senest 1 måned efter start af behandling med XALKORI, så denne kan kontrollere, om du har 
+problemer med synet. Du skal have foretaget en øjenundersøgelse hver 3. måned under 
+behandlingen med XALKORI og oftere, hvis der opstår nye problemer med synet.
+
+Alvorlige problemer med mave-tarm-kanalen hos børn og unge med ALK-positivt ALCL 
+eller ALK-positiv IMT
+XALKORI kan give kraftig diarré, kvalme eller opkastning. Kontakt straks lægen, hvis du får 
+problemer med at synke, hvis du kaster op eller får diarré under behandlingen med XALKORI. 
+Din læge kan give dig medicin, som kan forebygge eller behandle diarré, kvalme og opkastning. 
+Din læge kan anbefale dig at drikke mere væske eller udskrive elektrolyttilskud eller andre 
+ernæringstilskud, hvis du udvikler alvorlige symptomer.
+Andre bivirkninger af XALKORI hos voksne med NSCLC kan være:
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)
+
+Synsforstyrrelser (lysglimt, sløret syn, lysfølsomhed, flydere eller dobbeltsyn, som 
+almindeligvis begynder lige efter behandlingen med XALKORI er påbegyndt).
+
+Ubehag i maven, herunder opkastning, diaré, kvalme.
+
+Hævede fødder, ankler eller hænder på grund af væskeophobning (ødemer).
+
+Forstoppelse.
+
+Unormale blodprøveresultater for leverfunktionen.
+
+Nedsat appetit.
+
+Træthed.
+
+Svimmelhed.
+
+Prikkende, snurrende fornemmelser eller følelsesløshed i led, hænder og fødder (neuropati).
+
+Smagsforstyrrelser.
+
+Smerter i maven
+
+Blodmangel (nedsat antal røde blodlegemer).
+
+Hududslæt.
+
+Langsom puls.
+Almindelige bivirkninger (kan forekomme hos 1 ud af 10 personer)
+
+Fordøjelsesproblemer.
+
+Forhøjede niveauer af kreatinin i blodet (kan tyde på, at nyrerne ikke fungerer normalt).
+
+Forhøjede indhold af enzymet alkalisk fosfatase i blodet (det kan tyde på et dårligt fungerende 
+eller beskadiget organ, såsom lever, bugspytkirtel, knogle, skjoldbruskkirtel eller galdeblære).
+
+For lidt fosfor i blodet, hvilket kan gøre dig forvirret eller give muskelsvaghed (hypofosfatæmi).
+
+Nyrecyste (væskefyldt hulrum i nyrerne).
+
+Besvimelse.
+
+Betændelse i spiserøret.
+
+Nedsat niveau af testosteron i blodet, et mandligt kønshormon.
+
+Hjertesvigt.
+Ikke almindelige bivirkninger (kan forekomme hos 1 ud af 100 personer)
+
+Hul (perforering) i maven eller tarmen.
+
+Følsomhed over for sollys (fotosensitivitet).
+62
+
+Forhøjede niveauer i blodprøveresultater ved kontrol for muskelskade (højt indhold af 
+kreatinfosfokinase).
+Andre bivirkninger af XALKORI hos børn og unge med ALK-positivt ALCL eller ALK-positiv 
+IMT kan være:
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer)
+
+Unormale blodprøveresultater for leverfunktionen.
+
+Synsforstyrrelser (lysglimt, sløret syn, lysfølsomhed, flydere eller dobbeltsyn), som ofte 
+begynder hurtigt efter behandlingsstart med XALKORI).
+
+Smerter i maven.
+
+Forhøjede niveauer af kreatinin i blodet (kan tyde på, at nyrerne ikke fungerer normalt).
+
+Blodmangel (nedsat antal røde blodlegemer).
+
+Nedsat antal blodplader i blodet (kan øge risikoen for blødning og blå mærker).
+
+Træthed.
+
+Nedsat appetit.
+
+Forstoppelse.
+
+Hævede fødder, ankler eller hænder på grund af væskeophobning (ødemer).
+
+Forhøjet indhold af enzymet alkalisk fosfatase i blodet (det kan tyde på et dårligt fungerende 
+eller beskadiget organ, såsom lever, bugspytkirtel, knogle, skjoldbruskkirtel eller galdeblære).
+
+Prikkende, snurrende fornemmelser eller følelsesløshed i led, hænder og fødder (neuropati).
+
+Svimmelhed.
+
+Fordøjelsesproblemer.
+
+Smagsforstyrrelser.
+
+For lidt fosfor i blodet, hvilket kan gøre dig forvirret eller give muskelsvaghed (hypofosfatæmi).
+Almindelige bivirkninger (kan forekomme hos 1 ud af 10 personer)
+
+Hududslæt.
+
+Betændelse i spiserøret.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store xalkori"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store xalkori"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
+Opbevar lægemidlet utilgængeligt for børn.
+
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og æsken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+
+Lægemidlet kræver ingen særlige forholdsregler vedrørende opbevaringen.
+
+Brug ikke lægemidlet, hvis indhold og/eller pakning er skadet eller har været åbnet.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.
+63</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>XALKORI indeholder:</h2>
+<p>Aktivt stof: crizotinib. XALKORI kapsler kan fås i forskellige styrker.
+XALKORI 200 mg: Hver kapsel indeholder 200 mg crizotinib.
+XALKORI 250 mg: Hver kapsel indeholder 250 mg crizotinib.
+-
+Øvrige indholdsstoffer (se også afsnit 2 "XALKORI indeholder natrium"):
+Kapselindhold: kolloid vandfri silica, mikrokrystallinsk cellulose, vandfrit 
+calciumhydrogenphosphat, natriumstivelsesglycolat (type A), magnesiumstearat.
+Kapselskal indeholder: gelatine, titaniumdioxid (E171) og rød jernoxid (E172).
+Printblæk: shellac, propylenglycol, kaliumhydroxid og sort jernoxid (E172).
+Udseende og pakningsstørrelser
+XALKORI 200 mg er en hård gelatinekapsel med pink overdel og hvid underdel, der er mærket med 
+sort blæk “Pfizer" på overdelen og “CRZ 200" på underdelen.
+XALKORI 250 mg er en hård gelatinekapsel med pink overdel og underdel, der er mærket med sort 
+blæk “Pfizer" på overdelen og “CRZ 250" på underdelen.
+XALKORI findes i blisterpakninger med 60 hårde kapsler og i en plastikbeholder med 60 hårde 
+kapsler.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Pfizer Manufacturing Deutschland GmbH
+Betriebsstätte Freiburg
+Mooswaldallee 1
+79090 Freiburg
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36 1488 37 00
+64
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: + 45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: + 30 210 6785 800
+Polska
+Pfizer Polska Sp. z o.o.
+Tel.: +48 22 335 61 00
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: +385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel: +421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+65
+Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ 
+Du kan finde yderligere oplysninger om XALKORI på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1c9a12a6360cb16de82a801c02ba58e9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xalkori Package Leaflet for language en"
+Description: "ePI document Bundle for xalkori Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1c9a12a6360cb16de82a801c02ba58e9"
+* entry[0].resource = composition-en-1c9a12a6360cb16de82a801c02ba58e9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1c9a12a6360cb16de82a801c02ba58e9"
+* entry[=].resource = mp1c9a12a6360cb16de82a801c02ba58e9
+                            
+                    
+Instance: bundlepackageleaflet-da-1c9a12a6360cb16de82a801c02ba58e9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xalkori Package Leaflet for language da"
+Description: "ePI document Bundle for xalkori Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1c9a12a6360cb16de82a801c02ba58e9"
+* entry[0].resource = composition-da-1c9a12a6360cb16de82a801c02ba58e9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1c9a12a6360cb16de82a801c02ba58e9"
+* entry[=].resource = mp1c9a12a6360cb16de82a801c02ba58e9
+                            
+                    
+
+
+
+Instance: mp1c9a12a6360cb16de82a801c02ba58e9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product XALKORI 200 mg hard capsules"
-Description: "XALKORI 200 mg hard capsules"
+Title: "Medicinal Product xalkori"
+Description: "xalkori"
 Usage: #inline
 
  
@@ -491,7 +1145,7 @@ Usage: #inline
 
 
 * name
-  * productName = "XALKORI 200 mg hard capsules"
+  * productName = "xalkori"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -518,29 +1172,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1c9a12a6360cb16de82a801c02ba58e9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for xalkori Package Leaflet for language en"
-Description: "ePI document Bundle for xalkori Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1c9a12a6360cb16de82a801c02ba58e9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "XALKORI 200 mg hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "xalkori"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1c9a12a6360cb16de82a801c02ba58e9"
-* entry[0].resource = composition-en-1c9a12a6360cb16de82a801c02ba58e9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp3ac3a2b78bfd9ad0744ce1b4373a6817"
-* entry[=].resource = mp3ac3a2b78bfd9ad0744ce1b4373a6817
-                            
-                      
+* title = "List of all ePIs associated with xalkori"
+
+* subject = Reference(mp3ac3a2b78bfd9ad0744ce1b4373a6817)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#xalkori "xalkori"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1c9a12a6360cb16de82a801c02ba58e9) // xalkori en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1c9a12a6360cb16de82a801c02ba58e9) // xalkori da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1c9a12a6360cb16de82a801c02ba58e9
+InstanceOf: List
+
+* insert 1c9a12a6360cb16de82a801c02ba58e9ListRuleset
+    

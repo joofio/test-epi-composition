@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d5d0f8dae3251797998b53d83d0b35fa
 InstanceOf: CompositionUvEpi
 Title: "Composition for lyfnua Package Leaflet"
@@ -319,12 +322,422 @@ http://www.ema.europa.eu</p>         </div>"""
 
 
 
+Instance: composition-da-d5d0f8dae3251797998b53d83d0b35fa
+InstanceOf: CompositionUvEpi
+Title: "Composition for lyfnua Package Leaflet"
+Description:  "Composition for lyfnua Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpeafd601d5b01404913c86cc77c1bc637)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpeafd601d5b01404913c86cc77c1bc637
+* title = "TEST PURPOSES ONLY - lyfnua"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Lyfnua
+3. Sådan skal du tage Lyfnua
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What lyfnua is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What lyfnua is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lyfnua indeholder det aktive stof gefapixant.
+Lyfnua er et lægemiddel, der anvendes til voksne mod kronisk hoste (hoste, som varer længere end
+8 uger) og: </p>
+<ul>
+<li>
+<p>hosten forsvinder ikke selv efter brug af andre lægemidler eller </p>
+</li>
+<li>
+<p>årsagen til hosten er ukendt.
+Det aktive stof i Lyfnua, gefapixant, blokerer virkningen af de nerver, som udløser unormal hoste.</p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take lyfnua"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take lyfnua"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Lyfnua
+- hvis du er allergisk over for gefapixant eller et af de øvrige indholdsstoffer i Lyfnua (angivet i
+punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før og mens du tager Lyfnua, hvis du:</p>
+<ul>
+<li>er allergisk over for lægemidler indeholdende sulfonamid</li>
+<li>har søvnapnø - hvor din vejrtrækning stopper og starter, mens du sover</li>
+<li>udvikler en akut infektion i lunger / nedre luftveje (f.eks. lungebetændelse eller bronkitis)</li>
+<li>oplever ændret smagssans, tab af smagssans eller at være mindre i stand til at smage, som
+fortsætter selv efter, at du er holdt op med at tage Lyfnua 
+26
+Børn og unge 
+Giv ikke dette lægemiddel til børn og unge under 18 år. Det skyldes, at lægemidlet ikke er undersøgt i
+denne aldersgruppe.
+Brug af andre lægemidler sammen med Lyfnua
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget
+andre lægemidler eller planlægger at tage andre lægemidler.
+Graviditet og amning 
+Det er ukendt, om Lyfnua kan skade dit ufødte barn. Derfor er det bedst at undgå at tage Lyfnua, hvis
+du er gravid. 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge
+lægen eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Dyreforsøg har vist, at Lyfnua kan udskilles i modermælk. En risiko for din baby kan ikke udelukkes.
+Du og din læge skal sammen beslutte, om du skal tage Lyfnua eller amme.
+Trafik- og arbejdssikkerhed
+Du kan føle dig svimmel efter at have taget Lyfnua. Du må ikke føre motorkøretøj eller betjene
+maskiner, hvis du føler dig svimmel. 
+Lyfnua indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
+væsentlige natriumfrit.</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take lyfnua"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take lyfnua"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg
+lægen eller apotekspersonalet.
+Så meget skal du tage
+Den anbefalede dosis af Lyfnua er:</p>
+<ul>
+<li>
+<p>en 45 mg tablet to gange dagligt.
+Voksne med nyreproblemer
+Din læge kan ændre, hvor meget og hvor ofte du tager Lyfnua, hvis:</p>
+</li>
+<li>
+<p>du har alvorligt nyresvigt og ikke er i dialyse.
+Sådan skal du tage
+Slug tabletten hel. Du må ikke dele, knuse eller tygge tabletten. 
+Tabletten kan tages med eller uden mad. 
+Hvis du har taget for meget Lyfnua
+Kontakt straks lægen eller apotekspersonalet, hvis du har taget for meget Lyfnua.
+Hvis du har glemt at tage Lyfnua
+Hvis du har glemt en dosis, så spring denne over og tag den næste dosis til den planlagte tid. 
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. 
+27</p>
+</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+De mulige bivirkninger er:
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer)
+- smagsforstyrrelser (såsom: metallisk, bitter eller saltet smag)
+- nedsat smagssans
+- tab af smagssans
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+- kvalme
+- ting smager anderledes end de plejer
+- hoste (forværret hoste, øget hostetendens)
+- tør mund
+- øvre luftvejsinfektion (en infektion i den øvre del af luftvejene, inklusive næse og svælg)
+- diarré
+- smerter i mund eller hals
+- mindre appetit, end du plejer
+- svimmelhed
+- smerter i øvre del af maven
+- fordøjelsesbesvær
+- usædvanlig følelse i munden (f.eks. snurrende eller prikkende følelse)
+- tab af følelse i munden
+- øget spytproduktion
+- insomni (søvnbesvær)
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer)
+- blære-, urinvejs- eller nyresten
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. Dette gælder også mulige
+bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks
+V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om
+sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store lyfnua"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store lyfnua"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Tag ikke lægemidlet efter den udløbsdato, der står på blister og karton efter EXP. Udløbsdatoen er den
+sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Tag ikke lægemidlet, hvis du bemærker, at emballagen er beskadiget eller viser tegn på anbrud. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
+28</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lyfnua indeholder:</p>
+<ul>
+<li>Aktivt stof: gefapixant Hver filmovertrukken tablet indeholder 45 mg gefapixant (som citrat).</li>
+<li>Øvrige indholdsstoffer: silica (kolloid vandfri) (E551), crospovidon (E1202),
+hypromellose (E464), magnesiumstearat (E470b), mannitol (E421), mikrokrystallinsk
+cellulose (E460), natriumstearylfumarat. Tabletterne er filmovertrukne med et
+overtræksmateriale med følgende indholdsstoffer: hypromellose (E464), titandioxid (E171),
+triacetin (E1518) og rød jernoxid (E172). Tabletterne er polerede med carnaubavoks (E903). 
+Udseende og pakningsstørrelser
+Lyfnua er en lyserød, rund og konveks tablet præget med 777 på den ene side og uden prægning på
+den anden side. 
+Lyfnua fås i hvide PVC/PE/PVdC blistre.
+Lyfnua fås i pakninger med 28, 56 og 98 filmovertrukne tabletter i ikke-perforerede blistre
+(14 tabletter pr. blister), multipakninger indeholdende 196 (2 pakninger a 98) filmovertrukne tabletter i
+ikke-perforerede blistre.
+Ikke alle pakningstørrelser er nødvendigvis markedsført. 
+Indehaver af markedsføringstilladelsen og fremstiller
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Lietuva 
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg 
+MSD Belgium
+Tél/Tel: +32(0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 dpoc_czechslovak@merck.com
+Magyarország 
+MSD Pharma Hungary Kft. 
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf.: + 45 4482 4000
+dkmail@merck.com
+Malta 
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+29
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland 
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel.: +372 6144 200
+msdeesti@merck.com
+Norge 
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Ελλάδα
+MSD Α .Φ.Β.Ε.Ε.
+Τηλ: +30 210 98 97 300
+dpoc_greece@merck.com
+Österreich 
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska 
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: + 33 (0) 1 80 46 40 40
+Portugal 
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 6611 333
+croatia_info@merck.com
+România 
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija 
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386 1 5204 201
+msd.slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: + 354 535 7000
+Slovenská republika 
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282010
+dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l.
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland 
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ.: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige 
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+30
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu. </li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d5d0f8dae3251797998b53d83d0b35fa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lyfnua Package Leaflet for language en"
+Description: "ePI document Bundle for lyfnua Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d5d0f8dae3251797998b53d83d0b35fa"
+* entry[0].resource = composition-en-d5d0f8dae3251797998b53d83d0b35fa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd5d0f8dae3251797998b53d83d0b35fa"
+* entry[=].resource = mpd5d0f8dae3251797998b53d83d0b35fa
+                            
+                    
+Instance: bundlepackageleaflet-da-d5d0f8dae3251797998b53d83d0b35fa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lyfnua Package Leaflet for language da"
+Description: "ePI document Bundle for lyfnua Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d5d0f8dae3251797998b53d83d0b35fa"
+* entry[0].resource = composition-da-d5d0f8dae3251797998b53d83d0b35fa
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd5d0f8dae3251797998b53d83d0b35fa"
+* entry[=].resource = mpd5d0f8dae3251797998b53d83d0b35fa
+                            
+                    
+
+
+
+Instance: mpd5d0f8dae3251797998b53d83d0b35fa
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Lyfnua 45 mg film-coated tablets"
-Description: "Lyfnua 45 mg film-coated tablets"
+Title: "Medicinal Product lyfnua"
+Description: "lyfnua"
 Usage: #inline
 
  
@@ -344,7 +757,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Lyfnua 45 mg film-coated tablets"
+  * productName = "lyfnua"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -371,29 +784,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d5d0f8dae3251797998b53d83d0b35fa
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for lyfnua Package Leaflet for language en"
-Description: "ePI document Bundle for lyfnua Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d5d0f8dae3251797998b53d83d0b35faListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1613/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "lyfnua"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d5d0f8dae3251797998b53d83d0b35fa"
-* entry[0].resource = composition-en-d5d0f8dae3251797998b53d83d0b35fa
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpeafd601d5b01404913c86cc77c1bc637"
-* entry[=].resource = mpeafd601d5b01404913c86cc77c1bc637
-                            
-                      
+* title = "List of all ePIs associated with lyfnua"
+
+* subject = Reference(mpeafd601d5b01404913c86cc77c1bc637)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#lyfnua "lyfnua"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d5d0f8dae3251797998b53d83d0b35fa) // lyfnua en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d5d0f8dae3251797998b53d83d0b35fa) // lyfnua da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d5d0f8dae3251797998b53d83d0b35fa
+InstanceOf: List
+
+* insert d5d0f8dae3251797998b53d83d0b35faListRuleset
+    

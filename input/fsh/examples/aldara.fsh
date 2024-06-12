@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-fc79b24fd8d9aad3e2636eda8908eb2a
 InstanceOf: CompositionUvEpi
 Title: "Composition for aldara Package Leaflet"
@@ -468,12 +471,568 @@ Viatris UAB
 
 
 
+Instance: composition-da-fc79b24fd8d9aad3e2636eda8908eb2a
+InstanceOf: CompositionUvEpi
+Title: "Composition for aldara Package Leaflet"
+Description:  "Composition for aldara Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4b329827de338c2c74c6a576c0f52361)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4b329827de338c2c74c6a576c0f52361
+* title = "TEST PURPOSES ONLY - aldara"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Aldara 
+3. Sådan skal du bruge Aldara 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What aldara is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What aldara is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aldara creme kan bruges til tre forskellige sygdomme. Din læge kan ordinere Aldara creme til 
+behandling af: </p>
+<p>●Kønsvorter (Condyloma acuminata) på overfladen af kønsorganerne og omkring anus 
+(endetarmsåbningen) </p>
+<p>● Overfladisk basalcellekræft 
+Dette er en almindelig form for hudkræft, som vokser langsomt, og hvor sandsynligheden for at det 
+spreder sig til andre dele af kroppen er meget lille. Det opstår oftest hos midaldrende og ældre 
+personer, især hos personer med lys hud. Det skyldes for kraftig udsættelse for solen. Hvis 
+basalcellekræft ikke behandles, kan det skæmme, især i ansigtet – og derfor er tidlig opdagelse og 
+behandling vigtig. </p>
+<p>●Aktinisk keratose 
+Aktinisk keratose er ru hudområder, som findes på personer, der har været udsat for meget sol 
+igennem livet. Nogle er hudfarvede, andre er grålige, rosa, røde eller brune. De kan være flade og 
+skællede, eller bulede, ru, hårde og vortelignende. Aldara bør kun anvendes på fladt aktinisk keratose i 
+ansigtet og hovedbunden, på patienter med et normalt immunforsvar, når lægen har besluttet, at Aldara 
+er den bedst egnede behandling. </p>
+<p>Aldara creme hjælper din krops eget immunsystem med at fremstille naturlige stoffer, som hjælper 
+med at bekæmpe overfladisk basalcellekræft, aktinisk keratose eller den virus, der forårsager 
+kønsvorter. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take aldara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take aldara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Aldara creme: 
+Hvis du er allergisk over for imiquimod, eller et af de øvrige indholdsstoffer i Aldara angivet i afsnit 6. Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet før du bruger Aldara creme </p>
+<ul>
+<li>
+<p>Hvis du tidligere har brugt Aldara creme eller andre lignende lægemidler, skal du fortælle det til 
+din læge, inden du begynder på denne behandling. </p>
+</li>
+<li>
+<p>Hvis du lider af autoimmune sygdomme </p>
+</li>
+<li>
+<p>Hvis du er blevet organtransplanteret </p>
+</li>
+<li>
+<p>Brug ikke Aldara creme, før det område, der skal behandles, er ophelet efter tidligere medicinsk 
+eller kirurgisk behandling. </p>
+</li>
+<li>
+<p>Undgå kontakt med øjnene, læber og næsebor. Hvis dette sker ved et uheld skal cremen fjernes 
+med vand. </p>
+</li>
+<li>
+<p>Cremen må ikke påføres indvendigt. </p>
+</li>
+<li>
+<p>Brug ikke mere creme end din læge har ordineret. </p>
+</li>
+<li>
+<p>Du må ikke dække det behandlede område med plaster eller forbinding, efter at du har påført 
+Aldara creme. </p>
+</li>
+<li>
+<p>Hvis du oplever for kraftigt ubehag på det behandlede sted, afvaskes cremen med en mild sæbe og 
+vand. Så snart generne er ophørt, kan du begynde at anvende cremen igen. </p>
+</li>
+<li>
+<p>Fortæl din læge, hvis du har et unormalt antal blodlegemer. </p>
+</li>
+</ul>
+<p>På grund af den måde, Aldara virker på, er der mulighed for, at cremen kan forværre en eventuel 
+eksisterende betændelse i behandlingsområdet. </p>
+<p>● Hvis du behandles for kønsvorter, skal du følge disse ekstra forsigtighedsregler:</p>
+<ul>
+<li>Mænd med vorter under forhuden, bør trække forhuden tilbage hver dag og vaske området. Hvis 
+området ikke vaskes dagligt, er det mere sandsynligt at forhuden viser tegn på stramhed, 
+hævelse og hudafskalning, hvilket kan medføre besvær med at trække forhuden tilbage. Hvis 
+disse symptomer indtræder, skal du omgående standse behandlingen og kontakte din læge. </li>
+<li>Hvis du har åbne sår: Du må ikke begynde at anvende Aldara creme, før sårene er helet.   </li>
+<li>
+<p>Hvis du har indvendige vorter: Du må ikke anvende Aldara creme i urinrøret, skeden, 
+livmoderhalsen eller endetarmsåbningen. </p>
+</li>
+<li>
+<p>Du bør ikke anvende Aldara creme i mere end én behandlingsperiode, hvis du har alvorlige 
+problemer med immunsystemet, enten på grund af sygdom eller på grund af medicin, som du 
+allerede får. Hvis du mener, at dette er tilfældet for dig, bør du tale med din læge. </p>
+</li>
+<li>Hvis du er HIV-positiv, skal du fortælle det til lægen, da Aldara creme har vist sig ikke at være 
+så effektiv til HIV-positive patienter. </li>
+<li>Hvis du er seksuelt aktiv, mens du endnu har kønsvorter, skal du påføre Aldara creme efter (og 
+ikke før) seksuel aktivitet. Aldara creme kan svække virkningen af kondomer og pessarer, og 
+derfor bør cremen ikke blive siddende under seksuel aktivitet.  Vær opmærksom på, at Aldara 
+creme ikke beskytter mod overførsel af HIV eller andre seksuelt overførte sygdomme. </li>
+</ul>
+<p>● Hvis du behandles for basalcellekræft eller aktinisk keratose, skal du følge disse ekstra 
+forsigtighedsregler: </p>
+<p>Brug ikke højfjeldssol eller solarium og undgå sollys så meget som muligt under behandlingen med 
+Aldara creme.  Bær beskyttende tøj og hat med bred skygge, når du er udendørs. </p>
+<p>Mens du bruger Aldara creme, og indtil ophelingen, vil behandlingsområdet sandsynligvis se markant 
+anderledes ud end normal hud. </p>
+<p>Børn og unge 
+Anvendelse til børn og unge anbefales ikke. </p>
+<p>Brug af anden medicin sammen med Aldara creme 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt 
+anden medicin eller planlægger at bruge anden medicin.<br />
+Ingen lægemidler vides at være uforligelige med Aldara creme. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du bruger Aldara creme. </p>
+<p>Din læge vil gennemgå fordelen kontra risikoen ved at bruge Aldara creme under graviditet. Studier 
+med dyr indikerer ikke nogen direkte eller indirekte skadelig effekt under graviditet. </p>
+<p>Du må ikke amme under behandling med Aldara creme, da det ikke vides, om imiquimod udskilles i 
+modermælken. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel har ingen eller ubetydelig indflydelse på evnen til at betjene maskiner eller føre 
+motorkøretøjer. </p>
+<p>Aldara creme indeholder methylparahydroxybenzoat, propylparahydroxybenzoat, cetylalkohol, 
+stearylalkohol og benzylalkohol. </p>
+<p>Methylparahydroxybenzoat (E218) og propylparahydroxybenzoat (E216) kan forårsage allergiske 
+reaktioner (muligvis forsinkede). Cetylalkohol og stearylalkohol kan forårsage lokale hudreaktioner 
+(f.eks. kontaktdermatitis). 
+Dette lægemiddel indeholder 5 mg benzylalkohol i hvert brev. Benzylalkohol kan forårsage allergiske 
+reaktioner og mild lokal irritation. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take aldara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take aldara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Børn og unge: 
+Anbefales ikke til brug til børn og unge. </p>
+<p>Voksne: 
+Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Vask hænderne grundigt før og efter påføring af cremen. Dæk ikke det behandlede område med 
+forbinding eller plaster efter at du har påført Aldara creme.  </p>
+<p>Åbn et nyt brev hver gang du skal bruge cremen. Kassér eventuel creme der er tilbage i brevet efter 
+brug. Du må ikke gemme det åbnede brev til senere brug. <br />
+Behandlingshyppigheden og -varigheden er forskellig for kønsvorter basalcellekræft og aktinisk 
+keratose (se de specifikke instruktioner for den enkelte sygdom). </p>
+<p>Instruktioner til påføring af Aldara creme </p>
+<p>● Hvis du behandles for kønsvorter: </p>
+<p>Instruktioner til påføring – (mandag, onsdag og fredag) 
+1. Før du går i seng, skal du vaske hænder og behandlingsområde med mild sæbe og vand. Aftør 
+grundigt. 
+2. Åbn et nyt brev og tryk noget creme ud på en fingerspids. 
+3. Kom et tyndt lag Aldara creme på det rene, tørre område med vorter og gnid cremen forsigtigt ind i 
+huden, indtil den er smurt ind. 
+4. Kassér det åbnede brev og vask hænderne med sæbe og vand. 
+5. Lad cremen sidde på vorterne i 6 til 10 timer. Du må ikke tage bruse- eller karbad i dette tidsrum. 
+6. Vask efter 6 til 10 timer det område, hvor cremen blev påført, med mild sæbe og vand. </p>
+<p>Aldara creme skal påføres 3 gange om ugen.  Påfør for eksempel cremen mandag, onsdag og fredag. 
+Et brev indeholder creme til at dække et område med vorter på 20 cm2 . Mænd med vorter under 
+forhuden bør trække forhuden tilbage hver dag og vaske området (se afsnit. 2 ”Advarsler og 
+forsigtighedsregler”). </p>
+<p>Fortsæt med at bruge Aldara creme som anbefalet, indtil vorterne er fuldstændig forsvundet<br />
+(halvdelen af kvinder opnår dette indenfor 8 uger og halvdelen af mænd indenfor 12 uger, men hos 
+nogle patienter forsvinder vorterne allerede efter 4 uger). </p>
+<p>Brug ikke Aldara creme i mere end 16 uger til behandling af hver episode af vorter. </p>
+<p>Tal med lægen, hvis du mener, at virkningen af Aldara creme er for stærk eller for svag. </p>
+<p>● Hvis du behandles for basalcellekræft: </p>
+<p>Instruktioner til påføring – (mandag, tirsdag, onsdag, torsdag og fredag) 
+1. Vask dine hænder og behandlingsområdet med mild sæbe og vand, inden du går i seng. Aftør 
+omhyggeligt. 
+2. Åbn et nyt brev og tryk lidt creme ud på fingerspidsen. 
+3. Påfør Aldara cremen på det angrebne område og 1 cm omkring det angrebne område. Gnid 
+forsigtigt cremen ind i området, indtil cremen ikke ses længere. 
+4. Smid det åbnede brev ud, når cremen er påført. Vask hænderne med sæbe og vand. 
+5. Lad Aldara creme sidde på huden i cirka 8 timer. Tag ikke brusebad eller karbad i dette tidsrum 
+6. Vask efter cirka 8 timer det område, hvor cremen blev påført, med mild sæbe og vand. </p>
+<p>Påfør tilstrækkelig Aldara creme til at dække behandlingsområdet og 1 cm omkring behandlingsområdet. 
+Dette skal gøres hver dag i 5 på hinanden følgende dage i 6 uger. Du kan for eksempel påføre cremen fra 
+mandag til og med fredag. Påfør ingen creme lørdag og søndag. </p>
+<p>● Hvis du behandles for aktinisk keratose: </p>
+<p>Instruktioner til påføring – (mandag, onsdag og fredag) 
+1. Vask dine hænder og behandlingsområdet med mild sæbe og vand, inden du går i seng. Aftør 
+omhyggeligt. 
+2. Åbn et nyt brev og tryk lidt creme ud på fingerspidsen. 
+3. Påfør cremen på det angrebne område. Gnid forsigtigt cremen ind i området, indtil cremen ikke ses 
+længere. 
+4. Smid det åbnede brev ud, når cremen er påført. Vask hænderne med sæbe og vand. 
+5. Lad Aldara creme sidde på huden i cirka 8 timer. Tag ikke brusebad eller karbad i dette tidsrum. 
+6. Vask efter cirka 8 timer det område, hvor cremen blev påført, med mild sæbe og vand. </p>
+<p>Påfør Aldara creme 3 gange om ugen. Påfør for eksempel cremen mandag, onsdag og fredag. Ét brev 
+indeholder tilstrækkelig creme til at dække et område på 25 cm2. Fortsæt behandlingen i 4 uger. Din 
+læge vil vurdere din hud 4 uger efter, at denne første behandling er afsluttet. Hvis læsionerne ikke er 
+helt væk, kan yderligere 4 ugers behandling være nødvendig. </p>
+<p>Hvis du har brugt for meget Aldara creme 
+Du skal fjerne overskydende creme med en mild sæbe og vand. Når en eventuel hudreaktion er 
+forsvundet, kan du fortsætte med behandlingen. 
+Hvis du ved et uheld kommer til at sluge Aldara creme, skal du kontakte din læge. </p>
+<p>Hvis du har glemt at bruge Aldara creme </p>
+<p>Hvis du springer en dosis over, skal du påføre cremen, så snart du kommer i tanker om det, og derefter 
+fortsætte med din sædvanlige behandlingsplan. Påfør ikke cremen mere end én gang om dagen. </p>
+<p>Spørg din læge eller apotek, hvis du har yderligere spørgsmål om dette lægemiddel. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hyppigheden af bivirkninger er inddelt efter følgende: 
+Meget almindelige bivirkninger (det forekommer hos flere end 1 ud af 10 patienter) 
+Almindelige bivirkninger (det forekommer hos mellem 1 og 10 ud af 100 patienter) 
+Ikke almindelige bivirkninger (det forekommer hos mellem 1 og 10 ud af 1000 patienter) 
+Sjældne bivirkninger (det forekommer hos mellem 1 og 10 ud af 10.000 patienter) 
+Meget sjældne bivirkninger (det forekommer hos færre end 1 ud af 10.000 patienter) </p>
+<p>Som alle andre lægemidler kan Aldara creme give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt lægen eller apoteket så snart som muligt, hvis du føler dig dårligt tilpas, mens du anvender 
+Aldara creme.   </p>
+<p>Nogle patienter har oplevet forandringer i hudfarven i det område, hvor Aldara creme blev påført. 
+Selvom disse forandringer med tiden forsvinder hos de fleste, kan de hos nogle patienter blive 
+permanente. </p>
+<p>Hvis din hud reagerer kraftigt, når du anvender Aldara creme, skal du holde op med at bruge cremen, 
+vaske området med en mild sæbe og vand og kontakte lægen eller apoteket.  </p>
+<p>Hos enkelte personer har man konstateret en reduktion i antallet af blodlegemer. En reduktion i 
+antallet af blodlegemer kan indebære, at du bliver mere modtagelig over for infektioner, lettere får blå 
+mærker eller bliver mere træt. Hvis du bemærker nogle af disse symptomer, bør du fortælle det til 
+lægen. 
+Nogle patienter, som lider af autoimmune sygdomme, kan opleve forværring af deres tilstand. Hvis du 
+oplever nogen ændring under behandlingen med Aldara creme, skal du fortælle det til lægen.<br />
+Der er i sjældne tilfælde konstateret alvorlige hudreaktioner. Hvis du får sår eller pletter på huden, som 
+begynder som små røde områder og udvikles til små cirkler, sandsynligvis med følgende symptomer 
+som kløe, feber, ubehag, ømme led, problemer med synet, brændende, ømme eller kløende øjne og 
+mund, skal du stoppe behandlingen med Aldara øjeblikkeligt og informere din læge. </p>
+<p>Et lille antal patienter har oplevet hårtab på behandlingsstedet eller i det omkringliggende område. </p>
+<p>● Hvis du behandles for kønsvorter: </p>
+<p>Mange af Aldaras uønskede virkninger skyldes lægemidlets lokale virkning på huden.  </p>
+<p>Meget almindelige bivirkninger: rødme (61% af patienter), afskalning af huden (30% af patienter), 
+skæl og hævelser.  Hårdhed under huden, små åbne sår, skorper som dannes under helingen og små 
+bobler under huden kan også forekomme. Du kan også opleve kløe (32% af patienter), en brændende 
+fornemmelse (26% af patienter) eller smerter i de områder, hvor cremen er anvendt (8% af patienter). 
+De fleste af disse hudreaktioner er milde, og huden vil blive normal igen ca. 2 uger efter 
+behandlingens ophør.  </p>
+<p>Almindelige bivirkninger: hovedpine (4% eller færre patienter) , ualmindelig feber og 
+influenzalignende symptomer, samt led- og muskelsmerter, fremfald af uterus, smerter ved samleje 
+(kvinder), erektionsbesvær, øget svedtendens, kvalme, føle sig dårlig, symptomer i mave og tarm, 
+ringen for ørene, rødmen, træthed, svimmelhed, migræne, snurren og prikken, søvnløshed, depression, 
+manglende appetit, hævede kirtler, bakterie-, virus- og svampeinfektioner (f.eks. forkølelsessår), 
+infektion i vagina (herunder svampeinfektion); hoste og forkølelse med ondt i halsen. </p>
+<p>Meget sjældne bivirkninger: kraftige og smertefulde reaktioner, især hvis der er anvendt mere creme 
+end anbefalet. Smertefulde reaktioner i skedeåbningen har i meget sjældne tilfælde gjort det vanskeligt 
+for nogle kvinder at tømme blæren. Hvis dette sker for dig, bør du omgående søge læge.  </p>
+<p>● Hvis du behandles for basalcellekræft: </p>
+<p>Mange af bivirkningerne fra Aldara creme skyldes den lokale virkning på huden. Lokale hudreaktioner 
+kan være et tegn på, at behandlingen virker efter hensigten.  </p>
+<p>Meget almindelige bivirkninger: let hudkløe på det behandlede område.<br />
+Almindelige bivirkinger: snurren og prikken, små hævede områder på huden, smerter, brændende 
+fornemmelse, irritation, blødning, rødmen eller udslæt. Tal med din læge om det, hvis en hudreaktion 
+bliver for ubehagelig under behandlingen.  Han/hun vil måske råde dig til at standse behandlingen med 
+Aldara creme i et par dage (dvs. en kort pause i behandlingen).  Tal med din læge om det, hvis der er 
+pus eller andre tegn på infektion. Andre almindelige bivirkninger, ud over reaktionerne på huden, er 
+hævede kirtler og rygsmerter. 
+Ikke almindelige bivirkninger: ændringer på påføringsstedet (sekretion, betændelse, hævelse, 
+skorpedannelse, nedbrydning af huden, blærer, eksem) eller irritabilitet, kvalme, mundtørhed, 
+influenzalignende symptomer og træthed. </p>
+<p>●  Hvis du behandles for aktinisk keratose </p>
+<p>Mange af bivirkningerne af Aldara creme skyldes lokale reaktioner på huden. Lokale hudreaktioner kan 
+være et tegn på, at lægemidlet virker efter hensigten. </p>
+<p>Meget almindelig bivirkning, let hudkløe på det behandlede hudområde. 
+Almindelige bivirkninger: smerter, svien, irritation eller rødmen.<br />
+Tal med din læge om det, hvis en hudreaktion bliver for ubehagelig under behandlingen. Han/hun vil 
+måske råde dig til at standse behandlingen med Aldara creme i et par dage (dvs. en kort pause i 
+behandlingen). 
+Tal med din læge om det, hvis der er pus eller andre tegn på infektion. Andre almindelige 
+bivirkninger, udover reaktionerne på huden, er hovedpine, anoreksi, kvalme, muskelsmerter, 
+ledsmerter og træthed. </p>
+<p>Ikke almindelige bivirkninger ændringer på påføringsstedet (blødning, inflammation, udflåd, øget 
+følsomhed, hævelse, små hævede områder på huden, snurren og prikken, skorpedannelse, ardannelse, 
+sårdannelse eller en følelse af varme eller ubehag), inflammation inde i næsen, stoppet næse, influenza 
+eller influenzalignende symptomer, nedtrykthed, irritation i øjnene, hævede øjenlåg, halssmerter, 
+diarré, aktinisk keratose, rødmen, hævelse i ansigtet, sår, smerter i arme og ben, feber, svaghedsfølelse 
+eller rystelser. </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store aldara"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store aldara"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Aldara creme utilgængeligt for børn. </p>
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p>
+<p>Brug ikke Aldara creme efter den udløbsdato, der står på æsken og etiketten efter EXP.  </p>
+<p>Brevene må ikke bruges igen efter at have været åbnet. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aldara, 5%, creme indeholder:</p>
+<ul>
+<li>Det aktive stof er imiquimod. Hvert brev indeholder 250 mg creme (100 mg creme indeholder 5 
+mg imiquimod). </li>
+<li>De øvrige indholdsstoffer er: isostearinsyre, benzylalkohol, cetylalkohol, stearylalkohol, hvid 
+blød paraffin, polysorbat 60, sorbitanstearat, glycerol, methylparahydroxybenzoat, 
+propylparahydroxybenzoat, xanthangummi, renset vand (se også afsnit 2 ”Aldara creme 
+indeholder methylparahydroxybenzoat, propylparahydroxybenzoat, cetylalkohol, 
+stearylalkohol og benzylalkohol”). </li>
+</ul>
+<p>Udseende og pakningstørrelse 
+- Hvert brev med Aldara 5% creme indeholder 250 mg hvid til let gullig creme. 
+- Hver pakning indeholder 12 eller 24 engangsbreve af polyester/aluminiumsfolie. </p>
+<p>Ikke alle pakningsstørrelser markedsføres nødvendigvis. </p>
+<p>INDEHAVEREN AF MARKEDSFØRINGSTILLADELSEN:<br />
+Viatris Healthcare Limited 
+Damastown Industrial Park 
+Mulhuddart 
+Dublin DUBLIN 
+Ireland </p>
+<p>FREMSTILLER:<br />
+Swiss Caps GmbH 
+Grassingerstraße 9 
+83043 Bad Aibling 
+Tyskland  </p>
+<p>Yderligere oplysninger om dette lægemiddel fås ved henvendelse til den lokale repræsentant for 
+indehaveren af markedsføringstilladelsen. </p>
+<p>België/Belgique/Belgien 
+Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: +32 2 658 61<br />
+Viatris 
+Tél/Tel: +32 2 658 61 (Belgique/Belgien) </p>
+<p>България 
+Майлан ЕООД 
+Тел.: +359 2 44 55<br />
+Magyarország 
+Viatris Healthcare Kft. 
+1138 Budapest 
+Váci út 150. Tel: +36 1 465 2 
+Česká republika 
+Viatris CZ s.r.o. 
+Tel: +420 222 004<br />
+Malta 
+V.J. Salomone Pharma Limited 
+Upper Cross Road 
+Marsa, MRS 1Tel: +356 21 22 01<br />
+Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69  </p>
+<p>Nederland 
+Mylan Healthcare B.V. 
+Krijgsman 1186 DM Amstelveen 
+Tel: +31 (0)20 426 3 
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700 Norge 
+Viatris AS<br />
+Hagaløkkveien 1383 Asker 
+Tlf: +47 66 75 33<br />
+Eesti 
+Viatris OÜ 
+Tel: +372 63 63<br />
+Österreich 
+Viatris Austria GmbH 
+Guglgasse 1110 Wien 
+Tel: + 43 (0)1 86<br />
+Ελλάδα 
+Viatris Hellas Ltd<br />
+Τηλ: +30 210 010 0 
+Polska 
+Viatris Healthcare Sp. z o.o. 
+ul. Postępu 21B 
+02-676 Warszawa 
+Tel: +48 22 546 6 
+España 
+Viatris Pharmaceuticals, S.L. 
+Tel: +34 900 102<br />
+Portugal 
+Viatris Healthcare, Lda. 
+Av. D. João II,<br />
+Edifício Atlantis, nº 44C – 7.3 e 7.4 
+1990-095 Lisboa 
+Tel: +351 214 127<br />
+France 
+Viatris Santé 
+1 bis place de la Défense – Tour Trinity 
+92400 Courbevoie<br />
+Tél: +33 (0)1 40 80 15<br />
+România 
+BGP PRODUCTS SRL 
+Tel.: +40372 579<br />
+Hrvatska 
+Viatris Hrvatska d.o.o. 
+Koranska 2 
+10 000  Zagreb 
+Slovenija 
+Viatris d.o.o. 
+Tel: +386 1 23 63<br />
+Tel: +385 1 2350<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+Ísland 
+Icepharma hf. 
+Sími: +354 540 8 
+Suomi/Finland 
+Viatris Oy 
+Vaisalantie 2-8/Vaisalavägen 2-8 
+02130 Espoo/Esbo 
+Puh/Tel: +358 20 720 9 
+Italia 
+Viatris Italia<br />
+Via Vittor Pisani, 20124 Milano 
+Tel: +39 0261246 
+Sverige 
+Viatris AB 
+Box 23104 35 Stockholm 
++46 (0) 8 630 19 Κύπρος 
+GPA Pharmaceuticals Ltd 
+Τηλ: +357 22863 
+United Kingdom (Nordirland) 
+Mylan  IRE Healthcare Limited 
+Tel: +353 18711Latvija 
+Viatris SIA 
+101 Mūkusalas str. 
+Rīga LV‐1Tālr: +371 67616 </p>
+<p>Lietuva 
+Viatris UAB 
+Žalgirio str. 90-Vilnius LT-09303<br />
+Tel. + 370 52051 </p>
+<p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ} </p>
+<p>Du kan finde yderligere oplysninger om Aldara på Det Europæiske Lægemiddelagenturs hjemmeside 
+http://www.ema.europa.eu/ </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-fc79b24fd8d9aad3e2636eda8908eb2a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aldara Package Leaflet for language en"
+Description: "ePI document Bundle for aldara Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fc79b24fd8d9aad3e2636eda8908eb2a"
+* entry[0].resource = composition-en-fc79b24fd8d9aad3e2636eda8908eb2a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfc79b24fd8d9aad3e2636eda8908eb2a"
+* entry[=].resource = mpfc79b24fd8d9aad3e2636eda8908eb2a
+                            
+                    
+Instance: bundlepackageleaflet-da-fc79b24fd8d9aad3e2636eda8908eb2a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aldara Package Leaflet for language da"
+Description: "ePI document Bundle for aldara Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-fc79b24fd8d9aad3e2636eda8908eb2a"
+* entry[0].resource = composition-da-fc79b24fd8d9aad3e2636eda8908eb2a
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfc79b24fd8d9aad3e2636eda8908eb2a"
+* entry[=].resource = mpfc79b24fd8d9aad3e2636eda8908eb2a
+                            
+                    
+
+
+
+Instance: mpfc79b24fd8d9aad3e2636eda8908eb2a
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product ALDARA 5% cream"
-Description: "ALDARA 5% cream"
+Title: "Medicinal Product aldara"
+Description: "aldara"
 Usage: #inline
 
  
@@ -493,7 +1052,7 @@ Usage: #inline
 
 
 * name
-  * productName = "ALDARA 5% cream"
+  * productName = "aldara"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -520,29 +1079,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-fc79b24fd8d9aad3e2636eda8908eb2a
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for aldara Package Leaflet for language en"
-Description: "ePI document Bundle for aldara Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: fc79b24fd8d9aad3e2636eda8908eb2aListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/98/080/001-002"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "aldara"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-fc79b24fd8d9aad3e2636eda8908eb2a"
-* entry[0].resource = composition-en-fc79b24fd8d9aad3e2636eda8908eb2a
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4b329827de338c2c74c6a576c0f52361"
-* entry[=].resource = mp4b329827de338c2c74c6a576c0f52361
-                            
-                      
+* title = "List of all ePIs associated with aldara"
+
+* subject = Reference(mp4b329827de338c2c74c6a576c0f52361)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#aldara "aldara"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-fc79b24fd8d9aad3e2636eda8908eb2a) // aldara en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-fc79b24fd8d9aad3e2636eda8908eb2a) // aldara da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-fc79b24fd8d9aad3e2636eda8908eb2a
+InstanceOf: List
+
+* insert fc79b24fd8d9aad3e2636eda8908eb2aListRuleset
+    

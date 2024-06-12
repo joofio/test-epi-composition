@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-27f53ce7e817ea56aac44769c7b5a3bb
 InstanceOf: CompositionUvEpi
 Title: "Composition for quofenix Package Leaflet"
@@ -443,12 +446,777 @@ Tel: +44 (0)1628 856This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-27f53ce7e817ea56aac44769c7b5a3bb
+InstanceOf: CompositionUvEpi
+Title: "Composition for quofenix Package Leaflet"
+Description:  "Composition for quofenix Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp5e1a37fd74d3a74b4932957edea269e5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp5e1a37fd74d3a74b4932957edea269e5
+* title = "TEST PURPOSES ONLY - quofenix"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du får Quofenix 
+3. Sådan skal du bruge Quofenix 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What quofenix is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What quofenix is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Quofenix er et antibiotikum, der indeholder det aktive stof delafloxacin. Det tilhører en gruppe af 
+lægemidler, der betegnes fluoroquinoloner. </p>
+<p>Det anvendes til at behandle voksne med alvorlige, kortvarige infektioner forårsaget af visse bakterier 
+når de sædvanlige antibiotika ikke kan anvendes eller ikke har virket: </p>
+<ul>
+<li>
+<p>infektioner i huden og de underliggende væv </p>
+</li>
+<li>
+<p>lungebetændelse (infektion i lungerne). </p>
+</li>
+</ul>
+<p>Lægemidlet virker ved at blokere enzymer, der er nødvendige for at kopiere og reparere bakteriernes 
+DNA. Ved at blokere disse enzymer, dræber Quofenix de bakterier, der har forårsaget infektionen. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take quofenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take quofenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Quofenix: </p>
+<ul>
+<li>
+<p>Hvis du er allergisk over for delafloxacin eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). </p>
+</li>
+<li>
+<p>Hvis du er allergisk over for andre antibakterielle lægemidler indeholdende fluoroquinoloner 
+eller quinoloner. </p>
+</li>
+<li>
+<p>Hvis du nogen sinde har haft problemer med dine sener (som senebetændelse) i forbindelse 
+med behandling med et "quinolon-antibiotikum". En sene er den "snor", der forbinder dine 
+muskler til skelettet. </p>
+</li>
+<li>
+<p>Hvis du er gravid, planlægger graviditet, eller har mistanke om at du er gravid. </p>
+</li>
+<li>
+<p>Hvis du ammer. </p>
+</li>
+<li>
+<p>Hvis du er et barn eller en ung i voksealderen under 18 år. </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Før du får dette lægemiddel 
+Du må ikke få antibakteriel medicin indholdende fluoroquinoloner/quinoloner, herunder Quofenix, 
+hvis du tidligere har fået alvorlige bivirkninger, når du har taget fluoroquinoloner eller quinoloner. 
+Fortæl det i så fald til lægen så hurtigt som muligt. </p>
+<p>Når du får dette lægemiddel </p>
+<ul>
+<li>
+<p>Der kan i sjældne tilfælde forekomme ledsmerter og hævede led, eller der kan opstå 
+inflammation i sener, eller de kan sprænge. Du har en øget risiko, hvis du er ældre (over 
+60 år), har fået foretaget en organtransplantation, har problemer med nyrerne, eller hvis du er 
+under behandling med kortikosteroider. Inflammation i sener eller bristede sener kan 
+forekomme i løbet af de første 48 timer af behandlingen eller endda op til flere måneder efter 
+ophør af behandling med Quofenix. Så snart du mærker de første tegn på smerte eller 
+inflammation i en sene (for eksempel i ankel, håndled, albue, skulder eller knæ), må du ikke 
+længere få Quofenix. Kontakt lægen, og hold det sted, der gør ondt, i ro. Undgå unødig 
+bevægelse, da det vil kunne øge risikoen for, at senen brister. </p>
+</li>
+<li>
+<p>Du vil i sjældne tilfælde kunne få symptomer på nerveskader (neuropati). Det kan for 
+eksempel være smerter, en brændende eller snurrende fornemmelse, følelsesløshed og/eller 
+svaghed, især i fødder og ben eller hænder og arme. Skulle det ske, må du ikke få Quofenix, 
+og du skal straks fortælle det til lægen, så det ikke udvikler sig til noget, der eventuelt kan 
+blive en permanent tilstand. </p>
+</li>
+</ul>
+<p>Tal med din læge, apotekspersonalet eller sygeplejersken, før du får Quofenix, hvis: </p>
+<ul>
+<li>
+<p>Du er diagnosticeret med en udposning på en stor blodåre (aortaaneurisme eller perifer 
+aneurisme i en stor blodåre). </p>
+</li>
+<li>
+<p>Du tidligere har haft et tilfælde af aortadissektion (en rift i aortavæggen).  </p>
+</li>
+<li>
+<p>du er blevet diagnosticeret med utætte hjerteklapper (hjerteklapinsufficiens). </p>
+</li>
+<li>
+<p>der i din familie tidligere har været et tilfælde af aortaaneurisme eller aortadissektion eller 
+medfødt hjerteklapsygdom eller andre risikofaktorer eller prædisponerende sygdomme (f.eks. 
+bindevævssygdom som Marfans syndrom eller vaskulær Ehlers-Danlos syndrom, Turners 
+syndrom, Sjögrens syndrom (en inflammatorisk autoimmun sygdom) eller karsygdomme som 
+f.eks. Takayasu arteritis (blodårebetændelse), kæmpecelle arteritis, Behcets sygdom, for højt 
+blodtryk eller kendt aterosklerose (åreforkalkning), reumatoid artritis (leddegigt) eller 
+endokarditis (infektion i hjertet)). </p>
+</li>
+<li>
+<p>Du har haft problemer med senerne i forbindelse med tidligere behandling med antibiotika 
+indeholdende fluoroquinoloner eller quinoloner. </p>
+</li>
+<li>
+<p>Du har eller har mistanke om at du har problemer med centralnervesystemet (for eksempel 
+svær cerebral arteriosklerose, epilepsi), eller du har andre risikofaktorer, som kan give dig en 
+større risiko for at få krampeanfald. I så tilfælde vil din læge afgøre, om denne behandling er 
+den bedste for dig. </p>
+</li>
+<li>
+<p>Du har myasthenia gravis (en form for muskelsvaghed), fordi det kan forværre dine 
+symptomer. </p>
+</li>
+<li>
+<p>Du lider af diarré eller har tidligere lidt af diarré, mens du tog antibiotika, eller op til 
+2 måneder derefter. Kontakt straks lægen, hvis du får diarré under eller efter behandlingen. 
+Du må ikke tage medicin mod diarréen, før du har talt med lægen. </p>
+</li>
+<li>
+<p>Du har problemer med nyrerne. </p>
+</li>
+<li>
+<p>Du nogle gange har været i langvarig behandling med antibiotika. Det kan betyde, at du kan 
+få en anden infektion, der skyldes andre bakterier (en superinfektion), som ikke kan 
+behandles med antibiotika. Tal med lægen, hvis du er bekymret eller har spørgsmål om dette 
+og det at tage Quofenix. </p>
+</li>
+<li>
+<p>Du måske har en kraftig hudreaktion, som for eksempel blærer eller sår. </p>
+</li>
+<li>
+<p>Du eller en i din familie har fået konstateret mangel på glukose-6-fosfat dehydrogenase. </p>
+</li>
+<li>
+<p>Du har diabetes. Fluoroquinoloner, herunder Quofenix, kan medføre, at blodsukkeret bliver 
+for højt eller for lavt. Hvis du har diabetes, bør du holde nøje øje med dit blodsukker. </p>
+</li>
+</ul>
+<p>Hvis du pludseligt får kraftige smerter i maven, brystet eller ryggen, som kan være symptomer på </p>
+<p>aortaaneurisme eller -dissektion, skal du straks tage på skadestuen. Du kan have en øget risiko, hvis du 
+er i behandling med systemisk binyrebarkhormon (binyrebarkhormonet føres med blodet rundt i 
+kroppen). </p>
+<p>Hvis du begynder at opleve hurtigt indsættende vejrtrækningsbesvær, især når du ligger ned i din seng, 
+eller hvis du bemærker hævelse af ankler, fødder eller mave eller et nyt tilfælde af hjertebanken 
+(følelse af hurtige eller uregelmæssige hjerteslag), skal du øjeblikkeligt søge lægehjælp. </p>
+<p>Længerevarende, alvorlige, invaliderende bivirkninger, der kan være vedvarende 
+Antibiotika indeholdende fluoroquinoloner eller quinoloner har været forbundet med meget sjældne, 
+men alvorlige bivirkninger. Nogle har været af længere varighed (måneder eller år), nogle har været 
+invaliderende eller kan være kroniske. De omfatter smerter i sener, muskler og led i arme og ben, 
+gangbesvær, unormale fornemmelser som for eksempel stikken og prikken, en snurrende eller 
+kildrende fornemmelse, følelsesløshed elle en brændende følelse (paræstesi), føleforstyrrelser 
+herunder forringet syn, smags- og lugtesans og hørelse, depression, hukommelsesbesvær, voldsom 
+træthed svære søvnforstyrrelser. 
+Hvis du får nogen af disse bivirkninger efter at have fået Quofenix, skal du straks fortælle det til 
+lægen, før du fortsætter behandlingen. Du og din læge vil derefter afgøre, om du skal fortsætte med 
+behandlingen eller eventuelt skal have en anden form for antibiotikum. </p>
+<p>Børn og unge 
+Denne medicin må ikke bruges til børn og unge, da den ikke er tilstrækkeligt undersøgt hos disse 
+grupper. </p>
+<p>Brug af anden medicin sammen med Quofenix 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. 
+Der foreligger ingen data om en påvirkning af intravenøst indgivet delafloxacin på multivitaminer, 
+andre kosttilskud eller didanosin. Quofenix bør dog ikke gives i samme dropslange som opløsninger, 
+der indeholder stoffer som kalcium og magnesium. </p>
+<p>Graviditet og amning 
+Du må ikke få Quofenix, hvis du er gravid eller ammer. Quofenix må ikke anvendes til kvinder, der 
+kan blive gravide, og som ikke anvender sikker prævention. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du får dette lægemiddel. 
+Hvis der er risiko for, at du kan blive gravid, skal du anvende sikker prævention, mens du behandles 
+med Quofenix. </p>
+<p>Trafik- og arbejdssikkerhed 
+Quofenix kan få dig til at føle dig svimmel og ør. Undlad at føre motorkøretøj, betjene maskiner eller 
+gøre andet, der kræverårvågenhed og koordination, indtil du ved, hvordan Quofenix påvirker dig.  </p>
+<p>Quofenix indeholder cyclodexdrin 
+Dette lægemiddel indeholder 2.480 mg sulfobutylether-beta-cyclodextrinnatrium i hvert hætteglas. </p>
+<p>Quofenix indeholder natrium 
+Dette lægemiddel indeholder 175 mg natrium (hovedkomponent i madlavnings-/bordsalt) pr. 
+hætteglas. Dette svarer til 8,8 % af den anbefalede maximale daglige indtagelse af natrium for en 
+voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take quofenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take quofenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Quofenix af en sygeplejerske eller en læge som et drop i en vene. </p>
+<p>Du vil få en infusion med Quofenix indeholdende 300 mg af medicinen 2 gange dagligt i 5-14 dage for 
+hudinfektioner og 5-10 dage for lungebetændelse alt efter lægens vurdering. Hver infusion varer ca. en 
+time. Din læge afgør, hvor mange dage du skal være i behandling. </p>
+<p>Fortæl det til din læge, hvis du har problemer med nyrerne, fordi din dosis i så tilfælde måske skal 
+justeres. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>
+<p>Hvis du har fået for meget Quofenix 
+Sig det straks til lægen eller sygeplejersken, hvis du er bekymret for, om du kan have fået for meget 
+Quofenix. </p>
+<p>Hvis du har glemt at få Quofenix 
+Sig det straks til lægen eller sygeplejersken, hvis du er bekymret for, om du kan have sprunget en dosis 
+over. </p>
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger </p>
+<p>Fortæl det straks til lægen eller sygeplejersken, hvis du får nogen af disse symptomer, da du i så fald 
+ikke længere bør få medicinen og kan have brug for øjeblikkelig lægehjælp:</p>
+<ul>
+<li>Synkebesvær, åndedrætsbesvær eller hoste, hævede læber, ansigt, hals eller tunge, tør hals eller 
+sammensnørret hals samt kraftigt udslæt. Det kan være tegn og symptomer på en allergisk reaktion og 
+kan være livtruende. Disse alvorlige bivirkninger er ikke almindelige bivirkninger og kan forekomme 
+hos op til 1 ud af 100 personer. </li>
+<li>Fald i blodtryk, sløret syn, svimmelhed. Denne alvorlige bivirkning er en ikke almindelig bivirkning 
+og kan forekomme hos op til 1 ud af 100 personer. </li>
+<li>Mavesmerter eventuelt med kraftig diarré, feber og kvalme. Dette kan være tegn på en tarminfektion, 
+som ikke bør behandles med medicin mod diarré, der får din mave til at gå i stå. Tarminfektion (en 
+infektion med Clostridioides difficile) er en ikke almindelig bivirkning og kan forekomme hos op til 1 
+ud af 100 personer. </li>
+</ul>
+<p>Andre bivirkninger kan omfatte: </p>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Svampeinfektion  </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Opkastning </p>
+</li>
+<li>
+<p>Hævelse, rødme eller smerter rundt kanylen, som bruges til at føre medicinen ind i venen 
+(reaktion på infusionsstedet) </p>
+</li>
+<li>
+<p>Øget antal leverenzymer, kaldet transaminaser - ses i blodprøver </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Reduktion i antallet af hvide blodlegemer (leukopeni) </p>
+</li>
+<li>
+<p>Lavt hæmoglobinniveau (blodmangel) </p>
+</li>
+<li>
+<p>Allergisk reaktion </p>
+</li>
+<li>
+<p>Højt blodsukker </p>
+</li>
+<li>
+<p>Nedsat appetit </p>
+</li>
+<li>
+<p>Søvnløshed </p>
+</li>
+<li>
+<p>Muskelsvaghed i ben eller arme </p>
+</li>
+<li>
+<p>Fornemmelser som følelsesløshed, snurren, prikken og stikken </p>
+</li>
+<li>
+<p>Nedsat følesans </p>
+</li>
+<li>
+<p>Smagsforandringer </p>
+</li>
+<li>
+<p>Hjertebanken (palpitation) </p>
+</li>
+<li>
+<p>Højt blodtryk </p>
+</li>
+<li>
+<p>Rødmen (f.eks. rødme i ansigtet eller på halsen) </p>
+</li>
+<li>
+<p>Inflammation i maveslimhinden, inflammation i vævet i munden, mavesmerter, 
+maveubehag/-smerter eller fordøjelsesbesvær, tør mund, luftafgang fra tarmen </p>
+</li>
+<li>
+<p>Unormal svedafsondring </p>
+</li>
+<li>
+<p>Allergisk hudreaktion </p>
+</li>
+<li>
+<p>Kløe, rødt udslæt </p>
+</li>
+<li>
+<p>Ledsmerter </p>
+</li>
+<li>
+<p>Smerter i sener og hævede sener </p>
+</li>
+<li>
+<p>Smerter i muskler og knogler (f.eks. smerter i ben eller arme, rygsmerter, nakkesmerter), 
+muskelsvaghed </p>
+</li>
+<li>
+<p>Forhøjet niveau kreatininfosfokinase i blodet (et tegn på muskelskade) </p>
+</li>
+<li>
+<p>Nedsat nyrefunktion </p>
+</li>
+<li>
+<p>Træthedsfornemmelse </p>
+</li>
+<li>
+<p>Ændring i blodprøve forbundet med leverfunktionen (forhøjet alkalisk fosfatase i blodet) </p>
+</li>
+<li>
+<p>Forhøjet temperatur (feber) </p>
+</li>
+<li>
+<p>Hævede ben  </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 patienter): </p>
+<ul>
+<li>
+<p>Urinvejsinfektion </p>
+</li>
+<li>
+<p>Inflammation af næseslimhinden </p>
+</li>
+<li>
+<p>Lavt antal hvide blodlegemer (reduktion i mængden af blodceller) </p>
+</li>
+<li>
+<p>Reduktion i antallet af særlige blodceller, der er nødvendige for, at blodet kan størkne </p>
+</li>
+<li>
+<p>Ændringer i testresultater, som skal vise, hvor let dit blod størkner </p>
+</li>
+<li>
+<p>Sæsonbetinget allergi </p>
+</li>
+<li>
+<p>Lavt blodsukker </p>
+</li>
+<li>
+<p>Højt niveau af urinsyre </p>
+</li>
+<li>
+<p>Højt niveau af kalium i blodet </p>
+</li>
+<li>
+<p>Lavt niveau af kalium i blodet </p>
+</li>
+<li>
+<p>Høre lyde, der ikke eksisterer (auditiv hallucination) </p>
+</li>
+<li>
+<p>Angst </p>
+</li>
+<li>
+<p>Abnorme drømme </p>
+</li>
+<li>
+<p>Forvirring </p>
+</li>
+<li>
+<p>Døsighed </p>
+</li>
+<li>
+<p>Ørhed eller svaghed, i reglen på grund af et fald i blodtrykket </p>
+</li>
+<li>
+<p>Tørre øjne </p>
+</li>
+<li>
+<p>Svimmelhed eller problemer med balancen (vertigo) </p>
+</li>
+<li>
+<p>Ringen eller summen for ørerne (tinnitus) </p>
+</li>
+<li>
+<p>Ændring i balancefølelsen </p>
+</li>
+<li>
+<p>Uregelmæssig eller hurtig puls, nedsat puls </p>
+</li>
+<li>
+<p>Hævede, røde, irriterede vener (årebetændelse) </p>
+</li>
+<li>
+<p>Blodprop i en dybtliggende vene </p>
+</li>
+<li>
+<p>Halsbrand/sure opstød </p>
+</li>
+<li>
+<p>Manglende følesans i munden </p>
+</li>
+<li>
+<p>Nedsat følesans i munden </p>
+</li>
+<li>
+<p>Brændende fornemmelse i munden </p>
+</li>
+<li>
+<p>Misfarvet afføring </p>
+</li>
+<li>
+<p>Ændring i blodprøve forbundet med leverfunktionen (nedsat albumin i blodet og forhøjet 
+gamma-glutamyltransferase) </p>
+</li>
+<li>
+<p>Koldsved </p>
+</li>
+<li>
+<p>Nattesved </p>
+</li>
+<li>
+<p>Unormalt hårtab </p>
+</li>
+<li>
+<p>Muskelkramper </p>
+</li>
+<li>
+<p>Muskelinflammation/-smerter </p>
+</li>
+<li>
+<p>Inflammation i led, smerter i hænder eller fødder, rygsmerter </p>
+</li>
+<li>
+<p>Blod i urinen </p>
+</li>
+<li>
+<p>Uklar urin som følge af faste stoffer i urinen </p>
+</li>
+<li>
+<p>Kulderystelser </p>
+</li>
+<li>
+<p>Forværring af sår </p>
+</li>
+<li>
+<p>Perifert ødem (væskeophobning) </p>
+</li>
+<li>
+<p>Tilstopning af det medicinske udstyr </p>
+</li>
+</ul>
+<p>Der har været meget sjældne tilfælde af længerevarende (op til måneder eller år) eller vedvarende 
+bivirkninger som for eksempel inflammation i sener, bristede sener, ledsmerter, smerter i ben eller 
+arme, gangbesvær, unormale fornemmelser som for eksempel en prikkende og stikkende følelse, en 
+snurrende, kildrende, brændende fornemmelse, følelsesløshed eller smerter (neuropati), depression, 
+træthed, søvnforstyrrelser, hukommelsesbesvær samt nedsat hørelse, syn, smags- og lugtesans i 
+forbindelse med brug af antibiotika indeholdende quinoloner og fluoroquinoloner, i nogle tilfælde 
+uafhængigt af allerede eksisterende risikofaktorer. </p>
+<p>Der er rapporteret om tilfælde af forstørret og svækket aortavæg eller rift i aortavæggen (aneurismer 
+og dissektioner), der kan sprænge, og som kan være dødelige, samt om utætte hjerteklapper hos 
+patienter, der behandles med fluoroquinoloner. Se også pkt. 2. Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store quofenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store quofenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken eller blisterpakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring, hvis det opbevares 
+uåbnet i den oprindelige beholder. </p>
+<p>Efter rekonstitution: Den kemiske og fysiske stabilitet under brug er blevet påvist til 24 timer ved til 25 °C eller ved 2 til 8 °C. ud fra et mikrobielt synspunkt skal produktet anvendes straks efter 
+rekonstitution og fortynding. Hvis produktet ikke anvendes med det samme, er opbevaringsstiden og 
+opbevaringsforholdene før anvendelse brugerens ansvar, og vil normalt højst være 24 timer ved 2 til 
+8 °C, medmindre rekonstitution og fortynding har fundet sted under kontrollerede og validerede 
+aseptiske forhold. </p>
+<p>Må ikke nedfryses. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Quofenix indeholder 
+- Aktivt stof: delafloxacin. Hvert hætteglas med pulver indeholder 300 mg delafloxacin (som 
+meglumin). 
+- Øvrige indholdsstoffer: meglumin, sulfobutylether-beta-cyclodextrinnatrium, dinatriumedetat, 
+natriumhydroxid (til pH-justering), saltsyre; koncentreret (til pH-justering).  </p>
+<p>Udseende og pakningsstørrelser 
+Quofenix pulver til koncentrat til infusionsvæske, opløsning, leveres i et klart 20 ml hætteglas (glas). 
+Hætteglasset indeholder et lysegult til lysebrunt kompakt pulver. 
+Det fås i pakninger med 10 hætteglas. </p>
+<p>Indehaver af markedsføringstilladelsen 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Via Sette Santi 3 
+50131 Florence 
+Italien </p>
+<p>Fremstiller 
+Patheon Italia S.p.A. 
+2° Trav. SX Via Morolense 5 
+03013 Ferentino (FR) 
+Italien </p>
+<p>eller </p>
+<p>AlfaSigma 
+1 Via Enrico Fermi 
+65020 Alanno (PE) 
+Italien </p>
+<p>Hvis du ønsker yderligere oplysninger om Quofenix, skal du henvende dig til den lokale repræsentant 
+for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4 
+Lietuva 
+UAB “BERLIN-CHEMIE MENARINI 
+BALTIC" 
+Tel: +370 52 691<br />
+България 
+Берлин-Хеми/А. Менарини България ЕООД 
+тел.: +359 2 454 0 
+Luxembourg/Luxemburg 
+Menarini Benelux NV/SA 
+Tél/Tel: + 32 (0)2 721 4Česká republika 
+Berlin-Chemie/A.Menarini Ceska republika 
+s.r.o. 
+Tel: +420 267 199<br />
+Magyarország 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: +36 17997Danmark 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56 
+Malta 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56 </p>
+<p>Deutschland 
+Berlin-Chemie AG 
+Tel: +49 (0) 30 67Nederland 
+Menarini Benelux NV/SA 
+Tel: +32 (0)2 721 4Eesti 
+OÜ Berlin-Chemie Menarini Eesti 
+Tel: +372 667 5Norge 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56Ελλάδα 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111-Österreich 
+A. Menarini Pharma GmbH. 
+Tel: +43 1 879 95 85-0 
+España 
+Laboratorios Menarini S.A. 
+Tel: +34-93 462 88 Polska 
+Berlin-Chemie/Menarini Polska Sp. z o.o. 
+Tel.: +48 22 566 21 France 
+MENARINI France 
+Tél: +33 (0)1 45 60 77 Portugal 
+A. Menarini Portugal - Farmacêutica, S.A. 
+Tel: +351 210 935 Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: + 385 1 4821 România 
+Berlin-Chemie A. Menarini S.R.L. 
+Tel: +40 21 232 34 Ireland 
+A. Menarini Pharmaceuticals Ireland Ltd 
+Tel: +353 1 284 6Slovenija 
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o.<br />
+Tel: +386 01 300 2Ísland 
+A. Menarini - Industrie Farmaceutiche Riunite -
+s.r.l. 
+Tel: +39-055 56Slovenská republika 
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. Tel: +421 2 544 30 Italia 
+A. Menarini - Industrie Farmaceutiche Riunite -
+s.r.l. 
+Tel: +39-055 56Suomi/Finland 
+Berlin-Chemie/A.Menarini Suomi OY 
+Puh/Tel: +358 403 000 Κύπρος 
+MENARINI HELLAS AE 
+Τηλ: +30 210 8316111-Sverige 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56 
+Latvija 
+SIA Berlin-Chemie/Menarini Baltic 
+Tel: +371 67103 
+United Kingdom (Northern Ireland) 
+A. Menarini Farmaceutica Internazionale S.R.L. 
+Tel: +44 (0)1628 856 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Kun til engangsbrug. </p>
+<p>Quofenix skal rekonstitueres under aseptiske forhold ved brug af 10,5 ml dextrose 50 mg/ml (5 %) 
+injektionsvæske, opløsning (D5W) eller natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning 
+for hvert 300 mg hætteglas. </p>
+<ul>
+<li>
+<p>Hætteglasset skal rystes godt, til indholdet er helt opløst. Det rekonstituerede hætteglas 
+indeholder 300 mg delafloxacin pr. 12 ml og fremstår som en klar gul til ravfarvet opløsning.  </p>
+</li>
+<li>
+<p>Den rekonstituerede opløsning skal derefter fortyndes i en 250 ml i.v.-pose (enten 0,9 % 
+natriumchlorid injektionsvæske eller D5W) før administration.  </p>
+</li>
+<li>
+<p>Forbered den ønskede dosis til intravenøs infusion ved at trække et volumen på 12 ml til 
+Quofenix 300 mg eller et volumen på 8 ml til Quofenix 200 mg op fra det rekonstituerede 
+hætteglas. </p>
+</li>
+<li>
+<p>Den ønskede dosis Quofenix rekonstitueret opløsning skal aseptisk overføres fra hætteglasset 
+til en 250 ml i.v.-pose. (Eventuelt ikke anvendt del af den rekonstituerede opløsning skal 
+bortskaffes.)  </p>
+</li>
+<li>
+<p>Efter rekonstitution og opløsning skal Quofenix administreres ved intravenøs infusion i løbet 
+af en samlet infusionstid på 60 minutter.  </p>
+</li>
+</ul>
+<p>Quofenix må ikke infunderes sammen med andre lægemidler. Ved anvendelse af en fælles i.v.-slange 
+til administration af andre lægemidler ud over Quofenix skal slangen skylles med natriumchlorid 
+9 mg/ml (0,9 %) injektionsvæske, opløsning eller med D5W, før og efter hver infusion af Quofenix. 
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Indlægsseddel: information til brugeren </p>
+<p>Quofenix 450 mg tabletter 
+delafloxacin </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse dem igen.<br />
+- Spørg lægen, apotekepersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-27f53ce7e817ea56aac44769c7b5a3bb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for quofenix Package Leaflet for language en"
+Description: "ePI document Bundle for quofenix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-27f53ce7e817ea56aac44769c7b5a3bb"
+* entry[0].resource = composition-en-27f53ce7e817ea56aac44769c7b5a3bb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27f53ce7e817ea56aac44769c7b5a3bb"
+* entry[=].resource = mp27f53ce7e817ea56aac44769c7b5a3bb
+                            
+                    
+Instance: bundlepackageleaflet-da-27f53ce7e817ea56aac44769c7b5a3bb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for quofenix Package Leaflet for language da"
+Description: "ePI document Bundle for quofenix Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-27f53ce7e817ea56aac44769c7b5a3bb"
+* entry[0].resource = composition-da-27f53ce7e817ea56aac44769c7b5a3bb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp27f53ce7e817ea56aac44769c7b5a3bb"
+* entry[=].resource = mp27f53ce7e817ea56aac44769c7b5a3bb
+                            
+                    
+
+
+
+Instance: mp27f53ce7e817ea56aac44769c7b5a3bb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Quofenix 300 mg powder for concentrate for solution for infusion"
-Description: "Quofenix 300 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product quofenix"
+Description: "quofenix"
 Usage: #inline
 
  
@@ -468,7 +1236,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Quofenix 300 mg powder for concentrate for solution for infusion"
+  * productName = "quofenix"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -495,29 +1263,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-27f53ce7e817ea56aac44769c7b5a3bb
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for quofenix Package Leaflet for language en"
-Description: "ePI document Bundle for quofenix Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 27f53ce7e817ea56aac44769c7b5a3bbListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1393/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "quofenix"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-27f53ce7e817ea56aac44769c7b5a3bb"
-* entry[0].resource = composition-en-27f53ce7e817ea56aac44769c7b5a3bb
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp5e1a37fd74d3a74b4932957edea269e5"
-* entry[=].resource = mp5e1a37fd74d3a74b4932957edea269e5
-                            
-                      
+* title = "List of all ePIs associated with quofenix"
+
+* subject = Reference(mp5e1a37fd74d3a74b4932957edea269e5)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#quofenix "quofenix"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-27f53ce7e817ea56aac44769c7b5a3bb) // quofenix en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-27f53ce7e817ea56aac44769c7b5a3bb) // quofenix da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-27f53ce7e817ea56aac44769c7b5a3bb
+InstanceOf: List
+
+* insert 27f53ce7e817ea56aac44769c7b5a3bbListRuleset
+    

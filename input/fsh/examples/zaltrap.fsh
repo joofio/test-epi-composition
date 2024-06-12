@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-6569b151297f81a41ed28c44518ea9a0
 InstanceOf: CompositionUvEpi
 Title: "Composition for zaltrap Package Leaflet"
@@ -14,7 +17,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpac9d3197b1ef1ea9d738510996eaf9f2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -506,9 +509,722 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-6569b151297f81a41ed28c44518ea9a0
+InstanceOf: CompositionUvEpi
+Title: "Composition for zaltrap Package Leaflet"
+Description:  "Composition for zaltrap Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpac9d3197b1ef1ea9d738510996eaf9f2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-                      
+* title = "TEST PURPOSES ONLY - zaltrap"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge ZALTRAP 
+3. Sådan gives ZALTRAP 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zaltrap is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zaltrap is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sådan virker ZALTRAP 
+ZALTRAP indeholder det aktive stof aflibercept, et protein der virker ved at blokere væksten af nye 
+blodkar i tumoren. Tumoren behøver næringsstoffer og ilt fra blodet for at vokse. Ved at blokere 
+væksten af blodkar medvirker ZALTRAP til at stoppe eller forsinke tumorens vækst. </p>
+<p>Hvad ZALTRAP anvendes til 
+ZALTRAP er et lægemiddel der bruges til at behandle fremskreden kræft i tyktarmen og endetarmen 
+hos voksne. Det vil blive givet sammen med anden medicin kaldet ‘kemoterapi’ herunder 
+‘5-fluoruracil’, ‘folinsyre’ og ‘irinotecan’.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zaltrap"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zaltrap"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke ZALTRAP </p>
+<ul>
+<li>
+<p>hvis du er allergisk over for aflibercept eller et af de øvrige indholdsstoffer (angivet i punkt 6).  </p>
+</li>
+<li>
+<p>i dit øje, da det kan forårsage alvorlig skade. </p>
+</li>
+</ul>
+<p>Læs indlægssedlen for de andre lægemidler (‘kemoterapi’), der er en del af din behandling, for at se 
+om de er egnede for dig. Hvis du er i tvivl, spørg lægen, apotekspersonalet eller sygeplejersken, om 
+der er nogen grund til, at du ikke kan bruge disse lægemidler.  </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apoteket eller sundhedspersonalet, før du bruger ZALTRAP og under<br />
+behandlingen, hvis: </p>
+<ul>
+<li>
+<p>du har blødningsproblemer, eller hvis du opdager en blødning efter en behandling (se punkt 4), 
+eller hvis du føler dig ekstremt træt, svag, svimmel eller har ændringer i farven på din afføring. 
+Hvis det drejer sig en alvorlig blødning, vil lægen stoppe behandlingen med ZALTRAP. Dette 
+skyldes at ZALTRAP kan øge risikoen for blødning. </p>
+</li>
+<li>
+<p>du har problemer med din mund eller dine tænder, så som dårlig tandhygiejne, sygdom i 
+gummerne eller har en planlagt tandudtrækning, særligt hvis du tidligere er blevet behandlet 
+med et bisfosfonat (anvendes til at forebygge knoglesygdomme). En bivirkning kaldet 
+osteonekrose (knogleskade i kæben) er rapporteret hos kræftpatienter behandlet med 
+ZALTRAP. Du kan blive anbefalet at få et tandlægeeftersyn inden du påbegynder behandling 
+med ZALTRAP. Mens du behandles med ZALTRAP, skal du opretholde en god tandhygiejne 
+(inklusiv regelmæssig tandbørstning) og få foretaget rutinemæssige tandlægeeftersyn. Hvis du 
+bruger proteser, skal du sikre at disse er korrekt tilpassede. Hvis du også tidligere har fået eller 
+får intravenøse bisfosfonater, skal tandlægebehandling eller operative tandindgreb, (for 
+eksempel tandudtrækninger) undgås. Oplys din læge om din tandlægebehandling og fortæl din 
+tandlæge, at du er i behandling med ZALTRAP. Kontakt straks din læge og tandlæge under og 
+efter behandling med ZALTRAP, hvis du oplever problemer med din mund eller tænder såsom 
+løse tænder, smerter eller hævelse, sår der ikke vil hele eller udflåd, da dette kan være tegn på 
+osteonekrose af kæben. </p>
+</li>
+<li>
+<p>du har en sygdom, der involverer betændelse i dine tarme, såsom infektion i en del af 
+tarmvæggen (også kaldet ‘diverticulitis’), mavesår eller colitis. Dette skyldes, at ZALTRAP kan 
+øge risikoen for at få huller i tarmvæggen. Hvis dette skulle ske for dig, vil lægen stoppe 
+behandlingen med ZALTRAP. </p>
+</li>
+<li>
+<p>du har haft abnorme rørlignende forbindelser eller passager i kroppen mellem de indre organer 
+og huden eller andre væv (også kaldet ‘fistler’).  Hvis du udvikler en sådan forbindelse eller 
+passage under behandlingen, vil lægen stoppe behandlingen med ZALTRAP. </p>
+</li>
+</ul>
+<p>du har forhøjet blodtryk. Zaltrap kan øge blodtrykket (se punkt 4) og din læge skal 
+overvåge dit blodtryk og kan justere din blodtryksmedicin eller din dosis af ZALTRAP. 
+Det er derfor også vigtigt at fortælle det til lægen, apoteket eller sundhedspersonalet 
+hvis du har andre hjerteproblemer, da højt blodtryk kan forværre disse. </p>
+<ul>
+<li>
+<p>du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i en 
+blodårevæg. </p>
+</li>
+<li>
+<p>du oplever åndenød (dyspnø), når du anstrenger dig, eller når du ligger ned, overdreven træthed 
+eller hævede ben som kan være tegn på hjertesvigt.  </p>
+</li>
+<li>
+<p>du oplever tegn på en blodprop (se punkt 4). Tegnene på en blodprop kan variere afhængig af 
+hvor den opstår (f.eks. lunger, ben, hjerte eller hjerne) men kan omfatte symptomer så som 
+smerter i brystet, hoste, stakåndethed eller vejrtrækningsbesvær. Andre symptomer omfatter 
+hævelse i det ene eller begge ben, smerter eller ømhed i det ene eller begge ben, misfarvning og 
+varme i huden på det berørte ben eller synlige blodårer. Det kan også vise sig som en pludselig 
+følelsesløshed eller svaghedsfølelse i ansigt, arme eller ben. Andre symptomer omfatter en 
+følelse af forvirring, synsproblemer, gangproblemer, koordinationsproblemer eller 
+balanceproblemer, problemer med at udtale ord eller sløret tale. Hvis du oplever nogen af disse 
+symptomer, skal du tale med din læge med det samme, da din læge muligvis vil behandle dine 
+symptomer og stoppe din behandling med ZALTRAP. </p>
+</li>
+<li>
+<p>du har nyreproblemer (protein i urinen), da lægen vil overvåge din nyrefunktion og evt. justere 
+din dosis af ZALTRAP. </p>
+</li>
+<li>
+<p>dit antal af hvide blodlegemer er for lavt. Zaltrap kan reducere antallet af hvide blodlegemer i 
+dit blod og din læge vil overvåge antallet af hvide blodlegemer og kan give dig yderligere 
+medicin for at forhøje det. Hvis dit antal af hvide blodlegemer er for lavt, kan lægen blive nødt 
+til at udsætte din behandling. </p>
+</li>
+<li>
+<p>du har alvorlig eller langvarig diarré, føler dig dårlig tilpas (kvalme) eller kaster op - dette kan 
+medføre alvorligt tab af væske (kaldet ‘dehydrering’). Din læge kan blive nødt til at behandle 
+dig med anden medicin og/eller give dig væske intravenøst. </p>
+</li>
+<li>
+<p>du har haft nogen form for allergi – alvorlige allergiske reaktioner kan forekommer under 
+behandling med ZALTRAP (se punkt 4). Din læge kan blive nødt til at behandle den allergiske 
+reaktion eller stoppe behandlingen med ZALTRAP. </p>
+</li>
+<li>
+<p>du har fået trukket en tand ud eller foretaget andre typer operationer i de seneste 4 uger, eller du 
+skal have foretaget en operation eller et indgreb foretaget af en tandlæge eller læge, eller hvis du 
+har et operationssår, som endnu ikke er læget. Din læge vil midlertidigt stoppe behandlingen før 
+og efter operationen. </p>
+</li>
+<li>
+<p>du oplever anfald (kramper). Hvis du oplever ændringer på dit syn eller forvirring, kan lægen 
+stoppe behandlingen med ZALTRAP. </p>
+</li>
+<li>
+<p>du er 65 år eller ældre og oplever diarré, svimmelhed, svaghed, vægttab eller alvorligt tab af 
+kropsvæsker (kaldet ‘dehydrering’). Din læge bør overvåge dig nøje. </p>
+</li>
+<li>
+<p>dit aktivitetsniveau i hverdagen er begrænset eller forværres ved behandling. Din læge bør 
+overvåge dig nøje. </p>
+</li>
+</ul>
+<p>Hvis noget af ovenstående gælder for dig (eller du ikke er sikker), så tal med din læge, 
+apotekspersonalet eller sundhedspersonalet, før du får ZALTRAP og under behandlingen.  </p>
+<p>Under behandlingen vil lægen foretage en række prøver for at overvåge dine kropsfunktioner og se, 
+hvordan medicinen virker. Prøverne kan omfatte blod- og urinprøver, røntgen eller andre former for 
+scanning og/eller andre prøver. </p>
+<p>ZALTRAP gives som et drop (infusion) i en af dine blodårer (‘intravenøst’) for at behandle kræft i 
+tyktarm eller endetarm. ZALTRAP må ikke injiceres i øjet, da det kan forårsage alvorlig skade. </p>
+<p>Børn og unge 
+Dette lægemiddel er ikke til børn eller unge under 18 år, da sikkerheden og fordelene ved anvendelse 
+af ZALTRAP til børn og unge ikke er blevet påvist. </p>
+<p>Brug af anden medicin sammen med ZALTRAP 
+Fortæl altid lægen eller på apoteket, hvis du bruger anden medicin eller har gjort det for nylig. Dette 
+gælder også for medicin som ikke er købt på recept, f.eks. naturlægemidler og vitaminer og mineraler.  </p>
+<p>Graviditet, amning og frugtbarhed 
+Du bør ikke bruge ZALTRAP under graviditet, medmindre du og din læge beslutter at fordelene for 
+dig er større end de potentielle risici for dig og dit ufødte barn. Hvis du er kvinde i den fødedygtige 
+alder, skal du anvende effektiv prævention (se afsnit om Prævention nedefor for detaljer om 
+prævention for kvinder). Dette lægemiddel kan skade det ufødte barn da det kan hindre dannelsen af 
+nye blodkar. </p>
+<p>Tal med lægen, før du får denne medicin, hvis du ammer. Dette skyldes, at det er ukendt om 
+lægemidlet udskilles i modermælken. </p>
+<p>ZALTRAP kan påvirke både mænds og kvinders frugtbarhed. Spørg lægen til råds, hvis du planlægger 
+at få børn. </p>
+<p>Prævention<br />
+Kvinder, der kan få børn, skal benytte effektive præventionsmidler: </p>
+<ul>
+<li>
+<p>under behandling med ZALTRAP og  </p>
+</li>
+<li>
+<p>i 3 måneder efter den sidste dosis af behandlingen. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Du kan få bivirkninger, der påvirker dit syn, din koncentrations- eller reaktionsevne. Hvis dette sker 
+for dig, bør du ikke køre bil eller andet motorkøretøj eller bruge værktøjer eller maskiner. 
+ZALTRAP indeholder natrium 
+Dette lægemiddel indeholder op til 22 mg natrium (hoved komponent af madlavnings-/bordsalt) pr. 
+hætteglas. Dette svarer til 1,1 % af den anbefalede maximale daglige indtagelse af natrium for en 
+voksen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zaltrap"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zaltrap"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZALTRAP vil blive indgivet af en læge eller en sygeplejerske med erfaring i brugen af ‘kemoterapi’. 
+Det gives via et drop (infusion) i en af dine blodårer (‘intravenøst’). ZALTRAP må ikke injiceres i 
+øjet, da det kan forårsage alvorlig skade. </p>
+<p>Medicinen skal fortyndes, før den gives. Praktiske oplysninger vedrørende håndtering og 
+administration af ZALTRAP for læger, sygeplejersker og apotekspersonale ved brug af denne medicin 
+findes i denne indlægsseddel. </p>
+<p>Hvor meget og hvor tit du vil modtage af behandlingen </p>
+<ul>
+<li>
+<p>Droppet (infusionen) varer cirka 1 time. </p>
+</li>
+<li>
+<p>Du vil sædvanligvis få en infusion en gang hver 2. uge. </p>
+</li>
+<li>
+<p>Den anbefalede dosis er 4 mg for hvert kilo af din kropsvægt. Din læge vil bestemme den 
+korrekte dosis for dig. </p>
+</li>
+<li>
+<p>Din læge vil beslutte, hvor tit du skal have medicinen, og om du behøver ændringer af dosis. </p>
+</li>
+</ul>
+<p>ZALTRAP vil blive givet sammen med anden kemoterapi-medicin, herunder ‘5-fluoruracil’, 
+‘folinsyre’ og ‘irinotecan’. Din læge vil beslutte den nøjagtige dosis af disse andre 
+kemoterapipræparater. </p>
+<p>Behandlingen vil fortsætte så længe din læge mener, at behandlingen er gavnlig for dig og 
+bivirkningerne er acceptable.  </p>
+<p>Spørg lægen, på apoteket eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
+De bivirkninger, der er nævnt nedenfor, er set, når ZALTRAP blev givet sammen med kemoterapi.  </p>
+<p>Alvorlige bivirkninger </p>
+<p>Tal omgående med lægen, hvis du bemærker nogen af følgende alvorlige bivirkninger – du kan 
+behøve akut medicinsk behandling:  </p>
+<ul>
+<li>
+<p>Blødning: Meget almindeligt (kan påvirke mere end 1 ud af 10 personer) – dette omfatter 
+blødning fra næsen, men kan også omfatte alvorlige blødninger i dine tarme og andre dele af 
+kroppen, og de kan være dødelige. Symptomer på blødning kan være træthed, svaghed og/eller 
+svimmelhed eller ændringer i farven på din afføring. </p>
+</li>
+<li>
+<p>Smerte i mund, tænder og/eller kæbe, hævelse eller sår der ikke vil hele i mund eller kæbe, 
+udflåd, følelsesløshed eller en følelse af tyngde i kæben, eller løse tænder: Ikke almindelig 
+(kan påvirke op til 1 ud af 100 personer) – Disse symptomer kan være tegn på knogleskade i 
+kæben (osteonekrose). Fortæl det straks til din læge og tandlæge hvis du oplever disse 
+symptomer, mens du behandles med ZALTRAP, eller efter behandlingen er ophørt. </p>
+</li>
+<li>
+<p>Huller i tarmen (også kaldet ‘gastrointestinal perforation’): Ikke almindeligt (kan påvirke op 
+til 1 ud af 100 personer) – dette er et hul i mavesækken, spiserøret eller tarmene. Dette kan være 
+dødeligt. Symptomerne kan omfatte mavesmerter, kvalme (opkastning), feber eller 
+kulderystelser.  </p>
+</li>
+<li>
+<p>Forbindelse eller passager i kroppen mellem de indre organer og huden eller andre væv 
+(også kaldet ‘fistler’). Almindeligt (kan påvirke op til 1 ud af 10 personer) - disse abnorme 
+rørlignende forbindelser eller passager kan for eksempel dannes mellem tarmen og huden. 
+Sommetider, afhængigt af hvor det sker, kan du få et usædvanligt udflåd på det pågældende 
+sted. Kontakt lægen, hvis du er usikker på noget.  </p>
+</li>
+<li>
+<p>Forhøjet blodtryk (også kaldet ‘hypertension’): Meget almindeligt (kan påvirke mere end 1 
+ud af 10 personer) – dette kan udvikles eller forværres. Hvis blodtrykket ikke bringes under 
+kontrol, kan det medføre slagtilfælde, hjerte- og nyreproblemer. Din læge skal kontrollere dit 
+blodtryk gennem hele behandlingen. </p>
+</li>
+<li>
+<p>Hjertesvigt (også kaldet hjerteinsufficiens): Ikke almindeligt (kan påvirke op til 1 ud af personer) - symptomerne kan omfatte åndenød når du ligger ned, eller når du anstrenger dig, 
+overdreven træthed eller hævede ben. </p>
+</li>
+<li>
+<p>Blokering af pulsårerne på grund af en blodprop (også kaldet ‘arterielle tromboemboliske 
+hændelser’): Almindeligt (kan påvirke op til 1 ud af 10 personer) - dette kan medføre 
+slagtilfælde eller hjerteanfald. Symptomerne kan omfatte smerter i brystet eller tung 
+fornemmelse i brystet, pludselig følelsesløshed eller svaghedsfølelse i ansigt, arme eller ben. 
+Andre symptomer omfatter en følelse af forvirring, synsproblemer, gangproblemer, 
+koordinationsproblemer eller balanceproblemer eller problemer med at udtale ord eller sløret 
+tale. </p>
+</li>
+<li>
+<p>Blokering af blodårerne på grund af en blodprop (også kaldet ‘venøse tromboemboliske 
+hændelser’): Almindeligt (kan påvirke op til 1 ud af 10 personer) – dette kan omfatte en 
+blodprop i lungerne eller benene. Symptomerne kan omfatte smerter i brystet, hoste, 
+stakåndethed, vejrtrækningsbesvær eller ophostning af blod. Andre symptomer omfatter 
+hævelse i det ene eller begge ben, smerter eller ømhed i det ene eller begge ben, når man står 
+eller går, varme i huden på det berørte ben, rød eller misfarvet hud på det berørte ben eller 
+synlige blodårer. </p>
+</li>
+<li>
+<p>Protein i urinen (også kaldet ‘proteinuri’): Meget almindeligt (kan påvirke mere end 1 ud af 
+10 personer) – dette er meget almindeligt at se i tests. Dette kan omfatte hævelse af fødderne 
+eller hele kroppen og kan være relateret til nyresygdom.  </p>
+</li>
+<li>
+<p>Lavt antal hvide blodlegemer (også kaldet ‘neutropeni’): Meget almindeligt (kan påvirke 
+mere end 1 ud af 10 personer) – dette kan medføre alvorlige infektioner. Lægen vil jævnligt 
+udtage blodprøver for at kontrollere dit antal hvide blodlegemer under hele din behandling. De 
+kan også ordinere et lægemiddel til dig, som kaldes ‘G-CSF’, for at hjælpe med til at forebygge 
+komplikationer, hvis dit antal af hvide blodlegemer er for lavt. Symptomer på infektion kan 
+omfatte feber, kulderystelser, hoste, brændende fornemmelse, når du lader vandet, eller 
+muskelsmerter. Du bør tage din temperatur ofte under behandling med denne medicin. </p>
+</li>
+<li>
+<p>Diarré og dehydrering: Meget almindeligt (kan påvirke mere end 1 ud af 10 personer) for 
+diarré og Almindeligt (kan påvirke op til 1 ud af 10 personer) for dehydrering – svær diarré og 
+kvalme (opkastning) kan betyde, at du mister for megen kropsvæske (kaldes ‘dehydrering’) og 
+kropssalte (elektrolytter). Symptomerne kan omfatte svimmelhed, især når du rejser dig fra 
+siddende stilling. Du skal muligvis behandles på hospital. Din læge kan give dig medicin, der 
+kan stoppe eller behandle diarré og kvalme (opkastning). </p>
+</li>
+<li>
+<p>Allergiske reaktioner: Almindeligt (kan påvirke op til 1 ud af 10 personer) - disse kan 
+forekomme inden for få minutter efter din infusion. Symptomer på allergiske reaktioner kan 
+omfatte udslæt eller kløe, rødmen af huden, følelse af svimmelhed eller besvimelse, 
+stakåndethed, trykken for brystet, tillukning i halsen eller hævelse af ansigtet. Fortæl omgående 
+lægen eller sygeplejersken, hvis du får disse symptomer under eller kort efter en infusion af 
+ZALTRAP. </p>
+</li>
+<li>
+<p>Sår der heler langsomt eller ikke vil hele: Ikke almindelig (kan påvirke op til 1 ud af personer) – dette er når et ar har vanskeligt ved at hele eller holdes lukket, eller hvis et ophelet 
+sår åbnes igen. Lægen vil stoppe med at give dette lægemiddel i mindst 4 uger før planlagte 
+operationer og indtil såret er helet fuldstændig. </p>
+</li>
+<li>
+<p>En bivirkning, der påvirker dit nervesystem (kaldet ‘posterior reversibelt 
+encefalopatisyndrom’ eller PRES): Ikke almindeligt (kan påvirke op til 1 ud af 100 personer) – 
+symptomerne kan omfatte hovedpine, synsforandringer, en følelse af forvirring eller anfald med 
+eller uden forhøjet blodtryk.  </p>
+</li>
+</ul>
+<p>Tal omgående med lægen, hvis du bemærker nogen af ovenstående virkninger.  </p>
+<p>Andre bivirkninger inkluderer:  </p>
+<p>Meget almindeligt (kan påvirke mere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>fald i antallet af hvide blodlegemer (leukopeni) </p>
+</li>
+<li>
+<p>fald i antallet af visse celler i blodet (blodplader), der hjælper det med at koagulere 
+(trombocytopeni) </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>næseblod </p>
+</li>
+<li>
+<p>ændring af stemmen, f.eks. udvikling af hæshed </p>
+</li>
+<li>
+<p>åndedrætsbesvær </p>
+</li>
+<li>
+<p>smertende sår i munden </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>hævelse og følelsesløshed i hænder og fødder i forbindelse med kemoterapi (kaldet 
+‘palmoplantar erytrodysæstesisyndrom’) </p>
+</li>
+<li>
+<p>følelse af træthed eller svækkelse </p>
+</li>
+<li>
+<p>vægttab  </p>
+</li>
+<li>
+<p>nyreproblem med en forøgelse af kreatinin (en markør for nyrefunktion) </p>
+</li>
+<li>
+<p>leverproblem med en forøgelse af leverenzymer.  </p>
+</li>
+</ul>
+<p>Almindeligt (kan påvirke op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>urinvejsinfektion </p>
+</li>
+<li>
+<p>betændelse inden i næsen og den øverste del af svælget </p>
+</li>
+<li>
+<p>smerter i munden eller halsen </p>
+</li>
+<li>
+<p>rindende næse </p>
+</li>
+<li>
+<p>hæmorroider, blødning eller smerter i endetarmen </p>
+</li>
+<li>
+<p>betændelse inde i munden </p>
+</li>
+<li>
+<p>tandpine  </p>
+</li>
+<li>
+<p>forandringer i hudens farve. </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan påvirke op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>en stigning i protein i urinen, en stigning i kolesterol i blodet og hævelse pga. overskydende 
+væske (ødem) (også kaldet ‘nefrotisk syndrom’) </p>
+</li>
+<li>
+<p>blodprop i meget små blodkar (også kaldet ‘trombotisk mikroangiopati’). </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>En udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og arterielle 
+dissektioner). </li>
+</ul>
+<p>Indberetning af bivirkninger<br />
+Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller apoteket. Dette gælder 
+også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
+også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zaltrap"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zaltrap"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og på hætteglassets etiket efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C-8 °C). 
+Opbevares i den originale yderpakning for at beskytte produktet mod lys. </p>
+<p>Oplysninger om opbevarings- og anvendelsestid for ZALTRAP, efter at det er fortyndet og klar til 
+brug, er beskrevet i ‘Praktiske oplysninger for sundhedspersonale vedrørende klargøring og håndtering 
+af ZALTRAP 25 mg/ml koncentrat til infusionsvæske, opløsning’ i slutningen af denne indlægsseddel.  </p>
+<p>Brug ikke ZALTRAP, hvis der kan ses partikler i eller misfarvning af medicinen i hætteglasset eller 
+infusionsposen. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZALTRAP indeholder 
+- Aktivt stof: aflibercept. En ml koncentrat indeholder 25 mg aflibercept. Et 4 ml hætteglas med 
+koncentrat indeholder 100 mg aflibercept. Et 8 ml hætteglas med koncentrat indeholder 200 mg 
+aflibercept. 
+- Øvrige indholdsstoffer: Saccharose, natriumchlorid, natriumcitratdihydrat, 
+citronsyremonohydrat, polysorbat 20, natriumdihydrogenphosphatmonohydrat, 
+dinatriumphosphatheptahydrat, natriumhydroxid og/eller saltsyre samt vand til 
+injektionsvæsker.  </p>
+<p>Udseende og pakningstørrelser 
+ZALTRAP er et koncentrat til infusionsvæske, opløsning (sterilt koncentrat). Koncentratet er en klar, 
+farveløs til lysegul opløsning. </p>
+<ul>
+<li>
+<p>4 ml koncentrat i et 5 ml gennemsigtigt borsilikathætteglas (type I) forseglet med en flangeprop 
+med hætte, der kan vippes af, og indsat forseglingsskive med overtræk. Pakningsstørrelse på 1 
+eller 3 hætteglas. </p>
+</li>
+<li>
+<p>8 ml koncentrat i et 10 ml gennemsigtigt borsilikathætteglas (type I) forseglet med en 
+flangeprop med hætte, der kan vippes af, og indsat forseglingsskive med overtræk. 
+Pakningsstørrelse på 1 hætteglas. </p>
+</li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført.  </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Sanofi Winthrop Industrie 
+82 avenue Raspail 
+94250 Gentilly 
+Frankrig </p>
+<p>Fremstiller 
+Sanofi Aventis Deutschland GmbH 
+Industriepark Hoechst 
+65926 Frankfurt am Main 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België /Belgique/Belgien: 
+Sanofi Belgium 
+Tél/Tel: +32 (0)2 710 54<br />
+Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91<br />
+България 
+Swixx Biopharma EOOD 
+Тел.: +359 (0)2 4942<br />
+Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>Česká republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086<br />
+Magyarország 
+SANOFI-AVENTIS zrt. 
+Tel.: +36 1 505 0 
+Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70<br />
+Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394 
+Deutschland 
+Sanofi Aventis Deutschland GmbH 
+Tel: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
+Nederland 
+Sanofi B.V. 
+Tel: +31 (0)20 245 4 
+Eesti 
+Swixx Biopharma OÜ<br />
+Tel: +372 640 10<br />
+Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71<br />
+Ελλάδα 
+sanofi-aventis Μονοπρόσωπη ΑΕΒΕ 
+Τηλ: +30 210 900 16<br />
+Österreich: 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185 – 0 </p>
+<p>España 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94<br />
+Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00<br />
+France 
+Sanofi Winthrop Industrie 
+Tél: 0 800 222 Appel depuis l’étranger : +33 1 57 63 23<br />
+Portugal 
+Sanofi - Produtos Farmacêuticos, Lda. 
+Tel: +351 21 35 89<br />
+Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078<br />
+România 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31 Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56<br />
+Slovenija 
+Swixx Biopharma d.o.o.<br />
+Tel: +386 1 235 51<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 <br />
+Italia 
+Sanofi S.r.l. 
+Tel: 800536 
+Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200<br />
+Κύπρος 
+C.A. Papaellinas Ltd. 
+Τηλ: +357 22 741 
+Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50<br />
+Latvija<br />
+Swixx Biopharma SIA<br />
+Tel: +371 6 616 47<br />
+United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder 
+Du kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>PRAKTISKE OPLYSNINGER FOR SUNDHEDSPERSONALE 
+VEDRØRENDE KLARGØRING OG HÅNDTERING AF ZALTRAP 25 mg/ml 
+KONCENTRAT TIL INFUSIONSVÆSKE, OPLØSNING </p>
+<p>Disse oplysninger supplerer punkt 3 og 5 for brugeren. 
+Det er vigtigt, at du gennemlæser hele indholdet af denne vejledning inden klargøringen af 
+infusionsopløsningen. </p>
+<p>ZALTRAP er et sterilt, konserveringsmiddelfrit og apyrogent koncentrat, derfor bør 
+infusionsopløsningen klargøres af sundhedspersonale under anvendelse af sikre håndteringsprocedurer 
+og aseptisk teknik. 
+Der skal der udvises forsigtighed ved håndtering af ZALTRAP, idet der tages hensyn til brug af 
+indkapslingsanordninger, personligt beskyttelsesudstyr (f.eks. handsker) og klargøringsprocedurer. </p>
+<p>Klargøring af infusionsopløsningen </p>
+<ul>
+<li>
+<p>Inspicer hætteglasset med ZALTRAP visuelt før brug. Den koncentrerede opløsning skal være 
+klar og uden partikler.  </p>
+</li>
+<li>
+<p>På grundlag af den påkrævede dosis til patienten trækkes det nødvendige volumen ZALTRAP-
+koncentrat ud af hætteglasset. Det kan være nødvendigt at bruge mere end et hætteglas til 
+klargøring af infusionsopløsningen.  </p>
+</li>
+<li>
+<p>Fortynd det nødvendige administrationsvolumen med 9 mg/ml (0,9 %) natriumchlorid- eller 5 
+% glucoseinfusionvæske, opløsning. Koncentrationen af den endelige ZALTRAP-opløsning til 
+intravenøs infusion skal holdes inden for området 0,6 mg/ml til 8 mg/ml for aflibercept. </p>
+</li>
+<li>
+<p>Der bør anvendes infusionsposer af PVC indeholdende DEHP eller polyolefin infusionsposer. </p>
+</li>
+<li>
+<p>Den fortyndede opløsning skal inspiceres visuelt for partikler og misfarvning, før 
+administration. Hvis der observeres nogen misfarvning eller partikler, skal den 
+rekonstituerede opløsning kasseres. </p>
+</li>
+<li>
+<p>ZALTRAP er et hætteglas til engangsbrug. Hætteglasset må ikke punkteres påny efter den 
+første punktur. Alt ikke anvendt koncentrat skal bortkastes. </p>
+</li>
+</ul>
+<p>Holdbarhed efter fortynding i infusionspose 
+Den kemiske og fysiske stabilitet under brug er påvist til 24 timer ved 2 °C til 8 °C og til 8 timer ved 
+25 °C. </p>
+<p>Ud fra et mikrobiologisk synspunkt bør infusionsopløsningen anvendes med det samme. 
+Hvis den ikke anvendes det samme er brugeren ansvarlig for holdbarheden og for de forhold, som den 
+opbevares under, hvilket normalt ikke vil være mere end 24 timer ved 2 °C til 8 °C, medmindre 
+fortynding har fundet sted under kontrollerede og validerede aseptiske forhold. </p>
+<p>Administration 
+ZALTRAP skal administreres udelukkende som intravenøs infusion over 1 time. På grund af 
+hyperosmolalitet (1000 mOsmol/kg) af ZALTRAP-koncentratet må ufortyndet ZALTRAP ikke 
+administreres som intravenøs indsprøjtning eller bolus. ZALTRAP må ikke administreres som 
+intravitreal injektion (se punkt 2 i indlægssedlen).  </p>
+<p>Hvert hætteglas med koncentrat til infusionsvæske, opløsning, er udelukkende til engangsbrug 
+(enkeltdosis). </p>
+<p>Fortyndede opløsninger af ZALTRAP bør administreres ved hjælp af infusionssæt indeholdende et 0,2 
+mikrometer polyethersulfonfilter. </p>
+<p>Infusionssættene bør være fremstillet af et af følgende materialer: </p>
+<ul>
+<li>
+<p>polyvinylchlorid (PVC) indeholdende bis(2-ethylhexyl) phthalat (DEHP)  </p>
+</li>
+<li>
+<p>DEHP-frit PVC indeholdende trioctyl-trimellitat (TOTM) </p>
+</li>
+<li>
+<p>polypropylen  </p>
+</li>
+<li>
+<p>polyethylen-belagt PVC </p>
+</li>
+<li>
+<p>polyurethan </p>
+</li>
+</ul>
+<p>Filtre fremstillet af polyvinylidenfluorid (PVDF) eller nylon må ikke anvendes.   </p>
+<p>Bortskaffelse 
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
 Instance: bundlepackageleaflet-en-6569b151297f81a41ed28c44518ea9a0
 InstanceOf: BundleUvEpi
 Title: "ePI document Bundle for zaltrap Package Leaflet for language en"
@@ -527,5 +1243,141 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-6569b151297f81a41ed28c44518ea9a0"
 * entry[0].resource = composition-en-6569b151297f81a41ed28c44518ea9a0
-                      
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6569b151297f81a41ed28c44518ea9a0"
+* entry[=].resource = mp6569b151297f81a41ed28c44518ea9a0
+                            
+                    
+Instance: bundlepackageleaflet-da-6569b151297f81a41ed28c44518ea9a0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zaltrap Package Leaflet for language da"
+Description: "ePI document Bundle for zaltrap Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-6569b151297f81a41ed28c44518ea9a0"
+* entry[0].resource = composition-da-6569b151297f81a41ed28c44518ea9a0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6569b151297f81a41ed28c44518ea9a0"
+* entry[=].resource = mp6569b151297f81a41ed28c44518ea9a0
+                            
+                    
+
+
+
+Instance: mp6569b151297f81a41ed28c44518ea9a0
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product zaltrap"
+Description: "zaltrap"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/12/814/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "ZALTRAP in combination with irinotecan/5-fluorouracil/folinic acid (FOLFIRI) chemotherapy is"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "zaltrap"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+RuleSet: 6569b151297f81a41ed28c44518ea9a0ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zaltrap"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with zaltrap"
+
+* subject = Reference(mpac9d3197b1ef1ea9d738510996eaf9f2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zaltrap "zaltrap"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6569b151297f81a41ed28c44518ea9a0) // zaltrap en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-6569b151297f81a41ed28c44518ea9a0) // zaltrap da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-6569b151297f81a41ed28c44518ea9a0
+InstanceOf: List
+
+* insert 6569b151297f81a41ed28c44518ea9a0ListRuleset
+    

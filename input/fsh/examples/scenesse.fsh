@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-365176ec901be3a749e148c628fa3afe
 InstanceOf: CompositionUvEpi
 Title: "Composition for scenesse Package Leaflet"
@@ -293,12 +296,398 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: composition-da-365176ec901be3a749e148c628fa3afe
+InstanceOf: CompositionUvEpi
+Title: "Composition for scenesse Package Leaflet"
+Description:  "Composition for scenesse Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6284151105c9e32b8a439e8bf80c1f15)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6284151105c9e32b8a439e8bf80c1f15
+* title = "TEST PURPOSES ONLY - scenesse"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at få SCENESSE </li>
+<li>Sådan gives SCENESSE </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What scenesse is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What scenesse is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SCENESSE indeholder det aktive stof afamelanotid (som acetat). Afamelanotid er en syntetisk form af 
+kroppens naturlige α-melanocytstimulerende hormon (α-MSH). Afamelanotid virker ligesom det 
+naturlige hormon ved at få hudcellerne til at producere eumelanin, som er et sortbrunt melaninpigment 
+i kroppen. </p>
+<p>Afamelanotid bruges til at øge tolerancen over for sollys hos voksne med den bekræftede diagnose 
+erythropoietisk protoporfyri (EPP). EPP er en sygdom med øget følsomhed for sollys, som kan 
+medføre skadevirkninger i form af smerter og skoldning. Ved at øge mængden af eumelanin kan 
+SCENESSE forsinke indsættelsen af smerter forårsaget af følsomhed for sollys (fotosensitivitet). </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take scenesse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take scenesse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke SCENESSE </p>
+<ul>
+<li>hvis du er allergisk over for afamelanotid eller et af de øvrige indholdsstoffer i SCENESSE 
+(angivet i punkt 6), </li>
+<li>hvis du har en alvorlig leversygdom, </li>
+<li>hvis du har leverproblemer, </li>
+<li>hvis du har nyreproblemer. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen, før du får SCENESSE, hvis du har eller nogensinde har haft:</p>
+<ul>
+<li>hjerteproblemer eller svært vejrtrækningsbesvær, </li>
+<li>mave-tarm-problemer, </li>
+<li>sukkersyge, </li>
+<li>Cushings sygdom (en hormonsygdom, hvor kroppen producerer for meget af hormonet kortisol), </li>
+<li>Addisons sygdom (en sygdom i binyrerne, der medfører mangel på visse hormoner), </li>
+<li>Peutz-Jeghers syndrom (en sygdom, der medfører blokering af tarmen, og hvor der kan være 
+fregner på hænder, fodsåler og læber), </li>
+<li>epilepsi (eller hvis du har fået at vide, at du kan få krampeanfald), </li>
+<li>for lavt antal røde blodlegemer (anæmi), </li>
+<li>modermærkekræft (melanom, en aggressiv form for hudkræft), herunder in situ melanom, f.eks. 
+lentigo maligna, eller visse arvelige sygdomme, der øger risikoen for melanom, </li>
+<li>hudkræft af typerne basalcellekarcinom eller pladecellekarcinom (herunder carcinoma in situ, 
+f.eks. Bowens sygdom), Merkelcellecarcinom eller andre ondartede hudforandringer eller 
+forstadier dertil. </li>
+</ul>
+<p>Kontakt lægen, før du får SCENESSE, hvis du er over 70 år. </p>
+<p>Hvis du nogensinde har haft en af de nævnte sygdomme, kan det være nødvendigt, at lægen overvåger 
+dig tættere under behandlingen </p>
+<p>Beskyttelse mod sol </p>
+<p>Du skal ikke ændre på den måde, du plejer at håndtere din EPP og din hudfototype (UV-følsomhed). 
+Husk, at øget udsættelse for UV-lys medvirker til hudkræft. </p>
+<p>Overvågning af huden </p>
+<p>Da SCENESSE øger indholdet af eumelanin, vil de fleste patienter få mørkere hud. Det er en forventet 
+reaktion ved brug af dette lægemiddel, og den mørkere hud vil langsomt blegne, medmindre der 
+anvendes endnu et implantat. </p>
+<p>Lægen vil regelmæssigt skulle kontrollere din hud (på hele kroppen) for at overvåge ændringer i 
+modermærker (f.eks. at de bliver mørkere) eller andre hudforandringer. Det anbefales, at dette gøres 
+hver sjette måned. </p>
+<p>Fortæl det til lægen, hvis der er nye hudforandringer eller ændringer i de forandringer, du allerede har. 
+Få snarest en konsultation hos en speciallæge i porfyri, hvis stærkt farvede forandringer som 
+modermærker begynder at vokse, eller hvis der viser sig andre væskende, forhøjede, vortelignende 
+eller sårfyldte forandringer, der ikke vil heles og vokser. Henvisning til en hudspecialist kan være 
+nødvendig. </p>
+<p>Børn og unge </p>
+<p>Dette lægemiddel må ikke anvendes hos børn og unge under 18 år, da det ikke er afprøvet hos denne 
+aldersgruppe </p>
+<p>Brug af anden medicin sammen med SCENESSE </p>
+<p>Fortæl det altid til lægen, hvis du tager anden medicin, for nylig har taget anden medicin eller 
+planlægger at tage anden medicin. </p>
+<p>Fortæl det til lægen, hvis du får blodfortyndende medicin (antikoagulantia) til forebyggelse af 
+blodpropper. Sådanne lægemidler kan være warfarin, acetylsalicylsyre (et stof, der findes i mange 
+smertestillende og febernedsættende lægemidler og også er blodpropforebyggende) samt nonsteroide 
+antiinflammatoriske lægemidler (NSAID), der bruges mod almindelige lidelser såsom gigt, hovedpine, 
+let feber, reumatisme og ondt i halsen. Grunden er, at sådanne lægemidler kan øge forekomsten af blå 
+mærker eller blødning på implantationsstedet. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, du er gravid, eller planlægger at blive gravid, må du 
+ikke få SCENESSE, da det er ukendt, hvordan det vil påvirke det ufødte barn eller det ammede barn. </p>
+<p>Kvinder, der kan blive gravide, bør bruge sikker prævention såsom p-piller, pessar plus sæddræbende 
+creme eller spiral under behandlingen og tre måneder efter at have fået det sidste SCENESSE-
+implantat. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Der er risiko for døsighed og træthed ved brug dette lægemiddel, navnlig de første 72 timer efter at 
+man har fået det. Hvis det er tilfældet for dig, må du ikke føre motorkøretøj eller arbejde med værktøj 
+eller maskiner. Hvis du er konstant døsig, skal du kontakte lægen. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take scenesse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take scenesse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Implantatet vil blive indsat af en læge, som har fået instruktion i at indsætte det. Lægen vil sammen 
+med dig finde det mest passende tidspunkt og sted, hvor indsættelsen af implantatet skal foregå. </p>
+<p>Der gives et implantat hver anden måned i forårs- og sommermånederne. Der anbefales tre implantater 
+årligt, afhængigt af, hvor lang en virkeperiode, der behøves. Der kan dog ikke gives mere end 4 
+implantater om året. </p>
+<p>Implantatet gives som en injektion under huden ved hjælp af en kateterslange og en kanyle (subkutan 
+anvendelse). Før du får lægemidlet, kan lægen vælge at lokalbedøve dig i det område, hvor implantatet 
+skal indsættes. Implantatet bliver indsat direkte under hudfolderne i maveskindet eller over 
+hoftebenskammen. </p>
+<p>Efter at implantatet er blevet indsat, vil du muligvis kunne mærke det under huden. Implantatet vil 
+gradvis blive absorberet af kroppen. Dette vil tage mellem 50 og 60 dage efter implantationen. </p>
+<p>Hvis du mærker ubehag og er bekymret, skal du kontakte lægen. Om nødvendigt kan implantatet 
+fjernes ved et simpelt operativt indgreb. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Følgende bivirkninger anses for at være: </p>
+<p>Meget almindelig (Kan forekomme hos flere end 1 ud af 10 behandlede):</p>
+<ul>
+<li>kvalme, </li>
+<li>hovedpine. </li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 behandlede):</p>
+<ul>
+<li>influenza, infektion i de øvre luftveje (forkølelse), </li>
+<li>generelle hudforandringer med mørkfarvning af fregner og skønhedspletter, </li>
+<li>udslæt med små blærer, kløe, udslæt, rødt udslæt, kløende udslæt, </li>
+<li>svimmelhed, døsighed og migræne (svær hovedpine), </li>
+<li>hedeture, rødmen, varmefølelse og hudrødme, </li>
+<li>mavesmerter, tandpine, diarré og opkastning, </li>
+<li>smerter i arme og ben, smerter eller svaghed i muskler og knogler, rygsmerter, </li>
+<li>træthed, smerter, feber, reaktioner på implantationsstedet herunder smerter, blå mærker, hævelse, 
+blødning, kløe og farveændring af den overliggende hud, influenzalignende sygdom, hoste, tilstoppet 
+næse, betændt næse og hals. </li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 behandlede):</p>
+<ul>
+<li>urinvejsinfektion, betændt hårfollikel, betændelse i mave og tarm, </li>
+<li>overfølsomhed, </li>
+<li>nedsat eller øget appetit, </li>
+<li>nedtrykthed, herunder depression, søvnbesvær, dårlig søvnkvalitet, </li>
+<li>besvimelse, følelse af at skulle besvime, svaghed, ubehag i benene, balanceforstyrrelse, </li>
+<li>tørre øjne, øjensmerter, røde øjne, problemer med at fokusere på ting, lysfølsomme øjne, ringen for 
+ørerne, </li>
+<li>hjertebanken, blå mærker, blødning, højt blodtryk, </li>
+<li>tilstoppede bihuler, </li>
+<li>mave-tarminflammation, halsbrand, irritabelt tarmsyndrom, tarmluft, hævelse af læber, nedsat 
+følsomhed ved berøring i munden, smerter i gummerne, </li>
+<li>akne, eksem, rød, hævet hud, tør hud, ændret hårfarve, svedtendens, pigmentering af negle, farvning 
+af læber, afskalning af huden, brændende fornemmelse i huden, ændret hudfarve, herunder farvetab, 
+fedtet hud, nældefeber, </li>
+<li>ledstivhed, stivhed af muskler og knogler, pludselige muskelsammentrækninger, ømme muskler, </li>
+<li>ømme bryster, uregelmæssig menstruation, smertefuld menstruation, </li>
+<li>kulderystelser, varmefølelse, tømmermænd, utilpashed, hævede ben og hænder, </li>
+<li>unormale leverfunktionsprøver, nedsat jernbinding, forhøjet blodsukker, nedsat jernindhold i blodet, 
+blod i urinen, </li>
+<li>fald og sår, </li>
+<li>udstødning af anordning. </li>
+</ul>
+<p>Sjælden (kan forekomme hos op til 1 ud af 1.000 behandlede):</p>
+<ul>
+<li>svampeinfektion, </li>
+<li>nedsat antal hvide blodlegemer, </li>
+<li>forhøjet kolesterol, </li>
+<li>forvirring, hovedpine efter skade, unormal smagssans, </li>
+<li>hævede øjenlåg, </li>
+<li>hurtig puls (hjertefrekvens), </li>
+<li>uregelmæssig afføring, betændte læber, misfarvede gummer, læber og tunge, </li>
+<li>røde eller brunlige knuder på huden (som kaldes “Lichen planus"), vitiligo, </li>
+<li>kraftig, langvarig menstruation, udflåd fra skeden, nedsat sexlyst, </li>
+<li>vægtøgning, </li>
+<li>sårkomplikation, kvalme efter indsættelse af implantat. </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som 
+ikke er medtaget i denne indlægsseddel. Du og dine pårørende kan også indberette bivirkninger direkte 
+til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendix V. Ved at 
+indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store scenesse"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store scenesse"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglasset og den ydre æske. Lægen 
+kontrollerer udløbsdatoen, før implantatet anvendes. </p>
+<p>Opbevares i køleskab (2º - 8º C). </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SCENESSE indeholder:</p>
+<ul>
+<li>Aktivt stof: afamelanotid (som acetat). Et implantat indeholder 16 mg afamelanotid. </li>
+<li>Øvrige indholdsstoffer: poly(D,L-lactid-co-glycolid). </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Implantatet er en massiv, hvid til let gullig stav, der måler 1,7 cm i længden og 1,5 mm i diameter, i et 
+gult hætteglas af glas med PTFE-belagt gummiprop. 
+Pakningen indeholder ét hætteglas med ét implantat. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>CLINUVEL EUROPE LIMITED 
+10 Earlsfort Terrace 
+Dublin 2 
+D02 TIrland 
+Tlf: +353 1513 4mail@clinuvel.com </p>
+<p>Fremstiller </p>
+<p>CLINUVEL EUROPE LIMITED 
+Alexandra House 
+The Sweepstakes 
+Ballsbridge 
+Dublin 4 
+D04 C7H2 
+Irland </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Dette lægemiddel er godkendt under "særlige vilkår". 
+Det betyder, at det grundet sygdommens sjældenhed, af videnskabelige årsager og af etiske grunde 
+ikke har været muligt at opnå fuldstændig dokumentation for lægemidlet. 
+Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
+indlægsseddel vil om nødvendigt blive ajourført. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>
+<hr />
+<p>Nedenstående oplysninger er til læger og sundhedspersonale: </p>
+<p>Administration </p>
+<p>SCENESSE administreres subkutant under aseptiske betingelser som beskrevet nedenfor. 
+Administrationen skal foretages af en læge, der af indehaveren af markedsføringstilladelsen har 
+modtaget instruktion og autorisation til at administrere implantatet. </p>
+<p>Brugsanvisning </p>
+<ul>
+<li>Tag pakningen med implantatet ud af køleskabet, og lad lægemidlet henstå, til det har nået 
+rumtemperatur. </li>
+<li>Lad patienten sidde i en bekvem stilling eller ligge på ryggen med let eleveret overkrop. </li>
+<li>Desinficer huden over crista iliaca superior. </li>
+<li>Anlæg lokalanæstesi af implantationsområdet, hvis det skønnes nødvendigt i samråd med 
+patienten. </li>
+<li>Vælg et kateter af kaliber 14 (indvendig diameter: 1,6 mm) med kanyle. </li>
+<li>Markér dybden 1,5 til 2 cm på kateterskaftet med en kirurgisk mærkepen. </li>
+<li>Tag sterilt fat i kateteret, klem hudfolden sammen, og hold hudfolden mellem to fingre kranialt for 
+eller over crista iliaca superior. </li>
+<li>Vend kanylens skråtskårne del opad, hold kateteret i en vinkel på 30-45 grader med hudoverfladen, 
+og før kateteret lateralt 1,5-2 cm ind i subcutis i én uafbrudt bevægelse. </li>
+<li>Når kateteret er på plads, udtages implantatet aseptisk fra hætteglasset. </li>
+<li>Tag kanylen sterilt ud af kateteret. </li>
+<li>Overfør implantatet til kateterets afgang. </li>
+<li>Skub med et passende redskab (såsom en mandrin) implantatet helt ind gennem kateterets lumen i 
+dettes fulde længde. </li>
+<li>Tryk på indføringsområdet med fingeren, og udtag samtidig stiletten og kateteret. </li>
+<li>Kontrollér, at implantatet er på plads, ved at palpere huden og subcutis kranialt for/over crista iliaca 
+superior, indtil implantatet er lokaliseret. Kontrollér altid tilstedeværelsen af implantatet; se om 
+nødvendigt efter, om det er blevet siddende i kateteret. Hvis det ikke er lykkedes at indsætte 
+implantatet ved ovenstående fremgangsmåde, skal implantatet kasseres, og et nyt implantat 
+ilægges. Indsæt ikke et nyt implantat, medmindre det med sikkerhed er fastslået, at det første ikke 
+er blevet indført. </li>
+<li>Læg et let tryk på indstiksstedet. </li>
+<li>Observer patienten i 30 minutter med henblik på allergisk reaktion eller hypersensitivitetsreaktion 
+(af straks-typen). </li>
+</ul>
+<p>Implantatet kan om nødvendigt fjernes operativt. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-365176ec901be3a749e148c628fa3afe
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for scenesse Package Leaflet for language en"
+Description: "ePI document Bundle for scenesse Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-365176ec901be3a749e148c628fa3afe"
+* entry[0].resource = composition-en-365176ec901be3a749e148c628fa3afe
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp365176ec901be3a749e148c628fa3afe"
+* entry[=].resource = mp365176ec901be3a749e148c628fa3afe
+                            
+                    
+Instance: bundlepackageleaflet-da-365176ec901be3a749e148c628fa3afe
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for scenesse Package Leaflet for language da"
+Description: "ePI document Bundle for scenesse Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-365176ec901be3a749e148c628fa3afe"
+* entry[0].resource = composition-da-365176ec901be3a749e148c628fa3afe
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp365176ec901be3a749e148c628fa3afe"
+* entry[=].resource = mp365176ec901be3a749e148c628fa3afe
+                            
+                    
+
+
+
+Instance: mp365176ec901be3a749e148c628fa3afe
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product SCENESSE 16 mg implant"
-Description: "SCENESSE 16 mg implant"
+Title: "Medicinal Product scenesse"
+Description: "scenesse"
 Usage: #inline
 
  
@@ -318,7 +707,7 @@ Usage: #inline
 
 
 * name
-  * productName = "SCENESSE 16 mg implant"
+  * productName = "scenesse"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -345,29 +734,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-365176ec901be3a749e148c628fa3afe
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for scenesse Package Leaflet for language en"
-Description: "ePI document Bundle for scenesse Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 365176ec901be3a749e148c628fa3afeListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/969/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "scenesse"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-365176ec901be3a749e148c628fa3afe"
-* entry[0].resource = composition-en-365176ec901be3a749e148c628fa3afe
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6284151105c9e32b8a439e8bf80c1f15"
-* entry[=].resource = mp6284151105c9e32b8a439e8bf80c1f15
-                            
-                      
+* title = "List of all ePIs associated with scenesse"
+
+* subject = Reference(mp6284151105c9e32b8a439e8bf80c1f15)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#scenesse "scenesse"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-365176ec901be3a749e148c628fa3afe) // scenesse en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-365176ec901be3a749e148c628fa3afe) // scenesse da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-365176ec901be3a749e148c628fa3afe
+InstanceOf: List
+
+* insert 365176ec901be3a749e148c628fa3afeListRuleset
+    

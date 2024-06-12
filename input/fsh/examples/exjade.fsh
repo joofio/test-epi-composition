@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-bd22c6cb08ec26dbc8a674d031b87df0
 InstanceOf: CompositionUvEpi
 Title: "Composition for exjade Package Leaflet"
@@ -466,12 +469,681 @@ effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-bd22c6cb08ec26dbc8a674d031b87df0
+InstanceOf: CompositionUvEpi
+Title: "Composition for exjade Package Leaflet"
+Description:  "Composition for exjade Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp34be8939c5d04dd563afb00658353c0f)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp34be8939c5d04dd563afb00658353c0f
+* title = "TEST PURPOSES ONLY - exjade"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage EXJADE </li>
+<li>Sådan skal du tage EXJADE </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What exjade is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What exjade is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad EXJADE er 
+EXJADE indeholder et aktiv stof, der kaldes deferasirox. Det er en jernkelator. En jernkelator er et 
+lægemiddel, som anvendes for at fjerne overskud af jern fra kroppen (også kaldet jernophobning). Det 
+binder og fjerner det overskydende jern, som derefter udskilles med afføringen. </p>
+<p>Hvad EXJADE anvendes til 
+Gentagne blodtransfusioner kan være nødvendige hos patienter med forskellige slags anæmier 
+(blodmangel) (fx talassæmi, seglcelleanæmi eller myelodysplastiske syndromer (MDS)). Imidlertid 
+kan gentagne blodtransfusioner forårsage ophobning af overskydende jern. Dette skyldes, at blod 
+indeholder jern, og at din krop ikke har en naturlig måde at fjerne det overskydende jern, du får med 
+blodtransfusionerne, på. Patienter med ikke-transfusionsafhængige talassæmi-syndromer kan på sigt 
+også udvikle jernophobning. Det skyldes hovedsageligt øget optagelse af jern fra kosten forårsaget af 
+et lavt antal blodceller. På længere sigt kan det overskydende jern ødelægge vigtige organer såsom 
+leveren og hjertet. Lægemidler kaldet jernkelatorer anvendes til at fjerne det overskydende jern. De 
+nedsætter dermed risikoen for, at det overskydende jern forårsager organskader. </p>
+<p>EXJADE anvendes til at behandle kronisk jernophobning hos patienter i alderen 6 år og derover med 
+beta-talassæmi major forårsaget af hyppige blodtransfusioner. </p>
+<p>EXJADE anvendes også til behandling af kronisk jernophobning, når deferoxamin ikke kan benyttes 
+eller ikke har tilstrækkelig virkning hos patienter med beta-talassæmi major med jernophobning 
+forårsaget af sjældne blodtransfusioner. Endvidere anvendes EXJADE til patienter med andre typer af 
+anæmier og til børn i alderen 2 til 5 år. </p>
+<p>EXJADE anvendes også til ikke-transfusionsafhængige patienter i alderen 10 år eller derover, der har 
+fået jernophobning i forbindelse med deres talassæmi-syndromer, når deferoxamin-behandling er 
+kontraindiceret eller utilstrækkelig. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take exjade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take exjade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke EXJADE 
+- hvis du er allergisk over for deferasirox eller et af de øvrige indholdsstoffer i EXJADE (angivet 
+i punkt 6). Hvis dette gælder for dig, skal du fortælle det til lægen, inden du tager EXJADE. 
+Hvis du har mistanke om, at du kan være allergisk, skal du spørge lægen til råds. 
+- hvis du har en moderat eller alvorlig nyresygdom. 
+- hvis du for tiden indtager anden jernkelatormedicin. </p>
+<p>EXJADE er ikke anbefalet 
+- hvis du er på et fremskredent stadie af myelodysplastisk syndrom (MDS; nedsat produktion af 
+blodceller i knoglemarven) eller har fremskreden kræft. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du tager EXJADE 
+- hvis du har nyre- eller leverproblemer. 
+- hvis du har hjerteproblemer, der er forårsaget af jernoverbelastning. 
+- hvis du opdager en markant nedsættelse af din urinmængde (tegn på nyresygdom). 
+- hvis du udvikler alvorlige udslæt, vejrtrækningsbesvær og svimmelhed eller oplever hævelse 
+hovedsageligt i ansigtet og på halsen (tegn på alvorlig allergisk reaktion, se også punkt 4 
+"Bivirkninger"). 
+- hvis du oplever en kombination af nogle af følgende symptomer: udslæt, rød hud, blistre på 
+læberne, øjne eller mund, hudafskalninger, høj feber, influenzalignende symptomer, forstørrede 
+lymfekirtler (tegn på alvorlig hudreaktion, se også punkt 4 "Bivirkninger"). 
+- hvis du oplever en kombination af døsighed, smerter i den øvre højre del af maven, gulfarvning 
+af din hud eller øjne og mørk urin (tegn på leverproblemer). 
+- hvis du oplever problemer med at tænke klart, huske information eller løse opgaver, er mindre 
+opmærksom eller bevidst eller er meget træt og har lavt energiniveau (tegn på et højt niveau af 
+ammoniak i dit blod, hvilket kan være forbundet med nyre- eller leversygdomme, se også 
+afsnit 4 "Bivirkninger"). 
+- hvis du kaster blod op/eller har sort afføring. 
+- hvis du ofte oplever mavesmerter, specielt efter spisning eller indtag af EXJADE. 
+- hvis du ofte oplever halsbrand. 
+- hvis du har et lavt antal blodplader eller hvide blodceller i din blodprøve. 
+- hvis du har sløret syn. 
+- hvis du har diarré eller kaster op. 
+Hvis noget af dette gælder for dig, så fortæl det til din læge med det samme. </p>
+<p>Kontrol af din EXJADE-behandling 
+Du vil få taget regelmæssige blod- og urinprøver under behandlingen. Lægerne vil kontrollere 
+blodprøvernes mængde af jern, og dermed mængden af jern i kroppen (ferritin-niveau i blodet) for at 
+se, hvor godt EXJADE virker. Prøverne vil også vise nyrefunktionen (kreatinin-niveau i blodet, 
+tilstedeværelse af protein i urinen) og leverfunktionen (transaminase-niveau i blodet). Din læge kan 
+kræve, at du får foretaget en nyrebiopsi, hvis han/hun mistænker alvorlig nyreskade. Du får måske 
+også foretaget magnetisk resonans-skanninger (MRI) for at bestemme mængden af jern i din lever. 
+Din læge vil tage disse prøver med i betragtning, når han/hun afgør, hvilken dosis EXJADE, der 
+passer bedst til dig, og vil også bruge disse prøver til at afgøre, hvornår du skal stoppe med at tage 
+EXJADE. </p>
+<p>Som en sikkerhedsforanstaltning vil dit syn og hørelse blive testet hvert år. </p>
+<p>Brug af anden medicin sammen med EXJADE 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin. Dette gælder specielt:</p>
+<ul>
+<li>andre jernkelatorer, som ikke må tages sammen med EXJADE, </li>
+<li>syreneutraliserende medicin (medicin til behandling af halsbrand), der indeholder aluminium, 
+som du ikke må tage på samme tidspunkt af døgnet som EXJADE, </li>
+<li>ciclosporin (bruges til at forhindre kroppen i at afstøde et transplanteret organ, eller til andre 
+lidelser som gigt og udslæt), </li>
+<li>simvastatin (bruges til at sænke kolesterol), </li>
+<li>visse smertestillende eller antiinflammatorisk lægemidler (fx acetylsalicylsyre, ibuprofen, 
+kortikosteroider), </li>
+<li>orale bisphosphonater (bruges til behandling af osteoporose), </li>
+<li>antikoagulerende medicin (bruges til at modvirke eller behandling af blodpropper), </li>
+<li>hormonelle graviditetsforebyggende midler, </li>
+<li>bepridil, ergotamin (bruges til behandling af hjerteproblemer og migræne), </li>
+<li>repaglinid (bruges til at behandle sukkersyge), </li>
+<li>rifampicin (bruges til at behandle tuberkulose), </li>
+<li>phenytoin, phenobarbital, carbamazepin (bruges til at behandle epilepsi), </li>
+<li>ritonavir (bruges i behandlingen af HIV-infektion), </li>
+<li>paclitaxel (bruges i kræftbehandling), </li>
+<li>theophyllin (bruges i behandlingen af lungesygdomme såsom astma), </li>
+<li>clozapin (bruges til behandling af psykiske sygdomme såsom skizofreni), </li>
+<li>tizanidin (virker muskelafslappende), </li>
+<li>cholestyramin (bruges til at sænke kolesterolniveauet i blodet), </li>
+<li>busulfan (bruges som behandling for at ødelægge den originale knoglemarv inden en 
+transplantatation), </li>
+<li>midazolam (bruges til at lindre angst og/eller søvnbesvær). </li>
+</ul>
+<p>Supplerende undersøgelser kan være nødvendige for at kontrollere blodniveauet af nogle af disse 
+lægemidler. </p>
+<p>Ældre (65 år og derover) 
+EXJADE kan anvendes af folk i alderen 65 år og derover med samme dosis som for andre voksne. 
+Ældre patienter kan opleve flere bivirkninger (specielt diarré) end yngre patienter. De skal følges tæt 
+af deres læge for at opdage bivirkninger, der kan kræve dosisjusteringer. </p>
+<p>Børn og unge 
+EXJADE kan anvendes til børn og unge i alderen 2 år og derover, der får regelmæssige 
+blodtransfusioner, samt hos børn og unge i alderen 10 år og derover, der ikke får regelmæssige 
+blodtransfusioner. Efterhånden som patienten vokser, vil lægen justere dosis. </p>
+<p>EXJADE anbefales ikke til børn under 2 år. </p>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel. </p>
+<p>EXJADE frarådes under graviditet, medmindre det er strengt nødvendigt. </p>
+<p>Hvis du i øjeblikket tager et hormonelt præventionsmiddel (fx p-piller eller præventionsplastre) for at 
+forebygge graviditet, bør du bruge en supplerende eller anden type prævention (fx kondom), da 
+EXJADE kan nedsætte virkningen af hormonelle præventionsmidler. </p>
+<p>Amning frarådes under behandling med EXJADE. </p>
+<p>Trafik- og arbejdssikkerhed 
+Hvis du føler dig svimmel, efter at du har taget EXJADE, må du ikke køre bil eller betjene værktøj 
+eller maskiner før du har det godt igen. </p>
+<p>EXJADE indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
+er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take exjade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take exjade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med EXJADE vil blive overvåget af en læge, der har erfaring med behandling af 
+jernophobning forårsaget af blodtransfusioner. </p>
+<p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Hvor meget EXJADE skal du tage 
+Dosis af EXJADE filmovertrukne tabletter afhænger for alle patienter af kropsvægten. Din læge vil 
+beregne den dosis, der passer til dig, og fortælle dig hvor mange tabletter, du skal tage hver dag. </p>
+<ul>
+<li>
+<p>Den sædvanlige dosis af EXJADE filmovertrukne tabletter ved start af behandling for patienter, 
+der får regelmæssige blodtransfusioner er 14 mg pr. kg kropsvægt. Det kan være, at lægen - 
+afhængigt af dit behov - anbefaler en højere eller lavere startdosis. </p>
+</li>
+<li>
+<p>Den sædvanlige daglige dosis af EXJADE filmovertrukne tabletter ved start af behandlingen for 
+patienter, der ikke får regelmæssige blodtransfusioner, er 7 mg pr. kg kropsvægt. </p>
+</li>
+<li>
+<p>Alt efter hvordan du reagerer på behandlingen, kan din læge senere justere din behandling til 
+højere eller lavere doser. </p>
+</li>
+<li>
+<p>Den maksimale anbefalede daglige dosis af EXJADE filmovertrukne tabletter er: </p>
+</li>
+<li>
+<p>28 mg pr. kg kropsvægt for patienter, der får regelmæssige blodtransfusioner, </p>
+</li>
+<li>
+<p>14 mg pr. kg kropsvægt for voksne patienter, der ikke får regelmæssige 
+blodtransfusioner, </p>
+</li>
+<li>
+<p>7 mg pr. kg kropsvægt for børn og teenagere, der ikke får regelmæssige 
+blodtransfusioner. </p>
+</li>
+</ul>
+<p>I nogle lande kan deferasirox også fås som dispergible tabletter, fremstillet af nogle andre firmaer. 
+Hvis du skifter fra sådanne dispergible tabletter til EXJADE filmovertrukne tabletter, vil din dosis 
+ændre sig. Din læge vil beregne den dosis, du har brug for, og fortælle dig hvor mange filmovertrukne 
+tabletter, du skal tage hver dag. </p>
+<p>Hvornår skal du tage EXJADE </p>
+<ul>
+<li>
+<p>Tag EXJADE én gang daglig, hver dag, på cirka samme tidspunkt med noget vand. </p>
+</li>
+<li>
+<p>Tag EXJADE filmovertrukne tabletter på tom mave eller med et let måltid. 
+Tag EXJADE på samme tidspunkt hver dag. Det vil også gøre det lettere for dig at huske, hvornår du 
+skal tage dine tabletter. </p>
+</li>
+</ul>
+<p>For patienter, som ikke kan sluge hele tabletter, kan EXJADE filmovertrukne tabletter knuses og 
+indtages ved at drysse hele dosis over blød mad, som fx yoghurt eller æblemos. Maden skal indtages 
+med det samme og skal spises op. Opbevar ikke maden til senere brug. </p>
+<p>Hvor længe skal du tage EXJADE 
+Fortsæt med at tage EXJADE hver dag så længe lægen beder dig om det. Dette er en 
+længerevarende behandling, der muligvis kan vare måneder eller år. Din læge vil regelmæssigt holde 
+øje med din tilstand for at kontrollere, at behandlingen har den ønskede effekt (se også pkt. 2: 
+"Kontrol af din EXJADE-behandling"). </p>
+<p>Hvis du har spørgsmål om, hvor lang tid du skal tage EXJADE, så tal med din læge. </p>
+<p>Hvis du har taget for meget EXJADE 
+Hvis du har taget for meget EXJADE, eller hvis nogen ved et uheld kommer til at tage dine tabletter, 
+så kontakt med det samme din læge eller skadestuen. Vis lægen pakken med tabletter. Akut medicinsk 
+behandling kan være nødvendig. Du kan opleve bivirkninger såsom mavesmerter, diarré, kvalme og 
+opkast og nyre eller lever problemer, som kan være alvorlige. </p>
+<p>Hvis du har glemt at tage EXJADE 
+Hvis du glemmer en dosis, så tag den så snart du husker det den samme dag. Tag din næste dosis som 
+planlagt. Du må ikke tage en dobbeltdosis den næste dag som erstatning for de(n) glemt(e) tablet(ter). </p>
+<p>Hvis du holder op med at tage EXJADE 
+Hold ikke op med at tage EXJADE, medmindre din læge giver dig besked på det. Hvis du stopper med 
+at tage EXJADE, vil det overskydende jern ikke længere blive fjernet fra din krop (se også 
+ovenstående pkt.: "Hvor længe skal du tage EXJADE"). </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+fleste af bivirkningerne er milde til moderate og vil almindeligvis forsvinde efter et par dage til et par 
+ugers behandling. </p>
+<p>Visse bivirkninger kan være alvorlige og kræve omgående lægehjælp 
+Disse bivirkninger er ikke almindelige (kan påvirke op til 1 ud af 100 patienter) eller sjældne (kan 
+påvirke op til 1 ud af 1.000 patienter). </p>
+<ul>
+<li>
+<p>Hvis du får alvorligt udslæt, besvær med at trække vejret og svimmelhed eller hævelse af 
+hovedsageligt ansigtet og halsen (tegn på alvorlig allergisk reaktion) </p>
+</li>
+<li>
+<p>Hvis du oplever en kombination af nogle af følgende symptomer: udslæt, rød hud, blistre på 
+læberne, øjne eller i munden, hudafskalninger, høj feber, influenzalignende symptomer, 
+forstørrede lymfekirtler (tegn på alvorlige hudreaktioner) </p>
+</li>
+<li>
+<p>Hvis du oplever en kraftig nedsættelse af din urinproduktion (tegn på nyreproblemer) </p>
+</li>
+<li>
+<p>Hvis du oplever en kombination af døsighed, smerter i den øvre højre del af maven, gulfarvning 
+af din hud eller øjne og mørk urin (tegn på leverproblemer) </p>
+</li>
+<li>
+<p>Hvis du oplever problemer med at tænke klart, huske information eller løse opgaver, er mindre 
+opmærksom eller bevidst eller er meget træt og har lavt energiniveau (tegn på et højt niveau af 
+ammoniak i dit blod, hvilket kan være forbundet med nyre- eller leversygdomme og kan 
+medføre ændring i hjernefunktionen) </p>
+</li>
+<li>
+<p>Hvis du kaster blod op/eller har sort afføring </p>
+</li>
+<li>
+<p>Hvis du ofte oplever mavesmerter, specielt efter spisning eller indtag af EXJADE </p>
+</li>
+<li>
+<p>Hvis du ofte oplever halsbrand </p>
+</li>
+<li>
+<p>Hvis du oplever delvist tab af dit syn </p>
+</li>
+<li>
+<p>Hvis du oplever voldsomme mavesmerter (pancreatitis) 
+Stop med at tage dette lægemiddel og fortæl det til lægen med det samme. </p>
+</li>
+</ul>
+<p>Visse bivirkninger kan blive alvorlige. 
+Disse bivirkninger er ikke almindelige. </p>
+<ul>
+<li>
+<p>Hvis du får utydeligt eller sløret syn, </p>
+</li>
+<li>
+<p>Hvis du får nedsat hørelse, 
+så fortæl det til lægen hurtigst muligt. </p>
+</li>
+</ul>
+<p>Andre bivirkninger 
+Meget almindelige (kan påvirke flere end 1 ud af 10 patienter) </p>
+<ul>
+<li>Forstyrrelse i nyrefunktionstests. </li>
+</ul>
+<p>Almindelige (kan påvirke op til 1 ud af 10 patienter) </p>
+<ul>
+<li>
+<p>Mave-tarm-lidelser, såsom kvalme, opkastning, diarré, smerter i mave/underliv, oppustethed, 
+forstoppelse, fordøjelsesbesvær </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Afvigelser i analyser for leverfunktionen </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Afvigelser i urinanalyser (protein i urinen) 
+Hvis nogen af disse bivirkninger påvirker dig alvorligt, så fortæl det til din læge. </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan påvirke op til 1ud af 100 patienter) </p>
+<ul>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Feber </p>
+</li>
+<li>
+<p>Ondt i halsen </p>
+</li>
+<li>
+<p>Hævelse af arme eller ben </p>
+</li>
+<li>
+<p>Ændringer i farven på huden </p>
+</li>
+<li>
+<p>Angst </p>
+</li>
+<li>
+<p>Søvnforstyrrelser </p>
+</li>
+<li>
+<p>Træthed 
+Hvis nogle af disse bivirkninger påvirker dig alvorligt, så fortæl det til din læge. </p>
+</li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>
+<p>Et fald i antallet af celler, der er involveret i blodets evne til at størkne (trombocytopeni), i 
+antallet af røde blodlegemer (forværret anæmi), i antallet af hvide blodlegemer (neutropeni) 
+eller i antallet af alle slags blodlegemer (pancytopeni) </p>
+</li>
+<li>
+<p>Hårtab </p>
+</li>
+<li>
+<p>Nyresten </p>
+</li>
+<li>
+<p>Nedsat vandladning </p>
+</li>
+<li>
+<p>Flænge i mave eller tarmvæg, som kan være smertefuldt og give kvalme </p>
+</li>
+<li>
+<p>Voldsomme mavesmerter (pancreatitis) </p>
+</li>
+<li>
+<p>Unormalt niveau af syre i blodet </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store exjade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store exjade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blister og æsken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Brug ikke pakninger, der er beskadiget eller viser tegn på at være i stykker eller at have været 
+åbnet. </p>
+</li>
+<li>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
+ikke smide medicinrester i afløbet eller, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>EXJADE indeholder 
+Aktivt stof: Deferasirox. </p>
+<ul>
+<li>
+<p>Hver filmovertrukken tablet af EXJADE90 mg indeholder 90 mg deferasirox. </p>
+</li>
+<li>
+<p>Hver filmovertrukken tablet af EXJADE180 mg indeholder 180 mg deferasirox. </p>
+</li>
+<li>
+<p>Hver filmovertrukken tablet af EXJADE360 mg indeholder 360 mg deferasirox. 
+Øvrige indholdsstoffer: mikrokrystallinsk cellulose, crospovidon, povidon, magnesiumstearat, kolloid 
+vandfri silica og poloxamer. Tabletovertrækket indeholder: hypromellose, titandioxid (E171), 
+macrogol (4000), talcum, indigocarminin aluminiumpigment (E132). </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+EXJADE udleveres som filmovertrukne tabletter. De filmovertrukne tabletter er ovale og bikonvekse. </p>
+<ul>
+<li>
+<p>EXJADE 90 mg filmovertrukne tabletter er lyseblå og præget med "90" på den ene side og 
+"NVR" på den anden side. </p>
+</li>
+<li>
+<p>EXJADE 180 mg filmovertrukne tabletter er mellemblå præget med "180" på den ene side og 
+"NVR" på den anden side. </p>
+</li>
+<li>
+<p>EXJADE 360 mg filmovertrukne tabletter er mørkeblå og præget med "360" på den ene side og 
+"NVR" på den anden side. </p>
+</li>
+</ul>
+<p>Hver blisterpakning indeholder 30 eller 90 filmovertrukne tabletter. Multipakningen indeholder 30 (pakninger med 30) filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser eller styrker er nødvendigvis markedsført i dit land. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+Novartis Pharma GmbH 
+Roonstraße D-90429 Nürnberg 
+Tyskland </p>
+<p>Novartis Farmacéutica SA 
+Ronda de Santa Maria 08210 Barberà del Vallès, Barcelona 
+Spanien </p>
+<p>Sandoz S.R.L. 
+Str. Livezeni nr. 7A 
+540472 Targu Mures 
+Rumænien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16<br />
+България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42<br />
+Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66<br />
+Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274<br />
+România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12<br />
+Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75 Ísland 
+Vistor hf. 
+Sími: +354 535 7 
+Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133<br />
+Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32<br />
+Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
+http://laegemiddelstyrelsen.dk 
+Indlægsseddel: Information til brugeren </p>
+<p>EXJADE 90 mg granulat i brev 
+EXJADE 180 mg granulat i brev 
+EXJADE 360 mg granulat i brev 
+deferasirox </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst i 
+afsnit 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt eller til dit barn. Lad derfor være med at 
+give medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme 
+symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-bd22c6cb08ec26dbc8a674d031b87df0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for exjade Package Leaflet for language en"
+Description: "ePI document Bundle for exjade Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bd22c6cb08ec26dbc8a674d031b87df0"
+* entry[0].resource = composition-en-bd22c6cb08ec26dbc8a674d031b87df0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbd22c6cb08ec26dbc8a674d031b87df0"
+* entry[=].resource = mpbd22c6cb08ec26dbc8a674d031b87df0
+                            
+                    
+Instance: bundlepackageleaflet-da-bd22c6cb08ec26dbc8a674d031b87df0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for exjade Package Leaflet for language da"
+Description: "ePI document Bundle for exjade Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-bd22c6cb08ec26dbc8a674d031b87df0"
+* entry[0].resource = composition-da-bd22c6cb08ec26dbc8a674d031b87df0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbd22c6cb08ec26dbc8a674d031b87df0"
+* entry[=].resource = mpbd22c6cb08ec26dbc8a674d031b87df0
+                            
+                    
+
+
+
+Instance: mpbd22c6cb08ec26dbc8a674d031b87df0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product EXJADE 90 mg film-coated tablets"
-Description: "EXJADE 90 mg film-coated tablets"
+Title: "Medicinal Product exjade"
+Description: "exjade"
 Usage: #inline
 
  
@@ -491,7 +1163,7 @@ Usage: #inline
 
 
 * name
-  * productName = "EXJADE 90 mg film-coated tablets"
+  * productName = "exjade"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -518,29 +1190,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-bd22c6cb08ec26dbc8a674d031b87df0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for exjade Package Leaflet for language en"
-Description: "ePI document Bundle for exjade Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: bd22c6cb08ec26dbc8a674d031b87df0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EXJADE 90 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "exjade"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-bd22c6cb08ec26dbc8a674d031b87df0"
-* entry[0].resource = composition-en-bd22c6cb08ec26dbc8a674d031b87df0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp34be8939c5d04dd563afb00658353c0f"
-* entry[=].resource = mp34be8939c5d04dd563afb00658353c0f
-                            
-                      
+* title = "List of all ePIs associated with exjade"
+
+* subject = Reference(mp34be8939c5d04dd563afb00658353c0f)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#exjade "exjade"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-bd22c6cb08ec26dbc8a674d031b87df0) // exjade en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-bd22c6cb08ec26dbc8a674d031b87df0) // exjade da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-bd22c6cb08ec26dbc8a674d031b87df0
+InstanceOf: List
+
+* insert bd22c6cb08ec26dbc8a674d031b87df0ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627
 InstanceOf: CompositionUvEpi
 Title: "Composition for filsuvez Package Leaflet"
@@ -338,12 +341,467 @@ Tel: + 39 0521 2This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-5c0fb39b14c2c2f1d40da5ef86f1b627
+InstanceOf: CompositionUvEpi
+Title: "Composition for filsuvez Package Leaflet"
+Description:  "Composition for filsuvez Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0a1f00dce6a2a4d7cb3696fe136fdc13)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0a1f00dce6a2a4d7cb3696fe136fdc13
+* title = "TEST PURPOSES ONLY - filsuvez"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at bruge Filsuvez<br />
+3. Sådan skal du bruge Filsuvez<br />
+4. Bivirkninger<br />
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What filsuvez is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What filsuvez is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Filsuvez gel er et naturmedicinprodukt, som indeholder tørekstrakt fra birkebark. </p>
+<p>Det anvendes til at behandle sår hos voksne og børn (fra 6-måneders alderen og opefter), som har en 
+type af lidelsen "epidermolysis bullosa" (EB) kaldet "dystrofisk" (DEB) eller "junktional" (JEB). 
+Dette er en lidelse, hvor det yderste hudlag løsner sig fra det inderste lag, hvilket gør huden meget 
+skrøbelig, og der opstår sår. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take filsuvez"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take filsuvez"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Filsuvez 
+- hvis du er allergisk over for birkebark eller et af de øvrige indholdsstoffer i Filsuvez (angivet i 
+afsnit 6). </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Filsuvez. </p>
+<p>Hvis du får en allergisk reaktion, skal du straks stoppe med at bruge Filsuvez og kontakte lægen 
+eller sygeplejersken. Tegn på en allergisk reaktion omfatter: </p>
+<ul>
+<li>Kløe, hævelse og rødme i huden, der er mere alvorlig på området, hvor lægemidlet er påført. </li>
+</ul>
+<p>Sårinfektion er en alvorlig komplikation, der kan forekomme under helingsprocessen. Mulige tegn på 
+en sårinfektion er: </p>
+<ul>
+<li>
+<p>gul eller grønlig væske (pus) der siver fra såret,  </p>
+</li>
+<li>
+<p>rød, varm, hævet hud eller smerter i huden omkring såret, der forværres. 
+Hvis du får en sårinfektion, skal du muligvis stoppe med at bruge Filsuvez, og der kan være behov 
+for en anden behandling. Lægen eller sygeplejersken vil fortælle dig, om behandlingen med Filsuvez 
+kan genoptages, når infektionen er væk. </p>
+</li>
+</ul>
+<p>Personer med EB har større sandsynlighed for at udvikle en type af hudkræft kaldet 
+“pladecellekarcinom" (SCC). Hvis du diagnosticeres med hudkræft under behandlingen med Filsuvez, 
+skal du tale med lægen eller sygeplejersken og stoppe med at bruge Filsuvez på den del af huden. </p>
+<p>Filsuvez indeholder ikke birkepollen, og det kan derfor godt bruges af personer med 
+birkepollenallergi. </p>
+<p>Undgå at få Filsuvez i øjnene. Hvis det sker, skal du skylle øjnene grundigt med rent vand. Kontakt 
+lægen eller sygeplejersken, hvis ubehaget fortsætter. </p>
+<p>Børn 
+Giv ikke dette lægemiddel til børn under 6 måneder. </p>
+<p>Brug af andre lægemidler sammen med Filsuvez 
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du bruger andre lægemidler, for 
+nylig har brugt andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Der foreligger ingen information om, hvordan Filsuvez kan reagere med andre lægemidler, der påføres 
+på huden, indtages via munden eller indsprøjtes. Påfør ikke andre produkter på sårområdet samtidig 
+med, at du påfører Filsuvez. Kontakt lægen eller sygeplejersken, hvis du har brug for at anvende mere 
+end ét produkt. </p>
+<p>Graviditet, amning og frugtbarhed 
+Der er ikke udført studier af Filsuvez' virkninger på gravide kvinder, men da absorptionen af dette 
+lægemiddel i kroppen er ekstremt lav, er risikoen for det ufødte barn ubetydelig. Filsuvez kan bruges 
+under graviditet. </p>
+<p>Det vides ikke, om Filsuvez udskilles i modermælken, men da absorptionen af dette lægemiddel i 
+kroppen er ekstremt lav, er risikoen for barnet ubetydelig. Filsuvez kan bruges under amning, 
+medmindre brystregionen behandles. </p>
+<p>Eftersom absorptionen af dette lægemiddel i kroppen er ekstremt lav, forventes det ikke at påvirke 
+frugtbarheden. </p>
+<p>Trafik- og arbejdssikkerhed 
+Filsuvez påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take filsuvez"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take filsuvez"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid dette lægemiddel nøjagtigt efter lægens, apotekspersonalets eller sygeplejerskens anvisning. 
+Er du i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken.  </p>
+<p>Administration </p>
+<ul>
+<li>
+<p>Rens såret, før Filsuvez påføres. </p>
+</li>
+<li>
+<p>Du kan påføre Filsuvez på 2 måder: </p>
+</li>
+<li>Påfør direkte på såret * Påfør et tykt lag (cirka 1 mm tykt) Filsuvez på såret (trin 1). * Udsmør en rigelig mængde gel, og tildæk hele sårområdet med en ren eller 
+handskebeklædt hånd (trin 2). Gnid ikke gelen ind. * Dæk til med en steril ikke-klæbende sårbandage (trin 3). </li>
+</ul>
+<p>Trin 1 - Påfør 
+Trin 2 - Smør ud 
+Trin 3 - Tildæk </p>
+<p>ELLER </p>
+<ol>
+<li>Påfør på en steril, ikke-klæbende bandage * Påfør et tykt lag (cirka 1 mm tykt) Filsuvez på sårbandagen (trin 1). * Smør rigelig gel ud på det område, der vil være i direkte kontakt med såret med en ren 
+eller handskeklædt hånd (trin 2). * Tildæk såret med bandagen (trin 3). </li>
+</ol>
+<p>Trin 1 - Påfør 
+Trin 2 - Smør ud 
+Trin 3 - Tildæk </p>
+<ul>
+<li>
+<p>Påfør ny gel, hver gang bandagen skiftes, indtil såret er helet. </p>
+</li>
+<li>
+<p>Filsuvez er ikke beregnet til indvortes brug. Undgå kontakt med øjnene, munden eller 
+næseborene. I tilfælde af utilsigtet kontakt skal du straks vaske med rent vand. </p>
+</li>
+<li>
+<p>Denne tube med steril gel er beregnet til en enkelt påføring. Efter åbning skal gelen bruges 
+straks, og tuben skal bortskaffes, også selvom der er lidt gel tilbage. Der skal anvendes en ny 
+tube ved hvert bandageskift. </p>
+</li>
+</ul>
+<p>Anvendelsesperiode 
+Lægen, apotekspersonalet eller sygeplejersken vil fortælle dig, hvor længe du skal bruge gelen. Hvis 
+symptomerne fortsætter eller forværres efter brug, eller hvis der opstår sårkomplikationer, skal du tale 
+med lægen, apotekspersonalet eller sygeplejersken. </p>
+<p>Hvis du har brugt for meget Filsuvez 
+Filsuvez påføres på huden, og absorptionen i kroppen er ekstremt lav. Dette gør overdosering meget 
+usandsynlig, også selvom det påføres på et stort hudområde og i længere tid. </p>
+<p>Hvis du har glemt at bruge Filsuvez 
+Påfør Filsuvez ved det næste planlagte bandageskift, og fortsæt med din normale rutine. </p>
+<p>Hvis du holder op med at bruge Filsuvez 
+Filsuvez skal anvendes efter lægens, apotekspersonalets eller sygeplejerskens anvisninger. Stop ikke 
+med at bruge Filsuvez uden at spørge lægen, apotekspersonalet eller sygeplejersken.  </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Fortæl det straks til lægen, apotekspersonalet eller sygeplejersken, hvis du bemærker bivirkninger, 
+herunder de bivirkninger der er anført nedenfor. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>sårkomplikation (f.eks. øget sårstørrelse, såret springer op, smerter i såret) </li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>sårinfektion </p>
+</li>
+<li>
+<p>allergisk reaktion (overfølsomhed) </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>smerter og kløe på det sted, for lægemidlet blev påført </p>
+</li>
+<li>
+<p>komplikationer ved sårheling </p>
+</li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>sårsekret </p>
+</li>
+<li>
+<p>hudirritation (dermatitis) </p>
+</li>
+<li>
+<p>kløende udslæt </p>
+</li>
+<li>
+<p>lilla udslæt </p>
+</li>
+<li>
+<p>smerter </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store filsuvez"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store filsuvez"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og tuben efter ‘EXP’. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Opbevares ved temperaturer under 30 °C. </p>
+<p>Denne tube med steril gel er beregnet til en enkelt påføring. Efter åbning skal gelen bruges straks, og 
+tuben skal bortskaffes, også selvom der er lidt gel tilbage. Der skal anvendes en ny tube ved hvert 
+bandageskift.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toiletter eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Filsuvez indeholder: 
+Aktivt stof: tørekstrakt fra birkebark. 
+1 g gel indeholder: 100 mg ekstrakt (som et raffineret tørekstrakt) fra Betula pendula Roth, Betula 
+pubescens Ehrh. samt hybrider af begge arter, bark (svarende til 0,5-1,0 g birkebark), herunder 
+84-95 mg triterpener beregnet som summen af betulin, betulinsyre, erythrodiol, lupeol og oleanolsyre. 
+Opløsningsmiddel til ekstraktion: n-Heptan. </p>
+<p>Øvrige indholdsstoffer: raffineret solsikkeolie. </p>
+<p>Udseende og pakningsstørrelser 
+Filsuvez er en farveløs til let gullig, opaliserende, ikke-vandig gel. </p>
+<p>Filsuvez gel er pakket i hvide sammenfoldelige aluminiumstuber. Tuberne lukkes med en<br />
+anbrudssikret aluminiumsforsegling, og er udstyret med et hvidt skruelåg af polypropylen.<br />
+Tuben er pakket i en æske. </p>
+<p>Pakningsstørrelser:<br />
+1 og 30 tuber med 9,4 g eller<br />
+1, 10 og 30 tuber med 23,4 g gel. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen<br />
+Amryt Pharmaceuticals DAC 
+45 Mespil Road 
+Dublin 4 
+Irland 
+tlf.: 00 800 4447 4447 (gratis) 
+tlf.: +44 1604 549 e-mail: medinfo@amrytpharma.com </p>
+<p>Fremstiller<br />
+Amryt GmbH 
+Streiflingsweg 75223 Niefern-Öschelbronn 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42  </p>
+<p>Lietuva 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +370 661 663 pv.global@exceedorphan.com </p>
+<p>България 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Teл.: +359 888 918 pv.global@exceedorphan.com </p>
+<p>Luxembourg/Luxemburg 
+Chiesi sa/nv<br />
+Tél/Tel: + 32 (0)2 788 42<br />
+Česká republika 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +420 724 321 pv.global@exceedorphan.com </p>
+<p>Magyarország 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +36 20 399 4269<br />
+pv.global@exceedorphan.com </p>
+<p>Danmark 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Malta 
+Amryt Pharmaceuticals DAC 
+Tel: +44 1604 549medinfo@amrytpharma.com </p>
+<p>Deutschland 
+Chiesi GmbH<br />
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V.<br />
+Tel: + 31 88 501 64<br />
+Eesti 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +370 661 663 pv.global@exceedorphan.com </p>
+<p>Norge 
+Chiesi Pharma AB<br />
+Tlf: + 46 8 753 35<br />
+Ελλάδα 
+Amryt Pharmaceuticals DAC 
+Tηλ: +800 44 474Tηλ: +44 1604 549medinfo@amrytpharma.com </p>
+<p>Österreich 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073 
+España 
+Chiesi España, S.A.U.<br />
+Tel: + 34 93 494 8 
+Polska 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +48 502 188 pv.global@exceedorphan.com </p>
+<p>France 
+Chiesi S.A.S.<br />
+Tél: + 33 1 47688 
+Portugal 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Hrvatska 
+ExCEEd Orphan Distribution d.o.o. 
+Savska cesta 32, Zagreb, 100 Croatia<br />
+Tel: +385 99 320 0pv.global@exceedorphan.com </p>
+<p>România 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +40 744 366 pv.global@exceedorphan.com </p>
+<p>Ireland 
+Chiesi Farmaceutici S.p.A. <br />
+Tel: + 39 0521 2 
+Slovenija 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +386 30 210 pv.global@exceedorphan.com </p>
+<p>Ísland 
+Chiesi Pharma AB<br />
+Sími: +46 8 753 35<br />
+Slovenská republika 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel: +420 608 076 pv.global@exceedorphan.com </p>
+<p>Italia 
+Chiesi Italia S.p.A.<br />
+Tel: + 39 0521 2 
+Suomi/Finland 
+Chiesi Pharma AB<br />
+Puh/Tel: +46 8 753 35<br />
+Κύπρος 
+Amryt Pharmaceuticals DAC 
+Tηλ: +800 44 474Tηλ: +44 1604 549medinfo@amrytpharma.com </p>
+<p>Sverige 
+Chiesi Pharma AB<br />
+Tel: +46 8 753 35<br />
+Latvija 
+ExCEEd Orphan s.r.o. 
+Bucharova 2657/12, Prague 5, 158 Czech republic 
+Tel.: +370 661 663 pv.global@exceedorphan.com </p>
+<p>United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2 
+Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-5c0fb39b14c2c2f1d40da5ef86f1b627
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for filsuvez Package Leaflet for language en"
+Description: "ePI document Bundle for filsuvez Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627"
+* entry[0].resource = composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5c0fb39b14c2c2f1d40da5ef86f1b627"
+* entry[=].resource = mp5c0fb39b14c2c2f1d40da5ef86f1b627
+                            
+                    
+Instance: bundlepackageleaflet-da-5c0fb39b14c2c2f1d40da5ef86f1b627
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for filsuvez Package Leaflet for language da"
+Description: "ePI document Bundle for filsuvez Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-5c0fb39b14c2c2f1d40da5ef86f1b627"
+* entry[0].resource = composition-da-5c0fb39b14c2c2f1d40da5ef86f1b627
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5c0fb39b14c2c2f1d40da5ef86f1b627"
+* entry[=].resource = mp5c0fb39b14c2c2f1d40da5ef86f1b627
+                            
+                    
+
+
+
+Instance: mp5c0fb39b14c2c2f1d40da5ef86f1b627
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Filsuvez gel"
-Description: "Filsuvez gel"
+Title: "Medicinal Product filsuvez"
+Description: "filsuvez"
 Usage: #inline
 
  
@@ -363,7 +821,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Filsuvez gel"
+  * productName = "filsuvez"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -390,29 +848,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-5c0fb39b14c2c2f1d40da5ef86f1b627
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for filsuvez Package Leaflet for language en"
-Description: "ePI document Bundle for filsuvez Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 5c0fb39b14c2c2f1d40da5ef86f1b627ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Filsuvez gel, 9.4 g tube"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "filsuvez"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627"
-* entry[0].resource = composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0a1f00dce6a2a4d7cb3696fe136fdc13"
-* entry[=].resource = mp0a1f00dce6a2a4d7cb3696fe136fdc13
-                            
-                      
+* title = "List of all ePIs associated with filsuvez"
+
+* subject = Reference(mp0a1f00dce6a2a4d7cb3696fe136fdc13)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#filsuvez "filsuvez"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-5c0fb39b14c2c2f1d40da5ef86f1b627) // filsuvez en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-5c0fb39b14c2c2f1d40da5ef86f1b627) // filsuvez da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-5c0fb39b14c2c2f1d40da5ef86f1b627
+InstanceOf: List
+
+* insert 5c0fb39b14c2c2f1d40da5ef86f1b627ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-de065403a5793478002be710eeac097c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ritonavir Package Leaflet"
@@ -569,12 +572,722 @@ Tel: + 353 18711This leaflet was last revised in { </p>
 
 
 
+Instance: composition-da-de065403a5793478002be710eeac097c
+InstanceOf: CompositionUvEpi
+Title: "Composition for ritonavir Package Leaflet"
+Description:  "Composition for ritonavir Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp60633c6e8b89fb00f3c6e0c40d5d1774)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp60633c6e8b89fb00f3c6e0c40d5d1774
+* title = "TEST PURPOSES ONLY - ritonavir"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du eller dit barn begynder at tage Ritonavir Mylan 
+3. Sådan skal du tage Ritonavir Mylan 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ritonavir is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ritonavir is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ritonavir Mylan indeholder det aktive stof ritonavir. Ritonavir er en proteasehæmmer, som anvendes 
+til at kontrollere hiv-infektion. Ritonavir anvendes i kombination med andre lægemidler mod hiv 
+(antiretrovirale lægemidler) til at kontrollere hiv-infektion. Din læge vil drøfte med dig, hvilken 
+kombination af lægemidler, der er bedst for dig. </p>
+<p>Ritonavir Mylan bruges til børn på 2 år og derover, unge og voksne, som er inficeret med hiv, den 
+virus som forårsager AIDS. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ritonavir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ritonavir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ritonavir Mylan 
+− 
+hvis du er allergisk over for ritonavir eller et af de øvrige indholdsstoffer i Ritonavir Mylan 
+(angivet i punkt 6).<br />
+− 
+hvis du har en alvorlig leversygdom. 
+− 
+hvis du for øjeblikket tager et eller flere af følgende lægemidler: 
+− 
+astemizol eller terfenadin (lægemidler, der ofte anvendes til behandling af allergi, og som 
+i nogle tilfælde kan fås uden recept); 
+− 
+amiodaron, bepridil, dronedaron, enacainid, flecainid, propafenon, kinidin (til behandling 
+af uregelmæssig hjerterytme); 
+− 
+dihydroergotamin, ergotamin (til behandling af migræne); 
+− 
+ergonovin, methylergonovin (bruges til at standse voldsom blødning, som kan 
+forekomme efter en fødsel eller abort); 
+− 
+clorazepat, diazepam, estazolam, flurazepam, triazolam eller oral (indtaget gennem 
+munden) midazolam (bruges til at hjælpe dig med at sove og/eller mod angst); 
+− 
+clozapin, pimozid, (bruges mod unormale tanker eller følelser); 
+− 
+quetiapin (til behandling af skizofreni, bipolær lidelse (maniodepressiv sygdom) og 
+depression); 
+− 
+lurasidon (til behandling af depression);<br />
+− 
+ranolazin (til behandling af kroniske smerter i brystet [angina pectoris]);<br />
+− 
+pethidin, propoxyfen (bruges mod smerter); 
+− 
+cisaprid (til behandling af visse maveproblemer); 
+− 
+rifabutin (til forebyggelse og behandling af bestemte infektioner)<em>; 
+− 
+voriconazol (til behandling af svampeinfektioner)</em>; 
+− 
+simvastatin, lovastatin (bruges til at sænke kolesterol i blodet);neratinib (bruges til 
+behandling af brystkræft); 
+− 
+lomitapid (bruges til sænkning af kolesterol i blodet); 
+− 
+alfuzosin (til behandling af forstørret prostata); 
+− 
+fusidinsyre (til behandling af bakterielle infektioner); 
+− 
+sildenafil, hvis du har en lungesygdom kaldet pulmonal arteriel hypertension, der 
+vanskeliggør vejrtrækningen. Patienter, som ikke har denne sygdom, kan tage sildenafil 
+mod rejsningsbesvær (manglende evne til at få rejsning af penis), hvis deres læge følger 
+dem nøje (se punktet Brug af anden medicin sammen med Ritonavir Mylan); 
+− 
+avanafil eller vardenafil (til behandling af potensproblemer); 
+− 
+colchicin (til behandling af urinsyregigt) hvis du har problemer med nyre og/eller lever 
+(se punktet Brug af anden medicin sammen med Ritonavir Mylan); 
+− 
+præparater, der indeholder perikon (Hypericum perforatum), da dette kan forhindre 
+ritonavir i at virke på den rette måde. Perikon er et naturlægemiddel, som kan fås i 
+håndkøb. </p>
+<ul>
+<li>Din læge kan beslutte, at du kan tage rifabutin og/eller voriconazol sammen med en 
+boosterdosis (lavere dosis) af ritonavir, men du må ikke tage en fuld dosis ritonavir sammen 
+med disse to lægemidler. </li>
+</ul>
+<p>Hvis du i øjeblikket tager et eller flere af disse lægemidler, skal du rådføre dig med din læge om at 
+skifte til et andet lægemiddel, mens du tager Ritonavir Mylan.  </p>
+<p>Læs også listen over lægemidler under punktet ‘Brug af anden medicin sammen med Ritonavir 
+Mylan’, hvis du skal anvende ritonavir sammen med visse andre lægemidler, som kræver, at der 
+udvises særlig forsigtighed. </p>
+<p>Advarsler og forsigtighedsregler </p>
+<p>Kontakt lægen eller apotekspersonalet, før du tager Ritonavir Mylan. </p>
+<p>Vigtig information 
+− 
+Hvis Ritonavir Mylan tages i kombination med anden antiretroviral medicin, er det vigtigt, at du 
+også omhyggeligt læser de indlægssedler, som følger med den anden medicin. Der kan være 
+yderligere oplysninger i disse indlægssedler om situationer, hvor ritonavir bør undgås. Hvis du 
+har yderligere spørgsmål om Ritonavir Mylan (ritonavir) eller den anden ordinerede medicin, 
+skal du spørge din læge eller apotekspersonalet. 
+− 
+Ritonavir helbreder ikke hiv-infektion eller AIDS. 
+− 
+Personer, der tager ritonavir, kan stadig få infektioner eller andre sygdomme forbundet med hiv-
+infektion eller AIDS. Det er derfor vigtigt, at din læge følger dig nøje, mens du tager Ritonavir 
+Mylan. </p>
+<p>Fortæl det til lægen, hvis du har eller har haft: </p>
+<p>− 
+en leversygdom.<br />
+− 
+hepatitis B eller C og er i behandling med en kombination af antiretrovirale lægemidler, da du i 
+så fald har større risiko for at få en alvorlig og muligvis livstruende reaktion på grund af 
+påvirkning af leveren. Det kan være nødvendigt at kontrollere din leverfunktion med 
+regelmæssige blodprøver. 
+− 
+hæmofili, da der er rapporteret om øget blødning hos patienter med hæmofili, der tager denne 
+type medicin, som kaldes proteasehæmmere. Årsagen hertil er ikke kendt. Du kan få brug for 
+yderligere medicin til at hjælpe dit blod med at koagulere (faktor VIII) og kontrollere en 
+eventuel blødning. 
+− 
+rejsningsbesvær, da medicin, der bruges mod dette kan medføre lavt blodtryk og forlænget 
+erektion. 
+− 
+sukkersyge (diabetes), da der har været rapporteret om forværring eller udvikling af diabetes 
+(diabetes mellitus) hos nogle patienter i behandling med proteasehæmmere. 
+− 
+nyresygdom, da det kan være nødvendigt for din læge at kontrollere dosis af den anden medicin 
+(f.eks. proteasehæmmere). </p>
+<p>Fortæl det til lægen, hvis du får: </p>
+<p>− 
+Diarré eller opkastning, der ikke bliver bedre (som er vedvarende), da dette kan mindske 
+virkningen af de lægemidler, du tager. 
+− 
+Kvalme, opkastning eller mavesmerter, da dette kan være tegn på betændelse i bugspytkirtlen 
+(pankreatitis). Nogle patienter, som tager ritonavir, kan få alvorlige problemer med 
+bugspytkirtlen. Fortæl det til lægen hurtigst muligt, hvis dette gør sig gældende for dig. 
+− 
+Symptomer på infektion - informér omgående din læge. Hos nogle patienter med fremskreden 
+hiv-infektion (AIDS), som påbegynder anti-hiv-behandling, kan der forekomme symptomer på 
+infektioner, som de har haft på et tidligere tidspunkt, og som de måske ikke engang var klar 
+over, at de havde haft. Det antages, at disse symptomer skyldes en forbedring i kroppens 
+immunforsvar, som således hjælper kroppen med at bekæmpe infektionerne.<br />
+Ud over de opportunistiske infektioner kan autoimmune sygdomme (en tilstand, der skyldes, at 
+immunsystemet angriber sundt kropsvæv) også opstå efter, at du er begyndt at tage medicin til 
+behandling af din hiv-infektion. Autoimmune sygdomme kan opstå flere måneder efter, at du er 
+påbegyndt behandlingen. Hvis du bemærker symptomer på infektion eller andre symptomer 
+såsom muskelsvaghed, svaghed som starter i hænder og fødder og bevæger sig op gennem 
+kroppen, hjertebanken, rysten eller hyperaktivitet, skal du omgående kontakte din læge for at få 
+den nødvendige behandling. 
+− 
+Stivhed, ømhed og smerter i led (især i hofte, knæ og skulder) og bevægelsesbesvær, da dette 
+kan være et tegn på en lidelse, som kan nedbryde knoglerne (knoglenekrose). Nogle patienter, 
+som tager flere antiretrovirale lægemidler samtidigt, kan udvikle denne sygdom.<br />
+− 
+Smerter eller ømhed i musklerne samt muskelsvækkelse, især ved samtidig anvendelse af 
+antiretroviral behandling, herunder proteasehæmmere og nukleosidanaloger. Muskellidelserne 
+har i sjældne tilfælde været alvorlige (se punkt 4 Bivirkninger). 
+− 
+Svimmelhed, besvimelsesanfald eller unormal hjerterytme. Nogle patienter, som tager 
+ritonavir kan opleve ændringer i elektrokardiogram (ekg). Fortæl det til lægen, hvis du har en 
+hjertefejl eller overledningsforstyrrelser i hjertet. 
+− 
+Tal hurtigst muligt med lægen, hvis du har andre problemer med helbredet. </p>
+<p>Børn og unge </p>
+<p>Ritonavir Mylan anbefales ikke til børn under 2 år. </p>
+<p>Brug af anden medicin sammen med Ritonavir Mylan  </p>
+<p>Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin eller har gjort det for nylig, 
+herunder lægemidler uden recept. Der er nogle lægemidler, som du slet ikke må tage sammen med 
+Ritonavir Mylan. Disse lægemidler er anført tidligere under punkt 2 i afsnittet ‘Tag ikke Ritonavir 
+Mylan’. Der er visse andre lægemidler, der kun må anvendes under særlige omstændigheder som 
+beskrevet nedenfor. </p>
+<p>Følgende advarsler gælder, når Ritonavir Mylan tages i fuld dosis. Advarslerne kan dog også gælde i 
+tilfælde, hvor Ritonavir Mylan tages i lavere doser (boosterdoser) sammen med andre lægemidler. </p>
+<p>Fortæl det til lægen, hvis du tager et eller flere af nedenstående lægemidler, da der i så fald skal 
+udvises særlig forsigtighed. </p>
+<p>− 
+Sildenafil eller tadalafil mod rejsningsbesvær (manglende evne til at få rejsning af penis). 
+Det kan være nødvendigt at nedsætte dosis og/eller hyppigheden af brugen af disse lægemidler 
+for at undgå lavt blodtryk og forlænget erektion. Du må ikke tage Ritonavir Mylan , hvis du 
+tager sildenafil mod forhøjet tryk i lungernes blodkar (pulmonal arteriel hypertension) (se også 
+punkt </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ritonavir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ritonavir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>din læge, hvis du tager tadalafil mod pulmonal arteriel hypertension. 
+− 
+Colchicin (mod urinsyregigt), da ritonavir kan øge indholdet af dette lægemiddel i blodet. Du 
+må ikke tage ritonavir sammen med colchicin, hvis du har problemer med nyre og/eller lever (se 
+også ‘Tag ikke Ritonavir Mylan’ ovenfor). 
+− 
+Digoxin (hjertemedicin). Din læge kan være nødt til at justere din digoxin-dosis og følge dig 
+nøje, mens du tager digoxin og ritonavir for at undgå, at du får hjerteproblemer. 
+− 
+Hormonelle præventionsmidler, som indeholder ethinylestradiol, da ritonavir kan mindske 
+disse lægemidlers virkning. Det anbefales derfor i stedet at anvende kondom eller en anden 
+ikke-hormonel præventionsform. Der kan desuden forekomme uregelmæssig blødning fra 
+livmoderen, hvis ritonavir tages sammen med hormonelle præventionsmidler, som indeholder 
+ethinylestradiol. 
+− 
+Atorvastatin eller rosuvastatin (mod for højt kolesteroltal), da ritonavir kan øge indholdet af 
+disse lægemidler i blodet. Tal med din læge, inden du tager nogen former for 
+kolesterolsænkende lægemidler sammen med ritonavir (se også punktet ‘Tag ikke Ritonavir 
+Mylan’ ovenfor). 
+− 
+Steroider (f.eks. dexamethason, fluticasonpropionat, prednisolon, triamcinolon), da ritonavir 
+kan øge indholdet af disse lægemidler i blodet, hvilket kan føre til Cushings syndrom (udvikling 
+af ‘måneansigt’) og nedsætte produktionen af hormonet kortisol. Din læge vil muligvis reducere 
+steroiddosen eller følge dine bivirkninger nøje. 
+− 
+Trazodon (et lægemiddel mod depression), da du kan få bivirkninger som f.eks. kvalme, 
+svimmelhed, lavt blodtryk og besvimelse, når du tager det sammen med ritonavir.<br />
+− 
+Rifampicin og saquinavir (til behandling af henholdsvis tuberkulose og hiv), da der kan 
+forekomme alvorlig leverskade, når de tages sammen med ritonavir. 
+− 
+Bosentan, riociguat (til behandling af pulmonal hypertension) da ritonavir kan øge indholdet af 
+disse lægemidler i blodet. </p>
+<p>Der er lægemidler, som helst ikke skal blandes med ritonavir, fordi deres virkning kan øges eller 
+nedsættes, når de tages sammen. I nogle tilfælde kan lægen være nødt til at udføre bestemte test, 
+ændre dosis eller undersøge dig regelmæssigt. Det er grunden til, at du skal informere din læge, hvis 
+du tager nogen form for lægemidler, herunder dem, du selv har købt, eller naturlægemidler, men det er 
+især vigtigt, at du nævner følgende: </p>
+<p>− 
+amphetamin eller derivater heraf 
+− 
+antibiotika (f.eks. erythromycin, clarithromycin); 
+− 
+lægemidler mod kræft (f.eks. abemaciclib. afatinib, apulatamid, ceritinib, encorafinib, dasatinib, 
+ibrutinib, nilotinib, venetoclax, vincristin, vinblastin); 
+− 
+lægemidler, der anvendes til behandling af lavt antal blodplader i blodet (f.eks. fostamatinib); 
+− 
+blodfortyndende lægemidler (f.eks. dabigatranetexilat, edoxaban, rivaroxaban, vorapaxar, 
+warfarin); 
+− 
+lægemidler mod depression (f.eks. amitriptylin, desipramin, fluoxetin, imipramin, nefazodon, 
+nortriptylin, paroxetin, sertralin, trazodon); 
+− 
+lægemidler mod svamp (f.eks. ketoconazol, itraconazol); 
+− 
+antihistaminer (f.eks. loratadin, fexofenadin); 
+− 
+antiretrovirale lægemidler, herunder hiv-proteasehæmmere (amprenavir, atazanavir, darunavir, 
+fosamprenavir, indinavir, nelfinavir, saquinavir, tipranavir) og non-nukleosid revers 
+transkriptasehæmmere (NNRTI) (delavirdin, efavirenz, nevirapin) og andre (didanosin, 
+maraviroc, raltegravir, zidovudin); 
+− 
+lægemiddel mod tuberkulose (bedaquilin og delamanid); 
+− 
+antivirale midler til behandling af kronisk hepatitis C-virusinfektion hos voksne (f.eks. 
+glecaprevir/pibrentasvir og simeprevir); 
+− 
+lægemidler mod angst (buspiron); 
+− 
+lægemidler mod astma (theophyllin, salmeterol); 
+− 
+atovaquon, der er et lægemiddel til behandling af en særlig type lungebetændelse og malaria; 
+− 
+buprenorphin, der er et lægemiddel til behandling af kroniske smerter; 
+− 
+bupropion, der er et lægemiddel, som anvendes til at hjælpe dig med at holde op med at ryge; 
+− 
+lægemidler mod epilepsi (f.eks. carbamazepin, divalproex, lamotrigin, phenytoin); 
+− 
+hjertemedicin (f.eks. disopyramid, mexiletin og calciumantagonister som f.eks. amlodipin, 
+diltiazem og nifedipin); 
+− 
+lægemidler med indvirkning på immunsystemet (f.eks. ciclosporin, tacrolimus, everolimus); 
+− 
+levothyroxin (mod problemer med skjoldbruskkirtlen); 
+− 
+morphin og morphin-lignende lægemidler til behandling af stærke smerter (f.eks. methadon, 
+fentanyl); 
+− 
+sovepiller (f.eks. alprazolam, zolpidem) og endvidere midazolam indgivet som injektion; 
+− 
+beroligende lægemidler (f.eks. haloperidol, risperidon, thioridazin); 
+− 
+colchicin, til behandling af urinsyregigt; </p>
+<p>Der er nogle lægemidler, som du slet ikke må tage sammen med ritonavir. Disse lægemidler er anført 
+tidligere under punkt 2 i afsnittet ‘Tag ikke Ritonavir Mylan’. </p>
+<p>Brug af Ritonavir Mylan sammen med mad og drikke </p>
+<p>Ritonavir Mylan tabletter skal indtages sammen med mad. </p>
+<p>Graviditet og amning </p>
+<p>Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Der findes en stor mængde oplysninger om brugen af ritonavir (det aktive stof i Ritonavir Mylan) 
+under graviditet. Efter de første tre måneder af graviditeten fik gravide kvinder gennemgående 
+ritonavir i en lavere dosis (boosterdosis) sammen med andre proteasehæmmere. Ritonavir synes ikke 
+at øge risikoen for medfødte misdannelser sammenlignet med den generelle befolkning. </p>
+<p>Amning anbefales ikke hos kvinder, som lever med hiv, da hiv-infektion kan overføres til barnet 
+gennem modermælken. </p>
+<p>Hvis du ammer eller påtænker at amme, bør du drøfte det med din læge hurtigst muligt. </p>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Ritonavir Mylan kan medføre svimmelhed. Hvis du bliver svimmel, må du ikke køre bil eller 
+motorcykel eller betjene maskiner.  </p>
+<p>Ritonavir Mylan indeholder natrium </p>
+<p>Denne medicin indeholder 87,75 mg natrium i hver tablet. Dette svarer til 4,4 % af det anbefalede 
+maksimale daglige indtag af natrium for en voksen. Tal med lægen eller apotekspersonalet, hvis du har 
+brug for fem eller flere tabletter dagligt i en længere periode, især hvis du har fået at vide, at du skal 
+følge en saltfattig (natriumfattig) diæt. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. Du skal tage denne medicin en eller to gange dagligt sammen med mad.  </p>
+<p>Det er vigtigt, at Ritonavir Mylan-tabletter synkes hele og ikke tygges, deles eller knuses. </p>
+<p>Den anbefalede dosis er: </p>
+<ul>
+<li>
+<p>Hvis Ritonavir Mylan bruges til at booste virkningen af visse andre anti-hiv-lægemidler, er den 
+sædvanlige dosis til voksne 1-2 tabletter en eller to gange dagligt. Se indlægssedlen for de anti-
+hiv-lægemidler, Ritonavir Mylan gives sammen med, for mere detaljerede anbefalinger om 
+dosis. </p>
+</li>
+<li>
+<p>Hvis din læge ordinerer en fuld dosis, kan voksne patienter begynde med en dosis på 3 tabletter 
+om morgenen og 3 tabletter 12 timer senere, hvilket gradvist øges i en periode på højst 14 dage 
+til den fulde dosis på 6 tabletter to gange dagligt (i alt 1.200 mg pr. dag). Børn (2-12 år) starter 
+med en lavere dosis og fortsætter op til den maksimalt tilladte dosis for deres størrelse. </p>
+</li>
+</ul>
+<p>Din læge vil vejlede dig om den dosis, du skal tage. </p>
+<p>Andre former af denne medicin kan være mere passende for børn, der har svært ved at sluge tabletter. </p>
+<p>Du skal tage Ritonavir Mylan hver dag for at det kan medvirke til at kontrollere din hiv-infektion, 
+uanset hvor meget bedre tilpas du føler dig. Hvis en bivirkning forhindrer dig i at tage Ritonavir 
+Mylan efter anvisningerne, skal du straks kontakte lægen. I perioder med diarré kan din læge beslutte, 
+at ekstra kontrol er nødvendig. </p>
+<p>Sørg altid for at have tilstrækkeligt med Ritonavir Mylan på lager, så du ikke løber tør. Når du er på 
+rejse eller skal indlægges på hospitalet, skal du sørge for at have tilstrækkeligt med Ritonavir Mylan, 
+indtil du kan få en ny forsyning. </p>
+<p>Hvis du har taget for meget Ritonavir Mylan  </p>
+<p>Hvis du tager for meget ritonavir, kan du få en sovende eller prikkende fornemmelse eller andre 
+unormale følefornemmelser i huden. Hvis du bliver klar over, at du har taget mere Ritonavir Mylan, 
+end du skulle, skal du straks kontakte din læge eller skadestuen på det nærmeste hospital.  </p>
+<p>Hvis du har glemt at tage Ritonavir Mylan  </p>
+<p>Hvis du glemmer en dosis, skal du tage den glemte dosis så hurtigt som muligt. Hvis det er lige før, du 
+skulle have taget den næste dosis, skal du kun tage den. Du må ikke tage en dobbeltdosis som 
+erstatning for den glemte dosis. </p>
+<p>Hvis du holder op med at tage Ritonavir Mylan  </p>
+<p>Selv om du føler dig bedre tilpas, må du ikke holde op med at tage Ritonavir Mylan uden først at have 
+talt med din læge. Ved at tage Ritonavir Mylan som det er ordineret af lægen, har du størst chance for 
+at forsinke udviklingen af resistens mod medicinen. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ritonavir"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ritonavir"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjet indhold af lipider og glucose i 
+blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-medicinen. Lægen vil holde øje med disse ændringer. </p>
+<p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Når 
+ritonavir anvendes sammen med andre antiretrovirale lægemidler, afhænger bivirkningerne ved 
+ritonavir desuden af disse andre lægemidler.<br />
+Det er derfor vigtigt at læse afsnittet om bivirkninger omhyggeligt i de indlægssedler, der er vedlagt de 
+andre lægemidler. </p>
+<p>Meget almindelig: kan forekomme hos flere end 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>øvre og nedre mavepine </p>
+</li>
+<li>
+<p>opkastning  </p>
+</li>
+<li>
+<p>diarré (kan være alvorlig) </p>
+</li>
+<li>
+<p>føle sig dårlig (kvalme) </p>
+</li>
+<li>
+<p>ansigtsrødme, varmefølelse  </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>smerter i svælget </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>maveproblemer eller fordøjelsesbesvær  </p>
+</li>
+<li>
+<p>en prikkende eller sovende fornemmelse i 
+hænder, fødder eller omkring læberne og 
+munden </p>
+</li>
+<li>
+<p>en følelse af svaghed/træthed </p>
+</li>
+<li>
+<p>dårlig smag i munden </p>
+</li>
+<li>
+<p>nerveskade, som kan give svaghed og 
+smerte </p>
+</li>
+<li>
+<p>kløe </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>led- og rygsmerter </p>
+</li>
+</ul>
+<p>Almindelig: kan forekomme hos op til 1ud af 10 personer </p>
+<ul>
+<li>
+<p>overfølsomhedsreaktioner, herunder 
+hududslæt (kan være rødt, hævet og 
+kløende), alvorlige hævelser i huden og 
+andre væv  </p>
+</li>
+<li>
+<p>søvnløshed (insomni) </p>
+</li>
+<li>
+<p>angst </p>
+</li>
+<li>
+<p>forhøjet kolesterol </p>
+</li>
+<li>
+<p>forhøjede triglycerider </p>
+</li>
+<li>
+<p>urinsyregigt </p>
+</li>
+<li>
+<p>blødning fra mavesækken </p>
+</li>
+<li>
+<p>inflammation i leveren og gulfarvning af 
+huden eller det hvide i øjnene </p>
+</li>
+<li>
+<p>øget vandladning </p>
+</li>
+<li>
+<p>nedsat nyrefunktion </p>
+</li>
+<li>
+<p>krampe (anfald) </p>
+</li>
+<li>
+<p>lavt antal blodplader i blodet </p>
+</li>
+<li>
+<p>tørst (dehydrering) </p>
+</li>
+<li>
+<p>unormalt kraftige menstruationer </p>
+</li>
+<li>
+<p>luft i maven (flatulens) </p>
+</li>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>mundsår </p>
+</li>
+<li>
+<p>ømhed i muskler (smerte), ømhed eller 
+svækkelse </p>
+</li>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>resultater af laboratorietest: 
+ændringer i resultaterne af blodprøver 
+(såsom blodkemi og blodtal) </p>
+</li>
+<li>
+<p>forvirring </p>
+</li>
+<li>
+<p>svært ved at fastholde opmærksomheden </p>
+</li>
+<li>
+<p>sløret syn </p>
+</li>
+<li>
+<p>hævede hænder og fødder </p>
+</li>
+<li>
+<p>højt blodtryk </p>
+</li>
+<li>
+<p>lavt blodtryk og svimmelhed, når man 
+rejser sig </p>
+</li>
+<li>
+<p>kuldefølelse i hænder og fødder </p>
+</li>
+<li>
+<p>akne </p>
+</li>
+</ul>
+<p>Ikke almindelig: kan forekomme hos op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>hjerteanfald </p>
+</li>
+<li>
+<p>sukkersyge (diabetes) </p>
+</li>
+<li>
+<p>nyresvigt </p>
+</li>
+</ul>
+<p>Sjælden: kan forekomme hos op til 1 ud af 1.000 personer </p>
+<ul>
+<li>
+<p>alvorlig eller livstruende hudreaktion, 
+herunder blærer (Stevens-Johnsons 
+syndrom, toksisk epidermal nekrolyse) </p>
+</li>
+<li>
+<p>alvorlig overfølsomhedsreaktion 
+(anafylaksi) </p>
+</li>
+<li>
+<p>højt indhold af sukker i blodet </p>
+</li>
+</ul>
+<p>Ikke kendt: hyppighed kan ikke estimeres ud fra tilgængelige data </p>
+<ul>
+<li>nyresten </li>
+</ul>
+<p>Fortæl det til din læge, hvis du får kvalme, kaster op eller får ondt i maven, da dette kan være tegn på 
+betændelse i bugspytkirtlen. Du skal også fortælle det til din læge, hvis du får stivhed, ømhed og 
+smerter i led (især hofte, knæ og skulder) samt bevægelsesbesvær, da dette kan være tegn på 
+knoglenekrose. Se også punkt 2 Det skal du vide, før du eller dit barn begynder at tage Ritonavir 
+Mylan. </p>
+<p>Hos nogle patienter med hæmofili A og B er der rapporteret om tilfælde af øget blødningstendens 
+under behandling med ritonavir eller en anden proteasehæmmer. Skulle dette ske for dig, bør du 
+øjeblikkelig kontakte din læge. </p>
+<p>Unormal leverfunktionstest, leverbetændelse (hepatitis) og i sjældne tilfælde gulsot er blevet 
+rapporteret hos patienter, der tog ritonavir. Nogle patienter havde andre sygdomme og tog anden 
+medicin. Patienter med leversygdom eller leverbetændelse kan opleve en forværring af 
+leversygdommen. </p>
+<p>Der er rapporteret om smerter, ømhed eller svaghed i musklerne samt muskelsvækkelse, især ved 
+samtidig anvendelse af kolesterolsænkende medicin og antiretroviral kombinationsbehandling, 
+herunder med proteasehæmmere og nukleosidanaloger. Muskelsygdomme har i sjældne tilfælde været 
+alvorlige (rabdomyolyse). Hvis du oplever uforklarlige eller fortsatte smerter eller ømhed i musklerne, 
+muskelsvækkelse eller kramper, skal du holde op med at tage medicinen, kontakte din læge hurtigst 
+muligt eller tage på skadestuen på det nærmeste hospital. </p>
+<p>Fortæl det straks til din læge, hvis du oplever symptomer, som tyder på en allergisk reaktion, efter 
+indtagelse af Ritonavir Mylan, f.eks. udslæt, nældefeber eller åndedrætsbesvær. </p>
+<p>Kontakt lægen eller apotekspersonalet, eller ring 112 hvis du har brug for hurtig hjælp, hvis en 
+bivirkning bliver alvorlig, eller du får bivirkninger, som ikke er nævnt her. </p>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen eller beholderen efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>For HPDE-flaske: anvendes inden for 45 dage efter åbning. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale emballage for at beskytte 
+mod fugt. </p>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-de065403a5793478002be710eeac097c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ritonavir Package Leaflet for language en"
+Description: "ePI document Bundle for ritonavir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-de065403a5793478002be710eeac097c"
+* entry[0].resource = composition-en-de065403a5793478002be710eeac097c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpde065403a5793478002be710eeac097c"
+* entry[=].resource = mpde065403a5793478002be710eeac097c
+                            
+                    
+Instance: bundlepackageleaflet-da-de065403a5793478002be710eeac097c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ritonavir Package Leaflet for language da"
+Description: "ePI document Bundle for ritonavir Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-de065403a5793478002be710eeac097c"
+* entry[0].resource = composition-da-de065403a5793478002be710eeac097c
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpde065403a5793478002be710eeac097c"
+* entry[=].resource = mpde065403a5793478002be710eeac097c
+                            
+                    
+
+
+
+Instance: mpde065403a5793478002be710eeac097c
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ritonavir Mylan 100 mg film-coated tablets"
-Description: "Ritonavir Mylan 100 mg film-coated tablets"
+Title: "Medicinal Product ritonavir"
+Description: "ritonavir"
 Usage: #inline
 
  
@@ -594,7 +1307,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ritonavir Mylan 100 mg film-coated tablets"
+  * productName = "ritonavir"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -621,29 +1334,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-de065403a5793478002be710eeac097c
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ritonavir Package Leaflet for language en"
-Description: "ePI document Bundle for ritonavir Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: de065403a5793478002be710eeac097cListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/17/1242/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ritonavir"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-de065403a5793478002be710eeac097c"
-* entry[0].resource = composition-en-de065403a5793478002be710eeac097c
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp60633c6e8b89fb00f3c6e0c40d5d1774"
-* entry[=].resource = mp60633c6e8b89fb00f3c6e0c40d5d1774
-                            
-                      
+* title = "List of all ePIs associated with ritonavir"
+
+* subject = Reference(mp60633c6e8b89fb00f3c6e0c40d5d1774)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ritonavir "ritonavir"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-de065403a5793478002be710eeac097c) // ritonavir en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-de065403a5793478002be710eeac097c) // ritonavir da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-de065403a5793478002be710eeac097c
+InstanceOf: List
+
+* insert de065403a5793478002be710eeac097cListRuleset
+    

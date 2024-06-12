@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-47e609a7556335e73540caeda7f501b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for dapagliflozin Package Leaflet"
@@ -494,12 +497,705 @@ Tel: +353 18711This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-47e609a7556335e73540caeda7f501b2
+InstanceOf: CompositionUvEpi
+Title: "Composition for dapagliflozin Package Leaflet"
+Description:  "Composition for dapagliflozin Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp082c2e0b7712cb472c7d890f23209f78)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp082c2e0b7712cb472c7d890f23209f78
+* title = "TEST PURPOSES ONLY - dapagliflozin"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at tage Dapagliflozin Viatris  </li>
+<li>Sådan skal du tage Dapagliflozin Viatris  </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What dapagliflozin is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What dapagliflozin is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Dapagliflozin Viatris 
+Dapagliflozin Viatris indeholder det aktive stof dapagliflozin. Det tilhører en gruppe lægemidler kaldet 
+"natriumglukose co-transporter-2 (SGLT2)-hæmmere". De virker ved at blokere SGLT2-proteinet i 
+nyrerne. Ved at blokere dette protein fjernes blodsukker (glukose), salt (natrium) og vand fra din krop 
+via urinen. </p>
+<p>Hvad anvendes Dapagliflozin Viatris til 
+Dapagliflozin Viatris anvendes til behandling af: </p>
+<ul>
+<li>Type 2-diabetes </li>
+<li>hos voksne og børn i alderen 10 år og derover. </li>
+<li>hvis din type 2-diabetes ikke kan kontrolleres med diæt og motion. </li>
+<li>Dapagliflozin Viatris kan tages alene eller sammen med andre lægemidler til behandling 
+af diabetes. </li>
+<li>
+<p>det er vigtigt, at du fortsætter med at følge de råd om kost og motion, som din læge, 
+apotekspersonalet eller sygeplejersken har givet dig. </p>
+</li>
+<li>
+<p>Hjertesvigt </p>
+</li>
+<li>
+<p>hos voksne (18 år og derover) med symptomer på en svag pumpefunktion i hjertet. </p>
+</li>
+<li>
+<p>Kronisk nyresygdom </p>
+</li>
+<li>
+<p>hos voksne med nedsat nyrefunktion. </p>
+</li>
+</ul>
+<p>Hvad er type 2-diabetes, og hvordan hjælper Dapagliflozin Viatris? </p>
+<ul>
+<li>
+<p>Type 2-diabetes er den type diabetes, hvor din krop ikke producerer nok insulin, eller kroppen 
+ikke kan udnytte det insulin, som den producerer, godt nok. Det fører til forhøjet blodsukker. 
+Dette kan føre til alvorlige problemer som hjerte- eller nyresygdom, blindhed og dårlig 
+blodcirkulation i dine arme og ben. </p>
+</li>
+<li>
+<p>Dapagliflozin Viatris virker ved at fjerne det overskydende sukker fra kroppen. Det kan også 
+hjælpe med at forebygge hjertesygdom. </p>
+</li>
+</ul>
+<p>Hvad er hjertesvigt, og hvordan hjælper Dapagliflozin Viatris? </p>
+<ul>
+<li>
+<p>Denne type hjertesvigt opstår, når hjertet er svagt og ikke kan pumpe nok blod til lungerne og 
+resten af kroppen. Dette kan føre til alvorlige medicinske problemer og behov for 
+hospitalsbehandling. </p>
+</li>
+<li>
+<p>De mest almindelige symptomer på hjertesvigt er åndenød, en følelse af at være træt eller 
+meget træt hele tiden og hævelse af anklerne. </p>
+</li>
+<li>
+<p>Dapagliflozin Viatris beskytter dit hjerte mod at blive svagere og forbedrer dine symptomer. 
+Det kan mindske behovet for at komme på hospitalet og kan hjælpe nogle patienter med at 
+leve længere. </p>
+</li>
+</ul>
+<p>Hvad er kronisk nyresygdom, og hvordan hjælper Dapagliflozin Viatris? </p>
+<ul>
+<li>
+<p>Når du har kronisk nyresygdom, kan dine nyrer gradvist miste funktionen. Dette betyder, at de 
+ikke vil være i stand til at rense og filtrere dit blod, som det ellers er meningen. Manglende 
+nyrefunktion kan medføre alvorlige helbredsproblemer og behov for hospitalsbehandling. </p>
+</li>
+<li>
+<p>Dapagliflozin Viatris hjælper med at beskytte dine nyrer mod at miste deres funktion. Det kan 
+hjælpe nogle patienter til at leve længere. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take dapagliflozin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take dapagliflozin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Dapagliflozin Viatris </p>
+<ul>
+<li>hvis du er allergisk over for dapagliflozin eller et af de øvrige indholdsstoffer (angivet i 
+punkt 6).  </li>
+</ul>
+<p>Advarsler og forsigtighedsregler<br />
+Du skal straks kontakte læge eller nærmeste hospital: </p>
+<p>Diabetisk ketoacidose </p>
+<ul>
+<li>
+<p>Hvis du har diabetes og oplever kvalme, opkastning, mavesmerter, udtalt tørst, hurtig og dyb 
+vejrtrækning, forvirring, usædvanlig søvnighed eller træthed, dine ånde lugter sødligt, en sød 
+eller metallisk smag i munden eller en forandret lugt af din urin eller sved, eller hurtigt 
+vægttab. </p>
+</li>
+<li>
+<p>De ovennævnte symptomer kan være tegn på "diabetisk ketoacidose" – en sjælden, men 
+alvorlig, til tider livstruende komplikation, du kan få ved diabetes på grund af forhøjet niveau 
+af "ketonstoffer" i urinen eller blodet, som kan ses i laboratorieanalyser. </p>
+</li>
+<li>
+<p>Risikoen for at udvikle diabetisk ketoacidose kan være forøget ved længerevarende faste, 
+overdreven alkoholindtagelse, dehydrering, pludselig nedsættelse af insulindosis eller øget 
+behov for insulin på grund af større operationer eller alvorlig sygdom. </p>
+</li>
+<li>
+<p>Når du behandles med Dapagliflozin Viatris, kan diabetisk ketoacidose forekomme, selvom 
+dit blodsukkerniveau er normalt. </p>
+</li>
+</ul>
+<p>Hvis du har en formodning om, at du har diabetisk ketoacidose, skal du straks kontakte en læge eller 
+nærmeste hospital og ikke tage dette lægemiddel. </p>
+<p>Nekrotiserende fasciitis i mellemkødet </p>
+<ul>
+<li>Kontakt øjeblikkeligt lægen, hvis du oplever en kombination af smerter, ømhed, rødme eller 
+hævelse af kønsdelene eller i området mellem kønsdelene og anus med feber eller generel 
+utilpashed. Disse symptomer kan være et tegn på en sjælden, men alvorlig og muligvis 
+livstruende infektion (såkaldt nekrotiserende fasciitis i mellemkødet eller Fourniers gangræn), 
+der ødelægger vævet under huden. Fourniers gangræn skal behandles øjeblikkeligt. </li>
+</ul>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Dapagliflozin Viatris: </p>
+<ul>
+<li>
+<p>Hvis du har "type 1-diabetes" – den type, der normalt starter, når du er ung, og din krop ikke 
+producerer noget insulin. </p>
+</li>
+<li>
+<p>Hvis du har diabetes og et nyreproblem – vil din læge måske bede dig om at tage nogle andre 
+eller et andet lægemiddel for at kontrollere dit blodsukker. </p>
+</li>
+<li>
+<p>Hvis du har et leverproblem – vil din læge måske give dig en lavere startdosis. </p>
+</li>
+<li>
+<p>Hvis du tager lægemidler, der skal sænke dit blodtryk (anti-hypertensiva) og har en 
+sygehistorie med for lavt blodtryk (hypotension). Der er yderligere oplysninger under "Brug af 
+andre lægemidler sammen med Dapagliflozin Viatris". </p>
+</li>
+<li>
+<p>Hvis du har meget høje niveauer af sukker i blodet, som kan gøre dig dehydreret (få dig til at 
+tabe for meget kropsvæske). Mulige tegn på dehydrering er anført i punkt 4. Kontakt lægen, 
+før du tager dette lægemiddel, hvis du får et af disse symptomer. </p>
+</li>
+<li>
+<p>Hvis du har eller senere får kvalme, opkastning eller feber, eller hvis du ikke er i stand til at 
+spise eller drikke. I så fald kan du komme i væskeunderskud (blive dehydreret). For at 
+forebygge dehydrering vil din læge måske opfordre dig til at stoppe med Dapagliflozin Viatris, 
+indtil du får det bedre. </p>
+</li>
+<li>
+<p>Hvis du ofte får urinvejsinfektioner. </p>
+</li>
+</ul>
+<p>Hvis noget af ovenstående gælder for dig (eller hvis du er i tvivl), så tal med din læge, 
+apotekspersonalet eller sygeplejersken, før du begynder at tage Dapagliflozin Viatris. </p>
+<p>Diabetes og fodpleje 
+Hvis du har diabetes, er det vigtigt, at du får kontrolleret dine fødder regelmæssigt og overholder den 
+rådgivning om fodpleje, som du får af din læge eller sygeplejerske. </p>
+<p>Glukose i urinen 
+På grund af Dapagliflozin Viatris' virkemåde vil urinprøver vise, at du har sukker (glukose) i urinen, 
+mens du tager dette lægemiddel. </p>
+<p>Børn og unge 
+Dapagliflozin Viatris kan bruges til børn i alderen 10 år og derover til behandling af type 2-diabetes. 
+Der foreligger ingen data for børn under 10 år. </p>
+<p>Dapagliflozin Viatris frarådes til børn og unge under 18 år til behandling af hjertesvigt eller til 
+behandling af kronisk nyresygdom, da det ikke er blevet undersøgt hos disse patienter. </p>
+<p>Brug af andre lægemidler sammen med Dapagliflozin Viatris 
+Fortæl det altid til lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre lægemidler, for 
+nylig har taget andre lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Fortæl det altid til lægen: </p>
+<ul>
+<li>
+<p>Hvis du tager vanddrivende lægemidler (diuretika). </p>
+</li>
+<li>
+<p>Hvis du tager andre lægemidler, som sænker sukkerindholdet i blodet, som f.eks. insulin eller 
+et lægemiddel med "sulfonylurinstof". Din læge kan ønske at nedsætte dosen af disse andre 
+lægemidler for at undgå at du får for lavt blodsukker (hypoglykæmi). </p>
+</li>
+<li>
+<p>Hvis du tager lithium, fordi Dapagliflozin Viatris kan sænke niveauet af lithium i dit blod. </p>
+</li>
+</ul>
+<p>Graviditet og amning 
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. Hold op med at tage 
+dette lægemiddel, hvis du bliver gravid, da det ikke bør tages i de sidste seks måneder af graviditeten. 
+Tal med din læge om den bedste måde at kontrollere dit blodsukker på, mens du er gravid. </p>
+<p>Tal med din læge, før du tager dette lægemiddel, hvis du ammer eller ønsker at amme. Du må ikke 
+tage Dapagliflozin Viatris, hvis du ammer. Det vides ikke, om dette lægemiddel går over i 
+modermælken. </p>
+<p>Trafik- og arbejdssikkerhed 
+Dapagliflozin Viatris påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene 
+maskiner. </p>
+<p>Hvis du tager dette lægemiddel sammen med visse andre lægemidler såsom sulfonylurinstoffer eller 
+insulin, kan dit blodsukker blive for lavt (hypoglykæmi), hvilket kan give symptomer såsom rysten, 
+svedudbrud eller synspåvirkning og kan påvirke din evne til at færdes sikkert i trafikken og betjene 
+maskiner. </p>
+<p>Lad være med at køre bil og arbejde med værktøj eller maskiner, hvis du bliver svimmel, når du tager 
+Dapagliflozin Viatris. </p>
+<p>Dapagliflozin Viatris indeholder lactose 
+Dapagliflozin Viatris indeholder lactose (mælkesukker). Kontakt din læge, før du tager dette 
+lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
+<p>Dapagliflozin Viatris indeholder natrium<br />
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take dapagliflozin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take dapagliflozin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet 
+eller sygeplejersken.  </p>
+<p>Hvor meget skal du tage </p>
+<ul>
+<li>
+<p>Den anbefalede dosis er én 10 mg tablet hver dag. </p>
+</li>
+<li>
+<p>Din læge kan starte din behandling med en 5 mg dosis, hvis du har en leversygdom. </p>
+</li>
+<li>
+<p>Din læge vil ordinere den styrke, der passer til dig. </p>
+</li>
+</ul>
+<p>Sådan tages dette lægemiddel </p>
+<ul>
+<li>
+<p>Slug tabletten hel med et halvt glas vand. Tabletten kan ikke deles i to lige store doser. </p>
+</li>
+<li>
+<p>Du kan tage tabletten med eller uden mad. </p>
+</li>
+<li>
+<p>Tabletten kan indtages når som helst på dagen. Du bør dog forsøge at tage den på samme 
+tidspunkt hver dag. Dette vil hjælpe dig til at huske at tage den. </p>
+</li>
+</ul>
+<p>Din læge kan ordinere Dapagliflozin Viatris sammen med andre lægemidler. Husk at tage det eller de 
+andre lægemidler, som din læge har fortalt dig, at du skal. Det vil hjælpe med at opnå de bedste 
+resultater for dit helbred. </p>
+<p>Kost og motion kan hjælpe din krop med at bruge blodsukkeret bedre. Hvis du har diabetes er det 
+vigtigt at forblive på et diæt- og træningsprogram, som lægen anbefaler, mens du tager Dapagliflozin 
+Viatris. </p>
+<p>Hvis du har taget for meget Dapagliflozin Viatris 
+Hvis du har taget flere Dapagliflozin Viatris tabletter, end du skulle, skal du straks tale med lægen 
+eller tage på hospitalet. 
+Medbring lægemidlets emballage. </p>
+<p>Hvis du har glemt at tage Dapagliflozin Viatris 
+Hvis du har glemt at tage en tablet, skal du gøre som beskrevet nedenfor (afhængigt af hvor længe der 
+er til næste dosis). </p>
+<ul>
+<li>
+<p>Hvis der er 12 timer eller mere til din næste dosis: Tag en dosis Dapagliflozin Viatris, så snart 
+du kommer i tanke om det. Tag derpå den næste dosis på det sædvanlige tidspunkt. </p>
+</li>
+<li>
+<p>Hvis der er mindre end 12 timer til den næste dosis: Spring den glemte tablet over. Tag derpå 
+den næste dosis på det sædvanlige tidspunkt. </p>
+</li>
+<li>
+<p>Du må ikke tage en dobbeltdosis Dapagliflozin Viatris som erstatning for den glemte dosis. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Dapagliflozin Viatris 
+Hold ikke op med at tage Dapagliflozin Viatris uden først at tale med din læge. Hvis du har diabetes, 
+kan dit blodsukker stige, hvis du ikke tager dette lægemiddel. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt straks en læge eller nærmeste skadestue, hvis du får nogen af følgende bivirkninger: </p>
+<ul>
+<li>
+<p>angioødem, ses meget sjældent (kan forekomme hos op til 1 ud af 10 000 personer). 
+Nedenstående symptomer er tegn på angioødem:</p>
+</li>
+<li>
+<p>hævelse af ansigt, tunge eller svælg </p>
+</li>
+<li>synkebesvær </li>
+<li>
+<p>nældefeber og åndedrætsbesvær. </p>
+</li>
+<li>
+<p>diabetisk ketoacidose – dette er sjældent hos patienter med type 2-diabetes (kan forekomme 
+hos op til 1 ud af 1 000 personer). 
+Nedenstående symptomer er tegn på diabetisk ketoacidose (se også punkt 2, Advarsler og 
+forsigtighedsregler):</p>
+</li>
+<li>
+<p>forhøjet niveau af "ketonstoffer" i urinen eller blodet </p>
+</li>
+<li>kvalme eller opkastning </li>
+<li>mavesmerter </li>
+<li>udtalt tørst </li>
+<li>hurtig og dyb vejrtrækning </li>
+<li>forvirring </li>
+<li>usædvanlig søvnighed eller træthed </li>
+<li>dine ånde lugter sødligt, en sød eller metallisk smag i munden eller en forandret lugt af 
+din urin eller sved </li>
+<li>hurtigt vægttab. </li>
+</ul>
+<p>Dette kan forekomme uanset niveauet af blodsukker. Lægen kan beslutte at stoppe behandlingen med 
+Dapagliflozin Viatris midlertidigt eller permanent. </p>
+<ul>
+<li>nekrotiserende fasciitis i mellemkødet (Fourniers gangræn), en alvorlig bløddelsinfektion i 
+kønsdelene eller området mellem kønsdelene og anus, forekommer meget sjældent. </li>
+</ul>
+<p>Stop med at tage Dapagliflozin Viatris og opsøg hurtigst muligt en læge, hvis du får nogen af 
+følgende alvorlige bivirkninger: </p>
+<ul>
+<li>
+<p>urinvejsinfektion – en almindelig bivirkning (kan forekomme hos op til 1 ud af 10 personer). 
+Følgende er tegn på en alvorlig urinvejsinfektion:</p>
+</li>
+<li>
+<p>feber og/eller kulderystelser </p>
+</li>
+<li>brændende fornemmelse ved vandladning </li>
+<li>smerter i ryggen eller siden. </li>
+</ul>
+<p>Hvis du ser blod i urinen, skal du straks fortælle det til din læge; dette forekommer dog sjældent. </p>
+<p>Kontakt snarest muligt din læge, hvis du får en af følgende bivirkninger: </p>
+<ul>
+<li>
+<p>lavt blodsukker (hypoglykæmi) er meget almindeligt (kan forekomme hos flere end 1 ud af 
+10 personer) hos diabetespatienter, når dette lægemiddel tages sammen med et sulfonylurinstof 
+eller insulin. Følgende er tegn på lavt blodsukker:</p>
+</li>
+<li>
+<p>rysten, svedtendens, stærk angstfølelse, hurtig hjerterytme (puls) </p>
+</li>
+<li>sultfornemmelse, hovedpine, synsforstyrrelser </li>
+<li>humørsvingninger eller forvirring. </li>
+</ul>
+<p>Din læge vil fortælle dig, hvordan du skal behandle for lavt blodsukker, og hvad du skal gøre, hvis du 
+får nogen af ovenstående tegn. </p>
+<p>Andre bivirkninger, når du tager Dapagliflozin Viatris: 
+Almindelige </p>
+<ul>
+<li>
+<p>svampeinfektion (trøske) på penis eller i skeden (tegn på dette kan være irritation, kløe, 
+usædvanlig udflåd eller lugt) </p>
+</li>
+<li>
+<p>rygsmerter </p>
+</li>
+<li>
+<p>vandladning af større mængder urin end sædvanligt og hyppigere vandladningstrang </p>
+</li>
+<li>
+<p>ændringer i mængden af kolesterol eller fedtstoffer i blodet (påvist i blodprøver) </p>
+</li>
+<li>
+<p>øgning af antal røde blodlegemer i blodet (påvist i blodprøver) </p>
+</li>
+<li>
+<p>nedsat kreatininclearance (påvist i prøver) i starten af behandlingen </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>tab af for meget væske fra din krop (dehydrering, tegnene kan omfatte meget tør eller klæbrig 
+mund, at lade lidt eller ingen urin eller hurtig hjerterytme) </p>
+</li>
+<li>
+<p>tørst </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>opvågnen om natten for at lade vandet </p>
+</li>
+<li>
+<p>mundtørhed </p>
+</li>
+<li>
+<p>vægttab </p>
+</li>
+<li>
+<p>forhøjet kreatinin (viser sig ved laboratorieblodprøver) i starten af behandlingen </p>
+</li>
+<li>
+<p>forhøjet urea (viser sig ved laboratorieblodprøver) </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 10 000 personer) </p>
+<ul>
+<li>betændelse i nyrerne (tubulointerstitiel nefritis) </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store dapagliflozin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store dapagliflozin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dapagliflozin Viatris indeholder:</p>
+<ul>
+<li>Aktivt stof: dapagliflozin.  </li>
+<li>Øvrige indholdsstoffer:<br />
+Tabletkerne: mikrokrystallinsk cellulose (E460i), lactosemonohydrat (se punkt 2, 
+"Dapagliflozin Viatris indeholder laktose"), crospovidon (E1202), magnesiumstearat (E470b), 
+natriumlaurylsulfat (se punkt 2, "Dapagliflozin Viatris indeholder natrium"), kolloidt vandfrit 
+siliciumdioxid, mannitol. 
+Filmovertræk: polyvinylalkohol (E1203), titandioxid (E171), macrogol 6000 (E1521), talcum 
+(E553b), gul jernoxid (E172). </li>
+</ul>
+<p>Udseende og pakningstørrelser 
+Dapagliflozin Viatris 5 mg filmovertrukne tabletter er gule, runde, bikonvekse filmovertrukne tabletter 
+med en diameter på ca. 7,2 mm, med "5" præget på den ene side og intet på den anden side. </p>
+<p>Dapagliflozin Viatris 10 mg filmovertrukne tabletter er gule, ruderformede, bikonvekse 
+filmovertrukne tabletter med dimensionerne ca. 11 × 8 mm, med "10" præget på den ene side og intet 
+på den anden side. </p>
+<p>Dapagliflozin Viatris 5 mg tabletter fås i: 
+Aluminiumsblisterkort i pakningsstørrelser med 14, 28, 30 eller 98 filmovertrukne tabletter.<br />
+Kalenderblisterkort med 28 eller 98 filmovertrukne tabletter. 
+Perforerede enkeltdosisblisterkort med 14 × 1, 28 × 1, 30 × 1 eller 98 × 1 filmovertrukne tabletter. 
+Beholdere i pakningsstørrelser med 30 eller 90 filmovertrukne tabletter. </p>
+<p>Dapagliflozin Viatris 10 mg tabletter fås i: 
+Aluminiumsblisterkort i pakningsstørrelser med 14, 28, 30 eller 98 filmovertrukne tabletter.<br />
+Kalenderblisterkort med 28 eller 98 filmovertrukne tabletter. 
+Perforerede enkeltdosisblisterkort med 14 × 1, 28 × 1, 30 × 1 eller 98 × 1 filmovertrukne tabletter. 
+Beholdere i pakningsstørrelser med 30 eller 90 filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Viatris Limited<br />
+Damastown Industrial Park<br />
+Mulhuddart<br />
+Dublin 15<br />
+DUBLIN<br />
+Irland </p>
+<p>Fremstiller 
+Mylan Hungary Kft 
+Mylan Utca 1 
+Komárom, 2900, Ungarn </p>
+<p>Mylan Germany GmbH 
+Benzstrasse 1 
+61352 Bad Homburg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Viatris 
+Tél/Tel: + 32 (0)2 658 61<br />
+Lietuva 
+Viatris UAB 
+Tel: +370 5 205 1 
+България 
+Майлан ЕООД 
+Тел.: +359 2 44 55<br />
+Luxembourg/Luxemburg 
+Viatris 
+Tél/Tel: + 32 (0) 2 658 61 (Belgique/Belgien) </p>
+<p>Česká republika 
+Viatris CZ s.r.o. 
+Tel : + 420 222 004<br />
+Magyarország 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2 
+Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69<br />
+Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01<br />
+Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700<br />
+Nederland 
+Mylan BV 
+Tel: +31 (0) 20 426 3 
+Eesti 
+Viatris OÜ 
+Tel: + 372 6363<br />
+Norge 
+Viatris AS 
+Tlf: + 47 66 75 33<br />
+Ελλάδα 
+Viatris Hellas Ltd<br />
+Τηλ: +30 2100 100 002<br />
+Österreich 
+Viatris Austria GmbH 
+Tel: +43 1 86 
+España 
+Viatris Pharmaceuticals, S.L 
+Tel: + 34 900 102<br />
+Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64<br />
+France 
+Viatris Santé 
+Tél: +33 4 37 25 75<br />
+Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127<br />
+Hrvatska 
+Viatris Hrvatska d.o.o. 
+Tel: +385 1 23 50<br />
+România 
+BGP Products SRL 
+Tel: +40 372 579<br />
+Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711 
+Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63<br />
+Ísland 
+Icepharma hf. 
+Sími: +354 540 8 
+Slovenská republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199<br />
+Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 (0) 2 612 46 
+Suomi/Finland 
+Viatris Oy 
+Puh/Tel: +358 20 720 9 
+Κύπρος 
+Sverige 
+Varnavas Hadjipanayis Ltd<br />
+Τηλ: +357 2220 7 
+Viatris AB<br />
+Tel: + 46 (0) 8 630 19<br />
+Latvija 
+Viatris SIA 
+Tel: +371 676 055<br />
+United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: +353 18711 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-47e609a7556335e73540caeda7f501b2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dapagliflozin Package Leaflet for language en"
+Description: "ePI document Bundle for dapagliflozin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-47e609a7556335e73540caeda7f501b2"
+* entry[0].resource = composition-en-47e609a7556335e73540caeda7f501b2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp47e609a7556335e73540caeda7f501b2"
+* entry[=].resource = mp47e609a7556335e73540caeda7f501b2
+                            
+                    
+Instance: bundlepackageleaflet-da-47e609a7556335e73540caeda7f501b2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dapagliflozin Package Leaflet for language da"
+Description: "ePI document Bundle for dapagliflozin Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-47e609a7556335e73540caeda7f501b2"
+* entry[0].resource = composition-da-47e609a7556335e73540caeda7f501b2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp47e609a7556335e73540caeda7f501b2"
+* entry[=].resource = mp47e609a7556335e73540caeda7f501b2
+                            
+                    
+
+
+
+Instance: mp47e609a7556335e73540caeda7f501b2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Dapagliflozin Viatris 5 mg film-coated tablets"
-Description: "Dapagliflozin Viatris 5 mg film-coated tablets"
+Title: "Medicinal Product dapagliflozin"
+Description: "dapagliflozin"
 Usage: #inline
 
  
@@ -519,7 +1215,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Dapagliflozin Viatris 5 mg film-coated tablets"
+  * productName = "dapagliflozin"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -546,29 +1242,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-47e609a7556335e73540caeda7f501b2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for dapagliflozin Package Leaflet for language en"
-Description: "ePI document Bundle for dapagliflozin Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 47e609a7556335e73540caeda7f501b2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Dapagliflozin Viatris 5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "dapagliflozin"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-47e609a7556335e73540caeda7f501b2"
-* entry[0].resource = composition-en-47e609a7556335e73540caeda7f501b2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp082c2e0b7712cb472c7d890f23209f78"
-* entry[=].resource = mp082c2e0b7712cb472c7d890f23209f78
-                            
-                      
+* title = "List of all ePIs associated with dapagliflozin"
+
+* subject = Reference(mp082c2e0b7712cb472c7d890f23209f78)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#dapagliflozin "dapagliflozin"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-47e609a7556335e73540caeda7f501b2) // dapagliflozin en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-47e609a7556335e73540caeda7f501b2) // dapagliflozin da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-47e609a7556335e73540caeda7f501b2
+InstanceOf: List
+
+* insert 47e609a7556335e73540caeda7f501b2ListRuleset
+    

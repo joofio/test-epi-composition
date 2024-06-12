@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-581794a330b2afc7f7af3badc000c4a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for biresp Package Leaflet"
@@ -510,12 +513,841 @@ Tel: + 385 1 37 20 This leaflet was last revised in month YYYY. </p>
 
 
 
+Instance: composition-da-581794a330b2afc7f7af3badc000c4a2
+InstanceOf: CompositionUvEpi
+Title: "Composition for biresp Package Leaflet"
+Description:  "Composition for biresp Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp31e4603f416f953b68e582fcd0f883f5)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp31e4603f416f953b68e582fcd0f883f5
+* title = "TEST PURPOSES ONLY - biresp"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge BiResp Spiromax </li>
+<li>Sådan skal du bruge BiResp Spiromax </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What biresp is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What biresp is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>BiResp Spiromax indeholder to aktive stoffer: budesonid og formoterolfumaratdihydrat. </p>
+<ul>
+<li>
+<p>Budesonid tilhører en gruppe lægemidler, der betegnes ’kortikosteroider’, også kendt som 
+”steroider”. Det virker ved at reducere og forebygge hævelse og inflammation (en 
+betændelseslignende reaktion) i lungerne, så du lettere kan trække vejret.  </p>
+</li>
+<li>
+<p>Formoterolfumaratdihydrat tilhører en gruppe lægemidler, der betegnes 'langtidsvirkende beta2-
+agonister’ eller ’bronkodilatorer’. Det virker ved at få musklerne i luftvejene til at slappe af. 
+Dette vil hjælpe med at åbne luftvejene og gøre det lettere for dig at trække vejret. </p>
+</li>
+</ul>
+<p>BiResp Spiromax er udelukkende beregnet til brug hos voksne og unge i alderen 12 år og 
+derover.  </p>
+<p>Din læge har ordineret denne medicin til behandling af astma eller kronisk obstruktiv lungesygdom 
+(KOL).  </p>
+<p>Astma 
+BiResp Spiromax kan ordineres for astma på to måder. </p>
+<p>a) Du kan få ordineret to astma-inhalatorer: BiResp Spiromax sammen med en separat 
+inhalator med anfaldsmedicin, såsom salbutamol. </p>
+<ul>
+<li>
+<p>Brug BiResp Spiromax hver dag. Dette hjælper med at forebygge astmasymptomer som 
+åndenød og hvæsen.  </p>
+</li>
+<li>
+<p>Brug inhalatoren med anfaldsmedicin, når du får astmasymptomer, for at gøre det lettere at 
+trække vejret igen.  </p>
+</li>
+</ul>
+<p>b) Du kan få ordineret BiResp Spiromax som din eneste astma-inhalator. </p>
+<ul>
+<li>
+<p>Brug BiResp Spiromax hver dag. Dette hjælper med at forebygge astmasymptomer som åndenød 
+og hvæsen.  </p>
+</li>
+<li>
+<p>Brug også BiResp Spiromax, når du har brug for ekstra inhalationer eller pust til lindring af 
+astmasymptomer, for at gøre det lettere at trække vejret igen samt for at forebygge, at der opstår 
+astmasymptomer (f.eks. under motion eller hvis du udsættes for allergener), hvis du har aftalt det 
+med lægen. De behøver ikke en særskilt inhalator hertil.  </p>
+</li>
+</ul>
+<p>Kronisk obstruktiv lungesygdom (KOL) 
+KOL er en langvarig lungesygdom i lungerne, der ofte opstår som følge af cigaretrygning. 
+Symptomerne inkluderer åndenød, hoste, ubehag i brystet og ophostning af slim. BiResp Spiromax 
+kan også anvendes til at behandle symptomer på svær KOL, men kun hos voksne. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take biresp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take biresp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke BiResp Spiromax 
+Hvis du er allergisk over for budesonid, formoterolfumaratdihydrat eller det øvrige indholdsstof i 
+BiResp Spiromax (angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sundhedspersonalet, før du bruger BiResp Spiromax, hvis </p>
+<ul>
+<li>
+<p>Du har sukkersyge. </p>
+</li>
+<li>
+<p>Du har en lungeinfektion. </p>
+</li>
+<li>
+<p>Du har højt blodtryk eller nogensinde har haft en hjertelidelse (herunder uregelmæssig 
+hjerterytme, meget hurtig puls, forsnævring af arterierne eller hjertesvigt). </p>
+</li>
+<li>
+<p>Du har problemer med skjoldbruskkirtlen eller binyrerne. </p>
+</li>
+<li>
+<p>Du har et lavt indhold af kalium i blodet.  </p>
+</li>
+<li>
+<p>Du har alvorlige leverproblemer. </p>
+</li>
+<li>
+<p>Du regelmæssigt drikker alkohol. </p>
+</li>
+</ul>
+<p>Hvis du har taget steroidtabletter for din astma eller KOL, kan lægen reducere det antal tabletter, du 
+tager, når du begynder at bruge BiResp Spiromax. Hvis du har taget steroidtabletter i lang tid, vil din 
+læge muligvis have, at du får taget regelmæssige blodprøver. Når antallet af steroidtabletter reduceres, 
+vil du muligvis føle dig utilpas, selvom dine symptomer i brystet forbedres. Du kan opleve symptomer 
+som tilstoppet næse eller snue, svaghed eller led- eller muskelsmerter og udslæt (eksem). Hvis nogen 
+af disse symptomer generer dig, eller hvis symptomer som hovedpine, træthed, kvalme eller 
+opkastninger forekommer, skal du straks kontakte din læge. Det kan være nødvendigt, at du tager 
+anden medicin, hvis du udvikler allergiske reaktioner eller gigtsymptomer. Tal med din læge, hvis du 
+er i tvivl om, hvorvidt du skal fortsætte med at bruge BiResp Spiromax. </p>
+<p>Din læge kan overveje at føje steroidtabletter til din sædvanlige behandling, hvis du har en sygdom 
+såsom en infektion i brystet eller før en operation. </p>
+<p>Sig det til lægen, hvis du oplever sløret syn eller andre synsforstyrrelser. </p>
+<p>Børn 
+Dette lægemiddel må ikke gives til børn under 12 år. </p>
+<p>Brug af anden medicin sammen med BiResp Spiromax 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for 
+nylig. </p>
+<p>Fortæl især lægen eller apotekspersonalet, hvis du tager nogen af følgende lægemidler: </p>
+<ul>
+<li>
+<p>Betablokkere (såsom atenolol eller propranolol mod for højt blodtryk eller en hjertesygdom), 
+herunder også øjendråber (såsom timolol mod grøn stær). </p>
+</li>
+<li>
+<p>Oxytocin, som gives til gravide kvinder for at sætte fødslen i gang. </p>
+</li>
+<li>
+<p>Lægemidler til behandling af hurtig eller uregelmæssig hjerterytme (såsom quinidin, 
+disopyramid, procainamid og terfenadin). </p>
+</li>
+<li>
+<p>Lægemidler som digoxin, der ofte bruges til at behandle hjertesvigt. </p>
+</li>
+<li>
+<p>Diuretika, også betegnet vanddrivende medicin (såsom furosemid). De bruges til at behandle for 
+højt blodtryk. </p>
+</li>
+<li>
+<p>Steroidtabletter, som du tager gennem munden (f.eks. prednisolon). </p>
+</li>
+<li>
+<p>Lægemidler, der indeholder xanthin (såsom theophyllin eller theophyllin-ethylendiamin). Disse 
+bruges ofte til at behandle astma. </p>
+</li>
+<li>
+<p>Andre bronkodilatorer (såsom salbutamol). </p>
+</li>
+<li>
+<p>Tricykliske antidepressiva (såsom amitriptylin) og det antidepressive middel nefazodon.  </p>
+</li>
+<li>
+<p>Antidepressiva, såsom monoaminoxidasehæmmere og lægemidler med tilsvarende egenskaber 
+(såsom antibiotikummet furazolidon og lægemidlet procarbazin til kemoterapi). </p>
+</li>
+<li>
+<p>Antipsykotiske phenothiaziner (såsom chlorpromazin og prochlorperazin).  </p>
+</li>
+<li>
+<p>Lægemidler betegnet HIV-proteasehæmmere (såsom ritonavir) til behandling af HIV-infektion. </p>
+</li>
+<li>
+<p>Medicin til behandling af infektioner (såsom ketoconazol, itraconazol, voriconazol, 
+posaconazol, clarithromycin og telithromycin).  </p>
+</li>
+<li>
+<p>Lægemidler til behandling af Parkinsons sygdom (såsom levodopa). </p>
+</li>
+<li>
+<p>Lægemidler mod problemer med skjoldbruskkirtlen (såsom levothyroxin).  </p>
+</li>
+</ul>
+<p>Nogle lægemidler kan øge virkningen af BiResp Spiromax, og din læge vil overvåge dig omhyggeligt, 
+hvis du tager sådanne lægemidler (inklusive visse former for HIV-medicin, herunder ritonavir og 
+cobicistat). </p>
+<p>Hvis noget af ovenstående gælder for dig, eller hvis du ikke er sikker, så tal med din læge, 
+apotekspersonalet eller sundhedspersonalet, før du bruger BiResp Spiromax. </p>
+<p>Fortæl også lægen, apotekspersonalet eller sundhedspersonalet, hvis du skal bedøves i forbindelse med 
+operation eller tandbehandling, for at hjælpe med at nedsætte risikoen for at påvirke det 
+bedøvelsesmiddel, du får. </p>
+<p>Graviditet og amning </p>
+<ul>
+<li>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge, apotekspersonalet eller sundhedspersonalet til råds, før du tager 
+BiResp Spiromax - brug IKKE denne medicin, medmindre din læge beder dig om det.  </p>
+</li>
+<li>
+<p>Hvis du bliver gravid, mens du bruger BiResp Spiromax, skal du IKKE holde op med at bruge 
+BiResp Spiromax, men straks tale med din læge. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed </p>
+<p>Det er ikke sandsynligt, at BiResp Spiromax vil påvirke din evne til at køre motorkøretøj eller betjene 
+maskiner. </p>
+<p>BiResp Spiromax indeholder lactose<br />
+Lactose er en slags sukker, der findes i mælk. Kontakt lægen, før du tager denne medicin, hvis lægen 
+har fortalt dig, at du ikke tåler visse sukkerarter.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take biresp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take biresp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen, apotekspersonalet eller sundhedspersonalet. </p>
+<ul>
+<li>
+<p>Det er vigtigt, at du bruger BiResp Spiromax hver dag, også selvom du ikke har nogen astma- eller KOL-symptomer på det pågældende tidspunkt.  </p>
+</li>
+<li>
+<p>Hvis du bruger BiResp Spiromax mod astma, vil din læge ønske at kontrollere dine symptomer 
+med jævne mellemrum.  </p>
+</li>
+</ul>
+<p>Astma<br />
+BiResp Spiromax kan ordineres for astma på to måder. Den mængde BiResp Spiromax, du skal bruge, 
+og hvornår du skal bruge den, afhænger af, hvordan den er ordineret til dig.  </p>
+<ul>
+<li>
+<p>Hvis du har fået ordineret BiResp Spiromax og en særskilt inhalator med anfaldsmedicin, skal 
+du læse afsnittet (A) Brug af BiResp Spiromax og en særskilt inhalator med 
+anfaldsmedicin.  </p>
+</li>
+<li>
+<p>Hvis du har fået ordineret BiResp Spiromax som din eneste inhalator, skal du læse afsnittet (B) 
+Brug af BiResp Spiromax som din eneste astma-inhalator. </p>
+</li>
+</ul>
+<p>(A) Brug af BiResp Spiromax og en særskilt inhalator med anfaldsmedicin.<br />
+Brug BiResp Spiromax hver dag. Dette hjælper med at forebygge astmasymptomer.  </p>
+<p>Anbefalet dosis:<br />
+Voksne (fra og med 18 år) 
+1 eller 2 inhalationer 2 gange dagligt, som tages om morgenen og om aftenen.<br />
+Din læge kan øge dette til 4 inhalationer 2 gange dagligt. 
+Hvis dine symptomer helt under kontrol, vil din læge muligvis bede dig om at tage din medicin en 
+gang dagligt. </p>
+<p>Unge (fra og med 12 år) 
+1 eller 2 inhalationer 2 gange dagligt. </p>
+<p>Din læge vil hjælpe dig med at behandle din astma og justere dosen af dette lægemiddel til den laveste 
+dosis, der kan kontrollere din astma. Hvis din læge mener, at du har brug for en lavere dosis, end der 
+er tilgængelig med din BiResp Spiromax, kan din læge ordinere en anden inhalator, som indeholder de 
+samme aktive stoffer som BiResp Spiromax, men med en lavere dosis kortikosteroid. Hvis dine 
+symptomer helt under kontrol, vil din læge muligvis bede dig om at tage din medicin en gang dagligt. 
+Men husk, du må ikke justere antallet af inhalationer, som din læge har ordineret, uden først at have 
+talt med din læge. </p>
+<p>Brug din særskilte inhalator med anfaldsmedicin til at behandle astmasymptomer, når de 
+opstår.<br />
+Hav altid din inhalator med anfaldsmedicin på dig og brug den til at afhjælpe pludselige anfald af 
+åndenød og hvæsen. Brug ikke BiResp Spiromax til at behandle disse astmasymptomer. </p>
+<p>(B) Brug af BiResp Spiromax som din eneste astmainhalator 
+Brug kun BiResp Spiromax på denne måde, hvis lægen har bedt dig om det.  </p>
+<p>Brug BiResp Spiromax hver dag. Dette hjælper med at forebygge astmasymptomer. </p>
+<p>Anbefalet dosis<br />
+Voksne og unge (fra og med 12  år) 
+1 inhalation om morgenen og 1 inhalation om aftenen 
+eller 
+2 inhalationer om morgenen<br />
+eller 
+2 inhalationer om aftenen. </p>
+<p>Din læge kan øge dosis til 2 inhalationer 2 gange om dagen.  </p>
+<p>Brug også BiResp Spiromax som anfaldsmedicin til behandling af astmasymptomer, når de opstår, og 
+til at forebygge, at der opstår astmasymptomer (f.eks. under motion eller hvis du udsættes for 
+allergener).  </p>
+<ul>
+<li>
+<p>Hvis du får astmasymptomer, skal du tage 1 inhalation og vente nogle minutter.  </p>
+</li>
+<li>
+<p>Hvis du ikke får det bedre, skal du tage endnu en inhalation.  </p>
+</li>
+<li>
+<p>Tag ikke mere end 6 inhalationer i én omgang. </p>
+</li>
+</ul>
+<p>Hav altid din BiResp Spiromax på dig og brug den til at afhjælpe pludselige anfald af åndenød og 
+hvæsen.  </p>
+<p>Der er normalt ikke behov for en total daglig dosis på mere end 8 inhalationer. Din læge kan imidlertid 
+give dig lov til at tage op til 12 inhalationer om dagen i et begrænset tidsrum.  </p>
+<p>Hvis du jævnligt har brug for 8 eller flere inhalationer om dagen, skal du aftale et besøg hos din læge. 
+Lægen kan være nødt til at ændre din behandling.  </p>
+<p>Brug IKKE mere end i alt 12 inhalationer i løbet af 24 timer. </p>
+<p>Hvis du dyrker motion, og du får astmasymptomer, skal du bruge BiResp Spiromax som beskrevet 
+her. Du må imidlertid ikke bruge BiResp Spiromax lige før, du dyrker motion, for at forhindre, at der 
+opstår astmasymptomer. </p>
+<p>Det er vigtigt, at du diskuterer din brug af BiResp Spiromax med lægen til at forebygge, at der opstår 
+astmasymptomer. Hvor ofte du dyrker motion, og hvor ofte du udsættes for allergener kan evt. påvirke 
+den behandling, du har fået ordineret. </p>
+<p>Kronisk obstruktiv lungesygdom (KOL) </p>
+<p>Anbefalet dosis: 
+Kun voksne (fra og med 18 år) </p>
+<p>2 inhalationer 2 gange dagligt, som tages om morgenen og om aftenen. </p>
+<p>Din læge kan også ordinere en anden bronkodilator-medicin, f.eks. et antikolinergikum (såsom 
+tiotropium eller ipratropiumbromid) for din KOL. </p>
+<p>Sådan klargør du din nye BiResp Spiromax  </p>
+<p>Inden du bruger din nye BiResp Spiromax første gang, skal du gøre den klar til brug på følgende 
+måde: </p>
+<ul>
+<li>
+<p>Åbn folieposen ved at afrive den øverste del af folieposen og tage inhalatoren ud. </p>
+</li>
+<li>
+<p>Se i dosisindikatoren for at kontrollere, at der er 120 inhalationer i inhalatoren. </p>
+</li>
+<li>
+<p>Skriv datoen for, hvornår du åbnede folieposen, på inhalatorens etiket. </p>
+</li>
+<li>
+<p>Ryst ikke din inhalator før brug. </p>
+</li>
+</ul>
+<p>Sådan tager du en inhalation 
+Hver gang, du har brug for at tage en inhalation, skal du følge nedenstående anvisninger. 
+1. Hold din inhalator med mundstykkets halvgennemsigtige, vinrøde låg nedad. </p>
+<ol>
+<li>
+<p>Åbn mundstykkets låg ved at folde det ned, indtil der høres et højt klik. Din medicin måles 
+løbende. Din inhalator er nu klar til brug. </p>
+</li>
+<li>
+<p>Ånd forsigtigt ud (så længe du kan uden at føle ubehag). Du må ikke ånde ud gennem inhalatoren. </p>
+</li>
+<li>Anbring mundstykket mellem dine tænder. Du må ikke bide i mundstykket. Luk læberne omkring 
+mundstykket. Pas på ikke at blokere for luftventilen. </li>
+</ol>
+<p>Træk vejret ind gennem munden så dybt og så kraftigt, som du kan. </p>
+<ol>
+<li>
+<p>Tag inhalatoren ud af munden. Du vil muligvis bemærke en særlig smag, når du tager 
+inhalationen. </p>
+</li>
+<li>
+<p>Hold vejret i 10 sekunder eller så længe du kan uden at føle ubehag. </p>
+</li>
+<li>
+<p>Ånd forsigtigt ud (ånd ikke ud gennem inhalatoren). Luk låget på mundstykket.  </p>
+</li>
+</ol>
+<p>Hvis du skal tage endnu en inhalation, skal du gentage trin 1 til 7. Skyl munden med vand efter hver dosis, og spyt det ud.<br />
+Forsøg ikke at skille din inhalator ad, eller at fjerne eller vride mundstykkets låg. Det er fastgjort til 
+inhalatoren og må ikke tages af. Brug ikke Spiromax, hvis den er blevet beskadiget, eller hvis 
+mundstykket er gået løs. Forsøg ikke at åbne og lukke mundstykkets låg, medmindre du skal til at 
+bruge din inhalator.  </p>
+<p>Sådan rengøres Spiromax 
+Hold Spiromax tør og ren. 
+Hvis det er nødvendigt, kan du aftørre mundstykket med en tør klud eller serviet efter brug. </p>
+<p>Hvornår skal jeg bruge en ny Spiromax? </p>
+<ul>
+<li>
+<p>Dosisindikatoren fortæller dig, hvor mange doser (inhalationer) der er tilbage i inhalatoren. 
+Indikatoren starter med 120 inhalationer, når den er fuld, og slutter med 0 (nul) inhalationer, når 
+den er tom.  </p>
+</li>
+<li>
+<p>Dosisindikatoren på bagsiden af enheden viser de lige antal resterende inhalationer. 
+Mellemrummene mellem de lige numre viser de ulige antal resterende inhalationer. </p>
+</li>
+<li>
+<p>Når der er 20 inhalationer tilbage, vises tallene nedefter til ’8’, ’6’, ’4’, ’2’ med rødt på en hvid 
+baggrund. Når tallene bliver røde i vinduet, bør du kontakte din læge og få en ny inhalator. </p>
+</li>
+</ul>
+<p>Bemærk:  </p>
+<ul>
+<li>
+<p>Mundstykket vil stadig klikke, også selv om din Spiromax er tom.  </p>
+</li>
+<li>
+<p>Hvis du åbner og lukker mundstykket uden at tage en inhalation, vil dosisindikatoren tælle det 
+som en dosis. Denne dosis holdes forsvarligt inde i inhalatoren, indtil den næste inhalation skal 
+bruges. Det er umuligt ved et uheld at tage ekstra medicin eller en dobbeltdosis i én indånding.  </p>
+</li>
+<li>
+<p>Hold mundstykket lukket hele tiden, medmindre du skal til at bruge din inhalator. </p>
+</li>
+</ul>
+<p>Vigtig information om dine astma- eller KOL-symptomer </p>
+<p>Hvis du føler, at du bliver forpustet eller trækker vejret med en hvæsende lyd, mens du bruger BiResp 
+Spiromax, skal du fortsætte med at bruge BiResp Spiromax, men søge læge så hurtigt som muligt, da 
+du måske har brug for yderligere behandling. </p>
+<p>Kontakt lægen med det samme, hvis: </p>
+<ul>
+<li>
+<p>Din vejrtrækning bliver værre, eller du ofte vågner om natten med åndenød og hvæsende 
+vejrtrækning. </p>
+</li>
+<li>
+<p>Du begynder at føle trykken for brystet om morgenen, eller din trykken for brystet varer længere 
+end normalt. </p>
+</li>
+</ul>
+<p>Disse tegn kan betyde, at din astma eller KOL ikke kontrolleres ordentligt, og du kan have brug for en 
+anden eller yderligere behandling med det samme. </p>
+<p>Når din astma er velkontrolleret, kan din læge finde det hensigtsmæssigt gradvist at reducere BiResp 
+Spiromax-dosen. </p>
+<p>Hvis du har taget for meget BiResp Spiromax 
+Det er vigtigt, at du tager din dosis som anvist af lægen. Du må ikke overskride den ordinerede dosis 
+uden at spørge en læge. </p>
+<p>Hvis du har brugt for meget BiResp Spiromax, skal du kontakte lægen, apotekspersonalet eller 
+sundhedspersonalet. 
+De hyppigste symptomer, der kan opstå efter, du har taget for meget BiResp Spiromax, er rysten, 
+hovedpine eller hurtig hjerterytme (puls).  </p>
+<p>Hvis du har glemt at bruge BiResp Spiromax 
+Hvis du glemmer at tage en dosis, skal du tage den, så snart du kommer i tanker om det. Du må dog 
+ikke tage en dobbeltdosis som erstatning for den glemte dosis.<br />
+Tag blot den næste dosis på det sædvanlige tidspunkt, hvis tiden næsten er inde til at tage din næste 
+dosis. </p>
+<p>Hvis du får hvæsende vejrtrækning eller bliver forpustet eller udvikler andre symptomer på et 
+astmaanfald, skal du bruge din inhalator med anfaldsmedicin, og derefter søge læge.  </p>
+<p>Hvis du holder op med at bruge BiResp Spiromax 
+Hold ikke op med at bruge din inhalator, uden først at fortælle din læge om det.  </p>
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Hvis noget af følgende sker for dig, skal du holde op med at bruge BiResp Spiromax og straks 
+tale med din læge:  </p>
+<p>Sjældne bivirkninger: kan påvirke op til 1 ud af 1.000 personer </p>
+<ul>
+<li>
+<p>Hævelse i ansigtet, især omkring munden (tunge og/eller svælg og/eller synkebesvær) eller 
+nældefeber kombineret med vejrtrækningsproblemer (angioødem) og/eller pludselig 
+mathedsfornemmelse. Det kan betyde, at du har en allergisk reaktion, der også kan omfatte 
+udslæt og kløe.  </p>
+</li>
+<li>
+<p>Bronkospasme (stramning af musklerne i luftvejene, hvilket forårsager hvæsen og åndenød). 
+Hvis din hvæsen starter pludseligt efter brug af denne medicin, skal du holde op med at bruge 
+den og straks tale med din læge (se nedenfor). </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger: kan påvirke op til 1 ud af 10.000 personer </p>
+<ul>
+<li>Pludselig, uventet og akut hvæsen og/eller åndenød umiddelbart efter, at du har brugt 
+inhalatoren (betegnes også ”paradoks bronkospasme”). Hvis et af disse symptomer forekommer, 
+skal du straks holde op med at bruge BiResp Spiromax og bruge din inhalator med 
+anfaldsmedicin, hvis du har en. Kontakt lægen med det samme, da det kan være nødvendigt at 
+ændre din behandling.  </li>
+</ul>
+<p>Andre bivirkninger: </p>
+<p>Almindelige: kan påvirke op til 1 ud af 10 personer </p>
+<ul>
+<li>
+<p>Hjertebanken (bevidsthed om, at dit hjerte banker), skælven eller rysten. Hvis disse virkninger 
+forekommer, er de som regel lette og forsvinder normalt, når du fortsætter med at bruge BiResp 
+Spiromax. </p>
+</li>
+<li>
+<p>Trøske (en svampeinfektion) i munden. Det er mindre sandsynligt, at dette forekommer, hvis du 
+skyller munden med vand, hver gang du har taget medicinen. </p>
+</li>
+<li>
+<p>Let ømhed i halsen, hoste og hæshed </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Lungebetændelse (pneumoni) hos KOL-patienter (almindelig bivirkning). </p>
+</li>
+</ul>
+<p>Kontakt lægen, hvis du oplever nogle af følgende symptomer, mens du tager BiResp Spiromax. Det 
+kan være tegn på lungebetændelse: 
+• feber eller kulderystelser 
+• øget slimproduktion, ændring i slimens farve 
+• tiltagende hoste eller tiltagende vejrtrækningsproblemer. </p>
+<p>Ikke almindelige: kan påvirke op til 1 ud af 100 personer </p>
+<ul>
+<li>
+<p>Følelse af at være rastløs, nervøs, ophidset, ængstelig eller vred </p>
+</li>
+<li>
+<p>Urolig søvn </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Kvalme </p>
+</li>
+<li>
+<p>Hurtig puls </p>
+</li>
+<li>
+<p>Blå mærker på huden </p>
+</li>
+<li>
+<p>Muskelkramper </p>
+</li>
+<li>
+<p>Sløret syn. </p>
+</li>
+</ul>
+<p>Sjældne: kan påvirke op til 1 ud af 1.000 personer </p>
+<ul>
+<li>
+<p>Lavt indhold af kalium i blodet </p>
+</li>
+<li>
+<p>Uregelmæssig hjerterytme (puls). </p>
+</li>
+</ul>
+<p>Meget sjældne: kan påvirke op til 1 ud af 10.000 personer </p>
+<ul>
+<li>
+<p>Depression </p>
+</li>
+<li>
+<p>Adfærdsændringer, særligt hos børn </p>
+</li>
+<li>
+<p>Brystsmerter eller trykken for brystet (angina pectoris) </p>
+</li>
+<li>
+<p>Forstyrrelse i hjertets elektriske system, som ikke giver symptomer (forlængelse af QTc-
+interval) </p>
+</li>
+<li>
+<p>Forhøjet sukker (glucose) i blodet, når du får taget en blodprøve </p>
+</li>
+<li>
+<p>Smagsændringer, såsom en ubehagelig smag i munden </p>
+</li>
+<li>
+<p>Ændringer i blodtrykket </p>
+</li>
+<li>
+<p>Inhalerede kortikosteroider kan påvirke den normale produktion af steroidhormoner i din krop, 
+især hvis du bruger høje doser i lang tid. Disse virkninger omfatter: </p>
+</li>
+<li>
+<p>Ændringer i knoglemineraltæthed (udtynding af knoglerne) </p>
+</li>
+<li>
+<p>Grå stær (uklarhed i øjets linse) </p>
+</li>
+<li>
+<p>Grøn stær (glaukom − øget tryk i øjet)  </p>
+</li>
+<li>
+<p>Forsinkelse af væksten hos børn og unge </p>
+</li>
+<li>
+<p>Påvirkning af binyrerne (2 små kirtler, der sidder ved nyrerne). Symptomer på 
+binyreundertrykkelse kan være træthed, svaghed, maveproblemer, herunder kvalme, opkastning, 
+smerter og diarré, mørkfarvning af huden og vægttab. </p>
+</li>
+</ul>
+<p>Disse virkninger forekommer meget sjældent og er langt mindre tilbøjelige til at forekomme med 
+inhalerede kortikosteroider end med kortikosteroid-tabletter.  </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apoteket eller sundhedspersonalet. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store biresp"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store biresp"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Opbevar lægemidlet utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen, eller på etiketten til din 
+inhalator efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+</li>
+<li>
+<p>Må ikke opbevares ved temperaturer over 25 oC. Hold mundstykkets låg lukket, når 
+inhalatoren er taget ud af folien. </p>
+</li>
+<li>
+<p>Anvendes inden for 6 måneder efter, at den er taget ud af folien. Brug etiketten på 
+inhalatoren til at skrive den dato, du åbnede folieposen på. </p>
+</li>
+<li>
+<p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
+</li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>BiResp Spiromax indeholder:</p>
+<ul>
+<li>Aktive stoffer: budesonid og formoterolfumaratdihydrat. Hver afgivet (inhaleret) dosis 
+indeholder 160 mikrogram budesonid og 4,5 mikrogram formoterolfumaratdihydrat. Dette 
+svarer til en afmålt dosis på 200 mikrogram budesonid og 6 mikrogram 
+formoterolfumaratdihydrat.  </li>
+<li>Øvrige indholdsstoffer: lactosemonohydrat, som indeholder mælkeprotein (se punkt 2 under 
+’BiResp Spiromax indeholder lactose’)  </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>BiResp Spiromax er et inhalationspulver.<br />
+Hver BiResp Spiromax inhalator indeholder 120 inhalationer og har en hvid hoveddel med et 
+halvgennemsigtigt, vinrødt låg til mundstykket. </p>
+<p>Pakker med 1, 2 og 3 inhalatorer. Det er ikke sikkert, at alle pakningsstørrelser markedsføres i dit land.  </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller  </p>
+<p>Teva Pharma B.V.,<br />
+Swensweg 5, 2031GA Haarlem, Holland.  </p>
+<p>Fremstiller: </p>
+<p>Norton (Waterford) Limited 
+Unit 27/35, IDA Industrial Park, Cork Road, Waterford, Irland </p>
+<p>Teva Pharmaceuticals Europe B.V., Swensweg 5, 2031 GA Haarlem, Holland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG<br />
+Tel/Tél: +32 3 820 73<br />
+Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG<br />
+Belgique/Belgien<br />
+Tel/Tél: +32 3 820 73<br />
+България 
+Тева Фарма ЕАДTeл: +359 2 489 95<br />
+Magyarország 
+Teva Gyógyszergyár Zrt.<br />
+Tel.: +36 1 288 64<br />
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251 007<br />
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 207 540 7 
+Danmark 
+Teva Denmark A/S<br />
+Tlf: +45 44 98 55<br />
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 800 0228<br />
+Deutschland 
+Norge 
+Teva GmbH 
+Tel: +49 731 402 Teva Norway AS<br />
+Tlf: +47 6677 55<br />
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 661 0Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1 97007 0 </p>
+<p>Ελλάδα 
+Teva Ελλάς Α.Ε. 
+Τηλ: +30 210 880 5 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel.: +48 22 345 93 España 
+Laboratorios BIAL, S.A. 
+Tel.: +34 915624 
+Portugal<br />
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 21 476 75<br />
+France 
+Teva Santé 
+Tél: +33 1 55 91 7 
+România 
+Teva Pharmaceuticals S.R.L 
+Tel: +4021 230 6Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 207 540 7 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 1 58 90<br />
+Ísland 
+Alvogen ehf. 
+Sími: + 354 522 2Slovenská republika 
+Teva Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 2 5726 7 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028 917<br />
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 20 180 5 
+Κύπρος 
+Specifar A.B.E.E. 
+Ελλάδα 
+Τηλ: +30 211 880 5 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42 12 11<br />
+Latvija 
+UAB Teva Baltics filiāle Latvijā<br />
+Tel: +371 67 323<br />
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 207 540 7 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 5 266 02<br />
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: + 385 1 37 20  </p>
+<p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}. </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.   </p>
+<p>Indlægsseddel: Information til patienten </p>
+<p>BiResp Spiromax 320 mikrogram/9 mikrogram inhalationspulver 
+budesonid/formoterolfumaratdihydrat </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
+- Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
+- Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis en bivirkning bliver værre, 
+eller du får bivirkninger, som ikke er nævnt her. Se punkt. 4. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-581794a330b2afc7f7af3badc000c4a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for biresp Package Leaflet for language en"
+Description: "ePI document Bundle for biresp Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-581794a330b2afc7f7af3badc000c4a2"
+* entry[0].resource = composition-en-581794a330b2afc7f7af3badc000c4a2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp581794a330b2afc7f7af3badc000c4a2"
+* entry[=].resource = mp581794a330b2afc7f7af3badc000c4a2
+                            
+                    
+Instance: bundlepackageleaflet-da-581794a330b2afc7f7af3badc000c4a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for biresp Package Leaflet for language da"
+Description: "ePI document Bundle for biresp Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-581794a330b2afc7f7af3badc000c4a2"
+* entry[0].resource = composition-da-581794a330b2afc7f7af3badc000c4a2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp581794a330b2afc7f7af3badc000c4a2"
+* entry[=].resource = mp581794a330b2afc7f7af3badc000c4a2
+                            
+                    
+
+
+
+Instance: mp581794a330b2afc7f7af3badc000c4a2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product BiResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
-Description: "BiResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
+Title: "Medicinal Product biresp"
+Description: "biresp"
 Usage: #inline
 
  
@@ -535,7 +1367,7 @@ Usage: #inline
 
 
 * name
-  * productName = "BiResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
+  * productName = "biresp"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -562,29 +1394,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-581794a330b2afc7f7af3badc000c4a2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for biresp Package Leaflet for language en"
-Description: "ePI document Bundle for biresp Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 581794a330b2afc7f7af3badc000c4a2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/921/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "biresp"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-581794a330b2afc7f7af3badc000c4a2"
-* entry[0].resource = composition-en-581794a330b2afc7f7af3badc000c4a2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp31e4603f416f953b68e582fcd0f883f5"
-* entry[=].resource = mp31e4603f416f953b68e582fcd0f883f5
-                            
-                      
+* title = "List of all ePIs associated with biresp"
+
+* subject = Reference(mp31e4603f416f953b68e582fcd0f883f5)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#biresp "biresp"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-581794a330b2afc7f7af3badc000c4a2) // biresp en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-581794a330b2afc7f7af3badc000c4a2) // biresp da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-581794a330b2afc7f7af3badc000c4a2
+InstanceOf: List
+
+* insert 581794a330b2afc7f7af3badc000c4a2ListRuleset
+    

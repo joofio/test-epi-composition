@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-3a36f8c3c4c534a765e5e9ed08db5433
 InstanceOf: CompositionUvEpi
 Title: "Composition for okedi Package Leaflet"
@@ -637,12 +640,950 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: composition-da-3a36f8c3c4c534a765e5e9ed08db5433
+InstanceOf: CompositionUvEpi
+Title: "Composition for okedi Package Leaflet"
+Description:  "Composition for okedi Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf013f15effbfd2ee191c2708cdade335)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf013f15effbfd2ee191c2708cdade335
+* title = "TEST PURPOSES ONLY - okedi"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge OKEDI 
+3. Sådan skal du bruge OKEDI 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What okedi is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What okedi is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OKEDI indeholder det aktive stof risperidon, som tilhører den gruppe lægemidler, der hedder 
+"antipsykotika". </p>
+<p>OKEDI anvendes til behandling af voksne patienter med skizofreni, hvor patienten måske ser, hører 
+eller føler ting, som ikke er der i virkeligheden, tror ting, der ikke er sande, eller føler sig usædvanligt 
+mistroisk eller forvirret. </p>
+<p>OKEDI er beregnet til patienter, der har vist sig at kunne tåle og have gavn af oral risperidon (f.eks. i 
+tabletform). </p>
+<p>OKEDI kan være med til at lindre symptomerne på din sygdom og forhindre dem i at vende tilbage. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take okedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take okedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke OKEDI: </p>
+<ul>
+<li>hvis du er allergisk over for risperidon eller et af de øvrige indholdsstoffer i OKEDI (angivet i 
+afsnit 6). </li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før du bruger OKEDI: </p>
+<ul>
+<li>
+<p>Hvis du har hjerteproblemer. Det kan for eksempel være uregelmæssig hjerterytme, eller hvis du 
+har tendens til lavt blodtryk, eller hvis du tager blodtryksmedicin. OKEDI kan give lavt 
+blodtryk. Det kan være, at din dosis skal justeres </p>
+</li>
+<li>
+<p>Hvis du kender til en eller flere faktorer, som gør, at du er i risiko for at få et 
+slagtilfælde, som for eksempel forhøjet blodtryk, hjerte-kar-sygdom eller problemer 
+med blodkarrene i din hjerne </p>
+</li>
+<li>
+<p>Hvis du nogensinde har haft ufrivillige bevægelser af tungen, munden eller ansigtet </p>
+</li>
+<li>
+<p>Hvis du nogensinde har haft en tilstand med symptomer, der omfatter feber, muskelstivhed, 
+svedeture eller nedsat bevidsthedsniveau (også kaldet malignt neuroleptikasyndrom) </p>
+</li>
+<li>
+<p>Hvis du har Parkinsons sygdom </p>
+</li>
+<li>
+<p>Hvis du har demens </p>
+</li>
+<li>
+<p>Hvis du ved, at du tidligere har haft et lavt antal hvide blodlegemer (hvilket eventuelt kan 
+være forårsaget af andre lægemidler) </p>
+</li>
+<li>
+<p>Hvis du har diabetes </p>
+</li>
+<li>
+<p>Hvis du har epilepsi </p>
+</li>
+<li>
+<p>Hvis du er en mand og nogensinde har oplevet at have en langvarig eller smertefuld rejsning </p>
+</li>
+<li>
+<p>Hvis du har vanskeligt ved at kontrollere din kropstemperatur eller får hedeture </p>
+</li>
+<li>
+<p>Hvis du har nyreproblemer </p>
+</li>
+<li>
+<p>Hvis du har leverproblemer </p>
+</li>
+<li>
+<p>Hvis du har et unormalt højt indhold af hormonet prolaktin i blodet, eller hvis du har en 
+tumor, der muligvis er afhængig af prolaktin </p>
+</li>
+<li>
+<p>Hvis du eller en anden i din familie har haft blodpropper, da antipsykotika har været 
+sat i forbindelse med dannelse af blodpropper. </p>
+</li>
+</ul>
+<p>Hvis du ikke er sikker på, om en eller flere af ovenstående tilstande gælder for dig, skal du 
+tale med lægen eller apotekspersonalet, før du bruger oral risperidon eller OKEDI. </p>
+<p>Under behandlingen 
+Hos patienter, der behandles med risperidon, er der i meget sjældne tilfælde set et faretruende lavt 
+antal af en bestemt type hvide blodlegemer i blodet, som er nødvendig for bekæmpelse af infektioner. 
+Derfor vil lægen måske kontrollere antallene af dine hvide blodlegemer før og under behandlingen. </p>
+<p>Selv om du tidligere har kunnet tåle oral risperidon, kan der i sjældne tilfælde opstå en allergisk 
+reaktion efter indsprøjtning af OKEDI. Du skal straks søge lægehjælp, hvis du får udslæt, 
+hævelser i halsen, kløe eller besvær med at trække vejret, da det kan være tegn på en alvorlig 
+allergisk reaktion. </p>
+<p>OKEDI kan få din vægt til at stige. En væsentlig vægtstigning kan være skadelig for dit helbred. 
+Din læge bør veje dig regelmæssigt.  </p>
+<p>Der er set diabetes mellitus eller forværring af eksisterende diabetes mellitus hos patienter, der 
+får OKEDI. Lægen bør derfor teste dit blod for tegn på forhøjet blodsukker. Patienter, der 
+allerede har diabetes mellitus, skal have kontrolleret deres blodsukker regelmæssigt. </p>
+<p>Det er almindeligt, at OKEDI øger blodets indhold af et hormon, der kaldes "prolaktin". Det kan give 
+bivirkninger, såsom menstruationsforstyrrelser eller fertilitetsproblemer hos kvinder eller 
+brystforstørrelse hos mænd (se afsnit 4. Bivirkninger). Hvis du får den type bivirkninger, anbefales 
+det, at du får undersøgt indholdet af prolaktin i blodet.  </p>
+<p>Under operation i øjet for uklarhed i linsen (grå stær) kan der opstå problemer, som kan medføre 
+øjenskade. Hvis du planlægger at blive opereret i øjet, skal du sørge for at informere øjenlægen om, 
+at du bruger dette lægemiddel. </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke gives til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med OKEDI 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Det er især vigtigt at fortælle det til lægen eller apotekspersonalet, hvis du tager et eller flere af 
+følgende </p>
+<ul>
+<li>
+<p>Medicin, som virker i hjernen, for eksempel for at hjælpe dig med at slappe af 
+(benzodiazepiner), eller visse smertestillende midler (opiater), midler mod allergi (visse 
+antihistaminer), da OKEDI kan øge den sløvende virkning af disse midler. </p>
+</li>
+<li>
+<p>Medicin, som kan ændre hjertets elektriske aktivitet, som for eksempel midler mod malaria, 
+hjerterytmeproblemer, allergi (antihistaminer), visse midler mod depression eller andre 
+lægemidler mod psykiske problemer. </p>
+</li>
+<li>
+<p>Medicin, som sænker hjerterytmen. </p>
+</li>
+<li>
+<p>Medicin, som sænker blodets indhold af kalium (for eksempel visse vanddrivende midler). </p>
+</li>
+<li>
+<p>Medicin mod forhøjet blodtryk. OKEDI kan sænke blodtrykket. </p>
+</li>
+<li>
+<p>Medicin mod Parkinsons sygdom (for eksempel levodopa). </p>
+</li>
+<li>
+<p>Medicin, som øger aktiviteten i centralnervesystemet (psykostimulantia, for eksempel 
+methylphenidat). </p>
+</li>
+<li>
+<p>Vanddrivende midler (diuretika), som anvendes mod hjerteproblemer eller hævelser i dele af 
+kroppen på grund af væskeansamlinger (for eksempel furosemid eller chlorthiazid). OKEDI 
+anvendt alene eller sammen med furosemid kan øge risikoen for slagtilfælde eller død hos 
+ældre med demens. </p>
+</li>
+</ul>
+<p>Følgende lægemidler kan nedsætte virkningen af risperidon </p>
+<ul>
+<li>
+<p>Rifampicin (et middel til behandling af visse infektioner) </p>
+</li>
+<li>
+<p>Carbamazepin, phenytoin (midler mod epilepsi) </p>
+</li>
+<li>
+<p>Phenobarbital. </p>
+</li>
+</ul>
+<p>Hvis du begynder eller holder op med at tage disse lægemidler, skal du muligvis have en anden dosis 
+risperidon. </p>
+<p>Følgende lægemidler kan øge virkningen af risperidon </p>
+<ul>
+<li>
+<p>Quinidin (bruges til behandling af forskellige typer hjertesygdomme) </p>
+</li>
+<li>
+<p>Medicin mod depression (for eksempel paroxetin, fluoxetin, tricykliske antidepressiva) </p>
+</li>
+<li>
+<p>Medicin, der kaldes betablokkere (bruges til behandling af højt blodtryk) </p>
+</li>
+<li>
+<p>Phenothiaziner (for eksempel midler til behandling af psykose eller beroligende midler) </p>
+</li>
+<li>
+<p>Cimetidin, ranitidin (blokerer syreproduktionen i maven) </p>
+</li>
+<li>
+<p>Itraconazol og ketoconazol (lægemidler til behandling af svampeinfektioner) </p>
+</li>
+<li>
+<p>Visse lægemidler, der anvendes til behandling af HIV/AIDS, som for eksempel ritonavir </p>
+</li>
+<li>
+<p>Verapamil, et lægemiddel, der anvendes til behandling af højt blodtryk og/eller unormal 
+hjerterytme </p>
+</li>
+<li>
+<p>Sertralin og fluvoxamin, lægemidler, der anvendes til behandling af depression og andre 
+psykiske lidelser. </p>
+</li>
+</ul>
+<p>Hvis du begynder eller holder op med at tage disse lægemidler, skal du muligvis have en anden dosis 
+risperidon. </p>
+<p>Hvis du ikke er sikker på, om et eller flere af ovenstående forhold gælder for dig, skal du tale 
+med lægen eller apotekspersonalet, før du bruger OKEDI. </p>
+<p>Brug af OKEDI sammen med mad, drikke og alkohol 
+Du skal undgå at drikke alkohol, mens du får OKEDI. </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<ul>
+<li>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. 
+Din læge vil afgøre, om du kan bruge det. </p>
+</li>
+<li>
+<p>Følgende symptomer kan forekomme hos nyfødte, hvis mødre har brugt risperidon i sidste 
+trimester (de sidste tre måneder af graviditeten): rystelser, muskelstivhed og/eller -svaghed, 
+søvnighed, uro, vejrtrækningsbesvær og besvær med at spise. Hvis din baby får et eller flere af 
+disse symptomer, skal du kontakte din læge. </p>
+</li>
+<li>
+<p>OKEDI kan forhøje blodets indhold af et hormon, der hedder "prolaktin", som kan påvirke 
+frugtbarheden (se afsnit 4. Bivirkninger). </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Behandling med OKEDI kan give svimmelhed, træthed og synsproblemer. Du må ikke føre 
+motorkøretøj eller betjene maskiner uden først at tale med din læge. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take okedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take okedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sundhedspersonen vil give dig OKEDI som en indsprøjtning i musklen enten i overarmen eller 
+balden hver 28. dag. Indsprøjtningerne skal gives skiftevis i højre og venstre side. </p>
+<p>Den anbefalede dosis er 75 mg hver 28. dag, men en højere dosis på 100 mg hver 28. dag kan være 
+nødvendig. Lægen vil afgøre, hvilken dosis OKEDI, der er den rigtige for dig. </p>
+<p>Hvis du er i behandling med andre antipsykotika end risperidon, men har taget risperidon tidligere, 
+skal du begynde at tage oral risperidon mindst 6 dage før, du begynder at få behandling med OKEDI. </p>
+<p>Hvis du aldrig har fået nogen form af risperidon før, skal du begynde at tage oral risperidon mindst 
+14 dage før, du begynder at få behandling med OKEDI. Din læge vil afgøre, hvor længe du skal tage 
+oral risperidon. </p>
+<p>Hvis du har nyreproblemer 
+OKEDI bør ikke anvendes til patienter med moderat til svært nedsat nyrefunktion. </p>
+<p>Hvis du har fået for meget OKEDI </p>
+<ul>
+<li>
+<p>Søg straks læge. </p>
+</li>
+<li>
+<p>Symptomer på overdosering kan være døsighed, træthed, unormale kropsbevægelser, 
+problemer med at stå og gå, svimmelhed på grund af lavt blodtryk eller unormal 
+hjerterytme eller krampeanfald. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at bruge OKEDI 
+Du vil miste medicinens virkning. Du bør ikke holde op med at bruge denne medicin, medmindre du 
+får besked på det af lægen, da dine symptomer kan vende tilbage. </p>
+<p>Det er vigtigt, at du møder op for at få den aftalte indsprøjtning med dette lægemiddel hver 28. dag. 
+Kontakt straks lægen, hvis du er forhindret i at møde til den aftalte tid, så I kan finde en anden tid, 
+hvor du kan få din indsprøjtning. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Kontakt straks en læge, eller tag til nærmeste akutmodtagelse, hvis du oplever følgende ikke 
+almindelige bivirkning (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>Oplever trækninger og ryk, som du ikke kan kontrollere, i ansigtet, tungen eller andre dele af 
+kroppen (tardiv dyskinesi). </li>
+</ul>
+<p>Kontakt straks en læge, eller tag til nærmeste akutmodtagelse, hvis du oplever en eller flere af 
+følgende sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>
+<p>Oplever blodpropper i venerne, særligt i benene (med symptomer som hævelse, smerte og 
+rødme på benet). De kan føres via blodkarene til lungerne, hvor de kan forårsage brystsmerter 
+og åndedrætsbesvær. </p>
+</li>
+<li>
+<p>Får feber, muskelstivhed, svedeture eller nedsat bevidsthedsniveau (en tilstand, der kaldes 
+"malignt neuroleptikasyndrom"). </p>
+</li>
+<li>
+<p>Er en mand og oplever en langvarig eller smertefuld rejsning. Dette kaldes priapisme. </p>
+</li>
+<li>
+<p>Får en kraftig allergisk reaktion, der er kendetegnet ved feber, hævelse af mund, ansigt, 
+læber eller tunge, åndenød, kløe, hududslæt eller blodtryksfald (anafylaktisk reaktion eller 
+angioødem). Selv om du tidligere har kunnet tåle oral risperidon, kan der i sjældne tilfælde 
+opstå en allergisk reaktion efter indsprøjtning af OKEDI. </p>
+</li>
+<li>
+<p>Har mørkerød eller brun urin eller tisser markant mindre og samtidig har muskelsvaghed 
+eller besvær med at bevæge arme og ben. Det kan være tegn på rhabdomyolyse (en tilstand, 
+hvor musklerne hurtigt tager skade). </p>
+</li>
+<li>
+<p>Føler dig svag eller svimmel, har feber, kuldegysninger eller sår i munden. Det kan være 
+tegn på et meget lavt antal af granulocytter (en type hvide blodlegemer, der hjælper dig med 
+at bekæmpe infektioner). </p>
+</li>
+</ul>
+<p>Følgende andre bivirkninger kan også forekomme: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Problemer med at falde i søvn eller sove igennem </p>
+</li>
+<li>
+<p>Parkinsonisme: bevægelsesproblemer, for eksempel langsomme eller besværede 
+bevægelser, en fornemmelse af stive eller stramme muskler og indimellem endda en 
+fornemmelse af, at bevægelserne "fryser" og så kommer i gang igen. Andre tegn er en 
+langsom, slæbende gang, skælven i hvile, øget spytdannelse og/eller savlen og 
+udtryksløshed i ansigtet </p>
+</li>
+<li>
+<p>Hovedpine. </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer): </p>
+<ul>
+<li>
+<p>Lungebetændelse, bronkitis, bihulebetændelse, urinvejsinfektion, øreinfektion, influenza, 
+influenzalignende symptomer, ondt i halsen, hoste, tilstoppet næse, feber, øjenbetændelse </p>
+</li>
+<li>
+<p>Forhøjede niveauer af et hormon, der hedder "prolaktin", i en blodprøve. Symptomer på 
+forhøjet prolaktin er ikke almindelige og kan hos mænd omfatte brystforstørrelse, besvær 
+med at få eller opretholde rejsning, nedsat sexlyst. Hos kvinder kan de omfatte udskillelse 
+af mælk fra brysterne, menstruationsforstyrrelser, udeblevne menstruationer, manglende 
+ægløsning, fertilitetsproblemer </p>
+</li>
+<li>
+<p>Vægtstigning, øget eller nedsat appetit </p>
+</li>
+<li>
+<p>Søvnforstyrrelser, irritabilitet, depression, angst, føler dig søvnig eller mindre opmærksom </p>
+</li>
+<li>
+<p>Dystoni (ufrivillig sammentrækning af muskler, der forårsager langsomme, gentagne 
+bevægelser eller en unormal holdning), dyskinesi (en anden tilstand, der giver ufrivillige 
+muskelbevægelser, herunder gentagne, spastiske eller vridende bevægelser eller 
+trækninger) </p>
+</li>
+<li>
+<p>Tremor (rysten), muskelkramper, knogle- eller muskelsmerter, rygsmerter, ledsmerter, 
+faldtendens </p>
+</li>
+<li>
+<p>Sløret syn </p>
+</li>
+<li>
+<p>Urininkontinens (ufrivillig vandladning) </p>
+</li>
+<li>
+<p>Hurtig puls, højt blodtryk, kortåndethed </p>
+</li>
+<li>
+<p>Mavepine, ubehag i maven, opkastning, kvalme, svimmelhed, forstoppelse, diarré, 
+fordøjelsesbesvær, mundtørhed, tandpine </p>
+</li>
+<li>
+<p>Udslæt, hudrødme, reaktion på injektionsstedet (herunder ubehag, smerte, rødme eller 
+hævelse), hævelse af kroppen, armene eller benene, brystsmerter, mangel på energi og 
+kræfter, træthed, smerter.  </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer): </p>
+<ul>
+<li>
+<p>Blærebetændelse, halsbetændelse, neglesvamp, infektion i hudens dybere lag, virusinfektion, 
+betændelse i huden som skyldes mider </p>
+</li>
+<li>
+<p>Fald eller stigning i antallet af hvide blodlegemer, fald i antallet af blodplader (blodlegemer, der 
+medvirker til at standse blødninger), anæmi eller nedsat hæmatokrit (fald i antallet af røde 
+blodlegemer), forhøjet mængde af enzymet kreatinin-fosfokinase i blodet, forhøjede 
+leverenzymer i blodet </p>
+</li>
+<li>
+<p>Lavt blodtryk, blodtryksfald, når man rejser sig op, rødme, blodmangel i hjernen (iskæmi) </p>
+</li>
+<li>
+<p>Diabetes, forhøjet blodsukker, indtagelse af store mængder vand, forhøjet kolesterol i blodet, 
+vægttab, anoreksi, højt niveau af triglycerider (fedt) i blodet </p>
+</li>
+<li>
+<p>Opstemthed (mani), forvirring, nedsat kønsdrift, nervøsitet, mareridt </p>
+</li>
+<li>
+<p>Besvimelse, krampeanfald, rundtossethed (vertigo), tinnitus, ørepine </p>
+</li>
+<li>
+<p>En rastløs trang til at holde dele af kroppen i bevægelse, balanceforstyrrelse, 
+koordinationsproblem, opmærksomhedsforstyrrelse, taleforstyrrelse, nedsat eller unormal 
+smagssans, nedsat følesans på huden for smerter og berøring, prikkende, snurrende 
+fornemmelser eller følelsesløshed på huden </p>
+</li>
+<li>
+<p>Uregelmæssig og ofte hurtig puls, langsom puls, unormalt elektrokardiogram (test, der måler 
+hjertets elektriske aktivitet), palpitationer (en flagrende eller bankende fornemmelse i brystet), 
+afbrydelse af ledningen mellem hjertets øverste og nederste del </p>
+</li>
+<li>
+<p>Tilstopning af luftvejene, hvæsende vejrtrækning (grove/fløjtende lyde under vejrtrækning), 
+næseblod </p>
+</li>
+<li>
+<p>Unormal kropsholdning, stive led, hævede led, muskelsvaghed, nakkesmerter, unormal gang, 
+tørst, utilpashed, ubehag i brystet eller generelt ubehag, følelse af at være "ved siden af sig selv" </p>
+</li>
+<li>
+<p>Mave- eller tarminfektion eller -irritation, afføringsinkontinens, synkebesvær, uforholdsmæssigt 
+meget tarmluft, hyppig vandladning, manglende evne til at lade vandet, smerte ved vandladning </p>
+</li>
+<li>
+<p>Ophør af menstruationer eller andre menstruationsforstyrrelser, udsivning af mælk fra brysterne, 
+seksuel dysfunktion, smerter eller ubehag i brysterne, udflåd fra skeden, rejsningsbesvær, 
+forstyrrelser af sædafgang, udvikling af bryster hos mænd </p>
+</li>
+<li>
+<p>Nældefeber, fortykkelse af huden, hudsygdom, intens hudkløe, hårtab, eksem (betændte, 
+kløende, revnede eller ru områder på huden), tør hud, misfarvning af huden, akne, seboroisk 
+dermatitis (rød, skællet, fedtet, kløende og betændt hud), hudlæsion </p>
+</li>
+<li>
+<p>Øjne, der er overfølsomme over for lys, tørre øjne, øget tåredannelse </p>
+</li>
+<li>
+<p>Allergisk reaktion, kuldegysninger. </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer): </p>
+<ul>
+<li>
+<p>Infektion </p>
+</li>
+<li>
+<p>Uhensigtsmæssig udskillelse af et hormon, der kontrollerer urinmængden, farligt overdreven 
+indtagelse af vand, for meget sukker i urinen, lavt blodsukker, stigning i mængden af insulin (et 
+hormon, der kontrollerer blodsukkeret) i blodet </p>
+</li>
+<li>
+<p>Manglende respons på stimuli, katatoni (ubevægelighed eller manglende respons i vågen 
+tilstand), lavt bevidsthedsniveau, søvngængeri, søvnrelateret spiseforstyrrelse, åndenød under 
+søvn (søvnapnø), hurtig overfladisk vejrtrækning, lungeinfektion som følge af indånding af mad 
+i luftvejene, lungetilstopning, luftvejssygdom, stemmeforandring, knitrende lungelyde, 
+følelsesmæssig affladning, manglende evne til at opnå orgasme </p>
+</li>
+<li>
+<p>Problemer med blodkarrene i hjernen, koma som følge af ukontrolleret diabetes, ufrivillig 
+hovedrysten </p>
+</li>
+<li>
+<p>Grøn stær (forhøjet tryk i øjet), problemer med bevægelse af øjnene, rullen med øjnene, 
+skorpedannelse/betændelse i kanten af øjenlågene, øjenproblemer under operation for grå stær </p>
+</li>
+<li>
+<p>Betændelse i bugspytkirtlen, blokering af tarmene </p>
+</li>
+<li>
+<p>Hævet tunge, tørre læber, skæl, gulsot (gulfarvning af huden og øjnene), hård hud </p>
+</li>
+<li>
+<p>Brystforstørrelse, brystspænding (hårde, hævede, smertefulde bryster som følge af for stor 
+mælkeproduktion) </p>
+</li>
+<li>
+<p>Nedsat kropstemperatur, kuldefornemmelse i arme og ben </p>
+</li>
+<li>
+<p>Abstinenssymptomer (også hos nyfødte). </p>
+</li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10.000 personer): </p>
+<ul>
+<li>
+<p>Livstruende komplikationer ved ukontrolleret diabetes </p>
+</li>
+<li>
+<p>Manglende bevægelse af tarmmuskulaturen, som forårsager blokering. </p>
+</li>
+</ul>
+<p>Ikke kendt: hyppigheden kan ikke fastslås ud fra forhåndenværende data </p>
+<ul>
+<li>alvorligt eller livstruende udslæt med blærer og afskalning af huden, som kan begynde i og 
+omkring munden, næsen, øjnene og kønsdelene og sprede sig til andre dele af kroppen (Stevens-
+Johnsons syndrom eller toksisk epidermal nekrolyse). 
+Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store okedi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store okedi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, aluminiumsposerne eller 
+sprøjteetiketterne efter (EXP). Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares ved temperaturer under 30 °C. Opbevares i den originale yderpakning for at beskytte mod 
+fugt. </p>
+<p>OKEDI skal anvendes straks efter rekonstitution. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OKEDI indeholder: 
+Aktivt stof: risperidon. 
+Kun injektionssprøjten med pulver indeholder det aktive stof. Efter rekonstitution er den tilførte 
+mængde risperidon 75 mg. </p>
+<p>Øvrige indholdsstoffer: 
+Fyldt injektionssprøjte med pulver: poly-(D,L-lactid-co-glycolid). 
+Fyldt injektionssprøjte med solvens: Dimethylsulfoxid. </p>
+<p>Udseende og pakningsstørrelser 
+Hver kit-æske med OKEDI pulver og solvens til depotinjektionsvæske, suspension indeholder: 
+• En aluminiumspose med én fyldt injektionssprøjte, der indeholder pulver (det aktive stof, 
+risperidon, er indholdt i dette pulver), og et brev med silicagel som tørremiddel. Pulveret er hvidt til 
+hvidgulligt, ikke-aggregeret. 
+• En aluminiumspose med én fyldt injektionssprøjte, der indeholder solvens, og et brev med silicagel 
+som tørremiddel. Den fyldte injektionssprøjte med solvens indeholder en klar opløsning og har en 
+RØD fingerflange. 
+• Én steril kanyle til i.m. injektion på 2 tommer (0,90 x 51 mm [20 G]) med sikkerhedsafskærmning til 
+administration i glutealmusklen. 
+• Én steril kanyle til i.m. injektion på 1 tomme (0,80 x 25 mm [21 G]) med sikkerhedsafskærmning til 
+administration i deltamusklen. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Espagne/Spanje 
+Tel: +34 91 375 62 Lietuva 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Ispanija 
+Tel: +34 91 375 62<br />
+България 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Испания 
+Teл.: +34 91 375 62 <br />
+Luxembourg/Luxemburg 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Espagne/Spanien 
+Tel: +34 91 375 62<br />
+Česká republika 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Španělsko 
+Tel: +34 91 375 62<br />
+Magyarország 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanyolország 
+Tel: +34 91 375 62<br />
+Danmark 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanien 
+Tlf: +34 91 375 62<br />
+Malta 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanja 
+Tel: +34 91 375 62<br />
+Deutschland 
+Rovi GmbH 
+Rudolf-Diesel-Ring 6 
+83607 Holzkirchen 
+Tel: +49 8024 4782Nederland 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanje 
+Tel: +34 91 375 62<br />
+Eesti 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Hispaania 
+Tel: +34 91 375 62<br />
+Norge 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spania 
+Tlf: +34 91 375 62<br />
+Ελλάδα 
+BIANEΞ Α.Ε. 
+Οδός Βαρυμπόμπης 8, 
+14671 Ν. Ερυθραία, Κηφισιά 
+Tηλ. 210 8009 
+Österreich 
+Rovi GmbH 
+Rudolf-Diesel-Ring 6 
+83607 Holzkirchen 
+Deutschland 
+Tel: +43 664 1340 
+España 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Tel: +34 91 375 62 Polska 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Hiszpania 
+Tel: +34 91 375 62<br />
+France 
+ROVI 
+24, Rue Du Drac 
+38180 Seyssins 
+Tél: +33 (0)4 76 968 Portugal 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Espanha 
+Tel: +34 91 375 62<br />
+Hrvatska 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Španija 
+Tel: +34 91 375 62<br />
+Ireland 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanien 
+Tel: +34 91 375 62<br />
+România 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spania 
+Tel: +34 91 375 62<br />
+Slovenija 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Španija 
+Tel: +34 91 375 62<br />
+Ísland 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spánn 
+Sími: +34 91 375 62 Slovenská republika 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Španielsko 
+Tel: +34 91 375 62<br />
+Italia 
+Rovi Biotech, S.R.L. 
+Viale Achille Papa, 20149 Milano 
+Tel: +39 02 366 877<br />
+Suomi/Finland 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Espanja/Spanien 
+Puh/Tel: +34 91 375 62<br />
+Κύπρος 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Ισπανία 
+Τηλ: +34 91 375 62<br />
+Sverige 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spanien 
+Tel: +34 91 375 62<br />
+Latvija 
+Laboratorios Farmacéuticos Rovi, S.A. 
+Julián Camarillo, 28037 Madrid 
+Spānija 
+Tel: +34 91 375 62<br />
+United Kingdom (Northern Ireland) 
+Rovi Biotech Limited 
+Davis House 4th Floor Suite Robert Street Croydon CR0 1QQ - UK 
+Tel: + 44 (0) 203 642 06<br />
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. 
+Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>ANVISNINGER TIL SUNDHEDSPERSONER </p>
+<p>OKEDI 75 mg pulver og solvens til depotinjektionsvæske, suspension </p>
+<p>Vigtige oplysninger 
+For at sikre korrekt administration af OKEDI er det vigtigt at følge vejledningen nøje trin for trin. </p>
+<p>Brug de medfølgende komponenter 
+Komponenterne i kit-æsken er specifikt designet til anvendelse med OKEDI. 
+OKEDI må kun rekonstitueres med den solvens, der medfølger i kit-æsken. </p>
+<p>Der må ikke anvendes NOGEN SOM HELST andre komponenter end dem i kit-æsken. </p>
+<p>Dosen skal administreres straks efter rekonstitution. Kun til intramuskulær anvendelse efter 
+rekonstitution. </p>
+<p>Korrekt dosering 
+Hele indholdet af den rekonstituerede injektionssprøjte skal administreres for at sikre, at patienten får 
+den tilsigtede dosis OKEDI. </p>
+<p>Kun til engangsbrug </p>
+<ol>
+<li>TJEK INDHOLDET </li>
+</ol>
+<p>Åbn poserne på en ren overflade, og kassér brevet med tørremiddel. </p>
+<p>Kit-æsken med OKEDI indeholder: </p>
+<p>• Én aluminiumsfoliepose med en OKEDI fyldt injektionssprøjte med en HVID stempelstang og 
+HVID fingerflange. Injektionssprøjten er mærket med 
+. 
+• Én aluminiumsfoliepose med SOLVENS til OKEDI fyldt injektionssprøjte med en TRANSPARENT 
+stempelstang og RØD fingerflange. Injektionssprøjten er mærket med 
+. 
+•To administrationskanyler (en 21 G, 1 tomme til deltamusklen [grøn hætte] og en 20 G, 2 tommer til 
+glutealmusklen [gul hætte]). </p>
+<p>Kittet skal kasseres, hvis en eller flere af komponenterne er beskadiget. </p>
+<p>Hvis der observeres fremmed partikulært materiale og/eller afvigende fysisk udseende, må OKEDI 
+ikke administreres. </p>
+<p>1.1 Inspicér injektionssprøjten med solvens </p>
+<p>KONTROLLÉR, at indholdet i injektionssprøjten med SOLVENS flyder normalt som en væske. </p>
+<p>Solvensen fryser under 19 ºC. 
+Hvis den er frosset eller delvis frosset, skal den optøs mellem hænderne eller ved stuetemperatur, 
+indtilden flyder normalt som en væske, før der fortsættes. </p>
+<p>1.2 Løsn pulver i injektionssprøjten med pulver </p>
+<p>BANK på OKEDI injektionssprøjten for at løsne eventuelt pakket pulver ved hætten. </p>
+<ol>
+<li>SÆT INJEKTIONSSPRØJTERNE SAMMEN </li>
+</ol>
+<p>2.1 Hold injektionssprøjterne opret, og tag hætterne af dem </p>
+<p>Hold begge injektionssprøjter opret for at undgå tab af produkt. </p>
+<p>TRÆK hætten af injektionssprøjten med solvens. </p>
+<p>SKRU og TRÆK hætten af injektionssprøjten med pulver. </p>
+<p>2.2 Sæt de to injektionssprøjter sammen </p>
+<p>Tag solvenssprøjten S med den farvede fingerflange, og anbring den OVEN PÅ pulversprøjten R eller 
+en smule på skrå, når du sætter dem sammen. 
+SKRU sprøjterne sammen, indtil du mærker en let modstand. </p>
+<p>Sørg for at holde pulversprøjten R opret for at undgå tab af produkt. </p>
+<ol>
+<li>BLAND DE TO SPRØJTERS INHOLD </li>
+</ol>
+<p>STOP OP, OG LÆS DETTE AFSNIT, FØR DU BEGYNDER, FOR AT SIKRE, AT 
+MEDICINEN REKONSTITUERES KORREKT. </p>
+<ul>
+<li>
+<p>Tryk MED ET HÅRDT TRYK solvensindholdet mod pulversprøjten. </p>
+</li>
+<li>
+<p>VENT IKKE på, at pulveret vædes, og begynd STRAKS at blande de to sprøjters indhold 
+ved HURTIGT og skiftevis at trykke de to stempler ind 100 gange (2 tryk inden for 1 sekund, 
+ca. 1 minut). </p>
+</li>
+<li>
+<p>SØRG FOR, at medicinen bevæger sig fra sprøjte til sprøjte, så den blandes korrekt: 
+Medicinen er viskøs, og du skal lægge kræfter i, når du trykker stemplerne ind. </p>
+</li>
+</ul>
+<p>Bland ved at trykke mindst 100 gange ved skiftevis at gøre </p>
+<p>Sørg for, at medicinen bevæger sig fra sprøjte til sprøjte </p>
+<p>Når medicinen er blandet korrekt, vil den fremstå som en ensartet suspension med en hvid til gullig 
+farve og en tyktflydende konsistens. </p>
+<p>Efter rekonstitution skal du straks gå videre og klargøre injektionssprøjten til administration 
+for at undgå, at medicinen mister sin homogenitet. </p>
+<ol>
+<li>KLARGØR INJEKTIONSSPRØJTEN </li>
+</ol>
+<p>4.1 Overfør medicinen </p>
+<p>Tryk stemplet på R ind, så alt indholdet overføres til injektionssprøjten S, som er den med den 
+farvede fingerflange. </p>
+<p>Sørg for at overføre alt indholdet. </p>
+<p>4.2 Skil sprøjterne ad </p>
+<p>Når al medicinen er overført, skilles de to sprøjter ad ved at skrue dem fra hinanden. </p>
+<p>OKEDI skal administreres straks for at undgå tab af homogenitet. </p>
+<p>4.3 Påsæt den sterile kanyle med sikkerhedsafskærmning </p>
+<p>Vælg den korrekte kanyle: </p>
+<p>• Deltamuskel: 21 G, 1 tomme til deltamuskel (grøn hætte). 
+• Glutealmuskel: 20 G, 2 tommer til glutealmuskel (gul hætte). </p>
+<p>Sæt den på ved at dreje med uret. Stram ikke for hårdt. </p>
+<p>4.4 Fjern overskydende luft </p>
+<p>Fjern kanylehætten, og tryk overskydende luft ud (kun store bobler) af sprøjtecylinderen. </p>
+<p>Der MÅ IKKE trykkes medicindråber ud </p>
+<p>Hvis der ses medicin ved kanylespidsen, skal du trække stemplet lidt tilbage for at undgå, at medicinen 
+spildes. </p>
+<ol>
+<li>ADMINISTRÉR OG BORTSKAF </li>
+</ol>
+<p>5.1 Injicér medicinen </p>
+<p>Tryk kanylen helt ind i musklen. MEDICINEN MÅ IKKE INJICERES AD NOGEN SOM 
+HELST ANDEN VEJ. </p>
+<p>MEDICINEN ER TYKTFLYDENDE, SKAL INJICERES LANGSOMT OG JÆVNT. SØRG 
+FOR AT INJICERE DET HELE. </p>
+<ul>
+<li>
+<p>Injektionstiden er længere end normalt på grund af medicinens viskositet. </p>
+</li>
+<li>
+<p>Vent i nogle sekunder, før du fjerner kanylen. </p>
+</li>
+<li>
+<p>Undgå utilsigtet injektion i et blodkar. 
+5.2 Bortskaf medicinen </p>
+</li>
+</ul>
+<p>Tildæk kanylen ved at trykke på kanylebeskytteren med en finger eller en plan overflade, og bortskaf 
+den straks i en affaldsbeholder til skarpe genstande. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>OKEDI 100 mg pulver og solvens til depotinjektionsvæske, suspension 
+risperidon </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. </p>
+<ul>
+<li>
+<p>Gem indlægssedlen. Du kan få brug for at læse den igen. </p>
+</li>
+<li>
+<p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. </p>
+</li>
+<li>
+<p>Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </p>
+</li>
+<li>
+<p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
+</li>
+</ul>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-3a36f8c3c4c534a765e5e9ed08db5433
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for okedi Package Leaflet for language en"
+Description: "ePI document Bundle for okedi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3a36f8c3c4c534a765e5e9ed08db5433"
+* entry[0].resource = composition-en-3a36f8c3c4c534a765e5e9ed08db5433
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3a36f8c3c4c534a765e5e9ed08db5433"
+* entry[=].resource = mp3a36f8c3c4c534a765e5e9ed08db5433
+                            
+                    
+Instance: bundlepackageleaflet-da-3a36f8c3c4c534a765e5e9ed08db5433
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for okedi Package Leaflet for language da"
+Description: "ePI document Bundle for okedi Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-3a36f8c3c4c534a765e5e9ed08db5433"
+* entry[0].resource = composition-da-3a36f8c3c4c534a765e5e9ed08db5433
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3a36f8c3c4c534a765e5e9ed08db5433"
+* entry[=].resource = mp3a36f8c3c4c534a765e5e9ed08db5433
+                            
+                    
+
+
+
+Instance: mp3a36f8c3c4c534a765e5e9ed08db5433
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
-Description: "OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
+Title: "Medicinal Product okedi"
+Description: "okedi"
 Usage: #inline
 
  
@@ -662,7 +1603,7 @@ Usage: #inline
 
 
 * name
-  * productName = "OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
+  * productName = "okedi"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -689,29 +1630,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-3a36f8c3c4c534a765e5e9ed08db5433
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for okedi Package Leaflet for language en"
-Description: "ePI document Bundle for okedi Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 3a36f8c3c4c534a765e5e9ed08db5433ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "okedi"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-3a36f8c3c4c534a765e5e9ed08db5433"
-* entry[0].resource = composition-en-3a36f8c3c4c534a765e5e9ed08db5433
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf013f15effbfd2ee191c2708cdade335"
-* entry[=].resource = mpf013f15effbfd2ee191c2708cdade335
-                            
-                      
+* title = "List of all ePIs associated with okedi"
+
+* subject = Reference(mpf013f15effbfd2ee191c2708cdade335)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#okedi "okedi"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-3a36f8c3c4c534a765e5e9ed08db5433) // okedi en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-3a36f8c3c4c534a765e5e9ed08db5433) // okedi da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-3a36f8c3c4c534a765e5e9ed08db5433
+InstanceOf: List
+
+* insert 3a36f8c3c4c534a765e5e9ed08db5433ListRuleset
+    

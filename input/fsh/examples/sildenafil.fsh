@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d674db7613c7ef04137ad9c28d3399bb
 InstanceOf: CompositionUvEpi
 Title: "Composition for sildenafil Package Leaflet"
@@ -376,12 +379,500 @@ Tel: +44 2075407This leaflet was last revised in </p>
 
 
 
+Instance: composition-da-d674db7613c7ef04137ad9c28d3399bb
+InstanceOf: CompositionUvEpi
+Title: "Composition for sildenafil Package Leaflet"
+Description:  "Composition for sildenafil Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp490f08e16bcbd01fee73abe8db7a8a5a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp490f08e16bcbd01fee73abe8db7a8a5a
+* title = "TEST PURPOSES ONLY - sildenafil"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Sildenafil Teva 
+3. Sådan skal du tage Sildenafil Teva 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What sildenafil is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What sildenafil is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sildenafil Teva indeholder det aktive stof sildenafil, der tilhører en gruppe medicin, som kaldes 
+fosfodiesterase type 5 (PDE5)-hæmmere. Det afslapper blodkarrene i penis og tillader blodet at 
+strømme ind i penis ved seksuel stimulation. Sildenafil Teva vil kun hjælpe dig med at få en erektion, 
+hvis du bliver seksuelt stimuleret.  </p>
+<p>Sildenafil Teva er til behandling af voksne mænd med erektil dysfunktion, af og til kendt som 
+impotens, hvilket er manglende evne til at opnå og/eller opretholde erektion tilstrækkelig til at 
+gennemføre tilfredsstillende seksuel aktivitet. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take sildenafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take sildenafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Sildenafil Teva </p>
+<ul>
+<li>
+<p>Hvis du er allergisk over for sildenafil eller et af de øvrige indholdsstoffer Sildenafil Teva 
+(angivet i punkt 6). </p>
+</li>
+<li>
+<p>Hvis du tager medicin, som kaldes nitrater, da samtidig brug kan medføre potentielt farligt 
+ blodtryksfald. Fortæl det til lægen, hvis du tager denne type medicin, der bruges til at lindre 
+angina pectoris (eller smerter i brystet). Er du usikker, så spørg lægen eller apotekspersonalet. </p>
+</li>
+<li>
+<p>Hvis du bruger præparater, som kaldes nitrogenoxiddonorer som amylnitrit (“poppers"), da 
+samtidig brug også kan medføre potentielt farligt blodtryksfald. </p>
+</li>
+<li>
+<p>Hvis du tager riociguat. Dette lægemiddel bruges til at behandle pulmonal arteriel 
+hypertension (højt blodtryk i lungerne) og kronisk tromboembolisk pulmonal hypertension 
+(højt blodtryk i lungerne som følge af blodpropper). PDE5-hæmmere, så som sildenafil, har 
+vist sig at øge den blodtrykssænkende virkning af denne medicin. Tal med din læge hvis du 
+tager riociguat eller er usikker. </p>
+</li>
+<li>
+<p>Hvis du har alvorlige hjerte- eller leverproblemer. </p>
+</li>
+<li>
+<p>Hvis du for nyligt har haft slagtilfælde eller hjerteanfald, eller hvis du har lavt blodtryk. </p>
+</li>
+<li>
+<p>Hvis du har visse alvorlige arvelige øjensygdomme (som retinitis pigmentosa). </p>
+</li>
+<li>
+<p>Hvis du på noget tidspunkt tidligere har haft tab af synet på grund af non-arteritis anterior 
+iskæmisk opticusneuropati (NAION). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler  </p>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Sildenafil Teva 
+- Hvis du har en abnormitet af de røde blodlegemer (seglcelleanæmi), blodkræft (leukæmi), 
+knoglemarvskræft (multipelt myelom ) 
+-  Hvis du har en deformitet af penis eller Peyronies sygdom. 
+- Hvis du har problemer med hjertet. Din læge skal omhyggeligt undersøge, om dit hjerte kan 
+tåle den ekstra anstrengelse, det er at have sex. 
+- Hvis du for tiden har mavesår eller blødningsforstyrrelser (som f.eks. hæmofili). 
+- Hvis du oplever pludselige nedsættelser af synet eller tab af synet, skal du stoppe med at tage 
+Sildenafil Teva og straks søge læge. </p>
+<p>Du bør ikke anvende Sildenafil Teva sammen med andre orale eller lokale behandlinger for erektil 
+dysfunktion. </p>
+<p>Du bør ikke tage Sildenafil Teva, hvis du samtidig bliver behandlet for pulmonal arteriel hypertension 
+(PAH) med et lægemiddel, der indeholder sildenafil, eller hvis du samtidig får en anden PDE5-
+hæmmer. </p>
+<p>Du bør ikke tage Sildenafil Teva, hvis du ikke har erektil dysfunktion. </p>
+<p>Sildenafil Teva bør ikke anvendes af kvinder. </p>
+<p>Særlige hensyn i forbindelse med patienter med nyre- eller leverproblemer 
+Sig det til lægen, hvis du har nyre- eller leverproblemer. Lægen kan bestemme, at du skal have en 
+lavere dosis. </p>
+<p>Børn og unge 
+Sildenafil Teva bør ikke gives til personer under 18 år.  </p>
+<p>Brug af anden medicin sammen med Sildenafil Teva 
+Fortæl altid lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden 
+medicin eller planlægger at tage anden medicin.  </p>
+<p>Sildenafil Teva tabletter kan påvirke virkningen af anden medicin, især medicin til behandling af 
+smerter i brystet. I tilfælde af en alvorlig hændelse bør du fortælle lægen, apotekspersonalet eller 
+sygeplejersken, at du har taget Sildenafil Teva, og hvornår du har taget det. Tag ikke Sildenafil Teva 
+sammen med anden medicin, medmindre din læge har anbefalet det. </p>
+<p>Du må ikke tage Sildenafil Teva, hvis du tager medicin, som kaldes nitrater, da kombinationen af disse 
+kan medføre potentielt farligt blodtryksfald. Fortæl altid lægen, apotekspersonalet eller 
+sygeplejersken, hvis du tager denne type medicin, der bruges til lindring af angina pectoris (smerter i 
+brystet). </p>
+<p>Du må ikke tage Sildenafil Teva, hvis du tager medicin, som kaldes nitrogenoxiddonorer som f.eks. 
+amylnitrit (“poppers"), da kombinationen også kan medføre potentielt farligt blodtryksfald. </p>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis du tager medicin der indeholder riociguat. </p>
+<p>Hvis du tager medicin, som kaldes proteasehæmmere, for eksempel til behandling af hiv, kan din læge 
+starte behandlingen på den laveste dosis Sildenafil Teva (25 mg). </p>
+<p>Nogle patienter, som er i behandling med en alfa-blokker til behandling af højt blodtryk eller 
+vandladningsbesvær ved forstørret prostata, kan opleve svimmelhed eller uklarhed, som kan skyldes 
+lavt blodtryk, når man hurtigt sætter eller rejser sig op. Visse patienter har oplevet disse symptomer, 
+når de tager Sildenafil Teva sammen med alfa-blokkere. Det er mest sandsynligt, at det vil indtræde 
+inden for 4 timer efter, at du har indtaget Sildenafil Teva. Du bør være på en regelmæssig daglig dosis 
+af alfablokkeren, før du tager Sildenafil Teva, for at nedsætte risikoen for at disse symptomer opstår. 
+Lægen kan give dig en lavere begyndelsesdosis (25 mg) af Sildenafil Teva. </p>
+<p>Fortæl det til lægen eller apotekspersonalet, hvis du allerede tager medicin, der indeholder 
+sacubitril/valsartan, som bruges til behandling af hjertesvigt. </p>
+<p>Brug af Sildenafil Teva sammen med mad, drikke og alkohol 
+Sildenafil Teva kan tages sammen med mad eller uden mad. Du kan måske opleve, at det kan tage lidt 
+længere tid før Sildenafil Teva virker, hvis du har spist et tungt måltid. </p>
+<p>Indtagelse af alkohol kan midlertidig påvirke din evne til at få rejsning. For at få den fulde virkning af 
+din medicin bør du ikke drikke alkohol i store mængder, før du tager Sildenafil Teva. </p>
+<p>Graviditet, amning og frugtbarhed 
+Sildenafil Teva er ikke beregnet til at bruges af kvinder.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Sildenafil Teva kan forårsage svimmelhed og kan påvirke synet. Vær opmærksom på, hvordan du 
+reagerer på Sildenafil Teva inden bilkørsel eller betjening af maskiner. </p>
+<p>Sildenafil Teva indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. Filmovertrukket tablet, dvs. Det 
+er i det væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take sildenafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take sildenafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Sildenafil Teva nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
+spørg lægen eller apotekspersonalet. Den anbefalede begyndelsesdosis er 50 mg. </p>
+<p>Du bør ikke tage Sildenafil Teva mere end 1 gang dagligt. </p>
+<p>Tag ikke Sildenafil Teva filmovertrukne tabletter sammen med sildenafilholdige smeltetabletter. </p>
+<p>Sildenafil Teva bør tages ca. 1 time inden du planlægger seksuel aktivitet. Synk tabletten hel med et 
+glas vand. </p>
+<p>Hvis du mener, at virkningerne af Sildenafil Teva er for kraftige eller for svage, bør du tale med lægen 
+eller apotekspersonalet. </p>
+<p>Sildenafil Teva hjælper kun til erektion ved seksuel stimulation. Den tid, som det tager for Sildenafil 
+Teva at virke, varierer fra person til person, men det tager normalt mellem ½ og 1 time. Det kan vare 
+længere, inden Sildenafil Teva virker, hvis det tages sammen med et tungt måltid. </p>
+<p>Hvis Sildenafil Teva ikke hjælper til at give erektion, eller hvis erektionen ikke varer længe nok til at 
+gennemføre samleje, bør du sige det til lægen. </p>
+<p>Hvis du har taget for meget Sildenafil Teva 
+Du kan opleve flere og kraftigere bivirkninger. Doser på over 100 mg vil ikke forøge virkningen. </p>
+<p>Du bør ikke tage flere tabletter, end din læge har sagt. </p>
+<p>Kontakt lægen, hvis du har taget flere tabletter, end du skal. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
+bivirkninger, der er rapporteret i forbindelse med brug af Sildenafil Teva, er normalt milde til 
+moderate og af kort varighed. </p>
+<p>Hvis du oplever nogen af de følgende bivirkninger, skal du stoppe med at tage Sildenafil Teva og 
+øjeblikkeligt søge læge: </p>
+<ul>
+<li>
+<p>En allergisk reaktion - dette ses ikke almindeligt (kan ses hos op til 1 ud af 100 personer). 
+Symptomerne omfatter pludselig hvæsende vejrtrækning, vejrtrækningsbesvær eller 
+svimmelhed, hævelser af øjenlåg, ansigt, læber eller hals. </p>
+</li>
+<li>
+<p>Smerter i brystet - dette ses ikke almindeligt. 
+Hvis dette sker under eller efter samleje * Sæt dig op i en tilbagelænet stilling og prøv at slappe af. * Tag ikke nitrater til at behandle dine smerter i brystet. </p>
+</li>
+<li>
+<p>Vedvarende og nogle gange smertefulde erektioner - dette ses sjældent (kan ses hos op til 1 
+ud af 1.000 personer). 
+Hvis du får erektion, som varer længere end 4 timer, bør du straks kontakte lægen. </p>
+</li>
+<li>
+<p>Pludselig nedsættelse eller tab af synet - dette ses sjældent. </p>
+</li>
+<li>
+<p>Alvorlige hudreaktioner - dette ses sjældent. 
+Symptomerne kan omfatte kraftig afskalling og opsvulmen af huden, små vabler i munden 
+samt omkring kønsorganerne og øjnene, feber. </p>
+</li>
+<li>
+<p>Kramper eller krampeanfald - dette ses sjældent. </p>
+</li>
+</ul>
+<p>Andre bivirkninger: </p>
+<p>Meget almindelig (kan ses hos mere end 1 ud af 10 personer): hovedpine. </p>
+<p>Almindelig (kan ses hos op til 1 ud af 10 personer): kvalme, ansigtsrødme, hedeture (symptomerne 
+omfatter en pludselig varmefølelse i overkroppen), dårlig fordøjelse, farvesyn, sløret syn, 
+synsforstyrrelser, tilstoppet næse og svimmelhed. </p>
+<p>Ikke almindelig (kan ses hos op til 1 ud af 100 personer): opkastning, hududslæt, øjenirritation, 
+blodsprængte øjne/røde øjne, smerte i øjet, forskellige lysfornemmelser, f.eks. lysflimren og lysglimt, 
+lysfølsomhed, rindende øjne, uregelmæssig eller hurtig puls, forhøjet blodtryk, lavt blodtryk, 
+muskelsmerter, føle sig søvnig, nedsat følelse ved berøring, svimmelhed, susen for ørerne (tinnitus), 
+mundtørhed, blokerede eller tilstoppede bihuler, irritation i næseslimhinden (symptomerne omfatter 
+løbende næse, nysen og tilstoppet næse), mavesmerter lige over navlen, gastroøsofageal 
+reflukssyndrom (tilbageløb af syre fra mavesækken til spiserøret - symptomerne omfatter halsbrand), 
+blod i urinen, smerter i arme og ben, næseblod, varmefølelse og træthed. </p>
+<p>Sjælden (kan ses hos op til 1 ud af 1.000 personer): besvimelse, slagtilfælde, hjerteanfald, uregelmæssig 
+hjerterytme, midlertidigt nedsat blodtilførsel til dele af hjernen, følelse af, at halsen snører sig 
+sammen, følelsesløshed i munden, blødninger i den bagerste del af øjet, dobbeltsyn, nedsat 
+synsskarphed, unormal følelse i øjet, hævede øjne eller øjenlåg, små partikler eller pletter i synsfeltet, 
+se en farvet ring omkring lyskilder, forstørrede pupiller, misfarvning af det hvide i øjet, blødning fra 
+penis, blod i sæden, næsetørhed, hævelse inde i næsen, følelse af irritation og pludselig 
+hørenedsættelse eller høretab. </p>
+<p>Efter markedsføring er der rapporteret om sjældne tilfælde af en hjertelidelse, kaldet ustabil angina, og 
+pludselig død. Det bør tages i betragtning, at de fleste, men ikke alle, af de mænd, der oplevede disse 
+bivirkninger, havde hjerteproblemer, før de tog denne medicin. Det er ikke muligt at bestemme, om 
+disse bivirkninger er direkte relateret til Sildenafil Teva.  </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sildenafil"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sildenafil"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
+<p>Brug ikke dette lægemiddel efter den udløbsdato, som står på blisteren og æsken efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sildenafil Teva indeholder: </p>
+<p>Aktivt stof: sildenafil. Hver tablet indeholder 25 mg sildenafil (som citratsalt). </p>
+<p>Øvrige indholdsstoffer:<br />
+Tabletkerne: 
+Mikrokrystallinsk cellulose, calciumhydrogenphosphat, croscarmellosenatrium, 
+magnesiumstearat 
+Filmovertræk: Poly(vinylalkohol), titandioxid (E171), macrogol 3350, talkum. </p>
+<p>Udseende og pakningsstørrelser </p>
+<ul>
+<li>Sildenafil Teva 25 mg er hvide og ovale. De er mærket “S 25" på den ene side og ingenting på 
+den anden side.<br />
+Sildenafil Teva findes i blisterpakninger med 2, 4, 8 og 12 tabletter og perforerede enhedsdosisblistere 
+indeholdende 10 x 1 tablet. </li>
+</ul>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Indehaver af markedsføringstilladelsen 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem<br />
+Holland </p>
+<p>Fremstiller 
+TEVA Pharmaceutical Works Private Limited Company<br />
+Pallagi út 13<br />
+4042 Debrecen 
+Ungarn </p>
+<p>Teva Pharma, S.L.U.<br />
+Polígono Industrial Malpìca, calle C,no.4 
+50016 Zaragoza<br />
+Spanien </p>
+<p>Teva Operations Poland Sp.z.o.o. 
+ul Mogilska 80. 31-546, Krakow<br />
+Polen </p>
+<p>Hvis du vil have yderligere oplysninger om Sildenafil Teva, skal du henvende dig til den lokale 
+repræsentant: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Тел: +359 24899 
+Luxembourg/Luxemburg 
+ratiopharm GmbH 
+Allemagne/Deutschland 
+Tél/Tel: +49 73140 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+TEVA GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar Α.Β.Ε.Ε. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Portugal 
+Teva Santé 
+Tél: +33 155917 
+Teva Pharma - Produtos Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar Α.Β.Ε.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Du kan finde yderligere information om Sildenafil Teva på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Sildenafil Teva 50 mg filmovertrukne tabletter 
+sildenafil </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+- Lægen har ordineret Sildenafil Teva til dig personligt. Lad derfor være med at give medicinen 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d674db7613c7ef04137ad9c28d3399bb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sildenafil Package Leaflet for language en"
+Description: "ePI document Bundle for sildenafil Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d674db7613c7ef04137ad9c28d3399bb"
+* entry[0].resource = composition-en-d674db7613c7ef04137ad9c28d3399bb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd674db7613c7ef04137ad9c28d3399bb"
+* entry[=].resource = mpd674db7613c7ef04137ad9c28d3399bb
+                            
+                    
+Instance: bundlepackageleaflet-da-d674db7613c7ef04137ad9c28d3399bb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sildenafil Package Leaflet for language da"
+Description: "ePI document Bundle for sildenafil Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d674db7613c7ef04137ad9c28d3399bb"
+* entry[0].resource = composition-da-d674db7613c7ef04137ad9c28d3399bb
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd674db7613c7ef04137ad9c28d3399bb"
+* entry[=].resource = mpd674db7613c7ef04137ad9c28d3399bb
+                            
+                    
+
+
+
+Instance: mpd674db7613c7ef04137ad9c28d3399bb
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Sildenafil Teva 25 mg film-coated tablets"
-Description: "Sildenafil Teva 25 mg film-coated tablets"
+Title: "Medicinal Product sildenafil"
+Description: "sildenafil"
 Usage: #inline
 
  
@@ -401,7 +892,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Sildenafil Teva 25 mg film-coated tablets"
+  * productName = "sildenafil"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -428,29 +919,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d674db7613c7ef04137ad9c28d3399bb
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for sildenafil Package Leaflet for language en"
-Description: "ePI document Bundle for sildenafil Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d674db7613c7ef04137ad9c28d3399bbListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Sildenafil Teva 25 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "sildenafil"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d674db7613c7ef04137ad9c28d3399bb"
-* entry[0].resource = composition-en-d674db7613c7ef04137ad9c28d3399bb
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp490f08e16bcbd01fee73abe8db7a8a5a"
-* entry[=].resource = mp490f08e16bcbd01fee73abe8db7a8a5a
-                            
-                      
+* title = "List of all ePIs associated with sildenafil"
+
+* subject = Reference(mp490f08e16bcbd01fee73abe8db7a8a5a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#sildenafil "sildenafil"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d674db7613c7ef04137ad9c28d3399bb) // sildenafil en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d674db7613c7ef04137ad9c28d3399bb) // sildenafil da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d674db7613c7ef04137ad9c28d3399bb
+InstanceOf: List
+
+* insert d674db7613c7ef04137ad9c28d3399bbListRuleset
+    

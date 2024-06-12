@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-53638a22b9c3baf68ce45da859e1bb4b
 InstanceOf: CompositionUvEpi
 Title: "Composition for ratiograstim Package Leaflet"
@@ -444,12 +447,667 @@ Tel: +44 2075407This leaflet was last revised in . </p>
 
 
 
+Instance: composition-da-53638a22b9c3baf68ce45da859e1bb4b
+InstanceOf: CompositionUvEpi
+Title: "Composition for ratiograstim Package Leaflet"
+Description:  "Composition for ratiograstim Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp15ccfbf2ba6e2c0526878e2dc194d348)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp15ccfbf2ba6e2c0526878e2dc194d348
+* title = "TEST PURPOSES ONLY - ratiograstim"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Sådan giver De Dem selv indsprøjtninger </li>
+<li>Nedenstående oplysninger er kun til sundhedspersoner </li>
+</ol>         </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at bruge Ratiograstim 
+3. Sådan skal De bruge Ratiograstim 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ratiograstim is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ratiograstim is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Ratiograstim er en vækstfaktor (granulocyt-kolonistimulerende faktor) for hvide blodlegemer og 
+tilhører en gruppe af lægemidler, som kaldes cytokiner. Vækstfaktorer er proteiner, der produceres 
+naturligt i kroppen, men de kan også fremstilles ved hjælp af bioteknologi og anvendes som et 
+lægemiddel. Ratiograstim virker ved at stimulere knoglemarven til at producere flere hvide 
+blodlegemer. </p>
+<p>Anvendelse 
+Antallet af hvide blodlegemer kan falde (neutropeni) af flere årsager og gør kroppen mindre i stand til 
+at bekæmpe infektioner. Ratiograstim stimulerer knoglemarven til at producere nye, hvide 
+blodlegemer hurtigt. </p>
+<p>Ratiograstim kan bruges:</p>
+<ul>
+<li>til at øge antallet af hvide blodlegemer efter behandling med kemoterapi for at hjælpe med at 
+forhindre infektion </li>
+<li>til at øge antallet af hvide blodlegemer efter knoglemarvstransplantation for at hjælpe med at 
+forhindre infektion </li>
+<li>inden højdosis kemoterapi for at få knoglemarven til at producere flere stamceller, der kan 
+indsamles og gives til Dem igen efter behandlingen. De kan tages fra Dem selv eller fra en 
+donor. Stamcellerne går bagefter tilbage ind i knoglemarven og producerer blodceller. </li>
+<li>til at øge antallet af hvide blodlegemer, hvis De lider af svær kronisk neutropeni for at hjælpe 
+med at forhindre infektion </li>
+<li>til patienter med fremskreden hiv-infektion for at hjælpe med at mindske risikoen for infektion. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ratiograstim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ratiograstim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ratiograstim 
+- hvis De er allergisk over for filgrastim eller et af de øvrige indholdsstoffer i Ratiograstim 
+(angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før De bruger Ratiograstim. </p>
+<p>Fortæl det til lægen, inden De starter på behandlingen, hvis De har 
+- seglcelleanæmi, da dette lægemiddel kan forårsage seglcellekrise 
+- osteoporose (knoglesygdom). </p>
+<p>Tal straks med lægen under behandling med Ratiograstim, hvis De:</p>
+<ul>
+<li>får pludselige tegn på allergi, såsom udslæt, kløe eller nældefeber på huden, hævelse i ansigt, 
+læber, tunge eller andre dele af kroppen, stakåndethed, hvæsende vejrtrækning eller 
+vejrtrækningsbesvær, da det kan være tegn på en alvorlig allergisk reaktion (overfølsomhed). </li>
+<li>får hævelser i ansigt eller hævede ankler, blod i urinen eller brun urin, eller hvis De bemærker, 
+at De ikke lader vandet så ofte, som De plejer (glomerulonefritis). </li>
+<li>får smerter i øverste venstre side af maven, smerter under brystkassen i venstre side eller yderst 
+på skulderen (dette kan være symptomer på forstørret milt (spenomegali) eller muligvis bristet 
+milt). </li>
+<li>bemærker usædvanlig blødning, eller at De lettere får blå mærker (dette kan være symptomer på 
+et lavere antal blodplader (trombocytopeni), hvor blodet har nedsat evne til at størkne). </li>
+<li>har symptomer på betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i 
+kroppen). Dette er indberettet sjældent hos kræftpatienter og raske donorer. Symptomerne kan 
+omfatte feber, mavesmerter, utilpashed, rygsmerter og øgede betændelsesmarkører. Fortæl det 
+til lægen, hvis De oplever disse symptomer. </li>
+</ul>
+<p>Manglende reaktion på filgrastim </p>
+<p>Hvis De ikke reagerer på behandlingen med filgrastim, eller hvis en reaktion på behandlingen ikke kan 
+opretholdes, vil Deres læge undersøge årsagen, herunder om De har udviklet antistoffer, der kan 
+neutralisere aktiviteten af filgrastim. </p>
+<p>Deres læge vil måske overvåge Deres tilstand nøje, se punkt 4 i indlægssedlen.  </p>
+<p>Hvis De har svær kronisk neutropeni, kan De være i risiko for at udvikle blodkræft (leukæmi, 
+myelodysplastisk syndrom (MDS)). De bør tale med Deres læge om risikoen for at udvikle blodkræft, 
+og hvilke undersøgelser der skal udføres. Hvis De får eller med sandsynlighed kan udvikle blodkræft, 
+må De ikke bruge Ratiograstim, medmindre lægen siger det. </p>
+<p>Hvis De er stamcelledonor, skal De være mellem 16 og 60 år. </p>
+<p>Vær særlig forsigtig med andre produkter, der stimulerer de hvide blodlegemer 
+Ratiograstim er et lægemiddel i en gruppe af produkter, der stimulerer produktionen af de hvide 
+blodlegemer. Deres læge skal altid notere præcist, hvilket lægemiddel De bruger. </p>
+<p>Brug af andre lægemidler sammen med Ratiograstim 
+Fortæl altid lægen eller apotekspersonalet, hvis De bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Graviditet og amning 
+Ratiograstim er ikke blevet testet hos gravide kvinder eller kvinder, der ammer. </p>
+<p>Ratiograstim anbefales ikke under graviditet. </p>
+<p>Det er vigtigt, at De fortæller lægen, hvis De: 
+• er gravid eller ammer 
+• har mistanke om, at De er gravid eller 
+• planlægger at blive gravid. 
+Hvis De bliver gravid under behandling med Ratiograstim, skal De fortælle det til lægen. Hvis lægen 
+ikke giver Dem andre anvisninger, skal De stoppe med at amme, hvis De bruger Ratiograstim. </p>
+<p>Trafik- og arbejdssikkerhed 
+Ratiograstim kan i mindre grad påvirke Deres evne til at føre motorkøretøj og betjene maskiner. Dette 
+lægemiddel kan forårsage svimmelhed. Det tilrådes, at De venter og ser, hvordan De har det, når De 
+har taget dette lægemiddel, før De fører motorkøretøj eller betjener maskiner. </p>
+<p>Ratiograstim indeholder sorbitol. 
+Dette lægemiddel indeholder 50 mg sorbitol pr. ml. 
+Til intravenøs anvendelse 
+Sorbitol er en kilde til fructose. Hvis De (eller Deres barn) har arvelig fructoseintolerans (HFI), som er 
+en sjælden arvelig sygdom, må De (eller Deres barn) ikke få dette lægemiddel. Patienter med HFI kan 
+ikke nedbryde fructose, hvilket kan forårsage alvorlige bivirkninger. De skal fortælle det til lægen, 
+inden De får dette lægemiddel, hvis De (eller Deres barn) har HFI, eller hvis Deres barn ikke længere 
+kan indtage sukkerholdig mad eller drikke, fordi barnet bliver dårligt, kaster op eller får ubehagelige 
+virkninger som f.eks. oppustethed, mavekramper eller diarré. </p>
+<p>Ratiograstim indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. fyldt injektionssprøjte, d.v.s. 
+den er i det væsentlige ’natriumfrit’. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ratiograstim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ratiograstim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Hvordan gives Ratiograstim, og hvor meget skal jeg have? </p>
+<p>Ratiograstim gives normalt som en daglig indsprøjtning i vævet lige under huden (kaldes en subkutan 
+injektion). Det kan også gives som en daglig langsom indsprøjtning i en vene (kaldes en intravenøs 
+infusion). Den normale dosis afhænger af Deres sygdom og vægt. Deres læge vil fortælle Dem, hvor 
+meget Ratiograstim De skal have. </p>
+<p>Patienter der får knoglemarvstransplantation efter kemoterapi: 
+De vil normalt få Deres første dosis Ratiograstim mindst 24 timer efter kemoterapi og mindst 24 timer 
+efter knogletransplantationen. </p>
+<p>De eller Deres plejere kan lære, hvordan injektioner under huden gives, så De kan fortsætte Deres 
+behandling derhjemme. De må imidlertid ikke forsøge at gøre dette, medmindre De er blevet grundigt 
+instrueret og oplært i det af sundhedspersonalet. </p>
+<p>Hvor længe skal jeg tage Ratiograstim? 
+De skal tage Ratiograstim, indtil Deres antal af hvide blodlegemer er normalt. De vil regelmæssigt få 
+taget blodprøver for at måle antallet af hvide blodlegemer i Deres krop. Deres læge vil fortælle Dem, 
+hvor længe De skal tage Ratiograstim. </p>
+<p>Brug til børn 
+Ratiograstim bruges til at behandle børn, der får kemoterapi, eller som har et meget lavt antal hvide 
+blodlegemer (neutropeni). Dosering til børn, der får kemoterapi, er den samme som til voksne. </p>
+<p>Hvis De har brugt for meget Ratiograstim 
+De må ikke øge dosen, som Deres læge har fastsat til Dem. Kontakt lægen, skadestuen eller 
+apotekspersonalet snarest muligt, hvis De har taget for meget Ratiograstim. </p>
+<p>Hvis De har glemt at bruge Ratiograstim 
+Hvis De har sprunget en indsprøjtning over eller injiceret en for lille dosis, skal De kontakte Deres 
+læge hurtigst muligt. De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Vigtige bivirkninger </p>
+<p>Det er vigtigt straks at kontakte Deres læge:</p>
+<ul>
+<li>hvis De får en allergisk reaktion, herunder svækkelse, blodtryksfald, vejrtrækningsbesvær, 
+hævelse i ansigtet (anafylaksi), hududslæt, kløende udslæt (urticaria), hævelse af ansigt, læber, 
+mund, tunge eller svælg (angioødem) eller kortåndethed (dyspnø). </li>
+<li>hvis De får hoste, feber og vejrtrækningsbesvær (dyspnø), da dette kan være tegn på akut 
+lungesvigt (Acute Respiratory Distress Syndrome (ARDS)). </li>
+<li>hvis De får nyreskade (glomerulonefritis). Der er set nyreskade hos patienter, der får filgrastim. 
+Ring straks til lægen, hvis De bliver hævet i ansigtet eller anklerne, hvis der er blod i Deres urin, 
+eller urinen er brun, eller hvis De skal lade vandet mindre hyppigt end normalt. </li>
+<li>hvis De får en eller en kombination af følgende bivirkninger: 
+• hævelse eller opsvulmethed, der kan være forbundet med mindre hyppig vandladning, 
+åndedrætsbesvær, opsvulmet mave og mæthedsfølelse samt en generel følelse af træthed. 
+Disse symptomer opstår generelt hurtigt. 
+Det kan være symptomer på en tilstand, der kaldes for "kapillærlækage-syndrom", som 
+medfører, at der siver blod fra de små blodkar ud i kroppen. Denne tilstand kræver øjeblikkelig 
+medicinsk behandling. </li>
+<li>hvis De får en kombination af de følgende symptomer: 
+• feber eller kulderystelser eller kuldefølelse, høj hjertefrekvens, forvirring eller 
+desorientering, stakåndethed, ekstreme smerter eller ubehag, og klam eller svedende hud. 
+Dette kan være symptomer på en tilstand som kaldes "sepsis" (kaldes også blodforgiftning), 
+som er en alvorlig infektion med inflammatorisk respons i hele kroppen, der kan være 
+livstruende, og kræve akut lægehjælp. </li>
+<li>hvis De får smerter i øverste venstre del af maven, smerter under brystkassen i venstre side eller 
+yderst på skulderen, da der kan være et problem med Deres milt (forstørret milt (splenomegali) 
+eller milten kan briste) </li>
+<li>hvis De er i behandling for svær kronisk neutropeni og De har blod i urinen (hæmaturi). Deres 
+læge vil muligvis kontrollere Deres urin regelmæssigt, hvis De får denne bivirkning, eller hvis 
+der konstateres protein i Deres urin (proteinuri). </li>
+</ul>
+<p>En almindelig bivirkning ved Ratiograstim er smerter i muskler eller knogler, hvilket kan lindres med 
+almindelig smertestillende medicin. Hos patienter, der får foretaget stamcelle- eller 
+knoglemarvstransplantation, kan der forekomme graft versus host-sygdom (GvHD) - dette er en 
+reaktion fra donorcellerne mod den patient, der får transplantatet. Tegn og symptomer omfatter udslæt 
+i håndfladerne eller under fødderne og sår i munden, tarmene, leveren, huden eller i øjne, lunger, 
+skede og led. </p>
+<p>Hos raske stamcelledonorer kan der observeres en stigning i antallet af hvide blodlegemer 
+(leukocytose) og et fald i antal blodplader, hvilket nedsætter blodets evne til at størkne 
+(thrombocytopeni). Deres læge vil overvåge disse symptomer. </p>
+<p>De kan få følgende bivirkninger: </p>
+<p>Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer): 
+• Nedsat blodcelletal som reducerer blodets evne til at størkne (trombocytopeni) 
+• Lavt antal røde blodlegemer (anæmi) 
+• Hovedpine 
+• Diarré 
+• Opkastning 
+• Kvalme 
+• Usædvanligt hårtab eller udtynding af håret (alopeci) 
+• Træthed 
+• Ømhed og hævelse i mave-tarm-kanalens indvendige lag, som går fra munden til anus 
+(slimhindeinflammation) 
+• Feber (pyreksi) </p>
+<p>Almindelige (kan forekomme hos op til 1 ud af 10 personer): 
+• Betændelse i lungerne (bronkitis) 
+• Infektion i de øvre luftveje 
+• Urinvejsinfektion 
+• Nedsat appetit 
+• Søvnbesvær (insomnia) 
+• Svimmelhed 
+• Nedsat følesans, særligt i huden (hypoæstesi) 
+• Snurren eller følelsesløshed i hænder eller fødder (paræstesi) 
+• Lavt blodtryk (hypotension) 
+• Højt blodtryk (hypertension) 
+• Hoste 
+• Ophostning af blod (hæmoptyse) 
+• Smerter i mund og svælg (orofaryngeale smerter) 
+• Næseblod (epistaksi) 
+• Forstoppelse 
+• Smerter i munden 
+• Forstørret lever (hepatomegali) 
+• Udslæt 
+• Rødmen i huden (erytem) 
+• Muskelspasmer 
+• Smerter ved vandladning (dysuri) 
+• Brystsmerter 
+• Smerter 
+• Generel svækkelse (astheni) 
+• Generel utilpashed 
+• Hævelse af hænder og fødder (perifert ødem) 
+• Stigning i visse enzymer i blodet 
+• Ændringer i blodets kemiske sammensætning 
+• Reaktion på transfusion </p>
+<p>Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer): 
+• Stigning i antallet af hvide blodlegemer (lekocytose) 
+• Allergisk reaktion (overfølsomhed) 
+• Afstødning af transplanteret knoglemarv (graft versus host-sygdom) 
+• Høje urinsyreniveauer i blodet der kan medføre gigt (hyperurikæmi) (stigning i urinsyre i 
+blodet) 
+• Leverskade grundet blokering af de små blodkar i leveren (veno-okklusiv sygdom) 
+• Lungerne fungerer ikke, som de skal, hvilket giver åndenød (respirationssvigt) 
+• Hævelse og/eller væske i lungerne (lungeødem) 
+• Inflammation af lungerne (interstitiel lungesygdom) 
+• Unormale røntgenbilleder af lungerne (lungeinfiltration) 
+• Blødning fra lungerne (pulmonal hæmoragi) 
+• Manglende optagelse af ilt i lungerne (hypoksi) 
+• Ujævnt hududslæt (maculo-papuløst udslæt) 
+• Sygdom der forårsager, at knoglerne bliver mindre tætte, gør dem svagere, mere skrøbelige 
+med større sandsynlighed for at brække (osteoporose) 
+• Smerter på indsprøjtningsstedet </p>
+<p>Sjældne (kan forekomme hos op til 1 ud af 1.000 personer): 
+• Kraftige smerter i knogler, bryst, mave-tarm-kanalen eller led (seglcellekrise) 
+• Pludselig livstruende allergisk reaktion (anafylaktisk reaktion) 
+• Smerter og hævelse af led, der minder om gigt (pseudopodagra) 
+• Ændring i hvordan kroppen regulerer væske i kroppen, som kan medføre oppustethed 
+(forstyrrelser i væskebalancen) 
+• Betændelse i blodkarrene i huden (kutan vaskulitis) 
+• Blommefarvede, hævede, smertefulde sår på ben og arme og nogle gange i ansigtet eller på 
+halsen, med feber (Sweets syndrom) 
+• Forværring af leddegigt 
+• Usædvanlige ændringer i urin 
+• Formindsket knogletæthed 
+• Betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i kroppen), se 
+punkt 2 </p>
+<p>Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ratiograstim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ratiograstim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på den fyldte 
+injektionssprøjte efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C-8 °C). </p>
+<p>Inden for opbevaringstiden og til ambulant brug kan præparatet tages ud af køleskabet (2 °C - 8 °C) 
+og opbevares ved en temperatur på op til 25 °C i én enkelt periode på op til 4 dage. Hvis præparatet 
+ikke bruges i løbet af 4 dage, kan det igen sættes i køleskab (2 °C - 8 °C) op til udløbsdatoen. 
+Injektionssprøjter skalbortskaffes, hvis de opbevares ved temperaturer over 8 °C i mere end 4 dage. </p>
+<p>Brug ikke lægemidlet, hvis De bemærker at opløsningen er uklar eller indeholder partikler. </p>
+<p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
+ikke smide lægemiddelrester i afløbet eller toilettet. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ratiograstim indeholder:</p>
+<ul>
+<li>Aktivt stof: filgrastim. Hver ml af opløsning til injektion/infusion indeholder 60 millioner 
+internationale enheder [mio. IE] (600 mikrogram) filgrastim </li>
+</ul>
+<p>Ratiograstim 30 mio. IE/0,5 ml: En fyldt injektionssprøjte indeholder 30 millioner internationale 
+enheder [mio. IE] (300 mikrogram) filgrastim i 0,5 ml. </p>
+<p>Ratiograstim 48 mio. IE/0,8 ml: En fyldt injektionssprøjte indeholder 48 millioner internationale 
+enheder [mio. IE] (480 mikrogram) filgrastim i 0,8 ml. 
+- Øvrige indholdsstoffer: Natriumhydroxid, eddikesyre, sorbitol, polysorbat 80, vand til 
+injektionsvæsker.  </p>
+<p>Udseende og pakningsstørrelser 
+Ratiograstim er en injektions-/infusionsvæske, opløsning i en fyldt injektionssprøjte med eller uden 
+sikkerhedsanordning. Ratiograstim er en klar og farveløs væske. Hver fyldt injektionssprøjte 
+indeholder enten 0,5 ml eller 0,8 ml opløsning. </p>
+<p>Ratiograstim leveres i pakker á 1, 5 eller 10 fyldte injektionssprøjter eller multipakker á 10 (2 pakker á 
+5) fyldte injektionssprøjter. Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+ratiopharm GmbH 
+Graf-Arco-Straße 3 
+89079 Ulm 
+Tyskland </p>
+<p>Fremstiller 
+Teva Biotech GmbH 
+Dornierstraße 89079 Ulm 
+Tyskland </p>
+<p>Merckle GmbH 
+Graf-Arco-Straße 3 
+89079 Ulm 
+Tyskland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+Tél/Tel: +32 38207 
+Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660 
+България 
+Тева Фарма ЕАД 
+Teл: +359 24899 
+Luxembourg/Luxemburg 
+ratiopharm GmbH 
+Allemagne/Deutschland 
+Tél/Tel: +49 73140 
+Česká republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007 
+Magyarország 
+Teva Gyógyszergyár Zrt. 
+Tel: +36 12886 
+Danmark 
+Teva Denmark A/S 
+Tlf.: +45 44985 
+Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407 
+Deutschland 
+ratiopharm GmbH 
+Tel: +49 73140 
+Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228 
+Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610 
+Norge 
+Teva Norway AS 
+Tlf: +47 66775 
+Ελλάδα 
+Specifar Α.Β.Ε.Ε. 
+Τηλ: +30 2118805 
+Österreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970 
+España 
+Teva Pharma, S.L.U. 
+Tel: +34 913873 
+Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459 
+France 
+Laboratoires Biogaran 
+Tél: +33 800970 
+Portugal 
+ratiopharm - Comércio e Indústria de Produtos 
+Farmacêuticos, Lda. 
+Tel: +351 214767 
+Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720 
+România 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306 
+Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407 
+Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 
+Ísland 
+Teva Pharma Iceland ehf. 
+Sími: +354 5503 
+Slovenská republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267 
+Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917 
+Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805 
+Κύπρος 
+Specifar Α.Β.Ε.Ε. 
+Ελλάδα 
+Τηλ: +30 2118805 
+Sverige 
+Teva Sweden AB 
+Tel: +46 42121 
+Latvija 
+UAB Teva Baltics filiāle Latvijā 
+Tel: +371 67323 
+United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407 </p>
+<p>Denne indlægsseddel blev senest ændret. </p>
+<p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<ol>
+<li>Sådan giver De Dem selv indsprøjtninger </li>
+</ol>
+<p>Dette afsnit indeholder oplysninger om, hvordan De kan give Dem selv indsprøjtninger med 
+Ratiograstim. Det er vigtigt, at De ikke forsøger at tage en indsprøjtning selv, før De har fået den 
+fornødne vejledning af en læge eller sygeplejerske. Spørg lægen eller sygeplejersken til råds, hvis De 
+ikke er sikker på, at De kan injicere Dem selv, eller hvis De har spørgsmål. </p>
+<p>Det er vigtigt, at De kasserer den brugte sprøjte i en særlig beholder til skarpe genstande. </p>
+<p>Sådan injicerer De Ratiograstim 
+De skal give indsprøjtningen i væv lige under huden. Det kaldes en subkutan injektion. De skal have 
+indsprøjtningerne på omtrent samme tidspunkt hver dag. </p>
+<p>Nødvendigt udstyr 
+For at give Dem selv en subkutan injektion skal De bruge:</p>
+<ul>
+<li>en fyldt medicinsprøjte med Ratiograstim, </li>
+<li>spritservietter eller lignende, </li>
+<li>en beholder til skarpe genstande (plastbeholder, der udleveres af hospitalet eller apoteket), så De 
+kan kassere brugte sprøjter på sikker vis. </li>
+</ul>
+<p>Sådan gør De Dem klar til at give Dem selv en subkutan injektion af Ratiograstim 
+1. Forsøg at give indsprøjtningen på omtrent samme tidspunkt hver dag. 
+2. Tag medicinsprøjten med Ratiograstim ud af køleskabet. 
+3. Kontroller udløbsdatoen på etiketten på den fyldte injektionssprøjte (EXP). Brug ikke sprøjten, 
+hvis den sidste dato i den nævnte måned er overskredet. 
+4. Kontroller Ratiograstims udseende. Opløsningen skal være klar og farveløs. Hvis den 
+indeholder partikler, må De ikke bruge den. 
+5. For at gøre indsprøjtningen så bekvem som muligt bør De lade den fyldte injektionssprøjte ligge 
+i 30 minutter ved stuetemperatur eller holde den fyldte injektionssprøjte forsigtigt i hånden i 
+nogle få minutter. De må ikke opvarme Ratiograstim på anden vis (for eksempel hverken ved at 
+lægge den i mikroovnen eller i varmt vand). 
+6. Fjern ikke beskyttelseshætten fra medicinsprøjten, før De er klar til at injicere. 
+7. Vask hænderne grundigt. 
+8. Find et bekvemt og veloplyst sted og anbring udstyret, hvor De let kan nå det (den fyldte 
+injektionssprøjte med Ratiograstim, spritservietter og beholderen til affald). </p>
+<p>Sådan forbereder De indsprøjtningen af Ratiograstim 
+Før injektion af Ratiograstim skal De foretage følgende: 
+1. Hold i sprøjten og træk forsigtigt beskyttelseshætten af kanylen uden at vride den. Hiv den 
+ligeud som vist på figur 1 og 2. Undgå at berøre kanylen eller skubbe til stemplet. </p>
+<p>1 
+2 </p>
+<ol>
+<li>Måske kan De se en lille luftboble i den fyldte injektionssprøjte. I tilfælde af luftbobler bank let 
+på sprøjten med fingrene, indtil luftboblerne stiger til vejrs. Hold sprøjten lodret med kanylen 
+opad og fjern al luften fra sprøjten ved at trykke stemplet opad. </li>
+<li>Sprøjtecylinderen er forsynet med en skala. Tryk stemplet i til det antal millimeter (ml), der 
+svarer til den ordinerede dosis Ratiograstim. </li>
+<li>Tjek en ekstra gang for at sikre, at medicinsprøjten indeholder den korrekte dosis Ratiograstim. </li>
+<li>Nu kan De give fyldte injektionssprøjte. </li>
+</ol>
+<p>Hvor skal indsprøjtningen gives? 
+De mest velegnede steder til indsprøjtningen er:</p>
+<ul>
+<li>øverst på hofterne </li>
+<li>i maven, undtagen i området omkring navlen (se figur 3). </li>
+</ul>
+<p>3 
+4 </p>
+<p>Hvis indsprøjtningen gives af en anden, kan den også gives bag på armene (se figur 4). </p>
+<p>Det er bedst at give indsprøjtningen et nyt sted hver dag for at undgå risiko for ømhed ved 
+injektionsstedet. </p>
+<p>Sådan gives indsprøjtningen 
+1. Desinficer huden med en spritserviet, og tag godt fat i huden mellem tommel- og pegefinger 
+uden at klemme til (se figur 5). 
+2. Før kanylen helt ind under huden, som sygeplejersken eller lægen har vist Dem (se figur 6). 
+3. Træk stemplet lidt tilbage for at kontrollere, at De ikke har ramt et blodkar. Fjern kanylen, hvis 
+der er blod i sprøjten, og giv injektionen et andet sted. 
+4. Injicer opløsningen støt og roligt, mens De bevarer taget i huden. 
+5. Injicer kun den dosis, lægen har ordineret. 
+6. Fjern kanylen, når injektionen er færdig, og slip huden. 
+7. Hver medicinsprøjte må kun bruges til én injektion. Eventuelle rester af Ratiograstim i sprøjten 
+må ikke anvendes. </p>
+<p>5 
+6 </p>
+<p>OBS! 
+Hvis De har problemer, må De endelig bede lægen eller sygeplejersken om hjælp og vejledning. </p>
+<p>Bortskaffelse af brugte medicinsprøjter 
+- Sæt ikke beskyttelseshætten på igen efter brug af kanylen. 
+- Anbring brugte medicinsprøjter i den særlige beholder til skarpe genstande, og opbevar 
+beholderen utilgængeligt for børn. 
+- Kasser beholderen til skarpe genstande som anvist af lægen, sygeplejersken eller apoteket. 
+- Brugte medicinsprøjter må ikke kasseres sammen med husholdningsaffaldet. </p>
+<ol>
+<li>Nedenstående oplysninger er kun til sundhedspersoner: </li>
+</ol>
+<p>Ratiograstim indeholder ingen konserveringsmidler. Med tanke på den mikrobiologiske 
+kontamineringsrisiko er Ratiograstim injektionssprøjter kun til engangsbrug. </p>
+<p>Utiltænkt nedfrysning af påvirker ikke stabiliteten af Ratiograstim negativt. </p>
+<p>Ratiograstim bør ikke fortyndes i natriumchloridinfusionsvæske. Dette lægemiddel bør ikke blandes 
+med andre lægemidler end dem, som nævnes nedenfor. Hvis filgrastim fortyndes på anden måde end 
+beskrevet nedenfor, kan det absorberes af glas og plast.  </p>
+<p>Hvis det er nødvendigt, kan Ratiograstim fortyndes med 50 mg/ml (5 %) glucose infusionsvæske. 
+Fortynding til en slutkoncentration på under 0,2 mio. IE (2 μg) pr. ml frarådes under alle 
+omstændigheder.<br />
+Opløsningen skal kontrolleres visuelt før brug. Kun klare opløsninger uden partikler bør anvendes. Til 
+patienter, der behandles med filgrastim, der er fortyndet til en koncentration under 1,5 mio. IE (15 μg) 
+pr. ml, bør der tilsættes humant serumalbumin (HSA) til en slutkoncentration på 2 mg/ml. Eksempel: 
+Ved et slutvolumen til injektion på 20 ml bør der ved totaldoser af filgrastim på mindre end 30 mio. IE 
+(300 μg) tilsættes 0,2 ml 20 mg/ml (20 %) human albumininfusionsvæske. Ved fortynding med 
+50 mg/ml (5 %) glucose infusionsvæske er Ratiograstim kompatibelt med glas og flere plastmaterialer 
+inklusive PVC, polyolefin (et copolymer af polypropylen og polyethylen) og polypropylen. </p>
+<p>Efter fortynding: Kemisk og fysisk stabilitet af den fortyndede infusionsvæske er påvist i 24 timer ved 
+2 °C-8 °C. Fra et mikrobiologisk synspunkt bør injektions-/infusionsvæsken bruges umiddelbart. Hvis 
+den ikke bruges umiddelbart, har brugeren ansvaret for opbevaringstider og forhold før brug, som 
+normalt ikke bør være mere end 24 timer ved 2 °C-8 °C, medmindre fortyndingen er foretaget under 
+kontrollerede og validerede aseptiske forhold. 
+Indlægsseddel: Information til brugeren </p>
+<p>Ratiograstim 30 mio. IE/0,5 ml injektions-/infusionsvæske, opløsning 
+Ratiograstim 48 mio. IE/0,8 ml injektions-/infusionsvæske, opløsning </p>
+<p>filgrastim </p>
+<p>Læs denne indlægsseddel grundigt, inden De begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. De kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, De vil vide. 
+- Lægen har ordineret dette lægemiddel til Dem personligt. Lad derfor være med at give 
+lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
+som De har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-53638a22b9c3baf68ce45da859e1bb4b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ratiograstim Package Leaflet for language en"
+Description: "ePI document Bundle for ratiograstim Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-53638a22b9c3baf68ce45da859e1bb4b"
+* entry[0].resource = composition-en-53638a22b9c3baf68ce45da859e1bb4b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp53638a22b9c3baf68ce45da859e1bb4b"
+* entry[=].resource = mp53638a22b9c3baf68ce45da859e1bb4b
+                            
+                    
+Instance: bundlepackageleaflet-da-53638a22b9c3baf68ce45da859e1bb4b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ratiograstim Package Leaflet for language da"
+Description: "ePI document Bundle for ratiograstim Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-53638a22b9c3baf68ce45da859e1bb4b"
+* entry[0].resource = composition-da-53638a22b9c3baf68ce45da859e1bb4b
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp53638a22b9c3baf68ce45da859e1bb4b"
+* entry[=].resource = mp53638a22b9c3baf68ce45da859e1bb4b
+                            
+                    
+
+
+
+Instance: mp53638a22b9c3baf68ce45da859e1bb4b
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ratiograstim 30 MIU/0.5 mL solution for injection/infusion"
-Description: "Ratiograstim 30 MIU/0.5 mL solution for injection/infusion"
+Title: "Medicinal Product ratiograstim"
+Description: "ratiograstim"
 Usage: #inline
 
  
@@ -469,7 +1127,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ratiograstim 30 MIU/0.5 mL solution for injection/infusion"
+  * productName = "ratiograstim"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -496,29 +1154,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-53638a22b9c3baf68ce45da859e1bb4b
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ratiograstim Package Leaflet for language en"
-Description: "ePI document Bundle for ratiograstim Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 53638a22b9c3baf68ce45da859e1bb4bListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Ratiograstim 30 MIU/0.5 mL solution for injection/infusion"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ratiograstim"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-53638a22b9c3baf68ce45da859e1bb4b"
-* entry[0].resource = composition-en-53638a22b9c3baf68ce45da859e1bb4b
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp15ccfbf2ba6e2c0526878e2dc194d348"
-* entry[=].resource = mp15ccfbf2ba6e2c0526878e2dc194d348
-                            
-                      
+* title = "List of all ePIs associated with ratiograstim"
+
+* subject = Reference(mp15ccfbf2ba6e2c0526878e2dc194d348)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ratiograstim "ratiograstim"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-53638a22b9c3baf68ce45da859e1bb4b) // ratiograstim en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-53638a22b9c3baf68ce45da859e1bb4b) // ratiograstim da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-53638a22b9c3baf68ce45da859e1bb4b
+InstanceOf: List
+
+* insert 53638a22b9c3baf68ce45da859e1bb4bListRuleset
+    

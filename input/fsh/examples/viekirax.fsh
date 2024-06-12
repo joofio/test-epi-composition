@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-9fab9f40152a9abf5de2f7daf83b1bd5
 InstanceOf: CompositionUvEpi
 Title: "Composition for viekirax Package Leaflet"
@@ -471,12 +474,603 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-9fab9f40152a9abf5de2f7daf83b1bd5
+InstanceOf: CompositionUvEpi
+Title: "Composition for viekirax Package Leaflet"
+Description:  "Composition for viekirax Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp58741a4bb50cdccbe7cb23b799143189)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp58741a4bb50cdccbe7cb23b799143189
+* title = "TEST PURPOSES ONLY - viekirax"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Viekirax
+3. Sådan skal du tage Viekirax
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What viekirax is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What viekirax is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Viekirax indeholder de aktive stoffer ombitasvir, paritaprevir og ritonavir.Viekirax er et antiviralt 
+lægemiddel, der bruges til behandling af voksne med kronisk (vedvarende) hepatitis C (en 
+infektionssygdom i leveren, der skyldes hepatitis C-virus). Den kombinerede virkning af de tre aktive 
+stoffer forhindrer hepatitis C-virusset i at formere sig og smitte nye celler. Derved fjernes virusset fra dit 
+blod i løbet af et stykke tid. Ombitasvir og paritaprevir blokerer to proteiner, der er afgørende for virussets 
+formering. Ritonavir fungerer som en 'booster', der forlænger paritaprevirs virkning i kroppen.
+Viekirax-tabletterne tages sammen med andre antivirale lægemidler som f.eks. dasabuvir og ribavirin. Din 
+læge vil tale med dig om, hvilket af disse lægemidler du skal tage sammen med Viekirax.
+Det er meget vigtigt, at du også læser indlægssedlerne for de andre antivirale lægemidler, som du tager 
+sammen med Viekirax. Spørg lægen eller apotekspersonalet, hvis du har spørgsmål om din medicin.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take viekirax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take viekirax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Viekirax
+
+hvis du er allergisk over for ombitasvir, paritaprevir, ritonavir eller et af de øvrige indholdsstoffer i 
+Viekirax (angivet i punkt 6)
+
+hvis du har andre moderate til alvorlige leverproblemer end hepatitis C.
+
+hvis du tager et eller flere af de lægemidler, der er angivet i nedenstående tabel, da der kan opstå 
+alvorlige eller livstruende virkninger, hvis Viekirax tages sammen med disse lægemidler. De kan 
+påvirke den måde, Viekirax virker på, ligesom Viekirax kan påvirke den måde, de andre lægemidler 
+virker på.
+80
+Lægemidler, du ikke må tage sammen med Viekirax
+Lægemiddel eller aktivt stof
+Lægemidlet tages/gives
+alfuzosin
+mod forstørret prostata
+Amiodaron, disopyramid, dronedaron
+mod uregelmæssig hjerterytme
+astemizol, terfenadin
+mod allergisymptomer – fås i håndkøb
+atorvastatin, lovastatin, simvastatin, lomitapid
+mod forhøjet kolesterol
+carbamazepin, phenytoin, phenobarbital
+mod epilepsi
+cisaprid
+til lindring af visse maveproblemer
+clarithromycin, fusidinsyre, rifampicin, 
+telithromycin
+mod bakterieinfektioner
+colchicin hos patienter, som har alvorlige 
+problemer med deres lever eller nyrer
+mod urinsyregigt
+conivaptan
+til normalisering af natrium i blodet
+efavirenz, etravirin, lopinavir/ritonavir, 
+saquinavir, tipranavir, nevirapin, indinavir, 
+cobicistat
+mod hiv-infektion
+apalutamid, enzalutamid
+mod prostatakræft
+ergotamin, dihydroergotamin
+mod migræne
+ergonovin, methylergometrin
+i forbindelse med fødsler
+ethinyløstradiol-holdige lægemidler som f.eks. 
+de fleste p-piller og p-ringe
+som prævention
+itraconozol, ketoconazol, posaconazol, 
+voriconazol
+mod svampeinfektioner
+midazolam, triazolam (når de tages gennem 
+munden)
+mod angst og søvnbesvær
+mitotan
+mod symptomer på ondartede svulster i 
+binyrerne
+Pimozid, lurasidon
+mod skizofreni
+quetiapin
+mod skizofreni, bipolar lidelse og svær 
+depressiv lidelse
+quinidin
+mod uregelmæssig hjerterytme eller malaria
+ranolazin
+mod kronisk angina pectoris (hjertekrampe)
+salmeterol
+mod astma
+sildenafil
+mod forhøjet blodtryk i lungekredsløbet 
+("pulmonal arteriel hypertension")
+prikbladet perikon (hypericum perforatum)
+mod angst og mild depression 
+(naturlægemiddel) – fås i håndkøb
+ticagrelor
+mod blodpropper
+Hvis du tager et eller flere af ovenstående lægemidler mod de nævnte lidelser, må du ikke tage Viekirax. 
+Er du i tvivl, så spørg lægen eller apotekspersonalet, før du tager Viekirax. 
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager Viekirax, hvis du:</p>
+<ul>
+<li>har en anden leversygdom end hepatitis C;</li>
+<li>har eller har haft en infektion med hepatitis B-virus, da din læge måske vil overvåge dig tættere.</li>
+<li>har diabetes. Det kan være, at dit blodsukker skal overvåges tættere, og/eller at din diabetesmedicin skal 
+justeres efter påbegyndelse af behandling med Viekirax. Nogle patienter med diabetes har oplevet lavt 
+blodsukker (hypoglykæmi) efter påbegyndelse af behandling med lægemidler som Viekirax.
+81
+Når du tager Viekirax sammen med dasabuvir, skal du fortælle det til din læge, hvis du får følgende 
+symptomer, da de kan være tegn på forværrede leverproblemer. Kontakt lægen:
+
+hvis du får kvalme, kaster op eller mister appetitten
+
+hvis du bemærker gulfarvning af huden eller øjnene
+
+hvis din urin er mørkere end normalt
+
+hvis du lettere bliver forvirret
+
+hvis du bemærker, at din mave svulmer op.
+Hvis noget af ovenstående gælder for dig (eller du er i tvivl), skal du tale med lægen eller 
+apotekspersonalet, før du tager Viekirax.
+Fortæl din læge, hvis du tidligere har haft depression eller psykisk sygdom. Depression, herunder 
+selvmordstanker og adfærd, er rapporteret hos nogle patienter, der tager denne medicin, især hos patienter 
+som tidligere har haft depression eller psykisk sygdom, eller hos patienter der tager ribavirin med denne 
+medicin. Du eller din pårørende eller sundhedshjælper skal også straks informere din læge om eventuelle 
+ændringer i adfærd eller humør og eventuelle selvmordstanker du måtte have.
+Blodprøver
+Din læge vil undersøge dit blod før, under og efter din behandling med Viekirax. Derved kan lægen:
+
+beslutte, hvilke andre lægemidler du skal tage sammen med Viekirax, og i hvor lang tid
+
+kontrollere, om din behandling virker, og om du er fri for hepatitis C-virus
+
+se, om der er bivirkninger ved Viekirax eller de andre antivirale lægemidler, som lægen har ordineret 
+sammen med Viekirax (f.eks. "dasabuvir" og "ribavirin").
+Børn og unge
+Giv ikke Viekirax til børn og unge under 18 år. Anvendelsen af Viekirax hos børn og unge er endnu ikke 
+undersøgt.
+Brug af anden medicin sammen med Viekirax
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller har gjort det for nylig. 
+Der er visse lægemidler, som du ikke må tage sammen med Viekirax – se ovenfor i tabellen 
+"Lægemidler, du ikke må tage sammen med Viekirax".
+Tal med lægen eller apotekspersonalet, før du tager Viekirax, hvis du tager et eller flere af de 
+lægemidler, der er angivet i tabellen nedenfor. Lægen vil vurdere, om din dosis af disse lægemidler skal 
+ændres. Du skal også tale med lægen eller apotekspersonalet, før du tager Viekirax, hvis du tager 
+hormonale præventionsmidler. Se punktet om prævention nedenfor.
+82
+Lægemidler, som lægen skal vide, om du tager, før du tager Viekirax
+Lægemiddel eller aktivt stof
+Lægemidlet tages/gives
+alprazolam, diazepam
+mod angst, panikanfald og søvnbesvær
+ciclosporin, everolimus, sirolimus, tacrolimus 
+for at undertrykke immunsystemet
+cyclobenzaprin, carisoprodol
+mod muskelkramper
+colchicin til patienter med normal nyre- og lever-
+funktionstest
+mod urinsyregigt eller familiær 
+middelhavsfeber
+digoxin, amlodipin, nifedipin, valsartan, diltiazem, 
+verapamil, candesartan, losartan
+mod hjerteproblemer eller forhøjet 
+blodtryk
+encorafenib
+mod hudkræft
+furosemid
+mod væskeophobning i kroppen
+fostamatinib
+mod lave blodpladetal
+hydrokodon
+mod smerter
+levothyroxin
+mod problemer med skjoldbruskkirtlen
+rilpivirine, darunavir, atazanavir
+mod hiv-infektion
+omeprazol, lansoprazol, esomeprazol
+mod mavesår og andre maveproblemer
+ibrutinib, imatinib
+til behandling af visse former for kræft 
+i blodet
+fluvastatin, pitavastatin, pravastatin, rosuvastatin
+mod forhøjet kolesterol 
+dabigatran
+til fortynding af blodet
+fexofenadin
+mod høfeber
+s-mephenytoin
+mod epilepsi
+sulfasalazin
+mod inflammatorisk tarmsygdom
+repaglinid
+mod forhøjet blodsukker
+erythromycin
+mod bakterie-infektion
+steroider eller binyrebarkhormon (f.eks. fluticason)
+mod mange forskellige tilstande, 
+herunder alvorlige sygdomme og 
+allergier
+trazodon
+mod angst og depression
+Warfarin og andre lignende lægemidler, de 
+såkaldte vitamin K-antagonister* til fortynding af blodet</li>
+</ul>
+<p>*Det kan være nødvendigt for din læge at øge hyppigheden af dine blodprøver for at kontrollere, hvor 
+godt dit blod kan størkne.
+Hvis noget af ovenstående gælder for dig (eller du er i tvivl), skal du tale med lægen eller 
+apotekspersonalet, før du tager Viekirax.
+Graviditet og prævention
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
+spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Viekirax virkning under graviditet er ukendt. Viekirax bør ikke anvendes under graviditet eller til kvinder 
+i den fødedygtige alder, som ikke bruger sikker præventionsmetode.
+
+Du eller din partner skal bruge sikker præventionsmetode under behandlingen. Prævention, der 
+indeholder ethinyløstradiol, kan ikke anvendes i kombination med Viekirax. Spørg din læge, hvilke 
+præventionsmetoder der er bedst for dig.
+83
+Der er behov for ekstra forsigtighed, hvis Viekirax tages sammen med ribavirin. Ribavirin kan forårsage 
+alvorlige fødselsdefekter. Ribavirin bliver i kroppen i længere tid efter, at behandlingen er stoppet, og 
+sikker prævention er derfor nødvendig både under og i nogen tid efter behandlingen.
+ Der er risiko for fødselsdefekter, når ribavirin tages af kvindelige patienter, som bliver gravide. 
+ Der kan også være risiko for fødselsdefekter, hvis ribavirin tages af en mandlig patient, hvis 
+kvindelige partner bliver gravid. 
+ Læs punktet om “Prævention" i indlægssedlen for ribavirin meget grundigt. Det er vigtigt at både 
+mænd og kvinder læser informationen.
+ Hvis du eller din partner bliver gravide under behandlingen med Viekirax og ribavirin eller i de 
+efterfølgende måneder, skal du straks kontakte din læge.
+Amning
+Du må ikke amme under behandlingen med Viekirax. Det er ukendt, om de aktive stoffer i Viekirax 
+(ombitasvir, paritaprevir og ritonavir) udskilles i human mælk.
+Trafik- og arbejdssikkerhed 
+Nogle patienter har indberettet, at de følte sig meget trætte, når de tog Viekirax sammen med andre 
+lægemidler mod hepatitis C-infektion. Hvis du føler dig træt, må du ikke køre bil eller betjene maskiner.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take viekirax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take viekirax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på apoteket.
+Viekirax-tabletterne tages sammen med andre antivirale lægemidler som f.eks. dasabuvir og ribavirin.
+Så meget skal du tage
+Den anbefalede dosis er 2 tabletter, der tages samlet om morgenen.
+Sådan skal du tage tabletterne
+
+Tag tabletterne om morgenen sammen med noget mad. Det er ligegyldigt hvilken slags mad.
+
+Synk tabletterne hele med vand.
+
+Du må ikke tygge, knuse eller brække tabletterne, da de kan have en bitter smag.
+Så længe skal du tage Viekirax
+Du skal tage Viekirax i 8, 12 eller 24 uger. Lægen vil fortælle dig, hvor længe behandlingen skal vare. 
+Stop ikke behandlingen med Viekirax, medmindre lægen siger, du skal. Det er meget vigtigt, at du 
+gennemfører hele behandlingsforløbet, så lægemidlet kan virke optimalt og fjerne din hepatitis C-
+virusinfektion.
+Hvis du har taget for mange Viekirax-tabletter
+Hvis du er kommet til at tage mere end den anbefalede dosis, skal du omgående kontakte lægen eller tage 
+til den nærmeste skadestue. Tag Viekirax-pakningen med, så du let kan beskrive, hvad du har taget.
+Hvis du har glemt at tage Viekirax
+84
+Det er vigtigt ikke at glemme en dosis af dette lægemiddel. Hvis du alligevel skulle glemme en dosis, og 
+hvis der er
+
+over 12 timer til din næste dosis, så skal du hurtigst muligt tage den manglende dosis sammen med 
+noget mad
+
+under 12 timer til din næste dosis, så skal du ikke tage den manglende dosis, men vente til den 
+efterfølgende dosis og tage denne sammen med noget mad.
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
+Stop med at tage Viekirax og kontakt omgående din læge eller hospitalet, hvis du oplever følgende:
+Bivirkninger ved indtagelse af Viekirax med eller uden dasabuvir og med eller uden ribavirin:
+Hyppighed ukendt: kan ikke estimeres udfra tilgængelige data.
+
+Symptomer på alvorlige allergiske reaktioner kan inkludere:
+
+Åndedrætsbesvær eller synkeproblemer
+
+Svimmelhed eller omtågethed, som kan skyldes lavt blodtryk
+
+Hævelse af ansigt, læber, tunge eller hals
+
+Udslæt og kløe af huden
+
+Forværrede leverproblemer. Symptomerne omfatter:<em> Hvis du får kvalme, kaster op eller mister appetitten</em> hvis du bemærker gulfarvning af huden eller øjnene<em> hvis din urin er mørkere end normalt</em> hvis du lettere bliver forvirret* hvis du bemærker, at din mave svulmer op
+Fortæl det til lægen eller apotekspersonalet, hvis du får en eller flere af følgende bivirkninger.
+Bivirkninger ved indtagelse af Viekirax sammen med dasabuvir:
+Almindelige bivirkninger: forekommer hos op til 1 ud af 10 behandlede
+
+kløe.
+Sjældne bivirkninger: forekommer hos op til 1 ud af 1.000 behandlede
+ Hævelse i hudens lag, som kan påvirke alle dele af kroppen inklusive ansigtet, tungen eller
+halsen som kan give synke- eller vejrtrækningsbesvær (angioødem).
+Bivirkninger ved indtagelse af Viekirax sammen med dasabuvir og ribavirin:
+Meget almindelige bivirkninger: forekommer hos flere end 1 ud af 10 behandlede
+
+usædvanlig træthed
+
+kvalme
+
+kløe
+
+søvnbesvær
+
+kraftesløshed, manglende energi (asteni)
+
+diarré
+Almindelige bivirkninger: forekommer hos op til 1 ud af 10 behandlede
+85
+
+anæmi (nedsat antal røde blodlegemer)
+
+opkastning
+Ikke almindelige bivirkninger: forekommer hos op til 1 ud af 100 behandlede:
+
+dehydrering
+Sjældne bivirkninger: forekommer hos op til 1 ud af 1.000 behandlede
+
+Hævelse i hudens lag, som kan påvirke alle dele af kroppen inklusive ansigtet, tungen eller
+halsen som kan give synke- eller vejrtrækningsbesvær (angioødem).
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken . Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
+bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendix V.
+Ved at indberette bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
+lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store viekirax"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store viekirax"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
+medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Viekirax indeholder:
+
+Aktive stoffer: Hver tablet indeholder 12,5 mg ombitasvir, 75 mg paritaprevir og 50 mg ritonavir.
+
+Øvrige indholdsstoffer:
+ Tabletkerne: copovidon, tocofersolan, propylenglykolmonolaurat, sorbitanmonolaurat, kolloid 
+vandfri silica(E 551), natriumstearylfumarat.
+ Filmovertræk: polyvinylalkohol (E 1203), macrogol (3350), talkum (E 553b), titaniumdioxid (E
+171), og rød jernoxid (E 172).
+Udseende og pakningsstørrelser
+Viekirax-tabletterne er lyserøde, aflange filmovertrukne tabletter på 18,8 mm x 10,0 mm præget med 
+"AV1". Viekirax-tabletterne er pakket i blisterpakninger, der indeholder 2 tabletter. Hver æske indeholder 
+56 tabletter (multipakning med 4 æsker a hver 14 tabletter).
+Indehaver af markedsføringstilladelsen og fremstiller
+AbbVie Deutschland GmbH &amp; Co. KG
+Knollstrasse
+67061 Ludwigshafen
+Tyskland
+86
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AbbVie SA
+Tél/Tel: +32 10 477811
+Lietuva
+AbbVie UAB 
+Tel: +370 5 205 3023
+България
+АбВи ЕООД
+Тел.: +359 2 90 30 430
+Luxembourg/Luxemburg
+AbbVie SA
+Belgique/Belgien
+Tél/Tel: +32 10 477811
+Česká republika
+AbbVie s.r.o. 
+Tel: +420 233 098 111
+Magyarország
+AbbVie Kft.
+Tel.: +36 1 455 8600
+Danmark
+AbbVie A/S
+Tlf.: +45 72 30 20 28
+Malta
+V.J.Salomone Pharma Limited 
+Tel: +356 22983201
+Deutschland
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: 00800 222843 33 (gebührenfrei)
+Tel: +49 (0) 611 / 1720-0
+Nederland
+AbbVie B.V.
+Tel: +31 (0)88 322 2843
+Eesti
+AbbVie OÜ
+Tel: +372 623 1011
+Norge
+AbbVie AS
+Tlf: +47 67 81 80 00
+Ελλάδα
+AbbVie ΦΑΡΜΑΚΕΥΤΙΚΗ Α.Ε.
+Τηλ: +30 214 4165 555
+Österreich
+AbbVie GmbH 
+Tel: +43 1 20589-0
+España
+AbbVie Spain, S.L.U. 
+Tel: +34 9 1 384 09 10
+Polska
+AbbVie Sp. z o.o.
+Tel.: +48 22 372 78 France
+AbbVie
+Tél: +33 (0)1 45 60 13 00
+Portugal
+AbbVie, Lda. 
+Tel: +351 (0)21 1908400
+Hrvatska 
+AbbVie d.o.o.
+Tel: +385 (0)1 5625 501
+România
+AbbVie S.R.L.
+Tel: +40 21 529 30 35
+Ireland
+AbbVie Limited 
+Tel: +353 (0)1 4287900
+Slovenija
+AbbVie Biofarmacevtska družba d.o.o.
+Tel: +386 (1)32 08 060
+Ísland
+Vistor hf.
+Tel: +354 535 7000
+Slovenská republika
+AbbVie s.r.o.
+Tel: +421 2 5050 0777
+87
+Italia
+AbbVie S.r.l. 
+Tel: +39 06 928921
+Suomi/Finland
+AbbVie Oy 
+Puh/Tel: +358 (0)10 2411 200
+Κύπρος
+Lifepharma (Z.A.M.) Ltd
+Τηλ: +357 22 34 74 40
+Sverige
+AbbVie AB
+Tel: +46 (0)8 684 44 600
+Latvija
+AbbVie SIA 
+Tel: +371 67605000
+United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561090
+Denne indlægsseddel blev senest ændret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-9fab9f40152a9abf5de2f7daf83b1bd5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for viekirax Package Leaflet for language en"
+Description: "ePI document Bundle for viekirax Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9fab9f40152a9abf5de2f7daf83b1bd5"
+* entry[0].resource = composition-en-9fab9f40152a9abf5de2f7daf83b1bd5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9fab9f40152a9abf5de2f7daf83b1bd5"
+* entry[=].resource = mp9fab9f40152a9abf5de2f7daf83b1bd5
+                            
+                    
+Instance: bundlepackageleaflet-da-9fab9f40152a9abf5de2f7daf83b1bd5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for viekirax Package Leaflet for language da"
+Description: "ePI document Bundle for viekirax Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-9fab9f40152a9abf5de2f7daf83b1bd5"
+* entry[0].resource = composition-da-9fab9f40152a9abf5de2f7daf83b1bd5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9fab9f40152a9abf5de2f7daf83b1bd5"
+* entry[=].resource = mp9fab9f40152a9abf5de2f7daf83b1bd5
+                            
+                    
+
+
+
+Instance: mp9fab9f40152a9abf5de2f7daf83b1bd5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Viekirax 12.5 mg/75 mg/50 mg film-coated tablets"
-Description: "Viekirax 12.5 mg/75 mg/50 mg film-coated tablets"
+Title: "Medicinal Product viekirax"
+Description: "viekirax"
 Usage: #inline
 
  
@@ -496,7 +1090,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Viekirax 12.5 mg/75 mg/50 mg film-coated tablets"
+  * productName = "viekirax"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -523,29 +1117,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-9fab9f40152a9abf5de2f7daf83b1bd5
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for viekirax Package Leaflet for language en"
-Description: "ePI document Bundle for viekirax Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 9fab9f40152a9abf5de2f7daf83b1bd5ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/982/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "viekirax"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-9fab9f40152a9abf5de2f7daf83b1bd5"
-* entry[0].resource = composition-en-9fab9f40152a9abf5de2f7daf83b1bd5
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp58741a4bb50cdccbe7cb23b799143189"
-* entry[=].resource = mp58741a4bb50cdccbe7cb23b799143189
-                            
-                      
+* title = "List of all ePIs associated with viekirax"
+
+* subject = Reference(mp58741a4bb50cdccbe7cb23b799143189)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#viekirax "viekirax"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-9fab9f40152a9abf5de2f7daf83b1bd5) // viekirax en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-9fab9f40152a9abf5de2f7daf83b1bd5) // viekirax da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-9fab9f40152a9abf5de2f7daf83b1bd5
+InstanceOf: List
+
+* insert 9fab9f40152a9abf5de2f7daf83b1bd5ListRuleset
+    

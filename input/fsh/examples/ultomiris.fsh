@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1d2f698bc3b19bc75adea93b8b5c0811
 InstanceOf: CompositionUvEpi
 Title: "Composition for ultomiris Package Leaflet"
@@ -436,12 +439,682 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-1d2f698bc3b19bc75adea93b8b5c0811
+InstanceOf: CompositionUvEpi
+Title: "Composition for ultomiris Package Leaflet"
+Description:  "Composition for ultomiris Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp4d8bd2b2ba8c1ac277763e7803a843f7)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp4d8bd2b2ba8c1ac277763e7803a843f7
+* title = "TEST PURPOSES ONLY - ultomiris"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse<br />
+2. Det skal du vide, før du begynder at bruge Ultomiris 
+3. Sådan skal du bruge Ultomiris 
+4. Bivirkninger<br />
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ultomiris is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ultomiris is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
+Ultomiris er et lægemiddel, som indeholder det aktive stof ravulizumab, og det tilhører en klasse af 
+lægemidler, der kaldes monoklonale antistoffer, som binder sig til et specifikt mål i kroppen. 
+Ravulizumab er beregnet til at binde sig til C5-komplementproteinet, som er en del af kroppens 
+forsvarssystem, kaldet "komplementsystemet". </p>
+<p>Anvendelse 
+Ultomiris anvendes til at behandle voksne patienter og børnepatienter på 10 kg og derover med en 
+sygdom, der kaldes paroksystisk nokturn hæmoglobinuri (PNH), herunder patienter, der ikke er blevet 
+behandlet med komplementhæmmer, og patienter, som har fået eculizumab i mindst de sidste 
+6 måneder. Hos patienter med PNH er komplementsystemet overaktivt og angriber de røde 
+blodlegemer, hvilket kan føre til et lavt antal blodlegemer (anæmi), træthed, problemer med at 
+fungere, smerter, mavesmerter, mørk urin, stakåndethed, synkebesvær, rejsningsproblemer og 
+blodpropper. Ved at binde sig til og blokere C5-komplementproteinet, kan dette lægemiddel forhindre, 
+at komplementproteinerne angriber de røde blodlegemer, og dermed kontrollere symptomerne på 
+sygdommen. </p>
+<p>Ultomiris anvendes også til at behandle voksne patienter og børnepatienter på 10 kg og derover for en 
+sygdom, der påvirker blodsystemet og nyrerne, og som hedder atypisk hæmolytisk uræmisk syndrom 
+(aHUS), herunder patienter, der ikke er blevet behandlet med komplementhæmmer, og patienter, som 
+har fået eculizumab i mindst 3 måneder. Hos patienter med aHUS kan deres nyrer og blodkar, 
+herunder blodplader, blive betændte, hvilket kan medføre lave blodtal (trombocytopeni og 
+blodmangel), nedsat eller manglende nyrefunktion, blodpropper, træthed og funktionsnedsættelse. 
+Ultomiris kan blokere kroppens betændelsesreaktion og dens evne til at angribe og ødelægge sine egne 
+sårbare blodkar og dermed kontrollere sygdommens symptomer, herunder nyreskade. </p>
+<p>Ultomiris anvendes også til at behandle voksne patienter med en bestemt type sygdom, der påvirker 
+musklerne og kaldes generaliseret myasthenia gravis (gMG). Hos patienter med gMG kan deres 
+muskler blive angrebet og beskadiget af immunsystemet, hvilket kan føre til udtalt muskelsvaghed, 
+nedsat syn og mobilitet, kortåndethed, ekstrem træthed, aspirationsrisiko og markant reduktion i 
+dagligdags aktiviteter. Ultomiris kan blokere kroppens inflammatoriske respons og dens evne til at 
+angribe og ødelægge dens egne muskler til forbedring af muskelkontraktion, hvilket derved reducerer 
+symptomer på sygdommen og sygdommens påvirkning af de dagligdags aktiviteter. Ultomiris er 
+specifikt indiceret til patienter, der fortsat har symptomer på trods af behandling med andre terapier. </p>
+<p>Ultomiris anvendes også til at behandle voksne patienter med en sygdom i centralnervesystemet, der 
+hovedsageligt berører synsnerverne og rygmarven, og som kaldes neuromyelitis optica 
+spektrumforstyrrelse (NMOSD). Hos patienter med NMOSD angribes og beskadiges synsnerverne og 
+rygmarven af et forkert fungerende immunsystem, hvilket kan medføre synstab på det ene eller begge 
+øjne, kraftesløshed eller bevægelseshæmning i benene eller armene, smertefulde spasmer, 
+følelsesløshed, problemer med blære- og tarmfunktion og markante vanskeligheder ved aktiviteter i 
+hverdagen. Ultomiris kan blokere kroppens unormale immunrespons og dets evne til at angribe og 
+ødelægge kroppens egen synsnerve og rygmarv, hvilket mindsker risikoen for tilbagefald eller anfald 
+af NMOSD. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ultomiris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ultomiris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ultomiris 
+- hvis du er allergisk over for ravulizumab eller et af de øvrige indholdsstoffer i Ultomiris 
+(angivet i punkt 6). 
+- hvis du ikke er blevet vaccineret mod meningokokinfektion. 
+- hvis du har en meningokokinfektion. </p>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, før du bruger Ultomiris. </p>
+<p>Symptomer på meningokok- og andre Neisseria-infektioner 
+Da lægemidlet blokerer komplementsystemet, som er en del af kroppens forsvar mod infektion, øger 
+brugen af Ultomiris din risiko for en meningokokinfektion (som skyldes Neisseria meningitidis). Det 
+er en svær infektion i hjernehinderne, som kan forårsage betændelse i hjernen (encefalitis), og som kan 
+sprede sig i hele kroppen og i blodet (sepsis). </p>
+<p>Kontakt lægen, før du starter med Ultomiris, for at sikre, at du får en vaccination mod Neisseria 
+meningitidis mindst 2 uger før, du begynder behandlingen. Hvis du ikke kan vaccineres 2 uger før, vil 
+lægen udskrive en recept på antibiotika for at nedsætte infektionsrisikoen indtil 2 uger efter, at du er 
+blevet vaccineret. Sørg for, at din nuværende meningokokvaccination stadig dækker. Du skal også 
+være opmærksom på, at vaccinationen måske ikke altid forebygger denne infektionstype. I 
+overensstemmelse med nationale anbefalinger kan lægen anse det for nødvendigt, at der iværksættes 
+ekstra foranstaltninger for at undgå en infektion. </p>
+<p>Symptomer på meningokokinfektion </p>
+<p>Da det er vigtigt hurtigt at identificere og behandle en meningokokinfektion hos patienter, der får 
+Ultomiris, vil du få et patientkort, som du hele tiden skal have på dig, med en liste over relevante tegn 
+og symptomer på meningokokinfektion/sepsis/encefalitis. </p>
+<p>Hvis du får et eller flere af følgende symptomer, skal du straks informere lægen:</p>
+<ul>
+<li>hovedpine med kvalme eller opkastning </li>
+<li>hovedpine og feber </li>
+<li>hovedpine med stiv nakke eller stiv ryg </li>
+<li>feber </li>
+<li>feber og udslæt </li>
+<li>forvirring </li>
+<li>muskelsmerter med influenzalignende symptomer </li>
+<li>lysfølsomme øjne </li>
+</ul>
+<p>Behandling mod meningokokinfektion på rejser </p>
+<p>Hvis du rejser til et sted, hvor du ikke kan kontakte lægen eller i perioder ikke kan få medicinsk 
+behandling, kan lægen udskrive en recept på et antibiotikum mod Neisseria meningitidis, som du kan 
+tage med dig. Hvis du oplever et eller flere af de symptomer, som er beskrevet ovenfor, skal du tage 
+den ordinerede antibiotikakur. Du skal stadig huske at tage til lægen hurtigst muligt, selv hvis du får 
+det bedre, efter du har taget antibiotikummet. </p>
+<p>Infektioner 
+Før du begynder med Ultomiris, skal du fortælle det til lægen, hvis du har en eller flere infektioner. </p>
+<p>Infusionsrelaterede reaktioner 
+Når Ultomiris gives, kan du opleve reaktioner mod infusionen (droppet) (infusionsreaktion), såsom 
+hovedpine, smerter i lænden og infusionsrelaterede smerter. Nogle patienter kan få allergiske 
+reaktioner eller overfølsomhedsreaktioner (herunder anafylaksi, en alvorlig allergisk reaktion, som 
+giver vejrtrækningsbesvær eller svimmelhed). </p>
+<p>Børn og unge 
+Patienter under 18 år skal vaccineres mod Haemophilus influenzae og pneumokokinfektioner. </p>
+<p>Ældre 
+Der er ikke behov for specielle forholdsregler ved behandling af patienter i alderen fra 65 år og 
+derover, om end erfaring med Ultomiris til ældre patienter med PNH, aHUS eller NMOSD i kliniske 
+studier er begrænset. </p>
+<p>Brug af andre lægemidler sammen med Ultomiris 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Graviditet, amning og frugtbarhed </p>
+<p>Kvinder i den fødedygtige alder </p>
+<p>Lægemidlets virkning på det ufødte barn er ikke kendt. Derfor bør kvinder, som kan blive gravide, 
+bruge sikker prævention i løbet af behandlingen og i 8 måneder efter behandlingen. </p>
+<p>Graviditet/amning </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. 
+Ultomiris bør ikke anvendes under graviditeten og til kvinder i den fødedygtige alder, som ikke 
+anvender sikker prævention.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Dette lægemiddel påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene 
+maskiner. </p>
+<p>Ultomiris indeholder natrium 
+Efter fortynding med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, indeholder dette 
+lægemiddel 2,65 g natrium (hovedkomponent af madlavnings-/bordsalt) pr. 720 ml ved maksimal 
+dosis. Dette svarer til 133 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. 
+Du bør tage hensyn til dette, hvis du er på en saltfattig diæt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ultomiris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ultomiris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Mindst 2 uger før du starter behandlingen med Ultomiris, vil lægen give dig en vaccine mod 
+meningokokinfektioner, hvis du ikke tidligere har fået en sådan, eller hvis din vaccination er for 
+gammel. Hvis du ikke kan blive vaccineret mindst 2 uger før, du starter behandlingen med Ultomiris, 
+vil lægen ordinere antibiotika for at nedsætte risikoen for infektion indtil 2 uger efter, du er blevet 
+vaccineret. Hvis dit barn er under 18 år, vil din læge give en vaccine (hvis det ikke allerede er gjort) 
+mod Haemophilus influenzae og pneumokokinfektioner ifølge de nationale anbefalinger om 
+vaccination for den enkelte aldersgruppe. </p>
+<p>Anvisninger i korrekt brug 
+Lægen vil beregne din dosis Ultomiris baseret på din legemsvægt som vist i tabel 1. Den første dosis 
+kaldes støddosen. 2 uger efter, du har fået din støddosis, vil du få en vedligeholdelsesdosis af 
+Ultomiris, som vil blive gentaget en gang hver 8. uge for patienter, der vejer over 20 kg, og hver 4. uge 
+for patienter, der vejer mindre end 20 kg. </p>
+<p>Hvis du tidligere har fået Ultomiris subkutant (indgivet under huden via en injektor, der bæres på 
+kroppen), er en støddosis ikke nødvendig. Vedligeholdelsesdosen af intravenøs Ultomiris skal gives 
+1 uge efter den sidste dosis af den subkutane formulering af Ultomiris. </p>
+<p>Hvis du tidligere har fået et andet lægemiddel mod PNH, aHUS, gMG eller NMOSD kaldet 
+eculizumab, skal støddosen gives 2 uger efter den sidste infusion med eculizumab. </p>
+<p>Tabel 1: 
+Ultomiris vægtbaseret doseringsprogram 
+Legemsvægtinterval (kg) 
+Støddosis (mg) 
+Vedligeholdelsesdosis (mg) 
+10 til under 20a 
+20 til under 30a 
+2.30 til under 40a 
+1.2.40 til under 2.3.60 til under 2.3.over 3.3.a Kun for patienter med PNH og aHUS. </p>
+<p>Ultomiris gives ved infusion (drop) i en vene. Infusionen vil tage omkring 2 timer. </p>
+<p>Hvis du har fået for meget Ultomiris<br />
+Hvis du har mistanke om, at du ved et uheld har fået en højere dosis af Ultomiris end ordineret, skal du 
+kontakte lægen med henblik på rådgivning. </p>
+<p>Hvis du har glemt en aftale, hvor du skulle have haft Ultomiris 
+Hvis du har glemt en aftale, skal du straks kontakte lægen for rådgivning og se punktet nedenfor "Hvis 
+du holder op med at bruge Ultomiris". </p>
+<p>Hvis du holder op med at bruge Ultomiris mod PNH 
+Hvis du afbryder eller stopper behandlingen med Ultomiris, kan det få dine PNH-symptomer til at 
+komme tilbage med en større sværhedsgrad. Lægen vil diskutere de mulige bivirkninger med dig og 
+forklare dine risici. Lægen vil ønske at overvåge dig nøje i mindst 16 uger. </p>
+<p>Risiciene ved at stoppe Ultomiris omfatter en øget nedbrydning af dine røde blodlegemer, hvilket kan 
+forårsage:</p>
+<ul>
+<li>En stigning i niveauet af lactatdehydrogenase (LDH), en laboratoriemarkør for nedbrydningen 
+af røde blodlegemer, </li>
+<li>Et betydeligt fald i dit antal af røde blodlegemer (anæmi), </li>
+<li>Mørk urin, </li>
+<li>Træthed, </li>
+<li>Mavesmerter, </li>
+<li>Kortåndethed, </li>
+<li>Synkebesvær, </li>
+<li>Impotens (erektil dysfunktion), </li>
+<li>Forvirring eller ændret opmærksomhedsniveau, </li>
+<li>Brystsmerter eller angina, </li>
+<li>En forhøjelse i niveauet af serum-kreatinin (problemer med nyrerne) eller </li>
+<li>Blodprop (trombose). </li>
+</ul>
+<p>Hvis du har et eller flere af disse symptomer, skal du kontakte lægen. </p>
+<p>Hvis du holder op med at bruge Ultomiris mod aHUS<br />
+Hvis din behandling med Ultomiris afbrydes eller ophører helt, kan dine symptomer på aHUS vende 
+tilbage. Din læge vil tale med dig om de mulige bivirkninger og forklare risikoen. Din læge vil 
+overvåge dig tæt. </p>
+<p>Risikoen ved at ophøre med Ultomiris omfatter en stigning i skader på de små blodkar, og det kan 
+forårsage:</p>
+<ul>
+<li>Et betydeligt fald i blodplader (trombocytopeni), </li>
+<li>En betydelig stigning i ødelæggelse af dine røde blodlegemer, </li>
+<li>En stigning i niveauet af lactatdehydrogenase (LDH), en laboratoriemarkør for nedbrydningen 
+af røde blodlegemer, </li>
+<li>Nedsat urinproduktion (problemer med nyrerne), </li>
+<li>En stigning i niveauet af serum-kreatinin (problemer med nyrerne), </li>
+<li>Forvirring eller ændret opmærksomhedsniveau, </li>
+<li>Forandringer i dit syn, </li>
+<li>Brystsmerter eller angina, </li>
+<li>Kortåndethed, </li>
+<li>Mavesmerter, diarré eller </li>
+<li>Blodprop (trombose). </li>
+</ul>
+<p>Hvis du har et eller flere af disse symptomer, skal du kontakte lægen. </p>
+<p>Hvis du holder op med at bruge Ultomiris mod gMG 
+Hvis din behandling med Ultomiris afbrydes eller stoppes, kan det medføre, at du får dine gMG-
+symptomer. Tal med lægen, før du stopper med Ultomiris. Din læge vil tale med dig om mulige 
+bivirkninger og risici. Din læge vil endvidere overvåge dig tæt. </p>
+<p>Hvis du holder op med at bruge Ultomiris mod NMOSD 
+Hvis din behandling med Ultomiris afbrydes eller stoppes, kan det medføre, at du får tilbagefald af 
+NMOSD. Tal med lægen, før du stopper med Ultomiris. Din læge vil tale med dig om mulige 
+bivirkninger og risici. Din læge vil endvidere overvåge dig tæt. </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Lægen vil diskutere de mulige bivirkninger med dig og forklare risiciene og fordelene ved Ultomiris 
+for dig før din behandling. </p>
+<p>Den mest alvorlige bivirkning er meningokokinfektion, herunder meningokoksepsis og meningokok-
+encefalitis. 
+Hvis du oplever et eller flere af symptomerne på meningokokinfektion (se punkt 2 "Symptomer på 
+meningokokinfektion"), skal du straks fortælle det til lægen. </p>
+<p>Hvis du er i tvivl om, hvad de nedenstående bivirkninger er, skal du bede lægen om at forklare dem for 
+dig. </p>
+<p>Meget almindelig (kan forekomme hos flere end 1 ud af 10 personer):</p>
+<ul>
+<li>hovedpine </li>
+<li>diarré, kvalme, mavesmerter </li>
+<li>feber (pyreksi), træthed (udmattelse)  </li>
+<li>infektion af de øvre luftveje </li>
+<li>forkølelse (nasofaryngitis) </li>
+<li>rygsmerter, ledsmerter (artralgi) </li>
+</ul>
+<p>Almindelig (kan forekomme hos op til 1 ud af 10 personer):</p>
+<ul>
+<li>svimmelhed </li>
+<li>opkastning, ubehag i maven efter måltider (dyspepsi) </li>
+<li>nældefeber, udslæt, kløende hud (pruritus) </li>
+<li>muskelsmerter (myalgi) og muskelspasmer </li>
+<li>influenzalignende sygdom, kulderystelser, svaghed (asteni) </li>
+<li>infusionsrelateret reaktion </li>
+<li>allergisk reaktion (overfølsomhed) </li>
+<li>urinvejsinfektion </li>
+</ul>
+<p>Ikke almindelig (kan forekomme hos op til 1 ud af 100 personer):</p>
+<ul>
+<li>meningokokinfektion </li>
+<li>alvorlig allergisk reaktion, som giver vejrtrækningsbesvær eller svimmelhed (anafylaktisk 
+reaktion) </li>
+<li>gonokokinfektion </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ultomiris"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ultomiris"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter "EXP". Udløbsdatoen er den sidste 
+dag i den nævnte måned. 
+Opbevares i køleskab (2 °C–8 °C).<br />
+Må ikke nedfryses. </p>
+<p>Opbevares i den originale yderpakning for at beskytte mod lys. 
+Efter fortynding med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning skal lægemidlet 
+bruges straks eller inden for 24 timer, hvis det er i køleskab, eller inden for 6 timer ved stuetemperatur. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ultomiris indeholder:</p>
+<ul>
+<li>Aktivt stof: ravulizumab. Hvert hætteglas med opløsning indeholder 300 mg ravulizumab. </li>
+<li>Øvrige indholdsstoffer: dinatriumphosphat-heptahydrat, natriumdihydrogenphosphat-
+monohydrat, natriumchlorid, polysorbat 80, vand til injektionsvæsker. </li>
+</ul>
+<p>Dette lægemiddel indeholder natrium (se punkt 2 "Ultomiris indeholder natrium"). </p>
+<p>Udseende og pakningsstørrelser 
+Ultomiris fås som et koncentrat til injektionsvæske, opløsning (30 ml i et hætteglas – 
+pakningsstørrelse på 1). 
+Ultomiris er en klar til gennemsigtig opløsning med let hvidlig farve, der er så godt som fri for 
+partikler. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Alexion Europe SAS 
+103-105, rue Anatole France 
+92300 Levallois-Perret 
+Frankrig </p>
+<p>Fremstiller 
+Alexion Pharma International Operations Limited 
+Alexion Dublin Manufacturing Facility 
+College Business and Technology Park 
+Blanchardstown Road North 
+Dublin 15, D15 RIrland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Alexion Pharma Belgium 
+Tél/Tel: +32 0 800 200<br />
+Lietuva 
+UAB AstraZeneca Lietuva 
+Tel: +370 5 2660 
+България 
+АстраЗенека България ЕООД 
+Teл.: +359 24455 
+Luxembourg/Luxemburg 
+Alexion Pharma Belgium 
+Tél/Tel: +32 0 800 200<br />
+Česká republika 
+AstraZeneca Czech Republic s.r.o. 
+Tel: +420 222 807 Magyarország 
+AstraZeneca Kft. 
+Tel.: +36 1 883 6 
+Danmark 
+Alexion Pharma Nordics AB 
+Tlf.: +46 0 8 557 727<br />
+Malta 
+Alexion Europe SAS 
+Tel: +353 1 800 882 Deutschland 
+Alexion Pharma Germany GmbH 
+Tel: +49 (0) 89 45 70 91 Nederland 
+Alexion Pharma Netherlands B.V. 
+Tel: +32 (0)2 548 36 Eesti 
+AstraZeneca 
+Tel: +372 6549<br />
+Norge 
+Alexion Pharma Nordics AB 
+Tlf: +46 (0)8 557 727 50  </p>
+<p>Ελλάδα 
+AstraZeneca A.E. 
+Τηλ: +30 210 6871 
+Österreich 
+Alexion Pharma Austria GmbH 
+Tel: +41 44 457 40<br />
+España 
+Alexion Pharma Spain, S.L. 
+Tel: +34 93 272 30<br />
+Polska 
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel.: +48 22 245 73<br />
+France 
+Alexion Pharma France SAS 
+Tél: +33 1 47 32 36<br />
+Portugal 
+Alexion Pharma Spain, S.L. - Sucursal em 
+Portugal<br />
+Tel: +34 93 272 30<br />
+Hrvatska 
+AstraZeneca d.o.o. 
+Tel: +385 1 4628<br />
+România 
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60 41<br />
+Ireland 
+Alexion Europe SAS 
+Tel: +353 1 800 882<br />
+Slovenija 
+AstraZeneca UK Limited 
+Tel: +386 1 51 35<br />
+Ísland 
+Alexion Pharma Nordics AB 
+Sími: +46 0 8 557 727 Slovenská republika 
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7 
+Italia 
+Alexion Pharma Italy srl 
+Tel: +39 02 7767 9211  </p>
+<p>Suomi/Finland 
+Alexion Pharma Nordics AB 
+Puh/Tel: +46 0 8 557 727 50<br />
+Κύπρος 
+Alexion Europe SAS 
+Τηλ: +357 22490 
+Sverige 
+Alexion Pharma Nordics AB 
+Tel: +46 0 8 557 727<br />
+Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377 
+United Kingdom (Northern Ireland) 
+Alexion Europe SAS 
+Tel: +44 (0) 800 028 4 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>
+<p>------------------------------------------------------------------------------------------------------------------------ Nedenstående oplysninger er kun til sundhedspersoner:   </p>
+<p>Brugsanvisning til sundhedspersoner 
+Håndtering af Ultomiris 300 mg/30 ml koncentrat til infusionsvæske, opløsning </p>
+<p>1- Sådan leveres Ultomiris 
+Hvert hætteglas med Ultomiris indeholder 300 mg aktivt stof i en 30 ml lægemiddelopløsning. </p>
+<p>For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres. </p>
+<p>2- Før administration 
+Fortynding skal udføres i overensstemmelse med reglerne for god praksis, især hvad angår aseptiske 
+teknikker. </p>
+<p>Da der ikke foreligger studier af eventuelle uforligeligheder, må Ultomiris 300 mg/30 ml koncentrat til 
+infusionsvæske, opløsning ikke blandes med Ultomiris 300 mg/3 ml eller 1.100 mg/11 ml koncentrater 
+til infusionsvæske, opløsning. </p>
+<p>Ultomiris skal klargøres til administration af kvalificerede sundhedspersoner ved anvendelse af 
+aseptisk teknik.<br />
+- Ultomiris-opløsningen skal inspiceres visuelt for partikler og misfarvning. 
+- Træk den påkrævede mængde Ultomiris op fra hætteglasset/hætteglassene med en steril sprøjte. 
+- Overfør den anbefalede dosis til en infusionspose. 
+- Fortynd Ultomiris til en endelig koncentration på 5 mg/ml (indledende koncentration delt med 
+2) ved at tilsætte den passende mængde natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, 
+opløsning til infusionen i henhold til anvisningerne anført i tabellen nedenfor.  </p>
+<p>Tabel 1: Referencetabel for administration af støddosis 
+Legemsvægt-
+interval (kg)a 
+Støddosis 
+(mg) 
+Ultomiris-
+volumen (ml) 
+Volumen af 
+NaCl-
+fortyndingsmid
+delb (ml) 
+Totalt volumen 
+(ml) 
+Korteste 
+infusionsvarighed 
+minutter (timer) 
+≥ 10 til &lt; 20c 
+113 (1,9) 
+≥ 20 til &lt; 30c 
+86 (1,5) 
+≥ 30 til &lt; 40c 
+1.77 (1,3) 
+≥ 40 til &lt; 2.114 (1,9) 
+≥ 60 til &lt; 2.102 (1,7) 
+≥ 3.108 (1,8) 
+a Legemsvægt på behandlingstidspunktet.<br />
+b Ultomiris må kun fortyndes med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning.<br />
+c Kun for PNH- og aHUS-indikationer. </p>
+<p>Tabel 2: Referencetabel for administration af vedligeholdelsesdosis 
+Legemsvægt-
+interval (kg)a 
+Vedligeholdel-
+sesdosis (mg) 
+Ultomiris-
+volumen (ml) 
+Volumen af 
+NaCl-
+fortyndingsmid
+delb (ml) 
+Totalt volumen 
+(ml) 
+Korteste 
+infusionsvarighed 
+minutter (timer) 
+≥ 10 til &lt; 20c 
+113 (1,9) 
+≥ 20 til &lt; 30c 
+2.194 (3,3) 
+≥ 30 til &lt; 40c 
+2.167 (2,8) 
+≥ 40 til &lt; 3.140 (2,3) 
+≥ 60 til &lt; 3.120 (2,0) 
+≥ 3.132 (2,2) 
+a Legemsvægt på behandlingstidspunktet. 
+b Ultomiris må kun fortyndes med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning. 
+c Kun for PNH- og aHUS-indikationer. </p>
+<p>Tabel 3: Referencetabel for administration af supplerende dosis 
+Legemsvægt-
+interval (kg)a 
+Supplerende 
+dosis (mg) 
+Ultomiris-
+volumen (ml) 
+Volumen af 
+NaCl-
+fortyndings-
+middelb (ml) 
+Totalt volumen 
+(ml) 
+Korteste 
+infusionsvarighed 
+minutter (timer) 
+≥ 40 til &lt;<br />
+30 (0,5) 
+1.60 (1,0) 
+1.72 (1,2) 
+≥ 60 til &lt; 23 (0,4) 
+1.60 (1,0) 
+1.65 (1,1) 
+≥ 22 (0,4) 
+1.60 (1,0) 
+1.65 (1,1) 
+a Legemsvægt på behandlingstidspunktet. 
+b Ultomiris må kun fortyndes med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning. </p>
+<ul>
+<li>Infusionsposen med den fortyndede Ultomiris-opløsning rystes forsigtigt for at sikre, at 
+lægemidlet og fortyndingsmidlet blandes grundigt. Ultomiris må ikke omrystes. </li>
+<li>Den fortyndede opløsning skal have tid til at nå stuetemperatur (18 °C – 25 °C) før 
+administration ved eksponering for omgivende luft i ca. 30 minutter. </li>
+<li>Den fortyndede opløsning må ikke opvarmes i en mikrobølgeovn eller med andre varmekilder 
+end den omgivende rumtemperatur. </li>
+<li>Eventuel ubrugt opløsning i hætteglasset skal bortskaffes, da lægemidlet ikke indeholder nogen 
+konserveringsmidler. </li>
+<li>Den klargjorte opløsning skal administreres straks efter fortynding. Infusionen skal 
+administreres via et 0,2 µm filter. </li>
+<li>Hvis lægemidlet ikke anvendes straks efter fortynding, må opbevaringstiderne ikke overskride 
+24 timer ved 2 °C – 8 °C eller 6 timer ved stuetemperatur under hensyntagen til den forventede 
+infusionstid.  </li>
+</ul>
+<p>3- Administration 
+- Ultomiris må ikke administreres som en hurtig intravenøs injektion eller bolusinjektion. 
+- Ultomiris må kun administreres via en intravenøs infusion. 
+- Den fortyndede opløsning af Ultomiris skal administreres som en intravenøs infusion over ca. 
+2 timer ved brug af en pumpe af sprøjtetypen eller en infusionspumpe. Det er ikke nødvendigt at 
+beskytte den fortyndede opløsning af Ultomiris mod lys under administration til patienten. 
+Patienten skal overvåges i en time efter infusionen. Hvis der opstår en bivirkning under 
+administrationen af Ultomiris, kan infusionshastigheden sænkes eller infusionen stoppes efter lægens 
+vurdering. </p>
+<p>4- Særlig håndtering og opbevaring 
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Opbevares i den originale yderpakning for at 
+beskytte mod lys. 
+Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter "EXP". Udløbsdatoen er den 
+sidste dag i den nævnte måned. </p>
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
+<p>Indlægsseddel: Information til brugeren </p>
+<p>Ultomiris 1.100 mg/11 ml koncentrat til infusionsvæske, opløsning 
+ravulizumab </p>
+<p>Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes 
+nye oplysninger om sikkerheden. Du kan hjælpe ved at indberette alle de bivirkninger, du får. Se sidst 
+i punkt 4, hvordan du indberetter bivirkninger. </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1d2f698bc3b19bc75adea93b8b5c0811
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ultomiris Package Leaflet for language en"
+Description: "ePI document Bundle for ultomiris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1d2f698bc3b19bc75adea93b8b5c0811"
+* entry[0].resource = composition-en-1d2f698bc3b19bc75adea93b8b5c0811
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1d2f698bc3b19bc75adea93b8b5c0811"
+* entry[=].resource = mp1d2f698bc3b19bc75adea93b8b5c0811
+                            
+                    
+Instance: bundlepackageleaflet-da-1d2f698bc3b19bc75adea93b8b5c0811
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ultomiris Package Leaflet for language da"
+Description: "ePI document Bundle for ultomiris Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1d2f698bc3b19bc75adea93b8b5c0811"
+* entry[0].resource = composition-da-1d2f698bc3b19bc75adea93b8b5c0811
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1d2f698bc3b19bc75adea93b8b5c0811"
+* entry[=].resource = mp1d2f698bc3b19bc75adea93b8b5c0811
+                            
+                    
+
+
+
+Instance: mp1d2f698bc3b19bc75adea93b8b5c0811
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ultomiris 300 mg/3 mL concentrate for solution for infusion"
-Description: "Ultomiris 300 mg/3 mL concentrate for solution for infusion"
+Title: "Medicinal Product ultomiris"
+Description: "ultomiris"
 Usage: #inline
 
  
@@ -461,7 +1134,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ultomiris 300 mg/3 mL concentrate for solution for infusion"
+  * productName = "ultomiris"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -488,29 +1161,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1d2f698bc3b19bc75adea93b8b5c0811
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ultomiris Package Leaflet for language en"
-Description: "ePI document Bundle for ultomiris Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1d2f698bc3b19bc75adea93b8b5c0811ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/19/1371/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ultomiris"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1d2f698bc3b19bc75adea93b8b5c0811"
-* entry[0].resource = composition-en-1d2f698bc3b19bc75adea93b8b5c0811
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp4d8bd2b2ba8c1ac277763e7803a843f7"
-* entry[=].resource = mp4d8bd2b2ba8c1ac277763e7803a843f7
-                            
-                      
+* title = "List of all ePIs associated with ultomiris"
+
+* subject = Reference(mp4d8bd2b2ba8c1ac277763e7803a843f7)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ultomiris "ultomiris"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1d2f698bc3b19bc75adea93b8b5c0811) // ultomiris en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1d2f698bc3b19bc75adea93b8b5c0811) // ultomiris da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1d2f698bc3b19bc75adea93b8b5c0811
+InstanceOf: List
+
+* insert 1d2f698bc3b19bc75adea93b8b5c0811ListRuleset
+    

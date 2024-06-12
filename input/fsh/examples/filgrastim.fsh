@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-cd70f62eba1153d01bd949ce98b7c6ac
 InstanceOf: CompositionUvEpi
 Title: "Composition for filgrastim Package Leaflet"
@@ -452,12 +455,762 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-cd70f62eba1153d01bd949ce98b7c6ac
+InstanceOf: CompositionUvEpi
+Title: "Composition for filgrastim Package Leaflet"
+Description:  "Composition for filgrastim Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp60c5b02a7f54e1f23948715a3ee7ca0b)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp60c5b02a7f54e1f23948715a3ee7ca0b
+* title = "TEST PURPOSES ONLY - filgrastim"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge Filgrastim HEXAL </li>
+<li>Sådan skal du bruge Filgrastim HEXAL </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What filgrastim is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What filgrastim is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Filgrastim HEXAL er en vækstfaktor for hvide blodlegemer (granulocytkoloni-stimulerende faktor) og 
+tilhører en gruppe proteiner ved navn cytokiner. Vækstfaktorer er proteiner, der dannes naturligt i 
+kroppen, men de kan også fremstilles ved hjælp af bioteknologi, så de kan bruges som et lægemiddel. 
+Filgrastim HEXAL virker ved at anspore knoglemarven, så den producerer flere hvide blodlegemer. </p>
+<p>Et fald i antallet af hvide blodlegemer (neutropeni) kan opstå af flere årsager, og det gør din krop 
+mindre i stand til at bekæmpe infektioner. Filgrastim HEXAL stimulerer knoglemarven, så der hurtigt 
+dannes nye hvide blodlegemer. </p>
+<p>Filgrastim HEXAL kan anvendes: </p>
+<ul>
+<li>
+<p>til at øge antallet af hvide blodlegemer efter behandling med kemoterapi for at hjælpe med at 
+forebygge infektioner, </p>
+</li>
+<li>
+<p>til at øge antallet af hvide blodlegemer efter en knoglemarvstransplantation for at hjælpe med at 
+forebygge infektioner, </p>
+</li>
+<li>
+<p>før højdosis-kemoterapi for at få knoglemarven til at danne flere stamceller, som kan indsamles 
+og gives tilbage til dig efter din behandling. Disse kan tages fra dig eller fra en donor. 
+Stamcellerne vil så nå tilbage til knoglemarven og danne blodlegemer, </p>
+</li>
+<li>
+<p>til at øge antallet af hvide blodlegemer, hvis du lider af svær, kronisk neutropeni, for at hjælpe 
+med at forebygge infektioner, </p>
+</li>
+<li>
+<p>hos patienter med fremskreden hiv-infektion, hvor det vil hjælpe med at reducere risikoen for 
+infektioner. </p>
+</li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take filgrastim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take filgrastim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Filgrastim HEXAL 
+- hvis du er allergisk over for filgrastim eller et af de øvrige indholdsstoffer i Filgrastim HEXAL 
+(angivet i punkt 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Filgrastim HEXAL. </p>
+<p>Fortæl det til din læge, før du påbegynder behandlingen, hvis du:</p>
+<ul>
+<li>har knogleskørhed (knoglesygdom), </li>
+<li>har seglcelleanæmi, da Filgrastim HEXAL kan forårsage seglcellekrise. </li>
+</ul>
+<p>Du skal straks fortælle det til din læge, hvis du i løbet af behandlingen med Filgrastim HEXAL:</p>
+<ul>
+<li>får smerter i den øverste venstre side af maven (abdomen), smerter under de venstre ribben eller 
+ved spidsen af venstre skulder [det kan være symptomer på en forstørret milt (splenomegali) 
+eller en mulig sprængt milt]. </li>
+<li>bemærker usædvanlige blødninger eller blå mærker [det kan være symptomer på et nedsat antal 
+blodplader (trombocytopeni) og nedsat koagulationsevne (blodet har sværere ved at størkne)]. </li>
+<li>får pludselige tegn på allergi som f.eks. udslæt, kløe eller nældefeber på huden, hævelse i 
+ansigtet, læberne, tungen eller andre steder på kroppen, åndenød, hvæsende eller besværet 
+vejrtrækning, da dette kan være tegn på en alvorlig allergisk reaktion (overfølsomhed). </li>
+<li>får hævelser i ansigt, eller dine ankler hæver, får blod i urinen eller brunfarvet urin, eller du 
+bemærker, at du ikke lader vandet så hyppigt som normalt (glomerulonefritis). </li>
+<li>har symptomer på betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i 
+kroppen). Dette blev indberettet i sjældne tilfælde hos kræftpatienter og raske donorer. 
+Symptomerne kan omfatte feber, mavesmerter, utilpashed, rygsmerter og øgede 
+betændelsesmarkører. Fortæl det til lægen, hvis du oplever disse symptomer. </li>
+</ul>
+<p>Tab af respons på filgrastim </p>
+<p>Hvis du oplever tab af respons eller ikke kan opretholde respons på behandlingen med filgrastim, vil 
+din læge undersøge årsagerne til dette, herunder om du har udviklet antistoffer, som neutraliserer 
+filgrastims aktivitet. </p>
+<p>Din læge kan ønske at overvåge dig nøje, se punkt 4 i indlægssedlen. </p>
+<p>Hvis du er en patient med svær kronisk neutropeni, kan du have risiko for at udvikle blodkræft 
+(leukæmi, myelodysplastisk syndrom [MDS]). Du bør tale med lægen om dine risici for at udvikle 
+former for blodkræft og om hvilke prøver der skal tages. Hvis du udvikler, eller det er sandsynligt, at 
+du vil udvikle leukæmi, bør du ikke anvende Filgrastim HEXAL, medmindre din læge har anvist det. </p>
+<p>Hvis du er en stamcelledonor, skal du være mellem 16 og 60 år. </p>
+<p>Vær ekstra forsigtig med andre lægemidler, der stimulerer hvide blodlegemer. 
+Filgrastim HEXAL tilhører en gruppe lægemidler, der stimulerer produktionen af hvide blodlegemer. 
+Lægen eller sundhedspersonalet skal altid notere præcist det lægemiddel, du får. </p>
+<p>Brug af andre lægemidler sammen med Filgrastim HEXAL 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager andre lægemidler, for nylig har taget 
+andre lægemidler eller planlægger at tage andre lægemidler. </p>
+<p>Graviditet og amning 
+Filgrastim HEXAL er ikke blevet testet hos gravide eller ammende kvinder. 
+Filgrastim HEXAL bør ikke anvendes under graviditeten. </p>
+<p>Det er vigtigt, at du fortæller det til lægen, hvis du: </p>
+<ul>
+<li>
+<p>er gravid eller ammer </p>
+</li>
+<li>
+<p>har mistanke om, at du er gravid eller </p>
+</li>
+<li>
+<p>planlægger at blive gravid. </p>
+</li>
+</ul>
+<p>Hvis du bliver gravid, mens du er i behandling med Filgrastim HEXAL, skal du fortælle det til din 
+læge. </p>
+<p>Medmindre din læge giver dig andre anvisninger, skal du holde op med at amme, hvis du bruger 
+Filgrastim HEXAL. </p>
+<p>Trafik- og arbejdssikkerhed 
+Filgrastim HEXAL kan i mindre grad påvirke evnen til at føre motorkøretøj og betjene maskiner. 
+Dette lægemiddel kan gøre dig svimmel. Det er tilrådeligt at vente og se, hvordan du har det, efter du 
+tager Filgrastim HEXAL, og før du fører motorkøretøj eller betjener maskiner. </p>
+<p>Filgrastim HEXAL indeholder sorbitol og natrium </p>
+<p>Filgrastim HEXAL indeholder sorbitol (E420).  </p>
+<p>Sorbitol er en kilde til fructose. Hvis du (eller dit barn) har arvelig fructoseintolerans (HFI), en sjælden 
+genetisk lidelse, må du (eller dit barn) ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde 
+fructose, hvilket kan medføre alvorlige bivirkninger.  </p>
+<p>Inden du får dette lægemiddel, skal du fortælle din læge, hvis du (eller dit barn) har HFI, eller hvis dit 
+barn ikke længere må få sød mad eller drikke, fordi barnet føler sig sygt, kaster op eller får 
+ubehagelige bivirkninger som oppustethed, mavekramper eller diarré. </p>
+<p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take filgrastim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take filgrastim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, sygeplejersken 
+eller apotekspersonalet. </p>
+<p>Hvordan gives Filgrastim HEXAL, og hvor meget skal jeg bruge? </p>
+<p>Filgrastim HEXAL gives normalt som en daglig indsprøjtning i vævet lige under huden (det kaldes en 
+subkutan indsprøjtning). Det kan også gives som en daglig langsom indsprøjtning i venen (som kaldes 
+en intravenøs infusion). Den normale dosis varierer afhængigt af din sygdom og din vægt. Din læge vil 
+fortælle dig, hvor meget Filgrastim HEXAL du skal tage. </p>
+<p>Patienter, som får en knoglemarvstransplantation efter kemoterapi: 
+Du vil normalt få din første dosis Filgrastim HEXAL mindst 24 timer efter kemoterapi og mindst 
+24 timer efter, du har gennemgået din knoglemarvstransplantation. </p>
+<p>Du eller dine omsorgspersoner kan få instruktion i, hvordan man giver en subkutan indsprøjtning, så 
+du kan fortsætte behandlingen hjemme. Men du må ikke prøve at gøre dette, medmindre du først har 
+fået grundig instruktion af lægen eller sundhedspersonalet. </p>
+<p>Hvor længe skal jeg tage Filgrastim HEXAL? </p>
+<p>Du skal tage Filgrastim HEXAL indtil antallet af dine hvide blodlegemer er normalt. Der vil tages 
+regelmæssige blodprøver for at overvåge antallet af hvide blodlegemer i din krop. Din læge vil 
+fortælle dig, hvor længe du skal tage Filgrastim HEXAL. </p>
+<p>Brug til børn </p>
+<p>Filgrastim HEXAL anvendes til at behandle børn, som får kemoterapi, eller som har et meget lavt 
+antal hvide blodlegemer (neutropeni). Doseringen til børn, der får kemoterapi, er den samme som for 
+voksne. </p>
+<p>Hvis du har brugt for meget Filgrastim HEXAL </p>
+<p>Du må ikke øge den dosis, lægen har ordineret. Hvis du mener, du har indsprøjtet for meget Filgrastim 
+HEXAL, skal du kontakte din læge så snart som muligt. </p>
+<p>Hvis du har glemt at bruge Filgrastim HEXAL </p>
+<p>Hvis du har glemt en indsprøjtning, eller hvis du har indsprøjtet for lidt, skal du kontakte din læge så 
+snart som muligt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. 
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Fortæl det omgående til lægen under behandlingen: </p>
+<ul>
+<li>
+<p>hvis du oplever en allergisk reaktion, herunder svaghed, blodtryksfald, vejrtrækningsbesvær, 
+hævelser i ansigtet (anafylaksi), hududslæt, kløende udslæt (urticaria), hævelse af ansigtet, 
+læber, mund, tunge eller svælg (angioødem) og stakåndethed (dyspnø). </p>
+</li>
+<li>
+<p>hvis du får hoste, feber og vejrtrækningsproblemer (dyspnø), da det kan være et tegn på 
+shocklunge (akut respiratorisk distress-syndrom, ARDS). </p>
+</li>
+<li>
+<p>hvis du får smerter i den øverste venstre side af maven (abdomen), smerter under de venstre 
+ribben eller ved spidsen af venstre skulder, da der kan være problemer med milten [forstørrelse 
+af milten (splenomegali) eller sprængt milt], </p>
+</li>
+<li>
+<p>hvis du behandles for svær kronisk neutropeni, og du har blod i din urin (hæmaturi). Din læge 
+vil muligvis kontrollere din urin regelmæssigt, hvis du oplever denne bivirkning, eller hvis der 
+findes protein i din urin (proteinuri). </p>
+</li>
+<li>
+<p>hvis du får en eller flere af følgende bivirkninger:</p>
+</li>
+<li>
+<p>hævelse eller opsvulmethed, der kan være forbundet med mindre hyppig vandladning, 
+åndedrætsbesvær, opsvulmet mave og mæthedsfølelse samt en generel følelse af træthed. 
+Disse symptomer opstår generelt hurtigt. 
+Det kan være symptomer på en tilstand, der kaldes for “kapillærlækage-syndrom", som 
+medfører, at der siver blod fra de små blodkar ud i kroppen. Denne tilstand kræver øjeblikkelig 
+behandling. </p>
+</li>
+<li>
+<p>hvis du har en kombination af nogle af følgende symptomer:</p>
+</li>
+<li>
+<p>feber eller kulderystelser, fryser meget, forhøjet puls, forvirring eller desorientering, 
+stakåndethed, ekstreme smerter eller ekstremt ubehag, og klam eller svedende hud. 
+Det kan være symptomer på en lidelse, der kaldes "sepsis" (eller "blodforgiftning"), der er en 
+alvorlig infektion med en betændelsesreaktion i hele kroppen, som kan være livstruende og 
+kræver øjeblikkelig behandling. </p>
+</li>
+<li>
+<p>hvis du får nyreskade (glomerulonefritis): Der er set nyreskade hos patienter, som fik filgrastim. 
+Ring straks til lægen, hvis du får hævelser i ansigt, eller dine ankler hæver, hvis du får blod i 
+urinen eller brunfarvet urin, eller hvis du bemærker, at du ikke lader vandet så hyppigt som 
+normalt. </p>
+</li>
+</ul>
+<p>En almindelig bivirkning ved anvendelsen af filgrastim er smerter i dine muskler eller knogler 
+(muskoskeletale smerter), som kan afhjælpes ved at tage standard smertelindrende lægemidler 
+(analgetika). Hos patienter, der gennemgår en stamcelle- eller knoglemarvstransplantation, kan graft 
+versus host-sygdom (GvHD) forekomme - dette er donorcellernes reaktion mod den patient, der får 
+transplatationen. Tegn og symptomer omfatter udslæt på håndfladerne eller fodsålerne samt sår i mund, </p>
+<p>mave, lever, hud eller dine øjne, lunger, skede og led. En forhøjelse af de hvide blodlegemer 
+(leukocytose) og en reduktion af blodplader ses meget almindeligt hos normale stamcelledonorer, 
+hvilket sænker blodets evne til at størkne (trombocytopeni). Din læge vil holde øje med dette. </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>nedsat antal blodplader, som nedsætter blodets evne til at størkne (trombocytopeni) </p>
+</li>
+<li>
+<p>lavt antal røde blodlegemer (anæmi) </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>usædvanligt hårtab eller udtynding (alopeci) </p>
+</li>
+<li>
+<p>træthed </p>
+</li>
+<li>
+<p>ømhed og hævelse af slimhinden i fordøjelseskanalen, som går fra munden til anus (mucositis) </p>
+</li>
+<li>
+<p>feber (pyreksi) </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>betændelse i lungen (bronchitis) </p>
+</li>
+<li>
+<p>infektion i de øvre luftveje </p>
+</li>
+<li>
+<p>urinvejsinfektion </p>
+</li>
+<li>
+<p>nedsat appetit </p>
+</li>
+<li>
+<p>søvnbesvær (insomni) </p>
+</li>
+<li>
+<p>svimmelhed </p>
+</li>
+<li>
+<p>nedsat fornemmelse af følsomhed, især i huden (hypæstesi) </p>
+</li>
+<li>
+<p>en prikkende fornemmelse eller følelsesløshed i hænder eller fødder (paræstesi) </p>
+</li>
+<li>
+<p>lavt blodtryk (hypotension) </p>
+</li>
+<li>
+<p>højt blodtryk (hypertension) </p>
+</li>
+<li>
+<p>hoste </p>
+</li>
+<li>
+<p>ophostning af blod (hæmoptyse) </p>
+</li>
+<li>
+<p>smerter i mund og svælg (orofaryngeale smerter) </p>
+</li>
+<li>
+<p>næseblod (epistaxis) </p>
+</li>
+<li>
+<p>forstoppelse </p>
+</li>
+<li>
+<p>smerter i munden </p>
+</li>
+<li>
+<p>leverforstørrelse (hepatomegali) </p>
+</li>
+<li>
+<p>udslæt </p>
+</li>
+<li>
+<p>hudrødmen (erytem) </p>
+</li>
+<li>
+<p>muskelspasmer </p>
+</li>
+<li>
+<p>smerter ved vandladning (dysuri) </p>
+</li>
+<li>
+<p>brystsmerter </p>
+</li>
+<li>
+<p>smerter </p>
+</li>
+<li>
+<p>generaliseret svaghed (asteni) </p>
+</li>
+<li>
+<p>generelt ubehag </p>
+</li>
+<li>
+<p>hævede hænder og fødder (perifert ødem) </p>
+</li>
+<li>
+<p>forhøjet niveau af visse enzymer i blodet </p>
+</li>
+<li>
+<p>ændringer i blodkemi </p>
+</li>
+<li>
+<p>reaktion på transfusionen </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>forhøjet antal hvide blodlegemer (leukocytose) </p>
+</li>
+<li>
+<p>allergisk reaktion (overfølsomhed) </p>
+</li>
+<li>
+<p>afstødning af transplanteret knoglemarv (graft versus host-sygdom) </p>
+</li>
+<li>
+<p>høje niveauer af urinsyre i blodet, som kan forårsage podagra (hyperurikæmi) (forhøjet urinsyre 
+i blodet) </p>
+</li>
+<li>
+<p>leverskade, som skyldes, at de små vener i leveren blokeres (venookklusiv sygdom) </p>
+</li>
+<li>
+<p>lungerne fungerer ikke som de skal og forårsager åndenød (respirationssvigt) </p>
+</li>
+<li>
+<p>hævelse og/eller væske i lungerne (lungeødem) </p>
+</li>
+<li>
+<p>betændelse i lungerne (interstitiel lungesygdom) </p>
+</li>
+<li>
+<p>unormale røntgenbilleder af lungerne (lungeinfiltration) </p>
+</li>
+<li>
+<p>blødning i lungerne </p>
+</li>
+<li>
+<p>manglende optagelse af ilt i lungerne (hypoxi) </p>
+</li>
+<li>
+<p>ujævnt hududslæt (makulopapuløst udslæt) </p>
+</li>
+<li>
+<p>sygdom, som får knoglerne til at blive mindre tætte, hvilket gør knoglerne svagere og skørere og 
+øger risikoen for knoglebrud (osteoporose) </p>
+</li>
+<li>
+<p>reaktion på injektionsstedet </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>
+<p>svære smerter i knoglerne, brystet, tarmen eller leddene (seglcelleanæmi med krise) </p>
+</li>
+<li>
+<p>pludselig livstruende allergisk reaktion (anafylaktisk reaktion) </p>
+</li>
+<li>
+<p>smerter og hævelse i led, der ligner podagra (pseudopodagra) </p>
+</li>
+<li>
+<p>en ændring i hvordan din krop regulerer væsker i din krop, hvilket kan føre til hævelse </p>
+</li>
+<li>
+<p>betændelse af blodkarrene i huden (kutan vaskulitis) </p>
+</li>
+<li>
+<p>blommefarvede, hævede, smertefulde sår på lemmerne og nogle gange i ansigtet og på halsen 
+med feber (Sweets syndrom) </p>
+</li>
+<li>
+<p>forværring af leddegigt </p>
+</li>
+<li>
+<p>usædvanlig ændring af urin </p>
+</li>
+<li>
+<p>nedsat knogletæthed. </p>
+</li>
+<li>
+<p>betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i kroppen), se punkt 2 </p>
+</li>
+<li>
+<p>dannelse af blodlegemer uden for knoglemarven (ekstramedullær hæmatopoiese). </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store filgrastim"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store filgrastim"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og injektionssprøjtens etiket efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2 °C - 8 °C). 
+Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys. 
+Utilsigtet frysning vil ikke ødelægge Filgrastim HEXAL. </p>
+<p>Injektionssprøjten kan tages ud af køleskabet og opbevares ved stuetemperatur for en enkelt periode på 
+højst 8 dage (ikke ved temperaturer over 25 °C). Ved afslutningen af denne periode må lægemidlet 
+ikke sættes tilbage i køleskabet, men skal bortskaffes. </p>
+<p>Brug ikke lægemidlet, hvis du bemærker misfarvning, uigennemsigtighed eller partikler. Det skal være 
+en klar, farveløs til let gullig væske. 
+Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Filgrastim HEXAL indeholder:</p>
+<ul>
+<li>Aktivt stof: filgrastim. 
+Filgrastim HEXAL 30 mill. E/0,5 ml injektions-/infusionsvæske, opløsning i fyldt 
+injektionssprøjte: Hver fyldt injektionssprøjte indeholder 30 mill. E filgrastim i 0,5 ml svarende 
+til 60 mill. E/ml. 
+Filgrastim HEXAL 48 mill. E/0,5 ml injektions-/infusionsvæske, opløsning i fyldt 
+injektionssprøjte: Hver fyldt injektionssprøjte indeholder 48 mill. E filgrastim i 0,5 ml svarende 
+til 96 mill. E/ml. </li>
+<li>Øvrige indholdsstoffer: glutaminsyre, sorbitol (E420), polysorbat 80, natriumhydroxid og vand 
+til injektionsvæske. Se punkt  2 "Filgrastim HEXAL indeholder sorbitol og natrium" </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Filgrastim HEXAL er en klar, farveløs til let gullig opløsning til injektion eller infusion i fyldt 
+injektionssprøjte. </p>
+<p>Filgrastim HEXAL fås i pakninger med 1, 3, 5 eller 10 fyldte injektionssprøjter med kanyle og 
+kanylebeskyttelse. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen </p>
+<p>Hexal AG 
+Industriestr. 83607 Holzkirchen 
+Tyskland </p>
+<p>Fremstiller </p>
+<p>Sandoz GmbH 
+Biochemiestr. 6336 Langkampfen 
+Østrig </p>
+<p>Novartis Pharmaceutical Manufacturing GmbH 
+Biochemiestrasse 6336 Langkampfen 
+Østrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Hexal AG 
+Tél/Tel: +49 8024 908 0 </p>
+<p>Lietuva 
+Hexal AG 
+Tel: +49 8024 908 0 
+България 
+Hexal AG 
+Тел.: +49 8024 908 0 </p>
+<p>Luxembourg/Luxemburg 
+Hexal AG 
+Tél/Tel: +49 8024 908 0 </p>
+<p>Česká republika 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Magyarország 
+Hexal AG 
+Tel.: +49 8024 908 0 </p>
+<p>Danmark/Norge/Ísland/Sverige 
+Hexal AG 
+Tlf/Sími/Tel: +49 8024 908 0 </p>
+<p>Malta 
+Hexal AG 
+Tel: +49 8024 908 0 
+Deutschland 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Nederland 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Eesti 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Österreich 
+Sandoz GmbH 
+Tel: +43 5338 2Ελλάδα 
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε. 
+Τηλ: +30 216 600 5Polska 
+Hexal AG 
+Tel.: +49 8024 908 0 </p>
+<p>España 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Portugal 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>France 
+Hexal AG 
+Tél: +49 8024 908 0 </p>
+<p>România 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Hrvatska 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Slovenija 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Ireland 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Slovenská republika 
+Hexal AG 
+Tel: +49 8024 908 0 
+Italia 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Suomi/Finland 
+Hexal AG 
+Puh/Tel: +49 8024 908 0 </p>
+<p>Κύπρος 
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε. 
+Τηλ: +30 216 600 5United Kingdom (Northern Ireland) 
+Hexal AG 
+Tel: +49 8024 908 0 </p>
+<p>Latvija 
+Sandoz d.d. Latvia filiāle 
+Tel: +371 67 892  </p>
+<p>Denne indlægsseddel blev senest ændret </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. </p>
+<hr />
+<p>Instruktion i, hvordan du giver dig selv en indsprøjtning  </p>
+<p>Dette afsnit indeholder information om, hvordan du kan give dig selv en indsprøjtning med Filgrastim 
+HEXAL. Det er vigtigt, at du ikke prøver at give dig selv indsprøjtningen, medmindre du er 
+blevet instrueret af lægen eller sygeplejersken. Filgrastim HEXAL leveres med kanylebeskyttelse, 
+og lægen eller sygeplejersken viser dig, hvordan du anvender den. Hvis du føler dig usikker, eller hvis 
+du har spørgsmål, skal du bede lægen eller sygeplejersken om hjælp. </p>
+<p>Forsigtig: Brug ikke injektionssprøjten, hvis den er blevet tabt på en hård overflade eller tabt efter, at 
+kanylehætten er blevet fjernet. </p>
+<ol>
+<li>Vask hænderne. </li>
+<li>Tag en injektionssprøjte fra pakningen og fjern beskyttelseshætten fra kanylen, der skal bruges 
+til indsprøjtning. Injektionssprøjterne er præget med en skala med ringe for at gøre en delvis 
+anvendelse mulig, hvis det er nødvendigt. Hver ring på skalaen svarer til et volumen på 0,1 ml. 
+Hvis en delvis anvendelse af injektionssprøjten er nødvendig, skal den uønskede opløsning 
+fjernes før indsprøjtningen. </li>
+<li>Rens huden på injektionsstedet med en spritserviet. </li>
+<li>Dan en hudfold ved at klemme huden mellem tommel- og pegefinger. </li>
+<li>Indfør kanylen i huden med en hurtig, fast bevægelse. Indsprøjt opløsningen 
+med Filgrastim HEXAL som din læge har vist dig. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </li>
+<li>Mens du løfter huden med tommel- og pegefinger, skal du trykke stemplet 
+langsomt og jævnt ned, til hele dosis er givet, og stemplet ikke kan trykkes 
+længere ned. Du må ikke slippe trykket på stemplet! </li>
+<li>Når væsken er sprøjtet ind, skal du tage kanylen ud, mens du stadig bevarer 
+trykket på stemplet. Derefter kan du slippe huden. </li>
+<li>Slip stemplet. Kanylebeskyttelsen flytter sig hurtigt for at dække kanylen. </li>
+<li>Bortskaf ubrugt præparat eller affald. Brug kun injektionssprøjten til én indsprøjtning. </li>
+</ol>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
+<p>Opløsningen skal kontrolleres visuelt før brug. Der må kun anvendes klar opløsning uden partikler. 
+Filgrastim HEXALs stabilitet ændres ikke, selvom det ved et uheld bliver udsat for temperaturer under 
+frysepunktet. </p>
+<p>Filgrastim HEXAL indeholder ingen konserveringsmidler. For at undgå risiko for mikrobiel 
+kontaminering er Filgrastim HEXAL injektionssprøjterne kun til engangsbrug. </p>
+<p>Fortynding før administration (valgfri) </p>
+<p>Om nødvendigt kan Filgrastim HEXAL fortyndes i 50 mg/ml (5 %) glucoseopløsning. Filgrastim 
+HEXAL må ikke fortyndes med natriumchloridopløsninger. </p>
+<p>Filgrastim HEXAL bør aldrig fortyndes til en slutkoncentration &lt; 0,2 mill. E/ml (2 mikrogram/ml). </p>
+<p>Hos patienter behandlet med filgrastim fortyndet til koncentrationer på &lt; 1,5 mill. 
+E/ml (15 mikrogram/ml) bør der tilføjes humant serumalbumin (HSA) til en slutkoncentration på 
+2 mg/ml. </p>
+<p>Eksempel: I en slutvolumen på 20 ml bør totale doser filgrastim på mindre end 
+30 mill. E (300 mikrogram) gives med 0,2 ml tilsat humant serumalbumin 
+200 mg/ml (20 %) opløsning Ph. Eur. </p>
+<p>Efter fortynding i 50 mg/ml (5 %) glucoseopløsning er filgrastim kompatibelt med glas og flere 
+plasttyper, inklusive polyvinylchlorid, polyolefin (et copolymer af polypropylen og polyethylen) og 
+polypropylen. </p>
+<p>Efter fortynding: Kemisk og fysisk stabilitet af den fortyndede infusionsvæske, opløsning, er påvist i 
+24 timer ved 2 °C til 8 °C. Fra et mikrobielt synspunkt bør produktet anvendes omgående. Hvis det 
+ikke anvendes omgående, er opbevaringstid og -betingelser før brug brugerens ansvar og bør normalt 
+ikke overstige 24 timer ved 2 til 8 °C, medmindre fortynding har fundet sted under kontrollerede og 
+validerede aseptiske forhold </p>
+<p>Brug af den fyldte injektionssprøjte med kanylebeskyttelse </p>
+<p>Kanylebeskyttelsen dækker kanylen efter injektion for at forhindre skader med nålestik. Den påvirker 
+ikke injektionssprøjtens normale funktion. Tryk stemplet langsomt og jævnt i bund, til hele dosis er 
+givet, og stemplet ikke kan trykkes længere ned. Mens trykket bevares på stemplet, fjernes 
+injektionssprøjten fra patienten. Kanylebeskyttelsen dækker kanylen, når stemplet slippes. </p>
+<p>Bortskaffelse </p>
+<p>Ikke anvendt præparat samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-cd70f62eba1153d01bd949ce98b7c6ac
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for filgrastim Package Leaflet for language en"
+Description: "ePI document Bundle for filgrastim Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-cd70f62eba1153d01bd949ce98b7c6ac"
+* entry[0].resource = composition-en-cd70f62eba1153d01bd949ce98b7c6ac
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcd70f62eba1153d01bd949ce98b7c6ac"
+* entry[=].resource = mpcd70f62eba1153d01bd949ce98b7c6ac
+                            
+                    
+Instance: bundlepackageleaflet-da-cd70f62eba1153d01bd949ce98b7c6ac
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for filgrastim Package Leaflet for language da"
+Description: "ePI document Bundle for filgrastim Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-cd70f62eba1153d01bd949ce98b7c6ac"
+* entry[0].resource = composition-da-cd70f62eba1153d01bd949ce98b7c6ac
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcd70f62eba1153d01bd949ce98b7c6ac"
+* entry[=].resource = mpcd70f62eba1153d01bd949ce98b7c6ac
+                            
+                    
+
+
+
+Instance: mpcd70f62eba1153d01bd949ce98b7c6ac
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Filgrastim HEXAL 30 MU/0.5 mL solution for injection or infusion in pre-filled syringe"
-Description: "Filgrastim HEXAL 30 MU/0.5 mL solution for injection or infusion in pre-filled syringe"
+Title: "Medicinal Product filgrastim"
+Description: "filgrastim"
 Usage: #inline
 
  
@@ -477,7 +1230,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Filgrastim HEXAL 30 MU/0.5 mL solution for injection or infusion in pre-filled syringe"
+  * productName = "filgrastim"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -504,29 +1257,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-cd70f62eba1153d01bd949ce98b7c6ac
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for filgrastim Package Leaflet for language en"
-Description: "ePI document Bundle for filgrastim Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: cd70f62eba1153d01bd949ce98b7c6acListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Filgrastim HEXAL 30 MU/0.5 mL solution for injection or infusion in pre-filled syringe"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "filgrastim"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-cd70f62eba1153d01bd949ce98b7c6ac"
-* entry[0].resource = composition-en-cd70f62eba1153d01bd949ce98b7c6ac
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp60c5b02a7f54e1f23948715a3ee7ca0b"
-* entry[=].resource = mp60c5b02a7f54e1f23948715a3ee7ca0b
-                            
-                      
+* title = "List of all ePIs associated with filgrastim"
+
+* subject = Reference(mp60c5b02a7f54e1f23948715a3ee7ca0b)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#filgrastim "filgrastim"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-cd70f62eba1153d01bd949ce98b7c6ac) // filgrastim en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-cd70f62eba1153d01bd949ce98b7c6ac) // filgrastim da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-cd70f62eba1153d01bd949ce98b7c6ac
+InstanceOf: List
+
+* insert cd70f62eba1153d01bd949ce98b7c6acListRuleset
+    

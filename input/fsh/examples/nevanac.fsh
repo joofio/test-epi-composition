@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-4e04d92c0b9ceaa06795f86e3a393ec2
 InstanceOf: CompositionUvEpi
 Title: "Composition for nevanac Package Leaflet"
@@ -354,12 +357,477 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-4e04d92c0b9ceaa06795f86e3a393ec2
+InstanceOf: CompositionUvEpi
+Title: "Composition for nevanac Package Leaflet"
+Description:  "Composition for nevanac Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp59d1cfcb14ff597e81799a591298b61a)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp59d1cfcb14ff597e81799a591298b61a
+* title = "TEST PURPOSES ONLY - nevanac"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at bruge NEVANAC </li>
+<li>Sådan skal du bruge NEVANAC </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What nevanac is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What nevanac is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NEVANAC indeholder det aktive substans, nepafenac, og tilhører en gruppe af lægemidler, der kaldes 
+non-steroide antiinflammatoriske stoffer (NSAID-præparater). </p>
+<p>NEVANAC er beregnet til voksne:</p>
+<ul>
+<li>til at forebygge og lindre smerter og betændelseslignende tilstande (inflammation) i øjet efter en 
+operation for grå stær (katarakt) </li>
+<li>til at nedsætte risikoen for makulært ødem (hævelse i den bageste del af øjet) efter en operation 
+for grå stær (katarakt) hos patienter med sukkersyge (diabetes). </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take nevanac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take nevanac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke NEVANAC 
+- hvis du er allergisk over for nepafenac eller et af de øvrige indholdsstoffer i NEVANAC 
+(angivet i punkt 6). 
+- hvis du er allergisk over for andre non-steroide antiinflammatoriske stoffer (NSAID-
+præparater). 
+- hvis du har haft astma, hudallergi eller en kraftig betændelseslignende tilstand (inflammation) i 
+næsen ved brug af andre NSAID-præparater. Eksempler på NSAID-præparater er: 
+acetylsalicylsyre, ibuprofen, ketoprofen, piroxicam, diclofenac. </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger NEVANAC:</p>
+<ul>
+<li>hvis du let får blå mærker, eller du har blødningsproblemer eller har haft det tidligere. </li>
+<li>hvis du har nogen anden øjenlidelse, f.eks. øjenbetændelse, eller hvis du bruger andre 
+lægemidler til øjet (især binyrebarkhormonøjendråber). </li>
+<li>hvis du har sukkersyge (diabetes). </li>
+<li>hvis du har leddegigt. </li>
+<li>hvis du har gennemgået flere øjenoperationer inden for en kortere periode. </li>
+<li>undgå sollys under behandling med NEVANAC </li>
+</ul>
+<p>Det frarådes at bruge kontaktlinser efter en operation for grå stær (katarakt). Din læge vil fortælle dig, 
+når du må bruge kontaktlinser igen (se også "NEVANAC indeholder benzalkoniumchlorid"). </p>
+<p>Børn og unge 
+Dette lægemiddel må ikke anvendes til børn og unge under 18 år, da sikkerhed og virkning ikke er 
+klarlagt hos denne befolkningsgruppe. </p>
+<p>Brug af andre lægemidler sammen med NEVANAC 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>NEVANAC kan påvirke eller påvirkes af andre lægemidler, som du tager, herunder andre øjendråber 
+til behandling af grøn stær (glaukom). </p>
+<p>Fortæl det også til lægen, hvis du tager lægemidler, som nedsætter blodets størkningsevne (warfarin) 
+eller NSAID-præparater. Disse præparater kan øge risikoen for blødning. </p>
+<p>Graviditet og amning 
+Hvis du er eller kan blive gravid, skal du kontakte din læge, inden du bruger NEVANAC. Kvinder, der 
+kan blive gravide, skal bruge sikker prævention, mens de er i behandling med NEVANAC. 
+NEVANAC anbefales ikke under graviditet. Du må ikke bruge NEVANAC, medmindre det er klart 
+angivet af din læge. </p>
+<p>Hvis du ammer, kan NEVANAC gå over i mælken, men der forventes ingen påvirkning af det 
+ammede barn. NEVANAC kan anvendes under amning. </p>
+<p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
+<p>Trafik- og arbejdssikkerhed 
+Du kan opleve, at dit syn bliver midlertidigt sløret lige efter, at du har brugt NEVANAC. Du må ikke 
+køre bil eller arbejde med maskiner, før dit syn er klart igen. </p>
+<p>NEVANAC indeholder benzalkoniumchlorid </p>
+<p>Dette lægemiddel indeholder 0,25 mg benzalkoniumchlorid pr. 5 ml svarende til 0,05 mg/ml. </p>
+<p>Konserveringsmidlet i NEVANAC, benzalkoniumchlorid, kan absorberes af bløde kontaktlinser og 
+kan ændre farven af kontaktlinserne. Du skal tage kontaktlinserne ud, inden lægemidlet bruges, og 
+vente mindst 15 minutter, før du sætter kontaktlinserne i igen. Benzalkoniumchlorid kan også give 
+øjenirritation, især hvis du har tørre øjne eller hornhinde problemer (det klare lag forrest i øjet). Hvis 
+du har unormale fornemmelser i øjet såsom svie eller smerte, når du bruger dette lægemiddel, skal du 
+tale med din læge. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take nevanac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take nevanac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Brug kun NEVANAC i øjet. Det må ikke anvendes gennem munden eller til injektion. </p>
+<p>Den anbefalede dosis er 
+1 dråbe i det/de pågældende øje/øjne 3 gange dagligt - morgen, middag og aften. Bruges på samme tid 
+hver dag. </p>
+<p>Hvornår og i hvor lang tid skal NEVANAC bruges 
+Begynd dagen før operationen for grå stær. Fortsæt på operationsdagen. Derefter skal du bruge det så 
+længe, som din læge har ordineret. Det kan være op til 3 uger (for at forebygge og lindre øjensmerter 
+og betændelseslignende tilstande (inflammation)) eller 60 dage (for at forebygge hævelse i den bageste 
+del af øjet (makulært ødem)) efter operationen. </p>
+<p>Sådan skal du bruge NEVANAC </p>
+<p>Vask dine hænder, inden du begynder. </p>
+<p>1 
+2 </p>
+<ul>
+<li>
+<p>Ryst flasken grundigt inden brug. </p>
+</li>
+<li>
+<p>Skru hætten af flasken. </p>
+</li>
+<li>
+<p>Hvis sikkerhedsringen omkring hætten sidder løst, når flasken åbnes, skal den fjernes, inden 
+præparatet tages i brug. </p>
+</li>
+<li>
+<p>Hold flasken med bunden i vejret mellem den ene hånds tommelfinger og de øvrige fingre. </p>
+</li>
+<li>
+<p>Læn hovedet tilbage. </p>
+</li>
+<li>
+<p>Træk ned i det nederste øjenlåg med en ren finger, indtil der dannes en "lomme" mellem det 
+nedre øjenlåg og dit øje. Dråben skal placeres der (billede 1). </p>
+</li>
+<li>
+<p>Hold spidsen af flasken tæt hen til øjet. Brug et spejl, hvis det gør det nemmere. </p>
+</li>
+<li>
+<p>Undgå at berøre øjet eller øjenlåget, omgivende områder eller andre overflader med spidsen af 
+flasken. Det kan forurene øjendråberne. </p>
+</li>
+<li>
+<p>Tryk let på flaskens bund for at frigøre en dråbe NEVANAC ad gangen. </p>
+</li>
+<li>
+<p>Tryk ikke på siden af flasken, da den er designet på en sådan måde, at et let tryk i bunden af 
+flasken er alt, der skal til (billede 2). </p>
+</li>
+</ul>
+<p>Hvis du bruger dråber i begge øjne, skal du gentage trinnene for det andet øje. Luk flasken 
+omhyggeligt umiddelbart efter brug. </p>
+<p>Hvis dråben ikke rammer øjet, så prøv igen. </p>
+<p>Hvis du bruger andre øjenlægemidler, så vent mindst 5 minutter mellem brug af NEVANAC og de 
+andre lægemidler. </p>
+<p>Hvis du har brugt for meget NEVANAC 
+Kontakt din læge for nærmere instruktion. Dryp ikke flere dråber i øjnene, før det er tid til næste dosis. </p>
+<p>Hvis du har glemt at bruge NEVANAC 
+Hvis du har glemt en dosis, så tag den så snart du kommer i tanker om det. Hvis du snart skal tage den 
+næste dosis, så spring den glemte dosis over og fortsæt efter den sædvanlige doseringsplan. Du må 
+ikke tage en dobbeltdosis som erstatning for den glemte dosis. Brug ikke mere end 1 dråbe i det/de 
+pågældende øje/øjne 3 gange dagligt. </p>
+<p>Hvis du holder op med at bruge NEVANAC 
+Du må ikke holde op med at bruge NEVANAC uden først at informere din læge. Du kan som regel 
+fortsætte med at bruge dråberne, medmindre du får alvorlige bivirkninger. Kontakt lægen eller 
+apotekspersonalet, hvis der er noget, der bekymrer dig. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Der kan være en øget risiko for bivirkninger i hornhinden (øjeæblets overflade), hvis du:</p>
+<ul>
+<li>gennemgår en kompliceret øjenoperation </li>
+<li>gennemgår flere øjenoperationer inden for en kort periode </li>
+<li>får visse lidelser i øjets overflade så som en betændelseslignende tilstand (inflammation) eller 
+tørre øjne </li>
+<li>får visse generelle sygdomme, såsom sukkersyge (diabetes) eller leddegigt </li>
+</ul>
+<p>Hvis dine øjne bliver mere røde, eller hvis smerterne forværres, mens du bruger dråberne, skal du 
+straks kontakte din læge. Det kan skyldes en betændelseslignende tilstand (inflammation) i øjets 
+overflade med eller uden tab eller beskadigelse af celler, eller en betændelseslignende tilstand 
+(inflammation) i den farvede del af øjet (iritis). Disse bivirkninger er set hos op til 1 ud af 
+100 patienter. </p>
+<p>Følgende bivirkninger er også set i forbindelse med NEVANAC, 1 mg/ml øjendråber, suspension, 
+eller NEVANAC, 3 mg/ml øjendråber, suspension eller begge: </p>
+<p>Ikke almindelige (kan påvirke op til 1 ud af 100 patienter) </p>
+<ul>
+<li>Reaktioner i øjet: Betændelseslignende tilstand (inflammation) på øjets overflade med eller 
+uden celletab eller beskadigelse af celler, fornemmelse af fremmedlegeme i øjet, skorper på 
+øjenlåget eller hængende øjenlåg </li>
+</ul>
+<p>Sjældne (kan påvirke op til 1 ud af 1 000 patienter) </p>
+<ul>
+<li>
+<p>Reaktioner i øjet: Betændelseslignende tilstand (inflammation) i iris (den farvede del af øjet), 
+øjensmerter, ubehag i øjet, tørre øjne, hævede øjenlåg, øjenirritation, øjenkløe, sekret fra øjet, 
+allergisk konjunktivit (øjenallergi), øget tåreproduktion, aflejringer på øjets overflade, væske 
+eller hævelse på bagsiden af øjet, røde øjne. </p>
+</li>
+<li>
+<p>Øvrige bivirkninger: svimmelhed, hovedpine, allergiske symptomer (allergisk hævelse af 
+øjenlåget), kvalme, betændelseslignende tilstand (inflammation) i huden, rødme og kløe </p>
+</li>
+</ul>
+<p>Ikke kendte (hyppigheden kan ikke bestemmes ud fra tilgængelige data) </p>
+<ul>
+<li>
+<p>Reaktioner i øjet: skader på øjets overflade, såsom udtynding eller perforering, forsinket heling 
+af øjet, ar på øjets overflade, uklart syn, nedsat syn, hævede øjne, sløret syn. </p>
+</li>
+<li>
+<p>Øvrige bivirkninger: opkastning, forhøjet blodtryk </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store nevanac"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store nevanac"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på flasken og kartonen efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Kassér flasken 4 uger efter åbning for at forhindre infektioner. Skriv åbningsdatoen, hvor der er gjort 
+plads til dette på flaskens etiket og på kartonen. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>NEVANAC indeholder:</p>
+<ul>
+<li>Aktivt stof: nepafenac. 1 ml suspension indeholder 1 mg nepafenac. </li>
+<li>Øvrige indholdsstoffer: benzalkoniumchlorid (se afsnit 2), carbomer, dinatriumedetat, mannitol, 
+renset vand, natriumchlorid og tyloxapol. 
+Små mængder natriumhydroxid og/eller saltsyre er tilsat for at bevare en normal surhedsgrad 
+(pH-værdi). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+NEVANAC er en væske (lys gul til lys orange suspension), der fås i en 5 ml plasticflaske med 
+skruelåg. </p>
+<p>Indehaveren af markedføringstilladelsen 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Irland </p>
+<p>Fremstiller 
+S.A. Alcon-Couvreur N.V 
+Rijksweg B-2870 Puurs 
+Belgien </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nürnberg 
+Tyskland </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 България 
+Novartis Bulgaria EOOD 
+Тел.: +359 2 489 98<br />
+Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+Tél/Tel: +32 2 246 16<br />
+Česká republika 
+Novartis s.r.o. 
+Tel: +420 225 775<br />
+Magyarország 
+Novartis Hungária Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf.: +45 39 16 84<br />
+Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 
+Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52<br />
+Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30<br />
+Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 Ελλάδα 
+Novartis (Hellas) A.E.B.E. 
+Τηλ: +30 210 281 17<br />
+Österreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6España 
+Novartis Farmacéutica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4 
+France 
+Novartis Pharma S.A.S. 
+Tél: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmacêuticos, S.A. 
+Tel: +351 21 000 8 
+Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 România 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299<br />
+Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75<br />
+Ísland 
+Vistor hf. 
+Sími: +354 535 7Slovenská republika 
+Novartis Slovakia s.r.o. 
+Tel: + 421 2 5542 5 
+Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 </p>
+<p>Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 Κύπρος 
+Novartis Pharma Services Inc. 
+Τηλ: +357 22 690<br />
+Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887<br />
+United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu 
+Indlægsseddel: Information til brugeren </p>
+<p>NEVANAC 3 mg/ml øjendråber, suspension 
+nepafenac </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at bruge dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
+- Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
+til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
+- Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
+<p>Oversigt over indlægssedlen </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-4e04d92c0b9ceaa06795f86e3a393ec2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nevanac Package Leaflet for language en"
+Description: "ePI document Bundle for nevanac Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4e04d92c0b9ceaa06795f86e3a393ec2"
+* entry[0].resource = composition-en-4e04d92c0b9ceaa06795f86e3a393ec2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4e04d92c0b9ceaa06795f86e3a393ec2"
+* entry[=].resource = mp4e04d92c0b9ceaa06795f86e3a393ec2
+                            
+                    
+Instance: bundlepackageleaflet-da-4e04d92c0b9ceaa06795f86e3a393ec2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nevanac Package Leaflet for language da"
+Description: "ePI document Bundle for nevanac Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-4e04d92c0b9ceaa06795f86e3a393ec2"
+* entry[0].resource = composition-da-4e04d92c0b9ceaa06795f86e3a393ec2
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4e04d92c0b9ceaa06795f86e3a393ec2"
+* entry[=].resource = mp4e04d92c0b9ceaa06795f86e3a393ec2
+                            
+                    
+
+
+
+Instance: mp4e04d92c0b9ceaa06795f86e3a393ec2
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product NEVANAC 1 mg/ml eye drops, suspension"
-Description: "NEVANAC 1 mg/ml eye drops, suspension"
+Title: "Medicinal Product nevanac"
+Description: "nevanac"
 Usage: #inline
 
  
@@ -379,7 +847,7 @@ Usage: #inline
 
 
 * name
-  * productName = "NEVANAC 1 mg/ml eye drops, suspension"
+  * productName = "nevanac"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -406,29 +874,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-4e04d92c0b9ceaa06795f86e3a393ec2
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for nevanac Package Leaflet for language en"
-Description: "ePI document Bundle for nevanac Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 4e04d92c0b9ceaa06795f86e3a393ec2ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/07/433/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "nevanac"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-4e04d92c0b9ceaa06795f86e3a393ec2"
-* entry[0].resource = composition-en-4e04d92c0b9ceaa06795f86e3a393ec2
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp59d1cfcb14ff597e81799a591298b61a"
-* entry[=].resource = mp59d1cfcb14ff597e81799a591298b61a
-                            
-                      
+* title = "List of all ePIs associated with nevanac"
+
+* subject = Reference(mp59d1cfcb14ff597e81799a591298b61a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#nevanac "nevanac"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-4e04d92c0b9ceaa06795f86e3a393ec2) // nevanac en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-4e04d92c0b9ceaa06795f86e3a393ec2) // nevanac da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-4e04d92c0b9ceaa06795f86e3a393ec2
+InstanceOf: List
+
+* insert 4e04d92c0b9ceaa06795f86e3a393ec2ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-664d393693f4983d6c9e5af3f5904561
 InstanceOf: CompositionUvEpi
 Title: "Composition for uplizna Package Leaflet"
@@ -241,12 +244,305 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: composition-da-664d393693f4983d6c9e5af3f5904561
+InstanceOf: CompositionUvEpi
+Title: "Composition for uplizna Package Leaflet"
+Description:  "Composition for uplizna Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpe8da31ed7c4e9cd86dae170e4523671c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpe8da31ed7c4e9cd86dae170e4523671c
+* title = "TEST PURPOSES ONLY - uplizna"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse  </li>
+<li>Det skal du vide, før du begynder at få Uplizna  </li>
+<li>Sådan gives Uplizna </li>
+<li>Bivirkninger  </li>
+<li>Opbevaring  </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What uplizna is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What uplizna is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uplizna indeholder det aktive stof inebilizumab og tilhører en gruppe lægemidler kaldet monoklonale 
+antistoffer. Det er et protein, som går efter celler i immunsystemet (kroppens naturlige forsvar), som 
+producerer antistoffer, kaldet B-celler. 
+Uplizna bruges til at nedbringe risikoen for attakker hos voksne med en sjælden tilstand kaldet 
+neuromyelitis optica spektrumforstyrrelse (NMOSD), som berører nerverne i øjet og rygmarven. 
+Tilstanden menes at forekomme, fordi immunsystemet ved en fejl angriber kroppens nerver. Uplizna 
+gives til patienter med NMOSD, hvis B-celler producerer antistoffer mod aquaporin-4, et protein, der 
+spiller en vigtig rolle i nervernes funktion.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take uplizna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take uplizna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Uplizna  </p>
+<ul>
+<li>hvis du er allergisk over for inebilizumab eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6). </li>
+<li>hvis du har en alvorlig aktiv infektion såsom hepatitis B. </li>
+<li>hvis du har aktiv eller ubehandlet latent tuberkulose. </li>
+<li>hvis du har en sygehistorie med progressiv multifokal leukoencefalopati (PML), en usædvanlig 
+men alvorlig hjerneinfektion forårsaget af en virus. </li>
+<li>hvis du har fået at vide, at du har alvorlige problemer med dit immunsystem. </li>
+<li>hvis du har kræft. </li>
+</ul>
+<p>Advarsler og forsigtighedsregler<br />
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får Uplizna, hvis du:</p>
+<ul>
+<li>
+<p>har eller tror, at du har en infektion. </p>
+</li>
+<li>
+<p>nogensinde har tager, tager eller planlægger at tage medicin, der påvirker dit immunsystem, 
+eller andre behandlinger for NMOSD. Disse lægemidler kan øge din risiko for at få en infektion. </p>
+</li>
+<li>nogensinde har haft hepatitis B eller er bærer af hepatitis B-virus. </li>
+<li>har fået en vaccination for nylig eller har planlagt at få en vaccination. Du skal have eventuelle 
+påkrævede vacciner mindst 4 uger, før du påbegynder behandling med Uplizna. </li>
+</ul>
+<p>Infusionsrelaterede reaktioner 
+Uplizna kan forårsage infusionsrelaterede reaktioner, som kan omfatte hovedpine, utilpashed 
+(kvalme), søvnløshed, åndenød, feber, muskelsmerter, udslæt eller andre symptomer. Behandlingen 
+kan blive afbrudt eller stoppet, hvis du får symptomer. </p>
+<p>Børn og unge 
+Dette lægemiddel bør ikke gives til børn og unge, da det ikke er blevet undersøgt i denne population. </p>
+<p>Brug af anden medicin sammen med Uplizna 
+Fortæl lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget anden medicin 
+eller planlægger at tage anden medicin. </p>
+<p>Graviditet, amning og frugtbarhed<br />
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge til råds, før du får dette lægemiddel. </p>
+<p>Graviditet 
+Uplizna bør ikke anvendes under graviditeten, da dette lægemiddel kan passere placenta og påvirke 
+barnet. Hvis du er i stand til at blive gravid, skal du anvende prævention (kontraception) kontinuerligt, 
+efter du begynder at få Uplizna. Hvis din læge anbefaler at stoppe behandlingen, skal du fortsætte med 
+at bruge prævention indtil 6 måneder efter din sidste infusion.  </p>
+<p>Amning 
+Det er ukendt, om Uplizna udskilles i human mælk. Hvis du ammer, skal du tale med in læge om den 
+bedste måde at ernære dit barn, hvis du påbegynder behandling med Uplizna. </p>
+<p>Trafik- og arbejdssikkerhed 
+Uplizna forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner.  </p>
+<p>Uplizna indeholder natrium<br />
+Dette lægemiddel indeholder 48 mg natrium (hoved komponent af madlavnings-/bordsalt) i hver 
+infusion.  Dette svarer til 2 % af den anbefalede maximale daglige indtagelse af natrium for en voksen.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take uplizna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take uplizna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uplizna gives som et drop (infusion) i en vene under overvågning af en læge med erfaring i 
+behandling af patienter med NMOSD. </p>
+<p>Den anbefalede dosis er 300 mg.  </p>
+<p>Den første dosis efterfølges 2 uger senere af en anden dosis, og derefter en dosis hver 6. måned. </p>
+<p>Du vil få anden medicin en halv til en hel time før infusionen for at reducere risikoen for bivirkninger. 
+Du vil blive overvåget af en læge eller sygeplejerske under infusionen og i en time bagefter.  </p>
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. Din 
+læge vil tale med dig om mulige bivirkninger og forklare risici og fordele ved Uplizna før 
+behandlingen. </p>
+<p>Alvorlige bivirkninger </p>
+<p>De mest alvorlige bivirkninger er infusionsrelaterede reaktioner og infektioner (se afsnit 2). Disse 
+bivirkninger kan forekomme når som helst i løbet af behandlingen, eller selv efter behandlingen er 
+slut. Du kan få mere end én bivirkning på samme tid. Hvis du får en infusionsrelateret reaktion eller 
+infektion, skal du kontakte din læge med det samme. </p>
+<p>Andre bivirkninger </p>
+<p>Meget almindelig (kan berøre mere end 1 ud af 10 personer) </p>
+<ul>
+<li>blærebetændelse </li>
+<li>infektion i næse, svælg, bihuler og/eller lunger </li>
+<li>almindelig forkølelse </li>
+<li>influenza </li>
+<li>ledsmerter </li>
+<li>rygsmerter </li>
+<li>fald i immunglobuliner </li>
+</ul>
+<p>Almindelig (kan berøre op til 1 ud af 10 personer) </p>
+<ul>
+<li>færre hvide blodlegemer end normalt, som sommetider forekommer 4 uger eller mere efter den 
+sidste dosis Uplizna </li>
+<li>hævede bihuler, som normalt skyldes en infektion </li>
+<li>lungebetændelse </li>
+<li>cellulitis, en potentielt alvorlig bakterieinfektion i huden </li>
+<li>helvedesild (herpes zoster, et udslæt med smertefulde blærer på en kropsdel) </li>
+<li>reaktion over for infusion med Uplizna (se infusionsrelaterede reaktioner ovenfor) </li>
+</ul>
+<p>Ikke almindelig (kan berøre op til 1 ud af 100 personer) </p>
+<ul>
+<li>infektion i blodet (sepsis), et usædvanligt voldsomt respons på en infektion </li>
+<li>progressiv multifokal leukoencefalopati (PML), en usædvanlig men alvorlig hjerneinfektion 
+forårsaget af en virus </li>
+<li>byld (en infektion under huden, som normalt skyldes en bakterie) </li>
+<li>bronkitis, en infektion i luftvejene forårsaget af en virus </li>
+</ul>
+<p>Indberetning af bivirkninger  </p>
+<p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken.  Det 
+gælder også mulige  bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store uplizna"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store uplizna"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.<br />
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Opbevares i køleskab ved 2 °C til 8 °C. 
+Opbevares i den originale yderpakning for at beskytte mod lys. 
+Må ikke fryses. 
+Brug ikke lægemidlet, hvis du bemærker partikler og misfarvning. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uplizna indeholder:</p>
+<ul>
+<li>Aktivt stof: inebilizumab. </li>
+<li>Hvert hætteglas indeholder 100 mg inebilizumab. </li>
+<li>Øvrige indholdsstoffer: histidin, histidin-hydrochloridmonohydrat, polysorbat 80, 
+natriumchlorid, trehalosedihydrat og vand til injektionsvæske. </li>
+</ul>
+<p>Udseende og pakningsstørrelser </p>
+<p>Uplizna 100 mg koncentrat til infusionsvæske, opløsning er en klar til let opaliserende, farveløs til let 
+gul opløsning, der fås i en æske med 3 hætteglas.  </p>
+<p>Indehaver af markedsføringstilladelsen og fremstiller </p>
+<p>Horizon Therapeutics Ireland DAC 
+70 St. Stephen’s Green 
+Dublin 2 
+D02 E2X4 
+Irland </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-664d393693f4983d6c9e5af3f5904561
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for uplizna Package Leaflet for language en"
+Description: "ePI document Bundle for uplizna Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-664d393693f4983d6c9e5af3f5904561"
+* entry[0].resource = composition-en-664d393693f4983d6c9e5af3f5904561
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp664d393693f4983d6c9e5af3f5904561"
+* entry[=].resource = mp664d393693f4983d6c9e5af3f5904561
+                            
+                    
+Instance: bundlepackageleaflet-da-664d393693f4983d6c9e5af3f5904561
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for uplizna Package Leaflet for language da"
+Description: "ePI document Bundle for uplizna Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-664d393693f4983d6c9e5af3f5904561"
+* entry[0].resource = composition-da-664d393693f4983d6c9e5af3f5904561
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp664d393693f4983d6c9e5af3f5904561"
+* entry[=].resource = mp664d393693f4983d6c9e5af3f5904561
+                            
+                    
+
+
+
+Instance: mp664d393693f4983d6c9e5af3f5904561
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Uplizna 100 mg concentrate for solution for infusion"
-Description: "Uplizna 100 mg concentrate for solution for infusion"
+Title: "Medicinal Product uplizna"
+Description: "uplizna"
 Usage: #inline
 
  
@@ -266,7 +562,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Uplizna 100 mg concentrate for solution for infusion"
+  * productName = "uplizna"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -293,29 +589,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-664d393693f4983d6c9e5af3f5904561
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for uplizna Package Leaflet for language en"
-Description: "ePI document Bundle for uplizna Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 664d393693f4983d6c9e5af3f5904561ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/21/1602/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "uplizna"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-664d393693f4983d6c9e5af3f5904561"
-* entry[0].resource = composition-en-664d393693f4983d6c9e5af3f5904561
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpe8da31ed7c4e9cd86dae170e4523671c"
-* entry[=].resource = mpe8da31ed7c4e9cd86dae170e4523671c
-                            
-                      
+* title = "List of all ePIs associated with uplizna"
+
+* subject = Reference(mpe8da31ed7c4e9cd86dae170e4523671c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#uplizna "uplizna"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-664d393693f4983d6c9e5af3f5904561) // uplizna en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-664d393693f4983d6c9e5af3f5904561) // uplizna da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-664d393693f4983d6c9e5af3f5904561
+InstanceOf: List
+
+* insert 664d393693f4983d6c9e5af3f5904561ListRuleset
+    

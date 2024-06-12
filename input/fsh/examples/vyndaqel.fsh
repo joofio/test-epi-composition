@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-895d12c7e06fa00ecf48ed16e513c5f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyndaqel Package Leaflet"
@@ -293,12 +296,434 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-895d12c7e06fa00ecf48ed16e513c5f0
+InstanceOf: CompositionUvEpi
+Title: "Composition for vyndaqel Package Leaflet"
+Description:  "Composition for vyndaqel Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbfb83e30edda390bb86b41e65b564eff)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbfb83e30edda390bb86b41e65b564eff
+* title = "TEST PURPOSES ONLY - vyndaqel"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Vyndaqel
+3. Sådan skal De tage Vyndaqel
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What vyndaqel is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What vyndaqel is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vyndaqel indeholder det aktive stof tafamidis.
+Vyndaqel er et lægemiddel til behandling af en sygdom, som kaldes transthyretin amyloidose. 
+Transthyretin amyloidose skyldes, at et protein, som hedder transthyretin (TTR), ikke fungerer rigtigt. 
+TTR er et protein, som bærer andre stoffer, f.eks. hormoner, rundt i kroppen.
+Hos patienter med denne sygdom går TTR i stykker og kan danne fibre, som kaldes amyloid. Amyloid 
+kan aflejre sig rundt om Deres nerver (kaldet transthyretin amyloid polyneuropati eller ATTR-PN) og 
+på andre steder i kroppen. Amyloid giver symptomer på denne sygdom. Når det sker, forhindrer det 
+nerverne i at fungere normalt.
+Vyndaqel kan forhindre TTR i at gå i stykker og danne amyloid. Dette lægemiddel bruges til 
+behandling af voksne patienter med denne sygdom, hvor nerverne er blevet påvirkede (personer med 
+symptomer på polyneuropati), for at forsinke videre sygdomsudvikling.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take vyndaqel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take vyndaqel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Vyndaqel</h2>
+<p>hvis De er allergisk over for tafamidismeglumin eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6).
+45
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før De tager Vyndaqel.
+
+Kvinder i den fødedygtige alder skal bruge sikker prævention, så længe de er i behandling med 
+Vyndaqel, og de skal fortsætte med den svangerskabsforebyggende behandling i 1 måned efter 
+behanding med Vyndaqel er stoppet. Der er ingen data for anvendelsen af Vyndaqel til gravide 
+kvinder.
+Børn og unge
+Børn og unge har ikke symptomer på transthyretin amyloidose. Vyndaqel anvendes derfor ikke til 
+børn og unge.
+Brug af andre lægemidler sammen med Vyndaqel
+Fortæl altid lægen eller apotekspersonalet, hvis De bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler.
+Fortæl det til lægen eller apotekspersonalet, hvis De tager nogen af de følgende lægemidler:
+-
+non-steroide antiinflammatoriske midler
+-
+vanddrivende midler (fx furosemid, bumetanid) 
+-
+lægemidler mod kræft (fx methotrexat, imatinib)
+-
+statiner (fx rosuvastatin)
+-
+virushæmmende lægemidler (fx oseltamivir, tenofovir, ganciclovir, adefovir, cidofovir, 
+lamivudin, zidovudin, zalcitabin)
+Graviditet, amning og frugtbarhed
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel.
+
+De må ikke tage Vyndaqel, hvis De er gravid eller ammer.
+
+Hvis De er i den fødedygtige alder, skal De bruge sikker prævention, så længe De er i 
+behandling og i 1 måned efter behandlingen er stoppet.
+Trafik- og arbejdssikkerhed
+Vyndaqel menes ikke at påvirke eller kun i ubetydelig grad påvirke evnen til at føre motorkøretøj og 
+betjene maskiner.
+Vyndaqel indeholder sorbitol
+Dette lægemiddel indeholder højst 44 mg sorbitol pr. kapsel. Sorbitol er en kilde til fructose.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take vyndaqel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take vyndaqel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
+lægen eller apotekspersonalet.
+Den anbefalede dosis er 1 Vyndaqel 20 mg (tafamidismeglumin) kapsel 1 gang dagligt.
+Hvis De kaster op efter, at De har taget lægemidlet og kan finde Vyndaqel-kapslen intakt, så bør De 
+tage en yderligere dosis af Vyndaqel den samme dag. Hvis De kaster op kort tid efter, at De har taget 
+lægemidlet og ikke kan finde Vyndaqel-kapslen, er det ikke nødvendigt at tage en yderligere dosis af 
+Vyndaqel, og De kan fortsætte med at tage Vyndaqel som normalt dagen efter.
+46
+Administrationsmetode
+Vyndaqel er til oral anvendelse.
+Den bløde kapsel skal synkes hel og må ikke knuses eller skæres over.
+Kapslen kan indtages med eller uden mad.
+Instruktion til åbning af blistre:
+
+Riv en enkelt blister af blisterkortet langs den perforerede streg.
+
+Tryk kapslen ud gennem aluminiumsfolien.
+Hvis De har taget for meget Vyndaqel 
+De bør ikke tage flere kapsler, end lægen har sagt. Hvis De har taget flere Vyndaqel-kapsler end lægen 
+har sagt, skal De kontakte lægen.
+Hvis De har glemt at tage Vyndaqel
+Hvis De har glemt at tage en dosis, skal De tage Deres kapsel, så snart De kommer i tanke om det. 
+Hvis det sker inden for 6 timer inden Deres næste dosis, skal De springe den glemte dosis over. De må 
+ikke tage en dobbeltdosis som erstatning for den glemte dosis.
+Hvis De holder op med at tage Vyndaqel
+De må ikke holde op med at tage Vyndaqel, uden at De har talt med lægen først. Da Vyndaqel virker 
+ved at stabilisere TTR-proteinet, kan Deres sygdom forværres, hvis De stopper med at tage Vyndaqel, 
+da dette protein så ikke længere bliver stabiliseret.
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Meget almindelige: kan forekomme hos mere end 1 ud af 10 patienter:
+
+Diarré
+
+Urinvejsinfektion (symptomer kan omfatte smerte eller brændende fornemmelse, når De tisser, 
+eller hyppig trang til at tisse)
+
+Mavepine eller mavesmerter.
+Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendix V. Ved at indrapportere bivirkninger kan De hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel.
+47</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store vyndaqel"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store vyndaqel"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og på pakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Må ikke opbevares ved temperaturer over 25°C.
+Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Vyndaqel indeholder:</h2>
+<p>Aktivt stof: tafamidis. Hver kapsel indeholder 20 mg mikroniseret tafamidismeglumin svarende 
+til 12,2 mg tafamidis.
+-
+Øvrige indholdsstoffer: gelatine (E441); glycerol (E422); sorbitol (E420) [se punkt 2 "Vyndaqel 
+indeholder sorbitol"]; mannitol (E421); sorbitan; gul jernoxid (E172); titandioxid (E171); vand, 
+renset; macrogol 400 (E1521); sorbitanmono-oleate (E494); polysorbat 80 (E433); ethanol; 
+isopropylalkohol; polyvinylacetatphthalat; propylenglycol (E1520); carmin (E120); blå farve 
+(Brilliant Blue fcf – E133) og ammoniumhydroxid (E527).
+Udseende og pakningsstørrelser
+Vyndaqel bløde kapsler er gule, uigennemsigtige, aflange (ca. 21 mm) mærket med "VYN 20" med 
+rødt blæk. Vyndaqel findes i 2 pakningsstørrelser af PVC/PA/alu/PVC-alu perforerede 
+enkeltdosisblistre: En pakning med 30 x 1 bløde kapsler og en multipakning med 90 bløde kapsler 
+betående af 3 kartoner, som hver indeholder 30 x 1 bløde kapsler. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+48
+Indehaver af markedsføringstilladelsen
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Pfizer Service Company BV
+Hoge Wei 10
+1930 Zaventem
+Belgien
+eller
+Millmount Healthcare Limited
+Block-7, City North Business Campus
+Stamullen
+K32 YD60
+Irland
+eller
+Pfizer Manufacturing Deutschland GmbH
+Mooswaldallee 1
+79108 Freiburg Im Breisgau
+Tyskland
+Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Luxembourg/Luxemburg
+Pfizer NV/SA
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje
+Tel: +370 5 251 4000
+България
+Пфайзер Люксембург САРЛ, Клон България
+Тел.: +359 2 970 4333
+Magyarország
+Pfizer Kft.
+Tel.: +36 1 488 37 00
+Česká republika
+Pfizer, spol. s r.o. 
+Tel: +420 283 004 111
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Nederland
+Pfizer bv
+Tel: +31 (0)800 63 34 636
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055-51000
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal
+Tel: +372 666 7500
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τηλ: +30 210 6785800
+Polska
+Pfizer Polska Sp. z o.o.,
+Tel.: +48 22 335 61 00
+49
+España
+Pfizer, S.L.
+Tel: +34 91 490 99 00
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+France
+Pfizer
+Tél +33 (0)1 58 07 34 40
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0) 21 207 28 00
+Hrvatska
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer, podružnica za svetovanje s področja
+farmacevtske dejavnosti, Ljubljana
+Tel: + 386 (0)1 52 11 400
+Ireland
+Pfizer Healthcare Ireland
+Tel: +1800 633 363 (toll free)
+Tel: +44 (0)1304 616161
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka 
+Tel: + 421 2 3355 5500
+Ísland
+Icepharma hf.
+Sími: +354 540 8000
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358 (0)9 430 040
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Κύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch)
+Τηλ: +357 22817690
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+Dette lægemiddel er godkendt under "særlige vilkår". Det betyder, at det grundet sygdommens 
+sjældenhed ikke har været muligt at opnå fuldstændig dokumentation for lægemidlet. Det Europæiske 
+Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne indlægsseddel vil 
+om nødvendigt blive ajourført.
+Andre informationskilder
+De kan finde yderligere oplysninger om Vyndaqel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
+og om, hvordan de behandles.
+Hvis De har svært ved at se eller læse denne indlægsseddel, eller gerne vil have den i et andet format, 
+kan De kontakte den lokale repræsentant for indehaveren af markedsføringstilladelsen på det 
+telefonnummer, som er oplyst i denne indlægsseddel.
+50
+Indlægsseddel: Information til brugeren
+Vyndaqel 61 mg bløde kapsler
+tafamidis
+Dette lægemiddel er underlagt supplerende overvågning. Dermed kan der hurtigt tilvejebringes nye 
+oplysninger om sikkerheden. De kan hjælpe ved at indberette alle de bivirkninger, De får. Se sidst i 
+punkt 4, hvordan De indberetter bivirkninger.
+Læs denne indlægsseddel grundigt, inden De begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger.
+-
+Gem indlægssedlen. De kan få brug for at læse den igen.
+-
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, De vil vide.
+-
+Lægen har ordineret Vyndaqel til Dem personligt. Lad derfor være med at give lægemidlet til 
+andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har.
+-
+Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De får bivirkninger, herunder 
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-895d12c7e06fa00ecf48ed16e513c5f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyndaqel Package Leaflet for language en"
+Description: "ePI document Bundle for vyndaqel Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-895d12c7e06fa00ecf48ed16e513c5f0"
+* entry[0].resource = composition-en-895d12c7e06fa00ecf48ed16e513c5f0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp895d12c7e06fa00ecf48ed16e513c5f0"
+* entry[=].resource = mp895d12c7e06fa00ecf48ed16e513c5f0
+                            
+                    
+Instance: bundlepackageleaflet-da-895d12c7e06fa00ecf48ed16e513c5f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyndaqel Package Leaflet for language da"
+Description: "ePI document Bundle for vyndaqel Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-895d12c7e06fa00ecf48ed16e513c5f0"
+* entry[0].resource = composition-da-895d12c7e06fa00ecf48ed16e513c5f0
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp895d12c7e06fa00ecf48ed16e513c5f0"
+* entry[=].resource = mp895d12c7e06fa00ecf48ed16e513c5f0
+                            
+                    
+
+
+
+Instance: mp895d12c7e06fa00ecf48ed16e513c5f0
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Vyndaqel 20 mg soft capsules"
-Description: "Vyndaqel 20 mg soft capsules"
+Title: "Medicinal Product vyndaqel"
+Description: "vyndaqel"
 Usage: #inline
 
  
@@ -318,7 +743,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Vyndaqel 20 mg soft capsules"
+  * productName = "vyndaqel"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -345,29 +770,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-895d12c7e06fa00ecf48ed16e513c5f0
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for vyndaqel Package Leaflet for language en"
-Description: "ePI document Bundle for vyndaqel Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 895d12c7e06fa00ecf48ed16e513c5f0ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/11/717/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "vyndaqel"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-895d12c7e06fa00ecf48ed16e513c5f0"
-* entry[0].resource = composition-en-895d12c7e06fa00ecf48ed16e513c5f0
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbfb83e30edda390bb86b41e65b564eff"
-* entry[=].resource = mpbfb83e30edda390bb86b41e65b564eff
-                            
-                      
+* title = "List of all ePIs associated with vyndaqel"
+
+* subject = Reference(mpbfb83e30edda390bb86b41e65b564eff)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#vyndaqel "vyndaqel"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-895d12c7e06fa00ecf48ed16e513c5f0) // vyndaqel en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-895d12c7e06fa00ecf48ed16e513c5f0) // vyndaqel da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-895d12c7e06fa00ecf48ed16e513c5f0
+InstanceOf: List
+
+* insert 895d12c7e06fa00ecf48ed16e513c5f0ListRuleset
+    

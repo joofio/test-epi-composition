@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
 InstanceOf: CompositionUvEpi
 Title: "Composition for inlyta Package Leaflet"
@@ -457,12 +460,556 @@ Tel: +44 (0) 1304 616This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+InstanceOf: CompositionUvEpi
+Title: "Composition for inlyta Package Leaflet"
+Description:  "Composition for inlyta Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp6543aa0df9a26dcd223d77c9252c86d2)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp6543aa0df9a26dcd223d77c9252c86d2
+* title = "TEST PURPOSES ONLY - inlyta"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Inlyta
+3. Sådan skal du tage Inlyta
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What inlyta is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What inlyta is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inlyta indeholder det aktive stof axitinib. Axitinib nedsætter blodtilførslen til svulsten og hæmmer 
+væksten af kræft.
+Inlyta er medicin, der bruges til behandling af fremskreden nyrekræft (fremskreden renalcellekræft) 
+hos voksne, når anden medicin mod kræft (sunitinib eller et cytokin) ikke virker længere.
+Kontakt lægen, hvis du vil vide mere om, hvordan medicinen virker, eller hvorfor du skal tage den.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take inlyta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take inlyta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Inlyta
+hvis du er allergisk over for axitinib eller et af de øvrige indholdsstoffer i Inlyta (angivet i afsnit 6).
+Hvis du mener, at du er allergisk, så spørg lægen til råds.
+Advarsler og forsigtighedsregler
+Kontakt lægen eller sygeplejersken, før du tager Inlyta
+
+Hvis du har for højt blodtryk.
+Inlyta kan få blodtrykket til at stige. Det er vigtigt, at blodtrykket bliver målt inden 
+behandlingen startes og regelmæssigt under behandlingen. Hvis du har for højt blodtryk, kan du
+blive behandlet med medicin, som nedsætter blodtrykket. Lægen skal sikre sig, at dit blodtryk er 
+under kontrol, før behandlingen startes, og mens du bliver behandlet med Inlyta.
+47
+
+Hvis du har problemer med stofskiftet.
+Inlyta kan give problemer med skjoldbruskkirtlen. Fortæl det til lægen, hvis du hurtigt bliver 
+træt, føler dig kuldskær eller hvis din stemme bliver dybere, mens du tager Inlyta. 
+Skjoldbruskkirtlens funktion skal måles, inden du begynder at tage Inlyta og regelmæssigt under 
+behandlingen. Hvis skjoldbruskkirtlen ikke producerer nok hormon, kan der gives et medicinsk 
+tilskud af skjoldbruskkirtelhormon.
+
+Hvis du for nylig har haft problemer med blodpropper, inklusive slagtilfælde og 
+hjertetilfælde.
+Kontakt omgående læge eller skadestue, ved symptomer som smerter eller trykken for brystet, 
+smerter i armene, ryggen, nakken eller kæben, åndenød, følelsesløshed eller svaghed i den ene 
+side af kroppen, problemer med at tale, hovedpine, synsforstyrrelser eller svimmelhed, mens du
+bliver behandlet med dette lægemiddel.
+
+Hvis du har problemer med blødning.
+Inlyta kan øge blødningstendensen. Kontakt lægen, hvis du får blødninger, hoster blod eller 
+blodigt slim op, mens du er i behandling med dette lægemiddel.
+
+Hvis du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en 
+rift i en blodårevæg.
+
+Hvis du under behandlingen med dette lægemiddel får kraftige mavesmerter eller 
+mavesmerter, som ikke forsvinder.
+Inlyta kan øge risikoen for at udvikle et hul i mavesækken eller i tarmene, eller øge risikoen for 
+fistel-dannelse (en rør-lignende passage fra et hulrum i kroppen til et andet eller til huden).
+Fortæl det til lægen, hvis du får kraftige mavesmerter, mens du er i behandling med dette 
+lægemiddel.
+
+Hvis du skal opereres eller har sår, der ikke er helet.
+Behandlingen med Inlyta bør stoppes mindst 24 timer før en operation, da Inlyta kan påvirke 
+sårhelingen. Normalt genoptages behandlingen, når såret er helet tilstrækkeligt.
+
+Hvis du under behandlingen med Inlyta får symptomer såsom hovedpine, forvirring, 
+kramper (krampeanfald) eller synsforstyrrelser med eller uden højt blodtryk.
+Kontakt omgående læge eller skadestue. Dette kan være en sjælden bivirkning i nervesystemet, 
+som kaldes posterior reversibel encefalopatisyndrom.
+
+Hvis du har problemer med leveren. 
+Lægen vil tage blodprøver før og under behandlingen med Inlyta.
+
+Hvis du får symptomer såsom usædvanlig træthed, opsvulmet mave, hævede ben eller 
+ankler, åndenød eller fremstående blodårer på halsen under behandling med Inlyta.
+Inlyta kan øge risikoen for at udvikle hjertesvigt. Din læge vil jævnligt undersøge Dem for 
+symptomer på hjertesvigt under behandlingen med axitinib.
+Brug til børn og teenagere
+Inlyta må ikke bruges til børn og unge under 18 år. Sikkerhed og virkning af dette lægemiddel til børn 
+og unge er ikke klarlagt.
+Brug af anden medicin sammen med Inlyta
+Visse typer medicin kan påvirke Inlyta, eller blive påvirket af Inlyta. Fortæl altid lægen, apoteket eller 
+sundhedspersonalet, hvis du tager anden medicin, for nylig har taget anden medicin eller planlægger at 
+tage anden medicin. Dette gælder også medicin, som ikke er købt på recept, f.eks. naturlægemidler og 
+48
+vitaminer og mineraler. Der kan være andre lægemidler end dem, der er nævnt her, som kan påvirke 
+virkningen af Inlyta.
+Medicin nævnt herunder kan muligvis øge risikoen for bivirkninger af Inlyta:
+
+ketokonazol og itraconazol, til behandling af svampeinfektioner
+
+clarithromycin, erythromycin og telithromycin, antibiotika til behandling af bakterieinfektioner
+
+atazanavir, indinavir, nelfinavir, ritonavir og saquinavir, til behandling af hiv-infektioner/AIDS
+
+nefazodon, til behandling af depression
+Medicin nævnt herunder kan muligvis nedsætte virkningen af Inlyta:
+
+rifampicin, rifabutin og rifapentin, til behandling af tuberkulose (TB)
+
+dexamethason, steroidholdig medicin der anvendes til flere forskellige tilstande også alvorlige 
+sygdomme
+
+phenytoin, carbamazepin og phenobarbital, epilepsimedicin til at standse krampeanfald
+
+perikon, et naturlægemiddel.
+Tag ikke disse typer medicin under behandlingen med Inlyta. Kontakt lægen, apoteket eller 
+sundhedspersonalet, hvis du bruger noget af ovenstående i forvejen. Lægen vil muligvis ændre dosis 
+på enten Inlyta eller det andet lægemiddel, eller skifte til et helt andet. 
+Inlyta kan muligvis øge bivirkningerne ved teofyllin, der anvendes til behandling af astma eller andre 
+lungesygdomme.
+Brug af Inlyta sammen med mad og drikke
+Tag ikke Inlyta sammen med grapefrugt eller grapefrugtjuice, da det kan øge risikoen for bivirkninger.
+Graviditet og amning
+
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge din læge, apoteket eller sundhedspersonalet til råds, før du tager dette 
+lægemiddel.
+
+Inlyta kan skade ufødte børn og børn, der bliver ammet.
+
+Tag ikke dette lægemiddel under graviditet. Spørg lægen til råds før du tager dette lægemiddel, 
+hvis du er eller planlægger at blive gravid.
+
+Anvend sikker prævention, mens du tager Inlyta og op til 1 uge efter den sidste dosis af 
+medicinen, så du undgår at blive gravid.
+
+Du må ikke amme, mens du er i behandling med Inlyta. Hvis du ammer, bør du diskutere med 
+lægen, om du skal holde op med at amme, eller om behandlingen skal stoppes.
+Trafik- og arbejdssikkerhed
+Hvis du føler dig svimmel og/eller træt under behandlingen med Inlyta, skal du være forsigtig, når du
+kører bil eller betjener maskiner.
+Inlyta indeholder lactose
+Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
+sukkerarter.
+49
+Inlyta indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take inlyta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take inlyta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, 
+apotekspersonalet eller sygeplejersken.
+Den sædvanlige dosis er 5 mg 2 gange daglig. Lægen kan herefter øge eller nedsætte dosis.
+Synk tabletten hel sammen med vand. Inlyta kan tages med eller uden mad. Tag Inlyta med ca. 
+12 timers mellemrum.
+Hvis du har taget for meget Inlyta
+Hvis du har taget for mange tabletter eller en større dosis, end du behøver, skal du omgående kontakte 
+lægen, da du måske kan få brug for lægehjælp.
+Hvis du har glemt at tage Inlyta
+Tag den næste dosis til sædvanlig tid. Du må ikke tage en dobbeltdosis som erstatning for den glemte 
+tablet.
+Hvis du kaster op, mens du tager Inlyta
+Du skal ikke tage en ekstra tablet, hvis du kaster op. Tag blot den næste dosis til sædvanlig tid.
+Hvis du holder op med at tage Inlyta
+Hvis du ikke er i stand til at tage medicinen, som lægen har anvist, eller du føler, at du ikke behøver 
+den mere, skal du straks kontakte lægen. 
+Spørg lægen, på apotekespersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Nogle bivirkninger kan være alvorlige. Du skal straks kontakte din læge, hvis du får nogle af de 
+følgende alvorlige bivirkninger (se også afsnittet "Det skal du vide, før du begynder at tage 
+Inlyta"):
+
+Hjertesvigt. Fortæl det til lægen, hvis du oplever usædvanlig træthed, opsvulmet mave, hævede 
+ben eller ankler, åndenød eller fremstående blodårer på halsen.
+
+Blodpropper, inklusive slagtilfælde og hjertetilfælde. Ring straks til lægen ved symptomer 
+som smerter eller trykken for brystet, smerter i armene, ryggen, nakken eller kæben, åndenød, 
+følelsesløshed eller svaghed i den ene side af kroppen, problemer med at gå, hovedpine, 
+synsforstyrrelser eller svimmelhed.
+
+Blødninger. Fortæl det straks til lægen, hvis du får nogle af disse symptomer eller alvorlige 
+blødninger under behandlingen med Inlyta: sort, klistret afføring, hoster blod eller blodigt slim 
+op eller oplever ændringer i mental tilstand.
+50
+
+Hul i mavesæk eller tarm eller fistel-dannelse (unormal rør-lignende passage fra et 
+hulrum i kroppen til et andet eller til huden). Fortæl lægen, hvis du får voldsomme 
+mavesmerter.
+
+Kraftigt stigning i blodtrykket (hypertensiv krise). Fortæl lægen, hvis du har meget for højt
+blodtryk, stærk hovedpine eller kraftige brystsmerter.
+
+Forbigående hævelse af hjernen. Ring straks til lægen, hvis du får symptomer såsom 
+hovedpine, forvirring, kramper og synsforstyrrelser, med eller uden for højt blodtryk.
+Andre bivirkninger ved Inlyta kan være:
+Meget almindelige: forekommer hos flere end 1 ud af 10 personer
+
+For højt blodtryk eller blodtryksstigning
+
+Diarré, kvalme, opkastning, mavesmerter, fordøjelsesproblemer, øm mund, tunge og svælg, 
+forstoppelse
+
+Åndenød, hoste, hæshed
+
+Manglende energi, svaghedsfølelse eller træthed
+
+Nedsat aktivitet af skjoldbruskkirtlen (ses i blodprøver)
+
+Rødmen og opsvulmning af håndflader og fodsåler (hånd- og fodsyndrom), hududslæt, tør hud
+
+Ledsmerter, smerter i hænder eller fødder
+
+Appetitløshed
+
+Protein i urinen (ses i urinprøver)
+
+Vægttab
+
+Hovedpine, smagforstyrrelser eller manglende smagssans
+Almindelige: forekommer hos op til 1 ud af 10 personer
+
+Væskemangel
+
+Nyresvigt
+
+Luft i maven, hæmorider, blødende gummer, blødning fra endetarmen, en brændende eller 
+sviende fornemmelse i munden
+
+Øget aktivitet i skjoldbruskkirtlen (ses i blodprøver)
+
+Ondt i halsen eller næsen og irritation i svælget
+
+Muskelsmerter
+
+Næseblod
+
+Hudkløe, hudrødme, hårtab
+
+Ringen for ørerne (tinnitus)
+
+Fald i antal røde blodlegemer (ses i blodprøver)
+
+Fald i antal blodplader (der gør at blodet har sværere ved at størkne) (ses i blodprøver)
+
+Røde blodlegemer i urinen (ses i urinprøver)
+
+Ændringer i stoffer/enzymer i blodet. (ses i blodprøver).
+
+Forhøjet antal røde blodlegemer (ses i blodprøver)
+
+Opsvulmet mave, hævede ben eller ankler, fremstående blodårer på halsen, usædvanlig træthed, 
+åndenød (tegn på hjertesvigt)
+
+Fistel-dannelse (unormal rør-lignende passage fra et hulrum i kroppen til et andet eller til 
+huden)
+
+Svimmelhed
+
+Betændelseslignende tilstand i galdeblære
+Ikke almindelige: forekommer hos op til 1 ud af 100 personer
+
+Nedsat antal hvide blodlegemer (ses i blodprøver)
+Bivirkninger, hvor hyppigheden ikke er kendt
+
+En udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner).
+51
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejerske. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store inlyta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store inlyta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn.
+Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den 
+sidste dag i den nævnte måned.
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Brug ikke dette lægemiddel, hvis du bemærker at pakningen er ødelagt eller viser tegn på at have 
+været åbnet.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Inlyta indeholder:</h2>
+<p>Aktivt stof: axitinib. Inlyta filmovertrukne tabletter findes i flere styrker.
+Inlyta 1 mg: hver tablet indeholder 1 mg axitinib
+Inlyta 3 mg: hver tablet indeholder 3 mg axitinib
+Inlyta 5 mg: hver tablet indeholder 5 mg axitinib
+Inlyta 7 mg: hver tablet indeholder 7 mg axitinib
+-
+Øvrige indholdsstoffer: mikrokrystallinsk cellulose, lactosemonohydrat, croscarmellosenatrium, 
+magnesiumstearat, hypromellose 2910 (15 mPa·s), titandioxid (E171), triacetin E1518), rød 
+jernoxid (E172) (se pkt. 2 Inlyta indeholder lactose).
+Udseende og pakningsstørrelser
+Inlyta 1 mg filmovertrukne tabletter er røde, ovale, præget med “Pfizer" på den ene side og “1 XNB" 
+på den anden. Inlyta 1 mg fås i beholdere med 180 tabletter og i blisterpakninger med 14 tabletter. 
+Hver pakning indeholder 28 tabletter eller 56 tabletter.
+Inlyta 3 mg filmovertrukne tabletter er røde, runde, præget med “Pfizer" på den ene side og “3 XNB" 
+på den anden. Inlyta 3 mg fås i beholdere med 60 tabletter og i blisterpakninger med 14 tabletter. Hver 
+pakning indeholder 28 tabletter eller 56 tabletter.
+Inlyta 5 mg filmovertrukne tabletter er røde, trekantede, præget med “Pfizer" på den ene side og 
+“5 XNB" på den anden. Inlyta 5 mg fås i beholdere med 60 tabletter og i blisterpakninger med tabletter. Hver pakning indeholder 28 tabletter eller 56 tabletter.
+Inlyta 7 mg filmovertrukne tabletter er røde, diamantformede, præget med “Pfizer" på den ene side og 
+“7 XNB" på den anden. Inlyta 7 mg fås i beholdere med 60 tabletter og i blisterpakninger med tabletter. Hver pakning indeholder 28 tabletter eller 56 tabletter.
+52
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller
+Pfizer Europe MA EEIG
+Boulevard de la Plaine 17
+1050 Bruxelles
+Belgien
+Fremstiller
+Pfizer Manufacturing Deutschland GmbH
+Betriebsstatte Freiburg
+Mooswaldallee 1
+79090 Freiburg
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+Belgique/België/Belgien
+Pfizer SA/NV
+Tél/Tel: +32 (0)2 554 62 11
+Lietuva
+Pfizer Luxembourg SARL filialas Lietuvoje 
+Tel: +370 52 51 4000
+България
+Пфайзер Люксембург САРЛ, Клон България 
+Тел: +359 2 970 4333
+Luxembourg/Luxemburg
+Pfizer S.A.
+Tél/Tel: +32 (0)2 554 62 11
+Česká republika
+Pfizer, spol. s r.o.
+Tel: +420 283 004 111
+Magyarország
+Pfizer Kft.
+Tel: +36 1 488 37 00
+Danmark
+Pfizer ApS
+Tlf: +45 44 20 11 00
+Malta
+Vivian Corporation Ltd.
+Tel: +356 21344610
+Deutschland
+PFIZER PHARMA GmbH
+Tel: +49 (0)30 550055 51000
+Nederland
+Pfizer BV
+Tel: +31 (0)10 4064 301
+Eesti
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7500
+Norge
+Pfizer AS
+Tlf: +47 67 52 61 00
+Ελλάδα
+Pfizer Ελλάς A.E.
+Τλ: +30 210 6785 800
+Österreich
+Pfizer Corporation Austria Ges.m.b.H.
+Tel: +43 (0)1 521 15-0
+España
+Pfizer S.L.
+Tél: +34 91 490 99 00
+Polska
+Pfizer Polska Sp. z o.o.
+Tel: +48 22 335 61 00
+France
+Pfizer 
+Tél: +33 (0)1 58 07 34 40
+Portugal
+Laboratórios Pfizer, Lda.
+Tel: +351 21 423 5500
+53
+Hrvatska 
+Pfizer Croatia d.o.o.
+Tel: + 385 1 3908 777
+România
+Pfizer Romania S.R.L.
+Tel: +40 (0)21 207 28 00
+Ireland
+Pfizer Healthcare Ireland
+Tel: 1800 633 363 (toll free)
++44 (0)1304 616161
+Slovenija
+Pfizer Luxembourg SARL
+Pfizer. podružnica za svetovanje s področja 
+farmacevtske dejavnosti, Ljubljana
+Tel: +386 (0)1 52 11 400
+Ísland
+Icepharma hf,
+Sími: +354 540 8000
+Slovenská republika
+Pfizer Luxembourg SARL, organizačná zložka
+Tel:+421 2 3355 5500
+Italia
+Pfizer S.r.l.
+Tel: +39 06 33 18 21
+Suomi/Finland
+Pfizer Oy
+Puh/Tel: +358(0)9 43 00 40
+Kύπρος
+Pfizer Ελλάς Α.Ε. (Cyprus Branch) 
+Τηλ: +357 22 817690
+Sverige 
+Pfizer AB
+Tel: +46 (0)8 550 520 00
+Latvija
+Pfizer Luxembourg SARL filiāle Latvijā
+Tel: +371 670 35 775
+United Kingdom (Northern Ireland)
+Pfizer Limited
+Tel: +44 (0)1304 616161
+Denne indlægsseddel blev senest ændret 
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu/</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inlyta Package Leaflet for language en"
+Description: "ePI document Bundle for inlyta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36"
+* entry[0].resource = composition-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8d8f8c8dd8b6d0af13b2bc71d6fa0c36"
+* entry[=].resource = mp8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+                            
+                    
+Instance: bundlepackageleaflet-da-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inlyta Package Leaflet for language da"
+Description: "ePI document Bundle for inlyta Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-8d8f8c8dd8b6d0af13b2bc71d6fa0c36"
+* entry[0].resource = composition-da-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp8d8f8c8dd8b6d0af13b2bc71d6fa0c36"
+* entry[=].resource = mp8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+                            
+                    
+
+
+
+Instance: mp8d8f8c8dd8b6d0af13b2bc71d6fa0c36
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Inlyta 1 mg film-coated tablets"
-Description: "Inlyta 1 mg film-coated tablets"
+Title: "Medicinal Product inlyta"
+Description: "inlyta"
 Usage: #inline
 
  
@@ -482,7 +1029,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Inlyta 1 mg film-coated tablets"
+  * productName = "inlyta"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -509,29 +1056,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for inlyta Package Leaflet for language en"
-Description: "ePI document Bundle for inlyta Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 8d8f8c8dd8b6d0af13b2bc71d6fa0c36ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Inlyta 1 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "inlyta"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36"
-* entry[0].resource = composition-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp6543aa0df9a26dcd223d77c9252c86d2"
-* entry[=].resource = mp6543aa0df9a26dcd223d77c9252c86d2
-                            
-                      
+* title = "List of all ePIs associated with inlyta"
+
+* subject = Reference(mp6543aa0df9a26dcd223d77c9252c86d2)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#inlyta "inlyta"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36) // inlyta en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-8d8f8c8dd8b6d0af13b2bc71d6fa0c36) // inlyta da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
+InstanceOf: List
+
+* insert 8d8f8c8dd8b6d0af13b2bc71d6fa0c36ListRuleset
+    

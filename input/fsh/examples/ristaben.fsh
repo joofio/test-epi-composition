@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-17b627e38a0df981119ba6697e477d47
 InstanceOf: CompositionUvEpi
 Title: "Composition for ristaben Package Leaflet"
@@ -360,12 +363,471 @@ http://www.ema.europa.eu.</p>         </div>"""
 
 
 
+Instance: composition-da-17b627e38a0df981119ba6697e477d47
+InstanceOf: CompositionUvEpi
+Title: "Composition for ristaben Package Leaflet"
+Description:  "Composition for ristaben Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp2aec71d4fea5dbd68f44cc95c0cbde7c)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp2aec71d4fea5dbd68f44cc95c0cbde7c
+* title = "TEST PURPOSES ONLY - ristaben"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal De vide, før De begynder at tage Ristaben
+3. Sådan skal De tage Ristaben
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ristaben is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ristaben is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ristaben indeholder det aktive stof sitagliptin, som tilhører en klasse af lægemidler, som kaldes DPP-
+4-hæmmere (dipeptylpeptidase-4-hæmmere). Disse lægemidler sænker blodsukkeret hos voksne
+patienter med type 2-diabetes mellitus. 
+Dette lægemiddel hjælper med at øge mængden af insulin, der frigives efter et måltid, og nedsætter
+mængden af sukker, der dannes af kroppen. 
+Deres læge har foreskrevet dette lægemiddel som en hjælp til at sænke Deres blodsukker, som er for
+højt på grund af Deres type 2-diabetes. Lægemidlet kan bruges alene eller sammen med visse andre
+lægemidler (insulin, metformin, sulfonylurinstof eller glitazoner), som sænker blodsukkeret, og som
+De måske allerede tager for Deres diabetes, samtidig med at De følger en diæt- og motionsplan. 
+Hvad er type 2-diabetes?
+Type 2-diabetes er en tilstand, hvor Deres krop ikke danner nok insulin, samtidig med at det insulin,
+som Deres krop danner, ikke virker så godt, som det burde. Deres krop kan også danne for meget
+sukker. Når dette sker, øges sukkerindholdet (glucose) i blodet. Dette kan føre til alvorlige
+helbredsproblemer som hjertesygdom, nyresygdom, blindhed og amputation.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ristaben"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ristaben"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ristaben
+- hvis De er allergisk over for sitagliptin eller et af de øvrige indholdsstoffer i lægemidlet (angivet
+i punkt 6).
+Advarsler og forsigtighedsregler 
+Der er indberettet tilfælde af betændelse i bugspytkirtlen (pankreatitis) hos patienter, der får Ristaben
+(se punkt 4).
+33
+Hvis De får blærer på huden, kan det være et tegn på en hudsygdom kaldet bulløs pemfigoid. Lægen
+vil måske bede Dem om at stoppe med at tage Ristaben. 
+Fortæl Deres læge om De har eller har haft:</p>
+<ul>
+<li>En sygdom i bugspytkirtlen (f.eks. pankreatitis).</li>
+<li>Galdesten, alkoholafhængighed eller et meget højt indhold af triglycerider (en fedtstoftype) i
+blodet. Disse sygdomme kan forøge risikoen for at få pankreatitis (se punkt 4).</li>
+<li>Type 1-diabetes.</li>
+<li>Komplikation til diabetes med forhøjet blodsukker, hurtigt vægttab, kvalme eller opkastning
+(diabetisk ketoacidose).</li>
+<li>Tidligere eller nuværende nyreproblemer.</li>
+<li>Allergisk reaktion over for Ristaben (se punkt 4).
+Dette lægemiddel vil ikke forårsage lavt blodsukker, fordi det ikke virker, når Deres blodsukker er
+lavt. Når lægemidlet tages sammen med et sulfonylurinstof eller sammen med insulin, kan lavt
+blodsukker (hypoglykæmi) forekomme. Lægen vil måske nedsætte dosis af sulfonylurinstof eller
+insulin.
+Børn og unge
+Dette lægemiddel må ikke anvendes til børn og unge under 18 år. Det er ikke effektivt hos børn og
+unge i alderen 10 til 17 år. Det er ukendt, om dette lægemiddel er sikkert og effektivt, når det
+anvendes hos børn under 10 år.
+Brug af anden medicin sammen med Ristaben
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger anden medicin, for nylig har brugt
+anden medicin eller planlægger at bruge anden medicin.
+Fortæl det især til lægen, hvis De tager digoxin (et lægemiddel til behandling af uregelmæssig
+hjerterytme og andre hjerteproblemer). Det kan være nødvendigt at kontrollere indholdet af digoxin i
+Deres blod, hvis De tager Ristaben.
+Graviditet og amning
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal
+De spørge Deres læge eller apotekspersonalet til råds, før De tager dette lægemiddel. De bør ikke tage
+dette lægemiddel under graviditet. 
+Det er ukendt, om lægemidlet går over i modermælken. De bør ikke tage dette lægemiddel, hvis De
+ammer eller planlægger at amme.
+Trafik- og arbejdssikkerhed
+Lægemidlet påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. Der
+har dog været rapporter om svimmelhed og døsighed, som kan påvirke Deres evne til at køre bil eller
+betjene maskiner. 
+Hvis De tager dette lægemiddel sammen med medicin, der kaldes sulfonylurinstof eller sammen med
+insulin, kan det medføre for lavt blodsukker (hypoglykæmi), som kan påvirke Deres evne til at køre
+bil og betjene maskiner, eller hvis De arbejder uden sikkert fodfæste.
+Ristaben indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
+væsentlige natriumfrit.
+34</li>
+</ul>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ristaben"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ristaben"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så spørg lægen eller
+apotekspersonalet. 
+Den almindelige anbefalede dosis er:</p>
+<ul>
+<li>En 100 mg filmovertrukken tablet.</li>
+<li>En gang dagligt.</li>
+<li>Gennem munden.
+Hvis De har nyreproblemer, kan Deres læge ordinere en lavere dosis (såsom 25 mg eller 50 mg).
+De kan tage dette lægemiddel med eller uden mad og drikke.
+Deres læge kan ordinere dette lægemiddel alene eller sammen med visse andre lægemidler, der sænker
+blodsukkeret.
+Diæt og motion kan hjælpe Dem, så kroppen bruger sit blodsukker bedre. Det er vigtigt at forblive på
+den diæt og motion, som lægen anbefaler, mens De tager Ristaben.
+Hvis De har taget for meget Ristaben
+Kontakt straks Deres læge, hvis De har taget mere end den foreskrevne dosis af dette lægemiddel.
+Hvis De har glemt at tage Ristaben
+Hvis De glemmer en dosis, så tag den, så snart De kommer i tanke om det. Hvis De ikke kommer i
+tanke om det, før det er tid til næste dosis, skal De springe den glemte dosis over og tage den næste
+dosis som normalt. De må ikke tage en dobbeltdosis som erstatning for den glemte dosis af
+lægemidlet.
+Hvis De holder op med at tage Ristaben
+Fortsæt med at tage Ristaben, så længe Deres læge ordinerer det, så De fortsat kan få hjælp til at
+kontrollere Deres blodsukker. De bør ikke holde op med at tage dette lægemiddel uden at tale med
+lægen først.
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</li>
+</ul>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+STOP med at tage Ristaben og kontakt straks lægen, hvis De får nogen af følgende alvorlige
+bivirkninger:</p>
+<ul>
+<li>Svære og vedvarende smerter i maven, som kan stråle ud i ryggen, med eller uden kvalme og
+opkastning, da det kan være tegn på betændelse i bugspytkirtlen (pankreatitis).
+Hvis De får en alvorlig allergisk reaktion (hyppighed ikke kendt), herunder udslæt, nældefeber, blærer
+på huden/hudafskalning og hævelse af ansigt, læber, tunge og svælg, som kan medføre vejrtræknings-
+og synkebesvær, skal De stoppe med at tage dette lægemiddel og kontakte lægen omgående. Lægen
+kan ordinere et lægemiddel til behandling af Deres allergiske reaktion og et andet lægemiddel til Deres
+diabetes.
+Nogle patienter har oplevet følgende bivirkninger efter at sitagliptin er blevet føjet til metformin:
+Almindelige (kan berøre op til 1 ud af 10): Lavt blodsukker, kvalme, øget luftafgang fra tarmen,
+opkastning.
+Ikke almindelige (kan berøre op til 1 ud af 100): Mavesmerter, diarré, forstoppelse, døsighed.
+35
+Nogle patienter har oplevet forskellige typer mavegener, når de er startet med at kombinere sitagliptin
+og metformin (hyppighed: almindelig).
+Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin sammen med et
+sulfonylurinstof og metformin:
+Meget almindelig (kan berøre flere end 1 ud af 10): Lavt blodsukker.
+Almindelig: Forstoppelse.
+Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin og pioglitazon:
+Almindelige: Øget luftafgang fra tarmen, hævede hænder eller ben. 
+Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin sammen med pioglitazon
+og metformin:
+Almindelige: Hævede hænder eller ben.
+Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin sammen med insulin
+(med eller uden metformin):
+Almindelig: Influenza
+Ikke almindelig: Tør mund
+Nogle patienter har oplevet følgende bivirkninger, når de har taget sitagliptin alene i kliniske studier
+eller ved anvendelse efter markedsføring alene og/eller sammen med anden diabetesmedicin:
+Almindelige: Lavt blodsukker, hovedpine, infektion i øvre luftveje, stoppet næse eller snue og ondt i
+halsen, betændelse i led og den tilgrænsede knogle, smerter i arme eller ben.
+Ikke almindelige: Svimmelhed, forstoppelse, kløe.
+Sjælden: Nedsat antal blodplader.
+Hyppighed ikke kendt: nyreproblemer (som kan kræve dialyse), opkastning, ledsmerter,
+muskelsmerter, rygsmerter, interstitiel lungesygdom, bulløs pemfigoid (en type blærer på huden).
+Indberetning af bivirkninger
+Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet eller sygeplejersken.
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at
+fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ristaben"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ristaben"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og kartonen efter EXP. Udløbsdatoen
+er den sidste dag i den nævnte måned.
+Opbevares ved temperaturer under 25 °C.
+Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ristaben indeholder:</p>
+<ul>
+<li>Aktivt stof: sitagliptin: * 
+Hver Ristaben 25 mg filmovertrukken tablet (tablet) indeholder sitagliptin
+phosphatmonohydrat, der svarer til 25 mg sitagliptin.
+36<em> 
+Hver Ristaben 50 mg filmovertrukken tablet (tablet) indeholder sitagliptin
+phosphatmonohydrat, der svarer til 50 mg sitagliptin.</em> 
+Hver Ristaben 100 mg filmovertrukken tablet (tablet) indeholder sitagliptin
+phosphatmonohydrat, der svarer til 100 mg sitagliptin.</li>
+<li>Øvrige indholdsstoffer: * 
+Tabletkerne: mikrokrystallinsk cellulose (E460), calciumhydrogenphosphat, vandfrit
+(E341), croscarmellosenatrium (E468), magnesiumstearat (E470b),
+natriumstearylfumarat og propylgallat. * 
+Filmovertræk: poly(vinylalkohol), macrogol 3350, talcum (E553b), titandioxid (E171),
+rød jernoxid (E172) og gul jernoxid (E172).
+Udseende og pakningsstørrelser</li>
+<li>Ristaben 25 mg filmovertrukne tabletter er runde, lyserøde, filmovertrukne tabletter mærket
+med "221" på den ene side.</li>
+<li>Ristaben 50 mg filmovertrukne tabletter er runde, lys beige, filmovertrukne tabletter mærket
+med "112" på den ene side.</li>
+<li>Ristaben 100 mg filmovertrukne tabletter er runde, beige, filmovertrukne tabletter mærket med
+"277" på den ene side.
+Uigennemsigtig blister (PVC/PE/PVDC og aluminium). Pakninger med 14, 28, 30, 56, 84, 90 eller 98
+filmovertrukne tabletter og 50 x 1 filmovertrukne tabletter i perforerede enkeltdosisblistre.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen og fremstiller<br />
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 39
+2031 BN Haarlem
+Holland</li>
+</ul>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemidel, skal De henvende Dem til den lokale
+repræsentant for indehaveren af markedsføringstilladelsen:
+Belgique/België/Belgien
+MSD Belgium
+Tél/Tel: +32 (0)27766211
+dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel.: +370 5 278 02 47
+msd_lietuva@merck.com
+България
+Мерк Шарп и Доум България ЕООД
+Тел.: +359 2 819 3737
+info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+Tél: +32 (0)27766211
+dpoc_belux@merck.com
+Česká republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel.: +420 233 010 111
+dpoc_czechslovak@merck.com
+Magyarország
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 5300
+hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: +45 4482 4000
+dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+37
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel.: 0800 9999000 (+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme OÜ
+Tel: +372 6144 200
+msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 00
+msdnorge@msd.no
+Eλλάδα
+MSD Α .Φ.Β.Ε.Ε.
+Τηλ: +30-210 98 97 300
+dpoc_greece@merck.com
+Österreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 044
+dpoc_austria@merck.com
+España
+Merck Sharp &amp; Dohme de España, S.A.
+Tel: +34 91 321 06 00
+msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel.: +48 22 549 51 00
+msdpolska@merck.com
+France
+MSD France
+Tél: +33 (0) 1 80 46 40 40
+Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465700
+inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o.
+Tel: + 385 1 66 11 333
+croatia_info@merck.com
+România
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +4021 529 29 00
+msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health) Lim-
+ited
+Tel: +353 (0)1 2998700
+medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila
+d.o.o.
+Tel: +386 1 5204 201
+msd_slovenia@merck.com
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+Merck Sharp &amp; Dohme, s.r.o.
+Tel.: +421 2 58282010
+dpoc_czechslovak@merck.com
+Ιtalia
+MSD Italia S.r.l.
+Tel: +39 06 361911
+medicalinformation.it@merck.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0) 9 804650
+info@msd.fi
+Κύπρος
+Merck Sharp &amp; Dohme Cyprus Limited
+Τηλ: 80000 673 (+357 22866700)
+cyprus_info@merck.com 
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700488
+medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: +371 67364224
+msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human
+Health) Limited
+Tel: +353 (0)1 2998700
+medinfoNI@msd.com
+38
+Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
+De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-17b627e38a0df981119ba6697e477d47
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ristaben Package Leaflet for language en"
+Description: "ePI document Bundle for ristaben Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-17b627e38a0df981119ba6697e477d47"
+* entry[0].resource = composition-en-17b627e38a0df981119ba6697e477d47
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp17b627e38a0df981119ba6697e477d47"
+* entry[=].resource = mp17b627e38a0df981119ba6697e477d47
+                            
+                    
+Instance: bundlepackageleaflet-da-17b627e38a0df981119ba6697e477d47
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ristaben Package Leaflet for language da"
+Description: "ePI document Bundle for ristaben Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-17b627e38a0df981119ba6697e477d47"
+* entry[0].resource = composition-da-17b627e38a0df981119ba6697e477d47
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp17b627e38a0df981119ba6697e477d47"
+* entry[=].resource = mp17b627e38a0df981119ba6697e477d47
+                            
+                    
+
+
+
+Instance: mp17b627e38a0df981119ba6697e477d47
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ristaben 25 mg film-coated tablets"
-Description: "Ristaben 25 mg film-coated tablets"
+Title: "Medicinal Product ristaben"
+Description: "ristaben"
 Usage: #inline
 
  
@@ -385,7 +847,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ristaben 25 mg film-coated tablets"
+  * productName = "ristaben"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -412,29 +874,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-17b627e38a0df981119ba6697e477d47
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ristaben Package Leaflet for language en"
-Description: "ePI document Bundle for ristaben Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 17b627e38a0df981119ba6697e477d47ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Ristaben 25 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ristaben"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-17b627e38a0df981119ba6697e477d47"
-* entry[0].resource = composition-en-17b627e38a0df981119ba6697e477d47
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp2aec71d4fea5dbd68f44cc95c0cbde7c"
-* entry[=].resource = mp2aec71d4fea5dbd68f44cc95c0cbde7c
-                            
-                      
+* title = "List of all ePIs associated with ristaben"
+
+* subject = Reference(mp2aec71d4fea5dbd68f44cc95c0cbde7c)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ristaben "ristaben"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-17b627e38a0df981119ba6697e477d47) // ristaben en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-17b627e38a0df981119ba6697e477d47) // ristaben da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-17b627e38a0df981119ba6697e477d47
+InstanceOf: List
+
+* insert 17b627e38a0df981119ba6697e477d47ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-909f6f2d2e9597ae246c0a311cd0f289
 InstanceOf: CompositionUvEpi
 Title: "Composition for zessly Package Leaflet"
@@ -616,12 +619,943 @@ Tel: +371 67 892 This leaflet was last revised in  </p>
 
 
 
+Instance: composition-da-909f6f2d2e9597ae246c0a311cd0f289
+InstanceOf: CompositionUvEpi
+Title: "Composition for zessly Package Leaflet"
+Description:  "Composition for zessly Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbee037690bb25a7b4af23111750384bc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbee037690bb25a7b4af23111750384bc
+* title = "TEST PURPOSES ONLY - zessly"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du får Zessly
+3. Sådan får du Zessly
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What zessly is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What zessly is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zessly indeholder det aktive stof infliximab. Infliximab er et monoklonalt antistof - en type protein, 
+der binder sig til et specifikt mål i kroppen kaldet TNF (tumornekrosefaktor) alfa.
+Zessly tilhører en medicingruppe kaldet "TNF-blokkere". Det bruges til voksne til behandling af 
+følgende betændelsessygdomme:
+•
+Reumatoid arthritis
+•
+Psoriasisarthritis
+•
+Ankyloserende spondylitis (Bekhterevs sygdom)
+•
+Psoriasis.
+Zessly bruges også til voksne og børn fra 6 år og opefter til behandling af:
+•
+Crohns sygdom
+•
+Colitis ulcerosa.
+Zessly virker ved selektivt at binde sig til TNF alfa og blokere dets virkning. TNF alfa er involveret i 
+kroppens betændelsesprocesser, så blokering af dette kan mindske betændelsen i din krop.
+Reumatoid arthritis
+Reumatoid arthritis er en betændelsessygdom i leddene. Hvis du har aktiv reumatoid arthritis, vil du 
+først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Zessly, som du skal 
+tage sammen med et andet lægemiddel, der hedder methotrexat, for at:
+•
+Reducere tegn og symptomer på din sygdom
+•
+Forsinke skaden i dine led
+•
+Forbedre din fysiske funktionsevne.
+53
+Psoriasisarthritis
+Psoriasisarthritis er en betændelsessygdom i leddene, almindeligvis ledsaget af psoriasis. Hvis du har 
+aktiv psoriasisarthritis, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, 
+vil du få Zessly for at:
+•
+Reducere tegn og symptomer på din sygdom
+•
+Forsinke skaden i dine led
+•
+Forbedre din fysiske funktionsevne.
+Ankyloserende spondylitis (Bekhterevs sygdom)
+Ankyloserende spondylitis er en betændelsessygdom i rygraden. Hvis du lider af ankyloserende 
+spondylitis, vil du først få andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få 
+Zessly for at:
+•
+Reducere tegn og symptomer på din sygdom
+•
+Forbedre din fysiske funktionsevne.
+Psoriasis
+Psoriasis er en betændelsessygdom i huden. Hvis du har moderat til svær plaque psoriasis, vil du først 
+få andre lægemidler eller behandlinger, såsom lysterapi. Hvis disse lægemidler eller behandlinger ikke 
+virker godt nok, vil du få Zessly for at reducere tegn og symptomer på din sygdom.
+Colitis ulcerosa
+Colitis ulcerosa er en betændelsessygdom i tarmen. Hvis du lider af colitis ulcerosa, vil du først få 
+andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Zessly til behandling af din 
+sygdom.
+Crohns sygdom
+Crohns sygdom er en betændelsessygdom i tarmen. Hvis du lider af Crohns sygdom, vil du først få 
+andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Zessly for at:
+•
+Behandle aktiv Crohns sygdom
+•
+Sænke antallet af unormale åbninger (fistler) mellem din tarm og hud, der ikke har kunnet 
+behandles tilfredsstillende med andre lægemidler eller operation.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take zessly"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take zessly"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Zessly hvis:
+•
+Du er allergisk over for infliximab eller et af de øvrige indholdsstoffer i Zessly (angivet 
+i punkt 6).
+•
+Du er allergisk over for proteiner, som stammer fra mus.
+•
+Du har tuberkulose (TB) eller en anden alvorlig infektion, såsom lungebetændelse eller 
+blodforgiftning (sepsis).
+•
+Du har hjertesvigt i moderat eller svær grad.
+Du må ikke få Zessly, hvis noget af ovenstående passer på dig. Hvis du er i tvivl, så tal med din læge, 
+før du får Zessly.
+Advarsler og forsigtighedsregler
+Kontakt lægen, før eller under behandlingen med Zessly, hvis du har:
+Været i behandling tidligere med lægemidler, der indeholder infliximab 
+•
+Fortæl din læge, hvis du tidligere har været i behandling med lægemidler, der indeholder 
+infliximab, og nu starter behandling med Zessly igen.
+•
+Hvis du har holdt pause i behandlingen med infliximab i over 16 uger, er der en højere risiko for 
+at få en allergisk reaktion, når du starter behandlingen igen.
+54
+Infektioner
+•
+Fortæl din læge, før du får Zessly, hvis du har en infektion, også selvom det er en meget let 
+infektion.
+•
+Fortæl din læge, før du får Zessly, hvis du nogensinde har boet eller rejst i et område, hvor 
+infektioner kaldet histoplasmose, kokcidioidomykose eller blastomykose er almindelige. Disse 
+infektioner forårsages af særlige svampetyper, som kan påvirke lungerne eller andre dele af 
+kroppen.
+•
+Du har lettere ved at få infektioner, når du er i behandling med Zessly. Du har en højere risiko, 
+hvis du er 65 år eller derover.
+•
+Disse infektioner kan være alvorlige og indbefatter tuberkulose, infektioner forårsaget af virus, 
+svampe, bakterier eller andre organismer i miljøet samt blodforgiftning, som kan være 
+livstruende.
+Fortæl straks din læge, hvis du får tegn på infektion under behandling med Zessly. Tegn 
+inkludererfeber, hoste, influenzalignende symptomer, utilpashed, rød eller ophedet hud, sår eller 
+problemer med tænderne. Din læge kan anbefale en midlertidig pause med Zessly.
+Tuberkulose (TB)
+•
+Det er meget vigtigt, at du fortæller din læge, hvis du nogensinde har haft TB, eller hvis du har 
+været i tæt kontakt med en person, som har eller har haft TB.
+•
+Din læge vil teste dig for at se, om du har TB. Tilfælde af TB har været rapporteret hos patienter 
+i behandling med infliximab, også hos patienter, der allerede har været i behandling med 
+medicin mod TB. Din læge vil notere disse tests på dit patientinformationskort.
+•
+Hvis din læge tror, at du har risiko for at få TB, kan du blive behandlet med lægemidler mod 
+TB, inden du får Zessly.
+Fortæl straks din læge, hvis du får tegn på TB under behandlingen med Zessly. Tegn inkluderer 
+vedvarende hoste, vægttab, træthedsfølelse, feber eller natlig svedtendens.
+Hepatitis B-virus
+•
+Fortæl din læge, før du får Zessly, hvis du er bærer af hepatitis B, eller hvis du nogensinde har 
+haft det.
+•
+Fortæl din læge, hvis du tror, du kan have en risiko for at blive smittet med hepatitis B.
+•
+Din læge skal teste dig for hepatitis B.
+•
+Behandling med TNF-blokkere, såsom Zessly, kan medføre, at hepatitis B igen bliver aktiv hos 
+patienter, som bærer denne virus. Dette kan i nogle tilfælde være livstruende.
+Hjerteproblemer
+•
+Fortæl din læge, hvis du har nogen form for hjerteproblemer, såsom let hjertesvigt.
+•
+Din læge vil nøje overvåge dit hjerte.
+Fortæl straks din læge, hvis du får nye eller forværrede tegn på hjertesvigt under behandlingen med 
+Zessly. Tegn inkluderer åndenød eller hævede fødder.
+Kræft og lymfom
+•
+Fortæl din læge, før du får Zessly, hvis du har eller nogensinde har haft lymfom (en type 
+blodkræft) eller enhver anden form for kræft.
+•
+Patienter med alvorlig reumatoid arthritis, som har haft sygdommen i lang tid, kan have en større 
+risiko for at udvikle lymfom.
+•
+Børn og voksne i behandling med Zessly kan have en øget risiko for at udvikle lymfom eller 
+anden form for kræft.
+•
+Nogle patienter, som har fået TNF-blokerende behandling, herunder infliximab, har udviklet en 
+sjælden kræftform kaldet hepatosplenisk T-celle-lymfom. Af disse patienter var de fleste 
+teenagedrenge eller unge mænd, hvoraf de fleste havde enten Crohns sygdom eller colitis 
+ulcerosa. Denne type kræft har oftest haft dødelig udgang. Næsten alle patienterne havde også 
+fået medicin, der indeholder azathioprin eller 6-mercaptopurin ud over den TNF-blokerende 
+behandling.
+55
+•
+Nogle patienter, der er blevet behandlet med infliximab, har udviklet visse former for hudkræft. 
+Hvis der er forandringer i huden eller svulster på huden under eller efter behandlingen, skal du 
+fortælle det til lægen.
+•
+Nogle kvinder, der er blevet behandlet for reumatoid arthritis med infliximab, har udviklet 
+livmoderhalskræft. Lægen kan tilråde, at kvinder, der får Zessly, herunder kvinder over 60 år, 
+bliver regelmæssigt screenet for livmoderhalskræft.
+Lungesygdom eller højt tobaksforbrug
+•
+Fortæl din læge, før du får Zessly, hvis du har en lungesygdom kaldet kronisk obstruktiv 
+lungesygdom (KOL, rygerlunger), eller hvis du er storryger.
+•
+Patienter med KOL og patienter, som er storrygere, kan have en øget risiko for at udvikle kræft 
+under behandling med Zessly.
+Sygdom i nervesystemet
+•
+Fortæl din læge, hvis du har eller nogensinde har haft en lidelse, som påvirker dit nervesystem, 
+før du får Zessly. Dette inkluderer dissemineret sklerose, Guillain-Barré syndrom, hvis du har 
+krampeanfald eller har fået stillet diagnosen "optisk neuritis" (betændelse i synsnerven).
+Fortæl straks din læge, hvis du får symptomer på en nervesygdom under behandlingen med Zessly. 
+Tegn inkluderer synsændringer, muskelsvaghed i arme eller ben, følelsesløshed eller prikken et sted i 
+kroppen.
+Unormale hudåbninger
+•
+Fortæl din læge, hvis du har unormale hudåbninger (fistler), før du får Zessly.
+Vaccinationer
+•
+Tal med din læge, hvis du lige er blevet eller har planlagt at blive vaccineret.
+•
+Du skal have de anbefalede vaccinationer, før du starter behandling med Zessly. Der er visse 
+vaccinationer, du kan få, mens du er i behandling med Zessly, men du må ikke få levende 
+vacciner (vacciner der indeholder et levende men svækket smitstof), da de kan give infektioner.
+•
+Hvis du har fået Zessly, mens du var gravid, kan dit barn også have en større risiko for at få en 
+infektion som et resultat af at have fået en levende vaccine i løbet af det første leveår. Det er 
+vigtigt, at du fortæller dit barns læger og andet sundhedspersonale, at du får Zessly, så de kan 
+finde frem til, hvornår dit barn skal vaccineres; det gælder også levende vacciner som BCG-
+vaccinen (bruges til at forebygge tuberkulose).
+•
+Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet sundhedspersonale, at du 
+har fået Zessly, før barnet bliver vaccineret. Se afsnittet om Graviditet, amning og frugtbarhed 
+for yderligere information.
+Terapeutiske smitstoffer
+•
+Tal med din læge, hvis du fornylig har fået, eller det er planlagt, at du skal have behandling med 
+et terapeutisk smitstof (fx instillation af BCG til behandling af kræft).
+Operationer eller tandindgreb
+•
+Fortæl din læge, hvis du skal have foretaget en operation eller et tandindgreb.
+•
+Fortæl kirurgen eller tandlægen, at du er i behandling med Zessly ved at vise dem dit 
+patientinformationskort.
+Leverproblemer
+•
+Nogle patienter, der får behandling med lægemidler, der indeholder infliximab, har udviklet 
+alvorlige leverproblemer.
+Fortæl det straks til lægen, hvis du får symptomer på leverproblemer under behandlingen med Zessly. 
+Tegn omfatter gulfarvning af hud og øjne, mørkebrun urin, smerter eller hævelse i øvre højre side af 
+maven, ledsmerter, hududslæt eller feber.
+56
+Lave blodtal
+•
+Hos nogle patienter, som får behandling med lægemidler, der indeholder infliximab, kan 
+kroppen måske ikke lave nok af de blodlegemer, der skal hjælpe med at bekæmpe infektioner 
+eller stoppe blødning. 
+Fortæl det straks til lægen, hvis du får symptomer på lave blodtal under behandlingen med Zessly. 
+Tegn omfatter vedvarende feber, større tendens til blødning eller blå mærker, små røde eller lilla 
+pletter, der skyldes blødning under huden, eller bleghed.
+Sygdomme i immunsystemet
+•
+Nogle patienter, der får behandling med lægemidler, der indeholder infliximab, har udviklet 
+symptomer på en sygdom i immunsystemet kaldet lupus. 
+Fortæl det straks til lægen, hvis du får symptomer på lupus under behandlingen med Zessly. Tegn 
+omfatter ledsmerter eller udslæt på kinder eller arme, som er følsomme over for solen.
+Børn og unge
+Ovenstående oplysninger gælder også for børn og unge. Derudover gælder, at:
+•
+Nogle børn og unge, som har fået TNF-blokkere såsom infliximab, har udviklet kræft inklusive 
+usædvanlige typer kræft, som i visse tilfælde har været dødelige.
+•
+Flere børn end voksne, der får infliximab, fik infektioner.
+•
+Børn skal have de anbefalede vaccinationer, før behandling med Zessly påbegyndes.
+Børn kan få visse vacciner under behandlingen med Zessly, men må ikke få levende vacciner, 
+mens de får Zessly.
+Hvis du er i tvivl, om noget af ovenstående passer på dig, skal du tale med din læge, før du får Zessly.
+Brug af andre lægemidler sammen med Zessly
+Patienter, som har betændelsessygdomme, tager allerede lægemidler for at behandle deres lidelse. 
+Disse lægemidler kan give bivirkninger. Din læge vil rådgive dig om, hvilke andre lægemidler du skal 
+blive ved med at tage, mens du er i behandling med Zessly.
+Fortæl altid lægen, hvis du bruger andre lægemidler eller har gjort det for nylig. Dette gælder også 
+lægemidler til behandling af Crohns sygdom, colitis ulcerosa, reumatoid arthritis, ankyloserende 
+spondylitis, psoriasisarthritis eller psoriasis eller lægemidler, som ikke er købt på recept, fx 
+naturlægemidler og vitaminer og mineraler.
+Det er specielt vigtigt, at du fortæller din læge, hvis du får nogen af følgende lægemidler:
+•
+Lægemidler som påvirker dit immunsystem.
+•
+Kineret (anakinra). Du må ikke få Zessly og Kineret samtidig.
+•
+Orencia (abatacept). Du må ikke få Zessly og Orencia samtidig.
+Du må ikke få levende vacciner, mens du får Zessly. Hvis du har fået Zessly, mens du var gravid, eller 
+hvis du får Zessly, mens du ammer, skal du fortælle dit barns læge og andet sundhedspersonale, der 
+tager sig af dit barn, at du har fået Zessly, før barnet bliver vaccineret.
+Hvis du er i tvivl, om noget af ovenstående passer på dig, skal du tale med din læge eller 
+apotekspersonalet, før du får Zessly.
+Graviditet, amning og frugtbarhed
+•
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive 
+gravid, skal du spørge lægen til råds, før du får dette lægemiddel. Du må kun få Zessly under 
+graviditeten, eller mens du ammer, hvis lægen finder det nødvendigt.
+•
+Du skal undgå at blive gravid, mens du er i behandling med Zessly, og i mindst 6 måneder efter 
+du er stoppet med behandlingen. Tal med lægen om anvendelse af prævention i denne 
+tidsperiode.
+•
+Hvis du fik Zessly under graviditeten, kan dit barn have en øget risiko for at få en infektion.
+•
+Det er vigtigt, at du fortæller dit barns læge og andet sundhedspersonale, at du har fået Zessly, 
+før barnet bliver vaccineret. Hvis du har fået Zessly under graviditeten, kan vaccination af dit 
+57
+barn med BCG-vaccine (bruges til at forebygge tuberkulose) inden for 12 måneder efter fødslen 
+medføre infektion med alvorlige komplikationer herunder død. Dit barn må ikke få levende 
+vacciner som BCG-vaccinen indenfor 12 måneder efter fødslen, medmindre barnets læge 
+anbefaler noget andet. For mere information, se afsnit om vaccination. 
+•
+Hvis du ammer, er det vigtigt, at du fortæller dit barns læge eller andet sundhedspersonale, at du 
+har fået Zessly, før barnet bliver vaccineret. Dit barn må ikke få levende vacciner, mens du 
+ammer, medmindre barnets læge anbefaler noget andet.
+•
+Alvorligt fald i antal hvide blodlegemer er set hos spædbørn født af kvinder, der er blevet 
+behandlet med infliximab under graviditeten. Hvis dit barn hyppigt får feber eller infektioner, 
+skal du omgående kontakte barnets læge.
+Trafik- og arbejdssikkerhed
+Zessly påvirker sandsynligvis ikke arbejdssikkerheden eller evnen til at færdes sikkert i trafikken. Hvis 
+du føler dig træt, svimmel eller utilpas efter at have fået Zessly, må du ikke køre bil eller betjene 
+nogen form for maskiner.
+Zessly indeholder natrium
+Zessly indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det væsentlige 
+"natriumfrit". Men før du får Zessly, blandes det sammen med en opløsning, som indeholder natrium. 
+Tal med din læge, hvis du er på en diæt med et lavt saltindhold.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take zessly"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take zessly"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reumatoid arthritis
+Den sædvanlige dosis er 3 mg pr. kg kropsvægt.
+Psoriasisarthritis, ankyloserende spondylitis (Bekhterevs sygdom), psoriasis, colitis ulcerosa og 
+Crohns sygdom
+Den sædvanlige dosis er 5 mg pr. kg kropsvægt.
+Sådan får du Zessly
+•
+Du vil få Zessly af din læge eller sygeplejerske.
+•
+Din læge eller sygeplejerske vil klargøre medicinen til infusion.
+•
+Medicinen vil blive givet som en infusion (drop) over 2 timer i en af dine blodårer (vener), 
+sædvanligvis i armen. Efter den tredje behandling kan din læge beslutte at give dig din dosis 
+Zessly over 1 time.
+•
+Du vil blive overvåget, mens du får Zessly og i 1-2 timer derefter.
+Den sædvanlige dosis
+•
+Lægen vil bestemme din dosis og hvor ofte, du skal have Zessly. Dette vil afhænge af din 
+sygdom, vægt og hvor godt, du reagerer på Zessly.
+•
+Tabellen nedenfor viser, hvor ofte du sædvanligvis vil få denne medicin efter din første dosis.
+2. dosis
+2 uger efter din 1. dosis
+3. dosis
+6 uger efter din 1. dosis
+Efterfølgende doser
+Hver 6. til 8. uge afhængig af din sygdom
+Brug til børn og unge
+Zessly må kun anvendes til børn, hvis de behandles for Crohns sygdom eller colitis ulcerosa. Børnene 
+skal være 6 år eller ældre.
+Hvis du får for meget Zessly
+Da du får denne medicin af din læge eller sygeplejerske, er det usandsynligt, at du vil få for meget. Der 
+kendes ikke til bivirkninger efter at have fået for meget Zessly.
+58
+Hvis du har glemt eller kommer for sent til din Zessly-infusion
+Hvis du glemmer eller kommer for sent til en aftale, hvor Zessly gives, skal du lave en ny aftale så 
+hurtigt som muligt.
+Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. De 
+fleste bivirkninger er lette til moderate. Nogle patienter kan dog opleve alvorlige bivirkninger, som 
+kan kræve behandling. Bivirkninger kan også opstå efter ophør af din behandling med Zessly.
+Fortæl straks din læge, hvis du bemærker noget af følgende:
+•
+Tegn på en allergisk reaktion såsom hævelse af ansigt, læber, mund eller svælg, som kan 
+forårsage besvær med at synke eller trække vejret, kløende udslæt, hævelse af hænder, fødder 
+eller ankler. Nogle af disse reaktioner kan være alvorlige eller livstruende. En allergisk reaktion 
+kan opstå inden for 2 timer efter din injektion eller senere. Yderligere tegn på allergiske 
+bivirkninger, som kan opstå op til 12 dage efter din injektion, inkluderer muskelsmerter, feber, 
+led- eller kæbesmerter, ondt i halsen eller hovedpine.
+•
+Tegn på hjerteproblemer såsom ubehag i brystkassen eller brystsmerter, armsmerter, 
+mavesmerter, åndenød, angst, ørhed, svimmelhed, besvimelse, svedtendens, kvalme 
+(utilpashed), opkastning, skælven eller banken i brystet, hurtigt eller langsomt hjerteslag og 
+hævede fødder.
+•
+Tegn på infektion (inklusive tuberkulose (TB)) såsom feber, træthedsfølelse, hoste, der kan 
+være vedvarende, åndenød, influenzalignende symptomer, vægttab, natlig svedtendens, diarré, 
+sår, ansamling af pus i tarmen eller omkring anus (absces), tandproblemer eller brændende 
+smerte, når du lader vandet.
+•
+Mulige tegn på kræft, inklusive men ikke begrænset til hævede lymfeknuder, vægttab, feber, 
+usædvanlige knuder i huden, ændringer i modermærker eller hudfarven eller usædvanlig 
+blødning fra skeden.
+•
+Tegn på lungeproblemer såsom hoste, åndedrætsbesvær eller trykken for brystet.
+•
+Tegn på et problem i nervesystemet (inklusive øjenproblemer) såsom tegn på slagtilfælde 
+(pludselig følelsesløshed eller svaghed i ansigt, arme eller ben, særligt i den ene side af kroppen; 
+pludselig forvirring, besvær med at tale eller forstå; besvær med at se med det ene eller begge 
+øjne, gangbesvær, svimmelhed, tab af balance- eller koordinationsevne eller svær hovedpine), 
+krampeanfald, prikken/følelsesløshed et sted i kroppen, eller svaghed i arme eller ben, 
+ændringer i synet såsom dobbeltsyn eller andre øjenproblemer.
+•
+Tegn på leverproblemer (inklusive hepatitis B-infektion, hvis du tidligere har haft hepatitis B) 
+såsom gulfarvning af hud eller øjne, mørkebrun urin, smerter eller hævelser i øvre højre side af 
+maven, ledsmerter, hududslæt eller feber.
+•
+Tegn på en sygdom i immunsystemet såsom ledsmerter, udslæt på kinder eller arme, som er 
+følsomme over for solen (lupus) eller hoste, åndenød, feber eller hududslæt (sarkoidose).
+•
+Tegn på lave blodtal såsom vedvarende feber, blødningstendens, tendens til lettere at få blå 
+mærker, små røde eller lilla pletter, der skyldes blødning under huden, eller bleghed.
+•
+Tegn på alvorlige hudproblemer såsom rødlige, målskivelignende pletter eller runde områder 
+ofte med blærer centralt på kroppen, store områder med afskalning (eksfoliation) samt sår i 
+mund, svælg, næse, kønsorganer og øjne eller små pusholdige blærer, som kan sprede sig over 
+hele kroppen. Disse hudreaktioner kan være ledsaget af feber.
+Fortæl straks din læge, hvis du bemærker noget af ovenstående.
+Følgende bivirkninger er observeret med lægemidler, der indeholder infliximab:
+59
+Meget almindelig: (kan forekomme hos flere end 1 ud af 10 personer)
+•
+Mavesmerter, kvalme
+•
+Virusinfektioner såsom herpes eller influenza
+•
+Øvre luftvejsinfektioner såsom bihulebetændelse
+•
+Hovedpine
+•
+Bivirkninger i forbindelse med infusionen
+•
+Smerter.
+Almindelige: (kan forekomme hos op til 1 ud af 10 personer)
+•
+Ændringer i hvordan din lever fungerer, forhøjede leverenzymer (vist i blodprøver)
+•
+Infektioner i lunger eller luftveje såsom bronkitis eller lungebetændelse
+•
+Besværet eller smertefuldt vejrtrækning, smerter i brystet
+•
+Blødning i mave eller tarme, diarré, fordøjelsesbesvær, halsbrand, forstoppelse
+•
+Nældefeber, kløende udslæt eller tør hud
+•
+Balanceproblemer eller svimmelhed
+•
+Feber, øget svedtendens
+•
+Kredsløbsproblemer såsom for lavt eller for højt blodtryk
+•
+Blå mærker, hedeture eller næseblod, varm, rød hud (rødmen)
+•
+Trætheds- eller svaghedsfølelse
+•
+Bakterieinfektioner såsom blodforgiftning, byld eller infektion under huden (cellulitis)
+•
+Svampeinfektion i huden
+•
+Blodproblemer såsom blodmangel eller lavt antal hvide blodlegemer
+•
+Hævede lymfeknuder
+•
+Depression, problemer med at sove
+•
+Øjenproblemer inklusive røde øjne og øjeninfektioner
+•
+Galoperende hjerte (hurtig puls) eller hjertebanken
+•
+Smerter i leddene, musklerne eller ryggen
+•
+Urinvejsinfektion
+•
+Psoriasis, hudproblemer såsom eksem og hårtab
+•
+Reaktioner på injektionsstedet såsom smerte, hævelse, rødme eller kløe
+•
+Kuldegysninger, hævelse på grund af ophobning af væske under huden
+•
+Følelsesløshed eller en prikkende fornemmelse.
+Ikke almindelige: (kan forekomme hos op til 1 ud af 100 personer)
+•
+Manglende blodtilførsel, hævelse af en blodåre
+•
+Ansamling af blod uden for blodkarrene (hæmatom) eller blå mærker
+•
+Hudproblemer såsom blæredannelse, vorter, unormal hudfarve eller pigmentering, eller hævede 
+læber, eller fortykkelse af huden eller rød, skællende hud og afskalning af huden 
+•
+Alvorlige allergiske reaktioner (fx anafylaksi), en sygdom i immunsystemet kaldet lupus, 
+allergiske reaktioner over for fremmede proteiner
+•
+Længere sårhelingstid
+•
+Hævelse af lever (hepatitis) eller galdeblære, leverskade
+•
+Glemsomhed, irritabilitet, forvirring, nervøsitet
+•
+Øjenproblemer inklusive sløret eller nedsat syn, hævede øjne eller bygkorn
+•
+Debuterende eller forværring af eksisterende hjertesvigt, langsom hjertefrekvens (puls)
+•
+Besvimelse
+•
+Kramper, nerveforstyrrelser
+•
+Hul i tarmen eller blokering af tarmen, mavesmerter eller -kramper
+•
+Hævelse af bugspytkirtlen (bugspytkirtelbetændelse)
+•
+Svampeinfektioner såsom gærsvampeinfektion eller svampeinfektion i neglene
+•
+Lungeproblemer såsom ødemer
+•
+Væske rundt om lungerne (pleuraekssudat)
+•
+Forsnævrede luftveje i lungerne, der giver åndedrætsbesvær
+•
+Lungehindebetændelse, der giver skape smerter, som forværres ved vejrtrækning (pleuritis)
+60
+•
+Tuberkulose
+•
+Nyreinfektioner
+•
+Lavt antal blodplader, for mange hvide blodlegemer
+•
+Infektioner i skeden
+•
+Blodprøveresultater, der viser ‘antistoffer’ mod din egen krop
+•
+Ændringer i kolesterol- og fedtindholdet i blodet.
+•
+Vægtstigning (for de fleste patienter var vægtstigningen lille).
+Sjælden: (kan forekomme hos op til 1 ud af 1 000 personer)
+•
+En type blodkræft (lymfom)
+•
+Blodet tilfører ikke nok ilt til kroppen, kredsløbsproblemer såsom indsnævring af et blodkar
+•
+Betændelse i hjernehinderne (meningitis)
+•
+Infektioner, som skyldes nedsat immunforsvar
+•
+Hepatitis B-infektion, hvis du tidligere har haft hepatitis B
+•
+Betændelsestilstand i leveren forårsaget af et problem med immunsystemet (autoimmun 
+hepatitis)
+•
+Leverproblemer, der giver gulfarvning af hud eller øjne (gulsot)
+•
+Unormal vævshævelse eller -vækst
+•
+Alvorlig allergisk reaktion, som kan medføre tab af bevidsthed og kan være livstruende 
+(anafylaktisk shock)
+•
+Hævelse af små blodkar (blodkarbetændelse)
+•
+Immunsystemdefekt, som kan påvirke lunger, hud og lymfekirtler (såsom sarkoidose)
+•
+Ansamling af immunceller som følge af et inflammatorisk respons (granulomatøse læsioner)
+•
+Mangel på interesse eller følelser
+•
+Alvorlige hudproblemer såsom toksisk epidermal nekrolyse, Stevens-Johnsons syndrom og akut 
+generaliseret eksantematøs pustulose
+•
+Andre hudproblemer såsom erythema multiforme, lichenoide reaktioner (kløende, rødligt-lilla 
+hududslæt og/eller trådlignende gråhvide linjer på slimhinderne), blærer og afskalning af huden, 
+eller bylder (furunkulose)
+•
+Alvorlige lidelser i nervesystemet såsom transversal myelitis, multipel sklerose-lignende 
+sygdom, optisk neuritis og Guillain-Barrés syndrom
+•
+Øjenbetændelse, der kan forårsage synsforandringer, inklusive blindhed
+•
+Væske omkring hjertet (perikardial effusion)
+•
+Alvorlige lungeproblemer (såsom interstitiel lungesygdom)
+•
+Melanom (en type hudkræft)
+•
+Livmoderhalskræft
+•
+Lave blodtal, herunder svært nedsat antal hvide blodlegemer
+•
+Små røde eller lilla pletter, der skyldes blødning under huden
+•
+Unormale værdier for et protein i blodet kaldet ‘komplementfaktor’, som er en del af 
+immunsystemet.
+Ikke kendte: (hyppigheden kan ikke estimeres ud fra forhåndenværende data)
+•
+Kræft hos børn og voksne
+•
+En sjælden blodkræft som hovedsageligt rammer teenagedrenge eller unge mænd 
+(hepatosplenisk T-celle-lymfom)
+•
+Leversvigt
+•
+Merkelcellekarcinom (en type hudkræft)
+•
+Kaposis sarkom, en sjælden type kræft, der er forbundet med infektion med humant 
+herpesvirus 8. Kaposis sarkom forekommer oftest som lilla læsioner på huden
+•
+Forværring af en sygdom der hedder dermatomyositis (muskelsvaghed med hududslæt som 
+følgetilstand)
+•
+Hjerteanfald
+•
+Slagtilfælde
+•
+Midlertidigt synstab under eller inden for 2 timer efter infusionen
+•
+Infektion, der skyldes en levende vaccine, som følge af et svækket immunsystem.
+61
+Hos børn og unge ses yderligere følgende bivirkninger:
+De bivirkninger, som børn i behandling med infliximab mod Crohns sygdom fik, var forskellige fra de 
+bivirkninger, som voksne i behandling med infliximab mod Crohns sygdom fik. Følgende bivirkninger 
+forekom hyppigere hos børn: nedsat antal røde blodlegemer (anæmi), blod i afføringen, nedsat samlet 
+indhold af hvide blodlegemer (leukopeni), anfaldsvis ansigtsrødme, virusinfektioner, lavt indhold af 
+hvide blodlegemer, der bekæmper infektion (neutropeni), knoglebrud, bakterieinfektion og allergiske 
+reaktioner i luftvejene.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med lægen, sygeplejerske eller apoteket. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zessly"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zessly"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zessly opbevares normalt af sundhedspersonalet. Skulle du få brug for information omkring 
+opbevaring, gælder følgende:
+•
+Opbevar lægemidlet utilgængeligt for børn
+•
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned
+•
+Opbevares i køleskab (2 °C – 8 °C)
+•
+Lægemidlet kan også opbevares i den originale pakning uden for køleskab ved højst 30 °C i en 
+enkelt periode på op til 6 måneder, men den oprindelige udløbsdato må ikke overskrides. I 
+denne situation må det ikke sættes tilbage i køleskab. Skriv den nye udløbsdato på æsken med 
+dag/måned/år. Kasser lægemidlet, hvis det ikke er brugt før den nye udløbsdato eller den dato, 
+der er trykt på æsken, alt efter, hvilken dato der kommer først.
+•
+Det anbefales, at Zessly anvendes så hurtigt som muligt (inden for 3 timer), efter det er klargjort 
+til infusion. Hvis opløsningen er klargjort under aseptiske betingelser, kan den dog opbevares i 
+køleskab ved 2°C – 8°C i 24 timer.
+•
+Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zessly indeholder
+•
+Aktivt stof: infliximab. Hvert hætteglas indeholder 100 mg infliximab. Efter klargøring 
+indeholder hver ml 10 mg infliximab.
+•
+Øvrige indholdsstoffer: dinatriumsuccinathexahydrat, ravsyre, saccharose, polysorbat (se pkt. 2).
+Udseende og pakningsstørrelser
+Zessly leveres som et hætteglas (glasflaske) indeholdende et pulver til koncentrat til infusionsvæske, 
+opløsning (pulver til koncentrat). Pulveret er hvidt.
+Zessly fås i pakninger med 1, 2, 3, 4 eller 5 hætteglas. Ikke alle pakningsstørrelser er nødvendigvis 
+markedsført.
+Indehaver af markedsføringstilladelsen
+Sandoz GmbH
+Biochemiestr. 10
+6250 Kundl
+Østrig
+62
+Fremstiller
+Sandoz GmbH
+Biochemiestr. 10
+6336 Langkampfen
+Østrig
+Lek Pharmaceuticals d.d.
+Verovškova ulica 57
+1526 Ljubljana
+Slovenien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Sandoz nv/sa
+Tél/Tel: +32 2 722 97 97
+Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636 037
+България
+Сандоз България КЧТ
+Тел.: +359 2 970 47 47
+Luxembourg/Luxemburg
+Sandoz nv/sa
+Tél/Tel.: +32 2 722 97 97
+Česká republika
+Sandoz s.r.o.
+Tel: +420 225 775 111
+Magyarország
+Sandoz Hungária Kft.
+Tel.: +36 1 430 2890
+Danmark/Norge/Ísland/Sverige
+Sandoz A/S
+Tlf.: +45 63 95 10 00
+Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644126
+Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 600
+Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2400
+Österreich
+Sandoz GmbH
+Tel: +43 5338 2000
+Ελλάδα
+SANDOZ HELLAS ΜΟΝΟΠΡΟΣΩΠΗ Α.Ε.
+Τηλ: +30 216 600 5000
+Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 00
+España
+Sandoz Farmacéutica, S.A.
+Tel: +34 900 456 856
+Portugal
+Sandoz Farmacêutica Lda.
+Tel: +351 21 000 86 00
+France
+Sandoz SAS
+Tél: +33 1 49 64 48 00
+România
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 60
+Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska družba d.d.
+Tel: +386 1 580 29 02
+63
+Ireland
+Rowex Ltd.
+Tel: + 353 27 50077
+Slovenská republika
+Sandoz d.d. - organizačná zložka
+Tel: +421 2 48200 600
+Italia
+Sandoz S.p.A.
+Tel: +39 02 96541
+Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133 400
+Κύπρος
+Sandoz Pharmaceuticals d.d.
+Τηλ: +357 22 69 0690
+United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2000
+Latvija
+Sandoz d.d. Latvia filiāle
+Tel: +371 67 892 006
+Denne indlægsseddel blev senest ændret 
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu. 
+64</p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner:
+Patientinformationskortet skal udleveres til patienter, som er i behandling med infliximab.
+Instruktion i anvendelse og håndtering – opbevaring
+Opbevares ved 2 °C – 8 °C.
+Zessly kan opbevares ved temperaturer på op til højst 30 °C i en enkelt periode på op til 6 måneder, 
+men den oprindelige udløbsdato må ikke overskrides. Den nye udløbsdato skal skrives på pakningen. 
+Når Zessly er taget ud af køleskabet, må det ikke sættes tilbage på køl igen.
+Instruktion i anvendelse og håndtering - rekonstitution, fortynding og administration
+For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
+batchnummer tydeligt registreres.
+1. Beregn dosis og det nødvendige antal Zessly-hætteglas. Hvert Zessly-hætteglas indeholder 
+100 mg infliximab. Beregn det samlede påkrævede volumen rekonstitueret Zessly-koncentrat.
+2. Rekonstituer under aseptiske forhold hvert Zessly-hætteglas med 10 ml vand til 
+injektionsvæsker ved hjælp af en sprøjte med en gauge 21 (0,8 mm) kanyle eller en mindre 
+kanyle. Fjern plastiklåget fra hætteglasset og tør toppen med en 70 % alkoholvatpind. Indsæt 
+sprøjtekanylen i hætteglasset gennem midten af gummiproppen og ret injektionsvæskestrømmen 
+mod glasvæggen i hætteglasset. Bland forsigtigt koncentratet ved at vende hætteglasset for at 
+opløse det lyofiliserede pulver. Undgå at svinge for længe eller for kraftigt. MÅ IKKE 
+RYSTES. Opskumning af koncentratet ved rekonstitution er ikke usædvanlig. Lad det 
+rekonstituerede koncentrat stå i 5 minutter. Kontroller at koncentratet er farveløst til lysebrunt 
+og opaliserende. Der kan opstå nogle få fine gennemsigtige partikler i koncentratet, da 
+infliximab er et protein. Koncentratet må ikke anvendes, hvis det indeholder uigennemsigtige 
+partikler, er misfarvet eller indeholder andre fremmedlegemer.
+3. Fortynd den samlede dosis (volumen) af det rekonstituerede Zessly-koncentrat til 250 ml med 
+natriumchlorid 9 mg/ml (0,9 %) injektionsvæske. Fortynd ikke det rekonstituerede Zessly-
+koncentrat med andre infusionsvæsker. Fortyndingen kan opnås ved at udtrække et volumen af 
+natriumchlorid 9 mg/ml (0,9 %) injektionsvæske fra 250 ml glasflasken eller infusionsposen 
+svarende til voluminet af det rekonstituerede Zessly-koncentrat. Tilføj langsomt det samlede 
+volumen af rekonstitueret Zessly-koncentrat til 250 ml infusionsflasken eller -posen. Bland 
+forsigtigt.
+4. Indgiv infusionsvæsken over en periode på ikke mindre end den anbefalede infusionstid. 
+Anvend kun et infusionssæt med et in-line, sterilt, ikke-pyrogent, minimalt proteinbindende 
+filter (porestørrelse 1,2 μm eller derunder). Da der ikke er anvendt konserveringsmiddel, 
+anbefales det, at indgivelsen af infusionsvæsken påbegyndes så hurtigt som muligt og inden for 
+3 timer efter rekonstitution og fortynding. Når rekonstitution og fortynding er udført under 
+aseptiske forhold, kan Zessly infusionsvæske anvendes inden for 24 timer, hvis den opbevares 
+ved 2 °C – 8 °C. Opbevar ikke rester af den ikke anvendte infusionsvæske til fornyet brug.
+5. Der er ikke gennemført biokemiske forligelighedsstudier for at vurdere samtidig indgivelse af 
+Zessly med andre midler. Infunder ikke Zessly i den samme intravenøse slange med andre 
+midler.
+6. Undersøg Zessly visuelt for partikler eller misfarvning før indgivelsen. Anvendes ikke, hvis der 
+observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegemer.
+7. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-909f6f2d2e9597ae246c0a311cd0f289
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zessly Package Leaflet for language en"
+Description: "ePI document Bundle for zessly Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-909f6f2d2e9597ae246c0a311cd0f289"
+* entry[0].resource = composition-en-909f6f2d2e9597ae246c0a311cd0f289
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp909f6f2d2e9597ae246c0a311cd0f289"
+* entry[=].resource = mp909f6f2d2e9597ae246c0a311cd0f289
+                            
+                    
+Instance: bundlepackageleaflet-da-909f6f2d2e9597ae246c0a311cd0f289
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zessly Package Leaflet for language da"
+Description: "ePI document Bundle for zessly Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-909f6f2d2e9597ae246c0a311cd0f289"
+* entry[0].resource = composition-da-909f6f2d2e9597ae246c0a311cd0f289
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp909f6f2d2e9597ae246c0a311cd0f289"
+* entry[=].resource = mp909f6f2d2e9597ae246c0a311cd0f289
+                            
+                    
+
+
+
+Instance: mp909f6f2d2e9597ae246c0a311cd0f289
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Zessly 100 mg powder for concentrate for solution for infusion"
-Description: "Zessly 100 mg powder for concentrate for solution for infusion"
+Title: "Medicinal Product zessly"
+Description: "zessly"
 Usage: #inline
 
  
@@ -641,7 +1575,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Zessly 100 mg powder for concentrate for solution for infusion"
+  * productName = "zessly"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -668,29 +1602,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-909f6f2d2e9597ae246c0a311cd0f289
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for zessly Package Leaflet for language en"
-Description: "ePI document Bundle for zessly Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 909f6f2d2e9597ae246c0a311cd0f289ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1280/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "zessly"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-909f6f2d2e9597ae246c0a311cd0f289"
-* entry[0].resource = composition-en-909f6f2d2e9597ae246c0a311cd0f289
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbee037690bb25a7b4af23111750384bc"
-* entry[=].resource = mpbee037690bb25a7b4af23111750384bc
-                            
-                      
+* title = "List of all ePIs associated with zessly"
+
+* subject = Reference(mpbee037690bb25a7b4af23111750384bc)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#zessly "zessly"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-909f6f2d2e9597ae246c0a311cd0f289) // zessly en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-909f6f2d2e9597ae246c0a311cd0f289) // zessly da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-909f6f2d2e9597ae246c0a311cd0f289
+InstanceOf: List
+
+* insert 909f6f2d2e9597ae246c0a311cd0f289ListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-fba0a8367a83300af2a00b0c6fd0b172
 InstanceOf: CompositionUvEpi
 Title: "Composition for fotivda Package Leaflet"
@@ -440,12 +443,642 @@ Ireland </p>
 
 
 
+Instance: composition-da-fba0a8367a83300af2a00b0c6fd0b172
+InstanceOf: CompositionUvEpi
+Title: "Composition for fotivda Package Leaflet"
+Description:  "Composition for fotivda Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp36173f1bb05dd1661eada84844387bc6)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp36173f1bb05dd1661eada84844387bc6
+* title = "TEST PURPOSES ONLY - fotivda"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Fotivda  </li>
+<li>Sådan skal du tage Fotivda  </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What fotivda is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What fotivda is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Fotivda er tivozanib, som er en proteinkinasehæmmer. Tivozanib reducerer 
+blodforsyningen til kræften, hvad der gør væksten og spredningen af kræftceller mere langsom. Det 
+fungerer ved at blokere handlingen af et protein kaldet vaskulær endotelial vækstfaktor (VEGF). 
+Blokeringen af VEGF’s handling forebygger dannelsen af nye blodkar. </p>
+<p>Fotivda bruges til at behandle voksne med avanceret nyrekræft. Det bruges, hvor andre behandlinger 
+som f.eks. interferon-alfa eller interleukin-2 enten endnu ikke er blevet brugt eller ikke har hjulpet 
+med at standse din sygdom. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take fotivda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take fotivda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Fotivda:  </p>
+<ul>
+<li>
+<p>Hvis du er allergisk over for tivozanib eller et af de øvrige indholdsstoffer i tivozanib (angivet i 
+punkt 6);  </p>
+</li>
+<li>
+<p>Hvis du tager perikon (også kendt som Hypericum perforatum, et naturlægemiddel, der bruges 
+til behandling af depression og uro). </p>
+</li>
+</ul>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du tager Fotivda:  </p>
+<ul>
+<li>
+<p>Hvis du har højt blodtryk. 
+Fotivda kan øge dit blodtryk. Din læge vil overvåge dit blodtryk regelmæssigt og, hvis det er for 
+højt, kan han/hun enten give dig et lægemiddel for at sænke det eller reducere din dosis af 
+Fotivda. Hvis dit blodtryk bliver ved med at være for højt, kan din læge dog beslutte at afbryde 
+eller standse behandlingen med Fotivda. Hvis du allerede tager et lægemiddel for at behandle 
+højt blodtryk, og din læge reducerer dosis af Fotivda eller afbryder eller standser behandlingen, 
+vil du jævnligt blive kontrolleret for lavt blodtryk.  </p>
+</li>
+<li>
+<p>Hvis du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i 
+en blodårevæg. </p>
+</li>
+<li>
+<p>Hvis du har haft problemer med blodpropper.<br />
+Behandlingen med Fotivda kan øge risikoen for at udvikle en blodprop (trombose) i dine 
+blodkar, som kunne rive sig løs og blive ført med blodstrømmen og blokere et andet blodkar.<br />
+Fortæl det til din læge, hvis du har haft et af følgende problemer:  * 
+en blodprop i dine lunger (med hoste, brystsmerter, pludselig åndenød eller ophostning af 
+blod) * 
+blodprop i dine ben eller arme, øjne eller hjerne (med smerter eller hævede hænder eller 
+fødder, reduceret syn eller ændringer af din mentale tilstand) * 
+et slagtilfælde eller tegn og symptomer på et "mini-slagtilfælde" (Transitorisk iskæmisk 
+attak) * 
+et hjerteanfald * 
+højt blodtryk * 
+diabetes * 
+større operation * 
+mange kvæstelser som f.eks. brækkede knogler og skader på indre organer * 
+manglende evne til at bevæge dig over en lang periode * 
+hjertesvigt, som kan fremkalde åndenød eller hævede ankler * 
+manglende evne til at ånde, blålig farve på din hud, fingerspidser eller læber, rastløshed, 
+angst, forvirring, ændret bevidsthed eller følelse af årvågenhed, hurtig, overfladisk 
+vejrtrækning, et galoperende hjerte eller overdreven sveden.  </p>
+</li>
+<li>
+<p>Hvis du lider af eller har lidt af et af disse symptomer eller er behandlet for hjertesvigt: * 
+Åndenød (dyspnø) når du anstrenger dig eller når du ligger ned * 
+Føler at du er svag og træt * 
+Hævelse (ødem) i dine ben, ankler og fødder * 
+Nedsat evne til at dyrke motion * 
+Vedvarende hoste eller hvæsende lyd med hvidt eller lyserødt blodigt slim 
+Tegn og symptomer på hjertesvigt vil blive overvåget, mens du tager dit lægemiddel. Din læge 
+kan reducere din dosis af Fotivda eller afbryde eller standse denne behandling, hvis det er 
+nødvendigt. </p>
+</li>
+<li>
+<p>Hvis du har eller behandles for en unormal hjertefrekvens eller hjerterytme (arytmi). 
+Din læge vil overvåge virkningen af Fotivda på dit hjerte ved at kortlægge dit hjertes elektriske 
+aktivitet (med et elektrokardiogram) eller ved at måle dit blods indhold af calcium, magnesium 
+og kalium i løbet af din behandling. </p>
+</li>
+<li>
+<p>Hvis du har problemer med din lever.<br />
+Din læge vil jævnligt overvåge, hvor godt din lever fungerer før og i løbet af behandlingen med 
+Fotivda (f.eks. med blodprøver), og han/hun vil muligvis reducere, hvor ofte du tager Fotivda.  </p>
+</li>
+<li>
+<p>Hvis du har problemer med din skjoldbruskkirtel eller tager lægemidler for at behandle en 
+sygdom i skjoldbruskkirtlen. Behandlingen med Fotivda kan medføre, at din skjoldbruskkirtel 
+fungerer mindre godt. Din læge vil jævnligt overvåge, hvor godt din skjoldbruskkirtel fungerer 
+før og i løbet af behandlingen med Fotivda (f.eks. med blodprøver).  </p>
+</li>
+</ul>
+<p>Kontakt lægen, apotekspersonalet eller sygeplejersken, mens du tager Fotivda:  </p>
+<ul>
+<li>
+<p>Hvis du får åndenød eller hævede ankler. 
+Fortæl det straks til din læge, da det kan være symptomer på hjertesvigt. Din læge vil overvåge 
+det og afhængig af sværhedsgrad kan han/hun reducere din dosis af Fotivda eller afbryde eller 
+standse behandlingen med Fotivda. </p>
+</li>
+<li>
+<p>Hvis du har haft problemer med blødning. 
+Behandlingen med Fotivda kan øge risikoen for blødning. Hvis du får problemer med blødning 
+(med en smertefuld opsvulmet mave (abdomen), opkastning med blod, ophostning af blod, sort 
+afføring, blod i din urin, hovedpine eller ændringer i din mentale tilstand), skal du straks 
+fortælle det til din læge. Det kan være nødvendigt at standse behandlingen med Fotivda 
+midlertidigt.  </p>
+</li>
+<li>
+<p>Hvis laboratorietest viser, at der findes protein i din urin.<br />
+Din læge vil overvåge det i begyndelsen og i løbet af din behandling. I forhold til resultaterne 
+kan din læge reducere din dosis af Fotivda eller afbryde eller standse denne behandling. </p>
+</li>
+<li>
+<p>Hvis du lider af en sygdom i hjernen, kaldet posterior reversibelt encefalopati-syndrom 
+(PRES). 
+Fortæl det straks til din læge, hvis du har symptomer som f.eks. hovedpine, slagtilfælde 
+(anfald), manglende energi, forvirring, blindhed eller andre visuelle og neurologiske 
+forstyrrelser som f.eks. svaghed i en arm eller et ben. Hvis PRES diagnosticeres, vil din læge 
+standse behandlingen med Fotivda.  </p>
+</li>
+<li>
+<p>Hvis huden i dine håndflader og fodsåler bliver tør, revnet, skaller af, stikker eller snurrer. 
+Det kan være symptomer på en tilstand, der kaldes hånd-fod syndrom. Din læge vil behandle 
+denne tilstand, og i forhold til sværhedsgraden kan din læge reducere din dosis af Fotivda eller 
+afbryde eller standse denne behandling. </p>
+</li>
+<li>
+<p>Hvis du har symptomer på gastrointestinal perforation eller fisteldannelse (udvikling af et 
+hul i maven eller tarmen eller unormale passager mellem tarmens dele) som f.eks. svære 
+mavesmerter, kuldegysninger, feber, kvalme, opkastning eller smertefuld tarmobstruktion, 
+diarré eller blødning fra endetarmsåbning.<br />
+Din læge vil regelmæssigt overvåge, om du har disse symptomer i løbet af din behandling med 
+Fotivda. </p>
+</li>
+<li>
+<p>Hvis du har behov for at gennemgå en operation eller en anden form for kirurgi. 
+Din læge kan anbefale, at du holder op med at tage Fotivda midlertidigt, hvis du skal have en 
+operation eller et kirurgisk indgreb, da denne behandling kan have indflydelse på sårheling.  </p>
+</li>
+</ul>
+<p>Børn og unge 
+Giv ikke Fotivda til børn og unge under 18 år. Dette lægemiddel er ikke blevet undersøgt hos børn og 
+unge.  </p>
+<p>Brug af anden medicin sammen med Fotivda<br />
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Dette omfatter naturlægemidler og anden 
+medicin, som du har købt uden recept.  </p>
+<p>Fotivda kan fungere mindre godt, når det tages sammen med visse lægemidler. Fortæl det til din læge, 
+hvis du tager et af følgende lægemidler. Han/hun kan beslutte at ændre din behandling: </p>
+<ul>
+<li>
+<p>dexamethason (en kortikosteroid for at reducere inflammation og behandle forstyrrelser af 
+immunsystemet), </p>
+</li>
+<li>
+<p>rosuvastatin (et lægemiddel, der bruges til at hjælpe med at sænke kolesterolindholdet i dit 
+blod), </p>
+</li>
+<li>
+<p>phenobarbital, phenytoin, carbamazepin (bruges til at behandle epilepsi), </p>
+</li>
+<li>
+<p>nafcillin, rifampicin, rifabutin, rifapentin (antibiotika), </p>
+</li>
+<li>
+<p>perikon (også kendt som Hypericum perforatum, et naturlægemiddel, der bruges til behandling 
+af depression og uro), da dette naturlægemiddel ikke bør bruges sammen med Fotivda. </p>
+</li>
+</ul>
+<p>Graviditet, amning og frugtbarhed  </p>
+<ul>
+<li>
+<p>Tag ikke Fotivda, hvis du er gravid. Fortæl det til din læge, som vil forklare dig risikoen ved 
+at tage Fotivda for dig og dit barn. </p>
+</li>
+<li>
+<p>Både du og din partner skal bruge sikker prævention.  Hvis du eller din partner tager en 
+hormonal prævention (p-pille, implantat eller patch), skal du bruge en ekstra barrieremetode 
+under hele behandlingen og i endnu en måned efter at have fuldendt behandlingen. </p>
+</li>
+<li>
+<p>Du må ikke amme dit barn i løbet af behandlingen med Fotivda, da det ikke vides, om det 
+aktive stof i Fotivda passerer over i modermælken. Fortæl det til din læge, hvis du allerede 
+ammer. </p>
+</li>
+<li>
+<p>Fortæl det til din læge, hvis du planlægger at blive gravid, da Fotivda kan indvirke på mænd og 
+kvinders frugtbarhed. </p>
+</li>
+</ul>
+<p>Trafik- og arbejdssikkerhed 
+Fotivda kan have bivirkninger, som kan indvirke på din evne til at føre motorkøretøj eller betjene 
+maskiner. Undgå at føre motorkøretøj eller betjene maskiner, hvis du føler dig svag, træt eller 
+svimmel. Se også punkt 4 “Bivirkninger". </p>
+<p>Fotivda indeholder tartrazin (E102) 
+Prægeblækket, der anvendes på kapslen med Fotivda 890 mikrogram, indeholder tartrazin (E102), som 
+kan medføre allergiske reaktioner.  </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take fotivda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take fotivda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. </p>
+<p>Anbefalet dosis 
+Den anbefalede dosis er en Fotivda 1340 mikrogram kapsel, taget én gang om dagen i 21 dage 
+(3 uger), efterfulgt af en periode på 7 dage (1 uge), hvor du ingen kapsler tager.<br />
+Denne tidsplan gentages i cyklusser på 4 uger.  </p>
+<p>Din læge vil kontrollere dig jævnligt, og du vil normalt fortsætte med at tage Fotivda, så længe det 
+fungerer og du ikke lider af uacceptable bivirkninger. </p>
+<p>Reduceret dosis 
+Hvis du oplever alvorlige bivirkninger, kan din læge beslutte at afbryde Fotivda-terapien og/eller 
+sænke dosis til: 
+En Fotivda 890 mikrogram kapsel, taget én gang om dagen i 21 dage (3 uger), efterfulgt af en periode 
+på 7 dage (1 uge), hvor der ingen kapsler tages. 
+Denne tidsplan gentages i cyklusser på 4 uger.  </p>
+<p>21 dage (tre uger) </p>
+<p>Tag én Fotivda kapsel 
+én gang om dagen 
+7 dage (1 uge) </p>
+<p>Tag ingen kapsler 
+Leverproblemer 
+Hvis du har leverproblemer, kan din læge reducere hyppigheden for indtagelse af din dosis til hver 
+anden dag (dvs. en 1340 mikrogram kapsel hver anden dag). </p>
+<p>Brug sammen med mad og drikke 
+Fotivda skal tages med et glas vand og kan tages med eller uden mad. Kapslen skal sluges hel. 
+Kapslen skal ikke tygges, opløses eller åbnes, før den sluges.  </p>
+<p>Hvis du har taget for meget Fotivda 
+Fortæl det straks til din læge, hvis du har taget mere end den ordinerede dosis på 1 kapsel pr. dag.<br />
+Når man tager for meget Fotivda, er der større sandsynligvis for at få bivirkninger, eller at de er 
+alvorlige, især højt blodtryk. Søg øjeblikkeligt lægehjælp, hvis du oplever forvirring, ændring af din 
+mentale tilstand eller hovedpine. De er alle symptomer på højt blodtryk. </p>
+<p>Hvis du har glemt at tage Fotivda 
+Hvis du har glemt at tage en kapsel, må du ikke tage en kapsel for at erstatte den. Fortsæt med at tage 
+din næste dosis på det sædvanlige tidspunkt. </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte kapsel. </p>
+<p>Hvis du kaster op efter at have taget Fotivda, må du ikke tage en kapsel som erstatning for det. Fortsæt 
+med at tage din næste dosis på det sædvanlige tidspunkt.  </p>
+<p>Hvis du holder op med at tage Fotivda<br />
+Hold ikke op med at tage dette lægemiddel, med mindre din læge beder dig om det. Hvis du holder op 
+med at tage kapslerne, kan din tilstand blive forværret. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkning </p>
+<p>Højt blodtryk er den mest alvorlige og en meget almindelig bivirkning (se også under punkt 2 
+“Advarsler og forsigtighedsregler"). </p>
+<p>Fortæl det straks til din læge, hvis du tror, at du har højt blodtryk. Symptomer omfatter stærk 
+hovedpine, sløret syn, åndenød, ændringer i din mentale tilstand som f.eks. at du føler dig urolig, 
+forvirret eller desorienteret. </p>
+<p>Din læge vil kontrollere dit blodtryk jævnligt i løbet af behandlingen med Fotivda. Hvis du udvikler 
+højt blodtryk, vil din læge måske ordinere et lægemiddel for at behandle højt blodtryk, sænke din dosis 
+af Fotivda eller standse din behandling med Fotivda.  </p>
+<p>Andre bivirkninger </p>
+<p>Meget almindelige (kan opstå hos mere end 1 ud af 10 personer) </p>
+<ul>
+<li>
+<p>Taleproblemer </p>
+</li>
+<li>
+<p>Diarré </p>
+</li>
+<li>
+<p>Tab af appetit; vægttab </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Åndedrætsbesvær; åndenød under anstrengelser; hoste </p>
+</li>
+<li>
+<p>Træthed; usædvanlig svaghed; smerter (herunder i mund, knogler, ekstremiteter, på siden af 
+kroppen, lyske, tumor) </p>
+</li>
+<li>
+<p>Betændelse i munden; lette smerter i munden eller ubehag; fornemmelse af et være syg; smerter, 
+ubehag og trykken i maven </p>
+</li>
+<li>
+<p>Hånd-fod-syndrom med rød hud, hævelse, følelsesløshed og skallende hud på håndflader og 
+fodsål </p>
+</li>
+<li>
+<p>Rygsmerter </p>
+</li>
+<li>
+<p>Træthed og mangel på energi </p>
+</li>
+</ul>
+<p>Almindelige (kan opstå hos op til 1 ud af 10 personer)  </p>
+<ul>
+<li>
+<p>Underaktiv skjoldbruskkirtel, som kan give symptomer som f.eks. træthed, sløvhed, 
+muskelsvaghed, lav hjertefrekvens, vægtforøgelse </p>
+</li>
+<li>
+<p>Søvnløshed </p>
+</li>
+<li>
+<p>Nerveskader inklusiv følelsesløshed, prikken og stikken, sensitiv hud eller følelsesløshed og 
+svaghed i arme og ben </p>
+</li>
+<li>
+<p>Synsproblemer, som omfatter sløret syn </p>
+</li>
+<li>
+<p>Hurtig hjertefrekvens; trykken i brystet; hjerteanfald/reduceret blodstrøm til hjertet; blodprop i 
+en arterie (blodkar) </p>
+</li>
+<li>
+<p>Blodprop i lungerne. Symptomer omfatter hoste, brystsmerter, pludselig åndenød eller 
+ophostning af blod </p>
+</li>
+<li>
+<p>Blodprop i en dyb vene som f.eks. i ben </p>
+</li>
+<li>
+<p>Meget højt blodtryk som fører til et slagtilfælde; rød hud </p>
+</li>
+<li>
+<p>Næseblødning; løbende næse; tilstoppet næse </p>
+</li>
+<li>
+<p>Flatulens; halsbrand; vanskelig og smertefuld synkning; ondt i halsen; oppustet mave; 
+opsvulmet og smertefuld tunge; betændte smertefulde og/eller blødende gummer </p>
+</li>
+<li>
+<p>Ændring eller tab af smag </p>
+</li>
+<li>
+<p>Svimmelhed; ringen for ørerne; svimmelhed og en fornemmelse af at alt kører rundt (vertigo) </p>
+</li>
+<li>
+<p>Blødning, f.eks. i hjernen, fra mund, gummer, lunger, mave, tarmsår, kvindelige kønsorganer, 
+endetarmsåbning, binyre </p>
+</li>
+<li>
+<p>Ophostning af blod; opkastning af blod </p>
+</li>
+<li>
+<p>Bleghed og træthed pga. overdreven blødning </p>
+</li>
+<li>
+<p>Kløende hud; udslæt; kløe på kroppen; afskallende hud; tør hud; hårtab; rød hud inklusiv på 
+hænder og krop; akne </p>
+</li>
+<li>
+<p>Feber; brystsmerter; hævede fødder og ben; kuldegysninger og lav kropstemperatur </p>
+</li>
+<li>
+<p>Ledsmerter; muskelsmerter </p>
+</li>
+<li>
+<p>Øget mængde protein i urin </p>
+</li>
+<li>
+<p>Unormale blodprøveresultater for lever, bugspytkirtel, nyrer og skjoldbruskkirtel </p>
+</li>
+<li>
+<p>Inflammation af bugspytkirtlen, som fremkalder stærke mavesmerter, der kan sprede sig til 
+ryggen </p>
+</li>
+</ul>
+<p>Ikke almindelige (kan opstå hos op til 1 ud af 100 personer) </p>
+<ul>
+<li>
+<p>Udslæt med pus; svampeinfektioner </p>
+</li>
+<li>
+<p>Huden får nemt blå mærker, blødning i huden </p>
+</li>
+<li>
+<p>Overaktiv skjoldbruskkirtel (som kan give symptomer såsom øget appetit, vægttab, intolerance 
+over for varme, øget sveden, rystelser, hurtig hjertefrekvens); udvidet skjoldbruskkirtel </p>
+</li>
+<li>
+<p>Forhøjet antal røde blodlegemer </p>
+</li>
+<li>
+<p>Hukommelsestab </p>
+</li>
+<li>
+<p>Midlertidig reduceret blodstrømning til hjernen </p>
+</li>
+<li>
+<p>Øjne der løber i vand </p>
+</li>
+<li>
+<p>Tilstoppede ører </p>
+</li>
+<li>
+<p>Manglende blodstrøm gennem hjertets blodkar </p>
+</li>
+<li>
+<p>Mavesår i tyndtarmen </p>
+</li>
+<li>
+<p>Rød, opsvulmet og smertefuld hud; hud med vabler; overdreven sveden; nældefeber </p>
+</li>
+<li>
+<p>Muskelsvaghed </p>
+</li>
+<li>
+<p>Hævede eller irriterede slimhinder </p>
+</li>
+<li>
+<p>Unormalt elektrokardiogram (EKG), hurtig og/eller uregelmæssig hjerterytme </p>
+</li>
+<li>
+<p>Hjertesvigt. Symptomer omfatter åndenød eller hævede ankler. Hævelse i lungerne på grund af 
+ophobning af væske </p>
+</li>
+</ul>
+<p>Sjældne (kan opstå hos op til 1 ud af 1.000 personer) </p>
+<ul>
+<li>Posterior reversibelt encefalopati-syndrom (PRES). Symptomer omfatter hovedpine, 
+slagtilfælde, manglende energi, forvirring, blindhed eller andre visuelle og neurologiske 
+forstyrrelser </li>
+</ul>
+<p>Ikke kendt (kan ikke estimeres ud fra forhåndenværende data) </p>
+<ul>
+<li>En udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner). </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store fotivda"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store fotivda"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og flasken efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Hold flasken tæt til lukket for at beskytte mod fugt.  </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fotivda indeholder:  </p>
+<p>Fotivda 890 mikrogram hårde kapsler<br />
+Aktivt stof: tivozanib. Hver kapsel indeholder tivozanib-hydrochloridmonohydrat svarende til 
+890 mikrogram tivozanib. 
+Øvrige indholdsstoffer:</p>
+<ul>
+<li>Kapselindhold: mannitol, magnesiumstearat.  </li>
+<li>Kapselskal: gelatine, titaniumdioxid (E171), indigocarmin (E132), gul jernoxid (E172). </li>
+<li>Gult blæk: shellac, propylenglycol, stærk ammoniakopløsning, titaniumdioxid (E171), tartrazin 
+aluminium lake (E102) (se punkt 2 "Fotivda indeholder tartrazin (E102)"). </li>
+<li>Blåt blæk: shellac, propylenglycol, stærk ammoniakopløsning, indigocarmin aluminium lake 
+(E132). </li>
+</ul>
+<p>Fotivda 1340 mikrogram hårde kapsler<br />
+Aktivt stof: tivozanib. Hver kapsel indeholder tivozanib-hydrochloridmonohydrat svarende til 
+1340 mikrogram of tivozanib. 
+Øvrige indholdsstoffer:</p>
+<ul>
+<li>Kapselindhold: mannitol, magnesiumstearat. </li>
+<li>Kapselskal: gelatine, titaniumdioxid (E171), gul jernoxid (E172). </li>
+<li>Blåt blæk: shellac, propylenglycol, stærk ammoniakopløsning, indigocarmin aluminium lake 
+(E132). </li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+Fotivda 890 mikrogram hårde kapsler har en mørkeblå uigennemsigtig hætte og en lysegul 
+uigennemsigtig underdel, med "TIVZ" trykt på hætten med gult blæk og "LD" trykt på underdelen 
+med mørkeblåt blæk. </p>
+<p>Fotivda 1340 mikrogram hårde kapsler har en lysegul uigennemsigtig hætte og en lysegul 
+uigennemsigtig underdel, med "TIVZ" trykt på hætten med mørkeblåt blæk  og "SD" trykt på 
+underdelen med mørkeblåt blæk. </p>
+<p>Fotivda 890 mikrogram og Fotivda 1340 mikrogram kan fås i pakninger med 21 kapsler i 
+HDPE-flasker med børnesikret lukke. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Recordati Netherlands B.V. 
+Beechavenue 54, 
+1119PW Schiphol-Rijk 
+Holland </p>
+<p>Fremstiller 
+ALMAC PHARMA SERVICES (IRELAND) LIMITED 
+Finnabair Industrial Estate 
+Dundalk<br />
+Co. Louth<br />
+A91 P9KD<br />
+Irland </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-fba0a8367a83300af2a00b0c6fd0b172
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fotivda Package Leaflet for language en"
+Description: "ePI document Bundle for fotivda Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fba0a8367a83300af2a00b0c6fd0b172"
+* entry[0].resource = composition-en-fba0a8367a83300af2a00b0c6fd0b172
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfba0a8367a83300af2a00b0c6fd0b172"
+* entry[=].resource = mpfba0a8367a83300af2a00b0c6fd0b172
+                            
+                    
+Instance: bundlepackageleaflet-da-fba0a8367a83300af2a00b0c6fd0b172
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fotivda Package Leaflet for language da"
+Description: "ePI document Bundle for fotivda Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-fba0a8367a83300af2a00b0c6fd0b172"
+* entry[0].resource = composition-da-fba0a8367a83300af2a00b0c6fd0b172
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfba0a8367a83300af2a00b0c6fd0b172"
+* entry[=].resource = mpfba0a8367a83300af2a00b0c6fd0b172
+                            
+                    
+
+
+
+Instance: mpfba0a8367a83300af2a00b0c6fd0b172
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Fotivda 890 microgram hard capsules"
-Description: "Fotivda 890 microgram hard capsules"
+Title: "Medicinal Product fotivda"
+Description: "fotivda"
 Usage: #inline
 
  
@@ -465,7 +1098,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Fotivda 890 microgram hard capsules"
+  * productName = "fotivda"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -492,29 +1125,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-fba0a8367a83300af2a00b0c6fd0b172
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for fotivda Package Leaflet for language en"
-Description: "ePI document Bundle for fotivda Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: fba0a8367a83300af2a00b0c6fd0b172ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Fotivda 890 microgram hard capsules"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "fotivda"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-fba0a8367a83300af2a00b0c6fd0b172"
-* entry[0].resource = composition-en-fba0a8367a83300af2a00b0c6fd0b172
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp36173f1bb05dd1661eada84844387bc6"
-* entry[=].resource = mp36173f1bb05dd1661eada84844387bc6
-                            
-                      
+* title = "List of all ePIs associated with fotivda"
+
+* subject = Reference(mp36173f1bb05dd1661eada84844387bc6)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#fotivda "fotivda"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-fba0a8367a83300af2a00b0c6fd0b172) // fotivda en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-fba0a8367a83300af2a00b0c6fd0b172) // fotivda da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-fba0a8367a83300af2a00b0c6fd0b172
+InstanceOf: List
+
+* insert fba0a8367a83300af2a00b0c6fd0b172ListRuleset
+    

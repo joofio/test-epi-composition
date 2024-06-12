@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-34d2770dedeba7114006ff1f66a042d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for verzenios Package Leaflet"
@@ -348,12 +351,484 @@ Other sources of information  </p>
 
 
 
+Instance: composition-da-34d2770dedeba7114006ff1f66a042d4
+InstanceOf: CompositionUvEpi
+Title: "Composition for verzenios Package Leaflet"
+Description:  "Composition for verzenios Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp1b23d8e83acd4ee6f79db31e0d85f9cc)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp1b23d8e83acd4ee6f79db31e0d85f9cc
+* title = "TEST PURPOSES ONLY - verzenios"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
+<ol>
+<li>Virkning og anvendelse </li>
+<li>Det skal du vide, før du begynder at tage Verzenios </li>
+<li>Sådan skal du tage Verzenios </li>
+<li>Bivirkninger </li>
+<li>Opbevaring </li>
+<li>Pakningsstørrelser og yderligere oplysninger </li>
+</ol>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What verzenios is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What verzenios is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Verzenios er et lægemiddel mod kræft, der indeholder det aktive stof abemaciclib. </p>
+<p>Abemaciclib blokerer virkningerne af nogle proteiner, der kaldes for cyklinafhængig kinase 4 og 6. Disse proteiner er unormalt aktive i nogle kræftceller og får dem til at vokse ukontrolleret. 
+Blokeringen af disse proteiners virkning kan hæmme væksten af kræftceller, gøre knuden mindre og 
+forsinke kræftens udvikling. </p>
+<p>Verzenios anvendes til behandling af visse typer brystkræft (hormonreceptor-positiv (HR+), human 
+epidermal vækstfaktorreceptor 2-negativ (HER2-)), der  </p>
+<ul>
+<li>har spredt sig til lymfekirtler i armhulen uden sporbar spredning til andre dele af kroppen, er 
+blevet fjernet kirurgisk og har visse karakteristika, der øger risikoen for, at kræften vender 
+tilbage. Behandling gives i kombination med hormonbehandling, såsom aromatasehæmmere 
+eller tamoxifen for at forhindre, at kræften vender tilbage efter operation (behandling efter 
+operation kaldes adjuverende behandling). </li>
+<li>spredt sig ud over den oprindelige kræftknude og/eller til andre organer. Det gives sammen 
+med hormonbehandlinger, såsom aromatasehæmmere eller fulvestrant. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take verzenios"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take verzenios"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Verzenios 
+- hvis du er allergisk over for abemaciclib eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i afsnit 6). </p>
+<p>Advarsler og forsigtighedsregler 
+Verzenios kan:</p>
+<ul>
+<li>forårsage et fald i antallet af hvide blodlegemer og øge din risiko for at få en infektion. 
+Alvorlige infektioner, såsom lungeinfektioner, kan være livstruende. </li>
+<li>forårsage blodpropper i venerne. </li>
+<li>forårsage alvorlige eller livstruende lungebetændelser. </li>
+<li>påvirke din leverfunktion. </li>
+<li>forårsage diarré. Påbegynd behandling med midler mod diarré, såsom loperamid, ved det 
+første tegn på diarré. Drik rigelig væske, </li>
+<li>forårsage blodpropper i arterierne hos patienter, der også får hormonbehandlinger. </li>
+</ul>
+<p>Se afsnit 4 "Bivirkninger", og kontakt lægen, hvis du får nogen symptomer. </p>
+<p>Lægekontroller før og under behandlingen 
+Du skal have taget regelmæssige blodprøver før og under behandlingen for at kontrollere, om 
+Verzenios påvirker dit blod (hvide blodlegemer, røde blodlegemer, blodplader), eller indholdet af 
+leverenzymer i dit blod. </p>
+<p>Børn og unge 
+Verzenios må ikke anvendes til børn og unge under 18 år. </p>
+<p>Brug af anden medicin sammen med Verzenios 
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin eller for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. </p>
+<p>Det er særligt vigtigt, at du fortæller det til lægen eller apotekspersonalet, hvis du tager nedenstående: </p>
+<ul>
+<li>
+<p>lægemidler, der kan øge indholdet af Verzenios i blodet: * Clarithromycin (et antibiotikum, der anvendes til behandling af 
+bakterieinfektioner) * Itraconazol, ketoconazol, posaconazol, voriconazol (anvendes til behandling af 
+svampeinfektioner) * Lopinavir/ritonavir (anvendes til behandling af hiv/aids) * Digoxin (anvendes til behandling af hjertesygdomme) * Dabigatranetexilat (anvendes til at nedsætte risikoen for slagtilfælde og 
+blodpropper) </p>
+</li>
+<li>
+<p>Lægemidler, der kan nedsætte virkningen af Verzenios: * Carbamazepin (et anti-epileptisk lægemiddel, som bruges til behandling af anfald 
+eller kramper) * Rifampicin, som anvendes til behandling af tuberkulose (TB) * Phenytoin (anvendes til behandling af krampeanfald) * Perikon (et naturlægemiddel, der anvendes til behandling af mild depression og 
+angst) </p>
+</li>
+</ul>
+<p>Brug af Verzenios sammen med mad og drikke 
+Undgå at indtage grapefrugt og grapefrugtjuice, mens du tager dette lægemiddel, da det kan øge 
+indholdet af Verzenios i blodet. </p>
+<p>Graviditet, amning og frugtbarhed 
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
+<p>Graviditet 
+Du bør ikke bruge Verzenios, hvis du er gravid. </p>
+<p>Du bør undgå at blive gravid, mens du tager Verzenios. </p>
+<p>Hvis du kan få børn, skal du anvende sikker prævention (f.eks. dobbelt barriereprævention såsom 
+kondom og pessar) under behandlingen og i mindst 3 uger efter behandlingen. Tal med din læge om 
+prævention, hvis der er mulighed for, at du kan blive gravid. </p>
+<p>Kontakt lægen, hvis du bliver gravid. </p>
+<p>Amning 
+Du bør ikke amme, mens du tager Verzenios. Det vides ikke, om Verzenios går over i modermælken. </p>
+<p>Fertilitet 
+Verzenios kan nedsætte fertiliteten hos mænd. Tal med din læge for at få råd om fertilitet før 
+behandlingen. </p>
+<p>Trafik- og arbejdssikkerhed 
+Træthed og svimmelhed er meget almindelige bivirkninger. Hvis du føler dig usædvanligt træt eller 
+svimmel, skal du være ekstra forsigtig, når du fører motorkøretøj eller betjener maskiner. </p>
+<p>Verzenios indeholder lactose 
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du har lactoseintolerans. </p>
+<p>Verzenios indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natrium-frit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take verzenios"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take verzenios"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Anbefalet dosis 
+Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Den anbefalede dosis er 150 mg Verzenios to gange dagligt, når lægemidlet gives sammen med en 
+endokrin behandling til behandling af din brystkræft. Tabletterne skal tages gennem munden. </p>
+<p>Hvis du får visse bivirkninger under behandlingen med Verzenios, vil lægen eventuelt nedsætte din 
+dosis eller stoppe behandlingen midlertidigt eller permanent. </p>
+<p>Hvornår og hvordan du skal tage Verzenios 
+Tag Verzenios to gange dagligt på cirka samme tidspunkt hver dag, helst om morgenen og om 
+aftenen, så der altid er tilstrækkelig medicin i din krop. </p>
+<p>Du kan tage tabletterne sammen med eller uden mad, du skal bare undgå grapefrugt og 
+grapefrugtjuice (se afsnit 2 "Brug af Verzenios sammen med mad og drikke"). </p>
+<p>Tabletterne skal synkes hele med et glas vand. Du må ikke tygge, knuse eller dele tabletterne, før du 
+synker dem. </p>
+<p>Hvor længe skal du tage Verzenios 
+Bliv ved med at tage Verzenios, så længe lægen anviser det. Hvis du tager Verzenios som behandling 
+af tidlig brystcancer, skal du tage det i op til 2 år. </p>
+<p>Hvis du har taget for meget Verzenios 
+Kontakt lægen eller skadestuen for at få rådgivning, hvis du har taget for mange tabletter, eller hvis en 
+anden har taget din medicin. Vis lægen eller sundhedspersonalet æsken og denne indlægsseddel. 
+Lægebehandling kan være nødvendig. </p>
+<p>Hvis du har glemt at tage Verzenios<br />
+Hvis du kaster op, efter du har taget en dosis, eller hvis du glemmer en dosis, skal du tage den næste 
+dosis på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte 
+eller opkastede dosis. </p>
+<p>Hvis du holder op med at tage Verzenios 
+Hold ikke op med at tage Verzenios uden lægens anvisning. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
+Kontakt omgående lægen, hvis du oplever noget af nedenstående:</p>
+<ul>
+<li>Symptomer såsom kulderystelser eller feber. Det kan være tegn på et lavt antal hvide 
+blodlegemer (som kan forekomme hos flere end 1 ud af 10 behandlede) og bør behandles 
+med det samme. Hvis du har hoste, feber og svært ved at få vejret eller smerter i brystet, kan 
+det være tegn på en lungeinfektion. Alvorlige eller livstruende infektioner er ikke 
+almindelige (kan forekomme hos op til 1 ud af 100 behandlede). </li>
+<li>Smertefuld hævelse af benene, brystsmerter, stakåndethed, hurtig vejrtrækning eller hurtig 
+puls, da det kan være tegn på blodpropper i venen (som kan forekomme hos op til 1 ud af behandlede). </li>
+<li>Diarré (som kan forekomme hos flere end 1 ud af 10 behandlede). </li>
+</ul>
+<p>Du finder yderligere oplysninger om ovennævnte bivirkninger i afsnit 2. Andre bivirkninger ved Verzenios kan omfatte: 
+Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 behandlede) </p>
+<ul>
+<li>
+<p>Infektioner </p>
+</li>
+<li>
+<p>Fald i antallet af hvide blodlegemer, røde blodlegemer og blodplader </p>
+</li>
+<li>
+<p>Kvalme, opkastning </p>
+</li>
+<li>
+<p>Betændelse eller ømhed i  munden </p>
+</li>
+<li>
+<p>Nedsat appetit </p>
+</li>
+<li>
+<p>Hovedpine </p>
+</li>
+<li>
+<p>Smagsforstyrrelser </p>
+</li>
+<li>
+<p>Hårtab </p>
+</li>
+<li>
+<p>Træthed </p>
+</li>
+<li>
+<p>Svimmelhed </p>
+</li>
+<li>
+<p>Kløe </p>
+</li>
+<li>
+<p>Udslæt </p>
+</li>
+<li>
+<p>Uregelmæssige resultater af blodprøver vedrørende leverfunktionen </p>
+</li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede) </p>
+<ul>
+<li>
+<p>Rindende øjne </p>
+</li>
+<li>
+<p>Muskelsvaghed </p>
+</li>
+<li>
+<p>Tør hud </p>
+</li>
+<li>
+<p>Betændelse i lungerne, som giver stakåndethed, hoste og feber </p>
+</li>
+<li>
+<p>Fordøjelsesbesvær eller dårlig mave </p>
+</li>
+<li>
+<p>Negleproblemer som f.eks. knækkede eller flossede negle </p>
+</li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 behandlede) </p>
+<ul>
+<li>Lave niveauer af hvide blodlegemer med feber </li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store verzenios"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store verzenios"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og æsken efter "EXP". 
+Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
+<p>Brug ikke dette lægemiddel, hvis du bemærker, at æsken er i stykker eller viser tegn på, at nogen har 
+forsøgt at åbne den. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>
+<p>Aktivt stof: abemaciclib. Verzenios filmovertrukne tabletter fås i forskellige styrker: </p>
+</li>
+<li>
+<p>Verzenios 50 mg filmovertrukne tabletter: hver tablet indeholder 50 mg 
+abemaciclib. </p>
+</li>
+<li>
+<p>Verzenios 100 mg filmovertrukne tabletter: hver tablet indeholder 100 mg 
+abemaciclib. </p>
+</li>
+<li>
+<p>Verzenios 150 mg filmovertrukne tabletter: hver tablet indeholder 150 mg 
+abemaciclib. </p>
+</li>
+<li>
+<p>Øvrige indholdsstoffer: </p>
+</li>
+<li>
+<p>Tabletkerne: kolloid silica, croscarmellosenatrium, lactosemonohydrat, 
+mikrokrystallinsk cellulose, natriumstearylfumarat (se afsnit 2 under 'Verzenios 
+indeholder natrium' for yderligere information). </p>
+</li>
+<li>
+<p>Filmovertræk: titandioxid (E171), talcum (E553b), polyvinylalkohol (E1203), 
+macrogol 3350 (E1521), gul jernoxid (E172) [kun 50 mg og 150 mg tabletter], rød 
+jernoxid (E172) [kun 50 mg tabletter].  </p>
+</li>
+</ul>
+<p>Udseende og pakningsstørrelser 
+- Verzenios 50 mg filmovertrukne tabletter er beige, ovale tabletter, der er præget med “Lilly" 
+på den ene side og “50" på den anden side. 
+- Verzenios 100 mg filmovertrukne tabletter er hvide, ovale tabletter, der er præget med “Lilly" 
+på den ene side og “100" på den anden side. 
+- Verzenios 150 mg filmovertrukne tabletter er gule, ovale tabletter, der er præget med “Lilly" 
+på den ene side og “150" på den anden side. </p>
+<p>Verzenios fås i kalenderblisterpakninger med 14, 28, 42, 56, 70 og 168 filmovertrukne tabletter og i 
+perforerede enkeltdosisblistere med 28 x 1 filmovertrukne tabletter. </p>
+<p>Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen 
+Eli Lilly Nederland B.V., Papendorpseweg 83, 3528BJ Utrecht, Holland. </p>
+<p>Fremstiller 
+Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spanien </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41 Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664 Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60 Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V.<br />
+Tel: +372 6 817 Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18 Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Lilly S.A. 
+Tel: + 34-91 663 50 Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France 
+Tél: +33-(0) 1 55 49 34 Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350 România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00 Ísland 
+Icepharma hf. 
+Sími + 354 540 8Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663<br />
+Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā<br />
+Tel: +371 67364United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 </p>
+<p>Denne indlægsseddel blev senest ændret  </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-34d2770dedeba7114006ff1f66a042d4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for verzenios Package Leaflet for language en"
+Description: "ePI document Bundle for verzenios Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-34d2770dedeba7114006ff1f66a042d4"
+* entry[0].resource = composition-en-34d2770dedeba7114006ff1f66a042d4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp34d2770dedeba7114006ff1f66a042d4"
+* entry[=].resource = mp34d2770dedeba7114006ff1f66a042d4
+                            
+                    
+Instance: bundlepackageleaflet-da-34d2770dedeba7114006ff1f66a042d4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for verzenios Package Leaflet for language da"
+Description: "ePI document Bundle for verzenios Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-34d2770dedeba7114006ff1f66a042d4"
+* entry[0].resource = composition-da-34d2770dedeba7114006ff1f66a042d4
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp34d2770dedeba7114006ff1f66a042d4"
+* entry[=].resource = mp34d2770dedeba7114006ff1f66a042d4
+                            
+                    
+
+
+
+Instance: mp34d2770dedeba7114006ff1f66a042d4
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Verzenios 50 mg film-coated tablets"
-Description: "Verzenios 50 mg film-coated tablets"
+Title: "Medicinal Product verzenios"
+Description: "verzenios"
 Usage: #inline
 
  
@@ -373,7 +848,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Verzenios 50 mg film-coated tablets"
+  * productName = "verzenios"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -400,29 +875,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-34d2770dedeba7114006ff1f66a042d4
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for verzenios Package Leaflet for language en"
-Description: "ePI document Bundle for verzenios Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 34d2770dedeba7114006ff1f66a042d4ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/18/1307/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "verzenios"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-34d2770dedeba7114006ff1f66a042d4"
-* entry[0].resource = composition-en-34d2770dedeba7114006ff1f66a042d4
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp1b23d8e83acd4ee6f79db31e0d85f9cc"
-* entry[=].resource = mp1b23d8e83acd4ee6f79db31e0d85f9cc
-                            
-                      
+* title = "List of all ePIs associated with verzenios"
+
+* subject = Reference(mp1b23d8e83acd4ee6f79db31e0d85f9cc)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#verzenios "verzenios"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-34d2770dedeba7114006ff1f66a042d4) // verzenios en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-34d2770dedeba7114006ff1f66a042d4) // verzenios da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-34d2770dedeba7114006ff1f66a042d4
+InstanceOf: List
+
+* insert 34d2770dedeba7114006ff1f66a042d4ListRuleset
+    

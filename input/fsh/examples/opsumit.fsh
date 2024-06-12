@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-86f804709e3279dcca0da696e8a674dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for opsumit Package Leaflet"
@@ -356,12 +359,507 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-86f804709e3279dcca0da696e8a674dd
+InstanceOf: CompositionUvEpi
+Title: "Composition for opsumit Package Leaflet"
+Description:  "Composition for opsumit Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpf082b236ec5dc5f46f11fee445feb390)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpf082b236ec5dc5f46f11fee445feb390
+* title = "TEST PURPOSES ONLY - opsumit"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal du vide, før du begynder at tage Opsumit
+3. Sådan skal du tage Opsumit
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What opsumit is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What opsumit is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opsumit indeholder det aktive stof macitentan, der tilhører en gruppe af lægemidler, der kaldes 
+"endothelinreceptorantagonister".
+Opsumit anvendes til langvarig behandling af pulmonal arteriel hypertension (PAH) hos voksne. Det 
+kan anvendes alene eller sammen med anden medicin mod PAH. PAH er højt blodtryk i de blodkar, 
+der transporterer blodet fra hjertet til lungerne (lungearterierne). Hos personer, der har PAH, bliver 
+disse arterier smallere, så hjertet skal arbejde hårdere for at pumpe blod igennem dem. Dette forårsager 
+træthed, svimmelhed og åndenød.
+Opsumit udvider lungearterierne, så det bliver nemmere for hjertet at pumpe blod igennem dem. Det 
+får blodtrykket til at falde, lindrer symptomerne og forbedrer sygdomsforløbet.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take opsumit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take opsumit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Opsumit
+
+hvis du er allergisk over for macitentan, soja eller et af de øvrige indholdsstoffer i Opsumit
+(angivet i punkt 6).
+
+hvis du er gravid, planlægger at blive gravid, eller kan blive gravid, fordi du ikke anvender en 
+sikker præventionsmetode (kontraception). Se afsnittet "Graviditet og amning".
+
+hvis du ammer. Se afsnittet "Graviditet og amning".
+
+hvis du har en leversygdom, eller hvis du har meget høje niveauer af leverenzymer i dit blod.
+Kontakt lægen, som vil vurdere, hvorvidt dette lægemiddel er egnet til dig.
+Kontakt lægen, hvis noget af ovennævnte gør sig gældende for dig.
+27
+Advarsler og forsigtighedsregler
+Kontakt lægen eller apotekspersonalet, før du tager Opsumit.
+Du skal have taget blodprøver i henhold til lægens anvisninger:
+Lægen vil tage nogle blodprøver, før du starter behandlingen med Opsumit og under behandlingen, for 
+at kontrollere:
+
+Om du har blodmangel (nedsat antal røde blodlegemer).
+
+Om din lever fungerer korrekt
+Hvis du har blodmangel (nedsat antal røde blodlegemer), kan du have følgende tegn:
+
+Svimmelhed
+
+Træthed/utilpashed/svaghed
+
+Hurtig puls, hjertebanken
+
+Bleghed
+Kontakt lægen, hvis du bemærker nogen af disse tegn.
+Tegn på, at din lever ikke fungerer korrekt, omfatter:
+
+Kvalme
+
+Opkastning
+
+Feber
+
+Mavesmerter 
+
+Gulfarvning af huden og det hvide i øjnene (gulsot)
+
+Mørkfarvet urin
+
+Kløe i huden
+
+Usædvanlig træthed eller udmattelse (letargi eller træthed)
+
+Influenzalignende syndrom (led- og muskelsmerter med feber)
+Kontakt omgående lægen, hvis du bemærker et eller flere af disse tegn.
+Kontakt lægen, før du begynder at bruge Opsumit, hvis du har nyreproblemer. Macitentan kan 
+medføre yderligere fald i blodtrykket og fald i hæmoglobin hos patienter med nyreproblemer.
+Hos patienter med pulmonal venookklusiv sygdom (tilstopning af lungevenerne) kan brug af 
+lægemidler til behandling af PAH, herunder Opsumit, medføre lungeødem. Kontakt omgående 
+lægen, hvis du får tegn på lungeødem, såsom en pludselig, markant forværring af stakåndethed og lavt 
+iltniveau, mens du bruger Opsumit. Din læge vil eventuelt foretage yderligere test og bestemme, 
+hvilken behandling der er bedst for dig.
+Børn og unge
+Giv ikke dette lægemiddel til børn og unge under 18 år, da Opsumit ikke er blevet undersøgt hos børn.
+Brug af anden medicin sammen med Opsumit
+Fortæl det altid til lægen eller apotekspersonalet, hvis du tager anden medicin, for nylig har taget 
+anden medicin eller planlægger at tage anden medicin. Opsumit kan påvirke andre lægemidler.
+Hvis du tager Opsumit sammen med andre lægemidler, herunder nedennævnte lægemidler, kan 
+virkningen af Opsumit eller de andre lægemidler blive ændret. Kontakt lægen eller apotekspersonalet, 
+hvis du tager et eller flere af følgende lægemidler:
+
+rifampicin, clarithromycin, telithromycin, ciprofloxacin, erythromycin (antibiotika, der 
+anvendes til behandling af infektioner)
+
+phenytoin (et lægemiddel, der anvendes til behandling af krampeanfald)
+
+carbamazepin (anvendes til behandling af depression og epilepsi)
+
+prikbladet perikon (et urtepræparat, der anvendes til behandling af depression)
+28
+
+ritonavir, saquinavir (anvendes til behandling af hiv-infektioner)
+
+nefazodon (anvendes til behandling af depression)
+
+ketoconazol (undtagen shampoo), fluconazol, itraconazol, miconazol, voriconazol (lægemidler, 
+der anvendes mod svampeinfektioner)
+
+amiodaron (anvendes til at styre hjerterytmen)
+
+ciclosporin (anvendes til at forebygge afstødning af organer efter transplantation)
+
+diltiazem, verapamil (anvendes til at behandle for højt blodtryk eller specifikke hjerteproblemer)
+Brug af Opsumit sammen med mad
+Hvis du tager piperin som kosttilskud, kan det ændre den måde, som kroppen reagerer på visse 
+lægemidler på, herunder Opsumit. Tal med lægen eller apotekspersonalet, hvis dette er tilfældet.
+Graviditet og amning
+Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
+du spørge din læge til råds, før du tager dette lægemiddel.
+Opsumit kan skade ufødte børn, der undfanges før, under eller kort efter behandlingen.
+
+Hvis du er i den fødedygtige alder, skal du anvende en sikker præventionsmetode 
+(kontraception), så længe du tager Opsumit. Tal med lægen herom.
+
+Tag ikke Opsumit, hvis du er gravid eller planlægger at blive gravid.
+
+Hvis du bliver gravid, eller får mistanke om, at du er gravid, mens du er i behandling med 
+Opsumit, eller kort tid efter du er stoppet med at tage Opsumit (op til 1 måned), skal du straks 
+kontakte lægen.
+Hvis du er kvinde og i den fødedygtige alder vil lægen bede dig om at tage en graviditetstest, inden du 
+starter med at tage Opsumit, og med jævne mellemrum (en gang om måneden) under behandlingen 
+med Opsumit.
+Det vides ikke, om Opsumit overføres til modermælken. Du må ikke amme, mens du er i behandling 
+med Opsumit. Tal med lægen herom. 
+Frugtbarhed
+Hvis du er mand og tager Opsumit, er det muligt, at medicinen kan nedsætte antallet af sædceller. Tal 
+med din læge, hvis du har spørgsmål eller bekymringer herom.
+Trafik- og arbejdssikkerhed
+Opsumit kan forårsage bivirkninger, såsom hovedpine og lavt blodtryk (anført i punkt 4), og de 
+symptomer, du har i forbindelse med din sygdom, kan også nedsætte din evne til at føre motorkøretøj.
+Opsumit indeholder lactose, lecithin udledt fra soja og natrium
+Opsumit indeholder en sukkerart, der kaldes for lactose. Kontakt lægen, før du tager dette lægemiddel, 
+hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.
+Opsumit indeholder lecithin, der er udledt fra soja. Hvis du er allergisk over for soja, må du ikke bruge 
+dette lægemiddel (se afsnit 2 "Tag ikke Opsumit").
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take opsumit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take opsumit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opsumit bør kun ordineres af en læge med erfaring i behandling af pulmonal arteriel hypertension.
+Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
+29
+Den anbefalede dosis af Opsumit er én 10 mg tablet én gang dagligt. Tabletten skal synkes hel med et 
+glas vand. Tabletten må ikke tygges eller deles. Du kan tage Opsumit sammen med eller uden mad. 
+Det er bedst at tage tabletten på samme tidspunkt hver dag.
+Hvis du har taget for meget Opsumit
+Hvis du har taget flere tabletter end du har fået besked på at tage, kan du opleve hovedpine, kvalme 
+eller opkastning. Spørg din læge til råds.
+Hvis du har glemt at tage Opsumit
+Hvis du glemmer at tage Opsumit, skal du tage en dosis, så snart du kommer i tanker om det. Herefter 
+skal du fortsætte med at tage tabletterne på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis 
+som erstatning for den glemte tablet.
+Hvis du holder op med at tage Opsumit
+Opsumit er en behandling, som du skal blive ved med at tage for at holde din PAH under kontrol. Du 
+må ikke stoppe med at tage Opsumit, medmindre du har aftalt det med lægen.
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Ikke almindelige bivirkninger (kan påvirke op til 1 ud af 100 brugere)
+
+Allergiske reaktioner (hævde øjenomgivelser, hævelser i ansigt, læber, tunge eller svælg, kløe 
+og/eller udslæt). 
+Kontakt omgående lægen, hvis du bemærker nogen af disse tegn.
+Meget almindelige bivirkninger (kan påvirke mere end 1 ud af 10 brugere)
+
+Blodmangel (lavt antal røde blodlegemer) eller nedsat hæmoglobin
+
+Hovedpine
+
+Bronkitis (betændelse i luftvejene)
+
+Snue (betændelse i svælg og næse)
+
+Ødem (hævelse), særligt på ankler og fødder
+Almindelige bivirkninger (kan påvirke op til 1 ud af 10 brugere)
+
+Svælgkatar (halsbetændelse)
+
+Influenza
+
+Urinvejsinfektion (blærebetændelse)
+
+Hypotension (lavt blodtryk)
+
+Nasal obstruktion (tilstoppet næse)
+
+Forhøjede levertal
+
+Leukopeni (nedsat antal hvide blodlegemer)
+
+Trombocytopeni (nedsat antal blodplader)
+
+Blussen (hudrødme)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store opsumit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store opsumit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>30
+Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke Opsumit efter den udløbsdato, der står på kartonen og blisteren efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned.
+Må ikke opbevares ved temperaturer over 30 ºC.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Opsumit indeholder:</h2>
+<h2>Aktivt stof: macitentan. Hver tablet indeholder 10 mg macitentan.</h2>
+<p>Øvrige indholdsstoffer: lactosemonohydrat (se afsnit 2 "Opsumit indeholder lactose, lecithin 
+udledt fra soja og natrium"), mikrokrystallinsk cellulose (E460i), povidon, 
+natriumstivelsesglycolat type A (se afsnit 2 "Opsumit indeholder lactose, lecithin udledt fra 
+soja og natrium"), magnesiumstearat (E572), polysorbat 80 (E433), polyvinylalkohol (E1203), 
+titandioxid (E171), talcum (E553b), sojalecithin (E322) (se afsnit 2 "Opsumit indeholder 
+lactose, lecithin udledt fra soja og natrium") og xanthangummi (E415).
+Udseende og pakningsstørrelser
+Opsumit 10 mg tabletter er hvide til råhvide, bikonvekse, runde, filmovertrukne tabletter, der er præget 
+med "10" på begge sider.
+Opsumit leveres som 10 mg filmovertrukne tabletter i blisterpakninger med 15 eller 30 tabletter.
+Ikke alle pakningsstørrelser er nødvendigvis markedsført.
+Indehaver af markedsføringstilladelsen
+Janssen-Cilag International NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Fremstiller
+Janssen Pharmaceutica NV
+Turnhoutseweg 30
+B-2340 Beerse
+Belgien
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 88
+lt@its.jnj.com
+България
+„Джонсън &amp; Джонсън България" ЕООД
+Тел.: +359 2 489 94 00
+jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+Tél/Tel: +32 14 64 94 11
+janssen@jacbe.jnj.com
+31
+Česká republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 227
+Magyarország
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2858
+janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8282
+jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6000
+Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 955
+jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1111
+janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7410
+ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 00
+jacno@its.jnj.com
+Ελλάδα
+Janssen-Cilag Φαρμακευτική Α.Ε.Β.Ε.
+Τηλ: +30 210 80 90 000
+Österreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 300
+España
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 00
+France
+Janssen-Cilag
+Tél: 0 800 25 50 75 / +33 1 55 00 40 03
+medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmacêutica, Lda.
+Tel: +351 214 368 600
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 700
+jjsafety@JNJCR.JNJ.com
+România
+Johnson &amp; Johnson România SRL
+Tel: +40 21 207 1800
+Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 122
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 00
+Janssen_safety_slo@its.jnj.com
+Ísland
+Janssen-Cilag AB
+c/o Vistor hf.
+Sími: +354 535 7000
+janssen@vistor.is
+Slovenská republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 400
+Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 300
+jacfi@its.jnj.com
+32
+Κύπρος
+Βαρνάβας Χατζηπαναγής Λτδ
+Τηλ: +357 22 207 700
+Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 00
+jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" filiāle Latvijā
+Tel: +371 678 93561
+lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 444
+Denne indlægsseddel blev senest ændret
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-86f804709e3279dcca0da696e8a674dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opsumit Package Leaflet for language en"
+Description: "ePI document Bundle for opsumit Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-86f804709e3279dcca0da696e8a674dd"
+* entry[0].resource = composition-en-86f804709e3279dcca0da696e8a674dd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp86f804709e3279dcca0da696e8a674dd"
+* entry[=].resource = mp86f804709e3279dcca0da696e8a674dd
+                            
+                    
+Instance: bundlepackageleaflet-da-86f804709e3279dcca0da696e8a674dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opsumit Package Leaflet for language da"
+Description: "ePI document Bundle for opsumit Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-86f804709e3279dcca0da696e8a674dd"
+* entry[0].resource = composition-da-86f804709e3279dcca0da696e8a674dd
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp86f804709e3279dcca0da696e8a674dd"
+* entry[=].resource = mp86f804709e3279dcca0da696e8a674dd
+                            
+                    
+
+
+
+Instance: mp86f804709e3279dcca0da696e8a674dd
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Opsumit 10 mg film-coated tablets"
-Description: "Opsumit 10 mg film-coated tablets"
+Title: "Medicinal Product opsumit"
+Description: "opsumit"
 Usage: #inline
 
  
@@ -381,7 +879,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Opsumit 10 mg film-coated tablets"
+  * productName = "opsumit"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -408,29 +906,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-86f804709e3279dcca0da696e8a674dd
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for opsumit Package Leaflet for language en"
-Description: "ePI document Bundle for opsumit Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 86f804709e3279dcca0da696e8a674ddListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/13/893/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "opsumit"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-86f804709e3279dcca0da696e8a674dd"
-* entry[0].resource = composition-en-86f804709e3279dcca0da696e8a674dd
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpf082b236ec5dc5f46f11fee445feb390"
-* entry[=].resource = mpf082b236ec5dc5f46f11fee445feb390
-                            
-                      
+* title = "List of all ePIs associated with opsumit"
+
+* subject = Reference(mpf082b236ec5dc5f46f11fee445feb390)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#opsumit "opsumit"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-86f804709e3279dcca0da696e8a674dd) // opsumit en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-86f804709e3279dcca0da696e8a674dd) // opsumit da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-86f804709e3279dcca0da696e8a674dd
+InstanceOf: List
+
+* insert 86f804709e3279dcca0da696e8a674ddListRuleset
+    

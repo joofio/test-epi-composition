@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-1f675c75ae2647759e12de1b52c8e0f9
 InstanceOf: CompositionUvEpi
 Title: "Composition for evusheld Package Leaflet"
@@ -275,12 +278,432 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-1f675c75ae2647759e12de1b52c8e0f9
+InstanceOf: CompositionUvEpi
+Title: "Composition for evusheld Package Leaflet"
+Description:  "Composition for evusheld Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp816a1d169d00d1d6105b2bfcd60a6661)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp816a1d169d00d1d6105b2bfcd60a6661
+* title = "TEST PURPOSES ONLY - evusheld"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du får EVUSHELD
+3. Sådan får du EVUSHELD
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What evusheld is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What evusheld is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>EVUSHELD består af to aktive stoffer, tixagevimab og cilgavimab. Begge er lægemidler, der kaldes 
+monoklonale antistoffer. Disse antistoffer er proteiner, der binder sig til et specifikt protein på
+SARS-CoV-2, den virus, der forårsager COVID-19. Ved at binde sig til dette protein forhindrer de 
+virussen i at trænge ind i celler hos mennesker.
+EVUSHELD anvendes til forebyggelse (præ-eksponeringsprofylakse) af COVID-19 infektion hos 
+voksne og unge i alderen 12 år og derover, der vejer mindst 40 kg.
+EVUSHELD anvendes til behandling af voksne og unge i alderen fra 12 år, der vejer mindst 40 kg, og 
+har COVID-19, som:
+
+ikke har brug for supplerende ilt til behandling af COVID-19, og
+
+har øget risiko for, at sygdommen udvikler sig alvorlig baseret på lægens vurdering.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take evusheld"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take evusheld"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få dette lægemiddel
+
+hvis du er allergisk over for tixagevimab, cilgavimab eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6).
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du får EVUSHELD
+
+hvis du har et lavt indhold af blodplader i blodet (der hjælper med størkning af blod), hvis du 
+har problemer med blodpropper eller hvis du tager blodfortyndende medicin (antikoagulantia).
+
+hvis du nogensinde har haft en alvorlig allergisk reaktion eller vejrtrækningsproblemer, efter at 
+du tidligere har fået EVUSHELD.
+29
+Fortæl det til lægen, apotekspersonalet eller sygeplejersken, eller få straks lægehjælp:
+
+hvis du bemærker eventuelle symptomer på hjertesvigt, såsom:<em> brystsmerter</em> åndenød<em> en generel følelse af ubehag, sygdom eller mangel på velvære</em> føler dig svimmel eller mat.
+
+hvis du bemærker eventuelle tegn på en alvorlig allergisk reaktion såsom:<em> vejrtrækningsbesvær eller synkebesvær</em> hævelser af ansigt, læber, tunge eller hals* voldsom kløe på huden med rødt udslæt eller hævede buler.
+Børn og unge 
+EVUSHELD må ikke gives til børn under 12 år eller som vejer under 40 kg.
+Brug af andre lægemidler sammen med EVUSHELD
+Fortæl lægen, apotekspersonalet eller sygeplejersken, hvis du tager andre lægemidler, for nylig har 
+taget andre lægemidler eller planlægger at tage andre lægemidler. Dette skyldes, at det endnu ikke 
+vides, om dette lægemiddel påvirker andre lægemidler, eller om den kan blive påvirket af andre 
+lægemidler.
+Graviditet og amning
+Fortæl lægen eller sygeplejersken, hvis du er gravid eller har mistanke om, at du er gravid.
+
+Dette skyldes, at der ikke er nok information til at vide, om dette lægemiddel er sikkert til brug 
+under graviditet.
+
+Dette lægemiddel vil kun blive givet, hvis de potentielle fordele ved behandlingen opvejer de 
+potentielle risici for moderen og det ufødte barn.
+Fortæl lægen eller sygeplejersken, hvis du ammer.
+
+Dette skyldes, at det endnu ikke vides, om dette lægemiddel udskilles i human modermælk, eller 
+hvad virkningerne kan være på barnet eller mælkeproduktionen.
+
+Din læge vil hjælpe dig med at beslutte, om du skal fortsætte med at amme eller starte 
+behandling med dette lægemiddel.
+Trafik- og arbejdssikkerhed
+Det er usandsynligt, at EVUSHELD vil påvirke din evne til at føre motorkøretøj eller betjene 
+maskiner.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take evusheld"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take evusheld"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Den anbefalede dosis til forebyggelse (præ-eksponeringsprofylakse) er 300 milligram (mg) givet som 
+to injektioner:
+
+150 mg tixagevimab
+
+150 mg cilgavimab
+Den anbefalede dosis til behandling af mild til moderat COVID-19 er 600 mg givet som to injektioner:
+
+300 mg tixagevimab
+
+300 mg cilgavimab
+EVUSHELD består af to separate opløsninger; den ene indeholder tixagevimab, og den anden
+indeholder cilgavimab. Du vil få dem af din læge eller sygeplejerske som vil injicere hver opløsning i 
+en separat muskel, normalt én i musklen i hver balde. De 2 injektioner gives efter hinanden.
+Din læge eller sygeplejerske vil beslutte, hvor længe du skal overvåges, efter du har fået medicinen. 
+Dette er i tilfælde af, at du får bivirkninger.
+30</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+Bivirkninger
+Almindelige (kan forekomme hos op til 1 ud af 10 personer)
+
+overfølsomhedsreaktion (udslæt eller et kløende rødt udslæt eller hævede buler)
+
+reaktion på injektionsstedet (smerter, rødme, kløe, hævelse i området, hvor injektionen blev 
+givet)
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer)
+
+reaktioner relateret til injektionen (disse kan f.eks. omfatte hovedpine, kulderystelser og rødme, 
+ubehag eller ømhed i nærheden af det sted, hvor injektionen blev givet)
+Sjælden (kan forekomme hos op til 1 ud af 1 000 personer)
+
+pludselig, alvorlig allergisk reaktion med vejrtrækningsbesvær, hævelse, ørhed, hurtig puls, 
+svedtendens og bevidsthedstab (anafylaksi)
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. 
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
+pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
+rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store evusheld"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store evusheld"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Lægen, apotekspersonalet eller sygeplejersken er ansvarlig for opbevaring af dette lægemiddel samt 
+korrekt bortskaffelse af produktet. Følgende oplysninger er tiltænkt sundhedspersonalet.
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hætteglasetiketten efter EXP. 
+Udløbsdatoen er den sidste dag i den nævnte måned.
+Uåbnede hætteglas:
+
+Opbevares i køleskab (2 °C - 8 °C).
+
+Må ikke nedfryses.
+
+Må ikke omrystes.
+
+Opbevares i den originale yderpakning for at beskytte mod lys.
+Klargjorte injektionssprøjter skal bruges straks. Om nødvendigt, kan de klargjorte injektionssprøjter 
+opbevares i maksimalt 4 timer ved 2 °C til under 25 °C.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>EVUSHELD indeholder
+Aktive stoffer: 
+
+tixagevimab - 150 mg i 1,5 ml opløsning.
+
+cilgavimab - 150 mg i 1,5 ml opløsning.
+Øvrige indholdsstoffer: histidin, histidinhydrochloridmonohydrat, saccharose, polysorbat 80 og vand 
+til injektionsvæsker.
+31
+Udseende og pakningsstørrelser
+EVUSHELD indeholder to klare hætteglas af glas med injektionsvæske, opløsning: 
+
+Tixagevimab injektionsvæske, opløsning (mørkegrå hætte) er en klar til opaliserende, farveløs 
+til svagt gul opløsning.
+
+Cilgavimab injektionsvæske, opløsning (hvid hætte) er en klar til opaliserende, farveløs til svagt 
+gul opløsning.
+Hver karton indeholder 2 hætteglas: 1 hætteglas med tixagevimab og 1 hætteglas med cilgavimab.
+Indehaver af markedsføringstilladelsen
+AstraZeneca AB
+SE-151 85 Södertälje
+Sverige
+Fremstiller
+AstraZeneca AB
+Gärtunavägen, 
+SE-152 57 Södertälje, 
+Sverige
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 11
+Lietuva
+UAB AstraZeneca Lietuva
+Tel: +370 5 2660550
+България
+АстраЗенека България ЕООД
+Тел.: +359 24455000
+Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+Tél/Tel: +32 2 370 48 11
+Česká republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 111
+Magyarország
+AstraZeneca Kft.
+Tel.: +36 1 883 6500
+Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 62
+Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8000
+Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034100
+Nederland
+AstraZeneca BV
+Tel: +31 85 808 9900
+Eesti
+AstraZeneca 
+Tel: +372 6549 600
+Norge
+AstraZeneca AS
+Tlf: +47 21 00 64 00
+Ελλάδα
+AstraZeneca A.E.
+Τηλ: +30 210 6871500
+Österreich
+AstraZeneca Österreich GmbH
+Tel: +43 1 711 31 0
+32
+España
+AstraZeneca Farmacéutica Spain, S.A.
+Tel: +34 91 301 91 00
+Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 00
+France
+AstraZeneca
+Tél: +33 1 41 29 40 00
+Portugal
+AstraZeneca Produtos Farmacêuticos, Lda.
+Tel: +351 21 434 61 00
+Hrvatska 
+AstraZeneca d.o.o.
+Tel: +385 1 4628 000
+România
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 41
+Ireland
+AstraZeneca Pharmaceuticals (Ireland) DAC
+Tel: +353 1609 7100
+Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35 600
+Ísland
+Vistor hf.
+Sími: +354 535 7000
+Slovenská republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7777
+Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704500
+Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23 010
+Κύπρος
+Αλέκτωρ Φαρµακευτική Λτδ
+Τηλ: +357 22490305
+Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 000
+Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377100
+United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 836
+Denne indlægsseddel blev senest ændret
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu
+33</p>
+<hr />
+<p>Nedenstående oplysninger er kun til sundhedspersoner:
+Administration
+
+Dette lægemiddel skal håndteres af sundhedspersonale ved hjælp af aseptisk teknik for at sikre 
+sterilitet af begge doser.
+
+Tixagevimab og cilgavimab skal inspiceres visuelt for partikler og misfarvning inden 
+administration. Både tixagevimab og cilgavimab er klare til opaliserende, farveløse til svagt 
+gule opløsninger. Bortskaf hætteglassene, hvis opløsningen er uklar, misfarvet, eller du kan se 
+synlige partikler.
+
+Hætteglassene må ikke omrystes.
+
+Efter anbrud af hætteglas kan lægemidlet i hætteglasset opbevares i 4 timer ved 2 °C til 25 °C, 
+hvis det ikke straks anvendes. Opbevaringstider og -betingelser under anvendelse er brugerens 
+ansvar.
+
+Hver dosis med tixagevimab og cilgavimab trækkes op i to separate sprøjter til intramuskulær 
+injektion i to forskellige muskler, fortrinsvis i glutealmusklerne.
+
+Der er inkluderet et overskud i hvert hætteglas, så det er muligt at trække 1,5 ml op. Kassér 
+eventuelt ubrugt opløsning, som er tilbage i hætteglasset.
+
+De klargjorte injektionssprøjter skal administreres straks.
+
+Hvis administration ikke er mulig straks, er opbevaringstider og -betingelser før og under 
+anvendelse brugerens ansvar og må normalt ikke overstige 4 timer ved 2 ºC til 25 ºC.
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-1f675c75ae2647759e12de1b52c8e0f9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evusheld Package Leaflet for language en"
+Description: "ePI document Bundle for evusheld Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1f675c75ae2647759e12de1b52c8e0f9"
+* entry[0].resource = composition-en-1f675c75ae2647759e12de1b52c8e0f9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f675c75ae2647759e12de1b52c8e0f9"
+* entry[=].resource = mp1f675c75ae2647759e12de1b52c8e0f9
+                            
+                    
+Instance: bundlepackageleaflet-da-1f675c75ae2647759e12de1b52c8e0f9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evusheld Package Leaflet for language da"
+Description: "ePI document Bundle for evusheld Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-1f675c75ae2647759e12de1b52c8e0f9"
+* entry[0].resource = composition-da-1f675c75ae2647759e12de1b52c8e0f9
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f675c75ae2647759e12de1b52c8e0f9"
+* entry[=].resource = mp1f675c75ae2647759e12de1b52c8e0f9
+                            
+                    
+
+
+
+Instance: mp1f675c75ae2647759e12de1b52c8e0f9
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product EVUSHELD 150 mg + 150 mg solution for injection"
-Description: "EVUSHELD 150 mg + 150 mg solution for injection"
+Title: "Medicinal Product evusheld"
+Description: "evusheld"
 Usage: #inline
 
  
@@ -300,7 +723,7 @@ Usage: #inline
 
 
 * name
-  * productName = "EVUSHELD 150 mg + 150 mg solution for injection"
+  * productName = "evusheld"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -327,29 +750,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-1f675c75ae2647759e12de1b52c8e0f9
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for evusheld Package Leaflet for language en"
-Description: "ePI document Bundle for evusheld Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 1f675c75ae2647759e12de1b52c8e0f9ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/22/1651/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "evusheld"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-1f675c75ae2647759e12de1b52c8e0f9"
-* entry[0].resource = composition-en-1f675c75ae2647759e12de1b52c8e0f9
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp816a1d169d00d1d6105b2bfcd60a6661"
-* entry[=].resource = mp816a1d169d00d1d6105b2bfcd60a6661
-                            
-                      
+* title = "List of all ePIs associated with evusheld"
+
+* subject = Reference(mp816a1d169d00d1d6105b2bfcd60a6661)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#evusheld "evusheld"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-1f675c75ae2647759e12de1b52c8e0f9) // evusheld en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-1f675c75ae2647759e12de1b52c8e0f9) // evusheld da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-1f675c75ae2647759e12de1b52c8e0f9
+InstanceOf: List
+
+* insert 1f675c75ae2647759e12de1b52c8e0f9ListRuleset
+    

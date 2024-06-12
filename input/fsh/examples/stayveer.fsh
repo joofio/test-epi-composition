@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-166a454c6539dfdbdc3afea683fe6474
 InstanceOf: CompositionUvEpi
 Title: "Composition for stayveer Package Leaflet"
@@ -305,12 +308,427 @@ away any medicines you no longer use. These measures will help to protect the en
 
 
 
+Instance: composition-da-166a454c6539dfdbdc3afea683fe6474
+InstanceOf: CompositionUvEpi
+Title: "Composition for stayveer Package Leaflet"
+Description:  "Composition for stayveer Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpd133c9c873acd7c2e6927e1385d09e88)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpd133c9c873acd7c2e6927e1385d09e88
+* title = "TEST PURPOSES ONLY - stayveer"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse
+2. Det skal De vide, før De begynder at tage STAYVEER
+3. Sådan skal De tage STAYVEER 
+4. Bivirkninger
+5. Opbevaring
+6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What stayveer is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What stayveer is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>STAYVEER tabletter indeholder bosentan, som blokerer virkningen af det naturligt forekommende 
+hormon endothelin-1 (ET-1), som er årsag til forsnævring af blodkarrene. STAYVEER får derfor 
+blodkarrene til at udvide sig. Det tilhører gruppen af lægemidler, der kaldes 
+"endothelinreceptor-antagonister".
+STAYVEER anvendes til at behandle:
+
+Pulmonal arteriel hypertension (PAH). PAH er en sygdom med svær forsnævring af 
+blodkarrene i lungerne, hvilket resulterer i et for højt blodtryk i blodkarrene (de pulmonale 
+arterier), som fører blodet fra hjertet til lungerne. Det høje tryk nedsætter den mængde ilt, der 
+kan komme over i blodet i lungerne, og gør fysisk aktivitet vanskeligere. STAYVEER udvider 
+de pulmonale arterier, hvilket gør det lettere for hjertet at pumpe blod igennem dem. Dette 
+nedsætter blodtrykket og lindrer symptomerne.
+STAYVEER bruges til at behandle patienter med klasse III PAH med henblik på at forbedre evnen til 
+at udføre fysisk aktivitet og bedre symptomerne. 'Klassen' siger noget om, hvor alvorlig sygdommen 
+er: ‘Klasse III’ medfører en udtalt begrænsning af den fysiske aktivitet. Der er også vist visse 
+forbedringer hos patienter med klasse II-PAH. ‘Klasse II’ medfører en let begrænsning af den fysiske 
+aktivitet. Den PAH, som STAYVEER er indiceret for, kan være:
+
+primær (uden nogen kendt årsag eller familiær); 
+
+forårsaget af sklerodermi (også kaldet systemisk sklerose, en sygdom, hvor der er abnorm vækst 
+i det bindevæv, som støtter huden og andre organer);
+
+forårsaget af medfødte hjertefejl med shunt (unormale passager), som giver unormal 
+blodgennemstrømning gennem hjerte og lunger.
+
+Fingersår: (sår på fingre og tæer) hos voksne patienter med en tilstand kaldet sklerodermi. 
+STAYVEER nedsætter antallet af forekomsten af nye finger- og tåsår.
+41</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take stayveer"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take stayveer"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke STAYVEER
+
+hvis De er allergisk over for bosentan eller et af de øvrige indholdsstoffer i STAYVEER
+(angivet i punkt 6)
+
+hvis De har leverproblemer (spørg Deres læge)
+
+hvis De er gravid, eller kunne blive gravid, fordi De ikke bruger pålidelige 
+præventionsmetoder. Læs venligst oplysningerne under "Prævention" og "Brug af anden 
+medicin sammen med STAYVEER"
+
+hvis De bliver behandlet med ciclosporin (et lægemiddel, som anvendes efter en 
+transplantation eller til behandling af psoriasis)
+Fortæl det til Deres læge, hvis noget af dette gælder for Dem.
+Advarsler og forsigtighedsregler
+Prøver, som Deres læge vil udføre før behandling
+
+en blodprøve for at kontrollere Deres leverfunktion
+
+en blodprøve for at kontrollere for blodmangel (lavt hæmoglobin)
+
+en graviditetstest, hvis De er en kvinde i den fødedygtige alder
+Hos nogle patienter, som tager STAYVEER, har man fundet unormale leverfunktionsprøver og 
+blodmangel (lavt hæmoglobin). 
+Prøver, som Deres læge vil udføre under behandling
+Under behandling med STAYVEER vil Deres læge sørge for regelmæssige blodprøver for at 
+kontrollere forandringer i Deres leverfunktion og hæmoglobinniveau.
+Se patientadvarselskortet (i pakken med STAYVEER-tabletter) for mere information om alle disse 
+prøver. Det er vigtigt, at De får foretaget disse blodundersøgelser regelmæssigt, så længe De tager 
+STAYVEER. Vi foreslår, at De noterer datoen for Deres sidste undersøgelse og ligeledes for Deres 
+næste undersøgelse (spørg Deres læge angående datoen) på Deres patientadvarselskort. Det vil hjælpe 
+Dem til at huske, hvornår den næste undersøgelse sker. 
+Blodprøver til undersøgelse af leverfunktion
+Disse vil blive foretaget hver måned i behandlingsperioden med STAYVEER. Efter en dosisøgning 
+skal der yderligere foretages en undersøgelse efter 2 uger.
+Blodprøver for blodmangel
+Disse foretages hver måned i de første 4 måneder af behandlingen, derefter hver 3. måned, da 
+patienter, som tager STAYVEER, kan få blodmangel.
+Hvis disse resultater er unormale, kan Deres læge beslutte at nedsætte Deres dosis eller stoppe 
+behandlingen med STAYVEER og foretage yderligere prøver for at undersøge årsagen.
+Børn og unge
+STAYVEER anbefales ikke til pædiatriske patienter med systemisk sklerose og aktiv 
+finger/tå-sårssygdom. Se også pkt. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take stayveer"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take stayveer"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug af anden medicin sammen med STAYVEER
+Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger anden medicin eller for nylig har
+brugt anden medicin. Dette gælder også medicin, som ikke er købt på recept. Det er især vigtigt at 
+informere lægen, hvis De tager:
+
+ciclosporin (et lægemiddel, der anvendes efter transplantationer samt til behandling af 
+psoriasis), som ikke må tages sammen med STAYVEER.
+
+sirolimus eller tacrolimus (lægemidler, der anvendes efter transplantationer), da det ikke 
+anbefales at bruge disse sammen med STAYVEER.
+42
+
+glibenclamid (mod sukkersyge), rifampicin (til behandling af tuberkulose), fluconazol (et 
+lægemiddel til behandling af svampeinfektioner), ketoconazol (et lægemiddel til behandling af 
+Cushings syndrom) eller nevirapin (til behandling af hiv-infektion), da det ikke anbefales at 
+bruge disse lægemidler sammen med STAYVEER.
+
+andre lægemidler til behandling af hiv-infektion, da disse kan kræve speciel overvågning, hvis 
+de tages sammen med STAYVEER. 
+
+hormonale præventionsmidler, da disse ikke er effektive som eneste præventionsmetode, hvis 
+De tager STAYVEER. Inden i pakningen med STAYVEER-tabletter finder De et 
+patientadvarselskort, som De skal læse omhyggeligt. Deres læge og/eller gynækolog vil sørge 
+for en passende præventionsmetode til Dem.
+
+andre lægemidler til behandling af pulmonal hypertension: sildenafil og tadalafil.
+
+warfarin (et antikoagulerende middel).
+
+simvastatin (bruges til at behandles hyperkolesterolæmi).
+Trafik- og arbejdssikkerhed
+STAYVEER påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene 
+maskiner. STAYVEER kan imidlertid medføre hypotension (for lavt blodtryk), som kan gøre Dem 
+svimmel, påvirke Deres syn og påvirke Deres evne til at fore motorkøretøj og betjene maskiner. Hvis 
+De bliver svimmel eller får tågesyn, når De tager STAYVEER, må De hverken køre bil eller betjene 
+værktøj eller maskiner.
+Kvinder i den fødedygtige alder
+Tag IKKE STAYVEER, hvis De er gravid eller planlægger at blive gravid.
+Graviditetstest
+STAYVEER kan skade ufødte børn, som er undfanget før eller under behandlingen. Hvis De er en 
+kvinde, som kan blive gravid, vil Deres læge bede Dem om at tage en graviditetstest, før De begynder 
+at tage STAYVEER, og regelmæssigt mens De tager STAYVEER.
+Prævention
+Hvis De kan blive gravid, skal De anvende en pålidelig svangerskabsforebyggende metode 
+(prævention), mens De tager STAYVEER. Deres læge eller gynækolog vil fortælle Dem om pålidelige 
+svangerskabsforbyggende metoder, der skal bruges, mens De tager STAYVEER. Da STAYVEER kan 
+gøre hormonelle præventionsmidler (f. eks. tabletter, indsprøjtninger, implantater eller hudplastre) 
+uvirksomme, er denne metode alene ikke pålidelig. Hvis De anvender et hormonelt 
+præventionsmiddel, skal De derfor også anvende en barrieremetode (f.eks. femidom, pessar eller 
+svangerskabsforebyggende svamp, eller Deres partner skal også anvende kondom). Inden i Deres 
+pakning med STAYVEER-tabletter er der et patientadvarselskort. De skal udfylde dette kort og 
+medbringe det ved Deres næste konsultation, således at lægen eller gynækologen kan vurdere, om De 
+har brug for en supplerende eller anden form for pålidelig prævention. Det anbefales, at der udføres 
+månedlige graviditetsprøver, så længe De tager STAYVEER og er i den fødedygtige alder. 
+Fortæl det omgående til Deres læge, hvis De bliver gravid, mens De tager STAYVEER, eller 
+planlægger at blive gravid i nærmeste fremtid.
+Amning
+STAYVEER udskilles i modermælk. De bør holde op med at amme, hvis De får ordineret 
+STAYVEER, da det ikke vides om STAYVEER i modermælken kan skade Deres barn. Tal med lægen 
+om dette.
+Frugtbarhed
+Hvis De er en mand og tager STAYVEER, er det muligt, at dette lægemiddel kan nedsætte Deres 
+sædtal. Det kan ikke udelukkes, at dette kan påvirke Deres evne til at gøre en kvinde gravid. Kontakt 
+lægen, hvis De har spørgsmål eller bekymringer i den henseende.
+43
+STAYVEER indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling bør kun påbegyndes og overvåges af en læge, som har erfaring inden for behandling af 
+PAH eller systemisk sklerose. Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så 
+spørg lægen eller apotekspersonalet. 
+Brug af STAYVEER sammen med mad og drikke
+STAYVEER kan tages sammen med mad eller uden mad.
+Den anbefalede dosis er
+Voksne
+Hos voksne starter behandlingen sædvanligvis med 62,5 mg to gange dagligt (morgen og aften) i de 
+første 4 uger. Derefter vil Deres læge sædvanligvis råde Dem til at tage en tablet à 125 mg to gange 
+dagligt, afhængigt af hvordan De reagerer på STAYVEER.
+Børn og unge
+Doseringsanbefalingerne til børn gælder kun for PAH. Hos børn i alderen 1 år og derover starter 
+behandlingen med STAYVEER sædvanligvis med 2 mg pr. kg legemsvægt to gange dagligt (morgen 
+og aften). Deres læge vil vejlede Dem med hensyn til doseringen.
+Hvis De mener, at virkningen af STAYVEER er for kraftig eller for svag, skal De tale med Deres læge 
+om en eventuel justering af dosis.
+Sådan skal De tage STAYVEER
+Tabletterne skal tages morgen og aften og sluges med vand. Tabletterne kan tages i forbindelse med 
+eller uden for måltider. 
+Hvis De har taget for meget STAYVEER
+Hvis De tager flere tabletter, end De har fået besked på, skal De omgående søge læge.
+Hvis De har glemt at tage STAYVEER
+Hvis De har glemt at tage STAYVEER, skal De gøre det, så snart De kommer i tanke om det og 
+derefter på de normale tidspunkter. De må ikke tage en dobbeltdosis som erstatning for den glemte 
+dosis.
+Hvis De holder op med at tage STAYVEER
+Hvis De pludselig stopper behandlingen med STAYVEER, kan det medføre, at Deres symptomer 
+forværres. De skal ikke holde op med at tage STAYVEER, medmindre Deres læge har bedt Dem om 
+det. Deres læge kan bede Dem reducere dosis over nogle få dage, før De stopper helt med 
+behandlingen.
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store stayveer"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store stayveer"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+De alvorligste bivirkninger ved STAYVEER er
+
+Abnorm leverfunktion, som kan påvirke flere end 1 ud af 10 personer
+44
+
+Anæmi (blodmangel), som kan påvirke op til 1 ud af 10 personer. Anæmi kræver sommetider 
+blodtransfusion
+Deres lever- og blodværdier vil blive overvåget under behandlingen med STAYVEER (se pkt. 2). Det 
+er vigtigt, at De får foretaget disse test efter Deres læges anvisning.
+Tegn på, at Deres lever ikke fungerer korrekt, omfatter:
+
+kvalme
+
+opkastning
+
+feber
+
+mavesmerter
+
+gulsot (gulfarvning af Deres hud eller af det hvide i øjnene)
+
+mørkfarvet urin
+
+hudkløe
+
+sløvhed eller træthed (usædvanlig træthed eller udmattelse)
+
+influenzalignende syndrom (led- og muskelsmerter med feber)
+Hvis De opdager et eller flere af disse tegn, skal De omgående fortælle det til Deres læge.
+Andre bivirkninger
+Meget almindelige (kan forekomme hos flere end 1 ud af 10 personer):
+
+Hovedpine
+
+Ødem (hævede fødder og ankler eller andre tegn på væskeophobning) 
+Almindelige (kan forekomme hos op til 1 ud af 10 personer):
+
+Ansigtsrødme eller hudrødme
+
+Overfølsomhedsreaktioner (herunder hudirritation, kløe og udslæt)
+
+Tilbageløb af mavesyre til spiserøret (gastroøsofageal reflukssygdom)
+
+Diarré
+
+Synkope (besvimelse)
+
+Hjertebanken (hurtige eller uregelmæssige hjerteslag)
+
+Lavt blodtryk
+
+Tilstoppet næse
+Ikke almindelige (kan forekomme hos op til 1 ud af 100 personer):
+
+Trombocytopeni (lavt antal blodplader)
+
+Neutropeni/leukopeni (lavt antal hvide blodlegemer)
+
+Forhøjede leverfunktionsprøver med hepatitis (leverbetændelse), herunder mulig forværring af 
+underliggende hepatitis, og/eller gulsot (gulfarvning af huden eller det hvide i øjnene)
+Sjældne (kan forekomme hos op til 1 ud af 1 000 personer):
+
+Anafylaksi (generelle allergiske reaktioner), angioødem (hævelser, hyppigst omkring øjne, 
+læber, tunge eller svælg) 
+
+Levercirrhose (skrumpelever), leversvigt (alvorlig forstyrrelse af leverfunktionen)
+Tågesyn har også været indberettet med ukendt hyppighed (hyppigheden kan ikke estimeres ud fra 
+forhåndenværende data)
+Bivirkninger hos børn og unge
+De bivirkninger, der er indberettet for børn og unge, der er blevet behandlet med STAYVEER, er de 
+samme som for voksne.
+45
+Indberetning af bivirkninger
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren efter "EXP".
+For hvide polyethylenflasker af høj densitet, skal det anvendes inden for 30 dage efter anbrud.
+For PVC/PE/PVDC/aluminium-blisterpakninger:
+Må ikke opbevares ved temperaturer over 25 °C.
+For flasker af hvidt højdensitetspopyethylen:
+Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
+Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-166a454c6539dfdbdc3afea683fe6474
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for stayveer Package Leaflet for language en"
+Description: "ePI document Bundle for stayveer Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-166a454c6539dfdbdc3afea683fe6474"
+* entry[0].resource = composition-en-166a454c6539dfdbdc3afea683fe6474
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp166a454c6539dfdbdc3afea683fe6474"
+* entry[=].resource = mp166a454c6539dfdbdc3afea683fe6474
+                            
+                    
+Instance: bundlepackageleaflet-da-166a454c6539dfdbdc3afea683fe6474
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for stayveer Package Leaflet for language da"
+Description: "ePI document Bundle for stayveer Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-166a454c6539dfdbdc3afea683fe6474"
+* entry[0].resource = composition-da-166a454c6539dfdbdc3afea683fe6474
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp166a454c6539dfdbdc3afea683fe6474"
+* entry[=].resource = mp166a454c6539dfdbdc3afea683fe6474
+                            
+                    
+
+
+
+Instance: mp166a454c6539dfdbdc3afea683fe6474
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product STAYVEER 62.5 mg film-coated tablets"
-Description: "STAYVEER 62.5 mg film-coated tablets"
+Title: "Medicinal Product stayveer"
+Description: "stayveer"
 Usage: #inline
 
  
@@ -330,7 +748,7 @@ Usage: #inline
 
 
 * name
-  * productName = "STAYVEER 62.5 mg film-coated tablets"
+  * productName = "stayveer"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -357,29 +775,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-166a454c6539dfdbdc3afea683fe6474
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for stayveer Package Leaflet for language en"
-Description: "ePI document Bundle for stayveer Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 166a454c6539dfdbdc3afea683fe6474ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "STAYVEER 62.5 mg film-coated tablets"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "stayveer"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-166a454c6539dfdbdc3afea683fe6474"
-* entry[0].resource = composition-en-166a454c6539dfdbdc3afea683fe6474
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpd133c9c873acd7c2e6927e1385d09e88"
-* entry[=].resource = mpd133c9c873acd7c2e6927e1385d09e88
-                            
-                      
+* title = "List of all ePIs associated with stayveer"
+
+* subject = Reference(mpd133c9c873acd7c2e6927e1385d09e88)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#stayveer "stayveer"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-166a454c6539dfdbdc3afea683fe6474) // stayveer en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-166a454c6539dfdbdc3afea683fe6474) // stayveer da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-166a454c6539dfdbdc3afea683fe6474
+InstanceOf: List
+
+* insert 166a454c6539dfdbdc3afea683fe6474ListRuleset
+    

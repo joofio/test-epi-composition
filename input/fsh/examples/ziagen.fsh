@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-e03871853d4da5dc011fec7c683b275d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ziagen Package Leaflet"
@@ -472,12 +475,663 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 
 
 
+Instance: composition-da-e03871853d4da5dc011fec7c683b275d
+InstanceOf: CompositionUvEpi
+Title: "Composition for ziagen Package Leaflet"
+Description:  "Composition for ziagen Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpbf7ab11555717dcd1ea489b963ba09d1)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpbf7ab11555717dcd1ea489b963ba09d1
+* title = "TEST PURPOSES ONLY - ziagen"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen<br />
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at tage Ziagen 
+3. Sådan skal du tage Ziagen 
+4. Bivirkninger 
+5. Opbevaring<br />
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What ziagen is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What ziagen is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ziagen anvendes til behandling af hiv-infektioner (humant immundefektvirus). </p>
+<p>Ziagen indeholder det aktive stof abacavir. Abacavir tilhører en gruppe af lægemidler, der kaldes 
+nukleosidanalog revers transkriptasehæmmere (NRTI'er). </p>
+<p>Ziagen helbreder ikke hiv-infektionen, men nedsætter mængden af virus i kroppen og holder den på et 
+lavt niveau. Ziagen øger også antallet af CD4-celler i dit blod. CD4-celler er en type hvid blodcelle, 
+der spiller en vigtig rolle, når kroppen skal bekæmpe infektioner. </p>
+<p>Ikke alle reagerer ens på behandlingen med Ziagen. Din læge vil følge virkningen af din behandling.  </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take ziagen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take ziagen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Ziagen </p>
+<ul>
+<li>hvis du er allergisk (overfølsom) over for abacavir (eller andre lægemidler, der indeholder 
+abacavir, f.eks. Trizivir, Triumeq eller Kivexa) eller et af de øvrige indholdsstoffer i dette 
+lægemiddel (angivet i punkt 6). 
+Læs grundigt alle oplysningerne om overfølsomhedsreaktioner under punkt 4. Tal med lægen, hvis du mener, at ovenstående gælder for dig.  </li>
+</ul>
+<p>Vær ekstra forsigtig med at tage Ziagen 
+Nogle personer, der tager Ziagen mod hiv, har større risiko for at få alvorlige bivirkninger end andre. 
+Vær opmærksom på, at du har en større risiko: </p>
+<ul>
+<li>
+<p>hvis du har en middelsvær eller svær leversygdom </p>
+</li>
+<li>
+<p>hvis du tidligere har haft en leversygdom, herunder hepatitis B eller C </p>
+</li>
+<li>
+<p>hvis du er svært overvægtig (særligt hvis du er kvinde) </p>
+</li>
+<li>
+<p>hvis du har en alvorlig nyresygdom. 
+Tal med lægen, hvis noget af ovenstående gælder for dig. Det kan være nødvendigt med ekstra 
+kontrolbesøg, herunder blodprøver, mens du er i behandling. Se punkt 4 for yderligere 
+oplysninger.  </p>
+</li>
+</ul>
+<p>Overfølsomhedsreaktioner over for abacavir 
+Selv patienter, som ikke har genet HLA-B*5701, kan udvikle en overfølsomhedsreaktion (en 
+alvorlig allergisk reaktion). </p>
+<p>Læs alle oplysninger om overfølsomhedsreaktioner grundigt under punkt 4 i denne 
+indlægsseddel. </p>
+<p>Risiko for hjerte-kar-tilfælde 
+Det kan ikke udelukkes, at abacavir kan øge risikoen for at få et hjerte-kar-tilfælde. 
+Fortæl det til lægen, hvis du har hjerte-kar-problemer, hvis du ryger eller hvis du har andre 
+sygdomme, der kan øge din risiko for hjerte-kar-sygdomme, såsom forhøjet blodtryk eller 
+sukkersyge. Du må ikke stoppe med at tage Ziagen, medmindre lægen anbefaler dig at gøre det. </p>
+<p>Hold øje med vigtige symptomer 
+Nogle personer, der tager lægemidler mod hiv-infektioner, får andre bivirkninger, der kan være 
+alvorlige. Du skal kende til vigtige tegn og symptomer, du skal holde øje med, mens du tager Ziagen. 
+Læs oplysningerne under 'Andre bivirkninger ved kombinationsbehandling af hiv' i punkt 4 
+i denne indlægsseddel. </p>
+<p>Brug af andre lægemidler sammen med Ziagen 
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. Dette gælder også lægemidler, som ikke 
+er købt på recept, f.eks. naturlægemidler og vitaminer og mineraler. Husk at fortælle det til lægen eller 
+apotekspersonalet, hvis du begynder at tage andre lægemidler, mens du er i behandling med Ziagen. </p>
+<p>Nogle lægemidler kan påvirke virkningen af Ziagen og omvendt 
+Disse omfatter: </p>
+<ul>
+<li>
+<p>Phenytoin, til behandling af epilepsi. <br />
+Tal med lægen, hvis du tager phenytoin. Lægen vil eventuelt holde ekstra øje med dig, så længe 
+du tager Ziagen. </p>
+</li>
+<li>
+<p>Methadon, der anvendes som erstatning for heroin. Abacavir øger den hastighed, hvormed 
+methadon udskilles fra kroppen. Hvis du tager methadon, vil lægen holde øje med, om du får 
+abstinenser. Det kan være nødvendigt at ændre dosis af methadon. 
+Tal med lægen, hvis du tager methadon. </p>
+</li>
+<li>
+<p>Riociguat, til behandling af forhøjet blodtryk i blodkarrene (lungearterierne), der fører blodet 
+fra hjertet til lungerne. Din læge kan have brug for at reducere din riociguat-dosis, da abacavir kan 
+øge niveauet af riociguat i blodet.  </p>
+</li>
+</ul>
+<p>Graviditet 
+Det anbefales ikke at tage Ziagen under graviditet. Ziagen og lignende lægemidler kan give 
+fosteret bivirkninger.<br />
+Hvis du har taget Ziagen under din graviditet, kan din læge bede om regelmæssige blodprøver og 
+andre diagnostiske undersøgelser for at overvåge barnets udvikling. For de børn, hvis mødre har taget 
+NRTI'er i løbet af graviditeten, opvejede fordelen ved beskyttelsen mod hiv risikoen ved 
+bivirkningerne. </p>
+<p>Amning 
+Amning anbefales ikke hos kvinder, der er hiv-positive, da hiv-infektion kan overføres til barnet 
+gennem modermælken.<br />
+En lille mængde af indholdsstofferne i Ziagen kan overføres til din modermælk.<br />
+Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.  </p>
+<p>Trafik- og arbejdssikkerhed 
+Kør ikke bil og betjen ikke maskiner, hvis du føler dig utilpas. </p>
+<p>Vigtig information om nogle af de øvrige indholdsstoffer i Ziagen tabletter <br />
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take ziagen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take ziagen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
+apotekspersonalet. 
+Tabletterne skal synkes hele med vand. Ziagen kan tages med eller uden mad. 
+Hvis du ikke kan synke hele tabletter, kan du knuse dem og blande dem i lidt mad eller væske og 
+derefter straks tage hele dosis.<br />
+Hold regelmæssig kontakt med lægen 
+Ziagen hjælper med at holde din sygdom under kontrol. Du skal tage lægemidlet hver dag for at 
+forhindre, at sygdommen forværres. Du kan stadig udvikle andre infektioner og sygdomme, der er 
+forbundet med hiv-infektionen. 
+Hold kontakt med lægen, og stop ikke med at tage Ziagen uden at tale med lægen først. </p>
+<p>Så meget skal du tage 
+Voksne, unge og børn, der vejer mindst 25 kg: 
+Den sædvanlige dosis af Ziagen er 600 mg daglig. Denne kan tages enten som en 300 mg tablet 2 
+gange daglig eller som to 300 mg tabletter én gang daglig.<br />
+Børn fra 1 år, der vejer mindre end 25 kg:<br />
+Dosis afhænger af barnets kropsvægt. Den anbefalede dosis er: </p>
+<ul>
+<li>
+<p>Børn, der vejer mindst 20 kg og mindre end 25 kg: Den sædvanlige dosis er 450 mg daglig. 
+Denne dosis kan gives enten som 150 mg (en halv tablet) om morgenen og 300 mg (en hel tablet) 
+om aftenen eller som 450 mg (en og en halv tablet) én gang daglig. Følg lægens anvisning.  </p>
+</li>
+<li>
+<p>Børn, der vejer mindst 14 kg og mindre end 20 kg: Den sædvanlige dosis er 300 mg daglig. 
+Denne dosis kan gives enten som 150 mg (en halv tablet) 2 gange daglig eller som 300 mg (en hel 
+tablet) én gang daglig. Følg lægens anvisning.<br />
+Tabletten kan deles i to lige store doser. 
+Ziagen findes også som oral opløsning (20 mg abacavir/ml) til børn over tre måneder med en 
+kropsvægt under 14 kg, eller til patienter, der har behov for en lavere dosis, eller som ikke kan synke 
+tabletter.<br />
+Hvis du har taget for meget Ziagen 
+Kontakt lægen, skadestuen eller apotekspersonalet, hvis du har taget mere Ziagen, end der står her, 
+eller mere end lægen har foreskrevet.  </p>
+</li>
+</ul>
+<p>Hvis du har glemt at tage Ziagen 
+Hvis du glemmer at tage en dosis, skal du tage den, så snart du kommer i tanke om det. Fortsæt 
+derefter behandlingen som før.<br />
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.  </p>
+<p>Det er vigtigt, at du tager Ziagen regelmæssigt, da der er større risiko for at få en 
+overfølsomhedsreaktion, hvis du tager lægemidlet uregelmæssigt. </p>
+<p>Hvis du holder op med at tage Ziagen 
+Hvis du er holdt op med at tage Ziagen af en eller anden grund - særligt hvis det er fordi, du mener, at 
+du får bivirkninger, eller fordi du har en anden sygdom: 
+Tal med lægen, inden du begynder at tage Ziagen igen. Lægen vil undersøge, om dine 
+bivirkninger skyldtes en overfølsomhedsreaktion. Hvis lægen mener, de kan være forårsaget af en 
+overfølsomhedsreaktion, vil lægen råde dig til aldrig mere at tage Ziagen eller nogen andre 
+lægemidler, som indeholder abacavir (f.eks. Triumeq, Trizivir eller Kivexa). Det er vigtigt, at 
+du følger lægens råd. </p>
+<p>Hvis lægen vurderer, at du kan begynde at tage Ziagen igen, bliver du muligvis bedt om at tage de 
+første doser på et sted, hvor du hurtigt kan få lægehjælp, hvis det skulle blive nødvendigt. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose 
+i blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
+vedkommende sommetider med selve hiv-lægemidlet. Lægen vil holde øje med disse ændringer. </p>
+<p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Når du bliver behandlet for hiv, kan det være svært at afgøre, om dine symptomer skyldes Ziagen eller 
+andre lægemidler, eller om de skyldes hiv-sygdommen i sig selv. Det er derfor meget vigtigt, at du 
+fortæller lægen om enhver ændring i dit helbred. 
+Selv patienter, som ikke har genet HLA-B*5701, kan udvikle en overfølsomhedsreaktion (en 
+alvorlig allergisk reaktion) beskrevet i denne indlægsseddel under overskriften 
+"Overfølsomhedsreaktioner". </p>
+<p>Det er meget vigtigt, at du læser og forstår oplysningerne om denne alvorlige reaktion. </p>
+<p>Ud over bivirkninger ved Ziagen nævnt nedenfor, kan du få andre sygdomme, når du får 
+kombinationsbehandling mod hiv.<br />
+Det er vigtigt, at du læser oplysningerne under 'Andre bivirkninger ved kombinationsbehandling af 
+hiv' senere i dette afsnit. </p>
+<p>Overfølsomhedsreaktioner 
+Ziagen indeholder abacavir (der også er et aktivt stof i lægemidler som Trizivir, Triumeq og 
+Kivexa). 
+Abacavir kan forårsage en alvorlig allergisk reaktion, kendt som en overfølsomhedsreaktion. Disse 
+overfølsomhedsreaktioner er set oftere hos patienter, som tager lægemidler, der indeholder abacavir. </p>
+<p>Hvem får en overfølsomhedsreaktion? 
+Alle, der tager Ziagen, kan få en overfølsomhedsreaktion over for abacavir, der kan være livstruende, 
+hvis de fortsætter med at tage Ziagen. 
+Du har større risiko for at få sådan en overfølsomhedsreaktion, hvis du har et gen, som kaldes HLA-
+B<em>5701 (men du kan også få en reaktion, selvom du ikke har dette gen). Du skal derfor undersøges 
+for, om du har dette gen, inden lægen ordinerer Ziagen. Hvis du ved, at du har dette gen, skal du 
+fortælle det til lægen, før du begynder at tage Ziagen. I et klinisk forsøg udviklede 3-4 ud af patienter, der blev behandlet med abacavir, og som ikke havde et gen, som kaldes HLA-B</em>5701, en 
+overfølsomhedsreaktion. </p>
+<p>Hvad er symptomerne? 
+De almindeligste symptomer er: </p>
+<ul>
+<li>
+<p>feber (høj kropstemperatur) og udslæt. 
+Andre almindelige symptomer: </p>
+</li>
+<li>
+<p>kvalme, opkastning, diarré, mavesmerter, udtalt træthed. 
+Øvrige symptomer omfatter: 
+Smerter i led og/eller muskler, hævelse af halsen, åndenød, ondt i halsen, hoste, lejlighedsvis 
+hovedpine, øjenbetændelse (konjunktivit), mundsår, lavt blodtryk, snurren eller følelsesløshed i 
+hænder og/eller fødder. </p>
+</li>
+</ul>
+<p>Hvornår opstår disse reaktioner? 
+Du kan få en overfølsomhedsreaktion på et hvilket som helst tidspunkt under behandlingen med 
+Ziagen, men risikoen er størst i de første 6 uger af behandlingen.  </p>
+<p>Hvis du plejer et barn, der er i behandling med Ziagen, er det vigtigt, at du forstår 
+oplysningerne om overfølsomhedsreaktioner. Hvis barnet får symptomerne nævnt nedenfor, er 
+det vigtigt, at du følger de angivne instrukser. </p>
+<p>Kontakt straks lægen: 
+1 
+hvis du får udslæt, ELLER 
+2 
+hvis du får symptomer fra mindst to af følgende grupper:</p>
+<ul>
+<li>
+<p>feber </p>
+</li>
+<li>
+<p>åndenød, ondt i halsen eller hoste </p>
+</li>
+<li>
+<p>kvalme, opkastning, diarré eller mavesmerter </p>
+</li>
+<li>
+<p>udtalt træthed, ømhed eller almen utilpashed. 
+Lægen vil muligvis bede dig stoppe med at tage Ziagen. </p>
+</li>
+</ul>
+<p>Hvis du holder op med at tage Ziagen 
+Hvis du holder op med at tage Ziagen på grund af en overfølsomhedsreaktion, må du ALDRIG 
+MERE tage Ziagen eller andre lægemidler, der indeholder abacavir (f.eks. Trizivir, Triumeq 
+eller Kivexa). Hvis du gør det, kan du inden for få timer få et alvorligt blodtryksfald, der kan medføre 
+død.  </p>
+<p>Hvis du er holdt op med at tage Ziagen af en eller anden grund - særligt hvis det er, fordi du mener, du 
+har bivirkninger, eller fordi du har en anden sygdom: 
+Tal med lægen, inden du begynder at tage Ziagen igen. Lægen vil undersøge, om dine bivirkninger 
+skyldtes en overfølsomhedsreaktion. Hvis lægen mener, de kan være forårsaget af en 
+overfølsomhedsreaktion, vil lægen råde dig til aldrig mere at tage Ziagen eller nogen andre 
+lægemidler, som indeholder abacavir (f.eks. Trizivir, Triumq eller Kivexa). Det er vigtigt, at du 
+følger lægens råd.<br />
+I nogle tilfælde er overfølsomhedsreaktioner opstået hos personer, der genoptog behandling med 
+abacavir, og som kun havde et af symptomerne på oplysningskortet, før de stoppede med at tage 
+lægemidlet. 
+I meget sjældne tilfælde er overfølsomhedsreaktioner opstået hos personer, der genoptog behandling 
+med abacavir, og som ikke havde nogle symptomer på overfølsomhed, før de stoppede med at tage 
+lægemidlet. </p>
+<p>Hvis lægen vurderer, at du kan begynde at tage Ziagen igen, bliver du muligvis bedt om at tage de 
+første doser på et sted, hvor du hurtigt kan få lægehjælp, hvis det skulle blive nødvendigt. </p>
+<p>Hvis du er overfølsom over for Ziagen, skal du returnere alle dine Ziagen tabletter, så de kan 
+blive destrueret korrekt. Spørg lægen eller apotekspersonalet til råds. 
+Der er vedlagt et oplysningskort i pakningen med Ziagen for at gøre dig og sundhedspersonalet 
+opmærksom på overfølsomhedsreaktioner over for abacavir. Tag kortet ud og hav det altid på dig.   </p>
+<p>Almindelige bivirkninger 
+Disse kan forekomme hos op til 1 ud af 10 personer: </p>
+<ul>
+<li>
+<p>overfølsomhedsreaktioner </p>
+</li>
+<li>
+<p>kvalme </p>
+</li>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>opkastning </p>
+</li>
+<li>
+<p>diarré </p>
+</li>
+<li>
+<p>appetitløshed </p>
+</li>
+<li>
+<p>træthed, manglende energi </p>
+</li>
+<li>
+<p>feber (høj kropstemperatur) </p>
+</li>
+<li>
+<p>udslæt.  </p>
+</li>
+</ul>
+<p>Sjældne bivirkninger 
+Disse kan forekomme hos op til 1 ud af 1.000 personer: </p>
+<ul>
+<li>betændelse i bugspytkirtlen (pankreatitis). </li>
+</ul>
+<p>Meget sjældne bivirkninger 
+Disse kan forekomme hos op til 1 ud af 10.000 personer: </p>
+<ul>
+<li>
+<p>udslæt, der kan danne blister, og som ligner små målskiver (mørk plet i midten omgivet af et 
+lysere område, omsluttet af en mørk ring) (erythema multiforme) </p>
+</li>
+<li>
+<p>udbredt udslæt med blisterdannelse og hudafskalning, særligt omkring munden, næsen, øjnene og 
+kønsdelene (Stevens-Johnsons syndrom) og i alvorlige tilfælde med hudafskalning på mere end % af kroppens overflade (toksisk epidermal nekrolyse) </p>
+</li>
+<li>
+<p>for meget mælkesyre i blodet (laktacidose). </p>
+</li>
+</ul>
+<p>Kontakt straks lægen, hvis du får nogle af disse symptomer. 
+Hvis du får bivirkninger 
+Tal med lægen eller apotekspersonalet, hvis en bivirkning er generende eller bliver værre, eller 
+hvis du får bivirkninger, som ikke er nævnt her. </p>
+<p>Andre bivirkninger ved kombinationsbehandling af hiv 
+Kombinationsbehandling med Ziagen kan forårsage udvikling af andre sygdomme under behandlingen 
+af hiv. </p>
+<p>Symptomer på infektion eller betændelseslignende reaktioner (inflammation) </p>
+<p>Gamle infektioner kan blusse op 
+Personer med fremskreden hiv-infektion (aids) har et svækket immunsystem og har større risiko for at 
+få alvorlige infektioner (opportunistiske infektioner). Når sådanne personer starter behandlingen, kan 
+gamle, skjulte infektioner blusse op igen og medføre tegn og symptomer på betændelse. Disse 
+symptomer opstår sandsynligvis, fordi kroppens immunsystem bliver stærkere, og kroppen begynder 
+at bekæmpe disse infektioner. Symptomer omfatter som regel feber, samt nogle af følgende:  </p>
+<ul>
+<li>
+<p>hovedpine </p>
+</li>
+<li>
+<p>mavesmerter </p>
+</li>
+<li>
+<p>åndenød </p>
+</li>
+</ul>
+<p>I sjældne tilfælde kan immunforsvaret, når det bliver stærkere, også angribe raskt kropsvæv 
+(autoimmune forstyrrelser). Symptomer på autoimmune forstyrrelser kan opstå mange måneder efter, 
+at du er startet med at tage lægemidlet til behandling af din hiv-infektion. Symptomerne kan inkludere: </p>
+<ul>
+<li>
+<p>hjertebanken (hurtig eller uregelmæssig hjerterytme) eller rysten </p>
+</li>
+<li>
+<p>hyperaktivitet (voldsom rastløshed og bevægelse)  </p>
+</li>
+<li>
+<p>svaghed, der starter i hænderne og fødderne og efterfølgende bevæger sig ind mod kroppen. </p>
+</li>
+</ul>
+<p>Hvis du får symptomer på en infektion, mens du tager Ziagen: 
+Kontakt straks lægen. Tag ikke andre lægemidler mod infektioner uden at tale med lægen først. </p>
+<p>Du kan få knogleproblemer 
+Nogle personer, der får kombinationsbehandling mod hiv, udvikler en sygdom, der kaldes 
+osteonekrose. Med denne sygdom dør dele af knoglevævet på grund af nedsat blodtilførsel til 
+knoglerne. Du har større risiko for at få denne sygdom: </p>
+<ul>
+<li>
+<p>hvis du har fået kombinationsbehandling i lang tid </p>
+</li>
+<li>
+<p>hvis du også tager betændelseshæmmende lægemidler, kaldet kortikosteroider </p>
+</li>
+<li>
+<p>hvis du drikker alkohol </p>
+</li>
+<li>
+<p>hvis dit immunsystem er meget svækket </p>
+</li>
+<li>
+<p>hvis du er overvægtig. 
+Symptomer på osteonekrose omfatter: </p>
+</li>
+<li>
+<p>stive led </p>
+</li>
+<li>
+<p>smerter (særligt i hofterne, knæene eller skuldrene) </p>
+</li>
+<li>
+<p>bevægelsesbesvær. 
+Hvis du bemærker et eller flere af disse symptomer: 
+Tal med lægen. </p>
+</li>
+</ul>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ziagen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ziagen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udløbsdatoen er den sidste 
+dag i den nævnte måned. </p>
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ziagen indeholder: 
+Aktivt stof: Hver Ziagen filmovertrukket tablet med delekærv indeholder 300 mg abacavir (som 
+sulfat). </p>
+<p>Øvrige indholdsstoffer: Tabletkerne: Mikrokrystallinsk cellulose, natriumstivelsesglycolat, 
+magnesiumstearat og kolloid vandfri silica. Tabletovertræk: Triacetin, methylhydroxypropylcellulose, 
+titandioxid, polysorbat 80 og gul jernoxid. </p>
+<p>Udseende og pakningsstørrelser 
+Ziagen filmovertrukne tabletter er præget med 'GX 623' på begge sider og forsynet med delekærv. 
+Tabletterne er gule og kapselformede og fås i blisterpakninger med 60 tabletter. </p>
+<p>Indehaver af markedsføringstilladelsen 
+ViiV Healthcare BV, Van Asch van Wijckstraat 55H, 3811 LP Amersfoort, Holland </p>
+<p>Fremstiller 
+Delpharm Poznań Spółka Akcyjna, ul. Grunwaldzka 189, 60-322 Poznan, Polen. </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+ViiV Healthcare srl/bv 
+Tél/Tel: + 32 (0) 10 85 65<br />
+Lietuva 
+ViiV Healthcare BV 
+Tel: + 370 80000България 
+ViiV Healthcare BV 
+Teл.: + 359 80018 
+Luxembourg/Luxemburg 
+ViiV Healthcare srl/bv 
+Belgique/Belgien 
+Tél/Tel: + 32 (0) 10 85 65 00  </p>
+<p>Česká republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarország 
+ViiV Healthcare BV 
+Tel.: + 36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+ViiV Healthcare BV 
+Tel: + 356 80065Deutschland 
+ViiV Healthcare GmbH<br />
+Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com </p>
+<p>Nederland 
+ViiV Healthcare BV<br />
+Tel: + 31 (0) 33 2081 
+Eesti 
+ViiV Healthcare BV 
+Tel: + 372 8002Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 firmapost@gsk.no </p>
+<p>Ελλάδα 
+GlaxoSmithKline Μονοπρόσωπη A.E.B.E. 
+Τηλ: + 30 210 68 82<br />
+Österreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>España 
+Laboratorios ViiV Healthcare, S.L. 
+Tel: +34 900 923 es-ci@viivhealthcare.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9France 
+ViiV Healthcare SAS<br />
+Tél.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
+<p>Hrvatska 
+ViiV Healthcare BV 
+Tel: + 385 800787 
+Portugal 
+VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
+Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
+<p>România 
+ViiV Healthcare BV 
+Tel: + 40 800672Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955Slovenija 
+ViiV Healthcare BV 
+Tel: + 386 80688869  </p>
+<p>Ísland 
+Vistor hf.<br />
+Sími: +354 535 7 
+Slovenská republika 
+ViiV Healthcare BV 
+Tel: + 421 800500 
+Italia 
+ViiV Healthcare S.r.l<br />
+Tel: + 39 (0)45 7741Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30<br />
+Κύπρος 
+ViiV Healthcare BV 
+Τηλ: + 357 80070 
+Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+ViiV Healthcare BV 
+Tel: + 371 80205 
+United Kingdom (Northern Ireland) 
+ViiV Healthcare BV<br />
+Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu </p>
+<p>Indlægsseddel: Information til brugeren<br />
+Ziagen 20 mg/ml oral opløsning 
+abacavir </p>
+<p>Læs denne indlægsseddel grundigt, inden du begynder at tage dette lægemiddel, da den 
+indeholder vigtige oplysninger. 
+- Gem indlægssedlen. Du kan få brug for at læse den igen. 
+- Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
+-  Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give 
+lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
+som du har. 
+-  Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>
+<p>VIGTIGT - Overfølsomhedsreaktioner 
+Ziagen indeholder abacavir (der også er et aktivt stof i lægemidler som Kivexa, Triumeq og 
+Trizivir). Nogle personer, der tager abacavir, kan få en overfølsomhedsreaktion (en alvorlig 
+allergisk reaktion), som kan være livstruende, hvis de fortsætter med at tage lægemidler indeholdende 
+abacavir. <br />
+Læs omhyggeligt alle oplysningerne i boksen 'Overfølsomhedsreaktioner' under punkt 4 i denne 
+indlægsseddel. 
+Der er vedlagt et oplysningskort i pakningen med Ziagen for at gøre dig og sundhedspersonalet 
+opmærksom på overfølsomhed over for abacavir. Tag kortet ud og hav det altid på dig. </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-e03871853d4da5dc011fec7c683b275d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ziagen Package Leaflet for language en"
+Description: "ePI document Bundle for ziagen Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e03871853d4da5dc011fec7c683b275d"
+* entry[0].resource = composition-en-e03871853d4da5dc011fec7c683b275d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe03871853d4da5dc011fec7c683b275d"
+* entry[=].resource = mpe03871853d4da5dc011fec7c683b275d
+                            
+                    
+Instance: bundlepackageleaflet-da-e03871853d4da5dc011fec7c683b275d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ziagen Package Leaflet for language da"
+Description: "ePI document Bundle for ziagen Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-e03871853d4da5dc011fec7c683b275d"
+* entry[0].resource = composition-da-e03871853d4da5dc011fec7c683b275d
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe03871853d4da5dc011fec7c683b275d"
+* entry[=].resource = mpe03871853d4da5dc011fec7c683b275d
+                            
+                    
+
+
+
+Instance: mpe03871853d4da5dc011fec7c683b275d
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Ziagen 300 mg film-coated tablets"
-Description: "Ziagen 300 mg film-coated tablets"
+Title: "Medicinal Product ziagen"
+Description: "ziagen"
 Usage: #inline
 
  
@@ -497,7 +1151,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Ziagen 300 mg film-coated tablets"
+  * productName = "ziagen"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -524,29 +1178,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-e03871853d4da5dc011fec7c683b275d
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for ziagen Package Leaflet for language en"
-Description: "ePI document Bundle for ziagen Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: e03871853d4da5dc011fec7c683b275dListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/99/112/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ziagen"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-e03871853d4da5dc011fec7c683b275d"
-* entry[0].resource = composition-en-e03871853d4da5dc011fec7c683b275d
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpbf7ab11555717dcd1ea489b963ba09d1"
-* entry[=].resource = mpbf7ab11555717dcd1ea489b963ba09d1
-                            
-                      
+* title = "List of all ePIs associated with ziagen"
+
+* subject = Reference(mpbf7ab11555717dcd1ea489b963ba09d1)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ziagen "ziagen"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-e03871853d4da5dc011fec7c683b275d) // ziagen en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-e03871853d4da5dc011fec7c683b275d) // ziagen da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-e03871853d4da5dc011fec7c683b275d
+InstanceOf: List
+
+* insert e03871853d4da5dc011fec7c683b275dListRuleset
+    

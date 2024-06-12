@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-d022f4fb840a33cb86a67bb1564d1bed
 InstanceOf: CompositionUvEpi
 Title: "Composition for oyavas Package Leaflet"
@@ -506,12 +509,720 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: composition-da-d022f4fb840a33cb86a67bb1564d1bed
+InstanceOf: CompositionUvEpi
+Title: "Composition for oyavas Package Leaflet"
+Description:  "Composition for oyavas Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpee63e1d0f16758e0a295929411a54019)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpee63e1d0f16758e0a295929411a54019
+* title = "TEST PURPOSES ONLY - oyavas"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Oyavas
+3. Sådan skal du bruge Oyavas
+4. Bivirkninger 
+5. Opbevaring
+6. Pakningsstørrelse og yderligere oplysninger</p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What oyavas is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What oyavas is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oyavas indeholder det aktive stof bevacizumab, som er et humaniseret monoklonalt antistof (et type 
+protein, som normalt laves af immunsystemet, og som hjælper med at beskytte kroppen mod 
+infektioner og kræft). Bevacizumab bindes selektivt til et protein, som kaldes human vaskulær 
+endotelial vækstfaktor (VEGF), som findes på indersiden af blod- og lymfekar i kroppen. VEGF-
+proteinet får blodkarrene i kræftknuden til at vokse. Disse blodkar forsyner tumoren med 
+næringsstoffer og ilt. Når bevacizumab først er bundet til VEGF, forhindres tumoren i at vokse, idet 
+væksten af de blodkar, som forsyner tumoren med næringsstoffer og ilt, blokeres.
+Oyavas er et lægemiddel, som anvendes hos voksne til behandling af fremskreden kræft i tyktarmen 
+eller endetarmen. Oyavas vil blive givet i kombination med kemoterapibehandling, der indeholder 
+fluoropyrimidin.
+Oyavas anvendes også hos voksne til behandling af metastatisk brystkræft. Når det anvendes til 
+patienter med brystkræft, vil det blive givet sammen med et cytostatikum (lægemiddel mod kræft), der 
+hedder paclitaxel eller capecitabin.
+Oyavas bruges også hos voksne til behandling af fremskreden ikke-småcellet lungekræft. Oyavas vil 
+blive givet sammen med kemoterapibehandling, der indeholder platin.
+Oyavas bruges også hos voksne til behandling af fremskreden ikke-småcellet lungekræft, når 
+kræftcellerne har bestemte mutationer i et protein, der kaldes epidermal vækstfaktor-receptor (EGFR). 
+Oyavas vil blive givet sammen med erlotinib.
+Oyavas bruges også hos voksne til behandling af fremskreden nyrekræft. Når det anvendes til patienter 
+med nyrekræft, bliver det givet sammen med en anden type lægemiddel, som kaldes interferon.
+Oyavas bruges også hos voksne til behandling af fremskreden kræft i æggestokkene, kræft i 
+æggeledere eller primær bughindekræft. Når det anvendes til patienter med kræft i æggestokkene, 
+kræft i æggeledere eller primær bughindekræft, bliver det givet sammen med carboplatin og paclitaxel.
+69
+Når lægemidlet anvendes til voksne patienter med fremskreden kræft i æggestokkene, kræft i 
+æggelederne eller primær bughindekræft, hvor sygdommen er kommet igen mere end 6 måneder efter 
+sidste kemoterapi, som indeholdt platin, vil Oyavas blive givet sammen med carboplatin og 
+gemcitabin eller sammen med carboplatin og paclitaxel.
+Når lægemidlet anvendes til voksne patienter med fremskreden kræft i æggestokkene, kræft i 
+æggeledere eller primær bughindekræft, hvor sygdommen er kommet igen tidligere end 6 måneder 
+efter sidste kemoterapi, som indeholdt platin, vil Oyavas blive givet sammen med paclitaxel,
+topotecan eller pegyleret liposomal doxorubicin.
+Oyavas bruges også i behandlingen af voksne patienter med vedvarende livmoderhalskræft, med 
+livmoderhalskræft, som er kommet igen, eller med livmoderhalskræft, der har spredt sig (dannet 
+metastaser). Oyavas bliver givet sammen med paclitaxel og cisplatin eller med paclitaxel og topotecan 
+til patienter, som ikke kan få platin.</p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take oyavas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take oyavas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Oyavas
+
+hvis du er allergisk over for bevacizumab eller et af de øvrige indholdsstoffer i dette lægemiddel 
+(angivet i punkt 6).
+
+hvis du er allergisk over for celleprodukter fra kinesisk hamsterovarie (CHO) eller overfor andre 
+rekombinante humane eller humaniserede antistoffer.
+
+hvis du er gravid.
+Advarsler og forsigtighedsregler
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Oyavas:
+
+Det er muligt, at Oyavas kan øge risikoen for, at der dannes huller i tarmvæggen. Tal med din 
+læge, hvis du har tilstande, som forårsager betændelse i maveregionen (f.eks. diverticulitis, 
+mavesår, tyktarmsbetændelse forbundet med kemoterapi).
+
+Oyavas kan øge risikoen for, at der dannes abnorme forbindelser eller passager mellem to 
+organer eller blodårer. Risikoen for at udvikle en rørformet forbindelse (fistel) mellem skeden 
+og et eller andet sted på tarmen kan øges, hvis du har vedvarende livmoderhalskræft, hvis 
+livmoderhalskræften er kommet igen, eller hvis livmoderhalskræften har spredt sig.
+
+Oyavas kan øge risikoen for blødning eller problemer med sårhelingen efter operation. Hvis du 
+skal opereres, hvis du har fået foretaget en større operation indenfor de sidste 28 dage, eller hvis 
+du har et sår efter en operation, som ikke er helet, må du ikke få dette lægemiddel.
+
+Oyavas kan øge risikoen for udvikling af alvorlige infektioner i huden eller i de dybereliggende 
+lag under huden, især hvis du har haft hul i tarmen eller problemer med sårheling.
+
+Oyavas kan øge hyppigheden af forhøjet blodtryk. Hvis du har forhøjet blodtryk, som ikke er 
+velbehandlet med blodtrykssænkende medicin, skal du kontakte din læge, fordi det er vigtigt at 
+sikre, at dit blodtryk er under kontrol, før du starter i behandling med Oyavas. 
+
+Hvis du har eller har haft et aneurisme (udvidelse og svækkelse af en blodårevæg) eller en rift i 
+en blodårevæg.
+
+Oyavas kan øge risikoen for at få protein i urinen, især hvis du har forhøjet blodtryk.
+70
+
+Risikoen for at udvikle blodpropper i arterierne (en type blodkar) kan øges, hvis du er over 
+65 år, hvis du har sukkersyge, eller hvis du tidligere har haft blodpropper i arterierne. Tal med 
+din læge, eftersom blodpropper kan forårsage hjerteanfald og slagtilfælde.
+
+Oyavas kan også øge risikoen for at udvikle blodpropper i venerne (en type blodkar).
+
+Oyavas kan forårsage blødning, især tumor-relateret blødning. Kontakt din læge, hvis du eller 
+din familie har tendens til blødningsproblemer, eller hvis du tager blodfortyndende medicin.
+
+Det er muligt, at Oyavas kan forårsage blødning i og omkring hjernen. Tal med din læge, hvis 
+du har kræftspredning, som påvirker hjernen.
+
+Det er muligt, at Oyavas kan øge risikoen for blødning i lungerne, herunder blodig hoste eller 
+spyt. Tal med din læge, hvis du tidligere har bemærket dette.
+
+Oyavas kan øge risikoen for at udvikle et svagt hjerte. Det er vigtigt, at din læge ved, om du 
+tidligere har fået antracykliner (for eksempel doxorubicin, en speciel slags kemoterapi, som 
+bruges mod nogle kræfttyper), om du har fået strålebehandling af brystet, eller om du har en 
+hjertesygdom.
+
+Oyavas kan forårsage infektioner og nedsætte antallet af neutrofiler (en type blodceller, som er 
+vigtige for at beskytte dig mod bakterier).
+
+Det er muligt, at Oyavas kan forårsage overfølsomhed (herunder anafylaktisk shock) og/eller 
+infusionsrelaterede reaktioner (reaktioner i forbindelse med injektionen af lægemidlet). Fortæl 
+lægen, apotekspersonalet eller sygeplejersken, hvis du tidligere har oplevet problemer efter 
+injektioner, såsom svimmelhed/fornemmelse af at besvime, kortåndethed, hævelse eller 
+hududslæt.
+
+En sjælden neurologisk bivirkning kaldet posteriort reversibelt encefalopati-syndrom (PRES) 
+har været knyttet til Oyavasbehandling. Hvis du får hovedpine, synsforstyrrelser, bliver omtåget 
+eller får kramper med eller uden forhøjet blodtryk, skal du kontakte lægen.
+
+Der er rapporteret tilfælde af dødt knoglevæv (nekrose) i andre knogler end i kæben hos 
+patienter under 18 år, som blev behandlet med Oyavas. Smerter i munden, tænderne og/eller 
+kæben, hævelse eller sår inde i munden, følelsesløshed eller en følelse af tyngde i kæben eller 
+løsnen af en tand kan være tegn og symptomer på knogleskade i kæben (osteonekrose). Fortæl 
+straks din læge og tandlæge, hvis du oplever nogle af ovenstående symptomer.
+Kontakt din læge, også selvom du kun tidligere har oplevet de ovennævnte tilstande.
+Før du får Oyavas, eller imens du bliver behandlet med Oyavas:
+
+hvis du har eller har haft smerter i munden, tænderne og/eller kæben, hævelse eller sår inde i 
+munden, følelsesløshed eller en følelse af tyngde i kæben, eller får en løs tand, skal du straks 
+fortælle det til din læge og tandlæge.
+
+hvis du behøver invasiv tandbehandling (f.eks. tandudtrækning) eller en tandoperation, skal du 
+fortælle din tandlæge, at du er i behandling med Oyavas, især hvis du også bliver eller er blevet 
+behandlet med bisfosfonater, som injektion i blodet.
+Du kan blive rådet til at få foretaget et tandeftersyn, før du starter i behandling med Oyavas.
+Oyavas er blevet udviklet og fremstillet til behandling af kræft efter injektion i blodbanen. Det er ikke 
+blevet udviklet eller fremstillet til injektion i øjet. Det er derfor ikke godkendt til anvendelse på denne 
+måde. Hvis Oyavas injiceres direkte i øjet (ikke-godkendt brug), kan følgende bivirkninger forekomme:
+
+infektion eller vævsirritation (inflammation) i øjeæblet,
+
+røde øjne, små partikler eller pletter i synsfeltet (“flyvende fluer"), øjensmerter,
+
+lysglimt, som bevæger sig som “flyvende fluer", og som udvikler sig til tab af noget af synet,
+71
+
+forhøjet tryk i øjet,
+
+Blødning i øjet.
+Børn og unge
+Det frarådes at anvende Oyavas til børn og unge under 18 år, da sikkerheden og fordelene ikke er 
+fastlagt hos disse patientgrupper.
+Brug af anden medicin sammen med Oyavas
+Fortæl altid lægen eller apotekspersonalet, hvis du bruger anden medicin, for nylig har brugt anden 
+medicin eller planlægger at bruge anden medicin. 
+Kombination af Oyavas med et andet lægemiddel, sunitinibmaleat (ordineret for kræft i nyrerne eller 
+mave-tarm-kanalen), kan forårsage alvorlige bivirkninger. Tal med din læge for at sikre, at du ikke 
+kombinerer disse 2 lægemidler.
+Fortæl din læge, hvis du får en platin- eller taxan-baseret behandling til lungekræft eller til brystkræft, 
+som har spredt sig. Kombination af Oyavas og disse behandlinger kan øge risikoen for alvorlige 
+bivirkninger.
+Fortæl det til din læge, hvis du får eller for nylig har fået strålebehandling.
+Graviditet, amning og frugtbarhed
+Du må ikke anvende denne medicin, hvis du er gravid. Oyavas kan skade det ufødte barn, da det kan 
+standse dannelsen af nye blodkar. Din læge bør vejlede dig om anvendelsen af prævention under 
+behandlingen med Oyavas og i mindst 6 måneder efter sidste Oyavasdosis.
+Hvis du er gravid, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du spørge 
+din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
+Du må ikke amme under behandling med Oyavas og i mindst 6 måneder efter sidste Oyavasdosis, da 
+Oyavas kan påvirke væksten og udviklingen af dit barn.
+Oyavas kan nedsætte kvinders frugtbarhed. Kontakt din læge for at få yderligere information. 
+Kvinder, som ikke er kommet i overgangsalderen (kvinder, som har en menstruationscyklus), kan 
+opleve, at deres menstruation bliver uregelmæssig eller udebliver, og at deres frugtbarhed bliver 
+nedsat. Hvis du overvejer at få børn, skal du rådføre dig med din læge, før behandlingen påbegyndes.
+Trafik- og arbejdssikkerhed
+Det er ikke påvist, at Oyavas nedsætter din evne til at køre bil eller betjene maskiner. Alligevel er der 
+rapporteret søvnighed og besvimelse ved anvendelse af Oyavas. Hvis du oplever symptomer, som 
+påvirker dit syn eller din koncentrationsevne eller din reaktionsevne, skal du lade være med at køre bil 
+og betjene maskiner, før symptomerne er forsvundet.
+Oyavas indeholder natrium
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
+væsentlige natriumfrit.</p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take oyavas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take oyavas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dosering og indgivelseshyppighed
+Dosis af Oyavas afhænger af din legemsvægt og af den type kræft, der skal behandles. Den anbefalede 
+dosis er 5 mg, 7,5 mg, 10 mg eller 15 mg pr. kilo legemsvægt. Din læge vil ordinere den Oyavasdosis, 
+som passer til dig. Du vil blive behandlet med Oyavas én gang hver 2. eller 3. uge. Antallet af 
+infusioner, som du skal have, afhænger af, hvordan du reagerer på behandlingen. Du skal fortsætte 
+72
+med dette lægemiddel, indtil Oyavas ikke længere hindrer din tumor i at vokse. Din læge vil diskutere 
+det med dig. 
+Indgivelsesmetode og indgivelsesvej
+Hæteglasset må ikke rystes. Oyavas er et koncentrat til infusionsvæske, opløsning. Afhængigt af 
+dendosis, som er foreskrevet til dig, vil en del af indholdet i Oyavashætteglasset eller hele indholdet 
+blive fortyndet med natriumchloridopløsning (saltvandsopløsning) før anvendelsen. Du vil få den 
+fortyndede Oyavasopløsning af en læge eller sygeplejerske ved intravenøs infusion (et drop i din 
+vene). Den første infusion vil vare 90 minutter. Hvis den tåles godt, vil den næste infusion vare 
+60 minutter. Efterfølgende infusioner vil måske kun vare 30 minutter.
+Behandlingen med Oyavas skal midlertidigt afbrydes
+
+hvis du får svært forhøjet blodtryk, der kræver behandling med blodtryksmedicin,
+
+hvis du har problemer med sårheling efter en operation,
+
+hvis du skal opereres.
+Behandlingen med Oyavas skal stoppes permanent, hvis du får
+
+svært forhøjet blodtryk, som ikke kan kontrolleres med blodtrykssænkende medicin, eller hvis 
+blodtrykket pludseligt stiger alvorligt,
+
+protein i urinen, efterfulgt af hævelser på kroppen,
+
+hul i tarmvæggen,
+
+en abnorm, rørformet forbindelse eller passage mellem luftrøret og spiserøret, mellem indre 
+organer og huden, mellem skeden og et eller andet sted på tarmen eller mellem andre væv, som 
+ikke normalt er forbundet (fistel), og som lægen vurderer er alvorlig,
+
+alvorlige infektioner i huden eller i de dybereliggende lag under huden,
+
+en blodprop i arterierne,
+
+en blodprop i lungernes blodkar,
+
+svær blødning.
+Hvis du får for meget Oyavas
+
+Du kan få svær migræne. Hvis det sker, skal du straks tale med din læge, apotekspersonalet eller 
+sygeplejersken herom.
+Hvis en Oyavasdosis glemmes
+
+Din læge beslutter, hvornår du skal have den næste Oyavasdosis. Du bør tale med din læge 
+herom.
+Hvis du holder op med at få Oyavas
+Hvis behandlingen med Oyavas stoppes, kan virkningen på tumorvæksten ophøre. Stop ikke 
+behandlingen med Oyavas før, du har diskuteret det med din læge.
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
+De bivirkninger, der er vist nedenfor, blev observeret, når Oyavas blev givet sammen med 
+kemoterapi. Det betyder ikke, at disse bivirkninger nødvendigvis kun skyldes Oyavas.
+Allergiske reaktioner
+Hvis du får en allergisk reaktion, skal du med det samme fortælle det til din læge eller sygeplejersken. 
+Symptomerne kan inkludere vejrtrækningsbesvær eller brystsmerter. Du kan også opleve hudrødme 
+eller blussende hud, udslæt, kuldegysninger og rysten eller kvalme og opkastning, hævelse, ørhed, 
+hurtig hjerterytme og bevidstløshed.
+73
+Du skal omgående søge hjælp, hvis du får en af de nedenfor anførte bivirkninger.
+Alvorlige bivirkninger, som kan være meget almindelige (påvirker flere end 1 patient ud af 10), 
+omfatter:
+
+forhøjet blodtryk,
+
+følelsesløshed eller prikkende fornemmelse i hænder og fødder,
+
+nedsat antal af celler i blodet, inklusive hvide blodlegemer som hjælper med at bekæmpe 
+infektioner i kroppen (kan være ledsaget af feber) og celler, der hjælper blodet med at størkne,
+
+svaghedsfølelse og mangel på energi,
+
+træthed,
+
+diarré, kvalme, opkastning og mavesmerter.
+Alvorlige bivirkninger, som kan være almindelige (påvirker 1 patient ud af 10), omfatter:
+
+allergiske reaktioner (symptomer kan være vejrtrækningsproblemer, ansigtsrødme, udslæt, lavt 
+blodtryk eller højt blodtryk, lav iltmængde i blodet, brystsmerter eller kvalme/opkastning).
+
+huller i tarmen,
+
+blødning, herunder blødning i lungerne hos patienter med ikke-småcellet lungekræft,
+
+blokering af arterier på grund af en blodprop,
+
+blokering af vener på grund af en blodprop,
+
+blokering af blodårerne i lungerne på grund af en blodprop,
+
+blokering af vener i benene på grund af en blodprop,
+
+hjertesvigt
+
+problemer med sårheling efter operation,
+
+rødme, afskalning, ømhed, smerter eller blisterdannelse på fingre eller fødder,
+
+nedsat antal røde blodlegemer i blodet,
+
+mangel på energi,
+
+mave- og tarmproblemer,
+
+muskel- og ledsmerter, muskelsvaghed,
+
+mundtørhed kombineret med tørst og/eller nedsat urinmængde eller mørkfarvet urin,
+
+inflammation (betændelseslignende reaktion) i slimhinder i mund og tarme, lunger og luftveje, 
+kønsdele og urinveje,
+
+sår i munden og spiserøret, som kan være smertefulde og forårsage synkeproblemer,
+
+smerter, inklusive hovedpine, rygsmerter, bækkensmerter og smerter omkring endetarmen,
+
+lokaliseret ansamling af pus,
+
+infektion, specielt infektion i blodet eller blæren,
+
+nedsat blodtilførsel til hjernen eller slagtilfælde,
+
+søvnighed,
+
+næseblod,
+
+forøgelse af hjerterytmen (pulsen),
+
+tarmblokade,
+
+unormal urintest (protein i blodet),
+
+kortåndethed eller lavt indhold af ilt i blodet,
+
+infektion i huden eller i de dybereliggende lag under huden,
+
+fistel: abnorm, rørformet forbindelse mellem indre organer og hud eller andre væv, som normalt 
+ikke er forbundet, inklusive forbindelse mellem skeden og tarmen hos patienter med 
+livmoderhalskræft.
+Alvorlige bivirkninger, som kan være sjældne (kan påvirke op til 1 ud af 1 000), omfatter:
+
+pludselige alvorlige allergiske reaktioner med vejrtrækningsproblemer, hævelse, ørhed, hurtig 
+hjerterytme, svedudbrud og bevidstløshed (anafylaktisk shock).
+74
+Alvorlige bivirkninger med ukendt hyppighed (hyppigheden kan ikke vurderes ud fra tilgængelige 
+data) omfatter:
+
+alvorlige infektioner i huden eller underliggende lag, især hvis du har haft huller i tarmvæggen 
+eller problemer med sårheling
+
+negativ påvirkning af kvinders evne til at få børn (for yderligere anbefalinger se nedenfor efter 
+bivirkningslisten)
+
+tilstand i hjernen (posteriort reversibelt encefalopati syndrom) med symptomer såsom kramper, 
+hovedpine, forvirring og synsforstyrrelser,
+
+symptomer, som tyder på ændringer i den normale hjernefunktion (hovedpine, synsforstyrrelser, 
+forvirring eller kramper) og højt blodtryk,
+
+en udvidelse og svækkelse af en blodårevæg eller en rift i en blodårevæg (aneurismer og 
+arterielle dissektioner),
+
+tilstopning af meget små blodårer i nyrerne,
+
+abnormt højt blodtryk i lungernes blodårer, som forårsager, at højre side af hjertet arbejder 
+hårdere end normalt,
+
+hul i skillevæggen mellem de to næsebor,
+
+hul i maven eller tarmen,
+
+åbent sår eller hul i slimhinderne i maven eller tyndtarmen (symptomer kan være mavesmerter, 
+oppustethed, sort tjæreagtig afføring eller blod i afføringen eller blod i opkast),
+
+blødning fra den nedre del af tyktarmen,
+
+skader i tandkødet med en blotlagt kæbeknogle, der ikke heler; kan være forbundet med smerter 
+og inflammation (betændelseslignende tilstand) i det omgivende væv (for yderligere 
+anbefalinger se nedenfor efter bivirkningslisten),
+
+hul i galdeblæren (symptomer kan være mavesmerter, feber og kvalme/opkastning),
+Du skal søge hjælp så hurtigt som muligt, hvis du får en af nedenfor nævnte bivirkninger.
+Meget almindelige bivirkninger (påvirker flere end 1 patient ud af 10), som ikke var alvorlige, 
+omfatter:
+
+forstoppelse,
+
+tab af appetit,
+
+feber,
+
+problemer med øjnene (inklusive øget tåreproduktion),
+
+taleforstyrrelser,
+
+smagsforstyrrelser,
+
+løbende næse,
+
+tør hud, afskalning og inflammation (betændelseslignende tilstand) i huden, misfarvning af 
+huden,
+
+vægttab,
+
+næseblod.
+Almindelige bivirkninger (påvirker 1 patient ud af 10), som ikke er alvorlige, omfatter:
+
+ændringer i stemmen og hæshed.
+Patienter over 65 år har øget risiko for at få følgende bivirkninger:
+
+blodprop i arterierne, som kan resultere i slagtilfælde eller hjertetilfælde,
+
+reduktion i antallet af hvide blodceller i blodet og i antallet af celler, der hjælper blodet med at 
+størkne,
+
+diarré,
+
+kvalme,
+
+hovedpine,
+
+træthed,
+
+forhøjet blodtryk.
+75
+Oyavas kan også forårsage ændringer i de laboratorieundersøgelser, som din læge foretager. Disse 
+inkluderer: Nedsat antal hvide blodceller, specielt neutrofile (en type hvide blodceller, som hjælper 
+mod infektioner), protein i urinen, nedsat kalium, nedsat natrium eller nedsat fosfor (mineral) i blodet, 
+øget sukker i blodet, øget basisk fosfatase (et enzym) i blodet, forhøjet serum-kreatinin (et protein, 
+som måles ved en blodprøve og bruges til at vurdere din nyrefunktion), nedsat hæmoglobin (findes i 
+røde blodceller, og som transporterer ilt), som kan være alvorlig.
+Indberetning af bivirkninger
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store oyavas"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store oyavas"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
+Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på hætteglasset efter 
+forkortelsen “EXP". Udløbsdatoen er den sidste dag i den nævnte måned.
+Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
+Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
+Infusionsopløsningen skal anvendes umiddelbart efter fortyndingen. Hvis den ikke anvendes straks, er 
+opbevaringstider og -betingelser efter fortynding brugerens ansvar og bør normalt ikke overstige 
+24 timer ved 2 ºC - 8 ºC, medmindre infusionsopløsningen er fremstillet under sterile forhold. Når 
+fortyndingen har fundet sted under sterile forhold, er Oyavas stabil i 30 dage ved 2 ºC - 8 ºC efter 
+fortynding og i op til 48 timer ved temperaturer, der ikke overstiger 30 ºC.
+Brug ikke Oyavas, hvis du opdager partikler eller misfarvning før indgift.
+Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
+smide medicinrester i afløbet eller skraldespanden.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oyavas indeholder:
+
+Aktivt stof; bevacizumab. Hver ml koncentrat indeholder 25 mg bevacizumab svarende til 1,4 til 
+16,5 mg/ml efter foreskreven fortynding.
+
+Hvert 4 ml hætteglas indeholder 100 mg bevacizumab svarende til 1,4 mg/ml efter foreskreven 
+fortynding.
+
+Hvert 16 ml hætteglas indeholder 400 mg bevacizumab svarende til 16,5 mg/ml efter foreskreven 
+fortynding.
+
+Øvrige indholdsstoffer: Trehalosedihydrat, monobasisk natriumphosphat monohydrat, 
+dinatriumphosphat, polysorbat 20 og vand til injektionsvæsker (se punkt 2 "Oyavas indeholder 
+natrium").
+Udseende og pakningsstørrelser
+Oyavas er et koncentrat til infusionsvæske, opløsning (sterilt koncentrat). Koncentratet er en farveløs 
+til lysegul til lysebrun væske i et hætteglas af glas med gummiprop. Hvert hætteglas indeholder 
+100 mg bevacizumab i 4 ml opløsning eller 400 mg bevacizumab i 16 ml opløsning. Hver pakning 
+med Oyavas indeholder et hætteglas.
+76
+Indehaver af markedsføringstilladelsen 
+STADA Arzneimittel AG
+Stadastrasse 2-18
+61118 Bad Vilbel
+Tyskland
+Fremstiller
+GH GENHELIX S.A.
+Parque Tecnológico de León
+Edifício GENHELIX
+C/Julia Morros, s/n
+Armunia, 24009 León
+Spanien
+STADA Arzneimittel AG
+Stadastrasse 2-18
+61118 Bad Vilbel
+Tyskland
+Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen:
+België/Belgique/Belgien
+EG (Eurogenerics) NV
+Tél/Tel: +32 4797878
+Lietuva
+UAB „STADA Baltics“
+Tel: +370 52603926
+България
+STADA Bulgaria EOOD
+Teл.: +359 29624626
+Luxembourg/Luxemburg
+EG (Eurogenerics) NV
+Tél/Tel: +32 4797878
+Česká republika
+STADA PHARMA CZ s.r.o.
+Tel: +420 257888111
+Magyarország
+STADA Hungary Kft
+Tel.: +36 18009747
+Danmark
+STADA Nordic ApS
+Tlf.: +45 44859999
+Malta
+Pharma.MT Ltd.
+Tel: + 356 21337008
+Deutschland
+STADAPHARM GmbH 
+Tel: +49 61016030
+Nederland
+Centrafarm B.V.
+Tel.: +31 765081000
+Eesti
+UAB „STADA Baltics“
+Tel: +370 52603926
+Norge
+STADA Nordic ApS
+Tlf: +45 44859999
+Ελλάδα
+DEMO S.A. Pharmaceutical Industry
+Τηλ: +30 2108161802
+Österreich
+STADA Arzneimittel GmbH
+Tel: +43 136785España
+Laboratorio STADA, S.L.
+Tel: +34 934738889
+Polska
+STADA Poland Sp. z.o o.
+Tel: +48 227377920
+77
+France
+EG Labo - Laboratoires EuroGenerics
+Tél: +33 146948686
+Portugal
+Stada, Lda.
+Tel: +351 211209870
+Hrvatska
+STADA d.o.o.
+Tel: +385 13764111
+România
+STADA M&amp;D SRL
+Tel: +40 213160640
+Ireland
+Clonmel Healthcare Ltd.
+Tel: +353 526177777
+Slovenija
+Stada d.o.o.
+Tel: +386 15896710
+Ísland
+STADA Arzneimittel AG
+Sími: +49 61016030
+Slovenská republika
+STADA PHARMA Slovakia, s.r.o.
+Tel: +421 252621933
+Italia
+EG SpA
+Tel: +39 028310371
+Suomi/Finland
+STADA Nordic ApS, Suomen sivuliike
+Puh/Tel: +358 207416888
+Κύπρος
+STADA Arzneimittel AG
+Τηλ: +49 61016030
+Sverige
+STADA Nordic ApS
+Tel: +45 44859999
+Latvija
+UAB „STADA Baltics“
+Tel: +370 52603926
+Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}&gt;.
+Andre informationskilder
+Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside https://www.ema.europa.eu.</p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-d022f4fb840a33cb86a67bb1564d1bed
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oyavas Package Leaflet for language en"
+Description: "ePI document Bundle for oyavas Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d022f4fb840a33cb86a67bb1564d1bed"
+* entry[0].resource = composition-en-d022f4fb840a33cb86a67bb1564d1bed
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd022f4fb840a33cb86a67bb1564d1bed"
+* entry[=].resource = mpd022f4fb840a33cb86a67bb1564d1bed
+                            
+                    
+Instance: bundlepackageleaflet-da-d022f4fb840a33cb86a67bb1564d1bed
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oyavas Package Leaflet for language da"
+Description: "ePI document Bundle for oyavas Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-d022f4fb840a33cb86a67bb1564d1bed"
+* entry[0].resource = composition-da-d022f4fb840a33cb86a67bb1564d1bed
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd022f4fb840a33cb86a67bb1564d1bed"
+* entry[=].resource = mpd022f4fb840a33cb86a67bb1564d1bed
+                            
+                    
+
+
+
+Instance: mpd022f4fb840a33cb86a67bb1564d1bed
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Oyavas 25 mg/mL concentrate for solution for infusion."
-Description: "Oyavas 25 mg/mL concentrate for solution for infusion."
+Title: "Medicinal Product oyavas"
+Description: "oyavas"
 Usage: #inline
 
  
@@ -531,7 +1242,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Oyavas 25 mg/mL concentrate for solution for infusion."
+  * productName = "oyavas"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -558,29 +1269,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-d022f4fb840a33cb86a67bb1564d1bed
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for oyavas Package Leaflet for language en"
-Description: "ePI document Bundle for oyavas Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: d022f4fb840a33cb86a67bb1564d1bedListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/20/1510/001 – 100 mg/4 mL"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "oyavas"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-d022f4fb840a33cb86a67bb1564d1bed"
-* entry[0].resource = composition-en-d022f4fb840a33cb86a67bb1564d1bed
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpee63e1d0f16758e0a295929411a54019"
-* entry[=].resource = mpee63e1d0f16758e0a295929411a54019
-                            
-                      
+* title = "List of all ePIs associated with oyavas"
+
+* subject = Reference(mpee63e1d0f16758e0a295929411a54019)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#oyavas "oyavas"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-d022f4fb840a33cb86a67bb1564d1bed) // oyavas en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-d022f4fb840a33cb86a67bb1564d1bed) // oyavas da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-d022f4fb840a33cb86a67bb1564d1bed
+InstanceOf: List
+
+* insert d022f4fb840a33cb86a67bb1564d1bedListRuleset
+    

@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-03f601e925d2ca197b11b72dd4a3dc32
 InstanceOf: CompositionUvEpi
 Title: "Composition for trulicity Package Leaflet"
@@ -366,12 +369,1349 @@ Tel: + 353-(0) 1 661 4This leaflet was last revised in Month YYYY  </p>
 
 
 
+Instance: composition-da-03f601e925d2ca197b11b72dd4a3dc32
+InstanceOf: CompositionUvEpi
+Title: "Composition for trulicity Package Leaflet"
+Description:  "Composition for trulicity Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mp0648fd9a9ac578628f8217d9e2039796)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mp0648fd9a9ac578628f8217d9e2039796
+* title = "TEST PURPOSES ONLY - trulicity"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
+1. Virkning og anvendelse 
+2. Det skal du vide, før du begynder at bruge Trulicity 
+3. Sådan skal du bruge Trulicity 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What trulicity is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What trulicity is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trulicity indeholder et aktivt stof, der hedder dulaglutid. Det anvendes til at sænke blodsukker 
+(glukose) hos voksne og børn på 10 år og derover med type 2-diabetes mellitus (sukkersyge) og kan 
+hjælpe med at forhindre hjertesygdomme.   </p>
+<p>Type 2-diabetes er en tilstand, hvor kroppen ikke danner nok insulin, og det insulin, som<br />
+kroppen danner, virker ikke så godt, som det burde. I så tilfælde sker der en ophobning af glukose i 
+blodet. </p>
+<p>Trulicity anvendes:</p>
+<ul>
+<li>Alene hvis dit blodsukker ikke kan kontrolleres tilstrækkeligt med diæt og motion, og du ikke 
+kan tage metformin (et andet lægemiddel mod diabetes). </li>
+<li>Eller sammen med andre lægemidler mod diabetes, hvis du ikke kan opnå kontrol over dit 
+blodsukker med disse lægemidler alene. Disse andre lægemidler kan være medicin, du tager 
+gennem munden, og/eller insulin, som du får via injektion (indsprøjtning). 
+Det er vigtigt, at du fortsætter med at følge de kost- og motionsråd, som lægen, sygeplejersken eller 
+apotekspersonalet har givet dig. </li>
+</ul>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take trulicity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take trulicity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Trulicity 
+- hvis du er allergisk over for dulaglutid eller et af de øvrige indholdsstoffer i Trulicity (angivet i 
+afsnit 6).  </p>
+<p>Advarsler og forsigtighedsregler 
+Kontakt lægen, apotekspersonalet eller sygeplejersken, før du bruger Trulicity, hvis:</p>
+<ul>
+<li>du er i dialyse, da dette lægemiddel så ikke kan anbefales. </li>
+<li>du har type 1-diabetes (den type hvor kroppen ikke danner noget insulin), da dette lægemiddel i 
+så fald kan være uegnet til dig. </li>
+<li>du har diabetisk ketoacidose (en komplikation ved diabetes, som opstår, hvis kroppen ikke er i 
+stand til at nedbryde glukose, fordi der ikke er nok insulin). Tegnene herpå omfatter hurtigt 
+vægttab, kvalme eller opkastning, sødt åndedræt, sød eller metallisk smag i munden eller ændret 
+urin- eller svedlugt. </li>
+<li>du har alvorlige problemer med fordøjelsen eller med føde, der bliver i maven længere end 
+normalt (herunder lammelse af mavesækken (gastroparese)). </li>
+<li>du har eller har haft pancreatitis (betændelse i bugspytkirtlen), hvilket kan forårsage alvorlige 
+smerter i mave og ryg, som ikke går væk. </li>
+<li>du tager sulfonylurinstof eller insulin mod diabetes, da lavt blodsukker (hypoglykæmi) kan 
+forekomme. Det kan være nødvendigt for din læge at nedsætte dosis af disse andre lægemidler 
+for at sænke risikoen. 
+Trulicity er ikke et insulinpræparat og bør derfor ikke anvendes som erstatning for insulin. </li>
+</ul>
+<p>Når du begynder din behandling med Trulicity, kan du i nogle tilfælde, f.eks. ved opkastning, kvalme 
+og/eller diarré, få væskemangel/dehydring, som kan føre til nedsat nyrefunktion. Det er vigtigt at 
+undgå dehydrering ved at drikke rigeligt med væske. Tal med din læge hvis du har spørgsmål eller er i 
+tvivl.   </p>
+<p>Børn og unge 
+Trulicity kan bruges til børn og unge på 10 år og derover. Data er ikke tilgængelige for børn under år. </p>
+<p>Brug af anden medicin sammen med Trulicity 
+Trulicity kan forsinke tømning af maven, hvilket kan påvirke andre lægemidler. Fortæl det altid til 
+lægen, apotekspersonalet eller sygeplejersken, hvis du bruger andre lægemidler, for nylig har brugt 
+andre lægemidler eller planlægger at bruge andre lægemidler. </p>
+<p>Graviditet<br />
+Det vides ikke, om dulaglutid kan skade fosteret. Kvinder, der kan blive gravide, skal anvende 
+prævention under behandlingen med dulaglutid. Fortæl det til lægen, hvis du er gravid, har mistanke 
+om, at du er gravid, eller planlægger at blive gravid, da Trulicity ikke bør anvendes under graviditeten. 
+Tal med lægen om, hvordan du bedst kan kontrollere dine blodsukkerniveauer, mens du er gravid. </p>
+<p>Amning 
+Tal med lægen, inden du tager dette lægemiddel, hvis du ammer eller gerne vil amme. Brug ikke 
+Trulicity, hvis du ammer. Det vides ikke, om dulaglutid går over i modermælken, </p>
+<p>Trafik- og arbejdssikkerhed 
+Trulicity har ingen kendt virkning på evnen til at føre motorkøretøj og betjene maskiner, men hvis du 
+bruger Trulicity i kombination med et sulfonylurinstof eller insulin, kan du få lavt blodsukker 
+(hypoglykæmi), hvilket kan nedsætte din koncentrationsevne. Undgå at køre bil eller betjene maskiner, 
+hvis du oplever tegn på lavt blodsukker. Se afsnit 2 ‘Advarsler og forsigtighedsregler‘ for at få 
+oplysninger om øget risiko for lavt blodsukker. Se afsnit 4 for at få oplysninger om 
+advarselssignalerne for lavt blodsukker. Tal med dine læge for yderligere information. </p>
+<p>Trulicity indeholder natrium 
+Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosisenhed, dvs. det er i det 
+væsentlige natriumfrit. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take trulicity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take trulicity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
+lægen eller apotekspersonalet. </p>
+<p>Voksne 
+Din læge kan anbefale en dosis på 0,75 mg en gang om ugen til behandling af din diabetes, når 
+Trulicity bruges alene. </p>
+<p>Når det bruges sammen med anden diabetesmedicin, kan din læge anbefale en dosis på 1,5 mg en gang 
+om ugen.  </p>
+<p>Hvis dit blodsukker ikke kontrolleres godt nok, kan din læge øge din dosis til 3 mg en gang om ugen. </p>
+<p>Hvis der er behov for yderligere blodsukkerkontrol, kan dosis igen øges til 4,5 mg en gang om ugen. </p>
+<p>Børn og unge 
+Startdosis for børn og unge på 10 år og derover er 0,75 mg én gang om ugen. Hvis dit blodsukker ikke 
+er kontrolleret godt nok efter mindst 4 uger, kan din læge øge din dosis til 1,5 mg en gang om ugen. </p>
+<p>Hver pen indeholder én ugentlig dosis af Trulicity (0,75 mg, 1,5 mg, 3 mg eller 4,5 mg). Hver pen 
+leverer kun én dosis.  </p>
+<p>Du kan tage din pen på et hvilket som helst tidspunkt af dagen uafhængigt af måltider. Du skal så vidt 
+muligt bruge det på samme ugedag hver uge. Det kan være lettere at huske, hvis du sætter kryds ud for 
+den relevante ugedag på pakningen første gang, du indsprøjter din pen, eller i en kalender. </p>
+<p>Trulicity sprøjtes ind under huden (subkutan injektion) i maveregionen (abdomen) eller i låret. Hvis 
+det er en anden, der giver dig injektionen, kan vedkommende eventuelt give dig injektionen i 
+overarmen. </p>
+<p>Hvis du vil, kan du bruge samme kropsdel hver uge. Men husk, at du altid skal vælge et nyt 
+injektionssted på den pågældende kropsdel. </p>
+<p>Hvis du tager Trulicity sammen med et sulfonylurinstof eller insulin, er det vigtigt, at du kontrollerer 
+dit blodsukker som anvist af din læge, sygeplejerske eller apotekspersonalet. </p>
+<p>Læs "Brugsvejledningen" til pennen omhyggeligt, inden du bruger Trulicity.  </p>
+<p>Hvis du har brugt for meget Trulicity 
+Kontakt omgående lægen, hvis du har brugt mere Trulicity, end du skulle. For meget af dette 
+lægemiddel kan give for lavt blodsukker (hypoglykæmi) og kvalme og opkastning. </p>
+<p>Hvis du har glemt at bruge Trulicity 
+Hvis du glemmer at tage en dosis, og der er mindst 3 dage til den næste dosis, skal du indsprøjte den 
+glemte dosis så hurtigt som muligt. Indsprøjt den næste dosis på den sædvanlige dag.   </p>
+<p>Hvis der er under 3 dage til din næste dosis, skal du springe den glemte dosis over og indsprøjte den 
+næste dosis på den sædvanlige dag. </p>
+<p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
+<p>Om nødvendigt kan du også ændre den ugedag, hvor du indsprøjter Trulicity, så længe at det er mindst 
+3 dage siden, at du tog den sidste dosis Trulicity. </p>
+<p>Hvis du holder op med at bruge Trulicity 
+Du må ikke stoppe med at bruge Trulicity uden at tale med lægen. Hvis du stopper med at bruge 
+Trulicity, kan dit blodsukker stige. </p>
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Alvorlige bivirkninger<br />
+Sjældne: kan forekomme hos op til 1 ud af 1000 personer 
+- Svære allergiske reaktioner (anafylaktiske reaktioner, angioødem). 
+Kontakt straks lægen, hvis du får symptomer som udslæt, kløe og hurtig hævelse af huden i 
+nakken, ansigtet, munden eller halsen, nældefeber og vejrtrækningsbesvær. </p>
+<ul>
+<li>Betændelse i bugspytkirtlen (akut pancreatitis), som kan resultere i alvorlige smerter i maven og 
+ryggen der ikke forsvinder.<br />
+Kontakt straks lægen, hvis du får disse symptomer. </li>
+</ul>
+<p>Ikke kendt: hyppigheden kan ikke estimeres udfra tilgængelig data<br />
+- Tarmobstruktion – en svær form for forstoppelse med yderligere symptomer som f.eks. 
+mavesmerter, oppustethed eller opkastning. 
+Kontakt straks lægen, hvis du får disse symptomer. </p>
+<p>Andre bivirkninger 
+Meget almindelige: kan forekomme hos flere end 1 ud af 10 personer 
+- Kvalme – dette er normalt kun kortvarigt 
+- Opkastning – dette er normalt kun kortvarigt 
+- Diarré – dette er normalt kun kortvarigt 
+- Mavesmerter 
+Disse bivirkninger er som regel ikke alvorlige. De er mest almindelige i starten af behandlingen med 
+dulaglutid men aftager over tid hos de fleste.   </p>
+<ul>
+<li>Lavt blodsukker (hypoglykæmi) er en meget almindelig bivirkning, når dulaglutid bruges 
+sammen med lægemidler, der indeholder metformin, et sulfonylurinstof og/eller insulin. Hvis du 
+tager et sulfonylurinstof eller insulin, skal dosen eventuelt nedsættes, mens du bruger dulaglutid. </li>
+<li>Symptomer på lavt blodsukker kan være hovedpine, døsighed, svaghed, svimmelhed, sult, 
+forvirring, irritabilitet, hurtig hjerteslag og svedtendens. Din læge vil fortælle dig, hvordan lavt<br />
+blodsukker behandles. 
+Almindelig: kan forekomme hos op til 1 ud af 10 personer </li>
+<li>Lavt blodsukker (hypoglykæmi) er en almindelig bivirkning når dulaglutid bruges alene eller 
+sammen med både metformin og pioglitazon, eller med en natrium-glucose co-transportør 2 
+hæmmer (SGLT2i) med eller uden metformin. For en liste over mulige symptomer, se ovenfor 
+under meget almindelige bivirkninger. </li>
+<li>Mindre sultfornemmelse (nedsat appetit) </li>
+<li>Fordøjelsesbesvær </li>
+<li>Forstoppelse </li>
+<li>Tarmluft (flatulens) </li>
+<li>Oppustet mave </li>
+<li>Reflux eller halsbrænd (også kaldet gastroøsofageal reflukssygdom – GERD) - en tilstand, hvor 
+mavesyre løber op fra maven igennem spiserøret og videre til munden. </li>
+<li>Bøvsen </li>
+<li>Træthed </li>
+<li>Hurtigere puls  </li>
+<li>Sænkning af de elektriske overledninger i hjertet </li>
+</ul>
+<p>Ikke almindelige: kan forekomme hos op til 1 ud af 100 personer 
+- Reaktioner på injektionsstedet (f.eks. udslæt eller rødme)<br />
+- Allergisk reaktion (overfølsomhedsreaktion) (f.eks. hævelser eller hævet, kløende hududslæt 
+(nældefeber))<br />
+- Dehydrering, ofte i forbindelse med kvalme, opkastning og/eller diarré 
+- Galdesten 
+- Betændelse i galdeblæren </p>
+<p>Sjældne: kan forekomme hos op til 1 ud af 1.000 personer 
+- Forsinket tømning af mavesækken </p>
+<p>Indberetning af bivirkninger 
+Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Dette 
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
+kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
+anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
+information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trulicity"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trulicity"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
+<p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten på pennen og på æsken efter<br />
+EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
+<p>Opbevares i køleskab (2ºC – 8ºC). Må ikke nedfryses. </p>
+<p>Opbevares i den originale pakning for at beskytte mod lys. </p>
+<p>Trulicity kan tages ud af køleskabet og opbevares ved en temperatur, der ikke overstiger 30°C, i højst 
+14 dage.  </p>
+<p>Brug ikke lægemidlet, hvis du bemærker, at pennen er beskadiget, eller at medicinen er uklar, 
+misfarvet eller indeholder partikler. </p>
+<p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trulicity indeholder: 
+Aktivt stof:  dulaglutid. 
+- Trulicity 0,75 mg: Hver fyldt pen indeholder 0,75 mg dulaglutid i 0,5 ml opløsning. 
+- Trulicity 1,5 mg: Hver fyldt pen indeholder 1,5 mg dulaglutid i 0,5 ml opløsning 
+- Trulicity 3 mg: Hver fyldt pen indeholder 3 mg dulaglutid i 0,5 ml opløsning. 
+- Trulicity 4,5 mg: Hver fyldt pen indeholder 4,5 mg dulaglutid i 0,5 ml opløsning. </p>
+<p>Øvrige indholdsstoffer: natriumcitrat (se afsnit 2 under ‘Trulicity indeholder natrium’ for mere 
+information), citronsyre, mannitol, polysorbat 80 og vand til injektionsvæsker. </p>
+<p>Udseende og pakningsstørrelser 
+Trulicity er en klar, farveløs injektionsvæske, opløsning i en fyldt pen. 
+Hver fyldt pen indeholder 0,5 ml opløsning. 
+Den fyldte pen kan kun bruges én gang. 
+Pakningsstørrelser: 2, 4 eller multipakning med 12 (3 pakninger med 4) fyldte penne til engangsbrug. 
+Ikke alle pakningsstørrelser er nødvendigvis markedsført. </p>
+<p>Indehaver af markedsføringstilladelsen <br />
+Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ Utrecht, Holland </p>
+<p>Fremstiller<br />
+Eli Lilly Italia S.p.A.,Via Gramsci 731/733, 50019, Sesto Fiorentino, Firenze (FI), Italien </p>
+<p>Lilly France, 2, rue du Colonel Lilly, 67640 Fegersheim, Frankrig </p>
+<p>Hvis du ønsker yderligere oplysninger om dette lægemiddel, skal du henvende dig til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>Belgique/België/Belgien 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84<br />
+Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649 
+България 
+ТП "Ели Лили Недерланд" Б.В. - България 
+тел. + 359 2 491 41<br />
+Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+Tél/Tel: + 32-(0)2 548 84 Česká republika 
+ELI LILLY ČR, s.r.o. 
+Tel: + 420 234 664<br />
+Magyarország 
+Lilly Hungária Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60<br />
+Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2 
+Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V.<br />
+Tel: +372 6 817<br />
+Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18 Ελλάδα 
+ΦΑΡΜΑΣΕΡΒ-ΛΙΛΛΥ Α.Ε.Β.Ε.<br />
+Τηλ: +30 210 629 4 
+Österreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 España 
+Lilly S.A. 
+Tel: + 34-91 663 50<br />
+Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France 
+Tél: +33-(0) 1 55 49 34<br />
+Portugal 
+Lilly Portugal Produtos Farmacêuticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350<br />
+România 
+Eli Lilly România S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4Slovenija 
+Eli Lilly farmacevtska družba, d.o.o. 
+Tel: +386 (0)1 580 00<br />
+Ísland 
+Icepharma hf. 
+Sími + 354 540 8 
+Slovenská republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42 
+Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 Κύπρος 
+Phadisco Ltd<br />
+Τηλ: +357 22 715 
+Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A Pārstāvniecība Latvijā 
+Tel: +371 67364 
+United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4 
+Denne indlægsseddel blev senest ændret </p>
+<p>Andre informationskilder </p>
+<p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.<br />
+-------------------------------------------------------------------------------------------------------------------------- Brugsvejledning </p>
+<p>Trulicity 0,75 mg injektionsvæske, opløsning i fyldt pen 
+dulaglutid </p>
+<p> Udfold og udglat  </p>
+<p>Læs alle instruktionerne på begge sider </p>
+<p>OM TRULICITY FYLDT PEN  </p>
+<p>Læs hele brugsvejledningen og indlægssedlen omhyggeligt, inden du begynder at bruge din 
+fyldte pen. Tal med lægen, apotekspersonalet eller sygeplejersken om, hvordan du indsprøjter 
+Trulicity korrekt. </p>
+<ul>
+<li>
+<p>Pennen er en engangsanordning til indgivelse af medicin, der allerede er fyldt og klar til brug. 
+Hver pen indeholder en ugentlig dosis af Trulicity (0,75 mg). Hver pen leverer kun én dosis. </p>
+</li>
+<li>
+<p>Trulicity tages én gang om ugen. Du kan eventuelt skrive en påmindelse i din kalender, så du 
+kan huske, hvornår du skal indsprøjte din næste dosis. </p>
+</li>
+<li>
+<p>Når du trykker på den grønne injektionsknap, vil pennen automatisk stikke kanylen ind i din 
+hud, sprøjte medicinen ind og trække kanylen tilbage, når injektionen er færdig.  </p>
+</li>
+</ul>
+<p>BRYD 
+FORSEGLINGEN 
+BRYD 
+FORSEGLINGEN 
+INDEN DU STARTER </p>
+<p>Tag ud 
+Tjek </p>
+<p>Undersøg </p>
+<p>Gør dig klar 
+af køleskabet. </p>
+<p>Behold den grå fod på 
+indtil du er klar til at 
+indsprøjte. </p>
+<p>etiketten for at sikre, 
+at det er den korrekte 
+medicin, og at den 
+ikke er udløbet. 
+pennen. Brug ikke 
+pennen, hvis du 
+bemærker, at den er 
+beskadiget, eller at 
+medicinen er uklar, 
+misfarvet eller 
+indeholder partikler.  </p>
+<p>ved at vaske hænder. </p>
+<p>VÆLG DIT INJEKTIONSSTED </p>
+<ul>
+<li>
+<p>Lægen, apotekspersonalet eller 
+sygeplejersken kan hjælpe dig med at 
+vælge det bedste injektionssted for dig. </p>
+</li>
+<li>
+<p>Du kan indsprøjte medicinen i maven 
+(abdomen) eller låret. </p>
+</li>
+<li>
+<p>En anden person kan eventuelt give dig 
+injektionen i overarmen. </p>
+</li>
+<li>
+<p>Skift injektionssted hver uge. Du kan 
+bruge samme kropsdel, men sørg for at 
+vælge et nyt injektionssted på den 
+kropsdel. </p>
+</li>
+</ul>
+<p>FORAN 
+BAGPÅ 
+1. TRÆK DEN GRÅ FOD AF 
+2. PLACER OG LÅS OP 
+3. TRYK OG HOLD </p>
+<p>Top 
+Låse-ring 
+Indikator 
+Lås/Lås op 
+Medicin 
+Injektionsknap 
+Grå fod 
+Klar base 
+Bund/ 
+Kanyle- ende<br />
+1 TRÆK DEN GRÅ FOD AF </p>
+<p>Sørg for at pennen er låst. 
+• Træk den grå fod af. 
+Du må ikke sætte den grå 
+fod på igen - det kan 
+beskadige kanylen. Rør ikke 
+ved kanylen. </p>
+<p>• Når den grå fod er fjernet, som 
+vist på billedet, kan den 
+bortskaffes. </p>
+<p>2 PLACER OG LÅS OP </p>
+<ul>
+<li>Placer den klare base fladt 
+og fast mod din hud på 
+injektionsstedet. 
+Lås op ved at dreje låse-
+ringen. </li>
+</ul>
+<p>3 TRYK OG HOLD </p>
+<ul>
+<li>
+<p>Tryk på den grønne 
+injektionsknap og hold 
+den nede; du vil høre et 
+højt klik. 
+Fortsæt med at holde 
+den klare base godt fast 
+mod huden, indtil du 
+hører et klik mere. Det 
+vil lyde i løbet af cirka 
+5-10 sekunder, når 
+kanylen begynder at 
+trække sig tilbage  </p>
+</li>
+<li>
+<p>Fjern pennen fra din 
+hud. </p>
+</li>
+</ul>
+<p>5-10 sekunder 
+• Du ved, at 
+injektionen er 
+færdig, når den 
+grå del er synlig. 
+Hvis den grå fod ikke ligner 
+billedet ovenfor:<br />
+•
+Brug ikke pennen. 
+•
+Opbevar pennen og den 
+grå fod sikkert, og 
+kontakt Lilly. 
+•
+Brug en ny pen. 
+Grå fod 
+VIGTIGE OPLYSNINGER </p>
+<p>Opbevaring og håndtering 
+Bortskaffelse af pen 
+Hyppigt stillede spørgsmål 
+Yderligere oplysninger 
+Lær mere </p>
+<p>OPBEVARING OG HÅNDTERING </p>
+<ul>
+<li>
+<p>Pennen indeholder dele af glas. Håndtér den med forsigtighed. Hvis du taber den på en hård 
+overflade, må du ikke bruge den. Brug en ny pen til din injektion. </p>
+</li>
+<li>
+<p>Opbevar din pen i køleskabet.  </p>
+</li>
+<li>
+<p>Når du ikke har mulighed for at opbevare pennen i køleskabet, kan du opbevare den ved 
+stuetemperatur (under 30°C) i højst 14 dage i alt.  </p>
+</li>
+<li>
+<p>Pennen må ikke nedfryses. Hvis pennen har været nedfrosset, MÅ DEN IKKE BRUGES. </p>
+</li>
+<li>
+<p>Opbevar pennen i den originale pakning for at beskytte mod lys.  </p>
+</li>
+<li>
+<p>Opbevar pennen utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Læs alle oplysningerne om korrekt opbevaring i indlægssedlen. </p>
+</li>
+</ul>
+<p>BORTSKAFFELSE AF PEN </p>
+<ul>
+<li>
+<p>Pennen bortskaffes i en 
+kanylebeholder eller i henhold til 
+lægens, apotekspersonalets eller 
+sygeplejerskens anvisninger.  </p>
+</li>
+<li>
+<p>Genbrug ikke den fyldte 
+kanylebeholder. </p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet 
+eller sygeplejersken, hvordan du 
+skal bortskaffe medicinrester. </p>
+</li>
+</ul>
+<p>HYPPIGT STILLEDE SPØRGSMÅL </p>
+<p>Hvad nu hvis der er luftbobler i min pen? </p>
+<p>Det er normalt med luftbobler. De vil ikke skade dig eller påvirke din dosis. </p>
+<p>Hvad nu hvis jeg har låst pennen op og trykket på den grønne injektionsknap, før jeg har 
+trukket den grå fod af? </p>
+<p>Tag ikke den grå fod af, og brug ikke pennen. Bortskaf pennen i henhold til lægens, 
+apotekspersonalets eller sygeplejerskens anvisninger. Indsprøjt din dosis med en anden pen. </p>
+<p>Hvad nu hvis der er en dråbe væske på spidsen af kanylen, når jeg fjerner den grå fod? </p>
+<p>Det er ikke usædvanligt, hvis der er en dråbe væske på spidsen af kanylen, og det vil ikke påvirke din 
+dosis. </p>
+<p>Skal jeg holde injektionsknappen nede, indtil injektionen er afsluttet? </p>
+<p>Det er ikke nødvendigt, men det kan gøre det lettere at holde pennen roligt og godt fast mod huden. </p>
+<p>Jeg hørte mere end to klik under injektionen - to høje klik og et lavt klik. Har jeg fået hele min 
+injektion? </p>
+<p>Nogle personer kan høre et lavt klik lige inden det andet høje klik. Det skyldes pennens normale 
+funktionsmekanik. Fjern ikke pennen fra huden, før du hører det andet høje klik. </p>
+<p>Hvad nu hvis der er en dråbe væske eller blod på min hud efter injektionen? </p>
+<p>Det er ikke usædvanligt og påvirker ikke din dosis. </p>
+<p>Jeg er ikke sikker på, at min pen virkede korrekt. </p>
+<p>Kontrollér den for at se, om du har fået din dosis. Hvis den grå del er synlig, har du fået din dosis 
+korrekt (se trin 3). Kontakt også det lokale Lilly-kontor angivet i indlægssedlen for yderligere 
+instrukser. I mellemtiden skal du opbevare pennen sikkert for at undgå kanylestikskader. </p>
+<p>YDERLIGERE OPLYSNINGER </p>
+<ul>
+<li>Hvis du har synsproblemer, MÅ DU IKKE bruge pennen uden hjælp fra en person, der er øvet i 
+at bruge Trulicity Pen. </li>
+</ul>
+<p>DU KAN LÆRE MERE HER </p>
+<ul>
+<li>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du har spørgsmål til eller problemer 
+med din Trulicity pen. </li>
+</ul>
+<p>SCAN DENNE KODE FOR AT ÅBNE<br />
+www.trulicity.eu </p>
+<p>Senest ændret  </p>
+<p>Brugsvejledning </p>
+<p>Trulicity 1,5 mg injektionsvæske, opløsning i fyldt pen 
+dulaglutid </p>
+<p> Udfold og udglat   </p>
+<p>Læs alle instruktionerne på begge sider </p>
+<p>OM TRULICITY FYLDT PEN </p>
+<p>Læs hele brugsvejledningen og indlægssedlen omhyggeligt, inden du begynder at bruge din 
+fyldte pen. Tal med lægen, apotekspersonalet eller sygeplejersken om, hvordan du indsprøjter 
+Trulicity korrekt. </p>
+<ul>
+<li>
+<p>Pennen er en engangsanordning til indgivelse af medicin, der allerede er fyldt og klar til brug. 
+Hver pen indeholder én ugentlig dosis af Trulicity (1,5 mg). Hver pen leverer kun én dosis. </p>
+</li>
+<li>
+<p>Trulicity tages en gang om ugen. Du kan eventuelt skrive en påmindelse i din kalender, så du 
+kan huske, hvornår du skal indsprøjte din næste dosis. </p>
+</li>
+<li>
+<p>Når du trykker på den grønne injektionsknap, vil pennen automatisk stikke kanylen ind i din 
+hud, sprøjte medicinen ind og trække kanylen tilbage, når injektionen er færdig.  </p>
+</li>
+</ul>
+<p>BRYD 
+FORSEGLINGEN 
+BRYD 
+FORSEGLINGEN 
+INDEN DU STARTER </p>
+<p>Tag ud 
+Tjek </p>
+<p>Undersøg </p>
+<p>Gør dig klar 
+af køleskabet. </p>
+<p>Behold den grå fod på 
+indtil du er klar til at 
+indsprøjte. </p>
+<p>etiketten for at sikre, 
+at det er den korrekte 
+medicin, og at den 
+ikke er udløbet. 
+pennen. Brug ikke 
+pennen, hvis du 
+bemærker, at den er 
+beskadiget, eller at 
+medicinen er uklar, 
+misfarvet eller 
+indeholder partikler.  </p>
+<p>ved at vaske hænder. </p>
+<p>VÆLG DIT INJEKTIONSSTED </p>
+<ul>
+<li>
+<p>Lægen, apotekspersonalet eller 
+sygeplejersken kan hjælpe dig med at 
+vælge det bedste injektionssted for dig. </p>
+</li>
+<li>
+<p>Du kan indsprøjte medicinen i maven 
+(abdomen) eller låret. </p>
+</li>
+<li>
+<p>En anden person kan eventuelt give dig 
+injektionen i overarmen. </p>
+</li>
+<li>
+<p>Skift injektionssted hver uge. Du kan 
+bruge samme kropsdel, men sørg for at 
+vælge et nyt injektionssted på den 
+kropsdel. </p>
+</li>
+</ul>
+<p>FORAN 
+BAGPÅ 
+1. TRÆK DEN GRÅ FOD AF 
+2. PLACER OG LÅS OP 
+3. TRYK OG HOLD </p>
+<p>Top 
+Låse-ring 
+Indikator 
+Lås/Lås op 
+Medicin 
+Injektionsknap 
+Grå fod 
+Klar base 
+Bund/ 
+Kanyle-
+ende   <br />
+1 TRÆK DEN GRÅ FOD AF </p>
+<p>Sørg for at pennen er låst. 
+• Træk den grå fod af. 
+Du må ikke sætte den grå 
+fod på igen - det kan 
+beskadige kanylen. Rør ikke 
+ved kanylen. </p>
+<p>• Når den grå fod er fjernet, som 
+vist på billedet, kan den 
+bortskaffes. </p>
+<p>2 PLACER OG LÅS OP </p>
+<ul>
+<li>Placer den klare base fladt 
+og fast mod din hud på 
+injektionsstedet. 
+Lås op ved at dreje låse-
+ringen. </li>
+</ul>
+<p>3 TRYK OG HOLD </p>
+<ul>
+<li>
+<p>Tryk på den grønne 
+injektionsknap og hold den 
+nede; du vil høre et højt 
+klik. 
+Fortsæt med at holde den 
+klare base godt fast mod 
+huden, indtil du hører et 
+klik mere. Det vil lyde i 
+løbet af cirka 5-sekunder, når kanylen 
+begynder at trække sig 
+tilbage  </p>
+</li>
+<li>
+<p>Fjern pennen fra din hud. </p>
+</li>
+</ul>
+<p>5-10 sekunder 
+• Du ved, at 
+injektionen er 
+færdig, når den grå 
+del er synlig. 
+Hvis den grå fod ikke ligner 
+billedet ovenfor:<br />
+•
+Brug ikke pennen. 
+•
+Opbevar pennen og den 
+grå fod sikkert, og 
+kontakt Lilly. 
+•
+Brug en ny pen. </p>
+<p>Grå fod 
+VIGTIGE OPLYSNINGER </p>
+<p>Opbevaring og håndtering 
+Bortskaffelse af pen 
+Hyppigt stillede spørgsmål 
+Yderligere oplysninger 
+Lær mere </p>
+<p>OPBEVARING OG HÅNDTERING </p>
+<ul>
+<li>
+<p>Pennen indeholder dele af glas. Håndtér den med forsigtighed. Hvis du taber den på en hård 
+overflade, må du ikke bruge den. Brug en ny pen til din injektion. </p>
+</li>
+<li>
+<p>Opbevar din pen i køleskabet.  </p>
+</li>
+<li>
+<p>Når du ikke har mulighed for at opbevare pennen i køleskabet, kan du opbevare den ved 
+stuetemperatur (under 30°C) i højst 14 dage i alt.  </p>
+</li>
+<li>
+<p>Pennen må ikke nedfryses. Hvis pennen har været nedfrosset, MÅ DEN IKKE BRUGES. </p>
+</li>
+<li>
+<p>Opbevar pennen i den originale pakning for at beskytte mod lys. </p>
+</li>
+<li>
+<p>Opbevar pennen utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Læs alle oplysningerne om korrekt opbevaring i indlægssedlen. </p>
+</li>
+</ul>
+<p>BORTSKAFFELSE AF PEN </p>
+<ul>
+<li>
+<p>Pennen bortskaffes i en 
+kanylebeholder eller i henhold 
+til lægens, apotekspersonalets 
+eller sygeplejerskens 
+anvisninger.  </p>
+</li>
+<li>
+<p>Genbrug ikke den fyldte 
+kanylebeholder. </p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet 
+eller sygeplejersken, hvordan du 
+skal bortskaffe medicinrester. </p>
+</li>
+</ul>
+<p>HYPPIGT STILLEDE SPØRGSMÅL </p>
+<p>Hvad nu hvis der er luftbobler i min pen? </p>
+<p>Det er normalt med luftbobler. De vil ikke skade dig eller påvirke din dosis. </p>
+<p>Hvad nu hvis jeg har låst pennen op og trykket på den grønne injektionsknap, før jeg har 
+trukket den grå fod af? </p>
+<p>Tag ikke den grå fod af, og brug ikke pennen. Bortskaf pennen i henhold til lægens, 
+apotekspersonalets eller sygeplejerskens anvisninger. Indsprøjt din dosis med en anden pen. </p>
+<p>Hvad nu hvis der er en dråbe væske på spidsen af kanylen, når jeg fjerner den grå fod? </p>
+<p>Det er ikke usædvanligt, hvis der er en dråbe væske på spidsen af kanylen, og det vil ikke påvirke din 
+dosis. </p>
+<p>Skal jeg holde injektionsknappen nede, indtil injektionen er afsluttet? </p>
+<p>Det er ikke nødvendigt, men det kan gøre det lettere at holde pennen roligt og godt fast mod huden. </p>
+<p>Jeg hørte mere end to klik under injektionen - to høje klik og et lavt klik. Har jeg fået hele min 
+injektion? </p>
+<p>Nogle personer kan høre et lavt klik lige inden det andet høje klik. Det skyldes pennens normale 
+funktionsmekanik. Fjern ikke pennen fra huden, før du hører det andet høje klik. </p>
+<p>Hvad nu hvis der er en dråbe væske eller blod på min hud efter injektionen? </p>
+<p>Det er ikke usædvanligt og påvirker ikke din dosis. </p>
+<p>Jeg er ikke sikker på, at min pen virkede korrekt. </p>
+<p>Kontrollér den for at se, om du har fået din dosis. Hvis den grå del er synlig, har du fået din dosis 
+korrekt (se trin 3). Kontakt også det lokale Lilly-kontor angivet i indlægssedlen for yderligere 
+instrukser. I mellemtiden skal du opbevare pennen sikkert for at undgå kanyleestikskader. </p>
+<p>YDERLIGERE OPLYSNINGER </p>
+<ul>
+<li>Hvis du har synsproblemer, MÅ DU IKKE bruge pennen uden hjælp fra en person, der er øvet i 
+at bruge Trulicity Pen. </li>
+</ul>
+<p>DU KAN LÆRE MERE HER </p>
+<ul>
+<li>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du har spørgsmål til eller problemer 
+med din Trulicity pen. </li>
+</ul>
+<p>SCAN DENNE KODE FOR AT ÅBNE<br />
+www.trulicity.eu </p>
+<p>Senest ændret<br />
+Brugsvejledning </p>
+<p>Trulicity 3 mg injektionsvæske, opløsning i fyldt pen 
+dulaglutid </p>
+<p> Udfold og udglat  </p>
+<p>Læs alle instruktionerne på begge sider </p>
+<p>OM TRULICITY FYLDT PEN  </p>
+<p>Læs hele brugsvejledningen og indlægssedlen omhyggeligt, inden du begynder at bruge din 
+fyldte pen. Tal med lægen, apotekspersonalet eller sygeplejersken om, hvordan du indsprøjter 
+Trulicity korrekt. </p>
+<ul>
+<li>
+<p>Pennen er en engangsanordning til indgivelse af medicin, der allerede er fyldt og klar til brug. 
+Hver pen indeholder en ugentlig dosis af Trulicity (3 mg). Hver pen leverer kun én dosis. </p>
+</li>
+<li>
+<p>Trulicity tages én gang om ugen. Du kan eventuelt skrive en påmindelse i din kalender, så du 
+kan huske, hvornår du skal indsprøjte din næste dosis. </p>
+</li>
+<li>
+<p>Når du trykker på den grønne injektionsknap, vil pennen automatisk stikke kanylen ind i din 
+hud, sprøjte medicinen ind og trække kanylen tilbage, når injektionen er færdig.  </p>
+</li>
+</ul>
+<p>BRYD 
+FORSEGLINGEN 
+BRYD 
+FORSEGLINGEN 
+INDEN DU STARTER </p>
+<p>Tag ud 
+Tjek </p>
+<p>Undersøg </p>
+<p>Gør dig klar 
+af køleskabet. </p>
+<p>Behold den grå fod på 
+indtil du er klar til at 
+indsprøjte. </p>
+<p>etiketten for at sikre, 
+at det er den korrekte 
+medicin, og at den 
+ikke er udløbet. 
+pennen. Brug ikke 
+pennen, hvis du 
+bemærker, at den er 
+beskadiget, eller at 
+medicinen er uklar, 
+misfarvet eller 
+indeholder partikler.  </p>
+<p>ved at vaske hænder. </p>
+<p>VÆLG DIT INJEKTIONSSTED </p>
+<ul>
+<li>
+<p>Lægen, apotekspersonalet eller 
+sygeplejersken kan hjælpe dig med at 
+vælge det bedste injektionssted for dig. </p>
+</li>
+<li>
+<p>Du kan indsprøjte medicinen i maven 
+(abdomen) eller låret. </p>
+</li>
+<li>
+<p>En anden person kan eventuelt give dig 
+injektionen i overarmen. </p>
+</li>
+<li>
+<p>Skift injektionssted hver uge. Du kan 
+bruge samme kropsdel, men sørg for at 
+vælge et nyt injektionssted på den 
+kropsdel. </p>
+</li>
+</ul>
+<p>FORAN 
+BAGPÅ 
+1. TRÆK DEN GRÅ FOD AF 
+2. PLACER OG LÅS OP 
+3. TRYK OG HOLD </p>
+<p>Top 
+Låse-ring 
+Indikator 
+Lås/Lås op 
+Medicin 
+Injektionsknap 
+Grå fod 
+Klar base 
+Bund/ 
+Kanyle- ende<br />
+1 TRÆK DEN GRÅ FOD AF </p>
+<p>Sørg for at pennen er låst. 
+• Træk den grå fod af. 
+Du må ikke sætte den grå 
+fod på igen - det kan 
+beskadige kanylen. Rør ikke 
+ved kanylen. </p>
+<p>• Når den grå fod er fjernet, 
+som vist på billedet, kan den 
+bortskaffes. </p>
+<p>2 PLACER OG LÅS OP </p>
+<ul>
+<li>Placer den klare base fladt 
+og fast mod din hud på 
+injektionsstedet. 
+Lås op ved at dreje låse-
+ringen. </li>
+</ul>
+<p>3 TRYK OG HOLD </p>
+<ul>
+<li>
+<p>Tryk på den grønne 
+injektionsknap og hold 
+den nede; du vil høre et 
+højt klik. 
+Fortsæt med at holde 
+den klare base godt fast 
+mod huden, indtil du 
+hører et klik mere. Det 
+vil lyde i løbet af cirka 
+5-10 sekunder, når 
+kanylen begynder at 
+trække sig tilbage  </p>
+</li>
+<li>
+<p>Fjern pennen fra din 
+hud. </p>
+</li>
+</ul>
+<p>5-10 sekunder 
+• Du ved, at 
+injektionen er 
+færdig, når den 
+grå del er synlig. 
+Hvis den grå fod ikke 
+ligner billedet ovenfor:<br />
+•
+Brug ikke pennen. 
+•
+Opbevar pennen og 
+den grå fod sikkert, og 
+kontakt Lilly. 
+•
+Brug en ny pen. </p>
+<p>Grå fod 
+VIGTIGE OPLYSNINGER </p>
+<p>Opbevaring og håndtering 
+Bortskaffelse af pen 
+Hyppigt stillede spørgsmål 
+Yderligere oplysninger 
+Lær mere </p>
+<p>OPBEVARING OG HÅNDTERING </p>
+<ul>
+<li>
+<p>Pennen indeholder dele af glas. Håndtér den med forsigtighed. Hvis du taber den på en hård 
+overflade, må du ikke bruge den. Brug en ny pen til din injektion. </p>
+</li>
+<li>
+<p>Opbevar din pen i køleskabet.  </p>
+</li>
+<li>
+<p>Når du ikke har mulighed for at opbevare pennen i køleskabet, kan du opbevare den ved 
+stuetemperatur (under 30°C) i højst 14 dage i alt.  </p>
+</li>
+<li>
+<p>Pennen må ikke nedfryses. Hvis pennen har været nedfrosset, MÅ DEN IKKE BRUGES. </p>
+</li>
+<li>
+<p>Opbevar pennen i den originale pakning for at beskytte mod lys.  </p>
+</li>
+<li>
+<p>Opbevar pennen utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Læs alle oplysningerne om korrekt opbevaring i indlægssedlen. </p>
+</li>
+</ul>
+<p>BORTSKAFFELSE AF PEN </p>
+<ul>
+<li>
+<p>Pennen bortskaffes i en 
+kanylebeholder eller i henhold til 
+lægens, apotekspersonalets eller 
+sygeplejerskens anvisninger.  </p>
+</li>
+<li>
+<p>Genbrug ikke den fyldte 
+kanylebeholder. </p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet 
+eller sygeplejersken, hvordan du 
+skal bortskaffe medicinrester. </p>
+</li>
+</ul>
+<p>HYPPIGT STILLEDE SPØRGSMÅL </p>
+<p>Hvad nu hvis der er luftbobler i min pen? </p>
+<p>Det er normalt med luftbobler. De vil ikke skade dig eller påvirke din dosis. </p>
+<p>Hvad nu hvis jeg har låst pennen op og trykket på den grønne injektionsknap, før jeg har 
+trukket den grå fod af? </p>
+<p>Tag ikke den grå fod af, og brug ikke pennen. Bortskaf pennen i henhold til lægens, 
+apotekspersonalets eller sygeplejerskens anvisninger. Indsprøjt din dosis med en anden pen. </p>
+<p>Hvad nu hvis der er en dråbe væske på spidsen af kanylen, når jeg fjerner den grå fod? </p>
+<p>Det er ikke usædvanligt, hvis der er en dråbe væske på spidsen af kanylen, og det vil ikke påvirke din 
+dosis. </p>
+<p>Skal jeg holde injektionsknappen nede, indtil injektionen er afsluttet? </p>
+<p>Det er ikke nødvendigt, men det kan gøre det lettere at holde pennen roligt og godt fast mod huden. </p>
+<p>Jeg hørte mere end to klik under injektionen - to høje klik og et lavt klik. Har jeg fået hele min 
+injektion? </p>
+<p>Nogle personer kan høre et lavt klik lige inden det andet høje klik. Det skyldes pennens normale 
+funktionsmekanik. Fjern ikke pennen fra huden, før du hører det andet høje klik. </p>
+<p>Hvad nu hvis der er en dråbe væske eller blod på min hud efter injektionen? </p>
+<p>Det er ikke usædvanligt og påvirker ikke din dosis. </p>
+<p>Jeg er ikke sikker på, at min pen virkede korrekt. </p>
+<p>Kontrollér den for at se, om du har fået din dosis. Hvis den grå del er synlig, har du fået din dosis 
+korrekt (se trin 3). Kontakt også det lokale Lilly-kontor angivet i indlægssedlen for yderligere 
+instrukser. I mellemtiden skal du opbevare pennen sikkert for at undgå kanylestikskader. </p>
+<p>YDERLIGERE OPLYSNINGER </p>
+<ul>
+<li>Hvis du har synsproblemer, MÅ DU IKKE bruge pennen uden hjælp fra en person, der er øvet i 
+at bruge Trulicity Pen. </li>
+</ul>
+<p>DU KAN LÆRE MERE HER </p>
+<ul>
+<li>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du har spørgsmål til eller problemer 
+med din Trulicity pen. </li>
+</ul>
+<p>SCAN DENNE KODE FOR AT ÅBNE<br />
+www.trulicity.eu </p>
+<p>Senest ændret  </p>
+<p>Brugsvejledning </p>
+<p>Trulicity 4,5 mg injektionsvæske, opløsning i fyldt pen 
+dulaglutid </p>
+<p> Udfold og udglat  </p>
+<p>Læs alle instruktionerne på begge sider </p>
+<p>OM TRULICITY FYLDT PEN  </p>
+<p>Læs hele brugsvejledningen og indlægssedlen omhyggeligt, inden du begynder at bruge din 
+fyldte pen. Tal med lægen, apotekspersonalet eller sygeplejersken om, hvordan du indsprøjter 
+Trulicity korrekt. </p>
+<ul>
+<li>
+<p>Pennen er en engangsanordning til indgivelse af medicin, der allerede er fyldt og klar til brug. 
+Hver pen indeholder en ugentlig dosis af Trulicity (4,5 mg). Hver pen leverer kun én dosis. </p>
+</li>
+<li>
+<p>Trulicity tages én gang om ugen. Du kan eventuelt skrive en påmindelse i din kalender, så du 
+kan huske, hvornår du skal indsprøjte din næste dosis. </p>
+</li>
+<li>
+<p>Når du trykker på den grønne injektionsknap, vil pennen automatisk stikke kanylen ind i din 
+hud, sprøjte medicinen ind og trække kanylen tilbage, når injektionen er færdig.  </p>
+</li>
+</ul>
+<p>BRYD 
+FORSEGLINGEN 
+BRYD 
+FORSEGLINGEN 
+INDEN DU STARTER </p>
+<p>Tag ud 
+Tjek </p>
+<p>Undersøg </p>
+<p>Gør dig klar 
+af køleskabet. </p>
+<p>Behold den grå fod på 
+indtil du er klar til at 
+indsprøjte. </p>
+<p>etiketten for at sikre, 
+at det er den korrekte 
+medicin, og at den 
+ikke er udløbet. 
+pennen. Brug ikke 
+pennen, hvis du 
+bemærker, at den er 
+beskadiget, eller at 
+medicinen er uklar, 
+misfarvet eller 
+indeholder partikler.  </p>
+<p>ved at vaske hænder. </p>
+<p>VÆLG DIT INJEKTIONSSTED </p>
+<ul>
+<li>
+<p>Lægen, apotekspersonalet eller 
+sygeplejersken kan hjælpe dig med at 
+vælge det bedste injektionssted for dig. </p>
+</li>
+<li>
+<p>Du kan indsprøjte medicinen i maven 
+(abdomen) eller låret. </p>
+</li>
+<li>
+<p>En anden person kan eventuelt give dig 
+injektionen i overarmen. </p>
+</li>
+<li>
+<p>Skift injektionssted hver uge. Du kan 
+bruge samme kropsdel, men sørg for at 
+vælge et nyt injektionssted på den 
+kropsdel. </p>
+</li>
+</ul>
+<p>FORAN 
+BAGPÅ 
+1. TRÆK DEN GRÅ FOD AF 
+2. PLACER OG LÅS OP 
+3. TRYK OG HOLD </p>
+<p>Top 
+Låse-ring 
+Indikator 
+Lås/Lås op 
+Medicin 
+Injektionsknap 
+Grå fod 
+Klar base 
+Bund/ 
+Kanyle- ende<br />
+1 TRÆK DEN GRÅ FOD AF </p>
+<p>Sørg for at pennen er låst. 
+• Træk den grå fod af. 
+Du må ikke sætte den grå 
+fod på igen - det kan 
+beskadige kanylen. Rør ikke 
+ved kanylen. </p>
+<p>• Når den grå fod er fjernet, som 
+vist på billedet, kan den 
+bortskaffes. </p>
+<p>2 PLACER OG LÅS OP </p>
+<ul>
+<li>Placer den klare base fladt 
+og fast mod din hud på 
+injektionsstedet. 
+Lås op ved at dreje låse-
+ringen. </li>
+</ul>
+<p>3 TRYK OG HOLD </p>
+<ul>
+<li>
+<p>Tryk på den grønne 
+injektionsknap og hold 
+den nede; du vil høre et 
+højt klik. 
+Fortsæt med at holde 
+den klare base godt fast 
+mod huden, indtil du 
+hører et klik mere. Det 
+vil lyde i løbet af cirka 
+5-10 sekunder, når 
+kanylen begynder at 
+trække sig tilbage  </p>
+</li>
+<li>
+<p>Fjern pennen fra din 
+hud. </p>
+</li>
+</ul>
+<p>5-10 sekunder 
+• Du ved, at 
+injektionen er 
+færdig, når den 
+grå del er synlig. 
+Hvis den grå fod ikke ligner 
+billedet ovenfor:<br />
+•
+Brug ikke pennen. 
+•
+Opbevar pennen og den 
+grå fod sikkert, og 
+kontakt Lilly. 
+•
+Brug en ny pen. </p>
+<p>Grå fod 
+VIGTIGE OPLYSNINGER </p>
+<p>Opbevaring og håndtering 
+Bortskaffelse af pen 
+Hyppigt stillede spørgsmål 
+Yderligere oplysninger 
+Lær mere </p>
+<p>OPBEVARING OG HÅNDTERING </p>
+<ul>
+<li>
+<p>Pennen indeholder dele af glas. Håndtér den med forsigtighed. Hvis du taber den på en hård 
+overflade, må du ikke bruge den. Brug en ny pen til din injektion. </p>
+</li>
+<li>
+<p>Opbevar din pen i køleskabet.  </p>
+</li>
+<li>
+<p>Når du ikke har mulighed for at opbevare pennen i køleskabet, kan du opbevare den ved 
+stuetemperatur (under 30°C) i højst 14 dage i alt.  </p>
+</li>
+<li>
+<p>Pennen må ikke nedfryses. Hvis pennen har været nedfrosset, MÅ DEN IKKE BRUGES. </p>
+</li>
+<li>
+<p>Opbevar pennen i den originale pakning for at beskytte mod lys.  </p>
+</li>
+<li>
+<p>Opbevar pennen utilgængeligt for børn. </p>
+</li>
+<li>
+<p>Læs alle oplysningerne om korrekt opbevaring i indlægssedlen. </p>
+</li>
+</ul>
+<p>BORTSKAFFELSE AF PEN </p>
+<ul>
+<li>
+<p>Pennen bortskaffes i en 
+kanylebeholder eller i henhold til 
+lægens, apotekspersonalets eller 
+sygeplejerskens anvisninger.  </p>
+</li>
+<li>
+<p>Genbrug ikke den fyldte 
+kanylebeholder. </p>
+</li>
+<li>
+<p>Spørg lægen, apotekspersonalet 
+eller sygeplejersken, hvordan du 
+skal bortskaffe medicinrester. </p>
+</li>
+</ul>
+<p>HYPPIGT STILLEDE SPØRGSMÅL </p>
+<p>Hvad nu hvis der er luftbobler i min pen? </p>
+<p>Det er normalt med luftbobler. De vil ikke skade dig eller påvirke din dosis. </p>
+<p>Hvad nu hvis jeg har låst pennen op og trykket på den grønne injektionsknap, før jeg har 
+trukket den grå fod af? </p>
+<p>Tag ikke den grå fod af, og brug ikke pennen. Bortskaf pennen i henhold til lægens, 
+apotekspersonalets eller sygeplejerskens anvisninger. Indsprøjt din dosis med en anden pen. </p>
+<p>Hvad nu hvis der er en dråbe væske på spidsen af kanylen, når jeg fjerner den grå fod? </p>
+<p>Det er ikke usædvanligt, hvis der er en dråbe væske på spidsen af kanylen, og det vil ikke påvirke din 
+dosis. </p>
+<p>Skal jeg holde injektionsknappen nede, indtil injektionen er afsluttet? </p>
+<p>Det er ikke nødvendigt, men det kan gøre det lettere at holde pennen roligt og godt fast mod huden. </p>
+<p>Jeg hørte mere end to klik under injektionen - to høje klik og et lavt klik. Har jeg fået hele min 
+injektion? </p>
+<p>Nogle personer kan høre et lavt klik lige inden det andet høje klik. Det skyldes pennens normale 
+funktionsmekanik. Fjern ikke pennen fra huden, før du hører det andet høje klik. </p>
+<p>Hvad nu hvis der er en dråbe væske eller blod på min hud efter injektionen? </p>
+<p>Det er ikke usædvanligt og påvirker ikke din dosis. </p>
+<p>Jeg er ikke sikker på, at min pen virkede korrekt. </p>
+<p>Kontrollér den for at se, om du har fået din dosis. Hvis den grå del er synlig, har du fået din dosis 
+korrekt (se trin 3). Kontakt også det lokale Lilly-kontor angivet i indlægssedlen for yderligere 
+instrukser. I mellemtiden skal du opbevare pennen sikkert for at undgå kanylestikskader. </p>
+<p>YDERLIGERE OPLYSNINGER </p>
+<ul>
+<li>Hvis du har synsproblemer, MÅ DU IKKE bruge pennen uden hjælp fra en person, der er øvet i 
+at bruge Trulicity Pen. </li>
+</ul>
+<p>DU KAN LÆRE MERE HER </p>
+<ul>
+<li>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du har spørgsmål til eller problemer 
+med din Trulicity pen. </li>
+</ul>
+<p>SCAN DENNE KODE FOR AT ÅBNE<br />
+www.trulicity.eu </p>
+<p>Senest ændret  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-03f601e925d2ca197b11b72dd4a3dc32
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trulicity Package Leaflet for language en"
+Description: "ePI document Bundle for trulicity Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-03f601e925d2ca197b11b72dd4a3dc32"
+* entry[0].resource = composition-en-03f601e925d2ca197b11b72dd4a3dc32
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp03f601e925d2ca197b11b72dd4a3dc32"
+* entry[=].resource = mp03f601e925d2ca197b11b72dd4a3dc32
+                            
+                    
+Instance: bundlepackageleaflet-da-03f601e925d2ca197b11b72dd4a3dc32
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trulicity Package Leaflet for language da"
+Description: "ePI document Bundle for trulicity Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-03f601e925d2ca197b11b72dd4a3dc32"
+* entry[0].resource = composition-da-03f601e925d2ca197b11b72dd4a3dc32
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp03f601e925d2ca197b11b72dd4a3dc32"
+* entry[=].resource = mp03f601e925d2ca197b11b72dd4a3dc32
+                            
+                    
+
+
+
+Instance: mp03f601e925d2ca197b11b72dd4a3dc32
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Trulicity 0.75 mg solution for injection in pre-filled pen"
-Description: "Trulicity 0.75 mg solution for injection in pre-filled pen"
+Title: "Medicinal Product trulicity"
+Description: "trulicity"
 Usage: #inline
 
  
@@ -391,7 +1731,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Trulicity 0.75 mg solution for injection in pre-filled pen"
+  * productName = "trulicity"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -418,29 +1758,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-03f601e925d2ca197b11b72dd4a3dc32
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for trulicity Package Leaflet for language en"
-Description: "ePI document Bundle for trulicity Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: 03f601e925d2ca197b11b72dd4a3dc32ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "EU/1/14/956/001"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "trulicity"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-03f601e925d2ca197b11b72dd4a3dc32"
-* entry[0].resource = composition-en-03f601e925d2ca197b11b72dd4a3dc32
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mp0648fd9a9ac578628f8217d9e2039796"
-* entry[=].resource = mp0648fd9a9ac578628f8217d9e2039796
-                            
-                      
+* title = "List of all ePIs associated with trulicity"
+
+* subject = Reference(mp0648fd9a9ac578628f8217d9e2039796)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#trulicity "trulicity"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-03f601e925d2ca197b11b72dd4a3dc32) // trulicity en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-03f601e925d2ca197b11b72dd4a3dc32) // trulicity da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-03f601e925d2ca197b11b72dd4a3dc32
+InstanceOf: List
+
+* insert 03f601e925d2ca197b11b72dd4a3dc32ListRuleset
+    

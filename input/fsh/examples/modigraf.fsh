@@ -1,5 +1,8 @@
 
 
+
+
+
 Instance: composition-en-f4157e79e09e92e0d9cf70a720caf0e5
 InstanceOf: CompositionUvEpi
 Title: "Composition for modigraf Package Leaflet"
@@ -557,12 +560,649 @@ http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: composition-da-f4157e79e09e92e0d9cf70a720caf0e5
+InstanceOf: CompositionUvEpi
+Title: "Composition for modigraf Package Leaflet"
+Description:  "Composition for modigraf Package Leaflet"
+Usage: #inline
+
+* identifier.system = "http://ema.europa.eu/identifier"
+
+* identifier.value = "identifier"
+* status = #final
+
+* type = https://spor.ema.europa.eu/rmswi/#100000155538
+* type.text = "Package Leaflet"
+
+* subject = Reference(mpb97163b7c8fd64018c654f5a9c148dbd)
+* date = "2022-02-16T13:28:17Z"
+
+ 
+
+ // Reference to Organization: MAH
+* author = Reference(mah-ema)
 
 
-Instance: mpb97163b7c8fd64018c654f5a9c148dbd
+* title = "TEST PURPOSES ONLY - modigraf"
+* attester.mode = http://hl7.org/fhir/composition-attestation-mode#official
+* attester.time =  "2022-02-16T13:28:17Z"
+* language = #da
+* category = epicategory-cs#R "Raw"
+
+
+* section[+].
+  * title = "B. Package Leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "B. Package Leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+      
+* section[=].section[+]
+  * title = "Package leaflet: Information for the user"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "Package leaflet: Information for the user"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+
+
+* section[=].section[+]
+  * title = "What is in this leaflet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "What is in this leaflet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
+1. Virkning og anvendelse 
+2. Det skal De vide, før De begynder at tage Modigraf 
+3. Sådan skal De tage Modigraf 
+4. Bivirkninger 
+5. Opbevaring 
+6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+          
+
+* section[=].section[+]
+  * title =  "1. What modigraf is and what it is used for"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text =  "1. What modigraf is and what it is used for"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Modigraf indeholder det aktive stof tacrolimus. Det er immundæmpende medicin. Efter en 
+organtransplantation (f.eks. lever, nyre, hjerte) vil kroppens immunsystem forsøge at afstøde det nye 
+organ. Modigraf benyttes til at kontrollere kroppens immunreaktion, således at kroppen kan acceptere 
+det nye transplanterede organ.  </p>
+<p>De kan også få ordineret Modigraf ved en igangværende afstødning af det transplanterede organ (lever, 
+nyre, hjerte eller andet), eller hvis Deres tidligere behandling ikke kunne kontrollere immunreaktionen 
+efter transplantationen. </p>
+<p>Modigraf anvendes til voksne og børn. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take modigraf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take modigraf"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Modigraf 
+- hvis De er allergisk over for tacrolimus eller et af de øvrige indholdsstoffer (angivet i punkt 6). 
+- hvis De er allergisk over for sirolimus (et andet lægemiddelstof, som bruges til at forebygge 
+afstødning af det transplanterede organ) eller over for makrolidantibiotika (f.eks. erythomycin, 
+clarithromycin, josamycin). 
+Advarsler og forsigtighedsregler 
+Kontakt lægen eller apotekspersonalet, før De tager Modigraf<br />
+- hvis De har eller har haft leverproblemer. 
+- hvis De har diarré i mere end én dag. 
+- hvis De får stærke mavesmerter med eller uden andre symptomer, som kulderystelser, feber, 
+kvalme eller opkastning. 
+- hvis De har en ændring i hjerterytmen, som kaldes "QT-forlængelse". 
+- hvis De har eller har haft beskadigelse af de mindste blodkar, også kendt som trombotisk 
+mikroangiopati/trombotisk trombocytopenisk purpura/hæmolytisk uræmisk syndrom. Fortæl det </p>
+<p>til Deres læge, hvis De oplever feber, blå mærker under huden (kan vise sig som røde prikker), 
+uforklarlig træthed, forvirring, gulfarvning af huden eller øjnene, lav urinmængde, synstab eller 
+krampeanfald (se punkt 4). Når tacrolimus tages sammen med sirolimus eller everolimus, kan 
+risikoen for at udvikle disse symptomer stige. </p>
+<p>Undlad at tage naturlægemidler, f.eks. perikon (Hypericum perforatum) eller andre naturlægemidler, 
+da dette kan påvirke virkningen og den dosis af Modigraf, som De har brug for. Spørg lægen, før De 
+tager nogen naturlægemidler eller urtemedicin, hvis De er i tvivl. </p>
+<p>Deres læge er måske nødt til at justere Deres Modigrafdosis.  </p>
+<p>De bør jævnligt være i kontakt med Deres læge. Fra tid til anden kan det være nødvendigt for lægen at 
+tage blod- eller urinprøver eller undersøge Deres hjerte eller øjne for at bestemme den rette 
+Modigrafdosis.  </p>
+<p>De bør begrænse Deres udsættelse for sollys og UV (ultraviolet) lys, mens De tager Modigraf. Dette 
+skyldes, at immundæmpende behandling som Modigraf kan øge risikoen for ondartede hudlidelser. 
+Bær passende beskyttende beklædning og anvend en solcreme med høj solbeskyttende faktor, hvis De 
+opholder Dem i solen. </p>
+<p>Forsigtighedsregler ved håndtering: 
+Direkte kontakt med noget sted på kroppen, såsom hud eller øjne, eller indånding af injektionsvæske, 
+opløsninger, pulver eller granulat fra tacrolimusprodukter skal undgås under klargøringen. Hvis en 
+sådan kontakt forekommer, skal huden vaskes og øjnene skylles. 
+Brug af andre lægemidler sammen med Modigraf 
+Fortæl altid lægen eller apotekspersonalet, hvis De bruger andre lægemidler, for nylig har brugt andre 
+lægemidler eller planlægger at bruge andre lægemidler. Dette gælder også lægemidler, som ikke er 
+købt på recept, f.eks. naturlægemidler og vitaminer og mineraler.  </p>
+<p>Modigraf må ikke tages sammen med ciclosporin (et andet lægemiddel, der anvendes til at undgå 
+afstødning af et transplanteret organ).  </p>
+<p>Hvis De har brug for at gå til en anden læge end Deres transplantationsspecialist, skal De 
+fortælle lægen, at De tager tacrolimus. Deres læge kan have brug for at kontakte Deres 
+transplantationsspecialist, hvis De bruger anden medicin, der kan øge eller reducere 
+blodkoncentrationen af tacrolimus. </p>
+<p>Indholdet af Modigraf i blodet kan påvirkes af anden medicin, og Modigraf kan påvirke indholdet af 
+anden medicin i blodet. Det kan derfor være nødvendigt at øge eller nedsætte Modigrafdosis eller 
+holde pause i behandlingen.  </p>
+<p>Nogle patienter har oplevet forhøjede blodkoncentrationer af tacrolimus, mens de har taget anden 
+medicin. 
+Dette kan medføre alvorlige bivirkninger, såsom problemer med nyrerne, problemer med 
+nervesystemet og forstyrrelser i hjerterytmen (se punkt 4). 
+Der kan ses en påvirkning af blodkoncentrationen af Modigraf meget kort tid efter, De er begyndt at 
+bruge en anden medicin. Derfor kan det fortsat være nødvendigt med hyppig overvågning af 
+blodkoncentrationen af Modigraf i de første dage efter start på en anden medicin og hyppigt under 
+fortsat behandling med den anden medicin. Nogle andre lægemidler kan få blodkoncentrationen af 
+tacrolimus til at falde, hvilket kan øge risikoen for, at det transplanterede organ afstødes. De skal i 
+særdeleshed oplyse det til lægen, hvis De tager eller for nylig har taget medicin såsom:</p>
+<ul>
+<li>svampemidler og antibiotika, især såkaldte makrolidantibiotika til behandling af infektioner 
+f.eks. ketoconazol, fluconazol, itraconazol, posaconazol, voriconazol, clotrimazol, isavuconazol, 
+miconazol, caspofungin, telithromycin, erythromycin, clarithromycin, josamycin, azithromycin, 
+rifampicin, rifabutin, isoniazid og flucloxacillin </li>
+<li>
+<p>letermovir, bruges til at forebygge sygdomme forårsaget af CMV (human cytomegalovirus) </p>
+</li>
+<li>
+<p>hiv-protease-hæmmere (f.eks. ritonavir, nelfinavir, saquinavir), boostermedicinen cobicistat og 
+kombinationstabletter, eller non-nukleosid revers transkriptase-hæmmere mod hiv (efavirenz, 
+etravirin, nevirapin), som bruges ved behandling af hiv-infektion </p>
+</li>
+<li>HCV-protease-hæmmere (f.eks. telaprevir, boceprevir, kombinationen<br />
+ombitasvir/paritaprevir/ritonavir med eller uden dasabuvir, elbasvir/grazoprevir og 
+glecaprevir/pibrentasvir), som bruges til behandling af hepatitis C-infektion </li>
+<li>nilotinib og imatinib, idelalisib, ceritinib, crizotinib, apalutamid, enzalutamid eller mitotan 
+(bruges til behandling af visse typer cancer) </li>
+<li>mycophenolsyre, som bruges til at undertrykke immunsystemet for at forhindre afstødning af et 
+transplantat </li>
+<li>medicin til forebyggelse og behandling af mavesår og spiserørskatar (f.eks. omeprazol, 
+lansoprazol eller cimetidin)  </li>
+<li>antiemetika, der anvendes til behandling af kvalme og opkastning (f.eks. metoclopramid)  </li>
+<li>cisaprid eller det syreneutraliserende middel magnesium-aluminium-hydroxid, der anvendes til 
+behandling af halsbrand </li>
+<li>p-piller, hormonbehandling med ethinylestradiol eller hormonbehandling med danazol </li>
+<li>medicin mod forhøjet blodtryk eller hjerteproblemer (f.eks. nifedipin, nicardipin, diltiazem og 
+verapamil) </li>
+<li>antiarytmika (amiodaron), som bruges til behandling af arytmier (uregelmæssig hjerterytme) </li>
+<li>lægemidler kendt som "statiner" til behandling af forhøjet kolesterol og triglycerider </li>
+<li>carbamazepin, phenytoin og phenobarbital til behandling af epilepsi </li>
+<li>metamizol, som bruges til behandling af smerter og feber </li>
+<li>kortikosteroiderne prednisolon og methylprednisolon, der anvendes til behandling af 
+betændelsestilstande eller til at undertrykke immunsystemet (f.eks. ved afstødning af organ efter 
+transplantation) </li>
+<li>nefazodon til behandling af depression </li>
+<li>naturmedicin, der indeholder perikon (Hypericum perforatum) eller ekstrakt af Schisandra 
+sphenanthera </li>
+<li>cannabidiol (anvendes bl.a. til behandling af krampeanfald). </li>
+</ul>
+<p>De skal fortælle det til lægen, hvis De får behandling mod hepatitis C. Behandlingen med medicin 
+mod hepatitis C kan ændre Deres leverfunktion og kan påvirke blodkoncentrationen af tacrolimus. 
+Blodkoncentrationen af tacrolimus kan falde eller stige afhængigt af, hvilken medicin der er udskrevet 
+mod hepatitis C. Det kan være nødvendigt, at lægen overvåger blodkoncentrationen af tacrolimus tæt 
+og foretager nødvendige justeringer af Deres Modigraf-dosis, efter De er startet på behandling af 
+hepatitis C. </p>
+<p>Fortæl det til Deres læge, hvis De tager eller har brug for at tage ibuprofen (behandling af feber, 
+betændelseslignende tilstande (gigt) og smerter), antibiotika (cotrimoxazol, vancomycin eller 
+aminoglykosid-antibiotika, såsom gentamicin), amphotericin B (behandling af svampeinfektioner) 
+eller antivirale midler (behandling af virusinfektioner, f.eks. aciclovir, ganciclovir, cidofovir, 
+foscarnet). Disse kan forværre problemer med nyrerne eller centralnervesystemet, hvis de tages 
+sammen med Modigraf.  </p>
+<p>Fortæl det til Deres læge, hvis De tager sirolimus eller everolimus. Når tacrolimus tages sammen med 
+sirolimus eller everolimus, kan risikoen for at udvikle trombotisk mikroangiopati, trombotisk 
+trombocytopenisk purpura og hæmolytisk uræmisk syndrom stige (se punkt 4).  </p>
+<p>Deres læge skal også vide, om De tager kaliumtilskud eller vanddrivende medicin, som bruges ved 
+hjertesvigt, hypertension og nyresygdom (f.eks. amilorid, triamteren eller spironolacton), eller 
+antibiotikaene trimethoprim eller cotrimoxazol, der kan øge niveauet af kalium i dit blod, non-steroide 
+anti-inflammatoriske midler (NSAID, f.eks. ibuprofen), som bruges ved feber, betændelsestilstande og 
+smerter, blodfortyndende medicin (antikoagulantia) eller oral medicin mod diabetes (sukkersyge), 
+mens De tager Modigraf.  </p>
+<p>Hvis De skal vaccineres, så fortæl det til Deres læge på forhånd. </p>
+<p>Brug af Modigraf sammen med mad og drikke <br />
+De bør kun tage Modigraf på tom mave eller mindst 1 time før eller 2 til 3 timer efter et måltid. Undgå 
+grapefrugt og grapefrugt juice under behandling med Modigraf, da det kan påvirke indholdet af 
+Modigraf i blodet. 
+Graviditet og amning 
+Hvis De tager Modigraf, mens De er gravid, kan det overføres til barnet gennem moderkagen. Det kan 
+potentielt påvirke barnets sundhed eller påvirke forløbet af graviditeten negativt.<br />
+Hvis De er gravid eller ammer, har mistanke om, at De er gravid, eller planlægger at blive gravid, skal 
+De spørge Deres læge til råds, før De tager dette lægemiddel.<br />
+Modigraf passerer over i mælken. Derfor må De ikke amme, mens De tager Modigraf. 
+Trafik- og arbejdssikkerhed 
+Kør ikke bil og lad være med at bruge værktøj eller maskiner, hvis De føler Dem svimmel eller søvnig 
+eller har problemer med at se klart, efter De har taget Modigraf. Disse virkninger ses oftere, hvis De 
+også drikker alkohol. 
+Modigraf indeholder lactose og natrium<br />
+Modigraf indeholder lactose (mælkesukker). Hvis Deres læge har fortalt Dem, at De ikke tåler visse 
+sukkerarter, skal De kontakte lægen, før De tager denne medicin. 
+Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. brev, dvs. det er i det væsentlige 
+natrium-fri. </p>         </div>"""   
+                    
+* section[=].section[+]
+  * title =  "3. How to take modigraf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "3. How to take modigraf"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl så spørg lægen eller 
+apotekspersonalet.<br />
+Modigraf bør udskrives af læger, som er specielt oplært til at behandle transplantationspatienter, og 
+som har erfaring med brug af lægemidler, som dæmper kroppens immunsystem (immunsuppressiva). </p>
+<p>Sørg for at De får den samme tacrolimusmedicin hver gang, De henter Deres medicin, medmindre 
+Deres transplantationslæge har godkendt, at De skifter til en anden tacrolimusmedicin.  </p>
+<p>Denne medicin bør tages to gange daglig. Hvis medicinen ikke længere ser ud som det normale hvide 
+granulat, eller hvis dosis er ændret, så kontakt Deres læge eller apoteket hurtigst muligt for at sikre, at 
+De har fået den rigtige medicin. </p>
+<p>Deres læge vil, ud fra Deres vægt, beregne den rigtige startdosis for at undgå afstødning af det 
+transplanterede organ. Startdosis lige efter transplantationen vil sædvanligvis ligge i intervallet 
+0,075 - 0,30 mg/kg legemsvægt/døgn, afhængigt af, hvilket organ der er transplanteret. Samme dosis 
+kan anvendes til behandling af afstødning. </p>
+<p>Dosis afhænger af Deres generelle tilstand og af, hvilken anden immundæmpende medicin De tager.<br />
+Børn og unge 
+Børn og unge vil få Modigraf-doser beregnet på samme måde som voksne. Generelt behøver børn 
+højere doser pr. kg kropsvægt for at opnå de samme effektive niveauer i blodet som voksne. </p>
+<p>Når behandlingen med Modigraf er påbegyndt, vil Deres læge ofte tage blodprøver for at bestemme 
+den korrekte dosis og for løbende at justere dosis. Lægen vil sædvanligvis reducere Modigrafdosis, når 
+Deres tilstand er stabiliseret. Lægen vil oplyse Dem om præcis, hvor mange breve, De skal bruge. </p>
+<p>De skal tage Modigraf hver dag så længe, De har behov for immundæmpende medicin, for at 
+forebygge afstødning af Deres transplanterede organ. De bør jævnligt være i kontakt med Deres læge.  </p>
+<p>Modigraf tages gennem munden to gange dagligt, sædvanligvis om morgenen og om aftenen. Tag 
+Modigraf på tom mave eller 2 til 3 timer efter et måltid. Der skal gå mindst 1 time til det næste måltid.  </p>
+<p>Hvordan skal Modigrafbrevene forberedes til brug? 
+Deres læge vil oplyse Dem om det antal breve og den mængde vand, der skal anvendes til at lave en 
+suspension. Til at afmåle det præcise volumen vand kan De anvende en sprøjte eller et målebæger. </p>
+<p>Hæld den ordinerede mængde vand (stuetemperatur) op i et glas eller en kop, højst op til 50 ml. Placer 
+koppen med vand på en stabil overflade. Tag ikke Modigraf med kopper eller skeer, som er lavet af 
+PVC (polyvinylchlorid), da det virksomme stof i Modigraf kan klæbe til PVC. 
+Åbn forsigtigt det ordinerede antal breve, f.eks. med en saks, ved det sted, der er markeret med en pil. 
+Hold det åbne brev mellem tommel- og pegefinger med den åbne side nedad henover koppen. Bank let 
+på den lukkede ende af brevet og hæld indholdet af hvert brev i glasset eller koppen med vandet. Brug 
+ikke redskaber eller væske til at tømme brevet med. Hvis De følger disse anvisninger, vil De få den 
+rette mængde granulat fra brevet. Det er normalt, at noget granulat bliver tilbage; sådan er brevet 
+designet.<br />
+Rør eller hvirvl forsigtigt, indtil granulatet er fuldstændigt opslæmmet. Suspensionen kan suges op 
+med en sprøjte eller patienten kan drikke det direkte. Væsken har en sød smag. Skyl glasset eller 
+koppen en gang med den samme mængde vand som før og drik også dette. Væsken bør drikkes 
+umiddelbart efter fremstillingen. 
+Hvis De har taget for meget Modigraf 
+Hvis De ved en fejltagelse har taget for meget Modigraf-granulat, skal De straks kontakte lægen eller 
+den nærmeste skadestue. 
+Hvis De har glemt at tage Modigraf 
+De må ikke tage en dobbeltdosis som erstatning for den glemte dosis.<br />
+Hvis De har glemt at tage Deres Modigraf, skal De vente til det er tid for næste dosis, og derefter 
+fortsætte som hidtil. 
+Hvis De holder op med at tage Modigraf 
+Afbrydelse af behandlingen med Modigraf kan øge risikoen for afstødning af det transplanterede 
+organ. 
+De må ikke stoppe med behandlingen, uden at have talt med Deres læge. </p>
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
+<p>Modigraf nedsætter kroppens egen forsvarsmekanisme (immunsystemet), som så ikke vil kunne 
+bekæmpe infektioner så godt som normalt. Derfor kan De få flere infektioner, når De tager Modigraf.<br />
+Nogle infektioner kan være alvorlige eller dødelige og kan omfatte infektioner forårsaget af bakterier, 
+vira, svampe, parasitter eller andre infektioner. 
+Fortæl det straks til Deres læge, hvis De får tegn på en infektion, herunder:</p>
+<ul>
+<li>Feber, hoste, ondt i halsen, føler sig svag eller generelt utilpas. </li>
+<li>Hukommelsestab, problemer med at tænke, gangbesvær eller synstab - disse kan skyldes en meget 
+sjælden, alvorlig hjerneinfektion, som kan være dødelig (Progressiv Multifocal Leukoencephalopati 
+eller PML). </li>
+</ul>
+<p>Alvorlige bivirkninger kan forekomme, herunder allergiske og anafylaktiske reaktioner (en meget 
+alvorlig type allergisk reaktion med besvimelse og åndedrætsbesvær, som omgående kræver medicinsk 
+behandling). Der er set godartede og ondartede svulster efter Modigrafbehandling.<br />
+Fortæl det straks til Deres læge, hvis De har eller mistænker, at De har nogen af følgende 
+alvorlige bivirkninger: </p>
+<p>Alvorlige almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede):</p>
+<ul>
+<li>Perforation af mave-tarm-kanalen: stærke mavesmerter ledsaget (eller ikke) af andre 
+symptomer, såsom kuldegysninger, feber, kvalme eller opkastning. </li>
+<li>Utilstrækkelig funktion af det transplanterede organ. </li>
+<li>Sløret syn. </li>
+</ul>
+<p>Alvorlige ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 behandlede):</p>
+<ul>
+<li>Trombotisk mikroangiopati (beskadigelse af de mindste blodkar), herunder hæmolytisk uræmisk 
+syndrom, en sygdom med følgende symptomer: lav eller ingen urinmængde (akut nyresvigt), 
+ekstrem træthed, gulfarvning af huden eller øjnene (gulsot) og unormale blå mærker eller 
+blødning og tegn på infektion. </li>
+</ul>
+<p>Alvorlige sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 behandlede):</p>
+<ul>
+<li>Trombotisk trombocytopenisk purpura: en sygdom, der inlvolverer beskadigelse af de mindste 
+blodkar og er kendetegnet ved feber og blå mærker under huden, der kan forekomme som små 
+røde prikker, med eller uden uforklarlig ekstrem træthed, forvirring, gulfarvning af huden eller 
+øjnene (gulsot) med symptomer på akut nyresvigt (lav eller ingen urinmængde), synstab og 
+krampeanfald. </li>
+<li>Toksisk epidermal nekrolyse: nedbrydning af og blæredannelse på huden eller i slimhinder, rød 
+hævet hud, der kan falde af kroppen i store stykker. </li>
+<li>Blindhed. </li>
+</ul>
+<p>Alvorlige meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10 000 behandlede):</p>
+<ul>
+<li>Stevens-Johnson syndrom: uforklarlige udbredte smerter i huden, hævelse i ansigtet, alvorlig 
+sygdom med blærer på huden, i munden, øjnene og på kønsorganerne, nældefeber, hævet tunge, 
+rødt eller lilla hududslæt, der breder sig, afskalning af huden. </li>
+<li>Torsades de pointes: forandringer i hjerterytmen, der kan være ledsaget (eller ikke) af 
+symptomer, såsom brystsmerter (angina), mathed, svimmelhed eller kvalme, hjertebanken (De 
+kan mærke Deres hjerteslag) og vejrtrækningsbesvær. </li>
+</ul>
+<p>Alvorlige ikke kendte bivirkninger (hyppigheden kan ikke estimeres ud fra forhåndenværende data):</p>
+<ul>
+<li>Opportunistiske infektioner (bakterie-, svampe-, virus- og protozoinfektioner): langvarig diarré, 
+feber og ondt i halsen. </li>
+<li>Godartede og ondartede tumorer er rapporteret efter behandling på grund af immunsuppression. </li>
+<li>Der er rapporteret tilfælde af Pure Red Cell Aplasia (en meget alvorlig reduktion i antallet af 
+røde blodlegemer), hæmolytisk anæmi (nedsat antal røde blodlegemer på grund af unormal 
+nedbrydning ledsaget af træthed) og febril neutropeni (et fald i typen af hvide blodlegemer der 
+bekæmper infektion, ledsaget af feber). Det vides ikke nøjagtigt, hvor ofte disse bivirkninger 
+forekommer. Det kan være, at De ingen symptomer har, eller afhængigt af sygdommens 
+sværhedsgrad kan De opleve: træthed, ligegyldighed, unormalt bleg hud, kortåndethed, 
+svimmelhed, hovedpine, brystsmerter og kolde hænder og fødder. </li>
+<li>Tilfælde af agranulocytose (alvorligt reduceret antal hvide blodlegemer ledsaget af sår i 
+munden, feber og infektion(er)). Det kan være, at De ingen symptomer har, eller De kan få 
+pludselig feber, stivhed og ondt i halsen. </li>
+<li>Allergiske og anafylaktiske reaktioner med følgende symptomer: et pludseligt kløende udslæt 
+(nældefeber), hævelse af hænder, fødder, ankler, ansigt, læber, mund eller hals (som kan 
+forårsage besvær med at synke eller trække vejret), og det kan føles, som om De skal besvime. </li>
+<li>Posterior reversibel encefalopati-syndrom (PRES): hovedpine, forvirring, humørsvingninger, 
+kramper og synsforstyrrelser. Dette kan være tegn på en sygdom, der kaldes posterior reversibel 
+encefalopati-syndrom, som er rapporteret hos nogle patienter, der er behandlet med tacrolimus. </li>
+<li>Optisk neuropati (forandringer i synsnerven): problemer med Deres syn såsom sløret syn, 
+ændringer i farvesynet, problemer med at se detaljer eller begrænsning af Deres synsfelt. </li>
+</ul>
+<p>Bivirkningerne, der er opstillet nedenfor, kan også forekomme efter, at De har fået Modigraf, og de 
+kan være alvorlige: </p>
+<p>Meget almindelige bivirkninger (kan forekomme hos flere end 1 ud af 10 behandlede):</p>
+<ul>
+<li>Forhøjet blodsukker, sukkersyge, øget kaliumindhold i blodet  </li>
+<li>Søvnløshed </li>
+<li>Rysten, hovedpine </li>
+<li>Forhøjet blodtryk </li>
+<li>Unormale leverfunktionstests </li>
+<li>Diarré, kvalme </li>
+<li>Nyreproblemer </li>
+</ul>
+<p>Almindelige bivirkninger (kan forekomme hos op til 1 ud af 10 behandlede):</p>
+<ul>
+<li>Nedsat antal blodceller (blodplader, røde eller hvide blodlegemer), øget antal hvide 
+blodlegemer, ændret antal røde blodlegemer (ses i blodprøver) </li>
+<li>Nedsat indhold af magnesium, fosfat, kalium, calcium eller natrium i blodet, væskeophobning, 
+øget indhold af urinsyre eller fedt i blodet, nedsat appetit, øget surhed af blodet, andre ændringer 
+i blodets salte (ses i blodprøver) </li>
+<li>Ængstelse, forvirring og desorientering, depression, humørsvingninger, mareridt, 
+hallucinationer, forstyrret sindstilstand </li>
+<li>Anfald, bevidsthedsforstyrrelser, prikken og følelsesløshed (nogle gange smertefuld) i hænder 
+og fødder, svimmelhed, nedsat skriveevne, forstyrrelser i nervesystemet </li>
+<li>Øget lysfølsomhed, problemer med øjnene </li>
+<li>Ringen for ørene </li>
+<li>Nedsat blodgennemstrømning i hjertets blodkar, øget puls </li>
+<li>Blødning, delvis eller fuldstændig blokering af blodkar, nedsat blodtryk </li>
+<li>Stakåndethed, forandring i lungevæv, væskeansamling omkring lungen, betændelse i svælget, 
+hoste, influenzalignende symptomer </li>
+<li>Betændelse eller mavesår, som giver mavesmerter eller diarré, maveblødning, betændelse eller 
+sår i munden, væskeansamling i bughulen, opkastning, mavesmerter, fordøjelsesbesvær, 
+forstoppelse, luftafgang fra tarmen, oppustethed, løs afføring, maveproblemer </li>
+<li>Galdegangssygdomme, gulsot, ødelæggelse af levervæv og leverbetændelse </li>
+<li>Kløe, udslæt, hårtab, akne, svedudbrud </li>
+<li>Smerter i led, lemmer, ryg og fødder, muskelspasmer </li>
+<li>Utilstrækkelig nyrefunktion, nedsat urindannelse, forringet eller smertefuld vandladning </li>
+<li>Generel svaghed, feber, væskeansamling i kroppen, smerter og ubehag, øget indhold af basisk 
+fosfatase i blodet, vægtstigning, ændret opfattelse af kropstemperatur </li>
+</ul>
+<p>Ikke almindelige bivirkninger (kan forekomme hos op til 1 ud af 100 behandlede):</p>
+<ul>
+<li>Ændret blodstørkning, nedsat antal af alle typer af blodceller (ses i blodprøver) </li>
+<li>Dehydrering </li>
+<li>Nedsat protein- og sukker i blodet, øget fosfat i blodet  </li>
+<li>Koma, blødning i hjernen, slagtilfælde, lammelse, forandringer i hjernen, tale- og 
+sprogforstyrrelser, hukommelsesproblemer </li>
+<li>Uklarhed af øjenlinsen </li>
+<li>Nedsat hørelse </li>
+<li>Uregelmæssigt hjerteslag, hjertestop, hjertesvigt, forstyrrelser i hjertemuskulaturen, forstørret 
+hjertemuskulatur, øget puls, unormalt EKG, unormalt hjerteslag og puls </li>
+<li>Blodprop i vene i lemmerne, shock </li>
+<li>Åndedrætsbesvær, lidelser i luftvejene, astma </li>
+<li>Tarmslyng, øget blodniveau af enzymet amylase, tilbageløb af maveindhold, forsinket tømning 
+af mavesækken </li>
+<li>Betændelsestilstand i huden, brændende fornemmelse i sollys </li>
+<li>Ledproblemer </li>
+<li>Manglende evne til at lade vandet, smertefuld menstruation og unormal menstruationsblødning </li>
+<li>Multiorgansvigt, influenzalignende sygdom, øget temperaturfølsomhed, trykken for brystet, 
+nervøsitet eller fremmedfølelse, stigning i enzymet laktatdehydrogenase i blodet, vægttab </li>
+</ul>
+<p>Sjældne bivirkninger (kan forekomme hos op til 1 ud af 1 000 behandlede):</p>
+<ul>
+<li>Små blødninger i huden </li>
+<li>Øget muskelstivhed </li>
+<li>Døvhed </li>
+<li>Væskeansamling omkring hjertet </li>
+<li>Akut åndenød </li>
+<li>Cystedannelse på bugspytkirtlen </li>
+<li>Problemer med blodcirkulation i leveren </li>
+<li>Øget behåring </li>
+<li>Tørst, øget tendens til at falde, trykken for brystet, nedsat bevægelighed, sår </li>
+</ul>
+<p>Meget sjældne bivirkninger (kan forekomme hos op til 1 ud af 10 000 behandlede):</p>
+<ul>
+<li>Muskelsvaghed </li>
+<li>Unormalt resultat af hjerteundersøgelse  </li>
+<li>Leversvigt </li>
+<li>Smertefuld vandladning med blod i urinen </li>
+<li>Øget fedtvæv 
+Børn og unge 
+Børn og unge kan opleve de samme bivirkinger som voksne. 
+Indberetning af bivirkninger 
+Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonalet. Dette gælder også 
+mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
+indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
+Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
+om sikkerheden af dette lægemiddel. </li>
+</ul>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store modigraf"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store modigraf"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Modigraf utilgængeligt for børn. </p>
+<p>Brug ikke Modigraf efter den udløbsdato, der står på pakningen og brevet efter EXP. Udløbsdatoen er 
+den sidste dag i den nævnte måned. </p>
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
+<p>Suspensionen bør indtages umiddelbart efter fremstillingen. </p>
+<p>Spørg på apoteket, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De ikke 
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Modigraf indeholder:</p>
+<ul>
+<li>Aktivt stof: tacrolimus 
+Hvert brev Modigraf 0,2 mg granulat indeholder 0,2 mg tacrolimus (som monohydrat). 
+Hvert brev Modigraf 1 mg granulat indeholder 1 mg tacrolimus (som monohydrat). </li>
+<li>Øvrige indholdsstoffer: 
+Lactosemonohydrat, hypromellose (E464) og croscarmellosenatrium (E468). 
+Udseende og pakningsstørrelser 
+Modigraf granulat til oral suspension er hvidt granulat i breve.<br />
+Pakninger med 50 breve er tilgængelige. </li>
+</ul>
+<p>Indehaver af markedsføringstilladelsen 
+Astellas Pharma Europe B.V. 
+Sylviusweg 2333 BE Leiden 
+Holland </p>
+<p>Fremstiller 
+Astellas Irland Co. Ltd. 
+Killorglin<br />
+County Kerry, V93FCIrland </p>
+<p>Hvis De ønsker yderligere oplysninger om dette lægemiddel, skal De henvende Dem til den lokale 
+repræsentant for indehaveren af markedsføringstilladelsen: </p>
+<p>België/Belgique/Belgien 
+Astellas Pharma B.V. Branch 
+Tél/Tel: + 32 (0)2 5580 
+Lietuva 
+Astellas Pharma d.o.o. 
+Tel: +370 37 408 България 
+Астелас Фарма ЕООД<br />
+Teл.: + 359 2 862 53<br />
+Luxembourg/Luxemburg 
+Astellas Pharma B.V.Branch 
+Belgique/Belgien 
+Tél/Tel: + 32 (0)2 5580 
+Česká republika 
+Astellas Pharma s.r.o. 
+Tel: +420 221 401<br />
+Magyarország 
+Astellas Pharma Kft. 
+Tel.: + 36 1 577 8 
+Danmark 
+Astellas Pharma a/s 
+Tlf.: + 45 43 430 
+Malta 
+Astellas Pharmaceuticals AEBE 
+Τel: +30 210 8189 
+Deutschland 
+Astellas Pharma GmbH 
+Tel: + 49 (0)89 454 
+Nederland 
+Astellas Pharma B.V. 
+Tel: + 31 (0)71 5455 
+Eesti 
+Astellas Pharma d.o.o. 
+Tel: +372 6 056<br />
+Norge 
+Astellas Pharma<br />
+ Tlf: + 47 66 76 46<br />
+Ελλάδα 
+Astellas Pharmaceuticals AEBE 
+Τηλ: +30 210 8189 
+Österreich 
+Astellas Pharma Ges.m.b.H. 
+Tel: + 43 (0)1 8772 
+España 
+Astellas Pharma S.A. 
+Tel: + 34 91 4952 
+Polska 
+Astellas Pharma Sp.z.o.o. 
+Tel.: + 48 225451<br />
+France 
+Astellas Pharma S.A.S. 
+Tél: + 33 (0)1 55917Portugal 
+Astellas Farma, Lda. 
+Tel: + 351 21 4401 
+Hrvatska 
+Astellas d.o.o. 
+Tel: + 385 1 670 01<br />
+România 
+S.C. Astellas Pharma SRL 
+Tel: +40 (0)21 361 04  </p>
+<p>Ireland 
+Astellas Pharma Co. Ltd. 
+Tel: + 353 (0)1 4671 
+Slovenija 
+Astellas Pharma d.o.o. 
+Tel: +386 (0) 14011<br />
+Ísland 
+Vistor hf 
+Sími: + 354 535 7000  </p>
+<p>Slovenská republika 
+Astellas Pharma s.r.o.,<br />
+Tel: +421 2 4444 2 
+Italia 
+Astellas Pharma S.p.A. 
+Tel: + 39 02 921 
+Suomi/Finland 
+Astellas Pharma<br />
+Puh/Tel: + 358 (0)9 85606 
+Κύπρος 
+Astellas Pharmaceuticals AEBE 
+Ελλάδα 
+Τηλ: +30 210 8189 
+Sverige 
+Astellas Pharma AB 
+Tel: + 46 (0)40-650 15<br />
+Latvija 
+Astellas Pharma d.o.o. 
+Tel: +371 67 619 
+United Kingdom (Northern Ireland) 
+Astellas Pharma Co., Limited 
+Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671 </p>
+<p>Denne indlægsseddel blev senest ændret   </p>
+<p>De kan finde yderligere oplysninger om Modigraf på Det Europæiske Lægemiddelagenturs 
+hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+
+
+
+
+
+                    
+Instance: bundlepackageleaflet-en-f4157e79e09e92e0d9cf70a720caf0e5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for modigraf Package Leaflet for language en"
+Description: "ePI document Bundle for modigraf Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f4157e79e09e92e0d9cf70a720caf0e5"
+* entry[0].resource = composition-en-f4157e79e09e92e0d9cf70a720caf0e5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf4157e79e09e92e0d9cf70a720caf0e5"
+* entry[=].resource = mpf4157e79e09e92e0d9cf70a720caf0e5
+                            
+                    
+Instance: bundlepackageleaflet-da-f4157e79e09e92e0d9cf70a720caf0e5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for modigraf Package Leaflet for language da"
+Description: "ePI document Bundle for modigraf Package Leaflet for language da"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #da
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-da-f4157e79e09e92e0d9cf70a720caf0e5"
+* entry[0].resource = composition-da-f4157e79e09e92e0d9cf70a720caf0e5
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf4157e79e09e92e0d9cf70a720caf0e5"
+* entry[=].resource = mpf4157e79e09e92e0d9cf70a720caf0e5
+                            
+                    
+
+
+
+Instance: mpf4157e79e09e92e0d9cf70a720caf0e5
 InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product Modigraf 0.2 mg granules for oral suspension"
-Description: "Modigraf 0.2 mg granules for oral suspension"
+Title: "Medicinal Product modigraf"
+Description: "modigraf"
 Usage: #inline
 
  
@@ -582,7 +1222,7 @@ Usage: #inline
 
 
 * name
-  * productName = "Modigraf 0.2 mg granules for oral suspension"
+  * productName = "modigraf"
   * type = $spor-productNamePartType-cs#220000000001 "Full name" 
   
   * part[0]
@@ -609,29 +1249,58 @@ Usage: #inline
 
 
 
-
-                      
-Instance: bundlepackageleaflet-en-f4157e79e09e92e0d9cf70a720caf0e5
-InstanceOf: BundleUvEpi
-Title: "ePI document Bundle for modigraf Package Leaflet for language en"
-Description: "ePI document Bundle for modigraf Package Leaflet for language en"
-Usage: #example
-
-
-
+RuleSet: f4157e79e09e92e0d9cf70a720caf0e5ListRuleset
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "Modigraf 0.2 mg granules for oral suspension"
-* type = #document
-* timestamp = "2023-06-27T10:09:22Z"
-* language = #en
+* identifier.value = "None"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "modigraf"
 
-// Composition
-* entry[0].fullUrl = "Composition/composition-en-f4157e79e09e92e0d9cf70a720caf0e5"
-* entry[0].resource = composition-en-f4157e79e09e92e0d9cf70a720caf0e5
+* status = #current
+* mode = #working
 
-// MPD
-* entry[+].fullUrl = "MedicinalProductDefinition/mpb97163b7c8fd64018c654f5a9c148dbd"
-* entry[=].resource = mpb97163b7c8fd64018c654f5a9c148dbd
-                            
-                      
+* title = "List of all ePIs associated with modigraf"
+
+* subject = Reference(mpb97163b7c8fd64018c654f5a9c148dbd)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#modigraf "modigraf"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-f4157e79e09e92e0d9cf70a720caf0e5) // modigraf en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-da-f4157e79e09e92e0d9cf70a720caf0e5) // modigraf da
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "da"
+
+
+
+
+Instance: List-f4157e79e09e92e0d9cf70a720caf0e5
+InstanceOf: List
+
+* insert f4157e79e09e92e0d9cf70a720caf0e5ListRuleset
+    
